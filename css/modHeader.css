@@ -3,13 +3,14 @@
 .headerMod {
 	display: inline-block;
 	vertical-align: top;
-	width: auto;
+	max-width: 20%;
 	max-width: 256px;
 }
 
 #modThumbRow {
 	display: block;
 	text-align: center;
+	overflow: hidden;
 }
 
 .enlarge {
@@ -22,7 +23,7 @@
 .enlarge:hover {
     transform: scale(1);
 }
-.headerMod < img.enlarge {
+.headerMod img.enlarge {
     text-align: center;
 	width: 100%;
 }
