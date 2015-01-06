@@ -3,7 +3,7 @@
 .headerMod {
 	display: inline-block;
 	vertical-align: top;
-	max-width: 20%;
+	width: 20%;
 	max-width: 256px;
 }
 
