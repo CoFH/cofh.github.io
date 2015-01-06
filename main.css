@@ -1,0 +1,10 @@
+body {
+	width: 768px;
+	margin: 0 auto;
+}
+
+/* --- Header --- */
+
+h1 {
+	text-align:center;
+}
