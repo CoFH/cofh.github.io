@@ -1,8 +1,15 @@
 /* --- Header Mods --- */
 
-.headermod {
+.headerMod {
 	display: inline-block;
-	width: 256px;
+	vertical-align: top;
+	width: auto;
+	max-width: 256px;
+}
+
+#modThumbRow {
+	display: block;
+	text-align: center;
 }
 
 .enlarge {
@@ -15,8 +22,9 @@
 .enlarge:hover {
     transform: scale(1);
 }
-.headermod < img.enlarge {
+.headerMod < img.enlarge {
     text-align: center;
+	width: 100%;
 }
 .undersquarelink, .undersquarelink:link, .undersquarelink:visited, .undersquarelink:hover, .undersquarelink:active {
     color: inherit;

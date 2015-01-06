@@ -1,9 +1,25 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
 body {
 	width: 768px;
 	margin: 0 auto;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* --- General Styling --- */
+
+p {
+	margin-bottom: 1em;
 }
 
 /* --- Header --- */
+
+header {
+	padding: 2em 0;
+}
 
 h1 {
 	text-align:center;
