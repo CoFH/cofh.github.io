@@ -7,3 +7,6 @@
 - name: "Twitter"
   icon: "twitter"
   url: "http://www.twitter.com/TeamCoFH"
+- name: "IRC Web Chat"
+  icon: "comments"
+  url: "http://webchat.esper.net/?nick=PoweredFurnace....&channels=#ThermalExpansion"
