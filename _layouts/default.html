@@ -5,12 +5,14 @@
 		{% include uikit.html %}
 	</head>
 	<body>
-		{% include navbar.html %}
 		<div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+			{% include navbar.html %}
 			<h1>{{ page.title }}</h1>
-			<hr />
+			<hr class="uk-margin-bottom" />
 			
 			{{ content }}
+			
+			<div class="uk-width-1-1 uk-text-center uk-margin-large-top"><a href data-uk-smooth-scroll><i class="uk-icon-large uk-icon-chevron-up"></i></a></div>
 		</div>
 	</body>
 </html>

@@ -1,39 +1,50 @@
-<nav class="uk-navbar" data-uk-sticky>
-	<a href="/" class="uk-navbar-brand">Team CoFH</a>
-	<ul class="uk-navbar-nav">
-		<li><a href>About</a></li>
-		<li class="uk-parent" data-uk-dropdown>
-			<a href>Redstone Flux <i class="uk-icon-caret-down"></i></a>
-			<div class="uk-dropdown uk-dropdown-navbar">
-				<ul class="uk-nav uk-nav-navbar">
-					<li><a href="/redstone-flux/a-primer.html">A Primer</a></li>
-					<li><a href>Supporting Mods</a></li>
+<div class="uk-grid uk-grid-match" data-uk-grid-match="{ target: '.uk-panel' }">
+	<div class="uk-hidden-small uk-width-medium-1-5">
+		<a href="/"><img src="/images/logo.png" /></a>
+	</div>
+	<div class="uk-width-1-1 uk-width-medium-4-5">
+		<div class="uk-panel uk-margin-top">
+			<nav class="uk-navbar">
+				<ul class="uk-navbar-nav">
+					<a href class="uk-visible-small uk-navbar-brand">Team CoFH</a>
+					<li><a href="/">Home</a></li>
+					<li><a href>About</a></li>
+					<li class="uk-parent" data-uk-dropdown="{delay: 500}">
+						<a href="/redstone-flux">Redstone Flux <i class="uk-icon-caret-down"></i></a>
+						<div class="uk-dropdown uk-dropdown-navbar">
+							<ul class="uk-nav uk-nav-navbar">
+								<li><a href="/redstone-flux/a-primer.html">A Primer</a></li>
+								<li><a href="/redstone-flux/supporting-mods.html">Supporting Mods</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="uk-parent" data-uk-dropdown="{delay: 500}">
+						<a href>Mods <i class="uk-icon-caret-down"></i></a>
+						<div class="uk-dropdown uk-dropdown-navbar">
+							<ul class="uk-nav uk-nav-navbar">
+								<li><a href>CoFHLib</a></li>
+								<li><a href>CoFH Core</a></li>
+								<li class="uk-nav-divider"></li>
+								<li><a href>Thermal Foundation</a></li>
+								<li><a href>Thermal Expansion</a></li>
+								<li><a href>Thermal Dynamics</a></li>
+								<li><a href>Redstone Arsenal</a></li>
+								<li class="uk-nav-divider"></li>
+								<li><a href>MineFactory Reloaded</a></li>
+								<li><a href>Nether Ores</a></li>
+							</ul>
+						</div>
+					</li>
 				</ul>
-			</div>
-		</li>
-		<li class="uk-parent" data-uk-dropdown>
-			<a href>Mods <i class="uk-icon-caret-down"></i></a>
-			<div class="uk-dropdown uk-dropdown-navbar">
-				<ul class="uk-nav uk-nav-navbar">
-					<li><a href>CoFHLib</a></li>
-					<li><a href>CoFH Core</a></li>
-					<li class="uk-nav-divider"></li>
-					<li><a href>Thermal Foundation</a></li>
-					<li><a href>Thermal Expansion</a></li>
-					<li><a href>Thermal Dynamics</a></li>
-					<li><a href>Redstone Arsenal</a></li>
-					<li class="uk-nav-divider"></li>
-					<li><a href>MineFactory Reloaded</a></li>
-					<li><a href>Nether Ores</a></li>
+				<ul class="uk-navbar-nav uk-navbar-flip">
+					<li><a href="/permissions.html"><i class="uk-icon-unlock-alt"></i> Permissions</a></li>
+					<li><a href="http://www.github.com/CoFH/Feedback" target="_blank"><i class="uk-icon-github"></i> Feedback</a></li>
+					<li><a href="http://www.twitter.com/TeamCoFH" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a></li>
 				</ul>
-			</div>
-		</li>
-	</ul>
-	<ul class="uk-navbar-nav uk-navbar-flip">
-		<li><a href="/permissions.html"><i class="uk-icon-unlock-alt"></i> Permissions</a></li>
-		<li><a href="http://www.github.com/CoFH/Feedback" target="_blank"><i class="uk-icon-github"></i> Feedback</a></li>
-	</ul>
-</nav>
+			</nav>
+		</div>
+	</div>
+</div>
 
 <!-- for copypasting
 	menu item
