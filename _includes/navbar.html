@@ -9,7 +9,7 @@
                     <a href class="uk-visible-small uk-navbar-brand">Team CoFH</a>
                     {% for item in site.data.tree.navbar_left %}
                     <li class="{% if item.name == page.title or item.name == page.group %}uk-active{% endif %} {% if item.subitems %}uk-parent{% endif %}" {% if item.subitems %}data-uk-dropdown="{delay: 500}"{% endif %}>
-                        <a href{% if item.url %}="{{ item.url }}"{% endif %}>
+                        <a href{% if item.url %}="{{ item.url }}"{% endif %} {% if item.target %}target="{{ item.target }}"{% endif %}>
                             {% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i> {% endif %}{{ item.name }}{% if item.subitems %} <i class="uk-icon-caret-down"></i>{% endif %}
                         </a>
                         {% if item.subitems %}
@@ -35,7 +35,7 @@
                 <ul class="uk-navbar-nav uk-navbar-flip">
                     {% for item in site.data.tree.navbar_right %}
                     <li {% if item.name == page.title %}class="uk-active"{% endif %}>
-                        <a href{% if item.url %}="{{ item.url }}"{% endif %}>
+                        <a href{% if item.url %}="{{ item.url }}"{% endif %} {% if item.target %}target="{{ item.target }}"{% endif %}>
                             {% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i> {% endif %}{{ item.name }}{% if item.subitems %} <i class="uk-icon-caret-down"></i>{% endif %}
                         </a>
                     </li>
