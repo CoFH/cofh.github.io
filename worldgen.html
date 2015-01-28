@@ -1,0 +1,457 @@
+---
+title: Custom World Generation
+groups:
+  - Mods
+  - CoFH Core
+---
+
+<p>
+	CoFH Core includes a powerful customizable world generator. Using this feature, users or modpack authors can specify their own ores, piles, boulders, spikes, caves, dungeons and more to generate in their worlds.
+</p>
+
+<p>
+	<strong>Note:</strong> A good understanding of the JSON markup language is recommended. A description of the JSON syntax can be found <a href="http://www.w3schools.com/json/json_syntax.asp" target="_blank">here</a>.
+</p>
+
+<h2>File structure</h2>
+<hr />
+
+<p>
+	Custom world generation is specified using JSON files in the 'world' folder, in the folder that stores the configuration files of most CoFH mods:<br />
+	<img class="uk-margin" src="/images/file_structure.png" /><br />
+	By default, this folder contains one or two files: <dfn>Vanilla.json</dfn> and possibly <dfn>ThermalExpansion-Ores.json</dfn>. The latter is only added when Thermal Expansion is present.
+</p>
+
+<p>These files can be freely edited to change the default types of world generation. It is also possible to add new files to be read by CoFH Core. This is not required when adding more world generation types, but can improve human readability. Furthermore, new folders that contain more files can be added in the 'world' folder, as it is read recursively.</p>
+
+<p>Any errors that are found in the files will be logged while the game starts. Be sure to check the log if generation is not working as intended.</p>
+
+<p>
+	<strong>Note 1:</strong> Editing Vanilla.json will only have effect if the option B:ReplaceVanillaGeneration is enabled in CoFH Core's main configuration file.<br />
+	<strong>Note 2:</strong> When adding a new file to the folder, make sure that the file has the .json extension.
+</p>
+
+<h2>Format</h2>
+<hr />
+
+<p>This section explains the format that CoFH Core reads custom world generation files in.</p>
+
+<p>Every world generation file contains a root Object, which in turn contains values that describe the actual world generation types themselves. These values are also Objects, and will from now on be called <dfn>entries</dfn>.</p>
+
+<p>
+	As an example of the format, see the <a href="http://pastebin.com/mc4C6qLH" target="_blank">default Vanilla.json file</a>.<br />
+	It can be seen here that the <dfn>template</dfn> value is the first value to be set on every entry. This is because the template is the most important value in an entry, and determines some of the other values that can or need to be set.
+</p>
+
+<p>
+	The <dfn>template</dfn> value describes how the generation of groups of blocks is distributed. A generator, which actually generates the blocks, can also be defined here.<br />
+	The template also specifies what other values are needed in an entry.
+</p>
+
+<p>The value of <dfn>template</dfn> can be either an Object or a String.</p>
+
+<p>If specified as an object, said object can contain the following values.</p>
+<table class="uk-table uk-table-striped">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Required</th>
+			<th>Type</th>
+			<th>Default</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>type</td>
+			<td>Yes</td>
+			<td>String</td>
+			<td>N/A</td>
+			<td>The type of template to use. Possible template types can be found under 'Template types'.</td>
+		</tr>
+		<tr>
+			<td>generator</td>
+			<td>No</td>
+			<td>String</td>
+			<td>Template specific</td>
+			<td>The type of generator to use. Possible generator types can be found under 'Generator types'.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Generator types may require additional values to be set. These values must be set in the template object as well.</p>
+
+<p>If specified as a string, the <dfn>type</dfn> value seen above can be used directly.</p>
+
+<p>After the template has been set, it is time to configure the other values in the entry. Some values can or need to be added to every entry, and some values only can or need to be added for specific template types.</p>
+
+<h2>Common values</h2>
+<hr />
+
+<p>These values can be added to every entry regardless of template type.</p>
+<table class="uk-table uk-table-striped">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Required</th>
+			<th>Type</th>
+			<th>Default</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>enabled</td>
+			<td>No</td>
+			<td>Boolean</td>
+			<td>true</td>
+			<td>Whether the entry is active. If false, the entry will not be read.</td>
+		</tr>
+		<tr>
+			<td>retrogen</td>
+			<td>No</td>
+			<td>Boolean</td>
+			<td>false</td>
+			<td>Whether previously generated chunks can be generated in. To work, the <dfn>B:RetroactiveOreGeneration</dfn> option must be enabled in CoFH Core's main configuration file. Also note that in order to retroactively generate the same entry again, the entry's name must be changed.</td>
+		</tr>
+		<tr>
+			<td>block</td>
+			<td>Yes</td>
+			<td>Block entry / Array of block entries</td>
+			<td>N/A</td>
+			<td>The block type(s) to generate.</td>
+		</tr>
+		<tr>
+			<td>material</td>
+			<td>No</td>
+			<td>Block entry / Array of block entries</td>
+			<td>Template specific</td>
+			<td>The block type(s) that may be replaced with blocks generated using the entry.</td>
+		</tr>
+		<tr>
+			<td>clusterSize</td>
+			<td>Generator specific</td>
+			<td>Number (integer)</td>
+			<td>0</td>
+			<td>Determines how large groups of blocks are. See 'Generator types' for how different generator types interpret this value.</td>
+		</tr>
+		<tr>
+			<td>numClusters</td>
+			<td>Yes</td>
+			<td>Number (integer)</td>
+			<td>N/A</td>
+			<td>How many attempts to generate blocks are done in a single chunk.</td>
+		</tr>
+		<tr>
+			<td>chunkChance</td>
+			<td>No</td>
+			<td>Number (integer)</td>
+			<td>1</td>
+			<td>Used to determine the chance of a chunk being generated into. One in [chunkChance] chunks will be generated into.</td>
+		</tr>
+		<tr>
+			<td>biomeRestriction</td>
+			<td>No</td>
+			<td>String</td>
+			<td>null</td>
+			<td>Whether the entry is restricted to (not) be used in certain biomes. Can be either <dfn>blacklist</dfn> or <dfn>whitelist</dfn>. Anything else or null will be interpreted as 'no restrictions'. Further specifications are done in the value "biomes".</td>
+		</tr>
+		<tr>
+			<td>biomes</td>
+			<td>No</td>
+			<td>Array of biome entries</td>
+			<td>null</td>
+			<td>To which biomes the <dfn>biomeRestriction</dfn> value applies.</td>
+		</tr>
+		<tr>
+			<td>dimensionRestriction</td>
+			<td>No</td>
+			<td>String</td>
+			<td>null</td>
+			<td>Whether the entry is restricted to (not) be used in certain dimensions. Can be either <dfn>blacklist</dfn> or <dfn>whitelist</dfn>. Anything else or null will be interpreted as 'no restrictions'. Further specifications are done in the value "dimensions".</td>
+		</tr>
+		<tr>
+			<td>dimensions</td>
+			<td>No</td>
+			<td>Array of numbers (integers)</td>
+			<td>null</td>
+			<td>To which dimensions the <dfn>dimensionRestriction</dfn> value applies. The numbers represent dimension IDs. The vanilla dimension IDs are as follows: 0 for the Overworld, -1 for the Nether and 1 for the End. Dimension IDs of mods can mostly be found in mod configuration files.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Template types</h2>
+<hr />
+
+<p>This section describes all the different template types that CoFH Core provides. Click on the name of a template type to see information about it.</p>
+
+<ul class="uk-subnav uk-subnav-line uk-subnav-pill uk-text-large" data-uk-switcher="{ connect: '#templates' }">
+	<li><a href>uniform</a></li>
+	<li><a href>normal</a></li>
+	<li><a href>surface</a></li>
+	<li><a href>decoration</a></li>
+	<li><a href>underfluid</a></li>
+	<li><a href>cave</a></li>
+	<li><a href>fractal</a></li>
+</ul>
+
+<div class="uk-panel uk-panel-box uk-panel-box" style="min-height: 525px;">
+	<ul id="templates" class="uk-switcher">
+		<li>
+			<p>
+				The <dfn>uniform</dfn> template generates groups of blocks with an even height distribution between a minimum and a maximum height.<br />
+				This template is most commonly used for generating ores.
+			</p>
+
+			<ul>
+				<li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
+				<li>The default material for this template is Stone blocks.</li>
+			</ul>
+
+			<p>Other than the common values, this template needs the following values to be added to an entry:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Required</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>minHeight</td>
+						<td>Yes</td>
+						<td>Number (integer)</td>
+						<td>N/A</td>
+						<td>The minimum Y level at which can be generated.</td>
+					</tr>
+					<tr>
+						<td>minHeight</td>
+						<td>Yes</td>
+						<td>Number (integer)</td>
+						<td>N/A</td>
+						<td>The maximum Y level at which can be generated. Must be higher than "minHeight".</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>normal</dfn> template is mostly the same as the <dfn>uniform</dfn> template. The only difference is the height distribution. Instead of an uniform distribution between a minimum and a maximum height, it has a normal distribution, meaning it is more likely to generate near the mean height than it is to generate near the set height limits.<br />
+				Minecraft generates Lapis Lazuli Ore with this kind of height distribution.
+			</p>
+			
+			<p>
+				<strong>Note:</strong> This template could be mistaken to be the 'normal' or standard template for generating ores. This is not the case, as the name refers to normal distribution. The most commonly used template for ores is <dfn>uniform</dfn>.
+			</p>
+
+			<ul>
+				<li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
+				<li>The default material for this template is Stone blocks.</li>
+			</ul>
+
+			<p>Other than the common values, this template needs the following values to be added to an entry:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Required</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>meanHeight</td>
+						<td>Yes</td>
+						<td>Number (integer)</td>
+						<td>N/A</td>
+						<td>The mean Y level at which can be generated.</td>
+					</tr>
+					<tr>
+						<td>maxVariance</td>
+						<td>Yes</td>
+						<td>Number (integer)</td>
+						<td>N/A</td>
+						<td>How much the Y level being generated on may differ from the mean height at most.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>surface</dfn> template is mostly the same as the <dfn>uniform</dfn> template, except this template generates groups of blocks into or near the surface (wherever the sky is directly visible).<br />
+				Examples of surface generation are the Gravel Ores from Tinkers' Construct.
+			</p>
+
+			<ul>
+				<li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
+				<li>The default materials for this template are Stone, Grass, Dirt, Gravel, Sand, Snow, Water and Air blocks. The Air material lets blocks be generated on top of the surface, while all other materials let blocks be generated into the surface.</li>
+			</ul>
+
+			<p>Other than the common values, this template can have the following value added to an entry:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Required</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>followTerrain</td>
+						<td>No</td>
+						<td>Boolean</td>
+						<td>false</td>
+						<td>Whether generation may replace 'soft' blocks like plants, foliage or fluids. If true, 'soft' blocks may <em>not</em> be replaced.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>decoration</dfn> extends upon the <dfn>surface</dfn> template, and uses the same entries as the ones the <dfn>surface</dfn> template uses.
+			</p>
+
+			<ul>
+				<li>By default, this template uses the <dfn>decoration</dfn> generator. It is meant to only be used with that generator type.</li>
+				<li>The default material for this template is Air blocks.</li>
+			</ul>
+		</li>
+		<li>
+			<p>
+				The <dfn>underfluid</dfn> template blocks into terrain that is directly below fluid blocks of certain types of fluids.<br />
+				Minecraft generates sand and clay underwater like this.
+			</p>
+			
+			<p>
+				Using <dfn>underwater</dfn> is also possible for the template type. This is a shortcut to using <dfn>underfluid</dfn> with the <dfn>genFluid</dfn> value left at its default.
+			</p>
+
+			<ul>
+				<li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
+				<li>The default materials for this template are Grass and Dirt blocks.</li>
+			</ul>
+
+			<p>Other than the common values, this template can have the following value added to an entry:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Required</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>genFluid</td>
+						<td>No</td>
+						<td>String / Array of Strings</td>
+						<td>Water (or similar)</td>
+						<td>Below which fluid types groups of blocks can be generated. The Strings are the internal names of fluids. Note that the default value is not <dfn>water</dfn>. Rather, when this value is not specified, the entry will generate blocks below any blocks with the 'water' material.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>cave</dfn> template generates groups of blocks along underground surfaces. Typically this only works below sea level. If sea level is below Y level 20, however, it will work on any height instead.
+			</p>
+
+			<ul>
+				<li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
+				<li>The default material for this template is Stone blocks.</li>
+			</ul>
+
+			<p>Other than the common values, this template needs the following value to be added to an entry:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Required</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>ceiling</td>
+						<td>Yes</td>
+						<td>Boolean</td>
+						<td>N/A</td>
+						<td>Whether the entry generates blocks on ceilings or floors. This is, for example, to prevent stalactites from generating on floors. If true, the entry generates blocks on ceilings, and if false, the entry generates blocks on floors.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>fractal</dfn> template generates groups of blocks together in larger clusters, also called 'veins' in its options. Essentially, the 'veins' define general areas for groups of blocks to generate in.<br />
+				This template is can be used to generate enormous veins of ore, or other kinds of blocks.
+			</p>
+
+			<ul>
+				<li>By default, this template uses the <dfn>large-vein</dfn> generator.</li>
+				<li>The default material for this template is Stone blocks.</li>
+			</ul>
+
+			<p>Other than the common values, this template needs the following values to be added to an entry:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Required</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>minHeight</td>
+						<td>Yes</td>
+						<td>Number (integer)</td>
+						<td>N/A</td>
+						<td>The minimum Y level at which can be generated.</td>
+					</tr>
+					<tr>
+						<td>veinHeight</td>
+						<td>Yes</td>
+						<td>Number (integer)</td>
+						<td>N/A</td>
+						<td>The vertical diameter of veins, measured in blocks along the Y axis.</td>
+					</tr>
+					<tr>
+						<td>veinDiameter</td>
+						<td>Yes</td>
+						<td>Number (integer)</td>
+						<td>N/A</td>
+						<td>The horizontal diameter of veins, measured in blocks along the X and Z axes.</td>
+					</tr>
+					<tr>
+						<td>verticalDensity</td>
+						<td>Yes</td>
+						<td>Number (integer)</td>
+						<td>N/A</td>
+						<td>How far apart different groups of blocks are along the Y axis in veins. Higher numbers mean that different groups are closer together, making veins contain more blocks in total. This value isn't measured in blocks. One will have to experiment with this value to obtain a desired result.</td>
+					</tr>
+					<tr>
+						<td>horizontalDensity</td>
+						<td>Yes</td>
+						<td>Number (integer)</td>
+						<td>N/A</td>
+						<td>Ditto, except along the X and Z axes, instead of along the Y axis.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+	</ul>
+</div>
