@@ -1,0 +1,33 @@
+- name: "Home"
+  url: "/"
+
+- name: "About"
+  url: "/about.html"
+
+- name: "Redstone Flux"
+  url: "/redstone-flux"
+  subitems:
+    - name: "Redstone Flux: A Primer"
+      url: "/redstone-flux/a-primer.html"
+    - name: "Supporting Mods"
+      url: "/redstone-flux/supporting-mods.html"
+
+- name: "Mods"
+  url: "/mods"
+  subitems:
+    - name: "CoFHLib"
+      url: "/mods/cofhlib"
+    - name: "CoFH Core"
+      url: "/mods/cofh-core"
+    - name: "-"
+    - name: "Thermal Foundation"
+      url: "/mods/thermal-foundation"
+    - name: "Thermal Expansion"
+      url: "/mods/thermal-expansion"
+    - name: "Thermal Dynamics"
+      url: "/mods/thermal-dynamics"
+    - name: "-"
+    - name: "MineFactory Reloaded"
+      url: "/mods/minefactory-reloaded"
+    - name: "Nether Ores"
+      url: "/mods/nether-ores"
