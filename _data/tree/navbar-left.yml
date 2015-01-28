@@ -26,6 +26,8 @@
       url: "/mods/thermal-expansion"
     - name: "Thermal Dynamics"
       url: "/mods/thermal-dynamics"
+    - name: "Redstone Arsenal"
+      url: "/mods/redstone-arsenal"
     - name: "-"
     - name: "MineFactory Reloaded"
       url: "/mods/minefactory-reloaded"
