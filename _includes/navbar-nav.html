@@ -1,0 +1,24 @@
+{% for item in include.items %}
+<li class="{% if item.name == page.title or item.name == page.group %}uk-active{% endif %} {% if item.subitems %}uk-parent{% endif %}" {% if item.subitems %}data-uk-dropdown="{delay: 500}"{% endif %}>
+	<a href{% if item.url %}="{{ item.url }}"{% endif %} {% if item.target %}target="{{ item.target }}"{% endif %}>
+		{% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i> {% endif %}{{ item.name }}{% if item.subitems %} <i class="uk-icon-caret-down"></i>{% endif %}
+	</a>
+	{% if item.subitems %}
+	<div class="uk-dropdown uk-dropdown-navbar">
+		<ul class="uk-nav uk-nav-navbar">
+		{% for subitem in item.subitems %}
+		{% if subitem.name == "-" %}
+			<li class="uk-nav-divider"></li>
+		{% else %}
+			<li class="{% if subitem.name == page.title %}uk-active{% endif %}">
+				<a href{% if subitem.url %}="{{ subitem.url }}"{% endif %}>
+					{% if subitem.icon %}<i class="uk-icon-{{ subitem.icon }}"></i> {% endif %}{{ subitem.name }}
+				</a>
+			</li>
+		{% endif %}
+		{% endfor %}
+		</ul>
+	</div>
+	{% endif %}
+</li>
+{% endfor %}
