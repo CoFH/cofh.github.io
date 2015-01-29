@@ -1,5 +1,5 @@
 {% for item in include.items %}
-<li class="{% if item.name == page.title or page.groups contains item.name %}uk-active{% endif %} {% if item.subitems %}uk-parent{% endif %}" {% if item.subitems %}data-uk-dropdown="{delay: 500}"{% endif %}>
+<li class="{% if item.name == page.title or page.groups contains item.name %}uk-active{% endif %} {% if item.subitems %}uk-parent{% endif %}" {% if item.subitems %}data-uk-dropdown{% endif %}>
 	<a href{% if item.url %}="{{ item.url }}"{% endif %} {% if item.target %}target="{{ item.target }}"{% endif %}>
 		{% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i> {% endif %}{{ item.name }}{% if item.subitems %} <i class="uk-icon-caret-down"></i>{% endif %}
 	</a>
