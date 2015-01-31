@@ -6,7 +6,7 @@ groups:
 ---
 
 <p>
-	CoFH Core includes a powerful customizable world generator. Using this feature, users or modpack authors can specify their own ores, piles, boulders, spikes, caves, dungeons and more to generate in their worlds.
+	CoFH Core includes a powerful customizable world generator. Using this feature, users or modpack authors can specify their own ores, plants, boulders, spikes, lakes, dungeons and more to generate in their worlds.
 </p>
 
 <p>
@@ -182,7 +182,10 @@ groups:
 <h2>Template types</h2>
 <hr />
 
-<p>This section describes all the different template types that CoFH Core provides. Click on the name of a template type to see information about it.</p>
+<p>
+	This section describes all the different template types that CoFH Core provides. Templates determine the distribution of groups of blocks.<br/>
+	Click on the name of a template type to see information about it.
+</p>
 
 <ul class="uk-subnav uk-subnav-line uk-subnav-pill uk-text-large" data-uk-switcher="{ connect: '#templates' }">
 	<li><a href>uniform</a></li>
@@ -315,7 +318,7 @@ groups:
 		</li>
 		<li>
 			<p>
-				The <dfn>decoration</dfn> extends upon the <dfn>surface</dfn> template, and uses the same entries as the ones the <dfn>surface</dfn> template uses.
+				The <dfn>decoration</dfn> extends upon the <dfn>surface</dfn> template, and uses the same entries as the ones the <dfn>surface</dfn> template uses. Used for generating scattered groups of blocks (like plants) on surfaces.
 			</p>
 
 			<ul>
@@ -449,6 +452,250 @@ groups:
 						<td>Number (integer)</td>
 						<td>N/A</td>
 						<td>Ditto, except along the X and Z axes, instead of along the Y axis.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+	</ul>
+</div>
+
+<h2>Generator types</h2>
+<hr />
+
+<p>
+	This section describes all the different generator types that CoFH Core provides. A generator actually generates groups of blocks after a template determined a location for it.<br />
+	Click on the name of a generator type to see information about it.
+</p>
+
+<ul class="uk-subnav uk-subnav-line uk-subnav-pill uk-text-large" data-uk-switcher="{ connect: '#generators' }">
+	<li><a href>cluster</a></li>
+	<li><a href>sparse-cluster</a></li>
+	<li><a href>large-vein</a></li>
+	<li><a href>decoration</a></li>
+	<li><a href>boulder</a></li>
+	<li><a href>lake</a></li>
+	<li><a href>geode</a></li>
+	<li><a href>spike</a></li>
+	<li><a href>stalagmite</a></li>
+	<li><a href>stalactite</a></li>
+	<li><a href>dungeon</a></li>
+</ul>
+
+<div class="uk-panel uk-panel-box uk-panel-box" style="min-height: 525px;">
+	<ul id="generators" class="uk-switcher">
+		<li>
+			<p>
+				The <dfn>cluster</dfn> generator creates 'blobs' of blocks. This template is most commonly used for generating basic ore veins.<br />
+				Minecraft generates ores and dirt/gravel pockets like this.
+			</p>
+
+			<ul>
+				<li>
+					The <dfn>clusterSize</dfn> value in entries determines how large the blobs are. However, it is hard to determine how exactly it affects the amount of blocks generated. It is capped at 32, and will be interpreted as 32 if it has a higher number.<br />
+					For reference, have a look in the <a href="http://pastebin.com/mc4C6qLH" target="_blank">default Vanilla.json file</a> to see examples of <dfn>clusterSize</dfn> values, and what the results of those entries are.
+				</li>
+			</ul>
+		</li>
+		<li>
+			<p>
+				The <dfn>sparse-cluster</dfn> generator is mostly the same as the <dfn>cluster</dfn> generator, with one notable exception. When using very small <dfn>clusterSize</dfn> values in entries (about 4 or less), clusters will only have a certain chance to actually generate, instead of generating a single block or so every time. At 3, 1 in 3 clusters will actually generate. At 2 it is 1 in 6 clusters, and at 1 it is 1 in 12 clusters.
+			</p>
+		</li>
+		<li>
+			<p>
+				The <dfn>large-vein</dfn> generator can be used to create veins that have a (much) larger <dfn>clusterSize</dfn> than the <dfn>cluster</dfn> generator can handle.
+			</p>
+
+			<ul>
+				<li>The <dfn>clusterSize</dfn> value in entries determines roughly how large veins are. Unlike <dfn>cluster</dfn>, there is no cap specified here. Use with caution.</li>
+			</ul>
+			
+			<p>This generator can have the following value added to the template object:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>sparse</td>
+						<td>Boolean</td>
+						<td>true</td>
+						<td>Used to determine the shape and density of veins. If true, veins will be smaller and more spread out, and will look somewhat like neurons. The <dfn>clusterSize</dfn> value in entries then determines roughly how many blocks a single vein contains. If false, veins will be much larger and more dense, somewhat closer to how the <dfn>cluster</dfn> generator works. It is also hard to predict how the <dfn>clusterSize</dfn> value affects the resulting amount of blocks in this case, but it seems to be tied exponentially.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>decoration</dfn> generator creates groups of blocks scattered around on surfaces.<br />
+				Minecraft generates Tall Grass, Flower and Cactus blocks like this, and also Fire blocks in the Nether.
+			</p>
+
+			<ul>
+				<li>The <dfn>clusterSize</dfn> value in entries determines how many blocks a single group may contain at most.</li>
+			</ul>
+			
+			<p>This generator can have the following values added to the template object:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>genSurface</td>
+						<td>Block entry / Array of block entries</td>
+						<td>Grass Block</td>
+						<td>The surface or surfaces to generate on top of.</td>
+					</tr>
+					<tr>
+						<td>genSky</td>
+						<td>Boolean</td>
+						<td>true</td>
+						<td>Whether to only generate on blocks that have a direct line of sight to the sky.</td>
+					</tr>
+					<tr>
+						<td>checkStay</td>
+						<td>Boolean</td>
+						<td>true</td>
+						<td>Specifies whether to only generate blocks if they can be sustained by the blocks they are generated on top of. For example, sugar canes cannot be sustained by blocks that are not directly next to water.</td>
+					</tr>
+					<tr>
+						<td>stackHeight</td>
+						<td>Number (integer)</td>
+						<td>1</td>
+						<td>How many times to stack a single generated block upwards. Used for things like cacti or sugar canes.</td>
+					</tr>
+					<tr>
+						<td>xVariance</td>
+						<td>Number (integer)</td>
+						<td>8</td>
+						<td>How spread out a group of blocks may be, in blocks along the X axis.</td>
+					</tr>
+					<tr>
+						<td>yVariance</td>
+						<td>Number (integer)</td>
+						<td>4</td>
+						<td>Ditto, except along the Y axis.</td>
+					</tr>
+					<tr>
+						<td>zVariance</td>
+						<td>Number (integer)</td>
+						<td>8</td>
+						<td>Ditto, except along the Z axis.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>boulder</dfn> generator creates sphere-like groups of blocks. Large boulders may look like parts of them are chipped off; however, that's just the way they are generated.<br />
+				Minecraft generates the cobblestone boulders in Mega Taiga biomes like this. 
+			</p>
+
+			<ul>
+				<li>The <dfn>clusterSize</dfn> value in entries determines the radius of boulders, in blocks.</li>
+				<li>Other than the <dfn>numClusters</dfn> value in entries, this generator has a <dfn>count</dfn> value of its. This is because the generator can, in turn, generate multiple boulders in a small group.</li>
+			</ul>
+			
+			<p>This generator can have the following values added to the template object:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>sizeVariance</td>
+						<td>Number (integer)</td>
+						<td>2</td>
+						<td>How much a particular boulder's radius may differ from the radius set by <dfn>clusterSize</dfn> (see above).</td>
+					</tr>
+					<tr>
+						<td>count</td>
+						<td>Number (integer)</td>
+						<td>3</td>
+						<td>How many boulders a single group can contain.</td>
+					</tr>
+					<tr>
+						<td>hollow</td>
+						<td>Boolean</td>
+						<td>false</td>
+						<td>Whether boulders have a room filled with Air blocks inside. This can be used to replicate the Abyssal Stone geodes from Railcraft.</td>
+					</tr>
+					<tr>
+						<td>hollowSize</td>
+						<td>Number (floating-point)</td>
+						<td>0.1665</td>
+						<td>Relatively how large the hollow part of boulders is on the inside, if they are set to be hollow. Can be any value between 0.0 (exclusive) and 1.0 (exclusive).</td>
+					</tr>
+					<tr>
+						<td>hollowVar</td>
+						<td>Number (floating-point)</td>
+						<td>0.0</td>
+						<td>Relatively how much the <dfn>hollowSize</dfn> value may differ per boulder.<br />The resulting value is calculated as: <dfn>hollowSize * (1 - [random 0.0-1.0] * hollowVar)</dfn>.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>lake</dfn> generator creates ponds of (usually) fluid blocks, carving out space if needed in the process.<br />
+				Minecraft generates this kind of 'lakes' using water or lava, both on the surface and underground.
+			</p>
+
+			<ul>
+				<li>The <dfn>block</dfn> value in entries determines what kind of blocks the 'fluid' part of the lake consists of.
+				<li>This generator does not use the <dfn>clusterSize</dfn> value in entries.</li>
+			</ul>
+			
+			<p>This generator can have the following values added to the template object:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>useMaterial</td>
+						<td>Boolean</td>
+						<td>false</td>
+						<td>Whether the generator takes the <dfn>material</dfn> value in entries into account, or ignores it and uses any block as a material.</td>
+					</tr>
+					<tr>
+						<td>outlineBlock</td>
+						<td>Block entry / Array of block entries</td>
+						<td>null</td>
+						<td>The block or blocks to surround the 'fluid' part of lakes with.</td>
+					</tr>
+					<tr>
+						<td>outlineWithStone</td>
+						<td>Boolean</td>
+						<td>false</td>
+						<td>A shortcut to set the <dfn>outlineBlock</dfn> value to Stone.</td>
+					</tr>
+					<tr>
+						<td>gapBlock</td>
+						<td>Block entry / Array of block entries</td>
+						<td>Air</td>
+						<td>The block or blocks that are used to 'carve' out space above lakes.</td>
 					</tr>
 				</tbody>
 			</table>
