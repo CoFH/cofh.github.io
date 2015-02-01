@@ -13,12 +13,12 @@ groups:
 	<strong>Note:</strong> A good understanding of the JSON markup language is recommended. A description of the JSON syntax can be found <a href="http://www.w3schools.com/json/json_syntax.asp" target="_blank">here</a>.
 </p>
 
-<h2>File structure</h2>
+<h2 id="file-structure">File structure</h2>
 <hr />
 
 <p>
-	Custom world generation is specified using JSON files in the 'world' folder, in the folder that stores the configuration files of most CoFH mods:<br />
-	<img class="uk-margin" src="/images/file_structure.png" /><br />
+	Custom world generation is specified using JSON files in the folder <dfn>[minecraft instance]\config\cofh\world</dfn>.<br />
+	<img class="uk-margin" src="/images/worldgen_folder.png" /><br />
 	By default, this folder contains one or two files: <dfn>Vanilla.json</dfn> and possibly <dfn>ThermalExpansion-Ores.json</dfn>. The latter is only added when Thermal Expansion is present.
 </p>
 
@@ -31,7 +31,7 @@ groups:
 	<strong>Note 2:</strong> When adding a new file to the folder, make sure that the file has the .json extension.
 </p>
 
-<h2>Format</h2>
+<h2 id="format">Format</h2>
 <hr />
 
 <p>This section explains the format that CoFH Core reads custom world generation files in.</p>
@@ -48,10 +48,10 @@ groups:
 	The template also specifies what other values are needed in an entry.
 </p>
 
-<p>The value of <dfn>template</dfn> can be either an Object or a String.</p>
+<p>The value of <dfn>template</dfn> can be either an Object or a String value.</p>
 
-<p>If specified as an object, said object can contain the following values.</p>
-<table class="uk-table uk-table-striped">
+<p>If specified as an Object, said Object can contain the following values.</p>
+<table class="uk-table uk-table-striped uk-text-small">
 	<thead>
 		<tr>
 			<th>Name</th>
@@ -80,15 +80,15 @@ groups:
 </table>
 <p>Generator types may require additional values to be set. These values must be set in the template object as well.</p>
 
-<p>If specified as a string, the <dfn>type</dfn> value seen above can be used directly.</p>
+<p>If specified as a String, the <dfn>type</dfn> value seen above can be used directly.</p>
 
 <p>After the template has been set, it is time to configure the other values in the entry. Some values can or need to be added to every entry, and some values only can or need to be added for specific template types.</p>
 
-<h2>Common values</h2>
+<h2 id="common-values">Common values</h2>
 <hr />
 
 <p>These values can be added to every entry regardless of template type.</p>
-<table class="uk-table uk-table-striped">
+<table class="uk-table uk-table-striped uk-text-small">
 	<thead>
 		<tr>
 			<th>Name</th>
@@ -116,14 +116,14 @@ groups:
 		<tr>
 			<td>block</td>
 			<td>Yes</td>
-			<td>Block entry / Array of block entries</td>
+			<td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
 			<td>N/A</td>
 			<td>The block type(s) to generate.</td>
 		</tr>
 		<tr>
 			<td>material</td>
 			<td>No</td>
-			<td>Block entry / Array of block entries</td>
+			<td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
 			<td>Template specific</td>
 			<td>The block type(s) that may be replaced with blocks generated using the entry.</td>
 		</tr>
@@ -158,7 +158,7 @@ groups:
 		<tr>
 			<td>biomes</td>
 			<td>No</td>
-			<td>Array of biome entries</td>
+			<td>Array of <a href="#biome-entry" data-uk-smooth-scroll>biome entries</a></td>
 			<td>null</td>
 			<td>To which biomes the <dfn>biomeRestriction</dfn> value applies.</td>
 		</tr>
@@ -174,12 +174,12 @@ groups:
 			<td>No</td>
 			<td>Array of numbers (integers)</td>
 			<td>null</td>
-			<td>To which dimensions the <dfn>dimensionRestriction</dfn> value applies. The numbers represent dimension IDs. The vanilla dimension IDs are as follows: 0 for the Overworld, -1 for the Nether and 1 for the End. Dimension IDs of mods can mostly be found in mod configuration files.</td>
+			<td>To which dimensions the <dfn>dimensionRestriction</dfn> value applies. The numbers represent dimension IDs. The vanilla dimension IDs are as follows: 0 for the Overworld, -1 for the Nether and 1 for the End. Dimension IDs of mods can usually be found in mod configuration files.</td>
 		</tr>
 	</tbody>
 </table>
 
-<h2>Template types</h2>
+<h2 id="template-types">Template types</h2>
 <hr />
 
 <p>
@@ -197,7 +197,7 @@ groups:
 	<li><a href>fractal</a></li>
 </ul>
 
-<div class="uk-panel uk-panel-box uk-panel-box" style="min-height: 525px;">
+<div class="uk-panel uk-panel-box uk-text-small" style="min-height: 420px /* blaze it */">
 	<ul id="templates" class="uk-switcher">
 		<li>
 			<p>
@@ -459,7 +459,7 @@ groups:
 	</ul>
 </div>
 
-<h2>Generator types</h2>
+<h2 id="generator-types">Generator types</h2>
 <hr />
 
 <p>
@@ -481,7 +481,7 @@ groups:
 	<li><a href>dungeon</a></li>
 </ul>
 
-<div class="uk-panel uk-panel-box uk-panel-box" style="min-height: 525px;">
+<div class="uk-panel uk-panel-box uk-text-small" style="min-height: 635px;">
 	<ul id="generators" class="uk-switcher">
 		<li>
 			<p>
@@ -553,7 +553,7 @@ groups:
 				<tbody>
 					<tr>
 						<td>genSurface</td>
-						<td>Block entry / Array of block entries</td>
+						<td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
 						<td>Grass Block</td>
 						<td>The surface or surfaces to generate on top of.</td>
 					</tr>
@@ -658,7 +658,7 @@ groups:
 			</p>
 
 			<ul>
-				<li>The <dfn>block</dfn> value in entries determines what kind of blocks the 'fluid' part of the lake consists of.
+				<li>The <dfn>block</dfn> value in entries determines what kind of blocks the 'fluid' part of the lake consists of.</li>
 				<li>This generator does not use the <dfn>clusterSize</dfn> value in entries.</li>
 			</ul>
 			
@@ -681,7 +681,7 @@ groups:
 					</tr>
 					<tr>
 						<td>outlineBlock</td>
-						<td>Block entry / Array of block entries</td>
+						<td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
 						<td>null</td>
 						<td>The block or blocks to surround the 'fluid' part of lakes with.</td>
 					</tr>
@@ -693,12 +693,516 @@ groups:
 					</tr>
 					<tr>
 						<td>gapBlock</td>
-						<td>Block entry / Array of block entries</td>
+						<td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
 						<td>Air</td>
 						<td>The block or blocks that are used to 'carve' out space above lakes.</td>
 					</tr>
 				</tbody>
 			</table>
 		</li>
+		<li>
+			<p>
+				The <dfn>geode</dfn> generator creates 'blobs' of blocks that are surrounded by a layer of blocks called the <dfn>crust</dfn>, and can optionally be hollowed out and then filled with a group of blocks called the <dfn>filler</dfn>.
+				Geodes procuded by this generator can be seen as fully-encased lakes that don't carve out any space.
+			</p>
+
+			<ul>
+				<li>This generator does not use the <dfn>clusterSize</dfn> value in entries.</li>
+			</ul>
+			
+			<p>This generator can have the following values added to the template object:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>crust</td>
+						<td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
+						<td>Stone</td>
+						<td>What blocks the crust of geodes are made of.</td>
+					</tr>
+					<tr>
+						<td>hollow</td>
+						<td>Boolean</td>
+						<td>false</td>
+						<td>Whether to leave out space in the center of geodes, so that a filler can be generated. This does <em>not</em> mean that the center of geodes will be set to Air. Instead, whatever blocks that were there before the generation will stay, unless a filler is specified.</td>
+					</tr>
+					<tr>
+						<td>filler</td>
+						<td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
+						<td>null</td>
+						<td>What blocks the filler of geodes are made of. If specified, <dfn>hollow</dfn> must be true for this to work correctly.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>spike</dfn> generator creates simple upward-pointing spikes. Large spikes may also be generated, which are the same as normal spikes, except with a tall column of blocks as filler added in somewhere. The spikes also have some kind of 'roots' below them that extends a few blocks into the surface they are generated on.<br />
+				This kind of generation is used by Minecraft to generate the spikes in the Ice Plains Spikes biome.
+			</p>
+
+			<ul>
+				<li>This generator does not use the <dfn>clusterSize</dfn> value in entries.</li>
+			</ul>
+			
+			<p>This generator can have the following values added to the template object:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>minHeight</td>
+						<td>Number (integer)</td>
+						<td>7</td>
+						<td>The minimum height of spikes, in blocks.</td>
+					</tr>
+					<tr>
+						<td>heightVariance</td>
+						<td>Number (integer)</td>
+						<td>4</td>
+						<td>How much may be added randomly to the minimum height of spikes, in blocks.</td>
+					</tr>
+					<tr>
+						<td>sizeVariance</td>
+						<td>Number (integer)</td>
+						<td>2</td>
+						<td>How much may be added randomly to the radius of spikes at the bottom, in blocks.</td>
+					</tr>
+					<tr>
+						<td>positionVariance</td>
+						<td>Number (integer)</td>
+						<td>4</td>
+						<td>A random offset along the Y axis when determining the position of spikes.</td>
+					</tr>
+					<tr>
+						<td>largeSpikes</td>
+						<td>Boolean</td>
+						<td>true</td>
+						<td>Whether large spikes may generate along with regular spikes.</td>
+					</tr>
+					<tr>
+						<td>largeSpikeChance</td>
+						<td>Number (integer)</td>
+						<td>60</td>
+						<td>How rare large spikes are, if they are enabled. One in [value] spikes generated will be a large spike.</td>
+					</tr>
+					<tr>
+						<td>minLargeSpikeHeightGain</td>
+						<td>Number (integer)</td>
+						<td>10</td>
+						<td>How much taller large spikes are than regular spikes at minimum, in blocks.</td>
+					</tr>
+					<tr>
+						<td>largeSpikeHeightVariance</td>
+						<td>Number (integer)</td>
+						<td>30</td>
+						<td>How much may be added randomly to the minimum height gain of large spikes, in blocks.</td>
+					</tr>
+					<tr>
+						<td>largeSpikeFillerSize</td>
+						<td>Number (integer)</td>
+						<td>1</td>
+						<td>The radius of the extra layers that large spikes have, in blocks.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>stalagmite</dfn> generator creates upward-pointing spikes. Unlike the spikes created by the <dfn>spike</dfn> generator that usually have a mostly uniform width, these spikes are usually much wider at the bottom and much thinner at the top.
+			</p>
+
+			<ul>
+				<li>This generator does not use the <dfn>clusterSize</dfn> value in entries.</li>
+			</ul>
+			
+			<p>This generator can have the following values added to the template object:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>genBody</td>
+						<td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
+						<td>Air</td>
+						<td>What materials the body of stalagmites can generate in. Not quite the same as the <dfn>material</dfn> value in entries, as that value determines where the base may generate.</td>
+					</tr>
+					<tr>
+						<td>minHeight</td>
+						<td>Number (integer)</td>
+						<td>7</td>
+						<td>The minimum height of stalagmites, in blocks.</td>
+					</tr>
+					<tr>
+						<td>heightVariance</td>
+						<td>Number (integer)</td>
+						<td>4</td>
+						<td>How much may be added randomly to the minimum height of stalagmites, in blocks.</td>
+					</tr>
+					<tr>
+						<td>genSize</td>
+						<td>Number (integer)</td>
+						<td>0</td>
+						<td>The minimum width of stalagmites at their base, in blocks. If set to 0, the <dfn>heightMod</dfn> value will be used to calculate the base width.</td>
+					</tr>
+					<tr>
+						<td>heightMod</td>
+						<td>Number (integer)</td>
+						<td>5</td>
+						<td>If <dfn>genSize</dfn> is set to 0, the height of stalagmites is divided by this value to get the base width of the spike in blocks. </td>
+					</tr>
+					<tr>
+						<td>sizeVariance</td>
+						<td>Number (integer)</td>
+						<td>2</td>
+						<td>How much may be added randomly to the minimum width of stalagmites at their base, in blocks.</td>
+					</tr>
+					<tr>
+						<td>smooth</td>
+						<td>Boolean</td>
+						<td>false</td>
+						<td>Whether stalagmites have a smooth curve in their shape from bottom to top. If false, stalagmites will be much more narrow and pointy.</td>
+					</tr>
+					<tr>
+						<td>fat</td>
+						<td>Boolean</td>
+						<td>true</td>
+						<td>If true, sets stalagmites to be thicker, usually leaving a larger footprint. The stalagmites still respect their set base width, though, which could result in parts being clipped away at the bottom. Used to make stalagmites less narrow higher up.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+		<li>
+			<p>
+				The <dfn>stalactite</dfn> generator is almost exactly the same as the <dfn>stalagmite</dfn> generator, with the key difference that the spikes created by this generator point downwards instead of upwards.
+			</p>
+		</li>
+		<li>
+			<p>
+				The <dfn>dungeon</dfn> generator creates chambers with a Monster Spawner in them. They can be set to generate near open areas, so that they have openings in the walls for monsters to wander out of. They can also have one or more loot chests in them. Dungeons have no ceilings of their own; those are made of whatever block is above them, if any.
+			</p>
+
+			<ul>
+				<li>The <dfn>block</dfn> value in entries specifies what blocks the walls of the chambers are made of.</li>
+				<li>This generator does not use the <dfn>clusterSize</dfn> value in entries.</li>
+			</ul>
+			
+			<p>This generator can have the following values added to the template object:</p>
+			<table class="uk-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>spawnEntity</td>
+						<td><a href="#entity-entry" data-uk-smooth-scroll>Entity entry</a> / Array of entity entries</td>
+						<td>Pig</td>
+						<td>What kind of entities are spawned by the Monster Spawner in dungeons.</td>
+					</tr>
+					<tr>
+						<td>spawnerFloor</td>
+						<td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
+						<td><dfn>block</dfn> value in entries</td>
+						<td>What blocks the floor of dungeons are made of.</td>
+					</tr>
+					<tr>
+						<td>lootTable</td>
+						<td>String / Array of <a href="#weighted-String-entry" data-uk-smooth-scroll>weighted String entries</a></td>
+						<td>dungeonChest</td>
+						<td>Which loot tables the chests in dungeons can use. A list of the default loot tables can be found <a href="http://pastebin.com/DrMw2XDj" target="_blank">here</a>. Some mods may also add their own loot tables. If those are intended to be used, the source code of the mods will have to be read to find the names.</td>
+					</tr>
+					<tr>
+						<td>maxChests</td>
+						<td>Number (integer)</td>
+						<td>2</td>
+						<td>The maximum amount of loot chests per dungeon.</td>
+					</tr>
+					<tr>
+						<td>minHoles</td>
+						<td>Number (integer)</td>
+						<td>1</td>
+						<td>The minimum amount of holes that a single dungeon must have in it. A hole is defined as an opening in the wall of a dungeon at the floor level, that is at least two blocks high. This option can be used to make dungeons generate in caves or near other open spaces. </td>
+					</tr>
+					<tr>
+						<td>maxHoles</td>
+						<td>Number (integer)</td>
+						<td>5</td>
+						<td>The maximum amount of holes that a single dungeon can have in it.</td>
+					</tr>
+					<tr>
+						<td>minHeight</td>
+						<td>Number (integer)</td>
+						<td>3</td>
+						<td>The minimum height of the dungeons, in blocks.</td>
+					</tr>
+					<tr>
+						<td>maxHeight</td>
+						<td>Number (integer)</td>
+						<td>3</td>
+						<td>The maximum height of the dungeons, in blocks.</td>
+					</tr>
+					<tr>
+						<td>minWidthX</td>
+						<td>Number (integer)</td>
+						<td>2</td>
+						<td>The minimum width of the dungeons along the X axis, in blocks.</td>
+					</tr>
+					<tr>
+						<td>maxWidthX</td>
+						<td>Number (integer)</td>
+						<td>3</td>
+						<td>The maximum width of the dungeons along the X axis, in blocks.</td>
+					</tr>
+					<tr>
+						<td>minWidthZ</td>
+						<td>Number (integer)</td>
+						<td>2</td>
+						<td>The minimum width of the dungeons along the Z axis, in blocks.</td>
+					</tr>
+					<tr>
+						<td>maxWidthZ</td>
+						<td>Number (integer)</td>
+						<td>3</td>
+						<td>The maximum width of the dungeons along the Z axis, in blocks.</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
 	</ul>
 </div>
+
+<h2 id="other-formats">Other formats</h2>
+<hr />
+
+<p>This section describes other kinds of formats that are used throughout the JSON files.</p>
+
+<h3 id="weighted-String-entry">Weighted String entry</h3>
+
+<p>This format describes a String with an associated weight, for use in randomization. Weighted String entries only useful in Arrays that can be randomly picked from.</p>
+
+<p>A weighted String entry can be either an Object or a String value.</p>
+
+<p>If specified as an Object, said Object can contain the following values.</p>
+<table class="uk-table uk-table-striped uk-text-small">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Required</th>
+			<th>Type</th>
+			<th>Default</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>name</td>
+			<td>Yes</td>
+			<td>String</td>
+			<td>N/A</td>
+			<td>The String itself.</td>
+		</tr>
+		<tr>
+			<td>weight</td>
+			<td>No</td>
+			<td>Number (integer)</td>
+			<td>100</td>
+			<td>Used to determine the chance of the entry being picked from the Array it's in.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>If specified as a String, the <dfn>name</dfn> value seen above can be used directly. The <dfn>weight</dfn> value will be set to its default.</p>
+
+<h3 id="block-entry">Block entry</h3>
+
+<p>This format describes a certain type of block.</p>
+
+<p>A block entry can be either an Object or a String value.</p>
+
+<p>If specified as an Object, said Object can contain the following values.</p>
+<table class="uk-table uk-table-striped uk-text-small">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Required</th>
+			<th>Type</th>
+			<th>Default</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>name</td>
+			<td>Yes</td>
+			<td>String</td>
+			<td>N/A</td>
+			<td>The internal name (ID) of the block. For example, <dfn>minecraft:stone</dfn> translates to Stone, and <dfn>ThermalFoundation:Ore</dfn> translates to the ore block from Thermal Foundation. If the block is from Minecraft itself, the <dfn>minecraft:</dfn> prefix is not required.</td>
+		</tr>
+		<tr>
+			<td>metadata</td>
+			<td>No</td>
+			<td>Number (integer)</td>
+			<td>0</td>
+			<td>The metadata of the block. Most of the time, the metadata of a block is equal to the damage value of its item form.</td>
+		</tr>
+		<tr>
+			<td>weight</td>
+			<td>No</td>
+			<td>Number (integer)</td>
+			<td>100</td>
+			<td>Used to determine the chance of the entry being picked from an Array it's in.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>If specified as a String, the <dfn>name</dfn> value seen above can be used directly. The other values will be set to their defaults.</p>
+
+<h3 id="biome-entry">Biome entry</h3>
+
+<p>This format describes a biome or a set of biomes that have something in common.</p>
+
+<p>A biome entry can be either an Object or a String value.</p>
+
+<p>If specified as an Object, said Object can contain the following values.</p>
+<table class="uk-table uk-table-striped uk-text-small">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Required</th>
+			<th>Type</th>
+			<th>Default</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>type</td>
+			<td>Yes</td>
+			<td>String</td>
+			<td>N/A</td>
+			<td>How the biome entry matches biomes. Possible values are <dfn>name</dfn>, <dfn>temperature</dfn> and <dfn>dictionary</dfn>.</td>
+		</tr>
+		<tr>
+			<td>entry</td>
+			<td>Yes</td>
+			<td>Number (integer)</td>
+			<td>0</td>
+			<td>
+				Used to match biomes. Differs depending on the type of the entry.
+				<ul>
+					<li>If <dfn>type</dfn> is set to <dfn>name</dfn>, this value can be either a single biome name String or an Array of them. Biomes are matched by their exact name, so partial names do not work. Biome names can be found ingame using the F3 debug screen.</li>
+					<li>If <dfn>type</dfn> is set to <dfn>temperature</dfn>, this value can be either a single temperature category String or an Array of them. Possible temperature categories are <dfn>OCEAN</dfn>, <dfn>COLD</dfn>, <dfn>MEDIUM</dfn> and <dfn>WARM</dfn>.</li>
+					<li>If <dfn>type</dfn> is set to <dfn>dictionary</dfn>, this value can be either a single Forge biome tag String or an Array here. A list of possible Forge biome tags can be found <a href="http://pastebin.com/0NH383ps" target="_blank">here</a>.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>whitelist</td>
+			<td>No</td>
+			<td>Boolean</td>
+			<td>true</td>
+			<td>If set to false, the biome entry will counteract the blacklist or whitelist it is part of.</td>
+		</tr>
+		<tr>
+			<td>rarity</td>
+			<td>No</td>
+			<td>Number (integer)</td>
+			<td>1</td>
+			<td>Adds a random chance to determining whether a biome matches the entry. One in [value] attempts to match a matching biome will go through. This can be used to make some kind of generation rarer in certain biomes.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>If specified as a String, the entry will be treated as a biome name to match biomes with. Biomes are matched by their exact name, so partial names do not work. Biome names can be found ingame using the F3 debug screen.</p>
+
+<h3 id="entity-entry">Entity entry</h3>
+
+<p>This format describes an entity and its properties.</p>
+
+<p>An entity entry can be either an Object or a String value.</p>
+
+<p>If specified as an Object, said Object can contain the following values.</p>
+<table class="uk-table uk-table-striped uk-text-small">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Required</th>
+			<th>Type</th>
+			<th>Default</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>entity</td>
+			<td>Only if <dfn>spawnerTag</dfn> is unspecified</td>
+			<td>String</td>
+			<td>N/A</td>
+			<td>The internal name of the entity, like <dfn>Creeper<dfn> or </dfn>PigZombie</dfn>. Ignored if <dfn>spawnerTag</dfn> is specified.</td>
+		</tr>
+		<tr>
+			<td>spawnerTag</td>
+			<td>No</td>
+			<td>Object</td>
+			<td>N/A</td>
+			<td>A much more specific way of defining an entity. Can contain values as defined <a href="http://minecraft.gamepedia.com/Chunk_format#MobSpawner" target="_blank">here</a>.</td>
+		</tr>
+		<tr>
+			<td>weight</td>
+			<td>No</td>
+			<td>Number (integer)</td>
+			<td>100</td>
+			<td>Used to determine the chance of the entry being picked from an Array it's in.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>If specified as a String, the <dfn>entity</dfn> value seen above can be used directly. The other values will be set to their defaults.</p>
+
+<h2 id="useful-resources">Useful resources</h2>
+<hr />
+
+<p>This section lists resources that can be useful when setting up world generation with CoFH Core.</p>
+
+<h3>Links</h3>
+<ul>
+	<li><a href="http://pastebin.com/mc4C6qLH" target="_blank">Default <dfn>Vanilla.json</dfn> file</a></li>
+	<li><a href="http://pastebin.com/vXurXG81" target="_blank">Default <dfn>ThermalExpansion-Ores.json</dfn> file</a></li>
+	<li><a href="http://minecraft.gamepedia.com/Data_values#Block_IDs" target="_blank">IDs of blocks in vanilla Minecraft</a></li>
+	<li><a href="http://minecraft.gamepedia.com/Data_values#Entity_IDs" target="_blank">IDs of entities in vanilla Minecraft (use the savegame IDs)</a></li>
+	<li><a href="http://minecraft.gamepedia.com/Data_values#Biome_IDs" target="_blank">Names of biomes in vanilla Minecraft</a></li>
+	<li><a href="http://minecraft.gamepedia.com/Chunk_format#MobSpawner" target="_blank">Monster Spawner tags</a></li>
+	<li><a href="http://pastebin.com/DrMw2XDj" target="_blank">Forge loot tables (does not include those added by mods)</a></li>
+	<li><a href="http://pastebin.com/0NH383ps" target="_blank">Forge biome tags</a></li>
+</ul>
+
+<h3>Mods</h3>
+<ul>
+	<li><a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods" target="_blank">Not Enough Items</a> - Can dump block IDs to a CSV file</li>
+	<li><a href="http://minecraft.curseforge.com/mc-mods/225251-nei-integration" target="_blank">NEI Integration</a> - Adds block ID tooltips and can dump entity names, loot table names and more to CSV files</li>
+	<li><a href="http://minetweaker3.powerofbytes.com/" target="_blank">MineTweaker</a> - Adds a command to show block IDs</li>
+</ul>
