@@ -1,0 +1,32 @@
+- name: "File structure"
+  url: "#file-structure"
+
+- name: "Format"
+  url: "#format"
+
+- name: "Common values"
+  url: "#common-values"
+
+- name: "Template types"
+  url: "#template-types"
+
+- name: "Generator types"
+  url: "#generator-types"
+
+- name: "Other formats"
+  url: "#other-formats"
+  subitems:
+    - name: "Weighted String entry"
+      url: "#weighted-string-entry"
+
+    - name: "Block entry"
+      url: "#block-entry"
+
+    - name: "Biome entry"
+      url: "#biome-entry"
+
+    - name: "Entity entry"
+      url: "#entity-entry"
+
+- name: "Useful resources"
+  url: "#useful-resources"

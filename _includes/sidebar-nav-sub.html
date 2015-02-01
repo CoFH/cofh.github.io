@@ -1,0 +1,21 @@
+<li><a href{% if include.item.url %}="{{ include.item.url }}" data-uk-smooth-scroll{% else %}="#"{% endif %}>{{ include.item.name }}</a></li>
+<li>
+	<ul>
+	{% for subitem in include.item.subitems %}
+	{% if subitem.name == "-" %}
+		<li class="uk-nav-divider"></li>
+	{% else %}
+		<li class="{% if subitem.name == page.title or page.groups contains subitem.name %}uk-active{% endif %} {% if item.subitems %}uk-parent{% endif %}">
+			<a href{% if subitem.url %}="{{ subitem.url }}" data-uk-smooth-scroll{% else %}="#"{% endif %} {% if item.target %}target="{{ item.target }}"{% endif %}>
+				{% if subitem.icon %}<i class="uk-icon-{{ subitem.icon }}"></i> {% endif %}{{ subitem.name }}
+			</a>
+			{% if subitem.subitems %}
+			<ul class="uk-nav-sub">
+				{% include sidebar-nav-sub.html item=subitem %}
+			</ul>
+			{% endif %}
+		</li>
+	{% endif %}
+	{% endfor %}
+	</ul>
+</li>

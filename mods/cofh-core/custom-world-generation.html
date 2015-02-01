@@ -1209,31 +1209,9 @@ groups:
 			<li><a href="http://minetweaker3.powerofbytes.com/" target="_blank">MineTweaker</a> - Adds a command to show block IDs</li>
 		</ul>
 	</div>
-	<div class="uk-width-1-4">
+	<div class="uk-width-1-4 uk-text-small">
 		<div class="uk-panel uk-panel-box" data-uk-sticky="{ top: 15 }">
-			<h4 class="uk-panel-title"><a href data-uk-smooth-scroll>Custom World Generation</a></h4>
-			<ul class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav>
-				<li><a href="#file-structure" data-uk-smooth-scroll>File structure</a></li>
-				<li><a href="#format" data-uk-smooth-scroll>Format</a></li>
-				<li><a href="#common-values" data-uk-smooth-scroll>Common values</a></li>
-				<li><a href="#template-types" data-uk-smooth-scroll>Template types</a></li>
-				<li><a href="#generator-types" data-uk-smooth-scroll>Generator types</a></li>
-				<li class="uk-parent">
-					<a href="#">Other formats</a>
-					<ul class="uk-nav-sub">
-						<li><a href="#other-formats" data-uk-smooth-scroll>Other formats</a></li>
-						<li>
-							<ul>
-								<li><a href="#weighted-string-entry" data-uk-smooth-scroll>Weighted String entry</a></li>
-								<li><a href="#block-entry" data-uk-smooth-scroll>Block entry</a></li>
-								<li><a href="#biome-entry" data-uk-smooth-scroll>Biome entry</a></li>
-								<li><a href="#entity-entry" data-uk-smooth-scroll>Entity entry</a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li><a href="#useful-resources" data-uk-smooth-scroll>Useful resources</a></li>
-			</ul>
+			{% include sidebar-nav.html class='uk-panel-box' items=site.data.tree.mods.cofh-core.custom-world-generation %}
 		</div>
 	</div>
 </div>
