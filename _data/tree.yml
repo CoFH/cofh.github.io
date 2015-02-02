@@ -255,7 +255,7 @@
           subitems:
             - name: "Materials"
               subitems:
-                - name: "Rubber Sapling"
+                - name: "Rubber Saplings"
                   subitems:
                     - name: "Rubber Sapling"
                     - name: "Mega Rubber Sapling"
