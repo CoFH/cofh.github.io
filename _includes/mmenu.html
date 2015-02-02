@@ -1,9 +1,12 @@
 <ul>
 	{% for item in include.items %}
+    {% assign url = null %}
+    {% if item.url %}{% capture url %}{{ include.url }}{{ item.url }}{% endcapture %}{% endif %}
+    {% if url contains '#' %}{% assign urlNext = include.url %}{% else %}{% assign urlNext = url %}{% endif %}
 	<li class="{{ item.class }} {% if item.name == page.title %}Selected{% endif %}">
-		<{% if item.url %}a href="{{ item.url }}" target="{{ item.target }}"{% else %}span{% endif %}>{% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i>{% endif %} {{ item.name }}</{% if item.url %}a{% else %}span{% endif %}>
+		<{% if url %}a href="{{ url }}" {% if item.target %}target="{{ item.target }}"{% endif %}{% else %}span{% endif %}>{% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i>{% endif %} {{ item.name }}</{% if url %}a{% else %}span{% endif %}>
 		{% if item.subitems %}
-			{% include mmenu.html items=item.subitems %}
+			{% include mmenu.html items=item.subitems url=urlNext %}
 		{% endif %}
 	</li>
 	{% endfor %}

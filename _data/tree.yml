@@ -8,22 +8,45 @@
   url: "/redstone-flux"
   subitems:
     - name: "Redstone Flux: A Primer"
-      url: "/redstone-flux/a-primer.html"
+      url: "/a-primer.html"
     - name: "Supporting Mods"
-      url: "/redstone-flux/supporting-mods.html"
+      url: "/supporting-mods.html"
 
 - name: "Mods"
   url: "/mods"
   subitems:
     - name: "CoFHLib"
-      url: "/mods/cofhlib"
+      url: "/cofhlib"
     - name: "CoFH Core"
-      url: "/mods/cofh-core"
+      url: "/cofh-core"
       subitems:
         - name: "Commands"
         - name: "Custom World Generation"
-          url: "/mods/cofh-core/custom-world-generation.html"
-
+          url: "/custom-world-generation.html"
+          subitems:
+            - name: "File structure"
+              url: "#file-structure"
+            - name: "Format"
+              url: "#format"
+            - name: "Common values"
+              url: "#common-values"
+            - name: "Template types"
+              url: "#template-types"
+            - name: "Generator types"
+              url: "#generator-types"
+            - name: "Other formats"
+              url: "#other-formats"
+              subitems:
+                - name: "Weighted String entry"
+                  url: "#weighted-string-entry"
+                - name: "Block entry"
+                  url: "#block-entry"
+                - name: "Biome entry"
+                  url: "#biome-entry"
+                - name: "Entity entry"
+                  url: "#entity-entry"
+            - name: "Useful resources"
+              url: "#useful-resources"
     - name: "Thermal Foundation"
       class: "uk-margin-large-top"
       subitems:
@@ -82,7 +105,7 @@
           subitems:
             - name: "Blizz"
     - name: "Thermal Expansion"
-      url: "/mods/thermal-expansion"
+      url: "/thermal-expansion"
       subitems:
         - name: "Blocks"
           subitems:
