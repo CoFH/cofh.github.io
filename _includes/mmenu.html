@@ -1,0 +1,10 @@
+<ul>
+	{% for item in include.items %}
+	<li class="{{ item.class }} {% if item.name == page.title %}Selected{% endif %}">
+		<a href="{{ item.url }}" target="{{ item.target }}">{% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i>{% endif %} {{ item.name }}</a>
+		{% if item.subitems %}
+			{% include mmenu.html items=item.subitems %}
+		{% endif %}
+	</li>
+	{% endfor %}
+</ul>

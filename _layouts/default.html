@@ -7,47 +7,26 @@
 		
 		<script type="text/javascript">
 			$(function() {
-				$('#sidebar-menu li').each(function() {
-					if($(this).find('.uk-active').length == 0) {
-						$(this).children('ul').hide();
-					} else {
-						$(this).addClass('uk-open');
+				$('#sidebar-menu').mmenu({
+					classes: 'mm-light mm-slide',
+					searchfield: true,
+					counters: true,
+					header: {
+						add: true,
+						update: true,
+						title: 'Team CoFH'
 					}
-				});
-			
-				$('#sidebar-menu li a:nth-child(2n)').click(function(e) {
-					$(this).parent().children('ul').slideToggle(200);
-					$(this).parent().toggleClass('uk-open');
 				});
 			});
 		</script>
 	</head>
-	<body>
-		<div class="uk-grid uk-grid-preserve">
-			<div id="sidebar-menu" class="uk-width-1-5 cofh-padding">
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/about.html">About</a></li>
-					<li><a href="/redstone-flux">Redstone Flux</a></li>
-					<li class="uk-clearfix">
-						<a href="#">Mods</a> <a class="uk-float-right" href="#"><i class="uk-icon-chevron-right"></i></a>
-						<ul>
-							<li><a href="/mods/cofh-core">CoFH Core</a></li>
-							<li><a href="/mods/thermal-expansion">Thermal Expansion</a></li>
-							<li class="uk-clearfix">
-								<a href="#">Mods</a> <a class="uk-float-right" href="#"><i class="uk-icon-chevron-right"></i></a>
-								<ul>
-									<li><a href="/mods/cofh-core">CoFH Core</a></li>
-									<li><a href="/mods/thermal-expansion">Thermal Expansion</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="/permissions.html">Permissions</a></li>
-				</ul>
-			</div>
-			
-			<div class="uk-width-4-5 cofh-padding">			
+	<body class="uk-margin-large-bottom">
+		<nav id="sidebar-menu" class="uk-width-1-5 cofh-padding">
+			{% include mmenu.html items=site.data.tree %}
+		</nav>
+		<div class="uk-grid">
+			<div class="uk-width-1-4"></div>
+			<div class="uk-width-3-4 cofh-padding">			
 				{% if page.title != 'Home' %}
 				<ul class="uk-breadcrumb">
 				<li><a href="/">Home</a></li>
