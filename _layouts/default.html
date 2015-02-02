@@ -3,32 +3,70 @@
 	<head>
 		<title>{{ page.title }} - Team CoFH</title>
 		<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-		{% include uikit.html %}
+		{% include css-js.html %}
+		
+		<script type="text/javascript">
+			$(function() {
+				$('#sidebar-menu li').each(function() {
+					if($(this).find('.uk-active').length == 0) {
+						$(this).children('ul').hide();
+					} else {
+						$(this).addClass('uk-open');
+					}
+				});
+			
+				$('#sidebar-menu li a:nth-child(2n)').click(function(e) {
+					$(this).parent().children('ul').slideToggle(200);
+					$(this).parent().toggleClass('uk-open');
+				});
+			});
+		</script>
 	</head>
 	<body>
-		<div class="uk-container uk-container-center uk-margin-large-bottom">
-			{% include navbar.html %}
+		<div class="uk-grid uk-grid-preserve">
+			<div id="sidebar-menu" class="uk-width-1-5 cofh-padding">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about.html">About</a></li>
+					<li><a href="/redstone-flux">Redstone Flux</a></li>
+					<li class="uk-clearfix">
+						<a href="#">Mods</a> <a class="uk-float-right" href="#"><i class="uk-icon-chevron-right"></i></a>
+						<ul>
+							<li><a href="/mods/cofh-core">CoFH Core</a></li>
+							<li><a href="/mods/thermal-expansion">Thermal Expansion</a></li>
+							<li class="uk-clearfix">
+								<a href="#">Mods</a> <a class="uk-float-right" href="#"><i class="uk-icon-chevron-right"></i></a>
+								<ul>
+									<li><a href="/mods/cofh-core">CoFH Core</a></li>
+									<li><a href="/mods/thermal-expansion">Thermal Expansion</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="/permissions.html">Permissions</a></li>
+				</ul>
+			</div>
 			
-			{% if page.title != 'Home' %}
-			<ul class="uk-breadcrumb uk-margin-large-top">
-			<li><a href="/">Home</a></li>
-			{% for group in page.groups %}
-				{% for sitepage in site.pages %}
-					{% if sitepage.title == group %}
-						<li><a href="{{ sitepage.url }}">{{ group }}</a></li>
-					{% endif %}
+			<div class="uk-width-4-5 cofh-padding">			
+				{% if page.title != 'Home' %}
+				<ul class="uk-breadcrumb">
+				<li><a href="/">Home</a></li>
+				{% for group in page.groups %}
+					{% for sitepage in site.pages %}
+						{% if sitepage.title == group %}
+							<li><a href="{{ sitepage.url }}">{{ group }}</a></li>
+						{% endif %}
+					{% endfor %}
 				{% endfor %}
-			{% endfor %}
-			<li class="uk-active"><span>{{ page.title }}</span></li>
-			</ul>
-			{% endif %}
-			
-			<h1>{{ page.title }}</h1>
-			<hr class="uk-margin-bottom" />
-			
-			{{ content }}
-			
-			<div class="uk-width-1-1 uk-text-center uk-margin-large-top"><a href data-uk-smooth-scroll><i class="uk-icon-large uk-icon-chevron-up"></i></a></div>
+				<li class="uk-active"><span>{{ page.title }}</span></li>
+				</ul>
+				{% endif %}
+				
+				<h1>{{ page.title }}</h1>
+				<hr class="uk-margin-bottom" />
+				
+				{{ content }}
+			</div>
 		</div>
 	</body>
 </html>
