@@ -1,7 +1,7 @@
 <ul>
 	{% for item in include.items %}
 	<li class="{{ item.class }} {% if item.name == page.title %}Selected{% endif %}">
-		<a href="{{ item.url }}" target="{{ item.target }}">{% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i>{% endif %} {{ item.name }}</a>
+		<{% if item.url %}a href="{{ item.url }}" target="{{ item.target }}"{% else %}span{% endif %}>{% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i>{% endif %} {{ item.name }}</{% if item.url %}a{% else %}span{% endif %}>
 		{% if item.subitems %}
 			{% include mmenu.html items=item.subitems %}
 		{% endif %}
