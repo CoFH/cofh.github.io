@@ -162,7 +162,7 @@
                     - name: "Creative Strongbox"
                 - name: "Caches"
                   subitems:
-                    - name: "Cache"
+                    - name: "Basic Cache"
                     - name: "Hardened Cache"
                     - name: "Reinforced Cache"
                     - name: "Resonant Cache"
