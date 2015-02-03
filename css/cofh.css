@@ -1,9 +1,14 @@
 .cofh-padding {
-	padding: 25px;
+    padding: 25px;
+}
+
+.cofh-navicon {
+    width: 20px;
+    margin-right: 5px;
 }
 
 #sidebar-menu {
-	position: fixed;
-	width: 22%;
+    position: fixed;
+    width: 22%;
     border-right: 2px solid #DBDBDB;
 }
