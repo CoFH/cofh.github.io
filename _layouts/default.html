@@ -26,21 +26,7 @@
 		</nav>
 		<div class="uk-grid">
 			<div class="uk-width-1-4"></div>
-			<div class="uk-width-3-4 cofh-padding">			
-				{% if page.title != 'Home' %}
-				<ul class="uk-breadcrumb">
-				<li><a href="/">Home</a></li>
-				{% for group in page.groups %}
-					{% for sitepage in site.pages %}
-						{% if sitepage.title == group %}
-							<li><a href="{{ sitepage.url }}">{{ group }}</a></li>
-						{% endif %}
-					{% endfor %}
-				{% endfor %}
-				<li class="uk-active"><span>{{ page.title }}</span></li>
-				</ul>
-				{% endif %}
-				
+			<div class="uk-width-3-4 cofh-padding">
 				<h1>{{ page.title }}</h1>
 				<hr class="uk-margin-bottom" />
 				
