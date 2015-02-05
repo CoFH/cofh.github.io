@@ -51,8 +51,6 @@
                   url: "#reloadworldgen"
                 - name: "unloadchunk"
                   url: "#unloadchunk"
-        - name: "Game Tweaks"
-          url: "/game-tweaks.html"
         - name: "Custom World Generation"
           url: "/custom-world-generation.html"
           subitems:
