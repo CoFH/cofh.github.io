@@ -21,6 +21,8 @@
       url: "/cofh-core"
       subitems:
         - name: "Commands"
+        - name: "Game Tweaks"
+          url: "/game-tweaks.html"
         - name: "Custom World Generation"
           url: "/custom-world-generation.html"
           subitems:
@@ -485,8 +487,8 @@
                   subitems:
                     - name: "Breeder"
                       image: "breeder"
-                    - name: "Vet"
-                      image: "vet"
+                    - name: "Veterinary Station"
+                      image: "veterinary-station"
                     - name: "Chronotyper"
                       image: "chronotyper"
                     - name: "Rancher"
@@ -783,9 +785,12 @@
         - name: "Mod Support"
     - name: "Nether Ores"
 
+- name: "Downloads"
+  icon: "download"
+  class: "uk-margin-large-top"
+  url: "/downloads.html"
 - name: "Permissions"
   icon: "unlock-alt"
-  class: "uk-margin-large-top"
   url: "/permissions.html"
 - name: "Twitter"
   icon: "twitter"

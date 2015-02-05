@@ -1,0 +1,12 @@
+<a href="#{{ include.id }}" class="uk-thumbnail{% if include.size %} uk-thumbnail-{{ include.size }}{% endif %}" data-uk-modal>
+    <img src="{{ include.src }}" />
+    {% if include.caption %}<div class="uk-thumbnail-caption">{{ include.caption }}</div>{% endif %}
+</a>
+
+<div id="{{ include.id }}" class="uk-modal">
+    <div class="uk-modal-dialog">
+        <a href="" class="uk-modal-close uk-close"></a>
+        <img src="{{ include.src }}">
+        {% if include.caption %}<div class="uk-modal-caption">{{ include.caption }}</div>{% endif %}
+    </div>
+</div>
