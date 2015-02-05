@@ -9,7 +9,7 @@
         {% else %}
             {% assign urlNext = url %}
         {% endif %}
-        {% capture urlCheck %}{% if url contains '.html' %}{{ url }}{% else %}/index.html{% endif %}{% endcapture %}
+        {% capture urlCheck %}{% if url contains '.html' %}{{ url }}{% else %}{{ url }}/index.html{% endif %}{% endcapture %}
         <li class="{{ item.class }} {% if page.url == urlCheck %}Selected{% endif %}">
             <{% if url %}a href="{{ url }}" {% if item.target %}target="{{ item.target }}"{% endif %}{% else %}span{% endif %}>
                 {% if item.image %}<img src="/images/icons-32/{{ item.image }}.png" class="cofh-navicon" /> {% endif %}
