@@ -15,9 +15,9 @@
 - name: "Mods"
   subitems:
     - name: "CoFHLib"
-      url: "/cofhlib"
+      url: "/mods/cofhlib"
     - name: "CoFH Core"
-      url: "/cofh-core"
+      url: "/mods/cofh-core"
       subitems:
         - name: "Commands"
           url: "/commands.html"
@@ -175,7 +175,7 @@
             - name: "Blizz"
               image: "blizz-head"
     - name: "Thermal Expansion"
-      url: "/thermal-expansion"
+      url: "/mods/thermal-expansion"
       subitems:
         - name: "Blocks"
           subitems:
