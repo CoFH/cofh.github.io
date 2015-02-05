@@ -9,8 +9,7 @@
         {% else %}
             {% assign urlNext = url %}
         {% endif %}
-        
-        <li class="{{ item.class }} {% if item.name == page.title %}Selected{% endif %}">
+        <li class="{{ item.class }} {% if url == page.url %}Selected{% endif %}">
             <{% if url %}a href="{{ url }}" {% if item.target %}target="{{ item.target }}"{% endif %}{% else %}span{% endif %}>
                 {% if item.image %}<img src="/images/icons-32/{{ item.image }}.png" class="cofh-navicon" /> {% endif %}
                 {% if item.icon %}<i class="uk-icon-{{ item.icon }}"></i> {% endif %}

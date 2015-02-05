@@ -5,7 +5,7 @@
   url: "/about.html"
 
 - name: "Redstone Flux"
-  url: "/redstone-flux"
+  url: "/redstone-flux/index.html"
   subitems:
     - name: "Redstone Flux: A Primer"
       url: "/a-primer.html"
@@ -15,12 +15,12 @@
 - name: "Mods"
   subitems:
     - name: "CoFHLib"
-      url: "/mods/cofhlib"
+      url: "/mods/cofhlib/index.html"
     - name: "CoFH Core"
-      url: "/mods/cofh-core"
+      url: "/mods/cofh-core/index.html"
       subitems:
         - name: "Commands"
-          url: "/commands.html"
+          url: "/commands.html/index.html"
           subitems:
             - name: "Summary"
               url: "#summary"
@@ -175,7 +175,7 @@
             - name: "Blizz"
               image: "blizz-head"
     - name: "Thermal Expansion"
-      url: "/mods/thermal-expansion"
+      url: "/mods/thermal-expansion/index.html"
       subitems:
         - name: "Blocks"
           subitems:
