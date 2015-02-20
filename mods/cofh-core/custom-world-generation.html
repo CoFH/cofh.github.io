@@ -326,7 +326,6 @@ title: Custom World Generation
         <li>
             <p>
                 The <dfn>underfluid</dfn> template blocks into terrain that is directly below fluid blocks of certain types of fluids.<br />
-                Minecraft generates sand and clay underwater like this.
             </p>
             
             <p>
@@ -335,6 +334,7 @@ title: Custom World Generation
 
             <ul>
                 <li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
+                <li>If the <dfn>underwater</dfn> template is used, this template uses the <dfn>plate</dfn> generator by default instead.</li>
                 <li>The default materials for this template are Grass and Dirt blocks.</li>
             </ul>
 
@@ -469,6 +469,7 @@ title: Custom World Generation
     <li><a href>sparse-cluster</a></li>
     <li><a href>large-vein</a></li>
     <li><a href>decoration</a></li>
+    <li><a href>plate</a></li>
     <li><a href>boulder</a></li>
     <li><a href>lake</a></li>
     <li><a href>geode</a></li>
@@ -589,6 +590,42 @@ title: Custom World Generation
                         <td>Number (integer)</td>
                         <td>8</td>
                         <td>Ditto, except along the Z axis.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <li>
+            <p>
+                The <dfn>plate</dfn> generator creates cylinders with a configurable height.<br />
+                Minecraft generates underwater 'splotches' of Sand blocks like this.
+            </p>
+
+            <ul>
+                <li>The <dfn>clusterSize</dfn> value determines the radius of the cylinders.</li>
+            </ul>
+            
+            <p>This generator can have the following values added to the template object:</p>
+            <table class="uk-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Default</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>sizeVariance</td>
+                        <td>Number (integer)</td>
+                        <td>2</td>
+                        <td>How much a particular plate's radius may differ from the radius set by <dfn>clusterSize</dfn> (see above).</td>
+                    </tr>
+                    <tr>
+                        <td>height</td>
+                        <td>Number (integer)</td>
+                        <td>1</td>
+                        <td>The height of the plates, in blocks.</td>
                     </tr>
                 </tbody>
             </table>
