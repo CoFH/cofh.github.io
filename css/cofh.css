@@ -1,3 +1,9 @@
+h1, h2 {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 15px !important;
+    padding-bottom: 15px !important;
+}
+
 .cofh-padding {
     padding: 25px;
 }
