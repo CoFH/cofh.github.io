@@ -13,7 +13,7 @@ Read this before starting to work on the site! It'll save you and everyone else 
 
 ## Testing changes to the site
 Before pushing changes to the live site, you should test them locally. Jekyll is a Ruby _gem_ that be [installed locally](http://jekyllrb.com/docs/installation/) on Linux, and also on Windows with a bit more effort.  
-Once it's installed, run ```jekyll serve``` in the repository folder to launch a local web server that contains the generated website. It should also automatically regenerate the site when you make changes in the files.
+Once it's installed, run ```jekyll serve``` in the repository folder to launch a local web server that hosts the generated website. It should also automatically regenerate the site when you make changes in the files.
 
 ## Adding new pages
 Adding new pages to the site is pretty simple. Just follow these steps.  
@@ -36,5 +36,5 @@ The menu used to navigate the site is dynamically generated using a YAML-formatt
 - All custom CSS must be done in the file _css/cofh.css_. Overriding styling from UIkit or similar must also be done there. Any other CSS files may be overwritten when updating UIkit or the menu system!
 - Use [includes](http://jekyllrb.com/docs/templates/#includes) where possible when writing a lot of repetitive code. Also try to make use of the includes already there! For example, there is an include to create a thumbnail image that, when clicked, displays the image in a larger window.
 - Use relative URLs to link to other things on the site. You shouldn't use ```http://cofh.github.io/``` or similar in URLs, as that breaks local testing among other things. Remember that a single slash at the front of URLs points to the root of the website.
-- Use the attribute ```target="_blank"``` on hyperlinks to external websites, so the destinations open on new tabs.
+- Use the attribute ```target="_blank"``` on hyperlinks to external websites, so the destinations open in new tabs.
 - Give header tags (_h1, h2, h3,_ etc) an _id_ attribute where possible to improve linking to the site.
