@@ -464,6 +464,7 @@ title: Custom World Generation
     <li><a href>sparse-cluster</a></li>
     <li><a href>large-vein</a></li>
     <li><a href>decoration</a></li>
+    <li><a href>small-tree</a></li>
     <li><a href>plate</a></li>
     <li><a href>boulder</a></li>
     <li><a href>lake</a></li>
@@ -591,6 +592,79 @@ title: Custom World Generation
         </li>
         <li>
             <p>
+                The <dfn>small-tree</dfn> generator creates simple trees, with a column of blocks that act as a trunk, and a group of blocks that act as leaves.<br />
+                Minecraft generates small Oak and Birch trees like this.
+            </p>
+
+            <ul>
+                <li>The <dfn>block</dfn> value in entries determines what kind of blocks the trunk of trees consists of.</li>
+                <li>This generator does not use the <dfn>clusterSize</dfn> value in entries.</li>
+            </ul>
+            
+            <p>This generator can have the following values added to the template object:</p>
+            <table class="uk-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Default</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>genMaterial</td>
+                        <td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
+                        <td>N/A, or Air if invalid</td>
+                        <td>What materials trees can generate in. Not quite the same as the <dfn>material</dfn> value in entries, as that value determines where the trees' bases may generate.</td>
+                    </tr>
+                    <tr>
+                        <td>leaves</td>
+                        <td><a href="#block-entry" data-uk-smooth-scroll>Block entry</a> / Array of block entries</td>
+                        <td>N/A</td>
+                        <td>What blocks the leaves of trees are made of.</td>
+                    </tr>
+                    <tr>
+                        <td>minHeight</td>
+                        <td>Number (integer)</td>
+                        <td>5</td>
+                        <td>The minimum height of trees, in blocks.</td>
+                    </tr>
+                    <tr>
+                        <td>heightVariance</td>
+                        <td>Number (integer)</td>
+                        <td>3</td>
+                        <td>How much may be added randomly the the minimum height of trees, in blocks.</td>
+                    </tr>
+                    <tr>
+                        <td>treeChecks</td>
+                        <td>Boolean</td>
+                        <td>true</td>
+                        <td>Whether to verify that trees can properly 'grow' in the locations determined by the template used.</td>
+                    </tr>
+                    <tr>
+                        <td>relaxedGrowth</td>
+                        <td>Boolean</td>
+                        <td>false</td>
+                        <td>Whether trees can have blocks adjacent to their trunk at the bottom-most layer. For example, this could let trees generate one block deep in water.</td>
+                    </tr>
+                    <tr>
+                        <td>waterLoving</td>
+                        <td>Boolean</td>
+                        <td>false</td>
+                        <td>Whether to allow trees to generate in water, up to the leaves.</td>
+                    </tr>
+                    <tr>
+                        <td>leafVariance</td>
+                        <td>Boolean</td>
+                        <td>true</td>
+                        <td>Whether or not blocks can be missing from the corners of the leaves. This gives the leaves a more rounded look.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <li>
+            <p>
                 The <dfn>plate</dfn> generator creates cylinders with a configurable height.<br />
                 Minecraft generates underwater 'splotches' of Sand blocks like this.
             </p>
@@ -620,7 +694,13 @@ title: Custom World Generation
                         <td>height</td>
                         <td>Number (integer)</td>
                         <td>1</td>
-                        <td>The height of the plates, in blocks.</td>
+                        <td>Used to determine the height of the plates in blocks. This value is used as some kind of radius around a layer of blocks that is always present. For example, using 1 here will result in a plate of 3 blocks high: the middle layer, 1 layer above and 1 layer below.</td>
+                    </tr>
+                    <tr>
+                        <td>slim</td>
+                        <td>Boolean</td>
+                        <td>false</td>
+                        <td>This will make the plates be 1 layer of blocks less tall at the top. Usually plates have an odd height due to how they are generated (see <dfn>height</dfn>), so this lets plates generate with even heights.</td>
                     </tr>
                 </tbody>
             </table>
