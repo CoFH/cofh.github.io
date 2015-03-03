@@ -19,6 +19,11 @@
 						title: 'Team CoFH'
 					}
 				});
+                
+                var nicks = [ 'RedstoneFurnace', 'PhytogenicInsolator', 'CyclicAssembler', 'FluidTransposer', 'SkyboysSlave', 'TonisSlave', 'AutonomousActivator', 'TerrainSmasher', 'ImplusePlate' ];
+                
+                var nick = nicks[Math.floor(Math.random() * nicks.length)];
+                $('.irclink a').attr('href', 'http://webchat.esper.net/?nick=' + nick + '....&channels=#ThermalExpansion'); 
 			});
 		</script>
 	</head>

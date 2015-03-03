@@ -583,3 +583,4 @@
   icon: "comments"
   url: "http://webchat.esper.net/?nick=RedstoneFurnace....&channels=#ThermalExpansion"
   target: "_blank"
+  class: "irclink"
