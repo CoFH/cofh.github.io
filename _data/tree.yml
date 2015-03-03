@@ -78,6 +78,7 @@
             - name: "Useful resources"
               url: "#useful-resources"
     - name: "Thermal Foundation"
+      url: "/mods/thermal-foundation"
       class: "uk-margin-large-top"
       subitems:
         - name: "Items"
@@ -277,6 +278,7 @@
             - name: "Thaumcraft"
             - name: "Tinkers' Construct"
     - name: "Thermal Dynamics"
+      url: "/mods/thermal-dynamics"
       subitems:
         - name: "Ducts"
           subitems:
@@ -326,6 +328,7 @@
                 - name: "Resonant Retriever"
             - name: "Covers"
     - name: "Redstone Arsenal"
+      url: "/mods/redstone-arsenal"
       subitems:
         - name: "Materials"
           subitems:

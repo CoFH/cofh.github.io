@@ -38,3 +38,4 @@ The menu used to navigate the site is dynamically generated using a YAML-formatt
 - Use relative URLs to link to other things on the site. You shouldn't use ```http://cofh.github.io/``` or similar in URLs, as that breaks local testing among other things. Remember that a single slash at the front of URLs points to the root of the website.
 - Use the attribute ```target="_blank"``` on hyperlinks to external websites, so the destinations open in new tabs.
 - Give header tags (_h1, h2, h3,_ etc) an _id_ attribute where possible to improve linking to the site.
+- When mentioning an object described on another page on the site, be sure to make the mention a hyperlink to the object mentioned.
