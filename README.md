@@ -29,7 +29,7 @@ title: Hello World!
 - (Optional) Add the new page to the menu tree. To do this, read the below section on how to edit the menu.
 
 ## Editing the menu
-The menu used to navigate the site is dynamically generated using a YAML-formatted file: *_data/tree.yml*. You can define the name and URL of the menu items there. It is also possible to give them [icons from UIkit](http://getuikit.com/docs/icon.html) or 32x32 images from the _images/icons-32_ folder. Check out the items that are already there for examples of the format.
+The menu used to navigate the site is dynamically generated using a YAML-formatted file: *_data/tree.yml*. You can define the name and URL of the menu items there. It is also possible to give them [icons from UIkit](http://getuikit.com/docs/icon.html). Check out the items that are already there for examples of the format.
 
 ## Rules
 - Always try using UIkit components before writing custom CSS. UIkit offers a _lot_ to help design pages, so take your time to get used to it.
