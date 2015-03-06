@@ -28,10 +28,11 @@
 		</script>
 	</head>
 	<body>
+        <a href="#sidebar-menu" class="cofh-offcanvas-button"><i class="uk-icon-navicon uk-icon-medium uk-visible-small"></i></a>
 		<nav id="sidebar-menu">
 			{% include mmenu.html items=site.data.tree %}
 		</nav>
-        <div class="cofh-padding">
+        <div class="cofh-padding bg-white">
             <div class="uk-container uk-container-center">
                 {% if page.title %}<h1 class="uk-article-title">{{ page.title }}</h1>{% endif %}
                 {% if page.author or page.date %}

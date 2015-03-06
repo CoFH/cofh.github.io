@@ -26,6 +26,22 @@ p {
     padding: 25px;
 }
 
+.bg-white {
+    background: #ffffff !important;
+}
+
+.cofh-offcanvas-button {
+    position: fixed;
+    top: 5px;
+    left: 8px;
+    z-index: 1;
+    color: #444444;
+}
+
+.mm-opened ~ .cofh-offcanvas-button {
+    display: none;
+}
+
 .cofh-navicon {
     width: 20px;
     margin-right: 5px;
@@ -43,5 +59,6 @@ p {
 }
 
 #sidebar-menu {
+    box-sizing: border-box;
     border-right: 2px solid #DBDBDB;
 }
