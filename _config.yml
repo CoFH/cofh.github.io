@@ -7,3 +7,5 @@ defaults:
 
 exclude:
   - README.md
+
+permalink: '/posts/:year/:month/:day/:title.html'

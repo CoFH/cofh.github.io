@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ page.title }} - Team CoFH</title>
+		<title>{% if page.title %}{{ page.title }} - {% endif %}Team CoFH</title>
 		<!-- IE -->
 		<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 		<!-- Other Browsers -->
@@ -27,17 +27,19 @@
 			});
 		</script>
 	</head>
-	<body class="uk-margin-large-bottom">
-		<nav id="sidebar-menu" class="uk-width-1-5 cofh-padding">
+	<body>
+		<nav id="sidebar-menu">
 			{% include mmenu.html items=site.data.tree %}
 		</nav>
-		<div class="uk-grid">
-			<div class="uk-width-1-4"></div>
-			<div class="uk-width-3-4 cofh-padding">
-				<h1>{{ page.title }}</h1>
-				
-				{{ content }}
-			</div>
-		</div>
+        <div class="cofh-padding">
+            <div class="uk-container uk-container-center">
+                {% if page.title %}<h1 class="uk-article-title">{{ page.title }}</h1>{% endif %}
+                {% if page.author or page.date %}
+                <p class="uk-article-meta">Written{% if page.author %} by <strong>{{ page.author }}</strong>{% endif %}{% if page.date %} on {{ page.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
+                {% endif %}
+                
+                {{ content }}
+            </div>
+        </div>
 	</body>
 </html>

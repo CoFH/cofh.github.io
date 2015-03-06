@@ -11,7 +11,7 @@ html.mm-opened body {
   overflow: auto; }
 
 body {
-  padding-left: 30% !important;
+  padding-left: 22% !important;
   position: relative; }
 
 #mm-blocker {
@@ -36,7 +36,7 @@ body {
   transform: none !important; }
 
 .mm-menu {
-  width: 30% !important;
+  width: 22% !important;
   min-width: none !important;
   max-width: none !important;
   z-index: 0;

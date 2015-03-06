@@ -4,6 +4,24 @@ h1, h2 {
     padding-bottom: 15px !important;
 }
 
+p {
+    text-align: justify;
+}
+
+.uk-float-left .uk-thumbnail, .uk-float-right .uk-thumbnail {
+    margin-bottom: 20px;
+}
+
+@media(min-width: 480px) {
+    .uk-float-left .uk-thumbnail {
+        margin-right: 20px;
+    }
+
+    .uk-float-right .uk-thumbnail {
+        margin-left: 20px;
+    }
+}
+
 .cofh-padding {
     padding: 25px;
 }
@@ -25,7 +43,5 @@ h1, h2 {
 }
 
 #sidebar-menu {
-    position: fixed;
-    width: 22%;
     border-right: 2px solid #DBDBDB;
 }

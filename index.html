@@ -1,5 +1,22 @@
 ---
-title: Home
 ---
 
-Nothing to see here. Move along.
+<h2>Latest posts</h2>
+
+{% for post in site.posts limit:5 %}
+<div class="uk-panel uk-panel-box uk-margin-bottom">
+    <h2 class="uk-panel-title">{{ post.title }}</h2>
+    
+    {% if post.author or post.date %}
+    <p class="uk-article-meta">Written{% if post.author %} by <strong>{{ post.author }}</strong>{% endif %}{% if post.date %} on {{ post.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
+    {% endif %}
+    
+    {{ post.excerpt }}
+    
+    <div class="uk-text-right"><a href="{{ post.url }}">Read more &raquo;</a></div>
+</div>
+{% endfor %}
+
+<div class="uk-text-center uk-margin-top">
+    <a class="uk-button uk-button-large uk-button-link" href="/archive.html">Archive</a>
+</div>
