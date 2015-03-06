@@ -40,6 +40,14 @@
                 {% endif %}
                 
                 {{ content }}
+                
+                {% if page.is_post %}
+                <div class="uk-clearfix uk-margin-large-top uk-margin-large-bottom uk-text-center">
+                    {% if page.next %}<a href="{{ page.next.url }}" class="uk-float-left">&laquo; {{ page.next.title }}</a>{% endif %}
+                    <a href="/archive.html">Archive</a>
+                    {% if page.previous %}<a href="{{ page.previous.url }}" class="uk-float-right">{{ page.previous.title }} &raquo;</a>{% endif %}
+                </div>
+                {% endif %}
             </div>
         </div>
 	</body>
