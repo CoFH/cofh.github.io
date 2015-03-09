@@ -62,6 +62,11 @@ title: Commands
             <td>3</td>
         </tr>
         <tr>
+            <td><a href="#countblocks" data-uk-smooth-scroll>countblocks</a></td>
+            <td>Displays the amounts of blocks of certain types in an area.</td>
+            <td>3</td>
+        </tr>
+        <tr>
             <td><a href="#replaceblocks" data-uk-smooth-scroll>replaceblocks</a></td>
             <td>Replaces blocks of certain types with another block type in an area.</td>
             <td>3</td>
@@ -181,6 +186,11 @@ title: Commands
     <li><dfn>*plant</dfn> matches any block that has the <dfn>plants</dfn>, <dfn>vine</dfn> or <dfn>leaves</dfn> material.</li>
     <li><dfn>*fire</dfn> matches any block that has the <dfn>fire</dfn> or <dfn>lava</dfn> material, and any block that is currently on fire.</li>
 </ul>
+
+<h3 id="countblocks">countblocks</h3>
+<p>Displays the amounts of blocks of certain types in an area. Syntax is very similar to <dfn>clearblocks</dfn>.</p>
+<pre>/cofh countblocks {&lt;player&gt; &lt;xRadius&gt; &lt;yRadius&gt; &lt;zRadius&gt; | &lt;xStart&gt; &lt;yStart&gt; &lt;zStart&gt; &lt;xEnd&gt; &lt;yEnd&gt; &lt;zEnd&gt;} [block[#meta]] [block[#meta]] ...</pre>
+<p>All arguments are the same as the ones <dfn>clearblocks</dfn> has.</p>
 
 <h3 id="replaceblocks">replaceblocks</h3>
 <p>Replaces blocks of certain types with another block type in an area. Very similar to <dfn>clearblocks</dfn>.</p>
