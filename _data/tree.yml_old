@@ -639,6 +639,7 @@
 - name: "Crafting Guide"
   icon: "external-link"
   url: "http://www.crafting-guide.com"
+  target: "_blank"
 - name: "Twitter"
   icon: "twitter"
   url: "http://www.twitter.com/TeamCoFH"
