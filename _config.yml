@@ -15,3 +15,5 @@ exclude:
   - README.md
 
 permalink: '/posts/:year/:month/:day/:title.html'
+paginate: 5
+paginate_path: "/posts/page-:num/"

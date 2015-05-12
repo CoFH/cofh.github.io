@@ -29,6 +29,9 @@
 
                 var nick = nicks[Math.floor(Math.random() * nicks.length)];
                 $('a.irclink').attr('href', 'http://webchat.esper.net/?nick=' + nick + '....&channels=#ThermalExpansion');
+                
+                var banner = '/assets/images/banners/banner' + Math.floor(Math.random() * 7 + 1) + '.jpg';
+                $('.cofh-banner').css('background-image', 'url(' + banner + ')');
             });
         </script>
     </head>
@@ -42,10 +45,18 @@
             <div class="uk-container uk-container-center">
                 <a href="/" class="uk-navbar-brand">Team CoFH</a>
                 <ul class="uk-navbar-nav">
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/documentation">Documentation</a></li>
-                    <li><a href="/downloads.html">Downloads</a></li>
-                    <li><a href="/permissions.html">Permissions</a></li>
+                    <li{% if page.url == '/about.html' %} class="uk-active"{% endif %}>
+                        <a href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="/documentation">Documentation</a>
+                    </li>
+                    <li{% if page.url == '/downloads.html' %} class="uk-active"{% endif %}>
+                        <a href="/downloads.html">Downloads</a>
+                    </li>
+                    <li{% if page.url == '/permissions.html' %} class="uk-active"{% endif %}>
+                        <a href="/permissions.html">Permissions</a>
+                    </li>
                 </ul>
             </div>
         </nav>
