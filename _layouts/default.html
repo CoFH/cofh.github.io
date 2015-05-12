@@ -2,53 +2,69 @@
 <html>
 	<head>
 		<title>{% if page.title %}{{ page.title }} - {% endif %}Team CoFH</title>
-		<!-- IE -->
-		<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-		<!-- Other Browsers -->
-		<link href="/favicon.ico" rel="icon" type="image/x-icon" />
-		{% include css-js.html %}
-		
-		<script type="text/javascript">
-			$(function() {
-				$('#sidebar-menu').mmenu({
-					classes: 'mm-light mm-slide',
-					searchfield: true,
-					header: {
-						add: true,
-						update: true,
-						title: 'Team CoFH'
-					}
-				});
-                
-                var nicks = [ 'RedstoneFurnace', 'PhytogenicInsolator', 'CyclicAssembler', 'FluidTransposer', 'SkyboysSlave', 'TonisSlave', 'AutonomousActivator', 'TerrainSmasher', 'ImplusePlate' ];
-                
+        <!-- IE -->
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <!-- Other Browsers -->
+        <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+        <link rel="stylesheet" href="/assets/css/uikit/uikit.min.css" />
+        <link rel="stylesheet" href="/assets/css/uikit/components/sticky.min.css" />
+        <link rel="stylesheet" href="/assets/css/cofh.css" />
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/uikit/uikit.min.js"></script>
+        <script src="/assets/js/uikit/components/sticky.min.js"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                var nicks = [
+                    'RedstoneFurnace',
+                    'PhytogenicInsolator',
+                    'CyclicAssembler',
+                    'FluidTransposer',
+                    'SkyboysSlave',
+                    'TonisSlave',
+                    'AutonomousActivator',
+                    'TerrainSmasher',
+                    'ImplusePlate'
+                ];
+
                 var nick = nicks[Math.floor(Math.random() * nicks.length)];
-                $('.irclink a').attr('href', 'http://webchat.esper.net/?nick=' + nick + '....&channels=#ThermalExpansion'); 
-			});
-		</script>
-	</head>
-	<body>
-        <a href="#sidebar-menu" class="cofh-offcanvas-button"><i class="uk-icon-navicon uk-icon-medium uk-visible-small"></i></a>
-		<nav id="sidebar-menu">
-			{% include mmenu.html items=site.data.tree %}
-		</nav>
-        <div class="cofh-padding bg-white">
+                $('a.irclink').attr('href', 'http://webchat.esper.net/?nick=' + nick + '....&channels=#ThermalExpansion');
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="cofh-banner uk-hidden-small">
+            <a href="/"><img class="cofh-logo" src="/assets/images/logo.png" /></a>
+        </div>
+
+        <nav class="uk-navbar uk-margin-bottom" data-uk-sticky>
             <div class="uk-container uk-container-center">
-                {% if page.title %}<h1 class="uk-article-title">{{ page.title }}</h1>{% endif %}
-                {% if page.author or page.date %}
-                <p class="uk-article-meta">Written{% if page.author %} by <strong>{{ page.author }}</strong>{% endif %}{% if page.date %} on {{ page.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
-                {% endif %}
-                
-                {{ content }}
-                
-                {% if page.is_post %}
-                <div class="uk-clearfix uk-margin-large-top uk-margin-large-bottom uk-text-center">
-                    {% if page.next %}<a href="{{ page.next.url }}" class="uk-float-left">&laquo; {{ page.next.title }}</a>{% endif %}
-                    <a href="/archive.html">Archive</a>
-                    {% if page.previous %}<a href="{{ page.previous.url }}" class="uk-float-right">{{ page.previous.title }} &raquo;</a>{% endif %}
+                <a href="/" class="uk-navbar-brand">Team CoFH</a>
+                <ul class="uk-navbar-nav">
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/documentation">Documentation</a></li>
+                    <li><a href="/downloads.html">Downloads</a></li>
+                    <li><a href="/permissions.html">Permissions</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="uk-container uk-container-center">
+            {{ content }}
+
+            <div class="uk-clearfix uk-margin-top uk-margin-bottom uk-text-small">
+                <hr />
+                <div class="uk-float-left">
+                    &copy; Copyright {{ site.time | date: '%Y' }} Team CoFH<br />
+                    Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, <a href="https://jquery.com" target="_blank">jQuery</a>, <a href="http://getuikit.com" target="_blank">UIkit</a>
                 </div>
-                {% endif %}
+                <div class="uk-float-right">
+                    <a href="#" data-uk-smooth-scroll>
+                        <i class="uk-icon-arrow-up"></i> Back to top
+                    </a>
+                </div>
             </div>
         </div>
-	</body>
+    </body>
 </html>

@@ -9,6 +9,7 @@ defaults:
       type: posts
     values:
       is_post: true
+      layout: post
 
 exclude:
   - README.md

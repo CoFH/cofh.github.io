@@ -1,0 +1,33 @@
+p {
+    text-align: justify;
+}
+
+.uk-float-left .uk-thumbnail, .uk-float-right .uk-thumbnail {
+    margin-bottom: 20px;
+}
+
+@media(min-width: 480px) {
+    .uk-float-left .uk-thumbnail {
+        margin-right: 20px;
+    }
+
+    .uk-float-right .uk-thumbnail {
+        margin-left: 20px;
+    }
+}
+
+.cofh-banner {
+    width: 100%;
+    height: 220px;
+    background-image: url('/assets/images/banners/banner1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cofh-logo {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    height: 200px;
+}

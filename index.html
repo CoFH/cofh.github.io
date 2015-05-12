@@ -1,9 +1,8 @@
 ---
+layout: blog
 ---
 
-<h2>Latest posts</h2>
-
-{% for post in site.posts limit:5 %}
+{% for post in site.posts %}
 <div class="uk-panel uk-panel-box uk-margin-bottom">
     <h2 class="uk-panel-title">{{ post.title }}</h2>
     
@@ -18,5 +17,5 @@
 {% endfor %}
 
 <div class="uk-text-center uk-margin-top">
-    <a class="uk-button uk-button-large uk-button-link" href="/archive.html">Archive</a>
+    <a href="/archive.html">Archive</a>
 </div>
