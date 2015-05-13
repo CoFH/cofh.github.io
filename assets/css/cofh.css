@@ -46,10 +46,14 @@ p {
     background-repeat: no-repeat;
 }
 
-.cofh-nav-docs>li>a:hover {
-    text-decoration: underline;
+.cofh-nav-docs>li {
+    line-height: 10px;
 }
 
 .cofh-nav-docs>li.uk-active {
     background: #f5f5f5;
+}
+
+.cofh-nav-docs>li>a:hover {
+    text-decoration: underline;
 }

@@ -19,6 +19,26 @@ defaults:
       type: pages
     values:
       nav: cofh-core
+  - scope:
+      path: "docs/thermal-foundation"
+      type: pages
+    values:
+      nav: thermal-foundation
+  - scope:
+      path: "docs/thermal-expansion"
+      type: pages
+    values:
+      nav: thermal-expansion
+  - scope:
+      path: "docs/thermal-dynamics"
+      type: pages
+    values:
+      nav: thermal-dynamics
+  - scope:
+      path: "docs/redstone-arsenal"
+      type: pages
+    values:
+      nav: redstone-arsenal
 
 exclude:
   - README.md
