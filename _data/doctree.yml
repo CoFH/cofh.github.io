@@ -1,0 +1,52 @@
+main:
+    - items:
+        - title: "Main Page"
+          url: ""
+    - title: "Libraries and Core Mods"
+      items:
+        - title: "CoFH Core"
+          url: "/cofh-core"
+        - title: "CoFHLib"
+          url: "/cofhlib"
+        - title: "CoFHTweaks"
+
+    - title: "Redstone Flux"
+      items:
+        - title: "Redstone Flux"
+          url: "/redstone-flux"
+        - title: "A Primer"
+          url: "/redstone-flux/a-primer.html"
+        - title: "Supporting Mods"
+          url: "/redstone-flux/supporting-mods.html"
+
+    - title: "Thermal Series"
+      items:
+        - title: "Thermal Foundation"
+          url: "/thermal-foundation"
+        - title: "Thermal Expansion"
+          url: "/thermal-expansion"
+        - title: "Thermal Dynamics"
+          url: "/thermal-dynamics"
+        - title: "Redstone Arsenal"
+          url: "/redstone-arsenal"
+
+    - title: "PowerCrystals's Mods"
+      items:
+        - title: "MineFactory Reloaded"
+        - title: "Nether Ores"
+
+    - title: "Other Mods"
+      items:
+        - title: "Tabula Rasa"
+        - title: "CobbleHaters"
+        - title: "Alternate Scoring"
+
+cofh-core:
+    - title: "CoFH Core"
+      items:
+        - title: "CoFH Core"
+          url: "/cofh-core"
+        - title: "Commands"
+          url: "/cofh-core/commands.html"
+        - title: "Custom World Generation"
+          url: "/cofh-core/custom-world-generation.html"

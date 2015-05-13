@@ -1,6 +1,5 @@
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: default
@@ -10,6 +9,16 @@ defaults:
     values:
       is_post: true
       layout: post
+  - scope:
+      path: "docs"
+      type: pages
+    values:
+      layout: docs
+  - scope:
+      path: "docs/cofh-core"
+      type: pages
+    values:
+      nav: cofh-core
 
 exclude:
   - README.md
