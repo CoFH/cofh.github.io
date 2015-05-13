@@ -9,6 +9,7 @@ main:
         - title: "CoFHLib"
           url: "/cofhlib"
         - title: "CoFHTweaks"
+          url: "/cofhtweaks"
 
     - title: "Redstone Flux"
       items:
