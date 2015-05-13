@@ -109,7 +109,9 @@ thermal-expansion:
         - title: "Aqueous Accumulator"
     - title: "Augments"
       items:
-        - title: "TODO"
+        - title: "Common Augments"
+        - title: "Machine Augments"
+        - title: "Dynamo Augments"
     - title: "Devices"
       items:
         - title: "Machinist's Workbench"
