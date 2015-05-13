@@ -42,7 +42,7 @@ main:
         - title: "Alternate Scoring"
 
 cofh-core:
-    - title: "CoFH Core"
+    - title: ""
       items:
         - title: "CoFH Core"
           url: "/cofh-core"

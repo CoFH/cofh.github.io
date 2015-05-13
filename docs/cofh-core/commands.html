@@ -92,6 +92,8 @@ title: Commands
 <p>Displays the installed version of CoFH Core.</p>
 <pre>/cofh version</pre>
 
+<hr />
+
 <h3 id="help">help</h3>
 <p>Displays information about a CoFH Core command.</p>
 <pre>/cofh help [command]</pre>
@@ -99,6 +101,8 @@ title: Commands
     <dt>command</dt>
     <dd>The name of the command to display information about.</dd>
 </dl>
+
+<hr />
 
 <h3 id="syntax">syntax</h3>
 <p>Displays the syntax of a CoFH Core command.</p>
@@ -108,6 +112,8 @@ title: Commands
     <dd>The name of the command to display the syntax of.</dd>
 </dl>
 
+<hr />
+
 <h3 id="friend">friend</h3>
 <p>Allows management of a player's friends list. Can be done by either opening the friends list GUI or by adding/removing friends directly.</p>
 <pre>/cofh friend {gui | add &lt;username&gt; | remove &lt;username&gt;}</pre>
@@ -115,6 +121,8 @@ title: Commands
     <dt>username</dt>
     <dd>The username of the friend to add or remove from the list.</dd>
 </dl>
+
+<hr />
 
 <h3 id="tps">tps</h3>
 <p>Displays the server TPS (ticks per second) rate. The TPS rate is commonly used to measure how smoothly the server is running, or if the server is suffering from heavy load. The optimal rate is 20 ticks per second.</p>
@@ -124,6 +132,8 @@ title: Commands
     <dd>The ID of the dimension to display the TPS rate for.</dd>
 </dl>
 <p>If no arguments are supplied, the overall tick time and the tick time per dimension will be shown. Using <dfn>o</dfn>, only the overall tick time will be displayed. Using <dfn>a</dfn>, the amount of loaded worlds, chunks, entities and tile entities will be shown. Using a dimension ID, the amount of loaded chunks, entities and tile entities will be shown for that dimension.</p>
+
+<hr />
 
 <h3 id="enchant">enchant</h3>
 <p>Applies enchantments to held items.</p>
@@ -137,6 +147,8 @@ title: Commands
     <dd>The level of the enchantment to apply.</dd>
 </dl>
 
+<hr />
+
 <h3 id="killall">killall</h3>
 <p>Removes all loaded entities of a certain type from the server, excluding players.</p>
 <pre>/cofh killall [partialName]</pre>
@@ -144,6 +156,8 @@ title: Commands
     <dt>partialName</dt>
     <dd>The name or part of the name of the entity type to remove from the server. If unspecified, all hostile mobs will be removed. Can be set to <dfn>*</dfn> to remove <em>all</em> loaded entities.</dd>
 </dl>
+
+<hr />
 
 <h3 id="tpx">tpx</h3>
 <p>An advanced teleportation command that allows teleporting to other dimensions.</p>
@@ -159,6 +173,8 @@ title: Commands
     <dd>The coordinates to teleport to.</dd>
 </dl>
 <p>If a player is teleported to a dimension without using coordinates, they will be teleported to the dimension's spawn point.</p>
+
+<hr />
 
 <h3 id="clearblocks">clearblocks</h3>
 <p>Removes blocks of certain types in an area.</p>
@@ -187,10 +203,14 @@ title: Commands
     <li><dfn>*fire</dfn> matches any block that has the <dfn>fire</dfn> or <dfn>lava</dfn> material, and any block that is currently on fire.</li>
 </ul>
 
+<hr />
+
 <h3 id="countblocks">countblocks</h3>
 <p>Displays the amounts of blocks of certain types in an area. Syntax is very similar to <dfn>clearblocks</dfn>.</p>
 <pre>/cofh countblocks {&lt;player&gt; &lt;xRadius&gt; &lt;yRadius&gt; &lt;zRadius&gt; | &lt;xStart&gt; &lt;yStart&gt; &lt;zStart&gt; &lt;xEnd&gt; &lt;yEnd&gt; &lt;zEnd&gt;} [block[#meta]] [block[#meta]] ...</pre>
 <p>All arguments are the same as the ones <dfn>clearblocks</dfn> has.</p>
+
+<hr />
 
 <h3 id="replaceblocks">replaceblocks</h3>
 <p>Replaces blocks of certain types with another block type in an area. Very similar to <dfn>clearblocks</dfn>.</p>
@@ -201,9 +221,13 @@ title: Commands
 </dl>
 <p>All other arguments are the same as the ones <dfn>clearblocks</dfn> has.</p>
 
+<hr />
+
 <h3 id="reloadworldgen">reloadworldgen</h3>
-<p>Reloads all <a href="/mods/cofh-core/custom-world-generation.html">custom world generation</a> JSON files.</p>
+<p>Reloads all <a href="/docs/cofh-core/custom-world-generation.html">custom world generation</a> JSON files.</p>
 <pre>/cofh reloadworldgen</pre>
+
+<hr />
 
 <h3 id="unloadchunk">unloadchunk</h3>
 <p>Force-unloads the chunk that the command user is looking at.</p>

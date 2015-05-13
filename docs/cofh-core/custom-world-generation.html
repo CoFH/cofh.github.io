@@ -10,6 +10,33 @@ title: Custom World Generation
     <strong>Note:</strong> A good understanding of the JSON markup language is recommended. A description of the JSON syntax can be found <a href="http://www.w3schools.com/json/json_syntax.asp" target="_blank">here</a>.
 </p>
 
+<div class="uk-panel uk-panel-box uk-display-inline-block">
+    <h3 class="uk-panel-title">Table of contents</h3>
+    <ul>
+        <li><a href="#file-structure" data-uk-smooth-scroll>File structure</a></li>
+        <li><a href="#format" data-uk-smooth-scroll>Format</a></li>
+        <li><a href="#common-values" data-uk-smooth-scroll>Common values</a></li>
+        <li><a href="#template-types" data-uk-smooth-scroll>Template types</a></li>
+        <li><a href="#generator-types" data-uk-smooth-scroll>Generator types</a></li>
+        <li>
+            <a href="#other-formats" data-uk-smooth-scroll>Other formats</a>
+            <ul>
+                <li><a href="#weighted-string-entry" data-uk-smooth-scroll>Weighted String entry</a></li>
+                <li><a href="#block-entry" data-uk-smooth-scroll>Block entry</a></li>
+                <li><a href="#biome-entry" data-uk-smooth-scroll>Biome entry</a></li>
+                <li><a href="#entity-entry" data-uk-smooth-scroll>Entity entry</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#useful-resources" data-uk-smooth-scroll>Useful resources</a>
+            <ul>
+                <li><a href="#links" data-uk-smooth-scroll>Links</a></li>
+                <li><a href="#mods" data-uk-smooth-scroll>Mods</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
 <h2 id="file-structure">File structure</h2>
 
 <p>
@@ -34,7 +61,7 @@ title: Custom World Generation
 <p>Every world generation file contains a root Object, which in turn contains values that describe the actual world generation types themselves. These values are also Objects, and will from now on be called <dfn>entries</dfn>.</p>
 
 <p>
-    As an example of the format, see the <a href="http://pastebin.com/mc4C6qLH" target="_blank">default Vanilla.json file</a>.<br />
+    As an example of the format, see the <a href="http://pastebin.com/uXuu9YJN" target="_blank">default Vanilla.json file</a>.<br />
     It can be seen here that the <dfn>template</dfn> value is the first value to be set on every entry. This is because the template is the most important value in an entry, and determines some of the other values that can or need to be set.
 </p>
 
@@ -180,7 +207,7 @@ title: Custom World Generation
     Click on the name of a template type to see information about it.
 </p>
 
-<ul class="uk-subnav uk-subnav-line uk-subnav-pill uk-text-large" data-uk-switcher="{ connect: '#templates' }">
+<ul class="uk-subnav uk-subnav-line uk-subnav-pill" data-uk-switcher="{ connect: '#templates' }">
     <li><a href>uniform</a></li>
     <li><a href>normal</a></li>
     <li><a href>surface</a></li>
@@ -459,7 +486,7 @@ title: Custom World Generation
     Click on the name of a generator type to see information about it.
 </p>
 
-<ul class="uk-subnav uk-subnav-line uk-subnav-pill uk-text-large" data-uk-switcher="{ connect: '#generators' }">
+<ul class="uk-subnav uk-subnav-line uk-subnav-pill" data-uk-switcher="{ connect: '#generators' }">
     <li><a href>cluster</a></li>
     <li><a href>sparse-cluster</a></li>
     <li><a href>large-vein</a></li>
@@ -486,7 +513,7 @@ title: Custom World Generation
             <ul>
                 <li>
                     The <dfn>clusterSize</dfn> value in entries determines how large the blobs are. However, it is hard to determine how exactly it affects the amount of blocks generated. It is capped at 32, and will be interpreted as 32 if it has a higher number.<br />
-                    For reference, have a look in the <a href="http://pastebin.com/mc4C6qLH" target="_blank">default Vanilla.json file</a> to see examples of <dfn>clusterSize</dfn> values, and what the results of those entries are.
+                    For reference, have a look in the <a href="http://pastebin.com/uXuu9YJN" target="_blank">default Vanilla.json file</a> to see examples of <dfn>clusterSize</dfn> values, and what the results of those entries are.
                 </li>
             </ul>
         </li>
@@ -1295,10 +1322,10 @@ title: Custom World Generation
 
 <p>This section lists resources that can be useful when setting up world generation with CoFH Core.</p>
 
-<h3>Links</h3>
+<h3 id="links">Links</h3>
 <ul>
-    <li><a href="http://pastebin.com/mc4C6qLH" target="_blank">Default <dfn>Vanilla.json</dfn> file</a></li>
-    <li><a href="http://pastebin.com/278wRrZE" target="_blank">Default <dfn>ThermalFoundation-Ores.json</dfn> file</a></li>
+    <li><a href="http://pastebin.com/uXuu9YJN" target="_blank">Default <dfn>Vanilla.json</dfn> file</a></li>
+    <li><a href="http://pastebin.com/ZXWrcQyE" target="_blank">Default <dfn>ThermalFoundation-Ores.json</dfn> file</a></li>
     <li><a href="http://minecraft.gamepedia.com/Data_values#Block_IDs" target="_blank">IDs of blocks in vanilla Minecraft</a></li>
     <li><a href="http://minecraft.gamepedia.com/Data_values#Entity_IDs" target="_blank">IDs of entities in vanilla Minecraft (use the savegame IDs)</a></li>
     <li><a href="http://minecraft.gamepedia.com/Data_values#Biome_IDs" target="_blank">Names of biomes in vanilla Minecraft</a></li>
@@ -1307,10 +1334,9 @@ title: Custom World Generation
     <li><a href="http://pastebin.com/0NH383ps" target="_blank">Forge biome tags</a></li>
 </ul>
 
-<h3>Mods</h3>
+<h3 id="mods">Mods</h3>
 <ul>
     <li><a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods" target="_blank">Not Enough Items</a> - Can dump block IDs to a CSV file</li>
     <li><a href="http://minecraft.curseforge.com/mc-mods/225251-nei-integration" target="_blank">NEI Integration</a> - Adds block ID tooltips and can dump entity names, loot table names and more to CSV files</li>
     <li><a href="http://minetweaker3.powerofbytes.com/" target="_blank">MineTweaker</a> - Adds a command to show block IDs</li>
 </ul>
-</div>
