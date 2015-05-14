@@ -64,6 +64,7 @@ thermal-foundation:
     - title: "Mobs"
       items:
         - title: "Blizz"
+          url: "/thermal-foundation/mobs/blizz.html"
     - title: "Vanilla Materials"
       items:
         - title: "Iron"
