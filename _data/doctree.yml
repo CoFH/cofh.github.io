@@ -57,9 +57,54 @@ thermal-foundation:
       items:
         - title: "Thermal Foundation"
           url: "/thermal-foundation"
-    - title: "Blocks and Items"
+    - title: "World Generation"
       items:
-        - title: "Materials"
+        - title: "Ores"
+          url: "/thermal-foundation/world-generation/ores.html"
+    - title: "Mobs"
+      items:
+        - title: "Blizz"
+    - title: "Vanilla Materials"
+      items:
+        - title: "Iron"
+        - title: "Gold"
+        - title: "Coal"
+        - title: "Charcoal"
+        - title: "Obsidian"
+    - title: "Materials"
+      items:
+        - title: "Copper"
+        - title: "Tin"
+        - title: "Silver"
+        - title: "Lead"
+        - title: "Ferrous Metal"
+        - title: "Shiny Metal"
+        - title: "Mana Infused Metal"
+        - title: "Sulfur"
+        - title: "Niter"
+        - title: "Cinnabar"
+        - title: "Blizz Rod"
+        - title: "Blizz Powder"
+        - title: "Pyrotheum Dust"
+        - title: "Cryotheum Dust"
+        - title: "Mana Dust"
+    - title: "Alloys"
+      items:
+        - title: "Electrum"
+        - title: "Invar"
+        - title: "Tinker's Alloy"
+        - title: "Signalum"
+        - title: "Lumium"
+        - title: "Enderium"
+    - title: "Fluids"
+      items:
+        - title: "Destabilized Redstone"
+        - title: "Energized Glowstone"
+        - title: "Resonant Ender"
+        - title: "Liquifacted Coal"
+        - title: "Blazing Pyrotheum"
+        - title: "Gelid Cryotheum"
+        - title: "Primal Mana"
     - title: "Equipment"
       items:
         - title: "Pickaxe"
@@ -71,21 +116,9 @@ thermal-foundation:
         - title: "Sword"
         - title: "Reinforced Bow"
         - title: "Armor"
-    - title: "Fluids"
+    - title: "Other"
       items:
-        - title: "Destabilized Redstone"
-        - title: "Energized Glowstone"
-        - title: "Resonant Ender"
-        - title: "Liquifacted Coal"
-        - title: "Blazing Pyrotheum"
-        - title: "Gelid Cryotheum"
-        - title: "Primal Mana"
-    - title: "Mobs"
-      items:
-        - title: "Blizz"
-    - title: "World Generation"
-      items:
-        - title: "Ores"
+        - title: "Mod Support"
 
 thermal-expansion:
     - title: ""
@@ -169,6 +202,7 @@ thermal-expansion:
         - title: "Hardened Glass"
         - title: "Rockwool"
         - title: "Schematic"
+        - title: "Tier System"
         - title: "Security"
         - title: "Mod Support"
 

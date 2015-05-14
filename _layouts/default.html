@@ -45,7 +45,7 @@
 
         <nav class="uk-navbar uk-margin-bottom" data-uk-sticky>
             <div class="uk-container uk-container-center">
-                <a href="/" class="uk-navbar-brand">Team CoFH</a>
+                <a href="/" class="uk-navbar-brand {% if page.url == '/index.html' %}uk-active{% endif %}">Team CoFH</a>
                 <ul class="uk-navbar-nav">
                     <li{% if page.url == '/about.html' %} class="uk-active"{% endif %}>
                         <a href="/about.html">About</a>
