@@ -58,7 +58,7 @@ p {
     background-repeat: no-repeat;
 }
 
-.cofh-nav-docs>li {
+.cofh-nav-docs>li:not(.uk-nav-header) {
     line-height: 10px;
 }
 
