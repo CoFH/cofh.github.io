@@ -80,8 +80,11 @@ thermal-foundation:
     - title: "Materials"
       items:
         - title: "Copper"
+          url: "/thermal-foundation/materials/copper.html"
         - title: "Tin"
+          url: "/thermal-foundation/materials/tin.html"
         - title: "Silver"
+          url: "/thermal-foundation/materials/silver.html"
         - title: "Lead"
         - title: "Ferrous Metal (Nickel)"
         - title: "Shiny Metal (Platinum)"
