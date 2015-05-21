@@ -51,6 +51,12 @@ cofh-core:
           url: "/cofh-core/commands.html"
         - title: "Custom World Generation"
           url: "/cofh-core/custom-world-generation.html"
+    - title: "Enchantments"
+      items:
+        - title: "Holding"
+          # url: "/cofh-core/enchantments/holding.html"
+        - title: "Multishot"
+          # url: "/cofh-core/enchantments/multishot.html"
 
 thermal-foundation:
     - title: ""
@@ -263,7 +269,6 @@ thermal-dynamics:
         - title: "Impulse Itemduct"
         - title: "Fluctuating Itemduct"
         - title: "Warp Itemduct"
-        - title: "Dense/Vacuum Itemducts"
     - title: "Fluid Transport"
       items:
         - title: "Temperate Fluiduct"
