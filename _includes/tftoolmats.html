@@ -1,0 +1,149 @@
+<table class="uk-table uk-table-striped uk-text-small">
+    <thead>
+        <tr>
+            <th>Material</th>
+            {% if include.miningLevel %}<th>Mining Level</th>{% endif %}
+            <th>Speed</th>
+            <th>Max. Uses</th>
+            <th>Damage (Hearts)</th>
+            <th>Enchantability</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <td>Wood</td>
+            {% if include.miningLevel %}<td>0 (Coal Ore)</td>{% endif %}
+            <td>2</td>
+            <td>59</td>
+            <td>{{ 0 | plus: include.baseDamageHearts }}</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/vanilla-materials/gold.html">Gold</a></td>
+            {% if include.miningLevel %}<td>0 (Coal Ore)</td>{% endif %}
+            <td>12</td>
+            <td>32</td>
+            <td>{{ 1 | plus: include.baseDamageHearts }}</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Stone</td>
+            {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
+            <td>4</td>
+            <td>131</td>
+            <td>{{ 0.5 | plus: include.baseDamageHearts }}</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/vanilla-materials/iron.html">Iron</a></td>
+            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+            <td>6</td>
+            <td>250</td>
+            <td>{{ 1 | plus: include.baseDamageHearts }}</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Diamond</td>
+            {% if include.miningLevel %}<td>3 (Obsidian)</td>{% endif %}
+            <td>8</td>
+            <td>1561</td>
+            <td>{{ 1.5 | plus: include.baseDamageHearts }}</td>
+            <td>10</td>
+        </tr>
+            
+        <tr><td colspan="7"></td></tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/materials/copper.html">Copper</a></td>
+            {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
+            <td>4</td>
+            <td>175</td>
+            <td>{{ 0.25 | plus: include.baseDamageHearts }}</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/materials/tin.html">Tin</a></td>
+            {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
+            <td>4.5</td>
+            <td>200</td>
+            <td>{{ 0.5 | plus: include.baseDamageHearts }}</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/materials/lead.html">Lead</a></td>
+            {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
+            <td>5</td>
+            <td>150</td>
+            <td>{{ 0.5 | plus: include.baseDamageHearts }}</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/materials/silver.html">Silver</a></td>
+            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+            <td>6</td>
+            <td>200</td>
+            <td>{{ 0.75 | plus: include.baseDamageHearts }}</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/materials/ferrous-metal.html">Ferrous</a></td>
+            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+            <td>6.5</td>
+            <td>300</td>
+            <td>{{ 1.75 | plus: include.baseDamageHearts }}</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/materials/shiny-metal.html">Shiny</a></td>
+            {% if include.miningLevel %}<td>4 (Obsidian+)</td>{% endif %}
+            <td>9</td>
+            <td>1700</td>
+            <td>{{ 2 | plus: include.baseDamageHearts }}</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/alloys/electrum.html">Electrum</a></td>
+            {% if include.miningLevel %}<td>0 (Coal Ore)</td>{% endif %}
+            <td>14</td>
+            <td>100</td>
+            <td>{{ 0.25 | plus: include.baseDamageHearts }}</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/alloys/bronze.html">Bronze</a></td>
+            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+            <td>6</td>
+            <td>500</td>
+            <td>{{ 1 | plus: include.baseDamageHearts }}</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/alloys/invar.html">Invar</a></td>
+            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+            <td>7</td>
+            <td>450</td>
+            <td>{{ 1.5 | plus: include.baseDamageHearts }}</td>
+            <td>16</td>
+        </tr>
+            
+        <tr><td colspan="7"></td></tr>
+        
+        <tr>
+            <td><a href="/docs/redstone-arsenal/equipment/flux-infused-{{ include.type }}.html">Flux-Infused</a></td>
+            {% if include.miningLevel %}<td>4 (Obsidian+)*</td>{% endif %}
+            <td>8</td>
+            <td>-</td>
+            <td>{{ 0.5 | plus: include.baseDamageHearts }}</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Flux-Infused (Empowered)</td>
+            {% if include.miningLevel %}<td>4 (Obsidian+)*</td>{% endif %}
+            <td>12</td>
+            <td>-</td>
+            <td>{{ 1 | plus: include.baseDamageHearts }}</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+</table>
+<span class="uk-text-small">*: May be changed in the config.</span>
