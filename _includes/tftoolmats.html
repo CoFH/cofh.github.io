@@ -1,165 +1,167 @@
-<table class="uk-table uk-table-striped uk-text-small">
-    <thead>
-        <tr>
-            <th>Material</th>
-            {% if include.miningLevel %}<th>Mining Level</th>{% endif %}
-            {% if include.speed %}<th>Speed</th>{% endif %}
-            <th>Max. Uses</th>
-            {% if include.baseDamage %}<th>Attack Damage</th>{% endif %}
-            {% if include.enchantability %}<th>Enchantability</th>{% endif %}
-        </tr>
-    </thead>
-    
-    {% if include.excludes %}{% assign excludes = include.excludes | split: '|' %}{% else %}{% assign excludes = [] %}{% endif %}
-    
-    <tbody>
-        {% if excludes contains 'wood' %}{% else %}
-        <tr>
-            <td>Wood</td>
-            {% if include.miningLevel %}<td>0 (Coal Ore)</td>{% endif %}
-            {% if include.speed %}<td>2</td>{% endif %}
-            <td>59</td>
-            {% if include.baseDamage %}<td>{{ 0 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>15</td>{% endif %}
-        </tr>
-        {% endif %}
-        {% if excludes contains 'gold' %}{% else %}
-        <tr>
-            <td><a href="/docs/thermal-foundation/vanilla-materials/gold.html">Gold</a></td>
-            {% if include.miningLevel %}<td>0 (Coal Ore)</td>{% endif %}
-            {% if include.speed %}<td>12</td>{% endif %}
-            <td>32</td>
-            {% if include.baseDamage %}<td>{{ 0 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>22</td>{% endif %}
-        </tr>
-        {% endif %}
-        {% if excludes contains 'stone' %}{% else %}
-        <tr>
-            <td>Stone</td>
-            {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
-            {% if include.speed %}<td>4</td>{% endif %}
-            <td>131</td>
-            {% if include.baseDamage %}<td>{{ 1 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>5</td>{% endif %}
-        </tr>
-        {% endif %}
-        {% if excludes contains 'iron' %}{% else %}
-        <tr>
-            <td><a href="/docs/thermal-foundation/vanilla-materials/iron.html">Iron</a></td>
-            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
-            {% if include.speed %}<td>6</td>{% endif %}
-            <td>{% if include.type == 'shears' %}238{% else %}250{% endif %}</td>
-            {% if include.baseDamage %}<td>{{ 2 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>14</td>{% endif %}
-        </tr>
-        {% endif %}
-        {% if excludes contains 'diamond' %}{% else %}
-        <tr>
-            <td>Diamond</td>
-            {% if include.miningLevel %}<td>3 (Obsidian)</td>{% endif %}
-            {% if include.speed %}<td>8</td>{% endif %}
-            <td>1561</td>
-            {% if include.baseDamage %}<td>{{ 3 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>10</td>{% endif %}
-        </tr>
-        {% endif %}
-            
-        {% if excludes contains 'wood' and excludes contains 'gold' and excludes contains 'stone' and excludes contains 'iron' and excludes contains 'diamond' %}{% else %}
-        <tr><td colspan="7"></td></tr>
-        {% endif %}
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Material</th>
+                {% if include.miningLevel %}<th>Mining Level</th>{% endif %}
+                {% if include.speed %}<th>Speed</th>{% endif %}
+                <th>Max. Uses</th>
+                {% if include.baseDamage %}<th>Attack Damage</th>{% endif %}
+                {% if include.enchantability %}<th>Enchantability</th>{% endif %}
+            </tr>
+        </thead>
         
-        <tr>
-            <td><a href="/docs/thermal-foundation/materials/copper.html">Copper</a></td>
-            {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
-            {% if include.speed %}<td>4</td>{% endif %}
-            <td>175</td>
-            {% if include.baseDamage %}<td>{{ 0.5 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>6</td>{% endif %}
-        </tr>
-        <tr>
-            <td><a href="/docs/thermal-foundation/materials/tin.html">Tin</a></td>
-            {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
-            {% if include.speed %}<td>4.5</td>{% endif %}
-            <td>200</td>
-            {% if include.baseDamage %}<td>{{ 1 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>7</td>{% endif %}
-        </tr>
-        <tr>
-            <td><a href="/docs/thermal-foundation/materials/lead.html">Lead</a></td>
-            {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
-            {% if include.speed %}<td>5</td>{% endif %}
-            <td>150</td>
-            {% if include.baseDamage %}<td>{{ 1 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>9</td>{% endif %}
-        </tr>
-        <tr>
-            <td><a href="/docs/thermal-foundation/materials/silver.html">Silver</a></td>
-            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
-            {% if include.speed %}<td>6</td>{% endif %}
-            <td>200</td>
-            {% if include.baseDamage %}<td>{{ 1.5 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>20</td>{% endif %}
-        </tr>
-        <tr>
-            <td><a href="/docs/thermal-foundation/materials/ferrous-metal.html">Ferrous</a></td>
-            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
-            {% if include.speed %}<td>6.5</td>{% endif %}
-            <td>300</td>
-            {% if include.baseDamage %}<td>{{ 2.5 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>18</td>{% endif %}
-        </tr>
-        <tr>
-            <td><a href="/docs/thermal-foundation/materials/shiny-metal.html">Shiny</a></td>
-            {% if include.miningLevel %}<td>4 (Obsidian+)</td>{% endif %}
-            {% if include.speed %}<td>9</td>{% endif %}
-            <td>1700</td>
-            {% if include.baseDamage %}<td>{{ 4 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>9</td>{% endif %}
-        </tr>
-        <tr>
-            <td><a href="/docs/thermal-foundation/alloys/electrum.html">Electrum</a></td>
-            {% if include.miningLevel %}<td>0 (Coal Ore)</td>{% endif %}
-            {% if include.speed %}<td>14</td>{% endif %}
-            <td>100</td>
-            {% if include.baseDamage %}<td>{{ 0.5 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>30</td>{% endif %}
-        </tr>
-        <tr>
-            <td><a href="/docs/thermal-foundation/alloys/bronze.html">Bronze</a></td>
-            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
-            {% if include.speed %}<td>6</td>{% endif %}
-            <td>500</td>
-            {% if include.baseDamage %}<td>{{ 2 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>15</td>{% endif %}
-        </tr>
-        <tr>
-            <td><a href="/docs/thermal-foundation/alloys/invar.html">Invar</a></td>
-            {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
-            {% if include.speed %}<td>7</td>{% endif %}
-            <td>450</td>
-            {% if include.baseDamage %}<td>{{ 3 | plus: include.baseDamage }}</td>{% endif %}
-            {% if include.enchantability %}<td>16</td>{% endif %}
-        </tr>
-            
-        <tr><td colspan="7"></td></tr>
+        {% if include.excludes %}{% assign excludes = include.excludes | split: '|' %}{% else %}{% assign excludes = [] %}{% endif %}
         
-        {% if excludes contains 'flux-infused' %}{% else %}
-        <tr>
-            <td><a href="/docs/redstone-arsenal/equipment/flux-infused-{{ include.type }}.html">Flux-Infused</a></td>
-            {% if include.miningLevel %}<td>4 (Obsidian+)*</td>{% endif %}
-            {% if include.speed %}<td>8</td>{% endif %}
-            <td>-</td>
-            {% if include.baseDamage %}<td>{% if include.type == 'sword' %}9{% else %}{{ 3 | plus: include.baseDamage }}{% endif %}</td>{% endif %}
-            {% if include.enchantability %}<td>25</td>{% endif %}
-        </tr>
-        <tr>
-            <td>Flux-Infused (Empowered)</td>
-            {% if include.miningLevel %}<td>4 (Obsidian+)</td>{% endif %}
-            {% if include.speed %}<td>12</td>{% endif %}
-            <td>-</td>
-            {% if include.baseDamage %}<td>{% if include.type == 'sword' %}12{% else %}{{ 4 | plus: include.baseDamage }}{% endif %}</td>{% endif %}
-            {% if include.enchantability %}<td>25</td>{% endif %}
-        </tr>
-        {% endif %}
-    </tbody>
-</table>
+        <tbody>
+            {% if excludes contains 'wood' %}{% else %}
+            <tr>
+                <td>Wood</td>
+                {% if include.miningLevel %}<td>0 (Coal Ore)</td>{% endif %}
+                {% if include.speed %}<td>2</td>{% endif %}
+                <td>{% if include.type == 'fishing-rod' %}64{% else %}59{% endif %}</td>
+                {% if include.baseDamage %}<td>{{ 0 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>{% if include.type == 'fishing-rod' %}1{% else %}15{% endif %}</td>{% endif %}
+            </tr>
+            {% endif %}
+            {% if excludes contains 'gold' %}{% else %}
+            <tr>
+                <td><a href="/docs/thermal-foundation/vanilla-materials/gold.html">Gold</a></td>
+                {% if include.miningLevel %}<td>0 (Coal Ore)</td>{% endif %}
+                {% if include.speed %}<td>12</td>{% endif %}
+                <td>32</td>
+                {% if include.baseDamage %}<td>{{ 0 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>22</td>{% endif %}
+            </tr>
+            {% endif %}
+            {% if excludes contains 'stone' %}{% else %}
+            <tr>
+                <td>Stone</td>
+                {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
+                {% if include.speed %}<td>4</td>{% endif %}
+                <td>131</td>
+                {% if include.baseDamage %}<td>{{ 1 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>5</td>{% endif %}
+            </tr>
+            {% endif %}
+            {% if excludes contains 'iron' %}{% else %}
+            <tr>
+                <td><a href="/docs/thermal-foundation/vanilla-materials/iron.html">Iron</a></td>
+                {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+                {% if include.speed %}<td>6</td>{% endif %}
+                <td>{% if include.type == 'shears' %}238{% else %}250{% endif %}</td>
+                {% if include.baseDamage %}<td>{{ 2 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>{% if include.type == 'shears' %}-{% else %}14{% endif %}</td>{% endif %}
+            </tr>
+            {% endif %}
+            {% if excludes contains 'diamond' %}{% else %}
+            <tr>
+                <td>Diamond</td>
+                {% if include.miningLevel %}<td>3 (Obsidian)</td>{% endif %}
+                {% if include.speed %}<td>8</td>{% endif %}
+                <td>1561</td>
+                {% if include.baseDamage %}<td>{{ 3 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>10</td>{% endif %}
+            </tr>
+            {% endif %}
+                
+            {% if excludes contains 'wood' and excludes contains 'gold' and excludes contains 'stone' and excludes contains 'iron' and excludes contains 'diamond' %}{% else %}
+            <tr><td colspan="7"></td></tr>
+            {% endif %}
+            
+            <tr>
+                <td><a href="/docs/thermal-foundation/materials/copper.html">Copper</a></td>
+                {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
+                {% if include.speed %}<td>4</td>{% endif %}
+                <td>175</td>
+                {% if include.baseDamage %}<td>{{ 0.5 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>6</td>{% endif %}
+            </tr>
+            <tr>
+                <td><a href="/docs/thermal-foundation/materials/tin.html">Tin</a></td>
+                {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
+                {% if include.speed %}<td>4.5</td>{% endif %}
+                <td>200</td>
+                {% if include.baseDamage %}<td>{{ 1 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>7</td>{% endif %}
+            </tr>
+            <tr>
+                <td><a href="/docs/thermal-foundation/materials/lead.html">Lead</a></td>
+                {% if include.miningLevel %}<td>1 (Iron Ore)</td>{% endif %}
+                {% if include.speed %}<td>5</td>{% endif %}
+                <td>150</td>
+                {% if include.baseDamage %}<td>{{ 1 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>9</td>{% endif %}
+            </tr>
+            <tr>
+                <td><a href="/docs/thermal-foundation/materials/silver.html">Silver</a></td>
+                {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+                {% if include.speed %}<td>6</td>{% endif %}
+                <td>200</td>
+                {% if include.baseDamage %}<td>{{ 1.5 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>20</td>{% endif %}
+            </tr>
+            <tr>
+                <td><a href="/docs/thermal-foundation/materials/ferrous-metal.html">Ferrous</a></td>
+                {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+                {% if include.speed %}<td>6.5</td>{% endif %}
+                <td>300</td>
+                {% if include.baseDamage %}<td>{{ 2.5 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>18</td>{% endif %}
+            </tr>
+            <tr>
+                <td><a href="/docs/thermal-foundation/materials/shiny-metal.html">Shiny</a></td>
+                {% if include.miningLevel %}<td>4 (Obsidian+)</td>{% endif %}
+                {% if include.speed %}<td>9</td>{% endif %}
+                <td>1700</td>
+                {% if include.baseDamage %}<td>{{ 4 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>9</td>{% endif %}
+            </tr>
+            <tr>
+                <td><a href="/docs/thermal-foundation/alloys/electrum.html">Electrum</a></td>
+                {% if include.miningLevel %}<td>0 (Coal Ore)</td>{% endif %}
+                {% if include.speed %}<td>14</td>{% endif %}
+                <td>100</td>
+                {% if include.baseDamage %}<td>{{ 0.5 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>30</td>{% endif %}
+            </tr>
+            <tr>
+                <td><a href="/docs/thermal-foundation/alloys/bronze.html">Bronze</a></td>
+                {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+                {% if include.speed %}<td>6</td>{% endif %}
+                <td>500</td>
+                {% if include.baseDamage %}<td>{{ 2 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>15</td>{% endif %}
+            </tr>
+            <tr>
+                <td><a href="/docs/thermal-foundation/alloys/invar.html">Invar</a></td>
+                {% if include.miningLevel %}<td>2 (Diamond Ore)</td>{% endif %}
+                {% if include.speed %}<td>7</td>{% endif %}
+                <td>450</td>
+                {% if include.baseDamage %}<td>{{ 3 | plus: include.baseDamage }}</td>{% endif %}
+                {% if include.enchantability %}<td>16</td>{% endif %}
+            </tr>
+                
+            <tr><td colspan="7"></td></tr>
+            
+            {% if excludes contains 'flux-infused' %}{% else %}
+            <tr>
+                <td><a href="/docs/redstone-arsenal/equipment/flux-infused-{{ include.type }}.html">Flux-Infused</a></td>
+                {% if include.miningLevel %}<td>4 (Obsidian+)*</td>{% endif %}
+                {% if include.speed %}<td>8</td>{% endif %}
+                <td>-</td>
+                {% if include.baseDamage %}<td>{% if include.type == 'sword' %}9{% else %}{{ 3 | plus: include.baseDamage }}{% endif %}</td>{% endif %}
+                {% if include.enchantability %}<td>25</td>{% endif %}
+            </tr>
+            <tr>
+                <td>Flux-Infused (Empowered)</td>
+                {% if include.miningLevel %}<td>4 (Obsidian+)</td>{% endif %}
+                {% if include.speed %}<td>12</td>{% endif %}
+                <td>-</td>
+                {% if include.baseDamage %}<td>{% if include.type == 'sword' %}12{% else %}{{ 4 | plus: include.baseDamage }}{% endif %}</td>{% endif %}
+                {% if include.enchantability %}<td>25</td>{% endif %}
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
