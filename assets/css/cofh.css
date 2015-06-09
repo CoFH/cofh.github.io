@@ -32,6 +32,12 @@ p {
     color: #2d7eef;
 }
 
+@media(min-width: 768px) {
+    .uk-table.cofh-table-compress {
+        width: 50%;
+    }
+}
+
 .uk-table-striped tbody tr:nth-of-type(even) {
   background: #fdfdfd;
 }

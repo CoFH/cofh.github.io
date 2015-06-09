@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{% if page.title %}{{ page.title }} - {% endif %}Team CoFH</title>
+		<title>{% if page.title %}{{ page.title }} - {% endif %}{% if page.mod and page.title != page.mod %}{{ page.mod }} - {% endif %}Team CoFH</title>
         <meta charset="utf-8" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,10 +11,12 @@
         <!-- Other Browsers -->
         <link href="/favicon.ico" rel="icon" type="image/x-icon" />
         <link rel="stylesheet" href="/assets/css/uikit/uikit.min.css" />
+        <link rel="stylesheet" href="/assets/css/uikit/components/autocomplete.min.css" />
         <link rel="stylesheet" href="/assets/css/uikit/components/sticky.min.css" />
         <link rel="stylesheet" href="/assets/css/cofh.css" />
         <script src="/assets/js/jquery.min.js"></script>
         <script src="/assets/js/uikit/uikit.min.js"></script>
+        <script src="/assets/js/uikit/components/autocomplete.min.js"></script>
         <script src="/assets/js/uikit/components/sticky.min.js"></script>
         <script src="/assets/js/cofh.js"></script>
     </head>
@@ -29,6 +31,7 @@
         <nav class="uk-navbar uk-margin-bottom" data-uk-sticky>
             <div class="uk-container uk-container-center">
                 <a href="/" class="uk-navbar-brand {% if page.url == '/index.html' %}uk-active{% endif %}">Team CoFH</a>
+                
                 <ul class="uk-navbar-nav">
                     <li{% if page.url == '/about.html' %} class="uk-active"{% endif %}>
                         <a href="/about.html">About</a>
@@ -43,6 +46,24 @@
                         <a href="/permissions.html">Permissions</a>
                     </li>
                 </ul>
+                
+                <div class="uk-navbar-content uk-navbar-flip uk-form uk-autocomplete cofh-search" data-uk-autocomplete="{ source: pages }">
+                    <input type="text" placeholder="Search..." />
+                    <script type="text/autocomplete">
+                        {% raw %}
+                        <ul class="uk-nav uk-nav-autocomplete uk-autocomplete-results">
+                            {{~items}}
+                            <li data-value="{{ $item.value }}" data-url="{{ $item.url }}">
+                                <a href="{{ $item.url }}">
+                                    {{ $item.title }}
+                                    <div class="uk-text-muted">{{{ $item.mod }}}</div>
+                                </a>
+                            </li>
+                            {{/items}}
+                        </ul>
+                        {% endraw %}
+                    </script>
+                </div>
             </div>
         </nav>
 

@@ -161,18 +161,18 @@ thermal-foundation:
           url: "/thermal-foundation/equipment/shears.html"
         - title: "Sickles"
           url: "/thermal-foundation/equipment/sickles.html"
-        - title: "Reinforced Fishing Rods"
-          # url: "/thermal-foundation/equipment/reinforced-fishing-rods.html"
+        - title: "Fishing Rods"
+          url: "/thermal-foundation/equipment/fishing-rods.html"
         - title: "Swords"
           url: "/thermal-foundation/equipment/swords.html"
         - title: "Reinforced Bows"
-          # url: "/thermal-foundation/equipment/reinforced-bow.html"
+          url: "/thermal-foundation/equipment/reinforced-bows.html"
         - title: "Armor"
-          # url: "/thermal-foundation/equipment/armor.html"
+          url: "/thermal-foundation/equipment/armor.html"
     - title: "Other"
       items:
         - title: "Mod Support"
-          # url: "/thermal-foundation/other/mod-support.html"
+          url: "/thermal-foundation/other/mod-support.html"
 
 thermal-expansion:
     - title: ""
