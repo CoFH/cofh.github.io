@@ -56,9 +56,9 @@ cofh-core:
     - title: "Enchantments"
       items:
         - title: "Holding"
-          # url: "/cofh-core/enchantments/holding.html"
+          url: "/cofh-core/enchantments/holding.html"
         - title: "Multishot"
-          # url: "/cofh-core/enchantments/multishot.html"
+          url: "/cofh-core/enchantments/multishot.html"
 
 thermal-foundation:
     - title: ""

@@ -57,6 +57,10 @@ p {
     height: 160px;
 }
 
+.cofh-search {
+    padding: 0;
+}
+
 .cofh-download-logo {
     margin-bottom: 20px;
     height: 50px;
