@@ -20,25 +20,12 @@ var setScroll = function() {
 };
 $(window).on('hashchange load', setScroll);
 
-$.fn.enterPress = function(fn) {
-    return this.each(function() {
-        $(this).bind('enterPress', fn);
-        $(this).keyup(function(e) {
-            if (e.keyCode == 13) {
-                $(this).trigger("enterPress");
-            }
-        })
-    });
- };
-
 $(function() {
     $('.cofh-search').on('selectitem.uk.autocomplete', function(event, data) {
         window.location.href = window.location.protocol + '//' + window.location.host + data.url;
     });
-    $('.cofh-search > input').enterPress(function() {
-        if ($('.cofh-search .uk-dropdown').attr('aria-expanded') == 'false' || $('.cofh-search .uk-dropdown > ul > li.uk-active').length == 0) {
-            window.location.href = 'http://google.com/search?q=' + $('.cofh-search > input').val() + ' site:' + window.location.hostname;
-        }
+    $('.cofh-search > button').click(function() {
+        window.location.href = 'http://google.com/search?q=' + $('.cofh-search > input').val() + ' site:' + window.location.hostname;
     });
 
     $(".uk-container a[href^='/docs/']").each(function(i, anchor) {
