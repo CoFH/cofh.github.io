@@ -6,7 +6,7 @@ layout: blog
     <h1 class="uk-article-title">{{ page.title }}</h1>
     
     {% if page.author or page.date %}
-    <p class="uk-article-meta">Written{% if page.author %} by <strong>{{ page.author }}</strong>{% endif %}{% if page.date %} on {{ page.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
+    <p class="uk-article-meta">Written{% if page.author %} by <strong>{% if page.author_url %}<a href="{{ page.author_url }}" target="_blank">{% endif %}{{ page.author }}{% if page.author_url %}</a>{% endif %}</strong>{% endif %}{% if page.date %} on {{ page.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
     {% endif %}
     
     <hr />
