@@ -147,7 +147,7 @@
             {% if excludes contains 'flux-infused' %}{% else %}
             <tr>
                 <td><a href="/docs/redstone-arsenal/equipment/flux-infused-{{ include.type }}.html">Flux-Infused</a></td>
-                {% if include.miningLevel %}<td>4 (Obsidian+)*</td>{% endif %}
+                {% if include.miningLevel %}<td>4 (Obsidian+)</td>{% endif %}
                 {% if include.speed %}<td>8</td>{% endif %}
                 <td>-</td>
                 {% if include.baseDamage %}<td>{% if include.type == 'sword' %}9{% else %}{{ 3 | plus: include.baseDamage }}{% endif %}</td>{% endif %}
