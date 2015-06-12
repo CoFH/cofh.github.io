@@ -61,6 +61,10 @@ p {
     padding: 0;
 }
 
+.cofh-search input[type='text'] {
+    width: 150px;
+}
+
 .cofh-download-logo {
     margin-bottom: 20px;
     height: 50px;

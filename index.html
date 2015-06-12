@@ -2,69 +2,71 @@
 layout: blog
 ---
 
-{% for post in paginator.posts %}
-<article class="uk-article">
-    <h2 class="uk-text-bold">{{ post.title }}</h2>
+<div class="uk-container-center uk-width-1-1 uk-width-medium-3-4">
+    {% for post in paginator.posts %}
+    <article class="uk-article">
+        <h2 class="uk-text-bold">{{ post.title }}</h2>
 
-    {% if post.author or post.date %}
-    <p class="uk-article-meta">Written{% if post.author %} by <strong>{% if post.author_url %}<a href="{{ post.author_url }}" target="_blank">{% endif %}{{ post.author }}{% if post.author_url %}</a>{% endif %}</strong>{% endif %}{% if post.date %} on {{ post.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
-    {% endif %}
-
-    {{ post.excerpt }}
-
-    <a class="uk-button uk-button-mini uk-button-primary" href="{{ post.url }}">Read more &raquo;</a>
-</article>
-<hr class="uk-article-divider" />
-{% endfor %}
-
-<ul class="uk-pagination">
-    {% assign start = paginator.page | minus: 2 %}
-    {% if start < 1 %}{% assign start = 1 %}{% endif %}
-    {% assign end = paginator.page | plus: 2 %}
-    {% if end > paginator.total_pages %}{% assign end = paginator.total_pages %}{% endif %}
-
-    <li>
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}">&laquo;</a>
-        {% else %}
-            <span>&laquo;</span>
+        {% if post.author or post.date %}
+        <p class="uk-article-meta">Written{% if post.author %} by <strong>{% if post.author_url %}<a href="{{ post.author_url }}" target="_blank">{% endif %}{{ post.author }}{% if post.author_url %}</a>{% endif %}</strong>{% endif %}{% if post.date %} on {{ post.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
         {% endif %}
-    </li>
-    
-    {% if start > 1 %}
-        <li><a href="/index.html">1</a></li>
-        {% if start > 2 %}
-            <li><span>...</span></li>
-        {% endif %}
-    {% endif %}
-    
-    {% for page in (start..end) %}
-        {% if page == paginator.page %}
-            {% capture link %}<span>{{ page }}</span>{% endcapture %}
-        {% elsif page == 1 %}
-            {% capture link %}<a href="/index.html">{{ page }}</a>{% endcapture %}
-        {% else %}
-            {% capture link %}<a href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>{% endcapture %}
+
+        {{ post.excerpt }}
+
+        <a class="uk-button uk-button-mini uk-button-primary" href="{{ post.url }}">Read more &raquo;</a>
+    </article>
+    <hr class="uk-article-divider" />
+    {% endfor %}
+
+    <ul class="uk-pagination">
+        {% assign start = paginator.page | minus: 2 %}
+        {% if start < 1 %}{% assign start = 1 %}{% endif %}
+        {% assign end = paginator.page | plus: 2 %}
+        {% if end > paginator.total_pages %}{% assign end = paginator.total_pages %}{% endif %}
+
+        <li>
+            {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}">&laquo;</a>
+            {% else %}
+                <span>&laquo;</span>
+            {% endif %}
+        </li>
+        
+        {% if start > 1 %}
+            <li><a href="/index.html">1</a></li>
+            {% if start > 2 %}
+                <li><span>...</span></li>
+            {% endif %}
         {% endif %}
         
-        <li{% if page == paginator.page %} class="uk-active"{% endif %}>
-            {{ link }}
-        </li>
-    {% endfor %}
-    
-    {% if end < paginator.total_pages %}
-        {% assign temp = paginator.total_pages | minus: 1 %}
-        {% if end < temp %}
-            <li><span>...</span></li>
+        {% for page in (start..end) %}
+            {% if page == paginator.page %}
+                {% capture link %}<span>{{ page }}</span>{% endcapture %}
+            {% elsif page == 1 %}
+                {% capture link %}<a href="/index.html">{{ page }}</a>{% endcapture %}
+            {% else %}
+                {% capture link %}<a href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>{% endcapture %}
+            {% endif %}
+            
+            <li{% if page == paginator.page %} class="uk-active"{% endif %}>
+                {{ link }}
+            </li>
+        {% endfor %}
+        
+        {% if end < paginator.total_pages %}
+            {% assign temp = paginator.total_pages | minus: 1 %}
+            {% if end < temp %}
+                <li><span>...</span></li>
+            {% endif %}
+            <li><a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
         {% endif %}
-        <li><a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
-    {% endif %}
 
-    <li>
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}">&raquo;</a>
-        {% else %}
-            <span>&raquo;</span>
-        {% endif %}
-    </li>
-</ul>
+        <li>
+            {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}">&raquo;</a>
+            {% else %}
+                <span>&raquo;</span>
+            {% endif %}
+        </li>
+    </ul>
+</div>
