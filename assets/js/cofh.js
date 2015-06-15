@@ -31,7 +31,7 @@ $(function() {
     $(".uk-container a[href^='/docs/']").each(function(i, anchor) {
         $anchor = $(anchor);
         for (var i = 0; i < pages.length; i++) {
-            if (pages[i].url.search($anchor.attr('href').split('#')[0]) >= 0) return;
+            if (pages[i].url.search($anchor.attr('href').split('/#')[0]) >= 0) return;
         }
         $anchor.removeAttr('href');
         $anchor.addClass('uk-text-danger');
