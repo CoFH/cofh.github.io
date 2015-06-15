@@ -1,0 +1,21 @@
+<ul class="uk-nav {{ include.class }}">
+    {% if page.nav == null %}
+        {% assign nav = site.data.doctree["main"] %}
+    {% else %}
+        {% assign nav = site.data.doctree[page.nav] %}
+        <li><a href="/docs">&laquo; Back</a></li>
+    {% endif %}
+    {% for item in nav %}
+        {% if item.title %}
+        <li class="uk-nav-header">{{ item.title }}</li>
+        {% endif %}
+        {% for subitem in item.items %}
+        {% capture url %}/docs{{ subitem.url }}{% if subitem.url contains ".html" %}{% else %}/index.html{% endif %}{% endcapture %}
+        <li {% if subitem.url and page.url contains url %}class="uk-active"{% endif %} >
+            <a {% if subitem.url == null %}class="uk-text-danger"{% else %}href="/docs{{ subitem.url }}"{% endif %} {% if subitem.target %}target="{{ subitem.target }}"{% endif %}>
+                {{ subitem.title }}
+            </a>
+        </li>
+        {% endfor %}
+    {% endfor %}
+</ul>

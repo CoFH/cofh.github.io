@@ -2,29 +2,17 @@
 layout: default
 ---
 
+<div id="cofh-offcanvas-docs" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        {% include searchbar.html class='uk-panel' %}
+    
+        {% include docnav.html class='uk-nav-offcanvas cofh-nav-docs' %}
+    </div>
+</div>
+
 <div class="uk-grid uk-grid-divider" data-uk-grid-margin>
-    <div class="uk-width-1-1 uk-width-medium-1-4 uk-panel uk-text-small">
-        <ul class="uk-nav cofh-nav-docs">
-            {% if page.nav == null %}
-                {% assign nav = site.data.doctree["main"] %}
-            {% else %}
-                {% assign nav = site.data.doctree[page.nav] %}
-                <li><a href="/docs">&laquo; Back</a></li>
-            {% endif %}
-            {% for item in nav %}
-                {% if item.title %}
-                <li class="uk-nav-header">{{ item.title }}</li>
-                {% endif %}
-                {% for subitem in item.items %}
-                {% capture url %}/docs{{ subitem.url }}{% if subitem.url contains ".html" %}{% else %}/index.html{% endif %}{% endcapture %}
-                <li {% if subitem.url and page.url contains url %}class="uk-active"{% endif %} >
-                    <a {% if subitem.url == null %}class="uk-text-danger"{% else %}href="/docs{{ subitem.url }}"{% endif %} {% if subitem.target %}target="{{ subitem.target }}"{% endif %}>
-                        {{ subitem.title }}
-                    </a>
-                </li>
-                {% endfor %}
-            {% endfor %}
-        </ul>
+    <div class="uk-width-1-1 uk-width-medium-1-4 uk-panel uk-text-small uk-hidden-small">
+        {% include docnav.html class='cofh-nav-docs' %}
     </div>
 
     <div class="uk-width-1-1 uk-width-medium-3-4">

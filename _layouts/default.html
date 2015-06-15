@@ -41,43 +41,39 @@
 
         <nav class="uk-navbar uk-margin-bottom" data-uk-sticky>
             <div class="uk-container uk-container-center">
-                <a href="/" class="uk-navbar-brand {% if page.url == '/index.html' %}uk-active{% endif %}">Team CoFH</a>
+                <a href="/" class="uk-navbar-brand uk-hidden-small {% if page.url == '/index.html' %}uk-active{% endif %}">Team CoFH</a>
 
-                <ul class="uk-navbar-nav">
-                    <li{% if page.url contains '/about' %} class="uk-active"{% endif %}>
-                        <a href="/about">About</a>
-                    </li>
-                    <li{% if page.url contains '/docs' %} class="uk-active"{% endif %}>
-                        <a href="/docs">Documentation</a>
-                    </li>
-                    <li{% if page.url contains '/downloads' %} class="uk-active"{% endif %}>
-                        <a href="/downloads">Downloads</a>
-                    </li>
-                    <li{% if page.url contains '/permissions' %} class="uk-active"{% endif %}>
-                        <a href="/permissions">Permissions</a>
-                    </li>
+                <a href="#cofh-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+                {% if page.url contains '/docs' %}
+                <a href="#cofh-offcanvas-docs" class="uk-navbar-flip uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+                {% endif %}
+                <a href="/" class="uk-navbar-brand uk-navbar-center uk-visible-small {% if page.url == '/index.html' %}uk-active{% endif %}">Team CoFH</a>
+
+                <ul class="uk-navbar-nav uk-hidden-small">
+                    {% include navbarlinks.html %}
                 </ul>
 
-                <div class="uk-navbar-content uk-navbar-flip uk-hidden-small uk-form uk-autocomplete cofh-search" data-uk-autocomplete="{ source: pages }">
-                    <input type="text" placeholder="Search..." />
-                    <script type="text/autocomplete">
-                        {% raw %}
-                        <ul class="uk-nav uk-nav-autocomplete uk-autocomplete-results">
-                            {{~items}}
-                            <li data-value="{{ $item.value }}" data-url="{{ $item.url }}">
-                                <a href="{{ $item.url }}">
-                                    {{ $item.title }}
-                                    <div class="uk-text-muted">{{{ $item.mod }}}</div>
-                                </a>
-                            </li>
-                            {{/items}}
-                        </ul>
-                        {% endraw %}
-                    </script>
-                    <button class="uk-button uk-button-primary"><i class="uk-icon-google uk-icon-small"></i></button>
-                </div>
+                {% include searchbar.html class='uk-navbar-content uk-navbar-flip uk-hidden-small' %}
             </div>
         </nav>
+
+        <div id="cofh-offcanvas" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar">
+                {% include searchbar.html class='uk-panel' %}
+            
+                <ul class="uk-nav uk-nav-offcanvas">
+                    <li{% if page.url == '/index.html' %} class="uk-active"{% endif %}>
+                        <a href="/">Home</a>
+                    </li>
+                    {% include navbarlinks.html %}
+                    <li{% if page.url contains '/archive' %} class="uk-active"{% endif %}>
+                        <a href="/archive">Archive</a>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    {% include externallinks.html %}
+                </ul>
+            </div>
+        </div>
 
         <div class="uk-container uk-container-center">
             {{ content }}

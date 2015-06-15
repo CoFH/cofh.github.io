@@ -2,9 +2,11 @@ html {
     overflow-y: scroll; 
 }
 
+/*
 p {
     text-align: justify;
 }
+*/
 
 .uk-float-left .uk-thumbnail, .uk-float-right .uk-thumbnail {
     margin-bottom: 20px;
@@ -20,7 +22,7 @@ p {
     }
 }
 
-.uk-navbar-brand {
+.uk-navbar-brand:not(.uk-navbar-center) {
     padding-left: 0;
 }
 
@@ -36,6 +38,22 @@ p {
     .uk-table.cofh-table-compress {
         width: 50%;
     }
+}
+
+.uk-nav-offcanvas>li>a {
+    padding: 6px 15px;
+}
+
+.uk-nav-offcanvas>li>a.uk-text-danger {
+    color: #dd8570 !important;
+}
+
+.uk-nav-offcanvas.cofh-nav-docs .uk-nav-header {
+    color: #888888;
+}
+
+.uk-nav-offcanvas.cofh-nav-docs>li>a:hover {
+    text-decoration: none;
 }
 
 .uk-table-striped tbody tr:nth-of-type(even) {
@@ -63,6 +81,31 @@ p {
 
 .cofh-search input[type='text'] {
     width: 150px;
+}
+
+.uk-offcanvas .cofh-search input[type='text'] {
+    width: 185px;
+    border: 1px solid #555555;
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.uk-offcanvas .cofh-search input[type='text']:focus {
+    border-color: #666666;
+    background-color: #555555;
+}
+
+.uk-offcanvas .cofh-search .uk-button {
+    background-color: #555555;
+    color: #f0f0f0;
+}
+
+.uk-offcanvas .cofh-search .uk-dropdown {
+    background-color: #454545;
+}
+
+.uk-offcanvas .cofh-search .uk-nav-autocomplete>li.uk-active>a {
+    background-color: #777777;
 }
 
 .cofh-download-logo {
