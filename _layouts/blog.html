@@ -35,8 +35,8 @@ layout: default
                     <a href="http://www.crafting-guide.com" target="_blank"><i class="uk-icon-wrench"></i> Crafting Guide</a>
                 </li>
                 <li class="uk-nav-divider"></li>
-                <li{% if page.url == '/archive.html' %} class="uk-active"{% endif %}>
-                    <a href="/archive.html">
+                <li{% if page.url contains '/archive' %} class="uk-active"{% endif %}>
+                    <a href="/archive">
                         <i class="uk-icon-clock-o"></i> Archive
                     </a>
                 </li>

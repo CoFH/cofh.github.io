@@ -33,17 +33,17 @@
                 <a href="/" class="uk-navbar-brand {% if page.url == '/index.html' %}uk-active{% endif %}">Team CoFH</a>
                 
                 <ul class="uk-navbar-nav">
-                    <li{% if page.url == '/about.html' %} class="uk-active"{% endif %}>
-                        <a href="/about.html">About</a>
+                    <li{% if page.url contains '/about' %} class="uk-active"{% endif %}>
+                        <a href="/about">About</a>
                     </li>
                     <li{% if page.url contains '/docs' %} class="uk-active"{% endif %}>
                         <a href="/docs">Documentation</a>
                     </li>
-                    <li{% if page.url == '/downloads.html' %} class="uk-active"{% endif %}>
-                        <a href="/downloads.html">Downloads</a>
+                    <li{% if page.url contains '/downloads' %} class="uk-active"{% endif %}>
+                        <a href="/downloads">Downloads</a>
                     </li>
-                    <li{% if page.url == '/permissions.html' %} class="uk-active"{% endif %}>
-                        <a href="/permissions.html">Permissions</a>
+                    <li{% if page.url contains '/permissions' %} class="uk-active"{% endif %}>
+                        <a href="/permissions">Permissions</a>
                     </li>
                 </ul>
                 

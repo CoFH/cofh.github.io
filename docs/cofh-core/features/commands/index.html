@@ -1,0 +1,234 @@
+---
+title: Commands
+---
+
+<p>CoFH Core includes various server commands that can be useful to moderators or testers. This page lists all of them.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>All of CoFH Core's commands must be prefixed with '/cofh '.</p>
+<table class="uk-table uk-table-striped">
+    <thead>
+        <tr>
+            <th>Command</th>
+            <th>Description</th>
+            <th>Permission level</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="#version">version</a></td>
+            <td>Displays the installed version of CoFH Core.</td>
+            <td>-1</td>
+        </tr>
+        <tr>
+            <td><a href="#help">help</a></td>
+            <td>Displays information about CoFH Core's commands.</td>
+            <td>-1</td>
+        </tr>
+        <tr>
+            <td><a href="#syntax">syntax</a></td>
+            <td>Displays the syntax of CoFH Core's commands.</td>
+            <td>-1</td>
+        </tr>
+        <tr>
+            <td><a href="#friend">friend</a></td>
+            <td>Allows management of a player's friends list.</td>
+            <td>-1</td>
+        </tr>
+        <tr>
+            <td><a href="#tps">tps</a></td>
+            <td>Displays the server TPS rate.</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td><a href="#enchant">enchant</a></td>
+            <td>Applies enchantments to held items.</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><a href="#killall">killall</a></td>
+            <td>Removes all loaded entities of a certain type from the server.</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><a href="#tpx">tpx</a></td>
+            <td>Advanced teleport command that allows teleporting to other dimensions.</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><a href="#clearblocks">clearblocks</a></td>
+            <td>Removes blocks of certain types in an area.</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td><a href="#countblocks">countblocks</a></td>
+            <td>Displays the amounts of blocks of certain types in an area.</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td><a href="#replaceblocks">replaceblocks</a></td>
+            <td>Replaces blocks of certain types with another block type in an area.</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td><a href="#reloadworldgen">reloadworldgen</a></td>
+            <td>Reloads all <a href="/docs/cofh-core/custom-world-generation">custom world generation</a> files.</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td><a href="#unloadchunk">unloadchunk</a></td>
+            <td>Force-unloads the chunk that the command user is looking at.</td>
+            <td>4</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2 id="list-of-commands">List of commands</h2>
+
+<p>This section describes every command in detail.</p>
+
+<h3 id="version">version</h3>
+<p>Displays the installed version of CoFH Core.</p>
+<pre>/cofh version</pre>
+
+<hr />
+
+<h3 id="help">help</h3>
+<p>Displays information about a CoFH Core command.</p>
+<pre>/cofh help [command]</pre>
+<dl>
+    <dt>command</dt>
+    <dd>The name of the command to display information about.</dd>
+</dl>
+
+<hr />
+
+<h3 id="syntax">syntax</h3>
+<p>Displays the syntax of a CoFH Core command.</p>
+<pre>/cofh syntax [command]</pre>
+<dl>
+    <dt>command</dt>
+    <dd>The name of the command to display the syntax of.</dd>
+</dl>
+
+<hr />
+
+<h3 id="friend">friend</h3>
+<p>Allows management of a player's friends list. Can be done by either opening the friends list GUI or by adding/removing friends directly.</p>
+<pre>/cofh friend {gui | add &lt;username&gt; | remove &lt;username&gt;}</pre>
+<dl>
+    <dt>username</dt>
+    <dd>The username of the friend to add or remove from the list.</dd>
+</dl>
+
+<hr />
+
+<h3 id="tps">tps</h3>
+<p>Displays the server TPS (ticks per second) rate. The TPS rate is commonly used to measure how smoothly the server is running, or if the server is suffering from heavy load. The optimal rate is 20 ticks per second.</p>
+<pre>/cofh tps {o | a | &lt;dimension&gt;}</pre>
+<dl>
+    <dt>dimension</dt>
+    <dd>The ID of the dimension to display the TPS rate for.</dd>
+</dl>
+<p>If no arguments are supplied, the overall tick time and the tick time per dimension will be shown. Using <dfn>o</dfn>, only the overall tick time will be displayed. Using <dfn>a</dfn>, the amount of loaded worlds, chunks, entities and tile entities will be shown. Using a dimension ID, the amount of loaded chunks, entities and tile entities will be shown for that dimension.</p>
+
+<hr />
+
+<h3 id="enchant">enchant</h3>
+<p>Applies enchantments to held items.</p>
+<pre>/cofh enchant [player] &lt;enchantmentID&gt; [level]</pre>
+<dl>
+    <dt>player</dt>
+    <dd>The username of the player whose held item is to be enchanted. If unspecified, the command user will be the target.</dd>
+    <dt>enchantmentID</dt>
+    <dd>The ID of the enchantment to apply. A list of vanilla enchantment IDs can be found <a href="http://minecraft.gamepedia.com/Data_values#Enchantment_IDs" target="_blank">here</a>. A list of all enchantment IDs including those added by mods can be dumped by <a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods" target="_blank">Not Enough Items</a>.</dd>
+    <dt>level</dt>
+    <dd>The level of the enchantment to apply.</dd>
+</dl>
+
+<hr />
+
+<h3 id="killall">killall</h3>
+<p>Removes all loaded entities of a certain type from the server, excluding players.</p>
+<pre>/cofh killall [partialName]</pre>
+<dl>
+    <dt>partialName</dt>
+    <dd>The name or part of the name of the entity type to remove from the server. If unspecified, all hostile mobs will be removed. Can be set to <dfn>*</dfn> to remove <em>all</em> loaded entities.</dd>
+</dl>
+
+<hr />
+
+<h3 id="tpx">tpx</h3>
+<p>An advanced teleportation command that allows teleporting to other dimensions.</p>
+<pre>/cofh tpx [player] {&#123;&lt;playerTo&gt; | &lt;dimension&gt;&#125; | &lt;x&gt; &lt;y&gt; &lt;z&gt; [dimension]}</pre>
+<dl>
+    <dt>player</dt>
+    <dd>The username of the player to teleport. If unspecified, the command user will teleported.</dd>
+    <dt>playerTo</dt>
+    <dd>The username of the player to teleport to.</dd>
+    <dt>dimension</dt>
+    <dd>The ID of the dimension to teleport to. If unspecified when using coordinates, the player will be teleported within the dimension they are in.</dd>
+    <dt>x, y, z</dt>
+    <dd>The coordinates to teleport to.</dd>
+</dl>
+<p>If a player is teleported to a dimension without using coordinates, they will be teleported to the dimension's spawn point.</p>
+
+<hr />
+
+<h3 id="clearblocks">clearblocks</h3>
+<p>Removes blocks of certain types in an area.</p>
+<pre>/cofh clearblocks {&lt;player&gt; &lt;xRadius&gt; &lt;yRadius&gt; &lt;zRadius&gt; | &lt;xStart&gt; &lt;yStart&gt; &lt;zStart&gt; &lt;xEnd&gt; &lt;yEnd&gt; &lt;zEnd&gt;} [block[#meta]] [block[#meta]] ...</pre>
+<dl>
+    <dt>user</dt>
+    <dd>The username of the player to use as an origin of the area to remove blocks from.</dd>
+    <dt>xRadius, yRadius, zRadius</dt>
+    <dd>The radius in blocks along the respective axes of the area to remove blocks from, when using a player as an origin.</dd>
+    <dt>xStart, yStart, zStart, xEnd, yEnd, zEnd</dt>
+    <dd>The coordinates of the area to remove blocks from, when not using an origin.</dd>
+    <dt>block</dt>
+    <dd>The internal name (ID) of a block to remove. For example, <dfn>minecraft:stone</dfn> translates to Stone, and <dfn>ThermalFoundation:Ore translates</dfn> to the ore block from Thermal Foundation. If the block is from Minecraft itself, the <dfn>minecraft:</dfn> prefix is not required.</dd>
+    <dt>meta</dt>
+    <dd>The metadata of a block. Most of the time, the metadata of a block is equal to the damage value of its item form.</dd>
+</dl>
+<p>It is also possible to match blocks to remove using more generic terms as <dfn>block</dfn> arguments:</p>
+<ul>
+    <li><dfn>*fluid</dfn> matches any fluid blocks.</li>
+    <li><dfn>*tree</dfn> matches any kind of wood or leaves.</li>
+    <li><dfn>*repl</dfn> matches any block that can be replaced when placing blocks, like tall grass.</li>
+    <li><dfn>*stone</dfn> matches any block that has the <dfn>rock</dfn> material.</li>
+    <li><dfn>*sand</dfn> matches any block that has the <dfn>sand</dfn> material.</li>
+    <li><dfn>*dirt</dfn> matches any block that has the <dfn>ground</dfn>, <dfn>grass</dfn>, <dfn>clay</dfn>, <dfn>snow</dfn>, <dfn>craftedSnow</dfn>, <dfn>ice</dfn> or <dfn>packedIce</dfn> material.</li>
+    <li><dfn>*plant</dfn> matches any block that has the <dfn>plants</dfn>, <dfn>vine</dfn> or <dfn>leaves</dfn> material.</li>
+    <li><dfn>*fire</dfn> matches any block that has the <dfn>fire</dfn> or <dfn>lava</dfn> material, and any block that is currently on fire.</li>
+</ul>
+
+<hr />
+
+<h3 id="countblocks">countblocks</h3>
+<p>Displays the amounts of blocks of certain types in an area. Syntax is very similar to <dfn>clearblocks</dfn>.</p>
+<pre>/cofh countblocks {&lt;player&gt; &lt;xRadius&gt; &lt;yRadius&gt; &lt;zRadius&gt; | &lt;xStart&gt; &lt;yStart&gt; &lt;zStart&gt; &lt;xEnd&gt; &lt;yEnd&gt; &lt;zEnd&gt;} [block[#meta]] [block[#meta]] ...</pre>
+<p>All arguments are the same as the ones <dfn>clearblocks</dfn> has.</p>
+
+<hr />
+
+<h3 id="replaceblocks">replaceblocks</h3>
+<p>Replaces blocks of certain types with another block type in an area. Very similar to <dfn>clearblocks</dfn>.</p>
+<pre>/cofh replaceblocks {&lt;player&gt; &lt;xRadius&gt; &lt;yRadius&gt; &lt;zRadius&gt; | &lt;xStart&gt; &lt;yStart&gt; &lt;zStart&gt; &lt;xEnd&gt; &lt;yEnd&gt; &lt;zEnd&gt;} &lt;replaceBlock[#meta]&gt; [block[#meta]] [block[#meta]] ...</pre>
+<dl>
+    <dt>replaceBlock</dt>
+    <dd>The internal name (ID) of the block to replace blocks with.</dd>
+</dl>
+<p>All other arguments are the same as the ones <dfn>clearblocks</dfn> has.</p>
+
+<hr />
+
+<h3 id="reloadworldgen">reloadworldgen</h3>
+<p>Reloads all <a href="/docs/cofh-core/custom-world-generation">custom world generation</a> JSON files.</p>
+<pre>/cofh reloadworldgen</pre>
+
+<hr />
+
+<h3 id="unloadchunk">unloadchunk</h3>
+<p>Force-unloads the chunk that the command user is looking at.</p>
+<pre>/cofh unloadchunk</pre>

@@ -33,7 +33,7 @@ layout: blog
         </li>
         
         {% if start > 1 %}
-            <li><a href="/index.html">1</a></li>
+            <li><a href="/">1</a></li>
             {% if start > 2 %}
                 <li><span>...</span></li>
             {% endif %}
@@ -43,7 +43,7 @@ layout: blog
             {% if page == paginator.page %}
                 {% capture link %}<span>{{ page }}</span>{% endcapture %}
             {% elsif page == 1 %}
-                {% capture link %}<a href="/index.html">{{ page }}</a>{% endcapture %}
+                {% capture link %}<a href="/">{{ page }}</a>{% endcapture %}
             {% else %}
                 {% capture link %}<a href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>{% endcapture %}
             {% endif %}

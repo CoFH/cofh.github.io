@@ -48,6 +48,6 @@ defaults:
 exclude:
   - README.md
 
-permalink: '/posts/:year/:month/:day/:title.html'
+permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5
 paginate_path: "/posts/page-:num/"
