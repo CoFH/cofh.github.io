@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{% if page.title %}{{ page.title }} - {% endif %}{% if page.mod and page.title != page.mod %}{{ page.mod }} - {% endif %}Team CoFH</title>
+        {% capture title %}{% if page.title %}{{ page.title }} - {% endif %}{% if page.mod and page.title != page.mod %}{{ page.mod }} - {% endif %}Team CoFH{% endcapture %}
+        {% assign description = "Team CoFH's official site for news, downloads and documentation!" %}
+		<title>{{ title }}</title>
         <meta charset="utf-8" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="{{ description }}" />
+        <meta property="og:title" content="{{ title }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="{{ site.url }}/assets/images/logo.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' }}" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:site" content="@TeamCoFH" />
+        <meta property="twitter:description" content="{{ description }}" />
 
         <!-- IE -->
         <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -31,7 +42,7 @@
         <nav class="uk-navbar uk-margin-bottom" data-uk-sticky>
             <div class="uk-container uk-container-center">
                 <a href="/" class="uk-navbar-brand {% if page.url == '/index.html' %}uk-active{% endif %}">Team CoFH</a>
-                
+
                 <ul class="uk-navbar-nav">
                     <li{% if page.url contains '/about' %} class="uk-active"{% endif %}>
                         <a href="/about">About</a>
@@ -46,7 +57,7 @@
                         <a href="/permissions">Permissions</a>
                     </li>
                 </ul>
-                
+
                 <div class="uk-navbar-content uk-navbar-flip uk-hidden-small uk-form uk-autocomplete cofh-search" data-uk-autocomplete="{ source: pages }">
                     <input type="text" placeholder="Search..." />
                     <script type="text/autocomplete">
