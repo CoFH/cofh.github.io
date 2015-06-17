@@ -6,6 +6,8 @@ defaults:
   - scope:
       path: ""
       type: posts
+      author: Team CoFH
+      author_url: http://www.twitter.com/TeamCoFH
     values:
       is_post: true
       layout: post
@@ -50,6 +52,8 @@ exclude:
 
 gems:
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
 
 permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5
