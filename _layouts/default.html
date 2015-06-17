@@ -2,20 +2,19 @@
 <html>
 	<head>
         {% capture title %}{% if page.title %}{{ page.title }} - {% endif %}{% if page.mod and page.title != page.mod %}{{ page.mod }} - {% endif %}Team CoFH{% endcapture %}
-        {% assign description = "Team CoFH's official site for news, downloads and documentation!" %}
+        {% assign description = "" %}
 		<title>{{ title }}</title>
         <meta charset="utf-8" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="{{ description }}" />
         <meta property="og:title" content="{{ title }}" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="{{ site.url }}/assets/images/logo_share.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' }}" />
+        <meta property="og:description" content="Team CoFH's official site for news, downloads and documentation!" />
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:site" content="@TeamCoFH" />
-        <meta property="twitter:description" content="{{ description }}" />
 
         <!-- IE -->
         <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
