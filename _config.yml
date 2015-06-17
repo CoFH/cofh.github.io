@@ -48,6 +48,9 @@ defaults:
 exclude:
   - README.md
 
+gems:
+  - jekyll-sitemap
+
 permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5
 paginate_path: "/posts/page-:num/"
