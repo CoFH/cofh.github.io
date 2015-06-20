@@ -50,13 +50,6 @@ defaults:
 exclude:
   - README.md
 
-keep_files:
-  - assets/css/fonts
-  - assets/css/uikit
-  - assets/images
-  - assets/js/jquery.min.js
-  - assets/js/uikit
-
 gems:
   - jekyll-sitemap
   - jekyll-feed
