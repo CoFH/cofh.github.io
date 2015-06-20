@@ -117,6 +117,8 @@ thermal-foundation:
           url: "/thermal-foundation/materials/cryotheum-dust"
         - title: "Mana Dust"
           url: "/thermal-foundation/materials/mana-dust"
+        - title: "Gears"
+          url: "/thermal-foundation/materials/gears"
     - title: "Alloys"
       items:
         - title: "Bronze (Tinker's Alloy)"
