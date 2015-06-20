@@ -1,0 +1,457 @@
+---
+title: Pulverizer
+---
+
+<img src="/assets/images/thermal-expansion/pulverizer.png" title="Pulverizer" />
+
+<blockquote>MACHINE SMASH! Puny ore.</blockquote>
+
+<p>The <strong>Pulverizer</strong> is one of the Machines added by Thermal Expansion. It uses <a href="/docs/redstone-flux">Redstone Flux</a> to smash items. The Machine is commonly used to process Ore blocks more efficiently than smelting them directly, but it also has many other helpful recipes.</p>
+
+<h2 id="power">Power</h2>
+<p>When working at maximum speed, the Pulverizer consumes 40 RF per tick. When its internal energy storage is starting to deplete, the Machine will slow down and use less power. This prevents sudden interruptions of the Pulverizer's work when its power supply cuts short.</p>
+
+<h2 id="gui">GUI</h2>
+<img src="/assets/images/thermal-expansion/pulverizer-gui.png" title="Pulverizer GUI" />
+
+<dl class="uk-description-list-line">
+    <dt>1. Input Slot</dt>
+    <dd>Items placed in this slot are smashed by the Pulverizer.</dd>
+
+    <dt>2. Primary Output Slots</dt>
+    <dd>Fully processed items end up in this slot.</dd>
+
+    <dt>3. Secondary Output Slot</dt>
+    <dd>Possible byproducts of items being smashed end up in this slot.</dd>
+
+    <dt>4. Progress Arrow</dt>
+    <dd>Displays the progress of the item currently being processed. If <a href="http://www.curse.com/mc-mods/minecraft/222211-notenoughitems" target="_blank">Not Enough Items</a> is installed, the arrow can be clicked to look up the Pulverizer's recipes.</dd>
+
+    <dt>5. Power Gauge</dt>
+    <dd>Displays how fast the Pulverizer is working in relation to its maximum speed.</dd>
+
+    <dt>6. Energy Gauge</dt>
+    <dd>Displays how much Redstone Flux is currently stored in the Pulverizer.</dd>
+
+    <dt>7. Charging Slot</dt>
+    <dd>Items that store Redstone Flux that are placed here are discharged by the Pulverizer to charge itself.</dd>
+
+    <dt>8. Energy Tab</dt>
+    <dd>Displays how much power the Pulverizer uses, and how much Redstone Flux is currently stored in it.</dd>
+
+    <dt>9. Information Tab</dt>
+    <dd>Displays a bit of information about the Pulverizer.</dd>
+
+    <dt>10. Tutorial Tab</dt>
+    <dd>Explains various things about the Pulverizer and the other tabs in the GUI.</dd>
+
+    <dt>11. Augmentation Tab</dt>
+    <dd><a href="/docs/thermal-expansion/augments/augments">Augments</a> can be placed in the slots in this tab.</dd>
+
+    <dt>12. Security Tab</dt>
+    <dd>Allows setting who is allowed to access the Pulverizer. Only available if a <a href="/docs/thermal-expansion/materials/signalum-security-lock">Signalum Security Lock</a> is installed.</dd>
+
+    <dt>13. Redstone Control Tab</dt>
+    <dd>Allows setting how the Pulverizer responds to Redstone signals. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Redstone Circuit</a> Augment is installed.</dd>
+
+    <dt>14. Configuration Tab</dt>
+    <dd>Allows configuring the <a href="#input-output">input/output</a> behavior of the sides of the Pulverizer. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed.</dd>
+
+    <dt>15. Player Inventory</dt>
+    <dd>The inventory and hotbar of the player that is accessing the Pulverizer.</dd>
+</dl>
+
+<h2 id="input-output">Input/Output</h2>
+<p>The different sides of the Pulverizer correspond to different color-coded slots in its GUI. These sides can be identified by color-coded holes on the sides of the Pulverizer. This is used for handling input and output with ducts/pipes/conduits/tubes, other Machines and other types of inventories.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed, this feature of the Pulverizer can be configured. Some things can be inserted from any side.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Servo Mechanism</a> Augment is installed, output items are automatically ejected from the corresponding sides of the Pulverizer, evenly divided between the available outputs.</p>
+
+<table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+    <thead>
+        <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
+    </thead>
+
+    <tbody>
+        <tr><td>Item input</td> <td>Blue</td> <td>Top</td></tr>
+        <tr><td>Primary item output</td> <td>Red</td> <td>Left, Right, Back</td></tr>
+        <tr><td>Secondary item output</td> <td>Yellow</td> <td>Bottom</td></tr>
+        <tr><td>Any item output</td> <td>Orange</td> <td>(not set)</td></tr>
+        <tr><td>Any item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
+        <tr><td>Redstone Flux input</td> <td>-</td> <td>(any side)</td></tr>
+    </tbody>
+</table>
+<span class="uk-text-small">*: Cannot be automatically ejected from.</span>
+<h2 id="recipes">Recipes</h2>
+<p>
+    The following table lists the recipes that the Pulverizer can perform. Recipes that use less energy also take less time.<br />
+    If the output items of a recipe have multiple versions added by different mods (Pulverized Tin for example), and there are versions added by <a href="/docs/thermal-foundation">Thermal Foundation</a> or Thermal Expansion, those versions will usually be preferred.
+</p>
+
+<p>
+    <span class="uk-text-small">*: May be changed or disabled in the config.</span><br />
+    <span class="uk-text-small">**: Chance is configurable per Wool color. Most colors are set to 5% by default, except white, brown, green and black, which are set to 0%.</span>
+</p>
+
+<h3>Ore Processing</h3>
+<table class="uk-table uk-table-condensed uk-table-striped uk-text-small cofh-table-semi-compress">
+    <thead>
+        <tr><th>Input</th> <th>Primary Output</th> <th>Secondary Output</th> <th>Energy</th></tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Metal Ores</td>
+            <td>2x* Pulverized metals (dusts)</td>
+            <td>-</td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/world-generation/ores/#vanilla-ores">Iron Ore</a></td>
+            <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Pulverized Iron</a></td>
+            <td><a href="/docs/thermal-foundation/materials/ferrous-metal">Pulverized Ferrous Metal</a> (10%)</td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/world-generation/ores/#vanilla-ores">Gold Ore</a></td>
+            <td><a href="/docs/thermal-foundation/vanilla-materials/gold">Pulverized Gold</a></td>
+            <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a> (5%)</td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/world-generation/ores/#copper-ore">Copper Ore</a></td>
+            <td><a href="/docs/thermal-foundation/materials/copper">Pulverized Copper</a></td>
+            <td><a href="/docs/thermal-foundation/vanilla-materials/gold">Pulverized Gold</a> (10%)</td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/world-generation/ores/#tin-ore">Tin Ore</a></td>
+            <td><a href="/docs/thermal-foundation/materials/tin">Pulverized Tin</a></td>
+            <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Pulverized Iron</a> (10%)</td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/world-generation/ores/#silver-ore">Silver Ore</a></td>
+            <td><a href="/docs/thermal-foundation/materials/silver">Pulverized Silver</a></td>
+            <td><a href="/docs/thermal-foundation/materials/lead">Pulverized Lead</a> (10%)</td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/world-generation/ores/#lead-ore">Lead Ore</a></td>
+            <td><a href="/docs/thermal-foundation/materials/lead">Pulverized Lead</a></td>
+            <td><a href="/docs/thermal-foundation/materials/silver">Pulverized Silver</a> (10%)</td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/world-generation/ores/#ferrous-ore">Ferrous Ore</a></td>
+            <td><a href="/docs/thermal-foundation/materials/ferrous-metal">Pulverized Ferrous Metal</a></td>
+            <td><a href="/docs/thermal-foundation/materials/shiny-metal">Pulverized Shiny Metal</a> (10%)</td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td>Coal Ore</td>
+            <td>3x <a href="/docs/thermal-foundation/vanilla-materials/coal">Coal</a></td>
+            <td>Pulverized Coal (25%)</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Diamond Ore</td>
+            <td>2x Diamond</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Emerald Ore</td>
+            <td>2x Emerald</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Lapis Lazuli Ore</td>
+            <td>9x Lapis Lazuli</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Redstone Ore</td>
+            <td>6x Redstone</td>
+            <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a> (25%)</td>
+            <td>3200 RF</td>
+        </tr>
+        <tr>
+            <td>Nether Quartz Ore</td>
+            <td>2x Nether Quartz</td>
+            <td><a href="/docs/thermal-foundation/materials/sulfur">Sulfur</a> (15%)</td>
+            <td>2400 RF</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Other Materials</h3>
+<table class="uk-table uk-table-condensed uk-table-striped uk-text-small cofh-table-semi-compress">
+    <thead>
+        <tr><th>Input</th> <th>Primary Output</th> <th>Secondary Output</th> <th>Energy</th></tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td><a href="/docs/thermal-foundation/vanilla-materials/coal">Coal</a></td>
+            <td>Pulverized Coal</td>
+            <td><a href="/docs/thermal-foundation/materials/sulfur">Sulfur</a> (15%)</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/vanilla-materials/charcoal">Charcoal</a></td>
+            <td>Pulverized Charcoal</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/vanilla-materials/obsidian">Obsidian</a></td>
+            <td>4x Pulverized Obsidian</td>
+            <td>-</td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td>Wood (logs)</td>
+            <td>2x <a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+            <td>-</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Dandelion</td>
+            <td>4x Dandelion Yellow</td>
+            <td>-</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Poppy</td>
+            <td>4x Rose Red</td>
+            <td>-</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Sandstone*</td>
+            <td>2x Sand</td>
+            <td><a href="/docs/thermal-foundation/materials/niter">Niter</a> (50%)</td>
+            <td>3200 RF</td>
+        </tr>
+        <tr>
+            <td>Netherrack*</td>
+            <td>Gravel</td>
+            <td><a href="/docs/thermal-foundation/materials/sulfur">Sulfur</a> (15%)</td>
+            <td>3200 RF</td>
+        </tr>
+        <tr>
+            <td>Sugar Canes*</td>
+            <td>2x Sugar</td>
+            <td>-</td>
+            <td>800 RF</td>
+        </tr>
+        <tr>
+            <td>Bone*</td>
+            <td>6x Bone Meal</td>
+            <td>-</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Blaze Rod*</td>
+            <td>4x Blaze Powder</td>
+            <td><a href="/docs/thermal-foundation/materials/sulfur">Sulfur</a> (50%)</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-foundation/materials/blizz-rod">Blizz Rod</a>*</td>
+            <td>4x <a href="/docs/thermal-foundation/materials/blizz-powder">Blizz Powder</a></td>
+            <td>Snowball (50%)</td>
+            <td>1600 RF</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Recycling</h3>
+<table class="uk-table uk-table-condensed uk-table-striped uk-text-small cofh-table-semi-compress">
+    <thead>
+        <tr><th>Input</th> <th>Primary Output</th> <th>Secondary Output</th> <th>Energy</th></tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td><a href="/docs/thermal-expansion/materials/energy-cell-frames">Leadstone Energy Cell Frame</a></td>
+            <td>8x Redstone</td>
+            <td>3x <a href="/docs/thermal-foundation/materials/lead">Lead Ingot</a></td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-expansion/storage/energy-cells">Leadstone Energy Cell</a></td>
+            <td>8x Redstone</td>
+            <td>3x <a href="/docs/thermal-foundation/materials/lead">Lead Ingot</a></td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-expansion/materials/energy-cell-frames">Hardened Energy Cell Frame</a></td>
+            <td>8x Redstone</td>
+            <td>3x <a href="/docs/thermal-foundation/alloys/invar">Invar Ingot</a></td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-expansion/storage/energy-cells">Hardened Energy Cell</a></td>
+            <td>8x Redstone</td>
+            <td>3x <a href="/docs/thermal-foundation/alloys/invar">Invar Ingot</a></td>
+            <td>4000 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-dynamics/energy-transport/leadstone-fluxduct">Leadstone Fluxduct</a></td>
+            <td>Redstone</td>
+            <td>3x <a href="/docs/thermal-foundation/materials/lead">Lead Nugget</a></td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-dynamics/energy-transport/hardened-fluxduct">Hardened Fluxduct</a></td>
+            <td>2x Redstone</td>
+            <td>3x <a href="/docs/thermal-foundation/alloys/invar">Invar Nugget</a></td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td><a href="/docs/thermal-dynamics/fluid-transport/temperate-fluiduct">Temperate Fluiduct</a></td>
+            <td>3x <a href="/docs/thermal-foundation/materials/copper">Copper Nugget</a></td>
+            <td>1x <a href="/docs/thermal-foundation/materials/lead">Lead Nugget</a> (if opaque)</td>
+            <td>1600 RF</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Miscellaneous Recipes</h3>
+<table class="uk-table uk-table-condensed uk-table-striped uk-text-small cofh-table-semi-compress">
+    <thead>
+        <tr><th>Input</th> <th>Primary Output</th> <th>Secondary Output</th> <th>Energy</th></tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Metal Ingots</td>
+            <td>Pulverized metals (dusts)</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Stone</td>
+            <td>Cobblestone</td>
+            <td>-</td>
+            <td>3200 RF</td>
+        </tr>
+        <tr>
+            <td>Cobblestone</td>
+            <td>Sand</td>
+            <td>Gravel (15%)</td>
+            <td>3200 RF</td>
+        </tr>
+        <tr>
+            <td>Gravel</td>
+            <td>Flint</td>
+            <td>Sand (15%)</td>
+            <td>3200 RF</td>
+        </tr>
+        <tr>
+            <td>Glass</td>
+            <td>Sand</td>
+            <td>-</td>
+            <td>3200 RF</td>
+        </tr>
+        <tr>
+            <td>Stone Bricks</td>
+            <td>Cracked Stone Bricks</td>
+            <td>-</td>
+            <td>800 RF</td>
+        </tr>
+        <tr>
+            <td>Glowstone</td>
+            <td>4x Glowstone Dust</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Block of Quartz</td>
+            <td>4x Nether Quartz</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Quartz Stairs</td>
+            <td>6x Nether Quartz</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Any color Wool*</td>
+            <td>4x* String</td>
+            <td>Dye (5%)**</td>
+            <td>1600 RF</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Mod Support</h3>
+<table class="uk-table uk-table-condensed uk-table-striped uk-text-small cofh-table-semi-compress">
+    <thead>
+        <tr><th>Input</th> <th>Primary Output</th> <th>Secondary Output</th> <th>Energy</th></tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Ender Pearl</td>
+            <td>Ender Pearl Dust</td>
+            <td>-</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Nether Quartz</td>
+            <td>Nether Quartz Dust</td>
+            <td>-</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Saltpeter Ore</td>
+            <td>4x <a href="/docs/thermal-foundation/materials/niter">Niter</a></td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Sulfur Ore</td>
+            <td>6x <a href="/docs/thermal-foundation/materials/sulfur">Sulfur</a></td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Certus Quartz Ore</td>
+            <td>2x Certus Quartz</td>
+            <td>Certuz Quartz Dust (10%)</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Certus Quartz</td>
+            <td>Certus Quartz Dust</td>
+            <td>-</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Fluix Crystal</td>
+            <td>Fluix Dust</td>
+            <td>-</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Sand</td>
+            <td>Silicon</td>
+            <td>-</td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Native metal Clusters</td>
+            <td>2x* Pulverized metals (dusts)</td>
+            <td>-</td>
+            <td>4800 RF</td>
+        </tr>
+    </tbody>
+</table>

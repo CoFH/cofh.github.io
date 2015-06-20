@@ -4,9 +4,14 @@ title: Redstone Furnace
 
 <img src="/assets/images/thermal-expansion/redstone-furnace.png" title="Redstone Furnace" />
 
+<blockquote>Coal is for chumps!</blockquote>
+
 <p>The <strong>Redstone Furnace</strong> is one of the Machines added by Thermal Expansion. It is very similar to the Furnace in vanilla Minecraft, except that it works faster and requires <a href="/docs/redstone-flux">Redstone Flux</a> instead of solid fuel to operate. Like the Furnace, it smelts items into other items, but it also has some recipes of its own that cannot be performed in a regular Furnace.</p>
 
-<p>The machine was previously called the <strong>Powered Furnace</strong>. This was changed in the third iteration of the mod, when it moved from the Minecraft Joules power system to the Redstone Flux power system.</p>
+<p>The Machine was previously called the <strong>Powered Furnace</strong>. This was changed in the third iteration of the mod, when it moved from the Minecraft Joules power system to the Redstone Flux power system.</p>
+
+<h2 id="power">Power</h2>
+<p>When working at maximum speed, the Redstone Furnace consumes 20 RF per tick. When its internal energy storage is starting to deplete, the Furnace will slow down and use less power. This prevents sudden interruptions of the Furnace's work when its power supply cuts short.</p>
 
 <h2 id="gui">GUI</h2>
 <img src="/assets/images/thermal-expansion/redstone-furnace-gui.png" title="Redstone Furnace GUI" />
@@ -55,6 +60,27 @@ title: Redstone Furnace
     <dd>The inventory and hotbar of the player that is accessing the Furnace.</dd>
 </dl>
 
+<h2 id="input-output">Input/Output</h2>
+<p>The different sides of the Redstone Furnace correspond to different color-coded slots in its GUI. These sides can be identified by color-coded holes on the sides of the Furnace. This is used for handling input and output with ducts/pipes/conduits/tubes, other Machines and other types of inventories.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed, this feature of the Furnace can be configured. Some things can be inserted from any side.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Servo Mechanism</a> Augment is installed, output items are automatically ejected from the corresponding sides of the Furnace, evenly divided between the available outputs.</p>
+
+<table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+    <thead>
+        <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
+    </thead>
+
+    <tbody>
+        <tr><td>Item input</td> <td>Blue</td> <td>Top, Bottom</td></tr>
+        <tr><td>Item output</td> <td>Orange</td> <td>Left, Right, Back</td></tr>
+        <tr><td>Any item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
+        <tr><td>Redstone Flux input</td> <td>-</td> <td>(any side)</td></tr>
+    </tbody>
+</table>
+<span class="uk-text-small">*: Cannot be automatically ejected from.</span>
+
 <h2 id="recipes">Recipes</h2>
 <p>
     Redstone Furnaces can do anything that Furnaces from vanilla Minecraft can, but they also have some additional recipes of their own.<br />
@@ -62,7 +88,7 @@ title: Redstone Furnace
     If the output item of a recipe has multiple versions added by different mods (Copper Ingots for example), and one of the versions is added by <a href="/docs/thermal-foundation">Thermal Foundation</a> or Thermal Expansion, that version will be preferred.
 </p>
 
-<table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+<table class="uk-table uk-table-condensed uk-table-striped uk-text-small cofh-table-compress">
     <thead>
         <tr><th>Input</th> <th>Output</th> <th>Energy</th></tr>
     </thead>
@@ -77,27 +103,3 @@ title: Redstone Furnace
         <tr><td>Hay Bale</td> <td><a href="/docs/thermal-foundation/vanilla-materials/charcoal">Charcoal</a></td> <td>3200 RF</td></tr>
     </tbody>
 </table>
-
-<h2 id="power">Power</h2>
-<p>When working at maximum speed, the Redstone Furnace consumes 20 RF per tick. When its internal energy storage is starting to deplete, the Furnace will slow down and use less power. This is to prevent sudden interruptions of the Furnace's work when its power supply cuts short.</p>
-
-<h2 id="input-output">Input/Output</h2>
-<p>The different sides of the Redstone Furnace correspond to different color-coded slots in its GUI. These sides can be identified by color-coded holes on the sides of the Furnace. This is used for handling input and output with ducts/pipes/conduits/tubes, other machines and other types of inventories.</p>
-
-<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed, this feature of the Furnace can be configured. Some things can be inserted from any side.</p>
-
-<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Servo Mechanism</a> Augment is installed, output items are automatically ejected from the corresponding sides of the Furnace, evenly divided between the available outputs.</p>
-
-<table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
-    <thead>
-        <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
-    </thead>
-
-    <tbody>
-        <tr><td>Item input</td> <td>Blue</td> <td>Top, Bottom</td></tr>
-        <tr><td>Item output</td> <td>Orange</td> <td>Left, Right, Back</td></tr>
-        <tr><td>Item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
-        <tr><td>Redstone Flux input</td> <td>-</td> <td>(any side)</td></tr>
-    </tbody>
-</table>
-<span class="uk-text-small">*: Cannot be automatically ejected from.</span>

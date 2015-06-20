@@ -40,6 +40,12 @@ p {
     }
 }
 
+@media(min-width: 768px) {
+    .uk-table.cofh-table-semi-compress {
+        width: 75%;
+    }
+}
+
 .uk-nav-offcanvas>li>a {
     padding: 6px 15px;
 }
