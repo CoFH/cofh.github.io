@@ -50,6 +50,7 @@ defaults:
 exclude:
   - README.md
   - /*.pdn
+  - /Thumbs.db
 
 gems:
   - jekyll-sitemap
