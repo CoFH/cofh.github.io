@@ -1,0 +1,225 @@
+---
+title: Sawmill
+---
+
+<img src="/assets/images/thermal-expansion/sawmill.png" title="Sawmill" />
+
+<blockquote>Like punching trees, but better!</blockquote>
+
+<p>The <strong>Sawmill</strong> is one of the Machines added by Thermal Expansion. It uses <a href="/docs/redstone-flux">Redstone Flux</a> to cut wooden objects. It can be used to process Wood logs more efficiently than by hand, as well as turning various things made of wood back into Wood Planks. The machine often produces <a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a> as a byproduct.</p>
+
+<h2 id="crafting">Crafting</h2>
+<img src="/assets/images/recipes/Sawmill.png" class="uk-margin-small-bottom" title="Sawmill recipe" /> 
+<ul class="uk-text-small uk-margin-remove">
+    <li><a href="/docs/thermal-expansion/materials/machine-frames">Machine Frame</a> (any tier)</li>
+    <li><a href="/docs/thermal-expansion/materials/redstone-reception-coil">Redstone Reception Coil</a></li>
+    <li>2x <a href="/docs/thermal-foundation/materials/gears">Copper Gear</a></li>
+    <li>2x Wood Planks (any type)</li>
+    <li>Iron Axe</li>
+</ul>
+
+<h2 id="power">Power</h2>
+<p>When working at maximum speed, the Sawmill consumes 20 RF per tick. When its internal energy storage is starting to deplete, the Machine will slow down and use less power. This prevents sudden interruptions of the Sawmill's work when its power supply cuts short.</p>
+
+<h2 id="gui">GUI</h2>
+<img src="/assets/images/thermal-expansion/Sawmill-gui.png" title="Sawmill GUI" />
+
+<dl class="uk-description-list-line">
+    <dt>1. Input Slot</dt>
+    <dd>Items placed in this slot are sawed by the Sawmill.</dd>
+
+    <dt>2. Primary Output Slots</dt>
+    <dd>Fully processed items end up in this slot.</dd>
+
+    <dt>3. Secondary Output Slot</dt>
+    <dd>Possible byproducts of items being sawed end up in this slot.</dd>
+
+    <dt>4. Progress Arrow</dt>
+    <dd>Displays the progress of the item currently being processed. If <a href="http://www.curse.com/mc-mods/minecraft/222211-notenoughitems" target="_blank">Not Enough Items</a> is installed, the arrow can be clicked to look up the Sawmill's recipes.</dd>
+
+    <dt>5. Power Gauge</dt>
+    <dd>Displays how fast the Sawmill is working in relation to its maximum speed.</dd>
+
+    <dt>6. Energy Gauge</dt>
+    <dd>Displays how much Redstone Flux is currently stored in the Sawmill.</dd>
+
+    <dt>7. Charging Slot</dt>
+    <dd>Items that store Redstone Flux that are placed here are discharged by the Sawmill to charge itself.</dd>
+
+    <dt>8. Energy Tab</dt>
+    <dd>Displays how much power the Sawmill uses, and how much Redstone Flux is currently stored in it.</dd>
+
+    <dt>9. Information Tab</dt>
+    <dd>Displays a bit of information about the Sawmill.</dd>
+
+    <dt>10. Tutorial Tab</dt>
+    <dd>Explains various things about the Sawmill and the other tabs in the GUI.</dd>
+
+    <dt>11. Augmentation Tab</dt>
+    <dd><a href="/docs/thermal-expansion/augments/augments">Augments</a> can be placed in the slots in this tab.</dd>
+
+    <dt>12. Security Tab</dt>
+    <dd>Allows setting who is allowed to access the Sawmill. Only available if a <a href="/docs/thermal-expansion/materials/signalum-security-lock">Signalum Security Lock</a> is installed.</dd>
+
+    <dt>13. Redstone Control Tab</dt>
+    <dd>Allows setting how the Sawmill responds to Redstone signals. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Redstone Circuit</a> Augment is installed.</dd>
+
+    <dt>14. Configuration Tab</dt>
+    <dd>Allows configuring the <a href="#input-output">input/output</a> behavior of the sides of the Sawmill. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed.</dd>
+
+    <dt>15. Player Inventory</dt>
+    <dd>The inventory and hotbar of the player that is accessing the Sawmill.</dd>
+</dl>
+
+<h2 id="input-output">Input/Output</h2>
+<p>The different sides of the Sawmill correspond to different color-coded slots in its GUI. These sides can be identified by color-coded holes on the sides of the Sawmill. This is used for handling input and output with ducts/pipes/conduits/tubes, other Machines and other types of inventories.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed, this feature of the Sawmill can be configured. Some things can be inserted from any side.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Servo Mechanism</a> Augment is installed, output items are automatically ejected from the corresponding sides of the Sawmill, evenly divided between the available outputs.</p>
+
+<table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+    <thead>
+        <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
+    </thead>
+
+    <tbody>
+        <tr><td>Item input</td> <td>Blue</td> <td>Top</td></tr>
+        <tr><td>Primary item output</td> <td>Red</td> <td>Left, Right, Back</td></tr>
+        <tr><td>Secondary item output</td> <td>Yellow</td> <td>Bottom</td></tr>
+        <tr><td>Any item output</td> <td>Orange</td> <td>(not set)</td></tr>
+        <tr><td>Any item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
+        <tr><td>Redstone Flux input</td> <td>-</td> <td>(any side)</td></tr>
+    </tbody>
+</table>
+<small>*: Cannot be automatically ejected from.</small>
+
+<h2 id="recipes">Recipes</h2>
+<p>The following table lists the recipes that the Sawmill can perform. Recipes that use less energy also take less time.</p>
+
+<p>
+    <small>*: May be changed or disabled in the config.</small><br />
+</p>
+
+<table class="uk-table uk-table-condensed uk-table-striped uk-text-small cofh-table-semi-compress">
+    <thead>
+        <tr><th>Input</th> <th>Primary Output</th> <th>Secondary Output</th> <th>Energy</th></tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Wood (log)</td>
+            <td>6x* Wood Planks</td>
+            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+            <td>800 RF</td>
+        </tr>
+        <tr>
+            <td>Crafting Table</td>
+            <td>4x Oak Wood Planks</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Chest</td>
+            <td>8x Oak Wood Planks</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Bookshelf</td>
+            <td>6x Oak Wood Planks</td>
+            <td>3x Book</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Bed</td>
+            <td>8x Oak Wood Planks</td>
+            <td>3x White Wool</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Wooden Door</td>
+            <td>6x Oak Wood Planks</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Trapdoor</td>
+            <td>3x Oak Wood Planks</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Fence Gate</td>
+            <td>2x Oak Wood Planks</td>
+            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Wooden Pressure Plate</td>
+            <td>2x Oak Wood Planks</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Sign</td>
+            <td>2x Oak Wood Planks</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Note Block</td>
+            <td>8x Oak Wood Planks</td>
+            <td>Redstone</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Jukebox</td>
+            <td>8x Oak Wood Planks</td>
+            <td>Diamond</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Boat</td>
+            <td>5x Oak Wood Planks</td>
+            <td>-</td>
+            <td>2400 RF</td>
+        </tr>
+        <tr>
+            <td>Wooden Pickaxe</td>
+            <td>3x Oak Wood Planks</td>
+            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Wooden Shovel</td>
+            <td>Oak Wood Planks</td>
+            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Wooden Axe</td>
+            <td>3x Oak Wood Planks</td>
+            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Wooden Hoe</td>
+            <td>2x Oak Wood Planks</td>
+            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Wooden Sword</td>
+            <td>2x Oak Wood Planks</td>
+            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+            <td>1600 RF</td>
+        </tr>
+        <tr>
+            <td>Melon (block)</td>
+            <td>8x Melon (item)</td>
+            <td>-</td>
+            <td>800 RF</td>
+        </tr>
+    </tbody>
+</table>

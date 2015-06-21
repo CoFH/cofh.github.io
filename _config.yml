@@ -49,6 +49,7 @@ defaults:
 
 exclude:
   - README.md
+  - /*.pdn
 
 gems:
   - jekyll-sitemap
