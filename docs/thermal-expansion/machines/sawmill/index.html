@@ -29,7 +29,7 @@ title: Sawmill
     <dd>Items placed in this slot are sawed by the Sawmill.</dd>
 
     <dt>2. Primary Output Slots</dt>
-    <dd>Fully processed items end up in this slot.</dd>
+    <dd>Fully processed items end up in these slots.</dd>
 
     <dt>3. Secondary Output Slot</dt>
     <dd>Possible byproducts of items being sawed end up in this slot.</dd>
@@ -78,20 +78,22 @@ title: Sawmill
 
 <p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Servo Mechanism</a> Augment is installed, output items are automatically ejected from the corresponding sides of the Sawmill, evenly divided between the available outputs.</p>
 
-<table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
-    <thead>
-        <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
-    </thead>
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+        <thead>
+            <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
+        </thead>
 
-    <tbody>
-        <tr><td>Item input</td> <td>Blue</td> <td>Top</td></tr>
-        <tr><td>Primary item output</td> <td>Red</td> <td>Left, Right, Back</td></tr>
-        <tr><td>Secondary item output</td> <td>Yellow</td> <td>Bottom</td></tr>
-        <tr><td>Any item output</td> <td>Orange</td> <td>(not set)</td></tr>
-        <tr><td>Any item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
-        <tr><td>Redstone Flux input</td> <td>-</td> <td>(any side)</td></tr>
-    </tbody>
-</table>
+        <tbody>
+            <tr><td>Item input</td> <td>Blue</td> <td>Top</td></tr>
+            <tr><td>Primary item output</td> <td>Red</td> <td>Left, Right, Back</td></tr>
+            <tr><td>Secondary item output</td> <td>Yellow</td> <td>Bottom</td></tr>
+            <tr><td>Any item output</td> <td>Orange</td> <td>(not set)</td></tr>
+            <tr><td>Any item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
+            <tr><td>Redstone Flux input</td> <td>-</td> <td>(any side)</td></tr>
+        </tbody>
+    </table>
+</div>
 <small>*: Cannot be automatically ejected from.</small>
 
 <h2 id="recipes">Recipes</h2>
@@ -101,125 +103,127 @@ title: Sawmill
     <small>*: May be changed or disabled in the config.</small><br />
 </p>
 
-<table class="uk-table uk-table-condensed uk-table-striped uk-text-small cofh-table-semi-compress">
-    <thead>
-        <tr><th>Input</th> <th>Primary Output</th> <th>Secondary Output</th> <th>Energy</th></tr>
-    </thead>
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-condensed uk-table-striped uk-text-small cofh-table-semi-compress">
+        <thead>
+            <tr><th>Input</th> <th>Primary Output</th> <th>Secondary Output</th> <th>Energy</th></tr>
+        </thead>
 
-    <tbody>
-        <tr>
-            <td>Wood (log)</td>
-            <td>6x* Wood Planks</td>
-            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
-            <td>800 RF</td>
-        </tr>
-        <tr>
-            <td>Crafting Table</td>
-            <td>4x Oak Wood Planks</td>
-            <td>-</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Chest</td>
-            <td>8x Oak Wood Planks</td>
-            <td>-</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Bookshelf</td>
-            <td>6x Oak Wood Planks</td>
-            <td>3x Book</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Bed</td>
-            <td>8x Oak Wood Planks</td>
-            <td>3x White Wool</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Wooden Door</td>
-            <td>6x Oak Wood Planks</td>
-            <td>-</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Trapdoor</td>
-            <td>3x Oak Wood Planks</td>
-            <td>-</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Fence Gate</td>
-            <td>2x Oak Wood Planks</td>
-            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Wooden Pressure Plate</td>
-            <td>2x Oak Wood Planks</td>
-            <td>-</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Sign</td>
-            <td>2x Oak Wood Planks</td>
-            <td>-</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Note Block</td>
-            <td>8x Oak Wood Planks</td>
-            <td>Redstone</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Jukebox</td>
-            <td>8x Oak Wood Planks</td>
-            <td>Diamond</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Boat</td>
-            <td>5x Oak Wood Planks</td>
-            <td>-</td>
-            <td>2400 RF</td>
-        </tr>
-        <tr>
-            <td>Wooden Pickaxe</td>
-            <td>3x Oak Wood Planks</td>
-            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
-            <td>1600 RF</td>
-        </tr>
-        <tr>
-            <td>Wooden Shovel</td>
-            <td>Oak Wood Planks</td>
-            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
-            <td>1600 RF</td>
-        </tr>
-        <tr>
-            <td>Wooden Axe</td>
-            <td>3x Oak Wood Planks</td>
-            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
-            <td>1600 RF</td>
-        </tr>
-        <tr>
-            <td>Wooden Hoe</td>
-            <td>2x Oak Wood Planks</td>
-            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
-            <td>1600 RF</td>
-        </tr>
-        <tr>
-            <td>Wooden Sword</td>
-            <td>2x Oak Wood Planks</td>
-            <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
-            <td>1600 RF</td>
-        </tr>
-        <tr>
-            <td>Melon (block)</td>
-            <td>8x Melon (item)</td>
-            <td>-</td>
-            <td>800 RF</td>
-        </tr>
-    </tbody>
-</table>
+        <tbody>
+            <tr>
+                <td>Wood (log)</td>
+                <td>6x* Wood Planks</td>
+                <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+                <td>800 RF</td>
+            </tr>
+            <tr>
+                <td>Crafting Table</td>
+                <td>4x Oak Wood Planks</td>
+                <td>-</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Chest</td>
+                <td>8x Oak Wood Planks</td>
+                <td>-</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Bookshelf</td>
+                <td>6x Oak Wood Planks</td>
+                <td>3x Book</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Bed</td>
+                <td>8x Oak Wood Planks</td>
+                <td>3x White Wool</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Wooden Door</td>
+                <td>6x Oak Wood Planks</td>
+                <td>-</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Trapdoor</td>
+                <td>3x Oak Wood Planks</td>
+                <td>-</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Fence Gate</td>
+                <td>2x Oak Wood Planks</td>
+                <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Wooden Pressure Plate</td>
+                <td>2x Oak Wood Planks</td>
+                <td>-</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Sign</td>
+                <td>2x Oak Wood Planks</td>
+                <td>-</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Note Block</td>
+                <td>8x Oak Wood Planks</td>
+                <td>Redstone</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Jukebox</td>
+                <td>8x Oak Wood Planks</td>
+                <td>Diamond</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Boat</td>
+                <td>5x Oak Wood Planks</td>
+                <td>-</td>
+                <td>2400 RF</td>
+            </tr>
+            <tr>
+                <td>Wooden Pickaxe</td>
+                <td>3x Oak Wood Planks</td>
+                <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+                <td>1600 RF</td>
+            </tr>
+            <tr>
+                <td>Wooden Shovel</td>
+                <td>Oak Wood Planks</td>
+                <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+                <td>1600 RF</td>
+            </tr>
+            <tr>
+                <td>Wooden Axe</td>
+                <td>3x Oak Wood Planks</td>
+                <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+                <td>1600 RF</td>
+            </tr>
+            <tr>
+                <td>Wooden Hoe</td>
+                <td>2x Oak Wood Planks</td>
+                <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+                <td>1600 RF</td>
+            </tr>
+            <tr>
+                <td>Wooden Sword</td>
+                <td>2x Oak Wood Planks</td>
+                <td><a href="/docs/thermal-expansion/materials/sawdust">Sawdust</a></td>
+                <td>1600 RF</td>
+            </tr>
+            <tr>
+                <td>Melon (block)</td>
+                <td>8x Melon (item)</td>
+                <td>-</td>
+                <td>800 RF</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

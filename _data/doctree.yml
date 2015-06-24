@@ -192,7 +192,7 @@ thermal-expansion:
         - title: "Sawmill"
           url: "/thermal-expansion/machines/sawmill"
         - title: "Induction Smelter"
-          #url: "/thermal-expansion/machines/induction-smelter"
+          url: "/thermal-expansion/machines/induction-smelter"
         - title: "Magma Crucible"
           #url: "/thermal-expansion/machines/magma-crucible"
         - title: "Fluid Transposer"
