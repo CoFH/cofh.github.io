@@ -63,7 +63,11 @@ p {
 }
 
 .uk-table-striped tbody tr:nth-of-type(even) {
-  background: #fdfdfd;
+    background: #fdfdfd;
+}
+
+.cofh-vertical-align-top {
+    vertical-align: top;
 }
 
 .cofh-banner {
