@@ -304,7 +304,7 @@ thermal-expansion:
         - title: "Pneumatic Servo"
           #url: "/thermal-expansion/materials/pneumatic-servo"
         - title: "Signalum Security Lock"
-          #url: "/thermal-expansion/materials/signalum-security-lock"
+          url: "/thermal-expansion/materials/signalum-security-lock"
         - title: "Sawdust"
           #url: "/thermal-expansion/materials/sawdust"
         - title: "Slag"
