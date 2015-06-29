@@ -318,7 +318,7 @@ thermal-expansion:
         - title: "Hardened Glass"
           #url: "/thermal-expansion/other/hardened-glass"
         - title: "Rockwool"
-          #url: "/thermal-expansion/other/rockwool"
+          url: "/thermal-expansion/other/rockwool"
         - title: "Schematic"
           #url: "/thermal-expansion/other/schematic"
         - title: "Tier System"
