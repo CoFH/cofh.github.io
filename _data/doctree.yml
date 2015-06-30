@@ -322,7 +322,7 @@ thermal-expansion:
     - title: "Other"
       items:
         - title: "Tier System"
-          #url: "/thermal-expansion/other/tier-system"
+          url: "/thermal-expansion/other/tier-system"
         - title: "Mod Support"
           #url: "/thermal-expansion/other/mod-support"
         - title: "IMC Messages"
@@ -346,10 +346,7 @@ thermal-dynamics:
         - title: "Flux-Plated Fluiduct"
     - title: "Energy Transport"
       items:
-        - title: "Leadstone Fluxduct"
-        - title: "Hardened Fluxduct"
-        - title: "Redstone Energy Fluxduct"
-        - title: "Resonant Fluxduct"
+        - title: "Fluxducts"
         - title: "Cryo-Stabilized Fluxduct"
     - title: "Duct Attachments"
       items:
