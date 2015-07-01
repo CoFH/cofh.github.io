@@ -275,8 +275,8 @@ thermal-expansion:
       items:
         - title: "Crescent Hammer (Wrench)"
           url: "/thermal-expansion/tools/crescent-hammer"
-        - title: "Invar BattleWrench"
-          #url: "/thermal-expansion/tools/invar-battlewrench"
+        - title: "BattleWrench"
+          url: "/thermal-expansion/tools/battlewrench"
         - title: "Multimeter"
           #url: "/thermal-expansion/tools/multimeter"
         - title: "Flux Igniter"
