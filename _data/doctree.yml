@@ -273,8 +273,8 @@ thermal-expansion:
           #url: "/thermal-expansion/plates/translocation-plate"
     - title: "Tools"
       items:
-        - title: "Crescent Hammer"
-          #url: "/thermal-expansion/tools/crescent-hammer"
+        - title: "Crescent Hammer (Wrench)"
+          url: "/thermal-expansion/tools/crescent-hammer"
         - title: "Invar BattleWrench"
           #url: "/thermal-expansion/tools/invar-battlewrench"
         - title: "Multimeter"
