@@ -278,7 +278,7 @@ thermal-expansion:
         - title: "BattleWrench"
           url: "/thermal-expansion/tools/battlewrench"
         - title: "Multimeter"
-          #url: "/thermal-expansion/tools/multimeter"
+          url: "/thermal-expansion/tools/multimeter"
         - title: "Flux Igniter"
           #url: "/thermal-expansion/tools/flux-igniter"
         - title: "Redprint"
