@@ -280,7 +280,7 @@ thermal-expansion:
         - title: "Multimeter"
           url: "/thermal-expansion/tools/multimeter"
         - title: "Flux Igniter"
-          #url: "/thermal-expansion/tools/flux-igniter"
+          url: "/thermal-expansion/tools/flux-igniter"
         - title: "Redprint"
           #url: "/thermal-expansion/tools/redprint"
         - title: "Sponges"
