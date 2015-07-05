@@ -60,4 +60,4 @@ gems:
 permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5
 paginate_path: "/posts/page-:num/"
-url: 'http://cofh.github.io'
+url: 'http://teamcofh.com'
