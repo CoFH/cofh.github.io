@@ -46,6 +46,12 @@ defaults:
     values:
       nav: redstone-arsenal
       mod: Redstone Arsenal
+  - scope:
+      path: "docs/minefactory-reloaded"
+      type: pages
+    values:
+      nav: minefactory-reloaded
+      mod: MineFactory Reloaded
 
 exclude:
   - README.md
