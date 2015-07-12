@@ -310,7 +310,7 @@ thermal-expansion:
         - title: "Flux Chiller"
           url: "/thermal-expansion/tools/flux-chiller"
         - title: "Redprint"
-          #url: "/thermal-expansion/tools/redprint"
+          url: "/thermal-expansion/tools/redprint"
         - title: "Sponges"
           #url: "/thermal-expansion/tools/sponges"
         - title: "Florbs"
