@@ -313,7 +313,7 @@ thermal-expansion:
         - title: "Redprint"
           url: "/thermal-expansion/tools/redprint"
         - title: "Sponges"
-          #url: "/thermal-expansion/tools/sponges"
+          url: "/thermal-expansion/tools/sponges"
         - title: "Florbs"
           #url: "/thermal-expansion/tools/florbs"
     - title: "Materials"
