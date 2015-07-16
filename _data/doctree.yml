@@ -315,7 +315,7 @@ thermal-expansion:
         - title: "Sponges"
           url: "/thermal-expansion/tools/sponges"
         - title: "Florbs"
-          #url: "/thermal-expansion/tools/florbs"
+          url: "/thermal-expansion/tools/florbs"
     - title: "Materials"
       items:
         - title: "Hardened Glass"
