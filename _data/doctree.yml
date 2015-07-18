@@ -289,11 +289,11 @@ thermal-expansion:
     - title: "Plates"
       items:
         - title: "Redstone Plate"
-          #url: "/thermal-expansion/plates/redstone-plate"
+          url: "/thermal-expansion/plates/redstone-plate"
         - title: "Impulse Plate"
-          #url: "/thermal-expansion/plates/impulse-plate"
+          url: "/thermal-expansion/plates/impulse-plate"
         - title: "Translocation Plate"
-          #url: "/thermal-expansion/plates/translocation-plate"
+          url: "/thermal-expansion/plates/translocation-plate"
     - title: "Tools"
       items:
         - title: "Crescent Hammer (Wrench)"
