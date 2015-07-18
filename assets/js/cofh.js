@@ -3,8 +3,26 @@ layout: null
 ---
 
 var pages = [
-{% for page in site.pages %}    { title: '{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}', value: '{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}', url: '{{ page.url | remove: "/index.html" }}'{% if page.mod and page.title != page.mod %}, mod: '{{ page.mod }}'{% endif %} }{% if forloop.last %}{% else %},{% endif %}
-{% endfor %}
+    {% for page in site.pages %}
+        {
+            title: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}", 
+            value: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}", 
+            url: "{{ page.url | remove: '/index.html' }}"
+            {% if page.mod and page.title != page.mod %}, mod: "{{ page.mod }}"{% endif %} 
+        }
+        {% if page.search_headers %}
+            {% for header in page.search_headers %}
+                ,
+                {
+                    title: "{{ header.title }}", 
+                    value: "{{ header.title }}", 
+                    url: "{{ page.url | remove: 'index.html' }}#{{ header.id }}"
+                    {% if page.mod and page.title != page.mod %}, mod: "{{ page.mod }}"{% endif %} 
+                }
+            {% endfor %}
+        {% endif %}
+        {% if forloop.last %}{% else %},{% endif %}
+    {% endfor %}
 ];
 
 var setScroll = function() {
