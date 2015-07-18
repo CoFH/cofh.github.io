@@ -39,6 +39,17 @@ var setScroll = function() {
 $(window).on('hashchange load', setScroll);
 
 $(function() {
+    $(':header').each(function() {
+        var id = $(this).attr('id');
+        if (typeof(id) === 'undefined') return;
+        
+        $(this).addClass('cofh-clickable');
+        $(this).append('<i class="uk-icon-link uk-margin-small-left cofh-clickable-icon"></i>');
+        $(this).click(function() {
+            window.location.hash = '#' + id
+        });
+    });
+
     $('.cofh-search').on('selectitem.uk.autocomplete', function(event, data) {
         window.location.href = window.location.protocol + '//' + window.location.host + data.url;
     });

@@ -141,3 +141,16 @@ p {
 .cofh-nav-docs>li>a:hover {
     text-decoration: underline;
 }
+
+.cofh-clickable {
+    cursor: pointer;
+}
+
+.cofh-clickable > .cofh-clickable-icon {
+    display: none;
+    color: #555555;
+}
+
+.cofh-clickable:hover > .cofh-clickable-icon {
+    display: inline;
+}
