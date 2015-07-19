@@ -56,6 +56,7 @@ defaults:
 exclude:
   - README.md
   - /*.pdn
+  - /*.xcf
   - /Thumbs.db
 
 gems:
