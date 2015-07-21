@@ -16,7 +16,7 @@ var pages = [
                 {
                     title: "{{ header.title }}", 
                     value: "{{ header.title }}", 
-                    url: "{{ page.url | remove: 'index.html' }}#{{ header.id }}"
+                    url: "{{ page.url | remove: 'index.html' }}{% if header.id %}#{{ header.id }}{% endif %}"
                     {% if page.mod and page.title != page.mod %}, mod: "{{ page.mod }}"{% endif %} 
                 }
             {% endfor %}
