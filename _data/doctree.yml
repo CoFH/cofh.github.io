@@ -217,7 +217,7 @@ thermal-expansion:
         - title: "Induction Smelter"
           url: "/thermal-expansion/machines/induction-smelter"
         - title: "Magma Crucible"
-          #url: "/thermal-expansion/machines/magma-crucible"
+          url: "/thermal-expansion/machines/magma-crucible"
         - title: "Fluid Transposer"
           #url: "/thermal-expansion/machines/fluid-transposer"
         - title: "Glacial Precipitator"
@@ -354,8 +354,8 @@ thermal-expansion:
           url: "/thermal-expansion/other/tier-system"
         - title: "Mod Support"
           #url: "/thermal-expansion/other/mod-support"
-        - title: "IMC Messages"
-          #url: "/thermal-expansion/other/imc-messages"
+        - title: "Inter-Mod Communication (IMC)"
+          #url: "/thermal-expansion/other/inter-mod-communication"
 
 thermal-dynamics:
     - title: ""
