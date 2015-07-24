@@ -28,6 +28,6 @@
 {% capture progress %}{{ progress | plus: 0.5 | append: '.' | split: '.' | first }}{% endcapture %}
 
 <h3><a href="/docs/{{ include.mod }}">{{ include.modname }}</a></h3>
-<div class="uk-progress {{ class }}">
+<div class="uk-progress uk-border-rounded {{ class }}">
     <div class="uk-progress-bar" style="width: {% if progress_width > 0 %}{{ progress_width }}{% else %}100{% endif %}%;">{{ progress }}%</div>
 </div>
