@@ -90,6 +90,8 @@ thermal-foundation:
           url: "/thermal-foundation/vanilla-materials/charcoal"
         - title: "Obsidian"
           url: "/thermal-foundation/vanilla-materials/obsidian"
+        - title: "Blaze Powder"
+          url: "/thermal-foundation/vanilla-materials/blaze-powder"
     - title: "Base Metals"
       items:
         - title: "Copper"
