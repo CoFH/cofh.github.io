@@ -282,6 +282,8 @@ thermal-expansion:
           #url: "/thermal-expansion/storage/flux-capacitors"
         - title: "Schematic"
           #url: "/thermal-expansion/storage/schematic"
+        - title: "Redprint"
+          url: "/thermal-expansion/storage/redprint"
     - title: "Lighting"
       items:
         - title: "Glowstone Illuminator"
@@ -312,8 +314,6 @@ thermal-expansion:
           url: "/thermal-expansion/tools/flux-igniter"
         - title: "Flux Chiller"
           url: "/thermal-expansion/tools/flux-chiller"
-        - title: "Redprint"
-          url: "/thermal-expansion/tools/redprint"
         - title: "Sponges"
           url: "/thermal-expansion/tools/sponges"
         - title: "Florbs"
