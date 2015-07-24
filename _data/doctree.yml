@@ -219,7 +219,7 @@ thermal-expansion:
         - title: "Magma Crucible"
           url: "/thermal-expansion/machines/magma-crucible"
         - title: "Fluid Transposer"
-          #url: "/thermal-expansion/machines/fluid-transposer"
+          url: "/thermal-expansion/machines/fluid-transposer"
         - title: "Glacial Precipitator"
           #url: "/thermal-expansion/machines/glacial-precipitator"
         - title: "Phytogenic Insolator"
@@ -352,6 +352,8 @@ thermal-expansion:
       items:
         - title: "Tier System"
           url: "/thermal-expansion/other/tier-system"
+        - title: "Custom Recipes"
+          #url: "/thermal-expansion/other/custom-recipes"
         - title: "Mod Support"
           #url: "/thermal-expansion/other/mod-support"
         - title: "Inter-Mod Communication (IMC)"
