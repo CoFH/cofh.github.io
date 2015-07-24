@@ -66,6 +66,10 @@ p {
     background: #fdfdfd;
 }
 
+.cofh-progress-danger-faded .uk-progress-bar {
+    background-color: #eda8b2;
+}
+
 .cofh-vertical-align-top {
     vertical-align: top;
 }
