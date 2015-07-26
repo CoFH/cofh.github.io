@@ -1,0 +1,31 @@
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped cofh-table-semi-compress">
+        <thead>
+            <tr><th>Fluid</th> <th>Temperature</th> <th>Luminosity</th> <th>Density</th> <th>Viscosity</th></tr>
+        </thead>
+
+        <tbody>
+            <tr class="uk-text-primary">
+                <td>{{ include.name }}</td>
+                <td>{{ include.temperature }}</td>
+                <td>{{ include.luminosity }}</td>
+                <td>{{ include.density }}</td>
+                <td>{{ include.viscosity }}</td>
+            </tr>
+            <tr>
+                <td>Water</td>
+                <td>300</td>
+                <td>0</td>
+                <td>1000</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>Lava</td>
+                <td>1300</td>
+                <td>15</td>
+                <td>3000</td>
+                <td>6000</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
