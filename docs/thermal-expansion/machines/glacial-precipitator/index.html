@@ -1,0 +1,125 @@
+---
+title: Glacial Precipitator
+---
+
+<img src="/assets/images/thermal-expansion/glacial-precipitator.png" title="Glacial Precipitator" />
+
+<blockquote>SNOWBALL FIGHT!</blockquote>
+
+<p>The <strong>Glacial Precipitator</strong> is one of the Machines added by Thermal Expansion. It uses <a href="/docs/redstone-flux">Redstone Flux</a> to freeze fluids into solids. Currently the Machine only works with Water, which it can freeze into Snowballs, Snow blocks or Ice. However, in the future it may be extended to work with other fluids as well.</p>
+
+<h2 id="crafting">Crafting</h2>
+<img src="/assets/images/recipes/glacial-precipitator.png" class="uk-margin-small-bottom" title="Glacial Precipitator recipe" /><br />
+<small>Shaped Crafting</small>
+<ul class="uk-text-small uk-margin-remove">
+    <li><a href="/docs/thermal-expansion/materials/machine-frames">Machine Frame</a> (any tier)</li>
+    <li><a href="/docs/thermal-expansion/materials/redstone-reception-coil">Redstone Reception Coil</a></li>
+    <li>2x <a href="/docs/thermal-foundation/materials/gears">Copper Gear</a></li>
+    <li>2x <a href="/docs/thermal-foundation/alloys/invar">Invar Ingot</a></li>
+    <li>Piston</li>
+</ul>
+
+<h2 id="power">Power</h2>
+<p>When working at maximum speed, the Glacial Precipitator consumes 20 RF per tick. When its internal energy storage is starting to deplete, the Machine will slow down and use less power. This prevents sudden interruptions of the Precipitator's work when its power supply cuts short.</p>
+
+<h2 id="gui">GUI</h2>
+<img src="/assets/images/thermal-expansion/glacial-precipitator-gui.png" title="Glacial Precipitator GUI" />
+
+<dl class="uk-description-list-line">
+    <dt>1. Output Selection</dt>
+    <dd>Allows selecting what the Precipitator freezes Water into. Three choices are provided here: four Snowballs, a Snow block or an Ice block.</dd>
+
+    <dt>2. Input Water Tank</dt>
+    <dd>Water that is to be frozen is stored in this tank.</dd>
+
+    <dt>3. Output Slot</dt>
+    <dd>Output items of the selected type end up in this slot.</dd>
+
+    <dt>4. Progress Arrow</dt>
+    <dd>Displays the progress of the Water currently being frozen.</dd>
+
+    <dt>5. Power Gauge</dt>
+    <dd>Displays how fast the Precipitator is working in relation to its maximum speed.</dd>
+
+    <dt>6. Energy Gauge</dt>
+    <dd>Displays how much Redstone Flux is currently stored in the Precipitator.</dd>
+
+    <dt>7. Charging Slot</dt>
+    <dd>Items that store Redstone Flux that are placed here are discharged by the Precipitator to charge itself.</dd>
+
+    <dt>8. Energy Tab</dt>
+    <dd>Displays how much power the Precipitator uses, and how much Redstone Flux is currently stored in it.</dd>
+
+    <dt>9. Information Tab</dt>
+    <dd>Displays a bit of information about the Precipitator.</dd>
+
+    <dt>10. Tutorial Tab</dt>
+    <dd>Explains various things about the Precipitator and the other tabs in the GUI.</dd>
+
+    <dt>11. Augmentation Tab</dt>
+    <dd><a href="/docs/thermal-expansion/augments/augments">Augments</a> can be placed in the slots in this tab.</dd>
+
+    <dt>12. Security Tab</dt>
+    <dd>Allows setting who is allowed to access the Precipitator. Only available if a <a href="/docs/thermal-expansion/materials/signalum-security-lock">Signalum Security Lock</a> is installed.</dd>
+
+    <dt>13. Redstone Control Tab</dt>
+    <dd>Allows setting how the Precipitator responds to Redstone signals. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Redstone Circuit</a> Augment is installed.</dd>
+
+    <dt>14. Configuration Tab</dt>
+    <dd>Allows configuring the <a href="#input-output">input/output</a> behavior of the sides of the Precipitator. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed.</dd>
+
+    <dt>15. Player Inventory</dt>
+    <dd>The inventory and hotbar of the player that is accessing the Precipitator.</dd>
+</dl>
+
+<h2 id="input-output">Input/Output</h2>
+<p>The different sides of the Glacial Precipitator correspond to different color-coded slots in its GUI. These sides can be identified by color-coded holes on the sides of the Precipitator. This is used for handling input and output with ducts/pipes/conduits/tubes, other Machines and other types of inventories and/or fluid tanks.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed, this feature of the Glacial Precipitator can be configured. Some things can be inserted from any side.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Servo Mechanism</a> Augment is installed, output items are automatically ejected from the corresponding sides of the Glacial Precipitator, evenly divided between the available outputs.</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+        <thead>
+            <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
+        </thead>
+
+        <tbody>
+            <tr><td>Item/Water input</td> <td>Blue</td> <td>Top, Bottom</td></tr>
+            <tr><td>Item output</td> <td>Orange</td> <td>Left, Right, Back</td></tr>
+            <tr><td>Any item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
+            <tr><td>Redstone Flux input</td> <td>-</td> <td>(any side)</td></tr>
+        </tbody>
+    </table>
+</div>
+<small>*: Cannot be automatically ejected from.</small>
+
+<h2 id="recipes">Recipes</h2>
+<p>The Glacial Precipitator can freeze Water into Snowballs, Snow blocks or Ice. These three possible products require different amounts of Water and Redstone Flux. The following table displays those amounts. Products that require less energy also take less time to produce.</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+        <thead>
+            <tr><th>Output</th> <th>Water</th> <th>Energy</th></tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>4x Snowball</td>
+                <td>500 mB</td>
+                <td>800 RF</td>
+            </tr>
+            <tr>
+                <td>Snow (block)</td>
+                <td>500 mB</td>
+                <td>800 RF</td>
+            </tr>
+            <tr>
+                <td>Ice</td>
+                <td>1000 mB</td>
+                <td>1600 RF</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
