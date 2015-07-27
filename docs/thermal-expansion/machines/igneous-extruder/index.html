@@ -1,0 +1,119 @@
+---
+title: Igneous Extruder
+---
+
+<img src="/assets/images/thermal-expansion/igneous-extruder.png" title="Igneous Extruder" />
+
+<blockquote>This thing rocks!</blockquote>
+
+<p>The <strong>Igneous Extruder</strong> is one of the Machines added by Thermal Expansion. It mixes Water and Lava into different types of igneous rock: Cobblestone, Stone and <a href="/docs/thermal-foundation/vanilla-materials/obsidian">Obsidian</a>. This is one of the few Machines that doesn't use <a href="/docs/redstone-flux">Redstone Flux</a>.</p>
+
+<p><a href="/docs/thermal-expansion/augments/augments">Igneous Extruder Augments</a> can significantly increase the amount of igneous rock produced by the Machine at once.</p>
+
+<h2 id="crafting">Crafting</h2>
+<img src="/assets/images/recipes/igneous-extruder.png" class="uk-margin-small-bottom" title="Igneous Extruder recipe" /><br />
+<small>Shaped Crafting</small>
+<ul class="uk-text-small uk-margin-remove">
+    <li><a href="/docs/thermal-expansion/materials/machine-frames">Machine Frame</a> (any tier)</li>
+    <li><a href="/docs/thermal-expansion/materials/pneumatic-servo">Pneumatic Servo</a></li>
+    <li>2x <a href="/docs/thermal-foundation/materials/gears">Copper Gear</a></li>
+    <li>2x Glass</li>
+    <li>Piston</li>
+</ul>
+
+<h2 id="gui">GUI</h2>
+<img src="/assets/images/thermal-expansion/igneous-extruder-gui.png" title="Igneous Extruder GUI" />
+
+<dl class="uk-description-list-line">
+    <dt>1. Output Selection</dt>
+    <dd>Allows selecting what the Extruder mixes Water and Lava into. Three choices are provided here: Cobblestone, Stone or Obsidian.</dd>
+
+    <dt>2. Input Lava Tank</dt>
+    <dd>Lava that is to be mixed is stored in this tank.</dd>
+    
+    <dt>3. Input Water Tank</dt>
+    <dd>Water that is to be mixed is stored in this tank.</dd>
+
+    <dt>4. Output Slot</dt>
+    <dd>Output items of the selected type end up in this slot.</dd>
+
+    <dt>5. Progress Arrows</dt>
+    <dd>Display the progress of the Water and Lava currently being mixed.</dd>
+
+    <dt>6. Information Tab</dt>
+    <dd>Displays a bit of information about the Extruder.</dd>
+
+    <dt>7. Tutorial Tab</dt>
+    <dd>Explains various things about the Extruder and the other tabs in the GUI.</dd>
+
+    <dt>8. Augmentation Tab</dt>
+    <dd><a href="/docs/thermal-expansion/augments/augments">Augments</a> can be placed in the slots in this tab.</dd>
+
+    <dt>9. Security Tab</dt>
+    <dd>Allows setting who is allowed to access the Extruder. Only available if a <a href="/docs/thermal-expansion/materials/signalum-security-lock">Signalum Security Lock</a> is installed.</dd>
+
+    <dt>10. Redstone Control Tab</dt>
+    <dd>Allows setting how the Extruder responds to Redstone signals. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Redstone Circuit</a> Augment is installed.</dd>
+
+    <dt>11. Configuration Tab</dt>
+    <dd>Allows configuring the <a href="#input-output">input/output</a> behavior of the sides of the Extruder. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed.</dd>
+
+    <dt>12. Player Inventory</dt>
+    <dd>The inventory and hotbar of the player that is accessing the Extruder.</dd>
+</dl>
+
+<h2 id="input-output">Input/Output</h2>
+<p>The different sides of the Igneous Extruder correspond to different color-coded slots in its GUI. These sides can be identified by color-coded holes on the sides of the Extruder. This is used for handling input and output with ducts/pipes/conduits/tubes, other Machines and other types of inventories and/or fluid tanks.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed, this feature of the Igneous Extruder can be configured. Some things can be inserted from any side.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Servo Mechanism</a> Augment is installed, output items are automatically ejected from the corresponding sides of the Igneous Extruder, evenly divided between the available outputs.</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+        <thead>
+            <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
+        </thead>
+
+        <tbody>
+            <tr><td>Water/Lava input</td> <td>Blue</td> <td>Top, Bottom</td></tr>
+            <tr><td>Item output</td> <td>Orange</td> <td>Left, Right, Back</td></tr>
+            <tr><td>Any item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
+        </tbody>
+    </table>
+</div>
+<small>*: Cannot be automatically ejected from.</small>
+
+<h2 id="recipes">Recipes</h2>
+<p>The Igneous Extruder can mix Water and Lava into Cobblestone, Stone or Obsidian. These three possible products require different amounts of Water, Lava and time. The following table displays those amounts.</p>
+
+<p>At least 1000 mB of both Water and Lava needs to be stored in the Extruder in order for it to do anything. A filled Bucket contains 1000 mB of fluid.</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+        <thead>
+            <tr><th>Output</th> <th>Water</th> <th>Lava</th> <th>Time</th></tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Cobblestone</td>
+                <td>0 mB</td>
+                <td>0 mB</td>
+                <td>2 seconds</td>
+            </tr>
+            <tr>
+                <td>Stone</td>
+                <td>1000 mB</td>
+                <td>0 mB</td>
+                <td>4 seconds</td>
+            </tr>
+            <tr>
+                <td><a href="/docs/thermal-foundation/vanilla-materials/obsidian">Obsidian</a></td>
+                <td>1000 mB</td>
+                <td>1000 mB</td>
+                <td>6 seconds</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

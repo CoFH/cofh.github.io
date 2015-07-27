@@ -225,7 +225,7 @@ thermal-expansion:
         - title: "Glacial Precipitator"
           url: "/thermal-expansion/machines/glacial-precipitator"
         - title: "Igneous Extruder"
-          #url: "/thermal-expansion/machines/igneous-extruder"
+          url: "/thermal-expansion/machines/igneous-extruder"
         - title: "Aqueous Accumulator"
           #url: "/thermal-expansion/machines/aqueous-accumulator"
         - title: "Cyclic Assembler"
@@ -258,14 +258,6 @@ thermal-expansion:
           #url: "/thermal-expansion/dynamos/reactant-dynamo"
         - title: "Enervation Dynamo"
           #url: "/thermal-expansion/dynamos/enervation-dynamo"
-    - title: "Augments"
-      items:
-        - title: "Augments"
-          #url: "/thermal-expansion/augments/augments"
-        - title: "Machine Augments"
-          #url: "/thermal-expansion/augments/machine-augments"
-        - title: "Dynamo Augments"
-          #url: "/thermal-expansion/augments/dynamo-augments"
     - title: "Storage"
       items:
         - title: "Strongboxes"
@@ -354,6 +346,8 @@ thermal-expansion:
       items:
         - title: "Tier System"
           url: "/thermal-expansion/other/tier-system"
+        - title: "Augments"
+          #url: "/thermal-expansion/other/augments"
         - title: "Custom Recipes"
           #url: "/thermal-expansion/other/custom-recipes"
         - title: "Mod Support"
