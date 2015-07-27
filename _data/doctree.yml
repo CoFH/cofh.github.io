@@ -110,7 +110,7 @@ thermal-foundation:
           url: "/thermal-foundation/base-metals/mana-infused-metal"
     - title: "Alloys"
       items:
-        - title: "Bronze (Tinker's Alloy)"
+        - title: "Bronze"
           url: "/thermal-foundation/alloys/bronze"
         - title: "Invar"
           url: "/thermal-foundation/alloys/invar"
