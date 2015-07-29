@@ -37,6 +37,22 @@ main:
           url: "/minefactory-reloaded"
         - title: "Nether Ores"
 
+    # See what Tema thinks about this
+    #- title: "RWTema's Mods"
+    #  items:
+    #    - title: "Extra Utilities"
+    #    - title: "Funky Locomotion"
+    #    - title: "Dark Menagerie"
+    #    - title: "Dense Ores"
+
+    # Maybe
+    #- title: "Tonius's Mods"
+    #  items:
+    #    - title: "Simply Jetpacks"
+    #    - title: "NEI Integration"
+    #    - title: "E-Mobile"
+    #    - title: "The Corrupted Sector"
+
     - title: "Other Mods"
       items:
         - title: "Tabula Rasa"
@@ -124,6 +140,14 @@ thermal-foundation:
           url: "/thermal-foundation/alloys/enderium"
     - title: "Materials"
       items:
+        - title: "Pulverized Materials (Dusts)"
+          #url: "/thermal-foundation/materials/pulverized-materials"
+        - title: "Ingots"
+          #url: "/thermal-foundation/materials/ingots"
+        - title: "Nuggets"
+          #url: "/thermal-foundation/materials/nuggets"
+        - title: "Storage Blocks"
+          #url: "/thermal-foundation/materials/storage-blocks"
         - title: "Gears"
           url: "/thermal-foundation/materials/gears"
         - title: "Blizz Rod"
