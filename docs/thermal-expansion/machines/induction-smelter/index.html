@@ -6,7 +6,7 @@ title: Induction Smelter
 
 <blockquote>Absolutely not for cooking food.</blockquote>
 
-<p>The <strong>Induction Smelter</strong> is one of the Machines added by Thermal Expansion. It uses <a href="/docs/redstone-flux">Redstone Flux</a> to smelt items together under extreme heat. It is capable of creating alloys without having to blend pulverized metals by hand, as well as creating materials that require high temperatures to do so. Lastly, it can process various types of Ore blocks into Ingots; sometimes even more efficiently than a <a href="/docs/thermal-expansion/machines/pulverizer">Pulverizer</a> can.</p>
+<p>The <strong>Induction Smelter</strong> is one of the Machines added by Thermal Expansion. It uses <a href="/docs/redstone-flux">Redstone Flux</a> to smelt items together under extreme heat. It is capable of creating alloys without having to blend pulverized metals by hand, as well as creating materials that require high temperatures to do so. Lastly, it can process various types of <a href="/docs/thermal-foundation/world-generation/ores">Ore</a> blocks into <a href="/docs/thermal-foundation/materials/ingots">Ingots</a>; sometimes even more efficiently than a <a href="/docs/thermal-expansion/machines/pulverizer">Pulverizer</a> can.</p>
 
 <h2 id="crafting">Crafting</h2>
 <img src="/assets/images/recipes/induction-smelter.png" class="uk-margin-small-bottom" title="Induction Smelter recipe" /><br />
@@ -14,8 +14,8 @@ title: Induction Smelter
 <ul class="uk-text-small uk-margin-remove">
     <li><a href="/docs/thermal-expansion/materials/machine-frames">Machine Frame</a> (any tier)</li>
     <li><a href="/docs/thermal-expansion/materials/redstone-reception-coil">Redstone Reception Coil</a></li>
-    <li>2x <a href="/docs/thermal-foundation/materials/gears">Invar Gear</a></li>
-    <li>2x <a href="/docs/thermal-foundation/alloys/invar">Invar Ingot</a></li>
+    <li>2x <a href="/docs/thermal-foundation/alloys/invar">Invar</a> <a href="/docs/thermal-foundation/materials/gears">Gear</a></li>
+    <li>2x <a href="/docs/thermal-foundation/alloys/invar">Invar</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></li>
     <li>Bucket</li>
 </ul>
 
@@ -109,11 +109,14 @@ title: Induction Smelter
 <small>*: Cannot be automatically ejected from.</small>
 
 <h2 id="recipes">Recipes</h2>
-<p>The following table lists the recipes that the Induction Smelter can perform. Recipes that use less energy also take less time.</p>
+<p>
+    The following table lists the recipes that the Induction Smelter can perform. Recipes that use less energy also take less time.<br />
+    If the output item of a recipe has multiple versions added by different mods (Copper Ingots for example), and one of the versions is added by <a href="/docs/thermal-foundation">Thermal Foundation</a> or Thermal Expansion, that version will be preferred.
+</p>
 
 <p>
     <small>*: May be changed or disabled in the config.</small><br />
-    <small>**: May be either a metal Ingot or a Pulverized metal (dust).</small>
+    <small>**: May be either a <a href="/docs/thermal-foundation/materials/ingots">metal Ingot</a> or a <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized metal (dust)</a>.</small>
 </p>
 
 <h3>Miscellaneous Recipes</h3>
@@ -127,19 +130,19 @@ title: Induction Smelter
             <tr>
                 <td><a href="/docs/thermal-expansion/materials/slag">Rich Slag</a></td>
                 <td>Metal Ores</td>
-                <td>3x* Metal Ingot</td>
+                <td>3x* <a href="/docs/thermal-foundation/materials/ingots">Metal Ingot</a></td>
                 <td><a href="/docs/thermal-expansion/materials/slag">Slag</a> (75%)</td>
                 <td>4000 RF</td>
             </tr>
             <tr>
-                <td>4x <a href="/docs/thermal-foundation/vanilla-materials/obsidian">Pulverized Obsidian</a></td>
+                <td>4x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/obsidian">Obsidian</a></td>
                 <td><a href="/docs/thermal-foundation/base-metals/lead">Lead</a>**</td>
                 <td>2x <a href="/docs/thermal-expansion/materials/hardened-glass">Hardened Glass</a></td>
                 <td>-</td>
                 <td>4000 RF</td>
             </tr>
             <tr>
-                <td>4x <a href="/docs/thermal-foundation/vanilla-materials/obsidian">Pulverized Obsidian</a></td>
+                <td>4x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/obsidian">Obsidian</a></td>
                 <td><a href="/docs/thermal-foundation/alloys/lumium">Lumium</a>**</td>
                 <td>2x <a href="/docs/thermal-expansion/materials/hardened-glass">Hardened Lumium Glass</a></td>
                 <td>-</td>
@@ -165,44 +168,44 @@ title: Induction Smelter
 
         <tbody>
             <tr>
-                <td>3x <a href="/docs/thermal-foundation/base-metals/copper">Pulverized Copper</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/tin">Pulverized Tin</a></td>
-                <td>4x <a href="/docs/thermal-foundation/alloys/bronze">Bronze Ingot</a></td>
+                <td>3x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/base-metals/copper">Copper</a></td>
+                <td><a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/base-metals/tin">Tin</a></td>
+                <td>4x <a href="/docs/thermal-foundation/alloys/bronze">Bronze</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>-</td>
                 <td>1600 RF</td>
             </tr>
             <tr>
-                <td>3x <a href="/docs/thermal-foundation/base-metals/copper">Copper Ingot</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/tin">Tin Ingot</a></td>
-                <td>4x <a href="/docs/thermal-foundation/alloys/bronze">Bronze Ingot</a></td>
+                <td>3x <a href="/docs/thermal-foundation/base-metals/copper">Copper</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/base-metals/tin">Tin</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td>4x <a href="/docs/thermal-foundation/alloys/bronze">Bronze</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>-</td>
                 <td>2400 RF</td>
             </tr>
             <tr>
-                <td>2x <a href="/docs/thermal-foundation/vanilla-materials/iron">Pulverized Iron</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/ferrous-metal">Pulverized Ferrous Metal</a></td>
-                <td>3x <a href="/docs/thermal-foundation/alloys/invar">Invar Ingot</a></td>
+                <td>2x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/iron">Iron</a></td>
+                <td><a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous Metal</a></td>
+                <td>3x <a href="/docs/thermal-foundation/alloys/invar">Invar</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>-</td>
                 <td>1600 RF</td>
             </tr>
             <tr>
-                <td>2x <a href="/docs/thermal-foundation/vanilla-materials/iron">Iron Ingot</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous Ingot</a></td>
-                <td>3x <a href="/docs/thermal-foundation/alloys/invar">Invar Ingot</a></td>
+                <td>2x <a href="/docs/thermal-foundation/vanilla-materials/iron">Iron</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td>3x <a href="/docs/thermal-foundation/alloys/invar">Invar</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>-</td>
                 <td>2400 RF</td>
             </tr>
             <tr>
-                <td><a href="/docs/thermal-foundation/vanilla-materials/gold">Pulverized Gold</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/silver">Pulverized Silver</a></td>
-                <td>2x <a href="/docs/thermal-foundation/alloys/electrum">Electrum Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/gold">Gold</a></td>
+                <td><a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/base-metals/silver">Silver</a></td>
+                <td>2x <a href="/docs/thermal-foundation/alloys/electrum">Electrum</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>-</td>
                 <td>1600 RF</td>
             </tr>
             <tr>
-                <td><a href="/docs/thermal-foundation/vanilla-materials/gold">Gold Ingot</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/silver">Silver Ingot</a></td>
-                <td>2x <a href="/docs/thermal-foundation/alloys/electrum">Electrum Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/vanilla-materials/gold">Gold</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/base-metals/silver">Silver</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td>2x <a href="/docs/thermal-foundation/alloys/electrum">Electrum</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>-</td>
                 <td>2400 RF</td>
             </tr>
@@ -220,8 +223,8 @@ title: Induction Smelter
         <tbody>
             <tr>
                 <td>Sand</td>
-                <td>2x Pulverized metals (dusts)</td>
-                <td>2x Metal Ingot</td>
+                <td>2x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized metals (dusts)</a></td>
+                <td>2x <a href="/docs/thermal-foundation/materials/ingots">Metal Ingot</a></td>
                 <td><a href="/docs/thermal-expansion/materials/slag">Slag</a> (25%)</td>
                 <td>800 RF</td>
             </tr>
@@ -235,14 +238,14 @@ title: Induction Smelter
             <tr>
                 <td>Sand</td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#vanilla-ores">Gold Ore</a></td>
-                <td>2x* <a href="/docs/thermal-foundation/vanilla-materials/gold">Gold Ingot</a></td>
+                <td>2x* <a href="/docs/thermal-foundation/vanilla-materials/gold">Gold</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td><a href="/docs/thermal-expansion/materials/slag">Rich Slag</a> (20%)</td>
                 <td>3200 RF</td>
             </tr>
             <tr>
                 <td>Sand</td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#ferrous-ore">Ferrous Ore</a></td>
-                <td>2x* <a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous Ingot</a></td>
+                <td>2x* <a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td><a href="/docs/thermal-expansion/materials/slag">Rich Slag</a> (15%)</td>
                 <td>3200 RF</td>
             </tr>
@@ -275,63 +278,63 @@ title: Induction Smelter
             <tr>
                 <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#vanilla-ores">Iron Ore</a></td>
-                <td>3x* <a href="/docs/thermal-foundation/vanilla-materials/iron">Iron Ingot</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous Ingot</a></td>
+                <td>3x* <a href="/docs/thermal-foundation/vanilla-materials/iron">Iron</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#vanilla-ores">Gold Ore</a></td>
-                <td>3x* <a href="/docs/thermal-foundation/vanilla-materials/gold">Gold Ingot</a></td>
+                <td>3x* <a href="/docs/thermal-foundation/vanilla-materials/gold">Gold</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td><a href="/docs/thermal-expansion/materials/slag">Rich Slag</a> (75%)</td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#copper-ore">Copper Ore</a></td>
-                <td>3x* <a href="/docs/thermal-foundation/base-metals/coppers">Copper Ingot</a></td>
-                <td><a href="/docs/thermal-foundation/vanilla-materials/gold">Gold Ingot</a></td>
+                <td>3x* <a href="/docs/thermal-foundation/base-metals/copper">Copper</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/vanilla-materials/gold">Gold</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#tin-ore">Tin Ore</a></td>
-                <td>3x* <a href="/docs/thermal-foundation/base-metals/tin">Tin Ingot</a></td>
-                <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Iron Ingot</a></td>
+                <td>3x* <a href="/docs/thermal-foundation/base-metals/tin">Tin</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Iron</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#silver-ore">Silver Ore</a></td>
-                <td>3x* <a href="/docs/thermal-foundation/base-metals/silver">Silver Ingot</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/lead">Lead Ingot</a></td>
+                <td>3x* <a href="/docs/thermal-foundation/base-metals/silver">Silver</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/base-metals/lead">Lead</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#lead-ore">Lead Ore</a></td>
-                <td>3x* <a href="/docs/thermal-foundation/base-metals/silver">Lead Ingot</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/silver">Silver Ingot</a></td>
+                <td>3x* <a href="/docs/thermal-foundation/base-metals/silver">Lead</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/base-metals/silver">Silver</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#ferrous-ore">Ferrous Ore</a></td>
-                <td>3x* <a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous Ingot</a></td>
-                <td><a href="/docs/thermal-foundation/base-metals/shiny-metal">Shiny Ingot</a></td>
+                <td>3x* <a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
+                <td><a href="/docs/thermal-foundation/base-metals/shiny-metal">Shiny</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#shiny-ore">Shiny Ore</a></td>
-                <td>3x* <a href="/docs/thermal-foundation/base-metals/shiny-metal">Shiny Ingot</a></td>
+                <td>3x* <a href="/docs/thermal-foundation/base-metals/shiny-metal">Shiny</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td><a href="/docs/thermal-expansion/materials/slag">Rich Slag</a> (75%)</td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/materials/cinnabar">Cinnabar</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#mana-infused-ore">Mana Infused Ore</a></td>
-                <td>3x* <a href="/docs/thermal-foundation/base-metals/mana-infused-metal">Mana Infused Ingot</a></td>
+                <td>3x* <a href="/docs/thermal-foundation/base-metals/mana-infused-metal">Mana Infused</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td><a href="/docs/thermal-expansion/materials/slag">Rich Slag</a> (75%)</td>
                 <td>4000 RF</td>
             </tr>
@@ -357,28 +360,28 @@ title: Induction Smelter
             <tr>
                 <td><a href="/docs/thermal-foundation/elemental-materials/pyrotheum-dust">Pyrotheum Dust</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#vanilla-ores">Gold Ore</a></td>
-                <td>2x* <a href="/docs/thermal-foundation/vanilla-materials/gold">Gold Ingot</a></td>
+                <td>2x* <a href="/docs/thermal-foundation/vanilla-materials/gold">Gold</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td><a href="/docs/thermal-expansion/materials/slag">Rich Slag</a> (60%)</td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/elemental-materials/pyrotheum-dust">Pyrotheum Dust</a></td>
                 <td><a href="/docs/thermal-foundation/world-generation/ores/#ferrous-ore">Ferrous Ore</a></td>
-                <td>2x* <a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous Ingot</a></td>
+                <td>2x* <a href="/docs/thermal-foundation/base-metals/ferrous-metal">Ferrous</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td><a href="/docs/thermal-expansion/materials/slag">Rich Slag</a> (45%)</td>
                 <td>4000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/elemental-materials/pyrotheum-dust">Pyrotheum Dust</a></td>
-                <td>2x <a href="/docs/thermal-foundation/alloys/enderium">Enderium Blend</a></td>
-                <td>2x <a href="/docs/thermal-foundation/alloys/enderium">Enderium Ingot</a></td>
+                <td>2x <a href="/docs/thermal-foundation/alloys/enderium">Enderium</a> <a href="/docs/thermal-foundation/materials/pulverized-materials">Blend</a></td>
+                <td>2x <a href="/docs/thermal-foundation/alloys/enderium">Enderium</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>-</td>
                 <td>8000 RF</td>
             </tr>
             <tr>
                 <td><a href="/docs/thermal-foundation/elemental-materials/pyrotheum-dust">Pyrotheum Dust</a></td>
-                <td>2x <a href="/docs/thermal-foundation/base-metals/mana-infused-metal">Pulverized Mana Infused Metal</a></td>
-                <td>2x <a href="/docs/thermal-foundation/base-metals/mana-infused-metal">Mana Infused Ingot</a></td>
+                <td>2x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/base-metals/mana-infused-metal">Mana Infused Metal</a></td>
+                <td>2x <a href="/docs/thermal-foundation/base-metals/mana-infused-metal">Mana Infused</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a></td>
                 <td>-</td>
                 <td>8000 RF</td>
             </tr>
@@ -451,43 +454,43 @@ title: Induction Smelter
                 <td>8000 RF</td>
             </tr>
             <tr>
-                <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Pulverized Iron</a>*</td>
-                <td>2x <a href="/docs/thermal-foundation/vanilla-materials/coal">Pulverized Coal</a></td>
+                <td><a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/iron">Iron</a>*</td>
+                <td>2x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/coal">Coal</a></td>
                 <td>Steel Ingot</td>
                 <td>-</td>
                 <td>8000 RF</td>
             </tr>
             <tr>
-                <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Pulverized Iron</a>*</td>
-                <td>4x <a href="/docs/thermal-foundation/vanilla-materials/charcoal">Pulverized Charcoal</a></td>
+                <td><a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/iron">Iron</a>*</td>
+                <td>4x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/charcoal">Charcoal</a></td>
                 <td>Steel Ingot</td>
                 <td>-</td>
                 <td>8000 RF</td>
             </tr>
             <tr>
-                <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Iron Ingot</a>*</td>
-                <td>2x <a href="/docs/thermal-foundation/vanilla-materials/coal">Pulverized Coal</a></td>
+                <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Iron</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a>*</td>
+                <td>2x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/coal">Coal</a></td>
                 <td>Steel Ingot</td>
                 <td>-</td>
                 <td>8000 RF</td>
             </tr>
             <tr>
-                <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Iron Ingot</a>*</td>
-                <td>4x <a href="/docs/thermal-foundation/vanilla-materials/charcoal">Pulverized Charcoal</a></td>
-                <td>Steel Ingot</td>
-                <td>-</td>
-                <td>8000 RF</td>
-            </tr>
-            <tr>
-                <td>Steel Dust*</td>
-                <td>2x <a href="/docs/thermal-foundation/vanilla-materials/coal">Pulverized Coal</a></td>
+                <td><a href="/docs/thermal-foundation/vanilla-materials/iron">Iron</a> <a href="/docs/thermal-foundation/materials/ingots">Ingot</a>*</td>
+                <td>4x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/charcoal">Charcoal</a></td>
                 <td>Steel Ingot</td>
                 <td>-</td>
                 <td>8000 RF</td>
             </tr>
             <tr>
                 <td>Steel Dust*</td>
-                <td>2x <a href="/docs/thermal-foundation/vanilla-materials/charcoal">Pulverized Charcoal</a></td>
+                <td>2x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/coal">Coal</a></td>
+                <td>Steel Ingot</td>
+                <td>-</td>
+                <td>8000 RF</td>
+            </tr>
+            <tr>
+                <td>Steel Dust*</td>
+                <td>2x <a href="/docs/thermal-foundation/materials/pulverized-materials">Pulverized</a> <a href="/docs/thermal-foundation/vanilla-materials/charcoal">Charcoal</a></td>
                 <td>Steel Ingot</td>
                 <td>-</td>
                 <td>8000 RF</td>
