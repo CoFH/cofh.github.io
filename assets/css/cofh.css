@@ -8,6 +8,10 @@ p {
 }
 */
 
+.uk-text-muted a {
+    color: #688fb1;
+}
+
 .uk-float-left .uk-thumbnail, .uk-float-right .uk-thumbnail {
     margin-bottom: 20px;
 }
