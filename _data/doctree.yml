@@ -253,7 +253,7 @@ thermal-expansion:
         - title: "Igneous Extruder"
           url: "/thermal-expansion/machines/igneous-extruder"
         - title: "Aqueous Accumulator"
-          #url: "/thermal-expansion/machines/aqueous-accumulator"
+          url: "/thermal-expansion/machines/aqueous-accumulator"
         - title: "Cyclic Assembler"
           #url: "/thermal-expansion/machines/cyclic-assembler"
         - title: "Energetic Infuser"
@@ -421,6 +421,7 @@ thermal-dynamics:
       items:
         - title: "Structuralduct"
         - title: "Luxduct"
+        - title: "Regarding Forge Multipart"
 
 redstone-arsenal:
     - title: ""
