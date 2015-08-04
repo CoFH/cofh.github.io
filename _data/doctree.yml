@@ -382,8 +382,6 @@ thermal-expansion:
       items:
         - title: "Tier System"
           url: "/thermal-expansion/other/tier-system"
-        - title: "Custom Recipes"
-          #url: "/thermal-expansion/other/custom-recipes"
         - title: "Mod Support"
           #url: "/thermal-expansion/other/mod-support"
         - title: "Inter-Mod Communication (IMC)"
