@@ -255,7 +255,7 @@ thermal-expansion:
         - title: "Aqueous Accumulator"
           url: "/thermal-expansion/machines/aqueous-accumulator"
         - title: "Cyclic Assembler"
-          #url: "/thermal-expansion/machines/cyclic-assembler"
+          url: "/thermal-expansion/machines/cyclic-assembler"
         - title: "Energetic Infuser"
           #url: "/thermal-expansion/machines/energetic-infuser"
         - title: "Phytogenic Insolator"
