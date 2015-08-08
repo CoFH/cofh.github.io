@@ -309,7 +309,7 @@ thermal-expansion:
         - title: "Flux Capacitors"
           #url: "/thermal-expansion/storage/flux-capacitors"
         - title: "Schematic"
-          #url: "/thermal-expansion/storage/schematic"
+          url: "/thermal-expansion/storage/schematic"
         - title: "Redprint"
           url: "/thermal-expansion/storage/redprint"
     - title: "Lighting"
