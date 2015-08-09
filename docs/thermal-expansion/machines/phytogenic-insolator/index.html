@@ -1,0 +1,209 @@
+---
+title: Phytogenic Insolator
+---
+
+<img src="/assets/images/thermal-expansion/phytogenic-insolator.png" title="Phytogenic Insolator" />
+
+<blockquote>Definitely not organic.</blockquote>
+
+<p>The <strong>Phytogenic Insolator</strong> is one of the Machines added by Thermal Expansion. It uses <a href="/docs/redstone-flux">Redstone Flux</a> to infuse plants with 'sunlight', Water and <a href="/docs/thermal-expansion/materials/phyto-gro">fertilizer</a>. The Machine can be used to grow plants at a steady rate and in an organized way.</p>
+
+<p>Because simulating sunlight takes a lot of energy and growing plants still takes some time, the Phytogenic Insolator is somewhat slower than most other Machines in the mod.</p>
+
+<h2 id="crafting">Crafting</h2>
+<img src="/assets/images/recipes/phytogenic-insolator.png" class="uk-margin-small-bottom" title="Phytogenic Insolator recipe" /><br />
+<small>Shaped Crafting</small>
+<ul class="uk-text-small uk-margin-remove">
+    <li><a href="/docs/thermal-expansion/materials/machine-frames">Machine Frame</a> (any tier)</li>
+    <li><a href="/docs/thermal-expansion/materials/redstone-reception-coil">Redstone Reception Coil</a></li>
+    <li>2x <a href="/docs/thermal-foundation/base-metals/copper">Copper</a> <a href="/docs/thermal-foundation/materials/gears">Gear</a></li>
+    <li>2x Dirt</li>
+    <li><a href="/docs/thermal-foundation/alloys/lumium">Lumium</a> <a href="/docs/thermal-foundation/materials/gears">Gear</a></li></li>
+</ul>
+
+<h2 id="power">Power</h2>
+<p>When working at maximum speed, the Phytogenic Insolator consumes 20 RF per tick. When its internal energy storage is starting to deplete, the Machine will slow down and use less power. This prevents sudden interruptions of the Phytogenic Insolator's work when its power supply cuts short.</p>
+
+<h2 id="gui">GUI</h2>
+<img src="/assets/images/thermal-expansion/phytogenic-insolator-gui.png" title="Phytogenic Insolator GUI" />
+
+<dl class="uk-description-list-line">
+    <dt>1. Primary Input Slot / Fertilizer Slot</dt>
+    <dd>Items placed in this slot are used together with items placed in the next slot to grow plants. Can be locked so that only fertilizer-type items can enter this slot. Currently the only items that can be used as fertilizer are <a href="/docs/thermal-expansion/materials/phyto-gro">Phyto-Gro</a> and <a href="/docs/thermal-expansion/materials/phyto-gro">Rich Phyto-Gro</a>.</dd>
+
+    <dt>2. Secondary Input Slot</dt>
+    <dd>Items placed in this slot are used together with items placed in the previous slot to grow plants.</dd>
+
+    <dt>3. Lock/Unlock Fertilizer Slot Button</dt>
+    <dd>This button can be clicked to lock the primary input slot / fertilizer slot to only accept fertilizer-type items (see 1).</dd>
+
+    <dt>4. Water Tank</dt>
+    <dd>Stores Water that is to be used to grow plants.</dd>
+
+    <dt>5. Primary Output Slot</dt>
+    <dd>Fully grown plants end up in this slot.</dd>
+
+    <dt>6. Secondary Output Slot</dt>
+    <dd>Possible byproducts of plants being grown (mostly seeds) end up in this slot.</dd>
+
+    <dt>7. Progress Arrow</dt>
+    <dd>Displays the progress of the plant currently being grown. If <a href="http://www.curse.com/mc-mods/minecraft/222211-notenoughitems" target="_blank">Not Enough Items</a> is installed, the arrow can be clicked to look up the Insolator's <a href="#recipes">recipes</a>.</dd>
+
+    <dt>8. Power Gauge</dt>
+    <dd>Displays how fast the Insolator is working in relation to its maximum speed.</dd>
+
+    <dt>9. Energy Gauge</dt>
+    <dd>Displays how much Redstone Flux is currently stored in the Insolator.</dd>
+
+    <dt>10. Charging Slot</dt>
+    <dd>Items that store Redstone Flux that are placed here are discharged by the Insolator to charge itself.</dd>
+
+    <dt>11. Energy Tab</dt>
+    <dd>Displays how much power the Insolator uses, and how much Redstone Flux is currently stored in it.</dd>
+
+    <dt>12. Information Tab</dt>
+    <dd>Displays a bit of information about the Insolator.</dd>
+
+    <dt>13. Tutorial Tab</dt>
+    <dd>Explains various things about the Insolator and the other tabs in the GUI.</dd>
+
+    <dt>14. Augmentation Tab</dt>
+    <dd><a href="/docs/thermal-expansion/augments/augments">Augments</a> can be placed in the slots in this tab.</dd>
+
+    <dt>15. Security Tab</dt>
+    <dd>Allows setting who is allowed to access the Insolator. Only available if a <a href="/docs/thermal-expansion/materials/signalum-security-lock">Signalum Security Lock</a> is installed.</dd>
+
+    <dt>16. Redstone Control Tab</dt>
+    <dd>Allows setting how the Insolator responds to Redstone signals. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Redstone Circuit</a> Augment is installed.</dd>
+
+    <dt>17. Configuration Tab</dt>
+    <dd>Allows configuring the <a href="#input-output">input/output</a> behavior of the sides of the Insolator. Only available if the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed.</dd>
+
+    <dt>18. Player Inventory</dt>
+    <dd>The inventory and hotbar of the player that is accessing the Insolator.</dd>
+</dl>
+
+<h2 id="input-output">Input/Output</h2>
+<p>The different sides of the Phytogenic Insolator correspond to different color-coded slots in its GUI. These sides can be identified by color-coded holes on the sides of the Insolator. This is used for handling input and output with ducts/pipes/conduits/tubes, other Machines and other types of inventories.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Modular Framework</a> Augment is installed, this feature of the Phytogenic Insolator can be configured. Some things can be inserted from any side.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Servo Mechanism</a> Augment is installed, output items are automatically ejected from the corresponding sides of the Phytogenic Insolator, evenly divided between the available outputs.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/augments">Integrated Hopper Apparatus</a> Augment is installed, input items are automatically pulled into the Phytogenic Insolator from adjacent inventories at the corresponding sides.</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+        <thead>
+            <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
+        </thead>
+
+        <tbody>
+            <tr><td>Any item input</td> <td>Blue</td> <td>Top</td></tr>
+            <tr><td>Primary item input</td> <td>Green</td> <td>(not set)</td></tr>
+            <tr><td>Secondary item input</td> <td>Purple</td> <td>(not set)</td></tr>
+            <tr><td>Primary item output</td> <td>Red</td> <td>Left, Right, Back</td></tr>
+            <tr><td>Secondary item output</td> <td>Yellow</td> <td>Bottom</td></tr>
+            <tr><td>Any item output</td> <td>Orange</td> <td>(not set)</td></tr>
+            <tr><td>Any item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
+            <tr><td>Water input</td> <td>-</td> <td>(any side)</td></tr>
+            <tr><td>Redstone Flux input</td> <td>-</td> <td>(any side)</td></tr>
+        </tbody>
+    </table>
+</div>
+<small>*: Cannot be automatically ejected from.</small>
+
+<h2 id="recipes">Recipes</h2>
+<p>The table below lists the recipes that the Phytogenic Insolator can perform. Recipes that use less energy also take less time.</p>
+
+<p>Recipes always consist of a type of plant or seed, a fertilizer item and Water. Either <a href="/docs/thermal-expansion/materials/phyto-gro">Phyto-Gro</a> or <a href="/docs/thermal-expansion/materials/phyto-gro">Rich Phyto-Gro</a> must be used as fertilizer. With Phyto-Gro, plants take 7200 RF to grow. With Rich Phyto-Gro, however, both the primary output amount and the secondary output chance are multiplied by 3 (configurable), but plants take 9600 RF to grow.</p>
+
+<p>Without <a href="/docs/thermal-expansion/augments/augments">Augments</a>, the amount of Water used in a recipe is equal to the amount of energy used divided by 10, but the amount decreases if <a href="/docs/thermal-expansion/augments/augments">Machine Speed Augments</a> are installed.</p>
+
+<p>
+    <small>*: May be changed or disabled in the config.</small><br />
+    <small>**: Chance doesn't change when using <a href="/docs/thermal-expansion/materials/phyto-gro">Rich Phyto-Gro</a>.</small><br />
+</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-condensed uk-table-striped uk-text-small">
+        <thead>
+            <tr><th>Input</th> <th>Primary Output</th> <th>Secondary Output</th> <th class="uk-width-1-2">Notes</th></tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Any seeds</td>
+                <td>Crop</td>
+                <td>Seeds (150%**)</td>
+                <td>Works for any kind of seeds that has associated crops registered in the Forge Ore Dictionary (<i>seedSomething</i> and <i>cropSomething</i>).</td>
+            </tr>
+            <tr>
+                <td>Any crop</td>
+                <td>3x Crop</td>
+                <td>-</td>
+                <td>Works for any kind of crop that is registered in the Forge Ore Dictionary without associated seeds.</td>
+            </tr>
+            <tr>
+                <td>Seeds</td>
+                <td>Wheat</td>
+                <td>Seeds (150%**)</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Potato</td>
+                <td>3x Potato</td>
+                <td>Poisonous Potato (2%)</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Carrot</td>
+                <td>3x Carrot</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Pumpkin Seeds*</td>
+                <td>Pumpkin</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Melon Seeds*</td>
+                <td>Melon (block)</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Sugar Canes*</td>
+                <td>2x Sugar Canes</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Cactus*</td>
+                <td>2x Cactus</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Cocoa Beans*</td>
+                <td>3x Cocoa Beans</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Vines*</td>
+                <td>2x Vines</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Lily Pad*</td>
+                <td>2x Lily Pad</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
