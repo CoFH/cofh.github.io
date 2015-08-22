@@ -2,6 +2,10 @@ main:
     - items:
         - title: "Main Page"
           url: ""
+    - title: ""
+      items:
+        - title: "Terminology"
+          url: "/terminology"
     - title: "Libraries and Core Mods"
       items:
         - title: "CoFH Core"
