@@ -273,7 +273,7 @@ thermal-expansion:
         - title: "Terrain Smasher"
           #url: "/thermal-expansion/devices/terrain-smasher"
         - title: "Nullifier"
-          #url: "/thermal-expansion/devices/nullifier"
+          url: "/thermal-expansion/devices/nullifier"
         - title: "Tesseract"
           #url: "/thermal-expansion/devices/tesseract"
     - title: "Dynamos"
