@@ -271,7 +271,7 @@ thermal-expansion:
         - title: "Autonomous Activator"
           #url: "/thermal-expansion/devices/autonomous-activator"
         - title: "Terrain Smasher"
-          #url: "/thermal-expansion/devices/terrain-smasher"
+          url: "/thermal-expansion/devices/terrain-smasher"
         - title: "Nullifier"
           url: "/thermal-expansion/devices/nullifier"
         - title: "Tesseract"
