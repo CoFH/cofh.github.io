@@ -275,7 +275,7 @@ thermal-expansion:
         - title: "Nullifier"
           url: "/thermal-expansion/devices/nullifier"
         - title: "Tesseract"
-          #url: "/thermal-expansion/devices/tesseract"
+          url: "/thermal-expansion/devices/tesseract"
     - title: "Dynamos"
       items:
         - title: "Steam Dynamo"
