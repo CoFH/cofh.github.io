@@ -269,7 +269,7 @@ thermal-expansion:
         - title: "Machinist's Workbench"
           url: "/thermal-expansion/devices/machinists-workbench"
         - title: "Autonomous Activator"
-          #url: "/thermal-expansion/devices/autonomous-activator"
+          url: "/thermal-expansion/devices/autonomous-activator"
         - title: "Terrain Smasher"
           url: "/thermal-expansion/devices/terrain-smasher"
         - title: "Nullifier"
