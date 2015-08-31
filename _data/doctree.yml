@@ -279,7 +279,7 @@ thermal-expansion:
     - title: "Dynamos"
       items:
         - title: "Steam Dynamo"
-          #url: "/thermal-expansion/dynamos/steam-dynamo"
+          url: "/thermal-expansion/dynamos/steam-dynamo"
         - title: "Magmatic Dynamo"
           #url: "/thermal-expansion/dynamos/magmatic-dynamo"
         - title: "Compression Dynamo"
