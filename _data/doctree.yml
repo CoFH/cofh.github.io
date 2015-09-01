@@ -287,7 +287,7 @@ thermal-expansion:
         - title: "Reactant Dynamo"
           url: "/thermal-expansion/dynamos/reactant-dynamo"
         - title: "Enervation Dynamo"
-          #url: "/thermal-expansion/dynamos/enervation-dynamo"
+          url: "/thermal-expansion/dynamos/enervation-dynamo"
     - title: "Augments"
       items:
         - title: "Augmentation"
