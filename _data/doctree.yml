@@ -321,7 +321,7 @@ thermal-expansion:
     - title: "Storage"
       items:
         - title: "Strongboxes"
-          #url: "/thermal-expansion/storage/strongboxes"
+          url: "/thermal-expansion/storage/strongboxes"
         - title: "Caches"
           #url: "/thermal-expansion/storage/caches"
         - title: "Satchels"
