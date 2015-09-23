@@ -325,7 +325,7 @@ thermal-expansion:
         - title: "Caches"
           url: "/thermal-expansion/storage/caches"
         - title: "Satchels"
-          #url: "/thermal-expansion/storage/satchels"
+          url: "/thermal-expansion/storage/satchels"
         - title: "Portable Tanks"
           #url: "/thermal-expansion/storage/portable-tanks"
         - title: "Energy Cells"
