@@ -327,7 +327,7 @@ thermal-expansion:
         - title: "Satchels"
           url: "/thermal-expansion/storage/satchels"
         - title: "Portable Tanks"
-          #url: "/thermal-expansion/storage/portable-tanks"
+          url: "/thermal-expansion/storage/portable-tanks"
         - title: "Energy Cells"
           #url: "/thermal-expansion/storage/energy-cells"
         - title: "Flux Capacitors"
