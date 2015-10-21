@@ -329,7 +329,7 @@ thermal-expansion:
         - title: "Portable Tanks"
           url: "/thermal-expansion/storage/portable-tanks"
         - title: "Energy Cells"
-          #url: "/thermal-expansion/storage/energy-cells"
+          url: "/thermal-expansion/storage/energy-cells"
         - title: "Flux Capacitors"
           #url: "/thermal-expansion/storage/flux-capacitors"
         - title: "Schematic"
