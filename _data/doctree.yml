@@ -331,7 +331,7 @@ thermal-expansion:
         - title: "Energy Cells"
           url: "/thermal-expansion/storage/energy-cells"
         - title: "Flux Capacitors"
-          #url: "/thermal-expansion/storage/flux-capacitors"
+          url: "/thermal-expansion/storage/flux-capacitors"
         - title: "Schematic"
           url: "/thermal-expansion/storage/schematic"
         - title: "Redprint"
