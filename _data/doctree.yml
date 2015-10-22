@@ -339,9 +339,9 @@ thermal-expansion:
     - title: "Lighting"
       items:
         - title: "Glowstone Illuminator"
-          #url: "/thermal-expansion/lighting/glowstone-illuminator"
+          url: "/thermal-expansion/lighting/glowstone-illuminator"
         - title: "Lumium Lamp"
-          #url: "/thermal-expansion/lighting/lumium-lamp"
+          url: "/thermal-expansion/lighting/lumium-lamp"
     - title: "Plates"
       items:
         - title: "Redstone Plate"
