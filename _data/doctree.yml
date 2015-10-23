@@ -407,7 +407,7 @@ thermal-expansion:
         - title: "Tier System"
           url: "/thermal-expansion/other/tier-system"
         - title: "Mod Support"
-          #url: "/thermal-expansion/other/mod-support"
+          url: "/thermal-expansion/other/mod-support"
         - title: "Inter-Mod Communication (IMC)"
           #url: "/thermal-expansion/other/inter-mod-communication"
 
