@@ -232,6 +232,8 @@ thermal-foundation:
           url: "/thermal-foundation/other/forge-lexicon"
         - title: "Mod Support"
           url: "/thermal-foundation/other/mod-support"
+        - title: "Inter-Mod Communication (IMC)"
+          url: "/thermal-foundation/other/inter-mod-communication"
 
 thermal-expansion:
     - title: ""

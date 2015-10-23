@@ -1,0 +1,12 @@
+---
+title: Inter-Mod Communicaton (IMC)
+---
+
+<p>When the game is starting, Thermal Foundation may receive messages from other mods through Forge's IMC system. This currently only allows other mods to alter the <a href="/docs/thermal-foundation/other/forge-lexicon">Forge Lexicon</a>'s blacklist.</p>
+
+<p>For convenience, the <a href="/docs/cofhlib">CoFH API</a> provides <a href="https://github.com/CoFH/CoFHLib/blob/master/src/main/java/cofh/api/modhelpers/ThermalFoundationHelper.java" target="_blank">ThermalFoundationHelper</a>, a class with methods that create and send various kinds of IMC messages for Thermal Foundation. Mod developers may choose to call these methods directly, or to copy them over to their own codebases.</p>
+
+<p>Any IMC messages sent to Thermal Foundation are read during the <i>LoadComplete</i> loading phase. This means that messages can be sent during the <i>PreInitialization</i>, <i>Initialization</i> and <i>PostInitialization</i> phases to work.</p>
+
+<h2 id="messages">Messages</h2>
+<p>IMC messages can currently only be used to add or remove specific <i>ItemStack</i>s in the <a href="/docs/thermal-foundation/other/forge-lexicon">Forge Lexicon</a>'s blacklist. Refer to <a href="https://github.com/CoFH/CoFHLib/blob/master/src/main/java/cofh/api/modhelpers/ThermalFoundationHelper.java" target="_blank">ThermalFoundationHelper</a> to see how to send these messages.</p>
