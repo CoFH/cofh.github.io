@@ -409,7 +409,7 @@ thermal-expansion:
         - title: "Mod Support"
           url: "/thermal-expansion/other/mod-support"
         - title: "Inter-Mod Communication (IMC)"
-          #url: "/thermal-expansion/other/inter-mod-communication"
+          url: "/thermal-expansion/other/inter-mod-communication"
 
 thermal-dynamics:
     - title: ""

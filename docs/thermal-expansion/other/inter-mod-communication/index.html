@@ -1,0 +1,40 @@
+---
+title: Inter-Mod Communicaton (IMC)
+---
+
+<p>When the game is starting, Thermal Expansion may receive messages from other mods through Forge's IMC system. This allows other mods to do things like adding or removing recipes to Machines, or adding fuel or coolant types to Dynamos.</p>
+
+<p>For convenience, the <a href="/docs/cofhlib">CoFH API</a> provides <a href="https://github.com/CoFH/CoFHLib/blob/master/src/main/java/cofh/api/modhelpers/ThermalExpansionHelper.java" target="_blank">ThermalExpansionHelper</a>, a class with methods that create and send various kinds of IMC messages for Thermal Expansion. Mod developers may choose to call these methods directly, or to copy them over to their own codebases.</p>
+
+<p>Any IMC messages sent to Thermal Expansion are read during the <i>LoadComplete</i> loading phase. This means that messages can be sent during the <i>PreInitialization</i>, <i>Initialization</i> and <i>PostInitialization</i> phases to work.</p>
+
+<h2 id="messages">Messages</h2>
+<p>Other mods may send IMC messages to Thermal Expansion for any of the following purposes:</p>
+
+<ul>
+    <li>
+        Adding or removing recipes in these Machines:
+        <ul>
+            <li><a href="/docs/thermal-expansion/machines/redstone-furnace">Redstone Furnace</a></li>
+            <li><a href="/docs/thermal-expansion/machines/pulverizer">Pulverizer</a></li>
+            <li><a href="/docs/thermal-expansion/machines/sawmill">Sawmill</a></li>
+            <li><a href="/docs/thermal-expansion/machines/induction-smelter">Induction Smelter</a></li>
+            <li><a href="/docs/thermal-expansion/machines/magma-crucible">Magma Crucible</a></li>
+            <li><a href="/docs/thermal-expansion/machines/fluid-transposer">Fluid Transposer</a> (filling or extracting)</li>
+            <li><a href="/docs/thermal-expansion/machines/energetic-infuser">Energetic Infuser</a></li>
+            <li><a href="/docs/thermal-expansion/machines/phytogenic-insolator">Phytogenic Insolator</a></li>
+        </ul>
+    </li>
+    <li>Setting materials to require Pyrotheum Dust to process in the Induction Smelter</li>
+    <li>
+        Adding fluids as fuels in these Dynamos:
+        <ul>
+            <li><a href="/docs/thermal-expansion/dynamos/magmatic-dynamo">Magmatic Dynamo</a></li>
+            <li><a href="/docs/thermal-expansion/dynamos/compression-dynamo">Compression Dynamo</a></li>
+            <li><a href="/docs/thermal-expansion/dynamos/reactant-dynamo">Reactant Dynamo</a></li>
+        </ul>
+    </li>
+    <li>Adding fluids as coolants in the <a href="/docs/thermal-expansion/dynamos/compression-dynamo">Compression Dynamo</a></li>
+</ul>
+
+<p>Refer to <a href="https://github.com/CoFH/CoFHLib/blob/master/src/main/java/cofh/api/modhelpers/ThermalExpansionHelper.java" target="_blank">ThermalExpansionHelper</a> to see how to send the IMC messages.</p>
