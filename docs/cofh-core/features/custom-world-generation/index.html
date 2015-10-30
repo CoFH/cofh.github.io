@@ -356,6 +356,10 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                 <li>By default, this template uses the <dfn>decoration</dfn> generator. It is meant to only be used with that generator type.</li>
                 <li>The default material for this template is Air blocks.</li>
             </ul>
+
+            <p>
+                A quirk of maintaining compatibility with an old format for custom world generation files requires that an empty material array is specified when using this template and the corresponding generator: <code>"material": []</code>
+            </p>
         </li>
         <li>
             <p>
@@ -577,8 +581,13 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
             </p>
 
             <ul>
+                <li>Meant to only be used with the <dfn>decorator</dfn> template.</li>
                 <li>The <dfn>clusterSize</dfn> value in entries determines how many blocks a single group may contain at most.</li>
             </ul>
+
+            <p>
+                A quirk of maintaining compatibility with an old format for custom world generation files requires that an empty material array is specified when using this generator and the corresponding template: <code>"material": []</code>
+            </p>
             
             <p>This generator can have the following values added to the template object:</p>
             <div class="uk-overflow-container">
