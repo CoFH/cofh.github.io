@@ -418,22 +418,14 @@ thermal-dynamics:
       items:
         - title: "Thermal Dynamics"
           url: "/thermal-dynamics"
-    - title: "Energy Transport"
+    - title: "Ducts"
       items:
+        - title: "Itemducts"
+          url: "/thermal-dynamics/ducts/itemducts"
+        - title: "Fluiducts"
         - title: "Fluxducts"
-        - title: "Cryo-Stabilized Fluxduct"
-    - title: "Fluid Transport"
-      items:
-        - title: "Temperate Fluiduct"
-        - title: "Hardened Fluiduct"
-        - title: "Flux-Plated Fluiduct"
-        - title: "Super-Laminar Fluiduct"
-    - title: "Item Transport"
-      items:
-        - title: "Itemduct"
-        - title: "Impulse Itemduct"
-        - title: "Fluctuating Itemduct"
-        - title: "Warp Itemduct"
+        - title: "Structuralduct"
+        - title: "Luxduct"
     - title: "Duct Attachments"
       items:
         - title: "Servos"
@@ -441,11 +433,6 @@ thermal-dynamics:
         - title: "Retrievers"
         - title: "Redstone Relay"
         - title: "Covers"
-    - title: "Other"
-      items:
-        - title: "Structuralduct"
-        - title: "Luxduct"
-        - title: "Regarding Forge Multipart"
 
 redstone-arsenal:
     - title: ""
