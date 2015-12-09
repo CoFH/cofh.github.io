@@ -275,6 +275,7 @@ thermal-expansion:
         - title: "Terrain Smasher"
           url: "/thermal-expansion/devices/terrain-smasher"
         - title: "Acquisition Apparatus"
+          url: "/thermal-expansion/devices/acquisition-apparatus"
         - title: "Nullifier"
           url: "/thermal-expansion/devices/nullifier"
         - title: "Item Allocator"
