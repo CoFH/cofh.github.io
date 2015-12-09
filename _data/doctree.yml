@@ -279,6 +279,7 @@ thermal-expansion:
         - title: "Nullifier"
           url: "/thermal-expansion/devices/nullifier"
         - title: "Item Allocator"
+          url: "/thermal-expansion/devices/item-allocator"
         - title: "Tesseract"
           url: "/thermal-expansion/devices/tesseract"
     - title: "Dynamos"
