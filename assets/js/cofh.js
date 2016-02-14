@@ -7,7 +7,7 @@ var pages = [
         {
             title: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}", 
             value: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}", 
-            url: "{{ page.url | remove: '/index.html' }}"
+            url: "{{ page.url }}"
             {% if page.mod and page.title != page.mod %}, mod: "{{ page.mod }}"{% endif %} 
         }
         {% if page.search_headers %}
@@ -16,7 +16,7 @@ var pages = [
                 {
                     title: "{{ header.title }}", 
                     value: "{{ header.title }}", 
-                    url: "{{ page.url | remove: 'index.html' }}{% if header.id %}#{{ header.id }}{% endif %}"
+                    url: "{{ page.url }}{% if header.id %}#{{ header.id }}{% endif %}"
                     {% if page.mod and page.title != page.mod %}, mod: "{{ page.mod }}"{% endif %} 
                 }
             {% endfor %}

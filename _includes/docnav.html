@@ -10,12 +10,13 @@
         <li class="uk-nav-header">{{ item.title }}</li>
         {% endif %}
         {% for subitem in item.items %}
-        {% capture url %}/docs{{ subitem.url }}{% if subitem.url contains ".html" %}{% else %}/index.html{% endif %}{% endcapture %}
-        <li {% if subitem.url and page.url contains url %}class="uk-active"{% endif %} >
-            <a {% if subitem.url == null %}class="uk-text-danger"{% else %}href="/docs{{ subitem.url }}"{% endif %} {% if subitem.target %}target="{{ subitem.target }}"{% endif %}>
-                {{ subitem.title }}
-            </a>
-        </li>
+            {% capture page_url %}{{ page.url }}{% if page.url contains ".html" %}{% else %}index.html{% endif %}{% endcapture %}
+            {% capture url %}/docs{{ subitem.url }}{% if subitem.url contains ".html" %}{% else %}index.html{% endif %}{% endcapture %}
+            <li {% if subitem.url and page_url contains url %}class="uk-active"{% endif %} >
+                <a {% if subitem.url == null %}class="uk-text-danger"{% else %}href="/docs{{ subitem.url }}"{% endif %} {% if subitem.target %}target="{{ subitem.target }}"{% endif %}>
+                    {{ subitem.title }}
+                </a>
+            </li>
         {% endfor %}
     {% endfor %}
 </ul>

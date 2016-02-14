@@ -60,6 +60,7 @@ exclude:
   - /Thumbs.db
 
 gems:
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from

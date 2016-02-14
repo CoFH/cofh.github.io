@@ -11,7 +11,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:image" content="{{ site.url }}/assets/images/logo_share.png" />
         <meta property="og:image:type" content="image/png" />
-        <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
         <meta property="og:description" content="Team CoFH's official site for news, downloads and documentation!" />
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:site" content="@TeamCoFH" />
@@ -53,13 +53,13 @@
 
         <nav class="uk-navbar uk-margin-bottom" data-uk-sticky>
             <div class="uk-container uk-container-center">
-                <a href="/" class="uk-navbar-brand uk-hidden-small {% if page.url == '/index.html' %}uk-active{% endif %}">Team CoFH</a>
+                <a href="/" class="uk-navbar-brand uk-hidden-small {% if page.url == '/' %}uk-active{% endif %}">Team CoFH</a>
 
                 <a href="#cofh-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
                 {% if page.url contains '/docs' %}
                 <a href="#cofh-offcanvas-docs" class="uk-navbar-flip uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
                 {% endif %}
-                <a href="/" class="uk-navbar-brand uk-navbar-center uk-visible-small {% if page.url == '/index.html' %}uk-active{% endif %}">Team CoFH</a>
+                <a href="/" class="uk-navbar-brand uk-navbar-center uk-visible-small {% if page.url == '/' %}uk-active{% endif %}">Team CoFH</a>
 
                 <ul class="uk-navbar-nav uk-hidden-small">
                     {% include navbarlinks.html %}
@@ -74,7 +74,7 @@
                 {% include searchbar.html class='uk-panel' %}
             
                 <ul class="uk-nav uk-nav-offcanvas">
-                    <li{% if page.url == '/index.html' %} class="uk-active"{% endif %}>
+                    <li{% if page.url == '/' %} class="uk-active"{% endif %}>
                         <a href="/">Home</a>
                     </li>
                     {% include navbarlinks.html %}
