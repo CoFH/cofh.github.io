@@ -1,7 +1,7 @@
 main:
     - items:
         - title: "Main Page"
-          url: ""
+          url: "/"
     - title: ""
       items:
         - title: "Terminology"

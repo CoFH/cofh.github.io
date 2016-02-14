@@ -3,7 +3,7 @@
         {% assign nav = site.data.doctree["main"] %}
     {% else %}
         {% assign nav = site.data.doctree[page.nav] %}
-        <li><a href="/docs">&laquo; Back</a></li>
+        <li><a href="/docs/">&laquo; Back</a></li>
     {% endif %}
     {% for item in nav %}
         {% if item.title %}
