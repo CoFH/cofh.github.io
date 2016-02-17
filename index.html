@@ -19,25 +19,47 @@ layout: blog
     {% endfor %}
 
     <ul class="uk-pagination">
-        {% assign start = paginator.page | minus: 2 %}
+        {% assign max_buttons = 5 %}
+
+        {% assign max_buttons_sides = max_buttons | minus: 1 | divided_by: 2 %}
+        {% assign max_buttons_left = max_buttons_sides | floor %}
+        {% assign max_buttons_right = max_buttons_sides | ceil %}
+
+        {% assign start = paginator.page | minus: max_buttons_left %}
         {% if start < 1 %}{% assign start = 1 %}{% endif %}
-        {% assign end = paginator.page | plus: 2 %}
+        {% assign end = paginator.page | plus: max_buttons_right %}
         {% if end > paginator.total_pages %}{% assign end = paginator.total_pages %}{% endif %}
+
+        {% assign current_start_diff = paginator.page | minus: start %}
+        {% assign current_end_diff = end | minus: paginator.page %}
+
+        {% if current_start_diff < max_buttons_left %}
+            {% assign start = 1 %}
+            {% assign end = max_buttons %}
+            {% if end > paginator.total_pages %}{% assign end = paginator.total_pages %}{% endif %}
+        {% endif %}
+        {% if current_end_diff < max_buttons_right %}
+            {% assign start = paginator.total_pages | plus: 1 | minus: max_buttons %}
+            {% if start < 1 %}{% assign start = 1 %}{% endif %}
+            {% assign end = paginator.total_pages %}
+        {% endif %}
 
         <li>
             {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path }}">&laquo;</a>
+                <a href="/"><i class="uk-icon-angle-double-left"></i></a>
             {% else %}
-                <span>&laquo;</span>
+                <span><i class="uk-icon-angle-double-left"></i></span>
             {% endif %}
         </li>
-        
-        {% if start > 1 %}
-            <li><a href="/">1</a></li>
-            {% if start > 2 %}
-                <li><span>...</span></li>
+        <li>
+            {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}"><i class="uk-icon-angle-left"></i></a>
+            {% else %}
+                <span><i class="uk-icon-angle-left"></i></span>
             {% endif %}
-        {% endif %}
+        </li>
+
+        <li></li>
         
         {% for page in (start..end) %}
             {% if page == paginator.page %}
@@ -52,20 +74,23 @@ layout: blog
                 {{ link }}
             </li>
         {% endfor %}
-        
-        {% if end < paginator.total_pages %}
-            {% assign temp = paginator.total_pages | minus: 1 %}
-            {% if end < temp %}
-                <li><span>...</span></li>
-            {% endif %}
-            <li><a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
-        {% endif %}
+
+        <li></li>
 
         <li>
             {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path }}">&raquo;</a>
+                <a href="{{ paginator.next_page_path }}"><i class="uk-icon-angle-right"></i></a>
             {% else %}
-                <span>&raquo;</span>
+                <span><i class="uk-icon-angle-right"></i></span>
+            {% endif %}
+        </li>
+        <li>
+            {% if paginator.next_page %}
+                <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}">
+                    <i class="uk-icon-angle-double-right"></i>
+                </a>
+            {% else %}
+                <span><i class="uk-icon-angle-double-right"></i></span>
             {% endif %}
         </li>
     </ul>
