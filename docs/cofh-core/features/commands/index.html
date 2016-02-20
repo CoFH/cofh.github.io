@@ -39,6 +39,11 @@ redirect_from: /mods/cofh-core/commands.html
                 <td>-1</td>
             </tr>
             <tr>
+                <td><a href="#hand">hand</a></td>
+                <td>Displays information about held items.</td>
+                <td>0</td>
+            </tr>
+            <tr>
                 <td><a href="#tps">tps</a></td>
                 <td>Displays the server TPS rate.</td>
                 <td>0</td>
@@ -99,31 +104,60 @@ redirect_from: /mods/cofh-core/commands.html
 
 <h3 id="help">help</h3>
 <p>Displays information about a CoFH Core command.</p>
-<pre>/cofh help [command]</pre>
+<pre>/cofh help [command | page]</pre>
 <dl>
     <dt>command</dt>
-    <dd>The name of the command to display information about.</dd>
+    <dd>The name of the command to display information about. If unspecified, displays a clickable list of all available commands.</dd>
+    <dt>page</dt>
+    <dd>The page of commands to display, when displaying a list of all available commands.</dd>
 </dl>
 
 <hr />
 
 <h3 id="syntax">syntax</h3>
 <p>Displays the syntax of a CoFH Core command.</p>
-<pre>/cofh syntax [command]</pre>
+<pre>/cofh syntax [command | page]</pre>
 <dl>
     <dt>command</dt>
-    <dd>The name of the command to display the syntax of.</dd>
+    <dd>The name of the command to display the syntax of. If unspecified, displays a clickable list of all available commands.</dd>
+    <dt>page</dt>
+    <dd>The page of commands to display, when displaying a list of all available commands.</dd>
 </dl>
 
 <hr />
 
 <h3 id="friend">friend</h3>
 <p>Allows management of a player's friends list. Can be done by either opening the friends list GUI or by adding/removing friends directly.</p>
-<pre>/cofh friend {gui | add &lt;username&gt; | remove &lt;username&gt;}</pre>
+<pre>/cofh friend {gui | add &lt;player&gt; | remove &lt;player&gt;}</pre>
 <dl>
-    <dt>username</dt>
-    <dd>The username of the friend to add or remove from the list.</dd>
+    <dt>player</dt>
+    <dd>The username of the player to add or remove from the friends list.</dd>
 </dl>
+
+<hr />
+
+<h3 id="hand">hand</h3>
+<p>Displays various kinds of information about a player's held item.</p>
+<pre>/cofh hand [player] [infoType] [infoType] ...</pre>
+<dl>
+    <dt>player</dt>
+    <dd>The username of the player to show information of their held item for. If unspecified, the information of the command user's held item is displayed.</dd>
+    <dt>infoType</dt>
+    <dd>The type(s) of information to display about the item. If unspecified, only the name of the item is displayed.</dd>
+</dl>
+<p>The following types of information are supported:</p>
+<ul>
+    <li><dfn>name / generic</dfn>: the name of the item. Can be hovered on in chat to display the item's tooltip.</li>
+    <li><dfn>size / amount / count</dfn>: the amount of items in the stack, if applicable.</li>
+    <li><dfn>metadata / damage / alt</dfn>: the metadata or damage value of the item.</li>
+    <li><dfn>modifiers</dfn>: the modifiers of the item (e.g. Attack Damage).</li>
+    <li><dfn>enchants / enchant / ench</dfn>: the enchantments on the item.</li>
+    <li><dfn>action / use</dfn>: the action and use duration of the item, for items like Bows, food, etc.</li>
+    <li><dfn>lore / flavortext</dfn>: the display name and lore of the item, if set.</li>
+    <li><dfn>oredict / orenames / orename / ores / ore</dfn>: the registered Ore Dictionary names of the item.</li>
+    <li><dfn>nbt / tag / stacktag / compoundtag</dfn>: the NBT data of the item stack.</li>
+    <li><dfn>tostring / string / text</dfn>: a textual representation of the item stack.</li>
+</ul>
 
 <hr />
 
@@ -183,7 +217,7 @@ redirect_from: /mods/cofh-core/commands.html
 <p>Removes blocks of certain types in an area.</p>
 <pre>/cofh clearblocks {&lt;player&gt; &lt;xRadius&gt; &lt;yRadius&gt; &lt;zRadius&gt; | &lt;xStart&gt; &lt;yStart&gt; &lt;zStart&gt; &lt;xEnd&gt; &lt;yEnd&gt; &lt;zEnd&gt;} [block[#meta]] [block[#meta]] ...</pre>
 <dl>
-    <dt>user</dt>
+    <dt>player</dt>
     <dd>The username of the player to use as an origin of the area to remove blocks from.</dd>
     <dt>xRadius, yRadius, zRadius</dt>
     <dd>The radius in blocks along the respective axes of the area to remove blocks from, when using a player as an origin.</dd>
