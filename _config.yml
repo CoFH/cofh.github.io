@@ -6,11 +6,12 @@ defaults:
   - scope:
       path: ""
       type: posts
-      author: Team CoFH
-      author_url: http://www.twitter.com/TeamCoFH
     values:
       is_post: true
       layout: post
+      show_banner: true
+      author: Team CoFH
+      author_url: http://www.twitter.com/TeamCoFH
   - scope:
       path: "docs"
       type: pages

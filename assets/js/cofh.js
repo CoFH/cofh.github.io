@@ -37,8 +37,11 @@ $(window).on('hashchange load', function() {
 });
 
 $(function() {
-    var banner = '/assets/images/banners/banner' + Math.floor(Math.random() * 7 + 1) + '.jpg';
-    $('.cofh-banner').css('background-image', 'url(' + banner + ')');
+    var $banner = $('.cofh-banner');
+    if ($banner.length > 0) {
+        var bannerImage = '/assets/images/banners/banner' + Math.floor(Math.random() * 7 + 1) + '.jpg';
+        $banner.css('background-image', 'url(' + bannerImage + ')');
+    }
 
     $(':header').each(function() {
         var id = $(this).attr('id');

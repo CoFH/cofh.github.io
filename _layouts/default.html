@@ -45,11 +45,13 @@
     </head>
 
     <body>
+        {% if page.show_banner %}
         <div class="cofh-banner uk-hidden-small">
             <div class="uk-container uk-container-center">
                 <a href="/"><img class="cofh-logo" src="/assets/images/logo.png" /></a>
             </div>
         </div>
+        {% endif %}
 
         <nav class="uk-navbar uk-margin-bottom" data-uk-sticky>
             <div class="uk-container uk-container-center">
