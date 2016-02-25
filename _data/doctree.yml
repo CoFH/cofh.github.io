@@ -358,6 +358,7 @@ thermal-expansion:
         - title: "Charge Plate"
           url: "/thermal-expansion/plates/charge-plate/"
         - title: "Excursion Plate"
+          url: "/thermal-expansion/plates/excursion-plate/"
         - title: "Teleport Plate"
     - title: "Tools"
       items:
