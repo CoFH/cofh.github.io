@@ -360,6 +360,7 @@ thermal-expansion:
         - title: "Excursion Plate"
           url: "/thermal-expansion/plates/excursion-plate/"
         - title: "Teleport Plate"
+          url: "/thermal-expansion/plates/teleport-plate/"
     - title: "Tools"
       items:
         - title: "Crescent Hammer (Wrench)"
