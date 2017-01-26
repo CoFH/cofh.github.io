@@ -49,8 +49,8 @@ $(function() {
         
         $(this)
             .addClass('cofh-clickable')
-            .append('<a href="#' + id + '" class="uk-margin-small-left cofh-clickable-icon"><i class="uk-icon-link"></i></a>')
-            .append('<a href="#" class="uk-float-right uk-margin-right cofh-clickable-icon"><i class="uk-icon-chevron-up"></i></a>');
+            .append('<a href="#' + id + '" class="uk-margin-small-left cofh-clickable-icon" title="Permalink"><i class="uk-icon-link"></i></a>')
+            .append('<a href="#" class="uk-float-right uk-margin-right cofh-clickable-icon" title="Top of Page"><i class="uk-icon-chevron-up"></i></a>');
     });
 
     $(".uk-container a[href^='/docs/']").each(function(i, anchor) {
