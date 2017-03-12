@@ -8,10 +8,10 @@ main:
           url: "/terminology/"
     - title: "Libraries and Core Mods"
       items:
-        - title: "CoFH Core"
-          url: "/cofh-core/"
         - title: "CoFHLib"
           url: "/cofhlib/"
+        - title: "CoFH Core"
+          url: "/cofh-core/"
 
     - title: "Redstone Flux"
       items:
@@ -45,6 +45,8 @@ cofh-core:
       items:
         - title: "Commands"
           url: "/cofh-core/features/commands/"
+        - title: "Friend List"
+        - title: "Game Tweaks"
         - title: "Custom World Generation"
           url: "/cofh-core/features/custom-world-generation/"
     - title: "Enchantments"
