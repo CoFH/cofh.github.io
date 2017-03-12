@@ -3,11 +3,11 @@ title: Commands
 redirect_from: /mods/cofh-core/commands.html
 ---
 
-<p>CoFH Core includes various server commands that can be useful to moderators or testers. This page lists all of them.</p>
+<p>CoFH Core includes various server commands that may be useful to server operators and developers.</p>
 
 <h2 id="summary">Summary</h2>
 
-<p>All of CoFH Core's commands must be prefixed with '/cofh '.</p>
+<p>All of CoFH Core's commands must be prefixed with <code>/cofh</code>, followed by a space.</p>
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped">
         <thead>
@@ -35,7 +35,7 @@ redirect_from: /mods/cofh-core/commands.html
             </tr>
             <tr>
                 <td><a href="#friend">friend</a></td>
-                <td>Allows management of a player's friends list.</td>
+                <td>Allows management of a player's <a href="/docs/cofh-core/features/friend-list/">friend list</a>.</td>
                 <td>-1</td>
             </tr>
             <tr>
@@ -127,17 +127,17 @@ redirect_from: /mods/cofh-core/commands.html
 <hr />
 
 <h3 id="friend">friend</h3>
-<p>Allows management of a player's friends list. Can be done by either opening the friends list GUI or by adding/removing friends directly.</p>
-<pre>/cofh friend {gui | add &lt;player&gt; | remove &lt;player&gt;}</pre>
+<p>Allows management of the command user's <a href="/docs/cofh-core/features/friend-list/">friend list</a>. Can be done by either opening the friend list GUI or by adding/removing friends directly.</p>
+<pre>/cofh friend {gui | list | add &lt;player&gt; | remove &lt;player&gt;}</pre>
 <dl>
     <dt>player</dt>
-    <dd>The username of the player to add or remove from the friends list.</dd>
+    <dd>The username of the player to add or remove from the friend list.</dd>
 </dl>
 
 <hr />
 
 <h3 id="hand">hand</h3>
-<p>Displays various kinds of information about a player's held item.</p>
+<p>Displays various kinds of information about a player's held item. If the player is holding items in both their main hand and their off-hand, information is displayed about the item in their main hand.</p>
 <pre>/cofh hand [player] [infoType] [infoType] ...</pre>
 <dl>
     <dt>player</dt>
@@ -147,39 +147,40 @@ redirect_from: /mods/cofh-core/commands.html
 </dl>
 <p>The following types of information are supported:</p>
 <ul>
-    <li><dfn>name / generic</dfn>: the name of the item. Can be hovered on in chat to display the item's tooltip.</li>
-    <li><dfn>size / amount / count</dfn>: the amount of items in the stack, if applicable.</li>
-    <li><dfn>metadata / damage / alt</dfn>: the metadata or damage value of the item.</li>
-    <li><dfn>modifiers</dfn>: the modifiers of the item (e.g. Attack Damage).</li>
-    <li><dfn>enchants / enchant / ench</dfn>: the enchantments on the item.</li>
-    <li><dfn>action / use</dfn>: the action and use duration of the item, for items like Bows, food, etc.</li>
-    <li><dfn>lore / flavortext</dfn>: the display name and lore of the item, if set.</li>
-    <li><dfn>oredict / orenames / orename / ores / ore</dfn>: the registered Ore Dictionary names of the item.</li>
-    <li><dfn>nbt / tag / stacktag / compoundtag</dfn>: the NBT data of the item stack.</li>
-    <li><dfn>tostring / string / text</dfn>: a textual representation of the item stack.</li>
+    <li><code>name</code> / <code>generic</code>: the name of the item. Can be hovered on in chat to display the item's tooltip.</li>
+    <li><code>id</code>: the internal name (ID) of the item.</li>
+    <li><code>size</code> / <code>amount</code> / <code>count</code>: the amount of items in the stack, if applicable.</li>
+    <li><code>metadata</code> / <code>damage</code> / <code>alt</code>: the metadata or damage value of the item.</li>
+    <li><code>modifiers</code>: the modifiers of the item (e.g. Attack Damage).</li>
+    <li><code>enchants</code> / <code>enchant</code> / <code>ench</code>: the enchantments on the item.</li>
+    <li><code>action</code> / <code>use</code>: the action and use duration of the item, for items like Bows and food.</li>
+    <li><code>lore</code> / <code>flavortext</code>: the display name and lore of the item, if set.</li>
+    <li><code>oredict</code> / <code>orenames</code> / <code>orename</code> / <code>ores</code> / <code>ore</code>: the registered Ore Dictionary names of the item.</li>
+    <li><code>nbt</code> / <code>tag</code> / <code>stacktag</code> / <code>compoundtag</code>: the NBT data of the item stack.</li>
+    <li><code>tostring</code> / <code>string</code> / <code>text</code>: a textual representation of the item stack Java object.</li>
 </ul>
 
 <hr />
 
 <h3 id="tps">tps</h3>
-<p>Displays the server TPS (ticks per second) rate. The TPS rate is commonly used to measure how smoothly the server is running, or if the server is suffering from heavy load. The optimal rate is 20 ticks per second.</p>
+<p>Displays the server's <abbr title="ticks per second">TPS</abbr>. This is commonly used to measure how smoothly the server is running, or if the server is suffering from heavy load. The optimal rate is 20 ticks per second.</p>
 <pre>/cofh tps {o | a | &lt;dimension&gt;}</pre>
 <dl>
     <dt>dimension</dt>
     <dd>The ID of the dimension to display the TPS rate for.</dd>
 </dl>
-<p>If no arguments are supplied, the overall tick time and the tick time per dimension will be shown. Using <dfn>o</dfn>, only the overall tick time will be displayed. Using <dfn>a</dfn>, the amount of loaded worlds, chunks, entities and tile entities will be shown. Using a dimension ID, the amount of loaded chunks, entities and tile entities will be shown for that dimension.</p>
+<p>If no arguments are supplied, the overall tick time and the tick time per dimension will be shown. Using <code>o</code>, only the overall tick time will be displayed. Using <code>a</code>, the amount of loaded worlds, chunks, entities and tile entities will be shown. Using a dimension ID, the amount of loaded chunks, entities and tile entities will be shown for that dimension.</p>
 
 <hr />
 
 <h3 id="enchant">enchant</h3>
-<p>Applies enchantments to held items.</p>
+<p>Applies enchantments to held items. If the player is holding items in both their main hand and their off-hand, enchantments are applied to the item in their main hand.</p>
 <pre>/cofh enchant [player] &lt;enchantmentID&gt; [level]</pre>
 <dl>
     <dt>player</dt>
     <dd>The username of the player whose held item is to be enchanted. If unspecified, the command user will be the target.</dd>
     <dt>enchantmentID</dt>
-    <dd>The ID of the enchantment to apply. A list of vanilla enchantment IDs can be found <a href="http://minecraft.gamepedia.com/Data_values#Enchantment_IDs" target="_blank">here</a>. A list of all enchantment IDs including those added by mods can be dumped by <a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods" target="_blank">Not Enough Items</a>.</dd>
+    <dd>The ID of the enchantment to apply. A list of vanilla enchantment IDs can be found <a href="http://minecraft.gamepedia.com/Data_values#Enchantment_IDs" target="_blank">here</a>.</dd>
     <dt>level</dt>
     <dd>The level of the enchantment to apply.</dd>
 </dl>
@@ -191,7 +192,7 @@ redirect_from: /mods/cofh-core/commands.html
 <pre>/cofh killall [partialName]</pre>
 <dl>
     <dt>partialName</dt>
-    <dd>The name or part of the name of the entity type to remove from the server. If unspecified, all hostile mobs will be removed. Can be set to <dfn>*</dfn> to remove <em>all</em> loaded entities.</dd>
+    <dd>The name or part of the name of the entity type to remove from the server. If unspecified, all hostile mobs will be removed. Can be set to <code>*</code> to remove <em>all</em> loaded entities.</dd>
 </dl>
 
 <hr />
@@ -224,39 +225,39 @@ redirect_from: /mods/cofh-core/commands.html
     <dt>xStart, yStart, zStart, xEnd, yEnd, zEnd</dt>
     <dd>The coordinates of the area to remove blocks from, when not using an origin.</dd>
     <dt>block</dt>
-    <dd>The internal name (ID) of a block to remove. For example, <dfn>minecraft:stone</dfn> translates to Stone, and <dfn>ThermalFoundation:Ore translates</dfn> to the ore block from Thermal Foundation. If the block is from Minecraft itself, the <dfn>minecraft:</dfn> prefix is not required.</dd>
+    <dd>The internal name (ID) of a block to remove. For example, <code>minecraft:stone</code> for Stone blocks, and <code>ThermalFoundation:Ore</code> for Thermal Foundation ore blocks. If the block is from Minecraft itself, the <code>minecraft:</code> prefix is optional.</dd>
     <dt>meta</dt>
     <dd>The metadata of a block. Most of the time, the metadata of a block is equal to the damage value of its item form.</dd>
 </dl>
-<p>It is also possible to match blocks to remove using more generic terms as <dfn>block</dfn> arguments:</p>
+<p>It is also possible to match blocks to remove using more generic terms as <code>block</code> arguments:</p>
 <ul>
-    <li><dfn>*fluid</dfn> matches any fluid blocks.</li>
-    <li><dfn>*tree</dfn> matches any kind of wood or leaves.</li>
-    <li><dfn>*repl</dfn> matches any block that can be replaced when placing blocks, like tall grass.</li>
-    <li><dfn>*stone</dfn> matches any block that has the <dfn>rock</dfn> material.</li>
-    <li><dfn>*sand</dfn> matches any block that has the <dfn>sand</dfn> material.</li>
-    <li><dfn>*dirt</dfn> matches any block that has the <dfn>ground</dfn>, <dfn>grass</dfn>, <dfn>clay</dfn>, <dfn>snow</dfn>, <dfn>craftedSnow</dfn>, <dfn>ice</dfn> or <dfn>packedIce</dfn> material.</li>
-    <li><dfn>*plant</dfn> matches any block that has the <dfn>plants</dfn>, <dfn>vine</dfn> or <dfn>leaves</dfn> material.</li>
-    <li><dfn>*fire</dfn> matches any block that has the <dfn>fire</dfn> or <dfn>lava</dfn> material, and any block that is currently on fire.</li>
+    <li><code>*fluid</code> matches any fluid blocks.</li>
+    <li><code>*tree</code> matches any kind of wood or leaves.</li>
+    <li><code>*repl</code> matches any block that can be replaced when placing blocks, like tall grass.</li>
+    <li><code>*stone</code> matches any block that has the <code>rock</code> material.</li>
+    <li><code>*sand</code> matches any block that has the <code>sand</code> material.</li>
+    <li><code>*dirt</code> matches any block that has the <code>ground</code>, <code>grass</code>, <code>clay</code>, <code>snow</code>, <code>craftedSnow</code>, <code>ice</code> or <code>packedIce</code> material.</li>
+    <li><code>*plant</code> matches any block that has the <code>plants</code>, <code>vine</code> or <code>leaves</code> material.</li>
+    <li><code>*fire</code> matches any block that has the <code>fire</code> or <code>lava</code> material, and any block that is currently on fire.</li>
 </ul>
 
 <hr />
 
 <h3 id="countblocks">countblocks</h3>
-<p>Displays the amounts of blocks of certain types in an area. Syntax is very similar to <dfn>clearblocks</dfn>.</p>
+<p>Displays the amounts of blocks of certain types in an area. Syntax is very similar to <code>clearblocks</code>.</p>
 <pre>/cofh countblocks {&lt;player&gt; &lt;xRadius&gt; &lt;yRadius&gt; &lt;zRadius&gt; | &lt;xStart&gt; &lt;yStart&gt; &lt;zStart&gt; &lt;xEnd&gt; &lt;yEnd&gt; &lt;zEnd&gt;} [block[#meta]] [block[#meta]] ...</pre>
-<p>All arguments are the same as the ones <dfn>clearblocks</dfn> has.</p>
+<p>All arguments are the same as the ones <code>clearblocks</code> has.</p>
 
 <hr />
 
 <h3 id="replaceblocks">replaceblocks</h3>
-<p>Replaces blocks of certain types with another block type in an area. Very similar to <dfn>clearblocks</dfn>.</p>
+<p>Replaces blocks of certain types with another block type in an area. Very similar to <code>clearblocks</code>.</p>
 <pre>/cofh replaceblocks {&lt;player&gt; &lt;xRadius&gt; &lt;yRadius&gt; &lt;zRadius&gt; | &lt;xStart&gt; &lt;yStart&gt; &lt;zStart&gt; &lt;xEnd&gt; &lt;yEnd&gt; &lt;zEnd&gt;} &lt;replaceBlock[#meta]&gt; [block[#meta]] [block[#meta]] ...</pre>
 <dl>
     <dt>replaceBlock</dt>
     <dd>The internal name (ID) of the block to replace blocks with.</dd>
 </dl>
-<p>All other arguments are the same as the ones <dfn>clearblocks</dfn> has.</p>
+<p>All other arguments are the same as the ones <code>clearblocks</code> has.</p>
 
 <hr />
 
