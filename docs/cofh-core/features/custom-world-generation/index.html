@@ -4,66 +4,53 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
 ---
 
 <p>
-    CoFH Core includes a powerful customizable world generator. Using this feature, users or modpack authors can specify their own ores, plants, boulders, spikes, lakes, dungeons and more to generate in their worlds.
+    CoFH Core features a powerful customizable world generator. Using this feature, users or modpack authors can specify custom types of ores, plants, boulders, spikes, lakes, dungeons and more to be generated in the world.
 </p>
 
 <p>
-    <strong>Note:</strong> A good understanding of the JSON markup language is recommended. A description of the JSON syntax can be found <a href="http://www.w3schools.com/json/json_syntax.asp" target="_blank">here</a>.
+    <strong>Note:</strong> A good understanding of <a href="http://www.json.org/" target="_blank">JSON</a> is required. JSON terms will be used to describe the format of the configuration files.
 </p>
-
-<div class="uk-panel uk-panel-box uk-display-inline-block">
-    <h3 class="uk-panel-title">Table of contents</h3>
-    <ul>
-        <li><a href="#file-structure">File structure</a></li>
-        <li><a href="#format">Format</a></li>
-        <li><a href="#common-values">Common values</a></li>
-        <li><a href="#template-types">Template types</a></li>
-        <li><a href="#generator-types">Generator types</a></li>
-        <li>
-            <a href="#other-formats">Other formats</a>
-            <ul>
-                <li><a href="#weighted-string-entry">Weighted String entry</a></li>
-                <li><a href="#block-entry">Block entry</a></li>
-                <li><a href="#biome-entry">Biome entry</a></li>
-                <li><a href="#entity-entry">Entity entry</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#useful-resources">Useful resources</a>
-            <ul>
-                <li><a href="#links">Links</a></li>
-                <li><a href="#mods">Mods</a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
 
 <h2 id="file-structure">File structure</h2>
 
 <p>
-    Custom world generation is specified using JSON files in the folder <dfn>[minecraft instance]\config\cofh\world</dfn>.<br />
-    <img class="uk-margin" src="/assets/images/worldgen-folder.png" /><br />
-    By default, this folder contains one or two files: <dfn>Vanilla.json</dfn> and possibly <dfn>ThermalFoundation-Ores.json</dfn>. The latter is only added when Thermal Foundation is present.
+    Custom world generation is specified by <code>.json</code> files in the <code>cofh/world</code> folder inside Minecraft Forge's <code>config</code> folder. By default, this folder contains one or two files: <code>vanilla.json</code>, and <code>thermalfoundation_ores.json</code> if <a href="/docs/thermal-foundation/">Thermal Foundation</a> is installed.
 </p>
 
-<p>These files can be freely edited to change the default types of world generation. It is also possible to add new files to be read by CoFH Core. This is not required when adding more world generation types, but can improve human readability. Furthermore, new folders that contain more files can be added in the 'world' folder, as it is read recursively.</p>
-
-<p>Any errors that are found in the files will be logged while the game starts. Be sure to check the log if generation is not working as intended.</p>
-
 <p>
-    <strong>Note 1:</strong> Editing Vanilla.json will only have effect if the option B:ReplaceVanillaGeneration is enabled in CoFH Core's main configuration file.<br />
-    <strong>Note 2:</strong> When adding a new file to the folder, make sure that the file has the .json extension.
+    These files may be edited to change the default types of world generation. It is also possible to add new <code>.json</code> files to be read by CoFH Core. This is not required when adding more world generation types, but can improve readability for humans. The <code>world</code> folder is read recursively, so <code>.json</code> files may be grouped in folders for additional readability.
 </p>
 
-<h2 id="format">Format</h2>
-
-<p>This section explains the format that CoFH Core reads custom world generation files in.</p>
-
-<p>Every world generation file contains a root Object, which in turn contains values that describe the actual world generation types themselves. These values are also Objects, and will from now on be called <dfn>entries</dfn>.</p>
+<p>
+    Editing <code>vanilla.json</code> will only have effect if the option <code>ReplaceVanillaGeneration</code> is set to <code>true</code> in CoFH Core's configuration file. It is set to <code>false</code> by default.
+</p>
 
 <p>
-    As an example of the format, see the <a href="http://pastebin.com/uXuu9YJN" target="_blank">default Vanilla.json file</a>.<br />
-    It can be seen here that the <dfn>template</dfn> value is the first value to be set on every entry. This is because the template is the most important value in an entry, and determines some of the other values that can or need to be set.
+    If world generation is not working as intended, try checking the log. Any errors that are found in the files are logged while the game starts.
+</p>
+
+<h2 id="file-format">File format</h2>
+
+<p>
+    Every world generation file consists of one root object. This object must contain a value <code>populate</code>, which describes the things to generate in the world. The object may also contain a value <code>dependencies</code>, describing what mods must be loaded in order to read the world generation file.
+</p>
+
+<h3 id="file-format-populate">populate</h3>
+
+<p>
+    The <code>populate</code> value is an object, whose values are also objects. These object values are called <dfn>entries</dfn>, and each specify one thing to generate in the world. See <a href="#entry-format">Entry format</a> for an explanation of what entries should look like.
+</p>
+
+<h3 id="file-format-dependencies">dependencies</h3>
+
+<p>
+    The <code>dependencies</code> value is either a single <a href="#mod-dependency-entry">mod dependency entry</a>, or an array of them. If one of the specified dependencies is not loaded, the entire file will be skipped by CoFH Core.
+</p>
+
+<h2 id="entry-format">Entry format</h2>
+
+<p>
+    The <dfn>template</dfn> value is the first value to be set on every entry. This is because the template is the most important value in an entry, and determines some of the other values that can or need to be set.
 </p>
 
 <p>
@@ -534,7 +521,7 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
             <ul>
                 <li>
                     The <dfn>clusterSize</dfn> value in entries determines how large the blobs are. However, it is hard to determine how exactly it affects the amount of blocks generated. It is capped at 32, and will be interpreted as 32 if it has a higher number.<br />
-                    For reference, have a look in the <a href="http://pastebin.com/uXuu9YJN" target="_blank">default Vanilla.json file</a> to see examples of <dfn>clusterSize</dfn> values, and what the results of those entries are.
+                    For reference, have a look in the <a href="http://pastebin.com/uXuu9YJN" target="_blank">default vanilla.json file</a> to see examples of <dfn>clusterSize</dfn> values, and what the results of those entries are.
                 </li>
             </ul>
         </li>
@@ -1187,6 +1174,10 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
 
 <p>This section describes other kinds of formats that are used throughout the JSON files.</p>
 
+<h3 id="mod-dependency-entry">Mod dependency entry</h3>
+
+<p>This format describes a mod that must be loaded. This requirement may include a specific version or range of versions of the mod.</p>
+
 <h3 id="weighted-string-entry">Weighted String entry</h3>
 
 <p>This format describes a String with an associated weight, for use in randomization. Weighted String entries only useful in Arrays that can be randomly picked from.</p>
@@ -1384,8 +1375,8 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
 
 <h3 id="links">Links</h3>
 <ul>
-    <li><a href="http://pastebin.com/uXuu9YJN" target="_blank">Default <dfn>Vanilla.json</dfn> file</a></li>
-    <li><a href="http://pastebin.com/ZXWrcQyE" target="_blank">Default <dfn>ThermalFoundation-Ores.json</dfn> file</a></li>
+    <li><a href="http://pastebin.com/uXuu9YJN" target="_blank">Default <dfn>vanilla.json</dfn> file</a></li>
+    <li><a href="http://pastebin.com/ZXWrcQyE" target="_blank">Default <dfn>thermalfoundation_ores.json</dfn> file</a></li>
     <li><a href="http://minecraft.gamepedia.com/Data_values#Block_IDs" target="_blank">IDs of blocks in vanilla Minecraft</a></li>
     <li><a href="http://minecraft.gamepedia.com/Data_values#Entity_IDs" target="_blank">IDs of entities in vanilla Minecraft (use the savegame IDs)</a></li>
     <li><a href="http://minecraft.gamepedia.com/Data_values#Biome_IDs" target="_blank">Names of biomes in vanilla Minecraft</a></li>
