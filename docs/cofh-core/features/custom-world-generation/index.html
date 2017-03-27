@@ -156,7 +156,7 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
             </p>
 
             <ul>
-                <li><strong>Default generator:</strong> <code>cluster</code></li>
+                <li><strong>Default generator type:</strong> <code>cluster</code></li>
                 <li><strong>Default material:</strong> Stone</li>
             </ul>
 
@@ -180,14 +180,14 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>The minimum altitude at which can be generated.</td>
+                            <td>The minimum altitude at which features can be generated.</td>
                         </tr>
                         <tr>
                             <td>max-height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>The maximum altitude at which can be generated. Must be higher than <code>min-height</code>.</td>
+                            <td>The maximum altitude at which features can be generated. Must be higher than <code>min-height</code>.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -195,20 +195,17 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
         </li>
         <li>
             <p>
-                The <dfn>normal</dfn> template is mostly the same as the <dfn>uniform</dfn> template. The only difference is the height distribution. Instead of an uniform distribution between a minimum and a maximum height, it has a normal distribution, meaning it is more likely to generate near the mean height than it is to generate near the set height limits.<br />
-                Minecraft generates Lapis Lazuli Ore with this kind of height distribution.
-            </p>
-            
-            <p>
-                <strong>Note:</strong> This template could be mistaken to be the 'normal' or standard template for generating ores. This is not the case, as the name refers to normal distribution. The most commonly used template for ores is <dfn>uniform</dfn>.
+                With the <code>gaussian</code> distribution, features are distributed around a certain altitude. The features generate commonly near this altitude, and less commonly further from this altitude. Lapis Lazuli Ore is generated like this.
             </p>
 
             <ul>
-                <li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
-                <li>The default material for this template is Stone blocks.</li>
+                <li><strong>Default generator type:</strong> <code>cluster</code></li>
+                <li><strong>Default material:</strong> Stone</li>
             </ul>
 
-            <p>Other than the common values, this template needs the following values to be added to an entry:</p>
+            <p>
+                The following values must be added to a generation entry for this distribution type:
+            </p>
             <div class="uk-overflow-container">
                 <table class="uk-table">
                     <thead>
@@ -222,18 +219,25 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>meanHeight</td>
+                            <td>center-height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>The mean Y level at which can be generated.</td>
+                            <td>The altitude around which features are generated.</td>
                         </tr>
                         <tr>
-                            <td>maxVariance</td>
+                            <td>spread</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>How much the Y level being generated on may differ from the mean height at most.</td>
+                            <td>How many blocks away from the center altitude features may be generated.</td>
+                        </tr>
+                        <tr>
+                            <td>smoothness</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td>2</td>
+                            <td>How smoothly the amount of features generated declines when further from the center altitude. Must be higher than 0.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -461,9 +465,9 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
             </tr>
             <tr>
                 <td>material</td>
-                <td>Yes</td>
+                <td>No</td>
                 <td>Block entry / Array of block entries</td>
-                <td>N/A</td>
+                <td>(Set by distribution type)</td>
                 <td>The type(s) of block that may be replaced to generate the feature, like Stone for ore blocks.</td>
             </tr>
             <tr>
