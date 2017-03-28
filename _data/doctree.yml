@@ -279,12 +279,12 @@ thermal-expansion:
       - title: "Specializations"
   - title: "Storage"
     items:
-      - title: "Cache"
-        url: "/thermal-expansion/storage/cache/"
-      - title: "Portable Tank"
-        url: "/thermal-expansion/storage/portable-tank/"
       - title: "Energy Cell"
         url: "/thermal-expansion/storage/energy-cell/"
+      - title: "Portable Tank"
+        url: "/thermal-expansion/storage/portable-tank/"
+      - title: "Cache"
+        url: "/thermal-expansion/storage/cache/"
   - title: "Items"
     items:
       - title: "Frames"
