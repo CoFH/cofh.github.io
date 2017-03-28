@@ -142,8 +142,8 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
     <li><a href>uniform</a></li>
     <li><a href>gaussian</a></li>
     <li><a href>surface</a></li>
-    <li><a href>decoration</a></li>
     <li><a href>underfluid</a></li>
+    <li><a href>underwater</a></li>
     <li><a href>cave</a></li>
     <li><a href>fractal</a></li>
 </ul>
@@ -156,8 +156,8 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
             </p>
 
             <ul>
-                <li><strong>Default generator type:</strong> <code>cluster</code></li>
-                <li><strong>Default material:</strong> Stone</li>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator material is Stone.</li>
             </ul>
 
             <p>
@@ -199,8 +199,8 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
             </p>
 
             <ul>
-                <li><strong>Default generator type:</strong> <code>cluster</code></li>
-                <li><strong>Default material:</strong> Stone</li>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator material is Stone.</li>
             </ul>
 
             <p>
@@ -245,16 +245,17 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
         </li>
         <li>
             <p>
-                The <dfn>surface</dfn> template is mostly the same as the <dfn>uniform</dfn> template, except this template generates groups of blocks into or near the surface (wherever the sky is directly visible).<br />
-                Examples of surface generation are the Gravel Ores from Tinkers' Construct.
+                With the <code>surface</code> distribution, features are distributed on the surface (wherever the sky is directly visible).
             </p>
 
             <ul>
-                <li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
-                <li>The default materials for this template are Stone, Grass, Dirt, Gravel, Sand, Snow, Water and Air blocks. The Air material lets blocks be generated on top of the surface, while all other materials let blocks be generated into the surface.</li>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator materials are Stone, Grass Blocks, Dirt, Sand, Gravel, Snow, Water and Air. Air is in this list because this allows features to be generated on top of the surface (replacing Air), and not just into the surface (replacing the other block types).</li>
             </ul>
 
-            <p>Other than the common values, this template can have the following value added to an entry:</p>
+            <p>
+                The following value may be added to a generation entry for this distribution type:
+            </p>
             <div class="uk-overflow-container">
                 <table class="uk-table">
                     <thead>
@@ -268,11 +269,11 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>followTerrain</td>
+                            <td>follow-terrain</td>
                             <td>No</td>
                             <td>Boolean</td>
-                            <td>false</td>
-                            <td>Whether generation may replace 'soft' blocks like plants, foliage or fluids. If true, 'soft' blocks may <em>not</em> be replaced.</td>
+                            <td><code>false</code></td>
+                            <td>When set to <code>true</code>, blocks like tall grass, leaves and fluids do not count when finding the highest block to generate on top of.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -280,34 +281,17 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
         </li>
         <li>
             <p>
-                The <dfn>decoration</dfn> extends upon the <dfn>surface</dfn> template, and uses the same entries as the ones the <dfn>surface</dfn> template uses. Used for generating scattered groups of blocks (like plants) on surfaces.
+                With the <code>underfluid</code> distribution, features are distributed at the bottom of bodies of fluid.
             </p>
 
             <ul>
-                <li>By default, this template uses the <dfn>decoration</dfn> generator. It is meant to only be used with that generator type.</li>
-                <li>The default material for this template is Air blocks.</li>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator materials are Grass Blocks and Dirt.</li>
             </ul>
 
             <p>
-                A quirk of maintaining compatibility with an old format for custom world generation files requires that an empty material array is specified when using this template and the corresponding generator: <code>"material": []</code>
+                The following value may be added to a generation entry for this distribution type:
             </p>
-        </li>
-        <li>
-            <p>
-                The <dfn>underfluid</dfn> template blocks into terrain that is directly below fluid blocks of certain types of fluids.<br />
-            </p>
-            
-            <p>
-                Using <dfn>underwater</dfn> is also possible for the template type. This is a shortcut to using <dfn>underfluid</dfn> with the <dfn>genFluid</dfn> value left at its default.
-            </p>
-
-            <ul>
-                <li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
-                <li>If the <dfn>underwater</dfn> template is used, this template uses the <dfn>plate</dfn> generator by default instead.</li>
-                <li>The default materials for this template are Grass and Dirt blocks.</li>
-            </ul>
-
-            <p>Other than the common values, this template can have the following value added to an entry:</p>
             <div class="uk-overflow-container">
                 <table class="uk-table">
                     <thead>
@@ -321,11 +305,11 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>genFluid</td>
+                            <td>fluid</td>
                             <td>No</td>
-                            <td>String / Array of Strings</td>
-                            <td>Water (or similar)</td>
-                            <td>Below which fluid types groups of blocks can be generated. The Strings are the internal names of fluids. Note that the default value is not <dfn>water</dfn>. Rather, when this value is not specified, the entry will generate blocks below any blocks with the 'water' material.</td>
+                            <td>String / Array of strings</td>
+                            <td>(see description)</td>
+                            <td>Below which fluid types features may be generated. The fluids' registry names (like <code>lava</code> and <code>cryotheum</code>) should be used here. Note that the default value is not <code>water</code>. Instead, when this value is not specified, features are generated below any blocks with the 'water' material.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -333,15 +317,26 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
         </li>
         <li>
             <p>
-                The <dfn>cave</dfn> template generates groups of blocks along underground surfaces. Typically this only works below sea level. If sea level is below Y level 20, however, it will work on any height instead.
+                The <code>underwater</code> distribution is a shortcut to using <code>underfluid</code> without setting the value <code>fluid</code>.
             </p>
 
             <ul>
-                <li>By default, this template uses the <dfn>cluster</dfn> generator.</li>
-                <li>The default material for this template is Stone blocks.</li>
+                <li>The default generator type is <code>plate</code> instead of <code>cluster</code>.</li>
+            </ul>
+        </li>
+        <li>
+            <p>
+                With the <code>cave</code> distribution, features are distributed on floors or ceilings of underground spaces. This typically only works below sea level. If sea level is below block layer 20, however, it will work on any altitude instead.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator material is Stone.</li>
             </ul>
 
-            <p>Other than the common values, this template needs the following value to be added to an entry:</p>
+            <p>
+                The following value may be added to a generation entry for this distribution type:
+            </p>
             <div class="uk-overflow-container">
                 <table class="uk-table">
                     <thead>
@@ -356,10 +351,10 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     <tbody>
                         <tr>
                             <td>ceiling</td>
-                            <td>Yes</td>
+                            <td>No</td>
                             <td>Boolean</td>
-                            <td>N/A</td>
-                            <td>Whether the entry generates blocks on ceilings or floors. This is, for example, to prevent stalactites from generating on floors. If true, the entry generates blocks on ceilings, and if false, the entry generates blocks on floors.</td>
+                            <td><code>false</code></td>
+                            <td>Whether features are generated on ceilings or on floors. If <code>true</code>, features are generated on ceilings, and if <code>false</code>, features are generated on floors.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -367,16 +362,17 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
         </li>
         <li>
             <p>
-                The <dfn>fractal</dfn> template generates groups of blocks together in larger clusters, also called 'veins' in its options. Essentially, the 'veins' define general areas for groups of blocks to generate in.<br />
-                This template is can be used to generate enormous veins of ore, or other kinds of blocks.
+                With the <code>fractal</code> distribution, multiple features are distributed together in large clusters, also known as <dfn>veins</dfn>.
             </p>
 
             <ul>
-                <li>By default, this template uses the <dfn>large-vein</dfn> generator.</li>
-                <li>The default material for this template is Stone blocks.</li>
+                <li>The default generator type is <code>large-vein</code>.</li>
+                <li>The default generator material is Stone.</li>
             </ul>
 
-            <p>Other than the common values, this template needs the following values to be added to an entry:</p>
+            <p>
+                The following values must be added to a generation entry for this distribution type:
+            </p>
             <div class="uk-overflow-container">
                 <table class="uk-table">
                     <thead>
@@ -390,39 +386,39 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>minHeight</td>
+                            <td>min-height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>The minimum Y level at which can be generated.</td>
+                            <td>The minimum altitude at which veins can be generated.</td>
                         </tr>
                         <tr>
-                            <td>veinHeight</td>
+                            <td>vein-height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
                             <td>The vertical diameter of veins, measured in blocks along the Y axis.</td>
                         </tr>
                         <tr>
-                            <td>veinDiameter</td>
+                            <td>vein-diameter</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
                             <td>The horizontal diameter of veins, measured in blocks along the X and Z axes.</td>
                         </tr>
                         <tr>
-                            <td>verticalDensity</td>
+                            <td>vertical-density</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>How far apart different groups of blocks are along the Y axis in veins. Higher numbers mean that different groups are closer together, making veins contain more blocks in total. This value isn't measured in blocks. One will have to experiment with this value to obtain a desired result.</td>
+                            <td>How dense veins are along the Y axis. Higher numbers mean that features in veins are closer together, making veins contain more blocks in total. This value isn't measured in blocks, meaning some experimenting will be needed to obtain the desired result.</td>
                         </tr>
                         <tr>
-                            <td>horizontalDensity</td>
+                            <td>horizontal-density</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>Ditto, except along the X and Z axes, instead of along the Y axis.</td>
+                            <td>The same as <code>vertical-density</code>, except along the X and Z axes.</td>
                         </tr>
                     </tbody>
                 </table>
