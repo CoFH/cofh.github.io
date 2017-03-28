@@ -13,6 +13,10 @@ p {
     color: #688fb1;
 }
 
+.uk-text-small code {
+    font-size: 10px;
+}
+
 .uk-float-left .uk-thumbnail, .uk-float-right .uk-thumbnail {
     margin-bottom: 20px;
 }
