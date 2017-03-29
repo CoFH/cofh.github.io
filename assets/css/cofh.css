@@ -71,7 +71,11 @@ p {
     text-decoration: none;
 }
 
-.uk-table-striped tbody tr:nth-of-type(even) {
+.uk-table-striped tbody>tr:nth-of-type(odd) {
+    background: #f8f8f8;
+}
+
+.uk-table-striped tbody>tr:nth-of-type(even) {
     background: #fdfdfd;
 }
 
