@@ -1,0 +1,10 @@
+{% assign item_name = include.item %}
+{% assign item_data = site.data.recipes.items[item_name] %}
+{% assign item_site = site.data.recipes.sites[item_data.site] %}
+
+<a href="{{ item_site.url }}{{ item_data.url }}" {% if item_site.new-tab %}target="_blank"{% endif %}>
+    <img
+        src="/assets/images/recipe-items/{{ item_name }}.{{ item_data.image-type | default: 'png' }}"
+        title="{{ item_data.name }}"
+        style="width: 32px; height: 32px" />
+</a>

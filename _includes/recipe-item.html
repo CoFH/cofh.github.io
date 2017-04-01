@@ -1,0 +1,20 @@
+<div style="position: absolute; top: {{ include.top }}px; left: {{ include.left }}px; width: 32px; height: 32px">
+    {% if include.item.size > 1 %}
+        <div class="cofh-item-cycle">
+            {% for item in include.item %}
+                <div class="{% unless forloop.first %}hidden{% endunless %}">
+                    {% include recipe-single-item.html item=item %}
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        {% assign item=include.item[0] %}
+        {% include recipe-single-item.html item=item %}
+    {% endif %}
+
+    {% if include.amount > 1 %}
+        <span style="position: absolute; bottom: -3px; right: -3px; color: #fafafa; font-size: 20px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; text-shadow: #444444 2px 2px 1px; pointer-events: none">
+            {{ include.amount }}
+        </span>
+    {% endif%}
+</div>

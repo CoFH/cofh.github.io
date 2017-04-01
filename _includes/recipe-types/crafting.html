@@ -1,0 +1,21 @@
+<div class="uk-display-inline-block uk-margin-bottom uk-margin-right uk-text-small cofh-vertical-align-top">
+    <strong>{% if include.data.shapeless %}Shapeless{% else %}Shaped{% endif %} Crafting</strong>
+
+    <div style="position: relative; width: 236px; height: 112px; background: url('/assets/images/recipe-types/crafting.png')">
+        {% for row in include.data.rows %}
+            {% capture offset %}{{ forloop.index | times: 4 }}{% endcapture %}
+            {% capture top %}{{ forloop.index0 | times: 32 | plus: offset }}{% endcapture %}
+
+            {% for col in row %}
+                {% if col %}
+                    {% capture offset %}{{ forloop.index | times: 4 }}{% endcapture %}
+                    {% capture left %}{{ forloop.index0 | times: 32 | plus: offset }}{% endcapture %}
+
+                    {% include recipe-item.html item=col top=top left=left %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        {% include recipe-item.html item=include.data.result.item amount=include.data.result.amount top=40 left=192 %}
+    </div>
+</div>

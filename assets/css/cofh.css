@@ -166,3 +166,7 @@ p {
 .cofh-clickable:hover > .cofh-clickable-icon {
     display: inline;
 }
+
+.cofh-item-cycle .hidden {
+    display: none;
+}
