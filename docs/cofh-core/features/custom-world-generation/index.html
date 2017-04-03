@@ -411,7 +411,7 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>How dense veins are along the Y axis. Higher numbers mean that features in veins are closer together, making veins contain more blocks in total. This value isn't measured in blocks, meaning some experimenting will be needed to obtain the desired result.</td>
+                            <td>How dense veins are along the Y axis. Higher numbers mean that features in veins are closer together, making veins contain more blocks in total. This value is not measured in blocks; some experimenting will be needed to obtain the desired result.</td>
                         </tr>
                         <tr>
                             <td>horizontal-density</td>
@@ -495,37 +495,18 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
     <ul id="generator-switcher" class="uk-switcher">
         <li>
             <p>
-                The <dfn>cluster</dfn> generator creates 'blobs' of blocks. This template is most commonly used for generating basic ore veins.<br />
-                Minecraft generates ores and dirt/gravel pockets like this.
+                The <code>cluster</code> generator creates simple groups of blocks (<dfn>clusters</dfn>). Ore blocks are generated like this, as well as deposits of Dirt, Gravel, Granite, Diorite and Andesite.
             </p>
 
-            <ul>
-                <li>
-                    The <dfn>clusterSize</dfn> value in entries determines how large the blobs are. However, it is hard to determine how exactly it affects the amount of blocks generated. It is capped at 32, and will be interpreted as 32 if it has a higher number.<br />
-                    For reference, have a look in the <a href="http://pastebin.com/uXuu9YJN" target="_blank">default vanilla.json file</a> to see examples of <dfn>clusterSize</dfn> values, and what the results of those entries are.
-                </li>
-            </ul>
-        </li>
-        <li>
             <p>
-                The <dfn>sparse-cluster</dfn> generator is mostly the same as the <dfn>cluster</dfn> generator, with one notable exception. When using very small <dfn>clusterSize</dfn> values in entries (about 4 or less), clusters will only have a certain chance to actually generate, instead of generating a single block or so every time. At 3, 1 in 3 clusters will actually generate. At 2 it is 1 in 6 clusters, and at 1 it is 1 in 12 clusters.
+                The following value must be added to a generator entry for this generator type:
             </p>
-        </li>
-        <li>
-            <p>
-                The <dfn>large-vein</dfn> generator can be used to create veins that have a (much) larger <dfn>clusterSize</dfn> than the <dfn>cluster</dfn> generator can handle.
-            </p>
-
-            <ul>
-                <li>The <dfn>clusterSize</dfn> value in entries determines roughly how large veins are. Unlike <dfn>cluster</dfn>, there is no cap specified here. Use with caution.</li>
-            </ul>
-            
-            <p>This generator can have the following value added to the template object:</p>
             <div class="uk-overflow-container">
                 <table class="uk-table uk-table-striped">
                     <thead>
                         <tr>
                             <th>Name</th>
+                            <th>Required</th>
                             <th>Type</th>
                             <th>Default</th>
                             <th>Description</th>
@@ -533,10 +514,54 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
+                            <td>cluster-size</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How large clusters of blocks are. This value is not measured in blocks; some experimenting will be needed to obtain the desired result.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>sparse-cluster</code> generator is mostly the same as the <code>cluster</code> generator, with one exception. When the <code>cluster-size</code> value is set to less than 4, clusters will only have a certain chance to actually generate, instead of generating a single block or so every time. At 3, one in 3 clusters will actually generate. At 2 it is one in 6 clusters, and at 1 it is one in 12 clusters.
+            </p>
+        </li>
+        <li>
+            <p>
+                The <code>large-vein</code> generator is similar to <code>cluster</code>, except the groups of blocks it creates can be much larger. Use with caution.
+            </p>
+
+            <p>
+                The following values can be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>cluster-size</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How large clusters of blocks are. This value is not measured in blocks; some experimenting will be needed to obtain the desired result.</td>
+                        </tr>
+                        <tr>
                             <td>sparse</td>
+                            <td>No</td>
                             <td>Boolean</td>
-                            <td>true</td>
-                            <td>Used to determine the shape and density of veins. If true, veins will be smaller and more spread out, and will look somewhat like neurons. The <dfn>clusterSize</dfn> value in entries then determines roughly how many blocks a single vein contains. If false, veins will be much larger and more dense, somewhat closer to how the <dfn>cluster</dfn> generator works. It is also hard to predict how the <dfn>clusterSize</dfn> value affects the resulting amount of blocks in this case, but it seems to be tied exponentially.</td>
+                            <td><code>true</code></td>
+                            <td>If <code>true</code>, veins are generated smaller and more spread out, looking somewhat like neurons. If <code>false</code>, veins are generated much larger and more dense, closer to how the <code>cluster</code> generator works.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -845,7 +870,7 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
         <li>
             <p>
                 The <dfn>geode</dfn> generator creates 'blobs' of blocks that are surrounded by a layer of blocks called the <dfn>crust</dfn>, and can optionally be hollowed out and then filled with a group of blocks called the <dfn>filler</dfn>.
-                Geodes procuded by this generator can be seen as fully-encased lakes that don't carve out any space.
+                Geodes procuded by this generator can be seen as fully-encased lakes that do not carve out any space.
             </p>
 
             <ul>
