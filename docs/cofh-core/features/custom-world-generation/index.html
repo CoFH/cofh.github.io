@@ -80,21 +80,21 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                 <td>The type of feature to generate. May be specified as a weighted array with multiple types of features to randomly choose from.</td>
             </tr>
             <tr>
-                <td>cluster-count</td>
+                <td>cluster&#8209;count</td>
                 <td>Yes</td>
                 <td>Number (integer)</td>
                 <td>N/A</td>
                 <td>How many attempts to generate the feature are done per chunk.</td>
             </tr>
             <tr>
-                <td>chunk-chance</td>
+                <td>chunk&#8209;chance</td>
                 <td>No</td>
                 <td>Number (integer)</td>
                 <td>1</td>
                 <td>The chance of the feature being generated in a chunk. Read as follows: one in [chance] chunks.</td>
             </tr>
             <tr>
-                <td>in-village</td>
+                <td>in&#8209;village</td>
                 <td>No</td>
                 <td>Boolean</td>
                 <td><code>true</code></td>
@@ -176,14 +176,14 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>min-height</td>
+                            <td>min&#8209;height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
                             <td>The minimum altitude at which features can be generated.</td>
                         </tr>
                         <tr>
-                            <td>max-height</td>
+                            <td>max&#8209;height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
@@ -219,7 +219,7 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>center-height</td>
+                            <td>center&#8209;height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
@@ -269,7 +269,7 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>follow-terrain</td>
+                            <td>follow&#8209;terrain</td>
                             <td>No</td>
                             <td>Boolean</td>
                             <td><code>false</code></td>
@@ -386,39 +386,39 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>min-height</td>
+                            <td>min&#8209;height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
                             <td>The minimum altitude at which veins can be generated.</td>
                         </tr>
                         <tr>
-                            <td>vein-height</td>
+                            <td>vein&#8209;height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
                             <td>The vertical diameter of veins, measured in blocks along the Y axis.</td>
                         </tr>
                         <tr>
-                            <td>vein-diameter</td>
+                            <td>vein&#8209;diameter</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
                             <td>The horizontal diameter of veins, measured in blocks along the X and Z axes.</td>
                         </tr>
                         <tr>
-                            <td>vertical-density</td>
+                            <td>vertical&#8209;density</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
                             <td>How dense veins are along the Y axis. Higher numbers mean that features in veins are closer together, making veins contain more blocks in total. This value is not measured in blocks; some experimenting will be needed to obtain the desired result.</td>
                         </tr>
                         <tr>
-                            <td>horizontal-density</td>
+                            <td>horizontal&#8209;density</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>The same as <code>vertical-density</code>, except along the X and Z axes.</td>
+                            <td>The same as <code>vertical&#8209;density</code>, except along the X and Z axes.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -478,10 +478,10 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
 
 <ul class="uk-subnav uk-subnav-line uk-subnav-pill" data-uk-switcher="{ connect: '#generator-switcher' }">
     <li><a href>cluster</a></li>
-    <li><a href>sparse-cluster</a></li>
-    <li><a href>large-vein</a></li>
+    <li><a href>sparse&#8209;cluster</a></li>
+    <li><a href>large&#8209;vein</a></li>
     <li><a href>decoration</a></li>
-    <li><a href>small-tree</a></li>
+    <li><a href>small&#8209;tree</a></li>
     <li><a href>plate</a></li>
     <li><a href>boulder</a></li>
     <li><a href>lake</a></li>
@@ -514,7 +514,7 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>cluster-size</td>
+                            <td>cluster&#8209;size</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
@@ -550,7 +550,7 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>cluster-size</td>
+                            <td>cluster&#8209;size</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
@@ -567,27 +567,24 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                 </table>
             </div>
         </li>
-        <li>
+        <li>            
             <p>
-                The <dfn>decoration</dfn> generator creates groups of blocks scattered around on surfaces.<br />
-                Minecraft generates Tall Grass, Flower and Cactus blocks like this, and also Fire blocks in the Nether.
+                The <code>decoration</code> generator creates groups of single blocks scattered around on a surface. Small plants and Cacti are generated like this, as well as Fire blocks in the Nether.
             </p>
 
-            <ul>
-                <li>Meant to only be used with the <dfn>decorator</dfn> template.</li>
-                <li>The <dfn>clusterSize</dfn> value in entries determines how many blocks a single group may contain at most.</li>
-            </ul>
+            <p>
+                Meant to be used with the <code>surface</code> distribution, with the generator material set to only Air blocks.
+            </p>
 
             <p>
-                A quirk of maintaining compatibility with an old format for custom world generation files requires that an empty material array is specified when using this generator and the corresponding template: <code>"material": []</code>
+                The following values must or may be added to a generator entry for this generator type:
             </p>
-            
-            <p>This generator can have the following values added to the template object:</p>
             <div class="uk-overflow-container">
                 <table class="uk-table uk-table-striped">
                     <thead>
                         <tr>
                             <th>Name</th>
+                            <th>Required</th>
                             <th>Type</th>
                             <th>Default</th>
                             <th>Description</th>
@@ -595,43 +592,57 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>genSurface</td>
+                            <td>cluster&#8209;size</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How many blocks a single group of blocks may contain at most.</td>
+                        </tr>
+                        <tr>
+                            <td>surface</td>
+                            <td>No</td>
                             <td><a href="#block-entry">Block entry</a> / Array of block entries</td>
                             <td>Grass Block</td>
-                            <td>The surface or surfaces to generate on top of.</td>
+                            <td>The block type or block types that blocks in a group may generate on top of.</td>
                         </tr>
                         <tr>
-                            <td>genSky</td>
+                            <td>see&#8209;sky</td>
+                            <td>No</td>
                             <td>Boolean</td>
-                            <td>true</td>
-                            <td>Whether to only generate on blocks that have a direct line of sight to the sky.</td>
+                            <td><code>true</code></td>
+                            <td>Whether to only generate in places with a direct line of sight to the sky.</td>
                         </tr>
                         <tr>
-                            <td>checkStay</td>
+                            <td>check&#8209;stay</td>
+                            <td>No</td>
                             <td>Boolean</td>
-                            <td>true</td>
-                            <td>Specifies whether to only generate blocks if they can be sustained by the blocks they are generated on top of. For example, sugar canes cannot be sustained by blocks that are not directly next to water.</td>
+                            <td><code>true</code></td>
+                            <td>Specifies whether to only generate blocks that can be sustained by the blocks they are generated on top of. For example, Sugar Cane blocks cannot be sustained by blocks that are not directly next to water.</td>
                         </tr>
                         <tr>
-                            <td>stackHeight</td>
+                            <td>stack&#8209;height</td>
+                            <td>No</td>
                             <td>Number (integer)</td>
                             <td>1</td>
                             <td>How many times to stack a single generated block upwards. Used for things like cacti or sugar canes.</td>
                         </tr>
                         <tr>
-                            <td>xVariance</td>
+                            <td>x&#8209;variance</td>
+                            <td>No</td>
                             <td>Number (integer)</td>
                             <td>8</td>
                             <td>How spread out a group of blocks may be, in blocks along the X axis.</td>
                         </tr>
                         <tr>
-                            <td>yVariance</td>
+                            <td>y&#8209;variance</td>
+                            <td>No</td>
                             <td>Number (integer)</td>
                             <td>4</td>
                             <td>Ditto, except along the Y axis.</td>
                         </tr>
                         <tr>
-                            <td>zVariance</td>
+                            <td>z&#8209;variance</td>
+                            <td>No</td>
                             <td>Number (integer)</td>
                             <td>8</td>
                             <td>Ditto, except along the Z axis.</td>
@@ -642,21 +653,22 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
         </li>
         <li>
             <p>
-                The <dfn>small-tree</dfn> generator creates simple trees, with a column of blocks that act as a trunk, and a group of blocks that act as leaves.<br />
-                Minecraft generates small Oak and Birch trees like this.
+                The <code>small-tree</code> generator creates simple trees. Small Oak and Birch trees are generated like this.
             </p>
 
-            <ul>
-                <li>The <dfn>block</dfn> value in entries determines what kind of blocks the trunk of trees consists of.</li>
-                <li>This generator does not use the <dfn>clusterSize</dfn> value in entries.</li>
-            </ul>
+            <p>
+                The <code>block</code> value in generator entries is used to generate the trunks of the trees.
+            </p>
             
-            <p>This generator can have the following values added to the template object:</p>
+            <p>
+                The following values can be added to a generator entry for this generator type:
+            </p>
             <div class="uk-overflow-container">
                 <table class="uk-table uk-table-striped">
                     <thead>
                         <tr>
                             <th>Name</th>
+                            <th>Required</th>
                             <th>Type</th>
                             <th>Default</th>
                             <th>Description</th>
@@ -664,52 +676,60 @@ redirect_from: /mods/cofh-core/custom-world-generation.html
                     </thead>
                     <tbody>
                         <tr>
-                            <td>genMaterial</td>
+                            <td>surface</td>
+                            <td>No</td>
                             <td><a href="#block-entry">Block entry</a> / Array of block entries</td>
-                            <td>N/A, or Air if invalid</td>
-                            <td>What materials trees can generate in. Not quite the same as the <dfn>material</dfn> value in entries, as that value determines where the trees' bases may generate.</td>
+                            <td>Any block type, or Grass Blocks and Dirt if invalid</td>
+                            <td>The block type or block types that trees may generate on top of.</td>
                         </tr>
                         <tr>
                             <td>leaves</td>
+                            <td>No</td>
                             <td><a href="#block-entry">Block entry</a> / <a href="#weighted-array">Weighted array</a> of block entries</td>
-                            <td>N/A</td>
+                            <td>None</td>
                             <td>What blocks the leaves of trees are made of.</td>
                         </tr>
                         <tr>
-                            <td>minHeight</td>
+                            <td>min&#8209;height</td>
+                            <td>No</td>
                             <td>Number (integer)</td>
                             <td>5</td>
                             <td>The minimum height of trees, in blocks.</td>
                         </tr>
                         <tr>
-                            <td>heightVariance</td>
+                            <td>height&#8209;variance</td>
+                            <td>No</td>
                             <td>Number (integer)</td>
                             <td>3</td>
                             <td>How much may be added randomly the the minimum height of trees, in blocks.</td>
                         </tr>
                         <tr>
-                            <td>treeChecks</td>
+                            <td>tree&#8209;checks</td>
+                            <td>No</td>
                             <td>Boolean</td>
-                            <td>true</td>
-                            <td>Whether to verify that trees can properly 'grow' in the locations determined by the template used.</td>
+                            <td><code>true</code></td>
+                            <td>Whether to verify that trees can properly 'grow' in the locations determined by the distribution type.</td>
                         </tr>
                         <tr>
-                            <td>relaxedGrowth</td>
+                            <td>relaxed&#8209;growth</td>
+                            <td>No</td>
                             <td>Boolean</td>
-                            <td>false</td>
-                            <td>Whether trees can have blocks adjacent to their trunk at the bottom-most layer. For example, this could let trees generate one block deep in water.</td>
+                            <td><code>false</code></td>
+                            <td>Whether trees may have blocks adjacent to their trunk at the bottom-most layer. For example, this could let trees generate one block deep in water.</td>
                         </tr>
                         <tr>
-                            <td>waterLoving</td>
+                            <td>water&#8209;loving</td>
+                            <td>No</td>
                             <td>Boolean</td>
-                            <td>false</td>
+                            <td><code>false</code></td>
                             <td>Whether to allow trees to generate in water, up to the leaves.</td>
                         </tr>
                         <tr>
-                            <td>leafVariance</td>
+                            <td>leaf&#8209;variance</td>
+                            <td>No</td>
                             <td>Boolean</td>
-                            <td>true</td>
-                            <td>Whether or not blocks can be missing from the corners of the leaves. This gives the leaves a more rounded look.</td>
+                            <td><code>true</code></td>
+                            <td>Whether or not blocks may be missing from the corners of the leaves, giving them a more natural look.</td>
                         </tr>
                     </tbody>
                 </table>
