@@ -4,9 +4,7 @@ title: Documentation
 
 <p>
     Welcome!<br />
-    This section of the site contains documentation for the various Team CoFH mods for Minecraft. Click a link in the sidebar to begin.
-
-    <strong>ATTENTION:</strong> The progress bars below are for the progress of the documentation, NOT the mods. The mods are being worked on.
+    This section of the site contains documentation for the various Minecraft mods of Team CoFH. Click a link in the sidebar to begin.
 </p>
 
 <p>
@@ -15,9 +13,14 @@ title: Documentation
 
 <h2 id="progress" class="uk-margin-large-top">Progress</h2>
 
+<p>
+    <strong>ATTENTION:</strong> These progress bars are for the progress of the documentation, NOT the mods. The mods are being worked on.
+</p>
+
 <p>Site last updated: {{ site.time }}</p>
 
 <p>
+    {% include docprogress.html mod='cofh-core' modname='CoFH Core' %}
     {% include docprogress.html mod='thermal-foundation' modname='Thermal Foundation' %}
     {% include docprogress.html mod='thermal-expansion' modname='Thermal Expansion' %}
     {% include docprogress.html mod='thermal-dynamics' modname='Thermal Dynamics' %}
