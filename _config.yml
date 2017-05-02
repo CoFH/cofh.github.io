@@ -58,6 +58,7 @@ exclude:
   - /*.pdn
   - /*.xcf
   - /Thumbs.db
+  - /.unused
 
 plugins:
   - jekyll-paginate
