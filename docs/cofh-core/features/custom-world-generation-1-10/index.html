@@ -1,0 +1,1452 @@
+---
+title: Custom World Generation (1.10)
+---
+
+<p>
+    CoFH Core features a powerful customizable world generator. Using this feature, users or modpack authors can specify custom types of ores, plants, boulders, spikes, lakes and more to be generated in the world.
+</p>
+
+<p>
+    <strong>Note:</strong> A good understanding of <a href="http://www.json.org/" target="_blank">JSON</a> is required. JSON terms will be used to describe the format of the configuration files.
+</p>
+
+<hr />
+
+<h2 id="file-structure">File structure</h2>
+
+<p>
+    Custom world generation is specified by <code>.json</code> files in the <code>cofh/world</code> folder inside Minecraft Forge's <code>config</code> folder. By default, this folder contains one or two files: <code>vanilla.json</code>, and <code>thermalfoundation_ores.json</code> if <a href="/docs/thermal-foundation/">Thermal Foundation</a> is installed.
+</p>
+
+<p>
+    These files may be edited to change the default types of world generation. It is also possible to add new <code>.json</code> files to be read by CoFH Core. This is not required when adding more world generation types, but can improve readability for humans. The <code>world</code> folder is read recursively, so <code>.json</code> files may be grouped in folders for additional readability.
+</p>
+
+<p>
+    Editing <code>vanilla.json</code> will only have effect if the option <code>ReplaceVanillaGeneration</code> is set to <code>true</code> in CoFH Core's configuration file. It is set to <code>false</code> by default.
+</p>
+
+<p>
+    If world generation is not working as intended, try checking the log. Any errors that are found in the files are logged while the game starts.
+</p>
+
+<hr />
+
+<h2 id="file-format">File format</h2>
+
+<p>
+    Every world generation file consists of one root object. This object must contain a value <code>populate</code>, which describes the things to generate in the world. The object may also contain a value <code>dependencies</code>, describing what mods must be loaded in order to read the world generation file.
+</p>
+
+<h3 id="file-format-populate">populate</h3>
+
+<p>
+    The <code>populate</code> value is another object, whose values are <a href="#generation-entry-format">generation entries</a>. It describes the features to populate the world with.
+</p>
+
+<h3 id="file-format-dependencies">dependencies</h3>
+
+<p>
+    The <code>dependencies</code> value is either a single <a href="#forge-mod-entry">Forge mod entry</a>, or an array of them. If one of the specified dependencies is not loaded, the entire file will be skipped by CoFH Core.
+</p>
+
+<hr />
+
+<h2 id="generation-entry-format">Generation entry format</h2>
+
+<p>
+    A generation entry describes a feature to generate in the world. It is an object that can contain the following values.
+</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Required</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>distribution</td>
+                <td>Yes</td>
+                <td>String</td>
+                <td>N/A</td>
+                <td>How the generated features are distributed in the world. Depending on the type of distribution, more values may need to be added to the generation entry. See <a href="#distribution-types">Distribution types</a> for a list of available distribution types.</td>
+            </tr>
+            <tr>
+                <td>generator</td>
+                <td>Yes</td>
+                <td><a href="#generator-entries">Generator entry</a> / <a href="#weighted-array">weighted array</a> of generator entries</td>
+                <td>N/A</td>
+                <td>The type of feature to generate. May be specified as a weighted array with multiple types of features to randomly choose from.</td>
+            </tr>
+            <tr>
+                <td class="cofh-nowrap">cluster-count</td>
+                <td>Yes</td>
+                <td>Number (integer)</td>
+                <td>N/A</td>
+                <td>How many attempts to generate the feature are done per chunk.</td>
+            </tr>
+            <tr>
+                <td class="cofh-nowrap">chunk-chance</td>
+                <td>No</td>
+                <td>Number (integer)</td>
+                <td><code>1</code></td>
+                <td>The chance of the feature being generated in a chunk. Read as follows: one in [chance] chunks.</td>
+            </tr>
+            <tr>
+                <td class="cofh-nowrap">in-village</td>
+                <td>No</td>
+                <td>Boolean</td>
+                <td><code>true</code></td>
+                <td>Whether the feature may be generated in villages.</td>
+            </tr>
+            <tr>
+                <td>biome</td>
+                <td>No</td>
+                <td><a href="#biome-restriction-entries">Biome restriction entry</a></td>
+                <td>(Any biome)</td>
+                <td>In which biomes the feature may be generated.</td>
+            </tr>
+            <tr>
+                <td>dimension</td>
+                <td>No</td>
+                <td><a href="#dimension-restriction-entries">Dimension restriction entry</a></td>
+                <td>(Any dimension)</td>
+                <td>In which dimensions the feature may be generated.</td>
+            </tr>
+            <tr>
+                <td>enabled</td>
+                <td>No</td>
+                <td>Boolean</td>
+                <td><code>true</code></td>
+                <td>Whether the entry is active. If <code>false</code>, the feature will not be generated.</td>
+            </tr>
+            <tr>
+                <td>retrogen</td>
+                <td>No</td>
+                <td>Boolean</td>
+                <td><code>false</code></td>
+                <td>Whether to generate in previously generated chunks. This will only have effect if the option <code>RetroactiveOreGeneration</code> is set to <code>true</code> in CoFH Core's configuration file. To retroactively generate in chunks where the feature is already generated, change the entry's name.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h3 id="generator-entries">Generator entries</h3>
+
+<p>
+    A generator entry specifies which generator to use to generate a feature, and also configures said generator. Not to be confused with <em>generation</em> entries. It is an object that can contain the following values.
+</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Required</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>type</td>
+                <td>No</td>
+                <td>String</td>
+                <td>(Set by distribution type)</td>
+                <td>Which generator type to use to generate the feature. Depending on the type of generator, more values may need to be added to the generator entry. See <a href="#generator-types">Generator types</a> for a list of available generator types.</td>
+            </tr>
+            <tr>
+                <td>block</td>
+                <td>Yes</td>
+                <td><a href="#block-entry">Block entry</a> / <a href="#weighted-array">weighted array</a> of block entries</td>
+                <td>N/A</td>
+                <td>The type(s) of block to generate.</td>
+            </tr>
+            <tr>
+                <td>material</td>
+                <td>No</td>
+                <td><a href="#block-entry">Block entry</a> / array of block entries</td>
+                <td>(Set by distribution type)</td>
+                <td>The type(s) of block that may be replaced to generate the feature, like stone for ore blocks.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h3 id="biome-restriction-entries">Biome restriction entries</h3>
+
+<p>
+    A biome restriction entry specifies the biomes in which a feature may be generated. It is an object that contains the following values.
+</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Required</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>restriction</td>
+                <td>Yes</td>
+                <td>String</td>
+                <td>N/A</td>
+                <td>Whether the given list of biomes should be used as a blacklist or as a whitelist of biomes to generate in. Can be either <code>"blacklist"</code> or <code>"whitelist"</code>.</td>
+            </tr>
+            <tr>
+                <td>value</td>
+                <td>Yes</td>
+                <td>Array of <a href="#biome-entry">biome entries</a></td>
+                <td>N/A</td>
+                <td>The biomes that the restriction applies to.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h3 id="dimension-restriction-entries">Dimension restriction entries</h3>
+
+<p>
+    A dimension restriction entry specifies the dimensions in which a feature may be generated. It is an object that contains the following values.
+</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Required</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>restriction</td>
+                <td>Yes</td>
+                <td>String</td>
+                <td>N/A</td>
+                <td>Whether the given list of dimensions should be used as a blacklist or as a whitelist of biomes to generate in. Can be either <code>"blacklist"</code> or <code>"whitelist"</code>.</td>
+            </tr>
+            <tr>
+                <td>value</td>
+                <td>Yes</td>
+                <td>Array of numbers (integers)</td>
+                <td>N/A</td>
+                <td>The IDs of the dimensions that the restriction applies to. The vanilla dimensions' IDs are as follows: <code>0</code> for the Overworld, <code>-1</code> for the Nether and <code>1</code> for the End.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr />
+
+<h2 id="distribution-and-generator-types">Distribution and generator types</h3>
+
+<p>
+    This section lists the available distribution and generator types that may be used.
+</p>
+
+<h3 id="distribution-types">Distribution types</h3>
+
+<p>
+    Click on the name of a distribution type to see information about it.
+</p>
+
+<ul class="uk-subnav uk-subnav-line uk-subnav-pill" data-uk-switcher="{ connect: '#distribution-type-switcher' }">
+    <li><a href>uniform</a></li>
+    <li><a href>gaussian</a></li>
+    <li><a href>surface</a></li>
+    <li><a href>decoration</a></li>
+    <li><a href>underfluid</a></li>
+    <li><a href>underwater</a></li>
+    <li><a href>cave</a></li>
+    <li><a href>fractal</a></li>
+</ul>
+
+<div class="uk-panel uk-panel-box uk-text-small">
+    <ul id="distribution-type-switcher" class="uk-switcher">
+        <li>
+            <p>
+                With the <code>uniform</code> distribution, features are uniformly distributed between a minimum and a maximum altitude. This is the most common distribution for ores.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator material is stone.</li>
+            </ul>
+
+            <p>
+                The following values must be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">min-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The minimum altitude at which features can be generated.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">max-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The maximum altitude at which features can be generated. Must be higher than <code>min-height</code>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                With the <code>gaussian</code> distribution, features are distributed around a certain altitude. The features generate commonly near this altitude, and less commonly further from this altitude. Lapis lazuli ore is generated like this.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator material is stone.</li>
+            </ul>
+
+            <p>
+                The following values must be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">center-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The altitude around which features are generated.</td>
+                        </tr>
+                        <tr>
+                            <td>spread</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How many blocks away from the center altitude features may be generated.</td>
+                        </tr>
+                        <tr>
+                            <td>smoothness</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>2</code></td>
+                            <td>How smoothly the amount of features generated declines when further from the center altitude. Must be higher than <code>0</code>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                With the <code>surface</code> distribution, features are distributed on the surface (wherever the sky is directly visible).
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator materials are stone, grass blocks, dirt, sand, gravel, snow, water and air. Air is in this list because this allows features to be generated on top of the surface (replacing air blocks), and not just into the surface (replacing the other block types).</li>
+            </ul>
+
+            <p>
+                The following value may be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>material</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / array of block entries</td>
+                            <td>Same as default generator materials</td>
+                            <td>The type(s) of block that features may be generated in. This is checked before generating an entire feature, unlike generator materials, which are checked for every block while already generating a feature.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">follow-terrain</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>When set to <code>true</code>, blocks like tall grass, leaves and fluids do not count when finding the highest block to generate on top of.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>decoration</code> distribution is mostly the same as <code>surface</code>, except the default generator is <code>decoration</code> and the default generator material is only air.
+            </p>
+
+            <p>
+                This is useful when using the <code>decoration</code> generator, because said generator only generates blocks on top of surfaces, so only air blocks should have to be replaced.
+            </p>
+        </li>
+        <li>
+            <p>
+                With the <code>underfluid</code> distribution, features are distributed at the bottom of bodies of fluid.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator materials are grass blocks and dirt.</li>
+            </ul>
+
+            <p>
+                The following value may be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>fluid</td>
+                            <td>No</td>
+                            <td>String / array of strings</td>
+                            <td>(see description)</td>
+                            <td>Below which fluid types features may be generated. The fluids' registry names (like <code>lava</code> and <code>cryotheum</code>) should be used here. Note that the default value is not <code>water</code>. Instead, when this value is not specified, features are generated below any blocks with the 'water' material.</td>
+                        </tr>
+                        <tr>
+                            <td>material</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / array of block entries</td>
+                            <td>Same as default generator materials</td>
+                            <td>The type(s) of block that features may be generated in. This is checked before generating an entire feature, unlike generator materials, which are checked for every block while already generating a feature.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>underwater</code> distribution is a shortcut to using <code>underfluid</code> without setting the value <code>fluid</code>.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>plate</code> instead of <code>cluster</code>.</li>
+            </ul>
+        </li>
+        <li>
+            <p>
+                With the <code>cave</code> distribution, features are distributed on floors or ceilings of underground spaces. This typically only works below sea level. If sea level is below block layer 20, however, it will work on any altitude instead.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator material is stone.</li>
+            </ul>
+
+            <p>
+                The following value may be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ceiling</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>Whether features are generated on ceilings or on floors. If <code>true</code>, features are generated on ceilings, and if <code>false</code>, features are generated on floors.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                With the <code>fractal</code> distribution, multiple features are distributed together in large clusters, also known as <dfn>veins</dfn>.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>large-vein</code>.</li>
+                <li>The default generator material is stone.</li>
+            </ul>
+
+            <p>
+                The following values must be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">min-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The minimum altitude at which veins can be generated.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">vein-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The vertical diameter of veins, measured in blocks along the Y axis.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">vein-diameter</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The horizontal diameter of veins, measured in blocks along the X and Z axes.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">vertical-density</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How dense veins are along the Y axis. Higher numbers mean that features in veins are closer together, making veins contain more blocks in total. This value is not measured in blocks; some experimenting will be needed to obtain the desired result.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">horizontal-density</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The same as <code class="cofh-nowrap">vertical-density</code>, except along the X and Z axes.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h3 id="generator-types">Generator types</h3>
+
+<p>
+    Click on the name of a generator type to see information about it.
+</p>
+
+<ul class="uk-subnav uk-subnav-line uk-subnav-pill" data-uk-switcher="{ connect: '#generator-switcher' }">
+    <li><a href>cluster</a></li>
+    <li><a href>sparse-cluster</a></li>
+    <li><a href>large-vein</a></li>
+    <li><a href>decoration</a></li>
+    <li><a href>small-tree</a></li>
+    <li><a href>plate</a></li>
+    <li><a href>boulder</a></li>
+    <li><a href>lake</a></li>
+    <li><a href>geode</a></li>
+    <li><a href>spike</a></li>
+    <li><a href>stalagmite</a></li>
+    <li><a href>stalactite</a></li>
+</ul>
+
+<div class="uk-panel uk-panel-box uk-text-small">
+    <ul id="generator-switcher" class="uk-switcher">
+        <li>
+            <p>
+                The <code>cluster</code> generator creates simple groups of blocks (<dfn>clusters</dfn>). Ore blocks are generated like this, as well as deposits of dirt, gravel, granite, diorite and andesite.
+            </p>
+
+            <p>
+                The following value must be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">cluster-size</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How large clusters of blocks are. This value is not measured in blocks; some experimenting will be needed to obtain the desired result.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>sparse-cluster</code> generator is mostly the same as the <code>cluster</code> generator, with one exception. When the <code>cluster-size</code> value is set to less than <code>4</code>, clusters will only have a certain chance to actually generate, instead of generating a single block or so every time. At <code>3</code>, one in 3 clusters will actually generate. At <code>2</code> it is one in 6 clusters, and at <code>1</code> it is one in 12 clusters.
+            </p>
+        </li>
+        <li>
+            <p>
+                The <code>large-vein</code> generator is similar to <code>cluster</code>, except the groups of blocks it creates can be much larger. Use with caution.
+            </p>
+
+            <p>
+                The following values can be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">cluster-size</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How large clusters of blocks are. This value is not measured in blocks; some experimenting will be needed to obtain the desired result.</td>
+                        </tr>
+                        <tr>
+                            <td>sparse</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>true</code></td>
+                            <td>If <code>true</code>, veins are generated smaller and more spread out, looking somewhat like neurons. If <code>false</code>, veins are generated much larger and more dense, closer to how the <code>cluster</code> generator works.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>decoration</code> generator creates groups of single blocks scattered around on a surface. Small plants and cacti are generated like this, as well as fire blocks in the Nether.
+            </p>
+
+            <p>
+                Meant to be used with the <code>decoration</code> distribution.
+            </p>
+
+            <p>
+                The following values must or may be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">cluster-size</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How many blocks a single group of blocks may contain at most.</td>
+                        </tr>
+                        <tr>
+                            <td>surface</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / array of block entries</td>
+                            <td>Grass block</td>
+                            <td>The block type or block types that blocks in a group may generate on top of.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">see-sky</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>true</code></td>
+                            <td>Whether to only generate in places with a direct line of sight to the sky.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">check-stay</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>true</code></td>
+                            <td>Specifies whether to only generate blocks that can be sustained by the blocks they are generated on top of. For example, sugar cane cannot be sustained by blocks that are not directly next to water.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">stack-height</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>1</code></td>
+                            <td>How many times to stack a single generated block upwards. Used for things like cacti and sugar cane.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">x-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>8</code></td>
+                            <td>How spread out a group of blocks may be, in blocks along the X axis.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">y-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>4</code></td>
+                            <td>Ditto, except along the Y axis.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">z-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>8</code></td>
+                            <td>Ditto, except along the Z axis.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>small-tree</code> generator creates simple trees. Small oak and birch trees are generated like this.
+            </p>
+
+            <p>
+                The <code>block</code> value in generator entries is used to generate the trunks of the trees.
+            </p>
+            
+            <p>
+                The following values can be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>surface</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / array of block entries</td>
+                            <td>Any block type, or grass blocks and dirt if invalid</td>
+                            <td>The block type or block types that trees may generate on top of.</td>
+                        </tr>
+                        <tr>
+                            <td>leaves</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / <a href="#weighted-array">weighted array</a> of block entries</td>
+                            <td>None</td>
+                            <td>What blocks the leaves of trees are made of.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">min-height</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>5</code></td>
+                            <td>The minimum height of trees, in blocks.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">height-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>3</code></td>
+                            <td>How much may be added randomly the the minimum height of trees, in blocks.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">tree-checks</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>true</code></td>
+                            <td>Whether to verify that trees can properly 'grow' in the locations determined by the distribution type.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">relaxed-growth</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>Whether trees may have blocks adjacent to their trunk at the bottom-most layer. For example, this could let trees generate one block deep in water.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">water-loving</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>Whether to allow trees to generate in water, up to the leaves.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">leaf-variance</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>true</code></td>
+                            <td>Whether or not blocks may be missing from the corners of the leaves, giving them a more natural look.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>plate</code> generator creates groups of blocks as cylinders (<dfn>plates</dfn>). Clay deposits are generated like this.
+            </p>
+            
+            <p>
+                The following values must or may be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>radius</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The radius of plates in blocks.</td>
+                        </tr>
+                        <tr>
+                            <td>height</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>1</code></td>
+                            <td>Used to determine the height of plates in blocks. This value is used as some kind of radius around a layer of blocks that is always generated. For example, using <code>1</code> here will result in a plate that is 3 blocks high: the middle layer, 1 layer above and 1 layer below.</td>
+                        </tr>
+                        <tr>
+                            <td>slim</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>If <code>true</code>, generated plates are 1 block less tall at the top. By default, the plates are an odd number of blocks high due to the way they are generated (see <dfn>height</dfn>), so this option allows plates that are an even amount of blocks high to be generated.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>boulder</code> generator creates clusters of sphere-like groups of blocks. Moss stone boulders in the mega taiga biome are generated like this.
+            </p>
+            
+            <p>
+                The following values must or may be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>diameter</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The diameter of boulders in blocks.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">size-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>2</code></td>
+                            <td>How much a particular boulder's diameter may differ from the set value.</td>
+                        </tr>
+                        <tr>
+                            <td>count</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>3</code></td>
+                            <td>How many boulders a single cluster of boulders can contain.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">count-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>0</code></td>
+                            <td>How much the amount of boulders may differ per cluster of boulders.</td>
+                        </tr>
+                        <tr>
+                            <td>hollow</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>Whether boulders have a room filled with air blocks inside.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">hollow-size</td>
+                            <td>No</td>
+                            <td>Number (floating-point)</td>
+                            <td><code>0.1665</code> (one sixth)</td>
+                            <td>How large the hollow part of hollow boulders is, relatively to the size of the boulders. Can be any value between <code>0.0</code> (exclusive) and <code>1.0</code> (exclusive).</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">hollow-variance</td>
+                            <td>No</td>
+                            <td>Number (floating-point)</td>
+                            <td><code>0.0</code></td>
+                            <td>How much the size of the hollow part may differ per hollow boulder.<br />The resulting size of the hollow part is calculated as follows: <code>size * (1 - [random 0.0-1.0] * variance)</code>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>lake</code> generator creates small bodies of fluid (<dfn>lakes</dfn>). If needed, space is carved out above them. Small bodies of water and lava are generated like this.
+            </p>
+
+            <p>
+                The <code>block</code> value in generator entries is used to generate the 'fluid' part of the lakes. Typically this is set to a fluid block, but it doesn't have to be.
+            </p>
+            
+            <p>
+                The following values may be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">use-material</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>Whether the generator takes the set generator materials into account, or ignores them and replaces any block to generate lakes.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">outline-block</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / <a href="#weighted-array">weighted array</a> of block entries</td>
+                            <td>None</td>
+                            <td>The block or blocks to surround the 'fluid' part of lakes with.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">gap-block</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / <a href="#weighted-array">weighted array</a> of block entries</td>
+                            <td>Air</td>
+                            <td>The block or blocks that blocks above lakes are replaced with to carve out space.</td>
+                        </tr>
+                        <!--
+                        <tr>
+                            <td class="cofh-nowrap">solid-outline</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">total-outline</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td></td>
+                        </tr>
+                        -->
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>geode</code> generator creates <dfn>geodes</dfn>, which are 'blobs' of blocks that are surrounded by a layer of blocks called the <dfn>crust</dfn>, and can optionally contain a core of blocks called the <dfn>filler</dfn>.
+            </p>
+
+            <p>
+                Geodes are similar to lakes, except they are completely filled with blocks instead of carving out space.
+            </p>
+            
+            <p>
+                The following values may be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>crust</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / <a href="#weighted-array">weighted array</a> of block entries</td>
+                            <td>Stone</td>
+                            <td>What blocks the crust of geodes are made of.</td>
+                        </tr>
+                        <tr>
+                            <td>hollow</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>Whether to leave out space in the center of geodes, so that a filler can be generated. This does <em>not</em> mean that the center of geodes will be set to air blocks. Instead, whatever blocks that were there before generating the geode will stay, unless a filler is specified.</td>
+                        </tr>
+                        <tr>
+                            <td>filler</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / <a href="#weighted-array">weighted array</a> of block entries</td>
+                            <td>None</td>
+                            <td>What blocks the filler of geodes are made of. <code>hollow</code> must be set to <code>true</code> for this to work correctly.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>spike</code> generator creates spikes that point upwards. Spikes extend a few blocks into the surface they are generated on. Packed ice spikes in the ice plains spikes biome are generated like this.
+            </p>
+
+            <p>
+                The following values may be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">min-height</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>7</code></td>
+                            <td>The minimum height of spikes, in blocks.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">height-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>4</code></td>
+                            <td>The maximum amount of blocks that may be randomly added to the minimum height of spikes.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">size-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>2</code></td>
+                            <td>The maximum amount of blocks that may be randomly added to the radius of spikes at the bottom.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">position-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>3</code></td>
+                            <td>A random offset along the Y axis when determining the position of spikes.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">large-spikes</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>true</code></td>
+                            <td>Whether spikes may sometimes be generated as 'large' spikes, which are significantly taller.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">large-spike-chance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>60</code></td>
+                            <td>The chance of a generated spike to be a large spike. One in [value] spikes will be generated as a large spike.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">min-large-spike-height-gain</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>10</code></td>
+                            <td>The minimum amount of extra layers that large spikes have over regular spikes.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">large-spike-height-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>30</code></td>
+                            <td>How many blocks may be added randomly to the minimum height gain of large spikes.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">large-spike-filler-size</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>1</code></td>
+                            <td>The radius of the extra layers of blocks that are added to large spikes, in blocks.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>stalagmite</code> generator creates spikes that point upwards (<dfn>stalagmites</dfn>). Unlike the spikes created by the <code>spike</code> generator, which have a mostly uniform width, these spikes are wider at the bottom and thinner at the top.
+            </p>
+            
+            <p>
+                The following values may be added to a generator entry for this generator type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">gen-body</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / array of block entries</td>
+                            <td>Air</td>
+                            <td>What materials the body of stalagmites can generate in. Not quite the same as the generator material, as that only determines where the base may generate.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">min-height</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>7</code></td>
+                            <td>The minimum height of stalagmites in blocks.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">height-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>4</code></td>
+                            <td>How many blocks may be added randomly to the minimum height of stalagmites.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">gen-size</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>0</code></td>
+                            <td>The minimum width of stalagmites at their base, in blocks. If set to <code>0</code>, <code>height-mod</code> will be used to calculate the base width.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">height-mod</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>5</code></td>
+                            <td>If <code>genSize</code> is set to <code>0</code>, the height of stalagmites is divided by this value to get their base width in blocks.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">size-variance</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>2</code></td>
+                            <td>How much may be added randomly to the minimum width of stalagmites at their base, in blocks.</td>
+                        </tr>
+                        <tr>
+                            <td>smooth</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>Whether stalagmites have a smooth curve in their shape from bottom to top. If <code>false</code>, stalagmites will be much more narrow and pointy.</td>
+                        </tr>
+                        <tr>
+                            <td>fat</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>true</code></td>
+                            <td>If <code>true</code>, sets stalagmites to be thicker, usually leaving a larger footprint. The stalagmites still respect their set base width, though, which could result in parts being clipped away at the bottom. Used to make stalagmites less narrow higher up.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>stalactite</code> generator is nearly identical to the <code>stalagmite</code> generator, except spikes created by this generator point downwards instead of upwards.
+            </p>
+        </li>
+    </ul>
+</div>
+
+<hr />
+
+<h2 id="other-formats">Other formats</h2>
+
+<p>
+    This section describes other kinds of formats that are used throughout the JSON files.
+</p>
+
+<h3 id="weighted-array">Weighted array</h3>
+
+<p>
+    This format describes an array with items to randomly choose from.
+</p>
+
+<p>
+    Weighted arrays may contain any kind of item. However, objects in a weighted array may contain the value <code>weight</code>, which specifies how likely the item is to be picked compared to other items in the array. The default weight of each item is <code>100</code>.
+</p>
+
+<h3 id="block-entry">Block entry</h3>
+
+<p>
+    This format describes a certain type of block.
+</p>
+
+<p>
+    A block entry can be specified either as an object or as a string. If specified as an object, said object can contain the following values.
+</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Required</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>name</td>
+                <td>Yes</td>
+                <td>String</td>
+                <td>N/A</td>
+                <td>The internal name (ID) of the block, like <code>minecraft:stone</code> for stone, and <code>ThermalFoundation:Ore</code> for Thermal Foundation ore blocks. If the block is added by Minecraft itself, the <code>minecraft:</code> prefix is not required.</td>
+            </tr>
+            <tr>
+                <td>properties</td>
+                <td>No</td>
+                <td>Object with string values</td>
+                <td>(Default block states of the specified block)</td>
+                <td>The block states of the block. This value and <code>metadata</code> cannot both be specified.</td>
+            </tr>
+            <tr>
+                <td>metadata</td>
+                <td>No</td>
+                <td>Number (integer)</td>
+                <td><code>0</code></td>
+                <td>The metadata value of the block. A value of <code>-1</code> means the block entry represents the block with any metadata. This value and <code>properties</code> cannot both be specified.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p>
+    If specified as a string, the value <code>name</code> seen above can be used directly. The other values will be set to their defaults.
+</p>
+
+<h3 id="biome-entry">Biome entry</h3>
+
+<p>
+    This format describes a specific biome, or a way to match biomes by certain properties.
+</p>
+
+<p>
+    A biome entry can be specified either as an object or as a string. If specified as an object, said object can contain the following values.
+</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Required</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>type</td>
+                <td>Yes</td>
+                <td>String</td>
+                <td>N/A</td>
+                <td>How the biome entry matches biomes. Possible values are <code>"name"</code>, <code>"id"</code>, <code>"temperature"</code> and <code>"dictionary"</code>.</td>
+            </tr>
+            <tr>
+                <td>entry</td>
+                <td>Yes</td>
+                <td>String / array of strings</td>
+                <td>N/A</td>
+                <td>
+                    The value used to match biomes. Differs depending on the value <code>type</code>:
+
+                    <ul>
+                        <li><code>name</code>: The full names of one or more biomes, as seen in the F3 debug screen.</li>
+                        <li><code>id</code>: The internally registered names of one or more biomes.</li>
+                        <li><code>temperature</code>: One or more temperature categories that biomes can be in. Possible temperature categories are <code>COLD</code>, <code>MEDIUM</code>, <code>WARM</code> and <code>OCEAN</code>.</li>
+                        <li><code>dictionary</code>: One or more Forge biome tags that biomes can be associated with. A list of possible Forge biome tags can be found <a href="https://pastebin.com/0NH383ps" target="_blank">here</a>.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>whitelist</td>
+                <td>No</td>
+                <td>Boolean</td>
+                <td><code>true</code></td>
+                <td>If <code>false</code>, the biome entry specifies an exception to the blacklist or whitelist it is in.</td>
+            </tr>
+            <tr>
+                <td>rarity</td>
+                <td>No</td>
+                <td>Number (integer)</td>
+                <td><code>-1</code></td>
+                <td>If greater than <code>1</code>, a random chance is added to determining whether a biome matches the entry. One in [rarity] attempts to match a matching biome will go through. This can be used to make a feature generate more rarely in certain biomes.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p>
+    If specified as a string, the entry specifies a single biome by its full name.
+</p>
+
+<h3 id="forge-mod-entry">Forge mod entry</h3>
+
+<p>
+    This format describes a Minecraft Forge mod, optionally with a certain version.
+</p>
+
+<p>
+    Forge mod entries are objects that can contain the following values.
+</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Required</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>id</td>
+                <td>Yes</td>
+                <td>String</td>
+                <td>N/A</td>
+                <td>The internal mod ID that the mod registers itself with.</td>
+            </tr>
+            <tr>
+                <td>version</td>
+                <td>No</td>
+                <td>String</td>
+                <td>(Any version)</td>
+                <td>The version of the mod. May be a specific version, or a <a href="http://maven.apache.org/enforcer/enforcer-rules/versionRanges.html" target="_blank">Maven-compatible version range</a>.</td>
+            </tr>
+            <tr>
+                <td>exclude</td>
+                <td>No</td>
+                <td>Boolean</td>
+                <td><code>false</code></td>
+                <td>If <code>true</code>, the file that this entry is declared in will only load if the specified mod is <em>not</em> installed.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr />
+
+<h2 id="links">Links</h2>
+
+<p>
+    This section lists some links that can be useful when setting up world generation with CoFH Core.
+</p>
+
+<ul>
+    <li><a href="https://pastebin.com/xmEPB6Ud" target="_blank">Default <dfn>vanilla.json</dfn> file</a></li>
+    <li><a href="https://pastebin.com/kZp8i9bX" target="_blank">Default <dfn>thermalfoundation_ores.json</dfn> file</a></li>
+    <li><a href="http://minecraft.gamepedia.com/Data_values#Block_IDs" target="_blank">IDs of blocks in vanilla Minecraft</a></li>
+    <li><a href="http://minecraft.gamepedia.com/Block_states#List_of_block_states" target="_blank">Block states of blocks in vanilla Minecraft</a></li>
+    <li><a href="http://minecraft.gamepedia.com/Data_values#Biome_IDs" target="_blank">Names of biomes in vanilla Minecraft</a></li>
+    <li><a href="https://pastebin.com/0NH383ps" target="_blank">Forge biome tags</a></li>
+</ul>

@@ -71,8 +71,10 @@ cofh-core:
       items:
         - title: "Commands"
           url: "/cofh-core/features/commands/"
-        - title: "Custom World Generation"
-          url: "/cofh-core/features/custom-world-generation/"
+        - title: "Custom World Generation (1.7)"
+          url: "/cofh-core/features/custom-world-generation-1-7/"
+        - title: "Custom World Generation (1.10)"
+          url: "/cofh-core/features/custom-world-generation-1-10/"
     - title: "Enchantments"
       items:
         - title: "Holding"
