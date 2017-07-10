@@ -1,6 +1,6 @@
 - name: Redstone Flux API
   tag: rf-api
-  logo: '/assets/images/modlogos/redstoneflux.png'
+  logo: 'modlogos/redstoneflux.png'
   requirements:
       - name: Minecraft Forge
         link: https://files.minecraftforge.net/
@@ -11,7 +11,7 @@
 
 - name: CoFHCore
   tag: cofh-core
-  logo: '/assets/images/modlogos/cofh-core.png'
+  logo: 'modlogos/cofh-core.png'
   requirements:
       - name: Minecraft Forge
         link: https://files.minecraftforge.net/
@@ -26,7 +26,7 @@
 
 - name: CoFH World
   tag: cofh-world
-  logo: '/assets/images/modlogos/cofh-world.png'
+  logo: 'modlogos/cofh-world.png'
   logo-helper: 'background-size: 35%;'
   requirements:
     - name: Minecraft Forge
@@ -40,7 +40,7 @@
 
 - name: Thermal Foundation
   tag: thermal-foundation
-  logo: '/assets/images/modlogos/thermal-foundation.png'
+  logo: 'modlogos/thermal-foundation.png'
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
@@ -57,7 +57,7 @@
 
 - name: Thermal Expansion
   tag: thermal-expansion
-  logo: '/assets/images/modlogos/thermal-expansion.png'
+  logo: 'modlogos/thermal-expansion.png'
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
@@ -76,7 +76,7 @@
 
 - name: Thermal Dynamics
   tag: thermal-dynamics
-  logo: '/assets/images/modlogos/thermal-dynamics.png'
+  logo: 'modlogos/thermal-dynamics.png'
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
@@ -93,7 +93,7 @@
 
 - name: Redstone Arsenal
   tag: redstone-arsenal
-  logo: '/assets/images/modlogos/redstone-arsenal.png'
+  logo: 'modlogos/redstone-arsenal.png'
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
