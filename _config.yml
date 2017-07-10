@@ -59,11 +59,10 @@ exclude:
   - /*.xcf
   - /Thumbs.db
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-redirect-from
 
 permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5
