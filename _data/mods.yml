@@ -1,8 +1,23 @@
+- name: Redstone Flux API
+  tag: rf-api
+  logo: '/assets/images/modlogos/redstoneflux.png'
+  requirements:
+      - name: Minecraft Forge
+        link: https://files.minecraftforge.net/
+  note: Standalone Jar file for the Redstone Flux API. Required for CoFH Core and CodeChickenLib 1.8+
+  links:
+    curse: https://mods.curse.com/mc-mods/minecraft/270789-redstone-flux
+    forge: https://minecraft.curseforge.com/projects/redstone-flux
+
 - name: CoFHCore
+  tag: cofh-core
   logo: '/assets/images/modlogos/cofh-core.png'
   requirements:
       - name: Minecraft Forge
         link: https://files.minecraftforge.net/
+      - name: Redstone Flux API
+        link: "#rf-api"
+        internal: true
   note: Required for most Team CoFH mods.
   links:
     curse: https://mods.curse.com/mc-mods/minecraft/cofhcore
@@ -10,6 +25,7 @@
     change: https://raw.githubusercontent.com/CoFH/Version/master/cofhcore_changelog.txt
 
 - name: CoFH World
+  tag: cofh-world
   logo: '/assets/images/modlogos/cofh-world.png'
   logo-helper: 'background-size: 35%;'
   requirements:
@@ -18,12 +34,12 @@
     - name: CoFH Core
       link: "#cofh-core"
       internal: true
-  note:
   links:
       curse: https://mods.curse.com/mc-mods/minecraft/271384-cofh-world
       forge: https://minecraft.curseforge.com/projects/cofh-world
 
 - name: Thermal Foundation
+  tag: thermal-foundation
   logo: '/assets/images/modlogos/thermal-foundation.png'
   requirements:
     - name: Minecraft Forge
@@ -34,13 +50,13 @@
     - name: CoFH World
       link: "#cofh-world"
       internal: true
-  note:
   links:
       curse: https://mods.curse.com/mc-mods/minecraft/222880-thermal-foundation
       forge: https://minecraft.curseforge.com/projects/thermal-foundation
       change: https://raw.githubusercontent.com/CoFH/Version/master/thermalfoundation_changelog.txt
 
 - name: Thermal Expansion
+  tag: thermal-expansion
   logo: '/assets/images/modlogos/thermal-expansion.png'
   requirements:
     - name: Minecraft Forge
@@ -53,13 +69,13 @@
       internal: true
     - name: CodeChickenLib
       link: "http://chickenbones.net/Pages/links.html"
-  note:
   links:
       curse: https://mods.curse.com/mc-mods/minecraft/thermalexpansion
       forge: https://minecraft.curseforge.com/projects/thermalexpansion
       change: https://raw.githubusercontent.com/CoFH/Version/master/thermalexpansion_changelog.txt
 
 - name: Thermal Dynamics
+  tag: thermal-dynamics
   logo: '/assets/images/modlogos/thermal-dynamics.png'
   requirements:
     - name: Minecraft Forge
@@ -70,13 +86,13 @@
     - name: Thermal Foundation
       link: "#thermal-foundation"
       internal: true
-  note:
   links:
       curse: https://mods.curse.com/mc-mods/minecraft/227443-thermal-dynamics
       forge: https://minecraft.curseforge.com/projects/thermal-dynamics
       change: https://raw.githubusercontent.com/CoFH/Version/master/thermaldynamics_changelog.txt
 
 - name: Redstone Arsenal
+  tag: redstone-arsenal
   logo: '/assets/images/modlogos/redstone-arsenal.png'
   requirements:
     - name: Minecraft Forge
@@ -91,6 +107,7 @@
       change: https://raw.githubusercontent.com/CoFH/Version/master/redstonearsenal_changelog.txt
 
 - name: MineFactory Reloaded
+  tag: minefactory-reloaded
   logo:
   requirements:
     - name: Minecraft Forge
@@ -98,20 +115,18 @@
     - name: CoFH Core
       link: "#cofh-core"
       internal: true
-  note:
   links:
       curse: https://mods.curse.com/mc-mods/minecraft/minefactory-reloaded
       forge: https://minecraft.curseforge.com/projects/minefactory-reloaded
 
 - name: Nether Ores
-  logo:
+  tag: netherores
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
     - name: CoFH Core
       link: "#cofh-core"
       internal: true
-  note:
   links:
       curse: https://mods.curse.com/mc-mods/minecraft/netherores
       forge: https://minecraft.curseforge.com/projects/netherores

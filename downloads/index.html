@@ -18,8 +18,7 @@ redirect_from: /downloads.html
 
 <ul class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin data-uk-grid-match="{target: '.uk-panel'}">
     {% for mods in site.data.mods %}
-    {% assign modsLink = mods.name | split: " " %}
-    <li id="{{modsLink | join: "-" | downcase }}">
+    <li id="{{mods.tag}}">
         <div class="uk-panel uk-panel-box">
             {% if mods.logo %}
                 <div class="cofh-download-logo" style="background-image: url({{ mods.logo }}); {{ mods.logo-helper }}" title="CoFH Core"></div>
