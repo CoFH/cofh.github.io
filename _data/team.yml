@@ -1,0 +1,37 @@
+- name: King Lemming
+  avatar: kinglemming.png
+  about: "One of the two original members, and probably the most well-known one. King Lemming spends most of his modding time on the Thermal series of mods."
+  social:
+      twitter: kinglemmingcofh
+      github: KingLemming
+      redit: KingLemming
+
+- name: Cynycal
+  avatar: cynycal.png
+  about: "One of the two original members. Cynycal is an artist; most textures in the Thermal series of mods were drawn by him, and he also created the machine sounds in Thermal Expansion."
+  social:
+      twitter: thisnamekills
+
+- name: Zeldo
+  avatar: zeldo.jpg
+  about: "Zeldo originally joined the team in late 2012 and worked together with King Lemming on Thermal Expansion 2. This version contained the iconic Redstone Energy Cells, Tesseracts and the original Ducts: Redstone Energy Conduits and Liquiducts.<br />Back in the day, he worked on the BuildCraft addon Additional Pipes, as well as the mod Crafting Table III."
+  social:
+      twitter: zeldokavira
+      github: ZeldoKavira
+      redit: ZeldoKavira
+
+- name: Skyboy
+  avatar: nope.png
+  about: The current maintainer of MineFactory Reloaded and Nether Ores. Around early 2014 he joined the team and the mod PowerCrystalsCore was merged into CoFH Core. He still works on CoFH Core a lot, and has pretty much become the mod's main developer.
+  social:
+      twitter: skyboy026
+      github: skyboy
+      reddit: skyboy026
+
+- name: RWTema
+  avatar: rwtema.png
+  about: "The author of the mod Extra Utilities. Tema stepped in around late 2014 when there wasn't anyone around that had time to work on Thermal Dynamics. He did most of the work on porting the missing piece of the Thermal mods in 1.7.10: ducts!"
+  social:
+      twitter: extra_utilities
+      github: RWTema
+      redit: RWTema

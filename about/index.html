@@ -13,7 +13,7 @@ redirect_from: /about.html
 </p>
 
 <p>
-    In the year 2012, the name CoFH was used once again when King Lemming teamed up with Cynycal as <dfn>Team CoFH</dfn> to start modding for Minecraft, mostly for King Lemming to learn how to program in Java. The two were originally working on Brewcraft: a farming mod that contained a brewing overhaul for potions, as well as a way to make alcoholic beverages. 
+    In the year 2012, the name CoFH was used once again when King Lemming teamed up with Cynycal as <dfn>Team CoFH</dfn> to start modding for Minecraft, mostly for King Lemming to learn how to program in Java. The two were originally working on Brewcraft: a farming mod that contained a brewing overhaul for potions, as well as a way to make alcoholic beverages.
 </p>
 
 <p>
@@ -30,94 +30,23 @@ redirect_from: /about.html
     The definition of who is a member of Team CoFH and who isn't has always been a bit vague. These are the currently confirmed members of the team.
 </p>
 
+{% for member in site.data.team %}
 <div class="uk-panel uk-panel-box uk-margin-bottom">
-    <h2 class="uk-panel-title uk-margin-remove">King Lemming</h2>
     <div class="uk-clearfix">
-        <div class="uk-float-left uk-margin-top uk-margin-right">
-            <img src="/assets/images/avatars/kinglemming.png" class="uk-border-rounded" width="150" />
+        {% if member.avatar %}
+        <div class="uk-float-left uk-margin-right">
+            <img src="/assets/images/avatars/{{member.avatar}}" class="uk-border-rounded" width="150" />
         </div>
-        <p>
-            One of the two original members, and probably the most well-known one. King Lemming spends most of his modding time on the Thermal series of mods.
-        </p>
+        {% endif %}
+        <h1 class="uk-panel-title uk-margin-remove">{{member.name}}</h1>
+        <p>{{ member.about }}</p>
         <div class="uk-text-right uk-margin-large-top">
             <div class="uk-button-group">
-                <a class="uk-button" href="https://twitter.com/kinglemmingcofh" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a>
-                <a class="uk-button" href="https://github.com/KingLemming" target="_blank"><i class="uk-icon-github"></i> GitHub</a>
-                <a class="uk-button" href="http://www.reddit.com/user/KingLemming" target="_blank"><i class="uk-icon-reddit"></i> reddit</a>
+                {% if member.social.twitter %}<a class="uk-button" href="https://twitter.com/{{member.social.twitter}}" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a>{% endif %}
+                {% if member.social.github %}<a class="uk-button" href="https://github.com/{{member.social.github}}" target="_blank"><i class="uk-icon-github"></i> GitHub</a>{% endif %}
+                {% if member.social.redit %}<a class="uk-button" href="http://www.reddit.com/user/{{member.social.reddit}}" target="_blank"><i class="uk-icon-reddit"></i> reddit</a>{% endif %}
             </div>
         </div>
     </div>
 </div>
-
-<div class="uk-panel uk-panel-box uk-margin-bottom">
-    <h2 class="uk-panel-title uk-margin-remove">Cynycal</h2>
-    <div class="uk-clearfix">
-        <div class="uk-float-left uk-margin-top uk-margin-right">
-            <img src="/assets/images/avatars/cynycal.png" class="uk-border-rounded" width="150" />
-        </div>
-        <p>
-            One of the two original members. Cynycal is an artist; most textures in the Thermal series of mods were drawn by him, and he also created the machine sounds in Thermal Expansion.
-        </p>
-        <div class="uk-text-right uk-margin-large-top">
-            <a class="uk-button" href="https://twitter.com/thisnamekills" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a>
-        </div>
-    </div>
-</div>
-
-<div class="uk-panel uk-panel-box uk-margin-bottom">
-    <h2 class="uk-panel-title uk-margin-remove">Zeldo</h2>
-    <div class="uk-clearfix">
-        <div class="uk-float-left uk-margin-top uk-margin-right">
-            <img src="/assets/images/avatars/zeldo.jpg" class="uk-border-rounded" width="150" />
-        </div>
-        <p>
-            Zeldo originally joined the team in late 2012 and worked together with King Lemming on Thermal Expansion 2. This version contained the iconic Redstone Energy Cells, Tesseracts and the original Ducts: Redstone Energy Conduits and Liquiducts.<br />
-            Back in the day, he worked on the BuildCraft addon Additional Pipes, as well as the mod Crafting Table III.
-        </p>
-        <div class="uk-text-right uk-margin-large-top">
-            <div class="uk-button-group">
-                <a class="uk-button" href="https://twitter.com/zeldokavira" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a>
-                <a class="uk-button" href="https://github.com/ZeldoKavira" target="_blank"><i class="uk-icon-github"></i> GitHub</a>
-                <a class="uk-button" href="http://www.reddit.com/user/ZeldoKavira" target="_blank"><i class="uk-icon-reddit"></i> reddit</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="uk-panel uk-panel-box uk-margin-bottom">
-    <h2 class="uk-panel-title uk-margin-remove">Skyboy</h2>
-    <div class="uk-clearfix">
-        <div class="uk-float-left uk-margin-top uk-margin-right">
-            <!-- jerk doesn't want an avatar -->
-        </div>
-        <p>
-            The current maintainer of MineFactory Reloaded and Nether Ores. Around early 2014 he joined the team and the mod PowerCrystalsCore was merged into CoFH Core. He still works on CoFH Core a lot, and has pretty much become the mod's main developer.
-        </p>
-        <div class="uk-text-right uk-margin-large-top">
-            <div class="uk-button-group">
-                <a class="uk-button" href="https://twitter.com/skyboy026" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a>
-                <a class="uk-button" href="https://github.com/skyboy" target="_blank"><i class="uk-icon-github"></i> GitHub</a>
-                <a class="uk-button" href="http://www.reddit.com/user/skyboy026" target="_blank"><i class="uk-icon-reddit"></i> reddit</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="uk-panel uk-panel-box uk-margin-bottom">
-    <h2 class="uk-panel-title uk-margin-remove">RWTema</h2>
-    <div class="uk-clearfix">
-        <div class="uk-float-left uk-margin-top uk-margin-right">
-            <img src="/assets/images/avatars/rwtema.png" class="uk-border-rounded" width="150" />
-        </div>
-        <p>
-            The author of the mod Extra Utilities. Tema stepped in around late 2014 when there wasn't anyone around that had time to work on Thermal Dynamics. He did most of the work on porting the missing piece of the Thermal mods in 1.7.10: ducts!
-        </p>
-        <div class="uk-text-right uk-margin-large-top">
-            <div class="uk-button-group">
-                <a class="uk-button" href="https://twitter.com/extra_utilities" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a>
-                <a class="uk-button" href="https://github.com/RWTema" target="_blank"><i class="uk-icon-github"></i> GitHub</a>
-                <a class="uk-button" href="http://www.reddit.com/user/RWTema" target="_blank"><i class="uk-icon-reddit"></i> reddit</a>
-            </div>
-        </div>
-    </div>
-</div>
+{% endfor %}
