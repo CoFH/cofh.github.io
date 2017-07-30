@@ -60,10 +60,11 @@ exclude:
   - /Thumbs.db
   - /.unused
 
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
 
 permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5
