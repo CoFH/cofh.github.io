@@ -2,5 +2,11 @@
 {
     "files.associations": {
         "*.html": "liquid"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "_site": true,
+        "assets/images": true
     }
 }
