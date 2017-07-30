@@ -1,73 +1,33 @@
 ---
 title: Redstone Flux
-redirect_from: /redstone-flux/
+redirect_from:
+  - /redstone-flux/
+  - /docs/redstone-flux/supporting-mods/
 ---
 
 <p>
-	<strong>Redstone Flux</strong>, often referred to as <strong>RF</strong>, is the central energy system in Team CoFH's mods and <a href="supporting-mods">various others</a>. RF is often used to power machines or tools.
-</p>
-
-<h2 id="energy">Energy</h2>
-<p>
-	So what is so useful about an energy system? As an example, take a look at Minecraft's own Furnace. The Furnace uses fuel like coal to smelt items. One piece of fuel lets the Furnace smelt a certain amount of items. However, if there aren't any more items to smelt while a piece of fuel still is being burnt, the remaining energy in the piece of fuel will be wasted! An energy system like Redstone Flux solves problems like that. The potential power that a piece of fuel contains can be converted to a certain amount of RF. This RF can then be consumed at a much more precise rate, saving any fuel that is left.
-</p>
-<p>
-	Check out <a href="a-primer">'Redstone Flux: A Primer'</a> for a more in-depth introduction to how Redstone Flux works.
-</p>
-
-<h2 id="usage">Usage</h2>
-<p>
-	There are four kinds of things that can be done with Redstone Flux:
+    <strong>Redstone Flux</strong>, often referred to as <strong>RF</strong>, is the energy system used by the mods of Team CoFH. As described in <a href="/docs/redstone-flux/a-primer/">Redstone Flux: A Primer</a>, it is an extension of the redstone power system.
 </p>
 
 <p>
-	Redstone Flux can be <strong>produced</strong> by certain devices. These devices usually consume some kind of fuel to do so, or convert other types of energy into RF.<br />
-	Some examples of devices that generate RF:
-	<ul class="uk-margin-large-bottom">
-		<li>Dynamos from Thermal Expansion</li>
-		<li>Engines from BuildCraft, Forestry and Railcraft</li>
-		<li>Generators and Photovoltaic Cells from Ender IO</li>
-		<li>Generators from Extra Utilities</li>
-		<li>Reactors and Turbines from Big Reactors</li>
-	</ul>
+    Various blocks and items in the CoFH mods consume Redstone Flux energy to accomplish all kinds of tasks. Redstone Flux is usually consumed for one of two reasons:
 </p>
 
-<p>
-	Redstone Flux can be <strong>moved</strong> by various means. Usually this involves pipe-like blocks that carry RF around or blocks that can teleport RF.<br />
-	Some examples of devices that move RF:
-	<ul class="uk-margin-large-bottom">
-		<li>Fluxducts from Thermal Dynamics</li>
-		<li>Tesseracts from Thermal Expansion</li>
-		<li>Energy Conduits and Dimensional Transceivers from Ender IO</li>
-		<li>Kinesis Pipes from BuildCraft</li>
-		<li>Energy Transfer Nodes from Extra Utilities</li>
-		<li>RedNet Energy Cables from MineFactory Reloaded</li>
-		<li>Universal Cables from Mekanism</li>
-	</ul>
-</p>
+<ul>
+    <li>replacing the requirement of manual labor in automated systems;</li>
+    <li>adding a cost to doing things that otherwise wouldn't be possible.</li>
+</ul>
 
 <p>
-	Redstone Flux can be <strong>stored</strong> by some blocks and items. Some devices are dedicated to storing RF, and some have an internal buffer for their operations.<br />
-	Some examples of devices that store RF:
-	<ul class="uk-margin-large-bottom">
-		<li>Energy Cells and Flux Capacitors from Thermal Expansion</li>
-		<li>Capacitor Banks and Power Buffers from Ender IO</li>
-		<li>Energy Cubes and Energy Tablets from Mekanism</li>
-		<li>Devices that consume RF (see below) usually have internal RF buffers</li>
-	</ul>
-</p>
-
-<p>
-	Redstone Flux can be <strong>consumed</strong> by devices that perform specific actions. Machines and powered tools do this instead of the primitive way of consuming pieces of raw fuel.<br />
-	Some examples of devices that consume RF:
-	<ul class="uk-margin-large-bottom">
-		<li>Machines or other blocks from most mods that support RF</li>
-		<li>Powered tools and armor pieces like those from Redstone Arsenal or Simply Jetpacks</li>
-		<li>Tools with the Flux modifier from Tinkers' Construct</li>
-	</ul>
+    The CoFH mods offer various ways to generate, move and store Redstone Flux, such as <a href="/docs/thermal-expansion/">Thermal Expansion</a>'s dynamos and <a href="/docs/thermal-expansion/storage/energy-cells/">energy cells</a>, and <a href="/docs/thermal-dynamics/">Thermal Dynamics</a>'s <a href="/docs/thermal-dynamics/ducts/fluxducts/">fluxducts</a>. However, many other mods add more ways to handle Redstone Flux, in addition to more devices that consume it.
 </p>
 
 <h2 id="development">Development</h2>
+
 <p>
-	Redstone Flux has a simple, easy-to-implement API for adding compatibility for it to mods. This API is part of the <a href="https://github.com/CoFH/CoFHLib/tree/master/src/main/java/cofh/api" target="_blank">CoFH API in CoFHLib</a>, but a standalone version can also be found <a href="https://github.com/CoFH/RedstoneFlux-API" target="_blank">here</a>.
+    Redstone Flux has a simple, easy-to-implement API that mods may use to add compatibility for it. This API is part of the <a href="https://github.com/CoFH/CoFHLib/tree/master/src/main/java/cofh/api" target="_blank">CoFH API</a> in <a href="/docs/cofhlib">CoFHLib</a>. A standalone version is also available <a href="https://github.com/CoFH/RedstoneFlux-API" target="_blank">here</a>.
+</p>
+
+<p>
+    Many mods are compatible with the Redstone Flux system, and thus with the CoFH mods and each other. However, if you are the developer of a mod that involves energy in some way, don't feel pressured to make it compatible with Redstone Flux. See <a href="{% link _posts/2014-09-03-so-rf-is-a-thing.md %}">this post</a> for more on that.
 </p>

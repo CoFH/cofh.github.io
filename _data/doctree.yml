@@ -21,8 +21,6 @@ main:
           url: "/redstone-flux/"
         - title: "A Primer"
           url: "/redstone-flux/a-primer/"
-        - title: "Supporting Mods"
-          url: "/redstone-flux/supporting-mods/"
 
     - title: "Thermal Series"
       items:
