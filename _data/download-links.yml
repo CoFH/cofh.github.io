@@ -37,7 +37,7 @@
     - name: CoFH Core
       link: '#cofh-core'
   note: >
-    Required for Thermal Foundation; andles world generation.
+    Required for Thermal Foundation; handles world generation.
   links:
     curse: https://mods.curse.com/mc-mods/minecraft/271384-cofh-world
     curseforge: https://minecraft.curseforge.com/projects/cofh-world
