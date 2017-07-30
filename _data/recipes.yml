@@ -1,0 +1,80 @@
+sites:
+  mc-wiki:
+    url: 'https://minecraft.gamepedia.com/'
+    new-tab: yes
+  tf-docs:
+    url: '/docs/thermal-foundation/'
+
+items:
+  birch-wood:
+    name: 'Birch Wood'
+    sprite: [0, 0]
+    site: 'mc-wiki'
+    url: 'Wood'
+  birch-wood-planks:
+    name: 'Birch Wood Planks'
+    sprite: [1, 0]
+    site: 'mc-wiki'
+    url: 'Wood_Planks'
+  blaze-powder:
+    name: 'Blaze Powder'
+    sprite: [2, 0]
+    site: 'mc-wiki'
+    url: 'Blaze_Powder'
+  coal-dust:
+    name: 'Pulverized Coal'
+    sprite: [3, 0]
+    site: 'tf-docs'
+    url: 'materials/pulverized-materials/'
+  crafting-table:
+    name: 'Crafting Table'
+    sprite: [4, 0]
+    site: 'mc-wiki'
+    url: 'Crafting_Table'
+  oak-wood:
+    name: 'Oak Wood'
+    sprite: [5, 0]
+    site: 'mc-wiki'
+    url: 'Wood'
+  oak-wood-planks:
+    name: 'Oak Wood Planks'
+    sprite: [6, 0]
+    site: 'mc-wiki'
+    url: 'Wood_Planks'
+  pyrotheum-dust:
+    name: 'Pyrotheum Dust'
+    animated: true
+    site: 'tf-docs'
+    url: 'elemental-materials/pyrotheum-dust/'
+  redstone:
+    name: 'Redstone'
+    sprite: [7, 0]
+    site: 'mc-wiki'
+    url: 'Redstone'
+  spruce-wood:
+    name: 'Spruce Wood'
+    sprite: [8, 0]
+    site: 'mc-wiki'
+    url: 'Wood'
+  spruce-wood-planks:
+    name: 'Spruce Wood Planks'
+    sprite: [9, 0]
+    site: 'mc-wiki'
+    url: 'Wood_Planks'
+  sulfur:
+    name: 'Sulfur'
+    sprite: [10, 0]
+    site: 'tf-docs'
+    url: 'materials/sulfur'
+
+recipes:
+  pyrotheum-dust:
+    type: 'crafting'
+    data:
+      result:
+        item: ['pyrotheum-dust']
+        amount: 2
+      rows:
+        - [['coal-dust'], ['sulfur']]
+        - [['redstone'], ['blaze-powder']]
+      shapeless: true

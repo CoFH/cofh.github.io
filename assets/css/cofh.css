@@ -167,6 +167,10 @@ p {
     display: inline;
 }
 
+.cofh-item-cycle .hidden {
+    display: none;
+}
+
 .cofh-nowrap {
     white-space: nowrap;
 }

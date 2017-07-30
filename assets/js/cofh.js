@@ -86,4 +86,19 @@ $(function() {
 
     var nick = nicks[Math.floor(Math.random() * nicks.length)];
     $('a.irclink').attr('href', 'http://webchat.esper.net/?nick=' + nick + '....&channels=#ThermalExpansion');
+
+    window.setInterval(function() {
+        $('.cofh-item-cycle > div:not(.hidden)').each(function() {
+            var $this = $(this);
+
+            $this.addClass('hidden');
+
+            var $next = $this.next();
+            if ($next.length === 0) {
+                $next = $this.parent().children().first();
+            }
+
+            $next.removeClass('hidden');
+        });
+    }, 1500);
 });
