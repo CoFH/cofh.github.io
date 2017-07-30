@@ -3,7 +3,9 @@
     <head>
         {% capture title %}{% if page.title %}{{ page.title }} - {% endif %}{% if page.mod and page.title != page.mod %}{{ page.mod }} - {% endif %}Team CoFH{% endcapture %}
         {% assign description = "" %}
+
         <title>{{ title }}</title>
+
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="{{ title }}" />
@@ -19,30 +21,20 @@
         <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <!-- Other Browsers -->
         <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+
         <link rel="stylesheet" href="/assets/css/uikit/uikit.min.css" />
         <link rel="stylesheet" href="/assets/css/uikit/components/autocomplete.min.css" />
         <link rel="stylesheet" href="/assets/css/uikit/components/progress.min.css" />
         <link rel="stylesheet" href="/assets/css/uikit/components/sticky.min.css" />
         <link rel="stylesheet" href="/assets/css/uikit/components/tooltip.min.css" />
         <link rel="stylesheet" href="/assets/css/cofh.css" />
+
         <script src="/assets/js/jquery.min.js"></script>
         <script src="/assets/js/uikit/uikit.min.js"></script>
         <script src="/assets/js/uikit/components/autocomplete.min.js"></script>
         <script src="/assets/js/uikit/components/sticky.min.js"></script>
         <script src="/assets/js/uikit/components/tooltip.min.js"></script>
         <script src="/assets/js/cofh.js"></script>
-        <script type="text/javascript">
-            // Google Analytics
-            if(window.location.hostname.indexOf('localhost') < 0 && window.location.hostname.indexOf('127.0.0.1') < 0) {
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-                ga('create', 'UA-62994156-1', 'auto');
-                ga('send', 'pageview');
-            }
-        </script>
     </head>
 
     <body>
@@ -75,7 +67,7 @@
         <div id="cofh-offcanvas" class="uk-offcanvas">
             <div class="uk-offcanvas-bar">
                 {% include searchbar.html class='uk-panel' %}
-            
+
                 <ul class="uk-nav uk-nav-offcanvas">
                     <li{% if page.url == '/' %} class="uk-active"{% endif %}>
                         <a href="/">Home</a>
@@ -110,5 +102,18 @@
                 </div>
             </div>
         </div>
+
+        <script type="text/javascript">
+            // Google Analytics
+            if (window.location.hostname.indexOf('localhost') < 0 && window.location.hostname.indexOf('127.0.0.1') < 0) {
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-62994156-1', 'auto');
+                ga('send', 'pageview');
+            }
+        </script>
     </body>
 </html>
