@@ -11,7 +11,7 @@
                 <h4><strong>Requirements:</strong></h4>
                 <ul>
                     {% for req in mod.requirements %}
-                        <li><a href="{{req.link}}" {% if req.external %}target="_blank"{% endif %}>{{ req.name }}</a>
+                        <li><a href="{{req.link}}" {% if req.external %}target="_blank"{% endif %}>{{ req.name }}</a></li>
                     {% endfor %}
                 </ul>
 
