@@ -61,7 +61,7 @@ show_banner: true
         </li>
 
         <li></li>
-        
+
         {% for page in (start..end) %}
             {% if page == paginator.page %}
                 {% capture link %}<span>{{ page }}</span>{% endcapture %}
@@ -70,7 +70,7 @@ show_banner: true
             {% else %}
                 {% capture link %}<a href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>{% endcapture %}
             {% endif %}
-            
+
             <li{% if page == paginator.page %} class="uk-active"{% endif %}>
                 {{ link }}
             </li>

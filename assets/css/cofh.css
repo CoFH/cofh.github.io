@@ -1,5 +1,5 @@
 html {
-    overflow-y: scroll; 
+    overflow-y: scroll;
 }
 
 /*
@@ -11,6 +11,10 @@ p {
 
 .uk-text-muted a {
     color: #688fb1;
+}
+
+.uk-text-small code {
+    font-size: 10.5px;
 }
 
 .uk-float-left .uk-thumbnail, .uk-float-right .uk-thumbnail {
@@ -65,6 +69,10 @@ p {
 
 .uk-nav-offcanvas.cofh-nav-docs>li>a:hover {
     text-decoration: none;
+}
+
+.uk-table-striped tbody tr:nth-of-type(odd) {
+    background: #f8f8f8;
 }
 
 .uk-table-striped tbody tr:nth-of-type(even) {
@@ -157,4 +165,8 @@ p {
 
 .cofh-clickable:hover > .cofh-clickable-icon {
     display: inline;
+}
+
+.cofh-nowrap {
+    white-space: nowrap;
 }
