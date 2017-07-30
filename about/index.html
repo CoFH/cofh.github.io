@@ -30,6 +30,4 @@ redirect_from: /about.html
     The definition of who is a member of Team CoFH and who isn't has always been a bit vague. These are the currently confirmed members of the team.
 </p>
 
-{% for member in site.data.team-members %}
-    {% include team-member.html member=member %}
-{% endfor %}
+{% include team-members.html %}
