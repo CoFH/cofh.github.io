@@ -1,0 +1,49 @@
+- name: King Lemming
+  avatar: kinglemming.png
+  about: >
+    One of the two original members, and probably the most well-known one. King
+    Lemming spends most of his modding time on the Thermal series of mods.
+  social:
+      twitter: kinglemmingcofh
+      github: KingLemming
+      reddit: KingLemming
+
+- name: Cynycal
+  avatar: cynycal.png
+  about: >
+    One of the two original members. Cynycal is an artist; most textures and
+    sounds in the Thermal series of mods were created by him.
+  social:
+      twitter: thisnamekills
+
+- name: Zeldo
+  avatar: zeldo.jpg
+  about: >
+    Zeldo originally joined the team in late 2012 and worked together with King
+    Lemming on Thermal Expansion 2, the first version of the mod to contain
+    redstone energy cells, tesseracts and ducts.
+  social:
+      twitter: zeldokavira
+      github: ZeldoKavira
+      reddit: ZeldoKavira
+
+- name: Skyboy
+  avatar: nope.png
+  about: >
+    The current maintainer of MineFactory Reloaded and Nether Ores. Around early
+    2014 he joined the team, merging the mod PowerCrystalsCore into CoFH Core.
+  social:
+      twitter: skyboy026
+      github: skyboy
+      reddit: skyboy026
+
+- name: RWTema
+  avatar: rwtema.png
+  about: >
+    The author of the mod Extra Utilities. Tema stepped in to help around late
+    2014, when there wasn't anyone around that had time to work on Thermal
+    Dynamics for Minecraft 1.7.10.
+  social:
+      twitter: extra_utilities
+      github: RWTema
+      reddit: RWTema

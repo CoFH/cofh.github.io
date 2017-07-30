@@ -21,7 +21,7 @@ redirect_from: /about.html
 </p>
 
 <p>
-    Everything basically went from there. More people joined the team, Thermal Expansion got rewritten a bunch of times, new mods were made, some were abandoned again, and Minecraft Joules got replaced with the new <a href="/docs/redstone-flux/">Redstone Flux</a>. Even today, Team CoFH is still around, their various mods still alive and being worked on.
+    Since then, more people joined the team, Thermal Expansion got rewritten a bunch of times, new mods were made, some were abandoned again, and Minecraft Joules got replaced with the new <a href="/docs/redstone-flux/">Redstone Flux</a>. Team CoFH is still around today, with their various mods still alive and being worked on.
 </p>
 
 <h2 id="team-members">Team members</h2>
@@ -30,23 +30,6 @@ redirect_from: /about.html
     The definition of who is a member of Team CoFH and who isn't has always been a bit vague. These are the currently confirmed members of the team.
 </p>
 
-{% for member in site.data.team %}
-<div class="uk-panel uk-panel-box uk-margin-bottom">
-    <div class="uk-clearfix">
-        {% if member.avatar %}
-        <div class="uk-float-left uk-margin-right">
-            <img src="/assets/images/avatars/{{member.avatar}}" class="uk-border-rounded" width="150" />
-        </div>
-        {% endif %}
-        <h1 class="uk-panel-title uk-margin-remove">{{member.name}}</h1>
-        <p>{{ member.about }}</p>
-        <div class="uk-text-right uk-margin-large-top">
-            <div class="uk-button-group">
-                {% if member.social.twitter %}<a class="uk-button" href="https://twitter.com/{{member.social.twitter}}" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a>{% endif %}
-                {% if member.social.github %}<a class="uk-button" href="https://github.com/{{member.social.github}}" target="_blank"><i class="uk-icon-github"></i> GitHub</a>{% endif %}
-                {% if member.social.redit %}<a class="uk-button" href="http://www.reddit.com/user/{{member.social.reddit}}" target="_blank"><i class="uk-icon-reddit"></i> reddit</a>{% endif %}
-            </div>
-        </div>
-    </div>
-</div>
+{% for member in site.data.team-members %}
+    {% include team-member.html member=member %}
 {% endfor %}
