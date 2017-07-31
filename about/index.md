@@ -46,41 +46,41 @@ The definition of who is a member of Team CoFH and who isn't has always been a
 bit vague. These are the currently confirmed members of the team.
 
 <div markdown="0">
-    {% for member in site.data.team-members %}
-        <div class="uk-panel uk-panel-box uk-margin-bottom">
-            <div class="uk-clearfix">
-                {% if member.avatar %}
-                    <div class="uk-float-left uk-margin-right">
-                        <img src="/assets/images/avatars/{{member.avatar}}" class="uk-border-rounded" width="150" />
-                    </div>
-                {% endif %}
+{% for member in site.data.team-members %}
+    <div class="uk-panel uk-panel-box uk-margin-bottom">
+        <div class="uk-clearfix">
+            {% if member.avatar %}
+                <div class="uk-float-left uk-margin-right">
+                    <img src="/assets/images/avatars/{{member.avatar}}" class="uk-border-rounded" width="150" />
+                </div>
+            {% endif %}
 
-                <h1 class="uk-panel-title uk-margin-remove">{{member.name}}</h1>
+            <h1 class="uk-panel-title uk-margin-remove">{{member.name}}</h1>
 
-                <p>{{ member.about }}</p>
+            <p>{{ member.about }}</p>
 
-                <div class="uk-text-right uk-margin-large-top">
-                    <div class="uk-button-group">
-                        {% if member.social.twitter %}
-                            <a class="uk-button" href="https://twitter.com/{{member.social.twitter}}" target="_blank">
-                                <i class="uk-icon-twitter"></i> Twitter
-                            </a>
-                        {% endif %}
+            <div class="uk-text-right uk-margin-large-top">
+                <div class="uk-button-group">
+                    {% if member.social.twitter %}
+                        <a class="uk-button" href="https://twitter.com/{{member.social.twitter}}" target="_blank">
+                            <i class="uk-icon-twitter"></i> Twitter
+                        </a>
+                    {% endif %}
 
-                        {% if member.social.github %}
-                            <a class="uk-button" href="https://github.com/{{member.social.github}}" target="_blank">
-                                <i class="uk-icon-github"></i> GitHub
-                            </a>
-                        {% endif %}
+                    {% if member.social.github %}
+                        <a class="uk-button" href="https://github.com/{{member.social.github}}" target="_blank">
+                            <i class="uk-icon-github"></i> GitHub
+                        </a>
+                    {% endif %}
 
-                        {% if member.social.redit %}
-                            <a class="uk-button" href="http://www.reddit.com/user/{{member.social.reddit}}" target="_blank">
-                                <i class="uk-icon-reddit"></i> reddit
-                            </a>
-                        {% endif %}
-                    </div>
+                    {% if member.social.redit %}
+                        <a class="uk-button" href="http://www.reddit.com/user/{{member.social.reddit}}" target="_blank">
+                            <i class="uk-icon-reddit"></i> reddit
+                        </a>
+                    {% endif %}
                 </div>
             </div>
         </div>
-    {% endfor %}
+    </div>
+{% endfor %}
 </div>

@@ -13,7 +13,7 @@ it's a development build.
 Report bugs and suggest new things
 [here](https://github.com/CoFH/Feedback){:target="_blank"}.
 
-<ul markdown="0" class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin data-uk-grid-match="{target: '.uk-panel'}">
+<ul class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin data-uk-grid-match="{target: '.uk-panel'}">
     {% for mod in site.data.download-links %}
         <li id="{{mod.tag}}">
             <div class="uk-panel uk-panel-box">
