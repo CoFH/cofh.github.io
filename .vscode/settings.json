@@ -1,12 +1,17 @@
 // Place your settings in this file to overwrite default and user settings.
 {
     "files.associations": {
-        "*.html": "liquid"
+        "*.html": "liquid,html"
     },
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
         "_site": true,
         "assets/images": true
+    },
+    "[markdown]": {
+        "editor.rulers": [
+            80
+        ]
     }
 }
