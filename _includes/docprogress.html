@@ -1,18 +1,22 @@
-{% assign pages = 0 %}
-{% assign done_pages = 0 %}
+{% if include.force_zero %}
+    {% assign progress = 0 %}
+{% else %}
+    {% assign pages = 0 %}
+    {% assign done_pages = 0 %}
 
-{% for category in site.data.doctree[include.mod] %}
-    {% if category.title != '' %}
-        {% for item in category.items %}
-            {% assign pages = pages | plus: 1 %}
-            {% if item.url %}
-                {% assign done_pages = done_pages | plus: 100 %}
-            {% endif %}
-        {% endfor %}
-    {% endif %}
-{% endfor %}
+    {% for category in site.data.doctree[include.mod] %}
+        {% if category.title != '' %}
+            {% for item in category.items %}
+                {% assign pages = pages | plus: 1 %}
+                {% if item.url %}
+                    {% assign done_pages = done_pages | plus: 100 %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
 
-{% assign progress = done_pages | divided_by: pages %}
+    {% assign progress = done_pages | divided_by: pages %}
+{% endif %}
 
 {% if progress == 100 %}
     {% assign class = 'uk-progress-success uk-progress-striped' %}

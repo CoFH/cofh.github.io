@@ -23,6 +23,12 @@ defaults:
       nav: cofh-core
       mod: CoFH Core
   - scope:
+      path: "docs/cofh-world"
+      type: pages
+    values:
+      nav: cofh-world
+      mod: CoFH World
+  - scope:
       path: "docs/thermal-foundation"
       type: pages
     values:
@@ -41,6 +47,12 @@ defaults:
       nav: thermal-dynamics
       mod: Thermal Dynamics
   - scope:
+      path: "docs/thermal-cultivation"
+      type: pages
+    values:
+      nav: thermal-cultivation
+      mod: Thermal Cultivation
+  - scope:
       path: "docs/redstone-arsenal"
       type: pages
     values:
@@ -52,6 +64,13 @@ defaults:
     values:
       nav: minefactory-reloaded
       mod: MineFactory Reloaded
+  - scope:
+      path: "docs/nether-ores"
+      type: pages
+    values:
+      nav: nether-ores
+      mod: Nether Ores
+
 
 exclude:
   - README.md

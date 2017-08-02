@@ -19,5 +19,6 @@ Site last updated: {{ site.time }}
 {% include docprogress.html mod='thermal-foundation' modname='Thermal Foundation' %}
 {% include docprogress.html mod='thermal-expansion' modname='Thermal Expansion' %}
 {% include docprogress.html mod='thermal-dynamics' modname='Thermal Dynamics' %}
+{% include docprogress.html mod='thermal-cultivation' modname='Thermal Cultivation' force_zero=true %}
 {% include docprogress.html mod='redstone-arsenal' modname='Redstone Arsenal' %}
-{% include docprogress.html mod='minefactory-reloaded' modname='MineFactory Reloaded' %}
+{% include docprogress.html mod='minefactory-reloaded' modname='MineFactory Reloaded' force_zero=true %}
