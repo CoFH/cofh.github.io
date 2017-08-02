@@ -8,7 +8,7 @@ a link in the sidebar to begin.
 
 Progress
 --------
-{: .uk-margin-large-top}
+{:.uk-margin-large-top}
 
 **ATTENTION:** These progress bars are for the progress of the documentation,
 NOT the mods. The mods are being worked on.

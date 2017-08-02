@@ -11,6 +11,7 @@ main:
       - title: "CoFH Core"
         url: "/cofh-core/"
       - title: "CoFH World"
+        url: "/cofh-world/"
 
   - title: "Redstone Flux"
     items:
@@ -28,6 +29,7 @@ main:
       - title: "Thermal Dynamics"
         url: "/thermal-dynamics/"
       - title: "Thermal Cultivation"
+        url: "/thermal-cultivation/"
       - title: "Redstone Arsenal"
         url: "/redstone-arsenal/"
 
@@ -56,11 +58,23 @@ cofh-core:
       - title: "Multishot"
         url: "/cofh-core/enchantments/multishot/"
 
+cofh-world:
+  - title: ""
+    items:
+      - title: "CoFH World"
+        url: "/cofh-world/"
+  - title: "Guides"
+    items:
+      - title: "World Generator Configuration"
+
 thermal-foundation:
   - title: ""
     items:
       - title: "Thermal Foundation"
         url: "/thermal-foundation/"
+  - title: "Guides"
+    items:
+      - title: "Getting started"
   - title: "World Generation"
     items:
       - title: "Ores"
@@ -215,6 +229,9 @@ thermal-expansion:
     items:
       - title: "Thermal Expansion"
         url: "/thermal-expansion/"
+  - title: "Guides"
+    items:
+      - title: "Getting started"
   - title: "Machines"
     items:
       - title: "Redstone Furnace"
@@ -403,28 +420,30 @@ thermal-dynamics:
     items:
       - title: "Thermal Dynamics"
         url: "/thermal-dynamics/"
+  - title: "Guides"
+    items:
+      - title: "Getting started"
   - title: "Ducts"
     items:
-      - title: "Itemducts"
-        url: "/thermal-dynamics/ducts/itemducts/"
       - title: "Fluiducts"
       - title: "Fluxducts"
+      - title: "Itemducts"
+        url: "/thermal-dynamics/ducts/itemducts/"
       - title: "Structuralduct"
-      - title: "Luxduct"
-  - title: "Duct Attachments"
+      - title: "Viaducts"
+  - title: "Attachments"
     items:
-      - title: "Servos"
+      - title: "Covers"
       - title: "Filters"
       - title: "Retrievers"
-      - title: "Redstone Relay"
-      - title: "Covers"
+      - title: "Servos"
 
 thermal-cultivation:
   - title: ""
     items:
       - title: "Thermal Cultivation"
         url: "/thermal-cultivation/"
-  - title: ""
+  - title: "Items"
     items:
       - title: "Watering Cans"
 
@@ -435,20 +454,22 @@ redstone-arsenal:
         url: "/redstone-arsenal/"
   - title: "Equipment"
     items:
-      - title: "Flux-Infused Pickaxe"
-      - title: "Flux-Infused Shovel"
-      - title: "Flux-Infused Axe"
-      - title: "Flux-Infused Shears"
-      - title: "Flux-Infused Sickle"
-      - title: "Flux-Infused Fishing Rod"
-      - title: "Flux-Infused OmniWrench"
-      - title: "Flux-Infused BattleWrench"
-      - title: "Flux-Infused Sword"
-      - title: "Flux-Infused Bow"
       - title: "Flux-Infused Armor"
+      - title: "Flux-Infused Axe"
+      - title: "Flux-Infused BattleWrench"
+      - title: "Flux-Infused Bow"
+      - title: "Flux-Infused Fishing Rod"
+      - title: "Flux-Infused Hammer"
+      - title: "Flux-Infused OmniWrench"
+      - title: "Flux-Infused Pickaxe"
+      - title: "Flux-Infused Quiver"
+      - title: "Flux-Infused Shield"
+      - title: "Flux-Infused Shovel"
+      - title: "Flux-Infused Sickle"
+      - title: "Flux-Infused Sword"
   - title: "Materials"
     items:
-      - title: "Fluxed Electrum"
       - title: "Flux Crystal"
-      - title: "Obsidian Rod"
       - title: "Fluxed Armor Plating"
+      - title: "Fluxed Electrum"
+      - title: "Obsidian Rod"

@@ -174,3 +174,8 @@ p {
 .cofh-nowrap {
     white-space: nowrap;
 }
+
+.cofh-mod-page-logo {
+    height: 100px;
+    margin-bottom: 15px;
+}
