@@ -1,4 +1,4 @@
-<li{% if page.url contains '/about' %} class="uk-active"{% endif %}>
+<li{% if page.url contains '/about' %}{% unless page.url contains '/docs' %} class="uk-active"{% endunless %}{% endif %}>
     <a href="/about/">About</a>
 </li>
 <li{% if page.url contains '/docs' %} class="uk-active"{% endif %}>
