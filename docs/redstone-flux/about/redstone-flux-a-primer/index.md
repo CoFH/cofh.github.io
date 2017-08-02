@@ -1,6 +1,8 @@
 ---
 title: "Redstone Flux: A Primer"
-redirect_from: /redstone-flux/a-primer.html
+redirect_from:
+  - /redstone-flux/a-primer.html
+  - /docs/redstone-flux/a-primer/
 ---
 
 By King Lemming, Ph.D.

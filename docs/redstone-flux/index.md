@@ -9,8 +9,8 @@ redirect_from:
 
 **Redstone Flux**, often referred to as **RF**, is the energy system used by the
 mods of Team CoFH. As described in [Redstone Flux: A
-Primer](/docs/redstone-flux/a-primer/), it is an extension of the redstone power
-system.
+Primer](/docs/redstone-flux/about/redstone-flux-a-primer/), it is an extension
+of the redstone power system.
 
 Various blocks and items in the CoFH mods consume Redstone Flux energy to
 accomplish all kinds of tasks. Redstone Flux is usually consumed for one of two

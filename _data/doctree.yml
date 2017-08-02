@@ -8,17 +8,12 @@ main:
         url: "/terminology/"
   - title: "Core"
     items:
+      - title: "Redstone Flux"
+        url: "/redstone-flux/"
       - title: "CoFH Core"
         url: "/cofh-core/"
       - title: "CoFH World"
         url: "/cofh-world/"
-
-  - title: "Redstone Flux"
-    items:
-      - title: "Redstone Flux"
-        url: "/redstone-flux/"
-      - title: "A Primer"
-        url: "/redstone-flux/a-primer/"
 
   - title: "Thermal Series"
     items:
@@ -37,6 +32,16 @@ main:
     items:
       - title: "MineFactory Reloaded"
       - title: "Nether Ores"
+
+redstone-flux:
+  - title: ""
+    items:
+      - title: "Redstone Flux"
+        url: "/redstone-flux/"
+  - title: "About"
+    items:
+      - title: "Redstone Flux: A Primer"
+        url: "/redstone-flux/about/redstone-flux-a-primer/"
 
 cofh-core:
   - title: ""

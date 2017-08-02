@@ -17,6 +17,12 @@ defaults:
     values:
       layout: docs
   - scope:
+      path: "docs/redstone-flux"
+      type: pages
+    values:
+      nav: redstone-flux
+      mod: Redstone Flux
+  - scope:
       path: "docs/cofh-core"
       type: pages
     values:
