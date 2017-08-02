@@ -52,16 +52,10 @@ cofh-core:
     items:
       - title: "Commands"
         url: "/cofh-core/features/commands/"
-      - title: "Custom World Generation (1.7)"
-        url: "/cofh-core/features/custom-world-generation-1-7/"
-      - title: "Custom World Generation (1.10)"
-        url: "/cofh-core/features/custom-world-generation-1-10/"
-  - title: "Enchantments"
-    items:
-      - title: "Holding"
-        url: "/cofh-core/enchantments/holding/"
-      - title: "Multishot"
-        url: "/cofh-core/enchantments/multishot/"
+      - title: "Enchantments"
+        url: "/cofh-core/features/enchantments/"
+      - title: "Friend List"
+      - title: "Game Tweaks"
 
 cofh-world:
   - title: ""
@@ -71,6 +65,7 @@ cofh-world:
   - title: "Guides"
     items:
       - title: "World Generator Configuration"
+        url: "/cofh-world/guides/world-generator-configuration/"
 
 thermal-foundation:
   - title: ""
@@ -450,7 +445,7 @@ thermal-cultivation:
         url: "/thermal-cultivation/"
   - title: "Items"
     items:
-      - title: "Watering Cans"
+      - title: "Watering Can"
 
 redstone-arsenal:
   - title: ""

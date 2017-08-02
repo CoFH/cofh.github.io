@@ -1,0 +1,312 @@
+<ul class="uk-subnav uk-subnav-line uk-subnav-pill" data-uk-switcher="{ connect: '#distribution-type-switcher' }">
+    <li><a href>uniform</a></li>
+    <li><a href>gaussian</a></li>
+    <li><a href>surface</a></li>
+    <li><a href>decoration</a></li>
+    <li><a href>underfluid</a></li>
+    <li><a href>underwater</a></li>
+    <li><a href>cave</a></li>
+    <li><a href>fractal</a></li>
+</ul>
+
+<div class="uk-panel uk-panel-box uk-text-small">
+    <ul id="distribution-type-switcher" class="uk-switcher">
+        <li>
+            <p>
+                With the <code>uniform</code> distribution, features are uniformly distributed between a minimum and a maximum altitude. This is the most common distribution for ores.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator material is stone.</li>
+            </ul>
+
+            <p>
+                The following values must be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">min-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The minimum altitude at which features can be generated.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">max-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The maximum altitude at which features can be generated. Must be higher than <code>min-height</code>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                With the <code>gaussian</code> distribution, features are distributed around a certain altitude. The features generate commonly near this altitude, and less commonly further from this altitude. Lapis lazuli ore is generated like this.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator material is stone.</li>
+            </ul>
+
+            <p>
+                The following values must be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">center-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The altitude around which features are generated.</td>
+                        </tr>
+                        <tr>
+                            <td>spread</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How many blocks away from the center altitude features may be generated.</td>
+                        </tr>
+                        <tr>
+                            <td>smoothness</td>
+                            <td>No</td>
+                            <td>Number (integer)</td>
+                            <td><code>2</code></td>
+                            <td>How smoothly the amount of features generated declines when further from the center altitude. Must be higher than <code>0</code>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                With the <code>surface</code> distribution, features are distributed on the surface (wherever the sky is directly visible).
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator materials are stone, grass blocks, dirt, sand, gravel, snow, water and air. Air is in this list because this allows features to be generated on top of the surface (replacing air blocks), and not just into the surface (replacing the other block types).</li>
+            </ul>
+
+            <p>
+                The following value may be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>material</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / array of block entries</td>
+                            <td>Same as default generator materials</td>
+                            <td>The type(s) of block that features may be generated in. This is checked before generating an entire feature, unlike generator materials, which are checked for every block while already generating a feature.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">follow-terrain</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>When set to <code>true</code>, blocks like tall grass, leaves and fluids do not count when finding the highest block to generate on top of.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>decoration</code> distribution is mostly the same as <code>surface</code>, except the default generator is <code>decoration</code> and the default generator material is only air.
+            </p>
+
+            <p>
+                This is useful when using the <code>decoration</code> generator, because said generator only generates blocks on top of surfaces, so only air blocks should have to be replaced.
+            </p>
+        </li>
+        <li>
+            <p>
+                With the <code>underfluid</code> distribution, features are distributed at the bottom of bodies of fluid.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator materials are grass blocks and dirt.</li>
+            </ul>
+
+            <p>
+                The following value may be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>fluid</td>
+                            <td>No</td>
+                            <td>String / array of strings</td>
+                            <td>(see description)</td>
+                            <td>Below which fluid types features may be generated. The fluids' registry names (like <code>lava</code> and <code>cryotheum</code>) should be used here. Note that the default value is not <code>water</code>. Instead, when this value is not specified, features are generated below any blocks with the 'water' material.</td>
+                        </tr>
+                        <tr>
+                            <td>material</td>
+                            <td>No</td>
+                            <td><a href="#block-entry">Block entry</a> / array of block entries</td>
+                            <td>Same as default generator materials</td>
+                            <td>The type(s) of block that features may be generated in. This is checked before generating an entire feature, unlike generator materials, which are checked for every block while already generating a feature.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                The <code>underwater</code> distribution is a shortcut to using <code>underfluid</code> without setting the value <code>fluid</code>.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>plate</code> instead of <code>cluster</code>.</li>
+            </ul>
+        </li>
+        <li>
+            <p>
+                With the <code>cave</code> distribution, features are distributed on floors or ceilings of underground spaces. This typically only works below sea level. If sea level is below block layer 20, however, it will work on any altitude instead.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>cluster</code>.</li>
+                <li>The default generator material is stone.</li>
+            </ul>
+
+            <p>
+                The following value may be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ceiling</td>
+                            <td>No</td>
+                            <td>Boolean</td>
+                            <td><code>false</code></td>
+                            <td>Whether features are generated on ceilings or on floors. If <code>true</code>, features are generated on ceilings, and if <code>false</code>, features are generated on floors.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li>
+            <p>
+                With the <code>fractal</code> distribution, multiple features are distributed together in large clusters, also known as <dfn>veins</dfn>.
+            </p>
+
+            <ul>
+                <li>The default generator type is <code>large-vein</code>.</li>
+                <li>The default generator material is stone.</li>
+            </ul>
+
+            <p>
+                The following values must be added to a generation entry for this distribution type:
+            </p>
+            <div class="uk-overflow-container">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Required</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cofh-nowrap">min-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The minimum altitude at which veins can be generated.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">vein-height</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The vertical diameter of veins, measured in blocks along the Y axis.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">vein-diameter</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The horizontal diameter of veins, measured in blocks along the X and Z axes.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">vertical-density</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>How dense veins are along the Y axis. Higher numbers mean that features in veins are closer together, making veins contain more blocks in total. This value is not measured in blocks; some experimenting will be needed to obtain the desired result.</td>
+                        </tr>
+                        <tr>
+                            <td class="cofh-nowrap">horizontal-density</td>
+                            <td>Yes</td>
+                            <td>Number (integer)</td>
+                            <td>N/A</td>
+                            <td>The same as <code class="cofh-nowrap">vertical-density</code>, except along the X and Z axes.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,36 @@
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Required</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>id</td>
+                <td>Yes</td>
+                <td>String</td>
+                <td>N/A</td>
+                <td>The internal mod ID that the mod registers itself with.</td>
+            </tr>
+            <tr>
+                <td>version</td>
+                <td>No</td>
+                <td>String</td>
+                <td>(Any version)</td>
+                <td>The version of the mod. May be a specific version, or a <a href="http://maven.apache.org/enforcer/enforcer-rules/versionRanges.html" target="_blank">Maven-compatible version range</a>.</td>
+            </tr>
+            <tr>
+                <td>exclude</td>
+                <td>No</td>
+                <td>Boolean</td>
+                <td><code>false</code></td>
+                <td>If <code>true</code>, the file that this entry is declared in will only load if the specified mod is <em>not</em> installed.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

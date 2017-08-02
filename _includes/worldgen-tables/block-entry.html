@@ -1,0 +1,36 @@
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Required</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>name</td>
+                <td>Yes</td>
+                <td>String</td>
+                <td>N/A</td>
+                <td>The internal name (ID) of the block, like <code>minecraft:stone</code> for stone, and <code>ThermalFoundation:Ore</code> for Thermal Foundation ore blocks. If the block is added by Minecraft itself, the <code>minecraft:</code> prefix is not required.</td>
+            </tr>
+            <tr>
+                <td>properties</td>
+                <td>No</td>
+                <td>Object with string values</td>
+                <td>(Default block states of the specified block)</td>
+                <td>The block states of the block. This value and <code>metadata</code> cannot both be specified.</td>
+            </tr>
+            <tr>
+                <td>metadata</td>
+                <td>No</td>
+                <td>Number (integer)</td>
+                <td><code>0</code></td>
+                <td>The metadata value of the block. A value of <code>-1</code> means the block entry represents the block with any metadata. This value and <code>properties</code> cannot both be specified.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
