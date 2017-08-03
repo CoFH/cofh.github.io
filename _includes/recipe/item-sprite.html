@@ -3,16 +3,11 @@
 {% assign item_site = site.data.recipes.sites[item_data.site] %}
 
 <a href="{{ item_site.url }}{{ item_data.url }}" {% if item_site.new-tab %}target="_blank"{% endif %}>
-    <div style="width: 32px; height: 32px" title="{{ item_data.name }}" data-uk-tooltip="{pos: 'top', offset: 4}">
+    <div class="cofh-recipe-item-sprite" title="{{ item_data.name }}" data-uk-tooltip="{pos: 'top', offset: 4}">
         {% if item_data.animated %}
-            <img src="/assets/images/recipe/item-sprites/{{ item_name }}.gif" style="width: 32px; height: 32px" />
+            <img src="/assets/images/recipe/item-sprites/{{ item_name }}.gif" class="cofh-recipe-item-sprite" />
         {% else %}
-            <div style="
-                width: 32px;
-                height: 32px;
-                background-image: url('/assets/images/recipe/item-sprites/sheet.png');
-                background-position: -{{ item_data.sprite[0] | times: 32 }}px -{{ item_data.sprite[1] | times: 32 }}px;
-            "></div>
+            <div class="cofh-recipe-item-sheet-sprite" style="background-position: -{{ item_data.sprite[0] | times: 32 }}px -{{ item_data.sprite[1] | times: 32 }}px;"></div>
         {% endif %}
     </div>
 </a>

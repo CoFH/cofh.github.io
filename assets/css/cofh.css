@@ -179,3 +179,43 @@ p {
     height: 100px;
     margin-bottom: 15px;
 }
+
+.cofh-recipe {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 11px;
+    line-height: 16px;
+    vertical-align: top;
+}
+
+.cofh-recipe-slot-amount {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #444444 2px 2px 1px;
+    pointer-events: none;
+}
+
+.cofh-recipe-item-sprite, .cofh-recipe-item-sheet-sprite {
+    width: 32px;
+    height: 32px;
+}
+
+.cofh-recipe-item-sheet-sprite {
+    background-image: url('/assets/images/recipe/item-sprites/sheet.png');
+}
+
+.cofh-recipe-floating-text {
+    position: relative;
+    top: 82px;
+    left: -64px;
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
