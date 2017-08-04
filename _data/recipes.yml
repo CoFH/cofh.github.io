@@ -6,6 +6,11 @@ sites:
     url: '/docs/thermal-foundation/'
 
 items:
+  aluminum-ingot:
+    name: 'Aluminum Ingot'
+    sprite: [11, 0]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/aluminum/'
   birch-wood:
     name: 'Birch Wood'
     sprite: [0, 0]
@@ -21,16 +26,186 @@ items:
     sprite: [2, 0]
     site: 'mc-wiki'
     url: 'Blaze_Powder'
+  bronze-blend:
+    name: 'Bronze Blend'
+    sprite: [15, 2]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/bronze/'
+  bronze-ingot:
+    name: 'Bronze Ingot'
+    sprite: [12, 0]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/bronze/'
   coal-dust:
     name: 'Pulverized Coal'
     sprite: [3, 0]
     site: 'tf-docs'
-    url: 'materials/pulverized-materials/'
+    url: 'materials/pulverized-materials-and-blends/'
+  constantan-blend:
+    name: 'Constantan Blend'
+    sprite: [0, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/constantan/'
+  constantan-ingot:
+    name: 'Constantan Ingot'
+    sprite: [13, 0]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/constantan/'
+  copper-ingot:
+    name: 'Copper Ingot'
+    sprite: [14, 0]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/copper/'
   crafting-table:
     name: 'Crafting Table'
     sprite: [4, 0]
     site: 'mc-wiki'
     url: 'Crafting_Table'
+  electrum-blend:
+    name: 'Electrum Blend'
+    sprite: [2, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/electrum/'
+  electrum-ingot:
+    name: 'Electrum Ingot'
+    sprite: [15, 0]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/electrum/'
+  enderium-blend:
+    name: 'Enderium Blend'
+    sprite: [3, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/enderium/'
+  enderium-ingot:
+    name: 'Enderium Ingot'
+    sprite: [0, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/enderium/'
+  hardened-glass:
+    name: 'Hardened Glass'
+    sprite: [12, 1]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-aluminum-glass:
+    name: 'Hardened Aluminum Glass'
+    sprite: [0, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-bronze-glass:
+    name: 'Hardened Bronze Glass'
+    sprite: [8, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-constantan-glass:
+    name: 'Hardened Constantan Glass'
+    sprite: [9, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-copper-glass:
+    name: 'Hardened Copper Glass'
+    sprite: [13, 1]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-electrum-glass:
+    name: 'Hardened Electrum Glass'
+    sprite: [6, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-enderium-glass:
+    name: 'Hardened Enderium Glass'
+    sprite: [12, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-invar-glass:
+    name: 'Hardened Invar Glass'
+    sprite: [7, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-iridium-glass:
+    name: 'Hardened Iridium Glass'
+    sprite: [3, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-lumium-glass:
+    name: 'Hardened Lumium Glass'
+    sprite: [11, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-mana-infused-glass:
+    name: 'Hardened Mana Infused Glass'
+    sprite: [4, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-nickel-glass:
+    name: 'Hardened Nickel Glass'
+    sprite: [1, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-platinum-glass:
+    name: 'Hardened Platinum Glass'
+    sprite: [2, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-signalum-glass:
+    name: 'Hardened Signalum Glass'
+    sprite: [10, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-silver-glass:
+    name: 'Hardened Silver Glass'
+    sprite: [15, 1]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-steel-glass:
+    name: 'Hardened Steel Glass'
+    sprite: [5, 2]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  hardened-tin-glass:
+    name: 'Hardened Tin Glass'
+    sprite: [14, 1]
+    site: 'tf-docs'
+    url: 'blocks/hardened-glass/'
+  invar-blend:
+    name: 'Invar Blend'
+    sprite: [4, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/invar/'
+  invar-ingot:
+    name: 'Invar Ingot'
+    sprite: [1, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/invar/'
+  iridium-ingot:
+    name: 'Iridium Ingot'
+    sprite: [2, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/iridium/'
+  lead-ingot:
+    name: 'Lead Ingot'
+    sprite: [3, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lead/'
+  lumium-blend:
+    name: 'Lumium Blend'
+    sprite: [7, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lumium/'
+  lumium-ingot:
+    name: 'Lumium Ingot'
+    sprite: [4, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lumium/'
+  mana-infused-ingot:
+    name: 'Mana Infused Ingot'
+    sprite: [5, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/mana-infused-metal/'
+  nickel-ingot:
+    name: 'Nickel Ingot'
+    sprite: [6, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/nickel/'
   oak-wood:
     name: 'Oak Wood'
     sprite: [5, 0]
@@ -41,16 +216,86 @@ items:
     sprite: [6, 0]
     site: 'mc-wiki'
     url: 'Wood_Planks'
+  platinum-ingot:
+    name: 'Platinum Ingot'
+    sprite: [7, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/platinum/'
+  pulverized-aluminum:
+    name: 'Pulverized Aluminum'
+    sprite: [14, 2]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/aluminum/'
+  pulverized-copper:
+    name: 'Pulverized Copper'
+    sprite: [1, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/copper/'
+  pulverized-iridium:
+    name: 'Pulverized Iridium'
+    sprite: [5, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/iridium/'
+  pulverized-lead:
+    name: 'Pulverized Lead'
+    sprite: [6, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lead/'
+  pulverized-mana-infused-metal:
+    name: 'Pulverized Mana Infused Metal'
+    sprite: [8, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/mana-infused-metal/'
+  pulverized-nickel:
+    name: 'Pulverized Nickel'
+    sprite: [9, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/nickel/'
+  pulverized-obsidian:
+    name: 'Pulverized Obsidian'
+    sprite: [13, 2]
+    site: 'tf-docs'
+    url: 'materials/pulverized-materials-and-blends/'
+  pulverized-platinum:
+    name: 'Pulverized Platinum'
+    sprite: [10, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/platinum/'
+  pulverized-silver:
+    name: 'Pulverized Silver'
+    sprite: [12, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/silver/'
+  pulverized-tin:
+    name: 'Pulverized Tin'
+    sprite: [14, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/tin/'
   pyrotheum-dust:
     name: 'Pyrotheum Dust'
     animated: true
     site: 'tf-docs'
-    url: 'elemental-materials/pyrotheum-dust/'
+    url: 'materials/pyrotheum-dust/'
   redstone:
     name: 'Redstone'
     sprite: [7, 0]
     site: 'mc-wiki'
     url: 'Redstone'
+  signalum-blend:
+    name: 'Signalum Blend'
+    sprite: [11, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/signalum/'
+  signalum-ingot:
+    name: 'Signalum Ingot'
+    sprite: [8, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/signalum/'
+  silver-ingot:
+    name: 'Silver Ingot'
+    sprite: [9, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/silver/'
   spruce-wood:
     name: 'Spruce Wood'
     sprite: [8, 0]
@@ -61,13 +306,86 @@ items:
     sprite: [9, 0]
     site: 'mc-wiki'
     url: 'Wood_Planks'
+  steel-blend:
+    name: 'Steel Blend'
+    sprite: [13, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/steel/'
+  steel-ingot:
+    name: 'Steel Ingot'
+    sprite: [10, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/steel/'
   sulfur:
     name: 'Sulfur'
     sprite: [10, 0]
     site: 'tf-docs'
-    url: 'materials/sulfur'
+    url: 'materials/sulfur/'
+  tin-ingot:
+    name: 'Tin Ingot'
+    sprite: [11, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/tin/'
 
 recipes:
+  hardened-glass:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item:
+          - 'lead-ingot'
+          - 'pulverized-lead'
+        amount: 1
+      secondary-input:
+        item: ['pulverized-obsidian']
+        amount: 4
+      primary-output:
+        item: ['hardened-glass']
+        amount: 2
+  hardened-glass-variants:
+    type: 'induction-smelter'
+    data:
+      energy: 6000
+      primary-input:
+        item: ['hardened-glass']
+        amount: 2
+      secondary-input:
+        item:
+          - 'pulverized-copper'
+          - 'pulverized-tin'
+          - 'pulverized-silver'
+          - 'pulverized-aluminum'
+          - 'pulverized-nickel'
+          - 'pulverized-platinum'
+          - 'pulverized-iridium'
+          - 'steel-blend'
+          - 'electrum-blend'
+          - 'invar-blend'
+          - 'bronze-blend'
+          - 'constantan-blend'
+          - 'signalum-blend'
+          - 'lumium-blend'
+          - 'enderium-blend'
+        amount: 1
+      primary-output:
+        item:
+          - 'hardened-copper-glass'
+          - 'hardened-tin-glass'
+          - 'hardened-silver-glass'
+          - 'hardened-aluminum-glass'
+          - 'hardened-nickel-glass'
+          - 'hardened-platinum-glass'
+          - 'hardened-iridium-glass'
+          - 'hardened-steel-glass'
+          - 'hardened-electrum-glass'
+          - 'hardened-invar-glass'
+          - 'hardened-bronze-glass'
+          - 'hardened-constantan-glass'
+          - 'hardened-signalum-glass'
+          - 'hardened-lumium-glass'
+          - 'hardened-enderium-glass'
+        amount: 2
   pyrotheum-dust:
     type: 'crafting'
     data:
