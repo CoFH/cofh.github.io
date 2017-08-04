@@ -22,7 +22,7 @@ amounts of light depending on the metal or alloy used, like
 [lumium](/docs/thermal-foundation/metals-and-alloys/lumium/).
 
 Placed hardened glass blocks can only be harvested by dismantling them with a
-[Crescent Hammer](/docs/thermal-foundation/items/crescent-hammer/), or by
+[crescent hammer](/docs/thermal-foundation/items/crescent-hammer/), or by
 breaking them with a tool enchanted with [Silk
 Touch](https://minecraft.gamepedia.com/Silk_Touch){:target="_blank"}. They also
 change the color of
