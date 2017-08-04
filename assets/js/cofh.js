@@ -5,19 +5,19 @@ layout: null
 var pages = [
     {% for page in site.pages %}
         {
-            title: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}", 
-            value: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}", 
+            title: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}",
+            value: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}",
             url: "{{ page.url }}"
-            {% if page.mod and page.title != page.mod %}, mod: "{{ page.mod }}"{% endif %} 
+            {% if page.mod and page.title != page.mod %}, mod: "{{ page.mod }}"{% endif %}
         }
         {% if page.search_headers %}
             {% for header in page.search_headers %}
                 ,
                 {
-                    title: "{{ header.title }}", 
-                    value: "{{ header.title }}", 
+                    title: "{{ header.title }}",
+                    value: "{{ header.title }}",
                     url: "{{ page.url }}{% if header.id %}#{{ header.id }}{% endif %}"
-                    {% if page.mod and page.title != page.mod %}, mod: "{{ page.mod }}"{% endif %} 
+                    {% if page.mod and page.title != page.mod %}, mod: "{{ page.mod }}"{% endif %}
                 }
             {% endfor %}
         {% endif %}
@@ -46,7 +46,7 @@ $(function() {
     $(':header').each(function() {
         var id = $(this).attr('id');
         if (typeof(id) === 'undefined') return;
-        
+
         $(this)
             .addClass('cofh-clickable')
             .append('<a href="#' + id + '" class="uk-margin-small-left cofh-clickable-icon" title="Permalink"><i class="uk-icon-link"></i></a>')
@@ -87,8 +87,16 @@ $(function() {
     var nick = nicks[Math.floor(Math.random() * nicks.length)];
     $('a.irclink').attr('href', 'http://webchat.esper.net/?nick=' + nick + '....&channels=#ThermalExpansion');
 
+    $('.cofh-recipe')
+        .mouseenter(function() {
+            $(this).addClass('paused');
+        })
+        .mouseleave(function() {
+            $(this).removeClass('paused');
+        });
+
     window.setInterval(function() {
-        $('.cofh-item-cycle > div:not(.hidden)').each(function() {
+        $('.cofh-recipe:not(.paused) .cofh-item-cycle > div:not(.hidden)').each(function() {
             var $this = $(this);
 
             $this.addClass('hidden');

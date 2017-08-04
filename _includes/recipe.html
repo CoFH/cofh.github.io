@@ -1,2 +1,4 @@
-{% assign recipe = site.data.recipes.recipes[include.recipe] %}
-{% include recipe/types/{{ recipe.type }}.html data=recipe.data %}
+<div class="cofh-recipe">
+    {% assign recipe = site.data.recipes.recipes[include.recipe] %}
+    {% include recipe/types/{{ recipe.type }}.html data=recipe.data %}
+</div>
