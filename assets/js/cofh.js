@@ -87,12 +87,12 @@ $(function() {
     var nick = nicks[Math.floor(Math.random() * nicks.length)];
     $('a.irclink').attr('href', 'http://webchat.esper.net/?nick=' + nick + '....&channels=#ThermalExpansion');
 
-    $('.cofh-recipe')
+    $('.cofh-recipe .cofh-item-cycle > div')
         .mouseenter(function() {
-            $(this).addClass('paused');
+            $(this).closest('.cofh-recipe').addClass('paused');
         })
         .mouseleave(function() {
-            $(this).removeClass('paused');
+            $(this).closest('.cofh-recipe').removeClass('paused');
         });
 
     window.setInterval(function() {
@@ -108,5 +108,5 @@ $(function() {
 
             $next.removeClass('hidden');
         });
-    }, 1500);
+    }, 1000);
 });
