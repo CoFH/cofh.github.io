@@ -9,13 +9,13 @@ By King Lemming, Ph.D.
 
 Redstone - the mysterious substance found deep underground - is the source of
 limitless potential in this new age of industrialization. In its native
-[ore](https://minecraft.gamepedia.com/Redstone_Ore"){:target="_blank"} form, it
+[ore](https://minecraft.gamepedia.com/Redstone_Ore){:target="_blank"} form, it
 exhibits the fascinating property of absorbing kinetic impacts and emitting
 light. If a sufficiently strong implement, such as an [iron
-pickaxe](https://minecraft.gamepedia.com/Pickaxe"){:target="_blank"}, is used to
+pickaxe](https://minecraft.gamepedia.com/Pickaxe){:target="_blank"}, is used to
 deliver these impacts, the ore will shatter apart and release its precious
 contents in the most native form - [redstone
-dust](https://minecraft.gamepedia.com/Redstone"){:target="_blank"}. Veritable
+dust](https://minecraft.gamepedia.com/Redstone){:target="_blank"}. Veritable
 treatises have been written on this particular form of redstone and how it may
 be used to construct rudimentary circuitry, so this particular property will not
 be further elaborated upon in this writing.
