@@ -456,6 +456,91 @@ items:
     sprite: [15, 3]
     site: 'tf-docs'
     url: 'materials/slag/'
+  storage-block-aluminum:
+    name: 'Aluminum Block'
+    sprite: [4, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/aluminum/'
+  storage-block-bronze:
+    name: 'Bronze Block'
+    sprite: [12, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/bronze/'
+  storage-block-constantan:
+    name: 'Constantan Block'
+    sprite: [13, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/constantan/'
+  storage-block-copper:
+    name: 'Copper Block'
+    sprite: [0, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/copper/'
+  storage-block-electrum:
+    name: 'Electrum Block'
+    sprite: [10, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/electrum/'
+  storage-block-enderium:
+    name: 'Enderium Block'
+    sprite: [0, 7]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/enderium/'
+  storage-block-invar:
+    name: 'Invar Block'
+    sprite: [11, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/invar/'
+  storage-block-iridium:
+    name: 'Iridium Block'
+    sprite: [7, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/iridium/'
+  storage-block-lead:
+    name: 'Lead Block'
+    sprite: [3, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lead/'
+  storage-block-lumium:
+    name: 'Lumium Block'
+    sprite: [15, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lumium/'
+  storage-block-mithril:
+    name: 'Mana Infused Block'
+    sprite: [8, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/mana-infused-metal/'
+  storage-block-nickel:
+    name: 'Nickel Block'
+    sprite: [5, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/nickel/'
+  storage-block-platinum:
+    name: 'Platinum Block'
+    sprite: [6, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/platinum/'
+  storage-block-signalum:
+    name: 'Signalum Block'
+    sprite: [14, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/signalum/'
+  storage-block-silver:
+    name: 'Silver Block'
+    sprite: [2, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/silver/'
+  storage-block-steel:
+    name: 'Steel Block'
+    sprite: [9, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/steel/'
+  storage-block-tin:
+    name: 'Tin Block'
+    sprite: [1, 6]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/tin/'
   sulfur:
     name: 'Sulfur'
     sprite: [10, 0]
@@ -610,4 +695,51 @@ recipes:
               - 'bone-meal'
       result:
         item: *rockwools
+        amount: 1
+  storage-blocks:
+    type: 'crafting'
+    data:
+      shapeless: true
+      rows:
+        - - item: &tf-ingots
+              - 'ingot-copper'
+              - 'ingot-tin'
+              - 'ingot-silver'
+              - 'ingot-lead'
+              - 'ingot-aluminum'
+              - 'ingot-nickel'
+              - 'ingot-platinum'
+              - 'ingot-iridium'
+              - 'ingot-mithril'
+              - 'ingot-steel'
+              - 'ingot-electrum'
+              - 'ingot-invar'
+              - 'ingot-bronze'
+              - 'ingot-constantan'
+              - 'ingot-signalum'
+              - 'ingot-lumium'
+              - 'ingot-enderium'
+          - item: *tf-ingots
+          - item: *tf-ingots
+        - [item: *tf-ingots , item: *tf-ingots , item: *tf-ingots ]
+        - [item: *tf-ingots , item: *tf-ingots , item: *tf-ingots ]
+      result:
+        item:
+          - 'storage-block-copper'
+          - 'storage-block-tin'
+          - 'storage-block-silver'
+          - 'storage-block-lead'
+          - 'storage-block-aluminum'
+          - 'storage-block-nickel'
+          - 'storage-block-platinum'
+          - 'storage-block-iridium'
+          - 'storage-block-mithril'
+          - 'storage-block-steel'
+          - 'storage-block-electrum'
+          - 'storage-block-invar'
+          - 'storage-block-bronze'
+          - 'storage-block-constantan'
+          - 'storage-block-signalum'
+          - 'storage-block-lumium'
+          - 'storage-block-enderium'
         amount: 1

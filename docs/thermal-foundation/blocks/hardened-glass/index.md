@@ -7,9 +7,9 @@ redirect_from: /docs/thermal-expansion/materials/hardened-glass/
 ![Hardened glass variants](/assets/images/thermal-foundation/hardened-glass-variants.gif){:style="height: 96px"}
 
 
-**Hardened glass** is a type of block added by Thermal Foundation. It is a type
-of [glass](https://minecraft.gamepedia.com/Glass){:target="_blank"} that is hard
-to break and explosion resistant. It is made from
+**Hardened glass** is a type of
+[glass](https://minecraft.gamepedia.com/Glass){:target="_blank"} that is hard to
+break and explosion resistant. It is made from
 [lead](/docs/thermal-foundation/metals-and-alloys/lead/) and [pulverized
 obsidian](/docs/thermal-foundation/materials/pulverized-materials-and-blends/)
 in an [induction smelter](/docs/thermal-expansion/machines/induction-smelter/).
