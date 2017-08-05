@@ -98,14 +98,20 @@ $(function() {
     window.setInterval(function() {
         $('.cofh-recipe:not(.paused) .cofh-item-cycle > div:not(.hidden)').each(function() {
             var $this = $(this);
+            var $siblings = $this.parent().children();
 
-            $this.addClass('hidden');
+            var $next;
 
-            var $next = $this.next();
-            if ($next.length === 0) {
-                $next = $this.parent().children().first();
+            if ($this.closest('.cofh-item-cycle').hasClass('random')) {
+                $next = $siblings.eq(Math.floor(Math.random() * $siblings.length));
+            } else {
+                $next = $this.next();
+                if ($next.length === 0) {
+                    $next = $siblings.first();
+                }
             }
 
+            $this.addClass('hidden');
             $next.removeClass('hidden');
         });
     }, 1000);

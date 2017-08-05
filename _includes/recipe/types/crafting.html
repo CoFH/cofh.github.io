@@ -10,10 +10,10 @@
                 {% capture offset %}{{ forloop.index | times: 4 }}{% endcapture %}
                 {% capture left %}{{ forloop.index0 | times: 32 | plus: offset }}{% endcapture %}
 
-                {% include recipe/slot.html item=col top=top left=left %}
+                {% include recipe/slot.html data=col top=top left=left %}
             {% endif %}
         {% endfor %}
     {% endfor %}
 
-    {% include recipe/slot.html item=include.data.result.item amount=include.data.result.amount top=40 left=192 %}
+    {% include recipe/slot.html data=include.data.result top=40 left=192 %}
 </div>

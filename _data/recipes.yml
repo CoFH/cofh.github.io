@@ -6,81 +6,146 @@ sites:
     url: '/docs/thermal-foundation/'
 
 items:
-  aluminum-ingot:
-    name: 'Aluminum Ingot'
-    sprite: [11, 0]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/aluminum/'
-  birch-wood:
-    name: 'Birch Wood'
-    sprite: [0, 0]
-    site: 'mc-wiki'
-    url: 'Wood'
-  birch-wood-planks:
-    name: 'Birch Wood Planks'
-    sprite: [1, 0]
-    site: 'mc-wiki'
-    url: 'Wood_Planks'
   blaze-powder:
     name: 'Blaze Powder'
     sprite: [2, 0]
     site: 'mc-wiki'
     url: 'Blaze_Powder'
-  bronze-blend:
-    name: 'Bronze Blend'
-    sprite: [15, 2]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/bronze/'
-  bronze-ingot:
-    name: 'Bronze Ingot'
-    sprite: [12, 0]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/bronze/'
-  coal-dust:
-    name: 'Pulverized Coal'
-    sprite: [3, 0]
-    site: 'tf-docs'
-    url: 'materials/pulverized-materials-and-blends/'
-  constantan-blend:
-    name: 'Constantan Blend'
-    sprite: [0, 3]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/constantan/'
-  constantan-ingot:
-    name: 'Constantan Ingot'
-    sprite: [13, 0]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/constantan/'
-  copper-ingot:
-    name: 'Copper Ingot'
-    sprite: [14, 0]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/copper/'
+  bone-meal:
+    name: 'Bone Meal'
+    sprite: [15, 5]
+    site: 'mc-wiki'
+    url: 'Bone_Meal'
+  cactus-green:
+    name: 'Cactus Green'
+    sprite: [2, 5]
+    site: 'mc-wiki'
+    url: 'Cactus_Green'
+  cocoa-beans:
+    name: 'Cocoa Beans'
+    sprite: [3, 5]
+    site: 'mc-wiki'
+    url: 'Cocoa_Beans'
   crafting-table:
     name: 'Crafting Table'
     sprite: [4, 0]
     site: 'mc-wiki'
     url: 'Crafting_Table'
-  electrum-blend:
+  cyan-dye:
+    name: 'Cyan Dye'
+    sprite: [6, 5]
+    site: 'mc-wiki'
+    url: 'Cyan_Dye'
+  dandelion-yellow:
+    name: 'Dandelion Yellow'
+    sprite: [11, 5]
+    site: 'mc-wiki'
+    url: 'Dandelion_Yellow'
+  dust-aluminum:
+    name: 'Pulverized Aluminum'
+    sprite: [14, 2]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/aluminum/'
+  dust-bronze:
+    name: 'Bronze Blend'
+    sprite: [15, 2]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/bronze/'
+  dust-coal:
+    name: 'Pulverized Coal'
+    sprite: [3, 0]
+    site: 'tf-docs'
+    url: 'materials/pulverized-materials-and-blends/'
+  dust-constantan:
+    name: 'Constantan Blend'
+    sprite: [0, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/constantan/'
+  dust-copper:
+    name: 'Pulverized Copper'
+    sprite: [1, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/copper/'
+  dust-electrum:
     name: 'Electrum Blend'
     sprite: [2, 3]
     site: 'tf-docs'
     url: 'metals-and-alloys/electrum/'
-  electrum-ingot:
-    name: 'Electrum Ingot'
-    sprite: [15, 0]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/electrum/'
-  enderium-blend:
+  dust-enderium:
     name: 'Enderium Blend'
     sprite: [3, 3]
     site: 'tf-docs'
     url: 'metals-and-alloys/enderium/'
-  enderium-ingot:
-    name: 'Enderium Ingot'
-    sprite: [0, 1]
+  dust-invar:
+    name: 'Invar Blend'
+    sprite: [4, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/enderium/'
+    url: 'metals-and-alloys/invar/'
+  dust-iridium:
+    name: 'Pulverized Iridium'
+    sprite: [5, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/iridium/'
+  dust-lead:
+    name: 'Pulverized Lead'
+    sprite: [6, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lead/'
+  dust-lumium:
+    name: 'Lumium Blend'
+    sprite: [7, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lumium/'
+  dust-mithril:
+    name: 'Pulverized Mana Infused Metal'
+    sprite: [8, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/mana-infused-metal/'
+  dust-nickel:
+    name: 'Pulverized Nickel'
+    sprite: [9, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/nickel/'
+  dust-obsidian:
+    name: 'Pulverized Obsidian'
+    sprite: [13, 2]
+    site: 'tf-docs'
+    url: 'materials/pulverized-materials-and-blends/'
+  dust-platinum:
+    name: 'Pulverized Platinum'
+    sprite: [10, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/platinum/'
+  dust-pyrotheum:
+    name: 'Pyrotheum Dust'
+    animated: true
+    site: 'tf-docs'
+    url: 'materials/pyrotheum-dust/'
+  dust-signalum:
+    name: 'Signalum Blend'
+    sprite: [11, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/signalum/'
+  dust-silver:
+    name: 'Pulverized Silver'
+    sprite: [12, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/silver/'
+  dust-steel:
+    name: 'Steel Blend'
+    sprite: [13, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/steel/'
+  dust-tin:
+    name: 'Pulverized Tin'
+    sprite: [14, 3]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/tin/'
+  gray-dye:
+    name: 'Gray Dye'
+    sprite: [8, 5]
+    site: 'mc-wiki'
+    url: 'Gray_Dye'
   hardened-glass:
     name: 'Hardened Glass'
     sprite: [12, 1]
@@ -131,7 +196,7 @@ items:
     sprite: [11, 2]
     site: 'tf-docs'
     url: 'blocks/hardened-glass/'
-  hardened-mana-infused-glass:
+  hardened-mithril-glass:
     name: 'Hardened Mana Infused Glass'
     sprite: [4, 2]
     site: 'tf-docs'
@@ -166,166 +231,266 @@ items:
     sprite: [14, 1]
     site: 'tf-docs'
     url: 'blocks/hardened-glass/'
-  invar-blend:
-    name: 'Invar Blend'
-    sprite: [4, 3]
+  ingot-aluminum:
+    name: 'Aluminum Ingot'
+    sprite: [11, 0]
     site: 'tf-docs'
-    url: 'metals-and-alloys/invar/'
-  invar-ingot:
+    url: 'metals-and-alloys/aluminum/'
+  ingot-bronze:
+    name: 'Bronze Ingot'
+    sprite: [12, 0]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/bronze/'
+  ingot-constantan:
+    name: 'Constantan Ingot'
+    sprite: [13, 0]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/constantan/'
+  ingot-copper:
+    name: 'Copper Ingot'
+    sprite: [14, 0]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/copper/'
+  ingot-electrum:
+    name: 'Electrum Ingot'
+    sprite: [15, 0]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/electrum/'
+  ingot-enderium:
+    name: 'Enderium Ingot'
+    sprite: [0, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/enderium/'
+  ingot-invar:
     name: 'Invar Ingot'
     sprite: [1, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/invar/'
-  iridium-ingot:
+  ingot-iridium:
     name: 'Iridium Ingot'
     sprite: [2, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/iridium/'
-  lead-ingot:
+  ingot-lead:
     name: 'Lead Ingot'
     sprite: [3, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/lead/'
-  lumium-blend:
-    name: 'Lumium Blend'
-    sprite: [7, 3]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/lumium/'
-  lumium-ingot:
+  ingot-lumium:
     name: 'Lumium Ingot'
     sprite: [4, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/lumium/'
-  mana-infused-ingot:
+  ingot-mithril:
     name: 'Mana Infused Ingot'
     sprite: [5, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/mana-infused-metal/'
-  nickel-ingot:
+  ingot-nickel:
     name: 'Nickel Ingot'
     sprite: [6, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/nickel/'
-  oak-wood:
-    name: 'Oak Wood'
-    sprite: [5, 0]
-    site: 'mc-wiki'
-    url: 'Wood'
-  oak-wood-planks:
-    name: 'Oak Wood Planks'
-    sprite: [6, 0]
-    site: 'mc-wiki'
-    url: 'Wood_Planks'
-  platinum-ingot:
+  ingot-platinum:
     name: 'Platinum Ingot'
     sprite: [7, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/platinum/'
-  pulverized-aluminum:
-    name: 'Pulverized Aluminum'
-    sprite: [14, 2]
+  ingot-signalum:
+    name: 'Signalum Ingot'
+    sprite: [8, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/aluminum/'
-  pulverized-copper:
-    name: 'Pulverized Copper'
-    sprite: [1, 3]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/copper/'
-  pulverized-iridium:
-    name: 'Pulverized Iridium'
-    sprite: [5, 3]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/iridium/'
-  pulverized-lead:
-    name: 'Pulverized Lead'
-    sprite: [6, 3]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/lead/'
-  pulverized-mana-infused-metal:
-    name: 'Pulverized Mana Infused Metal'
-    sprite: [8, 3]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/mana-infused-metal/'
-  pulverized-nickel:
-    name: 'Pulverized Nickel'
-    sprite: [9, 3]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/nickel/'
-  pulverized-obsidian:
-    name: 'Pulverized Obsidian'
-    sprite: [13, 2]
-    site: 'tf-docs'
-    url: 'materials/pulverized-materials-and-blends/'
-  pulverized-platinum:
-    name: 'Pulverized Platinum'
-    sprite: [10, 3]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/platinum/'
-  pulverized-silver:
-    name: 'Pulverized Silver'
-    sprite: [12, 3]
+    url: 'metals-and-alloys/signalum/'
+  ingot-silver:
+    name: 'Silver Ingot'
+    sprite: [9, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/silver/'
-  pulverized-tin:
-    name: 'Pulverized Tin'
-    sprite: [14, 3]
+  ingot-steel:
+    name: 'Steel Ingot'
+    sprite: [10, 1]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/steel/'
+  ingot-tin:
+    name: 'Tin Ingot'
+    sprite: [11, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/tin/'
-  pyrotheum-dust:
-    name: 'Pyrotheum Dust'
-    animated: true
-    site: 'tf-docs'
-    url: 'materials/pyrotheum-dust/'
+  ink-sac:
+    name: 'Ink Sac'
+    sprite: [0, 5]
+    site: 'mc-wiki'
+    url: 'Ink_Sac'
+  lapis-lazuli:
+    name: 'Lapis Lazuli'
+    sprite: [4, 5]
+    site: 'mc-wiki'
+    url: 'Lapis_Lazuli'
+  light-blue-dye:
+    name: 'Light Blue Dye'
+    sprite: [12, 5]
+    site: 'mc-wiki'
+    url: 'Light_Blue_Dye'
+  light-gray-dye:
+    name: 'Light Gray Dye'
+    sprite: [7, 5]
+    site: 'mc-wiki'
+    url: 'Light_Gray_Dye'
+  lime-dye:
+    name: 'Lime Dye'
+    sprite: [10, 5]
+    site: 'mc-wiki'
+    url: 'Lime_Dye'
+  magenta-dye:
+    name: 'Magenta Dye'
+    sprite: [13, 5]
+    site: 'mc-wiki'
+    url: 'Magenta_Dye'
+  orange-dye:
+    name: 'Orange Dye'
+    sprite: [14, 5]
+    site: 'mc-wiki'
+    url: 'Orange_Dye'
+  pink-dye:
+    name: 'Pink Dye'
+    sprite: [9, 5]
+    site: 'mc-wiki'
+    url: 'Pink_Dye'
+  purple-dye:
+    name: 'Purple Dye'
+    sprite: [5, 5]
+    site: 'mc-wiki'
+    url: 'Purple_Dye'
   redstone:
     name: 'Redstone'
     sprite: [7, 0]
     site: 'mc-wiki'
     url: 'Redstone'
-  signalum-blend:
-    name: 'Signalum Blend'
-    sprite: [11, 3]
+  rockwool-black:
+    name: 'Black Rockwool'
+    sprite: [0, 4]
     site: 'tf-docs'
-    url: 'metals-and-alloys/signalum/'
-  signalum-ingot:
-    name: 'Signalum Ingot'
-    sprite: [8, 1]
+    url: 'blocks/rockwool/'
+  rockwool-blue:
+    name: 'Blue Rockwool'
+    sprite: [4, 4]
     site: 'tf-docs'
-    url: 'metals-and-alloys/signalum/'
-  silver-ingot:
-    name: 'Silver Ingot'
-    sprite: [9, 1]
+    url: 'blocks/rockwool/'
+  rockwool-brown:
+    name: 'Brown Rockwool'
+    sprite: [3, 4]
     site: 'tf-docs'
-    url: 'metals-and-alloys/silver/'
-  spruce-wood:
-    name: 'Spruce Wood'
-    sprite: [8, 0]
+    url: 'blocks/rockwool/'
+  rockwool-cyan:
+    name: 'Cyan Rockwool'
+    sprite: [6, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-gray:
+    name: 'Gray Rockwool'
+    sprite: [8, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-green:
+    name: 'Green Rockwool'
+    sprite: [2, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-light-blue:
+    name: 'Light Blue Rockwool'
+    sprite: [12, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-light-gray:
+    name: 'Light Gray Rockwool'
+    sprite: [7, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-lime:
+    name: 'Lime Rockwool'
+    sprite: [10, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-magenta:
+    name: 'Magenta Rockwool'
+    sprite: [13, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-orange:
+    name: 'Orange Rockwool'
+    sprite: [14, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-pink:
+    name: 'Pink Rockwool'
+    sprite: [9, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-purple:
+    name: 'Purple Rockwool'
+    sprite: [5, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-red:
+    name: 'Red Rockwool'
+    sprite: [1, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-white:
+    name: 'White Rockwool'
+    sprite: [15, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rockwool-yellow:
+    name: 'Yellow Rockwool'
+    sprite: [11, 4]
+    site: 'tf-docs'
+    url: 'blocks/rockwool/'
+  rose-red:
+    name: 'Rose Red'
+    sprite: [1, 5]
     site: 'mc-wiki'
-    url: 'Wood'
-  spruce-wood-planks:
-    name: 'Spruce Wood Planks'
-    sprite: [9, 0]
-    site: 'mc-wiki'
-    url: 'Wood_Planks'
-  steel-blend:
-    name: 'Steel Blend'
-    sprite: [13, 3]
+    url: 'Rose_Red'
+  slag:
+    name: 'Slag'
+    sprite: [15, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/steel/'
-  steel-ingot:
-    name: 'Steel Ingot'
-    sprite: [10, 1]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/steel/'
+    url: 'materials/slag/'
   sulfur:
     name: 'Sulfur'
     sprite: [10, 0]
     site: 'tf-docs'
     url: 'materials/sulfur/'
-  tin-ingot:
-    name: 'Tin Ingot'
-    sprite: [11, 1]
-    site: 'tf-docs'
-    url: 'metals-and-alloys/tin/'
+  wood-log-birch:
+    name: 'Birch Wood'
+    sprite: [0, 0]
+    site: 'mc-wiki'
+    url: 'Wood'
+  wood-log-oak:
+    name: 'Oak Wood'
+    sprite: [5, 0]
+    site: 'mc-wiki'
+    url: 'Wood'
+  wood-log-spruce:
+    name: 'Spruce Wood'
+    sprite: [8, 0]
+    site: 'mc-wiki'
+    url: 'Wood'
+  wood-planks-birch:
+    name: 'Birch Wood Planks'
+    sprite: [1, 0]
+    site: 'mc-wiki'
+    url: 'Wood_Planks'
+  wood-planks-oak:
+    name: 'Oak Wood Planks'
+    sprite: [6, 0]
+    site: 'mc-wiki'
+    url: 'Wood_Planks'
+  wood-planks-spruce:
+    name: 'Spruce Wood Planks'
+    sprite: [9, 0]
+    site: 'mc-wiki'
+    url: 'Wood_Planks'
 
 recipes:
   hardened-glass:
@@ -334,11 +499,11 @@ recipes:
       energy: 4000
       primary-input:
         item:
-          - 'lead-ingot'
-          - 'pulverized-lead'
+          - 'ingot-lead'
+          - 'dust-lead'
         amount: 1
       secondary-input:
-        item: ['pulverized-obsidian']
+        item: ['dust-obsidian']
         amount: 4
       primary-output:
         item: ['hardened-glass']
@@ -352,21 +517,21 @@ recipes:
         amount: 2
       secondary-input:
         item:
-          - 'pulverized-copper'
-          - 'pulverized-tin'
-          - 'pulverized-silver'
-          - 'pulverized-aluminum'
-          - 'pulverized-nickel'
-          - 'pulverized-platinum'
-          - 'pulverized-iridium'
-          - 'steel-blend'
-          - 'electrum-blend'
-          - 'invar-blend'
-          - 'bronze-blend'
-          - 'constantan-blend'
-          - 'signalum-blend'
-          - 'lumium-blend'
-          - 'enderium-blend'
+          - 'dust-copper'
+          - 'dust-tin'
+          - 'dust-silver'
+          - 'dust-aluminum'
+          - 'dust-nickel'
+          - 'dust-platinum'
+          - 'dust-iridium'
+          - 'dust-steel'
+          - 'dust-electrum'
+          - 'dust-invar'
+          - 'dust-bronze'
+          - 'dust-constantan'
+          - 'dust-signalum'
+          - 'dust-lumium'
+          - 'dust-enderium'
         amount: 1
       primary-output:
         item:
@@ -389,10 +554,60 @@ recipes:
   pyrotheum-dust:
     type: 'crafting'
     data:
-      result:
-        item: ['pyrotheum-dust']
-        amount: 2
-      rows:
-        - [['coal-dust'], ['sulfur']]
-        - [['redstone'], ['blaze-powder']]
       shapeless: true
+      rows:
+        - [item: ['dust-coal'], item: ['sulfur']]
+        - [item: ['redstone'], item: ['blaze-powder']]
+      result:
+        item: ['dust-pyrotheum']
+        amount: 2
+  rockwool:
+    type: 'smelting'
+    data:
+      input:
+        item: ['slag']
+      output:
+        item: ['rockwool-light-gray']
+  rockwool-dyeing:
+    type: 'crafting'
+    data:
+      shapeless: true
+      rows:
+        - - random: true
+            item: &rockwools
+              - 'rockwool-black'
+              - 'rockwool-red'
+              - 'rockwool-green'
+              - 'rockwool-brown'
+              - 'rockwool-blue'
+              - 'rockwool-purple'
+              - 'rockwool-cyan'
+              - 'rockwool-light-gray'
+              - 'rockwool-gray'
+              - 'rockwool-pink'
+              - 'rockwool-lime'
+              - 'rockwool-yellow'
+              - 'rockwool-light-blue'
+              - 'rockwool-magenta'
+              - 'rockwool-orange'
+              - 'rockwool-white'
+          - item: &dyes
+              - 'ink-sac'
+              - 'rose-red'
+              - 'cactus-green'
+              - 'cocoa-beans'
+              - 'lapis-lazuli'
+              - 'purple-dye'
+              - 'cyan-dye'
+              - 'light-gray-dye'
+              - 'gray-dye'
+              - 'pink-dye'
+              - 'lime-dye'
+              - 'dandelion-yellow'
+              - 'light-blue-dye'
+              - 'magenta-dye'
+              - 'orange-dye'
+              - 'bone-meal'
+      result:
+        item: *rockwools
+        amount: 1
