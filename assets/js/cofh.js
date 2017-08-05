@@ -87,12 +87,12 @@ $(function() {
     var nick = nicks[Math.floor(Math.random() * nicks.length)];
     $('a.irclink').attr('href', 'http://webchat.esper.net/?nick=' + nick + '....&channels=#ThermalExpansion');
 
-    $('.cofh-recipe .cofh-item-cycle > div')
+    $('.cofh-recipe')
         .mouseenter(function() {
-            $(this).closest('.cofh-recipe').addClass('paused');
+            $(this).addClass('paused');
         })
         .mouseleave(function() {
-            $(this).closest('.cofh-recipe').removeClass('paused');
+            $(this).removeClass('paused');
         });
 
     window.setInterval(function() {
