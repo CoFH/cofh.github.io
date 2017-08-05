@@ -1,18 +1,18 @@
 <div style="position: absolute; top: {{ include.top }}px; left: {{ include.left }}px; width: 32px; height: 32px">
-    {% if include.item.size > 1 %}
-        <div class="cofh-item-cycle">
-            {% for item in include.item %}
+    {% if include.data.item.size > 1 %}
+        <div class="cofh-item-cycle {% if include.data.random %}random{% endif %}">
+            {% for item in include.data.item %}
                 <div class="{% unless forloop.first %}hidden{% endunless %}">
                     {% include recipe/item-sprite.html item=item %}
                 </div>
             {% endfor %}
         </div>
     {% else %}
-        {% assign item=include.item[0] %}
+        {% assign item=include.data.item[0] %}
         {% include recipe/item-sprite.html item=item %}
     {% endif %}
 
-    {% if include.amount > 1 %}
-        <span class="cofh-recipe-slot-amount">{{ include.amount }}</span>
+    {% if include.data.amount > 1 %}
+        <span class="cofh-recipe-slot-amount">{{ include.data.amount }}</span>
     {% endif%}
 </div>
