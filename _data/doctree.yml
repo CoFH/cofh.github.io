@@ -341,6 +341,7 @@ thermal-dynamics:
     items:
       - title: "Fluiducts"
       - title: "Fluxducts"
+        url: "/thermal-dynamics/ducts/fluxducts/"
       - title: "Itemducts"
         url: "/thermal-dynamics/ducts/itemducts/"
       - title: "Structuralduct"
