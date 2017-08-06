@@ -1,0 +1,20 @@
+<strong><a href="/docs/thermal-expansion/machines/pulverizer/">Pulverizer</a></strong>
+
+<div style="position: relative; width: 174px; height: 112px; background: url('/assets/images/recipe/types/pulverizer.png')">
+    {% include recipe/slot.html data=include.data.input top=17 left=4 %}
+    {% include recipe/slot.html data=include.data.primary-output top=17 left=130 %}
+
+    {% if include.data.secondary-output %}
+        {% include recipe/slot.html data=include.data.secondary-output top=71 left=130 %}
+
+        {% if include.data.secondary-chance %}
+            <div class="cofh-recipe-floating-text" style="top: 82px; right: 50px; text-align: right">
+                {{include.data.secondary-chance}}%
+            </div>
+        {% endif %}
+    {% endif %}
+
+    <div class="cofh-recipe-floating-text" style="top: 88px; left: 3px; text-align: left">
+        {{include.data.energy}} RF
+    </div>
+</div>

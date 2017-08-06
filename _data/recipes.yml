@@ -6,6 +6,11 @@ sites:
     url: '/docs/thermal-foundation/'
 
 items:
+  bitumen:
+    name: 'Bitumen'
+    sprite: [1, 8]
+    site: 'tf-docs'
+    url: 'materials/bitumen/'
   blaze-powder:
     name: 'Blaze Powder'
     sprite: [2, 0]
@@ -21,6 +26,26 @@ items:
     sprite: [2, 5]
     site: 'mc-wiki'
     url: 'Cactus_Green'
+  cinnabar:
+    name: 'Cinnabar'
+    sprite: [0, 8]
+    site: 'tf-docs'
+    url: 'materials/cinnabar/'
+  clathrate-ender:
+    name: 'Resonant Clathrate'
+    sprite: [4, 8]
+    site: 'tf-docs'
+    url: 'materials/resonant-clathrate/'
+  clathrate-glowstone:
+    name: 'Energized Clathrate'
+    sprite: [3, 8]
+    site: 'tf-docs'
+    url: 'materials/energized-clathrate/'
+  clathrate-redstone:
+    name: 'Destabilized Clathrate'
+    sprite: [2, 8]
+    site: 'tf-docs'
+    url: 'materials/destabilized-clathrate/'
   cocoa-beans:
     name: 'Cocoa Beans'
     sprite: [3, 5]
@@ -76,6 +101,11 @@ items:
     sprite: [3, 3]
     site: 'tf-docs'
     url: 'metals-and-alloys/enderium/'
+  dust-gold:
+    name: 'Pulverized Gold'
+    sprite: [12, 8]
+    site: 'tf-docs'
+    url: 'materials/pulverized-materials-and-blends/'
   dust-invar:
     name: 'Invar Blend'
     sprite: [4, 3]
@@ -86,6 +116,11 @@ items:
     sprite: [5, 3]
     site: 'tf-docs'
     url: 'metals-and-alloys/iridium/'
+  dust-iron:
+    name: 'Pulverized Iron'
+    sprite: [11, 8]
+    site: 'tf-docs'
+    url: 'materials/pulverized-materials-and-blends/'
   dust-lead:
     name: 'Pulverized Lead'
     sprite: [6, 3]
@@ -141,6 +176,11 @@ items:
     sprite: [14, 3]
     site: 'tf-docs'
     url: 'metals-and-alloys/tin/'
+  flint:
+    name: 'Flint'
+    sprite: [9, 8]
+    site: 'mc-wiki'
+    url: 'Flint'
   gray-dye:
     name: 'Gray Dye'
     sprite: [8, 5]
@@ -261,6 +301,16 @@ items:
     sprite: [0, 1]
     site: 'tf-docs'
     url: 'metals-and-alloys/enderium/'
+  ingot-gold:
+    name: 'Gold Ingot'
+    sprite: [10, 8]
+    site: 'mc-wiki'
+    url: 'Gold_Ingot'
+  ingot-iron:
+    name: 'Iron Ingot'
+    sprite: [5, 8]
+    site: 'mc-wiki'
+    url: 'Iron_Ingot'
   ingot-invar:
     name: 'Invar Ingot'
     sprite: [1, 1]
@@ -346,11 +396,81 @@ items:
     sprite: [13, 5]
     site: 'mc-wiki'
     url: 'Magenta_Dye'
+  oil-sand:
+    name: 'Oil Sand'
+    sprite: [10, 7]
+    site: 'tf-docs'
+    url: 'ores/oil-sand/'
+  oil-shale:
+    name: 'Oil Shale'
+    sprite: [11, 7]
+    site: 'tf-docs'
+    url: 'ores/oil-shale/'
   orange-dye:
     name: 'Orange Dye'
     sprite: [14, 5]
     site: 'mc-wiki'
     url: 'Orange_Dye'
+  ore-aluminum:
+    name: 'Aluminum Ore'
+    sprite: [5, 7]
+    site: 'tf-docs'
+    url: 'ores/aluminum-ore/'
+  ore-copper:
+    name: 'Copper Ore'
+    sprite: [1, 7]
+    site: 'tf-docs'
+    url: 'ores/copper-ore/'
+  ore-fluid-ender:
+    name: 'Resonant End Stone'
+    sprite: [14, 7]
+    site: 'tf-docs'
+    url: 'ores/resonant-end-stone/'
+  ore-fluid-glowstone:
+    name: 'Energized Netherrack'
+    sprite: [13, 7]
+    site: 'tf-docs'
+    url: 'ores/energized-netherrack/'
+  ore-fluid-redstone:
+    name: 'Destabilized Redstone Ore'
+    sprite: [12, 7]
+    site: 'tf-docs'
+    url: 'ores/destabilized-redstone-ore/'
+  ore-iridium:
+    name: 'Iridium Ore'
+    sprite: [8, 7]
+    site: 'tf-docs'
+    url: 'ores/iridium-ore/'
+  ore-lead:
+    name: 'Lead Ore'
+    sprite: [4, 7]
+    site: 'tf-docs'
+    url: 'ores/lead-ore/'
+  ore-mithril:
+    name: 'Mana Infused Ore'
+    sprite: [9, 7]
+    site: 'tf-docs'
+    url: 'ores/mana-infused-ore/'
+  ore-nickel:
+    name: 'Nickel Ore'
+    sprite: [6, 7]
+    site: 'tf-docs'
+    url: 'ores/nickel-ore/'
+  ore-platinum:
+    name: 'Platinum Ore'
+    sprite: [7, 7]
+    site: 'tf-docs'
+    url: 'ores/platinum-ore/'
+  ore-silver:
+    name: 'Silver Ore'
+    sprite: [3, 7]
+    site: 'tf-docs'
+    url: 'ores/silver-ore/'
+  ore-tin:
+    name: 'Tin Ore'
+    sprite: [2, 7]
+    site: 'tf-docs'
+    url: 'ores/tin-ore/'
   pink-dye:
     name: 'Pink Dye'
     sprite: [9, 5]
@@ -361,6 +481,11 @@ items:
     sprite: [5, 5]
     site: 'mc-wiki'
     url: 'Purple_Dye'
+  red-sand:
+    name: 'Red Sand'
+    sprite: [7, 8]
+    site: 'mc-wiki'
+    url: 'Red_Sand'
   redstone:
     name: 'Redstone'
     sprite: [7, 0]
@@ -451,9 +576,19 @@ items:
     sprite: [1, 5]
     site: 'mc-wiki'
     url: 'Rose_Red'
+  sand:
+    name: 'Sand'
+    sprite: [6, 8]
+    site: 'mc-wiki'
+    url: 'Sand'
   slag:
     name: 'Slag'
     sprite: [15, 3]
+    site: 'tf-docs'
+    url: 'materials/slag/'
+  slag-rich:
+    name: 'Rich Slag'
+    sprite: [15, 7]
     site: 'tf-docs'
     url: 'materials/slag/'
   storage-block-aluminum:
@@ -546,6 +681,11 @@ items:
     sprite: [10, 0]
     site: 'tf-docs'
     url: 'materials/sulfur/'
+  tar:
+    name: 'Tar'
+    sprite: [8, 8]
+    site: 'tf-docs'
+    url: 'materials/tar/'
   wood-log-birch:
     name: 'Birch Wood'
     sprite: [0, 0]
@@ -578,6 +718,70 @@ items:
     url: 'Wood_Planks'
 
 recipes:
+  copper-ore-induction-smelter-cinnabar:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['cinnabar']
+      secondary-input:
+        item: ['ore-copper']
+      primary-output:
+        item: ['ingot-copper']
+        amount: 3
+      secondary-output:
+        item: ['ingot-gold']
+        amount: 1
+      secondary-chance: 100
+  copper-ore-induction-smelter-rich-slag:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['slag-rich']
+      secondary-input:
+        item: ['ore-copper']
+      primary-output:
+        item: ['ingot-copper']
+        amount: 3
+      secondary-output:
+        item: ['slag']
+        amount: 1
+      secondary-chance: 75
+  copper-ore-induction-smelter-sand:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['sand', 'red-sand']
+      secondary-input:
+        item: ['ore-copper']
+      primary-output:
+        item: ['ingot-copper']
+        amount: 2
+      secondary-output:
+        item: ['slag-rich']
+        amount: 1
+      secondary-chance: 5
+  copper-ore-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-copper']
+      primary-output:
+        item: ['dust-copper']
+        amount: 2
+      secondary-output:
+        item: ['dust-gold']
+      secondary-chance: 10
+  copper-ore-smelting:
+    type: 'smelting'
+    data:
+      input:
+        item: ['ore-copper']
+      output:
+        item: ['ingot-copper']
   hardened-glass:
     type: 'induction-smelter'
     data:

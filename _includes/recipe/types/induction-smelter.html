@@ -1,9 +1,21 @@
 <strong><a href="/docs/thermal-expansion/machines/induction-smelter/">Induction Smelter</a></strong>
 
-<div style="position: relative; width: 216px; height: 102px; background: url('/assets/images/recipe/types/induction-smelter.png')">
-    {% include recipe/slot.html data=include.data.primary-input top=12 left=4 %}
-    {% include recipe/slot.html data=include.data.secondary-input top=12 left=52 %}
-    {% include recipe/slot.html data=include.data.primary-output top=12 left=172 %}
+<div style="position: relative; width: 216px; height: 112px; background: url('/assets/images/recipe/types/induction-smelter.png')">
+    {% include recipe/slot.html data=include.data.primary-input top=17 left=4 %}
+    {% include recipe/slot.html data=include.data.secondary-input top=17 left=52 %}
+    {% include recipe/slot.html data=include.data.primary-output top=17 left=172 %}
 
-    <div class="cofh-recipe-floating-text">{{include.data.energy}} RF</div>
+    {% if include.data.secondary-output %}
+        {% include recipe/slot.html data=include.data.secondary-output top=71 left=172 %}
+
+        {% if include.data.secondary-chance %}
+            <div class="cofh-recipe-floating-text" style="top: 82px; right: 50px; text-align: right">
+                {{include.data.secondary-chance}}%
+            </div>
+        {% endif %}
+    {% endif %}
+
+    <div class="cofh-recipe-floating-text" style="top: 88px; left: -15px; text-align: center">
+        {{include.data.energy}} RF
+    </div>
 </div>
