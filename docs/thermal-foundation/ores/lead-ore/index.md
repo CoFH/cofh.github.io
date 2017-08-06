@@ -35,11 +35,10 @@ in a [pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an [induction
 smelter](/docs/thermal-expansion/machines/induction-smelter/), it may also yield
 small amounts of [silver](/docs/thermal-foundation/metals-and-alloys/silver/).
 
-<!--
-recipes:
-  - smelting -> lead ingot
-  - pulverizer (4000 RF) -> 2 lead dust & 1 silver dust (10%)
-  - induction smelter with sand (4000 RF) -> 2 lead ingots & 1 rich slag (5%)
-  - induction smelter with rich slag (4000 RF) -> 3 lead ingots & 1 slag (75%)
-  - induction smelter with cinnabar (4000 RF) -> 3 lead ingots & 1 silver ingot
--->
+<div>
+{% include recipe.html recipe='lead-ore-smelting' %}
+{% include recipe.html recipe='lead-ore-pulverizer' %}<br />
+{% include recipe.html recipe='lead-ore-induction-smelter-sand' %}
+{% include recipe.html recipe='lead-ore-induction-smelter-rich-slag' %}
+{% include recipe.html recipe='lead-ore-induction-smelter-cinnabar' %}
+</div>

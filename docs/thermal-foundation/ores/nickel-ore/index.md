@@ -34,11 +34,10 @@ small amounts of
 that is used to create
 [enderium](/docs/thermal-foundation/metals-and-alloys/enderium/).
 
-<!--
-recipes:
-  - smelting -> nickel ingot
-  - pulverizer (4000 RF) -> 2 nickel dust & 1 platinum dust (10%)
-  - induction smelter with sand (4000 RF) -> 2 nickel ingots & 1 rich slag (15%)
-  - induction smelter with rich slag (4000 RF) -> 3 nickel ingots & 1 slag (75%)
-  - induction smelter with cinnabar (4000 RF) -> 3 nickel ingots & 1 platinum ingot
--->
+<div>
+{% include recipe.html recipe='nickel-ore-smelting' %}
+{% include recipe.html recipe='nickel-ore-pulverizer' %}<br />
+{% include recipe.html recipe='nickel-ore-induction-smelter-sand' %}
+{% include recipe.html recipe='nickel-ore-induction-smelter-rich-slag' %}
+{% include recipe.html recipe='nickel-ore-induction-smelter-cinnabar' %}
+</div>

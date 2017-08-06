@@ -840,6 +840,134 @@ recipes:
           - 'hardened-lumium-glass'
           - 'hardened-enderium-glass'
         amount: 2
+  lead-ore-induction-smelter-cinnabar:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['cinnabar']
+      secondary-input:
+        item: ['ore-lead']
+      primary-output:
+        item: ['ingot-lead']
+        amount: 3
+      secondary-output:
+        item: ['ingot-silver']
+        amount: 1
+      secondary-chance: 100
+  lead-ore-induction-smelter-rich-slag:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['slag-rich']
+      secondary-input:
+        item: ['ore-lead']
+      primary-output:
+        item: ['ingot-lead']
+        amount: 3
+      secondary-output:
+        item: ['slag']
+        amount: 1
+      secondary-chance: 75
+  lead-ore-induction-smelter-sand:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['sand', 'red-sand']
+      secondary-input:
+        item: ['ore-lead']
+      primary-output:
+        item: ['ingot-lead']
+        amount: 2
+      secondary-output:
+        item: ['slag-rich']
+        amount: 1
+      secondary-chance: 5
+  lead-ore-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-lead']
+      primary-output:
+        item: ['dust-lead']
+        amount: 2
+      secondary-output:
+        item: ['dust-silver']
+      secondary-chance: 10
+  lead-ore-smelting:
+    type: 'smelting'
+    data:
+      input:
+        item: ['ore-lead']
+      output:
+        item: ['ingot-lead']
+  nickel-ore-induction-smelter-cinnabar:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['cinnabar']
+      secondary-input:
+        item: ['ore-nickel']
+      primary-output:
+        item: ['ingot-nickel']
+        amount: 3
+      secondary-output:
+        item: ['ingot-platinum']
+        amount: 1
+      secondary-chance: 100
+  nickel-ore-induction-smelter-rich-slag:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['slag-rich']
+      secondary-input:
+        item: ['ore-nickel']
+      primary-output:
+        item: ['ingot-nickel']
+        amount: 3
+      secondary-output:
+        item: ['slag']
+        amount: 1
+      secondary-chance: 75
+  nickel-ore-induction-smelter-sand:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['sand', 'red-sand']
+      secondary-input:
+        item: ['ore-nickel']
+      primary-output:
+        item: ['ingot-nickel']
+        amount: 2
+      secondary-output:
+        item: ['slag-rich']
+        amount: 1
+      secondary-chance: 15
+  nickel-ore-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-nickel']
+      primary-output:
+        item: ['dust-nickel']
+        amount: 2
+      secondary-output:
+        item: ['dust-platinum']
+      secondary-chance: 10
+  nickel-ore-smelting:
+    type: 'smelting'
+    data:
+      input:
+        item: ['ore-nickel']
+      output:
+        item: ['ingot-nickel']
   pyrotheum-dust:
     type: 'crafting'
     data:
@@ -900,6 +1028,70 @@ recipes:
       result:
         item: *rockwools
         amount: 1
+  silver-ore-induction-smelter-cinnabar:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['cinnabar']
+      secondary-input:
+        item: ['ore-silver']
+      primary-output:
+        item: ['ingot-silver']
+        amount: 3
+      secondary-output:
+        item: ['ingot-lead']
+        amount: 1
+      secondary-chance: 100
+  silver-ore-induction-smelter-rich-slag:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['slag-rich']
+      secondary-input:
+        item: ['ore-silver']
+      primary-output:
+        item: ['ingot-silver']
+        amount: 3
+      secondary-output:
+        item: ['slag']
+        amount: 1
+      secondary-chance: 75
+  silver-ore-induction-smelter-sand:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['sand', 'red-sand']
+      secondary-input:
+        item: ['ore-silver']
+      primary-output:
+        item: ['ingot-silver']
+        amount: 2
+      secondary-output:
+        item: ['slag-rich']
+        amount: 1
+      secondary-chance: 5
+  silver-ore-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-silver']
+      primary-output:
+        item: ['dust-silver']
+        amount: 2
+      secondary-output:
+        item: ['dust-lead']
+      secondary-chance: 10
+  silver-ore-smelting:
+    type: 'smelting'
+    data:
+      input:
+        item: ['ore-silver']
+      output:
+        item: ['ingot-silver']
   storage-blocks:
     type: 'crafting'
     data:
@@ -947,3 +1139,67 @@ recipes:
           - 'storage-block-lumium'
           - 'storage-block-enderium'
         amount: 1
+  tin-ore-induction-smelter-cinnabar:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['cinnabar']
+      secondary-input:
+        item: ['ore-tin']
+      primary-output:
+        item: ['ingot-tin']
+        amount: 3
+      secondary-output:
+        item: ['ingot-iron']
+        amount: 1
+      secondary-chance: 100
+  tin-ore-induction-smelter-rich-slag:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['slag-rich']
+      secondary-input:
+        item: ['ore-tin']
+      primary-output:
+        item: ['ingot-tin']
+        amount: 3
+      secondary-output:
+        item: ['slag']
+        amount: 1
+      secondary-chance: 75
+  tin-ore-induction-smelter-sand:
+    type: 'induction-smelter'
+    data:
+      energy: 4000
+      primary-input:
+        item: ['sand', 'red-sand']
+      secondary-input:
+        item: ['ore-tin']
+      primary-output:
+        item: ['ingot-tin']
+        amount: 2
+      secondary-output:
+        item: ['slag-rich']
+        amount: 1
+      secondary-chance: 5
+  tin-ore-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-tin']
+      primary-output:
+        item: ['dust-tin']
+        amount: 2
+      secondary-output:
+        item: ['dust-iron']
+      secondary-chance: 10
+  tin-ore-smelting:
+    type: 'smelting'
+    data:
+      input:
+        item: ['ore-tin']
+      output:
+        item: ['ingot-tin']
