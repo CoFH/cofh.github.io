@@ -31,11 +31,10 @@ in a [pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an [induction
 smelter](/docs/thermal-expansion/machines/induction-smelter/), it may also yield
 small amounts of [iridium](/docs/thermal-foundation/metals-and-alloys/iridium/).
 
-<!--
-recipes:
-  - smelting -> platinum ingot
-  - pulverizer (4000 RF) -> 2 platinum dust & 1 iridium dust (5%)
-  - induction smelter with sand (4000 RF) -> 2 platinum ingots & 1 rich slag (5%)
-  - induction smelter with rich slag (4000 RF) -> 3 platinum ingots & 1 slag (75%)
-  - induction smelter with cinnabar (4000 RF) -> 3 platinum ingots & 1 iridium ingot
--->
+<div>
+{% include recipe.html recipe='platinum-ore-smelting' %}
+{% include recipe.html recipe='platinum-ore-pulverizer' %}<br />
+{% include recipe.html recipe='platinum-ore-induction-smelter-sand' %}
+{% include recipe.html recipe='platinum-ore-induction-smelter-rich-slag' %}
+{% include recipe.html recipe='platinum-ore-induction-smelter-cinnabar' %}
+</div>

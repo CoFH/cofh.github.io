@@ -30,11 +30,10 @@ an [induction smelter](/docs/thermal-expansion/machines/induction-smelter/), it
 may also yield small amounts of
 [iron](https://minecraft.gamepedia.com/Iron){:target="_blank"}.
 
-<!--
-recipes:
-  - smelting -> aluminum ingot
-  - pulverizer (4000 RF) -> 2 aluminum dust & 1 iron dust (10%)
-  - induction smelter with sand (4000 RF) -> 2 aluminum ingots & 1 rich slag (5%)
-  - induction smelter with rich slag (4000 RF) -> 3 aluminum ingots & 1 slag (75%)
-  - induction smelter with cinnabar (4000 RF) -> 3 aluminum ingots & 1 iron ingot
--->
+<div>
+{% include recipe.html recipe='aluminum-ore-smelting' %}
+{% include recipe.html recipe='aluminum-ore-pulverizer' %}<br />
+{% include recipe.html recipe='aluminum-ore-induction-smelter-sand' %}
+{% include recipe.html recipe='aluminum-ore-induction-smelter-rich-slag' %}
+{% include recipe.html recipe='aluminum-ore-induction-smelter-cinnabar' %}
+</div>

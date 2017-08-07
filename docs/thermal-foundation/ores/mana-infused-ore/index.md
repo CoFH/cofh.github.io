@@ -30,11 +30,9 @@ processed in a [pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an
 [induction smelter](/docs/thermal-expansion/machines/induction-smelter/). It
 cannot be smelted in a furnace.
 
-<!--
-recipes:
-  - no smelting!
-  - pulverizer (4000 RF) -> 2 mithril dust & 1 gold dust (10%)
-  - induction smelter with sand (4000 RF) -> 2 mithril ingots & 1 rich slag (5%)
-  - induction smelter with rich slag (4000 RF) -> 3 mithril ingots & 1 slag (75%)
-  - induction smelter with cinnabar (4000 RF) -> 3 mithril ingots & 1 gold ingot
--->
+<div>
+{% include recipe.html recipe='mithril-ore-pulverizer' %}<br />
+{% include recipe.html recipe='mithril-ore-induction-smelter-sand' %}
+{% include recipe.html recipe='mithril-ore-induction-smelter-rich-slag' %}
+{% include recipe.html recipe='mithril-ore-induction-smelter-cinnabar' %}
+</div>
