@@ -217,3 +217,11 @@ p {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#cofh-docs-content a[href^="http"] {
+    color: #4b97d8;
+}
+
+#cofh-docs-content a[href^="http"]:hover {
+    color: #29689a;
+}

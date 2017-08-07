@@ -5,7 +5,7 @@ layout: default
 <div id="cofh-offcanvas-docs" class="uk-offcanvas">
     <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
         {% include searchbar.html class='uk-panel' %}
-    
+
         {% include docnav.html class='uk-nav-offcanvas cofh-nav-docs' %}
     </div>
 </div>
@@ -15,10 +15,10 @@ layout: default
         {% include docnav.html class='cofh-nav-docs' %}
     </div>
 
-    <div class="uk-width-1-1 uk-width-medium-3-4">
+    <div id="cofh-docs-content" class="uk-width-1-1 uk-width-medium-3-4">
         <h1>{{ page.title }}</h1>
         <hr />
-        
+
         {{ content }}
     </div>
 </div>
