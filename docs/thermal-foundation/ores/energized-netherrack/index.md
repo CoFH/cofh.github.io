@@ -46,8 +46,7 @@ glowstone](/docs/thermal-foundation/fluids/energized-glowstone/). Energized
 netherrack can also be molten down into energized glowstone directly in a [magma
 crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
-<!--
-recipes:
-  - pulverizer (4000 RF) -> 3 energized clathrate & 1 sulfur (30%)
-  - magma crucible (4000 RF) -> 1000 mb energized glowstone
--->
+<div>
+{% include recipe.html recipe='energized-netherrack-pulverizer' %}<br />
+{% include recipe.html recipe='energized-netherrack-magma-crucible' %}
+</div>

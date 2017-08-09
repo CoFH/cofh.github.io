@@ -1,0 +1,13 @@
+{% assign fluid_name = include.data.fluid %}
+{% assign fluid_data = site.data.recipes.fluids[fluid_name] %}
+{% assign fluid_site = site.data.recipes.sites[fluid_data.site] %}
+
+{% capture height %}{{include.data.amount | times: 100 | divided_by: include.size}}{% endcapture %}
+
+<div style="position: absolute; top: {{ include.top }}px; left: {{ include.left }}px; width: 32px; height: 120px">
+    <a href="{{ fluid_site.url }}{{ fluid_data.url }}" {% if fluid_site.new-tab %}target="_blank"{% endif %}>
+        <div style="position: relative; width: 32px; height: 120px" title="{{ fluid_data.name }}<br />{{ include.data.amount }} mB" data-uk-tooltip="{pos: 'top', offset: 4}">
+            <div style="position: absolute; bottom: 0; width: 32px; height: {{height}}%; background-image: url('/assets/images/recipe/fluid-sprites/{{ fluid_name }}.gif')"></div>
+        </div>
+    </a>
+</div>

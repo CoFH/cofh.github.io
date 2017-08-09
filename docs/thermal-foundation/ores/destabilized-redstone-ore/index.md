@@ -47,8 +47,11 @@ redstone](/docs/thermal-foundation/fluids/destabilized-redstone/). Destabilized
 redstone ore can also be molten down into destabilized redstone directly in a
 [magma crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
+<div>
+{% include recipe.html recipe='destabilized-redstone-ore-pulverizer' %}
+</div>
+
 <!--
 recipes:
-  - pulverizer (4000 RF) -> 3 destabilized clathrate & 1 cinnabar (50%)
   - magma crucible (4000 RF) -> 1000 mb destabilized redstone
 -->

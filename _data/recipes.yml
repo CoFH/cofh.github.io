@@ -717,6 +717,12 @@ items:
     site: 'mc-wiki'
     url: 'Wood_Planks'
 
+fluids:
+  glowstone:
+    name: 'Energized Glowstone'
+    site: 'tf-docs'
+    url: 'fluids/energized-glowstone/'
+
 recipes:
   aluminum-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
@@ -846,6 +852,42 @@ recipes:
         item: ['ore-copper']
       output:
         item: ['ingot-copper']
+  destabilized-redstone-ore-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-fluid-redstone']
+      primary-output:
+        item: ['clathrate-redstone']
+        amount: 3
+      secondary-output:
+        item: ['cinnabar']
+      secondary-chance: 50
+  energized-netherrack-magma-crucible:
+    type: 'magma-crucible'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-fluid-glowstone']
+      output:
+        fluid: 'glowstone'
+        amount: 1000
+      secondary-output:
+        item: ['sulfur']
+      secondary-chance: 30
+  energized-netherrack-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-fluid-glowstone']
+      primary-output:
+        item: ['clathrate-glowstone']
+        amount: 3
+      secondary-output:
+        item: ['sulfur']
+      secondary-chance: 30
   hardened-glass:
     type: 'induction-smelter'
     data:
@@ -1146,6 +1188,30 @@ recipes:
         item: ['ore-nickel']
       output:
         item: ['ingot-nickel']
+  oil-sand-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['oil-sand']
+      primary-output:
+        item: ['bitumen']
+        amount: 3
+      secondary-output:
+        item: ['tar']
+      secondary-chance: 50
+  oil-shale-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['oil-shale']
+      primary-output:
+        item: ['bitumen']
+        amount: 3
+      secondary-output:
+        item: ['flint']
+      secondary-chance: 50
   platinum-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
     data:
@@ -1220,6 +1286,15 @@ recipes:
       result:
         item: ['dust-pyrotheum']
         amount: 2
+  resonant-end-stone-pulverizer:
+    type: 'pulverizer'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-fluid-ender']
+      primary-output:
+        item: ['clathrate-ender']
+        amount: 3
   rockwool:
     type: 'smelting'
     data:

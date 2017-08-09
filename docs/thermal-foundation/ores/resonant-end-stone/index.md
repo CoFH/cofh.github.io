@@ -44,8 +44,11 @@ ender](/docs/thermal-foundation/fluids/resonant ender/). Resonant end stone can
 also be molten down into resonant ender directly in a [magma
 crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
+<div>
+{% include recipe.html recipe='resonant-end-stone-pulverizer' %}
+</div>
+
 <!--
 recipes:
-  - pulverizer (4000 RF) -> 3 resonant clathrate
   - magma crucible (4000 RF) -> 1000 mb resonant ender
 -->

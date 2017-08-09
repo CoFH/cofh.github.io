@@ -50,8 +50,11 @@ processed into [crude oil](/docs/thermal-foundation/fluids/crude-oil/) and
 can also be molten down into crude oil directly in a [magma
 crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
+<div>
+{% include recipe.html recipe='oil-sand-pulverizer' %}
+</div>
+
 <!--
 recipes:
-  - pulverizer (4000 RF) -> 3 bitumen & 1 tar (50%)
   - magma crucible (4000 RF) -> 1000 mb crude oil
 -->

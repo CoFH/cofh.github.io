@@ -1,0 +1,12 @@
+<strong><a href="/docs/thermal-expansion/machines/magma-crucible/">Magma Crucible</a></strong>
+
+<div style="position: relative; width: 166px; height: 128px; background: url('/assets/images/recipe/types/magma-crucible.png')">
+    {% include recipe/slot.html data=include.data.input top=32 left=4 %}
+
+    {% include recipe/tank.html data=include.data.output top=4 left=130 size=2000 %}
+    <div style="position: absolute; top: 4px; left: 130px; width: 32px; height: 120px; background: url('/assets/images/recipe/types/magma-crucible.png'); background-position: -166px -4px; pointer-events: none"></div>
+
+    <div class="cofh-recipe-floating-text" style="top: 104px; left: 3px; text-align: left">
+        {{include.data.energy}} RF
+    </div>
+</div>
