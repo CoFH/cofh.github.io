@@ -6,6 +6,10 @@
     {% include recipe/tank.html data=include.data.output top=4 left=130 size=2000 %}
     <div style="position: absolute; top: 4px; left: 130px; width: 32px; height: 120px; background: url('/assets/images/recipe/types/magma-crucible.png'); background-position: -166px -4px; pointer-events: none"></div>
 
+    <div class="cofh-recipe-floating-text" style="top: 104px; right: 42px; text-align: right">
+        {{include.data.output.amount}} mB
+    </div>
+
     <div class="cofh-recipe-floating-text" style="top: 104px; left: 3px; text-align: left">
         {{include.data.energy}} RF
     </div>
