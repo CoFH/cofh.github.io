@@ -53,10 +53,6 @@ Oil shale can also be molten down into crude oil directly in a [magma
 crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
 <div>
-{% include recipe.html recipe='oil-shale-pulverizer' %}
+{% include recipe.html recipe='oil-shale-pulverizer' %}<br />
+{% include recipe.html recipe='oil-shale-magma-crucible' %}
 </div>
-
-<!--
-recipes:
-  - magma crucible (4000 RF) -> 1000 mb crude oil
--->

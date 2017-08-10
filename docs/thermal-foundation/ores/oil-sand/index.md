@@ -51,10 +51,6 @@ can also be molten down into crude oil directly in a [magma
 crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
 <div>
-{% include recipe.html recipe='oil-sand-pulverizer' %}
+{% include recipe.html recipe='oil-sand-pulverizer' %}<br />
+{% include recipe.html recipe='oil-sand-magma-crucible' %}
 </div>
-
-<!--
-recipes:
-  - magma crucible (4000 RF) -> 1000 mb crude oil
--->

@@ -39,7 +39,7 @@ Usage
 -----
 Energized netherrack yields [energized
 clathrate](/docs/thermal-foundation/materials/energized-clathrate/) and
-[sulfur](/docs/thermal-foundation/materials/cinnabare/) when processed in a
+[sulfur](/docs/thermal-foundation/materials/sulfur/) when processed in a
 [pulverizer](/docs/thermal-expansion/machines/pulverizer/). The clathrate can
 then be further processed into [energized
 glowstone](/docs/thermal-foundation/fluids/energized-glowstone/). Energized

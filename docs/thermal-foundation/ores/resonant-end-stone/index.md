@@ -45,10 +45,6 @@ also be molten down into resonant ender directly in a [magma
 crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
 <div>
-{% include recipe.html recipe='resonant-end-stone-pulverizer' %}
+{% include recipe.html recipe='resonant-end-stone-pulverizer' %}<br />
+{% include recipe.html recipe='resonant-end-stone-magma-crucible' %}
 </div>
-
-<!--
-recipes:
-  - magma crucible (4000 RF) -> 1000 mb resonant ender
--->

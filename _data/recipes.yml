@@ -718,10 +718,22 @@ items:
     url: 'Wood_Planks'
 
 fluids:
+  crude-oil:
+    name: 'Crude Oil'
+    site: 'tf-docs'
+    url: 'fluids/crude-oil/'
+  ender:
+    name: 'Resonant Ender'
+    site: 'tf-docs'
+    url: 'fluids/resonant-ender/'
   glowstone:
     name: 'Energized Glowstone'
     site: 'tf-docs'
     url: 'fluids/energized-glowstone/'
+  redstone:
+    name: 'Destabilized Redstone'
+    site: 'tf-docs'
+    url: 'fluids/destabilized-redstone/'
 
 recipes:
   aluminum-ore-induction-smelter-cinnabar:
@@ -852,6 +864,15 @@ recipes:
         item: ['ore-copper']
       output:
         item: ['ingot-copper']
+  destabilized-redstone-ore-magma-crucible:
+    type: 'magma-crucible'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-fluid-redstone']
+      output:
+        fluid: 'redstone'
+        amount: 1000
   destabilized-redstone-ore-pulverizer:
     type: 'pulverizer'
     data:
@@ -873,9 +894,6 @@ recipes:
       output:
         fluid: 'glowstone'
         amount: 1000
-      secondary-output:
-        item: ['sulfur']
-      secondary-chance: 30
   energized-netherrack-pulverizer:
     type: 'pulverizer'
     data:
@@ -1188,6 +1206,15 @@ recipes:
         item: ['ore-nickel']
       output:
         item: ['ingot-nickel']
+  oil-sand-magma-crucible:
+    type: 'magma-crucible'
+    data:
+      energy: 4000
+      input:
+        item: ['oil-sand']
+      output:
+        fluid: 'crude-oil'
+        amount: 1000
   oil-sand-pulverizer:
     type: 'pulverizer'
     data:
@@ -1200,6 +1227,15 @@ recipes:
       secondary-output:
         item: ['tar']
       secondary-chance: 50
+  oil-shale-magma-crucible:
+    type: 'magma-crucible'
+    data:
+      energy: 4000
+      input:
+        item: ['oil-shale']
+      output:
+        fluid: 'crude-oil'
+        amount: 1000
   oil-shale-pulverizer:
     type: 'pulverizer'
     data:
@@ -1286,6 +1322,15 @@ recipes:
       result:
         item: ['dust-pyrotheum']
         amount: 2
+  resonant-end-stone-magma-crucible:
+    type: 'magma-crucible'
+    data:
+      energy: 4000
+      input:
+        item: ['ore-fluid-ender']
+      output:
+        fluid: 'ender'
+        amount: 1000
   resonant-end-stone-pulverizer:
     type: 'pulverizer'
     data:
