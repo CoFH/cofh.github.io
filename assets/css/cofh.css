@@ -182,8 +182,6 @@ p {
 
 .cofh-recipe {
     display: inline-block;
-    margin-right: 15px;
-    margin-bottom: 15px;
     font-size: 11px;
     line-height: 16px;
     vertical-align: top;
@@ -216,6 +214,24 @@ p {
     color: #6f6f6f;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.cofh-recipe-table {
+    width: initial;
+    max-width: 100%;
+}
+
+.cofh-recipe-table, .cofh-recipe-table tr, .cofh-recipe-table td, .cofh-recipe-table th {
+    border: 1px solid #dadada;
+    border-collapse: collapse;
+}
+
+.cofh-recipe-table td {
+    vertical-align: middle;
+}
+
+.cofh-recipe-table th {
+    text-align: center;
 }
 
 #cofh-docs-content a[href^="http"] {
