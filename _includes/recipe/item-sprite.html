@@ -2,7 +2,7 @@
 {% assign item_data = site.data.recipes.items[item_name] %}
 {% assign item_site = site.data.recipes.sites[item_data.site] %}
 
-<a href="{{ item_site.url }}{{ item_data.url }}" {% if item_site.new-tab %}target="_blank"{% endif %}>
+<a href="{{ item_site.url }}{{ item_data.url }}">
     <div class="cofh-recipe-item-sprite" title="{{ item_data.name }}" data-uk-tooltip="{pos: 'top', offset: 4}">
         {% if item_data.animated %}
             <img src="/assets/images/recipe/item-sprites/{{ item_name }}.gif" class="cofh-recipe-item-sprite" />

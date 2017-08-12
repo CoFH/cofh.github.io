@@ -155,8 +155,7 @@ the command user will be the target.
 
 enchantmentID
 : The ID of the enchantment to apply. A list of vanilla enchantment IDs can be
-found
-[here](http://minecraft.gamepedia.com/Data_values#Enchantment_IDs){:target="_blank"}
+found [here](http://minecraft.gamepedia.com/Data_values#Enchantment_IDs).
 
 level
 : The level of the enchantment to apply.

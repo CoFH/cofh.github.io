@@ -2,33 +2,12 @@ html {
     overflow-y: scroll;
 }
 
-/*
-p {
-    text-align: justify;
-    hyphens: auto;
-}
-*/
-
 .uk-text-muted a {
     color: #688fb1;
 }
 
 .uk-text-small code {
     font-size: 10.5px;
-}
-
-.uk-float-left .uk-thumbnail, .uk-float-right .uk-thumbnail {
-    margin-bottom: 20px;
-}
-
-@media(min-width: 480px) {
-    .uk-float-left .uk-thumbnail {
-        margin-right: 20px;
-    }
-
-    .uk-float-right .uk-thumbnail {
-        margin-left: 20px;
-    }
 }
 
 .uk-navbar-brand:not(.uk-navbar-center) {

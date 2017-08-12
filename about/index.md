@@ -62,19 +62,19 @@ bit vague. These are the currently confirmed members of the team.
             <div class="uk-text-right uk-margin-large-top">
                 <div class="uk-button-group">
                     {% if member.social.twitter %}
-                        <a class="uk-button" href="https://twitter.com/{{member.social.twitter}}" target="_blank">
+                        <a class="uk-button" href="https://twitter.com/{{member.social.twitter}}">
                             <i class="uk-icon-twitter"></i> Twitter
                         </a>
                     {% endif %}
 
                     {% if member.social.github %}
-                        <a class="uk-button" href="https://github.com/{{member.social.github}}" target="_blank">
+                        <a class="uk-button" href="https://github.com/{{member.social.github}}">
                             <i class="uk-icon-github"></i> GitHub
                         </a>
                     {% endif %}
 
                     {% if member.social.redit %}
-                        <a class="uk-button" href="http://www.reddit.com/user/{{member.social.reddit}}" target="_blank">
+                        <a class="uk-button" href="http://www.reddit.com/user/{{member.social.reddit}}">
                             <i class="uk-icon-reddit"></i> reddit
                         </a>
                     {% endif %}

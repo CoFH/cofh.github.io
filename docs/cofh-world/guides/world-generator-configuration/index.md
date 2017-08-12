@@ -14,9 +14,8 @@ CoFH World lets users or modpack authors specify custom types of ores, plants,
 boulders, spikes, lakes and more to be generated in the world. This guide
 explains how to do that.
 
-**Note:** A good understanding of [JSON](http://www.json.org/){:target="_blank"}
-is required. JSON terms will be used to describe the format of the configuration
-files.
+**Note:** A good understanding of [JSON](http://www.json.org/) is required. JSON
+terms will be used to describe the format of the configuration files.
 
 
 ---
@@ -184,7 +183,7 @@ Links
 This section lists some links that can be useful when setting up world
 generation with CoFH World.
 
-* [IDs of blocks in vanilla Minecraft](http://minecraft.gamepedia.com/Data_values#Block_IDs){:target="_blank"}
-* [Block states of blocks in vanilla Minecraft](http://minecraft.gamepedia.com/Block_states#List_of_block_states){:target="_blank"}
-* [Names of biomes in vanilla Minecraft](http://minecraft.gamepedia.com/Data_values#Biome_IDs){:target="_blank"}
-* [Forge biome tags](https://pastebin.com/0NH383ps){:target="_blank"}
+* [IDs of blocks in vanilla Minecraft](http://minecraft.gamepedia.com/Data_values#Block_IDs)
+* [Block states of blocks in vanilla Minecraft](http://minecraft.gamepedia.com/Block_states#List_of_block_states)
+* [Names of biomes in vanilla Minecraft](http://minecraft.gamepedia.com/Data_values#Biome_IDs)
+* [Forge biome tags](https://pastebin.com/0NH383ps)

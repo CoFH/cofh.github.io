@@ -9,16 +9,15 @@ By King Lemming, Ph.D.
 
 Redstone - the mysterious substance found deep underground - is the source of
 limitless potential in this new age of industrialization. In its native
-[ore](https://minecraft.gamepedia.com/Redstone_Ore){:target="_blank"} form, it
-exhibits the fascinating property of absorbing kinetic impacts and emitting
-light. If a sufficiently strong implement, such as an [iron
-pickaxe](https://minecraft.gamepedia.com/Pickaxe){:target="_blank"}, is used to
-deliver these impacts, the ore will shatter apart and release its precious
-contents in the most native form - [redstone
-dust](https://minecraft.gamepedia.com/Redstone){:target="_blank"}. Veritable
-treatises have been written on this particular form of redstone and how it may
-be used to construct rudimentary circuitry, so this particular property will not
-be further elaborated upon in this writing.
+[ore](https://minecraft.gamepedia.com/Redstone_Ore) form, it exhibits the
+fascinating property of absorbing kinetic impacts and emitting light. If a
+sufficiently strong implement, such as an [iron
+pickaxe](https://minecraft.gamepedia.com/Pickaxe), is used to deliver these
+impacts, the ore will shatter apart and release its precious contents in the
+most native form - [redstone dust](https://minecraft.gamepedia.com/Redstone).
+Veritable treatises have been written on this particular form of redstone and
+how it may be used to construct rudimentary circuitry, so this particular
+property will not be further elaborated upon in this writing.
 
 On a basic level, Redstone Flux is the name for the stored energy which
 manifests as a standing resonant wave in a mass of redstone. The resonant
@@ -80,9 +79,9 @@ silver is most used in the generation of Redstone Flux. The engineering mnemonic
 for this is derived from the chemical abbreviation of silver - Ag - or "A
 Generator."
 
-**[Gold](https://minecraft.gamepedia.com/Gold){:target="_blank"}:** This
-precious metal, when combined with redstone dust, is able to convert Redstone
-Flux into heat or magnetism. Engineering advances have shown that a [coil-type
+**[Gold](https://minecraft.gamepedia.com/Gold):** This precious metal, when
+combined with redstone dust, is able to convert Redstone Flux into heat or
+magnetism. Engineering advances have shown that a [coil-type
 geometry](/docs/thermal-foundation/materials/redstone-coils/) can be used to
 optimize the reception and storage of Redstone Flux. Essentially, gold is most
 used in the reception of Redstone Flux. The engineering mnemonic for this is

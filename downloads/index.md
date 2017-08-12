@@ -10,8 +10,9 @@ see [Permissions](/permissions/).
 Before installing a mod, *always back up your world!* Especially when
 it's a development build.
 
-Report bugs and suggest new things
-[here](https://github.com/CoFH/Feedback){:target="_blank"}.
+Report bugs and suggest new features on the [GitHub issue
+tracker](https://github.com/CoFH/Feedback). Ask questions on the [Twitch
+chat](https://invite.twitch.tv/6gxxks).
 
 <ul class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin data-uk-grid-match="{target: '.uk-panel'}">
     {% for mod in site.data.download-links %}
@@ -26,7 +27,7 @@ Report bugs and suggest new things
                 <h4><strong>Requirements:</strong></h4>
                 <ul>
                     {% for req in mod.requirements %}
-                        <li><a href="{{req.link}}" {% if req.external %}target="_blank"{% endif %}>{{ req.name }}</a></li>
+                        <li><a href="{{req.link}}">{{ req.name }}</a></li>
                     {% endfor %}
                 </ul>
 
@@ -35,11 +36,11 @@ Report bugs and suggest new things
                 {% endif %}
 
                 <div class="uk-button-group uk-margin-top">
-                    <a class="uk-button uk-button-small uk-button-success uk-text-bold" href="{{mod.links.curse}}" target="_blank">Download on Curse</a>
-                    <a class="uk-button uk-button-small" href="{{mod.links.curseforge}}" target="_blank">CurseForge</a>
+                    <a class="uk-button uk-button-small uk-button-success uk-text-bold" href="{{mod.links.curse}}">Download on Curse</a>
+                    <a class="uk-button uk-button-small" href="{{mod.links.curseforge}}">CurseForge</a>
 
                     {% if mod.links.changelog %}
-                        <a class="uk-button uk-button-small" href="{{mod.links.changelog}}" target="_blank">Changelog</a>
+                        <a class="uk-button uk-button-small" href="{{mod.links.changelog}}">Changelog</a>
                     {% endif %}
                 </div>
             </div>

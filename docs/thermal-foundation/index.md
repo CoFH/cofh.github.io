@@ -17,5 +17,5 @@ armor made of various materials.
 
 <div class="uk-margin-top uk-button-group">
     <a class="uk-button uk-button-large uk-button-success uk-text-bold" href="/downloads/">Download</a>
-    <a class="uk-button uk-button-large" href="https://github.com/CoFH/ThermalFoundation" target="_blank">GitHub</a>
+    <a class="uk-button uk-button-large" href="https://github.com/CoFH/ThermalFoundation">GitHub</a>
 </div>

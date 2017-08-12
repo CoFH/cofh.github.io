@@ -9,7 +9,7 @@ show_banner: true
         <h2 class="uk-text-bold">{{ post.title }}</h2>
 
         {% if post.author or post.date %}
-        <p class="uk-article-meta">Written{% if post.author %} by <strong>{% if post.author_url %}<a href="{{ post.author_url }}" target="_blank">{% endif %}{{ post.author }}{% if post.author_url %}</a>{% endif %}</strong>{% endif %}{% if post.date %} on {{ post.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
+        <p class="uk-article-meta">Written{% if post.author %} by <strong>{% if post.author_url %}<a href="{{ post.author_url }}">{% endif %}{{ post.author }}{% if post.author_url %}</a>{% endif %}</strong>{% endif %}{% if post.date %} on {{ post.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
         {% endif %}
 
         {{ post.excerpt }}

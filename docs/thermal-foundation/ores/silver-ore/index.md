@@ -5,25 +5,23 @@ title: Silver Ore
 ![Silver Ore](/assets/images/thermal-foundation/ore-silver.png){:style="height: 128px"}
 
 
-**Silver ore** is a somewhat uncommon
-[ore](https://minecraft.gamepedia.com/Ore){:target="_blank"} that yields
-[silver](/docs/thermal-foundation/metals-and-alloys/silver/).
+**Silver ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
+that yields [silver](/docs/thermal-foundation/metals-and-alloys/silver/).
 
 
 Obtaining
 ---------
 Silver ore is less common than [iron
-ore](https://minecraft.gamepedia.com/Iron_Ore){:target="_blank"}, but more
-common than [gold
-ore](https://minecraft.gamepedia.com/Gold_Ore){:target="_blank"}. It occurs at
-low levels in the world (layers 5-30). Silver ore veins are slightly smaller
-than iron ore veins, and may contain one or two blocks of [lead
+ore](https://minecraft.gamepedia.com/Iron_Ore), but more common than [gold
+ore](https://minecraft.gamepedia.com/Gold_Ore). It occurs at low levels in the
+world (layers 5-30). Silver ore veins are slightly smaller than iron ore veins,
+and may contain one or two blocks of [lead
 ore](/docs/thermal-foundation/ores/lead-ore/) as well. Similarly, lead ore veins
 may contain one or two blocks of silver ore.
 
 Silver ore must be mined with an [iron
-pickaxe](https://minecraft.gamepedia.com/Pickaxe){:target="_blank"} or better.
-If it is mined, it drops itself as an item.
+pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+drops itself as an item.
 
 
 Usage

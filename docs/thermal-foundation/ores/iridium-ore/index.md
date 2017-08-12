@@ -5,8 +5,7 @@ title: Iridium Ore
 ![Iridium Ore](/assets/images/thermal-foundation/ore-iridium.png){:style="height: 128px"}
 
 
-**Iridium ore** is an
-[ore](https://minecraft.gamepedia.com/Ore){:target="_blank"} that yields
+**Iridium ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
 [iridium](/docs/thermal-foundation/metals-and-alloys/iridium/).
 
 
@@ -17,8 +16,8 @@ legitimately obtained. However, it may be configured to generate in the world in
 modpacks.
 
 Iridium ore must be mined with a [diamond
-pickaxe](https://minecraft.gamepedia.com/Pickaxe){:target="_blank"} or better.
-If it is mined, it drops itself as an item.
+pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+drops itself as an item.
 
 
 Usage

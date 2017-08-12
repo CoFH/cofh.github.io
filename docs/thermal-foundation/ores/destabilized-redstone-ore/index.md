@@ -6,30 +6,27 @@ title: Destabilized Redstone Ore
 
 
 **Destabilized redstone ore** is a rare
-[ore](https://minecraft.gamepedia.com/Ore){:target="_blank"} that yields
-[destabilized
+[ore](https://minecraft.gamepedia.com/Ore) that yields [destabilized
 clathrate](/docs/thermal-foundation/materials/destabilized-clathrate/).
 
 
 Obtaining
 ---------
 Destabilized redstone ore is relatively rare. It occurs underground at around
-the same levels as [redstone
-ore](https://minecraft.gamepedia.com/Redstone_Ore){:target="_blank"} (layers
-0-20). It occurs in fairly large deposits, almost as large as deposits of [coal
-ore](https://minecraft.gamepedia.com/Coal_Ore){:target="_blank"}. Deposits of
+the same levels as [redstone ore](https://minecraft.gamepedia.com/Redstone_Ore)
+(layers 0-20). It occurs in fairly large deposits, almost as large as deposits
+of [coal ore](https://minecraft.gamepedia.com/Coal_Ore). Deposits of
 destabilized redstone ore may also contain some [destabilized
 redstone](/docs/thermal-foundation/fluids/destabilized-redstone/).
 
 Destabilized redstone ore must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Pickaxe){:target="_blank"} or better.
-It drops one piece of [destabilized
+pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. It drops one piece
+of [destabilized
 clathrate](/docs/thermal-foundation/materials/destabilized-clathrate/) when
 mined. More clathrate is dropped if a
-[Fortune](https://minecraft.gamepedia.com/Fortune){:target="_blank"} enchanted
-pickaxe is used. The ore block itself can be obtained by mining it with a [Silk
-Touch](https://minecraft.gamepedia.com/Silk_Touch){:target="_blank"} enchanted
-pickaxe.
+[Fortune](https://minecraft.gamepedia.com/Fortune) enchanted pickaxe is used.
+The ore block itself can be obtained by mining it with a [Silk
+Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
 When destabilized redstone ore is broken, some [destabilized
 redstone](/docs/thermal-foundation/fluids/destabilized-redstone/) comes flowing

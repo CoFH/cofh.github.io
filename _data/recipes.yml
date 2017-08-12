@@ -1,7 +1,6 @@
 sites:
   mc-wiki:
     url: 'https://minecraft.gamepedia.com/'
-    new-tab: yes
   tf-docs:
     url: '/docs/thermal-foundation/'
 

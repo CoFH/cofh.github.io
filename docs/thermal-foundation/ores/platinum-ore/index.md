@@ -5,8 +5,7 @@ title: Platinum Ore
 ![Platinum Ore](/assets/images/thermal-foundation/ore-platinum.png){:style="height: 128px"}
 
 
-**Platinum ore** is an
-[ore](https://minecraft.gamepedia.com/Ore){:target="_blank"} that yields
+**Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
 [platinum](/docs/thermal-foundation/metals-and-alloys/platinum/).
 
 
@@ -17,8 +16,8 @@ legitimately obtained. However, it may be configured to generate in the world in
 modpacks.
 
 Platinum ore must be mined with a [diamond
-pickaxe](https://minecraft.gamepedia.com/Pickaxe){:target="_blank"} or better.
-If it is mined, it drops itself as an item.
+pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+drops itself as an item.
 
 
 Usage
@@ -37,7 +36,7 @@ small amounts of [iridium](/docs/thermal-foundation/metals-and-alloys/iridium/).
         <tr>
             <th>Result(s)</th>
             <th>Ingredients</th>
-            <th><a href="https://minecraft.gamepedia.com/Smelting" target="_blank">Smelting</a> recipe</th>
+            <th><a href="https://minecraft.gamepedia.com/Smelting">Smelting</a> recipe</th>
         </tr>
     </thead>
     <tbody>

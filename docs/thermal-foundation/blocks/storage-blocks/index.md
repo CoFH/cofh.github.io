@@ -10,8 +10,7 @@ redirect_from: /docs/thermal-foundation/materials/storage-blocks/
 [ingots](/docs/thermal-foundation/materials/ingots/). They emit varying amounts
 of light depending on the metal or alloy used, like
 [lumium](/docs/thermal-foundation/metals-and-alloys/lumium/). They can also be
-used to build [beacon](https://minecraft.gamepedia.com/Beacon){:target="_blank"}
-pyramids.
+used to build [beacon](https://minecraft.gamepedia.com/Beacon) pyramids.
 
 
 Crafting

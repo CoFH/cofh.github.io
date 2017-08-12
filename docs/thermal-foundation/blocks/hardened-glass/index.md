@@ -7,9 +7,8 @@ redirect_from: /docs/thermal-expansion/materials/hardened-glass/
 ![Hardened glass variants](/assets/images/thermal-foundation/hardened-glass-variants.gif){:style="height: 96px"}
 
 
-**Hardened glass** is a type of
-[glass](https://minecraft.gamepedia.com/Glass){:target="_blank"} that is hard to
-break and explosion resistant. It is made from
+**Hardened glass** is a type of [glass](https://minecraft.gamepedia.com/Glass)
+that is hard to break and explosion resistant. It is made from
 [lead](/docs/thermal-foundation/metals-and-alloys/lead/) and [pulverized
 obsidian](/docs/thermal-foundation/materials/pulverized-materials-and-blends/)
 in an [induction smelter](/docs/thermal-expansion/machines/induction-smelter/).
@@ -24,10 +23,9 @@ amounts of light depending on the metal or alloy used, like
 Placed hardened glass blocks can only be harvested by dismantling them with a
 [crescent hammer](/docs/thermal-foundation/items/crescent-hammer/), or by
 breaking them with a tool enchanted with [Silk
-Touch](https://minecraft.gamepedia.com/Silk_Touch){:target="_blank"}. They also
-change the color of
-[beacon](https://minecraft.gamepedia.com/Beacon){:target="_blank"} beams that
-shine through them to the color of their corresponding metals.
+Touch](https://minecraft.gamepedia.com/Silk_Touch). They also change the color
+of [beacon](https://minecraft.gamepedia.com/Beacon) beams that shine through
+them to the color of their corresponding metals.
 
 
 Crafting

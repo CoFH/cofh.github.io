@@ -4,20 +4,18 @@
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
   note: >
     Required for CoFH Core; provides the Redstone Flux API.
   links:
     curse: https://mods.curse.com/mc-mods/minecraft/270789-redstone-flux
     curseforge: https://minecraft.curseforge.com/projects/redstone-flux
 
-- name: CoFHCore
+- name: CoFH Core
   tag: cofh-core
   logo: 'modlogos/cofh-core.png'
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
     - name: Redstone Flux API
       link: '#rf-api'
   note: >
@@ -33,7 +31,6 @@
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
     - name: CoFH Core
       link: '#cofh-core'
   note: >
@@ -48,7 +45,6 @@
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
     - name: CoFH Core
       link: '#cofh-core'
     - name: CoFH World
@@ -64,14 +60,12 @@
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
     - name: CoFH Core
       link: '#cofh-core'
     - name: Thermal Foundation
       link: '#thermal-foundation'
     - name: CodeChickenLib
       link: http://chickenbones.net/Pages/links.html
-      external: true
   links:
     curse: https://mods.curse.com/mc-mods/minecraft/thermalexpansion
     curseforge: https://minecraft.curseforge.com/projects/thermalexpansion
@@ -83,7 +77,6 @@
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
     - name: CoFH Core
       link: '#cofh-core'
     - name: Thermal Foundation
@@ -99,7 +92,6 @@
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
     - name: CoFH Core
       link: '#cofh-core'
     - name: Thermal Foundation
@@ -114,7 +106,6 @@
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
     - name: CoFH Core
       link: '#cofh-core'
   note: >
@@ -130,7 +121,6 @@
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
     - name: CoFH Core
       link: '#cofh-core'
   links:
@@ -142,7 +132,6 @@
   requirements:
     - name: Minecraft Forge
       link: https://files.minecraftforge.net/
-      external: true
     - name: CoFH Core
       link: '#cofh-core'
   links:

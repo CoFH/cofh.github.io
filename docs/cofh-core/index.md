@@ -19,5 +19,5 @@ updates for the CoFH mods.
 
 <div class="uk-margin-top uk-button-group">
     <a class="uk-button uk-button-large uk-button-success uk-text-bold" href="/downloads/">Download</a>
-    <a class="uk-button uk-button-large" href="https://github.com/CoFH/CoFHCore" target="_blank">GitHub</a>
+    <a class="uk-button uk-button-large" href="https://github.com/CoFH/CoFHCore">GitHub</a>
 </div>

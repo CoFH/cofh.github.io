@@ -6,9 +6,8 @@ title: Resonant End Stone
 
 
 **Resonant end stone** is a fairly common
-[ore](https://minecraft.gamepedia.com/Ore){:target="_blank"} that can be found
-in the [End](https://minecraft.gamepedia.com/The_End){:target="_blank"}. It
-yields [resonant
+[ore](https://minecraft.gamepedia.com/Ore) that can be found in the
+[End](https://minecraft.gamepedia.com/The_End). It yields [resonant
 clathrate](/docs/thermal-foundation/materials/resonant-clathrate/).
 
 
@@ -16,17 +15,15 @@ Obtaining
 ---------
 Resonant end stone occurs fairly commonly at any level of the End (layers
 10-80). It occurs in large deposits, slightly larger than deposits of [coal
-ore](https://minecraft.gamepedia.com/Coal_Ore){:target="_blank"}.
+ore](https://minecraft.gamepedia.com/Coal_Ore).
 
 Resonant end stone must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Pickaxe){:target="_blank"} or better.
-It drops one piece of [resonant
-clathrate](/docs/thermal-foundation/materials/resonant-clathrate/) when mined.
-More clathrate is dropped if a
-[Fortune](https://minecraft.gamepedia.com/Fortune){:target="_blank"} enchanted
-pickaxe is used. The ore block itself can be obtained by mining it with a [Silk
-Touch](https://minecraft.gamepedia.com/Silk_Touch){:target="_blank"} enchanted
-pickaxe.
+pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. It drops one piece
+of [resonant clathrate](/docs/thermal-foundation/materials/resonant-clathrate/)
+when mined. More clathrate is dropped if a
+[Fortune](https://minecraft.gamepedia.com/Fortune) enchanted pickaxe is used.
+The ore block itself can be obtained by mining it with a [Silk
+Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
 When resonant end stone is broken, some [resonant
 ender](/docs/thermal-foundation/fluids/resonant-ender/) comes flowing out. This
