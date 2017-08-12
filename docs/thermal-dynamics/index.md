@@ -16,5 +16,5 @@ transport items, fluids, [Redstone Flux](/docs/redstone-flux/), and even people.
 
 <div class="uk-margin-top uk-button-group">
     <a class="uk-button uk-button-large uk-button-success uk-text-bold" href="/downloads/">Download</a>
-    <a class="uk-button uk-button-large" href="https://github.com/CoFH/ThermalDynamics">GitHub</a>
+    <a class="uk-button uk-button-large" href="https://github.com/CoFH/ThermalDynamics" target="_blank">GitHub</a>
 </div>
