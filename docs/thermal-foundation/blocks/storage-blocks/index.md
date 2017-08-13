@@ -1,6 +1,8 @@
 ---
 title: Storage Blocks
 redirect_from: /docs/thermal-foundation/materials/storage-blocks/
+recipes:
+  - 'storage-blocks'
 ---
 
 ![Storage Blocks](/assets/images/thermal-foundation/storage-blocks.gif){:style="height: 128px"}
@@ -13,7 +15,8 @@ of light depending on the metal or alloy used, like
 used to build [beacon](https://minecraft.gamepedia.com/Beacon) pyramids.
 
 
-Crafting
---------
+Obtaining
+---------
 
-{% include recipe.html recipe='storage-blocks' %}
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes %}

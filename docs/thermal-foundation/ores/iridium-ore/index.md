@@ -1,5 +1,12 @@
 ---
 title: Iridium Ore
+usage_recipes:
+  pulverizer:
+    - 'iridium-ore-pulverizer'
+  induction_smelter:
+    - 'iridium-ore-induction-smelter-sand'
+    - 'iridium-ore-induction-smelter-rich-slag'
+    - 'iridium-ore-induction-smelter-cinnabar'
 ---
 
 ![Iridium Ore](/assets/images/thermal-foundation/ore-iridium.png){:style="height: 128px"}
@@ -22,16 +29,12 @@ drops itself as an item.
 
 Usage
 -----
-Iridium ore yields
-[iridium](/docs/thermal-foundation/metals-and-alloys/iridium/) and small amounts
-of [platinum](/docs/thermal-foundation/metals-and-alloys/platinum/) when
-processed in a [pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an
-[induction smelter](/docs/thermal-expansion/machines/induction-smelter/). It
-cannot be smelted in a furnace.
 
-<div>
-{% include recipe.html recipe='iridium-ore-pulverizer' %}<br />
-{% include recipe.html recipe='iridium-ore-induction-smelter-sand' %}
-{% include recipe.html recipe='iridium-ore-induction-smelter-rich-slag' %}
-{% include recipe.html recipe='iridium-ore-induction-smelter-cinnabar' %}
-</div>
+Iridium ore cannot be processed by
+[smelting](https://minecraft.gamepedia.com/Smelting).
+
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}

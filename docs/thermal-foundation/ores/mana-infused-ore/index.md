@@ -1,5 +1,12 @@
 ---
 title: Mana Infused Ore
+usage_recipes:
+  pulverizer:
+    - 'mithril-ore-pulverizer'
+  induction_smelter:
+    - 'mithril-ore-induction-smelter-sand'
+    - 'mithril-ore-induction-smelter-rich-slag'
+    - 'mithril-ore-induction-smelter-cinnabar'
 ---
 
 ![Mana Infused Ore](/assets/images/thermal-foundation/ore-mithril.png){:style="height: 128px"}
@@ -23,16 +30,12 @@ drops itself as an item.
 
 Usage
 -----
-Mana infused ore yields [mana infused
-metal](/docs/thermal-foundation/metals-and-alloys/mana-infused-metal/) and small
-amounts of [gold](https://minecraft.gamepedia.com/Gold) when processed in a
-[pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an [induction
-smelter](/docs/thermal-expansion/machines/induction-smelter/). It cannot be
-smelted in a furnace.
 
-<div>
-{% include recipe.html recipe='mithril-ore-pulverizer' %}<br />
-{% include recipe.html recipe='mithril-ore-induction-smelter-sand' %}
-{% include recipe.html recipe='mithril-ore-induction-smelter-rich-slag' %}
-{% include recipe.html recipe='mithril-ore-induction-smelter-cinnabar' %}
-</div>
+Mana infused ore cannot be processed by
+[smelting](https://minecraft.gamepedia.com/Smelting).
+
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}

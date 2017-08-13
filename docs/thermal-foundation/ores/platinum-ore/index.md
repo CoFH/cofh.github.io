@@ -1,11 +1,11 @@
 ---
 title: Platinum Ore
-recipes:
+usage_recipes:
   smelting:
     - 'platinum-ore-smelting'
   pulverizer:
     - 'platinum-ore-pulverizer'
-  induction-smelter:
+  induction_smelter:
     - 'platinum-ore-induction-smelter-sand'
     - 'platinum-ore-induction-smelter-rich-slag'
     - 'platinum-ore-induction-smelter-cinnabar'
@@ -31,19 +31,12 @@ drops itself as an item.
 
 Usage
 -----
-Platinum ore yields
-[platinum](/docs/thermal-foundation/metals-and-alloys/platinum/) when processed,
-which is mostly used to create
-[enderium](/docs/thermal-foundation/metals-and-alloys/enderium/). If processed
-in a [pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an [induction
-smelter](/docs/thermal-expansion/machines/induction-smelter/), it may also yield
-small amounts of [iridium](/docs/thermal-foundation/metals-and-alloys/iridium/).
 
 ### Smelting ingredient
-{% include recipe-table.html type='smelting' recipes=page.recipes.smelting %}
+{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
 
-### Induction smelter ingredient
-{% include recipe-table.html type='induction-smelter' recipes=page.recipes.induction-smelter %}
+### Induction Smelter ingredient
+{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}

@@ -1,5 +1,10 @@
 ---
 title: Destabilized Redstone Ore
+usage_recipes:
+  pulverizer:
+    - 'destabilized-redstone-ore-pulverizer'
+  magma_crucible:
+    - 'destabilized-redstone-ore-magma-crucible'
 ---
 
 ![Destabilized Redstone Ore](/assets/images/thermal-foundation/ore-fluid-redstone.png){:style="height: 128px"}
@@ -35,16 +40,9 @@ out. This fluid cannot be picked up and eventually disappears.
 
 Usage
 -----
-Destabilized redstone ore yields [destabilized
-clathrate](/docs/thermal-foundation/materials/destabilized-clathrate/) and
-[cinnabar](/docs/thermal-foundation/materials/cinnabar/) when processed in a
-[pulverizer](/docs/thermal-expansion/machines/pulverizer/). The clathrate can
-then be further processed into [destabilized
-redstone](/docs/thermal-foundation/fluids/destabilized-redstone/). Destabilized
-redstone ore can also be molten down into destabilized redstone directly in a
-[magma crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
-<div>
-{% include recipe.html recipe='destabilized-redstone-ore-pulverizer' %}<br />
-{% include recipe.html recipe='destabilized-redstone-ore-magma-crucible' %}
-</div>
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Magma Crucible ingredient
+{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}
