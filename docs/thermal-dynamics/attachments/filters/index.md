@@ -1,5 +1,12 @@
 --- 
 title: Filters 
+recipes: 
+  crafting: 
+    - 'filter' 
+    - 'filter-hardened' 
+    - 'filter-reinforced' 
+    - 'filter-signalum' 
+    - 'filter-resonant' 
 --- 
 
 
@@ -10,14 +17,11 @@ Depending on the duct the filter is attached to the filter can filter items or f
 There are several types of filters that unlocks more features.
 
 
-Crafting
---------
+Obtaining
+---------
 
-{% include recipe.html recipe='filter' %}
-{% include recipe.html recipe='filter-hardened' %}
-{% include recipe.html recipe='filter-reinforced' %}
-{% include recipe.html recipe='filter-signalum' %}
-{% include recipe.html recipe='filter-resonant' %}
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 Filter GUI
 --------

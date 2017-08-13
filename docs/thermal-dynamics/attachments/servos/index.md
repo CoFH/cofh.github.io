@@ -1,5 +1,12 @@
 --- 
 title: Servos
+recipes: 
+  crafting: 
+    - 'servo' 
+    - 'servo-hardened' 
+    - 'servo-reinforced' 
+    - 'servo-signalum' 
+    - 'servo-resonant' 
 --- 
 
 
@@ -10,15 +17,11 @@ Depending on the duct the servo is attached to the servo can extract items or fl
 There are several types of servos that unlocks more features.
 
 
-Crafting
+Obtaining
 --------
 
-{% include recipe.html recipe='servo' %}
-{% include recipe.html recipe='servo-hardened' %}
-{% include recipe.html recipe='servo-reinforced' %}
-
-{% include recipe.html recipe='servo-signalum' %}
-{% include recipe.html recipe='servo-resonant' %}
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 Servo GUI
 --------

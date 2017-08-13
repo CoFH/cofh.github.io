@@ -1,5 +1,12 @@
 --- 
 title: Retrievers 
+recipes: 
+  crafting: 
+    - 'retriever' 
+    - 'retriever-hardened' 
+    - 'retriever-reinforced' 
+    - 'retriever-signalum' 
+    - 'retriever-resonant' 
 --- 
 
 
@@ -10,15 +17,11 @@ Depending on the duct the retriever is attached to the retriever can extract ite
 There are several types of retrievers that unlocks more features.
 
 
-Crafting
+Obtaining
 --------
 
-{% include recipe.html recipe='retriever' %}
-{% include recipe.html recipe='retriever-hardened' %}
-{% include recipe.html recipe='retriever-reinforced' %}
-
-{% include recipe.html recipe='retriever-signalum' %}
-{% include recipe.html recipe='retriever-resonant' %}
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 Retriever GUI
 --------

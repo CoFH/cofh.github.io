@@ -193,27 +193,27 @@ items:
     name: 'Filter'
     sprite: [2, 9]
     site: 'td-docs'
-    url: 'attachments/filter/'
+    url: 'attachments/filters/'
   filter-hardened:
     name: 'Hardened Filter'
     sprite: [3, 9]
     site: 'td-docs'
-    url: 'attachments/filter/'
+    url: 'attachments/filters/'
   filter-reinforced:
     name: 'Reinforced Filter'
     sprite: [4, 9]
     site: 'td-docs'
-    url: 'attachments/filter/'
+    url: 'attachments/filters/'
   filter-signalum:
     name: 'Signalum Filter'
     sprite: [5, 9]
     site: 'td-docs'
-    url: 'attachments/filter/'
+    url: 'attachments/filters/'
   filter-resonant:
     name: 'Resonant Filter'
     sprite: [6, 9]
     site: 'td-docs'
-    url: 'attachments/filter/'
+    url: 'attachments/filters/'
   flint:
     name: 'Flint'
     sprite: [9, 8]
@@ -553,27 +553,27 @@ items:
     name: 'Retriever'
     sprite: [7, 9]
     site: 'td-docs'
-    url: 'attachments/retriever/'
+    url: 'attachments/retrievers/'
   retriever-hardened:
     name: 'Hardened Retriever'
     sprite: [8, 9]
     site: 'td-docs'
-    url: 'attachments/retriever/'
+    url: 'attachments/retrievers/'
   retriever-reinforced:
     name: 'Reinforced Retriever'
     sprite: [9, 9]
     site: 'td-docs'
-    url: 'attachments/retriever/'
+    url: 'attachments/retrievers/'
   retriever-signalum:
     name: 'Signalum Retriever'
     sprite: [10, 9]
     site: 'td-docs'
-    url: 'attachments/retriever/'
+    url: 'attachments/retrievers/'
   retriever-resonant:
     name: 'Resonant Retriever'
     sprite: [11, 9]
     site: 'td-docs'
-    url: 'attachments/retriever/'
+    url: 'attachments/retrievers/'
   rockwool-black:
     name: 'Black Rockwool'
     sprite: [0, 4]
@@ -668,27 +668,27 @@ items:
     name: 'Servo'
     sprite: [13, 8]
     site: 'td-docs'
-    url: 'attachments/servo/'
+    url: 'attachments/servos/'
   servo-hardened:
     name: 'Hardened Servo'
     sprite: [14, 8]
     site: 'td-docs'
-    url: 'attachments/servo/'
+    url: 'attachments/servos/'
   servo-reinforced:
     name: 'Reinforced Servo'
     sprite: [15, 8]
     site: 'td-docs'
-    url: 'attachments/servo/'
+    url: 'attachments/servos/'
   servo-signalum:
     name: 'Signalum Servo'
     sprite: [0, 9]
     site: 'td-docs'
-    url: 'attachments/servo/'
+    url: 'attachments/servos/'
   servo-resonant:
     name: 'Resonant Servo'
     sprite: [1, 9]
     site: 'td-docs'
-    url: 'attachments/servo/'
+    url: 'attachments/servos/'
   slag:
     name: 'Slag'
     sprite: [15, 3]
@@ -1123,6 +1123,15 @@ recipes:
       secondary-chance: 30
   filter:
     type: 'crafting'
+    results: 
+      - item: 'filter' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-iron'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'paper' 
     data:
       shapeless: false
       rows:
@@ -1133,6 +1142,15 @@ recipes:
         amount: 1
   filter-hardened:
     type: 'crafting'
+    results: 
+      - item: 'filter-hardened' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-invar'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'paper' 
     data:
       shapeless: false
       rows:
@@ -1143,6 +1161,15 @@ recipes:
         amount: 1
   filter-reinforced:
     type: 'crafting'
+    results: 
+      - item: 'filter-reinforced' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-electrum'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'paper' 
     data:
       shapeless: false
       rows:
@@ -1153,6 +1180,15 @@ recipes:
         amount: 1
   filter-signalum:
     type: 'crafting'
+    results: 
+      - item: 'filter-signalum' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-signalum'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'paper' 
     data:
       shapeless: false
       rows:
@@ -1163,6 +1199,15 @@ recipes:
         amount: 1
   filter-resonant:
     type: 'crafting'
+    results: 
+      - item: 'filter-resonant' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-enderium'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'paper' 
     data:
       shapeless: false
       rows:
@@ -1785,6 +1830,15 @@ recipes:
         amount: 3
   retriever:
     type: 'crafting'
+    results: 
+      - item: 'retriever' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-iron'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'eye-of-ender' 
     data:
       shapeless: false
       rows:
@@ -1795,6 +1849,15 @@ recipes:
         amount: 1
   retriever-hardened:
     type: 'crafting'
+    results: 
+      - item: 'retriever-hardened' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-invar'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'eye-of-ender'
     data:
       shapeless: false
       rows:
@@ -1805,6 +1868,15 @@ recipes:
         amount: 1
   retriever-reinforced:
     type: 'crafting'
+    results: 
+      - item: 'retriever-reinforced' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-electrum'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'eye-of-ender'
     data:
       shapeless: false
       rows:
@@ -1815,6 +1887,15 @@ recipes:
         amount: 1
   retriever-signalum:
     type: 'crafting'
+    results: 
+      - item: 'retriever-signalum' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-signalum'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'eye-of-ender'
     data:
       shapeless: false
       rows:
@@ -1825,6 +1906,15 @@ recipes:
         amount: 1
   retriever-resonant:
     type: 'crafting'
+    results: 
+      - item: 'retriever-resonant' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-enderium'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'eye-of-ender'
     data:
       shapeless: false
       rows:
@@ -1894,6 +1984,15 @@ recipes:
         amount: 1
   servo:
     type: 'crafting'
+    results: 
+      - item: 'servo' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-iron'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'redstone' 
     data:
       shapeless: false
       rows:
@@ -1904,6 +2003,15 @@ recipes:
         amount: 1
   servo-hardened:
     type: 'crafting'
+    results: 
+      - item: 'servo-hardened' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-invar'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'redstone' 
     data:
       shapeless: false
       rows:
@@ -1914,6 +2022,15 @@ recipes:
         amount: 1
   servo-reinforced:
     type: 'crafting'
+    results: 
+      - item: 'servo-reinforced' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-electrum'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'redstone' 
     data:
       shapeless: false
       rows:
@@ -1924,6 +2041,15 @@ recipes:
         amount: 1
   servo-signalum:
     type: 'crafting'
+    results: 
+      - item: 'servo-signalum' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-signalum'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'redstone' 
     data:
       shapeless: false
       rows:
@@ -1934,6 +2060,15 @@ recipes:
         amount: 1
   servo-resonant:
     type: 'crafting'
+    results: 
+      - item: 'servo-resonant' 
+    ingredients: 
+      - item: 'nugget-iron'
+        suffix: 'x2'
+      - item: 'ingot-enderium'
+        suffix: 'x2'
+      - item: 'glass'
+      - item: 'redstone' 
     data:
       shapeless: false
       rows:
