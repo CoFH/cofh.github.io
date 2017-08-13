@@ -382,8 +382,11 @@ thermal-dynamics:
       - title: "Covers"
         url: "/thermal-dynamics/attachments/covers/"
       - title: "Filters"
+        url: "/thermal-dynamics/attachments/filters/"
       - title: "Retrievers"
+        url: "/thermal-dynamics/attachments/retrievers/"
       - title: "Servos"
+        url: "/thermal-dynamics/attachments/servos/"
 
 thermal-cultivation:
   - title: ""
