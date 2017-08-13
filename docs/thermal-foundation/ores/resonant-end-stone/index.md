@@ -1,5 +1,10 @@
 ---
 title: Resonant End Stone
+usage_recipes:
+  pulverizer:
+    - 'resonant-end-stone-pulverizer'
+  magma_crucible:
+    - 'resonant-end-stone-magma-crucible'
 ---
 
 ![Resonant End Stone](/assets/images/thermal-foundation/ore-fluid-ender.png){:style="height: 128px"}
@@ -33,15 +38,9 @@ effects of the fluid, players should be careful when mining resonant end stone.
 
 Usage
 -----
-Resonant end stone yields [resonant
-clathrate](/docs/thermal-foundation/materials/resonant-clathrate/) when
-processed in a [pulverizer](/docs/thermal-expansion/machines/pulverizer/), which
-can be further processed into [resonant
-ender](/docs/thermal-foundation/fluids/resonant ender/). Resonant end stone can
-also be molten down into resonant ender directly in a [magma
-crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
-<div>
-{% include recipe.html recipe='resonant-end-stone-pulverizer' %}<br />
-{% include recipe.html recipe='resonant-end-stone-magma-crucible' %}
-</div>
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Magma Crucible ingredient
+{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}

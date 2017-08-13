@@ -1,5 +1,14 @@
 ---
 title: Aluminum Ore
+usage_recipes:
+  smelting:
+    - 'aluminum-ore-smelting'
+  pulverizer:
+    - 'aluminum-ore-pulverizer'
+  induction_smelter:
+    - 'aluminum-ore-induction-smelter-sand'
+    - 'aluminum-ore-induction-smelter-rich-slag'
+    - 'aluminum-ore-induction-smelter-cinnabar'
 ---
 
 ![Aluminum Ore](/assets/images/thermal-foundation/ore-aluminum.png){:style="height: 128px"}
@@ -22,16 +31,12 @@ drops itself as an item.
 
 Usage
 -----
-Aluminum ore yields
-[aluminum](/docs/thermal-foundation/metals-and-alloys/aluminum/) when processed.
-If processed in a [pulverizer](/docs/thermal-expansion/machines/pulverizer/) or
-an [induction smelter](/docs/thermal-expansion/machines/induction-smelter/), it
-may also yield small amounts of [iron](https://minecraft.gamepedia.com/Iron).
 
-<div>
-{% include recipe.html recipe='aluminum-ore-smelting' %}
-{% include recipe.html recipe='aluminum-ore-pulverizer' %}<br />
-{% include recipe.html recipe='aluminum-ore-induction-smelter-sand' %}
-{% include recipe.html recipe='aluminum-ore-induction-smelter-rich-slag' %}
-{% include recipe.html recipe='aluminum-ore-induction-smelter-cinnabar' %}
-</div>
+### Smelting ingredient
+{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
+
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}

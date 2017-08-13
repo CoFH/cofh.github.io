@@ -1,5 +1,10 @@
 ---
 title: Oil Sand
+usage_recipes:
+  pulverizer:
+    - 'oil-sand-pulverizer'
+  magma_crucible:
+    - 'oil-sand-magma-crucible'
 ---
 
 ![Oil Sand](/assets/images/thermal-foundation/ore-fluid-crude-oil-sand.png){:style="height: 128px"}
@@ -37,15 +42,9 @@ cannot be picked up and eventually disappears.
 
 Usage
 -----
-Oil sand yields [bitumen](/docs/thermal-foundation/materials/bitumen/) and
-[tar](/docs/thermal-foundation/materials/tar/) when processed in a
-[pulverizer](/docs/thermal-expansion/machines/pulverizer/), which can be
-processed into [crude oil](/docs/thermal-foundation/fluids/crude-oil/) and
-[creosote oil](/docs/thermal-foundation/fluids/creosote-oil/) respectively. It
-can also be molten down into crude oil directly in a [magma
-crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
-<div>
-{% include recipe.html recipe='oil-sand-pulverizer' %}<br />
-{% include recipe.html recipe='oil-sand-magma-crucible' %}
-</div>
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Magma Crucible ingredient
+{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}

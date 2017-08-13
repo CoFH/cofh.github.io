@@ -1,5 +1,10 @@
 ---
 title: Energized Netherrack
+usage_recipes:
+  pulverizer:
+    - 'energized-netherrack-pulverizer'
+  magma_crucible:
+    - 'energized-netherrack-magma-crucible'
 ---
 
 ![Energized Netherrack](/assets/images/thermal-foundation/ore-fluid-glowstone.png){:style="height: 128px"}
@@ -35,16 +40,9 @@ out. This fluid cannot be picked up and eventually disappears.
 
 Usage
 -----
-Energized netherrack yields [energized
-clathrate](/docs/thermal-foundation/materials/energized-clathrate/) and
-[sulfur](/docs/thermal-foundation/materials/sulfur/) when processed in a
-[pulverizer](/docs/thermal-expansion/machines/pulverizer/). The clathrate can
-then be further processed into [energized
-glowstone](/docs/thermal-foundation/fluids/energized-glowstone/). Energized
-netherrack can also be molten down into energized glowstone directly in a [magma
-crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
-<div>
-{% include recipe.html recipe='energized-netherrack-pulverizer' %}<br />
-{% include recipe.html recipe='energized-netherrack-magma-crucible' %}
-</div>
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Magma Crucible ingredient
+{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}

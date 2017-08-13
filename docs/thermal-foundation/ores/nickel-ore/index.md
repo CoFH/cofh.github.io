@@ -1,5 +1,14 @@
 ---
 title: Nickel Ore
+usage_recipes:
+  smelting:
+    - 'nickel-ore-smelting'
+  pulverizer:
+    - 'nickel-ore-pulverizer'
+  induction_smelter:
+    - 'nickel-ore-induction-smelter-sand'
+    - 'nickel-ore-induction-smelter-rich-slag'
+    - 'nickel-ore-induction-smelter-cinnabar'
 ---
 
 ![Nickel Ore](/assets/images/thermal-foundation/ore-nickel.png){:style="height: 128px"}
@@ -23,19 +32,12 @@ drops itself as an item.
 
 Usage
 -----
-Nickel ore yields [nickel](/docs/thermal-foundation/metals-and-alloys/nickel/)
-when processed, which is mostly used to create
-[invar](/docs/thermal-foundation/metals-and-alloys/invar/). If processed in a
-[pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an [induction
-smelter](/docs/thermal-expansion/machines/induction-smelter/), it may also yield
-small amounts of [platinum](https://minecraft.gamepedia.com/Gold), a rare metal
-that is used to create
-[enderium](/docs/thermal-foundation/metals-and-alloys/enderium/).
 
-<div>
-{% include recipe.html recipe='nickel-ore-smelting' %}
-{% include recipe.html recipe='nickel-ore-pulverizer' %}<br />
-{% include recipe.html recipe='nickel-ore-induction-smelter-sand' %}
-{% include recipe.html recipe='nickel-ore-induction-smelter-rich-slag' %}
-{% include recipe.html recipe='nickel-ore-induction-smelter-cinnabar' %}
-</div>
+### Smelting ingredient
+{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
+
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}

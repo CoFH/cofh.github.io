@@ -1,5 +1,14 @@
 ---
 title: Silver Ore
+usage_recipes:
+  smelting:
+    - 'silver-ore-smelting'
+  pulverizer:
+    - 'silver-ore-pulverizer'
+  induction_smelter:
+    - 'silver-ore-induction-smelter-sand'
+    - 'silver-ore-induction-smelter-rich-slag'
+    - 'silver-ore-induction-smelter-cinnabar'
 ---
 
 ![Silver Ore](/assets/images/thermal-foundation/ore-silver.png){:style="height: 128px"}
@@ -26,17 +35,12 @@ drops itself as an item.
 
 Usage
 -----
-Silver ore yields [silver](/docs/thermal-foundation/metals-and-alloys/silver/)
-when processed, which is used to create various alloys and to build several
-devices. If processed in a
-[pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an [induction
-smelter](/docs/thermal-expansion/machines/induction-smelter/), it may also yield
-small amounts of [lead](/docs/thermal-foundation/metals-and-alloys/lead/).
 
-<div>
-{% include recipe.html recipe='silver-ore-smelting' %}
-{% include recipe.html recipe='silver-ore-pulverizer' %}<br />
-{% include recipe.html recipe='silver-ore-induction-smelter-sand' %}
-{% include recipe.html recipe='silver-ore-induction-smelter-rich-slag' %}
-{% include recipe.html recipe='silver-ore-induction-smelter-cinnabar' %}
-</div>
+### Smelting ingredient
+{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
+
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}

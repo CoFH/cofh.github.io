@@ -14,4 +14,10 @@
     {% endfor %}
 
     {% include recipe/slot.html data=include.data.result top=46 left=186 %}
+
+    {% if include.data.shapeless %}
+        <div class="cofh-recipe-floating-text" style="top: 8px; right: 8px; text-align: right">
+            Shapeless
+        </div>
+    {% endif %}
 </div>

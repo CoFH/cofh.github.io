@@ -1,5 +1,14 @@
 ---
 title: Lead Ore
+usage_recipes:
+  smelting:
+    - 'lead-ore-smelting'
+  pulverizer:
+    - 'lead-ore-pulverizer'
+  induction_smelter:
+    - 'lead-ore-induction-smelter-sand'
+    - 'lead-ore-induction-smelter-rich-slag'
+    - 'lead-ore-induction-smelter-cinnabar'
 ---
 
 ![Lead Ore](/assets/images/thermal-foundation/ore-lead.png){:style="height: 128px"}
@@ -26,17 +35,12 @@ drops itself as an item.
 
 Usage
 -----
-Lead ore yields [lead](/docs/thermal-foundation/metals-and-alloys/lead/) when
-processed, which is used to build various devices and to create
-[enderium](/docs/thermal-foundation/metals-and-alloys/enderium/). If processed
-in a [pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an [induction
-smelter](/docs/thermal-expansion/machines/induction-smelter/), it may also yield
-small amounts of [silver](/docs/thermal-foundation/metals-and-alloys/silver/).
 
-<div>
-{% include recipe.html recipe='lead-ore-smelting' %}
-{% include recipe.html recipe='lead-ore-pulverizer' %}<br />
-{% include recipe.html recipe='lead-ore-induction-smelter-sand' %}
-{% include recipe.html recipe='lead-ore-induction-smelter-rich-slag' %}
-{% include recipe.html recipe='lead-ore-induction-smelter-cinnabar' %}
-</div>
+### Smelting ingredient
+{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
+
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}

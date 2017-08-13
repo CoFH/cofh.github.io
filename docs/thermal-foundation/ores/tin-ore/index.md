@@ -1,5 +1,14 @@
 ---
 title: Tin Ore
+usage_recipes:
+  smelting:
+    - 'tin-ore-smelting'
+  pulverizer:
+    - 'tin-ore-pulverizer'
+  induction_smelter:
+    - 'tin-ore-induction-smelter-sand'
+    - 'tin-ore-induction-smelter-rich-slag'
+    - 'tin-ore-induction-smelter-cinnabar'
 ---
 
 ![Tin Ore](/assets/images/thermal-foundation/ore-tin.png){:style="height: 128px"}
@@ -22,16 +31,12 @@ drops itself as an item.
 
 Usage
 -----
-Tin ore yields [tin](/docs/thermal-foundation/metals-and-alloys/tin/) when
-processed, which is used to build various devices and to create multiple alloys.
-If processed in a [pulverizer](/docs/thermal-expansion/machines/pulverizer/) or
-an [induction smelter](/docs/thermal-expansion/machines/induction-smelter/), it
-may also yield small amounts of [iron](https://minecraft.gamepedia.com/Iron).
 
-<div>
-{% include recipe.html recipe='tin-ore-smelting' %}
-{% include recipe.html recipe='tin-ore-pulverizer' %}<br />
-{% include recipe.html recipe='tin-ore-induction-smelter-sand' %}
-{% include recipe.html recipe='tin-ore-induction-smelter-rich-slag' %}
-{% include recipe.html recipe='tin-ore-induction-smelter-cinnabar' %}
-</div>
+### Smelting ingredient
+{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
+
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}

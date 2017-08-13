@@ -1,5 +1,10 @@
 ---
 title: Oil Shale
+usage_recipes:
+  pulverizer:
+    - 'oil-shale-pulverizer'
+  magma_crucible:
+    - 'oil-shale-magma-crucible'
 ---
 
 ![Oil Shale](/assets/images/thermal-foundation/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
@@ -41,14 +46,9 @@ cannot be picked up and eventually disappears.
 
 Usage
 -----
-Oil shale yields [bitumen](/docs/thermal-foundation/materials/bitumen/) and
-[flint](https://minecraft.gamepedia.com/Flint) when processed in a
-[pulverizer](/docs/thermal-expansion/machines/pulverizer/). The bitumen can then
-be processed into [crude oil](/docs/thermal-foundation/fluids/crude-oil/). Oil
-shale can also be molten down into crude oil directly in a [magma
-crucible](/docs/thermal-expansion/machines/magma-crucible/).
 
-<div>
-{% include recipe.html recipe='oil-shale-pulverizer' %}<br />
-{% include recipe.html recipe='oil-shale-magma-crucible' %}
-</div>
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Magma Crucible ingredient
+{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}

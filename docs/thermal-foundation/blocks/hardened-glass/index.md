@@ -1,6 +1,10 @@
 ---
 title: Hardened Glass
 redirect_from: /docs/thermal-expansion/materials/hardened-glass/
+recipes:
+  induction_smelter:
+    - 'hardened-glass'
+    - 'hardened-glass-variants'
 ---
 
 ![Hardened glass](/assets/images/thermal-foundation/hardened-glass.png){:style="height: 96px"}
@@ -28,8 +32,8 @@ of [beacon](https://minecraft.gamepedia.com/Beacon) beams that shine through
 them to the color of their corresponding metals.
 
 
-Crafting
---------
+Obtaining
+---------
 
-{% include recipe.html recipe='hardened-glass' %}
-{% include recipe.html recipe='hardened-glass-variants' %}
+### Induction smelter
+{% include recipe-table.html type='induction-smelter' recipes=page.recipes.induction_smelter %}

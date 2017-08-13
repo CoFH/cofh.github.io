@@ -193,7 +193,7 @@ html {
 
 .cofh-recipe-floating-text {
     position: absolute;
-    min-width: 120px;
+    min-width: 100px;
     color: #6f6f6f;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;

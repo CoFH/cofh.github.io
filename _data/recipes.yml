@@ -1022,7 +1022,7 @@ recipes:
       - html: >
           <a href="/docs/thermal-foundation/metals-and-alloys/lead/">Lead Ingot</a> or<br />
           <a href="/docs/thermal-foundation/metals-and-alloys/lead/">Pulverized Lead</a>
-      - 'dust-obsidian'
+      - item: 'dust-obsidian'
     energy: 4000
     data:
       primary-input:
@@ -1643,7 +1643,7 @@ recipes:
       - html: 'Dyed <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
     ingredients:
       - html: 'Any color <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Dye">dye</a>'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Dye">Dye</a>'
     data:
       shapeless: true
       rows:

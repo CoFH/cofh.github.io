@@ -1,6 +1,15 @@
 ---
 title: Copper Ore
 redirect_from: /docs/thermal-foundation/world-generation/ores/
+usage_recipes:
+  smelting:
+    - 'copper-ore-smelting'
+  pulverizer:
+    - 'copper-ore-pulverizer'
+  induction_smelter:
+    - 'copper-ore-induction-smelter-sand'
+    - 'copper-ore-induction-smelter-rich-slag'
+    - 'copper-ore-induction-smelter-cinnabar'
 ---
 
 ![Copper Ore](/assets/images/thermal-foundation/ore-copper.png){:style="height: 128px"}
@@ -24,17 +33,12 @@ drops itself as an item.
 
 Usage
 -----
-Copper ore yields [copper](/docs/thermal-foundation/metals-and-alloys/copper/)
-when processed, which is used to build many kinds of devices and to create
-several alloys. If processed in a
-[pulverizer](/docs/thermal-expansion/machines/pulverizer/) or an [induction
-smelter](/docs/thermal-expansion/machines/induction-smelter/), it may also yield
-small amounts of [gold](https://minecraft.gamepedia.com/Gold).
 
-<div>
-{% include recipe.html recipe='copper-ore-smelting' %}
-{% include recipe.html recipe='copper-ore-pulverizer' %}<br />
-{% include recipe.html recipe='copper-ore-induction-smelter-sand' %}
-{% include recipe.html recipe='copper-ore-induction-smelter-rich-slag' %}
-{% include recipe.html recipe='copper-ore-induction-smelter-cinnabar' %}
-</div>
+### Smelting ingredient
+{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
+
+### Pulverizer ingredient
+{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}
