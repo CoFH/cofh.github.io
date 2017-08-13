@@ -3,6 +3,8 @@ sites:
     url: 'https://minecraft.gamepedia.com/'
   tf-docs:
     url: '/docs/thermal-foundation/'
+  te-docs:
+    url: '/docs/thermal-expansion/'
 
 items:
   bitumen:
@@ -734,11 +736,43 @@ fluids:
     site: 'tf-docs'
     url: 'fluids/destabilized-redstone/'
 
+recipe-types:
+  crafting:
+    name: 'Crafting'
+    site: 'mc-wiki'
+    url: 'Crafting'
+  induction-smelter:
+    name: 'Induction Smelter'
+    site: 'te-docs'
+    url: 'machines/induction-smelter/'
+    with-energy: true
+  magma-crucible:
+    name: 'Magma Crucible'
+    site: 'te-docs'
+    url: 'machines/magma-crucible/'
+    with-energy: true
+  pulverizer:
+    name: 'Pulverizer'
+    site: 'te-docs'
+    url: 'machines/pulverizer/'
+    with-energy: true
+  smelting:
+    name: 'Smelting'
+    site: 'mc-wiki'
+    url: 'Smelting'
+
 recipes:
   aluminum-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-aluminum'
+        suffix: 'x3'
+      - item: 'ingot-iron'
+    ingredients:
+      - item: 'ore-aluminum'
+      - item: 'cinnabar'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['cinnabar']
       secondary-input:
@@ -752,8 +786,15 @@ recipes:
       secondary-chance: 100
   aluminum-ore-induction-smelter-rich-slag:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-aluminum'
+        suffix: 'x3'
+      - item: 'slag'
+    ingredients:
+      - item: 'ore-aluminum'
+      - item: 'slag-rich'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['slag-rich']
       secondary-input:
@@ -767,8 +808,15 @@ recipes:
       secondary-chance: 75
   aluminum-ore-induction-smelter-sand:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-aluminum'
+        suffix: 'x2'
+      - item: 'slag-rich'
+    ingredients:
+      - item: 'ore-aluminum'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['sand', 'red-sand']
       secondary-input:
@@ -782,8 +830,14 @@ recipes:
       secondary-chance: 5
   aluminum-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'dust-aluminum'
+        suffix: 'x2'
+      - item: 'dust-iron'
+    ingredients:
+      - item: 'ore-aluminum'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-aluminum']
       primary-output:
@@ -794,6 +848,10 @@ recipes:
       secondary-chance: 10
   aluminum-ore-smelting:
     type: 'smelting'
+    results:
+      - item: 'ingot-aluminum'
+    ingredients:
+      - item: 'ore-aluminum'
     data:
       input:
         item: ['ore-aluminum']
@@ -801,8 +859,15 @@ recipes:
         item: ['ingot-aluminum']
   copper-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-copper'
+        suffix: 'x3'
+      - item: 'ingot-gold'
+    ingredients:
+      - item: 'ore-copper'
+      - item: 'cinnabar'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['cinnabar']
       secondary-input:
@@ -816,8 +881,15 @@ recipes:
       secondary-chance: 100
   copper-ore-induction-smelter-rich-slag:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-copper'
+        suffix: 'x3'
+      - item: 'slag'
+    ingredients:
+      - item: 'ore-copper'
+      - item: 'slag-rich'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['slag-rich']
       secondary-input:
@@ -831,8 +903,15 @@ recipes:
       secondary-chance: 75
   copper-ore-induction-smelter-sand:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-copper'
+        suffix: 'x2'
+      - item: 'slag-rich'
+    ingredients:
+      - item: 'ore-copper'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['sand', 'red-sand']
       secondary-input:
@@ -846,8 +925,14 @@ recipes:
       secondary-chance: 5
   copper-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'dust-copper'
+        suffix: 'x2'
+      - item: 'dust-gold'
+    ingredients:
+      - item: 'ore-copper'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-copper']
       primary-output:
@@ -858,6 +943,10 @@ recipes:
       secondary-chance: 10
   copper-ore-smelting:
     type: 'smelting'
+    results:
+      - item: 'ingot-copper'
+    ingredients:
+      - item: 'ore-copper'
     data:
       input:
         item: ['ore-copper']
@@ -865,8 +954,13 @@ recipes:
         item: ['ingot-copper']
   destabilized-redstone-ore-magma-crucible:
     type: 'magma-crucible'
+    results:
+      - fluid: 'redstone'
+        fluid-amount: 1000
+    ingredients:
+      - item: 'ore-fluid-redstone'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-fluid-redstone']
       output:
@@ -874,8 +968,13 @@ recipes:
         amount: 1000
   destabilized-redstone-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'clathrate-redstone'
+      - item: 'cinnabar'
+    ingredients:
+      - item: 'ore-fluid-redstone'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-fluid-redstone']
       primary-output:
@@ -886,8 +985,13 @@ recipes:
       secondary-chance: 50
   energized-netherrack-magma-crucible:
     type: 'magma-crucible'
+    results:
+      - fluid: 'glowstone'
+        fluid-amount: 1000
+    ingredients:
+      - item: 'ore-fluid-glowstone'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-fluid-glowstone']
       output:
@@ -895,8 +999,13 @@ recipes:
         amount: 1000
   energized-netherrack-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'clathrate-glowstone'
+      - item: 'sulfur'
+    ingredients:
+      - item: 'ore-fluid-glowstone'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-fluid-glowstone']
       primary-output:
@@ -907,8 +1016,15 @@ recipes:
       secondary-chance: 30
   hardened-glass:
     type: 'induction-smelter'
+    results:
+      - item: 'hardened-glass'
+    ingredients:
+      - html: >
+          <a href="/docs/thermal-foundation/metals-and-alloys/lead/">Lead Ingot</a> or<br />
+          <a href="/docs/thermal-foundation/metals-and-alloys/lead/">Pulverized Lead</a>
+      - 'dust-obsidian'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item:
           - 'ingot-lead'
@@ -922,8 +1038,13 @@ recipes:
         amount: 2
   hardened-glass-variants:
     type: 'induction-smelter'
+    results:
+      - html: '<a href="/docs/thermal-foundation/blocks/hardened-glass/">Hardened Glass</a> variants'
+    ingredients:
+      - item: 'hardened-glass'
+      - html: 'pulverized metal or blend'
+    energy: 6000
     data:
-      energy: 6000
       primary-input:
         item: ['hardened-glass']
         amount: 2
@@ -965,8 +1086,15 @@ recipes:
         amount: 2
   iridium-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-iridium'
+        suffix: 'x3'
+      - item: 'ingot-platinum'
+    ingredients:
+      - item: 'ore-iridium'
+      - item: 'cinnabar'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['cinnabar']
       secondary-input:
@@ -980,8 +1108,15 @@ recipes:
       secondary-chance: 100
   iridium-ore-induction-smelter-rich-slag:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-iridium'
+        suffix: 'x3'
+      - item: 'slag'
+    ingredients:
+      - item: 'ore-iridium'
+      - item: 'slag-rich'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['slag-rich']
       secondary-input:
@@ -995,8 +1130,15 @@ recipes:
       secondary-chance: 75
   iridium-ore-induction-smelter-sand:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-iridium'
+        suffix: 'x2'
+      - item: 'slag-rich'
+    ingredients:
+      - item: 'ore-iridium'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['sand', 'red-sand']
       secondary-input:
@@ -1010,8 +1152,14 @@ recipes:
       secondary-chance: 5
   iridium-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'dust-iridium'
+        suffix: 'x2'
+      - item: 'dust-platinum'
+    ingredients:
+      - item: 'ore-iridium'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-iridium']
       primary-output:
@@ -1022,8 +1170,15 @@ recipes:
       secondary-chance: 10
   lead-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-lead'
+        suffix: 'x3'
+      - item: 'ingot-silver'
+    ingredients:
+      - item: 'ore-lead'
+      - item: 'cinnabar'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['cinnabar']
       secondary-input:
@@ -1037,8 +1192,15 @@ recipes:
       secondary-chance: 100
   lead-ore-induction-smelter-rich-slag:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-lead'
+        suffix: 'x3'
+      - item: 'slag'
+    ingredients:
+      - item: 'ore-lead'
+      - item: 'slag-rich'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['slag-rich']
       secondary-input:
@@ -1052,8 +1214,15 @@ recipes:
       secondary-chance: 75
   lead-ore-induction-smelter-sand:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-lead'
+        suffix: 'x2'
+      - item: 'slag-rich'
+    ingredients:
+      - item: 'ore-lead'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['sand', 'red-sand']
       secondary-input:
@@ -1067,8 +1236,14 @@ recipes:
       secondary-chance: 5
   lead-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'dust-lead'
+        suffix: 'x2'
+      - item: 'dust-silver'
+    ingredients:
+      - item: 'ore-lead'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-lead']
       primary-output:
@@ -1079,6 +1254,10 @@ recipes:
       secondary-chance: 10
   lead-ore-smelting:
     type: 'smelting'
+    results:
+      - item: 'ingot-lead'
+    ingredients:
+      - item: 'ore-lead'
     data:
       input:
         item: ['ore-lead']
@@ -1086,8 +1265,15 @@ recipes:
         item: ['ingot-lead']
   mithril-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-mithril'
+        suffix: 'x3'
+      - item: 'ingot-gold'
+    ingredients:
+      - item: 'ore-mithril'
+      - item: 'cinnabar'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['cinnabar']
       secondary-input:
@@ -1101,8 +1287,15 @@ recipes:
       secondary-chance: 100
   mithril-ore-induction-smelter-rich-slag:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-mithril'
+        suffix: 'x3'
+      - item: 'slag'
+    ingredients:
+      - item: 'ore-mithril'
+      - item: 'slag-rich'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['slag-rich']
       secondary-input:
@@ -1116,8 +1309,15 @@ recipes:
       secondary-chance: 75
   mithril-ore-induction-smelter-sand:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-mithril'
+        suffix: 'x2'
+      - item: 'slag-rich'
+    ingredients:
+      - item: 'ore-mithril'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['sand', 'red-sand']
       secondary-input:
@@ -1131,8 +1331,14 @@ recipes:
       secondary-chance: 5
   mithril-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'dust-mithril'
+        suffix: 'x2'
+      - item: 'dust-gold'
+    ingredients:
+      - item: 'ore-mithril'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-mithril']
       primary-output:
@@ -1143,8 +1349,15 @@ recipes:
       secondary-chance: 10
   nickel-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-nickel'
+        suffix: 'x3'
+      - item: 'ingot-platinum'
+    ingredients:
+      - item: 'ore-nickel'
+      - item: 'cinnabar'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['cinnabar']
       secondary-input:
@@ -1158,8 +1371,15 @@ recipes:
       secondary-chance: 100
   nickel-ore-induction-smelter-rich-slag:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-nickel'
+        suffix: 'x3'
+      - item: 'slag'
+    ingredients:
+      - item: 'ore-nickel'
+      - item: 'slag-rich'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['slag-rich']
       secondary-input:
@@ -1173,8 +1393,15 @@ recipes:
       secondary-chance: 75
   nickel-ore-induction-smelter-sand:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-nickel'
+        suffix: 'x2'
+      - item: 'slag-rich'
+    ingredients:
+      - item: 'ore-nickel'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['sand', 'red-sand']
       secondary-input:
@@ -1188,8 +1415,14 @@ recipes:
       secondary-chance: 15
   nickel-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'dust-nickel'
+        suffix: 'x2'
+      - item: 'dust-platinum'
+    ingredients:
+      - item: 'ore-nickel'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-nickel']
       primary-output:
@@ -1200,6 +1433,10 @@ recipes:
       secondary-chance: 10
   nickel-ore-smelting:
     type: 'smelting'
+    results:
+      - item: 'ingot-nickel'
+    ingredients:
+      - item: 'ore-nickel'
     data:
       input:
         item: ['ore-nickel']
@@ -1207,8 +1444,13 @@ recipes:
         item: ['ingot-nickel']
   oil-sand-magma-crucible:
     type: 'magma-crucible'
+    results:
+      - fluid: 'crude-oil'
+        fluid-amount: 1000
+    ingredients:
+      - item: 'oil-sand'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['oil-sand']
       output:
@@ -1216,8 +1458,13 @@ recipes:
         amount: 1000
   oil-sand-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'bitumen'
+      - item: 'tar'
+    ingredients:
+      - item: 'oil-sand'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['oil-sand']
       primary-output:
@@ -1228,8 +1475,13 @@ recipes:
       secondary-chance: 50
   oil-shale-magma-crucible:
     type: 'magma-crucible'
+    results:
+      - fluid: 'crude-oil'
+        fluid-amount: 1000
+    ingredients:
+      - item: 'oil-shale'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['oil-shale']
       output:
@@ -1237,8 +1489,13 @@ recipes:
         amount: 1000
   oil-shale-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'bitumen'
+      - item: 'flint'
+    ingredients:
+      - item: 'oil-shale'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['oil-shale']
       primary-output:
@@ -1249,8 +1506,15 @@ recipes:
       secondary-chance: 50
   platinum-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-platinum'
+        suffix: 'x3'
+      - item: 'ingot-iridium'
+    ingredients:
+      - item: 'ore-platinum'
+      - item: 'cinnabar'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['cinnabar']
       secondary-input:
@@ -1264,8 +1528,15 @@ recipes:
       secondary-chance: 100
   platinum-ore-induction-smelter-rich-slag:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-platinum'
+        suffix: 'x3'
+      - item: 'slag'
+    ingredients:
+      - item: 'ore-platinum'
+      - item: 'slag-rich'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['slag-rich']
       secondary-input:
@@ -1279,8 +1550,15 @@ recipes:
       secondary-chance: 75
   platinum-ore-induction-smelter-sand:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-platinum'
+        suffix: 'x2'
+      - item: 'slag-rich'
+    ingredients:
+      - item: 'ore-platinum'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['sand', 'red-sand']
       secondary-input:
@@ -1294,8 +1572,14 @@ recipes:
       secondary-chance: 5
   platinum-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'dust-platinum'
+        suffix: 'x2'
+      - item: 'dust-iridium'
+    ingredients:
+      - item: 'ore-platinum'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-platinum']
       primary-output:
@@ -1306,25 +1590,24 @@ recipes:
       secondary-chance: 10
   platinum-ore-smelting:
     type: 'smelting'
+    results:
+      - item: 'ingot-platinum'
+    ingredients:
+      - item: 'ore-platinum'
     data:
       input:
         item: ['ore-platinum']
       output:
         item: ['ingot-platinum']
-  pyrotheum-dust:
-    type: 'crafting'
-    data:
-      shapeless: true
-      rows:
-        - [item: ['dust-coal'], item: ['sulfur']]
-        - [item: ['redstone'], item: ['blaze-powder']]
-      result:
-        item: ['dust-pyrotheum']
-        amount: 2
   resonant-end-stone-magma-crucible:
     type: 'magma-crucible'
+    results:
+      - fluid: 'ender'
+        fluid-amount: 1000
+    ingredients:
+      - item: 'ore-fluid-ender'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-fluid-ender']
       output:
@@ -1332,8 +1615,12 @@ recipes:
         amount: 1000
   resonant-end-stone-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'clathrate-ender'
+    ingredients:
+      - item: 'ore-fluid-ender'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-fluid-ender']
       primary-output:
@@ -1341,6 +1628,10 @@ recipes:
         amount: 3
   rockwool:
     type: 'smelting'
+    results:
+      - item: 'rockwool-light-gray'
+    ingredients:
+      - item: 'slag'
     data:
       input:
         item: ['slag']
@@ -1348,6 +1639,11 @@ recipes:
         item: ['rockwool-light-gray']
   rockwool-dyeing:
     type: 'crafting'
+    results:
+      - html: 'Dyed <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
+    ingredients:
+      - html: 'Any color <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Dye">dye</a>'
     data:
       shapeless: true
       rows:
@@ -1391,8 +1687,15 @@ recipes:
         amount: 1
   silver-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-silver'
+        suffix: 'x3'
+      - item: 'ingot-lead'
+    ingredients:
+      - item: 'ore-silver'
+      - item: 'cinnabar'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['cinnabar']
       secondary-input:
@@ -1406,8 +1709,15 @@ recipes:
       secondary-chance: 100
   silver-ore-induction-smelter-rich-slag:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-silver'
+        suffix: 'x3'
+      - item: 'slag'
+    ingredients:
+      - item: 'ore-silver'
+      - item: 'slag-rich'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['slag-rich']
       secondary-input:
@@ -1421,8 +1731,15 @@ recipes:
       secondary-chance: 75
   silver-ore-induction-smelter-sand:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-silver'
+        suffix: 'x2'
+      - item: 'slag-rich'
+    ingredients:
+      - item: 'ore-silver'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['sand', 'red-sand']
       secondary-input:
@@ -1436,8 +1753,14 @@ recipes:
       secondary-chance: 5
   silver-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'dust-silver'
+        suffix: 'x2'
+      - item: 'dust-lead'
+    ingredients:
+      - item: 'ore-silver'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-silver']
       primary-output:
@@ -1448,6 +1771,10 @@ recipes:
       secondary-chance: 10
   silver-ore-smelting:
     type: 'smelting'
+    results:
+      - item: 'ingot-silver'
+    ingredients:
+      - item: 'ore-silver'
     data:
       input:
         item: ['ore-silver']
@@ -1455,6 +1782,10 @@ recipes:
         item: ['ingot-silver']
   storage-blocks:
     type: 'crafting'
+    results:
+      - html: '<a href="/docs/thermal-foundation/blocks/storage-blocks/">Storage Block</a>'
+    ingredients:
+      - html: 'Metal or alloy ingot'
     data:
       shapeless: true
       rows:
@@ -1502,8 +1833,15 @@ recipes:
         amount: 1
   tin-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-tin'
+        suffix: 'x3'
+      - item: 'ingot-iron'
+    ingredients:
+      - item: 'ore-tin'
+      - item: 'cinnabar'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['cinnabar']
       secondary-input:
@@ -1517,8 +1855,15 @@ recipes:
       secondary-chance: 100
   tin-ore-induction-smelter-rich-slag:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-tin'
+        suffix: 'x3'
+      - item: 'slag'
+    ingredients:
+      - item: 'ore-tin'
+      - item: 'slag-rich'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['slag-rich']
       secondary-input:
@@ -1532,8 +1877,15 @@ recipes:
       secondary-chance: 75
   tin-ore-induction-smelter-sand:
     type: 'induction-smelter'
+    results:
+      - item: 'ingot-tin'
+        suffix: 'x2'
+      - item: 'slag-rich'
+    ingredients:
+      - item: 'ore-tin'
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
     data:
-      energy: 4000
       primary-input:
         item: ['sand', 'red-sand']
       secondary-input:
@@ -1547,8 +1899,14 @@ recipes:
       secondary-chance: 5
   tin-ore-pulverizer:
     type: 'pulverizer'
+    results:
+      - item: 'dust-tin'
+        suffix: 'x2'
+      - item: 'dust-iron'
+    ingredients:
+      - item: 'ore-tin'
+    energy: 4000
     data:
-      energy: 4000
       input:
         item: ['ore-tin']
       primary-output:
@@ -1559,6 +1917,10 @@ recipes:
       secondary-chance: 10
   tin-ore-smelting:
     type: 'smelting'
+    results:
+      - item: 'ingot-tin'
+    ingredients:
+      - item: 'ore-tin'
     data:
       input:
         item: ['ore-tin']
