@@ -1,0 +1,102 @@
+{% assign type_data = site.data.recipes.recipe-types[include.type] %}
+{% assign type_site = site.data.recipes.sites[type_data.site] %}
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped cofh-recipe-table">
+        <thead>
+            <tr>
+                <th>Result(s)</th>
+                <th>Ingredients</th>
+                {% if type_data.with-energy %}
+                    <th>Energy</th>
+                {% endif %}
+                <th><a href="{{type_site.url}}{{type_data.url}}">{{type_data.name}}</a> recipe</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for recipe in include.recipes %}
+                {% assign recipe_data = site.data.recipes.recipes[recipe] %}
+                {% assign recipe_type = site.data.recipes.recipe-types[recipe_data.type] %}
+
+                <tr>
+                    <td class="uk-text-center cofh-nowrap">
+                        {% for result in recipe_data.results %}
+                            {% if forloop.first %}
+                                <strong>
+                            {% endif %}
+
+                            {% if result.html %}
+                                {{ result.html }}
+                            {% elsif result.item %}
+                                {% assign item_data = site.data.recipes.items[result.item] %}
+                                {% assign item_site = site.data.recipes.sites[item_data.site] %}
+
+                                <a href="{{item_site.url}}{{item_data.url}}">{{ item_data.name }}</a>
+                            {% elsif result.fluid %}
+                                {% assign fluid_data = site.data.recipes.fluids[result.fluid] %}
+                                {% assign fluid_site = site.data.recipes.sites[fluid_data.site] %}
+
+                                <a href="{{fluid_site.url}}{{fluid_data.url}}">{{ fluid_data.name }}</a>
+
+                                {% if result.fluid-amount %}
+                                    ({{ result.fluid-amount }} mB)
+                                {% endif %}
+                            {% endif %}
+
+                            {% if result.suffix %}
+                                {{ result.suffix }}
+                            {% endif %}
+
+                            {% if forloop.first %}
+                                </strong>
+                            {% endif %}
+
+                            <br />
+                        {% endfor %}
+                    </td>
+
+                    <td class="cofh-nowrap">
+                        {% for ingr in recipe_data.ingredients %}
+                            {% if ingr.html %}
+                                {{ ingr.html }}
+                            {% elsif ingr.item %}
+                                {% assign item_data = site.data.recipes.items[ingr.item] %}
+                                {% assign item_site = site.data.recipes.sites[item_data.site] %}
+
+                                <a href="{{item_site.url}}{{item_data.url}}">{{ item_data.name }}</a>
+                            {% elsif ingr.fluid %}
+                                {% assign fluid_data = site.data.recipes.fluids[ingr.fluid] %}
+                                {% assign fluid_site = site.data.recipes.sites[fluid_data.site] %}
+
+                                <a href="{{fluid_site.url}}{{fluid_data.url}}">{{ fluid_data.name }}</a>
+
+                                {% if ingr.fluid-amount %}
+                                    ({{ ingr.fluid-amount }} mB)
+                                {% endif %}
+                            {% endif %}
+
+                            {% unless forloop.last %}
+                                +
+                            {% endunless %}
+
+                            <br />
+                        {% endfor %}
+                    </td>
+
+                    {% if recipe_type.with-energy %}
+                        <td class="cofh-nowrap">
+                            {{ recipe_data.energy }} RF
+                        </td>
+                    {% endif %}
+
+                    <td style="padding: 2px">
+                        <div class="cofh-recipe">
+                            {% include recipe/types/{{recipe_data.type}}.html data=recipe_data.data %}
+                        </div>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
