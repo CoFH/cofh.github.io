@@ -181,12 +181,12 @@ items:
     url: 'metals-and-alloys/tin/'
   ender-pearl:
     name: 'Ender Pearl'
-    sprite: [0, 10]
+    sprite: [12, 9]
     site: 'mc-wiki'
     url: 'Ender_Pearl'
   eye-of-ender:
     name: 'Eye of Ender'
-    sprite: [1, 10]
+    sprite: [13, 9]
     site: 'mc-wiki'
     url: 'Eye_of_Ender'
   filter:
@@ -221,7 +221,7 @@ items:
     url: 'Flint'
   glass:
     name: 'Glass'
-    sprite: [14, 9]
+    sprite: [3, 11]
     site: 'mc-wiki'
     url: 'Glass'
   gray-dye:
@@ -439,16 +439,111 @@ items:
     sprite: [13, 5]
     site: 'mc-wiki'
     url: 'Magenta_Dye'
+  nugget-aluminum:
+    name: 'Aluminum Nugget'
+    sprite: [4, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/aluminum/'
+  nugget-bronze:
+    name: 'Bronze Nugget'
+    sprite: [12, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/bronze/'
+  nugget-constantan:
+    name: 'Constantan Nugget'
+    sprite: [13, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/constantan/'
+  nugget-copper:
+    name: 'Copper Nugget'
+    sprite: [0, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/copper/'
+  nugget-diamond:
+    name: 'Diamond Nugget'
+    sprite: [1, 11]
+    site: 'tf-docs'
+    url: 'materials/nuggets'
+  nugget-electrum:
+    name: 'Electrum Nugget'
+    sprite: [10, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/electrum/'
+  nugget-emerald:
+    name: 'Emerald Nugget'
+    sprite: [2, 11]
+    site: 'tf-docs'
+    url: 'materials/nuggets'
+  nugget-enderium:
+    name: 'Enderium Nugget'
+    sprite: [0, 11]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/enderium/'
   nugget-gold:
     name: 'Gold Nugget'
-    sprite: [12, 9]
+    sprite: [15, 9]
     site: 'mc-wiki'
     url: 'Gold_Nugget'
+  nugget-invar:
+    name: 'Invar Nugget'
+    sprite: [11, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/invar/'
+  nugget-iridium:
+    name: 'Iridium Nugget'
+    sprite: [7, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/iridium/'
   nugget-iron:
     name: 'Iron Nugget'
-    sprite: [13, 9]
+    sprite: [14, 9]
     site: 'mc-wiki'
     url: 'Iron_Nugget'
+  nugget-lead:
+    name: 'Lead Nugget'
+    sprite: [3, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lead/'
+  nugget-lumium:
+    name: 'Lumium Nugget'
+    sprite: [15, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lumium/'
+  nugget-mithril:
+    name: 'Mana Infused Nugget'
+    sprite: [8, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/mana-infused-metal/'
+  nugget-nickel:
+    name: 'Nickel Nugget'
+    sprite: [5, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/nickel/'
+  nugget-platinum:
+    name: 'Platinum Nugget'
+    sprite: [6, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/platinum/'
+  nugget-signalum:
+    name: 'Signalum Nugget'
+    sprite: [14, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/signalum/'
+  nugget-silver:
+    name: 'Silver Nugget'
+    sprite: [2, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/silver/'
+  nugget-steel:
+    name: 'Steel Nugget'
+    sprite: [9, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/steel/'
+  nugget-tin:
+    name: 'Tin Nugget'
+    sprite: [1, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/tin/'
   oil-sand:
     name: 'Oil Sand'
     sprite: [10, 7]
@@ -526,7 +621,7 @@ items:
     url: 'ores/tin-ore/'
   paper:
     name: 'Paper'
-    sprite: [15, 9]
+    sprite: [4, 11]
     site: 'mc-wiki'
     url: 'Paper'
   pink-dye:
