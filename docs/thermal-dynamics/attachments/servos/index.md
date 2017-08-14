@@ -2,7 +2,7 @@
 title: Servos
 recipes: 
   crafting: 
-    - 'servo' 
+    - 'servo-basic' 
     - 'servo-hardened' 
     - 'servo-reinforced' 
     - 'servo-signalum' 
@@ -26,4 +26,4 @@ Obtaining
 Servo GUI
 --------
 
-![](/assets/images/thermal-dynamics/gui-servo.png "Resonant Servo GUI")
+![Resonant Servo GUI](/assets/images/thermal-dynamics/gui-servo.png)

@@ -2,7 +2,7 @@
 title: Filters 
 recipes: 
   crafting: 
-    - 'filter' 
+    - 'filter-basic' 
     - 'filter-hardened' 
     - 'filter-reinforced' 
     - 'filter-signalum' 
@@ -26,4 +26,4 @@ Obtaining
 Filter GUI
 --------
 
-![](/assets/images/thermal-dynamics/gui-filter.png "Resonant Filter GUI")
+![Resonant Filter GUI](/assets/images/thermal-dynamics/gui-filter.png)

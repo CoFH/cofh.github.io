@@ -2,7 +2,7 @@
 title: Retrievers 
 recipes: 
   crafting: 
-    - 'retriever' 
+    - 'retriever-basic' 
     - 'retriever-hardened' 
     - 'retriever-reinforced' 
     - 'retriever-signalum' 
@@ -26,4 +26,4 @@ Obtaining
 Retriever GUI
 --------
 
-![](/assets/images/thermal-dynamics/gui-retriever.png "Resonant Retriever GUI")
+![Resonant Retriever GUI](/assets/images/thermal-dynamics/gui-retriever.png)

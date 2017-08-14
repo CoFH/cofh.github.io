@@ -1,12 +1,12 @@
 sites:
   mc-wiki:
     url: 'https://minecraft.gamepedia.com/'
-  td-docs:
-    url: '/docs/thermal-dynamics/'
   tf-docs:
     url: '/docs/thermal-foundation/'
   te-docs:
     url: '/docs/thermal-expansion/'
+  td-docs:
+    url: '/docs/thermal-dynamics/'
 
 items:
   bitumen:
@@ -189,7 +189,7 @@ items:
     sprite: [13, 9]
     site: 'mc-wiki'
     url: 'Eye_of_Ender'
-  filter:
+  filter-basic:
     name: 'Filter'
     sprite: [2, 9]
     site: 'td-docs'
@@ -463,7 +463,7 @@ items:
     name: 'Diamond Nugget'
     sprite: [1, 11]
     site: 'tf-docs'
-    url: 'materials/nuggets'
+    url: 'materials/nuggets/'
   nugget-electrum:
     name: 'Electrum Nugget'
     sprite: [10, 10]
@@ -473,7 +473,7 @@ items:
     name: 'Emerald Nugget'
     sprite: [2, 11]
     site: 'tf-docs'
-    url: 'materials/nuggets'
+    url: 'materials/nuggets/'
   nugget-enderium:
     name: 'Enderium Nugget'
     sprite: [0, 11]
@@ -644,7 +644,7 @@ items:
     sprite: [7, 0]
     site: 'mc-wiki'
     url: 'Redstone'
-  retriever:
+  retriever-basic:
     name: 'Retriever'
     sprite: [7, 9]
     site: 'td-docs'
@@ -759,7 +759,7 @@ items:
     sprite: [6, 8]
     site: 'mc-wiki'
     url: 'Sand'
-  servo:
+  servo-basic:
     name: 'Servo'
     sprite: [13, 8]
     site: 'td-docs'
@@ -1216,15 +1216,13 @@ recipes:
       secondary-output:
         item: ['sulfur']
       secondary-chance: 30
-  filter:
+  filter-basic:
     type: 'crafting'
     results: 
-      - item: 'filter' 
+      - item: 'filter-basic' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-iron'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'paper' 
     data:
@@ -1233,7 +1231,7 @@ recipes:
         - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
         - [item: ['ingot-iron'], item: ['paper'], item: ['ingot-iron']]
       result:
-        item: ['filter']
+        item: ['filter-basic']
         amount: 1
   filter-hardened:
     type: 'crafting'
@@ -1241,9 +1239,7 @@ recipes:
       - item: 'filter-hardened' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-invar'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'paper' 
     data:
@@ -1260,9 +1256,7 @@ recipes:
       - item: 'filter-reinforced' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-electrum'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'paper' 
     data:
@@ -1279,9 +1273,7 @@ recipes:
       - item: 'filter-signalum' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-signalum'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'paper' 
     data:
@@ -1298,9 +1290,7 @@ recipes:
       - item: 'filter-resonant' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-enderium'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'paper' 
     data:
@@ -1923,15 +1913,13 @@ recipes:
       primary-output:
         item: ['clathrate-ender']
         amount: 3
-  retriever:
+  retriever-basic:
     type: 'crafting'
     results: 
-      - item: 'retriever' 
+      - item: 'retriever-basic' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-iron'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'eye-of-ender' 
     data:
@@ -1940,7 +1928,7 @@ recipes:
         - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
         - [item: ['ingot-iron'], item: ['eye-of-ender'], item: ['ingot-iron']]
       result:
-        item: ['retriever']
+        item: ['retriever-basic']
         amount: 1
   retriever-hardened:
     type: 'crafting'
@@ -1948,9 +1936,7 @@ recipes:
       - item: 'retriever-hardened' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-invar'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'eye-of-ender'
     data:
@@ -1967,9 +1953,7 @@ recipes:
       - item: 'retriever-reinforced' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-electrum'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'eye-of-ender'
     data:
@@ -1986,9 +1970,7 @@ recipes:
       - item: 'retriever-signalum' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-signalum'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'eye-of-ender'
     data:
@@ -2005,9 +1987,7 @@ recipes:
       - item: 'retriever-resonant' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-enderium'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'eye-of-ender'
     data:
@@ -2077,15 +2057,13 @@ recipes:
       result:
         item: *rockwools
         amount: 1
-  servo:
+  servo-basic:
     type: 'crafting'
     results: 
-      - item: 'servo' 
+      - item: 'servo-basic' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-iron'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'redstone' 
     data:
@@ -2094,7 +2072,7 @@ recipes:
         - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
         - [item: ['ingot-iron'], item: ['redstone'], item: ['ingot-iron']]
       result:
-        item: ['servo']
+        item: ['servo-basic']
         amount: 1
   servo-hardened:
     type: 'crafting'
@@ -2102,9 +2080,7 @@ recipes:
       - item: 'servo-hardened' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-invar'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'redstone' 
     data:
@@ -2121,9 +2097,7 @@ recipes:
       - item: 'servo-reinforced' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-electrum'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'redstone' 
     data:
@@ -2140,9 +2114,7 @@ recipes:
       - item: 'servo-signalum' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-signalum'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'redstone' 
     data:
@@ -2159,9 +2131,7 @@ recipes:
       - item: 'servo-resonant' 
     ingredients: 
       - item: 'nugget-iron'
-        suffix: 'x2'
       - item: 'ingot-enderium'
-        suffix: 'x2'
       - item: 'glass'
       - item: 'redstone' 
     data:
