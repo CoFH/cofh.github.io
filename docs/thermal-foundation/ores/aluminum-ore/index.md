@@ -1,8 +1,8 @@
 ---
 title: Aluminum Ore
 usage_recipes:
-  smelting:
-    - 'aluminum-ore-smelting'
+  redstone_furnace:
+    - 'aluminum-ore-redstone-furnace'
   pulverizer:
     - 'aluminum-ore-pulverizer'
   induction_smelter:
@@ -32,8 +32,11 @@ drops itself as an item.
 Usage
 -----
 
-### Smelting ingredient
-{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
+Aluminum ore cannot be [smelted](https://minecraft.gamepedia.com/Smelting) in a
+regular [furnace](https://minecraft.gamepedia.com/Furnace).
+
+### Redstone Furnace ingredient
+{% include recipe-table.html type='redstone-furnace' recipes=page.usage_recipes.redstone_furnace %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}

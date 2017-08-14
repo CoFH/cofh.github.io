@@ -756,6 +756,11 @@ recipe-types:
     site: 'te-docs'
     url: 'machines/pulverizer/'
     with-energy: true
+  redstone-furnace:
+    name: 'Redstone Furnace'
+    site: 'te-docs'
+    url: 'machines/redstone-furnace/'
+    with-energy: true
   smelting:
     name: 'Smelting'
     site: 'mc-wiki'
@@ -846,12 +851,13 @@ recipes:
       secondary-output:
         item: ['dust-iron']
       secondary-chance: 10
-  aluminum-ore-smelting:
-    type: 'smelting'
+  aluminum-ore-redstone-furnace:
+    type: 'redstone-furnace'
     results:
       - item: 'ingot-aluminum'
     ingredients:
       - item: 'ore-aluminum'
+    energy: 2000
     data:
       input:
         item: ['ore-aluminum']
