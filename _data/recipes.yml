@@ -5,6 +5,8 @@ sites:
     url: '/docs/thermal-foundation/'
   te-docs:
     url: '/docs/thermal-expansion/'
+  td-docs:
+    url: '/docs/thermal-dynamics/'
 
 items:
   bitumen:
@@ -177,11 +179,51 @@ items:
     sprite: [14, 3]
     site: 'tf-docs'
     url: 'metals-and-alloys/tin/'
+  ender-pearl:
+    name: 'Ender Pearl'
+    sprite: [12, 9]
+    site: 'mc-wiki'
+    url: 'Ender_Pearl'
+  eye-of-ender:
+    name: 'Eye of Ender'
+    sprite: [13, 9]
+    site: 'mc-wiki'
+    url: 'Eye_of_Ender'
+  filter-basic:
+    name: 'Filter'
+    sprite: [2, 9]
+    site: 'td-docs'
+    url: 'attachments/filters/'
+  filter-hardened:
+    name: 'Hardened Filter'
+    sprite: [3, 9]
+    site: 'td-docs'
+    url: 'attachments/filters/'
+  filter-reinforced:
+    name: 'Reinforced Filter'
+    sprite: [4, 9]
+    site: 'td-docs'
+    url: 'attachments/filters/'
+  filter-signalum:
+    name: 'Signalum Filter'
+    sprite: [5, 9]
+    site: 'td-docs'
+    url: 'attachments/filters/'
+  filter-resonant:
+    name: 'Resonant Filter'
+    sprite: [6, 9]
+    site: 'td-docs'
+    url: 'attachments/filters/'
   flint:
     name: 'Flint'
     sprite: [9, 8]
     site: 'mc-wiki'
     url: 'Flint'
+  glass:
+    name: 'Glass'
+    sprite: [3, 11]
+    site: 'mc-wiki'
+    url: 'Glass'
   gray-dye:
     name: 'Gray Dye'
     sprite: [8, 5]
@@ -397,6 +439,111 @@ items:
     sprite: [13, 5]
     site: 'mc-wiki'
     url: 'Magenta_Dye'
+  nugget-aluminum:
+    name: 'Aluminum Nugget'
+    sprite: [4, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/aluminum/'
+  nugget-bronze:
+    name: 'Bronze Nugget'
+    sprite: [12, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/bronze/'
+  nugget-constantan:
+    name: 'Constantan Nugget'
+    sprite: [13, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/constantan/'
+  nugget-copper:
+    name: 'Copper Nugget'
+    sprite: [0, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/copper/'
+  nugget-diamond:
+    name: 'Diamond Nugget'
+    sprite: [1, 11]
+    site: 'tf-docs'
+    url: 'materials/nuggets/'
+  nugget-electrum:
+    name: 'Electrum Nugget'
+    sprite: [10, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/electrum/'
+  nugget-emerald:
+    name: 'Emerald Nugget'
+    sprite: [2, 11]
+    site: 'tf-docs'
+    url: 'materials/nuggets/'
+  nugget-enderium:
+    name: 'Enderium Nugget'
+    sprite: [0, 11]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/enderium/'
+  nugget-gold:
+    name: 'Gold Nugget'
+    sprite: [15, 9]
+    site: 'mc-wiki'
+    url: 'Gold_Nugget'
+  nugget-invar:
+    name: 'Invar Nugget'
+    sprite: [11, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/invar/'
+  nugget-iridium:
+    name: 'Iridium Nugget'
+    sprite: [7, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/iridium/'
+  nugget-iron:
+    name: 'Iron Nugget'
+    sprite: [14, 9]
+    site: 'mc-wiki'
+    url: 'Iron_Nugget'
+  nugget-lead:
+    name: 'Lead Nugget'
+    sprite: [3, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lead/'
+  nugget-lumium:
+    name: 'Lumium Nugget'
+    sprite: [15, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/lumium/'
+  nugget-mithril:
+    name: 'Mana Infused Nugget'
+    sprite: [8, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/mana-infused-metal/'
+  nugget-nickel:
+    name: 'Nickel Nugget'
+    sprite: [5, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/nickel/'
+  nugget-platinum:
+    name: 'Platinum Nugget'
+    sprite: [6, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/platinum/'
+  nugget-signalum:
+    name: 'Signalum Nugget'
+    sprite: [14, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/signalum/'
+  nugget-silver:
+    name: 'Silver Nugget'
+    sprite: [2, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/silver/'
+  nugget-steel:
+    name: 'Steel Nugget'
+    sprite: [9, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/steel/'
+  nugget-tin:
+    name: 'Tin Nugget'
+    sprite: [1, 10]
+    site: 'tf-docs'
+    url: 'metals-and-alloys/tin/'
   oil-sand:
     name: 'Oil Sand'
     sprite: [10, 7]
@@ -472,6 +619,11 @@ items:
     sprite: [2, 7]
     site: 'tf-docs'
     url: 'ores/tin-ore/'
+  paper:
+    name: 'Paper'
+    sprite: [4, 11]
+    site: 'mc-wiki'
+    url: 'Paper'
   pink-dye:
     name: 'Pink Dye'
     sprite: [9, 5]
@@ -492,6 +644,31 @@ items:
     sprite: [7, 0]
     site: 'mc-wiki'
     url: 'Redstone'
+  retriever-basic:
+    name: 'Retriever'
+    sprite: [7, 9]
+    site: 'td-docs'
+    url: 'attachments/retrievers/'
+  retriever-hardened:
+    name: 'Hardened Retriever'
+    sprite: [8, 9]
+    site: 'td-docs'
+    url: 'attachments/retrievers/'
+  retriever-reinforced:
+    name: 'Reinforced Retriever'
+    sprite: [9, 9]
+    site: 'td-docs'
+    url: 'attachments/retrievers/'
+  retriever-signalum:
+    name: 'Signalum Retriever'
+    sprite: [10, 9]
+    site: 'td-docs'
+    url: 'attachments/retrievers/'
+  retriever-resonant:
+    name: 'Resonant Retriever'
+    sprite: [11, 9]
+    site: 'td-docs'
+    url: 'attachments/retrievers/'
   rockwool-black:
     name: 'Black Rockwool'
     sprite: [0, 4]
@@ -582,6 +759,31 @@ items:
     sprite: [6, 8]
     site: 'mc-wiki'
     url: 'Sand'
+  servo-basic:
+    name: 'Servo'
+    sprite: [13, 8]
+    site: 'td-docs'
+    url: 'attachments/servos/'
+  servo-hardened:
+    name: 'Hardened Servo'
+    sprite: [14, 8]
+    site: 'td-docs'
+    url: 'attachments/servos/'
+  servo-reinforced:
+    name: 'Reinforced Servo'
+    sprite: [15, 8]
+    site: 'td-docs'
+    url: 'attachments/servos/'
+  servo-signalum:
+    name: 'Signalum Servo'
+    sprite: [0, 9]
+    site: 'td-docs'
+    url: 'attachments/servos/'
+  servo-resonant:
+    name: 'Resonant Servo'
+    sprite: [1, 9]
+    site: 'td-docs'
+    url: 'attachments/servos/'
   slag:
     name: 'Slag'
     sprite: [15, 3]
@@ -1020,6 +1222,91 @@ recipes:
       secondary-output:
         item: ['sulfur']
       secondary-chance: 30
+  filter-basic:
+    type: 'crafting'
+    results: 
+      - item: 'filter-basic' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-iron'
+      - item: 'glass'
+      - item: 'paper' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-iron'], item: ['paper'], item: ['ingot-iron']]
+      result:
+        item: ['filter-basic']
+        amount: 1
+  filter-hardened:
+    type: 'crafting'
+    results: 
+      - item: 'filter-hardened' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-invar'
+      - item: 'glass'
+      - item: 'paper' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-invar'], item: ['paper'], item: ['ingot-invar']]
+      result:
+        item: ['filter-hardened']
+        amount: 1
+  filter-reinforced:
+    type: 'crafting'
+    results: 
+      - item: 'filter-reinforced' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-electrum'
+      - item: 'glass'
+      - item: 'paper' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-electrum'], item: ['paper'], item: ['ingot-electrum']]
+      result:
+        item: ['filter-reinforced']
+        amount: 1
+  filter-signalum:
+    type: 'crafting'
+    results: 
+      - item: 'filter-signalum' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-signalum'
+      - item: 'glass'
+      - item: 'paper' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-signalum'], item: ['paper'], item: ['ingot-signalum']]
+      result:
+        item: ['filter-signalum']
+        amount: 1
+  filter-resonant:
+    type: 'crafting'
+    results: 
+      - item: 'filter-resonant' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-enderium'
+      - item: 'glass'
+      - item: 'paper' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-enderium'], item: ['paper'], item: ['ingot-enderium']]
+      result:
+        item: ['filter-resonant']
+        amount: 1
   hardened-glass:
     type: 'induction-smelter'
     results:
@@ -1632,6 +1919,91 @@ recipes:
       primary-output:
         item: ['clathrate-ender']
         amount: 3
+  retriever-basic:
+    type: 'crafting'
+    results: 
+      - item: 'retriever-basic' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-iron'
+      - item: 'glass'
+      - item: 'eye-of-ender' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-iron'], item: ['eye-of-ender'], item: ['ingot-iron']]
+      result:
+        item: ['retriever-basic']
+        amount: 1
+  retriever-hardened:
+    type: 'crafting'
+    results: 
+      - item: 'retriever-hardened' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-invar'
+      - item: 'glass'
+      - item: 'eye-of-ender'
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-invar'], item: ['eye-of-ender'], item: ['ingot-invar']]
+      result:
+        item: ['retriever-hardened']
+        amount: 1
+  retriever-reinforced:
+    type: 'crafting'
+    results: 
+      - item: 'retriever-reinforced' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-electrum'
+      - item: 'glass'
+      - item: 'eye-of-ender'
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-electrum'], item: ['eye-of-ender'], item: ['ingot-electrum']]
+      result:
+        item: ['retriever-reinforced']
+        amount: 1
+  retriever-signalum:
+    type: 'crafting'
+    results: 
+      - item: 'retriever-signalum' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-signalum'
+      - item: 'glass'
+      - item: 'eye-of-ender'
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-signalum'], item: ['eye-of-ender'], item: ['ingot-signalum']]
+      result:
+        item: ['retriever-signalum']
+        amount: 1
+  retriever-resonant:
+    type: 'crafting'
+    results: 
+      - item: 'retriever-resonant' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-enderium'
+      - item: 'glass'
+      - item: 'eye-of-ender'
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-enderium'], item: ['eye-of-ender'], item: ['ingot-enderium']]
+      result:
+        item: ['retriever-resonant']
+        amount: 1
   rockwool:
     type: 'smelting'
     results:
@@ -1690,6 +2062,91 @@ recipes:
               - 'bone-meal'
       result:
         item: *rockwools
+        amount: 1
+  servo-basic:
+    type: 'crafting'
+    results: 
+      - item: 'servo-basic' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-iron'
+      - item: 'glass'
+      - item: 'redstone' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-iron'], item: ['redstone'], item: ['ingot-iron']]
+      result:
+        item: ['servo-basic']
+        amount: 1
+  servo-hardened:
+    type: 'crafting'
+    results: 
+      - item: 'servo-hardened' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-invar'
+      - item: 'glass'
+      - item: 'redstone' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-invar'], item: ['redstone'], item: ['ingot-invar']]
+      result:
+        item: ['servo-hardened']
+        amount: 1
+  servo-reinforced:
+    type: 'crafting'
+    results: 
+      - item: 'servo-reinforced' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-electrum'
+      - item: 'glass'
+      - item: 'redstone' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-electrum'], item: ['redstone'], item: ['ingot-electrum']]
+      result:
+        item: ['servo-reinforced']
+        amount: 1
+  servo-signalum:
+    type: 'crafting'
+    results: 
+      - item: 'servo-signalum' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-signalum'
+      - item: 'glass'
+      - item: 'redstone' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-signalum'], item: ['redstone'], item: ['ingot-signalum']]
+      result:
+        item: ['servo-signalum']
+        amount: 1
+  servo-resonant:
+    type: 'crafting'
+    results: 
+      - item: 'servo-resonant' 
+    ingredients: 
+      - item: 'nugget-iron'
+      - item: 'ingot-enderium'
+      - item: 'glass'
+      - item: 'redstone' 
+    data:
+      shapeless: false
+      rows:
+        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
+        - [item: ['ingot-enderium'], item: ['redstone'], item: ['ingot-enderium']]
+      result:
+        item: ['servo-resonant']
         amount: 1
   silver-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
