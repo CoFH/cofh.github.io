@@ -60,41 +60,36 @@ from the shackles of manual labor. At the time of this writing, five metals
 exist which seem to have synergistic or catalytic properties with redstone. They
 are as follows:
 
-**[Copper](/docs/thermal-foundation/metals-and-alloys/copper/):** This
-reasonably common metal, when mixed in the proper quantities with
-[silver](/docs/thermal-foundation/metals-and-alloys/silver/) and combined with
-destabilized redstone, can form
-[signalum](/docs/thermal-foundation/metals-and-alloys/signalum/) - an alloy
-capable of transmitting signals a long distance as well as having rudimentary
-sensitivity to magnetism. This alloy can be used as a "bridge" between Redstone
-Flux and electricity, as the conductive nature of the silver and copper allows
-for the flow of electrons.
+**Copper:** This reasonably common metal, when mixed in the proper quantities
+with silver and combined with destabilized redstone, can form signalum - an
+alloy capable of transmitting signals a long distance as well as having
+rudimentary sensitivity to magnetism. This alloy can be used as a "bridge"
+between Redstone Flux and electricity, as the conductive nature of the silver
+and copper allows for the flow of electrons.
 
-**[Silver](/docs/thermal-foundation/metals-and-alloys/silver/):** This precious
-metal, when combined with redstone dust, is able to convert heat or electricity
-into Redstone Flux. Engineering advances have shown that a [coil-type
-geometry](/docs/thermal-foundation/materials/redstone-coils/) can be used to
-optimize the production and transmission of this Redstone Flux. Essentially,
-silver is most used in the generation of Redstone Flux. The engineering mnemonic
-for this is derived from the chemical abbreviation of silver - Ag - or "A
-Generator."
+**Silver:** This precious metal, when combined with redstone dust, is able to
+convert heat or electricity into Redstone Flux. Engineering advances have shown
+that a [coil-type
+geometry](/docs/thermal-foundation/materials/redstone-transmission-coil/) can be
+used to optimize the production and transmission of this Redstone Flux.
+Essentially, silver is most used in the generation of Redstone Flux. The
+engineering mnemonic for this is derived from the chemical abbreviation of
+silver - Ag - or "A Generator."
 
-**[Gold](https://minecraft.gamepedia.com/Gold):** This precious metal, when
-combined with redstone dust, is able to convert Redstone Flux into heat or
-magnetism. Engineering advances have shown that a [coil-type
-geometry](/docs/thermal-foundation/materials/redstone-coils/) can be used to
-optimize the reception and storage of Redstone Flux. Essentially, gold is most
-used in the reception of Redstone Flux. The engineering mnemonic for this is
-derived from the chemical abbreviation of gold - Au - or "A User."
+**Gold:** This precious metal, when combined with redstone dust, is able to
+convert Redstone Flux into heat or magnetism. Engineering advances have shown
+that a [coil-type
+geometry](/docs/thermal-foundation/materials/redstone-reception-coil/) can be
+used to optimize the reception and storage of Redstone Flux. Essentially, gold
+is most used in the reception of Redstone Flux. The engineering mnemonic for
+this is derived from the chemical abbreviation of gold - Au - or "A User."
 
-**[Lead](/docs/thermal-foundation/metals-and-alloys/lead/):** This metal can be
-used in the construction of rudimentary Redstone Flux devices. The density of
-the lead acts to assist in containment of Redstone Flux, when otherwise the
-resonant waveform could escape or diminish with time.
+**Lead:** This metal can be used in the construction of rudimentary Redstone
+Flux devices. The density of the lead acts to assist in containment of Redstone
+Flux, when otherwise the resonant waveform could escape or diminish with time.
 
-**[Electrum](/docs/thermal-foundation/metals-and-alloys/electrum/):** This metal
-is simply an alloy of silver and gold, and can be utilized for the purposes of
-either.
+**Electrum:** This metal is simply an alloy of silver and gold, and can be
+utilized for the purposes of either.
 
 Notes: Common to all of these metals is an extremely high resistance to
 corrosion. Redstone Flux is volatile in nature, and high levels of it can have

@@ -14,8 +14,7 @@ usage_recipes:
 ![Lead Ore](/assets/images/thermal-foundation/ore-lead.png){:style="height: 128px"}
 
 
-**Lead ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
-that yields [lead](/docs/thermal-foundation/metals-and-alloys/lead/).
+**Lead ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore).
 
 
 Obtaining

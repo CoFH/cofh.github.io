@@ -12,9 +12,8 @@ usage_recipes:
 ![Mana Infused Ore](/assets/images/thermal-foundation/ore-mithril.png){:style="height: 128px"}
 
 
-**Mana infused ore** is an [ore](https://minecraft.gamepedia.com/Ore) that
-yields [mana infused
-metal](/docs/thermal-foundation/metals-and-alloys/mana-infused-metal/).
+**Mana infused ore** is an [ore](https://minecraft.gamepedia.com/Ore) that is
+unobtainable by default.
 
 
 Obtaining

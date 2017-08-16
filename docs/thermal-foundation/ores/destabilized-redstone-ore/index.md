@@ -11,8 +11,7 @@ usage_recipes:
 
 
 **Destabilized redstone ore** is a rare
-[ore](https://minecraft.gamepedia.com/Ore) that yields [destabilized
-clathrate](/docs/thermal-foundation/materials/destabilized-clathrate/).
+[ore](https://minecraft.gamepedia.com/Ore).
 
 
 Obtaining

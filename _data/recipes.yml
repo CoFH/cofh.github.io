@@ -73,87 +73,87 @@ items:
     name: 'Pulverized Aluminum'
     sprite: [14, 2]
     site: 'tf-docs'
-    url: 'metals-and-alloys/aluminum/'
+    url: 'metal-dusts/pulverized-aluminum/'
   dust-bronze:
     name: 'Bronze Blend'
     sprite: [15, 2]
     site: 'tf-docs'
-    url: 'metals-and-alloys/bronze/'
+    url: 'metal-dusts/bronze-blend/'
   dust-coal:
     name: 'Pulverized Coal'
     sprite: [3, 0]
     site: 'tf-docs'
-    url: 'materials/pulverized-materials-and-blends/'
+    url: 'materials/pulverized-coal/'
   dust-constantan:
     name: 'Constantan Blend'
     sprite: [0, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/constantan/'
+    url: 'metal-dusts/constantan-blend/'
   dust-copper:
     name: 'Pulverized Copper'
     sprite: [1, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/copper/'
+    url: 'metal-dusts/pulverized-copper/'
   dust-electrum:
     name: 'Electrum Blend'
     sprite: [2, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/electrum/'
+    url: 'metal-dusts/electrum-blend/'
   dust-enderium:
     name: 'Enderium Blend'
     sprite: [3, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/enderium/'
+    url: 'metal-dusts/enderium-blend/'
   dust-gold:
     name: 'Pulverized Gold'
     sprite: [12, 8]
     site: 'tf-docs'
-    url: 'materials/pulverized-materials-and-blends/'
+    url: 'metal-dusts/pulverized-gold/'
   dust-invar:
     name: 'Invar Blend'
     sprite: [4, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/invar/'
+    url: 'metal-dusts/invar-blend/'
   dust-iridium:
     name: 'Pulverized Iridium'
     sprite: [5, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/iridium/'
+    url: 'metal-dusts/pulverized-iridium/'
   dust-iron:
     name: 'Pulverized Iron'
     sprite: [11, 8]
     site: 'tf-docs'
-    url: 'materials/pulverized-materials-and-blends/'
+    url: 'metal-dusts/pulverized-iron/'
   dust-lead:
     name: 'Pulverized Lead'
     sprite: [6, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/lead/'
+    url: 'metal-dusts/pulverized-lead/'
   dust-lumium:
     name: 'Lumium Blend'
     sprite: [7, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/lumium/'
+    url: 'metal-dusts/lumium-blend/'
   dust-mithril:
     name: 'Pulverized Mana Infused Metal'
     sprite: [8, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/mana-infused-metal/'
+    url: 'metal-dusts/pulverized-mana-infused-metal/'
   dust-nickel:
     name: 'Pulverized Nickel'
     sprite: [9, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/nickel/'
+    url: 'metal-dusts/pulverized-nickel/'
   dust-obsidian:
     name: 'Pulverized Obsidian'
     sprite: [13, 2]
     site: 'tf-docs'
-    url: 'materials/pulverized-materials-and-blends/'
+    url: 'materials/pulverized-obsidian/'
   dust-platinum:
     name: 'Pulverized Platinum'
     sprite: [10, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/platinum/'
+    url: 'metal-dusts/pulverized-platinum/'
   dust-pyrotheum:
     name: 'Pyrotheum Dust'
     animated: true
@@ -163,22 +163,22 @@ items:
     name: 'Signalum Blend'
     sprite: [11, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/signalum/'
+    url: 'metal-dusts/signalum-blend/'
   dust-silver:
     name: 'Pulverized Silver'
     sprite: [12, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/silver/'
+    url: 'metal-dusts/pulverized-silver/'
   dust-steel:
     name: 'Steel Blend'
     sprite: [13, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/steel/'
+    url: 'metal-dusts/steel-blend/'
   dust-tin:
     name: 'Pulverized Tin'
     sprite: [14, 3]
     site: 'tf-docs'
-    url: 'metals-and-alloys/tin/'
+    url: 'metal-dusts/pulverized-tin/'
   ender-pearl:
     name: 'Ender Pearl'
     sprite: [12, 9]
@@ -318,32 +318,32 @@ items:
     name: 'Aluminum Ingot'
     sprite: [11, 0]
     site: 'tf-docs'
-    url: 'metals-and-alloys/aluminum/'
+    url: 'ingots/aluminum-ingot/'
   ingot-bronze:
     name: 'Bronze Ingot'
     sprite: [12, 0]
     site: 'tf-docs'
-    url: 'metals-and-alloys/bronze/'
+    url: 'ingots/bronze-ingot/'
   ingot-constantan:
     name: 'Constantan Ingot'
     sprite: [13, 0]
     site: 'tf-docs'
-    url: 'metals-and-alloys/constantan/'
+    url: 'ingots/constantan-ingot/'
   ingot-copper:
     name: 'Copper Ingot'
     sprite: [14, 0]
     site: 'tf-docs'
-    url: 'metals-and-alloys/copper/'
+    url: 'ingots/copper-ingot/'
   ingot-electrum:
     name: 'Electrum Ingot'
     sprite: [15, 0]
     site: 'tf-docs'
-    url: 'metals-and-alloys/electrum/'
+    url: 'ingots/electrum-ingot/'
   ingot-enderium:
     name: 'Enderium Ingot'
     sprite: [0, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/enderium/'
+    url: 'ingots/enderium-ingot/'
   ingot-gold:
     name: 'Gold Ingot'
     sprite: [10, 8]
@@ -358,57 +358,57 @@ items:
     name: 'Invar Ingot'
     sprite: [1, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/invar/'
+    url: 'ingots/invar-ingot/'
   ingot-iridium:
     name: 'Iridium Ingot'
     sprite: [2, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/iridium/'
+    url: 'ingots/iridium-ingot/'
   ingot-lead:
     name: 'Lead Ingot'
     sprite: [3, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/lead/'
+    url: 'ingots/lead-ingot/'
   ingot-lumium:
     name: 'Lumium Ingot'
     sprite: [4, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/lumium/'
+    url: 'ingots/lumium-ingot/'
   ingot-mithril:
     name: 'Mana Infused Ingot'
     sprite: [5, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/mana-infused-metal/'
+    url: 'ingots/mana-infused-ingot/'
   ingot-nickel:
     name: 'Nickel Ingot'
     sprite: [6, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/nickel/'
+    url: 'ingots/nickel-ingot/'
   ingot-platinum:
     name: 'Platinum Ingot'
     sprite: [7, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/platinum/'
+    url: 'ingots/platinum-ingot/'
   ingot-signalum:
     name: 'Signalum Ingot'
     sprite: [8, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/signalum/'
+    url: 'ingots/signalum-ingot/'
   ingot-silver:
     name: 'Silver Ingot'
     sprite: [9, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/silver/'
+    url: 'ingots/silver-ingot/'
   ingot-steel:
     name: 'Steel Ingot'
     sprite: [10, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/steel/'
+    url: 'ingots/steel-ingot/'
   ingot-tin:
     name: 'Tin Ingot'
     sprite: [11, 1]
     site: 'tf-docs'
-    url: 'metals-and-alloys/tin/'
+    url: 'ingots/tin-ingot/'
   ink-sac:
     name: 'Ink Sac'
     sprite: [0, 5]
@@ -443,42 +443,42 @@ items:
     name: 'Aluminum Nugget'
     sprite: [4, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/aluminum/'
+    url: 'metal-nuggets/aluminum-nugget/'
   nugget-bronze:
     name: 'Bronze Nugget'
     sprite: [12, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/bronze/'
+    url: 'metal-nuggets/bronze-nugget/'
   nugget-constantan:
     name: 'Constantan Nugget'
     sprite: [13, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/constantan/'
+    url: 'metal-nuggets/constantan-nugget/'
   nugget-copper:
     name: 'Copper Nugget'
     sprite: [0, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/copper/'
+    url: 'metal-nuggets/copper-nugget/'
   nugget-diamond:
     name: 'Diamond Nugget'
     sprite: [1, 11]
     site: 'tf-docs'
-    url: 'materials/nuggets/'
+    url: 'materials/diamond-nugget/'
   nugget-electrum:
     name: 'Electrum Nugget'
     sprite: [10, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/electrum/'
+    url: 'metal-nuggets/electrum-nugget/'
   nugget-emerald:
     name: 'Emerald Nugget'
     sprite: [2, 11]
     site: 'tf-docs'
-    url: 'materials/nuggets/'
+    url: 'materials/emerald-nugget/'
   nugget-enderium:
     name: 'Enderium Nugget'
     sprite: [0, 11]
     site: 'tf-docs'
-    url: 'metals-and-alloys/enderium/'
+    url: 'metal-nuggets/enderium-nugget/'
   nugget-gold:
     name: 'Gold Nugget'
     sprite: [15, 9]
@@ -488,12 +488,12 @@ items:
     name: 'Invar Nugget'
     sprite: [11, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/invar/'
+    url: 'metal-nuggets/invar-nugget/'
   nugget-iridium:
     name: 'Iridium Nugget'
     sprite: [7, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/iridium/'
+    url: 'metal-nuggets/iridium-nugget/'
   nugget-iron:
     name: 'Iron Nugget'
     sprite: [14, 9]
@@ -503,47 +503,47 @@ items:
     name: 'Lead Nugget'
     sprite: [3, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/lead/'
+    url: 'metal-nuggets/lead-nugget/'
   nugget-lumium:
     name: 'Lumium Nugget'
     sprite: [15, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/lumium/'
+    url: 'metal-nuggets/lumium-nugget/'
   nugget-mithril:
     name: 'Mana Infused Nugget'
     sprite: [8, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/mana-infused-metal/'
+    url: 'metal-nuggets/mana-infused-nugget/'
   nugget-nickel:
     name: 'Nickel Nugget'
     sprite: [5, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/nickel/'
+    url: 'metal-nuggets/nickel-nugget/'
   nugget-platinum:
     name: 'Platinum Nugget'
     sprite: [6, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/platinum/'
+    url: 'metal-nuggets/platinum-nugget/'
   nugget-signalum:
     name: 'Signalum Nugget'
     sprite: [14, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/signalum/'
+    url: 'metal-nuggets/signalum-nugget/'
   nugget-silver:
     name: 'Silver Nugget'
     sprite: [2, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/silver/'
+    url: 'metal-nuggets/silver-nugget/'
   nugget-steel:
     name: 'Steel Nugget'
     sprite: [9, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/steel/'
+    url: 'metal-nuggets/steel-nugget/'
   nugget-tin:
     name: 'Tin Nugget'
     sprite: [1, 10]
     site: 'tf-docs'
-    url: 'metals-and-alloys/tin/'
+    url: 'metal-nuggets/tin-nugget/'
   oil-sand:
     name: 'Oil Sand'
     sprite: [10, 7]
@@ -793,92 +793,92 @@ items:
     name: 'Rich Slag'
     sprite: [15, 7]
     site: 'tf-docs'
-    url: 'materials/slag/'
+    url: 'materials/rich-slag/'
   storage-block-aluminum:
     name: 'Aluminum Block'
     sprite: [4, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/aluminum/'
+    url: 'metal-blocks/aluminum-block/'
   storage-block-bronze:
     name: 'Bronze Block'
     sprite: [12, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/bronze/'
+    url: 'metal-blocks/bronze-block/'
   storage-block-constantan:
     name: 'Constantan Block'
     sprite: [13, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/constantan/'
+    url: 'metal-blocks/constantan-block/'
   storage-block-copper:
     name: 'Copper Block'
     sprite: [0, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/copper/'
+    url: 'metal-blocks/copper-block/'
   storage-block-electrum:
     name: 'Electrum Block'
     sprite: [10, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/electrum/'
+    url: 'metal-blocks/electrum-block/'
   storage-block-enderium:
     name: 'Enderium Block'
     sprite: [0, 7]
     site: 'tf-docs'
-    url: 'metals-and-alloys/enderium/'
+    url: 'metal-blocks/enderium-block/'
   storage-block-invar:
     name: 'Invar Block'
     sprite: [11, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/invar/'
+    url: 'metal-blocks/invar-block/'
   storage-block-iridium:
     name: 'Iridium Block'
     sprite: [7, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/iridium/'
+    url: 'metal-blocks/iridium-block/'
   storage-block-lead:
     name: 'Lead Block'
     sprite: [3, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/lead/'
+    url: 'metal-blocks/lead-block/'
   storage-block-lumium:
     name: 'Lumium Block'
     sprite: [15, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/lumium/'
+    url: 'metal-blocks/lumium-block/'
   storage-block-mithril:
     name: 'Mana Infused Block'
     sprite: [8, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/mana-infused-metal/'
+    url: 'metal-blocks/mana-infused-block/'
   storage-block-nickel:
     name: 'Nickel Block'
     sprite: [5, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/nickel/'
+    url: 'metal-blocks/nickel-block/'
   storage-block-platinum:
     name: 'Platinum Block'
     sprite: [6, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/platinum/'
+    url: 'metal-blocks/platinum-block/'
   storage-block-signalum:
     name: 'Signalum Block'
     sprite: [14, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/signalum/'
+    url: 'metal-blocks/signalum-block/'
   storage-block-silver:
     name: 'Silver Block'
     sprite: [2, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/silver/'
+    url: 'metal-blocks/silver-block/'
   storage-block-steel:
     name: 'Steel Block'
     sprite: [9, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/steel/'
+    url: 'metal-blocks/steel-block/'
   storage-block-tin:
     name: 'Tin Block'
     sprite: [1, 6]
     site: 'tf-docs'
-    url: 'metals-and-alloys/tin/'
+    url: 'metal-blocks/tin-block/'
   sulfur:
     name: 'Sulfur'
     sprite: [10, 0]
@@ -1224,13 +1224,13 @@ recipes:
       secondary-chance: 30
   filter-basic:
     type: 'crafting'
-    results: 
-      - item: 'filter-basic' 
-    ingredients: 
+    results:
+      - item: 'filter-basic'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-iron'
       - item: 'glass'
-      - item: 'paper' 
+      - item: 'paper'
     data:
       shapeless: false
       rows:
@@ -1241,13 +1241,13 @@ recipes:
         amount: 1
   filter-hardened:
     type: 'crafting'
-    results: 
-      - item: 'filter-hardened' 
-    ingredients: 
+    results:
+      - item: 'filter-hardened'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-invar'
       - item: 'glass'
-      - item: 'paper' 
+      - item: 'paper'
     data:
       shapeless: false
       rows:
@@ -1258,13 +1258,13 @@ recipes:
         amount: 1
   filter-reinforced:
     type: 'crafting'
-    results: 
-      - item: 'filter-reinforced' 
-    ingredients: 
+    results:
+      - item: 'filter-reinforced'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-electrum'
       - item: 'glass'
-      - item: 'paper' 
+      - item: 'paper'
     data:
       shapeless: false
       rows:
@@ -1275,13 +1275,13 @@ recipes:
         amount: 1
   filter-signalum:
     type: 'crafting'
-    results: 
-      - item: 'filter-signalum' 
-    ingredients: 
+    results:
+      - item: 'filter-signalum'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-signalum'
       - item: 'glass'
-      - item: 'paper' 
+      - item: 'paper'
     data:
       shapeless: false
       rows:
@@ -1292,13 +1292,13 @@ recipes:
         amount: 1
   filter-resonant:
     type: 'crafting'
-    results: 
-      - item: 'filter-resonant' 
-    ingredients: 
+    results:
+      - item: 'filter-resonant'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-enderium'
       - item: 'glass'
-      - item: 'paper' 
+      - item: 'paper'
     data:
       shapeless: false
       rows:
@@ -1313,8 +1313,8 @@ recipes:
       - item: 'hardened-glass'
     ingredients:
       - html: >
-          <a href="/docs/thermal-foundation/metals-and-alloys/lead/">Lead Ingot</a> or<br />
-          <a href="/docs/thermal-foundation/metals-and-alloys/lead/">Pulverized Lead</a>
+          <a href="/docs/thermal-foundation/ingots/lead-ingot/">Lead Ingot</a> or<br />
+          <a href="/docs/thermal-foundation/metal-dusts/pulverized-lead/">Pulverized Lead</a>
       - item: 'dust-obsidian'
     energy: 4000
     data:
@@ -1335,7 +1335,7 @@ recipes:
       - html: '<a href="/docs/thermal-foundation/blocks/hardened-glass/">Hardened Glass</a> variants'
     ingredients:
       - item: 'hardened-glass'
-      - html: 'pulverized metal or blend'
+      - html: 'metal or alloy dust'
     energy: 6000
     data:
       primary-input:
@@ -1921,13 +1921,13 @@ recipes:
         amount: 3
   retriever-basic:
     type: 'crafting'
-    results: 
-      - item: 'retriever-basic' 
-    ingredients: 
+    results:
+      - item: 'retriever-basic'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-iron'
       - item: 'glass'
-      - item: 'eye-of-ender' 
+      - item: 'eye-of-ender'
     data:
       shapeless: false
       rows:
@@ -1938,9 +1938,9 @@ recipes:
         amount: 1
   retriever-hardened:
     type: 'crafting'
-    results: 
-      - item: 'retriever-hardened' 
-    ingredients: 
+    results:
+      - item: 'retriever-hardened'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-invar'
       - item: 'glass'
@@ -1955,9 +1955,9 @@ recipes:
         amount: 1
   retriever-reinforced:
     type: 'crafting'
-    results: 
-      - item: 'retriever-reinforced' 
-    ingredients: 
+    results:
+      - item: 'retriever-reinforced'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-electrum'
       - item: 'glass'
@@ -1972,9 +1972,9 @@ recipes:
         amount: 1
   retriever-signalum:
     type: 'crafting'
-    results: 
-      - item: 'retriever-signalum' 
-    ingredients: 
+    results:
+      - item: 'retriever-signalum'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-signalum'
       - item: 'glass'
@@ -1989,9 +1989,9 @@ recipes:
         amount: 1
   retriever-resonant:
     type: 'crafting'
-    results: 
-      - item: 'retriever-resonant' 
-    ingredients: 
+    results:
+      - item: 'retriever-resonant'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-enderium'
       - item: 'glass'
@@ -2065,13 +2065,13 @@ recipes:
         amount: 1
   servo-basic:
     type: 'crafting'
-    results: 
-      - item: 'servo-basic' 
-    ingredients: 
+    results:
+      - item: 'servo-basic'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-iron'
       - item: 'glass'
-      - item: 'redstone' 
+      - item: 'redstone'
     data:
       shapeless: false
       rows:
@@ -2082,13 +2082,13 @@ recipes:
         amount: 1
   servo-hardened:
     type: 'crafting'
-    results: 
-      - item: 'servo-hardened' 
-    ingredients: 
+    results:
+      - item: 'servo-hardened'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-invar'
       - item: 'glass'
-      - item: 'redstone' 
+      - item: 'redstone'
     data:
       shapeless: false
       rows:
@@ -2099,13 +2099,13 @@ recipes:
         amount: 1
   servo-reinforced:
     type: 'crafting'
-    results: 
-      - item: 'servo-reinforced' 
-    ingredients: 
+    results:
+      - item: 'servo-reinforced'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-electrum'
       - item: 'glass'
-      - item: 'redstone' 
+      - item: 'redstone'
     data:
       shapeless: false
       rows:
@@ -2116,13 +2116,13 @@ recipes:
         amount: 1
   servo-signalum:
     type: 'crafting'
-    results: 
-      - item: 'servo-signalum' 
-    ingredients: 
+    results:
+      - item: 'servo-signalum'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-signalum'
       - item: 'glass'
-      - item: 'redstone' 
+      - item: 'redstone'
     data:
       shapeless: false
       rows:
@@ -2133,13 +2133,13 @@ recipes:
         amount: 1
   servo-resonant:
     type: 'crafting'
-    results: 
-      - item: 'servo-resonant' 
-    ingredients: 
+    results:
+      - item: 'servo-resonant'
+    ingredients:
       - item: 'nugget-iron'
       - item: 'ingot-enderium'
       - item: 'glass'
-      - item: 'redstone' 
+      - item: 'redstone'
     data:
       shapeless: false
       rows:
@@ -2243,57 +2243,6 @@ recipes:
         item: ['ore-silver']
       output:
         item: ['ingot-silver']
-  storage-blocks:
-    type: 'crafting'
-    results:
-      - html: '<a href="/docs/thermal-foundation/blocks/storage-blocks/">Storage Block</a>'
-    ingredients:
-      - html: 'Metal or alloy ingot'
-    data:
-      shapeless: true
-      rows:
-        - - item: &tf-ingots
-              - 'ingot-copper'
-              - 'ingot-tin'
-              - 'ingot-silver'
-              - 'ingot-lead'
-              - 'ingot-aluminum'
-              - 'ingot-nickel'
-              - 'ingot-platinum'
-              - 'ingot-iridium'
-              - 'ingot-mithril'
-              - 'ingot-steel'
-              - 'ingot-electrum'
-              - 'ingot-invar'
-              - 'ingot-bronze'
-              - 'ingot-constantan'
-              - 'ingot-signalum'
-              - 'ingot-lumium'
-              - 'ingot-enderium'
-          - item: *tf-ingots
-          - item: *tf-ingots
-        - [item: *tf-ingots , item: *tf-ingots , item: *tf-ingots ]
-        - [item: *tf-ingots , item: *tf-ingots , item: *tf-ingots ]
-      result:
-        item:
-          - 'storage-block-copper'
-          - 'storage-block-tin'
-          - 'storage-block-silver'
-          - 'storage-block-lead'
-          - 'storage-block-aluminum'
-          - 'storage-block-nickel'
-          - 'storage-block-platinum'
-          - 'storage-block-iridium'
-          - 'storage-block-mithril'
-          - 'storage-block-steel'
-          - 'storage-block-electrum'
-          - 'storage-block-invar'
-          - 'storage-block-bronze'
-          - 'storage-block-constantan'
-          - 'storage-block-signalum'
-          - 'storage-block-lumium'
-          - 'storage-block-enderium'
-        amount: 1
   tin-ore-induction-smelter-cinnabar:
     type: 'induction-smelter'
     results:

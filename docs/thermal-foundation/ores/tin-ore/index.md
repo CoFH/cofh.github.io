@@ -14,8 +14,7 @@ usage_recipes:
 ![Tin Ore](/assets/images/thermal-foundation/ore-tin.png){:style="height: 128px"}
 
 
-**Tin ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that yields
-[tin](/docs/thermal-foundation/metals-and-alloys/tin/).
+**Tin ore** is a common [ore](https://minecraft.gamepedia.com/Ore).
 
 
 Obtaining

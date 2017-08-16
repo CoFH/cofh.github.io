@@ -14,8 +14,8 @@ usage_recipes:
 ![Aluminum Ore](/assets/images/thermal-foundation/ore-aluminum.png){:style="height: 128px"}
 
 
-**Aluminum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
-[aluminum](/docs/thermal-foundation/metals-and-alloys/aluminum/).
+**Aluminum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that is
+unobtainable by default.
 
 
 Obtaining

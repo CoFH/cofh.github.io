@@ -14,8 +14,8 @@ usage_recipes:
 ![Platinum Ore](/assets/images/thermal-foundation/ore-platinum.png){:style="height: 128px"}
 
 
-**Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
-[platinum](/docs/thermal-foundation/metals-and-alloys/platinum/).
+**Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that is
+unobtainable by default.
 
 
 Obtaining

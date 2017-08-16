@@ -12,8 +12,8 @@ usage_recipes:
 ![Iridium Ore](/assets/images/thermal-foundation/ore-iridium.png){:style="height: 128px"}
 
 
-**Iridium ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
-[iridium](/docs/thermal-foundation/metals-and-alloys/iridium/).
+**Iridium ore** is an [ore](https://minecraft.gamepedia.com/Ore) that is
+unobtainable by default.
 
 
 Obtaining
