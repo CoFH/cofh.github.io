@@ -1,6 +1,6 @@
 {% assign item_name = include.item %}
-{% assign item_data = site.data.recipes.items[item_name] %}
-{% assign item_site = site.data.recipes.sites[item_data.site] %}
+{% assign item_data = site.data.recipe-items[item_name] %}
+{% assign item_site = site.data.recipe-sites[item_data.site] %}
 
 <a href="{{ item_site.url }}{{ item_data.url }}">
     <div class="cofh-recipe-item-sprite" title="{{ item_data.name }}" data-uk-tooltip="{pos: 'top', offset: 4}">

@@ -1,0 +1,16 @@
+crude-oil:
+  name: Crude Oil
+  site: tf-docs
+  url: fluids/crude-oil/
+ender:
+  name: Resonant Ender
+  site: tf-docs
+  url: fluids/resonant-ender/
+glowstone:
+  name: Energized Glowstone
+  site: tf-docs
+  url: fluids/energized-glowstone/
+redstone:
+  name: Destabilized Redstone
+  site: tf-docs
+  url: fluids/destabilized-redstone/

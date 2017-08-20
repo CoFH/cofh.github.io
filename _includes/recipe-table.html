@@ -1,5 +1,5 @@
-{% assign type_data = site.data.recipes.recipe-types[include.type] %}
-{% assign type_site = site.data.recipes.sites[type_data.site] %}
+{% assign type_data = site.data.recipe-types[include.type] %}
+{% assign type_site = site.data.recipe-sites[type_data.site] %}
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped cofh-recipe-table">
@@ -16,8 +16,8 @@
 
         <tbody>
             {% for recipe in include.recipes %}
-                {% assign recipe_data = site.data.recipes.recipes[recipe] %}
-                {% assign recipe_type = site.data.recipes.recipe-types[recipe_data.type] %}
+                {% assign recipe_data = site.data.recipes[recipe] %}
+                {% assign recipe_type = site.data.recipe-types[recipe_data.type] %}
 
                 <tr>
                     <td class="uk-text-center cofh-nowrap">
@@ -29,13 +29,13 @@
                             {% if result.html %}
                                 {{ result.html }}
                             {% elsif result.item %}
-                                {% assign item_data = site.data.recipes.items[result.item] %}
-                                {% assign item_site = site.data.recipes.sites[item_data.site] %}
+                                {% assign item_data = site.data.recipe-items[result.item] %}
+                                {% assign item_site = site.data.recipe-sites[item_data.site] %}
 
                                 <a href="{{item_site.url}}{{item_data.url}}">{{ item_data.name }}</a>
                             {% elsif result.fluid %}
-                                {% assign fluid_data = site.data.recipes.fluids[result.fluid] %}
-                                {% assign fluid_site = site.data.recipes.sites[fluid_data.site] %}
+                                {% assign fluid_data = site.data.recipe-fluids[result.fluid] %}
+                                {% assign fluid_site = site.data.recipe-sites[fluid_data.site] %}
 
                                 <a href="{{fluid_site.url}}{{fluid_data.url}}">{{ fluid_data.name }}</a>
 
@@ -61,13 +61,13 @@
                             {% if ingr.html %}
                                 {{ ingr.html }}
                             {% elsif ingr.item %}
-                                {% assign item_data = site.data.recipes.items[ingr.item] %}
-                                {% assign item_site = site.data.recipes.sites[item_data.site] %}
+                                {% assign item_data = site.data.recipe-items[ingr.item] %}
+                                {% assign item_site = site.data.recipe-sites[item_data.site] %}
 
                                 <a href="{{item_site.url}}{{item_data.url}}">{{ item_data.name }}</a>
                             {% elsif ingr.fluid %}
-                                {% assign fluid_data = site.data.recipes.fluids[ingr.fluid] %}
-                                {% assign fluid_site = site.data.recipes.sites[fluid_data.site] %}
+                                {% assign fluid_data = site.data.recipe-fluids[ingr.fluid] %}
+                                {% assign fluid_site = site.data.recipe-sites[fluid_data.site] %}
 
                                 <a href="{{fluid_site.url}}{{fluid_data.url}}">{{ fluid_data.name }}</a>
 

@@ -1,0 +1,28 @@
+crafting:
+  name: Crafting
+  site: mc-wiki
+  url: Crafting
+smelting:
+  name: Smelting
+  site: mc-wiki
+  url: Smelting
+induction-smelter:
+  name: Induction Smelter
+  site: te-docs
+  url: machines/induction-smelter/
+  with-energy: true
+magma-crucible:
+  name: Magma Crucible
+  site: te-docs
+  url: machines/magma-crucible/
+  with-energy: true
+pulverizer:
+  name: Pulverizer
+  site: te-docs
+  url: machines/pulverizer/
+  with-energy: true
+redstone-furnace:
+  name: Redstone Furnace
+  site: te-docs
+  url: machines/redstone-furnace/
+  with-energy: true

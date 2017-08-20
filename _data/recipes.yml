@@ -1,2340 +1,1369 @@
-sites:
-  mc-wiki:
-    url: 'https://minecraft.gamepedia.com/'
-  tf-docs:
-    url: '/docs/thermal-foundation/'
-  te-docs:
-    url: '/docs/thermal-expansion/'
-  td-docs:
-    url: '/docs/thermal-dynamics/'
-
-items:
-  bitumen:
-    name: 'Bitumen'
-    sprite: [1, 8]
-    site: 'tf-docs'
-    url: 'materials/bitumen/'
-  blaze-powder:
-    name: 'Blaze Powder'
-    sprite: [2, 0]
-    site: 'mc-wiki'
-    url: 'Blaze_Powder'
-  bone-meal:
-    name: 'Bone Meal'
-    sprite: [15, 5]
-    site: 'mc-wiki'
-    url: 'Bone_Meal'
-  cactus-green:
-    name: 'Cactus Green'
-    sprite: [2, 5]
-    site: 'mc-wiki'
-    url: 'Cactus_Green'
-  cinnabar:
-    name: 'Cinnabar'
-    sprite: [0, 8]
-    site: 'tf-docs'
-    url: 'materials/cinnabar/'
-  clathrate-ender:
-    name: 'Resonant Clathrate'
-    sprite: [4, 8]
-    site: 'tf-docs'
-    url: 'materials/resonant-clathrate/'
-  clathrate-glowstone:
-    name: 'Energized Clathrate'
-    sprite: [3, 8]
-    site: 'tf-docs'
-    url: 'materials/energized-clathrate/'
-  clathrate-redstone:
-    name: 'Destabilized Clathrate'
-    sprite: [2, 8]
-    site: 'tf-docs'
-    url: 'materials/destabilized-clathrate/'
-  cocoa-beans:
-    name: 'Cocoa Beans'
-    sprite: [3, 5]
-    site: 'mc-wiki'
-    url: 'Cocoa_Beans'
-  crafting-table:
-    name: 'Crafting Table'
-    sprite: [4, 0]
-    site: 'mc-wiki'
-    url: 'Crafting_Table'
-  cyan-dye:
-    name: 'Cyan Dye'
-    sprite: [6, 5]
-    site: 'mc-wiki'
-    url: 'Cyan_Dye'
-  dandelion-yellow:
-    name: 'Dandelion Yellow'
-    sprite: [11, 5]
-    site: 'mc-wiki'
-    url: 'Dandelion_Yellow'
-  dust-aluminum:
-    name: 'Pulverized Aluminum'
-    sprite: [14, 2]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-aluminum/'
-  dust-bronze:
-    name: 'Bronze Blend'
-    sprite: [15, 2]
-    site: 'tf-docs'
-    url: 'metal-dusts/bronze-blend/'
-  dust-coal:
-    name: 'Pulverized Coal'
-    sprite: [3, 0]
-    site: 'tf-docs'
-    url: 'materials/pulverized-coal/'
-  dust-constantan:
-    name: 'Constantan Blend'
-    sprite: [0, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/constantan-blend/'
-  dust-copper:
-    name: 'Pulverized Copper'
-    sprite: [1, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-copper/'
-  dust-electrum:
-    name: 'Electrum Blend'
-    sprite: [2, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/electrum-blend/'
-  dust-enderium:
-    name: 'Enderium Blend'
-    sprite: [3, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/enderium-blend/'
-  dust-gold:
-    name: 'Pulverized Gold'
-    sprite: [12, 8]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-gold/'
-  dust-invar:
-    name: 'Invar Blend'
-    sprite: [4, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/invar-blend/'
-  dust-iridium:
-    name: 'Pulverized Iridium'
-    sprite: [5, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-iridium/'
-  dust-iron:
-    name: 'Pulverized Iron'
-    sprite: [11, 8]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-iron/'
-  dust-lead:
-    name: 'Pulverized Lead'
-    sprite: [6, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-lead/'
-  dust-lumium:
-    name: 'Lumium Blend'
-    sprite: [7, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/lumium-blend/'
-  dust-mithril:
-    name: 'Pulverized Mana Infused Metal'
-    sprite: [8, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-mana-infused-metal/'
-  dust-nickel:
-    name: 'Pulverized Nickel'
-    sprite: [9, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-nickel/'
-  dust-obsidian:
-    name: 'Pulverized Obsidian'
-    sprite: [13, 2]
-    site: 'tf-docs'
-    url: 'materials/pulverized-obsidian/'
-  dust-platinum:
-    name: 'Pulverized Platinum'
-    sprite: [10, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-platinum/'
-  dust-pyrotheum:
-    name: 'Pyrotheum Dust'
-    animated: true
-    site: 'tf-docs'
-    url: 'materials/pyrotheum-dust/'
-  dust-signalum:
-    name: 'Signalum Blend'
-    sprite: [11, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/signalum-blend/'
-  dust-silver:
-    name: 'Pulverized Silver'
-    sprite: [12, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-silver/'
-  dust-steel:
-    name: 'Steel Blend'
-    sprite: [13, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/steel-blend/'
-  dust-tin:
-    name: 'Pulverized Tin'
-    sprite: [14, 3]
-    site: 'tf-docs'
-    url: 'metal-dusts/pulverized-tin/'
-  ender-pearl:
-    name: 'Ender Pearl'
-    sprite: [12, 9]
-    site: 'mc-wiki'
-    url: 'Ender_Pearl'
-  eye-of-ender:
-    name: 'Eye of Ender'
-    sprite: [13, 9]
-    site: 'mc-wiki'
-    url: 'Eye_of_Ender'
-  filter-basic:
-    name: 'Filter'
-    sprite: [2, 9]
-    site: 'td-docs'
-    url: 'attachments/filters/'
-  filter-hardened:
-    name: 'Hardened Filter'
-    sprite: [3, 9]
-    site: 'td-docs'
-    url: 'attachments/filters/'
-  filter-reinforced:
-    name: 'Reinforced Filter'
-    sprite: [4, 9]
-    site: 'td-docs'
-    url: 'attachments/filters/'
-  filter-signalum:
-    name: 'Signalum Filter'
-    sprite: [5, 9]
-    site: 'td-docs'
-    url: 'attachments/filters/'
-  filter-resonant:
-    name: 'Resonant Filter'
-    sprite: [6, 9]
-    site: 'td-docs'
-    url: 'attachments/filters/'
-  flint:
-    name: 'Flint'
-    sprite: [9, 8]
-    site: 'mc-wiki'
-    url: 'Flint'
-  glass:
-    name: 'Glass'
-    sprite: [3, 11]
-    site: 'mc-wiki'
-    url: 'Glass'
-  gray-dye:
-    name: 'Gray Dye'
-    sprite: [8, 5]
-    site: 'mc-wiki'
-    url: 'Gray_Dye'
-  hardened-glass:
-    name: 'Hardened Glass'
-    sprite: [12, 1]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-aluminum-glass:
-    name: 'Hardened Aluminum Glass'
-    sprite: [0, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-bronze-glass:
-    name: 'Hardened Bronze Glass'
-    sprite: [8, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-constantan-glass:
-    name: 'Hardened Constantan Glass'
-    sprite: [9, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-copper-glass:
-    name: 'Hardened Copper Glass'
-    sprite: [13, 1]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-electrum-glass:
-    name: 'Hardened Electrum Glass'
-    sprite: [6, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-enderium-glass:
-    name: 'Hardened Enderium Glass'
-    sprite: [12, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-invar-glass:
-    name: 'Hardened Invar Glass'
-    sprite: [7, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-iridium-glass:
-    name: 'Hardened Iridium Glass'
-    sprite: [3, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-lumium-glass:
-    name: 'Hardened Lumium Glass'
-    sprite: [11, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-mithril-glass:
-    name: 'Hardened Mana Infused Glass'
-    sprite: [4, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-nickel-glass:
-    name: 'Hardened Nickel Glass'
-    sprite: [1, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-platinum-glass:
-    name: 'Hardened Platinum Glass'
-    sprite: [2, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-signalum-glass:
-    name: 'Hardened Signalum Glass'
-    sprite: [10, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-silver-glass:
-    name: 'Hardened Silver Glass'
-    sprite: [15, 1]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-steel-glass:
-    name: 'Hardened Steel Glass'
-    sprite: [5, 2]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  hardened-tin-glass:
-    name: 'Hardened Tin Glass'
-    sprite: [14, 1]
-    site: 'tf-docs'
-    url: 'blocks/hardened-glass/'
-  ingot-aluminum:
-    name: 'Aluminum Ingot'
-    sprite: [11, 0]
-    site: 'tf-docs'
-    url: 'ingots/aluminum-ingot/'
-  ingot-bronze:
-    name: 'Bronze Ingot'
-    sprite: [12, 0]
-    site: 'tf-docs'
-    url: 'ingots/bronze-ingot/'
-  ingot-constantan:
-    name: 'Constantan Ingot'
-    sprite: [13, 0]
-    site: 'tf-docs'
-    url: 'ingots/constantan-ingot/'
-  ingot-copper:
-    name: 'Copper Ingot'
-    sprite: [14, 0]
-    site: 'tf-docs'
-    url: 'ingots/copper-ingot/'
-  ingot-electrum:
-    name: 'Electrum Ingot'
-    sprite: [15, 0]
-    site: 'tf-docs'
-    url: 'ingots/electrum-ingot/'
-  ingot-enderium:
-    name: 'Enderium Ingot'
-    sprite: [0, 1]
-    site: 'tf-docs'
-    url: 'ingots/enderium-ingot/'
-  ingot-gold:
-    name: 'Gold Ingot'
-    sprite: [10, 8]
-    site: 'mc-wiki'
-    url: 'Gold_Ingot'
-  ingot-iron:
-    name: 'Iron Ingot'
-    sprite: [5, 8]
-    site: 'mc-wiki'
-    url: 'Iron_Ingot'
-  ingot-invar:
-    name: 'Invar Ingot'
-    sprite: [1, 1]
-    site: 'tf-docs'
-    url: 'ingots/invar-ingot/'
-  ingot-iridium:
-    name: 'Iridium Ingot'
-    sprite: [2, 1]
-    site: 'tf-docs'
-    url: 'ingots/iridium-ingot/'
-  ingot-lead:
-    name: 'Lead Ingot'
-    sprite: [3, 1]
-    site: 'tf-docs'
-    url: 'ingots/lead-ingot/'
-  ingot-lumium:
-    name: 'Lumium Ingot'
-    sprite: [4, 1]
-    site: 'tf-docs'
-    url: 'ingots/lumium-ingot/'
-  ingot-mithril:
-    name: 'Mana Infused Ingot'
-    sprite: [5, 1]
-    site: 'tf-docs'
-    url: 'ingots/mana-infused-ingot/'
-  ingot-nickel:
-    name: 'Nickel Ingot'
-    sprite: [6, 1]
-    site: 'tf-docs'
-    url: 'ingots/nickel-ingot/'
-  ingot-platinum:
-    name: 'Platinum Ingot'
-    sprite: [7, 1]
-    site: 'tf-docs'
-    url: 'ingots/platinum-ingot/'
-  ingot-signalum:
-    name: 'Signalum Ingot'
-    sprite: [8, 1]
-    site: 'tf-docs'
-    url: 'ingots/signalum-ingot/'
-  ingot-silver:
-    name: 'Silver Ingot'
-    sprite: [9, 1]
-    site: 'tf-docs'
-    url: 'ingots/silver-ingot/'
-  ingot-steel:
-    name: 'Steel Ingot'
-    sprite: [10, 1]
-    site: 'tf-docs'
-    url: 'ingots/steel-ingot/'
-  ingot-tin:
-    name: 'Tin Ingot'
-    sprite: [11, 1]
-    site: 'tf-docs'
-    url: 'ingots/tin-ingot/'
-  ink-sac:
-    name: 'Ink Sac'
-    sprite: [0, 5]
-    site: 'mc-wiki'
-    url: 'Ink_Sac'
-  lapis-lazuli:
-    name: 'Lapis Lazuli'
-    sprite: [4, 5]
-    site: 'mc-wiki'
-    url: 'Lapis_Lazuli'
-  light-blue-dye:
-    name: 'Light Blue Dye'
-    sprite: [12, 5]
-    site: 'mc-wiki'
-    url: 'Light_Blue_Dye'
-  light-gray-dye:
-    name: 'Light Gray Dye'
-    sprite: [7, 5]
-    site: 'mc-wiki'
-    url: 'Light_Gray_Dye'
-  lime-dye:
-    name: 'Lime Dye'
-    sprite: [10, 5]
-    site: 'mc-wiki'
-    url: 'Lime_Dye'
-  magenta-dye:
-    name: 'Magenta Dye'
-    sprite: [13, 5]
-    site: 'mc-wiki'
-    url: 'Magenta_Dye'
-  nugget-aluminum:
-    name: 'Aluminum Nugget'
-    sprite: [4, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/aluminum-nugget/'
-  nugget-bronze:
-    name: 'Bronze Nugget'
-    sprite: [12, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/bronze-nugget/'
-  nugget-constantan:
-    name: 'Constantan Nugget'
-    sprite: [13, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/constantan-nugget/'
-  nugget-copper:
-    name: 'Copper Nugget'
-    sprite: [0, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/copper-nugget/'
-  nugget-diamond:
-    name: 'Diamond Nugget'
-    sprite: [1, 11]
-    site: 'tf-docs'
-    url: 'materials/diamond-nugget/'
-  nugget-electrum:
-    name: 'Electrum Nugget'
-    sprite: [10, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/electrum-nugget/'
-  nugget-emerald:
-    name: 'Emerald Nugget'
-    sprite: [2, 11]
-    site: 'tf-docs'
-    url: 'materials/emerald-nugget/'
-  nugget-enderium:
-    name: 'Enderium Nugget'
-    sprite: [0, 11]
-    site: 'tf-docs'
-    url: 'metal-nuggets/enderium-nugget/'
-  nugget-gold:
-    name: 'Gold Nugget'
-    sprite: [15, 9]
-    site: 'mc-wiki'
-    url: 'Gold_Nugget'
-  nugget-invar:
-    name: 'Invar Nugget'
-    sprite: [11, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/invar-nugget/'
-  nugget-iridium:
-    name: 'Iridium Nugget'
-    sprite: [7, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/iridium-nugget/'
-  nugget-iron:
-    name: 'Iron Nugget'
-    sprite: [14, 9]
-    site: 'mc-wiki'
-    url: 'Iron_Nugget'
-  nugget-lead:
-    name: 'Lead Nugget'
-    sprite: [3, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/lead-nugget/'
-  nugget-lumium:
-    name: 'Lumium Nugget'
-    sprite: [15, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/lumium-nugget/'
-  nugget-mithril:
-    name: 'Mana Infused Nugget'
-    sprite: [8, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/mana-infused-nugget/'
-  nugget-nickel:
-    name: 'Nickel Nugget'
-    sprite: [5, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/nickel-nugget/'
-  nugget-platinum:
-    name: 'Platinum Nugget'
-    sprite: [6, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/platinum-nugget/'
-  nugget-signalum:
-    name: 'Signalum Nugget'
-    sprite: [14, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/signalum-nugget/'
-  nugget-silver:
-    name: 'Silver Nugget'
-    sprite: [2, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/silver-nugget/'
-  nugget-steel:
-    name: 'Steel Nugget'
-    sprite: [9, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/steel-nugget/'
-  nugget-tin:
-    name: 'Tin Nugget'
-    sprite: [1, 10]
-    site: 'tf-docs'
-    url: 'metal-nuggets/tin-nugget/'
-  oil-sand:
-    name: 'Oil Sand'
-    sprite: [10, 7]
-    site: 'tf-docs'
-    url: 'ores/oil-sand/'
-  oil-shale:
-    name: 'Oil Shale'
-    sprite: [11, 7]
-    site: 'tf-docs'
-    url: 'ores/oil-shale/'
-  orange-dye:
-    name: 'Orange Dye'
-    sprite: [14, 5]
-    site: 'mc-wiki'
-    url: 'Orange_Dye'
-  ore-aluminum:
-    name: 'Aluminum Ore'
-    sprite: [5, 7]
-    site: 'tf-docs'
-    url: 'ores/aluminum-ore/'
-  ore-copper:
-    name: 'Copper Ore'
-    sprite: [1, 7]
-    site: 'tf-docs'
-    url: 'ores/copper-ore/'
-  ore-fluid-ender:
-    name: 'Resonant End Stone'
-    sprite: [14, 7]
-    site: 'tf-docs'
-    url: 'ores/resonant-end-stone/'
-  ore-fluid-glowstone:
-    name: 'Energized Netherrack'
-    sprite: [13, 7]
-    site: 'tf-docs'
-    url: 'ores/energized-netherrack/'
-  ore-fluid-redstone:
-    name: 'Destabilized Redstone Ore'
-    sprite: [12, 7]
-    site: 'tf-docs'
-    url: 'ores/destabilized-redstone-ore/'
-  ore-iridium:
-    name: 'Iridium Ore'
-    sprite: [8, 7]
-    site: 'tf-docs'
-    url: 'ores/iridium-ore/'
-  ore-lead:
-    name: 'Lead Ore'
-    sprite: [4, 7]
-    site: 'tf-docs'
-    url: 'ores/lead-ore/'
-  ore-mithril:
-    name: 'Mana Infused Ore'
-    sprite: [9, 7]
-    site: 'tf-docs'
-    url: 'ores/mana-infused-ore/'
-  ore-nickel:
-    name: 'Nickel Ore'
-    sprite: [6, 7]
-    site: 'tf-docs'
-    url: 'ores/nickel-ore/'
-  ore-platinum:
-    name: 'Platinum Ore'
-    sprite: [7, 7]
-    site: 'tf-docs'
-    url: 'ores/platinum-ore/'
-  ore-silver:
-    name: 'Silver Ore'
-    sprite: [3, 7]
-    site: 'tf-docs'
-    url: 'ores/silver-ore/'
-  ore-tin:
-    name: 'Tin Ore'
-    sprite: [2, 7]
-    site: 'tf-docs'
-    url: 'ores/tin-ore/'
-  paper:
-    name: 'Paper'
-    sprite: [4, 11]
-    site: 'mc-wiki'
-    url: 'Paper'
-  pink-dye:
-    name: 'Pink Dye'
-    sprite: [9, 5]
-    site: 'mc-wiki'
-    url: 'Pink_Dye'
-  purple-dye:
-    name: 'Purple Dye'
-    sprite: [5, 5]
-    site: 'mc-wiki'
-    url: 'Purple_Dye'
-  red-sand:
-    name: 'Red Sand'
-    sprite: [7, 8]
-    site: 'mc-wiki'
-    url: 'Red_Sand'
-  redstone:
-    name: 'Redstone'
-    sprite: [7, 0]
-    site: 'mc-wiki'
-    url: 'Redstone'
-  retriever-basic:
-    name: 'Retriever'
-    sprite: [7, 9]
-    site: 'td-docs'
-    url: 'attachments/retrievers/'
-  retriever-hardened:
-    name: 'Hardened Retriever'
-    sprite: [8, 9]
-    site: 'td-docs'
-    url: 'attachments/retrievers/'
-  retriever-reinforced:
-    name: 'Reinforced Retriever'
-    sprite: [9, 9]
-    site: 'td-docs'
-    url: 'attachments/retrievers/'
-  retriever-signalum:
-    name: 'Signalum Retriever'
-    sprite: [10, 9]
-    site: 'td-docs'
-    url: 'attachments/retrievers/'
-  retriever-resonant:
-    name: 'Resonant Retriever'
-    sprite: [11, 9]
-    site: 'td-docs'
-    url: 'attachments/retrievers/'
-  rockwool-black:
-    name: 'Black Rockwool'
-    sprite: [0, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-blue:
-    name: 'Blue Rockwool'
-    sprite: [4, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-brown:
-    name: 'Brown Rockwool'
-    sprite: [3, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-cyan:
-    name: 'Cyan Rockwool'
-    sprite: [6, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-gray:
-    name: 'Gray Rockwool'
-    sprite: [8, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-green:
-    name: 'Green Rockwool'
-    sprite: [2, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-light-blue:
-    name: 'Light Blue Rockwool'
-    sprite: [12, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-light-gray:
-    name: 'Light Gray Rockwool'
-    sprite: [7, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-lime:
-    name: 'Lime Rockwool'
-    sprite: [10, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-magenta:
-    name: 'Magenta Rockwool'
-    sprite: [13, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-orange:
-    name: 'Orange Rockwool'
-    sprite: [14, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-pink:
-    name: 'Pink Rockwool'
-    sprite: [9, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-purple:
-    name: 'Purple Rockwool'
-    sprite: [5, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-red:
-    name: 'Red Rockwool'
-    sprite: [1, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-white:
-    name: 'White Rockwool'
-    sprite: [15, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rockwool-yellow:
-    name: 'Yellow Rockwool'
-    sprite: [11, 4]
-    site: 'tf-docs'
-    url: 'blocks/rockwool/'
-  rose-red:
-    name: 'Rose Red'
-    sprite: [1, 5]
-    site: 'mc-wiki'
-    url: 'Rose_Red'
-  sand:
-    name: 'Sand'
-    sprite: [6, 8]
-    site: 'mc-wiki'
-    url: 'Sand'
-  servo-basic:
-    name: 'Servo'
-    sprite: [13, 8]
-    site: 'td-docs'
-    url: 'attachments/servos/'
-  servo-hardened:
-    name: 'Hardened Servo'
-    sprite: [14, 8]
-    site: 'td-docs'
-    url: 'attachments/servos/'
-  servo-reinforced:
-    name: 'Reinforced Servo'
-    sprite: [15, 8]
-    site: 'td-docs'
-    url: 'attachments/servos/'
-  servo-signalum:
-    name: 'Signalum Servo'
-    sprite: [0, 9]
-    site: 'td-docs'
-    url: 'attachments/servos/'
-  servo-resonant:
-    name: 'Resonant Servo'
-    sprite: [1, 9]
-    site: 'td-docs'
-    url: 'attachments/servos/'
-  slag:
-    name: 'Slag'
-    sprite: [15, 3]
-    site: 'tf-docs'
-    url: 'materials/slag/'
-  slag-rich:
-    name: 'Rich Slag'
-    sprite: [15, 7]
-    site: 'tf-docs'
-    url: 'materials/rich-slag/'
-  storage-block-aluminum:
-    name: 'Aluminum Block'
-    sprite: [4, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/aluminum-block/'
-  storage-block-bronze:
-    name: 'Bronze Block'
-    sprite: [12, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/bronze-block/'
-  storage-block-constantan:
-    name: 'Constantan Block'
-    sprite: [13, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/constantan-block/'
-  storage-block-copper:
-    name: 'Copper Block'
-    sprite: [0, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/copper-block/'
-  storage-block-electrum:
-    name: 'Electrum Block'
-    sprite: [10, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/electrum-block/'
-  storage-block-enderium:
-    name: 'Enderium Block'
-    sprite: [0, 7]
-    site: 'tf-docs'
-    url: 'metal-blocks/enderium-block/'
-  storage-block-invar:
-    name: 'Invar Block'
-    sprite: [11, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/invar-block/'
-  storage-block-iridium:
-    name: 'Iridium Block'
-    sprite: [7, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/iridium-block/'
-  storage-block-lead:
-    name: 'Lead Block'
-    sprite: [3, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/lead-block/'
-  storage-block-lumium:
-    name: 'Lumium Block'
-    sprite: [15, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/lumium-block/'
-  storage-block-mithril:
-    name: 'Mana Infused Block'
-    sprite: [8, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/mana-infused-block/'
-  storage-block-nickel:
-    name: 'Nickel Block'
-    sprite: [5, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/nickel-block/'
-  storage-block-platinum:
-    name: 'Platinum Block'
-    sprite: [6, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/platinum-block/'
-  storage-block-signalum:
-    name: 'Signalum Block'
-    sprite: [14, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/signalum-block/'
-  storage-block-silver:
-    name: 'Silver Block'
-    sprite: [2, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/silver-block/'
-  storage-block-steel:
-    name: 'Steel Block'
-    sprite: [9, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/steel-block/'
-  storage-block-tin:
-    name: 'Tin Block'
-    sprite: [1, 6]
-    site: 'tf-docs'
-    url: 'metal-blocks/tin-block/'
-  sulfur:
-    name: 'Sulfur'
-    sprite: [10, 0]
-    site: 'tf-docs'
-    url: 'materials/sulfur/'
-  tar:
-    name: 'Tar'
-    sprite: [8, 8]
-    site: 'tf-docs'
-    url: 'materials/tar/'
-  wood-log-birch:
-    name: 'Birch Wood'
-    sprite: [0, 0]
-    site: 'mc-wiki'
-    url: 'Wood'
-  wood-log-oak:
-    name: 'Oak Wood'
-    sprite: [5, 0]
-    site: 'mc-wiki'
-    url: 'Wood'
-  wood-log-spruce:
-    name: 'Spruce Wood'
-    sprite: [8, 0]
-    site: 'mc-wiki'
-    url: 'Wood'
-  wood-planks-birch:
-    name: 'Birch Wood Planks'
-    sprite: [1, 0]
-    site: 'mc-wiki'
-    url: 'Wood_Planks'
-  wood-planks-oak:
-    name: 'Oak Wood Planks'
-    sprite: [6, 0]
-    site: 'mc-wiki'
-    url: 'Wood_Planks'
-  wood-planks-spruce:
-    name: 'Spruce Wood Planks'
-    sprite: [9, 0]
-    site: 'mc-wiki'
-    url: 'Wood_Planks'
-
-fluids:
-  crude-oil:
-    name: 'Crude Oil'
-    site: 'tf-docs'
-    url: 'fluids/crude-oil/'
-  ender:
-    name: 'Resonant Ender'
-    site: 'tf-docs'
-    url: 'fluids/resonant-ender/'
-  glowstone:
-    name: 'Energized Glowstone'
-    site: 'tf-docs'
-    url: 'fluids/energized-glowstone/'
-  redstone:
-    name: 'Destabilized Redstone'
-    site: 'tf-docs'
-    url: 'fluids/destabilized-redstone/'
-
-recipe-types:
-  crafting:
-    name: 'Crafting'
-    site: 'mc-wiki'
-    url: 'Crafting'
-  induction-smelter:
-    name: 'Induction Smelter'
-    site: 'te-docs'
-    url: 'machines/induction-smelter/'
-    with-energy: true
-  magma-crucible:
-    name: 'Magma Crucible'
-    site: 'te-docs'
-    url: 'machines/magma-crucible/'
-    with-energy: true
-  pulverizer:
-    name: 'Pulverizer'
-    site: 'te-docs'
-    url: 'machines/pulverizer/'
-    with-energy: true
-  redstone-furnace:
-    name: 'Redstone Furnace'
-    site: 'te-docs'
-    url: 'machines/redstone-furnace/'
-    with-energy: true
-  smelting:
-    name: 'Smelting'
-    site: 'mc-wiki'
-    url: 'Smelting'
-
-recipes:
-  aluminum-ore-induction-smelter-cinnabar:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-aluminum'
-        suffix: 'x3'
-      - item: 'ingot-iron'
-    ingredients:
-      - item: 'ore-aluminum'
-      - item: 'cinnabar'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['cinnabar']
-      secondary-input:
-        item: ['ore-aluminum']
-      primary-output:
-        item: ['ingot-aluminum']
-        amount: 3
-      secondary-output:
-        item: ['ingot-iron']
-        amount: 1
-      secondary-chance: 100
-  aluminum-ore-induction-smelter-rich-slag:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-aluminum'
-        suffix: 'x3'
-      - item: 'slag'
-    ingredients:
-      - item: 'ore-aluminum'
-      - item: 'slag-rich'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['slag-rich']
-      secondary-input:
-        item: ['ore-aluminum']
-      primary-output:
-        item: ['ingot-aluminum']
-        amount: 3
-      secondary-output:
-        item: ['slag']
-        amount: 1
-      secondary-chance: 75
-  aluminum-ore-induction-smelter-sand:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-aluminum'
-        suffix: 'x2'
-      - item: 'slag-rich'
-    ingredients:
-      - item: 'ore-aluminum'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['sand', 'red-sand']
-      secondary-input:
-        item: ['ore-aluminum']
-      primary-output:
-        item: ['ingot-aluminum']
-        amount: 2
-      secondary-output:
-        item: ['slag-rich']
-        amount: 1
-      secondary-chance: 5
-  aluminum-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'dust-aluminum'
-        suffix: 'x2'
-      - item: 'dust-iron'
-    ingredients:
-      - item: 'ore-aluminum'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-aluminum']
-      primary-output:
-        item: ['dust-aluminum']
-        amount: 2
-      secondary-output:
-        item: ['dust-iron']
-      secondary-chance: 10
-  aluminum-ore-redstone-furnace:
-    type: 'redstone-furnace'
-    results:
-      - item: 'ingot-aluminum'
-    ingredients:
-      - item: 'ore-aluminum'
-    energy: 2000
-    data:
-      input:
-        item: ['ore-aluminum']
-      output:
-        item: ['ingot-aluminum']
-  copper-ore-induction-smelter-cinnabar:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-copper'
-        suffix: 'x3'
-      - item: 'ingot-gold'
-    ingredients:
-      - item: 'ore-copper'
-      - item: 'cinnabar'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['cinnabar']
-      secondary-input:
-        item: ['ore-copper']
-      primary-output:
-        item: ['ingot-copper']
-        amount: 3
-      secondary-output:
-        item: ['ingot-gold']
-        amount: 1
-      secondary-chance: 100
-  copper-ore-induction-smelter-rich-slag:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-copper'
-        suffix: 'x3'
-      - item: 'slag'
-    ingredients:
-      - item: 'ore-copper'
-      - item: 'slag-rich'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['slag-rich']
-      secondary-input:
-        item: ['ore-copper']
-      primary-output:
-        item: ['ingot-copper']
-        amount: 3
-      secondary-output:
-        item: ['slag']
-        amount: 1
-      secondary-chance: 75
-  copper-ore-induction-smelter-sand:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-copper'
-        suffix: 'x2'
-      - item: 'slag-rich'
-    ingredients:
-      - item: 'ore-copper'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['sand', 'red-sand']
-      secondary-input:
-        item: ['ore-copper']
-      primary-output:
-        item: ['ingot-copper']
-        amount: 2
-      secondary-output:
-        item: ['slag-rich']
-        amount: 1
-      secondary-chance: 5
-  copper-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'dust-copper'
-        suffix: 'x2'
-      - item: 'dust-gold'
-    ingredients:
-      - item: 'ore-copper'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-copper']
-      primary-output:
-        item: ['dust-copper']
-        amount: 2
-      secondary-output:
-        item: ['dust-gold']
-      secondary-chance: 10
-  copper-ore-smelting:
-    type: 'smelting'
-    results:
-      - item: 'ingot-copper'
-    ingredients:
-      - item: 'ore-copper'
-    data:
-      input:
-        item: ['ore-copper']
-      output:
-        item: ['ingot-copper']
-  destabilized-redstone-ore-magma-crucible:
-    type: 'magma-crucible'
-    results:
-      - fluid: 'redstone'
-        fluid-amount: 1000
-    ingredients:
-      - item: 'ore-fluid-redstone'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-fluid-redstone']
-      output:
-        fluid: 'redstone'
-        amount: 1000
-  destabilized-redstone-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'clathrate-redstone'
-      - item: 'cinnabar'
-    ingredients:
-      - item: 'ore-fluid-redstone'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-fluid-redstone']
-      primary-output:
-        item: ['clathrate-redstone']
-        amount: 3
-      secondary-output:
-        item: ['cinnabar']
-      secondary-chance: 50
-  energized-netherrack-magma-crucible:
-    type: 'magma-crucible'
-    results:
-      - fluid: 'glowstone'
-        fluid-amount: 1000
-    ingredients:
-      - item: 'ore-fluid-glowstone'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-fluid-glowstone']
-      output:
-        fluid: 'glowstone'
-        amount: 1000
-  energized-netherrack-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'clathrate-glowstone'
-      - item: 'sulfur'
-    ingredients:
-      - item: 'ore-fluid-glowstone'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-fluid-glowstone']
-      primary-output:
-        item: ['clathrate-glowstone']
-        amount: 3
-      secondary-output:
-        item: ['sulfur']
-      secondary-chance: 30
-  filter-basic:
-    type: 'crafting'
-    results:
-      - item: 'filter-basic'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-iron'
-      - item: 'glass'
-      - item: 'paper'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-iron'], item: ['paper'], item: ['ingot-iron']]
-      result:
-        item: ['filter-basic']
-        amount: 1
-  filter-hardened:
-    type: 'crafting'
-    results:
-      - item: 'filter-hardened'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-invar'
-      - item: 'glass'
-      - item: 'paper'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-invar'], item: ['paper'], item: ['ingot-invar']]
-      result:
-        item: ['filter-hardened']
-        amount: 1
-  filter-reinforced:
-    type: 'crafting'
-    results:
-      - item: 'filter-reinforced'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-electrum'
-      - item: 'glass'
-      - item: 'paper'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-electrum'], item: ['paper'], item: ['ingot-electrum']]
-      result:
-        item: ['filter-reinforced']
-        amount: 1
-  filter-signalum:
-    type: 'crafting'
-    results:
-      - item: 'filter-signalum'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-signalum'
-      - item: 'glass'
-      - item: 'paper'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-signalum'], item: ['paper'], item: ['ingot-signalum']]
-      result:
-        item: ['filter-signalum']
-        amount: 1
-  filter-resonant:
-    type: 'crafting'
-    results:
-      - item: 'filter-resonant'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-enderium'
-      - item: 'glass'
-      - item: 'paper'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-enderium'], item: ['paper'], item: ['ingot-enderium']]
-      result:
-        item: ['filter-resonant']
-        amount: 1
-  hardened-glass:
-    type: 'induction-smelter'
-    results:
-      - item: 'hardened-glass'
-    ingredients:
-      - html: >
-          <a href="/docs/thermal-foundation/ingots/lead-ingot/">Lead Ingot</a> or<br />
-          <a href="/docs/thermal-foundation/metal-dusts/pulverized-lead/">Pulverized Lead</a>
-      - item: 'dust-obsidian'
-    energy: 4000
-    data:
-      primary-input:
-        item:
-          - 'ingot-lead'
-          - 'dust-lead'
-        amount: 1
-      secondary-input:
-        item: ['dust-obsidian']
-        amount: 4
-      primary-output:
-        item: ['hardened-glass']
-        amount: 2
-  hardened-glass-variants:
-    type: 'induction-smelter'
-    results:
-      - html: '<a href="/docs/thermal-foundation/blocks/hardened-glass/">Hardened Glass</a> variants'
-    ingredients:
-      - item: 'hardened-glass'
-      - html: 'metal or alloy dust'
-    energy: 6000
-    data:
-      primary-input:
-        item: ['hardened-glass']
-        amount: 2
-      secondary-input:
-        item:
-          - 'dust-copper'
-          - 'dust-tin'
-          - 'dust-silver'
-          - 'dust-aluminum'
-          - 'dust-nickel'
-          - 'dust-platinum'
-          - 'dust-iridium'
-          - 'dust-steel'
-          - 'dust-electrum'
-          - 'dust-invar'
-          - 'dust-bronze'
-          - 'dust-constantan'
-          - 'dust-signalum'
-          - 'dust-lumium'
-          - 'dust-enderium'
-        amount: 1
-      primary-output:
-        item:
-          - 'hardened-copper-glass'
-          - 'hardened-tin-glass'
-          - 'hardened-silver-glass'
-          - 'hardened-aluminum-glass'
-          - 'hardened-nickel-glass'
-          - 'hardened-platinum-glass'
-          - 'hardened-iridium-glass'
-          - 'hardened-steel-glass'
-          - 'hardened-electrum-glass'
-          - 'hardened-invar-glass'
-          - 'hardened-bronze-glass'
-          - 'hardened-constantan-glass'
-          - 'hardened-signalum-glass'
-          - 'hardened-lumium-glass'
-          - 'hardened-enderium-glass'
-        amount: 2
-  iridium-ore-induction-smelter-cinnabar:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-iridium'
-        suffix: 'x3'
-      - item: 'ingot-platinum'
-    ingredients:
-      - item: 'ore-iridium'
-      - item: 'cinnabar'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['cinnabar']
-      secondary-input:
-        item: ['ore-iridium']
-      primary-output:
-        item: ['ingot-iridium']
-        amount: 3
-      secondary-output:
-        item: ['ingot-platinum']
-        amount: 1
-      secondary-chance: 100
-  iridium-ore-induction-smelter-rich-slag:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-iridium'
-        suffix: 'x3'
-      - item: 'slag'
-    ingredients:
-      - item: 'ore-iridium'
-      - item: 'slag-rich'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['slag-rich']
-      secondary-input:
-        item: ['ore-iridium']
-      primary-output:
-        item: ['ingot-iridium']
-        amount: 3
-      secondary-output:
-        item: ['slag']
-        amount: 1
-      secondary-chance: 75
-  iridium-ore-induction-smelter-sand:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-iridium'
-        suffix: 'x2'
-      - item: 'slag-rich'
-    ingredients:
-      - item: 'ore-iridium'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['sand', 'red-sand']
-      secondary-input:
-        item: ['ore-iridium']
-      primary-output:
-        item: ['ingot-iridium']
-        amount: 2
-      secondary-output:
-        item: ['slag-rich']
-        amount: 1
-      secondary-chance: 5
-  iridium-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'dust-iridium'
-        suffix: 'x2'
-      - item: 'dust-platinum'
-    ingredients:
-      - item: 'ore-iridium'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-iridium']
-      primary-output:
-        item: ['dust-iridium']
-        amount: 2
-      secondary-output:
-        item: ['dust-platinum']
-      secondary-chance: 10
-  lead-ore-induction-smelter-cinnabar:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-lead'
-        suffix: 'x3'
-      - item: 'ingot-silver'
-    ingredients:
-      - item: 'ore-lead'
-      - item: 'cinnabar'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['cinnabar']
-      secondary-input:
-        item: ['ore-lead']
-      primary-output:
-        item: ['ingot-lead']
-        amount: 3
-      secondary-output:
-        item: ['ingot-silver']
-        amount: 1
-      secondary-chance: 100
-  lead-ore-induction-smelter-rich-slag:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-lead'
-        suffix: 'x3'
-      - item: 'slag'
-    ingredients:
-      - item: 'ore-lead'
-      - item: 'slag-rich'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['slag-rich']
-      secondary-input:
-        item: ['ore-lead']
-      primary-output:
-        item: ['ingot-lead']
-        amount: 3
-      secondary-output:
-        item: ['slag']
-        amount: 1
-      secondary-chance: 75
-  lead-ore-induction-smelter-sand:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-lead'
-        suffix: 'x2'
-      - item: 'slag-rich'
-    ingredients:
-      - item: 'ore-lead'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['sand', 'red-sand']
-      secondary-input:
-        item: ['ore-lead']
-      primary-output:
-        item: ['ingot-lead']
-        amount: 2
-      secondary-output:
-        item: ['slag-rich']
-        amount: 1
-      secondary-chance: 5
-  lead-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'dust-lead'
-        suffix: 'x2'
-      - item: 'dust-silver'
-    ingredients:
-      - item: 'ore-lead'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-lead']
-      primary-output:
-        item: ['dust-lead']
-        amount: 2
-      secondary-output:
-        item: ['dust-silver']
-      secondary-chance: 10
-  lead-ore-smelting:
-    type: 'smelting'
-    results:
-      - item: 'ingot-lead'
-    ingredients:
-      - item: 'ore-lead'
-    data:
-      input:
-        item: ['ore-lead']
-      output:
-        item: ['ingot-lead']
-  mithril-ore-induction-smelter-cinnabar:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-mithril'
-        suffix: 'x3'
-      - item: 'ingot-gold'
-    ingredients:
-      - item: 'ore-mithril'
-      - item: 'cinnabar'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['cinnabar']
-      secondary-input:
-        item: ['ore-mithril']
-      primary-output:
-        item: ['ingot-mithril']
-        amount: 3
-      secondary-output:
-        item: ['ingot-gold']
-        amount: 1
-      secondary-chance: 100
-  mithril-ore-induction-smelter-rich-slag:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-mithril'
-        suffix: 'x3'
-      - item: 'slag'
-    ingredients:
-      - item: 'ore-mithril'
-      - item: 'slag-rich'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['slag-rich']
-      secondary-input:
-        item: ['ore-mithril']
-      primary-output:
-        item: ['ingot-mithril']
-        amount: 3
-      secondary-output:
-        item: ['slag']
-        amount: 1
-      secondary-chance: 75
-  mithril-ore-induction-smelter-sand:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-mithril'
-        suffix: 'x2'
-      - item: 'slag-rich'
-    ingredients:
-      - item: 'ore-mithril'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['sand', 'red-sand']
-      secondary-input:
-        item: ['ore-mithril']
-      primary-output:
-        item: ['ingot-mithril']
-        amount: 2
-      secondary-output:
-        item: ['slag-rich']
-        amount: 1
-      secondary-chance: 5
-  mithril-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'dust-mithril'
-        suffix: 'x2'
-      - item: 'dust-gold'
-    ingredients:
-      - item: 'ore-mithril'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-mithril']
-      primary-output:
-        item: ['dust-mithril']
-        amount: 2
-      secondary-output:
-        item: ['dust-gold']
-      secondary-chance: 10
-  nickel-ore-induction-smelter-cinnabar:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-nickel'
-        suffix: 'x3'
-      - item: 'ingot-platinum'
-    ingredients:
-      - item: 'ore-nickel'
-      - item: 'cinnabar'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['cinnabar']
-      secondary-input:
-        item: ['ore-nickel']
-      primary-output:
-        item: ['ingot-nickel']
-        amount: 3
-      secondary-output:
-        item: ['ingot-platinum']
-        amount: 1
-      secondary-chance: 100
-  nickel-ore-induction-smelter-rich-slag:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-nickel'
-        suffix: 'x3'
-      - item: 'slag'
-    ingredients:
-      - item: 'ore-nickel'
-      - item: 'slag-rich'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['slag-rich']
-      secondary-input:
-        item: ['ore-nickel']
-      primary-output:
-        item: ['ingot-nickel']
-        amount: 3
-      secondary-output:
-        item: ['slag']
-        amount: 1
-      secondary-chance: 75
-  nickel-ore-induction-smelter-sand:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-nickel'
-        suffix: 'x2'
-      - item: 'slag-rich'
-    ingredients:
-      - item: 'ore-nickel'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['sand', 'red-sand']
-      secondary-input:
-        item: ['ore-nickel']
-      primary-output:
-        item: ['ingot-nickel']
-        amount: 2
-      secondary-output:
-        item: ['slag-rich']
-        amount: 1
-      secondary-chance: 15
-  nickel-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'dust-nickel'
-        suffix: 'x2'
-      - item: 'dust-platinum'
-    ingredients:
-      - item: 'ore-nickel'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-nickel']
-      primary-output:
-        item: ['dust-nickel']
-        amount: 2
-      secondary-output:
-        item: ['dust-platinum']
-      secondary-chance: 10
-  nickel-ore-smelting:
-    type: 'smelting'
-    results:
-      - item: 'ingot-nickel'
-    ingredients:
-      - item: 'ore-nickel'
-    data:
-      input:
-        item: ['ore-nickel']
-      output:
-        item: ['ingot-nickel']
-  oil-sand-magma-crucible:
-    type: 'magma-crucible'
-    results:
-      - fluid: 'crude-oil'
-        fluid-amount: 1000
-    ingredients:
-      - item: 'oil-sand'
-    energy: 4000
-    data:
-      input:
-        item: ['oil-sand']
-      output:
-        fluid: 'crude-oil'
-        amount: 1000
-  oil-sand-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'bitumen'
-      - item: 'tar'
-    ingredients:
-      - item: 'oil-sand'
-    energy: 4000
-    data:
-      input:
-        item: ['oil-sand']
-      primary-output:
-        item: ['bitumen']
-        amount: 3
-      secondary-output:
-        item: ['tar']
-      secondary-chance: 50
-  oil-shale-magma-crucible:
-    type: 'magma-crucible'
-    results:
-      - fluid: 'crude-oil'
-        fluid-amount: 1000
-    ingredients:
-      - item: 'oil-shale'
-    energy: 4000
-    data:
-      input:
-        item: ['oil-shale']
-      output:
-        fluid: 'crude-oil'
-        amount: 1000
-  oil-shale-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'bitumen'
-      - item: 'flint'
-    ingredients:
-      - item: 'oil-shale'
-    energy: 4000
-    data:
-      input:
-        item: ['oil-shale']
-      primary-output:
-        item: ['bitumen']
-        amount: 3
-      secondary-output:
-        item: ['flint']
-      secondary-chance: 50
-  platinum-ore-induction-smelter-cinnabar:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-platinum'
-        suffix: 'x3'
-      - item: 'ingot-iridium'
-    ingredients:
-      - item: 'ore-platinum'
-      - item: 'cinnabar'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['cinnabar']
-      secondary-input:
-        item: ['ore-platinum']
-      primary-output:
-        item: ['ingot-platinum']
-        amount: 3
-      secondary-output:
-        item: ['ingot-iridium']
-        amount: 1
-      secondary-chance: 100
-  platinum-ore-induction-smelter-rich-slag:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-platinum'
-        suffix: 'x3'
-      - item: 'slag'
-    ingredients:
-      - item: 'ore-platinum'
-      - item: 'slag-rich'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['slag-rich']
-      secondary-input:
-        item: ['ore-platinum']
-      primary-output:
-        item: ['ingot-platinum']
-        amount: 3
-      secondary-output:
-        item: ['slag']
-        amount: 1
-      secondary-chance: 75
-  platinum-ore-induction-smelter-sand:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-platinum'
-        suffix: 'x2'
-      - item: 'slag-rich'
-    ingredients:
-      - item: 'ore-platinum'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['sand', 'red-sand']
-      secondary-input:
-        item: ['ore-platinum']
-      primary-output:
-        item: ['ingot-platinum']
-        amount: 2
-      secondary-output:
-        item: ['slag-rich']
-        amount: 1
-      secondary-chance: 5
-  platinum-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'dust-platinum'
-        suffix: 'x2'
-      - item: 'dust-iridium'
-    ingredients:
-      - item: 'ore-platinum'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-platinum']
-      primary-output:
-        item: ['dust-platinum']
-        amount: 2
-      secondary-output:
-        item: ['dust-iridium']
-      secondary-chance: 10
-  platinum-ore-smelting:
-    type: 'smelting'
-    results:
-      - item: 'ingot-platinum'
-    ingredients:
-      - item: 'ore-platinum'
-    data:
-      input:
-        item: ['ore-platinum']
-      output:
-        item: ['ingot-platinum']
-  resonant-end-stone-magma-crucible:
-    type: 'magma-crucible'
-    results:
-      - fluid: 'ender'
-        fluid-amount: 1000
-    ingredients:
-      - item: 'ore-fluid-ender'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-fluid-ender']
-      output:
-        fluid: 'ender'
-        amount: 1000
-  resonant-end-stone-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'clathrate-ender'
-    ingredients:
-      - item: 'ore-fluid-ender'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-fluid-ender']
-      primary-output:
-        item: ['clathrate-ender']
-        amount: 3
-  retriever-basic:
-    type: 'crafting'
-    results:
-      - item: 'retriever-basic'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-iron'
-      - item: 'glass'
-      - item: 'eye-of-ender'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-iron'], item: ['eye-of-ender'], item: ['ingot-iron']]
-      result:
-        item: ['retriever-basic']
-        amount: 1
-  retriever-hardened:
-    type: 'crafting'
-    results:
-      - item: 'retriever-hardened'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-invar'
-      - item: 'glass'
-      - item: 'eye-of-ender'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-invar'], item: ['eye-of-ender'], item: ['ingot-invar']]
-      result:
-        item: ['retriever-hardened']
-        amount: 1
-  retriever-reinforced:
-    type: 'crafting'
-    results:
-      - item: 'retriever-reinforced'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-electrum'
-      - item: 'glass'
-      - item: 'eye-of-ender'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-electrum'], item: ['eye-of-ender'], item: ['ingot-electrum']]
-      result:
-        item: ['retriever-reinforced']
-        amount: 1
-  retriever-signalum:
-    type: 'crafting'
-    results:
-      - item: 'retriever-signalum'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-signalum'
-      - item: 'glass'
-      - item: 'eye-of-ender'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-signalum'], item: ['eye-of-ender'], item: ['ingot-signalum']]
-      result:
-        item: ['retriever-signalum']
-        amount: 1
-  retriever-resonant:
-    type: 'crafting'
-    results:
-      - item: 'retriever-resonant'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-enderium'
-      - item: 'glass'
-      - item: 'eye-of-ender'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-enderium'], item: ['eye-of-ender'], item: ['ingot-enderium']]
-      result:
-        item: ['retriever-resonant']
-        amount: 1
-  rockwool:
-    type: 'smelting'
-    results:
-      - item: 'rockwool-light-gray'
-    ingredients:
-      - item: 'slag'
-    data:
-      input:
-        item: ['slag']
-      output:
-        item: ['rockwool-light-gray']
-  rockwool-dyeing:
-    type: 'crafting'
-    results:
-      - html: 'Dyed <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
-    ingredients:
-      - html: 'Any color <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Dye">Dye</a>'
-    data:
-      shapeless: true
-      rows:
-        - - random: true
-            item: &rockwools
-              - 'rockwool-black'
-              - 'rockwool-red'
-              - 'rockwool-green'
-              - 'rockwool-brown'
-              - 'rockwool-blue'
-              - 'rockwool-purple'
-              - 'rockwool-cyan'
-              - 'rockwool-light-gray'
-              - 'rockwool-gray'
-              - 'rockwool-pink'
-              - 'rockwool-lime'
-              - 'rockwool-yellow'
-              - 'rockwool-light-blue'
-              - 'rockwool-magenta'
-              - 'rockwool-orange'
-              - 'rockwool-white'
-          - item: &dyes
-              - 'ink-sac'
-              - 'rose-red'
-              - 'cactus-green'
-              - 'cocoa-beans'
-              - 'lapis-lazuli'
-              - 'purple-dye'
-              - 'cyan-dye'
-              - 'light-gray-dye'
-              - 'gray-dye'
-              - 'pink-dye'
-              - 'lime-dye'
-              - 'dandelion-yellow'
-              - 'light-blue-dye'
-              - 'magenta-dye'
-              - 'orange-dye'
-              - 'bone-meal'
-      result:
-        item: *rockwools
-        amount: 1
-  servo-basic:
-    type: 'crafting'
-    results:
-      - item: 'servo-basic'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-iron'
-      - item: 'glass'
-      - item: 'redstone'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-iron'], item: ['redstone'], item: ['ingot-iron']]
-      result:
-        item: ['servo-basic']
-        amount: 1
-  servo-hardened:
-    type: 'crafting'
-    results:
-      - item: 'servo-hardened'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-invar'
-      - item: 'glass'
-      - item: 'redstone'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-invar'], item: ['redstone'], item: ['ingot-invar']]
-      result:
-        item: ['servo-hardened']
-        amount: 1
-  servo-reinforced:
-    type: 'crafting'
-    results:
-      - item: 'servo-reinforced'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-electrum'
-      - item: 'glass'
-      - item: 'redstone'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-electrum'], item: ['redstone'], item: ['ingot-electrum']]
-      result:
-        item: ['servo-reinforced']
-        amount: 1
-  servo-signalum:
-    type: 'crafting'
-    results:
-      - item: 'servo-signalum'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-signalum'
-      - item: 'glass'
-      - item: 'redstone'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-signalum'], item: ['redstone'], item: ['ingot-signalum']]
-      result:
-        item: ['servo-signalum']
-        amount: 1
-  servo-resonant:
-    type: 'crafting'
-    results:
-      - item: 'servo-resonant'
-    ingredients:
-      - item: 'nugget-iron'
-      - item: 'ingot-enderium'
-      - item: 'glass'
-      - item: 'redstone'
-    data:
-      shapeless: false
-      rows:
-        - [item: ['nugget-iron'], item: ['glass'], item: ['nugget-iron']]
-        - [item: ['ingot-enderium'], item: ['redstone'], item: ['ingot-enderium']]
-      result:
-        item: ['servo-resonant']
-        amount: 1
-  silver-ore-induction-smelter-cinnabar:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-silver'
-        suffix: 'x3'
-      - item: 'ingot-lead'
-    ingredients:
-      - item: 'ore-silver'
-      - item: 'cinnabar'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['cinnabar']
-      secondary-input:
-        item: ['ore-silver']
-      primary-output:
-        item: ['ingot-silver']
-        amount: 3
-      secondary-output:
-        item: ['ingot-lead']
-        amount: 1
-      secondary-chance: 100
-  silver-ore-induction-smelter-rich-slag:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-silver'
-        suffix: 'x3'
-      - item: 'slag'
-    ingredients:
-      - item: 'ore-silver'
-      - item: 'slag-rich'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['slag-rich']
-      secondary-input:
-        item: ['ore-silver']
-      primary-output:
-        item: ['ingot-silver']
-        amount: 3
-      secondary-output:
-        item: ['slag']
-        amount: 1
-      secondary-chance: 75
-  silver-ore-induction-smelter-sand:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-silver'
-        suffix: 'x2'
-      - item: 'slag-rich'
-    ingredients:
-      - item: 'ore-silver'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['sand', 'red-sand']
-      secondary-input:
-        item: ['ore-silver']
-      primary-output:
-        item: ['ingot-silver']
-        amount: 2
-      secondary-output:
-        item: ['slag-rich']
-        amount: 1
-      secondary-chance: 5
-  silver-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'dust-silver'
-        suffix: 'x2'
-      - item: 'dust-lead'
-    ingredients:
-      - item: 'ore-silver'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-silver']
-      primary-output:
-        item: ['dust-silver']
-        amount: 2
-      secondary-output:
-        item: ['dust-lead']
-      secondary-chance: 10
-  silver-ore-smelting:
-    type: 'smelting'
-    results:
-      - item: 'ingot-silver'
-    ingredients:
-      - item: 'ore-silver'
-    data:
-      input:
-        item: ['ore-silver']
-      output:
-        item: ['ingot-silver']
-  tin-ore-induction-smelter-cinnabar:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-tin'
-        suffix: 'x3'
-      - item: 'ingot-iron'
-    ingredients:
-      - item: 'ore-tin'
-      - item: 'cinnabar'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['cinnabar']
-      secondary-input:
-        item: ['ore-tin']
-      primary-output:
-        item: ['ingot-tin']
-        amount: 3
-      secondary-output:
-        item: ['ingot-iron']
-        amount: 1
-      secondary-chance: 100
-  tin-ore-induction-smelter-rich-slag:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-tin'
-        suffix: 'x3'
-      - item: 'slag'
-    ingredients:
-      - item: 'ore-tin'
-      - item: 'slag-rich'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['slag-rich']
-      secondary-input:
-        item: ['ore-tin']
-      primary-output:
-        item: ['ingot-tin']
-        amount: 3
-      secondary-output:
-        item: ['slag']
-        amount: 1
-      secondary-chance: 75
-  tin-ore-induction-smelter-sand:
-    type: 'induction-smelter'
-    results:
-      - item: 'ingot-tin'
-        suffix: 'x2'
-      - item: 'slag-rich'
-    ingredients:
-      - item: 'ore-tin'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
-    energy: 4000
-    data:
-      primary-input:
-        item: ['sand', 'red-sand']
-      secondary-input:
-        item: ['ore-tin']
-      primary-output:
-        item: ['ingot-tin']
-        amount: 2
-      secondary-output:
-        item: ['slag-rich']
-        amount: 1
-      secondary-chance: 5
-  tin-ore-pulverizer:
-    type: 'pulverizer'
-    results:
-      - item: 'dust-tin'
-        suffix: 'x2'
-      - item: 'dust-iron'
-    ingredients:
-      - item: 'ore-tin'
-    energy: 4000
-    data:
-      input:
-        item: ['ore-tin']
-      primary-output:
-        item: ['dust-tin']
-        amount: 2
-      secondary-output:
-        item: ['dust-iron']
-      secondary-chance: 10
-  tin-ore-smelting:
-    type: 'smelting'
-    results:
-      - item: 'ingot-tin'
-    ingredients:
-      - item: 'ore-tin'
-    data:
-      input:
-        item: ['ore-tin']
-      output:
-        item: ['ingot-tin']
+aluminum-ore-induction-smelter-cinnabar:
+  type: induction-smelter
+  results:
+    - item: ingot-aluminum
+      suffix: x3
+    - item: ingot-iron
+  ingredients:
+    - item: ore-aluminum
+    - item: cinnabar
+  energy: 4000
+  data:
+    primary-input:
+      item: [cinnabar]
+    secondary-input:
+      item: [ore-aluminum]
+    primary-output:
+      item: [ingot-aluminum]
+      amount: 3
+    secondary-output:
+      item: [ingot-iron]
+      amount: 1
+    secondary-chance: 100
+aluminum-ore-induction-smelter-rich-slag:
+  type: induction-smelter
+  results:
+    - item: ingot-aluminum
+      suffix: x3
+    - item: slag
+  ingredients:
+    - item: ore-aluminum
+    - item: slag-rich
+  energy: 4000
+  data:
+    primary-input:
+      item: [slag-rich]
+    secondary-input:
+      item: [ore-aluminum]
+    primary-output:
+      item: [ingot-aluminum]
+      amount: 3
+    secondary-output:
+      item: [slag]
+      amount: 1
+    secondary-chance: 75
+aluminum-ore-induction-smelter-sand:
+  type: induction-smelter
+  results:
+    - item: ingot-aluminum
+      suffix: x2
+    - item: slag-rich
+  ingredients:
+    - item: ore-aluminum
+    - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+  energy: 4000
+  data:
+    primary-input:
+      item: [sand, red-sand]
+    secondary-input:
+      item: [ore-aluminum]
+    primary-output:
+      item: [ingot-aluminum]
+      amount: 2
+    secondary-output:
+      item: [slag-rich]
+      amount: 1
+    secondary-chance: 5
+aluminum-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: dust-aluminum
+      suffix: x2
+    - item: dust-iron
+  ingredients:
+    - item: ore-aluminum
+  energy: 4000
+  data:
+    input:
+      item: [ore-aluminum]
+    primary-output:
+      item: [dust-aluminum]
+      amount: 2
+    secondary-output:
+      item: [dust-iron]
+    secondary-chance: 10
+aluminum-ore-redstone-furnace:
+  type: redstone-furnace
+  results:
+    - item: ingot-aluminum
+  ingredients:
+    - item: ore-aluminum
+  energy: 2000
+  data:
+    input:
+      item: [ore-aluminum]
+    output:
+      item: [ingot-aluminum]
+copper-ore-induction-smelter-cinnabar:
+  type: induction-smelter
+  results:
+    - item: ingot-copper
+      suffix: x3
+    - item: ingot-gold
+  ingredients:
+    - item: ore-copper
+    - item: cinnabar
+  energy: 4000
+  data:
+    primary-input:
+      item: [cinnabar]
+    secondary-input:
+      item: [ore-copper]
+    primary-output:
+      item: [ingot-copper]
+      amount: 3
+    secondary-output:
+      item: [ingot-gold]
+      amount: 1
+    secondary-chance: 100
+copper-ore-induction-smelter-rich-slag:
+  type: induction-smelter
+  results:
+    - item: ingot-copper
+      suffix: x3
+    - item: slag
+  ingredients:
+    - item: ore-copper
+    - item: slag-rich
+  energy: 4000
+  data:
+    primary-input:
+      item: [slag-rich]
+    secondary-input:
+      item: [ore-copper]
+    primary-output:
+      item: [ingot-copper]
+      amount: 3
+    secondary-output:
+      item: [slag]
+      amount: 1
+    secondary-chance: 75
+copper-ore-induction-smelter-sand:
+  type: induction-smelter
+  results:
+    - item: ingot-copper
+      suffix: x2
+    - item: slag-rich
+  ingredients:
+    - item: ore-copper
+    - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+  energy: 4000
+  data:
+    primary-input:
+      item: [sand, red-sand]
+    secondary-input:
+      item: [ore-copper]
+    primary-output:
+      item: [ingot-copper]
+      amount: 2
+    secondary-output:
+      item: [slag-rich]
+      amount: 1
+    secondary-chance: 5
+copper-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: dust-copper
+      suffix: x2
+    - item: dust-gold
+  ingredients:
+    - item: ore-copper
+  energy: 4000
+  data:
+    input:
+      item: [ore-copper]
+    primary-output:
+      item: [dust-copper]
+      amount: 2
+    secondary-output:
+      item: [dust-gold]
+    secondary-chance: 10
+copper-ore-smelting:
+  type: smelting
+  results:
+    - item: ingot-copper
+  ingredients:
+    - item: ore-copper
+  data:
+    input:
+      item: [ore-copper]
+    output:
+      item: [ingot-copper]
+destabilized-redstone-ore-magma-crucible:
+  type: magma-crucible
+  results:
+    - fluid: redstone
+      fluid-amount: 1000
+  ingredients:
+    - item: ore-fluid-redstone
+  energy: 4000
+  data:
+    input:
+      item: [ore-fluid-redstone]
+    output:
+      fluid: redstone
+      amount: 1000
+destabilized-redstone-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: clathrate-redstone
+    - item: cinnabar
+  ingredients:
+    - item: ore-fluid-redstone
+  energy: 4000
+  data:
+    input:
+      item: [ore-fluid-redstone]
+    primary-output:
+      item: [clathrate-redstone]
+      amount: 3
+    secondary-output:
+      item: [cinnabar]
+    secondary-chance: 50
+energized-netherrack-magma-crucible:
+  type: magma-crucible
+  results:
+    - fluid: glowstone
+      fluid-amount: 1000
+  ingredients:
+    - item: ore-fluid-glowstone
+  energy: 4000
+  data:
+    input:
+      item: [ore-fluid-glowstone]
+    output:
+      fluid: glowstone
+      amount: 1000
+energized-netherrack-pulverizer:
+  type: pulverizer
+  results:
+    - item: clathrate-glowstone
+    - item: sulfur
+  ingredients:
+    - item: ore-fluid-glowstone
+  energy: 4000
+  data:
+    input:
+      item: [ore-fluid-glowstone]
+    primary-output:
+      item: [clathrate-glowstone]
+      amount: 3
+    secondary-output:
+      item: [sulfur]
+    secondary-chance: 30
+filter-basic:
+  type: crafting
+  results:
+    - item: filter-basic
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-iron
+    - item: glass
+    - item: paper
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-iron], item: [paper], item: [ingot-iron]]
+    result:
+      item: [filter-basic]
+      amount: 1
+filter-hardened:
+  type: crafting
+  results:
+    - item: filter-hardened
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-invar
+    - item: glass
+    - item: paper
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-invar], item: [paper], item: [ingot-invar]]
+    result:
+      item: [filter-hardened]
+      amount: 1
+filter-reinforced:
+  type: crafting
+  results:
+    - item: filter-reinforced
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-electrum
+    - item: glass
+    - item: paper
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-electrum], item: [paper], item: [ingot-electrum]]
+    result:
+      item: [filter-reinforced]
+      amount: 1
+filter-signalum:
+  type: crafting
+  results:
+    - item: filter-signalum
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-signalum
+    - item: glass
+    - item: paper
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-signalum], item: [paper], item: [ingot-signalum]]
+    result:
+      item: [filter-signalum]
+      amount: 1
+filter-resonant:
+  type: crafting
+  results:
+    - item: filter-resonant
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-enderium
+    - item: glass
+    - item: paper
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-enderium], item: [paper], item: [ingot-enderium]]
+    result:
+      item: [filter-resonant]
+      amount: 1
+hardened-glass:
+  type: induction-smelter
+  results:
+    - item: hardened-glass
+  ingredients:
+    - html: >
+        <a href="/docs/thermal-foundation/ingots/lead-ingot/">Lead Ingot</a> or<br />
+        <a href="/docs/thermal-foundation/metal-dusts/pulverized-lead/">Pulverized Lead</a>
+    - item: dust-obsidian
+  energy: 4000
+  data:
+    primary-input:
+      item:
+        - ingot-lead
+        - dust-lead
+      amount: 1
+    secondary-input:
+      item: [dust-obsidian]
+      amount: 4
+    primary-output:
+      item: [hardened-glass]
+      amount: 2
+hardened-glass-variants:
+  type: induction-smelter
+  results:
+    - html: '<a href="/docs/thermal-foundation/blocks/hardened-glass/">Hardened Glass</a> variants'
+  ingredients:
+    - item: hardened-glass
+    - html: metal or alloy dust
+  energy: 6000
+  data:
+    primary-input:
+      item: [hardened-glass]
+      amount: 2
+    secondary-input:
+      item:
+        - dust-copper
+        - dust-tin
+        - dust-silver
+        - dust-aluminum
+        - dust-nickel
+        - dust-platinum
+        - dust-iridium
+        - dust-steel
+        - dust-electrum
+        - dust-invar
+        - dust-bronze
+        - dust-constantan
+        - dust-signalum
+        - dust-lumium
+        - dust-enderium
+      amount: 1
+    primary-output:
+      item:
+        - hardened-copper-glass
+        - hardened-tin-glass
+        - hardened-silver-glass
+        - hardened-aluminum-glass
+        - hardened-nickel-glass
+        - hardened-platinum-glass
+        - hardened-iridium-glass
+        - hardened-steel-glass
+        - hardened-electrum-glass
+        - hardened-invar-glass
+        - hardened-bronze-glass
+        - hardened-constantan-glass
+        - hardened-signalum-glass
+        - hardened-lumium-glass
+        - hardened-enderium-glass
+      amount: 2
+iridium-ore-induction-smelter-cinnabar:
+  type: induction-smelter
+  results:
+    - item: ingot-iridium
+      suffix: x3
+    - item: ingot-platinum
+  ingredients:
+    - item: ore-iridium
+    - item: cinnabar
+  energy: 4000
+  data:
+    primary-input:
+      item: [cinnabar]
+    secondary-input:
+      item: [ore-iridium]
+    primary-output:
+      item: [ingot-iridium]
+      amount: 3
+    secondary-output:
+      item: [ingot-platinum]
+      amount: 1
+    secondary-chance: 100
+iridium-ore-induction-smelter-rich-slag:
+  type: induction-smelter
+  results:
+    - item: ingot-iridium
+      suffix: x3
+    - item: slag
+  ingredients:
+    - item: ore-iridium
+    - item: slag-rich
+  energy: 4000
+  data:
+    primary-input:
+      item: [slag-rich]
+    secondary-input:
+      item: [ore-iridium]
+    primary-output:
+      item: [ingot-iridium]
+      amount: 3
+    secondary-output:
+      item: [slag]
+      amount: 1
+    secondary-chance: 75
+iridium-ore-induction-smelter-sand:
+  type: induction-smelter
+  results:
+    - item: ingot-iridium
+      suffix: x2
+    - item: slag-rich
+  ingredients:
+    - item: ore-iridium
+    - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+  energy: 4000
+  data:
+    primary-input:
+      item: [sand, red-sand]
+    secondary-input:
+      item: [ore-iridium]
+    primary-output:
+      item: [ingot-iridium]
+      amount: 2
+    secondary-output:
+      item: [slag-rich]
+      amount: 1
+    secondary-chance: 5
+iridium-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: dust-iridium
+      suffix: x2
+    - item: dust-platinum
+  ingredients:
+    - item: ore-iridium
+  energy: 4000
+  data:
+    input:
+      item: [ore-iridium]
+    primary-output:
+      item: [dust-iridium]
+      amount: 2
+    secondary-output:
+      item: [dust-platinum]
+    secondary-chance: 10
+lead-ore-induction-smelter-cinnabar:
+  type: induction-smelter
+  results:
+    - item: ingot-lead
+      suffix: x3
+    - item: ingot-silver
+  ingredients:
+    - item: ore-lead
+    - item: cinnabar
+  energy: 4000
+  data:
+    primary-input:
+      item: [cinnabar]
+    secondary-input:
+      item: [ore-lead]
+    primary-output:
+      item: [ingot-lead]
+      amount: 3
+    secondary-output:
+      item: [ingot-silver]
+      amount: 1
+    secondary-chance: 100
+lead-ore-induction-smelter-rich-slag:
+  type: induction-smelter
+  results:
+    - item: ingot-lead
+      suffix: x3
+    - item: slag
+  ingredients:
+    - item: ore-lead
+    - item: slag-rich
+  energy: 4000
+  data:
+    primary-input:
+      item: [slag-rich]
+    secondary-input:
+      item: [ore-lead]
+    primary-output:
+      item: [ingot-lead]
+      amount: 3
+    secondary-output:
+      item: [slag]
+      amount: 1
+    secondary-chance: 75
+lead-ore-induction-smelter-sand:
+  type: induction-smelter
+  results:
+    - item: ingot-lead
+      suffix: x2
+    - item: slag-rich
+  ingredients:
+    - item: ore-lead
+    - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+  energy: 4000
+  data:
+    primary-input:
+      item: [sand, red-sand]
+    secondary-input:
+      item: [ore-lead]
+    primary-output:
+      item: [ingot-lead]
+      amount: 2
+    secondary-output:
+      item: [slag-rich]
+      amount: 1
+    secondary-chance: 5
+lead-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: dust-lead
+      suffix: x2
+    - item: dust-silver
+  ingredients:
+    - item: ore-lead
+  energy: 4000
+  data:
+    input:
+      item: [ore-lead]
+    primary-output:
+      item: [dust-lead]
+      amount: 2
+    secondary-output:
+      item: [dust-silver]
+    secondary-chance: 10
+lead-ore-smelting:
+  type: smelting
+  results:
+    - item: ingot-lead
+  ingredients:
+    - item: ore-lead
+  data:
+    input:
+      item: [ore-lead]
+    output:
+      item: [ingot-lead]
+mithril-ore-induction-smelter-cinnabar:
+  type: induction-smelter
+  results:
+    - item: ingot-mithril
+      suffix: x3
+    - item: ingot-gold
+  ingredients:
+    - item: ore-mithril
+    - item: cinnabar
+  energy: 4000
+  data:
+    primary-input:
+      item: [cinnabar]
+    secondary-input:
+      item: [ore-mithril]
+    primary-output:
+      item: [ingot-mithril]
+      amount: 3
+    secondary-output:
+      item: [ingot-gold]
+      amount: 1
+    secondary-chance: 100
+mithril-ore-induction-smelter-rich-slag:
+  type: induction-smelter
+  results:
+    - item: ingot-mithril
+      suffix: x3
+    - item: slag
+  ingredients:
+    - item: ore-mithril
+    - item: slag-rich
+  energy: 4000
+  data:
+    primary-input:
+      item: [slag-rich]
+    secondary-input:
+      item: [ore-mithril]
+    primary-output:
+      item: [ingot-mithril]
+      amount: 3
+    secondary-output:
+      item: [slag]
+      amount: 1
+    secondary-chance: 75
+mithril-ore-induction-smelter-sand:
+  type: induction-smelter
+  results:
+    - item: ingot-mithril
+      suffix: x2
+    - item: slag-rich
+  ingredients:
+    - item: ore-mithril
+    - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+  energy: 4000
+  data:
+    primary-input:
+      item: [sand, red-sand]
+    secondary-input:
+      item: [ore-mithril]
+    primary-output:
+      item: [ingot-mithril]
+      amount: 2
+    secondary-output:
+      item: [slag-rich]
+      amount: 1
+    secondary-chance: 5
+mithril-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: dust-mithril
+      suffix: x2
+    - item: dust-gold
+  ingredients:
+    - item: ore-mithril
+  energy: 4000
+  data:
+    input:
+      item: [ore-mithril]
+    primary-output:
+      item: [dust-mithril]
+      amount: 2
+    secondary-output:
+      item: [dust-gold]
+    secondary-chance: 10
+nickel-ore-induction-smelter-cinnabar:
+  type: induction-smelter
+  results:
+    - item: ingot-nickel
+      suffix: x3
+    - item: ingot-platinum
+  ingredients:
+    - item: ore-nickel
+    - item: cinnabar
+  energy: 4000
+  data:
+    primary-input:
+      item: [cinnabar]
+    secondary-input:
+      item: [ore-nickel]
+    primary-output:
+      item: [ingot-nickel]
+      amount: 3
+    secondary-output:
+      item: [ingot-platinum]
+      amount: 1
+    secondary-chance: 100
+nickel-ore-induction-smelter-rich-slag:
+  type: induction-smelter
+  results:
+    - item: ingot-nickel
+      suffix: x3
+    - item: slag
+  ingredients:
+    - item: ore-nickel
+    - item: slag-rich
+  energy: 4000
+  data:
+    primary-input:
+      item: [slag-rich]
+    secondary-input:
+      item: [ore-nickel]
+    primary-output:
+      item: [ingot-nickel]
+      amount: 3
+    secondary-output:
+      item: [slag]
+      amount: 1
+    secondary-chance: 75
+nickel-ore-induction-smelter-sand:
+  type: induction-smelter
+  results:
+    - item: ingot-nickel
+      suffix: x2
+    - item: slag-rich
+  ingredients:
+    - item: ore-nickel
+    - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+  energy: 4000
+  data:
+    primary-input:
+      item: [sand, red-sand]
+    secondary-input:
+      item: [ore-nickel]
+    primary-output:
+      item: [ingot-nickel]
+      amount: 2
+    secondary-output:
+      item: [slag-rich]
+      amount: 1
+    secondary-chance: 15
+nickel-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: dust-nickel
+      suffix: x2
+    - item: dust-platinum
+  ingredients:
+    - item: ore-nickel
+  energy: 4000
+  data:
+    input:
+      item: [ore-nickel]
+    primary-output:
+      item: [dust-nickel]
+      amount: 2
+    secondary-output:
+      item: [dust-platinum]
+    secondary-chance: 10
+nickel-ore-smelting:
+  type: smelting
+  results:
+    - item: ingot-nickel
+  ingredients:
+    - item: ore-nickel
+  data:
+    input:
+      item: [ore-nickel]
+    output:
+      item: [ingot-nickel]
+oil-sand-magma-crucible:
+  type: magma-crucible
+  results:
+    - fluid: crude-oil
+      fluid-amount: 1000
+  ingredients:
+    - item: oil-sand
+  energy: 4000
+  data:
+    input:
+      item: [oil-sand]
+    output:
+      fluid: crude-oil
+      amount: 1000
+oil-sand-pulverizer:
+  type: pulverizer
+  results:
+    - item: bitumen
+    - item: tar
+  ingredients:
+    - item: oil-sand
+  energy: 4000
+  data:
+    input:
+      item: [oil-sand]
+    primary-output:
+      item: [bitumen]
+      amount: 3
+    secondary-output:
+      item: [tar]
+    secondary-chance: 50
+oil-shale-magma-crucible:
+  type: magma-crucible
+  results:
+    - fluid: crude-oil
+      fluid-amount: 1000
+  ingredients:
+    - item: oil-shale
+  energy: 4000
+  data:
+    input:
+      item: [oil-shale]
+    output:
+      fluid: crude-oil
+      amount: 1000
+oil-shale-pulverizer:
+  type: pulverizer
+  results:
+    - item: bitumen
+    - item: flint
+  ingredients:
+    - item: oil-shale
+  energy: 4000
+  data:
+    input:
+      item: [oil-shale]
+    primary-output:
+      item: [bitumen]
+      amount: 3
+    secondary-output:
+      item: [flint]
+    secondary-chance: 50
+platinum-ore-induction-smelter-cinnabar:
+  type: induction-smelter
+  results:
+    - item: ingot-platinum
+      suffix: x3
+    - item: ingot-iridium
+  ingredients:
+    - item: ore-platinum
+    - item: cinnabar
+  energy: 4000
+  data:
+    primary-input:
+      item: [cinnabar]
+    secondary-input:
+      item: [ore-platinum]
+    primary-output:
+      item: [ingot-platinum]
+      amount: 3
+    secondary-output:
+      item: [ingot-iridium]
+      amount: 1
+    secondary-chance: 100
+platinum-ore-induction-smelter-rich-slag:
+  type: induction-smelter
+  results:
+    - item: ingot-platinum
+      suffix: x3
+    - item: slag
+  ingredients:
+    - item: ore-platinum
+    - item: slag-rich
+  energy: 4000
+  data:
+    primary-input:
+      item: [slag-rich]
+    secondary-input:
+      item: [ore-platinum]
+    primary-output:
+      item: [ingot-platinum]
+      amount: 3
+    secondary-output:
+      item: [slag]
+      amount: 1
+    secondary-chance: 75
+platinum-ore-induction-smelter-sand:
+  type: induction-smelter
+  results:
+    - item: ingot-platinum
+      suffix: x2
+    - item: slag-rich
+  ingredients:
+    - item: ore-platinum
+    - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+  energy: 4000
+  data:
+    primary-input:
+      item: [sand, red-sand]
+    secondary-input:
+      item: [ore-platinum]
+    primary-output:
+      item: [ingot-platinum]
+      amount: 2
+    secondary-output:
+      item: [slag-rich]
+      amount: 1
+    secondary-chance: 5
+platinum-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: dust-platinum
+      suffix: x2
+    - item: dust-iridium
+  ingredients:
+    - item: ore-platinum
+  energy: 4000
+  data:
+    input:
+      item: [ore-platinum]
+    primary-output:
+      item: [dust-platinum]
+      amount: 2
+    secondary-output:
+      item: [dust-iridium]
+    secondary-chance: 10
+platinum-ore-smelting:
+  type: smelting
+  results:
+    - item: ingot-platinum
+  ingredients:
+    - item: ore-platinum
+  data:
+    input:
+      item: [ore-platinum]
+    output:
+      item: [ingot-platinum]
+resonant-end-stone-magma-crucible:
+  type: magma-crucible
+  results:
+    - fluid: ender
+      fluid-amount: 1000
+  ingredients:
+    - item: ore-fluid-ender
+  energy: 4000
+  data:
+    input:
+      item: [ore-fluid-ender]
+    output:
+      fluid: ender
+      amount: 1000
+resonant-end-stone-pulverizer:
+  type: pulverizer
+  results:
+    - item: clathrate-ender
+  ingredients:
+    - item: ore-fluid-ender
+  energy: 4000
+  data:
+    input:
+      item: [ore-fluid-ender]
+    primary-output:
+      item: [clathrate-ender]
+      amount: 3
+retriever-basic:
+  type: crafting
+  results:
+    - item: retriever-basic
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-iron
+    - item: glass
+    - item: eye-of-ender
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-iron], item: [eye-of-ender], item: [ingot-iron]]
+    result:
+      item: [retriever-basic]
+      amount: 1
+retriever-hardened:
+  type: crafting
+  results:
+    - item: retriever-hardened
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-invar
+    - item: glass
+    - item: eye-of-ender
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-invar], item: [eye-of-ender], item: [ingot-invar]]
+    result:
+      item: [retriever-hardened]
+      amount: 1
+retriever-reinforced:
+  type: crafting
+  results:
+    - item: retriever-reinforced
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-electrum
+    - item: glass
+    - item: eye-of-ender
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-electrum], item: [eye-of-ender], item: [ingot-electrum]]
+    result:
+      item: [retriever-reinforced]
+      amount: 1
+retriever-signalum:
+  type: crafting
+  results:
+    - item: retriever-signalum
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-signalum
+    - item: glass
+    - item: eye-of-ender
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-signalum], item: [eye-of-ender], item: [ingot-signalum]]
+    result:
+      item: [retriever-signalum]
+      amount: 1
+retriever-resonant:
+  type: crafting
+  results:
+    - item: retriever-resonant
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-enderium
+    - item: glass
+    - item: eye-of-ender
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-enderium], item: [eye-of-ender], item: [ingot-enderium]]
+    result:
+      item: [retriever-resonant]
+      amount: 1
+rockwool:
+  type: smelting
+  results:
+    - item: rockwool-light-gray
+  ingredients:
+    - item: slag
+  data:
+    input:
+      item: [slag]
+    output:
+      item: [rockwool-light-gray]
+rockwool-dyeing:
+  type: crafting
+  results:
+    - html: 'Dyed <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
+  ingredients:
+    - html: 'Any color <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
+    - html: 'any <a href="https://minecraft.gamepedia.com/Dye">Dye</a>'
+  data:
+    shapeless: true
+    rows:
+      - - random: true
+          item: &rockwools
+            - rockwool-black
+            - rockwool-red
+            - rockwool-green
+            - rockwool-brown
+            - rockwool-blue
+            - rockwool-purple
+            - rockwool-cyan
+            - rockwool-light-gray
+            - rockwool-gray
+            - rockwool-pink
+            - rockwool-lime
+            - rockwool-yellow
+            - rockwool-light-blue
+            - rockwool-magenta
+            - rockwool-orange
+            - rockwool-white
+        - item: &dyes
+            - ink-sac
+            - rose-red
+            - cactus-green
+            - cocoa-beans
+            - lapis-lazuli
+            - purple-dye
+            - cyan-dye
+            - light-gray-dye
+            - gray-dye
+            - pink-dye
+            - lime-dye
+            - dandelion-yellow
+            - light-blue-dye
+            - magenta-dye
+            - orange-dye
+            - bone-meal
+    result:
+      item: *rockwools
+      amount: 1
+servo-basic:
+  type: crafting
+  results:
+    - item: servo-basic
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-iron
+    - item: glass
+    - item: redstone
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+    result:
+      item: [servo-basic]
+      amount: 1
+servo-hardened:
+  type: crafting
+  results:
+    - item: servo-hardened
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-invar
+    - item: glass
+    - item: redstone
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-invar], item: [redstone], item: [ingot-invar]]
+    result:
+      item: [servo-hardened]
+      amount: 1
+servo-reinforced:
+  type: crafting
+  results:
+    - item: servo-reinforced
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-electrum
+    - item: glass
+    - item: redstone
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-electrum], item: [redstone], item: [ingot-electrum]]
+    result:
+      item: [servo-reinforced]
+      amount: 1
+servo-signalum:
+  type: crafting
+  results:
+    - item: servo-signalum
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-signalum
+    - item: glass
+    - item: redstone
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-signalum], item: [redstone], item: [ingot-signalum]]
+    result:
+      item: [servo-signalum]
+      amount: 1
+servo-resonant:
+  type: crafting
+  results:
+    - item: servo-resonant
+  ingredients:
+    - item: nugget-iron
+    - item: ingot-enderium
+    - item: glass
+    - item: redstone
+  data:
+    shapeless: false
+    rows:
+      - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
+      - [item: [ingot-enderium], item: [redstone], item: [ingot-enderium]]
+    result:
+      item: [servo-resonant]
+      amount: 1
+silver-ore-induction-smelter-cinnabar:
+  type: induction-smelter
+  results:
+    - item: ingot-silver
+      suffix: x3
+    - item: ingot-lead
+  ingredients:
+    - item: ore-silver
+    - item: cinnabar
+  energy: 4000
+  data:
+    primary-input:
+      item: [cinnabar]
+    secondary-input:
+      item: [ore-silver]
+    primary-output:
+      item: [ingot-silver]
+      amount: 3
+    secondary-output:
+      item: [ingot-lead]
+      amount: 1
+    secondary-chance: 100
+silver-ore-induction-smelter-rich-slag:
+  type: induction-smelter
+  results:
+    - item: ingot-silver
+      suffix: x3
+    - item: slag
+  ingredients:
+    - item: ore-silver
+    - item: slag-rich
+  energy: 4000
+  data:
+    primary-input:
+      item: [slag-rich]
+    secondary-input:
+      item: [ore-silver]
+    primary-output:
+      item: [ingot-silver]
+      amount: 3
+    secondary-output:
+      item: [slag]
+      amount: 1
+    secondary-chance: 75
+silver-ore-induction-smelter-sand:
+  type: induction-smelter
+  results:
+    - item: ingot-silver
+      suffix: x2
+    - item: slag-rich
+  ingredients:
+    - item: ore-silver
+    - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+  energy: 4000
+  data:
+    primary-input:
+      item: [sand, red-sand]
+    secondary-input:
+      item: [ore-silver]
+    primary-output:
+      item: [ingot-silver]
+      amount: 2
+    secondary-output:
+      item: [slag-rich]
+      amount: 1
+    secondary-chance: 5
+silver-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: dust-silver
+      suffix: x2
+    - item: dust-lead
+  ingredients:
+    - item: ore-silver
+  energy: 4000
+  data:
+    input:
+      item: [ore-silver]
+    primary-output:
+      item: [dust-silver]
+      amount: 2
+    secondary-output:
+      item: [dust-lead]
+    secondary-chance: 10
+silver-ore-smelting:
+  type: smelting
+  results:
+    - item: ingot-silver
+  ingredients:
+    - item: ore-silver
+  data:
+    input:
+      item: [ore-silver]
+    output:
+      item: [ingot-silver]
+tin-ore-induction-smelter-cinnabar:
+  type: induction-smelter
+  results:
+    - item: ingot-tin
+      suffix: x3
+    - item: ingot-iron
+  ingredients:
+    - item: ore-tin
+    - item: cinnabar
+  energy: 4000
+  data:
+    primary-input:
+      item: [cinnabar]
+    secondary-input:
+      item: [ore-tin]
+    primary-output:
+      item: [ingot-tin]
+      amount: 3
+    secondary-output:
+      item: [ingot-iron]
+      amount: 1
+    secondary-chance: 100
+tin-ore-induction-smelter-rich-slag:
+  type: induction-smelter
+  results:
+    - item: ingot-tin
+      suffix: x3
+    - item: slag
+  ingredients:
+    - item: ore-tin
+    - item: slag-rich
+  energy: 4000
+  data:
+    primary-input:
+      item: [slag-rich]
+    secondary-input:
+      item: [ore-tin]
+    primary-output:
+      item: [ingot-tin]
+      amount: 3
+    secondary-output:
+      item: [slag]
+      amount: 1
+    secondary-chance: 75
+tin-ore-induction-smelter-sand:
+  type: induction-smelter
+  results:
+    - item: ingot-tin
+      suffix: x2
+    - item: slag-rich
+  ingredients:
+    - item: ore-tin
+    - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+  energy: 4000
+  data:
+    primary-input:
+      item: [sand, red-sand]
+    secondary-input:
+      item: [ore-tin]
+    primary-output:
+      item: [ingot-tin]
+      amount: 2
+    secondary-output:
+      item: [slag-rich]
+      amount: 1
+    secondary-chance: 5
+tin-ore-pulverizer:
+  type: pulverizer
+  results:
+    - item: dust-tin
+      suffix: x2
+    - item: dust-iron
+  ingredients:
+    - item: ore-tin
+  energy: 4000
+  data:
+    input:
+      item: [ore-tin]
+    primary-output:
+      item: [dust-tin]
+      amount: 2
+    secondary-output:
+      item: [dust-iron]
+    secondary-chance: 10
+tin-ore-smelting:
+  type: smelting
+  results:
+    - item: ingot-tin
+  ingredients:
+    - item: ore-tin
+  data:
+    input:
+      item: [ore-tin]
+    output:
+      item: [ingot-tin]

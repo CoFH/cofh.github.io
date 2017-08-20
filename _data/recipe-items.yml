@@ -1,0 +1,910 @@
+bitumen:
+  name: Bitumen
+  sprite: [1, 8]
+  site: tf-docs
+  url: materials/bitumen/
+blaze-powder:
+  name: Blaze Powder
+  sprite: [2, 0]
+  site: mc-wiki
+  url: Blaze_Powder
+bone-meal:
+  name: Bone Meal
+  sprite: [15, 5]
+  site: mc-wiki
+  url: Bone_Meal
+cactus-green:
+  name: Cactus Green
+  sprite: [2, 5]
+  site: mc-wiki
+  url: Cactus_Green
+cinnabar:
+  name: Cinnabar
+  sprite: [0, 8]
+  site: tf-docs
+  url: materials/cinnabar/
+clathrate-ender:
+  name: Resonant Clathrate
+  sprite: [4, 8]
+  site: tf-docs
+  url: materials/resonant-clathrate/
+clathrate-glowstone:
+  name: Energized Clathrate
+  sprite: [3, 8]
+  site: tf-docs
+  url: materials/energized-clathrate/
+clathrate-redstone:
+  name: Destabilized Clathrate
+  sprite: [2, 8]
+  site: tf-docs
+  url: materials/destabilized-clathrate/
+cocoa-beans:
+  name: Cocoa Beans
+  sprite: [3, 5]
+  site: mc-wiki
+  url: Cocoa_Beans
+crafting-table:
+  name: Crafting Table
+  sprite: [4, 0]
+  site: mc-wiki
+  url: Crafting_Table
+cyan-dye:
+  name: Cyan Dye
+  sprite: [6, 5]
+  site: mc-wiki
+  url: Cyan_Dye
+dandelion-yellow:
+  name: Dandelion Yellow
+  sprite: [11, 5]
+  site: mc-wiki
+  url: Dandelion_Yellow
+dust-aluminum:
+  name: Pulverized Aluminum
+  sprite: [14, 2]
+  site: tf-docs
+  url: metal-dusts/pulverized-aluminum/
+dust-bronze:
+  name: Bronze Blend
+  sprite: [15, 2]
+  site: tf-docs
+  url: metal-dusts/bronze-blend/
+dust-coal:
+  name: Pulverized Coal
+  sprite: [3, 0]
+  site: tf-docs
+  url: materials/pulverized-coal/
+dust-constantan:
+  name: Constantan Blend
+  sprite: [0, 3]
+  site: tf-docs
+  url: metal-dusts/constantan-blend/
+dust-copper:
+  name: Pulverized Copper
+  sprite: [1, 3]
+  site: tf-docs
+  url: metal-dusts/pulverized-copper/
+dust-electrum:
+  name: Electrum Blend
+  sprite: [2, 3]
+  site: tf-docs
+  url: metal-dusts/electrum-blend/
+dust-enderium:
+  name: Enderium Blend
+  sprite: [3, 3]
+  site: tf-docs
+  url: metal-dusts/enderium-blend/
+dust-gold:
+  name: Pulverized Gold
+  sprite: [12, 8]
+  site: tf-docs
+  url: metal-dusts/pulverized-gold/
+dust-invar:
+  name: Invar Blend
+  sprite: [4, 3]
+  site: tf-docs
+  url: metal-dusts/invar-blend/
+dust-iridium:
+  name: Pulverized Iridium
+  sprite: [5, 3]
+  site: tf-docs
+  url: metal-dusts/pulverized-iridium/
+dust-iron:
+  name: Pulverized Iron
+  sprite: [11, 8]
+  site: tf-docs
+  url: metal-dusts/pulverized-iron/
+dust-lead:
+  name: Pulverized Lead
+  sprite: [6, 3]
+  site: tf-docs
+  url: metal-dusts/pulverized-lead/
+dust-lumium:
+  name: Lumium Blend
+  sprite: [7, 3]
+  site: tf-docs
+  url: metal-dusts/lumium-blend/
+dust-mithril:
+  name: Pulverized Mana Infused Metal
+  sprite: [8, 3]
+  site: tf-docs
+  url: metal-dusts/pulverized-mana-infused-metal/
+dust-nickel:
+  name: Pulverized Nickel
+  sprite: [9, 3]
+  site: tf-docs
+  url: metal-dusts/pulverized-nickel/
+dust-obsidian:
+  name: Pulverized Obsidian
+  sprite: [13, 2]
+  site: tf-docs
+  url: materials/pulverized-obsidian/
+dust-platinum:
+  name: Pulverized Platinum
+  sprite: [10, 3]
+  site: tf-docs
+  url: metal-dusts/pulverized-platinum/
+dust-pyrotheum:
+  name: Pyrotheum Dust
+  animated: true
+  site: tf-docs
+  url: materials/pyrotheum-dust/
+dust-signalum:
+  name: Signalum Blend
+  sprite: [11, 3]
+  site: tf-docs
+  url: metal-dusts/signalum-blend/
+dust-silver:
+  name: Pulverized Silver
+  sprite: [12, 3]
+  site: tf-docs
+  url: metal-dusts/pulverized-silver/
+dust-steel:
+  name: Steel Blend
+  sprite: [13, 3]
+  site: tf-docs
+  url: metal-dusts/steel-blend/
+dust-tin:
+  name: Pulverized Tin
+  sprite: [14, 3]
+  site: tf-docs
+  url: metal-dusts/pulverized-tin/
+ender-pearl:
+  name: Ender Pearl
+  sprite: [12, 9]
+  site: mc-wiki
+  url: Ender_Pearl
+eye-of-ender:
+  name: Eye of Ender
+  sprite: [13, 9]
+  site: mc-wiki
+  url: Eye_of_Ender
+filter-basic:
+  name: Filter
+  sprite: [2, 9]
+  site: td-docs
+  url: attachments/filters/
+filter-hardened:
+  name: Hardened Filter
+  sprite: [3, 9]
+  site: td-docs
+  url: attachments/filters/
+filter-reinforced:
+  name: Reinforced Filter
+  sprite: [4, 9]
+  site: td-docs
+  url: attachments/filters/
+filter-signalum:
+  name: Signalum Filter
+  sprite: [5, 9]
+  site: td-docs
+  url: attachments/filters/
+filter-resonant:
+  name: Resonant Filter
+  sprite: [6, 9]
+  site: td-docs
+  url: attachments/filters/
+flint:
+  name: Flint
+  sprite: [9, 8]
+  site: mc-wiki
+  url: Flint
+glass:
+  name: Glass
+  sprite: [3, 11]
+  site: mc-wiki
+  url: Glass
+gray-dye:
+  name: Gray Dye
+  sprite: [8, 5]
+  site: mc-wiki
+  url: Gray_Dye
+hardened-glass:
+  name: Hardened Glass
+  sprite: [12, 1]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-aluminum-glass:
+  name: Hardened Aluminum Glass
+  sprite: [0, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-bronze-glass:
+  name: Hardened Bronze Glass
+  sprite: [8, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-constantan-glass:
+  name: Hardened Constantan Glass
+  sprite: [9, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-copper-glass:
+  name: Hardened Copper Glass
+  sprite: [13, 1]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-electrum-glass:
+  name: Hardened Electrum Glass
+  sprite: [6, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-enderium-glass:
+  name: Hardened Enderium Glass
+  sprite: [12, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-invar-glass:
+  name: Hardened Invar Glass
+  sprite: [7, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-iridium-glass:
+  name: Hardened Iridium Glass
+  sprite: [3, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-lumium-glass:
+  name: Hardened Lumium Glass
+  sprite: [11, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-mithril-glass:
+  name: Hardened Mana Infused Glass
+  sprite: [4, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-nickel-glass:
+  name: Hardened Nickel Glass
+  sprite: [1, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-platinum-glass:
+  name: Hardened Platinum Glass
+  sprite: [2, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-signalum-glass:
+  name: Hardened Signalum Glass
+  sprite: [10, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-silver-glass:
+  name: Hardened Silver Glass
+  sprite: [15, 1]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-steel-glass:
+  name: Hardened Steel Glass
+  sprite: [5, 2]
+  site: tf-docs
+  url: blocks/hardened-glass/
+hardened-tin-glass:
+  name: Hardened Tin Glass
+  sprite: [14, 1]
+  site: tf-docs
+  url: blocks/hardened-glass/
+ingot-aluminum:
+  name: Aluminum Ingot
+  sprite: [11, 0]
+  site: tf-docs
+  url: ingots/aluminum-ingot/
+ingot-bronze:
+  name: Bronze Ingot
+  sprite: [12, 0]
+  site: tf-docs
+  url: ingots/bronze-ingot/
+ingot-constantan:
+  name: Constantan Ingot
+  sprite: [13, 0]
+  site: tf-docs
+  url: ingots/constantan-ingot/
+ingot-copper:
+  name: Copper Ingot
+  sprite: [14, 0]
+  site: tf-docs
+  url: ingots/copper-ingot/
+ingot-electrum:
+  name: Electrum Ingot
+  sprite: [15, 0]
+  site: tf-docs
+  url: ingots/electrum-ingot/
+ingot-enderium:
+  name: Enderium Ingot
+  sprite: [0, 1]
+  site: tf-docs
+  url: ingots/enderium-ingot/
+ingot-gold:
+  name: Gold Ingot
+  sprite: [10, 8]
+  site: mc-wiki
+  url: Gold_Ingot
+ingot-iron:
+  name: Iron Ingot
+  sprite: [5, 8]
+  site: mc-wiki
+  url: Iron_Ingot
+ingot-invar:
+  name: Invar Ingot
+  sprite: [1, 1]
+  site: tf-docs
+  url: ingots/invar-ingot/
+ingot-iridium:
+  name: Iridium Ingot
+  sprite: [2, 1]
+  site: tf-docs
+  url: ingots/iridium-ingot/
+ingot-lead:
+  name: Lead Ingot
+  sprite: [3, 1]
+  site: tf-docs
+  url: ingots/lead-ingot/
+ingot-lumium:
+  name: Lumium Ingot
+  sprite: [4, 1]
+  site: tf-docs
+  url: ingots/lumium-ingot/
+ingot-mithril:
+  name: Mana Infused Ingot
+  sprite: [5, 1]
+  site: tf-docs
+  url: ingots/mana-infused-ingot/
+ingot-nickel:
+  name: Nickel Ingot
+  sprite: [6, 1]
+  site: tf-docs
+  url: ingots/nickel-ingot/
+ingot-platinum:
+  name: Platinum Ingot
+  sprite: [7, 1]
+  site: tf-docs
+  url: ingots/platinum-ingot/
+ingot-signalum:
+  name: Signalum Ingot
+  sprite: [8, 1]
+  site: tf-docs
+  url: ingots/signalum-ingot/
+ingot-silver:
+  name: Silver Ingot
+  sprite: [9, 1]
+  site: tf-docs
+  url: ingots/silver-ingot/
+ingot-steel:
+  name: Steel Ingot
+  sprite: [10, 1]
+  site: tf-docs
+  url: ingots/steel-ingot/
+ingot-tin:
+  name: Tin Ingot
+  sprite: [11, 1]
+  site: tf-docs
+  url: ingots/tin-ingot/
+ink-sac:
+  name: Ink Sac
+  sprite: [0, 5]
+  site: mc-wiki
+  url: Ink_Sac
+lapis-lazuli:
+  name: Lapis Lazuli
+  sprite: [4, 5]
+  site: mc-wiki
+  url: Lapis_Lazuli
+light-blue-dye:
+  name: Light Blue Dye
+  sprite: [12, 5]
+  site: mc-wiki
+  url: Light_Blue_Dye
+light-gray-dye:
+  name: Light Gray Dye
+  sprite: [7, 5]
+  site: mc-wiki
+  url: Light_Gray_Dye
+lime-dye:
+  name: Lime Dye
+  sprite: [10, 5]
+  site: mc-wiki
+  url: Lime_Dye
+magenta-dye:
+  name: Magenta Dye
+  sprite: [13, 5]
+  site: mc-wiki
+  url: Magenta_Dye
+nugget-aluminum:
+  name: Aluminum Nugget
+  sprite: [4, 10]
+  site: tf-docs
+  url: metal-nuggets/aluminum-nugget/
+nugget-bronze:
+  name: Bronze Nugget
+  sprite: [12, 10]
+  site: tf-docs
+  url: metal-nuggets/bronze-nugget/
+nugget-constantan:
+  name: Constantan Nugget
+  sprite: [13, 10]
+  site: tf-docs
+  url: metal-nuggets/constantan-nugget/
+nugget-copper:
+  name: Copper Nugget
+  sprite: [0, 10]
+  site: tf-docs
+  url: metal-nuggets/copper-nugget/
+nugget-diamond:
+  name: Diamond Nugget
+  sprite: [1, 11]
+  site: tf-docs
+  url: materials/diamond-nugget/
+nugget-electrum:
+  name: Electrum Nugget
+  sprite: [10, 10]
+  site: tf-docs
+  url: metal-nuggets/electrum-nugget/
+nugget-emerald:
+  name: Emerald Nugget
+  sprite: [2, 11]
+  site: tf-docs
+  url: materials/emerald-nugget/
+nugget-enderium:
+  name: Enderium Nugget
+  sprite: [0, 11]
+  site: tf-docs
+  url: metal-nuggets/enderium-nugget/
+nugget-gold:
+  name: Gold Nugget
+  sprite: [15, 9]
+  site: mc-wiki
+  url: Gold_Nugget
+nugget-invar:
+  name: Invar Nugget
+  sprite: [11, 10]
+  site: tf-docs
+  url: metal-nuggets/invar-nugget/
+nugget-iridium:
+  name: Iridium Nugget
+  sprite: [7, 10]
+  site: tf-docs
+  url: metal-nuggets/iridium-nugget/
+nugget-iron:
+  name: Iron Nugget
+  sprite: [14, 9]
+  site: mc-wiki
+  url: Iron_Nugget
+nugget-lead:
+  name: Lead Nugget
+  sprite: [3, 10]
+  site: tf-docs
+  url: metal-nuggets/lead-nugget/
+nugget-lumium:
+  name: Lumium Nugget
+  sprite: [15, 10]
+  site: tf-docs
+  url: metal-nuggets/lumium-nugget/
+nugget-mithril:
+  name: Mana Infused Nugget
+  sprite: [8, 10]
+  site: tf-docs
+  url: metal-nuggets/mana-infused-nugget/
+nugget-nickel:
+  name: Nickel Nugget
+  sprite: [5, 10]
+  site: tf-docs
+  url: metal-nuggets/nickel-nugget/
+nugget-platinum:
+  name: Platinum Nugget
+  sprite: [6, 10]
+  site: tf-docs
+  url: metal-nuggets/platinum-nugget/
+nugget-signalum:
+  name: Signalum Nugget
+  sprite: [14, 10]
+  site: tf-docs
+  url: metal-nuggets/signalum-nugget/
+nugget-silver:
+  name: Silver Nugget
+  sprite: [2, 10]
+  site: tf-docs
+  url: metal-nuggets/silver-nugget/
+nugget-steel:
+  name: Steel Nugget
+  sprite: [9, 10]
+  site: tf-docs
+  url: metal-nuggets/steel-nugget/
+nugget-tin:
+  name: Tin Nugget
+  sprite: [1, 10]
+  site: tf-docs
+  url: metal-nuggets/tin-nugget/
+oil-sand:
+  name: Oil Sand
+  sprite: [10, 7]
+  site: tf-docs
+  url: ores/oil-sand/
+oil-shale:
+  name: Oil Shale
+  sprite: [11, 7]
+  site: tf-docs
+  url: ores/oil-shale/
+orange-dye:
+  name: Orange Dye
+  sprite: [14, 5]
+  site: mc-wiki
+  url: Orange_Dye
+ore-aluminum:
+  name: Aluminum Ore
+  sprite: [5, 7]
+  site: tf-docs
+  url: ores/aluminum-ore/
+ore-copper:
+  name: Copper Ore
+  sprite: [1, 7]
+  site: tf-docs
+  url: ores/copper-ore/
+ore-fluid-ender:
+  name: Resonant End Stone
+  sprite: [14, 7]
+  site: tf-docs
+  url: ores/resonant-end-stone/
+ore-fluid-glowstone:
+  name: Energized Netherrack
+  sprite: [13, 7]
+  site: tf-docs
+  url: ores/energized-netherrack/
+ore-fluid-redstone:
+  name: Destabilized Redstone Ore
+  sprite: [12, 7]
+  site: tf-docs
+  url: ores/destabilized-redstone-ore/
+ore-iridium:
+  name: Iridium Ore
+  sprite: [8, 7]
+  site: tf-docs
+  url: ores/iridium-ore/
+ore-lead:
+  name: Lead Ore
+  sprite: [4, 7]
+  site: tf-docs
+  url: ores/lead-ore/
+ore-mithril:
+  name: Mana Infused Ore
+  sprite: [9, 7]
+  site: tf-docs
+  url: ores/mana-infused-ore/
+ore-nickel:
+  name: Nickel Ore
+  sprite: [6, 7]
+  site: tf-docs
+  url: ores/nickel-ore/
+ore-platinum:
+  name: Platinum Ore
+  sprite: [7, 7]
+  site: tf-docs
+  url: ores/platinum-ore/
+ore-silver:
+  name: Silver Ore
+  sprite: [3, 7]
+  site: tf-docs
+  url: ores/silver-ore/
+ore-tin:
+  name: Tin Ore
+  sprite: [2, 7]
+  site: tf-docs
+  url: ores/tin-ore/
+paper:
+  name: Paper
+  sprite: [4, 11]
+  site: mc-wiki
+  url: Paper
+pink-dye:
+  name: Pink Dye
+  sprite: [9, 5]
+  site: mc-wiki
+  url: Pink_Dye
+purple-dye:
+  name: Purple Dye
+  sprite: [5, 5]
+  site: mc-wiki
+  url: Purple_Dye
+red-sand:
+  name: Red Sand
+  sprite: [7, 8]
+  site: mc-wiki
+  url: Red_Sand
+redstone:
+  name: Redstone
+  sprite: [7, 0]
+  site: mc-wiki
+  url: Redstone
+retriever-basic:
+  name: Retriever
+  sprite: [7, 9]
+  site: td-docs
+  url: attachments/retrievers/
+retriever-hardened:
+  name: Hardened Retriever
+  sprite: [8, 9]
+  site: td-docs
+  url: attachments/retrievers/
+retriever-reinforced:
+  name: Reinforced Retriever
+  sprite: [9, 9]
+  site: td-docs
+  url: attachments/retrievers/
+retriever-signalum:
+  name: Signalum Retriever
+  sprite: [10, 9]
+  site: td-docs
+  url: attachments/retrievers/
+retriever-resonant:
+  name: Resonant Retriever
+  sprite: [11, 9]
+  site: td-docs
+  url: attachments/retrievers/
+rockwool-black:
+  name: Black Rockwool
+  sprite: [0, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-blue:
+  name: Blue Rockwool
+  sprite: [4, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-brown:
+  name: Brown Rockwool
+  sprite: [3, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-cyan:
+  name: Cyan Rockwool
+  sprite: [6, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-gray:
+  name: Gray Rockwool
+  sprite: [8, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-green:
+  name: Green Rockwool
+  sprite: [2, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-light-blue:
+  name: Light Blue Rockwool
+  sprite: [12, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-light-gray:
+  name: Light Gray Rockwool
+  sprite: [7, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-lime:
+  name: Lime Rockwool
+  sprite: [10, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-magenta:
+  name: Magenta Rockwool
+  sprite: [13, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-orange:
+  name: Orange Rockwool
+  sprite: [14, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-pink:
+  name: Pink Rockwool
+  sprite: [9, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-purple:
+  name: Purple Rockwool
+  sprite: [5, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-red:
+  name: Red Rockwool
+  sprite: [1, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-white:
+  name: White Rockwool
+  sprite: [15, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rockwool-yellow:
+  name: Yellow Rockwool
+  sprite: [11, 4]
+  site: tf-docs
+  url: blocks/rockwool/
+rose-red:
+  name: Rose Red
+  sprite: [1, 5]
+  site: mc-wiki
+  url: Rose_Red
+sand:
+  name: Sand
+  sprite: [6, 8]
+  site: mc-wiki
+  url: Sand
+servo-basic:
+  name: Servo
+  sprite: [13, 8]
+  site: td-docs
+  url: attachments/servos/
+servo-hardened:
+  name: Hardened Servo
+  sprite: [14, 8]
+  site: td-docs
+  url: attachments/servos/
+servo-reinforced:
+  name: Reinforced Servo
+  sprite: [15, 8]
+  site: td-docs
+  url: attachments/servos/
+servo-signalum:
+  name: Signalum Servo
+  sprite: [0, 9]
+  site: td-docs
+  url: attachments/servos/
+servo-resonant:
+  name: Resonant Servo
+  sprite: [1, 9]
+  site: td-docs
+  url: attachments/servos/
+slag:
+  name: Slag
+  sprite: [15, 3]
+  site: tf-docs
+  url: materials/slag/
+slag-rich:
+  name: Rich Slag
+  sprite: [15, 7]
+  site: tf-docs
+  url: materials/rich-slag/
+storage-block-aluminum:
+  name: Aluminum Block
+  sprite: [4, 6]
+  site: tf-docs
+  url: metal-blocks/aluminum-block/
+storage-block-bronze:
+  name: Bronze Block
+  sprite: [12, 6]
+  site: tf-docs
+  url: metal-blocks/bronze-block/
+storage-block-constantan:
+  name: Constantan Block
+  sprite: [13, 6]
+  site: tf-docs
+  url: metal-blocks/constantan-block/
+storage-block-copper:
+  name: Copper Block
+  sprite: [0, 6]
+  site: tf-docs
+  url: metal-blocks/copper-block/
+storage-block-electrum:
+  name: Electrum Block
+  sprite: [10, 6]
+  site: tf-docs
+  url: metal-blocks/electrum-block/
+storage-block-enderium:
+  name: Enderium Block
+  sprite: [0, 7]
+  site: tf-docs
+  url: metal-blocks/enderium-block/
+storage-block-invar:
+  name: Invar Block
+  sprite: [11, 6]
+  site: tf-docs
+  url: metal-blocks/invar-block/
+storage-block-iridium:
+  name: Iridium Block
+  sprite: [7, 6]
+  site: tf-docs
+  url: metal-blocks/iridium-block/
+storage-block-lead:
+  name: Lead Block
+  sprite: [3, 6]
+  site: tf-docs
+  url: metal-blocks/lead-block/
+storage-block-lumium:
+  name: Lumium Block
+  sprite: [15, 6]
+  site: tf-docs
+  url: metal-blocks/lumium-block/
+storage-block-mithril:
+  name: Mana Infused Block
+  sprite: [8, 6]
+  site: tf-docs
+  url: metal-blocks/mana-infused-block/
+storage-block-nickel:
+  name: Nickel Block
+  sprite: [5, 6]
+  site: tf-docs
+  url: metal-blocks/nickel-block/
+storage-block-platinum:
+  name: Platinum Block
+  sprite: [6, 6]
+  site: tf-docs
+  url: metal-blocks/platinum-block/
+storage-block-signalum:
+  name: Signalum Block
+  sprite: [14, 6]
+  site: tf-docs
+  url: metal-blocks/signalum-block/
+storage-block-silver:
+  name: Silver Block
+  sprite: [2, 6]
+  site: tf-docs
+  url: metal-blocks/silver-block/
+storage-block-steel:
+  name: Steel Block
+  sprite: [9, 6]
+  site: tf-docs
+  url: metal-blocks/steel-block/
+storage-block-tin:
+  name: Tin Block
+  sprite: [1, 6]
+  site: tf-docs
+  url: metal-blocks/tin-block/
+sulfur:
+  name: Sulfur
+  sprite: [10, 0]
+  site: tf-docs
+  url: materials/sulfur/
+tar:
+  name: Tar
+  sprite: [8, 8]
+  site: tf-docs
+  url: materials/tar/
+wood-log-birch:
+  name: Birch Wood
+  sprite: [0, 0]
+  site: mc-wiki
+  url: Wood
+wood-log-oak:
+  name: Oak Wood
+  sprite: [5, 0]
+  site: mc-wiki
+  url: Wood
+wood-log-spruce:
+  name: Spruce Wood
+  sprite: [8, 0]
+  site: mc-wiki
+  url: Wood
+wood-planks-birch:
+  name: Birch Wood Planks
+  sprite: [1, 0]
+  site: mc-wiki
+  url: Wood_Planks
+wood-planks-oak:
+  name: Oak Wood Planks
+  sprite: [6, 0]
+  site: mc-wiki
+  url: Wood_Planks
+wood-planks-spruce:
+  name: Spruce Wood Planks
+  sprite: [9, 0]
+  site: mc-wiki
+  url: Wood_Planks

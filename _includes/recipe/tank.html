@@ -1,6 +1,6 @@
 {% assign fluid_name = include.data.fluid %}
-{% assign fluid_data = site.data.recipes.fluids[fluid_name] %}
-{% assign fluid_site = site.data.recipes.sites[fluid_data.site] %}
+{% assign fluid_data = site.data.recipe-fluids[fluid_name] %}
+{% assign fluid_site = site.data.recipe-sites[fluid_data.site] %}
 
 {% capture height %}{{include.data.amount | times: 100 | divided_by: include.size}}{% endcapture %}
 

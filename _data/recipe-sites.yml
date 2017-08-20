@@ -1,0 +1,8 @@
+mc-wiki:
+  url: https://minecraft.gamepedia.com/
+tf-docs:
+  url: /docs/thermal-foundation/
+te-docs:
+  url: /docs/thermal-expansion/
+td-docs:
+  url: /docs/thermal-dynamics/
