@@ -2,9 +2,9 @@
 title: Hardened Glass
 redirect_from: /docs/thermal-expansion/materials/hardened-glass/
 recipes:
-  induction_smelter:
-    - 'hardened-glass'
-    - 'hardened-glass-variants'
+  induction-smelter:
+    - hardened-glass
+    - hardened-glass-variants
 ---
 
 ![Hardened glass](/assets/images/thermal-foundation/hardened-glass.png){:style="height: 96px"}
@@ -36,4 +36,4 @@ Obtaining
 ---------
 
 ### Induction smelter
-{% include recipe-table.html type='induction-smelter' recipes=page.recipes.induction_smelter %}
+{% include recipe-table.html type='induction-smelter' recipes=page.recipes.induction-smelter %}

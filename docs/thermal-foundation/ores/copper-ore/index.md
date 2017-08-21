@@ -1,15 +1,15 @@
 ---
 title: Copper Ore
 redirect_from: /docs/thermal-foundation/world-generation/ores/
-usage_recipes:
+usage-recipes:
   smelting:
-    - 'copper-ore-smelting'
+    - ore-processing-copper
   pulverizer:
-    - 'copper-ore-pulverizer'
-  induction_smelter:
-    - 'copper-ore-induction-smelter-sand'
-    - 'copper-ore-induction-smelter-rich-slag'
-    - 'copper-ore-induction-smelter-cinnabar'
+    - ore-processing-copper
+  induction-smelter:
+    - ore-processing-sand-copper
+    - ore-processing-rich-slag-copper
+    - ore-processing-cinnabar-copper
 ---
 
 ![Copper Ore](/assets/images/thermal-foundation/ore-copper.png){:style="height: 128px"}
@@ -34,10 +34,10 @@ Usage
 -----
 
 ### Smelting ingredient
-{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
+{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}
+{% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}

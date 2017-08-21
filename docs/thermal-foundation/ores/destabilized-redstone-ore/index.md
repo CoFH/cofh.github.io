@@ -1,10 +1,10 @@
 ---
 title: Destabilized Redstone Ore
-usage_recipes:
+usage-recipes:
   pulverizer:
-    - 'destabilized-redstone-ore-pulverizer'
-  magma_crucible:
-    - 'destabilized-redstone-ore-magma-crucible'
+    - fluid-ore-processing-redstone
+  magma-crucible:
+    - fluid-ore-processing-redstone
 ---
 
 ![Destabilized Redstone Ore](/assets/images/thermal-foundation/ore-fluid-redstone.png){:style="height: 128px"}
@@ -41,7 +41,7 @@ Usage
 -----
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}
+{% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}

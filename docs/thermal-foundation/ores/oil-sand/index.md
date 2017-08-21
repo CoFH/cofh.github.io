@@ -1,10 +1,10 @@
 ---
 title: Oil Sand
-usage_recipes:
+usage-recipes:
   pulverizer:
-    - 'oil-sand-pulverizer'
-  magma_crucible:
-    - 'oil-sand-magma-crucible'
+    - fluid-ore-processing-oil-sand
+  magma-crucible:
+    - fluid-ore-processing-oil-sand
 ---
 
 ![Oil Sand](/assets/images/thermal-foundation/ore-fluid-crude-oil-sand.png){:style="height: 128px"}
@@ -43,7 +43,7 @@ Usage
 -----
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}
+{% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}

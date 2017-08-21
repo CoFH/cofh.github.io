@@ -1,14 +1,14 @@
 ---
 title: Aluminum Ore
-usage_recipes:
-  redstone_furnace:
-    - 'aluminum-ore-redstone-furnace'
+usage-recipes:
+  redstone-furnace:
+    - ore-processing-aluminum
   pulverizer:
-    - 'aluminum-ore-pulverizer'
-  induction_smelter:
-    - 'aluminum-ore-induction-smelter-sand'
-    - 'aluminum-ore-induction-smelter-rich-slag'
-    - 'aluminum-ore-induction-smelter-cinnabar'
+    - ore-processing-aluminum
+  induction-smelter:
+    - ore-processing-sand-aluminum
+    - ore-processing-rich-slag-aluminum
+    - ore-processing-cinnabar-aluminum
 ---
 
 ![Aluminum Ore](/assets/images/thermal-foundation/ore-aluminum.png){:style="height: 128px"}
@@ -36,10 +36,10 @@ Aluminum ore cannot be [smelted](https://minecraft.gamepedia.com/Smelting) in a
 regular [furnace](https://minecraft.gamepedia.com/Furnace).
 
 ### Redstone Furnace ingredient
-{% include recipe-table.html type='redstone-furnace' recipes=page.usage_recipes.redstone_furnace %}
+{% include recipe-table.html type='redstone-furnace' recipes=page.usage-recipes.redstone-furnace %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}
+{% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}

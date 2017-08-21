@@ -1,12 +1,12 @@
 ---
 title: Mana Infused Ore
-usage_recipes:
+usage-recipes:
   pulverizer:
-    - 'mithril-ore-pulverizer'
-  induction_smelter:
-    - 'mithril-ore-induction-smelter-sand'
-    - 'mithril-ore-induction-smelter-rich-slag'
-    - 'mithril-ore-induction-smelter-cinnabar'
+    - ore-processing-mithril
+  induction-smelter:
+    - ore-processing-sand-mithril
+    - ore-processing-rich-slag-mithril
+    - ore-processing-cinnabar-mithril
 ---
 
 ![Mana Infused Ore](/assets/images/thermal-foundation/ore-mithril.png){:style="height: 128px"}
@@ -34,7 +34,7 @@ Mana infused ore cannot be processed by
 [smelting](https://minecraft.gamepedia.com/Smelting).
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}
+{% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}

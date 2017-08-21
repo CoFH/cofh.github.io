@@ -1,12 +1,12 @@
 ---
 title: Iridium Ore
-usage_recipes:
+usage-recipes:
   pulverizer:
-    - 'iridium-ore-pulverizer'
-  induction_smelter:
-    - 'iridium-ore-induction-smelter-sand'
-    - 'iridium-ore-induction-smelter-rich-slag'
-    - 'iridium-ore-induction-smelter-cinnabar'
+    - ore-processing-iridium
+  induction-smelter:
+    - ore-processing-sand-iridium
+    - ore-processing-rich-slag-iridium
+    - ore-processing-cinnabar-iridium
 ---
 
 ![Iridium Ore](/assets/images/thermal-foundation/ore-iridium.png){:style="height: 128px"}
@@ -34,7 +34,7 @@ Iridium ore cannot be processed by
 [smelting](https://minecraft.gamepedia.com/Smelting).
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}
+{% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}

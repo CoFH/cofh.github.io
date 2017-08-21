@@ -5,9 +5,9 @@ redirect_from:
   - /docs/thermal-expansion/materials/rockwool/
 recipes:
   smelting:
-    - 'rockwool'
+    - rockwool
   crafting:
-    - 'rockwool-dyeing'
+    - rockwool-dyeing
 ---
 
 ![Rockwool](/assets/images/thermal-foundation/rockwool.gif){:style="height: 128px"}

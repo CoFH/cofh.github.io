@@ -1,10 +1,10 @@
 ---
 title: Oil Shale
-usage_recipes:
+usage-recipes:
   pulverizer:
-    - 'oil-shale-pulverizer'
-  magma_crucible:
-    - 'oil-shale-magma-crucible'
+    - fluid-ore-processing-oil-shale
+  magma-crucible:
+    - fluid-ore-processing-oil-shale
 ---
 
 ![Oil Shale](/assets/images/thermal-foundation/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
@@ -47,7 +47,7 @@ Usage
 -----
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}
+{% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}

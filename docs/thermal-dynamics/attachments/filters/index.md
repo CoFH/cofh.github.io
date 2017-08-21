@@ -1,18 +1,21 @@
---- 
-title: Filters 
-recipes: 
-  crafting: 
-    - 'filter-basic' 
-    - 'filter-hardened' 
-    - 'filter-reinforced' 
-    - 'filter-signalum' 
-    - 'filter-resonant' 
---- 
+---
+title: Filters
+recipes:
+  crafting:
+    - filter-basic
+    - filter-hardened
+    - filter-reinforced
+    - filter-signalum
+    - filter-resonant
+---
 
 
-**Filters** are attachments added by Thermal Dynamics. Filters can be attached to [Itemducts](/docs/thermal-dynamics/ducts/itemducts/) or [Fluiducts](/docs/thermal-dynamics/ducts/fluiducts/).
+**Filters** are attachments added by Thermal Dynamics. Filters can be attached
+to [Itemducts](/docs/thermal-dynamics/ducts/itemducts/) or
+[Fluiducts](/docs/thermal-dynamics/ducts/fluiducts/).
 
-Depending on the duct the filter is attached to the filter can filter items or fluids to the connected inventory.
+Depending on the duct the filter is attached to the filter can filter items or
+fluids to the connected inventory.
 
 There are several types of filters that unlocks more features.
 

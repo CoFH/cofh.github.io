@@ -1,14 +1,14 @@
 ---
 title: Lead Ore
-usage_recipes:
+usage-recipes:
   smelting:
-    - 'lead-ore-smelting'
+    - ore-processing-lead
   pulverizer:
-    - 'lead-ore-pulverizer'
-  induction_smelter:
-    - 'lead-ore-induction-smelter-sand'
-    - 'lead-ore-induction-smelter-rich-slag'
-    - 'lead-ore-induction-smelter-cinnabar'
+    - ore-processing-lead
+  induction-smelter:
+    - ore-processing-sand-lead
+    - ore-processing-rich-slag-lead
+    - ore-processing-cinnabar-lead
 ---
 
 ![Lead Ore](/assets/images/thermal-foundation/ore-lead.png){:style="height: 128px"}
@@ -36,10 +36,10 @@ Usage
 -----
 
 ### Smelting ingredient
-{% include recipe-table.html type='smelting' recipes=page.usage_recipes.smelting %}
+{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='induction-smelter' recipes=page.usage_recipes.induction_smelter %}
+{% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}

@@ -1,10 +1,10 @@
 ---
 title: Resonant End Stone
-usage_recipes:
+usage-recipes:
   pulverizer:
-    - 'resonant-end-stone-pulverizer'
-  magma_crucible:
-    - 'resonant-end-stone-magma-crucible'
+    - fluid-ore-processing-ender
+  magma-crucible:
+    - fluid-ore-processing-ender
 ---
 
 ![Resonant End Stone](/assets/images/thermal-foundation/ore-fluid-ender.png){:style="height: 128px"}
@@ -39,7 +39,7 @@ Usage
 -----
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}
+{% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}

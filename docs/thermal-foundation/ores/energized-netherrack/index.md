@@ -1,10 +1,10 @@
 ---
 title: Energized Netherrack
-usage_recipes:
+usage-recipes:
   pulverizer:
-    - 'energized-netherrack-pulverizer'
-  magma_crucible:
-    - 'energized-netherrack-magma-crucible'
+    - fluid-ore-processing-glowstone
+  magma-crucible:
+    - fluid-ore-processing-glowstone
 ---
 
 ![Energized Netherrack](/assets/images/thermal-foundation/ore-fluid-glowstone.png){:style="height: 128px"}
@@ -40,7 +40,7 @@ Usage
 -----
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage_recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='magma-crucible' recipes=page.usage_recipes.magma_crucible %}
+{% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}

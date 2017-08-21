@@ -1,4 +1,4 @@
-{% assign type_data = site.data.recipe-types[include.type] %}
+{% assign type_data = site.data.recipes[include.type] %}
 {% assign type_site = site.data.recipe-sites[type_data.site] %}
 
 <div class="uk-overflow-container">
@@ -16,8 +16,7 @@
 
         <tbody>
             {% for recipe in include.recipes %}
-                {% assign recipe_data = site.data.recipes[recipe] %}
-                {% assign recipe_type = site.data.recipe-types[recipe_data.type] %}
+                {% assign recipe_data = type_data.recipes[recipe] %}
 
                 <tr>
                     <td class="uk-text-center cofh-nowrap">
@@ -84,7 +83,7 @@
                         {% endfor %}
                     </td>
 
-                    {% if recipe_type.with-energy %}
+                    {% if type_data.with-energy %}
                         <td class="cofh-nowrap">
                             {{ recipe_data.energy }} RF
                         </td>
@@ -92,7 +91,7 @@
 
                     <td style="padding: 2px; text-align: center">
                         <div class="cofh-recipe">
-                            {% include recipe/types/{{recipe_data.type}}.html data=recipe_data.data %}
+                            {% include recipe/types/{{include.type}}.html data=recipe_data.data %}
                         </div>
                     </td>
                 </tr>
