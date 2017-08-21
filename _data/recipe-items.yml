@@ -1,3 +1,73 @@
+axe-aluminum:
+  name: Aluminum Axe
+  sprite: [4, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-bronze:
+  name: Bronze Axe
+  sprite: [5, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-constantan:
+  name: Constantan Axe
+  sprite: [6, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-copper:
+  name: Copper Axe
+  sprite: [7, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-electrum:
+  name: Electrum Axe
+  sprite: [8, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-invar:
+  name: Invar Axe
+  sprite: [9, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-lead:
+  name: Lead Axe
+  sprite: [10, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-nickel:
+  name: Nickel Axe
+  sprite: [11, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-platinum:
+  name: Platinum Axe
+  sprite: [12, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-silver:
+  name: Silver Axe
+  sprite: [13, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-steel:
+  name: Steel Axe
+  sprite: [14, 16]
+  site: tf-docs
+  url: equipment/axes/
+axe-tin:
+  name: Tin Axe
+  sprite: [15, 16]
+  site: tf-docs
+  url: equipment/axes/
+basalz-powder:
+  name: Basalz Powder
+  animated: true
+  site: tf-docs
+  url: materials/basalz-powder/
+basalz-rod:
+  name: Basalz Rod
+  sprite: [1, 16]
+  site: tf-docs
+  url: materials/basalz-rod/
 bitumen:
   name: Bitumen
   sprite: [1, 8]
@@ -8,11 +78,111 @@ blaze-powder:
   sprite: [2, 0]
   site: mc-wiki
   url: Blaze_Powder
+blitz-powder:
+  name: Blitz Powder
+  animated: true
+  site: tf-docs
+  url: materials/blitz-powder/
+blitz-rod:
+  name: Blitz Rod
+  sprite: [2, 16]
+  site: tf-docs
+  url: materials/blitz-rod/
+blizz-powder:
+  name: Blizz Powder
+  animated: true
+  site: tf-docs
+  url: materials/blizz-powder/
+blizz-rod:
+  name: Blizz Rod
+  sprite: [3, 16]
+  site: tf-docs
+  url: materials/blizz-rod/
 bone-meal:
   name: Bone Meal
   sprite: [15, 5]
   site: mc-wiki
   url: Bone_Meal
+bow-aluminum:
+  name: Aluminum Reinforced Bow
+  sprite: [0, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-bronze:
+  name: Bronze Reinforced Bow
+  sprite: [1, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-constantan:
+  name: Constantan Reinforced Bow
+  sprite: [2, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-copper:
+  name: Copper Reinforced Bow
+  sprite: [3, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-diamond:
+  name: Diamond Reinforced Bow
+  sprite: [4, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-electrum:
+  name: Electrum Reinforced Bow
+  sprite: [5, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-gold:
+  name: Gold Reinforced Bow
+  sprite: [6, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-invar:
+  name: Invar Reinforced Bow
+  sprite: [7, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-iron:
+  name: Iron Reinforced Bow
+  sprite: [8, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-lead:
+  name: Lead Reinforced Bow
+  sprite: [9, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-nickel:
+  name: Nickel Reinforced Bow
+  sprite: [10, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-platinum:
+  name: Platinum Reinforced Bow
+  sprite: [11, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-silver:
+  name: Silver Reinforced Bow
+  sprite: [12, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-steel:
+  name: Steel Reinforced Bow
+  sprite: [13, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-stone:
+  name: Stone Reinforced Bow
+  sprite: [14, 17]
+  site: tf-docs
+  url: equipment/bows/
+bow-tin:
+  name: Tin Reinforced Bow
+  sprite: [15, 17]
+  site: tf-docs
+  url: equipment/bows/
 cactus-green:
   name: Cactus Green
   sprite: [2, 5]
@@ -38,16 +208,121 @@ clathrate-redstone:
   sprite: [2, 8]
   site: tf-docs
   url: materials/destabilized-clathrate/
+coal-coke:
+  name: Coal Coke
+  sprite: [13, 15]
+  site: tf-docs
+  url: materials/coal-coke/
 cocoa-beans:
   name: Cocoa Beans
   sprite: [3, 5]
   site: mc-wiki
   url: Cocoa_Beans
+coin-aluminum:
+  name: Aluminum Coin
+  sprite: [11, 11]
+  site: tf-docs
+  url: coins/aluminum-coin/
+coin-bronze:
+  name: Bronze Coin
+  sprite: [12, 11]
+  site: tf-docs
+  url: coins/bronze-coin/
+coin-constantan:
+  name: Constantan Coin
+  sprite: [13, 11]
+  site: tf-docs
+  url: coins/constantan-coin/
+coin-copper:
+  name: Copper Coin
+  sprite: [14, 11]
+  site: tf-docs
+  url: coins/copper-coin/
+coin-electrum:
+  name: Electrum Coin
+  sprite: [15, 11]
+  site: tf-docs
+  url: coins/electrum-coin/
+coin-enderium:
+  name: Enderium Coin
+  sprite: [0, 12]
+  site: tf-docs
+  url: coins/enderium-coin/
+coin-gold:
+  name: Gold Coin
+  sprite: [1, 12]
+  site: tf-docs
+  url: coins/gold-coin/
+coin-invar:
+  name: Invar Coin
+  sprite: [2, 12]
+  site: tf-docs
+  url: coins/invar-coin/
+coin-iridium:
+  name: Iridium Coin
+  sprite: [3, 12]
+  site: tf-docs
+  url: coins/iridium-coin/
+coin-iron:
+  name: Iron Coin
+  sprite: [4, 12]
+  site: tf-docs
+  url: coins/iron-coin/
+coin-lead:
+  name: Lead Coin
+  sprite: [5, 12]
+  site: tf-docs
+  url: coins/lead-coin/
+coin-lumium:
+  name: Lumium Coin
+  sprite: [6, 12]
+  site: tf-docs
+  url: coins/lumium-coin/
+coin-mithril:
+  name: Mana Infused Coin
+  sprite: [7, 12]
+  site: tf-docs
+  url: coins/mana-infused-coin/
+coin-nickel:
+  name: Nickel Coin
+  sprite: [8, 12]
+  site: tf-docs
+  url: coins/nickel-coin/
+coin-platinum:
+  name: Platinum Coin
+  sprite: [9, 12]
+  site: tf-docs
+  url: coins/platinum-coin/
+coin-signalum:
+  name: Signalum Coin
+  sprite: [10, 12]
+  site: tf-docs
+  url: coins/signalum-coin/
+coin-silver:
+  name: Silver Coin
+  sprite: [11, 12]
+  site: tf-docs
+  url: coins/silver-coin/
+coin-steel:
+  name: Steel Coin
+  sprite: [12, 12]
+  site: tf-docs
+  url: coins/steel-coin/
+coin-tin:
+  name: Tin Coin
+  sprite: [13, 12]
+  site: tf-docs
+  url: coins/tin-coin/
 crafting-table:
   name: Crafting Table
   sprite: [4, 0]
   site: mc-wiki
   url: Crafting_Table
+crescent-hammer:
+  name: Crescent Hammer
+  sprite: [5, 11]
+  site: tf-docs
+  url: items/crescent-hammer/
 cyan-dye:
   name: Cyan Dye
   sprite: [6, 5]
@@ -58,6 +333,11 @@ dandelion-yellow:
   sprite: [11, 5]
   site: mc-wiki
   url: Dandelion_Yellow
+dust-aerotheum:
+  name: Aerotheum Dust
+  animated: true
+  site: tf-docs
+  url: materials/aerotheum-dust/
 dust-aluminum:
   name: Pulverized Aluminum
   sprite: [14, 2]
@@ -78,6 +358,11 @@ dust-constantan:
   sprite: [0, 3]
   site: tf-docs
   url: metal-dusts/constantan-blend/
+dust-cryotheum:
+  name: Cryotheum Dust
+  animated: true
+  site: tf-docs
+  url: materials/cryotheum-dust/
 dust-copper:
   name: Pulverized Copper
   sprite: [1, 3]
@@ -123,6 +408,11 @@ dust-lumium:
   sprite: [7, 3]
   site: tf-docs
   url: metal-dusts/lumium-blend/
+dust-mana:
+  name: Mana Dust
+  animated: true
+  site: tf-docs
+  url: materials/mana-dust/
 dust-mithril:
   name: Pulverized Mana Infused Metal
   sprite: [8, 3]
@@ -138,6 +428,11 @@ dust-obsidian:
   sprite: [13, 2]
   site: tf-docs
   url: materials/pulverized-obsidian/
+dust-petrotheum:
+  name: Petrotheum Dust
+  animated: true
+  site: tf-docs
+  url: materials/petrotheum-dust/
 dust-platinum:
   name: Pulverized Platinum
   sprite: [10, 3]
@@ -203,11 +498,196 @@ filter-resonant:
   sprite: [6, 9]
   site: td-docs
   url: attachments/filters/
+fishing-rod-aluminum:
+  name: Aluminum Fishing Rod
+  sprite: [0, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-bronze:
+  name: Bronze Fishing Rod
+  sprite: [1, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-constantan:
+  name: Constantan Fishing Rod
+  sprite: [2, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-copper:
+  name: Copper Fishing Rod
+  sprite: [3, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-diamond:
+  name: Diamond Fishing Rod
+  sprite: [4, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-electrum:
+  name: Electrum Fishing Rod
+  sprite: [5, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-gold:
+  name: Gold Fishing Rod
+  sprite: [6, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-invar:
+  name: Invar Fishing Rod
+  sprite: [7, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-iron:
+  name: Iron Fishing Rod
+  sprite: [8, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-lead:
+  name: Lead Fishing Rod
+  sprite: [9, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-nickel:
+  name: Nickel Fishing Rod
+  sprite: [10, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-platinum:
+  name: Platinum Fishing Rod
+  sprite: [11, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-silver:
+  name: Silver Fishing Rod
+  sprite: [12, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-steel:
+  name: Steel Fishing Rod
+  sprite: [13, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-stone:
+  name: Stone Fishing Rod
+  sprite: [14, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
+fishing-rod-tin:
+  name: Tin Fishing Rod
+  sprite: [15, 18]
+  site: tf-docs
+  url: equipment/fishing-rods/
 flint:
   name: Flint
   sprite: [9, 8]
   site: mc-wiki
   url: Flint
+forge-lexicon:
+  name: Forge Lexicon
+  sprite: [8, 11]
+  site: tf-docs
+  url: items/forge-lexicon/
+gear-aluminum:
+  name: Aluminum Gear
+  sprite: [0, 13]
+  site: tf-docs
+  url: gears/aluminum-gear/
+gear-bronze:
+  name: Bronze Gear
+  sprite: [1, 13]
+  site: tf-docs
+  url: gears/bronze-gear/
+gear-constantan:
+  name: Constantan Gear
+  sprite: [2, 13]
+  site: tf-docs
+  url: gears/constantan-gear/
+gear-copper:
+  name: Copper Gear
+  sprite: [3, 13]
+  site: tf-docs
+  url: gears/copper-gear/
+gear-electrum:
+  name: Electrum Gear
+  sprite: [4, 13]
+  site: tf-docs
+  url: gears/electrum-gear/
+gear-enderium:
+  name: Enderium Gear
+  sprite: [5, 13]
+  site: tf-docs
+  url: gears/enderium-gear/
+gear-gold:
+  name: Gold Gear
+  sprite: [6, 13]
+  site: tf-docs
+  url: gears/gold-gear/
+gear-invar:
+  name: Invar Gear
+  sprite: [7, 13]
+  site: tf-docs
+  url: gears/invar-gear/
+gear-iridium:
+  name: Iridium Gear
+  sprite: [8, 13]
+  site: tf-docs
+  url: gears/iridium-gear/
+gear-iron:
+  name: Iron Gear
+  sprite: [9, 13]
+  site: tf-docs
+  url: gears/iron-gear/
+gear-lead:
+  name: Lead Gear
+  sprite: [10, 13]
+  site: tf-docs
+  url: gears/lead-gear/
+gear-lumium:
+  name: Lumium Gear
+  sprite: [11, 13]
+  site: tf-docs
+  url: gears/lumium-gear/
+gear-mithril:
+  name: Mana Infused Gear
+  sprite: [12, 13]
+  site: tf-docs
+  url: gears/mana-infused-gear/
+gear-nickel:
+  name: Nickel Gear
+  sprite: [13, 13]
+  site: tf-docs
+  url: gears/nickel-gear/
+gear-platinum:
+  name: Platinum Gear
+  sprite: [14, 13]
+  site: tf-docs
+  url: gears/platinum-gear/
+gear-signalum:
+  name: Signalum Gear
+  sprite: [15, 13]
+  site: tf-docs
+  url: gears/signalum-gear/
+gear-silver:
+  name: Silver Gear
+  sprite: [0, 14]
+  site: tf-docs
+  url: gears/silver-gear/
+gear-steel:
+  name: Steel Gear
+  sprite: [1, 14]
+  site: tf-docs
+  url: gears/steel-gear/
+gear-tin:
+  name: Tin Gear
+  sprite: [2, 14]
+  site: tf-docs
+  url: gears/tin-gear/
+geode:
+  name: Geode
+  sprite: [0, 16]
+  site: tf-docs
+  url: materials/geode/
 glass:
   name: Glass
   sprite: [3, 11]
@@ -218,6 +698,91 @@ gray-dye:
   sprite: [8, 5]
   site: mc-wiki
   url: Gray_Dye
+hammer-aluminum:
+  name: Aluminum Hammer
+  sprite: [0, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-bronze:
+  name: Bronze Hammer
+  sprite: [1, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-constantan:
+  name: Constantan Hammer
+  sprite: [2, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-copper:
+  name: Copper Hammer
+  sprite: [3, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-diamond:
+  name: Diamond Hammer
+  sprite: [4, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-electrum:
+  name: Electrum Hammer
+  sprite: [5, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-gold:
+  name: Gold Hammer
+  sprite: [6, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-invar:
+  name: Invar Hammer
+  sprite: [7, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-iron:
+  name: Iron Hammer
+  sprite: [8, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-lead:
+  name: Lead Hammer
+  sprite: [9, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-nickel:
+  name: Nickel Hammer
+  sprite: [10, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-platinum:
+  name: Platinum Hammer
+  sprite: [11, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-silver:
+  name: Silver Hammer
+  sprite: [12, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-steel:
+  name: Steel Hammer
+  sprite: [13, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-stone:
+  name: Stone Hammer
+  sprite: [14, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-tin:
+  name: Tin Hammer
+  sprite: [15, 19]
+  site: tf-docs
+  url: equipment/hammers/
+hammer-wood:
+  name: Wooden Hammer
+  sprite: [0, 20]
+  site: tf-docs
+  url: equipment/hammers/
 hardened-glass:
   name: Hardened Glass
   sprite: [12, 1]
@@ -303,6 +868,66 @@ hardened-tin-glass:
   sprite: [14, 1]
   site: tf-docs
   url: blocks/hardened-glass/
+hoe-aluminum:
+  name: Aluminum Hoe
+  sprite: [1, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-bronze:
+  name: Bronze Hoe
+  sprite: [2, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-constantan:
+  name: Constantan Hoe
+  sprite: [3, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-copper:
+  name: Copper Hoe
+  sprite: [4, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-electrum:
+  name: Electrum Hoe
+  sprite: [5, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-invar:
+  name: Invar Hoe
+  sprite: [6, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-lead:
+  name: Lead Hoe
+  sprite: [7, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-nickel:
+  name: Nickel Hoe
+  sprite: [8, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-platinum:
+  name: Platinum Hoe
+  sprite: [9, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-silver:
+  name: Silver Hoe
+  sprite: [10, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-steel:
+  name: Steel Hoe
+  sprite: [11, 20]
+  site: tf-docs
+  url: equipment/hoes/
+hoe-tin:
+  name: Tin Hoe
+  sprite: [12, 20]
+  site: tf-docs
+  url: equipment/hoes/
 ingot-aluminum:
   name: Aluminum Ingot
   sprite: [11, 0]
@@ -428,6 +1053,16 @@ magenta-dye:
   sprite: [13, 5]
   site: mc-wiki
   url: Magenta_Dye
+multimeter:
+  name: Multimeter
+  sprite: [6, 11]
+  site: tf-docs
+  url: items/multimeter/
+niter:
+  name: Niter
+  sprite: [10, 15]
+  site: tf-docs
+  url: materials/niter/
 nugget-aluminum:
   name: Aluminum Nugget
   sprite: [4, 10]
@@ -613,6 +1248,176 @@ paper:
   sprite: [4, 11]
   site: mc-wiki
   url: Paper
+phyto-gro:
+  name: Phyto-Gro
+  sprite: [14, 12]
+  site: tf-docs
+  url: materials/phyto-gro/
+phyto-gro-fluxed:
+  name: Fluxed Phyto-Gro
+  animated: true
+  site: tf-docs
+  url: materials/fluxed-phyto-gro/
+phyto-gro-rich:
+  name: Rich Phyto-Gro
+  sprite: [15, 12]
+  site: tf-docs
+  url: materials/rich-phyto-gro/
+pickaxe-aluminum:
+  name: Aluminum Pickaxe
+  sprite: [13, 20]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-bronze:
+  name: Bronze Pickaxe
+  sprite: [14, 20]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-constantan:
+  name: Constantan Pickaxe
+  sprite: [15, 20]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-copper:
+  name: Copper Pickaxe
+  sprite: [0, 21]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-electrum:
+  name: Electrum Pickaxe
+  sprite: [1, 21]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-invar:
+  name: Invar Pickaxe
+  sprite: [2, 21]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-lead:
+  name: Lead Pickaxe
+  sprite: [3, 21]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-nickel:
+  name: Nickel Pickaxe
+  sprite: [4, 21]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-platinum:
+  name: Platinum Pickaxe
+  sprite: [5, 21]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-silver:
+  name: Silver Pickaxe
+  sprite: [6, 21]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-steel:
+  name: Steel Pickaxe
+  sprite: [7, 21]
+  site: tf-docs
+  url: equipment/pickaxes/
+pickaxe-tin:
+  name: Tin Pickaxe
+  sprite: [8, 21]
+  site: tf-docs
+  url: equipment/pickaxes/
+plate-aluminum:
+  name: Aluminum Plate
+  sprite: [3, 14]
+  site: tf-docs
+  url: plates/aluminum-plate/
+plate-bronze:
+  name: Bronze Plate
+  sprite: [4, 14]
+  site: tf-docs
+  url: plates/bronze-plate/
+plate-constantan:
+  name: Constantan Plate
+  sprite: [5, 14]
+  site: tf-docs
+  url: plates/constantan-plate/
+plate-copper:
+  name: Copper Plate
+  sprite: [6, 14]
+  site: tf-docs
+  url: plates/copper-plate/
+plate-electrum:
+  name: Electrum Plate
+  sprite: [7, 14]
+  site: tf-docs
+  url: plates/electrum-plate/
+plate-enderium:
+  name: Enderium Plate
+  sprite: [8, 14]
+  site: tf-docs
+  url: plates/enderium-plate/
+plate-gold:
+  name: Gold Plate
+  sprite: [9, 14]
+  site: tf-docs
+  url: plates/gold-plate/
+plate-invar:
+  name: Invar Plate
+  sprite: [10, 14]
+  site: tf-docs
+  url: plates/invar-plate/
+plate-iridium:
+  name: Iridium Plate
+  sprite: [11, 14]
+  site: tf-docs
+  url: plates/iridium-plate/
+plate-iron:
+  name: Iron Plate
+  sprite: [12, 14]
+  site: tf-docs
+  url: plates/iron-plate/
+plate-lead:
+  name: Lead Plate
+  sprite: [13, 14]
+  site: tf-docs
+  url: plates/lead-plate/
+plate-lumium:
+  name: Lumium Plate
+  sprite: [14, 14]
+  site: tf-docs
+  url: plates/lumium-plate/
+plate-mithril:
+  name: Mana Infused Plate
+  sprite: [15, 14]
+  site: tf-docs
+  url: plates/mana-infused-plate/
+plate-nickel:
+  name: Nickel Plate
+  sprite: [0, 15]
+  site: tf-docs
+  url: plates/nickel-plate/
+plate-platinum:
+  name: Platinum Plate
+  sprite: [1, 15]
+  site: tf-docs
+  url: plates/platinum-plate/
+plate-signalum:
+  name: Signalum Plate
+  sprite: [2, 15]
+  site: tf-docs
+  url: plates/signalum-plate/
+plate-silver:
+  name: Silver Plate
+  sprite: [3, 15]
+  site: tf-docs
+  url: plates/silver-plate/
+plate-steel:
+  name: Steel Plate
+  sprite: [4, 15]
+  site: tf-docs
+  url: plates/steel-plate/
+plate-tin:
+  name: Tin Plate
+  sprite: [5, 15]
+  site: tf-docs
+  url: plates/tin-plate/
 pink-dye:
   name: Pink Dye
   sprite: [9, 5]
@@ -628,11 +1433,36 @@ red-sand:
   sprite: [7, 8]
   site: mc-wiki
   url: Red_Sand
+redprint:
+  name: Redprint
+  sprite: [10, 11]
+  site: tf-docs
+  url: items/redprint/
 redstone:
   name: Redstone
   sprite: [7, 0]
   site: mc-wiki
   url: Redstone
+redstone-coil-electrum:
+  name: Redstone Conductance Coil
+  sprite: [8, 15]
+  site: tf-docs
+  url: materials/redstone-conductance-coil/
+redstone-coil-gold:
+  name: Redstone Reception Coil
+  sprite: [6, 15]
+  site: tf-docs
+  url: materials/redstone-reception-coil/
+redstone-coil-silver:
+  name: Redstone Transmission Coil
+  sprite: [7, 15]
+  site: tf-docs
+  url: materials/redstone-transmission-coil/
+redstone-servo:
+  name: Redstone Servo
+  sprite: [9, 15]
+  site: tf-docs
+  url: materials/redstone-servo/
 retriever-basic:
   name: Retriever
   sprite: [7, 9]
@@ -743,11 +1573,31 @@ rose-red:
   sprite: [1, 5]
   site: mc-wiki
   url: Rose_Red
+rosin:
+  name: Rosin
+  sprite: [14, 15]
+  site: tf-docs
+  url: materials/rosin/
 sand:
   name: Sand
   sprite: [6, 8]
   site: mc-wiki
   url: Sand
+sawdust:
+  name: Sawdust
+  sprite: [11, 15]
+  site: tf-docs
+  url: materials/sawdust/
+sawdust-compressed:
+  name: Compressed Sawdust
+  sprite: [12, 15]
+  site: tf-docs
+  url: materials/compressed-sawdust/
+schematic:
+  name: Schematic
+  sprite: [9, 11]
+  site: tf-docs
+  url: items/schematic/
 servo-basic:
   name: Servo
   sprite: [13, 8]
@@ -773,6 +1623,316 @@ servo-resonant:
   sprite: [1, 9]
   site: td-docs
   url: attachments/servos/
+shears-aluminum:
+  name: Aluminum Shears
+  sprite: [9, 21]
+  site: tf-docs
+  url: equipment/shears/
+shears-bronze:
+  name: Bronze Shears
+  sprite: [10, 21]
+  site: tf-docs
+  url: equipment/shears/
+shears-constantan:
+  name: Constantan Shears
+  sprite: [11, 21]
+  site: tf-docs
+  url: equipment/shears/
+shears-copper:
+  name: Copper Shears
+  sprite: [12, 21]
+  site: tf-docs
+  url: equipment/shears/
+shears-diamond:
+  name: Diamond Shears
+  sprite: [13, 21]
+  site: tf-docs
+  url: equipment/shears/
+shears-electrum:
+  name: Electrum Shears
+  sprite: [14, 21]
+  site: tf-docs
+  url: equipment/shears/
+shears-gold:
+  name: Gold Shears
+  sprite: [15, 21]
+  site: tf-docs
+  url: equipment/shears/
+shears-invar:
+  name: Invar Shears
+  sprite: [0, 22]
+  site: tf-docs
+  url: equipment/shears/
+shears-lead:
+  name: Lead Shears
+  sprite: [1, 22]
+  site: tf-docs
+  url: equipment/shears/
+shears-nickel:
+  name: Nickel Shears
+  sprite: [2, 22]
+  site: tf-docs
+  url: equipment/shears/
+shears-platinum:
+  name: Platinum Shears
+  sprite: [3, 22]
+  site: tf-docs
+  url: equipment/shears/
+shears-silver:
+  name: Silver Shears
+  sprite: [4, 22]
+  site: tf-docs
+  url: equipment/shears/
+shears-steel:
+  name: Steel Shears
+  sprite: [5, 22]
+  site: tf-docs
+  url: equipment/shears/
+shears-stone:
+  name: Stone Shears
+  sprite: [6, 22]
+  site: tf-docs
+  url: equipment/shears/
+shears-tin:
+  name: Tin Shears
+  sprite: [7, 22]
+  site: tf-docs
+  url: equipment/shears/
+shears-wood:
+  name: Wooden Shears
+  sprite: [8, 22]
+  site: tf-docs
+  url: equipment/shears/
+shield-aluminum:
+  name: Aluminum Shield
+  sprite: [9, 22]
+  site: tf-docs
+  url: equipment/shields/
+shield-bronze:
+  name: Bronze Shield
+  sprite: [10, 22]
+  site: tf-docs
+  url: equipment/shields/
+shield-constantan:
+  name: Constantan Shield
+  sprite: [11, 22]
+  site: tf-docs
+  url: equipment/shields/
+shield-copper:
+  name: Copper Shield
+  sprite: [12, 22]
+  site: tf-docs
+  url: equipment/shields/
+shield-diamond:
+  name: Diamond Shield
+  sprite: [13, 22]
+  site: tf-docs
+  url: equipment/shields/
+shield-electrum:
+  name: Electrum Shield
+  sprite: [14, 22]
+  site: tf-docs
+  url: equipment/shields/
+shield-gold:
+  name: Gold Shield
+  sprite: [15, 22]
+  site: tf-docs
+  url: equipment/shields/
+shield-invar:
+  name: Invar Shield
+  sprite: [0, 23]
+  site: tf-docs
+  url: equipment/shields/
+shield-iron:
+  name: Iron Shield
+  sprite: [1, 23]
+  site: tf-docs
+  url: equipment/shields/
+shield-lead:
+  name: Lead Shield
+  sprite: [2, 23]
+  site: tf-docs
+  url: equipment/shields/
+shield-nickel:
+  name: Nickel Shield
+  sprite: [3, 23]
+  site: tf-docs
+  url: equipment/shields/
+shield-platinum:
+  name: Platinum Shield
+  sprite: [4, 23]
+  site: tf-docs
+  url: equipment/shields/
+shield-silver:
+  name: Silver Shield
+  sprite: [5, 23]
+  site: tf-docs
+  url: equipment/shields/
+shield-steel:
+  name: Steel Shield
+  sprite: [6, 23]
+  site: tf-docs
+  url: equipment/shields/
+shield-stone:
+  name: Stone Shield
+  sprite: [7, 23]
+  site: tf-docs
+  url: equipment/shields/
+shield-tin:
+  name: Tin Shield
+  sprite: [8, 23]
+  site: tf-docs
+  url: equipment/shields/
+shovel-aluminum:
+  name: Aluminum Shovel
+  sprite: [9, 23]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-bronze:
+  name: Bronze Shovel
+  sprite: [10, 23]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-constantan:
+  name: Constantan Shovel
+  sprite: [11, 23]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-copper:
+  name: Copper Shovel
+  sprite: [12, 23]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-electrum:
+  name: Electrum Shovel
+  sprite: [13, 23]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-invar:
+  name: Invar Shovel
+  sprite: [14, 23]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-lead:
+  name: Lead Shovel
+  sprite: [15, 23]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-nickel:
+  name: Nickel Shovel
+  sprite: [0, 24]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-platinum:
+  name: Platinum Shovel
+  sprite: [1, 24]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-silver:
+  name: Silver Shovel
+  sprite: [2, 24]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-steel:
+  name: Steel Shovel
+  sprite: [3, 24]
+  site: tf-docs
+  url: equipment/shovels/
+shovel-tin:
+  name: Tin Shovel
+  sprite: [4, 24]
+  site: tf-docs
+  url: equipment/shovels/
+sickle-aluminum:
+  name: Aluminum Sickle
+  sprite: [5, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-bronze:
+  name: Bronze Sickle
+  sprite: [6, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-constantan:
+  name: Constantan Sickle
+  sprite: [7, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-copper:
+  name: Copper Sickle
+  sprite: [8, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-diamond:
+  name: Diamond Sickle
+  sprite: [9, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-electrum:
+  name: Electrum Sickle
+  sprite: [10, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-gold:
+  name: Gold Sickle
+  sprite: [11, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-invar:
+  name: Invar Sickle
+  sprite: [12, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-iron:
+  name: Iron Sickle
+  sprite: [13, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-lead:
+  name: Lead Sickle
+  sprite: [14, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-nickel:
+  name: Nickel Sickle
+  sprite: [15, 24]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-platinum:
+  name: Platinum Sickle
+  sprite: [0, 25]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-silver:
+  name: Silver Sickle
+  sprite: [1, 25]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-steel:
+  name: Steel Sickle
+  sprite: [2, 25]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-stone:
+  name: Stone Sickle
+  sprite: [3, 25]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-tin:
+  name: Tin Sickle
+  sprite: [4, 25]
+  site: tf-docs
+  url: equipment/sickles/
+sickle-wood:
+  name: Wooden Sickle
+  sprite: [5, 25]
+  site: tf-docs
+  url: equipment/sickles/
+signalum-security-lock:
+  name: Signalum Security Lock
+  sprite: [7, 11]
+  site: tf-docs
+  url: items/signalum-security-lock/
 slag:
   name: Slag
   sprite: [15, 3]
@@ -873,6 +2033,66 @@ sulfur:
   sprite: [10, 0]
   site: tf-docs
   url: materials/sulfur/
+sword-aluminum:
+  name: Aluminum Sword
+  sprite: [6, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-bronze:
+  name: Bronze Sword
+  sprite: [7, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-constantan:
+  name: Constantan Sword
+  sprite: [8, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-copper:
+  name: Copper Sword
+  sprite: [9, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-electrum:
+  name: Electrum Sword
+  sprite: [10, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-invar:
+  name: Invar Sword
+  sprite: [11, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-lead:
+  name: Lead Sword
+  sprite: [12, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-nickel:
+  name: Nickel Sword
+  sprite: [13, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-platinum:
+  name: Platinum Sword
+  sprite: [14, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-silver:
+  name: Silver Sword
+  sprite: [15, 25]
+  site: tf-docs
+  url: equipment/swords/
+sword-steel:
+  name: Steel Sword
+  sprite: [0, 26]
+  site: tf-docs
+  url: equipment/swords/
+sword-tin:
+  name: Tin Sword
+  sprite: [1, 26]
+  site: tf-docs
+  url: equipment/swords/
 tar:
   name: Tar
   sprite: [8, 8]
