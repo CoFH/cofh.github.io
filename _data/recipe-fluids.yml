@@ -1,7 +1,23 @@
+aerotheum:
+  name: Zephyrean Aerotheum
+  site: tf-docs
+  url: fluids/zephyrean-aerotheum/
+coal:
+  name: Liquifacted Coal
+  site: tf-docs
+  url: fluids/liquifacted-coal/
+creosote-oil:
+  name: Creosote Oil
+  site: tf-docs
+  url: fluids/creosote-oil/
 crude-oil:
   name: Crude Oil
   site: tf-docs
   url: fluids/crude-oil/
+cryotheum:
+  name: Gelid Cryotheum
+  site: tf-docs
+  url: fluids/gelid-cryotheum/
 ender:
   name: Resonant Ender
   site: tf-docs
@@ -10,7 +26,59 @@ glowstone:
   name: Energized Glowstone
   site: tf-docs
   url: fluids/energized-glowstone/
+lava:
+  name: Lava
+  site: mc-wiki
+  url: Lava
+mana:
+  name: Primal Mana
+  site: tf-docs
+  url: fluids/primal-mana/
+mushroom-stew:
+  name: Mushroom Stew
+  site: tf-docs
+  url: fluids/mushroom-stew/
+naphtha:
+  name: Naphtha
+  site: tf-docs
+  url: fluids/naphtha/
+petrotheum:
+  name: Tectonic Petrotheum
+  site: tf-docs
+  url: fluids/tectonic-petrotheum/
+pyrotheum:
+  name: Blazing Pyrotheum
+  site: tf-docs
+  url: fluids/blazing-pyrotheum/
 redstone:
   name: Destabilized Redstone
   site: tf-docs
   url: fluids/destabilized-redstone/
+refined-fuel:
+  name: Refined Fuel
+  site: tf-docs
+  url: fluids/refined-fuel/
+resin:
+  name: Resin
+  site: tf-docs
+  url: fluids/resin/
+sap:
+  name: Sap
+  site: tf-docs
+  url: fluids/sap/
+steam:
+  name: Steam
+  site: tf-docs
+  url: fluids/steam/
+syrup:
+  name: Syrup
+  site: tf-docs
+  url: fluids/syrup/
+tree-oil:
+  name: Tree Oil
+  site: tf-docs
+  url: fluids/tree-oil/
+water:
+  name: Water
+  site: mc-wiki
+  url: Water
