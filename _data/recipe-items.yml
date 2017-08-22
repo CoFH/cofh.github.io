@@ -1,3 +1,8 @@
+andesite-polished:
+  name: Polished Andesite
+  sprite: [2, 34]
+  site: mc-wiki
+  url: Polished_Andesite
 augment-dynamo-boiler:
   name: 'Augment: Boiler Conversion'
   animated: true
@@ -348,6 +353,11 @@ bow-tin:
   sprite: [15, 17]
   site: tf-docs
   url: equipment/bows/
+bricks:
+  name: Bricks
+  sprite: [15, 33]
+  site: mc-wiki
+  url: Bricks
 cache-basic:
   name: Cache (Basic)
   sprite: [12, 27]
@@ -383,6 +393,11 @@ coal-coke:
   sprite: [13, 15]
   site: tf-docs
   url: materials/coal-coke/
+cobblestone:
+  name: Cobblestone
+  sprite: [10, 33]
+  site: mc-wiki
+  url: Cobblestone
 cocoa-beans:
   name: Cocoa Beans
   sprite: [3, 5]
@@ -543,6 +558,76 @@ device-water-gen:
   sprite: [15, 26]
   site: te-docs
   url: devices/aqueous-accumulator/
+diorite-polished:
+  name: Polished Diorite
+  sprite: [1, 34]
+  site: mc-wiki
+  url: Polished_Diorite
+duct-cover-andesite-polished:
+  name: Polished Andesite Cover
+  sprite: [7, 33]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-bricks:
+  name: Bricks Cover
+  sprite: [4, 33]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-cobblestone:
+  name: Cobblestone Cover
+  sprite: [13, 32]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-diorite-polished:
+  name: Polished Diorite Cover
+  sprite: [6, 33]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-end-stone-bricks:
+  name: End Stone Bricks Cover
+  sprite: [8, 33]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-granite-polished:
+  name: Polished Granite Cover
+  sprite: [5, 33]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-moss-stone:
+  name: Moss Stone Cover
+  sprite: [3, 33]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-nether-brick:
+  name: Nether Brick Cover
+  sprite: [1, 33]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-obsidian:
+  name: Obsidian Cover
+  sprite: [2, 33]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-sandstone:
+  name: Sandstone Cover
+  sprite: [0, 33]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-stone:
+  name: Stone Cover
+  sprite: [12, 32]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-wood-log-oak:
+  name: Oak Wood Cover
+  sprite: [14, 32]
+  site: td-docs
+  url: attachments/covers/
+duct-cover-wood-planks-oak:
+  name: Oak Wood Planks Cover
+  sprite: [15, 32]
+  site: td-docs
+  url: attachments/covers/
 dust-aerotheum:
   name: Aerotheum Dust
   animated: true
@@ -703,6 +788,11 @@ dynamo-steam:
   sprite: [4, 27]
   site: te-docs
   url: dynamos/steam-dynamo/
+end-stone-bricks:
+  name: End Stone Bricks
+  sprite: [3, 34]
+  site: mc-wiki
+  url: End_Stone_Bricks
 ender-pearl:
   name: Ender Pearl
   sprite: [12, 9]
@@ -838,6 +928,46 @@ florb-magmatic:
   sprite: [12, 30]
   site: te-docs
   url: items/magmatic-florb/
+fluiduct-basic:
+  name: Fluiduct
+  sprite: [7, 31]
+  site: td-docs
+  url: ducts/fluiducts/
+fluiduct-basic-opaque:
+  name: Fluiduct (Opaque)
+  sprite: [8, 31]
+  site: td-docs
+  url: ducts/fluiducts/
+fluiduct-hardened:
+  name: Hardened Fluiduct
+  sprite: [9, 31]
+  site: td-docs
+  url: ducts/fluiducts/
+fluiduct-hardened-opaque:
+  name: Hardened Fluiduct (Opaque)
+  sprite: [10, 31]
+  site: td-docs
+  url: ducts/fluiducts/
+fluiduct-energy:
+  name: Signalum-Plated Fluiduct
+  sprite: [11, 31]
+  site: td-docs
+  url: ducts/fluiducts/
+fluiduct-energy-opaque:
+  name: Signalum-Plated Fluiduct (Opaque)
+  sprite: [12, 31]
+  site: td-docs
+  url: ducts/fluiducts/
+fluiduct-super:
+  name: Super-Laminar Fluiduct
+  sprite: [13, 31]
+  site: td-docs
+  url: ducts/fluiducts/
+fluiduct-super-opaque:
+  name: Super-Laminar Fluiduct (Opaque)
+  sprite: [14, 31]
+  site: td-docs
+  url: ducts/fluiducts/
 flux-capacitor-basic:
   name: Flux Capacitor (Basic)
   sprite: [1, 28]
@@ -863,6 +993,56 @@ flux-capacitor-resonant:
   sprite: [5, 28]
   site: te-docs
   url: storage/flux-capacitor/
+fluxduct-basic:
+  name: Leadstone Fluxduct
+  sprite: [13, 30]
+  site: td-docs
+  url: ducts/fluxducts/
+fluxduct-hardened:
+  name: Hardened Fluxduct
+  sprite: [14, 30]
+  site: td-docs
+  url: ducts/fluxducts/
+fluxduct-reinforced:
+  name: Redstone Energy Fluxduct
+  sprite: [15, 30]
+  site: td-docs
+  url: ducts/fluxducts/
+fluxduct-reinforced-empty:
+  name: Redstone Energy Fluxduct (Empty)
+  sprite: [3, 31]
+  site: td-docs
+  url: ducts/fluxducts/
+fluxduct-signalum:
+  name: Signalum Fluxduct
+  sprite: [0, 31]
+  site: td-docs
+  url: ducts/fluxducts/
+fluxduct-signalum-empty:
+  name: Signalum Fluxduct (Empty)
+  sprite: [4, 31]
+  site: td-docs
+  url: ducts/fluxducts/
+fluxduct-resonant:
+  name: Resonant Fluxduct
+  sprite: [1, 31]
+  site: td-docs
+  url: ducts/fluxducts/
+fluxduct-resonant-empty:
+  name: Resonant Fluxduct (Empty)
+  sprite: [5, 31]
+  site: td-docs
+  url: ducts/fluxducts/
+fluxduct-super:
+  name: Cryo-Stabilized Fluxduct
+  sprite: [2, 31]
+  site: td-docs
+  url: ducts/fluxducts/
+fluxduct-super-empty:
+  name: Cryo-Stabilized Fluxduct (Empty)
+  sprite: [6, 31]
+  site: td-docs
+  url: ducts/fluxducts/
 forge-lexicon:
   name: Forge Lexicon
   sprite: [8, 11]
@@ -988,6 +1168,11 @@ glass:
   sprite: [3, 11]
   site: mc-wiki
   url: Glass
+granite-polished:
+  name: Polished Granite
+  sprite: [0, 34]
+  site: mc-wiki
+  url: Polished_Granite
 gray-dye:
   name: Gray Dye
   sprite: [8, 5]
@@ -1323,6 +1508,46 @@ ink-sac:
   sprite: [0, 5]
   site: mc-wiki
   url: Ink_Sac
+itemduct:
+  name: Itemduct
+  sprite: [15, 31]
+  site: td-docs
+  url: ducts/itemducts/
+itemduct-opaque:
+  name: Itemduct (Opaque)
+  sprite: [0, 32]
+  site: td-docs
+  url: ducts/itemducts/
+itemduct-fast:
+  name: Impulse Itemduct
+  sprite: [1, 32]
+  site: td-docs
+  url: ducts/itemducts/
+itemduct-fast-opaque:
+  name: Impulse Itemduct (Opaque)
+  sprite: [2, 32]
+  site: td-docs
+  url: ducts/itemducts/
+itemduct-energy:
+  name: Signalum-Plated Itemduct
+  sprite: [3, 32]
+  site: td-docs
+  url: ducts/itemducts/
+itemduct-energy-opaque:
+  name: Signalum-Plated Itemduct (Opaque)
+  sprite: [4, 32]
+  site: td-docs
+  url: ducts/itemducts/
+itemduct-energy-fast:
+  name: Signalum-Plated Impulse Itemduct
+  sprite: [5, 32]
+  site: td-docs
+  url: ducts/itemducts/
+itemduct-energy-fast-opaque:
+  name: Signalum-Plated Impulse Itemduct (Opaque)
+  sprite: [6, 32]
+  site: td-docs
+  url: ducts/itemducts/
 lapis-lazuli:
   name: Lapis Lazuli
   sprite: [4, 5]
@@ -1413,11 +1638,21 @@ magenta-dye:
   sprite: [13, 5]
   site: mc-wiki
   url: Magenta_Dye
+moss-stone:
+  name: Moss Stone
+  sprite: [14, 33]
+  site: mc-wiki
+  url: Moss_Stone
 multimeter:
   name: Multimeter
   sprite: [6, 11]
   site: tf-docs
   url: items/multimeter/
+nether-brick:
+  name: Nether Brick
+  sprite: [12, 33]
+  site: mc-wiki
+  url: Nether_Brick
 niter:
   name: Niter
   sprite: [10, 15]
@@ -1528,6 +1763,11 @@ nugget-tin:
   sprite: [1, 10]
   site: tf-docs
   url: metal-nuggets/tin-nugget/
+obsidian:
+  name: Obsidian
+  sprite: [13, 33]
+  site: mc-wiki
+  url: Obsidian
 oil-sand:
   name: Oil Sand
   sprite: [10, 7]
@@ -1948,6 +2188,11 @@ sand:
   sprite: [6, 8]
   site: mc-wiki
   url: Sand
+sandstone:
+  name: Sandstone
+  sprite: [11, 33]
+  site: mc-wiki
+  url: Sandstone
 satchel-basic:
   name: Satchel (Basic)
   sprite: [6, 30]
@@ -2333,6 +2578,11 @@ slag-rich:
   sprite: [15, 7]
   site: tf-docs
   url: materials/rich-slag/
+stone:
+  name: Stone
+  sprite: [9, 33]
+  site: mc-wiki
+  url: Stone
 storage-block-aluminum:
   name: Aluminum Block
   sprite: [4, 6]
@@ -2423,6 +2673,11 @@ strongbox-basic:
   sprite: [13, 27]
   site: te-docs
   url: storage/strongbox/
+structuralduct:
+  name: Structuralduct
+  sprite: [7, 32]
+  site: td-docs
+  url: ducts/structuralduct/
 sulfur:
   name: Sulfur
   sprite: [10, 0]
@@ -2513,6 +2768,26 @@ upgrade-kit-resonant:
   sprite: [9, 28]
   site: te-docs
   url: tiers-and-augments/upgrade-kits/
+viaduct:
+  name: Viaduct
+  sprite: [8, 32]
+  site: td-docs
+  url: ducts/viaducts/
+viaduct-frame:
+  name: Viaduct (Untreated)
+  sprite: [11, 32]
+  site: td-docs
+  url: ducts/viaducts/
+viaduct-long-range:
+  name: Long Range Viaduct
+  sprite: [9, 32]
+  site: td-docs
+  url: ducts/viaducts/
+viaduct-long-range-linking:
+  name: Long Range Linking Viaduct
+  sprite: [10, 32]
+  site: td-docs
+  url: ducts/viaducts/
 wood-log-birch:
   name: Birch Wood
   sprite: [0, 0]
