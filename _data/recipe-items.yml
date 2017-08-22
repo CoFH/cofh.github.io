@@ -273,6 +273,66 @@ bone-meal:
   sprite: [15, 5]
   site: mc-wiki
   url: Bone_Meal
+boots-aluminum:
+  name: Aluminum Boots
+  sprite: [2, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-bronze:
+  name: Bronze Boots
+  sprite: [3, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-constantan:
+  name: Constantan Boots
+  sprite: [4, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-copper:
+  name: Copper Boots
+  sprite: [5, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-electrum:
+  name: Electrum Boots
+  sprite: [6, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-invar:
+  name: Invar Boots
+  sprite: [7, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-lead:
+  name: Lead Boots
+  sprite: [8, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-nickel:
+  name: Nickel Boots
+  sprite: [9, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-platinum:
+  name: Platinum Boots
+  sprite: [10, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-silver:
+  name: Silver Boots
+  sprite: [11, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-steel:
+  name: Steel Boots
+  sprite: [12, 38]
+  site: tf-docs
+  url: equipment/armor/
+boots-tin:
+  name: Tin Boots
+  sprite: [13, 38]
+  site: tf-docs
+  url: equipment/armor/
 bow-aluminum:
   name: Aluminum Reinforced Bow
   sprite: [0, 17]
@@ -368,6 +428,66 @@ cactus-green:
   sprite: [2, 5]
   site: mc-wiki
   url: Cactus_Green
+chestplate-aluminum:
+  name: Aluminum Chestplate
+  sprite: [10, 36]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-bronze:
+  name: Bronze Chestplate
+  sprite: [11, 36]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-constantan:
+  name: Constantan Chestplate
+  sprite: [12, 36]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-copper:
+  name: Copper Chestplate
+  sprite: [13, 36]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-electrum:
+  name: Electrum Chestplate
+  sprite: [14, 36]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-invar:
+  name: Invar Chestplate
+  sprite: [15, 36]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-lead:
+  name: Lead Chestplate
+  sprite: [0, 37]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-nickel:
+  name: Nickel Chestplate
+  sprite: [1, 37]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-platinum:
+  name: Platinum Chestplate
+  sprite: [2, 37]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-silver:
+  name: Silver Chestplate
+  sprite: [3, 37]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-steel:
+  name: Steel Chestplate
+  sprite: [4, 37]
+  site: tf-docs
+  url: equipment/armor/
+chestplate-tin:
+  name: Tin Chestplate
+  sprite: [5, 37]
+  site: tf-docs
+  url: equipment/armor/
 cinnabar:
   name: Cinnabar
   sprite: [0, 8]
@@ -1006,87 +1126,87 @@ flux-crystal:
 flux-infused-axe:
   name: Flux-Infused Axe
   sprite: [14, 34]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-axe/
 flux-infused-battlewrench:
   name: Flux-Infused BattleWrench
   sprite: [15, 34]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-battlewrench/
 flux-infused-boots:
   name: Flux-Infused Boots
   sprite: [13, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-armor/
 flux-infused-bow:
   name: Flux-Infused Bow
   sprite: [0, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-bow/
 flux-infused-chestplate:
   name: Flux-Infused Chestplate
   sprite: [11, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-armor/
 flux-infused-fishing-rod:
   name: Flux-Infused Fishing Rod
   sprite: [1, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-fishing-rod/
 flux-infused-hammer:
   name: Flux-Infused Hammer
   sprite: [2, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-hammer/
 flux-infused-helmet:
   name: Flux-Infused Helm
   sprite: [10, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-armor/
 flux-infused-leggings:
   name: Flux-Infused Leggings
   sprite: [12, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-armor/
 flux-infused-obsidian-rod:
   name: Flux-Infused Obsidian Rod
   sprite: [12, 34]
-  site: ra-wiki
+  site: ra-docs
   url: materials/flux-infused-obsidian-rod/
 flux-infused-pickaxe:
   name: Flux-Infused Pickaxe
   sprite: [3, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-pickaxe/
 flux-infused-quiver:
   name: Flux-Infused Quiver
   sprite: [9, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-quiver/
 flux-infused-shield:
   name: Flux-Infused Shield
   sprite: [4, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-shield/
 flux-infused-shovel:
   name: Flux-Infused Shovel
   sprite: [5, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-shovel/
 flux-infused-sickle:
   name: Flux-Infused Sickle
   sprite: [6, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-sickle/
 flux-infused-sword:
   name: Flux-Infused Sword
   sprite: [7, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-sword/
 flux-infused-wrench:
   name: Flux-Infused OmniWrench
   sprite: [8, 35]
-  site: ra-wiki
+  site: ra-docs
   url: equipment/flux-infused-omniwrench/
 fluxduct-basic:
   name: Leadstone Fluxduct
@@ -1141,7 +1261,7 @@ fluxduct-super-empty:
 fluxed-armor-plating:
   name: Fluxed Armor Plating
   sprite: [11, 34]
-  site: ra-wiki
+  site: ra-docs
   url: materials/fluxed-armor-plating/
 forge-lexicon:
   name: Forge Lexicon
@@ -1453,6 +1573,66 @@ hardened-tin-glass:
   sprite: [14, 1]
   site: tf-docs
   url: blocks/hardened-glass/
+helmet-aluminum:
+  name: Aluminum Helmet
+  sprite: [14, 35]
+  site: tf-docs
+  url: equipment/armor/
+helmet-bronze:
+  name: Bronze Helmet
+  sprite: [15, 35]
+  site: tf-docs
+  url: equipment/armor/
+helmet-constantan:
+  name: Constantan Helmet
+  sprite: [0, 36]
+  site: tf-docs
+  url: equipment/armor/
+helmet-copper:
+  name: Copper Helmet
+  sprite: [1, 36]
+  site: tf-docs
+  url: equipment/armor/
+helmet-electrum:
+  name: Electrum Helmet
+  sprite: [2, 36]
+  site: tf-docs
+  url: equipment/armor/
+helmet-invar:
+  name: Invar Helmet
+  sprite: [3, 36]
+  site: tf-docs
+  url: equipment/armor/
+helmet-lead:
+  name: Lead Helmet
+  sprite: [4, 36]
+  site: tf-docs
+  url: equipment/armor/
+helmet-nickel:
+  name: Nickel Helmet
+  sprite: [5, 36]
+  site: tf-docs
+  url: equipment/armor/
+helmet-platinum:
+  name: Platinum Helmet
+  sprite: [6, 36]
+  site: tf-docs
+  url: equipment/armor/
+helmet-silver:
+  name: Silver Helmet
+  sprite: [7, 36]
+  site: tf-docs
+  url: equipment/armor/
+helmet-steel:
+  name: Steel Helmet
+  sprite: [8, 36]
+  site: tf-docs
+  url: equipment/armor/
+helmet-tin:
+  name: Tin Helmet
+  sprite: [9, 36]
+  site: tf-docs
+  url: equipment/armor/
 hoe-aluminum:
   name: Aluminum Hoe
   sprite: [1, 20]
@@ -1663,6 +1843,66 @@ lapis-lazuli:
   sprite: [4, 5]
   site: mc-wiki
   url: Lapis_Lazuli
+leggings-aluminum:
+  name: Aluminum Leggings
+  sprite: [6, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-bronze:
+  name: Bronze Leggings
+  sprite: [7, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-constantan:
+  name: Constantan Leggings
+  sprite: [8, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-copper:
+  name: Copper Leggings
+  sprite: [9, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-electrum:
+  name: Electrum Leggings
+  sprite: [10, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-invar:
+  name: Invar Leggings
+  sprite: [11, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-lead:
+  name: Lead Leggings
+  sprite: [12, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-nickel:
+  name: Nickel Leggings
+  sprite: [13, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-platinum:
+  name: Platinum Leggings
+  sprite: [14, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-silver:
+  name: Silver Leggings
+  sprite: [15, 37]
+  site: tf-docs
+  url: equipment/armor/
+leggings-steel:
+  name: Steel Leggings
+  sprite: [0, 38]
+  site: tf-docs
+  url: equipment/armor/
+leggings-tin:
+  name: Tin Leggings
+  sprite: [1, 38]
+  site: tf-docs
+  url: equipment/armor/
 light-blue-dye:
   name: Light Blue Dye
   sprite: [12, 5]
@@ -1886,7 +2126,7 @@ obsidian:
 obsidian-rod:
   name: Obsidian Rod
   sprite: [13, 34]
-  site: ra-wiki
+  site: ra-docs
   url: materials/obsidian-rod/
 oil-sand:
   name: Oil Sand
@@ -2741,12 +2981,12 @@ storage-block-enderium:
 storage-block-flux-crystal:
   name: Flux Crystal Block
   sprite: [10, 34]
-  site: ra-wiki
+  site: ra-docs
   url: materials/flux-crystal-block/
 storage-block-fluxed-electrum:
   name: Fluxed Electrum Block
   sprite: [9, 34]
-  site: ra-wiki
+  site: ra-docs
   url: materials/fluxed-electrum-block/
 storage-block-invar:
   name: Invar Block
@@ -2926,27 +3166,27 @@ viaduct-long-range-linking:
 watering-can-basic:
   name: Watering Can (Basic)
   sprite: [4, 34]
-  site: tc-wiki
+  site: tc-docs
   url: items/watering-can/
 watering-can-hardened:
   name: Watering Can (Hardened)
   sprite: [5, 34]
-  site: tc-wiki
+  site: tc-docs
   url: items/watering-can/
 watering-can-reinforced:
   name: Watering Can (Reinforced)
   sprite: [6, 34]
-  site: tc-wiki
+  site: tc-docs
   url: items/watering-can/
 watering-can-signalum:
   name: Watering Can (Signalum)
   sprite: [7, 34]
-  site: tc-wiki
+  site: tc-docs
   url: items/watering-can/
 watering-can-resonant:
   name: Watering Can (Resonant)
   sprite: [8, 34]
-  site: tc-wiki
+  site: tc-docs
   url: items/watering-can/
 wood-log-birch:
   name: Birch Wood
