@@ -468,6 +468,7 @@ thermal-expansion:
       - title: "Energy Cell Frame"
       - title: "Florb"
         url: "/thermal-expansion/items/florb/"
+      - title: "Magmatic Florb"
   - title: "Other"
     items:
       - title: "Mod Support"

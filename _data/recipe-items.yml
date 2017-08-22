@@ -1,3 +1,168 @@
+augment-dynamo-boiler:
+  name: 'Augment: Boiler Conversion'
+  animated: true
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-coil-duct:
+  name: 'Augment: Transmission Coil Ducting'
+  sprite: [13, 28]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-compression-coolant:
+  name: 'Augment: Closed-Loop Cooling'
+  sprite: [14, 28]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-compression-fuel:
+  name: 'Augment: Ignition Plugs'
+  sprite: [15, 28]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-efficiency:
+  name: 'Augment: Fuel Catalyzer'
+  animated: true
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-magmatic-coolant:
+  name: 'Augment: Isentropic Reservoir'
+  sprite: [0, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-numismatic-gem:
+  name: 'Augment: Lapidary Calibration'
+  sprite: [1, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-power:
+  name: 'Augment: Auxiliary Transmission Coil'
+  sprite: [2, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-reactant-elemental:
+  name: 'Augment: Elemental Catalyzer'
+  sprite: [3, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-steam-turbine:
+  name: 'Augment: Turbine Conversion'
+  sprite: [4, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-dynamo-throttle:
+  name: 'Augment: Excitation Field Limiter'
+  sprite: [5, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-charger-throughput:
+  name: 'Augment: Flux Linkage Concentrator'
+  sprite: [6, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-compactor-mint:
+  name: 'Augment: Numismatic Press'
+  sprite: [7, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-crucible-lava:
+  name: 'Augment: Pyroconvective Loop'
+  animated: true
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-extruder-andesite:
+  name: 'Augment: Andesitic Subduction'
+  sprite: [8, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-extruder-diorite:
+  name: 'Augment: Dioritic Subduction'
+  sprite: [9, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-extruder-granite:
+  name: 'Augment: Granitic Subduction'
+  sprite: [10, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-extruder-no-water:
+  name: 'Augment: Pyroclastic Injection'
+  animated: true
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-furnace-food:
+  name: 'Augment: Trivection Chamber'
+  sprite: [11, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-furnace-ore:
+  name: 'Augment: Flux Anodizers'
+  sprite: [12, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-furnace-pyrolysis:
+  name: 'Augment: Pyrolytic Conversion'
+  sprite: [13, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-insolator-end:
+  name: 'Augment: Ender Substrate'
+  sprite: [14, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-insolator-mycelium:
+  name: 'Augment: Mycelium Substrate'
+  sprite: [15, 29]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-insolator-nether:
+  name: 'Augment: Nether Substrate'
+  sprite: [0, 30]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-insolator-tree:
+  name: 'Augment: Sapling Infuser'
+  sprite: [1, 30]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-power:
+  name: 'Augment: Auxiliary Reception Coil'
+  sprite: [2, 30]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-precipitator-packed-ice:
+  name: 'Augment: Permafrost Compressor'
+  sprite: [3, 30]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-precipitator-snow-layer:
+  name: 'Augment: Flurry Stratum'
+  sprite: [4, 30]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-pulverizer-petrotheum:
+  name: 'Augment: Tectonic Initiator'
+  animated: true
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-sawmill-tapper:
+  name: 'Augment: Resin Funnel'
+  animated: true
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-secondary:
+  name: 'Augment: Auxiliary Sieve'
+  sprite: [5, 30]
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-secondary-null:
+  name: 'Augment: Nullification Chamber'
+  animated: true
+  site: te-docs
+  url: tiers-and-augments/augments/
+augment-machine-smelter-pyrotheum:
+  name: 'Augment: Pyro-Concentrator'
+  animated: true
+  site: te-docs
+  url: tiers-and-augments/augments/
 axe-aluminum:
   name: Aluminum Axe
   sprite: [4, 16]
@@ -183,6 +348,11 @@ bow-tin:
   sprite: [15, 17]
   site: tf-docs
   url: equipment/bows/
+cache-basic:
+  name: Cache (Basic)
+  sprite: [12, 27]
+  site: te-docs
+  url: storage/cache/
 cactus-green:
   name: Cactus Green
   sprite: [2, 5]
@@ -313,6 +483,21 @@ coin-tin:
   sprite: [13, 12]
   site: tf-docs
   url: coins/tin-coin/
+conversion-kit-reinforced:
+  name: Reinforced Conversion Kit
+  sprite: [10, 28]
+  site: te-docs
+  url: tiers-and-augments/conversion-kits/
+conversion-kit-signalum:
+  name: Signalum Conversion Kit
+  sprite: [11, 28]
+  site: te-docs
+  url: tiers-and-augments/conversion-kits/
+conversion-kit-resonant:
+  name: Resonant Conversion Kit
+  sprite: [12, 28]
+  site: te-docs
+  url: tiers-and-augments/conversion-kits/
 crafting-table:
   name: Crafting Table
   sprite: [4, 0]
@@ -333,6 +518,31 @@ dandelion-yellow:
   sprite: [11, 5]
   site: mc-wiki
   url: Dandelion_Yellow
+device-heat-sink:
+  name: Thermal Mediator
+  sprite: [1, 27]
+  site: te-docs
+  url: devices/thermal-mediator/
+device-item-buffer:
+  name: Item Allocator
+  sprite: [3, 27]
+  site: te-docs
+  url: devices/item-allocator/
+device-nullifier:
+  name: Nullifier
+  sprite: [0, 27]
+  site: te-docs
+  url: devices/nullifier/
+device-tapper:
+  name: Arboreal Extractor
+  sprite: [2, 27]
+  site: te-docs
+  url: devices/arboreal-extractor/
+device-water-gen:
+  name: Aqueous Accumulator
+  sprite: [15, 26]
+  site: te-docs
+  url: devices/aqueous-accumulator/
 dust-aerotheum:
   name: Aerotheum Dust
   animated: true
@@ -463,11 +673,46 @@ dust-tin:
   sprite: [14, 3]
   site: tf-docs
   url: metal-dusts/pulverized-tin/
+dynamo-compression:
+  name: Compression Dynamo
+  sprite: [6, 27]
+  site: te-docs
+  url: dynamos/compression-dynamo/
+dynamo-enervation:
+  name: Enervation Dynamo
+  sprite: [8, 27]
+  site: te-docs
+  url: dynamos/enervation-dynamo/
+dynamo-magmatic:
+  name: Magmatic Dynamo
+  sprite: [5, 27]
+  site: te-docs
+  url: dynamos/magmatic-dynamo/
+dynamo-numismatic:
+  name: Numismatic Dynamo
+  sprite: [9, 27]
+  site: te-docs
+  url: dynamos/numismatic-dynamo/
+dynamo-reactant:
+  name: Reactant Dynamo
+  sprite: [7, 27]
+  site: te-docs
+  url: dynamos/reactant-dynamo/
+dynamo-steam:
+  name: Steam Dynamo
+  sprite: [4, 27]
+  site: te-docs
+  url: dynamos/steam-dynamo/
 ender-pearl:
   name: Ender Pearl
   sprite: [12, 9]
   site: mc-wiki
   url: Ender_Pearl
+energy-cell-basic:
+  name: Energy Cell (Basic)
+  sprite: [10, 27]
+  site: te-docs
+  url: storage/energy-cell/
 eye-of-ender:
   name: Eye of Ender
   sprite: [13, 9]
@@ -583,11 +828,61 @@ flint:
   sprite: [9, 8]
   site: mc-wiki
   url: Flint
+florb:
+  name: Florb
+  sprite: [11, 30]
+  site: te-docs
+  url: items/florb/
+florb-magmatic:
+  name: Magmatic Florb
+  sprite: [12, 30]
+  site: te-docs
+  url: items/magmatic-florb/
+flux-capacitor-basic:
+  name: Flux Capacitor (Basic)
+  sprite: [1, 28]
+  site: te-docs
+  url: storage/flux-capacitor/
+flux-capacitor-hardened:
+  name: Flux Capacitor (Hardened)
+  sprite: [2, 28]
+  site: te-docs
+  url: storage/flux-capacitor/
+flux-capacitor-reinforced:
+  name: Flux Capacitor (Reinforced)
+  sprite: [3, 28]
+  site: te-docs
+  url: storage/flux-capacitor/
+flux-capacitor-signalum:
+  name: Flux Capacitor (Signalum)
+  sprite: [4, 28]
+  site: te-docs
+  url: storage/flux-capacitor/
+flux-capacitor-resonant:
+  name: Flux Capacitor (Resonant)
+  sprite: [5, 28]
+  site: te-docs
+  url: storage/flux-capacitor/
 forge-lexicon:
   name: Forge Lexicon
   sprite: [8, 11]
   site: tf-docs
   url: items/forge-lexicon/
+frame-device:
+  name: Device Frame
+  sprite: [15, 27]
+  site: te-docs
+  url: items/device-frame/
+frame-energy-cell:
+  name: Energy Cell Frame
+  sprite: [0, 28]
+  site: te-docs
+  url: items/energy-cell-frame/
+frame-machine:
+  name: Machine Frame
+  sprite: [14, 27]
+  site: te-docs
+  url: items/machine-frame/
 gear-aluminum:
   name: Aluminum Gear
   sprite: [0, 13]
@@ -1048,6 +1343,71 @@ lime-dye:
   sprite: [10, 5]
   site: mc-wiki
   url: Lime_Dye
+machine-centrifuge:
+  name: Centrifugal Separator
+  sprite: [12, 26]
+  site: te-docs
+  url: machines/centrifugal-separator/
+machine-charger:
+  name: Energetic Infuser
+  sprite: [11, 26]
+  site: te-docs
+  url: machines/compactor/
+machine-compactor:
+  name: Compactor
+  sprite: [7, 26]
+  site: te-docs
+  url: machines/compactor/
+machine-crucible:
+  name: Magma Crucible
+  sprite: [8, 26]
+  site: te-docs
+  url: machines/magma-crucible/
+machine-extruder:
+  name: Igneous Extruder
+  sprite: [14, 26]
+  site: te-docs
+  url: machines/igneous-extruder/
+machine-insolator:
+  name: Phytogenic Insolator
+  sprite: [6, 26]
+  site: te-docs
+  url: machines/phytogenic-insolator/
+machine-furnace:
+  name: Redstone Furnace
+  sprite: [2, 26]
+  site: te-docs
+  url: machines/redstone-furnace/
+machine-precipitator:
+  name: Glacial Precipicator
+  sprite: [13, 26]
+  site: te-docs
+  url: machines/glacial-precipitator/
+machine-pulverizer:
+  name: Pulverizer
+  sprite: [3, 26]
+  site: te-docs
+  url: machines/pulverizer/
+machine-refinery:
+  name: Fractionating Still
+  sprite: [9, 26]
+  site: te-docs
+  url: machines/fractionating-still/
+machine-sawmill:
+  name: Sawmill
+  sprite: [4, 26]
+  site: te-docs
+  url: machines/sawmill/
+machine-smelter:
+  name: Induction Smelter
+  sprite: [5, 26]
+  site: te-docs
+  url: machines/induction-smelter/
+machine-transposer:
+  name: Fluid Transposer
+  sprite: [10, 26]
+  site: te-docs
+  url: machines/fluid-transposer/
 magenta-dye:
   name: Magenta Dye
   sprite: [13, 5]
@@ -1323,6 +1683,11 @@ pickaxe-tin:
   sprite: [8, 21]
   site: tf-docs
   url: equipment/pickaxes/
+pink-dye:
+  name: Pink Dye
+  sprite: [9, 5]
+  site: mc-wiki
+  url: Pink_Dye
 plate-aluminum:
   name: Aluminum Plate
   sprite: [3, 14]
@@ -1418,11 +1783,11 @@ plate-tin:
   sprite: [5, 15]
   site: tf-docs
   url: plates/tin-plate/
-pink-dye:
-  name: Pink Dye
-  sprite: [9, 5]
-  site: mc-wiki
-  url: Pink_Dye
+portable-tank-basic:
+  name: Portable Tank (Basic)
+  sprite: [11, 27]
+  site: te-docs
+  url: storage/portable-tank/
 purple-dye:
   name: Purple Dye
   sprite: [5, 5]
@@ -1583,6 +1948,31 @@ sand:
   sprite: [6, 8]
   site: mc-wiki
   url: Sand
+satchel-basic:
+  name: Satchel (Basic)
+  sprite: [6, 30]
+  site: te-docs
+  url: storage/satchel/
+satchel-hardened:
+  name: Satchel (Hardened)
+  sprite: [7, 30]
+  site: te-docs
+  url: storage/satchel/
+satchel-reinforced:
+  name: Satchel (Reinforced)
+  sprite: [8, 30]
+  site: te-docs
+  url: storage/satchel/
+satchel-signalum:
+  name: Satchel (Signalum)
+  sprite: [9, 30]
+  site: te-docs
+  url: storage/satchel/
+satchel-resonant:
+  name: Satchel (Resonant)
+  sprite: [10, 30]
+  site: te-docs
+  url: storage/satchel/
 sawdust:
   name: Sawdust
   sprite: [11, 15]
@@ -2028,6 +2418,11 @@ storage-block-tin:
   sprite: [1, 6]
   site: tf-docs
   url: metal-blocks/tin-block/
+strongbox-basic:
+  name: Strongbox (Basic)
+  sprite: [13, 27]
+  site: te-docs
+  url: storage/strongbox/
 sulfur:
   name: Sulfur
   sprite: [10, 0]
@@ -2098,6 +2493,26 @@ tar:
   sprite: [8, 8]
   site: tf-docs
   url: materials/tar/
+upgrade-kit-hardened:
+  name: Hardened Upgrade Kit
+  sprite: [6, 28]
+  site: te-docs
+  url: tiers-and-augments/upgrade-kits/
+upgrade-kit-reinforced:
+  name: Reinforced Upgrade Kit
+  sprite: [7, 28]
+  site: te-docs
+  url: tiers-and-augments/upgrade-kits/
+upgrade-kit-signalum:
+  name: Signalum Upgrade Kit
+  sprite: [8, 28]
+  site: te-docs
+  url: tiers-and-augments/upgrade-kits/
+upgrade-kit-resonant:
+  name: Resonant Upgrade Kit
+  sprite: [9, 28]
+  site: te-docs
+  url: tiers-and-augments/upgrade-kits/
 wood-log-birch:
   name: Birch Wood
   sprite: [0, 0]
