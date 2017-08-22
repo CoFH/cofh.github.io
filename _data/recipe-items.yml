@@ -673,6 +673,11 @@ dust-enderium:
   sprite: [3, 3]
   site: tf-docs
   url: metal-dusts/enderium-blend/
+dust-fluxed-electrum:
+  name: Fluxed Electrum Blend
+  animated: true
+  site: ra-docs
+  url: materials/fluxed-electrum-blend/
 dust-gold:
   name: Pulverized Gold
   sprite: [12, 8]
@@ -993,6 +998,96 @@ flux-capacitor-resonant:
   sprite: [5, 28]
   site: te-docs
   url: storage/flux-capacitor/
+flux-crystal:
+  name: Flux Crystal
+  animated: true
+  site: ra-docs
+  url: materials/flux-crystal/
+flux-infused-axe:
+  name: Flux-Infused Axe
+  sprite: [14, 34]
+  site: ra-wiki
+  url: equipment/flux-infused-axe/
+flux-infused-battlewrench:
+  name: Flux-Infused BattleWrench
+  sprite: [15, 34]
+  site: ra-wiki
+  url: equipment/flux-infused-battlewrench/
+flux-infused-boots:
+  name: Flux-Infused Boots
+  sprite: [13, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-armor/
+flux-infused-bow:
+  name: Flux-Infused Bow
+  sprite: [0, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-bow/
+flux-infused-chestplate:
+  name: Flux-Infused Chestplate
+  sprite: [11, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-armor/
+flux-infused-fishing-rod:
+  name: Flux-Infused Fishing Rod
+  sprite: [1, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-fishing-rod/
+flux-infused-hammer:
+  name: Flux-Infused Hammer
+  sprite: [2, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-hammer/
+flux-infused-helmet:
+  name: Flux-Infused Helm
+  sprite: [10, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-armor/
+flux-infused-leggings:
+  name: Flux-Infused Leggings
+  sprite: [12, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-armor/
+flux-infused-obsidian-rod:
+  name: Flux-Infused Obsidian Rod
+  sprite: [12, 34]
+  site: ra-wiki
+  url: materials/flux-infused-obsidian-rod/
+flux-infused-pickaxe:
+  name: Flux-Infused Pickaxe
+  sprite: [3, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-pickaxe/
+flux-infused-quiver:
+  name: Flux-Infused Quiver
+  sprite: [9, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-quiver/
+flux-infused-shield:
+  name: Flux-Infused Shield
+  sprite: [4, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-shield/
+flux-infused-shovel:
+  name: Flux-Infused Shovel
+  sprite: [5, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-shovel/
+flux-infused-sickle:
+  name: Flux-Infused Sickle
+  sprite: [6, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-sickle/
+flux-infused-sword:
+  name: Flux-Infused Sword
+  sprite: [7, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-sword/
+flux-infused-wrench:
+  name: Flux-Infused OmniWrench
+  sprite: [8, 35]
+  site: ra-wiki
+  url: equipment/flux-infused-omniwrench/
 fluxduct-basic:
   name: Leadstone Fluxduct
   sprite: [13, 30]
@@ -1043,6 +1138,11 @@ fluxduct-super-empty:
   sprite: [6, 31]
   site: td-docs
   url: ducts/fluxducts/
+fluxed-armor-plating:
+  name: Fluxed Armor Plating
+  sprite: [11, 34]
+  site: ra-wiki
+  url: materials/fluxed-armor-plating/
 forge-lexicon:
   name: Forge Lexicon
   sprite: [8, 11]
@@ -1093,6 +1193,11 @@ gear-enderium:
   sprite: [5, 13]
   site: tf-docs
   url: gears/enderium-gear/
+gear-fluxed-electrum:
+  name: Fluxed Electrum Gear
+  animated: true
+  site: ra-docs
+  url: materials/fluxed-electrum-gear/
 gear-gold:
   name: Gold Gear
   sprite: [6, 13]
@@ -1438,6 +1543,11 @@ ingot-enderium:
   sprite: [0, 1]
   site: tf-docs
   url: ingots/enderium-ingot/
+ingot-fluxed-electrum:
+  name: Fluxed Electrum Ingot
+  animated: true
+  site: ra-docs
+  url: materials/fluxed-electrum-ingot/
 ingot-gold:
   name: Gold Ingot
   sprite: [10, 8]
@@ -1698,6 +1808,11 @@ nugget-enderium:
   sprite: [0, 11]
   site: tf-docs
   url: metal-nuggets/enderium-nugget/
+nugget-fluxed-electrum:
+  name: Fluxed Electrum Nugget
+  animated: true
+  site: ra-docs
+  url: materials/fluxed-electrum-nugget/
 nugget-gold:
   name: Gold Nugget
   sprite: [15, 9]
@@ -1768,6 +1883,11 @@ obsidian:
   sprite: [13, 33]
   site: mc-wiki
   url: Obsidian
+obsidian-rod:
+  name: Obsidian Rod
+  sprite: [13, 34]
+  site: ra-wiki
+  url: materials/obsidian-rod/
 oil-sand:
   name: Oil Sand
   sprite: [10, 7]
@@ -1958,6 +2078,11 @@ plate-enderium:
   sprite: [8, 14]
   site: tf-docs
   url: plates/enderium-plate/
+plate-fluxed-electrum:
+  name: Fluxed Electrum Plate
+  animated: true
+  site: ra-docs
+  url: materials/fluxed-electrum-plate/
 plate-gold:
   name: Gold Plate
   sprite: [9, 14]
@@ -2613,6 +2738,16 @@ storage-block-enderium:
   sprite: [0, 7]
   site: tf-docs
   url: metal-blocks/enderium-block/
+storage-block-flux-crystal:
+  name: Flux Crystal Block
+  sprite: [10, 34]
+  site: ra-wiki
+  url: materials/flux-crystal-block/
+storage-block-fluxed-electrum:
+  name: Fluxed Electrum Block
+  sprite: [9, 34]
+  site: ra-wiki
+  url: materials/fluxed-electrum-block/
 storage-block-invar:
   name: Invar Block
   sprite: [11, 6]
