@@ -2788,6 +2788,31 @@ viaduct-long-range-linking:
   sprite: [10, 32]
   site: td-docs
   url: ducts/viaducts/
+watering-can-basic:
+  name: Watering Can (Basic)
+  sprite: [4, 34]
+  site: tc-wiki
+  url: items/watering-can/
+watering-can-hardened:
+  name: Watering Can (Hardened)
+  sprite: [5, 34]
+  site: tc-wiki
+  url: items/watering-can/
+watering-can-reinforced:
+  name: Watering Can (Reinforced)
+  sprite: [6, 34]
+  site: tc-wiki
+  url: items/watering-can/
+watering-can-signalum:
+  name: Watering Can (Signalum)
+  sprite: [7, 34]
+  site: tc-wiki
+  url: items/watering-can/
+watering-can-resonant:
+  name: Watering Can (Resonant)
+  sprite: [8, 34]
+  site: tc-wiki
+  url: items/watering-can/
 wood-log-birch:
   name: Birch Wood
   sprite: [0, 0]
