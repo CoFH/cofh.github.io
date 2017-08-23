@@ -12,7 +12,6 @@ crafting:
         - item: glass
         - item: paper
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-iron], item: [paper], item: [ingot-iron]]
@@ -28,7 +27,6 @@ crafting:
         - item: glass
         - item: paper
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-invar], item: [paper], item: [ingot-invar]]
@@ -44,7 +42,6 @@ crafting:
         - item: glass
         - item: paper
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-electrum], item: [paper], item: [ingot-electrum]]
@@ -60,7 +57,6 @@ crafting:
         - item: glass
         - item: paper
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-signalum], item: [paper], item: [ingot-signalum]]
@@ -76,7 +72,6 @@ crafting:
         - item: glass
         - item: paper
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-enderium], item: [paper], item: [ingot-enderium]]
@@ -92,7 +87,6 @@ crafting:
         - item: glass
         - item: eye-of-ender
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-iron], item: [eye-of-ender], item: [ingot-iron]]
@@ -108,7 +102,6 @@ crafting:
         - item: glass
         - item: eye-of-ender
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-invar], item: [eye-of-ender], item: [ingot-invar]]
@@ -124,7 +117,6 @@ crafting:
         - item: glass
         - item: eye-of-ender
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-electrum], item: [eye-of-ender], item: [ingot-electrum]]
@@ -140,7 +132,6 @@ crafting:
         - item: glass
         - item: eye-of-ender
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-signalum], item: [eye-of-ender], item: [ingot-signalum]]
@@ -156,7 +147,6 @@ crafting:
         - item: glass
         - item: eye-of-ender
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-enderium], item: [eye-of-ender], item: [ingot-enderium]]
@@ -219,7 +209,6 @@ crafting:
         - item: glass
         - item: redstone
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
@@ -235,7 +224,6 @@ crafting:
         - item: glass
         - item: redstone
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-invar], item: [redstone], item: [ingot-invar]]
@@ -251,7 +239,6 @@ crafting:
         - item: glass
         - item: redstone
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-electrum], item: [redstone], item: [ingot-electrum]]
@@ -267,7 +254,6 @@ crafting:
         - item: glass
         - item: redstone
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-signalum], item: [redstone], item: [ingot-signalum]]
@@ -283,7 +269,6 @@ crafting:
         - item: glass
         - item: redstone
       data:
-        shapeless: false
         rows:
           - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
           - [item: [ingot-enderium], item: [redstone], item: [ingot-enderium]]
@@ -366,86 +351,6 @@ smelting:
           item: [slag]
         output:
           item: [rockwool-light-gray]
-    servo-basic:
-      results:
-        - item: servo-basic
-      ingredients:
-        - item: nugget-iron
-        - item: ingot-iron
-        - item: glass
-        - item: redstone
-      data:
-        shapeless: false
-        rows:
-          - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
-          - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
-        result:
-          item: [servo-basic]
-          amount: 1
-    servo-hardened:
-      results:
-        - item: servo-hardened
-      ingredients:
-        - item: nugget-iron
-        - item: ingot-invar
-        - item: glass
-        - item: redstone
-      data:
-        shapeless: false
-        rows:
-          - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
-          - [item: [ingot-invar], item: [redstone], item: [ingot-invar]]
-        result:
-          item: [servo-hardened]
-          amount: 1
-    servo-reinforced:
-      results:
-        - item: servo-reinforced
-      ingredients:
-        - item: nugget-iron
-        - item: ingot-electrum
-        - item: glass
-        - item: redstone
-      data:
-        shapeless: false
-        rows:
-          - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
-          - [item: [ingot-electrum], item: [redstone], item: [ingot-electrum]]
-        result:
-          item: [servo-reinforced]
-          amount: 1
-    servo-signalum:
-      results:
-        - item: servo-signalum
-      ingredients:
-        - item: nugget-iron
-        - item: ingot-signalum
-        - item: glass
-        - item: redstone
-      data:
-        shapeless: false
-        rows:
-          - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
-          - [item: [ingot-signalum], item: [redstone], item: [ingot-signalum]]
-        result:
-          item: [servo-signalum]
-          amount: 1
-    servo-resonant:
-      results:
-        - item: servo-resonant
-      ingredients:
-        - item: nugget-iron
-        - item: ingot-enderium
-        - item: glass
-        - item: redstone
-      data:
-        shapeless: false
-        rows:
-          - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
-          - [item: [ingot-enderium], item: [redstone], item: [ingot-enderium]]
-        result:
-          item: [servo-resonant]
-          amount: 1
 
 redstone-furnace:
   name: Redstone Furnace
