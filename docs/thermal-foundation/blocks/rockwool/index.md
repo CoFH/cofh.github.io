@@ -13,9 +13,8 @@ recipes:
 ![Rockwool](/assets/images/thermal-foundation/rockwool.gif){:style="height: 128px"}
 
 
-**Rockwool** is a special type of [wool](https://minecraft.gamepedia.com/Wool)
-that isn't flammable and slightly more resistant to explosions. It is obtained
-by smelting [slag](/docs/thermal-foundation/materials/slag/) in a furnace.
+**Rockwool** is a fireproof and slightly more explosion resistant version of
+[wool](https://minecraft.gamepedia.com/Wool).
 
 
 Obtaining
