@@ -763,6 +763,11 @@ dust-bronze:
   sprite: [15, 2]
   site: tf-docs
   url: metal-dusts/bronze-blend/
+dust-charcoal:
+  name: Pulverized Charcoal
+  sprite: [15, 15]
+  site: tf-docs
+  url: materials/pulverized-charcoal/
 dust-coal:
   name: Pulverized Coal
   sprite: [3, 0]
