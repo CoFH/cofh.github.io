@@ -473,6 +473,11 @@ cactus-green:
   sprite: [2, 5]
   site: mc-wiki
   url: Cactus_Green
+charcoal:
+  name: Charcoal
+  sprite: [8, 42]
+  site: mc-wiki
+  url: Charcoal
 chest:
   name: Chest
   sprite: [1, 42]
@@ -563,6 +568,11 @@ clay:
   sprite: [3, 39]
   site: mc-wiki
   url: Clay
+coal:
+  name: Coal
+  sprite: [7, 42]
+  site: mc-wiki
+  url: Coal
 coal-coke:
   name: Coal Coke
   sprite: [13, 15]
