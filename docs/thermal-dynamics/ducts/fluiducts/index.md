@@ -1,5 +1,25 @@
 --- 
-title: Fluiducts 
+title: Fluiducts
+recipes:
+  crafting:
+    - fluiduct-basic
+    - fluiduct-basic-opaque
+    - fluiduct-basic-opaque-from-transparent
+    - fluiduct-basic-transparent-from-opaque
+    - fluiduct-hardened
+    - fluiduct-hardened-opaque
+    - fluiduct-hardened-opaque-from-transparent
+    - fluiduct-hardened-transparent-from-opaque
+    - fluiduct-energy-one
+    - fluiduct-energy-three
+    - fluiduct-energy-opaque-one
+    - fluiduct-energy-opaque-three
+    - fluiduct-energy-opaque-from-transparent
+    - fluiduct-energy-transparent-from-opaque
+    - fluiduct-super
+    - fluiduct-super-opaque
+    - fluiduct-super-opaque-from-transparent
+    - fluiduct-super-transparent-from-opaque
 --- 
 
 ![](/assets/images/thermal-dynamics/fluiducts.png "Regular, Hardened, Signalum-Plated and Super-Laminar")
@@ -8,74 +28,11 @@ title: Fluiducts
 
 Every type of Fluiduct has a transparent version and an opaque version. Opaque Fluiducts do not render any fluids that flow through them.
 
-## Crafting
+Obtaining
+---------
 
-**Fluiduct (Opaque)**  
-![](/assets/images/recipes/opaque-fluiduct.png "Fluiduct (Opaque) recipe")  
-Shaped Crafting
-
-*   2x [Copper](/docs/thermal-foundation/metals-and-alloys/copper/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   [Lead](/docs/thermal-foundation/metals-and-alloys/lead/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Fluiduct**  
-![](/assets/images/recipes/fluiduct.png "Fluiduct recipe")  
-Shaped Crafting
-
-*   2x [Copper](/docs/thermal-foundation/metals-and-alloys/copper/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   <a>Glass</a>
-
-
-**Hardened Fluiduct (Opaque)**  
-![](/assets/images/recipes/opaque-hardened-fluiduct.png "Hardened Fluiduct (Opaque) recipe")  
-Shapeless Crafting
-
-*   2x [Invar](/docs/thermal-foundation/metals-and-alloys/invar/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   [Lead](/docs/thermal-foundation/metals-and-alloys/lead/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Hardened Fluiduct**  
-![](/assets/images/recipes/hardened-fluiduct.png "Hardened Fluiduct recipe")  
-Shapeless Crafting
-
-*   2x [Invar](/docs/thermal-foundation/metals-and-alloys/invar/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   [Hardened Glass](/docs/thermal-expansion/materials/hardened-glass/)
-
-
-**Signalum Fluiduct (Opaque)**  
-![](/assets/images/recipes/opaque-signalum-fluiduct.png "Signalum Fluiduct (Opaque) recipe")  
-Shapeless Crafting
-
-*   3x [Hardened Fluiduct (Opaque)](/docs/thermal-dynamics/ducts/fluiducts/)
-*   [Signalum](/docs/thermal-foundation/metals-and-alloys/signalum/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   [Electrum](/docs/thermal-foundation/metals-and-alloys/electrum/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Signalum Fluiduct**  
-![](/assets/images/recipes/signalum-fluiduct.png "Signalum Fluiduct recipe")  
-Shapeless Crafting
-
-*   3x [Hardened Fluiduct](/docs/thermal-dynamics/ducts/fluiducts/)
-*   [Signalum](/docs/thermal-foundation/metals-and-alloys/signalum/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   [Electrum](/docs/thermal-foundation/metals-and-alloys/electrum/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Super-Laminar Fluiduct (Opaque)**  
-![](/assets/images/recipes/opaque-laminar-fluiduct.png "Super-Laminar Fluiduct (Opaque) recipe")  
-[Fluid Transposer](/docs/thermal-expansion/machines/fluid-transposer/)
-
-*   4x [Bronze](/docs/thermal-foundation/metals-and-alloys/bronze/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   4x [Hardened Glass](/docs/thermal-expansion/materials/hardened-glass/)
-*   [Signalum Fluiduct (Opaque)](/docs/thermal-dynamics/ducts/fluiducts/)
-
-
-**Super-Laminar Fluiduct**  
-![](/assets/images/recipes/laminar-fluiduct.png "Super-Laminar Fluiduct recipe")  
-[Fluid Transposer](/docs/thermal-expansion/machines/fluid-transposer/)
-
-*   4x [Bronze](/docs/thermal-foundation/metals-and-alloys/bronze/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   4x [Hardened Glass](/docs/thermal-expansion/materials/hardened-glass/)
-*   [Signalum Fluiduct (Opaque)](/docs/thermal-dynamics/ducts/fluiducts/)
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 
 ## Operation

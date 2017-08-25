@@ -1,5 +1,25 @@
 --- 
-title: Itemducts 
+title: Itemducts
+recipes:
+  crafting:
+    - itemduct
+    - itemduct-opaque
+    - itemduct-opaque-from-transparent
+    - itemduct-transparent-from-opaque
+    - itemduct-fast-opaque-from-transparent
+    - itemduct-fast-transparent-from-opaque
+    - itemduct-energy-one
+    - itemduct-energy-three
+    - itemduct-energy-opaque-one
+    - itemduct-energy-opaque-three
+    - itemduct-energy-opaque-from-transparent
+    - itemduct-energy-transparent-from-opaque
+    - itemduct-energy-fast-one
+    - itemduct-energy-fast-three
+    - itemduct-energy-fast-opaque-one
+    - itemduct-energy-fast-opaque-three
+    - itemduct-energy-fast-opaque-from-transparent
+    - itemduct-energy-fast-transparent-from-opaque 
 --- 
 
 ![](/assets/images/thermal-dynamics/itemducts.png "Regular, Dense, Vacuum, Impulse, Fluctuating and Warp Itemducts")
@@ -8,54 +28,14 @@ title: Itemducts
 
 Every type of Itemduct has a transparent version and an opaque version. Opaque Itemducts do not render any items that move through them.
 
+Obtaining
+---------
+
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+
+
 ## Crafting
-
-**Itemduct**  
-![](/assets/images/recipes/itemduct.png "Itemduct recipe")  
-Shaped Crafting
-
-*   2x [Tin](/docs/thermal-foundation/base-metals/tin/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   [Hardened Glass](/docs/thermal-expansion/materials/hardened-glass/)
-
-
-**Itemduct (Opaque)**  
-![](/assets/images/recipes/itemduct-opaque-1.png "Itemduct (Opaque) recipe")  
-Shaped Crafting
-
-*   2x [Tin](/docs/thermal-foundation/base-metals/tin/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   [Lead](/docs/thermal-foundation/base-metals/lead/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Opaque Itemducts**  
-![](/assets/images/recipes/itemduct-opaque-2.png "Opaque Itemducts recipe")  
-Shapeless Crafting
-
-*   6x Itemduct (any type)
-*   [Lead](/docs/thermal-foundation/base-metals/lead/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Transparent Itemducts**  
-![](/assets/images/recipes/itemduct-transparent.png "Transparent Itemducts recipe")  
-Shapeless Crafting
-
-*   6x Itemduct (Opaque, any type)
-*   [Hardened Glass](/docs/thermal-expansion/materials/hardened-glass/)
-
-
-**Dense Itemducts**  
-![](/assets/images/recipes/itemduct-dense.png "Dense Itemducts recipe")  
-Shapeless Crafting
-
-*   Itemduct (any type)
-*   [Pulverized](/docs/thermal-foundation/materials/pulverized-materials/) [Lead](/docs/thermal-foundation/base-metals/lead/)
-
-
-**Vacuum Itemducts**  
-![](/assets/images/recipes/itemduct-vacuum.png "Vacuum Itemducts recipe")  
-Shapeless Crafting
-
-*   Itemduct (any type)
-*   [Pulverized](/docs/thermal-foundation/materials/pulverized-materials/) [Silver](/docs/thermal-foundation/base-metals/silver/)
 
 
 **Impulse Itemduct**  
@@ -72,22 +52,6 @@ Shapeless Crafting
 
 *   Itemduct (may be Opaque)
 *   200 mB [Destabilized Redstone](/docs/thermal-foundation/fluids/destabilized-redstone/)
-
-
-**Warp Itemduct**  
-![](/assets/images/recipes/itemduct-warp-1.png "Warp Itemduct recipe")  
-Shapeless Crafting
-
-*   6x Itemduct (may be Opaque)
-*   [Enderium](/docs/thermal-foundation/alloys/enderium/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Warp Itemduct**  
-![](/assets/images/recipes/itemduct-warp-2.png "Warp Itemduct recipe")  
-Shapeless Crafting
-
-*   2x Itemduct (may be Opaque)
-*   3x [Enderium](/docs/thermal-foundation/alloys/enderium/) [Nugget](/docs/thermal-foundation/materials/nuggets/)
 
 
 ## Operation
