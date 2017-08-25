@@ -1,8 +1,18 @@
+andesite:
+  name: Andesite
+  sprite: [0, 42]
+  site: mc-wiki
+  url: Andesite
 andesite-polished:
   name: Polished Andesite
   sprite: [2, 34]
   site: mc-wiki
   url: Polished_Andesite
+arrow:
+  name: Arrow
+  sprite: [14, 38]
+  site: mc-wiki
+  url: Arrow
 augment-dynamo-boiler:
   name: 'Augment: Boiler Conversion'
   animated: true
@@ -273,6 +283,11 @@ bone-meal:
   sprite: [15, 5]
   site: mc-wiki
   url: Bone_Meal
+book:
+  name: Book
+  sprite: [15, 38]
+  site: mc-wiki
+  url: Book
 boots-aluminum:
   name: Aluminum Boots
   sprite: [2, 38]
@@ -418,6 +433,36 @@ bricks:
   sprite: [15, 33]
   site: mc-wiki
   url: Bricks
+bucket:
+  name: Bucket
+  sprite: [0, 39]
+  site: mc-wiki
+  url: Bucket
+bucket-ender:
+  name: Resonant Ender Bucket
+  sprite: [10, 40]
+  site: tf-docs
+  url: fluids/resonant-ender/
+bucket-glowstone:
+  name: Energized Glowstone Bucket
+  sprite: [9, 40]
+  site: tf-docs
+  url: fluids/energized-glowstone/
+bucket-lava:
+  name: Lava Bucket
+  sprite: [1, 39]
+  site: mc-wiki
+  url: Lava_Bucket
+bucket-redstone:
+  name: Destabilized Redstone Bucket
+  sprite: [8, 40]
+  site: tf-docs
+  url: fluids/destabilized-redstone/
+bucket-water:
+  name: Water Bucket
+  sprite: [2, 39]
+  site: mc-wiki
+  url: Water_Bucket
 cache-basic:
   name: Cache (Basic)
   sprite: [12, 27]
@@ -428,6 +473,11 @@ cactus-green:
   sprite: [2, 5]
   site: mc-wiki
   url: Cactus_Green
+chest:
+  name: Chest
+  sprite: [1, 42]
+  site: mc-wiki
+  url: Chest
 chestplate-aluminum:
   name: Aluminum Chestplate
   sprite: [10, 36]
@@ -508,11 +558,21 @@ clathrate-redstone:
   sprite: [2, 8]
   site: tf-docs
   url: materials/destabilized-clathrate/
+clay:
+  name: Clay
+  sprite: [3, 39]
+  site: mc-wiki
+  url: Clay
 coal-coke:
   name: Coal Coke
   sprite: [13, 15]
   site: tf-docs
   url: materials/coal-coke/
+coarse-dirt:
+  name: Coarse Dirt
+  sprite: [3, 42]
+  site: mc-wiki
+  url: Coarse_Dirt
 cobblestone:
   name: Cobblestone
   sprite: [10, 33]
@@ -618,6 +678,11 @@ coin-tin:
   sprite: [13, 12]
   site: tf-docs
   url: coins/tin-coin/
+compass:
+  name: Compass
+  sprite: [4, 39]
+  site: mc-wiki
+  url: Compass
 conversion-kit-reinforced:
   name: Reinforced Conversion Kit
   sprite: [10, 28]
@@ -678,11 +743,26 @@ device-water-gen:
   sprite: [15, 26]
   site: te-docs
   url: devices/aqueous-accumulator/
+diamond:
+  name: Diamond
+  sprite: [5, 39]
+  site: mc-wiki
+  url: Diamond
+diorite:
+  name: Diorite
+  sprite: [4, 42]
+  site: mc-wiki
+  url: Diorite
 diorite-polished:
   name: Polished Diorite
   sprite: [1, 34]
   site: mc-wiki
   url: Polished_Diorite
+dirt:
+  name: Dirt
+  sprite: [2, 42]
+  site: mc-wiki
+  url: Dirt
 duct-cover-andesite-polished:
   name: Polished Andesite Cover
   sprite: [7, 33]
@@ -918,6 +998,16 @@ dynamo-steam:
   sprite: [4, 27]
   site: te-docs
   url: dynamos/steam-dynamo/
+emerald:
+  name: Emerald
+  sprite: [6, 39]
+  site: mc-wiki
+  url: Emerald
+end-stone:
+  name: End Stone
+  sprite: [5, 42]
+  site: mc-wiki
+  url: End_Stone
 end-stone-bricks:
   name: End Stone Bricks
   sprite: [3, 34]
@@ -1173,11 +1263,6 @@ flux-infused-leggings:
   sprite: [12, 35]
   site: ra-docs
   url: equipment/flux-infused-armor/
-flux-infused-obsidian-rod:
-  name: Flux-Infused Obsidian Rod
-  sprite: [12, 34]
-  site: ra-docs
-  url: materials/flux-infused-obsidian-rod/
 flux-infused-pickaxe:
   name: Flux-Infused Pickaxe
   sprite: [3, 35]
@@ -1398,6 +1483,16 @@ glass:
   sprite: [3, 11]
   site: mc-wiki
   url: Glass
+glowstone-dust:
+  name: Glowstone Dust
+  sprite: [7, 39]
+  site: mc-wiki
+  url: Glowstone_Dust
+granite:
+  name: Granite
+  sprite: [6, 42]
+  site: mc-wiki
+  url: Granite
 granite-polished:
   name: Polished Granite
   sprite: [0, 34]
@@ -1598,16 +1693,31 @@ helmet-copper:
   sprite: [1, 36]
   site: tf-docs
   url: equipment/armor/
+helmet-diamond:
+  name: Diamond Helmet
+  sprite: [8, 39]
+  site: mc-wiki
+  url: Diamond_Helmet
 helmet-electrum:
   name: Electrum Helmet
   sprite: [2, 36]
   site: tf-docs
   url: equipment/armor/
+helmet-gold:
+  name: Golden Helmet
+  sprite: [9, 39]
+  site: mc-wiki
+  url: Golden_Helmet
 helmet-invar:
   name: Invar Helmet
   sprite: [3, 36]
   site: tf-docs
   url: equipment/armor/
+helmet-iron:
+  name: Iron Helmet
+  sprite: [10, 39]
+  site: mc-wiki
+  url: Iron_Helmet
 helmet-lead:
   name: Lead Helmet
   sprite: [4, 36]
@@ -1698,6 +1808,31 @@ hoe-tin:
   sprite: [12, 20]
   site: tf-docs
   url: equipment/hoes/
+hopper:
+  name: Hopper
+  sprite: [11, 39]
+  site: mc-wiki
+  url: Hopper
+horse-armor-diamond:
+  name: Diamond Horse Armor
+  sprite: [12, 39]
+  site: mc-wiki
+  url: Horse_Armor
+horse-armor-gold:
+  name: Golden Horse Armor
+  sprite: [13, 39]
+  site: mc-wiki
+  url: Horse_Armor
+horse-armor-iron:
+  name: Iron Horse Armor
+  sprite: [14, 39]
+  site: mc-wiki
+  url: Horse_Armor
+ice:
+  name: Ice
+  sprite: [12, 40]
+  site: mc-wiki
+  url: Ice
 ingot-aluminum:
   name: Aluminum Ingot
   sprite: [11, 0]
@@ -1848,6 +1983,46 @@ lapis-lazuli:
   sprite: [4, 5]
   site: mc-wiki
   url: Lapis_Lazuli
+lead:
+  name: Lead
+  sprite: [15, 39]
+  site: mc-wiki
+  url: Lead
+leather:
+  name: Leather
+  sprite: [0, 40]
+  site: mc-wiki
+  url: Leather
+leaves-acacia:
+  name: Acacia Leaves
+  sprite: [13, 40]
+  site: mc-wiki
+  url: Leaves
+leaves-birch:
+  name: Birch Leaves
+  sprite: [14, 40]
+  site: mc-wiki
+  url: Leaves
+leaves-dark-oak:
+  name: Dark Oak Leaves
+  sprite: [15, 40]
+  site: mc-wiki
+  url: Leaves
+leaves-jungle:
+  name: Jungle Leaves
+  sprite: [0, 41]
+  site: mc-wiki
+  url: Leaves
+leaves-oak:
+  name: Oak Leaves
+  sprite: [1, 41]
+  site: mc-wiki
+  url: Leaves
+leaves-spruce:
+  name: Spruce Leaves
+  sprite: [2, 41]
+  site: mc-wiki
+  url: Leaves
 leggings-aluminum:
   name: Aluminum Leggings
   sprite: [6, 37]
@@ -1993,6 +2168,11 @@ magenta-dye:
   sprite: [13, 5]
   site: mc-wiki
   url: Magenta_Dye
+magma-cream:
+  name: Magma Cream
+  sprite: [1, 40]
+  site: mc-wiki
+  url: Magma_Cream
 moss-stone:
   name: Moss Stone
   sprite: [14, 33]
@@ -2003,6 +2183,21 @@ multimeter:
   sprite: [6, 11]
   site: tf-docs
   url: items/multimeter/
+mushroom-brown:
+  name: Brown Mushroom
+  sprite: [2, 40]
+  site: mc-wiki
+  url: Mushroom
+mushroom-red:
+  name: Red Mushroom
+  sprite: [3, 40]
+  site: mc-wiki
+  url: Mushroom
+mycelium:
+  name: Mycelium
+  sprite: [3, 41]
+  site: mc-wiki
+  url: Mycelium
 nether-brick:
   name: Nether Brick
   sprite: [12, 33]
@@ -2133,6 +2328,11 @@ obsidian-rod:
   sprite: [13, 34]
   site: ra-docs
   url: materials/obsidian-rod/
+obsidian-rod-flux-infused:
+  name: Flux-Infused Obsidian Rod
+  sprite: [12, 34]
+  site: ra-docs
+  url: materials/flux-infused-obsidian-rod/
 oil-sand:
   name: Oil Sand
   sprite: [10, 7]
@@ -2208,6 +2408,11 @@ ore-tin:
   sprite: [2, 7]
   site: tf-docs
   url: ores/tin-ore/
+packed-ice:
+  name: Packed Ice
+  sprite: [4, 41]
+  site: mc-wiki
+  url: Packed_Ice
 paper:
   name: Paper
   sprite: [4, 11]
@@ -2293,6 +2498,16 @@ pink-dye:
   sprite: [9, 5]
   site: mc-wiki
   url: Pink_Dye
+piston:
+  name: Piston
+  sprite: [5, 41]
+  site: mc-wiki
+  url: Piston
+piston-sticky:
+  name: Sticky Piston
+  sprite: [6, 41]
+  site: mc-wiki
+  url: Piston
 plate-aluminum:
   name: Aluminum Plate
   sprite: [3, 14]
@@ -2393,6 +2608,11 @@ plate-tin:
   sprite: [5, 15]
   site: tf-docs
   url: plates/tin-plate/
+podzol:
+  name: Podzol
+  sprite: [7, 41]
+  site: mc-wiki
+  url: Podzol
 portable-tank-basic:
   name: Portable Tank (Basic)
   sprite: [11, 27]
@@ -2553,6 +2773,11 @@ rosin:
   sprite: [14, 15]
   site: tf-docs
   url: materials/rosin/
+saddle:
+  name: Saddle
+  sprite: [11, 40]
+  site: mc-wiki
+  url: Saddle
 sand:
   name: Sand
   sprite: [6, 8]
@@ -2708,6 +2933,11 @@ shears-wood:
   sprite: [8, 22]
   site: tf-docs
   url: equipment/shears/
+shield:
+  name: Shield
+  sprite: [8, 41]
+  site: mc-wiki
+  url: Shield
 shield-aluminum:
   name: Aluminum Shield
   sprite: [9, 22]
@@ -2948,6 +3178,31 @@ slag-rich:
   sprite: [15, 7]
   site: tf-docs
   url: materials/rich-slag/
+slimeball:
+  name: Slimeball
+  sprite: [4, 40]
+  site: mc-wiki
+  url: Slimeball
+snow-layer:
+  name: Snow
+  sprite: [9, 41]
+  site: mc-wiki
+  url: Snow_(layer)
+snowball:
+  name: Snowball
+  sprite: [5, 40]
+  site: mc-wiki
+  url: Snowball
+soul-sand:
+  name: Soul Sand
+  sprite: [10, 41]
+  site: mc-wiki
+  url: Soul_Sand
+stick:
+  name: Stick
+  sprite: [15, 41]
+  site: mc-wiki
+  url: Stick
 stone:
   name: Stone
   sprite: [9, 33]
@@ -3028,6 +3283,11 @@ storage-block-platinum:
   sprite: [6, 6]
   site: tf-docs
   url: metal-blocks/platinum-block/
+storage-block-redstone:
+  name: Block of Redstone
+  sprite: [11, 41]
+  site: mc-wiki
+  url: Block_of_Redstone
 storage-block-signalum:
   name: Signalum Block
   sprite: [14, 6]
@@ -3048,6 +3308,11 @@ storage-block-tin:
   sprite: [1, 6]
   site: tf-docs
   url: metal-blocks/tin-block/
+string:
+  name: String
+  sprite: [6, 40]
+  site: mc-wiki
+  url: String
 strongbox-basic:
   name: Strongbox (Basic)
   sprite: [13, 27]
@@ -3128,6 +3393,11 @@ tar:
   sprite: [8, 8]
   site: tf-docs
   url: materials/tar/
+torch:
+  name: Torch
+  sprite: [7, 40]
+  site: mc-wiki
+  url: Torch
 upgrade-kit-hardened:
   name: Hardened Upgrade Kit
   sprite: [6, 28]
@@ -3208,9 +3478,24 @@ wood-log-spruce:
   sprite: [8, 0]
   site: mc-wiki
   url: Wood
+wood-planks-acacia:
+  name: Acacia Wood Planks
+  sprite: [12, 41]
+  site: mc-wiki
+  url: Wood_Planks
 wood-planks-birch:
   name: Birch Wood Planks
   sprite: [1, 0]
+  site: mc-wiki
+  url: Wood_Planks
+wood-planks-dark-oak:
+  name: Dark Oak Wood Planks
+  sprite: [13, 41]
+  site: mc-wiki
+  url: Wood_Planks
+wood-planks-jungle:
+  name: Jungle Wood Planks
+  sprite: [14, 41]
   site: mc-wiki
   url: Wood_Planks
 wood-planks-oak:
@@ -3223,3 +3508,83 @@ wood-planks-spruce:
   sprite: [9, 0]
   site: mc-wiki
   url: Wood_Planks
+wool-black:
+  name: Black Wool
+  sprite: [0, 4]
+  site: mc-wiki
+  url: Wool
+wool-blue:
+  name: Blue Wool
+  sprite: [4, 4]
+  site: mc-wiki
+  url: Wool
+wool-brown:
+  name: Brown Wool
+  sprite: [3, 4]
+  site: mc-wiki
+  url: Wool
+wool-cyan:
+  name: Cyan Wool
+  sprite: [6, 4]
+  site: mc-wiki
+  url: Wool
+wool-gray:
+  name: Gray Wool
+  sprite: [8, 4]
+  site: mc-wiki
+  url: Wool
+wool-green:
+  name: Green Wool
+  sprite: [2, 4]
+  site: mc-wiki
+  url: Wool
+wool-light-blue:
+  name: Light Blue Wool
+  sprite: [12, 4]
+  site: mc-wiki
+  url: Wool
+wool-light-gray:
+  name: Light Gray Wool
+  sprite: [7, 4]
+  site: mc-wiki
+  url: Wool
+wool-lime:
+  name: Lime Wool
+  sprite: [10, 4]
+  site: mc-wiki
+  url: Wool
+wool-magenta:
+  name: Magenta Wool
+  sprite: [13, 4]
+  site: mc-wiki
+  url: Wool
+wool-orange:
+  name: Orange Wool
+  sprite: [14, 4]
+  site: mc-wiki
+  url: Wool
+wool-pink:
+  name: Pink Wool
+  sprite: [9, 4]
+  site: mc-wiki
+  url: Wool
+wool-purple:
+  name: Purple Wool
+  sprite: [5, 4]
+  site: mc-wiki
+  url: Wool
+wool-red:
+  name: Red Wool
+  sprite: [1, 4]
+  site: mc-wiki
+  url: Wool
+wool-white:
+  name: White Wool
+  sprite: [15, 4]
+  site: mc-wiki
+  url: Wool
+wool-yellow:
+  name: Yellow Wool
+  sprite: [11, 4]
+  site: mc-wiki
+  url: Wool
