@@ -2720,7 +2720,7 @@ crafting:
           - [item: [fluiduct-hardened-opaque], item: [fluiduct-hardened-opaque], item: [fluiduct-hardened-opaque]]
           - [item: [fluiduct-hardened-opaque], item: [fluiduct-hardened-opaque], item: [fluiduct-hardened-opaque]]
           - - random: true
-            - item: *hardened-glass
+              item: *hardened-glass
         result:
           item: [fluiduct-hardened]
           amount: 6
@@ -2813,7 +2813,7 @@ crafting:
           - [item: [fluiduct-energy-opaque], item: [fluiduct-energy-opaque], item: [fluiduct-energy-opaque]]
           - [item: [fluiduct-energy-opaque], item: [fluiduct-energy-opaque], item: [fluiduct-energy-opaque]]
           - - random: true
-            - item: *hardened-glass
+              item: *hardened-glass
         result:
           item: [fluiduct-energy]
           amount: 6
@@ -2894,7 +2894,7 @@ crafting:
           - [item: [fluiduct-super-opaque], item: [fluiduct-super-opaque], item: [fluiduct-super-opaque]]
           - [item: [fluiduct-super-opaque], item: [fluiduct-super-opaque], item: [fluiduct-super-opaque]]
           - - random: true
-            - item: *hardened-glass
+              item: *hardened-glass
         result:
           item: [fluiduct-super]
           amount: 6
@@ -5004,7 +5004,7 @@ crafting:
           - [item: [itemduct-opaque], item: [itemduct-opaque], item: [itemduct-opaque]]
           - [item: [itemduct-opaque], item: [itemduct-opaque], item: [itemduct-opaque]]
           - - random: true
-            - item: *hardened-glass
+              item: *hardened-glass
         result:
           item: [itemduct]
           amount: 6
@@ -5035,7 +5035,7 @@ crafting:
           - [item: [itemduct-fast-opaque], item: [itemduct-fast-opaque], item: [itemduct-fast-opaque]]
           - [item: [itemduct-fast-opaque], item: [itemduct-fast-opaque], item: [itemduct-fast-opaque]]
           - - random: true
-            - item: *hardened-glass
+              item: *hardened-glass
         result:
           item: [itemduct-fast]
           amount: 6
@@ -5128,7 +5128,7 @@ crafting:
           - [item: [itemduct-energy-opaque], item: [itemduct-energy-opaque], item: [itemduct-energy-opaque]]
           - [item: [itemduct-energy-opaque], item: [itemduct-energy-opaque], item: [itemduct-energy-opaque]]
           - - random: true
-            - item: *hardened-glass
+              item: *hardened-glass
         result:
           item: [itemduct-energy]
           amount: 6
@@ -5221,7 +5221,7 @@ crafting:
           - [item: [itemduct-energy-fast-opaque], item: [itemduct-energy-fast-opaque], item: [itemduct-energy-fast-opaque]]
           - [item: [itemduct-energy-fast-opaque], item: [itemduct-energy-fast-opaque], item: [itemduct-energy-fast-opaque]]
           - - random: true
-            - item: *hardened-glass
+              item: *hardened-glass
         result:
           item: [itemduct-energy-fast]
           amount: 6
