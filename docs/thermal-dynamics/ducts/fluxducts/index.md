@@ -1,5 +1,20 @@
 --- 
 title: Fluxducts 
+recipes:
+  crafting:
+    - fluxduct-basic
+    - fluxduct-hardened-one
+    - fluxduct-hardened-three
+    - fluxduct-reinforced-empty
+    - fluxduct-signalum-one
+    - fluxduct-signalum-three
+    - fluxduct-signalum-empty-one
+    - fluxduct-signalum-empty-three
+    - fluxduct-resonant-one
+    - fluxduct-resonant-three
+    - fluxduct-resonant-empty-one
+    - fluxduct-resonant-empty-three
+    - fluxduct-super-empty
 --- 
 
 ![](/assets/images/thermal-dynamics/fluxducts.png "Regular, Hardened, Redstone, Signalum, Resonant and Cryo-Stabilized")
@@ -8,33 +23,13 @@ title: Fluxducts
 
 Every type of Fluxduct has a limit on how much energy it can transport.
 
+Obtaining
+---------
+
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+
 ## Crafting
-
-**Leadstone Fluxduct**  
-![](/assets/images/recipes/leadstone-fluxduct.png "Leadstone Fluxduct recipe")  
-Shaped Crafting
-
-*   2x [Lead](/docs/thermal-foundation/metals-and-alloys/lead/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   6x Redstone Dust
-*   Glass
-
-
-**Hardened Fluxduct**  
-![](/assets/images/recipes/hardened-fluxduct.png "Hardened Fluxduct recipe")  
-Shapeless Crafting
-
-*   3x [Leadstone Fluxduct](/docs/thermal-dynamics/ducts/fluxducts/)
-*   3x Redstone Dust
-*   [Invar](/docs/thermal-foundation/metals-and-alloys/invar/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Redstone Energy Fluxduct (Empty)**  
-![](/assets/images/recipes/empty-redstone-fluxduct.png "Redstone Energy Fluxduct (Empty) recipe")  
-Shapeled Crafting
-
-*   2x [Electrum](/docs/thermal-foundation/metals-and-alloys/electrum/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   [Hardened Glass](/docs/thermal-foundation/blocks/hardened-glass/)
-
 
 **Redstone Energy Fluxduct**  
 ![](/assets/images/recipes/redstone-fluxduct.png "Redstone Energy Fluxduct recipe")  
@@ -42,33 +37,6 @@ Shapeled Crafting
 
 *   200 mB [Destabilized Redstone](/docs/thermal-foundation/fluids/destabilized-redstone/)
 *   [Redstone Energy Fluxduct (Empty)](/docs/thermal-dynamics/ducts/fluxducts/)
-
-
-**Signalum Fluxduct**  
-![](/assets/images/recipes/signalum-fluxduct.png "Signalum Fluxduct recipe")  
-Shapeless Crafting
-
-*   3x [Redstone Energy Fluxduct](/docs/thermal-dynamics/ducts/fluxducts/)
-*   3x Redstone Dust
-*   [Signalum](/docs/thermal-foundation/metals-and-alloys/signalum/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Resonant Fluxduct**  
-![](/assets/images/recipes/resonant-fluxduct.png "Resonant Fluxduct recipe")  
-Shapeless Crafting
-
-*   3x [Signalum Fluxduct](/docs/thermal-dynamics/ducts/fluxducts/)
-*   3x Redstone Dust
-*   [Enderium](/docs/thermal-foundation/metals-and-alloys/enderium/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-
-
-**Cryo-Stabilized Fluxduct (Empty)**  
-![](/assets/images/recipes/empty-cryo-stabilized-fluxduct.png "Cryo-Stabilized Fluxduct (Empty) recipe")  
-Shaped Crafting
-
-*   4x [Hardened Glass](/docs/thermal-foundation/blocks/hardened-glass/)
-*   4x [Electrum](/docs/thermal-foundation/metals-and-alloys/electrum/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   [Resonant Fluxduct](/docs/thermal-dynamics/ducts/fluxducts/)
 
 
 **Cryo-Stabilized Fluxduct**  

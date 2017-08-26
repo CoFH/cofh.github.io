@@ -1,5 +1,9 @@
 --- 
 title: Viaducts 
+recipes:
+  crafting:
+    - viaduct-frame
+    - viaduct-long-range
 --- 
 
 ![](/assets/images/thermal-dynamics/viaducts.png "Regular, Long Range, Long Range Linking and Untreated Viaduct")
@@ -8,30 +12,21 @@ title: Viaducts
 
 There are several types of Viaducts.
 
+Obtaining
+---------
+
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+
 ## Crafting
-
-**Viaduct (Untreated)**  
-![](/assets/images/recipes/untreated-viaduct.png "Leadstone Fluxduct recipe")  
-Shaped Crafting
-
-*   4x [Bronze](/docs/thermal-foundation/metals-and-alloys/bronze/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   4x [Hardened Glass](/docs/thermal-foundation/blocks/hardened-glass/)
 
 
 **Viaduct**  
 ![](/assets/images/recipes/viaduct.png "Hardened Fluxduct recipe")  
-Shapeless Crafting
+[Fluid Transposer](/docs/thermal-expansion/machines/fluid-transposer/)
 
 *   100 mB [Zephyrean Aerotheum](/docs/thermal-foundation/fluids/zephyrean-aerotheum/)
 *   [Viaduct (Untreated)](/docs/thermal-dynamics/ducts/viaducts/)
-
-
-**Long Range Viaduct**  
-![](/assets/images/recipes/long-range-viaduct.png "Redstone Energy Fluxduct (Empty) recipe")  
-Shapeless Crafting
-
-*   4x [Lead](/docs/thermal-foundation/metals-and-alloys/lead/) [Ingot](/docs/thermal-foundation/materials/ingots/)
-*   4x [Hardened Glass](/docs/thermal-foundation/blocks/hardened-glass/)
 
 
 **Long Range Linking Viaduct**  

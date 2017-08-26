@@ -1,5 +1,8 @@
 --- 
 title: Covers 
+recipes:
+  crafting:
+    - duct-covers
 --- 
 
 ![Covers on Redstone Energy Fluxducts](/assets/images/thermal-dynamics/covers.png)
@@ -8,11 +11,8 @@ title: Covers
 
 Covers can mostly be made out of all solid blocks present in the game. (Full blocks that doesnt do anything)
 
-## Crafting
+Obtaining
+---------
 
-**Cover Crafting**  
-![](/assets/images/recipes/structuralduct-crafting.png "Cover crafting recipe")  
-Shapeless Crafting
-
-*   [Structuralduct](/docs/thermal-dynamics/ducts/structuralduct/)
-*   <a>Stone</a>
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
