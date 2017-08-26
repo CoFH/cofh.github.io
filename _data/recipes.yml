@@ -57,6 +57,13 @@ _item-groups:
     - rockwool-magenta
     - rockwool-orange
     - rockwool-white
+  wood-log: &wood-log
+    - wood-log-oak
+    - wood-log-spruce
+    - wood-log-birch
+    - wood-log-jungle
+    - wood-log-acacia
+    - wood-log-dark-oak
   wood-planks: &wood-planks
     - wood-planks-oak
     - wood-planks-spruce
@@ -8738,17 +8745,148 @@ redstone-furnace:
   url: machines/redstone-furnace/
   with-energy: true
   recipes:
-    ore-processing-aluminum:
+    leather:
       results:
-        - item: ingot-aluminum
+        - item: leather
       ingredients:
-        - item: ore-aluminum
+        - item: rotten-flesh
+      energy: 4000
+      data:
+        input:
+          item: [rotten-flesh]
+          amount: 3
+        output:
+          item: [leather]
+    ore-processing-lapis-lazuli:
+      results:
+        - item: lapis-lazuli
+      ingredients:
+        - item: ore-lapis-lazuli
       energy: 2000
       data:
         input:
-          item: [ore-aluminum]
+          item: [ore-lapis-lazuli]
         output:
-          item: [ingot-aluminum]
+          item: [lapis-lazuli]
+          amount: 6
+    ore-processing-redstone:
+      results:
+        - item: redstone
+      ingredients:
+        - item: ore-redstone
+      energy: 2000
+      data:
+        input:
+          item: [ore-redstone]
+        output:
+          item: [redstone]
+          amount: 3
+
+redstone-furnace-pyrolysis:
+  name: Pyrolytic Conversion
+  site: te-docs
+  url: machines/redstone-furnace/
+  with-energy: true
+  recipes:
+    charcoal-from-cactus:
+      results:
+        - item: charcoal
+        - fluid: creosote-oil
+          fluid-amount: 50
+      ingredients:
+        - item: cactus
+      energy: 3000
+      data:
+        input:
+          item: [cactus]
+          amount: 4
+        output:
+          item: [charcoal]
+        fluid-output:
+          fluid: creosote-oil
+          amount: 50
+    charcoal-from-hay-bale:
+      results:
+        - item: charcoal
+        - fluid: creosote-oil
+          fluid-amount: 100
+      ingredients:
+        - item: hay-bale
+      energy: 3000
+      data:
+        input:
+          item: [hay-bale]
+        output:
+          item: [charcoal]
+        fluid-output:
+          fluid: creosote-oil
+          amount: 100
+    charcoal-from-sawdust:
+      results:
+        - item: charcoal
+        - fluid: creosote-oil
+          fluid-amount: 50
+      ingredients:
+        - item: sawdust-compressed
+      energy: 1500
+      data:
+        input:
+          item: [sawdust-compressed]
+        output:
+          item: [charcoal]
+        fluid-output:
+          fluid: creosote-oil
+          amount: 50
+    charcoal-from-sugar-canes:
+      results:
+        - item: charcoal
+        - fluid: creosote-oil
+          fluid-amount: 50
+      ingredients:
+        - item: sugar-canes
+      energy: 1500
+      data:
+        input:
+          item: [sugar-canes]
+          amount: 8
+        output:
+          item: [charcoal]
+        fluid-output:
+          fluid: creosote-oil
+          amount: 50
+    charcoal-from-wood-log:
+      results:
+        - item: charcoal
+        - fluid: creosote-oil
+          fluid-amount: 100
+      ingredients:
+        - html: 'Any <a href="https://minecraft.gamepedia.com/Wood">Wood</a>'
+      energy: 1500
+      data:
+        input:
+          random: true
+          item: *wood-log
+        output:
+          item: [charcoal]
+        fluid-output:
+          fluid: creosote-oil
+          amount: 100
+    coal-coke:
+      results:
+        - item: coal-coke
+        - fluid: creosote-oil
+          fluid-amount: 250
+      ingredients:
+        - item: coal
+      energy: 3000
+      data:
+        input:
+          item: [coal]
+        output:
+          item: [coal-coke]
+        fluid-output:
+          fluid: creosote-oil
+          amount: 250
 
 pulverizer:
   name: Pulverizer

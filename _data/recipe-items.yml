@@ -468,6 +468,11 @@ cache-basic:
   sprite: [12, 27]
   site: te-docs
   url: storage/cache/
+cactus:
+  name: Cactus
+  sprite: [11, 42]
+  site: mc-wiki
+  url: Cactus
 cactus-green:
   name: Cactus Green
   sprite: [2, 5]
@@ -1683,6 +1688,11 @@ hardened-tin-glass:
   sprite: [14, 1]
   site: tf-docs
   url: blocks/hardened-glass/
+hay-bale:
+  name: Hay Bale
+  sprite: [12, 42]
+  site: mc-wiki
+  url: Hay_Bale
 helmet-aluminum:
   name: Aluminum Helmet
   sprite: [14, 35]
@@ -2363,11 +2373,26 @@ ore-aluminum:
   sprite: [5, 7]
   site: tf-docs
   url: ores/aluminum-ore/
+ore-coal:
+  name: Coal Ore
+  sprite: [15, 42]
+  site: mc-wiki
+  url: Coal_Ore
 ore-copper:
   name: Copper Ore
   sprite: [1, 7]
   site: tf-docs
   url: ores/copper-ore/
+ore-diamond:
+  name: Diamond Ore
+  sprite: [1, 43]
+  site: mc-wiki
+  url: Diamond_Ore
+ore-emerald:
+  name: Emerald Ore
+  sprite: [3, 43]
+  site: mc-wiki
+  url: Emerald_Ore
 ore-fluid-ender:
   name: Resonant End Stone
   sprite: [14, 7]
@@ -2383,11 +2408,26 @@ ore-fluid-redstone:
   sprite: [12, 7]
   site: tf-docs
   url: ores/destabilized-redstone-ore/
+ore-gold:
+  name: Gold Ore
+  sprite: [13, 42]
+  site: mc-wiki
+  url: Gold_Ore
 ore-iridium:
   name: Iridium Ore
   sprite: [8, 7]
   site: tf-docs
   url: ores/iridium-ore/
+ore-iron:
+  name: Iron Ore
+  sprite: [14, 42]
+  site: mc-wiki
+  url: Iron_Ore
+ore-lapis-lazuli:
+  name: Lapis Lazuli Ore
+  sprite: [0, 43]
+  site: mc-wiki
+  url: Lapis_Lazuli_Ore
 ore-lead:
   name: Lead Ore
   sprite: [4, 7]
@@ -2398,6 +2438,11 @@ ore-mithril:
   sprite: [9, 7]
   site: tf-docs
   url: ores/mana-infused-ore/
+ore-nether-quartz:
+  name: Nether Quartz Ore
+  sprite: [4, 43]
+  site: mc-wiki
+  url: Nether_Quartz_Ore
 ore-nickel:
   name: Nickel Ore
   sprite: [6, 7]
@@ -2408,6 +2453,11 @@ ore-platinum:
   sprite: [7, 7]
   site: tf-docs
   url: ores/platinum-ore/
+ore-redstone:
+  name: Redstone Ore
+  sprite: [2, 43]
+  site: mc-wiki
+  url: Redstone_Ore
 ore-silver:
   name: Silver Ore
   sprite: [3, 7]
@@ -2783,6 +2833,11 @@ rosin:
   sprite: [14, 15]
   site: tf-docs
   url: materials/rosin/
+rotten-flesh:
+  name: Rotten Flesh
+  sprite: [9, 42]
+  site: mc-wiki
+  url: Rotten_Flesh
 saddle:
   name: Saddle
   sprite: [11, 40]
@@ -3333,6 +3388,11 @@ structuralduct:
   sprite: [7, 32]
   site: td-docs
   url: ducts/structuralduct/
+sugar-canes:
+  name: Sugar Canes
+  sprite: [10, 42]
+  site: mc-wiki
+  url: Sugar_Canes
 sulfur:
   name: Sulfur
   sprite: [10, 0]
@@ -3473,9 +3533,24 @@ watering-can-resonant:
   sprite: [8, 34]
   site: tc-docs
   url: items/watering-can/
+wood-log-acacia:
+  name: Acacia Wood
+  sprite: [6, 43]
+  site: mc-wiki
+  url: Wood
 wood-log-birch:
   name: Birch Wood
   sprite: [0, 0]
+  site: mc-wiki
+  url: Wood
+wood-log-dark-oak:
+  name: Dark Oak Wood
+  sprite: [7, 43]
+  site: mc-wiki
+  url: Wood
+wood-log-jungle:
+  name: Jungle Wood
+  sprite: [5, 43]
   site: mc-wiki
   url: Wood
 wood-log-oak:

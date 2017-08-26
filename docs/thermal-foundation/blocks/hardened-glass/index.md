@@ -23,7 +23,7 @@ Hardened glass can only be harvested by dismantling it with a [crescent
 hammer](/docs/thermal-foundation/items/crescent-hammer/) or by breaking it with
 a [Silk Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
-### Induction smelter
+### Induction Smelter
 {% include recipe-table.html type='induction-smelter' recipes=page.recipes.induction-smelter %}
 
 
