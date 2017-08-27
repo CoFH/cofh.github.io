@@ -458,7 +458,6 @@ thermal-expansion:
   - title: "Tiers and Augments"
     items:
       - title: "Tiers"
-        url: "/thermal-expansion/tiers-and-augments/tiers/"
       - title: "Upgrade Kits"
         url: "/thermal-expansion/tiers-and-augments/upgrade-kits/"
       - title: "Conversion Kits"
