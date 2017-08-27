@@ -459,8 +459,11 @@ thermal-expansion:
     items:
       - title: "Tiers"
       - title: "Upgrade Kits"
+        url: "/thermal-expansion/tiers-and-augments/upgrade-kits/"
       - title: "Conversion Kits"
+        url: "/thermal-expansion/tiers-and-augments/conversion-kits/"
       - title: "Augments"
+        url: "/thermal-expansion/tiers-and-augments/augments/"
   - title: "Items"
     items:
       - title: "Machine Frame"
