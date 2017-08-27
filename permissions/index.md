@@ -30,37 +30,37 @@ Permissions At-A-Glance
             </tr>
             <tr>
                 <td>CoFH Core</td>
-                <td><a href="https://github.com/CoFH/CoFHCore/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/CoFHCore/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>CoFH World</td>
-                <td><a href="https://github.com/CoFH/CoFHWorld/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/CoFHWorld/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Thermal Foundation</td>
-                <td><a href="https://github.com/CoFH/ThermalFoundation/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/ThermalFoundation/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Thermal Expansion</td>
-                <td><a href="https://github.com/CoFH/ThermalExpansion/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/ThermalExpansion/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Thermal Dynamics</td>
-                <td><a href="https://github.com/CoFH/ThermalDynamics/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/ThermalDynamics/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Thermal Cultivation</td>
-                <td><a href="https://github.com/CoFH/ThermalCultivation/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/ThermalCultivation/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Redstone Arsenal</td>
-                <td><a href="https://github.com/CoFH/RedstoneArsenal/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/RedstoneArsenal/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>

@@ -1833,6 +1833,11 @@ gray-dye:
   sprite: [8, 5]
   site: mc-wiki
   url: Gray_Dye
+gunpowder:
+  name: Gunpowder
+  sprite: [1, 50]
+  site: mc-wiki
+  url: Gunpowder
 hammer-aluminum:
   name: Aluminum Hammer
   sprite: [0, 19]
