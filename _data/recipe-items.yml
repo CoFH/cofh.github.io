@@ -1,3 +1,8 @@
+allium:
+  name: Allium
+  sprite: [8, 43]
+  site: mc-wiki
+  url: Flower
 andesite:
   name: Andesite
   sprite: [0, 42]
@@ -198,6 +203,11 @@ axe-copper:
   sprite: [7, 16]
   site: tf-docs
   url: equipment/axes/
+axe-diamond:
+  name: Diamond Axe
+  sprite: [6, 44]
+  site: mc-wiki
+  url: Diamond_Axe
 axe-electrum:
   name: Electrum Axe
   sprite: [8, 16]
@@ -238,6 +248,11 @@ axe-tin:
   sprite: [15, 16]
   site: tf-docs
   url: equipment/axes/
+azure-bluet:
+  name: Azure Bluet
+  sprite: [9, 43]
+  site: mc-wiki
+  url: Flower
 basalz-powder:
   name: Basalz Powder
   animated: true
@@ -278,6 +293,16 @@ blizz-rod:
   sprite: [3, 16]
   site: tf-docs
   url: materials/blizz-rod/
+blue-orchid:
+  name: Blue Orchid
+  sprite: [10, 43]
+  site: mc-wiki
+  url: Flower
+bone:
+  name: Bone
+  sprite: [14, 44]
+  site: mc-wiki
+  url: Bone
 bone-meal:
   name: Bone Meal
   sprite: [15, 5]
@@ -308,6 +333,11 @@ boots-copper:
   sprite: [5, 38]
   site: tf-docs
   url: equipment/armor/
+boots-diamond:
+  name: Diamond Boots
+  sprite: [13, 44]
+  site: mc-wiki
+  url: Diamond_Boots
 boots-electrum:
   name: Electrum Boots
   sprite: [6, 38]
@@ -428,11 +458,26 @@ bow-tin:
   sprite: [15, 17]
   site: tf-docs
   url: equipment/bows/
+brick:
+  name: Brick
+  sprite: [15, 44]
+  site: mc-wiki
+  url: Brick
+brick-stairs:
+  name: Brick Stairs
+  sprite: [7, 45]
+  site: mc-wiki
+  url: Brick_Stairs
 bricks:
   name: Bricks
   sprite: [15, 33]
   site: mc-wiki
   url: Bricks
+bricks-slab:
+  name: Bricks Slab
+  sprite: [8, 45]
+  site: mc-wiki
+  url: Bricks_Slab
 bucket:
   name: Bucket
   sprite: [0, 39]
@@ -508,6 +553,11 @@ chestplate-copper:
   sprite: [13, 36]
   site: tf-docs
   url: equipment/armor/
+chestplate-diamond:
+  name: Diamond Chestplate
+  sprite: [11, 44]
+  site: mc-wiki
+  url: Diamond_Chestplate
 chestplate-electrum:
   name: Electrum Chestplate
   sprite: [14, 36]
@@ -698,6 +748,166 @@ compass:
   sprite: [4, 39]
   site: mc-wiki
   url: Compass
+concrete-black:
+  name: Black Concrete
+  sprite: [8, 46]
+  site: mc-wiki
+  url: Concrete
+concrete-blue:
+  name: Blue Concrete
+  sprite: [4, 46]
+  site: mc-wiki
+  url: Concrete
+concrete-brown:
+  name: Brown Concrete
+  sprite: [5, 46]
+  site: mc-wiki
+  url: Concrete
+concrete-cyan:
+  name: Cyan Concrete
+  sprite: [2, 46]
+  site: mc-wiki
+  url: Concrete
+concrete-gray:
+  name: Gray Concrete
+  sprite: [0, 46]
+  site: mc-wiki
+  url: Concrete
+concrete-green:
+  name: Green Concrete
+  sprite: [6, 46]
+  site: mc-wiki
+  url: Concrete
+concrete-light-blue:
+  name: Light Blue Concrete
+  sprite: [12, 45]
+  site: mc-wiki
+  url: Concrete
+concrete-light-gray:
+  name: Light Gray Concrete
+  sprite: [1, 46]
+  site: mc-wiki
+  url: Concrete
+concrete-lime:
+  name: Lime Concrete
+  sprite: [14, 45]
+  site: mc-wiki
+  url: Concrete
+concrete-magenta:
+  name: Magenta Concrete
+  sprite: [11, 45]
+  site: mc-wiki
+  url: Concrete
+concrete-orange:
+  name: Orange Concrete
+  sprite: [10, 45]
+  site: mc-wiki
+  url: Concrete
+concrete-pink:
+  name: Pink Concrete
+  sprite: [15, 45]
+  site: mc-wiki
+  url: Concrete
+concrete-purple:
+  name: Purple Concrete
+  sprite: [3, 46]
+  site: mc-wiki
+  url: Concrete
+concrete-red:
+  name: Red Concrete
+  sprite: [7, 46]
+  site: mc-wiki
+  url: Concrete
+concrete-white:
+  name: White Concrete
+  sprite: [9, 45]
+  site: mc-wiki
+  url: Concrete
+concrete-yellow:
+  name: Yellow Concrete
+  sprite: [13, 45]
+  site: mc-wiki
+  url: Concrete
+concrete-powder-black:
+  name: Black Concrete Powder
+  sprite: [8, 47]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-blue:
+  name: Blue Concrete Powder
+  sprite: [4, 47]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-brown:
+  name: Brown Concrete Powder
+  sprite: [5, 47]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-cyan:
+  name: Cyan Concrete Powder
+  sprite: [2, 47]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-gray:
+  name: Gray Concrete Powder
+  sprite: [0, 47]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-green:
+  name: Green Concrete Powder
+  sprite: [6, 47]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-light-blue:
+  name: Light Blue Concrete Powder
+  sprite: [12, 46]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-light-gray:
+  name: Light Gray Concrete Powder
+  sprite: [1, 47]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-lime:
+  name: Lime Concrete Powder
+  sprite: [14, 46]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-magenta:
+  name: Magenta Concrete Powder
+  sprite: [11, 46]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-orange:
+  name: Orange Concrete Powder
+  sprite: [10, 46]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-pink:
+  name: Pink Concrete Powder
+  sprite: [15, 46]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-purple:
+  name: Purple Concrete Powder
+  sprite: [3, 47]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-red:
+  name: Red Concrete Powder
+  sprite: [7, 47]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-white:
+  name: White Concrete Powder
+  sprite: [9, 46]
+  site: mc-wiki
+  url: Concrete_Powder
+concrete-powder-yellow:
+  name: Yellow Concrete Powder
+  sprite: [13, 46]
+  site: mc-wiki
+  url: Concrete_Powder
 conversion-kit-reinforced:
   name: Reinforced Conversion Kit
   sprite: [10, 28]
@@ -728,6 +938,11 @@ cyan-dye:
   sprite: [6, 5]
   site: mc-wiki
   url: Cyan_Dye
+dandelion:
+  name: Dandelion
+  sprite: [11, 43]
+  site: mc-wiki
+  url: Flower
 dandelion-yellow:
   name: Dandelion Yellow
   sprite: [11, 5]
@@ -1163,6 +1378,11 @@ florb-magmatic:
   sprite: [12, 30]
   site: te-docs
   url: items/magmatic-florb/
+flower-pot:
+  name: Flower Pot
+  sprite: [0, 45]
+  site: mc-wiki
+  url: Flower_Pot
 fluiduct-basic:
   name: Fluiduct
   sprite: [7, 31]
@@ -1498,6 +1718,96 @@ glass:
   sprite: [3, 11]
   site: mc-wiki
   url: Glass
+glass-bottle:
+  name: Glass Bottle
+  sprite: [1, 45]
+  site: mc-wiki
+  url: Glass_Bottle
+glass-stained-black:
+  name: Black Stained Glass
+  sprite: [10, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-blue:
+  name: Blue Stained Glass
+  sprite: [6, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-brown:
+  name: Brown Stained Glass
+  sprite: [7, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-cyan:
+  name: Cyan Stained Glass
+  sprite: [4, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-gray:
+  name: Gray Stained Glass
+  sprite: [2, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-green:
+  name: Green Stained Glass
+  sprite: [8, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-light-blue:
+  name: Light Blue Stained Glass
+  sprite: [14, 47]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-light-gray:
+  name: Light Gray Stained Glass
+  sprite: [3, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-lime:
+  name: Lime Stained Glass
+  sprite: [0, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-magenta:
+  name: Magenta Stained Glass
+  sprite: [13, 47]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-orange:
+  name: Orange Stained Glass
+  sprite: [12, 47]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-pink:
+  name: Pink Stained Glass
+  sprite: [1, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-purple:
+  name: Purple Stained Glass
+  sprite: [5, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-red:
+  name: Red Stained Glass
+  sprite: [9, 48]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-white:
+  name: White Stained Glass
+  sprite: [11, 47]
+  site: mc-wiki
+  url: Stained_Glass
+glass-stained-yellow:
+  name: Yellow Stained Glass
+  sprite: [15, 47]
+  site: mc-wiki
+  url: Stained_Glass
+glowstone:
+  name: Glowstone
+  sprite: [9, 47]
+  site: mc-wiki
+  url: Glowstone
 glowstone-dust:
   name: Glowstone Dust
   sprite: [7, 39]
@@ -1513,6 +1823,11 @@ granite-polished:
   sprite: [0, 34]
   site: mc-wiki
   url: Polished_Granite
+gravel:
+  name: Gravel
+  sprite: [10, 47]
+  site: mc-wiki
+  url: Gravel
 gray-dye:
   name: Gray Dye
   sprite: [8, 5]
@@ -1788,6 +2103,11 @@ hoe-copper:
   sprite: [4, 20]
   site: tf-docs
   url: equipment/hoes/
+hoe-diamond:
+  name: Diamond Hoe
+  sprite: [7, 44]
+  site: mc-wiki
+  url: Diamond_Hoe
 hoe-electrum:
   name: Electrum Hoe
   sprite: [5, 20]
@@ -2063,6 +2383,11 @@ leggings-copper:
   sprite: [9, 37]
   site: tf-docs
   url: equipment/armor/
+leggings-diamond:
+  name: Diamond Leggings
+  sprite: [12, 44]
+  site: mc-wiki
+  url: Diamond_Leggings
 leggings-electrum:
   name: Electrum Leggings
   sprite: [10, 37]
@@ -2113,6 +2438,11 @@ light-gray-dye:
   sprite: [7, 5]
   site: mc-wiki
   url: Light_Gray_Dye
+lilac:
+  name: Lilac
+  sprite: [5, 44]
+  site: mc-wiki
+  url: Flower
 lime-dye:
   name: Lime Dye
   sprite: [10, 5]
@@ -2188,6 +2518,11 @@ magenta-dye:
   sprite: [13, 5]
   site: mc-wiki
   url: Magenta_Dye
+magma-block:
+  name: Magma Block
+  sprite: [11, 48]
+  site: mc-wiki
+  url: Magma_Block
 magma-cream:
   name: Magma Cream
   sprite: [1, 40]
@@ -2223,6 +2558,56 @@ nether-brick:
   sprite: [12, 33]
   site: mc-wiki
   url: Nether_Brick
+nether-brick-item:
+  name: Nether Brick
+  sprite: [2, 45]
+  site: mc-wiki
+  url: Nether_Brick_(item)
+nether-brick-slab:
+  name: Nether Brick Slab
+  sprite: [12, 48]
+  site: mc-wiki
+  url: Nether_Brick_Slab
+nether-brick-stairs:
+  name: Nether Brick Stairs
+  sprite: [13, 48]
+  site: mc-wiki
+  url: Nether_Brick_Stairs
+nether-quartz:
+  name: Nether Quartz
+  sprite: [5, 45]
+  site: mc-wiki
+  url: Nether_Quartz
+nether-quartz-block:
+  name: Block of Quartz
+  sprite: [14, 48]
+  site: mc-wiki
+  url: Block_of_Quartz
+nether-quartz-block-chiseled:
+  name: Chiseled Quartz Block
+  sprite: [15, 48]
+  site: mc-wiki
+  url: Block_of_Quartz
+nether-quartz-block-pillar:
+  name: Pillar Quartz Block
+  sprite: [0, 49]
+  site: mc-wiki
+  url: Block_of_Quartz
+nether-quartz-slab:
+  name: Quartz Slab
+  sprite: [1, 49]
+  site: mc-wiki
+  url: Quartz_Slab
+nether-quartz-stairs:
+  name: Quartz Stairs
+  sprite: [2, 49]
+  site: mc-wiki
+  url: Quartz_Stairs
+netherrack:
+  name: Netherrack
+  sprite: [3, 49]
+  site: mc-wiki
+  url: Netherrack
 niter:
   name: Niter
   sprite: [10, 15]
@@ -2368,6 +2753,11 @@ orange-dye:
   sprite: [14, 5]
   site: mc-wiki
   url: Orange_Dye
+orange-tulip:
+  name: Orange Tulip
+  sprite: [14, 43]
+  site: mc-wiki
+  url: Flower
 ore-aluminum:
   name: Aluminum Ore
   sprite: [5, 7]
@@ -2468,6 +2858,11 @@ ore-tin:
   sprite: [2, 7]
   site: tf-docs
   url: ores/tin-ore/
+oxeye-daisy:
+  name: Oxeye Daisy
+  sprite: [12, 43]
+  site: mc-wiki
+  url: Flower
 packed-ice:
   name: Packed Ice
   sprite: [4, 41]
@@ -2478,6 +2873,11 @@ paper:
   sprite: [4, 11]
   site: mc-wiki
   url: Paper
+peony:
+  name: Peony
+  sprite: [2, 44]
+  site: mc-wiki
+  url: Flower
 phyto-gro:
   name: Phyto-Gro
   sprite: [14, 12]
@@ -2518,6 +2918,11 @@ pickaxe-electrum:
   sprite: [1, 21]
   site: tf-docs
   url: equipment/pickaxes/
+pickaxe-diamond:
+  name: Diamond Pickaxe
+  sprite: [8, 44]
+  site: mc-wiki
+  url: Diamond_Pickaxe
 pickaxe-invar:
   name: Invar Pickaxe
   sprite: [2, 21]
@@ -2558,6 +2963,11 @@ pink-dye:
   sprite: [9, 5]
   site: mc-wiki
   url: Pink_Dye
+pink-tulip:
+  name: Pink Tulip
+  sprite: [15, 43]
+  site: mc-wiki
+  url: Flower
 piston:
   name: Piston
   sprite: [5, 41]
@@ -2673,11 +3083,26 @@ podzol:
   sprite: [7, 41]
   site: mc-wiki
   url: Podzol
+poppy:
+  name: Poppy
+  sprite: [13, 43]
+  site: mc-wiki
+  url: Flower
 portable-tank-basic:
   name: Portable Tank (Basic)
   sprite: [11, 27]
   site: te-docs
   url: storage/portable-tank/
+prismarine-crystals:
+  name: Prismarine Crystals
+  sprite: [3, 45]
+  site: mc-wiki
+  url: Prismarine_Crystals
+prismarine-shard:
+  name: Prismarine Shard
+  sprite: [4, 45]
+  site: mc-wiki
+  url: Prismarine_Shard
 purple-dye:
   name: Purple Dye
   sprite: [5, 5]
@@ -2688,6 +3113,36 @@ red-sand:
   sprite: [7, 8]
   site: mc-wiki
   url: Red_Sand
+red-sandstone:
+  name: Red Sandstone
+  sprite: [9, 49]
+  site: mc-wiki
+  url: Red_Sandstone
+red-sandstone-chiseled:
+  name: Chiseled Red Sandstone
+  sprite: [10, 49]
+  site: mc-wiki
+  url: Red_Sandstone
+red-sandstone-slab:
+  name: Red Sandstone Slab
+  sprite: [12, 49]
+  site: mc-wiki
+  url: Red_Sandstone_Slab
+red-sandstone-smooth:
+  name: Smooth Red Sandstone
+  sprite: [11, 49]
+  site: mc-wiki
+  url: Red_Sandstone
+red-sandstone-stairs:
+  name: Red Sandstone Stairs
+  sprite: [13, 49]
+  site: mc-wiki
+  url: Red_Sandstone_Stairs
+red-tulip:
+  name: Red Tulip
+  sprite: [0, 44]
+  site: mc-wiki
+  url: Flower
 redprint:
   name: Redprint
   sprite: [10, 11]
@@ -2713,6 +3168,11 @@ redstone-coil-silver:
   sprite: [7, 15]
   site: tf-docs
   url: materials/redstone-transmission-coil/
+redstone-lamp:
+  name: Redstone Lamp
+  sprite: [4, 49]
+  site: mc-wiki
+  url: Redstone_Lamp
 redstone-servo:
   name: Redstone Servo
   sprite: [9, 15]
@@ -2823,6 +3283,11 @@ rockwool-yellow:
   sprite: [11, 4]
   site: tf-docs
   url: blocks/rockwool/
+rose-bush:
+  name: Rose Bush
+  sprite: [3, 44]
+  site: mc-wiki
+  url: Flower
 rose-red:
   name: Rose Red
   sprite: [1, 5]
@@ -2853,6 +3318,26 @@ sandstone:
   sprite: [11, 33]
   site: mc-wiki
   url: Sandstone
+sandstone-chiseled:
+  name: Chiseled Sandstone
+  sprite: [5, 49]
+  site: mc-wiki
+  url: Sandstone
+sandstone-slab:
+  name: Sandstone Slab
+  sprite: [7, 49]
+  site: mc-wiki
+  url: Sandstone_Slab
+sandstone-smooth:
+  name: Smooth Sandstone
+  sprite: [6, 49]
+  site: mc-wiki
+  url: Sandstone
+sandstone-stairs:
+  name: Sandstone Stairs
+  sprite: [8, 49]
+  site: mc-wiki
+  url: Sandstone_Stairs
 satchel-basic:
   name: Satchel (Basic)
   sprite: [6, 30]
@@ -3103,6 +3588,11 @@ shovel-copper:
   sprite: [12, 23]
   site: tf-docs
   url: equipment/shovels/
+shovel-diamond:
+  name: Diamond Shovel
+  sprite: [9, 44]
+  site: mc-wiki
+  url: Diamond_Shovel
 shovel-electrum:
   name: Electrum Shovel
   sprite: [13, 23]
@@ -3273,6 +3763,21 @@ stone:
   sprite: [9, 33]
   site: mc-wiki
   url: Stone
+stone-bricks:
+  name: Stone Bricks
+  sprite: [14, 49]
+  site: mc-wiki
+  url: Stone_Bricks
+stone-bricks-cracked:
+  name: Cracked Stone Bricks
+  sprite: [0, 50]
+  site: mc-wiki
+  url: Stone_Bricks
+stone-bricks-mossy:
+  name: Mossy Stone Bricks
+  sprite: [15, 49]
+  site: mc-wiki
+  url: Stone_Bricks
 storage-block-aluminum:
   name: Aluminum Block
   sprite: [4, 6]
@@ -3388,6 +3893,11 @@ structuralduct:
   sprite: [7, 32]
   site: td-docs
   url: ducts/structuralduct/
+sugar:
+  name: Sugar
+  sprite: [6, 45]
+  site: mc-wiki
+  url: Sugar
 sugar-canes:
   name: Sugar Canes
   sprite: [10, 42]
@@ -3398,6 +3908,11 @@ sulfur:
   sprite: [10, 0]
   site: tf-docs
   url: materials/sulfur/
+sunflower:
+  name: Sunflower
+  sprite: [4, 44]
+  site: mc-wiki
+  url: Flower
 sword-aluminum:
   name: Aluminum Sword
   sprite: [6, 25]
@@ -3418,6 +3933,11 @@ sword-copper:
   sprite: [9, 25]
   site: tf-docs
   url: equipment/swords/
+sword-diamond:
+  name: Diamond Sword
+  sprite: [10, 44]
+  site: mc-wiki
+  url: Diamond_Sword
 sword-electrum:
   name: Electrum Sword
   sprite: [10, 25]
@@ -3533,6 +4053,11 @@ watering-can-resonant:
   sprite: [8, 34]
   site: tc-docs
   url: items/watering-can/
+white-tulip:
+  name: White Tulip
+  sprite: [1, 44]
+  site: mc-wiki
+  url: Flower
 wood-log-acacia:
   name: Acacia Wood
   sprite: [6, 43]
