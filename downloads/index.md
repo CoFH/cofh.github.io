@@ -12,7 +12,7 @@ it's a development build.
 
 Report bugs and suggest new features on the [GitHub issue
 tracker](https://github.com/CoFH/Feedback). Ask questions on the [Twitch
-chat](https://invite.twitch.tv/6gxxks).
+chat](https://app.twitch.tv/invite/SipeCoinsSvalna).
 
 <ul class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin data-uk-grid-match="{target: '.uk-panel'}">
     {% for mod in site.data.download-links %}

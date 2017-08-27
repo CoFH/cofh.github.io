@@ -98,7 +98,11 @@ $(function() {
     window.setInterval(function() {
         $('.cofh-recipe:not(.paused) .cofh-item-cycle > div:not(.hidden)').each(function() {
             var $this = $(this);
-            var $siblings = $this.parent().children();
+            var $siblings = $this.parent().children().filter(function(i, el) {return !$(el).is($this)});
+
+            if ($siblings.length === 0) {
+                return;
+            }
 
             var $next;
 
