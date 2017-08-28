@@ -248,6 +248,11 @@ axe-tin:
   sprite: [15, 16]
   site: tf-docs
   url: equipment/axes/
+axe-wood:
+  name: Wooden Axe
+  sprite: [2, 50]
+  site: mc-wiki
+  url: Wooden_Axe
 azure-bluet:
   name: Azure Bluet
   sprite: [9, 43]
@@ -263,6 +268,86 @@ basalz-rod:
   sprite: [1, 16]
   site: tf-docs
   url: materials/basalz-rod/
+bed-black:
+  name: Black Bed
+  sprite: [10, 52]
+  site: mc-wiki
+  url: Bed
+bed-blue:
+  name: Blue Bed
+  sprite: [6, 52]
+  site: mc-wiki
+  url: Bed
+bed-brown:
+  name: Brown Bed
+  sprite: [7, 52]
+  site: mc-wiki
+  url: Bed
+bed-cyan:
+  name: Cyan Bed
+  sprite: [4, 52]
+  site: mc-wiki
+  url: Bed
+bed-gray:
+  name: Gray Bed
+  sprite: [2, 52]
+  site: mc-wiki
+  url: Bed
+bed-green:
+  name: Green Bed
+  sprite: [8, 52]
+  site: mc-wiki
+  url: Bed
+bed-light-blue:
+  name: Light Blue Bed
+  sprite: [14, 51]
+  site: mc-wiki
+  url: Bed
+bed-light-gray:
+  name: Light Gray Bed
+  sprite: [3, 52]
+  site: mc-wiki
+  url: Bed
+bed-lime:
+  name: Lime Bed
+  sprite: [0, 52]
+  site: mc-wiki
+  url: Bed
+bed-magenta:
+  name: Magenta Bed
+  sprite: [13, 51]
+  site: mc-wiki
+  url: Bed
+bed-orange:
+  name: Orange Bed
+  sprite: [12, 51]
+  site: mc-wiki
+  url: Bed
+bed-pink:
+  name: Pink Bed
+  sprite: [1, 52]
+  site: mc-wiki
+  url: Bed
+bed-purple:
+  name: Purple Bed
+  sprite: [5, 52]
+  site: mc-wiki
+  url: Bed
+bed-red:
+  name: Red Bed
+  sprite: [9, 52]
+  site: mc-wiki
+  url: Bed
+bed-white:
+  name: White Bed
+  sprite: [11, 51]
+  site: mc-wiki
+  url: Bed
+bed-yellow:
+  name: Yellow Bed
+  sprite: [15, 51]
+  site: mc-wiki
+  url: Bed
 bitumen:
   name: Bitumen
   sprite: [1, 8]
@@ -298,6 +383,36 @@ blue-orchid:
   sprite: [10, 43]
   site: mc-wiki
   url: Flower
+boat-acacia:
+  name: Acacia Boat
+  sprite: [7, 50]
+  site: mc-wiki
+  url: Boat
+boat-birch:
+  name: Birch Boat
+  sprite: [8, 50]
+  site: mc-wiki
+  url: Boat
+boat-dark-oak:
+  name: Dark Oak Boat
+  sprite: [9, 50]
+  site: mc-wiki
+  url: Boat
+boat-jungle:
+  name: Jungle Boat
+  sprite: [10, 50]
+  site: mc-wiki
+  url: Boat
+boat-oak:
+  name: Oak Boat
+  sprite: [11, 50]
+  site: mc-wiki
+  url: Boat
+boat-spruce:
+  name: Spruce Boat
+  sprite: [12, 50]
+  site: mc-wiki
+  url: Boat
 bone:
   name: Bone
   sprite: [14, 44]
@@ -313,6 +428,11 @@ book:
   sprite: [15, 38]
   site: mc-wiki
   url: Book
+bookshelf:
+  name: Bookshelf
+  sprite: [11, 52]
+  site: mc-wiki
+  url: Bookshelf
 boots-aluminum:
   name: Aluminum Boots
   sprite: [2, 38]
@@ -353,6 +473,11 @@ boots-lead:
   sprite: [8, 38]
   site: tf-docs
   url: equipment/armor/
+boots-leather:
+  name: Leather Boots
+  sprite: [15, 52]
+  site: mc-wiki
+  url: Leather_Boots
 boots-nickel:
   name: Nickel Boots
   sprite: [9, 38]
@@ -458,6 +583,11 @@ bow-tin:
   sprite: [15, 17]
   site: tf-docs
   url: equipment/bows/
+bowl:
+  name: Bowl
+  sprite: [13, 50]
+  site: mc-wiki
+  url: Bowl
 brick:
   name: Brick
   sprite: [15, 44]
@@ -508,6 +638,11 @@ bucket-water:
   sprite: [2, 39]
   site: mc-wiki
   url: Water_Bucket
+button-wood:
+  name: Button
+  sprite: [0, 53]
+  site: mc-wiki
+  url: Button
 cache-basic:
   name: Cache (Basic)
   sprite: [12, 27]
@@ -573,6 +708,11 @@ chestplate-lead:
   sprite: [0, 37]
   site: tf-docs
   url: equipment/armor/
+chestplate-leather:
+  name: Leather Tunic
+  sprite: [13, 52]
+  site: mc-wiki
+  url: Leather_Tunic
 chestplate-nickel:
   name: Nickel Chestplate
   sprite: [1, 37]
@@ -993,6 +1133,41 @@ dirt:
   sprite: [2, 42]
   site: mc-wiki
   url: Dirt
+door-iron:
+  name: Iron Door
+  sprite: [14, 50]
+  site: mc-wiki
+  url: Door
+door-wood-acacia:
+  name: Acacia Door
+  sprite: [15, 50]
+  site: mc-wiki
+  url: Door
+door-wood-birch:
+  name: Birch Door
+  sprite: [0, 51]
+  site: mc-wiki
+  url: Door
+door-wood-dark-oak:
+  name: Dark Oak Door
+  sprite: [1, 51]
+  site: mc-wiki
+  url: Door
+door-wood-jungle:
+  name: Jungle Door
+  sprite: [2, 51]
+  site: mc-wiki
+  url: Door
+door-wood-oak:
+  name: Oak Door
+  sprite: [4, 51]
+  site: mc-wiki
+  url: Door
+door-wood-spruce:
+  name: Spruce Door
+  sprite: [3, 51]
+  site: mc-wiki
+  url: Door
 duct-cover-andesite-polished:
   name: Polished Andesite Cover
   sprite: [7, 33]
@@ -1258,6 +1433,66 @@ eye-of-ender:
   sprite: [13, 9]
   site: mc-wiki
   url: Eye_of_Ender
+fence-acacia:
+  name: Acacia Fence
+  sprite: [6, 53]
+  site: mc-wiki
+  url: Fence
+fence-birch:
+  name: Birch Fence
+  sprite: [3, 53]
+  site: mc-wiki
+  url: Fence
+fence-dark-oak:
+  name: Dark Oak Fence
+  sprite: [5, 53]
+  site: mc-wiki
+  url: Fence
+fence-jungle:
+  name: Jungle Fence
+  sprite: [4, 53]
+  site: mc-wiki
+  url: Fence
+fence-oak:
+  name: Oak Fence
+  sprite: [1, 53]
+  site: mc-wiki
+  url: Fence
+fence-spruce:
+  name: Spruce Fence
+  sprite: [2, 53]
+  site: mc-wiki
+  url: Fence
+fence-gate-acacia:
+  name: Acacia Fence Gate
+  sprite: [12, 53]
+  site: mc-wiki
+  url: Fence_Gate
+fence-gate-birch:
+  name: Birch Fence Gate
+  sprite: [9, 53]
+  site: mc-wiki
+  url: Fence_Gate
+fence-gate-dark-oak:
+  name: Dark Oak Fence Gate
+  sprite: [11, 53]
+  site: mc-wiki
+  url: Fence_Gate
+fence-gate-jungle:
+  name: Jungle Fence Gate
+  sprite: [10, 53]
+  site: mc-wiki
+  url: Fence_Gate
+fence-gate-oak:
+  name: Oak Fence Gate
+  sprite: [7, 53]
+  site: mc-wiki
+  url: Fence_Gate
+fence-gate-spruce:
+  name: Spruce Fence Gate
+  sprite: [8, 53]
+  site: mc-wiki
+  url: Fence_Gate
 filter-basic:
   name: Filter
   sprite: [2, 9]
@@ -2063,6 +2298,11 @@ helmet-lead:
   sprite: [4, 36]
   site: tf-docs
   url: equipment/armor/
+helmet-leather:
+  name: Leather Cap
+  sprite: [12, 52]
+  site: mc-wiki
+  url: Leather_Cap
 helmet-nickel:
   name: Nickel Helmet
   sprite: [5, 36]
@@ -2153,6 +2393,11 @@ hoe-tin:
   sprite: [12, 20]
   site: tf-docs
   url: equipment/hoes/
+hoe-wood:
+  name: Wooden Hoe
+  sprite: [3, 50]
+  site: mc-wiki
+  url: Wooden_Hoe
 hopper:
   name: Hopper
   sprite: [11, 39]
@@ -2283,6 +2528,11 @@ ink-sac:
   sprite: [0, 5]
   site: mc-wiki
   url: Ink_Sac
+item-frame:
+  name: Item Frame
+  sprite: [5, 51]
+  site: mc-wiki
+  url: Item_Frame
 itemduct:
   name: Itemduct
   sprite: [15, 31]
@@ -2323,6 +2573,11 @@ itemduct-energy-fast-opaque:
   sprite: [6, 32]
   site: td-docs
   url: ducts/itemducts/
+jukebox:
+  name: Jukebox
+  sprite: [13, 53]
+  site: mc-wiki
+  url: Jukebox
 lapis-lazuli:
   name: Lapis Lazuli
   sprite: [4, 5]
@@ -2408,6 +2663,11 @@ leggings-lead:
   sprite: [12, 37]
   site: tf-docs
   url: equipment/armor/
+leggings-leather:
+  name: Leather Pants
+  sprite: [14, 52]
+  site: mc-wiki
+  url: Leather_Pants
 leggings-nickel:
   name: Nickel Leggings
   sprite: [13, 37]
@@ -2433,6 +2693,11 @@ leggings-tin:
   sprite: [1, 38]
   site: tf-docs
   url: equipment/armor/
+lever:
+  name: Lever
+  sprite: [6, 51]
+  site: mc-wiki
+  url: Lever
 light-blue-dye:
   name: Light Blue Dye
   sprite: [12, 5]
@@ -2533,6 +2798,16 @@ magma-cream:
   sprite: [1, 40]
   site: mc-wiki
   url: Magma_Cream
+melon:
+  name: Melon
+  sprite: [14, 53]
+  site: mc-wiki
+  url: Melon_(block)
+melon-slice:
+  name: Melon
+  sprite: [7, 51]
+  site: mc-wiki
+  url: Melon
 moss-stone:
   name: Moss Stone
   sprite: [14, 33]
@@ -2618,6 +2893,11 @@ niter:
   sprite: [10, 15]
   site: tf-docs
   url: materials/niter/
+note-block:
+  name: Note Block
+  sprite: [15, 53]
+  site: mc-wiki
+  url: Note_Block
 nugget-aluminum:
   name: Aluminum Nugget
   sprite: [4, 10]
@@ -2873,6 +3153,11 @@ packed-ice:
   sprite: [4, 41]
   site: mc-wiki
   url: Packed_Ice
+painting:
+  name: Painting
+  sprite: [8, 51]
+  site: mc-wiki
+  url: Painting
 paper:
   name: Paper
   sprite: [4, 11]
@@ -2963,6 +3248,11 @@ pickaxe-tin:
   sprite: [8, 21]
   site: tf-docs
   url: equipment/pickaxes/
+pickaxe-wood:
+  name: Wooden Pickaxe
+  sprite: [4, 50]
+  site: mc-wiki
+  url: Wooden_Pickaxe
 pink-dye:
   name: Pink Dye
   sprite: [9, 5]
@@ -3098,6 +3388,21 @@ portable-tank-basic:
   sprite: [11, 27]
   site: te-docs
   url: storage/portable-tank/
+pressure-plate-gold:
+  name: Weighted Pressure Plate (Light)
+  sprite: [1, 54]
+  site: mc-wiki
+  url: Pressure_Plate
+pressure-plate-iron:
+  name: Weighted Pressure Plate (Heavy)
+  sprite: [2, 54]
+  site: mc-wiki
+  url: Pressure_Plate
+pressure-plate-wood:
+  name: Wooden Pressure Plate
+  sprite: [0, 54]
+  site: mc-wiki
+  url: Pressure_Plate
 prismarine-crystals:
   name: Prismarine Crystals
   sprite: [3, 45]
@@ -3183,6 +3488,11 @@ redstone-servo:
   sprite: [9, 15]
   site: tf-docs
   url: materials/redstone-servo/
+redstone-torch:
+  name: Redstone Torch
+  sprite: [9, 51]
+  site: mc-wiki
+  url: Redstone_Torch
 retriever-basic:
   name: Retriever
   sprite: [7, 9]
@@ -3638,6 +3948,11 @@ shovel-tin:
   sprite: [4, 24]
   site: tf-docs
   url: equipment/shovels/
+shovel-wood:
+  name: Wooden Shovel
+  sprite: [5, 50]
+  site: mc-wiki
+  url: Wooden_Shovel
 sickle-aluminum:
   name: Aluminum Sickle
   sprite: [5, 24]
@@ -3723,6 +4038,11 @@ sickle-wood:
   sprite: [5, 25]
   site: tf-docs
   url: equipment/sickles/
+sign:
+  name: Sign
+  sprite: [10, 51]
+  site: mc-wiki
+  url: Sign
 signalum-security-lock:
   name: Signalum Security Lock
   sprite: [7, 11]
@@ -3983,6 +4303,11 @@ sword-tin:
   sprite: [1, 26]
   site: tf-docs
   url: equipment/swords/
+sword-wood:
+  name: Wooden Sword
+  sprite: [6, 50]
+  site: mc-wiki
+  url: Wooden_Sword
 tar:
   name: Tar
   sprite: [8, 8]
@@ -3993,6 +4318,21 @@ torch:
   sprite: [7, 40]
   site: mc-wiki
   url: Torch
+trapdoor-iron:
+  name: Iron Trapdoor
+  sprite: [4, 54]
+  site: mc-wiki
+  url: Trapdoor
+trapdoor-wood:
+  name: Wooden Trapdoor
+  sprite: [3, 54]
+  site: mc-wiki
+  url: Trapdoor
+trapped-chest:
+  name: Trapped Chest
+  sprite: [5, 54]
+  site: mc-wiki
+  url: Trapped_Chest
 upgrade-kit-hardened:
   name: Hardened Upgrade Kit
   sprite: [6, 28]
@@ -4123,6 +4463,36 @@ wood-planks-spruce:
   sprite: [9, 0]
   site: mc-wiki
   url: Wood_Planks
+wood-stairs-acacia:
+  name: Acacia Wood Stairs
+  sprite: [10, 54]
+  site: mc-wiki
+  url: Wood_Stairs
+wood-stairs-birch:
+  name: Birch Wood Stairs
+  sprite: [8, 54]
+  site: mc-wiki
+  url: Wood_Stairs
+wood-stairs-dark-oak:
+  name: Dark Oak Wood Stairs
+  sprite: [11, 54]
+  site: mc-wiki
+  url: Wood_Stairs
+wood-stairs-jungle:
+  name: Jungle Wood Stairs
+  sprite: [9, 54]
+  site: mc-wiki
+  url: Wood_Stairs
+wood-stairs-oak:
+  name: Oak Wood Stairs
+  sprite: [6, 54]
+  site: mc-wiki
+  url: Wood_Stairs
+wood-stairs-spruce:
+  name: Spruce Wood Stairs
+  sprite: [7, 54]
+  site: mc-wiki
+  url: Wood_Stairs
 wool-black:
   name: Black Wool
   sprite: [0, 4]
