@@ -112,23 +112,23 @@ _item-groups:
     - glass-stained-green
     - glass-stained-red
     - glass-stained-black
-  hardened-glass: &hardened-glass
+  hardened-glass-glass: &hardened
     - hardened-glass
-    - hardened-copper-glass
-    - hardened-tin-glass
-    - hardened-silver-glass
-    - hardened-aluminum-glass
-    - hardened-nickel-glass
-    - hardened-platinum-glass
-    - hardened-iridium-glass
-    - hardened-steel-glass
-    - hardened-electrum-glass
-    - hardened-invar-glass
-    - hardened-bronze-glass
-    - hardened-constantan-glass
-    - hardened-signalum-glass
-    - hardened-lumium-glass
-    - hardened-enderium-glass
+    - hardened-glass-copper
+    - hardened-glass-tin
+    - hardened-glass-silver
+    - hardened-glass-aluminum
+    - hardened-glass-nickel
+    - hardened-glass-platinum
+    - hardened-glass-iridium
+    - hardened-glass-steel
+    - hardened-glass-electrum
+    - hardened-glass-invar
+    - hardened-glass-bronze
+    - hardened-glass-constantan
+    - hardened-glass-signalum
+    - hardened-glass-lumium
+    - hardened-glass-enderium
   leaves: &leaves
     - leaves-oak
     - leaves-spruce
@@ -11583,52 +11583,261 @@ induction-smelter:
         primary-output:
           item: [hardened-glass]
           amount: 2
-    hardened-glass-variants:
+    hardened-glass-aluminum:
       results:
-        - html: '<a href="/docs/thermal-foundation/blocks/hardened-glass/">Hardened Glass</a> variants'
+        - item: hardened-glass-aluminum
       ingredients:
         - item: hardened-glass
-        - html: metal or alloy dust
+        - item: dust-aluminum
       energy: 6000
       data:
         primary-input:
           item: [hardened-glass]
           amount: 2
         secondary-input:
-          item:
-            - dust-copper
-            - dust-tin
-            - dust-silver
-            - dust-aluminum
-            - dust-nickel
-            - dust-platinum
-            - dust-iridium
-            - dust-steel
-            - dust-electrum
-            - dust-invar
-            - dust-bronze
-            - dust-constantan
-            - dust-signalum
-            - dust-lumium
-            - dust-enderium
-          amount: 1
+          item: [dust-aluminum]
         primary-output:
-          item:
-            - hardened-copper-glass
-            - hardened-tin-glass
-            - hardened-silver-glass
-            - hardened-aluminum-glass
-            - hardened-nickel-glass
-            - hardened-platinum-glass
-            - hardened-iridium-glass
-            - hardened-steel-glass
-            - hardened-electrum-glass
-            - hardened-invar-glass
-            - hardened-bronze-glass
-            - hardened-constantan-glass
-            - hardened-signalum-glass
-            - hardened-lumium-glass
-            - hardened-enderium-glass
+          item: [hardened-glass-aluminum]
+          amount: 2
+    hardened-glass-bronze:
+      results:
+        - item: hardened-glass-bronze
+      ingredients:
+        - item: hardened-glass
+        - item: dust-bronze
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-bronze]
+        primary-output:
+          item: [hardened-glass-bronze]
+          amount: 2
+    hardened-glass-constantan:
+      results:
+        - item: hardened-glass-constantan
+      ingredients:
+        - item: hardened-glass
+        - item: dust-constantan
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-constantan]
+        primary-output:
+          item: [hardened-glass-constantan]
+          amount: 2
+    hardened-glass-copper:
+      results:
+        - item: hardened-glass-copper
+      ingredients:
+        - item: hardened-glass
+        - item: dust-copper
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-copper]
+        primary-output:
+          item: [hardened-glass-copper]
+          amount: 2
+    hardened-glass-electrum:
+      results:
+        - item: hardened-glass-electrum
+      ingredients:
+        - item: hardened-glass
+        - item: dust-electrum
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-electrum]
+        primary-output:
+          item: [hardened-glass-electrum]
+          amount: 2
+    hardened-glass-enderium:
+      results:
+        - item: hardened-glass-enderium
+      ingredients:
+        - item: hardened-glass
+        - item: dust-enderium
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-enderium]
+        primary-output:
+          item: [hardened-glass-enderium]
+          amount: 2
+    hardened-glass-invar:
+      results:
+        - item: hardened-glass-invar
+      ingredients:
+        - item: hardened-glass
+        - item: dust-invar
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-invar]
+        primary-output:
+          item: [hardened-glass-invar]
+          amount: 2
+    hardened-glass-iridium:
+      results:
+        - item: hardened-glass-iridium
+      ingredients:
+        - item: hardened-glass
+        - item: dust-iridium
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-iridium]
+        primary-output:
+          item: [hardened-glass-iridium]
+          amount: 2
+    hardened-glass-lumium:
+      results:
+        - item: hardened-glass-lumium
+      ingredients:
+        - item: hardened-glass
+        - item: dust-lumium
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-lumium]
+        primary-output:
+          item: [hardened-glass-lumium]
+          amount: 2
+    hardened-glass-mithril:
+      results:
+        - item: hardened-glass-mithril
+      ingredients:
+        - item: hardened-glass
+        - item: dust-mithril
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-mithril]
+        primary-output:
+          item: [hardened-glass-mithril]
+          amount: 2
+    hardened-glass-nickel:
+      results:
+        - item: hardened-glass-nickel
+      ingredients:
+        - item: hardened-glass
+        - item: dust-nickel
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-nickel]
+        primary-output:
+          item: [hardened-glass-nickel]
+          amount: 2
+    hardened-glass-platinum:
+      results:
+        - item: hardened-glass-platinum
+      ingredients:
+        - item: hardened-glass
+        - item: dust-platinum
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-platinum]
+        primary-output:
+          item: [hardened-glass-platinum]
+          amount: 2
+    hardened-glass-signalum:
+      results:
+        - item: hardened-glass-signalum
+      ingredients:
+        - item: hardened-glass
+        - item: dust-signalum
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-signalum]
+        primary-output:
+          item: [hardened-glass-signalum]
+          amount: 2
+    hardened-glass-silver:
+      results:
+        - item: hardened-glass-silver
+      ingredients:
+        - item: hardened-glass
+        - item: dust-silver
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-silver]
+        primary-output:
+          item: [hardened-glass-silver]
+          amount: 2
+    hardened-glass-steel:
+      results:
+        - item: hardened-glass-steel
+      ingredients:
+        - item: hardened-glass
+        - item: dust-steel
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-steel]
+        primary-output:
+          item: [hardened-glass-steel]
+          amount: 2
+    hardened-glass-tin:
+      results:
+        - item: hardened-glass-tin
+      ingredients:
+        - item: hardened-glass
+        - item: dust-tin
+      energy: 6000
+      data:
+        primary-input:
+          item: [hardened-glass]
+          amount: 2
+        secondary-input:
+          item: [dust-tin]
+        primary-output:
+          item: [hardened-glass-tin]
           amount: 2
     ore-processing-cinnabar-aluminum:
       results:

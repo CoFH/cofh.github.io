@@ -2163,82 +2163,82 @@ hardened-glass:
   sprite: [12, 1]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-aluminum-glass:
+hardened-glass-aluminum:
   name: Hardened Aluminum Glass
   sprite: [0, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-bronze-glass:
+hardened-glass-bronze:
   name: Hardened Bronze Glass
   sprite: [8, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-constantan-glass:
+hardened-glass-constantan:
   name: Hardened Constantan Glass
   sprite: [9, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-copper-glass:
+hardened-glass-copper:
   name: Hardened Copper Glass
   sprite: [13, 1]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-electrum-glass:
+hardened-glass-electrum:
   name: Hardened Electrum Glass
   sprite: [6, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-enderium-glass:
+hardened-glass-enderium:
   name: Hardened Enderium Glass
   sprite: [12, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-invar-glass:
+hardened-glass-invar:
   name: Hardened Invar Glass
   sprite: [7, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-iridium-glass:
+hardened-glass-iridium:
   name: Hardened Iridium Glass
   sprite: [3, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-lumium-glass:
+hardened-glass-lumium:
   name: Hardened Lumium Glass
   sprite: [11, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-mithril-glass:
+hardened-glass-mithril:
   name: Hardened Mana Infused Glass
   sprite: [4, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-nickel-glass:
+hardened-glass-nickel:
   name: Hardened Nickel Glass
   sprite: [1, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-platinum-glass:
+hardened-glass-platinum:
   name: Hardened Platinum Glass
   sprite: [2, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-signalum-glass:
+hardened-glass-signalum:
   name: Hardened Signalum Glass
   sprite: [10, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-silver-glass:
+hardened-glass-silver:
   name: Hardened Silver Glass
   sprite: [15, 1]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-steel-glass:
+hardened-glass-steel:
   name: Hardened Steel Glass
   sprite: [5, 2]
   site: tf-docs
   url: blocks/hardened-glass/
-hardened-tin-glass:
+hardened-glass-tin:
   name: Hardened Tin Glass
   sprite: [14, 1]
   site: tf-docs

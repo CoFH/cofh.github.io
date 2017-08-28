@@ -4,7 +4,22 @@ redirect_from: /docs/thermal-expansion/materials/hardened-glass/
 recipes:
   induction-smelter:
     - hardened-glass
-    - hardened-glass-variants
+    - hardened-glass-copper
+    - hardened-glass-tin
+    - hardened-glass-silver
+    - hardened-glass-aluminum
+    - hardened-glass-nickel
+    - hardened-glass-platinum
+    - hardened-glass-iridium
+    - hardened-glass-mithril
+    - hardened-glass-steel
+    - hardened-glass-electrum
+    - hardened-glass-invar
+    - hardened-glass-bronze
+    - hardened-glass-constantan
+    - hardened-glass-signalum
+    - hardened-glass-lumium
+    - hardened-glass-enderium
 ---
 
 ![Hardened glass](/assets/images/thermal-foundation/hardened-glass.png){:style="height: 96px"}
