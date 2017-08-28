@@ -3,6 +3,10 @@ title: Nickel Ore
 usage-recipes:
   smelting:
     - ore-processing-nickel
+  crafting:
+    - pyrotheum-ore-nickel
+    - petrotheum-ore-nickel
+    - petrotheum-pyrotheum-ore-nickel
   pulverizer:
     - ore-processing-nickel
   induction-smelter:
@@ -33,6 +37,9 @@ Usage
 
 ### Smelting ingredient
 {% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}

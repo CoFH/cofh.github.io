@@ -1,6 +1,10 @@
 ---
 title: Iridium Ore
 usage-recipes:
+  crafting:
+    - pyrotheum-ore-iridium
+    - petrotheum-ore-iridium
+    - petrotheum-pyrotheum-ore-iridium
   pulverizer:
     - ore-processing-iridium
   induction-smelter:
@@ -32,6 +36,9 @@ Usage
 
 Iridium ore cannot be processed by
 [smelting](https://minecraft.gamepedia.com/Smelting).
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}

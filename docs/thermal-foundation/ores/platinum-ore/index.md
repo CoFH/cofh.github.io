@@ -3,6 +3,10 @@ title: Platinum Ore
 usage-recipes:
   smelting:
     - ore-processing-platinum
+  crafting:
+    - pyrotheum-ore-platinum
+    - petrotheum-ore-platinum
+    - petrotheum-pyrotheum-ore-platinum
   pulverizer:
     - ore-processing-platinum
   induction-smelter:
@@ -34,6 +38,9 @@ Usage
 
 ### Smelting ingredient
 {% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}

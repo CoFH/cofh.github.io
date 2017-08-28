@@ -1,6 +1,10 @@
 ---
 title: Aluminum Ore
 usage-recipes:
+  crafting:
+    - pyrotheum-ore-aluminum
+    - petrotheum-ore-aluminum
+    - petrotheum-pyrotheum-ore-aluminum
   pulverizer:
     - ore-processing-aluminum
   induction-smelter:
@@ -32,6 +36,9 @@ Usage
 
 Aluminum ore cannot be processed by
 [smelting](https://minecraft.gamepedia.com/Smelting).
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}

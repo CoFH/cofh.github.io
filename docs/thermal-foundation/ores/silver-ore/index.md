@@ -3,6 +3,10 @@ title: Silver Ore
 usage-recipes:
   smelting:
     - ore-processing-silver
+  crafting:
+    - pyrotheum-ore-silver
+    - petrotheum-ore-silver
+    - petrotheum-pyrotheum-ore-silver
   pulverizer:
     - ore-processing-silver
   induction-smelter:
@@ -38,6 +42,9 @@ Usage
 
 ### Smelting ingredient
 {% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}

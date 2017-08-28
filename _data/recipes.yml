@@ -6151,6 +6151,563 @@ crafting:
         result:
           item: [paper]
           amount: 2
+    petrotheum-ingot-aluminum:
+      results:
+        - item: dust-aluminum
+      ingredients:
+        - item: ingot-aluminum
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-aluminum], item: [dust-petrotheum]]
+        result:
+          item: [dust-aluminum]
+          amount: 1
+    petrotheum-ingot-copper:
+      results:
+        - item: dust-copper
+      ingredients:
+        - item: ingot-copper
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-copper], item: [dust-petrotheum]]
+        result:
+          item: [dust-copper]
+          amount: 1
+    petrotheum-ingot-gold:
+      results:
+        - item: dust-gold
+      ingredients:
+        - item: ingot-gold
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-gold], item: [dust-petrotheum]]
+        result:
+          item: [dust-gold]
+          amount: 1
+    petrotheum-ingot-iridium:
+      results:
+        - item: dust-iridium
+      ingredients:
+        - item: ingot-iridium
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-iridium], item: [dust-petrotheum]]
+        result:
+          item: [dust-iridium]
+          amount: 1
+    petrotheum-ingot-iron:
+      results:
+        - item: dust-iron
+      ingredients:
+        - item: ingot-iron
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-iron], item: [dust-petrotheum]]
+        result:
+          item: [dust-iron]
+          amount: 1
+    petrotheum-ingot-lead:
+      results:
+        - item: dust-lead
+      ingredients:
+        - item: ingot-lead
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-lead], item: [dust-petrotheum]]
+        result:
+          item: [dust-lead]
+          amount: 1
+    petrotheum-ingot-mithril:
+      results:
+        - item: dust-mithril
+      ingredients:
+        - item: ingot-mithril
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-mithril], item: [dust-petrotheum]]
+        result:
+          item: [dust-mithril]
+          amount: 1
+    petrotheum-ingot-nickel:
+      results:
+        - item: dust-nickel
+      ingredients:
+        - item: ingot-nickel
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-nickel], item: [dust-petrotheum]]
+        result:
+          item: [dust-nickel]
+          amount: 1
+    petrotheum-ingot-platinum:
+      results:
+        - item: dust-platinum
+      ingredients:
+        - item: ingot-platinum
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-platinum], item: [dust-petrotheum]]
+        result:
+          item: [dust-platinum]
+          amount: 1
+    petrotheum-ingot-silver:
+      results:
+        - item: dust-silver
+      ingredients:
+        - item: ingot-silver
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-silver], item: [dust-petrotheum]]
+        result:
+          item: [dust-silver]
+          amount: 1
+    petrotheum-ingot-tin:
+      results:
+        - item: dust-tin
+      ingredients:
+        - item: ingot-tin
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ingot-tin], item: [dust-petrotheum]]
+        result:
+          item: [dust-tin]
+          amount: 1
+    petrotheum-ore-aluminum:
+      results:
+        - item: dust-aluminum
+          suffix: 'x2'
+      ingredients:
+        - item: ore-aluminum
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-aluminum], item: [dust-petrotheum]]
+        result:
+          item: [dust-aluminum]
+          amount: 2
+    petrotheum-ore-coal:
+      results:
+        - item: dust-coal
+          suffix: 'x2'
+      ingredients:
+        - item: ore-coal
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-coal], item: [dust-petrotheum]]
+        result:
+          item: [dust-coal]
+          amount: 2
+    petrotheum-ore-copper:
+      results:
+        - item: dust-copper
+          suffix: 'x2'
+      ingredients:
+        - item: ore-copper
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-copper], item: [dust-petrotheum]]
+        result:
+          item: [dust-copper]
+          amount: 2
+    petrotheum-ore-diamond:
+      results:
+        - item: diamond
+          suffix: 'x2'
+      ingredients:
+        - item: ore-diamond
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-diamond], item: [dust-petrotheum]]
+        result:
+          item: [diamond]
+          amount: 2
+    petrotheum-ore-emerald:
+      results:
+        - item: emerald
+          suffix: 'x2'
+      ingredients:
+        - item: ore-emerald
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-emerald], item: [dust-petrotheum]]
+        result:
+          item: [emerald]
+          amount: 2
+    petrotheum-ore-gold:
+      results:
+        - item: dust-gold
+          suffix: 'x2'
+      ingredients:
+        - item: ore-gold
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-gold], item: [dust-petrotheum]]
+        result:
+          item: [dust-gold]
+          amount: 2
+    petrotheum-ore-iridium:
+      results:
+        - item: dust-iridium
+          suffix: 'x2'
+      ingredients:
+        - item: ore-iridium
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-iridium], item: [dust-petrotheum]]
+        result:
+          item: [dust-iridium]
+          amount: 2
+    petrotheum-ore-iron:
+      results:
+        - item: dust-iron
+          suffix: 'x2'
+      ingredients:
+        - item: ore-iron
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-iron], item: [dust-petrotheum]]
+        result:
+          item: [dust-iron]
+          amount: 2
+    petrotheum-ore-lapis-lazuli:
+      results:
+        - item: lapis-lazuli
+          suffix: 'x2'
+      ingredients:
+        - item: ore-lapis-lazuli
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-lapis-lazuli], item: [dust-petrotheum]]
+        result:
+          item: [lapis-lazuli]
+          amount: 2
+    petrotheum-ore-lead:
+      results:
+        - item: dust-lead
+          suffix: 'x2'
+      ingredients:
+        - item: ore-lead
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-lead], item: [dust-petrotheum]]
+        result:
+          item: [dust-lead]
+          amount: 2
+    petrotheum-ore-mithril:
+      results:
+        - item: dust-mithril
+          suffix: 'x2'
+      ingredients:
+        - item: ore-mithril
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-mithril], item: [dust-petrotheum]]
+        result:
+          item: [dust-mithril]
+          amount: 2
+    petrotheum-ore-nether-quartz:
+      results:
+        - item: nether-quartz
+          suffix: 'x2'
+      ingredients:
+        - item: ore-nether-quartz
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-nether-quartz], item: [dust-petrotheum]]
+        result:
+          item: [nether-quartz]
+          amount: 2
+    petrotheum-ore-nickel:
+      results:
+        - item: dust-nickel
+          suffix: 'x2'
+      ingredients:
+        - item: ore-nickel
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-nickel], item: [dust-petrotheum]]
+        result:
+          item: [dust-nickel]
+          amount: 2
+    petrotheum-ore-platinum:
+      results:
+        - item: dust-platinum
+          suffix: 'x2'
+      ingredients:
+        - item: ore-platinum
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-platinum], item: [dust-petrotheum]]
+        result:
+          item: [dust-platinum]
+          amount: 2
+    petrotheum-ore-redstone:
+      results:
+        - item: redstone
+          suffix: 'x2'
+      ingredients:
+        - item: ore-redstone
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-redstone], item: [dust-petrotheum]]
+        result:
+          item: [redstone]
+          amount: 2
+    petrotheum-ore-silver:
+      results:
+        - item: dust-silver
+          suffix: 'x2'
+      ingredients:
+        - item: ore-silver
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-silver], item: [dust-petrotheum]]
+        result:
+          item: [dust-silver]
+          amount: 2
+    petrotheum-ore-tin:
+      results:
+        - item: dust-tin
+          suffix: 'x2'
+      ingredients:
+        - item: ore-tin
+        - item: dust-petrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-tin], item: [dust-petrotheum]]
+        result:
+          item: [dust-tin]
+          amount: 2
+    petrotheum-pyrotheum-ore-aluminum:
+      results:
+        - item: ingot-aluminum
+          suffix: 'x2'
+      ingredients:
+        - item: ore-aluminum
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-aluminum], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-aluminum]
+          amount: 2
+    petrotheum-pyrotheum-ore-copper:
+      results:
+        - item: ingot-copper
+          suffix: 'x2'
+      ingredients:
+        - item: ore-copper
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-copper], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-copper]
+          amount: 2
+    petrotheum-pyrotheum-ore-gold:
+      results:
+        - item: ingot-gold
+          suffix: 'x2'
+      ingredients:
+        - item: ore-gold
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-gold], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-gold]
+          amount: 2
+    petrotheum-pyrotheum-ore-iridium:
+      results:
+        - item: ingot-iridium
+          suffix: 'x2'
+      ingredients:
+        - item: ore-iridium
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-iridium], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-iridium]
+          amount: 2
+    petrotheum-pyrotheum-ore-iron:
+      results:
+        - item: ingot-iron
+          suffix: 'x2'
+      ingredients:
+        - item: ore-iron
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-iron], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-iron]
+          amount: 2
+    petrotheum-pyrotheum-ore-lead:
+      results:
+        - item: ingot-lead
+          suffix: 'x2'
+      ingredients:
+        - item: ore-lead
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-lead], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-lead]
+          amount: 2
+    petrotheum-pyrotheum-ore-mithril:
+      results:
+        - item: ingot-mithril
+          suffix: 'x2'
+      ingredients:
+        - item: ore-mithril
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-mithril], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-mithril]
+          amount: 2
+    petrotheum-pyrotheum-ore-nickel:
+      results:
+        - item: ingot-nickel
+          suffix: 'x2'
+      ingredients:
+        - item: ore-nickel
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-nickel], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-nickel]
+          amount: 2
+    petrotheum-pyrotheum-ore-platinum:
+      results:
+        - item: ingot-platinum
+          suffix: 'x2'
+      ingredients:
+        - item: ore-platinum
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-platinum], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-platinum]
+          amount: 2
+    petrotheum-pyrotheum-ore-silver:
+      results:
+        - item: ingot-silver
+          suffix: 'x2'
+      ingredients:
+        - item: ore-silver
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-silver], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-silver]
+          amount: 2
+    petrotheum-pyrotheum-ore-tin:
+      results:
+        - item: ingot-tin
+          suffix: 'x2'
+      ingredients:
+        - item: ore-tin
+        - item: dust-petrotheum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-tin], item: [dust-petrotheum]]
+          - [item: [dust-pyrotheum]]
+        result:
+          item: [ingot-tin]
+          amount: 2
     phyto-gro-rich-using-charcoal:
       results:
         - item: phyto-gro-rich
@@ -6435,6 +6992,292 @@ crafting:
           - [null, item: [redstone-servo]]
         result:
           item: [portable-tank-basic]
+          amount: 1
+    pyrotheum-dust-aluminum:
+      results:
+        - item: ingot-aluminum
+      ingredients:
+        - item: dust-aluminum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-aluminum], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-aluminum]
+          amount: 1
+    pyrotheum-dust-copper:
+      results:
+        - item: ingot-copper
+      ingredients:
+        - item: dust-copper
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-copper], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-copper]
+          amount: 1
+    pyrotheum-dust-gold:
+      results:
+        - item: ingot-gold
+      ingredients:
+        - item: dust-gold
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-gold], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-gold]
+          amount: 1
+    pyrotheum-dust-iridium:
+      results:
+        - item: ingot-iridium
+      ingredients:
+        - item: dust-iridium
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-iridium], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-iridium]
+          amount: 1
+    pyrotheum-dust-iron:
+      results:
+        - item: ingot-iron
+      ingredients:
+        - item: dust-iron
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-iron], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-iron]
+          amount: 1
+    pyrotheum-dust-lead:
+      results:
+        - item: ingot-lead
+      ingredients:
+        - item: dust-lead
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-lead], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-lead]
+          amount: 1
+    pyrotheum-dust-mithril:
+      results:
+        - item: ingot-mithril
+      ingredients:
+        - item: dust-mithril
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-mithril], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-mithril]
+          amount: 1
+    pyrotheum-dust-nickel:
+      results:
+        - item: ingot-nickel
+      ingredients:
+        - item: dust-nickel
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-nickel], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-nickel]
+          amount: 1
+    pyrotheum-dust-platinum:
+      results:
+        - item: ingot-platinum
+      ingredients:
+        - item: dust-platinum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-platinum], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-platinum]
+          amount: 1
+    pyrotheum-dust-silver:
+      results:
+        - item: ingot-silver
+      ingredients:
+        - item: dust-silver
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-silver], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-silver]
+          amount: 1
+    pyrotheum-dust-tin:
+      results:
+        - item: ingot-tin
+      ingredients:
+        - item: dust-tin
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [dust-tin], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-tin]
+          amount: 1
+    pyrotheum-ore-aluminum:
+      results:
+        - item: ingot-aluminum
+      ingredients:
+        - item: ore-aluminum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-aluminum], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-aluminum]
+          amount: 1
+    pyrotheum-ore-copper:
+      results:
+        - item: ingot-copper
+      ingredients:
+        - item: ore-copper
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-copper], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-copper]
+          amount: 1
+    pyrotheum-ore-gold:
+      results:
+        - item: ingot-gold
+      ingredients:
+        - item: ore-gold
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-gold], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-gold]
+          amount: 1
+    pyrotheum-ore-iridium:
+      results:
+        - item: ingot-iridium
+      ingredients:
+        - item: ore-iridium
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-iridium], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-iridium]
+          amount: 1
+    pyrotheum-ore-iron:
+      results:
+        - item: ingot-iron
+      ingredients:
+        - item: ore-iron
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-iron], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-iron]
+          amount: 1
+    pyrotheum-ore-lead:
+      results:
+        - item: ingot-lead
+      ingredients:
+        - item: ore-lead
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-lead], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-lead]
+          amount: 1
+    pyrotheum-ore-mithril:
+      results:
+        - item: ingot-mithril
+      ingredients:
+        - item: ore-mithril
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-mithril], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-mithril]
+          amount: 1
+    pyrotheum-ore-nickel:
+      results:
+        - item: ingot-nickel
+      ingredients:
+        - item: ore-nickel
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-nickel], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-nickel]
+          amount: 1
+    pyrotheum-ore-platinum:
+      results:
+        - item: ingot-platinum
+      ingredients:
+        - item: ore-platinum
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-platinum], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-platinum]
+          amount: 1
+    pyrotheum-ore-silver:
+      results:
+        - item: ingot-silver
+      ingredients:
+        - item: ore-silver
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-silver], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-silver]
+          amount: 1
+    pyrotheum-ore-tin:
+      results:
+        - item: ingot-tin
+      ingredients:
+        - item: ore-tin
+        - item: dust-pyrotheum
+      data:
+        shapeless: true
+        rows:
+          - [item: [ore-tin], item: [dust-pyrotheum]]
+        result:
+          item: [ingot-tin]
           amount: 1
     redprint:
       results:

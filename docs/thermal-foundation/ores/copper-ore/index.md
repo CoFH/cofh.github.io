@@ -4,6 +4,10 @@ redirect_from: /docs/thermal-foundation/world-generation/ores/
 usage-recipes:
   smelting:
     - ore-processing-copper
+  crafting:
+    - pyrotheum-ore-copper
+    - petrotheum-ore-copper
+    - petrotheum-pyrotheum-ore-copper
   pulverizer:
     - ore-processing-copper
   induction-smelter:
@@ -35,6 +39,9 @@ Usage
 
 ### Smelting ingredient
 {% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
