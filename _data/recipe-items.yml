@@ -4410,7 +4410,7 @@ wood-log-acacia:
   url: Wood
 wood-log-birch:
   name: Birch Wood
-  sprite: [0, 0]
+  sprite: [12, 54]
   site: mc-wiki
   url: Wood
 wood-log-dark-oak:

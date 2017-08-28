@@ -153,6 +153,9 @@ _item-groups:
     - rockwool-green
     - rockwool-red
     - rockwool-black
+  sand: &sand
+    - sand
+    - red-sand
   wood-log: &wood-log
     - wood-log-oak
     - wood-log-spruce
@@ -1839,7 +1842,7 @@ crafting:
       data:
         shapeless: true
         rows:
-          - [item: [sand, red-sand], item: [niter]]
+          - [item: *sand, item: [niter]]
           - [item: [redstone], item: [blitz-powder]]
         result:
           item: [dust-aerotheum]
@@ -12016,7 +12019,7 @@ induction-smelter:
       energy: 4000
       data:
         primary-input:
-          item: [sand, red-sand]
+          item: *sand
         secondary-input:
           item: [ore-aluminum]
         primary-output:
@@ -12037,7 +12040,7 @@ induction-smelter:
       energy: 4000
       data:
         primary-input:
-          item: [sand, red-sand]
+          item: *sand
         secondary-input:
           item: [ore-copper]
         primary-output:
@@ -12058,7 +12061,7 @@ induction-smelter:
       energy: 4000
       data:
         primary-input:
-          item: [sand, red-sand]
+          item: *sand
         secondary-input:
           item: [ore-iridium]
         primary-output:
@@ -12079,7 +12082,7 @@ induction-smelter:
       energy: 4000
       data:
         primary-input:
-          item: [sand, red-sand]
+          item: *sand
         secondary-input:
           item: [ore-lead]
         primary-output:
@@ -12100,7 +12103,7 @@ induction-smelter:
       energy: 4000
       data:
         primary-input:
-          item: [sand, red-sand]
+          item: *sand
         secondary-input:
           item: [ore-mithril]
         primary-output:
@@ -12121,7 +12124,7 @@ induction-smelter:
       energy: 4000
       data:
         primary-input:
-          item: [sand, red-sand]
+          item: *sand
         secondary-input:
           item: [ore-nickel]
         primary-output:
@@ -12142,7 +12145,7 @@ induction-smelter:
       energy: 4000
       data:
         primary-input:
-          item: [sand, red-sand]
+          item: *sand
         secondary-input:
           item: [ore-platinum]
         primary-output:
@@ -12163,7 +12166,7 @@ induction-smelter:
       energy: 4000
       data:
         primary-input:
-          item: [sand, red-sand]
+          item: *sand
         secondary-input:
           item: [ore-silver]
         primary-output:
@@ -12184,7 +12187,7 @@ induction-smelter:
       energy: 4000
       data:
         primary-input:
-          item: [sand, red-sand]
+          item: *sand
         secondary-input:
           item: [ore-tin]
         primary-output:
