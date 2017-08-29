@@ -50,7 +50,6 @@ Some variants of hardened glass emit varying amounts of light depending on the
 type of metal, like [lumium](/docs/thermal-foundation/ingots/lumium-ingot/).
 
 ### Beacons
-Hardened glass changes the color of
-[beacon](https://minecraft.gamepedia.com/Beacon) beams. One hardened glass block
-changes the color of a beacon beam to the color of the metal that corresponds to
-the variant of hardened glass.
+Like [stained glass](https://minecraft.gamepedia.com/Stained_Glass), hardened
+glass blocks change the color of
+[beacon](https://minecraft.gamepedia.com/Beacon) beams that pass through them.

@@ -112,7 +112,7 @@ _item-groups:
     - glass-stained-green
     - glass-stained-red
     - glass-stained-black
-  hardened-glass-glass: &hardened
+  hardened-glass: &hardened-glass
     - hardened-glass
     - hardened-glass-copper
     - hardened-glass-tin
