@@ -10,5 +10,5 @@ A **Fluxed Electrum Blend** is an item added by [Redstone Arsenal](/docs/redston
 Obtaining
 ---------
 
-### Crafting
+### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer %}
