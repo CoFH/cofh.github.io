@@ -1,0 +1,70 @@
+name: Magma Crucible
+site: te-docs
+url: machines/magma-crucible/
+with-energy: true
+recipes:
+  fluid-ore-processing-ender:
+    results:
+      - fluid: ender
+        fluid-amount: 1000
+    ingredients:
+      - item: ore-fluid-ender
+    energy: 4000
+    data:
+      input:
+        item: [ore-fluid-ender]
+      output:
+        fluid: ender
+        amount: 1000
+  fluid-ore-processing-glowstone:
+    results:
+      - fluid: glowstone
+        fluid-amount: 1000
+    ingredients:
+      - item: ore-fluid-glowstone
+    energy: 4000
+    data:
+      input:
+        item: [ore-fluid-glowstone]
+      output:
+        fluid: glowstone
+        amount: 1000
+  fluid-ore-processing-oil-sand:
+    results:
+      - fluid: crude-oil
+        fluid-amount: 1000
+    ingredients:
+      - item: oil-sand
+    energy: 4000
+    data:
+      input:
+        item: [oil-sand]
+      output:
+        fluid: crude-oil
+        amount: 1000
+  fluid-ore-processing-oil-shale:
+    results:
+      - fluid: crude-oil
+        fluid-amount: 1000
+    ingredients:
+      - item: oil-shale
+    energy: 4000
+    data:
+      input:
+        item: [oil-shale]
+      output:
+        fluid: crude-oil
+        amount: 1000
+  fluid-ore-processing-redstone:
+    results:
+      - fluid: redstone
+        fluid-amount: 1000
+    ingredients:
+      - item: ore-fluid-redstone
+    energy: 4000
+    data:
+      input:
+        item: [ore-fluid-redstone]
+      output:
+        fluid: redstone
+        amount: 1000

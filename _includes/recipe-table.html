@@ -1,4 +1,5 @@
-{% assign type_data = site.data.recipes[include.type] %}
+{% capture recipes_file %}recipes-{{include.type}}{% endcapture %}
+{% assign type_data = site.data[recipes_file] %}
 {% assign type_site = site.data.recipe-sites[type_data.site] %}
 
 <div class="uk-overflow-container">

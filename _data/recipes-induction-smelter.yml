@@ -1,0 +1,849 @@
+name: Induction Smelter
+site: te-docs
+url: machines/induction-smelter/
+with-energy: true
+recipes:
+  hardened-glass:
+    results:
+      - item: hardened-glass
+    ingredients:
+      - html: >
+          <a href="/docs/thermal-foundation/ingots/lead-ingot/">Lead Ingot</a> or<br />
+          <a href="/docs/thermal-foundation/metal-dusts/pulverized-lead/">Pulverized Lead</a>
+      - item: dust-obsidian
+    energy: 4000
+    data:
+      primary-input:
+        item:
+          - ingot-lead
+          - dust-lead
+        amount: 1
+      secondary-input:
+        item: [dust-obsidian]
+        amount: 4
+      primary-output:
+        item: [hardened-glass]
+        amount: 2
+  hardened-glass-aluminum:
+    results:
+      - item: hardened-glass-aluminum
+    ingredients:
+      - item: hardened-glass
+      - item: dust-aluminum
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-aluminum]
+      primary-output:
+        item: [hardened-glass-aluminum]
+        amount: 2
+  hardened-glass-bronze:
+    results:
+      - item: hardened-glass-bronze
+    ingredients:
+      - item: hardened-glass
+      - item: dust-bronze
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-bronze]
+      primary-output:
+        item: [hardened-glass-bronze]
+        amount: 2
+  hardened-glass-constantan:
+    results:
+      - item: hardened-glass-constantan
+    ingredients:
+      - item: hardened-glass
+      - item: dust-constantan
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-constantan]
+      primary-output:
+        item: [hardened-glass-constantan]
+        amount: 2
+  hardened-glass-copper:
+    results:
+      - item: hardened-glass-copper
+    ingredients:
+      - item: hardened-glass
+      - item: dust-copper
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-copper]
+      primary-output:
+        item: [hardened-glass-copper]
+        amount: 2
+  hardened-glass-electrum:
+    results:
+      - item: hardened-glass-electrum
+    ingredients:
+      - item: hardened-glass
+      - item: dust-electrum
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-electrum]
+      primary-output:
+        item: [hardened-glass-electrum]
+        amount: 2
+  hardened-glass-enderium:
+    results:
+      - item: hardened-glass-enderium
+    ingredients:
+      - item: hardened-glass
+      - item: dust-enderium
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-enderium]
+      primary-output:
+        item: [hardened-glass-enderium]
+        amount: 2
+  hardened-glass-invar:
+    results:
+      - item: hardened-glass-invar
+    ingredients:
+      - item: hardened-glass
+      - item: dust-invar
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-invar]
+      primary-output:
+        item: [hardened-glass-invar]
+        amount: 2
+  hardened-glass-iridium:
+    results:
+      - item: hardened-glass-iridium
+    ingredients:
+      - item: hardened-glass
+      - item: dust-iridium
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-iridium]
+      primary-output:
+        item: [hardened-glass-iridium]
+        amount: 2
+  hardened-glass-lumium:
+    results:
+      - item: hardened-glass-lumium
+    ingredients:
+      - item: hardened-glass
+      - item: dust-lumium
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-lumium]
+      primary-output:
+        item: [hardened-glass-lumium]
+        amount: 2
+  hardened-glass-mithril:
+    results:
+      - item: hardened-glass-mithril
+    ingredients:
+      - item: hardened-glass
+      - item: dust-mithril
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-mithril]
+      primary-output:
+        item: [hardened-glass-mithril]
+        amount: 2
+  hardened-glass-nickel:
+    results:
+      - item: hardened-glass-nickel
+    ingredients:
+      - item: hardened-glass
+      - item: dust-nickel
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-nickel]
+      primary-output:
+        item: [hardened-glass-nickel]
+        amount: 2
+  hardened-glass-platinum:
+    results:
+      - item: hardened-glass-platinum
+    ingredients:
+      - item: hardened-glass
+      - item: dust-platinum
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-platinum]
+      primary-output:
+        item: [hardened-glass-platinum]
+        amount: 2
+  hardened-glass-signalum:
+    results:
+      - item: hardened-glass-signalum
+    ingredients:
+      - item: hardened-glass
+      - item: dust-signalum
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-signalum]
+      primary-output:
+        item: [hardened-glass-signalum]
+        amount: 2
+  hardened-glass-silver:
+    results:
+      - item: hardened-glass-silver
+    ingredients:
+      - item: hardened-glass
+      - item: dust-silver
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-silver]
+      primary-output:
+        item: [hardened-glass-silver]
+        amount: 2
+  hardened-glass-steel:
+    results:
+      - item: hardened-glass-steel
+    ingredients:
+      - item: hardened-glass
+      - item: dust-steel
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-steel]
+      primary-output:
+        item: [hardened-glass-steel]
+        amount: 2
+  hardened-glass-tin:
+    results:
+      - item: hardened-glass-tin
+    ingredients:
+      - item: hardened-glass
+      - item: dust-tin
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item: [dust-tin]
+      primary-output:
+        item: [hardened-glass-tin]
+        amount: 2
+  ore-processing-cinnabar-aluminum:
+    results:
+      - item: ingot-aluminum
+        suffix: x3
+      - item: ingot-iron
+    ingredients:
+      - item: ore-aluminum
+      - item: cinnabar
+    energy: 4000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-aluminum]
+      primary-output:
+        item: [ingot-aluminum]
+        amount: 3
+      secondary-output:
+        item: [ingot-iron]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-copper:
+    results:
+      - item: ingot-copper
+        suffix: x3
+      - item: ingot-gold
+    ingredients:
+      - item: ore-copper
+      - item: cinnabar
+    energy: 4000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-copper]
+      primary-output:
+        item: [ingot-copper]
+        amount: 3
+      secondary-output:
+        item: [ingot-gold]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-iridium:
+    results:
+      - item: ingot-iridium
+        suffix: x3
+      - item: ingot-platinum
+    ingredients:
+      - item: ore-iridium
+      - item: cinnabar
+    energy: 4000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-iridium]
+      primary-output:
+        item: [ingot-iridium]
+        amount: 3
+      secondary-output:
+        item: [ingot-platinum]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-lead:
+    results:
+      - item: ingot-lead
+        suffix: x3
+      - item: ingot-silver
+    ingredients:
+      - item: ore-lead
+      - item: cinnabar
+    energy: 4000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-lead]
+      primary-output:
+        item: [ingot-lead]
+        amount: 3
+      secondary-output:
+        item: [ingot-silver]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-mithril:
+    results:
+      - item: ingot-mithril
+        suffix: x3
+      - item: ingot-gold
+    ingredients:
+      - item: ore-mithril
+      - item: cinnabar
+    energy: 4000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-mithril]
+      primary-output:
+        item: [ingot-mithril]
+        amount: 3
+      secondary-output:
+        item: [ingot-gold]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-nickel:
+    results:
+      - item: ingot-nickel
+        suffix: x3
+      - item: ingot-platinum
+    ingredients:
+      - item: ore-nickel
+      - item: cinnabar
+    energy: 4000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-nickel]
+      primary-output:
+        item: [ingot-nickel]
+        amount: 3
+      secondary-output:
+        item: [ingot-platinum]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-platinum:
+    results:
+      - item: ingot-platinum
+        suffix: x3
+      - item: ingot-iridium
+    ingredients:
+      - item: ore-platinum
+      - item: cinnabar
+    energy: 4000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-platinum]
+      primary-output:
+        item: [ingot-platinum]
+        amount: 3
+      secondary-output:
+        item: [ingot-iridium]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-silver:
+    results:
+      - item: ingot-silver
+        suffix: x3
+      - item: ingot-lead
+    ingredients:
+      - item: ore-silver
+      - item: cinnabar
+    energy: 4000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-silver]
+      primary-output:
+        item: [ingot-silver]
+        amount: 3
+      secondary-output:
+        item: [ingot-lead]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-tin:
+    results:
+      - item: ingot-tin
+        suffix: x3
+      - item: ingot-iron
+    ingredients:
+      - item: ore-tin
+      - item: cinnabar
+    energy: 4000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-tin]
+      primary-output:
+        item: [ingot-tin]
+        amount: 3
+      secondary-output:
+        item: [ingot-iron]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-rich-slag-aluminum:
+    results:
+      - item: ingot-aluminum
+        suffix: x3
+      - item: slag
+    ingredients:
+      - item: ore-aluminum
+      - item: slag-rich
+    energy: 4000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-aluminum]
+      primary-output:
+        item: [ingot-aluminum]
+        amount: 3
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-copper:
+    results:
+      - item: ingot-copper
+        suffix: x3
+      - item: slag
+    ingredients:
+      - item: ore-copper
+      - item: slag-rich
+    energy: 4000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-copper]
+      primary-output:
+        item: [ingot-copper]
+        amount: 3
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-iridium:
+    results:
+      - item: ingot-iridium
+        suffix: x3
+      - item: slag
+    ingredients:
+      - item: ore-iridium
+      - item: slag-rich
+    energy: 4000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-iridium]
+      primary-output:
+        item: [ingot-iridium]
+        amount: 3
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-lead:
+    results:
+      - item: ingot-lead
+        suffix: x3
+      - item: slag
+    ingredients:
+      - item: ore-lead
+      - item: slag-rich
+    energy: 4000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-lead]
+      primary-output:
+        item: [ingot-lead]
+        amount: 3
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-mithril:
+    results:
+      - item: ingot-mithril
+        suffix: x3
+      - item: slag
+    ingredients:
+      - item: ore-mithril
+      - item: slag-rich
+    energy: 4000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-mithril]
+      primary-output:
+        item: [ingot-mithril]
+        amount: 3
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-nickel:
+    results:
+      - item: ingot-nickel
+        suffix: x3
+      - item: slag
+    ingredients:
+      - item: ore-nickel
+      - item: slag-rich
+    energy: 4000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-nickel]
+      primary-output:
+        item: [ingot-nickel]
+        amount: 3
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-platinum:
+    results:
+      - item: ingot-platinum
+        suffix: x3
+      - item: slag
+    ingredients:
+      - item: ore-platinum
+      - item: slag-rich
+    energy: 4000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-platinum]
+      primary-output:
+        item: [ingot-platinum]
+        amount: 3
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-silver:
+    results:
+      - item: ingot-silver
+        suffix: x3
+      - item: slag
+    ingredients:
+      - item: ore-silver
+      - item: slag-rich
+    energy: 4000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-silver]
+      primary-output:
+        item: [ingot-silver]
+        amount: 3
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-tin:
+    results:
+      - item: ingot-tin
+        suffix: x3
+      - item: slag
+    ingredients:
+      - item: ore-tin
+      - item: slag-rich
+    energy: 4000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-tin]
+      primary-output:
+        item: [ingot-tin]
+        amount: 3
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-sand-aluminum:
+    results:
+      - item: ingot-aluminum
+        suffix: x2
+      - item: slag-rich
+    ingredients:
+      - item: ore-aluminum
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-aluminum]
+      primary-output:
+        item: [ingot-aluminum]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-copper:
+    results:
+      - item: ingot-copper
+        suffix: x2
+      - item: slag-rich
+    ingredients:
+      - item: ore-copper
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-copper]
+      primary-output:
+        item: [ingot-copper]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-iridium:
+    results:
+      - item: ingot-iridium
+        suffix: x2
+      - item: slag-rich
+    ingredients:
+      - item: ore-iridium
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-iridium]
+      primary-output:
+        item: [ingot-iridium]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-lead:
+    results:
+      - item: ingot-lead
+        suffix: x2
+      - item: slag-rich
+    ingredients:
+      - item: ore-lead
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-lead]
+      primary-output:
+        item: [ingot-lead]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-mithril:
+    results:
+      - item: ingot-mithril
+        suffix: x2
+      - item: slag-rich
+    ingredients:
+      - item: ore-mithril
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-mithril]
+      primary-output:
+        item: [ingot-mithril]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-nickel:
+    results:
+      - item: ingot-nickel
+        suffix: x2
+      - item: slag-rich
+    ingredients:
+      - item: ore-nickel
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-nickel]
+      primary-output:
+        item: [ingot-nickel]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 15
+  ore-processing-sand-platinum:
+    results:
+      - item: ingot-platinum
+        suffix: x2
+      - item: slag-rich
+    ingredients:
+      - item: ore-platinum
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-platinum]
+      primary-output:
+        item: [ingot-platinum]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-silver:
+    results:
+      - item: ingot-silver
+        suffix: x2
+      - item: slag-rich
+    ingredients:
+      - item: ore-silver
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-silver]
+      primary-output:
+        item: [ingot-silver]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-tin:
+    results:
+      - item: ingot-tin
+        suffix: x2
+      - item: slag-rich
+    ingredients:
+      - item: ore-tin
+      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+    energy: 4000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-tin]
+      primary-output:
+        item: [ingot-tin]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5

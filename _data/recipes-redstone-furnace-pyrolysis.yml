@@ -1,0 +1,104 @@
+name: Pyrolytic Conversion
+site: te-docs
+url: machines/redstone-furnace/
+with-energy: true
+recipes:
+  charcoal-from-cactus:
+    results:
+      - item: charcoal
+      - fluid: creosote-oil
+        fluid-amount: 50
+    ingredients:
+      - item: cactus
+    energy: 3000
+    data:
+      input:
+        item: [cactus]
+        amount: 4
+      output:
+        item: [charcoal]
+      fluid-output:
+        fluid: creosote-oil
+        amount: 50
+  charcoal-from-hay-bale:
+    results:
+      - item: charcoal
+      - fluid: creosote-oil
+        fluid-amount: 100
+    ingredients:
+      - item: hay-bale
+    energy: 3000
+    data:
+      input:
+        item: [hay-bale]
+      output:
+        item: [charcoal]
+      fluid-output:
+        fluid: creosote-oil
+        amount: 100
+  charcoal-from-sawdust:
+    results:
+      - item: charcoal
+      - fluid: creosote-oil
+        fluid-amount: 50
+    ingredients:
+      - item: sawdust-compressed
+    energy: 1500
+    data:
+      input:
+        item: [sawdust-compressed]
+      output:
+        item: [charcoal]
+      fluid-output:
+        fluid: creosote-oil
+        amount: 50
+  charcoal-from-sugar-canes:
+    results:
+      - item: charcoal
+      - fluid: creosote-oil
+        fluid-amount: 50
+    ingredients:
+      - item: sugar-canes
+    energy: 1500
+    data:
+      input:
+        item: [sugar-canes]
+        amount: 8
+      output:
+        item: [charcoal]
+      fluid-output:
+        fluid: creosote-oil
+        amount: 50
+  charcoal-from-wood-log:
+    results:
+      - item: charcoal
+      - fluid: creosote-oil
+        fluid-amount: 100
+    ingredients:
+      - html: 'Any <a href="https://minecraft.gamepedia.com/Wood">Wood</a>'
+    energy: 1500
+    data:
+      input:
+        random: true
+        item-group: wood-log
+      output:
+        item: [charcoal]
+      fluid-output:
+        fluid: creosote-oil
+        amount: 100
+  coal-coke:
+    results:
+      - item: coal-coke
+      - fluid: creosote-oil
+        fluid-amount: 250
+    ingredients:
+      - item: coal
+    energy: 3000
+    data:
+      input:
+        item: [coal]
+      output:
+        item: [coal-coke]
+      fluid-output:
+        fluid: creosote-oil
+        amount: 250

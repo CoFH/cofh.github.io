@@ -1,0 +1,131 @@
+name: Resin Funnel
+site: te-docs
+url: machines/sawmill/
+with-energy: true
+recipes:
+  wood-processing-oak:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+      - fluid: sap
+        fluid-amount: 10
+    ingredients:
+      - item: wood-log-oak
+    energy: 1200
+    data:
+      input:
+        item: [wood-log-oak]
+      primary-output:
+        item: [wood-planks-oak]
+        amount: 6
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 100
+      fluid-output:
+        fluid: sap
+        amount: 10
+  wood-processing-birch:
+    results:
+      - item: wood-planks-birch
+      - item: sawdust
+      - fluid: resin
+        fluid-amount: 10
+    ingredients:
+      - item: wood-log-birch
+    energy: 1200
+    data:
+      input:
+        item: [wood-log-birch]
+      primary-output:
+        item: [wood-planks-birch]
+        amount: 6
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 100
+      fluid-output:
+        fluid: resin
+        amount: 10
+  wood-processing-spruce:
+    results:
+      - item: wood-planks-spruce
+      - item: sawdust
+      - fluid: resin
+        fluid-amount: 20
+    ingredients:
+      - item: wood-log-spruce
+    energy: 1200
+    data:
+      input:
+        item: [wood-log-spruce]
+      primary-output:
+        item: [wood-planks-spruce]
+        amount: 6
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 100
+      fluid-output:
+        fluid: resin
+        amount: 20
+  wood-processing-jungle:
+    results:
+      - item: wood-planks-jungle
+      - item: sawdust
+      - fluid: resin
+        fluid-amount: 10
+    ingredients:
+      - item: wood-log-jungle
+    energy: 1200
+    data:
+      input:
+        item: [wood-log-jungle]
+      primary-output:
+        item: [wood-planks-jungle]
+        amount: 6
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 100
+      fluid-output:
+        fluid: resin
+        amount: 10
+  wood-processing-acacia:
+    results:
+      - item: wood-planks-acacia
+      - item: sawdust
+      - fluid: resin
+        fluid-amount: 10
+    ingredients:
+      - item: wood-log-acacia
+    energy: 1200
+    data:
+      input:
+        item: [wood-log-acacia]
+      primary-output:
+        item: [wood-planks-acacia]
+        amount: 6
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 100
+      fluid-output:
+        fluid: resin
+        amount: 10
+  wood-processing-dark-oak:
+    results:
+      - item: wood-planks-dark-oak
+      - item: sawdust
+      - fluid: sap
+        fluid-amount: 10
+    ingredients:
+      - item: wood-log-dark-oak
+    energy: 1200
+    data:
+      input:
+        item: [wood-log-dark-oak]
+      primary-output:
+        item: [wood-planks-dark-oak]
+        amount: 6
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 100
+      fluid-output:
+        fluid: sap
+        amount: 10

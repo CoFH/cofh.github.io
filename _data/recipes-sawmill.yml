@@ -1,0 +1,501 @@
+name: Sawmill
+site: te-docs
+url: machines/sawmill/
+with-energy: true
+recipes:
+  melon-slice:
+    results:
+      - item: melon-slice
+    ingredients:
+      - item: melon
+    energy: 1200
+    data:
+      input:
+        item: [melon]
+      primary-output:
+        item: [melon-slice]
+        amount: 9
+  recycling-axe-wood:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: axe-wood
+    energy: 1600
+    data:
+      input:
+        item: [axe-wood]
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 125
+  recycling-bed:
+    results:
+      - item: wood-planks-oak
+      - html: '<a href="https://minecraft.gamepedia.com/Wool">Wool</a>'
+    ingredients:
+      - html: 'Any color <a href="https://minecraft.gamepedia.com/Bed">Bed</a>'
+    energy: 2400
+    data:
+      input:
+        item-group: bed
+      primary-output:
+        item: [wood-planks-oak]
+        amount: 2
+      secondary-output:
+        item-group: wool
+        amount: 2
+      secondary-chance: 100
+  recycling-boat:
+    results:
+      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item: sawdust
+    ingredients:
+      - html: 'Any <a href="https://minecraft.gamepedia.com/Boat">Boat</a>'
+    energy: 2400
+    data:
+      input:
+        item-group: boat
+      primary-output:
+        item-group: wood-planks
+        amount: 2
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 125
+  recycling-bookshelf:
+    results:
+      - item: wood-planks-oak
+      - item: book
+    ingredients:
+      - item: bookshelf
+    energy: 2400
+    data:
+      input:
+        item: [bookshelf]
+      primary-output:
+        item: [wood-planks-oak]
+        amount: 3
+      secondary-output:
+        item: [book]
+        amount: 3
+      secondary-chance: 25
+  recycling-boots-leather:
+    results:
+      - item: leather
+    ingredients:
+      - item: boots-leather
+    energy: 1600
+    data:
+      input:
+        item: [boots-leather]
+      primary-output:
+        item: [leather]
+        amount: 2
+      secondary-output:
+        item: [leather]
+      secondary-chance: 40
+  recycling-bowl:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: bowl
+    energy: 1200
+    data:
+      input:
+        item: [bowl]
+        amount: 2
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 25
+  recycling-button:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: button-wood
+    energy: 1200
+    data:
+      input:
+        item: [button-wood]
+        amount: 2
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 25
+  recycling-chest:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: chest
+    energy: 2400
+    data:
+      input:
+        item: [chest]
+      primary-output:
+        item: [wood-planks-oak]
+        amount: 4
+      secondary-output:
+        item: [sawdust]
+        amount: 2
+      secondary-chance: 100
+  recycling-chestplate-leather:
+    results:
+      - item: leather
+    ingredients:
+      - item: chestplate-leather
+    energy: 1600
+    data:
+      input:
+        item: [chestplate-leather]
+      primary-output:
+        item: [leather]
+        amount: 4
+      secondary-output:
+        item: [leather]
+      secondary-chance: 80
+  recycling-crafting-table:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: crafting-table
+    energy: 2400
+    data:
+      input:
+        item: [crafting-table]
+      primary-output:
+        item: [wood-planks-oak]
+        amount: 2
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 100
+  recycling-door:
+    results:
+      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item: sawdust
+    ingredients:
+      - html: 'Any wooden <a href="https://minecraft.gamepedia.com/Door">Door</a>'
+    energy: 2400
+    data:
+      input:
+        item-group: door-wood
+      primary-output:
+        item-group: wood-planks
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 50
+  recycling-fence:
+    results:
+      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item: sawdust
+    ingredients:
+      - html: 'Any wooden <a href="https://minecraft.gamepedia.com/Fence">Fence</a>'
+    energy: 2400
+    data:
+      input:
+        item-group: fence
+      primary-output:
+        item-group: wood-planks
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 25
+  recycling-fence-gate:
+    results:
+      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item: sawdust
+    ingredients:
+      - html: 'Any <a href="https://minecraft.gamepedia.com/Fence_Gate">Fence Gate</a>'
+    energy: 2400
+    data:
+      input:
+        item-group: fence-gate
+      primary-output:
+        item-group: wood-planks
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 150
+  recycling-helmet-leather:
+    results:
+      - item: leather
+    ingredients:
+      - item: helmet-leather
+    energy: 1600
+    data:
+      input:
+        item: [helmet-leather]
+      primary-output:
+        item: [leather]
+        amount: 2
+      secondary-output:
+        item: [leather]
+      secondary-chance: 50
+  recycling-hoe-wood:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: hoe-wood
+    energy: 1600
+    data:
+      input:
+        item: [hoe-wood]
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 100
+  recycling-item-frame:
+    results:
+      - item: leather
+      - item: sawdust
+    ingredients:
+      - item: item-frame
+    energy: 1200
+    data:
+      input:
+        item: [item-frame]
+      primary-output:
+        item: [leather]
+      secondary-output:
+        item: [sawdust]
+        amount: 2
+      secondary-chance: 100
+  recycling-jukebox:
+    results:
+      - item: wood-planks-oak
+      - item: diamond
+    ingredients:
+      - item: jukebox
+    energy: 2400
+    data:
+      input:
+        item: [jukebox]
+      primary-output:
+        item: [wood-planks-oak]
+        amount: 4
+      secondary-output:
+        item: [diamond]
+      secondary-chance: 25
+  recycling-leggings-leather:
+    results:
+      - item: leather
+    ingredients:
+      - item: leggings-leather
+    energy: 1600
+    data:
+      input:
+        item: [leggings-leather]
+      primary-output:
+        item: [leather]
+        amount: 3
+      secondary-output:
+        item: [leather]
+      secondary-chance: 70
+  recycling-lever:
+    results:
+      - item: cobblestone
+      - item: sawdust
+    ingredients:
+      - item: lever
+    energy: 1200
+    data:
+      input:
+        item: [lever]
+      primary-output:
+        item: [cobblestone]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 25
+  recycling-note-block:
+    results:
+      - item: wood-planks-oak
+      - item: redstone
+    ingredients:
+      - item: note-block
+    energy: 2400
+    data:
+      input:
+        item: [note-block]
+      primary-output:
+        item: [wood-planks-oak]
+        amount: 4
+      secondary-output:
+        item: [redstone]
+      secondary-chance: 25
+  recycling-painting:
+    results:
+      - item: wool-white
+      - item: sawdust
+    ingredients:
+      - item: painting
+    energy: 1200
+    data:
+      input:
+        item: [painting]
+      primary-output:
+        item: [wool-white]
+      secondary-output:
+        item: [sawdust]
+        amount: 2
+      secondary-chance: 100
+  recycling-pickaxe-wood:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: pickaxe-wood
+    energy: 1600
+    data:
+      input:
+        item: [pickaxe-wood]
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 125
+  recycling-pressure-plate:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: pressure-plate-wood
+    energy: 2400
+    data:
+      input:
+        item: [pressure-plate-wood]
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 50
+  recycling-redstone-torch:
+    results:
+      - item: redstone
+      - item: sawdust
+    ingredients:
+      - item: redstone-torch
+    energy: 1200
+    data:
+      input:
+        item: [redstone-torch]
+      primary-output:
+        item: [redstone]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 25
+  recycling-shovel-wood:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: shovel-wood
+    energy: 1600
+    data:
+      input:
+        item: [shovel-wood]
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 75
+  recycling-sign:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: sign
+    energy: 2400
+    data:
+      input:
+        item: [sign]
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 50
+  recycling-sword-wood:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: sword-wood
+    energy: 1600
+    data:
+      input:
+        item: [sword-wood]
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 75
+  recycling-trapdoor:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: trapdoor-wood
+    energy: 2400
+    data:
+      input:
+        item: [trapdoor-wood]
+        amount: 2
+      primary-output:
+        item: [wood-planks-oak]
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 75
+  recycling-trapped-chest:
+    results:
+      - item: wood-planks-oak
+      - item: sawdust
+    ingredients:
+      - item: trapped-chest
+    energy: 2400
+    data:
+      input:
+        item: [trapped-chest]
+      primary-output:
+        item: [wood-planks-oak]
+        amount: 4
+      secondary-output:
+        item: [sawdust]
+        amount: 2
+      secondary-chance: 100
+  recycling-wood-stairs:
+    results:
+      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item: sawdust
+    ingredients:
+      - html: 'Any <a href="https://minecraft.gamepedia.com/Stairs">Wood Stairs</a>'
+    energy: 2400
+    data:
+      input:
+        item-group: wood-stairs
+        amount: 2
+      primary-output:
+        item-group: wood-planks
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 25
+  wood-processing:
+    results:
+      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item: sawdust
+    ingredients:
+      - html: 'Any <a href="https://minecraft.gamepedia.com/Wood">Wood</a>'
+    energy: 800
+    data:
+      input:
+        item-group: wood-log
+      primary-output:
+        item-group: wood-planks
+        amount: 6
+      secondary-output:
+        item: [sawdust]
+      secondary-chance: 100

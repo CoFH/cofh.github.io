@@ -1,0 +1,107 @@
+name: Flux Anodizers
+site: te-docs
+url: machines/redstone-furnace/
+with-energy: true
+recipes:
+  ore-processing-copper:
+    results:
+      - item: ingot-copper
+        suffix: x2
+    ingredients:
+      - item: ore-copper
+    energy: 3000
+    data:
+      input:
+        item: [ore-copper]
+      output:
+        item: [ingot-copper]
+        amount: 2
+  ore-processing-gold:
+    results:
+      - item: ingot-gold
+        suffix: x2
+    ingredients:
+      - item: ore-gold
+    energy: 3000
+    data:
+      input:
+        item: [ore-gold]
+      output:
+        item: [ingot-gold]
+        amount: 2
+  ore-processing-iron:
+    results:
+      - item: ingot-iron
+        suffix: x2
+    ingredients:
+      - item: ore-iron
+    energy: 3000
+    data:
+      input:
+        item: [ore-iron]
+      output:
+        item: [ingot-iron]
+        amount: 2
+  ore-processing-lead:
+    results:
+      - item: ingot-lead
+        suffix: x2
+    ingredients:
+      - item: ore-lead
+    energy: 3000
+    data:
+      input:
+        item: [ore-lead]
+      output:
+        item: [ingot-lead]
+        amount: 2
+  ore-processing-nickel:
+    results:
+      - item: ingot-nickel
+        suffix: x2
+    ingredients:
+      - item: ore-nickel
+    energy: 3000
+    data:
+      input:
+        item: [ore-nickel]
+      output:
+        item: [ingot-nickel]
+        amount: 2
+  ore-processing-platinum:
+    results:
+      - item: ingot-platinum
+        suffix: x2
+    ingredients:
+      - item: ore-platinum
+    energy: 3000
+    data:
+      input:
+        item: [ore-platinum]
+      output:
+        item: [ingot-platinum]
+        amount: 2
+  ore-processing-silver:
+    results:
+      - item: ingot-silver
+    ingredients:
+      - item: ore-silver
+    energy: 3000
+    data:
+      input:
+        item: [ore-silver]
+      output:
+        item: [ingot-silver]
+        amount: 2
+  ore-processing-tin:
+    results:
+      - item: ingot-tin
+    ingredients:
+      - item: ore-tin
+    energy: 3000
+    data:
+      input:
+        item: [ore-tin]
+      output:
+        item: [ingot-tin]
+        amount: 2

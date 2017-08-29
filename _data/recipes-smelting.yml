@@ -1,0 +1,204 @@
+name: Smelting
+site: mc-wiki
+url: Smelting
+recipes:
+  charcoal-from-sawdust:
+    results:
+      - item: charcoal
+    ingredients:
+      - item: sawdust-compressed
+    data:
+      input:
+        item: [sawdust-compressed]
+      output:
+        item: [charcoal]
+  ingot-bronze-from-dust:
+    results:
+      - item: ingot-bronze
+    ingredients:
+      - item: dust-bronze
+    data:
+      input:
+        item: [dust-bronze]
+      output:
+        item: [ingot-bronze]
+  ingot-constantan-from-dust:
+    results:
+      - item: ingot-constantan
+    ingredients:
+      - item: dust-constantan
+    data:
+      input:
+        item: [dust-constantan]
+      output:
+        item: [ingot-constantan]
+  ingot-copper-from-dust:
+    results:
+      - item: ingot-copper
+    ingredients:
+      - item: dust-copper
+    data:
+      input:
+        item: [dust-copper]
+      output:
+        item: [ingot-copper]
+  ingot-electrum-from-dust:
+    results:
+      - item: ingot-electrum
+    ingredients:
+      - item: dust-electrum
+    data:
+      input:
+        item: [dust-electrum]
+      output:
+        item: [ingot-electrum]
+  ingot-gold-from-dust:
+    results:
+      - item: ingot-gold
+    ingredients:
+      - item: dust-gold
+    data:
+      input:
+        item: [dust-gold]
+      output:
+        item: [ingot-gold]
+  ingot-invar-from-dust:
+    results:
+      - item: ingot-invar
+    ingredients:
+      - item: dust-invar
+    data:
+      input:
+        item: [dust-invar]
+      output:
+        item: [ingot-invar]
+  ingot-iron-from-dust:
+    results:
+      - item: ingot-iron
+    ingredients:
+      - item: dust-iron
+    data:
+      input:
+        item: [dust-iron]
+      output:
+        item: [ingot-iron]
+  ingot-lead-from-dust:
+    results:
+      - item: ingot-lead
+    ingredients:
+      - item: dust-lead
+    data:
+      input:
+        item: [dust-lead]
+      output:
+        item: [ingot-lead]
+  ingot-nickel-from-dust:
+    results:
+      - item: ingot-nickel
+    ingredients:
+      - item: dust-nickel
+    data:
+      input:
+        item: [dust-nickel]
+      output:
+        item: [ingot-nickel]
+  ingot-platinum-from-dust:
+    results:
+      - item: ingot-platinum
+    ingredients:
+      - item: dust-platinum
+    data:
+      input:
+        item: [dust-platinum]
+      output:
+        item: [ingot-platinum]
+  ingot-silver-from-dust:
+    results:
+      - item: ingot-silver
+    ingredients:
+      - item: dust-silver
+    data:
+      input:
+        item: [dust-silver]
+      output:
+        item: [ingot-silver]
+  ingot-tin-from-dust:
+    results:
+      - item: ingot-tin
+    ingredients:
+      - item: dust-tin
+    data:
+      input:
+        item: [dust-tin]
+      output:
+        item: [ingot-tin]
+  ore-processing-copper:
+    results:
+      - item: ingot-copper
+    ingredients:
+      - item: ore-copper
+    data:
+      input:
+        item: [ore-copper]
+      output:
+        item: [ingot-copper]
+  ore-processing-lead:
+    results:
+      - item: ingot-lead
+    ingredients:
+      - item: ore-lead
+    data:
+      input:
+        item: [ore-lead]
+      output:
+        item: [ingot-lead]
+  ore-processing-nickel:
+    results:
+      - item: ingot-nickel
+    ingredients:
+      - item: ore-nickel
+    data:
+      input:
+        item: [ore-nickel]
+      output:
+        item: [ingot-nickel]
+  ore-processing-platinum:
+    results:
+      - item: ingot-platinum
+    ingredients:
+      - item: ore-platinum
+    data:
+      input:
+        item: [ore-platinum]
+      output:
+        item: [ingot-platinum]
+  ore-processing-silver:
+    results:
+      - item: ingot-silver
+    ingredients:
+      - item: ore-silver
+    data:
+      input:
+        item: [ore-silver]
+      output:
+        item: [ingot-silver]
+  ore-processing-tin:
+    results:
+      - item: ingot-tin
+    ingredients:
+      - item: ore-tin
+    data:
+      input:
+        item: [ore-tin]
+      output:
+        item: [ingot-tin]
+  rockwool:
+    results:
+      - item: rockwool-light-gray
+    ingredients:
+      - item: slag
+    data:
+      input:
+        item: [slag]
+      output:
+        item: [rockwool-light-gray]
