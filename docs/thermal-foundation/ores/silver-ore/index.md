@@ -7,6 +7,8 @@ usage-recipes:
     - pyrotheum-ore-silver
     - petrotheum-ore-silver
     - petrotheum-pyrotheum-ore-silver
+  redstone-furnace-ore:
+    - ore-processing-silver
   pulverizer:
     - ore-processing-silver
   induction-smelter:
@@ -45,6 +47,9 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Flux Anodizers ingredient
+{% include recipe-table.html type='redstone-furnace-ore' recipes=page.usage-recipes.redstone-furnace-ore %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}

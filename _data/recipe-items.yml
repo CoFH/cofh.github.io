@@ -258,6 +258,11 @@ azure-bluet:
   sprite: [9, 43]
   site: mc-wiki
   url: Flower
+baked-potato:
+  name: Baked Potato
+  sprite: [10, 55]
+  site: mc-wiki
+  url: Baked_Potato
 basalz-powder:
   name: Basalz Powder
   animated: true
@@ -1063,6 +1068,36 @@ conversion-kit-resonant:
   sprite: [12, 28]
   site: te-docs
   url: tiers-and-augments/conversion-kits/
+cooked-chicken:
+  name: Cooked Chicken
+  sprite: [0, 55]
+  site: mc-wiki
+  url: Cooked_Chicken
+cooked-fish:
+  name: Cooked Fish
+  sprite: [2, 55]
+  site: mc-wiki
+  url: Cooked_Fish
+cooked-mutton:
+  name: Cooked Mutton
+  sprite: [6, 55]
+  site: mc-wiki
+  url: Cooked_Mutton
+cooked-porkchop:
+  name: Cooked Porkchop
+  sprite: [8, 55]
+  site: mc-wiki
+  url: Cooked_Porkchop
+cooked-rabbit:
+  name: Cooked Rabbit
+  sprite: [12, 55]
+  site: mc-wiki
+  url: Cooked_Rabbit
+cooked-salmon:
+  name: Cooked Salmon
+  sprite: [4, 55]
+  site: mc-wiki
+  url: Cooked_Salmon
 crafting-table:
   name: Crafting Table
   sprite: [4, 0]
@@ -3383,6 +3418,11 @@ poppy:
   sprite: [13, 43]
   site: mc-wiki
   url: Flower
+potato:
+  name: Potato
+  sprite: [9, 55]
+  site: mc-wiki
+  url: Potato
 portable-tank-basic:
   name: Portable Tank (Basic)
   sprite: [11, 27]
@@ -3418,6 +3458,41 @@ purple-dye:
   sprite: [5, 5]
   site: mc-wiki
   url: Purple_Dye
+raw-beef:
+  name: Raw Beef
+  sprite: [13, 54]
+  site: mc-wiki
+  url: Raw_Beef
+raw-chicken:
+  name: Raw Chicken
+  sprite: [15, 54]
+  site: mc-wiki
+  url: Raw_Chicken
+raw-fish:
+  name: Raw Fish
+  sprite: [1, 55]
+  site: mc-wiki
+  url: Raw_Fish
+raw-mutton:
+  name: Raw Mutton
+  sprite: [5, 55]
+  site: mc-wiki
+  url: Raw_Mutton
+raw-porkchop:
+  name: Raw Porkchop
+  sprite: [7, 55]
+  site: mc-wiki
+  url: Raw_Porkchop
+raw-rabbit:
+  name: Raw Rabbit
+  sprite: [11, 55]
+  site: mc-wiki
+  url: Raw_Rabbit
+raw-salmon:
+  name: Raw Salmon
+  sprite: [3, 55]
+  site: mc-wiki
+  url: Raw_Salmon
 red-sand:
   name: Red Sand
   sprite: [7, 8]
@@ -4078,6 +4153,11 @@ soul-sand:
   sprite: [10, 41]
   site: mc-wiki
   url: Soul_Sand
+steak:
+  name: Steak
+  sprite: [14, 54]
+  site: mc-wiki
+  url: Steak
 stick:
   name: Stick
   sprite: [15, 41]

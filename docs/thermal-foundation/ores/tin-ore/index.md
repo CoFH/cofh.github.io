@@ -7,6 +7,8 @@ usage-recipes:
     - pyrotheum-ore-tin
     - petrotheum-ore-tin
     - petrotheum-pyrotheum-ore-tin
+  redstone-furnace-ore:
+    - ore-processing-tin
   pulverizer:
     - ore-processing-tin
   induction-smelter:
@@ -40,6 +42,9 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Flux Anodizers ingredient
+{% include recipe-table.html type='redstone-furnace-ore' recipes=page.usage-recipes.redstone-furnace-ore %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
