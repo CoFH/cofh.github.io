@@ -874,7 +874,7 @@ recipes:
         amount: 2
       secondary-output:
         item: [dust-iridium]
-      secondary-chance: 10
+      secondary-chance: 5
   ore-processing-redstone:
     results:
       - item: redstone

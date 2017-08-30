@@ -12,6 +12,8 @@ usage-recipes:
     - ore-processing-copper
   pulverizer:
     - ore-processing-copper
+  pulverizer-petrotheum:
+    - ore-processing-copper
   induction-smelter:
     - ore-processing-sand-copper
     - ore-processing-rich-slag-copper
@@ -50,6 +52,9 @@ Usage
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+
+### Tectonic Initiator ingredient
+{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}

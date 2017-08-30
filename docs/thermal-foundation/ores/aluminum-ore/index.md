@@ -7,6 +7,8 @@ usage-recipes:
     - petrotheum-pyrotheum-ore-aluminum
   pulverizer:
     - ore-processing-aluminum
+  pulverizer-petrotheum:
+    - ore-processing-aluminum
   induction-smelter:
     - ore-processing-sand-aluminum
     - ore-processing-rich-slag-aluminum
@@ -42,6 +44,9 @@ Aluminum ore cannot be processed by
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+
+### Tectonic Initiator ingredient
+{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}

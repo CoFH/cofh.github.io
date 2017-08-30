@@ -3,6 +3,8 @@ title: Energized Netherrack
 usage-recipes:
   pulverizer:
     - fluid-ore-processing-glowstone
+  pulverizer-petrotheum:
+    - fluid-ore-processing-glowstone
   magma-crucible:
     - fluid-ore-processing-glowstone
 ---
@@ -41,6 +43,9 @@ Usage
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+
+### Tectonic Initiator ingredient
+{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Magma Crucible ingredient
 {% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}

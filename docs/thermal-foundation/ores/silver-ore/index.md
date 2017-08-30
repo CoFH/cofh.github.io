@@ -11,6 +11,8 @@ usage-recipes:
     - ore-processing-silver
   pulverizer:
     - ore-processing-silver
+  pulverizer-petrotheum:
+    - ore-processing-silver
   induction-smelter:
     - ore-processing-sand-silver
     - ore-processing-rich-slag-silver
@@ -53,6 +55,9 @@ Usage
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+
+### Tectonic Initiator ingredient
+{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}

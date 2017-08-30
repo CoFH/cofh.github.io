@@ -3,6 +3,8 @@ title: Oil Sand
 usage-recipes:
   pulverizer:
     - fluid-ore-processing-oil-sand
+  pulverizer-petrotheum:
+    - fluid-ore-processing-oil-sand
   magma-crucible:
     - fluid-ore-processing-oil-sand
 ---
@@ -44,6 +46,9 @@ Usage
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+
+### Tectonic Initiator ingredient
+{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Magma Crucible ingredient
 {% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}

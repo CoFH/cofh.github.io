@@ -3,6 +3,8 @@ title: Destabilized Redstone Ore
 usage-recipes:
   pulverizer:
     - fluid-ore-processing-redstone
+  pulverizer-petrotheum:
+    - fluid-ore-processing-redstone
   magma-crucible:
     - fluid-ore-processing-redstone
 ---
@@ -42,6 +44,9 @@ Usage
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+
+### Tectonic Initiator ingredient
+{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Magma Crucible ingredient
 {% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}

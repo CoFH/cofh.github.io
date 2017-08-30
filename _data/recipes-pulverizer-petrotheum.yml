@@ -1,0 +1,466 @@
+name: Tectonic Initiator
+site: te-docs
+url: machines/pulverizer/
+with-energy: true
+recipes:
+  fluid-ore-processing-ender:
+    results:
+      - item: clathrate-ender
+    ingredients:
+      - item: ore-fluid-ender
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-fluid-ender]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [clathrate-ender]
+        amount: 4
+  fluid-ore-processing-glowstone:
+    results:
+      - item: clathrate-glowstone
+      - item: sulfur
+    ingredients:
+      - item: ore-fluid-glowstone
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-fluid-glowstone]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [clathrate-glowstone]
+        amount: 4
+      secondary-output:
+        item: [sulfur]
+      secondary-chance: 30
+  fluid-ore-processing-oil-sand:
+    results:
+      - item: bitumen
+      - item: tar
+    ingredients:
+      - item: oil-sand
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [oil-sand]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [bitumen]
+        amount: 4
+      secondary-output:
+        item: [tar]
+      secondary-chance: 50
+  fluid-ore-processing-oil-shale:
+    results:
+      - item: bitumen
+      - item: flint
+    ingredients:
+      - item: oil-shale
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [oil-shale]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [bitumen]
+        amount: 4
+      secondary-output:
+        item: [flint]
+      secondary-chance: 50
+  fluid-ore-processing-redstone:
+    results:
+      - item: clathrate-redstone
+      - item: cinnabar
+    ingredients:
+      - item: ore-fluid-redstone
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-fluid-redstone]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [clathrate-redstone]
+        amount: 4
+      secondary-output:
+        item: [cinnabar]
+      secondary-chance: 50
+  ore-processing-aluminum:
+    results:
+      - item: dust-aluminum
+        suffix: x3
+      - item: dust-iron
+    ingredients:
+      - item: ore-aluminum
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-aluminum]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-aluminum]
+        amount: 3
+      secondary-output:
+        item: [dust-iron]
+      secondary-chance: 10
+  ore-processing-coal:
+    results:
+      - item: coal
+      - item: dust-coal
+    ingredients:
+      - item: ore-coal
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-coal]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [coal]
+        amount: 4
+      secondary-output:
+        item: [dust-coal]
+      secondary-chance: 25
+  ore-processing-copper:
+    results:
+      - item: dust-copper
+        suffix: x3
+      - item: dust-gold
+    ingredients:
+      - item: ore-copper
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-copper]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-copper]
+        amount: 3
+      secondary-output:
+        item: [dust-gold]
+      secondary-chance: 10
+  ore-processing-diamond:
+    results:
+      - item: diamond
+    ingredients:
+      - item: ore-diamond
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-diamond]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [diamond]
+        amount: 3
+  ore-processing-emerald:
+    results:
+      - item: emerald
+    ingredients:
+      - item: ore-emerald
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-emerald]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [emerald]
+        amount: 3
+  ore-processing-gold:
+    results:
+      - item: dust-gold
+        suffix: x3
+      - item: cinnabar
+    ingredients:
+      - item: ore-gold
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-gold]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-gold]
+        amount: 3
+      secondary-output:
+        item: [cinnabar]
+      secondary-chance: 5
+  ore-processing-iridium:
+    results:
+      - item: dust-iridium
+        suffix: x3
+      - item: dust-platinum
+    ingredients:
+      - item: ore-iridium
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-iridium]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-iridium]
+        amount: 3
+      secondary-output:
+        item: [dust-platinum]
+      secondary-chance: 10
+  ore-processing-iron:
+    results:
+      - item: dust-iron
+        suffix: x3
+      - item: dust-nickel
+    ingredients:
+      - item: ore-iron
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-iron]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-iron]
+        amount: 3
+      secondary-output:
+        item: [dust-nickel]
+      secondary-chance: 10
+  ore-processing-lapis-lazuli:
+    results:
+      - item: lapis-lazuli
+      - item: sulfur
+    ingredients:
+      - item: ore-lapis-lazuli
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-lapis-lazuli]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [lapis-lazuli]
+        amount: 13
+      secondary-output:
+        item: [sulfur]
+      secondary-chance: 20
+  ore-processing-lead:
+    results:
+      - item: dust-lead
+        suffix: x3
+      - item: dust-silver
+    ingredients:
+      - item: ore-lead
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-lead]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-lead]
+        amount: 3
+      secondary-output:
+        item: [dust-silver]
+      secondary-chance: 10
+  ore-processing-mithril:
+    results:
+      - item: dust-mithril
+        suffix: x3
+      - item: dust-gold
+    ingredients:
+      - item: ore-mithril
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-mithril]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-mithril]
+        amount: 3
+      secondary-output:
+        item: [dust-gold]
+      secondary-chance: 10
+  ore-processing-nether-quartz:
+    results:
+      - item: nether-quartz
+      - item: sulfur
+    ingredients:
+      - item: ore-nether-quartz
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-nether-quartz]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [nether-quartz]
+        amount: 4
+      secondary-output:
+        item: [sulfur]
+      secondary-chance: 15
+  ore-processing-nickel:
+    results:
+      - item: dust-nickel
+        suffix: x3
+      - item: dust-platinum
+    ingredients:
+      - item: ore-nickel
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-nickel]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-nickel]
+        amount: 3
+      secondary-output:
+        item: [dust-platinum]
+      secondary-chance: 10
+  ore-processing-platinum:
+    results:
+      - item: dust-platinum
+        suffix: x3
+      - item: dust-iridium
+    ingredients:
+      - item: ore-platinum
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-platinum]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-platinum]
+        amount: 3
+      secondary-output:
+        item: [dust-iridium]
+      secondary-chance: 5
+  ore-processing-redstone:
+    results:
+      - item: redstone
+      - item: cinnabar
+    ingredients:
+      - item: ore-redstone
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-redstone]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [redstone]
+        amount: 7
+      secondary-output:
+        item: [cinnabar]
+      secondary-chance: 25
+  ore-processing-silver:
+    results:
+      - item: dust-silver
+        suffix: x3
+      - item: dust-lead
+    ingredients:
+      - item: ore-silver
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-silver]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-silver]
+        amount: 3
+      secondary-output:
+        item: [dust-lead]
+      secondary-chance: 10
+  ore-processing-tin:
+    results:
+      - item: dust-tin
+        suffix: x3
+      - item: dust-iron
+    ingredients:
+      - item: ore-tin
+      - fluid: petrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      input:
+        item: [ore-tin]
+      fluid-input:
+        fluid: petrotheum
+        amount: 100
+      primary-output:
+        item: [dust-tin]
+        amount: 3
+      secondary-output:
+        item: [dust-iron]
+      secondary-chance: 10

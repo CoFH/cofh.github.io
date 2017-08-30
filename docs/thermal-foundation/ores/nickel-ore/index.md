@@ -11,6 +11,8 @@ usage-recipes:
     - ore-processing-nickel
   pulverizer:
     - ore-processing-nickel
+  pulverizer-petrotheum:
+    - ore-processing-nickel
   induction-smelter:
     - ore-processing-sand-nickel
     - ore-processing-rich-slag-nickel
@@ -48,6 +50,9 @@ Usage
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+
+### Tectonic Initiator ingredient
+{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
