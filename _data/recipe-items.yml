@@ -13,6 +13,21 @@ andesite-polished:
   sprite: [2, 34]
   site: mc-wiki
   url: Polished_Andesite
+anvil:
+  name: Anvil
+  sprite: [2, 57]
+  site: mc-wiki
+  url: Anvil
+anvil-slightly-damaged:
+  name: Slightly Damaged Anvil
+  sprite: [3, 57]
+  site: mc-wiki
+  url: Anvil
+anvil-very-damaged:
+  name: Very Damaged Anvil
+  sprite: [4, 57]
+  site: mc-wiki
+  url: Anvil
 arrow:
   name: Arrow
   sprite: [14, 38]
@@ -207,17 +222,27 @@ axe-diamond:
   name: Diamond Axe
   sprite: [6, 44]
   site: mc-wiki
-  url: Diamond_Axe
+  url: Axe
 axe-electrum:
   name: Electrum Axe
   sprite: [8, 16]
   site: tf-docs
   url: equipment/axes/
+axe-gold:
+  name: Golden Axe
+  sprite: [10, 56]
+  site: mc-wiki
+  url: Axe
 axe-invar:
   name: Invar Axe
   sprite: [9, 16]
   site: tf-docs
   url: equipment/axes/
+axe-iron:
+  name: Iron Axe
+  sprite: [2, 56]
+  site: mc-wiki
+  url: Axe
 axe-lead:
   name: Lead Axe
   sprite: [10, 16]
@@ -462,17 +487,27 @@ boots-diamond:
   name: Diamond Boots
   sprite: [13, 44]
   site: mc-wiki
-  url: Diamond_Boots
+  url: Boots
 boots-electrum:
   name: Electrum Boots
   sprite: [6, 38]
   site: tf-docs
   url: equipment/armor/
+boots-gold:
+  name: Golden Boots
+  sprite: [1, 57]
+  site: mc-wiki
+  url: Boots
 boots-invar:
   name: Invar Boots
   sprite: [7, 38]
   site: tf-docs
   url: equipment/armor/
+boots-iron:
+  name: Iron Boots
+  sprite: [9, 56]
+  site: mc-wiki
+  url: Boots
 boots-lead:
   name: Lead Boots
   sprite: [8, 38]
@@ -648,6 +683,11 @@ button-wood:
   sprite: [0, 53]
   site: mc-wiki
   url: Button
+cauldron:
+  name: Cauldron
+  sprite: [13, 55]
+  site: mc-wiki
+  url: Cauldron
 cache-basic:
   name: Cache (Basic)
   sprite: [12, 27]
@@ -697,17 +737,27 @@ chestplate-diamond:
   name: Diamond Chestplate
   sprite: [11, 44]
   site: mc-wiki
-  url: Diamond_Chestplate
+  url: Chestplate
 chestplate-electrum:
   name: Electrum Chestplate
   sprite: [14, 36]
   site: tf-docs
   url: equipment/armor/
+chestplate-gold:
+  name: Golden Chestplate
+  sprite: [15, 56]
+  site: mc-wiki
+  url: Chestplate
 chestplate-invar:
   name: Invar Chestplate
   sprite: [15, 36]
   site: tf-docs
   url: equipment/armor/
+chestplate-iron:
+  name: Iron Chestplate
+  sprite: [7, 56]
+  site: mc-wiki
+  url: Chestplate
 chestplate-lead:
   name: Lead Chestplate
   sprite: [0, 37]
@@ -768,6 +818,11 @@ clay:
   sprite: [3, 39]
   site: mc-wiki
   url: Clay
+clock:
+  name: Clock
+  sprite: [14, 55]
+  site: mc-wiki
+  url: Clock
 coal:
   name: Coal
   sprite: [7, 42]
@@ -1638,6 +1693,11 @@ flint:
   sprite: [9, 8]
   site: mc-wiki
   url: Flint
+flint-and-steel:
+  name: Flint and Steel
+  sprite: [15, 55]
+  site: mc-wiki
+  url: Flint_and_Steel
 florb:
   name: Florb
   sprite: [11, 30]
@@ -2307,7 +2367,7 @@ helmet-diamond:
   name: Diamond Helmet
   sprite: [8, 39]
   site: mc-wiki
-  url: Diamond_Helmet
+  url: Helmet
 helmet-electrum:
   name: Electrum Helmet
   sprite: [2, 36]
@@ -2387,17 +2447,27 @@ hoe-diamond:
   name: Diamond Hoe
   sprite: [7, 44]
   site: mc-wiki
-  url: Diamond_Hoe
+  url: Hoe
 hoe-electrum:
   name: Electrum Hoe
   sprite: [5, 20]
   site: tf-docs
   url: equipment/hoes/
+hoe-gold:
+  name: Golden Hoe
+  sprite: [11, 56]
+  site: mc-wiki
+  url: Hoe
 hoe-invar:
   name: Invar Hoe
   sprite: [6, 20]
   site: tf-docs
   url: equipment/hoes/
+hoe-iron:
+  name: Iron Hoe
+  sprite: [3, 56]
+  site: mc-wiki
+  url: Hoe
 hoe-lead:
   name: Lead Hoe
   sprite: [7, 20]
@@ -2563,6 +2633,11 @@ ink-sac:
   sprite: [0, 5]
   site: mc-wiki
   url: Ink_Sac
+iron-bars:
+  name: Iron Bars
+  sprite: [0, 56]
+  site: mc-wiki
+  url: Iron_Bars
 item-frame:
   name: Item Frame
   sprite: [5, 51]
@@ -2682,17 +2757,27 @@ leggings-diamond:
   name: Diamond Leggings
   sprite: [12, 44]
   site: mc-wiki
-  url: Diamond_Leggings
+  url: Leggings
 leggings-electrum:
   name: Electrum Leggings
   sprite: [10, 37]
   site: tf-docs
   url: equipment/armor/
+leggings-gold:
+  name: Golden Leggings
+  sprite: [0, 57]
+  site: mc-wiki
+  url: Leggings
 leggings-invar:
   name: Invar Leggings
   sprite: [11, 37]
   site: tf-docs
   url: equipment/armor/
+leggings-iron:
+  name: Iron Leggings
+  sprite: [8, 56]
+  site: mc-wiki
+  url: Leggings
 leggings-lead:
   name: Lead Leggings
   sprite: [12, 37]
@@ -3247,12 +3332,22 @@ pickaxe-diamond:
   name: Diamond Pickaxe
   sprite: [8, 44]
   site: mc-wiki
-  url: Diamond_Pickaxe
+  url: Pickaxe
+pickaxe-gold:
+  name: Golden Pickaxe
+  sprite: [12, 56]
+  site: mc-wiki
+  url: Pickaxe
 pickaxe-invar:
   name: Invar Pickaxe
   sprite: [2, 21]
   site: tf-docs
   url: equipment/pickaxes/
+pickaxe-iron:
+  name: Iron Pickaxe
+  sprite: [4, 56]
+  site: mc-wiki
+  url: Pickaxe
 pickaxe-lead:
   name: Lead Pickaxe
   sprite: [3, 21]
@@ -3793,6 +3888,11 @@ servo-resonant:
   sprite: [1, 9]
   site: td-docs
   url: attachments/servos/
+shears:
+  name: Shears
+  sprite: [1, 56]
+  site: mc-wiki
+  url: Shears
 shears-aluminum:
   name: Aluminum Shears
   sprite: [9, 21]
@@ -3982,17 +4082,27 @@ shovel-diamond:
   name: Diamond Shovel
   sprite: [9, 44]
   site: mc-wiki
-  url: Diamond_Shovel
+  url: Shovel
 shovel-electrum:
   name: Electrum Shovel
   sprite: [13, 23]
   site: tf-docs
   url: equipment/shovels/
+shovel-gold:
+  name: Golden Shovel
+  sprite: [13, 56]
+  site: mc-wiki
+  url: Shovel
 shovel-invar:
   name: Invar Shovel
   sprite: [14, 23]
   site: tf-docs
   url: equipment/shovels/
+shovel-iron:
+  name: Iron Shovel
+  sprite: [5, 56]
+  site: mc-wiki
+  url: Shovel
 shovel-lead:
   name: Lead Shovel
   sprite: [15, 23]
@@ -4342,17 +4452,27 @@ sword-diamond:
   name: Diamond Sword
   sprite: [10, 44]
   site: mc-wiki
-  url: Diamond_Sword
+  url: Sword
 sword-electrum:
   name: Electrum Sword
   sprite: [10, 25]
   site: tf-docs
   url: equipment/swords/
+sword-gold:
+  name: Golden Sword
+  sprite: [14, 56]
+  site: mc-wiki
+  url: Sword
 sword-invar:
   name: Invar Sword
   sprite: [11, 25]
   site: tf-docs
   url: equipment/swords/
+sword-iron:
+  name: Iron Sword
+  sprite: [6, 56]
+  site: mc-wiki
+  url: Sword
 sword-lead:
   name: Lead Sword
   sprite: [12, 25]
