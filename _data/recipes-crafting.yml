@@ -526,7 +526,7 @@ recipes:
     ingredients:
       - item: redstone-servo
       - item: ingot-bronze
-      - html: 'any color <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
+      - item-group: rockwool
     data:
       rows:
         - [null, item: [ingot-bronze]]
@@ -1637,7 +1637,7 @@ recipes:
     results:
       - item: dust-aerotheum
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
       - item: niter
       - item: redstone
       - item: blitz-powder
@@ -4022,7 +4022,7 @@ recipes:
       - item: hammer-wood
     ingredients:
       - item: stick
-      - html: 'any <a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
     data:
       rows:
         - - random: true
@@ -4372,7 +4372,7 @@ recipes:
     ingredients:
       - item: diamond
       - item: helmet-diamond
-      - html: 'any color <a href="https://minecraft.gamepedia.com/Wool">Wool</a>'
+      - item-group: wool
     data:
       rows:
         - [null, null, item: [helmet-diamond]]
@@ -4390,7 +4390,7 @@ recipes:
     ingredients:
       - item: ingot-gold
       - item: helmet-gold
-      - html: 'any color <a href="https://minecraft.gamepedia.com/Wool">Wool</a>'
+      - item-group: wool
     data:
       rows:
         - [null, null, item: [helmet-gold]]
@@ -4408,7 +4408,7 @@ recipes:
     ingredients:
       - item: ingot-iron
       - item: helmet-iron
-      - html: 'any color <a href="https://minecraft.gamepedia.com/Wool">Wool</a>'
+      - item-group: wool
     data:
       rows:
         - [null, null, item: [helmet-iron]]
@@ -5557,7 +5557,7 @@ recipes:
       - item: frame-machine
       - item: redstone-coil-gold
       - item: gear-copper
-      - html: 'any <a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
       - item: gear-iron
     data:
       rows:
@@ -6768,7 +6768,7 @@ recipes:
     results:
       - item: podzol
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Leaves">Leaves</a>'
+      - item-group: leaves
       - item: coarse-dirt
       - item: phyto-gro-rich
       - item: bucket-water
@@ -7391,8 +7391,8 @@ recipes:
     results:
       - html: 'Dyed <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
     ingredients:
-      - html: 'Any color <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
-      - html: 'any <a href="https://minecraft.gamepedia.com/Dye">Dye</a>'
+      - item-group: rockwool
+      - item-group: dye
     data:
       shapeless: true
       rows:
@@ -7420,7 +7420,7 @@ recipes:
     results:
       - item: satchel-basic
     ingredients:
-      - html: 'Any color <a href="https://minecraft.gamepedia.com/Wool">Wool</a>'
+      - item-group: wool
       - item: ingot-tin
       - item: leather
     data:
@@ -7438,9 +7438,9 @@ recipes:
     results:
       - item: satchel-basic
     ingredients:
-      - html: 'Any color <a href="https://minecraft.gamepedia.com/Wool">Wool</a>'
+      - item-group: wool
       - item: ingot-tin
-      - html: 'any color <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
+      - item-group: rockwool
     data:
       rows:
         - - null
@@ -7964,7 +7964,7 @@ recipes:
     results:
       - item: shears-wood
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
     data:
       rows:
         - - null
@@ -8632,7 +8632,7 @@ recipes:
       - item: sickle-wood
     ingredients:
       - item: stick
-      - html: 'any <a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
     data:
       rows:
         - - null

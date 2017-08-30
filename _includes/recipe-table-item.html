@@ -1,0 +1,54 @@
+{% if include.item.prefix %}
+    {{ include.item.prefix }}
+{% endif %}
+
+{% if include.item.html %}
+    {{ include.item.html }}
+{% elsif include.item.item %}
+    {% assign item_data = site.data.recipe-items[include.item.item] %}
+    {% assign item_site = site.data.recipe-sites[item_data.site] %}
+
+    <a href="{{item_site.url}}{{item_data.url}}">{{ item_data.name }}</a>
+{% elsif include.item.item-group %}
+    {% assign group_data = site.data.recipe-item-groups[include.item.item-group] %}
+    {% assign group_site = site.data.recipe-sites[group_data.site] %}
+
+    {% if group_data.prefix %}
+        {% capture prefix %}
+            {% if include.type == 'result' and group_data.prefix.result %}
+                {{ group_data.prefix.result }}
+            {% elsif include.type == 'ingredient' and group_data.prefix.ingredient %}
+                {{ group_data.prefix.ingredient }}
+            {% endif %}
+        {% endcapture %}
+
+        {% if include.first %}
+            {{ prefix | lstrip | capitalize }}
+        {% else %}
+            {{ prefix }}
+        {% endif %}
+    {% endif %}
+
+    <a href="{{group_site.url}}{{group_data.url}}">{{ group_data.name }}</a>
+
+    {% if group_data.suffix %}
+        {% if include.type == 'result' and group_data.suffix.result %}
+            {{ group_data.suffix.result }}
+        {% elsif include.type == 'ingredient' and group_data.suffix.ingredient %}
+            {{ group_data.suffix.ingredient }}
+        {% endif %}
+    {% endif %}
+{% elsif include.item.fluid %}
+    {% assign fluid_data = site.data.recipe-fluids[include.item.fluid] %}
+    {% assign fluid_site = site.data.recipe-sites[fluid_data.site] %}
+
+    <a href="{{fluid_site.url}}{{fluid_data.url}}">{{ fluid_data.name }}</a>
+
+    {% if include.item.fluid-amount %}
+        ({{ include.item.fluid-amount }} mB)
+    {% endif %}
+{% endif %}
+
+{% if include.item.suffix %}
+    {{ include.item.suffix }}
+{% endif %}

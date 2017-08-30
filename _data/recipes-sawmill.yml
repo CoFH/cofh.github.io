@@ -33,9 +33,9 @@ recipes:
   recycling-bed:
     results:
       - item: wood-planks-oak
-      - html: '<a href="https://minecraft.gamepedia.com/Wool">Wool</a>'
+      - item-group: wool
     ingredients:
-      - html: 'Any color <a href="https://minecraft.gamepedia.com/Bed">Bed</a>'
+      - item-group: bed
     energy: 2400
     data:
       input:
@@ -49,10 +49,10 @@ recipes:
       secondary-chance: 100
   recycling-boat:
     results:
-      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
       - item: sawdust
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Boat">Boat</a>'
+      - item-group: boat
     energy: 2400
     data:
       input:
@@ -177,10 +177,10 @@ recipes:
       secondary-chance: 100
   recycling-door:
     results:
-      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
       - item: sawdust
     ingredients:
-      - html: 'Any wooden <a href="https://minecraft.gamepedia.com/Door">Door</a>'
+      - item-group: door-wood
     energy: 2400
     data:
       input:
@@ -192,14 +192,14 @@ recipes:
       secondary-chance: 50
   recycling-fence:
     results:
-      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
       - item: sawdust
     ingredients:
-      - html: 'Any wooden <a href="https://minecraft.gamepedia.com/Fence">Fence</a>'
+      - item-group: fence-wood
     energy: 2400
     data:
       input:
-        item-group: fence
+        item-group: fence-wood
       primary-output:
         item-group: wood-planks
       secondary-output:
@@ -207,10 +207,10 @@ recipes:
       secondary-chance: 25
   recycling-fence-gate:
     results:
-      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
       - item: sawdust
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Fence_Gate">Fence Gate</a>'
+      - item-group: fence-gate
     energy: 2400
     data:
       input:
@@ -469,10 +469,10 @@ recipes:
       secondary-chance: 100
   recycling-wood-stairs:
     results:
-      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
       - item: sawdust
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Stairs">Wood Stairs</a>'
+      - item-group: wood-stairs
     energy: 2400
     data:
       input:
@@ -485,10 +485,10 @@ recipes:
       secondary-chance: 25
   wood-processing:
     results:
-      - html: '<a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
       - item: sawdust
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Wood">Wood</a>'
+      - item-group: wood-log
     energy: 800
     data:
       input:

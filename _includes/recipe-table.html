@@ -26,27 +26,7 @@
                                 <strong>
                             {% endif %}
 
-                            {% if result.html %}
-                                {{ result.html }}
-                            {% elsif result.item %}
-                                {% assign item_data = site.data.recipe-items[result.item] %}
-                                {% assign item_site = site.data.recipe-sites[item_data.site] %}
-
-                                <a href="{{item_site.url}}{{item_data.url}}">{{ item_data.name }}</a>
-                            {% elsif result.fluid %}
-                                {% assign fluid_data = site.data.recipe-fluids[result.fluid] %}
-                                {% assign fluid_site = site.data.recipe-sites[fluid_data.site] %}
-
-                                <a href="{{fluid_site.url}}{{fluid_data.url}}">{{ fluid_data.name }}</a>
-
-                                {% if result.fluid-amount %}
-                                    ({{ result.fluid-amount }} mB)
-                                {% endif %}
-                            {% endif %}
-
-                            {% if result.suffix %}
-                                {{ result.suffix }}
-                            {% endif %}
+                            {% include recipe-table-item.html item=result type='result' first=forloop.first %}
 
                             {% if forloop.first %}
                                 </strong>
@@ -58,23 +38,7 @@
 
                     <td>
                         {% for ingr in recipe_data.ingredients %}
-                            {% if ingr.html %}
-                                {{ ingr.html }}
-                            {% elsif ingr.item %}
-                                {% assign item_data = site.data.recipe-items[ingr.item] %}
-                                {% assign item_site = site.data.recipe-sites[item_data.site] %}
-
-                                <a href="{{item_site.url}}{{item_data.url}}">{{ item_data.name }}</a>
-                            {% elsif ingr.fluid %}
-                                {% assign fluid_data = site.data.recipe-fluids[ingr.fluid] %}
-                                {% assign fluid_site = site.data.recipe-sites[fluid_data.site] %}
-
-                                <a href="{{fluid_site.url}}{{fluid_data.url}}">{{ fluid_data.name }}</a>
-
-                                {% if ingr.fluid-amount %}
-                                    ({{ ingr.fluid-amount }} mB)
-                                {% endif %}
-                            {% endif %}
+                            {% include recipe-table-item.html item=ingr type='ingredient' first=forloop.first %}
 
                             {% unless forloop.last %}
                                 +

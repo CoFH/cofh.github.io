@@ -1022,9 +1022,9 @@ recipes:
         amount: 8
   recycling-concrete:
     results:
-      - html: '<a href="https://minecraft.gamepedia.com/Concrete_Powder">Concrete Powder</a>'
+      - item-group: concrete-powder
     ingredients:
-      - html: 'Any color <a href="https://minecraft.gamepedia.com/Concrete">Concrete</a>'
+      - item-group: concrete
     energy: 4000
     data:
       input:
@@ -1142,7 +1142,7 @@ recipes:
     results:
       - item: sand
     ingredients:
-      - html: 'Any color <a href="https://minecraft.gamepedia.com/Stained_Glass">Stained Glass</a>'
+      - item-group: glass-stained
     energy: 3000
     data:
       input:
@@ -1808,7 +1808,7 @@ recipes:
     results:
       - item: sawdust
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Wood">Wood</a>'
+      - item-group: wool
     energy: 2000
     data:
       input:
@@ -1821,7 +1821,7 @@ recipes:
     results:
       - item: sawdust
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Wood_Planks">Wood Planks</a>'
+      - item-group: wood-planks
     energy: 500
     data:
       input:

@@ -3,7 +3,8 @@ title: Hardened Glass
 redirect_from: /docs/thermal-expansion/materials/hardened-glass/
 recipes:
   induction-smelter:
-    - hardened-glass
+    - hardened-glass-using-ingot
+    - hardened-glass-using-dust
     - hardened-glass-copper
     - hardened-glass-tin
     - hardened-glass-silver

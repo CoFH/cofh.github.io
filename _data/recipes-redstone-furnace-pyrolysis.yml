@@ -75,7 +75,7 @@ recipes:
       - fluid: creosote-oil
         fluid-amount: 100
     ingredients:
-      - html: 'Any <a href="https://minecraft.gamepedia.com/Wood">Wood</a>'
+      - item-group: wood-log
     energy: 1500
     data:
       input:

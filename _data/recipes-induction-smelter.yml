@@ -3,20 +3,33 @@ site: te-docs
 url: machines/induction-smelter/
 with-energy: true
 recipes:
-  hardened-glass:
+  hardened-glass-using-ingot:
     results:
       - item: hardened-glass
     ingredients:
-      - html: >
-          <a href="/docs/thermal-foundation/ingots/lead-ingot/">Lead Ingot</a> or<br />
-          <a href="/docs/thermal-foundation/metal-dusts/pulverized-lead/">Pulverized Lead</a>
+      - item: ingot-lead
       - item: dust-obsidian
     energy: 4000
     data:
       primary-input:
-        item:
-          - ingot-lead
-          - dust-lead
+        item: [ingot-lead]
+        amount: 1
+      secondary-input:
+        item: [dust-obsidian]
+        amount: 4
+      primary-output:
+        item: [hardened-glass]
+        amount: 2
+  hardened-glass-using-dust:
+    results:
+      - item: hardened-glass
+    ingredients:
+      - item: dust-lead
+      - item: dust-obsidian
+    energy: 4000
+    data:
+      primary-input:
+        item: [dust-lead]
         amount: 1
       secondary-input:
         item: [dust-obsidian]
@@ -665,7 +678,7 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-aluminum
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
     energy: 4000
     data:
       primary-input:
@@ -686,7 +699,7 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-copper
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
     energy: 4000
     data:
       primary-input:
@@ -707,7 +720,7 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-iridium
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
     energy: 4000
     data:
       primary-input:
@@ -728,7 +741,7 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-lead
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
     energy: 4000
     data:
       primary-input:
@@ -749,7 +762,7 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-mithril
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
     energy: 4000
     data:
       primary-input:
@@ -770,7 +783,7 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-nickel
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
     energy: 4000
     data:
       primary-input:
@@ -791,7 +804,7 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-platinum
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
     energy: 4000
     data:
       primary-input:
@@ -812,7 +825,7 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-silver
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
     energy: 4000
     data:
       primary-input:
@@ -833,7 +846,7 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-tin
-      - html: 'any <a href="https://minecraft.gamepedia.com/Sand">Sand</a>'
+      - item-group: sand
     energy: 4000
     data:
       primary-input:
