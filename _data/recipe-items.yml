@@ -4338,6 +4338,11 @@ slimeball:
   sprite: [4, 40]
   site: mc-wiki
   url: Slimeball
+snow:
+  name: Snow
+  sprite: [11, 58]
+  site: mc-wiki
+  url: Snow
 snow-layer:
   name: Snow
   sprite: [9, 41]

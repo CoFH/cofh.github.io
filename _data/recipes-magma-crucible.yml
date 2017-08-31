@@ -3,6 +3,97 @@ site: te-docs
 url: machines/magma-crucible/
 with-energy: true
 recipes:
+  aerotheum:
+    results:
+      - fluid: aerotheum
+        fluid-amount: 250
+    ingredients:
+      - item: dust-aerotheum
+    energy: 8000
+    data:
+      input:
+        item: [dust-aerotheum]
+      output:
+        fluid: aerotheum
+        amount: 250
+  coal:
+    results:
+      - fluid: coal
+        fluid-amount: 100
+    ingredients:
+      - item: dust-coal
+    energy: 4000
+    data:
+      input:
+        item: [dust-coal]
+      output:
+        fluid: coal
+        amount: 100
+  creosote-oil-from-tar:
+    results:
+      - fluid: creosote-oil
+        fluid-amount: 100
+    ingredients:
+      - item: tar
+    energy: 2000
+    data:
+      input:
+        item: [tar]
+      output:
+        fluid: creosote-oil
+        amount: 100
+  crude-oil-from-bitumen:
+    results:
+      - fluid: crude-oil
+        fluid-amount: 250
+    ingredients:
+      - item: bitumen
+    energy: 2000
+    data:
+      input:
+        item: [bitumen]
+      output:
+        fluid: crude-oil
+        amount: 250
+  cryotheum:
+    results:
+      - fluid: cryotheum
+        fluid-amount: 250
+    ingredients:
+      - item: dust-cryotheum
+    energy: 8000
+    data:
+      input:
+        item: [dust-cryotheum]
+      output:
+        fluid: cryotheum
+        amount: 250
+  ender:
+    results:
+      - fluid: ender
+        fluid-amount: 250
+    ingredients:
+      - item: ender-pearl
+    energy: 20000
+    data:
+      input:
+        item: [ender-pearl]
+      output:
+        fluid: ender
+        amount: 250
+  ender-from-clathrate:
+    results:
+      - fluid: ender
+        fluid-amount: 250
+    ingredients:
+      - item: clathrate-ender
+    energy: 2000
+    data:
+      input:
+        item: [clathrate-ender]
+      output:
+        fluid: ender
+        amount: 250
   fluid-ore-processing-ender:
     results:
       - fluid: ender
@@ -68,3 +159,237 @@ recipes:
       output:
         fluid: redstone
         amount: 1000
+  glowstone:
+    results:
+      - fluid: glowstone
+        fluid-amount: 250
+    ingredients:
+      - item: glowstone-dust
+    energy: 20000
+    data:
+      input:
+        item: [glowstone-dust]
+      output:
+        fluid: glowstone
+        amount: 250
+  glowstone-from-block:
+    results:
+      - fluid: glowstone
+        fluid-amount: 1000
+    ingredients:
+      - item: glowstone
+    energy: 80000
+    data:
+      input:
+        item: [glowstone]
+      output:
+        fluid: glowstone
+        amount: 1000
+  glowstone-from-clathrate:
+    results:
+      - fluid: glowstone
+        fluid-amount: 250
+    ingredients:
+      - item: clathrate-glowstone
+    energy: 2000
+    data:
+      input:
+        item: [clathrate-glowstone]
+      output:
+        fluid: glowstone
+        amount: 250
+  lava-from-andesite:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: andesite
+    energy: 300000
+    data:
+      input:
+        item: [andesite]
+      output:
+        fluid: lava
+        amount: 1000
+  lava-from-andesite-polished:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: andesite-polished
+    energy: 300000
+    data:
+      input:
+        item: [andesite-polished]
+      output:
+        fluid: lava
+        amount: 1000
+  lava-from-cobblestone:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: cobblestone
+    energy: 300000
+    data:
+      input:
+        item: [cobblestone]
+      output:
+        fluid: lava
+        amount: 1000
+  lava-from-magma-block:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: magma-block
+    energy: 40000
+    data:
+      input:
+        item: [magma-block]
+      output:
+        fluid: lava
+        amount: 1000
+  lava-from-netherrack:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: netherrack
+    energy: 60000
+    data:
+      input:
+        item: [netherrack]
+      output:
+        fluid: lava
+        amount: 1000
+  lava-from-obsidian:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: obsidian
+    energy: 300000
+    data:
+      input:
+        item: [obsidian]
+      output:
+        fluid: lava
+        amount: 1000
+  lava-from-stone:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: stone
+    energy: 300000
+    data:
+      input:
+        item: [stone]
+      output:
+        fluid: lava
+        amount: 1000
+  petrotheum:
+    results:
+      - fluid: petrotheum
+        fluid-amount: 250
+    ingredients:
+      - item: dust-petrotheum
+    energy: 8000
+    data:
+      input:
+        item: [dust-petrotheum]
+      output:
+        fluid: petrotheum
+        amount: 250
+  pyrotheum:
+    results:
+      - fluid: pyrotheum
+        fluid-amount: 250
+    ingredients:
+      - item: dust-pyrotheum
+    energy: 8000
+    data:
+      input:
+        item: [dust-pyrotheum]
+      output:
+        fluid: pyrotheum
+        amount: 250
+  redstone:
+    results:
+      - fluid: redstone
+        fluid-amount: 100
+    ingredients:
+      - item: redstone
+    energy: 8000
+    data:
+      input:
+        item: [redstone]
+      output:
+        fluid: redstone
+        amount: 100
+  redstone-from-block:
+    results:
+      - fluid: redstone
+        fluid-amount: 900
+    ingredients:
+      - item: storage-block-redstone
+    energy: 72000
+    data:
+      input:
+        item: [storage-block-redstone]
+      output:
+        fluid: redstone
+        amount: 900
+  redstone-from-clathrate:
+    results:
+      - fluid: redstone
+        fluid-amount: 250
+    ingredients:
+      - item: clathrate-redstone
+    energy: 2000
+    data:
+      input:
+        item: [clathrate-redstone]
+      output:
+        fluid: redstone
+        amount: 250
+  water-from-ice:
+    results:
+      - fluid: water
+        fluid-amount: 1000
+    ingredients:
+      - item: ice
+    energy: 1600
+    data:
+      input:
+        item: [ice]
+      output:
+        fluid: water
+        amount: 1000
+  water-from-snow:
+    results:
+      - fluid: water
+        fluid-amount: 500
+    ingredients:
+      - item: snow
+    energy: 800
+    data:
+      input:
+        item: [snow]
+      output:
+        fluid: water
+        amount: 500
+  water-from-snowball:
+    results:
+      - fluid: water
+        fluid-amount: 125
+    ingredients:
+      - item: snowball
+    energy: 200
+    data:
+      input:
+        item: [snowball]
+      output:
+        fluid: water
+        amount: 125
