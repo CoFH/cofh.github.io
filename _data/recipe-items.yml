@@ -4423,6 +4423,11 @@ storage-block-fluxed-electrum:
   sprite: [9, 34]
   site: ra-docs
   url: materials/fluxed-electrum-block/
+storage-block-gold:
+  name: Block of Gold
+  sprite: [10, 58]
+  site: mc-wiki
+  url: Block_of_Gold
 storage-block-invar:
   name: Invar Block
   sprite: [11, 6]
@@ -4433,6 +4438,11 @@ storage-block-iridium:
   sprite: [7, 6]
   site: tf-docs
   url: metal-blocks/iridium-block/
+storage-block-iron:
+  name: Block of Iron
+  sprite: [9, 58]
+  site: mc-wiki
+  url: Block_of_Iron
 storage-block-lead:
   name: Lead Block
   sprite: [3, 6]

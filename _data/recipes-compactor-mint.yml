@@ -1,0 +1,727 @@
+name: Numismatic Press
+site: te-docs
+url: machines/compactor/
+with-energy: true
+recipes:
+  coin-aluminum-from-nugget:
+    results:
+      - item: coin-aluminum
+    ingredients:
+      - item: nugget-aluminum
+    energy: 2000
+    data:
+      input:
+        item: [nugget-aluminum]
+        amount: 3
+      output:
+        item: [coin-aluminum]
+  coin-aluminum-from-ingot:
+    results:
+      - item: coin-aluminum
+        suffix: x3
+    ingredients:
+      - item: ingot-aluminum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-aluminum]
+      output:
+        item: [coin-aluminum]
+        amount: 3
+  coin-aluminum-from-block:
+    results:
+      - item: coin-aluminum
+        suffix: x27
+    ingredients:
+      - item: storage-block-aluminum
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-aluminum]
+      output:
+        item: [coin-aluminum]
+        amount: 27
+  coin-bronze-from-nugget:
+    results:
+      - item: coin-bronze
+    ingredients:
+      - item: nugget-bronze
+    energy: 2000
+    data:
+      input:
+        item: [nugget-bronze]
+        amount: 3
+      output:
+        item: [coin-bronze]
+  coin-bronze-from-ingot:
+    results:
+      - item: coin-bronze
+        suffix: x3
+    ingredients:
+      - item: ingot-bronze
+    energy: 4000
+    data:
+      input:
+        item: [ingot-bronze]
+      output:
+        item: [coin-bronze]
+        amount: 3
+  coin-bronze-from-block:
+    results:
+      - item: coin-bronze
+        suffix: x27
+    ingredients:
+      - item: storage-block-bronze
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-bronze]
+      output:
+        item: [coin-bronze]
+        amount: 27
+  coin-constantan-from-nugget:
+    results:
+      - item: coin-constantan
+    ingredients:
+      - item: nugget-constantan
+    energy: 2000
+    data:
+      input:
+        item: [nugget-constantan]
+        amount: 3
+      output:
+        item: [coin-constantan]
+  coin-constantan-from-ingot:
+    results:
+      - item: coin-constantan
+        suffix: x3
+    ingredients:
+      - item: ingot-constantan
+    energy: 4000
+    data:
+      input:
+        item: [ingot-constantan]
+      output:
+        item: [coin-constantan]
+        amount: 3
+  coin-constantan-from-block:
+    results:
+      - item: coin-constantan
+        suffix: x27
+    ingredients:
+      - item: storage-block-constantan
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-constantan]
+      output:
+        item: [coin-constantan]
+        amount: 27
+  coin-copper-from-nugget:
+    results:
+      - item: coin-copper
+    ingredients:
+      - item: nugget-copper
+    energy: 2000
+    data:
+      input:
+        item: [nugget-copper]
+        amount: 3
+      output:
+        item: [coin-copper]
+  coin-copper-from-ingot:
+    results:
+      - item: coin-copper
+        suffix: x3
+    ingredients:
+      - item: ingot-copper
+    energy: 4000
+    data:
+      input:
+        item: [ingot-copper]
+      output:
+        item: [coin-copper]
+        amount: 3
+  coin-copper-from-block:
+    results:
+      - item: coin-copper
+        suffix: x27
+    ingredients:
+      - item: storage-block-copper
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-copper]
+      output:
+        item: [coin-copper]
+        amount: 27
+  coin-electrum-from-nugget:
+    results:
+      - item: coin-electrum
+    ingredients:
+      - item: nugget-electrum
+    energy: 2000
+    data:
+      input:
+        item: [nugget-electrum]
+        amount: 3
+      output:
+        item: [coin-electrum]
+  coin-electrum-from-ingot:
+    results:
+      - item: coin-electrum
+        suffix: x3
+    ingredients:
+      - item: ingot-electrum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-electrum]
+      output:
+        item: [coin-electrum]
+        amount: 3
+  coin-electrum-from-block:
+    results:
+      - item: coin-electrum
+        suffix: x27
+    ingredients:
+      - item: storage-block-electrum
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-electrum]
+      output:
+        item: [coin-electrum]
+        amount: 27
+  coin-enderium-from-nugget:
+    results:
+      - item: coin-enderium
+    ingredients:
+      - item: nugget-enderium
+    energy: 2000
+    data:
+      input:
+        item: [nugget-enderium]
+        amount: 3
+      output:
+        item: [coin-enderium]
+  coin-enderium-from-ingot:
+    results:
+      - item: coin-enderium
+        suffix: x3
+    ingredients:
+      - item: ingot-enderium
+    energy: 4000
+    data:
+      input:
+        item: [ingot-enderium]
+      output:
+        item: [coin-enderium]
+        amount: 3
+  coin-enderium-from-block:
+    results:
+      - item: coin-enderium
+        suffix: x27
+    ingredients:
+      - item: storage-block-enderium
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-enderium]
+      output:
+        item: [coin-enderium]
+        amount: 27
+  coin-gold-from-nugget:
+    results:
+      - item: coin-gold
+    ingredients:
+      - item: nugget-gold
+    energy: 2000
+    data:
+      input:
+        item: [nugget-gold]
+        amount: 3
+      output:
+        item: [coin-gold]
+  coin-gold-from-ingot:
+    results:
+      - item: coin-gold
+        suffix: x3
+    ingredients:
+      - item: ingot-gold
+    energy: 4000
+    data:
+      input:
+        item: [ingot-gold]
+      output:
+        item: [coin-gold]
+        amount: 3
+  coin-gold-from-block:
+    results:
+      - item: coin-gold
+        suffix: x27
+    ingredients:
+      - item: storage-block-gold
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-gold]
+      output:
+        item: [coin-gold]
+        amount: 27
+  coin-invar-from-nugget:
+    results:
+      - item: coin-invar
+    ingredients:
+      - item: nugget-invar
+    energy: 2000
+    data:
+      input:
+        item: [nugget-invar]
+        amount: 3
+      output:
+        item: [coin-invar]
+  coin-invar-from-ingot:
+    results:
+      - item: coin-invar
+        suffix: x3
+    ingredients:
+      - item: ingot-invar
+    energy: 4000
+    data:
+      input:
+        item: [ingot-invar]
+      output:
+        item: [coin-invar]
+        amount: 3
+  coin-invar-from-block:
+    results:
+      - item: coin-invar
+        suffix: x27
+    ingredients:
+      - item: storage-block-invar
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-invar]
+      output:
+        item: [coin-invar]
+        amount: 27
+  coin-iridium-from-nugget:
+    results:
+      - item: coin-iridium
+    ingredients:
+      - item: nugget-iridium
+    energy: 2000
+    data:
+      input:
+        item: [nugget-iridium]
+        amount: 3
+      output:
+        item: [coin-iridium]
+  coin-iridium-from-ingot:
+    results:
+      - item: coin-iridium
+        suffix: x3
+    ingredients:
+      - item: ingot-iridium
+    energy: 4000
+    data:
+      input:
+        item: [ingot-iridium]
+      output:
+        item: [coin-iridium]
+        amount: 3
+  coin-iridium-from-block:
+    results:
+      - item: coin-iridium
+        suffix: x27
+    ingredients:
+      - item: storage-block-iridium
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-iridium]
+      output:
+        item: [coin-iridium]
+        amount: 27
+  coin-iron-from-nugget:
+    results:
+      - item: coin-iron
+    ingredients:
+      - item: nugget-iron
+    energy: 2000
+    data:
+      input:
+        item: [nugget-iron]
+        amount: 3
+      output:
+        item: [coin-iron]
+  coin-iron-from-ingot:
+    results:
+      - item: coin-iron
+        suffix: x3
+    ingredients:
+      - item: ingot-iron
+    energy: 4000
+    data:
+      input:
+        item: [ingot-iron]
+      output:
+        item: [coin-iron]
+        amount: 3
+  coin-iron-from-block:
+    results:
+      - item: coin-iron
+        suffix: x27
+    ingredients:
+      - item: storage-block-iron
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-iron]
+      output:
+        item: [coin-iron]
+        amount: 27
+  coin-lead-from-nugget:
+    results:
+      - item: coin-lead
+    ingredients:
+      - item: nugget-lead
+    energy: 2000
+    data:
+      input:
+        item: [nugget-lead]
+        amount: 3
+      output:
+        item: [coin-lead]
+  coin-lead-from-ingot:
+    results:
+      - item: coin-lead
+        suffix: x3
+    ingredients:
+      - item: ingot-lead
+    energy: 4000
+    data:
+      input:
+        item: [ingot-lead]
+      output:
+        item: [coin-lead]
+        amount: 3
+  coin-lead-from-block:
+    results:
+      - item: coin-lead
+        suffix: x27
+    ingredients:
+      - item: storage-block-lead
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-lead]
+      output:
+        item: [coin-lead]
+        amount: 27
+  coin-lumium-from-nugget:
+    results:
+      - item: coin-lumium
+    ingredients:
+      - item: nugget-lumium
+    energy: 2000
+    data:
+      input:
+        item: [nugget-lumium]
+        amount: 3
+      output:
+        item: [coin-lumium]
+  coin-lumium-from-ingot:
+    results:
+      - item: coin-lumium
+        suffix: x3
+    ingredients:
+      - item: ingot-lumium
+    energy: 4000
+    data:
+      input:
+        item: [ingot-lumium]
+      output:
+        item: [coin-lumium]
+        amount: 3
+  coin-lumium-from-block:
+    results:
+      - item: coin-lumium
+        suffix: x27
+    ingredients:
+      - item: storage-block-lumium
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-lumium]
+      output:
+        item: [coin-lumium]
+        amount: 27
+  coin-mithril-from-nugget:
+    results:
+      - item: coin-mithril
+    ingredients:
+      - item: nugget-mithril
+    energy: 2000
+    data:
+      input:
+        item: [nugget-mithril]
+        amount: 3
+      output:
+        item: [coin-mithril]
+  coin-mithril-from-ingot:
+    results:
+      - item: coin-mithril
+        suffix: x3
+    ingredients:
+      - item: ingot-mithril
+    energy: 4000
+    data:
+      input:
+        item: [ingot-mithril]
+      output:
+        item: [coin-mithril]
+        amount: 3
+  coin-mithril-from-block:
+    results:
+      - item: coin-mithril
+        suffix: x27
+    ingredients:
+      - item: storage-block-mithril
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-mithril]
+      output:
+        item: [coin-mithril]
+        amount: 27
+  coin-nickel-from-nugget:
+    results:
+      - item: coin-nickel
+    ingredients:
+      - item: nugget-nickel
+    energy: 2000
+    data:
+      input:
+        item: [nugget-nickel]
+        amount: 3
+      output:
+        item: [coin-nickel]
+  coin-nickel-from-ingot:
+    results:
+      - item: coin-nickel
+        suffix: x3
+    ingredients:
+      - item: ingot-nickel
+    energy: 4000
+    data:
+      input:
+        item: [ingot-nickel]
+      output:
+        item: [coin-nickel]
+        amount: 3
+  coin-nickel-from-block:
+    results:
+      - item: coin-nickel
+        suffix: x27
+    ingredients:
+      - item: storage-block-nickel
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-nickel]
+      output:
+        item: [coin-nickel]
+        amount: 27
+  coin-platinum-from-nugget:
+    results:
+      - item: coin-platinum
+    ingredients:
+      - item: nugget-platinum
+    energy: 2000
+    data:
+      input:
+        item: [nugget-platinum]
+        amount: 3
+      output:
+        item: [coin-platinum]
+  coin-platinum-from-ingot:
+    results:
+      - item: coin-platinum
+        suffix: x3
+    ingredients:
+      - item: ingot-platinum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-platinum]
+      output:
+        item: [coin-platinum]
+        amount: 3
+  coin-platinum-from-block:
+    results:
+      - item: coin-platinum
+        suffix: x27
+    ingredients:
+      - item: storage-block-platinum
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-platinum]
+      output:
+        item: [coin-platinum]
+        amount: 27
+  coin-signalum-from-nugget:
+    results:
+      - item: coin-signalum
+    ingredients:
+      - item: nugget-signalum
+    energy: 2000
+    data:
+      input:
+        item: [nugget-signalum]
+        amount: 3
+      output:
+        item: [coin-signalum]
+  coin-signalum-from-ingot:
+    results:
+      - item: coin-signalum
+        suffix: x3
+    ingredients:
+      - item: ingot-signalum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-signalum]
+      output:
+        item: [coin-signalum]
+        amount: 3
+  coin-signalum-from-block:
+    results:
+      - item: coin-signalum
+        suffix: x27
+    ingredients:
+      - item: storage-block-signalum
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-signalum]
+      output:
+        item: [coin-signalum]
+        amount: 27
+  coin-silver-from-nugget:
+    results:
+      - item: coin-silver
+    ingredients:
+      - item: nugget-silver
+    energy: 2000
+    data:
+      input:
+        item: [nugget-silver]
+        amount: 3
+      output:
+        item: [coin-silver]
+  coin-silver-from-ingot:
+    results:
+      - item: coin-silver
+        suffix: x3
+    ingredients:
+      - item: ingot-silver
+    energy: 4000
+    data:
+      input:
+        item: [ingot-silver]
+      output:
+        item: [coin-silver]
+        amount: 3
+  coin-silver-from-block:
+    results:
+      - item: coin-silver
+        suffix: x27
+    ingredients:
+      - item: storage-block-silver
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-silver]
+      output:
+        item: [coin-silver]
+        amount: 27
+  coin-steel-from-nugget:
+    results:
+      - item: coin-steel
+    ingredients:
+      - item: nugget-steel
+    energy: 2000
+    data:
+      input:
+        item: [nugget-steel]
+        amount: 3
+      output:
+        item: [coin-steel]
+  coin-steel-from-ingot:
+    results:
+      - item: coin-steel
+        suffix: x3
+    ingredients:
+      - item: ingot-steel
+    energy: 4000
+    data:
+      input:
+        item: [ingot-steel]
+      output:
+        item: [coin-steel]
+        amount: 3
+  coin-steel-from-block:
+    results:
+      - item: coin-steel
+        suffix: x27
+    ingredients:
+      - item: storage-block-steel
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-steel]
+      output:
+        item: [coin-steel]
+        amount: 27
+  coin-tin-from-nugget:
+    results:
+      - item: coin-tin
+    ingredients:
+      - item: nugget-tin
+    energy: 2000
+    data:
+      input:
+        item: [nugget-tin]
+        amount: 3
+      output:
+        item: [coin-tin]
+  coin-tin-from-ingot:
+    results:
+      - item: coin-tin
+        suffix: x3
+    ingredients:
+      - item: ingot-tin
+    energy: 4000
+    data:
+      input:
+        item: [ingot-tin]
+      output:
+        item: [coin-tin]
+        amount: 3
+  coin-tin-from-block:
+    results:
+      - item: coin-tin
+        suffix: x27
+    ingredients:
+      - item: storage-block-tin
+    energy: 24000
+    data:
+      input:
+        item: [storage-block-tin]
+      output:
+        item: [coin-tin]
+        amount: 27

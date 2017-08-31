@@ -1,0 +1,485 @@
+name: Compactor (Press)
+site: te-docs
+url: machines/compactor/
+with-energy: true
+recipes:
+  plate-aluminum-from-ingot:
+    results:
+      - item: plate-aluminum
+    ingredients:
+      - item: ingot-aluminum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-aluminum]
+      output:
+        item: [plate-aluminum]
+  plate-aluminum-from-block:
+    results:
+      - item: plate-aluminum
+        suffix: x9
+    ingredients:
+      - item: storage-block-aluminum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-aluminum]
+      output:
+        item: [plate-aluminum]
+        amount: 9
+  plate-bronze-from-ingot:
+    results:
+      - item: plate-bronze
+    ingredients:
+      - item: ingot-bronze
+    energy: 4000
+    data:
+      input:
+        item: [ingot-bronze]
+      output:
+        item: [plate-bronze]
+  plate-bronze-from-block:
+    results:
+      - item: plate-bronze
+        suffix: x9
+    ingredients:
+      - item: storage-block-bronze
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-bronze]
+      output:
+        item: [plate-bronze]
+        amount: 9
+  plate-constantan-from-ingot:
+    results:
+      - item: plate-constantan
+    ingredients:
+      - item: ingot-constantan
+    energy: 4000
+    data:
+      input:
+        item: [ingot-constantan]
+      output:
+        item: [plate-constantan]
+  plate-constantan-from-block:
+    results:
+      - item: plate-constantan
+        suffix: x9
+    ingredients:
+      - item: storage-block-constantan
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-constantan]
+      output:
+        item: [plate-constantan]
+        amount: 9
+  plate-copper-from-ingot:
+    results:
+      - item: plate-copper
+    ingredients:
+      - item: ingot-copper
+    energy: 4000
+    data:
+      input:
+        item: [ingot-copper]
+      output:
+        item: [plate-copper]
+  plate-copper-from-block:
+    results:
+      - item: plate-copper
+        suffix: x9
+    ingredients:
+      - item: storage-block-copper
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-copper]
+      output:
+        item: [plate-copper]
+        amount: 9
+  plate-electrum-from-ingot:
+    results:
+      - item: plate-electrum
+    ingredients:
+      - item: ingot-electrum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-electrum]
+      output:
+        item: [plate-electrum]
+  plate-electrum-from-block:
+    results:
+      - item: plate-electrum
+        suffix: x9
+    ingredients:
+      - item: storage-block-electrum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-electrum]
+      output:
+        item: [plate-electrum]
+        amount: 9
+  plate-enderium-from-ingot:
+    results:
+      - item: plate-enderium
+    ingredients:
+      - item: ingot-enderium
+    energy: 4000
+    data:
+      input:
+        item: [ingot-enderium]
+      output:
+        item: [plate-enderium]
+  plate-enderium-from-block:
+    results:
+      - item: plate-enderium
+        suffix: x9
+    ingredients:
+      - item: storage-block-enderium
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-enderium]
+      output:
+        item: [plate-enderium]
+        amount: 9
+  plate-fluxed-electrum-from-ingot:
+    results:
+      - item: plate-fluxed-electrum
+    ingredients:
+      - item: ingot-fluxed-electrum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-fluxed-electrum]
+      output:
+        item: [plate-fluxed-electrum]
+  plate-fluxed-electrum-from-block:
+    results:
+      - item: plate-fluxed-electrum
+        suffix: x9
+    ingredients:
+      - item: storage-block-fluxed-electrum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-fluxed-electrum]
+      output:
+        item: [plate-fluxed-electrum]
+        amount: 9
+  plate-gold-from-ingot:
+    results:
+      - item: plate-gold
+    ingredients:
+      - item: ingot-gold
+    energy: 4000
+    data:
+      input:
+        item: [ingot-gold]
+      output:
+        item: [plate-gold]
+  plate-gold-from-block:
+    results:
+      - item: plate-gold
+        suffix: x9
+    ingredients:
+      - item: storage-block-gold
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-gold]
+      output:
+        item: [plate-gold]
+        amount: 9
+  plate-invar-from-ingot:
+    results:
+      - item: plate-invar
+    ingredients:
+      - item: ingot-invar
+    energy: 4000
+    data:
+      input:
+        item: [ingot-invar]
+      output:
+        item: [plate-invar]
+  plate-invar-from-block:
+    results:
+      - item: plate-invar
+        suffix: x9
+    ingredients:
+      - item: storage-block-invar
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-invar]
+      output:
+        item: [plate-invar]
+        amount: 9
+  plate-iridium-from-ingot:
+    results:
+      - item: plate-iridium
+    ingredients:
+      - item: ingot-iridium
+    energy: 4000
+    data:
+      input:
+        item: [ingot-iridium]
+      output:
+        item: [plate-iridium]
+  plate-iridium-from-block:
+    results:
+      - item: plate-iridium
+        suffix: x9
+    ingredients:
+      - item: storage-block-iridium
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-iridium]
+      output:
+        item: [plate-iridium]
+        amount: 9
+  plate-iron-from-ingot:
+    results:
+      - item: plate-iron
+    ingredients:
+      - item: ingot-iron
+    energy: 4000
+    data:
+      input:
+        item: [ingot-iron]
+      output:
+        item: [plate-iron]
+  plate-iron-from-block:
+    results:
+      - item: plate-iron
+        suffix: x9
+    ingredients:
+      - item: storage-block-iron
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-iron]
+      output:
+        item: [plate-iron]
+        amount: 9
+  plate-lead-from-ingot:
+    results:
+      - item: plate-lead
+    ingredients:
+      - item: ingot-lead
+    energy: 4000
+    data:
+      input:
+        item: [ingot-lead]
+      output:
+        item: [plate-lead]
+  plate-lead-from-block:
+    results:
+      - item: plate-lead
+        suffix: x9
+    ingredients:
+      - item: storage-block-lead
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-lead]
+      output:
+        item: [plate-lead]
+        amount: 9
+  plate-lumium-from-ingot:
+    results:
+      - item: plate-lumium
+    ingredients:
+      - item: ingot-lumium
+    energy: 4000
+    data:
+      input:
+        item: [ingot-lumium]
+      output:
+        item: [plate-lumium]
+  plate-lumium-from-block:
+    results:
+      - item: plate-lumium
+        suffix: x9
+    ingredients:
+      - item: storage-block-lumium
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-lumium]
+      output:
+        item: [plate-lumium]
+        amount: 9
+  plate-mithril-from-ingot:
+    results:
+      - item: plate-mithril
+    ingredients:
+      - item: ingot-mithril
+    energy: 4000
+    data:
+      input:
+        item: [ingot-mithril]
+      output:
+        item: [plate-mithril]
+  plate-mithril-from-block:
+    results:
+      - item: plate-mithril
+        suffix: x9
+    ingredients:
+      - item: storage-block-mithril
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-mithril]
+      output:
+        item: [plate-mithril]
+        amount: 9
+  plate-nickel-from-ingot:
+    results:
+      - item: plate-nickel
+    ingredients:
+      - item: ingot-nickel
+    energy: 4000
+    data:
+      input:
+        item: [ingot-nickel]
+      output:
+        item: [plate-nickel]
+  plate-nickel-from-block:
+    results:
+      - item: plate-nickel
+        suffix: x9
+    ingredients:
+      - item: storage-block-nickel
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-nickel]
+      output:
+        item: [plate-nickel]
+        amount: 9
+  plate-platinum-from-ingot:
+    results:
+      - item: plate-platinum
+    ingredients:
+      - item: ingot-platinum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-platinum]
+      output:
+        item: [plate-platinum]
+  plate-platinum-from-block:
+    results:
+      - item: plate-platinum
+        suffix: x9
+    ingredients:
+      - item: storage-block-platinum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-platinum]
+      output:
+        item: [plate-platinum]
+        amount: 9
+  plate-signalum-from-ingot:
+    results:
+      - item: plate-signalum
+    ingredients:
+      - item: ingot-signalum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-signalum]
+      output:
+        item: [plate-signalum]
+  plate-signalum-from-block:
+    results:
+      - item: plate-signalum
+        suffix: x9
+    ingredients:
+      - item: storage-block-signalum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-signalum]
+      output:
+        item: [plate-signalum]
+        amount: 9
+  plate-silver-from-ingot:
+    results:
+      - item: plate-silver
+    ingredients:
+      - item: ingot-silver
+    energy: 4000
+    data:
+      input:
+        item: [ingot-silver]
+      output:
+        item: [plate-silver]
+  plate-silver-from-block:
+    results:
+      - item: plate-silver
+        suffix: x9
+    ingredients:
+      - item: storage-block-silver
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-silver]
+      output:
+        item: [plate-silver]
+        amount: 9
+  plate-steel-from-ingot:
+    results:
+      - item: plate-steel
+    ingredients:
+      - item: ingot-steel
+    energy: 4000
+    data:
+      input:
+        item: [ingot-steel]
+      output:
+        item: [plate-steel]
+  plate-steel-from-block:
+    results:
+      - item: plate-steel
+        suffix: x9
+    ingredients:
+      - item: storage-block-steel
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-steel]
+      output:
+        item: [plate-steel]
+        amount: 9
+  plate-tin-from-ingot:
+    results:
+      - item: plate-tin
+    ingredients:
+      - item: ingot-tin
+    energy: 4000
+    data:
+      input:
+        item: [ingot-tin]
+      output:
+        item: [plate-tin]
+  plate-tin-from-block:
+    results:
+      - item: plate-tin
+        suffix: x9
+    ingredients:
+      - item: storage-block-tin
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-tin]
+      output:
+        item: [plate-tin]
+        amount: 9
