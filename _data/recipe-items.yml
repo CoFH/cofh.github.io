@@ -2983,6 +2983,11 @@ mushroom-red:
   sprite: [3, 40]
   site: mc-wiki
   url: Mushroom
+mushroom-stew:
+  name: Mushroom Stew
+  sprite: [12, 58]
+  site: mc-wiki
+  url: Mushroom_Stew
 mycelium:
   name: Mycelium
   sprite: [3, 41]
@@ -4358,6 +4363,16 @@ soul-sand:
   sprite: [10, 41]
   site: mc-wiki
   url: Soul_Sand
+sponge:
+  name: Sponge
+  sprite: [13, 58]
+  site: mc-wiki
+  url: Sponge
+sponge-wet:
+  name: Wet Sponge
+  sprite: [14, 58]
+  site: mc-wiki
+  url: Sponge
 steak:
   name: Steak
   sprite: [14, 54]

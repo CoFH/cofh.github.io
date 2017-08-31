@@ -1,0 +1,16 @@
+name: Energetic Infuser
+site: te-docs
+url: machines/energetic-infuser/
+with-energy: true
+recipes:
+  phyto-gro-fluxed:
+    results:
+      - item: phyto-gro-fluxed
+    ingredients:
+      - item: phyto-gro-rich
+    energy: 8000
+    data:
+      input:
+        item: [phyto-gro-rich]
+      output:
+        item: [phyto-gro-fluxed]

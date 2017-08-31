@@ -20,7 +20,7 @@ recipes:
         fluid: tree-oil
         amount: 50
       item-output:
-        item: rosin
+        item: [rosin]
       item-chance: 75
   naphtha-from-coal:
     results:
@@ -39,7 +39,7 @@ recipes:
         fluid: naphtha
         amount: 50
       item-output:
-        item: tar
+        item: [tar]
       item-chance: 75
   naphtha-from-crude-oil:
     results:
@@ -58,7 +58,7 @@ recipes:
         fluid: naphtha
         amount: 100
       item-output:
-        item: tar
+        item: [tar]
       item-chance: 50
   refined-fuel:
     results:
@@ -77,5 +77,5 @@ recipes:
         fluid: refined-fuel
         amount: 100
       item-output:
-        item: sulfur
+        item: [sulfur]
       item-chance: 50

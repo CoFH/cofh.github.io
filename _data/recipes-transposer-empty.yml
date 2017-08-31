@@ -1,0 +1,50 @@
+name: Fluid Transposer
+site: te-docs
+url: machines/fluid-transposer/
+with-energy: true
+recipes:
+  mushroom-stew:
+    results:
+      - fluid: mushroom-stew
+        fluid-amount: 250
+      - item: bowl
+    ingredients:
+      - item: mushroom-stew
+    energy: 200
+    data:
+      input:
+        item: [mushroom-stew]
+      fluid-output:
+        fluid: mushroom-stew
+        amount: 250
+      item-output:
+        item: [bowl]
+  water-from-cactus:
+    results:
+      - fluid: water
+        fluid-amount: 500
+    ingredients:
+      - item: cactus
+    energy: 2400
+    data:
+      input:
+        item: [cactus]
+      fluid-output:
+        fluid: water
+        amount: 500
+  water-from-sponge:
+    results:
+      - fluid: water
+        fluid-amount: 1000
+      - item: sponge
+    ingredients:
+      - item: sponge-wet
+    energy: 4000
+    data:
+      input:
+        item: [sponge-wet]
+      fluid-output:
+        fluid: water
+        amount: 1000
+      item-output:
+        item: [sponge]

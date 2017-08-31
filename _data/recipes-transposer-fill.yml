@@ -1,0 +1,505 @@
+name: Fluid Transposer
+site: te-docs
+url: machines/fluid-transposer/
+with-energy: true
+recipes:
+  basalz-powder:
+    results:
+      - item: basalz-powder
+    ingredients:
+      - item: dust-obsidian
+      - fluid: redstone
+        fluid-amount: 200
+    energy: 4000
+    data:
+      item-input:
+        item: [dust-obsidian]
+      fluid-input:
+        fluid: redstone
+        amount: 200
+      output:
+        item: [basalz-powder]
+  blaze-powder:
+    results:
+      - item: blaze-powder
+    ingredients:
+      - item: glowstone-dust
+      - fluid: redstone
+        fluid-amount: 200
+    energy: 4000
+    data:
+      item-input:
+        item: [glowstone-dust]
+      fluid-input:
+        fluid: redstone
+        amount: 200
+      output:
+        item: [blaze-powder]
+  blitz-powder:
+    results:
+      - item: blitz-powder
+    ingredients:
+      - item: sand
+      - fluid: redstone
+        fluid-amount: 200
+    energy: 4000
+    data:
+      item-input:
+        item: [sand]
+      fluid-input:
+        fluid: redstone
+        amount: 200
+      output:
+        item: [blitz-powder]
+  blizz-powder:
+    results:
+      - item: blizz-powder
+    ingredients:
+      - item: snowball
+      - fluid: redstone
+        fluid-amount: 200
+    energy: 4000
+    data:
+      item-input:
+        item: [snowball]
+      fluid-input:
+        fluid: redstone
+        amount: 200
+      output:
+        item: [blizz-powder]
+  dust-fluxed-electrum:
+    results:
+      - item: dust-fluxed-electrum
+    ingredients:
+      - item: dust-electrum
+      - fluid: redstone
+        fluid-amount: 500
+    energy: 400
+    data:
+      item-input:
+        item: [dust-electrum]
+      fluid-input:
+        fluid: redstone
+        amount: 500
+      output:
+        item: [dust-fluxed-electrum]
+  end-stone:
+    results:
+      - item: end-stone
+    ingredients:
+      - item: sandstone
+      - fluid: ender
+        fluid-amount: 250
+    energy: 4000
+    data:
+      item-input:
+        item: [sandstone]
+      fluid-input:
+        fluid: ender
+        amount: 250
+      output:
+        item: [end-stone]
+  ender-pearl-from-clathrate:
+    results:
+      - item: ender-pearl
+    ingredients:
+      - item: clathrate-ender
+      - fluid: cryotheum
+        fluid-amount: 200
+    energy: 2000
+    data:
+      item-input:
+        item: [clathrate-ender]
+      fluid-input:
+        fluid: cryotheum
+        amount: 200
+      output:
+        item: [ender-pearl]
+  ender-pearl-from-fluid:
+    results:
+      - item: ender-pearl
+    ingredients:
+      - item: dust-cryotheum
+      - fluid: ender
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [dust-cryotheum]
+      fluid-input:
+        fluid: ender
+        amount: 1000
+      output:
+        item: [ender-pearl]
+        amount: 4
+  flux-crystal:
+    results:
+      - item: flux-crystal
+    ingredients:
+      - item: diamond
+      - fluid: redstone
+        fluid-amount: 500
+    energy: 400
+    data:
+      item-input:
+        item: [diamond]
+      fluid-input:
+        fluid: redstone
+        amount: 500
+      output:
+        item: [flux-crystal]
+  fluxduct-reinforced:
+    results:
+      - item: fluxduct-reinforced
+    ingredients:
+      - item: fluxduct-reinforced-empty
+      - fluid: redstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [fluxduct-reinforced-empty]
+      fluid-input:
+        fluid: redstone
+        amount: 200
+      output:
+        item: [fluxduct-reinforced]
+  fluxduct-signalum:
+    results:
+      - item: fluxduct-signalum
+    ingredients:
+      - item: fluxduct-signalum-empty
+      - fluid: redstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [fluxduct-signalum-empty]
+      fluid-input:
+        fluid: redstone
+        amount: 200
+      output:
+        item: [fluxduct-signalum]
+  fluxduct-resonant:
+    results:
+      - item: fluxduct-resonant
+    ingredients:
+      - item: fluxduct-resonant-empty
+      - fluid: redstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [fluxduct-resonant-empty]
+      fluid-input:
+        fluid: redstone
+        amount: 200
+      output:
+        item: [fluxduct-resonant]
+  fluxduct-super:
+    results:
+      - item: fluxduct-super
+    ingredients:
+      - item: fluxduct-super-empty
+      - fluid: cryotheum
+        fluid-amount: 500
+    energy: 4000
+    data:
+      item-input:
+        item: [fluxduct-super-empty]
+      fluid-input:
+        fluid: cryotheum
+        amount: 500
+      output:
+        item: [fluxduct-super]
+  glowstone-dust-from-clathrate:
+    results:
+      - item: glowstone-dust
+    ingredients:
+      - item: clathrate-glowstone
+      - fluid: cryotheum
+        fluid-amount: 200
+    energy: 2000
+    data:
+      item-input:
+        item: [clathrate-glowstone]
+      fluid-input:
+        fluid: cryotheum
+        amount: 200
+      output:
+        item: [glowstone-dust]
+  glowstone-dust-from-fluid:
+    results:
+      - item: glowstone-dust
+    ingredients:
+      - item: dust-cryotheum
+      - fluid: glowstone
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [dust-cryotheum]
+      fluid-input:
+        fluid: glowstone
+        amount: 1000
+      output:
+        item: [glowstone-dust]
+        amount: 4
+  ice:
+    results:
+      - item: ice
+    ingredients:
+      - item: dust-cryotheum
+      - fluid: water
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [dust-cryotheum]
+      fluid-input:
+        fluid: water
+        amount: 1000
+      output:
+        item: [ice]
+  itemduct-fast:
+    results:
+      - item: itemduct-fast
+    ingredients:
+      - item: itemduct
+      - fluid: glowstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [itemduct]
+      fluid-input:
+        fluid: glowstone
+        amount: 200
+      output:
+        item: [itemduct-fast]
+  itemduct-fast-opaque:
+    results:
+      - item: itemduct-fast-opaque
+    ingredients:
+      - item: itemduct-opaque
+      - fluid: glowstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [itemduct-opaque]
+      fluid-input:
+        fluid: glowstone
+        amount: 200
+      output:
+        item: [itemduct-fast-opaque]
+  itemduct-energy-fast:
+    results:
+      - item: itemduct-energy-fast
+    ingredients:
+      - item: itemduct-energy
+      - fluid: glowstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [itemduct-energy]
+      fluid-input:
+        fluid: glowstone
+        amount: 200
+      output:
+        item: [itemduct-energy-fast]
+  itemduct-energy-fast-opaque:
+    results:
+      - item: itemduct-energy-fast-opaque
+    ingredients:
+      - item: itemduct-energy-opaque
+      - fluid: glowstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [itemduct-energy-opaque]
+      fluid-input:
+        fluid: glowstone
+        amount: 200
+      output:
+        item: [itemduct-energy-fast-opaque]
+  moss-stone:
+    results:
+      - item: moss-stone
+    ingredients:
+      - item: cobblestone
+      - fluid: water
+        fluid-amount: 250
+    energy: 4000
+    data:
+      item-input:
+        item: [cobblestone]
+      fluid-input:
+        fluid: water
+        amount: 250
+      output:
+        item: [moss-stone]
+  mushroom-stew:
+    results:
+      - item: mushroom-stew
+    ingredients:
+      - item: bowl
+      - fluid: mushroom-stew
+        fluid-amount: 250
+    energy: 200
+    data:
+      item-input:
+        item: [bowl]
+      fluid-input:
+        fluid: mushroom-stew
+        amount: 250
+      output:
+        item: [mushroom-stew]
+  nether-brick:
+    results:
+      - item: nether-brick-item
+    ingredients:
+      - item: brick
+      - fluid: lava
+        fluid-amount: 250
+    energy: 4000
+    data:
+      item-input:
+        item: [brick]
+      fluid-input:
+        fluid: lava
+        amount: 250
+      output:
+        item: [nether-brick-item]
+  packed-ice:
+    results:
+      - item: packed-ice
+    ingredients:
+      - item: ice
+      - fluid: cryotheum
+        fluid-amount: 200
+    energy: 400
+    data:
+      item-input:
+        item: [ice]
+      fluid-input:
+        fluid: cryotheum
+        amount: 200
+      output:
+        item: [packed-ice]
+  phyto-gro-rich:
+    results:
+      - item: phyto-gro-rich
+    ingredients:
+      - item: phyto-gro
+      - fluid: sap
+        fluid-amount: 500
+    energy: 2000
+    data:
+      item-input:
+        item: [phyto-gro]
+      fluid-input:
+        fluid: sap
+        amount: 500
+      output:
+        item: [phyto-gro-rich]
+  redstone-from-clathrate:
+    results:
+      - item: redstone
+    ingredients:
+      - item: clathrate-redstone
+      - fluid: cryotheum
+        fluid-amount: 200
+    energy: 2000
+    data:
+      item-input:
+        item: [clathrate-redstone]
+      fluid-input:
+        fluid: cryotheum
+        amount: 200
+      output:
+        item: [redstone]
+        amount: 2
+  redstone-from-fluid:
+    results:
+      - item: redstone
+    ingredients:
+      - item: dust-cryotheum
+      - fluid: redstone
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [dust-cryotheum]
+      fluid-input:
+        fluid: redstone
+        amount: 1000
+      output:
+        item: [redstone]
+        amount: 10
+  sponge-wet:
+    results:
+      - item: sponge-wet
+    ingredients:
+      - item: sponge
+      - fluid: water
+        fluid-amount: 1000
+    energy: 4000
+    data:
+      item-input:
+        item: [sponge]
+      fluid-input:
+        fluid: water
+        amount: 1000
+      output:
+        item: [sponge-wet]
+  stone-bricks-mossy:
+    results:
+      - item: stone-bricks-mossy
+    ingredients:
+      - item: stone-bricks
+      - fluid: water
+        fluid-amount: 250
+    energy: 4000
+    data:
+      item-input:
+        item: [stone-bricks]
+      fluid-input:
+        fluid: water
+        amount: 250
+      output:
+        item: [stone-bricks-mossy]
+  viaduct:
+    results:
+      - item: viaduct
+    ingredients:
+      - item: viaduct-frame
+      - fluid: aerotheum
+        fluid-amount: 100
+    energy: 800
+    data:
+      item-input:
+        item: [viaduct-frame]
+      fluid-input:
+        fluid: aerotheum
+        amount: 100
+      output:
+        item: [viaduct]
+  viaduct-long-range-linking:
+    results:
+      - item: viaduct-long-range-linking
+    ingredients:
+      - item: viaduct
+      - fluid: ender
+        fluid-amount: 1000
+    energy: 8000
+    data:
+      item-input:
+        item: [viaduct]
+      fluid-input:
+        fluid: ender
+        amount: 1000
+      output:
+        item: [viaduct-long-range-linking]
