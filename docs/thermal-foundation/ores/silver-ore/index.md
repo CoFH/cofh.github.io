@@ -50,13 +50,13 @@ Usage
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
-### Flux Anodizers ingredient
+### Redstone Furnace with Flux Anodizers ingredient
 {% include recipe-table.html type='redstone-furnace-ore' recipes=page.usage-recipes.redstone-furnace-ore %}
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Tectonic Initiator ingredient
+### Pulverizer with Tectonic Initiator ingredient
 {% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Induction Smelter ingredient

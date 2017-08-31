@@ -45,7 +45,7 @@ Iridium ore cannot be processed by
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Tectonic Initiator ingredient
+### Pulverizer with Tectonic Initiator ingredient
 {% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Induction Smelter ingredient
