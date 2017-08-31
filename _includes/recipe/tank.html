@@ -4,16 +4,16 @@
 
 {% capture height %}{{include.data.amount | times: 100 | divided_by: include.size}}{% endcapture %}
 
-<div style="position: absolute; top: {{ include.top }}px; left: {{ include.left }}px; width: 32px; height: 120px">
+<div style="position: absolute; top: {{ include.top }}px; left: {{ include.left }}px; width: 32px; height: {{include.height | default: 120}}px">
     <a href="{{ fluid_site.url }}{{ fluid_data.url }}">
-        <div style="position: relative; width: 32px; height: 120px" title="{{ fluid_data.name }}<br />{{ include.data.amount }} mB" data-uk-tooltip="{pos: 'top', offset: 4}">
+        <div style="position: relative; width: 32px; height: {{include.height | default: 120}}px" title="{{ fluid_data.name }}<br />{{ include.data.amount }} mB" data-uk-tooltip="{pos: 'top', offset: 4}">
             <div style="position: absolute; bottom: 0; width: 32px; height: {{height}}%; background-image: url('/assets/images/recipe/fluid-sprites/{{ fluid_name }}.gif')"></div>
         </div>
     </a>
 </div>
 
 <div style="
-    position: absolute; top: {{include.top}}px; left: {{include.left}}px; width: 32px; height: 120px;
+    position: absolute; top: {{include.top}}px; left: {{include.left}}px; width: 32px; height: {{include.height | default: 120}}px;
     background: url('/assets/images/recipe/types/{{include.recipe_type}}.png'); background-position: -{{include.gauge_sprite_left}}px -{{include.gauge_sprite_top}}px;
     pointer-events: none;
 "></div>
