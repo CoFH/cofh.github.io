@@ -2877,7 +2877,7 @@ recipes:
             item-group: hardened-glass
           - item: [redstone]
       result:
-        item: [flux-capacitor-signalum]
+        item: [flux-capacitor-reinforced]
         amount: 1
     note: >
       Stored energy is retained.
