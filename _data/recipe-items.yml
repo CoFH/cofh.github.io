@@ -2847,7 +2847,7 @@ machine-charger:
   name: Energetic Infuser
   sprite: [11, 26]
   site: te-docs
-  url: machines/compactor/
+  url: machines/energetic-infuser/
 machine-compactor:
   name: Compactor
   sprite: [7, 26]
