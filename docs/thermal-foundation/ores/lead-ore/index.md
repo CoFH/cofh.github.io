@@ -47,23 +47,23 @@ drops itself as an item.
 Usage
 -----
 
-### Smelting ingredient
+### Smelting
 {% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
-### Crafting ingredient
+### Crafting
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
-### Redstone Furnace with Flux Anodizers ingredient
+### Redstone Furnace with Flux Anodizers
 {% include recipe-table.html type='redstone-furnace-ore' recipes=page.usage-recipes.redstone-furnace-ore %}
 
-### Pulverizer ingredient
+### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Pulverizer with Tectonic Initiator ingredient
+### Pulverizer with Tectonic Initiator
 {% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
-### Induction Smelter ingredient
+### Induction Smelter
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
 
-### Induction Smelter with Pyro-Concentrator ingredient
+### Induction Smelter with Pyro-Concentrator
 {% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}

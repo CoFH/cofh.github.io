@@ -44,11 +44,11 @@ cannot be picked up and eventually disappears.
 Usage
 -----
 
-### Pulverizer ingredient
+### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Pulverizer with Tectonic Initiator ingredient
+### Pulverizer with Tectonic Initiator
 {% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
-### Magma Crucible ingredient
+### Magma Crucible
 {% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}

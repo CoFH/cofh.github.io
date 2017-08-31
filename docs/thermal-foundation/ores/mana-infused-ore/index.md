@@ -43,17 +43,17 @@ Usage
 Mana infused ore cannot be processed by
 [smelting](https://minecraft.gamepedia.com/Smelting).
 
-### Crafting ingredient
+### Crafting
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
-### Pulverizer ingredient
+### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Pulverizer with Tectonic Initiator ingredient
+### Pulverizer with Tectonic Initiator
 {% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
-### Induction Smelter ingredient
+### Induction Smelter
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
 
-### Induction Smelter with Pyro-Concentrator ingredient
+### Induction Smelter with Pyro-Concentrator
 {% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}
