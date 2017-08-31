@@ -5,7 +5,7 @@ usage-recipes:
     - fluid-ore-processing-redstone
   pulverizer-petrotheum:
     - fluid-ore-processing-redstone
-  magma-crucible:
+  crucible:
     - fluid-ore-processing-redstone
 ---
 
@@ -49,4 +49,4 @@ Usage
 {% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Magma Crucible
-{% include recipe-table.html type='magma-crucible' recipes=page.usage-recipes.magma-crucible %}
+{% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}

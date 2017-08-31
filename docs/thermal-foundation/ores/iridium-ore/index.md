@@ -9,11 +9,11 @@ usage-recipes:
     - ore-processing-iridium
   pulverizer-petrotheum:
     - ore-processing-iridium
-  induction-smelter:
+  smelter:
     - ore-processing-sand-iridium
     - ore-processing-rich-slag-iridium
     - ore-processing-cinnabar-iridium
-  induction-smelter-pyrotheum:
+  smelter-pyrotheum:
     - ore-processing-sand-iridium
     - ore-processing-rich-slag-iridium
     - ore-processing-cinnabar-iridium
@@ -53,7 +53,7 @@ Iridium ore cannot be processed by
 {% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Induction Smelter
-{% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
 
 ### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}
+{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}

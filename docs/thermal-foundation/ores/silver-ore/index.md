@@ -13,11 +13,11 @@ usage-recipes:
     - ore-processing-silver
   pulverizer-petrotheum:
     - ore-processing-silver
-  induction-smelter:
+  smelter:
     - ore-processing-sand-silver
     - ore-processing-rich-slag-silver
     - ore-processing-cinnabar-silver
-  induction-smelter-pyrotheum:
+  smelter-pyrotheum:
     - ore-processing-sand-silver
     - ore-processing-rich-slag-silver
     - ore-processing-cinnabar-silver
@@ -64,7 +64,7 @@ Usage
 {% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Induction Smelter
-{% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
 
 ### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}
+{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}

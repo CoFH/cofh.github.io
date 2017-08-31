@@ -2,7 +2,7 @@
 title: Hardened Glass
 redirect_from: /docs/thermal-expansion/materials/hardened-glass/
 recipes:
-  induction-smelter:
+  smelter:
     - hardened-glass-using-ingot
     - hardened-glass-using-dust
     - hardened-glass-copper
@@ -40,7 +40,7 @@ hammer](/docs/thermal-foundation/items/crescent-hammer/) or by breaking it with
 a [Silk Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
 ### Induction Smelter
-{% include recipe-table.html type='induction-smelter' recipes=page.recipes.induction-smelter %}
+{% include recipe-table.html type='smelter' recipes=page.recipes.smelter %}
 
 
 Usage

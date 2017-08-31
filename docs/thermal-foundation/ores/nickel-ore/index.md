@@ -13,11 +13,11 @@ usage-recipes:
     - ore-processing-nickel
   pulverizer-petrotheum:
     - ore-processing-nickel
-  induction-smelter:
+  smelter:
     - ore-processing-sand-nickel
     - ore-processing-rich-slag-nickel
     - ore-processing-cinnabar-nickel
-  induction-smelter-pyrotheum:
+  smelter-pyrotheum:
     - ore-processing-sand-nickel
     - ore-processing-rich-slag-nickel
     - ore-processing-cinnabar-nickel
@@ -59,7 +59,7 @@ Usage
 {% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Induction Smelter
-{% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
 
 ### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}
+{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
