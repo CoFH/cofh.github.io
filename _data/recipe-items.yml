@@ -378,6 +378,16 @@ bed-yellow:
   sprite: [15, 51]
   site: mc-wiki
   url: Bed
+beetroot:
+  name: Beetroot
+  sprite: [5, 57]
+  site: mc-wiki
+  url: Beetroot
+beetroot-seeds:
+  name: Beetroot Seeds
+  sprite: [6, 57]
+  site: mc-wiki
+  url: Beetroot_Seeds
 bitumen:
   name: Bitumen
   sprite: [1, 8]
@@ -703,6 +713,11 @@ cactus-green:
   sprite: [2, 5]
   site: mc-wiki
   url: Cactus_Green
+carrot:
+  name: Carrot
+  sprite: [7, 57]
+  site: mc-wiki
+  url: Carrot
 charcoal:
   name: Charcoal
   sprite: [8, 42]
@@ -793,6 +808,16 @@ chestplate-tin:
   sprite: [5, 37]
   site: tf-docs
   url: equipment/armor/
+chorus-flower:
+  name: Chorus Flower
+  sprite: [4, 58]
+  site: mc-wiki
+  url: Chorus_Flower
+chorus-plant:
+  name: Chorus Plant
+  sprite: [5, 58]
+  site: mc-wiki
+  url: Chorus_Plant
 cinnabar:
   name: Cinnabar
   sprite: [0, 8]
@@ -2833,6 +2858,11 @@ lilac:
   sprite: [5, 44]
   site: mc-wiki
   url: Flower
+lily-pad:
+  name: Lily Pad
+  sprite: [6, 58]
+  site: mc-wiki
+  url: Lily_Pad
 lime-dye:
   name: Lime Dye
   sprite: [10, 5]
@@ -2923,6 +2953,11 @@ melon:
   sprite: [14, 53]
   site: mc-wiki
   url: Melon_(block)
+melon-seeds:
+  name: Melon Seeds
+  sprite: [8, 57]
+  site: mc-wiki
+  url: Melon_Seeds
 melon-slice:
   name: Melon
   sprite: [7, 51]
@@ -3003,6 +3038,11 @@ nether-quartz-stairs:
   sprite: [2, 49]
   site: mc-wiki
   url: Quartz_Stairs
+nether-wart:
+  name: Nether Wart
+  sprite: [9, 57]
+  site: mc-wiki
+  url: Nether_Wart
 netherrack:
   name: Netherrack
   sprite: [3, 49]
@@ -3508,6 +3548,11 @@ podzol:
   sprite: [7, 41]
   site: mc-wiki
   url: Podzol
+poisonous-potato:
+  name: Poisonous Potato
+  sprite: [10, 57]
+  site: mc-wiki
+  url: Poisonous_Potato
 poppy:
   name: Poppy
   sprite: [13, 43]
@@ -3548,6 +3593,16 @@ prismarine-shard:
   sprite: [4, 45]
   site: mc-wiki
   url: Prismarine_Shard
+pumpkin:
+  name: Pumpkin
+  sprite: [7, 58]
+  site: mc-wiki
+  url: Pumpkin
+pumpkin-seeds:
+  name: Pumpkin Seeds
+  sprite: [11, 57]
+  site: mc-wiki
+  url: Pumpkin_Seeds
 purple-dye:
   name: Purple Dye
   sprite: [5, 5]
@@ -3823,6 +3878,36 @@ sandstone-stairs:
   sprite: [8, 49]
   site: mc-wiki
   url: Sandstone_Stairs
+sapling-acacia:
+  name: Acacia Sapling
+  sprite: [12, 57]
+  site: mc-wiki
+  url: Sapling
+sapling-birch:
+  name: Birch Sapling
+  sprite: [13, 57]
+  site: mc-wiki
+  url: Sapling
+sapling-dark-oak:
+  name: Dark Oak Sapling
+  sprite: [14, 57]
+  site: mc-wiki
+  url: Sapling
+sapling-jungle:
+  name: Jungle Sapling
+  sprite: [15, 57]
+  site: mc-wiki
+  url: Sapling
+sapling-oak:
+  name: Oak Sapling
+  sprite: [0, 58]
+  site: mc-wiki
+  url: Sapling
+sapling-spruce:
+  name: Spruce Sapling
+  sprite: [1, 58]
+  site: mc-wiki
+  url: Sapling
 satchel-basic:
   name: Satchel (Basic)
   sprite: [6, 30]
@@ -3863,6 +3948,11 @@ schematic:
   sprite: [9, 11]
   site: tf-docs
   url: items/schematic/
+seeds:
+  name: Seeds
+  sprite: [2, 58]
+  site: mc-wiki
+  url: Seeds
 servo-basic:
   name: Servo
   sprite: [13, 8]
@@ -4573,6 +4663,11 @@ viaduct-long-range-linking:
   sprite: [10, 32]
   site: td-docs
   url: ducts/viaducts/
+vines:
+  name: Vines
+  sprite: [8, 58]
+  site: mc-wiki
+  url: Vines
 watering-can-basic:
   name: Watering Can (Basic)
   sprite: [4, 34]
@@ -4598,6 +4693,11 @@ watering-can-resonant:
   sprite: [8, 34]
   site: tc-docs
   url: items/watering-can/
+wheat:
+  name: Wheat
+  sprite: [3, 58]
+  site: mc-wiki
+  url: Wheat
 white-tulip:
   name: White Tulip
   sprite: [1, 44]

@@ -1,0 +1,68 @@
+name: Nether Substrate
+site: te-docs
+url: machines/phytogenic-insolator/
+with-energy: true
+recipes:
+  nether-wart:
+    results:
+      - item: nether-wart
+        suffix: x2
+    ingredients:
+      - item: nether-wart
+      - item: phyto-gro
+      - fluid: water
+        fluid-amount: 500
+    energy: 5000
+    data:
+      primary-input:
+        item: [phyto-gro]
+      secondary-input:
+        item: [nether-wart]
+      fluid-input:
+        fluid: water
+        amount: 500
+      primary-output:
+        item: [nether-wart]
+        amount: 2
+  nether-wart-rich:
+    results:
+      - item: nether-wart
+        suffix: x6
+    ingredients:
+      - item: nether-wart
+      - item: phyto-gro-rich
+      - fluid: water
+        fluid-amount: 750
+    energy: 7500
+    data:
+      primary-input:
+        item: [phyto-gro-rich]
+      secondary-input:
+        item: [nether-wart]
+      fluid-input:
+        fluid: water
+        amount: 750
+      primary-output:
+        item: [nether-wart]
+        amount: 6
+  nether-wart-fluxed:
+    results:
+      - item: nether-wart
+        suffix: x8
+    ingredients:
+      - item: nether-wart
+      - item: phyto-gro-fluxed
+      - fluid: water
+        fluid-amount: 1000
+    energy: 10000
+    data:
+      primary-input:
+        item: [phyto-gro-fluxed]
+      secondary-input:
+        item: [nether-wart]
+      fluid-input:
+        fluid: water
+        amount: 1000
+      primary-output:
+        item: [nether-wart]
+        amount: 8

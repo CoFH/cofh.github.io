@@ -142,6 +142,27 @@ fence-gate:
     - fence-gate-jungle
     - fence-gate-acacia
     - fence-gate-dark-oak
+flower:
+  name: Flower
+  site: mc-wiki
+  url: Flower
+  prefix:
+    ingredient: 'any'
+  items:
+    - dandelion
+    - poppy
+    - blue-orchid
+    - allium
+    - azure-bluet
+    - red-tulip
+    - orange-tulip
+    - white-tulip
+    - pink-tulip
+    - oxeye-daisy
+    - sunflower
+    - lilac
+    - rose-bush
+    - peony
 glass-stained:
   name: Stained Glass
   site: mc-wiki
@@ -199,6 +220,15 @@ leaves:
     - leaves-jungle
     - leaves-acacia
     - leaves-dark-oak
+mushroom:
+  name: Mushroom
+  site: mc-wiki
+  url: Mushroom
+  prefix:
+    ingredient: 'any'
+  items:
+    - mushroom-brown
+    - mushroom-red
 rockwool:
   name: Rockwool
   site: tf-docs
@@ -229,6 +259,19 @@ sand:
   items:
     - sand
     - red-sand
+sapling:
+  name: Sapling
+  site: mc-wiki
+  url: Sapling
+  prefix:
+    ingredient: 'any'
+  items:
+    - sapling-oak
+    - sapling-spruce
+    - sapling-birch
+    - sapling-jungle
+    - sapling-acacia
+    - sapling-dark-oak
 wood-log:
   name: Wood
   site: mc-wiki

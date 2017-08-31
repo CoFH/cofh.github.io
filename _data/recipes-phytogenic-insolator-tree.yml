@@ -1,0 +1,80 @@
+name: Sapling Infuser
+site: te-docs
+url: machines/phytogenic-insolator/
+with-energy: true
+recipes:
+  wood:
+    results:
+      - item-group: wood-log
+        suffix: x4
+      - item-group: sapling
+    ingredients:
+      - item-group: sapling
+      - item: phyto-gro
+      - fluid: water
+        fluid-amount: 1000
+    energy: 10000
+    data:
+      primary-input:
+        item: [phyto-gro]
+      secondary-input:
+        item-group: sapling
+      fluid-input:
+        fluid: water
+        amount: 1000
+      primary-output:
+        item-group: wood-log
+        amount: 4
+      secondary-output:
+        item-group: sapling
+      secondary-chance: 50
+  wood-rich:
+    results:
+      - item-group: wood-log
+        suffix: x12
+      - item-group: sapling
+    ingredients:
+      - item-group: sapling
+      - item: phyto-gro-rich
+      - fluid: water
+        fluid-amount: 1500
+    energy: 15000
+    data:
+      primary-input:
+        item: [phyto-gro-rich]
+      secondary-input:
+        item-group: sapling
+      fluid-input:
+        fluid: water
+        amount: 1500
+      primary-output:
+        item-group: wood-log
+        amount: 12
+      secondary-output:
+        item-group: sapling
+      secondary-chance: 100
+  wood-fluxed:
+    results:
+      - item-group: wood-log
+        suffix: x16
+      - item-group: sapling
+    ingredients:
+      - item-group: sapling
+      - item: phyto-gro-fluxed
+      - fluid: water
+        fluid-amount: 2000
+    energy: 20000
+    data:
+      primary-input:
+        item: [phyto-gro-fluxed]
+      secondary-input:
+        item-group: sapling
+      fluid-input:
+        fluid: water
+        amount: 2000
+      primary-output:
+        item-group: wood-log
+        amount: 16
+      secondary-output:
+        item-group: sapling
+      secondary-chance: 150

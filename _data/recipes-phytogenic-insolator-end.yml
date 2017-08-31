@@ -1,0 +1,80 @@
+name: Ender Substrate
+site: te-docs
+url: machines/phytogenic-insolator/
+with-energy: true
+recipes:
+  chorus-plant:
+    results:
+      - item: chorus-plant
+        suffix: x2
+      - item: chorus-flower
+    ingredients:
+      - item: chorus-flower
+      - item: phyto-gro
+      - fluid: water
+        fluid-amount: 500
+    energy: 5000
+    data:
+      primary-input:
+        item: [phyto-gro]
+      secondary-input:
+        item: [chorus-flower]
+      fluid-input:
+        fluid: water
+        amount: 500
+      primary-output:
+        item: [chorus-plant]
+        amount: 2
+      secondary-output:
+        item: [chorus-flower]
+      secondary-chance: 100
+  chorus-plant-rich:
+    results:
+      - item: chorus-plant
+        suffix: x6
+      - item: chorus-flower
+    ingredients:
+      - item: chorus-flower
+      - item: phyto-gro-rich
+      - fluid: water
+        fluid-amount: 750
+    energy: 7500
+    data:
+      primary-input:
+        item: [phyto-gro-rich]
+      secondary-input:
+        item: [chorus-flower]
+      fluid-input:
+        fluid: water
+        amount: 750
+      primary-output:
+        item: [chorus-plant]
+        amount: 6
+      secondary-output:
+        item: [chorus-flower]
+      secondary-chance: 125
+  chorus-plant-fluxed:
+    results:
+      - item: chorus-plant
+        suffix: x8
+      - item: chorus-flower
+    ingredients:
+      - item: chorus-flower
+      - item: phyto-gro-fluxed
+      - fluid: water
+        fluid-amount: 1000
+    energy: 10000
+    data:
+      primary-input:
+        item: [phyto-gro-fluxed]
+      secondary-input:
+        item: [chorus-flower]
+      fluid-input:
+        fluid: water
+        amount: 1000
+      primary-output:
+        item: [chorus-plant]
+        amount: 8
+      secondary-output:
+        item: [chorus-flower]
+      secondary-chance: 150
