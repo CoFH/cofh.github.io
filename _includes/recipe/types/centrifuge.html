@@ -1,0 +1,18 @@
+<div style="position: relative; width: 228px; height: 140px; background: url('/assets/images/recipe/types/centrifuge.png')">
+    {% include recipe/slot.html data=include.data.input top=38 left=10 %}
+
+    {% include recipe/slot.html data=include.data.output-1 top=38 left=106 %}
+    {% include recipe/slot.html data=include.data.output-2 top=38 left=142 %}
+
+    {% if include.data.output-3 %}
+        {% include recipe/slot.html data=include.data.output-3 top=74 left=106 %}
+    {% endif %}
+
+    {% if include.data.output-4 %}
+        {% include recipe/slot.html data=include.data.output-4 top=74 left=142 %}
+    {% endif %}
+
+    {% if include.data.fluid-output %}
+        {% include recipe/tank.html data=include.data.fluid-output top=10 left=186 size=2000 recipe_type='centrifuge' gauge_sprite_top=0 gauge_sprite_left=228 %}
+    {% endif %}
+</div>

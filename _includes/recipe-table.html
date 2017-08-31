@@ -22,13 +22,13 @@
                 <tr>
                     <td class="uk-text-center cofh-nowrap">
                         {% for result in recipe_data.results %}
-                            {% if forloop.first %}
+                            {% if type_data.all-results-bold or forloop.first %}
                                 <strong>
                             {% endif %}
 
                             {% include recipe-table-item.html item=result type='result' first=forloop.first %}
 
-                            {% if forloop.first %}
+                            {% if type_data.all-results-bold or forloop.first %}
                                 </strong>
                             {% endif %}
 

@@ -1,0 +1,524 @@
+name: Centrifugal Separator
+site: te-docs
+url: machines/centrifugal-separator/
+with-energy: true
+all-results-bold: true
+recipes:
+  concrete-powder-black:
+    results:
+      - item: gravel
+      - item: sand
+    ingredients:
+      - item: concrete-powder-black
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-black]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+  concrete-powder-blue:
+    results:
+      - item: gravel
+      - item: sand
+    ingredients:
+      - item: concrete-powder-blue
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-blue]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+  concrete-powder-brown:
+    results:
+      - item: gravel
+      - item: sand
+    ingredients:
+      - item: concrete-powder-brown
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-brown]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+  concrete-powder-cyan:
+    results:
+      - item: gravel
+      - item: sand
+      - item: cyan-dye
+    ingredients:
+      - item: concrete-powder-cyan
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-cyan]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [cyan-dye]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-gray:
+    results:
+      - item: gravel
+      - item: sand
+      - item: gray-dye
+    ingredients:
+      - item: concrete-powder-gray
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-gray]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [gray-dye]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-green:
+    results:
+      - item: gravel
+      - item: sand
+    ingredients:
+      - item: concrete-powder-green
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-green]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+  concrete-powder-light-blue:
+    results:
+      - item: gravel
+      - item: sand
+      - item: light-blue-dye
+    ingredients:
+      - item: concrete-powder-light-blue
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-light-blue]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [light-blue-dye]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-light-gray:
+    results:
+      - item: gravel
+      - item: sand
+      - item: light-gray-dye
+    ingredients:
+      - item: concrete-powder-light-gray
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-light-gray]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [light-gray-dye]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-lime:
+    results:
+      - item: gravel
+      - item: sand
+      - item: lime-dye
+    ingredients:
+      - item: concrete-powder-lime
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-lime]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [lime-dye]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-magenta:
+    results:
+      - item: gravel
+      - item: sand
+      - item: magenta-dye
+    ingredients:
+      - item: concrete-powder-magenta
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-magenta]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [magenta-dye]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-orange:
+    results:
+      - item: gravel
+      - item: sand
+      - item: orange-dye
+    ingredients:
+      - item: concrete-powder-orange
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-orange]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [orange-dye]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-pink:
+    results:
+      - item: gravel
+      - item: sand
+      - item: pink-dye
+    ingredients:
+      - item: concrete-powder-pink
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-pink]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [pink-dye]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-purple:
+    results:
+      - item: gravel
+      - item: sand
+      - item: purple-dye
+    ingredients:
+      - item: concrete-powder-purple
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-purple]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [purple-dye]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-red:
+    results:
+      - item: gravel
+      - item: sand
+      - item: rose-red
+    ingredients:
+      - item: concrete-powder-red
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-red]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [rose-red]
+    note: >
+      The dye has a 5% chance of being returned.
+  concrete-powder-white:
+    results:
+      - item: gravel
+      - item: sand
+    ingredients:
+      - item: concrete-powder-white
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-white]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+  concrete-powder-yellow:
+    results:
+      - item: gravel
+      - item: sand
+      - item: dandelion-yellow
+    ingredients:
+      - item: concrete-powder-yellow
+    energy: 4000
+    data:
+      input:
+        item: [concrete-powder-yellow]
+        amount: 2
+      output-1:
+        item: [gravel]
+      output-2:
+        item: [sand]
+      output-3:
+        item: [dandelion-yellow]
+    note: >
+      The dye has a 5% chance of being returned.
+  dust-aerotheum:
+    results:
+      - item: blitz-powder
+      - item: niter
+      - item: sand
+      - item: redstone
+    ingredients:
+      - item: dust-aerotheum
+    energy: 8000
+    data:
+      input:
+        item: [dust-aerotheum]
+        amount: 2
+      output-1:
+        item: [niter]
+      output-2:
+        item: [blitz-powder]
+      output-3:
+        item: [sand]
+      output-4:
+        item: [redstone]
+  dust-bronze:
+    results:
+      - item: dust-copper
+      - item: dust-tin
+    ingredients:
+      - item: dust-bronze
+    energy: 16000
+    data:
+      input:
+        item: [dust-bronze]
+        amount: 4
+      output-1:
+        item: [dust-copper]
+        amount: 3
+      output-2:
+        item: [dust-tin]
+  dust-constantan:
+    results:
+      - item: dust-copper
+      - item: dust-nickel
+    ingredients:
+      - item: dust-constantan
+    energy: 8000
+    data:
+      input:
+        item: [dust-constantan]
+        amount: 2
+      output-1:
+        item: [dust-copper]
+      output-2:
+        item: [dust-nickel]
+  dust-cryotheum:
+    results:
+      - item: blizz-powder
+      - item: niter
+      - item: snowball
+      - item: redstone
+    ingredients:
+      - item: dust-cryotheum
+    energy: 8000
+    data:
+      input:
+        item: [dust-cryotheum]
+        amount: 2
+      output-1:
+        item: [niter]
+      output-2:
+        item: [blizz-powder]
+      output-3:
+        item: [snowball]
+      output-4:
+        item: [redstone]
+  dust-electrum:
+    results:
+      - item: dust-gold
+      - item: dust-silver
+    ingredients:
+      - item: dust-electrum
+    energy: 8000
+    data:
+      input:
+        item: [dust-electrum]
+        amount: 2
+      output-1:
+        item: [dust-gold]
+      output-2:
+        item: [dust-silver]
+  dust-enderium:
+    results:
+      - item: dust-lead
+      - item: dust-platinum
+      - fluid: ender
+        fluid-amount: 1000
+    ingredients:
+      - item: dust-enderium
+    energy: 16000
+    data:
+      input:
+        item: [dust-enderium]
+        amount: 4
+      output-1:
+        item: [dust-lead]
+        amount: 3
+      output-2:
+        item: [dust-platinum]
+      fluid-output:
+        fluid: ender
+        amount: 1000
+  dust-invar:
+    results:
+      - item: dust-iron
+      - item: dust-nickel
+    ingredients:
+      - item: dust-invar
+    energy: 12000
+    data:
+      input:
+        item: [dust-invar]
+        amount: 3
+      output-1:
+        item: [dust-iron]
+        amount: 2
+      output-2:
+        item: [dust-nickel]
+  dust-lumium:
+    results:
+      - item: dust-tin
+      - item: dust-silver
+      - fluid: glowstone
+        fluid-amount: 1000
+    ingredients:
+      - item: dust-lumium
+    energy: 16000
+    data:
+      input:
+        item: [dust-lumium]
+        amount: 4
+      output-1:
+        item: [dust-tin]
+        amount: 3
+      output-2:
+        item: [dust-silver]
+      fluid-output:
+        fluid: glowstone
+        amount: 1000
+  dust-petrotheum:
+    results:
+      - item: basalz-powder
+      - item: dust-obsidian
+      - item: clay
+      - item: redstone
+    ingredients:
+      - item: dust-petrotheum
+    energy: 8000
+    data:
+      input:
+        item: [dust-petrotheum]
+        amount: 2
+      output-1:
+        item: [dust-obsidian]
+      output-2:
+        item: [basalz-powder]
+      output-3:
+        item: [clay]
+      output-4:
+        item: [redstone]
+  dust-pyrotheum:
+    results:
+      - item: blaze-powder
+      - item: sulfur
+      - item: dust-coal
+      - item: redstone
+    ingredients:
+      - item: dust-pyrotheum
+    energy: 8000
+    data:
+      input:
+        item: [dust-pyrotheum]
+        amount: 2
+      output-1:
+        item: [sulfur]
+      output-2:
+        item: [blaze-powder]
+      output-3:
+        item: [dust-coal]
+      output-4:
+        item: [redstone]
+  dust-signalum:
+    results:
+      - item: dust-copper
+      - item: dust-silver
+      - fluid: redstone
+        fluid-amount: 1000
+    ingredients:
+      - item: dust-signalum
+    energy: 16000
+    data:
+      input:
+        item: [dust-signalum]
+        amount: 4
+      output-1:
+        item: [dust-copper]
+        amount: 3
+      output-2:
+        item: [dust-silver]
+      fluid-output:
+        fluid: redstone
+        amount: 1000
+  magma-cream:
+    results:
+      - item: slimeball
+      - item: blaze-powder
+    ingredients:
+      - item: magma-cream
+    energy: 4000
+    data:
+      input:
+        item: [magma-cream]
+      output-1:
+        item: [slimeball]
+      output-2:
+        item: [blaze-powder]
