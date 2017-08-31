@@ -1,0 +1,911 @@
+name: Pyro-Concentrator
+site: te-docs
+url: machines/induction-smelter/
+with-energy: true
+recipes:
+  ore-processing-cinnabar-aluminum:
+    results:
+      - item: ingot-aluminum
+        suffix: x4
+      - item: ingot-iron
+    ingredients:
+      - item: ore-aluminum
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-aluminum]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-aluminum]
+        amount: 4
+      secondary-output:
+        item: [ingot-iron]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-copper:
+    results:
+      - item: ingot-copper
+        suffix: x4
+      - item: ingot-gold
+    ingredients:
+      - item: ore-copper
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-copper]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-copper]
+        amount: 4
+      secondary-output:
+        item: [ingot-gold]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-gold:
+    results:
+      - item: ingot-gold
+        suffix: x4
+      - item: slag-rich
+    ingredients:
+      - item: ore-gold
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-gold]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-gold]
+        amount: 4
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-cinnabar-iridium:
+    results:
+      - item: ingot-iridium
+        suffix: x4
+      - item: ingot-platinum
+    ingredients:
+      - item: ore-iridium
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-iridium]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-iridium]
+        amount: 4
+      secondary-output:
+        item: [ingot-platinum]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-iron:
+    results:
+      - item: ingot-iron
+        suffix: x4
+      - item: ingot-nickel
+    ingredients:
+      - item: ore-iron
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-iron]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-iron]
+        amount: 4
+      secondary-output:
+        item: [ingot-nickel]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-lead:
+    results:
+      - item: ingot-lead
+        suffix: x4
+      - item: ingot-silver
+    ingredients:
+      - item: ore-lead
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-lead]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-lead]
+        amount: 4
+      secondary-output:
+        item: [ingot-silver]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-mithril:
+    results:
+      - item: ingot-mithril
+        suffix: x4
+      - item: ingot-gold
+    ingredients:
+      - item: ore-mithril
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-mithril]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-mithril]
+        amount: 4
+      secondary-output:
+        item: [ingot-gold]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-nickel:
+    results:
+      - item: ingot-nickel
+        suffix: x4
+      - item: ingot-platinum
+    ingredients:
+      - item: ore-nickel
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-nickel]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-nickel]
+        amount: 4
+      secondary-output:
+        item: [ingot-platinum]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-platinum:
+    results:
+      - item: ingot-platinum
+        suffix: x4
+      - item: ingot-iridium
+    ingredients:
+      - item: ore-platinum
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-platinum]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-platinum]
+        amount: 4
+      secondary-output:
+        item: [ingot-iridium]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-silver:
+    results:
+      - item: ingot-silver
+        suffix: x4
+      - item: ingot-lead
+    ingredients:
+      - item: ore-silver
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-silver]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-silver]
+        amount: 4
+      secondary-output:
+        item: [ingot-lead]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-cinnabar-tin:
+    results:
+      - item: ingot-tin
+        suffix: x4
+      - item: ingot-iron
+    ingredients:
+      - item: ore-tin
+      - item: cinnabar
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [cinnabar]
+      secondary-input:
+        item: [ore-tin]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-tin]
+        amount: 4
+      secondary-output:
+        item: [ingot-iron]
+        amount: 1
+      secondary-chance: 100
+  ore-processing-nether-quartz:
+    results:
+      - item: nether-quartz-block
+      - item: slag-rich
+    ingredients:
+      - item: ore-nether-quartz
+      - item: soul-sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [soul-sand]
+      secondary-input:
+        item: [ore-nether-quartz]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [nether-quartz-block]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+      secondary-chance: 25
+  ore-processing-redstone:
+    results:
+      - item: storage-block-redstone
+      - item: slag-rich
+    ingredients:
+      - item: ore-redstone
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-redstone]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [storage-block-redstone]
+        amount: 2
+      secondary-output:
+        item: [slag-rich]
+      secondary-chance: 50
+  ore-processing-rich-slag-aluminum:
+    results:
+      - item: ingot-aluminum
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-aluminum
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-aluminum]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-aluminum]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-copper:
+    results:
+      - item: ingot-copper
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-copper
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-copper]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-copper]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-gold:
+    results:
+      - item: ingot-gold
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-gold
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-gold]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-gold]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-iridium:
+    results:
+      - item: ingot-iridium
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-iridium
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-iridium]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-iridium]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-iron:
+    results:
+      - item: ingot-iron
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-iron
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-iron]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-iron]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-lead:
+    results:
+      - item: ingot-lead
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-lead
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-lead]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-lead]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-mithril:
+    results:
+      - item: ingot-mithril
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-mithril
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-mithril]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-mithril]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-nickel:
+    results:
+      - item: ingot-nickel
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-nickel
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-nickel]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-nickel]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-platinum:
+    results:
+      - item: ingot-platinum
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-platinum
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-platinum]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-platinum]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-silver:
+    results:
+      - item: ingot-silver
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-silver
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-silver]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-silver]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-rich-slag-tin:
+    results:
+      - item: ingot-tin
+        suffix: x4
+      - item: slag
+    ingredients:
+      - item: ore-tin
+      - item: slag-rich
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item: [slag-rich]
+      secondary-input:
+        item: [ore-tin]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-tin]
+        amount: 4
+      secondary-output:
+        item: [slag]
+        amount: 1
+      secondary-chance: 75
+  ore-processing-sand-aluminum:
+    results:
+      - item: ingot-aluminum
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-aluminum
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-aluminum]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-aluminum]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-copper:
+    results:
+      - item: ingot-copper
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-copper
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-copper]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-copper]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-gold:
+    results:
+      - item: ingot-gold
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-gold
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-gold]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-gold]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 20
+  ore-processing-sand-iridium:
+    results:
+      - item: ingot-iridium
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-iridium
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-iridium]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-iridium]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-iron:
+    results:
+      - item: ingot-iron
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-iron
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-iron]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-iron]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-lead:
+    results:
+      - item: ingot-lead
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-lead
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-lead]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-lead]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-mithril:
+    results:
+      - item: ingot-mithril
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-mithril
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-mithril]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-mithril]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-nickel:
+    results:
+      - item: ingot-nickel
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-nickel
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-nickel]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-nickel]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 15
+  ore-processing-sand-platinum:
+    results:
+      - item: ingot-platinum
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-platinum
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-platinum]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-platinum]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-silver:
+    results:
+      - item: ingot-silver
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-silver
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-silver]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-silver]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5
+  ore-processing-sand-tin:
+    results:
+      - item: ingot-tin
+        suffix: x3
+      - item: slag-rich
+    ingredients:
+      - item: ore-tin
+      - item-group: sand
+      - fluid: pyrotheum
+        fluid-amount: 100
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item: [ore-tin]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 100
+      primary-output:
+        item: [ingot-tin]
+        amount: 3
+      secondary-output:
+        item: [slag-rich]
+        amount: 1
+      secondary-chance: 5

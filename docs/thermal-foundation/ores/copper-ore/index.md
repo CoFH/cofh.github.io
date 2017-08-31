@@ -18,6 +18,10 @@ usage-recipes:
     - ore-processing-sand-copper
     - ore-processing-rich-slag-copper
     - ore-processing-cinnabar-copper
+  induction-smelter-pyrotheum:
+    - ore-processing-sand-copper
+    - ore-processing-rich-slag-copper
+    - ore-processing-cinnabar-copper
 ---
 
 ![Copper Ore](/assets/images/thermal-foundation/ore-copper.png){:style="height: 128px"}
@@ -58,3 +62,6 @@ Usage
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+
+### Induction Smelter with Pyro-Concentrator ingredient
+{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}

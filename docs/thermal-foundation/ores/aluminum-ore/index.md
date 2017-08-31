@@ -13,6 +13,10 @@ usage-recipes:
     - ore-processing-sand-aluminum
     - ore-processing-rich-slag-aluminum
     - ore-processing-cinnabar-aluminum
+  induction-smelter-pyrotheum:
+    - ore-processing-sand-aluminum
+    - ore-processing-rich-slag-aluminum
+    - ore-processing-cinnabar-aluminum
 ---
 
 ![Aluminum Ore](/assets/images/thermal-foundation/ore-aluminum.png){:style="height: 128px"}
@@ -50,3 +54,6 @@ Aluminum ore cannot be processed by
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+
+### Induction Smelter with Pyro-Concentrator ingredient
+{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}

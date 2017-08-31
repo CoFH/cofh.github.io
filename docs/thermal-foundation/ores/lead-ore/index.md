@@ -17,6 +17,10 @@ usage-recipes:
     - ore-processing-sand-lead
     - ore-processing-rich-slag-lead
     - ore-processing-cinnabar-lead
+  induction-smelter-pyrotheum:
+    - ore-processing-sand-lead
+    - ore-processing-rich-slag-lead
+    - ore-processing-cinnabar-lead
 ---
 
 ![Lead Ore](/assets/images/thermal-foundation/ore-lead.png){:style="height: 128px"}
@@ -60,3 +64,6 @@ Usage
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+
+### Induction Smelter with Pyro-Concentrator ingredient
+{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}

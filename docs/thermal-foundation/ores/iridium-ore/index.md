@@ -13,6 +13,10 @@ usage-recipes:
     - ore-processing-sand-iridium
     - ore-processing-rich-slag-iridium
     - ore-processing-cinnabar-iridium
+  induction-smelter-pyrotheum:
+    - ore-processing-sand-iridium
+    - ore-processing-rich-slag-iridium
+    - ore-processing-cinnabar-iridium
 ---
 
 ![Iridium Ore](/assets/images/thermal-foundation/ore-iridium.png){:style="height: 128px"}
@@ -50,3 +54,6 @@ Iridium ore cannot be processed by
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+
+### Induction Smelter with Pyro-Concentrator ingredient
+{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}

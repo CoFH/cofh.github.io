@@ -13,6 +13,10 @@ usage-recipes:
     - ore-processing-sand-mithril
     - ore-processing-rich-slag-mithril
     - ore-processing-cinnabar-mithril
+  induction-smelter-pyrotheum:
+    - ore-processing-sand-mithril
+    - ore-processing-rich-slag-mithril
+    - ore-processing-cinnabar-mithril
 ---
 
 ![Mana Infused Ore](/assets/images/thermal-foundation/ore-mithril.png){:style="height: 128px"}
@@ -50,3 +54,6 @@ Mana infused ore cannot be processed by
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+
+### Induction Smelter with Pyro-Concentrator ingredient
+{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}

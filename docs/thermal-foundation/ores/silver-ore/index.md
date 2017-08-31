@@ -17,6 +17,10 @@ usage-recipes:
     - ore-processing-sand-silver
     - ore-processing-rich-slag-silver
     - ore-processing-cinnabar-silver
+  induction-smelter-pyrotheum:
+    - ore-processing-sand-silver
+    - ore-processing-rich-slag-silver
+    - ore-processing-cinnabar-silver
 ---
 
 ![Silver Ore](/assets/images/thermal-foundation/ore-silver.png){:style="height: 128px"}
@@ -61,3 +65,6 @@ Usage
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+
+### Induction Smelter with Pyro-Concentrator ingredient
+{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}

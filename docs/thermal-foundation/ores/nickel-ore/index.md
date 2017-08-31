@@ -17,6 +17,10 @@ usage-recipes:
     - ore-processing-sand-nickel
     - ore-processing-rich-slag-nickel
     - ore-processing-cinnabar-nickel
+  induction-smelter-pyrotheum:
+    - ore-processing-sand-nickel
+    - ore-processing-rich-slag-nickel
+    - ore-processing-cinnabar-nickel
 ---
 
 ![Nickel Ore](/assets/images/thermal-foundation/ore-nickel.png){:style="height: 128px"}
@@ -56,3 +60,6 @@ Usage
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='induction-smelter' recipes=page.usage-recipes.induction-smelter %}
+
+### Induction Smelter with Pyro-Concentrator ingredient
+{% include recipe-table.html type='induction-smelter-pyrotheum' recipes=page.usage-recipes.induction-smelter-pyrotheum %}
