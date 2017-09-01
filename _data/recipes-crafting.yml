@@ -7389,7 +7389,7 @@ recipes:
         amount: 1
   rockwool-dyeing:
     results:
-      - html: 'Dyed <a href="/docs/thermal-foundation/blocks/rockwool/">Rockwool</a>'
+      - html: 'Dyed <a href="/docs/thermal-foundation/blocks/decorative/rockwool/">Rockwool</a>'
     ingredients:
       - item-group: rockwool
       - item-group: dye

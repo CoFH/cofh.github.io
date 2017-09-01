@@ -1,31 +1,31 @@
 aerotheum:
   name: Zephyrean Aerotheum
   site: tf-docs
-  url: fluids/zephyrean-aerotheum/
+  url: fluids/elemental/zephyrean-aerotheum/
 coal:
   name: Liquifacted Coal
   site: tf-docs
-  url: fluids/liquifacted-coal/
+  url: fluids/fuel/liquifacted-coal/
 creosote-oil:
   name: Creosote Oil
   site: tf-docs
-  url: fluids/creosote-oil/
+  url: fluids/other/creosote-oil/
 crude-oil:
   name: Crude Oil
   site: tf-docs
-  url: fluids/crude-oil/
+  url: fluids/fuel/crude-oil/
 cryotheum:
   name: Gelid Cryotheum
   site: tf-docs
-  url: fluids/gelid-cryotheum/
+  url: fluids/elemental/gelid-cryotheum/
 ender:
   name: Resonant Ender
   site: tf-docs
-  url: fluids/resonant-ender/
+  url: fluids/molten/resonant-ender/
 glowstone:
   name: Energized Glowstone
   site: tf-docs
-  url: fluids/energized-glowstone/
+  url: fluids/molten/energized-glowstone/
 lava:
   name: Lava
   site: mc-wiki
@@ -33,51 +33,51 @@ lava:
 mana:
   name: Primal Mana
   site: tf-docs
-  url: fluids/primal-mana/
+  url: fluids/other/primal-mana/
 mushroom-stew:
   name: Mushroom Stew
   site: tf-docs
-  url: fluids/mushroom-stew/
+  url: fluids/other/mushroom-stew/
 naphtha:
   name: Naphtha
   site: tf-docs
-  url: fluids/naphtha/
+  url: fluids/fuel/naphtha/
 petrotheum:
   name: Tectonic Petrotheum
   site: tf-docs
-  url: fluids/tectonic-petrotheum/
+  url: fluids/elemental/tectonic-petrotheum/
 pyrotheum:
   name: Blazing Pyrotheum
   site: tf-docs
-  url: fluids/blazing-pyrotheum/
+  url: fluids/elemental/blazing-pyrotheum/
 redstone:
   name: Destabilized Redstone
   site: tf-docs
-  url: fluids/destabilized-redstone/
+  url: fluids/molten/destabilized-redstone/
 refined-fuel:
   name: Refined Fuel
   site: tf-docs
-  url: fluids/refined-fuel/
+  url: fluids/fuel/refined-fuel/
 resin:
   name: Resin
   site: tf-docs
-  url: fluids/resin/
+  url: fluids/tree/resin/
 sap:
   name: Sap
   site: tf-docs
-  url: fluids/sap/
+  url: fluids/tree/sap/
 steam:
   name: Steam
   site: tf-docs
-  url: fluids/steam/
+  url: fluids/other/steam/
 syrup:
   name: Syrup
   site: tf-docs
-  url: fluids/syrup/
+  url: fluids/other/syrup/
 tree-oil:
   name: Tree Oil
   site: tf-docs
-  url: fluids/tree-oil/
+  url: fluids/fuel/tree-oil/
 water:
   name: Water
   site: mc-wiki

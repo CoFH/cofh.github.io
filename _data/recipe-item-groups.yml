@@ -189,7 +189,7 @@ glass-stained:
 hardened-glass:
   name: Hardened Glass
   site: tf-docs
-  url: blocks/hardened-glass/
+  url: blocks/decorative/hardened-glass/
   items:
     - hardened-glass
     - hardened-glass-copper
@@ -232,7 +232,7 @@ mushroom:
 rockwool:
   name: Rockwool
   site: tf-docs
-  url: blocks/rockwool/
+  url: blocks/decorative/rockwool/
   prefix:
     ingredient: 'any color'
   items:
