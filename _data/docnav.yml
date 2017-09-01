@@ -93,6 +93,7 @@ thermal-foundation:
                 - title: Tin
                   url: tin-ingot/
                 - title: Silver
+                  url: silver-ingot/
                 - title: Lead
                 - title: Aluminum
                 - title: Nickel

@@ -84,7 +84,7 @@ usage-recipes:
 ![Copper ingot](/assets/images/thermal-foundation/ingot-copper.png){:style="height: 128px"}
 
 
-**Copper ingots** are raw materials that are used in many recipes.
+**Copper ingots** are raw materials.
 
 
 Obtaining

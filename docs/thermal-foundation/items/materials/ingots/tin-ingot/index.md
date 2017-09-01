@@ -82,7 +82,7 @@ usage-recipes:
 ![Tin ingot](/assets/images/thermal-foundation/ingot-tin.png){:style="height: 128px"}
 
 
-**Tin ingots** are raw materials that are used in many recipes.
+**Tin ingots** are raw materials.
 
 
 Obtaining
