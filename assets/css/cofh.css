@@ -129,19 +129,6 @@ html {
     background-repeat: no-repeat;
 }
 
-.cofh-nav-docs>li:not(.uk-nav-header) {
-    line-height: 10px;
-}
-
-.cofh-nav-docs>li.uk-active {
-    background: #f5f5f5;
-    color: #0064F1;
-}
-
-.cofh-nav-docs>li>a:hover {
-    text-decoration: underline;
-}
-
 .cofh-clickable > .cofh-clickable-icon {
     display: none;
 }
@@ -223,4 +210,50 @@ html {
 
 #cofh-docs-content a[href^="http"]:hover {
     color: #29689a;
+}
+
+div.cofh-navbox-container {
+    border: 1px solid #dadada;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+table.cofh-navbox-table {
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+table.cofh-navbox-table.cofh-navbox-subgroups-table {
+    margin: -2px;
+}
+
+table.cofh-navbox-table th.cofh-navbox-title {
+    background: #ddd;
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.cofh-navbox-table td.cofh-navbox-section-title {
+    background: #eee;
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.cofh-navbox-table th.cofh-navbox-group-title {
+    background: #eee;
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+table.cofh-navbox-table td.cofh-navbox-group-items {
+    padding: 3px;
+}
+
+table.cofh-navbox-table td.cofh-navbox-group-subgroups-container {
+    padding: 0;
 }

@@ -1,0 +1,54 @@
+<tr>
+    {% if include.group.title %}
+        <th class="cofh-navbox-group-title">
+            {% if include.group.title-page %}
+                {% capture title_url %}{{include.base_url}}{{include.group.url}}{% endcapture %}
+                {% include navbox-link.html page_url=include.page_url link_url=title_url text=include.group.title %}
+            {% else %}
+                {{ include.group.title }}
+            {% endif %}
+        </th>
+
+        {% if include.group.groups %}
+            <td class="cofh-navbox-group-subgroups-container">
+        {% else %}
+            <td class="cofh-navbox-group-items">
+        {% endif %}
+    {% else %}
+            <td colspan="2" class="cofh-navbox-group-items uk-text-center">
+    {% endif %}
+                {% if include.group.items %}
+                    {% if include.group.groups %}
+                        <div style="padding: 2px">
+                    {% endif %}
+
+                    {% for item in include.group.items %}
+                        {% assign item_url = null %}
+                        {% if item.url %}
+                            {% capture item_url %}{{include.base_url}}{{include.group.url}}{{item.url}}{% endcapture %}
+                        {% endif %}
+
+                        {% include navbox-link.html page_url=include.page_url link_url=item_url text=item.title %}
+
+                        {% unless forloop.last %}
+                            <span class="uk-text-bold">&#8729;</span>
+                        {% endunless %}
+                    {% endfor %}
+
+                    {% if include.group.groups %}
+                        </div>
+                    {% endif %}
+                {% endif %}
+
+                {% if include.group.groups %}
+                    <table class="uk-table cofh-navbox-table cofh-navbox-subgroups-table">
+                        <tbody>
+                            {% for subgroup in include.group.groups %}
+                                {% capture group_base_url %}{{include.base_url}}{{include.group.url}}{% endcapture %}
+                                {% include navbox-group.html group=subgroup base_url=group_base_url page_url=include.page_url %}
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                {% endif %}
+            </td>
+</tr>

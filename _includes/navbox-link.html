@@ -1,0 +1,9 @@
+{% if include.link_url %}
+    {% capture full_url %}{{ include.link_url }}{% unless include.link_url contains ".html" %}index.html{% endunless %}{% endcapture %}
+{% endif %}
+
+{% if include.link_url and include.page_url contains full_url %}
+    <strong>{{ include.text }}</strong>
+{% else %}
+    <a {% if include.link_url %}href="{{include.link_url}}"{% else %}class="uk-text-danger"{% endif %}>{{ include.text }}</a>
+{% endif %}

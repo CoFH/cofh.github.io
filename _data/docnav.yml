@@ -1,0 +1,693 @@
+redstone-flux:
+  title: Redstone Flux
+  url: redstone-flux/
+  sections:
+    - groups:
+        - items:
+            - title: 'Redstone Flux: A Primer'
+              url: redstone-flux-a-primer/
+
+cofh-core:
+  title: CoFH Core
+  url: cofh-core/
+  sections:
+    - groups:
+        - items:
+            - title: Commands
+              url: commands/
+            - title: Enchantments
+              url: enchantments/
+            - title: Friend List
+            - title: Game Tweaks
+
+cofh-world:
+  title: CoFH World
+  url: cofh-world/
+  sections:
+    - groups:
+        - items:
+            - title: World Generator Configuration
+              url: world-generator-configuration/
+
+thermal-foundation:
+  title: Thermal Foundation
+  url: thermal-foundation/
+  sections:
+    - title: World
+      url: world/
+      groups:
+        - title: Ores
+          url: ores/
+          items:
+            - title: Copper
+              url: copper-ore/
+            - title: Tin
+              url: tin-ore/
+            - title: Silver
+              url: silver-ore/
+            - title: Lead
+              url: lead-ore/
+            - title: Aluminum
+              url: aluminum-ore/
+            - title: Nickel
+              url: nickel-ore/
+            - title: Platinum
+              url: platinum-ore/
+            - title: Iridium
+              url: iridium-ore/
+            - title: Mana Infused
+              url: mana-infused-ore/
+        - title: Fluid Ores
+          url: fluid-ores/
+          items:
+            - title: Oil Sand
+              url: oil-sand/
+            - title: Oil Shale
+              url: oil-shale/
+            - title: Destabilized Redstone Ore
+              url: destabilized-redstone-ore/
+            - title: Energized Netherrack
+              url: energized-netherrack/
+            - title: Resonant End Stone
+              url: resonant-end-stone/
+        - title: Mobs
+          url: mobs/
+          items:
+            - title: Blizz
+              url: blizz/
+            - title: Blitz
+              url: blitz/
+            - title: Basalz
+              url: basalz/
+    - title: Items
+      url: items/
+      groups:
+        - title: Materials
+          url: materials/
+          groups:
+            - title: Ingots
+              url: ingots/
+              items:
+                - title: Copper
+                - title: Tin
+                - title: Silver
+                - title: Lead
+                - title: Aluminum
+                - title: Nickel
+                - title: Platinum
+                - title: Iridium
+                - title: Mana Infused
+                - title: Steel
+                - title: Electrum
+                - title: Invar
+                - title: Bronze
+                - title: Constantan
+                - title: Signalum
+                - title: Lumium
+                - title: Enderium
+            - title: Dusts
+              url: dusts/
+              items:
+                - title: Pulverized Iron
+                - title: Pulverized Gold
+                - title: Pulverized Copper
+                - title: Pulverized Tin
+                - title: Pulverized Silver
+                - title: Pulverized Lead
+                - title: Pulverized Aluminum
+                - title: Pulverized Nickel
+                - title: Pulverized Platinum
+                - title: Pulverized Iridium
+                - title: Pulverized Mana Infused Metal
+                - title: Steel Blend
+                - title: Electrum Blend
+                - title: Invar Blend
+                - title: Bronze Blend
+                - title: Constantan Blend
+                - title: Signalum Blend
+                - title: Lumium Blend
+                - title: Enderium Blend
+                - title: Pulverized Coal
+                - title: Pulverized Charcoal
+                - title: Pulverized Obsidian
+            - title: Nuggets
+              url: nuggets/
+              items:
+                - title: Copper
+                - title: Tin
+                - title: Silver
+                - title: Lead
+                - title: Aluminum
+                - title: Nickel
+                - title: Platinum
+                - title: Iridium
+                - title: Mana Infused
+                - title: Steel
+                - title: Electrum
+                - title: Invar
+                - title: Bronze
+                - title: Constantan
+                - title: Signalum
+                - title: Lumium
+                - title: Enderium
+                - title: Diamond
+                - title: Emerald
+            - title: Gears
+              url: gears/
+              items:
+                - title: Iron
+                - title: Gold
+                - title: Copper
+                - title: Tin
+                - title: Silver
+                - title: Lead
+                - title: Aluminum
+                - title: Nickel
+                - title: Platinum
+                - title: Iridium
+                - title: Mana Infused
+                - title: Steel
+                - title: Electrum
+                - title: Invar
+                - title: Bronze
+                - title: Constantan
+                - title: Signalum
+                - title: Lumium
+                - title: Enderium
+            - title: Plates
+              url: plates/
+              items:
+                - title: Iron
+                - title: Gold
+                - title: Copper
+                - title: Tin
+                - title: Silver
+                - title: Lead
+                - title: Aluminum
+                - title: Nickel
+                - title: Platinum
+                - title: Iridium
+                - title: Mana Infused
+                - title: Steel
+                - title: Electrum
+                - title: Invar
+                - title: Bronze
+                - title: Constantan
+                - title: Signalum
+                - title: Lumium
+                - title: Enderium
+            - title: Coins
+              url: coins/
+              items:
+                - title: Iron
+                - title: Gold
+                - title: Copper
+                - title: Tin
+                - title: Silver
+                - title: Lead
+                - title: Aluminum
+                - title: Nickel
+                - title: Platinum
+                - title: Iridium
+                - title: Mana Infused
+                - title: Steel
+                - title: Electrum
+                - title: Invar
+                - title: Bronze
+                - title: Constantan
+                - title: Signalum
+                - title: Lumium
+                - title: Enderium
+            - title: Elemental
+              url: elemental/
+              items:
+                - title: Blizz Rod
+                - title: Blizz Powder
+                - title: Blitz Rod
+                - title: Blitz Powder
+                - title: Basalz Rod
+                - title: Basalz Powder
+                - title: Pyrotheum Dust
+                  url: pyrotheum-dust/
+                - title: Cryotheum Dust
+                  url: cryotheum-dust/
+                - title: Aerotheum Dust
+                  url: aerotheum-dust/
+                - title: Petrotheum Dust
+                  url: petrotheum-dust/
+            - title: Parts
+              url: parts/
+              items:
+                - title: Redstone Reception Coil
+                - title: Redstone Transmission Coil
+                - title: Redstone Conductance Coil
+                - title: Redstone Servo
+            - title: Other
+              url: other/
+              items:
+                - title: Bitumen
+                - title: Cinnabar
+                  url: cinnabar/
+                - title: Coal Coke
+                - title: Destabilized Clathrate
+                - title: Energized Clathrate
+                - title: Geode
+                - title: Mana Dust
+                  url: mana-dust/
+                - title: Niter
+                  url: niter/
+                - title: Phyto-Gro
+                  url: phyto-gro/
+                - title: Rich Phyto-Gro
+                - title: Fluxed Phyto-Gro
+                - title: Rosin
+                - title: Sawdust
+                  url: sawdust/
+                - title: Compressed Sawdust
+                - title: Slag
+                  url: slag/
+                - title: Rich Slag
+                - title: Sulfur
+                  url: sulfur/
+                - title: Tar
+        - title: Tools
+          url: tools/
+          items:
+            - title: Crescent Hammer
+              url: crescent-hammer/
+            - title: Forge Lexicon
+              url: forge-lexicon/
+            - title: Multimeter
+              url: multimeter/
+            - title: Redprint
+              url: redprint/
+        - title: Other
+          url: other/
+          items:
+            - title: Signalum Security Lock
+              url: signalum-security-lock/
+            - title: Schematic
+              url: schematic/
+    - title: Blocks
+      url: blocks/
+      groups:
+        - title: Metal
+          url: metal/
+          items:
+            - title: Copper
+            - title: Tin
+            - title: Silver
+            - title: Lead
+            - title: Aluminum
+            - title: Nickel
+            - title: Platinum
+            - title: Iridium
+            - title: Mana Infused
+            - title: Steel
+            - title: Electrum
+            - title: Invar
+            - title: Bronze
+            - title: Constantan
+            - title: Signalum
+            - title: Lumium
+            - title: Enderium
+        - title: Decorative
+          url: decorative/
+          items:
+            - title: Hardened Glass
+              url: hardened-glass/
+            - title: Rockwool
+              url: rockwool/
+    - title: Fluids
+      url: fluids/
+      groups:
+        - title: Molten
+          url: molten/
+          items:
+            - title: Destabilized Redstone
+              url: destabilized-redstone/
+            - title: Energized Glowstone
+              url: energized-glowstone/
+            - title: Resonant Ender
+              url: resonant-ender/
+        - title: Elemental
+          url: elemental/
+          items:
+            - title: Blazing Pyrotheum
+              url: blazing-pyrotheum/
+            - title: Gelid Cryotheum
+              url: gelid-cryotheum/
+            - title: Zephyrean Aerotheum
+              url: zephyrean-aerotheum/
+            - title: Tectonic Petrotheum
+              url: tectonic-petrotheum/
+        - title: Fuel
+          url: fuel/
+          items:
+            - title: Liquifacted Coal
+              url: liquifacted-coal/
+            - title: Crude Oil
+            - title: Tree Oil
+            - title: Naphtha
+            - title: Refined Fuel
+        - title: Tree
+          url: tree/
+          items:
+            - title: Resin
+            - title: Sap
+        - title: Other
+          url: other/
+          items:
+            - title: Creosote Oil
+            - title: Mushroom Stew
+            - title: Steam
+              url: steam/
+            - title: Syrup
+            - title: Primal Mana
+              url: primal-mana/
+    - title: Equipment
+      url: equipment/
+      groups:
+        - items:
+            - title: Armor
+              url: armor/
+            - title: Axes
+              url: axes/
+            - title: Bows
+              url: bows/
+            - title: Fishing Rods
+              url: fishing-rods/
+            - title: Hammers
+            - title: Hoes
+            - title: Pickaxes
+              url: pickaxes/
+            - title: Shears
+              url: shears/
+            - title: Shields
+            - title: Shovels
+              url: shovels/
+            - title: Sickles
+              url: sickles/
+            - title: Swords
+              url: swords/
+    - title: Other
+      url: other/
+      groups:
+        - items:
+            - title: Mod Support
+              url: mod-support/
+
+thermal-expansion:
+  title: Thermal Expansion
+  url: thermal-expansion/
+  sections:
+    - groups:
+        - title: Machines
+          url: machines/
+          title-page: false
+          items:
+            - title: Redstone Furnace
+              url: redstone-furnace/
+            - title: Pulverizer
+              url: pulverizer/
+            - title: Sawmill
+              url: sawmill/
+            - title: Induction Smelter
+              url: induction-smelter/
+            - title: Phytogenic Insolator
+              url: phytogenic-insolator/
+            - title: Compactor
+            - title: Magma Crucible
+              url: magma-crucible/
+            - title: Fractionating Still
+            - title: Fluid Transposer
+              url: fluid-transposer/
+            - title: Energetic Infuser
+              url: energetic-infuser/
+            - title: Centrifugal Separator
+            - title: Glacial Precipitator
+              url: glacial-precipitator/
+            - title: Igneous Extruder
+              url: igneous-extruder/
+        - title: Devices
+          url: devices/
+          title-page: false
+          items:
+            - title: Aqueous Accumulator
+              url: aqueous-accumulator/
+            - title: Nullifier
+              url: nullifier/
+            - title: Thermal Mediator
+              url: thermal-mediator/
+            - title: Arboreal Extractor
+            - title: Item Allocator
+              url: item-allocator/
+        - title: Dynamos
+          url: dynamos/
+          title-page: false
+          items:
+            - title: Steam Dynamo
+              url: steam-dynamo/
+            - title: Magmatic Dynamo
+              url: magmatic-dynamo/
+            - title: Compression Dynamo
+              url: compression-dynamo/
+            - title: Reactant Dynamo
+              url: reactant-dynamo/
+            - title: Enervation Dynamo
+              url: enervation-dynamo/
+            - title: Numismatic Dynamo
+        - title: Storage
+          url: storage/
+          items:
+            - title: Energy Cell
+              url: energy-cell/
+            - title: Flux Capacitor
+              url: flux-capacitor/
+            - title: Portable Tank
+              url: portable-tank/
+            - title: Cache
+              url: cache/
+            - title: Strongbox
+              url: strongbox/
+            - title: Satchel
+              url: satchel/
+        - title: Tiers
+          url: tiers/
+          title-page: false
+          items:
+            - title: Upgrade Kits
+              url: upgrade-kits/
+            - title: Conversion Kits
+              url: conversion-kits/
+        - title: Augments
+          url: augments/
+          title-page: false
+          groups:
+            - title: Machine
+              url: machine/
+              items:
+                - title: Auxiliary Reception Coil
+                - title: Auxiliary Sieve
+                - title: Nullification Chamber
+              groups:
+                - title: Redstone Furnace
+                  url: redstone-furnace/
+                  items:
+                    - title: Flux Anodizers
+                    - title: Pyrolytic Conversion
+                    - title: Trivection Chamber
+                - title: Pulverizer
+                  url: pulverizer/
+                  items:
+                    - title: Tectonic Initator
+                - title: Sawmill
+                  url: sawmill/
+                  items:
+                    - title: Resin Funnel
+                - title: Induction Smelter
+                  url: induction-smelter/
+                  items:
+                    - title: Pyro-Concentrator
+                - title: Phytogenic Insolator
+                  url: phytogenic-insolator/
+                  items:
+                    - title: Mycelium Substrate
+                    - title: Nether Substrate
+                    - title: Ender Substrate
+                    - title: Sapling Infuser
+                - title: Compactor
+                  url: compactor/
+                  items:
+                    - title: Numismatic Press
+                - title: Magma Crucible
+                  url: magma-crucible/
+                  items:
+                    - title: Pyroconvective Loop
+                - title: Energetic Infuser
+                  url: energetic-infuser/
+                  items:
+                    - title: Flux Linkage Concentrator
+                - title: Glacial Precipitator
+                  url: glacial-precipitator/
+                  items:
+                    - title: Flurry Stratum
+                    - title: Permafrost Compressor
+                - title: Igneous Extruder
+                  url: igneous-extruder/
+                  items:
+                    - title: Andesitic Subduction
+                    - title: Dioritic Subduction
+                    - title: Granitic Subduction
+                    - title: Pyroclastic Injection
+            - title: Dynamo
+              url: dynamo/
+              items:
+                - title: Auxiliary Transmission Coil
+                - title: Boiler Conversion
+                - title: Excitation Field Limiter
+                - title: Fuel Catalyzer
+                - title: Transmission Coil Ducting
+              groups:
+                - title: Steam
+                  url: steam/
+                  items:
+                    - title: Turbine Conversion
+                - title: Magmatic
+                  url: magmatic/
+                  items:
+                    - title: Isentropic Reservoir
+                - title: Compression
+                  url: compression/
+                  items:
+                    - title: Closed-Loop Cooling
+                    - title: Ignition Plugs
+                - title: Reactant
+                  url: reactant/
+                  items:
+                    - title: Elemental Catalyzer
+                - title: Numismatic
+                  url: numismatic/
+                  items:
+                    - title: Lapidary Calibration
+        - title: Items
+          url: items/
+          items:
+            - title: Machine Frame
+            - title: Device Frame
+            - title: Energy Cell Frame
+            - title: Florb
+              url: florb/
+            - title: Magmatic Florb
+        - title: Other
+          url: other/
+          items:
+            - title: Mod Support
+              url: mod-support/
+
+thermal-dynamics:
+  title: Thermal Dynamics
+  url: thermal-dynamics/
+  sections:
+    - groups:
+        - title: Ducts
+          url: ducts/
+          items:
+            - title: Fluxducts
+              url: fluxducts/
+            - title: Fluiducts
+              url: fluiducts/
+            - title: Itemducts
+              url: itemducts/
+            - title: Structuralduct
+              url: structuralduct/
+            - title: Viaducts
+              url: viaducts/
+        - title: Attachments
+          url: attachments/
+          items:
+            - title: Covers
+              url: covers/
+            - title: Servos
+              url: servos/
+            - title: Filters
+              url: filters/
+            - title: Retrievers
+              url: retrievers/
+
+thermal-cultivation:
+  title: Thermal Cultivation
+  url: thermal-cultivation/
+  sections:
+    - groups:
+        - items:
+            - title: Watering Can
+              url: watering-can/
+
+redstone-arsenal:
+  title: Redstone Arsenal
+  url: redstone-arsenal/
+  sections:
+    - groups:
+        - title: Tools
+          url: tools/
+          items:
+            - title: Flux-Infused Pickaxe
+              url: flux-infused-pickaxe/
+            - title: Flux-Infused Shovel
+              url: flux-infused-shovel/
+            - title: Flux-Infused Axe
+              url: flux-infused-axe/
+            - title: Flux-Infused Fishing Rod
+              url: flux-infused-fishing-rod/
+            - title: Flux-Infused Hammer
+              url: flux-infused-hammer/
+            - title: Flux-Infused Sickle
+              url: flux-infused-sickle/
+            - title: Flux-Infused OmniWrench
+              url: flux-infused-omniwrench/
+        - title: Weapons
+          url: weapons/
+          items:
+            - title: Flux-Infused Sword
+              url: flux-infused-sword/
+            - title: Flux-Infused Bow
+              url: flux-infused-bow/
+            - title: Flux-Infused BattleWrench
+              url: flux-infused-battlewrench/
+            - title: Flux-Infused Shield
+              url: flux-infused-shield/
+            - title: Flux-Infused Quiver
+              url: flux-infused-quiver/
+        - title: Armor
+          url: armor/
+          items:
+            - title: Flux-Infused Helm
+            - title: Flux-Infused Chestplate
+            - title: Flux-Infused Leggings
+            - title: Flux-Infused Boots
+        - title: Materials
+          url: materials/
+          items:
+            - title: Fluxed Electrum Ingot
+              url: fluxed-electrum-ingot/
+            - title: Fluxed Electrum Blend
+              url: fluxed-electrum-blend/
+            - title: Fluxed Electrum Nugget
+              url: fluxed-electrum-nugget/
+            - title: Fluxed Electrum Gear
+              url: fluxed-electrum-gear/
+            - title: Fluxed Electrum Plate
+              url: fluxed-electrum-plate/
+            - title: Fluxed Electrum Block
+              url: fluxed-electrum-block/
+            - title: Flux Crystal
+              url: flux-crystal/
+            - title: Flux Crystal Block
+              url: flux-crystal-block/
+            - title: Obsidian Rod
+              url: obsidian-rod/
+            - title: Flux-Infused Obsidian Rod
+              url: flux-infused-obsidian-rod/
+            - title: Fluxed Armor Plating
+              url: fluxed-armor-plating/

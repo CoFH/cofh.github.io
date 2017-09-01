@@ -2,24 +2,16 @@
 title: Documentation
 ---
 
-This section of the site explains the various Minecraft mods of Team CoFH. Click
-a link in the sidebar to begin.
+### [Terminology](/docs/terminology/)
 
+### Core
+* [Redstone Flux](/docs/redstone-flux/)
+* [CoFH Core](/docs/cofh-core/)
+* [CoFH World](/docs/cofh-world/)
 
-Progress
---------
-{:.uk-margin-large-top}
-
-**ATTENTION:** These progress bars are for the progress of the documentation,
-NOT the mods. The mods are being worked on.
-
-Site last updated: {{ site.time }}
-
-{% include docprogress.html mod='redstone-flux' modname='Redstone Flux' %}
-{% include docprogress.html mod='cofh-core' modname='CoFH Core' %}
-{% include docprogress.html mod='cofh-world' modname='CoFH World' %}
-{% include docprogress.html mod='thermal-foundation' modname='Thermal Foundation' %}
-{% include docprogress.html mod='thermal-expansion' modname='Thermal Expansion' %}
-{% include docprogress.html mod='thermal-dynamics' modname='Thermal Dynamics' %}
-{% include docprogress.html mod='thermal-cultivation' modname='Thermal Cultivation' %}
-{% include docprogress.html mod='redstone-arsenal' modname='Redstone Arsenal' %}
+### Thermal Series
+* [Thermal Foundation](/docs/thermal-foundation/)
+* [Thermal Expansion](/docs/thermal-expansion/)
+* [Thermal Dynamics](/docs/thermal-dynamics/)
+* [Thermal Cultivation](/docs/thermal-cultivation/)
+* [Redstone Arsenal](/docs/redstone-arsenal/)
