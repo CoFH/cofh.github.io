@@ -1,5 +1,5 @@
---- 
-title: Fluxducts 
+---
+title: Fluxducts
 recipes:
   crafting:
     - fluxduct-basic
@@ -15,11 +15,15 @@ recipes:
     - fluxduct-resonant-empty-one
     - fluxduct-resonant-empty-three
     - fluxduct-super-empty
---- 
+---
 
 ![](/assets/images/thermal-dynamics/fluxducts.png "Regular, Hardened, Redstone, Signalum, Resonant and Cryo-Stabilized")
 
-**Fluxducts** are blocks added by Thermal Dynamics. They transport [Redstone Flux](/docs/redstone-flux/about/redstone-flux-a-primer/) between blocks that can store, generate or use RF. There are several types of Fluxducts, they can double as an [Itemduct](/docs/thermal-dynamics/ducts/itemducts/), or a [Fluiduct](/docs/thermal-dynamics/ducts/fluiducts/).
+**Fluxducts** are blocks added by Thermal Dynamics. They transport [Redstone
+Flux](/docs/redstone-flux/) between blocks that can store, generate or use RF.
+There are several types of Fluxducts, they can double as an
+[Itemduct](/docs/thermal-dynamics/ducts/itemducts/), or a
+[Fluiduct](/docs/thermal-dynamics/ducts/fluiducts/).
 
 Every type of Fluxduct has a limit on how much energy it can transport.
 
@@ -31,16 +35,16 @@ Obtaining
 
 ## Crafting
 
-**Redstone Energy Fluxduct**  
-![](/assets/images/recipes/redstone-fluxduct.png "Redstone Energy Fluxduct recipe")  
+**Redstone Energy Fluxduct**
+![](/assets/images/recipes/redstone-fluxduct.png "Redstone Energy Fluxduct recipe")
 [Fluid Transposer](/docs/thermal-expansion/machines/fluid-transposer/)
 
 *   200 mB [Destabilized Redstone](/docs/thermal-foundation/fluids/destabilized-redstone/)
 *   [Redstone Energy Fluxduct (Empty)](/docs/thermal-dynamics/ducts/fluxducts/)
 
 
-**Cryo-Stabilized Fluxduct**  
-![](/assets/images/recipes/cryo-stabilized-fluxduct.png "Cryo-Stabilized Fluxduct recipe")  
+**Cryo-Stabilized Fluxduct**
+![](/assets/images/recipes/cryo-stabilized-fluxduct.png "Cryo-Stabilized Fluxduct recipe")
 [Fluid Transposer](/docs/thermal-expansion/machines/fluid-transposer/)
 
 *   500 mB [Gelid Cryotheum](/docs/thermal-foundation/fluids/gelid-cryotheum/)

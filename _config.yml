@@ -64,19 +64,6 @@ defaults:
     values:
       nav: redstone-arsenal
       mod: Redstone Arsenal
-  - scope:
-      path: "docs/minefactory-reloaded"
-      type: pages
-    values:
-      nav: minefactory-reloaded
-      mod: MineFactory Reloaded
-  - scope:
-      path: "docs/nether-ores"
-      type: pages
-    values:
-      nav: nether-ores
-      mod: Nether Ores
-
 
 exclude:
   - README.md

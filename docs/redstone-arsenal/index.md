@@ -11,9 +11,6 @@ powerful [Redstone Flux](/docs/redstone-flux/)-powered tools, weapons and armor,
 as well as unique materials that are used to build them.
 
 
-<!-- overview of stuff in the mod goes here -->
-
-
 <div class="uk-margin-top uk-button-group">
     <a class="uk-button uk-button-large uk-button-success uk-text-bold" href="/downloads/">Download</a>
     <a class="uk-button uk-button-large" href="https://github.com/CoFH/RedstoneArsenal">GitHub</a>

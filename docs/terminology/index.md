@@ -36,9 +36,8 @@ wide variety of other mods.
 Type of matter that cannot be stored in inventories like items, but must be
 stored in tanks instead, or in fluid container items like buckets. Fluid amounts
 are expressed in [millibuckets](#millibucket-mb). [Thermal
-Foundation](/docs/thermal-foundation/) and [MineFactory
-Reloaded](/docs/minefactory-reloaded/) both add various kinds of fluids. Water
-and lava from vanilla Minecraft are also considered fluids.
+Foundation](/docs/thermal-foundation/) adds various kinds of fluids. Water and
+lava from vanilla Minecraft are also considered fluids.
 
 ### Inventory
 Anything that can hold items is considered an inventory. This includes chests,

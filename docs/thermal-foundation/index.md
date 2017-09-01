@@ -12,9 +12,6 @@ as well as ways to obtain them. It also provides new sets of weapons, tools and
 armor made of various materials.
 
 
-<!-- overview of stuff in the mod goes here -->
-
-
 <div class="uk-margin-top uk-button-group">
     <a class="uk-button uk-button-large uk-button-success uk-text-bold" href="/downloads/">Download</a>
     <a class="uk-button uk-button-large" href="https://github.com/CoFH/ThermalFoundation">GitHub</a>

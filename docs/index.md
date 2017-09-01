@@ -2,7 +2,7 @@
 title: Documentation
 ---
 
-### [Terminology](/docs/terminology/)
+[Terminology](/docs/terminology/)
 
 ### Core
 * [Redstone Flux](/docs/redstone-flux/)

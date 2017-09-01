@@ -12,9 +12,6 @@ upgrade them. Most of this technology works with [Redstone
 Flux](/docs/redstone-flux/).
 
 
-<!-- overview of stuff in the mod goes here -->
-
-
 <div class="uk-margin-top uk-button-group">
     <a class="uk-button uk-button-large uk-button-success uk-text-bold" href="/downloads/">Download</a>
     <a class="uk-button uk-button-large" href="https://github.com/CoFH/ThermalExpansion">GitHub</a>

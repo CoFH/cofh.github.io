@@ -248,9 +248,10 @@ thermal-foundation:
                 - title: Bitumen
                 - title: Cinnabar
                   url: cinnabar/
-                - title: Coal Coke
                 - title: Destabilized Clathrate
                 - title: Energized Clathrate
+                - title: Resonant Clathrate
+                - title: Coal Coke
                 - title: Geode
                 - title: Mana Dust
                   url: mana-dust/
