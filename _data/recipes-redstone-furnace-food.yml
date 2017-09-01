@@ -1,6 +1,6 @@
 name: Trivection Chamber
 site: te-docs
-url: machines/redstone-furnace/
+url: augments/machine/redstone-furnace/trivection-chamber/
 with-energy: true
 recipes:
   food-processing:

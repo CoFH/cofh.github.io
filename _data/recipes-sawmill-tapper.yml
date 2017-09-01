@@ -1,6 +1,6 @@
 name: Resin Funnel
 site: te-docs
-url: machines/sawmill/
+url: augments/machine/sawmill/resin-funnel/
 with-energy: true
 recipes:
   wood-processing-oak:

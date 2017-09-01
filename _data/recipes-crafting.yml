@@ -2837,7 +2837,7 @@ recipes:
     data:
       rows:
         - [null, item: [redstone]]
-        - [item: [ingot-lead], item: [ingot-copper], item: [ingot-invar]]
+        - [item: [ingot-lead], item: [ingot-copper], item: [ingot-lead]]
         - [item: [redstone], item: [sulfur], item: [redstone]]
       result:
         item: [flux-capacitor-basic]

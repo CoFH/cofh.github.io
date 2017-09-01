@@ -1,6 +1,6 @@
 name: Flux Anodizers
 site: te-docs
-url: machines/redstone-furnace/
+url: augments/machine/redstone-furnace/flux-anodizers/
 with-energy: true
 recipes:
   ore-processing-copper:

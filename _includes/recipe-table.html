@@ -6,7 +6,9 @@
     <table class="uk-table uk-table-striped cofh-recipe-table">
         <thead>
             <tr>
-                <th>Result(s)</th>
+                {% unless include.no-result %}
+                    <th>Result(s)</th>
+                {% endunless %}
                 <th>Ingredients</th>
                 {% if type_data.with-energy %}
                     <th>Energy</th>
@@ -20,21 +22,23 @@
                 {% assign recipe_data = type_data.recipes[recipe] %}
 
                 <tr>
-                    <td class="uk-text-center cofh-nowrap">
-                        {% for result in recipe_data.results %}
-                            {% if type_data.all-results-bold or forloop.first %}
-                                <strong>
-                            {% endif %}
+                    {% unless include.no-result %}
+                        <td class="uk-text-center cofh-nowrap">
+                            {% for result in recipe_data.results %}
+                                {% if type_data.all-results-bold or forloop.first %}
+                                    <strong>
+                                {% endif %}
 
-                            {% include recipe-table-item.html item=result type='result' first=forloop.first %}
+                                {% include recipe-table-item.html item=result type='result' first=forloop.first %}
 
-                            {% if type_data.all-results-bold or forloop.first %}
-                                </strong>
-                            {% endif %}
+                                {% if type_data.all-results-bold or forloop.first %}
+                                    </strong>
+                                {% endif %}
 
-                            <br />
-                        {% endfor %}
-                    </td>
+                                <br />
+                            {% endfor %}
+                        </td>
+                    {% endunless %}
 
                     <td>
                         {% for ingr in recipe_data.ingredients %}

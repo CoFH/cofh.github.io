@@ -89,6 +89,7 @@ thermal-foundation:
               url: ingots/
               items:
                 - title: Copper
+                  url: copper-ingot/
                 - title: Tin
                 - title: Silver
                 - title: Lead
