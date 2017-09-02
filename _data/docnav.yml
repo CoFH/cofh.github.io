@@ -121,6 +121,7 @@ thermal-foundation:
                 - title: Lumium
                   url: lumium-ingot/
                 - title: Enderium
+                  url: enderium-ingot/
             - title: Dusts
               url: dusts/
               items:
