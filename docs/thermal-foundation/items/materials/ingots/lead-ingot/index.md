@@ -8,9 +8,9 @@ recipes:
     - ore-processing-lead
     - ingot-lead-from-dust
   crafting:
-    - pyrotheum-dust-lead
     - pyrotheum-ore-lead
     - petrotheum-pyrotheum-ore-lead
+    - pyrotheum-dust-lead
     - ingot-lead-from-nuggets
     - ingot-lead-from-block
   redstone-furnace-ore:

@@ -8,9 +8,9 @@ recipes:
     - ore-processing-silver
     - ingot-silver-from-dust
   crafting:
-    - pyrotheum-dust-silver
     - pyrotheum-ore-silver
     - petrotheum-pyrotheum-ore-silver
+    - pyrotheum-dust-silver
     - ingot-silver-from-nuggets
     - ingot-silver-from-block
   redstone-furnace-ore:

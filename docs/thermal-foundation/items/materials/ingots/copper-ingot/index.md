@@ -8,9 +8,9 @@ recipes:
     - ore-processing-copper
     - ingot-copper-from-dust
   crafting:
-    - pyrotheum-dust-copper
     - pyrotheum-ore-copper
     - petrotheum-pyrotheum-ore-copper
+    - pyrotheum-dust-copper
     - ingot-copper-from-nuggets
     - ingot-copper-from-block
   redstone-furnace-ore:

@@ -97,6 +97,7 @@ thermal-foundation:
                 - title: Lead
                   url: lead-ingot/
                 - title: Aluminum
+                  url: aluminum-ingot/
                 - title: Nickel
                 - title: Platinum
                 - title: Iridium

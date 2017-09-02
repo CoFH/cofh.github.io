@@ -8,9 +8,9 @@ recipes:
     - ore-processing-tin
     - ingot-tin-from-dust
   crafting:
-    - pyrotheum-dust-tin
     - pyrotheum-ore-tin
     - petrotheum-pyrotheum-ore-tin
+    - pyrotheum-dust-tin
     - ingot-tin-from-nuggets
     - ingot-tin-from-block
   redstone-furnace-ore:
