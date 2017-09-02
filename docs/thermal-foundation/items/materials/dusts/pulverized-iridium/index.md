@@ -1,0 +1,49 @@
+---
+title: Pulverized Iridium
+recipes:
+  crafting:
+    - petrotheum-ingot-iridium
+    - petrotheum-ore-iridium
+  pulverizer:
+    - dust-iridium
+    - ore-processing-iridium
+    - ore-processing-platinum
+  pulverizer-petrotheum:
+    - ore-processing-iridium
+    - ore-processing-platinum
+usage-recipes:
+  crafting:
+    - pyrotheum-dust-iridium
+  smelter:
+    - dust-smelting-iridium
+    - hardened-glass-iridium
+---
+
+![Pulverized iridium](/assets/images/thermal-foundation/dust-iridium.png){:style="height: 128px"}
+
+
+**Pulverized iridium** is a raw material. It is the dust form of
+[iridium](/docs/thermal-foundation/items/materials/ingots/iridium-ingot/).
+
+
+Obtaining
+---------
+
+### Pulverizer
+{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+
+### Pulverizer with Tectonic Initiator
+{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.recipes.pulverizer-petrotheum no-result=true %}
+
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
