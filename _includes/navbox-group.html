@@ -23,16 +23,7 @@
                     {% endif %}
 
                     {% for item in include.group.items %}
-                        {% assign item_url = null %}
-                        {% if item.url %}
-                            {% capture item_url %}{{include.base_url}}{{include.group.url}}{{item.url}}{% endcapture %}
-                        {% endif %}
-
-                        {% include navbox-link.html page_url=include.page_url link_url=item_url text=item.title %}
-
-                        {% unless forloop.last %}
-                            <span class="uk-text-bold">&#8729;</span>
-                        {% endunless %}
+                        {% include navbox-item.html page_url=include.page_url base_url=include.base_url group=include.group item=item last=forloop.last %}
                     {% endfor %}
 
                     {% if include.group.groups %}

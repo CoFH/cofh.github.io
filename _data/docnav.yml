@@ -259,9 +259,11 @@ thermal-foundation:
                 - title: Bitumen
                 - title: Cinnabar
                   url: cinnabar/
-                - title: Destabilized Clathrate
-                - title: Energized Clathrate
-                - title: Resonant Clathrate
+                - title: Clathrate
+                  subitems:
+                    - title: Destabilized
+                    - title: Energized
+                    - title: Resonant
                 - title: Coal Coke
                 - title: Geode
                 - title: Mana Dust
@@ -270,15 +272,18 @@ thermal-foundation:
                   url: niter/
                 - title: Phyto-Gro
                   url: phyto-gro/
-                - title: Rich Phyto-Gro
-                - title: Fluxed Phyto-Gro
+                  subitems:
+                    - title: Rich
+                    - title: Fluxed
                 - title: Rosin
                 - title: Sawdust
                   url: sawdust/
-                - title: Compressed Sawdust
+                  subitems:
+                    - title: Compressed
                 - title: Slag
                   url: slag/
-                - title: Rich Slag
+                  subitems:
+                    - title: Rich
                 - title: Sulfur
                   url: sulfur/
                 - title: Tar

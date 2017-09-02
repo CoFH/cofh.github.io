@@ -1,0 +1,26 @@
+{% assign item_url = null %}
+{% if include.item.url %}
+    {% capture item_url %}{{include.base_url}}{{include.group.url}}{{include.item.url}}{% endcapture %}
+{% endif %}
+
+{% if include.item.subitems and item_url == null %}
+    {{ include.item.title }}
+{% else %}
+    {% include navbox-link.html page_url=include.page_url link_url=item_url text=include.item.title %}
+{% endif %}
+
+{% if include.item.subitems %}
+    {% capture subitems %}
+        {% for subitem in include.item.subitems %}
+            {% include navbox-item.html page_url=include.page_url base_url=include.base_url group=include.group item=subitem last=forloop.last %}
+        {% endfor %}
+    {% endcapture %}
+
+    <span style="font-size: 90%">
+        ({{subitems | strip}})
+    </span>
+{% endif %}
+
+{% unless include.last %}
+    <span class="uk-text-bold">&#8729;</span>
+{% endunless %}
