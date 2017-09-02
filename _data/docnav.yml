@@ -126,6 +126,7 @@ thermal-foundation:
               url: dusts/
               items:
                 - title: Pulverized Iron
+                  url: pulverized-iron/
                 - title: Pulverized Gold
                 - title: Pulverized Copper
                 - title: Pulverized Tin
