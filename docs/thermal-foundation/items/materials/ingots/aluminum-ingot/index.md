@@ -66,9 +66,9 @@ usage-recipes:
 ![Aluminum ingot](/assets/images/thermal-foundation/ingot-aluminum.png){:style="height: 128px"}
 
 
-**Aluminum ingots** are raw materials. They are unobtainable by default, because
-[aluminum ore](/docs/thermal-foundation/world/ores/aluminum-ore/) does not
-generate in the world by default.
+**Aluminum ingots** are raw materials obtained from [aluminum
+ore](/docs/thermal-foundation/world/ores/aluminum-ore/). They are unobtainable
+by default, because aluminum ore does not generate in the world by default.
 
 
 Obtaining

@@ -84,7 +84,8 @@ usage-recipes:
 ![Copper ingot](/assets/images/thermal-foundation/ingot-copper.png){:style="height: 128px"}
 
 
-**Copper ingots** are raw materials.
+**Copper ingots** are raw materials obtained from [copper
+ore](/docs/thermal-foundation/world/ores/copper-ore/).
 
 
 Obtaining

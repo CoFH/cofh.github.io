@@ -82,7 +82,8 @@ usage-recipes:
 ![Tin ingot](/assets/images/thermal-foundation/ingot-tin.png){:style="height: 128px"}
 
 
-**Tin ingots** are raw materials.
+**Tin ingots** are raw materials obtained from [tin
+ore](/docs/thermal-foundation/world/ores/tin-ore/).
 
 
 Obtaining

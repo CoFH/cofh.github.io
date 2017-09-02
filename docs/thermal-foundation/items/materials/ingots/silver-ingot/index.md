@@ -78,7 +78,9 @@ usage-recipes:
 ![Silver ingot](/assets/images/thermal-foundation/ingot-silver.png){:style="height: 128px"}
 
 
-**Silver ingots** are raw materials.
+**Silver ingots** are raw materials obtained from [silver
+ore](/docs/thermal-foundation/world/ores/silver-ore/) and [lead
+ore](/docs/thermal-foundation/world/ores/lead-ore/).
 
 
 Obtaining

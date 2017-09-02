@@ -94,7 +94,9 @@ usage-recipes:
 ![Lead ingot](/assets/images/thermal-foundation/ingot-lead.png){:style="height: 128px"}
 
 
-**Lead ingots** are raw materials.
+**Lead ingots** are raw materials obtained from [lead
+ore](/docs/thermal-foundation/world/ores/lead-ore/) and [silver
+ore](/docs/thermal-foundation/world/ores/silver-ore/).
 
 
 Obtaining
