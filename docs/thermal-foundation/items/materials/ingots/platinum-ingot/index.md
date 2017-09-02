@@ -1,7 +1,9 @@
 ---
 title: Platinum Ingot
 redirect_from:
+  - /docs/thermal-foundation/base-metals/shiny-metal/
   - /docs/thermal-foundation/base-metals/platinum/
+  - /docs/thermal-foundation/metals-and-alloys/shiny-metal/
   - /docs/thermal-foundation/metals-and-alloys/platinum/
 recipes:
   smelting:

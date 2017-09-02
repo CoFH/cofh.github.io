@@ -1,7 +1,9 @@
 ---
 title: Nickel Ingot
 redirect_from:
+  - /docs/thermal-foundation/base-metals/ferrous-metal/
   - /docs/thermal-foundation/base-metals/nickel/
+  - /docs/thermal-foundation/metals-and-alloys/ferrous-metal/
   - /docs/thermal-foundation/metals-and-alloys/nickel/
 recipes:
   smelting:
