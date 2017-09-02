@@ -109,6 +109,7 @@ thermal-foundation:
                 - title: Steel
                   url: steel-ingot/
                 - title: Electrum
+                  url: electrum-ingot/
                 - title: Invar
                 - title: Bronze
                 - title: Constantan
