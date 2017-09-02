@@ -2038,6 +2038,19 @@ recipes:
       result:
         item: [filter-reinforced]
         amount: 1
+  filter-reinforced-upgrade:
+    results:
+      - item: filter-reinforced
+    ingredients:
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/attachments/filters/">Filter</a>'
+      - item: ingot-electrum
+    data:
+      shapeless: true
+      rows:
+        - [item: [filter-basic, filter-hardened], item: [ingot-electrum]]
+      result:
+        item: [filter-reinforced]
+        amount: 1
   filter-reinforced-upgrade-from-basic:
     results:
       - item: filter-reinforced
@@ -2077,6 +2090,19 @@ recipes:
         - []
         - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
         - [item: [ingot-signalum], item: [paper], item: [ingot-signalum]]
+      result:
+        item: [filter-signalum]
+        amount: 1
+  filter-signalum-upgrade:
+    results:
+      - item: filter-signalum
+    ingredients:
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/attachments/filters/">Filter</a>'
+      - item: ingot-signalum
+    data:
+      shapeless: true
+      rows:
+        - [item: [filter-basic, filter-hardened, filter-reinforced], item: [ingot-signalum]]
       result:
         item: [filter-signalum]
         amount: 1
@@ -2132,6 +2158,19 @@ recipes:
         - []
         - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
         - [item: [ingot-enderium], item: [paper], item: [ingot-enderium]]
+      result:
+        item: [filter-resonant]
+        amount: 1
+  filter-resonant-upgrade:
+    results:
+      - item: filter-resonant
+    ingredients:
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/attachments/filters/">Filter</a>'
+      - item: ingot-enderium
+    data:
+      shapeless: true
+      rows:
+        - [item: [filter-basic, filter-hardened, filter-reinforced, filter-signalum], item: [ingot-enderium]]
       result:
         item: [filter-resonant]
         amount: 1
@@ -7238,6 +7277,19 @@ recipes:
       result:
         item: [retriever-reinforced]
         amount: 1
+  retriever-reinforced-upgrade:
+    results:
+      - item: retriever-reinforced
+    ingredients:
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/attachments/retrievers/">Retriever</a>'
+      - item: ingot-electrum
+    data:
+      shapeless: true
+      rows:
+        - [item: [retriever-basic, retriever-hardened], item: [ingot-electrum]]
+      result:
+        item: [retriever-reinforced]
+        amount: 1
   retriever-reinforced-upgrade-from-basic:
     results:
       - item: retriever-reinforced
@@ -7277,6 +7329,19 @@ recipes:
         - []
         - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
         - [item: [ingot-signalum], item: [eye-of-ender], item: [ingot-signalum]]
+      result:
+        item: [retriever-signalum]
+        amount: 1
+  retriever-signalum-upgrade:
+    results:
+      - item: retriever-signalum
+    ingredients:
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/attachments/retrievers/">Retriever</a>'
+      - item: ingot-signalum
+    data:
+      shapeless: true
+      rows:
+        - [item: [retriever-basic, retriever-hardened, retriever-reinforced], item: [ingot-signalum]]
       result:
         item: [retriever-signalum]
         amount: 1
@@ -7332,6 +7397,19 @@ recipes:
         - []
         - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
         - [item: [ingot-enderium], item: [eye-of-ender], item: [ingot-enderium]]
+      result:
+        item: [retriever-resonant]
+        amount: 1
+  retriever-resonant-upgrade:
+    results:
+      - item: retriever-resonant
+    ingredients:
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/attachments/retrievers/">Retriever</a>'
+      - item: ingot-enderium
+    data:
+      shapeless: true
+      rows:
+        - [item: [retriever-basic, retriever-hardened, retriever-reinforced, retriever-signalum], item: [ingot-enderium]]
       result:
         item: [retriever-resonant]
         amount: 1
@@ -7601,6 +7679,19 @@ recipes:
       result:
         item: [servo-reinforced]
         amount: 1
+  servo-reinforced-upgrade:
+    results:
+      - item: servo-reinforced
+    ingredients:
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/attachments/servos/">Servo</a>'
+      - item: ingot-electrum
+    data:
+      shapeless: true
+      rows:
+        - [item: [servo-basic, servo-hardened], item: [ingot-electrum]]
+      result:
+        item: [servo-reinforced]
+        amount: 1
   servo-reinforced-upgrade-from-basic:
     results:
       - item: servo-reinforced
@@ -7640,6 +7731,19 @@ recipes:
         - []
         - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
         - [item: [ingot-signalum], item: [redstone], item: [ingot-signalum]]
+      result:
+        item: [servo-signalum]
+        amount: 1
+  servo-signalum-upgrade:
+    results:
+      - item: servo-signalum
+    ingredients:
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/attachments/servos/">Servo</a>'
+      - item: ingot-signalum
+    data:
+      shapeless: true
+      rows:
+        - [item: [servo-basic, servo-hardened, servo-reinforced], item: [ingot-signalum]]
       result:
         item: [servo-signalum]
         amount: 1
@@ -7695,6 +7799,19 @@ recipes:
         - []
         - [item: [nugget-iron], item: [glass], item: [nugget-iron]]
         - [item: [ingot-enderium], item: [redstone], item: [ingot-enderium]]
+      result:
+        item: [servo-resonant]
+        amount: 1
+  servo-resonant-upgrade:
+    results:
+      - item: servo-resonant
+    ingredients:
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/attachments/servos/">Servo</a>'
+      - item: ingot-enderium
+    data:
+      shapeless: true
+      rows:
+        - [item: [servo-basic, servo-hardened, servo-reinforced, servo-signalum], item: [ingot-enderium]]
       result:
         item: [servo-resonant]
         amount: 1

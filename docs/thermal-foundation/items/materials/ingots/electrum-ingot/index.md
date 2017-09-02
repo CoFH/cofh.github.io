@@ -49,14 +49,11 @@ usage-recipes:
     - itemduct-energy-fast-three
     - itemduct-energy-fast-opaque-three
     - servo-reinforced
-    - servo-reinforced-upgrade-from-basic
-    - servo-reinforced-upgrade-from-hardened
+    - servo-reinforced-upgrade
     - filter-reinforced
-    - filter-reinforced-upgrade-from-basic
-    - filter-reinforced-upgrade-from-hardened
+    - filter-reinforced-upgrade
     - retriever-reinforced
-    - retriever-reinforced-upgrade-from-basic
-    - retriever-reinforced-upgrade-from-hardened
+    - retriever-reinforced-upgrade
     - watering-can-reinforced
     - axe-electrum
     - bow-electrum
