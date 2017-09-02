@@ -1715,8 +1715,9 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [dust-lead], item: [dust-lead], item: [bucket-ender]]
+        - [item: [dust-lead], item: [dust-lead]]
         - [item: [dust-lead], item: [dust-platinum]]
+        - [item: [bucket-ender]]
       result:
         item: [dust-enderium]
         amount: 4
@@ -1773,8 +1774,9 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [dust-tin], item: [dust-tin], item: [bucket-glowstone]]
+        - [item: [dust-tin], item: [dust-tin]]
         - [item: [dust-tin], item: [dust-silver]]
+        - [item: [bucket-glowstone]]
       result:
         item: [dust-lumium]
         amount: 4
@@ -1820,8 +1822,9 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [dust-copper], item: [dust-copper], item: [bucket-redstone]]
+        - [item: [dust-copper], item: [dust-copper]]
         - [item: [dust-copper], item: [dust-silver]]
+        - [item: [bucket-redstone]]
       result:
         item: [dust-signalum]
         amount: 4
