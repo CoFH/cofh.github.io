@@ -2,6 +2,10 @@ html {
     overflow-y: scroll;
 }
 
+*+h2 {
+    margin-top: 45px;
+}
+
 :target {
     background-color: rgba(255, 255, 0, 0.28);
 }
