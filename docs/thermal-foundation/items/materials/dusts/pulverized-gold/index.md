@@ -1,40 +1,38 @@
 ---
-title: Pulverized Iron
+title: Pulverized Gold
 recipes:
   crafting:
-    - petrotheum-ingot-iron
-    - petrotheum-ore-iron
+    - petrotheum-ingot-gold
+    - petrotheum-ore-gold
   pulverizer:
-    - dust-iron
-    - ore-processing-iron
-    - ore-processing-tin
-    - ore-processing-aluminum
+    - dust-gold
+    - ore-processing-gold
+    - ore-processing-copper
+    - ore-processing-mithril
   pulverizer-petrotheum:
-    - ore-processing-iron
-    - ore-processing-tin
-    - ore-processing-aluminum
+    - ore-processing-gold
+    - ore-processing-copper
+    - ore-processing-mithril
   centrifuge:
-    - dust-invar
+    - dust-electrum
 usage-recipes:
   crafting:
-    - pyrotheum-dust-iron
-    - dust-invar
+    - pyrotheum-dust-gold
+    - dust-electrum
+    - dust-fluxed-electrum-using-gold-and-silver
   smelting:
-    - ingot-iron-from-dust
+    - ingot-gold-from-dust
   smelter:
-    - dust-smelting-iron
-    - ingot-steel-from-dust-iron-and-coal-coke
-    - ingot-steel-from-dust-iron-and-dust-coal
-    - ingot-steel-from-dust-iron-and-dust-charcoal
-    - ingot-invar-from-dust-iron-and-dust-nickel
-    - ingot-invar-from-dust-iron-and-ingot-nickel
+    - dust-smelting-gold
+    - ingot-electrum-from-dust-gold-and-dust-silver
+    - ingot-electrum-from-dust-gold-and-ingot-silver
 ---
 
-![Pulverized iron](/assets/images/thermal-foundation/dust-iron.png){:style="height: 128px"}
+![Pulverized gold](/assets/images/thermal-foundation/dust-gold.png){:style="height: 128px"}
 
 
-**Pulverized iron** is a raw material. It is the dust form of
-[iron](https://minecraft.gamepedia.com/Iron_Ingot).
+**Pulverized gold** is a raw material. It is the dust form of
+[gold](https://minecraft.gamepedia.com/Gold_Ingot).
 
 
 Obtaining
