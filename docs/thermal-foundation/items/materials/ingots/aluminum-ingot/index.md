@@ -1,8 +1,5 @@
 ---
 title: Aluminum Ingot
-redirect_from:
-  - /docs/thermal-foundation/base-metals/aluminum/
-  - /docs/thermal-foundation/metals-and-alloys/aluminum/
 recipes:
   crafting:
     - pyrotheum-ore-aluminum
