@@ -107,6 +107,7 @@ thermal-foundation:
                 - title: Mana Infused
                   url: mana-infused-ingot/
                 - title: Steel
+                  url: steel-ingot/
                 - title: Electrum
                 - title: Invar
                 - title: Bronze
