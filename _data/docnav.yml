@@ -111,6 +111,7 @@ thermal-foundation:
                 - title: Electrum
                   url: electrum-ingot/
                 - title: Invar
+                  url: invar-ingot/
                 - title: Bronze
                 - title: Constantan
                 - title: Signalum
