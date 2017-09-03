@@ -337,11 +337,17 @@ thermal-foundation:
               url: elemental/
               items:
                 - title: Blizz Rod
+                  url: blizz-rod/
                 - title: Blizz Powder
+                  url: blizz-powder/
                 - title: Blitz Rod
+                  url: blitz-rod/
                 - title: Blitz Powder
+                  url: blitz-powder/
                 - title: Basalz Rod
+                  url: basalz-rod/
                 - title: Basalz Powder
+                  url: basalz-powder/
                 - title: Pyrotheum Dust
                   url: pyrotheum-dust/
                 - title: Cryotheum Dust
