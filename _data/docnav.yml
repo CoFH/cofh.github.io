@@ -150,12 +150,19 @@ thermal-foundation:
                 - title: Steel Blend
                   url: steel-blend/
                 - title: Electrum Blend
+                  url: electrum-blend/
                 - title: Invar Blend
+                  url: invar-blend/
                 - title: Bronze Blend
+                  url: bronze-blend/
                 - title: Constantan Blend
+                  url: constantan-blend/
                 - title: Signalum Blend
+                  url: signalum-blend/
                 - title: Lumium Blend
+                  url: lumium-blend/
                 - title: Enderium Blend
+                  url: enderium-blend/
                 - title: Pulverized Coal
                 - title: Pulverized Charcoal
                 - title: Pulverized Obsidian
