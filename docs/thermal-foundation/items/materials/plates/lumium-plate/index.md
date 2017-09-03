@@ -1,0 +1,30 @@
+---
+title: Lumium Plate
+recipes:
+  compactor-plate:
+    - plate-lumium-from-ingot
+    - plate-lumium-from-block
+usage-recipes:
+  crafting:
+    - augment-machine-insolator-tree
+---
+
+![Lumium plate](/assets/images/thermal-foundation/plate-lumium.png){:style="height: 128px"}
+
+
+**Lumium plates** are crafting materials made of
+[lumium](/docs/thermal-foundation/items/materials/ingots/lumium-ingot/).
+
+
+Obtaining
+---------
+
+### Compactor
+{% include recipe-table.html type='compactor-plate' recipes=page.recipes.compactor-plate no-result=true %}
+
+
+Usage
+-----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

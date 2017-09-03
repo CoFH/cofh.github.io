@@ -255,24 +255,43 @@ thermal-foundation:
               url: plates/
               items:
                 - title: Iron
+                  url: iron-plate/
                 - title: Gold
+                  url: gold-plate/
                 - title: Copper
+                  url: copper-plate/
                 - title: Tin
+                  url: tin-plate/
                 - title: Silver
+                  url: silver-plate/
                 - title: Lead
+                  url: lead-plate/
                 - title: Aluminum
+                  url: aluminum-plate/
                 - title: Nickel
+                  url: nickel-plate/
                 - title: Platinum
+                  url: platinum-plate/
                 - title: Iridium
+                  url: iridium-plate/
                 - title: Mana Infused
+                  url: mana-infused-plate/
                 - title: Steel
+                  url: steel-plate/
                 - title: Electrum
+                  url: electrum-plate/
                 - title: Invar
+                  url: invar-plate/
                 - title: Bronze
+                  url: bronze-plate/
                 - title: Constantan
+                  url: constantan-plate/
                 - title: Signalum
+                  url: signalum-plate/
                 - title: Lumium
+                  url: lumium-plate/
                 - title: Enderium
+                  url: enderium-plate/
             - title: Coins
               url: coins/
               items:
