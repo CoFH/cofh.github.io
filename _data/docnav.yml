@@ -164,8 +164,11 @@ thermal-foundation:
                 - title: Enderium Blend
                   url: enderium-blend/
                 - title: Pulverized Coal
+                  url: pulverized-coal/
                 - title: Pulverized Charcoal
+                  url: pulverized-charcoal/
                 - title: Pulverized Obsidian
+                  url: pulverized-obsidian/
             - title: Nuggets
               url: nuggets/
               items:

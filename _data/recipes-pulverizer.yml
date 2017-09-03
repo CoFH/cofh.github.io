@@ -279,7 +279,7 @@ recipes:
     data:
       input:
         item: [obsidian]
-      primary-out60t:
+      primary-output:
         item: [dust-obsidian]
         amount: 4
   dust-platinum:
