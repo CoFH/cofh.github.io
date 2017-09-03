@@ -116,3 +116,10 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* In real life, [invar](https://en.wikipedia.org/wiki/Invar) is an alloy known
+  for its low coefficient of thermal expansion.
