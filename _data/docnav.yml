@@ -214,24 +214,43 @@ thermal-foundation:
               url: gears/
               items:
                 - title: Iron
+                  url: iron-gear/
                 - title: Gold
+                  url: gold-gear/
                 - title: Copper
+                  url: copper-gear/
                 - title: Tin
+                  url: tin-gear/
                 - title: Silver
+                  url: silver-gear/
                 - title: Lead
+                  url: lead-gear/
                 - title: Aluminum
+                  url: aluminum-gear/
                 - title: Nickel
+                  url: nickel-gear/
                 - title: Platinum
+                  url: platinum-gear/
                 - title: Iridium
+                  url: iridium-gear/
                 - title: Mana Infused
+                  url: mana-infused-gear/
                 - title: Steel
+                  url: steel-gear/
                 - title: Electrum
+                  url: electrum-gear/
                 - title: Invar
+                  url: invar-gear/
                 - title: Bronze
+                  url: bronze-gear/
                 - title: Constantan
+                  url: constantan-gear/
                 - title: Signalum
+                  url: signalum-gear/
                 - title: Lumium
+                  url: lumium-gear/
                 - title: Enderium
+                  url: enderium-gear/
             - title: Plates
               url: plates/
               items:
