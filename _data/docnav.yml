@@ -173,24 +173,43 @@ thermal-foundation:
               url: nuggets/
               items:
                 - title: Copper
+                  url: copper-nugget/
                 - title: Tin
+                  url: tin-nugget/
                 - title: Silver
+                  url: silver-nugget/
                 - title: Lead
+                  url: lead-nugget/
                 - title: Aluminum
+                  url: aluminum-nugget/
                 - title: Nickel
+                  url: nickel-nugget/
                 - title: Platinum
+                  url: platinum-nugget/
                 - title: Iridium
+                  url: iridium-nugget/
                 - title: Mana Infused
+                  url: mana-infused-nugget/
                 - title: Steel
+                  url: steel-nugget/
                 - title: Electrum
+                  url: electrum-nugget/
                 - title: Invar
+                  url: invar-nugget/
                 - title: Bronze
+                  url: bronze-nugget/
                 - title: Constantan
+                  url: constantan-nugget/
                 - title: Signalum
+                  url: signalum-nugget/
                 - title: Lumium
+                  url: lumium-nugget/
                 - title: Enderium
+                  url: enderium-nugget/
                 - title: Diamond
+                  url: diamond-nugget/
                 - title: Emerald
+                  url: emerald-nugget/
             - title: Gears
               url: gears/
               items:
