@@ -296,24 +296,43 @@ thermal-foundation:
               url: coins/
               items:
                 - title: Iron
+                  url: iron-coin/
                 - title: Gold
+                  url: gold-coin/
                 - title: Copper
+                  url: copper-coin/
                 - title: Tin
+                  url: tin-coin/
                 - title: Silver
+                  url: silver-coin/
                 - title: Lead
+                  url: lead-coin/
                 - title: Aluminum
+                  url: aluminum-coin/
                 - title: Nickel
+                  url: nickel-coin/
                 - title: Platinum
+                  url: platinum-coin/
                 - title: Iridium
+                  url: iridium-coin/
                 - title: Mana Infused
+                  url: mana-infused-coin/
                 - title: Steel
+                  url: steel-coin/
                 - title: Electrum
+                  url: electrum-coin/
                 - title: Invar
+                  url: invar-coin/
                 - title: Bronze
+                  url: bronze-coin/
                 - title: Constantan
+                  url: constantan-coin/
                 - title: Signalum
+                  url: signalum-coin/
                 - title: Lumium
+                  url: lumium-coin/
                 - title: Enderium
+                  url: enderium-coin/
             - title: Elemental
               url: elemental/
               items:
