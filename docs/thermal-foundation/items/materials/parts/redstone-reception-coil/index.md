@@ -1,5 +1,7 @@
 ---
 title: Redstone Reception Coil
+redirect_from:
+  - /docs/thermal-expansion/materials/redstone-reception-coil/
 recipes:
   crafting:
     - redstone-coil-gold

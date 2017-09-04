@@ -1,5 +1,7 @@
 ---
 title: Redstone Servo
+redirect_from:
+  - /docs/thermal-expansion/materials/pneumatic-servo/
 recipes:
   crafting:
     - redstone-servo

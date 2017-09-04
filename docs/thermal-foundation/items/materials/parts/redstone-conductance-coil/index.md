@@ -1,5 +1,7 @@
 ---
 title: Redstone Conductance Coil
+redirect_from:
+  - /docs/thermal-expansion/materials/redstone-conductance-coil/
 recipes:
   crafting:
     - redstone-coil-electrum
