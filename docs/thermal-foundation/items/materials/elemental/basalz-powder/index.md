@@ -18,8 +18,10 @@ usage-recipes:
 
 
 **Basalz powder** is a material that is most commonly obtained from [basalz
-rods](/docs/thermal-foundation/items/materials/elemental/basalz-rod/). It is
-used to craft [petrotheum
+rods](/docs/thermal-foundation/items/materials/elemental/basalz-rod/). It is the
+earth elemental version of [blaze
+powder](https://minecraft.gamepedia.com/Blaze_Powder), and is used to craft
+[petrotheum
 dust](/docs/thermal-foundation/items/materials/elemental/petrotheum-dust/).
 
 

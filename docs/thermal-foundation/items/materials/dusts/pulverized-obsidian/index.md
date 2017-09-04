@@ -31,6 +31,10 @@ Obtaining
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
+### Basalzes
+A [basalz](/docs/thermal-foundation/world/mobs/basalz/) may drop up to two
+pieces of pulverized obsidian when killed by a player.
+
 ### Centrifugal Separator
 {% include recipe-table.html type='centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 

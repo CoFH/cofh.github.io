@@ -23,6 +23,33 @@ recipes:
     - hardened-glass-signalum
     - hardened-glass-lumium
     - hardened-glass-enderium
+usage-recipes:
+  crafting:
+    - flux-capacitor-reinforced
+    - upgrade-kit-reinforced
+    - augment-machine-pulverizer-petrotheum
+    - augment-machine-smelter-pyrotheum
+    - augment-dynamo-boiler
+    - augment-dynamo-magmatic-coolant
+    - augment-dynamo-compression-coolant
+    - augment-dynamo-compression-fuel
+    - augment-dynamo-reactant-elemental
+    - fluxduct-reinforced-empty
+    - fluxduct-super-empty
+    - fluiduct-hardened
+    - fluiduct-hardened-transparent-from-opaque
+    - fluiduct-energy-transparent-from-opaque
+    - fluiduct-super
+    - fluiduct-super-opaque
+    - fluiduct-super-transparent-from-opaque
+    - itemduct
+    - itemduct-transparent-from-opaque
+    - itemduct-fast-transparent-from-opaque
+    - itemduct-energy-transparent-from-opaque
+    - itemduct-energy-fast-transparent-from-opaque
+    - viaduct-frame
+    - viaduct-long-range
+    - watering-can-reinforced
 ---
 
 ![Hardened glass](/assets/images/thermal-foundation/hardened-glass.png){:style="height: 96px"}
@@ -57,3 +84,6 @@ type of metal, like [lumium](/docs/thermal-foundation/ingots/lumium-ingot/).
 Like [stained glass](https://minecraft.gamepedia.com/Stained_Glass), hardened
 glass blocks change the color of
 [beacon](https://minecraft.gamepedia.com/Beacon) beams that pass through them.
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

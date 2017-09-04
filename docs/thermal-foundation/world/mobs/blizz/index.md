@@ -35,7 +35,7 @@ and are rarer than most other mobs.
 Drops
 -----
 
-When killed, Blizzes may drop up to four
+When killed by a player, blizzes may drop up to four
 [snowballs](https://minecraft.gamepedia.com/Snowball), and may drop one [blizz
 rod](/docs/thermal-foundation/items/materials/elemental/blizz-rod/). They drop
 more items if a [Looting](https://minecraft.gamepedia.com/Looting) enchanted

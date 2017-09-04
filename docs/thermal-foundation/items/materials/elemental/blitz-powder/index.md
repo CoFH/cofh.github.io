@@ -18,8 +18,10 @@ usage-recipes:
 
 
 **Blitz powder** is a material that is most commonly obtained from [blitz
-rods](/docs/thermal-foundation/items/materials/elemental/blitz-rod/). It is used
-to craft [aerotheum
+rods](/docs/thermal-foundation/items/materials/elemental/blitz-rod/). It is the
+air elemental version of [blaze
+powder](https://minecraft.gamepedia.com/Blaze_Powder), and is used to craft
+[aerotheum
 dust](/docs/thermal-foundation/items/materials/elemental/aerotheum-dust/).
 
 

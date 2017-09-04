@@ -38,7 +38,7 @@ other mobs.
 Drops
 -----
 
-When killed, Blitzes may drop up to two pieces of
+When killed by a player, blitzes may drop up to two pieces of
 [niter](/docs/thermal-foundation/items/materials/other/niter/), and may drop one
 [blitz rod](/docs/thermal-foundation/items/materials/elemental/blitz-rod/). They
 drop more items if a [Looting](https://minecraft.gamepedia.com/Looting)

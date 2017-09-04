@@ -26,6 +26,12 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
+Any item that contains at least one
+[bucket](https://minecraft.gamepedia.com/Bucket) worth of [destabilized
+redstone](/docs/thermal-foundation/fluids/molten/destabilized-redstone/) may be
+used. Using a [portable tank](/docs/thermal-expansion/storage/portable-tank/)
+can make it easier to craft large amounts of signalum blend.
+
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 

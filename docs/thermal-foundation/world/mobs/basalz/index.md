@@ -38,7 +38,7 @@ than most other mobs.
 Drops
 -----
 
-When killed, Basalzes may drop up to two pieces of [pulverized
+When killed by a player, basalzes may drop up to two pieces of [pulverized
 obsidian](/docs/thermal-foundation/items/materials/dusts/pulverized-obsidian/),
 and may drop one [basalz
 rod](/docs/thermal-foundation/items/materials/elemental/basalz-rod/). They drop

@@ -9,6 +9,10 @@ recipes:
     - rockwool
   crafting:
     - rockwool-dyeing
+usage-recipes:
+  crafting:
+    - satchel-basic-using-rockwool
+    - augment-machine-secondary
 ---
 
 ![Rockwool](/assets/images/thermal-foundation/rockwool.gif){:style="height: 128px"}
@@ -28,3 +32,10 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 Unlike regular wool, rockwool can be dyed from any color into any other color.
+
+
+Usage
+-----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

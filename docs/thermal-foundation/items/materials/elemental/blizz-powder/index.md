@@ -18,8 +18,10 @@ usage-recipes:
 
 
 **Blizz powder** is a material that is most commonly obtained from [blizz
-rods](/docs/thermal-foundation/items/materials/elemental/blizz-rod/). It is used
-to craft [cryotheum
+rods](/docs/thermal-foundation/items/materials/elemental/blizz-rod/). It is the
+ice elemental version of [blaze
+powder](https://minecraft.gamepedia.com/Blaze_Powder), and is used to craft
+[cryotheum
 dust](/docs/thermal-foundation/items/materials/elemental/cryotheum-dust/).
 
 
