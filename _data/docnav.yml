@@ -360,9 +360,13 @@ thermal-foundation:
               url: parts/
               items:
                 - title: Redstone Reception Coil
+                  url: redstone-reception-coil/
                 - title: Redstone Transmission Coil
+                  url: redstone-transmission-coil/
                 - title: Redstone Conductance Coil
+                  url: redstone-conductance-coil/
                 - title: Redstone Servo
+                  url: redstone-servo/
             - title: Other
               url: other/
               items:
