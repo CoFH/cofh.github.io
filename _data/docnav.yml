@@ -371,6 +371,7 @@ thermal-foundation:
               url: other/
               items:
                 - title: Bitumen
+                  url: bitumen/
                 - title: Cinnabar
                   url: cinnabar/
                 - title: Clathrate
