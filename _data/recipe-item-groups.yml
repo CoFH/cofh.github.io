@@ -220,6 +220,54 @@ leaves:
     - leaves-jungle
     - leaves-acacia
     - leaves-dark-oak
+metal-ore:
+  name: Metal Ore
+  prefix:
+    ingredient: 'any'
+  items:
+    - ore-iron
+    - ore-gold
+    - ore-copper
+    - ore-tin
+    - ore-silver
+    - ore-lead
+    - ore-aluminum
+    - ore-nickel
+    - ore-platinum
+    - ore-iridium
+    - ore-mithril
+metal-ore-dust:
+  name: Pulverized Ore Metal
+  prefix:
+    ingredient: 'any'
+  items:
+    - dust-iron
+    - dust-gold
+    - dust-copper
+    - dust-tin
+    - dust-silver
+    - dust-lead
+    - dust-aluminum
+    - dust-nickel
+    - dust-platinum
+    - dust-iridium
+    - dust-mithril
+metal-ore-ingot:
+  name: Metal Ore Ingot
+  prefix:
+    ingredient: 'any'
+  items:
+    - ingot-iron
+    - ingot-gold
+    - ingot-copper
+    - ingot-tin
+    - ingot-silver
+    - ingot-lead
+    - ingot-aluminum
+    - ingot-nickel
+    - ingot-platinum
+    - ingot-iridium
+    - ingot-mithril
 mushroom:
   name: Mushroom
   site: mc-wiki

@@ -29,7 +29,11 @@
         {% endif %}
     {% endif %}
 
-    <a href="{{group_site.url}}{{group_data.url}}">{{ group_data.name }}</a>
+    {% if group_data.url %}
+        <a href="{{group_site.url}}{{group_data.url}}">{{ group_data.name }}</a>
+    {% else %}
+        {{ group_data.name }}
+    {% endif %}
 
     {% if group_data.suffix %}
         {% if include.type == 'result' and group_data.suffix.result %}

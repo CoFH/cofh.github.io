@@ -5995,6 +5995,19 @@ recipes:
       result:
         item: [paper]
         amount: 2
+  petrotheum-ingot-metal-ore:
+    results:
+      - item-group: metal-ore-dust
+    ingredients:
+      - item-group: metal-ore-ingot
+      - item: dust-petrotheum
+    data:
+      shapeless: true
+      rows:
+        - [item-group: metal-ore-ingot, item: [dust-petrotheum]]
+      result:
+        item-group: metal-ore-dust
+        amount: 1
   petrotheum-ingot-aluminum:
     results:
       - item: dust-aluminum
@@ -6138,6 +6151,20 @@ recipes:
       result:
         item: [dust-tin]
         amount: 1
+  petrotheum-metal-ore:
+    results:
+      - item-group: metal-ore-dust
+        suffix: x2
+    ingredients:
+      - item-group: metal-ore
+      - item: dust-petrotheum
+    data:
+      shapeless: true
+      rows:
+        - [item-group: metal-ore, item: [dust-petrotheum]]
+      result:
+        item-group: metal-ore-dust
+        amount: 2
   petrotheum-ore-aluminum:
     results:
       - item: dust-aluminum
@@ -6375,6 +6402,22 @@ recipes:
         - [item: [ore-tin], item: [dust-petrotheum]]
       result:
         item: [dust-tin]
+        amount: 2
+  petrotheum-pyrotheum-metal-ore:
+    results:
+      - item-group: metal-ore-ingot
+        suffix: x2
+    ingredients:
+      - item-group: metal-ore
+      - item: dust-petrotheum
+      - item: dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - [item-group: metal-ore, item: [dust-petrotheum]]
+        - [item: [dust-pyrotheum]]
+      result:
+        item-group: metal-ore-ingot
         amount: 2
   petrotheum-pyrotheum-ore-aluminum:
     results:
@@ -6837,6 +6880,19 @@ recipes:
       result:
         item: [portable-tank-basic]
         amount: 1
+  pyrotheum-dust-metal-ore:
+    results:
+      - item-group: metal-ore-ingot
+    ingredients:
+      - item-group: metal-ore-dust
+      - item: dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - [item-group: metal-ore-dust, item: [dust-pyrotheum]]
+      result:
+        item-group: metal-ore-ingot
+        amount: 1
   pyrotheum-dust-aluminum:
     results:
       - item: ingot-aluminum
@@ -6979,6 +7035,19 @@ recipes:
         - [item: [dust-tin], item: [dust-pyrotheum]]
       result:
         item: [ingot-tin]
+        amount: 1
+  pyrotheum-metal-ore:
+    results:
+      - item-group: metal-ore-ingot
+    ingredients:
+      - item-group: metal-ore
+      - item: dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - [item-group: metal-ore, item: [dust-pyrotheum]]
+      result:
+        item-group: metal-ore-ingot
         amount: 1
   pyrotheum-ore-aluminum:
     results:
