@@ -26,8 +26,9 @@ chat](https://app.twitch.tv/invite/SipeCoinsSvalna).
 
                 <h4><strong>Requirements:</strong></h4>
                 <ul>
+                    <li>Minecraft {{ mod.minecraft }}</li>
                     {% for req in mod.requirements %}
-                        <li><a href="{{req.link}}">{{ req.name }}</a></li>
+                        <li><a href="{{req.link}}">{{ req.name }}</a> {{ req.suffix }}</li>
                     {% endfor %}
                 </ul>
 
