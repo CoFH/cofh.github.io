@@ -53,3 +53,7 @@ Usage
 
 ### Magma Crucible ingredient
 {% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}
+
+### Fuel
+When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
+piece of tar lasts 40 seconds, which is enough to smelt up to 4 items.

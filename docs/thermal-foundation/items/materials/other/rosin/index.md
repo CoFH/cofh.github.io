@@ -34,3 +34,7 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Fuel
+When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
+piece of rosin lasts 40 seconds, which is enough to smelt up to 4 items.
