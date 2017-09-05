@@ -74,4 +74,4 @@ Usage
 Trivia
 ------
 
-* Mana infused ingots are internally registered as mithril ingots.
+* Mana infused ingots are internally registered as "mithril ingots".

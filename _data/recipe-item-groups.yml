@@ -277,6 +277,14 @@ mushroom:
   items:
     - mushroom-brown
     - mushroom-red
+red-sandstone:
+  name: Red Sandstone
+  site: mc-wiki
+  url: Sandstone
+  items:
+    - red-sandstone
+    - red-sandstone-chiseled
+    - red-sandstone-smooth
 rockwool:
   name: Rockwool
   site: tf-docs
@@ -307,6 +315,14 @@ sand:
   items:
     - sand
     - red-sand
+sandstone:
+  name: Sandstone
+  site: mc-wiki
+  url: Sandstone
+  items:
+    - sandstone
+    - sandstone-chiseled
+    - sandstone-smooth
 sapling:
   name: Sapling
   site: mc-wiki

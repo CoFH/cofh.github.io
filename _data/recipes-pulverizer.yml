@@ -1323,27 +1323,11 @@ recipes:
       - item: red-sand
       - item: niter
     ingredients:
-      - item: red-sandstone
+      - item-group: red-sandstone
     energy: 3000
     data:
       input:
-        item: [red-sandstone]
-      primary-output:
-        item: [red-sand]
-        amount: 2
-      secondary-output:
-        item: [niter]
-      secondary-chance: 40
-  recycling-red-sandstone-chiseled:
-    results:
-      - item: red-sand
-      - item: niter
-    ingredients:
-      - item: red-sandstone-chiseled
-    energy: 3000
-    data:
-      input:
-        item: [red-sandstone-chiseled]
+        item-group: red-sandstone
       primary-output:
         item: [red-sand]
         amount: 2
@@ -1365,22 +1349,6 @@ recipes:
       secondary-output:
         item: [niter]
       secondary-chance: 20
-  recycling-red-sandstone-smooth:
-    results:
-      - item: red-sand
-      - item: niter
-    ingredients:
-      - item: red-sandstone-smooth
-    energy: 3000
-    data:
-      input:
-        item: [red-sandstone-smooth]
-      primary-output:
-        item: [red-sand]
-        amount: 2
-      secondary-output:
-        item: [niter]
-      secondary-chance: 40
   recycling-red-sandstone-stairs:
     results:
       - item: red-sand
@@ -1419,27 +1387,11 @@ recipes:
       - item: sand
       - item: niter
     ingredients:
-      - item: sandstone
+      - item-group: sandstone
     energy: 3000
     data:
       input:
-        item: [sandstone]
-      primary-output:
-        item: [sand]
-        amount: 2
-      secondary-output:
-        item: [niter]
-      secondary-chance: 40
-  recycling-sandstone-chiseled:
-    results:
-      - item: sand
-      - item: niter
-    ingredients:
-      - item: sandstone-chiseled
-    energy: 3000
-    data:
-      input:
-        item: [sandstone-chiseled]
+        item-group: sandstone
       primary-output:
         item: [sand]
         amount: 2
@@ -1461,22 +1413,6 @@ recipes:
       secondary-output:
         item: [niter]
       secondary-chance: 20
-  recycling-sandstone-smooth:
-    results:
-      - item: sand
-      - item: niter
-    ingredients:
-      - item: sandstone-smooth
-    energy: 3000
-    data:
-      input:
-        item: [sandstone-smooth]
-      primary-output:
-        item: [sand]
-        amount: 2
-      secondary-output:
-        item: [niter]
-      secondary-chance: 40
   recycling-sandstone-stairs:
     results:
       - item: sand
