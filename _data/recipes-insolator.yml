@@ -47,6 +47,7 @@ recipes:
         amount: 750
       primary-output:
         item: [beetroot]
+        amount: 3
       secondary-output:
         item: [beetroot-seeds]
       secondary-chance: 125
@@ -757,6 +758,7 @@ recipes:
         amount: 750
       primary-output:
         item: [wheat]
+        amount: 3
       secondary-output:
         item: [seeds]
       secondary-chance: 125

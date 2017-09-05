@@ -6860,7 +6860,11 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item-group: leaves, item-group: leaves, item: [coarse-dirt]]
+        - - random: true
+            item-group: leaves
+          - random: true
+            item-group: leaves
+          - item: [coarse-dirt]
         - [item: [phyto-gro-rich], item: [bucket-water]]
       result:
         item: [podzol]

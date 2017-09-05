@@ -394,7 +394,9 @@ thermal-foundation:
                   url: phyto-gro/
                   subitems:
                     - title: Rich
+                      url: rich-phyto-gro/
                     - title: Fluxed
+                      url: fluxed-phyto-gro/
                 - title: Rosin
                 - title: Sawdust
                   url: sawdust/
