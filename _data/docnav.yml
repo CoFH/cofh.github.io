@@ -398,6 +398,7 @@ thermal-foundation:
                     - title: Fluxed
                       url: fluxed-phyto-gro/
                 - title: Rosin
+                  url: rosin/
                 - title: Sawdust
                   url: sawdust/
                   subitems:
@@ -409,6 +410,7 @@ thermal-foundation:
                 - title: Sulfur
                   url: sulfur/
                 - title: Tar
+                  url: tar/
         - title: Tools
           url: tools/
           items:
