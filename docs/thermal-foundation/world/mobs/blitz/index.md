@@ -16,8 +16,8 @@ rods](/docs/thermal-foundation/items/materials/elemental/blitz-rod).
 Appearance
 ----------
 
-Blitzes look very similar to [blazes](https://minecraft.gamepedia.com/Blaze).
-This is because both mobs are elementals, with blazes being fire elementals and
+Blitzes closely resemble [blazes](https://minecraft.gamepedia.com/Blaze). This
+is because both mobs are elementals, with blazes being fire elementals and
 blitzes being air elementals.
 
 Instead of black smoke, blitzes produce white smoke.

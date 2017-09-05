@@ -15,8 +15,8 @@ rods](/docs/thermal-foundation/items/materials/elemental/blizz-rod).
 Appearance
 ----------
 
-Blizzes look very similar to [blazes](https://minecraft.gamepedia.com/Blaze).
-This is because both mobs are elementals, with blazes being fire elementals and
+Blizzes closely resemble [blazes](https://minecraft.gamepedia.com/Blaze). This
+is because both mobs are elementals, with blazes being fire elementals and
 blizzes being ice elementals.
 
 Instead of smoke, blizzes produce snow particles.

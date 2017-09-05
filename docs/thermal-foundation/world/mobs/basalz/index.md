@@ -15,8 +15,8 @@ rods](/docs/thermal-foundation/items/materials/elemental/basalz-rod).
 Appearance
 ----------
 
-Basalzes look very similar to [blazes](https://minecraft.gamepedia.com/Blaze).
-This is because both mobs are elementals, with blazes being fire elementals and
+Basalzes closely resemble [blazes](https://minecraft.gamepedia.com/Blaze). This
+is because both mobs are elementals, with blazes being fire elementals and
 basalzes being earth elementals.
 
 Instead of smoke, basalzes produce small dust particles.
