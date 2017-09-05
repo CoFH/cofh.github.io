@@ -1,5 +1,7 @@
 ---
 title: Cinnabar
+redirect_from:
+  - /docs/thermal-foundation/materials/cinnabar/
 recipes:
   pulverizer:
     - ore-processing-redstone
