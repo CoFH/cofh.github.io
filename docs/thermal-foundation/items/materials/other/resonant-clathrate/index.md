@@ -1,0 +1,53 @@
+---
+title: Resonant Clathrate
+recipes:
+  pulverizer:
+    - fluid-ore-processing-ender
+  pulverizer-petrotheum:
+    - fluid-ore-processing-ender
+usage-recipes:
+  crafting:
+    - ender-pearl-from-clathrate
+  crucible:
+    - ender-from-clathrate
+  transposer-fill:
+    - ender-pearl-from-clathrate
+---
+
+![Resonant clathrate](/assets/images/thermal-foundation/clathrate-ender.png){:style="height: 128px"}
+
+
+**Resonant clathrate** is a material obtained from [resonant end
+stone](/docs/thermal-foundation/world/fluid-ores/resonant-end-stone/). It can be
+processed into [resonant
+ender](/docs/thermal-foundation/fluids/molten/resonant-ender/).
+
+
+Obtaining
+---------
+
+### Mining
+[Resonant end
+stone](/docs/thermal-foundation/world/fluid-ores/resonant-end-stone/) will drop
+one piece of resonant clathrate when mined with a pickaxe. More clathrate is
+dropped if a [Fortune](https://minecraft.gamepedia.com/Fortune) enchanted
+pickaxe is used.
+
+### Pulverizer
+{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+
+### Pulverizer with Tectonic Initiator
+{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.recipes.pulverizer-petrotheum no-result=true %}
+
+
+Usage
+-----
+
+### Magma Crucible ingredient
+{% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Fluid Transposer ingredient
+{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}

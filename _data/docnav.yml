@@ -377,8 +377,11 @@ thermal-foundation:
                 - title: Clathrate
                   subitems:
                     - title: Destabilized
+                      url: destabilized-clathrate/
                     - title: Energized
+                      url: energized-clathrate/
                     - title: Resonant
+                      url: resonant-clathrate/
                 - title: Coal Coke
                 - title: Geode
                 - title: Mana Dust

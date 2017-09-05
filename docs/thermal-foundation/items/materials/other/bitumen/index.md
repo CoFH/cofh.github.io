@@ -17,8 +17,8 @@ usage-recipes:
 
 **Bitumen** is a material obtained from [oil
 sand](/docs/thermal-foundation/world/fluid-ores/oil-sand/) and [oil
-shale](/docs/thermal-foundation/world/fluid-ores/oil-shale/). Its only use is to
-be processed into [crude oil](/docs/thermal-foundation/fluids/fuel/crude-oil/).
+shale](/docs/thermal-foundation/world/fluid-ores/oil-shale/). It can be
+processed into [crude oil](/docs/thermal-foundation/fluids/fuel/crude-oil/).
 
 
 Obtaining
