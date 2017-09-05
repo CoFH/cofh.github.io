@@ -398,6 +398,11 @@ blaze-powder:
   sprite: [2, 0]
   site: mc-wiki
   url: Blaze_Powder
+blaze-rod:
+  name: Blaze Rod
+  sprite: [15, 58]
+  site: mc-wiki
+  url: Blaze_Rod
 blitz-powder:
   name: Blitz Powder
   animated: true

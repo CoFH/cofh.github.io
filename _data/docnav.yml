@@ -535,8 +535,8 @@ thermal-foundation:
       url: other/
       groups:
         - items:
-            - title: Mod Support
-              url: mod-support/
+            - title: Additional recipes
+            - title: Mod support
 
 thermal-expansion:
   title: Thermal Expansion
