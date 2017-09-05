@@ -385,6 +385,7 @@ thermal-foundation:
                 - title: Coal Coke
                   url: coal-coke/
                 - title: Geode
+                  url: geode/
                 - title: Mana Dust
                   url: mana-dust/
                 - title: Niter
