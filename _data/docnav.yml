@@ -383,6 +383,7 @@ thermal-foundation:
                     - title: Resonant
                       url: resonant-clathrate/
                 - title: Coal Coke
+                  url: coal-coke/
                 - title: Geode
                 - title: Mana Dust
                   url: mana-dust/
