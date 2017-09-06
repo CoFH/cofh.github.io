@@ -403,6 +403,7 @@ thermal-foundation:
                   url: sawdust/
                   subitems:
                     - title: Compressed
+                      url: compressed-sawdust/
                 - title: Slag
                   url: slag/
                   subitems:

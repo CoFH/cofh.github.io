@@ -1,6 +1,8 @@
 ---
 title: Phyto-Gro
-redirect_from: /docs/thermal-expansion/materials/phyto-gro/
+redirect_from:
+  - /docs/thermal-expansion/materials/phyto-gro/
+  - /docs/thermal-foundation/materials/phyto-gro/
 recipes:
   crafting:
     - phyto-gro-using-sawdust
