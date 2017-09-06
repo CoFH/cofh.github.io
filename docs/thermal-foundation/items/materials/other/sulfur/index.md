@@ -10,10 +10,6 @@ recipes:
     - gravel-from-netherrack
     - dust-coal
     - blaze-powder
-  pulverizer-petrotheum:
-    - ore-processing-lapis-lazuli
-    - ore-processing-nether-quartz
-    - fluid-ore-processing-glowstone
   smelter:
     - nether-brick
   refinery:
@@ -43,9 +39,6 @@ Obtaining
 
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
-
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.recipes.pulverizer-petrotheum no-result=true %}
 
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}

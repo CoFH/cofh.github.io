@@ -3,6 +3,26 @@ site: te-docs
 url: machines/induction-smelter/
 with-energy: true
 recipes:
+  dust-smelting:
+    results:
+      - item-group: ingot-metal
+      - item: slag
+    ingredients:
+      - item-group: dust-metal
+      - item-group: sand
+    energy: 800
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: dust-metal
+        amount: 2
+      primary-output:
+        item-group: ingot-metal
+        amount: 2
+      secondary-output:
+        item: [slag]
+      secondary-chance: 25
   dust-smelting-aluminum:
     results:
       - item: ingot-aluminum
@@ -1829,6 +1849,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 70
+  recycling-axe:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: axe-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: axe-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 3
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
   recycling-axe-aluminum:
     results:
       - item: ingot-aluminum
@@ -2095,6 +2134,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 20
+  recycling-boots:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: boots-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: boots-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 25
   recycling-boots-aluminum:
     results:
       - item: ingot-aluminum
@@ -2361,6 +2419,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 25
+  recycling-bow:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: bow-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: bow-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 2
+      secondary-output:
+        item: [slag]
+      secondary-chance: 15
   recycling-bow-aluminum:
     results:
       - item: ingot-aluminum
@@ -2632,14 +2709,14 @@ recipes:
       - item: ingot-iron
       - item: slag
     ingredients:
-      - item: bucket-empty
+      - item: bucket
       - item-group: sand
     energy: 6000
     data:
       primary-input:
         item-group: sand
       secondary-input:
-        item: [bucket-empty]
+        item: [bucket]
       primary-output:
         item: [ingot-iron]
         amount: 3
@@ -2665,6 +2742,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 40
+  recycling-chestplate:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: chestplate-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: chestplate-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 8
+      secondary-output:
+        item: [slag]
+      secondary-chance: 45
   recycling-chestplate-aluminum:
     results:
       - item: ingot-aluminum
@@ -2988,6 +3084,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 15
+  recycling-fishing-rod:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: fishing-rod-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: fishing-rod-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 2
+      secondary-output:
+        item: [slag]
+      secondary-chance: 15
   recycling-fishing-rod-aluminum:
     results:
       - item: ingot-aluminum
@@ -3272,6 +3387,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 90
+  recycling-hammer:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: hammer-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: hammer-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 5
+      secondary-output:
+        item: [slag]
+      secondary-chance: 30
   recycling-hammer-aluminum:
     results:
       - item: ingot-aluminum
@@ -3534,6 +3668,25 @@ recipes:
         item: [hammer-tin]
       primary-output:
         item: [ingot-tin]
+        amount: 5
+      secondary-output:
+        item: [slag]
+      secondary-chance: 30
+  recycling-helmet:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: helmet-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: helmet-metal
+      primary-output:
+        item-group: ingot-metal-equipment
         amount: 5
       secondary-output:
         item: [slag]
@@ -3804,6 +3957,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 30
+  recycling-hoe:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: hoe-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: hoe-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 2
+      secondary-output:
+        item: [slag]
+      secondary-chance: 15
   recycling-hoe-aluminum:
     results:
       - item: ingot-aluminum
@@ -4147,6 +4319,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 20
+  recycling-leggings:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: leggings-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: leggings-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 7
+      secondary-output:
+        item: [slag]
+      secondary-chance: 40
   recycling-leggings-aluminum:
     results:
       - item: ingot-aluminum
@@ -4413,6 +4604,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 40
+  recycling-pickaxe:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: pickaxe-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: pickaxe-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 3
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
   recycling-pickaxe-aluminum:
     results:
       - item: ingot-aluminum
@@ -4717,6 +4927,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 15
+  recycling-shears-metal:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: shears-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: shears-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 2
+      secondary-output:
+        item: [slag]
+      secondary-chance: 15
   recycling-shears:
     results:
       - item: ingot-iron
@@ -4983,6 +5212,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 15
+  recycling-shield-metal:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: shield-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: shield-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 6
+      secondary-output:
+        item: [slag]
+      secondary-chance: 35
   recycling-shield-aluminum:
     results:
       - item: ingot-aluminum
@@ -5249,6 +5497,24 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 35
+  recycling-shovel:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: shovel-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: shovel-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
   recycling-shovel-aluminum:
     results:
       - item: ingot-aluminum
@@ -5501,6 +5767,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 10
+  recycling-sickle:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: sickle-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: sickle-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 3
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
   recycling-sickle-aluminum:
     results:
       - item: ingot-aluminum
@@ -5767,6 +6052,25 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 20
+  recycling-sword:
+    results:
+      - item-group: ingot-metal-equipment
+      - item: slag
+    ingredients:
+      - item-group: sword-metal
+      - item-group: sand
+    energy: 6000
+    data:
+      primary-input:
+        item-group: sand
+      secondary-input:
+        item-group: sword-metal
+      primary-output:
+        item-group: ingot-metal-equipment
+        amount: 2
+      secondary-output:
+        item: [slag]
+      secondary-chance: 15
   recycling-sword-aluminum:
     results:
       - item: ingot-aluminum

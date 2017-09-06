@@ -3,8 +3,6 @@ title: Tar
 recipes:
   pulverizer:
     - fluid-ore-processing-oil-sand
-  pulverizer-petrotheum:
-    - fluid-ore-processing-oil-sand
   refinery:
     - naphtha-from-coal
     - naphtha-from-crude-oil
@@ -37,9 +35,6 @@ Obtaining
 
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
-
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.recipes.pulverizer-petrotheum no-result=true %}
 
 ### Fractionating Still
 {% include recipe-table.html type='refinery' recipes=page.recipes.refinery no-result=true %}

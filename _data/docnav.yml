@@ -408,6 +408,7 @@ thermal-foundation:
                   url: slag/
                   subitems:
                     - title: Rich
+                      url: rich-slag/
                 - title: Sulfur
                   url: sulfur/
                 - title: Tar
@@ -715,12 +716,15 @@ thermal-expansion:
         - title: Items
           url: items/
           items:
-            - title: Machine Frame
-            - title: Device Frame
-            - title: Energy Cell Frame
+            - title: Frame
+              subitems:
+                - title: Machine
+                - title: Device
+                - title: Energy Cell
             - title: Florb
               url: florb/
-            - title: Magmatic Florb
+              subitems:
+                - title: Magmatic
         - title: Other
           url: other/
           items:
