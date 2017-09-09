@@ -52,3 +52,6 @@ Usage
 
 ### Magma Crucible
 {% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}
+
+### Light source
+Resonant end stone emits a light level of 3.

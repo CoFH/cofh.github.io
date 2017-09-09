@@ -52,3 +52,6 @@ Usage
 
 ### Magma Crucible
 {% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}
+
+### Light source
+Destabilized redstone ore emits a light level of 7.

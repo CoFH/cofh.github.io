@@ -66,3 +66,6 @@ Usage
 
 ### Induction Smelter with Pyro-Concentrator
 {% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
+
+### Light source
+Platinum ore emits a light level of 4.

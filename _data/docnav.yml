@@ -438,22 +438,39 @@ thermal-foundation:
           url: metal/
           items:
             - title: Copper
+              url: copper-block/
             - title: Tin
+              url: tin-block/
             - title: Silver
+              url: silver-block/
             - title: Lead
+              url: lead-block/
             - title: Aluminum
+              url: aluminum-block/
             - title: Nickel
+              url: nickel-block/
             - title: Platinum
+              url: platinum-block/
             - title: Iridium
+              url: iridium-block/
             - title: Mana Infused
+              url: mana-infused-block/
             - title: Steel
+              url: steel-block/
             - title: Electrum
+              url: electrum-block/
             - title: Invar
+              url: invar-block/
             - title: Bronze
+              url: bronze-block/
             - title: Constantan
+              url: constantan-block/
             - title: Signalum
+              url: signalum-block/
             - title: Lumium
+              url: lumium-block/
             - title: Enderium
+              url: enderium-block/
         - title: Decorative
           url: decorative/
           items:

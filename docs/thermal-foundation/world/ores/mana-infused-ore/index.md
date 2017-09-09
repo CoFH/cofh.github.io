@@ -59,3 +59,6 @@ Mana infused ore cannot be processed by
 
 ### Induction Smelter with Pyro-Concentrator
 {% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
+
+### Light source
+Mana infused ore emits a light level of 8.

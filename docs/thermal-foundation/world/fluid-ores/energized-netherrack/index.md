@@ -51,3 +51,6 @@ Usage
 
 ### Magma Crucible
 {% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}
+
+### Light source
+Energized netherrack emits a light level of 15.
