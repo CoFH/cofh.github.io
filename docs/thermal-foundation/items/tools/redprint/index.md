@@ -12,7 +12,7 @@ recipes:
 ![Redprint](/assets/images/thermal-foundation/redprint.png){:style="height: 128px"}
 
 
-**Redprints** are tools that can copy the configuration of certain blocks to
+**Redprints** are items that can copy the configuration of certain blocks to
 other blocks of the same type.
 
 
