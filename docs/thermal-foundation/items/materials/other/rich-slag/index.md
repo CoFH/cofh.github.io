@@ -75,3 +75,11 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+
+Trivia
+------
+
+* Rich slag can be seen as a byproduct that still contains trace amounts of
+  metal that hasn't been extracted yet. This explains how using it to process
+  ore yields more metal.

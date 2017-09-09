@@ -4,12 +4,8 @@ redirect_from:
   - /docs/thermal-foundation/materials/cinnabar/
 recipes:
   pulverizer:
-    - ore-processing-redstone
     - ore-processing-gold
-    - fluid-ore-processing-redstone
-  pulverizer-petrotheum:
     - ore-processing-redstone
-    - ore-processing-gold
     - fluid-ore-processing-redstone
 usage-recipes:
   smelter:
@@ -54,9 +50,6 @@ Obtaining
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.recipes.pulverizer-petrotheum no-result=true %}
-
 
 Usage
 -----
@@ -66,3 +59,13 @@ Usage
 
 ### Induction Smelter with Pyro-Concentrator ingredient
 {% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
+
+
+Trivia
+------
+
+* In real life, [cinnabar](https://en.wikipedia.org/wiki/Cinnabar) is a mineral
+  form of [mercury](https://en.wikipedia.org/wiki/Mercury) (also known as
+  quicksilver). Mercury forms
+  [amalgams](https://en.wikipedia.org/wiki/Amalgam_(chemistry)) with metals, a
+  process used in mining to purify metals from ores.
