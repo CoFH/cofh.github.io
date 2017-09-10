@@ -47,8 +47,8 @@ Behavior
 
 When idle, a blizz wanders around on the ground. When it sees a player, it
 starts flying and attacking. Blizzes attack by shooting "blizz bolts", which are
-projectiles that deal damage and may apply the
-[Slowness](https://minecraft.gamepedia.com/Slowness) effect.
+projectiles that deal damage and may apply the effect [Slowness
+II](https://minecraft.gamepedia.com/Slowness) for 5 seconds.
 
 
 Trivia

@@ -67,6 +67,54 @@ recipes:
         amount: 200
       output:
         item: [blizz-powder]
+  bucket-ender:
+    results:
+      - item: bucket-ender
+    ingredients:
+      - item: bucket
+      - fluid: ender
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: ender
+        amount: 1000
+      output:
+        item: [bucket-ender]
+  bucket-glowstone:
+    results:
+      - item: bucket-glowstone
+    ingredients:
+      - item: bucket
+      - fluid: glowstone
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: glowstone
+        amount: 1000
+      output:
+        item: [bucket-glowstone]
+  bucket-redstone:
+    results:
+      - item: bucket-redstone
+    ingredients:
+      - item: bucket
+      - fluid: redstone
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: redstone
+        amount: 1000
+      output:
+        item: [bucket-redstone]
   dust-fluxed-electrum:
     results:
       - item: dust-fluxed-electrum

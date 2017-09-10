@@ -51,5 +51,5 @@ Behavior
 
 When idle, a basalz wanders around on the ground. When it sees a player, it
 starts flying and attacking. Basalzes attack by shooting "basalz bolts", which
-are projectiles that deal damage and may apply the
-[Weakness](https://minecraft.gamepedia.com/Weakness) effect.
+are projectiles that deal damage and may apply the effect [Weakness
+II](https://minecraft.gamepedia.com/Weakness) for 5 seconds.

@@ -3,6 +3,38 @@ site: te-docs
 url: machines/fluid-transposer/
 with-energy: true
 recipes:
+  ender-from-bucket:
+    results:
+      - fluid: ender
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-ender
+    energy: 400
+    data:
+      input:
+        item: [bucket-ender]
+      fluid-output:
+        fluid: ender
+        amount: 1000
+      item-output:
+        item: [bucket]
+  glowstone-from-bucket:
+    results:
+      - fluid: glowstone
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-glowstone
+    energy: 400
+    data:
+      input:
+        item: [bucket-glowstone]
+      fluid-output:
+        fluid: glowstone
+        amount: 1000
+      item-output:
+        item: [bucket]
   mushroom-stew:
     results:
       - fluid: mushroom-stew
@@ -19,6 +51,22 @@ recipes:
         amount: 250
       item-output:
         item: [bowl]
+  redstone-from-bucket:
+    results:
+      - fluid: redstone
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-redstone
+    energy: 400
+    data:
+      input:
+        item: [bucket-redstone]
+      fluid-output:
+        fluid: redstone
+        amount: 1000
+      item-output:
+        item: [bucket]
   water-from-cactus:
     results:
       - fluid: water

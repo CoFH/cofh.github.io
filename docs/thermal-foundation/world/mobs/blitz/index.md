@@ -50,5 +50,5 @@ Behavior
 
 When idle, a blitz wanders around on the ground. When it sees a player, it
 starts flying and attacking. Blitzes attack by shooting "blitz bolts", which are
-projectiles that deal damage and may apply the
-[Blindness](https://minecraft.gamepedia.com/Blindness) effect.
+projectiles that deal damage and may apply the effect [Blindness
+II](https://minecraft.gamepedia.com/Blindness) for 5 seconds.
