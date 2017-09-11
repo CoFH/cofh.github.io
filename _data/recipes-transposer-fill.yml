@@ -99,6 +99,22 @@ recipes:
         amount: 1000
       output:
         item: [bucket-glowstone]
+  bucket-pyrotheum:
+    results:
+      - item: bucket-pyrotheum
+    ingredients:
+      - item: bucket
+      - fluid: pyrotheum
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: pyrotheum
+        amount: 1000
+      output:
+        item: [bucket-pyrotheum]
   bucket-redstone:
     results:
       - item: bucket-redstone

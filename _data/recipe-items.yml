@@ -668,6 +668,31 @@ bucket:
   sprite: [0, 39]
   site: mc-wiki
   url: Bucket
+bucket-aerotheum:
+  name: Zephyrean Aerotheum Bucket
+  sprite: [13, 59]
+  site: tf-docs
+  url: fluids/elemental/zephyrean-aerotheum/
+bucket-coal:
+  name: Liquifacted Coal Bucket
+  sprite: [2, 59]
+  site: tf-docs
+  url: fluids/fuel/liquifacted-coal/
+bucket-creosote-oil:
+  name: Creosote Oil Bucket
+  sprite: [1, 59]
+  site: tf-docs
+  url: fluids/other/creosote-oil/
+bucket-crude-oil:
+  name: Crude Oil Bucket
+  sprite: [3, 59]
+  site: tf-docs
+  url: fluids/fuel/crude-oil/
+bucket-cryotheum:
+  name: Gelid Cryotheum Bucket
+  sprite: [12, 59]
+  site: tf-docs
+  url: fluids/elemental/gelid-cryotheum/
 bucket-ender:
   name: Resonant Ender Bucket
   sprite: [10, 40]
@@ -683,11 +708,66 @@ bucket-lava:
   sprite: [1, 39]
   site: mc-wiki
   url: Lava_Bucket
+bucket-mana:
+  name: Primal Mana Bucket
+  sprite: [15, 59]
+  site: tf-docs
+  url: fluids/other/primal-mana/
+bucket-mushroom-stew:
+  name: Mushroom Stew Bucket
+  sprite: [10, 59]
+  site: tf-docs
+  url: fluids/other/mushroom-stew/
+bucket-naphtha:
+  name: Naphtha Bucket
+  sprite: [4, 59]
+  site: tf-docs
+  url: fluids/fuel/naphtha/
+bucket-petrotheum:
+  name: Tectonic Petrotheum Bucket
+  sprite: [14, 59]
+  site: tf-docs
+  url: fluids/elemental/tectonic-petrotheum/
+bucket-pyrotheum:
+  name: Blazing Pyrotheum Bucket
+  sprite: [11, 59]
+  site: tf-docs
+  url: fluids/elemental/blazing-pyrotheum/
 bucket-redstone:
   name: Destabilized Redstone Bucket
   sprite: [8, 40]
   site: tf-docs
   url: fluids/molten/destabilized-redstone/
+bucket-refined-fuel:
+  name: Refined Fuel Bucket
+  sprite: [5, 59]
+  site: tf-docs
+  url: fluids/fuel/refined-fuel/
+bucket-resin:
+  name: Resin Bucket
+  sprite: [8, 59]
+  site: tf-docs
+  url: fluids/tree/resin/
+bucket-sap:
+  name: Sap Bucket
+  sprite: [6, 59]
+  site: tf-docs
+  url: fluids/tree/sap/
+bucket-steam:
+  name: Steam Bucket
+  sprite: [0, 59]
+  site: tf-docs
+  url: fluids/other/steam/
+bucket-syrup:
+  name: Syrup Bucket
+  sprite: [7, 59]
+  site: tf-docs
+  url: fluids/other/syrup/
+bucket-tree-oil:
+  name: Tree Oil Bucket
+  sprite: [9, 59]
+  site: tf-docs
+  url: fluids/fuel/tree-oil/
 bucket-water:
   name: Water Bucket
   sprite: [2, 39]

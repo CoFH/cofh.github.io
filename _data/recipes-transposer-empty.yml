@@ -51,6 +51,22 @@ recipes:
         amount: 250
       item-output:
         item: [bowl]
+  pyrotheum-from-bucket:
+    results:
+      - fluid: pyrotheum
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-pyrotheum
+    energy: 400
+    data:
+      input:
+        item: [bucket-pyrotheum]
+      fluid-output:
+        fluid: pyrotheum
+        amount: 1000
+      item-output:
+        item: [bucket]
   redstone-from-bucket:
     results:
       - fluid: redstone
