@@ -9,7 +9,7 @@ recipes:
     - glowstone-from-clathrate
     - fluid-ore-processing-glowstone
   transposer-empty:
-    - glowstone-from-bucket
+    - bucket-glowstone
   centrifuge:
     - dust-lumium
 usage-recipes:
@@ -65,17 +65,16 @@ default) they will condense back into solid
 [glowstone](https://minecraft.gamepedia.com/Glowstone). They will also condense
 at 80% of this height if the fluid has no space to flow.
 
-### Interactions
-When an energized glowstone source block comes into contact with [gelid
-cryotheum](/docs/thermal-foundation/fluids/elemental/gelid-cryotheum/), the
-source block instantly condenses back into solid
-[glowstone](https://minecraft.gamepedia.com/Glowstone).
-
 ### Effects
 When touched by players and mobs, energized glowstone applies the effects [Speed
 I](https://minecraft.gamepedia.com/Status_effect#Speed) and [Jump Boost
 I](https://minecraft.gamepedia.com/Status_effect#Jump_Boost) to them for 6
 seconds.
+
+When an energized glowstone source block comes into contact with [gelid
+cryotheum](/docs/thermal-foundation/fluids/elemental/gelid-cryotheum/), the
+source block instantly condenses back into solid
+[glowstone](https://minecraft.gamepedia.com/Glowstone).
 
 ### Crafting ingredient
 Any item that contains at least one

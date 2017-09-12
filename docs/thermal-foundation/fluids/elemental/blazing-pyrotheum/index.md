@@ -6,7 +6,7 @@ recipes:
   crucible:
     - pyrotheum
   transposer-empty:
-    - pyrotheum-from-bucket
+    - bucket-pyrotheum
 usage-recipes:
   transposer-fill:
     - bucket-pyrotheum
@@ -44,11 +44,14 @@ The way blazing pyrotheum flows is similar to
 [lava](https://minecraft.gamepedia.com/Lava). Pyrotheum source blocks will also
 gradually fall downwards if there are no blocks below them.
 
-### Interactions
+### Effects
+Most [entities](https://minecraft.gamepedia.com/Entity) that touch blazing
+pyrotheum take 4 damage every half-second. They are also set on fire.
+
 Like [lava](https://minecraft.gamepedia.com/Lava), blazing pyrotheum blocks
 start fires. However, pyrotheum does so much more aggressively.
 
-Blazing pyrotheum has specific interactions with the following blocks:
+Blazing pyrotheum has the following effects on certain blocks and mobs:
 
 * flammable blocks are instantly destroyed;
 * [cobblestone](https://minecraft.gamepedia.com/Cobblestone) is smelted into
@@ -65,15 +68,9 @@ Blazing pyrotheum has specific interactions with the following blocks:
 * [snow](https://minecraft.gamepedia.com/Snow) and [snow
   layers](https://minecraft.gamepedia.com/Slow_(layer)) are evaporated;
 * [cobblestone stairs](https://minecraft.gamepedia.com/Stairs) are smelted into
-  [stone brick stairs](https://minecraft.gamepedia.com/Stairs).
+  [stone brick stairs](https://minecraft.gamepedia.com/Stairs);
+* [creepers](https://minecraft.gamepedia.com/Creeper) instantly explode.
 
-### Effects
-Like [lava](https://minecraft.gamepedia.com/Lava), most
-[entities](https://minecraft.gamepedia.com/Entity) that touch blazing pyrotheum
-take damage and are set on fire.
-
-When a [creeper](https://minecraft.gamepedia.com/Creeper) comes into contact
-with blazing pyrotheum, it will instantly explode.
 
 ### Fluid Transposer ingredient
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}

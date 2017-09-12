@@ -67,6 +67,38 @@ recipes:
         amount: 200
       output:
         item: [blizz-powder]
+  bucket-aerotheum:
+    results:
+      - item: bucket-aerotheum
+    ingredients:
+      - item: bucket
+      - fluid: aerotheum
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: aerotheum
+        amount: 1000
+      output:
+        item: [bucket-aerotheum]
+  bucket-cryotheum:
+    results:
+      - item: bucket-cryotheum
+    ingredients:
+      - item: bucket
+      - fluid: cryotheum
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: cryotheum
+        amount: 1000
+      output:
+        item: [bucket-cryotheum]
   bucket-ender:
     results:
       - item: bucket-ender
@@ -99,6 +131,22 @@ recipes:
         amount: 1000
       output:
         item: [bucket-glowstone]
+  bucket-petrotheum:
+    results:
+      - item: bucket-petrotheum
+    ingredients:
+      - item: bucket
+      - fluid: petrotheum
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: petrotheum
+        amount: 1000
+      output:
+        item: [bucket-petrotheum]
   bucket-pyrotheum:
     results:
       - item: bucket-pyrotheum

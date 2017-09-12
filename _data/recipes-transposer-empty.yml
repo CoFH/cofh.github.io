@@ -3,7 +3,39 @@ site: te-docs
 url: machines/fluid-transposer/
 with-energy: true
 recipes:
-  ender-from-bucket:
+  bucket-aerotheum:
+    results:
+      - fluid: aerotheum
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-aerotheum
+    energy: 400
+    data:
+      input:
+        item: [bucket-aerotheum]
+      fluid-output:
+        fluid: aerotheum
+        amount: 1000
+      item-output:
+        item: [bucket]
+  bucket-cryotheum:
+    results:
+      - fluid: cryotheum
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-cryotheum
+    energy: 400
+    data:
+      input:
+        item: [bucket-cryotheum]
+      fluid-output:
+        fluid: cryotheum
+        amount: 1000
+      item-output:
+        item: [bucket]
+  bucket-ender:
     results:
       - fluid: ender
         fluid-amount: 1000
@@ -19,7 +51,7 @@ recipes:
         amount: 1000
       item-output:
         item: [bucket]
-  glowstone-from-bucket:
+  bucket-glowstone:
     results:
       - fluid: glowstone
         fluid-amount: 1000
@@ -32,6 +64,54 @@ recipes:
         item: [bucket-glowstone]
       fluid-output:
         fluid: glowstone
+        amount: 1000
+      item-output:
+        item: [bucket]
+  bucket-petrotheum:
+    results:
+      - fluid: petrotheum
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-petrotheum
+    energy: 400
+    data:
+      input:
+        item: [bucket-petrotheum]
+      fluid-output:
+        fluid: petrotheum
+        amount: 1000
+      item-output:
+        item: [bucket]
+  bucket-pyrotheum:
+    results:
+      - fluid: pyrotheum
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-pyrotheum
+    energy: 400
+    data:
+      input:
+        item: [bucket-pyrotheum]
+      fluid-output:
+        fluid: pyrotheum
+        amount: 1000
+      item-output:
+        item: [bucket]
+  bucket-redstone:
+    results:
+      - fluid: redstone
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-redstone
+    energy: 400
+    data:
+      input:
+        item: [bucket-redstone]
+      fluid-output:
+        fluid: redstone
         amount: 1000
       item-output:
         item: [bucket]
@@ -51,38 +131,6 @@ recipes:
         amount: 250
       item-output:
         item: [bowl]
-  pyrotheum-from-bucket:
-    results:
-      - fluid: pyrotheum
-        fluid-amount: 1000
-      - item: bucket
-    ingredients:
-      - item: bucket-pyrotheum
-    energy: 400
-    data:
-      input:
-        item: [bucket-pyrotheum]
-      fluid-output:
-        fluid: pyrotheum
-        amount: 1000
-      item-output:
-        item: [bucket]
-  redstone-from-bucket:
-    results:
-      - fluid: redstone
-        fluid-amount: 1000
-      - item: bucket
-    ingredients:
-      - item: bucket-redstone
-    energy: 400
-    data:
-      input:
-        item: [bucket-redstone]
-      fluid-output:
-        fluid: redstone
-        amount: 1000
-      item-output:
-        item: [bucket]
   water-from-cactus:
     results:
       - fluid: water

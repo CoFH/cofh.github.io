@@ -56,3 +56,11 @@ When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
 piece of pyrotheum dust lasts 1200 seconds, which is enough to smelt up to 120
 items. It lasts just as long as [blaze
 rods](https://minecraft.gamepedia.com/Blaze_Rod).
+
+### Reactant Dynamo fuel
+When used together with 100 mB of [gelid
+cryotheum](/docs/thermal-foundation/fluids/elemental/gelid-cryotheum/) as fuel
+in a [reactant dynamo](/docs/thermal-expansion/dynamos/reactant-dynamo/),
+pyrotheum dust yields 400,000 RF per piece, or 500,000 RF if an [elemental
+catalyzer](/docs/thermal-expansion/augments/dynamo/reactant/elemental-catalyzer/)
+is installed.

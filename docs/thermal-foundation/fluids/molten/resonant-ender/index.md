@@ -8,7 +8,7 @@ recipes:
     - ender-from-clathrate
     - fluid-ore-processing-ender
   transposer-empty:
-    - ender-from-bucket
+    - bucket-ender
   centrifuge:
     - dust-enderium
 usage-recipes:

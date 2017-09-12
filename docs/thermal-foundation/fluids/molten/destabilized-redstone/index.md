@@ -9,7 +9,7 @@ recipes:
     - redstone-from-clathrate
     - fluid-ore-processing-redstone
   transposer-empty:
-    - redstone-from-bucket
+    - bucket-redstone
   centrifuge:
     - dust-signalum
 usage-recipes:

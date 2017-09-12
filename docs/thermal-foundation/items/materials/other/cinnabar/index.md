@@ -50,6 +50,12 @@ Obtaining
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
+### Fluid Transposer
+If another mod registers a cinnabar ore block, it can be processed into 2 pieces
+of cinnabar using 200 mB of [gelid
+cryotheum](/docs/thermal-foundation/fluids/elemental/gelid-cryotheum/) and 2000
+RF in a [fluid transposer](/docs/thermal-expansion/machines/fluid-transposer/).
+
 
 Usage
 -----

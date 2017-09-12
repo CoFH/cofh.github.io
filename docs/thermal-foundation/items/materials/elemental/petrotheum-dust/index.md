@@ -49,3 +49,11 @@ Usage
 
 ### Centrifugal Separator ingredient
 {% include recipe-table.html type='centrifuge' recipes=page.usage-recipes.centrifuge %}
+
+### Reactant Dynamo fuel
+When used together with 100 mB of [zephyrean
+aerotheum](/docs/thermal-foundation/fluids/elemental/zephyrean-aerotheum/) as
+fuel in a [reactant dynamo](/docs/thermal-expansion/dynamos/reactant-dynamo/),
+petrotheum dust yields 400,000 RF per piece, or 500,000 RF if an [elemental
+catalyzer](/docs/thermal-expansion/augments/dynamo/reactant/elemental-catalyzer/)
+is installed.
