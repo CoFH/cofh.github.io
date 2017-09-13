@@ -23,7 +23,8 @@ usage-recipes:
 coal](/docs/thermal-foundation/items/materials/dusts/pulverized-coal/) in a
 [magma crucible](/docs/thermal-expansion/machines/magma-crucible/). It can be
 used as fuel in a [compression
-dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/).
+dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/), or processed into
+[naphtha](/docs/thermal-foundation/fluids/fuel/naphtha/).
 
 
 Obtaining

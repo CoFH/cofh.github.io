@@ -507,6 +507,7 @@ thermal-foundation:
             - title: Liquifacted Coal
               url: liquifacted-coal/
             - title: Crude Oil
+              url: crude-oil/
             - title: Tree Oil
             - title: Naphtha
             - title: Refined Fuel

@@ -99,6 +99,22 @@ recipes:
         amount: 1000
       output:
         item: [bucket-coal]
+  bucket-crude-oil:
+    results:
+      - item: bucket-crude-oil
+    ingredients:
+      - item: bucket
+      - fluid: crude-oil
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: crude-oil
+        amount: 1000
+      output:
+        item: [bucket-crude-oil]
   bucket-cryotheum:
     results:
       - item: bucket-cryotheum
