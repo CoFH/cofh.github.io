@@ -48,9 +48,18 @@ Obtaining
 ### Centrifugal Separator
 {% include recipe-table.html type='centrifuge' recipes=page.recipes.centrifuge %}
 
+### Natural generation
+Deposits of [energized
+netherrack](/docs/thermal-foundation/world/fluid-ores/energized-netherrack/) may
+contain some energized glowstone, which can be picked up using a
+[bucket](https://minecraft.gamepedia.com/Bucket).
+
 
 Usage
 -----
+
+Energized glowstone can be placed as a block using a
+[bucket](https://minecraft.gamepedia.com/Bucket).
 
 ### Light source
 Energized glowstone blocks emit a light level of 15.

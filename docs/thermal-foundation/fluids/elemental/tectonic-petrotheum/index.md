@@ -34,6 +34,9 @@ Obtaining
 Usage
 -----
 
+Tectonic petrotheum can be placed as a block using a
+[bucket](https://minecraft.gamepedia.com/Bucket).
+
 ### Flow
 Tectonic petrotheum flows like other fluids. Petrotheum source blocks will also
 gradually fall downwards if there are no blocks below them.

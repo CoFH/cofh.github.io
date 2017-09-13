@@ -48,6 +48,9 @@ Obtaining
 Usage
 -----
 
+Resonant ender can be placed as a block using a
+[bucket](https://minecraft.gamepedia.com/Bucket).
+
 ### Light source
 Resonant ender blocks emit a light level of 3.
 

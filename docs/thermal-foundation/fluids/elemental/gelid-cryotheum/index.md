@@ -41,6 +41,9 @@ Obtaining
 Usage
 -----
 
+Gelid cryotheum can be placed as a block using a
+[bucket](https://minecraft.gamepedia.com/Bucket).
+
 ### Flow
 The way gelid cryotheum flows is similar to
 [lava](https://minecraft.gamepedia.com/Lava). Cryotheum source blocks will also

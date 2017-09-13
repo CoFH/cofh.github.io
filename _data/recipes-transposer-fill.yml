@@ -83,6 +83,22 @@ recipes:
         amount: 1000
       output:
         item: [bucket-aerotheum]
+  bucket-coal:
+    results:
+      - item: bucket-coal
+    ingredients:
+      - item: bucket
+      - fluid: coal
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: coal
+        amount: 1000
+      output:
+        item: [bucket-coal]
   bucket-cryotheum:
     results:
       - item: bucket-cryotheum

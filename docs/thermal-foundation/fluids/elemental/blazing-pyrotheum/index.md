@@ -36,6 +36,9 @@ Obtaining
 Usage
 -----
 
+Blazing pyrotheum can be placed as a block using a
+[bucket](https://minecraft.gamepedia.com/Bucket).
+
 ### Light source
 Blazing pyrotheum blocks emit a light level of 15.
 

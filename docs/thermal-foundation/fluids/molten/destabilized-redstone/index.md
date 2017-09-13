@@ -55,9 +55,18 @@ Obtaining
 ### Centrifugal Separator
 {% include recipe-table.html type='centrifuge' recipes=page.recipes.centrifuge %}
 
+### Natural generation
+Deposits of [destabilized redstone
+ore](/docs/thermal-foundation/world/fluid-ores/destabilized-redstone-ore/) may
+contain some destabilized redstone, which can be picked up using a
+[bucket](https://minecraft.gamepedia.com/Bucket).
+
 
 Usage
 -----
+
+Destabilized redstone can be placed as a block using a
+[bucket](https://minecraft.gamepedia.com/Bucket).
 
 ### Light source
 Destabilized redstone blocks emit a light level of 7.

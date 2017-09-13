@@ -36,6 +36,9 @@ Obtaining
 Usage
 -----
 
+Zephyrean aerotheum can be placed as a block using a
+[bucket](https://minecraft.gamepedia.com/Bucket).
+
 ### Flow
 Zephyrean aerotheum flows like other fluids, except it vertically flows up
 instead of down.
