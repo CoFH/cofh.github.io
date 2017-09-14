@@ -243,6 +243,38 @@ recipes:
         amount: 1000
       output:
         item: [bucket-refined-fuel]
+  bucket-resin:
+    results:
+      - item: bucket-resin
+    ingredients:
+      - item: bucket
+      - fluid: resin
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: resin
+        amount: 1000
+      output:
+        item: [bucket-resin]
+  bucket-sap:
+    results:
+      - item: bucket-sap
+    ingredients:
+      - item: bucket
+      - fluid: sap
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: sap
+        amount: 1000
+      output:
+        item: [bucket-sap]
   bucket-tree-oil:
     results:
       - item: bucket-tree-oil

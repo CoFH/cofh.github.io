@@ -518,7 +518,9 @@ thermal-foundation:
           url: tree/
           items:
             - title: Resin
+              url: resin/
             - title: Sap
+              url: sap/
         - title: Other
           url: other/
           items:
