@@ -509,8 +509,11 @@ thermal-foundation:
             - title: Crude Oil
               url: crude-oil/
             - title: Tree Oil
+              url: tree-oil/
             - title: Naphtha
+              url: naphtha/
             - title: Refined Fuel
+              url: refined-fuel/
         - title: Tree
           url: tree/
           items:

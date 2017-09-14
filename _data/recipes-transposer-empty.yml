@@ -99,6 +99,22 @@ recipes:
         amount: 1000
       item-output:
         item: [bucket]
+  bucket-naphtha:
+    results:
+      - fluid: naphtha
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-naphtha
+    energy: 400
+    data:
+      input:
+        item: [bucket-naphtha]
+      fluid-output:
+        fluid: naphtha
+        amount: 1000
+      item-output:
+        item: [bucket]
   bucket-petrotheum:
     results:
       - fluid: petrotheum
@@ -144,6 +160,38 @@ recipes:
         item: [bucket-redstone]
       fluid-output:
         fluid: redstone
+        amount: 1000
+      item-output:
+        item: [bucket]
+  bucket-refined-fuel:
+    results:
+      - fluid: refined-fuel
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-refined-fuel
+    energy: 400
+    data:
+      input:
+        item: [bucket-refined-fuel]
+      fluid-output:
+        fluid: refined-fuel
+        amount: 1000
+      item-output:
+        item: [bucket]
+  bucket-tree-oil:
+    results:
+      - fluid: tree-oil
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-tree-oil
+    energy: 400
+    data:
+      input:
+        item: [bucket-tree-oil]
+      fluid-output:
+        fluid: tree-oil
         amount: 1000
       item-output:
         item: [bucket]

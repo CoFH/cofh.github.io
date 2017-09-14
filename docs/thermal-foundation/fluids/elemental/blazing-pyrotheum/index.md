@@ -87,8 +87,10 @@ consumes 100 mB of pyrotheum per processed ore.
 
 ### Magmatic Dynamo fuel
 When used as fuel in a [magmatic
-dynamo](/docs/thermal-expansion/dynamos/magmatic-dynamo/), blazing pyrotheum
-yields 2,000,000 RF per bucket.
+dynamo](/docs/thermal-expansion/dynamos/magmatic-dynamo/), a bucket of blazing
+pyrotheum yields 2,000,000 RF, or 2,500,000 RF if an [isentropic
+reservoir](/docs/thermal-expansion/augments/dynamo/magmatic/isentropic-reservoir/)
+is installed.
 
 ### Reactant Dynamo fuel
 When used together with [cryotheum

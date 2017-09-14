@@ -163,6 +163,22 @@ recipes:
         amount: 1000
       output:
         item: [bucket-glowstone]
+  bucket-naphtha:
+    results:
+      - item: bucket-naphtha
+    ingredients:
+      - item: bucket
+      - fluid: naphtha
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: naphtha
+        amount: 1000
+      output:
+        item: [bucket-naphtha]
   bucket-petrotheum:
     results:
       - item: bucket-petrotheum
@@ -211,6 +227,38 @@ recipes:
         amount: 1000
       output:
         item: [bucket-redstone]
+  bucket-refined-fuel:
+    results:
+      - item: bucket-refined-fuel
+    ingredients:
+      - item: bucket
+      - fluid: refined-fuel
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: refined-fuel
+        amount: 1000
+      output:
+        item: [bucket-refined-fuel]
+  bucket-tree-oil:
+    results:
+      - item: bucket-tree-oil
+    ingredients:
+      - item: bucket
+      - fluid: tree-oil
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: tree-oil
+        amount: 1000
+      output:
+        item: [bucket-tree-oil]
   dust-fluxed-electrum:
     results:
       - item: dust-fluxed-electrum
