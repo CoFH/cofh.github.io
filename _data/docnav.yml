@@ -508,12 +508,14 @@ thermal-foundation:
               url: liquifacted-coal/
             - title: Crude Oil
               url: crude-oil/
-            - title: Tree Oil
-              url: tree-oil/
             - title: Naphtha
               url: naphtha/
             - title: Refined Fuel
               url: refined-fuel/
+            - title: Creosote Oil
+              url: creosote-oil/
+            - title: Tree Oil
+              url: tree-oil/
         - title: Tree
           url: tree/
           items:
@@ -524,11 +526,12 @@ thermal-foundation:
         - title: Other
           url: other/
           items:
-            - title: Creosote Oil
             - title: Mushroom Stew
+              url: mushroom-stew/
             - title: Steam
               url: steam/
             - title: Syrup
+              url: syrup/
             - title: Primal Mana
               url: primal-mana/
     - title: Equipment

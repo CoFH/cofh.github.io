@@ -40,5 +40,5 @@ Tree oil cannot be placed as a block.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression
-dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/), tree oil yields
-1,000,000 RF per bucket.
+dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/), a bucket of tree
+oil yields 1,000,000 RF.

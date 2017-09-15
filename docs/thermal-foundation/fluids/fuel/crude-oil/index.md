@@ -56,5 +56,5 @@ flammable.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression
-dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/), crude oil yields
-400,000 RF per bucket.
+dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/), a bucket of crude
+oil yields 400,000 RF.

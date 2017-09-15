@@ -99,6 +99,22 @@ recipes:
         amount: 1000
       output:
         item: [bucket-coal]
+  bucket-creosote-oil:
+    results:
+      - item: bucket-creosote-oil
+    ingredients:
+      - item: bucket
+      - fluid: creosote-oil
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: creosote-oil
+        amount: 1000
+      output:
+        item: [bucket-creosote-oil]
   bucket-crude-oil:
     results:
       - item: bucket-crude-oil
@@ -163,6 +179,38 @@ recipes:
         amount: 1000
       output:
         item: [bucket-glowstone]
+  bucket-mana:
+    results:
+      - item: bucket-mana
+    ingredients:
+      - item: bucket
+      - fluid: mana
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: mana
+        amount: 1000
+      output:
+        item: [bucket-mana]
+  bucket-mushroom-stew:
+    results:
+      - item: bucket-mushroom-stew
+    ingredients:
+      - item: bucket
+      - fluid: mushroom-stew
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: mushroom-stew
+        amount: 1000
+      output:
+        item: [bucket-mushroom-stew]
   bucket-naphtha:
     results:
       - item: bucket-naphtha
@@ -275,6 +323,38 @@ recipes:
         amount: 1000
       output:
         item: [bucket-sap]
+  bucket-steam:
+    results:
+      - item: bucket-steam
+    ingredients:
+      - item: bucket
+      - fluid: steam
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: steam
+        amount: 1000
+      output:
+        item: [bucket-steam]
+  bucket-syrup:
+    results:
+      - item: bucket-syrup
+    ingredients:
+      - item: bucket
+      - fluid: syrup
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: syrup
+        amount: 1000
+      output:
+        item: [bucket-syrup]
   bucket-tree-oil:
     results:
       - item: bucket-tree-oil

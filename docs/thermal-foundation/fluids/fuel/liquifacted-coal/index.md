@@ -50,5 +50,5 @@ Liquifacted coal cannot be placed as a block.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression
-dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/), liquifacted coal
-yields 400,000 RF per bucket.
+dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/), a bucket of
+liquifacted coal yields 400,000 RF.

@@ -29,7 +29,7 @@ Obtaining
 
 ### Arboreal Extractor
 An [arboreal extractor](/docs/thermal-expansion/devices/arboreal-extractor/)
-will extract resin when placed next to a spruce, birch, jungle or acacia
+will produce resin when placed next to a spruce, birch, jungle or acacia
 [tree](https://minecraft.gamepedia.com/Tree). Spruce trees produce twice as much
 resin as other trees.
 

@@ -26,7 +26,7 @@ Obtaining
 
 ### Arboreal Extractor
 An [arboreal extractor](/docs/thermal-expansion/devices/arboreal-extractor/)
-will extract sap when placed next to an oak or dark oak
+will produce sap when placed next to an oak or dark oak
 [tree](https://minecraft.gamepedia.com/Tree).
 
 ### Sawmill with Resin Funnel
