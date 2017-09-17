@@ -537,33 +537,50 @@ thermal-foundation:
     - title: Equipment
       url: equipment/
       groups:
-        - items:
-            - title: Armor
-              url: armor/
-            - title: Axes
-              url: axes/
-            - title: Bows
-              url: bows/
-            - title: Fishing Rods
-              url: fishing-rods/
-            - title: Hammers
-            - title: Hoes
+        - title: Tools
+          url: tools/
+          items:
             - title: Pickaxes
               url: pickaxes/
-            - title: Shears
-              url: shears/
-            - title: Shields
             - title: Shovels
               url: shovels/
+            - title: Axes
+              url: axes/
+            - title: Hoes
+              url: hoes/
+            - title: Fishing Rods
+              url: fishing-rods/
+            - title: Shears
+              url: shears/
+            - title: Hammers
+              url: hammers/
             - title: Sickles
               url: sickles/
+        - title: Weapons
+          url: weapons/
+          items:
             - title: Swords
               url: swords/
+            - title: Reinforced Bows
+              url: reinforced-bows/
+            - title: Shields
+              url: shields/
+        - title: Armor
+          url: armor/
+          items:
+            - title: Helmets
+              url: helmets/
+            - title: Chestplates
+              url: chestplates/
+            - title: Leggings
+              url: leggings/
+            - title: Boots
+              url: boots/
     - title: Other
       url: other/
       groups:
         - items:
-            - title: Additional recipes
+            - title: Vanilla recipes
             - title: Mod support
 
 thermal-expansion:
