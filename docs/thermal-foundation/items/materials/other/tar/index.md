@@ -27,7 +27,7 @@ still](/docs/thermal-expansion/machines/fractionating-still/). It can be used to
 craft [torches](https://minecraft.gamepedia.com/Torches), and can replace
 [slimeballs](https://minecraft.gamepedia.com/Slimeball) in some recipes. It can
 also be processed into [creosote
-oil](/docs/thermal-foundation/fluids/other/creosote-oil/).
+oil](/docs/thermal-foundation/fluids/fuel/creosote-oil/).
 
 
 Obtaining

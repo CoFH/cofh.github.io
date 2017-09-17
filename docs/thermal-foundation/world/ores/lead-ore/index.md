@@ -38,8 +38,8 @@ ore](https://minecraft.gamepedia.com/Iron_Ore), but more common than [gold
 ore](https://minecraft.gamepedia.com/Gold_Ore). It occurs at relatively low
 levels in the world (layers 15-35). Lead ore veins are slightly smaller than
 iron ore veins, and may contain one or two blocks of [silver
-ore](/docs/thermal-foundation/ores/silver-ore/) as well. Similarly, silver ore
-veins may contain one or two blocks of lead ore.
+ore](/docs/thermal-foundation/world/ores/silver-ore/) as well. Similarly, silver
+ore veins may contain one or two blocks of lead ore.
 
 Lead ore must be mined with an [iron
 pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it

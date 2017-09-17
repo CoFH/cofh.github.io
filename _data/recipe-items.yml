@@ -682,7 +682,7 @@ bucket-creosote-oil:
   name: Creosote Oil Bucket
   sprite: [1, 59]
   site: tf-docs
-  url: fluids/other/creosote-oil/
+  url: fluids/fuel/creosote-oil/
 bucket-crude-oil:
   name: Crude Oil Bucket
   sprite: [3, 59]

@@ -9,7 +9,7 @@ coal:
 creosote-oil:
   name: Creosote Oil
   site: tf-docs
-  url: fluids/other/creosote-oil/
+  url: fluids/fuel/creosote-oil/
 crude-oil:
   name: Crude Oil
   site: tf-docs
