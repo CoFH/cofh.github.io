@@ -50,8 +50,32 @@ Obtaining
 Usage
 -----
 
-### Details
-{% include tftoolmats.html type='pickaxe' speed=true miningLevel=true enchantability=true %}
+### Comparison
+{::options parse_block_html="true" /}
+<div class="uk-overflow-container">
+| Material | Uses | Mining speed | Harvest level | Attack speed | Attack damage | Enchantability |
+|---
+| Copper | 175 | 4 | 1 | 1.2 | 3.75 | 6 |
+| Tin | 200 | 4.5 | 1 | 1.2 | 4 | 7 |
+| Silver | 200 | 6 | 2 | 1.2 | 4.5 | 20 |
+| Lead | 150 | 5 | 1 | 1.2 | 4 | 9 |
+| Aluminum | 225 | 10 | 1 | 1.2 | 4 | 14 |
+| Nickel | 300 | 6.5 | 2 | 1.2 | 5.5 | 18 |
+| Platinum | 1700 | 9 | 4 | 1.2 | 7 | 9 |
+| Steel | 500 | 6.5 | 2 | 1.2 | 5.5 | 10 |
+| Electrum | 100 | 14 | 0 | 1.2 | 3.5 | 30 |
+| Invar | 450 | 7 | 2 | 1.2 | 6 | 16 |
+| Bronze | 500 | 6 | 2 | 1.2 | 5 | 15 |
+| Constantan | 275 | 6 | 2 | 1.2 | 4.5 | 20 |
+|
+| Wooden | 59 | 2 | 0 | 1.2 | 2 | 15 |
+| Stone | 131 | 4 | 1 | 1.2 | 3 | 5 |
+| Iron | 250 | 6 | 2 | 1.2 | 4 | 14 |
+| Golden | 32 | 12 | 0 | 1.2 | 2 | 22 |
+| Diamond | 1561 | 8 | 3 | 1.2 | 5 | 10 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+</div>
+{::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

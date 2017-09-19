@@ -50,8 +50,32 @@ Obtaining
 Usage
 -----
 
-### Details
-{% include tftoolmats.html type='shovel' speed=true enchantability=true %}
+### Comparison
+{::options parse_block_html="true" /}
+<div class="uk-overflow-container">
+| Material | Uses | Mining speed | Attack speed | Attack damage | Enchantability |
+|---
+| Copper | 175 | 4 | 1 | 2.75 | 6 |
+| Tin | 200 | 4.5 | 1 | 3 | 7 |
+| Silver | 200 | 6 | 1 | 3.5 | 20 |
+| Lead | 150 | 5 | 1 | 3 | 9 |
+| Aluminum | 225 | 10 | 1 | 3 | 14 |
+| Nickel | 300 | 6.5 | 1 | 4.5 | 18 |
+| Platinum | 1700 | 9 | 1 | 6 | 9 |
+| Steel | 500 | 6.5 | 1 | 4.5 | 10 |
+| Electrum | 100 | 14 | 1 | 2.5 | 30 |
+| Invar | 450 | 7 | 1 | 5 | 16 |
+| Bronze | 500 | 6 | 1 | 4 | 15 |
+| Constantan | 275 | 6 | 1 | 3.5 | 20 |
+|
+| Wooden | 59 | 2 | 1 | 2.5 | 15 |
+| Stone | 131 | 4 | 1 | 3.5 | 5 |
+| Iron | 250 | 6 | 1 | 4.5 | 14 |
+| Golden | 32 | 12 | 1 | 2.5 | 22 |
+| Diamond | 1561 | 8 | 1 | 5.5 | 10 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+</div>
+{::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

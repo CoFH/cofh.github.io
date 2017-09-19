@@ -48,8 +48,32 @@ Obtaining
 Usage
 -----
 
-### Details
-{% include tftoolmats.html type='hoe' %}
+### Comparison
+{::options parse_block_html="true" /}
+<div class="uk-overflow-container">
+| Material | Uses |
+|---
+| Copper | 175 |
+| Tin | 200 |
+| Silver | 200 |
+| Lead | 150 |
+| Aluminum | 225 |
+| Nickel | 300 |
+| Platinum | 1700 |
+| Steel | 500 |
+| Electrum | 100 |
+| Invar | 450 |
+| Bronze | 500 |
+| Constantan | 275 |
+|
+| Wooden | 59 |
+| Stone | 131 |
+| Iron | 250 |
+| Golden | 32 |
+| Diamond | 1561 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+</div>
+{::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
