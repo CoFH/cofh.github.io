@@ -36,7 +36,7 @@ usage-recipes:
 
 
 **[Pickaxes](https://minecraft.gamepedia.com/Pickaxe)** are tools in vanilla
-Minecraft. [Thermal Foundation](/docs/thermal-foundation/) adds a set of new
+Minecraft. [Thermal Foundation](/docs/thermal-foundation/) adds a set of
 pickaxes made of various metals.
 
 
@@ -55,6 +55,12 @@ Usage
 <div class="uk-overflow-container">
 | Material | Uses | Mining speed | Harvest level | Attack speed | Attack damage | Enchantability |
 |---
+| Wood | 59 | 2 | 0 | 1.2 | 2 | 15 |
+| Stone | 131 | 4 | 1 | 1.2 | 3 | 5 |
+| Iron | 250 | 6 | 2 | 1.2 | 4 | 14 |
+| Gold | 32 | 12 | 0 | 1.2 | 2 | 22 |
+| Diamond | 1561 | 8 | 3 | 1.2 | 5 | 10 |
+|
 | Copper | 175 | 4 | 1 | 1.2 | 3.75 | 6 |
 | Tin | 200 | 4.5 | 1 | 1.2 | 4 | 7 |
 | Silver | 200 | 6 | 2 | 1.2 | 4.5 | 20 |
@@ -67,12 +73,6 @@ Usage
 | Invar | 450 | 7 | 2 | 1.2 | 6 | 16 |
 | Bronze | 500 | 6 | 2 | 1.2 | 5 | 15 |
 | Constantan | 275 | 6 | 2 | 1.2 | 4.5 | 20 |
-|
-| Wooden | 59 | 2 | 0 | 1.2 | 2 | 15 |
-| Stone | 131 | 4 | 1 | 1.2 | 3 | 5 |
-| Iron | 250 | 6 | 2 | 1.2 | 4 | 14 |
-| Golden | 32 | 12 | 0 | 1.2 | 2 | 22 |
-| Diamond | 1561 | 8 | 3 | 1.2 | 5 | 10 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

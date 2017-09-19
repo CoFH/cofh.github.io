@@ -34,7 +34,7 @@ usage-recipes:
 
 
 **[Hoes](https://minecraft.gamepedia.com/Hoe)** are tools in vanilla Minecraft.
-[Thermal Foundation](/docs/thermal-foundation/) adds a set of new hoes made of
+[Thermal Foundation](/docs/thermal-foundation/) adds a set of hoes made of
 various metals.
 
 
@@ -53,6 +53,12 @@ Usage
 <div class="uk-overflow-container">
 | Material | Uses |
 |---
+| Wood | 59 |
+| Stone | 131 |
+| Iron | 250 |
+| Gold | 32 |
+| Diamond | 1561 |
+|
 | Copper | 175 |
 | Tin | 200 |
 | Silver | 200 |
@@ -65,12 +71,6 @@ Usage
 | Invar | 450 |
 | Bronze | 500 |
 | Constantan | 275 |
-|
-| Wooden | 59 |
-| Stone | 131 |
-| Iron | 250 |
-| Golden | 32 |
-| Diamond | 1561 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

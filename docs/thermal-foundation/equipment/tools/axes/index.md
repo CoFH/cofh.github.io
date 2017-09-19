@@ -36,7 +36,7 @@ usage-recipes:
 
 
 **[Axes](https://minecraft.gamepedia.com/Axe)** are tools in vanilla Minecraft.
-[Thermal Foundation](/docs/thermal-foundation/) adds a set of new axes made of
+[Thermal Foundation](/docs/thermal-foundation/) adds a set of axes made of
 various metals.
 
 
@@ -55,6 +55,12 @@ Usage
 <div class="uk-overflow-container">
 | Material | Uses | Mining speed | Attack speed | Attack damage | Enchantability |
 |---
+| Wood | 59 | 2 | 0.8 | 7 | 15 |
+| Stone | 131 | 4 | 0.8 | 9 | 5 |
+| Iron | 250 | 6 | 0.9 | 9 | 14 |
+| Gold | 32 | 12 | 1 | 7 | 22 |
+| Diamond | 1561 | 8 | 1 | 9 | 10 |
+|
 | Copper | 175 | 4 | 0.8 | 5.75 | 6 |
 | Tin | 200 | 4.5 | 0.8 | 6 | 7 |
 | Silver | 200 | 6 | 0.8 | 6.5 | 20 |
@@ -67,12 +73,6 @@ Usage
 | Invar | 450 | 7 | 0.8 | 8 | 16 |
 | Bronze | 500 | 6 | 0.8 | 7 | 15 |
 | Constantan | 275 | 6 | 0.8 | 6.5 | 20 |
-|
-| Wooden | 59 | 2 | 0.8 | 7 | 15 |
-| Stone | 131 | 4 | 0.8 | 9 | 5 |
-| Iron | 250 | 6 | 0.9 | 9 | 14 |
-| Golden | 32 | 12 | 1 | 7 | 22 |
-| Diamond | 1561 | 8 | 1 | 9 | 10 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

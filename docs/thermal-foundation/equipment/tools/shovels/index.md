@@ -36,8 +36,8 @@ usage-recipes:
 
 
 **[Shovels](https://minecraft.gamepedia.com/Shovel)** are tools in vanilla
-Minecraft. [Thermal Foundation](/docs/thermal-foundation/) adds a set of new
-shovels made of various metals.
+Minecraft. [Thermal Foundation](/docs/thermal-foundation/) adds a set of shovels
+made of various metals.
 
 
 Obtaining
@@ -55,6 +55,12 @@ Usage
 <div class="uk-overflow-container">
 | Material | Uses | Mining speed | Attack speed | Attack damage | Enchantability |
 |---
+| Wood | 59 | 2 | 1 | 2.5 | 15 |
+| Stone | 131 | 4 | 1 | 3.5 | 5 |
+| Iron | 250 | 6 | 1 | 4.5 | 14 |
+| Gold | 32 | 12 | 1 | 2.5 | 22 |
+| Diamond | 1561 | 8 | 1 | 5.5 | 10 |
+|
 | Copper | 175 | 4 | 1 | 2.75 | 6 |
 | Tin | 200 | 4.5 | 1 | 3 | 7 |
 | Silver | 200 | 6 | 1 | 3.5 | 20 |
@@ -67,12 +73,6 @@ Usage
 | Invar | 450 | 7 | 1 | 5 | 16 |
 | Bronze | 500 | 6 | 1 | 4 | 15 |
 | Constantan | 275 | 6 | 1 | 3.5 | 20 |
-|
-| Wooden | 59 | 2 | 1 | 2.5 | 15 |
-| Stone | 131 | 4 | 1 | 3.5 | 5 |
-| Iron | 250 | 6 | 1 | 4.5 | 14 |
-| Golden | 32 | 12 | 1 | 2.5 | 22 |
-| Diamond | 1561 | 8 | 1 | 5.5 | 10 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
