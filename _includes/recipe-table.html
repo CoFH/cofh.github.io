@@ -14,6 +14,9 @@
                     <th>Energy</th>
                 {% endif %}
                 <th><a href="{{type_site.url}}{{type_data.url}}">{{type_data.name}}</a> recipe</th>
+                {% if include.with-note %}
+                    <th>Note</th>
+                {% endif %}
             </tr>
         </thead>
 
@@ -63,6 +66,10 @@
                             {% include recipe/types/{{include.type}}.html data=recipe_data.data %}
                         </div>
                     </td>
+
+                    {% if include.with-note %}
+                        <td>{{ recipe_data.note }}</td>
+                    {% endif %}
                 </tr>
             {% endfor %}
         </tbody>
