@@ -581,6 +581,7 @@ thermal-foundation:
       groups:
         - items:
             - title: Vanilla recipes
+              url: vanilla-recipes/
             - title: Mod support
 
 thermal-expansion:
