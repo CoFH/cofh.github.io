@@ -79,3 +79,16 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, signalum can be molten down in a smeltery. Molten signalum can also
+  be made by mixing molten
+  [copper](/docs/thermal-foundation/items/materials/ingots/copper-ingot/),
+  molten [silver](/docs/thermal-foundation/items/materials/ingots/silver-ingot/)
+  and [destabilized
+  redstone](/docs/thermal-foundation/fluids/molten/destabilized-redstone/).

@@ -124,3 +124,20 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, molten copper can be mixed with molten
+  [nickel](/docs/thermal-foundation/items/materials/ingots/nickel-ingot/) to
+  make molten
+  [constantan](/docs/thermal-foundation/items/materials/ingots/constantan-ingot/),
+  or with molten
+  [silver](/docs/thermal-foundation/items/materials/ingots/silver-ingot/) and
+  [destabilized
+  redstone](/docs/thermal-foundation/fluids/molten/destabilized-redstone/) to
+  make molten
+  [signalum](/docs/thermal-foundation/items/materials/ingots/signalum-ingot/).

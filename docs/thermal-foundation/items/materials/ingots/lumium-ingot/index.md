@@ -61,3 +61,16 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, lumium can be molten down in a smeltery. Molten lumium can also be
+  made by mixing molten
+  [tin](/docs/thermal-foundation/items/materials/ingots/tin-ingot/), molten
+  [silver](/docs/thermal-foundation/items/materials/ingots/silver-ingot/) and
+  [energized
+  glowstone](/docs/thermal-foundation/fluids/molten/energized-glowstone/).

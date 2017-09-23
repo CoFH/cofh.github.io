@@ -68,3 +68,15 @@ used in these recipes.
 
 ### Fluid Transposer ingredient
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, resonant ender can be mixed with molten
+  [lead](/docs/thermal-foundation/items/materials/ingots/lead-ingot/) and molten
+  [platinum](/docs/thermal-foundation/items/materials/ingots/platinum-ingot/) in
+  a smeltery to make molten
+  [enderium](/docs/thermal-foundation/items/materials/ingots/enderium-ingot/).

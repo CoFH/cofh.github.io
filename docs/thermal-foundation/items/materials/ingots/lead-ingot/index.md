@@ -135,3 +135,15 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, molten lead can be mixed with molten
+  [platinum](/docs/thermal-foundation/items/materials/ingots/platinum-ingot/)
+  and [resonant ender](/docs/thermal-foundation/fluids/molten/resonant-ender/)
+  to make molten
+  [enderium](/docs/thermal-foundation/items/materials/ingots/enderium-ingot/).

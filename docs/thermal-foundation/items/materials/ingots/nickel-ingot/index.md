@@ -121,3 +121,16 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, molten nickel can be mixed with molten
+  [iron](https://minecraft.gamepedia.com/Iron_Ingot) to make molten
+  [invar](/docs/thermal-foundation/items/materials/ingots/invar-ingot/), or with
+  molten [copper](/docs/thermal-foundation/items/materials/ingots/copper-ingot/)
+  to make molten
+  [constantan](/docs/thermal-foundation/items/materials/ingots/constantan-ingot/).

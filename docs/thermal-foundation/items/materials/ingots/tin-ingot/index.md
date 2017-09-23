@@ -122,3 +122,16 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, molten tin can be mixed with molten
+  [silver](/docs/thermal-foundation/items/materials/ingots/silver-ingot/) and
+  [energized
+  glowstone](/docs/thermal-foundation/fluids/molten/energized-glowstone/) to
+  make molten
+  [lumium](/docs/thermal-foundation/items/materials/ingots/lumium-ingot/).

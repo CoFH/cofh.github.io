@@ -99,3 +99,15 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, constantan can be molten down in a smeltery. Molten constantan can
+  also be made by mixing molten
+  [copper](/docs/thermal-foundation/items/materials/ingots/copper-ingot/) and
+  molten
+  [nickel](/docs/thermal-foundation/items/materials/ingots/nickel-ingot/).

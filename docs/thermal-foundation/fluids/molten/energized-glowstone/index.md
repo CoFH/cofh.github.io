@@ -111,3 +111,10 @@ Trivia
 
 * Like other fluids, energized glowstone produces dripping particles. However,
   these particles form on top of blocks above the fluid, and 'fall' upwards.
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, energized glowstone can be mixed with molten
+  [tin](/docs/thermal-foundation/items/materials/ingots/tin-ingot/) and molten
+  [silver](/docs/thermal-foundation/items/materials/ingots/silver-ingot/) in a
+  smeltery to make molten
+  [lumium](/docs/thermal-foundation/items/materials/ingots/lumium-ingot/).

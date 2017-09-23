@@ -72,3 +72,15 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, enderium can be molten down in a smeltery. Molten enderium can also
+  be made by mixing molten
+  [lead](/docs/thermal-foundation/items/materials/ingots/lead-ingot/), molten
+  [platinum](/docs/thermal-foundation/items/materials/ingots/platinum-ingot/)
+  and [resonant ender](/docs/thermal-foundation/fluids/molten/resonant-ender/).

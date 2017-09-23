@@ -94,3 +94,15 @@ powder](https://minecraft.gamepedia.com/Blaze_Powder) or [ghast
 tears](https://minecraft.gamepedia.com/Ghast_Tear) in a [reactant
 dynamo](/docs/thermal-expansion/dynamos/reactant-dynamo) to generate varying
 amounts of energy.
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, destabilized redstone can be mixed with molten
+  [copper](/docs/thermal-foundation/items/materials/ingots/copper-ingot/) and
+  molten [silver](/docs/thermal-foundation/items/materials/ingots/silver-ingot/)
+  in a smeltery to make molten
+  [signalum](/docs/thermal-foundation/items/materials/ingots/signalum-ingot/).

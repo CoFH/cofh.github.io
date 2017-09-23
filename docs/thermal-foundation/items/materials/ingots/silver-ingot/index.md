@@ -119,3 +119,22 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+
+Trivia
+------
+
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, molten silver can be mixed with molten
+  [copper](/docs/thermal-foundation/items/materials/ingots/copper-ingot/) and
+  [destabilized
+  redstone](/docs/thermal-foundation/fluids/molten/destabilized-redstone/) to
+  make molten
+  [signalum](/docs/thermal-foundation/items/materials/ingots/signalum-ingot/),
+  or with molten
+  [tin](/docs/thermal-foundation/items/materials/ingots/tin-ingot/) and
+  [energized
+  glowstone](/docs/thermal-foundation/fluids/molten/energized-glowstone/) to
+  make molten
+  [lumium](/docs/thermal-foundation/items/materials/ingots/lumium-ingot/).

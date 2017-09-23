@@ -123,3 +123,9 @@ Trivia
 
 * In real life, [invar](https://en.wikipedia.org/wiki/Invar) is an alloy known
   for its low coefficient of thermal expansion.
+* If [Tinkers'
+  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  installed, invar can be molten down in a smeltery. Molten invar can also be
+  made by mixing molten [iron](https://minecraft.gamepedia.com/Iron_Ingot) and
+  molten
+  [nickel](/docs/thermal-foundation/items/materials/ingots/nickel-ingot/).
