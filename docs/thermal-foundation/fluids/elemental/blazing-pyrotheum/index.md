@@ -1,6 +1,7 @@
 ---
 title: Blazing Pyrotheum
 redirect_from:
+  - /thermal-expansion/fluids/blazing-pyrotheum/
   - /docs/thermal-foundation/fluids/blazing-pyrotheum/
 recipes:
   crucible:

@@ -1,5 +1,7 @@
 ---
 title: Iron Gear
+redirect_from:
+  - /docs/thermal-foundation/materials/gears/
 recipes:
   crafting:
     - gear-iron

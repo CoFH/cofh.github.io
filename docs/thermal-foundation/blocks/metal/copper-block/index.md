@@ -1,5 +1,7 @@
 ---
 title: Copper Block
+redirect_from:
+  - /docs/thermal-foundation/materials/storage-blocks/
 recipes:
   crafting:
     - storage-block-copper

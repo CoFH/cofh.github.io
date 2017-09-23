@@ -1,6 +1,8 @@
 ---
 title: Redstone Flux
 redirect_from:
+  - /thermal-expansion/energy/
+  - /thermal-expansion/energy/redstone-flux-rf/
   - /redstone-flux/
 ---
 

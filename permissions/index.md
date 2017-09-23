@@ -1,7 +1,9 @@
 ---
 title: Permissions
 layout: simple_info
-redirect_from: /permissions.html
+redirect_from:
+  - /license/
+  - /permissions.html
 ---
 
 This page describes what licenses and permissions the different mods of Team

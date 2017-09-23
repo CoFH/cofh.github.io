@@ -3,6 +3,7 @@ title: Copper Ingot
 redirect_from:
   - /docs/thermal-foundation/base-metals/copper/
   - /docs/thermal-foundation/metals-and-alloys/copper/
+  - /docs/thermal-foundation/materials/ingots/
 recipes:
   smelting:
     - ore-processing-copper

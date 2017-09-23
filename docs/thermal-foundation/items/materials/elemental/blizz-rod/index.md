@@ -1,5 +1,8 @@
 ---
 title: Blizz Rod
+redirect_from:
+  - /docs/thermal-foundation/elemental-materials/blizz-rod/
+  - /docs/thermal-foundation/materials/blizz-rod
 usage-recipes:
   crafting:
     - blizz-powder

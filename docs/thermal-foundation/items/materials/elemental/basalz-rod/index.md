@@ -1,5 +1,7 @@
 ---
 title: Basalz Rod
+redirect_from:
+  - /docs/thermal-foundation/elemental-materials/basalz-rod/
 usage-recipes:
   crafting:
     - basalz-powder

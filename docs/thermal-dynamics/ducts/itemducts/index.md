@@ -1,5 +1,8 @@
---- 
+---
 title: Itemducts
+redirect_from:
+  - /thermal-expansion/items/itemducts/
+  - /thermal-expansion/transportation/itemducts/
 recipes:
   crafting:
     - itemduct
@@ -19,8 +22,8 @@ recipes:
     - itemduct-energy-fast-opaque-one
     - itemduct-energy-fast-opaque-three
     - itemduct-energy-fast-opaque-from-transparent
-    - itemduct-energy-fast-transparent-from-opaque 
---- 
+    - itemduct-energy-fast-transparent-from-opaque
+---
 
 ![](/assets/images/thermal-dynamics/itemducts.png "Regular, Dense, Vacuum, Impulse, Fluctuating and Warp Itemducts")
 
@@ -38,16 +41,16 @@ Obtaining
 ## Crafting
 
 
-**Impulse Itemduct**  
-![](/assets/images/recipes/itemduct-impulse.png "Impulse Itemduct recipe")  
+**Impulse Itemduct**
+![](/assets/images/recipes/itemduct-impulse.png "Impulse Itemduct recipe")
 [Fluid Transposer](/docs/thermal-expansion/machines/fluid-transposer/)
 
 *   Itemduct (may be Opaque)
 *   200 mB [Energized Glowstone](/docs/thermal-foundation/fluids/energized-glowstone/)
 
 
-**Fluctuating Itemduct**  
-![](/assets/images/recipes/itemduct-flux.png "Fluctuating Itemduct recipe")  
+**Fluctuating Itemduct**
+![](/assets/images/recipes/itemduct-flux.png "Fluctuating Itemduct recipe")
 [Fluid Transposer](/docs/thermal-expansion/machines/fluid-transposer/)
 
 *   Itemduct (may be Opaque)

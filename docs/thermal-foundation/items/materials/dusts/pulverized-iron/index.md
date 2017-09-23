@@ -1,5 +1,7 @@
 ---
 title: Pulverized Iron
+redirect_from:
+  - /docs/thermal-foundation/materials/pulverized-materials-and-blends/
 recipes:
   crafting:
     - petrotheum-ingot-iron

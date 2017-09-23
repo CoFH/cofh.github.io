@@ -1,5 +1,7 @@
---- 
+---
 title: Fluiducts
+redirect_from:
+  - /thermal-expansion/fluids/fluiducts/
 recipes:
   crafting:
     - fluiduct-basic
@@ -20,7 +22,7 @@ recipes:
     - fluiduct-super-opaque
     - fluiduct-super-opaque-from-transparent
     - fluiduct-super-transparent-from-opaque
---- 
+---
 
 ![](/assets/images/thermal-dynamics/fluiducts.png "Regular, Hardened, Signalum-Plated and Super-Laminar")
 

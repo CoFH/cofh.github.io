@@ -1,9 +1,11 @@
---- 
+---
 title: Fluxed Electrum Block
-recipes: 
-  crafting: 
+redirect_from:
+  - /redstone-arsenal/block/
+recipes:
+  crafting:
     - 'storage-block-fluxed-electrum'
---- 
+---
 
 A **Fluxed Electrum Block** is a block added by [Redstone Arsenal](/docs/redstone-arsenal/). It is the block form of the [Fluxed Electrum Ingot](/docs/redstone-arsenal/materials/fluxed-electrum-ingot).
 

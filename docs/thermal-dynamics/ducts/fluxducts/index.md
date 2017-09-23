@@ -1,5 +1,7 @@
 ---
 title: Fluxducts
+redirect_from:
+  - /thermal-expansion/energy/energy-conduits/
 recipes:
   crafting:
     - fluxduct-basic

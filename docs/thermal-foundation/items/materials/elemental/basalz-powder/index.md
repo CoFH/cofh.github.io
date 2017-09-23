@@ -1,5 +1,7 @@
 ---
 title: Basalz Powder
+redirect_from:
+  - /docs/thermal-foundation/elemental-materials/basalz-powder/
 recipes:
   crafting:
     - basalz-powder

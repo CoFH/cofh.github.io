@@ -1,6 +1,8 @@
 ---
 title: Redstone Arsenal
-redirect_from: /mods/redstone-arsenal/
+redirect_from:
+  - /redstone-arsenal/introduction/
+  - /mods/redstone-arsenal/
 ---
 
 ![Redstone Arsenal logo](/assets/images/modlogos/redstone-arsenal.png){:.cofh-mod-page-logo}

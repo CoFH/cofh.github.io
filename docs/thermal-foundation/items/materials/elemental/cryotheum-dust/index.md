@@ -1,6 +1,8 @@
 ---
 title: Cryotheum Dust
-redirect_from: /docs/thermal-foundation/elemental-materials/cryotheum-dust/
+redirect_from:
+  - /thermal-expansion/items/cryotheum-dust/
+  - /docs/thermal-foundation/elemental-materials/cryotheum-dust/
 recipes:
   crafting:
     - dust-cryotheum

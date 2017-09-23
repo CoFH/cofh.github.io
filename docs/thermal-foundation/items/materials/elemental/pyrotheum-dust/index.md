@@ -1,6 +1,8 @@
 ---
 title: Pyrotheum Dust
-redirect_from: /docs/thermal-foundation/elemental-materials/pyrotheum-dust/
+redirect_from:
+  - /thermal-expansion/items/pyrotheum-dust/
+  - /docs/thermal-foundation/elemental-materials/pyrotheum-dust/
 recipes:
   crafting:
     - dust-pyrotheum

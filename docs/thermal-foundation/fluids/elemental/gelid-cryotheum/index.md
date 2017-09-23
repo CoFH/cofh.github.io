@@ -1,6 +1,7 @@
 ---
 title: Gelid Cryotheum
 redirect_from:
+  - /thermal-expansion/fluids/gelid-cryotheum/
   - /docs/thermal-foundation/fluids/gelid-cryotheum/
 recipes:
   crucible:

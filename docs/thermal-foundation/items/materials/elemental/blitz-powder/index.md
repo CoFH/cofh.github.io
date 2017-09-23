@@ -1,5 +1,7 @@
 ---
 title: Blitz Powder
+redirect_from:
+  - /docs/thermal-foundation/elemental-materials/blitz-powder/
 recipes:
   crafting:
     - blitz-powder

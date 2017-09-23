@@ -1,6 +1,7 @@
 ---
 title: Redstone Transmission Coil
 redirect_from:
+  - /thermal-expansion/items/redstone-transmission-coil/
   - /docs/thermal-expansion/materials/redstone-transmission-coil/
 recipes:
   crafting:

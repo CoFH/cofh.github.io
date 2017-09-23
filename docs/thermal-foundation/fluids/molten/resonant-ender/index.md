@@ -1,6 +1,7 @@
 ---
 title: Resonant Ender
 redirect_from:
+  - /thermal-expansion/fluids/resonant-ender/
   - /docs/thermal-foundation/fluids/resonant-ender/
 recipes:
   crucible:

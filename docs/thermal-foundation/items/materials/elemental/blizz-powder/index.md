@@ -1,5 +1,7 @@
 ---
 title: Blizz Powder
+redirect_from:
+  - /docs/thermal-foundation/elemental-materials/blizz-powder/
 recipes:
   crafting:
     - blizz-powder

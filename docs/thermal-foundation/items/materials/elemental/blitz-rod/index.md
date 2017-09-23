@@ -1,5 +1,7 @@
 ---
 title: Blitz Rod
+redirect_from:
+  - /docs/thermal-foundation/elemental-materials/blitz-rod/
 usage-recipes:
   crafting:
     - blitz-powder

@@ -1,5 +1,9 @@
 ---
 title: Documentation
+redirect_from:
+  - /wiki/
+  - /wiki/index.php/
+  - /core-mods/
 ---
 
 [Terminology](/docs/terminology/)

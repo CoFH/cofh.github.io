@@ -1,6 +1,8 @@
 ---
 title: Thermal Expansion
-redirect_from: /mods/thermal-expansion/
+redirect_from:
+  - /thermal-expansion/
+  - /mods/thermal-expansion/
 ---
 
 ![Thermal Expansion logo](/assets/images/modlogos/thermal-expansion.png){:.cofh-mod-page-logo}

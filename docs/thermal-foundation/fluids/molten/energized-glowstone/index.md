@@ -1,6 +1,7 @@
 ---
 title: Energized Glowstone
 redirect_from:
+  - /thermal-expansion/fluids/energized-glowstone/
   - /docs/thermal-foundation/fluids/energized-glowstone/
 recipes:
   crucible:

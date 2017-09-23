@@ -1,6 +1,9 @@
 ---
 title: CoFH Core
-redirect_from: /mods/cofh-core/
+redirect_from:
+  - /cofh-core/
+  - /core-mods/cofhcore/
+  - /mods/cofh-core/
 ---
 
 ![CoFH Core logo](/assets/images/modlogos/cofh-core.png){:.cofh-mod-page-logo}

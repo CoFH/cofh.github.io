@@ -1,5 +1,7 @@
 ---
 title: Copper Nugget
+redirect_from:
+  - /docs/thermal-foundation/materials/nuggets/
 recipes:
   crafting:
     - nugget-copper

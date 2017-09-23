@@ -1,6 +1,7 @@
 ---
 title: Destabilized Redstone
 redirect_from:
+  - /thermal-expansion/fluids/destabilized-redstone/
   - /docs/thermal-foundation/fluids/destabilized-redstone/
 recipes:
   crucible:
