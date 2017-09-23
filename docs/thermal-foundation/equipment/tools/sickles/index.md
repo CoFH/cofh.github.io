@@ -86,7 +86,7 @@ every individual block broken.
 | Invar | 1800 | 1.4 | 7 | 16 |
 | Bronze | 2000 | 1.4 | 6 | 15 |
 | Constantan | 1100 | 1.4 | 5.5 | 20 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
 

@@ -83,7 +83,7 @@ Usage
 | Invar | 438 |
 | Bronze | 488 |
 | Constantan | 263 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
 

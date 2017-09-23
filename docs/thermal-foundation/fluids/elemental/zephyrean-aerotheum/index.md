@@ -68,3 +68,10 @@ fuel in a [reactant dynamo](/docs/thermal-expansion/dynamos/reactant-dynamo/),
 100 mB of zephyrean aerotheum yields 400,000 RF, or 500,000 RF if an [elemental
 catalyzer](/docs/thermal-expansion/augments/dynamo/reactant/elemental-catalyzer/)
 is installed.
+
+
+Trivia
+------
+
+* Like other fluids, zephyrean aerotheum produces dripping particles. However,
+  these particles form on top of blocks above the fluid, and 'fall' upwards.
