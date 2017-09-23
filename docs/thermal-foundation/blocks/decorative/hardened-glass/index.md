@@ -78,7 +78,8 @@ Usage
 
 ### Light source
 Some variants of hardened glass emit varying amounts of light depending on the
-type of metal, like [lumium](/docs/thermal-foundation/ingots/lumium-ingot/).
+type of metal, like
+[lumium](/docs/thermal-foundation/items/materials/ingots/lumium-ingot/).
 
 ### Beacons
 Like [stained glass](https://minecraft.gamepedia.com/Stained_Glass), hardened
