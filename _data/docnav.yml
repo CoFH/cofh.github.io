@@ -15,10 +15,14 @@ cofh-core:
         - items:
             - title: Commands
               url: commands/
-            - title: Enchantments
-              url: enchantments/
+            - title: Tweaks
             - title: Friend List
-            - title: Game Tweaks
+            - title: Enchantments
+              subitems:
+                - title: Holding
+                  url: holding/
+                - title: Multishot
+                  url: multishot/
 
 cofh-world:
   title: CoFH World

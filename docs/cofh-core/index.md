@@ -13,11 +13,10 @@ redirect_from:
 CoFH. It must be installed in order for the mods to run.
 
 Other than providing common functionality for the other mods, CoFH Core also
-provides a set of useful [commands](/docs/cofh-core/commands/), several new
-[enchantments](/docs/cofh-core/enchantments/), a [friend
-list](/docs/cofh-core/friend-list/), and some configurable [game
-tweaks](/docs/cofh-core/game-tweaks/). It also notifies players of updates for
-the CoFH mods.
+provides a set of useful [commands](/docs/cofh-core/commands/), some
+configurable [game tweaks](/docs/cofh-core/tweaks/), a [friend
+list](/docs/cofh-core/friend-list/), and several new enchantments. It also
+notifies players of updates for the CoFH mods.
 
 
 <div class="uk-margin-top uk-button-group">
