@@ -16,6 +16,7 @@ cofh-core:
             - title: Commands
               url: commands/
             - title: Tweaks
+              url: tweaks/
             - title: Friend List
               url: friend-list/
             - title: Enchantments
