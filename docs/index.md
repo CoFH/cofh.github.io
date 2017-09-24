@@ -6,6 +6,20 @@ redirect_from:
   - /core-mods/
 ---
 
+Work In Progress
+----------------
+
+The documentation is currently being updated for the latest versions of the
+mods. Outdated information has been removed; it will be re-added later in a
+nicer way.
+
+For now, an old copy of the documentation is available
+[here](https://oldcofh.github.io/docs/).
+
+
+Index
+-----
+
 [Terminology](/docs/terminology/)
 
 ### Core
