@@ -292,6 +292,32 @@ flower:
     - lilac
     - rose-bush
     - peony
+food-raw:
+  name: Raw Food
+  site: mc-wiki
+  url: Food
+  items:
+    - potato
+    - raw-porkchop
+    - raw-beef
+    - raw-chicken
+    - raw-mutton
+    - raw-rabbit
+    - raw-fish
+    - raw-salmon
+food-cooked:
+  name: Cooked Food
+  site: mc-wiki
+  url: Food
+  items:
+    - baked-potato
+    - cooked-porkchop
+    - steak
+    - cooked-chicken
+    - cooked-mutton
+    - cooked-rabbit
+    - cooked-fish
+    - cooked-salmon
 glass-stained:
   name: Stained Glass
   site: mc-wiki
@@ -491,7 +517,7 @@ metal-ore:
     - ore-iridium
     - ore-mithril
 metal-ore-dust:
-  name: Pulverized Ore Metal
+  name: Metal Ore Dust
   prefix:
     ingredient: 'any'
   items:

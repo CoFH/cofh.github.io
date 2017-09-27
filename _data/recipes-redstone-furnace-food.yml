@@ -3,31 +3,15 @@ site: te-docs
 url: augments/machine/redstone-furnace/trivection-chamber/
 with-energy: true
 recipes:
-  food-processing:
+  food:
     results:
-      - html: 'Cooked <a href="https://minecraft.gamepedia.com/Food">Food</a>'
+      - item-group: food-cooked
     ingredients:
-      - html: 'Raw <a href="https://minecraft.gamepedia.com/Food">Food</a>'
+      - item-group: food-raw
     energy: 1500
     data:
       input:
-        item:
-          - potato
-          - raw-porkchop
-          - raw-beef
-          - raw-chicken
-          - raw-mutton
-          - raw-rabbit
-          - raw-fish
-          - raw-salmon
+        item-group: food-raw
       output:
-        item:
-          - baked-potato
-          - cooked-porkchop
-          - steak
-          - cooked-chicken
-          - cooked-mutton
-          - cooked-rabbit
-          - cooked-fish
-          - cooked-salmon
+        item-group: food-cooked
         amount: 2
