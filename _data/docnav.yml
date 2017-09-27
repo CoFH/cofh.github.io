@@ -596,7 +596,7 @@ thermal-expansion:
     - groups:
         - title: Machines
           url: machines/
-          title-page: false
+          title-page: true
           items:
             - title: Redstone Furnace
               url: redstone-furnace/
