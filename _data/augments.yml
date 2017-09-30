@@ -1,0 +1,38 @@
+machine-furnace-food:
+  name: Trivection Chamber
+  url: machine/redstone-furnace/trivection-chamber/
+  installed-in: '<a href="/docs/thermal-expansion/machines/redstone-furnace/">Redstone Furnace</a>'
+  description: >
+    Doubles the amount of cooked <a
+    href="https://minecraft.gamepedia.com/Food">food</a> a redstone furnace
+    produces when processing raw food. However, a redstone furnace can only
+    process food when installed.
+machine-furnace-ore:
+  name: Flux Anodizers
+  url: machine/redstone-furnace/flux-anodizers/
+  installed-in: '<a href="/docs/thermal-expansion/machines/redstone-furnace/">Redstone Furnace</a>'
+  description: >
+    Doubles the amount of ingots a redstone furnace produces when processing
+    metal ores. However, a redstone furnace can only process metal ores when
+    installed.
+machine-furnace-pyrolysis:
+  name: Pyrolytic Conversion
+  url: machine/redstone-furnace/pyrolytic-conversion/
+  installed-in: '<a href="/docs/thermal-expansion/machines/redstone-furnace/">Redstone Furnace</a>'
+  description: >
+    Allows for a redstone furnace to process various plant-based materials into
+    <a href="https://minecraft.gamepedia.com/Charcoal">charcoal</a>, and <a
+    href="https://minecraft.gamepedia.com/Coal">coal</a> into <a
+    href="/docs/thermal-foundation/items/materials/other/coal-coke/">coal
+    coke</a>. <a
+    href="/docs/thermal-foundation/fluids/fuel/creosote-oil/">Creosote oil</a>
+    is also produced as a byproduct. However, only these items can be processed,
+    and the machine's maximum power usage (speed) is reduced by a factor of 10.
+machine-power:
+  name: Auxiliary Reception Coil
+  url: machine/auxiliary-reception-coil/
+  installed-in: 'Any <a href="/docs/thermal-expansion/machines/">machine</a>'
+  description: >
+    Increases a machine's maximum power usage (speed) by 1x its base maximum
+    power usage. However, the amount of energy required per operation is also
+    increased. Can be installed multiple times.

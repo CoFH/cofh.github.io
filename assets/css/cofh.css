@@ -208,6 +208,24 @@ html {
     text-align: center;
 }
 
+.cofh-augment-table {
+    width: initial;
+    max-width: 100%;
+}
+
+.cofh-augment-table, .cofh-augment-table tr, .cofh-augment-table td, .cofh-augment-table th {
+    border: 1px solid #dadada;
+    border-collapse: collapse;
+}
+
+.cofh-augment-table td {
+    vertical-align: middle;
+}
+
+.cofh-augment-table th {
+    text-align: center;
+}
+
 #cofh-docs-content a[href^="http"] {
     color: #4b97d8;
 }

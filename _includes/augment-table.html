@@ -1,0 +1,39 @@
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small cofh-augment-table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Augment</th>
+                <th>Installable in</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for augment in include.augments %}
+                {% assign augment_data = site.data.augments[augment] %}
+                {% capture augment_url %}/docs/thermal-expansion/augments/{{augment_data.url}}{% endcapture %}
+
+                <tr>
+                    <td style="width: 48px">
+                        <a href="{{augment_url}}">
+                            <img src="/assets/images/thermal-expansion/augment-{{augment}}.png" alt="{{augment_data.name}}" style="width: 48px; height: 48px" />
+                        </a>
+                    </td>
+
+                    <td class="cofh-nowrap">
+                        <strong><a href="{{augment_url}}">{{ augment_data.name }}</a></strong>
+                    </td>
+
+                    <td class="cofh-nowrap">
+                        {{ augment_data.installed-in }}
+                    </td>
+
+                    <td>
+                        {{ augment_data.description }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
