@@ -9,10 +9,10 @@ usage-recipes:
     - augment-machine-furnace-ore
     - augment-machine-precipitator-snow-layer
     - augment-machine-precipitator-packed-ice
-    - augment-machine-extruder-andesite
-    - augment-machine-extruder-diorite
-    - augment-machine-extruder-granite
     - augment-machine-extruder-no-water
+    - augment-machine-extruder-granite
+    - augment-machine-extruder-diorite
+    - augment-machine-extruder-andesite
     - augment-dynamo-magmatic-coolant
 ---
 

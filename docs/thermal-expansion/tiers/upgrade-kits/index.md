@@ -12,9 +12,8 @@ recipes:
 
 An **Upgrade Kit** is an upgrade for machines added by Thermal Expansion. An
 upgrade kit can only be used to upgrade one tier. Upgrade Kits can be combined
-to make a [Conversion
-Kit](/docs/thermal-expansion/tiers-and-augments/conversion-kits/) that can
-upgrade multiple tiers at once.
+to make a [Conversion Kit](/docs/thermal-expansion/tiers/conversion-kits/) that
+can upgrade multiple tiers at once.
 
 An Upgrade Kit is applied by right clicking on the machine you want to upgrade.
 

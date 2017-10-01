@@ -50,8 +50,8 @@ usage-recipes:
     - multimeter
     - energy-cell-basic
     - flux-capacitor-basic
-    - augment-dynamo-efficiency
     - augment-machine-charger-throughput
+    - augment-dynamo-efficiency
     - fluxduct-basic
     - fluiduct-basic-opaque
     - fluiduct-basic-opaque-from-transparent

@@ -1,6 +1,6 @@
 name: Tectonic Initiator
 site: te-docs
-url: augments/machine/pulverizer/tectonic-initiator/
+url: augments/machine/tectonic-initiator/
 with-energy: true
 recipes:
   fluid-ore-processing-ender:

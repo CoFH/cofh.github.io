@@ -96,8 +96,8 @@ When used together with [pyrotheum
 dust](/docs/thermal-foundation/items/materials/elemental/pyrotheum-dust/) as
 fuel in a [reactant dynamo](/docs/thermal-expansion/dynamos/reactant-dynamo/),
 100 mB of gelid cryotheum yields 400,000 RF, or 500,000 RF if an [elemental
-catalyzer](/docs/thermal-expansion/augments/dynamo/reactant/elemental-catalyzer/)
-is installed.
+catalyzer](/docs/thermal-expansion/augments/dynamo/elemental-catalyzer/) is
+installed.
 
 ### Coolant
 Gelid cryotheum is a very effective

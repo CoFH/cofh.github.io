@@ -33,156 +33,11 @@ arrow:
   sprite: [14, 38]
   site: mc-wiki
   url: Arrow
-augment-dynamo-boiler:
-  name: 'Augment: Boiler Conversion'
-  animated: true
-  site: te-docs
-  url: augments/dynamo/boiler-conversion/
-augment-dynamo-coil-duct:
-  name: 'Augment: Transmission Coil Ducting'
-  sprite: [13, 28]
-  site: te-docs
-  url: augments/dynamo/transmission-coil-ducting/
-augment-dynamo-compression-coolant:
-  name: 'Augment: Closed-Loop Cooling'
-  sprite: [14, 28]
-  site: te-docs
-  url: augments/dynamo/compression/closed-loop-cooling/
-augment-dynamo-compression-fuel:
-  name: 'Augment: Ignition Plugs'
-  sprite: [15, 28]
-  site: te-docs
-  url: augments/dynamo/compression/ignition-plugs/
-augment-dynamo-efficiency:
-  name: 'Augment: Fuel Catalyzer'
-  animated: true
-  site: te-docs
-  url: augments/dynamo/fuel-catalyzer/
-augment-dynamo-magmatic-coolant:
-  name: 'Augment: Isentropic Reservoir'
-  sprite: [0, 29]
-  site: te-docs
-  url: augments/dynamo/magmatic/isentropic-reservoir/
-augment-dynamo-numismatic-gem:
-  name: 'Augment: Lapidary Calibration'
-  sprite: [1, 29]
-  site: te-docs
-  url: augments/dynamo/numismatic/lapidary-calibration/
-augment-dynamo-power:
-  name: 'Augment: Auxiliary Transmission Coil'
-  sprite: [2, 29]
-  site: te-docs
-  url: augments/dynamo/auxiliary-transmission-coil/
-augment-dynamo-reactant-elemental:
-  name: 'Augment: Elemental Catalyzer'
-  sprite: [3, 29]
-  site: te-docs
-  url: augments/dynamo/reactant/elemental-catalyzer/
-augment-dynamo-steam-turbine:
-  name: 'Augment: Turbine Conversion'
-  sprite: [4, 29]
-  site: te-docs
-  url: augments/dynamo/steam/turbine-conversion/
-augment-dynamo-throttle:
-  name: 'Augment: Excitation Field Limiter'
-  sprite: [5, 29]
-  site: te-docs
-  url: augments/dynamo/excitation-field-limiter/
-augment-machine-charger-throughput:
-  name: 'Augment: Flux Linkage Concentrator'
-  sprite: [6, 29]
-  site: te-docs
-  url: augments/machine/energetic-infuser/flux-linkage-concentrator/
-augment-machine-compactor-mint:
-  name: 'Augment: Numismatic Press'
-  sprite: [7, 29]
-  site: te-docs
-  url: augments/machine/compactor/numismatic-press/
-augment-machine-crucible-lava:
-  name: 'Augment: Pyroconvective Loop'
-  animated: true
-  site: te-docs
-  url: augments/machine/magma-crucible/pyroconvective-loop/
-augment-machine-extruder-andesite:
-  name: 'Augment: Andesitic Subduction'
-  sprite: [8, 29]
-  site: te-docs
-  url: augments/machine/igneous-extruder/andesitic-subduction/
-augment-machine-extruder-diorite:
-  name: 'Augment: Dioritic Subduction'
-  sprite: [9, 29]
-  site: te-docs
-  url: augments/machine/igneous-extruder/dioritic-subduction/
-augment-machine-extruder-granite:
-  name: 'Augment: Granitic Subduction'
-  sprite: [10, 29]
-  site: te-docs
-  url: augments/machine/igneous-extruder/granitic-subduction/
-augment-machine-extruder-no-water:
-  name: 'Augment: Pyroclastic Injection'
-  animated: true
-  site: te-docs
-  url: augments/machine/igneous-extruder/pyroclastic-injection/
-augment-machine-furnace-food:
-  name: 'Augment: Trivection Chamber'
-  sprite: [11, 29]
-  site: te-docs
-  url: augments/machine/redstone-furnace/trivection-chamber/
-augment-machine-furnace-ore:
-  name: 'Augment: Flux Anodizers'
-  sprite: [12, 29]
-  site: te-docs
-  url: augments/machine/redstone-furnace/flux-anodizers/
-augment-machine-furnace-pyrolysis:
-  name: 'Augment: Pyrolytic Conversion'
-  sprite: [13, 29]
-  site: te-docs
-  url: augments/machine/redstone-furnace/pyrolytic-conversion/
-augment-machine-insolator-end:
-  name: 'Augment: Ender Substrate'
-  sprite: [14, 29]
-  site: te-docs
-  url: augments/machine/phytogenic-insolator/ender-substrate/
-augment-machine-insolator-mycelium:
-  name: 'Augment: Mycelium Substrate'
-  sprite: [15, 29]
-  site: te-docs
-  url: augments/machine/phytogenic-insolator/mycelium-substrate/
-augment-machine-insolator-nether:
-  name: 'Augment: Nether Substrate'
-  sprite: [0, 30]
-  site: te-docs
-  url: augments/machine/phytogenic-insolator/nether-substrate/
-augment-machine-insolator-tree:
-  name: 'Augment: Sapling Infuser'
-  sprite: [1, 30]
-  site: te-docs
-  url: augments/machine/phytogenic-insolator/sapling-infuser/
 augment-machine-power:
   name: 'Augment: Auxiliary Reception Coil'
   sprite: [2, 30]
   site: te-docs
   url: augments/machine/auxiliary-reception-coil/
-augment-machine-precipitator-packed-ice:
-  name: 'Augment: Permafrost Compressor'
-  sprite: [3, 30]
-  site: te-docs
-  url: augments/machine/glacial-precipitator/permafrost-compressor/
-augment-machine-precipitator-snow-layer:
-  name: 'Augment: Flurry Stratum'
-  sprite: [4, 30]
-  site: te-docs
-  url: augments/machine/glacial-precipitator/flurry-stratum/
-augment-machine-pulverizer-petrotheum:
-  name: 'Augment: Tectonic Initiator'
-  animated: true
-  site: te-docs
-  url: augments/machine/pulverizer/tectonic-initiator/
-augment-machine-sawmill-tapper:
-  name: 'Augment: Resin Funnel'
-  animated: true
-  site: te-docs
-  url: augments/machine/sawmill/resin-funnel/
 augment-machine-secondary:
   name: 'Augment: Auxiliary Sieve'
   sprite: [5, 30]
@@ -193,11 +48,156 @@ augment-machine-secondary-null:
   animated: true
   site: te-docs
   url: augments/machine/nullification-chamber/
+augment-machine-furnace-food:
+  name: 'Augment: Trivection Chamber'
+  sprite: [11, 29]
+  site: te-docs
+  url: augments/machine/trivection-chamber/
+augment-machine-furnace-ore:
+  name: 'Augment: Flux Anodizers'
+  sprite: [12, 29]
+  site: te-docs
+  url: augments/machine/flux-anodizers/
+augment-machine-furnace-pyrolysis:
+  name: 'Augment: Pyrolytic Conversion'
+  sprite: [13, 29]
+  site: te-docs
+  url: augments/machine/pyrolytic-conversion/
+augment-machine-pulverizer-petrotheum:
+  name: 'Augment: Tectonic Initiator'
+  animated: true
+  site: te-docs
+  url: augments/machine/tectonic-initiator/
+augment-machine-sawmill-tapper:
+  name: 'Augment: Resin Funnel'
+  animated: true
+  site: te-docs
+  url: augments/machine/resin-funnel/
 augment-machine-smelter-pyrotheum:
   name: 'Augment: Pyro-Concentrator'
   animated: true
   site: te-docs
-  url: augments/machine/induction-smelter/pyro-concentrator/
+  url: augments/machine/pyro-concentrator/
+augment-machine-insolator-mycelium:
+  name: 'Augment: Mycelium Substrate'
+  sprite: [15, 29]
+  site: te-docs
+  url: augments/machine/mycelium-substrate/
+augment-machine-insolator-nether:
+  name: 'Augment: Nether Substrate'
+  sprite: [0, 30]
+  site: te-docs
+  url: augments/machine/nether-substrate/
+augment-machine-insolator-end:
+  name: 'Augment: Ender Substrate'
+  sprite: [14, 29]
+  site: te-docs
+  url: augments/machine/ender-substrate/
+augment-machine-insolator-tree:
+  name: 'Augment: Sapling Infuser'
+  sprite: [1, 30]
+  site: te-docs
+  url: augments/machine/sapling-infuser/
+augment-machine-compactor-mint:
+  name: 'Augment: Numismatic Press'
+  sprite: [7, 29]
+  site: te-docs
+  url: augments/machine/numismatic-press/
+augment-machine-crucible-lava:
+  name: 'Augment: Pyroconvective Loop'
+  animated: true
+  site: te-docs
+  url: augments/machine/pyroconvective-loop/
+augment-machine-charger-throughput:
+  name: 'Augment: Flux Linkage Concentrator'
+  sprite: [6, 29]
+  site: te-docs
+  url: augments/machine/flux-linkage-concentrator/
+augment-machine-precipitator-snow-layer:
+  name: 'Augment: Flurry Stratum'
+  sprite: [4, 30]
+  site: te-docs
+  url: augments/machine/flurry-stratum/
+augment-machine-precipitator-packed-ice:
+  name: 'Augment: Permafrost Compressor'
+  sprite: [3, 30]
+  site: te-docs
+  url: augments/machine/permafrost-compressor/
+augment-machine-extruder-no-water:
+  name: 'Augment: Pyroclastic Injection'
+  animated: true
+  site: te-docs
+  url: augments/machine/pyroclastic-injection/
+augment-machine-extruder-granite:
+  name: 'Augment: Granitic Subduction'
+  sprite: [10, 29]
+  site: te-docs
+  url: augments/machine/granitic-subduction/
+augment-machine-extruder-diorite:
+  name: 'Augment: Dioritic Subduction'
+  sprite: [9, 29]
+  site: te-docs
+  url: augments/machine/dioritic-subduction/
+augment-machine-extruder-andesite:
+  name: 'Augment: Andesitic Subduction'
+  sprite: [8, 29]
+  site: te-docs
+  url: augments/machine/andesitic-subduction/
+augment-dynamo-power:
+  name: 'Augment: Auxiliary Transmission Coil'
+  sprite: [2, 29]
+  site: te-docs
+  url: augments/dynamo/auxiliary-transmission-coil/
+augment-dynamo-efficiency:
+  name: 'Augment: Fuel Catalyzer'
+  animated: true
+  site: te-docs
+  url: augments/dynamo/fuel-catalyzer/
+augment-dynamo-coil-duct:
+  name: 'Augment: Transmission Coil Ducting'
+  sprite: [13, 28]
+  site: te-docs
+  url: augments/dynamo/transmission-coil-ducting/
+augment-dynamo-throttle:
+  name: 'Augment: Excitation Field Limiter'
+  sprite: [5, 29]
+  site: te-docs
+  url: augments/dynamo/excitation-field-limiter/
+augment-dynamo-boiler:
+  name: 'Augment: Boiler Conversion'
+  animated: true
+  site: te-docs
+  url: augments/dynamo/boiler-conversion/
+augment-dynamo-steam-turbine:
+  name: 'Augment: Turbine Conversion'
+  sprite: [4, 29]
+  site: te-docs
+  url: augments/dynamo/turbine-conversion/
+augment-dynamo-magmatic-coolant:
+  name: 'Augment: Isentropic Reservoir'
+  sprite: [0, 29]
+  site: te-docs
+  url: augments/dynamo/isentropic-reservoir/
+augment-dynamo-compression-coolant:
+  name: 'Augment: Closed-Loop Cooling'
+  sprite: [14, 28]
+  site: te-docs
+  url: augments/dynamo/closed-loop-cooling/
+augment-dynamo-compression-fuel:
+  name: 'Augment: Ignition Plugs'
+  sprite: [15, 28]
+  site: te-docs
+  url: augments/dynamo/ignition-plugs/
+augment-dynamo-reactant-elemental:
+  name: 'Augment: Elemental Catalyzer'
+  sprite: [3, 29]
+  site: te-docs
+  url: augments/dynamo/elemental-catalyzer/
+augment-dynamo-numismatic-gem:
+  name: 'Augment: Lapidary Calibration'
+  sprite: [1, 29]
+  site: te-docs
+  url: augments/dynamo/lapidary-calibration/
 axe-aluminum:
   name: Aluminum Axe
   sprite: [4, 16]

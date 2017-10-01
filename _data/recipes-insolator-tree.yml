@@ -1,6 +1,6 @@
 name: Sapling Infuser
 site: te-docs
-url: augments/machine/phytogenic-insolator/sapling-infuser/
+url: augments/machine/sapling-infuser/
 with-energy: true
 recipes:
   wood:

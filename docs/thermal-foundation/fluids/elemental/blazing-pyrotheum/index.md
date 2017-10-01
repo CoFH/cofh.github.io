@@ -82,7 +82,7 @@ Blazing pyrotheum has the following effects on certain blocks and mobs:
 ### Pyro-Concentrator
 An [induction smelter](/docs/thermal-expansion/machines/induction-smelter/) with
 a
-[pyro-concentrator](/docs/thermal-expansion/augments/machine/induction-smelter/pyro-concentrator/)
+[pyro-concentrator](/docs/thermal-expansion/augments/machine/pyro-concentrator/)
 installed can consume blazing pyrotheum to process ores more efficiently. It
 consumes 100 mB of pyrotheum per processed ore.
 
@@ -90,13 +90,13 @@ consumes 100 mB of pyrotheum per processed ore.
 When used as fuel in a [magmatic
 dynamo](/docs/thermal-expansion/dynamos/magmatic-dynamo/), a bucket of blazing
 pyrotheum yields 2,000,000 RF, or 2,500,000 RF if an [isentropic
-reservoir](/docs/thermal-expansion/augments/dynamo/magmatic/isentropic-reservoir/)
-is installed.
+reservoir](/docs/thermal-expansion/augments/dynamo/isentropic-reservoir/) is
+installed.
 
 ### Reactant Dynamo fuel
 When used together with [cryotheum
 dust](/docs/thermal-foundation/items/materials/elemental/cryotheum-dust/) as
 fuel in a [reactant dynamo](/docs/thermal-expansion/dynamos/reactant-dynamo/),
 100 mB of blazing pyrotheum yields 400,000 RF, or 500,000 RF if an [elemental
-catalyzer](/docs/thermal-expansion/augments/dynamo/reactant/elemental-catalyzer/)
-is installed.
+catalyzer](/docs/thermal-expansion/augments/dynamo/elemental-catalyzer/) is
+installed.

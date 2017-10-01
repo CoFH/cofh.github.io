@@ -682,86 +682,39 @@ thermal-expansion:
                 - title: Auxiliary Reception Coil
                 - title: Auxiliary Sieve
                 - title: Nullification Chamber
-              groups:
-                - title: Redstone Furnace
-                  url: redstone-furnace/
-                  items:
-                    - title: Flux Anodizers
-                    - title: Pyrolytic Conversion
-                    - title: Trivection Chamber
-                - title: Pulverizer
-                  url: pulverizer/
-                  items:
-                    - title: Tectonic Initator
-                - title: Sawmill
-                  url: sawmill/
-                  items:
-                    - title: Resin Funnel
-                - title: Induction Smelter
-                  url: induction-smelter/
-                  items:
-                    - title: Pyro-Concentrator
-                - title: Phytogenic Insolator
-                  url: phytogenic-insolator/
-                  items:
-                    - title: Mycelium Substrate
-                    - title: Nether Substrate
-                    - title: Ender Substrate
-                    - title: Sapling Infuser
-                - title: Compactor
-                  url: compactor/
-                  items:
-                    - title: Numismatic Press
-                - title: Magma Crucible
-                  url: magma-crucible/
-                  items:
-                    - title: Pyroconvective Loop
-                - title: Energetic Infuser
-                  url: energetic-infuser/
-                  items:
-                    - title: Flux Linkage Concentrator
-                - title: Glacial Precipitator
-                  url: glacial-precipitator/
-                  items:
-                    - title: Flurry Stratum
-                    - title: Permafrost Compressor
-                - title: Igneous Extruder
-                  url: igneous-extruder/
-                  items:
-                    - title: Andesitic Subduction
-                    - title: Dioritic Subduction
-                    - title: Granitic Subduction
-                    - title: Pyroclastic Injection
+                - title: Trivection Chamber
+                - title: Flux Anodizers
+                - title: Pyrolytic Conversion
+                - title: Tectonic Initator
+                - title: Resin Funnel
+                - title: Pyro-Concentrator
+                - title: Mycelium Substrate
+                - title: Nether Substrate
+                - title: Ender Substrate
+                - title: Sapling Infuser
+                - title: Numismatic Press
+                - title: Pyroconvective Loop
+                - title: Flux Linkage Concentrator
+                - title: Flurry Stratum
+                - title: Permafrost Compressor
+                - title: Pyroclastic Injection
+                - title: Granitic Subduction
+                - title: Dioritic Subduction
+                - title: Andesitic Subduction
             - title: Dynamo
               url: dynamo/
               items:
                 - title: Auxiliary Transmission Coil
-                - title: Boiler Conversion
-                - title: Excitation Field Limiter
                 - title: Fuel Catalyzer
                 - title: Transmission Coil Ducting
-              groups:
-                - title: Steam
-                  url: steam/
-                  items:
-                    - title: Turbine Conversion
-                - title: Magmatic
-                  url: magmatic/
-                  items:
-                    - title: Isentropic Reservoir
-                - title: Compression
-                  url: compression/
-                  items:
-                    - title: Closed-Loop Cooling
-                    - title: Ignition Plugs
-                - title: Reactant
-                  url: reactant/
-                  items:
-                    - title: Elemental Catalyzer
-                - title: Numismatic
-                  url: numismatic/
-                  items:
-                    - title: Lapidary Calibration
+                - title: Excitation Field Limiter
+                - title: Boiler Conversion
+                - title: Turbine Conversion
+                - title: Isentropic Reservoir
+                - title: Closed-Loop Cooling
+                - title: Ignition Plugs
+                - title: Elemental Catalyzer
+                - title: Lapidary Calibration
         - title: Items
           url: items/
           items:

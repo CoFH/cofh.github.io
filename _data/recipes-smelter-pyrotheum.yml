@@ -1,6 +1,6 @@
 name: Pyro-Concentrator
 site: te-docs
-url: augments/machine/induction-smelter/pyro-concentrator/
+url: augments/machine/pyro-concentrator/
 with-energy: true
 recipes:
   ore-processing-cinnabar-aluminum:

@@ -26,10 +26,10 @@ usage-recipes:
     - augment-machine-compactor-mint
     - augment-machine-precipitator-snow-layer
     - augment-machine-precipitator-packed-ice
-    - augment-machine-extruder-andesite
-    - augment-machine-extruder-diorite
-    - augment-machine-extruder-granite
     - augment-machine-extruder-no-water
+    - augment-machine-extruder-granite
+    - augment-machine-extruder-diorite
+    - augment-machine-extruder-andesite
 ---
 
 ![Redstone servo](/assets/images/thermal-foundation/redstone-servo.png){:style="height: 128px"}

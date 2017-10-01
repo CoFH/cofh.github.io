@@ -62,7 +62,7 @@ rock. This is disabled by default.
 
 ### Tectonic Initiator
 An [pulverizer](/docs/thermal-expansion/machines/pulverizer/) with a [tectonic
-initiator](/docs/thermal-expansion/augments/machine/pulverizer/tectonic-initiator/)
+initiator](/docs/thermal-expansion/augments/machine/tectonic-initiator/)
 installed can consume tectonic petrotheum to process ores more efficiently. It
 consumes 100 mB of petrotheum per processed ore.
 
@@ -71,5 +71,5 @@ When used together with [aerotheum
 dust](/docs/thermal-foundation/items/materials/elemental/aerotheum-dust/) as
 fuel in a [reactant dynamo](/docs/thermal-expansion/dynamos/reactant-dynamo/),
 100 mB of tectonic petrotheum yields 400,000 RF, or 500,000 RF if an [elemental
-catalyzer](/docs/thermal-expansion/augments/dynamo/reactant/elemental-catalyzer/)
-is installed.
+catalyzer](/docs/thermal-expansion/augments/dynamo/elemental-catalyzer/) is
+installed.

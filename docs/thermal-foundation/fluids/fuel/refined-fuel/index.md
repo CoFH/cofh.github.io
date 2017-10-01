@@ -42,5 +42,4 @@ Refined fuel cannot be placed as a block.
 When used as fuel in a [compression
 dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/), a bucket of
 refined fuel yields 2,000,000 RF, or 3,000,000 RF if [ignition
-plugs](/docs/thermal-expansion/augments/dynamo/compression/ignition-plugs/) are
-installed.
+plugs](/docs/thermal-expansion/augments/dynamo/ignition-plugs/) are installed.

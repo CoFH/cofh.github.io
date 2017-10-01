@@ -1,6 +1,6 @@
 name: Mycelium Substrate
 site: te-docs
-url: augments/machine/phytogenic-insolator/mycelium-substrate/
+url: augments/machine/mycelium-substrate/
 with-energy: true
 recipes:
   mushroom:

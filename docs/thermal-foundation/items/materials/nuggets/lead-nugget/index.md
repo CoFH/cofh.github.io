@@ -9,8 +9,8 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-lead-from-nuggets
-    - augment-dynamo-throttle
     - augment-dynamo-coil-duct
+    - augment-dynamo-throttle
   compactor-mint:
     - coin-lead-from-nugget
 ---

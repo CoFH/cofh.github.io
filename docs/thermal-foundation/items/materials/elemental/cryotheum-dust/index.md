@@ -70,5 +70,5 @@ When used together with 100 mB of [blazing
 pyrotheum](/docs/thermal-foundation/fluids/elemental/blazing-pyrotheum/) as fuel
 in a [reactant dynamo](/docs/thermal-expansion/dynamos/reactant-dynamo/),
 cryotheum dust yields 400,000 RF per piece, or 500,000 RF if an [elemental
-catalyzer](/docs/thermal-expansion/augments/dynamo/reactant/elemental-catalyzer/)
-is installed.
+catalyzer](/docs/thermal-expansion/augments/dynamo/elemental-catalyzer/) is
+installed.

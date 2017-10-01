@@ -1,6 +1,6 @@
 name: Nether Substrate
 site: te-docs
-url: augments/machine/phytogenic-insolator/nether-substrate/
+url: augments/machine/nether-substrate/
 with-energy: true
 recipes:
   nether-wart:

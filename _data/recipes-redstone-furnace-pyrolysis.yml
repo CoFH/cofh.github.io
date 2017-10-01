@@ -1,6 +1,6 @@
 name: Pyrolytic Conversion
 site: te-docs
-url: augments/machine/redstone-furnace/pyrolytic-conversion/
+url: augments/machine/pyrolytic-conversion/
 with-energy: true
 recipes:
   charcoal-from-cactus:

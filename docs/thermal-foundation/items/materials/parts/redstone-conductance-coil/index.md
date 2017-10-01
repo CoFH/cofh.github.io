@@ -12,8 +12,8 @@ usage-recipes:
     - energy-cell-basic
     - machine-crucible
     - machine-charger
-    - augment-machine-furnace-ore
     - augment-machine-furnace-food
+    - augment-machine-furnace-ore
     - augment-machine-smelter-pyrotheum
     - augment-machine-crucible-lava
     - augment-machine-charger-throughput

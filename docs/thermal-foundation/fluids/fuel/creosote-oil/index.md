@@ -23,7 +23,7 @@ usage-recipes:
 **Creosote oil** is a fluid that is most commonly obtained as a byproduct from
 [redstone furnaces](/docs/thermal-expansion/machines/redstone-furnace/) with
 [pyrolytic
-conversion](/docs/thermal-expansion/augments/machine/redstone-furnace/pyrolytic-conversion/)
+conversion](/docs/thermal-expansion/augments/machine/pyrolytic-conversion/)
 installed. It can be used as fuel in a [compression
 dynamo](/docs/thermal-expansion/dynamos/compression-dynamo/).
 

@@ -45,6 +45,6 @@ Steam cannot be placed as a block.
 
 ### Steam Dynamo with Turbine Conversion
 A [steam dynamo](/docs/thermal-expansion/dynamos/steam-dynamo/) with a [turbine
-conversion](/docs/thermal-expansion/augments/dynamo/steam/turbine-conversion/)
+conversion](/docs/thermal-expansion/augments/dynamo/turbine-conversion/)
 installed cannot produce its own steam, and relies on steam to be supplied from
 an external source.

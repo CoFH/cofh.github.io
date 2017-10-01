@@ -13,9 +13,9 @@ recipes:
 ---
 
 A **Conversion Kit** is a combination of different [Upgrade
-Kits](/docs/thermal-expansion/tiers-and-augments/upgrade-kits/) added by Thermal
-Expansion. It can be used to convert a tier that is lower than the conversion
-kit to the tier of the conversion kit.
+Kits](/docs/thermal-expansion/tiers/upgrade-kits/) added by Thermal Expansion.
+It can be used to convert a tier that is lower than the conversion kit to the
+tier of the conversion kit.
 
 A Conversion Kit is applied by right clicking on the machine you want to
 upgrade.

@@ -1,6 +1,6 @@
 name: Ender Substrate
 site: te-docs
-url: augments/machine/phytogenic-insolator/ender-substrate/
+url: augments/machine/ender-substrate/
 with-energy: true
 recipes:
   chorus-plant:

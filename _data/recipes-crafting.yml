@@ -196,124 +196,54 @@ recipes:
       result:
         item: [augment-dynamo-throttle]
         amount: 1
-  augment-machine-charger-throughput:
+  augment-machine-power:
     results:
-      - item: augment-machine-charger-throughput
+      - item: augment-machine-power
     ingredients:
-      - item: redstone-coil-electrum
-      - item: plate-silver
-      - item: gear-electrum
-      - item: ingot-lead
+      - item: redstone-coil-gold
+      - item: ingot-gold
       - item: redstone
     data:
       rows:
-        - [null, item: [gear-electrum]]
-        - [item: [plate-silver], item: [redstone-coil-electrum], item: [plate-silver]]
-        - [item: [redstone], item: [ingot-lead], item: [redstone]]
+        - [null, item: [ingot-gold]]
+        - [item: [ingot-gold], item: [redstone-coil-gold], item: [ingot-gold]]
+        - [item: [redstone], item: [ingot-gold], item: [redstone]]
       result:
-        item: [augment-machine-charger-throughput]
+        item: [augment-machine-power]
         amount: 1
-  augment-machine-compactor-mint:
+  augment-machine-secondary:
     results:
-      - item: augment-machine-compactor-mint
+      - item: augment-machine-secondary
     ingredients:
       - item: redstone-servo
-      - item: plate-electrum
-      - item: gear-invar
-      - item: emerald
-      - item: glowstone-dust
+      - item: ingot-bronze
+      - item-group: rockwool
     data:
       rows:
-        - [null, item: [gear-invar]]
-        - [item: [plate-electrum], item: [redstone-servo], item: [plate-electrum]]
-        - [item: [glowstone-dust], item: [emerald], item: [glowstone-dust]]
+        - [null, item: [ingot-bronze]]
+        - [item: [ingot-bronze], item: [redstone-servo], item: [ingot-bronze]]
+        - - random: true
+            item-group: rockwool
+          - item: [ingot-bronze]
+          - random: true
+            item-group: rockwool
       result:
-        item: [augment-machine-compactor-mint]
+        item: [augment-machine-secondary]
         amount: 1
-  augment-machine-crucible-lava:
+  augment-machine-secondary-null:
     results:
-      - item: augment-machine-crucible-lava
+      - item: augment-machine-secondary-null
     ingredients:
-      - item: redstone-coil-electrum
-      - item: piston
-      - item: gear-invar
-      - item: nether-brick
-      - item: dust-pyrotheum
+      - item: bucket-lava
+      - item: nugget-invar
+      - item: glass
     data:
       rows:
-        - [null, item: [gear-invar]]
-        - [item: [piston], item: [redstone-coil-electrum], item: [piston]]
-        - [item: [dust-pyrotheum], item: [nether-brick], item: [dust-pyrotheum]]
+        - [null, item: [nugget-invar]]
+        - [item: [nugget-invar], item: [bucket-lava], item: [nugget-invar]]
+        - [item: [glass], item: [nugget-invar], item: [glass]]
       result:
-        item: [augment-machine-crucible-lava]
-        amount: 1
-  augment-machine-extruder-andesite:
-    results:
-      - item: augment-machine-extruder-andesite
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: andesite
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [andesite], item: [redstone]]
-      result:
-        item: [augment-machine-extruder-andesite]
-        amount: 1
-  augment-machine-extruder-diorite:
-    results:
-      - item: augment-machine-extruder-diorite
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: diorite
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [diorite], item: [redstone]]
-      result:
-        item: [augment-machine-extruder-diorite]
-        amount: 1
-  augment-machine-extruder-granite:
-    results:
-      - item: augment-machine-extruder-granite
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: granite
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [granite], item: [redstone]]
-      result:
-        item: [augment-machine-extruder-granite]
-        amount: 1
-  augment-machine-extruder-no-water:
-    results:
-      - item: augment-machine-extruder-no-water
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: piston
-      - item: dust-cryotheum
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [dust-cryotheum], item: [piston], item: [dust-cryotheum]]
-      result:
-        item: [augment-machine-extruder-no-water]
+        item: [augment-machine-secondary-null]
         amount: 1
   augment-machine-furnace-food:
     results:
@@ -366,123 +296,6 @@ recipes:
       result:
         item: [augment-machine-furnace-pyrolysis]
         amount: 1
-  augment-machine-insolator-end:
-    results:
-      - item: augment-machine-insolator-end
-    ingredients:
-      - item: redstone-servo
-      - item: plate-silver
-      - item: gear-nickel
-      - item: end-stone
-      - item: dust-cryotheum
-    data:
-      rows:
-        - [null, item: [gear-nickel]]
-        - [item: [plate-silver], item: [redstone-servo], item: [plate-silver]]
-        - [item: [dust-cryotheum], item: [end-stone], item: [dust-cryotheum]]
-      result:
-        item: [augment-machine-insolator-end]
-        amount: 1
-  augment-machine-insolator-mycelium:
-    results:
-      - item: augment-machine-insolator-mycelium
-    ingredients:
-      - item: redstone-servo
-      - item: plate-lead
-      - item: gear-copper
-      - item: mycelium
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-lead], item: [redstone-servo], item: [plate-lead]]
-        - [item: [redstone], item: [mycelium], item: [redstone]]
-      result:
-        item: [augment-machine-insolator-mycelium]
-        amount: 1
-  augment-machine-insolator-nether:
-    results:
-      - item: augment-machine-insolator-nether
-    ingredients:
-      - item: redstone-servo
-      - item: plate-tin
-      - item: gear-silver
-      - item: soul-sand
-      - item: glowstone-dust
-    data:
-      rows:
-        - [null, item: [gear-silver]]
-        - [item: [plate-tin], item: [redstone-servo], item: [plate-tin]]
-        - [item: [glowstone-dust], item: [soul-sand], item: [glowstone-dust]]
-      result:
-        item: [augment-machine-insolator-nether]
-        amount: 1
-  augment-machine-insolator-tree:
-    results:
-      - item: augment-machine-insolator-tree
-    ingredients:
-      - item: redstone-servo
-      - item: plate-lumium
-      - item: gear-signalum
-      - item: piston
-      - item: dust-aerotheum
-    data:
-      rows:
-        - [null, item: [gear-signalum]]
-        - [item: [plate-lumium], item: [redstone-servo], item: [plate-lumium]]
-        - [item: [dust-aerotheum], item: [piston], item: [dust-aerotheum]]
-      result:
-        item: [augment-machine-insolator-tree]
-        amount: 1
-  augment-machine-power:
-    results:
-      - item: augment-machine-power
-    ingredients:
-      - item: redstone-coil-gold
-      - item: ingot-gold
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [ingot-gold]]
-        - [item: [ingot-gold], item: [redstone-coil-gold], item: [ingot-gold]]
-        - [item: [redstone], item: [ingot-gold], item: [redstone]]
-      result:
-        item: [augment-machine-power]
-        amount: 1
-  augment-machine-precipitator-packed-ice:
-    results:
-      - item: augment-machine-precipitator-packed-ice
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: packed-ice
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [packed-ice], item: [redstone]]
-      result:
-        item: [augment-machine-precipitator-packed-ice]
-        amount: 1
-  augment-machine-precipitator-snow-layer:
-    results:
-      - item: augment-machine-precipitator-snow-layer
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: snow-layer
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [snow-layer], item: [redstone]]
-      result:
-        item: [augment-machine-precipitator-snow-layer]
-        amount: 1
   augment-machine-pulverizer-petrotheum:
     results:
       - item: augment-machine-pulverizer-petrotheum
@@ -520,40 +333,6 @@ recipes:
       result:
         item: [augment-machine-sawmill-tapper]
         amount: 1
-  augment-machine-secondary:
-    results:
-      - item: augment-machine-secondary
-    ingredients:
-      - item: redstone-servo
-      - item: ingot-bronze
-      - item-group: rockwool
-    data:
-      rows:
-        - [null, item: [ingot-bronze]]
-        - [item: [ingot-bronze], item: [redstone-servo], item: [ingot-bronze]]
-        - - random: true
-            item-group: rockwool
-          - item: [ingot-bronze]
-          - random: true
-            item-group: rockwool
-      result:
-        item: [augment-machine-secondary]
-        amount: 1
-  augment-machine-secondary-null:
-    results:
-      - item: augment-machine-secondary-null
-    ingredients:
-      - item: bucket-lava
-      - item: nugget-invar
-      - item: glass
-    data:
-      rows:
-        - [null, item: [nugget-invar]]
-        - [item: [nugget-invar], item: [bucket-lava], item: [nugget-invar]]
-        - [item: [glass], item: [nugget-invar], item: [glass]]
-      result:
-        item: [augment-machine-secondary-null]
-        amount: 1
   augment-machine-smelter-pyrotheum:
     results:
       - item: augment-machine-smelter-pyrotheum
@@ -573,6 +352,227 @@ recipes:
           - item: [dust-pyrotheum]
       result:
         item: [augment-machine-smelter-pyrotheum]
+        amount: 1
+  augment-machine-insolator-mycelium:
+    results:
+      - item: augment-machine-insolator-mycelium
+    ingredients:
+      - item: redstone-servo
+      - item: plate-lead
+      - item: gear-copper
+      - item: mycelium
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-copper]]
+        - [item: [plate-lead], item: [redstone-servo], item: [plate-lead]]
+        - [item: [redstone], item: [mycelium], item: [redstone]]
+      result:
+        item: [augment-machine-insolator-mycelium]
+        amount: 1
+  augment-machine-insolator-nether:
+    results:
+      - item: augment-machine-insolator-nether
+    ingredients:
+      - item: redstone-servo
+      - item: plate-tin
+      - item: gear-silver
+      - item: soul-sand
+      - item: glowstone-dust
+    data:
+      rows:
+        - [null, item: [gear-silver]]
+        - [item: [plate-tin], item: [redstone-servo], item: [plate-tin]]
+        - [item: [glowstone-dust], item: [soul-sand], item: [glowstone-dust]]
+      result:
+        item: [augment-machine-insolator-nether]
+        amount: 1
+  augment-machine-insolator-end:
+    results:
+      - item: augment-machine-insolator-end
+    ingredients:
+      - item: redstone-servo
+      - item: plate-silver
+      - item: gear-nickel
+      - item: end-stone
+      - item: dust-cryotheum
+    data:
+      rows:
+        - [null, item: [gear-nickel]]
+        - [item: [plate-silver], item: [redstone-servo], item: [plate-silver]]
+        - [item: [dust-cryotheum], item: [end-stone], item: [dust-cryotheum]]
+      result:
+        item: [augment-machine-insolator-end]
+        amount: 1
+  augment-machine-insolator-tree:
+    results:
+      - item: augment-machine-insolator-tree
+    ingredients:
+      - item: redstone-servo
+      - item: plate-lumium
+      - item: gear-signalum
+      - item: piston
+      - item: dust-aerotheum
+    data:
+      rows:
+        - [null, item: [gear-signalum]]
+        - [item: [plate-lumium], item: [redstone-servo], item: [plate-lumium]]
+        - [item: [dust-aerotheum], item: [piston], item: [dust-aerotheum]]
+      result:
+        item: [augment-machine-insolator-tree]
+        amount: 1
+  augment-machine-compactor-mint:
+    results:
+      - item: augment-machine-compactor-mint
+    ingredients:
+      - item: redstone-servo
+      - item: plate-electrum
+      - item: gear-invar
+      - item: emerald
+      - item: glowstone-dust
+    data:
+      rows:
+        - [null, item: [gear-invar]]
+        - [item: [plate-electrum], item: [redstone-servo], item: [plate-electrum]]
+        - [item: [glowstone-dust], item: [emerald], item: [glowstone-dust]]
+      result:
+        item: [augment-machine-compactor-mint]
+        amount: 1
+  augment-machine-crucible-lava:
+    results:
+      - item: augment-machine-crucible-lava
+    ingredients:
+      - item: redstone-coil-electrum
+      - item: piston
+      - item: gear-invar
+      - item: nether-brick
+      - item: dust-pyrotheum
+    data:
+      rows:
+        - [null, item: [gear-invar]]
+        - [item: [piston], item: [redstone-coil-electrum], item: [piston]]
+        - [item: [dust-pyrotheum], item: [nether-brick], item: [dust-pyrotheum]]
+      result:
+        item: [augment-machine-crucible-lava]
+        amount: 1
+  augment-machine-charger-throughput:
+    results:
+      - item: augment-machine-charger-throughput
+    ingredients:
+      - item: redstone-coil-electrum
+      - item: plate-silver
+      - item: gear-electrum
+      - item: ingot-lead
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-electrum]]
+        - [item: [plate-silver], item: [redstone-coil-electrum], item: [plate-silver]]
+        - [item: [redstone], item: [ingot-lead], item: [redstone]]
+      result:
+        item: [augment-machine-charger-throughput]
+        amount: 1
+  augment-machine-precipitator-snow-layer:
+    results:
+      - item: augment-machine-precipitator-snow-layer
+    ingredients:
+      - item: redstone-servo
+      - item: plate-invar
+      - item: gear-copper
+      - item: snow-layer
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-copper]]
+        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
+        - [item: [redstone], item: [snow-layer], item: [redstone]]
+      result:
+        item: [augment-machine-precipitator-snow-layer]
+        amount: 1
+  augment-machine-precipitator-packed-ice:
+    results:
+      - item: augment-machine-precipitator-packed-ice
+    ingredients:
+      - item: redstone-servo
+      - item: plate-invar
+      - item: gear-copper
+      - item: packed-ice
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-copper]]
+        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
+        - [item: [redstone], item: [packed-ice], item: [redstone]]
+      result:
+        item: [augment-machine-precipitator-packed-ice]
+        amount: 1
+  augment-machine-extruder-no-water:
+    results:
+      - item: augment-machine-extruder-no-water
+    ingredients:
+      - item: redstone-servo
+      - item: plate-invar
+      - item: gear-copper
+      - item: piston
+      - item: dust-cryotheum
+    data:
+      rows:
+        - [null, item: [gear-copper]]
+        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
+        - [item: [dust-cryotheum], item: [piston], item: [dust-cryotheum]]
+      result:
+        item: [augment-machine-extruder-no-water]
+        amount: 1
+  augment-machine-extruder-granite:
+    results:
+      - item: augment-machine-extruder-granite
+    ingredients:
+      - item: redstone-servo
+      - item: plate-invar
+      - item: gear-copper
+      - item: granite
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-copper]]
+        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
+        - [item: [redstone], item: [granite], item: [redstone]]
+      result:
+        item: [augment-machine-extruder-granite]
+        amount: 1
+  augment-machine-extruder-diorite:
+    results:
+      - item: augment-machine-extruder-diorite
+    ingredients:
+      - item: redstone-servo
+      - item: plate-invar
+      - item: gear-copper
+      - item: diorite
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-copper]]
+        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
+        - [item: [redstone], item: [diorite], item: [redstone]]
+      result:
+        item: [augment-machine-extruder-diorite]
+        amount: 1
+  augment-machine-extruder-andesite:
+    results:
+      - item: augment-machine-extruder-andesite
+    ingredients:
+      - item: redstone-servo
+      - item: plate-invar
+      - item: gear-copper
+      - item: andesite
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-copper]]
+        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
+        - [item: [redstone], item: [andesite], item: [redstone]]
+      result:
+        item: [augment-machine-extruder-andesite]
         amount: 1
   axe-aluminum:
     results:
