@@ -15,7 +15,7 @@
                 {% capture augment_url %}/docs/thermal-expansion/augments/{{augment_data.url}}{% endcapture %}
 
                 <tr>
-                    <td style="width: 48px">
+                    <td style="width: 48px; min-width: 48px">
                         <a href="{{augment_url}}">
                             <img src="/assets/images/thermal-expansion/augment-{{augment}}.png" alt="{{augment_data.name}}" style="width: 48px; height: 48px" />
                         </a>
@@ -29,7 +29,7 @@
                         {{ augment_data.installed-in }}
                     </td>
 
-                    <td>
+                    <td style="min-width: 200px">
                         {{ augment_data.description }}
                     </td>
                 </tr>
