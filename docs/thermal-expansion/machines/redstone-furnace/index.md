@@ -56,9 +56,11 @@ requires a certain amount of energy to process. When enough energy has been
 consumed for an item, the input is consumed and the output is placed in the
 output slot.
 
-Certain [augments](#augmentation) make a redstone furnace produce fluid
-byproducts. When installed, an output tank is added to the redstone furnace for
-these fluids.
+When installed, [pyrolytic
+conversion](/docs/thermal-expansion/augments/machine/pyrolytic-conversion/)
+makes a redstone furnace produce [creosote
+oil](/docs/thermal-foundation/fluids/fuel/creosote-oil/), which is placed in an
+added output tank.
 
 The speed at which a redstone furnace processes items depends on how much energy
 it can use per tick. This in turn depends on how much power is being supplied,
@@ -121,15 +123,19 @@ Tiers
 
 Redstone furnaces come in six [tiers](/docs/thermal-expansion/tiers/).
 
-| Tier | Max. power usage | Augment slots | Max. items per transfer | Max. fluid output | Note |
+{::options parse_block_html="true" /}
+<div class="uk-overflow-container">
+| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer | Note |
 |---
-| Basic | 20 RF/t | 0 | 8 | 100 mB/t |
-| Hardened | 30 RF/t | 1 | 16 | 300 mB/t |
-| Reinforced | 40 RF/t | 2 | 28 | 600 mB/t |
-| Signalum | 50 RF/t | 3 | 44 | 1000 mB/t |
-| Resonant | 60 RF/t | 4 | 64 | 1500 mB/t |
-| Creative | 60 RF/t | 4 | 64 | 1500 mB/t | Only obtainable in creative mode. |
+| Basic | 20 RF/t | 0 | 8 | 100 mB |
+| Hardened | 30 RF/t | 1 | 16 | 300 mB |
+| Reinforced | 40 RF/t | 2 | 28 | 600 mB |
+| Signalum | 50 RF/t | 3 | 44 | 1000 mB |
+| Resonant | 60 RF/t | 4 | 64 | 1500 mB |
+| Creative | 60 RF/t | 4 | 64 | 1500 mB | Only obtainable in creative mode. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+</div>
+{::options parse_block_html="false" /}
 
 
 Augmentation

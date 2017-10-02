@@ -6,6 +6,22 @@ machine-power:
     Increases a machine's maximum power usage (speed) by 1x its base maximum
     power usage. However, the amount of energy required per operation is also
     increased. Can be installed multiple times.
+machine-secondary:
+  name: Auxiliary Sieve
+  url: machine/auxiliary-sieve/
+  installed-in: 'Certain <a href="/docs/thermal-expansion/machines/">machines</a>'
+  description: >
+    Increases the chance for a machine to produce secondary outputs. However,
+    the amount of energy required per operation is also increased. Can be
+    installed multiple times.
+machine-secondary-null:
+  name: Nullification Chamber
+  url: machine/nullification-chamber/
+  animated: true
+  installed-in: 'Certain <a href="/docs/thermal-expansion/machines/">machines</a>'
+  description: >
+    Destroys excess secondary outputs when a machine's secondary output slot is
+    full, allowing it to keep working.
 machine-furnace-food:
   name: Trivection Chamber
   url: machine/trivection-chamber/
@@ -37,3 +53,13 @@ machine-furnace-pyrolysis:
     as a byproduct when installed. However, when installed, a redstone furnace
     can only process these items and its maximum power usage (speed) is reduced
     by a factor of 10.
+machine-pulverizer-petrotheum:
+  name: Tectonic Initiator
+  url: machine/tectonic-initiator/
+  animated: true
+  installed-in: '<a href="/docs/thermal-expansion/machines/pulverizer/">Pulverizer</a>'
+  description: >
+    Allows for a pulverizer to consume <a
+    href="/docs/thermal-foundation/fluids/elemental/tectonic-petrotheum">tectonic
+    petrotheum</a> to process ores more efficiently. 100 mB of tectonic
+    petrotheum is consumed per ore.

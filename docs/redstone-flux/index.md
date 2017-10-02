@@ -22,9 +22,12 @@ reasons:
 * adding a cost for doing things that otherwise wouldn't be possible.
 
 The CoFH mods offer various ways to produce, move, store and consume Redstone
-Flux, such as [Thermal Expansion](/docs/thermal-expansion/)'s dynamos and energy
-cell, and [Thermal Dynamics](/docs/thermal-dynamics/)'s fluxducts. Many other
-mods also add devices that work with Redstone Flux.
+Flux, such as [Thermal Expansion](/docs/thermal-expansion/)'s
+[dynamos](/docs/thermal-expansion/dynamos/) and [energy
+cell](/docs/thermal-expansion/storage/energy-cell/), and [Thermal
+Dynamics](/docs/thermal-dynamics/)'s
+[fluxducts](/docs/thermal-dynamics/ducts/fluxducts/). Many other mods also add
+devices that work with Redstone Flux.
 
 
 <div class="uk-margin-top uk-button-group">

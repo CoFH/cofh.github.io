@@ -557,6 +557,14 @@ mushroom:
   items:
     - mushroom-brown
     - mushroom-red
+nether-quartz-block:
+  name: Block of Quartz
+  site: mc-wiki
+  url: Block_of_Quartz
+  items:
+    - nether-quartz-block
+    - nether-quartz-block-chiseled
+    - nether-quartz-block-pillar
 pickaxe-metal:
   name: Metal Pickaxe
   site: mc-wiki

@@ -79,6 +79,17 @@ recipes:
       primary-output:
         item: [bone-meal]
         amount: 6
+  dust-metal-from-ingot:
+    results:
+      - item-group: dust-metal
+    ingredients:
+      - item-group: ingot-metal
+    energy: 2000
+    data:
+      input:
+        item-group: ingot-metal
+      primary-output:
+        item-group: dust-metal
   dust-aluminum:
     results:
       - item: dust-aluminum
@@ -95,7 +106,7 @@ recipes:
       - item: dust-constantan
     ingredients:
       - item: ingot-constantan
-    energy: 2400
+    energy: 2000
     data:
       input:
         item: [ingot-constantan]
@@ -1250,35 +1261,11 @@ recipes:
     results:
       - item: nether-quartz
     ingredients:
-      - item: nether-quartz-block
+      - item-group: nether-quartz-block
     energy: 3000
     data:
       input:
-        item: [nether-quartz-block]
-      primary-output:
-        item: [nether-quartz]
-        amount: 4
-  recycling-nether-quartz-block-chiseled:
-    results:
-      - item: nether-quartz
-    ingredients:
-      - item: nether-quartz-block-chiseled
-    energy: 3000
-    data:
-      input:
-        item: [nether-quartz-block-chiseled]
-      primary-output:
-        item: [nether-quartz]
-        amount: 4
-  recycling-nether-quartz-block-pillar:
-    results:
-      - item: nether-quartz
-    ingredients:
-      - item: nether-quartz-block-pillar
-    energy: 3000
-    data:
-      input:
-        item: [nether-quartz-block-pillar]
+        item-group: nether-quartz-block
       primary-output:
         item: [nether-quartz]
         amount: 4
@@ -1744,7 +1731,7 @@ recipes:
     results:
       - item: sawdust
     ingredients:
-      - item-group: wool
+      - item-group: wood-log
     energy: 2000
     data:
       input:
