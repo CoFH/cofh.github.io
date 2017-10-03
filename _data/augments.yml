@@ -83,3 +83,37 @@ machine-smelter-pyrotheum:
     href="/docs/thermal-foundation/fluids/elemental/blazing-pyrotheum">blazing
     pyrotheum</a> to process ores more efficiently. 100 mB of blazing pyrotheum
     is consumed per ore.
+machine-insolator-mycelium:
+  name: Mycelium Substrate
+  url: machine/mycelium-substrate/
+  installed-in: '<a href="/docs/thermal-expansion/machines/phytogenic-insolator/">Phytogenic Insolator</a>'
+  description: >
+    Allows for a phytogenic insolator to grow mushrooms, and slime crops if they
+    are available. Cannot be used with other substrate augments.
+machine-insolator-nether:
+  name: Nether Substrate
+  url: machine/nether-substrate/
+  installed-in: '<a href="/docs/thermal-expansion/machines/phytogenic-insolator/">Phytogenic Insolator</a>'
+  description: >
+    Allows for a phytogenic insolator to grow crops from the <a
+    href="https://minecraft.gamepedia.com/The_Nether">Nether</a>. Cannot be used
+    with other substrate augments.
+machine-insolator-end:
+  name: Ender Substrate
+  url: machine/ender-substrate/
+  installed-in: '<a href="/docs/thermal-expansion/machines/phytogenic-insolator/">Phytogenic Insolator</a>'
+  description: >
+    Allows for a phytogenic insolator to grow crops from the <a
+    href="https://minecraft.gamepedia.com/The_End">End</a>. Cannot be used with
+    other substrate augments.
+machine-insolator-tree:
+  name: Sapling Infuser
+  url: machine/sapling-infuser/
+  installed-in: '<a href="/docs/thermal-expansion/machines/phytogenic-insolator/">Phytogenic Insolator</a>'
+  description: >
+    Allows for a phytogenic insolator to grow <a
+    href="https://minecraft.gamepedia.com/Tree">trees</a>. Can be used together
+    with substrate augments to grow <a
+    href="https://minecraft.gamepedia.com/The_Nether">Nether</a>, <a
+    href="https://minecraft.gamepedia.com/The_End">End</a> and slime trees, if
+    they are available.
