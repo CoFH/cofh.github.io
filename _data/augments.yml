@@ -9,7 +9,7 @@ machine-power:
 machine-secondary:
   name: Auxiliary Sieve
   url: machine/auxiliary-sieve/
-  installed-in: 'Certain <a href="/docs/thermal-expansion/machines/">machines</a>'
+  installed-in: '<a href="/docs/thermal-expansion/machines/">Machines</a> with<br />secondary outputs'
   description: >
     Increases the chance for a machine to produce secondary outputs. However,
     the amount of energy required per operation is also increased. Can be
@@ -18,7 +18,7 @@ machine-secondary-null:
   name: Nullification Chamber
   url: machine/nullification-chamber/
   animated: true
-  installed-in: 'Certain <a href="/docs/thermal-expansion/machines/">machines</a>'
+  installed-in: '<a href="/docs/thermal-expansion/machines/">Machines</a> with<br />secondary outputs'
   description: >
     Destroys excess secondary outputs when a machine's secondary output slot is
     full, allowing it to keep working.
@@ -63,3 +63,13 @@ machine-pulverizer-petrotheum:
     href="/docs/thermal-foundation/fluids/elemental/tectonic-petrotheum">tectonic
     petrotheum</a> to process ores more efficiently. 100 mB of tectonic
     petrotheum is consumed per ore.
+machine-sawmill-tapper:
+  name: Resin Funnel
+  url: machine/resin-funnel/
+  animated: true
+  installed-in: '<a href="/docs/thermal-expansion/machines/sawmill/">Sawmill</a>'
+  description: >
+    Allows for a sawmill to extract fluids from <a
+    href="https://minecraft.gamepedia.com/Wood">wood</a> while processing it,
+    like <a href="/docs/thermal-foundation/fluids/tree/resin/">resin</a> and <a
+    href="/docs/thermal-foundation/fluids/tree/sap/">sap</a>.

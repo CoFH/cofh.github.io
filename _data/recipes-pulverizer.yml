@@ -1157,7 +1157,6 @@ recipes:
     energy: 3000
     data:
       input:
-        random: true
         item-group: glass-stained
       primary-output:
         item: [sand]
@@ -1735,7 +1734,6 @@ recipes:
     energy: 2000
     data:
       input:
-        random: true
         item-group: wood-log
       primary-output:
         item: [sawdust]
@@ -1748,7 +1746,6 @@ recipes:
     energy: 500
     data:
       input:
-        random: true
         item-group: wood-planks
       primary-output:
         item: [sawdust]

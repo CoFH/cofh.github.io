@@ -3,18 +3,6 @@ site: te-docs
 url: machines/sawmill/
 with-energy: true
 recipes:
-  melon-slice:
-    results:
-      - item: melon-slice
-    ingredients:
-      - item: melon
-    energy: 1200
-    data:
-      input:
-        item: [melon]
-      primary-output:
-        item: [melon-slice]
-        amount: 9
   recycling-axe-wood:
     results:
       - item: wood-planks-oak
@@ -312,6 +300,18 @@ recipes:
       secondary-output:
         item: [sawdust]
       secondary-chance: 25
+  recycling-melon:
+    results:
+      - item: melon-slice
+    ingredients:
+      - item: melon
+    energy: 1200
+    data:
+      input:
+        item: [melon]
+      primary-output:
+        item: [melon-slice]
+        amount: 9
   recycling-note-block:
     results:
       - item: wood-planks-oak

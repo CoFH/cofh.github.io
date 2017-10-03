@@ -4,6 +4,9 @@ redirect_from:
   - /docs/thermal-expansion/materials/sawdust/
   - /docs/thermal-foundation/materials/sawdust/
 recipes:
+  pulverizer:
+    - sawdust-from-wood-log
+    - sawdust-from-wood-planks
   sawmill:
     - wood-processing
     - recycling-button
@@ -28,9 +31,6 @@ recipes:
     - recycling-pickaxe-wood
     - recycling-shovel-wood
     - recycling-sword-wood
-  pulverizer:
-    - sawdust-from-wood-log
-    - sawdust-from-wood-planks
 usage-recipes:
   crafting:
     - sawdust-compressed
@@ -47,7 +47,7 @@ usage-recipes:
 ![Sawdust](/assets/images/thermal-foundation/sawdust.png){:style="height: 128px"}
 
 
-**Sawdust** is a material most commonly obtained as a byproduct from
+**Sawdust** is a material commonly obtained as a byproduct from
 [sawmills](/docs/thermal-expansion/machines/sawmill/). It can be used to craft
 [paper](https://minecraft.gamepedia.com/Paper),
 [Phyto-Gro](/docs/thermal-foundation/items/materials/other/phyto-gro/) and
@@ -61,11 +61,11 @@ which can then be processed into
 Obtaining
 ---------
 
-### Sawmill
-{% include recipe-table.html type='sawmill' recipes=page.recipes.sawmill no-result=true %}
-
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+
+### Sawmill
+{% include recipe-table.html type='sawmill' recipes=page.recipes.sawmill no-result=true %}
 
 
 Usage
