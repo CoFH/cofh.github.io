@@ -189,10 +189,10 @@ one of its output slots, or certain slots/tanks at the same time.
 
 A pulverizer can automatically transfer items out of any sides that directly
 correspond to one of its output slots. This is called auto-output. It can also
-transfer itemss from adjacent inventories into any sides that directly
-correspond to its input slot. This is called auto-input. Auto-output and
-auto-input occur whenever the machine finishes processing an item, or every 32
-ticks (1.6 seconds) if the machine is inactive.
+transfer items from adjacent inventories into any sides that directly correspond
+to its input slot. This is called auto-input. Auto-output and auto-input occur
+whenever the machine finishes processing an item, or every 32 ticks (1.6
+seconds) if the machine is inactive.
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the

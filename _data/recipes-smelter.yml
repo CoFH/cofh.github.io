@@ -451,6 +451,54 @@ recipes:
       primary-output:
         item: [hardened-glass]
         amount: 2
+  hardened-glass-metal:
+    results:
+      - html: '<a href="/docs/thermal-foundation/blocks/decorative/hardened-glass/">Metal Hardened Glass</a>'
+    ingredients:
+      - item: hardened-glass
+      - html: 'Metal Dust'
+    energy: 6000
+    data:
+      primary-input:
+        item: [hardened-glass]
+        amount: 2
+      secondary-input:
+        item:
+          - dust-copper
+          - dust-tin
+          - dust-silver
+          - dust-aluminum
+          - dust-nickel
+          - dust-platinum
+          - dust-iridium
+          - dust-mithril
+          - dust-steel
+          - dust-electrum
+          - dust-invar
+          - dust-bronze
+          - dust-constantan
+          - dust-signalum
+          - dust-lumium
+          - dust-enderium
+      primary-output:
+        item:
+          - hardened-glass-copper
+          - hardened-glass-tin
+          - hardened-glass-silver
+          - hardened-glass-aluminum
+          - hardened-glass-nickel
+          - hardened-glass-platinum
+          - hardened-glass-iridium
+          - hardened-glass-mithril
+          - hardened-glass-steel
+          - hardened-glass-electrum
+          - hardened-glass-invar
+          - hardened-glass-bronze
+          - hardened-glass-constantan
+          - hardened-glass-signalum
+          - hardened-glass-lumium
+          - hardened-glass-enderium
+        amount: 2
   hardened-glass-aluminum:
     results:
       - item: hardened-glass-aluminum

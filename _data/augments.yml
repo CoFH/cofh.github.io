@@ -73,3 +73,13 @@ machine-sawmill-tapper:
     href="https://minecraft.gamepedia.com/Wood">wood</a> while processing it,
     like <a href="/docs/thermal-foundation/fluids/tree/resin/">resin</a> and <a
     href="/docs/thermal-foundation/fluids/tree/sap/">sap</a>.
+machine-smelter-pyrotheum:
+  name: Pyro-Concentrator
+  url: machine/pyro-concentrator/
+  animated: true
+  installed-in: '<a href="/docs/thermal-expansion/machines/induction-smelter/">Induction Smelter</a>'
+  description: >
+    Allows for an induction smelter to consume <a
+    href="/docs/thermal-foundation/fluids/elemental/blazing-pyrotheum">blazing
+    pyrotheum</a> to process ores more efficiently. 100 mB of blazing pyrotheum
+    is consumed per ore.
