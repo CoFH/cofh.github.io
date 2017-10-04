@@ -117,7 +117,7 @@ Compactors come in six [tiers](/docs/thermal-expansion/tiers/).
 | Signalum | 50 RF/t | 3 | 44 |
 | Resonant | 60 RF/t | 4 | 64 |
 | Creative | 60 RF/t | 4 | 64 | Only obtainable in creative mode. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
 

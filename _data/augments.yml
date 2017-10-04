@@ -124,3 +124,12 @@ machine-compactor-mint:
   description: >
     Allows for a compactor to make metal coins from ingots. The machine must be
     toggled into Mint mode.
+machine-crucible-lava:
+  name: Pyroconvective Loop
+  url: machine/pyroconvective-loop/
+  animated: true
+  installed-in: '<a href="/docs/thermal-expansion/machines/magma-crucible/">Magma Crucible</a>'
+  description: >
+    Increases a magma crucible's maximum power usage (speed) by a factor of 10.
+    However, a crucible can only produce <a
+    href="https://minecraft.gamepedia.com/Lava">lava</a> when installed.

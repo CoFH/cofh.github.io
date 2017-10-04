@@ -78,7 +78,8 @@ that directly correspond to its output slot/tank. This is called auto-output. It
 can also transfer items from adjacent inventories into any sides that directly
 correspond to its input slot. This is called auto-input. Auto-output and
 auto-input occur whenever the machine finishes processing an item, or every 32
-ticks (1.6 seconds) if the machine is inactive.
+ticks (1.6 seconds) if the machine is inactive. Auto-output for fluids occurs
+whenever there is a fluid in the output tank.
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the
@@ -125,14 +126,14 @@ Redstone furnaces come in six [tiers](/docs/thermal-expansion/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer | Note |
+| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid auto-output rate | Note |
 |---
-| Basic | 20 RF/t | 0 | 8 | 100 mB |
-| Hardened | 30 RF/t | 1 | 16 | 300 mB |
-| Reinforced | 40 RF/t | 2 | 28 | 600 mB |
-| Signalum | 50 RF/t | 3 | 44 | 1000 mB |
-| Resonant | 60 RF/t | 4 | 64 | 1500 mB |
-| Creative | 60 RF/t | 4 | 64 | 1500 mB | Only obtainable in creative mode. |
+| Basic | 20 RF/t | 0 | 8 | 100 mB/t |
+| Hardened | 30 RF/t | 1 | 16 | 300 mB/t |
+| Reinforced | 40 RF/t | 2 | 28 | 600 mB/t |
+| Signalum | 50 RF/t | 3 | 44 | 1000 mB/t |
+| Resonant | 60 RF/t | 4 | 64 | 1500 mB/t |
+| Creative | 60 RF/t | 4 | 64 | 1500 mB/t | Only obtainable in creative mode. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
