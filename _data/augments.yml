@@ -117,3 +117,10 @@ machine-insolator-tree:
     href="https://minecraft.gamepedia.com/The_Nether">Nether</a>, <a
     href="https://minecraft.gamepedia.com/The_End">End</a> and slime trees, if
     they are available.
+machine-compactor-mint:
+  name: Numismatic Press
+  url: machine/numismatic-press/
+  installed-in: '<a href="/docs/thermal-expansion/machines/compactor/">Compactor</a>'
+  description: >
+    Allows for a compactor to make metal coins from ingots. The machine must be
+    toggled into Mint mode.

@@ -609,9 +609,11 @@ thermal-expansion:
             - title: Phytogenic Insolator
               url: phytogenic-insolator/
             - title: Compactor
+              url: compactor/
             - title: Magma Crucible
               url: magma-crucible/
             - title: Fractionating Still
+              url: fractionating-still/
             - title: Fluid Transposer
               url: fluid-transposer/
             - title: Energetic Infuser

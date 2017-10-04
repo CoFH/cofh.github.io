@@ -586,6 +586,30 @@ pickaxe-metal:
     - pickaxe-invar
     - pickaxe-bronze
     - pickaxe-constantan
+plate-metal:
+  name: Metal Plate
+  prefix:
+    ingredient: 'any'
+  items:
+    - plate-iron
+    - plate-gold
+    - plate-copper
+    - plate-tin
+    - plate-silver
+    - plate-lead
+    - plate-aluminum
+    - plate-nickel
+    - plate-platinum
+    - plate-iridium
+    - plate-mithril
+    - plate-steel
+    - plate-electrum
+    - plate-invar
+    - plate-bronze
+    - plate-constantan
+    - plate-signalum
+    - plate-lumium
+    - plate-enderium
 red-sandstone:
   name: Red Sandstone
   site: mc-wiki
@@ -729,6 +753,30 @@ sickle-metal:
     - sickle-invar
     - sickle-bronze
     - sickle-constantan
+storage-block-metal:
+  name: Metal Block
+  prefix:
+    ingredient: 'any'
+  items:
+    - storage-block-iron
+    - storage-block-gold
+    - storage-block-copper
+    - storage-block-tin
+    - storage-block-silver
+    - storage-block-lead
+    - storage-block-aluminum
+    - storage-block-nickel
+    - storage-block-platinum
+    - storage-block-iridium
+    - storage-block-mithril
+    - storage-block-steel
+    - storage-block-electrum
+    - storage-block-invar
+    - storage-block-bronze
+    - storage-block-constantan
+    - storage-block-signalum
+    - storage-block-lumium
+    - storage-block-enderium
 sword-metal:
   name: Metal Sword
   site: mc-wiki

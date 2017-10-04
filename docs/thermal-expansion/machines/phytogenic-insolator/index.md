@@ -195,8 +195,8 @@ Recipes
 ### Using Phyto-Gro
 {% include recipe-table.html type='insolator' recipes=page.recipe-list.phyto-gro %}
 
-### Using Rich Phyto-Gro
+### Using rich Phyto-Gro
 {% include recipe-table.html type='insolator' recipes=page.recipe-list.phyto-gro-rich %}
 
-### Using Fluxed Phyto-Gro
+### Using fluxed Phyto-Gro
 {% include recipe-table.html type='insolator' recipes=page.recipe-list.phyto-gro-fluxed %}

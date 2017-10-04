@@ -263,10 +263,10 @@ Recipes
 ### Ore processing
 {% include recipe-table.html type='smelter' recipes=page.recipe-list.ore-processing %}
 
-### Ore processing with Rich Slag
+### Ore processing with rich slag
 {% include recipe-table.html type='smelter' recipes=page.recipe-list.ore-processing-rich-slag %}
 
-### Ore processing with Cinnabar
+### Ore processing with cinnabar
 {% include recipe-table.html type='smelter' recipes=page.recipe-list.ore-processing-cinnabar %}
 
 ### Alloying

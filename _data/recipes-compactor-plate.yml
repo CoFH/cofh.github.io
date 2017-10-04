@@ -3,6 +3,30 @@ site: te-docs
 url: machines/compactor/
 with-energy: true
 recipes:
+  plate-from-ingot:
+    results:
+      - item-group: plate-metal
+    ingredients:
+      - item-group: ingot-metal
+    energy: 4000
+    data:
+      input:
+        item-group: ingot-metal
+      output:
+        item-group: plate-metal
+  plate-from-block:
+    results:
+      - item-group: plate-metal
+        suffix: x9
+    ingredients:
+      - item-group: storage-block-metal
+    energy: 32000
+    data:
+      input:
+        item-group: storage-block-metal
+      output:
+        item-group: plate-metal
+        amount: 9
   plate-aluminum-from-ingot:
     results:
       - item: plate-aluminum
