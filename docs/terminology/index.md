@@ -1,26 +1,5 @@
 ---
 title: Terminology
-search_headers:
-    - title: 'Energy'
-      id: 'energy'
-    - title: 'Fluid'
-      id: 'fluid'
-    - title: 'Inventory'
-      id: 'inventory'
-    - title: "Millibucket (mB)"
-      id: 'millibucket'
-    - title: 'Power (RF/t)'
-      id: 'power'
-    - title: 'RF (unit)'
-      id: 'rf'
-    - title: 'Tank'
-      id: 'tank'
-    - title: 'Tick (t)'
-      id: 'tick'
-    - title: 'Tick rate (TPS)'
-      id: 'tick-rate'
-    - title: 'Vanilla Minecraft'
-      id: 'vanilla-minecraft'
 ---
 
 This is a list of terms that frequently appear in modded Minecraft.

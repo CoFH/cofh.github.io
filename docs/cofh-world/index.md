@@ -1,5 +1,6 @@
 ---
 title: CoFH World
+nav: cofh-world
 ---
 
 ![CoFH World logo](/assets/images/modlogos/cofh-world.png){:.cofh-mod-page-logo}

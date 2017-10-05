@@ -1,31 +1,31 @@
 machine-power:
   name: Auxiliary Reception Coil
-  url: machine/auxiliary-reception-coil/
-  installed-in: 'Any <a href="/docs/thermal-expansion/machines/">machine</a>'
+  url: augment-auxiliary-reception-coil/
+  installed-in: 'Any <a href="/docs/machines/">machine</a>'
   description: >
     Increases a machine's maximum power usage (speed) by 1x its base maximum
     power usage. However, the amount of energy required per operation is also
     increased. Can be installed multiple times.
 machine-secondary:
   name: Auxiliary Sieve
-  url: machine/auxiliary-sieve/
-  installed-in: '<a href="/docs/thermal-expansion/machines/">Machines</a> with<br />secondary outputs'
+  url: augment-auxiliary-sieve/
+  installed-in: '<a href="/docs/machines/">Machines</a> with<br />secondary outputs'
   description: >
     Increases the chance for a machine to produce secondary outputs. However,
     the amount of energy required per operation is also increased. Can be
     installed multiple times.
 machine-secondary-null:
   name: Nullification Chamber
-  url: machine/nullification-chamber/
+  url: augment-nullification-chamber/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion/machines/">Machines</a> with<br />secondary outputs'
+  installed-in: '<a href="/docs/machines/">Machines</a> with<br />secondary outputs'
   description: >
     Destroys excess secondary outputs when a machine's secondary output slot is
     full, allowing it to keep working.
 machine-furnace-food:
   name: Trivection Chamber
-  url: machine/trivection-chamber/
-  installed-in: '<a href="/docs/thermal-expansion/machines/redstone-furnace/">Redstone Furnace</a>'
+  url: augment-trivection-chamber/
+  installed-in: '<a href="/docs/redstone-furnace/">Redstone Furnace</a>'
   description: >
     Doubles the amount of cooked <a
     href="https://minecraft.gamepedia.com/Food">food</a> a redstone furnace
@@ -33,16 +33,16 @@ machine-furnace-food:
     process food when installed.
 machine-furnace-ore:
   name: Flux Anodizers
-  url: machine/flux-anodizers/
-  installed-in: '<a href="/docs/thermal-expansion/machines/redstone-furnace/">Redstone Furnace</a>'
+  url: augment-flux-anodizers/
+  installed-in: '<a href="/docs/redstone-furnace/">Redstone Furnace</a>'
   description: >
     Doubles the amount of ingots a redstone furnace produces when processing
     metal ores. However, a redstone furnace can only process metal ores when
     installed.
 machine-furnace-pyrolysis:
   name: Pyrolytic Conversion
-  url: machine/pyrolytic-conversion/
-  installed-in: '<a href="/docs/thermal-expansion/machines/redstone-furnace/">Redstone Furnace</a>'
+  url: augment-pyrolytic-conversion/
+  installed-in: '<a href="/docs/redstone-furnace/">Redstone Furnace</a>'
   description: >
     Allows for a redstone furnace to process various plant-based materials into
     <a href="https://minecraft.gamepedia.com/Charcoal">charcoal</a>, and <a
@@ -55,9 +55,9 @@ machine-furnace-pyrolysis:
     by a factor of 10.
 machine-pulverizer-petrotheum:
   name: Tectonic Initiator
-  url: machine/tectonic-initiator/
+  url: augment-tectonic-initiator/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion/machines/pulverizer/">Pulverizer</a>'
+  installed-in: '<a href="/docs/pulverizer/">Pulverizer</a>'
   description: >
     Allows for a pulverizer to consume <a
     href="/docs/thermal-foundation/fluids/elemental/tectonic-petrotheum">tectonic
@@ -65,9 +65,9 @@ machine-pulverizer-petrotheum:
     petrotheum is consumed per ore.
 machine-sawmill-tapper:
   name: Resin Funnel
-  url: machine/resin-funnel/
+  url: augment-resin-funnel/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion/machines/sawmill/">Sawmill</a>'
+  installed-in: '<a href="/docs/sawmill/">Sawmill</a>'
   description: >
     Allows for a sawmill to extract fluids from <a
     href="https://minecraft.gamepedia.com/Wood">wood</a> while processing it,
@@ -75,9 +75,9 @@ machine-sawmill-tapper:
     href="/docs/thermal-foundation/fluids/tree/sap/">sap</a>.
 machine-smelter-pyrotheum:
   name: Pyro-Concentrator
-  url: machine/pyro-concentrator/
+  url: augment-pyro-concentrator/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion/machines/induction-smelter/">Induction Smelter</a>'
+  installed-in: '<a href="/docs/induction-smelter/">Induction Smelter</a>'
   description: >
     Allows for an induction smelter to consume <a
     href="/docs/thermal-foundation/fluids/elemental/blazing-pyrotheum">blazing
@@ -85,31 +85,31 @@ machine-smelter-pyrotheum:
     is consumed per ore.
 machine-insolator-mycelium:
   name: Mycelium Substrate
-  url: machine/mycelium-substrate/
-  installed-in: '<a href="/docs/thermal-expansion/machines/phytogenic-insolator/">Phytogenic Insolator</a>'
+  url: augment-mycelium-substrate/
+  installed-in: '<a href="/docs/phytogenic-insolator/">Phytogenic Insolator</a>'
   description: >
     Allows for a phytogenic insolator to grow mushrooms, and slime crops if they
     are available. Cannot be used with other substrate augments.
 machine-insolator-nether:
   name: Nether Substrate
-  url: machine/nether-substrate/
-  installed-in: '<a href="/docs/thermal-expansion/machines/phytogenic-insolator/">Phytogenic Insolator</a>'
+  url: augment-nether-substrate/
+  installed-in: '<a href="/docs/phytogenic-insolator/">Phytogenic Insolator</a>'
   description: >
     Allows for a phytogenic insolator to grow crops from the <a
     href="https://minecraft.gamepedia.com/The_Nether">Nether</a>. Cannot be used
     with other substrate augments.
 machine-insolator-end:
   name: Ender Substrate
-  url: machine/ender-substrate/
-  installed-in: '<a href="/docs/thermal-expansion/machines/phytogenic-insolator/">Phytogenic Insolator</a>'
+  url: augment-ender-substrate/
+  installed-in: '<a href="/docs/phytogenic-insolator/">Phytogenic Insolator</a>'
   description: >
     Allows for a phytogenic insolator to grow crops from the <a
     href="https://minecraft.gamepedia.com/The_End">End</a>. Cannot be used with
     other substrate augments.
 machine-insolator-tree:
   name: Sapling Infuser
-  url: machine/sapling-infuser/
-  installed-in: '<a href="/docs/thermal-expansion/machines/phytogenic-insolator/">Phytogenic Insolator</a>'
+  url: augment-sapling-infuser/
+  installed-in: '<a href="/docs/phytogenic-insolator/">Phytogenic Insolator</a>'
   description: >
     Allows for a phytogenic insolator to grow <a
     href="https://minecraft.gamepedia.com/Tree">trees</a>. Can be used together
@@ -119,16 +119,16 @@ machine-insolator-tree:
     they are available.
 machine-compactor-mint:
   name: Numismatic Press
-  url: machine/numismatic-press/
-  installed-in: '<a href="/docs/thermal-expansion/machines/compactor/">Compactor</a>'
+  url: augment-numismatic-press/
+  installed-in: '<a href="/docs/compactor/">Compactor</a>'
   description: >
     Allows for a compactor to make metal coins from ingots. The machine must be
     toggled into Mint mode.
 machine-crucible-lava:
   name: Pyroconvective Loop
-  url: machine/pyroconvective-loop/
+  url: augment-pyroconvective-loop/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion/machines/magma-crucible/">Magma Crucible</a>'
+  installed-in: '<a href="/docs/magma-crucible/">Magma Crucible</a>'
   description: >
     Increases a magma crucible's maximum power usage (speed) by a factor of 10.
     However, a crucible can only produce <a

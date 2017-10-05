@@ -1,6 +1,6 @@
 name: Induction Smelter
-site: te-docs
-url: machines/induction-smelter/
+site: cofh
+url: induction-smelter/
 with-energy: true
 recipes:
   dust-smelting:
@@ -453,7 +453,7 @@ recipes:
         amount: 2
   hardened-glass-metal:
     results:
-      - html: '<a href="/docs/thermal-foundation/blocks/decorative/hardened-glass/">Metal Hardened Glass</a>'
+      - html: '<a href="/docs/hardened-glass/">Metal Hardened Glass</a>'
     ingredients:
       - item: hardened-glass
       - html: 'Metal Dust'

@@ -1,6 +1,6 @@
 name: Ender Substrate
-site: te-docs
-url: augments/machine/ender-substrate/
+site: cofh
+url: augment-ender-substrate/
 with-energy: true
 recipes:
   chorus-plant:

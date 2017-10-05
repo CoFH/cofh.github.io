@@ -1,6 +1,6 @@
 name: Numismatic Press
-site: te-docs
-url: augments/machine/numismatic-press/
+site: cofh
+url: augment-numismatic-press/
 with-energy: true
 recipes:
   coin-aluminum-from-nugget:

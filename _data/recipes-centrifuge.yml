@@ -1,6 +1,6 @@
 name: Centrifugal Separator
-site: te-docs
-url: machines/centrifugal-separator/
+site: cofh
+url: centrifugal-separator/
 with-energy: true
 all-results-bold: true
 recipes:

@@ -6,14 +6,11 @@
         <tbody>
             <tr>
                 <th colspan="2" class="cofh-navbox-title">
-                    {% capture nav_title_url %}/docs/{{nav.url}}{% endcapture %}
-                    {% include navbox-link.html page_url=page_url link_url=nav_title_url text=nav.title %}
+                    {% include navbox-link.html page_url=page_url link_url=nav.url text=nav.title %}
                 </th>
             </tr>
 
             {% for section in nav.sections %}
-                {% capture section_url %}/docs/{{nav.url}}{{section.url}}{% endcapture %}
-
                 {% if section.title %}
                     <tr>
                         <td colspan="2" class="cofh-navbox-section-title">
@@ -23,7 +20,7 @@
                 {% endif %}
 
                 {% for group in section.groups %}
-                    {% include navbox-group.html group=group base_url=section_url page_url=page_url %}
+                    {% include navbox-group.html group=group page_url=page_url %}
                 {% endfor %}
             {% endfor %}
         </tbody>

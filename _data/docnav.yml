@@ -14,9 +14,9 @@ cofh-core:
     - groups:
         - items:
             - title: Commands
-              url: commands/
+              url: cofh-core-commands/
             - title: Tweaks
-              url: tweaks/
+              url: cofh-core-tweaks/
             - title: Friend List
               url: friend-list/
             - title: Enchantments
@@ -40,10 +40,8 @@ thermal-foundation:
   url: thermal-foundation/
   sections:
     - title: World
-      url: world/
       groups:
         - title: Ores
-          url: ores/
           items:
             - title: Copper
               url: copper-ore/
@@ -64,7 +62,6 @@ thermal-foundation:
             - title: Mana Infused
               url: mana-infused-ore/
         - title: Fluid Ores
-          url: fluid-ores/
           items:
             - title: Oil Sand
               url: oil-sand/
@@ -77,7 +74,6 @@ thermal-foundation:
             - title: Resonant End Stone
               url: resonant-end-stone/
         - title: Mobs
-          url: mobs/
           items:
             - title: Blizz
               url: blizz/
@@ -86,13 +82,10 @@ thermal-foundation:
             - title: Basalz
               url: basalz/
     - title: Items
-      url: items/
       groups:
         - title: Materials
-          url: materials/
           groups:
             - title: Ingots
-              url: ingots/
               items:
                 - title: Copper
                   url: copper-ingot/
@@ -129,7 +122,6 @@ thermal-foundation:
                 - title: Enderium
                   url: enderium-ingot/
             - title: Dusts
-              url: dusts/
               items:
                 - title: Pulverized Iron
                   url: pulverized-iron/
@@ -176,7 +168,6 @@ thermal-foundation:
                 - title: Pulverized Obsidian
                   url: pulverized-obsidian/
             - title: Nuggets
-              url: nuggets/
               items:
                 - title: Copper
                   url: copper-nugget/
@@ -217,7 +208,6 @@ thermal-foundation:
                 - title: Emerald
                   url: emerald-nugget/
             - title: Gears
-              url: gears/
               items:
                 - title: Iron
                   url: iron-gear/
@@ -258,7 +248,6 @@ thermal-foundation:
                 - title: Enderium
                   url: enderium-gear/
             - title: Plates
-              url: plates/
               items:
                 - title: Iron
                   url: iron-plate/
@@ -299,7 +288,6 @@ thermal-foundation:
                 - title: Enderium
                   url: enderium-plate/
             - title: Coins
-              url: coins/
               items:
                 - title: Iron
                   url: iron-coin/
@@ -340,7 +328,6 @@ thermal-foundation:
                 - title: Enderium
                   url: enderium-coin/
             - title: Elemental
-              url: elemental/
               items:
                 - title: Blizz Rod
                   url: blizz-rod/
@@ -363,7 +350,6 @@ thermal-foundation:
                 - title: Petrotheum Dust
                   url: petrotheum-dust/
             - title: Parts
-              url: parts/
               items:
                 - title: Redstone Reception Coil
                   url: redstone-reception-coil/
@@ -374,7 +360,6 @@ thermal-foundation:
                 - title: Redstone Servo
                   url: redstone-servo/
             - title: Other
-              url: other/
               items:
                 - title: Bitumen
                   url: bitumen/
@@ -420,7 +405,6 @@ thermal-foundation:
                 - title: Tar
                   url: tar/
         - title: Tools
-          url: tools/
           items:
             - title: Crescent Hammer
               url: crescent-hammer/
@@ -431,17 +415,14 @@ thermal-foundation:
             - title: Redprint
               url: redprint/
         - title: Other
-          url: other/
           items:
             - title: Signalum Security Lock
               url: signalum-security-lock/
             - title: Schematic
               url: schematic/
     - title: Blocks
-      url: blocks/
       groups:
         - title: Metal
-          url: metal/
           items:
             - title: Copper
               url: copper-block/
@@ -478,17 +459,14 @@ thermal-foundation:
             - title: Enderium
               url: enderium-block/
         - title: Decorative
-          url: decorative/
           items:
             - title: Hardened Glass
               url: hardened-glass/
             - title: Rockwool
               url: rockwool/
     - title: Fluids
-      url: fluids/
       groups:
         - title: Molten
-          url: molten/
           items:
             - title: Destabilized Redstone
               url: destabilized-redstone/
@@ -497,7 +475,6 @@ thermal-foundation:
             - title: Resonant Ender
               url: resonant-ender/
         - title: Elemental
-          url: elemental/
           items:
             - title: Blazing Pyrotheum
               url: blazing-pyrotheum/
@@ -508,7 +485,6 @@ thermal-foundation:
             - title: Tectonic Petrotheum
               url: tectonic-petrotheum/
         - title: Fuel
-          url: fuel/
           items:
             - title: Liquifacted Coal
               url: liquifacted-coal/
@@ -523,14 +499,12 @@ thermal-foundation:
             - title: Tree Oil
               url: tree-oil/
         - title: Tree
-          url: tree/
           items:
             - title: Resin
               url: resin/
             - title: Sap
               url: sap/
         - title: Other
-          url: other/
           items:
             - title: Mushroom Stew
               url: mushroom-stew/
@@ -541,10 +515,8 @@ thermal-foundation:
             - title: Primal Mana
               url: primal-mana/
     - title: Equipment
-      url: equipment/
       groups:
         - title: Tools
-          url: tools/
           items:
             - title: Pickaxes
               url: pickaxes/
@@ -563,7 +535,6 @@ thermal-foundation:
             - title: Sickles
               url: sickles/
         - title: Weapons
-          url: weapons/
           items:
             - title: Swords
               url: swords/
@@ -572,7 +543,6 @@ thermal-foundation:
             - title: Shields
               url: shields/
         - title: Armor
-          url: armor/
           items:
             - title: Helmets
               url: helmets/
@@ -583,7 +553,6 @@ thermal-foundation:
             - title: Boots
               url: boots/
     - title: Other
-      url: other/
       groups:
         - items:
             - title: Vanilla recipes
@@ -596,7 +565,6 @@ thermal-expansion:
     - groups:
         - title: Machines
           url: machines/
-          title-page: true
           items:
             - title: Redstone Furnace
               url: redstone-furnace/
@@ -624,8 +592,7 @@ thermal-expansion:
             - title: Igneous Extruder
               url: igneous-extruder/
         - title: Devices
-          url: devices/
-          title-page: false
+          # url: devices/
           items:
             - title: Aqueous Accumulator
               url: aqueous-accumulator/
@@ -637,8 +604,7 @@ thermal-expansion:
             - title: Item Allocator
               url: item-allocator/
         - title: Dynamos
-          url: dynamos/
-          title-page: false
+          # url: dynamos/
           items:
             - title: Steam Dynamo
               url: steam-dynamo/
@@ -652,7 +618,6 @@ thermal-expansion:
               url: enervation-dynamo/
             - title: Numismatic Dynamo
         - title: Storage
-          url: storage/
           items:
             - title: Energy Cell
               url: energy-cell/
@@ -667,19 +632,16 @@ thermal-expansion:
             - title: Satchel
               url: satchel/
         - title: Tiers
-          url: tiers/
-          title-page: false
+          # url: tiers/
           items:
             - title: Upgrade Kits
               url: upgrade-kits/
             - title: Conversion Kits
               url: conversion-kits/
         - title: Augments
-          url: augments/
-          title-page: false
+          # url: augments/
           groups:
             - title: Machine
-              url: machine/
               items:
                 - title: Auxiliary Reception Coil
                 - title: Auxiliary Sieve
@@ -704,7 +666,6 @@ thermal-expansion:
                 - title: Dioritic Subduction
                 - title: Andesitic Subduction
             - title: Dynamo
-              url: dynamo/
               items:
                 - title: Auxiliary Transmission Coil
                 - title: Fuel Catalyzer
@@ -718,7 +679,6 @@ thermal-expansion:
                 - title: Elemental Catalyzer
                 - title: Lapidary Calibration
         - title: Items
-          url: items/
           items:
             - title: Frame
               subitems:
@@ -730,11 +690,8 @@ thermal-expansion:
               subitems:
                 - title: Magmatic
         - title: Other
-          url: other/
           items:
             - title: Coolants
-            - title: Mod Support
-              url: mod-support/
 
 thermal-dynamics:
   title: Thermal Dynamics
@@ -742,7 +699,6 @@ thermal-dynamics:
   sections:
     - groups:
         - title: Ducts
-          url: ducts/
           items:
             - title: Fluxducts
               url: fluxducts/
@@ -755,7 +711,6 @@ thermal-dynamics:
             - title: Viaducts
               url: viaducts/
         - title: Attachments
-          url: attachments/
           items:
             - title: Covers
               url: covers/
@@ -781,7 +736,6 @@ redstone-arsenal:
   sections:
     - groups:
         - title: Tools
-          url: tools/
           items:
             - title: Flux-Infused Pickaxe
               url: flux-infused-pickaxe/
@@ -798,7 +752,6 @@ redstone-arsenal:
             - title: Flux-Infused OmniWrench
               url: flux-infused-omniwrench/
         - title: Weapons
-          url: weapons/
           items:
             - title: Flux-Infused Sword
               url: flux-infused-sword/
@@ -811,14 +764,12 @@ redstone-arsenal:
             - title: Flux-Infused Quiver
               url: flux-infused-quiver/
         - title: Armor
-          url: armor/
           items:
             - title: Flux-Infused Helm
             - title: Flux-Infused Chestplate
             - title: Flux-Infused Leggings
             - title: Flux-Infused Boots
         - title: Materials
-          url: materials/
           items:
             - title: Fluxed Electrum Ingot
               url: fluxed-electrum-ingot/

@@ -1,5 +1,6 @@
 ---
 title: Thermal Cultivation
+nav: thermal-cultivation
 ---
 
 ![Thermal Cultivation logo](/assets/images/modlogos/thermal-cultivation.png){:.cofh-mod-page-logo}

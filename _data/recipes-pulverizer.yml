@@ -1,6 +1,6 @@
 name: Pulverizer
-site: te-docs
-url: machines/pulverizer/
+site: cofh
+url: pulverizer/
 with-energy: true
 recipes:
   basalz-powder:

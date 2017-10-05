@@ -78,8 +78,8 @@ boots-metal:
     - boots-constantan
 bow-metal:
   name: Metal Reinforced Bow
-  site: tf-docs
-  url: equipment/weapons/reinforced-bows/
+  site: cofh
+  url: reinforced-bows/
   prefix:
     ingredient: 'any'
   items:
@@ -252,8 +252,8 @@ fence-gate:
     - fence-gate-dark-oak
 fishing-rod-metal:
   name: Metal Fishing Rod
-  site: tf-docs
-  url: equipment/tools/fishing-rods/
+  site: cofh
+  url: fishing-rods/
   prefix:
     ingredient: 'any'
   items:
@@ -343,8 +343,8 @@ glass-stained:
     - glass-stained-black
 hammer-metal:
   name: Metal Hammer
-  site: tf-docs
-  url: equipment/tools/hammers/
+  site: cofh
+  url: hammers/
   prefix:
     ingredient: 'any'
   items:
@@ -364,8 +364,8 @@ hammer-metal:
     - hammer-constantan
 hardened-glass:
   name: Hardened Glass
-  site: tf-docs
-  url: blocks/decorative/hardened-glass/
+  site: cofh
+  url: hardened-glass/
   items:
     - hardened-glass
     - hardened-glass-copper
@@ -620,8 +620,8 @@ red-sandstone:
     - red-sandstone-smooth
 rockwool:
   name: Rockwool
-  site: tf-docs
-  url: blocks/decorative/rockwool/
+  site: cofh
+  url: rockwool/
   prefix:
     ingredient: 'any color'
   items:
@@ -671,8 +671,8 @@ sapling:
     - sapling-dark-oak
 shears-metal:
   name: Metal Shears
-  site: tf-docs
-  url: equipment/tools/shears/
+  site: cofh
+  url: shears/
   prefix:
     ingredient: 'any'
   items:
@@ -692,8 +692,8 @@ shears-metal:
     - shears-constantan
 shield-metal:
   name: Metal Shield
-  site: tf-docs
-  url: equipment/weapons/shields/
+  site: cofh
+  url: shields/
   prefix:
     ingredient: 'any'
   items:
@@ -734,8 +734,8 @@ shovel-metal:
     - shovel-constantan
 sickle-metal:
   name: Metal Sickle
-  site: tf-docs
-  url: equipment/tools/sickles/
+  site: cofh
+  url: sickles/
   prefix:
     ingredient: 'any'
   items:

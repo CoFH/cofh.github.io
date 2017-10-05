@@ -1,6 +1,6 @@
 name: Fractionating Still
-site: te-docs
-url: machines/fractionating-still/
+site: cofh
+url: fractionating-still/
 with-energy: true
 recipes:
   tree-oil:

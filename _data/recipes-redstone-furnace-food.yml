@@ -1,6 +1,6 @@
 name: Trivection Chamber
-site: te-docs
-url: augments/machine/trivection-chamber/
+site: cofh
+url: augment-trivection-chamber/
 with-energy: true
 recipes:
   food:

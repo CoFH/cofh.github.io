@@ -1,6 +1,6 @@
 name: Resin Funnel
-site: te-docs
-url: augments/machine/resin-funnel/
+site: cofh
+url: augment-resin-funnel/
 with-energy: true
 recipes:
   wood-processing-oak:

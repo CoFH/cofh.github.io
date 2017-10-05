@@ -1,6 +1,6 @@
 name: Nether Substrate
-site: te-docs
-url: augments/machine/nether-substrate/
+site: cofh
+url: augment-nether-substrate/
 with-energy: true
 recipes:
   nether-wart:

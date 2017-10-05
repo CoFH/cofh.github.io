@@ -1,5 +1,6 @@
 ---
 title: Redstone Arsenal
+nav: redstone-arsenal
 redirect_from:
   - /redstone-arsenal/introduction/
   - /mods/redstone-arsenal/

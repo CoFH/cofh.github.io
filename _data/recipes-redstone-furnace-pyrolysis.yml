@@ -1,6 +1,6 @@
 name: Pyrolytic Conversion
-site: te-docs
-url: augments/machine/pyrolytic-conversion/
+site: cofh
+url: augment-pyrolytic-conversion/
 with-energy: true
 recipes:
   charcoal-from-cactus:

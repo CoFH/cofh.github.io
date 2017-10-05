@@ -16,54 +16,6 @@ defaults:
       type: pages
     values:
       layout: docs
-  - scope:
-      path: "docs/redstone-flux"
-      type: pages
-    values:
-      nav: redstone-flux
-      mod: Redstone Flux
-  - scope:
-      path: "docs/cofh-core"
-      type: pages
-    values:
-      nav: cofh-core
-      mod: CoFH Core
-  - scope:
-      path: "docs/cofh-world"
-      type: pages
-    values:
-      nav: cofh-world
-      mod: CoFH World
-  - scope:
-      path: "docs/thermal-foundation"
-      type: pages
-    values:
-      nav: thermal-foundation
-      mod: Thermal Foundation
-  - scope:
-      path: "docs/thermal-expansion"
-      type: pages
-    values:
-      nav: thermal-expansion
-      mod: Thermal Expansion
-  - scope:
-      path: "docs/thermal-dynamics"
-      type: pages
-    values:
-      nav: thermal-dynamics
-      mod: Thermal Dynamics
-  - scope:
-      path: "docs/thermal-cultivation"
-      type: pages
-    values:
-      nav: thermal-cultivation
-      mod: Thermal Cultivation
-  - scope:
-      path: "docs/redstone-arsenal"
-      type: pages
-    values:
-      nav: redstone-arsenal
-      mod: Redstone Arsenal
 
 exclude:
   - README.md

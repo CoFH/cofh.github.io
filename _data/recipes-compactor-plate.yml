@@ -1,6 +1,6 @@
 name: Compactor
-site: te-docs
-url: machines/compactor/
+site: cofh
+url: compactor/
 with-energy: true
 recipes:
   plate-from-ingot:

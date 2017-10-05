@@ -1,6 +1,6 @@
 name: Sawmill
-site: te-docs
-url: machines/sawmill/
+site: cofh
+url: sawmill/
 with-energy: true
 recipes:
   recycling-axe-wood:

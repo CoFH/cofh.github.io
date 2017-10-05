@@ -1,6 +1,6 @@
 name: Redstone Furnace
-site: te-docs
-url: machines/redstone-furnace/
+site: cofh
+url: redstone-furnace/
 with-energy: true
 recipes:
   cactus-green:

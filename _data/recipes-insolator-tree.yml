@@ -1,6 +1,6 @@
 name: Sapling Infuser
-site: te-docs
-url: augments/machine/sapling-infuser/
+site: cofh
+url: augment-sapling-infuser/
 with-energy: true
 recipes:
   wood:

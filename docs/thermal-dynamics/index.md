@@ -1,5 +1,6 @@
 ---
 title: Thermal Dynamics
+nav: thermal-dynamics
 redirect_from: /mods/thermal-dynamics/
 ---
 

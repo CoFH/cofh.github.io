@@ -1,6 +1,6 @@
 name: Energetic Infuser
-site: te-docs
-url: machines/energetic-infuser/
+site: cofh
+url: energetic-infuser/
 with-energy: true
 recipes:
   phyto-gro-fluxed:

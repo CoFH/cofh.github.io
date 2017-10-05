@@ -1,0 +1,99 @@
+---
+title: Energetic Infuser
+nav: thermal-expansion
+redirect_from:
+  - /thermal-expansion/machines/energetic-infuser/
+  - /docs/thermal-expansion/machines/energetic-infuser/
+---
+
+<img src="/assets/images/thermal-expansion/energetic-infuser.png" title="Energetic Infuser" />
+
+<blockquote>Flux knows no bounds, so watch your hands.</blockquote>
+
+<p>The <strong>Energetic Infuser</strong> is one of the Machines added by Thermal Expansion. It uses <a href="/docs/redstone-flux/">Redstone Flux</a> to charge compatible items. Using this Machine is one of the best ways to charge RF-powered tools and armor, as it is easy to automate and doesn't rely on users hurting themselves.</p>
+
+<h2 id="crafting">Crafting</h2>
+<img src="/assets/images/recipes/energetic-infuser.png" class="uk-margin-small-bottom" title="Energetic Infuser recipe" /><br />
+<small>Shaped Crafting</small>
+<ul class="uk-text-small uk-margin-remove">
+    <li><a href="/docs/thermal-expansion/materials/machine-frames/">Machine Frame</a> (any tier)</li>
+    <li><a href="/docs/thermal-expansion/materials/redstone-reception-coil/">Redstone Reception Coil</a></li>
+    <li>2x <a href="/docs/thermal-foundation/base-metals/copper/">Copper</a> <a href="/docs/thermal-foundation/materials/gears/">Gear</a></li>
+    <li>2x <a href="/docs/thermal-expansion/materials/redstone-transmission-coil/">Redstone Transmission Coil</a></li>
+    <li><a href="/docs/thermal-expansion/materials/energy-cell-frames/">Leadstone Energy Cell Frame</a></li>
+</ul>
+
+<h2 id="power">Power</h2>
+<p>When working at maximum speed, the Energetic Infuser charges items at 8000 RF per tick. This rate may however be limited by items that are being charged. When the Infuser's internal energy storage is starting to deplete, item charging will gradually slow down.</p>
+
+<h2 id="gui">GUI</h2>
+<img src="/assets/images/thermal-expansion/energetic-infuser-gui.png" title="Energetic Infuser GUI" />
+
+<dl class="uk-description-list-line">
+    <dt>1. Input Slot</dt>
+    <dd>Items placed in this slot are to be charged by the Infuser.</dd>
+
+    <dt>2. Processing Slot</dt>
+    <dd>Items cannot be manually placed in this slot. When starting to charge an item, the Infuser moves it from the input slot to this slot. It then remains here until it is fully charged. After that, the item is moved to the output slot, if possible.</dd>
+
+    <dt>3. Output Slot</dt>
+    <dd>Fully charged items end up in this slot.</dd>
+
+    <dt>4. Progress Gauge</dt>
+    <dd>Displays the progress of the item currently being charged. If <a href="http://www.curse.com/mc-mods/minecraft/222211-notenoughitems">Not Enough Items</a> is installed, the arrow can be clicked to look up the Infuser's <a href="#recipes">recipes</a> (if any are registered).</dd>
+
+    <dt>5. Energy Gauge</dt>
+    <dd>Displays how much Redstone Flux is currently stored in the Infuser.</dd>
+
+    <dt>6. Charging Slot</dt>
+    <dd>Items that store Redstone Flux that are placed here are discharged by the Infuser to charge itself.</dd>
+
+    <dt>7. Energy Tab</dt>
+    <dd>Displays how much power the Infuser uses, and how much Redstone Flux is currently stored in it.</dd>
+
+    <dt>8. Information Tab</dt>
+    <dd>Displays a bit of information about the Infuser.</dd>
+
+    <dt>9. Tutorial Tab</dt>
+    <dd>Explains various things about the Infuser and the other tabs in the GUI.</dd>
+
+    <dt>10. Augmentation Tab</dt>
+    <dd>Allows installing <a href="/docs/thermal-expansion/augments/augmentation/">Augments</a> in the Machine.</dd>
+
+    <dt>11. Security Tab</dt>
+    <dd>Allows setting who is allowed to access the Infuser. Only available if a <a href="/docs/thermal-expansion/materials/signalum-security-lock/">Signalum Security Lock</a> is installed.</dd>
+
+    <dt>12. Redstone Control Tab</dt>
+    <dd>Allows setting how the Infuser responds to Redstone signals. Only available if the <a href="/docs/thermal-expansion/augments/redstone-control/">Integrated Redstone Circuit</a> <a href="/docs/thermal-expansion/augments/augmentation/">Augment</a> is installed.</dd>
+
+    <dt>13. Configuration Tab</dt>
+    <dd>Allows configuring the <a href="#input-output">input/output</a> behavior of the sides of the Infuser. Only available if the <a href="/docs/thermal-expansion/augments/reconfigurable-sides/">Integrated Modular Framework</a> <a href="/docs/thermal-expansion/augments/augmentation/">Augment</a> is installed.</dd>
+
+    <dt>14. Player Inventory</dt>
+    <dd>The inventory and hotbar of the player that is accessing the Infuser.</dd>
+</dl>
+
+<h2 id="input-output">Input/Output</h2>
+<p>The different sides of the Energetic Infuser correspond to different color-coded slots in its GUI. These sides can be identified by color-coded openings in the sides of the Infuser. This is used for handling input and output with ducts/pipes/conduits/tubes, other Machines and other types of inventories.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/reconfigurable-sides/">Integrated Modular Framework</a> <a href="/docs/thermal-expansion/augments/augmentation/">Augment</a> is installed, this feature of the Infuser can be configured. Some things can be inserted from any side.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/automated-output/">Integrated Servo Mechanism</a> <a href="/docs/thermal-expansion/augments/augmentation/">Augment</a> is installed, output items are automatically ejected from the corresponding sides of the Infuser, evenly divided between the available outputs.</p>
+
+<p>If the <a href="/docs/thermal-expansion/augments/automated-input/">Integrated Hopper Apparatus</a> <a href="/docs/thermal-expansion/augments/augmentation/">Augment</a> is installed, input items are automatically pulled into the Infuser from adjacent inventories at the corresponding sides.</p>
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-condensed uk-table-striped cofh-table-compress">
+        <thead>
+            <tr><th>Type</th> <th>Color</th> <th>Default Sides</th></tr>
+        </thead>
+
+        <tbody>
+            <tr><td>Item input</td> <td>Blue</td> <td>Top, Bottom</td></tr>
+            <tr><td>Item output</td> <td>Orange</td> <td>Left, Right, Back</td></tr>
+            <tr><td>Any item input/output*</td> <td>(colorless)</td> <td>(not set)</td></tr>
+            <tr><td>Redstone Flux input</td> <td>-</td> <td>(any side)</td></tr>
+        </tbody>
+    </table>
+</div>
+<small>*: Cannot be automatically ejected from.</small>

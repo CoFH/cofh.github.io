@@ -1,6 +1,6 @@
 name: Fluid Transposer
-site: te-docs
-url: machines/fluid-transposer/
+site: cofh
+url: fluid-transposer/
 with-energy: true
 recipes:
   basalz-powder:

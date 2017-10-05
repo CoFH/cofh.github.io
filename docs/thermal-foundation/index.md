@@ -1,5 +1,6 @@
 ---
 title: Thermal Foundation
+nav: thermal-foundation
 redirect_from: /mods/thermal-foundation/
 ---
 

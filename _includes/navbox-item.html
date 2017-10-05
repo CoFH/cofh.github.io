@@ -1,6 +1,6 @@
 {% assign item_url = null %}
 {% if include.item.url %}
-    {% capture item_url %}{{include.base_url}}{{include.group.url}}{{include.item.url}}{% endcapture %}
+    {% assign item_url = include.item.url %}
 {% endif %}
 
 {% if include.item.subitems and item_url == null %}
@@ -12,7 +12,7 @@
 {% if include.item.subitems %}
     {% capture subitems %}
         {% for subitem in include.item.subitems %}
-            {% include navbox-item.html page_url=include.page_url base_url=include.base_url group=include.group item=subitem last=forloop.last %}
+            {% include navbox-item.html page_url=include.page_url item=subitem last=forloop.last %}
         {% endfor %}
     {% endcapture %}
 

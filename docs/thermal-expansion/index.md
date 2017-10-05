@@ -1,5 +1,6 @@
 ---
 title: Thermal Expansion
+nav: thermal-expansion
 redirect_from:
   - /thermal-expansion/
   - /mods/thermal-expansion/

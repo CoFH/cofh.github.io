@@ -1,6 +1,6 @@
 name: Flux Anodizers
-site: te-docs
-url: augments/machine/flux-anodizers/
+site: cofh
+url: augment-flux-anodizers/
 with-energy: true
 recipes:
   ore-processing-copper:

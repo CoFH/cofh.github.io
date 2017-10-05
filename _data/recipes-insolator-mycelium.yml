@@ -1,6 +1,6 @@
 name: Mycelium Substrate
-site: te-docs
-url: augments/machine/mycelium-substrate/
+site: cofh
+url: augment-mycelium-substrate/
 with-energy: true
 recipes:
   mushroom:

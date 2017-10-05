@@ -1,6 +1,6 @@
 name: Magma Crucible
-site: te-docs
-url: machines/magma-crucible/
+site: cofh
+url: magma-crucible/
 with-energy: true
 recipes:
   aerotheum:

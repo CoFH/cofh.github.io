@@ -1,6 +1,6 @@
 name: Phytogenic Insolator
-site: te-docs
-url: machines/phytogenic-insolator/
+site: cofh
+url: phytogenic-insolator/
 with-energy: true
 recipes:
   beetroot:
