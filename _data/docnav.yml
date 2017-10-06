@@ -587,6 +587,7 @@ thermal-expansion:
             - title: Energetic Infuser
               url: energetic-infuser/
             - title: Centrifugal Separator
+              url: centrifugal-separator/
             - title: Glacial Precipitator
               url: glacial-precipitator/
             - title: Igneous Extruder
