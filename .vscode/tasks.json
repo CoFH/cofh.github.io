@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "Build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "type": "shell",
+            "command": "jekyll build",
+            "problemMatcher": []
+        },
+        {
+            "taskName": "Build (Profile)",
+            "group": "build",
+            "type": "shell",
+            "command": "jekyll build --profile",
+            "problemMatcher": []
+        },
+        {
+            "taskName": "Serve",
+            "group": "none",
+            "type": "shell",
+            "command": "rm -rf _site && jekyll serve"
+        },
+        {
+            "taskName": "Serve (Incremental)",
+            "group": "none",
+            "type": "shell",
+            "command": "rm -rf _site && jekyll serve -I"
+        }
+    ]
+}
