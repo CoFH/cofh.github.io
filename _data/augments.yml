@@ -157,3 +157,36 @@ machine-precipitator-packed-ice:
     Allows for a glacial precipitator to produce <a
     href="https://minecraft.gamepedia.com/Packed_Ice">packed ice</a> instead of
     <a href="https://minecraft.gamepedia.com/Ice">ice</a>.
+machine-extruder-no-water:
+  name: Pyroclastic Injection
+  url: augment-pyroclastic-injection/
+  animated: true
+  installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
+  description: >
+    Allows for an igneous extruder to work without <a
+    href="https://minecraft.gamepedia.com/Water">water</a>, so only <a
+    href="https://minecraft.gamepedia.com/Lava">lava</a> is required.
+machine-extruder-granite:
+  name: Granitic Subduction
+  url: augment-granitic-subduction/
+  installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
+  description: >
+    Allows for an igneous extruder to produce <a
+    href="https://minecraft.gamepedia.com/Granite">granite</a> instead of <a
+    href="https://minecraft.gamepedia.com/Stone">stone</a>.
+machine-extruder-diorite:
+  name: Dioritic Subduction
+  url: augment-dioritic-subduction/
+  installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
+  description: >
+    Allows for an igneous extruder to produce <a
+    href="https://minecraft.gamepedia.com/Diorite">diorite</a> instead of <a
+    href="https://minecraft.gamepedia.com/Stone">stone</a>.
+machine-extruder-andesite:
+  name: Andesitic Subduction
+  url: augment-andesitic-subduction/
+  installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
+  description: >
+    Allows for an igneous extruder to produce <a
+    href="https://minecraft.gamepedia.com/Andesite">andesite</a> instead of <a
+    href="https://minecraft.gamepedia.com/Stone">stone</a>.
