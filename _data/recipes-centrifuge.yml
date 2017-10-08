@@ -54,6 +54,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: cyan-dye
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-cyan
     energy: 4000
@@ -67,13 +68,12 @@ recipes:
         item: [sand]
       output-3:
         item: [cyan-dye]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-gray:
     results:
       - item: gravel
       - item: sand
       - item: gray-dye
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-gray
     energy: 4000
@@ -87,8 +87,6 @@ recipes:
         item: [sand]
       output-3:
         item: [gray-dye]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-green:
     results:
       - item: gravel
@@ -109,6 +107,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: light-blue-dye
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-light-blue
     energy: 4000
@@ -122,13 +121,12 @@ recipes:
         item: [sand]
       output-3:
         item: [light-blue-dye]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-light-gray:
     results:
       - item: gravel
       - item: sand
       - item: light-gray-dye
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-light-gray
     energy: 4000
@@ -142,13 +140,12 @@ recipes:
         item: [sand]
       output-3:
         item: [light-gray-dye]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-lime:
     results:
       - item: gravel
       - item: sand
       - item: lime-dye
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-lime
     energy: 4000
@@ -162,13 +159,12 @@ recipes:
         item: [sand]
       output-3:
         item: [lime-dye]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-magenta:
     results:
       - item: gravel
       - item: sand
       - item: magenta-dye
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-magenta
     energy: 4000
@@ -182,13 +178,12 @@ recipes:
         item: [sand]
       output-3:
         item: [magenta-dye]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-orange:
     results:
       - item: gravel
       - item: sand
       - item: orange-dye
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-orange
     energy: 4000
@@ -202,13 +197,12 @@ recipes:
         item: [sand]
       output-3:
         item: [orange-dye]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-pink:
     results:
       - item: gravel
       - item: sand
       - item: pink-dye
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-pink
     energy: 4000
@@ -222,13 +216,12 @@ recipes:
         item: [sand]
       output-3:
         item: [pink-dye]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-purple:
     results:
       - item: gravel
       - item: sand
       - item: purple-dye
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-purple
     energy: 4000
@@ -242,13 +235,12 @@ recipes:
         item: [sand]
       output-3:
         item: [purple-dye]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-red:
     results:
       - item: gravel
       - item: sand
       - item: rose-red
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-red
     energy: 4000
@@ -262,8 +254,6 @@ recipes:
         item: [sand]
       output-3:
         item: [rose-red]
-    note: >
-      The dye has a 5% chance of being returned.
   concrete-powder-white:
     results:
       - item: gravel
@@ -284,6 +274,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: dandelion-yellow
+        suffix: (5% chance)
     ingredients:
       - item: concrete-powder-yellow
     energy: 4000
@@ -297,8 +288,6 @@ recipes:
         item: [sand]
       output-3:
         item: [dandelion-yellow]
-    note: >
-      The dye has a 5% chance of being returned.
   dust-aerotheum:
     results:
       - item: blitz-powder

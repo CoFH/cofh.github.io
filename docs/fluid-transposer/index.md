@@ -9,6 +9,7 @@ recipes:
     - machine-transposer
 augments:
   - machine-power
+  - machine-secondary
 recipe-list:
   fill:
     - moss-stone

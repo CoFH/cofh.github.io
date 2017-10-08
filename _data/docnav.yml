@@ -23,8 +23,12 @@ cofh-core:
               subitems:
                 - title: Holding
                   url: holding/
+                # - title: Leech
+                #   url: leech/
                 - title: Multishot
                   url: multishot/
+                # - title: Vorpal
+                #   url: vorpal/
 
 cofh-world:
   title: CoFH World
@@ -593,7 +597,7 @@ thermal-expansion:
             - title: Igneous Extruder
               url: igneous-extruder/
         - title: Devices
-          # url: devices/
+          url: devices/
           items:
             - title: Aqueous Accumulator
               url: aqueous-accumulator/
@@ -605,7 +609,7 @@ thermal-expansion:
             - title: Item Allocator
               url: item-allocator/
         - title: Dynamos
-          # url: dynamos/
+          url: dynamos/
           items:
             - title: Steam Dynamo
               url: steam-dynamo/
@@ -633,14 +637,14 @@ thermal-expansion:
             - title: Satchel
               url: satchel/
         - title: Tiers
-          # url: tiers/
+          url: tiers/
           items:
             - title: Upgrade Kits
               url: upgrade-kits/
             - title: Conversion Kits
               url: conversion-kits/
         - title: Augments
-          # url: augments/
+          url: augments/
           groups:
             - title: Machine
               items:
