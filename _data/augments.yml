@@ -133,3 +133,11 @@ machine-crucible-lava:
     Increases a magma crucible's maximum power usage (speed) by a factor of 10.
     However, a crucible can only produce <a
     href="https://minecraft.gamepedia.com/Lava">lava</a> when installed.
+machine-charger-throughput:
+  name: Flux Linkage Concentrator
+  url: augment-flux-linkage-concentrator/
+  installed-in: '<a href="/docs/energetic-infuser/">Energetic Infuser</a>'
+  description: >
+    Greatly increases an energetic infuser's maximum power usage (speed) when
+    charging items that hold <a href="/docs/redstone-flux/">Redstone Flux</a>.
+    The machine will still be limited by the maximum charging rate of items.
