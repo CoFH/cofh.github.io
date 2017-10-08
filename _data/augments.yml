@@ -141,3 +141,19 @@ machine-charger-throughput:
     Greatly increases an energetic infuser's maximum power usage (speed) when
     charging items that hold <a href="/docs/redstone-flux/">Redstone Flux</a>.
     The machine will still be limited by the maximum charging rate of items.
+machine-precipitator-snow-layer:
+  name: Flurry Stratum
+  url: augment-flurry-stratum/
+  installed-in: '<a href="/docs/glacial-precipitator/">Glacial Precipitator</a>'
+  description: >
+    Allows for a glacial precipitator to produce two <a
+    href="https://minecraft.gamepedia.com/Snow_(layer)">snow layers</a> instead
+    of one <a href="https://minecraft.gamepedia.com/Snow">snow block</a>.
+machine-precipitator-packed-ice:
+  name: Permafrost Compressor
+  url: augment-permafrost-compressor/
+  installed-in: '<a href="/docs/glacial-precipitator/">Glacial Precipitator</a>'
+  description: >
+    Allows for a glacial precipitator to produce <a
+    href="https://minecraft.gamepedia.com/Packed_Ice">packed ice</a> instead of
+    <a href="https://minecraft.gamepedia.com/Ice">ice</a>.
