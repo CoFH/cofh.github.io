@@ -2,7 +2,11 @@
 title: Machines
 nav: thermal-expansion
 redirect_from:
+  - /docs/thermal-expansion/materials/machine-frames/
   - /docs/thermal-expansion/machines/
+frame-recipes:
+  crafting:
+    - frame-machine
 ---
 
 **Machines** are blocks that process items and/or fluids using [Redstone
@@ -12,6 +16,8 @@ Flux](/docs/redstone-flux/).
 List of machines
 ----------------
 
+{::options parse_block_html="true" /}
+<div class="uk-overflow-container">
 | Machine | Description |
 |---
 | [Redstone Furnace](/docs/redstone-furnace/) | [Smelts](https://minecraft.gamepedia.com/Smelting) items, and cooks food very quickly. |
@@ -28,3 +34,14 @@ List of machines
 | [Glacial Precipitator](/docs/glacial-precipitator/) | Freezes [water](https://minecraft.gamepedia.com/Water) into various items. |
 | [Igneous Extruder](/docs/igneous-extruder/) | Mixes [water](https://minecraft.gamepedia.com/Water) and [lava](https://minecraft.gamepedia.com/Lava) into various items, notably [cobblestone](https://minecraft.gamepedia.com/Cobblestone). |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
+</div>
+{::options parse_block_html="false" /}
+
+
+Machine Frame
+-------------
+
+All machines are crafted from machine frames.
+
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.frame-recipes.crafting no-result=true %}

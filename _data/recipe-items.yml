@@ -2037,17 +2037,17 @@ frame-device:
   name: Device Frame
   sprite: [15, 27]
   site: cofh
-  url: device-frame/
+  url: devices/
 frame-energy-cell:
   name: Energy Cell Frame
   sprite: [0, 28]
   site: cofh
-  url: energy-cell-frame/
+  url: energy-cell/
 frame-machine:
   name: Machine Frame
   sprite: [14, 27]
   site: cofh
-  url: machine-frame/
+  url: machines/
 gear-aluminum:
   name: Aluminum Gear
   sprite: [0, 13]

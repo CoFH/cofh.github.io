@@ -683,19 +683,12 @@ thermal-expansion:
                 - title: Ignition Plugs
                 - title: Elemental Catalyzer
                 - title: Lapidary Calibration
-        - title: Items
+        - title: Other
           items:
-            - title: Frame
-              subitems:
-                - title: Machine
-                - title: Device
-                - title: Energy Cell
             - title: Florb
               url: florb/
               subitems:
                 - title: Magmatic
-        - title: Other
-          items:
             - title: Coolants
 
 thermal-dynamics:
