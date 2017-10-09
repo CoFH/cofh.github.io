@@ -10,7 +10,8 @@ frame-recipes:
 ---
 
 **Machines** are blocks that process items and/or fluids using [Redstone
-Flux](/docs/redstone-flux/).
+Flux](/docs/redstone-flux/). They can be [upgraded](/docs/tiers/) and
+[augmented](/docs/augments/).
 
 
 List of machines
@@ -41,7 +42,7 @@ List of machines
 Machine Frame
 -------------
 
-All machines are crafted from machine frames.
+All machines are crafted from **machine frames**.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.frame-recipes.crafting no-result=true %}
+{% include recipe-table.html type='crafting' recipes=page.frame-recipes.crafting %}
