@@ -22,13 +22,15 @@
             "taskName": "Serve",
             "group": "none",
             "type": "shell",
-            "command": "rm -rf _site && jekyll serve"
+            "command": "rm -rf _site && jekyll serve",
+            "problemMatcher": []
         },
         {
             "taskName": "Serve (Incremental)",
             "group": "none",
             "type": "shell",
-            "command": "rm -rf _site && jekyll serve -I"
+            "command": "rm -rf _site && jekyll serve -I",
+            "problemMatcher": []
         }
     ]
 }
