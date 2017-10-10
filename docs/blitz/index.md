@@ -12,7 +12,7 @@ redirect_from:
 **Blitzes** are hostile mobs found in
 [deserts](https://minecraft.gamepedia.com/Desert) and
 [savannas](https://minecraft.gamepedia.com/Savanna). They drop [blitz
-rods](/docs/thermal-foundation/items/materials/elemental/blitz-rod).
+rods](/docs/blitz-rod).
 
 
 Appearance

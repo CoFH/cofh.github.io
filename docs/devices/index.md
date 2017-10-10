@@ -8,7 +8,7 @@ frame-recipes:
 
 **Devices** are blocks that perform various functions involving items and/or
 fluids. Unlike [machines](/docs/machines/), they do not use [Redstone
-Flux](/docs/redstone-flux/), and cannot be [upgraded](/docs/upgraded/) or
+Flux](/docs/redstone-flux/), and cannot be [upgraded](/docs/tiers/) or
 [augmented](/docs/augments/).
 
 

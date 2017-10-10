@@ -11,7 +11,7 @@ redirect_from:
 
 **Basalzes** are hostile mobs found in mountainous and/or barren
 [biomes](https://minecraft.gamepedia.com/Biome). They drop [basalz
-rods](/docs/thermal-foundation/items/materials/elemental/basalz-rod).
+rods](/docs/basalz-rod).
 
 
 Appearance
