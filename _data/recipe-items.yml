@@ -28,6 +28,21 @@ anvil-very-damaged:
   sprite: [4, 57]
   site: mc-wiki
   url: Anvil
+aqua-chow:
+  name: Aqua-Chow
+  sprite: [0, 60]
+  site: cofh
+  url: aqua-chow/
+aqua-chow-rich:
+  name: Rich Aqua-Chow
+  sprite: [1, 60]
+  site: cofh
+  url: rich-aqua-chow/
+aqua-chow-fluxed:
+  name: Fluxed Aqua-Chow
+  animated: true
+  site: cofh
+  url: fluxed-aqua-chow/
 arrow:
   name: Arrow
   sprite: [14, 38]
@@ -643,6 +658,11 @@ bowl:
   sprite: [13, 50]
   site: mc-wiki
   url: Bowl
+bread:
+  name: Bread
+  sprite: [2, 60]
+  site: mc-wiki
+  url: Bread
 brick:
   name: Brick
   sprite: [15, 44]
@@ -1288,6 +1308,11 @@ dandelion-yellow:
   sprite: [11, 5]
   site: mc-wiki
   url: Dandelion_Yellow
+device-fisher:
+  name: Aquatic Entangler
+  sprite: [3, 60]
+  site: cofh
+  url: aquatic-entangler/
 device-heat-sink:
   name: Thermal Mediator
   sprite: [1, 27]
@@ -1718,6 +1743,11 @@ filter-resonant:
   sprite: [6, 9]
   site: cofh
   url: filters/
+fishing-rod:
+  name: Fishing Rod
+  sprite: [4, 60]
+  site: mc-wiki
+  url: Fishing_Rod
 fishing-rod-aluminum:
   name: Aluminum Fishing Rod
   sprite: [0, 18]

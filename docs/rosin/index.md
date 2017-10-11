@@ -11,6 +11,8 @@ usage-recipes:
     - torch-using-rosin
     - piston-sticky-using-rosin
     - lead-using-rosin
+    - aqua-chow-using-rosin
+    - aqua-chow-rich-using-rosin
     - florb-using-rosin
     - florb-magmatic-using-rosin
 ---

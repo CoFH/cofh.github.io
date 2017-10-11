@@ -23,12 +23,16 @@ cofh-core:
               subitems:
                 - title: Holding
                   url: holding/
-                # - title: Leech
-                #   url: leech/
+                - title: Insight
+                  # url: insight/
+                - title: Leech
+                  # url: leech/
                 - title: Multishot
                   url: multishot/
-                # - title: Vorpal
-                #   url: vorpal/
+                - title: Smelting
+                  # url: smelting/
+                - title: Vorpal
+                  # url: vorpal/
 
 cofh-world:
   title: CoFH World
@@ -365,6 +369,13 @@ thermal-foundation:
                   url: redstone-servo/
             - title: Other
               items:
+                - title: Aqua-Chow
+                  url: aqua-chow/
+                  subitems:
+                    - title: Rich
+                      url: rich-aqua-chow/
+                    - title: Fluxed
+                      url: fluxed-aqua-chow/
                 - title: Bitumen
                   url: bitumen/
                 - title: Cinnabar
@@ -606,6 +617,7 @@ thermal-expansion:
             - title: Thermal Mediator
               url: thermal-mediator/
             - title: Arboreal Extractor
+            - title: Aquatic Entangler
             - title: Item Allocator
               url: item-allocator/
         - title: Dynamos

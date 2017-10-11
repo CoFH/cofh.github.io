@@ -46,17 +46,15 @@ usage-recipes:
 
 
 **[Fishing rods](https://minecraft.gamepedia.com/Fishing_Rod)** are tools in
-vanilla Minecraft. If enabled, [Thermal Foundation](/docs/thermal-foundation/)
-adds a set of fishing rods made of various materials.
+vanilla Minecraft. [Thermal Foundation](/docs/thermal-foundation/) adds a set of
+fishing rods made of various materials.
 
 
 Obtaining
 ---------
 
 ### Crafting
-All of the following recipes are disabled by default.
-
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting with-note=true %}
 
 
 Usage

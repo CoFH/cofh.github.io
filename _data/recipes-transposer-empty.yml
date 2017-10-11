@@ -314,7 +314,7 @@ recipes:
       - item: bowl
     ingredients:
       - item: mushroom-stew
-    energy: 200
+    energy: 400
     data:
       input:
         item: [mushroom-stew]

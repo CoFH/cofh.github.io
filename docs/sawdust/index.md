@@ -39,6 +39,10 @@ usage-recipes:
     - paper-using-sawdust
     - phyto-gro-using-sawdust
     - phyto-gro-rich-using-sawdust
+    - aqua-chow-using-slime
+    - aqua-chow-using-rosin
+    - aqua-chow-rich-using-slime
+    - aqua-chow-rich-using-rosin
     - florb-using-slime
     - florb-using-rosin
     - florb-magmatic-using-magma-cream
@@ -51,10 +55,10 @@ usage-recipes:
 
 **Sawdust** is a material commonly obtained as a byproduct from
 [sawmills](/docs/sawmill/). It can be used to craft
-[paper](https://minecraft.gamepedia.com/Paper), [Phyto-Gro](/docs/phyto-gro/)
-and [florbs](/docs/florb/). It can also be crafted into [compressed
-sawdust](/docs/compressed-sawdust/), which can then be processed into
-[charcoal](https://minecraft.gamepedia.com/Charcoal).
+[paper](https://minecraft.gamepedia.com/Paper), [Phyto-Gro](/docs/phyto-gro/),
+[Aqua-Chow](/docs/aqua-chow/) and [florbs](/docs/florb/). It can also be crafted
+into [compressed sawdust](/docs/compressed-sawdust/), which can then be
+processed into [charcoal](https://minecraft.gamepedia.com/Charcoal).
 
 
 Obtaining

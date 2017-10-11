@@ -54,7 +54,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: cyan-dye
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-cyan
     energy: 4000
@@ -73,7 +73,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: gray-dye
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-gray
     energy: 4000
@@ -91,6 +91,8 @@ recipes:
     results:
       - item: gravel
       - item: sand
+      - item: cactus-green
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-green
     energy: 4000
@@ -102,12 +104,14 @@ recipes:
         item: [gravel]
       output-2:
         item: [sand]
+      output-3:
+        item: [cactus-green]
   concrete-powder-light-blue:
     results:
       - item: gravel
       - item: sand
       - item: light-blue-dye
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-light-blue
     energy: 4000
@@ -126,7 +130,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: light-gray-dye
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-light-gray
     energy: 4000
@@ -145,7 +149,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: lime-dye
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-lime
     energy: 4000
@@ -164,7 +168,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: magenta-dye
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-magenta
     energy: 4000
@@ -183,7 +187,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: orange-dye
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-orange
     energy: 4000
@@ -202,7 +206,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: pink-dye
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-pink
     energy: 4000
@@ -221,7 +225,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: purple-dye
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-purple
     energy: 4000
@@ -240,7 +244,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: rose-red
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-red
     energy: 4000
@@ -274,7 +278,7 @@ recipes:
       - item: gravel
       - item: sand
       - item: dandelion-yellow
-        suffix: (5% chance)
+        suffix: (10% chance)
     ingredients:
       - item: concrete-powder-yellow
     energy: 4000

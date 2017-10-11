@@ -23,6 +23,7 @@ List of devices
 | [Nullifier](/docs/nullifier/) | Destroys items and fluids. |
 | [Thermal Mediator](/docs/thermal-mediator/) | Speeds up adjacent [machines](/docs/machines/) using [coolants](/docs/coolants/). |
 | [Arboreal Extractor](/docs/arboreal-extractor/) | Extracts fluids from adjacent [trees](https://minecraft.gamepedia.com/Tree). |
+| [Aquatic Entangler](/docs/aquatic-entangler/) | Catches [fish](https://minecraft.gamepedia.com/Fish) and other aquatic life. |
 | [Item Allocator](/docs/item-allocator/) | Stores and transfers items. |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-compress .uk-text-small}
 </div>

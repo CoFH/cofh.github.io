@@ -53,9 +53,7 @@ Obtaining
 ---------
 
 ### Crafting
-All of the following recipes are disabled by default.
-
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting with-note=true %}
 
 
 Usage

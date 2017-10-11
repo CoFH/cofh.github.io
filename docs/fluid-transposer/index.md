@@ -14,6 +14,7 @@ recipe-list:
   fill:
     - moss-stone
     - stone-bricks-mossy
+    - concrete
     - sponge-wet
     - ice
     - packed-ice

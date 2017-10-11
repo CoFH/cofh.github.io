@@ -1353,8 +1353,8 @@ recipes:
       secondary-chance: 20
   recycling-redstone-lamp:
     results:
-      - item: glowstone-dust
       - item: redstone
+      - item: glowstone-dust
     ingredients:
       - item: redstone-lamp
     energy: 3000
@@ -1362,11 +1362,11 @@ recipes:
       input:
         item: [redstone-lamp]
       primary-output:
-        item: [glowstone-dust]
-        amount: 4
-      secondary-output:
         item: [redstone]
         amount: 4
+      secondary-output:
+        item: [glowstone-dust]
+        amount: 2
       secondary-chance: 100
   recycling-sandstone:
     results:
@@ -1526,7 +1526,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [cyan-dye]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-gray:
     results:
       - item: string
@@ -1542,10 +1542,11 @@ recipes:
         amount: 4
       secondary-output:
         item: [gray-dye]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-green:
     results:
       - item: string
+      - item: cactus-green
     ingredients:
       - item: wool-green
     energy: 3000
@@ -1555,6 +1556,9 @@ recipes:
       primary-output:
         item: [string]
         amount: 4
+      secondary-output:
+        item: [cactus-green]
+      secondary-chance: 15
   recycling-wool-light-blue:
     results:
       - item: string
@@ -1570,7 +1574,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [light-blue-dye]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-light-gray:
     results:
       - item: string
@@ -1586,7 +1590,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [light-gray-dye]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-lime:
     results:
       - item: string
@@ -1602,7 +1606,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [lime-dye]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-magenta:
     results:
       - item: string
@@ -1618,7 +1622,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [magenta-dye]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-orange:
     results:
       - item: string
@@ -1634,7 +1638,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [orange-dye]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-pink:
     results:
       - item: string
@@ -1650,7 +1654,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [pink-dye]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-purple:
     results:
       - item: string
@@ -1666,7 +1670,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [purple-dye]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-red:
     results:
       - item: string
@@ -1682,7 +1686,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [rose-red]
-      secondary-chance: 10
+      secondary-chance: 15
   recycling-wool-white:
     results:
       - item: string
@@ -1710,7 +1714,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [dandelion-yellow]
-      secondary-chance: 10
+      secondary-chance: 15
   sand:
     results:
       - item: sand

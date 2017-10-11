@@ -12,6 +12,7 @@ augments:
   - machine-charger-throughput
 recipe-list:
   - phyto-gro-fluxed
+  - aqua-chow-fluxed
 ---
 
 ![Energetic infuser](/assets/images/thermal-expansion/energetic-infuser.png){:style="height: 128px"}

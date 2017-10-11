@@ -371,6 +371,22 @@ recipes:
         amount: 1000
       output:
         item: [bucket-tree-oil]
+  concrete:
+    results:
+      - item-group: concrete
+    ingredients:
+      - item-group: concrete-powder
+      - fluid: water
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item-group: concrete-powder
+      fluid-input:
+        fluid: water
+        amount: 1000
+      output:
+        item-group: concrete
   dust-fluxed-electrum:
     results:
       - item: dust-fluxed-electrum
@@ -652,7 +668,7 @@ recipes:
       - item: bowl
       - fluid: mushroom-stew
         fluid-amount: 250
-    energy: 200
+    energy: 400
     data:
       item-input:
         item: [bowl]

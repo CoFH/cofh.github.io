@@ -63,7 +63,7 @@ rock. This is disabled by default.
 
 ### Tectonic Initiator
 An [pulverizer](/docs/pulverizer/) with a [tectonic
-initiator](/docs/augment-tectonic-initiator/) installed can consume tectonic
+initiator](/docs/augment-tectonic-initiator/) installed consumes tectonic
 petrotheum to process ores more efficiently. It consumes 100 mB of petrotheum
 per processed ore.
 

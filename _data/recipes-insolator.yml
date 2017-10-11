@@ -268,7 +268,7 @@ recipes:
   flower:
     results:
       - item-group: flower
-        suffix: x2
+        suffix: x3
     ingredients:
       - item-group: flower
       - item: phyto-gro
@@ -285,11 +285,11 @@ recipes:
         amount: 500
       primary-output:
         item-group: flower
-        amount: 2
+        amount: 3
   flower-rich:
     results:
       - item-group: flower
-        suffix: x6
+        suffix: x9
     ingredients:
       - item-group: flower
       - item: phyto-gro-rich
@@ -306,11 +306,11 @@ recipes:
         amount: 750
       primary-output:
         item-group: flower
-        amount: 6
+        amount: 9
   flower-fluxed:
     results:
       - item-group: flower
-        suffix: x8
+        suffix: x12
     ingredients:
       - item-group: flower
       - item: phyto-gro-fluxed
@@ -327,7 +327,7 @@ recipes:
         amount: 1000
       primary-output:
         item-group: flower
-        amount: 8
+        amount: 12
   lily-pad:
     results:
       - item: lily-pad

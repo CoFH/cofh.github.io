@@ -45,17 +45,15 @@ usage-recipes:
 
 
 **[Shears](https://minecraft.gamepedia.com/Shears)** are tools in vanilla
-Minecraft. If enabled, [Thermal Foundation](/docs/thermal-foundation/) adds a
-set of shears made of various materials.
+Minecraft. [Thermal Foundation](/docs/thermal-foundation/) adds a set of shears
+made of various materials.
 
 
 Obtaining
 ---------
 
 ### Crafting
-All of the following recipes are disabled by default.
-
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting with-note=true %}
 
 
 Usage

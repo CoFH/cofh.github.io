@@ -2,6 +2,68 @@ name: Crafting
 site: mc-wiki
 url: Crafting
 recipes:
+  aqua-chow-using-slime:
+    results:
+      - item: aqua-chow
+    ingredients:
+      - item: sawdust
+      - item: bread
+      - item: slimeball
+    data:
+      shapeless: true
+      rows:
+        - [item: [sawdust], item: [slimeball]]
+        - [item: [bread]]
+      result:
+        item: [aqua-chow]
+        amount: 4
+  aqua-chow-using-rosin:
+    results:
+      - item: aqua-chow
+    ingredients:
+      - item: sawdust
+      - item: bread
+      - item: rosin
+    data:
+      shapeless: true
+      rows:
+        - [item: [sawdust], item: [rosin]]
+        - [item: [bread]]
+      result:
+        item: [aqua-chow]
+        amount: 4
+  aqua-chow-rich-using-slime:
+    results:
+      - item: aqua-chow-rich
+    ingredients:
+      - item: sawdust
+      - item: bread
+      - item: nether-wart
+      - item: slimeball
+    data:
+      shapeless: true
+      rows:
+        - [item: [sawdust], item: [slimeball]]
+        - [item: [bread], item: [nether-wart]]
+      result:
+        item: [aqua-chow-rich]
+        amount: 4
+  aqua-chow-rich-using-rosin:
+    results:
+      - item: aqua-chow-rich
+    ingredients:
+      - item: sawdust
+      - item: bread
+      - item: nether-wart
+      - item: rosin
+    data:
+      shapeless: true
+      rows:
+        - [item: [sawdust], item: [rosin]]
+        - [item: [bread], item: [nether-wart]]
+      result:
+        item: [aqua-chow-rich]
+        amount: 4
   augment-dynamo-boiler:
     results:
       - item: augment-dynamo-boiler
@@ -952,8 +1014,6 @@ recipes:
       result:
         item: [bow-aluminum]
         amount: 1
-    note: >
-      Disabled by default.
   bow-bronze:
     results:
       - item: bow-bronze
@@ -969,8 +1029,6 @@ recipes:
       result:
         item: [bow-bronze]
         amount: 1
-    note: >
-      Disabled by default.
   bow-constantan:
     results:
       - item: bow-constantan
@@ -986,8 +1044,6 @@ recipes:
       result:
         item: [bow-constantan]
         amount: 1
-    note: >
-      Disabled by default.
   bow-copper:
     results:
       - item: bow-copper
@@ -1003,8 +1059,6 @@ recipes:
       result:
         item: [bow-copper]
         amount: 1
-    note: >
-      Disabled by default.
   bow-diamond:
     results:
       - item: bow-diamond
@@ -1020,8 +1074,6 @@ recipes:
       result:
         item: [bow-diamond]
         amount: 1
-    note: >
-      Disabled by default.
   bow-electrum:
     results:
       - item: bow-electrum
@@ -1037,8 +1089,6 @@ recipes:
       result:
         item: [bow-electrum]
         amount: 1
-    note: >
-      Disabled by default.
   bow-gold:
     results:
       - item: bow-gold
@@ -1054,8 +1104,6 @@ recipes:
       result:
         item: [bow-gold]
         amount: 1
-    note: >
-      Disabled by default.
   bow-invar:
     results:
       - item: bow-invar
@@ -1071,8 +1119,6 @@ recipes:
       result:
         item: [bow-invar]
         amount: 1
-    note: >
-      Disabled by default.
   bow-iron:
     results:
       - item: bow-iron
@@ -1088,8 +1134,6 @@ recipes:
       result:
         item: [bow-iron]
         amount: 1
-    note: >
-      Disabled by default.
   bow-lead:
     results:
       - item: bow-lead
@@ -1105,8 +1149,6 @@ recipes:
       result:
         item: [bow-lead]
         amount: 1
-    note: >
-      Disabled by default.
   bow-nickel:
     results:
       - item: bow-nickel
@@ -1122,8 +1164,6 @@ recipes:
       result:
         item: [bow-nickel]
         amount: 1
-    note: >
-      Disabled by default.
   bow-platinum:
     results:
       - item: bow-platinum
@@ -1139,8 +1179,6 @@ recipes:
       result:
         item: [bow-platinum]
         amount: 1
-    note: >
-      Disabled by default.
   bow-silver:
     results:
       - item: bow-silver
@@ -1156,8 +1194,6 @@ recipes:
       result:
         item: [bow-silver]
         amount: 1
-    note: >
-      Disabled by default.
   bow-steel:
     results:
       - item: bow-steel
@@ -1173,8 +1209,6 @@ recipes:
       result:
         item: [bow-steel]
         amount: 1
-    note: >
-      Disabled by default.
   bow-stone:
     results:
       - item: bow-stone
@@ -1207,8 +1241,6 @@ recipes:
       result:
         item: [bow-tin]
         amount: 1
-    note: >
-      Disabled by default.
   cache-basic:
     results:
       - item: cache-basic
@@ -1494,6 +1526,23 @@ recipes:
       result:
         item: [crescent-hammer]
         amount: 1
+  device-fisher:
+    results:
+      - item: device-fisher
+    ingredients:
+      - item: frame-device
+      - item: redstone-servo
+      - item: gear-tin
+      - item: iron-bars
+      - item: fishing-rod
+    data:
+      rows:
+        - [null, item: [fishing-rod]]
+        - [item: [iron-bars], item: [frame-device], item: [iron-bars]]
+        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+      result:
+        item: [device-fisher]
+        amount: 1
   device-heat-sink:
     results:
       - item: device-heat-sink
@@ -1585,7 +1634,6 @@ recipes:
     ingredients:
       - item: nugget-diamond
     data:
-      shapeless: true
       rows:
         - [item: [nugget-diamond], item: [nugget-diamond], item: [nugget-diamond]]
         - [item: [nugget-diamond], item: [nugget-diamond], item: [nugget-diamond]]
@@ -1930,7 +1978,6 @@ recipes:
     ingredients:
       - item: nugget-emerald
     data:
-      shapeless: true
       rows:
         - [item: [nugget-emerald], item: [nugget-emerald], item: [nugget-emerald]]
         - [item: [nugget-emerald], item: [nugget-emerald], item: [nugget-emerald]]
@@ -2244,8 +2291,6 @@ recipes:
       result:
         item: [fishing-rod-aluminum]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-bronze:
     results:
       - item: fishing-rod-bronze
@@ -2261,8 +2306,6 @@ recipes:
       result:
         item: [fishing-rod-bronze]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-constantan:
     results:
       - item: fishing-rod-constantan
@@ -2278,8 +2321,6 @@ recipes:
       result:
         item: [fishing-rod-constantan]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-copper:
     results:
       - item: fishing-rod-copper
@@ -2295,8 +2336,6 @@ recipes:
       result:
         item: [fishing-rod-copper]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-diamond:
     results:
       - item: fishing-rod-diamond
@@ -2312,8 +2351,6 @@ recipes:
       result:
         item: [fishing-rod-diamond]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-electrum:
     results:
       - item: fishing-rod-electrum
@@ -2329,8 +2366,6 @@ recipes:
       result:
         item: [fishing-rod-electrum]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-gold:
     results:
       - item: fishing-rod-gold
@@ -2346,8 +2381,6 @@ recipes:
       result:
         item: [fishing-rod-gold]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-invar:
     results:
       - item: fishing-rod-invar
@@ -2363,8 +2396,6 @@ recipes:
       result:
         item: [fishing-rod-invar]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-iron:
     results:
       - item: fishing-rod-iron
@@ -2380,8 +2411,6 @@ recipes:
       result:
         item: [fishing-rod-iron]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-lead:
     results:
       - item: fishing-rod-lead
@@ -2397,8 +2426,6 @@ recipes:
       result:
         item: [fishing-rod-lead]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-nickel:
     results:
       - item: fishing-rod-nickel
@@ -2414,8 +2441,6 @@ recipes:
       result:
         item: [fishing-rod-nickel]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-platinum:
     results:
       - item: fishing-rod-platinum
@@ -2431,8 +2456,6 @@ recipes:
       result:
         item: [fishing-rod-platinum]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-silver:
     results:
       - item: fishing-rod-silver
@@ -2448,8 +2471,6 @@ recipes:
       result:
         item: [fishing-rod-silver]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-steel:
     results:
       - item: fishing-rod-steel
@@ -2465,8 +2486,6 @@ recipes:
       result:
         item: [fishing-rod-steel]
         amount: 1
-    note: >
-      Disabled by default.
   fishing-rod-stone:
     results:
       - item: fishing-rod-stone
@@ -2499,8 +2518,6 @@ recipes:
       result:
         item: [fishing-rod-tin]
         amount: 1
-    note: >
-      Disabled by default.
   florb-using-rosin:
     results:
       - item: florb
@@ -4494,7 +4511,6 @@ recipes:
     ingredients:
       - item: nugget-aluminum
     data:
-      shapeless: true
       rows:
         - [item: [nugget-aluminum], item: [nugget-aluminum], item: [nugget-aluminum]]
         - [item: [nugget-aluminum], item: [nugget-aluminum], item: [nugget-aluminum]]
@@ -4521,7 +4537,6 @@ recipes:
     ingredients:
       - item: nugget-bronze
     data:
-      shapeless: true
       rows:
         - [item: [nugget-bronze], item: [nugget-bronze], item: [nugget-bronze]]
         - [item: [nugget-bronze], item: [nugget-bronze], item: [nugget-bronze]]
@@ -4548,7 +4563,6 @@ recipes:
     ingredients:
       - item: nugget-constantan
     data:
-      shapeless: true
       rows:
         - [item: [nugget-constantan], item: [nugget-constantan], item: [nugget-constantan]]
         - [item: [nugget-constantan], item: [nugget-constantan], item: [nugget-constantan]]
@@ -4575,7 +4589,6 @@ recipes:
     ingredients:
       - item: nugget-copper
     data:
-      shapeless: true
       rows:
         - [item: [nugget-copper], item: [nugget-copper], item: [nugget-copper]]
         - [item: [nugget-copper], item: [nugget-copper], item: [nugget-copper]]
@@ -4602,7 +4615,6 @@ recipes:
     ingredients:
       - item: nugget-electrum
     data:
-      shapeless: true
       rows:
         - [item: [nugget-electrum], item: [nugget-electrum], item: [nugget-electrum]]
         - [item: [nugget-electrum], item: [nugget-electrum], item: [nugget-electrum]]
@@ -4629,7 +4641,6 @@ recipes:
     ingredients:
       - item: nugget-enderium
     data:
-      shapeless: true
       rows:
         - [item: [nugget-enderium], item: [nugget-enderium], item: [nugget-enderium]]
         - [item: [nugget-enderium], item: [nugget-enderium], item: [nugget-enderium]]
@@ -4656,7 +4667,6 @@ recipes:
     ingredients:
       - item: nugget-fluxed-electrum
     data:
-      shapeless: true
       rows:
         - [item: [nugget-fluxed-electrum], item: [nugget-fluxed-electrum], item: [nugget-fluxed-electrum]]
         - [item: [nugget-fluxed-electrum], item: [nugget-fluxed-electrum], item: [nugget-fluxed-electrum]]
@@ -4683,7 +4693,6 @@ recipes:
     ingredients:
       - item: nugget-invar
     data:
-      shapeless: true
       rows:
         - [item: [nugget-invar], item: [nugget-invar], item: [nugget-invar]]
         - [item: [nugget-invar], item: [nugget-invar], item: [nugget-invar]]
@@ -4710,7 +4719,6 @@ recipes:
     ingredients:
       - item: nugget-iridium
     data:
-      shapeless: true
       rows:
         - [item: [nugget-iridium], item: [nugget-iridium], item: [nugget-iridium]]
         - [item: [nugget-iridium], item: [nugget-iridium], item: [nugget-iridium]]
@@ -4737,7 +4745,6 @@ recipes:
     ingredients:
       - item: nugget-lead
     data:
-      shapeless: true
       rows:
         - [item: [nugget-lead], item: [nugget-lead], item: [nugget-lead]]
         - [item: [nugget-lead], item: [nugget-lead], item: [nugget-lead]]
@@ -4764,7 +4771,6 @@ recipes:
     ingredients:
       - item: nugget-lumium
     data:
-      shapeless: true
       rows:
         - [item: [nugget-lumium], item: [nugget-lumium], item: [nugget-lumium]]
         - [item: [nugget-lumium], item: [nugget-lumium], item: [nugget-lumium]]
@@ -4791,7 +4797,6 @@ recipes:
     ingredients:
       - item: nugget-mithril
     data:
-      shapeless: true
       rows:
         - [item: [nugget-mithril], item: [nugget-mithril], item: [nugget-mithril]]
         - [item: [nugget-mithril], item: [nugget-mithril], item: [nugget-mithril]]
@@ -4818,7 +4823,6 @@ recipes:
     ingredients:
       - item: nugget-nickel
     data:
-      shapeless: true
       rows:
         - [item: [nugget-nickel], item: [nugget-nickel], item: [nugget-nickel]]
         - [item: [nugget-nickel], item: [nugget-nickel], item: [nugget-nickel]]
@@ -4845,7 +4849,6 @@ recipes:
     ingredients:
       - item: nugget-platinum
     data:
-      shapeless: true
       rows:
         - [item: [nugget-platinum], item: [nugget-platinum], item: [nugget-platinum]]
         - [item: [nugget-platinum], item: [nugget-platinum], item: [nugget-platinum]]
@@ -4872,7 +4875,6 @@ recipes:
     ingredients:
       - item: nugget-signalum
     data:
-      shapeless: true
       rows:
         - [item: [nugget-signalum], item: [nugget-signalum], item: [nugget-signalum]]
         - [item: [nugget-signalum], item: [nugget-signalum], item: [nugget-signalum]]
@@ -4899,7 +4901,6 @@ recipes:
     ingredients:
       - item: nugget-silver
     data:
-      shapeless: true
       rows:
         - [item: [nugget-silver], item: [nugget-silver], item: [nugget-silver]]
         - [item: [nugget-silver], item: [nugget-silver], item: [nugget-silver]]
@@ -4926,7 +4927,6 @@ recipes:
     ingredients:
       - item: nugget-steel
     data:
-      shapeless: true
       rows:
         - [item: [nugget-steel], item: [nugget-steel], item: [nugget-steel]]
         - [item: [nugget-steel], item: [nugget-steel], item: [nugget-steel]]
@@ -4953,7 +4953,6 @@ recipes:
     ingredients:
       - item: nugget-tin
     data:
-      shapeless: true
       rows:
         - [item: [nugget-tin], item: [nugget-tin], item: [nugget-tin]]
         - [item: [nugget-tin], item: [nugget-tin], item: [nugget-tin]]
@@ -7686,7 +7685,6 @@ recipes:
     ingredients:
       - item: sawdust
     data:
-      shapeless: true
       rows:
         - [item: [sawdust], item: [sawdust], item: [sawdust]]
         - [item: [sawdust], item: [sawdust], item: [sawdust]]
@@ -7955,8 +7953,6 @@ recipes:
       result:
         item: [shears-aluminum]
         amount: 1
-    note: >
-      Disabled by default.
   shears-bronze:
     results:
       - item: shears-bronze
@@ -7969,8 +7965,6 @@ recipes:
       result:
         item: [shears-bronze]
         amount: 1
-    note: >
-      Disabled by default.
   shears-constantan:
     results:
       - item: shears-constantan
@@ -7983,8 +7977,6 @@ recipes:
       result:
         item: [shears-constantan]
         amount: 1
-    note: >
-      Disabled by default.
   shears-copper:
     results:
       - item: shears-copper
@@ -7997,8 +7989,6 @@ recipes:
       result:
         item: [shears-copper]
         amount: 1
-    note: >
-      Disabled by default.
   shears-diamond:
     results:
       - item: shears-diamond
@@ -8011,8 +8001,6 @@ recipes:
       result:
         item: [shears-diamond]
         amount: 1
-    note: >
-      Disabled by default.
   shears-electrum:
     results:
       - item: shears-electrum
@@ -8025,8 +8013,6 @@ recipes:
       result:
         item: [shears-electrum]
         amount: 1
-    note: >
-      Disabled by default.
   shears-gold:
     results:
       - item: shears-gold
@@ -8039,8 +8025,6 @@ recipes:
       result:
         item: [shears-gold]
         amount: 1
-    note: >
-      Disabled by default.
   shears-invar:
     results:
       - item: shears-invar
@@ -8053,8 +8037,6 @@ recipes:
       result:
         item: [shears-invar]
         amount: 1
-    note: >
-      Disabled by default.
   shears-lead:
     results:
       - item: shears-lead
@@ -8067,8 +8049,6 @@ recipes:
       result:
         item: [shears-lead]
         amount: 1
-    note: >
-      Disabled by default.
   shears-nickel:
     results:
       - item: shears-nickel
@@ -8081,8 +8061,6 @@ recipes:
       result:
         item: [shears-nickel]
         amount: 1
-    note: >
-      Disabled by default.
   shears-platinum:
     results:
       - item: shears-platinum
@@ -8095,8 +8073,6 @@ recipes:
       result:
         item: [shears-platinum]
         amount: 1
-    note: >
-      Disabled by default.
   shears-silver:
     results:
       - item: shears-silver
@@ -8109,8 +8085,6 @@ recipes:
       result:
         item: [shears-silver]
         amount: 1
-    note: >
-      Disabled by default.
   shears-steel:
     results:
       - item: shears-steel
@@ -8123,8 +8097,6 @@ recipes:
       result:
         item: [shears-steel]
         amount: 1
-    note: >
-      Disabled by default.
   shears-stone:
     results:
       - item: shears-stone
@@ -8151,8 +8123,6 @@ recipes:
       result:
         item: [shears-tin]
         amount: 1
-    note: >
-      Disabled by default.
   shears-wood:
     results:
       - item: shears-wood
@@ -8184,8 +8154,6 @@ recipes:
       result:
         item: [shield-aluminum]
         amount: 1
-    note: >
-      Disabled by default.
   shield-bronze:
     results:
       - item: shield-bronze
@@ -8200,8 +8168,6 @@ recipes:
       result:
         item: [shield-bronze]
         amount: 1
-    note: >
-      Disabled by default.
   shield-constantan:
     results:
       - item: shield-constantan
@@ -8216,8 +8182,6 @@ recipes:
       result:
         item: [shield-constantan]
         amount: 1
-    note: >
-      Disabled by default.
   shield-copper:
     results:
       - item: shield-copper
@@ -8232,8 +8196,6 @@ recipes:
       result:
         item: [shield-copper]
         amount: 1
-    note: >
-      Disabled by default.
   shield-diamond:
     results:
       - item: shield-diamond
@@ -8248,8 +8210,6 @@ recipes:
       result:
         item: [shield-diamond]
         amount: 1
-    note: >
-      Disabled by default.
   shield-electrum:
     results:
       - item: shield-electrum
@@ -8264,8 +8224,6 @@ recipes:
       result:
         item: [shield-electrum]
         amount: 1
-    note: >
-      Disabled by default.
   shield-gold:
     results:
       - item: shield-gold
@@ -8280,8 +8238,6 @@ recipes:
       result:
         item: [shield-gold]
         amount: 1
-    note: >
-      Disabled by default.
   shield-invar:
     results:
       - item: shield-invar
@@ -8296,8 +8252,6 @@ recipes:
       result:
         item: [shield-invar]
         amount: 1
-    note: >
-      Disabled by default.
   shield-iron:
     results:
       - item: shield-iron
@@ -8312,8 +8266,6 @@ recipes:
       result:
         item: [shield-iron]
         amount: 1
-    note: >
-      Disabled by default.
   shield-lead:
     results:
       - item: shield-lead
@@ -8328,8 +8280,6 @@ recipes:
       result:
         item: [shield-lead]
         amount: 1
-    note: >
-      Disabled by default.
   shield-nickel:
     results:
       - item: shield-nickel
@@ -8344,8 +8294,6 @@ recipes:
       result:
         item: [shield-nickel]
         amount: 1
-    note: >
-      Disabled by default.
   shield-platinum:
     results:
       - item: shield-platinum
@@ -8360,8 +8308,6 @@ recipes:
       result:
         item: [shield-platinum]
         amount: 1
-    note: >
-      Disabled by default.
   shield-silver:
     results:
       - item: shield-silver
@@ -8376,8 +8322,6 @@ recipes:
       result:
         item: [shield-silver]
         amount: 1
-    note: >
-      Disabled by default.
   shield-steel:
     results:
       - item: shield-steel
@@ -8392,8 +8336,6 @@ recipes:
       result:
         item: [shield-steel]
         amount: 1
-    note: >
-      Disabled by default.
   shield-stone:
     results:
       - item: shield-stone
@@ -8424,8 +8366,6 @@ recipes:
       result:
         item: [shield-tin]
         amount: 1
-    note: >
-      Disabled by default.
   shovel-aluminum:
     results:
       - item: shovel-aluminum
@@ -8863,7 +8803,6 @@ recipes:
     ingredients:
       - item: ingot-aluminum
     data:
-      shapeless: true
       rows:
         - [item: [ingot-aluminum], item: [ingot-aluminum], item: [ingot-aluminum]]
         - [item: [ingot-aluminum], item: [ingot-aluminum], item: [ingot-aluminum]]
@@ -8877,7 +8816,6 @@ recipes:
     ingredients:
       - item: ingot-bronze
     data:
-      shapeless: true
       rows:
         - [item: [ingot-bronze], item: [ingot-bronze], item: [ingot-bronze]]
         - [item: [ingot-bronze], item: [ingot-bronze], item: [ingot-bronze]]
@@ -8891,7 +8829,6 @@ recipes:
     ingredients:
       - item: ingot-constantan
     data:
-      shapeless: true
       rows:
         - [item: [ingot-constantan], item: [ingot-constantan], item: [ingot-constantan]]
         - [item: [ingot-constantan], item: [ingot-constantan], item: [ingot-constantan]]
@@ -8905,7 +8842,6 @@ recipes:
     ingredients:
       - item: ingot-copper
     data:
-      shapeless: true
       rows:
         - [item: [ingot-copper], item: [ingot-copper], item: [ingot-copper]]
         - [item: [ingot-copper], item: [ingot-copper], item: [ingot-copper]]
@@ -8919,7 +8855,6 @@ recipes:
     ingredients:
       - item: ingot-electrum
     data:
-      shapeless: true
       rows:
         - [item: [ingot-electrum], item: [ingot-electrum], item: [ingot-electrum]]
         - [item: [ingot-electrum], item: [ingot-electrum], item: [ingot-electrum]]
@@ -8933,7 +8868,6 @@ recipes:
     ingredients:
       - item: ingot-enderium
     data:
-      shapeless: true
       rows:
         - [item: [ingot-enderium], item: [ingot-enderium], item: [ingot-enderium]]
         - [item: [ingot-enderium], item: [ingot-enderium], item: [ingot-enderium]]
@@ -8947,7 +8881,6 @@ recipes:
     ingredients:
       - item: flux-crystal
     data:
-      shapeless: true
       rows:
         - [item: [flux-crystal], item: [flux-crystal], item: [flux-crystal]]
         - [item: [flux-crystal], item: [flux-crystal], item: [flux-crystal]]
@@ -8961,7 +8894,6 @@ recipes:
     ingredients:
       - item: ingot-fluxed-electrum
     data:
-      shapeless: true
       rows:
         - [item: [ingot-fluxed-electrum], item: [ingot-fluxed-electrum], item: [ingot-fluxed-electrum]]
         - [item: [ingot-fluxed-electrum], item: [ingot-fluxed-electrum], item: [ingot-fluxed-electrum]]
@@ -8975,7 +8907,6 @@ recipes:
     ingredients:
       - item: ingot-invar
     data:
-      shapeless: true
       rows:
         - [item: [ingot-invar], item: [ingot-invar], item: [ingot-invar]]
         - [item: [ingot-invar], item: [ingot-invar], item: [ingot-invar]]
@@ -8989,7 +8920,6 @@ recipes:
     ingredients:
       - item: ingot-iridium
     data:
-      shapeless: true
       rows:
         - [item: [ingot-iridium], item: [ingot-iridium], item: [ingot-iridium]]
         - [item: [ingot-iridium], item: [ingot-iridium], item: [ingot-iridium]]
@@ -9003,7 +8933,6 @@ recipes:
     ingredients:
       - item: ingot-lead
     data:
-      shapeless: true
       rows:
         - [item: [ingot-lead], item: [ingot-lead], item: [ingot-lead]]
         - [item: [ingot-lead], item: [ingot-lead], item: [ingot-lead]]
@@ -9017,7 +8946,6 @@ recipes:
     ingredients:
       - item: ingot-lumium
     data:
-      shapeless: true
       rows:
         - [item: [ingot-lumium], item: [ingot-lumium], item: [ingot-lumium]]
         - [item: [ingot-lumium], item: [ingot-lumium], item: [ingot-lumium]]
@@ -9031,7 +8959,6 @@ recipes:
     ingredients:
       - item: ingot-mithril
     data:
-      shapeless: true
       rows:
         - [item: [ingot-mithril], item: [ingot-mithril], item: [ingot-mithril]]
         - [item: [ingot-mithril], item: [ingot-mithril], item: [ingot-mithril]]
@@ -9045,7 +8972,6 @@ recipes:
     ingredients:
       - item: ingot-nickel
     data:
-      shapeless: true
       rows:
         - [item: [ingot-nickel], item: [ingot-nickel], item: [ingot-nickel]]
         - [item: [ingot-nickel], item: [ingot-nickel], item: [ingot-nickel]]
@@ -9059,7 +8985,6 @@ recipes:
     ingredients:
       - item: ingot-platinum
     data:
-      shapeless: true
       rows:
         - [item: [ingot-platinum], item: [ingot-platinum], item: [ingot-platinum]]
         - [item: [ingot-platinum], item: [ingot-platinum], item: [ingot-platinum]]
@@ -9073,7 +8998,6 @@ recipes:
     ingredients:
       - item: ingot-signalum
     data:
-      shapeless: true
       rows:
         - [item: [ingot-signalum], item: [ingot-signalum], item: [ingot-signalum]]
         - [item: [ingot-signalum], item: [ingot-signalum], item: [ingot-signalum]]
@@ -9087,7 +9011,6 @@ recipes:
     ingredients:
       - item: ingot-silver
     data:
-      shapeless: true
       rows:
         - [item: [ingot-silver], item: [ingot-silver], item: [ingot-silver]]
         - [item: [ingot-silver], item: [ingot-silver], item: [ingot-silver]]
@@ -9101,7 +9024,6 @@ recipes:
     ingredients:
       - item: ingot-steel
     data:
-      shapeless: true
       rows:
         - [item: [ingot-steel], item: [ingot-steel], item: [ingot-steel]]
         - [item: [ingot-steel], item: [ingot-steel], item: [ingot-steel]]
@@ -9115,7 +9037,6 @@ recipes:
     ingredients:
       - item: ingot-tin
     data:
-      shapeless: true
       rows:
         - [item: [ingot-tin], item: [ingot-tin], item: [ingot-tin]]
         - [item: [ingot-tin], item: [ingot-tin], item: [ingot-tin]]

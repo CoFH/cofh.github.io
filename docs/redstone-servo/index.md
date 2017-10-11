@@ -14,6 +14,7 @@ usage-recipes:
     - device-nullifier
     - device-heat-sink
     - device-tapper
+    - device-fisher
     - device-item-buffer
     - portable-tank-basic
     - cache-basic

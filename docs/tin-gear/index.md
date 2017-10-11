@@ -13,6 +13,7 @@ usage-recipes:
     - device-nullifier
     - device-heat-sink
     - device-tapper
+    - device-fisher
     - device-item-buffer
     - dynamo-compression
     - augment-machine-sawmill-tapper

@@ -82,9 +82,9 @@ Blazing pyrotheum has the following effects on certain blocks and mobs:
 
 ### Pyro-Concentrator
 An [induction smelter](/docs/induction-smelter/) with a
-[pyro-concentrator](/docs/augment-pyro-concentrator/) installed can consume
-blazing pyrotheum to process ores more efficiently. It consumes 100 mB of
-pyrotheum per processed ore.
+[pyro-concentrator](/docs/augment-pyro-concentrator/) installed consumes blazing
+pyrotheum to process ores more efficiently. It consumes 100 mB of pyrotheum per
+processed ore.
 
 ### Magmatic Dynamo fuel
 When used as fuel in a [magmatic dynamo](/docs/magmatic-dynamo/), a bucket of

@@ -3,6 +3,17 @@ site: cofh
 url: energetic-infuser/
 with-energy: true
 recipes:
+  aqua-chow-fluxed:
+    results:
+      - item: aqua-chow-fluxed
+    ingredients:
+      - item: aqua-chow-rich
+    energy: 8000
+    data:
+      input:
+        item: [aqua-chow-rich]
+      output:
+        item: [aqua-chow-fluxed]
   phyto-gro-fluxed:
     results:
       - item: phyto-gro-fluxed
