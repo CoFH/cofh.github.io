@@ -8,8 +8,9 @@ redirect_from:
   - /docs/cofh-core/holding/
 ---
 
-**Holding** is an enchantment that increases the storage capacity of certain
-items and blocks that store things. Its maximum level is IV.
+**Holding** is an [enchantment](https://minecraft.gamepedia.com/Enchanting) that
+increases the storage capacity of certain items and blocks that store things.
+Its maximum level is IV.
 
 
 Usage

@@ -24,15 +24,15 @@ cofh-core:
                 - title: Holding
                   url: holding/
                 - title: Insight
-                  # url: insight/
+                  url: insight/
                 - title: Leech
-                  # url: leech/
+                  url: leech/
                 - title: Multishot
                   url: multishot/
                 - title: Smelting
-                  # url: smelting/
+                  url: smelting/
                 - title: Vorpal
-                  # url: vorpal/
+                  url: vorpal/
 
 cofh-world:
   title: CoFH World

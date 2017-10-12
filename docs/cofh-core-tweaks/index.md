@@ -12,7 +12,7 @@ Named mob death messages
 ------------------------
 
 When a [mob](https://minecraft.gamepedia.com/Mob) with a custom
-[name](https://minecraft.gamepedia.com/Name_Tag) dies, a death messages is shown
+[name](https://minecraft.gamepedia.com/Name_Tag) dies, a death message is shown
 in the chat as if it were a player. This is enabled by default.
 
 ![Example of a named mob death message](/assets/images/cofh-core/named-mob-death-message.png){:style="height: 15px"}
