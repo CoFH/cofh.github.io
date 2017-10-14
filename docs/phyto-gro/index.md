@@ -40,8 +40,9 @@ usage-recipes:
 ![Phyto-Gro](/assets/images/thermal-foundation/phyto-gro.png){:style="height: 128px"}
 
 
-**Phyto-Gro** is a type of fertilizer that can be used in a [phytogenic
-insolator](/docs/phytogenic-insolator/). It is the weakest version of Phyto-Gro,
+**Phyto-Gro** is a type of fertilizer that can be used by [phytogenic
+insolators](/docs/phytogenic-insolator/) and [arboreal
+extractors](/docs/arboreal-extractor/). It is the weakest version of Phyto-Gro,
 being surpassed by the [rich](/docs/rich-phyto-gro/) and
 [fluxed](/docs/fluxed-phyto-gro/) versions.
 
@@ -76,3 +77,7 @@ Usage
 
 ### Fluid Transposer ingredient
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+
+### Arboreal Extractor
+When Phyto-Gro is used in an [arboreal extractor](/docs/arboreal-extractor/), it
+produces twice as much fluid.

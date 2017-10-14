@@ -22,7 +22,7 @@ List of devices
 | [Aqueous Accumulator](/docs/aqueous-accumulator/) | Extracts [water](https://minecraft.gamepedia.com/Water) from its surroundings. |
 | [Nullifier](/docs/nullifier/) | Destroys items and fluids. |
 | [Thermal Mediator](/docs/thermal-mediator/) | Speeds up adjacent [machines](/docs/machines/) and [dynamos](/docs/dynamos/) using [coolants](/docs/coolants/). |
-| [Arboreal Extractor](/docs/arboreal-extractor/) | Extracts fluids from adjacent [trees](https://minecraft.gamepedia.com/Tree). |
+| [Arboreal Extractor](/docs/arboreal-extractor/) | Extracts a fluid from an adjacent [tree](https://minecraft.gamepedia.com/Tree). |
 | [Aquatic Entangler](/docs/aquatic-entangler/) | Catches [fish](https://minecraft.gamepedia.com/Fish) and other aquatic life. |
 | [Item Allocator](/docs/item-allocator/) | Stores and transfers items. |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}

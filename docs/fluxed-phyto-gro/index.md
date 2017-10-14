@@ -35,8 +35,9 @@ usage-recipes:
 ![Fluxed Phyto-Gro](/assets/images/thermal-foundation/phyto-gro-fluxed.gif){:style="height: 128px"}
 
 
-**Fluxed Phyto-Gro** is a type of fertilizer that can be used in a [phytogenic
-insolator](/docs/phytogenic-insolator/). It is the strongest version of
+**Fluxed Phyto-Gro** is a type of fertilizer that can be used by [phytogenic
+insolators](/docs/phytogenic-insolator/) and [arboreal
+extractors](/docs/arboreal-extractor/). It is the strongest version of
 [Phyto-Gro](/docs/phyto-gro/).
 
 
@@ -49,6 +50,9 @@ Obtaining
 
 Usage
 -----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Phytogenic Insolator ingredient
 {% include recipe-table.html type='insolator' recipes=page.usage-recipes.insolator %}
@@ -65,5 +69,6 @@ Usage
 ### Phytogenic Insolator with Sapling Infuser ingredient
 {% include recipe-table.html type='insolator-tree' recipes=page.usage-recipes.insolator-tree %}
 
-### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+### Arboreal Extractor
+When fluxed Phyto-Gro is used in an [arboreal
+extractor](/docs/arboreal-extractor/), it produces four times as much fluid.

@@ -617,6 +617,7 @@ thermal-expansion:
             - title: Thermal Mediator
               url: thermal-mediator/
             - title: Arboreal Extractor
+              url: arboreal-extractor/
             - title: Aquatic Entangler
             - title: Item Allocator
               url: item-allocator/

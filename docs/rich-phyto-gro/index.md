@@ -42,8 +42,9 @@ usage-recipes:
 ![Rich Phyto-Gro](/assets/images/thermal-foundation/phyto-gro-rich.png){:style="height: 128px"}
 
 
-**Rich Phyto-Gro** is a type of fertilizer that can be used in a [phytogenic
-insolator](/docs/phytogenic-insolator/). It can also be used to craft
+**Rich Phyto-Gro** is a type of fertilizer that can be used by [phytogenic
+insolators](/docs/phytogenic-insolator/) and [arboreal
+extractors](/docs/arboreal-extractor/). It can also be used to craft
 [podzol](https://minecraft.gamepedia.com/Podzol) and
 [mycelium](https://minecraft.gamepedia.com/Mycelium). It is stronger than
 [regular Phyto-Gro](/docs/phyto-gro/), but weaker than [fluxed
@@ -63,6 +64,9 @@ Obtaining
 Usage
 -----
 
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
 ### Phytogenic Insolator ingredient
 {% include recipe-table.html type='insolator' recipes=page.usage-recipes.insolator %}
 
@@ -78,8 +82,9 @@ Usage
 ### Phytogenic Insolator with Sapling Infuser ingredient
 {% include recipe-table.html type='insolator-tree' recipes=page.usage-recipes.insolator-tree %}
 
-### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
 ### Energetic Infuser ingredient
 {% include recipe-table.html type='charger' recipes=page.usage-recipes.charger %}
+
+### Arboreal Extractor
+When rich Phyto-Gro is used in an [arboreal
+extractor](/docs/arboreal-extractor/), it produces three times as much fluid.
