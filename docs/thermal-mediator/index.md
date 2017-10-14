@@ -32,16 +32,12 @@ Usage
 ### Operation
 When a fluid [coolant](/docs/coolants/) is supplied to a thermal mediator, it
 will begin consuming it to speed up any adjacent [machines](/docs/machines/) and
-[dynamos](/docs/dynamos/).
+[dynamos](/docs/dynamos/). The rate at which coolant is consumed depends on the
+[thermal capacity](/docs/coolants/#usage) of the used coolant.
 
-Every tick, blocks adjacent to an active thermal mediator have a chance to work
-twice as fast for that tick. This chance is equal to the [coolant
+Every tick, blocks adjacent to an active thermal mediator have a chance to
+perform additional work during that tick. This chance is equal to the [coolant
 factor](/docs/coolants/#usage) of the used coolant.
-
-The rate at which coolant is consumed depends on the [thermal
-capacity](/docs/coolants/#usage) of the used coolant. The amount of thermal
-capacity used per tick is equal to the amount of additional [Redstone
-Flux](/docs/redstone-flux/) that is generated or consumed multiplied by 5.
 
 ### Input
 Fluids can enter a thermal mediator through its sides. Which sides of the device
