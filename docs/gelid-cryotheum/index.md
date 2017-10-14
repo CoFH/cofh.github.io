@@ -96,6 +96,6 @@ When used together with [pyrotheum dust](/docs/pyrotheum-dust/) as fuel in a
 catalyzer](/docs/augment-elemental-catalyzer/) is installed.
 
 ### Coolant
-Gelid cryotheum is a very effective [coolant](/docs/coolants/). It is three
-times as strong and lasts 12 times as long as
+Gelid cryotheum is a very effective [coolant](/docs/coolants/). It is 3 times as
+effective and lasts 12 times as long as
 [water](https://minecraft.gamepedia.com/Water).

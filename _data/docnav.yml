@@ -702,6 +702,7 @@ thermal-expansion:
               subitems:
                 - title: Magmatic
             - title: Coolants
+              url: coolants/
 
 thermal-dynamics:
   title: Thermal Dynamics

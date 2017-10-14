@@ -39,8 +39,8 @@ and fluids can be supplied to a nullifier manually or automatically.
 ### Input
 Items and fluids can enter a nullifier through the front, which displays
 [lava](https://minecraft.gamepedia.com/Lava) when the device is active. Other
-sides of a nullifier can also be configured to accept items and fluids in the
-device's GUI.
+sides of a nullifier can also be configured to accept items and fluids using the
+Configuration tab in the device's GUI.
 
 ### Redstone control
 A nullifier may be configured to respond to
