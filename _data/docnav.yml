@@ -619,6 +619,7 @@ thermal-expansion:
             - title: Arboreal Extractor
               url: arboreal-extractor/
             - title: Aquatic Entangler
+              url: aquatic-entangler/
             - title: Item Allocator
               url: item-allocator/
         - title: Dynamos
@@ -667,7 +668,7 @@ thermal-expansion:
                 - title: Trivection Chamber
                 - title: Flux Anodizers
                 - title: Pyrolytic Conversion
-                - title: Tectonic Initator
+                - title: Tectonic Initiator
                 - title: Resin Funnel
                 - title: Pyro-Concentrator
                 - title: Mycelium Substrate

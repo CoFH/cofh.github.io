@@ -52,7 +52,7 @@ The amount of fluid an arboreal extractor produces per cycle can be increased by
 placing fertilizer items in its fertilizer slot. Fertilizer will boost the
 device's production for 16 cycles per item.
 
-| Fertilizer | Production multiplier |
+| Fertilizer type | Production multiplier |
 |---
 | [Phyto-Gro](/docs/phyto-gro/) | 2x |
 | [Rich Phyto-Gro](/docs/rich-phyto-gro/) | 3x |
@@ -64,11 +64,11 @@ Items and fluids can enter and exit an arboreal extractor through its sides.
 Every side of an arboreal extractor may correspond to its fertilizer slot, its
 output tank, or both at the same time.
 
-An arboreal extractor can automatically transfer fluids out of any configured
-output sides. This is called auto-output. It can also transfer items from
-adjacent inventories into any sides that directly correspond to its fertilizer
-slot. This is called auto-input. Auto-output and auto-input occur whenever the
-device produces a fluid.
+An arboreal extractor can automatically transfer fluids out of any sides that
+directly correspond to its output tank. This is called auto-output. It can also
+transfer items from adjacent inventories into any sides that directly correspond
+to its fertilizer slot. This is called auto-input. Auto-output and auto-input
+occur whenever the device produces a fluid.
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the

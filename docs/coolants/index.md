@@ -12,7 +12,7 @@ Usage
 -----
 
 Coolants are used by [compression dynamos](/docs/compression-dynamo/), [magmatic
-dynamos](/docs/magmatic-dynamos/) with [isentropic
+dynamos](/docs/magmatic-dynamo/) with [isentropic
 reservoirs](/docs/augment-isentropic-reservoir/) installed and [thermal
 mediators](/docs/thermal-mediator/).
 
