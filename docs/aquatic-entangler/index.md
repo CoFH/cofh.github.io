@@ -8,6 +8,8 @@ recipes:
 
 ![Aquatic entangler](/assets/images/thermal-expansion/aquatic-entangler.png){:style="height: 128px"}
 
+> Hang up your fishing rod.
+
 
 An **aquatic entangler** (also known as a **fisher**) is a
 [device](/docs/devices/) that catches

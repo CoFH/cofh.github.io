@@ -8,6 +8,8 @@ recipes:
 
 ![Arboreal extractor](/assets/images/thermal-expansion/arboreal-extractor.png){:style="height: 128px"}
 
+> Put down the axe.
+
 
 An **arboreal extractor** (also known as a **tapper**) is a
 [device](/docs/devices/) that extracts a fluid from an adjacent
