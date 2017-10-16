@@ -1,5 +1,5 @@
 # Team CoFH Website
-http://teamcofh.com/
+https://teamcofh.com/
 
 ## Development
 GitHub automatically builds the site whenever commits are pushed to the `master`

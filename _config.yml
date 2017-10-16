@@ -33,4 +33,4 @@ gems:
 permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5
 paginate_path: "/posts/page-:num/"
-url: 'http://teamcofh.com'
+url: 'https://teamcofh.com'
