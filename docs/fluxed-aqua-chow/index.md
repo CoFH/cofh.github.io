@@ -10,8 +10,9 @@ recipes:
 
 
 **Fluxed Aqua-Chow** is a type of fish bait that can be used by [aquatic
-entanglers](/docs/aquatic-entangler/). It is the strongest version of
-[Aqua-Chow](/docs/aqua-chow/).
+entanglers](/docs/aquatic-entangler/). It is the strongest of its kind,
+surpassing the [regular](/docs/aqua-chow/) and [rich](/docs/rich-aqua-chow/)
+versions.
 
 
 Obtaining

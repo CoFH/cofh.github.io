@@ -40,10 +40,8 @@ usage-recipes:
 ![Phyto-Gro](/assets/images/thermal-foundation/phyto-gro.png){:style="height: 128px"}
 
 
-**Phyto-Gro** is a type of fertilizer that can be used by [phytogenic
-insolators](/docs/phytogenic-insolator/) and [arboreal
-extractors](/docs/arboreal-extractor/). It is the weakest version of Phyto-Gro,
-being surpassed by the [rich](/docs/rich-phyto-gro/) and
+**Phyto-Gro** is a type of fertilizer. It is the weakest of its kind, being
+surpassed by the [rich](/docs/rich-phyto-gro/) and
 [fluxed](/docs/fluxed-phyto-gro/) versions.
 
 
@@ -56,6 +54,10 @@ Obtaining
 
 Usage
 -----
+
+### Fertilizer
+When used on blocks, Phyto-Gro grows plants like [bone
+meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 3x3 area.
 
 ### Phytogenic Insolator ingredient
 {% include recipe-table.html type='insolator' recipes=page.usage-recipes.insolator %}

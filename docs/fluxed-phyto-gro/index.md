@@ -35,10 +35,9 @@ usage-recipes:
 ![Fluxed Phyto-Gro](/assets/images/thermal-foundation/phyto-gro-fluxed.gif){:style="height: 128px"}
 
 
-**Fluxed Phyto-Gro** is a type of fertilizer that can be used by [phytogenic
-insolators](/docs/phytogenic-insolator/) and [arboreal
-extractors](/docs/arboreal-extractor/). It is the strongest version of
-[Phyto-Gro](/docs/phyto-gro/).
+**Fluxed Phyto-Gro** is a type of fertilizer. It is the strongest of its kind,
+surpassing the [regular](/docs/phyto-gro/) and [rich](/docs/rich-phyto-gro/)
+versions.
 
 
 Obtaining
@@ -50,6 +49,10 @@ Obtaining
 
 Usage
 -----
+
+### Fertilizer
+When used on blocks, fluxed Phyto-Gro grows plants like [bone
+meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 7x7 area.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

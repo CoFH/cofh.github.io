@@ -42,13 +42,9 @@ usage-recipes:
 ![Rich Phyto-Gro](/assets/images/thermal-foundation/phyto-gro-rich.png){:style="height: 128px"}
 
 
-**Rich Phyto-Gro** is a type of fertilizer that can be used by [phytogenic
-insolators](/docs/phytogenic-insolator/) and [arboreal
-extractors](/docs/arboreal-extractor/). It can also be used to craft
-[podzol](https://minecraft.gamepedia.com/Podzol) and
-[mycelium](https://minecraft.gamepedia.com/Mycelium). It is stronger than
-[regular Phyto-Gro](/docs/phyto-gro/), but weaker than [fluxed
-Phyto-Gro](/docs/fluxed-phyto-gro/).
+**Rich Phyto-Gro** is a type of fertilizer. It is stronger than the
+[regular](/docs/phyto-gro/) version, but weaker than the
+[fluxed](/docs/fluxed-phyto-gro/) version.
 
 
 Obtaining
@@ -63,6 +59,10 @@ Obtaining
 
 Usage
 -----
+
+### Fertilizer
+When used on blocks, rich Phyto-Gro grows plants like [bone
+meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 5x5 area.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

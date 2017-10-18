@@ -11,8 +11,8 @@ recipes:
 
 
 **Aqua-Chow** is a type of fish bait that can be used by [aquatic
-entanglers](/docs/aquatic-entangler/). It is the weakest version of Aqua-Chow,
-being surpassed by the [rich](/docs/rich-aqua-chow/) and
+entanglers](/docs/aquatic-entangler/). It is the weakest of its kind, being
+surpassed by the [rich](/docs/rich-aqua-chow/) and
 [fluxed](/docs/fluxed-aqua-chow/) versions.
 
 

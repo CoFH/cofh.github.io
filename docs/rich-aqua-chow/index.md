@@ -11,9 +11,9 @@ recipes:
 
 
 **Rich Aqua-Chow** is a type of fish bait that can be used by [aquatic
-entanglers](/docs/aquatic-entangler/). It is stronger than [regular
-Aqua-Chow](/docs/aqua-chow/), but weaker than [fluxed
-Aqua-Chow](/docs/fluxed-aqua-chow/).
+entanglers](/docs/aquatic-entangler/). It is stronger than the
+[regular](/docs/aqua-chow/) version, but weaker than the
+[fluxed](/docs/fluxed-aqua-chow/) version.
 
 
 Obtaining
