@@ -1,0 +1,10 @@
+{% if include.data.size > 1 %}
+    <div class="cofh-cycle">
+        {% for item in include.data %}
+            <img src="/assets/images/{{item.file}}" alt="{{item.alt}}" class="cofh-page-image {% unless forloop.first %}hidden{% endunless %}" />
+        {% endfor %}
+    </div>
+{% else %}
+    {% assign item=include.data[0] %}
+    <img src="/assets/images/{{item.file}}" alt="{{item.alt}}" class="cofh-page-image" />
+{% endif %}

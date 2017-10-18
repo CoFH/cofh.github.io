@@ -141,7 +141,7 @@ html {
     display: inline;
 }
 
-.cofh-item-cycle .hidden {
+.cofh-cycle .hidden {
     display: none;
 }
 
@@ -278,4 +278,8 @@ table.cofh-navbox-table td.cofh-navbox-group-items {
 
 table.cofh-navbox-table td.cofh-navbox-group-subgroups-container {
     padding: 0;
+}
+
+.cofh-page-image {
+    height: 128px;
 }

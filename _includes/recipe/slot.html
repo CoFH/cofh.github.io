@@ -6,7 +6,7 @@
     {% endif %}
 
     {% if item_list.size > 1 %}
-        <div class="cofh-item-cycle {% if include.data.random %}random{% endif %}">
+        <div class="cofh-cycle {% if include.data.random %}random{% endif %}">
             {% for item in item_list %}
                 <div class="{% unless forloop.first %}hidden{% endunless %}">
                     {% include recipe/item-sprite.html item=item %}

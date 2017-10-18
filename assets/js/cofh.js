@@ -74,14 +74,14 @@ $(function() {
 
     $('.cofh-recipe')
         .mouseenter(function() {
-            $(this).addClass('paused');
+            $(this).find('.cofh-cycle').addClass('paused');
         })
         .mouseleave(function() {
-            $(this).removeClass('paused');
+            $(this).find('.cofh-cycle').removeClass('paused');
         });
 
     window.setInterval(function() {
-        $('.cofh-recipe:not(.paused) .cofh-item-cycle > div:not(.hidden)').each(function() {
+        $('.cofh-cycle:not(.paused) > :not(.hidden)').each(function() {
             var $this = $(this);
             var $siblings = $this.parent().children().filter(function(i, el) {return !$(el).is($this)});
 
@@ -91,7 +91,7 @@ $(function() {
 
             var $next;
 
-            if ($this.closest('.cofh-item-cycle').hasClass('random')) {
+            if ($this.closest('.cofh-cycle').hasClass('random')) {
                 $next = $siblings.eq(Math.floor(Math.random() * $siblings.length));
             } else {
                 $next = $this.next();
@@ -103,5 +103,5 @@ $(function() {
             $this.addClass('hidden');
             $next.removeClass('hidden');
         });
-    }, 1000);
+    }, 1500);
 });
