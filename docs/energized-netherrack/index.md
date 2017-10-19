@@ -13,7 +13,7 @@ usage-recipes:
     - fluid-ore-processing-glowstone
 ---
 
-![Energized Netherrack](/assets/images/thermal-foundation/ore-fluid-glowstone.png){:style="height: 128px"}
+![Energized netherrack](/assets/images/thermal-foundation/ore-fluid-glowstone.png){:style="height: 128px"}
 
 
 **Energized netherrack** is a rare [ore](https://minecraft.gamepedia.com/Ore)
@@ -25,6 +25,7 @@ glowstone](/docs/energized-glowstone/)) and small amounts of
 
 Obtaining
 ---------
+
 Energized netherrack occurs rarely in the lower levels of the Nether (layers
 10-40). It occurs in fairly large deposits, about as large as deposits of [coal
 ore](https://minecraft.gamepedia.com/Coal_Ore). Deposits of energized netherrack

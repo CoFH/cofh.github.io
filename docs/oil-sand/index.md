@@ -13,7 +13,7 @@ usage-recipes:
     - fluid-ore-processing-oil-sand
 ---
 
-![Oil Sand](/assets/images/thermal-foundation/ore-fluid-crude-oil-sand.png){:style="height: 128px"}
+![Oil sand](/assets/images/thermal-foundation/ore-fluid-crude-oil-sand.png){:style="height: 128px"}
 
 
 **Oil sand** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
@@ -23,6 +23,7 @@ amounts of [tar](/docs/tar/).
 
 Obtaining
 ---------
+
 Oil sand occurs fairly uncommonly in
 [deserts](https://minecraft.gamepedia.com/Desert) and similar biomes, in veins
 between [sand](https://minecraft.gamepedia.com/Sand),

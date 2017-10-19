@@ -27,7 +27,7 @@ usage-recipes:
     - ore-processing-cinnabar-platinum
 ---
 
-![Platinum Ore](/assets/images/thermal-foundation/ore-platinum.png){:style="height: 128px"}
+![Platinum ore](/assets/images/thermal-foundation/ore-platinum.png){:style="height: 128px"}
 
 
 **Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
@@ -37,6 +37,7 @@ usage-recipes:
 
 Obtaining
 ---------
+
 Platinum ore does not occur in the world by default, and thus cannot be
 legitimately obtained. However, it may be configured to generate in the world in
 modpacks.

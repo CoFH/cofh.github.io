@@ -13,7 +13,7 @@ usage-recipes:
     - fluid-ore-processing-oil-shale
 ---
 
-![Oil Shale](/assets/images/thermal-foundation/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
+![Oil shale](/assets/images/thermal-foundation/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
 
 
 **Oil shale** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
@@ -23,6 +23,7 @@ amounts of [flint](https://minecraft.gamepedia.com/Flint).
 
 Obtaining
 ---------
+
 Oil shale occurs fairly uncommonly in
 [mesas](https://minecraft.gamepedia.com/Mesa),
 [oceans](https://minecraft.gamepedia.com/Ocean),

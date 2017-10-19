@@ -27,7 +27,7 @@ usage-recipes:
     - ore-processing-cinnabar-tin
 ---
 
-![Tin Ore](/assets/images/thermal-foundation/ore-tin.png){:style="height: 128px"}
+![Tin ore](/assets/images/thermal-foundation/ore-tin.png){:style="height: 128px"}
 
 
 **Tin ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that yields
@@ -37,6 +37,7 @@ usage-recipes:
 
 Obtaining
 ---------
+
 Tin ore is about as common as [iron
 ore](https://minecraft.gamepedia.com/Iron_Ore), but it occurs at fewer levels
 (layers 20-55). Veins of tin ore are also slightly smaller.

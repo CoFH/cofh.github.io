@@ -27,7 +27,7 @@ usage-recipes:
     - ore-processing-cinnabar-lead
 ---
 
-![Lead Ore](/assets/images/thermal-foundation/ore-lead.png){:style="height: 128px"}
+![Lead ore](/assets/images/thermal-foundation/ore-lead.png){:style="height: 128px"}
 
 
 **Lead ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
@@ -37,6 +37,7 @@ that yields [lead](/docs/lead-ingot/) and small amounts of
 
 Obtaining
 ---------
+
 Lead ore is less common than [iron
 ore](https://minecraft.gamepedia.com/Iron_Ore), but more common than [gold
 ore](https://minecraft.gamepedia.com/Gold_Ore). It occurs at relatively low

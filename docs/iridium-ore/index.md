@@ -23,7 +23,7 @@ usage-recipes:
     - ore-processing-cinnabar-iridium
 ---
 
-![Iridium Ore](/assets/images/thermal-foundation/ore-iridium.png){:style="height: 128px"}
+![Iridium ore](/assets/images/thermal-foundation/ore-iridium.png){:style="height: 128px"}
 
 
 **Iridium ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
@@ -33,6 +33,7 @@ usage-recipes:
 
 Obtaining
 ---------
+
 Iridium ore does not occur in the world by default, and thus cannot be
 legitimately obtained. However, it may be configured to generate in the world in
 modpacks.

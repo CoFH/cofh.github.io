@@ -23,7 +23,7 @@ usage-recipes:
     - ore-processing-cinnabar-aluminum
 ---
 
-![Aluminum Ore](/assets/images/thermal-foundation/ore-aluminum.png){:style="height: 128px"}
+![Aluminum ore](/assets/images/thermal-foundation/ore-aluminum.png){:style="height: 128px"}
 
 
 **Aluminum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
@@ -34,6 +34,7 @@ default.
 
 Obtaining
 ---------
+
 Aluminum ore does not occur in the world by default, and thus cannot be
 legitimately obtained. However, it may be configured to generate in the world in
 modpacks.

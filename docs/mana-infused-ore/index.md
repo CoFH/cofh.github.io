@@ -23,7 +23,7 @@ usage-recipes:
     - ore-processing-cinnabar-mithril
 ---
 
-![Mana Infused Ore](/assets/images/thermal-foundation/ore-mithril.png){:style="height: 128px"}
+![Mana Infused ore](/assets/images/thermal-foundation/ore-mithril.png){:style="height: 128px"}
 
 
 **Mana infused ore** is an [ore](https://minecraft.gamepedia.com/Ore) that
@@ -34,6 +34,7 @@ default.
 
 Obtaining
 ---------
+
 Mana infused ore does not occur in the world by default, and thus cannot be
 legitimately obtained. However, it may be configured to generate in the world in
 modpacks.

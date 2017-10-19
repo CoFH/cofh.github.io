@@ -13,7 +13,7 @@ usage-recipes:
     - fluid-ore-processing-ender
 ---
 
-![Resonant End Stone](/assets/images/thermal-foundation/ore-fluid-ender.png){:style="height: 128px"}
+![Resonant end stone](/assets/images/thermal-foundation/ore-fluid-ender.png){:style="height: 128px"}
 
 
 **Resonant end stone** is a fairly common
@@ -24,6 +24,7 @@ It can be found in the [End](https://minecraft.gamepedia.com/The_End).
 
 Obtaining
 ---------
+
 Resonant end stone occurs fairly commonly at any level of the End (layers
 10-80). It occurs in large deposits, slightly larger than deposits of [coal
 ore](https://minecraft.gamepedia.com/Coal_Ore).

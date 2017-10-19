@@ -27,7 +27,7 @@ usage-recipes:
     - ore-processing-cinnabar-nickel
 ---
 
-![Nickel Ore](/assets/images/thermal-foundation/ore-nickel.png){:style="height: 128px"}
+![Nickel ore](/assets/images/thermal-foundation/ore-nickel.png){:style="height: 128px"}
 
 
 **Nickel ore** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
@@ -37,6 +37,7 @@ yields [nickel](/docs/nickel-ingot/) and small amounts of
 
 Obtaining
 ---------
+
 Nickel ore is about as common as [gold
 ore](https://minecraft.gamepedia.com/Gold_Ore), but it occurs at fewer levels
 (layers 5-20). Veins of nickel ore are also relatively small.

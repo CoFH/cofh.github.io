@@ -28,7 +28,7 @@ usage-recipes:
     - ore-processing-cinnabar-copper
 ---
 
-![Copper Ore](/assets/images/thermal-foundation/ore-copper.png){:style="height: 128px"}
+![Copper ore](/assets/images/thermal-foundation/ore-copper.png){:style="height: 128px"}
 
 
 **Copper ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that
@@ -38,6 +38,7 @@ yields [copper](/docs/copper-ingot/) and small amounts of
 
 Obtaining
 ---------
+
 Copper ore is slightly more common than [iron
 ore](https://minecraft.gamepedia.com/Iron_Ore), but it occurs at higher levels
 (layers 40-96). Veins of copper ore are also slightly smaller. Below oceans,

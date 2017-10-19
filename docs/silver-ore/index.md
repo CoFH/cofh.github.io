@@ -27,7 +27,7 @@ usage-recipes:
     - ore-processing-cinnabar-silver
 ---
 
-![Silver Ore](/assets/images/thermal-foundation/ore-silver.png){:style="height: 128px"}
+![Silver ore](/assets/images/thermal-foundation/ore-silver.png){:style="height: 128px"}
 
 
 **Silver ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
@@ -37,6 +37,7 @@ that yields [silver](/docs/silver-ingot/) and small amounts of
 
 Obtaining
 ---------
+
 Silver ore is less common than [iron
 ore](https://minecraft.gamepedia.com/Iron_Ore), but more common than [gold
 ore](https://minecraft.gamepedia.com/Gold_Ore). It occurs at low levels in the

@@ -13,7 +13,7 @@ usage-recipes:
     - fluid-ore-processing-redstone
 ---
 
-![Destabilized Redstone Ore](/assets/images/thermal-foundation/ore-fluid-redstone.png){:style="height: 128px"}
+![Destabilized redstone ore](/assets/images/thermal-foundation/ore-fluid-redstone.png){:style="height: 128px"}
 
 
 **Destabilized redstone ore** is a rare
@@ -25,6 +25,7 @@ redstone](/docs/destabilized-redstone/)) and small amounts of
 
 Obtaining
 ---------
+
 Destabilized redstone ore is relatively rare. It occurs underground at around
 the same levels as [redstone ore](https://minecraft.gamepedia.com/Redstone_Ore)
 (layers 0-20). It occurs in fairly large deposits, almost as large as deposits
