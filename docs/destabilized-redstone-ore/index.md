@@ -17,7 +17,10 @@ usage-recipes:
 
 
 **Destabilized redstone ore** is a rare
-[ore](https://minecraft.gamepedia.com/Ore).
+[ore](https://minecraft.gamepedia.com/Ore) that yields [destabilized
+clathrate](/docs/destabilized-clathrate/) ([destabilized
+redstone](/docs/destabilized-redstone/)) and small amounts of
+[cinnabar](/docs/cinnabar/).
 
 
 Obtaining

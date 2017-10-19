@@ -30,8 +30,9 @@ usage-recipes:
 ![Platinum Ore](/assets/images/thermal-foundation/ore-platinum.png){:style="height: 128px"}
 
 
-**Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that is
-unobtainable by default.
+**Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
+[platinum](/docs/platinum-ingot/) and small amounts of
+[iridium](/docs/iridium-ingot/). It is unobtainable by default.
 
 
 Obtaining

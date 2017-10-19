@@ -30,7 +30,9 @@ usage-recipes:
 ![Nickel Ore](/assets/images/thermal-foundation/ore-nickel.png){:style="height: 128px"}
 
 
-**Nickel ore** is an uncommon [ore](https://minecraft.gamepedia.com/Ore).
+**Nickel ore** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
+yields [nickel](/docs/nickel-ingot/) and small amounts of
+[platinum](/docs/platinum-ingot/).
 
 
 Obtaining

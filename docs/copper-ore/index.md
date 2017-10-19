@@ -31,7 +31,9 @@ usage-recipes:
 ![Copper Ore](/assets/images/thermal-foundation/ore-copper.png){:style="height: 128px"}
 
 
-**Copper ore** is a common [ore](https://minecraft.gamepedia.com/Ore).
+**Copper ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that
+yields [copper](/docs/copper-ingot/) and small amounts of
+[gold](https://minecraft.gamepedia.com/Gold_Ingot).
 
 
 Obtaining

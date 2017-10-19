@@ -17,7 +17,10 @@ usage-recipes:
 
 
 **Energized netherrack** is a rare [ore](https://minecraft.gamepedia.com/Ore)
-that can be found in the [Nether](https://minecraft.gamepedia.com/The_Nether).
+that yields [energized clathrate](/docs/energized-clathrate/) ([energized
+glowstone](/docs/energized-glowstone/)) and small amounts of
+[sulfur](/docs/sulfur/). It can be found in the
+[Nether](https://minecraft.gamepedia.com/The_Nether).
 
 
 Obtaining

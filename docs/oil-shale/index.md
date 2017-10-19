@@ -16,7 +16,9 @@ usage-recipes:
 ![Oil Shale](/assets/images/thermal-foundation/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
 
 
-**Oil shale** is an uncommon [ore](https://minecraft.gamepedia.com/Ore).
+**Oil shale** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
+yields [bitumen](/docs/bitumen/) ([crude oil](/docs/crude-oil/)) and small
+amounts of [flint](https://minecraft.gamepedia.com/Flint).
 
 
 Obtaining

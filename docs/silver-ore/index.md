@@ -30,8 +30,9 @@ usage-recipes:
 ![Silver Ore](/assets/images/thermal-foundation/ore-silver.png){:style="height: 128px"}
 
 
-**Silver ore** is a somewhat uncommon
-[ore](https://minecraft.gamepedia.com/Ore).
+**Silver ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
+that yields [silver](/docs/silver-ingot/) and small amounts of
+[lead](/docs/lead-ingot/).
 
 
 Obtaining

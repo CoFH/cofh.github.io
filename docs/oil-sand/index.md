@@ -16,7 +16,9 @@ usage-recipes:
 ![Oil Sand](/assets/images/thermal-foundation/ore-fluid-crude-oil-sand.png){:style="height: 128px"}
 
 
-**Oil sand** is an uncommon [ore](https://minecraft.gamepedia.com/Ore).
+**Oil sand** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
+yields [bitumen](/docs/bitumen/) ([crude oil](/docs/crude-oil/)) and small
+amounts of [tar](/docs/tar/).
 
 
 Obtaining

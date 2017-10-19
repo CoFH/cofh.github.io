@@ -17,8 +17,9 @@ usage-recipes:
 
 
 **Resonant end stone** is a fairly common
-[ore](https://minecraft.gamepedia.com/Ore) that can be found in the
-[End](https://minecraft.gamepedia.com/The_End).
+[ore](https://minecraft.gamepedia.com/Ore) that yields [resonant
+clathrate](/docs/resonant-clathrate/) ([resonant ender](/docs/resonant-ender/)).
+It can be found in the [End](https://minecraft.gamepedia.com/The_End).
 
 
 Obtaining
