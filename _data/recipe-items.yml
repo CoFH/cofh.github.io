@@ -405,7 +405,7 @@ beetroot-seeds:
   url: Beetroot_Seeds
 bitumen:
   name: Bitumen
-  sprite: [1, 8]
+  animated: true
   site: cofh
   url: bitumen/
 blaze-powder:
@@ -930,17 +930,17 @@ cinnabar:
   url: cinnabar/
 clathrate-ender:
   name: Resonant Clathrate
-  sprite: [4, 8]
+  animated: true
   site: cofh
   url: resonant-clathrate/
 clathrate-glowstone:
   name: Energized Clathrate
-  sprite: [3, 8]
+  animated: true
   site: cofh
   url: energized-clathrate/
 clathrate-redstone:
   name: Destabilized Clathrate
-  sprite: [2, 8]
+  animated: true
   site: cofh
   url: destabilized-clathrate/
 clay:
