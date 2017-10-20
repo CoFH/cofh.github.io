@@ -48,12 +48,12 @@ have full support in the Fluid Transposer and Fractionating Still, of course.
 And there's JEI support, naturally.
 
 ### **Screenshots:**
-![JEI - Potion Brewing](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_brewer.png){:style="height: 384px"}
+![JEI - Potion Brewing](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_brewer.png){:style="max-height: 384px"}
 
-![JEI - Potion Refining](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_refinery_potion.png){:style="height: 384px"}
+![JEI - Potion Refining](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_refinery_potion.png){:style="max-height: 384px"}
 
-![GUI - Potion Diffuser](/assets/images/posts/2017-10-20-low-hanging-fruit/gui_diffuser.png){:style="height: 384px"}
+![GUI - Potion Diffuser](/assets/images/posts/2017-10-20-low-hanging-fruit/gui_diffuser.png){:style="max-height: 384px"}
 
-![Augment - Brewer](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_brewer.png){:style="height: 384px"}
+![Augment - Brewer](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_brewer.png){:style="max-height: 384px"}
 
-![Augment - Insolator](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_insolator.png){:style="height: 384px"}
+![Augment - Insolator](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_insolator.png){:style="max-height: 384px"}
