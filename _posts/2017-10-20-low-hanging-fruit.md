@@ -20,20 +20,21 @@ is released for 1.12, it will be one of the largest in a long time. Off the top
 of my head, it will contain:
 
 ### **New Machines:**
+
 - Alchemical Imbuer
- - This brews potions, in fluid form. You can chain a bunch of them together.
+    - This brews potions, in fluid form. You can chain a bunch of them together.
 - Arcane Ensorcellator
- - An enchanter, requires a book, item, and Essence of Knowledge (fluid XP).
+    - An enchanter, requires a book, item, and Essence of Knowledge (fluid XP).
 
 ### **New Devices:**
 - Fluid Allocator
- - Like the Item Allocator, except with fluids. Three tanks, all lockable.
+    - Like the Item Allocator, except with fluids. Three tanks, all lockable.
 - Lexical Transmuter
- - Forge Lexicon in Block form. Remembers up to 9 distinct items.
+    - Forge Lexicon in Block form. Remembers up to 9 distinct items.
 - Insightful Condenser
- - An XP collecting block which can provide bonus XP if fed lapis or soul sand.
+    - An XP collecting block which can provide bonus XP if fed lapis or soul sand.
 - Decoctive Diffuser
- - A block which spreads a potion effect over a small area. Uses fluid potions.
+    - A block which spreads a potion effect over a small area. Uses fluid potions.
 
 Along with all this, there are new Augments coming. Seven (7) of them at the
 moment, but if I get more coded before release, then who knows.
