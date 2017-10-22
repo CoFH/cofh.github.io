@@ -93,7 +93,7 @@ Low
 High
 : The dynamo only works when powered.
 
-The current mode can be set using the Redstone Control tab in the machine's GUI.
+The current mode can be set using the Redstone Control tab in the dynamo's GUI.
 
 When a steam dynamo must stop working due to a redstone signal and is still
 generating energy from a consumed unit of fuel, it will finish generating energy
