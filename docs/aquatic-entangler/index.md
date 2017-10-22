@@ -31,13 +31,18 @@ item. It can also be mined using a
 Usage
 -----
 
+### Placement
+When placed, an aquatic entangler faces the player. It can face any of the four
+cardinal directions, and can be rotated using a [crescent
+hammer](/docs/crescent-hammer/) or similar.
+
 ### Operation
 When placed in a body of [water](https://minecraft.gamepedia.com/Water), an
-aquatic entangler will start producing fish. It must be surrounded by at least
-10 water blocks in a 5x5x2 area (the device being at the top of the area).
+aquatic entangler will start catching fish. It must be surrounded by at least 10
+water blocks in a 5x5x2 area (the device being at the top of the area).
 
-An active aquatic entangler produces one fish every 7200 ticks (6 minutes) by
-default. The production speed can be increased by various factors.
+An active aquatic entangler catches one fish every 7200 ticks (6 minutes) by
+default. This speed can be increased by various factors.
 
 | Factor | Speed multiplier |
 |---
@@ -50,9 +55,9 @@ default. The production speed can be increased by various factors.
 | Surrounded by 30 or more water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | x4 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-The amount of fish an aquatic entangler produces per cycle can be increased by
-placing bait items in its bait slot. Bait will boost the device's production for
-8 cycles per item.
+The amount of fish an aquatic entangler catches per cycle can be increased by
+placing bait items in its bait slot. Bait will boost the amount of fish caught
+for 8 cycles per item.
 
 | Bait type | Production multiplier |
 |---
@@ -69,8 +74,10 @@ at the same time.
 An aquatic entangler can automatically transfer items out of any sides that
 directly correspond to its output slots. This is called auto-output. It can also
 transfer items from adjacent inventories into any sides that directly correspond
-to its bait slot. This is called auto-input. Auto-output and auto-input occur
-whenever the device produces fish.
+to its bait slot. This is called auto-input. Auto-output and auto-input occur at
+the same speed at which fish is caught, but always occur right before the device
+catches more fish. The device can automatically transfer up to 8 items at a
+time.
 
 Which sides correspond to which slots and whether auto-output and auto-input are
 enabled can be configured using the Configuration tab in the device's GUI.
@@ -105,10 +112,10 @@ An aquatic entangler's configuration can be saved on a
 Products
 --------
 
-An aquatic entangler can produce various kinds of
-[fish](https://minecraft.gamepedia.com/Fish). Every product has a certain
-'weight', which specifies the chance of it being produced. Products with a
-greater weight are more likely to be produced.
+An aquatic entangler can catch various kinds of
+[fish](https://minecraft.gamepedia.com/Fish). Every kind of fish has a certain
+'weight', which specifies the chance of it being caught. Products with a greater
+weight are more likely to be caught.
 
 | Product | Weight |
 |---

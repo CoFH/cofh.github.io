@@ -31,24 +31,16 @@ item. It can also be mined using a
 Usage
 -----
 
+### Placement
+When placed, an arboreal extractor faces the player. It can face any of the four
+cardinal directions, and can be rotated using a [crescent
+hammer](/docs/crescent-hammer/) or similar.
+
 ### Operation
 When placed next to the bottom of a [tree](https://minecraft.gamepedia.com/Tree)
 (or [huge mushroom](https://minecraft.gamepedia.com/Huge_mushroom)), an arboreal
 extractor will start extracting a fluid. An active arboreal extractor produces a
-certain amount of fluid every 600 ticks (30 seconds). Which fluid is produced
-and how much fluid is produced per cycle depends on the type of tree.
-
-| Tree type | Extracted fluid | Fluid per cycle |
-|---
-| Oak | [Sap](/docs/sap/) | 50 mB |
-| Spruce | [Resin](/docs/resin/) | 100 mB |
-| Birch | [Resin](/docs/resin/) | 50 mB |
-| Jungle | [Resin](/docs/resin/) | 50 mB |
-| Acacia | [Resin](/docs/resin/) | 50 mB |
-| Dark Oak | [Sap](/docs/sap/) | 50 mB |
-| Huge brown mushroom | [Mushroom Stew](/docs/mushroom-stew/) | 50 mB |
-| Huge red mushroom | [Mushroom Stew](/docs/mushroom-stew/) | 50 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+certain amount of fluid every 600 ticks (30 seconds).
 
 The amount of fluid an arboreal extractor produces per cycle can be increased by
 placing fertilizer items in its fertilizer slot. Fertilizer will boost the
@@ -67,10 +59,11 @@ Every side of an arboreal extractor may correspond to its fertilizer slot, its
 output tank, or both at the same time.
 
 An arboreal extractor can automatically transfer fluids out of any sides that
-directly correspond to its output tank. This is called auto-output. It can also
+directly correspond to its output tank. This is called auto-output. The device
+can automatically transfer up to 1000 mB of fluid at a time. It can also
 transfer items from adjacent inventories into any sides that directly correspond
 to its fertilizer slot. This is called auto-input. Auto-output and auto-input
-occur whenever the device produces a fluid.
+occur every 600 ticks (30 seconds), before more fluid is produced.
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the
@@ -101,3 +94,22 @@ lock](/docs/signalum-security-lock/) installed to restrict who can access it.
 ### Redprints
 An arboreal extractor's configuration can be saved on a
 [redprint](/docs/redprint/) to be copied to other arboreal extractors.
+
+
+Products
+--------
+
+The fluid that an arboreal extractor produces and the amount of fluid that is
+produced per cycle depends on the type of tree.
+
+| Tree type | Extracted fluid | Fluid per cycle |
+|---
+| Oak | [Sap](/docs/sap/) | 50 mB |
+| Spruce | [Resin](/docs/resin/) | 100 mB |
+| Birch | [Resin](/docs/resin/) | 50 mB |
+| Jungle | [Resin](/docs/resin/) | 50 mB |
+| Acacia | [Resin](/docs/resin/) | 50 mB |
+| Dark Oak | [Sap](/docs/sap/) | 50 mB |
+| Huge brown mushroom | [Mushroom Stew](/docs/mushroom-stew/) | 50 mB |
+| Huge red mushroom | [Mushroom Stew](/docs/mushroom-stew/) | 50 mB |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

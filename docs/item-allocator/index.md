@@ -15,7 +15,7 @@ recipes:
 
 An **item allocator** (also known as an **item buffer**) is a
 [device](/docs/devices/) that stores and transfers items between adjacent
-inventories.
+inventories or transport systems.
 
 
 Obtaining
@@ -32,6 +32,11 @@ item. It can also be mined using a
 
 Usage
 -----
+
+### Placement
+When placed, an item allocator faces the player. It can face any of the four
+cardinal directions, and can be rotated using a [crescent
+hammer](/docs/crescent-hammer/) or similar.
 
 ### Operation
 Items can enter and exit an item allocator through its sides. It can store items

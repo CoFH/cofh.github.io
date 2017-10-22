@@ -30,7 +30,8 @@ Obtaining
 A placed fractionating still can be instantly picked up by dismantling it with a
 [crescent hammer](/docs/crescent-hammer/). Its configuration is preserved in the
 item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this is quite slow.
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
+slower.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -43,6 +44,11 @@ be upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
 
 Usage
 -----
+
+### Placement
+When placed, a fractionating still faces the player. It can face any of the four
+cardinal directions, and can be rotated using a [crescent
+hammer](/docs/crescent-hammer/) or similar.
 
 ### Processing
 When a fractionating still's input tank is filled with a fluid, the machine will
@@ -69,6 +75,10 @@ is called auto-output. Auto-output for fluids occurs whenever there is a fluid
 in the output tank. Auto-output for items occurs whenever the machine finishes
 processing an amount of fluid, or every 32 ticks (1.6 seconds) if the machine is
 inactive.
+
+A basic fractionating still can automatically output fluids at a maximum rate of
+100 mB/t, and can automatically output up to 8 items at a time. These amounts
+can be increased by upgrading the machine to a higher [tier](#tiers).
 
 Which sides correspond to which tanks/slots and whether auto-output is enabled
 can be configured using the Configuration tab in the machine's GUI.
@@ -110,14 +120,13 @@ Fractionating stills come in six [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. fluid auto-output rate | Max. items per auto-output | Note |
+| Tier | Max. power usage | Augment slots | Max. fluid auto-output rate | Max. items per auto-output |
 |---
 | Basic | 20 RF/t | 0 | 100 mB/t | 8 |
 | Hardened | 30 RF/t | 1 | 300 mB/t | 16 |
 | Reinforced | 40 RF/t | 2 | 600 mB/t | 28 |
 | Signalum | 50 RF/t | 3 | 1000 mB/t | 44 |
-| Resonant | 60 RF/t | 4 | 1500 mB/t | 64 |
-| Creative | 60 RF/t | 4 | 1500 mB/t | 64 | Only obtainable in creative mode. |
+| Resonant / Creative | 60 RF/t | 4 | 1500 mB/t | 64 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
@@ -127,8 +136,11 @@ Augmentation
 ------------
 
 A fractionating still can have [augments](/docs/augments/) installed to improve
-certain properties or to change how it works. Augments can be installed in the
-Augmentation tab in a still's GUI.
+certain properties or to change how it works. The amount of augments that can be
+installed depends on the machine's [tier](#tiers). A basic still cannot be
+augmented.
+
+Augments can be installed in the Augmentation tab in a still's GUI.
 
 {% include augment-table.html augments=page.augments %}
 

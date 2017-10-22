@@ -32,6 +32,11 @@ can also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 Usage
 -----
 
+### Placement
+When placed, a nullifier faces the player. It can face any of the four cardinal
+directions, and can be rotated using a [crescent hammer](/docs/crescent-hammer/)
+or similar.
+
 ### Operation
 When a nullifier receives items or fluids, they are instantly destroyed. Items
 and fluids can be supplied to a nullifier manually or automatically.

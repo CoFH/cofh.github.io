@@ -34,6 +34,11 @@ item. It can also be mined using a
 Usage
 -----
 
+### Placement
+When placed, an aqueous accumulator faces the player. It can face any of the
+four cardinal directions, and can be rotated using a [crescent
+hammer](/docs/crescent-hammer/) or similar.
+
 ### Operation
 When placed between at least two [water](https://minecraft.gamepedia.com/Water)
 source blocks, an aqueous accumulator will start producing water. The rate at
@@ -68,8 +73,9 @@ through its sides. Every side of an aqueous accumulator may be configured to be
 able to output water.
 
 An aqueous accumulator can automatically transfer water out of any configured
-output sides. This is called auto-output, and occurs whenever there is water
-inside the aqueous accumulator.
+output sides. This is called auto-output, and occurs every 40 ticks (2 seconds),
+before more water is produced. Up to 2000 mB of water can be transferred at a
+time.
 
 Which sides can output water and whether auto-output is enabled can be
 configured using the Configuration tab in the device's GUI.

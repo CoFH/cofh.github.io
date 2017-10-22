@@ -29,6 +29,11 @@ item. It can also be mined using a
 Usage
 -----
 
+### Placement
+When placed, a thermal mediator faces the player. It can face any of the four
+cardinal directions, and can be rotated using a [crescent
+hammer](/docs/crescent-hammer/) or similar.
+
 ### Operation
 When a fluid [coolant](/docs/coolants/) is supplied to a thermal mediator, it
 will begin consuming it to speed up any adjacent [machines](/docs/machines/) and

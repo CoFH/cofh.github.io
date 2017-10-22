@@ -58,7 +58,8 @@ Obtaining
 A placed magma crucible can be instantly picked up by dismantling it with a
 [crescent hammer](/docs/crescent-hammer/). Its configuration is preserved in the
 item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this is quite slow.
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
+slower.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -71,6 +72,11 @@ upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
 
 Usage
 -----
+
+### Placement
+When placed, a magma crucible faces the player. It can face any of the four
+cardinal directions, and can be rotated using a [crescent
+hammer](/docs/crescent-hammer/) or similar.
 
 ### Processing
 When items are placed in a magma crucible's input slot, the machine will start
@@ -96,6 +102,10 @@ whenever there is a fluid in the output tank. It can also transfer items from
 adjacent inventories into any sides that directly correspond to its input slot.
 This is called auto-input, and occurs whenever the machine finishes processing
 an item, or every 32 ticks (1.6 seconds) if the machine is inactive.
+
+A basic magma crucible can automatically transfer up to 8 items at a time, and
+can automatically output fluids at a maximum rate of 100 mB/t. These amounts can
+be increased by upgrading the machine to a higher [tier](#tiers).
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the
@@ -140,14 +150,13 @@ Magma crucibles come in six [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid auto-output rate | Note |
+| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid auto-output rate |
 |---
 | Basic | 50 RF/t | 0 | 8 | 100 mB/t |
 | Hardened | 75 RF/t | 1 | 16 | 300 mB/t |
 | Reinforced | 100 RF/t | 2 | 28 | 600 mB/t |
 | Signalum | 125 RF/t | 3 | 44 | 1000 mB/t |
-| Resonant | 150 RF/t | 4 | 64 | 1500 mB/t |
-| Creative | 150 RF/t | 4 | 64 | 1500 mB/t | Only obtainable in creative mode. |
+| Resonant / Creative | 150 RF/t | 4 | 64 | 1500 mB/t |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
@@ -157,8 +166,11 @@ Augmentation
 ------------
 
 A magma crucible can have [augments](/docs/augments/) installed to improve
-certain properties or to change how it works. Augments can be installed in the
-Augmentation tab in a crucible's GUI.
+certain properties or to change how it works. The amount of augments that can be
+installed depends on the machine's [tier](#tiers). A basic crucible cannot be
+augmented.
+
+Augments can be installed in the Augmentation tab in a crucible's GUI.
 
 {% include augment-table.html augments=page.augments %}
 

@@ -149,7 +149,8 @@ Obtaining
 A placed pulverizer can be instantly picked up by dismantling it with a
 [crescent hammer](/docs/crescent-hammer/). Its configuration is preserved in the
 item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this is quite slow.
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
+slower.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -162,6 +163,11 @@ upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
 
 Usage
 -----
+
+### Placement
+When placed, a pulverizer faces the player. It can face any of the four cardinal
+directions, and can be rotated using a [crescent hammer](/docs/crescent-hammer/)
+or similar.
 
 ### Processing
 When items are placed in a pulverizer's input slot, the machine will start
@@ -192,6 +198,9 @@ transfer items from adjacent inventories into any sides that directly correspond
 to its input slot. This is called auto-input. Auto-output and auto-input occur
 whenever the machine finishes processing an item, or every 32 ticks (1.6
 seconds) if the machine is inactive.
+
+A basic pulverizer can automatically transfer up to 8 items at a time. This
+amount can be increased by upgrading the machine to a higher [tier](#tiers).
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the
@@ -236,14 +245,13 @@ Pulverizers come in six [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Note |
+| Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
 |---
 | Basic | 20 RF/t | 0 | 8 |
 | Hardened | 30 RF/t | 1 | 16 |
 | Reinforced | 40 RF/t | 2 | 28 |
 | Signalum | 50 RF/t | 3 | 44 |
-| Resonant | 60 RF/t | 4 | 64 |
-| Creative | 60 RF/t | 4 | 64 | Only obtainable in creative mode. |
+| Resonant / Creative | 60 RF/t | 4 | 64 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
@@ -253,8 +261,11 @@ Augmentation
 ------------
 
 A pulverizer can have [augments](/docs/augments/) installed to improve certain
-properties or to change how it works. Augments can be installed in the
-Augmentation tab in a pulverizer's GUI.
+properties or to change how it works. The amount of augments that can be
+installed depends on the machine's [tier](#tiers). A basic pulverizer cannot be
+augmented.
+
+Augments can be installed in the Augmentation tab in a pulverizer's GUI.
 
 {% include augment-table.html augments=page.augments %}
 
