@@ -4,7 +4,8 @@ nav: thermal-expansion
 ---
 
 **Dynamos** are blocks that generate [Redstone Flux](/docs/redstone-flux/) by
-consuming various kinds of fuel.
+consuming various kinds of fuel. They can be [upgraded](/docs/tiers/) and
+[augmented](/docs/augments/).
 
 
 List of dynamos
@@ -14,7 +15,7 @@ List of dynamos
 <div class="uk-overflow-container">
 | Dynamo | Fuel type |
 |---
-| [Steam Dynamo](/docs/steam-dynamo/) | [Water](https://minecraft.gamepedia.com/Water) and solid fuel, or [steam](/docs/steam/) |
+| [Steam Dynamo](/docs/steam-dynamo/) | [Steam](/docs/steam/) ([water](https://minecraft.gamepedia.com/Water) and solid fuel) |
 | [Magmatic Dynamo](/docs/magmatic-dynamo/) | Hot fluids |
 | [Compression Dynamo](/docs/compression-dynamo/) | Fluid fuel and coolant |
 | [Reactant Dynamo](/docs/reactant-dynamo/) | Fluid fuel and solid reactant |

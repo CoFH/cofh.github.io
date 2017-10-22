@@ -9,7 +9,9 @@ machine-power:
 machine-secondary:
   name: Auxiliary Sieve
   url: augment-auxiliary-sieve/
-  installed-in: '<a href="/docs/machines/">Machines</a> with<br />secondary outputs'
+  installed-in: >
+    <a href="/docs/machines/">Machines</a> with<br />
+    secondary outputs
   description: >
     Increases the chance for a machine to produce secondary outputs. However,
     the amount of energy required per operation is also increased. Can be
@@ -18,7 +20,9 @@ machine-secondary-null:
   name: Nullification Chamber
   url: augment-nullification-chamber/
   animated: true
-  installed-in: '<a href="/docs/machines/">Machines</a> with<br />secondary outputs'
+  installed-in: >
+    <a href="/docs/machines/">Machines</a> with<br />
+    secondary outputs
   description: >
     Destroys excess secondary outputs when a machine's secondary output slot is
     full, allowing it to keep working.
@@ -47,12 +51,10 @@ machine-furnace-pyrolysis:
     Allows for a redstone furnace to process various plant-based materials into
     <a href="https://minecraft.gamepedia.com/Charcoal">charcoal</a>, and <a
     href="https://minecraft.gamepedia.com/Coal">coal</a> into <a
-    href="/docs/thermal-foundation/items/materials/other/coal-coke/">coal
-    coke</a>. It also produces <a
-    href="/docs/thermal-foundation/fluids/fuel/creosote-oil/">creosote oil</a>
-    as a byproduct when installed. However, when installed, a redstone furnace
-    can only process these items and its maximum power usage (speed) is reduced
-    by a factor of 10.
+    href="/docs/coal-coke/">coal coke</a>. It also produces <a
+    href="/docs/creosote-oil/">creosote oil</a> as a byproduct when installed.
+    However, when installed, a redstone furnace can only process these items and
+    its maximum power usage (speed) is reduced by a factor of 10.
 machine-pulverizer-petrotheum:
   name: Tectonic Initiator
   url: augment-tectonic-initiator/
@@ -60,9 +62,8 @@ machine-pulverizer-petrotheum:
   installed-in: '<a href="/docs/pulverizer/">Pulverizer</a>'
   description: >
     Allows for a pulverizer to consume <a
-    href="/docs/thermal-foundation/fluids/elemental/tectonic-petrotheum">tectonic
-    petrotheum</a> to process ores more efficiently. 100 mB of tectonic
-    petrotheum is consumed per ore.
+    href="/docs/tectonic-petrotheum">tectonic petrotheum</a> to process ores
+    more efficiently. 100 mB of tectonic petrotheum is consumed per ore.
 machine-sawmill-tapper:
   name: Resin Funnel
   url: augment-resin-funnel/
@@ -71,8 +72,7 @@ machine-sawmill-tapper:
   description: >
     Allows for a sawmill to extract fluids from <a
     href="https://minecraft.gamepedia.com/Wood">wood</a> while processing it,
-    like <a href="/docs/thermal-foundation/fluids/tree/resin/">resin</a> and <a
-    href="/docs/thermal-foundation/fluids/tree/sap/">sap</a>.
+    like <a href="/docs/resin/">resin</a> and <a href="/docs/sap/">sap</a>.
 machine-smelter-pyrotheum:
   name: Pyro-Concentrator
   url: augment-pyro-concentrator/
@@ -80,9 +80,8 @@ machine-smelter-pyrotheum:
   installed-in: '<a href="/docs/induction-smelter/">Induction Smelter</a>'
   description: >
     Allows for an induction smelter to consume <a
-    href="/docs/thermal-foundation/fluids/elemental/blazing-pyrotheum">blazing
-    pyrotheum</a> to process ores more efficiently. 100 mB of blazing pyrotheum
-    is consumed per ore.
+    href="/docs/blazing-pyrotheum">blazing pyrotheum</a> to process ores more
+    efficiently. 100 mB of blazing pyrotheum is consumed per ore.
 machine-insolator-mycelium:
   name: Mycelium Substrate
   url: augment-mycelium-substrate/
@@ -190,3 +189,56 @@ machine-extruder-andesite:
     Allows for an igneous extruder to produce <a
     href="https://minecraft.gamepedia.com/Andesite">andesite</a> instead of <a
     href="https://minecraft.gamepedia.com/Stone">stone</a>.
+dynamo-power:
+  name: Auxiliary Transmission Coil
+  url: augment-auxiliary-transmission-coil/
+  installed-in: 'Any <a href="/docs/dynamos/">dynamo</a>'
+  description: >
+    Increases a dynamo's maximum power output (speed) by 1x its base maximum
+    power output. However, the amount of energy generated from each unit of fuel
+    is decreased. Can be installed multiple times.
+dynamo-efficiency:
+  name: Fuel Catalyzer
+  url: augment-fuel-catalyzer/
+  animated: true
+  installed-in: 'Any <a href="/docs/dynamos/">dynamo</a>'
+  description: >
+    Increases the amount of energy a dynamo generates from each unit of fuel.
+    Can be installed multiple times.
+dynamo-coil-duct:
+  name: Transmission Coil Ducting
+  url: augment-transmission-coil-ducting/
+  installed-in: 'Any <a href="/docs/dynamos/">dynamo</a>'
+  description: >
+    Allows items and fluids to enter a dynamo through its coil, which can
+    normally only emit energy.
+dynamo-throttle:
+  name: Excitation Field Limiter
+  url: augment-excitation-field-limiter/
+  installed-in: 'Any <a href="/docs/dynamos/">dynamo</a>'
+  description: >
+    Lowers the minimum power output of a dynamo to zero, preventing energy loss
+    when it is active and cannot emit the energy it generates.
+dynamo-boiler:
+  name: Boiler Conversion
+  url: augment-boiler-conversion/
+  animated: true
+  installed-in: >
+    <a href="/docs/steam-dynamo/">Steam Dynamo</a> or<br />
+    <a href="/docs/magmatic-dynamo/">Magmatic Dynamo</a> or<br />
+    <a href="/docs/compression-dynamo/">Compression Dynamo</a>
+  description: >
+    Changes an applicable dynamo to produce <a href="/docs/steam/">steam</a>
+    instead of <a href="/docs/redstone-flux/">Redstone Flux</a>, which can then
+    be consumed by a <a href="/docs/steam-dynamo/">steam dynamo</a> with a <a
+    href="/docs/augment-turbine-conversion/">turbine conversion</a> installed.
+    Also indirectly increases the amount of energy generated from each unit of
+    fuel.
+dynamo-steam-turbine:
+  name: Turbine Conversion
+  url: augment-turbine-conversion/
+  installed-in: '<a href="/docs/steam-dynamo/">Steam Dynamo</a>'
+  description: >
+    Changes a steam dynamo to accept <a href="/docs/steam/">steam</a> from
+    external sources. Steam cannot be produced internally when installed. Also
+    increases its maximum power output (speed) by a factor of 4.

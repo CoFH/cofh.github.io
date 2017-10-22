@@ -23,14 +23,14 @@ Obtaining
 ---------
 
 ### Steam Dynamo
-A [steam dynamo](/docs/steam-dynamo/) produces its own
-steam internally by default.
+A [steam dynamo](/docs/steam-dynamo/) produces its own steam internally using
+[water](https://minecraft.gamepedia.com/Water) and solid fuel.
 
 ### Dynamo with Boiler Conversion
 A [steam](/docs/steam-dynamo/), [magmatic](/docs/magmatic-dynamo/) or
 [compression dynamo](/docs/compression-dynamo/) with a [boiler
-conversion](/docs/augment-boiler-conversion/) installed will produce steam
-instead of energy.
+conversion](/docs/augment-boiler-conversion/) installed produces steam instead
+of [Redstone Flux](/docs/redstone-flux/).
 
 ### Fluid Transposer
 {% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
