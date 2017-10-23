@@ -248,6 +248,23 @@ dynamo-magmatic-coolant:
   installed-in: '<a href="/docs/magmatic-dynamo/">Magmatic Dynamo</a>'
   description: >
     Increases a magmatic dynamo's maximum power output (speed) by 3x its base
-    maximum power output, and increases the amount of energy it generates from
-    each unit of fuel. However, a fluid <a href="/docs/coolants/">coolant</a>
-    must be supplied.
+    maximum power output, and greatly increases the amount of energy it
+    generates from each unit of fuel. However, a fluid <a
+    href="/docs/coolants/">coolant</a> must be supplied.
+dynamo-compression-coolant:
+  name: Closed-Loop Cooling
+  url: augment-closed-loop-cooling/
+  installed-in: '<a href="/docs/compression-dynamo/">Compression Dynamo</a>'
+  description: >
+    Changes a compression dynamo to no longer consume <a
+    href="/docs/coolants/">coolant</a>. However, some coolant must be present in
+    the dynamo for it to work.
+dynamo-compression-fuel:
+  name: Ignition Plugs
+  url: augment-ignition-plugs/
+  installed-in: '<a href="/docs/compression-dynamo/">Compression Dynamo</a>'
+  description: >
+    Increases a compression dynamo's maximum power output (speed) by 3x its base
+    maximum power output, and greatly increases the amount of energy it
+    generates from each unit of fuel. However, only <a
+    href="/docs/refined-fuel/">refined fuel</a> can be used as fuel.
