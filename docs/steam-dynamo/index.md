@@ -60,10 +60,11 @@ consuming both to generate [Redstone Flux](/docs/redstone-flux/). Every unit of
 fuel yields a certain amount of energy when consumed. Water is consumed in
 batches of 100 mB to generate 25,000 RF at a time.
 
-The speed at which energy is generated depends on how much power can be emitted,
-and on the dynamo's maximum power output. A basic steam dynamo has a maximum
-power output of 40 RF/t. This can be increased by upgrading the dynamo to a
-higher [tier](#tiers), and by installing certain [augments](#augmentation).
+The speed at which energy is generated and fuel is consumed depends on how much
+power can be emitted, and on the dynamo's maximum power output. A basic steam
+dynamo has a maximum power output of 40 RF/t. This can be increased by upgrading
+the dynamo to a higher [tier](#tiers), and by installing certain
+[augments](#augmentation).
 
 When an active steam dynamo cannot emit the energy it generates, it will keep
 working at its minimum power output (a tenth of its maximum power output). Any
