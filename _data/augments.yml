@@ -268,3 +268,13 @@ dynamo-compression-fuel:
     maximum power output, and greatly increases the amount of energy it
     generates from each unit of fuel. However, only <a
     href="/docs/refined-fuel/">refined fuel</a> can be used as fuel.
+dynamo-reactant-elemental:
+  name: Elemental Catalyzer
+  url: augment-elemental-catalyzer/
+  installed-in: '<a href="/docs/reactant-dynamo/">Reactant Dynamo</a>'
+  description: >
+    Increases a reactant dynamo's maximum power output (speed) by 4x its base
+    maximum power output, and greatly increases the amount of energy it
+    generates from each reaction. However, only elemental reactions can be
+    performed, like between <a href="/docs/blazing-pyrotheum">blazing
+    pyrotheum</a> and <a href="/docs/cryotheum-dust/">cryotheum dust</a>.
