@@ -20,7 +20,7 @@ List of dynamos
 | [Compression Dynamo](/docs/compression-dynamo/) | Fluid fuel and [coolant](/docs/coolants/) |
 | [Reactant Dynamo](/docs/reactant-dynamo/) | Fluid fuel and solid reactant |
 | [Enervation Dynamo](/docs/enervation-dynamo/) | [Redstone](https://minecraft.gamepedia.com/Redstone) and items that hold [Redstone Flux](/docs/redstone-flux/) |
-| [Numismatic Dynamo](/docs/numismatic-dynamo/) | Metal coins and gems |
+| [Numismatic Dynamo](/docs/numismatic-dynamo/) | Currency ([emeralds](https://minecraft.gamepedia.com/Emerald) and metal coins) |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-compress .uk-text-small}
 </div>
 {::options parse_block_html="false" /}

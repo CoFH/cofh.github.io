@@ -636,6 +636,7 @@ thermal-expansion:
             - title: Enervation Dynamo
               url: enervation-dynamo/
             - title: Numismatic Dynamo
+              url: numismatic-dynamo/
         - title: Storage
           items:
             - title: Energy Cell

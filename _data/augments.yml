@@ -278,3 +278,12 @@ dynamo-reactant-elemental:
     generates from each reaction. However, only elemental reactions can be
     performed, like between <a href="/docs/blazing-pyrotheum">blazing
     pyrotheum</a> and <a href="/docs/cryotheum-dust/">cryotheum dust</a>.
+dynamo-numismatic-gem:
+  name: Lapidary Calibration
+  url: augment-lapidary-calibration/
+  installed-in: '<a href="/docs/numismatic-dynamo/">Numismatic Dynamo</a>'
+  description: >
+    Allows a numismatic dynamo to use various gemstones as fuel. Also increases
+    its maximum power output (speed) by 4x its base maximum power output, and
+    greatly increases the amount of energy it generates from each unit of fuel.
+    However, only gemstones can be used as fuel.
