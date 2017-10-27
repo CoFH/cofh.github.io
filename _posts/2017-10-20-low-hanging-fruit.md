@@ -6,10 +6,11 @@ published: true
 ---
 
 So for the past week or so, I've decided to focus on some "low hanging fruit,"
-although it probably isn't really fair to call it that. These are just some of
-the things that I've wanted to add to Thermal Expansion for a while. So on a
-high level, I wanted to tackle two vanilla systems that Thermal Expansion hasn't
-had any interaction with:
+although it probably isn't really fair to call it that.
+
+These are just some of the things that I've wanted to add to Thermal Expansion
+for a while. So on a high level, I wanted to tackle two vanilla systems that
+Thermal Expansion hasn't had any interaction with:
 
 - Brewing
 - Enchanting
