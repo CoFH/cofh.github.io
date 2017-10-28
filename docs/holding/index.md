@@ -20,12 +20,12 @@ Usage
 The following blocks and items can be enchanted with Holding to be able to hold
 more items, fluids or energy:
 
-* [Cache](/docs/cache/)
 * [Energy Cell](/docs/energy-cell/)
 * [Flux Capacitor](/docs/flux-capacitor/)
 * [Portable Tank](/docs/portable-tank/)
-* [Satchel](/docs/satchel/)
+* [Cache](/docs/cache/)
 * [Strongbox](/docs/strongbox/)
+* [Satchel](/docs/satchel/)
 
 ### Thermal Cultivation
 [Watering cans](/docs/watering-can/) can be enchanted with Holding to be able to
