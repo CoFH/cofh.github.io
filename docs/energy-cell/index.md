@@ -57,7 +57,7 @@ hammer](/docs/crescent-hammer/) or similar.
 The front of an energy cell displays roughly how full it is.
 
 ### Input and output
-An energy cell can receive and emit [Redstone Flux](/docs/redstone-flux/)
+A placed energy cell can receive and emit [Redstone Flux](/docs/redstone-flux/)
 through its sides. Which sides can receive or emit energy (or do neither) can be
 configured using the Configuration tab in the energy cell's GUI.
 
@@ -69,8 +69,22 @@ RF/t. This can be increased by upgrading the energy cell to a higher
 When an energy cell is upgraded, or a [redprint](/docs/redprint/)'s contents are
 copied onto it, the configured transmission rates scale with its tier.
 
+### Redstone Flux battery
+An energy cell in item form can be charged with [Redstone
+Flux](/docs/redstone-flux/) using an [energetic
+infuser](/docs/energetic-infuser/) or similar. It can be placed in
+[machines](/docs/machines/) or [enervation dynamos](/docs/enervation-dynamo/) to
+provide them with energy.
+
+An energy cell item can be charged and discharged at the same rates it can
+receive and emit energy when placed.
+
+An energy cell item can store more energy than a [flux
+capacitor](/docs/flux-capacitor/), but cannot charge items in a player's
+inventory.
+
 ### Redstone control
-An energy cell may be configured to respond to
+A placed energy cell may be configured to respond to
 [redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
 of three modes:
 
@@ -89,7 +103,7 @@ The current mode can be set using the Redstone Control tab in the energy cell's
 GUI.
 
 ### Security
-An energy cell can have a [signalum security
+A placed energy cell can have a [signalum security
 lock](/docs/signalum-security-lock/) installed to restrict who can access it.
 
 ### Enchantments
@@ -109,8 +123,8 @@ An energy cell's configuration can be saved on a [redprint](/docs/redprint/) to
 be copied to other energy cells.
 
 ### Light source
-An energy cell that is holding [Redstone Flux](/docs/redstone-flux/) emits a
-light level of between 1 and 8, depending on how full it is.
+A placed energy cell that is holding [Redstone Flux](/docs/redstone-flux/) emits
+a light level of between 1 and 8, depending on how full it is.
 
 
 Tiers
@@ -127,16 +141,7 @@ Energy cells come in six [tiers](/docs/tiers/).
 | Reinforced | 18,000,000 RF | 9,000 RF/t |
 | Signalum | 32,000,000 RF | 16,000 RF/t |
 | Resonant | 50,000,000 RF | 25,000 RF/t |
-| Creative | N/A | 25,000 RF/t | Emits an unlimited amount of energy. |
+| Creative | N/A | 25,000 RF/t | Provides an unlimited amount of energy. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
-
-
-Trivia
-------
-
-* An energy cell in item form is essentially a large handheld [Redstone
-  Flux](/docs/redstone-flux/) battery. It can store more energy than a [flux
-  capacitor](/docs/flux-capacitor/), but cannot charge items in a player's
-  inventory.
