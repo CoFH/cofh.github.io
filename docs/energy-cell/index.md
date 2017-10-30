@@ -69,7 +69,7 @@ RF/t. This can be increased by upgrading the energy cell to a higher
 When an energy cell is upgraded, or a [redprint](/docs/redprint/)'s contents are
 copied onto it, the configured transmission rates scale with its tier.
 
-### Redstone Flux battery
+### Item form
 An energy cell in item form can be charged with [Redstone
 Flux](/docs/redstone-flux/) using an [energetic
 infuser](/docs/energetic-infuser/) or similar. It can be placed in
@@ -125,6 +125,11 @@ be copied to other energy cells.
 ### Light source
 A placed energy cell that is holding [Redstone Flux](/docs/redstone-flux/) emits
 a light level of between 1 and 8, depending on how full it is.
+
+### Redstone comparators
+When placed next to an energy cell, a [redstone
+comparator](https://minecraft.gamepedia.com/Redstone_Comparator) emits a signal
+strength of between 0 and 15, depending on how full the energy cell is.
 
 
 Tiers
