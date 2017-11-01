@@ -15,8 +15,8 @@ understanding of what constitutes good mod design has changed somewhat over the
 years.
 
 So with that in mind, I'd like to take a couple of these posts and talk about
-some mod design concepts that I try to apply to all my work - Consistency and
-Flow. For this post, I want to focus on consistency.
+some mod design concepts that I try to apply to all my work - *Consistency* and
+*Flow*. For this post, I want to focus on consistency.
 
 If you look up consistency on Google, I'm referring here to, "conformity of the
 application of something," meaning the creation of systems of rules and
@@ -40,10 +40,10 @@ Adding inheritance to the mix means that I can skip a LOT of effort duplicating.
 For example, an Induction Smelter and a Pulverizer actually have the *exact same
 tick process*. Here it is:
 
-![Update - Machine](/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/update_machine.png){:style="max-height: 970px"}
+![Update - Machine](/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/update_machine.png){:style="max-height: 620px"}
 
 In fact, everything in Thermal Expansion which is a "machine" works this way.
-What inheritance lets me do is add a twist or extra tiny bit of functionalty
+What inheritance lets me do is add a twist or extra tiny bit of functionality
 without completely copying over a bunch of code. If you're wondering why that is
 such a benefit, consider that if I copy-paste and make an adjustment, I now have
 twice the lines of code to maintain. And if I have a new idea, such as Augments?
@@ -53,7 +53,7 @@ problems in smaller terms. Divide and conquer.
 
 With that rationale in mind, here's the update routine for the Fluid Transposer:
 
-![Update - Transposer](/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/update_transposer.png){:style="max-height: 370px"}
+![Update - Transposer](/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/update_transposer.png){:style="max-height: 210px"}
 
 And basically, that translates into, "If you have a bucket/tank or something of
 that nature, do X. If not, do Y." It just so happens that Y is the exact same
@@ -124,10 +124,11 @@ I should mention at this point that if you've played Thermal Expansion 5+ for
 any length of time, you already know what I mean when I write "device." It's a
 block. You can reconfigure the sides. It can auto-input or auto-output if
 appropriate. No upgrades, no augments, and it doesn't require RF. It might
-interact with the world, and it's going to require Tin to build the frame, and a
-Redstone Servo instead of a Reception Coil. Consistency. And I didn't have to
-write a manual to teach you that[^2]. A few minutes in Creative mode combined
-with some curiosity, tooltips, and JEI, and you're good.
+interact with the world, and it's going to require Copper and Iron to build
+the frame, and a Redstone Servo instead of a Reception Coil. Consistency. And
+I didn't have to write a manual to teach you that[^2]. A few minutes in
+Creative mode combined with some curiosity, tooltips, and JEI, and you're
+good.
 
 So, to summarize - I write code to make systems. Those systems happen to govern
 the behavior of blocks, materials, and gameplay. That makes things easier for me
