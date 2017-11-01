@@ -113,15 +113,15 @@ those parts also changes with the tool - between 2 and 4 parts of different
 types for different tools.
 
 That brings up a point I hinted at initially - consistency does not have to be
-*absolute.* Think about Devices - no Upgrades, no Augments. Dynamos and Machines
+absolute. Think about Devices - no Upgrades, no Augments. Dynamos and Machines
 have both. Cells, Tanks, Caches, and Strongboxes? Upgrades only. For the sake of
 gameplay, that makes it interesting, and removes tedium. Admit it, it would be
-miserable if you had to upgrade *and* augment every block in the mod, and your
+miserable if you had to upgrade AND augment every block in the mod, and your
 inner perfectionist would demand that you do so. It could turn an essentially
 beneficial mechanic into a feeling of unrelenting grind.
 
 I should mention at this point that if you've played Thermal Expansion 5+ for
-any length of time, you already know what I mean when I write *device*. It's a
+any length of time, you already know what I mean when I write "device." It's a
 block. You can reconfigure the sides. It can auto-input or auto-output if
 appropriate. No upgrades, no augments, and it doesn't require RF. It might
 interact with the world, and it's going to require Tin to build the frame, and a
@@ -132,7 +132,7 @@ with some curiosity, tooltips, and JEI, and you're good.
 So, to summarize - I write code to make systems. Those systems happen to govern
 the behavior of blocks, materials, and gameplay. That makes things easier for me
 and allows me to add twists and new features to existing gameplay with a bit
-less effort. For players, *consistency* makes it easier to learn and remember
+less effort. For players, *Consistency* makes it easier to learn and remember
 facets of the mod, and provides a framework where a new player has a much easier
 learning curve.
 
@@ -149,7 +149,7 @@ thanks for reading. :)
 apophenia - false pattern recognition. This is what gives rise to conspiracy
 theories and a large number of logical fallacies.
 
-[2] A manual *is* on the list, I promise. It's a thing I want to do, but I want
+[2] A manual is on the list, I promise. It's a thing I want to do, but I want
 a framework where I can easily add stuff to it and it won't necessarily require
 an actual in-game book. I've just been preoccupied with Thermal Expansion
 features, as the last few weeks attest.
