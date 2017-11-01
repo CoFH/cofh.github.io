@@ -46,16 +46,17 @@ upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
 Usage
 -----
 
+### Manual usage
+Fluids can be put in and taken out of a portable tank using
+[buckets](https://minecraft.gamepedia.com/Buckets) or other items that can hold
+fluids.
+
 ### Input and output
 Fluids can enter and exit a portable tank through its sides.
 
 A portable tank can be configured to automatically emit fluids through the
 bottom using a [crescent hammer](/docs/crescent-hammer/) or similar. When placed
 on top of another portable tank, it will automatically be configured to do this.
-
-Fluids can be manually put in and taken out of a portable tank using
-[buckets](https://minecraft.gamepedia.com/Buckets) or other items that can hold
-fluids.
 
 ### Item form
 A portable tank in item form can be filled and emptied using a [fluid
