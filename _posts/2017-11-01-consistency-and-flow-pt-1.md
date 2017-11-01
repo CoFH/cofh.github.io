@@ -69,7 +69,7 @@ realize. So it's a bit of a head fake. Allow me to elaborate.
 Humans are really good at recognizing patterns. The human brain is a well-tuned
 biological pattern-recognition machine which has evolved over a really long
 time. Don't get too full of yourself - it's a common feature to most animals,
-but humans are especially good at it[1]. Humans are also extremely social
+but humans are especially good at it[^1]. Humans are also extremely social
 creatures, which means that this ability has a number of beneficial implications
 for learning and making sense of a world. This applies in real life, video
 games, and especially an artificially constructed world such as the Minecraft
@@ -126,7 +126,7 @@ block. You can reconfigure the sides. It can auto-input or auto-output if
 appropriate. No upgrades, no augments, and it doesn't require RF. It might
 interact with the world, and it's going to require Tin to build the frame, and a
 Redstone Servo instead of a Reception Coil. Consistency. And I didn't have to
-write a manual to teach you that[2]. A few minutes in Creative mode combined
+write a manual to teach you that[^2]. A few minutes in Creative mode combined
 with some curiosity, tooltips, and JEI, and you're good.
 
 So, to summarize - I write code to make systems. Those systems happen to govern
@@ -145,11 +145,15 @@ thanks for reading. :)
 
 ![Recipe - Enchanter](/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/recipe_enchanter.png){:style="max-height: 124px"}
 
-[1] Humans are actually so good at this that there's a condition known as
-apophenia - false pattern recognition. This is what gives rise to conspiracy
-theories and a large number of logical fallacies.
+---
 
-[2] A manual is on the list, I promise. It's a thing I want to do, but I want
-a framework where I can easily add stuff to it and it won't necessarily require
-an actual in-game book. I've just been preoccupied with Thermal Expansion
-features, as the last few weeks attest.
+[^1]:
+    Humans are actually so good at this that there's a condition known as
+    apophenia - false pattern recognition. This is what gives rise to conspiracy
+    theories and a large number of logical fallacies.
+
+[^2]:
+    A manual is on the list, I promise. It's a thing I want to do, but I want a
+    framework where I can easily add stuff to it and it won't necessarily
+    require an actual in-game book. I've just been preoccupied with Thermal
+    Expansion features, as the last few weeks attest.
