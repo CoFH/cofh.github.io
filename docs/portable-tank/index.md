@@ -101,7 +101,7 @@ Portable tanks come in six [tiers](/docs/tiers/).
 | Reinforced | 180,000 mB |
 | Signalum | 320,000 mB |
 | Resonant | 500,000 mB |
-| Creative | N/A | Provides an unlimited amount of a fluid when filled. |
+| Creative | N/A | Provides an unlimited amount of the fluid it stores. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
