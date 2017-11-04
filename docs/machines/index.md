@@ -1,6 +1,33 @@
 ---
 title: Machines
 nav: thermal-expansion
+image:
+  - alt: Redstone furnace
+    file: thermal-expansion/redstone-furnace.png
+  - alt: Pulverizer
+    file: thermal-expansion/pulverizer.png
+  - alt: Sawmill
+    file: thermal-expansion/sawmill.png
+  - alt: Induction smelter
+    file: thermal-expansion/induction-smelter.png
+  - alt: Phytogenic insolator
+    file: thermal-expansion/phytogenic-insolator.png
+  - alt: Compactor
+    file: thermal-expansion/compactor.png
+  - alt: Magma crucible
+    file: thermal-expansion/magma-crucible.png
+  - alt: Fractionating still
+    file: thermal-expansion/fractionating-still.png
+  - alt: Fluid transposer
+    file: thermal-expansion/fluid-transposer.png
+  - alt: Energetic infuser
+    file: thermal-expansion/energetic-infuser.png
+  - alt: Centrifugal separator
+    file: thermal-expansion/centrifugal-separator.png
+  - alt: Glacial precipitator
+    file: thermal-expansion/glacial-precipitator.png
+  - alt: Igneous extruder
+    file: thermal-expansion/igneous-extruder.png
 redirect_from:
   - /docs/thermal-expansion/materials/machine-frames/
   - /docs/thermal-expansion/machines/

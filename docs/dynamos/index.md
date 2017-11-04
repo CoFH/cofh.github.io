@@ -1,6 +1,19 @@
 ---
 title: Dynamos
 nav: thermal-expansion
+image:
+  - alt: Steam dynamo
+    file: thermal-expansion/dynamo-steam-rf.png
+  - alt: Magmatic dynamo
+    file: thermal-expansion/dynamo-magmatic-rf.png
+  - alt: Compression dynamo
+    file: thermal-expansion/dynamo-compression-rf.png
+  - alt: Reactant dynamo
+    file: thermal-expansion/dynamo-reactant-rf.png
+  - alt: Enervation dynamo
+    file: thermal-expansion/dynamo-enervation-rf.png
+  - alt: Numismatic dynamo
+    file: thermal-expansion/dynamo-numismatic-rf.png
 ---
 
 **Dynamos** are blocks that generate [Redstone Flux](/docs/redstone-flux/) by

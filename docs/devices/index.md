@@ -1,6 +1,19 @@
 ---
 title: Devices
 nav: thermal-expansion
+image:
+  - alt: Aqueous accumulator
+    file: thermal-expansion/aqueous-accumulator.png
+  - alt: Nullifier
+    file: thermal-expansion/nullifier.png
+  - alt: Thermal mediator
+    file: thermal-expansion/thermal-mediator.png
+  - alt: Arboreal extractor
+    file: thermal-expansion/arboreal-extractor.png
+  - alt: Aquatic entangler
+    file: thermal-expansion/aquatic-entangler.png
+  - alt: Item allocator
+    file: thermal-expansion/item-allocator.png
 frame-recipes:
   crafting:
     - frame-device
