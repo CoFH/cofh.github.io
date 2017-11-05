@@ -1,6 +1,15 @@
 ---
 title: Conversion Kits
 nav: thermal-expansion
+image:
+  - alt: Reinforced conversion kit
+    file: thermal-expansion/conversion-kit-reinforced.png
+  - alt: Signalum conversion kit
+    file: thermal-expansion/conversion-kit-signalum.png
+  - alt: Resonant conversion kit
+    file: thermal-expansion/conversion-kit-resonant.png
+  - alt: Creative conversion kit
+    file: thermal-expansion/conversion-kit-creative.png
 redirect_from:
   - /docs/thermal-expansion/tiers-and-augments/conversion-kits/
   - /docs/thermal-expansion/tiers/conversion-kits/
@@ -14,15 +23,26 @@ recipes:
     - conversion-kit-resonant-3
 ---
 
-A **Conversion Kit** is a combination of different [Upgrade
-Kits](/docs/upgrade-kits/) added by Thermal Expansion. It can be used to convert
-a tier that is lower than the conversion kit to the tier of the conversion kit.
+**Conversion kits** are items used to fully upgrade blocks to a given
+[tier](/docs/tiers/). They can be obtained by combining [upgrade
+kits](/docs/upgrade-kits/).
 
-A Conversion Kit is applied by right clicking on the machine you want to
-upgrade.
+A creative conversion kit converts a block to its
+[creative](/docs/tiers/#list-of-tiers) version. It cannot be legitimately
+obtained in survival mode.
+
 
 Obtaining
 ---------
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+
+
+Usage
+-----
+
+### Upgrading blocks
+When used on an [upgradable block](/docs/tiers/#upgrading), a conversion kit
+fully upgrades a block to a certain tier. This works regardless of the block's
+current tier.

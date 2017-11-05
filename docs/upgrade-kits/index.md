@@ -1,6 +1,15 @@
 ---
 title: Upgrade Kits
 nav: thermal-expansion
+image:
+  - alt: Hardened upgrade kit
+    file: thermal-expansion/upgrade-kit-hardened.png
+  - alt: Reinforced upgrade kit
+    file: thermal-expansion/upgrade-kit-reinforced.png
+  - alt: Signalum upgrade kit
+    file: thermal-expansion/upgrade-kit-signalum.png
+  - alt: Resonant upgrade kit
+    file: thermal-expansion/upgrade-kit-resonant.png
 redirect_from:
   - /docs/thermal-expansion/tiers-and-augments/upgrade-kits/
   - /docs/thermal-expansion/tiers/upgrade-kits/
@@ -10,17 +19,38 @@ recipes:
     - upgrade-kit-reinforced
     - upgrade-kit-signalum
     - upgrade-kit-resonant
+usage-recipes:
+  crafting:
+    - conversion-kit-reinforced
+    - conversion-kit-signalum-1
+    - conversion-kit-signalum-2
+    - conversion-kit-resonant-1
+    - conversion-kit-resonant-2
+    - conversion-kit-resonant-3
 ---
 
-An **Upgrade Kit** is an upgrade for machines added by Thermal Expansion. An
-upgrade kit can only be used to upgrade one tier. Upgrade Kits can be combined
-to make a [Conversion Kit](/docs/conversion-kits/) that can upgrade multiple
-tiers at once.
+**Upgrade kits** are items used to incrementally upgrade blocks to higher
+[tiers](/docs/tiers/).
 
-An Upgrade Kit is applied by right clicking on the machine you want to upgrade.
 
 Obtaining
 ---------
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+
+
+Usage
+-----
+
+### Upgrading blocks
+When used on an [upgradable block](/docs/tiers/#upgrading), an upgrade kit
+upgrades the block by one [tier](/docs/tiers/). This only works on blocks that
+are at the immediately preceding tier.
+
+### Crafting ingredients
+Upgrade kits can be combined into [conversion kits](/docs/conversion-kits/),
+which fully upgrade blocks to a certain [tier](/docs/tiers/) regardless of their
+current tier.
+
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
