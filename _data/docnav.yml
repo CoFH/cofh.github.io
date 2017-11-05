@@ -664,6 +664,7 @@ thermal-expansion:
             - title: Machine
               items:
                 - title: Auxiliary Reception Coil
+                  url: augment-auxiliary-reception-coil/
                 - title: Auxiliary Sieve
                 - title: Nullification Chamber
                 - title: Trivection Chamber

@@ -3,9 +3,9 @@ machine-power:
   url: augment-auxiliary-reception-coil/
   installed-in: 'Any <a href="/docs/machines/">machine</a>'
   description: >
-    Increases a machine's maximum power usage (speed) by 1x its base maximum
-    power usage. However, the amount of energy required per operation is also
-    increased. Can be installed multiple times.
+    Increases a machine's maximum power usage (speed) by one time its base
+    maximum power usage. However, the amount of energy required per operation is
+    also increased. Can be installed multiple times.
 machine-secondary:
   name: Auxiliary Sieve
   url: augment-auxiliary-sieve/
@@ -197,9 +197,9 @@ dynamo-power:
   url: augment-auxiliary-transmission-coil/
   installed-in: 'Any <a href="/docs/dynamos/">dynamo</a>'
   description: >
-    Increases a dynamo's maximum power output (speed) by 1x its base maximum
-    power output. However, the amount of energy generated from each unit of fuel
-    is decreased. Can be installed multiple times.
+    Increases a dynamo's maximum power output (speed) by one time its base
+    maximum power output. However, the amount of energy generated from each unit
+    of fuel is decreased. Can be installed multiple times.
 dynamo-efficiency:
   name: Fuel Catalyzer
   url: augment-fuel-catalyzer/
