@@ -2,13 +2,13 @@
 layout: null
 ---
 
-var pages = [{% for page in site.pages %}
-    {
-        title: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}",
-        value: "{% if page.search_title %}{{ page.search_title }}{% else %}{{ page.title }}{% endif %}",
+var pages = [
+    {% for page in site.pages %}{% if page.title %}{
+        title: "{{ page.title }}",
+        value: "{{ page.title }}",
         url: "{{ page.url }}"
-    }{% if forloop.last %}{% else %},{% endif %}
-{% endfor %}];
+    }{% if forloop.last %}{% else %},{% endif %}{% endif %}{% endfor %}
+];
 
 $(window).on('hashchange load', function() {
     var $anchor = $(window.location.hash);
