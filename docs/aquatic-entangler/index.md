@@ -46,13 +46,13 @@ default. This speed can be increased by various factors.
 
 | Factor | Speed multiplier |
 |---
-| Placed in a [river](https://minecraft.gamepedia.com/River) | x2 |
-| Placed in an [ocean](https://minecraft.gamepedia.com/Ocean) | x3 |
-| Surrounded by 10-20 water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | x2 |
-| Surrounded by 20-30 water blocks | x2 |
-| Surrounded by 20-30 water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | x3 |
-| Surrounded by 30 or more water blocks | x3 |
-| Surrounded by 30 or more water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | x4 |
+| Placed in a [river](https://minecraft.gamepedia.com/River) | × 2 |
+| Placed in an [ocean](https://minecraft.gamepedia.com/Ocean) | × 3 |
+| Surrounded by 10-20 water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | × 2 |
+| Surrounded by 20-30 water blocks | × 2 |
+| Surrounded by 20-30 water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | × 3 |
+| Surrounded by 30 or more water blocks | × 3 |
+| Surrounded by 30 or more water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | × 4 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 The amount of fish an aquatic entangler catches per cycle can be increased by
@@ -61,9 +61,9 @@ for 8 cycles per item.
 
 | Bait type | Production multiplier |
 |---
-| [Aqua-Chow](/docs/aqua-chow/) | 2x |
-| [Rich Aqua-Chow](/docs/rich-aqua-chow/) | 3x |
-| [Fluxed Aqua-Chow](/docs/fluxed-aqua-chow/) | 4x |
+| [Aqua-Chow](/docs/aqua-chow/) | × 2 |
+| [Rich Aqua-Chow](/docs/rich-aqua-chow/) | × 3 |
+| [Fluxed Aqua-Chow](/docs/fluxed-aqua-chow/) | × 4 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Input and output

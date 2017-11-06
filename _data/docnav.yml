@@ -666,6 +666,7 @@ thermal-expansion:
                 - title: Auxiliary Reception Coil
                   url: augment-auxiliary-reception-coil/
                 - title: Auxiliary Sieve
+                  url: augment-auxiliary-sieve/
                 - title: Nullification Chamber
                 - title: Trivection Chamber
                 - title: Flux Anodizers

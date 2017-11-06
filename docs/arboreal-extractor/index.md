@@ -48,9 +48,9 @@ device's production for 16 cycles per item.
 
 | Fertilizer type | Production multiplier |
 |---
-| [Phyto-Gro](/docs/phyto-gro/) | 2x |
-| [Rich Phyto-Gro](/docs/rich-phyto-gro/) | 3x |
-| [Fluxed Phyto-Gro](/docs/fluxed-phyto-gro/) | 4x |
+| [Phyto-Gro](/docs/phyto-gro/) | × 2 |
+| [Rich Phyto-Gro](/docs/rich-phyto-gro/) | × 3 |
+| [Fluxed Phyto-Gro](/docs/fluxed-phyto-gro/) | × 4 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Input and output

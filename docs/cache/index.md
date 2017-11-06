@@ -76,10 +76,10 @@ capacity.
 
 | Holding level | Capacity multiplier |
 |---
-| I | 1.5x |
-| II | 2x |
-| III | 2.5x |
-| IV | 3x |
+| I | × 1.5 |
+| II | × 2 |
+| III | × 2.5 |
+| IV | × 3 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Redstone comparators
