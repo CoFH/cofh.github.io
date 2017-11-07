@@ -13,7 +13,7 @@ recipes:
 
 An **auxiliary sieve** is an [augment](/docs/augments/) that increases the
 chances of an applicable [machine](/docs/machines/) producing a secondary
-output.
+product.
 
 
 Obtaining
@@ -32,34 +32,36 @@ An auxiliary sieve can be installed in the Augmentation tab in a
 its effects.
 
 Auxiliary sieves can only be installed in machines that can produce secondary
-outputs, like [pulverizers](/docs/pulverizer/) and [induction
+products, like [pulverizers](/docs/pulverizer/) and [induction
 smelters](/docs/induction-smelter/).
 
 ### Effects
-An installed auxiliary sieve increases the chances of a
-[machine](/docs/machines/) producing a secondary output. The secondary chance
-increases further when multiple auxiliary sieves are installed.
+Installed auxiliary sieves increase the chances of a [machine](/docs/machines/)
+producing a secondary product. However, they also increase the amount of energy
+required per operation.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed amount | Chance multiplier (approx.) | Chance multiplier (exact) |
+| Installed amount | Chance multiplier (approx.) | Chance multiplier (exact) | Energy increase |
 |---
-| 1 | × 1.18 | × 1 3/17 |
-| 2 | × 1.43 | × 1 3/7 |
-| 3 | × 1.82 | × 1 9/11 |
-| 4 | × 2.5 | × 2 1/2 |
+| 1 | × 1.18 | × 1 3/17 | + 10% |
+| 2 | × 1.43 | × 1 3/7 | + 20% |
+| 3 | × 1.82 | × 1 9/11 | + 30% |
+| 4 | × 2.5 | × 2 1/2 | + 40% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
 
 For example, if a machine is processing something that has a 35% chance of
-producing a secondary output, and two auxiliary sieves are installed, the chance
-is multiplied by approximately 1.43, raising it to 50%.
+producing a secondary product, and two auxiliary sieves are installed, the
+chance is multiplied by approximately 1.43, raising it to 50%.
 
-If the chance for a secondary output is raised to more than 100%, the secondary
-output is guaranteed to be produced at least once. The remainder of the chance
-(e.g. 25% for a 125% chance) becomes the chance of the secondary output being
+If the chance for a secondary product is raised to above 100%, the secondary
+product is guaranteed to be produced at least once. The remainder of the chance
+(e.g. 25% for a 125% chance) becomes the chance of the secondary product being
 produced twice.
 
-As a penalty, each installed auxiliary sieve increases the amount of energy
-required per operation by 10% of the original amount.
+If auxiliary sieves are installed together with [auxiliary reception
+coils](/docs/augment-auxiliary-reception-coil/), their energy increase
+percentages are added together before being applied to the amount of energy
+required per operation.
