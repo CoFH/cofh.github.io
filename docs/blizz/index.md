@@ -11,7 +11,7 @@ redirect_from:
 
 **Blizzes** are hostile mobs found in cold
 [biomes](https://minecraft.gamepedia.com/Biome). They drop [blizz
-rods](/docs/blizz-rod).
+rods](/docs/blizz-rod/).
 
 
 Appearance

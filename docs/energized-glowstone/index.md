@@ -103,8 +103,7 @@ wart](https://minecraft.gamepedia.com/Nether_Wart),
 [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [blaze
 powder](https://minecraft.gamepedia.com/Blaze_Powder) or [ghast
 tears](https://minecraft.gamepedia.com/Ghast_Tear) in a [reactant
-dynamo](/docs/thermal-expansion/dynamos/reactant-dynamo) to generate varying
-amounts of energy.
+dynamo](/docs/reactant-dynamo/) to generate varying amounts of energy.
 
 
 Trivia

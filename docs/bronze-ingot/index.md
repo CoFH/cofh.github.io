@@ -69,16 +69,14 @@ usage-recipes:
 ![Bronze ingot](/assets/images/thermal-foundation/ingot-bronze.png){:style="height: 128px"}
 
 
-**Bronze ingots** are raw materials made from
-[copper](/docs/thermal-foundation/items/materials/ingots/copper-ingot) and
+**Bronze ingots** are raw materials made from [copper](/docs/copper-ingot/) and
 [tin](/docs/tin-ingot/).
 
 
 Obtaining
 ---------
 
-Bronze can be obtained by combining
-[copper](/docs/thermal-foundation/items/materials/ingots/copper-ingot) and
+Bronze can be obtained by combining [copper](/docs/copper-ingot/) and
 [tin](/docs/tin-ingot/), either by crafting [bronze blend](/docs/bronze-blend/)
 or by using an [induction smelter](/docs/induction-smelter/).
 

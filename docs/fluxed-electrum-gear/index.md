@@ -8,7 +8,9 @@ recipes:
     - 'gear-fluxed-electrum'
 ---
 
-A **Fluxed Electrum Gear** is an item added by [Redstone Arsenal](/docs/redstone-arsenal/). It is the gear form of the [Fluxed Electrum Ingot](/docs/redstone-arsenal/materials/fluxed-electrum-ingot).
+A **Fluxed Electrum Gear** is an item added by [Redstone
+Arsenal](/docs/redstone-arsenal/). It is the gear form of the [Fluxed Electrum
+Ingot](/docs/fluxed-electrum-ingot/).
 
 Obtaining
 ---------

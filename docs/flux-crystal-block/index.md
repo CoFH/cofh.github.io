@@ -8,7 +8,9 @@ recipes:
     - 'storage-block-flux-crystal'
 ---
 
-A **Flux Crystal Block** is a block added by [Redstone Arsenal](/docs/redstone-arsenal/). It is the block form of the [Flux Crystal](/docs/redstone-arsenal/materials/flux-crystal).
+A **Flux Crystal Block** is a block added by [Redstone
+Arsenal](/docs/redstone-arsenal/). It is the block form of the [Flux
+Crystal](/docs/flux-crystal/).
 
 Obtaining
 ---------
