@@ -3,29 +3,29 @@ machine-power:
   url: augment-auxiliary-reception-coil/
   installed-in: 'Any <a href="/docs/machines/">machine</a>'
   description: >
-    Increases a machine's maximum power usage (speed) by one time its base
-    maximum power usage. However, the amount of energy required per operation is
-    also increased. Can be installed multiple times.
+    Increases a machine's maximum power usage (speed). However, also increases
+    the amount of energy required per operation. Can be installed multiple
+    times.
 machine-secondary:
   name: Auxiliary Sieve
   url: augment-auxiliary-sieve/
   installed-in: >
     <a href="/docs/machines/">Machines</a> with<br />
-    secondary outputs
+    secondary products
   description: >
-    Increases the chance for a machine to produce secondary outputs. However,
-    the amount of energy required per operation is also increased. Can be
-    installed multiple times.
+    Increases the chances of a machine producing a secondary product. However,
+    also increases the amount of energy required per operation. Can be installed
+    multiple times.
 machine-secondary-null:
   name: Nullification Chamber
   url: augment-nullification-chamber/
   animated: true
   installed-in: >
     <a href="/docs/machines/">Machines</a> with<br />
-    secondary outputs
+    secondary products
   description: >
-    Destroys excess secondary outputs when a machine's secondary output slot is
-    full, allowing it to keep working.
+    Destroys excess secondary products when a machine's secondary output
+    slot/tank is full, allowing it to keep working.
 machine-furnace-food:
   name: Trivection Chamber
   url: augment-trivection-chamber/

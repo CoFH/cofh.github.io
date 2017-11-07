@@ -668,8 +668,11 @@ thermal-expansion:
                 - title: Auxiliary Sieve
                   url: augment-auxiliary-sieve/
                 - title: Nullification Chamber
+                  url: augment-nullification-chamber/
                 - title: Trivection Chamber
+                  url: augment-trivection-chamber/
                 - title: Flux Anodizers
+                  url: augment-flux-anodizers/
                 - title: Pyrolytic Conversion
                 - title: Tectonic Initiator
                 - title: Resin Funnel
