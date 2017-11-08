@@ -40,6 +40,14 @@ recipe set consists only of cooking
 [food](https://minecraft.gamepedia.com/Food), though with double the amount of
 output.
 
+A trivection chamber also increases the amount of energy required per operation
+by 50%. For convenience, the energy amounts shown below are the resulting
+amounts after this increase is applied. The true energy amounts are the listed
+amounts divided by 1.5. When other augments are installed that increase the
+amount of energy required per operation, all the energy increase percentages are
+added together before being applied to the true amount of energy, including the
+50% from this augment.
+
 
 Recipes
 -------

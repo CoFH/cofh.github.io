@@ -4,8 +4,6 @@ nav: thermal-expansion
 image:
   - alt: Flux anodizers augment
     file: thermal-expansion/augment-machine-furnace-ore.png
-redirect_from:
-  - /docs/thermal-expansion/augments/redstone-furnace-specialization/
 recipes:
   crafting:
     - augment-machine-furnace-ore
@@ -44,6 +42,14 @@ An installed flux anodizers augment replaces a [redstone
 furnace](/docs/redstone-furnace/)'s recipe set with [its own](#recipes). This
 recipe set consists only of smelting metal ores into ingots, though with double
 the amount of output.
+
+A flux anodizers augment also increases the amount of energy required per
+operation by 50%. For convenience, the energy amounts shown below are the
+resulting amounts after this increase is applied. The true energy amounts are
+the listed amounts divided by 1.5. When other augments are installed that
+increase the amount of energy required per operation, all the energy increase
+percentages are added together before being applied to the true amount of
+energy, including the 50% from this augment.
 
 
 Recipes

@@ -61,7 +61,6 @@ product is guaranteed to be produced at least once. The remainder of the chance
 (e.g. 25% for a 125% chance) becomes the chance of the secondary product being
 produced twice.
 
-If auxiliary sieves are installed together with [auxiliary reception
-coils](/docs/augment-auxiliary-reception-coil/), their energy increase
-percentages are added together before being applied to the amount of energy
-required per operation.
+If auxiliary sieves are installed together with other augments that increase the
+amount of energy required per operation, their energy increase percentages are
+added together before being applied to the amount of energy.

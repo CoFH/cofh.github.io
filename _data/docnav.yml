@@ -674,6 +674,7 @@ thermal-expansion:
                 - title: Flux Anodizers
                   url: augment-flux-anodizers/
                 - title: Pyrolytic Conversion
+                  url: augment-pyrolytic-conversion/
                 - title: Tectonic Initiator
                 - title: Resin Funnel
                 - title: Pyro-Concentrator

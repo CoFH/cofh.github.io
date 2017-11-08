@@ -48,7 +48,6 @@ they also increase the amount of energy required per operation.
 </div>
 {::options parse_block_html="false" /}
 
-If auxiliary reception coils are installed together with [auxiliary
-sieves](/docs/augment-auxiliary-sieve/), their energy increase percentages are
-added together before being applied to the amount of energy required per
-operation.
+If auxiliary reception coils are installed together with other augments that
+increase the amount of energy required per operation, their energy increase
+percentages are added together before being applied to the amount of energy.
