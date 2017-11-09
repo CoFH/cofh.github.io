@@ -62,9 +62,9 @@ machine-pulverizer-petrotheum:
   animated: true
   installed-in: '<a href="/docs/pulverizer/">Pulverizer</a>'
   description: >
-    A specialization that allows for a pulverizer to consume <a
-    href="/docs/tectonic-petrotheum">tectonic petrotheum</a> to process ores
-    more efficiently. 100 mB of tectonic petrotheum is consumed per ore.
+    A specialization that allows for a pulverizer to process ores more
+    efficiently using <a href="/docs/tectonic-petrotheum">tectonic
+    petrotheum</a>. 100 mB of tectonic petrotheum is consumed per ore.
 machine-sawmill-tapper:
   name: Resin Funnel
   url: augment-resin-funnel/
