@@ -17,8 +17,6 @@ recipes:
     - pyrotheum-dust-nickel
     - ingot-nickel-from-nuggets
     - ingot-nickel-from-block
-  redstone-furnace-ore:
-    - ore-processing-nickel
   smelter:
     - ore-processing-sand-nickel
     - ore-processing-rich-slag-nickel
@@ -40,11 +38,6 @@ recipes:
     - recycling-chestplate-nickel
     - recycling-leggings-nickel
     - recycling-boots-nickel
-  smelter-pyrotheum:
-    - ore-processing-sand-nickel
-    - ore-processing-rich-slag-nickel
-    - ore-processing-cinnabar-nickel
-    - ore-processing-cinnabar-iron
 usage-recipes:
   crafting:
     - petrotheum-ingot-nickel
@@ -96,14 +89,8 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
-### Redstone Furnace with Flux Anodizers
-{% include recipe-table.html type='redstone-furnace-ore' recipes=page.recipes.redstone-furnace-ore no-result=true %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.recipes.smelter-pyrotheum no-result=true %}
 
 
 Usage

@@ -15,8 +15,6 @@ recipes:
     - pyrotheum-dust-lead
     - ingot-lead-from-nuggets
     - ingot-lead-from-block
-  redstone-furnace-ore:
-    - ore-processing-lead
   smelter:
     - ore-processing-sand-lead
     - ore-processing-rich-slag-lead
@@ -38,11 +36,6 @@ recipes:
     - recycling-chestplate-lead
     - recycling-leggings-lead
     - recycling-boots-lead
-  smelter-pyrotheum:
-    - ore-processing-sand-lead
-    - ore-processing-rich-slag-lead
-    - ore-processing-cinnabar-lead
-    - ore-processing-cinnabar-silver
 usage-recipes:
   crafting:
     - petrotheum-ingot-lead
@@ -109,14 +102,8 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
-### Redstone Furnace with Flux Anodizers
-{% include recipe-table.html type='redstone-furnace-ore' recipes=page.recipes.redstone-furnace-ore no-result=true %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.recipes.smelter-pyrotheum no-result=true %}
 
 
 Usage

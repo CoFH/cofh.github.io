@@ -16,8 +16,6 @@ recipes:
     - pyrotheum-dust-copper
     - ingot-copper-from-nuggets
     - ingot-copper-from-block
-  redstone-furnace-ore:
-    - ore-processing-copper
   smelter:
     - ore-processing-sand-copper
     - ore-processing-rich-slag-copper
@@ -38,10 +36,6 @@ recipes:
     - recycling-chestplate-copper
     - recycling-leggings-copper
     - recycling-boots-copper
-  smelter-pyrotheum:
-    - ore-processing-sand-copper
-    - ore-processing-rich-slag-copper
-    - ore-processing-cinnabar-copper
 usage-recipes:
   crafting:
     - petrotheum-ingot-copper
@@ -100,14 +94,8 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
-### Redstone Furnace with Flux Anodizers
-{% include recipe-table.html type='redstone-furnace-ore' recipes=page.recipes.redstone-furnace-ore no-result=true %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.recipes.smelter-pyrotheum no-result=true %}
 
 
 Usage

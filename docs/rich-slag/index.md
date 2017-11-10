@@ -37,18 +37,6 @@ usage-recipes:
     - ore-processing-rich-slag-platinum
     - ore-processing-rich-slag-iridium
     - ore-processing-rich-slag-mithril
-  smelter-pyrotheum:
-    - ore-processing-rich-slag-iron
-    - ore-processing-rich-slag-gold
-    - ore-processing-rich-slag-copper
-    - ore-processing-rich-slag-tin
-    - ore-processing-rich-slag-silver
-    - ore-processing-rich-slag-lead
-    - ore-processing-rich-slag-aluminum
-    - ore-processing-rich-slag-nickel
-    - ore-processing-rich-slag-platinum
-    - ore-processing-rich-slag-iridium
-    - ore-processing-rich-slag-mithril
 ---
 
 ![Rich slag](/assets/images/thermal-foundation/slag-rich.png){:style="height: 128px"}
@@ -72,9 +60,6 @@ Usage
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
-
-### Induction Smelter with Pyro-Concentrator ingredient
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

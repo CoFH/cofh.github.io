@@ -16,11 +16,6 @@ recipes:
     - ore-processing-cinnabar-iridium
     - ore-processing-cinnabar-platinum
     - dust-smelting-iridium
-  smelter-pyrotheum:
-    - ore-processing-sand-iridium
-    - ore-processing-rich-slag-iridium
-    - ore-processing-cinnabar-iridium
-    - ore-processing-cinnabar-platinum
 usage-recipes:
   crafting:
     - petrotheum-ingot-iridium
@@ -52,9 +47,6 @@ Obtaining
 
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.recipes.smelter-pyrotheum no-result=true %}
 
 
 Usage

@@ -17,8 +17,6 @@ recipes:
     - ingot-platinum-from-block
     - pyrotheum-ore-platinum
     - petrotheum-pyrotheum-ore-platinum
-  redstone-furnace-ore:
-    - ore-processing-platinum
   smelter:
     - ore-processing-cinnabar-nickel
     - dust-smelting-platinum
@@ -41,12 +39,6 @@ recipes:
     - recycling-chestplate-platinum
     - recycling-leggings-platinum
     - recycling-boots-platinum
-  smelter-pyrotheum:
-    - ore-processing-cinnabar-nickel
-    - ore-processing-sand-platinum
-    - ore-processing-rich-slag-platinum
-    - ore-processing-cinnabar-platinum
-    - ore-processing-cinnabar-iridium
 usage-recipes:
   crafting:
     - petrotheum-ingot-platinum
@@ -98,14 +90,8 @@ smelter](/docs/induction-smelter/) with [cinnabar](/docs/cinnabar/).
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
-### Redstone Furnace with Flux Anodizers
-{% include recipe-table.html type='redstone-furnace-ore' recipes=page.recipes.redstone-furnace-ore no-result=true %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.recipes.smelter-pyrotheum no-result=true %}
 
 
 Usage

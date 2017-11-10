@@ -4,9 +4,6 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/fluids/tree/sap/
 recipes:
-  sawmill-tapper:
-    - wood-processing-oak
-    - wood-processing-dark-oak
   transposer-empty:
     - bucket-sap
 usage-recipes:
@@ -31,7 +28,9 @@ An [arboreal extractor](/docs/arboreal-extractor/) will produce sap when placed
 next to an oak or dark oak [tree](https://minecraft.gamepedia.com/Tree).
 
 ### Sawmill with Resin Funnel
-{% include recipe-table.html type='sawmill-tapper' recipes=page.recipes.sawmill-tapper %}
+A [sawmill](/docs/sawmill/) with a [resin funnel](/docs/augment-resin-funnel/)
+installed produces sap as a byproduct when processing oak or dark oak
+[wood](https://minecraft.gamepedia.com/Wood).
 
 ### Fluid Transposer
 {% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}

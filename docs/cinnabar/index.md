@@ -22,18 +22,6 @@ usage-recipes:
     - ore-processing-cinnabar-platinum
     - ore-processing-cinnabar-iridium
     - ore-processing-cinnabar-mithril
-  smelter-pyrotheum:
-    - ore-processing-cinnabar-iron
-    - ore-processing-cinnabar-gold
-    - ore-processing-cinnabar-copper
-    - ore-processing-cinnabar-tin
-    - ore-processing-cinnabar-silver
-    - ore-processing-cinnabar-lead
-    - ore-processing-cinnabar-aluminum
-    - ore-processing-cinnabar-nickel
-    - ore-processing-cinnabar-platinum
-    - ore-processing-cinnabar-iridium
-    - ore-processing-cinnabar-mithril
 ---
 
 ![Cinnabar](/assets/images/thermal-foundation/cinnabar.png){:style="height: 128px"}
@@ -62,9 +50,6 @@ Usage
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
-
-### Induction Smelter with Pyro-Concentrator ingredient
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
 
 
 Trivia

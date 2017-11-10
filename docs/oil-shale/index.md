@@ -7,8 +7,6 @@ redirect_from:
 usage-recipes:
   pulverizer:
     - fluid-ore-processing-oil-shale
-  pulverizer-petrotheum:
-    - fluid-ore-processing-oil-shale
   crucible:
     - fluid-ore-processing-oil-shale
 ---
@@ -56,9 +54,6 @@ Usage
 
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
-
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
 
 ### Magma Crucible
 {% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}

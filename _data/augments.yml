@@ -63,8 +63,8 @@ machine-pulverizer-petrotheum:
   installed-in: '<a href="/docs/pulverizer/">Pulverizer</a>'
   description: >
     A specialization that allows for a pulverizer to process ores more
-    efficiently using <a href="/docs/tectonic-petrotheum">tectonic
-    petrotheum</a>. 100 mB of tectonic petrotheum is consumed per ore.
+    efficiently using <a href="/docs/tectonic-petrotheum/">tectonic
+    petrotheum</a>. 100 mB of petrotheum is consumed per ore.
 machine-sawmill-tapper:
   name: Resin Funnel
   url: augment-resin-funnel/
@@ -80,9 +80,9 @@ machine-smelter-pyrotheum:
   animated: true
   installed-in: '<a href="/docs/induction-smelter/">Induction Smelter</a>'
   description: >
-    A specialization that allows for an induction smelter to consume <a
-    href="/docs/blazing-pyrotheum">blazing pyrotheum</a> to process ores more
-    efficiently. 100 mB of blazing pyrotheum is consumed per ore.
+    A specialization that allows for an induction smelter to process ores more
+    efficiently using <a href="/docs/blazing-pyrotheum/">blazing pyrotheum</a>.
+    100 mB of pyrotheum is consumed per ore.
 machine-insolator-mycelium:
   name: Mycelium Substrate
   url: augment-mycelium-substrate/

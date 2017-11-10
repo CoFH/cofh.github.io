@@ -11,13 +11,7 @@ usage-recipes:
     - petrotheum-pyrotheum-ore-iridium
   pulverizer:
     - ore-processing-iridium
-  pulverizer-petrotheum:
-    - ore-processing-iridium
   smelter:
-    - ore-processing-sand-iridium
-    - ore-processing-rich-slag-iridium
-    - ore-processing-cinnabar-iridium
-  smelter-pyrotheum:
     - ore-processing-sand-iridium
     - ore-processing-rich-slag-iridium
     - ore-processing-cinnabar-iridium
@@ -55,14 +49,8 @@ Iridium ore cannot be processed by
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
 
 ### Light source
 Iridium ore emits a light level of 4.

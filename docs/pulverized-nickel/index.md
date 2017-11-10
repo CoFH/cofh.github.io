@@ -11,9 +11,6 @@ recipes:
     - dust-nickel
     - ore-processing-nickel
     - ore-processing-iron
-  pulverizer-petrotheum:
-    - ore-processing-nickel
-    - ore-processing-iron
   centrifuge:
     - dust-invar
     - dust-constantan
@@ -45,9 +42,6 @@ Obtaining
 
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
-
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.recipes.pulverizer-petrotheum no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

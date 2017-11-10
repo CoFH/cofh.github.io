@@ -11,17 +11,9 @@ usage-recipes:
     - pyrotheum-ore-platinum
     - petrotheum-ore-platinum
     - petrotheum-pyrotheum-ore-platinum
-  redstone-furnace-ore:
-    - ore-processing-platinum
   pulverizer:
     - ore-processing-platinum
-  pulverizer-petrotheum:
-    - ore-processing-platinum
   smelter:
-    - ore-processing-sand-platinum
-    - ore-processing-rich-slag-platinum
-    - ore-processing-cinnabar-platinum
-  smelter-pyrotheum:
     - ore-processing-sand-platinum
     - ore-processing-rich-slag-platinum
     - ore-processing-cinnabar-platinum
@@ -56,20 +48,11 @@ Usage
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
-### Redstone Furnace with Flux Anodizers
-{% include recipe-table.html type='redstone-furnace-ore' recipes=page.usage-recipes.redstone-furnace-ore %}
-
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
 
 ### Light source
 Platinum ore emits a light level of 4.

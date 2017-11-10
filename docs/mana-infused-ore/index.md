@@ -11,13 +11,7 @@ usage-recipes:
     - petrotheum-pyrotheum-ore-mithril
   pulverizer:
     - ore-processing-mithril
-  pulverizer-petrotheum:
-    - ore-processing-mithril
   smelter:
-    - ore-processing-sand-mithril
-    - ore-processing-rich-slag-mithril
-    - ore-processing-cinnabar-mithril
-  smelter-pyrotheum:
     - ore-processing-sand-mithril
     - ore-processing-rich-slag-mithril
     - ore-processing-cinnabar-mithril
@@ -56,14 +50,8 @@ Mana infused ore cannot be processed by
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
 
 ### Light source
 Mana infused ore emits a light level of 8.

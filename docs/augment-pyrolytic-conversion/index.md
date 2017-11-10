@@ -47,19 +47,21 @@ recipe set consists of processing various plant-based materials into
 The redstone furnace also gains the ability to produce [creosote
 oil](/docs/creosote-oil/) as a byproduct.
 
-An installed pyrolytic conversion augment decreases a redstone furnace's maximum
-power usage by a factor of 10, thereby greatly reducing its processing speed.
+However, an installed pyrolytic conversion augment decreases a redstone
+furnace's maximum power usage by a factor of 10, thereby greatly reducing its
+processing speed. It also increases the amount of energy required per operation
+by 50%.
 
-A pyrolytic conversion augment also increases the amount of energy required per
-operation by 50%. For convenience, the energy amounts shown below are the
-resulting amounts after this increase is applied. The true energy amounts are
-the listed amounts divided by 1.5. When other augments are installed that
-increase the amount of energy required per operation, all the energy increase
-percentages are added together before being applied to the true amount of
-energy, including the 50% from this augment.
+If pyrolytic conversion is installed together with other augments that increase
+the amount of energy required per operation, their energy increase percentages
+are added together before being applied to the amount of energy.
 
 
 Recipes
 -------
+
+For convenience, the energy amounts shown below are the resulting amounts after
+applying the augment's energy increase of 50%. The true energy amounts are the
+listed amounts divided by 1.5.
 
 {% include recipe-table.html type='redstone-furnace-pyrolysis' recipes=page.recipe-list %}

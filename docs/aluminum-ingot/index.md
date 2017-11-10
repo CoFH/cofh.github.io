@@ -30,10 +30,6 @@ recipes:
     - recycling-chestplate-aluminum
     - recycling-leggings-aluminum
     - recycling-boots-aluminum
-  smelter-pyrotheum:
-    - ore-processing-sand-aluminum
-    - ore-processing-rich-slag-aluminum
-    - ore-processing-cinnabar-aluminum
 usage-recipes:
   crafting:
     - petrotheum-ingot-aluminum
@@ -79,9 +75,6 @@ Obtaining
 
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.recipes.smelter-pyrotheum no-result=true %}
 
 
 Usage

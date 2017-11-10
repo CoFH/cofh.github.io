@@ -4,11 +4,6 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/fluids/tree/resin/
 recipes:
-  sawmill-tapper:
-    - wood-processing-spruce
-    - wood-processing-birch
-    - wood-processing-jungle
-    - wood-processing-acacia
   transposer-empty:
     - bucket-resin
 usage-recipes:
@@ -36,7 +31,10 @@ placed next to a spruce, birch, jungle or acacia
 resin as other trees.
 
 ### Sawmill with Resin Funnel
-{% include recipe-table.html type='sawmill-tapper' recipes=page.recipes.sawmill-tapper %}
+A [sawmill](/docs/sawmill/) with a [resin funnel](/docs/augment-resin-funnel/)
+installed produces resin as a byproduct when processing spruce, birch, jungle or
+acacia [wood](https://minecraft.gamepedia.com/Wood). Spruce wood yields twice as
+much resin as other types of wood.
 
 ### Fluid Transposer
 {% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}

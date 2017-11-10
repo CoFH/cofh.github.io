@@ -15,8 +15,6 @@ recipes:
     - pyrotheum-dust-tin
     - ingot-tin-from-nuggets
     - ingot-tin-from-block
-  redstone-furnace-ore:
-    - ore-processing-tin
   smelter:
     - ore-processing-sand-tin
     - ore-processing-rich-slag-tin
@@ -37,10 +35,6 @@ recipes:
     - recycling-chestplate-tin
     - recycling-leggings-tin
     - recycling-boots-tin
-  smelter-pyrotheum:
-    - ore-processing-sand-tin
-    - ore-processing-rich-slag-tin
-    - ore-processing-cinnabar-tin
 usage-recipes:
   crafting:
     - petrotheum-ingot-tin
@@ -96,14 +90,8 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
-### Redstone Furnace with Flux Anodizers
-{% include recipe-table.html type='redstone-furnace-ore' recipes=page.recipes.redstone-furnace-ore no-result=true %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.recipes.smelter-pyrotheum no-result=true %}
 
 
 Usage

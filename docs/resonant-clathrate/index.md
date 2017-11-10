@@ -6,8 +6,6 @@ redirect_from:
 recipes:
   pulverizer:
     - fluid-ore-processing-ender
-  pulverizer-petrotheum:
-    - fluid-ore-processing-ender
 usage-recipes:
   crafting:
     - ender-pearl-from-clathrate
@@ -35,9 +33,6 @@ clathrate when mined with a pickaxe. More clathrate is dropped if a
 
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
-
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.recipes.pulverizer-petrotheum no-result=true %}
 
 
 Usage

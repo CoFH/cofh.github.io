@@ -15,8 +15,6 @@ recipes:
     - pyrotheum-dust-silver
     - ingot-silver-from-nuggets
     - ingot-silver-from-block
-  redstone-furnace-ore:
-    - ore-processing-silver
   smelter:
     - ore-processing-sand-silver
     - ore-processing-rich-slag-silver
@@ -38,11 +36,6 @@ recipes:
     - recycling-chestplate-silver
     - recycling-leggings-silver
     - recycling-boots-silver
-  smelter-pyrotheum:
-    - ore-processing-sand-silver
-    - ore-processing-rich-slag-silver
-    - ore-processing-cinnabar-silver
-    - ore-processing-cinnabar-lead
 usage-recipes:
   crafting:
     - petrotheum-ingot-silver
@@ -93,14 +86,8 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
-### Redstone Furnace with Flux Anodizers
-{% include recipe-table.html type='redstone-furnace-ore' recipes=page.recipes.redstone-furnace-ore no-result=true %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.recipes.smelter-pyrotheum no-result=true %}
 
 
 Usage

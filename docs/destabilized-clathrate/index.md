@@ -6,8 +6,6 @@ redirect_from:
 recipes:
   pulverizer:
     - fluid-ore-processing-redstone
-  pulverizer-petrotheum:
-    - fluid-ore-processing-redstone
 usage-recipes:
   crafting:
     - redstone-from-clathrate
@@ -36,9 +34,6 @@ pickaxe is used.
 
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
-
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.recipes.pulverizer-petrotheum no-result=true %}
 
 
 Usage

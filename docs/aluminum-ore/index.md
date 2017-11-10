@@ -11,13 +11,7 @@ usage-recipes:
     - petrotheum-pyrotheum-ore-aluminum
   pulverizer:
     - ore-processing-aluminum
-  pulverizer-petrotheum:
-    - ore-processing-aluminum
   smelter:
-    - ore-processing-sand-aluminum
-    - ore-processing-rich-slag-aluminum
-    - ore-processing-cinnabar-aluminum
-  smelter-pyrotheum:
     - ore-processing-sand-aluminum
     - ore-processing-rich-slag-aluminum
     - ore-processing-cinnabar-aluminum
@@ -56,11 +50,5 @@ Aluminum ore cannot be processed by
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}

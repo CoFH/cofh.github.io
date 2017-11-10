@@ -11,17 +11,9 @@ usage-recipes:
     - pyrotheum-ore-silver
     - petrotheum-ore-silver
     - petrotheum-pyrotheum-ore-silver
-  redstone-furnace-ore:
-    - ore-processing-silver
   pulverizer:
     - ore-processing-silver
-  pulverizer-petrotheum:
-    - ore-processing-silver
   smelter:
-    - ore-processing-sand-silver
-    - ore-processing-rich-slag-silver
-    - ore-processing-cinnabar-silver
-  smelter-pyrotheum:
     - ore-processing-sand-silver
     - ore-processing-rich-slag-silver
     - ore-processing-cinnabar-silver
@@ -59,20 +51,11 @@ Usage
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
-### Redstone Furnace with Flux Anodizers
-{% include recipe-table.html type='redstone-furnace-ore' recipes=page.usage-recipes.redstone-furnace-ore %}
-
 ### Pulverizer
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Pulverizer with Tectonic Initiator
-{% include recipe-table.html type='pulverizer-petrotheum' recipes=page.usage-recipes.pulverizer-petrotheum %}
-
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
-
-### Induction Smelter with Pyro-Concentrator
-{% include recipe-table.html type='smelter-pyrotheum' recipes=page.usage-recipes.smelter-pyrotheum %}
 
 ### Light source
 Silver ore emits a light level of 4.
