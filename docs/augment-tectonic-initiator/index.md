@@ -2,7 +2,7 @@
 title: 'Augment: Tectonic Initiator'
 nav: thermal-expansion
 image:
-  - alt: Tectonic-initiator augment
+  - alt: Tectonic initiator augment
     file: thermal-expansion/augment-machine-pulverizer-petrotheum.gif
 recipes:
   crafting:
