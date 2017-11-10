@@ -680,6 +680,7 @@ thermal-expansion:
                 - title: Resin Funnel
                   url: augment-resin-funnel/
                 - title: Pyro-Concentrator
+                  url: augment-pyro-concentrator/
                 - title: Mycelium Substrate
                 - title: Nether Substrate
                 - title: Ender Substrate
