@@ -686,6 +686,7 @@ thermal-expansion:
                 - title: Nether Substrate
                   url: augment-nether-substrate/
                 - title: Ender Substrate
+                  url: augment-ender-substrate/
                 - title: Sapling Infuser
                 - title: Numismatic Press
                 - title: Pyroconvective Loop
