@@ -688,6 +688,7 @@ thermal-expansion:
                 - title: Ender Substrate
                   url: augment-ender-substrate/
                 - title: Sapling Infuser
+                  url: augment-sapling-infuser/
                 - title: Numismatic Press
                 - title: Pyroconvective Loop
                 - title: Flux Linkage Concentrator
