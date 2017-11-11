@@ -682,6 +682,7 @@ thermal-expansion:
                 - title: Pyro-Concentrator
                   url: augment-pyro-concentrator/
                 - title: Mycelium Substrate
+                  url: augment-mycelium-substrate/
                 - title: Nether Substrate
                 - title: Ender Substrate
                 - title: Sapling Infuser
