@@ -40,17 +40,13 @@ An installed mycelium substrate adds some extra [recipes](#recipes) to a
 [phytogenic insolator](/docs/phytogenic-insolator/). These recipes allow for
 [mushrooms](https://minecraft.gamepedia.com/Mushroom) to be grown.
 
+Other than mushrooms, a mycelium substrate also allows for slime crops to be
+grown, if those are added by another mod. By installing both a mycelium
+substrate and a [sapling infuser](/docs/augment-sapling-infuser/), slime trees
+can also be grown.
+
 
 Recipes
 -------
 
 {% include recipe-table.html type='insolator-mycelium' recipes=page.recipe-list %}
-
-
-Trivia
-------
-
-* Other than mushrooms, a mycelium substrate also allows for slime crops to be
-  grown, if those are available. By installing both a mycelium substrate and a
-  [sapling infuser](/docs/augment-sapling-infuser/), slime trees can also be
-  grown.
