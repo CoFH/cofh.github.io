@@ -700,6 +700,7 @@ thermal-expansion:
                 - title: Permafrost Compressor
                   url: augment-permafrost-compressor/
                 - title: Pyroclastic Injection
+                  url: augment-pyroclastic-injection/
                 - title: Granitic Subduction
                 - title: Dioritic Subduction
                 - title: Andesitic Subduction

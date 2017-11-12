@@ -165,7 +165,7 @@ machine-extruder-no-water:
   animated: true
   installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
   description: >
-    Allows for an igneous extruder to work without <a
+    Allows for an igneous extruder to work without consuming <a
     href="https://minecraft.gamepedia.com/Water">water</a>, so only <a
     href="https://minecraft.gamepedia.com/Lava">lava</a> is required.
 machine-extruder-granite:
