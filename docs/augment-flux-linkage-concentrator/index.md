@@ -1,0 +1,53 @@
+---
+title: 'Augment: Flux Linkage Concentrator'
+nav: thermal-expansion
+image:
+  - alt: Flux linkage concentrator augment
+    file: thermal-expansion/augment-machine-charger-throughput.png
+recipes:
+  crafting:
+    - augment-machine-charger-throughput
+---
+
+A **flux linkage concentrator** is an [augment](/docs/augments/) that greatly
+increases the charging speed of an [energetic infuser](/docs/energetic-infuser/)
+when charging items that hold [Redstone Flux](/docs/redstone-flux/).
+
+
+Obtaining
+---------
+
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Installation
+A flux linkage concentrator can be installed in the Augmentation tab in an
+[energetic infuser](/docs/energetic-infuser/)'s GUI. It is a specialization that
+cannot be installed together with other specialization augments.
+
+### Effects
+An installed flux linkage concentrator greatly increases an [energetic
+infuser](/docs/energetic-infuser/)'s maximum power usage when charging items
+that hold [Redstone Flux](/docs/redstone-flux/), thereby greatly increasing its
+charging speed. The increased maximum power usage depends on the machine's
+[tier](/docs/tiers/).
+
+{::options parse_block_html="true" /}
+<div class="uk-overflow-container">
+| Tier | Increased max. power usage |
+|---
+| Basic | 1,000 RF/t |
+| Hardened | 4,000 RF/t |
+| Reinforced | 9,000 RF/t |
+| Signalum | 16,000 RF/t |
+| Resonant / Creative | 25,000 RF/t |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+</div>
+{::options parse_block_html="false" /}
+
+An energetic infuser with a flux linkage concentrator installed will still be
+limited by the maximum charging rate of items it charges.

@@ -142,7 +142,7 @@ machine-charger-throughput:
     A specialization that greatly increases an energetic infuser's maximum power
     usage (speed) when charging items that hold <a
     href="/docs/redstone-flux/">Redstone Flux</a>. The machine will still be
-    limited by the maximum charging rate of items.
+    limited by the maximum charging rate of items it charges.
 machine-precipitator-snow-layer:
   name: Flurry Stratum
   url: augment-flurry-stratum/
