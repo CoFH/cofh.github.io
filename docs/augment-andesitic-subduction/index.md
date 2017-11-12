@@ -9,7 +9,7 @@ recipes:
     - augment-machine-extruder-andesite
 ---
 
-A **andesitic subduction** [augment](/docs/augments/) allows for an [igneous
+An **andesitic subduction** [augment](/docs/augments/) allows for an [igneous
 extruder](/docs/igneous-extruder/) to produce
 [andesite](https://minecraft.gamepedia.com/Andesite) instead of
 [stone](https://minecraft.gamepedia.com/Stone).
@@ -26,7 +26,7 @@ Usage
 -----
 
 ### Installation
-A andesitic subduction augment can be installed in the Augmentation tab in an
+An andesitic subduction augment can be installed in the Augmentation tab in an
 [igneous extruder](/docs/igneous-extruder/)'s GUI. It is a specialization that
 cannot be installed together with other specialization augments.
 
