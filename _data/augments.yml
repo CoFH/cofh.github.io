@@ -123,8 +123,8 @@ machine-compactor-mint:
   url: augment-numismatic-press/
   installed-in: '<a href="/docs/compactor/">Compactor</a>'
   description: >
-    A specialization that allows for a compactor to make metal coins from
-    ingots. The machine must be toggled into Mint mode.
+    A specialization that allows for a compactor to produce metal coins. The
+    machine must be toggled into Mint mode.
 machine-crucible-lava:
   name: Pyroconvective Loop
   url: augment-pyroconvective-loop/

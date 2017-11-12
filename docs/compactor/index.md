@@ -149,7 +149,7 @@ A compactor can be in two modes, each with a different set of recipes: Storage
 and Press.
 
 If a [numismatic press](/docs/augment-numismatic-press/) is installed, the Mint
-mode is also available with the recipes added by this augment.
+mode is also available with the recipes added by the augment.
 
 ### Storage
 When in Storage mode, a compactor's recipes are based on storage

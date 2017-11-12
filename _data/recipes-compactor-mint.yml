@@ -3,6 +3,44 @@ site: cofh
 url: augment-numismatic-press/
 with-energy: true
 recipes:
+  coin-from-nugget:
+    results:
+      - item-group: coin-metal
+    ingredients:
+      - item-group: nugget-metal
+    energy: 2000
+    data:
+      input:
+        item-group: nugget-metal
+        amount: 3
+      output:
+        item-group: coin-metal
+  coin-from-ingot:
+    results:
+      - item-group: coin-metal
+        suffix: x3
+    ingredients:
+      - item-group: ingot-metal
+    energy: 4000
+    data:
+      input:
+        item-group: ingot-metal
+      output:
+        item-group: coin-metal
+        amount: 3
+  coin-from-block:
+    results:
+      - item-group: coin-metal
+        suffix: x27
+    ingredients:
+      - item-group: storage-block-metal
+    energy: 24000
+    data:
+      input:
+        item-group: storage-block-metal
+      output:
+        item-group: coin-metal
+        amount: 27
   coin-aluminum-from-nugget:
     results:
       - item: coin-aluminum

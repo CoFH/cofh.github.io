@@ -118,6 +118,30 @@ chestplate-metal:
     - chestplate-invar
     - chestplate-bronze
     - chestplate-constantan
+coin-metal:
+  name: Metal Coin
+  prefix:
+    ingredient: 'any'
+  items:
+    - coin-iron
+    - coin-gold
+    - coin-copper
+    - coin-tin
+    - coin-silver
+    - coin-lead
+    - coin-aluminum
+    - coin-nickel
+    - coin-platinum
+    - coin-iridium
+    - coin-mithril
+    - coin-steel
+    - coin-electrum
+    - coin-invar
+    - coin-bronze
+    - coin-constantan
+    - coin-signalum
+    - coin-lumium
+    - coin-enderium
 concrete:
   name: Concrete
   site: mc-wiki
@@ -565,6 +589,30 @@ nether-quartz-block:
     - nether-quartz-block
     - nether-quartz-block-chiseled
     - nether-quartz-block-pillar
+nugget-metal:
+  name: Metal Nugget
+  prefix:
+    ingredient: 'any'
+  items:
+    - nugget-iron
+    - nugget-gold
+    - nugget-copper
+    - nugget-tin
+    - nugget-silver
+    - nugget-lead
+    - nugget-aluminum
+    - nugget-nickel
+    - nugget-platinum
+    - nugget-iridium
+    - nugget-mithril
+    - nugget-steel
+    - nugget-electrum
+    - nugget-invar
+    - nugget-bronze
+    - nugget-constantan
+    - nugget-signalum
+    - nugget-lumium
+    - nugget-enderium
 pickaxe-metal:
   name: Metal Pickaxe
   site: mc-wiki
