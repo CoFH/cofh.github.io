@@ -2,34 +2,34 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "taskName": "Build",
+            "label": "Build",
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
             "type": "shell",
-            "command": "jekyll build",
+            "command": "rm -rf _site .jekyll-metadata && jekyll build",
             "problemMatcher": []
         },
         {
-            "taskName": "Build (Profile)",
+            "label": "Build (Profile)",
             "group": "build",
             "type": "shell",
-            "command": "jekyll build --profile",
+            "command": "rm -rf _site .jekyll-metadata && jekyll build --profile",
             "problemMatcher": []
         },
         {
-            "taskName": "Serve",
+            "label": "Serve",
             "group": "none",
             "type": "shell",
-            "command": "rm -rf _site && jekyll serve",
+            "command": "rm -rf _site .jekyll-metadata && jekyll serve",
             "problemMatcher": []
         },
         {
-            "taskName": "Serve (Incremental)",
+            "label": "Serve (Incremental)",
             "group": "none",
             "type": "shell",
-            "command": "rm -rf _site && jekyll serve -I",
+            "command": "rm -rf _site .jekyll-metadata && jekyll serve -I",
             "problemMatcher": []
         }
     ]
