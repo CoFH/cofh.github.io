@@ -710,6 +710,7 @@ thermal-expansion:
             - title: Dynamo
               items:
                 - title: Auxiliary Transmission Coil
+                  url: augment-auxiliary-transmission-coil/
                 - title: Fuel Catalyzer
                 - title: Transmission Coil Ducting
                 - title: Excitation Field Limiter

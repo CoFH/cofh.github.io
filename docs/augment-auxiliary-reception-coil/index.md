@@ -13,7 +13,7 @@ recipes:
 
 An **auxiliary reception coil** is an [augment](/docs/augments/) that increases
 the maximum power usage of a [machine](/docs/machines/), thereby increasing its
-maximum processing speed.
+processing speed.
 
 
 Obtaining
@@ -33,8 +33,8 @@ its effects.
 
 ### Effects
 Installed auxiliary reception coils increase a [machine](/docs/machines/)'s
-maximum power usage, thereby increasing its maximum processing speed. However,
-they also increase the amount of energy required per operation.
+maximum power usage, thereby increasing its processing speed. However, they also
+increase the amount of energy required per operation.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
