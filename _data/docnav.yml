@@ -712,6 +712,7 @@ thermal-expansion:
                 - title: Auxiliary Transmission Coil
                   url: augment-auxiliary-transmission-coil/
                 - title: Fuel Catalyzer
+                  url: augment-fuel-catalyzer/
                 - title: Transmission Coil Ducting
                 - title: Excitation Field Limiter
                 - title: Boiler Conversion
