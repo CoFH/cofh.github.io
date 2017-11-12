@@ -702,8 +702,11 @@ thermal-expansion:
                 - title: Pyroclastic Injection
                   url: augment-pyroclastic-injection/
                 - title: Granitic Subduction
+                  url: augment-granitic-subduction/
                 - title: Dioritic Subduction
+                  url: augment-dioritic-subduction/
                 - title: Andesitic Subduction
+                  url: augment-andesitic-subduction/
             - title: Dynamo
               items:
                 - title: Auxiliary Transmission Coil
