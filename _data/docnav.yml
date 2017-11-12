@@ -698,6 +698,7 @@ thermal-expansion:
                 - title: Flurry Stratum
                   url: augment-flurry-stratum/
                 - title: Permafrost Compressor
+                  url: augment-permafrost-compressor/
                 - title: Pyroclastic Injection
                 - title: Granitic Subduction
                 - title: Dioritic Subduction
