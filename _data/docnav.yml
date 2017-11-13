@@ -716,6 +716,7 @@ thermal-expansion:
                 - title: Transmission Coil Ducting
                   url: augment-transmission-coil-ducting/
                 - title: Excitation Field Limiter
+                  url: augment-excitation-field-limiter/
                 - title: Boiler Conversion
                 - title: Turbine Conversion
                 - title: Isentropic Reservoir
