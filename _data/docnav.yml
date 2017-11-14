@@ -718,6 +718,7 @@ thermal-expansion:
                 - title: Excitation Field Limiter
                   url: augment-excitation-field-limiter/
                 - title: Boiler Conversion
+                  url: augment-boiler-conversion/
                 - title: Turbine Conversion
                 - title: Isentropic Reservoir
                 - title: Closed-Loop Cooling

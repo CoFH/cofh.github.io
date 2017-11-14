@@ -15,22 +15,20 @@ usage-recipes:
 ![Steam](/assets/images/thermal-foundation/steam.gif){:style="height: 128px"}
 
 
-**Steam** is a fluid used by [steam dynamos](/docs/steam-dynamo/) to generate
-energy.
+**Steam** is a fluid used by [steam dynamos](/docs/steam-dynamo/) with a
+[turbine conversion](/docs/augment-turbine-conversion/) installed to generate
+[Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
 ---------
 
-### Steam Dynamo
-A [steam dynamo](/docs/steam-dynamo/) produces its own steam internally using
-[water](https://minecraft.gamepedia.com/Water) and solid fuel.
-
 ### Dynamo with Boiler Conversion
 A [steam](/docs/steam-dynamo/), [magmatic](/docs/magmatic-dynamo/) or
 [compression dynamo](/docs/compression-dynamo/) with a [boiler
-conversion](/docs/augment-boiler-conversion/) installed produces steam instead
-of [Redstone Flux](/docs/redstone-flux/).
+conversion](/docs/augment-boiler-conversion/) installed converts
+[water](https://minecraft.gamepedia.com/Water) into steam instead of generating
+[Redstone Flux](/docs/redstone-flux/).
 
 ### Fluid Transposer
 {% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
@@ -46,5 +44,5 @@ Steam cannot be placed as a block.
 
 ### Steam Dynamo with Turbine Conversion
 A [steam dynamo](/docs/steam-dynamo/) with a [turbine
-conversion](/docs/augment-turbine-conversion/) installed cannot produce its own
-steam, and relies on steam to be supplied from an external source.
+conversion](/docs/augment-turbine-conversion/) installed must be supplied with
+steam from an external source.

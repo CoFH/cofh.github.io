@@ -234,8 +234,7 @@ dynamo-boiler:
     A specialization that changes an applicable dynamo to convert <a
     href="https://minecraft.gamepedia.com/Water">water</a> into <a
     href="/docs/steam/">steam</a> instead of generating <a
-    href="/docs/redstone-flux/">Redstone Flux</a>. Also indirectly increases the
-    amount of energy generated from each unit of fuel.
+    href="/docs/redstone-flux/">Redstone Flux</a>.
 dynamo-steam-turbine:
   name: Turbine Conversion
   url: augment-turbine-conversion/
