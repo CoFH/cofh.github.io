@@ -720,6 +720,7 @@ thermal-expansion:
                 - title: Boiler Conversion
                   url: augment-boiler-conversion/
                 - title: Turbine Conversion
+                  url: augment-turbine-conversion/
                 - title: Isentropic Reservoir
                 - title: Closed-Loop Cooling
                 - title: Ignition Plugs

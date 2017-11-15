@@ -21,7 +21,6 @@ augments:
 ---
 
 A **steam dynamo** is a [dynamo](/docs/dynamos/) fueled by
-[steam](/docs/steam/), which is produced internally using
 [water](https://minecraft.gamepedia.com/Water) and solid fuel.
 
 

@@ -234,16 +234,15 @@ dynamo-boiler:
     A specialization that changes an applicable dynamo to convert <a
     href="https://minecraft.gamepedia.com/Water">water</a> into <a
     href="/docs/steam/">steam</a> instead of generating <a
-    href="/docs/redstone-flux/">Redstone Flux</a>.
+    href="/docs/redstone-flux/">Redstone Flux</a>. This increases fuel
+    efficiency.
 dynamo-steam-turbine:
   name: Turbine Conversion
   url: augment-turbine-conversion/
   installed-in: '<a href="/docs/steam-dynamo/">Steam Dynamo</a>'
   description: >
-    A specialization that changes a steam dynamo to accept <a
-    href="/docs/steam/">steam</a> from external sources. Steam cannot be
-    produced internally when installed. Also increases its maximum power output
-    (speed) by 3x its base maximum power output.
+    A specialization that changes a steam dynamo to work on <a
+    href="/docs/steam/">steam</a> supplied from an external source.
 dynamo-magmatic-coolant:
   name: Isentropic Reservoir
   url: augment-isentropic-reservoir/

@@ -42,9 +42,9 @@ A dynamo with a boiler conversion installed always produces steam at its maximum
 power output, even if it cannot output the steam it produces. This can cause
 energy loss if the produced steam is not used or stored.
 
-An installed boiler conversion increases the maximum power (steam) output of a
-dynamo, and changes the amount of energy (steam) it generates from each unit of
-fuel. This differs depending on the type of dynamo.
+An installed boiler conversion increases the maximum power output of a dynamo,
+and changes the amount of energy it would generate from each unit of fuel. This
+differs depending on the type of dynamo.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -57,12 +57,14 @@ fuel. This differs depending on the type of dynamo.
 </div>
 {::options parse_block_html="false" /}
 
-Note that even though the amount of energy (steam) generated per unit of fuel is
-greatly reduced for a magmatic or compression dynamo, using steam is still more
-efficient, due to how much energy a steam dynamo with a [turbine
-conversion](/docs/augment-turbine-conversion/) installed generates from steam.
-
 If a boiler conversion is installed together with other augments that affect the
 amount of energy generated from each unit of fuel, their energy
 increase/decrease percentages are added together before being applied to the
 amount of energy.
+
+Generating energy using dynamos with boiler conversions installed and steam
+dynamos with [turbine conversions](/docs/augment-turbine-conversion/) installed
+is more fuel efficient than using dynamos to generate energy directly. A dynamo
+with a boiler conversion installed produces steam at the same rates at which it
+would normally generate energy (replacing mB with RF), while a steam dynamo with
+a turbine conversion installed generates 2 RF of energy per mB of steam.

@@ -28,7 +28,7 @@ List of dynamos
 <div class="uk-overflow-container">
 | Dynamo | Fuel type |
 |---
-| [Steam Dynamo](/docs/steam-dynamo/) | [Steam](/docs/steam/) ([water](https://minecraft.gamepedia.com/Water) and solid fuel) |
+| [Steam Dynamo](/docs/steam-dynamo/) | [Water](https://minecraft.gamepedia.com/Water) and solid fuel |
 | [Magmatic Dynamo](/docs/magmatic-dynamo/) | Hot fluids |
 | [Compression Dynamo](/docs/compression-dynamo/) | Fluid fuel and [coolant](/docs/coolants/) |
 | [Reactant Dynamo](/docs/reactant-dynamo/) | Fluid fuel and solid reactant |
