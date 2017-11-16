@@ -722,6 +722,7 @@ thermal-expansion:
                 - title: Turbine Conversion
                   url: augment-turbine-conversion/
                 - title: Isentropic Reservoir
+                  url: augment-isentropic-reservoir/
                 - title: Closed-Loop Cooling
                 - title: Ignition Plugs
                 - title: Elemental Catalyzer

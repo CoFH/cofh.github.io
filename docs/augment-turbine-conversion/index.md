@@ -26,7 +26,8 @@ Usage
 
 ### Installation
 A turbine conversion can be installed in the Augmentation tab in a [steam
-dynamo](/docs/steam-dynamo/)'s GUI.
+dynamo](/docs/steam-dynamo/)'s GUI. It is a specialization that cannot be
+installed together with other specialization augments.
 
 ### Effects
 A [steam dynamo](/docs/steam-dynamo/) with a turbine conversion installed

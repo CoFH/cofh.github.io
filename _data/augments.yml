@@ -248,10 +248,10 @@ dynamo-magmatic-coolant:
   url: augment-isentropic-reservoir/
   installed-in: '<a href="/docs/magmatic-dynamo/">Magmatic Dynamo</a>'
   description: >
-    A specialization that increases a magmatic dynamo's maximum power output
-    (speed) by 3x its base maximum power output, and greatly increases the
-    amount of energy it generates from each unit of fuel. However, a fluid <a
-    href="/docs/coolants/">coolant</a> must be supplied.
+    A specialization that greatly increases a magmatic dynamo's maximum power
+    output and the amount of energy it generates from each unit of fuel.
+    However, the dynamo requires <a href="/docs/coolants/">coolant</a> as well
+    as fuel to generate energy.
 dynamo-compression-coolant:
   name: Closed-Loop Cooling
   url: augment-closed-loop-cooling/

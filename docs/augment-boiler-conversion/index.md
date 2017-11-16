@@ -27,7 +27,8 @@ Usage
 ### Installation
 A boiler conversion can be installed in the Augmentation tab in a
 [steam](/docs/steam-dynamo/), [magmatic](/docs/magmatic-dynamo/) or [compression
-dynamo](/docs/compression-dynamo/)'s GUI.
+dynamo](/docs/compression-dynamo/)'s GUI. It is a specialization that cannot be
+installed together with other specialization augments.
 
 ### Effects
 A [steam](/docs/steam-dynamo/), [magmatic](/docs/magmatic-dynamo/) or
