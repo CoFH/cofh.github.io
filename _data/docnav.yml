@@ -726,6 +726,7 @@ thermal-expansion:
                 - title: Closed-Loop Cooling
                   url: augment-closed-loop-cooling/
                 - title: Ignition Plugs
+                  url: augment-ignition-plugs/
                 - title: Elemental Catalyzer
                 - title: Lapidary Calibration
         - title: Other
