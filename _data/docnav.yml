@@ -730,6 +730,7 @@ thermal-expansion:
                 - title: Elemental Catalyzer
                   url: augment-elemental-catalyzer/
                 - title: Lapidary Calibration
+                  url: augment-lapidary-calibration/
         - title: Other
           items:
             - title: Florb

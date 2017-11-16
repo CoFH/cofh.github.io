@@ -60,8 +60,4 @@ are added together before being applied to the amount of energy.
 Recipes
 -------
 
-For convenience, the energy amounts shown below are the resulting amounts after
-applying the augment's energy increase of 50%. The true energy amounts are the
-listed amounts divided by 1.5.
-
 {% include recipe-table.html type='redstone-furnace-pyrolysis' recipes=page.recipe-list %}

@@ -10,7 +10,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: cactus
-    energy: 3000
+    energy: 2000
     data:
       input:
         item: [cactus]
@@ -27,7 +27,7 @@ recipes:
         fluid-amount: 100
     ingredients:
       - item: hay-bale
-    energy: 3000
+    energy: 2000
     data:
       input:
         item: [hay-bale]
@@ -43,7 +43,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: sawdust-compressed
-    energy: 1500
+    energy: 1000
     data:
       input:
         item: [sawdust-compressed]
@@ -59,7 +59,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: sugar-canes
-    energy: 1500
+    energy: 1000
     data:
       input:
         item: [sugar-canes]
@@ -76,7 +76,7 @@ recipes:
         fluid-amount: 100
     ingredients:
       - item-group: wood-log
-    energy: 1500
+    energy: 1000
     data:
       input:
         random: true
@@ -93,7 +93,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: coal
-    energy: 3000
+    energy: 2000
     data:
       input:
         item: [coal]
