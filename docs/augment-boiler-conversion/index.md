@@ -66,5 +66,5 @@ Generating energy using dynamos with boiler conversions installed and steam
 dynamos with [turbine conversions](/docs/augment-turbine-conversion/) installed
 is more fuel efficient than using dynamos to generate energy directly. A dynamo
 with a boiler conversion installed produces steam at the same rates at which it
-would normally generate energy (replacing mB with RF), while a steam dynamo with
+would normally generate energy (replacing RF with mB), while a steam dynamo with
 a turbine conversion installed generates 2 RF of energy per mB of steam.
