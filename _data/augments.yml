@@ -257,9 +257,9 @@ dynamo-compression-coolant:
   url: augment-closed-loop-cooling/
   installed-in: '<a href="/docs/compression-dynamo/">Compression Dynamo</a>'
   description: >
-    A specialization that changes a compression dynamo to no longer consume <a
-    href="/docs/coolants/">coolant</a>. However, some coolant must be present in
-    the dynamo for it to work.
+    A specialization that allows a compression dynamo to work without consuming
+    <a href="/docs/coolants/">coolant</a>. However, at least some coolant must
+    be present in the dynamo for it to work.
 dynamo-compression-fuel:
   name: Ignition Plugs
   url: augment-ignition-plugs/

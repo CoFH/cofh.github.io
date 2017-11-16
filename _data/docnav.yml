@@ -724,6 +724,7 @@ thermal-expansion:
                 - title: Isentropic Reservoir
                   url: augment-isentropic-reservoir/
                 - title: Closed-Loop Cooling
+                  url: augment-closed-loop-cooling/
                 - title: Ignition Plugs
                 - title: Elemental Catalyzer
                 - title: Lapidary Calibration
