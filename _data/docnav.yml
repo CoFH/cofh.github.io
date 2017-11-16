@@ -728,6 +728,7 @@ thermal-expansion:
                 - title: Ignition Plugs
                   url: augment-ignition-plugs/
                 - title: Elemental Catalyzer
+                  url: augment-elemental-catalyzer/
                 - title: Lapidary Calibration
         - title: Other
           items:

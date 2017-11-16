@@ -44,5 +44,5 @@ Steam cannot be placed as a block.
 
 ### Steam Dynamo with Turbine Conversion
 A [steam dynamo](/docs/steam-dynamo/) with a [turbine
-conversion](/docs/augment-turbine-conversion/) installed must be supplied with
-steam from an external source.
+conversion](/docs/augment-turbine-conversion/) installed generates 2 RF of
+energy per mB of steam.
