@@ -1839,15 +1839,15 @@ flint-and-steel:
   site: mc-wiki
   url: Flint_and_Steel
 florb:
-  name: Florb
+  name: Florb (Empty)
   sprite: [11, 30]
   site: cofh
   url: florb/
 florb-magmatic:
-  name: Magmatic Florb
+  name: Magmatic Florb (Empty)
   sprite: [12, 30]
   site: cofh
-  url: magmatic-florb/
+  url: florb/
 flower-pot:
   name: Flower Pot
   sprite: [0, 45]

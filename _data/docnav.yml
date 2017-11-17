@@ -733,12 +733,10 @@ thermal-expansion:
                   url: augment-lapidary-calibration/
         - title: Other
           items:
-            - title: Florb
-              url: florb/
-              subitems:
-                - title: Magmatic
             - title: Coolants
               url: coolants/
+            - title: Florb
+              url: florb/
 
 thermal-dynamics:
   title: Thermal Dynamics

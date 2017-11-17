@@ -9,7 +9,7 @@ recipes:
     - augment-dynamo-compression-coolant
 ---
 
-A **closed-loop cooling** [augment](/docs/augments/) allows a [compression
+A **closed-loop cooling** [augment](/docs/augments/) allows for a [compression
 dynamo](/docs/compression-dynamo/) to work without consuming the
 [coolant](/docs/coolants/) it holds.
 

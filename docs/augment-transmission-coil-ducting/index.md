@@ -31,7 +31,7 @@ Transmission coil ducting can be installed in the Augmentation tab in a
 [dynamo](/docs/dynamos/)'s GUI.
 
 ### Effects
-Installed transmission coil ducting allows a [dynamo](/docs/dynamos/) to receive
-items and fluids through its coil, which is the side that emits [Redstone
-Flux](/docs/redstone-flux/). Dynamos can normally only receive items and fluids
-through the other sides.
+Installed transmission coil ducting allows for a [dynamo](/docs/dynamos/) to
+receive items and fluids through its coil, which is the side that emits
+[Redstone Flux](/docs/redstone-flux/). Dynamos can normally only receive items
+and fluids through the other sides.
