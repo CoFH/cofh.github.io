@@ -8,8 +8,9 @@ redirect_from: /mods/thermal-dynamics/
 
 
 **Thermal Dynamics** is one of the mods in the 'Thermal' series. It provides
-various types of ducts, which are pipe-like blocks that can efficiently
-transport items, fluids, [Redstone Flux](/docs/redstone-flux/), and even people.
+various types of ducts, which are blocks that transfer
+[energy](/docs/fluxduct/), [fluids](/docs/fluiduct/), [items](/docs/itemduct/)
+and [players](/docs/viaduct/).
 
 
 <div class="uk-margin-top uk-button-group">

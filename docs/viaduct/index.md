@@ -1,8 +1,9 @@
 ---
-title: Viaducts
+title: Viaduct
 nav: thermal-dynamics
 redirect_from:
   - /docs/thermal-dynamics/ducts/viaducts/
+  - /docs/viaducts/
 recipes:
   crafting:
     - viaduct-frame

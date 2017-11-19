@@ -1,9 +1,10 @@
 ---
-title: Fluiducts
+title: Fluiduct
 nav: thermal-dynamics
 redirect_from:
   - /thermal-expansion/fluids/fluiducts/
   - /docs/thermal-dynamics/ducts/fluiducts/
+  - /docs/fluiducts/
 recipes:
   crafting:
     - fluiduct-basic

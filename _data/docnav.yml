@@ -744,17 +744,57 @@ thermal-dynamics:
   sections:
     - groups:
         - title: Ducts
-          items:
-            - title: Fluxducts
-              url: fluxducts/
-            - title: Fluiducts
-              url: fluiducts/
-            - title: Itemducts
-              url: itemducts/
-            - title: Structuralduct
-              url: structuralduct/
-            - title: Viaducts
-              url: viaducts/
+          groups:
+            - title: Energy
+              items:
+                - title: Fluxducts
+                  url: fluxducts/
+                  subitems:
+                    - title: Leadstone
+                      url: leadstone-fluxduct/
+                    - title: Hardened
+                      url: hardened-fluxduct/
+                    - title: Redstone Energy
+                      url: redstone-energy-fluxduct/
+                    - title: Signalum
+                      url: signalum-fluxduct/
+                    - title: Resonant
+                      url: resonant-fluxduct/
+                    - title: Cryo-Stabilized
+                      url: cryo-stabilized-fluxduct/
+            - title: Fluids
+              items:
+                - title: Fluiduct
+                  url: fluiduct/
+                  subitems:
+                    - title: Hardened
+                      url: hardened-fluiduct/
+                    - title: Signalum-Plated
+                      url: signalum-plated-fluiduct/
+                    - title: Super-Laminar
+                      url: super-laminar-fluiduct/
+            - title: Items
+              items:
+                - title: Itemduct
+                  url: itemduct/
+                  subitems:
+                    - title: Impulse
+                      url: impulse-itemduct/
+                    - title: Signalum-Plated
+                      url: signalum-plated-itemduct/
+                    - title: Signalum-Plated Impulse
+                      url: signalum-plated-impulse-itemduct/
+            - title: Other
+              items:
+                - title: Structuralduct
+                  url: structuralduct/
+                - title: Viaduct
+                  url: viaduct/
+                  subitems:
+                    - title: Long Range
+                      url: long-range-viaduct/
+                    - title: Long Range Linking
+                      url: long-range-linking-viaduct/
         - title: Attachments
           items:
             - title: Covers

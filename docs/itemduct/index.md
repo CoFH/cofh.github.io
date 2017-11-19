@@ -5,6 +5,7 @@ redirect_from:
   - /thermal-expansion/items/itemducts/
   - /thermal-expansion/transportation/itemducts/
   - /docs/thermal-dynamics/ducts/itemducts/
+  - /docs/itemducts/
 recipes:
   crafting:
     - itemduct

@@ -1857,42 +1857,42 @@ fluiduct-basic:
   name: Fluiduct
   sprite: [7, 31]
   site: cofh
-  url: fluiducts/
+  url: fluiduct/
 fluiduct-basic-opaque:
   name: Fluiduct (Opaque)
   sprite: [8, 31]
   site: cofh
-  url: fluiducts/
+  url: fluiduct/
 fluiduct-hardened:
   name: Hardened Fluiduct
   sprite: [9, 31]
   site: cofh
-  url: fluiducts/
+  url: hardened-fluiduct/
 fluiduct-hardened-opaque:
   name: Hardened Fluiduct (Opaque)
   sprite: [10, 31]
   site: cofh
-  url: fluiducts/
+  url: hardened-fluiduct/
 fluiduct-energy:
   name: Signalum-Plated Fluiduct
   sprite: [11, 31]
   site: cofh
-  url: fluiducts/
+  url: signalum-plated-fluiduct/
 fluiduct-energy-opaque:
   name: Signalum-Plated Fluiduct (Opaque)
   sprite: [12, 31]
   site: cofh
-  url: fluiducts/
+  url: signalum-plated-fluiduct/
 fluiduct-super:
   name: Super-Laminar Fluiduct
   sprite: [13, 31]
   site: cofh
-  url: fluiducts/
+  url: super-laminar-fluiduct/
 fluiduct-super-opaque:
   name: Super-Laminar Fluiduct (Opaque)
   sprite: [14, 31]
   site: cofh
-  url: fluiducts/
+  url: super-laminar-fluiduct/
 flux-capacitor-basic:
   name: Flux Capacitor (Basic)
   sprite: [1, 28]
@@ -2007,52 +2007,52 @@ fluxduct-basic:
   name: Leadstone Fluxduct
   sprite: [13, 30]
   site: cofh
-  url: fluxducts/
+  url: leadstone-fluxduct/
 fluxduct-hardened:
   name: Hardened Fluxduct
   sprite: [14, 30]
   site: cofh
-  url: fluxducts/
+  url: hardened-fluxduct/
 fluxduct-reinforced:
   name: Redstone Energy Fluxduct
   sprite: [15, 30]
   site: cofh
-  url: fluxducts/
+  url: redstone-energy-fluxduct/
 fluxduct-reinforced-empty:
   name: Redstone Energy Fluxduct (Empty)
   sprite: [3, 31]
   site: cofh
-  url: fluxducts/
+  url: redstone-energy-fluxduct/
 fluxduct-signalum:
   name: Signalum Fluxduct
   sprite: [0, 31]
   site: cofh
-  url: fluxducts/
+  url: signalum-fluxduct/
 fluxduct-signalum-empty:
   name: Signalum Fluxduct (Empty)
   sprite: [4, 31]
   site: cofh
-  url: fluxducts/
+  url: signalum-fluxduct/
 fluxduct-resonant:
   name: Resonant Fluxduct
   sprite: [1, 31]
   site: cofh
-  url: fluxducts/
+  url: resonant-fluxduct/
 fluxduct-resonant-empty:
   name: Resonant Fluxduct (Empty)
   sprite: [5, 31]
   site: cofh
-  url: fluxducts/
+  url: resonant-fluxduct/
 fluxduct-super:
   name: Cryo-Stabilized Fluxduct
   sprite: [2, 31]
   site: cofh
-  url: fluxducts/
+  url: cryo-stabilized-fluxduct/
 fluxduct-super-empty:
   name: Cryo-Stabilized Fluxduct (Empty)
   sprite: [6, 31]
   site: cofh
-  url: fluxducts/
+  url: cryo-stabilized-fluxduct/
 fluxed-armor-plating:
   name: Fluxed Armor Plating
   sprite: [11, 34]
@@ -2787,42 +2787,42 @@ itemduct:
   name: Itemduct
   sprite: [15, 31]
   site: cofh
-  url: itemducts/
+  url: itemduct/
 itemduct-opaque:
   name: Itemduct (Opaque)
   sprite: [0, 32]
   site: cofh
-  url: itemducts/
+  url: itemduct/
 itemduct-fast:
   name: Impulse Itemduct
   sprite: [1, 32]
   site: cofh
-  url: itemducts/
+  url: impulse-itemduct/
 itemduct-fast-opaque:
   name: Impulse Itemduct (Opaque)
   sprite: [2, 32]
   site: cofh
-  url: itemducts/
+  url: impulse-itemduct/
 itemduct-energy:
   name: Signalum-Plated Itemduct
   sprite: [3, 32]
   site: cofh
-  url: itemducts/
+  url: signalum-plated-itemduct/
 itemduct-energy-opaque:
   name: Signalum-Plated Itemduct (Opaque)
   sprite: [4, 32]
   site: cofh
-  url: itemducts/
+  url: signalum-plated-itemduct/
 itemduct-energy-fast:
   name: Signalum-Plated Impulse Itemduct
   sprite: [5, 32]
   site: cofh
-  url: itemducts/
+  url: signalum-plated-impulse-itemduct/
 itemduct-energy-fast-opaque:
   name: Signalum-Plated Impulse Itemduct (Opaque)
   sprite: [6, 32]
   site: cofh
-  url: itemducts/
+  url: signalum-plated-impulse-itemduct/
 jukebox:
   name: Jukebox
   sprite: [13, 53]
@@ -4792,22 +4792,22 @@ viaduct:
   name: Viaduct
   sprite: [8, 32]
   site: cofh
-  url: viaducts/
+  url: viaduct/
 viaduct-frame:
   name: Viaduct (Untreated)
   sprite: [11, 32]
   site: cofh
-  url: viaducts/
+  url: viaduct/
 viaduct-long-range:
   name: Long Range Viaduct
   sprite: [9, 32]
   site: cofh
-  url: viaducts/
+  url: long-range-viaduct/
 viaduct-long-range-linking:
   name: Long Range Linking Viaduct
   sprite: [10, 32]
   site: cofh
-  url: viaducts/
+  url: long-range-linking-viaduct/
 vines:
   name: Vines
   sprite: [8, 58]
