@@ -14,7 +14,7 @@ recipes:
 
 
 **Retrievers** are attachments added by Thermal Dynamics. Retrievers can be
-attached to [Itemducts](/docs/itemducts/) or [Fluiducts](/docs/fluiducts/).
+attached to [Itemducts](/docs/itemduct/) or [Fluiducts](/docs/fluiduct/).
 
 Depending on the duct the retriever is attached to the retriever can extract
 items or fluids from other inventories to itself.

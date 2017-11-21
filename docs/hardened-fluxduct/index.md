@@ -28,7 +28,7 @@ Usage
 
 ### Energy transfer
 A hardened fluxduct works the same way as most other
-[fluxducts](/docs/fluxducts/). It transfers up to of 4,000 RF/t per connection.
+[fluxducts](/docs/fluxducts/). It transfers up to 4,000 RF/t per connection.
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}

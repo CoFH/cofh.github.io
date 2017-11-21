@@ -36,7 +36,7 @@ Usage
 
 ### Energy transfer
 A redstone energy fluxduct works the same way as most other
-[fluxducts](/docs/fluxducts/). It transfers up to of 9,000 RF/t per connection.
+[fluxducts](/docs/fluxducts/). It transfers up to 9,000 RF/t per connection.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

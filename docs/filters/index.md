@@ -14,7 +14,7 @@ recipes:
 
 
 **Filters** are attachments added by Thermal Dynamics. Filters can be attached
-to [Itemducts](/docs/itemducts/) or [Fluiducts](/docs/fluiducts/).
+to [Itemducts](/docs/itemduct/) or [Fluiducts](/docs/fluiduct/).
 
 Depending on the duct the filter is attached to the filter can filter items or
 fluids to the connected inventory.

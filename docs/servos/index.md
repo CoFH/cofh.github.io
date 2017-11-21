@@ -14,7 +14,7 @@ recipes:
 
 
 **Servos** are attachments added by Thermal Dynamics. Servos can be attached to
-[Itemducts](/docs/itemducts/) or [Fluiducts](/docs/fluiducts/).
+[Itemducts](/docs/itemduct/) or [Fluiducts](/docs/fluiduct/).
 
 Depending on the duct the servo is attached to the servo can extract items or
 fluids from the connected inventory.
