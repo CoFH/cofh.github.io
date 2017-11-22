@@ -41,7 +41,7 @@ Usage
 
 ### Placement
 When placed, a fluiduct connects to any adjacent fluiducts and blocks that can
-output or receive fluids. A side of a fluiduct can be disconnected and
+output or receive fluids. Any side of a fluiduct can be disconnected and
 reconnected by using a [crescent hammer](/docs/crescent-hammer/) or similar on
 it.
 
@@ -72,9 +72,11 @@ cryotheum](/docs/gelid-cryotheum/). To transfer these fluids, a [hardened
 fluiduct](/docs/hardened-fluiduct/) must be used.
 
 ### Attachments
-[Servos](/docs/servos/), [filters](/docs/filters/) and
-[retrievers](/docs/retrievers/) can be attached to fluiducts to change how they
-work.
+Certain items can be attached to fluiduct connections to change how fluiducts
+work. [Servos](/docs/servos/) allow fluiduct connections to pull fluids out of
+blocks, [filters](/docs/filters/) allow them to restrict which fluids may pass
+through, and [retrievers](/docs/retrievers/) allow them to pull fluids towards
+themselves out of other blocks connected to the network.
 
 ### Light source
 A transparent fluiduct will emit light when it contains a fluid that emits
