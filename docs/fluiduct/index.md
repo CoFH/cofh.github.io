@@ -41,9 +41,9 @@ Usage
 
 ### Placement
 When placed, a fluiduct connects to any adjacent fluiducts and blocks that can
-output or receive fluids. Any side of a fluiduct can be disconnected and
-reconnected by using a [crescent hammer](/docs/crescent-hammer/) or similar on
-it.
+output or receive fluids. Any connected side of a fluiduct can be disconnected
+and reconnected by using a [crescent hammer](/docs/crescent-hammer/) or similar
+on it.
 
 ### Fluid transfer
 When a block inserts a fluid into a fluiduct, the fluid is distributed to all

@@ -38,8 +38,8 @@ Usage
 
 ### Placement
 When placed, a fluxduct connects to any adjacent fluxducts and blocks that can
-transmit or receive [Redstone Flux](/docs/redstone-flux/). Any side of a
-fluxduct can be disconnected and reconnected by using a [crescent
+transmit or receive [Redstone Flux](/docs/redstone-flux/). Any connected side of
+a fluxduct can be disconnected and reconnected by using a [crescent
 hammer](/docs/crescent-hammer/) or similar on it.
 
 ### Energy transfer

@@ -1,41 +1,65 @@
 ---
 title: Viaduct
 nav: thermal-dynamics
+image:
+  - alt: Viaduct
+    file: thermal-dynamics/viaduct.png
 redirect_from:
   - /docs/thermal-dynamics/ducts/viaducts/
   - /docs/viaducts/
 recipes:
   crafting:
     - viaduct-frame
-    - viaduct-long-range
+  transposer-fill:
+    - viaduct
+usage-recipes:
+  transposer-fill:
+    - viaduct-long-range-linking
 ---
 
-![](/assets/images/thermal-dynamics/viaducts.png "Regular, Long Range, Long Range Linking and Untreated Viaduct")
+> Whoosh!
 
-**Viaducts** are blocks added by Thermal Dynamics. They transport players between locations in the world.
 
-There are several types of Viaducts.
+A **viaduct** is a block that transfers players between configured locations.
+
 
 Obtaining
 ---------
 
+A placed viaduct can be instantly picked up by dismantling it with a [crescent
+hammer](/docs/crescent-hammer/). It can also be mined using a
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
-## Crafting
+### Fluid Transposer
+{% include recipe-table.html type='transposer-fill' recipes=page.recipes.transposer-fill %}
 
 
-**Viaduct**
-![](/assets/images/recipes/viaduct.png "Hardened Fluxduct recipe")
-[Fluid Transposer](/docs/fluid-transposer/)
+Usage
+-----
 
-*   100 mB [Zephyrean Aerotheum](/docs/zephyrean-aerotheum/)
-*   [Viaduct (Untreated)](/docs/viaducts/)
+### Placement
+When placed, a viaduct connects to any adjacent viaducts. Any connected side of
+a viaduct can be disconnected and reconnected by using a [crescent
+hammer](/docs/crescent-hammer/) or similar on it.
+
+### Player transfer
+A side of a viaduct can be opened and closed by using a [crescent
+hammer](/docs/crescent-hammer/) or similar on it. Every opened side in a network
+of viaducts counts as both an entrance and a destination. Every destination can
+be given a name and an item icon.
+
+When used by a player, a viaduct entrance allows them to pick a destination on
+the viaduct network. After choosing a destination, the player is transferred
+there through the viaducts. While traveling, they can exit the viaducts at any
+time by sneaking.
+
+Players in a viaduct move at a speed of 10 blocks per second (2 ticks per
+block). The speed may be increased by using [long range
+viaducts](/docs/long-range-viaduct/).
 
 
-**Long Range Linking Viaduct**
-![](/assets/images/recipes/long-range-linking-viaduct.png "Redstone Energy Fluxduct recipe")
-[Fluid Transposer](/docs/fluid-transposer/)
-
-*   1000 mB [Resonant Ender](/docs/resonant-ender/)
-*   [Viaduct](/docs/viaducts/)
+### Fluid Transposer ingredient
+{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}

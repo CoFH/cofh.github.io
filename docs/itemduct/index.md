@@ -47,9 +47,9 @@ Usage
 
 ### Placement
 When placed, an itemduct connects to any adjacent itemducts and blocks that can
-output or receive items. Any side of an itemduct can be disconnected and
-reconnected by using a [crescent hammer](/docs/crescent-hammer/) or similar on
-it.
+output or receive items. Any connected side of an itemduct can be disconnected
+and reconnected by using a [crescent hammer](/docs/crescent-hammer/) or similar
+on it.
 
 ### Item transfer
 When a block inserts items into an itemduct, the items are transported to the

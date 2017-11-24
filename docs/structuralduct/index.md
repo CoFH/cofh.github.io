@@ -34,8 +34,8 @@ Usage
 
 ### Placement
 When placed, a structuralduct connects to any adjacent ducts of the same width.
-Any side of a structuralduct can be disconnected and reconnected by using a
-[crescent hammer](/docs/crescent-hammer/) or similar on it.
+Any connected side of a structuralduct can be disconnected and reconnected by
+using a [crescent hammer](/docs/crescent-hammer/) or similar on it.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
