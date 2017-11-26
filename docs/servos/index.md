@@ -73,7 +73,7 @@ Low
 High
 : The servo is only active when powered. This is the default mode.
 
-### Item extraction
+### Item transfer
 When installed on an [itemduct](/docs/itemduct/) connection, an active servo
 extracts items from the block it is connected to.
 
@@ -86,8 +86,8 @@ faster through the itemducts.
 
 ### Item filtering
 A servo can be configured to only extract items that match a given list of
-items. The servo has various options that determine how this list is used to
-match items. Some of these are only available at higher [tiers](#tiers).
+items. It has various options that determine how this list is used to match
+items. Some of these are only available at higher [tiers](#tiers).
 
 Blacklist/Whitelist
 : Treat the list of items as a blacklist (extract all items except these) or as
@@ -108,8 +108,8 @@ Mod Owner
 : Match items that are added by the same mod. This is ignored by default.
 
 ### Item routing
-A servo can be configured to prefer sending items to certain blocks in the
-network.
+At higher [tiers](#tiers), a servo can be configured to prefer sending items to
+certain blocks in the network.
 
 Nearest-First
 : Items are sent to the nearest connected block first. This is the default mode.
@@ -121,9 +121,9 @@ Random
 : Each item is sent to a random connected block.
 
 Round Robin
-: Items are evenly divided over each connected block.
+: Items are sent to each connected block in a repeating order.
 
-### Fluid extraction
+### Fluid transfer
 When installed on a [fluiduct](/docs/fluiduct/) connection, an active servo
 extracts fluids from the block it is connected to. The rate at which fluids are
 extracted depends on the servo's [tier](#tiers).
@@ -150,13 +150,13 @@ Servos come in six tiers. These tiers are mostly equivalent to the
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Item extraction rate | Max. item stack size | Item speed boost | Item filter options | Extracts from multiple slots | Fluid extraction rate | Filter slots |
+| Tier | Item extraction rate | Max. item stack size | Item speed boost | Item filter options | Extracts from multiple slots | Configurable item routing | Fluid extraction rate | Filter slots |
 |---
-| Basic | 3s | 8 | - | Blacklist/Whitelist | No | 50% | 3 |
-| Hardened | 2s | 16 | - | Blacklist/Whitelist, Metadata | No | 75% | 6 |
-| Reinforced | 1s | 32 | - | All | No | 100% | 9 |
-| Signalum | 0.5s | 64 | × 2 | All | Yes | 150% | 12 |
-| Resonant | 0.5s | 64 | × 3 | All | Yes | 200% | 15 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+| Basic | 3s | 8 | - | Blacklist/Whitelist | No | No | 50% | 3 |
+| Hardened | 2s | 16 | - | Blacklist/Whitelist, Metadata | No | No | 75% | 6 |
+| Reinforced | 1s | 32 | - | All | No | Yes | 100% | 9 |
+| Signalum | 0.5s | 64 | × 2 | All | Yes | Yes | 150% | 12 |
+| Resonant | 0.5s | 64 | × 3 | All | Yes | Yes | 200% | 15 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small}
 </div>
 {::options parse_block_html="false" /}
