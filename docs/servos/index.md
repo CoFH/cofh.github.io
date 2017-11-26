@@ -150,13 +150,13 @@ Servos come in six tiers. These tiers are mostly equivalent to the
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Item extraction rate | Max. item stack size | Item speed boost | Item filter options | Extracts from multiple slots | Fluid extraction rate |
+| Tier | Item extraction rate | Max. item stack size | Item speed boost | Item filter options | Extracts from multiple slots | Fluid extraction rate | Filter slots |
 |---
-| Basic | 3s | 8 | - | Blacklist/Whitelist | No | 50% |
-| Hardened | 2s | 16 | - | Blacklist/Whitelist, Metadata | No | 75% |
-| Reinforced | 1s | 32 | - | All | No | 100% |
-| Signalum | 0.5s | 64 | × 2 | All | Yes | 150% |
-| Resonant | 0.5s | 64 | × 3 | All | Yes | 200% |
+| Basic | 3s | 8 | - | Blacklist/Whitelist | No | 50% | 3 |
+| Hardened | 2s | 16 | - | Blacklist/Whitelist, Metadata | No | 75% | 6 |
+| Reinforced | 1s | 32 | - | All | No | 100% | 9 |
+| Signalum | 0.5s | 64 | × 2 | All | Yes | 150% | 12 |
+| Resonant | 0.5s | 64 | × 3 | All | Yes | 200% | 15 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
