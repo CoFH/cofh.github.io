@@ -820,61 +820,69 @@ redstone-arsenal:
   url: redstone-arsenal/
   sections:
     - groups:
-        - title: Tools
+        - title: Flux-Infused Tools
           items:
-            - title: Flux-Infused Pickaxe
+            - title: Pickaxe
               url: flux-infused-pickaxe/
-            - title: Flux-Infused Shovel
+            - title: Shovel
               url: flux-infused-shovel/
-            - title: Flux-Infused Axe
+            - title: Axe
               url: flux-infused-axe/
-            - title: Flux-Infused Fishing Rod
+            - title: Fishing Rod
               url: flux-infused-fishing-rod/
-            - title: Flux-Infused Hammer
+            - title: Hammer
               url: flux-infused-hammer/
-            - title: Flux-Infused Sickle
+            - title: Sickle
               url: flux-infused-sickle/
-            - title: Flux-Infused OmniWrench
+            - title: OmniWrench
               url: flux-infused-omniwrench/
-        - title: Weapons
+        - title: Flux-Infused Weapons
           items:
-            - title: Flux-Infused Sword
+            - title: Sword
               url: flux-infused-sword/
-            - title: Flux-Infused Bow
+            - title: Bow
               url: flux-infused-bow/
-            - title: Flux-Infused BattleWrench
-              url: flux-infused-battlewrench/
-            - title: Flux-Infused Shield
-              url: flux-infused-shield/
-            - title: Flux-Infused Quiver
+            - title: Quiver
               url: flux-infused-quiver/
-        - title: Armor
+            - title: Shield
+              url: flux-infused-shield/
+            - title: BattleWrench
+              url: flux-infused-battlewrench/
+        - title: Flux-Infused Armor
           items:
-            - title: Flux-Infused Helm
-            - title: Flux-Infused Chestplate
-            - title: Flux-Infused Leggings
-            - title: Flux-Infused Boots
+            - title: Helm
+              url: flux-infused-helm/
+            - title: Chestplate
+              url: flux-infused-chestplate/
+            - title: Leggings
+              url: flux-infused-leggings/
+            - title: Boots
+              url: flux-infused-boots/
         - title: Materials
           items:
-            - title: Fluxed Electrum Ingot
-              url: fluxed-electrum-ingot/
-            - title: Fluxed Electrum Blend
-              url: fluxed-electrum-blend/
-            - title: Fluxed Electrum Nugget
-              url: fluxed-electrum-nugget/
-            - title: Fluxed Electrum Gear
-              url: fluxed-electrum-gear/
-            - title: Fluxed Electrum Plate
-              url: fluxed-electrum-plate/
-            - title: Fluxed Electrum Block
-              url: fluxed-electrum-block/
+            - title: Fluxed Electrum
+              subitems:
+                - title: Ingot
+                  url: fluxed-electrum-ingot/
+                - title: Blend
+                  url: fluxed-electrum-blend/
+                - title: Nugget
+                  url: fluxed-electrum-nugget/
+                - title: Gear
+                  url: fluxed-electrum-gear/
+                - title: Plate
+                  url: fluxed-electrum-plate/
+                - title: Block
+                  url: fluxed-electrum-block/
             - title: Flux Crystal
               url: flux-crystal/
-            - title: Flux Crystal Block
-              url: flux-crystal-block/
+              subitems:
+                - title: Block
+                  url: flux-crystal-block/
             - title: Obsidian Rod
               url: obsidian-rod/
-            - title: Flux-Infused Obsidian Rod
-              url: flux-infused-obsidian-rod/
+              subitems:
+                - title: Flux-Infused
+                  url: flux-infused-obsidian-rod/
             - title: Fluxed Armor Plating
               url: fluxed-armor-plating/

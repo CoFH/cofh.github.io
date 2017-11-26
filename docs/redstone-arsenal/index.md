@@ -9,9 +9,8 @@ redirect_from:
 ![Redstone Arsenal logo](/assets/images/modlogos/redstone-arsenal.png){:.cofh-mod-page-logo}
 
 
-**Redstone Arsenal** is one of the mods in the 'Thermal' series. It provides
-powerful [Redstone Flux](/docs/redstone-flux/)-powered tools, weapons and armor,
-as well as unique materials that are used to build them.
+**Redstone Arsenal** is a mod that provides a set of powerful tools, weapons and
+armor powered by [Redstone Flux](/docs/redstone-flux/).
 
 
 <div class="uk-margin-top uk-button-group">
