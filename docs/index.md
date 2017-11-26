@@ -32,4 +32,6 @@ Index
 * [Thermal Expansion](/docs/thermal-expansion/)
 * [Thermal Dynamics](/docs/thermal-dynamics/)
 * [Thermal Cultivation](/docs/thermal-cultivation/)
+
+### Other mods
 * [Redstone Arsenal](/docs/redstone-arsenal/)
