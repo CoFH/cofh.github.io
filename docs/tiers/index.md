@@ -5,9 +5,8 @@ redirect_from:
   - /docs/thermal-expansion/other/tier-system/
 ---
 
-Certain blocks and items added by [Thermal Expansion](/docs/thermal-expansion/)
-come in six **tiers**. They can be upgraded to higher tiers to make them more
-powerful.
+Certain blocks and items added by the mods in the 'Thermal' series come in six
+**tiers**. They can be upgraded to higher tiers to make them more powerful.
 
 
 Upgrading
@@ -27,6 +26,7 @@ The following blocks and items can be upgraded:
 * [Cache](/docs/cache/)
 * [Strongbox](/docs/strongbox/)
 * [Satchel](/docs/satchel/)
+* [Watering Can](/docs/watering-can/)
 
 
 List of tiers
