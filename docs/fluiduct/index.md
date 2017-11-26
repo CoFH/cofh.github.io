@@ -76,7 +76,7 @@ Certain items can be attached to fluiduct connections to change how fluiducts
 work. [Servos](/docs/servos/) allow fluiduct connections to pull fluids out of
 blocks, [filters](/docs/filters/) allow them to restrict which fluids may pass
 through, and [retrievers](/docs/retrievers/) allow them to pull fluids towards
-themselves out of other blocks connected to the network.
+themselves from other blocks connected to the network.
 
 ### Light source
 A transparent fluiduct will emit light when it contains a fluid that emits

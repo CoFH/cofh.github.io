@@ -66,7 +66,7 @@ Certain items can be attached to itemduct connections to change how itemducts
 work. [Servos](/docs/servos/) allow itemduct connections to pull items out of
 blocks, [filters](/docs/filters/) allow them to restrict which items may pass
 through, and [retrievers](/docs/retrievers/) allow them to pull items towards
-themselves out of other blocks connected to the network.
+themselves from other blocks connected to the network.
 
 ### Fluid Transposer ingredient
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
