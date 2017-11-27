@@ -1,20 +1,43 @@
 ---
 title: Fluxed Electrum Blend
 nav: redstone-arsenal
+image:
+  - alt: Fluxed electrum blend
+    file: redstone-arsenal/dust-fluxed-electrum.gif
 redirect_from:
   - /docs/redstone-arsenal/materials/fluxed-electrum-blend/
 recipes:
+  crafting:
+    - dust-fluxed-electrum-using-electrum
+    - dust-fluxed-electrum-using-gold-and-silver
+  transposer-fill:
+    - dust-fluxed-electrum
   pulverizer:
-    - 'dust-fluxed-electrum'
+    - dust-fluxed-electrum
+usage-recipes:
+  smelter:
+    - dust-smelting-fluxed-electrum
 ---
 
-A **Fluxed Electrum Blend** is an item added by [Redstone
-Arsenal](/docs/redstone-arsenal/). It is the [Pulverized](/docs/pulverizer/)
-form of the [Fluxed Electrum Ingot](/docs/fluxed-electrum-ingot/).
+**Fluxed electrum blend** is a raw material. It is the dust form of [fluxed
+electrum](/docs/fluxed-electrum-ingot/).
 
 
 Obtaining
 ---------
 
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Fluid Transposer
+{% include recipe-table.html type='transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
+
 ### Pulverizer
-{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+
+
+Usage
+-----
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

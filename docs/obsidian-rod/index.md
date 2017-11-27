@@ -1,20 +1,32 @@
 ---
 title: Obsidian Rod
 nav: redstone-arsenal
+image:
+  - alt: Obsidian rod
+    file: redstone-arsenal/obsidian-rod.png
 redirect_from:
   - /docs/redstone-arsenal/materials/obsidian-rod/
 recipes:
   crafting:
-    - 'obsidian-rod'
+    - obsidian-rod
+usage-recipes:
+  crafting:
+    - obsidian-rod-flux-infused
 ---
 
-An **Obsidian Rod** is an item added by [Redstone Arsenal](/docs/redstone-arsenal/).
-
-It is used to make the [Flux-Infused Obsidian Rod](/docs/flux-infused-obsidian-rod/).
+**Obsidian rods** are crafting materials used to make flux-infused tools and
+weapons.
 
 
 Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

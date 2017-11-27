@@ -1,19 +1,34 @@
 ---
 title: Fluxed Armor Plating
 nav: redstone-arsenal
+image:
+  - alt: Fluxed armor plating
+    file: redstone-arsenal/fluxed-armor-plating.png
 redirect_from:
   - /docs/redstone-arsenal/materials/fluxed-armor-plating/
 recipes:
   crafting:
-    - 'fluxed-armor-plating'
+    - fluxed-armor-plating
+usage-recipes:
+  crafting:
+    - flux-infused-helmet
+    - flux-infused-chestplate
+    - flux-infused-leggings
+    - flux-infused-boots
 ---
 
-A **Fluxed Armor Plating** is an item added by [Redstone Arsenal](/docs/redstone-arsenal/).
+**Fluxed armor plating** is a crafting material used to make flux-infused armor.
 
-It is used to make different equipments from [Redstone Arsenal](/docs/redstone-arsenal/).
 
 Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
