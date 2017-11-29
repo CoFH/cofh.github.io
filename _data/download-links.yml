@@ -112,6 +112,7 @@
   links:
     curse: https://mods.curse.com/mc-mods/minecraft/271835-thermal-cultivation
     curseforge: https://minecraft.curseforge.com/projects/thermal-cultivation
+    changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalcultivation_changelog.txt
 
 - name: Redstone Arsenal
   tag: redstone-arsenal
