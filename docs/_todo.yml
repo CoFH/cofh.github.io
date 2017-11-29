@@ -1,0 +1,87 @@
+cofh-core:
+  git: cf357ac..dfa8466
+  todo:
+    - additional potions (haste, resistance, levitation, absorption, wither)
+    - sickles support leech and vorpal
+
+cofh-world:
+  git: d32c170..a6624ea
+  todo:
+    - commands
+
+thermal-foundation:
+  git: 3a05b0b..dd99b71
+  todo:
+    - add/update recipe sprites
+    - add/update recipes
+    - interpolated fluid textures
+    - new aluminum ore texture
+    - aluminum ore is smeltable
+    - iridium ore is smeltable
+    - mana infused ore is smeltable
+    - pulverized aluminum is smeltable
+    - pulverized iridium is smeltable
+    - pulverized mana infused metal is smeltable
+    - schematic is removed
+    - upgrade/conversion kits moved here
+    - tome of knowledge
+    - energized glowstone also applies glowing
+    - changed blazing pyrotheum slow rates
+    - blazing pyrotheum has its own material
+    - blazing pyrotheum has its own damage source
+    - changed gelid cryotheum slow rates
+    - zephyrean aerotheum applies only levitation
+    - tectonic petrotheum applies only haste and night vision (changed length/potency)
+    - essence of knowledge
+    - potion fluid
+    - changed copper tool material
+    - changed silver tool material
+    - axe attack damage / attack speed based on harvest level / efficiency
+    - hammer attack damage / attack speed based on harvest level / efficiency
+    - hammers can be used to craft gravel from cobblestone
+    - sickles support leech and vorpal
+    - brewing recipes for core's new potions
+
+thermal-expansion:
+  git: 2253f0f1..d08cccbf
+  todo:
+    - add/update recipe sprites
+    - add/update recipes
+    - pulverizer gives 10 lapis per ore
+    - phytogenic insolator can grow everything by itself
+    - phytogenic insolator recipes tweaked
+    - fractionating still recipes tweaked
+    - fluid transposer recipes tweaked
+    - energetic infuser may gain an input tank from augments
+    - alchemical imbuer
+    - arcane ensorcellator
+    - increased aqueous accumulator output
+    - aqueous accumulator transfers output *after* generating water
+    - arboreal extractor transfers output *after* extracting fluid
+    - aquatic entangler transfers output *after* catching fish
+    - fluid allocator
+    - lexical transmuter
+    - insightful condenser
+    - decoctive diffuser
+    - dynamos always face upwards when placed
+    - dynamos' processIdle is called properly
+    - steam dynamo cannot use weak furnace fuel
+    - cache usage logic changed
+    - portable tank can be locked
+    - portable tank can be secured
+    - portable tank redstone control
+    - portable tank config gui
+    - creative satchel texture updated
+    - upgrade/conversion kits moved to TF
+    - tectonic initiator increases primary output amount differently
+    - resin funnel determines fluid output differently
+    - metallurgical recovery augment
+    - pyro-concentrator increases primary output amount differently
+    - pyro-concentrator secondary bonus increased
+    - substrate augments are removed
+    - nutrient recovery augment
+    - monoculture cycle augment
+    - reflux column augment
+    - alchemical retort augment
+    - flux reconstruction augment
+    - reagent recovery augment
