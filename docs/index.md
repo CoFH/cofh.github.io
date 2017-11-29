@@ -6,17 +6,6 @@ redirect_from:
   - /core-mods/
 ---
 
-Work In Progress
-----------------
-
-The documentation is currently being updated for the latest versions of the
-mods. Outdated information has been removed; it will be re-added later in a
-nicer way.
-
-For now, an old copy of the documentation is available
-[here](https://oldcofh.github.io/docs/).
-
-
 Index
 -----
 
@@ -24,14 +13,22 @@ Index
 
 ### Core
 * [Redstone Flux](/docs/redstone-flux/)
-* [CoFH Core](/docs/cofh-core/)
-* [CoFH World](/docs/cofh-world/)
+* [CoFH Core](/docs/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.3.6)</span>
+* [CoFH World](/docs/cofh-world/) - <span class="uk-text-small uk-text-success">up to date (1.0.1)</span>
 
 ### Thermal Series
-* [Thermal Foundation](/docs/thermal-foundation/)
-* [Thermal Expansion](/docs/thermal-expansion/)
-* [Thermal Dynamics](/docs/thermal-dynamics/)
-* [Thermal Cultivation](/docs/thermal-cultivation/)
+* [Thermal Foundation](/docs/thermal-foundation/) - <span class="uk-text-small uk-text-success">up to date (2.3.6)</span>
+* [Thermal Expansion](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-success">up to date (5.3.6)</span>
+* [Thermal Dynamics](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-success">up to date (2.3.6)</span>
+* [Thermal Cultivation](/docs/thermal-cultivation/) - <span class="uk-text-small uk-text-success">up to date (0.1.1)</span>
 
 ### Other mods
-* [Redstone Arsenal](/docs/redstone-arsenal/)
+* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-warning">WIP (🡒 2.3.6)</span>
+
+
+Older versions
+--------------
+
+Documentation that only applied to older versions of the mods has been removed.
+It will be re-added later in a nicer way. For now, an old copy of the
+documentation is available [here](https://oldcofh.github.io/docs/).
