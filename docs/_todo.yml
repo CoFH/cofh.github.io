@@ -12,9 +12,8 @@ cofh-world:
 thermal-foundation:
   git: 3a05b0b..dd99b71
   todo:
-    - add/update recipe sprites
+    - add/update recipe items/fluids
     - add/update recipes
-    - interpolated fluid textures
     - new aluminum ore texture
     - aluminum ore is smeltable
     - iridium ore is smeltable
@@ -45,7 +44,7 @@ thermal-foundation:
 thermal-expansion:
   git: 2253f0f1..d08cccbf
   todo:
-    - add/update recipe sprites
+    - add/update recipe items
     - add/update recipes
     - pulverizer gives 10 lapis per ore
     - phytogenic insolator can grow everything by itself

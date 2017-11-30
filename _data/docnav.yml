@@ -405,6 +405,8 @@ thermal-foundation:
                       url: resonant-clathrate/
                 - title: Mana Dust
                   url: mana-dust/
+                - title: Geode
+                  url: geode/
         - title: Utilities
           items:
             - title: Crescent Hammer
@@ -436,10 +438,6 @@ thermal-foundation:
                   url: rich-aqua-chow/
                 - title: Fluxed
                   url: fluxed-aqua-chow/
-        - title: Other
-          items:
-            - title: Geode
-              url: geode/
     - title: Blocks
       groups:
         - title: Metal
