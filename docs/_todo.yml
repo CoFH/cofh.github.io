@@ -1,20 +1,17 @@
 cofh-core:
   git: cf357ac..dfa8466
   todo:
-    - update docnav
     - additional potions (haste, resistance, levitation, absorption, wither)
     - sickles support leech and vorpal
 
 cofh-world:
   git: d32c170..a6624ea
   todo:
-    - update docnav
     - commands
 
 thermal-foundation:
   git: 3a05b0b..dd99b71
   todo:
-    - update docnav
     - add/update recipe sprites
     - add/update recipes
     - interpolated fluid textures
@@ -48,7 +45,6 @@ thermal-foundation:
 thermal-expansion:
   git: 2253f0f1..d08cccbf
   todo:
-    - update docnav
     - add/update recipe sprites
     - add/update recipes
     - pulverizer gives 10 lapis per ore

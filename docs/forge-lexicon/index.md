@@ -13,7 +13,7 @@ recipes:
 ![Forge Lexicon](/assets/images/thermal-foundation/forge-lexicon.png){:style="height: 128px"}
 
 
-A **Forge Lexicon** is a tool that converts items into other items that are
+A **Forge Lexicon** is an item that converts items into other items that are
 considered equivalent. Examples of equivalent items are the various versions of
 copper and tin ingots added by different mods.
 

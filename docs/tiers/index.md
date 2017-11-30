@@ -1,6 +1,6 @@
 ---
 title: Tiers
-nav: thermal-expansion
+nav: thermal-foundation
 redirect_from:
   - /docs/thermal-expansion/other/tier-system/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Conversion Kits
-nav: thermal-expansion
+nav: thermal-foundation
 image:
   - alt: Reinforced conversion kit
     file: thermal-expansion/conversion-kit-reinforced.png

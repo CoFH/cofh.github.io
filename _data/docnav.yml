@@ -33,6 +33,7 @@ cofh-core:
                   url: smelting/
                 - title: Vorpal
                   url: vorpal/
+            - title: Potions
 
 cofh-world:
   title: CoFH World
@@ -42,6 +43,7 @@ cofh-world:
         - items:
             - title: World Generator Configuration
               url: world-generator-configuration/
+            - title: Commands
 
 thermal-foundation:
   title: Thermal Foundation
@@ -359,27 +361,40 @@ thermal-foundation:
                   url: petrotheum-dust/
             - title: Parts
               items:
+                - title: Redstone Servo
+                  url: redstone-servo/
                 - title: Redstone Reception Coil
                   url: redstone-reception-coil/
                 - title: Redstone Transmission Coil
                   url: redstone-transmission-coil/
                 - title: Redstone Conductance Coil
                   url: redstone-conductance-coil/
-                - title: Redstone Servo
-                  url: redstone-servo/
             - title: Other
               items:
-                - title: Aqua-Chow
-                  url: aqua-chow/
+                - title: Sulfur
+                  url: sulfur/
+                - title: Niter
+                  url: niter/
+                - title: Sawdust
+                  url: sawdust/
+                  subitems:
+                    - title: Compressed
+                      url: compressed-sawdust/
+                - title: Coal Coke
+                  url: coal-coke/
+                - title: Rosin
+                  url: rosin/
+                - title: Tar
+                  url: tar/
+                - title: Slag
+                  url: slag/
                   subitems:
                     - title: Rich
-                      url: rich-aqua-chow/
-                    - title: Fluxed
-                      url: fluxed-aqua-chow/
-                - title: Bitumen
-                  url: bitumen/
+                      url: rich-slag/
                 - title: Cinnabar
                   url: cinnabar/
+                - title: Bitumen
+                  url: bitumen/
                 - title: Clathrate
                   subitems:
                     - title: Destabilized
@@ -388,53 +403,43 @@ thermal-foundation:
                       url: energized-clathrate/
                     - title: Resonant
                       url: resonant-clathrate/
-                - title: Coal Coke
-                  url: coal-coke/
-                - title: Geode
-                  url: geode/
                 - title: Mana Dust
                   url: mana-dust/
-                - title: Niter
-                  url: niter/
-                - title: Phyto-Gro
-                  url: phyto-gro/
-                  subitems:
-                    - title: Rich
-                      url: rich-phyto-gro/
-                    - title: Fluxed
-                      url: fluxed-phyto-gro/
-                - title: Rosin
-                  url: rosin/
-                - title: Sawdust
-                  url: sawdust/
-                  subitems:
-                    - title: Compressed
-                      url: compressed-sawdust/
-                - title: Slag
-                  url: slag/
-                  subitems:
-                    - title: Rich
-                      url: rich-slag/
-                - title: Sulfur
-                  url: sulfur/
-                - title: Tar
-                  url: tar/
-        - title: Tools
+        - title: Utilities
           items:
             - title: Crescent Hammer
               url: crescent-hammer/
-            - title: Forge Lexicon
-              url: forge-lexicon/
             - title: Multimeter
               url: multimeter/
-            - title: Redprint
-              url: redprint/
-        - title: Other
-          items:
+            - title: Upgrade Kits
+              url: upgrade-kits/
+            - title: Conversion Kits
+              url: conversion-kits/
             - title: Signalum Security Lock
               url: signalum-security-lock/
-            - title: Schematic
-              url: schematic/
+            - title: Redprint
+              url: redprint/
+            - title: Forge Lexicon
+              url: forge-lexicon/
+            - title: Tome of Knowledge
+            - title: Phyto-Gro
+              url: phyto-gro/
+              subitems:
+                - title: Rich
+                  url: rich-phyto-gro/
+                - title: Fluxed
+                  url: fluxed-phyto-gro/
+            - title: Aqua-Chow
+              url: aqua-chow/
+              subitems:
+                - title: Rich
+                  url: rich-aqua-chow/
+                - title: Fluxed
+                  url: fluxed-aqua-chow/
+        - title: Other
+          items:
+            - title: Geode
+              url: geode/
     - title: Blocks
       groups:
         - title: Metal
@@ -501,6 +506,8 @@ thermal-foundation:
               url: tectonic-petrotheum/
         - title: Fuel
           items:
+            - title: Creosote Oil
+              url: creosote-oil/
             - title: Liquifacted Coal
               url: liquifacted-coal/
             - title: Crude Oil
@@ -509,8 +516,6 @@ thermal-foundation:
               url: naphtha/
             - title: Refined Fuel
               url: refined-fuel/
-            - title: Creosote Oil
-              url: creosote-oil/
             - title: Tree Oil
               url: tree-oil/
         - title: Tree
@@ -521,10 +526,12 @@ thermal-foundation:
               url: sap/
         - title: Other
           items:
-            - title: Mushroom Stew
-              url: mushroom-stew/
             - title: Steam
               url: steam/
+            - title: Mushroom Stew
+              url: mushroom-stew/
+            - title: Essence of Knowledge
+            - title: Potion
             - title: Syrup
               url: syrup/
             - title: Primal Mana
@@ -570,6 +577,9 @@ thermal-foundation:
     - title: Other
       groups:
         - items:
+            - title: Tiers
+              url: tiers/
+            - title: Potion recipes
             - title: Vanilla recipes
               url: vanilla-recipes/
 
@@ -603,6 +613,8 @@ thermal-expansion:
               url: energetic-infuser/
             - title: Centrifugal Separator
               url: centrifugal-separator/
+            - title: Alchemical Imbuer
+            - title: Arcane Ensorcellator
             - title: Glacial Precipitator
               url: glacial-precipitator/
             - title: Igneous Extruder
@@ -622,6 +634,10 @@ thermal-expansion:
               url: aquatic-entangler/
             - title: Item Allocator
               url: item-allocator/
+            - title: Fluid Allocator
+            - title: Lexical Transmuter
+            - title: Insightful Condenser
+            - title: Decoctive Diffuser
         - title: Dynamos
           url: dynamos/
           items:
@@ -651,13 +667,6 @@ thermal-expansion:
               url: strongbox/
             - title: Satchel
               url: satchel/
-        - title: Tiers
-          url: tiers/
-          items:
-            - title: Upgrade Kits
-              url: upgrade-kits/
-            - title: Conversion Kits
-              url: conversion-kits/
         - title: Augments
           url: augments/
           groups:
@@ -679,22 +688,23 @@ thermal-expansion:
                   url: augment-tectonic-initiator/
                 - title: Resin Funnel
                   url: augment-resin-funnel/
+                - title: Metallurgical Recovery
                 - title: Pyro-Concentrator
                   url: augment-pyro-concentrator/
-                - title: Mycelium Substrate
-                  url: augment-mycelium-substrate/
-                - title: Nether Substrate
-                  url: augment-nether-substrate/
-                - title: Ender Substrate
-                  url: augment-ender-substrate/
+                - title: Nutrient Recovery
                 - title: Sapling Infuser
                   url: augment-sapling-infuser/
+                - title: Monoculture Cycle
                 - title: Numismatic Press
                   url: augment-numismatic-press/
                 - title: Pyroconvective Loop
                   url: augment-pyroconvective-loop/
+                - title: Reflux Column
+                - title: Alchemical Retort
                 - title: Flux Linkage Concentrator
                   url: augment-flux-linkage-concentrator/
+                - title: Flux Reconstruction
+                - title: Reagent Recovery
                 - title: Flurry Stratum
                   url: augment-flurry-stratum/
                 - title: Permafrost Compressor
