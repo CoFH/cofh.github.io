@@ -10,6 +10,7 @@ usage-recipes:
   crafting:
     - machine-refinery
     - augment-machine-insolator-end
+    - augment-machine-refinery-oil
 ---
 
 ![Nickel gear](/assets/images/thermal-foundation/gear-nickel.png){:style="height: 128px"}

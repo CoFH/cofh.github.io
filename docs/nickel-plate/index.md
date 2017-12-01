@@ -10,6 +10,7 @@ recipes:
 usage-recipes:
   crafting:
     - augment-machine-smelter-pyrotheum
+    - augment-machine-insolator-monoculture
 ---
 
 ![Nickel plate](/assets/images/thermal-foundation/plate-nickel.png){:style="height: 128px"}

@@ -4,6 +4,9 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/ingots/iridium-ingot/
 recipes:
+  smelting:
+    - ore-processing-iridium
+    - ingot-iridium-from-dust
   crafting:
     - pyrotheum-ore-iridium
     - petrotheum-pyrotheum-ore-iridium
@@ -41,6 +44,9 @@ default.
 
 Obtaining
 ---------
+
+### Smelting
+{% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

@@ -5,8 +5,9 @@ redirect_from:
   - /docs/thermal-expansion/other/tier-system/
 ---
 
-Certain blocks and items added by the mods in the 'Thermal' series come in six
-**tiers**. They can be upgraded to higher tiers to make them more powerful.
+Certain blocks and items added by the mods in the Thermal Series come in up to
+six different **tiers**. They can be upgraded to higher tiers to make them more
+powerful.
 
 
 Upgrading

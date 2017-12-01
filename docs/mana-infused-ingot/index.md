@@ -6,6 +6,9 @@ redirect_from:
   - /docs/thermal-foundation/metals-and-alloys/mana-infused-metal/
   - /docs/thermal-foundation/items/materials/ingots/mana-infused-ingot/
 recipes:
+  smelting:
+    - ore-processing-mithril
+    - ingot-mithril-from-dust
   crafting:
     - pyrotheum-ore-mithril
     - petrotheum-pyrotheum-ore-mithril
@@ -41,6 +44,9 @@ infused ore does not generate in the world by default.
 
 Obtaining
 ---------
+
+### Smelting
+{% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

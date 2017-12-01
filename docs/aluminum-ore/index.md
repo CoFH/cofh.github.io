@@ -5,6 +5,8 @@ redirect_from:
   - /docs/thermal-foundation/ores/aluminum-ore/
   - /docs/thermal-foundation/world/ores/aluminum-ore/
 usage-recipes:
+  smelting:
+    - ore-processing-aluminum
   crafting:
     - pyrotheum-ore-aluminum
     - petrotheum-ore-aluminum
@@ -41,8 +43,8 @@ drops itself as an item.
 Usage
 -----
 
-Aluminum ore cannot be processed by
-[smelting](https://minecraft.gamepedia.com/Smelting).
+### Smelting
+{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

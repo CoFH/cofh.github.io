@@ -13,6 +13,8 @@ recipes:
 usage-recipes:
   crafting:
     - pyrotheum-dust-aluminum
+  smelting:
+    - ingot-aluminum-from-dust
   smelter:
     - dust-smelting-aluminum
     - hardened-glass-aluminum
@@ -37,6 +39,9 @@ Obtaining
 
 Usage
 -----
+
+### Smelting ingredient
+{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

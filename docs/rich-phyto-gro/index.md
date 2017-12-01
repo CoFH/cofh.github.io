@@ -13,6 +13,7 @@ usage-recipes:
   crafting:
     - podzol-using-phyto-gro
     - mycelium-using-phyto-gro
+    - augment-machine-insolator-fertilizer
     - watering-can-signalum
   charger:
     - phyto-gro-fluxed

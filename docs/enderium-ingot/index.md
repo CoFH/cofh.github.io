@@ -16,9 +16,9 @@ usage-recipes:
     - nugget-enderium
     - gear-enderium
     - storage-block-enderium
+    - upgrade-kit-resonant
     - flux-capacitor-resonant
     - satchel-resonant
-    - upgrade-kit-resonant
     - fluxduct-resonant-empty-three
     - fluxduct-resonant-three
     - servo-resonant

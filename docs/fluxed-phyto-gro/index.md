@@ -8,6 +8,7 @@ recipes:
     - phyto-gro-fluxed
 usage-recipes:
   crafting:
+    - augment-machine-insolator-monoculture
     - watering-can-resonant
   insolator:
     - beetroot-fluxed

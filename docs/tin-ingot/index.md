@@ -47,6 +47,9 @@ usage-recipes:
     - strongbox-basic
     - satchel-basic-using-leather
     - satchel-basic-using-rockwool
+    - augment-machine-smelter-flux
+    - augment-machine-insolator-fertilizer
+    - augment-machine-brewer-reagent
     - itemduct
     - itemduct-opaque
     - axe-tin

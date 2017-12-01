@@ -21,6 +21,8 @@ usage-recipes:
     - machine-transposer
     - machine-charger
     - machine-centrifuge
+    - machine-brewer
+    - machine-enchanter
     - machine-precipitator
     - machine-extruder
     - augment-machine-power

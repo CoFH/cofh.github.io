@@ -8,8 +8,8 @@ recipes:
     - gear-lumium
 usage-recipes:
   crafting:
-    - machine-insolator
     - upgrade-kit-resonant
+    - machine-insolator
 ---
 
 ![Lumium gear](/assets/images/thermal-foundation/gear-lumium.png){:style="height: 128px"}

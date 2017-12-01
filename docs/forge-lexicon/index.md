@@ -8,6 +8,9 @@ redirect_from:
 recipes:
   crafting:
     - forge-lexicon
+usage-recipes:
+  crafting:
+    - device-lexicon
 ---
 
 ![Forge Lexicon](/assets/images/thermal-foundation/forge-lexicon.png){:style="height: 128px"}
@@ -51,6 +54,9 @@ When a Forge Lexicon is used while in transmutation mode, an interface is opened
 that allows the user to convert items into their equivalents by hand.
 
 ![Forge Lexicon Transmutation GUI](/assets/images/thermal-foundation/forge-lexicon-gui-transmutation.png){:style="height: 250px"}
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 
 Trivia

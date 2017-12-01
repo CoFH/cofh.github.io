@@ -16,17 +16,24 @@ usage-recipes:
     - device-tapper
     - device-fisher
     - device-item-buffer
+    - device-fluid-buffer
+    - device-lexicon
+    - device-xp-collector
+    - device-diffuser
     - portable-tank-basic
     - cache-basic
     - augment-machine-secondary
     - augment-machine-furnace-pyrolysis
     - augment-machine-pulverizer-petrotheum
     - augment-machine-sawmill-tapper
+    - augment-machine-smelter-flux
     - augment-machine-insolator-mycelium
     - augment-machine-insolator-nether
     - augment-machine-insolator-end
+    - augment-machine-insolator-fertilizer
     - augment-machine-insolator-tree
     - augment-machine-compactor-mint
+    - augment-machine-brewer-reagent
     - augment-machine-precipitator-snow-layer
     - augment-machine-precipitator-packed-ice
     - augment-machine-extruder-no-water

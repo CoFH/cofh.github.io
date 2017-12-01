@@ -27,10 +27,16 @@ recipes:
     - hardened-glass-enderium
 usage-recipes:
   crafting:
-    - flux-capacitor-reinforced
     - upgrade-kit-reinforced
+    - machine-brewer
+    - flux-capacitor-reinforced
     - augment-machine-pulverizer-petrotheum
+    - augment-machine-smelter-flux
     - augment-machine-smelter-pyrotheum
+    - augment-machine-insolator-fertilizer
+    - augment-machine-refinery-oil
+    - augment-machine-charger-repair
+    - augment-machine-brewer-reagent
     - augment-dynamo-boiler
     - augment-dynamo-magmatic-coolant
     - augment-dynamo-compression-coolant

@@ -16,9 +16,9 @@ usage-recipes:
     - nugget-signalum
     - gear-signalum
     - storage-block-signalum
+    - upgrade-kit-signalum
     - flux-capacitor-signalum
     - satchel-signalum
-    - upgrade-kit-signalum
     - fluxduct-signalum-empty-three
     - fluxduct-signalum-three
     - fluiduct-energy-three

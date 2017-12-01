@@ -43,6 +43,7 @@ usage-recipes:
     - gear-lead
     - storage-block-lead
     - multimeter
+    - device-lexicon
     - energy-cell-basic
     - flux-capacitor-basic
     - augment-machine-charger-throughput

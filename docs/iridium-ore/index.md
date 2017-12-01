@@ -5,6 +5,8 @@ redirect_from:
   - /docs/thermal-foundation/ores/iridium-ore/
   - /docs/thermal-foundation/world/ores/iridium-ore/
 usage-recipes:
+  smelting:
+    - ore-processing-iridium
   crafting:
     - pyrotheum-ore-iridium
     - petrotheum-ore-iridium
@@ -40,8 +42,8 @@ drops itself as an item.
 Usage
 -----
 
-Iridium ore cannot be processed by
-[smelting](https://minecraft.gamepedia.com/Smelting).
+### Smelting
+{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

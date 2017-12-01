@@ -10,6 +10,7 @@ recipes:
 usage-recipes:
   crafting:
     - machine-sawmill
+    - augment-machine-charger-repair
     - augment-dynamo-boiler
     - augment-dynamo-steam-turbine
 ---

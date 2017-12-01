@@ -37,12 +37,12 @@ usage-recipes:
     - nugget-invar
     - gear-invar
     - storage-block-invar
+    - upgrade-kit-hardened
     - machine-smelter
     - machine-precipitator
     - device-heat-sink
     - flux-capacitor-hardened
     - satchel-hardened
-    - upgrade-kit-hardened
     - fluxduct-hardened-three
     - fluiduct-hardened
     - fluiduct-hardened-opaque

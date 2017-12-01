@@ -9,8 +9,8 @@ recipes:
 usage-recipes:
   crafting:
     - multimeter
-    - dynamo-enervation
     - upgrade-kit-signalum
+    - dynamo-enervation
     - augment-machine-charger-throughput
 ---
 

@@ -145,8 +145,7 @@ NBT
 Tiers
 -----
 
-Servos come in six tiers. These tiers are mostly equivalent to the
-[tiers](/docs/tiers/) used by [Thermal Expansion](/docs/thermal-expansion/).
+Servos come in five [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

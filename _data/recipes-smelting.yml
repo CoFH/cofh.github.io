@@ -12,6 +12,16 @@ recipes:
         item: [sawdust-compressed]
       output:
         item: [charcoal]
+  ingot-aluminum-from-dust:
+    results:
+      - item: ingot-aluminum
+    ingredients:
+      - item: dust-aluminum
+    data:
+      input:
+        item: [dust-aluminum]
+      output:
+        item: [ingot-aluminum]
   ingot-bronze-from-dust:
     results:
       - item: ingot-bronze
@@ -72,6 +82,16 @@ recipes:
         item: [dust-invar]
       output:
         item: [ingot-invar]
+  ingot-iridium-from-dust:
+    results:
+      - item: ingot-iridium
+    ingredients:
+      - item: dust-iridium
+    data:
+      input:
+        item: [dust-iridium]
+      output:
+        item: [ingot-iridium]
   ingot-iron-from-dust:
     results:
       - item: ingot-iron
@@ -92,6 +112,16 @@ recipes:
         item: [dust-lead]
       output:
         item: [ingot-lead]
+  ingot-mithril-from-dust:
+    results:
+      - item: ingot-mithril
+    ingredients:
+      - item: dust-mithril
+    data:
+      input:
+        item: [dust-mithril]
+      output:
+        item: [ingot-mithril]
   ingot-nickel-from-dust:
     results:
       - item: ingot-nickel
@@ -132,6 +162,16 @@ recipes:
         item: [dust-tin]
       output:
         item: [ingot-tin]
+  ore-processing-aluminum:
+    results:
+      - item: ingot-aluminum
+    ingredients:
+      - item: ore-aluminum
+    data:
+      input:
+        item: [ore-aluminum]
+      output:
+        item: [ingot-aluminum]
   ore-processing-copper:
     results:
       - item: ingot-copper
@@ -142,6 +182,16 @@ recipes:
         item: [ore-copper]
       output:
         item: [ingot-copper]
+  ore-processing-iridium:
+    results:
+      - item: ingot-iridium
+    ingredients:
+      - item: ore-iridium
+    data:
+      input:
+        item: [ore-iridium]
+      output:
+        item: [ingot-iridium]
   ore-processing-lead:
     results:
       - item: ingot-lead
@@ -152,6 +202,16 @@ recipes:
         item: [ore-lead]
       output:
         item: [ingot-lead]
+  ore-processing-mithril:
+    results:
+      - item: ingot-mithril
+    ingredients:
+      - item: ore-mithril
+    data:
+      input:
+        item: [ore-mithril]
+      output:
+        item: [ingot-mithril]
   ore-processing-nickel:
     results:
       - item: ingot-nickel

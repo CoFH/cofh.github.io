@@ -6,7 +6,7 @@ nav: thermal-cultivation
 ![Thermal Cultivation logo](/assets/images/modlogos/thermal-cultivation.png){:.cofh-mod-page-logo}
 
 
-**Thermal Cultivation** is one of the mods in the 'Thermal' series. It provides
+**Thermal Cultivation** is one of the mods in the Thermal Series. It provides
 tools that assist with farming and ranching.
 
 

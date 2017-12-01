@@ -88,6 +88,11 @@ augment-machine-sawmill-tapper:
   animated: true
   site: cofh
   url: augment-resin-funnel/
+augment-machine-smelter-flux:
+  name: 'Augment: Metallurgical Recovery'
+  sprite: [14, 60]
+  site: cofh
+  url: augment-metallurgical-recovery/
 augment-machine-smelter-pyrotheum:
   name: 'Augment: Pyro-Concentrator'
   animated: true
@@ -108,11 +113,21 @@ augment-machine-insolator-end:
   sprite: [14, 29]
   site: cofh
   url: augment-ender-substrate/
+augment-machine-insolator-fertilizer:
+  name: 'Augment: Nutrient Recovery'
+  sprite: [15, 60]
+  site: cofh
+  url: augment-nutrient-recovery/
 augment-machine-insolator-tree:
   name: 'Augment: Sapling Infuser'
   sprite: [1, 30]
   site: cofh
   url: augment-sapling-infuser/
+augment-machine-insolator-monoculture:
+  name: 'Augment: Monoculture Cycle'
+  animated: true
+  site: cofh
+  url: augment-monoculture-cycle/
 augment-machine-compactor-mint:
   name: 'Augment: Numismatic Press'
   sprite: [7, 29]
@@ -123,11 +138,31 @@ augment-machine-crucible-lava:
   animated: true
   site: cofh
   url: augment-pyroconvective-loop/
+augment-machine-refinery-oil:
+  name: 'Augment: Reflux Column'
+  sprite: [0, 61]
+  site: cofh
+  url: augment-reflux-column/
+augment-machine-refinery-potion:
+  name: 'Augment: Alchemical Retort'
+  sprite: [1, 61]
+  site: cofh
+  url: augment-alchemical-retort/
 augment-machine-charger-throughput:
   name: 'Augment: Flux Linkage Concentrator'
   sprite: [6, 29]
   site: cofh
   url: augment-flux-linkage-concentrator/
+augment-machine-charger-repair:
+  name: 'Augment: Flux Reconstruction'
+  sprite: [2, 61]
+  site: cofh
+  url: augment-flux-reconstruction/
+augment-machine-brewer-reagent:
+  name: 'Augment: Reagent Recovery'
+  sprite: [3, 61]
+  site: cofh
+  url: augment-reagent-recovery/
 augment-machine-precipitator-snow-layer:
   name: 'Augment: Flurry Stratum'
   sprite: [4, 30]
@@ -573,6 +608,11 @@ boots-tin:
   sprite: [13, 38]
   site: cofh
   url: boots/
+bottle-o-enchanting:
+  name: Bottle o' Enchanting
+  sprite: [7, 60]
+  site: mc-wiki
+  url: Bottle_o%27_Enchanting
 bow-aluminum:
   name: Aluminum Reinforced Bow
   sprite: [0, 17]
@@ -663,6 +703,11 @@ bread:
   sprite: [2, 60]
   site: mc-wiki
   url: Bread
+brewing-stand:
+  name: Brewing Stand
+  sprite: [10, 60]
+  site: mc-wiki
+  url: Brewing_Stand
 brick:
   name: Brick
   sprite: [15, 44]
@@ -718,6 +763,11 @@ bucket-ender:
   sprite: [10, 40]
   site: cofh
   url: resonant-ender/
+bucket-experience:
+  name: Essence of Knowledge Bucket
+  sprite: [6, 60]
+  site: cofh
+  url: essence-of-knowledge/
 bucket-glowstone:
   name: Energized Glowstone Bucket
   sprite: [9, 40]
@@ -1308,11 +1358,21 @@ dandelion-yellow:
   sprite: [11, 5]
   site: mc-wiki
   url: Dandelion_Yellow
+device-diffuser:
+  name: Decoctive Diffuser
+  sprite: [9, 60]
+  site: cofh
+  url: decoctive-diffuser/
 device-fisher:
   name: Aquatic Entangler
   sprite: [3, 60]
   site: cofh
   url: aquatic-entangler/
+device-fluid-buffer:
+  name: Fluid Allocator
+  sprite: [3, 8]
+  site: cofh
+  url: fluid-allocator/
 device-heat-sink:
   name: Thermal Mediator
   sprite: [1, 27]
@@ -1323,6 +1383,11 @@ device-item-buffer:
   sprite: [3, 27]
   site: cofh
   url: item-allocator/
+device-lexicon:
+  name: Lexical Transmuter
+  sprite: [4, 8]
+  site: cofh
+  url: lexical-transmuter/
 device-nullifier:
   name: Nullifier
   sprite: [0, 27]
@@ -1338,6 +1403,11 @@ device-water-gen:
   sprite: [15, 26]
   site: cofh
   url: aqueous-accumulator/
+device-xp-collector:
+  name: Insightful Condenser
+  sprite: [8, 60]
+  site: cofh
+  url: insightful-condenser/
 diamond:
   name: Diamond
   sprite: [5, 39]
@@ -1358,6 +1428,11 @@ dirt:
   sprite: [2, 42]
   site: mc-wiki
   url: Dirt
+dispenser:
+  name: Dispenser
+  sprite: [13, 60]
+  site: mc-wiki
+  url: Dispenser
 door-iron:
   name: Iron Door
   sprite: [14, 50]
@@ -1633,6 +1708,11 @@ emerald:
   sprite: [6, 39]
   site: mc-wiki
   url: Emerald
+enchantment-table:
+  name: Enchantment Table
+  sprite: [11, 60]
+  site: mc-wiki
+  url: Enchantment_Table
 end-stone:
   name: End Stone
   sprite: [5, 42]
@@ -2983,6 +3063,11 @@ lime-dye:
   sprite: [10, 5]
   site: mc-wiki
   url: Lime_Dye
+machine-brewer:
+  name: Alchemical Imbuer
+  sprite: [1, 8]
+  site: cofh
+  url: alchemical-imbuer/
 machine-centrifuge:
   name: Centrifugal Separator
   sprite: [12, 26]
@@ -3003,6 +3088,11 @@ machine-crucible:
   sprite: [8, 26]
   site: cofh
   url: magma-crucible/
+machine-enchanter:
+  name: Arcane Ensorcellator
+  sprite: [2, 8]
+  site: cofh
+  url: arcane-ensorcellator/
 machine-extruder:
   name: Igneous Extruder
   sprite: [14, 26]
@@ -4063,11 +4153,6 @@ sawdust-compressed:
   sprite: [12, 15]
   site: cofh
   url: compressed-sawdust/
-schematic:
-  name: Schematic
-  sprite: [9, 11]
-  site: cofh
-  url: schematic/
 seeds:
   name: Seeds
   sprite: [2, 58]
@@ -4578,6 +4663,11 @@ storage-block-iron:
   sprite: [9, 58]
   site: mc-wiki
   url: Block_of_Iron
+storage-block-lapis-lazuli:
+  name: Lapis Lazuli Block
+  sprite: [12, 60]
+  site: mc-wiki
+  url: Lapis_Lazuli_Block
 storage-block-lead:
   name: Lead Block
   sprite: [3, 6]
@@ -4748,6 +4838,11 @@ tar:
   sprite: [8, 8]
   site: cofh
   url: tar/
+tome-of-knowledge:
+  name: Tome of Knowledge
+  sprite: [5, 60]
+  site: cofh
+  url: tome-of-knowledge/
 torch:
   name: Torch
   sprite: [7, 40]

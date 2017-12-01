@@ -7,22 +7,13 @@ cofh-core:
 cofh-world:
   git: d32c170..a6624ea
   todo:
+    - changed biome matching
     - commands
 
 thermal-foundation:
   git: 3a05b0b..dd99b71
   todo:
     - add/update recipe items/fluids
-    - add/update recipes
-    - new aluminum ore texture
-    - aluminum ore is smeltable
-    - iridium ore is smeltable
-    - mana infused ore is smeltable
-    - pulverized aluminum is smeltable
-    - pulverized iridium is smeltable
-    - pulverized mana infused metal is smeltable
-    - schematic is removed
-    - upgrade/conversion kits moved here
     - tome of knowledge
     - energized glowstone also applies glowing
     - changed blazing pyrotheum slow rates
@@ -45,8 +36,6 @@ thermal-expansion:
   git: 2253f0f1..d08cccbf
   todo:
     - add/update recipe items
-    - add/update recipes
-    - pulverizer gives 10 lapis per ore
     - phytogenic insolator can grow everything by itself
     - phytogenic insolator recipes tweaked
     - fractionating still recipes tweaked
@@ -70,8 +59,6 @@ thermal-expansion:
     - portable tank can be secured
     - portable tank redstone control
     - portable tank config gui
-    - creative satchel texture updated
-    - upgrade/conversion kits moved to TF
     - tectonic initiator increases primary output amount differently
     - resin funnel determines fluid output differently
     - metallurgical recovery augment

@@ -17,8 +17,12 @@ usage-recipes:
     - augment-machine-furnace-food
     - augment-machine-furnace-ore
     - augment-machine-smelter-pyrotheum
+    - augment-machine-insolator-monoculture
     - augment-machine-crucible-lava
+    - augment-machine-refinery-oil
+    - augment-machine-refinery-potion
     - augment-machine-charger-throughput
+    - augment-machine-charger-repair
     - augment-dynamo-efficiency
     - augment-dynamo-steam-turbine
     - augment-dynamo-magmatic-coolant

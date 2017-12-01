@@ -11,6 +11,8 @@ usage-recipes:
     - augment-machine-pulverizer-petrotheum
     - augment-machine-smelter-pyrotheum
     - augment-machine-insolator-tree
+    - augment-machine-insolator-monoculture
+    - augment-machine-refinery-potion
     - augment-dynamo-magmatic-coolant
     - augment-dynamo-compression-fuel
     - augment-dynamo-reactant-elemental

@@ -4,6 +4,9 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/ingots/aluminum-ingot/
 recipes:
+  smelting:
+    - ore-processing-aluminum
+    - ingot-aluminum-from-dust
   crafting:
     - pyrotheum-ore-aluminum
     - petrotheum-pyrotheum-ore-aluminum
@@ -69,6 +72,9 @@ ore does not generate in the world by default.
 
 Obtaining
 ---------
+
+### Smelting
+{% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

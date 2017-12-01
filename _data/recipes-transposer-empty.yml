@@ -99,6 +99,22 @@ recipes:
         amount: 1000
       item-output:
         item: [bucket]
+  bucket-experience:
+    results:
+      - fluid: experience
+        fluid-amount: 1000
+      - item: bucket
+    ingredients:
+      - item: bucket-experience
+    energy: 400
+    data:
+      input:
+        item: [bucket-experience]
+      fluid-output:
+        fluid: experience
+        amount: 1000
+      item-output:
+        item: [bucket]
   bucket-glowstone:
     results:
       - fluid: glowstone

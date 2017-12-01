@@ -18,8 +18,8 @@ usage-recipes:
     - redstone-from-clathrate
     - glowstone-dust-from-clathrate
     - ender-pearl-from-clathrate
-    - flux-capacitor-signalum
     - upgrade-kit-signalum
+    - flux-capacitor-signalum
     - augment-machine-insolator-end
     - augment-machine-extruder-no-water
     - augment-dynamo-magmatic-coolant

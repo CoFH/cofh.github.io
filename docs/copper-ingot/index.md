@@ -44,9 +44,10 @@ usage-recipes:
     - storage-block-copper
     - multimeter
     - device-tapper
-    - augment-dynamo-coil-duct
+    - device-fluid-buffer
     - flux-capacitor-basic
     - portable-tank-basic
+    - augment-dynamo-coil-duct
     - fluiduct-basic
     - fluiduct-basic-opaque
     - watering-can-basic

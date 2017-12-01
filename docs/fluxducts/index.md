@@ -60,9 +60,7 @@ amount of blocks connected to it.
 Tiers
 -----
 
-Fluxducts come in six tiers. These tiers are similar to the
-[tiers](/docs/tiers/) used by [Thermal Expansion](/docs/thermal-expansion/), but
-not exactly the same.
+Fluxducts come in six [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

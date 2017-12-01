@@ -25,6 +25,7 @@ usage-recipes:
   crafting:
     - phyto-gro-rich-using-sawdust
     - phyto-gro-rich-using-charcoal
+    - augment-machine-smelter-flux
   smelter:
     - ore-processing-rich-slag-iron
     - ore-processing-rich-slag-gold

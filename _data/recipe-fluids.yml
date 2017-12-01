@@ -22,6 +22,10 @@ ender:
   name: Resonant Ender
   site: cofh
   url: resonant-ender/
+experience:
+  name: Essence of Knowledge
+  site: cofh
+  url: essence-of-knowledge/
 glowstone:
   name: Energized Glowstone
   site: cofh

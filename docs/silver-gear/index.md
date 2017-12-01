@@ -9,7 +9,10 @@ recipes:
 usage-recipes:
   crafting:
     - upgrade-kit-reinforced
+    - augment-machine-smelter-flux
     - augment-machine-insolator-nether
+    - augment-machine-insolator-fertilizer
+    - augment-machine-brewer-reagent
 ---
 
 ![Silver gear](/assets/images/thermal-foundation/gear-silver.png){:style="height: 128px"}

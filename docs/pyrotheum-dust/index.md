@@ -13,8 +13,8 @@ usage-recipes:
     - pyrotheum-metal-ore
     - petrotheum-pyrotheum-metal-ore
     - pyrotheum-dust-metal-ore
-    - flux-capacitor-resonant
     - upgrade-kit-resonant
+    - flux-capacitor-resonant
     - augment-machine-furnace-ore
     - augment-machine-smelter-pyrotheum
     - augment-machine-crucible-lava

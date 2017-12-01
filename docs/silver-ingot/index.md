@@ -43,6 +43,7 @@ usage-recipes:
     - gear-silver
     - storage-block-silver
     - redstone-coil-silver
+    - device-diffuser
     - augment-dynamo-power
     - axe-silver
     - bow-silver

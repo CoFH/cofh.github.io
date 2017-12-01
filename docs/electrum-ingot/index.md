@@ -38,9 +38,9 @@ usage-recipes:
     - gear-electrum
     - storage-block-electrum
     - redstone-coil-electrum
+    - upgrade-kit-reinforced
     - flux-capacitor-reinforced
     - satchel-reinforced
-    - upgrade-kit-reinforced
     - augment-dynamo-throttle
     - fluxduct-reinforced-empty
     - fluxduct-super-empty

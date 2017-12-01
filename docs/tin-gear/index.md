@@ -15,6 +15,10 @@ usage-recipes:
     - device-tapper
     - device-fisher
     - device-item-buffer
+    - device-fluid-buffer
+    - device-lexicon
+    - device-xp-collector
+    - device-diffuser
     - dynamo-compression
     - augment-machine-sawmill-tapper
 ---

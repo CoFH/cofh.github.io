@@ -415,6 +415,26 @@ recipes:
       result:
         item: [augment-machine-smelter-pyrotheum]
         amount: 1
+  augment-machine-smelter-flux:
+    results:
+      - item: augment-machine-smelter-flux
+    ingredients:
+      - item: redstone-servo
+      - item: ingot-tin
+      - item: gear-silver
+      - item: hardened-glass
+      - item: slag-rich
+    data:
+      rows:
+        - [null, item: [gear-silver]]
+        - [item: [ingot-tin], item: [redstone-servo], item: [ingot-tin]]
+        - - item: [slag-rich]
+          - random: true
+            item-group: hardened-glass
+          - item: [slag-rich]
+      result:
+        item: [augment-machine-smelter-flux]
+        amount: 1
   augment-machine-insolator-mycelium:
     results:
       - item: augment-machine-insolator-mycelium
@@ -466,6 +486,26 @@ recipes:
       result:
         item: [augment-machine-insolator-end]
         amount: 1
+  augment-machine-insolator-fertilizer:
+    results:
+      - item: augment-machine-insolator-fertilizer
+    ingredients:
+      - item: redstone-servo
+      - item: ingot-tin
+      - item: gear-silver
+      - item: hardened-glass
+      - item: phyto-gro-rich
+    data:
+      rows:
+        - [null, item: [gear-silver]]
+        - [item: [ingot-tin], item: [redstone-servo], item: [ingot-tin]]
+        - - item: [phyto-gro-rich]
+          - random: true
+            item-group: hardened-glass
+          - item: [phyto-gro-rich]
+      result:
+        item: [augment-machine-insolator-fertilizer]
+        amount: 1
   augment-machine-insolator-tree:
     results:
       - item: augment-machine-insolator-tree
@@ -482,6 +522,23 @@ recipes:
         - [item: [dust-aerotheum], item: [piston], item: [dust-aerotheum]]
       result:
         item: [augment-machine-insolator-tree]
+        amount: 1
+  augment-machine-insolator-monoculture:
+    results:
+      - item: augment-machine-insolator-monoculture
+    ingredients:
+      - item: redstone-coil-electrum
+      - item: plate-nickel
+      - item: gear-signalum
+      - item: hopper
+      - item: phyto-gro-fluxed
+    data:
+      rows:
+        - [null, item: [gear-signalum]]
+        - [item: [plate-nickel], item: [redstone-coil-electrum], item: [plate-nickel]]
+        - [item: [phyto-gro-fluxed], item: [hopper], item: [phyto-gro-fluxed]]
+      result:
+        item: [augment-machine-insolator-monoculture]
         amount: 1
   augment-machine-compactor-mint:
     results:
@@ -517,6 +574,44 @@ recipes:
       result:
         item: [augment-machine-crucible-lava]
         amount: 1
+  augment-machine-refinery-oil:
+    results:
+      - item: augment-machine-refinery-oil
+    ingredients:
+      - item: redstone-coil-electrum
+      - item-group: hardened-glass
+      - item: gear-nickel
+      - item: blaze-rod
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-nickel]]
+        - - random: true
+            item-group: hardened-glass
+          - item: [redstone-coil-electrum]
+          - random: true
+            item-group: hardened-glass
+        - [item: [redstone], item: [blaze-rod], item: [redstone]]
+      result:
+        item: [augment-machine-refinery-oil]
+        amount: 1
+  augment-machine-refinery-potion:
+    results:
+      - item: augment-machine-refinery-potion
+    ingredients:
+      - item: redstone-coil-electrum
+      - item: plate-lead
+      - item: gear-signalum
+      - item: cauldron
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-signalum]]
+        - [item: [plate-lead], item: [redstone-coil-electrum], item: [plate-lead]]
+        - [item: [redstone], item: [cauldron], item: [redstone]]
+      result:
+        item: [augment-machine-refinery-potion]
+        amount: 1
   augment-machine-charger-throughput:
     results:
       - item: augment-machine-charger-throughput
@@ -533,6 +628,48 @@ recipes:
         - [item: [redstone], item: [ingot-lead], item: [redstone]]
       result:
         item: [augment-machine-charger-throughput]
+        amount: 1
+  augment-machine-charger-repair:
+    results:
+      - item: augment-machine-charger-repair
+    ingredients:
+      - item: redstone-coil-electrum
+      - item-group: hardened-glass
+      - item: gear-iron
+      - item: storage-block-iron
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-iron]]
+        - - random: true
+            item-group: hardened-glass
+          - item: [redstone-coil-electrum]
+          - random: true
+            item-group: hardened-glass
+        - [item: [redstone], item: [storage-block-iron], item: [redstone]]
+      result:
+        item: [augment-machine-charger-repair]
+        amount: 1
+  augment-machine-brewer-reagent:
+    results:
+      - item: augment-machine-brewer-reagent
+    ingredients:
+      - item: redstone-servo
+      - item: ingot-tin
+      - item: gear-silver
+      - item: hardened-glass
+      - item: glowstone-dust
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [gear-silver]]
+        - [item: [ingot-tin], item: [redstone-servo], item: [ingot-tin]]
+        - - item: [glowstone-dust]
+          - random: true
+            item-group: hardened-glass
+          - item: [redstone]
+      result:
+        item: [augment-machine-brewer-reagent]
         amount: 1
   augment-machine-precipitator-snow-layer:
     results:
@@ -1526,6 +1663,23 @@ recipes:
       result:
         item: [crescent-hammer]
         amount: 1
+  device-diffuser:
+    results:
+      - item: device-diffuser
+    ingredients:
+      - item: frame-device
+      - item: redstone-servo
+      - item: gear-tin
+      - item: ingot-silver
+      - item: dispenser
+    data:
+      rows:
+        - [null, item: [dispenser]]
+        - [item: [ingot-silver], item: [frame-device], item: [ingot-silver]]
+        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+      result:
+        item: [device-diffuser]
+        amount: 1
   device-fisher:
     results:
       - item: device-fisher
@@ -1542,6 +1696,23 @@ recipes:
         - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
       result:
         item: [device-fisher]
+        amount: 1
+  device-fluid-buffer:
+    results:
+      - item: device-fluid-buffer
+    ingredients:
+      - item: frame-device
+      - item: redstone-servo
+      - item: gear-tin
+      - item: ingot-copper
+      - item: cauldron
+    data:
+      rows:
+        - [null, item: [cauldron]]
+        - [item: [ingot-copper], item: [frame-device], item: [ingot-copper]]
+        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+      result:
+        item: [device-fluid-buffer]
         amount: 1
   device-heat-sink:
     results:
@@ -1576,6 +1747,23 @@ recipes:
         - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
       result:
         item: [device-item-buffer]
+        amount: 1
+  device-lexicon:
+    results:
+      - item: device-lexicon
+    ingredients:
+      - item: frame-device
+      - item: redstone-servo
+      - item: gear-tin
+      - item: ingot-lead
+      - item: forge-lexicon
+    data:
+      rows:
+        - [null, item: [forge-lexicon]]
+        - [item: [ingot-lead], item: [frame-device], item: [ingot-lead]]
+        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+      result:
+        item: [device-lexicon]
         amount: 1
   device-nullifier:
     results:
@@ -1627,6 +1815,23 @@ recipes:
         - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
       result:
         item: [device-water-gen]
+        amount: 1
+  device-xp-collector:
+    results:
+      - item: device-xp-collector
+    ingredients:
+      - item: frame-device
+      - item: redstone-servo
+      - item: gear-tin
+      - item: ingot-gold
+      - item: tome-of-knowledge
+    data:
+      rows:
+        - [null, item: [tome-of-knowledge]]
+        - [item: [ingot-gold], item: [frame-device], item: [ingot-gold]]
+        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+      result:
+        item: [device-xp-collector]
         amount: 1
   diamond-from-nuggets:
     results:
@@ -5421,6 +5626,27 @@ recipes:
       result:
         item: [leggings-tin]
         amount: 1
+  machine-brewer:
+    results:
+      - item: machine-brewer
+    ingredients:
+      - item: frame-machine
+      - item: redstone-coil-gold
+      - item: gear-constantan
+      - item-group: hardened-glass
+      - item: brewing-stand
+    data:
+      rows:
+        - [null, item: [brewing-stand]]
+        - - random: true
+            item-group: hardened-glass
+          - item: [frame-machine]
+          - random: true
+            item-group: hardened-glass
+        - [item: [gear-constantan], item: [redstone-coil-gold], item: [gear-constantan]]
+      result:
+        item: [machine-brewer]
+        amount: 1
   machine-centrifuge:
     results:
       - item: machine-centrifuge
@@ -5488,6 +5714,23 @@ recipes:
         - [item: [gear-invar], item: [redstone-coil-gold], item: [gear-invar]]
       result:
         item: [machine-crucible]
+        amount: 1
+  machine-enchanter:
+    results:
+      - item: machine-enchanter
+    ingredients:
+      - item: frame-machine
+      - item: redstone-coil-gold
+      - item: gear-constantan
+      - item: storage-block-lapis-lazuli
+      - item: enchantment-table
+    data:
+      rows:
+        - [null, item: [enchantment-table]]
+        - [item: [storage-block-lapis-lazuli], item: [frame-machine], item: [storage-block-lapis-lazuli]]
+        - [item: [gear-constantan], item: [redstone-coil-gold], item: [gear-constantan]]
+      result:
+        item: [machine-enchanter]
         amount: 1
   machine-extruder:
     results:
@@ -9238,6 +9481,21 @@ recipes:
         - [null, item: [stick]]
       result:
         item: [sword-tin]
+        amount: 1
+  tome-of-knowledge:
+    results:
+      - item: tome-of-knowledge
+    ingredients:
+      - item: book
+      - item: emerald
+      - item: lapis-lazuli
+    data:
+      rows:
+        - [null, item: [lapis-lazuli]]
+        - [item: [emerald], item: [book], item: [emerald]]
+        - [null, item: [lapis-lazuli]]
+      result:
+        item: [tome-of-knowledge]
         amount: 1
   torch-using-rosin:
     results:

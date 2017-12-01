@@ -798,7 +798,7 @@ recipes:
         item: [ore-lapis-lazuli]
       primary-output:
         item: [lapis-lazuli]
-        amount: 12
+        amount: 10
       secondary-output:
         item: [sulfur]
       secondary-chance: 20

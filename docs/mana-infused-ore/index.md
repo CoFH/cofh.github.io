@@ -5,6 +5,8 @@ redirect_from:
   - /docs/thermal-foundation/ores/mana-infused-ore/
   - /docs/thermal-foundation/world/ores/mana-infused-ore/
 usage-recipes:
+  smelting:
+    - ore-processing-mithril
   crafting:
     - pyrotheum-ore-mithril
     - petrotheum-ore-mithril
@@ -41,8 +43,8 @@ drops itself as an item.
 Usage
 -----
 
-Mana infused ore cannot be processed by
-[smelting](https://minecraft.gamepedia.com/Smelting).
+### Smelting
+{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

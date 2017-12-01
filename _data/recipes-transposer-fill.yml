@@ -67,6 +67,22 @@ recipes:
         amount: 200
       output:
         item: [blizz-powder]
+  bottle-o-enchanting:
+    results:
+      - item: bottle-o-enchanting
+    ingredients:
+      - item: glass-bottle
+      - fluid: experience
+        fluid-amount: 250
+    energy: 400
+    data:
+      item-input:
+        item: [glass-bottle]
+      fluid-input:
+        fluid: experience
+        amount: 250
+      output:
+        item: [bottle-o-enchanting]
   bucket-aerotheum:
     results:
       - item: bucket-aerotheum
@@ -163,6 +179,22 @@ recipes:
         amount: 1000
       output:
         item: [bucket-ender]
+  bucket-experience:
+    results:
+      - item: bucket-experience
+    ingredients:
+      - item: bucket
+      - fluid: experience
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [bucket]
+      fluid-input:
+        fluid: experience
+        amount: 1000
+      output:
+        item: [bucket-experience]
   bucket-glowstone:
     results:
       - item: bucket-glowstone

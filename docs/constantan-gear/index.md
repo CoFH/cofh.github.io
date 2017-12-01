@@ -8,6 +8,8 @@ recipes:
     - gear-constantan
 usage-recipes:
   crafting:
+    - machine-brewer
+    - machine-enchanter
     - dynamo-numismatic
 ---
 

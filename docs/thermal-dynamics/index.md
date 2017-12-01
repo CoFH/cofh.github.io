@@ -7,7 +7,7 @@ redirect_from: /mods/thermal-dynamics/
 ![Thermal Dynamics logo](/assets/images/modlogos/thermal-dynamics.png){:.cofh-mod-page-logo}
 
 
-**Thermal Dynamics** is one of the mods in the 'Thermal' series. It provides
+**Thermal Dynamics** is one of the mods in the Thermal Series. It provides
 various types of ducts, which are blocks that transfer
 [energy](/docs/fluxducts/), [fluids](/docs/fluiduct/), [items](/docs/itemduct/)
 and [players](/docs/viaduct/).

@@ -1,15 +1,17 @@
 ---
 title: Thermal Foundation
 nav: thermal-foundation
-redirect_from: /mods/thermal-foundation/
+redirect_from:
+  - /mods/thermal-foundation/
+  - /docs/schematic/
 ---
 
 ![Thermal Foundation logo](/assets/images/modlogos/thermal-foundation.png){:.cofh-mod-page-logo}
 
 
-**Thermal Foundation** is one of the mods in the 'Thermal' series. It provides
-all the basic materials and tools that are used in the other mods in the series,
-as well as ways to obtain them. It also provides new sets of weapons, tools and
+**Thermal Foundation** is one of the mods in the Thermal series. It provides all
+the basic materials and tools that are used in the other mods in the series, as
+well as ways to obtain them. It also provides new sets of weapons, tools and
 armor made of various materials.
 
 
