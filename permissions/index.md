@@ -9,7 +9,7 @@ redirect_from:
 This page describes what licenses and permissions the different mods of Team
 CoFH have. Team CoFH has a license of their own called the CoFH "Don't Be a
 Jerk" (DBaJ) license, which can be read
-[here](https://github.com/CoFH/CoFHCore/blob/master/README.md).
+[here](https://github.com/CoFH/CoFHCore/blob/1.12/README.md).
 
 
 Permissions At-A-Glance
@@ -32,37 +32,37 @@ Permissions At-A-Glance
             </tr>
             <tr>
                 <td>CoFH Core</td>
-                <td><a href="https://github.com/CoFH/CoFHCore/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/CoFHCore/blob/1.12/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>CoFH World</td>
-                <td><a href="https://github.com/CoFH/CoFHWorld/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/CoFHWorld/blob/1.12/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Thermal Foundation</td>
-                <td><a href="https://github.com/CoFH/ThermalFoundation/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/ThermalFoundation/blob/1.12/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Thermal Expansion</td>
-                <td><a href="https://github.com/CoFH/ThermalExpansion/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/ThermalExpansion/blob/1.12/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Thermal Dynamics</td>
-                <td><a href="https://github.com/CoFH/ThermalDynamics/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/ThermalDynamics/blob/1.12/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Thermal Cultivation</td>
-                <td><a href="https://github.com/CoFH/ThermalCultivation/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/ThermalCultivation/blob/1.12/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
                 <td>Redstone Arsenal</td>
-                <td><a href="https://github.com/CoFH/RedstoneArsenal/blob/master/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
+                <td><a href="https://github.com/CoFH/RedstoneArsenal/blob/1.12/README.md">CoFH DBaJ</a> (code), <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> (assets)</td>
                 <td>Yes</td>
             </tr>
             <tr>
