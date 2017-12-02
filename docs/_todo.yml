@@ -7,13 +7,11 @@ cofh-core:
 cofh-world:
   git: d32c170..a6624ea
   todo:
-    - changed biome matching
     - commands
 
 thermal-foundation:
   git: 3a05b0b..dd99b71
   todo:
-    - add/update recipe items/fluids
     - tome of knowledge
     - energized glowstone also applies glowing
     - changed blazing pyrotheum slow rates
@@ -35,7 +33,6 @@ thermal-foundation:
 thermal-expansion:
   git: 2253f0f1..d08cccbf
   todo:
-    - add/update recipe items
     - phytogenic insolator can grow everything by itself
     - phytogenic insolator recipes tweaked
     - fractionating still recipes tweaked
