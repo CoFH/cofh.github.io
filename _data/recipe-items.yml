@@ -3109,7 +3109,7 @@ machine-furnace:
   site: cofh
   url: redstone-furnace/
 machine-precipitator:
-  name: Glacial Precipicator
+  name: Glacial Precipitator
   sprite: [13, 26]
   site: cofh
   url: glacial-precipitator/
