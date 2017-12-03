@@ -1,8 +1,9 @@
 cofh-core:
-  git: cf357ac..dfa8466
+  git: cf357ac..27ee2b4
   todo:
+    - /cofh killall special case for "item"
+    - sickles support leech and vorpal (maybe others?)
     - additional potions (haste, resistance, levitation, absorption, wither)
-    - sickles support leech and vorpal
 
 cofh-world:
   git: d32c170..a6624ea
@@ -27,11 +28,11 @@ thermal-foundation:
     - axe attack damage / attack speed based on harvest level / efficiency
     - hammer attack damage / attack speed based on harvest level / efficiency
     - hammers can be used to craft gravel from cobblestone
-    - sickles support leech and vorpal
+    - sickles support leech and vorpal (maybe others?)
     - brewing recipes for core's new potions
 
 thermal-expansion:
-  git: 2253f0f1..d08cccbf
+  git: 2253f0f1..e1ad0015
   todo:
     - phytogenic insolator can grow everything by itself
     - phytogenic insolator recipes tweaked
@@ -51,11 +52,12 @@ thermal-expansion:
     - dynamos always face upwards when placed
     - dynamos' processIdle is called properly
     - steam dynamo cannot use weak furnace fuel
-    - cache usage logic changed
+    - flux capacitor default send rates changed
     - portable tank can be locked
     - portable tank can be secured
     - portable tank redstone control
     - portable tank config gui
+    - cache usage logic changed
     - tectonic initiator increases primary output amount differently
     - resin funnel determines fluid output differently
     - metallurgical recovery augment
