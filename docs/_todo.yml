@@ -1,10 +1,3 @@
-cofh-core:
-  git: cf357ac..27ee2b4
-  todo:
-    - /cofh killall special case for "item"
-    - sickles support leech and vorpal (maybe others?)
-    - additional potions (haste, resistance, levitation, absorption, wither)
-
 cofh-world:
   git: d32c170..a6624ea
   todo:

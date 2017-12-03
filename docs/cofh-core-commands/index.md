@@ -1,5 +1,5 @@
 ---
-title: CoFH Core Commands
+title: Commands (CoFH Core)
 nav: cofh-core
 redirect_from:
   - /mods/cofh-core/commands.html
@@ -176,6 +176,10 @@ type
 : The name or part of the name of the entity type to remove from the server. If
 unspecified, all hostile mobs will be removed. Can be set to `*` to remove *all*
 loaded entities.
+
+When the given `type` is `item`, only [item
+entities](https://minecraft.gamepedia.com/Item_(entity)) are removed, even if
+there are other entities whose type contains `item`.
 
 ---
 

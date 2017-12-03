@@ -34,6 +34,7 @@ cofh-core:
                 - title: Vorpal
                   url: vorpal/
             - title: Potions
+              url: cofh-core-potions/
 
 cofh-world:
   title: CoFH World
