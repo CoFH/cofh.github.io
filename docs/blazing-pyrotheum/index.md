@@ -51,10 +51,11 @@ gradually fall downwards if there are no blocks below them.
 
 ### Effects
 Most [entities](https://minecraft.gamepedia.com/Entity) that touch blazing
-pyrotheum take 4 damage every half-second. They are also set on fire.
+pyrotheum take 2 damage every half-second.
 
-Like [lava](https://minecraft.gamepedia.com/Lava), blazing pyrotheum blocks
-start fires. However, pyrotheum does so much more aggressively.
+Like [lava](https://minecraft.gamepedia.com/Lava), blazing pyrotheum starts
+fires. However, pyrotheum does so much more aggressively, instantly starting
+fires on top of every adjacent block.
 
 Blazing pyrotheum has the following effects on certain blocks and mobs:
 

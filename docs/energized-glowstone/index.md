@@ -80,7 +80,8 @@ at 80% of this height if the fluid has no space to flow.
 When touched by players and mobs, energized glowstone applies the effects [Speed
 I](https://minecraft.gamepedia.com/Status_effect#Speed) and [Jump Boost
 I](https://minecraft.gamepedia.com/Status_effect#Jump_Boost) to them for 6
-seconds.
+seconds, as well as
+[Glowing](https://minecraft.gamepedia.com/Status_effect#Glowing) for 30 seconds.
 
 When an energized glowstone source block comes into contact with [gelid
 cryotheum](/docs/gelid-cryotheum/), the source block instantly condenses back

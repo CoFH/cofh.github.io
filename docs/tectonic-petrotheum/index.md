@@ -43,11 +43,10 @@ Tectonic petrotheum flows like other fluids. Petrotheum source blocks will also
 gradually fall downwards if there are no blocks below them.
 
 ### Effects
-When touched by players and living mobs, tectonic petrotheum applies the effects
-[Haste III](https://minecraft.gamepedia.com/Status_effect#Haste), [Night
-Vision](https://minecraft.gamepedia.com/Status_effect#Night_Vision) and
-[Resistance II](https://minecraft.gamepedia.com/Status_effect#Resistance) to
-them for 30 seconds.
+When touched by players and mobs, tectonic petrotheum applies the effects [Haste
+I](https://minecraft.gamepedia.com/Status_effect#Haste) and [Night
+Vision](https://minecraft.gamepedia.com/Status_effect#Night_Vision) to them for
+6 seconds.
 
 When tectonic petrotheum touches [stone](https://minecraft.gamepedia.com/Stone),
 [cobblestone](https://minecraft.gamepedia.com/Cobblestone), [stone

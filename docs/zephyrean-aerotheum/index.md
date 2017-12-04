@@ -50,11 +50,9 @@ default) they will dissipate into the air. They will also dissipate at 80% of
 this height if the fluid has no space to flow.
 
 ### Effects
-When touched by players and mobs, zephyrean aerotheum applies two effects to
-them: [Invisibility](https://minecraft.gamepedia.com/Status_effect#Invisibility)
-for 3 seconds, and [Water
-Breathing](https://minecraft.gamepedia.com/Status_effect#Water_Breathing) for 30
-seconds.
+When touched by players and mobs, zephyrean aerotheum applies the effect
+[Levitation I](https://minecraft.gamepedia.com/Status_effect#Levitation) to them
+for 6 seconds.
 
 Projectiles that come into contact with zephyrean aerotheum are sent flying in a
 random direction away from the fluid.
