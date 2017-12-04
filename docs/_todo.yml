@@ -1,8 +1,3 @@
-cofh-world:
-  git: d32c170..a6624ea
-  todo:
-    - commands
-
 thermal-foundation:
   git: 3a05b0b..dd99b71
   todo:

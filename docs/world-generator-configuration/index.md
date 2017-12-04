@@ -13,12 +13,10 @@ _todo:
   - add examples
 ---
 
-CoFH World lets users or modpack authors specify custom types of ores, plants,
-boulders, spikes, lakes and more to be generated in the world. This guide
-explains how to do that.
-
-**Note:** A good understanding of [JSON](http://www.json.org/) is required. JSON
-terms will be used to describe the format of the configuration files.
+[CoFH World](/docs/cofh-world/) allows configuring custom types of ores, plants,
+boulders, spikes, lakes and more to be generated in the world. They are
+configured using a [JSON](http://www.json.org/) (or
+[HOCON](https://github.com/lightbend/config/blob/master/HOCON.md)) format.
 
 
 ---

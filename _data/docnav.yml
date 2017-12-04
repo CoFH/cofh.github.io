@@ -45,6 +45,7 @@ cofh-world:
             - title: World Generator Configuration
               url: world-generator-configuration/
             - title: Commands
+              url: cofh-world-commands/
 
 thermal-foundation:
   title: Thermal Foundation

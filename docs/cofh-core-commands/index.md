@@ -7,17 +7,16 @@ redirect_from:
   - /docs/cofh-core/commands/
 ---
 
-[CoFH Core](/docs/cofh-core/) includes various **commands** that can be useful
-to server operators and developers.
+[CoFH Core](/docs/cofh-core/) adds various
+**[commands](https://minecraft.gamepedia.com/Commands)** to the game.
 
 
 Summary
 -------
 
-All of CoFH Core's commands must be prefixed with `/cofh`, followed by a space.
+All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 
 {::options parse_block_html="true" /}
-
 <div class="uk-overflow-container">
 | Command | Description | Permission level |
 |---
@@ -36,12 +35,11 @@ All of CoFH Core's commands must be prefixed with `/cofh`, followed by a space.
 | [unloadchunk](#unloadchunk) | Force-unloads the chunk that the command user is looking at. | 4 |
 {:.uk-table .uk-table-striped}
 </div>
+{::options parse_block_html="false" /}
 
 
-List of commands
-----------------
-
-This section describes every command in detail.
+Details
+-------
 
 ### version
 Displays the installed version of CoFH Core.
