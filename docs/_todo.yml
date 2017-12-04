@@ -1,7 +1,6 @@
 thermal-foundation:
   git: 3a05b0b..dd99b71
   todo:
-    - tome of knowledge
     - energized glowstone also applies glowing
     - changed blazing pyrotheum slow rates
     - blazing pyrotheum has its own material

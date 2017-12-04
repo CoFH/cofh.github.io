@@ -426,6 +426,7 @@ thermal-foundation:
             - title: Forge Lexicon
               url: forge-lexicon/
             - title: Tome of Knowledge
+              url: tome-of-knowledge/
             - title: Phyto-Gro
               url: phyto-gro/
               subitems:
