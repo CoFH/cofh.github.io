@@ -534,6 +534,7 @@ thermal-foundation:
             - title: Essence of Knowledge
               url: essence-of-knowledge/
             - title: Potion
+              url: potion-fluid/
             - title: Syrup
               url: syrup/
             - title: Primal Mana

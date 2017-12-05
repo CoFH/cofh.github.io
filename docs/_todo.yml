@@ -1,7 +1,6 @@
 thermal-foundation:
   git: 3a05b0b..dd99b71
   todo:
-    - potion fluid
     - changed copper tool material
     - changed silver tool material
     - axe attack damage / attack speed based on harvest level / efficiency

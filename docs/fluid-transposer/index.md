@@ -32,6 +32,7 @@ recipe-list:
     - redstone-from-clathrate
     - glowstone-dust-from-clathrate
     - ender-pearl-from-clathrate
+    - bottle-o-enchanting
     - fluxduct-reinforced
     - fluxduct-signalum
     - fluxduct-resonant
@@ -197,10 +198,16 @@ Items that hold fluids, notably
 [buckets](https://minecraft.gamepedia.com/Bucket), can be filled with 1000 mB of
 fluid for 400 RF.
 
+[Glass bottles](https://minecraft.gamepedia.com/Glass_Bottle) can be filled with
+[fluid potions](/docs/potion-fluid/) (250 mB each) for 800 RF.
+
 {% include recipe-table.html type='transposer-fill' recipes=page.recipe-list.fill %}
 
 ### Emptying
 1000 mB of fluid can be drained from items like filled
 [buckets](https://minecraft.gamepedia.com/Bucket) for 400 RF.
+
+250 mB of a [fluid potion](/docs/potion-fluid/) can be drained from each
+[potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
 
 {% include recipe-table.html type='transposer-empty' recipes=page.recipe-list.empty %}
