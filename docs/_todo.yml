@@ -1,7 +1,6 @@
 thermal-foundation:
   git: 3a05b0b..dd99b71
   todo:
-    - essence of knowledge
     - potion fluid
     - changed copper tool material
     - changed silver tool material

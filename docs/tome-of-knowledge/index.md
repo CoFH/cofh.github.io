@@ -46,8 +46,8 @@ worth 20 mB of essence of knowledge.
 
 A tome of knowledge can be filled with essence of knowledge, converting it into
 experience points. Essence of knowledge can also be drained from it, converting
-experience points into the fluid. The item can filled or drained manually using
-[portable tanks](/docs/portable-tank/) or similar, or automatically using [fluid
+experience points into the fluid. The item can filled or drained manually by
+using it on blocks that store fluids, or automatically using [fluid
 transposers](/docs/fluid-transposer/) or similar.
 
 ### Enchantments

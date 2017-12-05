@@ -16,9 +16,13 @@ Its maximum level is IV.
 Usage
 -----
 
+### Thermal Foundation
+[Tomes of knowledge](/docs/tome-of-knowledge/) can be enchanted to hold more
+[experience](https://minecraft.gamepedia.com/Experience).
+
 ### Thermal Expansion
-The following blocks and items can be enchanted with Holding to be able to hold
-more items, fluids or energy:
+The following blocks and items can be enchanted to hold more items, fluids or
+energy:
 
 * [Energy Cell](/docs/energy-cell/)
 * [Flux Capacitor](/docs/flux-capacitor/)
@@ -28,9 +32,8 @@ more items, fluids or energy:
 * [Satchel](/docs/satchel/)
 
 ### Thermal Cultivation
-[Watering cans](/docs/watering-can/) can be enchanted with Holding to be able to
-hold more water.
+[Watering cans](/docs/watering-can/) can be enchanted to hold more water.
 
 ### Redstone Arsenal
 All equipment added by [Redstone Arsenal](/docs/redstone-arsenal/) can be
-enchanted with Holding to be able to hold more energy.
+enchanted to hold more energy.
