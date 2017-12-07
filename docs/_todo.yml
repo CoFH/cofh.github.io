@@ -1,12 +1,6 @@
 thermal-foundation:
   git: 3a05b0b..dd99b71
   todo:
-    - changed copper tool material
-    - changed silver tool material
-    - axe attack damage / attack speed based on harvest level / efficiency
-    - hammer attack damage / attack speed based on harvest level / efficiency
-    - hammers can be used to craft gravel from cobblestone
-    - sickles support leech and vorpal (maybe others?)
     - brewing recipes for core's new potions
 
 thermal-expansion:

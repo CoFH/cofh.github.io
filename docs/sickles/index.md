@@ -76,9 +76,9 @@ every individual block broken.
 | Gold | 128 | 1.4 | 4 | 22 |
 | Diamond | 6244 | 1.4 | 7 | 10 |
 |
-| Copper | 700 | 1.4 | 4.75 | 6 |
+| Copper | 700 | 1.4 | 5 | 6 |
 | Tin | 800 | 1.4 | 5 | 7 |
-| Silver | 800 | 1.4 | 5.5 | 20 |
+| Silver | 800 | 1.4 | 5 | 20 |
 | Lead | 600 | 1.4 | 5 | 9 |
 | Aluminum | 1100 | 1.4 | 5 | 14 |
 | Nickel | 1200 | 1.4 | 6.5 | 18 |
@@ -91,6 +91,9 @@ every individual block broken.
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
+
+### Enchantments
+Sickles can be enchanted with [Leech](/docs/leech/) and [Vorpal](/docs/vorpal/).
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
