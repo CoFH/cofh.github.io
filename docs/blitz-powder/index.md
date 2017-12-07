@@ -48,3 +48,9 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Brewing ingredient
+When [brewing](https://minecraft.gamepedia.com/Brewing), blitz powder can be
+added to an [awkward
+potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
+of levitation](/docs/cofh-core-potions/).

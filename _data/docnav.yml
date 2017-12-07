@@ -583,8 +583,9 @@ thermal-foundation:
             - title: Tiers
               url: tiers/
             - title: Potion recipes
+              url: tf-potion-recipes/
             - title: Vanilla recipes
-              url: vanilla-recipes/
+              url: tf-vanilla-recipes/
 
 thermal-expansion:
   title: Thermal Expansion

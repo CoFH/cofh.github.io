@@ -1,8 +1,9 @@
 ---
-title: Vanilla recipes
+title: Vanilla recipes (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/other/vanilla-recipes/
+  - /docs/vanilla-recipes/
 recipes:
   crafting:
     - saddle
@@ -17,6 +18,6 @@ disabled.
 
 
 Crafting
--------
+--------
 
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
