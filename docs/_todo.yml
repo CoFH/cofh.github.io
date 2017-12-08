@@ -1,8 +1,8 @@
 thermal-expansion:
   git: 2253f0f1..e1ad0015
   todo:
-    - phytogenic insolator can grow everything by itself
-    - phytogenic insolator recipes tweaked
+    - induction smelter flux slot is locked by default
+    - phytogenic insolator fertilizer slot is locked by default
     - fractionating still recipes tweaked
     - fluid transposer recipes tweaked
     - energetic infuser may gain an input tank from augments
@@ -30,7 +30,6 @@ thermal-expansion:
     - metallurgical recovery augment
     - pyro-concentrator increases primary output amount differently
     - pyro-concentrator secondary bonus increased
-    - substrate augments are removed
     - nutrient recovery augment
     - monoculture cycle augment
     - reflux column augment

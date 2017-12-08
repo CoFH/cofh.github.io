@@ -6,13 +6,14 @@ recipes:
   beetroot:
     results:
       - item: beetroot
+        suffix: x2
       - item: beetroot-seeds
     ingredients:
       - item: beetroot-seeds
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -20,23 +21,24 @@ recipes:
         item: [beetroot-seeds]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [beetroot]
+        amount: 2
       secondary-output:
         item: [beetroot-seeds]
       secondary-chance: 110
   beetroot-rich:
     results:
       - item: beetroot
-        suffix: x3
+        suffix: x6
       - item: beetroot-seeds
     ingredients:
       - item: beetroot-seeds
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -47,21 +49,21 @@ recipes:
         amount: 750
       primary-output:
         item: [beetroot]
-        amount: 3
+        amount: 6
       secondary-output:
         item: [beetroot-seeds]
       secondary-chance: 125
   beetroot-fluxed:
     results:
       - item: beetroot
-        suffix: x4
+        suffix: x8
       - item: beetroot-seeds
     ingredients:
       - item: beetroot-seeds
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -69,10 +71,10 @@ recipes:
         item: [beetroot-seeds]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [beetroot]
-        amount: 4
+        amount: 8
       secondary-output:
         item: [beetroot-seeds]
       secondary-chance: 150
@@ -84,8 +86,8 @@ recipes:
       - item: cactus
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -93,7 +95,7 @@ recipes:
         item: [cactus]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [cactus]
         amount: 2
@@ -106,7 +108,7 @@ recipes:
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -126,8 +128,8 @@ recipes:
       - item: cactus
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -135,7 +137,7 @@ recipes:
         item: [cactus]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [cactus]
         amount: 8
@@ -147,8 +149,8 @@ recipes:
       - item: carrot
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -156,7 +158,7 @@ recipes:
         item: [carrot]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [carrot]
         amount: 3
@@ -169,7 +171,7 @@ recipes:
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -189,8 +191,8 @@ recipes:
       - item: carrot
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -198,10 +200,85 @@ recipes:
         item: [carrot]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [carrot]
         amount: 12
+  chorus-plant:
+    results:
+      - item: chorus-plant
+        suffix: x2
+      - item: chorus-flower
+    ingredients:
+      - item: chorus-flower
+      - item: phyto-gro
+      - fluid: water
+        fluid-amount: 600
+    energy: 2400
+    data:
+      primary-input:
+        item: [phyto-gro]
+      secondary-input:
+        item: [chorus-flower]
+      fluid-input:
+        fluid: water
+        amount: 600
+      primary-output:
+        item: [chorus-plant]
+        amount: 2
+      secondary-output:
+        item: [chorus-flower]
+      secondary-chance: 100
+  chorus-plant-rich:
+    results:
+      - item: chorus-plant
+        suffix: x6
+      - item: chorus-flower
+    ingredients:
+      - item: chorus-flower
+      - item: phyto-gro-rich
+      - fluid: water
+        fluid-amount: 750
+    energy: 3000
+    data:
+      primary-input:
+        item: [phyto-gro-rich]
+      secondary-input:
+        item: [chorus-flower]
+      fluid-input:
+        fluid: water
+        amount: 750
+      primary-output:
+        item: [chorus-plant]
+        amount: 6
+      secondary-output:
+        item: [chorus-flower]
+      secondary-chance: 125
+  chorus-plant-fluxed:
+    results:
+      - item: chorus-plant
+        suffix: x8
+      - item: chorus-flower
+    ingredients:
+      - item: chorus-flower
+      - item: phyto-gro-fluxed
+      - fluid: water
+        fluid-amount: 900
+    energy: 3600
+    data:
+      primary-input:
+        item: [phyto-gro-fluxed]
+      secondary-input:
+        item: [chorus-flower]
+      fluid-input:
+        fluid: water
+        amount: 900
+      primary-output:
+        item: [chorus-plant]
+        amount: 8
+      secondary-output:
+        item: [chorus-flower]
+      secondary-chance: 150
   cocoa-beans:
     results:
       - item: cocoa-beans
@@ -210,8 +287,8 @@ recipes:
       - item: cocoa-beans
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -219,7 +296,7 @@ recipes:
         item: [cocoa-beans]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [cocoa-beans]
         amount: 3
@@ -232,7 +309,7 @@ recipes:
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -252,8 +329,8 @@ recipes:
       - item: cocoa-beans
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -261,7 +338,7 @@ recipes:
         item: [cocoa-beans]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [cocoa-beans]
         amount: 12
@@ -273,8 +350,8 @@ recipes:
       - item-group: flower
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -282,7 +359,7 @@ recipes:
         item-group: flower
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item-group: flower
         amount: 3
@@ -295,7 +372,7 @@ recipes:
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -315,8 +392,8 @@ recipes:
       - item-group: flower
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -324,7 +401,7 @@ recipes:
         item-group: flower
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item-group: flower
         amount: 12
@@ -336,8 +413,8 @@ recipes:
       - item: lily-pad
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -345,7 +422,7 @@ recipes:
         item: [lily-pad]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [lily-pad]
         amount: 2
@@ -358,7 +435,7 @@ recipes:
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -378,8 +455,8 @@ recipes:
       - item: lily-pad
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -387,19 +464,20 @@ recipes:
         item: [lily-pad]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [lily-pad]
         amount: 8
   melon:
     results:
       - item: melon
+      - item: melon-seeds
     ingredients:
       - item: melon-seeds
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -407,19 +485,23 @@ recipes:
         item: [melon-seeds]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [melon]
+      secondary-output:
+        item: [melon-seeds]
+      secondary-chance: 100
   melon-rich:
     results:
       - item: melon
         suffix: x3
+      - item: melon-seeds
     ingredients:
       - item: melon-seeds
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -431,16 +513,20 @@ recipes:
       primary-output:
         item: [melon]
         amount: 3
+      secondary-output:
+        item: [melon-seeds]
+      secondary-chance: 125
   melon-fluxed:
     results:
       - item: melon
         suffix: x4
+      - item: melon-seeds
     ingredients:
       - item: melon-seeds
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -448,10 +534,139 @@ recipes:
         item: [melon-seeds]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [melon]
         amount: 4
+      secondary-output:
+        item: [melon-seeds]
+      secondary-chance: 150
+  mushroom:
+    results:
+      - item-group: mushroom
+        suffix: x2
+    ingredients:
+      - item-group: mushroom
+      - item: phyto-gro
+      - fluid: water
+        fluid-amount: 600
+    energy: 2400
+    data:
+      primary-input:
+        item: [phyto-gro]
+      secondary-input:
+        item-group: mushroom
+      fluid-input:
+        fluid: water
+        amount: 600
+      primary-output:
+        item-group: mushroom
+        amount: 2
+  mushroom-rich:
+    results:
+      - item-group: mushroom
+        suffix: x6
+    ingredients:
+      - item-group: mushroom
+      - item: phyto-gro-rich
+      - fluid: water
+        fluid-amount: 750
+    energy: 3000
+    data:
+      primary-input:
+        item: [phyto-gro-rich]
+      secondary-input:
+        item-group: mushroom
+      fluid-input:
+        fluid: water
+        amount: 750
+      primary-output:
+        item-group: mushroom
+        amount: 6
+  mushroom-fluxed:
+    results:
+      - item-group: mushroom
+        suffix: x8
+    ingredients:
+      - item-group: mushroom
+      - item: phyto-gro-fluxed
+      - fluid: water
+        fluid-amount: 900
+    energy: 3600
+    data:
+      primary-input:
+        item: [phyto-gro-fluxed]
+      secondary-input:
+        item-group: mushroom
+      fluid-input:
+        fluid: water
+        amount: 900
+      primary-output:
+        item-group: mushroom
+        amount: 8
+  nether-wart:
+    results:
+      - item: nether-wart
+        suffix: x2
+    ingredients:
+      - item: nether-wart
+      - item: phyto-gro
+      - fluid: water
+        fluid-amount: 600
+    energy: 2400
+    data:
+      primary-input:
+        item: [phyto-gro]
+      secondary-input:
+        item: [nether-wart]
+      fluid-input:
+        fluid: water
+        amount: 600
+      primary-output:
+        item: [nether-wart]
+        amount: 2
+  nether-wart-rich:
+    results:
+      - item: nether-wart
+        suffix: x6
+    ingredients:
+      - item: nether-wart
+      - item: phyto-gro-rich
+      - fluid: water
+        fluid-amount: 750
+    energy: 3000
+    data:
+      primary-input:
+        item: [phyto-gro-rich]
+      secondary-input:
+        item: [nether-wart]
+      fluid-input:
+        fluid: water
+        amount: 750
+      primary-output:
+        item: [nether-wart]
+        amount: 6
+  nether-wart-fluxed:
+    results:
+      - item: nether-wart
+        suffix: x8
+    ingredients:
+      - item: nether-wart
+      - item: phyto-gro-fluxed
+      - fluid: water
+        fluid-amount: 900
+    energy: 3600
+    data:
+      primary-input:
+        item: [phyto-gro-fluxed]
+      secondary-input:
+        item: [nether-wart]
+      fluid-input:
+        fluid: water
+        amount: 900
+      primary-output:
+        item: [nether-wart]
+        amount: 8
   potato:
     results:
       - item: potato
@@ -461,8 +676,8 @@ recipes:
       - item: potato
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -470,7 +685,7 @@ recipes:
         item: [potato]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [potato]
         amount: 3
@@ -487,7 +702,7 @@ recipes:
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -501,7 +716,7 @@ recipes:
         amount: 9
       secondary-output:
         item: [poisonous-potato]
-      secondary-chance: 100
+      secondary-chance: 15
   potato-fluxed:
     results:
       - item: potato
@@ -511,8 +726,8 @@ recipes:
       - item: potato
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -520,22 +735,23 @@ recipes:
         item: [potato]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [potato]
         amount: 12
       secondary-output:
         item: [poisonous-potato]
-      secondary-chance: 150
+      secondary-chance: 20
   pumpkin:
     results:
       - item: pumpkin
+      - item: pumpkin-seeds
     ingredients:
       - item: pumpkin-seeds
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -543,19 +759,23 @@ recipes:
         item: [pumpkin-seeds]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [pumpkin]
+      secondary-output:
+        item: [pumpkin-seeds]
+      secondary-chance: 100
   pumpkin-rich:
     results:
       - item: pumpkin
         suffix: x3
+      - item: pumpkin-seeds
     ingredients:
       - item: pumpkin-seeds
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -567,16 +787,20 @@ recipes:
       primary-output:
         item: [pumpkin]
         amount: 3
+      secondary-output:
+        item: [pumpkin-seeds]
+      secondary-chance: 125
   pumpkin-fluxed:
     results:
       - item: pumpkin
         suffix: x4
+      - item: pumpkin-seeds
     ingredients:
       - item: pumpkin-seeds
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -584,10 +808,13 @@ recipes:
         item: [pumpkin-seeds]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [pumpkin]
         amount: 4
+      secondary-output:
+        item: [pumpkin-seeds]
+      secondary-chance: 150
   sugar-canes:
     results:
       - item: sugar-canes
@@ -596,8 +823,8 @@ recipes:
       - item: sugar-canes
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -605,7 +832,7 @@ recipes:
         item: [sugar-canes]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [sugar-canes]
         amount: 2
@@ -618,7 +845,7 @@ recipes:
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -638,8 +865,8 @@ recipes:
       - item: sugar-canes
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -647,7 +874,7 @@ recipes:
         item: [sugar-canes]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [sugar-canes]
         amount: 8
@@ -659,8 +886,8 @@ recipes:
       - item: vines
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -668,7 +895,7 @@ recipes:
         item: [vines]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [vines]
         amount: 2
@@ -681,7 +908,7 @@ recipes:
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -701,8 +928,8 @@ recipes:
       - item: vines
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -710,20 +937,21 @@ recipes:
         item: [vines]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [vines]
         amount: 8
   wheat:
     results:
       - item: wheat
+        suffix: x2
       - item: seeds
     ingredients:
       - item: seeds
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 500
-    energy: 5000
+        fluid-amount: 600
+    energy: 2400
     data:
       primary-input:
         item: [phyto-gro]
@@ -731,23 +959,24 @@ recipes:
         item: [seeds]
       fluid-input:
         fluid: water
-        amount: 500
+        amount: 600
       primary-output:
         item: [wheat]
+        amount: 2
       secondary-output:
         item: [seeds]
       secondary-chance: 110
   wheat-rich:
     results:
       - item: wheat
-        suffix: x3
+        suffix: x6
       - item: seeds
     ingredients:
       - item: seeds
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 750
-    energy: 7500
+    energy: 3000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -758,21 +987,21 @@ recipes:
         amount: 750
       primary-output:
         item: [wheat]
-        amount: 3
+        amount: 6
       secondary-output:
         item: [seeds]
       secondary-chance: 125
   wheat-fluxed:
     results:
       - item: wheat
-        suffix: x4
+        suffix: x8
       - item: seeds
     ingredients:
       - item: seeds
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 900
+    energy: 3600
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -780,10 +1009,10 @@ recipes:
         item: [seeds]
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 900
       primary-output:
         item: [wheat]
-        amount: 4
+        amount: 8
       secondary-output:
         item: [seeds]
       secondary-chance: 150

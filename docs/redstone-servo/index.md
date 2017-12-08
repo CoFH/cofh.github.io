@@ -27,9 +27,6 @@ usage-recipes:
     - augment-machine-pulverizer-petrotheum
     - augment-machine-sawmill-tapper
     - augment-machine-smelter-flux
-    - augment-machine-insolator-mycelium
-    - augment-machine-insolator-nether
-    - augment-machine-insolator-end
     - augment-machine-insolator-fertilizer
     - augment-machine-insolator-tree
     - augment-machine-compactor-mint

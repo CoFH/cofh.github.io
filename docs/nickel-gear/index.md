@@ -9,7 +9,6 @@ recipes:
 usage-recipes:
   crafting:
     - machine-refinery
-    - augment-machine-insolator-end
     - augment-machine-refinery-oil
 ---
 

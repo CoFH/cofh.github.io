@@ -9,7 +9,6 @@ recipes:
     - plate-lead-from-block
 usage-recipes:
   crafting:
-    - augment-machine-insolator-mycelium
     - augment-machine-refinery-potion
     - augment-dynamo-reactant-elemental
 ---

@@ -98,21 +98,6 @@ augment-machine-smelter-pyrotheum:
   animated: true
   site: cofh
   url: augment-pyro-concentrator/
-augment-machine-insolator-mycelium:
-  name: 'Augment: Mycelium Substrate'
-  sprite: [15, 29]
-  site: cofh
-  url: augment-mycelium-substrate/
-augment-machine-insolator-nether:
-  name: 'Augment: Nether Substrate'
-  sprite: [0, 30]
-  site: cofh
-  url: augment-nether-substrate/
-augment-machine-insolator-end:
-  name: 'Augment: Ender Substrate'
-  sprite: [14, 29]
-  site: cofh
-  url: augment-ender-substrate/
 augment-machine-insolator-fertilizer:
   name: 'Augment: Nutrient Recovery'
   sprite: [15, 60]

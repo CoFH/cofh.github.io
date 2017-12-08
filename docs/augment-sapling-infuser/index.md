@@ -38,11 +38,6 @@ An installed sapling infuser adds some extra [recipes](#recipes) to a
 [wood](https://minecraft.gamepedia.com/Wood) to be produced from
 [saplings](https://minecraft.gamepedia.com/Sapling).
 
-If a [mycelium](/docs/augment-mycelium-substrate/),
-[nether](/docs/augment-nether-substrate/) or [ender
-substrate](/docs/augment-ender-substrate/) is also installed, its corresponding
-tree types can also be grown.
-
 
 Recipes
 -------

@@ -435,57 +435,6 @@ recipes:
       result:
         item: [augment-machine-smelter-flux]
         amount: 1
-  augment-machine-insolator-mycelium:
-    results:
-      - item: augment-machine-insolator-mycelium
-    ingredients:
-      - item: redstone-servo
-      - item: plate-lead
-      - item: gear-copper
-      - item: mycelium
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-lead], item: [redstone-servo], item: [plate-lead]]
-        - [item: [redstone], item: [mycelium], item: [redstone]]
-      result:
-        item: [augment-machine-insolator-mycelium]
-        amount: 1
-  augment-machine-insolator-nether:
-    results:
-      - item: augment-machine-insolator-nether
-    ingredients:
-      - item: redstone-servo
-      - item: plate-tin
-      - item: gear-silver
-      - item: soul-sand
-      - item: glowstone-dust
-    data:
-      rows:
-        - [null, item: [gear-silver]]
-        - [item: [plate-tin], item: [redstone-servo], item: [plate-tin]]
-        - [item: [glowstone-dust], item: [soul-sand], item: [glowstone-dust]]
-      result:
-        item: [augment-machine-insolator-nether]
-        amount: 1
-  augment-machine-insolator-end:
-    results:
-      - item: augment-machine-insolator-end
-    ingredients:
-      - item: redstone-servo
-      - item: plate-silver
-      - item: gear-nickel
-      - item: end-stone
-      - item: dust-cryotheum
-    data:
-      rows:
-        - [null, item: [gear-nickel]]
-        - [item: [plate-silver], item: [redstone-servo], item: [plate-silver]]
-        - [item: [dust-cryotheum], item: [end-stone], item: [dust-cryotheum]]
-      result:
-        item: [augment-machine-insolator-end]
-        amount: 1
   augment-machine-insolator-fertilizer:
     results:
       - item: augment-machine-insolator-fertilizer

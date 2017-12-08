@@ -9,7 +9,6 @@ recipes:
     - plate-tin-from-block
 usage-recipes:
   crafting:
-    - augment-machine-insolator-nether
     - augment-dynamo-compression-coolant
 ---
 

@@ -12,8 +12,8 @@ recipes:
       - item-group: sapling
       - item: phyto-gro
       - fluid: water
-        fluid-amount: 1000
-    energy: 10000
+        fluid-amount: 1200
+    energy: 4800
     data:
       primary-input:
         item: [phyto-gro]
@@ -21,13 +21,13 @@ recipes:
         item-group: sapling
       fluid-input:
         fluid: water
-        amount: 1000
+        amount: 1200
       primary-output:
         item-group: wood-log
         amount: 4
       secondary-output:
         item-group: sapling
-      secondary-chance: 50
+      secondary-chance: 100
   wood-rich:
     results:
       - item-group: wood-log
@@ -38,7 +38,7 @@ recipes:
       - item: phyto-gro-rich
       - fluid: water
         fluid-amount: 1500
-    energy: 15000
+    energy: 6000
     data:
       primary-input:
         item: [phyto-gro-rich]
@@ -52,7 +52,7 @@ recipes:
         amount: 12
       secondary-output:
         item-group: sapling
-      secondary-chance: 100
+      secondary-chance: 125
   wood-fluxed:
     results:
       - item-group: wood-log
@@ -62,8 +62,8 @@ recipes:
       - item-group: sapling
       - item: phyto-gro-fluxed
       - fluid: water
-        fluid-amount: 2000
-    energy: 20000
+        fluid-amount: 1800
+    energy: 7200
     data:
       primary-input:
         item: [phyto-gro-fluxed]
@@ -71,7 +71,7 @@ recipes:
         item-group: sapling
       fluid-input:
         fluid: water
-        amount: 2000
+        amount: 1800
       primary-output:
         item-group: wood-log
         amount: 16

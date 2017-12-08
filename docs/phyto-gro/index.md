@@ -27,11 +27,8 @@ usage-recipes:
     - sugar-canes
     - vines
     - wheat
-  insolator-mycelium:
     - mushroom
-  insolator-nether:
     - nether-wart
-  insolator-end:
     - chorus-plant
   insolator-tree:
     - wood
@@ -61,15 +58,6 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 3x3 area.
 
 ### Phytogenic Insolator ingredient
 {% include recipe-table.html type='insolator' recipes=page.usage-recipes.insolator %}
-
-### Phytogenic Insolator with Mycelium Substrate ingredient
-{% include recipe-table.html type='insolator-mycelium' recipes=page.usage-recipes.insolator-mycelium %}
-
-### Phytogenic Insolator with Nether Substrate ingredient
-{% include recipe-table.html type='insolator-nether' recipes=page.usage-recipes.insolator-nether %}
-
-### Phytogenic Insolator with Ender Substrate ingredient
-{% include recipe-table.html type='insolator-end' recipes=page.usage-recipes.insolator-end %}
 
 ### Phytogenic Insolator with Sapling Infuser ingredient
 {% include recipe-table.html type='insolator-tree' recipes=page.usage-recipes.insolator-tree %}

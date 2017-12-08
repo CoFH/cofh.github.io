@@ -20,7 +20,6 @@ usage-recipes:
     - frame-device
     - dynamo-steam
     - augment-machine-furnace-food
-    - augment-machine-insolator-mycelium
     - augment-machine-precipitator-snow-layer
     - augment-machine-precipitator-packed-ice
     - augment-machine-extruder-no-water

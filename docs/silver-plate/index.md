@@ -10,7 +10,6 @@ recipes:
 usage-recipes:
   crafting:
     - augment-machine-furnace-food
-    - augment-machine-insolator-end
     - augment-machine-charger-throughput
 ---
 

@@ -15,9 +15,6 @@ augments:
     - machine-pulverizer-petrotheum
     - machine-sawmill-tapper
     - machine-smelter-pyrotheum
-    - machine-insolator-mycelium
-    - machine-insolator-nether
-    - machine-insolator-end
     - machine-insolator-tree
     - machine-compactor-mint
     - machine-crucible-lava

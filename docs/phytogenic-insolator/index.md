@@ -3,6 +3,9 @@ title: Phytogenic Insolator
 nav: thermal-expansion
 redirect_from:
   - /docs/thermal-expansion/machines/phytogenic-insolator/
+  - /docs/augment-mycelium-substrate/
+  - /docs/augment-nether-substrate/
+  - /docs/augment-ender-substrate/
 recipes:
   crafting:
     - machine-insolator
@@ -10,9 +13,6 @@ augments:
   - machine-power
   - machine-secondary
   - machine-secondary-null
-  - machine-insolator-mycelium
-  - machine-insolator-nether
-  - machine-insolator-end
   - machine-insolator-tree
 recipe-list:
   phyto-gro:
@@ -28,6 +28,9 @@ recipe-list:
     - flower
     - lily-pad
     - vines
+    - mushroom
+    - nether-wart
+    - chorus-plant
   phyto-gro-rich:
     - wheat-rich
     - potato-rich
@@ -41,6 +44,9 @@ recipe-list:
     - flower-rich
     - lily-pad-rich
     - vines-rich
+    - mushroom-rich
+    - nether-wart-rich
+    - chorus-plant-rich
   phyto-gro-fluxed:
     - wheat-fluxed
     - potato-fluxed
@@ -54,6 +60,9 @@ recipe-list:
     - flower-fluxed
     - lily-pad-fluxed
     - vines-fluxed
+    - mushroom-fluxed
+    - nether-wart-fluxed
+    - chorus-plant-fluxed
 ---
 
 ![Phytogenic insolator](/assets/images/thermal-expansion/phytogenic-insolator.png){:style="height: 128px"}
