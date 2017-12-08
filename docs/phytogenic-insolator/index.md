@@ -140,7 +140,7 @@ auto-input are enabled can be configured using the Configuration tab in the
 machine's GUI.
 
 One of a phytogenic insolator's input slots can be locked to only accept
-[phyto-gro](/docs/phyto-gro/).
+[phyto-gro](/docs/phyto-gro/). It is locked by default.
 
 [Water](https://minecraft.gamepedia.com/Water) can enter a phytogenic insolator
 through any side, regardless of configuration.

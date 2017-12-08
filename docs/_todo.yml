@@ -1,8 +1,6 @@
 thermal-expansion:
   git: 2253f0f1..e1ad0015
   todo:
-    - induction smelter flux slot is locked by default
-    - phytogenic insolator fertilizer slot is locked by default
     - fractionating still recipes tweaked
     - fluid transposer recipes tweaked
     - energetic infuser may gain an input tank from augments
