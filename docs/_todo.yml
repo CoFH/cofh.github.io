@@ -1,21 +1,12 @@
 thermal-expansion:
   git: 2253f0f1..e1ad0015
   todo:
-    - energetic infuser may gain an input tank from augments
     - alchemical imbuer
     - arcane ensorcellator
-    - increased aqueous accumulator output
-    - aqueous accumulator transfers output *after* generating water
-    - arboreal extractor transfers output *after* extracting fluid
-    - aquatic entangler transfers output *after* catching fish
     - fluid allocator
     - lexical transmuter
     - insightful condenser
     - decoctive diffuser
-    - dynamos always face upwards when placed
-    - dynamos' processIdle is called properly
-    - steam dynamo cannot use weak furnace fuel
-    - flux capacitor default send rates changed
     - portable tank can be locked
     - portable tank can be secured
     - portable tank redstone control

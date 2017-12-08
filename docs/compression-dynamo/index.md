@@ -47,10 +47,8 @@ Usage
 -----
 
 ### Placement
-When placed, a compression dynamo faces up. If an adjacent block accepts
-[Redstone Flux](/docs/redstone-flux/), the dynamo will face that block instead.
-A compression dynamo can face any direction, and can be rotated using a
-[crescent hammer](/docs/crescent-hammer/) or similar.
+When placed, a compression dynamo faces up. It can face any direction, and can
+be rotated using a [crescent hammer](/docs/crescent-hammer/) or similar.
 
 ### Energy generation
 When a compression dynamo is filled with fluid [fuel](#fuels) and

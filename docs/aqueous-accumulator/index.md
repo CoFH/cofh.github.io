@@ -46,11 +46,11 @@ which water is produced depends on the amount of adjacent water sources.
 
 | Adjacent water sources | Production rate |
 |---
-| 2 | 25 mB/t |
-| 3 | 50 mB/t |
-| 4 | 75 mB/t |
-| 5 | 100 mB/t |
-| 6 | 125 mB/t |
+| 2 | 100 mB/t |
+| 3 | 200 mB/t |
+| 4 | 300 mB/t |
+| 5 | 400 mB/t |
+| 6 | 500 mB/t |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 Water is not actually produced every tick, but in batches every 40 ticks (2
@@ -58,10 +58,10 @@ seconds).
 
 An aqueous accumulator will also produce water when it
 [rains](https://minecraft.gamepedia.com/Rain) on top of it. In this case, water
-is produced at a rate of 25 mB/t.
+is produced at a rate of 100 mB/t.
 
 If enabled, an aqueous accumulator will also produce water without adjacent
-water sources or rain. In this case, water is produced at a rate of 1 mB/t. This
+water sources or rain. In this case, water is produced at a rate of 2 mB/t. This
 is disabled by default.
 
 Aqueous accumulators do not work in the
@@ -74,8 +74,7 @@ able to output water.
 
 An aqueous accumulator can automatically transfer water out of any configured
 output sides. This is called auto-output, and occurs every 40 ticks (2 seconds),
-before more water is produced. Up to 2000 mB of water can be transferred at a
-time.
+after water is produced.
 
 Which sides can output water and whether auto-output is enabled can be
 configured using the Configuration tab in the device's GUI.

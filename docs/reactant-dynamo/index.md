@@ -43,10 +43,8 @@ Usage
 -----
 
 ### Placement
-When placed, a reactant dynamo faces up. If an adjacent block accepts [Redstone
-Flux](/docs/redstone-flux/), the dynamo will face that block instead. A reactant
-dynamo can face any direction, and can be rotated using a [crescent
-hammer](/docs/crescent-hammer/) or similar.
+When placed, a reactant dynamo faces up. It can face any direction, and can be
+rotated using a [crescent hammer](/docs/crescent-hammer/) or similar.
 
 ### Energy generation
 When a reactant dynamo is supplied a fluid fuel and a reactant item that can

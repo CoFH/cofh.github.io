@@ -42,10 +42,8 @@ Usage
 -----
 
 ### Placement
-When placed, an enervation dynamo faces up. If an adjacent block accepts
-[Redstone Flux](/docs/redstone-flux/), the dynamo will face that block instead.
-An enervation dynamo can face any direction, and can be rotated using a
-[crescent hammer](/docs/crescent-hammer/) or similar.
+When placed, an enervation dynamo faces up. It can face any direction, and can
+be rotated using a [crescent hammer](/docs/crescent-hammer/) or similar.
 
 ### Energy generation
 When [fuel](#fuels) or an item that holds [Redstone Flux](/docs/redstone-flux/)

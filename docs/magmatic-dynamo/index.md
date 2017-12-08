@@ -46,10 +46,8 @@ Usage
 -----
 
 ### Placement
-When placed, a magmatic dynamo faces up. If an adjacent block accepts [Redstone
-Flux](/docs/redstone-flux/), the dynamo will face that block instead. A magmatic
-dynamo can face any direction, and can be rotated using a [crescent
-hammer](/docs/crescent-hammer/) or similar.
+When placed, a magmatic dynamo faces up. It can face any direction, and can be
+rotated using a [crescent hammer](/docs/crescent-hammer/) or similar.
 
 ### Energy generation
 When a magmatic dynamo is filled with fluid [fuel](#fuels), it will start

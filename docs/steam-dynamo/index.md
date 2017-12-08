@@ -46,10 +46,8 @@ Usage
 -----
 
 ### Placement
-When placed, a steam dynamo faces up. If an adjacent block accepts [Redstone
-Flux](/docs/redstone-flux/), the dynamo will face that block instead. A steam
-dynamo can face any direction, and can be rotated using a [crescent
-hammer](/docs/crescent-hammer/) or similar.
+When placed, a steam dynamo faces up. It can face any direction, and can be
+rotated using a [crescent hammer](/docs/crescent-hammer/) or similar.
 
 ### Energy generation
 A steam dynamo has a fuel slot and a
@@ -158,5 +156,8 @@ buckets](https://minecraft.gamepedia.com/Lava_Bucket).
 | [Block of Coal](https://minecraft.gamepedia.com/Block_of_Coal) | 240,000 RF |
 | [Charcoal](https://minecraft.gamepedia.com/Charcoal) | 16,000 RF |
 | [Coal Coke](/docs/coal-coke/) | 40,000 RF |
-| Any other [furnace](https://minecraft.gamepedia.com/Furnace) fuel | (Burn time in ticks × 10) RF
+| Any other [furnace](https://minecraft.gamepedia.com/Furnace) fuel* | (Burn time in ticks × 10) RF
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
+*: Items with very short burn times (less than 300 ticks) cannot be used as
+fuel.

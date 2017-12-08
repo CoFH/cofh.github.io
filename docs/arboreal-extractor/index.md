@@ -63,7 +63,8 @@ directly correspond to its output tank. This is called auto-output. The device
 can automatically transfer up to 1000 mB of fluid at a time. It can also
 transfer items from adjacent inventories into any sides that directly correspond
 to its fertilizer slot. This is called auto-input. Auto-output and auto-input
-occur every 600 ticks (30 seconds), before more fluid is produced.
+occur every 600 ticks (30 seconds). Auto-output occurs after fluid is produced,
+and auto-input occurs right before fluid is produced.
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the

@@ -36,6 +36,9 @@ instead of [water](https://minecraft.gamepedia.com/Water) and solid fuel. It
 generates 2 RF of energy per mB of steam, regardless of other installed
 [augments](/docs/augments/).
 
+When the dynamo is inactive, any steam stored inside gradually dissipates. This
+can cause energy loss when steam is being supplied while the dynamo is inactive.
+
 An installed turbine conversion quadruples the maximum power output of a steam
 dynamo.
 

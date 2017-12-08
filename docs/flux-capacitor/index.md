@@ -83,12 +83,12 @@ Flux capacitors come in six [tiers](/docs/tiers/).
 <div class="uk-overflow-container">
 | Tier | Capacity | Max. charge rate | Max. discharge rate | Note |
 |---
-| Basic | 1,000,000 RF | 2,000 RF/t | 500 RF/t |
-| Hardened | 4,000,000 RF | 8,000 RF/t | 2,000 RF |
-| Reinforced | 9,000,000 RF | 18,000 RF/t | 4,500 RF/t |
-| Signalum | 16,000,000 RF | 32,000 RF/t | 8,000 RF/t |
-| Resonant | 25,000,000 RF | 50,000 RF/t | 12,500 RF/t |
-| Creative | N/A | N/A | 12,500 RF/t | Provides an unlimited amount of energy. |
+| Basic | 1,000,000 RF | 2,000 RF/t | 1,000 RF/t |
+| Hardened | 4,000,000 RF | 8,000 RF/t | 4,000 RF/t |
+| Reinforced | 9,000,000 RF | 18,000 RF/t | 9,000 RF/t |
+| Signalum | 16,000,000 RF | 32,000 RF/t | 16,000 RF/t |
+| Resonant | 25,000,000 RF | 50,000 RF/t | 25,000 RF/t |
+| Creative | N/A | N/A | 25,000 RF/t | Provides an unlimited amount of energy. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
