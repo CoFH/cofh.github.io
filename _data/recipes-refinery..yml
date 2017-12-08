@@ -11,7 +11,7 @@ recipes:
     ingredients:
       - fluid: resin
         fluid-amount: 100
-    energy: 2500
+    energy: 5000
     data:
       input:
         fluid: resin
@@ -25,38 +25,38 @@ recipes:
   naphtha-from-coal:
     results:
       - fluid: naphtha
-        fluid-amount: 50
+        fluid-amount: 100
       - item: tar
     ingredients:
       - fluid: coal
-        fluid-amount: 100
+        fluid-amount: 200
     energy: 5000
     data:
       input:
         fluid: coal
-        amount: 100
+        amount: 200
       fluid-output:
         fluid: naphtha
-        amount: 50
+        amount: 100
       item-output:
         item: [tar]
       item-chance: 75
   naphtha-from-crude-oil:
     results:
       - fluid: naphtha
-        fluid-amount: 100
+        fluid-amount: 150
       - item: tar
     ingredients:
       - fluid: crude-oil
-        fluid-amount: 100
+        fluid-amount: 200
     energy: 5000
     data:
       input:
         fluid: crude-oil
-        amount: 100
+        amount: 200
       fluid-output:
         fluid: naphtha
-        amount: 100
+        amount: 150
       item-output:
         item: [tar]
       item-chance: 50
@@ -67,12 +67,12 @@ recipes:
       - item: sulfur
     ingredients:
       - fluid: naphtha
-        fluid-amount: 100
+        fluid-amount: 150
     energy: 5000
     data:
       input:
         fluid: naphtha
-        amount: 100
+        amount: 150
       fluid-output:
         fluid: refined-fuel
         amount: 100

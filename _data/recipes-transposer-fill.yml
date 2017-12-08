@@ -747,14 +747,14 @@ recipes:
     ingredients:
       - item: phyto-gro
       - fluid: sap
-        fluid-amount: 500
+        fluid-amount: 200
     energy: 2000
     data:
       item-input:
         item: [phyto-gro]
       fluid-input:
         fluid: sap
-        amount: 500
+        amount: 200
       output:
         item: [phyto-gro-rich]
   redstone-from-clathrate:
