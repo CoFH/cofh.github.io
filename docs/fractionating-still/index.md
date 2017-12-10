@@ -8,6 +8,8 @@ augments:
   - machine-power
   - machine-secondary
   - machine-secondary-null
+  - machine-refinery-oil
+  - machine-refinery-potion
 recipe-list:
   - naphtha-from-coal
   - naphtha-from-crude-oil

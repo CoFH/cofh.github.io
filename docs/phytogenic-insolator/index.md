@@ -13,7 +13,9 @@ augments:
   - machine-power
   - machine-secondary
   - machine-secondary-null
+  - machine-insolator-fertilizer
   - machine-insolator-tree
+  - machine-insolator-monoculture
 recipe-list:
   phyto-gro:
     - wheat

@@ -10,6 +10,7 @@ recipes:
 augments:
   - machine-power
   - machine-charger-throughput
+  - machine-charger-repair
 recipe-list:
   - phyto-gro-fluxed
   - aqua-chow-fluxed

@@ -1,7 +1,6 @@
 thermal-expansion:
   git: 2253f0f1..e1ad0015
   todo:
-    - alchemical imbuer
     - arcane ensorcellator
     - fluid allocator
     - lexical transmuter

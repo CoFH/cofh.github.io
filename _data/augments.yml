@@ -74,6 +74,15 @@ machine-sawmill-tapper:
     A specialization that allows for a sawmill to extract fluids from <a
     href="https://minecraft.gamepedia.com/Wood">wood</a> while processing it,
     like <a href="/docs/resin/">resin</a> and <a href="/docs/sap/">sap</a>.
+machine-smelter-flux:
+  name: Metallurgical Recovery
+  url: augment-metallurgical-recovery/
+  installed-in: '<a href="/docs/induction-smelter/">Induction Smelter</a>'
+  description: >
+    Provides a chance for an induction smelter to not consume metallurgical
+    fluxes (such as <a href="https://minecraft.gamepedia.com/Sand">sand</a> and
+    <a href="/docs/rich-slag/">rich slag</a>). However, also increases the
+    amount of energy required per operation. Can be installed multiple times.
 machine-smelter-pyrotheum:
   name: Pyro-Concentrator
   url: augment-pyro-concentrator/
@@ -83,6 +92,14 @@ machine-smelter-pyrotheum:
     A specialization that allows for an induction smelter to process ores more
     efficiently using <a href="/docs/blazing-pyrotheum/">blazing pyrotheum</a>.
     100 mB of pyrotheum is consumed per ore.
+machine-insolator-fertilizer:
+  name: Nutrient Recovery
+  url: augment-nutrient-recovery/
+  installed-in: '<a href="/docs/phytogenic-insolator/">Phytogenic Insolator</a>'
+  description: >
+    Provides a chance for a phytogenic insolator to not consume fertilizer.
+    However, also increases the amount of energy required per operation. Can be
+    installed multiple times.
 machine-insolator-tree:
   name: Sapling Infuser
   url: augment-sapling-infuser/
@@ -90,6 +107,16 @@ machine-insolator-tree:
   description: >
     Allows for a phytogenic insolator to grow <a
     href="https://minecraft.gamepedia.com/Tree">trees</a>.
+machine-insolator-monoculture:
+  name: Monoculture Cycle
+  url: augment-monoculture-cycle/
+  animated: true
+  installed-in: '<a href="/docs/phytogenic-insolator/">Phytogenic Insolator</a>'
+  description: >
+    A specialization that changes a phytogenic insolator to not consume
+    non-fertilizer inputs. However, also increases the amount of energy required
+    per operation, and significantly reduces the chances of producing secondary
+    products.
 machine-compactor-mint:
   name: Numismatic Press
   url: augment-numismatic-press/
@@ -106,6 +133,22 @@ machine-crucible-lava:
     A specialization that increases a magma crucible's maximum power usage
     (speed) by a factor of 10. However, a crucible can only produce <a
     href="https://minecraft.gamepedia.com/Lava">lava</a> when installed.
+machine-refinery-oil:
+  name: Reflux Column
+  url: augment-reflux-column/
+  installed-in: '<a href="/docs/fractionating-still/">Fractionating Still</a>'
+  description: >
+    A specialization that increases a fractionating still's conversion
+    efficiency when processing fossil fuels. However, a still can only process
+    fossil fuels when installed.
+machine-refinery-potion:
+  name: Alchemical Retort
+  url: augment-alchemical-retort/
+  installed-in: '<a href="/docs/fractionating-still/">Fractionating Still</a>'
+  description: >
+    A specialization that allows for a fractionating still to refine <a
+    href="/docs/potion-fluid/">fluid potions</a>, making them stronger. However,
+    a still can only process potions when installed.
 machine-charger-throughput:
   name: Flux Linkage Concentrator
   url: augment-flux-linkage-concentrator/
@@ -115,6 +158,14 @@ machine-charger-throughput:
     usage (speed) when charging items that hold <a
     href="/docs/redstone-flux/">Redstone Flux</a>. The machine will still be
     limited by the maximum charging rate of items it charges.
+machine-charger-repair:
+  name: Flux Reconstruction
+  url: augment-flux-reconstruction/
+  installed-in: '<a href="/docs/energetic-infuser/">Energetic Infuser</a>'
+  description: >
+    A specialization that allows for an energetic infuser to repair damaged
+    items using <a href="/docs/essence-of-knowledge/">essence of knowledge</a>.
+    However, an energetic infuser will no longer charge items when installed.
 machine-brewer-reagent:
   name: Reagent Recovery
   url: augment-reagent-recovery/

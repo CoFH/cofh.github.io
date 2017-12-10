@@ -14,11 +14,17 @@ augments:
     - machine-furnace-pyrolysis
     - machine-pulverizer-petrotheum
     - machine-sawmill-tapper
+    - machine-smelter-flux
     - machine-smelter-pyrotheum
+    - machine-insolator-fertilizer
     - machine-insolator-tree
+    - machine-insolator-monoculture
     - machine-compactor-mint
     - machine-crucible-lava
+    - machine-refinery-oil
+    - machine-refinery-potion
     - machine-charger-throughput
+    - machine-charger-repair
     - machine-brewer-reagent
     - machine-precipitator-snow-layer
     - machine-precipitator-packed-ice

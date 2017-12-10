@@ -11,6 +11,7 @@ augments:
   - machine-power
   - machine-secondary
   - machine-secondary-null
+  - machine-smelter-flux
   - machine-smelter-pyrotheum
 recipe-list:
   general:
