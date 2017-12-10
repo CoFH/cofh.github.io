@@ -56,6 +56,10 @@ An installed retriever can be configured by using it. The available options
 depend on whether the retriever is installed on an [itemduct](/docs/itemduct/)
 or on a [fluiduct](/docs/fluiduct/).
 
+A retriever's configuration can be saved on a [redprint](/docs/redprint/) to be
+copied to other retrievers, [servos](/docs/servos/) or
+[filters](/docs/filters/).
+
 ### Redstone control
 By default, a retriever is only active when powered with
 [redstone](https://minecraft.gamepedia.com/Redstone). However, this is

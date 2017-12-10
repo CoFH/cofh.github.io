@@ -16,7 +16,7 @@ A [fluid transposer](/docs/fluid-transposer/) can extract potions from their
 energy and yields 250 mB of fluid per potion.
 
 ### Alchemical Imbuer
-An [alchemical imbuer](/docs/alchemical-imubuer/) can brew
+An [alchemical imbuer](/docs/alchemical-imbuer/) can brew
 [water](https://minecraft.gamepedia.com/Water) into fluid potions using
 [brewing](https://minecraft.gamepedia.com/Brewing) ingredients.
 

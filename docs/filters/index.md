@@ -56,6 +56,10 @@ An installed filter can be configured by using it. The available options depend
 on whether the filter is installed on an [itemduct](/docs/itemduct/) or on a
 [fluiduct](/docs/fluiduct/).
 
+A filter's configuration can be saved on a [redprint](/docs/redprint/) to be
+copied to other filters, [servos](/docs/servos/) or
+[retrievers](/docs/retrievers/).
+
 ### Item filtering
 When installed on an [itemduct](/docs/itemduct/) connection, it only allows
 items that match a configured list to pass through. It has various options that

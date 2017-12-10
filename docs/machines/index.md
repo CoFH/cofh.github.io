@@ -24,6 +24,10 @@ image:
     file: thermal-expansion/energetic-infuser.png
   - alt: Centrifugal separator
     file: thermal-expansion/centrifugal-separator.png
+  - alt: Alchemical imbuer
+    file: thermal-expansion/alchemical-imbuer.png
+  - alt: Arcane ensorcellator
+    file: thermal-expansion/arcane-ensorcellator.png
   - alt: Glacial precipitator
     file: thermal-expansion/glacial-precipitator.png
   - alt: Igneous extruder
@@ -59,6 +63,8 @@ List of machines
 | [Fluid Transposer](/docs/fluid-transposer/) | Fills or empties things that hold fluids, like [buckets](https://minecraft.gamepedia.com/Bucket). |
 | [Energetic Infuser](/docs/energetic-infuser/) | Charges items. |
 | [Centrifugal Separator](/docs/centrifugal-separator/) | Separates items into their components. |
+| [Alchemical Imbuer](/docs/alchemical-imbuer/) | Brews [potions](https://minecraft.gamepedia.com/Potion). |
+| [Arcane Ensorcellator](/docs/arcane-ensorcellator/) | Creates [enchanted books](https://minecraft.gamepedia.com/Enchanted_Book). |
 | [Glacial Precipitator](/docs/glacial-precipitator/) | Freezes [water](https://minecraft.gamepedia.com/Water) into various items. |
 | [Igneous Extruder](/docs/igneous-extruder/) | Mixes [water](https://minecraft.gamepedia.com/Water) and [lava](https://minecraft.gamepedia.com/Lava) into various items, notably [cobblestone](https://minecraft.gamepedia.com/Cobblestone). |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}

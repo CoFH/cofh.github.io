@@ -19,6 +19,7 @@ augments:
     - machine-compactor-mint
     - machine-crucible-lava
     - machine-charger-throughput
+    - machine-brewer-reagent
     - machine-precipitator-snow-layer
     - machine-precipitator-packed-ice
     - machine-extruder-no-water

@@ -115,6 +115,15 @@ machine-charger-throughput:
     usage (speed) when charging items that hold <a
     href="/docs/redstone-flux/">Redstone Flux</a>. The machine will still be
     limited by the maximum charging rate of items it charges.
+machine-brewer-reagent:
+  name: Reagent Recovery
+  url: augment-reagent-recovery/
+  installed-in: '<a href="/docs/alchemical-imbuer/">Alchemical Imbuer</a>'
+  description: >
+    Provides a chance for an alchemical imbuer to not consume reagents (<a
+    href="https://minecraft.gamepedia.com/Brewing">brewing</a> ingredients).
+    However, also increases the amount of energy required per operation. Can be
+    installed multiple times.
 machine-precipitator-snow-layer:
   name: Flurry Stratum
   url: augment-flurry-stratum/

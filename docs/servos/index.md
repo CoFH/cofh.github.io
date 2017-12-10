@@ -59,6 +59,10 @@ on whether the servo is installed on an [itemduct](/docs/itemduct/) or on a
 A servo's configuration also affects items or fluids that are inserted into the
 duct by the connected block.
 
+A servo's configuration can be saved on a [redprint](/docs/redprint/) to be
+copied to other servos, [filters](/docs/filters/) or
+[retrievers](/docs/retrievers/).
+
 ### Redstone control
 By default, a servo is only active when powered with
 [redstone](https://minecraft.gamepedia.com/Redstone). However, this is
