@@ -641,9 +641,13 @@ thermal-expansion:
             - title: Item Allocator
               url: item-allocator/
             - title: Fluid Allocator
+              url: fluid-allocator/
             - title: Lexical Transmuter
+              url: lexical-transmuter/
             - title: Insightful Condenser
+              url: insightful-condenser/
             - title: Decoctive Diffuser
+              url: decoctive-diffuser/
         - title: Dynamos
           url: dynamos/
           items:

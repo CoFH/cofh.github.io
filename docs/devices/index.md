@@ -14,6 +14,14 @@ image:
     file: thermal-expansion/aquatic-entangler.png
   - alt: Item allocator
     file: thermal-expansion/item-allocator.png
+  - alt: Fluid allocator
+    file: thermal-expansion/fluid-allocator.png
+  - alt: Lexical transmuter
+    file: thermal-expansion/lexical-transmuter.png
+  - alt: Insightful condenser
+    file: thermal-expansion/insightful-condenser.png
+  - alt: Decoctive diffuser
+    file: thermal-expansion/decoctive-diffuser.png
 frame-recipes:
   crafting:
     - frame-device
@@ -38,6 +46,10 @@ List of devices
 | [Arboreal Extractor](/docs/arboreal-extractor/) | Extracts a fluid from an adjacent [tree](https://minecraft.gamepedia.com/Tree). |
 | [Aquatic Entangler](/docs/aquatic-entangler/) | Catches [fish](https://minecraft.gamepedia.com/Fish). |
 | [Item Allocator](/docs/item-allocator/) | Stores and transfers items. |
+| [Fluid Allocator](/docs/fluid-allocator/) | Stores and transfers fluids. |
+| [Lexical Transmuter](/docs/lexical-transmuter/) | Transmutes items among equivalent forms. |
+| [Insightful Condenser](/docs/insightful-condenser/) | Collects [experience](https://minecraft.gamepedia.com/Experience) in an area. |
+| [Decoctive Diffuser](/docs/insightful-condenser/) | Spreads the effects of [fluid potions](/docs/potion-fluid/) in an area. |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
 </div>
 {::options parse_block_html="false" /}
