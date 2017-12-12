@@ -68,8 +68,8 @@ for 8 cycles per item.
 
 ### Input and output
 Items can enter and exit an aquatic entangler through its sides. Every side of
-an aquatic entangler may correspond to its bait slot, its output slots, or both
-at the same time.
+the device may correspond to its bait slot, its output slots, or both at the
+same time.
 
 An aquatic entangler can automatically transfer items out of any sides that
 directly correspond to its output slots. This is called auto-output. It can also

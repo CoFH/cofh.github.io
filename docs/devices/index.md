@@ -47,7 +47,7 @@ List of devices
 | [Aquatic Entangler](/docs/aquatic-entangler/) | Catches [fish](https://minecraft.gamepedia.com/Fish). |
 | [Item Allocator](/docs/item-allocator/) | Stores and transfers items. |
 | [Fluid Allocator](/docs/fluid-allocator/) | Stores and transfers fluids. |
-| [Lexical Transmuter](/docs/lexical-transmuter/) | Transmutes items among equivalent forms. |
+| [Lexical Transmuter](/docs/lexical-transmuter/) | Converts items into preferred equivalents. |
 | [Insightful Condenser](/docs/insightful-condenser/) | Collects [experience](https://minecraft.gamepedia.com/Experience) in an area. |
 | [Decoctive Diffuser](/docs/insightful-condenser/) | Spreads the effects of [fluid potions](/docs/potion-fluid/) in an area. |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
