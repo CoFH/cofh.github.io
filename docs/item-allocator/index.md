@@ -14,8 +14,8 @@ recipes:
 
 
 An **item allocator** (also known as an **item buffer**) is a
-[device](/docs/devices/) that stores and transfers items between adjacent
-inventories or transport systems.
+[device](/docs/devices/) that stores and transfers items between adjacent blocks
+or transport systems.
 
 
 Obtaining
