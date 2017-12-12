@@ -122,9 +122,8 @@ to a higher [tier](#tiers), and by installing certain [augments](#augmentation).
 
 ### Input and output
 Items and fluids can enter and exit a phytogenic insolator through its sides.
-Every side of an insolator may correspond to one of its input slots (and
-possibly its input tank), one of its output slots, or certain slots/tanks at the
-same time.
+Every side of an insolator may correspond to one of its input slots, its input
+tank, one of its output slots, or certain slots/tanks at the same time.
 
 A phytogenic insolator can automatically transfer items out of any sides that
 directly correspond to one of its output slots. This is called auto-output. It
@@ -142,7 +141,7 @@ auto-input are enabled can be configured using the Configuration tab in the
 machine's GUI.
 
 One of a phytogenic insolator's input slots can be locked to only accept
-[phyto-gro](/docs/phyto-gro/). It is locked by default.
+fertilizer items. It is locked by default.
 
 [Water](https://minecraft.gamepedia.com/Water) can enter a phytogenic insolator
 through any side, regardless of configuration.
