@@ -60,7 +60,7 @@ output tank, or both at the same time.
 
 An arboreal extractor can automatically transfer fluids out of any sides that
 directly correspond to its output tank. This is called auto-output. The device
-can automatically transfer up to 1000 mB of fluid at a time. It can also
+can automatically transfer up to 1,000 mB of fluid at a time. It can also
 transfer items from adjacent inventories into any sides that directly correspond
 to its fertilizer slot. This is called auto-input. Auto-output and auto-input
 occur every 600 ticks (30 seconds). Auto-output occurs after fluid is produced,
