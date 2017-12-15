@@ -89,15 +89,15 @@ A placed energy cell may be configured to respond to
 of three modes:
 
 Ignored
-: Redstone control is disabled. The energy cell accepts energy, and emits it
-whenever possible. This is the default mode.
+: Redstone control is disabled. The energy cell emits energy whenever possible.
+This is the default mode.
 
 Low
-: The energy cell accepts and emits energy when *not* powered. When powered, it
-stops accepting and emitting energy.
+: The energy cell emits energy when *not* powered. When powered, it stops
+emitting energy.
 
 High
-: The energy cell only accepts and emits energy when powered.
+: The energy cell only emits energy when powered.
 
 The current mode can be set using the Redstone Control tab in the energy cell's
 GUI.

@@ -60,15 +60,14 @@ items of the same type in the player's inventory are stored in the cache.
 Items can be taken out of a cache by punching it. A single item is taken out at
 a time. Full stacks can be taken out by punching the cache while sneaking.
 
-When a cache is used while sneaking, it is locked to only accept the currently
-stored item, even when it is empty. It can be unlocked by using it while
-sneaking again.
-
 The exact amount of items that a cache stores can be read using a
 [multimeter](/docs/multimeter/).
 
 ### Input and output
 Items can enter and exit a cache through any of its sides.
+
+A cache can be locked to only accept the currently stored item, even when it
+becomes empty. This can be toggled by using the cache while sneaking.
 
 ### Enchantments
 A cache can be enchanted with [Holding](/docs/holding/) to increase its
