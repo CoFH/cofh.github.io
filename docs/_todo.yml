@@ -1,11 +1,10 @@
 thermal-expansion:
   git: 2253f0f1..e1ad0015
   todo:
-    - decoctive diffuser
+    - portable tank config gui
     - portable tank can be locked
     - portable tank can be secured
     - portable tank redstone control
-    - portable tank config gui
     - cache usage logic changed
     - tectonic initiator increases primary output amount differently
     - resin funnel determines fluid output differently

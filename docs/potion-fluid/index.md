@@ -3,8 +3,10 @@ title: Potion (fluid)
 nav: thermal-foundation
 ---
 
-[Thermal Foundation](/docs/thermal-foundation/) adds fluid forms of all regular,
-splash and lingering **[potions](https://minecraft.gamepedia.com/Potion)**.
+[Thermal Foundation](/docs/thermal-foundation/) adds fluid forms of all
+[potions](https://minecraft.gamepedia.com/Potion), [splash
+potions](https://minecraft.gamepedia.com/Splash_Potion) and [lingering
+potions](https://minecraft.gamepedia.com/Lingering_Potion).
 
 
 Obtaining
