@@ -213,6 +213,11 @@ Augments can be installed in the Augmentation tab in an insolator's GUI.
 Recipes
 -------
 
+In some of these recipes, the chance for a secondary product is higher than
+100%. In this case, the secondary product is guaranteed to be produced at least
+once. The remainder of the chance (e.g. 25% for a 125% chance) becomes the
+chance of the secondary product being produced twice.
+
 ### Using Phyto-Gro
 {% include recipe-table.html type='insolator' recipes=page.recipe-list.phyto-gro %}
 

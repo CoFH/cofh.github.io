@@ -1,11 +1,7 @@
 thermal-expansion:
   git: 2253f0f1..e1ad0015
   todo:
-    - tectonic initiator increases primary output amount differently
-    - resin funnel determines fluid output differently
     - metallurgical recovery augment
-    - pyro-concentrator increases primary output amount differently
-    - pyro-concentrator secondary bonus increased
     - nutrient recovery augment
     - monoculture cycle augment
     - reflux column augment

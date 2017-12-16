@@ -32,10 +32,11 @@ installed together with other specialization augments.
 
 ### Effects
 A [pulverizer](/docs/pulverizer/) with a tectonic initiator installed produces
-one extra unit of the primary product of any
-[ore](/docs/pulverizer/#ore-processing) it processes. However, it consumes 100
-mB of [tectonic petrotheum](/docs/tectonic-petrotheum/) per ore to do so, and
-the amount of energy required per operation is increased by 50%.
+1.5 times as much of the primary product of any
+[ore](/docs/pulverizer/#ore-processing) it processes (amounts are rounded down
+when necessary). However, it consumes 100 mB of [tectonic
+petrotheum](/docs/tectonic-petrotheum/) per ore to do so, and the amount of
+energy required per operation is increased by 50%.
 
 An installed tectonic initiator also increases the chances of a pulverizer
 producing a secondary product. This effect stacks with those of any installed
@@ -52,6 +53,11 @@ producing a secondary product. This effect stacks with those of any installed
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
+
+If the chance for a secondary product is raised to above 100%, the secondary
+product is guaranteed to be produced at least once. The remainder of the chance
+(e.g. 25% for a 125% chance) becomes the chance of the secondary product being
+produced twice.
 
 If a tectonic initiator is installed together with other augments that increase
 the amount of energy required per operation, their energy increase percentages

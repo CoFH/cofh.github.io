@@ -196,7 +196,7 @@ machine's GUI.
 One of an induction smelter's input slots can be locked to only accept
 metallurgical fluxes: [sand](https://minecraft.gamepedia.com/Sand), [soul
 sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/rich-slag/)
-or [cinnabar](/docs/cinnabar/). These items are commonly used in smelter
+and [cinnabar](/docs/cinnabar/). These items are commonly used in smelter
 recipes. The slot is locked by default.
 
 ### Redstone control

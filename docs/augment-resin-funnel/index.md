@@ -34,8 +34,8 @@ together with other specialization augments.
 ### Effects
 A [sawmill](/docs/sawmill/) with a resin funnel installed produces a fluid
 byproduct when processing [wood](https://minecraft.gamepedia.com/Wood). It
-produces the same fluids that an [arboreal extractor](/docs/arboreal-extractor/)
-extracts from the corresponding types of
+produces the same [fluids](/docs/arboreal-extractor/#products) that an [arboreal
+extractor](/docs/arboreal-extractor/) extracts from the corresponding types of
 [trees](https://minecraft.gamepedia.com/Tree). The amount of fluid produced per
 unit of wood is equal to the amount of fluid an arboreal extractor produces per
 cycle divided by 5.
