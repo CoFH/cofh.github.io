@@ -1839,14 +1839,14 @@ recipes:
     results:
       - item: dust-aerotheum
     ingredients:
-      - item-group: sand
+      - item: sand
       - item: niter
       - item: redstone
       - item: blitz-powder
     data:
       shapeless: true
       rows:
-        - [item-group: sand, item: [niter]]
+        - [item: [sand], item: [niter]]
         - [item: [redstone], item: [blitz-powder]]
       result:
         item: [dust-aerotheum]

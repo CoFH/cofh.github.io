@@ -15,9 +15,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [beetroot-seeds]
       fluid-input:
         fluid: water
@@ -40,9 +40,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [beetroot-seeds]
       fluid-input:
         fluid: water
@@ -65,9 +65,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [beetroot-seeds]
       fluid-input:
         fluid: water
@@ -89,9 +89,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [cactus]
       fluid-input:
         fluid: water
@@ -110,9 +110,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [cactus]
       fluid-input:
         fluid: water
@@ -131,9 +131,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [cactus]
       fluid-input:
         fluid: water
@@ -152,9 +152,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [carrot]
       fluid-input:
         fluid: water
@@ -173,9 +173,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [carrot]
       fluid-input:
         fluid: water
@@ -194,9 +194,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [carrot]
       fluid-input:
         fluid: water
@@ -216,9 +216,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [chorus-flower]
       fluid-input:
         fluid: water
@@ -241,9 +241,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [chorus-flower]
       fluid-input:
         fluid: water
@@ -266,9 +266,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [chorus-flower]
       fluid-input:
         fluid: water
@@ -290,9 +290,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [cocoa-beans]
       fluid-input:
         fluid: water
@@ -311,9 +311,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [cocoa-beans]
       fluid-input:
         fluid: water
@@ -332,9 +332,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [cocoa-beans]
       fluid-input:
         fluid: water
@@ -353,9 +353,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item-group: flower
       fluid-input:
         fluid: water
@@ -374,9 +374,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item-group: flower
       fluid-input:
         fluid: water
@@ -395,9 +395,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item-group: flower
       fluid-input:
         fluid: water
@@ -416,9 +416,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [lily-pad]
       fluid-input:
         fluid: water
@@ -437,9 +437,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [lily-pad]
       fluid-input:
         fluid: water
@@ -458,9 +458,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [lily-pad]
       fluid-input:
         fluid: water
@@ -479,9 +479,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [melon-seeds]
       fluid-input:
         fluid: water
@@ -503,9 +503,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [melon-seeds]
       fluid-input:
         fluid: water
@@ -528,9 +528,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [melon-seeds]
       fluid-input:
         fluid: water
@@ -552,9 +552,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item-group: mushroom
       fluid-input:
         fluid: water
@@ -573,9 +573,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item-group: mushroom
       fluid-input:
         fluid: water
@@ -594,9 +594,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item-group: mushroom
       fluid-input:
         fluid: water
@@ -615,9 +615,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [nether-wart]
       fluid-input:
         fluid: water
@@ -636,9 +636,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [nether-wart]
       fluid-input:
         fluid: water
@@ -657,9 +657,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [nether-wart]
       fluid-input:
         fluid: water
@@ -679,9 +679,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [potato]
       fluid-input:
         fluid: water
@@ -704,9 +704,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [potato]
       fluid-input:
         fluid: water
@@ -729,9 +729,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [potato]
       fluid-input:
         fluid: water
@@ -753,9 +753,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [pumpkin-seeds]
       fluid-input:
         fluid: water
@@ -777,9 +777,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [pumpkin-seeds]
       fluid-input:
         fluid: water
@@ -802,9 +802,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [pumpkin-seeds]
       fluid-input:
         fluid: water
@@ -826,9 +826,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [sugar-canes]
       fluid-input:
         fluid: water
@@ -847,9 +847,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [sugar-canes]
       fluid-input:
         fluid: water
@@ -868,9 +868,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [sugar-canes]
       fluid-input:
         fluid: water
@@ -889,9 +889,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [vines]
       fluid-input:
         fluid: water
@@ -910,9 +910,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [vines]
       fluid-input:
         fluid: water
@@ -931,9 +931,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [vines]
       fluid-input:
         fluid: water
@@ -953,9 +953,9 @@ recipes:
         fluid-amount: 600
     energy: 2400
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item: [seeds]
       fluid-input:
         fluid: water
@@ -978,9 +978,9 @@ recipes:
         fluid-amount: 750
     energy: 3000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item: [seeds]
       fluid-input:
         fluid: water
@@ -1003,9 +1003,9 @@ recipes:
         fluid-amount: 900
     energy: 3600
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item: [seeds]
       fluid-input:
         fluid: water

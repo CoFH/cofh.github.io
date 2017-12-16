@@ -15,9 +15,9 @@ recipes:
         fluid-amount: 1200
     energy: 4800
     data:
-      primary-input:
-        item: [phyto-gro]
       secondary-input:
+        item: [phyto-gro]
+      primary-input:
         item-group: sapling
       fluid-input:
         fluid: water
@@ -40,9 +40,9 @@ recipes:
         fluid-amount: 1500
     energy: 6000
     data:
-      primary-input:
-        item: [phyto-gro-rich]
       secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
         item-group: sapling
       fluid-input:
         fluid: water
@@ -65,9 +65,9 @@ recipes:
         fluid-amount: 1800
     energy: 7200
     data:
-      primary-input:
-        item: [phyto-gro-fluxed]
       secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
         item-group: sapling
       fluid-input:
         fluid: water

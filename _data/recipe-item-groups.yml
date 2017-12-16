@@ -689,13 +689,6 @@ rockwool:
     - rockwool-green
     - rockwool-red
     - rockwool-black
-sand:
-  name: Sand
-  site: mc-wiki
-  url: Sand
-  items:
-    - sand
-    - red-sand
 sandstone:
   name: Sandstone
   site: mc-wiki

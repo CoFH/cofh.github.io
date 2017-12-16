@@ -9,12 +9,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: dust-metal
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: dust-metal
         amount: 2
       primary-output:
@@ -29,12 +29,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-aluminum
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-aluminum]
         amount: 2
       primary-output:
@@ -49,12 +49,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-bronze
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-bronze]
         amount: 2
       primary-output:
@@ -69,12 +69,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-constantan
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-constantan]
         amount: 2
       primary-output:
@@ -89,12 +89,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-copper
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-copper]
         amount: 2
       primary-output:
@@ -109,12 +109,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-electrum
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-electrum]
         amount: 2
       primary-output:
@@ -129,12 +129,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-enderium
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-enderium]
         amount: 2
       primary-output:
@@ -148,12 +148,12 @@ recipes:
       - item: ingot-fluxed-electrum
     ingredients:
       - item: dust-fluxed-electrum
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-fluxed-electrum]
       primary-output:
         item: [ingot-fluxed-electrum]
@@ -163,12 +163,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-gold
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-gold]
         amount: 2
       primary-output:
@@ -183,12 +183,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-invar
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-invar]
         amount: 2
       primary-output:
@@ -203,12 +203,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-iridium
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-iridium]
         amount: 2
       primary-output:
@@ -223,12 +223,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-iron
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-iron]
         amount: 2
       primary-output:
@@ -243,12 +243,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-lead
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-lead]
         amount: 2
       primary-output:
@@ -263,12 +263,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-lumium
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-lumium]
         amount: 2
       primary-output:
@@ -283,12 +283,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-mithril
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-mithril]
         amount: 2
       primary-output:
@@ -303,12 +303,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-nickel
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-nickel]
         amount: 2
       primary-output:
@@ -323,12 +323,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-platinum
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-platinum]
         amount: 2
       primary-output:
@@ -343,12 +343,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-signalum
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-signalum]
         amount: 2
       primary-output:
@@ -363,12 +363,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-silver
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-silver]
         amount: 2
       primary-output:
@@ -383,12 +383,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-steel
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-steel]
         amount: 2
       primary-output:
@@ -403,12 +403,12 @@ recipes:
       - item: slag
     ingredients:
       - item: dust-tin
-      - item-group: sand
+      - item: sand
     energy: 800
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [dust-tin]
         amount: 2
       primary-output:
@@ -1100,9 +1100,9 @@ recipes:
       - item: soul-sand
     energy: 4000
     data:
-      primary-input:
-        item: soul-sand
       secondary-input:
+        item: soul-sand
+      primary-input:
         item: [netherrack]
         amount: 2
       primary-output:
@@ -1121,9 +1121,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -1142,9 +1142,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-copper]
       primary-output:
         item: [ingot-copper]
@@ -1163,9 +1163,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-gold]
       primary-output:
         item: [ingot-gold]
@@ -1184,9 +1184,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-iridium]
       primary-output:
         item: [ingot-iridium]
@@ -1205,9 +1205,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-iron]
       primary-output:
         item: [ingot-iron]
@@ -1226,9 +1226,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-lead]
       primary-output:
         item: [ingot-lead]
@@ -1247,9 +1247,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-mithril]
       primary-output:
         item: [ingot-mithril]
@@ -1268,9 +1268,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -1289,9 +1289,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -1310,9 +1310,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-silver]
       primary-output:
         item: [ingot-silver]
@@ -1331,9 +1331,9 @@ recipes:
       - item: cinnabar
     energy: 4000
     data:
-      primary-input:
-        item: [cinnabar]
       secondary-input:
+        item: [cinnabar]
+      primary-input:
         item: [ore-tin]
       primary-output:
         item: [ingot-tin]
@@ -1351,9 +1351,9 @@ recipes:
       - item: soul-sand
     energy: 4000
     data:
-      primary-input:
-        item: [soul-sand]
       secondary-input:
+        item: [soul-sand]
+      primary-input:
         item: [ore-nether-quartz]
       primary-output:
         item: [nether-quartz-block]
@@ -1366,12 +1366,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-redstone
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-redstone]
       primary-output:
         item: [storage-block-redstone]
@@ -1388,9 +1388,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -1409,9 +1409,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-copper]
       primary-output:
         item: [ingot-copper]
@@ -1430,9 +1430,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-gold]
       primary-output:
         item: [ingot-gold]
@@ -1451,9 +1451,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-iridium]
       primary-output:
         item: [ingot-iridium]
@@ -1472,9 +1472,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-iron]
       primary-output:
         item: [ingot-iron]
@@ -1493,9 +1493,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-lead]
       primary-output:
         item: [ingot-lead]
@@ -1514,9 +1514,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-mithril]
       primary-output:
         item: [ingot-mithril]
@@ -1535,9 +1535,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -1556,9 +1556,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -1577,9 +1577,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-silver]
       primary-output:
         item: [ingot-silver]
@@ -1598,9 +1598,9 @@ recipes:
       - item: slag-rich
     energy: 4000
     data:
-      primary-input:
-        item: [slag-rich]
       secondary-input:
+        item: [slag-rich]
+      primary-input:
         item: [ore-tin]
       primary-output:
         item: [ingot-tin]
@@ -1616,12 +1616,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-aluminum
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -1637,12 +1637,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-copper
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-copper]
       primary-output:
         item: [ingot-copper]
@@ -1658,12 +1658,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-gold
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-gold]
       primary-output:
         item: [ingot-gold]
@@ -1679,12 +1679,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-iridium
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-iridium]
       primary-output:
         item: [ingot-iridium]
@@ -1700,12 +1700,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-iron
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-iron]
       primary-output:
         item: [ingot-iron]
@@ -1721,12 +1721,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-lead
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-lead]
       primary-output:
         item: [ingot-lead]
@@ -1742,12 +1742,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-mithril
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-mithril]
       primary-output:
         item: [ingot-mithril]
@@ -1763,12 +1763,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-nickel
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -1784,12 +1784,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-platinum
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -1805,12 +1805,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-silver
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-silver]
       primary-output:
         item: [ingot-silver]
@@ -1826,12 +1826,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: ore-tin
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [ore-tin]
       primary-output:
         item: [ingot-tin]
@@ -1846,12 +1846,12 @@ recipes:
       - item: slag
     ingredients:
       - item: anvil
-      - item-group: sand
+      - item: sand
     energy: 8400
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [anvil]
       primary-output:
         item: [ingot-iron]
@@ -1865,12 +1865,12 @@ recipes:
       - item: slag
     ingredients:
       - item: anvil-slightly-damaged
-      - item-group: sand
+      - item: sand
     energy: 7200
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [anvil-slightly-damaged]
       primary-output:
         item: [ingot-iron]
@@ -1884,12 +1884,12 @@ recipes:
       - item: slag
     ingredients:
       - item: anvil-very-damaged
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [anvil-very-damaged]
       primary-output:
         item: [ingot-iron]
@@ -1903,12 +1903,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: axe-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: axe-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -1922,12 +1922,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -1941,12 +1941,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -1960,12 +1960,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -1979,12 +1979,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-copper]
       primary-output:
         item: [ingot-copper]
@@ -1998,12 +1998,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -2017,12 +2017,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-gold]
       primary-output:
         item: [ingot-gold]
@@ -2036,12 +2036,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-invar]
       primary-output:
         item: [ingot-invar]
@@ -2055,12 +2055,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-iron]
       primary-output:
         item: [ingot-iron]
@@ -2074,12 +2074,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-lead]
       primary-output:
         item: [ingot-lead]
@@ -2093,12 +2093,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -2112,12 +2112,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -2131,12 +2131,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-silver]
       primary-output:
         item: [ingot-silver]
@@ -2150,12 +2150,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-steel]
       primary-output:
         item: [ingot-steel]
@@ -2169,12 +2169,12 @@ recipes:
       - item: slag
     ingredients:
       - item: axe-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [axe-tin]
       primary-output:
         item: [ingot-tin]
@@ -2188,12 +2188,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: boots-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: boots-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -2207,12 +2207,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -2226,12 +2226,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -2245,12 +2245,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -2264,12 +2264,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-copper]
       primary-output:
         item: [ingot-copper]
@@ -2283,12 +2283,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -2302,12 +2302,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-gold]
       primary-output:
         item: [ingot-gold]
@@ -2321,12 +2321,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-invar]
       primary-output:
         item: [ingot-invar]
@@ -2340,12 +2340,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-iron]
       primary-output:
         item: [ingot-iron]
@@ -2359,12 +2359,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-lead]
       primary-output:
         item: [ingot-lead]
@@ -2378,12 +2378,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -2397,12 +2397,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -2416,12 +2416,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-silver]
       primary-output:
         item: [ingot-silver]
@@ -2435,12 +2435,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-steel]
       primary-output:
         item: [ingot-steel]
@@ -2454,12 +2454,12 @@ recipes:
       - item: slag
     ingredients:
       - item: boots-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [boots-tin]
       primary-output:
         item: [ingot-tin]
@@ -2473,12 +2473,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: bow-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: bow-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -2492,12 +2492,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -2511,12 +2511,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -2530,12 +2530,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -2549,12 +2549,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-copper]
       primary-output:
         item: [ingot-copper]
@@ -2568,12 +2568,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -2587,12 +2587,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-gold]
       primary-output:
         item: [ingot-gold]
@@ -2606,12 +2606,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-invar]
       primary-output:
         item: [ingot-invar]
@@ -2625,12 +2625,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-iron]
       primary-output:
         item: [ingot-iron]
@@ -2644,12 +2644,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-lead]
       primary-output:
         item: [ingot-lead]
@@ -2663,12 +2663,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -2682,12 +2682,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -2701,12 +2701,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-silver]
       primary-output:
         item: [ingot-silver]
@@ -2720,12 +2720,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-steel]
       primary-output:
         item: [ingot-steel]
@@ -2739,12 +2739,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bow-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bow-tin]
       primary-output:
         item: [ingot-tin]
@@ -2758,12 +2758,12 @@ recipes:
       - item: slag
     ingredients:
       - item: bucket
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [bucket]
       primary-output:
         item: [ingot-iron]
@@ -2777,12 +2777,12 @@ recipes:
       - item: slag
     ingredients:
       - item: cauldron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [cauldron]
       primary-output:
         item: [ingot-iron]
@@ -2796,12 +2796,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: chestplate-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: chestplate-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -2815,12 +2815,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -2834,12 +2834,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -2853,12 +2853,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -2872,12 +2872,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-copper]
       primary-output:
         item: [ingot-copper]
@@ -2891,12 +2891,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -2910,12 +2910,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-gold]
       primary-output:
         item: [ingot-gold]
@@ -2929,12 +2929,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-invar]
       primary-output:
         item: [ingot-invar]
@@ -2948,12 +2948,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-iron]
       primary-output:
         item: [ingot-iron]
@@ -2967,12 +2967,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-lead]
       primary-output:
         item: [ingot-lead]
@@ -2986,12 +2986,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -3005,12 +3005,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -3024,12 +3024,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-silver]
       primary-output:
         item: [ingot-silver]
@@ -3043,12 +3043,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-steel]
       primary-output:
         item: [ingot-steel]
@@ -3062,12 +3062,12 @@ recipes:
       - item: slag
     ingredients:
       - item: chestplate-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [chestplate-tin]
       primary-output:
         item: [ingot-tin]
@@ -3081,12 +3081,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: clock
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [clock]
       primary-output:
         item: [ingot-gold]
@@ -3100,12 +3100,12 @@ recipes:
       - item: slag-rich
     ingredients:
       - item: compass
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [compass]
       primary-output:
         item: [ingot-iron]
@@ -3119,12 +3119,12 @@ recipes:
       - item: slag
     ingredients:
       - item: door-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [door-iron]
       primary-output:
         item: [ingot-iron]
@@ -3138,12 +3138,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: fishing-rod-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: fishing-rod-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -3157,12 +3157,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -3176,12 +3176,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -3195,12 +3195,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -3214,12 +3214,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-copper]
       primary-output:
         item: [ingot-copper]
@@ -3233,12 +3233,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -3252,12 +3252,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-gold]
       primary-output:
         item: [ingot-gold]
@@ -3271,12 +3271,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-invar]
       primary-output:
         item: [ingot-invar]
@@ -3290,12 +3290,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-iron]
       primary-output:
         item: [ingot-iron]
@@ -3309,12 +3309,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-lead]
       primary-output:
         item: [ingot-lead]
@@ -3328,12 +3328,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -3347,12 +3347,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -3366,12 +3366,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-silver]
       primary-output:
         item: [ingot-silver]
@@ -3385,12 +3385,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-steel]
       primary-output:
         item: [ingot-steel]
@@ -3404,12 +3404,12 @@ recipes:
       - item: slag
     ingredients:
       - item: fishing-rod-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [fishing-rod-tin]
       primary-output:
         item: [ingot-tin]
@@ -3423,12 +3423,12 @@ recipes:
       - item: slag
     ingredients:
       - item: flint-and-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [flint-and-steel]
       primary-output:
         item: [ingot-iron]
@@ -3441,12 +3441,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: hammer-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: hammer-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -3460,12 +3460,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -3479,12 +3479,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -3498,12 +3498,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -3517,12 +3517,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-copper]
       primary-output:
         item: [ingot-copper]
@@ -3536,12 +3536,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -3555,12 +3555,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-gold]
       primary-output:
         item: [ingot-gold]
@@ -3574,12 +3574,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-invar]
       primary-output:
         item: [ingot-invar]
@@ -3593,12 +3593,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-iron]
       primary-output:
         item: [ingot-iron]
@@ -3612,12 +3612,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-lead]
       primary-output:
         item: [ingot-lead]
@@ -3631,12 +3631,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -3650,12 +3650,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -3669,12 +3669,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-silver]
       primary-output:
         item: [ingot-silver]
@@ -3688,12 +3688,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-steel]
       primary-output:
         item: [ingot-steel]
@@ -3707,12 +3707,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hammer-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hammer-tin]
       primary-output:
         item: [ingot-tin]
@@ -3726,12 +3726,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: helmet-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: helmet-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -3745,12 +3745,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -3764,12 +3764,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -3783,12 +3783,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -3802,12 +3802,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-copper]
       primary-output:
         item: [ingot-copper]
@@ -3821,12 +3821,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -3840,12 +3840,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-gold]
       primary-output:
         item: [ingot-gold]
@@ -3859,12 +3859,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-invar]
       primary-output:
         item: [ingot-invar]
@@ -3878,12 +3878,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-iron]
       primary-output:
         item: [ingot-iron]
@@ -3897,12 +3897,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-lead]
       primary-output:
         item: [ingot-lead]
@@ -3916,12 +3916,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -3935,12 +3935,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -3954,12 +3954,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-silver]
       primary-output:
         item: [ingot-silver]
@@ -3973,12 +3973,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-steel]
       primary-output:
         item: [ingot-steel]
@@ -3992,12 +3992,12 @@ recipes:
       - item: slag
     ingredients:
       - item: helmet-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [helmet-tin]
       primary-output:
         item: [ingot-tin]
@@ -4011,12 +4011,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: hoe-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: hoe-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -4030,12 +4030,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -4049,12 +4049,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -4068,12 +4068,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -4087,12 +4087,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-copper]
       primary-output:
         item: [ingot-copper]
@@ -4106,12 +4106,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -4125,12 +4125,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-gold]
       primary-output:
         item: [ingot-gold]
@@ -4144,12 +4144,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-invar]
       primary-output:
         item: [ingot-invar]
@@ -4163,12 +4163,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-iron]
       primary-output:
         item: [ingot-iron]
@@ -4182,12 +4182,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-lead]
       primary-output:
         item: [ingot-lead]
@@ -4201,12 +4201,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -4220,12 +4220,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -4239,12 +4239,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-silver]
       primary-output:
         item: [ingot-silver]
@@ -4258,12 +4258,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-steel]
       primary-output:
         item: [ingot-steel]
@@ -4277,12 +4277,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hoe-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hoe-tin]
       primary-output:
         item: [ingot-tin]
@@ -4296,12 +4296,12 @@ recipes:
       - item: slag
     ingredients:
       - item: hopper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [hopper]
       primary-output:
         item: [ingot-iron]
@@ -4315,12 +4315,12 @@ recipes:
       - item: slag
     ingredients:
       - item: horse-armor-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [horse-armor-gold]
       primary-output:
         item: [ingot-gold]
@@ -4334,12 +4334,12 @@ recipes:
       - item: slag
     ingredients:
       - item: horse-armor-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [horse-armor-iron]
       primary-output:
         item: [ingot-iron]
@@ -4353,12 +4353,12 @@ recipes:
       - item: slag
     ingredients:
       - item: iron-bars
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [iron-bars]
         amount: 8
       primary-output:
@@ -4373,12 +4373,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: leggings-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: leggings-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -4392,12 +4392,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -4411,12 +4411,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -4430,12 +4430,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -4449,12 +4449,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-copper]
       primary-output:
         item: [ingot-copper]
@@ -4468,12 +4468,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -4487,12 +4487,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-gold]
       primary-output:
         item: [ingot-gold]
@@ -4506,12 +4506,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-invar]
       primary-output:
         item: [ingot-invar]
@@ -4525,12 +4525,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-iron]
       primary-output:
         item: [ingot-iron]
@@ -4544,12 +4544,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-lead]
       primary-output:
         item: [ingot-lead]
@@ -4563,12 +4563,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -4582,12 +4582,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -4601,12 +4601,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-silver]
       primary-output:
         item: [ingot-silver]
@@ -4620,12 +4620,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-steel]
       primary-output:
         item: [ingot-steel]
@@ -4639,12 +4639,12 @@ recipes:
       - item: slag
     ingredients:
       - item: leggings-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [leggings-tin]
       primary-output:
         item: [ingot-tin]
@@ -4658,12 +4658,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: pickaxe-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: pickaxe-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -4677,12 +4677,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -4696,12 +4696,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -4715,12 +4715,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -4734,12 +4734,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-copper]
       primary-output:
         item: [ingot-copper]
@@ -4753,12 +4753,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -4772,12 +4772,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-gold]
       primary-output:
         item: [ingot-gold]
@@ -4791,12 +4791,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-invar]
       primary-output:
         item: [ingot-invar]
@@ -4810,12 +4810,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-iron]
       primary-output:
         item: [ingot-iron]
@@ -4829,12 +4829,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-lead]
       primary-output:
         item: [ingot-lead]
@@ -4848,12 +4848,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -4867,12 +4867,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -4886,12 +4886,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-silver]
       primary-output:
         item: [ingot-silver]
@@ -4905,12 +4905,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-steel]
       primary-output:
         item: [ingot-steel]
@@ -4924,12 +4924,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pickaxe-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pickaxe-tin]
       primary-output:
         item: [ingot-tin]
@@ -4943,12 +4943,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pressure-plate-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pressure-plate-gold]
       primary-output:
         item: [ingot-gold]
@@ -4962,12 +4962,12 @@ recipes:
       - item: slag
     ingredients:
       - item: pressure-plate-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [pressure-plate-iron]
       primary-output:
         item: [ingot-iron]
@@ -4981,12 +4981,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: shears-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: shears-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -5000,12 +5000,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears]
       primary-output:
         item: [ingot-iron]
@@ -5019,12 +5019,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -5038,12 +5038,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -5057,12 +5057,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -5076,12 +5076,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-copper]
       primary-output:
         item: [ingot-copper]
@@ -5095,12 +5095,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -5114,12 +5114,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-gold]
       primary-output:
         item: [ingot-gold]
@@ -5133,12 +5133,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-invar]
       primary-output:
         item: [ingot-invar]
@@ -5152,12 +5152,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-lead]
       primary-output:
         item: [ingot-lead]
@@ -5171,12 +5171,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -5190,12 +5190,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -5209,12 +5209,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-silver]
       primary-output:
         item: [ingot-silver]
@@ -5228,12 +5228,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-steel]
       primary-output:
         item: [ingot-steel]
@@ -5247,12 +5247,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shears-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shears-tin]
       primary-output:
         item: [ingot-tin]
@@ -5266,12 +5266,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: shield-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: shield-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -5285,12 +5285,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -5304,12 +5304,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -5323,12 +5323,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -5342,12 +5342,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-copper]
       primary-output:
         item: [ingot-copper]
@@ -5361,12 +5361,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -5380,12 +5380,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-gold]
       primary-output:
         item: [ingot-gold]
@@ -5399,12 +5399,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-invar]
       primary-output:
         item: [ingot-invar]
@@ -5418,12 +5418,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-iron]
       primary-output:
         item: [ingot-iron]
@@ -5437,12 +5437,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-lead]
       primary-output:
         item: [ingot-lead]
@@ -5456,12 +5456,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -5475,12 +5475,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -5494,12 +5494,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-silver]
       primary-output:
         item: [ingot-silver]
@@ -5513,12 +5513,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-steel]
       primary-output:
         item: [ingot-steel]
@@ -5532,12 +5532,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shield-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shield-tin]
       primary-output:
         item: [ingot-tin]
@@ -5551,12 +5551,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: shovel-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: shovel-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -5569,12 +5569,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -5587,12 +5587,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -5605,12 +5605,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -5623,12 +5623,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-copper]
       primary-output:
         item: [ingot-copper]
@@ -5641,12 +5641,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -5659,12 +5659,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-gold]
       primary-output:
         item: [ingot-gold]
@@ -5677,12 +5677,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-invar]
       primary-output:
         item: [ingot-invar]
@@ -5695,12 +5695,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-iron]
       primary-output:
         item: [ingot-iron]
@@ -5713,12 +5713,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-lead]
       primary-output:
         item: [ingot-lead]
@@ -5731,12 +5731,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -5749,12 +5749,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -5767,12 +5767,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-silver]
       primary-output:
         item: [ingot-silver]
@@ -5785,12 +5785,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-steel]
       primary-output:
         item: [ingot-steel]
@@ -5803,12 +5803,12 @@ recipes:
       - item: slag
     ingredients:
       - item: shovel-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [shovel-tin]
       primary-output:
         item: [ingot-tin]
@@ -5821,12 +5821,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: sickle-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: sickle-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -5840,12 +5840,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -5859,12 +5859,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -5878,12 +5878,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -5897,12 +5897,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-copper]
       primary-output:
         item: [ingot-copper]
@@ -5916,12 +5916,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -5935,12 +5935,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-gold]
       primary-output:
         item: [ingot-gold]
@@ -5954,12 +5954,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-invar]
       primary-output:
         item: [ingot-invar]
@@ -5973,12 +5973,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-iron]
       primary-output:
         item: [ingot-iron]
@@ -5992,12 +5992,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-lead]
       primary-output:
         item: [ingot-lead]
@@ -6011,12 +6011,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -6030,12 +6030,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -6049,12 +6049,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-silver]
       primary-output:
         item: [ingot-silver]
@@ -6068,12 +6068,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-steel]
       primary-output:
         item: [ingot-steel]
@@ -6087,12 +6087,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sickle-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sickle-tin]
       primary-output:
         item: [ingot-tin]
@@ -6106,12 +6106,12 @@ recipes:
       - item: slag
     ingredients:
       - item-group: sword-metal
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item-group: sword-metal
       primary-output:
         item-group: ingot-metal-equipment
@@ -6125,12 +6125,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-aluminum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-aluminum]
       primary-output:
         item: [ingot-aluminum]
@@ -6144,12 +6144,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-bronze
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-bronze]
       primary-output:
         item: [ingot-bronze]
@@ -6163,12 +6163,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-constantan
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-constantan]
       primary-output:
         item: [ingot-constantan]
@@ -6182,12 +6182,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-copper
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-copper]
       primary-output:
         item: [ingot-copper]
@@ -6201,12 +6201,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-electrum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-electrum]
       primary-output:
         item: [ingot-electrum]
@@ -6220,12 +6220,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-gold
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-gold]
       primary-output:
         item: [ingot-gold]
@@ -6239,12 +6239,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-invar
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-invar]
       primary-output:
         item: [ingot-invar]
@@ -6258,12 +6258,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-iron
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-iron]
       primary-output:
         item: [ingot-iron]
@@ -6277,12 +6277,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-lead
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-lead]
       primary-output:
         item: [ingot-lead]
@@ -6296,12 +6296,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-nickel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-nickel]
       primary-output:
         item: [ingot-nickel]
@@ -6315,12 +6315,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-platinum
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-platinum]
       primary-output:
         item: [ingot-platinum]
@@ -6334,12 +6334,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-silver
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-silver]
       primary-output:
         item: [ingot-silver]
@@ -6353,12 +6353,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-steel
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-steel]
       primary-output:
         item: [ingot-steel]
@@ -6372,12 +6372,12 @@ recipes:
       - item: slag
     ingredients:
       - item: sword-tin
-      - item-group: sand
+      - item: sand
     energy: 6000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [sword-tin]
       primary-output:
         item: [ingot-tin]
@@ -6391,12 +6391,12 @@ recipes:
       - item: slag
     ingredients:
       - item: cobblestone
-      - item-group: sand
+      - item: sand
     energy: 4000
     data:
-      primary-input:
-        item-group: sand
       secondary-input:
+        item: [sand]
+      primary-input:
         item: [cobblestone]
         amount: 2
       primary-output:
