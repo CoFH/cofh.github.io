@@ -699,22 +699,29 @@ thermal-expansion:
                 - title: Resin Funnel
                   url: augment-resin-funnel/
                 - title: Metallurgical Recovery
+                  url: augment-metallurgical-recovery/
                 - title: Pyro-Concentrator
                   url: augment-pyro-concentrator/
                 - title: Nutrient Recovery
+                  url: augment-nutrient-recovery/
                 - title: Sapling Infuser
                   url: augment-sapling-infuser/
                 - title: Monoculture Cycle
+                  url: augment-monoculture-cycle/
                 - title: Numismatic Press
                   url: augment-numismatic-press/
                 - title: Pyroconvective Loop
                   url: augment-pyroconvective-loop/
                 - title: Reflux Column
+                  url: augment-reflux-column/
                 - title: Alchemical Retort
+                  url: augment-alchemical-retort/
                 - title: Flux Linkage Concentrator
                   url: augment-flux-linkage-concentrator/
                 - title: Flux Reconstruction
+                  url: augment-flux-reconstruction/
                 - title: Reagent Recovery
+                  url: augment-reagent-recovery/
                 - title: Flurry Stratum
                   url: augment-flurry-stratum/
                 - title: Permafrost Compressor

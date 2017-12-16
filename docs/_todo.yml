@@ -1,10 +1,7 @@
 thermal-expansion:
   git: 2253f0f1..e1ad0015
   todo:
-    - metallurgical recovery augment
-    - nutrient recovery augment
     - monoculture cycle augment
     - reflux column augment
     - alchemical retort augment
     - flux reconstruction augment
-    - reagent recovery augment
