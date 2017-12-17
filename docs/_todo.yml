@@ -1,7 +1,0 @@
-thermal-expansion:
-  git: 2253f0f1..e1ad0015
-  todo:
-    - monoculture cycle augment
-    - reflux column augment
-    - alchemical retort augment
-    - flux reconstruction augment

@@ -62,4 +62,5 @@ books](https://minecraft.gamepedia.com/Enchanted_Book).
 ### Energetic Infuser with Flux Reconstruction
 An [energetic infuser](/docs/energetic-infuser/) with [flux
 reconstruction](/docs/augment-flux-reconstruction/) installed uses essence of
-knowledge to repair damaged items.
+knowledge to repair damaged items. It uses 5 mB of essence of knowledge per
+restored durability point.
