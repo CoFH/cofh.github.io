@@ -40,7 +40,7 @@ ingredients.
 ### Fractionating Still with Alchemical Retort
 A [fractionating still](/docs/fractionating-still/) with an [alchemical
 retort](/docs/augment-alchemical-retort/) installed refines level II fluid
-potions to [even higher levels](/docs/cofh-core-potions/#stronger-potions).
+potions to [levels up to V](/docs/cofh-core-potions/#stronger-potions).
 
 ### Decoctive Diffuser
 A [decoctive diffuser](/docs/decoctive-diffuser/) applies the effects of a fluid

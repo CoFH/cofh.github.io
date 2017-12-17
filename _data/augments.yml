@@ -147,8 +147,8 @@ machine-refinery-potion:
   installed-in: '<a href="/docs/fractionating-still/">Fractionating Still</a>'
   description: >
     A specialization that allows for a fractionating still to refine <a
-    href="/docs/potion-fluid/">fluid potions</a>, making them stronger. However,
-    a still can only process potions when installed.
+    href="/docs/potion-fluid/">fluid potions</a>, increasing their potency
+    level. However, a still can only process potions when installed.
 machine-charger-throughput:
   name: Flux Linkage Concentrator
   url: augment-flux-linkage-concentrator/
