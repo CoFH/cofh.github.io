@@ -1,6 +1,9 @@
 ---
 title: Flux-Infused Shield
 nav: redstone-arsenal
+image:
+  - alt: Flux-infused shield
+    file: redstone-arsenal/flux-infused-shield.png
 redirect_from:
   - /docs/redstone-arsenal/equipment/flux-infused-shield/
   - /docs/redstone-arsenal/weapons/flux-infused-shield/
@@ -20,4 +23,4 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

@@ -1,6 +1,9 @@
 ---
 title: Flux-Infused Sword
 nav: redstone-arsenal
+image:
+  - alt: Flux-infused sword
+    file: redstone-arsenal/flux-infused-sword.png
 redirect_from:
   - /docs/redstone-arsenal/equipment/flux-infused-sword/
   - /docs/redstone-arsenal/weapons/flux-infused-sword/
@@ -21,4 +24,4 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

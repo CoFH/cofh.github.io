@@ -1,6 +1,9 @@
 ---
 title: Flux-Infused Bow
 nav: redstone-arsenal
+image:
+  - alt: Flux-infused bow
+    file: redstone-arsenal/flux-infused-bow.png
 redirect_from:
   - /docs/redstone-arsenal/equipment/flux-infused-bow/
   - /docs/redstone-arsenal/weapons/flux-infused-bow/
@@ -24,4 +27,4 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

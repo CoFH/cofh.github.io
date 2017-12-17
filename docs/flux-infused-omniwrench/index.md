@@ -1,6 +1,9 @@
 ---
 title: Flux-Infused OmniWrench
 nav: redstone-arsenal
+image:
+  - alt: Flux-infused omniwrench
+    file: redstone-arsenal/flux-infused-omniwrench.png
 redirect_from:
   - /docs/redstone-arsenal/equipment/flux-infused-omniwrench/
   - /docs/redstone-arsenal/tools/flux-infused-omniwrench/
@@ -21,4 +24,4 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

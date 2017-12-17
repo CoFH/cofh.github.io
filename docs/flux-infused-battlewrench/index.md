@@ -1,6 +1,9 @@
 ---
 title: Flux-Infused BattleWrench
 nav: redstone-arsenal
+image:
+  - alt: Flux-infused battlewrench
+    file: redstone-arsenal/flux-infused-battlewrench.png
 redirect_from:
   - /docs/redstone-arsenal/equipment/flux-infused-battlewrench/
   - /docs/redstone-arsenal/weapons/flux-infused-battlewrench/
@@ -21,4 +24,4 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

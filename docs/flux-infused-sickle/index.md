@@ -1,6 +1,9 @@
 ---
 title: Flux-Infused Sickle
 nav: redstone-arsenal
+image:
+  - alt: Flux-infused sickle
+    file: redstone-arsenal/flux-infused-sickle.png
 redirect_from:
   - /docs/redstone-arsenal/equipment/flux-infused-sickle/
   - /docs/redstone-arsenal/tools/flux-infused-sickle/
@@ -20,4 +23,4 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

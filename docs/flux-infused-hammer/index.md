@@ -1,6 +1,9 @@
 ---
 title: Flux-Infused Hammer
 nav: redstone-arsenal
+image:
+  - alt: Flux-infused hammer
+    file: redstone-arsenal/flux-infused-hammer.png
 redirect_from:
   - /docs/redstone-arsenal/equipment/flux-infused-hammer/
   - /docs/redstone-arsenal/tools/flux-infused-hammer/
@@ -22,4 +25,4 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

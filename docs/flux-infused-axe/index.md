@@ -1,6 +1,9 @@
 ---
 title: Flux-Infused Axe
 nav: redstone-arsenal
+image:
+  - alt: Flux-infused axe
+    file: redstone-arsenal/flux-infused-axe.png
 redirect_from:
   - /docs/redstone-arsenal/equipment/flux-infused-axe/
   - /docs/redstone-arsenal/tools/flux-infused-axe/
@@ -20,4 +23,4 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
