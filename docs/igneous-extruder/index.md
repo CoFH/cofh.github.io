@@ -60,7 +60,7 @@ An igneous extruder can be configured to produce
 [cobblestone](https://minecraft.gamepedia.com/Cobblestone),
 [stone](https://minecraft.gamepedia.com/Stone) or
 [obsidian](https://minecraft.gamepedia.com/Obsidian). When its input tanks are
-filled with at least 1000 mB of [water](https://minecraft.gamepedia.com/Water)
+filled with at least 1,000 mB of [water](https://minecraft.gamepedia.com/Water)
 and [lava](https://minecraft.gamepedia.com/Lava), the machine will start
 consuming [Redstone Flux](/docs/redstone-flux/) to produce the chosen item.
 Every produced item requires certain amounts of energy, water and lava. When
@@ -72,8 +72,8 @@ The amounts of water, lava and energy required depend on the chosen output:
 | Output | Water | Lava | Energy |
 |---
 | Cobblestone | 0 mB | 0 mB | 400 RF |
-| Stone | 1000 mB | 0 mB | 800 RF |
-| Obsidian | 1000 mB | 1000 mB | 1600 RF |
+| Stone | 1,000 mB | 0 mB | 800 RF |
+| Obsidian | 1,000 mB | 1,000 mB | 1,600 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 The speed at which an igneous extruder produces items depends on how much energy

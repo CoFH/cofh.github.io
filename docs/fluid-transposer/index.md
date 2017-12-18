@@ -170,8 +170,8 @@ Fluid transposers come in six [tiers](/docs/tiers/).
 | Basic | 20 RF/t | 0 | 8 | 100 mB/t |
 | Hardened | 30 RF/t | 1 | 16 | 300 mB/t |
 | Reinforced | 40 RF/t | 2 | 28 | 600 mB/t |
-| Signalum | 50 RF/t | 3 | 44 | 1000 mB/t |
-| Resonant / Creative | 60 RF/t | 4 | 64 | 1500 mB/t |
+| Signalum | 50 RF/t | 3 | 44 | 1,000 mB/t |
+| Resonant / Creative | 60 RF/t | 4 | 64 | 1,500 mB/t |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
@@ -195,8 +195,8 @@ Recipes
 
 ### Filling
 Items that hold fluids, notably
-[buckets](https://minecraft.gamepedia.com/Bucket), can be filled with 1000 mB of
-fluid for 400 RF.
+[buckets](https://minecraft.gamepedia.com/Bucket), can be filled with 1,000 mB
+of fluid for 400 RF.
 
 [Glass bottles](https://minecraft.gamepedia.com/Glass_Bottle) can be filled with
 [fluid potions](/docs/potion-fluid/) (250 mB each) for 800 RF.
@@ -204,7 +204,7 @@ fluid for 400 RF.
 {% include recipe-table.html type='transposer-fill' recipes=page.recipe-list.fill %}
 
 ### Emptying
-1000 mB of fluid can be drained from items like filled
+1,000 mB of fluid can be drained from items like filled
 [buckets](https://minecraft.gamepedia.com/Bucket) for 400 RF.
 
 250 mB of a [fluid potion](/docs/potion-fluid/) can be drained from each

@@ -73,7 +73,7 @@ well if possible. Hammers use 1 durability for every individual block mined.
 | Stone | 262 | 4 | 1 | 0.6 | 11 | 5 |
 | Iron | 500 | 6 | 2 | 0.7 | 11 | 14 |
 | Gold | 64 | 12 | 0 | 0.8 | 8 | 22 |
-| Diamond | 3122 | 8 | 3 | 0.8 | 11 | 10 |
+| Diamond | 3,122 | 8 | 3 | 0.8 | 11 | 10 |
 |
 | Copper | 350 | 4 | 1 | 0.6 | 11 | 6 |
 | Tin | 400 | 4.5 | 1 | 0.6 | 11 | 7 |
@@ -81,11 +81,11 @@ well if possible. Hammers use 1 durability for every individual block mined.
 | Lead | 300 | 5 | 1 | 0.6 | 11 | 9 |
 | Aluminum | 550 | 10 | 1 | 0.6 | 11 | 14 |
 | Nickel | 600 | 6.5 | 2 | 0.7 | 11 | 18 |
-| Platinum | 3400 | 9 | 4 | 0.9 | 11 | 9 |
-| Steel | 1000 | 6.5 | 2 | 0.7 | 11 | 10 |
+| Platinum | 3,400 | 9 | 4 | 0.9 | 11 | 9 |
+| Steel | 1,000 | 6.5 | 2 | 0.7 | 11 | 10 |
 | Electrum | 200 | 14 | 0 | 0.8 | 8 | 30 |
 | Invar | 900 | 7 | 2 | 0.7 | 11 | 16 |
-| Bronze | 1000 | 6 | 2 | 0.7 | 11 | 15 |
+| Bronze | 1,000 | 6 | 2 | 0.7 | 11 | 15 |
 | Constantan | 550 | 6 | 2 | 0.7 | 11 | 20 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>

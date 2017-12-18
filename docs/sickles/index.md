@@ -72,22 +72,22 @@ every individual block broken.
 |---
 | Wood | 236 | 1.4 | 4 | 15 |
 | Stone | 524 | 1.4 | 5 | 5 |
-| Iron | 1000 | 1.4 | 6 | 14 |
+| Iron | 1,000 | 1.4 | 6 | 14 |
 | Gold | 128 | 1.4 | 4 | 22 |
-| Diamond | 6244 | 1.4 | 7 | 10 |
+| Diamond | 6,244 | 1.4 | 7 | 10 |
 |
 | Copper | 700 | 1.4 | 5 | 6 |
 | Tin | 800 | 1.4 | 5 | 7 |
 | Silver | 800 | 1.4 | 5 | 20 |
 | Lead | 600 | 1.4 | 5 | 9 |
-| Aluminum | 1100 | 1.4 | 5 | 14 |
-| Nickel | 1200 | 1.4 | 6.5 | 18 |
-| Platinum | 6800 | 1.4 | 8 | 9 |
-| Steel | 2000 | 1.4 | 6.5 | 10 |
+| Aluminum | 1,100 | 1.4 | 5 | 14 |
+| Nickel | 1,200 | 1.4 | 6.5 | 18 |
+| Platinum | 6,800 | 1.4 | 8 | 9 |
+| Steel | 2,000 | 1.4 | 6.5 | 10 |
 | Electrum | 400 | 1.4 | 4.5 | 30 |
-| Invar | 1800 | 1.4 | 7 | 16 |
-| Bronze | 2000 | 1.4 | 6 | 15 |
-| Constantan | 1100 | 1.4 | 5.5 | 20 |
+| Invar | 1,800 | 1.4 | 7 | 16 |
+| Bronze | 2,000 | 1.4 | 6 | 15 |
+| Constantan | 1,100 | 1.4 | 5.5 | 20 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

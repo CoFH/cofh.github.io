@@ -24,7 +24,7 @@ furnaces and most kinds of machines added by mods.
 
 ### Millibucket (mB)
 Unit used to express amounts of [fluid](#fluid). Derived from buckets, the
-original fluid containers. One bucket can store 1000 mB of fluid.
+original fluid containers. One bucket can store 1,000 mB of fluid.
 
 ### Power (RF/t)
 The rate of [energy](#energy) being transferred or converted. In the [Redstone

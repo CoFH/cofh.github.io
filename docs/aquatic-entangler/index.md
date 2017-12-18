@@ -41,7 +41,7 @@ When placed in a body of [water](https://minecraft.gamepedia.com/Water), an
 aquatic entangler will start catching fish. It must be surrounded by at least 10
 water blocks in a 5x5x2 area (the device being at the top of the area).
 
-An active aquatic entangler catches one fish every 7200 ticks (6 minutes) by
+An active aquatic entangler catches one fish every 7,200 ticks (6 minutes) by
 default. This speed can be increased by various factors.
 
 | Factor | Speed multiplier |

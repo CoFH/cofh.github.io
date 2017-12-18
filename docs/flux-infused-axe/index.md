@@ -12,11 +12,8 @@ recipes:
     - flux-infused-axe
 ---
 
-The **Flux-Infused Axe** is an axe added by [Redstone
-Arsenal](/docs/redstone-arsenal/). It can be used to chop trees.
-
-This axe can be [Enchanted](https://minecraft.gamepedia.com/Enchanting) and
-empowered (Default button is "V")
+A **flux-infused axe** is a powerful [axe](https://minecraft.gamepedia.com/Axe)
+powered by [Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -24,3 +21,66 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Charging
+A flux-infused axe can hold up to 320,000 [RF](/docs/redstone-flux/). It can be
+charged using an [energetic infuser](/docs/energetic-infuser/) or similar, or by
+touching a [fluxed electrum block](/docs/fluxed-electrum-block/) or [flux
+crystal block](/docs/flux-crystal-block) while holding it. It can be charged at
+rates up to 4,000 RF/t.
+
+An uncharged flux-infused axe is still usable and will not break when used, but
+it is much less powerful.
+
+### Empowering
+A charged flux-infused axe can be empowered, increasing its power. This can be
+toggled by pressing "Cycle Item Mode" (V by default).
+
+### Chopping wood
+An uncharged flux-infused axe has a very low chopping speed: half the speed of a
+[wooden axe](https://minecraft.gamepedia.com/Wooden_Axe). When charged, it has
+the same chopping speed as a [diamond
+axe](https://minecraft.gamepedia.com/Diamond_Axe), and consumes 200 RF per use.
+When empowered, it is 1.5 times as fast as a diamond axe, and consumes 1,600 RF
+per use.
+
+When a block is broken using an empowered flux-infused axe, all choppable blocks
+in a vertical 3x5x3 area around the broken block are also broken if possible.
+
+### Weapon
+An uncharged flux-infused axe has an attack speed of 1.2, and deals 2 damage.
+When charged, it deals 8 damage as well as 1 flux damage (a special type of
+damage that bypasses armor). When empowered, its attack speed is raised to 1.6
+and its flux damage is raised to 6.
+
+### Enchantments
+A flux-infused axe has an
+[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
+slightly higher than that of a [golden
+axe](https://minecraft.gamepedia.com/Golden_Axe). It can receive all the
+enchantments that other axes can receive.
+
+When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+flux-infused axe consumes less [Redstone Flux](/docs/redstone-flux/) per use.
+
+| Unbreaking level | Energy usage multiplier |
+|---
+| I | × 0.8 |
+| II | × 0.6 |
+| III | × 0.4 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
+A flux-infused axe can also be enchanted with [Holding](/docs/holding/) to
+increase its energy capacity.
+
+| Holding level | Capacity multiplier |
+|---
+| I | × 1.5 |
+| II | × 2 |
+| III | × 2.5 |
+| IV | × 3 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

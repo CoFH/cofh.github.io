@@ -68,7 +68,7 @@ The amount of water and energy required depends on the chosen output:
 |---
 | Snowball x4 | 500 mB | 800 RF |
 | Snow | 500 mB | 800 RF |
-| Ice | 1000 mB | 1600 RF |
+| Ice | 1,000 mB | 1,600 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 The speed at which a glacial precipitator produces items depends on how much

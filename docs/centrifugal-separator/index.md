@@ -153,8 +153,8 @@ Centrifugal separators come in six [tiers](/docs/tiers/).
 | Basic | 20 RF/t | 0 | 8 | 100 mB/t |
 | Hardened | 30 RF/t | 1 | 16 | 300 mB/t |
 | Reinforced | 40 RF/t | 2 | 28 | 600 mB/t |
-| Signalum | 50 RF/t | 3 | 44 | 1000 mB/t |
-| Resonant / Creative | 60 RF/t | 4 | 64 | 1500 mB/t |
+| Signalum | 50 RF/t | 3 | 44 | 1,000 mB/t |
+| Resonant / Creative | 60 RF/t | 4 | 64 | 1,500 mB/t |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

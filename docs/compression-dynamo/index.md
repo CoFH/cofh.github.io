@@ -149,7 +149,7 @@ Fuels
 The following fluids can be consumed by a compression dynamo to generate varying
 amounts of energy.
 
-| Fuel | Energy per 1000 mB |
+| Fuel | Energy per 1,000 mB |
 |---
 | [Creosote Oil](/docs/creosote-oil/) | 100,000 RF |
 | [Liquifacted Coal](/docs/liquifacted-coal/) | 400,000 RF |

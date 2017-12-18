@@ -69,7 +69,7 @@ Usage
 | Wood | 47 |
 | Stone | 119 |
 | Gold | 20 |
-| Diamond | 1549 |
+| Diamond | 1,549 |
 |
 | Copper | 163 |
 | Tin | 188 |
@@ -77,7 +77,7 @@ Usage
 | Lead | 138 |
 | Aluminum | 213 |
 | Nickel | 288 |
-| Platinum | 1688 |
+| Platinum | 1,688 |
 | Steel | 488 |
 | Electrum | 88 |
 | Invar | 438 |

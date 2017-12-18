@@ -145,7 +145,7 @@ Fuels
 The following fluids can be consumed by a magmatic dynamo to generate varying
 amounts of energy.
 
-| Fuel | Energy per 1000 mB |
+| Fuel | Energy per 1,000 mB |
 |---
 | [Lava](https://minecraft.gamepedia.com/Lava) | 120,000 RF |
 | [Blazing Pyrotheum](/docs/blazing-pyrotheum/) | 2,000,000 RF |

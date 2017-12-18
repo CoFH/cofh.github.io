@@ -55,7 +55,7 @@ Usage
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
-piece of pyrotheum dust lasts 1200 seconds, which is enough to smelt up to 120
+piece of pyrotheum dust lasts 1,200 seconds, which is enough to smelt up to 120
 items. It lasts just as long as [blaze
 rods](https://minecraft.gamepedia.com/Blaze_Rod).
 

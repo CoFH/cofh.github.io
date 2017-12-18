@@ -41,7 +41,7 @@ Obtaining
 
 ### Fluid Transposer
 If another mod registers a cinnabar ore block, it can be processed into 2 pieces
-of cinnabar using 200 mB of [gelid cryotheum](/docs/gelid-cryotheum/) and 2000
+of cinnabar using 200 mB of [gelid cryotheum](/docs/gelid-cryotheum/) and 2,000
 RF in a [fluid transposer](/docs/fluid-transposer/).
 
 

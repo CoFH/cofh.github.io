@@ -129,8 +129,8 @@ Alchemical imbuers come in six [tiers](/docs/tiers/).
 | Basic | 20 RF/t | 0 | 100 mB/t | 8 |
 | Hardened | 30 RF/t | 1 | 300 mB/t | 16 |
 | Reinforced | 40 RF/t | 2 | 600 mB/t | 28 |
-| Signalum | 50 RF/t | 3 | 1000 mB/t | 44 |
-| Resonant / Creative | 60 RF/t | 4 | 1500 mB/t | 64 |
+| Signalum | 50 RF/t | 3 | 1,000 mB/t | 44 |
+| Resonant / Creative | 60 RF/t | 4 | 1,500 mB/t | 64 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

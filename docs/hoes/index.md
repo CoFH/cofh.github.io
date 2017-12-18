@@ -60,7 +60,7 @@ Usage
 | Stone | 131 |
 | Iron | 250 |
 | Gold | 32 |
-| Diamond | 1561 |
+| Diamond | 1,561 |
 |
 | Copper | 175 |
 | Tin | 200 |
@@ -68,7 +68,7 @@ Usage
 | Lead | 150 |
 | Aluminum | 225 |
 | Nickel | 300 |
-| Platinum | 1700 |
+| Platinum | 1,700 |
 | Steel | 500 |
 | Electrum | 100 |
 | Invar | 450 |

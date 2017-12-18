@@ -87,7 +87,7 @@ Gelid cryotheum has the following effects on certain blocks and mobs:
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 If another mod registers a cinnabar ore block, it can be processed into 2 pieces
-of [cinnabar](/docs/cinnabar/) using 200 mB of gelid cryotheum and 2000 RF.
+of [cinnabar](/docs/cinnabar/) using 200 mB of gelid cryotheum and 2,000 RF.
 
 ### Reactant Dynamo fuel
 When used together with [pyrotheum dust](/docs/pyrotheum-dust/) as fuel in a
