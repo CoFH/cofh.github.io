@@ -44,7 +44,8 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 ### Mining
 An uncharged flux-infused pickaxe has a very low mining speed: half the speed of
 a [wooden pickaxe](https://minecraft.gamepedia.com/Wooden_Pickaxe). When
-charged, it has the same mining speed as a diamond pickaxe, and consumes 200 RF
+charged, it has the same mining speed as a [diamond
+pickaxe](https://minecraft.gamepedia.com/Diamond_Pickaxe), and consumes 200 RF
 per use. When empowered, it is 1.5 times as fast as a diamond pickaxe, and
 consumes 800 RF per use.
 
@@ -60,10 +61,9 @@ are the blocks in front of and behind broken blocks.
 
 ### Weapon
 An uncharged flux-infused pickaxe has an attack speed of 1.2, and deals 2
-damage. When charged, it deals 4 damage as well as 1 'flux damage' (a special
-type of damage that bypasses armor), and consumes 200 RF per hit. When
-empowered, its attack speed is raised to 1.6, its flux damage is raised to 4,
-and it consumes 800 RF per hit.
+damage. When charged, it deals 4 damage as well as 1 flux damage (a special type
+of damage that bypasses armor). When empowered, its attack speed is raised to
+1.6 and its flux damage is raised to 4.
 
 ### Enchantments
 A flux-infused pickaxe has an
