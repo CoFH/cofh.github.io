@@ -1,5 +1,5 @@
 ---
-title: Flux-Infused Fishing rod
+title: Flux-Infused Fishing Rod
 nav: redstone-arsenal
 image:
   - alt: Flux-infused fishing rod
@@ -9,16 +9,12 @@ redirect_from:
   - /docs/redstone-arsenal/tools/flux-infused-fishing-rod/
 recipes:
   crafting:
-    - 'flux-infused-fishing-rod'
+    - flux-infused-fishing-rod
 ---
 
-A **Flux-Infused Fishing rod** is a fishing rod added by [Redstone
-Arsenal](/docs/redstone-arsenal/). It can fish fish or other treasures like a
-regular [Fishing Rod](https://minecraft.gamepedia.com/Fishing_Rod).
-
-This fishing rod works faster, but requires energy.
-
-This fishing rod can be empowered (Default key is "V")
+A **flux-infused fishing rod** is a powerful [fishing
+rod](https://minecraft.gamepedia.com/Fishing_Rod) powered by [Redstone
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -26,3 +22,55 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Charging
+A flux-infused fishing rod can hold up to 320,000 [RF](/docs/redstone-flux/). It
+can be charged using an [energetic infuser](/docs/energetic-infuser/) or
+similar, or by touching a [fluxed electrum block](/docs/fluxed-electrum-block/)
+or [flux crystal block](/docs/flux-crystal-block) while holding it. It can be
+charged at rates up to 4,000 RF/t.
+
+### Empowering
+A charged flux-infused fishing rod can be empowered, increasing its power. This
+can be toggled by pressing "Cycle Item Mode" (V by default).
+
+### Fishing
+A flux-infused fishing rod is as powerful as a regular [fishing
+rod](https://minecraft.gamepedia.com/Fishing_Rod) enchanted with [Lure
+I](https://minecraft.gamepedia.com/Lure) and [Luck of the Sea
+I](https://minecraft.gamepedia.com/Luck_of_the_Sea), and consumes 200 RF per
+use. When empowered, it is as powerful as a regular fishing rod enchanted with
+Lure III and Luck of the Sea III, and consumes 800 RF per use.
+
+### Enchantments
+A flux-infused fishing rod has an
+[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
+much higher than that of a regular [fishing
+rod](https://minecraft.gamepedia.com/Fishing_Rod). It can receive all the
+enchantments that a regular fishing rod can receive.
+
+When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+flux-infused fishing rod consumes less [Redstone Flux](/docs/redstone-flux/) per
+use.
+
+| Unbreaking level | Energy usage multiplier |
+|---
+| I | × 0.8 |
+| II | × 0.6 |
+| III | × 0.4 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
+A flux-infused fishing rod can also be enchanted with [Holding](/docs/holding/)
+to increase its energy capacity.
+
+| Holding level | Capacity multiplier |
+|---
+| I | × 1.5 |
+| II | × 2 |
+| III | × 2.5 |
+| IV | × 3 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

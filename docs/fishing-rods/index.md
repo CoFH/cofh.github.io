@@ -61,29 +61,35 @@ Usage
 -----
 
 ### Comparison
+The lure and luck modifiers of a fishing rod make it as powerful as a regular
+[fishing rod](https://minecraft.gamepedia.com/Fishing_Rod) enchanted with
+[Lure](https://minecraft.gamepedia.com/Lure) and [Luck of the
+Sea](https://minecraft.gamepedia.com/Luck_of_the_Sea) at those levels,
+respectively.
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Uses | Enchantability |
+| Material | Uses | Lure modifier | Luck modifier | Enchantability |
 |---
-| Wood (vanilla) | 65 | 1 |
+| Wood (vanilla) | 65 | 0 | 0 | 1 |
 |
-| Stone | 136 | 5 |
-| Iron | 255 | 14 |
-| Gold | 37 | 22 |
-| Diamond | 1,566 | 10 |
+| Stone | 136 | 1 | 1 | 5 |
+| Iron | 255 | 2 | 1 | 14 |
+| Gold | 37 | 4 | 0 | 22 |
+| Diamond | 1,566 | 3 | 2 | 10 |
 |
-| Copper | 180 | 6 |
-| Tin | 205 | 7 |
-| Silver | 205 | 20 |
-| Lead | 155 | 9 |
-| Aluminum | 230 | 14 |
-| Nickel | 305 | 18 |
-| Platinum | 1,705 | 9 |
-| Steel | 505 | 10 |
-| Electrum | 105 | 30 |
-| Invar | 455 | 16 |
-| Bronze | 505 | 15 |
-| Constantan | 280 | 20 |
+| Copper | 180 | 1 | 1 | 6 |
+| Tin | 205 | 2 | 1 | 7 |
+| Silver | 205 | 2 | 1 | 20 |
+| Lead | 155 | 2 | 1 | 9 |
+| Aluminum | 230 | 3 | 1 | 14 |
+| Nickel | 305 | 2 | 1 | 18 |
+| Platinum | 1,705 | 3 | 2 | 9 |
+| Steel | 505 | 2 | 1 | 10 |
+| Electrum | 105 | 5 | 0 | 30 |
+| Invar | 455 | 2 | 1 | 16 |
+| Bronze | 505 | 2 | 1 | 15 |
+| Constantan | 280 | 2 | 1 | 20 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

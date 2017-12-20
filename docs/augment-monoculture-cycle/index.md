@@ -37,8 +37,8 @@ non-fertilizer inputs (like plant seeds). This allows the machine to keep
 producing the same plant using only fertilizer and
 [water](https://minecraft.gamepedia.com/Water). However, the augment also
 increases the amount of energy required per operation by 50%, and decreases the
-secondary product chance of recipes by 100% (substracted directly from the
-chance percentage).
+secondary product chance of recipes by 100% (subtracted directly from the chance
+percentage).
 
 If a monoculture cycle augment is installed together with other augments that
 increase the amount of energy required per operation, their energy increase
