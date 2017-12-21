@@ -1,0 +1,66 @@
+cofh-core:
+  git: b5783d6..3da747c
+
+cofh-world:
+  git: a6624ea..e684b34
+  todo:
+    - check if any behavior changed in the refactor
+
+thermal-foundation:
+  git: dd99b71..e5bedf0
+  todo:
+    - redstone servo recipe changed
+    - tome of experience usage logic changed
+    - tome of experience can be filled with openblocks liquid xp
+    - hardened glass is witherproof
+    - horse armor recipes changed
+
+thermal-expansion:
+  git: e1ad001..5b6007f
+  todo:
+    - pulverizer diamond horse armor recycling changed (8 to 4 diamonds)
+    - induction smelter horse armor recycling changed (8 to 4 ingots)
+    - induction smelter recipe inputs swapped(?)
+    - phytogenic insolator recipes changed
+    - energetic infuser energy transfer values changed
+    - fluid transposer adds 'container override' recipes
+    - fluid transposer can make tipped arrows using fluid potions
+    - glacial precipitator reworked
+    - igneous extruder reworked
+    - device frame recipe changed (iron ingot -> tin ingot)
+    - device recipes changed (tin gear -> iron gear)
+    - flux capacitor numbers changed
+    - flux capacitor now calls 'armor' 'worn items'
+    - portable tank item no longer has a 'container item'
+    - reservoir item
+    - satchel reworked
+    - metallurgical recovery reuse chance increased (15%)
+    - nutrient recovery reuse chance increased (20%)
+    - monoculture cycle adds reuse chance (10%)
+    - gearworking die augment (compactor - gear)
+    - parabolic flux coupling augment (energetic infuser - wireless)
+    - reagent recovery reuse chance increased (15%)
+    - flurry stratum and permafrost compressor removed
+    - pyroclastic injection is now a specialization
+    - subduction augments removed
+    - auxiliary transmission coil energy penalty removed
+    - boiler conversion energy penalties changed
+    - disjunctive extraction augment (enervation dynamo - enchant)
+
+thermal-dynamics:
+  git: feb871d..08b7057
+  todo:
+    - covers can be made from all blocks except specific blacklisted ones
+    - /td_blacklist_cover command (hidden?)
+
+thermal-cultivation:
+  git: 51dce9e..f8eac83
+  todo:
+    - watering can refactors
+
+redstone-arsenal:
+  git: 851c99b..4a5719c
+  todo:
+    - unbreaking effects changed
+    - pickaxe works on more blocks/materials when empowered
+    - bow arrow speed/damage changes when empowered
