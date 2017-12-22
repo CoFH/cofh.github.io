@@ -1,5 +1,5 @@
 cofh-core:
-  git: b5783d6..bdea159
+  git: 27ee2b4..bdea159
 
 cofh-world:
   git: a6624ea..e684b34
@@ -8,13 +8,6 @@ cofh-world:
 
 thermal-foundation:
   git: dd99b71..8d52848
-  todo:
-    - redstone servo recipe changed
-    - tome of experience usage logic changed
-    - tome of experience can be filled with openblocks liquid xp
-    - phyto-gro charcoal recipes changed (12 -> 16)
-    - hardened glass is witherproof
-    - horse armor recipes changed
 
 thermal-expansion:
   git: e1ad001..78f6b6a

@@ -87,6 +87,10 @@ Usage
 Some variants of hardened glass emit varying amounts of light depending on the
 type of metal, like [lumium](/docs/lumium-ingot/).
 
+### Wither proofing
+Hardened glass blocks cannot be broken by
+[withers](https://minecraft.gamepedia.com/Wither).
+
 ### Beacons
 Like [stained glass](https://minecraft.gamepedia.com/Stained_Glass), hardened
 glass blocks change the color of

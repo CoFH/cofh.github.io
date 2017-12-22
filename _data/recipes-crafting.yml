@@ -4584,55 +4584,52 @@ recipes:
       - item: horse-armor-diamond
     ingredients:
       - item: diamond
-      - item: helmet-diamond
+      - item: leather
       - item-group: wool
     data:
       rows:
-        - [null, null, item: [helmet-diamond]]
-        - - item: [diamond]
+        - [item: [diamond], null, item: [diamond]]
+        - - item: [leather]
           - random: true
             item-group: wool
-          - item: [diamond]
-        - [item: [diamond], item: [diamond], item: [diamond]]
+          - item: [leather]
+        - [item: [diamond], null, item: [diamond]]
       result:
         item: [horse-armor-diamond]
-        amount: 1
   horse-armor-gold:
     results:
       - item: horse-armor-gold
     ingredients:
       - item: ingot-gold
-      - item: helmet-gold
+      - item: leather
       - item-group: wool
     data:
       rows:
-        - [null, null, item: [helmet-gold]]
-        - - item: [ingot-gold]
+        - [item: [ingot-gold], null, item: [ingot-gold]]
+        - - item: [leather]
           - random: true
             item-group: wool
-          - item: [ingot-gold]
-        - [item: [ingot-gold], item: [ingot-gold], item: [ingot-gold]]
+          - item: [leather]
+        - [item: [ingot-gold], null, item: [ingot-gold]]
       result:
         item: [horse-armor-gold]
-        amount: 1
   horse-armor-iron:
     results:
       - item: horse-armor-iron
     ingredients:
       - item: ingot-iron
-      - item: helmet-iron
+      - item: leather
       - item-group: wool
     data:
       rows:
-        - [null, null, item: [helmet-iron]]
-        - - item: [ingot-iron]
+        - [item: [ingot-iron], null, item: [ingot-iron]]
+        - - item: [leather]
           - random: true
             item-group: wool
-          - item: [ingot-iron]
-        - [item: [ingot-iron], item: [ingot-iron], item: [ingot-iron]]
+          - item: [leather]
+        - [item: [ingot-iron], null, item: [ingot-iron]]
       result:
         item: [horse-armor-iron]
-        amount: 1
   ice-using-cryotheum:
     results:
       - item: ice
@@ -6786,51 +6783,6 @@ recipes:
       result:
         item: [ingot-tin]
         amount: 2
-  phyto-gro-rich-using-charcoal:
-    results:
-      - item: phyto-gro-rich
-    ingredients:
-      - item: dust-charcoal
-      - item: niter
-      - item: slag-rich
-    data:
-      shapeless: true
-      rows:
-        - [item: [dust-charcoal], item: [niter]]
-        - [item: [slag-rich]]
-      result:
-        item: [phyto-gro-rich]
-        amount: 12
-  phyto-gro-rich-using-sawdust:
-    results:
-      - item: phyto-gro-rich
-    ingredients:
-      - item: sawdust
-      - item: niter
-      - item: slag-rich
-    data:
-      shapeless: true
-      rows:
-        - [item: [sawdust], item: [sawdust]]
-        - [item: [niter], item: [slag-rich]]
-      result:
-        item: [phyto-gro-rich]
-        amount: 4
-  phyto-gro-using-charcoal:
-    results:
-      - item: phyto-gro
-    ingredients:
-      - item: dust-charcoal
-      - item: niter
-      - item: slag
-    data:
-      shapeless: true
-      rows:
-        - [item: [dust-charcoal], item: [niter]]
-        - [item: [slag]]
-      result:
-        item: [phyto-gro]
-        amount: 12
   phyto-gro-using-sawdust:
     results:
       - item: phyto-gro
@@ -6846,6 +6798,51 @@ recipes:
       result:
         item: [phyto-gro]
         amount: 4
+  phyto-gro-using-charcoal:
+    results:
+      - item: phyto-gro
+    ingredients:
+      - item: dust-charcoal
+      - item: niter
+      - item: slag
+    data:
+      shapeless: true
+      rows:
+        - [item: [dust-charcoal], item: [niter]]
+        - [item: [slag]]
+      result:
+        item: [phyto-gro]
+        amount: 16
+  phyto-gro-rich-using-sawdust:
+    results:
+      - item: phyto-gro-rich
+    ingredients:
+      - item: sawdust
+      - item: niter
+      - item: slag-rich
+    data:
+      shapeless: true
+      rows:
+        - [item: [sawdust], item: [sawdust]]
+        - [item: [niter], item: [slag-rich]]
+      result:
+        item: [phyto-gro-rich]
+        amount: 4
+  phyto-gro-rich-using-charcoal:
+    results:
+      - item: phyto-gro-rich
+    ingredients:
+      - item: dust-charcoal
+      - item: niter
+      - item: slag-rich
+    data:
+      shapeless: true
+      rows:
+        - [item: [dust-charcoal], item: [niter]]
+        - [item: [slag-rich]]
+      result:
+        item: [phyto-gro-rich]
+        amount: 16
   pickaxe-aluminum:
     results:
       - item: pickaxe-aluminum
@@ -7477,9 +7474,9 @@ recipes:
       - item: redstone
     data:
       rows:
-        - [item: [redstone], null, item: [redstone]]
+        - [null, item: [redstone]]
         - [null, item: [ingot-iron]]
-        - [item: [redstone], null, item: [redstone]]
+        - [null, item: [redstone]]
       result:
         item: [redstone-servo]
         amount: 1
