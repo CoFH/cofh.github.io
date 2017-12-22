@@ -4324,10 +4324,10 @@ recipes:
         item: [horse-armor-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-horse-armor-iron:
     results:
       - item: ingot-iron
@@ -4343,10 +4343,10 @@ recipes:
         item: [horse-armor-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-iron-bars:
     results:
       - item: ingot-iron

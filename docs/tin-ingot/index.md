@@ -42,6 +42,7 @@ usage-recipes:
     - gear-tin
     - storage-block-tin
     - crescent-hammer
+    - frame-device
     - flux-capacitor-hardened
     - cache-basic
     - strongbox-basic

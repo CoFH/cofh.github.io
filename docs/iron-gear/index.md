@@ -10,6 +10,16 @@ recipes:
 usage-recipes:
   crafting:
     - machine-sawmill
+    - device-water-gen
+    - device-nullifier
+    - device-heat-sink
+    - device-tapper
+    - device-fisher
+    - device-item-buffer
+    - device-fluid-buffer
+    - device-lexicon
+    - device-xp-collector
+    - device-diffuser
     - augment-machine-charger-repair
     - augment-dynamo-boiler
     - augment-dynamo-steam-turbine

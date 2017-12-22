@@ -40,10 +40,10 @@ operation.
 <div class="uk-overflow-container">
 | Installed amount | Reagent reuse chance | Energy increase |
 |---
-| 1 | 10% | + 10% |
-| 2 | 20% | + 20% |
-| 3 | 30% | + 30% |
-| 4 | 40% | + 40% |
+| 1 | 15% | + 10% |
+| 2 | 30% | + 20% |
+| 3 | 45% | + 30% |
+| 4 | 60% | + 40% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

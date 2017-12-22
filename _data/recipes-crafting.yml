@@ -1618,14 +1618,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: ingot-silver
       - item: dispenser
     data:
       rows:
         - [null, item: [dispenser]]
         - [item: [ingot-silver], item: [frame-device], item: [ingot-silver]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-diffuser]
         amount: 1
@@ -1635,14 +1635,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: iron-bars
       - item: fishing-rod
     data:
       rows:
         - [null, item: [fishing-rod]]
         - [item: [iron-bars], item: [frame-device], item: [iron-bars]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-fisher]
         amount: 1
@@ -1652,14 +1652,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: ingot-copper
       - item: cauldron
     data:
       rows:
         - [null, item: [cauldron]]
         - [item: [ingot-copper], item: [frame-device], item: [ingot-copper]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-fluid-buffer]
         amount: 1
@@ -1669,14 +1669,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: ingot-invar
       - item: storage-block-copper
     data:
       rows:
         - [null, item: [storage-block-copper]]
         - [item: [ingot-invar], item: [frame-device], item: [ingot-invar]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-heat-sink]
         amount: 1
@@ -1686,14 +1686,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: redstone
       - item: hopper
     data:
       rows:
         - [null, item: [hopper]]
         - [item: [redstone], item: [frame-device], item: [redstone]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-item-buffer]
         amount: 1
@@ -1703,14 +1703,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: ingot-lead
       - item: forge-lexicon
     data:
       rows:
         - [null, item: [forge-lexicon]]
         - [item: [ingot-lead], item: [frame-device], item: [ingot-lead]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-lexicon]
         amount: 1
@@ -1720,14 +1720,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: bricks
       - item: bucket-lava
     data:
       rows:
         - [null, item: [bucket-lava]]
         - [item: [bricks], item: [frame-device], item: [bricks]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-nullifier]
         amount: 1
@@ -1737,14 +1737,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: ingot-copper
       - item: bucket
     data:
       rows:
         - [null, item: [bucket]]
         - [item: [ingot-copper], item: [frame-device], item: [ingot-copper]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-tapper]
         amount: 1
@@ -1754,14 +1754,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: glass
       - item: bucket
     data:
       rows:
         - [null, item: [bucket]]
         - [item: [glass], item: [frame-device], item: [glass]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-water-gen]
         amount: 1
@@ -1771,14 +1771,14 @@ recipes:
     ingredients:
       - item: frame-device
       - item: redstone-servo
-      - item: gear-tin
+      - item: gear-iron
       - item: ingot-gold
       - item: tome-of-knowledge
     data:
       rows:
         - [null, item: [tome-of-knowledge]]
         - [item: [ingot-gold], item: [frame-device], item: [ingot-gold]]
-        - [item: [gear-tin], item: [redstone-servo], item: [gear-tin]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-xp-collector]
         amount: 1
@@ -3629,13 +3629,13 @@ recipes:
       - item: frame-device
     ingredients:
       - item: gear-copper
-      - item: ingot-iron
+      - item: ingot-tin
       - item: glass
     data:
       rows:
-        - [item: [ingot-iron], item: [glass], item: [ingot-iron]]
+        - [item: [ingot-tin], item: [glass], item: [ingot-tin]]
         - [item: [glass], item: [gear-copper], item: [glass]]
-        - [item: [ingot-iron], item: [glass], item: [ingot-iron]]
+        - [item: [ingot-tin], item: [glass], item: [ingot-tin]]
       result:
         item: [frame-device]
         amount: 1

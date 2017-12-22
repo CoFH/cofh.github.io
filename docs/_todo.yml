@@ -12,28 +12,16 @@ thermal-foundation:
 thermal-expansion:
   git: e1ad001..78f6b6a
   todo:
-    - pulverizer diamond horse armor recycling changed (8 to 4 diamonds)
-    - induction smelter horse armor recycling changed (8 to 4 ingots)
-    - induction smelter recipe inputs swapped(?)
-    - phytogenic insolator recipes changed
-    - energetic infuser energy transfer values changed
-    - fluid transposer adds 'container override' recipes
-    - fluid transposer can make tipped arrows using fluid potions
     - glacial precipitator reworked
     - igneous extruder reworked
-    - device frame recipe changed (iron ingot -> tin ingot)
-    - device recipes changed (tin gear -> iron gear)
     - flux capacitor numbers changed
     - flux capacitor now calls 'armor' 'worn items'
     - portable tank item no longer has a 'container item'
     - reservoir item
     - satchel reworked
-    - metallurgical recovery reuse chance increased (15%)
-    - nutrient recovery reuse chance increased (20%)
     - monoculture cycle adds reuse chance (10%)
     - gearworking die augment (compactor - gear)
     - parabolic flux coupling augment (energetic infuser - wireless)
-    - reagent recovery reuse chance increased (15%)
     - flurry stratum and permafrost compressor removed
     - pyroclastic injection is now a specialization
     - subduction augments removed

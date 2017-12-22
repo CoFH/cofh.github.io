@@ -1207,7 +1207,7 @@ recipes:
         item: [horse-armor-diamond]
       primary-output:
         item: [diamond]
-        amount: 8
+        amount: 4
   recycling-leggings-diamond:
     results:
       - item: diamond
