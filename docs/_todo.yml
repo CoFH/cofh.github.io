@@ -1,5 +1,5 @@
 cofh-core:
-  git: b5783d6..3da747c
+  git: b5783d6..bdea159
 
 cofh-world:
   git: a6624ea..e684b34
@@ -7,16 +7,17 @@ cofh-world:
     - check if any behavior changed in the refactor
 
 thermal-foundation:
-  git: dd99b71..e5bedf0
+  git: dd99b71..8d52848
   todo:
     - redstone servo recipe changed
     - tome of experience usage logic changed
     - tome of experience can be filled with openblocks liquid xp
+    - phyto-gro charcoal recipes changed (12 -> 16)
     - hardened glass is witherproof
     - horse armor recipes changed
 
 thermal-expansion:
-  git: e1ad001..5b6007f
+  git: e1ad001..78f6b6a
   todo:
     - pulverizer diamond horse armor recycling changed (8 to 4 diamonds)
     - induction smelter horse armor recycling changed (8 to 4 ingots)
@@ -48,18 +49,18 @@ thermal-expansion:
     - disjunctive extraction augment (enervation dynamo - enchant)
 
 thermal-dynamics:
-  git: feb871d..08b7057
+  git: feb871d..fbb45cb
   todo:
     - covers can be made from all blocks except specific blacklisted ones
     - /td_blacklist_cover command (hidden?)
 
 thermal-cultivation:
-  git: 51dce9e..f8eac83
+  git: 51dce9e..5d1c292
   todo:
     - watering can refactors
 
 redstone-arsenal:
-  git: 851c99b..4a5719c
+  git: 851c99b..aedbb46
   todo:
     - unbreaking effects changed
     - pickaxe works on more blocks/materials when empowered
