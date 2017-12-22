@@ -9,5 +9,8 @@ redirect_from:
 ![Mana dust](/assets/images/thermal-foundation/dust-mana.gif){:style="height: 128px"}
 
 
-**Mana dust** is a material that currently cannot be obtained and is not used for
-anything.
+**Mana dust** is a material that currently cannot be obtained.
+
+Mana dust can currently only be used in an [insightful
+condenser](/docs/insightful-condenser/), to increase the amount of [essence of
+knowledge](/docs/essence-of-knowledge/) the device produces.
