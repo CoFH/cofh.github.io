@@ -48,7 +48,7 @@ an [energetic infuser](/docs/energetic-infuser/) or similar. It can be placed in
 provide them with energy.
 
 A basic flux capacitor can be charged at up to 2,000 RF/t, and can be discharged
-at up to 500 RF/t. This can be increased by upgrading the flux capacitor to a
+at up to 1,000 RF/t. This can be increased by upgrading the flux capacitor to a
 higher [tier](#tiers).
 
 ### Charging items
@@ -57,9 +57,9 @@ sneaking. When active, a flux capacitor charges certain items that can hold
 [Redstone Flux](/docs/redstone-flux/) in a player's inventory.
 
 A flux capacitor can be set to charge a player's currently held item (the
-default mode), the armor they are currently wearing, or both. The current
-charging mode of a flux capacitor can be switched by pressing "Cycle Item Mode"
-(V by default) while holding it.
+default mode), the items they are currently wearing, or both at the same time.
+The current charging mode of a flux capacitor can be switched by pressing "Cycle
+Item Mode" (V by default) while holding it.
 
 ### Enchantments
 A flux capacitor can be enchanted with [Holding](/docs/holding/) to increase its
@@ -88,7 +88,7 @@ Flux capacitors come in six [tiers](/docs/tiers/).
 | Reinforced | 9,000,000 RF | 18,000 RF/t | 9,000 RF/t |
 | Signalum | 16,000,000 RF | 32,000 RF/t | 16,000 RF/t |
 | Resonant | 25,000,000 RF | 50,000 RF/t | 25,000 RF/t |
-| Creative | N/A | N/A | 25,000 RF/t | Provides an unlimited amount of energy. |
+| Creative | N/A | N/A | 250,000 RF/t | Provides an unlimited amount of energy. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
