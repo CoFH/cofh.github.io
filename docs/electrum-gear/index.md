@@ -12,6 +12,7 @@ usage-recipes:
     - upgrade-kit-signalum
     - dynamo-enervation
     - augment-machine-charger-throughput
+    - augment-machine-charger-wireless
 ---
 
 ![Electrum gear](/assets/images/thermal-foundation/gear-electrum.png){:style="height: 128px"}

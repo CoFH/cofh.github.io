@@ -40,6 +40,8 @@ usage-recipes:
     - redstone-coil-electrum
     - upgrade-kit-reinforced
     - flux-capacitor-reinforced
+    - reservoir-reinforced
+    - reservoir-signalum
     - satchel-reinforced
     - augment-dynamo-throttle
     - fluxduct-reinforced-empty

@@ -24,6 +24,7 @@ The following blocks and items can be upgraded:
 * [Energy Cell](/docs/energy-cell/)
 * [Flux Capacitor](/docs/flux-capacitor/)
 * [Portable Tank](/docs/portable-tank/)
+* [Reservoir](/docs/reservoir/)
 * [Cache](/docs/cache/)
 * [Strongbox](/docs/strongbox/)
 * [Satchel](/docs/satchel/)

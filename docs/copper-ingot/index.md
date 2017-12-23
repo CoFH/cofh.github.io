@@ -47,6 +47,8 @@ usage-recipes:
     - device-fluid-buffer
     - flux-capacitor-basic
     - portable-tank-basic
+    - reservoir-basic
+    - reservoir-hardened
     - augment-dynamo-coil-duct
     - fluiduct-basic
     - fluiduct-basic-opaque

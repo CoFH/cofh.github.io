@@ -23,12 +23,14 @@ usage-recipes:
     - augment-machine-refinery-potion
     - augment-machine-charger-throughput
     - augment-machine-charger-repair
+    - augment-machine-charger-wireless
     - augment-dynamo-efficiency
     - augment-dynamo-steam-turbine
     - augment-dynamo-magmatic-coolant
     - augment-dynamo-compression-coolant
     - augment-dynamo-compression-fuel
     - augment-dynamo-reactant-elemental
+    - augment-dynamo-enervation-enchant
     - augment-dynamo-numismatic-gem
 ---
 

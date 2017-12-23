@@ -21,6 +21,7 @@ usage-recipes:
     - device-xp-collector
     - device-diffuser
     - portable-tank-basic
+    - reservoir-basic
     - cache-basic
     - augment-machine-secondary
     - augment-machine-furnace-pyrolysis
@@ -30,6 +31,7 @@ usage-recipes:
     - augment-machine-insolator-fertilizer
     - augment-machine-insolator-tree
     - augment-machine-compactor-mint
+    - augment-machine-compactor-gear
     - augment-machine-brewer-reagent
     - augment-machine-extruder-no-water
 ---

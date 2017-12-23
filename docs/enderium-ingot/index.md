@@ -18,6 +18,7 @@ usage-recipes:
     - storage-block-enderium
     - upgrade-kit-resonant
     - flux-capacitor-resonant
+    - reservoir-resonant
     - satchel-resonant
     - fluxduct-resonant-empty-three
     - fluxduct-resonant-three

@@ -671,6 +671,8 @@ thermal-expansion:
               url: flux-capacitor/
             - title: Portable Tank
               url: portable-tank/
+            - title: Reservoir
+              url: reservoir/
             - title: Cache
               url: cache/
             - title: Strongbox
@@ -710,6 +712,8 @@ thermal-expansion:
                   url: augment-monoculture-cycle/
                 - title: Numismatic Press
                   url: augment-numismatic-press/
+                - title: Gearworking Die
+                  url: augment-gearworking-die/
                 - title: Pyroconvective Loop
                   url: augment-pyroconvective-loop/
                 - title: Reflux Column
@@ -720,6 +724,8 @@ thermal-expansion:
                   url: augment-flux-linkage-concentrator/
                 - title: Flux Reconstruction
                   url: augment-flux-reconstruction/
+                - title: Parabolic Flux Coupling
+                  url: augment-parabolic-flux-coupling/
                 - title: Reagent Recovery
                   url: augment-reagent-recovery/
                 - title: Pyroclastic Injection
@@ -746,6 +752,8 @@ thermal-expansion:
                   url: augment-ignition-plugs/
                 - title: Elemental Catalyzer
                   url: augment-elemental-catalyzer/
+                - title: Disjunctive Extraction
+                  url: augment-disjunctive-extraction/
                 - title: Lapidary Calibration
                   url: augment-lapidary-calibration/
         - title: Other

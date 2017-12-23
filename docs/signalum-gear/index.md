@@ -16,6 +16,7 @@ usage-recipes:
     - augment-dynamo-magmatic-coolant
     - augment-dynamo-compression-fuel
     - augment-dynamo-reactant-elemental
+    - augment-dynamo-enervation-enchant
     - augment-dynamo-numismatic-gem
 ---
 

@@ -20,6 +20,7 @@ usage-recipes:
     - device-lexicon
     - device-xp-collector
     - device-diffuser
+    - augment-machine-compactor-gear
     - augment-machine-charger-repair
     - augment-dynamo-boiler
     - augment-dynamo-steam-turbine

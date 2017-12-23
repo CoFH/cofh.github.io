@@ -42,6 +42,8 @@ usage-recipes:
     - machine-precipitator
     - device-heat-sink
     - flux-capacitor-hardened
+    - reservoir-hardened
+    - reservoir-reinforced
     - satchel-hardened
     - fluxduct-hardened-three
     - fluiduct-hardened

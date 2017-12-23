@@ -44,6 +44,7 @@ usage-recipes:
     - crescent-hammer
     - frame-device
     - flux-capacitor-hardened
+    - reservoir-basic
     - cache-basic
     - strongbox-basic
     - satchel-basic-using-leather

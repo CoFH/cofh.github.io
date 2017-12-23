@@ -18,6 +18,8 @@ usage-recipes:
     - storage-block-signalum
     - upgrade-kit-signalum
     - flux-capacitor-signalum
+    - reservoir-signalum
+    - reservoir-resonant
     - satchel-signalum
     - fluxduct-signalum-empty-three
     - fluxduct-signalum-three
