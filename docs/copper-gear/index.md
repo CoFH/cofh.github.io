@@ -21,9 +21,6 @@ usage-recipes:
     - dynamo-steam
     - augment-machine-furnace-food
     - augment-machine-extruder-no-water
-    - augment-machine-extruder-granite
-    - augment-machine-extruder-diorite
-    - augment-machine-extruder-andesite
 ---
 
 ![Copper gear](/assets/images/thermal-foundation/gear-copper.png){:style="height: 128px"}

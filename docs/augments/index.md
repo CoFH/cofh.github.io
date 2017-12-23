@@ -27,9 +27,6 @@ augments:
     - machine-charger-repair
     - machine-brewer-reagent
     - machine-extruder-no-water
-    - machine-extruder-granite
-    - machine-extruder-diorite
-    - machine-extruder-andesite
   dynamo:
     - dynamo-power
     - dynamo-efficiency

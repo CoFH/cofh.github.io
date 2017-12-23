@@ -62,8 +62,8 @@ When a glacial precipitator's input tank is filled with the fluid corresponding
 to the configured recipe, the machine will start consuming [Redstone
 Flux](/docs/redstone-flux/) to produce the recipe's output item. Every produced
 item requires a certain amount of energy and fluid. When enough energy has been
-consumed for an item, the required amount of fluid is consumed and the output is
-placed in the output slot.
+consumed for an item, the input is consumed and the output is placed in the
+output slot.
 
 The speed at which a glacial precipitator produces items depends on how much
 energy it can use per tick. This in turn depends on how much power is being

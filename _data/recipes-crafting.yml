@@ -637,57 +637,6 @@ recipes:
       result:
         item: [augment-machine-extruder-no-water]
         amount: 1
-  augment-machine-extruder-granite:
-    results:
-      - item: augment-machine-extruder-granite
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: granite
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [granite], item: [redstone]]
-      result:
-        item: [augment-machine-extruder-granite]
-        amount: 1
-  augment-machine-extruder-diorite:
-    results:
-      - item: augment-machine-extruder-diorite
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: diorite
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [diorite], item: [redstone]]
-      result:
-        item: [augment-machine-extruder-diorite]
-        amount: 1
-  augment-machine-extruder-andesite:
-    results:
-      - item: augment-machine-extruder-andesite
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: andesite
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [andesite], item: [redstone]]
-      result:
-        item: [augment-machine-extruder-andesite]
-        amount: 1
   axe-aluminum:
     results:
       - item: axe-aluminum

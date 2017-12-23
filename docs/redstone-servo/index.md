@@ -32,9 +32,6 @@ usage-recipes:
     - augment-machine-compactor-mint
     - augment-machine-brewer-reagent
     - augment-machine-extruder-no-water
-    - augment-machine-extruder-granite
-    - augment-machine-extruder-diorite
-    - augment-machine-extruder-andesite
 ---
 
 ![Redstone servo](/assets/images/thermal-foundation/redstone-servo.png){:style="height: 128px"}

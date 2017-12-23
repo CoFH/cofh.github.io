@@ -11,9 +11,6 @@ usage-recipes:
   crafting:
     - augment-machine-furnace-ore
     - augment-machine-extruder-no-water
-    - augment-machine-extruder-granite
-    - augment-machine-extruder-diorite
-    - augment-machine-extruder-andesite
     - augment-dynamo-magmatic-coolant
 ---
 

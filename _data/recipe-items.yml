@@ -153,21 +153,6 @@ augment-machine-extruder-no-water:
   animated: true
   site: cofh
   url: augment-pyroclastic-injection/
-augment-machine-extruder-granite:
-  name: 'Augment: Granitic Subduction'
-  sprite: [10, 29]
-  site: cofh
-  url: augment-granitic-subduction/
-augment-machine-extruder-diorite:
-  name: 'Augment: Dioritic Subduction'
-  sprite: [9, 29]
-  site: cofh
-  url: augment-dioritic-subduction/
-augment-machine-extruder-andesite:
-  name: 'Augment: Andesitic Subduction'
-  sprite: [8, 29]
-  site: cofh
-  url: augment-andesitic-subduction/
 augment-dynamo-power:
   name: 'Augment: Auxiliary Transmission Coil'
   sprite: [2, 29]

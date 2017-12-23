@@ -66,7 +66,7 @@ List of machines
 | [Alchemical Imbuer](/docs/alchemical-imbuer/) | Brews [potions](https://minecraft.gamepedia.com/Potion). |
 | [Arcane Ensorcellator](/docs/arcane-ensorcellator/) | Enchants [books](https://minecraft.gamepedia.com/Book) and other arcana. Can produce specific [enchanted books](https://minecraft.gamepedia.com/Enchanted_Book). |
 | [Glacial Precipitator](/docs/glacial-precipitator/) | Freezes fluids into items. |
-| [Igneous Extruder](/docs/igneous-extruder/) | Mixes [water](https://minecraft.gamepedia.com/Water) and [lava](https://minecraft.gamepedia.com/Lava) into various items, notably [cobblestone](https://minecraft.gamepedia.com/Cobblestone). |
+| [Igneous Extruder](/docs/igneous-extruder/) | Mixes hot and cold fluids to create items. |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
 </div>
 {::options parse_block_html="false" /}
