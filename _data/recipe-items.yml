@@ -148,16 +148,6 @@ augment-machine-brewer-reagent:
   sprite: [3, 61]
   site: cofh
   url: augment-reagent-recovery/
-augment-machine-precipitator-snow-layer:
-  name: 'Augment: Flurry Stratum'
-  sprite: [4, 30]
-  site: cofh
-  url: augment-flurry-stratum/
-augment-machine-precipitator-packed-ice:
-  name: 'Augment: Permafrost Compressor'
-  sprite: [3, 30]
-  site: cofh
-  url: augment-permafrost-compressor/
 augment-machine-extruder-no-water:
   name: 'Augment: Pyroclastic Injection'
   animated: true
@@ -4534,7 +4524,7 @@ snow:
   site: mc-wiki
   url: Snow
 snow-layer:
-  name: Snow
+  name: Snow (layer)
   sprite: [9, 41]
   site: mc-wiki
   url: Snow_(layer)

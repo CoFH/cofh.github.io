@@ -722,10 +722,6 @@ thermal-expansion:
                   url: augment-flux-reconstruction/
                 - title: Reagent Recovery
                   url: augment-reagent-recovery/
-                - title: Flurry Stratum
-                  url: augment-flurry-stratum/
-                - title: Permafrost Compressor
-                  url: augment-permafrost-compressor/
                 - title: Pyroclastic Injection
                   url: augment-pyroclastic-injection/
                 - title: Granitic Subduction

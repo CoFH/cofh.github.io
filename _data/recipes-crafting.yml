@@ -620,40 +620,6 @@ recipes:
       result:
         item: [augment-machine-brewer-reagent]
         amount: 1
-  augment-machine-precipitator-snow-layer:
-    results:
-      - item: augment-machine-precipitator-snow-layer
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: snow-layer
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [snow-layer], item: [redstone]]
-      result:
-        item: [augment-machine-precipitator-snow-layer]
-        amount: 1
-  augment-machine-precipitator-packed-ice:
-    results:
-      - item: augment-machine-precipitator-packed-ice
-    ingredients:
-      - item: redstone-servo
-      - item: plate-invar
-      - item: gear-copper
-      - item: packed-ice
-      - item: redstone
-    data:
-      rows:
-        - [null, item: [gear-copper]]
-        - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [redstone], item: [packed-ice], item: [redstone]]
-      result:
-        item: [augment-machine-precipitator-packed-ice]
-        amount: 1
   augment-machine-extruder-no-water:
     results:
       - item: augment-machine-extruder-no-water

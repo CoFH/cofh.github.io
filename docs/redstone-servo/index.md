@@ -31,8 +31,6 @@ usage-recipes:
     - augment-machine-insolator-tree
     - augment-machine-compactor-mint
     - augment-machine-brewer-reagent
-    - augment-machine-precipitator-snow-layer
-    - augment-machine-precipitator-packed-ice
     - augment-machine-extruder-no-water
     - augment-machine-extruder-granite
     - augment-machine-extruder-diorite

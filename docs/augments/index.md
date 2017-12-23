@@ -26,8 +26,6 @@ augments:
     - machine-charger-throughput
     - machine-charger-repair
     - machine-brewer-reagent
-    - machine-precipitator-snow-layer
-    - machine-precipitator-packed-ice
     - machine-extruder-no-water
     - machine-extruder-granite
     - machine-extruder-diorite

@@ -4,13 +4,19 @@ nav: thermal-expansion
 redirect_from:
   - /thermal-expansion/machines/glacial-precipitator/
   - /docs/thermal-expansion/machines/glacial-precipitator/
+  - /docs/augment-flurry-stratum/
+  - /docs/augment-permafrost-compressor/
 recipes:
   crafting:
     - machine-precipitator
 augments:
   - machine-power
-  - machine-precipitator-snow-layer
-  - machine-precipitator-packed-ice
+recipe-list:
+  - snowball
+  - snow
+  - ice
+  - snow-layer
+  - packed-ice
 ---
 
 ![Glacial precipitator](/assets/images/thermal-expansion/glacial-precipitator.png){:style="height: 128px"}
@@ -19,10 +25,7 @@ augments:
 
 
 A **glacial precipitator**, or **precipitator** for short, is a
-[machine](/docs/machines/) that freezes
-[water](https://minecraft.gamepedia.com/Water) into
-[snow](https://minecraft.gamepedia.com/Snow),
-[ice](https://minecraft.gamepedia.com/Ice) and similar items.
+[machine](/docs/machines/) that freezes fluids into items.
 
 
 Obtaining
@@ -52,24 +55,15 @@ four cardinal directions, and can be rotated using a [crescent
 hammer](/docs/crescent-hammer/) or similar.
 
 ### Processing
-A glacial precipitator can be configured to produce
-[snowballs](https://minecraft.gamepedia.com/Snowball),
-[snow](https://minecraft.gamepedia.com/Snow) or
-[ice](https://minecraft.gamepedia.com/Ice). When its input tank is filled with
-[water](https://minecraft.gamepedia.com/Water), the machine will start consuming
-[Redstone Flux](/docs/redstone-flux/) to produce the chosen item. Every produced
-item requires a certain amount of energy and water. When enough energy has been
-consumed for an item, the required amount of water is consumed and the output is
+A glacial precipitator can be configured to freeze a certain fluid into a
+certain item following one of its available [recipes](#recipes).
+
+When a glacial precipitator's input tank is filled with the fluid corresponding
+to the configured recipe, the machine will start consuming [Redstone
+Flux](/docs/redstone-flux/) to produce the recipe's output item. Every produced
+item requires a certain amount of energy and fluid. When enough energy has been
+consumed for an item, the required amount of fluid is consumed and the output is
 placed in the output slot.
-
-The amount of water and energy required depends on the chosen output:
-
-| Output | Water | Energy |
-|---
-| Snowball x4 | 500 mB | 800 RF |
-| Snow | 500 mB | 800 RF |
-| Ice | 1,000 mB | 1,600 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 The speed at which a glacial precipitator produces items depends on how much
 energy it can use per tick. This in turn depends on how much power is being
@@ -153,3 +147,9 @@ be augmented.
 Augments can be installed in the Augmentation tab in a precipitator's GUI.
 
 {% include augment-table.html augments=page.augments %}
+
+
+Recipes
+-------
+
+{% include recipe-table.html type='precipitator' recipes=page.recipe-list %}

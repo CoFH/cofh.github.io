@@ -175,22 +175,6 @@ machine-brewer-reagent:
     href="https://minecraft.gamepedia.com/Brewing">brewing</a> ingredients).
     However, also increases the amount of energy required per operation. Can be
     installed multiple times.
-machine-precipitator-snow-layer:
-  name: Flurry Stratum
-  url: augment-flurry-stratum/
-  installed-in: '<a href="/docs/glacial-precipitator/">Glacial Precipitator</a>'
-  description: >
-    A specialization that allows for a glacial precipitator to produce two <a
-    href="https://minecraft.gamepedia.com/Snow_(layer)">snow layers</a> instead
-    of one <a href="https://minecraft.gamepedia.com/Snow">snow block</a>.
-machine-precipitator-packed-ice:
-  name: Permafrost Compressor
-  url: augment-permafrost-compressor/
-  installed-in: '<a href="/docs/glacial-precipitator/">Glacial Precipitator</a>'
-  description: >
-    A specialization that allows for a glacial precipitator to produce <a
-    href="https://minecraft.gamepedia.com/Packed_Ice">packed ice</a> instead of
-    <a href="https://minecraft.gamepedia.com/Ice">ice</a>.
 machine-extruder-no-water:
   name: Pyroclastic Injection
   url: augment-pyroclastic-injection/
