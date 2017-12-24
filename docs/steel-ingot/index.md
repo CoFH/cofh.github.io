@@ -56,6 +56,8 @@ usage-recipes:
     - plate-steel-from-ingot
   compactor-mint:
     - coin-steel-from-ingot
+  compactor-gear:
+    - gear-steel-from-ingot
 ---
 
 ![Steel ingot](/assets/images/thermal-foundation/ingot-steel.png){:style="height: 128px"}
@@ -90,3 +92,6 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

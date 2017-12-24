@@ -1,0 +1,551 @@
+name: Gearworking Die
+site: cofh
+url: augment-gearworking-die/
+with-energy: true
+recipes:
+  gear-from-ingot:
+    results:
+      - item-group: gear-metal
+    ingredients:
+      - item-group: ingot-metal
+    energy: 4000
+    data:
+      input:
+        item-group: ingot-metal
+        amount: 4
+      output:
+        item-group: gear-metal
+  gear-from-block:
+    results:
+      - item-group: gear-metal
+        suffix: x9
+    ingredients:
+      - item-group: storage-block-metal
+    energy: 32000
+    data:
+      input:
+        item-group: storage-block-metal
+        amount: 4
+      output:
+        item-group: gear-metal
+        amount: 9
+  gear-aluminum-from-ingot:
+    results:
+      - item: gear-aluminum
+    ingredients:
+      - item: ingot-aluminum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-aluminum]
+        amount: 4
+      output:
+        item: [gear-aluminum]
+  gear-aluminum-from-block:
+    results:
+      - item: gear-aluminum
+        suffix: x9
+    ingredients:
+      - item: storage-block-aluminum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-aluminum]
+        amount: 4
+      output:
+        item: [gear-aluminum]
+        amount: 9
+  gear-bronze-from-ingot:
+    results:
+      - item: gear-bronze
+    ingredients:
+      - item: ingot-bronze
+    energy: 4000
+    data:
+      input:
+        item: [ingot-bronze]
+        amount: 4
+      output:
+        item: [gear-bronze]
+  gear-bronze-from-block:
+    results:
+      - item: gear-bronze
+        suffix: x9
+    ingredients:
+      - item: storage-block-bronze
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-bronze]
+        amount: 4
+      output:
+        item: [gear-bronze]
+        amount: 9
+  gear-constantan-from-ingot:
+    results:
+      - item: gear-constantan
+    ingredients:
+      - item: ingot-constantan
+    energy: 4000
+    data:
+      input:
+        item: [ingot-constantan]
+        amount: 4
+      output:
+        item: [gear-constantan]
+  gear-constantan-from-block:
+    results:
+      - item: gear-constantan
+        suffix: x9
+    ingredients:
+      - item: storage-block-constantan
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-constantan]
+        amount: 4
+      output:
+        item: [gear-constantan]
+        amount: 9
+  gear-copper-from-ingot:
+    results:
+      - item: gear-copper
+    ingredients:
+      - item: ingot-copper
+    energy: 4000
+    data:
+      input:
+        item: [ingot-copper]
+        amount: 4
+      output:
+        item: [gear-copper]
+  gear-copper-from-block:
+    results:
+      - item: gear-copper
+        suffix: x9
+    ingredients:
+      - item: storage-block-copper
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-copper]
+        amount: 4
+      output:
+        item: [gear-copper]
+        amount: 9
+  gear-electrum-from-ingot:
+    results:
+      - item: gear-electrum
+    ingredients:
+      - item: ingot-electrum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-electrum]
+        amount: 4
+      output:
+        item: [gear-electrum]
+  gear-electrum-from-block:
+    results:
+      - item: gear-electrum
+        suffix: x9
+    ingredients:
+      - item: storage-block-electrum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-electrum]
+        amount: 4
+      output:
+        item: [gear-electrum]
+        amount: 9
+  gear-enderium-from-ingot:
+    results:
+      - item: gear-enderium
+    ingredients:
+      - item: ingot-enderium
+    energy: 4000
+    data:
+      input:
+        item: [ingot-enderium]
+        amount: 4
+      output:
+        item: [gear-enderium]
+  gear-enderium-from-block:
+    results:
+      - item: gear-enderium
+        suffix: x9
+    ingredients:
+      - item: storage-block-enderium
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-enderium]
+        amount: 4
+      output:
+        item: [gear-enderium]
+        amount: 9
+  gear-fluxed-electrum-from-ingot:
+    results:
+      - item: gear-fluxed-electrum
+    ingredients:
+      - item: ingot-fluxed-electrum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-fluxed-electrum]
+        amount: 4
+      output:
+        item: [gear-fluxed-electrum]
+  gear-fluxed-electrum-from-block:
+    results:
+      - item: gear-fluxed-electrum
+        suffix: x9
+    ingredients:
+      - item: storage-block-fluxed-electrum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-fluxed-electrum]
+        amount: 4
+      output:
+        item: [gear-fluxed-electrum]
+        amount: 9
+  gear-gold-from-ingot:
+    results:
+      - item: gear-gold
+    ingredients:
+      - item: ingot-gold
+    energy: 4000
+    data:
+      input:
+        item: [ingot-gold]
+        amount: 4
+      output:
+        item: [gear-gold]
+  gear-gold-from-block:
+    results:
+      - item: gear-gold
+        suffix: x9
+    ingredients:
+      - item: storage-block-gold
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-gold]
+        amount: 4
+      output:
+        item: [gear-gold]
+        amount: 9
+  gear-invar-from-ingot:
+    results:
+      - item: gear-invar
+    ingredients:
+      - item: ingot-invar
+    energy: 4000
+    data:
+      input:
+        item: [ingot-invar]
+        amount: 4
+      output:
+        item: [gear-invar]
+  gear-invar-from-block:
+    results:
+      - item: gear-invar
+        suffix: x9
+    ingredients:
+      - item: storage-block-invar
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-invar]
+        amount: 4
+      output:
+        item: [gear-invar]
+        amount: 9
+  gear-iridium-from-ingot:
+    results:
+      - item: gear-iridium
+    ingredients:
+      - item: ingot-iridium
+    energy: 4000
+    data:
+      input:
+        item: [ingot-iridium]
+        amount: 4
+      output:
+        item: [gear-iridium]
+  gear-iridium-from-block:
+    results:
+      - item: gear-iridium
+        suffix: x9
+    ingredients:
+      - item: storage-block-iridium
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-iridium]
+        amount: 4
+      output:
+        item: [gear-iridium]
+        amount: 9
+  gear-iron-from-ingot:
+    results:
+      - item: gear-iron
+    ingredients:
+      - item: ingot-iron
+    energy: 4000
+    data:
+      input:
+        item: [ingot-iron]
+        amount: 4
+      output:
+        item: [gear-iron]
+  gear-iron-from-block:
+    results:
+      - item: gear-iron
+        suffix: x9
+    ingredients:
+      - item: storage-block-iron
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-iron]
+        amount: 4
+      output:
+        item: [gear-iron]
+        amount: 9
+  gear-lead-from-ingot:
+    results:
+      - item: gear-lead
+    ingredients:
+      - item: ingot-lead
+    energy: 4000
+    data:
+      input:
+        item: [ingot-lead]
+        amount: 4
+      output:
+        item: [gear-lead]
+  gear-lead-from-block:
+    results:
+      - item: gear-lead
+        suffix: x9
+    ingredients:
+      - item: storage-block-lead
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-lead]
+        amount: 4
+      output:
+        item: [gear-lead]
+        amount: 9
+  gear-lumium-from-ingot:
+    results:
+      - item: gear-lumium
+    ingredients:
+      - item: ingot-lumium
+    energy: 4000
+    data:
+      input:
+        item: [ingot-lumium]
+        amount: 4
+      output:
+        item: [gear-lumium]
+  gear-lumium-from-block:
+    results:
+      - item: gear-lumium
+        suffix: x9
+    ingredients:
+      - item: storage-block-lumium
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-lumium]
+        amount: 4
+      output:
+        item: [gear-lumium]
+        amount: 9
+  gear-mithril-from-ingot:
+    results:
+      - item: gear-mithril
+    ingredients:
+      - item: ingot-mithril
+    energy: 4000
+    data:
+      input:
+        item: [ingot-mithril]
+        amount: 4
+      output:
+        item: [gear-mithril]
+  gear-mithril-from-block:
+    results:
+      - item: gear-mithril
+        suffix: x9
+    ingredients:
+      - item: storage-block-mithril
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-mithril]
+        amount: 4
+      output:
+        item: [gear-mithril]
+        amount: 9
+  gear-nickel-from-ingot:
+    results:
+      - item: gear-nickel
+    ingredients:
+      - item: ingot-nickel
+    energy: 4000
+    data:
+      input:
+        item: [ingot-nickel]
+        amount: 4
+      output:
+        item: [gear-nickel]
+  gear-nickel-from-block:
+    results:
+      - item: gear-nickel
+        suffix: x9
+    ingredients:
+      - item: storage-block-nickel
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-nickel]
+        amount: 4
+      output:
+        item: [gear-nickel]
+        amount: 9
+  gear-platinum-from-ingot:
+    results:
+      - item: gear-platinum
+    ingredients:
+      - item: ingot-platinum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-platinum]
+        amount: 4
+      output:
+        item: [gear-platinum]
+  gear-platinum-from-block:
+    results:
+      - item: gear-platinum
+        suffix: x9
+    ingredients:
+      - item: storage-block-platinum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-platinum]
+        amount: 4
+      output:
+        item: [gear-platinum]
+        amount: 9
+  gear-signalum-from-ingot:
+    results:
+      - item: gear-signalum
+    ingredients:
+      - item: ingot-signalum
+    energy: 4000
+    data:
+      input:
+        item: [ingot-signalum]
+        amount: 4
+      output:
+        item: [gear-signalum]
+  gear-signalum-from-block:
+    results:
+      - item: gear-signalum
+        suffix: x9
+    ingredients:
+      - item: storage-block-signalum
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-signalum]
+        amount: 4
+      output:
+        item: [gear-signalum]
+        amount: 9
+  gear-silver-from-ingot:
+    results:
+      - item: gear-silver
+    ingredients:
+      - item: ingot-silver
+    energy: 4000
+    data:
+      input:
+        item: [ingot-silver]
+        amount: 4
+      output:
+        item: [gear-silver]
+  gear-silver-from-block:
+    results:
+      - item: gear-silver
+        suffix: x9
+    ingredients:
+      - item: storage-block-silver
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-silver]
+        amount: 4
+      output:
+        item: [gear-silver]
+        amount: 9
+  gear-steel-from-ingot:
+    results:
+      - item: gear-steel
+    ingredients:
+      - item: ingot-steel
+    energy: 4000
+    data:
+      input:
+        item: [ingot-steel]
+        amount: 4
+      output:
+        item: [gear-steel]
+  gear-steel-from-block:
+    results:
+      - item: gear-steel
+        suffix: x9
+    ingredients:
+      - item: storage-block-steel
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-steel]
+        amount: 4
+      output:
+        item: [gear-steel]
+        amount: 9
+  gear-tin-from-ingot:
+    results:
+      - item: gear-tin
+    ingredients:
+      - item: ingot-tin
+    energy: 4000
+    data:
+      input:
+        item: [ingot-tin]
+        amount: 4
+      output:
+        item: [gear-tin]
+  gear-tin-from-block:
+    results:
+      - item: gear-tin
+        suffix: x9
+    ingredients:
+      - item: storage-block-tin
+    energy: 32000
+    data:
+      input:
+        item: [storage-block-tin]
+        amount: 4
+      output:
+        item: [gear-tin]
+        amount: 9

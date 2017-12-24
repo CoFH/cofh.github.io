@@ -33,6 +33,8 @@ usage-recipes:
     - dust-fluxed-electrum
   compactor-plate:
     - plate-fluxed-electrum-from-ingot
+  compactor-gear:
+    - gear-fluxed-electrum-from-ingot
 ---
 
 **Fluxed electrum ingots** are raw materials made from
@@ -65,3 +67,6 @@ Usage
 
 ### Compactor ingredient
 {% include recipe-table.html type='compactor-plate' recipes=page.usage-recipes.compactor-plate %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

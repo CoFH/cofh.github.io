@@ -13,6 +13,8 @@ usage-recipes:
     - plate-platinum-from-block
   compactor-mint:
     - coin-platinum-from-block
+  compactor-gear:
+    - gear-platinum-from-block
 ---
 
 ![Platinum block](/assets/images/thermal-foundation/storage-block-platinum.png){:style="height: 128px"}
@@ -57,3 +59,6 @@ Platinum blocks can be used to build
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

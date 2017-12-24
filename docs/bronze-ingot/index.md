@@ -64,6 +64,8 @@ usage-recipes:
     - plate-bronze-from-ingot
   compactor-mint:
     - coin-bronze-from-ingot
+  compactor-gear:
+    - gear-bronze-from-ingot
 ---
 
 ![Bronze ingot](/assets/images/thermal-foundation/ingot-bronze.png){:style="height: 128px"}
@@ -104,3 +106,6 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

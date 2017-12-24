@@ -13,6 +13,8 @@ usage-recipes:
     - plate-aluminum-from-block
   compactor-mint:
     - coin-aluminum-from-block
+  compactor-gear:
+    - gear-aluminum-from-block
 ---
 
 ![Aluminum block](/assets/images/thermal-foundation/storage-block-aluminum.png){:style="height: 128px"}
@@ -54,3 +56,6 @@ Aluminum blocks can be used to build
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

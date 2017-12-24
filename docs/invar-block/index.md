@@ -13,6 +13,8 @@ usage-recipes:
     - plate-invar-from-block
   compactor-mint:
     - coin-invar-from-block
+  compactor-gear:
+    - gear-invar-from-block
 ---
 
 ![Invar block](/assets/images/thermal-foundation/storage-block-invar.png){:style="height: 128px"}
@@ -53,3 +55,6 @@ Invar blocks can be used to build
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

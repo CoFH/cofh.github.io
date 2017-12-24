@@ -9,6 +9,9 @@ redirect_from:
 recipes:
   crafting:
     - gear-fluxed-electrum
+  compactor-gear:
+    - gear-fluxed-electrum-from-ingot
+    - gear-fluxed-electrum-from-block
 usage-recipes:
   crafting:
     - flux-infused-battlewrench
@@ -23,6 +26,9 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage

@@ -6,6 +6,9 @@ redirect_from:
 recipes:
   crafting:
     - gear-copper
+  compactor-gear:
+    - gear-copper-from-ingot
+    - gear-copper-from-block
 usage-recipes:
   crafting:
     - machine-furnace
@@ -34,6 +37,9 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage

@@ -57,6 +57,8 @@ usage-recipes:
     - plate-constantan-from-ingot
   compactor-mint:
     - coin-constantan-from-ingot
+  compactor-gear:
+    - gear-constantan-from-ingot
 ---
 
 ![Constantan ingot](/assets/images/thermal-foundation/ingot-constantan.png){:style="height: 128px"}
@@ -98,6 +100,9 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

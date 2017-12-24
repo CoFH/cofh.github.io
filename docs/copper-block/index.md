@@ -15,6 +15,8 @@ usage-recipes:
     - plate-copper-from-block
   compactor-mint:
     - coin-copper-from-block
+  compactor-gear:
+    - gear-copper-from-block
 ---
 
 ![Copper block](/assets/images/thermal-foundation/storage-block-copper.png){:style="height: 128px"}
@@ -55,3 +57,6 @@ Copper blocks can be used to build
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

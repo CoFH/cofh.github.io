@@ -6,6 +6,9 @@ redirect_from:
 recipes:
   crafting:
     - gear-mithril
+  compactor-gear:
+    - gear-mithril-from-ingot
+    - gear-mithril-from-block
 ---
 
 ![Mana infused gear](/assets/images/thermal-foundation/gear-mithril.png){:style="height: 128px"}
@@ -20,3 +23,6 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
