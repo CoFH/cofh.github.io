@@ -190,9 +190,8 @@ dynamo-power:
   url: augment-auxiliary-transmission-coil/
   installed-in: 'Any <a href="/docs/dynamos/">dynamo</a>'
   description: >
-    Increases a dynamo's maximum power output (speed). However, also decreases
-    the amount of energy generated from each unit of fuel. Can be installed
-    multiple times.
+    Increases a dynamo's maximum power output (speed). Can be installed multiple
+    times.
 dynamo-efficiency:
   name: Fuel Catalyzer
   url: augment-fuel-catalyzer/
