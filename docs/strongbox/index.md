@@ -101,10 +101,3 @@ Strongboxes come in six [tiers](/docs/tiers/).
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
-
-
-Trivia
-------
-
-* Unlike [satchels](/docs/satchel/), strongboxes cannot be opened when held;
-  they must be placed first. However, strongboxes can store more items.

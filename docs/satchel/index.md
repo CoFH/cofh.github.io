@@ -27,7 +27,8 @@ recipes:
     - satchel-resonant
 ---
 
-A **satchel** is an item that stores other items.
+A **satchel** is an item that stores other items. It is able to automatically
+store picked up items.
 
 
 Obtaining
@@ -47,6 +48,34 @@ out, like with [chests](https://minecraft.gamepedia.com/Chest).
 Satchels cannot store certain items that can themselves store items, like other
 satchels or [strongboxes](/docs/strongbox/).
 
+### Item transfer
+When used on a block that stores items, a satchel transfers its stored items
+into the block.
+
+### Auto-collect
+A satchel is able to automatically store items picked up by its user. This is
+called auto-collect. Auto-collect can be enabled and disabled by pressing "Cycle
+Item Mode" (V by default).
+
+A satchel can be configured to only auto-collect items that match a given list
+of items. This can be done by using the satchel while sneaking. It has various
+options that determine how this list is used to match items.
+
+Blacklist/Whitelist
+: Treat the list of items as a blacklist (store all items except these) or as a
+whitelist (only store these items). The list is used as a blacklist by default.
+
+Ore Dictionary
+: Match items that are considered equivalent, like the various versions of
+copper and tin ingots added by different mods. This is ignored by default.
+
+Metadata
+: Match items by their exact metadata / damage value. This is ignored by
+default.
+
+NBT
+: Match items by their exact NBT data. This is ignored by default.
+
 ### Security
 A satchel can have a [signalum security lock](/docs/signalum-security-lock/)
 installed to restrict who can access it.
@@ -57,10 +86,10 @@ capacity.
 
 | Holding level | Capacity increase (slots) |
 |---
-| I | +9 |
-| II | +18 |
-| III | +27 |
-| IV | +36 |
+| I | + 9 |
+| II | + 18 |
+| III | + 27 |
+| IV | + 36 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 
@@ -71,21 +100,14 @@ Satchels come in six [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Capacity (slots) | Note |
+| Tier | Capacity (slots) | Auto-collect filter slots | Note |
 |---
-| Basic | 9 |
-| Hardened | 18 |
-| Reinforced | 27 |
-| Signalum | 36 |
-| Resonant | 45 |
-| Creative | 1 | Provides an unlimited amount of the item it stores. |
+| Basic | 9 | 3 |
+| Hardened | 18 | 6 |
+| Reinforced | 27 | 9 |
+| Signalum | 36 | 12 |
+| Resonant | 45 | 15 |
+| Creative | 1 | N/A | Provides an unlimited amount of the item it stores. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
-
-
-Trivia
-------
-
-* Unlike [strongboxes](/docs/strongbox/), satchels can be opened when held.
-  However, satchels can store fewer items.
