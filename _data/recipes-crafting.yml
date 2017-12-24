@@ -638,18 +638,18 @@ recipes:
       - item: augment-machine-charger-wireless
     ingredients:
       - item: redstone-coil-electrum
-      - item: plate-signalum
+      - item: plate-silver
       - item: gear-electrum
       - item-group: hardened-glass
-      - item: dust-cryotheum
+      - item: redstone
     data:
       rows:
         - [null, item: [gear-electrum]]
-        - [item: [plate-signalum], item: [redstone-coil-electrum], item: [plate-signalum]]
-        - - item: [dust-cryotheum]
+        - [item: [plate-silver], item: [redstone-coil-electrum], item: [plate-silver]]
+        - - item: [redstone]
           - random: true
             item-group: hardened-glass
-          - item: [dust-cryotheum]
+          - item: [redstone]
       result:
         item: [augment-machine-charger-wireless]
         amount: 1

@@ -21,7 +21,6 @@ usage-recipes:
     - upgrade-kit-signalum
     - flux-capacitor-signalum
     - reservoir-signalum
-    - augment-machine-charger-wireless
     - augment-machine-extruder-no-water
     - augment-dynamo-magmatic-coolant
     - augment-dynamo-compression-coolant

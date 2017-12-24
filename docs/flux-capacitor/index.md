@@ -61,6 +61,11 @@ default mode), the items they are currently wearing, or both at the same time.
 The current charging mode of a flux capacitor can be switched by pressing "Cycle
 Item Mode" (V by default) while holding it.
 
+### Wireless charging
+An [energetic infuser](/docs/energetic-infuser/) with [parabolic flux
+coupling](/docs/augment-parabolic-flux-coupling/) installed can wirelessly
+recharge flux capacitors of players within a radius of 32 blocks.
+
 ### Enchantments
 A flux capacitor can be enchanted with [Holding](/docs/holding/) to increase its
 capacity.

@@ -173,6 +173,15 @@ machine-charger-repair:
     A specialization that allows for an energetic infuser to repair damaged
     items using <a href="/docs/essence-of-knowledge/">essence of knowledge</a>.
     However, an energetic infuser will no longer charge items when installed.
+machine-charger-wireless:
+  name: Parabolic Flux Coupling
+  url: augment-parabolic-flux-coupling/
+  installed-in: '<a href="/docs/energetic-infuser/">Energetic Infuser</a>'
+  description: >
+    A specialization that allows for an energetic infuser to wirelessly recharge
+    <a href="/docs/flux-capacitor/">flux capacitors</a> of players within a
+    radius of 32 blocks. However, an energetic infuser will no longer charge or
+    process items directly when installed.
 machine-brewer-reagent:
   name: Reagent Recovery
   url: augment-reagent-recovery/

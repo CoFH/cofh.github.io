@@ -38,7 +38,7 @@ charging speed. The increased maximum power usage depends on the machine's
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Increased max. power usage |
+| Tier | Max. charging rate |
 |---
 | Basic | 2,000 RF/t |
 | Hardened | 8,000 RF/t |

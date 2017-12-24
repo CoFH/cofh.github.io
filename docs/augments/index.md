@@ -26,6 +26,7 @@ augments:
     - machine-refinery-potion
     - machine-charger-throughput
     - machine-charger-repair
+    - machine-charger-wireless
     - machine-brewer-reagent
     - machine-extruder-no-water
   dynamo:
