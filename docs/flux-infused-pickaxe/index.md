@@ -54,6 +54,9 @@ pickaxe](https://minecraft.gamepedia.com/Diamond_Pickaxe) can harvest. It is
 technically one harvest level more powerful than a diamond pickaxe, but there
 are no blocks that require such a powerful pickaxe to harvest in the base game.
 
+When empowered, a flux-infused pickaxe also serves as a
+[shovel](https://minecraft.gamepedia.com/Shovel).
+
 When a block is broken using an empowered flux-infused pickaxe, two adjacent
 blocks are also broken if possible. When mining horizontally, these are the
 blocks directly above and below broken blocks, and when mining vertically, these
