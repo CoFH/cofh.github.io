@@ -36,7 +36,7 @@ recipes:
 ---
 
 **Covers** are items that can be installed on ducts to hide them, making them
-look like solid blocks.
+look like blocks.
 
 
 Obtaining
@@ -55,3 +55,12 @@ it.
 
 Installed covers do not affect how ducts work in any way. When a duct goes
 through a cover, a hole is made in the cover.
+
+
+Trivia
+------
+
+* [Thermal Dynamics](/docs/thermal-dynamics/) uses a configurable blacklist of
+  blocks that players should not be able to make covers with. The command
+  `/td_blacklist_cover` can be useful when configuring this blacklist; it
+  returns the line to add to the list to disable a held cover.

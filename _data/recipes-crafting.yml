@@ -1769,7 +1769,7 @@ recipes:
       - html: '<a href="/docs/covers/">Cover</a>'
     ingredients:
       - item: structuralduct
-      - html: 'any solid block'
+      - html: 'any block'
     data:
       shapeless: true
       rows:
