@@ -14,6 +14,7 @@ augments:
   - dynamo-efficiency
   - dynamo-coil-duct
   - dynamo-throttle
+  - dynamo-enervation-enchant
 ---
 
 An **enervation dynamo** is a [dynamo](/docs/dynamos/) that extracts [Redstone

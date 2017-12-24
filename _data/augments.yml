@@ -287,6 +287,15 @@ dynamo-reactant-elemental:
     the dynamo can only generate energy from elemental reactions, like between
     <a href="/docs/blazing-pyrotheum">blazing pyrotheum</a> and <a
     href="/docs/cryotheum-dust/">cryotheum dust</a>.
+dynamo-enervation-enchant:
+  name: Disjunctive Extraction
+  url: augment-disjunctive-extraction/
+  installed-in: '<a href="/docs/enervation-dynamo/">Enervation Dynamo</a>'
+  description: >
+    A specialization that allows for an enervation dynamo to use <a
+    href="https://minecraft.gamepedia.com/Enchanting">enchanted</a> items as
+    fuel, and greatly increases its maximum power output. However, the dynamo
+    can only generate energy using enchanted items.
 dynamo-numismatic-gem:
   name: Lapidary Calibration
   url: augment-lapidary-calibration/
