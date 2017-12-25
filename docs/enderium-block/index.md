@@ -13,6 +13,8 @@ usage-recipes:
     - plate-enderium-from-block
   compactor-mint:
     - coin-enderium-from-block
+  compactor-gear:
+    - gear-enderium-from-block
 ---
 
 ![Enderium block](/assets/images/thermal-foundation/storage-block-enderium.png){:style="height: 128px"}
@@ -57,3 +59,6 @@ Enderium blocks can be used to build
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

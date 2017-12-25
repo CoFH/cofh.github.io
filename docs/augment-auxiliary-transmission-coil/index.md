@@ -33,22 +33,16 @@ effects.
 
 ### Effects
 Installed auxiliary transmission coils increase a [dynamo](/docs/dynamos/)'s
-maximum power output, thereby increasing its energy production speed. However,
-they also decrease the amount of energy generated from each unit of fuel.
+maximum power output, thereby increasing its energy production speed.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed amount | Max. power output multiplier | Energy decrease |
+| Installed amount | Max. power output multiplier |
 |---
-| 1 | × 2 | - 10% |
-| 2 | × 3 | - 20% |
-| 3 | × 4 | - 30% |
-| 4 | × 5 | - 40% |
+| 1 | × 2 |
+| 2 | × 3 |
+| 3 | × 4 |
+| 4 | × 5 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
-
-If auxiliary transmission coils are installed together with other augments that
-affect the amount of energy generated from each unit of fuel, their energy
-increase/decrease percentages are added together before being applied to the
-amount of energy.

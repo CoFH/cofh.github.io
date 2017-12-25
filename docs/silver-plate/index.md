@@ -11,6 +11,7 @@ usage-recipes:
   crafting:
     - augment-machine-furnace-food
     - augment-machine-charger-throughput
+    - augment-machine-charger-wireless
 ---
 
 ![Silver plate](/assets/images/thermal-foundation/plate-silver.png){:style="height: 128px"}

@@ -9,6 +9,7 @@ recipes:
 augments:
   - machine-power
   - machine-compactor-mint
+  - machine-compactor-gear
 recipe-list:
   press:
     - plate-from-ingot
@@ -148,8 +149,9 @@ Recipes
 A compactor can be in two modes, each with a different set of recipes: Storage
 and Press.
 
-If a [numismatic press](/docs/augment-numismatic-press/) is installed, the Mint
-mode is also available with the recipes added by the augment.
+If a [numismatic press](/docs/augment-numismatic-press/) or [gearworking
+die](/docs/augment-gearworking-die/) is installed, either the Mint or the Gear
+mode is also available with the recipes added by the installed specialization.
 
 ### Storage
 When in Storage mode, a compactor's recipes are based on storage

@@ -6,6 +6,9 @@ redirect_from:
 recipes:
   crafting:
     - gear-enderium
+  compactor-gear:
+    - gear-enderium-from-ingot
+    - gear-enderium-from-block
 ---
 
 ![Enderium gear](/assets/images/thermal-foundation/gear-enderium.png){:style="height: 128px"}
@@ -20,3 +23,6 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}

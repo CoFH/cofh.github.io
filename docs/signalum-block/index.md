@@ -13,6 +13,8 @@ usage-recipes:
     - plate-signalum-from-block
   compactor-mint:
     - coin-signalum-from-block
+  compactor-gear:
+    - gear-signalum-from-block
 ---
 
 ![Signalum block](/assets/images/thermal-foundation/storage-block-signalum.png){:style="height: 128px"}
@@ -60,3 +62,6 @@ Signalum blocks can be used to build
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

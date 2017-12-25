@@ -118,6 +118,11 @@ augment-machine-compactor-mint:
   sprite: [7, 29]
   site: cofh
   url: augment-numismatic-press/
+augment-machine-compactor-gear:
+  name: 'Augment: Gearworking Die'
+  sprite: [8, 29]
+  site: cofh
+  url: augment-gearworking-die/
 augment-machine-crucible-lava:
   name: 'Augment: Pyroconvective Loop'
   animated: true
@@ -143,41 +148,21 @@ augment-machine-charger-repair:
   sprite: [2, 61]
   site: cofh
   url: augment-flux-reconstruction/
+augment-machine-charger-wireless:
+  name: 'Augment: Parabolic Flux Coupling'
+  sprite: [9, 29]
+  site: cofh
+  url: augment-parabolic-flux-coupling/
 augment-machine-brewer-reagent:
   name: 'Augment: Reagent Recovery'
   sprite: [3, 61]
   site: cofh
   url: augment-reagent-recovery/
-augment-machine-precipitator-snow-layer:
-  name: 'Augment: Flurry Stratum'
-  sprite: [4, 30]
-  site: cofh
-  url: augment-flurry-stratum/
-augment-machine-precipitator-packed-ice:
-  name: 'Augment: Permafrost Compressor'
-  sprite: [3, 30]
-  site: cofh
-  url: augment-permafrost-compressor/
 augment-machine-extruder-no-water:
   name: 'Augment: Pyroclastic Injection'
   animated: true
   site: cofh
   url: augment-pyroclastic-injection/
-augment-machine-extruder-granite:
-  name: 'Augment: Granitic Subduction'
-  sprite: [10, 29]
-  site: cofh
-  url: augment-granitic-subduction/
-augment-machine-extruder-diorite:
-  name: 'Augment: Dioritic Subduction'
-  sprite: [9, 29]
-  site: cofh
-  url: augment-dioritic-subduction/
-augment-machine-extruder-andesite:
-  name: 'Augment: Andesitic Subduction'
-  sprite: [8, 29]
-  site: cofh
-  url: augment-andesitic-subduction/
 augment-dynamo-power:
   name: 'Augment: Auxiliary Transmission Coil'
   sprite: [2, 29]
@@ -228,6 +213,11 @@ augment-dynamo-reactant-elemental:
   sprite: [3, 29]
   site: cofh
   url: augment-elemental-catalyzer/
+augment-dynamo-enervation-enchant:
+  name: 'Augment: Disjunctive Extraction'
+  sprite: [10, 29]
+  site: cofh
+  url: augment-disjunctive-extraction/
 augment-dynamo-numismatic-gem:
   name: 'Augment: Lapidary Calibration'
   sprite: [1, 29]
@@ -3913,6 +3903,31 @@ redstone-torch:
   sprite: [9, 51]
   site: mc-wiki
   url: Redstone_Torch
+reservoir-basic:
+  name: Reservoir (Basic)
+  sprite: [4, 61]
+  site: cofh
+  url: reservoir/
+reservoir-hardened:
+  name: Reservoir (Hardened)
+  sprite: [5, 61]
+  site: cofh
+  url: reservoir/
+reservoir-reinforced:
+  name: Reservoir (Reinforced)
+  sprite: [6, 61]
+  site: cofh
+  url: reservoir/
+reservoir-signalum:
+  name: Reservoir (Signalum)
+  sprite: [7, 61]
+  site: cofh
+  url: reservoir/
+reservoir-resonant:
+  name: Reservoir (Resonant)
+  sprite: [8, 61]
+  site: cofh
+  url: reservoir/
 retriever-basic:
   name: Retriever
   sprite: [7, 9]
@@ -4534,7 +4549,7 @@ snow:
   site: mc-wiki
   url: Snow
 snow-layer:
-  name: Snow
+  name: Snow (layer)
   sprite: [9, 41]
   site: mc-wiki
   url: Snow_(layer)

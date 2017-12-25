@@ -54,14 +54,14 @@ rod](https://minecraft.gamepedia.com/Fishing_Rod). It can receive all the
 enchantments that a regular fishing rod can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
-flux-infused fishing rod consumes less [Redstone Flux](/docs/redstone-flux/) per
-use.
+flux-infused fishing rod has a chance to not consume [Redstone
+Flux](/docs/redstone-flux/) when used.
 
-| Unbreaking level | Energy usage multiplier |
+| Unbreaking level | No energy use chance |
 |---
-| I | × 0.8 |
-| II | × 0.6 |
-| III | × 0.4 |
+| I | 33% |
+| II | 50% |
+| III | 60% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 A flux-infused fishing rod can also be enchanted with [Holding](/docs/holding/)

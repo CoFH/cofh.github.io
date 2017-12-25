@@ -54,6 +54,9 @@ pickaxe](https://minecraft.gamepedia.com/Diamond_Pickaxe) can harvest. It is
 technically one harvest level more powerful than a diamond pickaxe, but there
 are no blocks that require such a powerful pickaxe to harvest in the base game.
 
+When empowered, a flux-infused pickaxe also serves as a
+[shovel](https://minecraft.gamepedia.com/Shovel).
+
 When a block is broken using an empowered flux-infused pickaxe, two adjacent
 blocks are also broken if possible. When mining horizontally, these are the
 blocks directly above and below broken blocks, and when mining vertically, these
@@ -73,14 +76,14 @@ pickaxe](https://minecraft.gamepedia.com/Golden_Pickaxe). It can receive all the
 enchantments that other pickaxes can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
-flux-infused pickaxe consumes less [Redstone Flux](/docs/redstone-flux/) per
-use.
+flux-infused pickaxe has a chance to not consume [Redstone
+Flux](/docs/redstone-flux/) when used.
 
-| Unbreaking level | Energy usage multiplier |
+| Unbreaking level | No energy use chance |
 |---
-| I | × 0.8 |
-| II | × 0.6 |
-| III | × 0.4 |
+| I | 33% |
+| II | 50% |
+| III | 60% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 A flux-infused pickaxe can also be enchanted with [Holding](/docs/holding/) to

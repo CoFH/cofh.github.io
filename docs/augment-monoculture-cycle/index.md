@@ -35,10 +35,12 @@ An installed monoculture cycle augment changes a [phytogenic
 insolator](/docs/phytogenic-insolator/) so that it does not consume
 non-fertilizer inputs (like plant seeds). This allows the machine to keep
 producing the same plant using only fertilizer and
-[water](https://minecraft.gamepedia.com/Water). However, the augment also
-increases the amount of energy required per operation by 50%, and decreases the
-secondary product chance of recipes by 100% (subtracted directly from the chance
-percentage).
+[water](https://minecraft.gamepedia.com/Water). The augment also provides a 10%
+chance for the machine to not consume a fertilizer item after an operation.
+
+However, the augment also increases the amount of energy required per operation
+by 50%, and decreases the secondary product chance of recipes by 100%
+(subtracted directly from the chance percentage).
 
 If a monoculture cycle augment is installed together with other augments that
 increase the amount of energy required per operation, their energy increase

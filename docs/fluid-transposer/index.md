@@ -194,20 +194,22 @@ Recipes
 -------
 
 ### Filling
-Items that hold fluids, notably
-[buckets](https://minecraft.gamepedia.com/Bucket), can be filled with 1,000 mB
-of fluid for 400 RF.
-
-[Glass bottles](https://minecraft.gamepedia.com/Glass_Bottle) can be filled with
-[fluid potions](/docs/potion-fluid/) (250 mB each) for 800 RF.
+* Items that hold fluids, notably
+  [buckets](https://minecraft.gamepedia.com/Bucket), can be filled with 1,000 mB
+  of fluid for 400 RF.
+* [Glass bottles](https://minecraft.gamepedia.com/Glass_Bottle) can be filled
+  with [fluid potions](/docs/potion-fluid/) (250 mB each) for 800 RF.
+* [Tipped arrows](https://minecraft.gamepedia.com/Tipped_arrows) can be made by
+  infusing [arrows](https://minecraft.gamepedia.com/Arrow) with 25 mB of a fluid
+  [lingering potion](https://minecraft.gamepedia.com/Lingering_Potion) for 400
+  RF.
 
 {% include recipe-table.html type='transposer-fill' recipes=page.recipe-list.fill %}
 
 ### Emptying
-1,000 mB of fluid can be drained from items like filled
-[buckets](https://minecraft.gamepedia.com/Bucket) for 400 RF.
-
-250 mB of a [fluid potion](/docs/potion-fluid/) can be drained from each
-[potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
+* 1,000 mB of fluid can be drained from items like filled
+  [buckets](https://minecraft.gamepedia.com/Bucket) for 400 RF.
+* 250 mB of a [fluid potion](/docs/potion-fluid/) can be drained from each
+  [potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
 
 {% include recipe-table.html type='transposer-empty' recipes=page.recipe-list.empty %}

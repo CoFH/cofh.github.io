@@ -15,6 +15,7 @@ usage-recipes:
     - pyrotheum-dust-metal-ore
     - upgrade-kit-resonant
     - flux-capacitor-resonant
+    - reservoir-resonant
     - augment-machine-furnace-ore
     - augment-machine-smelter-pyrotheum
     - augment-machine-crucible-lava

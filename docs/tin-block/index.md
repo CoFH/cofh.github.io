@@ -13,6 +13,8 @@ usage-recipes:
     - plate-tin-from-block
   compactor-mint:
     - coin-tin-from-block
+  compactor-gear:
+    - gear-tin-from-block
 ---
 
 ![Tin block](/assets/images/thermal-foundation/storage-block-tin.png){:style="height: 128px"}
@@ -52,3 +54,6 @@ pyramids.
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

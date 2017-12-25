@@ -38,13 +38,13 @@ charging speed. The increased maximum power usage depends on the machine's
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Increased max. power usage |
+| Tier | Max. charging rate |
 |---
-| Basic | 1,000 RF/t |
-| Hardened | 4,000 RF/t |
-| Reinforced | 9,000 RF/t |
-| Signalum | 16,000 RF/t |
-| Resonant / Creative | 25,000 RF/t |
+| Basic | 2,000 RF/t |
+| Hardened | 8,000 RF/t |
+| Reinforced | 18,000 RF/t |
+| Signalum | 32,000 RF/t |
+| Resonant / Creative | 50,000 RF/t |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

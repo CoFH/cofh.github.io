@@ -6,6 +6,9 @@ redirect_from:
 recipes:
   crafting:
     - gear-gold
+  compactor-gear:
+    - gear-gold-from-ingot
+    - gear-gold-from-block
 ---
 
 ![Gold gear](/assets/images/thermal-foundation/gear-gold.png){:style="height: 128px"}
@@ -21,3 +24,6 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}

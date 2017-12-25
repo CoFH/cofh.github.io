@@ -42,7 +42,9 @@ usage-recipes:
     - gear-tin
     - storage-block-tin
     - crescent-hammer
+    - frame-device
     - flux-capacitor-hardened
+    - reservoir-basic
     - cache-basic
     - strongbox-basic
     - satchel-basic-using-leather
@@ -76,6 +78,8 @@ usage-recipes:
     - plate-tin-from-ingot
   compactor-mint:
     - coin-tin-from-ingot
+  compactor-gear:
+    - gear-tin-from-ingot
 ---
 
 ![Tin ingot](/assets/images/thermal-foundation/ingot-tin.png){:style="height: 128px"}
@@ -114,6 +118,9 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

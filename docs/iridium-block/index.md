@@ -13,6 +13,8 @@ usage-recipes:
     - plate-iridium-from-block
   compactor-mint:
     - coin-iridium-from-block
+  compactor-gear:
+    - gear-iridium-from-block
 ---
 
 ![Iridium block](/assets/images/thermal-foundation/storage-block-iridium.png){:style="height: 128px"}
@@ -56,3 +58,6 @@ Iridium blocks can be used to build
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

@@ -1,0 +1,113 @@
+name: Igneous Extruder
+site: cofh
+url: igneous-extruder/
+with-energy: true
+recipes:
+  cobblestone:
+    results:
+      - item: cobblestone
+    ingredients:
+      - fluid: lava
+        fluid-amount: 0
+      - fluid: water
+        fluid-amount: 0
+    energy: 400
+    data:
+      hot-input:
+        fluid: lava
+        amount: 0
+      cold-input:
+        fluid: water
+        amount: 0
+      output:
+        item: [cobblestone]
+  stone:
+    results:
+      - item: stone
+    ingredients:
+      - fluid: lava
+        fluid-amount: 0
+      - fluid: water
+        fluid-amount: 1000
+    energy: 800
+    data:
+      hot-input:
+        fluid: lava
+        amount: 0
+      cold-input:
+        fluid: water
+        amount: 1000
+      output:
+        item: [stone]
+  obsidian:
+    results:
+      - item: obsidian
+    ingredients:
+      - fluid: lava
+        fluid-amount: 1000
+      - fluid: water
+        fluid-amount: 1000
+    energy: 1600
+    data:
+      hot-input:
+        fluid: lava
+        amount: 1000
+      cold-input:
+        fluid: water
+        amount: 1000
+      output:
+        item: [obsidian]
+  granite:
+    results:
+      - item: granite
+    ingredients:
+      - fluid: lava
+        fluid-amount: 0
+      - fluid: water
+        fluid-amount: 1000
+    energy: 800
+    data:
+      hot-input:
+        fluid: lava
+        amount: 0
+      cold-input:
+        fluid: water
+        amount: 1000
+      output:
+        item: [granite]
+  diorite:
+    results:
+      - item: diorite
+    ingredients:
+      - fluid: lava
+        fluid-amount: 0
+      - fluid: water
+        fluid-amount: 1000
+    energy: 800
+    data:
+      hot-input:
+        fluid: lava
+        amount: 0
+      cold-input:
+        fluid: water
+        amount: 1000
+      output:
+        item: [diorite]
+  andesite:
+    results:
+      - item: andesite
+    ingredients:
+      - fluid: lava
+        fluid-amount: 0
+      - fluid: water
+        fluid-amount: 1000
+    energy: 800
+    data:
+      hot-input:
+        fluid: lava
+        amount: 0
+      cold-input:
+        fluid: water
+        amount: 1000
+      output:
+        item: [andesite]

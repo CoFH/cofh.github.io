@@ -66,6 +66,8 @@ usage-recipes:
     - plate-platinum-from-ingot
   compactor-mint:
     - coin-platinum-from-ingot
+  compactor-gear:
+    - gear-platinum-from-ingot
 ---
 
 ![Platinum ingot](/assets/images/thermal-foundation/ingot-platinum.png){:style="height: 128px"}
@@ -108,6 +110,9 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

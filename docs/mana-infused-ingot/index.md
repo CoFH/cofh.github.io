@@ -32,6 +32,8 @@ usage-recipes:
     - plate-mithril-from-ingot
   compactor-mint:
     - coin-mithril-from-ingot
+  compactor-gear:
+    - gear-mithril-from-ingot
 ---
 
 ![Mana infused ingot](/assets/images/thermal-foundation/ingot-mithril.png){:style="height: 128px"}
@@ -69,6 +71,9 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

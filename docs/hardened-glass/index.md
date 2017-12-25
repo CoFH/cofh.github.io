@@ -30,12 +30,14 @@ usage-recipes:
     - upgrade-kit-reinforced
     - machine-brewer
     - flux-capacitor-reinforced
+    - reservoir-reinforced
     - augment-machine-pulverizer-petrotheum
     - augment-machine-smelter-flux
     - augment-machine-smelter-pyrotheum
     - augment-machine-insolator-fertilizer
     - augment-machine-refinery-oil
     - augment-machine-charger-repair
+    - augment-machine-charger-wireless
     - augment-machine-brewer-reagent
     - augment-dynamo-boiler
     - augment-dynamo-magmatic-coolant
@@ -86,6 +88,10 @@ Usage
 ### Light source
 Some variants of hardened glass emit varying amounts of light depending on the
 type of metal, like [lumium](/docs/lumium-ingot/).
+
+### Wither proofing
+Hardened glass blocks cannot be broken by
+[withers](https://minecraft.gamepedia.com/Wither).
 
 ### Beacons
 Like [stained glass](https://minecraft.gamepedia.com/Stained_Glass), hardened

@@ -6,7 +6,7 @@ recipes:
   wood:
     results:
       - item-group: wood-log
-        suffix: x4
+        suffix: x6
       - item-group: sapling
     ingredients:
       - item-group: sapling
@@ -24,14 +24,14 @@ recipes:
         amount: 1200
       primary-output:
         item-group: wood-log
-        amount: 4
+        amount: 6
       secondary-output:
         item-group: sapling
       secondary-chance: 100
   wood-rich:
     results:
       - item-group: wood-log
-        suffix: x12
+        suffix: x18
       - item-group: sapling
     ingredients:
       - item-group: sapling
@@ -49,14 +49,14 @@ recipes:
         amount: 1500
       primary-output:
         item-group: wood-log
-        amount: 12
+        amount: 18
       secondary-output:
         item-group: sapling
       secondary-chance: 125
   wood-fluxed:
     results:
       - item-group: wood-log
-        suffix: x16
+        suffix: x24
       - item-group: sapling
     ingredients:
       - item-group: sapling
@@ -74,7 +74,7 @@ recipes:
         amount: 1800
       primary-output:
         item-group: wood-log
-        amount: 16
+        amount: 24
       secondary-output:
         item-group: sapling
       secondary-chance: 150

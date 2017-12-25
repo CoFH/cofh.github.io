@@ -6,6 +6,9 @@ redirect_from:
 recipes:
   crafting:
     - gear-invar
+  compactor-gear:
+    - gear-invar-from-ingot
+    - gear-invar-from-block
 usage-recipes:
   crafting:
     - machine-smelter
@@ -30,6 +33,9 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage

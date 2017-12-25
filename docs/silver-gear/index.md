@@ -6,6 +6,9 @@ redirect_from:
 recipes:
   crafting:
     - gear-silver
+  compactor-gear:
+    - gear-silver-from-ingot
+    - gear-silver-from-block
 usage-recipes:
   crafting:
     - upgrade-kit-reinforced
@@ -25,6 +28,9 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage

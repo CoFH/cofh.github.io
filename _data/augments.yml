@@ -124,6 +124,13 @@ machine-compactor-mint:
   description: >
     A specialization that allows for a compactor to produce metal coins. The
     machine must be toggled into Mint mode.
+machine-compactor-gear:
+  name: Gearworking Die
+  url: augment-gearworking-die/
+  installed-in: '<a href="/docs/compactor/">Compactor</a>'
+  description: >
+    A specialization that allows for a compactor to efficiently produce metal
+    gears. The machine must be toggled into Gear mode.
 machine-crucible-lava:
   name: Pyroconvective Loop
   url: augment-pyroconvective-loop/
@@ -166,6 +173,15 @@ machine-charger-repair:
     A specialization that allows for an energetic infuser to repair damaged
     items using <a href="/docs/essence-of-knowledge/">essence of knowledge</a>.
     However, an energetic infuser will no longer charge items when installed.
+machine-charger-wireless:
+  name: Parabolic Flux Coupling
+  url: augment-parabolic-flux-coupling/
+  installed-in: '<a href="/docs/energetic-infuser/">Energetic Infuser</a>'
+  description: >
+    A specialization that allows for an energetic infuser to wirelessly recharge
+    <a href="/docs/flux-capacitor/">flux capacitors</a> of players within a
+    radius of 32 blocks. However, an energetic infuser will no longer charge or
+    process items directly when installed.
 machine-brewer-reagent:
   name: Reagent Recovery
   url: augment-reagent-recovery/
@@ -175,63 +191,23 @@ machine-brewer-reagent:
     href="https://minecraft.gamepedia.com/Brewing">brewing</a> ingredients).
     However, also increases the amount of energy required per operation. Can be
     installed multiple times.
-machine-precipitator-snow-layer:
-  name: Flurry Stratum
-  url: augment-flurry-stratum/
-  installed-in: '<a href="/docs/glacial-precipitator/">Glacial Precipitator</a>'
-  description: >
-    A specialization that allows for a glacial precipitator to produce two <a
-    href="https://minecraft.gamepedia.com/Snow_(layer)">snow layers</a> instead
-    of one <a href="https://minecraft.gamepedia.com/Snow">snow block</a>.
-machine-precipitator-packed-ice:
-  name: Permafrost Compressor
-  url: augment-permafrost-compressor/
-  installed-in: '<a href="/docs/glacial-precipitator/">Glacial Precipitator</a>'
-  description: >
-    A specialization that allows for a glacial precipitator to produce <a
-    href="https://minecraft.gamepedia.com/Packed_Ice">packed ice</a> instead of
-    <a href="https://minecraft.gamepedia.com/Ice">ice</a>.
 machine-extruder-no-water:
   name: Pyroclastic Injection
   url: augment-pyroclastic-injection/
   animated: true
   installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
   description: >
-    Allows for an igneous extruder to work without consuming <a
-    href="https://minecraft.gamepedia.com/Water">water</a>, so only <a
-    href="https://minecraft.gamepedia.com/Lava">lava</a> is required.
-machine-extruder-granite:
-  name: Granitic Subduction
-  url: augment-granitic-subduction/
-  installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
-  description: >
-    A specialization that allows for an igneous extruder to produce <a
-    href="https://minecraft.gamepedia.com/Granite">granite</a> instead of <a
-    href="https://minecraft.gamepedia.com/Stone">stone</a>.
-machine-extruder-diorite:
-  name: Dioritic Subduction
-  url: augment-dioritic-subduction/
-  installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
-  description: >
-    A specialization that allows for an igneous extruder to produce <a
-    href="https://minecraft.gamepedia.com/Diorite">diorite</a> instead of <a
-    href="https://minecraft.gamepedia.com/Stone">stone</a>.
-machine-extruder-andesite:
-  name: Andesitic Subduction
-  url: augment-andesitic-subduction/
-  installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
-  description: >
-    A specialization that allows for an igneous extruder to produce <a
-    href="https://minecraft.gamepedia.com/Andesite">andesite</a> instead of <a
-    href="https://minecraft.gamepedia.com/Stone">stone</a>.
+    A specialization that allows for an igneous extruder to work without cold
+    fluids (<a href="https://minecraft.gamepedia.com/Water">water</a>), so that
+    only hot fluids (<a href="https://minecraft.gamepedia.com/Lava">lava</a>)
+    are required.
 dynamo-power:
   name: Auxiliary Transmission Coil
   url: augment-auxiliary-transmission-coil/
   installed-in: 'Any <a href="/docs/dynamos/">dynamo</a>'
   description: >
-    Increases a dynamo's maximum power output (speed). However, also decreases
-    the amount of energy generated from each unit of fuel. Can be installed
-    multiple times.
+    Increases a dynamo's maximum power output (speed). Can be installed multiple
+    times.
 dynamo-efficiency:
   name: Fuel Catalyzer
   url: augment-fuel-catalyzer/
@@ -311,6 +287,15 @@ dynamo-reactant-elemental:
     the dynamo can only generate energy from elemental reactions, like between
     <a href="/docs/blazing-pyrotheum">blazing pyrotheum</a> and <a
     href="/docs/cryotheum-dust/">cryotheum dust</a>.
+dynamo-enervation-enchant:
+  name: Disjunctive Extraction
+  url: augment-disjunctive-extraction/
+  installed-in: '<a href="/docs/enervation-dynamo/">Enervation Dynamo</a>'
+  description: >
+    A specialization that allows for an enervation dynamo to use <a
+    href="https://minecraft.gamepedia.com/Enchanting">enchanted</a> items as
+    fuel, and greatly increases its maximum power output. However, the dynamo
+    can only generate energy using enchanted items.
 dynamo-numismatic-gem:
   name: Lapidary Calibration
   url: augment-lapidary-calibration/

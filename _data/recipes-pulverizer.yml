@@ -434,7 +434,7 @@ recipes:
         item: [lilac]
       primary-output:
         item: [magenta-dye]
-        amount: 8
+        amount: 4
   flower-processing-orange-tulip:
     results:
       - item: orange-dye
@@ -458,7 +458,7 @@ recipes:
         item: [peony]
       primary-output:
         item: [pink-dye]
-        amount: 8
+        amount: 4
   flower-processing-pink-tulip:
     results:
       - item: pink-dye
@@ -494,7 +494,7 @@ recipes:
         item: [rose-bush]
       primary-output:
         item: [rose-red]
-        amount: 8
+        amount: 4
   flower-processing-red-tulip:
     results:
       - item: rose-red
@@ -530,7 +530,7 @@ recipes:
         item: [sunflower]
       primary-output:
         item: [dandelion-yellow]
-        amount: 8
+        amount: 4
   fluid-ore-processing-ender:
     results:
       - item: clathrate-ender
@@ -1207,7 +1207,7 @@ recipes:
         item: [horse-armor-diamond]
       primary-output:
         item: [diamond]
-        amount: 8
+        amount: 4
   recycling-leggings-diamond:
     results:
       - item: diamond

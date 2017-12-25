@@ -21,6 +21,7 @@ usage-recipes:
     - device-xp-collector
     - device-diffuser
     - portable-tank-basic
+    - reservoir-basic
     - cache-basic
     - augment-machine-secondary
     - augment-machine-furnace-pyrolysis
@@ -30,13 +31,9 @@ usage-recipes:
     - augment-machine-insolator-fertilizer
     - augment-machine-insolator-tree
     - augment-machine-compactor-mint
+    - augment-machine-compactor-gear
     - augment-machine-brewer-reagent
-    - augment-machine-precipitator-snow-layer
-    - augment-machine-precipitator-packed-ice
     - augment-machine-extruder-no-water
-    - augment-machine-extruder-granite
-    - augment-machine-extruder-diorite
-    - augment-machine-extruder-andesite
 ---
 
 ![Redstone servo](/assets/images/thermal-foundation/redstone-servo.png){:style="height: 128px"}

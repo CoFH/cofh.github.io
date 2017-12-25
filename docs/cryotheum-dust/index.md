@@ -20,6 +20,7 @@ usage-recipes:
     - ender-pearl-from-clathrate
     - upgrade-kit-signalum
     - flux-capacitor-signalum
+    - reservoir-signalum
     - augment-machine-extruder-no-water
     - augment-dynamo-magmatic-coolant
     - augment-dynamo-compression-coolant

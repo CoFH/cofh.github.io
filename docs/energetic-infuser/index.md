@@ -11,6 +11,7 @@ augments:
   - machine-power
   - machine-charger-throughput
   - machine-charger-repair
+  - machine-charger-wireless
 recipe-list:
   - phyto-gro-fluxed
   - aqua-chow-fluxed

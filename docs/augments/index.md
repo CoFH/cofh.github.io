@@ -20,18 +20,15 @@ augments:
     - machine-insolator-tree
     - machine-insolator-monoculture
     - machine-compactor-mint
+    - machine-compactor-gear
     - machine-crucible-lava
     - machine-refinery-oil
     - machine-refinery-potion
     - machine-charger-throughput
     - machine-charger-repair
+    - machine-charger-wireless
     - machine-brewer-reagent
-    - machine-precipitator-snow-layer
-    - machine-precipitator-packed-ice
     - machine-extruder-no-water
-    - machine-extruder-granite
-    - machine-extruder-diorite
-    - machine-extruder-andesite
   dynamo:
     - dynamo-power
     - dynamo-efficiency
@@ -43,6 +40,7 @@ augments:
     - dynamo-compression-coolant
     - dynamo-compression-fuel
     - dynamo-reactant-elemental
+    - dynamo-enervation-enchant
     - dynamo-numismatic-gem
 ---
 

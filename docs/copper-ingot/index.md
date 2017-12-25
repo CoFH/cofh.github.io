@@ -47,6 +47,8 @@ usage-recipes:
     - device-fluid-buffer
     - flux-capacitor-basic
     - portable-tank-basic
+    - reservoir-basic
+    - reservoir-hardened
     - augment-dynamo-coil-duct
     - fluiduct-basic
     - fluiduct-basic-opaque
@@ -77,6 +79,8 @@ usage-recipes:
     - plate-copper-from-ingot
   compactor-mint:
     - coin-copper-from-ingot
+  compactor-gear:
+    - gear-copper-from-ingot
 ---
 
 ![Copper ingot](/assets/images/thermal-foundation/ingot-copper.png){:style="height: 128px"}
@@ -116,6 +120,9 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

@@ -4,15 +4,22 @@ nav: thermal-expansion
 redirect_from:
   - /thermal-expansion/machines/igneous-extruder/
   - /docs/thermal-expansion/machines/igneous-extruder/
+  - /docs/augment-granitic-subduction/
+  - /docs/augment-dioritic-subduction/
+  - /docs/augment-andesitic-subduction/
 recipes:
   crafting:
     - machine-extruder
 augments:
   - machine-power
   - machine-extruder-no-water
-  - machine-extruder-granite
-  - machine-extruder-diorite
-  - machine-extruder-andesite
+recipe-list:
+  - cobblestone
+  - stone
+  - obsidian
+  - granite
+  - diorite
+  - andesite
 ---
 
 ![Igneous extruder](/assets/images/thermal-expansion/igneous-extruder.png){:style="height: 128px"}
@@ -21,12 +28,7 @@ augments:
 
 
 An **igneous extruder**, or **extruder** for short, is a
-[machine](/docs/machines/) that mixes
-[water](https://minecraft.gamepedia.com/Water) and
-[lava](https://minecraft.gamepedia.com/Lava) into
-[cobblestone](https://minecraft.gamepedia.com/Cobblestone),
-[stone](https://minecraft.gamepedia.com/Stone) and
-[obsidian](https://minecraft.gamepedia.com/Obsidian).
+[machine](/docs/machines/) that mixes hot and cold fluids to create items.
 
 
 Obtaining
@@ -56,25 +58,15 @@ cardinal directions, and can be rotated using a [crescent
 hammer](/docs/crescent-hammer/) or similar.
 
 ### Processing
-An igneous extruder can be configured to produce
-[cobblestone](https://minecraft.gamepedia.com/Cobblestone),
-[stone](https://minecraft.gamepedia.com/Stone) or
-[obsidian](https://minecraft.gamepedia.com/Obsidian). When its input tanks are
-filled with at least 1,000 mB of [water](https://minecraft.gamepedia.com/Water)
-and [lava](https://minecraft.gamepedia.com/Lava), the machine will start
-consuming [Redstone Flux](/docs/redstone-flux/) to produce the chosen item.
-Every produced item requires certain amounts of energy, water and lava. When
-enough energy has been consumed for an item, the required amounts of water and
-lava are consumed and the output is placed in the output slot.
+An igneous extruder can be configured to mix a certain pair of fluids into a
+certain item following one of its available [recipes](#recipes).
 
-The amounts of water, lava and energy required depend on the chosen output:
-
-| Output | Water | Lava | Energy |
-|---
-| Cobblestone | 0 mB | 0 mB | 400 RF |
-| Stone | 1,000 mB | 0 mB | 800 RF |
-| Obsidian | 1,000 mB | 1,000 mB | 1,600 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+When an igneous extruder's input tanks are filled with at least 1,000 mB of the
+fluids corresponding to the configured recipe, the machine will start consuming
+[Redstone Flux](/docs/redstone-flux/) to produce the recipe's output item. Every
+produced item requires certain amounts of energy and the two fluids. When enough
+energy has been consumed for an item, the input is consumed and the output is
+placed in the output slot.
 
 The speed at which an igneous extruder produces items depends on how much energy
 it can use per tick. This in turn depends on how much power is being supplied,
@@ -160,3 +152,12 @@ augmented.
 Augments can be installed in the Augmentation tab in an extruder's GUI.
 
 {% include augment-table.html augments=page.augments %}
+
+
+Recipes
+-------
+
+When a fluid's input amount is listed as 0 mB, it is not consumed; it only needs
+to be inside the corresponding input tank.
+
+{% include recipe-table.html type='extruder' recipes=page.recipe-list %}

@@ -6,6 +6,9 @@ redirect_from:
 recipes:
   crafting:
     - gear-nickel
+  compactor-gear:
+    - gear-nickel-from-ingot
+    - gear-nickel-from-block
 usage-recipes:
   crafting:
     - machine-refinery
@@ -23,6 +26,9 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage

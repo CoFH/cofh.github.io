@@ -6,19 +6,12 @@ redirect_from:
 recipes:
   crafting:
     - gear-tin
+  compactor-gear:
+    - gear-tin-from-ingot
+    - gear-tin-from-block
 usage-recipes:
   crafting:
     - frame-machine
-    - device-water-gen
-    - device-nullifier
-    - device-heat-sink
-    - device-tapper
-    - device-fisher
-    - device-item-buffer
-    - device-fluid-buffer
-    - device-lexicon
-    - device-xp-collector
-    - device-diffuser
     - dynamo-compression
     - augment-machine-sawmill-tapper
 ---
@@ -34,6 +27,9 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage

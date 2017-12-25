@@ -7,9 +7,23 @@ redirect_from:
 recipes:
   crafting:
     - gear-iron
+  compactor-gear:
+    - gear-iron-from-ingot
+    - gear-iron-from-block
 usage-recipes:
   crafting:
     - machine-sawmill
+    - device-water-gen
+    - device-nullifier
+    - device-heat-sink
+    - device-tapper
+    - device-fisher
+    - device-item-buffer
+    - device-fluid-buffer
+    - device-lexicon
+    - device-xp-collector
+    - device-diffuser
+    - augment-machine-compactor-gear
     - augment-machine-charger-repair
     - augment-dynamo-boiler
     - augment-dynamo-steam-turbine
@@ -27,6 +41,9 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Compactor with Gearworking Die
+{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage

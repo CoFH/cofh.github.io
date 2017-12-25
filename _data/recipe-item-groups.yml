@@ -342,6 +342,30 @@ food-cooked:
     - cooked-rabbit
     - cooked-fish
     - cooked-salmon
+gear-metal:
+  name: Metal Gear
+  prefix:
+    ingredient: 'any'
+  items:
+    - gear-iron
+    - gear-gold
+    - gear-copper
+    - gear-tin
+    - gear-silver
+    - gear-lead
+    - gear-aluminum
+    - gear-nickel
+    - gear-platinum
+    - gear-iridium
+    - gear-mithril
+    - gear-steel
+    - gear-electrum
+    - gear-invar
+    - gear-bronze
+    - gear-constantan
+    - gear-signalum
+    - gear-lumium
+    - gear-enderium
 glass-stained:
   name: Stained Glass
   site: mc-wiki

@@ -40,6 +40,8 @@ usage-recipes:
     - redstone-coil-electrum
     - upgrade-kit-reinforced
     - flux-capacitor-reinforced
+    - reservoir-reinforced
+    - reservoir-signalum
     - satchel-reinforced
     - augment-dynamo-throttle
     - fluxduct-reinforced-empty
@@ -78,6 +80,8 @@ usage-recipes:
     - plate-electrum-from-ingot
   compactor-mint:
     - coin-electrum-from-ingot
+  compactor-gear:
+    - gear-electrum-from-ingot
 ---
 
 ![Electrum ingot](/assets/images/thermal-foundation/ingot-electrum.png){:style="height: 128px"}
@@ -121,3 +125,6 @@ Usage
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+
+### Compactor with Gearworking Die ingredient
+{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

@@ -10,8 +10,8 @@ recipes:
 ---
 
 A **pyroclastic injection** [augment](/docs/augments/) allows for an [igneous
-extruder](/docs/igneous-extruder/) to work without consuming
-[water](https://minecraft.gamepedia.com/Water).
+extruder](/docs/igneous-extruder/) to work without cold fluids
+([water](https://minecraft.gamepedia.com/Water)).
 
 
 Obtaining
@@ -26,9 +26,11 @@ Usage
 
 ### Installation
 A pyroclastic injection augment can be installed in the Augmentation tab in an
-[igneous extruder](/docs/igneous-extruder/)'s GUI.
+[igneous extruder](/docs/igneous-extruder/)'s GUI. It is a specialization that
+cannot be installed together with other specialization augments.
 
 ### Effects
 An [igneous extruder](/docs/igneous-extruder/) with pyroclastic injection
-installed does not consume any [water](https://minecraft.gamepedia.com/Water);
-it only consumes [lava](https://minecraft.gamepedia.com/Lava).
+installed does not require cold fluids
+([water](https://minecraft.gamepedia.com/Water)) to work; it only requires hot
+fluids ([lava](https://minecraft.gamepedia.com/Lava)).

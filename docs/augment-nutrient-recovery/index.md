@@ -39,10 +39,10 @@ operation.
 <div class="uk-overflow-container">
 | Installed amount | Fertilizer reuse chance | Energy increase |
 |---
-| 1 | 15% | + 5% |
-| 2 | 30% | + 10% |
-| 3 | 45% | + 15% |
-| 4 | 60% | + 20% |
+| 1 | 20% | + 5% |
+| 2 | 40% | + 10% |
+| 3 | 60% | + 15% |
+| 4 | 80% | + 20% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

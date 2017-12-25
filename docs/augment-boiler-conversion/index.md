@@ -53,7 +53,7 @@ differs depending on the type of dynamo.
 |---
 | [Steam Dynamo](/docs/steam-dynamo/) | × 4 | + 15% |
 | [Magmatic Dynamo](/docs/magmatic-dynamo/) | × 2 | - 30% |
-| [Compression Dynamo](/docs/compression-dynamo/) | × 2 | - 30% |
+| [Compression Dynamo](/docs/compression-dynamo/) | × 2 | - 40% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
