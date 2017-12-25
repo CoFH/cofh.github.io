@@ -50,7 +50,7 @@ shovel](https://minecraft.gamepedia.com/Diamond_Shovel), and consumes 200 RF per
 use. When empowered, it is 1.5 times as fast as a diamond shovel, and consumes
 800 RF per use.
 
-When a block is broken using an empowered flux-infused shovel, up to 5 blocks in
+When a block is broken using an empowered flux-infused shovel, up to 4 blocks in
 a row behind the broken block are also broken if possible.
 
 ### Grass paths
@@ -58,14 +58,14 @@ Like a regular [shovel](https://minecraft.gamepedia.com/Shovel), a charged
 flux-infused shovel can be used to create [grass
 paths](https://minecraft.gamepedia.com/Grass_Path).
 
-When a grass path is created using an empowered flux-infused shovel, up to 5
+When a grass path is created using an empowered flux-infused shovel, up to 4
 more grass paths are created in a row behind the created path if possible.
 
 ### Tilling
 A charged flux-infused shovel can serve as a
 [hoe](https://minecraft.gamepedia.com/Hoe) by using it while sneaking.
 
-When a block is tilled using an empowered flux-infused shovel, up to 5 blocks in
+When a block is tilled using an empowered flux-infused shovel, up to 4 blocks in
 a row behind the tilled block are also tilled if possible.
 
 ### Weapon
@@ -82,13 +82,14 @@ shovel](https://minecraft.gamepedia.com/Golden_Shovel). It can receive all the
 enchantments that other shovels can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
-flux-infused shovel consumes less [Redstone Flux](/docs/redstone-flux/) per use.
+flux-infused shovel has a chance to not consume [Redstone
+Flux](/docs/redstone-flux/) when used.
 
-| Unbreaking level | Energy usage multiplier |
+| Unbreaking level | No energy use chance |
 |---
-| I | × 0.8 |
-| II | × 0.6 |
-| III | × 0.4 |
+| I | 33% |
+| II | 50% |
+| III | 60% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 A flux-infused shovel can also be enchanted with [Holding](/docs/holding/) to
