@@ -32,9 +32,9 @@ cannot be installed together with other specialization augments.
 ### Effects
 An installed disjunctive extraction augment allows for an [enervation
 dynamo](/docs/enervation-dynamo/) to use
-[enchanted](https://minecraft.gamepedia.com/Enchanting) items as fuel. It also
-quintuples the dynamo's maximum power output. However, the dynamo can only
-generate energy using enchanted items.
+[enchanted](https://minecraft.gamepedia.com/Enchanting) items as fuel. The items
+are consumed completely. The augment also quintuples the dynamo's maximum power
+output. However, the dynamo can only generate energy using enchanted items.
 
 The energy value of an enchanted item depends on the amount of different
 enchantments on the item, and on the [minimum modified enchantment
