@@ -12,12 +12,10 @@ recipes:
     - flux-infused-wrench
 ---
 
-The **Flux-Infused OmniWrench** is a wrench added by [Redstone
-Arsenal](/docs/redstone-arsenal/). It can do the same as the [Crescent
-Hammer](/docs/crescent-hammer/), but it also acts like
-[Shears](https://minecraft.gamepedia.com/Shears)
-
-This wrench can be empowered (Default button is "V")
+A **flux-infused omniwrench** is a [crescent
+hammer](/docs/crescent-hammer/)-like tool powered by [Redstone
+Flux](/docs/redstone-flux/). It also serves as
+[shears](https://minecraft.gamepedia.com/Shears).
 
 
 Obtaining
@@ -25,3 +23,57 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Charging
+A flux-infused omniwrench can hold up to 320,000 [RF](/docs/redstone-flux/). It
+can be charged using an [energetic infuser](/docs/energetic-infuser/) or
+similar, or by touching a [fluxed electrum block](/docs/fluxed-electrum-block/)
+or [flux crystal block](/docs/flux-crystal-block) while holding it. It can be
+charged at rates up to 4,000 RF/t.
+
+### Wrench
+Like a [crescent hammer](/docs/crescent-hammer/), a charged flux-infused
+omniwrench can be used to configure, rotate or dismantle blocks. It consumes 200
+RF per use.
+
+A flux-infused omniwrench can also be used on players and mobs to rotate them by
+90 degrees.
+
+### Shearing
+A charged flux-infused omniwrench can be used as
+[shears](https://minecraft.gamepedia.com/Shears). When shearing, it consumes 200
+RF per use.
+
+### Weapon
+When used as a weapon, a flux-infused omniwrench deals 2 damage. Players or mobs
+that are hit with a flux-infused omniwrench are also rotated by 90 degrees.
+
+### Enchantments
+A flux-infused omniwrench can receive all the enchantments that
+[shears](https://minecraft.gamepedia.com/Shears) can receive.
+
+When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+flux-infused omniwrench has a chance to not consume [Redstone
+Flux](/docs/redstone-flux/) when used.
+
+| Unbreaking level | No energy use chance |
+|---
+| I | 33% |
+| II | 50% |
+| III | 60% |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
+A flux-infused omniwrench can also be enchanted with [Holding](/docs/holding/) to
+increase its energy capacity.
+
+| Holding level | Capacity multiplier |
+|---
+| I | × 1.5 |
+| II | × 2 |
+| III | × 2.5 |
+| IV | × 3 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

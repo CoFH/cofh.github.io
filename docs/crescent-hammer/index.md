@@ -42,3 +42,6 @@ only works on blocks that support it.
 Most blocks in [Thermal Expansion](/docs/thermal-expansion/) and [Thermal
 Dynamics](/docs/thermal-dynamics/) can be dismantled, as well as [hardened
 glass](/docs/hardened-glass/).
+
+### Weapon
+When used as a weapon, a crescent hammer deals 2 damage.
