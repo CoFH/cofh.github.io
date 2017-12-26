@@ -60,8 +60,8 @@ Obtaining
 Usage
 -----
 
-When a plant-like block is broken with a sickle, any plant-like blocks
-surrounding it in a 7x7x1 area will be broken as well. This also works on
+When a plant-like block is broken with a sickle, up to 49 plant-like blocks in a
+7x7 area around it are broken as well. This also works on
 [cobwebs](https://minecraft.gamepedia.com/Cobweb). Sickles use 1 durability for
 every individual block broken.
 
