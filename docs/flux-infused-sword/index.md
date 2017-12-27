@@ -44,8 +44,9 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 ### Weapon
 An uncharged flux-infused sword has an attack speed of 1.6, and deals 2 damage.
 When charged, it deals 6 damage as well as 1 flux damage (a special type of
-damage that bypasses armor). When empowered, its attack speed is raised to 2 and
-its flux damage is raised to 10.
+damage that bypasses armor), and consumes 200 RF per use. When empowered, its
+attack speed is raised to 2, its flux damage is raised to 10, and it consumes
+800 RF per use.
 
 ### Enchantments
 A flux-infused sword has an
