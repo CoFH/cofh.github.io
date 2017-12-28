@@ -23,7 +23,7 @@ Index
 * [Thermal Cultivation](/docs/thermal-cultivation/) - <span class="uk-text-small uk-text-success">up to date (0.1.3)</span>
 
 ### Other mods
-* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-warning">WIP (→ 2.3.8)</span>
+* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (2.3.8)</span>
 
 
 Older versions
