@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <meta charset="utf-8" />
+
         {% capture title %}{% if page.title %}{{ page.title }} - {% endif %}Team CoFH{% endcapture %}
-        {% assign description = "" %}
+        {% assign description = "The official site for news, downloads and documentation for the Team CoFH Minecraft mods: Redstone Flux, CoFH Core, CoFH World, Thermal Series (Thermal Expansion, Thermal Foundation, Thermal Dynamics, Thermal Cultivation, Thermal Innovation), Redstone Arsenal" %}
 
         <title>{{ title }}</title>
 
-        <meta charset="utf-8" />
+        <meta name="description" content="{{ description }}" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <meta property="og:title" content="{{ title }}" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="{{ site.url }}/assets/images/logo_share.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-        <meta property="og:description" content="Team CoFH's official site for news, downloads and documentation!" />
+        <meta property="og:description" content="{{ description }}" />
+
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:site" content="@TeamCoFH" />
 
@@ -88,7 +92,7 @@
                 <hr />
 
                 <div class="uk-float-left">
-                    &copy; Copyright {{ site.time | date: '%Y' }} Team CoFH. Powered by <a href="https://pages.github.com">GitHub Pages</a>, <a href="http://jekyllrb.com">Jekyll</a>, <a href="http://getuikit.com">UIkit</a>.<br />
+                    &copy; Copyright 2015-{{ site.time | date: '%Y' }} Team CoFH. Powered by <a href="https://pages.github.com">GitHub Pages</a>, <a href="http://jekyllrb.com">Jekyll</a>, <a href="http://getuikit.com">UIkit</a>.<br />
                     Last updated: {{ site.time }}
                 </div>
 
