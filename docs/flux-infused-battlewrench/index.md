@@ -13,8 +13,7 @@ recipes:
 ---
 
 A **flux-infused battlewrench** is a powerful weapon powered by [Redstone
-Flux](/docs/redstone-flux/) that also serves as a [crescent
-hammer](/docs/crescent-hammer/)-like tool.
+Flux](/docs/redstone-flux/) that also serves as a [wrench](/docs/wrenches/).
 
 
 Obtaining
@@ -55,9 +54,8 @@ Players or mobs that are hit with a flux-infused battlewrench are rotated by 90
 degrees.
 
 ### Wrench
-Like a [crescent hammer](/docs/crescent-hammer/), a charged flux-infused
-battlewrench can be used to configure, rotate or dismantle blocks. It consumes
-200 RF per use, or 800 RF when empowered.
+A charged flux-infused battlewrench can be used as a [wrench](/docs/wrenches/).
+It consumes 200 RF per use, or 800 RF when empowered.
 
 ### Enchantments
 A flux-infused battlewrench has an

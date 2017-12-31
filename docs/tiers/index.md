@@ -54,4 +54,4 @@ blocks and items that store things will provide an infinite amount of what they
 store.
 
 Placed creative blocks cannot be broken in survival mode. They can, however, be
-dismantled with a [crescent hammer](/docs/crescent-hammer/).
+dismantled with a [wrench](/docs/wrenches/).

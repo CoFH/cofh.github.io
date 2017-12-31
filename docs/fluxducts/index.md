@@ -28,8 +28,8 @@ Obtaining
 
 Fluxducts come in six [tiers](#tiers), each with their own recipes.
 
-A placed fluxduct can be instantly picked up by dismantling it with a [crescent
-hammer](/docs/crescent-hammer/). It can also be mined using a
+A placed fluxduct can be instantly picked up by dismantling it with a
+[wrench](/docs/wrenches/). It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 
@@ -39,8 +39,8 @@ Usage
 ### Placement
 When placed, a fluxduct connects to any adjacent fluxducts and blocks that can
 transmit or receive [Redstone Flux](/docs/redstone-flux/). Any connected side of
-a fluxduct can be disconnected and reconnected by using a [crescent
-hammer](/docs/crescent-hammer/) or similar on it.
+a fluxduct can be disconnected and reconnected by using a
+[wrench](/docs/wrenches/) on it.
 
 ### Energy transfer
 When a block transmits [Redstone Flux](/docs/redstone-flux/) through a fluxduct,

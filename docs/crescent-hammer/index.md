@@ -15,8 +15,8 @@ recipes:
 > Any tool is a hammer if you really need one.
 
 
-A **crescent hammer** is a tool that can be used to configure, rotate or
-dismantle certain blocks.
+A **crescent hammer** is a type of [wrench](/docs/wrenches/) added by the
+Thermal Series.
 
 
 Obtaining
@@ -29,19 +29,7 @@ Obtaining
 Usage
 -----
 
-### Configuring and rotating
-When used on a block, a crescent hammer will attempt to either configure it, or
-rotate it 90 degrees. What 'configuring' a block means depends on the type of
-block.
-
-### Dismantling
-When used on a block while the user is sneaking, a crescent hammer will attempt
-to dismantle it. When dismantled, a block is instantly dropped as an item. This
-only works on blocks that support it.
-
-Most blocks in [Thermal Expansion](/docs/thermal-expansion/) and [Thermal
-Dynamics](/docs/thermal-dynamics/) can be dismantled, as well as [hardened
-glass](/docs/hardened-glass/).
+A crescent hammer serves as a [wrench](/docs/wrenches/#usage).
 
 ### Weapon
 When used as a weapon, a crescent hammer deals 2 damage.

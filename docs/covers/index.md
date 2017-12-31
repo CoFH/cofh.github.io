@@ -50,8 +50,7 @@ Usage
 -----
 
 A cover can be installed on any side of a duct by using it on the duct. It can
-be removed by using a [crescent hammer](/docs/crescent-hammer/) or similar on
-it.
+be removed by using a [wrench](/docs/wrenches/) on it.
 
 Installed covers do not affect how ducts work in any way. When a duct goes
 through a cover, a hole is made in the cover.

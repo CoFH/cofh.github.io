@@ -26,8 +26,8 @@ A **viaduct** is a block that transfers players between configured locations.
 Obtaining
 ---------
 
-A placed viaduct can be instantly picked up by dismantling it with a [crescent
-hammer](/docs/crescent-hammer/). It can also be mined using a
+A placed viaduct can be instantly picked up by dismantling it with a
+[wrench](/docs/wrenches/). It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -42,14 +42,14 @@ Usage
 
 ### Placement
 When placed, a viaduct connects to any adjacent viaducts. Any connected side of
-a viaduct can be disconnected and reconnected by using a [crescent
-hammer](/docs/crescent-hammer/) or similar on it.
+a viaduct can be disconnected and reconnected by using a
+[wrench](/docs/wrenches/) on it.
 
 ### Player transfer
-A side of a viaduct can be opened and closed by using a [crescent
-hammer](/docs/crescent-hammer/) or similar on it. Every opened side in a network
-of viaducts counts as both an entrance and a destination. Every destination can
-be given a name and an item icon.
+A side of a viaduct can be opened and closed by using a
+[wrench](/docs/wrenches/) on it. Every opened side in a network of viaducts
+counts as both an entrance and a destination. Every destination can be given a
+name and an item icon.
 
 When used by a player, a viaduct entrance allows them to pick a destination on
 the viaduct network. After choosing a destination, the player is transferred

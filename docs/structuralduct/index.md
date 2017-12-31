@@ -22,7 +22,7 @@ Obtaining
 ---------
 
 A placed structuralduct can be instantly picked up by dismantling it with a
-[crescent hammer](/docs/crescent-hammer/). It can also be mined using a
+[wrench](/docs/wrenches/). It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -35,7 +35,7 @@ Usage
 ### Placement
 When placed, a structuralduct connects to any adjacent ducts of the same width.
 Any connected side of a structuralduct can be disconnected and reconnected by
-using a [crescent hammer](/docs/crescent-hammer/) or similar on it.
+using a [wrench](/docs/wrenches/) on it.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

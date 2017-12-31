@@ -21,9 +21,9 @@ it receives.
 Obtaining
 ---------
 
-A placed nullifier can be instantly picked up by dismantling it with a [crescent
-hammer](/docs/crescent-hammer/). Its configuration is preserved in the item. It
-can also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+A placed nullifier can be instantly picked up by dismantling it with a
+[wrench](/docs/wrenches/). Its configuration is preserved in the item. It can
+also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -34,8 +34,7 @@ Usage
 
 ### Placement
 When placed, a nullifier faces the player. It can face any of the four cardinal
-directions, and can be rotated using a [crescent hammer](/docs/crescent-hammer/)
-or similar.
+directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 ### Operation
 When a nullifier receives items or fluids, they are instantly destroyed. Items

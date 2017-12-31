@@ -49,7 +49,7 @@ Usage
 ### Installation
 A servo can be installed on an [itemduct](/docs/itemduct/) or
 [fluiduct](/docs/fluiduct/) connection by using it on the connection. It can be
-removed by using a [crescent hammer](/docs/crescent-hammer/) or similar on it.
+removed by using a [wrench](/docs/wrenches/) on it.
 
 ### Configuration
 An installed servo can be configured by using it. The available options depend

@@ -29,10 +29,9 @@ Obtaining
 ---------
 
 A placed compression dynamo can be instantly picked up by dismantling it with a
-[crescent hammer](/docs/crescent-hammer/). Its configuration is preserved in the
-item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
-slower.
+[wrench](/docs/wrenches/). Its configuration is preserved in the item. It can
+also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+this can be much slower.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -48,7 +47,7 @@ Usage
 
 ### Placement
 When placed, a compression dynamo faces up. It can face any direction, and can
-be rotated using a [crescent hammer](/docs/crescent-hammer/) or similar.
+be rotated using a [wrench](/docs/wrenches/).
 
 ### Energy generation
 When a compression dynamo is filled with fluid [fuel](#fuels) and

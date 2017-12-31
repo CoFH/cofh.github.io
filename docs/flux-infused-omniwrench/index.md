@@ -12,9 +12,8 @@ recipes:
     - flux-infused-wrench
 ---
 
-A **flux-infused omniwrench** is a [crescent
-hammer](/docs/crescent-hammer/)-like tool powered by [Redstone
-Flux](/docs/redstone-flux/). It also serves as
+A **flux-infused omniwrench** is a [wrench](/docs/wrenches/) powered by
+[Redstone Flux](/docs/redstone-flux/). It also serves as
 [shears](https://minecraft.gamepedia.com/Shears).
 
 
@@ -36,9 +35,8 @@ or [flux crystal block](/docs/flux-crystal-block) while holding it. It can be
 charged at rates up to 4,000 RF/t.
 
 ### Wrench
-Like a [crescent hammer](/docs/crescent-hammer/), a charged flux-infused
-omniwrench can be used to configure, rotate or dismantle blocks. It consumes 200
-RF per use.
+A charged flux-infused omniwrench serves as a [wrench](/docs/wrenches/#usage).
+It consumes 200 RF per use.
 
 A flux-infused omniwrench can also be used on players and mobs to rotate them by
 90 degrees.

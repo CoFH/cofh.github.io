@@ -52,10 +52,9 @@ Obtaining
 ---------
 
 A placed centrifugal separator can be instantly picked up by dismantling it with
-a [crescent hammer](/docs/crescent-hammer/). Its configuration is preserved in
-the item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
-slower.
+a [wrench](/docs/wrenches/). Its configuration is preserved in the item. It can
+also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+this can be much slower.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -71,8 +70,7 @@ Usage
 
 ### Placement
 When placed, a centrifugal separator faces the player. It can face any of the
-four cardinal directions, and can be rotated using a [crescent
-hammer](/docs/crescent-hammer/) or similar.
+four cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 ### Processing
 A centrifugal separator has an input slot, four output slots and an output tank.

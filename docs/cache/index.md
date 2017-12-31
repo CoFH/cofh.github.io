@@ -29,9 +29,9 @@ A **cache** is a block that stores a large amount of a single item.
 Obtaining
 ---------
 
-A placed cache can be instantly picked up by dismantling it with a [crescent
-hammer](/docs/crescent-hammer/). Its stored items and configuration are
-preserved in the item.
+A placed cache can be instantly picked up by dismantling it with a
+[wrench](/docs/wrenches/). Its stored items and configuration are preserved in
+the item.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -47,8 +47,7 @@ Usage
 
 ### Placement
 When placed, a cache faces the player. It can face any of the four cardinal
-directions, and can be rotated using a [crescent hammer](/docs/crescent-hammer/)
-or similar.
+directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 The front of a cache displays the item it stores and roughly how full it is.
 

@@ -34,8 +34,8 @@ An **itemduct** is a block that transfers items between blocks.
 Obtaining
 ---------
 
-A placed itemduct can be instantly picked up by dismantling it with a [crescent
-hammer](/docs/crescent-hammer/). It can also be mined using a
+A placed itemduct can be instantly picked up by dismantling it with a
+[wrench](/docs/wrenches/). It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -48,8 +48,7 @@ Usage
 ### Placement
 When placed, an itemduct connects to any adjacent itemducts and blocks that can
 output or receive items. Any connected side of an itemduct can be disconnected
-and reconnected by using a [crescent hammer](/docs/crescent-hammer/) or similar
-on it.
+and reconnected by using a [wrench](/docs/wrenches/) on it.
 
 ### Item transfer
 When a block inserts items into an itemduct, the items are transported to the

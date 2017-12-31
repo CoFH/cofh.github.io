@@ -56,10 +56,9 @@ Obtaining
 ---------
 
 A placed magma crucible can be instantly picked up by dismantling it with a
-[crescent hammer](/docs/crescent-hammer/). Its configuration is preserved in the
-item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
-slower.
+[wrench](/docs/wrenches/). Its configuration is preserved in the item. It can
+also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+this can be much slower.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -75,8 +74,7 @@ Usage
 
 ### Placement
 When placed, a magma crucible faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [crescent
-hammer](/docs/crescent-hammer/) or similar.
+cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 ### Processing
 When items are placed in a magma crucible's input slot, the machine will start

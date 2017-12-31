@@ -32,9 +32,9 @@ stores more items.
 Obtaining
 ---------
 
-A placed strongbox can be instantly picked up by dismantling it with a [crescent
-hammer](/docs/crescent-hammer/). Its stored items and configuration are
-preserved in the item. It can also be mined using a
+A placed strongbox can be instantly picked up by dismantling it with a
+[wrench](/docs/wrenches/). Its stored items and configuration are preserved in
+the item. It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
 slower.
 
@@ -52,8 +52,7 @@ Usage
 
 ### Placement
 When placed, a strongbox faces the player. It can face any of the four cardinal
-directions, and can be rotated using a [crescent hammer](/docs/crescent-hammer/)
-or similar.
+directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 ### Manual usage
 A placed strongbox is functionally similar to a

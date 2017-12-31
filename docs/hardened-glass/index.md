@@ -74,8 +74,8 @@ for every type of metal that Thermal Foundation provides.
 Obtaining
 ---------
 
-Hardened glass can only be harvested by dismantling it with a [crescent
-hammer](/docs/crescent-hammer/) or by breaking it with a [Silk
+Hardened glass can only be harvested by dismantling it with a
+[wrench](/docs/wrenches/) or by breaking it with a [Silk
 Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
 ### Induction Smelter

@@ -32,8 +32,8 @@ Obtaining
 ---------
 
 A placed energy cell can be instantly picked up by dismantling it with a
-[crescent hammer](/docs/crescent-hammer/). Its stored energy and configuration
-are preserved in the item. It can also be mined using a
+[wrench](/docs/wrenches/). Its stored energy and configuration are preserved in
+the item. It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
 slower.
 
@@ -51,8 +51,7 @@ Usage
 
 ### Placement
 When placed, an energy cell faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [crescent
-hammer](/docs/crescent-hammer/) or similar.
+cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 The front of an energy cell displays roughly how full it is.
 

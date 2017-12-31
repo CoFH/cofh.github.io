@@ -29,8 +29,8 @@ Obtaining
 ---------
 
 A placed portable tank can be instantly picked up by dismantling it with a
-[crescent hammer](/docs/crescent-hammer/). Its stored fluid and configuration
-are preserved in the item. It can also be mined using a
+[wrench](/docs/wrenches/). Its stored fluid and configuration are preserved in
+the item. It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
 slower.
 
@@ -61,9 +61,8 @@ Fluids can enter and exit a portable tank through its sides.
 
 A placed portable tank can automatically transfer fluids out of the bottom. This
 is called auto-output. Auto-output can be enabled in the tank's GUI, or by using
-a [crescent hammer](/docs/crescent-hammer/) or similar. When a portable tank is
-placed on top of another portable tank, auto-output is enabled automatically for
-the upper tank.
+a [wrench](/docs/wrenches/). When a portable tank is placed on top of another
+portable tank, auto-output is enabled automatically for the upper tank.
 
 A placed portable tank can be locked to only accept the fluid it currently
 holds, even when it becomes empty. This can be toggled in the tank's GUI, or by

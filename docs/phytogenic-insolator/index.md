@@ -82,10 +82,9 @@ Obtaining
 ---------
 
 A placed phytogenic insolator can be instantly picked up by dismantling it with
-a [crescent hammer](/docs/crescent-hammer/). Its configuration is preserved in
-the item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
-slower.
+a [wrench](/docs/wrenches/). Its configuration is preserved in the item. It can
+also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+this can be much slower.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -101,8 +100,7 @@ Usage
 
 ### Placement
 When placed, a phytogenic insolator faces the player. It can face any of the
-four cardinal directions, and can be rotated using a [crescent
-hammer](/docs/crescent-hammer/) or similar.
+four cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 ### Processing
 A phytogenic insolator has two input slots and an input tank. When combinations
