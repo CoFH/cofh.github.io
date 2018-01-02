@@ -48,17 +48,14 @@ usage-recipes:
     - florb-magmatic-using-magma-cream
     - florb-magmatic-using-slime
     - florb-magmatic-using-rosin
+    - morb
 ---
 
 ![Sawdust](/assets/images/thermal-foundation/sawdust.png){:style="height: 128px"}
 
 
 **Sawdust** is a material commonly obtained as a byproduct from
-[sawmills](/docs/sawmill/). It can be used to craft
-[paper](https://minecraft.gamepedia.com/Paper), [Phyto-Gro](/docs/phyto-gro/),
-[Aqua-Chow](/docs/aqua-chow/) and [florbs](/docs/florb/). It can also be crafted
-into [compressed sawdust](/docs/compressed-sawdust/), which can then be
-processed into [charcoal](https://minecraft.gamepedia.com/Charcoal).
+[sawmills](/docs/sawmill/).
 
 
 Obtaining

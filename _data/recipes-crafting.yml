@@ -5830,6 +5830,48 @@ recipes:
       result:
         item: [machine-transposer]
         amount: 1
+  morb:
+    results:
+      - item: morb
+    ingredients:
+      - item: sawdust
+      - item: slag
+      - item: slimeball
+      - item: ender-pearl
+    data:
+      shapeless: true
+      rows:
+        - [item: [sawdust], item: [slag]]
+        - [item: [slimeball], item: [ender-pearl]]
+      result:
+        item: [morb]
+        amount: 8
+  morb-reusable:
+    results:
+      - item: morb-reusable
+    ingredients:
+      - item: morb
+      - item: nugget-signalum
+    data:
+      shapeless: true
+      rows:
+        - [item: [morb], item: [nugget-signalum]]
+        - [item: [nugget-signalum], item: [nugget-signalum]]
+      result:
+        item: [morb-reusable]
+  morb-stasis:
+    results:
+      - item: morb-stasis
+    ingredients:
+      - item: morb-reusable
+      - item: nugget-enderium
+    data:
+      shapeless: true
+      rows:
+        - [item: [morb-reusable], item: [nugget-enderium]]
+        - [item: [nugget-enderium], item: [nugget-enderium]]
+      result:
+        item: [morb-stasis]
   multimeter:
     results:
       - item: multimeter

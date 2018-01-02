@@ -58,6 +58,7 @@ usage-recipes:
     - florb-magmatic-using-magma-cream
     - florb-magmatic-using-slime
     - florb-magmatic-using-rosin
+    - morb
   smelting:
     - rockwool
 ---
@@ -66,10 +67,7 @@ usage-recipes:
 
 
 **Slag** is a material obtained as a byproduct from [induction
-smelters](/docs/induction-smelter/). It can be used to craft
-[clay](https://minecraft.gamepedia.com/Clay), [Phyto-Gro](/docs/phyto-gro/) and
-[florbs](/docs/florb/). It can also be processed into
-[rockwool](/docs/rockwool/).
+smelters](/docs/induction-smelter/).
 
 
 Obtaining

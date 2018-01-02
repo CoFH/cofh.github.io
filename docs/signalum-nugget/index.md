@@ -11,6 +11,7 @@ usage-recipes:
     - ingot-signalum-from-nuggets
     - signalum-security-lock
     - satchel-resonant
+    - morb-reusable
     - fluxduct-signalum-empty-one
     - fluxduct-signalum-one
     - fluiduct-energy-one

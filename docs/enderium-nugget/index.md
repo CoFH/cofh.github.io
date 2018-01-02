@@ -9,6 +9,7 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-enderium-from-nuggets
+    - morb-stasis
     - fluxduct-resonant-empty-one
     - fluxduct-resonant-one
   compactor-mint:

@@ -3143,6 +3143,21 @@ melon-slice:
   sprite: [7, 51]
   site: mc-wiki
   url: Melon
+morb:
+  name: Morb (Empty)
+  sprite: [14, 29]
+  site: cofh
+  url: morb/
+morb-reusable:
+  name: Reusable Morb (Empty)
+  sprite: [15, 29]
+  site: cofh
+  url: morb/
+morb-stasis:
+  name: Stasis Morb (Empty)
+  sprite: [0, 30]
+  site: cofh
+  url: morb/
 moss-stone:
   name: Moss Stone
   sprite: [14, 33]
