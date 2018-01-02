@@ -1,5 +1,6 @@
 ---
-title: Mod updates released
+title: December 24 updates
+redirect_from: /posts/2017/12/25/mod-updates-released/
 author: Tonius
 author_url: http://www.twitter.com/ToniusMods
 published: true
