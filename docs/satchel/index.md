@@ -12,6 +12,8 @@ image:
     file: thermal-expansion/satchel-signalum.png
   - alt: Satchel (Resonant)
     file: thermal-expansion/satchel-resonant.png
+  - alt: Satchel (Void)
+    file: thermal-expansion/satchel-void.gif
   - alt: Satchel (Creative)
     file: thermal-expansion/satchel-creative.png
 redirect_from:
@@ -25,6 +27,8 @@ recipes:
     - satchel-reinforced
     - satchel-signalum
     - satchel-resonant
+    - satchel-void-using-leather
+    - satchel-void-using-rockwool
 ---
 
 A **satchel** is an item that stores other items. It is able to automatically
@@ -93,20 +97,22 @@ capacity.
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 
-Tiers
+Types
 -----
 
-Satchels come in six [tiers](/docs/tiers/).
+There are seven different satchel types, most of which are
+[tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Capacity (slots) | Auto-collect filter slots | Note |
+| Type | Capacity (slots) | Auto-collect filter slots | Note |
 |---
 | Basic | 9 | 3 |
 | Hardened | 18 | 6 |
 | Reinforced | 27 | 9 |
 | Signalum | 36 | 12 |
 | Resonant | 45 | 15 |
+| Void | 1 | 15 | Destroys any items it receives. |
 | Creative | 1 | N/A | Provides an unlimited amount of the item it stores. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>

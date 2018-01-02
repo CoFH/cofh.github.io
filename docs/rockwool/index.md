@@ -14,6 +14,7 @@ recipes:
 usage-recipes:
   crafting:
     - satchel-basic-using-rockwool
+    - satchel-void-using-rockwool
     - augment-machine-secondary
 ---
 

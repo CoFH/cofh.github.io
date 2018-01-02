@@ -4143,6 +4143,11 @@ satchel-resonant:
   sprite: [10, 30]
   site: cofh
   url: satchel/
+satchel-void:
+  name: Satchel (Void)
+  animated: true
+  site: cofh
+  url: satchel/
 sawdust:
   name: Sawdust
   sprite: [11, 15]

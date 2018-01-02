@@ -7940,6 +7940,40 @@ recipes:
         amount: 1
     note: >
       Stored items are retained.
+  satchel-void-using-leather:
+    results:
+      - item: satchel-void
+    ingredients:
+      - item: bucket-lava
+      - item: cobblestone
+      - item: leather
+    data:
+      rows:
+        - [null, item: [leather]]
+        - [item: [cobblestone], item: [bucket-lava], item: [cobblestone]]
+        - [item: [leather], null, item: [leather]]
+      result:
+        item: [satchel-void]
+  satchel-void-using-rockwool:
+    results:
+      - item: satchel-void
+    ingredients:
+      - item: bucket-lava
+      - item: cobblestone
+      - item-group: rockwool
+    data:
+      rows:
+        - - null
+          - random: true
+            item-group: rockwool
+        - [item: [cobblestone], item: [bucket-lava], item: [cobblestone]]
+        - - random: true
+            item-group: rockwool
+          - null
+          - random: true
+            item-group: rockwool
+      result:
+        item: [satchel-void]
   sawdust-compressed:
     results:
       - item: sawdust-compressed
