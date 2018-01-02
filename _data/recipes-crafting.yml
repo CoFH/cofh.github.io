@@ -1311,6 +1311,19 @@ recipes:
       result:
         item: [cache-basic]
         amount: 1
+  charcoal-from-block:
+    results:
+      - item: charcoal
+    ingredients:
+      - item: storage-block-charcoal
+    data:
+      shapeless: true
+      rows:
+        - []
+        - [null, item: [storage-block-charcoal]]
+      result:
+        item: [charcoal]
+        amount: 9
   chestplate-aluminum:
     results:
       - item: chestplate-aluminum
@@ -1482,6 +1495,19 @@ recipes:
       result:
         item: [clay]
         amount: 4
+  coal-coke-from-block:
+    results:
+      - item: coal-coke
+    ingredients:
+      - item: storage-block-coal-coke
+    data:
+      shapeless: true
+      rows:
+        - []
+        - [null, item: [storage-block-coal-coke]]
+      result:
+        item: [coal-coke]
+        amount: 9
   conversion-kit-reinforced:
     results:
       - item: conversion-kit-reinforced
@@ -9058,6 +9084,30 @@ recipes:
       result:
         item: [storage-block-bronze]
         amount: 1
+  storage-block-charcoal:
+    results:
+      - item: storage-block-charcoal
+    ingredients:
+      - item: charcoal
+    data:
+      rows:
+        - [item: [charcoal], item: [charcoal], item: [charcoal]]
+        - [item: [charcoal], item: [charcoal], item: [charcoal]]
+        - [item: [charcoal], item: [charcoal], item: [charcoal]]
+      result:
+        item: [storage-block-charcoal]
+  storage-block-coal-coke:
+    results:
+      - item: storage-block-coal-coke
+    ingredients:
+      - item: coal-coke
+    data:
+      rows:
+        - [item: [coal-coke], item: [coal-coke], item: [coal-coke]]
+        - [item: [coal-coke], item: [coal-coke], item: [coal-coke]]
+        - [item: [coal-coke], item: [coal-coke], item: [coal-coke]]
+      result:
+        item: [storage-block-coal-coke]
   storage-block-constantan:
     results:
       - item: storage-block-constantan

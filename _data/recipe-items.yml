@@ -4613,6 +4613,16 @@ storage-block-bronze:
   sprite: [12, 6]
   site: cofh
   url: block-of-bronze/
+storage-block-charcoal:
+  name: Block of Charcoal
+  sprite: [9, 61]
+  site: cofh
+  url: block-of-charcoal/
+storage-block-coal-coke:
+  name: Block of Coal Coke
+  sprite: [10, 61]
+  site: cofh
+  url: block-of-coal-coke/
 storage-block-constantan:
   name: Block of Constantan
   sprite: [13, 6]

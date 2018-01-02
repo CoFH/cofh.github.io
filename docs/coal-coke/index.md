@@ -4,9 +4,13 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/other/coal-coke/
 recipes:
+  crafting:
+    - coal-coke-from-block
   redstone-furnace-pyrolysis:
     - coal-coke
 usage-recipes:
+  crafting:
+    - storage-block-coal-coke
   smelter:
     - ingot-steel-from-dust-iron-and-coal-coke
     - ingot-steel-from-ingot-iron-and-coal-coke
@@ -28,6 +32,9 @@ Obtaining
 ### Redstone Furnace with Pyrolytic Conversion
 {% include recipe-table.html type='redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
 
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
 
 Usage
 -----
@@ -36,6 +43,9 @@ Usage
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
 piece of coal coke lasts 160 seconds, which is enough to smelt up to 16 items.
 It lasts twice as long as regular [coal](https://minecraft.gamepedia.com/Coal).
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
