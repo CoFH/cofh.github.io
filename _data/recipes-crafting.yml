@@ -1481,7 +1481,7 @@ recipes:
         - [item: [dirt], item: [bucket-water]]
       result:
         item: [clay]
-        amount: 2
+        amount: 4
   conversion-kit-reinforced:
     results:
       - item: conversion-kit-reinforced

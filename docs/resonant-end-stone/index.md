@@ -35,9 +35,9 @@ pickaxe is used. The ore block itself can be obtained by mining it with a [Silk
 Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
 When resonant end stone is broken, some [resonant ender](/docs/resonant-ender/)
-comes flowing out. This fluid cannot be picked up and eventually disappears. Due
-to the teleporting effects of the fluid, players should be careful when mining
-resonant end stone.
+comes flowing out, which can be dangerous when mining it. This fluid cannot be
+picked up and eventually disappears. If a Silk Touch enchanted pickaxe is used,
+no fluid comes flowing out.
 
 
 Usage

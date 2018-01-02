@@ -30,9 +30,9 @@ Usage
 A tome of knowledge can hold up to 10,000 [experience
 points](https://minecraft.gamepedia.com/Experience).
 
-When used, a tome of knowledge takes as much experience as possible from the
-user and stores it. When used while sneaking, it returns as much stored
-experience as possible to the user.
+When used, a tome of knowledge takes one level worth of experience from the user
+and stores it. When used while sneaking, it returns one level worth of stored
+experience to the user.
 
 A tome of knowledge is able to automatically store any experience gained by its
 user. This can be enabled and disabled by pressing "Cycle Item Mode" (V by

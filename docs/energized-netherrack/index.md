@@ -38,7 +38,8 @@ Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
 When energized netherrack is broken, some [energized
 glowstone](/docs/energized-glowstone/) comes flowing out. This fluid cannot be
-picked up and eventually disappears.
+picked up and eventually disappears. If a Silk Touch enchanted pickaxe is used,
+no fluid comes flowing out.
 
 
 Usage

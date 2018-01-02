@@ -41,7 +41,8 @@ pickaxe.
 
 When destabilized redstone ore is broken, some [destabilized
 redstone](/docs/destabilized-redstone/) comes flowing out. This fluid cannot be
-picked up and eventually disappears.
+picked up and eventually disappears. If a Silk Touch enchanted pickaxe is used,
+no fluid comes flowing out.
 
 
 Usage

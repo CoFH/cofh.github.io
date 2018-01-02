@@ -39,14 +39,16 @@ Oil shale also more rarely occurs in much larger deposits underground (layers
 oil](/docs/crude-oil/).
 
 Oil shale must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. It drops one piece
-of [bitumen](/docs/bitumen/) when mined. More bitumen is dropped if a
-[Fortune](https://minecraft.gamepedia.com/Fortune) enchanted pickaxe is used.
-Oil shale itself can be obtained by mining it with a [Silk
-Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
+pickaxe](https://minecraft.gamepedia.com/Stone_Pickaxe) or
+[shovel](https://minecraft.gamepedia.com/Stone_Shovel) or better. It drops one
+piece of [bitumen](/docs/bitumen/) when mined. More bitumen is dropped if a
+[Fortune](https://minecraft.gamepedia.com/Fortune) enchanted tool is used. Oil
+shale itself can be obtained by mining it with a [Silk
+Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted tool.
 
 When oil shale is broken, some [crude oil](/docs/crude-oil/) comes flowing out.
-This oil cannot be picked up and eventually disappears.
+This oil cannot be picked up and eventually disappears. If a Silk Touch
+enchanted tool is used, no fluid comes flowing out.
 
 
 Usage
