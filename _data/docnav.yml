@@ -443,7 +443,7 @@ thermal-foundation:
                   url: fluxed-aqua-chow/
     - title: Blocks
       groups:
-        - title: Metal
+        - title: Storage
           items:
             - title: Copper
               url: copper-block/
@@ -479,7 +479,11 @@ thermal-foundation:
               url: lumium-block/
             - title: Enderium
               url: enderium-block/
-        - title: Decorative
+            - title: Charcoal
+              url: block-of-charcoal/
+            - title: Coal Coke
+              url: block-of-coal-coke/
+        - title: Other
           items:
             - title: Hardened Glass
               url: hardened-glass/
@@ -762,6 +766,8 @@ thermal-expansion:
               url: coolants/
             - title: Florb
               url: florb/
+            - title: Morb
+              url: morb/
 
 thermal-dynamics:
   title: Thermal Dynamics
@@ -830,6 +836,8 @@ thermal-dynamics:
               url: filters/
             - title: Retrievers
               url: retrievers/
+            - title: Redstone Relay
+              url: redstone-relay/
 
 thermal-cultivation:
   title: Thermal Cultivation
