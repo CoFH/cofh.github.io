@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 html {
     overflow-y: scroll;
 }
@@ -179,7 +183,7 @@ html {
 }
 
 .cofh-recipe-item-sheet-sprite {
-    background-image: url('/assets/images/recipe/item-sprites/sheet.png');
+    background-image: url('/assets/images/recipe/item-sprites/sheet.png?{{site.time | date: "%s"}}');
 }
 
 .cofh-recipe-floating-text {
