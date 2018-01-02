@@ -154,7 +154,9 @@ buckets](https://minecraft.gamepedia.com/Lava_Bucket).
 | [Coal](https://minecraft.gamepedia.com/Coal) | 24,000 RF |
 | [Block of Coal](https://minecraft.gamepedia.com/Block_of_Coal) | 240,000 RF |
 | [Charcoal](https://minecraft.gamepedia.com/Charcoal) | 16,000 RF |
+| [Block of Charcoal](/docs/block-of-charcoal/) | 160,000 RF |
 | [Coal Coke](/docs/coal-coke/) | 40,000 RF |
+| [Block of Coal Coke](/docs/block-of-coal-coke/) | 400,000 RF |
 | Any other [furnace](https://minecraft.gamepedia.com/Furnace) fuel* | (Burn time in ticks × 10) RF
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 

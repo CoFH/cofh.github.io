@@ -10,16 +10,14 @@ recipes:
     ingredients:
       - item-group: dust-metal
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item-group: dust-metal
-        amount: 2
       primary-output:
         item-group: ingot-metal
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -30,16 +28,14 @@ recipes:
     ingredients:
       - item: dust-aluminum
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-aluminum]
-        amount: 2
       primary-output:
         item: [ingot-aluminum]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -50,16 +46,14 @@ recipes:
     ingredients:
       - item: dust-bronze
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-bronze]
-        amount: 2
       primary-output:
         item: [ingot-bronze]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -70,16 +64,14 @@ recipes:
     ingredients:
       - item: dust-constantan
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-constantan]
-        amount: 2
       primary-output:
         item: [ingot-constantan]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -90,16 +82,14 @@ recipes:
     ingredients:
       - item: dust-copper
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-copper]
-        amount: 2
       primary-output:
         item: [ingot-copper]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -110,16 +100,14 @@ recipes:
     ingredients:
       - item: dust-electrum
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-electrum]
-        amount: 2
       primary-output:
         item: [ingot-electrum]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -130,16 +118,14 @@ recipes:
     ingredients:
       - item: dust-enderium
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-enderium]
-        amount: 2
       primary-output:
         item: [ingot-enderium]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -164,16 +150,14 @@ recipes:
     ingredients:
       - item: dust-gold
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-gold]
-        amount: 2
       primary-output:
         item: [ingot-gold]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -184,16 +168,14 @@ recipes:
     ingredients:
       - item: dust-invar
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-invar]
-        amount: 2
       primary-output:
         item: [ingot-invar]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -204,16 +186,14 @@ recipes:
     ingredients:
       - item: dust-iridium
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-iridium]
-        amount: 2
       primary-output:
         item: [ingot-iridium]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -224,16 +204,14 @@ recipes:
     ingredients:
       - item: dust-iron
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-iron]
-        amount: 2
       primary-output:
         item: [ingot-iron]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -244,16 +222,14 @@ recipes:
     ingredients:
       - item: dust-lead
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-lead]
-        amount: 2
       primary-output:
         item: [ingot-lead]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -264,16 +240,14 @@ recipes:
     ingredients:
       - item: dust-lumium
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-lumium]
-        amount: 2
       primary-output:
         item: [ingot-lumium]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -284,16 +258,14 @@ recipes:
     ingredients:
       - item: dust-mithril
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-mithril]
-        amount: 2
       primary-output:
         item: [ingot-mithril]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -304,16 +276,14 @@ recipes:
     ingredients:
       - item: dust-nickel
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-nickel]
-        amount: 2
       primary-output:
         item: [ingot-nickel]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -324,16 +294,14 @@ recipes:
     ingredients:
       - item: dust-platinum
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-platinum]
-        amount: 2
       primary-output:
         item: [ingot-platinum]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -344,16 +312,14 @@ recipes:
     ingredients:
       - item: dust-signalum
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-signalum]
-        amount: 2
       primary-output:
         item: [ingot-signalum]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -364,16 +330,14 @@ recipes:
     ingredients:
       - item: dust-silver
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-silver]
-        amount: 2
       primary-output:
         item: [ingot-silver]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -384,16 +348,14 @@ recipes:
     ingredients:
       - item: dust-steel
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-steel]
-        amount: 2
       primary-output:
         item: [ingot-steel]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25
@@ -404,16 +366,14 @@ recipes:
     ingredients:
       - item: dust-tin
       - item: sand
-    energy: 800
+    energy: 500
     data:
       secondary-input:
         item: [sand]
       primary-input:
         item: [dust-tin]
-        amount: 2
       primary-output:
         item: [ingot-tin]
-        amount: 2
       secondary-output:
         item: [slag]
       secondary-chance: 25

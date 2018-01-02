@@ -49,8 +49,8 @@ Satchels cannot store certain items that can themselves store items, like other
 satchels or [strongboxes](/docs/strongbox/).
 
 ### Item transfer
-When used on a block that stores items, a satchel transfers its stored items
-into the block.
+A satchel's contents can be transferred into a block that stores items by using
+the satchel on the block while sneaking.
 
 ### Auto-collect
 A satchel is able to automatically store items picked up by its user. This is
