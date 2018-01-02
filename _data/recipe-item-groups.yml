@@ -819,7 +819,7 @@ sickle-metal:
     - sickle-bronze
     - sickle-constantan
 storage-block-metal:
-  name: Metal Block
+  name: Block of Metal
   prefix:
     ingredient: 'any'
   items:

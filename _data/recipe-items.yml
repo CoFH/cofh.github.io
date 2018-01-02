@@ -4604,35 +4604,35 @@ stone-bricks-mossy:
   site: mc-wiki
   url: Stone_Bricks
 storage-block-aluminum:
-  name: Aluminum Block
+  name: Block of Aluminum
   sprite: [4, 6]
   site: cofh
-  url: aluminum-block/
+  url: block-of-aluminum/
 storage-block-bronze:
-  name: Bronze Block
+  name: Block of Bronze
   sprite: [12, 6]
   site: cofh
-  url: bronze-block/
+  url: block-of-bronze/
 storage-block-constantan:
-  name: Constantan Block
+  name: Block of Constantan
   sprite: [13, 6]
   site: cofh
-  url: constantan-block/
+  url: block-of-constantan/
 storage-block-copper:
-  name: Copper Block
+  name: Block of Copper
   sprite: [0, 6]
   site: cofh
-  url: copper-block/
+  url: block-of-copper/
 storage-block-electrum:
-  name: Electrum Block
+  name: Block of Electrum
   sprite: [10, 6]
   site: cofh
-  url: electrum-block/
+  url: block-of-electrum/
 storage-block-enderium:
-  name: Enderium Block
+  name: Block of Enderium
   sprite: [0, 7]
   site: cofh
-  url: enderium-block/
+  url: block-of-enderium/
 storage-block-flux-crystal:
   name: Flux Crystal Block
   sprite: [10, 34]
@@ -4649,15 +4649,15 @@ storage-block-gold:
   site: mc-wiki
   url: Block_of_Gold
 storage-block-invar:
-  name: Invar Block
+  name: Block of Invar
   sprite: [11, 6]
   site: cofh
-  url: invar-block/
+  url: block-of-invar/
 storage-block-iridium:
-  name: Iridium Block
+  name: Block of Iridium
   sprite: [7, 6]
   site: cofh
-  url: iridium-block/
+  url: block-of-iridium/
 storage-block-iron:
   name: Block of Iron
   sprite: [9, 58]
@@ -4669,55 +4669,55 @@ storage-block-lapis-lazuli:
   site: mc-wiki
   url: Lapis_Lazuli_Block
 storage-block-lead:
-  name: Lead Block
+  name: Block of Lead
   sprite: [3, 6]
   site: cofh
-  url: lead-block/
+  url: block-of-lead/
 storage-block-lumium:
-  name: Lumium Block
+  name: Block of Lumium
   sprite: [15, 6]
   site: cofh
-  url: lumium-block/
+  url: block-of-lumium/
 storage-block-mithril:
-  name: Mana Infused Block
+  name: Block of Mana Infused Metal
   sprite: [8, 6]
   site: cofh
-  url: mana-infused-block/
+  url: block-of-mana-infused-metal/
 storage-block-nickel:
-  name: Nickel Block
+  name: Block of Nickel
   sprite: [5, 6]
   site: cofh
-  url: nickel-block/
+  url: block-of-nickel/
 storage-block-platinum:
-  name: Platinum Block
+  name: Block of Platinum
   sprite: [6, 6]
   site: cofh
-  url: platinum-block/
+  url: block-of-platinum/
 storage-block-redstone:
   name: Block of Redstone
   sprite: [11, 41]
   site: mc-wiki
   url: Block_of_Redstone
 storage-block-signalum:
-  name: Signalum Block
+  name: Block of Signalum
   sprite: [14, 6]
   site: cofh
-  url: signalum-block/
+  url: block-of-signalum/
 storage-block-silver:
-  name: Silver Block
+  name: Block of Silver
   sprite: [2, 6]
   site: cofh
-  url: silver-block/
+  url: block-of-silver/
 storage-block-steel:
-  name: Steel Block
+  name: Block of Steel
   sprite: [9, 6]
   site: cofh
-  url: steel-block/
+  url: block-of-steel/
 storage-block-tin:
-  name: Tin Block
+  name: Block of Tin
   sprite: [1, 6]
   site: cofh
-  url: tin-block/
+  url: block-of-tin/
 string:
   name: String
   sprite: [6, 40]

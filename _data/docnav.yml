@@ -446,39 +446,39 @@ thermal-foundation:
         - title: Storage
           items:
             - title: Copper
-              url: copper-block/
+              url: block-of-copper/
             - title: Tin
-              url: tin-block/
+              url: block-of-tin/
             - title: Silver
-              url: silver-block/
+              url: block-of-silver/
             - title: Lead
-              url: lead-block/
+              url: block-of-lead/
             - title: Aluminum
-              url: aluminum-block/
+              url: block-of-aluminum/
             - title: Nickel
-              url: nickel-block/
+              url: block-of-nickel/
             - title: Platinum
-              url: platinum-block/
+              url: block-of-platinum/
             - title: Iridium
-              url: iridium-block/
-            - title: Mana Infused
-              url: mana-infused-block/
+              url: block-of-iridium/
+            - title: Mana Infused Metal
+              url: block-of-mana-infused-metal/
             - title: Steel
-              url: steel-block/
+              url: block-of-steel/
             - title: Electrum
-              url: electrum-block/
+              url: block-of-electrum/
             - title: Invar
-              url: invar-block/
+              url: block-of-invar/
             - title: Bronze
-              url: bronze-block/
+              url: block-of-bronze/
             - title: Constantan
-              url: constantan-block/
+              url: block-of-constantan/
             - title: Signalum
-              url: signalum-block/
+              url: block-of-signalum/
             - title: Lumium
-              url: lumium-block/
+              url: block-of-lumium/
             - title: Enderium
-              url: enderium-block/
+              url: block-of-enderium/
             - title: Charcoal
               url: block-of-charcoal/
             - title: Coal Coke
