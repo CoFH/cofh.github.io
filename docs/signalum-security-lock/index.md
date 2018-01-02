@@ -51,4 +51,7 @@ Owner Only
 The current mode can be set using the Security tab in the GUI of the block or
 item.
 
-![Security tab](/assets/images/thermal-expansion/tab-security.png){:style="height: 184px"}
+When dropped, a secured block or item cannot be destroyed by things like
+[lava](https://minecraft.gamepedia.com/Lava) and
+[cacti](https://minecraft.gamepedia.com/Cactus). However, it still despawns
+after 5 minutes.
