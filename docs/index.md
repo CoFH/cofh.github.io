@@ -19,7 +19,7 @@ Index
 ### Thermal Series
 * [Thermal Foundation](/docs/thermal-foundation/) - <span class="uk-text-small uk-text-success">up to date (2.3.9)</span>
 * [Thermal Expansion](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-success">up to date (5.3.9)</span>
-* [Thermal Dynamics](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-warning">WIP (2.3.8 → 2.3.9)</span>
+* [Thermal Dynamics](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-success">up to date (2.3.9)</span>
 * [Thermal Cultivation](/docs/thermal-cultivation/) - <span class="uk-text-small uk-text-success">up to date (0.1.4)</span>
 
 ### Other mods
