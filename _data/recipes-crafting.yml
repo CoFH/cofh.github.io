@@ -7503,6 +7503,21 @@ recipes:
       result:
         item: [redstone]
         amount: 10
+  redstone-relay:
+    results:
+      - item: redstone-relay
+    ingredients:
+      - item: redstone
+      - item: nether-quartz
+      - item: nugget-signalum
+      - item: ingot-lead
+    data:
+      rows:
+        - []
+        - [item: [nugget-signalum], item: [nether-quartz], item: [nugget-signalum]]
+        - [item: [ingot-lead], item: [redstone], item: [ingot-lead]]
+      result:
+        item: [redstone-relay]
   redstone-servo:
     results:
       - item: redstone-servo

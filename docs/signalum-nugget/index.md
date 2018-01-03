@@ -20,6 +20,7 @@ usage-recipes:
     - itemduct-energy-opaque-one
     - itemduct-energy-fast-one
     - itemduct-energy-fast-opaque-one
+    - redstone-relay
   compactor-mint:
     - coin-signalum-from-nugget
 ---

@@ -62,6 +62,7 @@ usage-recipes:
     - itemduct-energy-fast-opaque-from-transparent
     - structuralduct
     - viaduct-long-range
+    - redstone-relay
     - axe-lead
     - bow-lead
     - fishing-rod-lead

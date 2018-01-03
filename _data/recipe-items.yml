@@ -3908,6 +3908,11 @@ redstone-lamp:
   sprite: [4, 49]
   site: mc-wiki
   url: Redstone_Lamp
+redstone-relay:
+  name: Redstone Relay
+  sprite: [3, 30]
+  site: cofh
+  url: redstone-relay/
 redstone-servo:
   name: Redstone Servo
   sprite: [9, 15]
