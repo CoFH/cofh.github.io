@@ -6,14 +6,15 @@ image:
     file: thermal-expansion/morb.png
 recipes:
   crafting:
-    - morb
+    - morb-using-slime
+    - morb-using-rosin
 usage-recipes:
   crafting:
     - morb-reusable
 ---
 
-A **morb** ('mob orb') is a throwable item that can hold the essence of a type
-of [mob](https://minecraft.gamepedia.com/Mob).
+A **morb** ('mob orb') is a throwable item that can be used to capture
+[mobs](https://minecraft.gamepedia.com/Mob).
 
 
 Obtaining
@@ -27,13 +28,13 @@ Usage
 -----
 
 ### Capturing mobs
-A morb can be used to capture the essence of a type of
-[mob](https://minecraft.gamepedia.com/Mob) by throwing it at a mob.
+When a morb is thrown at a [mob](https://minecraft.gamepedia.com/Mob), the mob
+is captured and stored inside the morb.
 
-### Spawning mobs
-A filled morb can be thrown to spawn a generic
-[mob](https://minecraft.gamepedia.com/Mob) of the contained type. This empties
-the morb. The morb has a 75% chance of breaking after spawning the mob.
+### Releasing mobs
+A filled morb can be thrown to release the contained
+[mob](https://minecraft.gamepedia.com/Mob). The morb has a 75% chance of
+breaking after releasing the mob.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

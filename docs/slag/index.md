@@ -58,7 +58,8 @@ usage-recipes:
     - florb-magmatic-using-magma-cream
     - florb-magmatic-using-slime
     - florb-magmatic-using-rosin
-    - morb
+    - morb-using-slime
+    - morb-using-rosin
   smelting:
     - rockwool
 ---

@@ -48,7 +48,6 @@ usage-recipes:
     - florb-magmatic-using-magma-cream
     - florb-magmatic-using-slime
     - florb-magmatic-using-rosin
-    - morb
 ---
 
 ![Sawdust](/assets/images/thermal-foundation/sawdust.png){:style="height: 128px"}

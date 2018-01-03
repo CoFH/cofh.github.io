@@ -15,6 +15,7 @@ usage-recipes:
     - aqua-chow-rich-using-rosin
     - florb-using-rosin
     - florb-magmatic-using-rosin
+    - morb-using-rosin
 ---
 
 ![Rosin](/assets/images/thermal-foundation/rosin.png){:style="height: 128px"}

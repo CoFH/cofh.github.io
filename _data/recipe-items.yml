@@ -3153,11 +3153,6 @@ morb-reusable:
   sprite: [15, 29]
   site: cofh
   url: reusable-morb/
-morb-stasis:
-  name: Stasis Morb (Empty)
-  sprite: [0, 30]
-  site: cofh
-  url: stasis-morb/
 moss-stone:
   name: Moss Stone
   sprite: [14, 33]
@@ -4643,6 +4638,11 @@ storage-block-charcoal:
   sprite: [9, 61]
   site: cofh
   url: block-of-charcoal/
+storage-block-coal:
+  name: Block of Coal
+  sprite: [11, 61]
+  site: mc-wiki
+  url: Block_of_Coal
 storage-block-coal-coke:
   name: Block of Coal Coke
   sprite: [10, 61]

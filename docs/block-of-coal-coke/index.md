@@ -7,6 +7,8 @@ image:
 recipes:
   crafting:
     - storage-block-coal-coke
+  redstone-furnace-pyrolysis:
+    - storage-block-coal-coke
 usage-recipes:
   crafting:
     - coal-coke-from-block
@@ -23,6 +25,9 @@ pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Redstone Furnace with Pyrolytic Conversion
+{% include recipe-table.html type='redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
 
 
 Usage

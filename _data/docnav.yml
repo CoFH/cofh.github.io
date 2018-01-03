@@ -774,8 +774,6 @@ thermal-expansion:
               subitems:
                 - title: Reusable
                   url: reusable-morb/
-                - title: Stasis
-                  url: stasis-morb/
 
 thermal-dynamics:
   title: Thermal Dynamics

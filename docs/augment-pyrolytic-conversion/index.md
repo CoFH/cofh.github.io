@@ -9,6 +9,7 @@ recipes:
     - augment-machine-furnace-pyrolysis
 recipe-list:
   - coal-coke
+  - storage-block-coal-coke
   - charcoal-from-wood-log
   - charcoal-from-hay-bale
   - charcoal-from-cactus

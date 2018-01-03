@@ -102,3 +102,19 @@ recipes:
       fluid-output:
         fluid: creosote-oil
         amount: 250
+  storage-block-coal-coke:
+    results:
+      - item: storage-block-coal-coke
+      - fluid: creosote-oil
+        fluid-amount: 2500
+    ingredients:
+      - item: storage-block-coal
+    energy: 16000
+    data:
+      input:
+        item: [storage-block-coal]
+      output:
+        item: [storage-block-coal-coke]
+      fluid-output:
+        fluid: creosote-oil
+        amount: 2500
