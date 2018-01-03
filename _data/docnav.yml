@@ -766,8 +766,16 @@ thermal-expansion:
               url: coolants/
             - title: Florb
               url: florb/
+              subitems:
+                - title: Magmatic
+                  url: magmatic-florb/
             - title: Morb
               url: morb/
+              subitems:
+                - title: Reusable
+                  url: reusable-morb/
+                - title: Stasis
+                  url: stasis-morb/
 
 thermal-dynamics:
   title: Thermal Dynamics

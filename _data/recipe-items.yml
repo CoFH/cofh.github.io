@@ -1902,7 +1902,7 @@ florb-magmatic:
   name: Magmatic Florb (Empty)
   sprite: [12, 30]
   site: cofh
-  url: florb/
+  url: magmatic-florb/
 flower-pot:
   name: Flower Pot
   sprite: [0, 45]
@@ -3152,12 +3152,12 @@ morb-reusable:
   name: Reusable Morb (Empty)
   sprite: [15, 29]
   site: cofh
-  url: morb/
+  url: reusable-morb/
 morb-stasis:
   name: Stasis Morb (Empty)
   sprite: [0, 30]
   site: cofh
-  url: morb/
+  url: stasis-morb/
 moss-stone:
   name: Moss Stone
   sprite: [14, 33]
