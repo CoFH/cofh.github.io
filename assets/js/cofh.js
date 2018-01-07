@@ -57,21 +57,6 @@ $(function() {
         window.location.href = 'http://google.com/search?q=' + $('.cofh-search > input').val() + ' site:' + window.location.hostname;
     });
 
-    var nicks = [
-        'RedstoneFurnace',
-        'PhytogenicInsolator',
-        'CyclicAssembler',
-        'FluidTransposer',
-        'SkyboysSlave',
-        'TonisSlave',
-        'AutonomousActivator',
-        'TerrainSmasher',
-        'ImplusePlate'
-    ];
-
-    var nick = nicks[Math.floor(Math.random() * nicks.length)];
-    $('a.irclink').attr('href', 'http://webchat.esper.net/?nick=' + nick + '....&channels=#ThermalExpansion');
-
     $('.cofh-recipe')
         .mouseenter(function() {
             $(this).find('.cofh-cycle').addClass('paused');
