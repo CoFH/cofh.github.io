@@ -194,39 +194,21 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cofh-recipe-table {
+table.uk-table.cofh-info-table {
     width: initial;
     max-width: 100%;
 }
 
-.cofh-recipe-table, .cofh-recipe-table tr, .cofh-recipe-table td, .cofh-recipe-table th {
+table.uk-table.cofh-info-table, table.uk-table.cofh-info-table tr, table.uk-table.cofh-info-table td, table.uk-table.cofh-info-table th {
     border: 1px solid #dadada;
     border-collapse: collapse;
 }
 
-.cofh-recipe-table td {
+table.uk-table.cofh-info-table td {
     vertical-align: middle;
 }
 
-.cofh-recipe-table th {
-    text-align: center;
-}
-
-.cofh-augment-table {
-    width: initial;
-    max-width: 100%;
-}
-
-.cofh-augment-table, .cofh-augment-table tr, .cofh-augment-table td, .cofh-augment-table th {
-    border: 1px solid #dadada;
-    border-collapse: collapse;
-}
-
-.cofh-augment-table td {
-    vertical-align: middle;
-}
-
-.cofh-augment-table th {
+table.uk-table.cofh-info-table th {
     text-align: center;
 }
 
