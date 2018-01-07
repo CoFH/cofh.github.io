@@ -1,49 +1,67 @@
 - name: King Lemming
-  avatar: kinglemming.png
-  about: >
-    One of the two original members, and probably the most well-known one. King
-    Lemming spends most of his modding time on the Thermal series of mods.
-  social:
-      twitter: kinglemmingcofh
-      github: KingLemming
-      reddit: KingLemming
+  image: https://twitter.com/KingLemmingCoFH/profile_image?size=original
+  status: Active
+  description: Founder and lead developer
+  links:
+    - icon: twitter
+      url: https://twitter.com/KingLemmingCoFH
+    - icon: github
+      url: https://github.com/KingLemming
+    - icon: reddit
+      url: https://www.reddit.com/user/KingLemming
 
 - name: Cynycal
-  avatar: cynycal.png
-  about: >
-    One of the two original members. Cynycal is an artist; most textures and
-    sounds in the Thermal series of mods were created by him.
-  social:
-      twitter: thisnamekills
+  image: https://twitter.com/ThisNameKills/profile_image?size=original
+  status: Active
+  description: Co-founder and artist
+  links:
+    - icon: twitter
+      url: https://twitter.com/ThisNameKills
 
-- name: Zeldo
-  avatar: zeldo.jpg
-  about: >
-    Zeldo originally joined the team in late 2012 and worked together with King
-    Lemming on Thermal Expansion 2, the first version of the mod to contain
-    redstone energy cells, tesseracts and ducts.
-  social:
-      twitter: zeldokavira
-      github: ZeldoKavira
-      reddit: ZeldoKavira
-
-- name: Skyboy
-  avatar: nope.png
-  about: >
-    The current maintainer of MineFactory Reloaded and Nether Ores. Around early
-    2014 he joined the team, merging the mod PowerCrystalsCore into CoFH Core.
-  social:
-      twitter: skyboy026
-      github: skyboy
-      reddit: skyboy026
+- name: covers1624
+  image: https://twitter.com/covers1624/profile_image?size=original
+  status: Active
+  description: Developer
+  links:
+    - icon: twitter
+      url: https://twitter.com/covers1624
+    - icon: github
+      url: https://github.com/covers1624
+    - icon: reddit
+      url: https://www.reddit.com/user/covers1624
 
 - name: RWTema
-  avatar: rwtema.png
-  about: >
-    The author of the mod Extra Utilities. Tema stepped in to help around late
-    2014, when there wasn't anyone around that had time to work on Thermal
-    Dynamics for Minecraft 1.7.10.
-  social:
-      twitter: extra_utilities
-      github: RWTema
-      reddit: RWTema
+  image: https://twitter.com/RWTema/profile_image?size=original
+  status: Active
+  description: Developer (Thermal Dynamics)
+  links:
+    - icon: twitter
+      url: https://twitter.com/RWTema
+    - icon: github
+      url: https://github.com/RWTema
+    - icon: reddit
+      url: https://www.reddit.com/user/RWTema
+
+- name: Zeldo Kavira
+  image: https://twitter.com/ZeldoKavira/profile_image?size=original
+  status: Inactive
+  description: Developer
+  links:
+    - icon: twitter
+      url: https://twitter.com/ZeldoKavira
+    - icon: github
+      url: https://github.com/ZeldoKavira
+    - icon: reddit
+      url: https://www.reddit.com/user/ZeldoKavira
+
+- name: skyboy026
+  image: https://twitter.com/skyboy026/profile_image?size=original
+  status: Inactive
+  description: Developer (MineFactory Reloaded, CoFH Core)
+  links:
+    - icon: twitter
+      url: https://twitter.com/skyboy026
+    - icon: github
+      url: https://github.com/skyboy
+    - icon: reddit
+      url: https://www.reddit.com/user/skyboy026

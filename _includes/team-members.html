@@ -1,0 +1,41 @@
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped cofh-info-table" style="width: 100%">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Description</th>
+                <th>Links</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for member in site.data.team-members %}
+            <tr>
+                <td style="width: 64px; min-width: 64px">
+                    <img src="{{member.image}}" style="width: 64px; height: 64px" />
+                </td>
+
+                <td class="cofh-nowrap">
+                    {{member.name}}
+                </td>
+
+                <td>
+                    {{member.status}}
+                </td>
+
+                <td>
+                    {{member.description}}
+                </td>
+
+                <td class="uk-text-center cofh-nowrap" style="width: 1px">
+                    {% for link in member.links %}
+                        <a class="uk-icon-button uk-icon-{{link.icon}}" href="{{link.url}}"></a>
+                    {% endfor %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
