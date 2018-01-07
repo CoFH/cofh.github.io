@@ -30,6 +30,18 @@
     - icon: reddit
       url: https://www.reddit.com/user/covers1624
 
+- name: Tonius
+  image: https://twitter.com/ToniusMods/profile_image?size=original
+  status: Active
+  description: Web developer
+  links:
+    - icon: twitter
+      url: https://twitter.com/ToniusMods
+    - icon: github
+      url: https://github.com/Tonius
+    - icon: reddit
+      url: https://www.reddit.com/user/tonius11
+
 - name: RWTema
   image: https://twitter.com/RWTema/profile_image?size=original
   status: Active
