@@ -40,6 +40,7 @@ usage-recipes:
     - upgrade-kit-hardened
     - machine-smelter
     - machine-precipitator
+    - machine-extruder
     - device-heat-sink
     - flux-capacitor-hardened
     - reservoir-hardened

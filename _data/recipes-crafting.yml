@@ -5645,14 +5645,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-invar
+      - item: gear-copper
       - item: nether-brick
       - item: redstone-coil-electrum
     data:
       rows:
         - [null, item: [redstone-coil-electrum]]
         - [item: [nether-brick], item: [frame-machine], item: [nether-brick]]
-        - [item: [gear-invar], item: [redstone-coil-gold], item: [gear-invar]]
+        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
       result:
         item: [machine-crucible]
         amount: 1
@@ -5679,14 +5679,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-invar
+      - item: gear-copper
+      - item: ingot-invar
       - item: glass
-      - item: piston
     data:
       rows:
-        - [null, item: [piston]]
-        - [item: [glass], item: [frame-machine], item: [glass]]
-        - [item: [gear-invar], item: [redstone-coil-gold], item: [gear-invar]]
+        - [null, item: [glass]]
+        - [item: [ingot-invar], item: [frame-machine], item: [ingot-invar]]
+        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
       result:
         item: [machine-extruder]
         amount: 1
@@ -5764,14 +5764,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-copper
+      - item: gear-constantan
       - item: glass
       - item: gear-nickel
     data:
       rows:
         - [null, item: [gear-nickel]]
         - [item: [glass], item: [frame-machine], item: [glass]]
-        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
+        - [item: [gear-constantan], item: [redstone-coil-gold], item: [gear-constantan]]
       result:
         item: [machine-refinery]
         amount: 1
@@ -5802,14 +5802,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-invar
+      - item: gear-copper
       - item: ingot-invar
       - item: bucket
     data:
       rows:
         - [null, item: [bucket]]
         - [item: [ingot-invar], item: [frame-machine], item: [ingot-invar]]
-        - [item: [gear-invar], item: [redstone-coil-gold], item: [gear-invar]]
+        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
       result:
         item: [machine-smelter]
         amount: 1
@@ -5819,14 +5819,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-invar
+      - item: gear-copper
       - item: glass
       - item: bucket
     data:
       rows:
         - [null, item: [bucket]]
         - [item: [glass], item: [frame-machine], item: [glass]]
-        - [item: [gear-invar], item: [redstone-coil-gold], item: [gear-invar]]
+        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
       result:
         item: [machine-transposer]
         amount: 1

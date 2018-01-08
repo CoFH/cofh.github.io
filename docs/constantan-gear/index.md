@@ -11,6 +11,7 @@ recipes:
     - gear-constantan-from-block
 usage-recipes:
   crafting:
+    - machine-refinery
     - machine-brewer
     - machine-enchanter
     - dynamo-numismatic
