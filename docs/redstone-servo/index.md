@@ -32,6 +32,7 @@ usage-recipes:
     - augment-machine-insolator-tree
     - augment-machine-compactor-mint
     - augment-machine-compactor-gear
+    - augment-machine-charger-wireless
     - augment-machine-brewer-reagent
     - augment-machine-extruder-no-water
 ---

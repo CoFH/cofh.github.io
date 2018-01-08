@@ -23,7 +23,6 @@ usage-recipes:
     - augment-machine-refinery-potion
     - augment-machine-charger-throughput
     - augment-machine-charger-repair
-    - augment-machine-charger-wireless
     - augment-dynamo-efficiency
     - augment-dynamo-steam-turbine
     - augment-dynamo-magmatic-coolant

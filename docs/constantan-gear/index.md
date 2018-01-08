@@ -15,6 +15,7 @@ usage-recipes:
     - machine-brewer
     - machine-enchanter
     - dynamo-numismatic
+    - augment-machine-refinery-oil
 ---
 
 ![Constantan gear](/assets/images/thermal-foundation/gear-constantan.png){:style="height: 128px"}

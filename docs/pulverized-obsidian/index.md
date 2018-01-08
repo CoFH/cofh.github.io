@@ -12,7 +12,6 @@ recipes:
 usage-recipes:
   crafting:
     - dust-petrotheum
-    - augment-machine-compactor-gear
     - obsidian-rod
   smelter:
     - hardened-glass-using-ingot

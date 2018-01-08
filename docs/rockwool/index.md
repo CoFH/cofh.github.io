@@ -15,7 +15,6 @@ usage-recipes:
   crafting:
     - satchel-basic-using-rockwool
     - satchel-void-using-rockwool
-    - augment-machine-secondary
 ---
 
 ![Rockwool](/assets/images/thermal-foundation/rockwool.gif){:style="height: 128px"}
