@@ -65,7 +65,7 @@ usage-recipes:
   smelter:
     - ingot-electrum-from-dust-gold-and-ingot-silver
     - ingot-electrum-from-ingot-gold-and-ingot-silver
-  compactor-plate:
+  compactor-press:
     - plate-silver-from-ingot
   compactor-mint:
     - coin-silver-from-ingot
@@ -106,7 +106,7 @@ Usage
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-plate' recipes=page.usage-recipes.compactor-plate %}
+{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

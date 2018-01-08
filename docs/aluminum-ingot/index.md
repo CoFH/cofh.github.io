@@ -56,7 +56,7 @@ usage-recipes:
     - boots-aluminum
   pulverizer:
     - dust-aluminum
-  compactor-plate:
+  compactor-press:
     - plate-aluminum-from-ingot
   compactor-mint:
     - coin-aluminum-from-ingot
@@ -95,7 +95,7 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-plate' recipes=page.usage-recipes.compactor-plate %}
+{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

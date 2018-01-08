@@ -3,6 +3,54 @@ site: cofh
 url: compactor/
 with-energy: true
 recipes:
+  blaze-rod-from-powder:
+    results:
+      - item: blaze-rod
+    ingredients:
+      - item: blaze-powder
+    energy: 4000
+    data:
+      input:
+        item: [blaze-powder]
+        amount: 5
+      output:
+        item: [blaze-rod]
+  blizz-rod-from-powder:
+    results:
+      - item: blizz-rod
+    ingredients:
+      - item: blizz-powder
+    energy: 4000
+    data:
+      input:
+        item: [blizz-powder]
+        amount: 5
+      output:
+        item: [blizz-rod]
+  blitz-rod-from-powder:
+    results:
+      - item: blitz-rod
+    ingredients:
+      - item: blitz-powder
+    energy: 4000
+    data:
+      input:
+        item: [blitz-powder]
+        amount: 5
+      output:
+        item: [blitz-rod]
+  basalz-rod-from-powder:
+    results:
+      - item: basalz-rod
+    ingredients:
+      - item: basalz-powder
+    energy: 4000
+    data:
+      input:
+        item: [basalz-powder]
+        amount: 5
+      output:
+        item: [basalz-rod]
   plate-from-ingot:
     results:
       - item-group: plate-metal

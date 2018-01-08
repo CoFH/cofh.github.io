@@ -4,7 +4,7 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/plates/lead-plate/
 recipes:
-  compactor-plate:
+  compactor-press:
     - plate-lead-from-ingot
     - plate-lead-from-block
 usage-recipes:
@@ -24,7 +24,7 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='compactor-plate' recipes=page.recipes.compactor-plate no-result=true %}
+{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}
 
 
 Usage

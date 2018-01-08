@@ -16,6 +16,10 @@ recipe-list:
     - plate-from-block
     - plate-fluxed-electrum-from-ingot
     - plate-fluxed-electrum-from-block
+    - blaze-rod-from-powder
+    - blizz-rod-from-powder
+    - blitz-rod-from-powder
+    - basalz-rod-from-powder
 ---
 
 ![Compactor](/assets/images/thermal-expansion/compactor.png){:style="height: 128px"}
@@ -162,4 +166,4 @@ iron](https://minecraft.gamepedia.com/Block_of_Iron).
 Every storage recipe can be performed in a compactor for 400 RF.
 
 ### Press
-{% include recipe-table.html type='compactor-plate' recipes=page.recipe-list.press %}
+{% include recipe-table.html type='compactor-press' recipes=page.recipe-list.press %}

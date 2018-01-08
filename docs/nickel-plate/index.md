@@ -4,7 +4,7 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/plates/nickel-plate/
 recipes:
-  compactor-plate:
+  compactor-press:
     - plate-nickel-from-ingot
     - plate-nickel-from-block
 usage-recipes:
@@ -23,7 +23,7 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='compactor-plate' recipes=page.recipes.compactor-plate no-result=true %}
+{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}
 
 
 Usage

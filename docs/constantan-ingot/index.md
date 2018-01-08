@@ -53,7 +53,7 @@ usage-recipes:
     - boots-constantan
   pulverizer:
     - dust-constantan
-  compactor-plate:
+  compactor-press:
     - plate-constantan-from-ingot
   compactor-mint:
     - coin-constantan-from-ingot
@@ -96,7 +96,7 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-plate' recipes=page.usage-recipes.compactor-plate %}
+{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

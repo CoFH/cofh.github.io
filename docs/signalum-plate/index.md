@@ -4,7 +4,7 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/plates/signalum-plate/
 recipes:
-  compactor-plate:
+  compactor-press:
     - plate-signalum-from-ingot
     - plate-signalum-from-block
 ---
@@ -20,4 +20,4 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='compactor-plate' recipes=page.recipes.compactor-plate no-result=true %}
+{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}

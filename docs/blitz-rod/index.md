@@ -4,6 +4,9 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/elemental-materials/blitz-rod/
   - /docs/thermal-foundation/items/materials/elemental/blitz-rod/
+recipes:
+  compactor-press:
+    - blitz-rod-from-powder
 usage-recipes:
   crafting:
     - blitz-powder
@@ -25,6 +28,9 @@ Obtaining
 
 ### Blitzes
 A [blitz](/docs/blitz/) may drop a blitz rod when killed by a player.
+
+### Compactor
+{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}
 
 
 Usage
