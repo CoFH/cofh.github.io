@@ -89,7 +89,7 @@ to its input slot. This is called auto-input. Auto-output and auto-input occur
 whenever the machine finishes charging an item, or every 32 ticks (1.6 seconds)
 if the machine is inactive.
 
-A basic redstone furnace can automatically transfer up to 8 items at a time.
+A basic redstone furnace can automatically transfer up to 16 items at a time.
 This amount can be increased by upgrading the machine to a higher
 [tier](#tiers).
 
@@ -133,17 +133,17 @@ When an energetic infuser is active, it emits a light level of 7.
 Tiers
 -----
 
-Energetic infusers come in six [tiers](/docs/tiers/).
+Energetic infusers come in five [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
 |---
-| Basic | 50 RF/t | 0 | 8 |
+| Basic | 50 RF/t | 0 | 16 |
 | Hardened | 75 RF/t | 1 | 16 |
 | Reinforced | 100 RF/t | 2 | 28 |
 | Signalum | 125 RF/t | 3 | 44 |
-| Resonant / Creative | 150 RF/t | 4 | 64 |
+| Resonant | 150 RF/t | 4 | 64 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
