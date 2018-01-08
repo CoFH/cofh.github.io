@@ -1,5 +1,5 @@
 - name: King Lemming
-  image: https://twitter.com/KingLemmingCoFH/profile_image?size=original
+  image: https://avatars.io/twitter/KingLemmingCoFH
   status: Active
   description: Founder and lead developer
   links:
@@ -11,7 +11,7 @@
       url: https://www.reddit.com/user/KingLemming
 
 - name: Cynycal
-  image: https://twitter.com/ThisNameKills/profile_image?size=original
+  image: https://avatars.io/twitter/ThisNameKills
   status: Active
   description: Co-founder and artist
   links:
@@ -19,7 +19,7 @@
       url: https://twitter.com/ThisNameKills
 
 - name: covers1624
-  image: https://twitter.com/covers1624/profile_image?size=original
+  image: https://avatars.io/twitter/covers1624
   status: Active
   description: Developer
   links:
@@ -31,7 +31,7 @@
       url: https://www.reddit.com/user/covers1624
 
 - name: Tonius
-  image: https://twitter.com/ToniusMods/profile_image?size=original
+  image: https://avatars.io/twitter/ToniusMods
   status: Active
   description: Web developer
   links:
@@ -43,7 +43,7 @@
       url: https://www.reddit.com/user/tonius11
 
 - name: RWTema
-  image: https://twitter.com/RWTema/profile_image?size=original
+  image: https://avatars.io/twitter/RWTema
   status: Active
   description: Developer (Thermal Dynamics)
   links:
@@ -55,7 +55,7 @@
       url: https://www.reddit.com/user/RWTema
 
 - name: Zeldo Kavira
-  image: https://twitter.com/ZeldoKavira/profile_image?size=original
+  image: https://avatars.io/twitter/ZeldoKavira
   status: Inactive
   description: Developer
   links:
@@ -67,7 +67,7 @@
       url: https://www.reddit.com/user/ZeldoKavira
 
 - name: skyboy026
-  image: https://twitter.com/skyboy026/profile_image?size=original
+  image: https://avatars.io/twitter/skyboy026
   status: Inactive
   description: Developer (MineFactory Reloaded, CoFH Core)
   links:
