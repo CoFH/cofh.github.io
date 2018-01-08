@@ -42,6 +42,7 @@ usage-recipes:
     - machine-precipitator
     - machine-extruder
     - device-heat-sink
+    - dynamo-magmatic
     - flux-capacitor-hardened
     - reservoir-hardened
     - reservoir-reinforced

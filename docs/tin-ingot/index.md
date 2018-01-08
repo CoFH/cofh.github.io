@@ -44,6 +44,7 @@ usage-recipes:
     - crescent-hammer
     - frame-device
     - device-item-buffer
+    - dynamo-compression
     - flux-capacitor-hardened
     - reservoir-basic
     - cache-basic

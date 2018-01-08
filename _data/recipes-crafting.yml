@@ -2038,12 +2038,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-tin
       - item: gear-tin
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-tin], item: [ingot-iron], item: [gear-tin]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-tin], item: [ingot-iron]]
+        - [item: [ingot-tin], item: [redstone], item: [ingot-tin]]
       result:
         item: [dynamo-compression]
         amount: 1
@@ -2054,12 +2055,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-electrum
       - item: gear-electrum
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-electrum], item: [ingot-iron], item: [gear-electrum]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-electrum], item: [ingot-iron]]
+        - [item: [ingot-electrum], item: [redstone], item: [ingot-electrum]]
       result:
         item: [dynamo-enervation]
         amount: 1
@@ -2070,12 +2072,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-invar
       - item: gear-invar
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-invar], item: [ingot-iron], item: [gear-invar]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-invar], item: [ingot-iron]]
+        - [item: [ingot-invar], item: [redstone], item: [ingot-invar]]
       result:
         item: [dynamo-magmatic]
         amount: 1
@@ -2086,12 +2089,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-constantan
       - item: gear-constantan
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-constantan], item: [ingot-iron], item: [gear-constantan]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-constantan], item: [ingot-iron]]
+        - [item: [ingot-constantan], item: [redstone], item: [ingot-constantan]]
       result:
         item: [dynamo-numismatic]
         amount: 1
@@ -2102,12 +2106,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-lead
       - item: gear-lead
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-lead], item: [ingot-iron], item: [gear-lead]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-lead], item: [ingot-iron]]
+        - [item: [ingot-lead], item: [redstone], item: [ingot-lead]]
       result:
         item: [dynamo-reactant]
         amount: 1
@@ -2118,12 +2123,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-copper
       - item: gear-copper
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-copper], item: [ingot-iron], item: [gear-copper]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-copper], item: [ingot-iron]]
+        - [item: [ingot-copper], item: [redstone], item: [ingot-copper]]
       result:
         item: [dynamo-steam]
         amount: 1

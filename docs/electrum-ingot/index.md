@@ -39,6 +39,7 @@ usage-recipes:
     - storage-block-electrum
     - redstone-coil-electrum
     - upgrade-kit-reinforced
+    - dynamo-enervation
     - flux-capacitor-reinforced
     - reservoir-reinforced
     - reservoir-signalum

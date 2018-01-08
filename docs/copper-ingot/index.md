@@ -46,6 +46,7 @@ usage-recipes:
     - device-heat-sink
     - device-tapper
     - device-fluid-buffer
+    - dynamo-steam
     - flux-capacitor-basic
     - portable-tank-basic
     - reservoir-basic
