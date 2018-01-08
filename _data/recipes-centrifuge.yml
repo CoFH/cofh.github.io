@@ -10,7 +10,7 @@ recipes:
       - item: sand
     ingredients:
       - item: concrete-powder-black
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-black]
@@ -25,7 +25,7 @@ recipes:
       - item: sand
     ingredients:
       - item: concrete-powder-blue
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-blue]
@@ -40,7 +40,7 @@ recipes:
       - item: sand
     ingredients:
       - item: concrete-powder-brown
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-brown]
@@ -57,7 +57,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-cyan
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-cyan]
@@ -76,7 +76,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-gray
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-gray]
@@ -95,7 +95,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-green
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-green]
@@ -114,7 +114,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-light-blue
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-light-blue]
@@ -133,7 +133,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-light-gray
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-light-gray]
@@ -152,7 +152,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-lime
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-lime]
@@ -171,7 +171,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-magenta
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-magenta]
@@ -190,7 +190,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-orange
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-orange]
@@ -209,7 +209,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-pink
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-pink]
@@ -228,7 +228,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-purple
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-purple]
@@ -247,7 +247,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-red
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-red]
@@ -264,7 +264,7 @@ recipes:
       - item: sand
     ingredients:
       - item: concrete-powder-white
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-white]
@@ -281,7 +281,7 @@ recipes:
         suffix: (10% chance)
     ingredients:
       - item: concrete-powder-yellow
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [concrete-powder-yellow]
@@ -300,7 +300,7 @@ recipes:
       - item: redstone
     ingredients:
       - item: dust-aerotheum
-    energy: 8000
+    energy: 4000
     data:
       input:
         item: [dust-aerotheum]
@@ -319,7 +319,7 @@ recipes:
       - item: dust-tin
     ingredients:
       - item: dust-bronze
-    energy: 16000
+    energy: 8000
     data:
       input:
         item: [dust-bronze]
@@ -335,7 +335,7 @@ recipes:
       - item: dust-nickel
     ingredients:
       - item: dust-constantan
-    energy: 8000
+    energy: 4000
     data:
       input:
         item: [dust-constantan]
@@ -352,7 +352,7 @@ recipes:
       - item: redstone
     ingredients:
       - item: dust-cryotheum
-    energy: 8000
+    energy: 4000
     data:
       input:
         item: [dust-cryotheum]
@@ -371,7 +371,7 @@ recipes:
       - item: dust-silver
     ingredients:
       - item: dust-electrum
-    energy: 8000
+    energy: 4000
     data:
       input:
         item: [dust-electrum]
@@ -388,7 +388,7 @@ recipes:
         fluid-amount: 1000
     ingredients:
       - item: dust-enderium
-    energy: 16000
+    energy: 8000
     data:
       input:
         item: [dust-enderium]
@@ -407,7 +407,7 @@ recipes:
       - item: dust-nickel
     ingredients:
       - item: dust-invar
-    energy: 12000
+    energy: 6000
     data:
       input:
         item: [dust-invar]
@@ -425,7 +425,7 @@ recipes:
         fluid-amount: 1000
     ingredients:
       - item: dust-lumium
-    energy: 16000
+    energy: 8000
     data:
       input:
         item: [dust-lumium]
@@ -446,7 +446,7 @@ recipes:
       - item: redstone
     ingredients:
       - item: dust-petrotheum
-    energy: 8000
+    energy: 4000
     data:
       input:
         item: [dust-petrotheum]
@@ -467,7 +467,7 @@ recipes:
       - item: redstone
     ingredients:
       - item: dust-pyrotheum
-    energy: 8000
+    energy: 4000
     data:
       input:
         item: [dust-pyrotheum]
@@ -488,7 +488,7 @@ recipes:
         fluid-amount: 1000
     ingredients:
       - item: dust-signalum
-    energy: 16000
+    energy: 8000
     data:
       input:
         item: [dust-signalum]
@@ -507,7 +507,7 @@ recipes:
       - item: blaze-powder
     ingredients:
       - item: magma-cream
-    energy: 4000
+    energy: 2000
     data:
       input:
         item: [magma-cream]
