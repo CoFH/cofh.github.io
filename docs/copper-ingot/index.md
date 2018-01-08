@@ -43,6 +43,7 @@ usage-recipes:
     - gear-copper
     - storage-block-copper
     - multimeter
+    - device-heat-sink
     - device-tapper
     - device-fluid-buffer
     - flux-capacitor-basic

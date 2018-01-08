@@ -29,6 +29,7 @@ usage-recipes:
   crafting:
     - upgrade-kit-reinforced
     - machine-brewer
+    - device-diffuser
     - flux-capacitor-reinforced
     - reservoir-reinforced
     - augment-machine-pulverizer-petrotheum

@@ -43,6 +43,7 @@ usage-recipes:
     - storage-block-tin
     - crescent-hammer
     - frame-device
+    - device-item-buffer
     - flux-capacitor-hardened
     - reservoir-basic
     - cache-basic

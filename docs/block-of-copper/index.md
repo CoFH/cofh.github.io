@@ -14,7 +14,6 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-copper-from-block
-    - device-heat-sink
   compactor-press:
     - plate-copper-from-block
   compactor-mint:

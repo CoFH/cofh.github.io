@@ -1615,10 +1615,12 @@ recipes:
       - item: redstone-servo
       - item: gear-iron
       - item: ingot-silver
-      - item: dispenser
+      - item-group: hardened-glass
     data:
       rows:
-        - [null, item: [dispenser]]
+        - - null
+          - random: true
+            item-group: hardened-glass
         - [item: [ingot-silver], item: [frame-device], item: [ingot-silver]]
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
@@ -1649,10 +1651,10 @@ recipes:
       - item: redstone-servo
       - item: gear-iron
       - item: ingot-copper
-      - item: cauldron
+      - item: glass
     data:
       rows:
-        - [null, item: [cauldron]]
+        - [null, item: [glass]]
         - [item: [ingot-copper], item: [frame-device], item: [ingot-copper]]
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
@@ -1666,10 +1668,10 @@ recipes:
       - item: redstone-servo
       - item: gear-iron
       - item: ingot-invar
-      - item: storage-block-copper
+      - item: ingot-copper
     data:
       rows:
-        - [null, item: [storage-block-copper]]
+        - [null, item: [ingot-copper]]
         - [item: [ingot-invar], item: [frame-device], item: [ingot-invar]]
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
@@ -1682,12 +1684,12 @@ recipes:
       - item: frame-device
       - item: redstone-servo
       - item: gear-iron
-      - item: redstone
-      - item: hopper
+      - item: ingot-tin
+      - item: chest
     data:
       rows:
-        - [null, item: [hopper]]
-        - [item: [redstone], item: [frame-device], item: [redstone]]
+        - [null, item: [chest]]
+        - [item: [ingot-tin], item: [frame-device], item: [ingot-tin]]
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-item-buffer]
@@ -1733,12 +1735,16 @@ recipes:
       - item: frame-device
       - item: redstone-servo
       - item: gear-iron
+      - item-group: wood-planks
       - item: ingot-copper
-      - item: bucket
     data:
       rows:
-        - [null, item: [bucket]]
-        - [item: [ingot-copper], item: [frame-device], item: [ingot-copper]]
+        - [null, item: [ingot-copper]]
+        - - random: true
+            item-group: wood-planks
+          - item: [frame-device]
+          - random: true
+            item-group: wood-planks
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-tapper]
