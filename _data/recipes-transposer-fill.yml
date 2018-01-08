@@ -72,8 +72,10 @@ recipes:
       - item: bottle-o-enchanting
     ingredients:
       - item: glass-bottle
-      - fluid: experience
-        fluid-amount: 250
+      - html: >
+          <a href="/docs/essence-of-knowledge">Essence of Knowledge</a> or<br />
+          <a href="https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing">IF Essence</a> or<br />
+          <a href="https://www.openmods.info/">OpenBlocks Liquid XP</a> (250 mB)
     energy: 400
     data:
       item-input:
