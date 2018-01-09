@@ -205,7 +205,9 @@ machine-crafter-tank:
   installed-in: '<a href="/docs/sequential-fabricator/">Sequential Fabricator</a>'
   description: >
     Allows for a sequential fabricator to craft recipes that include a fluid
-    container item (like a filled bucket) using fluids from an added input tank.
+    container item (such as a filled <a
+    href="https://minecraft.gamepedia.com/Bucket">bucket</a>) using fluids from
+    an added input tank.
 machine-brewer-reagent:
   name: Reagent Recovery
   url: augment-reagent-recovery/
