@@ -621,6 +621,8 @@ thermal-expansion:
               url: energetic-infuser/
             - title: Centrifugal Separator
               url: centrifugal-separator/
+            - title: Sequential Fabricator
+              url: sequential-fabricator/
             - title: Alchemical Imbuer
               url: alchemical-imbuer/
             - title: Arcane Ensorcellator
@@ -730,6 +732,12 @@ thermal-expansion:
                   url: augment-flux-reconstruction/
                 - title: Parabolic Flux Coupling
                   url: augment-parabolic-flux-coupling/
+                - title: Enstabulation Apparatus
+                  url: augment-enstabulation-apparatus/
+                - title: Pattern Validation
+                  url: augment-pattern-validation/
+                - title: Fluidic Fabrication
+                  url: augment-fluidic-fabrication/
                 - title: Reagent Recovery
                   url: augment-reagent-recovery/
                 - title: Pyroclastic Injection
