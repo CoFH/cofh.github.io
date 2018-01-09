@@ -182,6 +182,30 @@ machine-charger-wireless:
     <a href="/docs/flux-capacitor/">flux capacitors</a> of players within a
     radius of 32 blocks. However, an energetic infuser will no longer charge or
     process items directly when installed.
+machine-centrifuge-mobs:
+  name: Enstabulation Apparatus
+  url: augment-enstabulation-apparatus/
+  installed-in: '<a href="/docs/centrifugal-separator/">Centrifugal Separator</a>'
+  description: >
+    A specialization that allows for a centrifugal separator to process filled
+    <a href="/docs/morb/">morbs</a> for mob drops and <a
+    href="/docs/essence-of-knowledge/">essence of knowledge</a>.
+machine-crafter-input:
+  name: Pattern Validation
+  url: augment-pattern-validation/
+  animated: true
+  installed-in: '<a href="/docs/sequential-fabricator/">Sequential Fabricator</a>'
+  description: >
+    Allows for a sequential fabricator to automatically transfer items into
+    itself from adjacent inventories. Two input slots are designated for each
+    crafting slot.
+machine-crafter-tank:
+  name: Fluidic Fabrication
+  url: augment-fluidic-fabrication/
+  installed-in: '<a href="/docs/sequential-fabricator/">Sequential Fabricator</a>'
+  description: >
+    Allows for a sequential fabricator to craft recipes that include a fluid
+    container item (like a filled bucket) using fluids from an added input tank.
 machine-brewer-reagent:
   name: Reagent Recovery
   url: augment-reagent-recovery/

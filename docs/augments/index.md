@@ -27,6 +27,9 @@ augments:
     - machine-charger-throughput
     - machine-charger-repair
     - machine-charger-wireless
+    - machine-centrifuge-mobs
+    - machine-crafter-input
+    - machine-crafter-tank
     - machine-brewer-reagent
     - machine-extruder-no-water
   dynamo:

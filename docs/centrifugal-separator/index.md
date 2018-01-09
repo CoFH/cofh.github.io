@@ -8,6 +8,7 @@ augments:
   - machine-power
   - machine-secondary
   - machine-secondary-null
+  - machine-centrifuge-mobs
 recipe-list:
   - magma-cream
   - dust-electrum
