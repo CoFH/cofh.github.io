@@ -50,8 +50,10 @@ experience points into the fluid. The item can filled or drained manually by
 using it on blocks that store fluids, or automatically using [fluid
 transposers](/docs/fluid-transposer/) or similar.
 
-If [OpenBlocks](https://www.openmods.info/) is installed, a tome of knowledge
-can also be filled with that mod's liquid XP.
+A tome of knowledge can also be filled with [Industrial
+Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)'s
+essence (`essence`) [OpenBlocks](https://www.openmods.info/)'s liquid XP
+(`xpjuice`).
 
 ### Enchantments
 A tome of knowledge can be enchanted with [Holding](/docs/holding/) to increase

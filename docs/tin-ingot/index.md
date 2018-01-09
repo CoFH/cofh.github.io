@@ -43,15 +43,14 @@ usage-recipes:
     - storage-block-tin
     - crescent-hammer
     - frame-device
+    - device-item-buffer
+    - dynamo-compression
     - flux-capacitor-hardened
     - reservoir-basic
     - cache-basic
     - strongbox-basic
     - satchel-basic-using-leather
     - satchel-basic-using-rockwool
-    - augment-machine-smelter-flux
-    - augment-machine-insolator-fertilizer
-    - augment-machine-brewer-reagent
     - itemduct
     - itemduct-opaque
     - axe-tin
@@ -74,7 +73,7 @@ usage-recipes:
   smelter:
     - ingot-bronze-from-dust-copper-and-ingot-tin
     - ingot-bronze-from-ingot-copper-and-ingot-tin
-  compactor-plate:
+  compactor-press:
     - plate-tin-from-ingot
   compactor-mint:
     - coin-tin-from-ingot
@@ -114,7 +113,7 @@ Usage
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-plate' recipes=page.usage-recipes.compactor-plate %}
+{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

@@ -72,15 +72,13 @@ recipes:
       - item: plate-copper
       - item: gear-iron
       - item-group: hardened-glass
-      - item: redstone
     data:
       rows:
         - [null, item: [gear-iron]]
         - [item: [plate-copper], item: [bucket], item: [plate-copper]]
-        - - item: [redstone]
+        - - null
           - random: true
             item-group: hardened-glass
-          - item: [redstone]
       result:
         item: [augment-dynamo-boiler]
         amount: 1
@@ -90,12 +88,11 @@ recipes:
     ingredients:
       - item: ingot-copper
       - item: nugget-lead
-      - item: glass
     data:
       rows:
         - [null, item: [nugget-lead]]
         - [item: [nugget-lead], item: [ingot-copper], item: [nugget-lead]]
-        - [item: [glass], item: [nugget-lead], item: [glass]]
+        - [null, item: [nugget-lead]]
       result:
         item: [augment-dynamo-coil-duct]
         amount: 1
@@ -106,16 +103,12 @@ recipes:
       - item: redstone-coil-electrum
       - item: plate-tin
       - item: gear-invar
-      - item-group: hardened-glass
       - item: dust-cryotheum
     data:
       rows:
         - [null, item: [gear-invar]]
         - [item: [plate-tin], item: [redstone-coil-electrum], item: [plate-tin]]
-        - - item: [dust-cryotheum]
-          - random: true
-            item-group: hardened-glass
-          - item: [dust-cryotheum]
+        - [null, item: [dust-cryotheum]]
       result:
         item: [augment-dynamo-compression-coolant]
         amount: 1
@@ -126,16 +119,12 @@ recipes:
       - item: redstone-coil-electrum
       - item: plate-copper
       - item: gear-signalum
-      - item-group: hardened-glass
       - item: dust-pyrotheum
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-copper], item: [redstone-coil-electrum], item: [plate-copper]]
-        - - item: [dust-pyrotheum]
-          - random: true
-            item-group: hardened-glass
-          - item: [dust-pyrotheum]
+        - [null, item: [dust-pyrotheum]]
       result:
         item: [augment-dynamo-compression-fuel]
         amount: 1
@@ -145,12 +134,11 @@ recipes:
     ingredients:
       - item: redstone-coil-electrum
       - item: ingot-lead
-      - item: glowstone-dust
     data:
       rows:
         - [null, item: [ingot-lead]]
         - [item: [ingot-lead], item: [redstone-coil-electrum], item: [ingot-lead]]
-        - [item: [glowstone-dust], item: [ingot-lead], item: [glowstone-dust]]
+        - [null, item: [ingot-lead]]
       result:
         item: [augment-dynamo-efficiency]
         amount: 1
@@ -162,12 +150,11 @@ recipes:
       - item: plate-gold
       - item: gear-signalum
       - item: lapis-lazuli
-      - item: glowstone-dust
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-gold], item: [redstone-coil-electrum], item: [plate-gold]]
-        - [item: [glowstone-dust], item: [lapis-lazuli], item: [glowstone-dust]]
+        - [null, item: [lapis-lazuli]]
       result:
         item: [augment-dynamo-enervation-enchant]
         amount: 1
@@ -178,16 +165,12 @@ recipes:
       - item: redstone-coil-electrum
       - item: plate-invar
       - item: gear-signalum
-      - item-group: hardened-glass
       - item: dust-cryotheum
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-invar], item: [redstone-coil-electrum], item: [plate-invar]]
-        - - item: [dust-cryotheum]
-          - random: true
-            item-group: hardened-glass
-          - item: [dust-cryotheum]
+        - [null, item: [dust-cryotheum]]
       result:
         item: [augment-dynamo-magmatic-coolant]
         amount: 1
@@ -199,12 +182,11 @@ recipes:
       - item: plate-electrum
       - item: gear-signalum
       - item: emerald
-      - item: dust-aerotheum
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-electrum], item: [redstone-coil-electrum], item: [plate-electrum]]
-        - [item: [dust-aerotheum], item: [emerald], item: [dust-aerotheum]]
+        - [null, item: [emerald]]
       result:
         item: [augment-dynamo-numismatic-gem]
         amount: 1
@@ -214,12 +196,11 @@ recipes:
     ingredients:
       - item: redstone-coil-silver
       - item: ingot-silver
-      - item: redstone
     data:
       rows:
         - [null, item: [ingot-silver]]
         - [item: [ingot-silver], item: [redstone-coil-silver], item: [ingot-silver]]
-        - [item: [redstone], item: [ingot-silver], item: [redstone]]
+        - [null, item: [ingot-silver]]
       result:
         item: [augment-dynamo-power]
         amount: 1
@@ -230,16 +211,12 @@ recipes:
       - item: redstone-coil-electrum
       - item: plate-lead
       - item: gear-signalum
-      - item-group: hardened-glass
       - item: dust-aerotheum
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-lead], item: [redstone-coil-electrum], item: [plate-lead]]
-        - - item: [dust-aerotheum]
-          - random: true
-            item-group: hardened-glass
-          - item: [dust-aerotheum]
+        - [null, item: [dust-aerotheum]]
       result:
         item: [augment-dynamo-reactant-elemental]
         amount: 1
@@ -251,12 +228,11 @@ recipes:
       - item: plate-copper
       - item: gear-iron
       - item: ingot-iron
-      - item: redstone
     data:
       rows:
         - [null, item: [gear-iron]]
         - [item: [plate-copper], item: [redstone-coil-electrum], item: [plate-copper]]
-        - [item: [redstone], item: [ingot-iron], item: [redstone]]
+        - [null, item: [ingot-iron]]
       result:
         item: [augment-dynamo-steam-turbine]
         amount: 1
@@ -266,12 +242,11 @@ recipes:
     ingredients:
       - item: ingot-electrum
       - item: nugget-lead
-      - item: glass
     data:
       rows:
         - [null, item: [nugget-lead]]
         - [item: [nugget-lead], item: [ingot-electrum], item: [nugget-lead]]
-        - [item: [glass], item: [nugget-lead], item: [glass]]
+        - [null, item: [nugget-lead]]
       result:
         item: [augment-dynamo-throttle]
         amount: 1
@@ -281,12 +256,11 @@ recipes:
     ingredients:
       - item: redstone-coil-gold
       - item: ingot-gold
-      - item: redstone
     data:
       rows:
         - [null, item: [ingot-gold]]
         - [item: [ingot-gold], item: [redstone-coil-gold], item: [ingot-gold]]
-        - [item: [redstone], item: [ingot-gold], item: [redstone]]
+        - [null, item: [ingot-gold]]
       result:
         item: [augment-machine-power]
         amount: 1
@@ -296,16 +270,11 @@ recipes:
     ingredients:
       - item: redstone-servo
       - item: ingot-bronze
-      - item-group: rockwool
     data:
       rows:
         - [null, item: [ingot-bronze]]
         - [item: [ingot-bronze], item: [redstone-servo], item: [ingot-bronze]]
-        - - random: true
-            item-group: rockwool
-          - item: [ingot-bronze]
-          - random: true
-            item-group: rockwool
+        - [null, item: [ingot-bronze]]
       result:
         item: [augment-machine-secondary]
         amount: 1
@@ -315,12 +284,11 @@ recipes:
     ingredients:
       - item: bucket-lava
       - item: nugget-invar
-      - item: glass
     data:
       rows:
         - [null, item: [nugget-invar]]
         - [item: [nugget-invar], item: [bucket-lava], item: [nugget-invar]]
-        - [item: [glass], item: [nugget-invar], item: [glass]]
+        - [null, item: [nugget-invar]]
       result:
         item: [augment-machine-secondary-null]
         amount: 1
@@ -332,12 +300,11 @@ recipes:
       - item: plate-silver
       - item: gear-copper
       - item: bricks
-      - item: redstone
     data:
       rows:
         - [null, item: [gear-copper]]
         - [item: [plate-silver], item: [redstone-coil-electrum], item: [plate-silver]]
-        - [item: [redstone], item: [bricks], item: [redstone]]
+        - [null, item: [bricks]]
       result:
         item: [augment-machine-furnace-food]
         amount: 1
@@ -348,13 +315,12 @@ recipes:
       - item: redstone-coil-electrum
       - item: plate-invar
       - item: gear-bronze
-      - item: piston
       - item: dust-pyrotheum
     data:
       rows:
         - [null, item: [gear-bronze]]
         - [item: [plate-invar], item: [redstone-coil-electrum], item: [plate-invar]]
-        - [item: [dust-pyrotheum], item: [piston], item: [dust-pyrotheum]]
+        - [null, item: [dust-pyrotheum]]
       result:
         item: [augment-machine-furnace-ore]
         amount: 1
@@ -366,12 +332,11 @@ recipes:
       - item: plate-copper
       - item: gear-invar
       - item: nether-brick
-      - item: dust-charcoal
     data:
       rows:
         - [null, item: [gear-invar]]
         - [item: [plate-copper], item: [redstone-servo], item: [plate-copper]]
-        - [item: [dust-charcoal], item: [nether-brick], item: [dust-charcoal]]
+        - [null, item: [nether-brick]]
       result:
         item: [augment-machine-furnace-pyrolysis]
         amount: 1
@@ -382,16 +347,12 @@ recipes:
       - item: redstone-servo
       - item: plate-bronze
       - item: gear-signalum
-      - item-group: hardened-glass
       - item: dust-petrotheum
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-bronze], item: [redstone-servo], item: [plate-bronze]]
-        - - item: [dust-petrotheum]
-          - random: true
-            item-group: hardened-glass
-          - item: [dust-petrotheum]
+        - [null, item: [dust-petrotheum]]
       result:
         item: [augment-machine-pulverizer-petrotheum]
         amount: 1
@@ -403,12 +364,11 @@ recipes:
       - item: plate-copper
       - item: gear-tin
       - item: bucket
-      - item: redstone
     data:
       rows:
         - [null, item: [gear-tin]]
         - [item: [plate-copper], item: [redstone-servo], item: [plate-copper]]
-        - [item: [redstone], item: [bucket], item: [redstone]]
+        - [null, item: [bucket]]
       result:
         item: [augment-machine-sawmill-tapper]
         amount: 1
@@ -419,16 +379,12 @@ recipes:
       - item: redstone-coil-electrum
       - item: plate-nickel
       - item: gear-signalum
-      - item-group: hardened-glass
       - item: dust-pyrotheum
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-nickel], item: [redstone-coil-electrum], item: [plate-nickel]]
-        - - item: [dust-pyrotheum]
-          - random: true
-            item-group: hardened-glass
-          - item: [dust-pyrotheum]
+        - [null, item: [dust-pyrotheum]]
       result:
         item: [augment-machine-smelter-pyrotheum]
         amount: 1
@@ -437,18 +393,16 @@ recipes:
       - item: augment-machine-smelter-flux
     ingredients:
       - item: redstone-servo
-      - item: ingot-tin
+      - item: slag-rich
       - item: gear-silver
       - item-group: hardened-glass
-      - item: slag-rich
     data:
       rows:
         - [null, item: [gear-silver]]
-        - [item: [ingot-tin], item: [redstone-servo], item: [ingot-tin]]
-        - - item: [slag-rich]
+        - [item: [slag-rich], item: [redstone-servo], item: [slag-rich]]
+        - - null
           - random: true
             item-group: hardened-glass
-          - item: [slag-rich]
       result:
         item: [augment-machine-smelter-flux]
         amount: 1
@@ -457,18 +411,16 @@ recipes:
       - item: augment-machine-insolator-fertilizer
     ingredients:
       - item: redstone-servo
-      - item: ingot-tin
+      - item: phyto-gro-rich
       - item: gear-silver
       - item-group: hardened-glass
-      - item: phyto-gro-rich
     data:
       rows:
         - [null, item: [gear-silver]]
-        - [item: [ingot-tin], item: [redstone-servo], item: [ingot-tin]]
-        - - item: [phyto-gro-rich]
+        - [item: [phyto-gro-rich], item: [redstone-servo], item: [phyto-gro-rich]]
+        - - null
           - random: true
             item-group: hardened-glass
-          - item: [phyto-gro-rich]
       result:
         item: [augment-machine-insolator-fertilizer]
         amount: 1
@@ -480,12 +432,11 @@ recipes:
       - item: plate-lumium
       - item: gear-signalum
       - item: piston
-      - item: dust-aerotheum
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-lumium], item: [redstone-servo], item: [plate-lumium]]
-        - [item: [dust-aerotheum], item: [piston], item: [dust-aerotheum]]
+        - [null, item: [piston]]
       result:
         item: [augment-machine-insolator-tree]
         amount: 1
@@ -496,13 +447,12 @@ recipes:
       - item: redstone-coil-electrum
       - item: plate-nickel
       - item: gear-signalum
-      - item: hopper
       - item: phyto-gro-fluxed
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-nickel], item: [redstone-coil-electrum], item: [plate-nickel]]
-        - [item: [phyto-gro-fluxed], item: [hopper], item: [phyto-gro-fluxed]]
+        - [null, item: [phyto-gro-fluxed]]
       result:
         item: [augment-machine-insolator-monoculture]
         amount: 1
@@ -514,12 +464,11 @@ recipes:
       - item: plate-electrum
       - item: gear-invar
       - item: emerald
-      - item: glowstone-dust
     data:
       rows:
         - [null, item: [gear-invar]]
         - [item: [plate-electrum], item: [redstone-servo], item: [plate-electrum]]
-        - [item: [glowstone-dust], item: [emerald], item: [glowstone-dust]]
+        - [null, item: [emerald]]
       result:
         item: [augment-machine-compactor-mint]
         amount: 1
@@ -531,12 +480,11 @@ recipes:
       - item: plate-lead
       - item: gear-iron
       - item: piston
-      - item: dust-obsidian
     data:
       rows:
         - [null, item: [gear-iron]]
         - [item: [plate-lead], item: [redstone-servo], item: [plate-lead]]
-        - [item: [dust-obsidian], item: [piston], item: [dust-obsidian]]
+        - [null, item: [piston]]
       result:
         item: [augment-machine-compactor-gear]
         amount: 1
@@ -548,12 +496,11 @@ recipes:
       - item: piston
       - item: gear-invar
       - item: nether-brick
-      - item: dust-pyrotheum
     data:
       rows:
         - [null, item: [gear-invar]]
         - [item: [piston], item: [redstone-coil-electrum], item: [piston]]
-        - [item: [dust-pyrotheum], item: [nether-brick], item: [dust-pyrotheum]]
+        - [null, item: [nether-brick]]
       result:
         item: [augment-machine-crucible-lava]
         amount: 1
@@ -563,18 +510,17 @@ recipes:
     ingredients:
       - item: redstone-coil-electrum
       - item-group: hardened-glass
-      - item: gear-nickel
+      - item: gear-constantan
       - item: blaze-rod
-      - item: redstone
     data:
       rows:
-        - [null, item: [gear-nickel]]
+        - [null, item: [gear-constantan]]
         - - random: true
             item-group: hardened-glass
           - item: [redstone-coil-electrum]
           - random: true
             item-group: hardened-glass
-        - [item: [redstone], item: [blaze-rod], item: [redstone]]
+        - [null, item: [blaze-rod]]
       result:
         item: [augment-machine-refinery-oil]
         amount: 1
@@ -586,12 +532,11 @@ recipes:
       - item: plate-lead
       - item: gear-signalum
       - item: cauldron
-      - item: redstone
     data:
       rows:
         - [null, item: [gear-signalum]]
         - [item: [plate-lead], item: [redstone-coil-electrum], item: [plate-lead]]
-        - [item: [redstone], item: [cauldron], item: [redstone]]
+        - [null, item: [cauldron]]
       result:
         item: [augment-machine-refinery-potion]
         amount: 1
@@ -603,12 +548,11 @@ recipes:
       - item: plate-silver
       - item: gear-electrum
       - item: ingot-lead
-      - item: redstone
     data:
       rows:
         - [null, item: [gear-electrum]]
         - [item: [plate-silver], item: [redstone-coil-electrum], item: [plate-silver]]
-        - [item: [redstone], item: [ingot-lead], item: [redstone]]
+        - [null, item: [ingot-lead]]
       result:
         item: [augment-machine-charger-throughput]
         amount: 1
@@ -620,7 +564,6 @@ recipes:
       - item-group: hardened-glass
       - item: gear-iron
       - item: storage-block-iron
-      - item: redstone
     data:
       rows:
         - [null, item: [gear-iron]]
@@ -629,7 +572,7 @@ recipes:
           - item: [redstone-coil-electrum]
           - random: true
             item-group: hardened-glass
-        - [item: [redstone], item: [storage-block-iron], item: [redstone]]
+        - [null, item: [storage-block-iron]]
       result:
         item: [augment-machine-charger-repair]
         amount: 1
@@ -637,19 +580,17 @@ recipes:
     results:
       - item: augment-machine-charger-wireless
     ingredients:
-      - item: redstone-coil-electrum
+      - item: redstone-servo
       - item: plate-silver
       - item: gear-electrum
       - item-group: hardened-glass
-      - item: redstone
     data:
       rows:
         - [null, item: [gear-electrum]]
-        - [item: [plate-silver], item: [redstone-coil-electrum], item: [plate-silver]]
-        - - item: [redstone]
+        - [item: [plate-silver], item: [redstone-servo], item: [plate-silver]]
+        - - null
           - random: true
             item-group: hardened-glass
-          - item: [redstone]
       result:
         item: [augment-machine-charger-wireless]
         amount: 1
@@ -658,19 +599,15 @@ recipes:
       - item: augment-machine-brewer-reagent
     ingredients:
       - item: redstone-servo
-      - item: ingot-tin
       - item: gear-silver
-      - item-group: hardened-glass
+      - item: glass
       - item: glowstone-dust
       - item: redstone
     data:
       rows:
         - [null, item: [gear-silver]]
-        - [item: [ingot-tin], item: [redstone-servo], item: [ingot-tin]]
-        - - item: [glowstone-dust]
-          - random: true
-            item-group: hardened-glass
-          - item: [redstone]
+        - [item: [glowstone-dust], item: [redstone-servo], item: [redstone]]
+        - [null, item: [glass]]
       result:
         item: [augment-machine-brewer-reagent]
         amount: 1
@@ -681,13 +618,12 @@ recipes:
       - item: redstone-servo
       - item: plate-invar
       - item: gear-copper
-      - item: piston
       - item: dust-cryotheum
     data:
       rows:
         - [null, item: [gear-copper]]
         - [item: [plate-invar], item: [redstone-servo], item: [plate-invar]]
-        - [item: [dust-cryotheum], item: [piston], item: [dust-cryotheum]]
+        - [null, item: [dust-cryotheum]]
       result:
         item: [augment-machine-extruder-no-water]
         amount: 1
@@ -1615,10 +1551,12 @@ recipes:
       - item: redstone-servo
       - item: gear-iron
       - item: ingot-silver
-      - item: dispenser
+      - item-group: hardened-glass
     data:
       rows:
-        - [null, item: [dispenser]]
+        - - null
+          - random: true
+            item-group: hardened-glass
         - [item: [ingot-silver], item: [frame-device], item: [ingot-silver]]
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
@@ -1649,10 +1587,10 @@ recipes:
       - item: redstone-servo
       - item: gear-iron
       - item: ingot-copper
-      - item: cauldron
+      - item: glass
     data:
       rows:
-        - [null, item: [cauldron]]
+        - [null, item: [glass]]
         - [item: [ingot-copper], item: [frame-device], item: [ingot-copper]]
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
@@ -1666,10 +1604,10 @@ recipes:
       - item: redstone-servo
       - item: gear-iron
       - item: ingot-invar
-      - item: storage-block-copper
+      - item: ingot-copper
     data:
       rows:
-        - [null, item: [storage-block-copper]]
+        - [null, item: [ingot-copper]]
         - [item: [ingot-invar], item: [frame-device], item: [ingot-invar]]
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
@@ -1682,12 +1620,12 @@ recipes:
       - item: frame-device
       - item: redstone-servo
       - item: gear-iron
-      - item: redstone
-      - item: hopper
+      - item: ingot-tin
+      - item: chest
     data:
       rows:
-        - [null, item: [hopper]]
-        - [item: [redstone], item: [frame-device], item: [redstone]]
+        - [null, item: [chest]]
+        - [item: [ingot-tin], item: [frame-device], item: [ingot-tin]]
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-item-buffer]
@@ -1733,12 +1671,16 @@ recipes:
       - item: frame-device
       - item: redstone-servo
       - item: gear-iron
+      - item-group: wood-planks
       - item: ingot-copper
-      - item: bucket
     data:
       rows:
-        - [null, item: [bucket]]
-        - [item: [ingot-copper], item: [frame-device], item: [ingot-copper]]
+        - [null, item: [ingot-copper]]
+        - - random: true
+            item-group: wood-planks
+          - item: [frame-device]
+          - random: true
+            item-group: wood-planks
         - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
       result:
         item: [device-tapper]
@@ -2032,12 +1974,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-tin
       - item: gear-tin
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-tin], item: [ingot-iron], item: [gear-tin]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-tin], item: [ingot-iron]]
+        - [item: [ingot-tin], item: [redstone], item: [ingot-tin]]
       result:
         item: [dynamo-compression]
         amount: 1
@@ -2048,12 +1991,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-electrum
       - item: gear-electrum
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-electrum], item: [ingot-iron], item: [gear-electrum]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-electrum], item: [ingot-iron]]
+        - [item: [ingot-electrum], item: [redstone], item: [ingot-electrum]]
       result:
         item: [dynamo-enervation]
         amount: 1
@@ -2064,12 +2008,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-invar
       - item: gear-invar
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-invar], item: [ingot-iron], item: [gear-invar]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-invar], item: [ingot-iron]]
+        - [item: [ingot-invar], item: [redstone], item: [ingot-invar]]
       result:
         item: [dynamo-magmatic]
         amount: 1
@@ -2080,12 +2025,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-constantan
       - item: gear-constantan
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-constantan], item: [ingot-iron], item: [gear-constantan]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-constantan], item: [ingot-iron]]
+        - [item: [ingot-constantan], item: [redstone], item: [ingot-constantan]]
       result:
         item: [dynamo-numismatic]
         amount: 1
@@ -2096,12 +2042,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-lead
       - item: gear-lead
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-lead], item: [ingot-iron], item: [gear-lead]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-lead], item: [ingot-iron]]
+        - [item: [ingot-lead], item: [redstone], item: [ingot-lead]]
       result:
         item: [dynamo-reactant]
         amount: 1
@@ -2112,12 +2059,13 @@ recipes:
       - item: redstone-coil-silver
       - item: ingot-iron
       - item: redstone
+      - item: ingot-copper
       - item: gear-copper
     data:
       rows:
         - [null, item: [redstone-coil-silver]]
-        - [item: [gear-copper], item: [ingot-iron], item: [gear-copper]]
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [gear-copper], item: [ingot-iron]]
+        - [item: [ingot-copper], item: [redstone], item: [ingot-copper]]
       result:
         item: [dynamo-steam]
         amount: 1
@@ -5645,14 +5593,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-invar
+      - item: gear-copper
       - item: nether-brick
       - item: redstone-coil-electrum
     data:
       rows:
         - [null, item: [redstone-coil-electrum]]
         - [item: [nether-brick], item: [frame-machine], item: [nether-brick]]
-        - [item: [gear-invar], item: [redstone-coil-gold], item: [gear-invar]]
+        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
       result:
         item: [machine-crucible]
         amount: 1
@@ -5679,14 +5627,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-invar
+      - item: gear-copper
+      - item: ingot-invar
       - item: glass
-      - item: piston
     data:
       rows:
-        - [null, item: [piston]]
-        - [item: [glass], item: [frame-machine], item: [glass]]
-        - [item: [gear-invar], item: [redstone-coil-gold], item: [gear-invar]]
+        - [null, item: [glass]]
+        - [item: [ingot-invar], item: [frame-machine], item: [ingot-invar]]
+        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
       result:
         item: [machine-extruder]
         amount: 1
@@ -5764,14 +5712,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-copper
+      - item: gear-constantan
       - item: glass
       - item: gear-nickel
     data:
       rows:
         - [null, item: [gear-nickel]]
         - [item: [glass], item: [frame-machine], item: [glass]]
-        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
+        - [item: [gear-constantan], item: [redstone-coil-gold], item: [gear-constantan]]
       result:
         item: [machine-refinery]
         amount: 1
@@ -5802,14 +5750,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-invar
+      - item: gear-copper
       - item: ingot-invar
       - item: bucket
     data:
       rows:
         - [null, item: [bucket]]
         - [item: [ingot-invar], item: [frame-machine], item: [ingot-invar]]
-        - [item: [gear-invar], item: [redstone-coil-gold], item: [gear-invar]]
+        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
       result:
         item: [machine-smelter]
         amount: 1
@@ -5819,14 +5767,14 @@ recipes:
     ingredients:
       - item: frame-machine
       - item: redstone-coil-gold
-      - item: gear-invar
+      - item: gear-copper
       - item: glass
       - item: bucket
     data:
       rows:
         - [null, item: [bucket]]
         - [item: [glass], item: [frame-machine], item: [glass]]
-        - [item: [gear-invar], item: [redstone-coil-gold], item: [gear-invar]]
+        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
       result:
         item: [machine-transposer]
         amount: 1

@@ -114,9 +114,9 @@ auto-input occur whenever the machine finishes processing an item, or every 32
 ticks (1.6 seconds) if the machine is inactive. Auto-output for fluids occurs
 whenever there is a fluid in the output tank.
 
-A basic sawmill can automatically transfer up to 8 items at a time, and can
-automatically output fluids at a maximum rate of 100 mB/t. These amounts can be
-increased by upgrading the machine to a higher [tier](#tiers).
+A basic sawmill can automatically transfer up to 16 items at a time, and can
+automatically output fluids at a maximum rate of 1,000 mB/t. These amounts can
+be increased by upgrading the machine to a higher [tier](#tiers).
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the
@@ -154,17 +154,17 @@ copied to other sawmills.
 Tiers
 -----
 
-Sawmills come in six [tiers](/docs/tiers/).
+Sawmills come in five [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid auto-output rate |
 |---
-| Basic | 20 RF/t | 0 | 8 | 100 mB/t |
-| Hardened | 30 RF/t | 1 | 16 | 300 mB/t |
-| Reinforced | 40 RF/t | 2 | 28 | 600 mB/t |
-| Signalum | 50 RF/t | 3 | 44 | 1,000 mB/t |
-| Resonant / Creative | 60 RF/t | 4 | 64 | 1,500 mB/t |
+| Basic | 20 RF/t | 0 | 16 | 1,000 mB/t |
+| Hardened | 30 RF/t | 1 | 16 | 1,000 mB/t |
+| Reinforced | 40 RF/t | 2 | 28 | 3,000 mB/t |
+| Signalum | 50 RF/t | 3 | 44 | 6,000 mB/t |
+| Resonant | 60 RF/t | 4 | 64 | 10,000 mB/t |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

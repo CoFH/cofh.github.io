@@ -16,6 +16,8 @@ recipes:
 usage-recipes:
   crafting:
     - dust-aerotheum
+  compactor-press:
+    - blitz-rod-from-powder
 ---
 
 ![Blitz powder](/assets/images/thermal-foundation/blitz-powder.gif){:style="height: 128px"}
@@ -54,3 +56,6 @@ When [brewing](https://minecraft.gamepedia.com/Brewing), blitz powder can be
 added to an [awkward
 potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
 of levitation](/docs/cofh-core-potions/).
+
+### Compactor ingredient
+{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}

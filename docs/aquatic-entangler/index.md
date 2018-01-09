@@ -75,7 +75,7 @@ transfer items from adjacent inventories into any sides that directly correspond
 to its bait slot. This is called auto-input. Auto-output and auto-input occur at
 the same speed at which fish is caught. Auto-output occurs after fish is caught,
 and auto-input occurs right before fish is caught. The device can automatically
-transfer up to 8 items at a time.
+transfer up to 16 items at a time.
 
 Which sides correspond to which slots and whether auto-output and auto-input are
 enabled can be configured using the Configuration tab in the device's GUI.

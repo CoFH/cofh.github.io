@@ -14,12 +14,15 @@ usage-recipes:
     - machine-furnace
     - machine-pulverizer
     - machine-sawmill
+    - machine-smelter
     - machine-insolator
     - machine-compactor
-    - machine-refinery
+    - machine-crucible
+    - machine-transposer
     - machine-charger
     - machine-centrifuge
     - machine-precipitator
+    - machine-extruder
     - frame-device
     - dynamo-steam
     - augment-machine-furnace-food

@@ -18,7 +18,6 @@ usage-recipes:
     - reservoir-resonant
     - augment-machine-furnace-ore
     - augment-machine-smelter-pyrotheum
-    - augment-machine-crucible-lava
     - augment-dynamo-compression-fuel
     - watering-can-resonant
   crucible:

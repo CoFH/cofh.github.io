@@ -11,7 +11,6 @@ usage-recipes:
     - gunpowder-using-charcoal-sulfur-and-niter
     - phyto-gro-using-charcoal
     - phyto-gro-rich-using-charcoal
-    - augment-machine-furnace-pyrolysis
   smelter:
     - ingot-steel-from-dust-iron-and-dust-charcoal
     - ingot-steel-from-ingot-iron-and-dust-charcoal

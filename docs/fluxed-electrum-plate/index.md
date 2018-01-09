@@ -7,7 +7,7 @@ image:
 redirect_from:
   - /docs/redstone-arsenal/materials/fluxed-electrum-plate/
 recipes:
-  compactor-plate:
+  compactor-press:
     - plate-fluxed-electrum-from-ingot
     - plate-fluxed-electrum-from-block
 usage-recipes:
@@ -23,7 +23,7 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='compactor-plate' recipes=page.recipes.compactor-plate no-result=true %}
+{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}
 
 
 Usage

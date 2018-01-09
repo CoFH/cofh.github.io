@@ -78,3 +78,6 @@ lock](/docs/signalum-security-lock/) installed to restrict who can access it.
 ### Redprints
 An item allocator's configuration can be saved on a [redprint](/docs/redprint/)
 to be copied to other item allocators.
+
+### Light source
+When an item allocator is active, it emits a light level of 5.

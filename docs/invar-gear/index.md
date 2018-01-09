@@ -11,10 +11,6 @@ recipes:
     - gear-invar-from-block
 usage-recipes:
   crafting:
-    - machine-smelter
-    - machine-crucible
-    - machine-transposer
-    - machine-extruder
     - dynamo-magmatic
     - augment-machine-furnace-pyrolysis
     - augment-machine-compactor-mint

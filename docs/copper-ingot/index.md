@@ -43,8 +43,10 @@ usage-recipes:
     - gear-copper
     - storage-block-copper
     - multimeter
+    - device-heat-sink
     - device-tapper
     - device-fluid-buffer
+    - dynamo-steam
     - flux-capacitor-basic
     - portable-tank-basic
     - reservoir-basic
@@ -75,7 +77,7 @@ usage-recipes:
     - ingot-bronze-from-ingot-copper-and-ingot-tin
     - ingot-constantan-from-ingot-copper-and-dust-nickel
     - ingot-constantan-from-ingot-copper-and-ingot-nickel
-  compactor-plate:
+  compactor-press:
     - plate-copper-from-ingot
   compactor-mint:
     - coin-copper-from-ingot
@@ -116,7 +118,7 @@ Usage
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-plate' recipes=page.usage-recipes.compactor-plate %}
+{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

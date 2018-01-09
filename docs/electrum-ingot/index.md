@@ -39,6 +39,7 @@ usage-recipes:
     - storage-block-electrum
     - redstone-coil-electrum
     - upgrade-kit-reinforced
+    - dynamo-enervation
     - flux-capacitor-reinforced
     - reservoir-reinforced
     - reservoir-signalum
@@ -76,7 +77,7 @@ usage-recipes:
     - boots-electrum
   pulverizer:
     - dust-electrum
-  compactor-plate:
+  compactor-press:
     - plate-electrum-from-ingot
   compactor-mint:
     - coin-electrum-from-ingot
@@ -121,7 +122,7 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-plate' recipes=page.usage-recipes.compactor-plate %}
+{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
 
 ### Compactor with Numismatic Press ingredient
 {% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

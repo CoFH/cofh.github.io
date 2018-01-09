@@ -5,6 +5,9 @@ redirect_from:
   - /docs/thermal-foundation/elemental-materials/blizz-rod/
   - /docs/thermal-foundation/materials/blizz-rod/
   - /docs/thermal-foundation/items/materials/elemental/blizz-rod/
+recipes:
+  compactor-press:
+    - blizz-rod-from-powder
 usage-recipes:
   crafting:
     - blizz-powder
@@ -26,6 +29,9 @@ Obtaining
 
 ### Blizzes
 A [blizz](/docs/blizz/) may drop a blizz rod when killed by a player.
+
+### Compactor
+{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}
 
 
 Usage

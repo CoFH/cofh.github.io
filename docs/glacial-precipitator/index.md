@@ -79,7 +79,7 @@ directly correspond to its output slot. This is called auto-output, and occurs
 whenever the machine finishes processing an item, or every 32 ticks (1.6
 seconds) if the machine is inactive.
 
-A basic glacial precipitator can automatically output up to 8 items at a time.
+A basic glacial precipitator can automatically output up to 16 items at a time.
 This amount can be increased by upgrading the machine to a higher
 [tier](#tiers).
 
@@ -118,17 +118,17 @@ A glacial precipitator's configuration can be saved on a
 Tiers
 -----
 
-Glacial precipitators come in six [tiers](/docs/tiers/).
+Glacial precipitators come in five [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Tier | Max. power usage | Augment slots | Max. items per auto-output |
 |---
-| Basic | 20 RF/t | 0 | 8 |
+| Basic | 20 RF/t | 0 | 16 |
 | Hardened | 30 RF/t | 1 | 16 |
 | Reinforced | 40 RF/t | 2 | 28 |
 | Signalum | 50 RF/t | 3 | 44 |
-| Resonant / Creative | 60 RF/t | 4 | 64 |
+| Resonant | 60 RF/t | 4 | 64 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

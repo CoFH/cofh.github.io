@@ -9,9 +9,7 @@ recipes:
     - dust-aerotheum
 usage-recipes:
   crafting:
-    - augment-machine-insolator-tree
     - augment-dynamo-reactant-elemental
-    - augment-dynamo-numismatic-gem
   crucible:
     - aerotheum
   centrifuge:

@@ -4,6 +4,9 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/elemental-materials/basalz-rod/
   - /docs/thermal-foundation/items/materials/elemental/basalz-rod/
+recipes:
+  compactor-press:
+    - basalz-rod-from-powder
 usage-recipes:
   crafting:
     - basalz-powder
@@ -25,6 +28,9 @@ Obtaining
 
 ### Basalzes
 A [basalz](/docs/basalz/) may drop a basalz rod when killed by a player.
+
+### Compactor
+{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}
 
 
 Usage

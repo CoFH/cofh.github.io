@@ -13,7 +13,7 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-fluxed-electrum-from-block
-  compactor-plate:
+  compactor-press:
     - plate-fluxed-electrum-from-block
   compactor-gear:
     - gear-fluxed-electrum-from-block
@@ -63,7 +63,7 @@ Fluxed electrum blocks can be used to build
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-plate' recipes=page.usage-recipes.compactor-plate %}
+{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}
