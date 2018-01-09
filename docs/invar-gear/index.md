@@ -15,6 +15,7 @@ usage-recipes:
     - augment-machine-furnace-pyrolysis
     - augment-machine-compactor-mint
     - augment-machine-crucible-lava
+    - augment-machine-centrifuge-mobs
     - augment-dynamo-compression-coolant
 ---
 

@@ -51,6 +51,7 @@ usage-recipes:
     - portable-tank-basic
     - reservoir-basic
     - reservoir-hardened
+    - augment-machine-crafter-tank
     - augment-dynamo-coil-duct
     - fluiduct-basic
     - fluiduct-basic-opaque

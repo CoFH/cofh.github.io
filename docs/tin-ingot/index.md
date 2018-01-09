@@ -42,6 +42,7 @@ usage-recipes:
     - gear-tin
     - storage-block-tin
     - crescent-hammer
+    - machine-crafter
     - frame-device
     - device-item-buffer
     - dynamo-compression

@@ -153,6 +153,21 @@ augment-machine-charger-wireless:
   sprite: [9, 29]
   site: cofh
   url: augment-parabolic-flux-coupling/
+augment-machine-centrifuge-mobs:
+  name: 'Augment: Enstabulation Apparatus'
+  sprite: [0, 30]
+  site: cofh
+  url: augment-enstabulation-apparatus/
+augment-machine-crafter-input:
+  name: 'Augment: Pattern Validation'
+  animated: true
+  site: cofh
+  url: augment-pattern-validation/
+augment-machine-crafter-tank:
+  name: 'Augment: Fluidic Fabrication'
+  sprite: [4, 30]
+  site: cofh
+  url: augment-fluidic-fabrication/
 augment-machine-brewer-reagent:
   name: 'Augment: Reagent Recovery'
   sprite: [3, 61]
@@ -3058,6 +3073,11 @@ machine-compactor:
   sprite: [7, 26]
   site: cofh
   url: compactor/
+machine-crafter:
+  name: Sequential Fabricator
+  sprite: [9, 11]
+  site: cofh
+  url: sequential-fabricator/
 machine-crucible:
   name: Magma Crucible
   sprite: [8, 26]

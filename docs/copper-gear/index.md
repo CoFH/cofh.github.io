@@ -21,6 +21,7 @@ usage-recipes:
     - machine-transposer
     - machine-charger
     - machine-centrifuge
+    - machine-crafter
     - machine-precipitator
     - machine-extruder
     - frame-device

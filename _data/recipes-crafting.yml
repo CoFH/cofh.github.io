@@ -594,6 +594,54 @@ recipes:
       result:
         item: [augment-machine-charger-wireless]
         amount: 1
+  augment-machine-centrifuge-mobs:
+    results:
+      - item: augment-machine-centrifuge-mobs
+    ingredients:
+      - item: redstone-servo
+      - item: sword-diamond
+      - item: gear-invar
+      - item: piston
+    data:
+      rows:
+        - [null, item: [gear-invar]]
+        - [item: [sword-diamond], item: [redstone-servo], item: [sword-diamond]]
+        - [null, item: [piston]]
+      result:
+        item: [augment-machine-centrifuge-mobs]
+        amount: 1
+  augment-machine-crafter-input:
+    results:
+      - item: augment-machine-crafter-input
+    ingredients:
+      - item: redstone-servo
+      - item: ingot-iron
+      - item: gear-tin
+      - item: glass
+    data:
+      rows:
+        - [null, item: [gear-tin]]
+        - [item: [ingot-iron], item: [redstone-servo], item: [ingot-iron]]
+        - [null, item: [glass]]
+      result:
+        item: [augment-machine-crafter-input]
+        amount: 1
+  augment-machine-crafter-tank:
+    results:
+      - item: augment-machine-crafter-tank
+    ingredients:
+      - item: redstone-servo
+      - item: ingot-copper
+      - item: bucket
+      - item: glass
+    data:
+      rows:
+        - [null, item: [bucket]]
+        - [item: [ingot-copper], item: [redstone-servo], item: [ingot-copper]]
+        - [null, item: [glass]]
+      result:
+        item: [augment-machine-crafter-tank]
+        amount: 1
   augment-machine-brewer-reagent:
     results:
       - item: augment-machine-brewer-reagent
@@ -5586,6 +5634,23 @@ recipes:
         - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
       result:
         item: [machine-compactor]
+        amount: 1
+  machine-crafter:
+    results:
+      - item: machine-crafter
+    ingredients:
+      - item: frame-machine
+      - item: redstone-coil-gold
+      - item: gear-copper
+      - item: ingot-tin
+      - item: crafting-table
+    data:
+      rows:
+        - [null, item: [crafting-table]]
+        - [item: [ingot-tin], item: [frame-machine], item: [ingot-tin]]
+        - [item: [gear-copper], item: [redstone-coil-gold], item: [gear-copper]]
+      result:
+        item: [machine-crafter]
         amount: 1
   machine-crucible:
     results:

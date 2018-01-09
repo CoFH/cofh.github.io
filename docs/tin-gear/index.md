@@ -14,6 +14,7 @@ usage-recipes:
     - frame-machine
     - dynamo-compression
     - augment-machine-sawmill-tapper
+    - augment-machine-crafter-input
 ---
 
 ![Tin gear](/assets/images/thermal-foundation/gear-tin.png){:style="height: 128px"}

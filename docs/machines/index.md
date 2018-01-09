@@ -24,6 +24,8 @@ image:
     file: thermal-expansion/energetic-infuser.png
   - alt: Centrifugal separator
     file: thermal-expansion/centrifugal-separator.png
+  - alt: Sequential fabricator
+    file: thermal-expansion/sequential-fabricator.png
   - alt: Alchemical imbuer
     file: thermal-expansion/alchemical-imbuer.png
   - alt: Arcane ensorcellator
@@ -63,6 +65,7 @@ List of machines
 | [Fluid Transposer](/docs/fluid-transposer/) | Fills or empties things that hold fluids, like [buckets](https://minecraft.gamepedia.com/Bucket). |
 | [Energetic Infuser](/docs/energetic-infuser/) | Charges items. |
 | [Centrifugal Separator](/docs/centrifugal-separator/) | Separates items into their components. |
+| [Sequential Fabricator](/docs/sequential-fabricator/) | [Crafts](https://minecraft.gamepedia.com/Crafting) items. |
 | [Alchemical Imbuer](/docs/alchemical-imbuer/) | Brews [potions](https://minecraft.gamepedia.com/Potion). |
 | [Arcane Ensorcellator](/docs/arcane-ensorcellator/) | Enchants [books](https://minecraft.gamepedia.com/Book) and other arcana. Can produce specific [enchanted books](https://minecraft.gamepedia.com/Enchanted_Book). |
 | [Glacial Precipitator](/docs/glacial-precipitator/) | Freezes fluids into items. |

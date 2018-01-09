@@ -33,6 +33,9 @@ usage-recipes:
     - augment-machine-compactor-mint
     - augment-machine-compactor-gear
     - augment-machine-charger-wireless
+    - augment-machine-centrifuge-mobs
+    - augment-machine-crafter-input
+    - augment-machine-crafter-tank
     - augment-machine-brewer-reagent
     - augment-machine-extruder-no-water
 ---
