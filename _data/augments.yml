@@ -196,9 +196,9 @@ machine-crafter-input:
   animated: true
   installed-in: '<a href="/docs/sequential-fabricator/">Sequential Fabricator</a>'
   description: >
-    Allows for a sequential fabricator to automatically transfer items into
-    itself from adjacent inventories. Two input slots are designated for each
-    crafting slot.
+    Allows for a sequential fabricator to handle item input more intelligently.
+    Two input slots are designated for each crafting slot. Also allows
+    auto-input to be enabled.
 machine-crafter-tank:
   name: Fluidic Fabrication
   url: augment-fluidic-fabrication/
