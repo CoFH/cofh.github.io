@@ -6,6 +6,7 @@ redirect_from:
 recipes:
   redstone-furnace-pyrolysis:
     - coal-coke
+    - storage-block-coal-coke
     - charcoal-from-wood-log
     - charcoal-from-hay-bale
     - charcoal-from-cactus
