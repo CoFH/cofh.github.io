@@ -12,7 +12,7 @@ Series](/docs/#thermal-series) and [Redstone Arsenal](/docs/redstone-arsenal/).
 * Various refactors and bugfixes (see the [issue
   tracker](https://github.com/CoFH/Feedback/issues?q=is%3Aissue+is%3Aclosed+label%3Afixed+sort%3Aupdated-desc)).
 
-### Thermal Foundation
+#### Thermal Foundation
 * Added [block of charcoal](/docs/block-of-charcoal/) and [block of coal
   coke](/docs/block-of-coal-coke/).
 * [Tomes of knowledge](/docs/tome-of-knowledge/) now once again take and give
@@ -22,7 +22,7 @@ Series](/docs/#thermal-series) and [Redstone Arsenal](/docs/redstone-arsenal/).
 * Fluid ores no longer spill fluids when harvested with Silk Touch.
 * Crafting clay using [slag](/docs/slag/) now yields 4 clay instead of 2.
 
-### Thermal Expansion
+#### Thermal Expansion
 * [Morbs](/docs/morb/)
   * Throwable items that can be used to capture and release mobs. (Thanks
     [ImbaKnugel](https://github.com/ImbaKnugel))
@@ -35,7 +35,7 @@ Series](/docs/#thermal-series) and [Redstone Arsenal](/docs/redstone-arsenal/).
 * [Induction smelters](/docs/induction-smelter/) now smelt one metal dust at a
   time for 500 RF, instead of two at a time for 800 RF.
 
-### Thermal Dynamics
+#### Thermal Dynamics
 * [Redstone Relay](/docs/redstone-relay/)
   * This was gone for a while, but it's back now. (Thanks
     [ImbaKnugel](https://github.com/ImbaKnugel))

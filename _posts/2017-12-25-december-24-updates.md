@@ -19,7 +19,7 @@ World](/docs/cofh-world/), the [Thermal Series](/docs/#thermal-series) and
 * [Tomes of knowledge](/docs/tome-of-knowledge/) take and give as much
   experience as possible when used, instead of one level at a time.
   * They can also be filled with [OpenBlocks](https://www.openmods.info/)'s
-    liquid XP.
+    liquid XP, converting it into experience.
 * [Hardened glass](/docs/hardened-glass/) is now wither proof.
 
 #### Thermal Expansion
