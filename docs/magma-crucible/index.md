@@ -95,15 +95,15 @@ side of a crucible may correspond to its input slot, its output tank, or both at
 the same time.
 
 A magma crucible can automatically transfer fluids out of any sides that
-directly correspond to its output tank. This is called auto-output, and occurs
-whenever there is a fluid in the output tank. It can also transfer items from
-adjacent inventories into any sides that directly correspond to its input slot.
-This is called auto-input, and occurs whenever the machine finishes processing
-an item, or every 32 ticks (1.6 seconds) if the machine is inactive.
+directly correspond to its output tank. This is called auto-output. It can also
+transfer items from adjacent inventories into any sides that directly correspond
+to its input slot. This is called auto-input. Auto-output and auto-input occur
+whenever the machine finishes processing an item, or every 32 ticks (1.6
+seconds) if the machine is inactive.
 
-A basic magma crucible can automatically transfer up to 16 items at a time, and
-can automatically output fluids at a maximum rate of 1,000 mB/t. These amounts
-can be increased by upgrading the machine to a higher [tier](#tiers).
+A basic magma crucible can automatically transfer up to 16 items and up to 1,000
+mB of fluid at a time. These amounts can be increased by upgrading the machine
+to a higher [tier](#tiers).
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the
@@ -148,13 +148,13 @@ Magma crucibles come in five [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid auto-output rate |
+| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer |
 |---
-| Basic | 50 RF/t | 0 | 16 | 1,000 mB/t |
-| Hardened | 75 RF/t | 1 | 16 | 1,000 mB/t |
-| Reinforced | 100 RF/t | 2 | 28 | 3,000 mB/t |
-| Signalum | 125 RF/t | 3 | 44 | 6,000 mB/t |
-| Resonant | 150 RF/t | 4 | 64 | 10,000 mB/t |
+| Basic | 50 RF/t | 0 | 16 | 1,000 mB |
+| Hardened | 75 RF/t | 1 | 16 | 1,000 mB |
+| Reinforced | 100 RF/t | 2 | 28 | 3,000 mB |
+| Signalum | 125 RF/t | 3 | 44 | 6,000 mB |
+| Resonant | 150 RF/t | 4 | 64 | 10,000 mB |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

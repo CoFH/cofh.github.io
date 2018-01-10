@@ -69,15 +69,15 @@ Every side of a brewer may correspond to its input tank, its input slot, its
 output tank, or certain tanks/slots at the same time.
 
 An alchemical imbuer can automaticaly transfer fluids out of any sides that
-directly correspond to its output tank. This is called auto-output, and occurs
-whenever there is a fluid in the output tank. The machine can also transfer
-items from adjacent inventories into any sides that directly correspond to its
-input slot. This is called auto-input, and occurs whenever the machine finishes
-brewing a potion, or every 32 ticks (1.6 seconds) if the machine is inactive.
+directly correspond to its output tank. This is called auto-output. The machine
+can also transfer items from adjacent inventories into any sides that directly
+correspond to its input slot. This is called auto-input. Auto-output and
+auto-input occur whenever the machine finishes brewing a potion, or every 32
+ticks (1.6 seconds) if the machine is inactive.
 
-A basic alchemical imbuer can automatically output fluids at a maximum rate of
-1,000 mB/t, and can automatically transfer up to 16 items at a time. These
-amounts can be increased by upgrading the machine to a higher [tier](#tiers).
+A basic alchemical imbuer can automatically transfer up to 1,000 mB of fluid and
+up to 16 items at a time. These amounts can be increased by upgrading the
+machine to a higher [tier](#tiers).
 
 Which sides correspond to which tanks/slots and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the
@@ -122,13 +122,13 @@ Alchemical imbuers come in five [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. fluid auto-output rate | Max. items per auto-transfer |
+| Tier | Max. power usage | Augment slots | Max. fluid per auto-transfer | Max. items per auto-transfer |
 |---
-| Basic | 20 RF/t | 0 | 1,000 mB/t | 16 |
-| Hardened | 30 RF/t | 1 | 1,000 mB/t | 16 |
-| Reinforced | 40 RF/t | 2 | 3,000 mB/t | 28 |
-| Signalum | 50 RF/t | 3 | 6,000 mB/t | 44 |
-| Resonant | 60 RF/t | 4 | 10,000 mB/t | 64 |
+| Basic | 20 RF/t | 0 | 1,000 mB | 16 |
+| Hardened | 30 RF/t | 1 | 1,000 mB | 16 |
+| Reinforced | 40 RF/t | 2 | 3,000 mB | 28 |
+| Signalum | 50 RF/t | 3 | 6,000 mB | 44 |
+| Resonant | 60 RF/t | 4 | 10,000 mB | 64 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

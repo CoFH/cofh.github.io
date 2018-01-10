@@ -114,14 +114,13 @@ input/output tank, or certain tanks/slots at the same time.
 A fluid transposer can automatically transfer items and fluids out of any sides
 that directly correspond to its output slot/tank. This is called auto-output. It
 can also transfer items from adjacent inventories into any sides that directly
-correspond to its input slot. This is called auto-input. Auto-output for items
-and auto-input occurs whenever the machine finishes processing an item, or every
-32 ticks (1.6 seconds) if the machine is inactive. Auto-output for fluids occurs
-whenever there is a fluid in the output tank.
+correspond to its input slot. This is called auto-input. Auto-output and
+auto-input occur whenever the machine finishes processing an item, or every 32
+ticks (1.6 seconds) if the machine is inactive.
 
-A basic fluid transposer can automatically transfer up to 16 items at a time,
-and can automatically output fluids at a maximum rate of 1,000 mB/t. These
-amounts can be increased by upgrading the machine to a higher [tier](#tiers).
+A basic fluid transposer can automatically transfer up to 16 items and up to
+1,000 mB of fluid at a time. These amounts can be increased by upgrading the
+machine to a higher [tier](#tiers).
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the
@@ -163,13 +162,13 @@ Fluid transposers come in five [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid auto-output rate |
+| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer |
 |---
-| Basic | 20 RF/t | 0 | 16 | 1,000 mB/t |
-| Hardened | 30 RF/t | 1 | 16 | 1,000 mB/t |
-| Reinforced | 40 RF/t | 2 | 28 | 3,000 mB/t |
-| Signalum | 50 RF/t | 3 | 44 | 6,000 mB/t |
-| Resonant | 60 RF/t | 4 | 64 | 10,000 mB/t |
+| Basic | 20 RF/t | 0 | 16 | 1,000 mB |
+| Hardened | 30 RF/t | 1 | 16 | 1,000 mB |
+| Reinforced | 40 RF/t | 2 | 28 | 3,000 mB |
+| Signalum | 50 RF/t | 3 | 44 | 6,000 mB |
+| Resonant | 60 RF/t | 4 | 64 | 10,000 mB |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

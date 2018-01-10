@@ -52,11 +52,11 @@ cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 ### Processing
 When a fractionating still's input tank is filled with a fluid, the machine will
-start consuming [Redstone Flux](/docs/redstone-flux/) to process it. A certain
-amount of fluid requires a certain amount of energy to process. When enough
-energy has been consumed for an amount of fluid, this amount is consumed and the
-output is placed in the output tank. A secondary item output may be produced,
-which is placed in the secondary output slot.
+start consuming [Redstone Flux](/docs/redstone-flux/) to process it. Each batch
+of fluid requires a certain amount of energy to process. When enough energy has
+been consumed for a batch of fluid, the fluid is consumed and the output is
+placed in the output tank. A secondary item output may be produced, which is
+placed in the secondary output slot.
 
 The speed at which a fractionating still processes fluids depends on how much
 energy it can use per tick. This in turn depends on how much power is being
@@ -71,14 +71,13 @@ secondary output slot, or certain tanks/slots at the same time.
 
 A fractionating still can automatically transfer fluids or items out of any
 sides that directly correspond to its output tank or secondary output slot. This
-is called auto-output. Auto-output for fluids occurs whenever there is a fluid
-in the output tank. Auto-output for items occurs whenever the machine finishes
-processing an amount of fluid, or every 32 ticks (1.6 seconds) if the machine is
+is called auto-output. Auto-output occurs whenever the machine finishes
+processing a batch of fluid, or every 32 ticks (1.6 seconds) if the machine is
 inactive.
 
-A basic fractionating still can automatically output fluids at a maximum rate of
-1,000 mB/t, and can automatically output up to 16 items at a time. These amounts
-can be increased by upgrading the machine to a higher [tier](#tiers).
+A basic fractionating still can automatically output up to 1,000 mB of fluid and
+up to 16 items at a time. These amounts can be increased by upgrading the
+machine to a higher [tier](#tiers).
 
 Which sides correspond to which tanks/slots and whether auto-output is enabled
 can be configured using the Configuration tab in the machine's GUI.
@@ -101,8 +100,8 @@ High
 The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 When a fractionating still must stop working due to a redstone signal and is
-still processing an amount of fluid, it will finish processing that amount of
-fluid before stopping.
+still processing a batch of fluid, it will finish processing that batch before
+stopping.
 
 ### Security
 A fractionating still can have a [signalum security
@@ -120,13 +119,13 @@ Fractionating stills come in five [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. fluid auto-output rate | Max. items per auto-output |
+| Tier | Max. power usage | Augment slots | Max. fluid per auto-transfer | Max. items per auto-transfer |
 |---
-| Basic | 20 RF/t | 0 | 1,000 mB/t | 16 |
-| Hardened | 30 RF/t | 1 | 1,000 mB/t | 16 |
-| Reinforced | 40 RF/t | 2 | 3,000 mB/t | 28 |
-| Signalum | 50 RF/t | 3 | 6,000 mB/t | 44 |
-| Resonant | 60 RF/t | 4 | 10,000 mB/t | 64 |
+| Basic | 20 RF/t | 0 | 1,000 mB | 16 |
+| Hardened | 30 RF/t | 1 | 1,000 mB | 16 |
+| Reinforced | 40 RF/t | 2 | 3,000 mB | 28 |
+| Signalum | 50 RF/t | 3 | 6,000 mB | 44 |
+| Resonant | 60 RF/t | 4 | 10,000 mB | 64 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

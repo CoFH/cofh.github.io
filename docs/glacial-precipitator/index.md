@@ -122,7 +122,7 @@ Glacial precipitators come in five [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-output |
+| Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
 |---
 | Basic | 20 RF/t | 0 | 16 |
 | Hardened | 30 RF/t | 1 | 16 |
