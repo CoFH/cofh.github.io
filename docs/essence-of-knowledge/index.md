@@ -35,6 +35,11 @@ An [insightful condenser](/docs/insightful-condenser/) collects nearby
 [experience orbs](https://minecraft.gamepedia.com/Experience) and converts them
 into essence of knowledge.
 
+### Centrifugal Separator with Enstabulation Apparatus
+A [centrifugal separator](/docs/centrifugal-separator/) with an [enstabulation
+apparatus](/docs/augment-enstabulation-apparatus/) installed produces essence of
+knowledge when processing filled [morbs](/docs/morb/).
+
 ### Fluid Transposer
 {% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
 

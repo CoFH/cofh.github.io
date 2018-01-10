@@ -188,8 +188,10 @@ machine-centrifuge-mobs:
   installed-in: '<a href="/docs/centrifugal-separator/">Centrifugal Separator</a>'
   description: >
     A specialization that allows for a centrifugal separator to process filled
-    <a href="/docs/morb/">morbs</a> for mob drops and <a
-    href="/docs/essence-of-knowledge/">essence of knowledge</a>.
+    <a href="/docs/morb/">morbs</a> for <a
+    href="https://minecraft.gamepedia.com/Mob">mob</a> drops and <a
+    href="/docs/essence-of-knowledge/">essence of knowledge</a>. However, a
+    centrifugal separator can only process morbs when installed.
 machine-crafter-input:
   name: Pattern Validation
   url: augment-pattern-validation/

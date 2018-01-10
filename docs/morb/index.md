@@ -38,3 +38,10 @@ breaking after releasing the mob.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Centrifugal Separator with Enstabulation Apparatus
+A [centrifugal separator](/docs/centrifugal-separator/) with an [enstabulation
+apparatus](/docs/augment-enstabulation-apparatus/) installed processes filled
+morbs into [mob](https://minecraft.gamepedia.com/Mob) drops and [essence of
+knowledge](/docs/essence-of-knowledge/). When processing morbs, there is a 20%
+chance that an empty morb is returned as an output.
