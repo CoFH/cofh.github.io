@@ -24,7 +24,7 @@ a similar item, some of which are compatible with the CoFH mods.
 
 ### Redstone Arsenal
 * [Flux-Infused OmniWrench](/docs/flux-infused-omniwrench/)
-* [Flux-Infused BattleWrench](/docs/flux-infused-omniwrench/)
+* [Flux-Infused BattleWrench](/docs/flux-infused-battlewrench/)
 
 
 Usage
