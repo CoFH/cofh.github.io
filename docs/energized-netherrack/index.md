@@ -53,3 +53,11 @@ Usage
 
 ### Light source
 Energized netherrack emits a light level of 15.
+
+
+Trivia
+------
+
+* Energized netherrack is generated in the world using [CoFH
+  World](/docs/cofh-world/). The world generation can be tweaked or disabled
+  using CoFH World's [configuration](/docs/world-generator-configuration/).

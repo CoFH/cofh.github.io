@@ -51,3 +51,11 @@ Usage
 
 ### Light source
 Resonant end stone emits a light level of 3.
+
+
+Trivia
+------
+
+* Resonant end stone is generated in the world using [CoFH
+  World](/docs/cofh-world/). The world generation can be tweaked or disabled
+  using CoFH World's [configuration](/docs/world-generator-configuration/).

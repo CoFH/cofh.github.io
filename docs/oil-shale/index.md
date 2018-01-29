@@ -59,3 +59,11 @@ Usage
 
 ### Magma Crucible
 {% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}
+
+
+Trivia
+------
+
+* Oil shale is generated in the world using [CoFH World](/docs/cofh-world/). The
+  world generation can be tweaked or disabled using CoFH World's
+  [configuration](/docs/world-generator-configuration/).

@@ -57,3 +57,11 @@ Usage
 
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
+
+
+Trivia
+------
+
+* Lead ore is generated in the world using [CoFH World](/docs/cofh-world/). The
+  world generation can be tweaked or disabled using CoFH World's
+  [configuration](/docs/world-generator-configuration/).

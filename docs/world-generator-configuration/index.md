@@ -36,6 +36,10 @@ required when adding more world generation types, but can improve readability.
 The folder is read recursively, so the `.json` files may be grouped in
 subfolders.
 
+Only files with the `.json` extension are read. This means that entire
+configuration files can be disabled by simply changing the extension to
+something else.
+
 Editing `00_minecraft.json` will only have effect if the option
 `ReplaceStandardGeneration` is set to `true` in CoFH World's configuration file.
 It is set to `false` by default.

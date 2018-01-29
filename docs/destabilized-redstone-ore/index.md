@@ -56,3 +56,11 @@ Usage
 
 ### Light source
 Destabilized redstone ore emits a light level of 7.
+
+
+Trivia
+------
+
+* Destabilized redstone ore is generated in the world using [CoFH
+  World](/docs/cofh-world/). The world generation can be tweaked or disabled
+  using CoFH World's [configuration](/docs/world-generator-configuration/).
