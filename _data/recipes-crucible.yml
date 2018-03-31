@@ -32,7 +32,7 @@ recipes:
   creosote-oil-from-tar:
     results:
       - fluid: creosote-oil
-        fluid-amount: 100
+        fluid-amount: 250
     ingredients:
       - item: tar
     energy: 2000
@@ -41,7 +41,7 @@ recipes:
         item: [tar]
       output:
         fluid: creosote-oil
-        amount: 100
+        amount: 250
   crude-oil-from-bitumen:
     results:
       - fluid: crude-oil

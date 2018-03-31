@@ -63,7 +63,7 @@ recipes:
         item: [bookshelf]
       primary-output:
         item: [wood-planks-oak]
-        amount: 3
+        amount: 4
       secondary-output:
         item: [book]
         amount: 3
@@ -188,6 +188,7 @@ recipes:
     data:
       input:
         item-group: fence-wood
+        amount: 2
       primary-output:
         item-group: wood-planks
       secondary-output:

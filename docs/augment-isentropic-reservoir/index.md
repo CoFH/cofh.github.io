@@ -33,7 +33,7 @@ installed together with other specialization augments.
 ### Effects
 An installed isentropic reservoir quadruples the maximum power output of a
 [magmatic dynamo](/docs/magmatic-dynamo/), and increases the amount of [Redstone
-Flux](/docs/redstone-flux/) it generates from each unit of fuel by 25%. However,
+Flux](/docs/redstone-flux/) it generates from each unit of fuel by 15%. However,
 the dynamo requires [coolant](/docs/coolants/) as well as fuel to generate
 energy.
 

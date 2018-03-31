@@ -515,3 +515,20 @@ recipes:
         item: [slimeball]
       output-2:
         item: [blaze-powder]
+  sugar-canes:
+    results:
+      - item: sugar
+      - fluid: water
+        fluid-amount: 250
+    ingredients:
+      - item: sugar-canes
+    energy: 2000
+    data:
+      input:
+        item: [sugar-canes]
+      output-1:
+        item: [sugar]
+        amount: 2
+      fluid-output:
+        fluid: water
+        amount: 250
