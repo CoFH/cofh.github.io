@@ -40,6 +40,7 @@ usage-recipes:
     - petrotheum-ingot-tin
     - nugget-tin
     - gear-tin
+    - gear-iron-using-tin
     - storage-block-tin
     - crescent-hammer
     - machine-crafter
