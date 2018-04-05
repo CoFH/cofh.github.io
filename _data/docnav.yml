@@ -118,84 +118,123 @@ thermal-foundation:
               items:
                 - title: Copper
                   url: copper-ingot/
+                  icon: [1, 1]
                 - title: Tin
                   url: tin-ingot/
+                  icon: [2, 1]
                 - title: Silver
                   url: silver-ingot/
+                  icon: [3, 1]
                 - title: Lead
                   url: lead-ingot/
+                  icon: [4, 1]
                 - title: Aluminum
                   url: aluminum-ingot/
+                  icon: [5, 1]
                 - title: Nickel
                   url: nickel-ingot/
+                  icon: [6, 1]
                 - title: Platinum
                   url: platinum-ingot/
+                  icon: [7, 1]
                 - title: Iridium
                   url: iridium-ingot/
+                  icon: [8, 1]
                 - title: Mana Infused
                   url: mana-infused-ingot/
+                  icon: [9, 1]
                 - title: Steel
                   url: steel-ingot/
+                  icon: [10, 1]
                 - title: Electrum
                   url: electrum-ingot/
+                  icon: [11, 1]
                 - title: Invar
                   url: invar-ingot/
+                  icon: [12, 1]
                 - title: Bronze
                   url: bronze-ingot/
+                  icon: [13, 1]
                 - title: Constantan
                   url: constantan-ingot/
+                  icon: [14, 1]
                 - title: Signalum
                   url: signalum-ingot/
+                  icon: [15, 1]
                 - title: Lumium
                   url: lumium-ingot/
+                  icon: [0, 2]
                 - title: Enderium
                   url: enderium-ingot/
+                  icon: [1, 2]
             - title: Dusts
               items:
-                - title: Pulverized Iron
+                - title: Iron
                   url: pulverized-iron/
-                - title: Pulverized Gold
+                  icon: [2, 2]
+                - title: Gold
                   url: pulverized-gold/
-                - title: Pulverized Copper
+                  icon: [3, 2]
+                - title: Copper
                   url: pulverized-copper/
-                - title: Pulverized Tin
+                  icon: [4, 2]
+                - title: Tin
                   url: pulverized-tin/
-                - title: Pulverized Silver
+                  icon: [5, 2]
+                - title: Silver
                   url: pulverized-silver/
-                - title: Pulverized Lead
+                  icon: [6, 2]
+                - title: Lead
                   url: pulverized-lead/
-                - title: Pulverized Aluminum
+                  icon: [7, 2]
+                - title: Aluminum
                   url: pulverized-aluminum/
-                - title: Pulverized Nickel
+                  icon: [8, 2]
+                - title: Nickel
                   url: pulverized-nickel/
-                - title: Pulverized Platinum
+                  icon: [9, 2]
+                - title: Platinum
                   url: pulverized-platinum/
-                - title: Pulverized Iridium
+                  icon: [10, 2]
+                - title: Iridium
                   url: pulverized-iridium/
-                - title: Pulverized Mana Infused Metal
+                  icon: [11, 2]
+                - title: Mana Infused Metal
                   url: pulverized-mana-infused-metal/
-                - title: Steel Blend
+                  icon: [12, 2]
+                - title: Steel
                   url: steel-blend/
-                - title: Electrum Blend
+                  icon: [13, 2]
+                - title: Electrum
                   url: electrum-blend/
-                - title: Invar Blend
+                  icon: [14, 2]
+                - title: Invar
                   url: invar-blend/
-                - title: Bronze Blend
+                  icon: [15, 2]
+                - title: Bronze
                   url: bronze-blend/
-                - title: Constantan Blend
+                  icon: [0, 3]
+                - title: Constantan
                   url: constantan-blend/
-                - title: Signalum Blend
+                  icon: [1, 3]
+                - title: Signalum
                   url: signalum-blend/
-                - title: Lumium Blend
+                  icon: [2, 3]
+                - title: Lumium
                   url: lumium-blend/
-                - title: Enderium Blend
+                  icon: [3, 3]
+                - title: Enderium
                   url: enderium-blend/
-                - title: Pulverized Coal
+                  icon: [4, 3]
+                - title: Coal
                   url: pulverized-coal/
-                - title: Pulverized Charcoal
+                  icon: [5, 3]
+                - title: Charcoal
                   url: pulverized-charcoal/
-                - title: Pulverized Obsidian
+                  icon: [6, 3]
+                - title: Obsidian
                   url: pulverized-obsidian/
+                  icon: [7, 3]
             - title: Nuggets
               items:
                 - title: Copper
