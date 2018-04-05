@@ -4,9 +4,12 @@
 {% endif %}
 
 {% if include.item.subitems and item_url == null %}
-    {{ include.item.title }}
+    <span class="cofh-nowrap">
+        {% include navbox-icon.html icon=include.item.icon %}
+        {{ include.item.title }}
+    </span>
 {% else %}
-    {% include navbox-link.html page_url=include.page_url link_url=item_url text=include.item.title %}
+    {% include navbox-link.html page_url=include.page_url link_url=item_url text=include.item.title icon=include.item.icon %}
 {% endif %}
 
 {% if include.item.subitems %}
@@ -16,7 +19,7 @@
         {% endfor %}
     {% endcapture %}
 
-    <span style="font-size: 90%">
+    <span style="font-size: 95%">
         ({{subitems | strip}})
     </span>
 {% endif %}
