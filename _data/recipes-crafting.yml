@@ -3813,6 +3813,48 @@ recipes:
       result:
         item: [gear-iron]
         amount: 1
+  gear-iron-using-copper:
+    results:
+      - item: gear-iron
+    ingredients:
+      - item: ingot-iron
+      - item: ingot-copper
+    data:
+      rows:
+        - [null, item: [ingot-iron]]
+        - [item: [ingot-iron], item: [ingot-copper], item: [ingot-iron]]
+        - [null, item: [ingot-iron]]
+      result:
+        item: [gear-iron]
+        amount: 1
+  gear-iron-using-tin:
+    results:
+      - item: gear-iron
+    ingredients:
+      - item: ingot-iron
+      - item: ingot-tin
+    data:
+      rows:
+        - [null, item: [ingot-iron]]
+        - [item: [ingot-iron], item: [ingot-tin], item: [ingot-iron]]
+        - [null, item: [ingot-iron]]
+      result:
+        item: [gear-iron]
+        amount: 1
+  gear-iron-using-bronze:
+    results:
+      - item: gear-iron
+    ingredients:
+      - item: ingot-iron
+      - item: ingot-bronze
+    data:
+      rows:
+        - [null, item: [ingot-iron]]
+        - [item: [ingot-iron], item: [ingot-bronze], item: [ingot-iron]]
+        - [null, item: [ingot-iron]]
+      result:
+        item: [gear-iron]
+        amount: 1
   gear-lead:
     results:
       - item: gear-lead

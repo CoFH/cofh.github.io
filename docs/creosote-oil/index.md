@@ -53,4 +53,4 @@ Creosote oil cannot be placed as a block.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression dynamo](/docs/compression-dynamo/), a bucket
-of creosote oil yields 20,000 RF.
+of creosote oil yields 40,000 RF.
