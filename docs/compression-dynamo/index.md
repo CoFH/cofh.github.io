@@ -150,7 +150,7 @@ amounts of energy.
 
 | Fuel | Energy per 1,000 mB |
 |---
-| [Creosote Oil](/docs/creosote-oil/) | 20,000 RF |
+| [Creosote Oil](/docs/creosote-oil/) | 40,000 RF |
 | [Liquifacted Coal](/docs/liquifacted-coal/) | 400,000 RF |
 | [Crude Oil](/docs/crude-oil/) | 400,000 RF |
 | [Tree Oil](/docs/tree-oil/) | 1,000,000 RF |

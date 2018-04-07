@@ -38,7 +38,7 @@ server](https://discord.gg/uRKrnbH).
 
                 <div class="uk-button-group uk-margin-top">
                     <a class="uk-button uk-button-small uk-button-success uk-text-bold" href="{{mod.links.curse}}">Download on Curse</a>
-                    <a class="uk-button uk-button-small" href="{{mod.links.curseforge}}">CurseForge</a>
+                    <a class="uk-button uk-button-small" href="{{mod.links.curseforge}}">Project page</a>
 
                     {% if mod.links.changelog %}
                         <a class="uk-button uk-button-small" href="{{mod.links.changelog}}">Changelog</a>

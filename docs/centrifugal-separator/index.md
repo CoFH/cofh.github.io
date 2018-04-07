@@ -11,6 +11,7 @@ augments:
   - machine-centrifuge-mobs
 recipe-list:
   - magma-cream
+  - sugar-canes
   - dust-electrum
   - dust-invar
   - dust-bronze

@@ -41,6 +41,7 @@ usage-recipes:
     - petrotheum-ingot-copper
     - nugget-copper
     - gear-copper
+    - gear-iron-using-copper
     - storage-block-copper
     - multimeter
     - device-heat-sink

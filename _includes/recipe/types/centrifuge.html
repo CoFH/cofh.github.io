@@ -2,7 +2,10 @@
     {% include recipe/slot.html data=include.data.input top=38 left=10 %}
 
     {% include recipe/slot.html data=include.data.output-1 top=38 left=106 %}
-    {% include recipe/slot.html data=include.data.output-2 top=38 left=142 %}
+
+    {% if include.data.output-2 %}
+        {% include recipe/slot.html data=include.data.output-2 top=38 left=142 %}
+    {% endif %}
 
     {% if include.data.output-3 %}
         {% include recipe/slot.html data=include.data.output-3 top=74 left=106 %}

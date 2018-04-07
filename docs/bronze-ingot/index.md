@@ -36,6 +36,7 @@ usage-recipes:
   crafting:
     - nugget-bronze
     - gear-bronze
+    - gear-iron-using-bronze
     - storage-block-bronze
     - signalum-security-lock
     - machine-compactor

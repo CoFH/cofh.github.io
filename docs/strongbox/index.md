@@ -81,6 +81,11 @@ capacity.
 | IV | +36 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
+### Redstone comparators
+When placed next to a strongbox with public access, a [redstone
+comparator](https://minecraft.gamepedia.com/Redstone_Comparator) emits a signal
+strength of between 0 and 15, depending on how full the strongbox is.
+
 
 Tiers
 -----

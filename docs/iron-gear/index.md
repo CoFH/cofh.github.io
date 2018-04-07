@@ -7,6 +7,9 @@ redirect_from:
 recipes:
   crafting:
     - gear-iron
+    - gear-iron-using-copper
+    - gear-iron-using-tin
+    - gear-iron-using-bronze
   compactor-gear:
     - gear-iron-from-ingot
     - gear-iron-from-block
