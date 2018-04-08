@@ -3,6 +3,39 @@ title: Shields
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/weapons/shields/
+image:
+  - alt: Stone shield
+    file: thermal-foundation/shield-stone.png
+  - alt: Iron shield
+    file: thermal-foundation/shield-iron.png
+  - alt: Gold shield
+    file: thermal-foundation/shield-gold.png
+  - alt: Diamond shield
+    file: thermal-foundation/shield-diamond.png
+  - alt: Copper shield
+    file: thermal-foundation/shield-copper.png
+  - alt: Tin shield
+    file: thermal-foundation/shield-tin.png
+  - alt: Silver shield
+    file: thermal-foundation/shield-silver.png
+  - alt: Lead shield
+    file: thermal-foundation/shield-lead.png
+  - alt: Aluminum shield
+    file: thermal-foundation/shield-aluminum.png
+  - alt: Nickel shield
+    file: thermal-foundation/shield-nickel.png
+  - alt: Platinum shield
+    file: thermal-foundation/shield-platinum.png
+  - alt: Steel shield
+    file: thermal-foundation/shield-steel.png
+  - alt: Electrum shield
+    file: thermal-foundation/shield-electrum.png
+  - alt: Invar shield
+    file: thermal-foundation/shield-invar.png
+  - alt: Bronze shield
+    file: thermal-foundation/shield-bronze.png
+  - alt: Constantan shield
+    file: thermal-foundation/shield-constantan.png
 recipes:
   crafting:
     - shield-stone
@@ -40,9 +73,6 @@ usage-recipes:
   pulverizer:
     - recycling-shield-diamond
 ---
-
-![Shields](/assets/images/thermal-foundation/shields.gif){:style="height: 128px"}
-
 
 **[Shields](https://minecraft.gamepedia.com/Shield)** are weapons in vanilla
 Minecraft. [Thermal Foundation](/docs/thermal-foundation/) adds a set of shields
