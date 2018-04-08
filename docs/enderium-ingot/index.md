@@ -32,11 +32,11 @@ usage-recipes:
   pulverizer:
     - dust-enderium
   compactor-press:
-    - plate-enderium-from-ingot
+    - plate-enderium
   compactor-mint:
-    - coin-enderium-from-ingot
+    - coin-enderium
   compactor-gear:
-    - gear-enderium-from-ingot
+    - gear-enderium
 ---
 
 ![Enderium ingot](/assets/images/thermal-foundation/ingot-enderium.png){:style="height: 128px"}

@@ -57,11 +57,11 @@ usage-recipes:
   pulverizer:
     - dust-aluminum
   compactor-press:
-    - plate-aluminum-from-ingot
+    - plate-aluminum
   compactor-mint:
-    - coin-aluminum-from-ingot
+    - coin-aluminum
   compactor-gear:
-    - gear-aluminum-from-ingot
+    - gear-aluminum
 ---
 
 ![Aluminum ingot](/assets/images/thermal-foundation/ingot-aluminum.png){:style="height: 128px"}

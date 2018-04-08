@@ -28,11 +28,11 @@ usage-recipes:
   pulverizer:
     - dust-iridium
   compactor-press:
-    - plate-iridium-from-ingot
+    - plate-iridium
   compactor-mint:
-    - coin-iridium-from-ingot
+    - coin-iridium
   compactor-gear:
-    - gear-iridium-from-ingot
+    - gear-iridium
 ---
 
 ![Iridium ingot](/assets/images/thermal-foundation/ingot-iridium.png){:style="height: 128px"}

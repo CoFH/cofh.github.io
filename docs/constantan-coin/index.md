@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/constantan-coin/
 recipes:
   compactor-mint:
-    - coin-constantan-from-nugget
-    - coin-constantan-from-ingot
-    - coin-constantan-from-block
+    - coin-constantan
 ---
 
 ![Constantan coin](/assets/images/thermal-foundation/coin-constantan.png){:style="height: 128px"}

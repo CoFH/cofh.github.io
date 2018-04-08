@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/silver-coin/
 recipes:
   compactor-mint:
-    - coin-silver-from-nugget
-    - coin-silver-from-ingot
-    - coin-silver-from-block
+    - coin-silver
 ---
 
 ![Silver coin](/assets/images/thermal-foundation/coin-silver.png){:style="height: 128px"}

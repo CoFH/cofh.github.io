@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/signalum-coin/
 recipes:
   compactor-mint:
-    - coin-signalum-from-nugget
-    - coin-signalum-from-ingot
-    - coin-signalum-from-block
+    - coin-signalum
 ---
 
 ![Signalum coin](/assets/images/thermal-foundation/coin-signalum.png){:style="height: 128px"}

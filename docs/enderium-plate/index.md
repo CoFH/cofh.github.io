@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/enderium-plate/
 recipes:
   compactor-press:
-    - plate-enderium-from-ingot
-    - plate-enderium-from-block
+    - plate-enderium
 ---
 
 ![Enderium plate](/assets/images/thermal-foundation/plate-enderium.png){:style="height: 128px"}

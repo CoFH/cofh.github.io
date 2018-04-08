@@ -10,8 +10,6 @@ usage-recipes:
   crafting:
     - ingot-tin-from-nuggets
     - satchel-hardened
-  compactor-mint:
-    - coin-tin-from-nugget
 ---
 
 ![Tin nugget](/assets/images/thermal-foundation/nugget-tin.png){:style="height: 128px"}
@@ -33,6 +31,3 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

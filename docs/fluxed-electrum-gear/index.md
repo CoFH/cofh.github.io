@@ -10,8 +10,7 @@ recipes:
   crafting:
     - gear-fluxed-electrum
   compactor-gear:
-    - gear-fluxed-electrum-from-ingot
-    - gear-fluxed-electrum-from-block
+    - gear-fluxed-electrum
 usage-recipes:
   crafting:
     - flux-infused-battlewrench

@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-nickel
   compactor-gear:
-    - gear-nickel-from-ingot
-    - gear-nickel-from-block
+    - gear-nickel
 usage-recipes:
   crafting:
     - machine-refinery

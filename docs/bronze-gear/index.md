@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-bronze
   compactor-gear:
-    - gear-bronze-from-ingot
-    - gear-bronze-from-block
+    - gear-bronze
 usage-recipes:
   crafting:
     - upgrade-kit-hardened

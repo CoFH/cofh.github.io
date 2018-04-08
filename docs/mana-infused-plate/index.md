@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/mana-infused-plate/
 recipes:
   compactor-press:
-    - plate-mithril-from-ingot
-    - plate-mithril-from-block
+    - plate-mithril
 ---
 
 ![Mana infused plate](/assets/images/thermal-foundation/plate-mithril.png){:style="height: 128px"}

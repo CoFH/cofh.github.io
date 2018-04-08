@@ -84,11 +84,11 @@ usage-recipes:
   smelter:
     - hardened-glass-using-ingot
   compactor-press:
-    - plate-lead-from-ingot
+    - plate-lead
   compactor-mint:
-    - coin-lead-from-ingot
+    - coin-lead
   compactor-gear:
-    - gear-lead-from-ingot
+    - gear-lead
 ---
 
 ![Lead ingot](/assets/images/thermal-foundation/ingot-lead.png){:style="height: 128px"}

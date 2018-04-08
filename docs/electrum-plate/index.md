@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/electrum-plate/
 recipes:
   compactor-press:
-    - plate-electrum-from-ingot
-    - plate-electrum-from-block
+    - plate-electrum
 usage-recipes:
   crafting:
     - augment-machine-compactor-mint

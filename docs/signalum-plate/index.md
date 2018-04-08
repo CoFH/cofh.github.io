@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/signalum-plate/
 recipes:
   compactor-press:
-    - plate-signalum-from-ingot
-    - plate-signalum-from-block
+    - plate-signalum
 ---
 
 ![Signalum plate](/assets/images/thermal-foundation/plate-signalum.png){:style="height: 128px"}

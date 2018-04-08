@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/constantan-plate/
 recipes:
   compactor-press:
-    - plate-constantan-from-ingot
-    - plate-constantan-from-block
+    - plate-constantan
 ---
 
 ![Constantan plate](/assets/images/thermal-foundation/plate-constantan.png){:style="height: 128px"}

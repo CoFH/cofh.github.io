@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-platinum
   compactor-gear:
-    - gear-platinum-from-ingot
-    - gear-platinum-from-block
+    - gear-platinum
 ---
 
 ![Platinum gear](/assets/images/thermal-foundation/gear-platinum.png){:style="height: 128px"}

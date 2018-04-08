@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-constantan
   compactor-gear:
-    - gear-constantan-from-ingot
-    - gear-constantan-from-block
+    - gear-constantan
 usage-recipes:
   crafting:
     - machine-refinery

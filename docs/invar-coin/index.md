@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/invar-coin/
 recipes:
   compactor-mint:
-    - coin-invar-from-nugget
-    - coin-invar-from-ingot
-    - coin-invar-from-block
+    - coin-invar
 ---
 
 ![Invar coin](/assets/images/thermal-foundation/coin-invar.png){:style="height: 128px"}

@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-steel
   compactor-gear:
-    - gear-steel-from-ingot
-    - gear-steel-from-block
+    - gear-steel
 ---
 
 ![Steel gear](/assets/images/thermal-foundation/gear-steel.png){:style="height: 128px"}

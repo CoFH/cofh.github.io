@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/iron-plate/
 recipes:
   compactor-press:
-    - plate-iron-from-ingot
-    - plate-iron-from-block
+    - plate-iron
 ---
 
 ![Iron plate](/assets/images/thermal-foundation/plate-iron.png){:style="height: 128px"}

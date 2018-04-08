@@ -199,8 +199,9 @@ of knowledge](/docs/essence-of-knowledge/).
 |
 | [Holding I](/docs/holding/) | [Chest](https://minecraft.gamepedia.com/Chest) | 1,500 mB | 500 RF |
 | [Insight I](/docs/insight/) | [Bottle o' Enchanting](https://minecraft.gamepedia.com/Bottle_o%27_Enchanting) | 1,500 mB | 8,000 RF |
-| [Leech I](/docs/leech/) | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | 1,500 mB | 8,000 RF |
+| [Leech I](/docs/leech/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 1,500 mB | 8,000 RF |
 | [Smelting](/docs/smelting/) | [Furnace](https://minecraft.gamepedia.com/Furnace) | 1,500 mB | 8,000 RF |
+| [Soulbound I](/docs/soulbound/) | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | 1,500 mB | 8,000 RF |
 | [Multishot I](/docs/multishot/) | [Arrow](https://minecraft.gamepedia.com/Arrow) | 3,000 mB | 12,000 RF |
 | [Vorpal I](/docs/vorpal/) | [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) | 5,000 mB | 16,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}

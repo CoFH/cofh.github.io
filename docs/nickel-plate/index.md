@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/nickel-plate/
 recipes:
   compactor-press:
-    - plate-nickel-from-ingot
-    - plate-nickel-from-block
+    - plate-nickel
 usage-recipes:
   crafting:
     - augment-machine-smelter-pyrotheum

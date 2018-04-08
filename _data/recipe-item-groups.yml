@@ -312,10 +312,6 @@ flower:
     - white-tulip
     - pink-tulip
     - oxeye-daisy
-    - sunflower
-    - lilac
-    - rose-bush
-    - peony
 food-raw:
   name: Raw Food
   site: mc-wiki
@@ -863,6 +859,17 @@ sword-metal:
     - sword-invar
     - sword-bronze
     - sword-constantan
+tall-flower:
+  name: Tall Flower
+  site: mc-wiki
+  url: Flower
+  prefix:
+    ingredient: 'any'
+  items:
+    - sunflower
+    - lilac
+    - rose-bush
+    - peony
 wood-log:
   name: Wood
   site: mc-wiki

@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/lumium-plate/
 recipes:
   compactor-press:
-    - plate-lumium-from-ingot
-    - plate-lumium-from-block
+    - plate-lumium
 usage-recipes:
   crafting:
     - augment-machine-insolator-tree

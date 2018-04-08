@@ -78,11 +78,11 @@ usage-recipes:
   pulverizer:
     - dust-electrum
   compactor-press:
-    - plate-electrum-from-ingot
+    - plate-electrum
   compactor-mint:
-    - coin-electrum-from-ingot
+    - coin-electrum
   compactor-gear:
-    - gear-electrum-from-ingot
+    - gear-electrum
 ---
 
 ![Electrum ingot](/assets/images/thermal-foundation/ingot-electrum.png){:style="height: 128px"}

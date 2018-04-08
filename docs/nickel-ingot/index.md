@@ -67,11 +67,11 @@ usage-recipes:
     - ingot-constantan-from-dust-copper-and-ingot-nickel
     - ingot-constantan-from-ingot-copper-and-ingot-nickel
   compactor-press:
-    - plate-nickel-from-ingot
+    - plate-nickel
   compactor-mint:
-    - coin-nickel-from-ingot
+    - coin-nickel
   compactor-gear:
-    - gear-nickel-from-ingot
+    - gear-nickel
 ---
 
 ![Nickel ingot](/assets/images/thermal-foundation/ingot-nickel.png){:style="height: 128px"}

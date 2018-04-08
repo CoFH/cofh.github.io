@@ -958,6 +958,11 @@ chorus-flower:
   sprite: [4, 58]
   site: mc-wiki
   url: Chorus_Flower
+chorus-fruit:
+  name: Chorus Fruit
+  sprite: [12, 61]
+  site: mc-wiki
+  url: Chorus_Fruit
 chorus-plant:
   name: Chorus Plant
   sprite: [5, 58]

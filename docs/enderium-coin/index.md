@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/enderium-coin/
 recipes:
   compactor-mint:
-    - coin-enderium-from-nugget
-    - coin-enderium-from-ingot
-    - coin-enderium-from-block
+    - coin-enderium
 ---
 
 ![Enderium coin](/assets/images/thermal-foundation/coin-enderium.png){:style="height: 128px"}

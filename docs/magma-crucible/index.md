@@ -98,8 +98,9 @@ A magma crucible can automatically transfer fluids out of any sides that
 directly correspond to its output tank. This is called auto-output. It can also
 transfer items from adjacent inventories into any sides that directly correspond
 to its input slot. This is called auto-input. Auto-output and auto-input occur
-whenever the machine finishes processing an item, or every 32 ticks (1.6
-seconds) if the machine is inactive.
+whenever the machine finishes processing an item. Auto-output also occurs every
+4 ticks (0.2 seconds). Auto-input also occurs every 32 ticks (1.6 seconds) if
+the machine is inactive.
 
 A basic magma crucible can automatically transfer up to 16 items and up to 1,000
 mB of fluid at a time. These amounts can be increased by upgrading the machine

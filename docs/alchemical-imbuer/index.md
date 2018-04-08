@@ -72,8 +72,9 @@ An alchemical imbuer can automaticaly transfer fluids out of any sides that
 directly correspond to its output tank. This is called auto-output. The machine
 can also transfer items from adjacent inventories into any sides that directly
 correspond to its input slot. This is called auto-input. Auto-output and
-auto-input occur whenever the machine finishes brewing a potion, or every 32
-ticks (1.6 seconds) if the machine is inactive.
+auto-input occur whenever the machine finishes brewing a potion. Auto-output
+also occurs every 4 ticks (0.2 seconds). Auto-input also occurs every 32 ticks
+(1.6 seconds) if the machine is inactive.
 
 A basic alchemical imbuer can automatically transfer up to 1,000 mB of fluid and
 up to 16 items at a time. These amounts can be increased by upgrading the

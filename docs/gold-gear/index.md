@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-gold
   compactor-gear:
-    - gear-gold-from-ingot
-    - gear-gold-from-block
+    - gear-gold
 ---
 
 ![Gold gear](/assets/images/thermal-foundation/gear-gold.png){:style="height: 128px"}

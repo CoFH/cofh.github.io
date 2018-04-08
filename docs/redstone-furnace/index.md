@@ -81,7 +81,8 @@ that directly correspond to its output slot/tank. This is called auto-output. It
 can also transfer items from adjacent inventories into any sides that directly
 correspond to its input slot. This is called auto-input. Auto-output and
 auto-input occur whenever the machine finishes processing an item, or every 32
-ticks (1.6 seconds) if the machine is inactive.
+ticks (1.6 seconds) if the machine is inactive. For fluids, auto-output also
+occurs every 4 ticks (0.2 seconds).
 
 A basic redstone furnace can automatically transfer up to 16 items and up to
 1,000 mB of fluid at a time. These amounts can be increased by upgrading the

@@ -11,8 +11,6 @@ usage-recipes:
     - ingot-enderium-from-nuggets
     - fluxduct-resonant-empty-one
     - fluxduct-resonant-one
-  compactor-mint:
-    - coin-enderium-from-nugget
 ---
 
 ![Enderium nugget](/assets/images/thermal-foundation/nugget-enderium.png){:style="height: 128px"}
@@ -34,6 +32,3 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

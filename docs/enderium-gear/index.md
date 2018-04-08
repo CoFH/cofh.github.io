@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-enderium
   compactor-gear:
-    - gear-enderium-from-ingot
-    - gear-enderium-from-block
+    - gear-enderium
 ---
 
 ![Enderium gear](/assets/images/thermal-foundation/gear-enderium.png){:style="height: 128px"}

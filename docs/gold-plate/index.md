@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/gold-plate/
 recipes:
   compactor-press:
-    - plate-gold-from-ingot
-    - plate-gold-from-block
+    - plate-gold
 usage-recipes:
   crafting:
     - augment-dynamo-enervation-enchant

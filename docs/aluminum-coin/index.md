@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/aluminum-coin/
 recipes:
   compactor-mint:
-    - coin-aluminum-from-nugget
-    - coin-aluminum-from-ingot
-    - coin-aluminum-from-block
+    - coin-aluminum
 ---
 
 ![Aluminum coin](/assets/images/thermal-foundation/coin-aluminum.png){:style="height: 128px"}

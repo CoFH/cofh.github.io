@@ -8,9 +8,7 @@ recipes:
   crafting:
     - augment-machine-compactor-mint
 recipe-list:
-  - coin-from-nugget
-  - coin-from-ingot
-  - coin-from-block
+  - coin
 ---
 
 A **numismatic press** is an [augment](/docs/augments/) that allows for a

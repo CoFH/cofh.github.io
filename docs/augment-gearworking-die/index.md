@@ -8,10 +8,8 @@ recipes:
   crafting:
     - augment-machine-compactor-gear
 recipe-list:
-  - gear-from-ingot
-  - gear-from-block
-  - gear-fluxed-electrum-from-ingot
-  - gear-fluxed-electrum-from-block
+  - gear
+  - gear-fluxed-electrum
 ---
 
 A **gearworking die** is an [augment](/docs/augments/) that allows for a

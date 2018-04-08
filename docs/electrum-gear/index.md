@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-electrum
   compactor-gear:
-    - gear-electrum-from-ingot
-    - gear-electrum-from-block
+    - gear-electrum
 usage-recipes:
   crafting:
     - multimeter

@@ -23,6 +23,7 @@ usage-recipes:
     - carrot-rich
     - cocoa-beans-rich
     - flower-rich
+    - tall-flower-rich
     - lily-pad-rich
     - melon-rich
     - potato-rich
@@ -32,7 +33,7 @@ usage-recipes:
     - wheat-rich
     - mushroom-rich
     - nether-wart-rich
-    - chorus-plant-rich
+    - chorus-fruit-rich
   insolator-tree:
     - wood-rich
 ---

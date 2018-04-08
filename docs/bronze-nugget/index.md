@@ -9,8 +9,6 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-bronze-from-nuggets
-  compactor-mint:
-    - coin-bronze-from-nugget
 ---
 
 ![Bronze nugget](/assets/images/thermal-foundation/nugget-bronze.png){:style="height: 128px"}
@@ -32,6 +30,3 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

@@ -13,12 +13,6 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-silver-from-block
-  compactor-press:
-    - plate-silver-from-block
-  compactor-mint:
-    - coin-silver-from-block
-  compactor-gear:
-    - gear-silver-from-block
 ---
 
 **Blocks of silver** are blocks made from [silver ingots](/docs/silver-ingot/).
@@ -53,15 +47,6 @@ Blocks of silver can be used to build
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
-
-### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 ### Primal Mana
 When [primal mana](/docs/primal-mana/) touches a block of silver, the block is

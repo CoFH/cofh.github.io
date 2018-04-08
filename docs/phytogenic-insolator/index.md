@@ -28,11 +28,12 @@ recipe-list:
     - melon
     - cocoa-beans
     - flower
+    - tall-flower
     - lily-pad
     - vines
     - mushroom
     - nether-wart
-    - chorus-plant
+    - chorus-fruit
   phyto-gro-rich:
     - wheat-rich
     - potato-rich
@@ -44,11 +45,12 @@ recipe-list:
     - melon-rich
     - cocoa-beans-rich
     - flower-rich
+    - tall-flower-rich
     - lily-pad-rich
     - vines-rich
     - mushroom-rich
     - nether-wart-rich
-    - chorus-plant-rich
+    - chorus-fruit-rich
   phyto-gro-fluxed:
     - wheat-fluxed
     - potato-fluxed
@@ -60,11 +62,12 @@ recipe-list:
     - melon-fluxed
     - cocoa-beans-fluxed
     - flower-fluxed
+    - tall-flower-fluxed
     - lily-pad-fluxed
     - vines-fluxed
     - mushroom-fluxed
     - nether-wart-fluxed
-    - chorus-plant-fluxed
+    - chorus-fruit-fluxed
 ---
 
 ![Phytogenic insolator](/assets/images/thermal-expansion/phytogenic-insolator.png){:style="height: 128px"}

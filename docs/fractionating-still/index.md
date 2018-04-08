@@ -72,8 +72,7 @@ secondary output slot, or certain tanks/slots at the same time.
 A fractionating still can automatically transfer fluids or items out of any
 sides that directly correspond to its output tank or secondary output slot. This
 is called auto-output. Auto-output occurs whenever the machine finishes
-processing a batch of fluid, or every 32 ticks (1.6 seconds) if the machine is
-inactive.
+processing a batch of fluid, as well as every 4 ticks (0.2 seconds).
 
 A basic fractionating still can automatically output up to 1,000 mB of fluid and
 up to 16 items at a time. These amounts can be increased by upgrading the

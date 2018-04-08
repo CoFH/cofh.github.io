@@ -13,12 +13,6 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-bronze-from-block
-  compactor-press:
-    - plate-bronze-from-block
-  compactor-mint:
-    - coin-bronze-from-block
-  compactor-gear:
-    - gear-bronze-from-block
 ---
 
 **Blocks of bronze** are blocks made from [bronze ingots](/docs/bronze-ingot/).
@@ -50,12 +44,3 @@ Blocks of bronze can be used to build
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
-
-### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

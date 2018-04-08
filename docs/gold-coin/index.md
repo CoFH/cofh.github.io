@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/gold-coin/
 recipes:
   compactor-mint:
-    - coin-gold-from-nugget
-    - coin-gold-from-ingot
-    - coin-gold-from-block
+    - coin-gold
 ---
 
 ![Gold coin](/assets/images/thermal-foundation/coin-gold.png){:style="height: 128px"}

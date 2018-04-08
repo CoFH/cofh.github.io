@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-aluminum
   compactor-gear:
-    - gear-aluminum-from-ingot
-    - gear-aluminum-from-block
+    - gear-aluminum
 ---
 
 ![Aluminum gear](/assets/images/thermal-foundation/gear-aluminum.png){:style="height: 128px"}

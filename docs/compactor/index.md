@@ -12,10 +12,8 @@ augments:
   - machine-compactor-gear
 recipe-list:
   press:
-    - plate-from-ingot
-    - plate-from-block
-    - plate-fluxed-electrum-from-ingot
-    - plate-fluxed-electrum-from-block
+    - plate
+    - plate-fluxed-electrum
     - blaze-rod-from-powder
     - blizz-rod-from-powder
     - blitz-rod-from-powder

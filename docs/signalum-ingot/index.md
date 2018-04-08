@@ -39,11 +39,11 @@ usage-recipes:
   pulverizer:
     - dust-signalum
   compactor-press:
-    - plate-signalum-from-ingot
+    - plate-signalum
   compactor-mint:
-    - coin-signalum-from-ingot
+    - coin-signalum
   compactor-gear:
-    - gear-signalum-from-ingot
+    - gear-signalum
 ---
 
 ![Signalum ingot](/assets/images/thermal-foundation/ingot-signalum.png){:style="height: 128px"}

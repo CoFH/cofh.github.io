@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/platinum-coin/
 recipes:
   compactor-mint:
-    - coin-platinum-from-nugget
-    - coin-platinum-from-ingot
-    - coin-platinum-from-block
+    - coin-platinum
 ---
 
 ![Platinum coin](/assets/images/thermal-foundation/coin-platinum.png){:style="height: 128px"}

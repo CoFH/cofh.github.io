@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/bronze-plate/
 recipes:
   compactor-press:
-    - plate-bronze-from-ingot
-    - plate-bronze-from-block
+    - plate-bronze
 usage-recipes:
   crafting:
     - augment-machine-pulverizer-petrotheum

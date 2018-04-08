@@ -63,11 +63,11 @@ usage-recipes:
   pulverizer:
     - dust-platinum
   compactor-press:
-    - plate-platinum-from-ingot
+    - plate-platinum
   compactor-mint:
-    - coin-platinum-from-ingot
+    - coin-platinum
   compactor-gear:
-    - gear-platinum-from-ingot
+    - gear-platinum
 ---
 
 ![Platinum ingot](/assets/images/thermal-foundation/ingot-platinum.png){:style="height: 128px"}

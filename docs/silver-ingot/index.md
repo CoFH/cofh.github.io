@@ -66,11 +66,11 @@ usage-recipes:
     - ingot-electrum-from-dust-gold-and-ingot-silver
     - ingot-electrum-from-ingot-gold-and-ingot-silver
   compactor-press:
-    - plate-silver-from-ingot
+    - plate-silver
   compactor-mint:
-    - coin-silver-from-ingot
+    - coin-silver
   compactor-gear:
-    - gear-silver-from-ingot
+    - gear-silver
 ---
 
 ![Silver ingot](/assets/images/thermal-foundation/ingot-silver.png){:style="height: 128px"}
