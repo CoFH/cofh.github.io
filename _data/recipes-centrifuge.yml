@@ -295,9 +295,8 @@ recipes:
   dust-aerotheum:
     results:
       - item: blitz-powder
-      - item: niter
-      - item: sand
       - item: redstone
+      - item: niter
     ingredients:
       - item: dust-aerotheum
     energy: 4000
@@ -306,13 +305,11 @@ recipes:
         item: [dust-aerotheum]
         amount: 2
       output-1:
-        item: [niter]
-      output-2:
         item: [blitz-powder]
-      output-3:
-        item: [sand]
-      output-4:
+      output-2:
         item: [redstone]
+      output-3:
+        item: [niter]
   dust-bronze:
     results:
       - item: dust-copper
@@ -347,9 +344,8 @@ recipes:
   dust-cryotheum:
     results:
       - item: blizz-powder
-      - item: niter
-      - item: snowball
       - item: redstone
+      - item: snowball
     ingredients:
       - item: dust-cryotheum
     energy: 4000
@@ -358,13 +354,11 @@ recipes:
         item: [dust-cryotheum]
         amount: 2
       output-1:
-        item: [niter]
-      output-2:
         item: [blizz-powder]
+      output-2:
+        item: [redstone]
       output-3:
         item: [snowball]
-      output-4:
-        item: [redstone]
   dust-electrum:
     results:
       - item: dust-gold
@@ -441,9 +435,8 @@ recipes:
   dust-petrotheum:
     results:
       - item: basalz-powder
-      - item: dust-obsidian
-      - item: clay
       - item: redstone
+      - item: dust-obsidian
     ingredients:
       - item: dust-petrotheum
     energy: 4000
@@ -452,19 +445,16 @@ recipes:
         item: [dust-petrotheum]
         amount: 2
       output-1:
-        item: [dust-obsidian]
-      output-2:
         item: [basalz-powder]
-      output-3:
-        item: [clay]
-      output-4:
+      output-2:
         item: [redstone]
+      output-3:
+        item: [dust-obsidian]
   dust-pyrotheum:
     results:
       - item: blaze-powder
-      - item: sulfur
-      - item: dust-coal
       - item: redstone
+      - item: sulfur
     ingredients:
       - item: dust-pyrotheum
     energy: 4000
@@ -473,13 +463,11 @@ recipes:
         item: [dust-pyrotheum]
         amount: 2
       output-1:
-        item: [sulfur]
-      output-2:
         item: [blaze-powder]
-      output-3:
-        item: [dust-coal]
-      output-4:
+      output-2:
         item: [redstone]
+      output-3:
+        item: [sulfur]
   dust-signalum:
     results:
       - item: dust-copper

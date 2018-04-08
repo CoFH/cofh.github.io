@@ -9,12 +9,9 @@ recipes:
   pulverizer:
     - dust-coal
     - ore-processing-coal
-  centrifuge:
-    - dust-pyrotheum
 usage-recipes:
   crafting:
     - gunpowder-using-coal-sulfur-and-niter
-    - dust-pyrotheum
   smelter:
     - ingot-steel-from-dust-iron-and-dust-coal
     - ingot-steel-from-ingot-iron-and-dust-coal
@@ -37,9 +34,6 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
-
-### Centrifugal Separator
-{% include recipe-table.html type='centrifuge' recipes=page.recipes.centrifuge %}
 
 
 Usage

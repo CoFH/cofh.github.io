@@ -1824,15 +1824,14 @@ recipes:
     results:
       - item: dust-aerotheum
     ingredients:
-      - item: sand
-      - item: niter
-      - item: redstone
       - item: blitz-powder
+      - item: redstone
+      - item: niter
     data:
       shapeless: true
       rows:
-        - [item: [sand], item: [niter]]
-        - [item: [redstone], item: [blitz-powder]]
+        - [item: [blitz-powder], item: [redstone]]
+        - [item: [niter]]
       result:
         item: [dust-aerotheum]
         amount: 2
@@ -1867,15 +1866,14 @@ recipes:
     results:
       - item: dust-cryotheum
     ingredients:
-      - item: snowball
-      - item: niter
-      - item: redstone
       - item: blizz-powder
+      - item: redstone
+      - item: snowball
     data:
       shapeless: true
       rows:
-        - [item: [snowball], item: [niter]]
-        - [item: [redstone], item: [blizz-powder]]
+        - [item: [blizz-powder], item: [redstone]]
+        - [item: [snowball]]
       result:
         item: [dust-cryotheum]
         amount: 2
@@ -1971,15 +1969,14 @@ recipes:
     results:
       - item: dust-petrotheum
     ingredients:
-      - item: clay
-      - item: dust-obsidian
-      - item: redstone
       - item: basalz-powder
+      - item: redstone
+      - item: dust-obsidian
     data:
       shapeless: true
       rows:
-        - [item: [clay], item: [dust-obsidian]]
-        - [item: [redstone], item: [basalz-powder]]
+        - [item: [basalz-powder], item: [redstone]]
+        - [item: [dust-obsidian]]
       result:
         item: [dust-petrotheum]
         amount: 2
@@ -1987,15 +1984,14 @@ recipes:
     results:
       - item: dust-pyrotheum
     ingredients:
-      - item: dust-coal
-      - item: sulfur
-      - item: redstone
       - item: blaze-powder
+      - item: redstone
+      - item: sulfur
     data:
       shapeless: true
       rows:
-        - [item: [dust-coal], item: [sulfur]]
-        - [item: [redstone], item: [blaze-powder]]
+        - [item: [blaze-powder], item: [redstone]]
+        - [item: [sulfur]]
       result:
         item: [dust-pyrotheum]
         amount: 2
