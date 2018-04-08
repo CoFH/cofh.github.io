@@ -31,6 +31,8 @@ cofh-core:
                   url: multishot/
                 - title: Smelting
                   url: smelting/
+                - title: Soulbound
+                  url: soulbound/
                 - title: Vorpal
                   url: vorpal/
             - title: Potions
