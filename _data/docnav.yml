@@ -866,6 +866,19 @@ thermal-cultivation:
             - title: Watering Can
               url: watering-can/
 
+thermal-innovation:
+  title: Thermal Innovation
+  url: thermal-innovation/
+  sections:
+    - groups:
+        - items:
+            - title: Fluxbore
+              url: fluxbore/
+            - title: Fluxomagnet
+              url: fluxomagnet/
+            - title: Hypoinfuser
+              url: hypoinfuser/
+
 redstone-arsenal:
   title: Redstone Arsenal
   url: redstone-arsenal/
