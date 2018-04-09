@@ -744,6 +744,8 @@ thermal-expansion:
                   url: augment-reagent-recovery/
                 - title: Pyroclastic Injection
                   url: augment-pyroclastic-injection/
+                - title: Clastic Deposition
+                  url: augment-clastic-deposition/
             - title: Dynamo
               items:
                 - title: Auxiliary Transmission Coil

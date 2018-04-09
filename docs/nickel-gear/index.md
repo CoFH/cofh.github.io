@@ -11,6 +11,7 @@ recipes:
 usage-recipes:
   crafting:
     - machine-refinery
+    - augment-machine-extruder-sedimentary
 ---
 
 ![Nickel gear](/assets/images/thermal-foundation/gear-nickel.png){:style="height: 128px"}

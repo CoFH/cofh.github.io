@@ -10,6 +10,7 @@ usage-recipes:
   crafting:
     - augment-machine-compactor-gear
     - augment-machine-refinery-potion
+    - augment-machine-extruder-sedimentary
     - augment-dynamo-reactant-elemental
 ---
 

@@ -32,6 +32,7 @@ augments:
     - machine-crafter-tank
     - machine-brewer-reagent
     - machine-extruder-no-water
+    - machine-extruder-sedimentary
   dynamo:
     - dynamo-power
     - dynamo-efficiency

@@ -675,6 +675,21 @@ recipes:
       result:
         item: [augment-machine-extruder-no-water]
         amount: 1
+  augment-machine-extruder-sedimentary:
+    results:
+      - item: augment-machine-extruder-sedimentary
+    ingredients:
+      - item: redstone-coil-electrum
+      - item: plate-lead
+      - item: gear-nickel
+      - item: dust-aerotheum
+    data:
+      rows:
+        - [null, item: [gear-nickel]]
+        - [item: [plate-lead], item: [redstone-coil-electrum], item: [plate-lead]]
+        - [null, item: [dust-aerotheum]]
+      result:
+        item: [augment-machine-extruder-sedimentary]
   axe-aluminum:
     results:
       - item: axe-aluminum

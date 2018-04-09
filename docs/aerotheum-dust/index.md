@@ -9,6 +9,7 @@ recipes:
     - dust-aerotheum
 usage-recipes:
   crafting:
+    - augment-machine-extruder-sedimentary
     - augment-dynamo-reactant-elemental
   crucible:
     - aerotheum

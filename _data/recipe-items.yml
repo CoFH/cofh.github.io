@@ -178,6 +178,11 @@ augment-machine-extruder-no-water:
   animated: true
   site: cofh
   url: augment-pyroclastic-injection/
+augment-machine-extruder-sedimentary:
+  name: 'Augment: Clastic Deposition'
+  animated: true
+  site: cofh
+  url: augment-clastic-deposition/
 augment-dynamo-power:
   name: 'Augment: Auxiliary Transmission Coil'
   sprite: [2, 29]
