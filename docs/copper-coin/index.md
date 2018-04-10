@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/copper-coin/
 recipes:
   compactor-mint:
-    - coin-copper-from-nugget
-    - coin-copper-from-ingot
-    - coin-copper-from-block
+    - coin-copper
 ---
 
 ![Copper coin](/assets/images/thermal-foundation/coin-copper.png){:style="height: 128px"}

@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-copper
   compactor-gear:
-    - gear-copper-from-ingot
-    - gear-copper-from-block
+    - gear-copper
 usage-recipes:
   crafting:
     - machine-furnace

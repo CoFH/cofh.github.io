@@ -31,6 +31,8 @@ cofh-core:
                   url: multishot/
                 - title: Smelting
                   url: smelting/
+                - title: Soulbound
+                  url: soulbound/
                 - title: Vorpal
                   url: vorpal/
             - title: Potions
@@ -1040,6 +1042,8 @@ thermal-expansion:
                 - title: Pyroclastic Injection
                   url: augment-pyroclastic-injection/
                   icon: [9, 18]
+                - title: Clastic Deposition
+                  url: augment-clastic-deposition/
             - title: Dynamo
               items:
                 - title: Auxiliary Transmission Coil
@@ -1176,6 +1180,19 @@ thermal-cultivation:
         - items:
             - title: Watering Can
               url: watering-can/
+
+thermal-innovation:
+  title: Thermal Innovation
+  url: thermal-innovation/
+  sections:
+    - groups:
+        - items:
+            - title: Fluxbore
+              url: fluxbore/
+            - title: Fluxomagnet
+              url: fluxomagnet/
+            - title: Hypoinfuser
+              url: hypoinfuser/
 
 redstone-arsenal:
   title: Redstone Arsenal

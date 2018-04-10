@@ -62,11 +62,11 @@ usage-recipes:
   pulverizer:
     - dust-bronze
   compactor-press:
-    - plate-bronze-from-ingot
+    - plate-bronze
   compactor-mint:
-    - coin-bronze-from-ingot
+    - coin-bronze
   compactor-gear:
-    - gear-bronze-from-ingot
+    - gear-bronze
 ---
 
 ![Bronze ingot](/assets/images/thermal-foundation/ingot-bronze.png){:style="height: 128px"}

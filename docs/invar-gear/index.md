@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-invar
   compactor-gear:
-    - gear-invar-from-ingot
-    - gear-invar-from-block
+    - gear-invar
 usage-recipes:
   crafting:
     - dynamo-magmatic

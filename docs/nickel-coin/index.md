@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/nickel-coin/
 recipes:
   compactor-mint:
-    - coin-nickel-from-nugget
-    - coin-nickel-from-ingot
-    - coin-nickel-from-block
+    - coin-nickel
 ---
 
 ![Nickel coin](/assets/images/thermal-foundation/coin-nickel.png){:style="height: 128px"}

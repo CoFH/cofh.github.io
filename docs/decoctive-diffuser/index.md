@@ -36,12 +36,13 @@ cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 When a [fluid potion](/docs/potion-fluid/) is supplied to a decoctive diffuser,
 it will begin applying the potion's
 [effect](https://minecraft.gamepedia.com/Status_effect) to nearby entities in a
-certain area (7x7x7 for [potions](https://minecraft.gamepedia.com/Potion), 9x9x9
-for [splash potions](https://minecraft.gamepedia.com/Splash_Potion) and 11x11x11
-for [lingering potions](https://minecraft.gamepedia.com/Lingering_Potion))
-centered on the device. The duration of the applied effect is one fourth of the
-duration of the potion itself. The device spreads potion effects every 60 ticks
-(3 seconds), consuming 50 mB of potion per cycle.
+certain area (9x9x9 for [potions](https://minecraft.gamepedia.com/Potion),
+13x13x13 for [splash potions](https://minecraft.gamepedia.com/Splash_Potion) and
+17x17x17 for [lingering
+potions](https://minecraft.gamepedia.com/Lingering_Potion)) centered on the
+device. The duration of the applied effect is one fourth of the duration of the
+potion itself. The device spreads potion effects every 60 ticks (3 seconds),
+consuming 50 mB of potion per cycle.
 
 The effects of a decoctive diffuser can be boosted by placing reagent items in
 its reagent slot. Reagent will boost the device's effects for 15 cycles per

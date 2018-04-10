@@ -7,11 +7,11 @@ recipes:
   crafting:
     - gear-nickel
   compactor-gear:
-    - gear-nickel-from-ingot
-    - gear-nickel-from-block
+    - gear-nickel
 usage-recipes:
   crafting:
     - machine-refinery
+    - augment-machine-extruder-sedimentary
 ---
 
 ![Nickel gear](/assets/images/thermal-foundation/gear-nickel.png){:style="height: 128px"}

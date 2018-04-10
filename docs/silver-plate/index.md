@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/silver-plate/
 recipes:
   compactor-press:
-    - plate-silver-from-ingot
-    - plate-silver-from-block
+    - plate-silver
 usage-recipes:
   crafting:
     - augment-machine-furnace-food

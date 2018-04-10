@@ -20,6 +20,7 @@ usage-recipes:
     - carrot
     - cocoa-beans
     - flower
+    - tall-flower
     - lily-pad
     - melon
     - potato
@@ -29,7 +30,7 @@ usage-recipes:
     - wheat
     - mushroom
     - nether-wart
-    - chorus-plant
+    - chorus-fruit
   insolator-tree:
     - wood
 ---

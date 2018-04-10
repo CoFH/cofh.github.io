@@ -204,9 +204,9 @@ recipes:
       primary-output:
         item: [carrot]
         amount: 12
-  chorus-plant:
+  chorus-fruit:
     results:
-      - item: chorus-plant
+      - item: chorus-fruit
         suffix: x2
       - item: chorus-flower
     ingredients:
@@ -224,14 +224,14 @@ recipes:
         fluid: water
         amount: 600
       primary-output:
-        item: [chorus-plant]
+        item: [chorus-fruit]
         amount: 2
       secondary-output:
         item: [chorus-flower]
       secondary-chance: 100
-  chorus-plant-rich:
+  chorus-fruit-rich:
     results:
-      - item: chorus-plant
+      - item: chorus-fruit
         suffix: x6
       - item: chorus-flower
     ingredients:
@@ -249,14 +249,14 @@ recipes:
         fluid: water
         amount: 750
       primary-output:
-        item: [chorus-plant]
+        item: [chorus-fruit]
         amount: 6
       secondary-output:
         item: [chorus-flower]
       secondary-chance: 125
-  chorus-plant-fluxed:
+  chorus-fruit-fluxed:
     results:
-      - item: chorus-plant
+      - item: chorus-fruit
         suffix: x8
       - item: chorus-flower
     ingredients:
@@ -274,7 +274,7 @@ recipes:
         fluid: water
         amount: 900
       primary-output:
-        item: [chorus-plant]
+        item: [chorus-fruit]
         amount: 8
       secondary-output:
         item: [chorus-flower]
@@ -877,6 +877,69 @@ recipes:
         amount: 900
       primary-output:
         item: [sugar-canes]
+        amount: 8
+  tall-flower:
+    results:
+      - item-group: tall-flower
+        suffix: x2
+    ingredients:
+      - item-group: tall-flower
+      - item: phyto-gro
+      - fluid: water
+        fluid-amount: 600
+    energy: 2400
+    data:
+      secondary-input:
+        item: [phyto-gro]
+      primary-input:
+        item-group: tall-flower
+      fluid-input:
+        fluid: water
+        amount: 600
+      primary-output:
+        item-group: tall-flower
+        amount: 2
+  tall-flower-rich:
+    results:
+      - item-group: tall-flower
+        suffix: x6
+    ingredients:
+      - item-group: tall-flower
+      - item: phyto-gro-rich
+      - fluid: water
+        fluid-amount: 750
+    energy: 3000
+    data:
+      secondary-input:
+        item: [phyto-gro-rich]
+      primary-input:
+        item-group: tall-flower
+      fluid-input:
+        fluid: water
+        amount: 750
+      primary-output:
+        item-group: tall-flower
+        amount: 6
+  tall-flower-fluxed:
+    results:
+      - item-group: tall-flower
+        suffix: x8
+    ingredients:
+      - item-group: tall-flower
+      - item: phyto-gro-fluxed
+      - fluid: water
+        fluid-amount: 900
+    energy: 3600
+    data:
+      secondary-input:
+        item: [phyto-gro-fluxed]
+      primary-input:
+        item-group: tall-flower
+      fluid-input:
+        fluid: water
+        amount: 900
+      primary-output:
+        item-group: tall-flower
         amount: 8
   vines:
     results:

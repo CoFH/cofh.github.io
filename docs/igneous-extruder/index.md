@@ -13,6 +13,7 @@ recipes:
 augments:
   - machine-power
   - machine-extruder-no-water
+  - machine-extruder-sedimentary
 recipe-list:
   - cobblestone
   - stone

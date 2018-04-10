@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/steel-plate/
 recipes:
   compactor-press:
-    - plate-steel-from-ingot
-    - plate-steel-from-block
+    - plate-steel
 ---
 
 ![Steel plate](/assets/images/thermal-foundation/plate-steel.png){:style="height: 128px"}

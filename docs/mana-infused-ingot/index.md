@@ -29,11 +29,11 @@ usage-recipes:
   pulverizer:
     - dust-mithril
   compactor-press:
-    - plate-mithril-from-ingot
+    - plate-mithril
   compactor-mint:
-    - coin-mithril-from-ingot
+    - coin-mithril
   compactor-gear:
-    - gear-mithril-from-ingot
+    - gear-mithril
 ---
 
 ![Mana infused ingot](/assets/images/thermal-foundation/ingot-mithril.png){:style="height: 128px"}

@@ -75,11 +75,11 @@ usage-recipes:
   pulverizer:
     - dust-invar
   compactor-press:
-    - plate-invar-from-ingot
+    - plate-invar
   compactor-mint:
-    - coin-invar-from-ingot
+    - coin-invar
   compactor-gear:
-    - gear-invar-from-ingot
+    - gear-invar
 ---
 
 ![Invar ingot](/assets/images/thermal-foundation/ingot-invar.png){:style="height: 128px"}

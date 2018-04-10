@@ -14,13 +14,11 @@ recipes:
     - recycling-red-sandstone-stairs
     - blitz-powder
   centrifuge:
-    - dust-cryotheum
     - dust-aerotheum
 usage-recipes:
   crafting:
     - gunpowder-using-coal-sulfur-and-niter
     - gunpowder-using-charcoal-sulfur-and-niter
-    - dust-cryotheum
     - dust-aerotheum
     - phyto-gro-using-sawdust
     - phyto-gro-using-charcoal
@@ -34,9 +32,8 @@ usage-recipes:
 **Niter** is a byproduct of processing
 [sandstone](https://minecraft.gamepedia.com/Sandstone) or [blitz
 rods](/docs/blitz-rod/) in a [pulverizer](/docs/pulverizer/). It can be used to
-craft [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [cryotheum
-dust](/docs/cryotheum-dust/), [aerotheum dust](/docs/aerotheum-dust/) and
-[Phyto-Gro](/docs/phyto-gro/).
+craft [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [aerotheum
+dust](/docs/aerotheum-dust/) and [Phyto-Gro](/docs/phyto-gro/).
 
 
 Obtaining

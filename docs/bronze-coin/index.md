@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/bronze-coin/
 recipes:
   compactor-mint:
-    - coin-bronze-from-nugget
-    - coin-bronze-from-ingot
-    - coin-bronze-from-block
+    - coin-bronze
 ---
 
 ![Bronze coin](/assets/images/thermal-foundation/coin-bronze.png){:style="height: 128px"}

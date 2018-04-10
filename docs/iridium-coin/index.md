@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/iridium-coin/
 recipes:
   compactor-mint:
-    - coin-iridium-from-nugget
-    - coin-iridium-from-ingot
-    - coin-iridium-from-block
+    - coin-iridium
 ---
 
 ![Iridium coin](/assets/images/thermal-foundation/coin-iridium.png){:style="height: 128px"}

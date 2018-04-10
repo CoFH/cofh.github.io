@@ -229,6 +229,16 @@ machine-extruder-no-water:
     fluids (<a href="https://minecraft.gamepedia.com/Water">water</a>), so that
     only hot fluids (<a href="https://minecraft.gamepedia.com/Lava">lava</a>)
     are required.
+machine-extruder-sedimentary:
+  name: Clastic Deposition
+  url: augment-clastic-deposition/
+  animated: true
+  installed-in: '<a href="/docs/igneous-extruder/">Igneous Extruder</a>'
+  description: >
+    A specialization that allows for an igneous extruder to produce sedimentary
+    rock, such as <a href="https://minecraft.gamepedia.com/Sand">sand</a> or <a
+    href="https://minecraft.gamepedia.com/Gravel">gravel</a>. However, an
+    igneous extruder can only produce sedimentary rock when installed.
 dynamo-power:
   name: Auxiliary Transmission Coil
   url: augment-auxiliary-transmission-coil/

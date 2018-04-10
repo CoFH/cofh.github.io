@@ -5,8 +5,9 @@ author_url: http://www.twitter.com/ToniusMods
 published: true
 ---
 
-New updates have been released for [CoFH Core](/docs/cofh-core/), the [Thermal
-Series](/docs/#thermal-series) and [Redstone Arsenal](/docs/redstone-arsenal/).
+On January 2, new updates were released for [CoFH Core](/docs/cofh-core/), the
+[Thermal Series](/docs/#thermal-series) and [Redstone
+Arsenal](/docs/redstone-arsenal/).
 
 #### General
 * Various refactors and bugfixes (see the [issue

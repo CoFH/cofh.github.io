@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/lead-coin/
 recipes:
   compactor-mint:
-    - coin-lead-from-nugget
-    - coin-lead-from-ingot
-    - coin-lead-from-block
+    - coin-lead
 ---
 
 ![Lead coin](/assets/images/thermal-foundation/coin-lead.png){:style="height: 128px"}

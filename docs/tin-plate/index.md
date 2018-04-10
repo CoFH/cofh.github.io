@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/tin-plate/
 recipes:
   compactor-press:
-    - plate-tin-from-ingot
-    - plate-tin-from-block
+    - plate-tin
 usage-recipes:
   crafting:
     - augment-dynamo-compression-coolant

@@ -51,7 +51,7 @@ recipes:
         amount: 5
       output:
         item: [basalz-rod]
-  plate-from-ingot:
+  plate:
     results:
       - item-group: plate-metal
     ingredients:
@@ -62,20 +62,7 @@ recipes:
         item-group: ingot-metal
       output:
         item-group: plate-metal
-  plate-from-block:
-    results:
-      - item-group: plate-metal
-        suffix: x9
-    ingredients:
-      - item-group: storage-block-metal
-    energy: 32000
-    data:
-      input:
-        item-group: storage-block-metal
-      output:
-        item-group: plate-metal
-        amount: 9
-  plate-aluminum-from-ingot:
+  plate-aluminum:
     results:
       - item: plate-aluminum
     ingredients:
@@ -86,20 +73,7 @@ recipes:
         item: [ingot-aluminum]
       output:
         item: [plate-aluminum]
-  plate-aluminum-from-block:
-    results:
-      - item: plate-aluminum
-        suffix: x9
-    ingredients:
-      - item: storage-block-aluminum
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-aluminum]
-      output:
-        item: [plate-aluminum]
-        amount: 9
-  plate-bronze-from-ingot:
+  plate-bronze:
     results:
       - item: plate-bronze
     ingredients:
@@ -110,20 +84,7 @@ recipes:
         item: [ingot-bronze]
       output:
         item: [plate-bronze]
-  plate-bronze-from-block:
-    results:
-      - item: plate-bronze
-        suffix: x9
-    ingredients:
-      - item: storage-block-bronze
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-bronze]
-      output:
-        item: [plate-bronze]
-        amount: 9
-  plate-constantan-from-ingot:
+  plate-constantan:
     results:
       - item: plate-constantan
     ingredients:
@@ -134,20 +95,7 @@ recipes:
         item: [ingot-constantan]
       output:
         item: [plate-constantan]
-  plate-constantan-from-block:
-    results:
-      - item: plate-constantan
-        suffix: x9
-    ingredients:
-      - item: storage-block-constantan
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-constantan]
-      output:
-        item: [plate-constantan]
-        amount: 9
-  plate-copper-from-ingot:
+  plate-copper:
     results:
       - item: plate-copper
     ingredients:
@@ -158,20 +106,7 @@ recipes:
         item: [ingot-copper]
       output:
         item: [plate-copper]
-  plate-copper-from-block:
-    results:
-      - item: plate-copper
-        suffix: x9
-    ingredients:
-      - item: storage-block-copper
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-copper]
-      output:
-        item: [plate-copper]
-        amount: 9
-  plate-electrum-from-ingot:
+  plate-electrum:
     results:
       - item: plate-electrum
     ingredients:
@@ -182,20 +117,7 @@ recipes:
         item: [ingot-electrum]
       output:
         item: [plate-electrum]
-  plate-electrum-from-block:
-    results:
-      - item: plate-electrum
-        suffix: x9
-    ingredients:
-      - item: storage-block-electrum
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-electrum]
-      output:
-        item: [plate-electrum]
-        amount: 9
-  plate-enderium-from-ingot:
+  plate-enderium:
     results:
       - item: plate-enderium
     ingredients:
@@ -206,20 +128,7 @@ recipes:
         item: [ingot-enderium]
       output:
         item: [plate-enderium]
-  plate-enderium-from-block:
-    results:
-      - item: plate-enderium
-        suffix: x9
-    ingredients:
-      - item: storage-block-enderium
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-enderium]
-      output:
-        item: [plate-enderium]
-        amount: 9
-  plate-fluxed-electrum-from-ingot:
+  plate-fluxed-electrum:
     results:
       - item: plate-fluxed-electrum
     ingredients:
@@ -230,20 +139,7 @@ recipes:
         item: [ingot-fluxed-electrum]
       output:
         item: [plate-fluxed-electrum]
-  plate-fluxed-electrum-from-block:
-    results:
-      - item: plate-fluxed-electrum
-        suffix: x9
-    ingredients:
-      - item: storage-block-fluxed-electrum
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-fluxed-electrum]
-      output:
-        item: [plate-fluxed-electrum]
-        amount: 9
-  plate-gold-from-ingot:
+  plate-gold:
     results:
       - item: plate-gold
     ingredients:
@@ -254,20 +150,7 @@ recipes:
         item: [ingot-gold]
       output:
         item: [plate-gold]
-  plate-gold-from-block:
-    results:
-      - item: plate-gold
-        suffix: x9
-    ingredients:
-      - item: storage-block-gold
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-gold]
-      output:
-        item: [plate-gold]
-        amount: 9
-  plate-invar-from-ingot:
+  plate-invar:
     results:
       - item: plate-invar
     ingredients:
@@ -278,20 +161,7 @@ recipes:
         item: [ingot-invar]
       output:
         item: [plate-invar]
-  plate-invar-from-block:
-    results:
-      - item: plate-invar
-        suffix: x9
-    ingredients:
-      - item: storage-block-invar
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-invar]
-      output:
-        item: [plate-invar]
-        amount: 9
-  plate-iridium-from-ingot:
+  plate-iridium:
     results:
       - item: plate-iridium
     ingredients:
@@ -302,20 +172,7 @@ recipes:
         item: [ingot-iridium]
       output:
         item: [plate-iridium]
-  plate-iridium-from-block:
-    results:
-      - item: plate-iridium
-        suffix: x9
-    ingredients:
-      - item: storage-block-iridium
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-iridium]
-      output:
-        item: [plate-iridium]
-        amount: 9
-  plate-iron-from-ingot:
+  plate-iron:
     results:
       - item: plate-iron
     ingredients:
@@ -326,20 +183,7 @@ recipes:
         item: [ingot-iron]
       output:
         item: [plate-iron]
-  plate-iron-from-block:
-    results:
-      - item: plate-iron
-        suffix: x9
-    ingredients:
-      - item: storage-block-iron
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-iron]
-      output:
-        item: [plate-iron]
-        amount: 9
-  plate-lead-from-ingot:
+  plate-lead:
     results:
       - item: plate-lead
     ingredients:
@@ -350,20 +194,7 @@ recipes:
         item: [ingot-lead]
       output:
         item: [plate-lead]
-  plate-lead-from-block:
-    results:
-      - item: plate-lead
-        suffix: x9
-    ingredients:
-      - item: storage-block-lead
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-lead]
-      output:
-        item: [plate-lead]
-        amount: 9
-  plate-lumium-from-ingot:
+  plate-lumium:
     results:
       - item: plate-lumium
     ingredients:
@@ -374,20 +205,7 @@ recipes:
         item: [ingot-lumium]
       output:
         item: [plate-lumium]
-  plate-lumium-from-block:
-    results:
-      - item: plate-lumium
-        suffix: x9
-    ingredients:
-      - item: storage-block-lumium
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-lumium]
-      output:
-        item: [plate-lumium]
-        amount: 9
-  plate-mithril-from-ingot:
+  plate-mithril:
     results:
       - item: plate-mithril
     ingredients:
@@ -398,20 +216,7 @@ recipes:
         item: [ingot-mithril]
       output:
         item: [plate-mithril]
-  plate-mithril-from-block:
-    results:
-      - item: plate-mithril
-        suffix: x9
-    ingredients:
-      - item: storage-block-mithril
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-mithril]
-      output:
-        item: [plate-mithril]
-        amount: 9
-  plate-nickel-from-ingot:
+  plate-nickel:
     results:
       - item: plate-nickel
     ingredients:
@@ -422,20 +227,7 @@ recipes:
         item: [ingot-nickel]
       output:
         item: [plate-nickel]
-  plate-nickel-from-block:
-    results:
-      - item: plate-nickel
-        suffix: x9
-    ingredients:
-      - item: storage-block-nickel
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-nickel]
-      output:
-        item: [plate-nickel]
-        amount: 9
-  plate-platinum-from-ingot:
+  plate-platinum:
     results:
       - item: plate-platinum
     ingredients:
@@ -446,20 +238,7 @@ recipes:
         item: [ingot-platinum]
       output:
         item: [plate-platinum]
-  plate-platinum-from-block:
-    results:
-      - item: plate-platinum
-        suffix: x9
-    ingredients:
-      - item: storage-block-platinum
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-platinum]
-      output:
-        item: [plate-platinum]
-        amount: 9
-  plate-signalum-from-ingot:
+  plate-signalum:
     results:
       - item: plate-signalum
     ingredients:
@@ -470,20 +249,7 @@ recipes:
         item: [ingot-signalum]
       output:
         item: [plate-signalum]
-  plate-signalum-from-block:
-    results:
-      - item: plate-signalum
-        suffix: x9
-    ingredients:
-      - item: storage-block-signalum
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-signalum]
-      output:
-        item: [plate-signalum]
-        amount: 9
-  plate-silver-from-ingot:
+  plate-silver:
     results:
       - item: plate-silver
     ingredients:
@@ -494,20 +260,7 @@ recipes:
         item: [ingot-silver]
       output:
         item: [plate-silver]
-  plate-silver-from-block:
-    results:
-      - item: plate-silver
-        suffix: x9
-    ingredients:
-      - item: storage-block-silver
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-silver]
-      output:
-        item: [plate-silver]
-        amount: 9
-  plate-steel-from-ingot:
+  plate-steel:
     results:
       - item: plate-steel
     ingredients:
@@ -518,20 +271,7 @@ recipes:
         item: [ingot-steel]
       output:
         item: [plate-steel]
-  plate-steel-from-block:
-    results:
-      - item: plate-steel
-        suffix: x9
-    ingredients:
-      - item: storage-block-steel
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-steel]
-      output:
-        item: [plate-steel]
-        amount: 9
-  plate-tin-from-ingot:
+  plate-tin:
     results:
       - item: plate-tin
     ingredients:
@@ -542,16 +282,3 @@ recipes:
         item: [ingot-tin]
       output:
         item: [plate-tin]
-  plate-tin-from-block:
-    results:
-      - item: plate-tin
-        suffix: x9
-    ingredients:
-      - item: storage-block-tin
-    energy: 32000
-    data:
-      input:
-        item: [storage-block-tin]
-      output:
-        item: [plate-tin]
-        amount: 9

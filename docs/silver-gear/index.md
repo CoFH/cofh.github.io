@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-silver
   compactor-gear:
-    - gear-silver-from-ingot
-    - gear-silver-from-block
+    - gear-silver
 usage-recipes:
   crafting:
     - upgrade-kit-reinforced

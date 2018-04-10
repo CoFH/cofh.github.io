@@ -8,8 +8,7 @@ redirect_from:
   - /docs/redstone-arsenal/materials/fluxed-electrum-plate/
 recipes:
   compactor-press:
-    - plate-fluxed-electrum-from-ingot
-    - plate-fluxed-electrum-from-block
+    - plate-fluxed-electrum
 usage-recipes:
   crafting:
     - fluxed-armor-plating

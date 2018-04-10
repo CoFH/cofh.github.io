@@ -76,11 +76,11 @@ usage-recipes:
     - ingot-bronze-from-dust-copper-and-ingot-tin
     - ingot-bronze-from-ingot-copper-and-ingot-tin
   compactor-press:
-    - plate-tin-from-ingot
+    - plate-tin
   compactor-mint:
-    - coin-tin-from-ingot
+    - coin-tin
   compactor-gear:
-    - gear-tin-from-ingot
+    - gear-tin
 ---
 
 ![Tin ingot](/assets/images/thermal-foundation/ingot-tin.png){:style="height: 128px"}

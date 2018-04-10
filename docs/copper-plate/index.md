@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/copper-plate/
 recipes:
   compactor-press:
-    - plate-copper-from-ingot
-    - plate-copper-from-block
+    - plate-copper
 usage-recipes:
   crafting:
     - augment-machine-furnace-pyrolysis

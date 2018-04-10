@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/iridium-plate/
 recipes:
   compactor-press:
-    - plate-iridium-from-ingot
-    - plate-iridium-from-block
+    - plate-iridium
 ---
 
 ![Iridium plate](/assets/images/thermal-foundation/plate-iridium.png){:style="height: 128px"}

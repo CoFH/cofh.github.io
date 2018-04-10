@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/mana-infused-coin/
 recipes:
   compactor-mint:
-    - coin-mithril-from-nugget
-    - coin-mithril-from-ingot
-    - coin-mithril-from-block
+    - coin-mithril
 ---
 
 ![Mana infused coin](/assets/images/thermal-foundation/coin-mithril.png){:style="height: 128px"}

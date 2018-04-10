@@ -32,9 +32,9 @@ usage-recipes:
   pulverizer:
     - dust-fluxed-electrum
   compactor-press:
-    - plate-fluxed-electrum-from-ingot
+    - plate-fluxed-electrum
   compactor-gear:
-    - gear-fluxed-electrum-from-ingot
+    - gear-fluxed-electrum
 ---
 
 **Fluxed electrum ingots** are raw materials made from

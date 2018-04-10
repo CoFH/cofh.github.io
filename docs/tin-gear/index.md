@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-tin
   compactor-gear:
-    - gear-tin-from-ingot
-    - gear-tin-from-block
+    - gear-tin
 usage-recipes:
   crafting:
     - frame-machine

@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/invar-plate/
 recipes:
   compactor-press:
-    - plate-invar-from-ingot
-    - plate-invar-from-block
+    - plate-invar
 usage-recipes:
   crafting:
     - augment-machine-furnace-ore

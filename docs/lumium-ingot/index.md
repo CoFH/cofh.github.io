@@ -19,11 +19,11 @@ usage-recipes:
   pulverizer:
     - dust-lumium
   compactor-press:
-    - plate-lumium-from-ingot
+    - plate-lumium
   compactor-mint:
-    - coin-lumium-from-ingot
+    - coin-lumium
   compactor-gear:
-    - gear-lumium-from-ingot
+    - gear-lumium
 ---
 
 ![Lumium ingot](/assets/images/thermal-foundation/ingot-lumium.png){:style="height: 128px"}

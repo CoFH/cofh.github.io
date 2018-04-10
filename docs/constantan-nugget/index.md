@@ -9,8 +9,6 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-constantan-from-nuggets
-  compactor-mint:
-    - coin-constantan-from-nugget
 ---
 
 ![Constantan nugget](/assets/images/thermal-foundation/nugget-constantan.png){:style="height: 128px"}
@@ -32,6 +30,3 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

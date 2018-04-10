@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/lumium-coin/
 recipes:
   compactor-mint:
-    - coin-lumium-from-nugget
-    - coin-lumium-from-ingot
-    - coin-lumium-from-block
+    - coin-lumium
 ---
 
 ![Lumium coin](/assets/images/thermal-foundation/coin-lumium.png){:style="height: 128px"}

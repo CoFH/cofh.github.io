@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-signalum
   compactor-gear:
-    - gear-signalum-from-ingot
-    - gear-signalum-from-block
+    - gear-signalum
 usage-recipes:
   crafting:
     - augment-machine-pulverizer-petrotheum

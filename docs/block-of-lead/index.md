@@ -13,12 +13,6 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-lead-from-block
-  compactor-press:
-    - plate-lead-from-block
-  compactor-mint:
-    - coin-lead-from-block
-  compactor-gear:
-    - gear-lead-from-block
 ---
 
 **Blocks of lead** are blocks made from [lead ingots](/docs/lead-ingot/).
@@ -50,15 +44,6 @@ Blocks of lead can be used to build
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
-
-### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 ### Primal Mana
 When [primal mana](/docs/primal-mana/) touches a block of lead, the block is

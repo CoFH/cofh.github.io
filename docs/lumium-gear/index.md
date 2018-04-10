@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-lumium
   compactor-gear:
-    - gear-lumium-from-ingot
-    - gear-lumium-from-block
+    - gear-lumium
 usage-recipes:
   crafting:
     - upgrade-kit-resonant

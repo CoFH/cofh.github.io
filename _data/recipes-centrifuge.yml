@@ -296,7 +296,6 @@ recipes:
     results:
       - item: blitz-powder
       - item: niter
-      - item: sand
       - item: redstone
     ingredients:
       - item: dust-aerotheum
@@ -306,12 +305,10 @@ recipes:
         item: [dust-aerotheum]
         amount: 2
       output-1:
-        item: [niter]
-      output-2:
         item: [blitz-powder]
+      output-2:
+        item: [niter]
       output-3:
-        item: [sand]
-      output-4:
         item: [redstone]
   dust-bronze:
     results:
@@ -347,7 +344,6 @@ recipes:
   dust-cryotheum:
     results:
       - item: blizz-powder
-      - item: niter
       - item: snowball
       - item: redstone
     ingredients:
@@ -358,12 +354,10 @@ recipes:
         item: [dust-cryotheum]
         amount: 2
       output-1:
-        item: [niter]
-      output-2:
         item: [blizz-powder]
-      output-3:
+      output-2:
         item: [snowball]
-      output-4:
+      output-3:
         item: [redstone]
   dust-electrum:
     results:
@@ -442,7 +436,6 @@ recipes:
     results:
       - item: basalz-powder
       - item: dust-obsidian
-      - item: clay
       - item: redstone
     ingredients:
       - item: dust-petrotheum
@@ -452,18 +445,15 @@ recipes:
         item: [dust-petrotheum]
         amount: 2
       output-1:
-        item: [dust-obsidian]
-      output-2:
         item: [basalz-powder]
+      output-2:
+        item: [dust-obsidian]
       output-3:
-        item: [clay]
-      output-4:
         item: [redstone]
   dust-pyrotheum:
     results:
       - item: blaze-powder
       - item: sulfur
-      - item: dust-coal
       - item: redstone
     ingredients:
       - item: dust-pyrotheum
@@ -473,12 +463,10 @@ recipes:
         item: [dust-pyrotheum]
         amount: 2
       output-1:
-        item: [sulfur]
-      output-2:
         item: [blaze-powder]
+      output-2:
+        item: [sulfur]
       output-3:
-        item: [dust-coal]
-      output-4:
         item: [redstone]
   dust-signalum:
     results:

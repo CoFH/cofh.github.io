@@ -5,8 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/aluminum-plate/
 recipes:
   compactor-press:
-    - plate-aluminum-from-ingot
-    - plate-aluminum-from-block
+    - plate-aluminum
 ---
 
 ![Aluminum plate](/assets/images/thermal-foundation/plate-aluminum.png){:style="height: 128px"}

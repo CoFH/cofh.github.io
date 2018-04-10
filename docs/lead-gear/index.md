@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-lead
   compactor-gear:
-    - gear-lead-from-ingot
-    - gear-lead-from-block
+    - gear-lead
 usage-recipes:
   crafting:
     - dynamo-reactant

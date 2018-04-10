@@ -21,8 +21,6 @@ usage-recipes:
     - itemduct-energy-fast-one
     - itemduct-energy-fast-opaque-one
     - redstone-relay
-  compactor-mint:
-    - coin-signalum-from-nugget
 ---
 
 ![Signalum nugget](/assets/images/thermal-foundation/nugget-signalum.png){:style="height: 128px"}
@@ -44,6 +42,3 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

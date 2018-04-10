@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/iron-coin/
 recipes:
   compactor-mint:
-    - coin-iron-from-nugget
-    - coin-iron-from-ingot
-    - coin-iron-from-block
+    - coin-iron
 ---
 
 ![Iron coin](/assets/images/thermal-foundation/coin-iron.png){:style="height: 128px"}

@@ -11,8 +11,7 @@ recipes:
     - gear-iron-using-tin
     - gear-iron-using-bronze
   compactor-gear:
-    - gear-iron-from-ingot
-    - gear-iron-from-block
+    - gear-iron
 usage-recipes:
   crafting:
     - machine-sawmill

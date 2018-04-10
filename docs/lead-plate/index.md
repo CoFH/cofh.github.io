@@ -5,12 +5,12 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/plates/lead-plate/
 recipes:
   compactor-press:
-    - plate-lead-from-ingot
-    - plate-lead-from-block
+    - plate-lead
 usage-recipes:
   crafting:
     - augment-machine-compactor-gear
     - augment-machine-refinery-potion
+    - augment-machine-extruder-sedimentary
     - augment-dynamo-reactant-elemental
 ---
 

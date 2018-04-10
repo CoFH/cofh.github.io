@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/electrum-coin/
 recipes:
   compactor-mint:
-    - coin-electrum-from-nugget
-    - coin-electrum-from-ingot
-    - coin-electrum-from-block
+    - coin-electrum
 ---
 
 ![Electrum coin](/assets/images/thermal-foundation/coin-electrum.png){:style="height: 128px"}

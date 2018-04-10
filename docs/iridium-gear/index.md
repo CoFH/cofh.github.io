@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-iridium
   compactor-gear:
-    - gear-iridium-from-ingot
-    - gear-iridium-from-block
+    - gear-iridium
 ---
 
 ![Iridium gear](/assets/images/thermal-foundation/gear-iridium.png){:style="height: 128px"}

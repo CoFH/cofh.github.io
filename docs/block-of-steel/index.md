@@ -13,12 +13,6 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-steel-from-block
-  compactor-press:
-    - plate-steel-from-block
-  compactor-mint:
-    - coin-steel-from-block
-  compactor-gear:
-    - gear-steel-from-block
 ---
 
 **Blocks of steel** are blocks made from [steel ingots](/docs/steel-ingot/).
@@ -50,12 +44,3 @@ Blocks of steel can be used to build
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
-
-### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

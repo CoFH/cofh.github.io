@@ -55,11 +55,11 @@ usage-recipes:
   pulverizer:
     - dust-constantan
   compactor-press:
-    - plate-constantan-from-ingot
+    - plate-constantan
   compactor-mint:
-    - coin-constantan-from-ingot
+    - coin-constantan
   compactor-gear:
-    - gear-constantan-from-ingot
+    - gear-constantan
 ---
 
 ![Constantan ingot](/assets/images/thermal-foundation/ingot-constantan.png){:style="height: 128px"}

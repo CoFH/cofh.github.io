@@ -5,9 +5,7 @@ redirect_from:
   - /docs/thermal-foundation/items/materials/coins/tin-coin/
 recipes:
   compactor-mint:
-    - coin-tin-from-nugget
-    - coin-tin-from-ingot
-    - coin-tin-from-block
+    - coin-tin
 ---
 
 ![Tin coin](/assets/images/thermal-foundation/coin-tin.png){:style="height: 128px"}

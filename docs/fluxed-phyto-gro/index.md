@@ -16,6 +16,7 @@ usage-recipes:
     - carrot-fluxed
     - cocoa-beans-fluxed
     - flower-fluxed
+    - tall-flower-fluxed
     - lily-pad-fluxed
     - melon-fluxed
     - potato-fluxed
@@ -25,7 +26,7 @@ usage-recipes:
     - wheat-fluxed
     - mushroom-fluxed
     - nether-wart-fluxed
-    - chorus-plant-fluxed
+    - chorus-fruit-fluxed
   insolator-tree:
     - wood-fluxed
 ---

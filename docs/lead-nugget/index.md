@@ -14,8 +14,6 @@ usage-recipes:
     - ingot-lead-from-nuggets
     - augment-dynamo-coil-duct
     - augment-dynamo-throttle
-  compactor-mint:
-    - coin-lead-from-nugget
 ---
 
 ![Lead nugget](/assets/images/thermal-foundation/nugget-lead.png){:style="height: 128px"}
@@ -40,6 +38,3 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}

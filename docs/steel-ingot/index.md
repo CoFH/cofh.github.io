@@ -53,11 +53,11 @@ usage-recipes:
   pulverizer:
     - dust-steel
   compactor-press:
-    - plate-steel-from-ingot
+    - plate-steel
   compactor-mint:
-    - coin-steel-from-ingot
+    - coin-steel
   compactor-gear:
-    - gear-steel-from-ingot
+    - gear-steel
 ---
 
 ![Steel ingot](/assets/images/thermal-foundation/ingot-steel.png){:style="height: 128px"}

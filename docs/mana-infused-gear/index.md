@@ -7,8 +7,7 @@ recipes:
   crafting:
     - gear-mithril
   compactor-gear:
-    - gear-mithril-from-ingot
-    - gear-mithril-from-block
+    - gear-mithril
 ---
 
 ![Mana infused gear](/assets/images/thermal-foundation/gear-mithril.png){:style="height: 128px"}
