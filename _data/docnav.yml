@@ -1044,6 +1044,7 @@ thermal-expansion:
                   icon: [9, 18]
                 - title: Clastic Deposition
                   url: augment-clastic-deposition/
+                  icon: [10, 19]
             - title: Dynamo
               items:
                 - title: Auxiliary Transmission Coil
@@ -1113,64 +1114,88 @@ thermal-dynamics:
               items:
                 - title: Fluxducts
                   url: fluxducts/
+                  icon: [13, 19]
                   subitems:
                     - title: Leadstone
                       url: leadstone-fluxduct/
+                      icon: [11, 19]
                     - title: Hardened
                       url: hardened-fluxduct/
+                      icon: [12, 19]
                     - title: Redstone Energy
                       url: redstone-energy-fluxduct/
+                      icon: [13, 19]
                     - title: Signalum
                       url: signalum-fluxduct/
+                      icon: [14, 19]
                     - title: Resonant
                       url: resonant-fluxduct/
+                      icon: [15, 19]
                     - title: Cryo-Stabilized
                       url: cryo-stabilized-fluxduct/
+                      icon: [0, 20]
             - title: Fluids
               items:
                 - title: Fluiduct
                   url: fluiduct/
+                  icon: [1, 20]
                   subitems:
                     - title: Hardened
                       url: hardened-fluiduct/
+                      icon: [2, 20]
                     - title: Signalum-Plated
                       url: signalum-plated-fluiduct/
+                      icon: [3, 20]
                     - title: Super-Laminar
                       url: super-laminar-fluiduct/
+                      icon: [4, 20]
             - title: Items
               items:
                 - title: Itemduct
                   url: itemduct/
+                  icon: [5, 20]
                   subitems:
                     - title: Impulse
                       url: impulse-itemduct/
+                      icon: [6, 20]
                     - title: Signalum-Plated
                       url: signalum-plated-itemduct/
+                      icon: [7, 20]
                     - title: Signalum-Plated Impulse
                       url: signalum-plated-impulse-itemduct/
+                      icon: [8, 20]
             - title: Other
               items:
                 - title: Structuralduct
                   url: structuralduct/
+                  icon: [9, 20]
                 - title: Viaduct
                   url: viaduct/
+                  icon: [10, 20]
                   subitems:
                     - title: Long Range
                       url: long-range-viaduct/
+                      icon: [11, 20]
                     - title: Long Range Linking
                       url: long-range-linking-viaduct/
+                      icon: [12, 20]
         - title: Attachments
           items:
             - title: Covers
               url: covers/
+              icon: [13, 20]
             - title: Servos
               url: servos/
+              icon: [14, 20]
             - title: Filters
               url: filters/
+              icon: [15, 20]
             - title: Retrievers
               url: retrievers/
+              icon: [0, 21]
             - title: Redstone Relay
               url: redstone-relay/
+              icon: [1, 21]
 
 thermal-cultivation:
   title: Thermal Cultivation
@@ -1180,6 +1205,7 @@ thermal-cultivation:
         - items:
             - title: Watering Can
               url: watering-can/
+              icon: [2, 21]
 
 thermal-innovation:
   title: Thermal Innovation
@@ -1189,10 +1215,13 @@ thermal-innovation:
         - items:
             - title: Fluxbore
               url: fluxbore/
+              icon: [3, 21]
             - title: Fluxomagnet
               url: fluxomagnet/
+              icon: [4, 21]
             - title: Hypoinfuser
               url: hypoinfuser/
+              icon: [5, 21]
 
 redstone-arsenal:
   title: Redstone Arsenal
@@ -1203,65 +1232,92 @@ redstone-arsenal:
           items:
             - title: Pickaxe
               url: flux-infused-pickaxe/
+              icon: [6, 21]
             - title: Shovel
               url: flux-infused-shovel/
+              icon: [7, 21]
             - title: Axe
               url: flux-infused-axe/
+              icon: [8, 21]
             - title: Fishing Rod
               url: flux-infused-fishing-rod/
+              icon: [9, 21]
             - title: Hammer
               url: flux-infused-hammer/
+              icon: [10, 21]
             - title: Sickle
               url: flux-infused-sickle/
+              icon: [11, 21]
             - title: OmniWrench
               url: flux-infused-omniwrench/
+              icon: [12, 21]
         - title: Flux-Infused Weapons
           items:
             - title: Sword
               url: flux-infused-sword/
+              icon: [13, 21]
             - title: Bow
               url: flux-infused-bow/
+              icon: [14, 21]
             - title: Quiver
               url: flux-infused-quiver/
+              icon: [15, 21]
             - title: Shield
               url: flux-infused-shield/
+              icon: [0, 22]
             - title: BattleWrench
               url: flux-infused-battlewrench/
+              icon: [1, 22]
         - title: Flux-Infused Armor
           items:
             - title: Helm
               url: flux-infused-helm/
+              icon: [2, 22]
             - title: Chestplate
               url: flux-infused-chestplate/
+              icon: [3, 22]
             - title: Leggings
               url: flux-infused-leggings/
+              icon: [4, 22]
             - title: Boots
               url: flux-infused-boots/
+              icon: [5, 22]
         - title: Materials
           items:
             - title: Fluxed Electrum
               subitems:
                 - title: Ingot
                   url: fluxed-electrum-ingot/
+                  icon: [6, 22]
                 - title: Blend
                   url: fluxed-electrum-blend/
+                  icon: [7, 22]
                 - title: Nugget
                   url: fluxed-electrum-nugget/
+                  icon: [8, 22]
                 - title: Gear
                   url: fluxed-electrum-gear/
+                  icon: [9, 22]
                 - title: Plate
                   url: fluxed-electrum-plate/
+                  icon: [10, 22]
                 - title: Block
                   url: fluxed-electrum-block/
+                  icon: [11, 22]
             - title: Flux Crystal
               url: flux-crystal/
+              icon: [12, 22]
               subitems:
                 - title: Block
                   url: flux-crystal-block/
+                  icon: [13, 22]
             - title: Obsidian Rod
               url: obsidian-rod/
+              icon: [14, 22]
               subitems:
                 - title: Flux-Infused
                   url: flux-infused-obsidian-rod/
+                  icon: [15, 22]
             - title: Fluxed Armor Plating
               url: fluxed-armor-plating/
+              icon: [0, 23]
