@@ -26,8 +26,8 @@ Innovation](/docs/thermal-innovation/) was also released.
 * [Iron gears](/docs/iron-gear/) can now also be crafted using
   [copper](/docs/copper-ingot/), [tin](/docs/tin-ingot/) or
   [bronze](/docs/bronze-ingot/) ingots at the center of the recipe.
-* [Shields](/docs/shields/) now look a lot more like the vanilla shield. (Thanks
-  [Ithronyar](https://github.com/Ithronyar))
+* [Shields](/docs/tf-shields/) now look a lot more like the vanilla shield.
+  (Thanks [Ithronyar](https://github.com/Ithronyar))
 * The elemental dusts are all slightly cheaper to craft:
   * [pyrotheum dust](/docs/pyrotheum-dust/) no longer uses [pulverized
     coal](/docs/pulverized-coal/);

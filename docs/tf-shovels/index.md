@@ -1,9 +1,10 @@
 ---
-title: Shovels
+title: Shovels (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/shovels/
   - /docs/thermal-foundation/equipment/tools/shovels/
+  - /docs/shovels/
 recipes:
   crafting:
     - shovel-copper

@@ -1,9 +1,10 @@
 ---
-title: Shears
+title: Shears (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/shears/
   - /docs/thermal-foundation/equipment/tools/shears/
+  - /docs/shears/
 recipes:
   crafting:
     - shears-wood

@@ -1,8 +1,9 @@
 ---
-title: Boots
+title: Boots (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/armor/boots/
+  - /docs/boots/
 recipes:
   crafting:
     - boots-copper

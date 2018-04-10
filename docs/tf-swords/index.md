@@ -1,9 +1,10 @@
 ---
-title: Swords
+title: Swords (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/swords/
   - /docs/thermal-foundation/equipment/weapons/swords/
+  - /docs/swords/
 recipes:
   crafting:
     - sword-copper

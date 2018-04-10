@@ -1,10 +1,11 @@
 ---
-title: Reinforced Bows
+title: Reinforced Bows (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/reinforced-bows/
   - /docs/thermal-foundation/equipment/bows/
   - /docs/thermal-foundation/equipment/weapons/reinforced-bows/
+  - /docs/reinforced-bows/
 recipes:
   crafting:
     - bow-stone

@@ -79,7 +79,7 @@ boots-metal:
 bow-metal:
   name: Metal Reinforced Bow
   site: cofh
-  url: reinforced-bows/
+  url: tf-reinforced-bows/
   prefix:
     ingredient: 'any'
   items:
@@ -277,7 +277,7 @@ fence-gate:
 fishing-rod-metal:
   name: Metal Fishing Rod
   site: cofh
-  url: fishing-rods/
+  url: tf-fishing-rods/
   prefix:
     ingredient: 'any'
   items:
@@ -388,7 +388,7 @@ glass-stained:
 hammer-metal:
   name: Metal Hammer
   site: cofh
-  url: hammers/
+  url: tf-hammers/
   prefix:
     ingredient: 'any'
   items:
@@ -733,7 +733,7 @@ sapling:
 shears-metal:
   name: Metal Shears
   site: cofh
-  url: shears/
+  url: tf-shears/
   prefix:
     ingredient: 'any'
   items:
@@ -754,7 +754,7 @@ shears-metal:
 shield-metal:
   name: Metal Shield
   site: cofh
-  url: shields/
+  url: tf-shields/
   prefix:
     ingredient: 'any'
   items:
@@ -796,7 +796,7 @@ shovel-metal:
 sickle-metal:
   name: Metal Sickle
   site: cofh
-  url: sickles/
+  url: tf-sickles/
   prefix:
     ingredient: 'any'
   items:

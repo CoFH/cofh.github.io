@@ -1,8 +1,9 @@
 ---
-title: Chestplates
+title: Chestplates (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/armor/chestplates/
+  - /docs/chestplates/
 recipes:
   crafting:
     - chestplate-copper

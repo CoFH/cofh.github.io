@@ -1,9 +1,10 @@
 ---
-title: Fishing Rods
+title: Fishing Rods (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/fishing-rods/
   - /docs/thermal-foundation/equipment/tools/fishing-rods/
+  - /docs/fishing-rods/
 recipes:
   crafting:
     - fishing-rod-stone

@@ -5,7 +5,7 @@ nav: cofh-core
 
 **Vorpal** is an [enchantment](https://minecraft.gamepedia.com/Enchanting) that
 gives [swords](https://minecraft.gamepedia.com/Sword),
-[axes](https://minecraft.gamepedia.com/Axe) and [sickles](/docs/sickles/) a
+[axes](https://minecraft.gamepedia.com/Axe) and [sickles](/docs/tf-sickles/) a
 chance to do greatly increased damage and to drop mob or player
 [heads](https://minecraft.gamepedia.com/Mob_head). Its maximum level is III.
 
@@ -14,7 +14,7 @@ Usage
 -----
 
 Vorpal can be applied to [swords](https://minecraft.gamepedia.com/Sword),
-[axes](https://minecraft.gamepedia.com/Axe) and [sickles](/docs/sickles/).
+[axes](https://minecraft.gamepedia.com/Axe) and [sickles](/docs/tf-sickles/).
 
 When a mob or player is hit with a Vorpal enchanted weapon, there is a chance of
 the amount of damage dealt being multiplied by 5. When they are killed with

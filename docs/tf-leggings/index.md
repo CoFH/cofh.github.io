@@ -1,8 +1,9 @@
 ---
-title: Leggings
+title: Leggings (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/armor/leggings/
+  - /docs/leggings/
 recipes:
   crafting:
     - leggings-copper

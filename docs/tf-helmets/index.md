@@ -1,10 +1,11 @@
 ---
-title: Helmets
+title: Helmets (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /thermal-expansion/items/invar-armor/
   - /docs/thermal-foundation/equipment/armor/
   - /docs/thermal-foundation/equipment/armor/helmets/
+  - /docs/helmets/
 recipes:
   crafting:
     - helmet-copper

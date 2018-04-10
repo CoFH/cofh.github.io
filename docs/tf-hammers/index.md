@@ -1,8 +1,9 @@
 ---
-title: Hammers
+title: Hammers (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/tools/hammers/
+  - /docs/hammers/
 recipes:
   crafting:
     - hammer-wood

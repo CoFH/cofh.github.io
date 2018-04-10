@@ -1,8 +1,9 @@
 ---
-title: Shields
+title: Shields (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/weapons/shields/
+  - /docs/shields/
 image:
   - alt: Stone shield
     file: thermal-foundation/shield-stone.png

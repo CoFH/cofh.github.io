@@ -1,8 +1,9 @@
 ---
-title: Hoes
+title: Hoes (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/tools/hoes/
+  - /docs/hoes/
 recipes:
   crafting:
     - hoe-copper

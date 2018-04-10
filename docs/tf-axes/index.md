@@ -1,9 +1,10 @@
 ---
-title: Axes
+title: Axes (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/axes/
   - /docs/thermal-foundation/equipment/tools/axes/
+  - /docs/axes/
 recipes:
   crafting:
     - axe-copper

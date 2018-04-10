@@ -768,53 +768,53 @@ thermal-foundation:
         - title: Tools
           items:
             - title: Pickaxes
-              url: pickaxes/
+              url: tf-pickaxes/
               icon: [10, 13]
             - title: Shovels
-              url: shovels/
+              url: tf-shovels/
               icon: [11, 13]
             - title: Axes
-              url: axes/
+              url: tf-axes/
               icon: [12, 13]
             - title: Hoes
-              url: hoes/
+              url: tf-hoes/
               icon: [13, 13]
             - title: Fishing Rods
-              url: fishing-rods/
+              url: tf-fishing-rods/
               icon: [14, 13]
             - title: Shears
-              url: shears/
+              url: tf-shears/
               icon: [15, 13]
             - title: Hammers
-              url: hammers/
+              url: tf-hammers/
               icon: [0, 14]
             - title: Sickles
-              url: sickles/
+              url: tf-sickles/
               icon: [1, 14]
         - title: Weapons
           items:
             - title: Swords
-              url: swords/
+              url: tf-swords/
               icon: [2, 14]
             - title: Reinforced Bows
-              url: reinforced-bows/
+              url: tf-reinforced-bows/
               icon: [3, 14]
             - title: Shields
-              url: shields/
+              url: tf-shields/
               icon: [4, 14]
         - title: Armor
           items:
             - title: Helmets
-              url: helmets/
+              url: tf-helmets/
               icon: [5, 14]
             - title: Chestplates
-              url: chestplates/
+              url: tf-chestplates/
               icon: [6, 14]
             - title: Leggings
-              url: leggings/
+              url: tf-leggings/
               icon: [7, 14]
             - title: Boots
-              url: boots/
+              url: tf-boots/
               icon: [8, 14]
     - title: Other
       groups:

@@ -1,10 +1,11 @@
 ---
-title: Pickaxes
+title: Pickaxes (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /thermal-expansion/tools/invar-tools/
   - /docs/thermal-foundation/equipment/pickaxes/
   - /docs/thermal-foundation/equipment/tools/pickaxes/
+  - /docs/pickaxes/
 recipes:
   crafting:
     - pickaxe-copper

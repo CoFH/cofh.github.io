@@ -1,9 +1,10 @@
 ---
-title: Sickles
+title: Sickles (Thermal Foundation)
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/equipment/sickles/
   - /docs/thermal-foundation/equipment/tools/sickles/
+  - /docs/sickles/
 recipes:
   crafting:
     - sickle-wood
