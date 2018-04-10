@@ -222,8 +222,8 @@ table.uk-table.cofh-info-table th {
 
 div.cofh-navbox-container {
     border: 1px solid #dadada;
-    font-size: 11px;
-    line-height: 16px;
+    font-size: 11.5px;
+    line-height: 18px;
 }
 
 table.cofh-navbox-table {
@@ -264,6 +264,23 @@ table.cofh-navbox-table td.cofh-navbox-group-items {
 
 table.cofh-navbox-table td.cofh-navbox-group-subgroups-container {
     padding: 0;
+}
+
+.cofh-navbox-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    background-image: url('/assets/images/navbox-icon-sheet.png?{{site.time | date: "%s"}}');
+}
+
+a.cofh-navbox-link, a.cofh-navbox-link:hover {
+    text-decoration: none;
+}
+
+a.cofh-navbox-link:hover > span {
+    text-decoration: underline;
 }
 
 .cofh-page-image {

@@ -59,42 +59,59 @@ thermal-foundation:
           items:
             - title: Copper
               url: copper-ore/
+              icon: [0, 0]
             - title: Tin
               url: tin-ore/
+              icon: [1, 0]
             - title: Silver
               url: silver-ore/
+              icon: [2, 0]
             - title: Lead
               url: lead-ore/
+              icon: [3, 0]
             - title: Aluminum
               url: aluminum-ore/
+              icon: [4, 0]
             - title: Nickel
               url: nickel-ore/
+              icon: [5, 0]
             - title: Platinum
               url: platinum-ore/
+              icon: [6, 0]
             - title: Iridium
               url: iridium-ore/
+              icon: [7, 0]
             - title: Mana Infused
               url: mana-infused-ore/
+              icon: [8, 0]
         - title: Fluid Ores
           items:
             - title: Oil Sand
               url: oil-sand/
+              icon: [9, 0]
             - title: Oil Shale
               url: oil-shale/
+              icon: [10, 0]
             - title: Destabilized Redstone Ore
               url: destabilized-redstone-ore/
+              icon: [11, 0]
             - title: Energized Netherrack
               url: energized-netherrack/
+              icon: [12, 0]
             - title: Resonant End Stone
               url: resonant-end-stone/
+              icon: [13, 0]
         - title: Mobs
           items:
             - title: Blizz
               url: blizz/
+              icon: [14, 0]
             - title: Blitz
               url: blitz/
+              icon: [15, 0]
             - title: Basalz
               url: basalz/
+              icon: [0, 1]
     - title: Items
       groups:
         - title: Materials
@@ -103,486 +120,702 @@ thermal-foundation:
               items:
                 - title: Copper
                   url: copper-ingot/
+                  icon: [1, 1]
                 - title: Tin
                   url: tin-ingot/
+                  icon: [2, 1]
                 - title: Silver
                   url: silver-ingot/
+                  icon: [3, 1]
                 - title: Lead
                   url: lead-ingot/
+                  icon: [4, 1]
                 - title: Aluminum
                   url: aluminum-ingot/
+                  icon: [5, 1]
                 - title: Nickel
                   url: nickel-ingot/
+                  icon: [6, 1]
                 - title: Platinum
                   url: platinum-ingot/
+                  icon: [7, 1]
                 - title: Iridium
                   url: iridium-ingot/
+                  icon: [8, 1]
                 - title: Mana Infused
                   url: mana-infused-ingot/
+                  icon: [9, 1]
                 - title: Steel
                   url: steel-ingot/
+                  icon: [10, 1]
                 - title: Electrum
                   url: electrum-ingot/
+                  icon: [11, 1]
                 - title: Invar
                   url: invar-ingot/
+                  icon: [12, 1]
                 - title: Bronze
                   url: bronze-ingot/
+                  icon: [13, 1]
                 - title: Constantan
                   url: constantan-ingot/
+                  icon: [14, 1]
                 - title: Signalum
                   url: signalum-ingot/
+                  icon: [15, 1]
                 - title: Lumium
                   url: lumium-ingot/
+                  icon: [0, 2]
                 - title: Enderium
                   url: enderium-ingot/
+                  icon: [1, 2]
             - title: Dusts
               items:
-                - title: Pulverized Iron
+                - title: Iron
                   url: pulverized-iron/
-                - title: Pulverized Gold
+                  icon: [2, 2]
+                - title: Gold
                   url: pulverized-gold/
-                - title: Pulverized Copper
+                  icon: [3, 2]
+                - title: Copper
                   url: pulverized-copper/
-                - title: Pulverized Tin
+                  icon: [4, 2]
+                - title: Tin
                   url: pulverized-tin/
-                - title: Pulverized Silver
+                  icon: [5, 2]
+                - title: Silver
                   url: pulverized-silver/
-                - title: Pulverized Lead
+                  icon: [6, 2]
+                - title: Lead
                   url: pulverized-lead/
-                - title: Pulverized Aluminum
+                  icon: [7, 2]
+                - title: Aluminum
                   url: pulverized-aluminum/
-                - title: Pulverized Nickel
+                  icon: [8, 2]
+                - title: Nickel
                   url: pulverized-nickel/
-                - title: Pulverized Platinum
+                  icon: [9, 2]
+                - title: Platinum
                   url: pulverized-platinum/
-                - title: Pulverized Iridium
+                  icon: [10, 2]
+                - title: Iridium
                   url: pulverized-iridium/
-                - title: Pulverized Mana Infused Metal
+                  icon: [11, 2]
+                - title: Mana Infused Metal
                   url: pulverized-mana-infused-metal/
-                - title: Steel Blend
+                  icon: [12, 2]
+                - title: Steel
                   url: steel-blend/
-                - title: Electrum Blend
+                  icon: [13, 2]
+                - title: Electrum
                   url: electrum-blend/
-                - title: Invar Blend
+                  icon: [14, 2]
+                - title: Invar
                   url: invar-blend/
-                - title: Bronze Blend
+                  icon: [15, 2]
+                - title: Bronze
                   url: bronze-blend/
-                - title: Constantan Blend
+                  icon: [0, 3]
+                - title: Constantan
                   url: constantan-blend/
-                - title: Signalum Blend
+                  icon: [1, 3]
+                - title: Signalum
                   url: signalum-blend/
-                - title: Lumium Blend
+                  icon: [2, 3]
+                - title: Lumium
                   url: lumium-blend/
-                - title: Enderium Blend
+                  icon: [3, 3]
+                - title: Enderium
                   url: enderium-blend/
-                - title: Pulverized Coal
+                  icon: [4, 3]
+                - title: Coal
                   url: pulverized-coal/
-                - title: Pulverized Charcoal
+                  icon: [5, 3]
+                - title: Charcoal
                   url: pulverized-charcoal/
-                - title: Pulverized Obsidian
+                  icon: [6, 3]
+                - title: Obsidian
                   url: pulverized-obsidian/
+                  icon: [7, 3]
             - title: Nuggets
               items:
                 - title: Copper
                   url: copper-nugget/
+                  icon: [8, 3]
                 - title: Tin
                   url: tin-nugget/
+                  icon: [9, 3]
                 - title: Silver
                   url: silver-nugget/
+                  icon: [10, 3]
                 - title: Lead
                   url: lead-nugget/
+                  icon: [11, 3]
                 - title: Aluminum
                   url: aluminum-nugget/
+                  icon: [12, 3]
                 - title: Nickel
                   url: nickel-nugget/
+                  icon: [13, 3]
                 - title: Platinum
                   url: platinum-nugget/
+                  icon: [14, 3]
                 - title: Iridium
                   url: iridium-nugget/
+                  icon: [15, 3]
                 - title: Mana Infused
                   url: mana-infused-nugget/
+                  icon: [0, 4]
                 - title: Steel
                   url: steel-nugget/
+                  icon: [1, 4]
                 - title: Electrum
                   url: electrum-nugget/
+                  icon: [2, 4]
                 - title: Invar
                   url: invar-nugget/
+                  icon: [3, 4]
                 - title: Bronze
                   url: bronze-nugget/
+                  icon: [4, 4]
                 - title: Constantan
                   url: constantan-nugget/
+                  icon: [5, 4]
                 - title: Signalum
                   url: signalum-nugget/
+                  icon: [6, 4]
                 - title: Lumium
                   url: lumium-nugget/
+                  icon: [7, 4]
                 - title: Enderium
                   url: enderium-nugget/
+                  icon: [8, 4]
                 - title: Diamond
                   url: diamond-nugget/
+                  icon: [9, 4]
                 - title: Emerald
                   url: emerald-nugget/
+                  icon: [10, 4]
             - title: Gears
               items:
                 - title: Iron
                   url: iron-gear/
+                  icon: [11, 4]
                 - title: Gold
                   url: gold-gear/
+                  icon: [12, 4]
                 - title: Copper
                   url: copper-gear/
+                  icon: [13, 4]
                 - title: Tin
                   url: tin-gear/
+                  icon: [14, 4]
                 - title: Silver
                   url: silver-gear/
+                  icon: [15, 4]
                 - title: Lead
                   url: lead-gear/
+                  icon: [0, 5]
                 - title: Aluminum
                   url: aluminum-gear/
+                  icon: [1, 5]
                 - title: Nickel
                   url: nickel-gear/
+                  icon: [2, 5]
                 - title: Platinum
                   url: platinum-gear/
+                  icon: [3, 5]
                 - title: Iridium
                   url: iridium-gear/
+                  icon: [4, 5]
                 - title: Mana Infused
                   url: mana-infused-gear/
+                  icon: [5, 5]
                 - title: Steel
                   url: steel-gear/
+                  icon: [6, 5]
                 - title: Electrum
                   url: electrum-gear/
+                  icon: [7, 5]
                 - title: Invar
                   url: invar-gear/
+                  icon: [8, 5]
                 - title: Bronze
                   url: bronze-gear/
+                  icon: [9, 5]
                 - title: Constantan
                   url: constantan-gear/
+                  icon: [10, 5]
                 - title: Signalum
                   url: signalum-gear/
+                  icon: [11, 5]
                 - title: Lumium
                   url: lumium-gear/
+                  icon: [12, 5]
                 - title: Enderium
                   url: enderium-gear/
+                  icon: [13, 5]
             - title: Plates
               items:
                 - title: Iron
                   url: iron-plate/
+                  icon: [14, 5]
                 - title: Gold
                   url: gold-plate/
+                  icon: [15, 5]
                 - title: Copper
                   url: copper-plate/
+                  icon: [0, 6]
                 - title: Tin
                   url: tin-plate/
+                  icon: [1, 6]
                 - title: Silver
                   url: silver-plate/
+                  icon: [2, 6]
                 - title: Lead
                   url: lead-plate/
+                  icon: [3, 6]
                 - title: Aluminum
                   url: aluminum-plate/
+                  icon: [4, 6]
                 - title: Nickel
                   url: nickel-plate/
+                  icon: [5, 6]
                 - title: Platinum
                   url: platinum-plate/
+                  icon: [6, 6]
                 - title: Iridium
                   url: iridium-plate/
+                  icon: [7, 6]
                 - title: Mana Infused
                   url: mana-infused-plate/
+                  icon: [8, 6]
                 - title: Steel
                   url: steel-plate/
+                  icon: [9, 6]
                 - title: Electrum
                   url: electrum-plate/
+                  icon: [10, 6]
                 - title: Invar
                   url: invar-plate/
+                  icon: [11, 6]
                 - title: Bronze
                   url: bronze-plate/
+                  icon: [12, 6]
                 - title: Constantan
                   url: constantan-plate/
+                  icon: [13, 6]
                 - title: Signalum
                   url: signalum-plate/
+                  icon: [14, 6]
                 - title: Lumium
                   url: lumium-plate/
+                  icon: [15, 6]
                 - title: Enderium
                   url: enderium-plate/
+                  icon: [0, 7]
             - title: Coins
               items:
                 - title: Iron
                   url: iron-coin/
+                  icon: [1, 7]
                 - title: Gold
                   url: gold-coin/
+                  icon: [2, 7]
                 - title: Copper
                   url: copper-coin/
+                  icon: [3, 7]
                 - title: Tin
                   url: tin-coin/
+                  icon: [4, 7]
                 - title: Silver
                   url: silver-coin/
+                  icon: [5, 7]
                 - title: Lead
                   url: lead-coin/
+                  icon: [6, 7]
                 - title: Aluminum
                   url: aluminum-coin/
+                  icon: [7, 7]
                 - title: Nickel
                   url: nickel-coin/
+                  icon: [8, 7]
                 - title: Platinum
                   url: platinum-coin/
+                  icon: [9, 7]
                 - title: Iridium
                   url: iridium-coin/
+                  icon: [10, 7]
                 - title: Mana Infused
                   url: mana-infused-coin/
+                  icon: [11, 7]
                 - title: Steel
                   url: steel-coin/
+                  icon: [12, 7]
                 - title: Electrum
                   url: electrum-coin/
+                  icon: [13, 7]
                 - title: Invar
                   url: invar-coin/
+                  icon: [14, 7]
                 - title: Bronze
                   url: bronze-coin/
+                  icon: [15, 7]
                 - title: Constantan
                   url: constantan-coin/
+                  icon: [0, 8]
                 - title: Signalum
                   url: signalum-coin/
+                  icon: [1, 8]
                 - title: Lumium
                   url: lumium-coin/
+                  icon: [2, 8]
                 - title: Enderium
                   url: enderium-coin/
+                  icon: [3, 8]
             - title: Elemental
               items:
                 - title: Blizz Rod
                   url: blizz-rod/
+                  icon: [4, 8]
                 - title: Blizz Powder
                   url: blizz-powder/
+                  icon: [5, 8]
                 - title: Blitz Rod
                   url: blitz-rod/
+                  icon: [6, 8]
                 - title: Blitz Powder
                   url: blitz-powder/
+                  icon: [7, 8]
                 - title: Basalz Rod
                   url: basalz-rod/
+                  icon: [8, 8]
                 - title: Basalz Powder
                   url: basalz-powder/
+                  icon: [9, 8]
                 - title: Pyrotheum Dust
                   url: pyrotheum-dust/
+                  icon: [10, 8]
                 - title: Cryotheum Dust
                   url: cryotheum-dust/
+                  icon: [11, 8]
                 - title: Aerotheum Dust
                   url: aerotheum-dust/
+                  icon: [12, 8]
                 - title: Petrotheum Dust
                   url: petrotheum-dust/
+                  icon: [13, 8]
             - title: Parts
               items:
                 - title: Redstone Servo
                   url: redstone-servo/
+                  icon: [14, 8]
                 - title: Redstone Reception Coil
                   url: redstone-reception-coil/
+                  icon: [15, 8]
                 - title: Redstone Transmission Coil
                   url: redstone-transmission-coil/
+                  icon: [0, 9]
                 - title: Redstone Conductance Coil
                   url: redstone-conductance-coil/
+                  icon: [1, 9]
             - title: Other
               items:
                 - title: Sulfur
                   url: sulfur/
+                  icon: [2, 9]
                 - title: Niter
                   url: niter/
+                  icon: [3, 9]
                 - title: Sawdust
                   url: sawdust/
+                  icon: [4, 9]
                   subitems:
                     - title: Compressed
                       url: compressed-sawdust/
+                      icon: [5, 9]
                 - title: Coal Coke
                   url: coal-coke/
+                  icon: [6, 9]
                 - title: Rosin
                   url: rosin/
+                  icon: [7, 9]
                 - title: Tar
                   url: tar/
+                  icon: [8, 9]
                 - title: Slag
                   url: slag/
+                  icon: [9, 9]
                   subitems:
                     - title: Rich
                       url: rich-slag/
+                      icon: [10, 9]
                 - title: Cinnabar
                   url: cinnabar/
+                  icon: [11, 9]
                 - title: Bitumen
                   url: bitumen/
+                  icon: [12, 9]
                 - title: Clathrate
                   subitems:
                     - title: Destabilized
                       url: destabilized-clathrate/
+                      icon: [13, 9]
                     - title: Energized
                       url: energized-clathrate/
+                      icon: [14, 9]
                     - title: Resonant
                       url: resonant-clathrate/
+                      icon: [15, 9]
                 - title: Mana Dust
                   url: mana-dust/
+                  icon: [0, 10]
                 - title: Geode
                   url: geode/
+                  icon: [1, 10]
         - title: Utilities
           items:
             - title: Crescent Hammer
               url: crescent-hammer/
+              icon: [2, 10]
             - title: Multimeter
               url: multimeter/
+              icon: [3, 10]
             - title: Upgrade Kits
               url: upgrade-kits/
+              icon: [4, 10]
             - title: Conversion Kits
               url: conversion-kits/
+              icon: [5, 10]
             - title: Signalum Security Lock
               url: signalum-security-lock/
+              icon: [6, 10]
             - title: Redprint
               url: redprint/
+              icon: [7, 10]
             - title: Forge Lexicon
               url: forge-lexicon/
+              icon: [8, 10]
             - title: Tome of Knowledge
               url: tome-of-knowledge/
+              icon: [9, 10]
             - title: Phyto-Gro
               url: phyto-gro/
+              icon: [10, 10]
               subitems:
                 - title: Rich
                   url: rich-phyto-gro/
+                  icon: [11, 10]
                 - title: Fluxed
                   url: fluxed-phyto-gro/
+                  icon: [12, 10]
             - title: Aqua-Chow
               url: aqua-chow/
+              icon: [13, 10]
               subitems:
                 - title: Rich
                   url: rich-aqua-chow/
+                  icon: [14, 10]
                 - title: Fluxed
                   url: fluxed-aqua-chow/
+                  icon: [15, 10]
     - title: Blocks
       groups:
         - title: Storage
           items:
             - title: Copper
               url: block-of-copper/
+              icon: [0, 11]
             - title: Tin
               url: block-of-tin/
+              icon: [1, 11]
             - title: Silver
               url: block-of-silver/
+              icon: [2, 11]
             - title: Lead
               url: block-of-lead/
+              icon: [3, 11]
             - title: Aluminum
               url: block-of-aluminum/
+              icon: [4, 11]
             - title: Nickel
               url: block-of-nickel/
+              icon: [5, 11]
             - title: Platinum
               url: block-of-platinum/
+              icon: [6, 11]
             - title: Iridium
               url: block-of-iridium/
+              icon: [7, 11]
             - title: Mana Infused Metal
               url: block-of-mana-infused-metal/
+              icon: [8, 11]
             - title: Steel
               url: block-of-steel/
+              icon: [9, 11]
             - title: Electrum
               url: block-of-electrum/
+              icon: [10, 11]
             - title: Invar
               url: block-of-invar/
+              icon: [11, 11]
             - title: Bronze
               url: block-of-bronze/
+              icon: [12, 11]
             - title: Constantan
               url: block-of-constantan/
+              icon: [13, 11]
             - title: Signalum
               url: block-of-signalum/
+              icon: [14, 11]
             - title: Lumium
               url: block-of-lumium/
+              icon: [15, 11]
             - title: Enderium
               url: block-of-enderium/
+              icon: [0, 12]
             - title: Charcoal
               url: block-of-charcoal/
+              icon: [1, 12]
             - title: Coal Coke
               url: block-of-coal-coke/
+              icon: [2, 12]
         - title: Other
           items:
             - title: Hardened Glass
               url: hardened-glass/
+              icon: [3, 12]
             - title: Rockwool
               url: rockwool/
+              icon: [4, 12]
     - title: Fluids
       groups:
         - title: Molten
           items:
             - title: Destabilized Redstone
               url: destabilized-redstone/
+              icon: [5, 12]
             - title: Energized Glowstone
               url: energized-glowstone/
+              icon: [6, 12]
             - title: Resonant Ender
               url: resonant-ender/
+              icon: [7, 12]
         - title: Elemental
           items:
             - title: Blazing Pyrotheum
               url: blazing-pyrotheum/
+              icon: [8, 12]
             - title: Gelid Cryotheum
               url: gelid-cryotheum/
+              icon: [9, 12]
             - title: Zephyrean Aerotheum
               url: zephyrean-aerotheum/
+              icon: [10, 12]
             - title: Tectonic Petrotheum
               url: tectonic-petrotheum/
+              icon: [11, 12]
         - title: Fuel
           items:
             - title: Creosote Oil
               url: creosote-oil/
+              icon: [12, 12]
             - title: Liquifacted Coal
               url: liquifacted-coal/
+              icon: [13, 12]
             - title: Crude Oil
               url: crude-oil/
+              icon: [14, 12]
             - title: Naphtha
               url: naphtha/
+              icon: [15, 12]
             - title: Refined Fuel
               url: refined-fuel/
+              icon: [0, 13]
             - title: Tree Oil
               url: tree-oil/
+              icon: [1, 13]
         - title: Tree
           items:
             - title: Resin
               url: resin/
+              icon: [2, 13]
             - title: Sap
               url: sap/
+              icon: [3, 13]
         - title: Other
           items:
             - title: Steam
               url: steam/
+              icon: [4, 13]
             - title: Mushroom Stew
               url: mushroom-stew/
+              icon: [5, 13]
             - title: Essence of Knowledge
               url: essence-of-knowledge/
+              icon: [6, 13]
             - title: Potion
               url: potion-fluid/
+              icon: [7, 13]
             - title: Syrup
               url: syrup/
+              icon: [8, 13]
             - title: Primal Mana
               url: primal-mana/
+              icon: [9, 13]
     - title: Equipment
       groups:
         - title: Tools
           items:
             - title: Pickaxes
               url: pickaxes/
+              icon: [10, 13]
             - title: Shovels
               url: shovels/
+              icon: [11, 13]
             - title: Axes
               url: axes/
+              icon: [12, 13]
             - title: Hoes
               url: hoes/
+              icon: [13, 13]
             - title: Fishing Rods
               url: fishing-rods/
+              icon: [14, 13]
             - title: Shears
               url: shears/
+              icon: [15, 13]
             - title: Hammers
               url: hammers/
+              icon: [0, 14]
             - title: Sickles
               url: sickles/
+              icon: [1, 14]
         - title: Weapons
           items:
             - title: Swords
               url: swords/
+              icon: [2, 14]
             - title: Reinforced Bows
               url: reinforced-bows/
+              icon: [3, 14]
             - title: Shields
               url: shields/
+              icon: [4, 14]
         - title: Armor
           items:
             - title: Helmets
               url: helmets/
+              icon: [5, 14]
             - title: Chestplates
               url: chestplates/
+              icon: [6, 14]
             - title: Leggings
               url: leggings/
+              icon: [7, 14]
             - title: Boots
               url: boots/
+              icon: [8, 14]
     - title: Other
       groups:
         - items:
@@ -603,90 +836,129 @@ thermal-expansion:
           items:
             - title: Redstone Furnace
               url: redstone-furnace/
+              icon: [9, 14]
             - title: Pulverizer
               url: pulverizer/
+              icon: [10, 14]
             - title: Sawmill
               url: sawmill/
+              icon: [11, 14]
             - title: Induction Smelter
               url: induction-smelter/
+              icon: [12, 14]
             - title: Phytogenic Insolator
               url: phytogenic-insolator/
+              icon: [13, 14]
             - title: Compactor
               url: compactor/
+              icon: [14, 14]
             - title: Magma Crucible
               url: magma-crucible/
+              icon: [15, 14]
             - title: Fractionating Still
               url: fractionating-still/
+              icon: [0, 15]
             - title: Fluid Transposer
               url: fluid-transposer/
+              icon: [1, 15]
             - title: Energetic Infuser
               url: energetic-infuser/
+              icon: [2, 15]
             - title: Centrifugal Separator
               url: centrifugal-separator/
+              icon: [3, 15]
             - title: Sequential Fabricator
               url: sequential-fabricator/
+              icon: [4, 15]
             - title: Alchemical Imbuer
               url: alchemical-imbuer/
+              icon: [5, 15]
             - title: Arcane Ensorcellator
               url: arcane-ensorcellator/
+              icon: [6, 15]
             - title: Glacial Precipitator
               url: glacial-precipitator/
+              icon: [7, 15]
             - title: Igneous Extruder
               url: igneous-extruder/
+              icon: [8, 15]
         - title: Devices
           url: devices/
           items:
             - title: Aqueous Accumulator
               url: aqueous-accumulator/
+              icon: [9, 15]
             - title: Nullifier
               url: nullifier/
+              icon: [10, 15]
             - title: Thermal Mediator
               url: thermal-mediator/
+              icon: [11, 15]
             - title: Arboreal Extractor
               url: arboreal-extractor/
+              icon: [12, 15]
             - title: Aquatic Entangler
               url: aquatic-entangler/
+              icon: [13, 15]
             - title: Item Allocator
               url: item-allocator/
+              icon: [14, 15]
             - title: Fluid Allocator
               url: fluid-allocator/
+              icon: [15, 15]
             - title: Lexical Transmuter
               url: lexical-transmuter/
+              icon: [0, 16]
             - title: Insightful Condenser
               url: insightful-condenser/
+              icon: [1, 16]
             - title: Decoctive Diffuser
               url: decoctive-diffuser/
+              icon: [2, 16]
         - title: Dynamos
           url: dynamos/
           items:
             - title: Steam Dynamo
               url: steam-dynamo/
+              icon: [3, 16]
             - title: Magmatic Dynamo
               url: magmatic-dynamo/
+              icon: [4, 16]
             - title: Compression Dynamo
               url: compression-dynamo/
+              icon: [5, 16]
             - title: Reactant Dynamo
               url: reactant-dynamo/
+              icon: [6, 16]
             - title: Enervation Dynamo
               url: enervation-dynamo/
+              icon: [7, 16]
             - title: Numismatic Dynamo
               url: numismatic-dynamo/
+              icon: [8, 16]
         - title: Storage
           items:
             - title: Energy Cell
               url: energy-cell/
+              icon: [9, 16]
             - title: Flux Capacitor
               url: flux-capacitor/
+              icon: [10, 16]
             - title: Portable Tank
               url: portable-tank/
+              icon: [11, 16]
             - title: Reservoir
               url: reservoir/
+              icon: [12, 16]
             - title: Cache
               url: cache/
+              icon: [13, 16]
             - title: Strongbox
               url: strongbox/
+              icon: [14, 16]
             - title: Satchel
               url: satchel/
+              icon: [15, 16]
         - title: Augments
           url: augments/
           groups:
@@ -694,98 +966,142 @@ thermal-expansion:
               items:
                 - title: Auxiliary Reception Coil
                   url: augment-auxiliary-reception-coil/
+                  icon: [0, 17]
                 - title: Auxiliary Sieve
                   url: augment-auxiliary-sieve/
+                  icon: [1, 17]
                 - title: Nullification Chamber
                   url: augment-nullification-chamber/
+                  icon: [2, 17]
                 - title: Trivection Chamber
                   url: augment-trivection-chamber/
+                  icon: [3, 17]
                 - title: Flux Anodizers
                   url: augment-flux-anodizers/
+                  icon: [4, 17]
                 - title: Pyrolytic Conversion
                   url: augment-pyrolytic-conversion/
+                  icon: [5, 17]
                 - title: Tectonic Initiator
                   url: augment-tectonic-initiator/
+                  icon: [6, 17]
                 - title: Resin Funnel
                   url: augment-resin-funnel/
+                  icon: [7, 17]
                 - title: Metallurgical Recovery
                   url: augment-metallurgical-recovery/
+                  icon: [8, 17]
                 - title: Pyro-Concentrator
                   url: augment-pyro-concentrator/
+                  icon: [9, 17]
                 - title: Nutrient Recovery
                   url: augment-nutrient-recovery/
+                  icon: [10, 17]
                 - title: Sapling Infuser
                   url: augment-sapling-infuser/
+                  icon: [11, 17]
                 - title: Monoculture Cycle
                   url: augment-monoculture-cycle/
+                  icon: [12, 17]
                 - title: Numismatic Press
                   url: augment-numismatic-press/
+                  icon: [13, 17]
                 - title: Gearworking Die
                   url: augment-gearworking-die/
+                  icon: [14, 17]
                 - title: Pyroconvective Loop
                   url: augment-pyroconvective-loop/
+                  icon: [15, 17]
                 - title: Reflux Column
                   url: augment-reflux-column/
+                  icon: [0, 18]
                 - title: Alchemical Retort
                   url: augment-alchemical-retort/
+                  icon: [1, 18]
                 - title: Flux Linkage Concentrator
                   url: augment-flux-linkage-concentrator/
+                  icon: [2, 18]
                 - title: Flux Reconstruction
                   url: augment-flux-reconstruction/
+                  icon: [3, 18]
                 - title: Parabolic Flux Coupling
                   url: augment-parabolic-flux-coupling/
+                  icon: [4, 18]
                 - title: Enstabulation Apparatus
                   url: augment-enstabulation-apparatus/
+                  icon: [5, 18]
                 - title: Pattern Validation
                   url: augment-pattern-validation/
+                  icon: [6, 18]
                 - title: Fluidic Fabrication
                   url: augment-fluidic-fabrication/
+                  icon: [7, 18]
                 - title: Reagent Recovery
                   url: augment-reagent-recovery/
+                  icon: [8, 18]
                 - title: Pyroclastic Injection
                   url: augment-pyroclastic-injection/
+                  icon: [9, 18]
                 - title: Clastic Deposition
                   url: augment-clastic-deposition/
+                  icon: [10, 19]
             - title: Dynamo
               items:
                 - title: Auxiliary Transmission Coil
                   url: augment-auxiliary-transmission-coil/
+                  icon: [10, 18]
                 - title: Fuel Catalyzer
                   url: augment-fuel-catalyzer/
+                  icon: [11, 18]
                 - title: Transmission Coil Ducting
                   url: augment-transmission-coil-ducting/
+                  icon: [12, 18]
                 - title: Excitation Field Limiter
                   url: augment-excitation-field-limiter/
+                  icon: [13, 18]
                 - title: Boiler Conversion
                   url: augment-boiler-conversion/
+                  icon: [14, 18]
                 - title: Turbine Conversion
                   url: augment-turbine-conversion/
+                  icon: [15, 18]
                 - title: Isentropic Reservoir
                   url: augment-isentropic-reservoir/
+                  icon: [0, 19]
                 - title: Closed-Loop Cooling
                   url: augment-closed-loop-cooling/
+                  icon: [1, 19]
                 - title: Ignition Plugs
                   url: augment-ignition-plugs/
+                  icon: [2, 19]
                 - title: Elemental Catalyzer
                   url: augment-elemental-catalyzer/
+                  icon: [3, 19]
                 - title: Disjunctive Extraction
                   url: augment-disjunctive-extraction/
+                  icon: [4, 19]
                 - title: Lapidary Calibration
                   url: augment-lapidary-calibration/
+                  icon: [5, 19]
         - title: Other
           items:
             - title: Coolants
               url: coolants/
+              icon: [9, 12]
             - title: Florb
               url: florb/
+              icon: [6, 19]
               subitems:
                 - title: Magmatic
                   url: magmatic-florb/
+                  icon: [7, 19]
             - title: Morb
               url: morb/
+              icon: [8, 19]
               subitems:
                 - title: Reusable
                   url: reusable-morb/
+                  icon: [9, 19]
 
 thermal-dynamics:
   title: Thermal Dynamics
@@ -798,64 +1114,88 @@ thermal-dynamics:
               items:
                 - title: Fluxducts
                   url: fluxducts/
+                  icon: [13, 19]
                   subitems:
                     - title: Leadstone
                       url: leadstone-fluxduct/
+                      icon: [11, 19]
                     - title: Hardened
                       url: hardened-fluxduct/
+                      icon: [12, 19]
                     - title: Redstone Energy
                       url: redstone-energy-fluxduct/
+                      icon: [13, 19]
                     - title: Signalum
                       url: signalum-fluxduct/
+                      icon: [14, 19]
                     - title: Resonant
                       url: resonant-fluxduct/
+                      icon: [15, 19]
                     - title: Cryo-Stabilized
                       url: cryo-stabilized-fluxduct/
+                      icon: [0, 20]
             - title: Fluids
               items:
                 - title: Fluiduct
                   url: fluiduct/
+                  icon: [1, 20]
                   subitems:
                     - title: Hardened
                       url: hardened-fluiduct/
+                      icon: [2, 20]
                     - title: Signalum-Plated
                       url: signalum-plated-fluiduct/
+                      icon: [3, 20]
                     - title: Super-Laminar
                       url: super-laminar-fluiduct/
+                      icon: [4, 20]
             - title: Items
               items:
                 - title: Itemduct
                   url: itemduct/
+                  icon: [5, 20]
                   subitems:
                     - title: Impulse
                       url: impulse-itemduct/
+                      icon: [6, 20]
                     - title: Signalum-Plated
                       url: signalum-plated-itemduct/
+                      icon: [7, 20]
                     - title: Signalum-Plated Impulse
                       url: signalum-plated-impulse-itemduct/
+                      icon: [8, 20]
             - title: Other
               items:
                 - title: Structuralduct
                   url: structuralduct/
+                  icon: [9, 20]
                 - title: Viaduct
                   url: viaduct/
+                  icon: [10, 20]
                   subitems:
                     - title: Long Range
                       url: long-range-viaduct/
+                      icon: [11, 20]
                     - title: Long Range Linking
                       url: long-range-linking-viaduct/
+                      icon: [12, 20]
         - title: Attachments
           items:
             - title: Covers
               url: covers/
+              icon: [13, 20]
             - title: Servos
               url: servos/
+              icon: [14, 20]
             - title: Filters
               url: filters/
+              icon: [15, 20]
             - title: Retrievers
               url: retrievers/
+              icon: [0, 21]
             - title: Redstone Relay
               url: redstone-relay/
+              icon: [1, 21]
 
 thermal-cultivation:
   title: Thermal Cultivation
@@ -865,6 +1205,7 @@ thermal-cultivation:
         - items:
             - title: Watering Can
               url: watering-can/
+              icon: [2, 21]
 
 thermal-innovation:
   title: Thermal Innovation
@@ -874,10 +1215,13 @@ thermal-innovation:
         - items:
             - title: Fluxbore
               url: fluxbore/
+              icon: [3, 21]
             - title: Fluxomagnet
               url: fluxomagnet/
+              icon: [4, 21]
             - title: Hypoinfuser
               url: hypoinfuser/
+              icon: [5, 21]
 
 redstone-arsenal:
   title: Redstone Arsenal
@@ -888,65 +1232,92 @@ redstone-arsenal:
           items:
             - title: Pickaxe
               url: flux-infused-pickaxe/
+              icon: [6, 21]
             - title: Shovel
               url: flux-infused-shovel/
+              icon: [7, 21]
             - title: Axe
               url: flux-infused-axe/
+              icon: [8, 21]
             - title: Fishing Rod
               url: flux-infused-fishing-rod/
+              icon: [9, 21]
             - title: Hammer
               url: flux-infused-hammer/
+              icon: [10, 21]
             - title: Sickle
               url: flux-infused-sickle/
+              icon: [11, 21]
             - title: OmniWrench
               url: flux-infused-omniwrench/
+              icon: [12, 21]
         - title: Flux-Infused Weapons
           items:
             - title: Sword
               url: flux-infused-sword/
+              icon: [13, 21]
             - title: Bow
               url: flux-infused-bow/
+              icon: [14, 21]
             - title: Quiver
               url: flux-infused-quiver/
+              icon: [15, 21]
             - title: Shield
               url: flux-infused-shield/
+              icon: [0, 22]
             - title: BattleWrench
               url: flux-infused-battlewrench/
+              icon: [1, 22]
         - title: Flux-Infused Armor
           items:
             - title: Helm
               url: flux-infused-helm/
+              icon: [2, 22]
             - title: Chestplate
               url: flux-infused-chestplate/
+              icon: [3, 22]
             - title: Leggings
               url: flux-infused-leggings/
+              icon: [4, 22]
             - title: Boots
               url: flux-infused-boots/
+              icon: [5, 22]
         - title: Materials
           items:
             - title: Fluxed Electrum
               subitems:
                 - title: Ingot
                   url: fluxed-electrum-ingot/
+                  icon: [6, 22]
                 - title: Blend
                   url: fluxed-electrum-blend/
+                  icon: [7, 22]
                 - title: Nugget
                   url: fluxed-electrum-nugget/
+                  icon: [8, 22]
                 - title: Gear
                   url: fluxed-electrum-gear/
+                  icon: [9, 22]
                 - title: Plate
                   url: fluxed-electrum-plate/
+                  icon: [10, 22]
                 - title: Block
                   url: fluxed-electrum-block/
+                  icon: [11, 22]
             - title: Flux Crystal
               url: flux-crystal/
+              icon: [12, 22]
               subitems:
                 - title: Block
                   url: flux-crystal-block/
+                  icon: [13, 22]
             - title: Obsidian Rod
               url: obsidian-rod/
+              icon: [14, 22]
               subitems:
                 - title: Flux-Infused
                   url: flux-infused-obsidian-rod/
+                  icon: [15, 22]
             - title: Fluxed Armor Plating
               url: fluxed-armor-plating/
+              icon: [0, 23]

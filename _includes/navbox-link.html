@@ -3,7 +3,13 @@
 {% endif %}
 
 {% if include.link_url and include.page_url contains full_url %}
-    <strong>{{ include.text }}</strong>
+    <span class="uk-text-bold cofh-nowrap">
+        {% include navbox-icon.html icon=include.icon %}
+        {{ include.text }}
+    </span>
 {% else %}
-    <a {% if include.link_url %}href="/docs/{{include.link_url}}"{% else %}class="uk-text-danger"{% endif %}>{{ include.text }}</a>
+    <a {% if include.link_url %}href="/docs/{{include.link_url}}"{% endif %} class="cofh-nowrap cofh-navbox-link {% unless include.link_url %}uk-text-danger{% endunless %}">
+        {% include navbox-icon.html icon=include.icon %}
+        <span>{{ include.text }}</span>
+    </a>
 {% endif %}
