@@ -44,7 +44,7 @@ retort](/docs/augment-alchemical-retort/) installed.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Potion | Max. level | Duration (level III) | Duration (level IV) | Duration (level V) |
+| Potion | Max. level | Duration (III) | Duration (IV) | Duration (V) |
 |---
 | [Potion of Leaping](https://minecraft.gamepedia.com/Potion#Potion_of_Leaping) | V | 0:45 | 0:36 | 0:30 |
 | [Potion of Swiftness](https://minecraft.gamepedia.com/Potion#Potion_of_Swiftness) | V | 0:45 | 0:36 | 0:30 |

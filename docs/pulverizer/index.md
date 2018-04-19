@@ -187,8 +187,8 @@ usage of 20 RF/t. This can be increased by upgrading the machine to a higher
 
 ### Input and output
 Items and fluids can enter and exit a pulverizer through its sides. Every side
-of a pulverizer may correspond to its input slot (and possibly its input tank),
-one of its output slots, or certain slots/tanks at the same time.
+of a pulverizer may correspond to its input slot, one of its output slots, or
+certain slots at the same time. Fluids can enter a pulverizer through any side.
 
 A pulverizer can automatically transfer items out of any sides that directly
 correspond to one of its output slots. This is called auto-output. It can also

@@ -44,9 +44,9 @@ the potion that is being refined.
 <div class="uk-overflow-container">
 | Level increase | Input amount | Output amount |
 |---
-| II to III | 200 mB | 150 mB |
-| III to IV | 150 mB | 100 mB |
-| IV to V | 100 mB | 50 mB |
+| II to III | 250 mB | 200 mB |
+| III to IV | 200 mB | 150 mB |
+| IV to V | 150 mB | 100 mB |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

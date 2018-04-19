@@ -123,8 +123,9 @@ to a higher [tier](#tiers), and by installing certain [augments](#augmentation).
 
 ### Input and output
 Items and fluids can enter and exit a phytogenic insolator through its sides.
-Every side of an insolator may correspond to one of its input slots, its input
-tank, one of its output slots, or certain slots/tanks at the same time.
+Every side of an insolator may correspond to one of its input slots, one of its
+output slots, or certain slots at the same time. Fluids can enter an insolator
+through any side.
 
 A phytogenic insolator can automatically transfer items out of any sides that
 directly correspond to one of its output slots. This is called auto-output. It
