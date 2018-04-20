@@ -57,6 +57,7 @@ usage-recipes:
     - fluiduct-basic
     - fluiduct-basic-opaque
     - watering-can-basic
+    - drill-hardened
     - axe-copper
     - bow-copper
     - fishing-rod-copper

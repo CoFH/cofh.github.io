@@ -16,6 +16,8 @@ usage-recipes:
     - itemduct-energy-opaque-one
     - itemduct-energy-fast-one
     - itemduct-energy-fast-opaque-one
+    - magnet-signalum
+    - injector-signalum
 ---
 
 ![Electrum nugget](/assets/images/thermal-foundation/nugget-electrum.png){:style="height: 128px"}

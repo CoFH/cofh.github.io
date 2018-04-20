@@ -1468,6 +1468,31 @@ door-wood-spruce:
   sprite: [3, 51]
   site: mc-wiki
   url: Door
+drill-basic:
+  name: Fluxbore (Basic)
+  sprite: [13, 61]
+  site: cofh
+  url: fluxbore/
+drill-hardened:
+  name: Fluxbore (Hardened)
+  sprite: [14, 61]
+  site: cofh
+  url: fluxbore/
+drill-reinforced:
+  name: Fluxbore (Reinforced)
+  sprite: [15, 61]
+  site: cofh
+  url: fluxbore/
+drill-signalum:
+  name: Fluxbore (Signalum)
+  sprite: [0, 62]
+  site: cofh
+  url: fluxbore/
+drill-resonant:
+  name: Fluxbore (Resonant)
+  sprite: [1, 62]
+  site: cofh
+  url: fluxbore/
 duct-cover-andesite-polished:
   name: Polished Andesite Cover
   sprite: [7, 33]
@@ -2848,6 +2873,31 @@ ingot-tin:
   sprite: [11, 1]
   site: cofh
   url: tin-ingot/
+injector-basic:
+  name: Hypoinfuser (Basic)
+  sprite: [7, 62]
+  site: cofh
+  url: hypoinfuser/
+injector-hardened:
+  name: Hypoinfuser (Hardened)
+  sprite: [8, 62]
+  site: cofh
+  url: hypoinfuser/
+injector-reinforced:
+  name: Hypoinfuser (Reinforced)
+  sprite: [9, 62]
+  site: cofh
+  url: hypoinfuser/
+injector-signalum:
+  name: Hypoinfuser (Signalum)
+  sprite: [10, 62]
+  site: cofh
+  url: hypoinfuser/
+injector-resonant:
+  name: Hypoinfuser (Resonant)
+  sprite: [11, 62]
+  site: cofh
+  url: hypoinfuser/
 ink-sac:
   name: Ink Sac
   sprite: [0, 5]
@@ -3158,6 +3208,31 @@ magma-cream:
   sprite: [1, 40]
   site: mc-wiki
   url: Magma_Cream
+magnet-basic:
+  name: Fluxomagnet (Basic)
+  sprite: [2, 62]
+  site: cofh
+  url: fluxomagnet/
+magnet-hardened:
+  name: Fluxomagnet (Hardened)
+  sprite: [3, 62]
+  site: cofh
+  url: fluxomagnet/
+magnet-reinforced:
+  name: Fluxomagnet (Reinforced)
+  sprite: [4, 62]
+  site: cofh
+  url: fluxomagnet/
+magnet-signalum:
+  name: Fluxomagnet (Signalum)
+  sprite: [5, 62]
+  site: cofh
+  url: fluxomagnet/
+magnet-resonant:
+  name: Fluxomagnet (Resonant)
+  sprite: [6, 62]
+  site: cofh
+  url: fluxomagnet/
 melon:
   name: Melon
   sprite: [14, 53]

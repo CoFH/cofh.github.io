@@ -27,6 +27,7 @@ usage-recipes:
     - machine-precipitator
     - machine-extruder
     - augment-machine-power
+    - drill-basic
 ---
 
 ![Redstone reception coil](/assets/images/thermal-foundation/redstone-coil-gold.png){:style="height: 128px"}

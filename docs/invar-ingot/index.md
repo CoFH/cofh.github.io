@@ -57,6 +57,9 @@ usage-recipes:
     - retriever-hardened
     - retriever-hardened-upgrade
     - watering-can-hardened
+    - drill-hardened
+    - magnet-hardened
+    - injector-hardened
     - axe-invar
     - bow-invar
     - fishing-rod-invar

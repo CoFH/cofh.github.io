@@ -13,6 +13,8 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-copper-from-nuggets
+    - magnet-hardened
+    - injector-hardened
 ---
 
 ![Copper nugget](/assets/images/thermal-foundation/nugget-copper.png){:style="height: 128px"}
