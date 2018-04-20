@@ -10,6 +10,10 @@ layout: default
         {% include page-outdated.html %}
     {% endif %}
 
+    {% if page.wip %}
+        {% include page-wip.html %}
+    {% endif %}
+
     {% if page.image %}
         {% include page-image.html data=page.image %}
     {% endif %}

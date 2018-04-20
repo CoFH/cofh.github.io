@@ -47,3 +47,7 @@ A [decoctive diffuser](/docs/decoctive-diffuser/) applies the effects of a fluid
 potion in an area. Its range increases when using a fluid [splash
 potion](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
 potion](https://minecraft.gamepedia.com/Lingering_Potion).
+
+### Hypoinfuser
+A [hypoinfuser](/docs/hypoinfuser/) can store a fluid potion and inject it
+manually or automatically.
