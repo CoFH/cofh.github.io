@@ -47,9 +47,9 @@ an [energetic infuser](/docs/energetic-infuser/) or similar. It can be placed in
 [machines](/docs/machines/) or [enervation dynamos](/docs/enervation-dynamo/) to
 provide them with energy.
 
-A basic flux capacitor can be charged at up to 2,000 RF/t, and can be discharged
-at up to 1,000 RF/t. This can be increased by upgrading the flux capacitor to a
-higher [tier](#tiers).
+A basic flux capacitor can hold up to 1,000,000 RF, can be charged at up to
+2,000 RF/t, and can be discharged at up to 1,000 RF/t. This can be increased by
+upgrading the flux capacitor to a higher [tier](#tiers).
 
 ### Charging items
 A charged flux capacitor can be activated and deactivated by using it while
