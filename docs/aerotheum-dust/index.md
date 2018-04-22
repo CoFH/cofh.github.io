@@ -4,6 +4,7 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/elemental-materials/aerotheum-dust/
   - /docs/thermal-foundation/items/materials/elemental/aerotheum-dust/
+  - /docs/thermal-foundation/materials/aerotheum-dust/
 recipes:
   crafting:
     - dust-aerotheum

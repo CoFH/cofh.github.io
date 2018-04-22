@@ -5,6 +5,7 @@ redirect_from:
   - /thermal-expansion/items/pyrotheum-dust/
   - /docs/thermal-foundation/elemental-materials/pyrotheum-dust/
   - /docs/thermal-foundation/items/materials/elemental/pyrotheum-dust/
+  - /docs/thermal-foundation/materials/pyrotheum-dust/
 recipes:
   crafting:
     - dust-pyrotheum

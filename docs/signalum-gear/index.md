@@ -3,6 +3,7 @@ title: Signalum Gear
 nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/gears/signalum-gear/
+  - /docs/thermal-foundation/gears/signalum-gear/
 recipes:
   crafting:
     - gear-signalum

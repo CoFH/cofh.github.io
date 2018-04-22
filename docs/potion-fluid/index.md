@@ -49,5 +49,9 @@ potion](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
 potion](https://minecraft.gamepedia.com/Lingering_Potion).
 
 ### Hypoinfuser
-A [hypoinfuser](/docs/hypoinfuser/) can store a fluid potion and inject it
-manually or automatically.
+A [hypoinfuser](/docs/hypoinfuser/) can store a fluid potion and automatically
+infuse the wielder with it. It can also be used to forcibly inject a potion into
+other players or [mobs](https://minecraft.gamepedia.com/Mob). It only works with
+regular potions; it does not work with [splash
+potions](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
+potions](https://minecraft.gamepedia.com/Lingering_Potion).

@@ -4,6 +4,7 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/elemental-materials/petrotheum-dust/
   - /docs/thermal-foundation/items/materials/elemental/petrotheum-dust/
+  - /docs/thermal-foundation/materials/petrotheum-dust/
 recipes:
   crafting:
     - dust-petrotheum

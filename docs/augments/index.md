@@ -4,6 +4,7 @@ nav: thermal-expansion
 redirect_from:
   - /docs/thermal-expansion/augments/
   - /docs/thermal-expansion/augments/augmentation/
+  - /docs/thermal-expansion/tiers-and-augments/augments/
 augments:
   machine:
     - machine-power

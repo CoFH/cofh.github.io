@@ -1,6 +1,5 @@
 ---
 title: Hypoinfuser
-wip: true
 nav: thermal-innovation
 image:
   - alt: Hypoinfuser (Basic)
@@ -38,11 +37,51 @@ Obtaining
 Usage
 -----
 
-### Filling
+### Filling and draining
+A hypoinfuser can hold the [fluid form](/docs/potion-fluid/) or any regular
+[potion](https://minecraft.gamepedia.com/Potion). It can be filled and drained
+manually by using it on a block that can hold fluid potions, or automatically
+using a [fluid transposer](/docs/fluid-transposer/) or similar.
+
+A basic hypoinfuser can store up to 2
+[buckets](https://minecraft.gamepedia.com/Bucket) worth of a potion (2,000 mB).
+This can be increased by upgrading the hypoinfuser to a higher [tier](#tiers).
+
+A hypoinfuser only works with regular potions; it does not work with [splash
+potions](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
+potions](https://minecraft.gamepedia.com/Lingering_Potion).
 
 ### Potion injection
+A filled hypoinfuser is capable of automatically infusing the wielder with the
+contained potion. This can be enabled and disabled by pressing "Cycle Item Mode"
+(V by default) while holding the hypoinfuser.
+
+An active hypoinfuser automatically infuses the wielder with the contained
+potion when the potion's effect is not yet applied, and when the effect is about
+to wear off. It infuses 50 mB of the potion at a time. The duration of the
+applied effect is one fourth of the contained potion's duration. Potions with
+instant effects are applied at half the power.
+
+Potion effects automatically applied by a hypoinfuser do not have particle
+effects.
+
+A filled hypoinfuser can be used on other players or
+[mobs](https://minecraft.gamepedia.com/Mob) to forcibly inject the potion into
+them. When used in this way, it infuses 250 mB of the potion at a time. The
+duration of the applied effect is half of the contained potion's duration.
+Potions with instant effects are applied at half the power.
 
 ### Enchantments
+A hypoinfuser can be enchanted with [Holding](/docs/holding/) to increase its
+capacity.
+
+| Holding level | Capacity multiplier |
+|---
+| I | × 1.5 |
+| II | × 2 |
+| III | × 2.5 |
+| IV | × 3 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 
 Tiers
