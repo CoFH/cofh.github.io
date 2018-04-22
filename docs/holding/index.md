@@ -35,6 +35,10 @@ energy:
 ### Thermal Cultivation
 [Watering cans](/docs/watering-can/) can be enchanted to hold more water.
 
+### Thermal Innovation
+All equipment added by [Thermal Innovation](/docs/thermal-innovation/) can be
+enchanted to hold more energy or more of a fluid.
+
 ### Redstone Arsenal
 All equipment added by [Redstone Arsenal](/docs/redstone-arsenal/) can be
 enchanted to hold more energy.

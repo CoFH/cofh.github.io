@@ -59,7 +59,7 @@ the satchel on the block while sneaking.
 ### Auto-collect
 A satchel is able to automatically store items picked up by its user. This is
 called auto-collect. Auto-collect can be enabled and disabled by pressing "Cycle
-Item Mode" (V by default).
+Item Mode" (V by default) while holding the satchel.
 
 A satchel can be configured to only auto-collect items that match a given list
 of items. This can be done by using the satchel while sneaking. It has various

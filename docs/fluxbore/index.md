@@ -41,7 +41,8 @@ Usage
 
 ### Charging
 A fluxbore can be charged with [Redstone Flux](/docs/redstone-flux/) using an
-[energetic infuser](/docs/energetic-infuser/) or similar.
+[energetic infuser](/docs/energetic-infuser/), a [flux
+capacitor](/docs/flux-capacitor/) or similar.
 
 A basic fluxbore can hold up to 40,000 RF and can be charged at up to 1,000
 RF/t. This can be increased by upgrading the fluxbore to a higher
@@ -56,21 +57,22 @@ A fluxbore can be used as both a
 [shovel](https://minecraft.gamepedia.com/Shovel). It consumes 200 RF for each
 mined block.
 
-A basic fluxbore is comparable to an [iron
+A charged basic fluxbore is comparable to an [iron
 pickaxe](https://minecraft.gamepedia.com/Iron_Pickaxe) or
 [shovel](https://minecraft.gamepedia.com/Iron_Shovel). It becomes more powerful
 when upgraded to a higher [tier](#tiers).
 
-At higher tiers, a fluxbore can be configured to mine multiple blocks at once in
-a certain area. The current mining area of a fluxbore can be set by pressing
-"Cycle Item Mode" (V by default) while holding it. When mining multiple blocks,
-a fluxbore works slightly slower.
+At higher tiers, a charged fluxbore can be configured to mine multiple blocks at
+once in a certain area. The current mining area of a fluxbore can be set by
+pressing "Cycle Item Mode" (V by default) while holding it. When mining multiple
+blocks, a fluxbore works slightly slower.
 
 ### Weapon
 A fluxbore has an attack speed of 1.8. When uncharged, it deals 2 damage. When
 charged, a basic fluxbore deals 3 damage. The damage when charged can be
-increased by upgrading the fluxbore to a higher [tier](#tiers). A fluxbore
-consumes 400 RF per hit.
+increased by upgrading the fluxbore to a higher [tier](#tiers).
+
+A charged fluxbore consumes 400 RF per hit.
 
 ### Enchantments
 A fluxbore can receive all the enchantments that
@@ -118,7 +120,7 @@ Fluxbores come in six [tiers](/docs/tiers/).
 | Reinforced | 240,000 RF | 9,000 RF/t | 8 | 3 | 3x3 | 4 | 15 | Comparable to diamond tools. |
 | Signalum | 400,000 RF | 16,000 RF/t | 9 | 3 | 5x5 | 4.5 | 15 |
 | Resonant | 600,000 RF | 25,000 RF/t | 10 | 4 | 5x5 | 5 | 20 |
-| Creative | N/A | N/A | 10 | 4 | 5x5 | 5 | 20 | Holds an unlimited amount of energy. |
+| Creative | N/A | N/A | 10 | 4 | 5x5 | 5 | 20 | Does not consume energy. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small}
 </div>
 {::options parse_block_html="false" /}

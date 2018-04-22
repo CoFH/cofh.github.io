@@ -26,8 +26,9 @@ Usage
 
 ### Charging
 Flux-infused boots can hold up to 800,000 [RF](/docs/redstone-flux/). They can
-be charged using an [energetic infuser](/docs/energetic-infuser/) or similar, or
-by touching a [fluxed electrum block](/docs/fluxed-electrum-block/) or [flux
+be charged using an [energetic infuser](/docs/energetic-infuser/), a [flux
+capacitor](/docs/flux-capacitor/) or similar. They can also be charged by
+touching a [fluxed electrum block](/docs/fluxed-electrum-block/) or [flux
 crystal block](/docs/flux-crystal-block) while holding them. They can be charged
 at rates up to 4,000 RF/t.
 

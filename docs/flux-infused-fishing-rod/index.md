@@ -29,10 +29,11 @@ Usage
 
 ### Charging
 A flux-infused fishing rod can hold up to 320,000 [RF](/docs/redstone-flux/). It
-can be charged using an [energetic infuser](/docs/energetic-infuser/) or
-similar, or by touching a [fluxed electrum block](/docs/fluxed-electrum-block/)
-or [flux crystal block](/docs/flux-crystal-block) while holding it. It can be
-charged at rates up to 4,000 RF/t.
+can be charged using an [energetic infuser](/docs/energetic-infuser/), a [flux
+capacitor](/docs/flux-capacitor/) or similar. It can also be charged by touching
+a [fluxed electrum block](/docs/fluxed-electrum-block/) or [flux crystal
+block](/docs/flux-crystal-block) while holding it. It can be charged at rates up
+to 4,000 RF/t.
 
 ### Empowering
 A charged flux-infused fishing rod can be empowered, increasing its power. This

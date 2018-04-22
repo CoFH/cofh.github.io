@@ -29,6 +29,9 @@ The following blocks and items can be upgraded:
 * [Strongbox](/docs/strongbox/)
 * [Satchel](/docs/satchel/)
 * [Watering Can](/docs/watering-can/)
+* [Fluxbore](/docs/fluxbore/)
+* [Fluxomagnet](/docs/fluxomagnet/)
+* [Hypoinfuser](/docs/hypoinfuser/)
 
 
 List of tiers

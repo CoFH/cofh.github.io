@@ -43,9 +43,9 @@ Usage
 
 ### Redstone Flux battery
 A flux capacitor can be charged with [Redstone Flux](/docs/redstone-flux/) using
-an [energetic infuser](/docs/energetic-infuser/) or similar. It can be placed in
-[machines](/docs/machines/) or [enervation dynamos](/docs/enervation-dynamo/) to
-provide them with energy.
+an [energetic infuser](/docs/energetic-infuser/), another flux capacitor or
+similar. It can be placed in [machines](/docs/machines/) or [enervation
+dynamos](/docs/enervation-dynamo/) to provide them with energy.
 
 A basic flux capacitor can hold up to 1,000,000 RF, can be charged at up to
 2,000 RF/t, and can be discharged at up to 1,000 RF/t. This can be increased by

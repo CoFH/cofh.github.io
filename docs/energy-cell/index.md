@@ -71,7 +71,8 @@ copied onto it, the configured transmission rates scale with its tier.
 ### Item form
 An energy cell in item form can be charged with [Redstone
 Flux](/docs/redstone-flux/) using an [energetic
-infuser](/docs/energetic-infuser/) or similar. It can be placed in
+infuser](/docs/energetic-infuser/), a [flux capacitor](/docs/flux-capacitor/) or
+similar. It can be placed in
 [machines](/docs/machines/) or [enervation dynamos](/docs/enervation-dynamo/) to
 provide them with energy.
 
