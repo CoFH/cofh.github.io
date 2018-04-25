@@ -63,7 +63,9 @@ Usage
 Hammers can be used to mine the same blocks
 [pickaxes](https://minecraft.gamepedia.com/Pickaxe) can mine. When a block is
 mined using a hammer, any blocks surrounding it in a 3x3 area will be mined as
-well if possible. Hammers use 1 durability for every individual block mined.
+well if possible. This can be temporarily disabled by sneaking.
+
+Hammers use 1 durability for every individual block mined.
 
 ### Comparison
 {::options parse_block_html="true" /}

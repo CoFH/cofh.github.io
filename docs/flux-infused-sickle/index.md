@@ -44,6 +44,8 @@ A charged flux-infused sickle can break up to 49 plant-like blocks in a 7x7 area
 empowered, it can break up to 121 blocks in a 11x11 area, and consumes 1,200 RF
 per use.
 
+When sneaking, a flux-infused sickle breaks only one block at a time.
+
 ### Weapon
 An uncharged flux-infused sickle has an attack speed of 1.4, and deals 2 damage.
 When charged, it deals 5 damage as well as 1 flux damage (a special type of

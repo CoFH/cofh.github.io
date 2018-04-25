@@ -50,6 +50,8 @@ area, and consumes 200 RF per use. When empowered, it is 1.5 times as fast as a
 diamond hammer, breaks up to 25 blocks at a time in a 5x5 area, and consumes
 1,600 RF per use.
 
+When sneaking, a flux-infused hammer breaks only one block at a time.
+
 A flux-infused hammer can harvest the same blocks that a [flux-infused
 pickaxe](/docs/flux-infused-pickaxe/) can harvest.
 

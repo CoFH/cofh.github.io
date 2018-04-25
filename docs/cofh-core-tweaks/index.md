@@ -5,7 +5,17 @@ redirect_from:
   - /docs/cofh-core/tweaks/
 ---
 
-[CoFH Core](/docs/cofh-core/) adds several optional **tweaks** to the game.
+[CoFH Core](/docs/cofh-core/) adds several **tweaks** to the game. Most of these
+are optional and can be disabled.
+
+
+Infinity bows without arrows
+----------------------------
+
+[Bows](https://minecraft.gamepedia.com/Bow) enchanted with
+[Infinity](https://minecraft.gamepedia.com/Enchanting#Infinity) work even if
+there are no [arrows](https://minecraft.gamepedia.com/Arrow) in the user's
+inventory.
 
 
 Named mob death messages
