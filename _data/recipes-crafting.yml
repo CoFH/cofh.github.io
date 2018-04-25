@@ -1795,6 +1795,19 @@ recipes:
       result:
         item: [diamond]
         amount: 1
+  drill-head:
+    results:
+      - item: drill-head
+    ingredients:
+      - item: ingot-iron
+      - item: ingot-copper
+    data:
+      rows:
+        - [null, item: [ingot-iron]]
+        - [item: [ingot-iron], item: [ingot-copper], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [ingot-iron], item: [ingot-iron]]
+      result:
+        item: [drill-head]
   drill-basic:
     results:
       - item: drill-basic
@@ -1927,8 +1940,8 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [blitz-powder], item: [redstone]]
-        - [item: [niter]]
+        - [item: [blitz-powder], item: [blitz-powder]]
+        - [item: [redstone], item: [niter]]
       result:
         item: [dust-aerotheum]
         amount: 2
@@ -1969,8 +1982,8 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [blizz-powder], item: [redstone]]
-        - [item: [snowball]]
+        - [item: [blizz-powder], item: [blizz-powder]]
+        - [item: [redstone], item: [snowball]]
       result:
         item: [dust-cryotheum]
         amount: 2
@@ -2072,8 +2085,8 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [basalz-powder], item: [redstone]]
-        - [item: [dust-obsidian]]
+        - [item: [basalz-powder], item: [basalz-powder]]
+        - [item: [redstone], item: [dust-obsidian]]
       result:
         item: [dust-petrotheum]
         amount: 2
@@ -2087,8 +2100,8 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [blaze-powder], item: [redstone]]
-        - [item: [sulfur]]
+        - [item: [blaze-powder], item: [blaze-powder]]
+        - [item: [redstone], item: [sulfur]]
       result:
         item: [dust-pyrotheum]
         amount: 2
@@ -6169,14 +6182,14 @@ recipes:
       - item: multimeter
     ingredients:
       - item: redstone-coil-electrum
-      - item: gear-electrum
+      - item: gear-gold
       - item: ingot-copper
       - item: ingot-lead
     data:
       rows:
         - [item: [ingot-copper], null, item: [ingot-copper]]
         - [item: [ingot-lead], item: [redstone-coil-electrum], item: [ingot-lead]]
-        - [null, item: [gear-electrum]]
+        - [null, item: [gear-gold]]
       result:
         item: [multimeter]
         amount: 1
@@ -8323,6 +8336,19 @@ recipes:
             item-group: rockwool
       result:
         item: [satchel-void]
+  saw-blade:
+    results:
+      - item: saw-blade
+    ingredients:
+      - item: ingot-iron
+      - item: ingot-copper
+    data:
+      rows:
+        - [item: [ingot-iron], item: [ingot-iron]]
+        - [item: [ingot-iron], item: [ingot-copper], item: [ingot-iron]]
+        - [null, item: [ingot-iron], item: [ingot-iron]]
+      result:
+        item: [saw-blade]
   sawdust-compressed:
     results:
       - item: sawdust-compressed
@@ -9922,6 +9948,20 @@ recipes:
       result:
         item: [tome-of-knowledge]
         amount: 1
+  tool-casing:
+    results:
+      - item: tool-casing
+    ingredients:
+      - item: ingot-gold
+      - item: ingot-iron
+      - item: redstone
+    data:
+      rows:
+        - [null, item: [redstone]]
+        - [item: [ingot-gold], item: [redstone], item: [ingot-gold]]
+        - [item: [redstone], item: [ingot-iron], item: [redstone]]
+      result:
+        item: [tool-casing]
   torch-using-rosin:
     results:
       - item: torch

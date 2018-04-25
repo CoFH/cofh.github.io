@@ -10,7 +10,6 @@ recipes:
     - gear-electrum
 usage-recipes:
   crafting:
-    - multimeter
     - upgrade-kit-signalum
     - dynamo-enervation
     - augment-machine-charger-throughput

@@ -60,6 +60,6 @@ Usage
 Trivia
 ------
 
-* Copper ore is generated in the world using [CoFH World](/docs/cofh-world/).
-  The world generation can be tweaked or disabled using CoFH World's
+* Copper ore is generated in the world using [CoFH World](/docs/cofh-world/) by
+  default. The world generation can be tweaked or disabled using CoFH World's
   [configuration](/docs/world-generator-configuration/).

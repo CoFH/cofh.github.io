@@ -10,8 +10,8 @@ nav: cofh-world
 the mods of Team CoFH. It also provides a configuration system that allows users
 to define new types of features to generate in worlds.
 
-This mod must be installed in order for [Thermal
-Foundation](/docs/thermal-foundation/) to run.
+[Thermal Foundation](/docs/thermal-foundation/) uses this mod for its world
+generation by default.
 
 
 <div class="uk-margin-top uk-button-group">

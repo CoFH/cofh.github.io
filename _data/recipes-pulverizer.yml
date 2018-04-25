@@ -568,7 +568,7 @@ recipes:
     energy: 4000
     data:
       input:
-        item: [oil-sand]
+        item: [oil-sand, oil-red-sand]
       primary-output:
         item: [bitumen]
         amount: 3

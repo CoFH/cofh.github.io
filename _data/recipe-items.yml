@@ -1468,6 +1468,11 @@ door-wood-spruce:
   sprite: [3, 51]
   site: mc-wiki
   url: Door
+drill-head:
+  name: Drill Head
+  sprite: [14, 62]
+  site: cofh
+  url: drill-head/
 drill-basic:
   name: Fluxbore (Basic)
   sprite: [13, 61]
@@ -3488,6 +3493,11 @@ oil-sand:
   sprite: [10, 7]
   site: cofh
   url: oil-sand/
+oil-red-sand:
+  name: Oil Sand
+  sprite: [12, 62]
+  site: cofh
+  url: oil-sand/
 oil-shale:
   name: Oil Shale
   sprite: [11, 7]
@@ -4268,6 +4278,11 @@ satchel-void:
   animated: true
   site: cofh
   url: satchel/
+saw-blade:
+  name: Saw Blade
+  sprite: [15, 62]
+  site: cofh
+  url: saw-blade/
 sawdust:
   name: Sawdust
   sprite: [11, 15]
@@ -4983,6 +4998,11 @@ tome-of-knowledge:
   sprite: [5, 60]
   site: cofh
   url: tome-of-knowledge/
+tool-casing:
+  name: Tool Casing
+  sprite: [13, 62]
+  site: cofh
+  url: tool-casing/
 torch:
   name: Torch
   sprite: [7, 40]

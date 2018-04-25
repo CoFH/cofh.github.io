@@ -57,6 +57,8 @@
     curse: https://mods.curse.com/mc-mods/minecraft/222880-thermal-foundation
     curseforge: https://minecraft.curseforge.com/projects/thermal-foundation
     changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalfoundation_changelog.txt
+  note: >
+    CoFH World is not strictly required, but the default world generation uses it.
 
 - name: Thermal Expansion
   tag: thermal-expansion

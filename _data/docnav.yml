@@ -519,6 +519,15 @@ thermal-foundation:
                 - title: Redstone Conductance Coil
                   url: redstone-conductance-coil/
                   icon: [1, 9]
+                - title: Tool Casing
+                  url: tool-casing/
+                  icon: [1, 23]
+                - title: Drill Head
+                  url: drill-head/
+                  icon: [2, 23]
+                - title: Saw Blade
+                  url: saw-blade/
+                  icon: [3, 23]
             - title: Other
               items:
                 - title: Sulfur
@@ -567,6 +576,9 @@ thermal-foundation:
                     - title: Resonant
                       url: resonant-clathrate/
                       icon: [15, 9]
+                - title: Pigments
+                  url: pigments/
+                  icon: [4, 23]
                 - title: Mana Dust
                   url: mana-dust/
                   icon: [0, 10]

@@ -42,6 +42,8 @@ usage-recipes:
     - nugget-copper
     - gear-copper
     - gear-iron-using-copper
+    - drill-head
+    - saw-blade
     - storage-block-copper
     - multimeter
     - device-heat-sink

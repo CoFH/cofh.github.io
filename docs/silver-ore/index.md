@@ -64,6 +64,6 @@ Silver ore emits a light level of 4.
 Trivia
 ------
 
-* Silver ore is generated in the world using [CoFH World](/docs/cofh-world/).
-  The world generation can be tweaked or disabled using CoFH World's
+* Silver ore is generated in the world using [CoFH World](/docs/cofh-world/) by
+  default. The world generation can be tweaked or disabled using CoFH World's
   [configuration](/docs/world-generator-configuration/).

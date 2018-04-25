@@ -1,6 +1,11 @@
 ---
 title: Oil Sand
 nav: thermal-foundation
+image:
+  - alt: Oil sand
+    file: thermal-foundation/ore-fluid-crude-oil-sand.png
+  - alt: Oil sand
+    file: thermal-foundation/ore-fluid-crude-oil-red-sand.png
 redirect_from:
   - /docs/thermal-foundation/ores/oil-sand/
   - /docs/thermal-foundation/world/fluid-ores/oil-sand/
@@ -11,12 +16,11 @@ usage-recipes:
     - fluid-ore-processing-oil-sand
 ---
 
-![Oil sand](/assets/images/thermal-foundation/ore-fluid-crude-oil-sand.png){:style="height: 128px"}
-
-
 **Oil sand** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
 yields [bitumen](/docs/bitumen/) ([crude oil](/docs/crude-oil/)) and small
-amounts of [tar](/docs/tar/).
+amounts of [tar](/docs/tar/). It comes in regular
+[sand](https://minecraft.gamepedia.com/Sand) and [red
+sand](https://minecraft.gamepedia.com/Red_Sand) variants.
 
 
 Obtaining
@@ -59,6 +63,6 @@ Usage
 Trivia
 ------
 
-* Oil sand is generated in the world using [CoFH World](/docs/cofh-world/). The
-  world generation can be tweaked or disabled using CoFH World's
+* Oil sand is generated in the world using [CoFH World](/docs/cofh-world/) by
+  default. The world generation can be tweaked or disabled using CoFH World's
   [configuration](/docs/world-generator-configuration/).

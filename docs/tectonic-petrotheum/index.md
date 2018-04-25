@@ -43,10 +43,8 @@ Tectonic petrotheum flows like other fluids. Petrotheum source blocks will also
 gradually fall downwards if there are no blocks below them.
 
 ### Effects
-When touched by players and mobs, tectonic petrotheum applies the effects [Haste
-I](https://minecraft.gamepedia.com/Status_effect#Haste) and [Night
-Vision](https://minecraft.gamepedia.com/Status_effect#Night_Vision) to them for
-6 seconds.
+When touched by players and mobs, tectonic petrotheum applies the effect [Haste
+I](https://minecraft.gamepedia.com/Status_effect#Haste) to them for 6 seconds.
 
 When tectonic petrotheum touches [stone](https://minecraft.gamepedia.com/Stone),
 [cobblestone](https://minecraft.gamepedia.com/Cobblestone), [stone
@@ -54,8 +52,8 @@ bricks](https://minecraft.gamepedia.com/Stone_Bricks) or [moss
 stone](https://minecraft.gamepedia.com/Moss_Stone), these blocks are turned into
 [gravel](https://minecraft.gamepedia.com/Gravel).
 
-If enabled, tectonic petrotheum breaks any adjacent blocks made of stone or
-rock. This is disabled by default.
+If enabled, tectonic petrotheum breaks any adjacent stone- or rock-like blocks.
+This is disabled by default.
 
 ### Fluid Transposer ingredient
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
