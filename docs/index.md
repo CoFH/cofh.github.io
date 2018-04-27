@@ -18,13 +18,13 @@ Index
 
 ### Thermal Series
 * [Thermal Foundation](/docs/thermal-foundation/) - <span class="uk-text-small uk-text-warning">WIP (2.3.12 → 2.4.0)</span>
-* [Thermal Expansion](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-warning">WIP (5.3.12 → 5.4.0)</span>
+* [Thermal Expansion](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-warning">WIP (5.3.12 → 5.4.1)</span>
 * [Thermal Dynamics](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-warning">WIP (2.3.11 → 2.4.0)</span>
 * [Thermal Cultivation](/docs/thermal-cultivation/) - <span class="uk-text-small uk-text-warning">WIP (0.1.5 → 0.2.0)</span>
 * [Thermal Innovation](/docs/thermal-innovation/) - <span class="uk-text-small uk-text-warning">WIP (0.1.0 → 0.2.0)</span>
 
 ### Other mods
-* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-warning">WIP (2.3.11 → 2.4.0)</span>
+* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-warning">WIP (2.3.11 → 2.4.1)</span>
 
 
 Older versions
