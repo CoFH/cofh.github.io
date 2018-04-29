@@ -54,6 +54,11 @@ Usage
 -----
 
 ### Comparison
+{% comment %}
+durability = mat.durability * 13
+defense = mat.reductionAmounts[0]
+{% endcomment %}
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Material | Durability | Defense | Toughness | Enchantability |
@@ -64,18 +69,18 @@ Usage
 | Gold | 91 | 1 | | 25 |
 | Diamond | 429 | 3 | 2 | 10 |
 |
-| Copper | 78 | 1 | | 6 |
-| Tin | 104 | 1 | | 7 |
-| Silver | 143 | 2 | | 20 |
-| Lead | 195 | 2 | | 9 |
+| Copper | 130 | 1 | | 8 |
+| Tin | 104 | 1 | | 9 |
+| Silver | 104 | 2 | | 25 |
+| Lead | 156 | 2 | | 9 |
 | Aluminum | 156 | 1 | | 14 |
 | Nickel | 195 | 2 | | 18 |
-| Platinum | 520 | 3 | 2 | 9 |
+| Platinum | 455 | 3 | 2 | 16 |
 | Steel | 286 | 2 | 1 | 10 |
 | Electrum | 104 | 2 | | 30 |
-| Invar | 273 | 2 | 1 | 16 |
-| Bronze | 234 | 2 | 1 | 15 |
-| Constantan | 169 | 2 | | 20 |
+| Invar | 273 | 2 | 1 | 12 |
+| Bronze | 234 | 2 | 1 | 10 |
+| Constantan | 169 | 2 | | 12 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

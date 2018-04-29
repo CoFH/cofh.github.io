@@ -91,6 +91,10 @@ Usage
 -----
 
 ### Comparison
+{% comment %}
+uses = mat.maxUses + 275
+{% endcomment %}
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Material | Uses | Enchantability |
@@ -102,18 +106,18 @@ Usage
 | Gold | 307 | 22 |
 | Diamond | 1,836 | 10 |
 |
-| Copper | 450 | 6 |
-| Tin | 475 | 7 |
-| Silver | 475 | 20 |
-| Lead | 425 | 9 |
+| Copper | 450 | 7 |
+| Tin | 425 | 7 |
+| Silver | 350 | 25 |
+| Lead | 375 | 9 |
 | Aluminum | 500 | 14 |
 | Nickel | 575 | 18 |
-| Platinum | 1,975 | 9 |
-| Steel | 775 | 10 |
+| Platinum | 1,675 | 16 |
+| Steel | 675 | 10 |
 | Electrum | 375 | 30 |
-| Invar | 725 | 16 |
-| Bronze | 775 | 15 |
-| Constantan | 550 | 20 |
+| Invar | 700 | 12 |
+| Bronze | 600 | 10 |
+| Constantan | 550 | 12 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

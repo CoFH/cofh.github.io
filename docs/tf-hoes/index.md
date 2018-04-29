@@ -53,6 +53,10 @@ Usage
 -----
 
 ### Comparison
+{% comment %}
+uses = mat.maxUses
+{% endcomment %}
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Material | Uses |
@@ -64,16 +68,16 @@ Usage
 | Diamond | 1,561 |
 |
 | Copper | 175 |
-| Tin | 200 |
-| Silver | 200 |
-| Lead | 150 |
+| Tin | 150 |
+| Silver | 75 |
+| Lead | 100 |
 | Aluminum | 225 |
 | Nickel | 300 |
-| Platinum | 1,700 |
-| Steel | 500 |
+| Platinum | 1,400 |
+| Steel | 400 |
 | Electrum | 100 |
-| Invar | 450 |
-| Bronze | 500 |
+| Invar | 425 |
+| Bronze | 325 |
 | Constantan | 275 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>

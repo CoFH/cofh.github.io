@@ -54,6 +54,10 @@ Usage
 -----
 
 ### Comparison
+{% comment %}
+uses = mat.maxUses
+{% endcomment %}
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Material | Uses | Attack speed | Attack damage | Enchantability |
@@ -64,18 +68,18 @@ Usage
 | Gold | 32 | 1.6 | 4 | 22 |
 | Diamond | 1,561 | 1.6 | 7 | 10 |
 |
-| Copper | 175 | 1.6 | 5 | 6 |
-| Tin | 200 | 1.6 | 5 | 7 |
-| Silver | 200 | 1.6 | 5 | 20 |
-| Lead | 150 | 1.6 | 5 | 9 |
+| Copper | 175 | 1.6 | 5 | 7 |
+| Tin | 150 | 1.6 | 5 | 7 |
+| Silver | 75 | 1.6 | 5 | 25 |
+| Lead | 100 | 1.6 | 5 | 9 |
 | Aluminum | 225 | 1.6 | 5 | 14 |
 | Nickel | 300 | 1.6 | 6.5 | 18 |
-| Platinum | 1,700 | 1.6 | 8 | 9 |
-| Steel | 500 | 1.6 | 6.5 | 10 |
+| Platinum | 1,400 | 1.6 | 7.5 | 16 |
+| Steel | 400 | 1.6 | 6.5 | 10 |
 | Electrum | 100 | 1.6 | 4.5 | 30 |
-| Invar | 450 | 1.6 | 7 | 16 |
-| Bronze | 500 | 1.6 | 6 | 15 |
-| Constantan | 275 | 1.6 | 5.5 | 20 |
+| Invar | 425 | 1.6 | 6.5 | 12 |
+| Bronze | 325 | 1.6 | 6 | 10 |
+| Constantan | 275 | 1.6 | 5.5 | 12 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

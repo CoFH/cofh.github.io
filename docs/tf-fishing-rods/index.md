@@ -68,6 +68,12 @@ The lure and luck modifiers of a fishing rod make it as powerful as a regular
 Sea](https://minecraft.gamepedia.com/Luck_of_the_Sea) at those levels,
 respectively.
 
+{% comment %}
+uses = mat.maxUses + 5
+lureModifier = round(mat.efficiency / 3)
+luckModifier = round(mat.harvestLevel / 2)
+{% endcomment %}
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Material | Uses | Lure modifier | Luck modifier | Enchantability |
@@ -79,18 +85,18 @@ respectively.
 | Gold | 37 | 4 | 0 | 22 |
 | Diamond | 1,566 | 3 | 2 | 10 |
 |
-| Copper | 180 | 1 | 1 | 6 |
-| Tin | 205 | 2 | 1 | 7 |
-| Silver | 205 | 2 | 1 | 20 |
-| Lead | 155 | 2 | 1 | 9 |
+| Copper | 180 | 1 | 1 | 7 |
+| Tin | 155 | 2 | 1 | 7 |
+| Silver | 80 | 2 | 1 | 25 |
+| Lead | 105 | 2 | 1 | 9 |
 | Aluminum | 230 | 3 | 1 | 14 |
 | Nickel | 305 | 2 | 1 | 18 |
-| Platinum | 1,705 | 3 | 2 | 9 |
-| Steel | 505 | 2 | 1 | 10 |
+| Platinum | 1,405 | 3 | 2 | 16 |
+| Steel | 405 | 2 | 1 | 10 |
 | Electrum | 105 | 5 | 0 | 30 |
-| Invar | 455 | 2 | 1 | 16 |
-| Bronze | 505 | 2 | 1 | 15 |
-| Constantan | 280 | 2 | 1 | 20 |
+| Invar | 430 | 2 | 1 | 12 |
+| Bronze | 330 | 2 | 1 | 10 |
+| Constantan | 280 | 2 | 1 | 12 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

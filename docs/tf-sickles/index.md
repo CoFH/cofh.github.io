@@ -69,6 +69,10 @@ breaks only one block at a time.
 Sickles use 1 durability for every individual block broken.
 
 ### Comparison
+{% comment %}
+uses = mat.maxUses * 4
+{% endcomment %}
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Material | Uses | Attack speed | Attack damage | Enchantability |
@@ -79,18 +83,18 @@ Sickles use 1 durability for every individual block broken.
 | Gold | 128 | 1.4 | 3.5 | 22 |
 | Diamond | 6,244 | 1.4 | 6.5 | 10 |
 |
-| Copper | 700 | 1.4 | 4.5 | 6 |
-| Tin | 800 | 1.4 | 4.5 | 7 |
-| Silver | 800 | 1.4 | 4.5 | 20 |
-| Lead | 600 | 1.4 | 4.5 | 9 |
-| Aluminum | 1,100 | 1.4 | 4.5 | 14 |
+| Copper | 700 | 1.4 | 4.5 | 7 |
+| Tin | 600 | 1.4 | 4.5 | 7 |
+| Silver | 300 | 1.4 | 4.5 | 25 |
+| Lead | 400 | 1.4 | 4.5 | 9 |
+| Aluminum | 900 | 1.4 | 4.5 | 14 |
 | Nickel | 1,200 | 1.4 | 6 | 18 |
-| Platinum | 6,800 | 1.4 | 7.5 | 9 |
-| Steel | 2,000 | 1.4 | 6 | 10 |
+| Platinum | 5,600 | 1.4 | 7 | 16 |
+| Steel | 1,600 | 1.4 | 6 | 10 |
 | Electrum | 400 | 1.4 | 4 | 30 |
-| Invar | 1,800 | 1.4 | 6.5 | 16 |
-| Bronze | 2,000 | 1.4 | 5.5 | 15 |
-| Constantan | 1,100 | 1.4 | 5 | 20 |
+| Invar | 1,700 | 1.4 | 6 | 12 |
+| Bronze | 1,300 | 1.4 | 5.5 | 10 |
+| Constantan | 1,100 | 1.4 | 5 | 12 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

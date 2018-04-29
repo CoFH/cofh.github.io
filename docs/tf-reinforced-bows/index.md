@@ -63,6 +63,12 @@ Usage
 -----
 
 ### Comparison
+{% comment %}
+uses = mat.maxUses + 325
+arrowDamage = 1 + (mat.attackDamage / 4)
+arrowSpeed = 1 + (mat.efficiency / 20)
+{% endcomment %}
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Material | Uses | Arrow damage multiplier | Arrow speed multiplier | Enchantability |
@@ -74,18 +80,18 @@ Usage
 | Gold | 357 | × 1 | × 1.6 | 22 |
 | Diamond | 1,886 | × 1.75 | × 1.4 | 10 |
 |
-| Copper | 500 | × 1.25 | × 1.2 | 6 |
-| Tin | 525 | × 1.25 | × 1.23 | 7 |
-| Silver | 525 | × 1.25 | × 1.3 | 20 |
-| Lead | 475 | × 1.25 | × 1.25 | 9 |
+| Copper | 500 | × 1.25 | × 1.2 | 7 |
+| Tin | 475 | × 1.25 | × 1.23 | 7 |
+| Silver | 400 | × 1.25 | × 1.3 | 25 |
+| Lead | 425 | × 1.25 | × 1.25 | 9 |
 | Aluminum | 550 | × 1.25 | × 1.5 | 14 |
 | Nickel | 625 | × 1.63 | × 1.33 | 18 |
-| Platinum | 2,025 | × 2 | × 1.45 | 9 |
-| Steel | 825 | × 1.63 | × 1.33 | 10 |
+| Platinum | 1,725 | × 1.88 | × 1.45 | 16 |
+| Steel | 725 | × 1.63 | × 1.33 | 10 |
 | Electrum | 425 | × 1.13 | × 1.7 | 30 |
-| Invar | 775 | × 1.75 | × 1.35 | 16 |
-| Bronze | 825 | × 1.5 | × 1.3 | 15 |
-| Constantan | 600 | × 1.38 | × 1.3 | 20 |
+| Invar | 750 | × 1.63 | × 1.33 | 12 |
+| Bronze | 650 | × 1.5 | × 1.3 | 10 |
+| Constantan | 600 | × 1.38 | × 1.3 | 12 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
