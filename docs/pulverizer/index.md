@@ -76,10 +76,11 @@ recipe-list:
     - flower-processing-red-rose-bush
     - flower-processing-pink-peony
   recycling:
+    - recycling-wool
+    - recycling-concrete
     - recycling-bricks
     - recycling-bricks-slab
     - recycling-brick-stairs
-    - recycling-concrete
     - recycling-flower-pot
     - recycling-glass
     - recycling-glass-stained
@@ -95,22 +96,10 @@ recipe-list:
     - recycling-sandstone-stairs
     - recycling-red-sandstone-slab
     - recycling-red-sandstone-stairs
-    - recycling-wool-white
-    - recycling-wool-orange
-    - recycling-wool-magenta
-    - recycling-wool-light-blue
-    - recycling-wool-yellow
-    - recycling-wool-lime
-    - recycling-wool-pink
-    - recycling-wool-gray
-    - recycling-wool-light-gray
-    - recycling-wool-cyan
-    - recycling-wool-purple
-    - recycling-wool-blue
-    - recycling-wool-brown
-    - recycling-wool-green
-    - recycling-wool-red
-    - recycling-wool-black
+    - recycling-fluxduct-basic
+    - recycling-fluxduct-hardened
+    - recycling-fluiduct-basic
+    - recycling-fluiduct-basic-opaque
     - recycling-pickaxe-diamond
     - recycling-shovel-diamond
     - recycling-axe-diamond
@@ -127,10 +116,6 @@ recipe-list:
     - recycling-leggings-diamond
     - recycling-boots-diamond
     - recycling-horse-armor-diamond
-    - recycling-fluxduct-basic
-    - recycling-fluxduct-hardened
-    - recycling-fluiduct-basic
-    - recycling-fluiduct-basic-opaque
 ---
 
 ![Pulverizer](/assets/images/thermal-expansion/pulverizer.png){:style="height: 128px"}

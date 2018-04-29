@@ -3733,6 +3733,86 @@ pickaxe-wood:
   sprite: [4, 50]
   site: mc-wiki
   url: Wooden_Pickaxe
+pigment-black:
+  name: Black Pigment
+  sprite: [15, 63]
+  site: cofh
+  url: pigments/
+pigment-blue:
+  name: Blue Pigment
+  sprite: [11, 63]
+  site: cofh
+  url: pigments/
+pigment-brown:
+  name: Brown Pigment
+  sprite: [12, 63]
+  site: cofh
+  url: pigments/
+pigment-cyan:
+  name: Cyan Pigment
+  sprite: [9, 63]
+  site: cofh
+  url: pigments/
+pigment-gray:
+  name: Gray Pigment
+  sprite: [7, 63]
+  site: cofh
+  url: pigments/
+pigment-green:
+  name: Green Pigment
+  sprite: [13, 63]
+  site: cofh
+  url: pigments/
+pigment-light-blue:
+  name: Light Blue Pigment
+  sprite: [3, 63]
+  site: cofh
+  url: pigments/
+pigment-light-gray:
+  name: Light Gray Pigment
+  sprite: [8, 63]
+  site: cofh
+  url: pigments/
+pigment-lime:
+  name: Lime Pigment
+  sprite: [5, 63]
+  site: cofh
+  url: pigments/
+pigment-magenta:
+  name: Magenta Pigment
+  sprite: [2, 63]
+  site: cofh
+  url: pigments/
+pigment-orange:
+  name: Orange Pigment
+  sprite: [1, 63]
+  site: cofh
+  url: pigments/
+pigment-pink:
+  name: Pink Pigment
+  sprite: [6, 63]
+  site: cofh
+  url: pigments/
+pigment-purple:
+  name: Purple Pigment
+  sprite: [10, 63]
+  site: cofh
+  url: pigments/
+pigment-red:
+  name: Red Pigment
+  sprite: [14, 63]
+  site: cofh
+  url: pigments/
+pigment-white:
+  name: White Pigment
+  sprite: [0, 63]
+  site: cofh
+  url: pigments/
+pigment-yellow:
+  name: Yellow Pigment
+  sprite: [4, 63]
+  site: cofh
+  url: pigments/
 pink-dye:
   name: Pink Dye
   sprite: [9, 5]

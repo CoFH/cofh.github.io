@@ -654,6 +654,29 @@ pickaxe-metal:
     - pickaxe-invar
     - pickaxe-bronze
     - pickaxe-constantan
+pigment:
+  name: Pigment
+  site: cofh
+  url: pigments/
+  prefix:
+    ingredient: 'any'
+  items:
+    - pigment-white
+    - pigment-orange
+    - pigment-magenta
+    - pigment-light-blue
+    - pigment-yellow
+    - pigment-lime
+    - pigment-pink
+    - pigment-gray
+    - pigment-light-gray
+    - pigment-cyan
+    - pigment-purple
+    - pigment-blue
+    - pigment-brown
+    - pigment-green
+    - pigment-red
+    - pigment-black
 plate-metal:
   name: Metal Plate
   prefix:

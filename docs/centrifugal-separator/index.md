@@ -12,6 +12,7 @@ augments:
 recipe-list:
   - magma-cream
   - sugar-canes
+  - concrete-powder
   - dust-electrum
   - dust-invar
   - dust-bronze
@@ -23,22 +24,6 @@ recipe-list:
   - dust-cryotheum
   - dust-aerotheum
   - dust-petrotheum
-  - concrete-powder-white
-  - concrete-powder-orange
-  - concrete-powder-magenta
-  - concrete-powder-light-blue
-  - concrete-powder-yellow
-  - concrete-powder-lime
-  - concrete-powder-pink
-  - concrete-powder-gray
-  - concrete-powder-light-gray
-  - concrete-powder-cyan
-  - concrete-powder-purple
-  - concrete-powder-blue
-  - concrete-powder-brown
-  - concrete-powder-green
-  - concrete-powder-red
-  - concrete-powder-black
 ---
 
 ![Centrifugal separator](/assets/images/thermal-expansion/centrifugal-separator.png){:style="height: 128px"}
