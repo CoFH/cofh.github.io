@@ -44,7 +44,7 @@ An item allocator can automatically transfer items out of any configured output
 sides, evenly dividing them if multiple output sides are configured. This is
 called auto-output. It can also transfer items from adjacent inventories into
 any configured input sides. This is called auto-input. Auto-output and
-auto-input occur every 16 ticks (0.8 seconds) if the item allocator is active.
+auto-input occur every tick (0.05 seconds) if the item allocator is active.
 
 The amount of items that an item allocator transfers per cycle can be configured
 separately for auto-output and auto-input. It can, at most, transfer one full

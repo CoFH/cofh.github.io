@@ -7,6 +7,9 @@ image:
 recipes:
   crafting:
     - saw-blade
+usage-recipes:
+  crafting:
+    - machine-sawmill
 ---
 
 **Saw blades** are crafting materials used to craft [sawmills](/docs/sawmill/)
@@ -18,3 +21,10 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

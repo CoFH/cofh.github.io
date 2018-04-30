@@ -55,6 +55,7 @@ usage-recipes:
     - satchel-basic-using-rockwool
     - itemduct
     - itemduct-opaque
+    - drill-basic
     - axe-tin
     - bow-tin
     - fishing-rod-tin

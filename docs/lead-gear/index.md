@@ -12,7 +12,6 @@ usage-recipes:
   crafting:
     - dynamo-reactant
     - frame-energy-cell
-    - drill-basic
 ---
 
 ![Lead gear](/assets/images/thermal-foundation/gear-lead.png){:style="height: 128px"}

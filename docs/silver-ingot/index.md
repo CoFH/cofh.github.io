@@ -45,6 +45,8 @@ usage-recipes:
     - redstone-coil-silver
     - device-diffuser
     - augment-dynamo-power
+    - drill-basic
+    - injector-basic
     - axe-silver
     - bow-silver
     - fishing-rod-silver

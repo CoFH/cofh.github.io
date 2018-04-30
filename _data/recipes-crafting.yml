@@ -1812,16 +1812,16 @@ recipes:
     results:
       - item: drill-basic
     ingredients:
-      - item: piston
-      - item: redstone-coil-gold
-      - item: redstone
-      - item: gear-lead
-      - item: storage-block-iron
+      - item: tool-casing
+      - item: gear-iron
+      - item: ingot-tin
+      - item: ingot-silver
+      - item: drill-head
     data:
       rows:
-        - [null, item: [storage-block-iron]]
-        - [item: [gear-lead], item: [piston], item: [gear-lead]]
-        - [item: [redstone], item: [redstone-coil-gold], item: [redstone]]
+        - [null, item: [drill-head]]
+        - [item: [ingot-silver], item: [tool-casing], item: [ingot-silver]]
+        - [item: [ingot-tin], item: [gear-iron], item: [ingot-tin]]
       result:
         item: [drill-basic]
   drill-hardened:
@@ -1861,18 +1861,12 @@ recipes:
       - item: drill-reinforced
       - item: gear-signalum
       - item: ingot-signalum
-      - item-group: hardened-glass
+      - item: dust-petrotheum
     data:
       rows:
-        - - null
-          - random: true
-            item-group: hardened-glass
+        - [null, item: [dust-petrotheum]]
         - [item: [ingot-signalum], item: [drill-reinforced], item: [ingot-signalum]]
-        - - random: true
-            item-group: hardened-glass
-          - item: [gear-signalum]
-          - random: true
-            item-group: hardened-glass
+        - [item: [dust-petrotheum], item: [gear-signalum], item: [dust-petrotheum]]
       result:
         item: [drill-signalum]
   drill-resonant:
@@ -5256,13 +5250,13 @@ recipes:
     ingredients:
       - item: glass-bottle
       - item: glowstone-dust
-      - item: ingot-lead
-      - item: ingot-iron
+      - item: ingot-copper
+      - item: ingot-silver
     data:
       rows:
-        - [null, item: [ingot-iron]]
-        - [item: [ingot-lead], item: [glass-bottle], item: [ingot-lead]]
         - [item: [glass-bottle], item: [glowstone-dust], item: [glass-bottle]]
+        - [item: [ingot-copper], item: [glass-bottle], item: [ingot-copper]]
+        - [null, item: [ingot-silver]]
       result:
         item: [injector-basic]
   injector-hardened:
@@ -6015,10 +6009,10 @@ recipes:
       - item: redstone-coil-gold
       - item: gear-copper
       - item-group: wood-planks
-      - item: gear-iron
+      - item: saw-blade
     data:
       rows:
-        - [null, item: [gear-iron]]
+        - [null, item: [saw-blade]]
         - - random: true
             item-group: wood-planks
           - item: [frame-machine]
@@ -6066,14 +6060,14 @@ recipes:
     results:
       - item: magnet-basic
     ingredients:
-      - item: ingot-lead
       - item: ingot-iron
+      - item: ingot-lead
       - item: redstone
     data:
       rows:
-        - [item: [redstone], null, item: [redstone]]
         - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
         - [item: [ingot-lead], item: [ingot-iron], item: [ingot-lead]]
+        - [null, item: [redstone]]
       result:
         item: [magnet-basic]
   magnet-hardened:
@@ -6085,9 +6079,9 @@ recipes:
       - item: nugget-copper
     data:
       rows:
-        - [item: [nugget-copper], null, item: [nugget-copper]]
-        - [item: [ingot-invar], item: [magnet-basic], item: [ingot-invar]]
         - [null, item: [nugget-copper]]
+        - [item: [ingot-invar], item: [magnet-basic], item: [ingot-invar]]
+        - [item: [nugget-copper], null, item: [nugget-copper]]
       result:
         item: [magnet-hardened]
   magnet-reinforced:
@@ -6099,9 +6093,9 @@ recipes:
       - item: nugget-invar
     data:
       rows:
-        - [item: [nugget-invar], null, item: [nugget-invar]]
-        - [item: [ingot-electrum], item: [magnet-hardened], item: [ingot-electrum]]
         - [null, item: [nugget-invar]]
+        - [item: [ingot-electrum], item: [magnet-hardened], item: [ingot-electrum]]
+        - [item: [nugget-invar], null, item: [nugget-invar]]
       result:
         item: [magnet-reinforced]
   magnet-signalum:
@@ -6113,9 +6107,9 @@ recipes:
       - item: nugget-electrum
     data:
       rows:
-        - [item: [nugget-electrum], null, item: [nugget-electrum]]
-        - [item: [ingot-signalum], item: [magnet-reinforced], item: [ingot-signalum]]
         - [null, item: [nugget-electrum]]
+        - [item: [ingot-signalum], item: [magnet-reinforced], item: [ingot-signalum]]
+        - [item: [nugget-electrum], null, item: [nugget-electrum]]
       result:
         item: [magnet-signalum]
   magnet-resonant:
@@ -6127,9 +6121,9 @@ recipes:
       - item: nugget-signalum
     data:
       rows:
-        - [item: [nugget-signalum], null, item: [nugget-signalum]]
-        - [item: [ingot-enderium], item: [magnet-signalum], item: [ingot-enderium]]
         - [null, item: [nugget-signalum]]
+        - [item: [ingot-enderium], item: [magnet-signalum], item: [ingot-enderium]]
+        - [item: [nugget-signalum], null, item: [nugget-signalum]]
       result:
         item: [magnet-resonant]
   morb-using-slime:

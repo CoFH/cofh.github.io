@@ -20,6 +20,7 @@ usage-recipes:
     - petrotheum-ore-emerald
     - petrotheum-ore-nether-quartz
     - augment-machine-pulverizer-petrotheum
+    - drill-signalum
   crucible:
     - petrotheum
   centrifuge:

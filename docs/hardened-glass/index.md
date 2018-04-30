@@ -54,7 +54,6 @@ usage-recipes:
     - viaduct-frame
     - viaduct-long-range
     - watering-can-reinforced
-    - drill-signalum
 ---
 
 ![Hardened glass](/assets/images/thermal-foundation/hardened-glass.png){:style="height: 96px"}

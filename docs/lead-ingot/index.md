@@ -65,7 +65,6 @@ usage-recipes:
     - viaduct-long-range
     - redstone-relay
     - magnet-basic
-    - injector-basic
     - axe-lead
     - bow-lead
     - fishing-rod-lead

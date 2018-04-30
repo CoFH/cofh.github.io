@@ -14,7 +14,6 @@ recipes:
     - gear-iron
 usage-recipes:
   crafting:
-    - machine-sawmill
     - device-water-gen
     - device-nullifier
     - device-heat-sink
@@ -29,6 +28,7 @@ usage-recipes:
     - augment-machine-charger-repair
     - augment-dynamo-boiler
     - augment-dynamo-steam-turbine
+    - drill-basic
 ---
 
 ![Iron gear](/assets/images/thermal-foundation/gear-iron.png){:style="height: 128px"}

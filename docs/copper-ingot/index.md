@@ -60,6 +60,7 @@ usage-recipes:
     - fluiduct-basic-opaque
     - watering-can-basic
     - drill-hardened
+    - injector-basic
     - axe-copper
     - bow-copper
     - fishing-rod-copper

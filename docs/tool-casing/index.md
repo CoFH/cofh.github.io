@@ -7,6 +7,9 @@ image:
 recipes:
   crafting:
     - tool-casing
+usage-recipes:
+  crafting:
+    - drill-basic
 ---
 
 **Tool casings** are crafting materials used to craft
@@ -18,3 +21,10 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
