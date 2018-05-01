@@ -3,24 +3,24 @@ title: Fluxomagnet
 nav: thermal-innovation
 image:
   - alt: Fluxomagnet (Basic)
-    file: thermal-innovation/magnet-basic.png
+    file: thermal-innovation/fluxomagnet-basic.png
   - alt: Fluxomagnet (Hardened)
-    file: thermal-innovation/magnet-hardened.png
+    file: thermal-innovation/fluxomagnet-hardened.png
   - alt: Fluxomagnet (Reinforced)
-    file: thermal-innovation/magnet-reinforced.png
+    file: thermal-innovation/fluxomagnet-reinforced.png
   - alt: Fluxomagnet (Signalum)
-    file: thermal-innovation/magnet-signalum.png
+    file: thermal-innovation/fluxomagnet-signalum.png
   - alt: Fluxomagnet (Resonant)
-    file: thermal-innovation/magnet-resonant.png
+    file: thermal-innovation/fluxomagnet-resonant.png
   - alt: Fluxomagnet (Creative)
-    file: thermal-innovation/magnet-creative.png
+    file: thermal-innovation/fluxomagnet-creative.png
 recipes:
   crafting:
-    - magnet-basic
-    - magnet-hardened
-    - magnet-reinforced
-    - magnet-signalum
-    - magnet-resonant
+    - fluxomagnet-basic
+    - fluxomagnet-hardened
+    - fluxomagnet-reinforced
+    - fluxomagnet-signalum
+    - fluxomagnet-resonant
 ---
 
 A **fluxomagnet**, or **magnet** for short, is a tool that attracts dropped

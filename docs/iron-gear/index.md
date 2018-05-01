@@ -28,7 +28,7 @@ usage-recipes:
     - augment-machine-charger-repair
     - augment-dynamo-boiler
     - augment-dynamo-steam-turbine
-    - drill-basic
+    - fluxbore-basic
 ---
 
 ![Iron gear](/assets/images/thermal-foundation/gear-iron.png){:style="height: 128px"}

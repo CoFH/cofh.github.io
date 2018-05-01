@@ -29,9 +29,9 @@ usage-recipes:
     - retriever-resonant
     - retriever-resonant-upgrade
     - watering-can-resonant
-    - drill-resonant
-    - magnet-resonant
-    - injector-resonant
+    - fluxbore-resonant
+    - fluxomagnet-resonant
+    - hypoinfuser-resonant
   pulverizer:
     - dust-enderium
   compactor-press:

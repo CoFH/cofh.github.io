@@ -16,7 +16,7 @@ usage-recipes:
     - nugget-lumium
     - gear-lumium
     - storage-block-lumium
-    - drill-resonant
+    - fluxbore-resonant
   pulverizer:
     - dust-lumium
   compactor-press:

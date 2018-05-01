@@ -14,8 +14,8 @@ usage-recipes:
     - satchel-reinforced
     - augment-machine-secondary-null
     - fluxduct-hardened-one
-    - magnet-reinforced
-    - injector-reinforced
+    - fluxomagnet-reinforced
+    - hypoinfuser-reinforced
 ---
 
 ![Invar nugget](/assets/images/thermal-foundation/nugget-invar.png){:style="height: 128px"}

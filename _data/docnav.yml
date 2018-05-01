@@ -927,6 +927,12 @@ thermal-expansion:
             - title: Decoctive Diffuser
               url: decoctive-diffuser/
               icon: [2, 16]
+            - title: Factorizer
+              url: factorizer/
+              icon: [5, 23]
+            - title: Creature Encaptulator
+              url: creature-encaptulator/
+              icon: [6, 23]
         - title: Dynamos
           url: dynamos/
           items:
@@ -1228,12 +1234,18 @@ thermal-innovation:
             - title: Fluxbore
               url: fluxbore/
               icon: [3, 21]
+            - title: Fluxsaw
+              url: fluxsaw/
+              icon: [7, 23]
             - title: Fluxomagnet
               url: fluxomagnet/
               icon: [4, 21]
             - title: Hypoinfuser
               url: hypoinfuser/
               icon: [5, 21]
+            - title: Alchemical Quiver
+              url: alchemical-quiver/
+              icon: [8, 23]
 
 redstone-arsenal:
   title: Redstone Arsenal

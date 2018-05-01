@@ -3,24 +3,24 @@ title: Fluxbore
 nav: thermal-innovation
 image:
   - alt: Fluxbore (Basic)
-    file: thermal-innovation/drill-basic.png
+    file: thermal-innovation/fluxbore-basic.png
   - alt: Fluxbore (Hardened)
-    file: thermal-innovation/drill-hardened.png
+    file: thermal-innovation/fluxbore-hardened.png
   - alt: Fluxbore (Reinforced)
-    file: thermal-innovation/drill-reinforced.png
+    file: thermal-innovation/fluxbore-reinforced.png
   - alt: Fluxbore (Signalum)
-    file: thermal-innovation/drill-signalum.png
+    file: thermal-innovation/fluxbore-signalum.png
   - alt: Fluxbore (Resonant)
-    file: thermal-innovation/drill-resonant.png
+    file: thermal-innovation/fluxbore-resonant.png
   - alt: Fluxbore (Creative)
-    file: thermal-innovation/drill-creative.png
+    file: thermal-innovation/fluxbore-creative.png
 recipes:
   crafting:
-    - drill-basic
-    - drill-hardened
-    - drill-reinforced
-    - drill-signalum
-    - drill-resonant
+    - fluxbore-basic
+    - fluxbore-hardened
+    - fluxbore-reinforced
+    - fluxbore-signalum
+    - fluxbore-resonant
 ---
 
 A **fluxbore** (also known as a **drill**) is a tool that mines blocks using

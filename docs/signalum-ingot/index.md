@@ -36,9 +36,9 @@ usage-recipes:
     - retriever-signalum
     - retriever-signalum-upgrade
     - watering-can-signalum
-    - drill-signalum
-    - magnet-signalum
-    - injector-signalum
+    - fluxbore-signalum
+    - fluxomagnet-signalum
+    - hypoinfuser-signalum
   pulverizer:
     - dust-signalum
   compactor-press:

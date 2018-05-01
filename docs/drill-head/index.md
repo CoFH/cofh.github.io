@@ -9,7 +9,7 @@ recipes:
     - drill-head
 usage-recipes:
   crafting:
-    - drill-basic
+    - fluxbore-basic
 ---
 
 **Drill heads** are crafting materials used to craft

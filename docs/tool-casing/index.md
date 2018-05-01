@@ -9,7 +9,7 @@ recipes:
     - tool-casing
 usage-recipes:
   crafting:
-    - drill-basic
+    - fluxbore-basic
 ---
 
 **Tool casings** are crafting materials used to craft

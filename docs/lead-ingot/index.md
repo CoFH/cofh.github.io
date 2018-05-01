@@ -64,7 +64,7 @@ usage-recipes:
     - structuralduct
     - viaduct-long-range
     - redstone-relay
-    - magnet-basic
+    - fluxomagnet-basic
     - axe-lead
     - bow-lead
     - fishing-rod-lead

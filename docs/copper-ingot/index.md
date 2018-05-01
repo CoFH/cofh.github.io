@@ -59,8 +59,8 @@ usage-recipes:
     - fluiduct-basic
     - fluiduct-basic-opaque
     - watering-can-basic
-    - drill-hardened
-    - injector-basic
+    - fluxbore-hardened
+    - hypoinfuser-basic
     - axe-copper
     - bow-copper
     - fishing-rod-copper

@@ -21,8 +21,8 @@ usage-recipes:
     - itemduct-energy-fast-one
     - itemduct-energy-fast-opaque-one
     - redstone-relay
-    - magnet-resonant
-    - injector-resonant
+    - fluxomagnet-resonant
+    - hypoinfuser-resonant
 ---
 
 ![Signalum nugget](/assets/images/thermal-foundation/nugget-signalum.png){:style="height: 128px"}

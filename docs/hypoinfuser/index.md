@@ -3,24 +3,24 @@ title: Hypoinfuser
 nav: thermal-innovation
 image:
   - alt: Hypoinfuser (Basic)
-    file: thermal-innovation/injector-basic.png
+    file: thermal-innovation/hypoinfuser-basic.png
   - alt: Hypoinfuser (Hardened)
-    file: thermal-innovation/injector-hardened.png
+    file: thermal-innovation/hypoinfuser-hardened.png
   - alt: Hypoinfuser (Reinforced)
-    file: thermal-innovation/injector-reinforced.png
+    file: thermal-innovation/hypoinfuser-reinforced.png
   - alt: Hypoinfuser (Signalum)
-    file: thermal-innovation/injector-signalum.png
+    file: thermal-innovation/hypoinfuser-signalum.png
   - alt: Hypoinfuser (Resonant)
-    file: thermal-innovation/injector-resonant.png
+    file: thermal-innovation/hypoinfuser-resonant.png
   - alt: Hypoinfuser (Creative)
-    file: thermal-innovation/injector-creative.png
+    file: thermal-innovation/hypoinfuser-creative.png
 recipes:
   crafting:
-    - injector-basic
-    - injector-hardened
-    - injector-reinforced
-    - injector-signalum
-    - injector-resonant
+    - hypoinfuser-basic
+    - hypoinfuser-hardened
+    - hypoinfuser-reinforced
+    - hypoinfuser-signalum
+    - hypoinfuser-resonant
 ---
 
 A **hypoinfuser** (also known as an **injector**) is a tool that stores and

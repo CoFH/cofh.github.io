@@ -60,9 +60,9 @@ usage-recipes:
     - retriever-reinforced
     - retriever-reinforced-upgrade
     - watering-can-reinforced
-    - drill-reinforced
-    - magnet-reinforced
-    - injector-reinforced
+    - fluxbore-reinforced
+    - fluxomagnet-reinforced
+    - hypoinfuser-reinforced
     - axe-electrum
     - bow-electrum
     - fishing-rod-electrum

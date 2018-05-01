@@ -1808,82 +1808,6 @@ recipes:
         - [item: [ingot-iron], item: [ingot-iron], item: [ingot-iron]]
       result:
         item: [drill-head]
-  drill-basic:
-    results:
-      - item: drill-basic
-    ingredients:
-      - item: tool-casing
-      - item: gear-iron
-      - item: ingot-tin
-      - item: ingot-silver
-      - item: drill-head
-    data:
-      rows:
-        - [null, item: [drill-head]]
-        - [item: [ingot-silver], item: [tool-casing], item: [ingot-silver]]
-        - [item: [ingot-tin], item: [gear-iron], item: [ingot-tin]]
-      result:
-        item: [drill-basic]
-  drill-hardened:
-    results:
-      - item: drill-hardened
-    ingredients:
-      - item: drill-basic
-      - item: gear-invar
-      - item: ingot-invar
-      - item: ingot-copper
-    data:
-      rows:
-        - [null, item: [ingot-copper]]
-        - [item: [ingot-invar], item: [drill-basic], item: [ingot-invar]]
-        - [item: [ingot-copper], item: [gear-invar], item: [ingot-copper]]
-      result:
-        item: [drill-hardened]
-  drill-reinforced:
-    results:
-      - item: drill-reinforced
-    ingredients:
-      - item: drill-hardened
-      - item: gear-electrum
-      - item: ingot-electrum
-      - item: diamond
-    data:
-      rows:
-        - [null, item: [diamond]]
-        - [item: [ingot-electrum], item: [drill-hardened], item: [ingot-electrum]]
-        - [item: [diamond], item: [gear-electrum], item: [diamond]]
-      result:
-        item: [drill-reinforced]
-  drill-signalum:
-    results:
-      - item: drill-signalum
-    ingredients:
-      - item: drill-reinforced
-      - item: gear-signalum
-      - item: ingot-signalum
-      - item: dust-petrotheum
-    data:
-      rows:
-        - [null, item: [dust-petrotheum]]
-        - [item: [ingot-signalum], item: [drill-reinforced], item: [ingot-signalum]]
-        - [item: [dust-petrotheum], item: [gear-signalum], item: [dust-petrotheum]]
-      result:
-        item: [drill-signalum]
-  drill-resonant:
-    results:
-      - item: drill-resonant
-    ingredients:
-      - item: drill-signalum
-      - item: gear-enderium
-      - item: ingot-enderium
-      - item: ingot-lumium
-    data:
-      rows:
-        - [null, item: [ingot-lumium]]
-        - [item: [ingot-enderium], item: [drill-signalum], item: [ingot-enderium]]
-        - [item: [ingot-lumium], item: [gear-enderium], item: [ingot-lumium]]
-      result:
-        item: [drill-resonant]
   duct-covers:
     results:
       - html: '<a href="/docs/covers/">Cover</a>'
@@ -3473,6 +3397,82 @@ recipes:
       result:
         item: [flux-infused-wrench]
         amount: 1
+  fluxbore-basic:
+    results:
+      - item: fluxbore-basic
+    ingredients:
+      - item: tool-casing
+      - item: gear-iron
+      - item: ingot-tin
+      - item: ingot-silver
+      - item: drill-head
+    data:
+      rows:
+        - [null, item: [drill-head]]
+        - [item: [ingot-silver], item: [tool-casing], item: [ingot-silver]]
+        - [item: [ingot-tin], item: [gear-iron], item: [ingot-tin]]
+      result:
+        item: [fluxbore-basic]
+  fluxbore-hardened:
+    results:
+      - item: fluxbore-hardened
+    ingredients:
+      - item: fluxbore-basic
+      - item: gear-invar
+      - item: ingot-invar
+      - item: ingot-copper
+    data:
+      rows:
+        - [null, item: [ingot-copper]]
+        - [item: [ingot-invar], item: [fluxbore-basic], item: [ingot-invar]]
+        - [item: [ingot-copper], item: [gear-invar], item: [ingot-copper]]
+      result:
+        item: [fluxbore-hardened]
+  fluxbore-reinforced:
+    results:
+      - item: fluxbore-reinforced
+    ingredients:
+      - item: fluxbore-hardened
+      - item: gear-electrum
+      - item: ingot-electrum
+      - item: diamond
+    data:
+      rows:
+        - [null, item: [diamond]]
+        - [item: [ingot-electrum], item: [fluxbore-hardened], item: [ingot-electrum]]
+        - [item: [diamond], item: [gear-electrum], item: [diamond]]
+      result:
+        item: [fluxbore-reinforced]
+  fluxbore-signalum:
+    results:
+      - item: fluxbore-signalum
+    ingredients:
+      - item: fluxbore-reinforced
+      - item: gear-signalum
+      - item: ingot-signalum
+      - item: dust-petrotheum
+    data:
+      rows:
+        - [null, item: [dust-petrotheum]]
+        - [item: [ingot-signalum], item: [fluxbore-reinforced], item: [ingot-signalum]]
+        - [item: [dust-petrotheum], item: [gear-signalum], item: [dust-petrotheum]]
+      result:
+        item: [fluxbore-signalum]
+  fluxbore-resonant:
+    results:
+      - item: fluxbore-resonant
+    ingredients:
+      - item: fluxbore-signalum
+      - item: gear-enderium
+      - item: ingot-enderium
+      - item: ingot-lumium
+    data:
+      rows:
+        - [null, item: [ingot-lumium]]
+        - [item: [ingot-enderium], item: [fluxbore-signalum], item: [ingot-enderium]]
+        - [item: [ingot-lumium], item: [gear-enderium], item: [ingot-lumium]]
+      result:
+        item: [fluxbore-resonant]
   fluxduct-basic:
     results:
       - item: fluxduct-basic
@@ -3698,6 +3698,76 @@ recipes:
       result:
         item: [fluxed-armor-plating]
         amount: 1
+  fluxomagnet-basic:
+    results:
+      - item: fluxomagnet-basic
+    ingredients:
+      - item: ingot-iron
+      - item: ingot-lead
+      - item: redstone
+    data:
+      rows:
+        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
+        - [item: [ingot-lead], item: [ingot-iron], item: [ingot-lead]]
+        - [null, item: [redstone]]
+      result:
+        item: [fluxomagnet-basic]
+  fluxomagnet-hardened:
+    results:
+      - item: fluxomagnet-hardened
+    ingredients:
+      - item: fluxomagnet-basic
+      - item: ingot-invar
+      - item: nugget-copper
+    data:
+      rows:
+        - [null, item: [nugget-copper]]
+        - [item: [ingot-invar], item: [fluxomagnet-basic], item: [ingot-invar]]
+        - [item: [nugget-copper], null, item: [nugget-copper]]
+      result:
+        item: [fluxomagnet-hardened]
+  fluxomagnet-reinforced:
+    results:
+      - item: fluxomagnet-reinforced
+    ingredients:
+      - item: fluxomagnet-hardened
+      - item: ingot-electrum
+      - item: nugget-invar
+    data:
+      rows:
+        - [null, item: [nugget-invar]]
+        - [item: [ingot-electrum], item: [fluxomagnet-hardened], item: [ingot-electrum]]
+        - [item: [nugget-invar], null, item: [nugget-invar]]
+      result:
+        item: [fluxomagnet-reinforced]
+  fluxomagnet-signalum:
+    results:
+      - item: fluxomagnet-signalum
+    ingredients:
+      - item: fluxomagnet-reinforced
+      - item: ingot-signalum
+      - item: nugget-electrum
+    data:
+      rows:
+        - [null, item: [nugget-electrum]]
+        - [item: [ingot-signalum], item: [fluxomagnet-reinforced], item: [ingot-signalum]]
+        - [item: [nugget-electrum], null, item: [nugget-electrum]]
+      result:
+        item: [fluxomagnet-signalum]
+  fluxomagnet-resonant:
+    results:
+      - item: fluxomagnet-resonant
+    ingredients:
+      - item: fluxomagnet-signalum
+      - item: ingot-enderium
+      - item: nugget-signalum
+    data:
+      rows:
+        - [null, item: [nugget-signalum]]
+        - [item: [ingot-enderium], item: [fluxomagnet-signalum], item: [ingot-enderium]]
+        - [item: [nugget-signalum], null, item: [nugget-signalum]]
+      result:
+        item: [fluxomagnet-resonant]
   forge-lexicon:
     results:
       - item: forge-lexicon
@@ -4763,6 +4833,77 @@ recipes:
         - [item: [ingot-iron], null, item: [ingot-iron]]
       result:
         item: [horse-armor-iron]
+  hypoinfuser-basic:
+    results:
+      - item: hypoinfuser-basic
+    ingredients:
+      - item: glass-bottle
+      - item: glowstone-dust
+      - item: ingot-copper
+      - item: ingot-silver
+    data:
+      rows:
+        - [item: [glass-bottle], item: [glowstone-dust], item: [glass-bottle]]
+        - [item: [ingot-copper], item: [glass-bottle], item: [ingot-copper]]
+        - [null, item: [ingot-silver]]
+      result:
+        item: [hypoinfuser-basic]
+  hypoinfuser-hardened:
+    results:
+      - item: hypoinfuser-hardened
+    ingredients:
+      - item: hypoinfuser-basic
+      - item: ingot-invar
+      - item: nugget-copper
+    data:
+      rows:
+        - [null, item: [nugget-copper]]
+        - [item: [ingot-invar], item: [hypoinfuser-basic], item: [ingot-invar]]
+        - [item: [nugget-copper], null, item: [nugget-copper]]
+      result:
+        item: [hypoinfuser-hardened]
+  hypoinfuser-reinforced:
+    results:
+      - item: hypoinfuser-reinforced
+    ingredients:
+      - item: hypoinfuser-hardened
+      - item: ingot-electrum
+      - item: nugget-invar
+    data:
+      rows:
+        - [null, item: [nugget-invar]]
+        - [item: [ingot-electrum], item: [hypoinfuser-hardened], item: [ingot-electrum]]
+        - [item: [nugget-invar], null, item: [nugget-invar]]
+      result:
+        item: [hypoinfuser-reinforced]
+  hypoinfuser-signalum:
+    results:
+      - item: hypoinfuser-signalum
+    ingredients:
+      - item: hypoinfuser-reinforced
+      - item: ingot-signalum
+      - item: nugget-electrum
+    data:
+      rows:
+        - [null, item: [nugget-electrum]]
+        - [item: [ingot-signalum], item: [hypoinfuser-reinforced], item: [ingot-signalum]]
+        - [item: [nugget-electrum], null, item: [nugget-electrum]]
+      result:
+        item: [hypoinfuser-signalum]
+  hypoinfuser-resonant:
+    results:
+      - item: hypoinfuser-resonant
+    ingredients:
+      - item: hypoinfuser-signalum
+      - item: ingot-enderium
+      - item: nugget-signalum
+    data:
+      rows:
+        - [null, item: [nugget-signalum]]
+        - [item: [ingot-enderium], item: [hypoinfuser-signalum], item: [ingot-enderium]]
+        - [item: [nugget-signalum], null, item: [nugget-signalum]]
+      result:
+        item: [hypoinfuser-resonant]
   ice-using-cryotheum:
     results:
       - item: ice
@@ -5244,77 +5385,6 @@ recipes:
       result:
         item: [ingot-tin]
         amount: 1
-  injector-basic:
-    results:
-      - item: injector-basic
-    ingredients:
-      - item: glass-bottle
-      - item: glowstone-dust
-      - item: ingot-copper
-      - item: ingot-silver
-    data:
-      rows:
-        - [item: [glass-bottle], item: [glowstone-dust], item: [glass-bottle]]
-        - [item: [ingot-copper], item: [glass-bottle], item: [ingot-copper]]
-        - [null, item: [ingot-silver]]
-      result:
-        item: [injector-basic]
-  injector-hardened:
-    results:
-      - item: injector-hardened
-    ingredients:
-      - item: injector-basic
-      - item: ingot-invar
-      - item: nugget-copper
-    data:
-      rows:
-        - [null, item: [nugget-copper]]
-        - [item: [ingot-invar], item: [injector-basic], item: [ingot-invar]]
-        - [item: [nugget-copper], null, item: [nugget-copper]]
-      result:
-        item: [injector-hardened]
-  injector-reinforced:
-    results:
-      - item: injector-reinforced
-    ingredients:
-      - item: injector-hardened
-      - item: ingot-electrum
-      - item: nugget-invar
-    data:
-      rows:
-        - [null, item: [nugget-invar]]
-        - [item: [ingot-electrum], item: [injector-hardened], item: [ingot-electrum]]
-        - [item: [nugget-invar], null, item: [nugget-invar]]
-      result:
-        item: [injector-reinforced]
-  injector-signalum:
-    results:
-      - item: injector-signalum
-    ingredients:
-      - item: injector-reinforced
-      - item: ingot-signalum
-      - item: nugget-electrum
-    data:
-      rows:
-        - [null, item: [nugget-electrum]]
-        - [item: [ingot-signalum], item: [injector-reinforced], item: [ingot-signalum]]
-        - [item: [nugget-electrum], null, item: [nugget-electrum]]
-      result:
-        item: [injector-signalum]
-  injector-resonant:
-    results:
-      - item: injector-resonant
-    ingredients:
-      - item: injector-signalum
-      - item: ingot-enderium
-      - item: nugget-signalum
-    data:
-      rows:
-        - [null, item: [nugget-signalum]]
-        - [item: [ingot-enderium], item: [injector-signalum], item: [ingot-enderium]]
-        - [item: [nugget-signalum], null, item: [nugget-signalum]]
-      result:
-        item: [injector-resonant]
   itemduct:
     results:
       - item: itemduct
@@ -6056,76 +6126,6 @@ recipes:
       result:
         item: [machine-transposer]
         amount: 1
-  magnet-basic:
-    results:
-      - item: magnet-basic
-    ingredients:
-      - item: ingot-iron
-      - item: ingot-lead
-      - item: redstone
-    data:
-      rows:
-        - [item: [ingot-iron], item: [redstone], item: [ingot-iron]]
-        - [item: [ingot-lead], item: [ingot-iron], item: [ingot-lead]]
-        - [null, item: [redstone]]
-      result:
-        item: [magnet-basic]
-  magnet-hardened:
-    results:
-      - item: magnet-hardened
-    ingredients:
-      - item: magnet-basic
-      - item: ingot-invar
-      - item: nugget-copper
-    data:
-      rows:
-        - [null, item: [nugget-copper]]
-        - [item: [ingot-invar], item: [magnet-basic], item: [ingot-invar]]
-        - [item: [nugget-copper], null, item: [nugget-copper]]
-      result:
-        item: [magnet-hardened]
-  magnet-reinforced:
-    results:
-      - item: magnet-reinforced
-    ingredients:
-      - item: magnet-hardened
-      - item: ingot-electrum
-      - item: nugget-invar
-    data:
-      rows:
-        - [null, item: [nugget-invar]]
-        - [item: [ingot-electrum], item: [magnet-hardened], item: [ingot-electrum]]
-        - [item: [nugget-invar], null, item: [nugget-invar]]
-      result:
-        item: [magnet-reinforced]
-  magnet-signalum:
-    results:
-      - item: magnet-signalum
-    ingredients:
-      - item: magnet-reinforced
-      - item: ingot-signalum
-      - item: nugget-electrum
-    data:
-      rows:
-        - [null, item: [nugget-electrum]]
-        - [item: [ingot-signalum], item: [magnet-reinforced], item: [ingot-signalum]]
-        - [item: [nugget-electrum], null, item: [nugget-electrum]]
-      result:
-        item: [magnet-signalum]
-  magnet-resonant:
-    results:
-      - item: magnet-resonant
-    ingredients:
-      - item: magnet-signalum
-      - item: ingot-enderium
-      - item: nugget-signalum
-    data:
-      rows:
-        - [null, item: [nugget-signalum]]
-        - [item: [ingot-enderium], item: [magnet-signalum], item: [ingot-enderium]]
-        - [item: [nugget-signalum], null, item: [nugget-signalum]]
-      result:
-        item: [magnet-resonant]
   morb-using-slime:
     results:
       - item: morb

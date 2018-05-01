@@ -10,7 +10,7 @@ recipes:
     - gear-enderium
 usage-recipes:
   crafting:
-    - drill-resonant
+    - fluxbore-resonant
 ---
 
 ![Enderium gear](/assets/images/thermal-foundation/gear-enderium.png){:style="height: 128px"}

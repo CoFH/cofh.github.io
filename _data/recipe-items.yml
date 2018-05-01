@@ -1,3 +1,28 @@
+alchemical-quiver-basic:
+  name: Alchemical Quiver (Basic)
+  sprite: [7, 64]
+  site: cofh
+  url: alchemical-quiver/
+alchemical-quiver-hardened:
+  name: Alchemical Quiver (Hardened)
+  sprite: [8, 64]
+  site: cofh
+  url: alchemical-quiver/
+alchemical-quiver-reinforced:
+  name: Alchemical Quiver (Reinforced)
+  sprite: [9, 64]
+  site: cofh
+  url: alchemical-quiver/
+alchemical-quiver-signalum:
+  name: Alchemical Quiver (Signalum)
+  sprite: [10, 64]
+  site: cofh
+  url: alchemical-quiver/
+alchemical-quiver-resonant:
+  name: Alchemical Quiver (Resonant)
+  sprite: [11, 64]
+  site: cofh
+  url: alchemical-quiver/
 allium:
   name: Allium
   sprite: [8, 43]
@@ -1363,6 +1388,11 @@ device-diffuser:
   sprite: [9, 60]
   site: cofh
   url: decoctive-diffuser/
+device-factorizer:
+  name: Factorizer
+  sprite: [0, 64]
+  site: cofh
+  url: factorizer/
 device-fisher:
   name: Aquatic Entangler
   sprite: [3, 60]
@@ -1388,6 +1418,11 @@ device-lexicon:
   sprite: [4, 8]
   site: cofh
   url: lexical-transmuter/
+device-mob-catcher:
+  name: Creature Encaptulator
+  sprite: [1, 64]
+  site: cofh
+  url: creature-encaptulator/
 device-nullifier:
   name: Nullifier
   sprite: [0, 27]
@@ -1473,31 +1508,6 @@ drill-head:
   sprite: [14, 62]
   site: cofh
   url: drill-head/
-drill-basic:
-  name: Fluxbore (Basic)
-  sprite: [13, 61]
-  site: cofh
-  url: fluxbore/
-drill-hardened:
-  name: Fluxbore (Hardened)
-  sprite: [14, 61]
-  site: cofh
-  url: fluxbore/
-drill-reinforced:
-  name: Fluxbore (Reinforced)
-  sprite: [15, 61]
-  site: cofh
-  url: fluxbore/
-drill-signalum:
-  name: Fluxbore (Signalum)
-  sprite: [0, 62]
-  site: cofh
-  url: fluxbore/
-drill-resonant:
-  name: Fluxbore (Resonant)
-  sprite: [1, 62]
-  site: cofh
-  url: fluxbore/
 duct-cover-andesite-polished:
   name: Polished Andesite Cover
   sprite: [7, 33]
@@ -2113,6 +2123,31 @@ flux-infused-wrench:
   sprite: [8, 35]
   site: cofh
   url: flux-infused-omniwrench/
+fluxbore-basic:
+  name: Fluxbore (Basic)
+  sprite: [13, 61]
+  site: cofh
+  url: fluxbore/
+fluxbore-hardened:
+  name: Fluxbore (Hardened)
+  sprite: [14, 61]
+  site: cofh
+  url: fluxbore/
+fluxbore-reinforced:
+  name: Fluxbore (Reinforced)
+  sprite: [15, 61]
+  site: cofh
+  url: fluxbore/
+fluxbore-signalum:
+  name: Fluxbore (Signalum)
+  sprite: [0, 62]
+  site: cofh
+  url: fluxbore/
+fluxbore-resonant:
+  name: Fluxbore (Resonant)
+  sprite: [1, 62]
+  site: cofh
+  url: fluxbore/
 fluxduct-basic:
   name: Leadstone Fluxduct
   sprite: [13, 30]
@@ -2168,6 +2203,56 @@ fluxed-armor-plating:
   sprite: [11, 34]
   site: cofh
   url: fluxed-armor-plating/
+fluxomagnet-basic:
+  name: Fluxomagnet (Basic)
+  sprite: [2, 62]
+  site: cofh
+  url: fluxomagnet/
+fluxomagnet-hardened:
+  name: Fluxomagnet (Hardened)
+  sprite: [3, 62]
+  site: cofh
+  url: fluxomagnet/
+fluxomagnet-reinforced:
+  name: Fluxomagnet (Reinforced)
+  sprite: [4, 62]
+  site: cofh
+  url: fluxomagnet/
+fluxomagnet-signalum:
+  name: Fluxomagnet (Signalum)
+  sprite: [5, 62]
+  site: cofh
+  url: fluxomagnet/
+fluxomagnet-resonant:
+  name: Fluxomagnet (Resonant)
+  sprite: [6, 62]
+  site: cofh
+  url: fluxomagnet/
+fluxsaw-basic:
+  name: Fluxsaw (Basic)
+  sprite: [2, 64]
+  site: cofh
+  url: fluxsaw/
+fluxsaw-hardened:
+  name: Fluxsaw (Hardened)
+  sprite: [3, 64]
+  site: cofh
+  url: fluxsaw/
+fluxsaw-reinforced:
+  name: Fluxsaw (Reinforced)
+  sprite: [4, 64]
+  site: cofh
+  url: fluxsaw/
+fluxsaw-signalum:
+  name: Fluxsaw (Signalum)
+  sprite: [5, 64]
+  site: cofh
+  url: fluxsaw/
+fluxsaw-resonant:
+  name: Fluxsaw (Resonant)
+  sprite: [6, 64]
+  site: cofh
+  url: fluxsaw/
 forge-lexicon:
   name: Forge Lexicon
   sprite: [8, 11]
@@ -2773,6 +2858,31 @@ horse-armor-iron:
   sprite: [14, 39]
   site: mc-wiki
   url: Horse_Armor
+hypoinfuser-basic:
+  name: Hypoinfuser (Basic)
+  sprite: [7, 62]
+  site: cofh
+  url: hypoinfuser/
+hypoinfuser-hardened:
+  name: Hypoinfuser (Hardened)
+  sprite: [8, 62]
+  site: cofh
+  url: hypoinfuser/
+hypoinfuser-reinforced:
+  name: Hypoinfuser (Reinforced)
+  sprite: [9, 62]
+  site: cofh
+  url: hypoinfuser/
+hypoinfuser-signalum:
+  name: Hypoinfuser (Signalum)
+  sprite: [10, 62]
+  site: cofh
+  url: hypoinfuser/
+hypoinfuser-resonant:
+  name: Hypoinfuser (Resonant)
+  sprite: [11, 62]
+  site: cofh
+  url: hypoinfuser/
 ice:
   name: Ice
   sprite: [12, 40]
@@ -2878,31 +2988,6 @@ ingot-tin:
   sprite: [11, 1]
   site: cofh
   url: tin-ingot/
-injector-basic:
-  name: Hypoinfuser (Basic)
-  sprite: [7, 62]
-  site: cofh
-  url: hypoinfuser/
-injector-hardened:
-  name: Hypoinfuser (Hardened)
-  sprite: [8, 62]
-  site: cofh
-  url: hypoinfuser/
-injector-reinforced:
-  name: Hypoinfuser (Reinforced)
-  sprite: [9, 62]
-  site: cofh
-  url: hypoinfuser/
-injector-signalum:
-  name: Hypoinfuser (Signalum)
-  sprite: [10, 62]
-  site: cofh
-  url: hypoinfuser/
-injector-resonant:
-  name: Hypoinfuser (Resonant)
-  sprite: [11, 62]
-  site: cofh
-  url: hypoinfuser/
 ink-sac:
   name: Ink Sac
   sprite: [0, 5]
@@ -3213,31 +3298,6 @@ magma-cream:
   sprite: [1, 40]
   site: mc-wiki
   url: Magma_Cream
-magnet-basic:
-  name: Fluxomagnet (Basic)
-  sprite: [2, 62]
-  site: cofh
-  url: fluxomagnet/
-magnet-hardened:
-  name: Fluxomagnet (Hardened)
-  sprite: [3, 62]
-  site: cofh
-  url: fluxomagnet/
-magnet-reinforced:
-  name: Fluxomagnet (Reinforced)
-  sprite: [4, 62]
-  site: cofh
-  url: fluxomagnet/
-magnet-signalum:
-  name: Fluxomagnet (Signalum)
-  sprite: [5, 62]
-  site: cofh
-  url: fluxomagnet/
-magnet-resonant:
-  name: Fluxomagnet (Resonant)
-  sprite: [6, 62]
-  site: cofh
-  url: fluxomagnet/
 melon:
   name: Melon
   sprite: [14, 53]
