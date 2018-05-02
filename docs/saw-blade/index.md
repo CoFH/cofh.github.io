@@ -10,6 +10,7 @@ recipes:
 usage-recipes:
   crafting:
     - machine-sawmill
+    - fluxsaw-basic
 ---
 
 **Saw blades** are crafting materials used to craft [sawmills](/docs/sawmill/)

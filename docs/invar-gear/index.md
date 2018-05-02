@@ -17,6 +17,7 @@ usage-recipes:
     - augment-machine-centrifuge-mobs
     - augment-dynamo-compression-coolant
     - fluxbore-hardened
+    - fluxsaw-hardened
 ---
 
 ![Invar gear](/assets/images/thermal-foundation/gear-invar.png){:style="height: 128px"}

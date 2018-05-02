@@ -60,7 +60,9 @@ usage-recipes:
     - fluiduct-basic-opaque
     - watering-can-basic
     - fluxbore-hardened
+    - fluxsaw-hardened
     - hypoinfuser-basic
+    - alchemical-quiver-basic
     - axe-copper
     - bow-copper
     - fishing-rod-copper

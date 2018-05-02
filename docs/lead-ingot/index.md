@@ -44,6 +44,7 @@ usage-recipes:
     - storage-block-lead
     - multimeter
     - device-lexicon
+    - device-factorizer
     - dynamo-reactant
     - energy-cell-basic
     - flux-capacitor-basic

@@ -2,6 +2,77 @@ name: Crafting
 site: mc-wiki
 url: Crafting
 recipes:
+  alchemical-quiver-basic:
+    results:
+      - item: alchemical-quiver-basic
+    ingredients:
+      - item: ingot-copper
+      - item: leather
+      - item: glass-bottle
+      - item: string
+    data:
+      rows:
+        - [item: [glass-bottle], item: [glass-bottle]]
+        - [item: [ingot-copper], item: [leather], item: [string]]
+        - [item: [leather], item: [ingot-copper], item: [string]]
+      result:
+        item: [alchemical-quiver-basic]
+  alchemical-quiver-hardened:
+    results:
+      - item: alchemical-quiver-hardened
+    ingredients:
+      - item: alchemical-quiver-basic
+      - item: ingot-invar
+      - item: nugget-copper
+    data:
+      rows:
+        - [null, item: [nugget-copper]]
+        - [item: [ingot-invar], item: [alchemical-quiver-basic], item: [ingot-invar]]
+        - [item: [nugget-copper], null, item: [nugget-copper]]
+      result:
+        item: [alchemical-quiver-hardened]
+  alchemical-quiver-reinforced:
+    results:
+      - item: alchemical-quiver-reinforced
+    ingredients:
+      - item: alchemical-quiver-hardened
+      - item: ingot-electrum
+      - item: nugget-invar
+    data:
+      rows:
+        - [null, item: [nugget-invar]]
+        - [item: [ingot-electrum], item: [alchemical-quiver-hardened], item: [ingot-electrum]]
+        - [item: [nugget-invar], null, item: [nugget-invar]]
+      result:
+        item: [alchemical-quiver-reinforced]
+  alchemical-quiver-signalum:
+    results:
+      - item: alchemical-quiver-signalum
+    ingredients:
+      - item: alchemical-quiver-reinforced
+      - item: ingot-signalum
+      - item: nugget-electrum
+    data:
+      rows:
+        - [null, item: [nugget-electrum]]
+        - [item: [ingot-signalum], item: [alchemical-quiver-reinforced], item: [ingot-signalum]]
+        - [item: [nugget-electrum], null, item: [nugget-electrum]]
+      result:
+        item: [alchemical-quiver-signalum]
+  alchemical-quiver-resonant:
+    results:
+      - item: alchemical-quiver-resonant
+    ingredients:
+      - item: alchemical-quiver-signalum
+      - item: ingot-enderium
+      - item: nugget-signalum
+    data:
+      rows:
+        - [null, item: [nugget-signalum]]
+        - [item: [ingot-enderium], item: [alchemical-quiver-signalum], item: [ingot-enderium]]
+        - [item: [nugget-signalum], null, item: [nugget-signalum]]
+      result:
+        item: [alchemical-quiver-resonant]
   aqua-chow-using-slime:
     results:
       - item: aqua-chow
@@ -1625,6 +1696,22 @@ recipes:
       result:
         item: [device-diffuser]
         amount: 1
+  device-factorizer:
+    results:
+      - item: device-factorizer
+    ingredients:
+      - item: frame-device
+      - item: redstone-servo
+      - item: gear-iron
+      - item: ingot-lead
+      - item: crafting-table
+    data:
+      rows:
+        - [null, item: [crafting-table]]
+        - [item: [ingot-lead], item: [frame-device], item: [ingot-lead]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
+      result:
+        item: [device-factorizer]
   device-fisher:
     results:
       - item: device-fisher
@@ -1710,6 +1797,22 @@ recipes:
       result:
         item: [device-lexicon]
         amount: 1
+  device-mob-catcher:
+    results:
+      - item: device-mob-catcher
+    ingredients:
+      - item: frame-device
+      - item: redstone-servo
+      - item: gear-iron
+      - item: ingot-constantan
+      - item: dispenser
+    data:
+      rows:
+        - [null, item: [dispenser]]
+        - [item: [ingot-constantan], item: [frame-device], item: [ingot-constantan]]
+        - [item: [gear-iron], item: [redstone-servo], item: [gear-iron]]
+      result:
+        item: [device-mob-catcher]
   device-nullifier:
     results:
       - item: device-nullifier
@@ -3768,6 +3871,82 @@ recipes:
         - [item: [nugget-signalum], null, item: [nugget-signalum]]
       result:
         item: [fluxomagnet-resonant]
+  fluxsaw-basic:
+    results:
+      - item: fluxsaw-basic
+    ingredients:
+      - item: tool-casing
+      - item: gear-iron
+      - item: ingot-tin
+      - item: ingot-silver
+      - item: saw-blade
+    data:
+      rows:
+        - [null, item: [saw-blade]]
+        - [item: [ingot-silver], item: [tool-casing], item: [ingot-silver]]
+        - [item: [ingot-tin], item: [gear-iron], item: [ingot-tin]]
+      result:
+        item: [fluxsaw-basic]
+  fluxsaw-hardened:
+    results:
+      - item: fluxsaw-hardened
+    ingredients:
+      - item: fluxsaw-basic
+      - item: gear-invar
+      - item: ingot-invar
+      - item: ingot-copper
+    data:
+      rows:
+        - [null, item: [ingot-copper]]
+        - [item: [ingot-invar], item: [fluxsaw-basic], item: [ingot-invar]]
+        - [item: [ingot-copper], item: [gear-invar], item: [ingot-copper]]
+      result:
+        item: [fluxsaw-hardened]
+  fluxsaw-reinforced:
+    results:
+      - item: fluxsaw-reinforced
+    ingredients:
+      - item: fluxsaw-hardened
+      - item: gear-electrum
+      - item: ingot-electrum
+      - item: diamond
+    data:
+      rows:
+        - [null, item: [diamond]]
+        - [item: [ingot-electrum], item: [fluxsaw-hardened], item: [ingot-electrum]]
+        - [item: [diamond], item: [gear-electrum], item: [diamond]]
+      result:
+        item: [fluxsaw-reinforced]
+  fluxsaw-signalum:
+    results:
+      - item: fluxsaw-signalum
+    ingredients:
+      - item: fluxsaw-reinforced
+      - item: gear-signalum
+      - item: ingot-signalum
+      - item: dust-aerotheum
+    data:
+      rows:
+        - [null, item: [dust-aerotheum]]
+        - [item: [ingot-signalum], item: [fluxsaw-reinforced], item: [ingot-signalum]]
+        - [item: [dust-aerotheum], item: [gear-signalum], item: [dust-aerotheum]]
+      result:
+        item: [fluxsaw-signalum]
+  fluxsaw-resonant:
+    results:
+      - item: fluxsaw-resonant
+    ingredients:
+      - item: fluxsaw-signalum
+      - item: gear-enderium
+      - item: ingot-enderium
+      - item: ingot-lumium
+    data:
+      rows:
+        - [null, item: [ingot-lumium]]
+        - [item: [ingot-enderium], item: [fluxsaw-signalum], item: [ingot-enderium]]
+        - [item: [ingot-lumium], item: [gear-enderium], item: [ingot-lumium]]
+      result:
+        item: [fluxsaw-resonant]
   forge-lexicon:
     results:
       - item: forge-lexicon

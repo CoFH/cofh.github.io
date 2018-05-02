@@ -10,6 +10,7 @@ recipes:
 usage-recipes:
   crafting:
     - fluxbore-basic
+    - fluxsaw-basic
 ---
 
 **Tool casings** are crafting materials used to craft

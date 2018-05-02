@@ -36,6 +36,7 @@ usage-recipes:
     - gear-constantan
     - storage-block-constantan
     - machine-centrifuge
+    - device-mob-catcher
     - dynamo-numismatic
     - axe-constantan
     - bow-constantan

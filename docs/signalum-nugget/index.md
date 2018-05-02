@@ -23,6 +23,7 @@ usage-recipes:
     - redstone-relay
     - fluxomagnet-resonant
     - hypoinfuser-resonant
+    - alchemical-quiver-resonant
 ---
 
 ![Signalum nugget](/assets/images/thermal-foundation/nugget-signalum.png){:style="height: 128px"}

@@ -61,8 +61,10 @@ usage-recipes:
     - retriever-reinforced-upgrade
     - watering-can-reinforced
     - fluxbore-reinforced
+    - fluxsaw-reinforced
     - fluxomagnet-reinforced
     - hypoinfuser-reinforced
+    - alchemical-quiver-reinforced
     - axe-electrum
     - bow-electrum
     - fishing-rod-electrum

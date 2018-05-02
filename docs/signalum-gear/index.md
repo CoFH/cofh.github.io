@@ -22,6 +22,7 @@ usage-recipes:
     - augment-dynamo-enervation-enchant
     - augment-dynamo-numismatic-gem
     - fluxbore-signalum
+    - fluxsaw-signalum
 ---
 
 ![Signalum gear](/assets/images/thermal-foundation/gear-signalum.png){:style="height: 128px"}

@@ -24,11 +24,14 @@ usage-recipes:
     - device-lexicon
     - device-xp-collector
     - device-diffuser
+    - device-factorizer
+    - device-mob-catcher
     - augment-machine-compactor-gear
     - augment-machine-charger-repair
     - augment-dynamo-boiler
     - augment-dynamo-steam-turbine
     - fluxbore-basic
+    - fluxsaw-basic
 ---
 
 ![Iron gear](/assets/images/thermal-foundation/gear-iron.png){:style="height: 128px"}

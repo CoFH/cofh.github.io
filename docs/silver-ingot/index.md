@@ -46,6 +46,7 @@ usage-recipes:
     - device-diffuser
     - augment-dynamo-power
     - fluxbore-basic
+    - fluxsaw-basic
     - hypoinfuser-basic
     - axe-silver
     - bow-silver

@@ -37,8 +37,10 @@ usage-recipes:
     - retriever-signalum-upgrade
     - watering-can-signalum
     - fluxbore-signalum
+    - fluxsaw-signalum
     - fluxomagnet-signalum
     - hypoinfuser-signalum
+    - alchemical-quiver-signalum
   pulverizer:
     - dust-signalum
   compactor-press:

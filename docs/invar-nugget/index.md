@@ -16,6 +16,7 @@ usage-recipes:
     - fluxduct-hardened-one
     - fluxomagnet-reinforced
     - hypoinfuser-reinforced
+    - alchemical-quiver-reinforced
 ---
 
 ![Invar nugget](/assets/images/thermal-foundation/nugget-invar.png){:style="height: 128px"}

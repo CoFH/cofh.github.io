@@ -22,6 +22,10 @@ image:
     file: thermal-expansion/insightful-condenser.png
   - alt: Decoctive diffuser
     file: thermal-expansion/decoctive-diffuser.png
+  - alt: Factorizer
+    file: thermal-expansion/factorizer.png
+  - alt: Creature encaptulator
+    file: thermal-expansion/creature-encaptulator.png
 frame-recipes:
   crafting:
     - frame-device
@@ -50,6 +54,8 @@ List of devices
 | [Lexical Transmuter](/docs/lexical-transmuter/) | Converts items into preferred equivalents. |
 | [Insightful Condenser](/docs/insightful-condenser/) | Collects [experience](https://minecraft.gamepedia.com/Experience) in an area. |
 | [Decoctive Diffuser](/docs/decoctive-diffuser/) | Spreads the effects of [fluid potions](/docs/potion-fluid/) in an area. |
+| [Factorizer](/docs/factorizer/) | Combines and splits various items. |
+| [Creature Encaptulator](/docs/creature-encaptulator/) | Captures nearby mobs using [morbs](/docs/morb/). |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
 </div>
 {::options parse_block_html="false" /}

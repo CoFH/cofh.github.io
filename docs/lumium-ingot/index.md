@@ -17,6 +17,7 @@ usage-recipes:
     - gear-lumium
     - storage-block-lumium
     - fluxbore-resonant
+    - fluxsaw-resonant
   pulverizer:
     - dust-lumium
   compactor-press:

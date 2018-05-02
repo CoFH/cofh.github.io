@@ -24,7 +24,7 @@ exclude:
   - /Thumbs.db
   - /.unused
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed

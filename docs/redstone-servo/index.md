@@ -20,6 +20,8 @@ usage-recipes:
     - device-lexicon
     - device-xp-collector
     - device-diffuser
+    - device-factorizer
+    - device-mob-catcher
     - portable-tank-basic
     - reservoir-basic
     - cache-basic

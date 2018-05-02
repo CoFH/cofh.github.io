@@ -56,6 +56,7 @@ usage-recipes:
     - itemduct
     - itemduct-opaque
     - fluxbore-basic
+    - fluxsaw-basic
     - axe-tin
     - bow-tin
     - fishing-rod-tin

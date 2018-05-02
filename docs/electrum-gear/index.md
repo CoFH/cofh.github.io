@@ -15,6 +15,7 @@ usage-recipes:
     - augment-machine-charger-throughput
     - augment-machine-charger-wireless
     - fluxbore-reinforced
+    - fluxsaw-reinforced
 ---
 
 ![Electrum gear](/assets/images/thermal-foundation/gear-electrum.png){:style="height: 128px"}

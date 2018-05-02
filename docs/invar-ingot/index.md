@@ -58,8 +58,10 @@ usage-recipes:
     - retriever-hardened-upgrade
     - watering-can-hardened
     - fluxbore-hardened
+    - fluxsaw-hardened
     - fluxomagnet-hardened
     - hypoinfuser-hardened
+    - alchemical-quiver-hardened
     - axe-invar
     - bow-invar
     - fishing-rod-invar

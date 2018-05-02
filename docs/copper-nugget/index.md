@@ -15,6 +15,7 @@ usage-recipes:
     - ingot-copper-from-nuggets
     - fluxomagnet-hardened
     - hypoinfuser-hardened
+    - alchemical-quiver-hardened
 ---
 
 ![Copper nugget](/assets/images/thermal-foundation/nugget-copper.png){:style="height: 128px"}

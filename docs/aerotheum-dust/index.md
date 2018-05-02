@@ -12,6 +12,7 @@ usage-recipes:
   crafting:
     - augment-machine-extruder-sedimentary
     - augment-dynamo-reactant-elemental
+    - fluxsaw-signalum
   crucible:
     - aerotheum
   centrifuge:

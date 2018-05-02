@@ -11,6 +11,7 @@ recipes:
 usage-recipes:
   crafting:
     - fluxbore-resonant
+    - fluxsaw-resonant
 ---
 
 ![Enderium gear](/assets/images/thermal-foundation/gear-enderium.png){:style="height: 128px"}

@@ -30,8 +30,10 @@ usage-recipes:
     - retriever-resonant-upgrade
     - watering-can-resonant
     - fluxbore-resonant
+    - fluxsaw-resonant
     - fluxomagnet-resonant
     - hypoinfuser-resonant
+    - alchemical-quiver-resonant
   pulverizer:
     - dust-enderium
   compactor-press:

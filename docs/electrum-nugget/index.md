@@ -18,6 +18,7 @@ usage-recipes:
     - itemduct-energy-fast-opaque-one
     - fluxomagnet-signalum
     - hypoinfuser-signalum
+    - alchemical-quiver-signalum
 ---
 
 ![Electrum nugget](/assets/images/thermal-foundation/nugget-electrum.png){:style="height: 128px"}
