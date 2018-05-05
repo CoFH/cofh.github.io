@@ -13,7 +13,7 @@ recipe-list:
 ---
 
 A **gearworking die** is an [augment](/docs/augments/) that allows for a
-[compactor](/docs/compactor/) to efficiently produce metal gears.
+[compactor](/docs/compactor/) to produce metal gears instead of plates.
 
 
 Obtaining
@@ -32,11 +32,13 @@ A gearworking die can be installed in the Augmentation tab in a
 installed together with other specialization augments.
 
 ### Effects
-An installed gearworking die allows for a [compactor](/docs/compactor/) to be
-switched into Gear mode. In this mode, the compactor produces metal gears from
-metal ingots and blocks. The center [iron
-ingots](https://minecraft.gamepedia.com/Iron_Ingot) that are used when manually
-crafting gears are not required.
+An installed gearworking die allows for a [compactor](/docs/compactor/) to
+produce metal gears from ingots. This replaces the machine's ability to produce
+metal plates.
+
+Unlike with manual crafting, no additional ingots (usually
+[iron](https://minecraft.gamepedia.com/Iron_Ingot)) are required to produce
+gears using a gearworking die.
 
 
 Recipes

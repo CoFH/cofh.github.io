@@ -4,13 +4,15 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/plates/silver-plate/
 recipes:
-  compactor-press:
+  compactor:
     - plate-silver
 usage-recipes:
   crafting:
     - augment-machine-furnace-food
     - augment-machine-charger-throughput
     - augment-machine-charger-wireless
+  smelter:
+    - recycling-plate-silver
 ---
 
 ![Silver plate](/assets/images/thermal-foundation/plate-silver.png){:style="height: 128px"}
@@ -23,7 +25,7 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}
+{% include recipe-table.html type='compactor' recipes=page.recipes.compactor no-result=true %}
 
 
 Usage
@@ -31,3 +33,6 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

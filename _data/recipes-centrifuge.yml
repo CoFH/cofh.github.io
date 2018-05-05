@@ -37,6 +37,7 @@ recipes:
         amount: 2
       output-1:
         item: [blitz-powder]
+        amount: 2
       output-2:
         item: [niter]
       output-3:
@@ -86,6 +87,7 @@ recipes:
         amount: 2
       output-1:
         item: [blizz-powder]
+        amount: 2
       output-2:
         item: [snowball]
       output-3:
@@ -177,6 +179,7 @@ recipes:
         amount: 2
       output-1:
         item: [basalz-powder]
+        amount: 2
       output-2:
         item: [dust-obsidian]
       output-3:
@@ -195,6 +198,7 @@ recipes:
         amount: 2
       output-1:
         item: [blaze-powder]
+        amount: 2
       output-2:
         item: [sulfur]
       output-3:

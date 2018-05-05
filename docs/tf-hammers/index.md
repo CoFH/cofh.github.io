@@ -40,6 +40,7 @@ usage-recipes:
     - recycling-hammer-bronze
     - recycling-hammer-constantan
   pulverizer:
+    - recycling-hammer-wood
     - recycling-hammer-diamond
 ---
 

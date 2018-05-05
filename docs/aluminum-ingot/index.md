@@ -18,6 +18,8 @@ recipes:
     - ore-processing-rich-slag-aluminum
     - ore-processing-cinnabar-aluminum
     - dust-smelting-aluminum
+    - recycling-gear-aluminum
+    - recycling-plate-aluminum
     - recycling-axe-aluminum
     - recycling-bow-aluminum
     - recycling-fishing-rod-aluminum
@@ -56,9 +58,9 @@ usage-recipes:
     - boots-aluminum
   pulverizer:
     - dust-aluminum
-  compactor-press:
+  compactor:
     - plate-aluminum
-  compactor-mint:
+  compactor-coin:
     - coin-aluminum
   compactor-gear:
     - gear-aluminum
@@ -95,10 +97,10 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

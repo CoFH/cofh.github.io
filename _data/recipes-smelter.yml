@@ -10,7 +10,7 @@ recipes:
     ingredients:
       - item-group: dust-metal
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -28,7 +28,7 @@ recipes:
     ingredients:
       - item: dust-aluminum
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -46,7 +46,7 @@ recipes:
     ingredients:
       - item: dust-bronze
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -64,7 +64,7 @@ recipes:
     ingredients:
       - item: dust-constantan
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -82,7 +82,7 @@ recipes:
     ingredients:
       - item: dust-copper
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -100,7 +100,7 @@ recipes:
     ingredients:
       - item: dust-electrum
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -118,7 +118,7 @@ recipes:
     ingredients:
       - item: dust-enderium
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -150,7 +150,7 @@ recipes:
     ingredients:
       - item: dust-gold
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -168,7 +168,7 @@ recipes:
     ingredients:
       - item: dust-invar
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -186,7 +186,7 @@ recipes:
     ingredients:
       - item: dust-iridium
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -204,7 +204,7 @@ recipes:
     ingredients:
       - item: dust-iron
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -222,7 +222,7 @@ recipes:
     ingredients:
       - item: dust-lead
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -240,7 +240,7 @@ recipes:
     ingredients:
       - item: dust-lumium
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -258,7 +258,7 @@ recipes:
     ingredients:
       - item: dust-mithril
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -276,7 +276,7 @@ recipes:
     ingredients:
       - item: dust-nickel
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -294,7 +294,7 @@ recipes:
     ingredients:
       - item: dust-platinum
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -312,7 +312,7 @@ recipes:
     ingredients:
       - item: dust-signalum
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -330,7 +330,7 @@ recipes:
     ingredients:
       - item: dust-silver
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -348,7 +348,7 @@ recipes:
     ingredients:
       - item: dust-steel
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -366,7 +366,7 @@ recipes:
     ingredients:
       - item: dust-tin
       - item: sand
-    energy: 500
+    energy: 1000
     data:
       secondary-input:
         item: [sand]
@@ -377,30 +377,13 @@ recipes:
       secondary-output:
         item: [slag]
       secondary-chance: 25
-  hardened-glass-using-ingot:
-    results:
-      - item: hardened-glass
-    ingredients:
-      - item: ingot-lead
-      - item: dust-obsidian
-    energy: 4000
-    data:
-      primary-input:
-        item: [ingot-lead]
-        amount: 1
-      secondary-input:
-        item: [dust-obsidian]
-        amount: 4
-      primary-output:
-        item: [hardened-glass]
-        amount: 2
-  hardened-glass-using-dust:
+  hardened-glass:
     results:
       - item: hardened-glass
     ingredients:
       - item: dust-lead
       - item: dust-obsidian
-    energy: 4000
+    energy: 8000
     data:
       primary-input:
         item: [dust-lead]
@@ -414,19 +397,22 @@ recipes:
   hardened-glass-metal:
     results:
       - html: '<a href="/docs/hardened-glass/">Metal Hardened Glass</a>'
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - html: 'Metal Dust'
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item:
           - dust-copper
           - dust-tin
           - dust-silver
+          - dust-lead
           - dust-aluminum
           - dust-nickel
           - dust-platinum
@@ -445,11 +431,11 @@ recipes:
           - hardened-glass-copper
           - hardened-glass-tin
           - hardened-glass-silver
+          - hardened-glass
           - hardened-glass-aluminum
           - hardened-glass-nickel
           - hardened-glass-platinum
           - hardened-glass-iridium
-          - hardened-glass-mithril
           - hardened-glass-steel
           - hardened-glass-electrum
           - hardened-glass-invar
@@ -459,262 +445,366 @@ recipes:
           - hardened-glass-lumium
           - hardened-glass-enderium
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-aluminum:
     results:
       - item: hardened-glass-aluminum
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-aluminum
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-aluminum]
       primary-output:
         item: [hardened-glass-aluminum]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-bronze:
     results:
       - item: hardened-glass-bronze
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-bronze
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-bronze]
       primary-output:
         item: [hardened-glass-bronze]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-constantan:
     results:
       - item: hardened-glass-constantan
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-constantan
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-constantan]
       primary-output:
         item: [hardened-glass-constantan]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-copper:
     results:
       - item: hardened-glass-copper
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-copper
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-copper]
       primary-output:
         item: [hardened-glass-copper]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-electrum:
     results:
       - item: hardened-glass-electrum
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-electrum
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-electrum]
       primary-output:
         item: [hardened-glass-electrum]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-enderium:
     results:
       - item: hardened-glass-enderium
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-enderium
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-enderium]
       primary-output:
         item: [hardened-glass-enderium]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-invar:
     results:
       - item: hardened-glass-invar
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-invar
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-invar]
       primary-output:
         item: [hardened-glass-invar]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-iridium:
     results:
       - item: hardened-glass-iridium
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-iridium
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-iridium]
       primary-output:
         item: [hardened-glass-iridium]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
+  hardened-glass-lead:
+    results:
+      - item: hardened-glass
+      - item: slag-rich
+    ingredients:
+      - item-group: hardened-glass
+      - item: dust-lead
+    energy: 6000
+    data:
+      primary-input:
+        random: true
+        item-group: hardened-glass
+        amount: 2
+      secondary-input:
+        item: [dust-lead]
+      primary-output:
+        item: [hardened-glass]
+        amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-lumium:
     results:
       - item: hardened-glass-lumium
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-lumium
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-lumium]
       primary-output:
         item: [hardened-glass-lumium]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-mithril:
     results:
       - item: hardened-glass-mithril
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-mithril
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-mithril]
       primary-output:
         item: [hardened-glass-mithril]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-nickel:
     results:
       - item: hardened-glass-nickel
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-nickel
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-nickel]
       primary-output:
         item: [hardened-glass-nickel]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-platinum:
     results:
       - item: hardened-glass-platinum
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-platinum
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-platinum]
       primary-output:
         item: [hardened-glass-platinum]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-signalum:
     results:
       - item: hardened-glass-signalum
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-signalum
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-signalum]
       primary-output:
         item: [hardened-glass-signalum]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-silver:
     results:
       - item: hardened-glass-silver
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-silver
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-silver]
       primary-output:
         item: [hardened-glass-silver]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-steel:
     results:
       - item: hardened-glass-steel
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-steel
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-steel]
       primary-output:
         item: [hardened-glass-steel]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   hardened-glass-tin:
     results:
       - item: hardened-glass-tin
+      - item: slag-rich
     ingredients:
-      - item: hardened-glass
+      - item-group: hardened-glass
       - item: dust-tin
     energy: 6000
     data:
       primary-input:
-        item: [hardened-glass]
+        random: true
+        item-group: hardened-glass
         amount: 2
       secondary-input:
         item: [dust-tin]
       primary-output:
         item: [hardened-glass-tin]
         amount: 2
+      secondary-output:
+        item: slag-rich
+      secondary-chance: 15
   ingot-bronze-from-dust-copper-and-dust-tin:
     results:
       - item: ingot-bronze
@@ -737,7 +827,7 @@ recipes:
     ingredients:
       - item: dust-copper
       - item: ingot-tin
-    energy: 4000
+    energy: 3600
     data:
       primary-input:
         item: [dust-copper]
@@ -753,7 +843,7 @@ recipes:
     ingredients:
       - item: ingot-copper
       - item: dust-tin
-    energy: 4000
+    energy: 4400
     data:
       primary-input:
         item: [ingot-copper]
@@ -921,7 +1011,7 @@ recipes:
     ingredients:
       - item: dust-iron
       - item: ingot-nickel
-    energy: 3000
+    energy: 2800
     data:
       primary-input:
         item: [dust-iron]
@@ -937,7 +1027,7 @@ recipes:
     ingredients:
       - item: ingot-iron
       - item: dust-nickel
-    energy: 3000
+    energy: 3200
     data:
       primary-input:
         item: [ingot-iron]
@@ -1302,27 +1392,47 @@ recipes:
         item: [ingot-iron]
         amount: 1
       secondary-chance: 100
-  ore-processing-nether-quartz:
+  ore-processing-lapis-lazuli:
     results:
-      - item: nether-quartz-block
+      - item: lapis-lazuli
       - item: slag-rich
     ingredients:
-      - item: ore-nether-quartz
-      - item: soul-sand
+      - item: ore-lapis-lazuli
+      - item: sand
     energy: 4000
     data:
       secondary-input:
-        item: [soul-sand]
+        item: [sand]
+      primary-input:
+        item: [ore-lapis-lazuli]
+      primary-output:
+        item: [lapis-lazuli]
+        amount: 8
+      secondary-output:
+        item: [slag-rich]
+      secondary-chance: 50
+  ore-processing-nether-quartz:
+    results:
+      - item: nether-quartz
+      - item: slag-rich
+    ingredients:
+      - item: ore-nether-quartz
+      - item: sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [sand]
       primary-input:
         item: [ore-nether-quartz]
       primary-output:
-        item: [nether-quartz-block]
+        item: [nether-quartz]
+        amount: 4
       secondary-output:
         item: [slag-rich]
-      secondary-chance: 25
+      secondary-chance: 50
   ore-processing-redstone:
     results:
-      - item: storage-block-redstone
+      - item: redstone
       - item: slag-rich
     ingredients:
       - item: ore-redstone
@@ -1334,7 +1444,8 @@ recipes:
       primary-input:
         item: [ore-redstone]
       primary-output:
-        item: [storage-block-redstone]
+        item: [redstone]
+        amount: 8
       secondary-output:
         item: [slag-rich]
       secondary-chance: 50
@@ -1807,7 +1918,7 @@ recipes:
     ingredients:
       - item: anvil
       - item: sand
-    energy: 8400
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -1818,7 +1929,7 @@ recipes:
         amount: 31
       secondary-output:
         item: [slag]
-      secondary-chance: 160
+      secondary-chance: 50
   recycling-anvil-slightly-damaged:
     results:
       - item: ingot-iron
@@ -1826,7 +1937,7 @@ recipes:
     ingredients:
       - item: anvil-slightly-damaged
       - item: sand
-    energy: 7200
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -1834,10 +1945,10 @@ recipes:
         item: [anvil-slightly-damaged]
       primary-output:
         item: [ingot-iron]
-        amount: 22
+        amount: 23
       secondary-output:
         item: [slag]
-      secondary-chance: 115
+      secondary-chance: 75
   recycling-anvil-very-damaged:
     results:
       - item: ingot-iron
@@ -1845,7 +1956,7 @@ recipes:
     ingredients:
       - item: anvil-very-damaged
       - item: sand
-    energy: 6000
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -1853,10 +1964,10 @@ recipes:
         item: [anvil-very-damaged]
       primary-output:
         item: [ingot-iron]
-        amount: 13
+        amount: 15
       secondary-output:
         item: [slag]
-      secondary-chance: 70
+      secondary-chance: 100
   recycling-axe:
     results:
       - item-group: ingot-metal-equipment
@@ -1872,10 +1983,9 @@ recipes:
         item-group: axe-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-aluminum:
     results:
       - item: ingot-aluminum
@@ -1891,10 +2001,9 @@ recipes:
         item: [axe-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-bronze:
     results:
       - item: ingot-bronze
@@ -1910,10 +2019,9 @@ recipes:
         item: [axe-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-constantan:
     results:
       - item: ingot-constantan
@@ -1929,10 +2037,9 @@ recipes:
         item: [axe-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-copper:
     results:
       - item: ingot-copper
@@ -1948,10 +2055,9 @@ recipes:
         item: [axe-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-electrum:
     results:
       - item: ingot-electrum
@@ -1967,10 +2073,9 @@ recipes:
         item: [axe-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-gold:
     results:
       - item: ingot-gold
@@ -1986,10 +2091,9 @@ recipes:
         item: [axe-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-invar:
     results:
       - item: ingot-invar
@@ -2005,10 +2109,9 @@ recipes:
         item: [axe-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-iron:
     results:
       - item: ingot-iron
@@ -2024,10 +2127,9 @@ recipes:
         item: [axe-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-lead:
     results:
       - item: ingot-lead
@@ -2043,10 +2145,9 @@ recipes:
         item: [axe-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-nickel:
     results:
       - item: ingot-nickel
@@ -2062,10 +2163,9 @@ recipes:
         item: [axe-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-platinum:
     results:
       - item: ingot-platinum
@@ -2081,10 +2181,9 @@ recipes:
         item: [axe-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-silver:
     results:
       - item: ingot-silver
@@ -2100,10 +2199,9 @@ recipes:
         item: [axe-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-steel:
     results:
       - item: ingot-steel
@@ -2119,10 +2217,9 @@ recipes:
         item: [axe-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-axe-tin:
     results:
       - item: ingot-tin
@@ -2138,10 +2235,9 @@ recipes:
         item: [axe-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-boots:
     results:
       - item-group: ingot-metal-equipment
@@ -2157,10 +2253,10 @@ recipes:
         item-group: boots-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-aluminum:
     results:
       - item: ingot-aluminum
@@ -2176,10 +2272,10 @@ recipes:
         item: [boots-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-bronze:
     results:
       - item: ingot-bronze
@@ -2195,10 +2291,10 @@ recipes:
         item: [boots-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-constantan:
     results:
       - item: ingot-constantan
@@ -2214,10 +2310,10 @@ recipes:
         item: [boots-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-copper:
     results:
       - item: ingot-copper
@@ -2233,10 +2329,10 @@ recipes:
         item: [boots-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-electrum:
     results:
       - item: ingot-electrum
@@ -2252,10 +2348,10 @@ recipes:
         item: [boots-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-gold:
     results:
       - item: ingot-gold
@@ -2271,10 +2367,10 @@ recipes:
         item: [boots-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-invar:
     results:
       - item: ingot-invar
@@ -2290,10 +2386,10 @@ recipes:
         item: [boots-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-iron:
     results:
       - item: ingot-iron
@@ -2309,10 +2405,10 @@ recipes:
         item: [boots-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-lead:
     results:
       - item: ingot-lead
@@ -2328,10 +2424,10 @@ recipes:
         item: [boots-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-nickel:
     results:
       - item: ingot-nickel
@@ -2347,10 +2443,10 @@ recipes:
         item: [boots-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-platinum:
     results:
       - item: ingot-platinum
@@ -2366,10 +2462,10 @@ recipes:
         item: [boots-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-silver:
     results:
       - item: ingot-silver
@@ -2385,10 +2481,10 @@ recipes:
         item: [boots-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-steel:
     results:
       - item: ingot-steel
@@ -2404,10 +2500,10 @@ recipes:
         item: [boots-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-boots-tin:
     results:
       - item: ingot-tin
@@ -2423,10 +2519,10 @@ recipes:
         item: [boots-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-bow:
     results:
       - item-group: ingot-metal-equipment
@@ -2442,10 +2538,9 @@ recipes:
         item-group: bow-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-aluminum:
     results:
       - item: ingot-aluminum
@@ -2461,10 +2556,9 @@ recipes:
         item: [bow-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-bronze:
     results:
       - item: ingot-bronze
@@ -2480,10 +2574,9 @@ recipes:
         item: [bow-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-constantan:
     results:
       - item: ingot-constantan
@@ -2499,10 +2592,9 @@ recipes:
         item: [bow-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-copper:
     results:
       - item: ingot-copper
@@ -2518,10 +2610,9 @@ recipes:
         item: [bow-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-electrum:
     results:
       - item: ingot-electrum
@@ -2537,10 +2628,9 @@ recipes:
         item: [bow-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-gold:
     results:
       - item: ingot-gold
@@ -2556,10 +2646,9 @@ recipes:
         item: [bow-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-invar:
     results:
       - item: ingot-invar
@@ -2575,10 +2664,9 @@ recipes:
         item: [bow-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-iron:
     results:
       - item: ingot-iron
@@ -2594,10 +2682,9 @@ recipes:
         item: [bow-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-lead:
     results:
       - item: ingot-lead
@@ -2613,10 +2700,9 @@ recipes:
         item: [bow-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-nickel:
     results:
       - item: ingot-nickel
@@ -2632,10 +2718,9 @@ recipes:
         item: [bow-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-platinum:
     results:
       - item: ingot-platinum
@@ -2651,10 +2736,9 @@ recipes:
         item: [bow-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-silver:
     results:
       - item: ingot-silver
@@ -2670,10 +2754,9 @@ recipes:
         item: [bow-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-steel:
     results:
       - item: ingot-steel
@@ -2689,10 +2772,9 @@ recipes:
         item: [bow-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bow-tin:
     results:
       - item: ingot-tin
@@ -2708,10 +2790,9 @@ recipes:
         item: [bow-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-bucket:
     results:
       - item: ingot-iron
@@ -2719,7 +2800,7 @@ recipes:
     ingredients:
       - item: bucket
       - item: sand
-    energy: 6000
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -2730,7 +2811,7 @@ recipes:
         amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 15
   recycling-cauldron:
     results:
       - item: ingot-iron
@@ -2738,7 +2819,7 @@ recipes:
     ingredients:
       - item: cauldron
       - item: sand
-    energy: 6000
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -2749,7 +2830,7 @@ recipes:
         amount: 7
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 35
   recycling-chestplate:
     results:
       - item-group: ingot-metal-equipment
@@ -2765,10 +2846,10 @@ recipes:
         item-group: chestplate-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-aluminum:
     results:
       - item: ingot-aluminum
@@ -2784,10 +2865,10 @@ recipes:
         item: [chestplate-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-bronze:
     results:
       - item: ingot-bronze
@@ -2803,10 +2884,10 @@ recipes:
         item: [chestplate-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-constantan:
     results:
       - item: ingot-constantan
@@ -2822,10 +2903,10 @@ recipes:
         item: [chestplate-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-copper:
     results:
       - item: ingot-copper
@@ -2841,10 +2922,10 @@ recipes:
         item: [chestplate-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-electrum:
     results:
       - item: ingot-electrum
@@ -2860,10 +2941,10 @@ recipes:
         item: [chestplate-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-gold:
     results:
       - item: ingot-gold
@@ -2879,10 +2960,10 @@ recipes:
         item: [chestplate-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-invar:
     results:
       - item: ingot-invar
@@ -2898,10 +2979,10 @@ recipes:
         item: [chestplate-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-iron:
     results:
       - item: ingot-iron
@@ -2917,10 +2998,10 @@ recipes:
         item: [chestplate-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-lead:
     results:
       - item: ingot-lead
@@ -2936,10 +3017,10 @@ recipes:
         item: [chestplate-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-nickel:
     results:
       - item: ingot-nickel
@@ -2955,10 +3036,10 @@ recipes:
         item: [chestplate-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-platinum:
     results:
       - item: ingot-platinum
@@ -2974,10 +3055,10 @@ recipes:
         item: [chestplate-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-silver:
     results:
       - item: ingot-silver
@@ -2993,10 +3074,10 @@ recipes:
         item: [chestplate-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-steel:
     results:
       - item: ingot-steel
@@ -3012,10 +3093,10 @@ recipes:
         item: [chestplate-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-chestplate-tin:
     results:
       - item: ingot-tin
@@ -3031,10 +3112,10 @@ recipes:
         item: [chestplate-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 8
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 45
+      secondary-chance: 25
   recycling-clock:
     results:
       - item: ingot-gold
@@ -3042,7 +3123,7 @@ recipes:
     ingredients:
       - item: clock
       - item: sand
-    energy: 6000
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -3053,7 +3134,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [slag-rich]
-      secondary-chance: 10
+      secondary-chance: 20
   recycling-compass:
     results:
       - item: ingot-iron
@@ -3061,7 +3142,7 @@ recipes:
     ingredients:
       - item: compass
       - item: sand
-    energy: 6000
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -3072,7 +3153,7 @@ recipes:
         amount: 4
       secondary-output:
         item: [slag-rich]
-      secondary-chance: 10
+      secondary-chance: 20
   recycling-door-iron:
     results:
       - item: ingot-iron
@@ -3080,7 +3161,7 @@ recipes:
     ingredients:
       - item: door-iron
       - item: sand
-    energy: 6000
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -3091,7 +3172,7 @@ recipes:
         amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod:
     results:
       - item-group: ingot-metal-equipment
@@ -3107,10 +3188,9 @@ recipes:
         item-group: fishing-rod-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-aluminum:
     results:
       - item: ingot-aluminum
@@ -3126,10 +3206,9 @@ recipes:
         item: [fishing-rod-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-bronze:
     results:
       - item: ingot-bronze
@@ -3145,10 +3224,9 @@ recipes:
         item: [fishing-rod-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-constantan:
     results:
       - item: ingot-constantan
@@ -3164,10 +3242,9 @@ recipes:
         item: [fishing-rod-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-copper:
     results:
       - item: ingot-copper
@@ -3183,10 +3260,9 @@ recipes:
         item: [fishing-rod-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-electrum:
     results:
       - item: ingot-electrum
@@ -3202,10 +3278,9 @@ recipes:
         item: [fishing-rod-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-gold:
     results:
       - item: ingot-gold
@@ -3221,10 +3296,9 @@ recipes:
         item: [fishing-rod-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-invar:
     results:
       - item: ingot-invar
@@ -3240,10 +3314,9 @@ recipes:
         item: [fishing-rod-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-iron:
     results:
       - item: ingot-iron
@@ -3259,10 +3332,9 @@ recipes:
         item: [fishing-rod-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-lead:
     results:
       - item: ingot-lead
@@ -3278,10 +3350,9 @@ recipes:
         item: [fishing-rod-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-nickel:
     results:
       - item: ingot-nickel
@@ -3297,10 +3368,9 @@ recipes:
         item: [fishing-rod-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-platinum:
     results:
       - item: ingot-platinum
@@ -3316,10 +3386,9 @@ recipes:
         item: [fishing-rod-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-silver:
     results:
       - item: ingot-silver
@@ -3335,10 +3404,9 @@ recipes:
         item: [fishing-rod-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-steel:
     results:
       - item: ingot-steel
@@ -3354,10 +3422,9 @@ recipes:
         item: [fishing-rod-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-fishing-rod-tin:
     results:
       - item: ingot-tin
@@ -3373,28 +3440,389 @@ recipes:
         item: [fishing-rod-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
-  recycling-flint-and-steel:
+      secondary-chance: 10
+  recycling-gear:
     results:
-      - item: ingot-iron
+      - item-group: ingot-metal
       - item: slag
     ingredients:
-      - item: flint-and-steel
+      - item-group: gear-metal
       - item: sand
-    energy: 6000
+    energy: 3000
     data:
       secondary-input:
         item: [sand]
       primary-input:
-        item: [flint-and-steel]
+        item-group: gear-metal
       primary-output:
-        item: [ingot-iron]
+        item-group: ingot-metal
+        amount: 4
       secondary-output:
         item: [slag]
-      secondary-chance: 90
+      secondary-chance: 20
+  recycling-gear-iron:
+    results:
+      - item: gear-iron
+      - item: slag
+    ingredients:
+      - item: ingot-iron
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-iron]
+      primary-output:
+        item: [ingot-iron]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-gold:
+    results:
+      - item: gear-gold
+      - item: slag
+    ingredients:
+      - item: ingot-gold
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-gold]
+      primary-output:
+        item: [ingot-gold]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-copper:
+    results:
+      - item: gear-copper
+      - item: slag
+    ingredients:
+      - item: ingot-copper
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-copper]
+      primary-output:
+        item: [ingot-copper]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-tin:
+    results:
+      - item: gear-tin
+      - item: slag
+    ingredients:
+      - item: ingot-tin
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-tin]
+      primary-output:
+        item: [ingot-tin]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-silver:
+    results:
+      - item: gear-silver
+      - item: slag
+    ingredients:
+      - item: ingot-silver
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-silver]
+      primary-output:
+        item: [ingot-silver]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-lead:
+    results:
+      - item: gear-lead
+      - item: slag
+    ingredients:
+      - item: ingot-lead
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-lead]
+      primary-output:
+        item: [ingot-lead]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-aluminum:
+    results:
+      - item: gear-aluminum
+      - item: slag
+    ingredients:
+      - item: ingot-aluminum
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-aluminum]
+      primary-output:
+        item: [ingot-aluminum]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-nickel:
+    results:
+      - item: gear-nickel
+      - item: slag
+    ingredients:
+      - item: ingot-nickel
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-nickel]
+      primary-output:
+        item: [ingot-nickel]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-platinum:
+    results:
+      - item: gear-platinum
+      - item: slag
+    ingredients:
+      - item: ingot-platinum
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-platinum]
+      primary-output:
+        item: [ingot-platinum]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-iridium:
+    results:
+      - item: gear-iridium
+      - item: slag
+    ingredients:
+      - item: ingot-iridium
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-iridium]
+      primary-output:
+        item: [ingot-iridium]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-mithril:
+    results:
+      - item: gear-mithril
+      - item: slag
+    ingredients:
+      - item: ingot-mithril
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-mithril]
+      primary-output:
+        item: [ingot-mithril]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-steel:
+    results:
+      - item: gear-steel
+      - item: slag
+    ingredients:
+      - item: ingot-steel
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-steel]
+      primary-output:
+        item: [ingot-steel]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-electrum:
+    results:
+      - item: gear-electrum
+      - item: slag
+    ingredients:
+      - item: ingot-electrum
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-electrum]
+      primary-output:
+        item: [ingot-electrum]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-invar:
+    results:
+      - item: gear-invar
+      - item: slag
+    ingredients:
+      - item: ingot-invar
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-invar]
+      primary-output:
+        item: [ingot-invar]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-bronze:
+    results:
+      - item: gear-bronze
+      - item: slag
+    ingredients:
+      - item: ingot-bronze
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-bronze]
+      primary-output:
+        item: [ingot-bronze]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-constantan:
+    results:
+      - item: gear-constantan
+      - item: slag
+    ingredients:
+      - item: ingot-constantan
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-constantan]
+      primary-output:
+        item: [ingot-constantan]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-signalum:
+    results:
+      - item: gear-signalum
+      - item: slag
+    ingredients:
+      - item: ingot-signalum
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-signalum]
+      primary-output:
+        item: [ingot-signalum]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-lumium:
+    results:
+      - item: gear-lumium
+      - item: slag
+    ingredients:
+      - item: ingot-lumium
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-lumium]
+      primary-output:
+        item: [ingot-lumium]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
+  recycling-gear-enderium:
+    results:
+      - item: gear-enderium
+      - item: slag
+    ingredients:
+      - item: ingot-enderium
+      - item: sand
+    energy: 3000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [gear-enderium]
+      primary-output:
+        item: [ingot-enderium]
+        amount: 4
+      secondary-output:
+        item: [slag]
+      secondary-chance: 20
   recycling-hammer:
     results:
       - item-group: ingot-metal-equipment
@@ -3410,10 +3838,10 @@ recipes:
         item-group: hammer-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-aluminum:
     results:
       - item: ingot-aluminum
@@ -3429,10 +3857,10 @@ recipes:
         item: [hammer-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-bronze:
     results:
       - item: ingot-bronze
@@ -3448,10 +3876,10 @@ recipes:
         item: [hammer-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-constantan:
     results:
       - item: ingot-constantan
@@ -3467,10 +3895,10 @@ recipes:
         item: [hammer-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-copper:
     results:
       - item: ingot-copper
@@ -3486,10 +3914,10 @@ recipes:
         item: [hammer-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-electrum:
     results:
       - item: ingot-electrum
@@ -3505,10 +3933,10 @@ recipes:
         item: [hammer-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-gold:
     results:
       - item: ingot-gold
@@ -3524,10 +3952,10 @@ recipes:
         item: [hammer-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-invar:
     results:
       - item: ingot-invar
@@ -3543,10 +3971,10 @@ recipes:
         item: [hammer-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-iron:
     results:
       - item: ingot-iron
@@ -3562,10 +3990,10 @@ recipes:
         item: [hammer-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-lead:
     results:
       - item: ingot-lead
@@ -3581,10 +4009,10 @@ recipes:
         item: [hammer-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-nickel:
     results:
       - item: ingot-nickel
@@ -3600,10 +4028,10 @@ recipes:
         item: [hammer-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-platinum:
     results:
       - item: ingot-platinum
@@ -3619,10 +4047,10 @@ recipes:
         item: [hammer-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-silver:
     results:
       - item: ingot-silver
@@ -3638,10 +4066,10 @@ recipes:
         item: [hammer-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-steel:
     results:
       - item: ingot-steel
@@ -3657,10 +4085,10 @@ recipes:
         item: [hammer-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hammer-tin:
     results:
       - item: ingot-tin
@@ -3676,10 +4104,10 @@ recipes:
         item: [hammer-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet:
     results:
       - item-group: ingot-metal-equipment
@@ -3695,10 +4123,10 @@ recipes:
         item-group: helmet-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-aluminum:
     results:
       - item: ingot-aluminum
@@ -3714,10 +4142,10 @@ recipes:
         item: [helmet-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-bronze:
     results:
       - item: ingot-bronze
@@ -3733,10 +4161,10 @@ recipes:
         item: [helmet-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-constantan:
     results:
       - item: ingot-constantan
@@ -3752,10 +4180,10 @@ recipes:
         item: [helmet-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-copper:
     results:
       - item: ingot-copper
@@ -3771,10 +4199,10 @@ recipes:
         item: [helmet-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-electrum:
     results:
       - item: ingot-electrum
@@ -3790,10 +4218,10 @@ recipes:
         item: [helmet-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-gold:
     results:
       - item: ingot-gold
@@ -3809,10 +4237,10 @@ recipes:
         item: [helmet-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-invar:
     results:
       - item: ingot-invar
@@ -3828,10 +4256,10 @@ recipes:
         item: [helmet-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-iron:
     results:
       - item: ingot-iron
@@ -3847,10 +4275,10 @@ recipes:
         item: [helmet-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-lead:
     results:
       - item: ingot-lead
@@ -3866,10 +4294,10 @@ recipes:
         item: [helmet-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-nickel:
     results:
       - item: ingot-nickel
@@ -3885,10 +4313,10 @@ recipes:
         item: [helmet-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-platinum:
     results:
       - item: ingot-platinum
@@ -3904,10 +4332,10 @@ recipes:
         item: [helmet-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-silver:
     results:
       - item: ingot-silver
@@ -3923,10 +4351,10 @@ recipes:
         item: [helmet-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-steel:
     results:
       - item: ingot-steel
@@ -3942,10 +4370,10 @@ recipes:
         item: [helmet-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-helmet-tin:
     results:
       - item: ingot-tin
@@ -3961,10 +4389,10 @@ recipes:
         item: [helmet-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 5
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 15
   recycling-hoe:
     results:
       - item-group: ingot-metal-equipment
@@ -3980,10 +4408,9 @@ recipes:
         item-group: hoe-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-aluminum:
     results:
       - item: ingot-aluminum
@@ -3999,10 +4426,9 @@ recipes:
         item: [hoe-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-bronze:
     results:
       - item: ingot-bronze
@@ -4018,10 +4444,9 @@ recipes:
         item: [hoe-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-constantan:
     results:
       - item: ingot-constantan
@@ -4037,10 +4462,9 @@ recipes:
         item: [hoe-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-copper:
     results:
       - item: ingot-copper
@@ -4056,10 +4480,9 @@ recipes:
         item: [hoe-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-electrum:
     results:
       - item: ingot-electrum
@@ -4075,10 +4498,9 @@ recipes:
         item: [hoe-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-gold:
     results:
       - item: ingot-gold
@@ -4094,10 +4516,9 @@ recipes:
         item: [hoe-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-invar:
     results:
       - item: ingot-invar
@@ -4113,10 +4534,9 @@ recipes:
         item: [hoe-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-iron:
     results:
       - item: ingot-iron
@@ -4132,10 +4552,9 @@ recipes:
         item: [hoe-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-lead:
     results:
       - item: ingot-lead
@@ -4151,10 +4570,9 @@ recipes:
         item: [hoe-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-nickel:
     results:
       - item: ingot-nickel
@@ -4170,10 +4588,9 @@ recipes:
         item: [hoe-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-platinum:
     results:
       - item: ingot-platinum
@@ -4189,10 +4606,9 @@ recipes:
         item: [hoe-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-silver:
     results:
       - item: ingot-silver
@@ -4208,10 +4624,9 @@ recipes:
         item: [hoe-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-steel:
     results:
       - item: ingot-steel
@@ -4227,10 +4642,9 @@ recipes:
         item: [hoe-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hoe-tin:
     results:
       - item: ingot-tin
@@ -4246,10 +4660,9 @@ recipes:
         item: [hoe-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-hopper:
     results:
       - item: ingot-iron
@@ -4257,7 +4670,7 @@ recipes:
     ingredients:
       - item: hopper
       - item: sand
-    energy: 6000
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -4268,7 +4681,7 @@ recipes:
         amount: 5
       secondary-output:
         item: [slag]
-      secondary-chance: 30
+      secondary-chance: 25
   recycling-horse-armor-gold:
     results:
       - item: ingot-gold
@@ -4284,10 +4697,10 @@ recipes:
         item: [horse-armor-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
+      secondary-chance: 15
   recycling-horse-armor-iron:
     results:
       - item: ingot-iron
@@ -4303,30 +4716,10 @@ recipes:
         item: [horse-armor-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 4
+        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 25
-  recycling-iron-bars:
-    results:
-      - item: ingot-iron
-      - item: slag
-    ingredients:
-      - item: iron-bars
-      - item: sand
-    energy: 6000
-    data:
-      secondary-input:
-        item: [sand]
-      primary-input:
-        item: [iron-bars]
-        amount: 8
-      primary-output:
-        item: [ingot-iron]
-        amount: 3
-      secondary-output:
-        item: [slag]
-      secondary-chance: 20
+      secondary-chance: 15
   recycling-leggings:
     results:
       - item-group: ingot-metal-equipment
@@ -4342,10 +4735,10 @@ recipes:
         item-group: leggings-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-aluminum:
     results:
       - item: ingot-aluminum
@@ -4361,10 +4754,10 @@ recipes:
         item: [leggings-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-bronze:
     results:
       - item: ingot-bronze
@@ -4380,10 +4773,10 @@ recipes:
         item: [leggings-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-constantan:
     results:
       - item: ingot-constantan
@@ -4399,10 +4792,10 @@ recipes:
         item: [leggings-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-copper:
     results:
       - item: ingot-copper
@@ -4418,10 +4811,10 @@ recipes:
         item: [leggings-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-electrum:
     results:
       - item: ingot-electrum
@@ -4437,10 +4830,10 @@ recipes:
         item: [leggings-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-gold:
     results:
       - item: ingot-gold
@@ -4456,10 +4849,10 @@ recipes:
         item: [leggings-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-invar:
     results:
       - item: ingot-invar
@@ -4475,10 +4868,10 @@ recipes:
         item: [leggings-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-iron:
     results:
       - item: ingot-iron
@@ -4494,10 +4887,10 @@ recipes:
         item: [leggings-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-lead:
     results:
       - item: ingot-lead
@@ -4513,10 +4906,10 @@ recipes:
         item: [leggings-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-nickel:
     results:
       - item: ingot-nickel
@@ -4532,10 +4925,10 @@ recipes:
         item: [leggings-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-platinum:
     results:
       - item: ingot-platinum
@@ -4551,10 +4944,10 @@ recipes:
         item: [leggings-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-silver:
     results:
       - item: ingot-silver
@@ -4570,10 +4963,10 @@ recipes:
         item: [leggings-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-steel:
     results:
       - item: ingot-steel
@@ -4589,10 +4982,10 @@ recipes:
         item: [leggings-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-leggings-tin:
     results:
       - item: ingot-tin
@@ -4608,10 +5001,10 @@ recipes:
         item: [leggings-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 7
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 40
+      secondary-chance: 20
   recycling-pickaxe:
     results:
       - item-group: ingot-metal-equipment
@@ -4627,10 +5020,9 @@ recipes:
         item-group: pickaxe-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-aluminum:
     results:
       - item: ingot-aluminum
@@ -4646,10 +5038,9 @@ recipes:
         item: [pickaxe-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-bronze:
     results:
       - item: ingot-bronze
@@ -4665,10 +5056,9 @@ recipes:
         item: [pickaxe-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-constantan:
     results:
       - item: ingot-constantan
@@ -4684,10 +5074,9 @@ recipes:
         item: [pickaxe-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-copper:
     results:
       - item: ingot-copper
@@ -4703,10 +5092,9 @@ recipes:
         item: [pickaxe-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-electrum:
     results:
       - item: ingot-electrum
@@ -4722,10 +5110,9 @@ recipes:
         item: [pickaxe-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-gold:
     results:
       - item: ingot-gold
@@ -4741,10 +5128,9 @@ recipes:
         item: [pickaxe-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-invar:
     results:
       - item: ingot-invar
@@ -4760,10 +5146,9 @@ recipes:
         item: [pickaxe-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-iron:
     results:
       - item: ingot-iron
@@ -4779,10 +5164,9 @@ recipes:
         item: [pickaxe-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-lead:
     results:
       - item: ingot-lead
@@ -4798,10 +5182,9 @@ recipes:
         item: [pickaxe-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-nickel:
     results:
       - item: ingot-nickel
@@ -4817,10 +5200,9 @@ recipes:
         item: [pickaxe-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-platinum:
     results:
       - item: ingot-platinum
@@ -4836,10 +5218,9 @@ recipes:
         item: [pickaxe-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-silver:
     results:
       - item: ingot-silver
@@ -4855,10 +5236,9 @@ recipes:
         item: [pickaxe-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-steel:
     results:
       - item: ingot-steel
@@ -4874,10 +5254,9 @@ recipes:
         item: [pickaxe-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-pickaxe-tin:
     results:
       - item: ingot-tin
@@ -4893,10 +5272,369 @@ recipes:
         item: [pickaxe-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
+  recycling-plate:
+    results:
+      - item-group: ingot-metal
+      - item: slag
+    ingredients:
+      - item-group: plate-metal
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item-group: plate-metal
+      primary-output:
+        item-group: ingot-metal
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-iron:
+    results:
+      - item: plate-iron
+      - item: slag
+    ingredients:
+      - item: ingot-iron
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-iron]
+      primary-output:
+        item: [ingot-iron]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-gold:
+    results:
+      - item: plate-gold
+      - item: slag
+    ingredients:
+      - item: ingot-gold
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-gold]
+      primary-output:
+        item: [ingot-gold]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-copper:
+    results:
+      - item: plate-copper
+      - item: slag
+    ingredients:
+      - item: ingot-copper
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-copper]
+      primary-output:
+        item: [ingot-copper]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-tin:
+    results:
+      - item: plate-tin
+      - item: slag
+    ingredients:
+      - item: ingot-tin
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-tin]
+      primary-output:
+        item: [ingot-tin]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-silver:
+    results:
+      - item: plate-silver
+      - item: slag
+    ingredients:
+      - item: ingot-silver
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-silver]
+      primary-output:
+        item: [ingot-silver]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-lead:
+    results:
+      - item: plate-lead
+      - item: slag
+    ingredients:
+      - item: ingot-lead
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-lead]
+      primary-output:
+        item: [ingot-lead]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-aluminum:
+    results:
+      - item: plate-aluminum
+      - item: slag
+    ingredients:
+      - item: ingot-aluminum
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-aluminum]
+      primary-output:
+        item: [ingot-aluminum]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-nickel:
+    results:
+      - item: plate-nickel
+      - item: slag
+    ingredients:
+      - item: ingot-nickel
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-nickel]
+      primary-output:
+        item: [ingot-nickel]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-platinum:
+    results:
+      - item: plate-platinum
+      - item: slag
+    ingredients:
+      - item: ingot-platinum
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-platinum]
+      primary-output:
+        item: [ingot-platinum]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-iridium:
+    results:
+      - item: plate-iridium
+      - item: slag
+    ingredients:
+      - item: ingot-iridium
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-iridium]
+      primary-output:
+        item: [ingot-iridium]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-mithril:
+    results:
+      - item: plate-mithril
+      - item: slag
+    ingredients:
+      - item: ingot-mithril
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-mithril]
+      primary-output:
+        item: [ingot-mithril]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-steel:
+    results:
+      - item: plate-steel
+      - item: slag
+    ingredients:
+      - item: ingot-steel
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-steel]
+      primary-output:
+        item: [ingot-steel]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-electrum:
+    results:
+      - item: plate-electrum
+      - item: slag
+    ingredients:
+      - item: ingot-electrum
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-electrum]
+      primary-output:
+        item: [ingot-electrum]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-invar:
+    results:
+      - item: plate-invar
+      - item: slag
+    ingredients:
+      - item: ingot-invar
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-invar]
+      primary-output:
+        item: [ingot-invar]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-bronze:
+    results:
+      - item: plate-bronze
+      - item: slag
+    ingredients:
+      - item: ingot-bronze
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-bronze]
+      primary-output:
+        item: [ingot-bronze]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-constantan:
+    results:
+      - item: plate-constantan
+      - item: slag
+    ingredients:
+      - item: ingot-constantan
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-constantan]
+      primary-output:
+        item: [ingot-constantan]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-signalum:
+    results:
+      - item: plate-signalum
+      - item: slag
+    ingredients:
+      - item: ingot-signalum
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-signalum]
+      primary-output:
+        item: [ingot-signalum]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-lumium:
+    results:
+      - item: plate-lumium
+      - item: slag
+    ingredients:
+      - item: ingot-lumium
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-lumium]
+      primary-output:
+        item: [ingot-lumium]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
+  recycling-plate-enderium:
+    results:
+      - item: plate-enderium
+      - item: slag
+    ingredients:
+      - item: ingot-enderium
+      - item: sand
+    energy: 2000
+    data:
+      secondary-input:
+        item: [sand]
+      primary-input:
+        item: [plate-enderium]
+      primary-output:
+        item: [ingot-enderium]
+      secondary-output:
+        item: [slag]
+      secondary-chance: 10
   recycling-pressure-plate-gold:
     results:
       - item: ingot-gold
@@ -4904,7 +5642,7 @@ recipes:
     ingredients:
       - item: pressure-plate-gold
       - item: sand
-    energy: 6000
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -4915,7 +5653,7 @@ recipes:
         amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-pressure-plate-iron:
     results:
       - item: ingot-iron
@@ -4923,7 +5661,7 @@ recipes:
     ingredients:
       - item: pressure-plate-iron
       - item: sand
-    energy: 6000
+    energy: 4000
     data:
       secondary-input:
         item: [sand]
@@ -4934,7 +5672,7 @@ recipes:
         amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-metal:
     results:
       - item-group: ingot-metal-equipment
@@ -4950,10 +5688,9 @@ recipes:
         item-group: shears-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears:
     results:
       - item: ingot-iron
@@ -4969,10 +5706,9 @@ recipes:
         item: [shears]
       primary-output:
         item: [ingot-iron]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-aluminum:
     results:
       - item: ingot-aluminum
@@ -4988,10 +5724,9 @@ recipes:
         item: [shears-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-bronze:
     results:
       - item: ingot-bronze
@@ -5007,10 +5742,9 @@ recipes:
         item: [shears-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-constantan:
     results:
       - item: ingot-constantan
@@ -5026,10 +5760,9 @@ recipes:
         item: [shears-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-copper:
     results:
       - item: ingot-copper
@@ -5045,10 +5778,9 @@ recipes:
         item: [shears-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-electrum:
     results:
       - item: ingot-electrum
@@ -5064,10 +5796,9 @@ recipes:
         item: [shears-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-gold:
     results:
       - item: ingot-gold
@@ -5083,10 +5814,9 @@ recipes:
         item: [shears-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-invar:
     results:
       - item: ingot-invar
@@ -5102,10 +5832,9 @@ recipes:
         item: [shears-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-lead:
     results:
       - item: ingot-lead
@@ -5121,10 +5850,9 @@ recipes:
         item: [shears-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-nickel:
     results:
       - item: ingot-nickel
@@ -5140,10 +5868,9 @@ recipes:
         item: [shears-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-platinum:
     results:
       - item: ingot-platinum
@@ -5159,10 +5886,9 @@ recipes:
         item: [shears-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-silver:
     results:
       - item: ingot-silver
@@ -5178,10 +5904,9 @@ recipes:
         item: [shears-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-steel:
     results:
       - item: ingot-steel
@@ -5197,10 +5922,9 @@ recipes:
         item: [shears-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shears-tin:
     results:
       - item: ingot-tin
@@ -5216,10 +5940,9 @@ recipes:
         item: [shears-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-shield-metal:
     results:
       - item-group: ingot-metal-equipment
@@ -5235,10 +5958,10 @@ recipes:
         item-group: shield-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-aluminum:
     results:
       - item: ingot-aluminum
@@ -5254,10 +5977,10 @@ recipes:
         item: [shield-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-bronze:
     results:
       - item: ingot-bronze
@@ -5273,10 +5996,10 @@ recipes:
         item: [shield-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-constantan:
     results:
       - item: ingot-constantan
@@ -5292,10 +6015,10 @@ recipes:
         item: [shield-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-copper:
     results:
       - item: ingot-copper
@@ -5311,10 +6034,10 @@ recipes:
         item: [shield-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-electrum:
     results:
       - item: ingot-electrum
@@ -5330,10 +6053,10 @@ recipes:
         item: [shield-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-gold:
     results:
       - item: ingot-gold
@@ -5349,10 +6072,10 @@ recipes:
         item: [shield-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-invar:
     results:
       - item: ingot-invar
@@ -5368,10 +6091,10 @@ recipes:
         item: [shield-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-iron:
     results:
       - item: ingot-iron
@@ -5387,10 +6110,10 @@ recipes:
         item: [shield-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-lead:
     results:
       - item: ingot-lead
@@ -5406,10 +6129,10 @@ recipes:
         item: [shield-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-nickel:
     results:
       - item: ingot-nickel
@@ -5425,10 +6148,10 @@ recipes:
         item: [shield-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-platinum:
     results:
       - item: ingot-platinum
@@ -5444,10 +6167,10 @@ recipes:
         item: [shield-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-silver:
     results:
       - item: ingot-silver
@@ -5463,10 +6186,10 @@ recipes:
         item: [shield-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-steel:
     results:
       - item: ingot-steel
@@ -5482,10 +6205,10 @@ recipes:
         item: [shield-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shield-tin:
     results:
       - item: ingot-tin
@@ -5501,10 +6224,10 @@ recipes:
         item: [shield-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 6
+        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 35
+      secondary-chance: 20
   recycling-shovel:
     results:
       - item-group: ingot-metal-equipment
@@ -5790,10 +6513,9 @@ recipes:
         item-group: sickle-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-aluminum:
     results:
       - item: ingot-aluminum
@@ -5809,10 +6531,9 @@ recipes:
         item: [sickle-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-bronze:
     results:
       - item: ingot-bronze
@@ -5828,10 +6549,9 @@ recipes:
         item: [sickle-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-constantan:
     results:
       - item: ingot-constantan
@@ -5847,10 +6567,9 @@ recipes:
         item: [sickle-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-copper:
     results:
       - item: ingot-copper
@@ -5866,10 +6585,9 @@ recipes:
         item: [sickle-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-electrum:
     results:
       - item: ingot-electrum
@@ -5885,10 +6603,9 @@ recipes:
         item: [sickle-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-gold:
     results:
       - item: ingot-gold
@@ -5904,10 +6621,9 @@ recipes:
         item: [sickle-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-invar:
     results:
       - item: ingot-invar
@@ -5923,10 +6639,9 @@ recipes:
         item: [sickle-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-iron:
     results:
       - item: ingot-iron
@@ -5942,10 +6657,9 @@ recipes:
         item: [sickle-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-lead:
     results:
       - item: ingot-lead
@@ -5961,10 +6675,9 @@ recipes:
         item: [sickle-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-nickel:
     results:
       - item: ingot-nickel
@@ -5980,10 +6693,9 @@ recipes:
         item: [sickle-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-platinum:
     results:
       - item: ingot-platinum
@@ -5999,10 +6711,9 @@ recipes:
         item: [sickle-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-silver:
     results:
       - item: ingot-silver
@@ -6018,10 +6729,9 @@ recipes:
         item: [sickle-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-steel:
     results:
       - item: ingot-steel
@@ -6037,10 +6747,9 @@ recipes:
         item: [sickle-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sickle-tin:
     results:
       - item: ingot-tin
@@ -6056,10 +6765,9 @@ recipes:
         item: [sickle-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 3
       secondary-output:
         item: [slag]
-      secondary-chance: 20
+      secondary-chance: 10
   recycling-sword:
     results:
       - item-group: ingot-metal-equipment
@@ -6075,10 +6783,9 @@ recipes:
         item-group: sword-metal
       primary-output:
         item-group: ingot-metal-equipment
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-aluminum:
     results:
       - item: ingot-aluminum
@@ -6094,10 +6801,9 @@ recipes:
         item: [sword-aluminum]
       primary-output:
         item: [ingot-aluminum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-bronze:
     results:
       - item: ingot-bronze
@@ -6113,10 +6819,9 @@ recipes:
         item: [sword-bronze]
       primary-output:
         item: [ingot-bronze]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-constantan:
     results:
       - item: ingot-constantan
@@ -6132,10 +6837,9 @@ recipes:
         item: [sword-constantan]
       primary-output:
         item: [ingot-constantan]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-copper:
     results:
       - item: ingot-copper
@@ -6151,10 +6855,9 @@ recipes:
         item: [sword-copper]
       primary-output:
         item: [ingot-copper]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-electrum:
     results:
       - item: ingot-electrum
@@ -6170,10 +6873,9 @@ recipes:
         item: [sword-electrum]
       primary-output:
         item: [ingot-electrum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-gold:
     results:
       - item: ingot-gold
@@ -6189,10 +6891,9 @@ recipes:
         item: [sword-gold]
       primary-output:
         item: [ingot-gold]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-invar:
     results:
       - item: ingot-invar
@@ -6208,10 +6909,9 @@ recipes:
         item: [sword-invar]
       primary-output:
         item: [ingot-invar]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-iron:
     results:
       - item: ingot-iron
@@ -6227,10 +6927,9 @@ recipes:
         item: [sword-iron]
       primary-output:
         item: [ingot-iron]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-lead:
     results:
       - item: ingot-lead
@@ -6246,10 +6945,9 @@ recipes:
         item: [sword-lead]
       primary-output:
         item: [ingot-lead]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-nickel:
     results:
       - item: ingot-nickel
@@ -6265,10 +6963,9 @@ recipes:
         item: [sword-nickel]
       primary-output:
         item: [ingot-nickel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-platinum:
     results:
       - item: ingot-platinum
@@ -6284,10 +6981,9 @@ recipes:
         item: [sword-platinum]
       primary-output:
         item: [ingot-platinum]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-silver:
     results:
       - item: ingot-silver
@@ -6303,10 +6999,9 @@ recipes:
         item: [sword-silver]
       primary-output:
         item: [ingot-silver]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-steel:
     results:
       - item: ingot-steel
@@ -6322,10 +7017,9 @@ recipes:
         item: [sword-steel]
       primary-output:
         item: [ingot-steel]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   recycling-sword-tin:
     results:
       - item: ingot-tin
@@ -6341,10 +7035,9 @@ recipes:
         item: [sword-tin]
       primary-output:
         item: [ingot-tin]
-        amount: 2
       secondary-output:
         item: [slag]
-      secondary-chance: 15
+      secondary-chance: 10
   stone-bricks:
     results:
       - item: stone-bricks

@@ -8,14 +8,15 @@ recipes:
       - item: basalz-powder
     ingredients:
       - item: dust-obsidian
-      - fluid: redstone
+      - fluid: experience
         fluid-amount: 200
-    energy: 4000
+    energy: 16000
     data:
       item-input:
         item: [dust-obsidian]
+        amount: 2
       fluid-input:
-        fluid: redstone
+        fluid: experience
         amount: 200
       output:
         item: [basalz-powder]
@@ -23,15 +24,16 @@ recipes:
     results:
       - item: blaze-powder
     ingredients:
-      - item: glowstone-dust
-      - fluid: redstone
+      - item: sulfur
+      - fluid: experience
         fluid-amount: 200
-    energy: 4000
+    energy: 16000
     data:
       item-input:
-        item: [glowstone-dust]
+        item: [sulfur]
+        amount: 2
       fluid-input:
-        fluid: redstone
+        fluid: experience
         amount: 200
       output:
         item: [blaze-powder]
@@ -39,15 +41,16 @@ recipes:
     results:
       - item: blitz-powder
     ingredients:
-      - item: sand
-      - fluid: redstone
+      - item: niter
+      - fluid: experience
         fluid-amount: 200
-    energy: 4000
+    energy: 16000
     data:
       item-input:
-        item: [sand]
+        item: [niter]
+        amount: 2
       fluid-input:
-        fluid: redstone
+        fluid: experience
         amount: 200
       output:
         item: [blitz-powder]
@@ -56,14 +59,15 @@ recipes:
       - item: blizz-powder
     ingredients:
       - item: snowball
-      - fluid: redstone
+      - fluid: experience
         fluid-amount: 200
-    energy: 4000
+    energy: 16000
     data:
       item-input:
         item: [snowball]
+        amount: 2
       fluid-input:
-        fluid: redstone
+        fluid: experience
         amount: 200
       output:
         item: [blizz-powder]
@@ -428,7 +432,7 @@ recipes:
       - item: dust-electrum
       - fluid: redstone
         fluid-amount: 500
-    energy: 400
+    energy: 2000
     data:
       item-input:
         item: [dust-electrum]
@@ -493,7 +497,7 @@ recipes:
       - item: diamond
       - fluid: redstone
         fluid-amount: 500
-    energy: 400
+    energy: 2000
     data:
       item-input:
         item: [diamond]

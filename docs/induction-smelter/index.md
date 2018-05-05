@@ -19,8 +19,7 @@ recipe-list:
     - dust-smelting-fluxed-electrum
     - stone-bricks
     - nether-brick
-    - hardened-glass-using-dust
-    - hardened-glass-using-ingot
+    - hardened-glass
     - hardened-glass-metal
   ore-processing:
     - ore-processing-sand-iron
@@ -34,6 +33,7 @@ recipe-list:
     - ore-processing-sand-platinum
     - ore-processing-sand-iridium
     - ore-processing-sand-mithril
+    - ore-processing-lapis-lazuli
     - ore-processing-redstone
     - ore-processing-nether-quartz
   ore-processing-rich-slag:
@@ -84,10 +84,11 @@ recipe-list:
     - ingot-constantan-from-dust-copper-and-ingot-nickel
     - ingot-constantan-from-ingot-copper-and-ingot-nickel
   recycling:
+    - recycling-gear
+    - recycling-plate
     - recycling-anvil
     - recycling-anvil-slightly-damaged
     - recycling-anvil-very-damaged
-    - recycling-iron-bars
     - recycling-pressure-plate-iron
     - recycling-pressure-plate-gold
     - recycling-bucket
@@ -95,7 +96,6 @@ recipe-list:
     - recycling-clock
     - recycling-compass
     - recycling-door-iron
-    - recycling-flint-and-steel
     - recycling-hopper
     - recycling-pickaxe
     - recycling-shovel

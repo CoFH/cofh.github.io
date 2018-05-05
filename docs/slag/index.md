@@ -20,17 +20,17 @@ recipes:
     - ore-processing-rich-slag-platinum
     - ore-processing-rich-slag-iridium
     - ore-processing-rich-slag-mithril
+    - recycling-gear
+    - recycling-plate
     - recycling-anvil
     - recycling-anvil-slightly-damaged
     - recycling-anvil-very-damaged
     - recycling-bucket
     - recycling-cauldron
     - recycling-door-iron
-    - recycling-flint-and-steel
     - recycling-hopper
     - recycling-horse-armor-iron
     - recycling-horse-armor-gold
-    - recycling-iron-bars
     - recycling-pressure-plate-iron
     - recycling-pressure-plate-gold
     - recycling-axe

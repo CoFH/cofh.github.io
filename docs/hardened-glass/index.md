@@ -7,11 +7,11 @@ redirect_from:
   - /docs/thermal-foundation/blocks/decorative/hardened-glass/
 recipes:
   smelter:
-    - hardened-glass-using-ingot
-    - hardened-glass-using-dust
+    - hardened-glass
     - hardened-glass-copper
     - hardened-glass-tin
     - hardened-glass-silver
+    - hardened-glass-lead
     - hardened-glass-aluminum
     - hardened-glass-nickel
     - hardened-glass-platinum

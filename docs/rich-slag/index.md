@@ -16,9 +16,11 @@ recipes:
     - ore-processing-sand-platinum
     - ore-processing-sand-iridium
     - ore-processing-sand-mithril
+    - ore-processing-lapis-lazuli
     - ore-processing-redstone
     - ore-processing-nether-quartz
     - ore-processing-cinnabar-gold
+    - hardened-glass-metal
     - recycling-clock
     - recycling-compass
 usage-recipes:

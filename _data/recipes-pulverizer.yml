@@ -9,7 +9,7 @@ recipes:
       - item: dust-obsidian
     ingredients:
       - item: basalz-rod
-    energy: 2000
+    energy: 3000
     data:
       input:
         item: [basalz-rod]
@@ -25,7 +25,7 @@ recipes:
       - item: sulfur
     ingredients:
       - item: blaze-rod
-    energy: 2000
+    energy: 3000
     data:
       input:
         item: [blaze-rod]
@@ -41,7 +41,7 @@ recipes:
       - item: niter
     ingredients:
       - item: blitz-rod
-    energy: 2000
+    energy: 3000
     data:
       input:
         item: [blitz-rod]
@@ -57,7 +57,7 @@ recipes:
       - item: snowball
     ingredients:
       - item: blizz-rod
-    energy: 2000
+    energy: 3000
     data:
       input:
         item: [blizz-rod]
@@ -187,7 +187,7 @@ recipes:
       - item: dust-fluxed-electrum
     ingredients:
       - item: ingot-fluxed-electrum
-    energy: 2400
+    energy: 2000
     data:
       input:
         item: [ingot-fluxed-electrum]
@@ -751,7 +751,7 @@ recipes:
         amount: 2
       secondary-output:
         item: [cinnabar]
-      secondary-chance: 5
+      secondary-chance: 10
   ore-processing-iridium:
     results:
       - item: dust-iridium
@@ -885,7 +885,7 @@ recipes:
         amount: 2
       secondary-output:
         item: [dust-iridium]
-      secondary-chance: 5
+      secondary-chance: 10
   ore-processing-redstone:
     results:
       - item: redstone
@@ -941,7 +941,7 @@ recipes:
       - item: prismarine-crystals
     ingredients:
       - item: prismarine-shard
-    energy: 3000
+    energy: 2000
     data:
       input:
         item: [prismarine-shard]
@@ -958,7 +958,18 @@ recipes:
         item: [axe-diamond]
       primary-output:
         item: [diamond]
-        amount: 3
+  recycling-axe-wood:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: axe-wood
+    energy: 3000
+    data:
+      input:
+        item: [axe-wood]
+      primary-output:
+        item: [sawdust]
+        amount: 2
   recycling-boots-diamond:
     results:
       - item: diamond
@@ -970,7 +981,19 @@ recipes:
         item: [boots-diamond]
       primary-output:
         item: [diamond]
-        amount: 4
+        amount: 2
+  recycling-bow:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: bow
+    energy: 3000
+    data:
+      input:
+        item: [bow]
+      primary-output:
+        item: [sawdust]
+        amount: 2
   recycling-bow-diamond:
     results:
       - item: diamond
@@ -982,7 +1005,6 @@ recipes:
         item: [bow-diamond]
       primary-output:
         item: [diamond]
-        amount: 2
   recycling-brick-stairs:
     results:
       - item: brick
@@ -1012,7 +1034,7 @@ recipes:
       - item: brick
     ingredients:
       - item: bricks-slab
-    energy: 1500
+    energy: 3000
     data:
       input:
         item: [bricks-slab]
@@ -1030,7 +1052,7 @@ recipes:
         item: [chestplate-diamond]
       primary-output:
         item: [diamond]
-        amount: 8
+        amount: 4
   recycling-concrete:
     results:
       - item-group: concrete-powder
@@ -1042,6 +1064,18 @@ recipes:
         item-group: concrete
       primary-output:
         item-group: concrete-powder
+  recycling-fishing-rod:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: fishing-rod
+    energy: 3000
+    data:
+      input:
+        item: [fishing-rod]
+      primary-output:
+        item: [sawdust]
+        amount: 2
   recycling-fishing-rod-diamond:
     results:
       - item: diamond
@@ -1053,13 +1087,12 @@ recipes:
         item: [fishing-rod-diamond]
       primary-output:
         item: [diamond]
-        amount: 2
   recycling-flower-pot:
     results:
       - item: brick
     ingredients:
       - item: flower-pot
-    energy: 1500
+    energy: 2000
     data:
       input:
         item: [flower-pot]
@@ -1143,7 +1176,7 @@ recipes:
       - item: sand
     ingredients:
       - item: glass-bottle
-    energy: 1500
+    energy: 2000
     data:
       input:
         item: [glass-bottle]
@@ -1171,7 +1204,19 @@ recipes:
         item: [hammer-diamond]
       primary-output:
         item: [diamond]
-        amount: 5
+        amount: 2
+  recycling-hammer-wood:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: hammer-wood
+    energy: 3000
+    data:
+      input:
+        item: [hammer-wood]
+      primary-output:
+        item: [sawdust]
+        amount: 4
   recycling-helmet-diamond:
     results:
       - item: diamond
@@ -1183,7 +1228,7 @@ recipes:
         item: [helmet-diamond]
       primary-output:
         item: [diamond]
-        amount: 5
+        amount: 2
   recycling-hoe-diamond:
     results:
       - item: diamond
@@ -1195,6 +1240,17 @@ recipes:
         item: [hoe-diamond]
       primary-output:
         item: [diamond]
+  recycling-hoe-wood:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: hoe-wood
+    energy: 3000
+    data:
+      input:
+        item: [hoe-wood]
+      primary-output:
+        item: [sawdust]
         amount: 2
   recycling-horse-armor-diamond:
     results:
@@ -1207,7 +1263,23 @@ recipes:
         item: [horse-armor-diamond]
       primary-output:
         item: [diamond]
+        amount: 2
+  recycling-jukebox:
+    results:
+      - item: diamond
+      - item: sawdust
+    ingredients:
+      - item: jukebox
+    energy: 4000
+    data:
+      input:
+        item: [jukebox]
+      primary-output:
+        item: [diamond]
+      secondary-output:
+        item: [sawdust]
         amount: 4
+      secondary-chance: 100
   recycling-leggings-diamond:
     results:
       - item: diamond
@@ -1219,7 +1291,7 @@ recipes:
         item: [leggings-diamond]
       primary-output:
         item: [diamond]
-        amount: 7
+        amount: 3
   recycling-nether-brick:
     results:
       - item: nether-brick-item
@@ -1237,7 +1309,7 @@ recipes:
       - item: nether-brick-item
     ingredients:
       - item: nether-brick-slab
-    energy: 1500
+    energy: 3000
     data:
       input:
         item: [nether-brick-slab]
@@ -1273,7 +1345,7 @@ recipes:
       - item: nether-quartz
     ingredients:
       - item: nether-quartz-slab
-    energy: 1500
+    energy: 3000
     data:
       input:
         item: [nether-quartz-slab]
@@ -1292,6 +1364,22 @@ recipes:
       primary-output:
         item: [nether-quartz]
         amount: 3
+  recycling-note-block:
+    results:
+      - item: redstone
+      - item: sawdust
+    ingredients:
+      - item: note-block
+    energy: 4000
+    data:
+      input:
+        item: [note-block]
+      primary-output:
+        item: [redstone]
+      secondary-output:
+        item: [sawdust]
+        amount: 4
+      secondary-chance: 100
   recycling-pickaxe-diamond:
     results:
       - item: diamond
@@ -1303,7 +1391,18 @@ recipes:
         item: [pickaxe-diamond]
       primary-output:
         item: [diamond]
-        amount: 3
+  recycling-pickaxe-wood:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: pickaxe-wood
+    energy: 3000
+    data:
+      input:
+        item: [pickaxe-wood]
+      primary-output:
+        item: [sawdust]
+        amount: 2
   recycling-red-sandstone:
     results:
       - item: red-sand
@@ -1326,7 +1425,7 @@ recipes:
       - item: niter
     ingredients:
       - item: red-sandstone-slab
-    energy: 1500
+    energy: 3000
     data:
       input:
         item: [red-sandstone-slab]
@@ -1351,23 +1450,6 @@ recipes:
       secondary-output:
         item: [niter]
       secondary-chance: 20
-  recycling-redstone-lamp:
-    results:
-      - item: redstone
-      - item: glowstone-dust
-    ingredients:
-      - item: redstone-lamp
-    energy: 3000
-    data:
-      input:
-        item: [redstone-lamp]
-      primary-output:
-        item: [redstone]
-        amount: 4
-      secondary-output:
-        item: [glowstone-dust]
-        amount: 2
-      secondary-chance: 100
   recycling-sandstone:
     results:
       - item: sand
@@ -1390,7 +1472,7 @@ recipes:
       - item: niter
     ingredients:
       - item: sandstone-slab
-    energy: 1500
+    energy: 3000
     data:
       input:
         item: [sandstone-slab]
@@ -1426,7 +1508,30 @@ recipes:
         item: [shears-diamond]
       primary-output:
         item: [diamond]
+  recycling-shears-wood:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: shears-wood
+    energy: 3000
+    data:
+      input:
+        item: [shears-wood]
+      primary-output:
+        item: [sawdust]
         amount: 2
+  recycling-shield:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: shield
+    energy: 3000
+    data:
+      input:
+        item: [shield]
+      primary-output:
+        item: [sawdust]
+        amount: 6
   recycling-shield-diamond:
     results:
       - item: diamond
@@ -1438,7 +1543,7 @@ recipes:
         item: [shield-diamond]
       primary-output:
         item: [diamond]
-        amount: 6
+        amount: 3
   recycling-shovel-diamond:
     results:
       - item: diamond
@@ -1450,7 +1555,18 @@ recipes:
         item: [shovel-diamond]
       primary-output:
         item: [diamond]
-        amount: 1
+  recycling-shovel-wood:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: shovel-wood
+    energy: 3000
+    data:
+      input:
+        item: [shovel-wood]
+      primary-output:
+        item: [sawdust]
+        amount: 2
   recycling-sickle-diamond:
     results:
       - item: diamond
@@ -1462,7 +1578,18 @@ recipes:
         item: [sickle-diamond]
       primary-output:
         item: [diamond]
-        amount: 3
+  recycling-sickle-wood:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: sickle-wood
+    energy: 3000
+    data:
+      input:
+        item: [sickle-wood]
+      primary-output:
+        item: [sawdust]
+        amount: 2
   recycling-sword-diamond:
     results:
       - item: diamond
@@ -1474,6 +1601,17 @@ recipes:
         item: [sword-diamond]
       primary-output:
         item: [diamond]
+  recycling-sword-wood:
+    results:
+      - item: sawdust
+    ingredients:
+      - item: sword-wood
+    energy: 3000
+    data:
+      input:
+        item: [sword-wood]
+      primary-output:
+        item: [sawdust]
         amount: 2
   recycling-wool:
     results:
@@ -1523,24 +1661,13 @@ recipes:
       - item: sawdust
     ingredients:
       - item-group: wood-planks
-    energy: 500
+    energy: 1000
     data:
       input:
         item-group: wood-planks
       primary-output:
         item: [sawdust]
         amount: 2
-  stone-bricks-cracked:
-    results:
-      - item: stone-bricks-cracked
-    ingredients:
-      - item: stone-bricks
-    energy: 1000
-    data:
-      input:
-        item: [stone-bricks]
-      primary-output:
-        item: [stone-bricks-cracked]
   sugar:
     results:
       - item: sugar

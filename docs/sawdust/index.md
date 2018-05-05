@@ -6,33 +6,29 @@ redirect_from:
   - /docs/thermal-foundation/materials/sawdust/
   - /docs/thermal-foundation/items/materials/other/sawdust/
 recipes:
+  sawmill:
+    - wood-processing
+    - recycling-wood-stairs
+    - recycling-fence
+    - recycling-fence-gate
+    - recycling-boat
+    - recycling-door
   pulverizer:
     - sawdust-from-wood-log
     - sawdust-from-wood-planks
-  sawmill:
-    - wood-processing
-    - recycling-button
-    - recycling-chest
-    - recycling-trapped-chest
-    - recycling-crafting-table
-    - recycling-door
-    - recycling-fence
-    - recycling-fence-gate
-    - recycling-item-frame
-    - recycling-lever
-    - recycling-painting
-    - recycling-pressure-plate
-    - recycling-redstone-torch
-    - recycling-sign
-    - recycling-trapdoor
-    - recycling-wood-stairs
-    - recycling-boat
-    - recycling-bowl
-    - recycling-axe-wood
-    - recycling-hoe-wood
+    - recycling-note-block
+    - recycling-jukebox
     - recycling-pickaxe-wood
     - recycling-shovel-wood
+    - recycling-axe-wood
+    - recycling-hoe-wood
+    - recycling-fishing-rod
+    - recycling-shears-wood
+    - recycling-hammer-wood
+    - recycling-sickle-wood
     - recycling-sword-wood
+    - recycling-bow
+    - recycling-shield
 usage-recipes:
   crafting:
     - sawdust-compressed
@@ -60,11 +56,11 @@ usage-recipes:
 Obtaining
 ---------
 
-### Pulverizer
-{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
-
 ### Sawmill
 {% include recipe-table.html type='sawmill' recipes=page.recipes.sawmill no-result=true %}
+
+### Pulverizer
+{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage

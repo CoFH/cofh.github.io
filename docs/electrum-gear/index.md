@@ -16,6 +16,8 @@ usage-recipes:
     - augment-machine-charger-wireless
     - fluxbore-reinforced
     - fluxsaw-reinforced
+  smelter:
+    - recycling-gear-electrum
 ---
 
 ![Electrum gear](/assets/images/thermal-foundation/gear-electrum.png){:style="height: 128px"}
@@ -40,3 +42,6 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

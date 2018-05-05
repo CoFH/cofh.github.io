@@ -21,7 +21,7 @@ usage-recipes:
     - ingot-lead-from-dust
   smelter:
     - dust-smelting-lead
-    - hardened-glass-using-dust
+    - hardened-glass
 ---
 
 ![Pulverized lead](/assets/images/thermal-foundation/dust-lead.png){:style="height: 128px"}

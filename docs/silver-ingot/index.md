@@ -21,6 +21,8 @@ recipes:
     - ore-processing-cinnabar-silver
     - ore-processing-cinnabar-lead
     - dust-smelting-silver
+    - recycling-gear-silver
+    - recycling-plate-silver
     - recycling-axe-silver
     - recycling-bow-silver
     - recycling-fishing-rod-silver
@@ -68,9 +70,9 @@ usage-recipes:
   smelter:
     - ingot-electrum-from-dust-gold-and-ingot-silver
     - ingot-electrum-from-ingot-gold-and-ingot-silver
-  compactor-press:
+  compactor:
     - plate-silver
-  compactor-mint:
+  compactor-coin:
     - coin-silver
   compactor-gear:
     - gear-silver
@@ -109,10 +111,10 @@ Usage
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

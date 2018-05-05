@@ -23,6 +23,8 @@ recipes:
     - ore-processing-cinnabar-nickel
     - ore-processing-cinnabar-iron
     - dust-smelting-nickel
+    - recycling-gear-nickel
+    - recycling-plate-nickel
     - recycling-axe-nickel
     - recycling-bow-nickel
     - recycling-fishing-rod-nickel
@@ -66,9 +68,9 @@ usage-recipes:
     - ingot-invar-from-ingot-iron-and-ingot-nickel
     - ingot-constantan-from-dust-copper-and-ingot-nickel
     - ingot-constantan-from-ingot-copper-and-ingot-nickel
-  compactor-press:
+  compactor:
     - plate-nickel
-  compactor-mint:
+  compactor-coin:
     - coin-nickel
   compactor-gear:
     - gear-nickel
@@ -108,10 +110,10 @@ Usage
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

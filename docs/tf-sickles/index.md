@@ -41,6 +41,7 @@ usage-recipes:
     - recycling-sickle-bronze
     - recycling-sickle-constantan
   pulverizer:
+    - recycling-sickle-wood
     - recycling-sickle-diamond
 ---
 

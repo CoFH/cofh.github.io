@@ -12,12 +12,14 @@ usage-recipes:
   crafting:
     - dynamo-magmatic
     - augment-machine-furnace-pyrolysis
-    - augment-machine-compactor-mint
+    - augment-machine-compactor-coin
     - augment-machine-crucible-lava
     - augment-machine-centrifuge-mobs
     - augment-dynamo-compression-coolant
     - fluxbore-hardened
     - fluxsaw-hardened
+  smelter:
+    - recycling-gear-invar
 ---
 
 ![Invar gear](/assets/images/thermal-foundation/gear-invar.png){:style="height: 128px"}
@@ -41,3 +43,6 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

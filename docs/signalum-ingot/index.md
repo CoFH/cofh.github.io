@@ -11,6 +11,8 @@ recipes:
     - ingot-signalum-from-block
   smelter:
     - dust-smelting-signalum
+    - recycling-gear-signalum
+    - recycling-plate-signalum
 usage-recipes:
   crafting:
     - nugget-signalum
@@ -43,9 +45,9 @@ usage-recipes:
     - alchemical-quiver-signalum
   pulverizer:
     - dust-signalum
-  compactor-press:
+  compactor:
     - plate-signalum
-  compactor-mint:
+  compactor-coin:
     - coin-signalum
   compactor-gear:
     - gear-signalum
@@ -83,10 +85,10 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

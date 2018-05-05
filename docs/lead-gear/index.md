@@ -12,6 +12,8 @@ usage-recipes:
   crafting:
     - dynamo-reactant
     - frame-energy-cell
+  smelter:
+    - recycling-gear-lead
 ---
 
 ![Lead gear](/assets/images/thermal-foundation/gear-lead.png){:style="height: 128px"}
@@ -35,3 +37,6 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

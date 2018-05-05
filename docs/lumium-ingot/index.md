@@ -11,6 +11,8 @@ recipes:
     - ingot-lumium-from-block
   smelter:
     - dust-smelting-lumium
+    - recycling-gear-lumium
+    - recycling-plate-lumium
 usage-recipes:
   crafting:
     - nugget-lumium
@@ -20,9 +22,9 @@ usage-recipes:
     - fluxsaw-resonant
   pulverizer:
     - dust-lumium
-  compactor-press:
+  compactor:
     - plate-lumium
-  compactor-mint:
+  compactor-coin:
     - coin-lumium
   compactor-gear:
     - gear-lumium
@@ -61,10 +63,10 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

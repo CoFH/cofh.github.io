@@ -11,6 +11,10 @@ usage-recipes:
   transposer-fill:
     - bucket-experience
     - bottle-o-enchanting
+    - blaze-powder
+    - blizz-powder
+    - blitz-powder
+    - basalz-powder
 ---
 
 **Essence of knowledge** is a fluid form of

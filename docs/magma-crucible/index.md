@@ -13,6 +13,10 @@ augments:
 recipe-list:
   - lava-from-cobblestone
   - lava-from-stone
+  - lava-from-granite
+  - lava-from-granite-polished
+  - lava-from-diorite
+  - lava-from-diorite-polished
   - lava-from-andesite
   - lava-from-andesite-polished
   - lava-from-obsidian

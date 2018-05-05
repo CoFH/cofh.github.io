@@ -4,8 +4,11 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/plates/steel-plate/
 recipes:
-  compactor-press:
+  compactor:
     - plate-steel
+usage-recipes:
+  smelter:
+    - recycling-plate-steel
 ---
 
 ![Steel plate](/assets/images/thermal-foundation/plate-steel.png){:style="height: 128px"}
@@ -19,4 +22,11 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}
+{% include recipe-table.html type='compactor' recipes=page.recipes.compactor no-result=true %}
+
+
+Usage
+-----
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

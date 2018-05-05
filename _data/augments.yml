@@ -117,20 +117,20 @@ machine-insolator-monoculture:
     non-fertilizer inputs. However, also increases the amount of energy required
     per operation, and significantly reduces the chances of producing secondary
     products.
-machine-compactor-mint:
+machine-compactor-coin:
   name: Numismatic Press
   url: augment-numismatic-press/
   installed-in: '<a href="/docs/compactor/">Compactor</a>'
   description: >
-    A specialization that allows for a compactor to produce metal coins. The
-    machine must be toggled into Mint mode.
+    A specialization that allows for a compactor to produce metal coins instead
+    of plates.
 machine-compactor-gear:
   name: Gearworking Die
   url: augment-gearworking-die/
   installed-in: '<a href="/docs/compactor/">Compactor</a>'
   description: >
-    A specialization that allows for a compactor to efficiently produce metal
-    gears. The machine must be toggled into Gear mode.
+    A specialization that allows for a compactor to produce metal gears instead
+    of plates.
 machine-crucible-lava:
   name: Pyroconvective Loop
   url: augment-pyroconvective-loop/

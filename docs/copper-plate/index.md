@@ -4,7 +4,7 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/plates/copper-plate/
 recipes:
-  compactor-press:
+  compactor:
     - plate-copper
 usage-recipes:
   crafting:
@@ -13,6 +13,8 @@ usage-recipes:
     - augment-dynamo-boiler
     - augment-dynamo-steam-turbine
     - augment-dynamo-compression-fuel
+  smelter:
+    - recycling-plate-copper
 ---
 
 ![Copper plate](/assets/images/thermal-foundation/plate-copper.png){:style="height: 128px"}
@@ -25,7 +27,7 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='compactor-press' recipes=page.recipes.compactor-press no-result=true %}
+{% include recipe-table.html type='compactor' recipes=page.recipes.compactor no-result=true %}
 
 
 Usage
@@ -33,3 +35,6 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

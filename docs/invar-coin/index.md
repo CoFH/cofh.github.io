@@ -4,7 +4,7 @@ nav: thermal-foundation
 redirect_from:
   - /docs/thermal-foundation/items/materials/coins/invar-coin/
 recipes:
-  compactor-mint:
+  compactor-coin:
     - coin-invar
 ---
 
@@ -19,7 +19,7 @@ Obtaining
 ---------
 
 ### Compactor with Numismatic Press
-{% include recipe-table.html type='compactor-mint' recipes=page.recipes.compactor-mint no-result=true %}
+{% include recipe-table.html type='compactor-coin' recipes=page.recipes.compactor-coin no-result=true %}
 
 
 Usage

@@ -8,6 +8,9 @@ recipes:
     - gear-iridium
   compactor-gear:
     - gear-iridium
+usage-recipes:
+  smelter:
+    - recycling-gear-iridium
 ---
 
 ![Iridium gear](/assets/images/thermal-foundation/gear-iridium.png){:style="height: 128px"}
@@ -25,3 +28,10 @@ Obtaining
 
 ### Compactor with Gearworking Die
 {% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+
+
+Usage
+-----
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

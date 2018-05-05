@@ -11,6 +11,8 @@ recipes:
 usage-recipes:
   crafting:
     - multimeter
+  smelter:
+    - recycling-gear-gold
 ---
 
 ![Gold gear](/assets/images/thermal-foundation/gear-gold.png){:style="height: 128px"}
@@ -35,3 +37,6 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

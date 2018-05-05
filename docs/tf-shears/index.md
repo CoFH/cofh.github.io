@@ -39,6 +39,7 @@ usage-recipes:
     - recycling-shears-bronze
     - recycling-shears-constantan
   pulverizer:
+    - recycling-shears-wood
     - recycling-shears-diamond
 ---
 

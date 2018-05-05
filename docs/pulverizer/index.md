@@ -25,7 +25,6 @@ recipe-list:
     - flint
     - recycling-sandstone
     - recycling-red-sandstone
-    - stone-bricks-cracked
     - sugar
     - bone-meal
     - glowstone-dust-from-glowstone
@@ -91,7 +90,8 @@ recipe-list:
     - recycling-nether-quartz-block
     - recycling-nether-quartz-slab
     - recycling-nether-quartz-stairs
-    - recycling-redstone-lamp
+    - recycling-note-block
+    - recycling-jukebox
     - recycling-sandstone-slab
     - recycling-sandstone-stairs
     - recycling-red-sandstone-slab
@@ -100,6 +100,17 @@ recipe-list:
     - recycling-fluxduct-hardened
     - recycling-fluiduct-basic
     - recycling-fluiduct-basic-opaque
+    - recycling-pickaxe-wood
+    - recycling-shovel-wood
+    - recycling-axe-wood
+    - recycling-hoe-wood
+    - recycling-fishing-rod
+    - recycling-shears-wood
+    - recycling-hammer-wood
+    - recycling-sickle-wood
+    - recycling-sword-wood
+    - recycling-bow
+    - recycling-shield
     - recycling-pickaxe-diamond
     - recycling-shovel-diamond
     - recycling-axe-diamond

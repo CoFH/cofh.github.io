@@ -237,6 +237,58 @@ recipes:
       output:
         fluid: lava
         amount: 1000
+  lava-from-diorite:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: diorite
+    energy: 300000
+    data:
+      input:
+        item: [diorite]
+      output:
+        fluid: lava
+        amount: 1000
+  lava-from-diorite-polished:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: diorite-polished
+    energy: 300000
+    data:
+      input:
+        item: [diorite-polished]
+      output:
+        fluid: lava
+        amount: 1000
+  lava-from-granite:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: granite
+    energy: 300000
+    data:
+      input:
+        item: [granite]
+      output:
+        fluid: lava
+        amount: 1000
+  lava-from-granite-polished:
+    results:
+      - fluid: lava
+        fluid-amount: 1000
+    ingredients:
+      - item: granite-polished
+    energy: 300000
+    data:
+      input:
+        item: [granite-polished]
+      output:
+        fluid: lava
+        amount: 1000
   lava-from-magma-block:
     results:
       - fluid: lava

@@ -8,24 +8,24 @@ recipes:
     - machine-compactor
 augments:
   - machine-power
-  - machine-compactor-mint
+  - machine-compactor-coin
   - machine-compactor-gear
 recipe-list:
-  press:
-    - plate
-    - plate-fluxed-electrum
-    - blaze-rod-from-powder
-    - blizz-rod-from-powder
-    - blitz-rod-from-powder
-    - basalz-rod-from-powder
+  - plate
+  - plate-fluxed-electrum
+  - blaze-rod-from-powder
+  - blizz-rod-from-powder
+  - blitz-rod-from-powder
+  - basalz-rod-from-powder
 ---
 
 ![Compactor](/assets/images/thermal-expansion/compactor.png){:style="height: 128px"}
 
+> More gentle than a pulverizer.
+
 
 A **compactor** is a [machine](/docs/machines/) that applies pressure to items
-to change their form. It can be used to automate storage crafting recipes, and
-to make metal plates and coins.
+to change their form.
 
 
 Obtaining
@@ -147,21 +147,4 @@ Augments can be installed in the Augmentation tab in a compactor's GUI.
 Recipes
 -------
 
-A compactor can be in two modes, each with a different set of recipes: Storage
-and Press.
-
-If a [numismatic press](/docs/augment-numismatic-press/) or [gearworking
-die](/docs/augment-gearworking-die/) is installed, either the Mint or the Gear
-mode is also available with the recipes added by the installed specialization.
-
-### Storage
-When in Storage mode, a compactor's recipes are based on storage
-[crafting](https://minecraft.gamepedia.com/Crafting) recipes. These are any
-recipes that consist of 4 or 9 of a single ingredient, like the recipes of
-[glowstone](https://minecraft.gamepedia.com/Glowstone) and [blocks of
-iron](https://minecraft.gamepedia.com/Block_of_Iron).
-
-Every storage recipe can be performed in a compactor for 400 RF.
-
-### Press
-{% include recipe-table.html type='compactor-press' recipes=page.recipe-list.press %}
+{% include recipe-table.html type='compactor' recipes=page.recipe-list %}

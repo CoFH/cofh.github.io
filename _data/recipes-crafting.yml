@@ -527,9 +527,9 @@ recipes:
       result:
         item: [augment-machine-insolator-monoculture]
         amount: 1
-  augment-machine-compactor-mint:
+  augment-machine-compactor-coin:
     results:
-      - item: augment-machine-compactor-mint
+      - item: augment-machine-compactor-coin
     ingredients:
       - item: redstone-servo
       - item: plate-electrum
@@ -541,7 +541,7 @@ recipes:
         - [item: [plate-electrum], item: [redstone-servo], item: [plate-electrum]]
         - [null, item: [emerald]]
       result:
-        item: [augment-machine-compactor-mint]
+        item: [augment-machine-compactor-coin]
         amount: 1
   augment-machine-compactor-gear:
     results:

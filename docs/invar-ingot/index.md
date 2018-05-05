@@ -17,6 +17,8 @@ recipes:
     - ingot-invar-from-dust-iron-and-ingot-nickel
     - ingot-invar-from-ingot-iron-and-dust-nickel
     - ingot-invar-from-ingot-iron-and-ingot-nickel
+    - recycling-gear-invar
+    - recycling-plate-invar
     - recycling-axe-invar
     - recycling-bow-invar
     - recycling-fishing-rod-invar
@@ -79,9 +81,9 @@ usage-recipes:
     - boots-invar
   pulverizer:
     - dust-invar
-  compactor-press:
+  compactor:
     - plate-invar
-  compactor-mint:
+  compactor-coin:
     - coin-invar
   compactor-gear:
     - gear-invar
@@ -124,10 +126,10 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

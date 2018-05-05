@@ -25,10 +25,6 @@ usage-recipes:
   transposer-fill:
     - bucket-redstone
     - redstone-from-fluid
-    - blaze-powder
-    - blizz-powder
-    - blitz-powder
-    - basalz-powder
     - fluxduct-reinforced
     - fluxduct-signalum
     - fluxduct-resonant

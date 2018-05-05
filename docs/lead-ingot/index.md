@@ -21,6 +21,8 @@ recipes:
     - ore-processing-cinnabar-lead
     - ore-processing-cinnabar-silver
     - dust-smelting-lead
+    - recycling-gear-lead
+    - recycling-plate-lead
     - recycling-axe-lead
     - recycling-bow-lead
     - recycling-fishing-rod-lead
@@ -83,11 +85,9 @@ usage-recipes:
     - boots-lead
   pulverizer:
     - dust-lead
-  smelter:
-    - hardened-glass-using-ingot
-  compactor-press:
+  compactor:
     - plate-lead
-  compactor-mint:
+  compactor-coin:
     - coin-lead
   compactor-gear:
     - gear-lead
@@ -122,14 +122,11 @@ Usage
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
-### Induction Smelter
-{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
-
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

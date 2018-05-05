@@ -20,6 +20,8 @@ recipes:
     - ore-processing-rich-slag-tin
     - ore-processing-cinnabar-tin
     - dust-smelting-tin
+    - recycling-gear-tin
+    - recycling-plate-tin
     - recycling-axe-tin
     - recycling-bow-tin
     - recycling-fishing-rod-tin
@@ -77,9 +79,9 @@ usage-recipes:
   smelter:
     - ingot-bronze-from-dust-copper-and-ingot-tin
     - ingot-bronze-from-ingot-copper-and-ingot-tin
-  compactor-press:
+  compactor:
     - plate-tin
-  compactor-mint:
+  compactor-coin:
     - coin-tin
   compactor-gear:
     - gear-tin
@@ -117,10 +119,10 @@ Usage
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

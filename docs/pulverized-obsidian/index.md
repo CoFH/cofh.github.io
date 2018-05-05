@@ -14,8 +14,7 @@ usage-recipes:
     - dust-petrotheum
     - obsidian-rod
   smelter:
-    - hardened-glass-using-ingot
-    - hardened-glass-using-dust
+    - hardened-glass
   transposer-fill:
     - basalz-powder
 ---

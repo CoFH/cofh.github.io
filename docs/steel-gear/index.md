@@ -8,6 +8,9 @@ recipes:
     - gear-steel
   compactor-gear:
     - gear-steel
+usage-recipes:
+  smelter:
+    - recycling-gear-steel
 ---
 
 ![Steel gear](/assets/images/thermal-foundation/gear-steel.png){:style="height: 128px"}
@@ -25,3 +28,10 @@ Obtaining
 
 ### Compactor with Gearworking Die
 {% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+
+
+Usage
+-----
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

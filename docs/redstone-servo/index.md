@@ -32,7 +32,7 @@ usage-recipes:
     - augment-machine-smelter-flux
     - augment-machine-insolator-fertilizer
     - augment-machine-insolator-tree
-    - augment-machine-compactor-mint
+    - augment-machine-compactor-coin
     - augment-machine-compactor-gear
     - augment-machine-charger-wireless
     - augment-machine-centrifuge-mobs

@@ -14,6 +14,8 @@ usage-recipes:
     - augment-machine-smelter-flux
     - augment-machine-insolator-fertilizer
     - augment-machine-brewer-reagent
+  smelter:
+    - recycling-gear-silver
 ---
 
 ![Silver gear](/assets/images/thermal-foundation/gear-silver.png){:style="height: 128px"}
@@ -37,3 +39,6 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

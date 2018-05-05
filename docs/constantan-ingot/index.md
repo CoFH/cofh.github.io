@@ -15,6 +15,8 @@ recipes:
     - ingot-constantan-from-dust-copper-and-ingot-nickel
     - ingot-constantan-from-ingot-copper-and-dust-nickel
     - ingot-constantan-from-ingot-copper-and-ingot-nickel
+    - recycling-gear-constantan
+    - recycling-plate-constantan
     - recycling-axe-constantan
     - recycling-bow-constantan
     - recycling-fishing-rod-constantan
@@ -55,9 +57,9 @@ usage-recipes:
     - boots-constantan
   pulverizer:
     - dust-constantan
-  compactor-press:
+  compactor:
     - plate-constantan
-  compactor-mint:
+  compactor-coin:
     - coin-constantan
   compactor-gear:
     - gear-constantan
@@ -98,10 +100,10 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

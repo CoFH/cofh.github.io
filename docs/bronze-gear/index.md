@@ -12,6 +12,8 @@ usage-recipes:
   crafting:
     - upgrade-kit-hardened
     - augment-machine-furnace-ore
+  smelter:
+    - recycling-gear-bronze
 ---
 
 ![Bronze gear](/assets/images/thermal-foundation/gear-bronze.png){:style="height: 128px"}
@@ -35,3 +37,6 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

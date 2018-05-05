@@ -16,7 +16,7 @@ recipes:
 usage-recipes:
   crafting:
     - dust-petrotheum
-  compactor-press:
+  compactor:
     - basalz-rod-from-powder
 ---
 
@@ -58,4 +58,4 @@ potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
 of haste](/docs/cofh-core-potions/).
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}

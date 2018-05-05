@@ -24,6 +24,8 @@ usage-recipes:
     - phyto-gro-using-charcoal
     - phyto-gro-rich-using-sawdust
     - phyto-gro-rich-using-charcoal
+  transposer-fill:
+    - blitz-powder
 ---
 
 ![Niter](/assets/images/thermal-foundation/niter.png){:style="height: 128px"}
@@ -55,6 +57,9 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Fluid Transposer ingredient
+{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 
 Trivia

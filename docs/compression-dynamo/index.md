@@ -168,11 +168,13 @@ amounts of energy.
 | Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 200,000 RF |
 | Crystallized Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 400,000 RF |
 | Empowered Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 700,000 RF |
+| Hootch ([Ender IO](http://enderio.com/)) | 300,000 RF |
+| Fire Water ([Ender IO](http://enderio.com/)) | 750,000 RF |
+| Rocket Fuel ([Ender IO](http://enderio.com/)) | 1,000,000 RF |
 | Ethanol ([Forestry](https://forestryforminecraft.info/)) | 500,000 RF |
 | Biodiesel ([Immersive Engineering](https://mods.curse.com/mc-mods/minecraft/231951-immersive-engineering)) | 500,000 RF |
 | Crude Oil ([Immersive Petroleum](https://minecraft.curseforge.com/projects/immersive-petroleum)) | 400,000 RF |
 | Diesel ([Immersive Petroleum](https://minecraft.curseforge.com/projects/immersive-petroleum)) | 800,000 RF |
 | Gasoline ([Immersive Petroleum](https://minecraft.curseforge.com/projects/immersive-petroleum)) | 1,200,000 RF |
 | Biogas ([IndustrialCraft²](https://www.industrial-craft.net/)) | 50,000 RF |
-| BioFuel ([MineFactory Reloaded](https://minecraft.curseforge.com/projects/minefactory-reloaded)) | 500,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

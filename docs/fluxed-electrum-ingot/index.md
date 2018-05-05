@@ -31,7 +31,7 @@ usage-recipes:
     - flux-infused-battlewrench
   pulverizer:
     - dust-fluxed-electrum
-  compactor-press:
+  compactor:
     - plate-fluxed-electrum
   compactor-gear:
     - gear-fluxed-electrum
@@ -66,7 +66,7 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

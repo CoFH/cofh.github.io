@@ -138,7 +138,7 @@ augment-machine-insolator-monoculture:
   animated: true
   site: cofh
   url: augment-monoculture-cycle/
-augment-machine-compactor-mint:
+augment-machine-compactor-coin:
   name: 'Augment: Numismatic Press'
   sprite: [7, 29]
   site: cofh
@@ -633,6 +633,11 @@ bottle-o-enchanting:
   sprite: [7, 60]
   site: mc-wiki
   url: Bottle_o%27_Enchanting
+bow:
+  name: Bow
+  sprite: [12, 64]
+  site: mc-wiki
+  url: Bow
 bow-aluminum:
   name: Aluminum Reinforced Bow
   sprite: [0, 17]

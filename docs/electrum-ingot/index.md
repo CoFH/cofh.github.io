@@ -17,6 +17,8 @@ recipes:
     - ingot-electrum-from-dust-gold-and-ingot-silver
     - ingot-electrum-from-ingot-gold-and-dust-silver
     - ingot-electrum-from-ingot-gold-and-ingot-silver
+    - recycling-gear-electrum
+    - recycling-plate-electrum
     - recycling-axe-electrum
     - recycling-bow-electrum
     - recycling-fishing-rod-electrum
@@ -82,9 +84,9 @@ usage-recipes:
     - boots-electrum
   pulverizer:
     - dust-electrum
-  compactor-press:
+  compactor:
     - plate-electrum
-  compactor-mint:
+  compactor-coin:
     - coin-electrum
   compactor-gear:
     - gear-electrum
@@ -127,10 +129,10 @@ Usage
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-press' recipes=page.usage-recipes.compactor-press %}
+{% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-mint' recipes=page.usage-recipes.compactor-mint %}
+{% include recipe-table.html type='compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
 {% include recipe-table.html type='compactor-gear' recipes=page.usage-recipes.compactor-gear %}

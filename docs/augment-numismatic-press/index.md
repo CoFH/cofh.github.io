@@ -3,16 +3,16 @@ title: 'Augment: Numismatic Press'
 nav: thermal-expansion
 image:
   - alt: Numismatic press augment
-    file: thermal-expansion/augment-machine-compactor-mint.png
+    file: thermal-expansion/augment-machine-compactor-coin.png
 recipes:
   crafting:
-    - augment-machine-compactor-mint
+    - augment-machine-compactor-coin
 recipe-list:
   - coin
 ---
 
 A **numismatic press** is an [augment](/docs/augments/) that allows for a
-[compactor](/docs/compactor/) to produce metal coins.
+[compactor](/docs/compactor/) to produce metal coins instead of plates.
 
 
 Obtaining
@@ -31,12 +31,12 @@ A numismatic press can be installed in the Augmentation tab in a
 installed together with other specialization augments.
 
 ### Effects
-An installed numismatic press allows for a [compactor](/docs/compactor/) to be
-switched into Mint mode. In this mode, the compactor produces metal coins from
-metal nuggets, ingots and blocks.
+An installed numismatic press allows for a [compactor](/docs/compactor/) to
+produce metal coins from ingots. This replaces the machine's ability to produce
+metal plates.
 
 
 Recipes
 -------
 
-{% include recipe-table.html type='compactor-mint' recipes=page.recipe-list %}
+{% include recipe-table.html type='compactor-coin' recipes=page.recipe-list %}

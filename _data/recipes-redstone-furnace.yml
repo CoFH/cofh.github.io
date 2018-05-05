@@ -30,7 +30,7 @@ recipes:
       - html: 'Metal Ingot'
     ingredients:
       - html: '<a href="https://minecraft.gamepedia.com/Smelting">Smeltable</a> Metal Dust'
-    energy: 1400
+    energy: 1500
     data:
       input:
         item:
@@ -73,7 +73,7 @@ recipes:
     data:
       input:
         item: [rotten-flesh]
-        amount: 3
+        amount: 4
       output:
         item: [leather]
   ore-processing-lapis-lazuli:
@@ -87,7 +87,7 @@ recipes:
         item: [ore-lapis-lazuli]
       output:
         item: [lapis-lazuli]
-        amount: 6
+        amount: 4
   ore-processing-redstone:
     results:
       - item: redstone
@@ -99,4 +99,4 @@ recipes:
         item: [ore-redstone]
       output:
         item: [redstone]
-        amount: 3
+        amount: 4

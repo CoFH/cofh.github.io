@@ -20,7 +20,7 @@ augments:
     - machine-insolator-fertilizer
     - machine-insolator-tree
     - machine-insolator-monoculture
-    - machine-compactor-mint
+    - machine-compactor-coin
     - machine-compactor-gear
     - machine-crucible-lava
     - machine-refinery-oil
