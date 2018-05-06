@@ -45,3 +45,7 @@ apparatus](/docs/augment-enstabulation-apparatus/) installed processes filled
 morbs into [mob](https://minecraft.gamepedia.com/Mob) drops and [essence of
 knowledge](/docs/essence-of-knowledge/). When processing morbs, there is a 20%
 chance that an empty morb is returned as an output.
+
+### Creature Encaptulator
+A [creature encaptulator](/docs/creature-encaptulator/) uses morbs to
+automatically capture [mobs](https://minecraft.gamepedia.com/Mob) in an area.
