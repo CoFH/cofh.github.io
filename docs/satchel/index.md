@@ -41,6 +41,17 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
+### Dyeing
+The body and flap of a satchel can be dyed by combining the satchel with
+[dyes](https://minecraft.gamepedia.com/Dye) in a crafting grid. The body and/or
+flap are dyed depending on the dyes' positions around the satchel in the
+crafting grid.
+
+Dyes can be removed from a satchel by combining it with a [water
+bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
+item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
+worth of [water](https://minecraft.gamepedia.com/Water)).
+
 
 Usage
 -----

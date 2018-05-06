@@ -34,6 +34,14 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
+### Dyeing
+A reservoir can be dyed by combining it with a
+[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+removed by combining the reservoir with a [water
+bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
+item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
+worth of [water](https://minecraft.gamepedia.com/Water)).
+
 
 Usage
 -----
@@ -59,6 +67,9 @@ A reservoir can also be used on blocks that store fluids to fill or drain them.
 A reservoir can be activated and deactivated by using it while sneaking. When
 active in a player's inventory, a reservoir automatically refills held and worn
 items that can hold fluids.
+
+If [Baubles](https://www.curseforge.com/minecraft/mc-mods/baubles) is installed,
+reservoirs can be equipped as baubles in any slot.
 
 ### Enchantments
 A reservoir can be enchanted with [Holding](/docs/holding/) to increase its

@@ -37,6 +37,14 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
+### Dyeing
+A flux capacitor can be dyed by combining it with a
+[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+removed by combining the flux capacitor with a [water
+bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
+item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
+worth of [water](https://minecraft.gamepedia.com/Water)).
+
 
 Usage
 -----
@@ -53,13 +61,16 @@ upgrading the flux capacitor to a higher [tier](#tiers).
 
 ### Charging items
 A charged flux capacitor can be activated and deactivated by using it while
-sneaking. When active, a flux capacitor charges certain items that can hold
-[Redstone Flux](/docs/redstone-flux/) in a player's inventory.
+sneaking. When active, a flux capacitor charges items that can hold [Redstone
+Flux](/docs/redstone-flux/) in a player's inventory.
 
-A flux capacitor can be set to charge a player's currently held item (the
-default mode), the items they are currently wearing, or both at the same time.
-The current charging mode of a flux capacitor can be switched by pressing "Cycle
-Item Mode" (V by default) while holding it.
+A flux capacitor can be set to charge a player's held and worn items (the
+default mode), other items in their inventory that are not equipped, or all
+items in their inventory. The current charging mode of a flux capacitor can be
+switched by pressing "Cycle Item Mode" (V by default) while holding it.
+
+If [Baubles](https://www.curseforge.com/minecraft/mc-mods/baubles) is installed,
+flux capacitors can be equipped as baubles in any slot.
 
 ### Wireless charging
 An [energetic infuser](/docs/energetic-infuser/) with [parabolic flux
