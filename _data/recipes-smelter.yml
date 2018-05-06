@@ -3464,10 +3464,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-iron:
     results:
-      - item: gear-iron
+      - item: ingot-iron
       - item: slag
     ingredients:
-      - item: ingot-iron
+      - item: gear-iron
       - item: sand
     energy: 3000
     data:
@@ -3483,10 +3483,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-gold:
     results:
-      - item: gear-gold
+      - item: ingot-gold
       - item: slag
     ingredients:
-      - item: ingot-gold
+      - item: gear-gold
       - item: sand
     energy: 3000
     data:
@@ -3502,10 +3502,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-copper:
     results:
-      - item: gear-copper
+      - item: ingot-copper
       - item: slag
     ingredients:
-      - item: ingot-copper
+      - item: gear-copper
       - item: sand
     energy: 3000
     data:
@@ -3521,10 +3521,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-tin:
     results:
-      - item: gear-tin
+      - item: ingot-tin
       - item: slag
     ingredients:
-      - item: ingot-tin
+      - item: gear-tin
       - item: sand
     energy: 3000
     data:
@@ -3540,10 +3540,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-silver:
     results:
-      - item: gear-silver
+      - item: ingot-silver
       - item: slag
     ingredients:
-      - item: ingot-silver
+      - item: gear-silver
       - item: sand
     energy: 3000
     data:
@@ -3559,10 +3559,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-lead:
     results:
-      - item: gear-lead
+      - item: ingot-lead
       - item: slag
     ingredients:
-      - item: ingot-lead
+      - item: gear-lead
       - item: sand
     energy: 3000
     data:
@@ -3578,10 +3578,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-aluminum:
     results:
-      - item: gear-aluminum
+      - item: ingot-aluminum
       - item: slag
     ingredients:
-      - item: ingot-aluminum
+      - item: gear-aluminum
       - item: sand
     energy: 3000
     data:
@@ -3597,10 +3597,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-nickel:
     results:
-      - item: gear-nickel
+      - item: ingot-nickel
       - item: slag
     ingredients:
-      - item: ingot-nickel
+      - item: gear-nickel
       - item: sand
     energy: 3000
     data:
@@ -3616,10 +3616,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-platinum:
     results:
-      - item: gear-platinum
+      - item: ingot-platinum
       - item: slag
     ingredients:
-      - item: ingot-platinum
+      - item: gear-platinum
       - item: sand
     energy: 3000
     data:
@@ -3635,10 +3635,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-iridium:
     results:
-      - item: gear-iridium
+      - item: ingot-iridium
       - item: slag
     ingredients:
-      - item: ingot-iridium
+      - item: gear-iridium
       - item: sand
     energy: 3000
     data:
@@ -3654,10 +3654,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-mithril:
     results:
-      - item: gear-mithril
+      - item: ingot-mithril
       - item: slag
     ingredients:
-      - item: ingot-mithril
+      - item: gear-mithril
       - item: sand
     energy: 3000
     data:
@@ -3673,10 +3673,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-steel:
     results:
-      - item: gear-steel
+      - item: ingot-steel
       - item: slag
     ingredients:
-      - item: ingot-steel
+      - item: gear-steel
       - item: sand
     energy: 3000
     data:
@@ -3692,10 +3692,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-electrum:
     results:
-      - item: gear-electrum
+      - item: ingot-electrum
       - item: slag
     ingredients:
-      - item: ingot-electrum
+      - item: gear-electrum
       - item: sand
     energy: 3000
     data:
@@ -3711,10 +3711,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-invar:
     results:
-      - item: gear-invar
+      - item: ingot-invar
       - item: slag
     ingredients:
-      - item: ingot-invar
+      - item: gear-invar
       - item: sand
     energy: 3000
     data:
@@ -3730,10 +3730,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-bronze:
     results:
-      - item: gear-bronze
+      - item: ingot-bronze
       - item: slag
     ingredients:
-      - item: ingot-bronze
+      - item: gear-bronze
       - item: sand
     energy: 3000
     data:
@@ -3749,10 +3749,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-constantan:
     results:
-      - item: gear-constantan
+      - item: ingot-constantan
       - item: slag
     ingredients:
-      - item: ingot-constantan
+      - item: gear-constantan
       - item: sand
     energy: 3000
     data:
@@ -3768,10 +3768,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-signalum:
     results:
-      - item: gear-signalum
+      - item: ingot-signalum
       - item: slag
     ingredients:
-      - item: ingot-signalum
+      - item: gear-signalum
       - item: sand
     energy: 3000
     data:
@@ -3787,10 +3787,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-lumium:
     results:
-      - item: gear-lumium
+      - item: ingot-lumium
       - item: slag
     ingredients:
-      - item: ingot-lumium
+      - item: gear-lumium
       - item: sand
     energy: 3000
     data:
@@ -3806,10 +3806,10 @@ recipes:
       secondary-chance: 20
   recycling-gear-enderium:
     results:
-      - item: gear-enderium
+      - item: ingot-enderium
       - item: slag
     ingredients:
-      - item: ingot-enderium
+      - item: gear-enderium
       - item: sand
     energy: 3000
     data:
@@ -5295,10 +5295,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-iron:
     results:
-      - item: plate-iron
+      - item: ingot-iron
       - item: slag
     ingredients:
-      - item: ingot-iron
+      - item: plate-iron
       - item: sand
     energy: 2000
     data:
@@ -5313,10 +5313,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-gold:
     results:
-      - item: plate-gold
+      - item: ingot-gold
       - item: slag
     ingredients:
-      - item: ingot-gold
+      - item: plate-gold
       - item: sand
     energy: 2000
     data:
@@ -5331,10 +5331,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-copper:
     results:
-      - item: plate-copper
+      - item: ingot-copper
       - item: slag
     ingredients:
-      - item: ingot-copper
+      - item: plate-copper
       - item: sand
     energy: 2000
     data:
@@ -5349,10 +5349,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-tin:
     results:
-      - item: plate-tin
+      - item: ingot-tin
       - item: slag
     ingredients:
-      - item: ingot-tin
+      - item: plate-tin
       - item: sand
     energy: 2000
     data:
@@ -5367,10 +5367,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-silver:
     results:
-      - item: plate-silver
+      - item: ingot-silver
       - item: slag
     ingredients:
-      - item: ingot-silver
+      - item: plate-silver
       - item: sand
     energy: 2000
     data:
@@ -5385,10 +5385,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-lead:
     results:
-      - item: plate-lead
+      - item: ingot-lead
       - item: slag
     ingredients:
-      - item: ingot-lead
+      - item: plate-lead
       - item: sand
     energy: 2000
     data:
@@ -5403,10 +5403,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-aluminum:
     results:
-      - item: plate-aluminum
+      - item: ingot-aluminum
       - item: slag
     ingredients:
-      - item: ingot-aluminum
+      - item: plate-aluminum
       - item: sand
     energy: 2000
     data:
@@ -5421,10 +5421,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-nickel:
     results:
-      - item: plate-nickel
+      - item: ingot-nickel
       - item: slag
     ingredients:
-      - item: ingot-nickel
+      - item: plate-nickel
       - item: sand
     energy: 2000
     data:
@@ -5439,10 +5439,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-platinum:
     results:
-      - item: plate-platinum
+      - item: ingot-platinum
       - item: slag
     ingredients:
-      - item: ingot-platinum
+      - item: plate-platinum
       - item: sand
     energy: 2000
     data:
@@ -5457,10 +5457,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-iridium:
     results:
-      - item: plate-iridium
+      - item: ingot-iridium
       - item: slag
     ingredients:
-      - item: ingot-iridium
+      - item: plate-iridium
       - item: sand
     energy: 2000
     data:
@@ -5475,10 +5475,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-mithril:
     results:
-      - item: plate-mithril
+      - item: ingot-mithril
       - item: slag
     ingredients:
-      - item: ingot-mithril
+      - item: plate-mithril
       - item: sand
     energy: 2000
     data:
@@ -5493,10 +5493,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-steel:
     results:
-      - item: plate-steel
+      - item: ingot-steel
       - item: slag
     ingredients:
-      - item: ingot-steel
+      - item: plate-steel
       - item: sand
     energy: 2000
     data:
@@ -5511,10 +5511,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-electrum:
     results:
-      - item: plate-electrum
+      - item: ingot-electrum
       - item: slag
     ingredients:
-      - item: ingot-electrum
+      - item: plate-electrum
       - item: sand
     energy: 2000
     data:
@@ -5529,10 +5529,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-invar:
     results:
-      - item: plate-invar
+      - item: ingot-invar
       - item: slag
     ingredients:
-      - item: ingot-invar
+      - item: plate-invar
       - item: sand
     energy: 2000
     data:
@@ -5547,10 +5547,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-bronze:
     results:
-      - item: plate-bronze
+      - item: ingot-bronze
       - item: slag
     ingredients:
-      - item: ingot-bronze
+      - item: plate-bronze
       - item: sand
     energy: 2000
     data:
@@ -5565,10 +5565,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-constantan:
     results:
-      - item: plate-constantan
+      - item: ingot-constantan
       - item: slag
     ingredients:
-      - item: ingot-constantan
+      - item: plate-constantan
       - item: sand
     energy: 2000
     data:
@@ -5583,10 +5583,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-signalum:
     results:
-      - item: plate-signalum
+      - item: ingot-signalum
       - item: slag
     ingredients:
-      - item: ingot-signalum
+      - item: plate-signalum
       - item: sand
     energy: 2000
     data:
@@ -5601,10 +5601,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-lumium:
     results:
-      - item: plate-lumium
+      - item: ingot-lumium
       - item: slag
     ingredients:
-      - item: ingot-lumium
+      - item: plate-lumium
       - item: sand
     energy: 2000
     data:
@@ -5619,10 +5619,10 @@ recipes:
       secondary-chance: 10
   recycling-plate-enderium:
     results:
-      - item: plate-enderium
+      - item: ingot-enderium
       - item: slag
     ingredients:
-      - item: ingot-enderium
+      - item: plate-enderium
       - item: sand
     energy: 2000
     data:
