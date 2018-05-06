@@ -264,28 +264,28 @@
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>The minimum altitude at which veins can be generated.</td>
+                            <td>The vertical offset for the vein-height parameter, measured in blocks along the Y axis.</td>
                         </tr>
                         <tr>
                             <td class="cofh-nowrap">vein-height</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>The vertical diameter of veins, measured in blocks along the Y axis.</td>
+                            <td>The vertical range veins can generate, measured in blocks along the Y axis.</td>
                         </tr>
                         <tr>
                             <td class="cofh-nowrap">vein-diameter</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>The horizontal diameter of veins, measured in blocks along the X and Z axes.</td>
+                            <td>The horizontal diameter of veins, measured in blocks along the X and Z axes. Warning: larger values will slow down world generation. limit to 63 unless pregenerating worlds.</td>
                         </tr>
                         <tr>
                             <td class="cofh-nowrap">vertical-density</td>
                             <td>Yes</td>
                             <td>Number (integer)</td>
                             <td>N/A</td>
-                            <td>How dense veins are along the Y axis. Higher numbers mean that features in veins are closer together, making veins contain more blocks in total. This value is not measured in blocks; some experimenting will be needed to obtain the desired result.</td>
+                            <td>How dense veins are along the Y axis. Higher numbers mean that veins are closer together, making veins spawn in tighter Gaussian distribution. This is a percentage from 0 (uniform) to 100 (a tight Gaussian distribution); some experimenting will be needed to obtain the desired result.</td>
                         </tr>
                         <tr>
                             <td class="cofh-nowrap">horizontal-density</td>
@@ -297,6 +297,42 @@
                     </tbody>
                 </table>
             </div>
+			<p>
+                Syntax example:
+            </p>
+			<p>
+			<code class="cofh-nowrap">
+				&nbsp;&nbsp;&nbsp;&nbsp;"iron": {<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"distribution": "fractal",<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"generator": {<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"block": "iron_ore",<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"material": "minecraft:stone",<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"cluster-size": 10,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type": "large-vein",<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sparse": true<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"cluster-count": 170,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"chunk-chance": 32,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"min-height": 0,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"vein-height": 64,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"vein-diameter": 65,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"vertical-density": 0,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"horizontal-density": 10,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"retrogen": false,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"biome": "all",<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"dimension": {<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"restriction": "blacklist",<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value": [<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-1,<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+			</code>
+            </p>
+			<p>
+				Tip: set <code class="cofh-nowrap">min-height</code> to 70 and "material": <code class="cofh-nowrap">"minecraft:stone"</code> to <code class="cofh-nowrap">"material": "minecraft:air"</code> to debug your ore generation setup. Later, you can set the material back to stone and move the offset back underground when you are done.
+			</p>
         </li>
     </ul>
 </div>
