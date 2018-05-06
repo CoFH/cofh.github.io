@@ -9,8 +9,8 @@ recipes:
     - augment-machine-furnace-ore
 ---
 
-A **flux anodizers** [augment](/docs/augments/) doubles the amount of ingots a
-[redstone furnace](/docs/redstone-furnace/) produces when processing metal ores.
+A **flux anodizers** [augment](/docs/augments/) allows for a [redstone
+furnace](/docs/redstone-furnace/) to process ores more efficiently.
 
 
 Obtaining
@@ -30,9 +30,12 @@ installed together with other specialization augments.
 
 ### Effects
 A [redstone furnace](/docs/redstone-furnace/) with flux anodizers installed
-smelts each unit of metal ore into two ingots. However, the machine cannot
-process anything other than metal ores, and the amount of energy required per
-operation is increased by 50%.
+produces 1.5 as much of the product of processing any ore. The output amount is
+rounded down when necessary, but is always at least 2.
+
+However, a redstone furnace with flux anodizers installed cannot process
+anything other than ores, and the amount of energy required per operation is
+increased by 50%.
 
 If flux anodizers are installed together with other augments that increase the
 amount of energy required per operation, their energy increase percentages are

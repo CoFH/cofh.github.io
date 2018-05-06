@@ -31,7 +31,7 @@ machine-furnace-food:
   url: augment-trivection-chamber/
   installed-in: '<a href="/docs/redstone-furnace/">Redstone Furnace</a>'
   description: >
-    A specialization that doubles the amount of cooked <a
+    A specialization that increases the amount of cooked <a
     href="https://minecraft.gamepedia.com/Food">food</a> a redstone furnace
     produces when processing raw food. However, a redstone furnace can only
     process food when installed.
@@ -40,9 +40,9 @@ machine-furnace-ore:
   url: augment-flux-anodizers/
   installed-in: '<a href="/docs/redstone-furnace/">Redstone Furnace</a>'
   description: >
-    A specialization that doubles the amount of ingots a redstone furnace
-    produces when processing metal ores. However, a redstone furnace can only
-    process metal ores when installed.
+    A specialization that allows for a redstone furnace to process ores more
+    efficiently. However, a redstone furnace can only process ores when
+    installed.
 machine-furnace-pyrolysis:
   name: Pyrolytic Conversion
   url: augment-pyrolytic-conversion/

@@ -39,8 +39,9 @@ ingredients.
 
 ### Fractionating Still with Alchemical Retort
 A [fractionating still](/docs/fractionating-still/) with an [alchemical
-retort](/docs/augment-alchemical-retort/) installed refines level II fluid
-potions to [levels up to V](/docs/cofh-core-potions/#stronger-potions).
+retort](/docs/augment-alchemical-retort/) installed refines fluid potions,
+increasing their potency to levels that cannot be obtained through
+[brewing](https://minecraft.gamepedia.com/Brewing).
 
 ### Decoctive Diffuser
 A [decoctive diffuser](/docs/decoctive-diffuser/) applies the effects of a fluid
