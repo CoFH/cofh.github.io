@@ -3013,9 +3013,29 @@ itemduct:
   sprite: [15, 31]
   site: cofh
   url: itemduct/
+itemduct-dense:
+  name: Dense Itemduct
+  sprite: [13, 64]
+  site: cofh
+  url: itemduct/
+itemduct-vacuum:
+  name: Vacuum Itemduct
+  sprite: [5, 65]
+  site: cofh
+  url: itemduct/
 itemduct-opaque:
   name: Itemduct (Opaque)
   sprite: [0, 32]
+  site: cofh
+  url: itemduct/
+itemduct-opaque-dense:
+  name: Dense Itemduct (Opaque)
+  sprite: [14, 64]
+  site: cofh
+  url: itemduct/
+itemduct-opaque-vacuum:
+  name: Vacuum Itemduct (Opaque)
+  sprite: [6, 65]
   site: cofh
   url: itemduct/
 itemduct-fast:
@@ -3023,9 +3043,29 @@ itemduct-fast:
   sprite: [1, 32]
   site: cofh
   url: impulse-itemduct/
+itemduct-fast-dense:
+  name: Dense Impulse Itemduct
+  sprite: [15, 64]
+  site: cofh
+  url: impulse-itemduct/
+itemduct-fast-vacuum:
+  name: Vacuum Impulse Itemduct
+  sprite: [7, 65]
+  site: cofh
+  url: impulse-itemduct/
 itemduct-fast-opaque:
   name: Impulse Itemduct (Opaque)
   sprite: [2, 32]
+  site: cofh
+  url: impulse-itemduct/
+itemduct-fast-opaque-dense:
+  name: Dense Impulse Itemduct (Opaque)
+  sprite: [0, 65]
+  site: cofh
+  url: impulse-itemduct/
+itemduct-fast-opaque-vacuum:
+  name: Vacuum Impulse Itemduct (Opaque)
+  sprite: [8, 65]
   site: cofh
   url: impulse-itemduct/
 itemduct-energy:
@@ -3033,9 +3073,29 @@ itemduct-energy:
   sprite: [3, 32]
   site: cofh
   url: signalum-plated-itemduct/
+itemduct-energy-dense:
+  name: Dense Signalum-Plated Itemduct
+  sprite: [1, 65]
+  site: cofh
+  url: signalum-plated-itemduct/
+itemduct-energy-vacuum:
+  name: Vacuum Signalum-Plated Itemduct
+  sprite: [9, 65]
+  site: cofh
+  url: signalum-plated-itemduct/
 itemduct-energy-opaque:
   name: Signalum-Plated Itemduct (Opaque)
   sprite: [4, 32]
+  site: cofh
+  url: signalum-plated-itemduct/
+itemduct-energy-opaque-dense:
+  name: Dense Signalum-Plated Itemduct (Opaque)
+  sprite: [2, 65]
+  site: cofh
+  url: signalum-plated-itemduct/
+itemduct-energy-opaque-vacuum:
+  name: Vacuum Signalum-Plated Itemduct (Opaque)
+  sprite: [10, 65]
   site: cofh
   url: signalum-plated-itemduct/
 itemduct-energy-fast:
@@ -3043,9 +3103,29 @@ itemduct-energy-fast:
   sprite: [5, 32]
   site: cofh
   url: signalum-plated-impulse-itemduct/
+itemduct-energy-fast-dense:
+  name: Dense Signalum-Plated Impulse Itemduct
+  sprite: [3, 65]
+  site: cofh
+  url: signalum-plated-impulse-itemduct/
+itemduct-energy-fast-vacuum:
+  name: Vacuum Signalum-Plated Impulse Itemduct
+  sprite: [11, 65]
+  site: cofh
+  url: signalum-plated-impulse-itemduct/
 itemduct-energy-fast-opaque:
   name: Signalum-Plated Impulse Itemduct (Opaque)
   sprite: [6, 32]
+  site: cofh
+  url: signalum-plated-impulse-itemduct/
+itemduct-energy-fast-opaque-dense:
+  name: Dense Signalum-Plated Impulse Itemduct (Opaque)
+  sprite: [4, 65]
+  site: cofh
+  url: signalum-plated-impulse-itemduct/
+itemduct-energy-fast-opaque-vacuum:
+  name: Vacuum Signalum-Plated Impulse Itemduct (Opaque)
+  sprite: [12, 65]
   site: cofh
   url: signalum-plated-impulse-itemduct/
 jukebox:

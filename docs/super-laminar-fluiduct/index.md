@@ -9,7 +9,6 @@ image:
 recipes:
   crafting:
     - fluiduct-super
-    - fluiduct-super-opaque
     - fluiduct-super-opaque-from-transparent
     - fluiduct-super-transparent-from-opaque
 ---

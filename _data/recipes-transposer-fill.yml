@@ -629,28 +629,12 @@ recipes:
     energy: 800
     data:
       item-input:
-        item: [itemduct]
+        item: [itemduct, itemduct-opaque]
       fluid-input:
         fluid: glowstone
         amount: 200
       output:
-        item: [itemduct-fast]
-  itemduct-fast-opaque:
-    results:
-      - item: itemduct-fast-opaque
-    ingredients:
-      - item: itemduct-opaque
-      - fluid: glowstone
-        fluid-amount: 200
-    energy: 800
-    data:
-      item-input:
-        item: [itemduct-opaque]
-      fluid-input:
-        fluid: glowstone
-        amount: 200
-      output:
-        item: [itemduct-fast-opaque]
+        item: [itemduct-fast, itemduct-fast-opaque]
   itemduct-energy-fast:
     results:
       - item: itemduct-energy-fast
@@ -661,28 +645,12 @@ recipes:
     energy: 800
     data:
       item-input:
-        item: [itemduct-energy]
+        item: [itemduct-energy, itemduct-energy-opaque]
       fluid-input:
         fluid: glowstone
         amount: 200
       output:
-        item: [itemduct-energy-fast]
-  itemduct-energy-fast-opaque:
-    results:
-      - item: itemduct-energy-fast-opaque
-    ingredients:
-      - item: itemduct-energy-opaque
-      - fluid: glowstone
-        fluid-amount: 200
-    energy: 800
-    data:
-      item-input:
-        item: [itemduct-energy-opaque]
-      fluid-input:
-        fluid: glowstone
-        amount: 200
-      output:
-        item: [itemduct-energy-fast-opaque]
+        item: [itemduct-energy-fast, itemduct-energy-fast-opaque]
   moss-stone:
     results:
       - item: moss-stone

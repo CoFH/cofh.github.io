@@ -38,9 +38,7 @@ recipe-list:
     - fluxduct-resonant
     - fluxduct-super
     - itemduct-fast
-    - itemduct-fast-opaque
     - itemduct-energy-fast
-    - itemduct-energy-fast-opaque
     - viaduct
     - viaduct-long-range-linking
     - dust-fluxed-electrum

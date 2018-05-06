@@ -44,7 +44,6 @@ usage-recipes:
     - machine-compactor
     - augment-machine-secondary
     - fluiduct-super
-    - fluiduct-super-opaque
     - viaduct-frame
     - axe-bronze
     - bow-bronze

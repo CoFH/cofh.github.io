@@ -17,15 +17,14 @@ recipes:
     - itemduct-opaque
     - itemduct-opaque-from-transparent
     - itemduct-transparent-from-opaque
+    - itemduct-dense
+    - itemduct-vacuum
 usage-recipes:
   transposer-fill:
     - itemduct-fast
-    - itemduct-fast-opaque
   crafting:
     - itemduct-energy-one
     - itemduct-energy-three
-    - itemduct-energy-opaque-one
-    - itemduct-energy-opaque-three
 ---
 
 An **itemduct** is a block that transfers items between blocks.
@@ -59,6 +58,13 @@ Items in an itemduct gradually move towards their destination, at a speed of
 half a block per second (40 ticks per block). The speed may be increased by
 using [impulse itemducts](/docs/impulse-itemduct/) and/or advanced
 [servos](/docs/servos/) and [retrievers](/docs/retrievers/).
+
+Dense and vacuum itemducts change the length of the path they are placed in,
+which may affect item routing. A dense itemduct dramatically increases path
+length, which decreases the priority of destinations behind it by default. A
+vacuum itemduct dramatically decreases path length, which increases the priority
+of destinations behind it by default. Note that the way items are routed may be
+changed by [servos](/docs/servos/) and [retrievers](/docs/retrievers/).
 
 ### Attachments
 Certain items can be attached to itemduct connections to change how itemducts

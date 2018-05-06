@@ -16,10 +16,7 @@ usage-recipes:
   crafting:
     - fluiduct-energy-one
     - fluiduct-energy-three
-    - fluiduct-energy-opaque-one
-    - fluiduct-energy-opaque-three
     - fluiduct-super
-    - fluiduct-super-opaque
 ---
 
 A **hardened fluiduct** is a type of [fluiduct](/docs/fluiduct/) that can

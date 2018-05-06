@@ -14,6 +14,10 @@ usage-recipes:
     - ingot-lead-from-nuggets
     - augment-dynamo-coil-duct
     - augment-dynamo-throttle
+    - itemduct-dense
+    - itemduct-fast-dense
+    - itemduct-energy-dense
+    - itemduct-energy-fast-dense
 ---
 
 ![Lead nugget](/assets/images/thermal-foundation/nugget-lead.png){:style="height: 128px"}

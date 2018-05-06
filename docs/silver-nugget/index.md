@@ -9,6 +9,10 @@ recipes:
 usage-recipes:
   crafting:
     - ingot-silver-from-nuggets
+    - itemduct-vacuum
+    - itemduct-fast-vacuum
+    - itemduct-energy-vacuum
+    - itemduct-energy-fast-vacuum
 ---
 
 ![Silver nugget](/assets/images/thermal-foundation/nugget-silver.png){:style="height: 128px"}

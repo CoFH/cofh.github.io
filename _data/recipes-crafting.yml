@@ -2993,11 +2993,11 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [fluiduct-hardened], item: [nugget-signalum], item: [nugget-signalum]]
+        - [item: [fluiduct-hardened, fluiduct-hardened-opaque], item: [nugget-signalum], item: [nugget-signalum]]
         - [item: [nugget-signalum], item: [nugget-electrum], item: [nugget-electrum]]
         - [item: [nugget-electrum]]
       result:
-        item: [fluiduct-energy]
+        item: [fluiduct-energy, fluiduct-energy-opaque]
         amount: 1
   fluiduct-energy-three:
     results:
@@ -3009,41 +3009,10 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [fluiduct-hardened], item: [fluiduct-hardened], item: [fluiduct-hardened]]
+        - [item: [fluiduct-hardened, fluiduct-hardened-opaque], item: [fluiduct-hardened, fluiduct-hardened-opaque], item: [fluiduct-hardened, fluiduct-hardened-opaque]]
         - [item: [ingot-signalum], item: [ingot-electrum]]
       result:
-        item: [fluiduct-energy]
-        amount: 3
-  fluiduct-energy-opaque-one:
-    results:
-      - item: fluiduct-energy-opaque
-    ingredients:
-      - item: fluiduct-hardened-opaque
-      - item: nugget-signalum
-      - item: nugget-electrum
-    data:
-      shapeless: true
-      rows:
-        - [item: [fluiduct-hardened-opaque], item: [nugget-signalum], item: [nugget-signalum]]
-        - [item: [nugget-signalum], item: [nugget-electrum], item: [nugget-electrum]]
-        - [item: [nugget-electrum]]
-      result:
-        item: [fluiduct-energy-opaque]
-        amount: 1
-  fluiduct-energy-opaque-three:
-    results:
-      - item: fluiduct-energy-opaque
-    ingredients:
-      - item: fluiduct-hardened-opaque
-      - item: ingot-signalum
-      - item: ingot-electrum
-    data:
-      shapeless: true
-      rows:
-        - [item: [fluiduct-hardened-opaque], item: [fluiduct-hardened-opaque], item: [fluiduct-hardened-opaque]]
-        - [item: [ingot-signalum], item: [ingot-electrum]]
-      result:
-        item: [fluiduct-energy-opaque]
+        item: [fluiduct-energy, fluiduct-energy-opaque]
         amount: 3
   fluiduct-energy-opaque-from-transparent:
     results:
@@ -3091,7 +3060,7 @@ recipes:
           - item: [ingot-bronze]
         - - random: true
             item-group: hardened-glass
-          - item: [fluiduct-hardened]
+          - item: [fluiduct-hardened, fluiduct-hardened-opaque]
           - random: true
             item-group: hardened-glass
         - - item: [ingot-bronze]
@@ -3099,32 +3068,7 @@ recipes:
             item-group: hardened-glass
           - item: [ingot-bronze]
       result:
-        item: [fluiduct-super]
-        amount: 1
-  fluiduct-super-opaque:
-    results:
-      - item: fluiduct-super-opaque
-    ingredients:
-      - item: fluiduct-hardened-opaque
-      - item: ingot-bronze
-      - item-group: hardened-glass
-    data:
-      rows:
-        - - item: [ingot-bronze]
-          - random: true
-            item-group: hardened-glass
-          - item: [ingot-bronze]
-        - - random: true
-            item-group: hardened-glass
-          - item: [fluiduct-hardened-opaque]
-          - random: true
-            item-group: hardened-glass
-        - - item: [ingot-bronze]
-          - random: true
-            item-group: hardened-glass
-          - item: [ingot-bronze]
-      result:
-        item: [fluiduct-super-opaque]
+        item: [fluiduct-super, fluiduct-super-opaque]
         amount: 1
   fluiduct-super-opaque-from-transparent:
     results:
@@ -5624,6 +5568,32 @@ recipes:
       result:
         item: [itemduct]
         amount: 6
+  itemduct-dense:
+    results:
+      - item: itemduct-dense
+    ingredients:
+      - item: itemduct
+      - item: nugget-lead
+    data:
+      shapeless: true
+      rows:
+        - [item: [itemduct, itemduct-opaque], item: [nugget-lead]]
+        - [item: [nugget-lead], item: [nugget-lead]]
+      result:
+        item: [itemduct-dense, itemduct-opaque-dense]
+  itemduct-vacuum:
+    results:
+      - item: itemduct-vacuum
+    ingredients:
+      - item: itemduct
+      - item: nugget-silver
+    data:
+      shapeless: true
+      rows:
+        - [item: [itemduct, itemduct-opaque], item: [nugget-silver]]
+        - [item: [nugget-silver], item: [nugget-silver]]
+      result:
+        item: [itemduct-vacuum, itemduct-opaque-vacuum]
   itemduct-fast-opaque-from-transparent:
     results:
       - item: itemduct-fast-opaque
@@ -5655,6 +5625,32 @@ recipes:
       result:
         item: [itemduct-fast]
         amount: 6
+  itemduct-fast-dense:
+    results:
+      - item: itemduct-fast-dense
+    ingredients:
+      - item: itemduct-fast
+      - item: nugget-lead
+    data:
+      shapeless: true
+      rows:
+        - [item: [itemduct-fast, itemduct-fast-opaque], item: [nugget-lead]]
+        - [item: [nugget-lead], item: [nugget-lead]]
+      result:
+        item: [itemduct-fast-dense, itemduct-fast-opaque-dense]
+  itemduct-fast-vacuum:
+    results:
+      - item: itemduct-fast-vacuum
+    ingredients:
+      - item: itemduct-fast
+      - item: nugget-silver
+    data:
+      shapeless: true
+      rows:
+        - [item: [itemduct-fast, itemduct-fast-opaque], item: [nugget-silver]]
+        - [item: [nugget-silver], item: [nugget-silver]]
+      result:
+        item: [itemduct-fast-vacuum, itemduct-fast-opaque-vacuum]
   itemduct-energy-one:
     results:
       - item: itemduct-energy
@@ -5665,11 +5661,11 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [itemduct], item: [nugget-signalum], item: [nugget-signalum]]
+        - [item: [itemduct, itemduct-opaque], item: [nugget-signalum], item: [nugget-signalum]]
         - [item: [nugget-signalum], item: [nugget-electrum], item: [nugget-electrum]]
         - [item: [nugget-electrum]]
       result:
-        item: [itemduct-energy]
+        item: [itemduct-energy, itemduct-energy-opaque]
         amount: 1
   itemduct-energy-three:
     results:
@@ -5681,41 +5677,10 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [itemduct], item: [itemduct], item: [itemduct]]
+        - [item: [itemduct, itemduct-opaque], item: [itemduct, itemduct-opaque], item: [itemduct, itemduct-opaque]]
         - [item: [ingot-signalum], item: [ingot-electrum]]
       result:
-        item: [itemduct-energy]
-        amount: 3
-  itemduct-energy-opaque-one:
-    results:
-      - item: itemduct-energy-opaque
-    ingredients:
-      - item: itemduct-opaque
-      - item: nugget-signalum
-      - item: nugget-electrum
-    data:
-      shapeless: true
-      rows:
-        - [item: [itemduct-opaque], item: [nugget-signalum], item: [nugget-signalum]]
-        - [item: [nugget-signalum], item: [nugget-electrum], item: [nugget-electrum]]
-        - [item: [nugget-electrum]]
-      result:
-        item: [itemduct-energy-opaque]
-        amount: 1
-  itemduct-energy-opaque-three:
-    results:
-      - item: itemduct-energy-opaque
-    ingredients:
-      - item: itemduct-opaque
-      - item: ingot-signalum
-      - item: ingot-electrum
-    data:
-      shapeless: true
-      rows:
-        - [item: [itemduct-opaque], item: [itemduct-opaque], item: [itemduct-opaque]]
-        - [item: [ingot-signalum], item: [ingot-electrum]]
-      result:
-        item: [itemduct-energy-opaque]
+        item: [itemduct-energy, itemduct-energy-opaque]
         amount: 3
   itemduct-energy-opaque-from-transparent:
     results:
@@ -5748,6 +5713,32 @@ recipes:
       result:
         item: [itemduct-energy]
         amount: 6
+  itemduct-energy-dense:
+    results:
+      - item: itemduct-energy-dense
+    ingredients:
+      - item: itemduct-energy
+      - item: nugget-lead
+    data:
+      shapeless: true
+      rows:
+        - [item: [itemduct-energy, itemduct-energy-opaque], item: [nugget-lead]]
+        - [item: [nugget-lead], item: [nugget-lead]]
+      result:
+        item: [itemduct-energy-dense, itemduct-energy-opaque-dense]
+  itemduct-energy-vacuum:
+    results:
+      - item: itemduct-energy-vacuum
+    ingredients:
+      - item: itemduct-energy
+      - item: nugget-silver
+    data:
+      shapeless: true
+      rows:
+        - [item: [itemduct-energy, itemduct-energy-opaque], item: [nugget-silver]]
+        - [item: [nugget-silver], item: [nugget-silver]]
+      result:
+        item: [itemduct-energy-vacuum, itemduct-energy-opaque-vacuum]
   itemduct-energy-fast-one:
     results:
       - item: itemduct-energy-fast
@@ -5758,11 +5749,11 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [itemduct-fast], item: [nugget-signalum], item: [nugget-signalum]]
+        - [item: [itemduct-fast, itemduct-fast-opaque], item: [nugget-signalum], item: [nugget-signalum]]
         - [item: [nugget-signalum], item: [nugget-electrum], item: [nugget-electrum]]
         - [item: [nugget-electrum]]
       result:
-        item: [itemduct-energy-fast]
+        item: [itemduct-energy-fast, itemduct-energy-fast-opaque]
         amount: 1
   itemduct-energy-fast-three:
     results:
@@ -5774,41 +5765,10 @@ recipes:
     data:
       shapeless: true
       rows:
-        - [item: [itemduct-fast], item: [itemduct-fast], item: [itemduct-fast]]
+        - [item: [itemduct-fast, itemduct-fast-opaque], item: [itemduct-fast, itemduct-fast-opaque], item: [itemduct-fast, itemduct-fast-opaque]]
         - [item: [ingot-signalum], item: [ingot-electrum]]
       result:
-        item: [itemduct-energy-fast]
-        amount: 3
-  itemduct-energy-fast-opaque-one:
-    results:
-      - item: itemduct-energy-fast-opaque
-    ingredients:
-      - item: itemduct-fast-opaque
-      - item: nugget-signalum
-      - item: nugget-electrum
-    data:
-      shapeless: true
-      rows:
-        - [item: [itemduct-fast-opaque], item: [nugget-signalum], item: [nugget-signalum]]
-        - [item: [nugget-signalum], item: [nugget-electrum], item: [nugget-electrum]]
-        - [item: [nugget-electrum]]
-      result:
-        item: [itemduct-energy-fast-opaque]
-        amount: 1
-  itemduct-energy-fast-opaque-three:
-    results:
-      - item: itemduct-energy-fast-opaque
-    ingredients:
-      - item: itemduct-fast-opaque
-      - item: ingot-signalum
-      - item: ingot-electrum
-    data:
-      shapeless: true
-      rows:
-        - [item: [itemduct-fast-opaque], item: [itemduct-fast-opaque], item: [itemduct-fast-opaque]]
-        - [item: [ingot-signalum], item: [ingot-electrum]]
-      result:
-        item: [itemduct-energy-fast-opaque]
+        item: [itemduct-energy-fast, itemduct-energy-fast-opaque]
         amount: 3
   itemduct-energy-fast-opaque-from-transparent:
     results:
@@ -5841,6 +5801,32 @@ recipes:
       result:
         item: [itemduct-energy-fast]
         amount: 6
+  itemduct-energy-fast-dense:
+    results:
+      - item: itemduct-energy-fast-dense
+    ingredients:
+      - item: itemduct-energy-fast
+      - item: nugget-lead
+    data:
+      shapeless: true
+      rows:
+        - [item: [itemduct-energy-fast, itemduct-energy-fast-opaque], item: [nugget-lead]]
+        - [item: [nugget-lead], item: [nugget-lead]]
+      result:
+        item: [itemduct-energy-fast-dense, itemduct-energy-fast-opaque-dense]
+  itemduct-energy-fast-vacuum:
+    results:
+      - item: itemduct-energy-fast-vacuum
+    ingredients:
+      - item: itemduct-energy-fast
+      - item: nugget-silver
+    data:
+      shapeless: true
+      rows:
+        - [item: [itemduct-energy-fast, itemduct-energy-fast-opaque], item: [nugget-silver]]
+        - [item: [nugget-silver], item: [nugget-silver]]
+      result:
+        item: [itemduct-energy-fast-vacuum, itemduct-energy-fast-opaque-vacuum]
   lead-using-rosin:
     results:
       - item: lead

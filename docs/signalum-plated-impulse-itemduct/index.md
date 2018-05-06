@@ -10,13 +10,12 @@ recipes:
   crafting:
     - itemduct-energy-fast-one
     - itemduct-energy-fast-three
-    - itemduct-energy-fast-opaque-one
-    - itemduct-energy-fast-opaque-three
     - itemduct-energy-fast-opaque-from-transparent
     - itemduct-energy-fast-transparent-from-opaque
+    - itemduct-energy-fast-dense
+    - itemduct-energy-fast-vacuum
   transposer-fill:
     - itemduct-energy-fast
-    - itemduct-energy-fast-opaque
 ---
 
 A **signalum-plated impulse itemduct** is a type of [itemduct](/docs/itemduct/)

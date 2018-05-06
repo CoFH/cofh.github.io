@@ -9,16 +9,15 @@ image:
 recipes:
   transposer-fill:
     - itemduct-fast
-    - itemduct-fast-opaque
   crafting:
     - itemduct-fast-opaque-from-transparent
     - itemduct-fast-transparent-from-opaque
+    - itemduct-fast-dense
+    - itemduct-fast-vacuum
 usage-recipes:
   crafting:
     - itemduct-energy-fast-one
     - itemduct-energy-fast-three
-    - itemduct-energy-fast-opaque-one
-    - itemduct-energy-fast-opaque-three
 ---
 
 An **impulse itemduct** is a type of [itemduct](/docs/itemduct/) that transfers

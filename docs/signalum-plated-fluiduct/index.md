@@ -10,8 +10,6 @@ recipes:
   crafting:
     - fluiduct-energy-one
     - fluiduct-energy-three
-    - fluiduct-energy-opaque-one
-    - fluiduct-energy-opaque-three
     - fluiduct-energy-opaque-from-transparent
     - fluiduct-energy-transparent-from-opaque
 ---

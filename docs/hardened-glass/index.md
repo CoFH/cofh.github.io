@@ -44,7 +44,6 @@ usage-recipes:
     - fluiduct-hardened-transparent-from-opaque
     - fluiduct-energy-transparent-from-opaque
     - fluiduct-super
-    - fluiduct-super-opaque
     - fluiduct-super-transparent-from-opaque
     - itemduct
     - itemduct-transparent-from-opaque

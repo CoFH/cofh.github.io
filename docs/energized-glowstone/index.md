@@ -23,9 +23,7 @@ usage-recipes:
     - bucket-glowstone
     - glowstone-dust-from-fluid
     - itemduct-fast
-    - itemduct-fast-opaque
     - itemduct-energy-fast
-    - itemduct-energy-fast-opaque
 ---
 
 ![Energized glowstone](/assets/images/thermal-foundation/energized-glowstone.gif){:style="height: 128px"}

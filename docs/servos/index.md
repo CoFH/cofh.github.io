@@ -116,10 +116,13 @@ At higher [tiers](#tiers), a servo can be configured to prefer sending items to
 certain blocks in the network.
 
 Nearest-First
-: Items are sent to the nearest connected block first. This is the default mode.
+: Items are sent to the connected block that has the shortest path to it first,
+taking into account [dense and vacuum itemducts](/docs/itemduct/#item-transfer).
+This is the default mode.
 
 Furthest-First
-: Items are sent to the furthest connected block first.
+: Items are sent to the connected block that has the longest path to it first,
+taking into account [dense and vacuum itemducts](/docs/itemduct/#item-transfer).
 
 Random
 : Each item is sent to a random connected block.

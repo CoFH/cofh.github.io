@@ -118,11 +118,14 @@ At higher [tiers](#tiers), a retriever can be configured to prefer extracting
 items from certain blocks in the network.
 
 Nearest-First
-: Items are extracted from the nearest connected block first. This is the
-default mode.
+: Items are extracted from the connected block that has the shortest path to it
+first, taking into account [dense and vacuum
+itemducts](/docs/itemduct/#item-transfer). This is the default mode.
 
 Furthest-First
-: Items are extracted from the furthest connected block first.
+: Items are extracted from the connected block that has the longest path to it
+first, taking into account [dense and vacuum
+itemducts](/docs/itemduct/#item-transfer).
 
 Random
 : Each item is extracted from a random connected block.
