@@ -33,6 +33,14 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
+### Dyeing
+A fluxomagnet can be dyed by combining it with a
+[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+removed by combining the fluxomagnet with a [water
+bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
+item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
+worth of [water](https://minecraft.gamepedia.com/Water)).
+
 
 Usage
 -----
@@ -49,7 +57,7 @@ RF/t. This can be increased by upgrading the magnet to a higher [tier](#tiers).
 A charged fluxomagnet can attract dropped items in a certain radius by
 teleporting them to the wielder. It consumes 25 RF per attracted item.
 
-A basic fluxomagnet can attract items within a radius of 6 blocks. This can be
+A basic fluxomagnet can attract items within a radius of 4 blocks. This can be
 increased by upgrading the magnet to a higher [tier](#tiers).
 
 When used, a fluxomagnet attracts items within the radius around a point which
@@ -62,6 +70,9 @@ Item Mode" (V by default) while holding the magnet.
 
 A fluxomagnet set to automatically attract items attempts to do so every 8 ticks
 (0.4 seconds). This can be temporarily disabled by sneaking.
+
+If [Baubles](https://www.curseforge.com/minecraft/mc-mods/baubles) is installed,
+fluxomagnets can be equipped as baubles in any slot.
 
 ### Filtering
 A fluxomagnet can be configured to only attract items that match a given list of
@@ -106,12 +117,12 @@ Fluxomagnets come in six [tiers](/docs/tiers/).
 <div class="uk-overflow-container">
 | Tier | Capacity | Max. charge rate | Radius | Filter slots | Note |
 |---
-| Basic | 40,000 RF | 1,000 RF/t | 6 blocks | 3 |
-| Hardened | 120,000 RF | 4,000 RF/t | 7 blocks | 6 |
-| Reinforced | 240,000 RF | 9,000 RF/t | 8 blocks | 9 |
-| Signalum | 400,000 RF | 16,000 RF/t | 9 blocks | 12 |
-| Resonant | 600,000 RF | 25,000 RF/t | 10 blocks | 15 |
-| Creative | N/A | N/A | 10 blocks | 15 | Does not consume energy. |
+| Basic | 40,000 RF | 1,000 RF/t | 4 blocks | 3 |
+| Hardened | 120,000 RF | 4,000 RF/t | 5 blocks | 6 |
+| Reinforced | 240,000 RF | 9,000 RF/t | 6 blocks | 9 |
+| Signalum | 400,000 RF | 16,000 RF/t | 7 blocks | 12 |
+| Resonant | 600,000 RF | 25,000 RF/t | 8 blocks | 15 |
+| Creative | N/A | N/A | 8 blocks | 15 | Does not consume energy. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
