@@ -37,14 +37,6 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
-### Dyeing
-A flux capacitor can be dyed by combining it with a
-[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
-removed by combining the flux capacitor with a [water
-bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
-item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
-worth of [water](https://minecraft.gamepedia.com/Water)).
-
 
 Usage
 -----
@@ -76,6 +68,14 @@ flux capacitors can be equipped as baubles in any slot.
 An [energetic infuser](/docs/energetic-infuser/) with [parabolic flux
 coupling](/docs/augment-parabolic-flux-coupling/) installed can wirelessly
 recharge flux capacitors of players within a radius of 32 blocks.
+
+### Dyeing
+A flux capacitor can be dyed by combining it with a
+[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+removed by combining the flux capacitor with a [water
+bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
+item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
+worth of [water](https://minecraft.gamepedia.com/Water)).
 
 ### Enchantments
 A flux capacitor can be enchanted with [Holding](/docs/holding/) to increase its

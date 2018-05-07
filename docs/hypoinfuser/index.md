@@ -41,7 +41,8 @@ Usage
 A hypoinfuser can hold the [fluid form](/docs/potion-fluid/) or any regular
 [potion](https://minecraft.gamepedia.com/Potion). It can be filled and drained
 manually by using it on a block that can hold fluid potions, or automatically
-using a [fluid transposer](/docs/fluid-transposer/) or similar.
+using a [fluid transposer](/docs/fluid-transposer/) or similar. It can also be
+filled by combining it with a potion in a crafting grid.
 
 A basic hypoinfuser can store up to 2
 [buckets](https://minecraft.gamepedia.com/Bucket) worth of a potion (2,000 mB).
@@ -52,24 +53,36 @@ potions](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
 potions](https://minecraft.gamepedia.com/Lingering_Potion).
 
 ### Potion injection
+When used while sneaking, a filled hypoinfuser infuses the wielder with the
+contained potion. It infuses 250 mB of the potion at a time, and has the same
+effect as drinking a bottle of the potion. Potion effects applied to the wielder
+do not have particle effects.
+
 A filled hypoinfuser is capable of automatically infusing the wielder with the
 contained potion. This can be enabled and disabled by pressing "Cycle Item Mode"
 (V by default) while holding the hypoinfuser.
 
-An active hypoinfuser automatically infuses the wielder with the contained
-potion when the potion's effect is not yet applied, and when the effect is about
-to wear off. It infuses 50 mB of the potion at a time. The duration of the
-applied effect is one fourth of the contained potion's duration. Potions with
-instant effects are applied at half the power.
-
-Potion effects automatically applied by a hypoinfuser do not have particle
-effects.
+An active hypoinfuser keeps the wielder infused with the contained potion. It
+infuses 50 mB of the potion at a time (one fifth of a bottle). The duration of
+the applied effect is one fourth of the contained potion's duration. Potions
+with instant effects are applied at half the power.
 
 A filled hypoinfuser can be used on other players or
 [mobs](https://minecraft.gamepedia.com/Mob) to forcibly inject the potion into
 them. When used in this way, it infuses 250 mB of the potion at a time. The
 duration of the applied effect is half of the contained potion's duration.
 Potions with instant effects are applied at half the power.
+
+If [Baubles](https://www.curseforge.com/minecraft/mc-mods/baubles) is installed,
+hypoinfusers can be equipped as baubles in any slot.
+
+### Dyeing
+A hypoinfuser can be dyed by combining it with a
+[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+removed by combining the hypoinfuser with a [water
+bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
+item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
+worth of [water](https://minecraft.gamepedia.com/Water)).
 
 ### Enchantments
 A hypoinfuser can be enchanted with [Holding](/docs/holding/) to increase its
