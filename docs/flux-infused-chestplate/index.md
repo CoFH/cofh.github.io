@@ -35,7 +35,7 @@ to 4,000 RF/t.
 ### Defense
 A charged flux-infused chestplate offers the same protection as a [diamond
 chestplate](https://minecraft.gamepedia.com/Diamond_Chestplate). Instead of
-taking damage, a flux-infused chestplate consumes 160 RF per damage point per
+taking damage, a flux-infused chestplate consumes 200 RF per damage point per
 hit.
 
 When hit with flux damage (a special type of damage dealt by flux-infused

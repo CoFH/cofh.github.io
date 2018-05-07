@@ -38,7 +38,7 @@ to 4,000 RF/t.
 ### Defense
 A charged flux-infused helm offers the same protection as a [diamond
 helmet](https://minecraft.gamepedia.com/Diamond_Helmet). Instead of taking
-damage, a flux-infused helm consumes 160 RF per damage point per hit.
+damage, a flux-infused helm consumes 200 RF per damage point per hit.
 
 When hit with flux damage (a special type of damage dealt by flux-infused
 weapons), a flux-infused helm is charged with energy instead of consuming it.

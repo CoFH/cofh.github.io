@@ -24,7 +24,7 @@ Index
 * [Thermal Innovation](/docs/thermal-innovation/) - <span class="uk-text-small uk-text-success">up to date (0.2.1)</span>
 
 ### Other mods
-* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-warning">WIP (2.3.11 → 2.4.2)</span>
+* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (2.4.2)</span>
 
 
 Older versions

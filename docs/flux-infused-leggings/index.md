@@ -35,7 +35,7 @@ at rates up to 4,000 RF/t.
 ### Defense
 Charged flux-infused leggings offer the same protection as [diamond
 leggings](https://minecraft.gamepedia.com/Diamond_Leggings). Instead of taking
-damage, flux-infused leggings consume 160 RF per damage point per hit.
+damage, flux-infused leggings consume 200 RF per damage point per hit.
 
 When hit with flux damage (a special type of damage dealt by flux-infused
 weapons), flux-infused leggings are charged with energy instead of consuming it.
