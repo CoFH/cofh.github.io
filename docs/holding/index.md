@@ -37,7 +37,7 @@ energy:
 
 ### Thermal Innovation
 All equipment added by [Thermal Innovation](/docs/thermal-innovation/) can be
-enchanted to hold more energy or more of a fluid.
+enchanted to increase their capacity.
 
 ### Redstone Arsenal
 All equipment added by [Redstone Arsenal](/docs/redstone-arsenal/) can be

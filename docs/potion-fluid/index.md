@@ -56,3 +56,8 @@ players or [mobs](https://minecraft.gamepedia.com/Mob). It only works with
 regular potions; it does not work with [splash
 potions](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
 potions](https://minecraft.gamepedia.com/Lingering_Potion).
+
+### Alchemical Quiver
+An [alchemical quiver](/docs/alchemical-quiver/) can store a fluid potion and
+automatically imbue [arrows](https://minecraft.gamepedia.com/Arrow) with it,
+turning them into [tipped arrows](https://minecraft.gamepedia.com/Tipped_Arrow).

@@ -44,9 +44,8 @@ manually by using it on a block that can hold fluid potions, or automatically
 using a [fluid transposer](/docs/fluid-transposer/) or similar. It can also be
 filled by combining it with a potion in a crafting grid.
 
-A basic hypoinfuser can store up to 2
-[buckets](https://minecraft.gamepedia.com/Bucket) worth of a potion (2,000 mB).
-This can be increased by upgrading the hypoinfuser to a higher [tier](#tiers).
+A basic hypoinfuser can store up to 8 bottles worth of a potion (2,000 mB). This
+can be increased by upgrading the hypoinfuser to a higher [tier](#tiers).
 
 A hypoinfuser only works with regular potions; it does not work with [splash
 potions](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
@@ -104,14 +103,14 @@ Hypoinfusers come in six [tiers](/docs/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Capacity | Note |
+| Tier | Capacity | (bottles) | Note |
 |---
-| Basic | 2,000 mB |
-| Hardened | 6,000 mB |
-| Reinforced | 12,000 mB |
-| Signalum | 20,000 mB |
-| Resonant | 30,000 mB |
-| Creative | N/A | Provides an unlimited amount of the potion it holds. |
+| Basic | 2,000 mB | 8 |
+| Hardened | 6,000 mB | 24 |
+| Reinforced | 12,000 mB | 48 |
+| Signalum | 20,000 mB | 80 |
+| Resonant | 30,000 mB | 120 |
+| Creative | N/A | | Provides an unlimited amount of the potion it holds. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
