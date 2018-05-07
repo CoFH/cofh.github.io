@@ -62,11 +62,11 @@ pickaxe](https://minecraft.gamepedia.com/Iron_Pickaxe) or
 [shovel](https://minecraft.gamepedia.com/Iron_Shovel). It becomes more powerful
 when upgraded to a higher [tier](#tiers).
 
-At higher tiers, a charged fluxbore can be configured to mine multiple blocks at
-once in a certain area. When mining multiple blocks, a fluxbore works slightly
-slower. The current mining area of a fluxbore can be set by pressing "Cycle Item
-Mode" (V by default) while holding it. The following modes are available for
-mining multiple blocks, in order of how powerful they are:
+A charged fluxbore can be configured to mine multiple blocks at once in a
+certain area. When mining multiple blocks, a fluxbore works slightly slower. The
+current mining area of a fluxbore can be set by pressing "Cycle Item Mode" (V by
+default) while holding it. The following modes are available for mining multiple
+blocks, in order of how powerful they are:
 
 * Tunnel: 1x2
 * Area: 3x3
