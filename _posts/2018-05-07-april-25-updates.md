@@ -9,6 +9,10 @@ On April 25, new updates were released for [CoFH Core](/docs/cofh-core/), the
 [Thermal Series](/docs/#thermal-series) and [Redstone
 Arsenal](/docs/redstone-arsenal/).
 
+It took a while to update the documentation for these updates, which is why this
+post is also a bit late. The post for the next updates will probably be written
+before the docs are updated.
+
 #### General
 * Various refactors and bugfixes (see the [issue
   tracker](https://github.com/CoFH/Feedback/issues?q=is%3Aissue+is%3Aclosed+label%3Afixed+sort%3Aupdated-desc)).
@@ -99,9 +103,7 @@ Arsenal](/docs/redstone-arsenal/).
   [lava](https://minecraft.gamepedia.com/Lava) from
   [granite](https://minecraft.gamepedia.com/Granite) and
   [diorite](https://minecraft.gamepedia.com/Diorite).
-* Creating elemental powders using a [fluid transposer](/docs/fluid-transposer/)
-  is now more expensive:
-  * Increased energy cost to 16,000 RF.
+* [Fluid transposer](/docs/fluid-transposer/) elemental powder recipes changed:
   * [Essence of knowledge](/docs/essence-of-knowledge/) is used instead of
     [destabilized redstone](/docs/destabilized-redstone/).
   * [Blaze powder](https://minecraft.gamepedia.com/Blaze_Powder) requires 2
@@ -113,8 +115,6 @@ Arsenal](/docs/redstone-arsenal/).
     of [sand](https://minecraft.gamepedia.com/Sand).
   * [Basalz powder](/docs/basalz-powder/) requires 2 [pulverized
     obsidian](/docs/pulverized-obsidian/) instead of 1.
-* [Item](/docs/item-allocator/) and [fluid allocators](/docs/fluid-allocator/)
-  now move items and fluids every tick.
 * Active [dynamos](/docs/dynamos/) now have animated textures.
 * [Flux capacitors](/docs/flux-capacitor/) and [reservoirs](/docs/reservoir/)
   can be equipped as
