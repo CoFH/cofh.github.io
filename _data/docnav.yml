@@ -42,10 +42,44 @@ cofh-world:
   title: CoFH World
   url: cofh-world/
   sections:
-    - groups:
+    - title: Configuration
+      groups:
+        - title: Files
+          items:
+            - title: File structure
+            - title: Feature format
+        - title: Feature types
+          items:
+            - title: Cluster
+            - title: Sparse cluster
+            - title: Large vein
+            - title: Decoration
+            - title: Small tree
+            - title: Plate
+            - title: Boulder
+            - title: Lake
+            - title: Geode
+            - title: Spike
+            - title: Stalagmite
+            - title: Stalactite
+        - title: Distribution types
+          items:
+            - title: Uniform
+            - title: Gaussian
+            - title: Surface
+            - title: Decoration
+            - title: Underfluid
+            - title: Cave
+            - title: Fractal
+        - title: Common formats
+          items:
+            - title: Weighted array
+            - title: Random number generator
+            - title: Block info
+
+    - title: Other
+      groups:
         - items:
-            - title: World Generator Configuration
-              url: world-generator-configuration/
             - title: Commands
               url: cofh-world-commands/
 
