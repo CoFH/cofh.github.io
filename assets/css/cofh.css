@@ -238,28 +238,28 @@ table.cofh-navbox-table.cofh-navbox-subgroups-table {
 
 table.cofh-navbox-table th.cofh-navbox-title {
     background: #ddd;
-    padding: 3px;
+    padding: 3px 6px;
     text-align: center;
     vertical-align: middle;
 }
 
 table.cofh-navbox-table td.cofh-navbox-section-title {
     background: #eee;
-    padding: 3px;
+    padding: 3px 6px;
     text-align: center;
     vertical-align: middle;
 }
 
 table.cofh-navbox-table th.cofh-navbox-group-title {
     background: #eee;
-    padding: 3px;
+    padding: 3px 6px;
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
 }
 
 table.cofh-navbox-table td.cofh-navbox-group-items {
-    padding: 3px;
+    padding: 3px 6px;
 }
 
 table.cofh-navbox-table td.cofh-navbox-group-subgroups-container {

@@ -42,44 +42,69 @@ cofh-world:
   title: CoFH World
   url: cofh-world/
   sections:
-    - title: Configuration
-      groups:
-        - title: Files
+    - groups:
+        - title: Configuration
+          url: world-generator-configuration/
           items:
             - title: File structure
+              url: world-generator-configuration/file-structure/
             - title: Feature format
-        - title: Feature types
+              url: world-generator-configuration/feature-format/
+          groups:
+            - title: Feature types
+              url: world-generator-configuration/feature-types/
+              items:
+                - title: Cluster
+                  url: world-generator-configuration/feature-types/cluster/
+                - title: Sparse cluster
+                  url: world-generator-configuration/feature-types/sparse-cluster/
+                - title: Large vein
+                  url: world-generator-configuration/feature-types/large-vein/
+                - title: Decoration
+                  url: world-generator-configuration/feature-types/decoration/
+                - title: Small tree
+                  url: world-generator-configuration/feature-types/small-tree/
+                - title: Plate
+                  url: world-generator-configuration/feature-types/plate/
+                - title: Boulder
+                  url: world-generator-configuration/feature-types/boulder/
+                - title: Lake
+                  url: world-generator-configuration/feature-types/lake/
+                - title: Geode
+                  url: world-generator-configuration/feature-types/geode/
+                - title: Spike
+                  url: world-generator-configuration/feature-types/spike/
+                - title: Stalagmite
+                  url: world-generator-configuration/feature-types/stalagmite/
+                - title: Stalactite
+                  url: world-generator-configuration/feature-types/stalactite/
+            - title: Distribution types
+              url: world-generator-configuration/distribution-types/
+              items:
+                - title: Uniform
+                  url: world-generator-configuration/distribution-types/uniform/
+                - title: Gaussian
+                  url: world-generator-configuration/distribution-types/gaussian/
+                - title: Surface
+                  url: world-generator-configuration/distribution-types/surface/
+                - title: Decoration
+                  url: world-generator-configuration/distribution-types/decoration/
+                - title: Underfluid
+                  url: world-generator-configuration/distribution-types/underfluid/
+                - title: Cave
+                  url: world-generator-configuration/distribution-types/cave/
+                - title: Fractal
+                  url: world-generator-configuration/distribution-types/fractal/
+            - title: Common formats
+              items:
+                - title: Weighted array
+                  url: world-generator-configuration/weighted-array/
+                - title: Random number generator
+                  url: world-generator-configuration/random-number-generator/
+                - title: Block entry
+                  url: world-generator-configuration/block-entry/
+        - title: Other
           items:
-            - title: Cluster
-            - title: Sparse cluster
-            - title: Large vein
-            - title: Decoration
-            - title: Small tree
-            - title: Plate
-            - title: Boulder
-            - title: Lake
-            - title: Geode
-            - title: Spike
-            - title: Stalagmite
-            - title: Stalactite
-        - title: Distribution types
-          items:
-            - title: Uniform
-            - title: Gaussian
-            - title: Surface
-            - title: Decoration
-            - title: Underfluid
-            - title: Cave
-            - title: Fractal
-        - title: Common formats
-          items:
-            - title: Weighted array
-            - title: Random number generator
-            - title: Block info
-
-    - title: Other
-      groups:
-        - items:
             - title: Commands
               url: cofh-world-commands/
 
