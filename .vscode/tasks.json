@@ -8,28 +8,28 @@
                 "isDefault": true
             },
             "type": "shell",
-            "command": "rm -rf _site .jekyll-metadata && jekyll build",
+            "command": "rm -rf _site .jekyll-metadata && bundle exec jekyll build",
             "problemMatcher": []
         },
         {
             "label": "Build (Profile)",
             "group": "build",
             "type": "shell",
-            "command": "rm -rf _site .jekyll-metadata && jekyll build --profile",
+            "command": "rm -rf _site .jekyll-metadata && bundle exec jekyll build --profile",
             "problemMatcher": []
         },
         {
             "label": "Serve",
             "group": "none",
             "type": "shell",
-            "command": "rm -rf _site .jekyll-metadata && jekyll serve",
+            "command": "rm -rf _site .jekyll-metadata && bundle exec jekyll serve",
             "problemMatcher": []
         },
         {
             "label": "Serve (Incremental)",
             "group": "none",
             "type": "shell",
-            "command": "rm -rf _site .jekyll-metadata && jekyll serve -I",
+            "command": "rm -rf _site .jekyll-metadata && bundle exec jekyll serve -I",
             "problemMatcher": []
         }
     ]
