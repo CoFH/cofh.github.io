@@ -46,8 +46,8 @@ cofh-world:
         - title: Configuration
           url: world-generator-configuration/
           items:
-            - title: File structure
-              url: world-generator-configuration/file-structure/
+            - title: Files
+              url: world-generator-configuration/files/
             - title: Feature format
               url: world-generator-configuration/feature-format/
           groups:
@@ -98,11 +98,11 @@ cofh-world:
             - title: Common formats
               items:
                 - title: Weighted array
-                  url: world-generator-configuration/weighted-array/
+                  url: world-generator-configuration/common-formats/weighted-array/
                 - title: Random number generator
-                  url: world-generator-configuration/random-number-generator/
-                - title: Block entry
-                  url: world-generator-configuration/block-entry/
+                  url: world-generator-configuration/common-formats/random-number-generator/
+                - title: Block ID
+                  url: world-generator-configuration/common-formats/block-id/
         - title: Other
           items:
             - title: Commands
