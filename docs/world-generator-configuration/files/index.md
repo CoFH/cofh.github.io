@@ -70,7 +70,7 @@ Forge mod entries are objects with the following values.
             <tr>
                 <td markdown="span">`id`</td>
                 <td>String</td>
-                <td>N/A</td>
+                <td>-</td>
                 <td>The internal mod ID that the mod registers itself with.</td>
             </tr>
             <tr>
@@ -95,8 +95,8 @@ Forge mod entries are objects with the following values.
     </table>
 </div>
 
-A Forge mod entry may also be specified as a single string. In that case, it is
-read as the `id` value.
+A Forge mod entry may also be specified as a string. In that case, it is read as
+the `id` value.
 
 
 Examples
