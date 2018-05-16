@@ -3,9 +3,9 @@ title: Feature format
 nav: cofh-world
 ---
 
-This page describes the [JSON](http://www.json.org/) format that is used to
-describe features to generate in the world. Features are described inside the
-`populate` value of [world generation
+This page describes the [JSON](http://www.json.org/) format that [CoFH
+World](/docs/cofh-world/) uses for describing features to generate in the world.
+Features are described inside the `populate` value of [world generation
 files](/docs/world-generator-configuration/files/).
 
 
