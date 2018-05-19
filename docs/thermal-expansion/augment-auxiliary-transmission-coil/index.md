@@ -1,0 +1,49 @@
+---
+title: 'Augment: Auxiliary Transmission Coil'
+nav: thermal-expansion
+image:
+- alt: Auxiliary transmission coil augment
+  file: thermal-expansion/augment-dynamo-power.png
+redirect_from:
+  - /docs/thermal-expansion/augments/dynamo-power-output/
+  - /docs/augment-auxiliary-transmission-coil/
+recipes:
+  crafting:
+    - augment-dynamo-power
+---
+
+An **auxiliary transmission coil** is an [augment](/docs/augments/) that
+increases the maximum power output of a [dynamo](/docs/dynamos/), thereby
+increasing its energy production speed.
+
+
+Obtaining
+---------
+
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Installation
+An auxiliary transmission coil can be installed in the Augmentation tab in a
+[dynamo](/docs/dynamos/)'s GUI. It can be installed multiple times, stacking its
+effects.
+
+### Effects
+Installed auxiliary transmission coils increase a [dynamo](/docs/dynamos/)'s
+maximum power output, thereby increasing its energy production speed.
+
+{::options parse_block_html="true" /}
+<div class="uk-overflow-container">
+| Installed amount | Max. power output multiplier |
+|---
+| 1 | × 2 |
+| 2 | × 3 |
+| 3 | × 4 |
+| 4 | × 5 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+</div>
+{::options parse_block_html="false" /}
