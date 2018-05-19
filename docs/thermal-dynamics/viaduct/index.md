@@ -59,7 +59,7 @@ time by sneaking.
 
 Players in a viaduct move at a speed of 10 blocks per second (2 ticks per
 block). The speed may be increased by using [long range
-viaducts](/docs/long-range-viaduct/).
+viaducts](/docs/thermal-dynamics/long-range-viaduct/).
 
 
 ### Fluid Transposer ingredient

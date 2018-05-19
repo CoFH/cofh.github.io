@@ -12,8 +12,8 @@ recipes:
 
 
 A **thermal mediator** (also known as a **heat sink**) is a
-[device](/docs/devices/) that uses [coolants](/docs/coolants/) to speed up
-adjacent [machines](/docs/machines/) and [dynamos](/docs/dynamos/).
+[device](/docs/thermal-expansion/devices/) that uses [coolants](/docs/thermal-expansion/coolants/) to speed up
+adjacent [machines](/docs/thermal-expansion/machines/) and [dynamos](/docs/thermal-expansion/dynamos/).
 
 
 Obtaining
@@ -35,14 +35,14 @@ When placed, a thermal mediator faces the player. It can face any of the four
 cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 ### Operation
-When a fluid [coolant](/docs/coolants/) is supplied to a thermal mediator, it
-will begin consuming it to speed up any adjacent [machines](/docs/machines/) and
-[dynamos](/docs/dynamos/). The rate at which coolant is consumed depends on the
-[thermal capacity](/docs/coolants/#usage) of the used coolant.
+When a fluid [coolant](/docs/thermal-expansion/coolants/) is supplied to a thermal mediator, it
+will begin consuming it to speed up any adjacent [machines](/docs/thermal-expansion/machines/) and
+[dynamos](/docs/thermal-expansion/dynamos/). The rate at which coolant is consumed depends on the
+[thermal capacity](/docs/thermal-expansion/coolants/#usage) of the used coolant.
 
 Every tick, blocks adjacent to an active thermal mediator have a chance to
 perform additional work during that tick. This chance is equal to the [coolant
-factor](/docs/coolants/#usage) of the used coolant.
+factor](/docs/thermal-expansion/coolants/#usage) of the used coolant.
 
 ### Input
 Fluids can enter a thermal mediator through its sides. Which sides of the device
@@ -67,10 +67,10 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 A thermal mediator can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A thermal mediator's configuration can be saved on a [redprint](/docs/redprint/)
+A thermal mediator's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
 to be copied to other thermal mediators.
 
 ### Light source

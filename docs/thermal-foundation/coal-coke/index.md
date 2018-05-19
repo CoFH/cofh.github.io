@@ -22,9 +22,9 @@ usage-recipes:
 
 **Coal coke** is a material obtained by processing
 [coal](https://minecraft.gamepedia.com/Coal) in a [redstone
-furnace](/docs/redstone-furnace/) with [pyrolytic
-conversion](/docs/augment-pyrolytic-conversion/) installed. It can be used as
-fuel, or as an ingredient to produce [steel](/docs/steel-ingot/).
+furnace](/docs/thermal-expansion/redstone-furnace/) with [pyrolytic
+conversion](/docs/thermal-expansion/augment-pyrolytic-conversion/) installed. It can be used as
+fuel, or as an ingredient to produce [steel](/docs/thermal-foundation/steel-ingot/).
 
 
 Obtaining

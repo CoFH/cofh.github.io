@@ -17,7 +17,7 @@ usage-recipes:
 ---
 
 **Blocks of mana infused metal** are blocks made from [mana infused
-ingots](/docs/mana-infused-ingot/).
+ingots](/docs/thermal-foundation/mana-infused-ingot/).
 
 
 Obtaining
@@ -30,8 +30,8 @@ pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better.
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Primal Mana
-When [primal mana](/docs/primal-mana/) touches a [block of
-silver](/docs/block-of-silver/), the block is turned into a block of mana
+When [primal mana](/docs/thermal-foundation/primal-mana/) touches a [block of
+silver](/docs/thermal-foundation/block-of-silver/), the block is turned into a block of mana
 infused metal.
 
 
@@ -40,7 +40,7 @@ Usage
 
 ### Storage
 Blocks of mana infused metal can be used to store [mana infused
-ingots](/docs/mana-infused-ingot/) in a compact way.
+ingots](/docs/thermal-foundation/mana-infused-ingot/) in a compact way.
 
 ### Light source
 Blocks of mana infused metal emit a light level of 8.

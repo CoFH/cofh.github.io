@@ -24,8 +24,8 @@ usage-recipes:
 
 
 **Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
-[platinum](/docs/platinum-ingot/) and small amounts of
-[iridium](/docs/iridium-ingot/). It is unobtainable by default.
+[platinum](/docs/thermal-foundation/platinum-ingot/) and small amounts of
+[iridium](/docs/thermal-foundation/iridium-ingot/). It is unobtainable by default.
 
 
 Obtaining

@@ -14,7 +14,7 @@ recipes:
 > Refactor your storage!
 
 
-A **factorizer** is a [device](/docs/devices/) that combines and splits various
+A **factorizer** is a [device](/docs/thermal-expansion/devices/) that combines and splits various
 items.
 
 
@@ -80,11 +80,11 @@ High
 The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
-A factorizer can have a [signalum security lock](/docs/signalum-security-lock/)
+A factorizer can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Redprints
-A factorizer's configuration can be saved on a [redprint](/docs/redprint/) to be
+A factorizer's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
 copied to other factorizers.
 
 ### Light source

@@ -51,7 +51,7 @@ A satchel can be opened by using it. When opened, items can be put in or taken
 out, like with [chests](https://minecraft.gamepedia.com/Chest).
 
 Satchels cannot store certain items that can themselves store items, like other
-satchels or [strongboxes](/docs/strongbox/).
+satchels or [strongboxes](/docs/thermal-expansion/strongbox/).
 
 ### Item transfer
 A satchel's contents can be transferred into a block that stores items by using
@@ -93,11 +93,11 @@ item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
 worth of [water](https://minecraft.gamepedia.com/Water)).
 
 ### Security
-A satchel can have a [signalum security lock](/docs/signalum-security-lock/)
+A satchel can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Enchantments
-A satchel can be enchanted with [Holding](/docs/holding/) to increase its
+A satchel can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity increase (slots) |
@@ -113,7 +113,7 @@ Types
 -----
 
 There are seven different satchel types, most of which are
-[tiers](/docs/tiers/).
+[tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

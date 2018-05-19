@@ -32,7 +32,7 @@ usage-recipes:
 
 
 **Pyrotheum dust** is the fire elemental dust. It is most commonly used to make
-[blazing pyrotheum](/docs/blazing-pyrotheum/). It can also be used to process
+[blazing pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/). It can also be used to process
 metal ores, and is used in several advanced crafting recipes.
 
 
@@ -62,7 +62,7 @@ items. It lasts just as long as [blaze
 rods](https://minecraft.gamepedia.com/Blaze_Rod).
 
 ### Reactant Dynamo fuel
-When used together with 100 mB of [gelid cryotheum](/docs/gelid-cryotheum/) as
-fuel in a [reactant dynamo](/docs/reactant-dynamo/), pyrotheum dust yields
+When used together with 100 mB of [gelid cryotheum](/docs/thermal-foundation/gelid-cryotheum/) as
+fuel in a [reactant dynamo](/docs/thermal-expansion/reactant-dynamo/), pyrotheum dust yields
 400,000 RF per piece, or 500,000 RF if an [elemental
-catalyzer](/docs/augment-elemental-catalyzer/) is installed.
+catalyzer](/docs/thermal-expansion/augment-elemental-catalyzer/) is installed.

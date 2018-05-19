@@ -19,20 +19,20 @@ usage-recipes:
 
 **Resin** is a fluid obtained from spruce, birch, jungle and acacia
 [trees](https://minecraft.gamepedia.com/Tree). It can be processed into [tree
-oil](/docs/tree-oil/) and [rosin](/docs/rosin/).
+oil](/docs/thermal-foundation/tree-oil/) and [rosin](/docs/thermal-foundation/rosin/).
 
 
 Obtaining
 ---------
 
 ### Arboreal Extractor
-An [arboreal extractor](/docs/arboreal-extractor/) will produce resin when
+An [arboreal extractor](/docs/thermal-expansion/arboreal-extractor/) will produce resin when
 placed next to a spruce, birch, jungle or acacia
 [tree](https://minecraft.gamepedia.com/Tree). Spruce trees produce twice as much
 resin as other trees.
 
 ### Sawmill with Resin Funnel
-A [sawmill](/docs/sawmill/) with a [resin funnel](/docs/augment-resin-funnel/)
+A [sawmill](/docs/thermal-expansion/sawmill/) with a [resin funnel](/docs/thermal-expansion/augment-resin-funnel/)
 installed produces resin as a byproduct when processing spruce, birch, jungle or
 acacia [wood](https://minecraft.gamepedia.com/Wood). Spruce wood yields twice as
 much resin as other types of wood.

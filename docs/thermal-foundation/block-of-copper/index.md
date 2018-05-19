@@ -17,7 +17,7 @@ usage-recipes:
     - ingot-copper-from-block
 ---
 
-**Blocks of copper** are blocks made from [copper ingots](/docs/copper-ingot/).
+**Blocks of copper** are blocks made from [copper ingots](/docs/thermal-foundation/copper-ingot/).
 
 
 Obtaining
@@ -34,7 +34,7 @@ Usage
 -----
 
 ### Storage
-Blocks of copper can be used to store [copper ingots](/docs/copper-ingot/) in a
+Blocks of copper can be used to store [copper ingots](/docs/thermal-foundation/copper-ingot/) in a
 compact way.
 
 ### Mob spawning

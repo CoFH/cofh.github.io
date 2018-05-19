@@ -16,7 +16,7 @@ usage-recipes:
 
 
 **Aluminum plates** are crafting materials made of
-[aluminum](/docs/aluminum-ingot/). They are currently not used for anything.
+[aluminum](/docs/thermal-foundation/aluminum-ingot/). They are currently not used for anything.
 
 
 Obtaining

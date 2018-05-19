@@ -11,8 +11,8 @@ recipes:
     - augment-machine-extruder-no-water
 ---
 
-A **pyroclastic injection** [augment](/docs/augments/) allows for an [igneous
-extruder](/docs/igneous-extruder/) to work without cold fluids
+A **pyroclastic injection** [augment](/docs/thermal-expansion/augments/) allows for an [igneous
+extruder](/docs/thermal-expansion/igneous-extruder/) to work without cold fluids
 ([water](https://minecraft.gamepedia.com/Water)).
 
 
@@ -28,11 +28,11 @@ Usage
 
 ### Installation
 A pyroclastic injection augment can be installed in the Augmentation tab in an
-[igneous extruder](/docs/igneous-extruder/)'s GUI. It is a specialization that
+[igneous extruder](/docs/thermal-expansion/igneous-extruder/)'s GUI. It is a specialization that
 cannot be installed together with other specialization augments.
 
 ### Effects
-An [igneous extruder](/docs/igneous-extruder/) with pyroclastic injection
+An [igneous extruder](/docs/thermal-expansion/igneous-extruder/) with pyroclastic injection
 installed does not require cold fluids
 ([water](https://minecraft.gamepedia.com/Water)) to work; it only requires hot
 fluids ([lava](https://minecraft.gamepedia.com/Lava)).

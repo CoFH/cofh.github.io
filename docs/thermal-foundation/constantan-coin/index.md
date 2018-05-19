@@ -12,8 +12,8 @@ recipes:
 ![Constantan coin](/assets/images/thermal-foundation/coin-constantan.png){:style="height: 128px"}
 
 
-**Constantan coins** are materials made of [constantan](/docs/constantan-ingot/)
-that can be used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/).
+**Constantan coins** are materials made of [constantan](/docs/thermal-foundation/constantan-ingot/)
+that can be used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -27,5 +27,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/), constantan
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), constantan
 coins yield 45,000 RF each.

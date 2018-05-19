@@ -36,7 +36,7 @@ usage-recipes:
 
 
 **Pulverized silver** is a raw material. It is the dust form of
-[silver](/docs/silver-ingot/).
+[silver](/docs/thermal-foundation/silver-ingot/).
 
 
 Obtaining

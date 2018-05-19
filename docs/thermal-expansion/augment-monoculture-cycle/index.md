@@ -11,8 +11,8 @@ recipes:
     - augment-machine-insolator-monoculture
 ---
 
-A **monoculture cycle** [augment](/docs/augments/) changes a [phytogenic
-insolator](/docs/phytogenic-insolator/) to not consume non-fertilizer inputs,
+A **monoculture cycle** [augment](/docs/thermal-expansion/augments/) changes a [phytogenic
+insolator](/docs/thermal-expansion/phytogenic-insolator/) to not consume non-fertilizer inputs,
 simplifying the automation of producing a certain plant.
 
 
@@ -28,13 +28,13 @@ Usage
 
 ### Installation
 A monoculture cycle augment can be installed in the Augmentation tab in a
-[phytogenic insolator](/docs/phytogenic-insolator/)'s GUI. It is a
+[phytogenic insolator](/docs/thermal-expansion/phytogenic-insolator/)'s GUI. It is a
 specialization that cannot be installed together with other specialization
 augments.
 
 ### Effects
 An installed monoculture cycle augment changes a [phytogenic
-insolator](/docs/phytogenic-insolator/) so that it does not consume
+insolator](/docs/thermal-expansion/phytogenic-insolator/) so that it does not consume
 non-fertilizer inputs (like plant seeds). This allows the machine to keep
 producing the same plant using only fertilizer and
 [water](https://minecraft.gamepedia.com/Water). The augment also provides a 10%

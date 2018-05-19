@@ -24,8 +24,8 @@ usage-recipes:
 
 
 **Iridium ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
-[iridium](/docs/iridium-ingot/) and small amounts of
-[platinum](/docs/platinum-ingot/). It is unobtainable by default.
+[iridium](/docs/thermal-foundation/iridium-ingot/) and small amounts of
+[platinum](/docs/thermal-foundation/platinum-ingot/). It is unobtainable by default.
 
 
 Obtaining

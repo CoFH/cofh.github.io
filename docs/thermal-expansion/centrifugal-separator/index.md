@@ -34,7 +34,7 @@ recipe-list:
 
 
 A **centrifugal separator**, or **centrifuge** for short, is a
-[machine](/docs/machines/) that separates items into their components.
+[machine](/docs/thermal-expansion/machines/) that separates items into their components.
 
 
 Obtaining
@@ -50,8 +50,8 @@ this can be much slower.
 
 ### Upgrading
 A centrifugal separator is initially at the lowest [tier](#tiers) (basic). It
-can be upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+can be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -117,11 +117,11 @@ still processing an item, it will finish processing that item before stopping.
 
 ### Security
 A centrifugal separator can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A centrifugal separator's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other centrifuges.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other centrifuges.
 
 ### Light source
 When a centrifugal separator is active, it emits a light level of 4.
@@ -130,7 +130,7 @@ When a centrifugal separator is active, it emits a light level of 4.
 Tiers
 -----
 
-Centrifugal separators come in five [tiers](/docs/tiers/).
+Centrifugal separators come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -149,7 +149,7 @@ Centrifugal separators come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-A centrifugal separator can have [augments](/docs/augments/) installed to
+A centrifugal separator can have [augments](/docs/thermal-expansion/augments/) installed to
 improve certain properties or to change how it works. The amount of augments
 that can be installed depends on the machine's [tier](#tiers). A basic
 centrifuge cannot be augmented.

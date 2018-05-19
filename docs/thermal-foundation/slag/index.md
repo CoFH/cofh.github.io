@@ -69,7 +69,7 @@ usage-recipes:
 
 
 **Slag** is a material obtained as a byproduct from [induction
-smelters](/docs/induction-smelter/).
+smelters](/docs/thermal-expansion/induction-smelter/).
 
 
 Obtaining

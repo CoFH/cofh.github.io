@@ -23,7 +23,7 @@ usage-recipes:
 
 
 **Copper nuggets** are raw materials. They are the nugget form of
-[copper](/docs/copper-ingot/).
+[copper](/docs/thermal-foundation/copper-ingot/).
 
 
 Obtaining

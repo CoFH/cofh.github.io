@@ -17,7 +17,7 @@ usage-recipes:
 ---
 
 **Blocks of constantan** are blocks made from [constantan
-ingots](/docs/constantan-ingot/).
+ingots](/docs/thermal-foundation/constantan-ingot/).
 
 
 Obtaining
@@ -35,7 +35,7 @@ Usage
 
 ### Storage
 Blocks of constantan can be used to store [constantan
-ingots](/docs/constantan-ingot/) in a compact way.
+ingots](/docs/thermal-foundation/constantan-ingot/) in a compact way.
 
 ### Mob spawning
 Mobs will not spawn on top of blocks of constantan.

@@ -47,9 +47,9 @@ usage-recipes:
 
 
 **Rich slag** is a material obtained as a byproduct from [induction
-smelters](/docs/induction-smelter/). It can be used to process ores more
+smelters](/docs/thermal-expansion/induction-smelter/). It can be used to process ores more
 efficiently in an induction smelter, or to craft [rich
-Phyto-Gro](/docs/rich-phyto-gro/).
+Phyto-Gro](/docs/thermal-foundation/rich-phyto-gro/).
 
 
 Obtaining

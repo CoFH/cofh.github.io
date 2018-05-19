@@ -29,7 +29,7 @@ usage-recipes:
 
 
 **Pulverized lead** is a raw material. It is the dust form of
-[lead](/docs/lead-ingot/).
+[lead](/docs/thermal-foundation/lead-ingot/).
 
 
 Obtaining

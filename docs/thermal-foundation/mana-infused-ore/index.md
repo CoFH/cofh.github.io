@@ -24,7 +24,7 @@ usage-recipes:
 
 
 **Mana infused ore** is an [ore](https://minecraft.gamepedia.com/Ore) that
-yields [mana infused metal](/docs/mana-infused-ingot/) and small amounts of
+yields [mana infused metal](/docs/thermal-foundation/mana-infused-ingot/) and small amounts of
 [gold](https://minecraft.gamepedia.com/Gold_Ingot). It is unobtainable by
 default.
 

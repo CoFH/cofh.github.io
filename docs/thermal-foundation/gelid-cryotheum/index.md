@@ -27,8 +27,8 @@ usage-recipes:
 
 
 **Gelid cryotheum** is the ice elemental fluid. It is obtained by melting
-[cryotheum dust](/docs/cryotheum-dust/) in a [magma
-crucible](/docs/magma-crucible/).
+[cryotheum dust](/docs/thermal-foundation/cryotheum-dust/) in a [magma
+crucible](/docs/thermal-expansion/magma-crucible/).
 
 
 Obtaining
@@ -73,14 +73,14 @@ Gelid cryotheum has the following effects on certain blocks and mobs:
 * [grass](https://minecraft.gamepedia.com/Grass) and
   [leaves](https://minecraft.gamepedia.com/Leaves) are instantly destroyed;
 * [fire](https://minecraft.gamepedia.com/Fire) is extinguished;
-* [energized glowstone](/docs/energized-glowstone/) source blocks are turned
+* [energized glowstone](/docs/thermal-foundation/energized-glowstone/) source blocks are turned
   into [glowstone](https://minecraft.gamepedia.com/Glowstone);
 * [zombies](https://minecraft.gamepedia.com/Zombie) and
   [creepers](https://minecraft.gamepedia.com/Creeper) are turned into [snow
   golems](https://minecraft.gamepedia.com/Snow_Golem);
 * [blazes](https://minecraft.gamepedia.com/Blaze) take 10 damage instead of 2;
 * [snow golems](https://minecraft.gamepedia.com/Snow_Golem) and
-  [blizzes](/docs/blizz/) are given the effects [Speed
+  [blizzes](/docs/thermal-foundation/blizz/) are given the effects [Speed
   I](https://minecraft.gamepedia.com/Status_effect#Speed) and [Regeneration
   I](https://minecraft.gamepedia.com/Status_effect#Regeneration) for 6 seconds.
 
@@ -88,15 +88,15 @@ Gelid cryotheum has the following effects on certain blocks and mobs:
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 If another mod registers a cinnabar ore block, it can be processed into 2 pieces
-of [cinnabar](/docs/cinnabar/) using 200 mB of gelid cryotheum and 2,000 RF.
+of [cinnabar](/docs/thermal-foundation/cinnabar/) using 200 mB of gelid cryotheum and 2,000 RF.
 
 ### Reactant Dynamo fuel
-When used together with [pyrotheum dust](/docs/pyrotheum-dust/) as fuel in a
-[reactant dynamo](/docs/reactant-dynamo/), 100 mB of gelid cryotheum yields
+When used together with [pyrotheum dust](/docs/thermal-foundation/pyrotheum-dust/) as fuel in a
+[reactant dynamo](/docs/thermal-expansion/reactant-dynamo/), 100 mB of gelid cryotheum yields
 400,000 RF, or 500,000 RF if an [elemental
-catalyzer](/docs/augment-elemental-catalyzer/) is installed.
+catalyzer](/docs/thermal-expansion/augment-elemental-catalyzer/) is installed.
 
 ### Coolant
-Gelid cryotheum is a very effective [coolant](/docs/coolants/). It is 3 times as
+Gelid cryotheum is a very effective [coolant](/docs/thermal-expansion/coolants/). It is 3 times as
 effective and lasts 12 times as long as
 [water](https://minecraft.gamepedia.com/Water).

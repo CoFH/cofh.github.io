@@ -16,7 +16,7 @@ usage-recipes:
 ---
 
 A **structuralduct** is a decorative block that connects to most other ducts. It
-is most commonly used to craft [covers](/docs/covers/).
+is most commonly used to craft [covers](/docs/thermal-dynamics/covers/).
 
 
 Obtaining

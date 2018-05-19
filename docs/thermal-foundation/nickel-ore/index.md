@@ -24,8 +24,8 @@ usage-recipes:
 
 
 **Nickel ore** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
-yields [nickel](/docs/nickel-ingot/) and small amounts of
-[platinum](/docs/platinum-ingot/).
+yields [nickel](/docs/thermal-foundation/nickel-ingot/) and small amounts of
+[platinum](/docs/thermal-foundation/platinum-ingot/).
 
 
 Obtaining
@@ -61,4 +61,4 @@ Trivia
 
 * Nickel ore is generated in the world using [CoFH World](/docs/cofh-world/) by
   default. The world generation can be tweaked or disabled using CoFH World's
-  [configuration](/docs/world-generator-configuration/).
+  [configuration](/docs/cofh-world/world-generator-configuration/).

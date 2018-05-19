@@ -17,7 +17,7 @@ usage-recipes:
 ![Lumium plate](/assets/images/thermal-foundation/plate-lumium.png){:style="height: 128px"}
 
 
-**Lumium plates** are crafting materials made of [lumium](/docs/lumium-ingot/).
+**Lumium plates** are crafting materials made of [lumium](/docs/thermal-foundation/lumium-ingot/).
 
 
 Obtaining

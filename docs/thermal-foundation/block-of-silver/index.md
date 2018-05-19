@@ -16,7 +16,7 @@ usage-recipes:
     - ingot-silver-from-block
 ---
 
-**Blocks of silver** are blocks made from [silver ingots](/docs/silver-ingot/).
+**Blocks of silver** are blocks made from [silver ingots](/docs/thermal-foundation/silver-ingot/).
 
 
 Obtaining
@@ -33,7 +33,7 @@ Usage
 -----
 
 ### Storage
-Blocks of silver can be used to store [silver ingots](/docs/silver-ingot/) in a
+Blocks of silver can be used to store [silver ingots](/docs/thermal-foundation/silver-ingot/) in a
 compact way.
 
 ### Light source
@@ -50,5 +50,5 @@ Blocks of silver can be used to build
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Primal Mana
-When [primal mana](/docs/primal-mana/) touches a block of silver, the block is
-turned into a [block of mana infused metal](/docs/block-of-mana-infused-metal/).
+When [primal mana](/docs/thermal-foundation/primal-mana/) touches a block of silver, the block is
+turned into a [block of mana infused metal](/docs/thermal-foundation/block-of-mana-infused-metal/).

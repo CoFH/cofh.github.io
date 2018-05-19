@@ -21,7 +21,7 @@ usage-recipes:
     - itemduct-energy-fast
 ---
 
-A **signalum-plated itemduct** is a type of [itemduct](/docs/itemduct/) that
+A **signalum-plated itemduct** is a type of [itemduct](/docs/thermal-dynamics/itemduct/) that
 transfers both items and [Redstone Flux](/docs/redstone-flux/).
 
 
@@ -37,8 +37,8 @@ Usage
 
 ### Item and energy transfer
 A signalum-plated itemduct works the same way as a regular
-[itemduct](/docs/itemduct/). However, it also transfers [Redstone
-Flux](/docs/redstone-flux/) like a [fluxduct](/docs/fluxducts/), at up to 4,000
+[itemduct](/docs/thermal-dynamics/itemduct/). However, it also transfers [Redstone
+Flux](/docs/redstone-flux/) like a [fluxduct](/docs/thermal-dynamics/fluxducts/), at up to 4,000
 RF/t per connection.
 
 ### Fluid Transposer ingredient

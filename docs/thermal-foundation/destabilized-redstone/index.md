@@ -40,7 +40,7 @@ usage-recipes:
 
 **Destabilized redstone** is a fluid obtained by melting
 [redstone](https://minecraft.gamepedia.com/Redstone) in a [magma
-crucible](/docs/magma-crucible/).
+crucible](/docs/thermal-expansion/magma-crucible/).
 
 
 Obtaining
@@ -56,7 +56,7 @@ Obtaining
 {% include recipe-table.html type='centrifuge' recipes=page.recipes.centrifuge %}
 
 ### Natural generation
-Deposits of [destabilized redstone ore](/docs/destabilized-redstone-ore/) may
+Deposits of [destabilized redstone ore](/docs/thermal-foundation/destabilized-redstone-ore/) may
 contain some destabilized redstone, which can be picked up using a
 [bucket](https://minecraft.gamepedia.com/Bucket).
 
@@ -91,7 +91,7 @@ wart](https://minecraft.gamepedia.com/Nether_Wart),
 [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [blaze
 powder](https://minecraft.gamepedia.com/Blaze_Powder) or [ghast
 tears](https://minecraft.gamepedia.com/Ghast_Tear) in a [reactant
-dynamo](/docs/reactant-dynamo/) to generate varying amounts of energy.
+dynamo](/docs/thermal-expansion/reactant-dynamo/) to generate varying amounts of energy.
 
 
 Trivia
@@ -100,5 +100,5 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, destabilized redstone can be mixed with molten
-  [copper](/docs/copper-ingot/) and molten [silver](/docs/silver-ingot/) in a
-  smeltery to make molten [signalum](/docs/signalum-ingot/).
+  [copper](/docs/thermal-foundation/copper-ingot/) and molten [silver](/docs/thermal-foundation/silver-ingot/) in a
+  smeltery to make molten [signalum](/docs/thermal-foundation/signalum-ingot/).

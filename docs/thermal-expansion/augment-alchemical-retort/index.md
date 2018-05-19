@@ -11,9 +11,9 @@ recipes:
     - augment-machine-refinery-potion
 ---
 
-An **alchemical retort** is an [augment](/docs/augments/) that allows for a
-[fractionating still](/docs/fractionating-still/) to refine [fluid
-potions](/docs/potion-fluid/), increasing their potency to levels that cannot be
+An **alchemical retort** is an [augment](/docs/thermal-expansion/augments/) that allows for a
+[fractionating still](/docs/thermal-expansion/fractionating-still/) to refine [fluid
+potions](/docs/thermal-foundation/potion-fluid/), increasing their potency to levels that cannot be
 obtained through [brewing](https://minecraft.gamepedia.com/Brewing).
 
 
@@ -29,16 +29,16 @@ Usage
 
 ### Installation
 An alchemical retort can be installed in the Augmentation tab in a
-[fractionating still](/docs/fractionating-still/)'s GUI. It is a specialization
+[fractionating still](/docs/thermal-expansion/fractionating-still/)'s GUI. It is a specialization
 that cannot be installed together with other specialization augments.
 
 ### Effects
-A [fractionating still](/docs/fractionating-still/) with an alchemical retort
-installed can refine level II [fluid potions](/docs/potion-fluid/) to increase
-their potency to [levels up to IV](/docs/cofh-core-potions/#stronger-potions).
+A [fractionating still](/docs/thermal-expansion/fractionating-still/) with an alchemical retort
+installed can refine level II [fluid potions](/docs/thermal-foundation/potion-fluid/) to increase
+their potency to [levels up to IV](/docs/cofh-core/potions/#stronger-potions).
 It can also refine the extended versions of potions (brewed using
 [redstone](https://minecraft.gamepedia.com/Redstone)) to increase their potency
-to [levels up to III](/docs/cofh-core-potions/#stronger-potions). However, the
+to [levels up to III](/docs/cofh-core/potions/#stronger-potions). However, the
 machine cannot process anything other than potions.
 
 Refining a fluid potion requires 2,500 RF per operation. The amount of fluid

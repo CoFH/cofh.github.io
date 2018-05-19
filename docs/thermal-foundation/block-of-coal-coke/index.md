@@ -16,7 +16,7 @@ usage-recipes:
     - coal-coke-from-block
 ---
 
-**Blocks of coal coke** are blocks made from [coal coke](/docs/coal-coke/).
+**Blocks of coal coke** are blocks made from [coal coke](/docs/thermal-foundation/coal-coke/).
 
 
 Obtaining
@@ -36,7 +36,7 @@ Usage
 -----
 
 ### Storage
-Blocks of coal coke can be used to store [coal coke](/docs/coal-coke/) in a
+Blocks of coal coke can be used to store [coal coke](/docs/thermal-foundation/coal-coke/) in a
 compact way.
 
 ### Fuel

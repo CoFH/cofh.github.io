@@ -29,8 +29,8 @@ recipes:
     - retriever-resonant-upgrade
 ---
 
-**Retrievers** are items that can be installed on [itemduct](/docs/itemduct/)
-and [fluiduct](/docs/fluiduct/) connections. They pull items or fluids towards
+**Retrievers** are items that can be installed on [itemduct](/docs/thermal-dynamics/itemduct/)
+and [fluiduct](/docs/thermal-dynamics/fluiduct/) connections. They pull items or fluids towards
 themselves from other blocks connected to the duct network.
 
 
@@ -48,18 +48,18 @@ Usage
 -----
 
 ### Installation
-A retriever can be installed on an [itemduct](/docs/itemduct/) or
-[fluiduct](/docs/fluiduct/) connection by using it on the connection. It can be
+A retriever can be installed on an [itemduct](/docs/thermal-dynamics/itemduct/) or
+[fluiduct](/docs/thermal-dynamics/fluiduct/) connection by using it on the connection. It can be
 removed by using a [wrench](/docs/wrenches/) on it.
 
 ### Configuration
 An installed retriever can be configured by using it. The available options
-depend on whether the retriever is installed on an [itemduct](/docs/itemduct/)
-or on a [fluiduct](/docs/fluiduct/).
+depend on whether the retriever is installed on an [itemduct](/docs/thermal-dynamics/itemduct/)
+or on a [fluiduct](/docs/thermal-dynamics/fluiduct/).
 
-A retriever's configuration can be saved on a [redprint](/docs/redprint/) to be
-copied to other retrievers, [servos](/docs/servos/) or
-[filters](/docs/filters/).
+A retriever's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
+copied to other retrievers, [servos](/docs/thermal-dynamics/servos/) or
+[filters](/docs/thermal-dynamics/filters/).
 
 ### Redstone control
 By default, a retriever is only active when powered with
@@ -76,7 +76,7 @@ High
 : The retriever is only active when powered. This is the default mode.
 
 ### Item transfer
-When installed on an [itemduct](/docs/itemduct/) connection, an active retriever
+When installed on an [itemduct](/docs/thermal-dynamics/itemduct/) connection, an active retriever
 extracts items from blocks in the network and inserts them into the block it is
 connected to.
 
@@ -121,12 +121,12 @@ items from certain blocks in the network.
 Nearest-First
 : Items are extracted from the connected block that has the shortest path to it
 first, taking into account [dense and vacuum
-itemducts](/docs/itemduct/#item-transfer). This is the default mode.
+itemducts](/docs/thermal-dynamics/itemduct/#item-transfer). This is the default mode.
 
 Furthest-First
 : Items are extracted from the connected block that has the longest path to it
 first, taking into account [dense and vacuum
-itemducts](/docs/itemduct/#item-transfer).
+itemducts](/docs/thermal-dynamics/itemduct/#item-transfer).
 
 Random
 : Each item is extracted from a random connected block.
@@ -135,7 +135,7 @@ Round Robin
 : Items are extracted from each connected block in a repeating order.
 
 ### Fluid transfer
-When installed on a [fluiduct](/docs/fluiduct/) connection, an active retriever
+When installed on a [fluiduct](/docs/thermal-dynamics/fluiduct/) connection, an active retriever
 extracts fluids from blocks in the network and inserts them into the block it is
 connected to. The rate at which fluids are extracted depends on the retriever's
 [tier](#tiers).
@@ -157,7 +157,7 @@ NBT
 Tiers
 -----
 
-Retrievers come in five [tiers](/docs/tiers/).
+Retrievers come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

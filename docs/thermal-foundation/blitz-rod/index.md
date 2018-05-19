@@ -18,17 +18,17 @@ usage-recipes:
 ![Blitz rod](/assets/images/thermal-foundation/blitz-rod.png){:style="height: 128px"}
 
 
-**Blitz rods** are materials that are dropped by [blitzes](/docs/blitz/). They
+**Blitz rods** are materials that are dropped by [blitzes](/docs/thermal-foundation/blitz/). They
 are the air elemental versions of [blaze
 rods](https://minecraft.gamepedia.com/Blaze_Rod). Their only use is to be
-processed into [blitz powder](/docs/blitz-powder/).
+processed into [blitz powder](/docs/thermal-foundation/blitz-powder/).
 
 
 Obtaining
 ---------
 
 ### Blitzes
-A [blitz](/docs/blitz/) may drop a blitz rod when killed by a player.
+A [blitz](/docs/thermal-foundation/blitz/) may drop a blitz rod when killed by a player.
 
 ### Compactor
 {% include recipe-table.html type='compactor' recipes=page.recipes.compactor no-result=true %}

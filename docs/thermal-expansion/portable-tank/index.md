@@ -40,8 +40,8 @@ slower.
 
 ### Upgrading
 A portable tank is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -53,7 +53,7 @@ Fluids can be put in and taken out of a portable tank using
 fluids.
 
 ### Configuration
-A portable tank can be configured by using a [multimeter](/docs/multimeter/) on
+A portable tank can be configured by using a [multimeter](/docs/thermal-foundation/multimeter/) on
 it while sneaking, which opens the tank's GUI. Some aspects of the tank can also
 be configured without opening the GUI.
 
@@ -71,9 +71,9 @@ using it while sneaking.
 
 ### Item form
 A portable tank in item form can be filled and emptied using a [fluid
-transposer](/docs/fluid-transposer/). It can be used on placed portable tanks to
+transposer](/docs/thermal-expansion/fluid-transposer/). It can be used on placed portable tanks to
 move fluids around. It can also be used to more quickly craft things that
-require fluids to craft, like [signalum blend](/docs/signalum-blend/).
+require fluids to craft, like [signalum blend](/docs/thermal-foundation/signalum-blend/).
 
 ### Redstone control
 A placed portable tank may be configured to respond to
@@ -96,10 +96,10 @@ tank's GUI.
 
 ### Security
 A portable tank can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Enchantments
-A portable tank can be enchanted with [Holding](/docs/holding/) to increase its
+A portable tank can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -111,13 +111,13 @@ capacity.
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Redprints
-A portable tank's configuration can be saved on a [redprint](/docs/redprint/) to
+A portable tank's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to
 be copied to other portable tanks.
 
 ### Light source
 A portable tank will emit light when it contains a fluid that emits light, like
 [lava](https://minecraft.gamepedia.com/Lava) or [energized
-glowstone](/docs/energized-glowstone/).
+glowstone](/docs/thermal-foundation/energized-glowstone/).
 
 ### Redstone comparators
 When placed next to a portable tank, a [redstone
@@ -128,7 +128,7 @@ strength of between 0 and 15, depending on how full the tank is.
 Tiers
 -----
 
-Portable tanks come in six [tiers](/docs/tiers/).
+Portable tanks come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

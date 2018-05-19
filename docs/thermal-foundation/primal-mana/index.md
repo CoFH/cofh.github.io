@@ -62,13 +62,13 @@ Primal mana has the following effects on certain blocks:
 * [lapis lazuli ore](https://minecraft.gamepedia.com/Lapis_Lazuli_Ore) is turned
   into [lapis lazuli
   blocks](https://minecraft.gamepedia.com/Lapis_Lazuli_Block);
-* [silver ore](/docs/silver-ore/) is turned into [mana infused
-  ore](/docs/mana-infused-ore/);
-* [lead ore](/docs/lead-ore/) is turned into [gold
+* [silver ore](/docs/thermal-foundation/silver-ore/) is turned into [mana infused
+  ore](/docs/thermal-foundation/mana-infused-ore/);
+* [lead ore](/docs/thermal-foundation/lead-ore/) is turned into [gold
   ore](https://minecraft.gamepedia.com/Gold_Ore);
-* [blocks of silver](/docs/block-of-silver/) are turned into [blocks of mana
-  infused metal](/docs/block-of-mana-infused-metal/);
-* [blocks of lead](/docs/block-of-lead/) are turned into [blocks of
+* [blocks of silver](/docs/thermal-foundation/block-of-silver/) are turned into [blocks of mana
+  infused metal](/docs/thermal-foundation/block-of-mana-infused-metal/);
+* [blocks of lead](/docs/thermal-foundation/block-of-lead/) are turned into [blocks of
   gold](https://minecraft.gamepedia.com/Block_of_Gold).
 
 

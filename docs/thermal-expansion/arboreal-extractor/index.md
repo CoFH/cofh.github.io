@@ -14,7 +14,7 @@ recipes:
 
 
 An **arboreal extractor** (also known as a **tapper**) is a
-[device](/docs/devices/) that extracts a fluid from an adjacent
+[device](/docs/thermal-expansion/devices/) that extracts a fluid from an adjacent
 [tree](https://minecraft.gamepedia.com/Tree).
 
 
@@ -48,9 +48,9 @@ device's production for 16 cycles per item.
 
 | Fertilizer type | Production multiplier |
 |---
-| [Phyto-Gro](/docs/phyto-gro/) | × 2 |
-| [Rich Phyto-Gro](/docs/rich-phyto-gro/) | × 3 |
-| [Fluxed Phyto-Gro](/docs/fluxed-phyto-gro/) | × 4 |
+| [Phyto-Gro](/docs/thermal-foundation/phyto-gro/) | × 2 |
+| [Rich Phyto-Gro](/docs/thermal-foundation/rich-phyto-gro/) | × 3 |
+| [Fluxed Phyto-Gro](/docs/thermal-foundation/fluxed-phyto-gro/) | × 4 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Input and output
@@ -90,11 +90,11 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An arboreal extractor can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An arboreal extractor's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other arboreal extractors.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other arboreal extractors.
 
 
 Products
@@ -105,12 +105,12 @@ produced per cycle depends on the type of tree.
 
 | Tree type | Extracted fluid | Fluid per cycle |
 |---
-| Oak | [Sap](/docs/sap/) | 50 mB |
-| Spruce | [Resin](/docs/resin/) | 100 mB |
-| Birch | [Resin](/docs/resin/) | 50 mB |
-| Jungle | [Resin](/docs/resin/) | 50 mB |
-| Acacia | [Resin](/docs/resin/) | 50 mB |
-| Dark Oak | [Sap](/docs/sap/) | 50 mB |
-| Huge brown mushroom | [Mushroom Stew](/docs/mushroom-stew/) | 50 mB |
-| Huge red mushroom | [Mushroom Stew](/docs/mushroom-stew/) | 50 mB |
+| Oak | [Sap](/docs/thermal-foundation/sap/) | 50 mB |
+| Spruce | [Resin](/docs/thermal-foundation/resin/) | 100 mB |
+| Birch | [Resin](/docs/thermal-foundation/resin/) | 50 mB |
+| Jungle | [Resin](/docs/thermal-foundation/resin/) | 50 mB |
+| Acacia | [Resin](/docs/thermal-foundation/resin/) | 50 mB |
+| Dark Oak | [Sap](/docs/thermal-foundation/sap/) | 50 mB |
+| Huge brown mushroom | [Mushroom Stew](/docs/thermal-foundation/mushroom-stew/) | 50 mB |
+| Huge red mushroom | [Mushroom Stew](/docs/thermal-foundation/mushroom-stew/) | 50 mB |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

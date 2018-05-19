@@ -24,8 +24,8 @@ usage-recipes:
 
 
 **Lead ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
-that yields [lead](/docs/lead-ingot/) and small amounts of
-[silver](/docs/silver-ingot/).
+that yields [lead](/docs/thermal-foundation/lead-ingot/) and small amounts of
+[silver](/docs/thermal-foundation/silver-ingot/).
 
 
 Obtaining
@@ -36,7 +36,7 @@ ore](https://minecraft.gamepedia.com/Iron_Ore), but more common than [gold
 ore](https://minecraft.gamepedia.com/Gold_Ore). It occurs at relatively low
 levels in the world (layers 15-35). Lead ore veins are slightly smaller than
 iron ore veins, and may contain one or two blocks of [silver
-ore](/docs/silver-ore/) as well. Similarly, silver ore veins may contain one or
+ore](/docs/thermal-foundation/silver-ore/) as well. Similarly, silver ore veins may contain one or
 two blocks of lead ore.
 
 Lead ore must be mined with an [iron
@@ -65,4 +65,4 @@ Trivia
 
 * Lead ore is generated in the world using [CoFH World](/docs/cofh-world/) by
   default. The world generation can be tweaked or disabled using CoFH World's
-  [configuration](/docs/world-generator-configuration/).
+  [configuration](/docs/cofh-world/world-generator-configuration/).

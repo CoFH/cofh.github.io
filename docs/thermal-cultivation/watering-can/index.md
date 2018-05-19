@@ -78,7 +78,7 @@ item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
 worth of [water](https://minecraft.gamepedia.com/Water)).
 
 ### Enchantments
-A watering can can be enchanted with [Holding](/docs/holding/) to increase its
+A watering can can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -93,7 +93,7 @@ capacity.
 Tiers
 -----
 
-Watering cans come in six [tiers](/docs/tiers/).
+Watering cans come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

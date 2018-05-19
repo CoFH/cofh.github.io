@@ -17,7 +17,7 @@ usage-recipes:
 ---
 
 **Fluxed electrum blocks** are blocks made from [fluxed electrum
-ingots](/docs/fluxed-electrum-ingot/).
+ingots](/docs/redstone-arsenal/fluxed-electrum-ingot/).
 
 
 Obtaining
@@ -35,7 +35,7 @@ Usage
 
 ### Storage
 Fluxed electrum blocks can be used to store [fluxed electrum
-ingots](/docs/fluxed-electrum-ingot/) in a compact way.
+ingots](/docs/redstone-arsenal/fluxed-electrum-ingot/) in a compact way.
 
 ### Damage
 A fluxed electrum block damages entities that touch it. It deals 2 damage every

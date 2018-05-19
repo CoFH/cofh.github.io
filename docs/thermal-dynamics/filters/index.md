@@ -29,8 +29,8 @@ recipes:
     - filter-resonant-upgrade
 ---
 
-**Filters** are items that can be installed on [itemduct](/docs/itemduct/) and
-[fluiduct](/docs/fluiduct/) connections. They restrict which items or fluids may
+**Filters** are items that can be installed on [itemduct](/docs/thermal-dynamics/itemduct/) and
+[fluiduct](/docs/thermal-dynamics/fluiduct/) connections. They restrict which items or fluids may
 pass through them.
 
 
@@ -48,21 +48,21 @@ Usage
 -----
 
 ### Installation
-A filter can be installed on an [itemduct](/docs/itemduct/) or
-[fluiduct](/docs/fluiduct/) connection by using it on the connection. It can be
+A filter can be installed on an [itemduct](/docs/thermal-dynamics/itemduct/) or
+[fluiduct](/docs/thermal-dynamics/fluiduct/) connection by using it on the connection. It can be
 removed by using a [wrench](/docs/wrenches/) on it.
 
 ### Configuration
 An installed filter can be configured by using it. The available options depend
-on whether the filter is installed on an [itemduct](/docs/itemduct/) or on a
-[fluiduct](/docs/fluiduct/).
+on whether the filter is installed on an [itemduct](/docs/thermal-dynamics/itemduct/) or on a
+[fluiduct](/docs/thermal-dynamics/fluiduct/).
 
-A filter's configuration can be saved on a [redprint](/docs/redprint/) to be
-copied to other filters, [servos](/docs/servos/) or
-[retrievers](/docs/retrievers/).
+A filter's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
+copied to other filters, [servos](/docs/thermal-dynamics/servos/) or
+[retrievers](/docs/thermal-dynamics/retrievers/).
 
 ### Item filtering
-When installed on an [itemduct](/docs/itemduct/) connection, it only allows
+When installed on an [itemduct](/docs/thermal-dynamics/itemduct/) connection, it only allows
 items that match a configured list to pass through. It has various options that
 determine how this list is used to match items. Some of these are only available
 at higher [tiers](#tiers).
@@ -94,7 +94,7 @@ the connected block. This option is only available at higher tiers, and its
 maximum value depends on the tier. By default, any amount of items is allowed.
 
 ### Fluid filtering
-When installed on a [fluiduct](/docs/fluiduct/) connection, it only allows
+When installed on a [fluiduct](/docs/thermal-dynamics/fluiduct/) connection, it only allows
 fluids that match a configured list to pass through. It has various options that
 determine how this list is used to match items.
 
@@ -110,7 +110,7 @@ NBT
 Tiers
 -----
 
-Filters come in five [tiers](/docs/tiers/).
+Filters come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

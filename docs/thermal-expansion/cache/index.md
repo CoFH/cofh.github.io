@@ -39,8 +39,8 @@ the item.
 
 ### Upgrading
 A cache is initially at the lowest [tier](#tiers) (basic). It can be upgraded to
-higher tiers using [upgrade kits](/docs/upgrade-kits/) and [conversion
-kits](/docs/conversion-kits/).
+higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and [conversion
+kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -61,7 +61,7 @@ Items can be taken out of a cache by punching it. A single item is taken out at
 a time. Full stacks can be taken out by punching the cache while sneaking.
 
 The exact amount of items that a cache stores can be read using a
-[multimeter](/docs/multimeter/).
+[multimeter](/docs/thermal-foundation/multimeter/).
 
 ### Input and output
 Items can enter and exit a cache through any of its sides.
@@ -70,7 +70,7 @@ A cache can be locked to only accept the currently stored item, even when it
 becomes empty. This can be toggled by using the cache while sneaking.
 
 ### Enchantments
-A cache can be enchanted with [Holding](/docs/holding/) to increase its
+A cache can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -90,7 +90,7 @@ strength of between 0 and 15, depending on how full the cache is.
 Tiers
 -----
 
-Caches come in six [tiers](/docs/tiers/).
+Caches come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

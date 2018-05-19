@@ -61,18 +61,18 @@ amount of blocks connected to it.
 Tiers
 -----
 
-Fluxducts come in six [tiers](/docs/tiers/).
+Fluxducts come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Tier | Max. transfer per connection | Note |
 |---
-| [Leadstone](/docs/leadstone-fluxduct/) | 1,000 RF/t |
-| [Hardened](/docs/hardened-fluxduct/) | 4,000 RF/t |
-| [Redstone Energy](/docs/redstone-energy-fluxduct/) | 9,000 RF/t |
-| [Signalum](/docs/signalum-fluxduct/) | 16,000 RF/t |
-| [Resonant](/docs/resonant-fluxduct/) | 25,000 RF/t |
-| [Cryo-Stabilized](/docs/cryo-stabilized-fluxduct/) | N/A | No transfer limit; does not store energy. |
+| [Leadstone](/docs/thermal-dynamics/leadstone-fluxduct/) | 1,000 RF/t |
+| [Hardened](/docs/thermal-dynamics/hardened-fluxduct/) | 4,000 RF/t |
+| [Redstone Energy](/docs/thermal-dynamics/redstone-energy-fluxduct/) | 9,000 RF/t |
+| [Signalum](/docs/thermal-dynamics/signalum-fluxduct/) | 16,000 RF/t |
+| [Resonant](/docs/thermal-dynamics/resonant-fluxduct/) | 25,000 RF/t |
+| [Cryo-Stabilized](/docs/thermal-dynamics/cryo-stabilized-fluxduct/) | N/A | No transfer limit; does not store energy. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

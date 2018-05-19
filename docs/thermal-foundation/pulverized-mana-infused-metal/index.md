@@ -25,7 +25,7 @@ usage-recipes:
 
 
 **Pulverized mana infused metal** is a raw material. It is the dust form of
-[mana infused metal](/docs/mana-infused-ingot/).
+[mana infused metal](/docs/thermal-foundation/mana-infused-ingot/).
 
 
 Obtaining

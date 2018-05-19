@@ -42,7 +42,7 @@ usage-recipes:
 
 
 **Iridium ingots** are raw materials obtained from [iridium
-ore](/docs/iridium-ore/) and [platinum ore](/docs/platinum-ore/). They are
+ore](/docs/thermal-foundation/iridium-ore/) and [platinum ore](/docs/thermal-foundation/platinum-ore/). They are
 unobtainable by default, because neither of these ores generate in the world by
 default.
 

@@ -1913,7 +1913,7 @@ recipes:
         item: [drill-head]
   duct-covers:
     results:
-      - html: '<a href="/docs/covers/">Cover</a>'
+      - html: '<a href="/docs/thermal-dynamics/covers/">Cover</a>'
     ingredients:
       - item: structuralduct
       - html: 'any block'
@@ -2364,7 +2364,7 @@ recipes:
     results:
       - item: filter-reinforced
     ingredients:
-      - html: 'Lower tier <a href="/docs/filters/">Filter</a>'
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/filters/">Filter</a>'
       - item: ingot-electrum
     data:
       shapeless: true
@@ -2419,7 +2419,7 @@ recipes:
     results:
       - item: filter-signalum
     ingredients:
-      - html: 'Lower tier <a href="/docs/filters/">Filter</a>'
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/filters/">Filter</a>'
       - item: ingot-signalum
     data:
       shapeless: true
@@ -2487,7 +2487,7 @@ recipes:
     results:
       - item: filter-resonant
     ingredients:
-      - html: 'Lower tier <a href="/docs/filters/">Filter</a>'
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/filters/">Filter</a>'
       - item: ingot-enderium
     data:
       shapeless: true
@@ -8138,7 +8138,7 @@ recipes:
     results:
       - item: retriever-reinforced
     ingredients:
-      - html: 'Lower tier <a href="/docs/retrievers/">Retriever</a>'
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/retrievers/">Retriever</a>'
       - item: ingot-electrum
     data:
       shapeless: true
@@ -8193,7 +8193,7 @@ recipes:
     results:
       - item: retriever-signalum
     ingredients:
-      - html: 'Lower tier <a href="/docs/retrievers/">Retriever</a>'
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/retrievers/">Retriever</a>'
       - item: ingot-signalum
     data:
       shapeless: true
@@ -8261,7 +8261,7 @@ recipes:
     results:
       - item: retriever-resonant
     ingredients:
-      - html: 'Lower tier <a href="/docs/retrievers/">Retriever</a>'
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/retrievers/">Retriever</a>'
       - item: ingot-enderium
     data:
       shapeless: true
@@ -8324,7 +8324,7 @@ recipes:
         amount: 1
   rockwool-dyeing:
     results:
-      - html: 'Dyed <a href="/docs/rockwool/">Rockwool</a>'
+      - html: 'Dyed <a href="/docs/thermal-foundation/rockwool/">Rockwool</a>'
     ingredients:
       - item-group: rockwool
       - item-group: dye
@@ -8586,7 +8586,7 @@ recipes:
     results:
       - item: servo-reinforced
     ingredients:
-      - html: 'Lower tier <a href="/docs/servos/">Servo</a>'
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/servos/">Servo</a>'
       - item: ingot-electrum
     data:
       shapeless: true
@@ -8641,7 +8641,7 @@ recipes:
     results:
       - item: servo-signalum
     ingredients:
-      - html: 'Lower tier <a href="/docs/servos/">Servo</a>'
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/servos/">Servo</a>'
       - item: ingot-signalum
     data:
       shapeless: true
@@ -8709,7 +8709,7 @@ recipes:
     results:
       - item: servo-resonant
     ingredients:
-      - html: 'Lower tier <a href="/docs/servos/">Servo</a>'
+      - html: 'Lower tier <a href="/docs/thermal-dynamics/servos/">Servo</a>'
       - item: ingot-enderium
     data:
       shapeless: true

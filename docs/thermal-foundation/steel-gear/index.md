@@ -17,7 +17,7 @@ usage-recipes:
 ![Steel gear](/assets/images/thermal-foundation/gear-steel.png){:style="height: 128px"}
 
 
-**Steel gears** are crafting materials made of [steel](/docs/steel-ingot/). They
+**Steel gears** are crafting materials made of [steel](/docs/thermal-foundation/steel-ingot/). They
 are currently not used for anything.
 
 

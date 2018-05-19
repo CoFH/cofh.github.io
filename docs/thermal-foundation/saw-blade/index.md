@@ -15,8 +15,8 @@ usage-recipes:
     - fluxsaw-basic
 ---
 
-**Saw blades** are crafting materials used to craft [sawmills](/docs/sawmill/)
-and [fluxsaws](/docs/fluxsaw/).
+**Saw blades** are crafting materials used to craft [sawmills](/docs/thermal-expansion/sawmill/)
+and [fluxsaws](/docs/thermal-innovation/fluxsaw/).
 
 
 Obtaining

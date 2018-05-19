@@ -14,8 +14,8 @@ recipe-list:
   - gear-fluxed-electrum
 ---
 
-A **gearworking die** is an [augment](/docs/augments/) that allows for a
-[compactor](/docs/compactor/) to produce metal gears instead of plates.
+A **gearworking die** is an [augment](/docs/thermal-expansion/augments/) that allows for a
+[compactor](/docs/thermal-expansion/compactor/) to produce metal gears instead of plates.
 
 
 Obtaining
@@ -30,11 +30,11 @@ Usage
 
 ### Installation
 A gearworking die can be installed in the Augmentation tab in a
-[compactor](/docs/compactor/)'s GUI. It is a specialization that cannot be
+[compactor](/docs/thermal-expansion/compactor/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-An installed gearworking die allows for a [compactor](/docs/compactor/) to
+An installed gearworking die allows for a [compactor](/docs/thermal-expansion/compactor/) to
 produce metal gears from ingots. This replaces the machine's ability to produce
 metal plates.
 

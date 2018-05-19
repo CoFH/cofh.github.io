@@ -95,7 +95,7 @@ usage-recipes:
 
 **Invar ingots** are raw materials made from
 [iron](https://minecraft.gamepedia.com/Iron_Ingot) and
-[nickel](/docs/nickel-ingot/).
+[nickel](/docs/thermal-foundation/nickel-ingot/).
 
 
 Obtaining
@@ -103,9 +103,9 @@ Obtaining
 
 Invar can be obtained by combining
 [iron](https://minecraft.gamepedia.com/Iron_Ingot) and
-[nickel](/docs/nickel-ingot/), either by crafting [invar
-blend](/docs/invar-blend/) or by using an [induction
-smelter](/docs/induction-smelter/).
+[nickel](/docs/thermal-foundation/nickel-ingot/), either by crafting [invar
+blend](/docs/thermal-foundation/invar-blend/) or by using an [induction
+smelter](/docs/thermal-expansion/induction-smelter/).
 
 ### Smelting
 {% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}
@@ -145,4 +145,4 @@ Trivia
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, invar can be molten down in a smeltery. Molten invar can also be
   made by mixing molten [iron](https://minecraft.gamepedia.com/Iron_Ingot) and
-  molten [nickel](/docs/nickel-ingot/).
+  molten [nickel](/docs/thermal-foundation/nickel-ingot/).

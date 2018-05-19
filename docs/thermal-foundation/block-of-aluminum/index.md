@@ -17,7 +17,7 @@ usage-recipes:
 ---
 
 **Blocks of aluminum** are blocks made from [aluminum
-ingots](/docs/aluminum-ingot/).
+ingots](/docs/thermal-foundation/aluminum-ingot/).
 
 
 Obtaining
@@ -34,7 +34,7 @@ Usage
 -----
 
 ### Storage
-Blocks of aluminum can be used to store [aluminum ingots](/docs/aluminum-ingot/)
+Blocks of aluminum can be used to store [aluminum ingots](/docs/thermal-foundation/aluminum-ingot/)
 in a compact way.
 
 ### Mob spawning

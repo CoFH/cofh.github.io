@@ -30,7 +30,7 @@ usage-recipes:
 
 
 **Pulverized platinum** is a raw material. It is the dust form of
-[platinum](/docs/platinum-ingot/).
+[platinum](/docs/thermal-foundation/platinum-ingot/).
 
 
 Obtaining

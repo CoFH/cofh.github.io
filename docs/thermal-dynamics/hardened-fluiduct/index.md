@@ -21,7 +21,7 @@ usage-recipes:
     - fluiduct-super
 ---
 
-A **hardened fluiduct** is a type of [fluiduct](/docs/fluiduct/) that can
+A **hardened fluiduct** is a type of [fluiduct](/docs/thermal-dynamics/fluiduct/) that can
 transfer fluids with any temperature.
 
 
@@ -36,10 +36,10 @@ Usage
 -----
 
 ### Fluid transfer
-A hardened fluiduct works the same way as a regular [fluiduct](/docs/fluiduct/).
+A hardened fluiduct works the same way as a regular [fluiduct](/docs/thermal-dynamics/fluiduct/).
 However, it will not break if it contains an extremely hot or cold fluid like
 [lava](https://minecraft.gamepedia.com/Lava) or [gelid
-cryotheum](/docs/gelid-cryotheum/).
+cryotheum](/docs/thermal-foundation/gelid-cryotheum/).
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

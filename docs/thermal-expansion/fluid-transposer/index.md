@@ -56,7 +56,7 @@ recipe-list:
 
 
 A **fluid transposer**, or **transposer** for short, is a
-[machine](/docs/machines/) that fills and empties items that hold fluids, like
+[machine](/docs/thermal-expansion/machines/) that fills and empties items that hold fluids, like
 [buckets](https://minecraft.gamepedia.com/Bucket).
 
 
@@ -73,8 +73,8 @@ this can be much slower.
 
 ### Upgrading
 A fluid transposer is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -147,17 +147,17 @@ processing an item, it will finish processing that item before stopping.
 
 ### Security
 A fluid transposer can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A fluid transposer's configuration can be saved on a [redprint](/docs/redprint/)
+A fluid transposer's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
 to be copied to other transposers.
 
 
 Tiers
 -----
 
-Fluid transposers come in five [tiers](/docs/tiers/).
+Fluid transposers come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -176,7 +176,7 @@ Fluid transposers come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-A fluid transposer can have [augments](/docs/augments/) installed to improve
+A fluid transposer can have [augments](/docs/thermal-expansion/augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic transposer cannot be
 augmented.
@@ -194,7 +194,7 @@ Recipes
   [buckets](https://minecraft.gamepedia.com/Bucket) can be filled with 1,000 mB
   of fluid for 400 RF.
 * [Glass bottles](https://minecraft.gamepedia.com/Glass_Bottle) can be filled
-  with [fluid potions](/docs/potion-fluid/) (250 mB each) for 800 RF.
+  with [fluid potions](/docs/thermal-foundation/potion-fluid/) (250 mB each) for 800 RF.
 * [Tipped arrows](https://minecraft.gamepedia.com/Tipped_arrows) can be made by
   infusing [arrows](https://minecraft.gamepedia.com/Arrow) with 25 mB of a fluid
   [lingering potion](https://minecraft.gamepedia.com/Lingering_Potion) for 400
@@ -205,7 +205,7 @@ Recipes
 ### Emptying
 * 1,000 mB of fluid can be drained from items that hold fluids such as filled
   [buckets](https://minecraft.gamepedia.com/Bucket) for 400 RF.
-* 250 mB of a [fluid potion](/docs/potion-fluid/) can be drained from a
+* 250 mB of a [fluid potion](/docs/thermal-foundation/potion-fluid/) can be drained from a
   [potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
 
 {% include recipe-table.html type='transposer-empty' recipes=page.recipe-list.empty %}

@@ -18,7 +18,7 @@ usage-recipes:
 ![Nickel plate](/assets/images/thermal-foundation/plate-nickel.png){:style="height: 128px"}
 
 
-**Nickel plates** are crafting materials made of [nickel](/docs/nickel-ingot/).
+**Nickel plates** are crafting materials made of [nickel](/docs/thermal-foundation/nickel-ingot/).
 
 
 Obtaining

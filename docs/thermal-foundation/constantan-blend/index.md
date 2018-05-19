@@ -23,7 +23,7 @@ usage-recipes:
 
 
 **Constantan blend** is a raw material. It is the dust form of
-[constantan](/docs/constantan-ingot/).
+[constantan](/docs/thermal-foundation/constantan-ingot/).
 
 
 Obtaining

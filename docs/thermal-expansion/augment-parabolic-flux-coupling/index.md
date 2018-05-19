@@ -11,9 +11,9 @@ recipes:
     - augment-machine-charger-wireless
 ---
 
-A **parabolic flux coupling** [augment](/docs/augments/) allows for an
-[energetic infuser](/docs/energetic-infuser/) to wirelessly recharge [flux
-capacitors](/docs/flux-capacitor/) of players within a radius of 32 blocks.
+A **parabolic flux coupling** [augment](/docs/thermal-expansion/augments/) allows for an
+[energetic infuser](/docs/thermal-expansion/energetic-infuser/) to wirelessly recharge [flux
+capacitors](/docs/thermal-expansion/flux-capacitor/) of players within a radius of 32 blocks.
 
 
 Obtaining
@@ -28,12 +28,12 @@ Usage
 
 ### Installation
 A parabolic flux coupling augment can be installed in the Augmentation tab in an
-[energetic infuser](/docs/energetic-infuser/)'s GUI. It is a specialization that
+[energetic infuser](/docs/thermal-expansion/energetic-infuser/)'s GUI. It is a specialization that
 cannot be installed together with other specialization augments.
 
 ### Effects
-An [energetic infuser](/docs/energetic-infuser/) with parabolic flux coupling
-installed will wirelessly recharge [flux capacitors](/docs/flux-capacitor/) in
+An [energetic infuser](/docs/thermal-expansion/energetic-infuser/) with parabolic flux coupling
+installed will wirelessly recharge [flux capacitors](/docs/thermal-expansion/flux-capacitor/) in
 the inventories of players within a radius of 32 blocks. However, the machine
 can no longer charge or process items that are supplied to it directly.
 

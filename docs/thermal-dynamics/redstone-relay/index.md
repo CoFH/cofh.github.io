@@ -12,8 +12,8 @@ recipes:
 ---
 
 A **redstone relay** is an item that can be installed on
-[fluxducts](/docs/fluxducts/), [fluiducts](/docs/fluiduct/),
-[itemducts](/docs/itemduct/) and [structuralducts](/docs/structuralduct/). It
+[fluxducts](/docs/thermal-dynamics/fluxducts/), [fluiducts](/docs/thermal-dynamics/fluiduct/),
+[itemducts](/docs/thermal-dynamics/itemduct/) and [structuralducts](/docs/thermal-dynamics/structuralduct/). It
 transmits [redstone](https://minecraft.gamepedia.com/Redstone) signals through a
 duct network.
 
@@ -29,15 +29,15 @@ Usage
 -----
 
 ### Installation
-A redstone relay can be installed on a [fluxduct](/docs/fluxducts/),
-[fluiduct](/docs/fluiduct/), [itemduct](/docs/itemduct/) or
-[structuralduct](/docs/structuralduct/) connection by using it on the
+A redstone relay can be installed on a [fluxduct](/docs/thermal-dynamics/fluxducts/),
+[fluiduct](/docs/thermal-dynamics/fluiduct/), [itemduct](/docs/thermal-dynamics/itemduct/) or
+[structuralduct](/docs/thermal-dynamics/structuralduct/) connection by using it on the
 connection. It can be removed by using a [wrench](/docs/wrenches/) on it.
 
 ### Configuration
 An installed redstone relay can be configured by using it.
 
-A redstone relay's configuration can be saved on a [redprint](/docs/redprint/)
+A redstone relay's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
 to be copied to other redstone relays.
 
 ### Transfer modes

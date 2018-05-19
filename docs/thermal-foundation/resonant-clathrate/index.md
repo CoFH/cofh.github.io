@@ -20,15 +20,15 @@ usage-recipes:
 
 
 **Resonant clathrate** is a material obtained from [resonant end
-stone](/docs/resonant-end-stone/). It can be processed into [resonant
-ender](/docs/resonant-ender/).
+stone](/docs/thermal-foundation/resonant-end-stone/). It can be processed into [resonant
+ender](/docs/thermal-foundation/resonant-ender/).
 
 
 Obtaining
 ---------
 
 ### Mining
-[Resonant end stone](/docs/resonant-end-stone/) will drop one piece of resonant
+[Resonant end stone](/docs/thermal-foundation/resonant-end-stone/) will drop one piece of resonant
 clathrate when mined with a pickaxe. More clathrate is dropped if a
 [Fortune](https://minecraft.gamepedia.com/Fortune) enchanted pickaxe is used.
 

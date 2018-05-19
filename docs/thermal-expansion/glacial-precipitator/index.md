@@ -26,7 +26,7 @@ recipe-list:
 
 
 A **glacial precipitator**, or **precipitator** for short, is a
-[machine](/docs/machines/) that freezes fluids into items.
+[machine](/docs/thermal-expansion/machines/) that freezes fluids into items.
 
 
 Obtaining
@@ -42,8 +42,8 @@ this can be much slower.
 
 ### Upgrading
 A glacial precipitator is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -109,17 +109,17 @@ still producing an item, it will finish producing that item before stopping.
 
 ### Security
 A glacial precipitator can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A glacial precipitator's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other precipitators.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other precipitators.
 
 
 Tiers
 -----
 
-Glacial precipitators come in five [tiers](/docs/tiers/).
+Glacial precipitators come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -138,7 +138,7 @@ Glacial precipitators come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-A glacial precipitator can have [augments](/docs/augments/) installed to improve
+A glacial precipitator can have [augments](/docs/thermal-expansion/augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic precipitator cannot
 be augmented.

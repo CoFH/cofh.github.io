@@ -17,7 +17,7 @@ augments:
 
 
 An **arcane ensorcellator**, also known as an **enchanter**, is a
-[machine](/docs/machines/) that enchants
+[machine](/docs/thermal-expansion/machines/) that enchants
 [books](https://minecraft.gamepedia.com/Book) and other arcana. It is capable of
 producing specific [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book).
@@ -36,8 +36,8 @@ this can be much slower.
 
 ### Upgrading
 An arcane ensorcellator is initially at the lowest [tier](#tiers) (basic). It
-can be upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+can be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -106,11 +106,11 @@ still processing an item, it will finish processing that item before stopping.
 
 ### Security
 An arcane ensorcellator can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An arcane ensorcellator's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other arcane ensorcellators.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other arcane ensorcellators.
 
 ### Light source
 When an arcane ensorcellator is active, it emits a light level of 12.
@@ -119,7 +119,7 @@ When an arcane ensorcellator is active, it emits a light level of 12.
 Tiers
 -----
 
-Arcane ensorcellators come in five [tiers](/docs/tiers/).
+Arcane ensorcellators come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -138,7 +138,7 @@ Arcane ensorcellators come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-An arcane ensorcellator can have [augments](/docs/augments/) installed to
+An arcane ensorcellator can have [augments](/docs/thermal-expansion/augments/) installed to
 improve certain properties or to change how it works. The amount of augments
 that can be installed depends on the machine's [tier](#tiers). A basic arcane
 ensorcellator cannot be augmented.
@@ -156,7 +156,7 @@ An arcane ensorcellator can produce [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book) with the following
 [enchantments](https://minecraft.gamepedia.com/Enchantments) by combining
 [books](https://minecraft.gamepedia.com/Books) with certain items and [essence
-of knowledge](/docs/essence-of-knowledge/).
+of knowledge](/docs/thermal-foundation/essence-of-knowledge/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -199,13 +199,13 @@ of knowledge](/docs/essence-of-knowledge/).
 | [Curse of Binding](https://minecraft.gamepedia.com/Curse_of_Binding) | [Popped Chorus Fruit](https://minecraft.gamepedia.com/Popped_Chorus_Fruit) | 5,000 mB | 16,000 RF |
 | [Curse of Vanishing](https://minecraft.gamepedia.com/Curse_of_Vanishing) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 5,000 mB | 16,000 RF |
 |
-| [Holding I](/docs/holding/) | [Chest](https://minecraft.gamepedia.com/Chest) | 1,500 mB | 500 RF |
-| [Insight I](/docs/insight/) | [Bottle o' Enchanting](https://minecraft.gamepedia.com/Bottle_o%27_Enchanting) | 1,500 mB | 8,000 RF |
-| [Leech I](/docs/leech/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 1,500 mB | 8,000 RF |
-| [Smelting](/docs/smelting/) | [Furnace](https://minecraft.gamepedia.com/Furnace) | 1,500 mB | 8,000 RF |
-| [Soulbound I](/docs/soulbound/) | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | 1,500 mB | 8,000 RF |
-| [Multishot I](/docs/multishot/) | [Arrow](https://minecraft.gamepedia.com/Arrow) | 3,000 mB | 12,000 RF |
-| [Vorpal I](/docs/vorpal/) | [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) | 5,000 mB | 16,000 RF |
+| [Holding I](/docs/cofh-core/holding/) | [Chest](https://minecraft.gamepedia.com/Chest) | 1,500 mB | 500 RF |
+| [Insight I](/docs/cofh-core/insight/) | [Bottle o' Enchanting](https://minecraft.gamepedia.com/Bottle_o%27_Enchanting) | 1,500 mB | 8,000 RF |
+| [Leech I](/docs/cofh-core/leech/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 1,500 mB | 8,000 RF |
+| [Smelting](/docs/cofh-core/smelting/) | [Furnace](https://minecraft.gamepedia.com/Furnace) | 1,500 mB | 8,000 RF |
+| [Soulbound I](/docs/cofh-core/soulbound/) | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | 1,500 mB | 8,000 RF |
+| [Multishot I](/docs/cofh-core/multishot/) | [Arrow](https://minecraft.gamepedia.com/Arrow) | 3,000 mB | 12,000 RF |
+| [Vorpal I](/docs/cofh-core/vorpal/) | [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) | 5,000 mB | 16,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

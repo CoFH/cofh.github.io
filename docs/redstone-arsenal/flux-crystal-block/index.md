@@ -16,7 +16,7 @@ usage-recipes:
 ---
 
 **Flux crystal blocks** are blocks made from [flux
-crystals](/docs/flux-crystal/).
+crystals](/docs/redstone-arsenal/flux-crystal/).
 
 
 Obtaining
@@ -33,7 +33,7 @@ Usage
 -----
 
 ### Storage
-Flux crystal blocks can be used to store [flux crystals](/docs/flux-crystal/) in
+Flux crystal blocks can be used to store [flux crystals](/docs/redstone-arsenal/flux-crystal/) in
 a compact way.
 
 ### Damage

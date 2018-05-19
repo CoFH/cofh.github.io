@@ -25,7 +25,7 @@ usage-recipes:
 
 
 **Copper ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that
-yields [copper](/docs/copper-ingot/) and small amounts of
+yields [copper](/docs/thermal-foundation/copper-ingot/) and small amounts of
 [gold](https://minecraft.gamepedia.com/Gold_Ingot).
 
 
@@ -63,4 +63,4 @@ Trivia
 
 * Copper ore is generated in the world using [CoFH World](/docs/cofh-world/) by
   default. The world generation can be tweaked or disabled using CoFH World's
-  [configuration](/docs/world-generator-configuration/).
+  [configuration](/docs/cofh-world/world-generator-configuration/).

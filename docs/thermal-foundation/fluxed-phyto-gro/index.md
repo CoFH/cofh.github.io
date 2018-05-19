@@ -36,7 +36,7 @@ usage-recipes:
 
 
 **Fluxed Phyto-Gro** is a type of fertilizer. It is the strongest of its kind,
-surpassing the [regular](/docs/phyto-gro/) and [rich](/docs/rich-phyto-gro/)
+surpassing the [regular](/docs/thermal-foundation/phyto-gro/) and [rich](/docs/thermal-foundation/rich-phyto-gro/)
 versions.
 
 
@@ -65,4 +65,4 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 7x7 area.
 
 ### Arboreal Extractor
 When fluxed Phyto-Gro is used in an [arboreal
-extractor](/docs/arboreal-extractor/), it produces four times as much fluid.
+extractor](/docs/thermal-expansion/arboreal-extractor/), it produces four times as much fluid.

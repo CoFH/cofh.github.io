@@ -36,7 +36,7 @@ usage-recipes:
 
 
 **Pulverized copper** is a raw material. It is the dust form of
-[copper](/docs/copper-ingot/).
+[copper](/docs/thermal-foundation/copper-ingot/).
 
 
 Obtaining

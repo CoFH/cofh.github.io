@@ -12,8 +12,8 @@ recipes:
 ![Signalum coin](/assets/images/thermal-foundation/coin-signalum.png){:style="height: 128px"}
 
 
-**Signalum coins** are materials made of [signalum](/docs/signalum-ingot/) that
-can be used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/).
+**Signalum coins** are materials made of [signalum](/docs/thermal-foundation/signalum-ingot/) that
+can be used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -27,5 +27,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/), signalum
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), signalum
 coins yield 100,000 RF each.

@@ -1,27 +1,27 @@
 alchemical-quiver-basic:
   name: Alchemical Quiver (Basic)
   sprite: [7, 64]
-  site: cofh
+  site: docs-ti
   url: alchemical-quiver/
 alchemical-quiver-hardened:
   name: Alchemical Quiver (Hardened)
   sprite: [8, 64]
-  site: cofh
+  site: docs-ti
   url: alchemical-quiver/
 alchemical-quiver-reinforced:
   name: Alchemical Quiver (Reinforced)
   sprite: [9, 64]
-  site: cofh
+  site: docs-ti
   url: alchemical-quiver/
 alchemical-quiver-signalum:
   name: Alchemical Quiver (Signalum)
   sprite: [10, 64]
-  site: cofh
+  site: docs-ti
   url: alchemical-quiver/
 alchemical-quiver-resonant:
   name: Alchemical Quiver (Resonant)
   sprite: [11, 64]
-  site: cofh
+  site: docs-ti
   url: alchemical-quiver/
 allium:
   name: Allium
@@ -56,17 +56,17 @@ anvil-very-damaged:
 aqua-chow:
   name: Aqua-Chow
   sprite: [0, 60]
-  site: cofh
+  site: docs-tf
   url: aqua-chow/
 aqua-chow-rich:
   name: Rich Aqua-Chow
   sprite: [1, 60]
-  site: cofh
+  site: docs-tf
   url: rich-aqua-chow/
 aqua-chow-fluxed:
   name: Fluxed Aqua-Chow
   animated: true
-  site: cofh
+  site: docs-tf
   url: fluxed-aqua-chow/
 arrow:
   name: Arrow
@@ -76,218 +76,218 @@ arrow:
 augment-machine-power:
   name: 'Augment: Auxiliary Reception Coil'
   sprite: [2, 30]
-  site: cofh
+  site: docs-te
   url: augment-auxiliary-reception-coil/
 augment-machine-secondary:
   name: 'Augment: Auxiliary Sieve'
   sprite: [5, 30]
-  site: cofh
+  site: docs-te
   url: augment-auxiliary-sieve/
 augment-machine-secondary-null:
   name: 'Augment: Nullification Chamber'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-nullification-chamber/
 augment-machine-furnace-food:
   name: 'Augment: Trivection Chamber'
   sprite: [11, 29]
-  site: cofh
+  site: docs-te
   url: augment-trivection-chamber/
 augment-machine-furnace-ore:
   name: 'Augment: Flux Anodizers'
   sprite: [12, 29]
-  site: cofh
+  site: docs-te
   url: augment-flux-anodizers/
 augment-machine-furnace-pyrolysis:
   name: 'Augment: Pyrolytic Conversion'
   sprite: [13, 29]
-  site: cofh
+  site: docs-te
   url: augment-pyrolytic-conversion/
 augment-machine-pulverizer-petrotheum:
   name: 'Augment: Tectonic Initiator'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-tectonic-initiator/
 augment-machine-sawmill-tapper:
   name: 'Augment: Resin Funnel'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-resin-funnel/
 augment-machine-smelter-flux:
   name: 'Augment: Metallurgical Recovery'
   sprite: [14, 60]
-  site: cofh
+  site: docs-te
   url: augment-metallurgical-recovery/
 augment-machine-smelter-pyrotheum:
   name: 'Augment: Pyro-Concentrator'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-pyro-concentrator/
 augment-machine-insolator-fertilizer:
   name: 'Augment: Nutrient Recovery'
   sprite: [15, 60]
-  site: cofh
+  site: docs-te
   url: augment-nutrient-recovery/
 augment-machine-insolator-tree:
   name: 'Augment: Sapling Infuser'
   sprite: [1, 30]
-  site: cofh
+  site: docs-te
   url: augment-sapling-infuser/
 augment-machine-insolator-monoculture:
   name: 'Augment: Monoculture Cycle'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-monoculture-cycle/
 augment-machine-compactor-coin:
   name: 'Augment: Numismatic Press'
   sprite: [7, 29]
-  site: cofh
+  site: docs-te
   url: augment-numismatic-press/
 augment-machine-compactor-gear:
   name: 'Augment: Gearworking Die'
   sprite: [8, 29]
-  site: cofh
+  site: docs-te
   url: augment-gearworking-die/
 augment-machine-crucible-lava:
   name: 'Augment: Pyroconvective Loop'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-pyroconvective-loop/
 augment-machine-refinery-oil:
   name: 'Augment: Reflux Column'
   sprite: [0, 61]
-  site: cofh
+  site: docs-te
   url: augment-reflux-column/
 augment-machine-refinery-potion:
   name: 'Augment: Alchemical Retort'
   sprite: [1, 61]
-  site: cofh
+  site: docs-te
   url: augment-alchemical-retort/
 augment-machine-charger-throughput:
   name: 'Augment: Flux Linkage Concentrator'
   sprite: [6, 29]
-  site: cofh
+  site: docs-te
   url: augment-flux-linkage-concentrator/
 augment-machine-charger-repair:
   name: 'Augment: Flux Reconstruction'
   sprite: [2, 61]
-  site: cofh
+  site: docs-te
   url: augment-flux-reconstruction/
 augment-machine-charger-wireless:
   name: 'Augment: Parabolic Flux Coupling'
   sprite: [9, 29]
-  site: cofh
+  site: docs-te
   url: augment-parabolic-flux-coupling/
 augment-machine-centrifuge-mobs:
   name: 'Augment: Enstabulation Apparatus'
   sprite: [0, 30]
-  site: cofh
+  site: docs-te
   url: augment-enstabulation-apparatus/
 augment-machine-crafter-input:
   name: 'Augment: Pattern Validation'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-pattern-validation/
 augment-machine-crafter-tank:
   name: 'Augment: Fluidic Fabrication'
   sprite: [4, 30]
-  site: cofh
+  site: docs-te
   url: augment-fluidic-fabrication/
 augment-machine-brewer-reagent:
   name: 'Augment: Reagent Recovery'
   sprite: [3, 61]
-  site: cofh
+  site: docs-te
   url: augment-reagent-recovery/
 augment-machine-extruder-no-water:
   name: 'Augment: Pyroclastic Injection'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-pyroclastic-injection/
 augment-machine-extruder-sedimentary:
   name: 'Augment: Clastic Deposition'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-clastic-deposition/
 augment-dynamo-power:
   name: 'Augment: Auxiliary Transmission Coil'
   sprite: [2, 29]
-  site: cofh
+  site: docs-te
   url: augment-auxiliary-transmission-coil/
 augment-dynamo-efficiency:
   name: 'Augment: Fuel Catalyzer'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-fuel-catalyzer/
 augment-dynamo-coil-duct:
   name: 'Augment: Transmission Coil Ducting'
   sprite: [13, 28]
-  site: cofh
+  site: docs-te
   url: augment-transmission-coil-ducting/
 augment-dynamo-throttle:
   name: 'Augment: Excitation Field Limiter'
   sprite: [5, 29]
-  site: cofh
+  site: docs-te
   url: augment-excitation-field-limiter/
 augment-dynamo-boiler:
   name: 'Augment: Boiler Conversion'
   animated: true
-  site: cofh
+  site: docs-te
   url: augment-boiler-conversion/
 augment-dynamo-steam-turbine:
   name: 'Augment: Turbine Conversion'
   sprite: [4, 29]
-  site: cofh
+  site: docs-te
   url: augment-turbine-conversion/
 augment-dynamo-magmatic-coolant:
   name: 'Augment: Isentropic Reservoir'
   sprite: [0, 29]
-  site: cofh
+  site: docs-te
   url: augment-isentropic-reservoir/
 augment-dynamo-compression-coolant:
   name: 'Augment: Closed-Loop Cooling'
   sprite: [14, 28]
-  site: cofh
+  site: docs-te
   url: augment-closed-loop-cooling/
 augment-dynamo-compression-fuel:
   name: 'Augment: Ignition Plugs'
   sprite: [15, 28]
-  site: cofh
+  site: docs-te
   url: augment-ignition-plugs/
 augment-dynamo-reactant-elemental:
   name: 'Augment: Elemental Catalyzer'
   sprite: [3, 29]
-  site: cofh
+  site: docs-te
   url: augment-elemental-catalyzer/
 augment-dynamo-enervation-enchant:
   name: 'Augment: Disjunctive Extraction'
   sprite: [10, 29]
-  site: cofh
+  site: docs-te
   url: augment-disjunctive-extraction/
 augment-dynamo-numismatic-gem:
   name: 'Augment: Lapidary Calibration'
   sprite: [1, 29]
-  site: cofh
+  site: docs-te
   url: augment-lapidary-calibration/
 axe-aluminum:
   name: Aluminum Axe
   sprite: [4, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-bronze:
   name: Bronze Axe
   sprite: [5, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-constantan:
   name: Constantan Axe
   sprite: [6, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-copper:
   name: Copper Axe
   sprite: [7, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-diamond:
   name: Diamond Axe
   sprite: [6, 44]
@@ -296,8 +296,8 @@ axe-diamond:
 axe-electrum:
   name: Electrum Axe
   sprite: [8, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-gold:
   name: Golden Axe
   sprite: [10, 56]
@@ -306,8 +306,8 @@ axe-gold:
 axe-invar:
   name: Invar Axe
   sprite: [9, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-iron:
   name: Iron Axe
   sprite: [2, 56]
@@ -316,33 +316,33 @@ axe-iron:
 axe-lead:
   name: Lead Axe
   sprite: [10, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-nickel:
   name: Nickel Axe
   sprite: [11, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-platinum:
   name: Platinum Axe
   sprite: [12, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-silver:
   name: Silver Axe
   sprite: [13, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-steel:
   name: Steel Axe
   sprite: [14, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-tin:
   name: Tin Axe
   sprite: [15, 16]
-  site: cofh
-  url: tf-axes/
+  site: docs-tf
+  url: axes/
 axe-wood:
   name: Wooden Axe
   sprite: [2, 50]
@@ -361,12 +361,12 @@ baked-potato:
 basalz-powder:
   name: Basalz Powder
   animated: true
-  site: cofh
+  site: docs-tf
   url: basalz-powder/
 basalz-rod:
   name: Basalz Rod
   sprite: [1, 16]
-  site: cofh
+  site: docs-tf
   url: basalz-rod/
 bed-black:
   name: Black Bed
@@ -461,7 +461,7 @@ beetroot-seeds:
 bitumen:
   name: Bitumen
   animated: true
-  site: cofh
+  site: docs-tf
   url: bitumen/
 blaze-powder:
   name: Blaze Powder
@@ -476,22 +476,22 @@ blaze-rod:
 blitz-powder:
   name: Blitz Powder
   animated: true
-  site: cofh
+  site: docs-tf
   url: blitz-powder/
 blitz-rod:
   name: Blitz Rod
   sprite: [2, 16]
-  site: cofh
+  site: docs-tf
   url: blitz-rod/
 blizz-powder:
   name: Blizz Powder
   animated: true
-  site: cofh
+  site: docs-tf
   url: blizz-powder/
 blizz-rod:
   name: Blizz Rod
   sprite: [3, 16]
-  site: cofh
+  site: docs-tf
   url: blizz-rod/
 blue-orchid:
   name: Blue Orchid
@@ -551,23 +551,23 @@ bookshelf:
 boots-aluminum:
   name: Aluminum Boots
   sprite: [2, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-bronze:
   name: Bronze Boots
   sprite: [3, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-constantan:
   name: Constantan Boots
   sprite: [4, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-copper:
   name: Copper Boots
   sprite: [5, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-diamond:
   name: Diamond Boots
   sprite: [13, 44]
@@ -576,8 +576,8 @@ boots-diamond:
 boots-electrum:
   name: Electrum Boots
   sprite: [6, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-gold:
   name: Golden Boots
   sprite: [1, 57]
@@ -586,8 +586,8 @@ boots-gold:
 boots-invar:
   name: Invar Boots
   sprite: [7, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-iron:
   name: Iron Boots
   sprite: [9, 56]
@@ -596,8 +596,8 @@ boots-iron:
 boots-lead:
   name: Lead Boots
   sprite: [8, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-leather:
   name: Leather Boots
   sprite: [15, 52]
@@ -606,28 +606,28 @@ boots-leather:
 boots-nickel:
   name: Nickel Boots
   sprite: [9, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-platinum:
   name: Platinum Boots
   sprite: [10, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-silver:
   name: Silver Boots
   sprite: [11, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-steel:
   name: Steel Boots
   sprite: [12, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 boots-tin:
   name: Tin Boots
   sprite: [13, 38]
-  site: cofh
-  url: tf-boots/
+  site: docs-tf
+  url: boots/
 bottle-o-enchanting:
   name: Bottle o' Enchanting
   sprite: [7, 60]
@@ -641,83 +641,83 @@ bow:
 bow-aluminum:
   name: Aluminum Reinforced Bow
   sprite: [0, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-bronze:
   name: Bronze Reinforced Bow
   sprite: [1, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-constantan:
   name: Constantan Reinforced Bow
   sprite: [2, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-copper:
   name: Copper Reinforced Bow
   sprite: [3, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-diamond:
   name: Diamond Reinforced Bow
   sprite: [4, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-electrum:
   name: Electrum Reinforced Bow
   sprite: [5, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-gold:
   name: Gold Reinforced Bow
   sprite: [6, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-invar:
   name: Invar Reinforced Bow
   sprite: [7, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-iron:
   name: Iron Reinforced Bow
   sprite: [8, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-lead:
   name: Lead Reinforced Bow
   sprite: [9, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-nickel:
   name: Nickel Reinforced Bow
   sprite: [10, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-platinum:
   name: Platinum Reinforced Bow
   sprite: [11, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-silver:
   name: Silver Reinforced Bow
   sprite: [12, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-steel:
   name: Steel Reinforced Bow
   sprite: [13, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-stone:
   name: Stone Reinforced Bow
   sprite: [14, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bow-tin:
   name: Tin Reinforced Bow
   sprite: [15, 17]
-  site: cofh
-  url: tf-reinforced-bows/
+  site: docs-tf
+  url: reinforced-bows/
 bowl:
   name: Bowl
   sprite: [13, 50]
@@ -761,42 +761,42 @@ bucket:
 bucket-aerotheum:
   name: Zephyrean Aerotheum Bucket
   sprite: [13, 59]
-  site: cofh
+  site: docs-tf
   url: zephyrean-aerotheum/
 bucket-coal:
   name: Liquifacted Coal Bucket
   sprite: [2, 59]
-  site: cofh
+  site: docs-tf
   url: liquifacted-coal/
 bucket-creosote-oil:
   name: Creosote Oil Bucket
   sprite: [1, 59]
-  site: cofh
+  site: docs-tf
   url: creosote-oil/
 bucket-crude-oil:
   name: Crude Oil Bucket
   sprite: [3, 59]
-  site: cofh
+  site: docs-tf
   url: crude-oil/
 bucket-cryotheum:
   name: Gelid Cryotheum Bucket
   sprite: [12, 59]
-  site: cofh
+  site: docs-tf
   url: gelid-cryotheum/
 bucket-ender:
   name: Resonant Ender Bucket
   sprite: [10, 40]
-  site: cofh
+  site: docs-tf
   url: resonant-ender/
 bucket-experience:
   name: Essence of Knowledge Bucket
   sprite: [6, 60]
-  site: cofh
+  site: docs-tf
   url: essence-of-knowledge/
 bucket-glowstone:
   name: Energized Glowstone Bucket
   sprite: [9, 40]
-  site: cofh
+  site: docs-tf
   url: energized-glowstone/
 bucket-lava:
   name: Lava Bucket
@@ -806,62 +806,62 @@ bucket-lava:
 bucket-mana:
   name: Primal Mana Bucket
   sprite: [15, 59]
-  site: cofh
+  site: docs-tf
   url: primal-mana/
 bucket-mushroom-stew:
   name: Mushroom Stew Bucket
   sprite: [10, 59]
-  site: cofh
+  site: docs-tf
   url: mushroom-stew/
 bucket-naphtha:
   name: Naphtha Bucket
   sprite: [4, 59]
-  site: cofh
+  site: docs-tf
   url: naphtha/
 bucket-petrotheum:
   name: Tectonic Petrotheum Bucket
   sprite: [14, 59]
-  site: cofh
+  site: docs-tf
   url: tectonic-petrotheum/
 bucket-pyrotheum:
   name: Blazing Pyrotheum Bucket
   sprite: [11, 59]
-  site: cofh
+  site: docs-tf
   url: blazing-pyrotheum/
 bucket-redstone:
   name: Destabilized Redstone Bucket
   sprite: [8, 40]
-  site: cofh
+  site: docs-tf
   url: destabilized-redstone/
 bucket-refined-fuel:
   name: Refined Fuel Bucket
   sprite: [5, 59]
-  site: cofh
+  site: docs-tf
   url: refined-fuel/
 bucket-resin:
   name: Resin Bucket
   sprite: [8, 59]
-  site: cofh
+  site: docs-tf
   url: resin/
 bucket-sap:
   name: Sap Bucket
   sprite: [6, 59]
-  site: cofh
+  site: docs-tf
   url: sap/
 bucket-steam:
   name: Steam Bucket
   sprite: [0, 59]
-  site: cofh
+  site: docs-tf
   url: steam/
 bucket-syrup:
   name: Syrup Bucket
   sprite: [7, 59]
-  site: cofh
+  site: docs-tf
   url: syrup/
 bucket-tree-oil:
   name: Tree Oil Bucket
   sprite: [9, 59]
-  site: cofh
+  site: docs-tf
   url: tree-oil/
 bucket-water:
   name: Water Bucket
@@ -881,7 +881,7 @@ cauldron:
 cache-basic:
   name: Cache (Basic)
   sprite: [12, 27]
-  site: cofh
+  site: docs-te
   url: cache/
 cactus:
   name: Cactus
@@ -911,23 +911,23 @@ chest:
 chestplate-aluminum:
   name: Aluminum Chestplate
   sprite: [10, 36]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-bronze:
   name: Bronze Chestplate
   sprite: [11, 36]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-constantan:
   name: Constantan Chestplate
   sprite: [12, 36]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-copper:
   name: Copper Chestplate
   sprite: [13, 36]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-diamond:
   name: Diamond Chestplate
   sprite: [11, 44]
@@ -936,8 +936,8 @@ chestplate-diamond:
 chestplate-electrum:
   name: Electrum Chestplate
   sprite: [14, 36]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-gold:
   name: Golden Chestplate
   sprite: [15, 56]
@@ -946,8 +946,8 @@ chestplate-gold:
 chestplate-invar:
   name: Invar Chestplate
   sprite: [15, 36]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-iron:
   name: Iron Chestplate
   sprite: [7, 56]
@@ -956,8 +956,8 @@ chestplate-iron:
 chestplate-lead:
   name: Lead Chestplate
   sprite: [0, 37]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-leather:
   name: Leather Tunic
   sprite: [13, 52]
@@ -966,28 +966,28 @@ chestplate-leather:
 chestplate-nickel:
   name: Nickel Chestplate
   sprite: [1, 37]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-platinum:
   name: Platinum Chestplate
   sprite: [2, 37]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-silver:
   name: Silver Chestplate
   sprite: [3, 37]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-steel:
   name: Steel Chestplate
   sprite: [4, 37]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chestplate-tin:
   name: Tin Chestplate
   sprite: [5, 37]
-  site: cofh
-  url: tf-chestplates/
+  site: docs-tf
+  url: chestplates/
 chorus-flower:
   name: Chorus Flower
   sprite: [4, 58]
@@ -1006,22 +1006,22 @@ chorus-plant:
 cinnabar:
   name: Cinnabar
   sprite: [0, 8]
-  site: cofh
+  site: docs-tf
   url: cinnabar/
 clathrate-ender:
   name: Resonant Clathrate
   animated: true
-  site: cofh
+  site: docs-tf
   url: resonant-clathrate/
 clathrate-glowstone:
   name: Energized Clathrate
   animated: true
-  site: cofh
+  site: docs-tf
   url: energized-clathrate/
 clathrate-redstone:
   name: Destabilized Clathrate
   animated: true
-  site: cofh
+  site: docs-tf
   url: destabilized-clathrate/
 clay:
   name: Clay
@@ -1041,7 +1041,7 @@ coal:
 coal-coke:
   name: Coal Coke
   sprite: [13, 15]
-  site: cofh
+  site: docs-tf
   url: coal-coke/
 coarse-dirt:
   name: Coarse Dirt
@@ -1061,97 +1061,97 @@ cocoa-beans:
 coin-aluminum:
   name: Aluminum Coin
   sprite: [11, 11]
-  site: cofh
+  site: docs-tf
   url: aluminum-coin/
 coin-bronze:
   name: Bronze Coin
   sprite: [12, 11]
-  site: cofh
+  site: docs-tf
   url: bronze-coin/
 coin-constantan:
   name: Constantan Coin
   sprite: [13, 11]
-  site: cofh
+  site: docs-tf
   url: constantan-coin/
 coin-copper:
   name: Copper Coin
   sprite: [14, 11]
-  site: cofh
+  site: docs-tf
   url: copper-coin/
 coin-electrum:
   name: Electrum Coin
   sprite: [15, 11]
-  site: cofh
+  site: docs-tf
   url: electrum-coin/
 coin-enderium:
   name: Enderium Coin
   sprite: [0, 12]
-  site: cofh
+  site: docs-tf
   url: enderium-coin/
 coin-gold:
   name: Gold Coin
   sprite: [1, 12]
-  site: cofh
+  site: docs-tf
   url: gold-coin/
 coin-invar:
   name: Invar Coin
   sprite: [2, 12]
-  site: cofh
+  site: docs-tf
   url: invar-coin/
 coin-iridium:
   name: Iridium Coin
   sprite: [3, 12]
-  site: cofh
+  site: docs-tf
   url: iridium-coin/
 coin-iron:
   name: Iron Coin
   sprite: [4, 12]
-  site: cofh
+  site: docs-tf
   url: iron-coin/
 coin-lead:
   name: Lead Coin
   sprite: [5, 12]
-  site: cofh
+  site: docs-tf
   url: lead-coin/
 coin-lumium:
   name: Lumium Coin
   sprite: [6, 12]
-  site: cofh
+  site: docs-tf
   url: lumium-coin/
 coin-mithril:
   name: Mana Infused Coin
   sprite: [7, 12]
-  site: cofh
+  site: docs-tf
   url: mana-infused-coin/
 coin-nickel:
   name: Nickel Coin
   sprite: [8, 12]
-  site: cofh
+  site: docs-tf
   url: nickel-coin/
 coin-platinum:
   name: Platinum Coin
   sprite: [9, 12]
-  site: cofh
+  site: docs-tf
   url: platinum-coin/
 coin-signalum:
   name: Signalum Coin
   sprite: [10, 12]
-  site: cofh
+  site: docs-tf
   url: signalum-coin/
 coin-silver:
   name: Silver Coin
   sprite: [11, 12]
-  site: cofh
+  site: docs-tf
   url: silver-coin/
 coin-steel:
   name: Steel Coin
   sprite: [12, 12]
-  site: cofh
+  site: docs-tf
   url: steel-coin/
 coin-tin:
   name: Tin Coin
   sprite: [13, 12]
-  site: cofh
+  site: docs-tf
   url: tin-coin/
 compass:
   name: Compass
@@ -1321,17 +1321,17 @@ concrete-powder-yellow:
 conversion-kit-reinforced:
   name: Reinforced Conversion Kit
   sprite: [10, 28]
-  site: cofh
+  site: docs-tf
   url: conversion-kits/
 conversion-kit-signalum:
   name: Signalum Conversion Kit
   sprite: [11, 28]
-  site: cofh
+  site: docs-tf
   url: conversion-kits/
 conversion-kit-resonant:
   name: Resonant Conversion Kit
   sprite: [12, 28]
-  site: cofh
+  site: docs-tf
   url: conversion-kits/
 cooked-chicken:
   name: Cooked Chicken
@@ -1371,7 +1371,7 @@ crafting-table:
 crescent-hammer:
   name: Crescent Hammer
   sprite: [5, 11]
-  site: cofh
+  site: docs-tf
   url: crescent-hammer/
 cyan-dye:
   name: Cyan Dye
@@ -1391,62 +1391,62 @@ dandelion-yellow:
 device-diffuser:
   name: Decoctive Diffuser
   sprite: [9, 60]
-  site: cofh
+  site: docs-te
   url: decoctive-diffuser/
 device-factorizer:
   name: Factorizer
   sprite: [0, 64]
-  site: cofh
+  site: docs-te
   url: factorizer/
 device-fisher:
   name: Aquatic Entangler
   sprite: [3, 60]
-  site: cofh
+  site: docs-te
   url: aquatic-entangler/
 device-fluid-buffer:
   name: Fluid Allocator
   sprite: [3, 8]
-  site: cofh
+  site: docs-te
   url: fluid-allocator/
 device-heat-sink:
   name: Thermal Mediator
   sprite: [1, 27]
-  site: cofh
+  site: docs-te
   url: thermal-mediator/
 device-item-buffer:
   name: Item Allocator
   sprite: [3, 27]
-  site: cofh
+  site: docs-te
   url: item-allocator/
 device-lexicon:
   name: Lexical Transmuter
   sprite: [4, 8]
-  site: cofh
+  site: docs-te
   url: lexical-transmuter/
 device-mob-catcher:
   name: Creature Encaptulator
   sprite: [1, 64]
-  site: cofh
+  site: docs-te
   url: creature-encaptulator/
 device-nullifier:
   name: Nullifier
   sprite: [0, 27]
-  site: cofh
+  site: docs-te
   url: nullifier/
 device-tapper:
   name: Arboreal Extractor
   sprite: [2, 27]
-  site: cofh
+  site: docs-te
   url: arboreal-extractor/
 device-water-gen:
   name: Aqueous Accumulator
   sprite: [15, 26]
-  site: cofh
+  site: docs-te
   url: aqueous-accumulator/
 device-xp-collector:
   name: Insightful Condenser
   sprite: [8, 60]
-  site: cofh
+  site: docs-te
   url: insightful-condenser/
 diamond:
   name: Diamond
@@ -1511,242 +1511,242 @@ door-wood-spruce:
 drill-head:
   name: Drill Head
   sprite: [14, 62]
-  site: cofh
+  site: docs-tf
   url: drill-head/
 duct-cover-andesite-polished:
   name: Polished Andesite Cover
   sprite: [7, 33]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-bricks:
   name: Bricks Cover
   sprite: [4, 33]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-cobblestone:
   name: Cobblestone Cover
   sprite: [13, 32]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-diorite-polished:
   name: Polished Diorite Cover
   sprite: [6, 33]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-end-stone-bricks:
   name: End Stone Bricks Cover
   sprite: [8, 33]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-granite-polished:
   name: Polished Granite Cover
   sprite: [5, 33]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-moss-stone:
   name: Moss Stone Cover
   sprite: [3, 33]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-nether-brick:
   name: Nether Brick Cover
   sprite: [1, 33]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-obsidian:
   name: Obsidian Cover
   sprite: [2, 33]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-sandstone:
   name: Sandstone Cover
   sprite: [0, 33]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-stone:
   name: Stone Cover
   sprite: [12, 32]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-wood-log-oak:
   name: Oak Wood Cover
   sprite: [14, 32]
-  site: cofh
+  site: docs-td
   url: covers/
 duct-cover-wood-planks-oak:
   name: Oak Wood Planks Cover
   sprite: [15, 32]
-  site: cofh
+  site: docs-td
   url: covers/
 dust-aerotheum:
   name: Aerotheum Dust
   animated: true
-  site: cofh
+  site: docs-tf
   url: aerotheum-dust/
 dust-aluminum:
   name: Pulverized Aluminum
   sprite: [14, 2]
-  site: cofh
+  site: docs-tf
   url: pulverized-aluminum/
 dust-bronze:
   name: Bronze Blend
   sprite: [15, 2]
-  site: cofh
+  site: docs-tf
   url: bronze-blend/
 dust-charcoal:
   name: Pulverized Charcoal
   sprite: [15, 15]
-  site: cofh
+  site: docs-tf
   url: pulverized-charcoal/
 dust-coal:
   name: Pulverized Coal
   sprite: [3, 0]
-  site: cofh
+  site: docs-tf
   url: pulverized-coal/
 dust-constantan:
   name: Constantan Blend
   sprite: [0, 3]
-  site: cofh
+  site: docs-tf
   url: constantan-blend/
 dust-cryotheum:
   name: Cryotheum Dust
   animated: true
-  site: cofh
+  site: docs-tf
   url: cryotheum-dust/
 dust-copper:
   name: Pulverized Copper
   sprite: [1, 3]
-  site: cofh
+  site: docs-tf
   url: pulverized-copper/
 dust-electrum:
   name: Electrum Blend
   sprite: [2, 3]
-  site: cofh
+  site: docs-tf
   url: electrum-blend/
 dust-enderium:
   name: Enderium Blend
   sprite: [3, 3]
-  site: cofh
+  site: docs-tf
   url: enderium-blend/
 dust-fluxed-electrum:
   name: Fluxed Electrum Blend
   animated: true
-  site: cofh
+  site: docs-ra
   url: fluxed-electrum-blend/
 dust-gold:
   name: Pulverized Gold
   sprite: [12, 8]
-  site: cofh
+  site: docs-tf
   url: pulverized-gold/
 dust-invar:
   name: Invar Blend
   sprite: [4, 3]
-  site: cofh
+  site: docs-tf
   url: invar-blend/
 dust-iridium:
   name: Pulverized Iridium
   sprite: [5, 3]
-  site: cofh
+  site: docs-tf
   url: pulverized-iridium/
 dust-iron:
   name: Pulverized Iron
   sprite: [11, 8]
-  site: cofh
+  site: docs-tf
   url: pulverized-iron/
 dust-lead:
   name: Pulverized Lead
   sprite: [6, 3]
-  site: cofh
+  site: docs-tf
   url: pulverized-lead/
 dust-lumium:
   name: Lumium Blend
   sprite: [7, 3]
-  site: cofh
+  site: docs-tf
   url: lumium-blend/
 dust-mana:
   name: Mana Dust
   animated: true
-  site: cofh
+  site: docs-tf
   url: mana-dust/
 dust-mithril:
   name: Pulverized Mana Infused Metal
   sprite: [8, 3]
-  site: cofh
+  site: docs-tf
   url: pulverized-mana-infused-metal/
 dust-nickel:
   name: Pulverized Nickel
   sprite: [9, 3]
-  site: cofh
+  site: docs-tf
   url: pulverized-nickel/
 dust-obsidian:
   name: Pulverized Obsidian
   sprite: [13, 2]
-  site: cofh
+  site: docs-tf
   url: pulverized-obsidian/
 dust-petrotheum:
   name: Petrotheum Dust
   animated: true
-  site: cofh
+  site: docs-tf
   url: petrotheum-dust/
 dust-platinum:
   name: Pulverized Platinum
   sprite: [10, 3]
-  site: cofh
+  site: docs-tf
   url: pulverized-platinum/
 dust-pyrotheum:
   name: Pyrotheum Dust
   animated: true
-  site: cofh
+  site: docs-tf
   url: pyrotheum-dust/
 dust-signalum:
   name: Signalum Blend
   sprite: [11, 3]
-  site: cofh
+  site: docs-tf
   url: signalum-blend/
 dust-silver:
   name: Pulverized Silver
   sprite: [12, 3]
-  site: cofh
+  site: docs-tf
   url: pulverized-silver/
 dust-steel:
   name: Steel Blend
   sprite: [13, 3]
-  site: cofh
+  site: docs-tf
   url: steel-blend/
 dust-tin:
   name: Pulverized Tin
   sprite: [14, 3]
-  site: cofh
+  site: docs-tf
   url: pulverized-tin/
 dynamo-compression:
   name: Compression Dynamo
   sprite: [6, 27]
-  site: cofh
+  site: docs-te
   url: compression-dynamo/
 dynamo-enervation:
   name: Enervation Dynamo
   sprite: [8, 27]
-  site: cofh
+  site: docs-te
   url: enervation-dynamo/
 dynamo-magmatic:
   name: Magmatic Dynamo
   sprite: [5, 27]
-  site: cofh
+  site: docs-te
   url: magmatic-dynamo/
 dynamo-numismatic:
   name: Numismatic Dynamo
   sprite: [9, 27]
-  site: cofh
+  site: docs-te
   url: numismatic-dynamo/
 dynamo-reactant:
   name: Reactant Dynamo
   sprite: [7, 27]
-  site: cofh
+  site: docs-te
   url: reactant-dynamo/
 dynamo-steam:
   name: Steam Dynamo
   sprite: [4, 27]
-  site: cofh
+  site: docs-te
   url: steam-dynamo/
 emerald:
   name: Emerald
@@ -1776,7 +1776,7 @@ ender-pearl:
 energy-cell-basic:
   name: Energy Cell (Basic)
   sprite: [10, 27]
-  site: cofh
+  site: docs-te
   url: energy-cell/
 eye-of-ender:
   name: Eye of Ender
@@ -1846,27 +1846,27 @@ fence-gate-spruce:
 filter-basic:
   name: Filter
   sprite: [2, 9]
-  site: cofh
+  site: docs-td
   url: filters/
 filter-hardened:
   name: Hardened Filter
   sprite: [3, 9]
-  site: cofh
+  site: docs-td
   url: filters/
 filter-reinforced:
   name: Reinforced Filter
   sprite: [4, 9]
-  site: cofh
+  site: docs-td
   url: filters/
 filter-signalum:
   name: Signalum Filter
   sprite: [5, 9]
-  site: cofh
+  site: docs-td
   url: filters/
 filter-resonant:
   name: Resonant Filter
   sprite: [6, 9]
-  site: cofh
+  site: docs-td
   url: filters/
 fishing-rod:
   name: Fishing Rod
@@ -1876,83 +1876,83 @@ fishing-rod:
 fishing-rod-aluminum:
   name: Aluminum Fishing Rod
   sprite: [0, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-bronze:
   name: Bronze Fishing Rod
   sprite: [1, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-constantan:
   name: Constantan Fishing Rod
   sprite: [2, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-copper:
   name: Copper Fishing Rod
   sprite: [3, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-diamond:
   name: Diamond Fishing Rod
   sprite: [4, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-electrum:
   name: Electrum Fishing Rod
   sprite: [5, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-gold:
   name: Gold Fishing Rod
   sprite: [6, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-invar:
   name: Invar Fishing Rod
   sprite: [7, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-iron:
   name: Iron Fishing Rod
   sprite: [8, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-lead:
   name: Lead Fishing Rod
   sprite: [9, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-nickel:
   name: Nickel Fishing Rod
   sprite: [10, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-platinum:
   name: Platinum Fishing Rod
   sprite: [11, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-silver:
   name: Silver Fishing Rod
   sprite: [12, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-steel:
   name: Steel Fishing Rod
   sprite: [13, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-stone:
   name: Stone Fishing Rod
   sprite: [14, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 fishing-rod-tin:
   name: Tin Fishing Rod
   sprite: [15, 18]
-  site: cofh
-  url: tf-fishing-rods/
+  site: docs-tf
+  url: fishing-rods/
 flint:
   name: Flint
   sprite: [9, 8]
@@ -1966,12 +1966,12 @@ flint-and-steel:
 florb:
   name: Florb (Empty)
   sprite: [11, 30]
-  site: cofh
+  site: docs-te
   url: florb/
 florb-magmatic:
   name: Magmatic Florb (Empty)
   sprite: [12, 30]
-  site: cofh
+  site: docs-te
   url: magmatic-florb/
 flower-pot:
   name: Flower Pot
@@ -1981,407 +1981,407 @@ flower-pot:
 fluiduct-basic:
   name: Fluiduct
   sprite: [7, 31]
-  site: cofh
+  site: docs-td
   url: fluiduct/
 fluiduct-basic-opaque:
   name: Fluiduct (Opaque)
   sprite: [8, 31]
-  site: cofh
+  site: docs-td
   url: fluiduct/
 fluiduct-hardened:
   name: Hardened Fluiduct
   sprite: [9, 31]
-  site: cofh
+  site: docs-td
   url: hardened-fluiduct/
 fluiduct-hardened-opaque:
   name: Hardened Fluiduct (Opaque)
   sprite: [10, 31]
-  site: cofh
+  site: docs-td
   url: hardened-fluiduct/
 fluiduct-energy:
   name: Signalum-Plated Fluiduct
   sprite: [11, 31]
-  site: cofh
+  site: docs-td
   url: signalum-plated-fluiduct/
 fluiduct-energy-opaque:
   name: Signalum-Plated Fluiduct (Opaque)
   sprite: [12, 31]
-  site: cofh
+  site: docs-td
   url: signalum-plated-fluiduct/
 fluiduct-super:
   name: Super-Laminar Fluiduct
   sprite: [13, 31]
-  site: cofh
+  site: docs-td
   url: super-laminar-fluiduct/
 fluiduct-super-opaque:
   name: Super-Laminar Fluiduct (Opaque)
   sprite: [14, 31]
-  site: cofh
+  site: docs-td
   url: super-laminar-fluiduct/
 flux-capacitor-basic:
   name: Flux Capacitor (Basic)
   sprite: [1, 28]
-  site: cofh
+  site: docs-te
   url: flux-capacitor/
 flux-capacitor-hardened:
   name: Flux Capacitor (Hardened)
   sprite: [2, 28]
-  site: cofh
+  site: docs-te
   url: flux-capacitor/
 flux-capacitor-reinforced:
   name: Flux Capacitor (Reinforced)
   sprite: [3, 28]
-  site: cofh
+  site: docs-te
   url: flux-capacitor/
 flux-capacitor-signalum:
   name: Flux Capacitor (Signalum)
   sprite: [4, 28]
-  site: cofh
+  site: docs-te
   url: flux-capacitor/
 flux-capacitor-resonant:
   name: Flux Capacitor (Resonant)
   sprite: [5, 28]
-  site: cofh
+  site: docs-te
   url: flux-capacitor/
 flux-crystal:
   name: Flux Crystal
   animated: true
-  site: cofh
+  site: docs-ra
   url: flux-crystal/
 flux-infused-axe:
   name: Flux-Infused Axe
   sprite: [14, 34]
-  site: cofh
+  site: docs-ra
   url: flux-infused-axe/
 flux-infused-battlewrench:
   name: Flux-Infused BattleWrench
   sprite: [15, 34]
-  site: cofh
+  site: docs-ra
   url: flux-infused-battlewrench/
 flux-infused-boots:
   name: Flux-Infused Boots
   sprite: [13, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-boots/
 flux-infused-bow:
   name: Flux-Infused Bow
   sprite: [0, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-bow/
 flux-infused-chestplate:
   name: Flux-Infused Chestplate
   sprite: [11, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-chestplate/
 flux-infused-fishing-rod:
   name: Flux-Infused Fishing Rod
   sprite: [1, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-fishing-rod/
 flux-infused-hammer:
   name: Flux-Infused Hammer
   sprite: [2, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-hammer/
 flux-infused-helmet:
   name: Flux-Infused Helm
   sprite: [10, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-helm/
 flux-infused-leggings:
   name: Flux-Infused Leggings
   sprite: [12, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-leggings/
 flux-infused-pickaxe:
   name: Flux-Infused Pickaxe
   sprite: [3, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-pickaxe/
 flux-infused-quiver:
   name: Flux-Infused Quiver
   sprite: [9, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-quiver/
 flux-infused-shield:
   name: Flux-Infused Shield
   sprite: [4, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-shield/
 flux-infused-shovel:
   name: Flux-Infused Shovel
   sprite: [5, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-shovel/
 flux-infused-sickle:
   name: Flux-Infused Sickle
   sprite: [6, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-sickle/
 flux-infused-sword:
   name: Flux-Infused Sword
   sprite: [7, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-sword/
 flux-infused-wrench:
   name: Flux-Infused OmniWrench
   sprite: [8, 35]
-  site: cofh
+  site: docs-ra
   url: flux-infused-omniwrench/
 fluxbore-basic:
   name: Fluxbore (Basic)
   sprite: [13, 61]
-  site: cofh
+  site: docs-ti
   url: fluxbore/
 fluxbore-hardened:
   name: Fluxbore (Hardened)
   sprite: [14, 61]
-  site: cofh
+  site: docs-ti
   url: fluxbore/
 fluxbore-reinforced:
   name: Fluxbore (Reinforced)
   sprite: [15, 61]
-  site: cofh
+  site: docs-ti
   url: fluxbore/
 fluxbore-signalum:
   name: Fluxbore (Signalum)
   sprite: [0, 62]
-  site: cofh
+  site: docs-ti
   url: fluxbore/
 fluxbore-resonant:
   name: Fluxbore (Resonant)
   sprite: [1, 62]
-  site: cofh
+  site: docs-ti
   url: fluxbore/
 fluxduct-basic:
   name: Leadstone Fluxduct
   sprite: [13, 30]
-  site: cofh
+  site: docs-td
   url: leadstone-fluxduct/
 fluxduct-hardened:
   name: Hardened Fluxduct
   sprite: [14, 30]
-  site: cofh
+  site: docs-td
   url: hardened-fluxduct/
 fluxduct-reinforced:
   name: Redstone Energy Fluxduct
   sprite: [15, 30]
-  site: cofh
+  site: docs-td
   url: redstone-energy-fluxduct/
 fluxduct-reinforced-empty:
   name: Redstone Energy Fluxduct (Empty)
   sprite: [3, 31]
-  site: cofh
+  site: docs-td
   url: redstone-energy-fluxduct/
 fluxduct-signalum:
   name: Signalum Fluxduct
   sprite: [0, 31]
-  site: cofh
+  site: docs-td
   url: signalum-fluxduct/
 fluxduct-signalum-empty:
   name: Signalum Fluxduct (Empty)
   sprite: [4, 31]
-  site: cofh
+  site: docs-td
   url: signalum-fluxduct/
 fluxduct-resonant:
   name: Resonant Fluxduct
   sprite: [1, 31]
-  site: cofh
+  site: docs-td
   url: resonant-fluxduct/
 fluxduct-resonant-empty:
   name: Resonant Fluxduct (Empty)
   sprite: [5, 31]
-  site: cofh
+  site: docs-td
   url: resonant-fluxduct/
 fluxduct-super:
   name: Cryo-Stabilized Fluxduct
   sprite: [2, 31]
-  site: cofh
+  site: docs-td
   url: cryo-stabilized-fluxduct/
 fluxduct-super-empty:
   name: Cryo-Stabilized Fluxduct (Empty)
   sprite: [6, 31]
-  site: cofh
+  site: docs-td
   url: cryo-stabilized-fluxduct/
 fluxed-armor-plating:
   name: Fluxed Armor Plating
   sprite: [11, 34]
-  site: cofh
+  site: docs-ra
   url: fluxed-armor-plating/
 fluxomagnet-basic:
   name: Fluxomagnet (Basic)
   sprite: [2, 62]
-  site: cofh
+  site: docs-ti
   url: fluxomagnet/
 fluxomagnet-hardened:
   name: Fluxomagnet (Hardened)
   sprite: [3, 62]
-  site: cofh
+  site: docs-ti
   url: fluxomagnet/
 fluxomagnet-reinforced:
   name: Fluxomagnet (Reinforced)
   sprite: [4, 62]
-  site: cofh
+  site: docs-ti
   url: fluxomagnet/
 fluxomagnet-signalum:
   name: Fluxomagnet (Signalum)
   sprite: [5, 62]
-  site: cofh
+  site: docs-ti
   url: fluxomagnet/
 fluxomagnet-resonant:
   name: Fluxomagnet (Resonant)
   sprite: [6, 62]
-  site: cofh
+  site: docs-ti
   url: fluxomagnet/
 fluxsaw-basic:
   name: Fluxsaw (Basic)
   sprite: [2, 64]
-  site: cofh
+  site: docs-ti
   url: fluxsaw/
 fluxsaw-hardened:
   name: Fluxsaw (Hardened)
   sprite: [3, 64]
-  site: cofh
+  site: docs-ti
   url: fluxsaw/
 fluxsaw-reinforced:
   name: Fluxsaw (Reinforced)
   sprite: [4, 64]
-  site: cofh
+  site: docs-ti
   url: fluxsaw/
 fluxsaw-signalum:
   name: Fluxsaw (Signalum)
   sprite: [5, 64]
-  site: cofh
+  site: docs-ti
   url: fluxsaw/
 fluxsaw-resonant:
   name: Fluxsaw (Resonant)
   sprite: [6, 64]
-  site: cofh
+  site: docs-ti
   url: fluxsaw/
 forge-lexicon:
   name: Forge Lexicon
   sprite: [8, 11]
-  site: cofh
+  site: docs-tf
   url: forge-lexicon/
 frame-device:
   name: Device Frame
   sprite: [15, 27]
-  site: cofh
+  site: docs-te
   url: devices/
 frame-energy-cell:
   name: Energy Cell Frame
   sprite: [0, 28]
-  site: cofh
+  site: docs-te
   url: energy-cell/
 frame-machine:
   name: Machine Frame
   sprite: [14, 27]
-  site: cofh
+  site: docs-te
   url: machines/
 gear-aluminum:
   name: Aluminum Gear
   sprite: [0, 13]
-  site: cofh
+  site: docs-tf
   url: aluminum-gear/
 gear-bronze:
   name: Bronze Gear
   sprite: [1, 13]
-  site: cofh
+  site: docs-tf
   url: bronze-gear/
 gear-constantan:
   name: Constantan Gear
   sprite: [2, 13]
-  site: cofh
+  site: docs-tf
   url: constantan-gear/
 gear-copper:
   name: Copper Gear
   sprite: [3, 13]
-  site: cofh
+  site: docs-tf
   url: copper-gear/
 gear-electrum:
   name: Electrum Gear
   sprite: [4, 13]
-  site: cofh
+  site: docs-tf
   url: electrum-gear/
 gear-enderium:
   name: Enderium Gear
   sprite: [5, 13]
-  site: cofh
+  site: docs-tf
   url: enderium-gear/
 gear-fluxed-electrum:
   name: Fluxed Electrum Gear
   animated: true
-  site: cofh
+  site: docs-ra
   url: fluxed-electrum-gear/
 gear-gold:
   name: Gold Gear
   sprite: [6, 13]
-  site: cofh
+  site: docs-tf
   url: gold-gear/
 gear-invar:
   name: Invar Gear
   sprite: [7, 13]
-  site: cofh
+  site: docs-tf
   url: invar-gear/
 gear-iridium:
   name: Iridium Gear
   sprite: [8, 13]
-  site: cofh
+  site: docs-tf
   url: iridium-gear/
 gear-iron:
   name: Iron Gear
   sprite: [9, 13]
-  site: cofh
+  site: docs-tf
   url: iron-gear/
 gear-lead:
   name: Lead Gear
   sprite: [10, 13]
-  site: cofh
+  site: docs-tf
   url: lead-gear/
 gear-lumium:
   name: Lumium Gear
   sprite: [11, 13]
-  site: cofh
+  site: docs-tf
   url: lumium-gear/
 gear-mithril:
   name: Mana Infused Gear
   sprite: [12, 13]
-  site: cofh
+  site: docs-tf
   url: mana-infused-gear/
 gear-nickel:
   name: Nickel Gear
   sprite: [13, 13]
-  site: cofh
+  site: docs-tf
   url: nickel-gear/
 gear-platinum:
   name: Platinum Gear
   sprite: [14, 13]
-  site: cofh
+  site: docs-tf
   url: platinum-gear/
 gear-signalum:
   name: Signalum Gear
   sprite: [15, 13]
-  site: cofh
+  site: docs-tf
   url: signalum-gear/
 gear-silver:
   name: Silver Gear
   sprite: [0, 14]
-  site: cofh
+  site: docs-tf
   url: silver-gear/
 gear-steel:
   name: Steel Gear
   sprite: [1, 14]
-  site: cofh
+  site: docs-tf
   url: steel-gear/
 gear-tin:
   name: Tin Gear
   sprite: [2, 14]
-  site: cofh
+  site: docs-tf
   url: tin-gear/
 geode:
   name: Geode
   sprite: [0, 16]
-  site: cofh
+  site: docs-tf
   url: geode/
 glass:
   name: Glass
@@ -2511,172 +2511,172 @@ gunpowder:
 hammer-aluminum:
   name: Aluminum Hammer
   sprite: [0, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-bronze:
   name: Bronze Hammer
   sprite: [1, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-constantan:
   name: Constantan Hammer
   sprite: [2, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-copper:
   name: Copper Hammer
   sprite: [3, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-diamond:
   name: Diamond Hammer
   sprite: [4, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-electrum:
   name: Electrum Hammer
   sprite: [5, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-gold:
   name: Gold Hammer
   sprite: [6, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-invar:
   name: Invar Hammer
   sprite: [7, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-iron:
   name: Iron Hammer
   sprite: [8, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-lead:
   name: Lead Hammer
   sprite: [9, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-nickel:
   name: Nickel Hammer
   sprite: [10, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-platinum:
   name: Platinum Hammer
   sprite: [11, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-silver:
   name: Silver Hammer
   sprite: [12, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-steel:
   name: Steel Hammer
   sprite: [13, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-stone:
   name: Stone Hammer
   sprite: [14, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-tin:
   name: Tin Hammer
   sprite: [15, 19]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hammer-wood:
   name: Wooden Hammer
   sprite: [0, 20]
-  site: cofh
-  url: tf-hammers/
+  site: docs-tf
+  url: hammers/
 hardened-glass:
   name: Hardened Glass
   sprite: [12, 1]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-aluminum:
   name: Hardened Aluminum Glass
   sprite: [0, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-bronze:
   name: Hardened Bronze Glass
   sprite: [8, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-constantan:
   name: Hardened Constantan Glass
   sprite: [9, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-copper:
   name: Hardened Copper Glass
   sprite: [13, 1]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-electrum:
   name: Hardened Electrum Glass
   sprite: [6, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-enderium:
   name: Hardened Enderium Glass
   sprite: [12, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-invar:
   name: Hardened Invar Glass
   sprite: [7, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-iridium:
   name: Hardened Iridium Glass
   sprite: [3, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-lumium:
   name: Hardened Lumium Glass
   sprite: [11, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-mithril:
   name: Hardened Mana Infused Glass
   sprite: [4, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-nickel:
   name: Hardened Nickel Glass
   sprite: [1, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-platinum:
   name: Hardened Platinum Glass
   sprite: [2, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-signalum:
   name: Hardened Signalum Glass
   sprite: [10, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-silver:
   name: Hardened Silver Glass
   sprite: [15, 1]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-steel:
   name: Hardened Steel Glass
   sprite: [5, 2]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hardened-glass-tin:
   name: Hardened Tin Glass
   sprite: [14, 1]
-  site: cofh
+  site: docs-tf
   url: hardened-glass/
 hay-bale:
   name: Hay Bale
@@ -2686,23 +2686,23 @@ hay-bale:
 helmet-aluminum:
   name: Aluminum Helmet
   sprite: [14, 35]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-bronze:
   name: Bronze Helmet
   sprite: [15, 35]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-constantan:
   name: Constantan Helmet
   sprite: [0, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-copper:
   name: Copper Helmet
   sprite: [1, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-diamond:
   name: Diamond Helmet
   sprite: [8, 39]
@@ -2711,8 +2711,8 @@ helmet-diamond:
 helmet-electrum:
   name: Electrum Helmet
   sprite: [2, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-gold:
   name: Golden Helmet
   sprite: [9, 39]
@@ -2721,8 +2721,8 @@ helmet-gold:
 helmet-invar:
   name: Invar Helmet
   sprite: [3, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-iron:
   name: Iron Helmet
   sprite: [10, 39]
@@ -2731,8 +2731,8 @@ helmet-iron:
 helmet-lead:
   name: Lead Helmet
   sprite: [4, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-leather:
   name: Leather Cap
   sprite: [12, 52]
@@ -2741,48 +2741,48 @@ helmet-leather:
 helmet-nickel:
   name: Nickel Helmet
   sprite: [5, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-platinum:
   name: Platinum Helmet
   sprite: [6, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-silver:
   name: Silver Helmet
   sprite: [7, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-steel:
   name: Steel Helmet
   sprite: [8, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 helmet-tin:
   name: Tin Helmet
   sprite: [9, 36]
-  site: cofh
-  url: tf-helmets/
+  site: docs-tf
+  url: helmets/
 hoe-aluminum:
   name: Aluminum Hoe
   sprite: [1, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-bronze:
   name: Bronze Hoe
   sprite: [2, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-constantan:
   name: Constantan Hoe
   sprite: [3, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-copper:
   name: Copper Hoe
   sprite: [4, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-diamond:
   name: Diamond Hoe
   sprite: [7, 44]
@@ -2791,8 +2791,8 @@ hoe-diamond:
 hoe-electrum:
   name: Electrum Hoe
   sprite: [5, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-gold:
   name: Golden Hoe
   sprite: [11, 56]
@@ -2801,8 +2801,8 @@ hoe-gold:
 hoe-invar:
   name: Invar Hoe
   sprite: [6, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-iron:
   name: Iron Hoe
   sprite: [3, 56]
@@ -2811,33 +2811,33 @@ hoe-iron:
 hoe-lead:
   name: Lead Hoe
   sprite: [7, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-nickel:
   name: Nickel Hoe
   sprite: [8, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-platinum:
   name: Platinum Hoe
   sprite: [9, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-silver:
   name: Silver Hoe
   sprite: [10, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-steel:
   name: Steel Hoe
   sprite: [11, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-tin:
   name: Tin Hoe
   sprite: [12, 20]
-  site: cofh
-  url: tf-hoes/
+  site: docs-tf
+  url: hoes/
 hoe-wood:
   name: Wooden Hoe
   sprite: [3, 50]
@@ -2866,27 +2866,27 @@ horse-armor-iron:
 hypoinfuser-basic:
   name: Hypoinfuser (Basic)
   sprite: [7, 62]
-  site: cofh
+  site: docs-ti
   url: hypoinfuser/
 hypoinfuser-hardened:
   name: Hypoinfuser (Hardened)
   sprite: [8, 62]
-  site: cofh
+  site: docs-ti
   url: hypoinfuser/
 hypoinfuser-reinforced:
   name: Hypoinfuser (Reinforced)
   sprite: [9, 62]
-  site: cofh
+  site: docs-ti
   url: hypoinfuser/
 hypoinfuser-signalum:
   name: Hypoinfuser (Signalum)
   sprite: [10, 62]
-  site: cofh
+  site: docs-ti
   url: hypoinfuser/
 hypoinfuser-resonant:
   name: Hypoinfuser (Resonant)
   sprite: [11, 62]
-  site: cofh
+  site: docs-ti
   url: hypoinfuser/
 ice:
   name: Ice
@@ -2896,37 +2896,37 @@ ice:
 ingot-aluminum:
   name: Aluminum Ingot
   sprite: [11, 0]
-  site: cofh
+  site: docs-tf
   url: aluminum-ingot/
 ingot-bronze:
   name: Bronze Ingot
   sprite: [12, 0]
-  site: cofh
+  site: docs-tf
   url: bronze-ingot/
 ingot-constantan:
   name: Constantan Ingot
   sprite: [13, 0]
-  site: cofh
+  site: docs-tf
   url: constantan-ingot/
 ingot-copper:
   name: Copper Ingot
   sprite: [14, 0]
-  site: cofh
+  site: docs-tf
   url: copper-ingot/
 ingot-electrum:
   name: Electrum Ingot
   sprite: [15, 0]
-  site: cofh
+  site: docs-tf
   url: electrum-ingot/
 ingot-enderium:
   name: Enderium Ingot
   sprite: [0, 1]
-  site: cofh
+  site: docs-tf
   url: enderium-ingot/
 ingot-fluxed-electrum:
   name: Fluxed Electrum Ingot
   animated: true
-  site: cofh
+  site: docs-ra
   url: fluxed-electrum-ingot/
 ingot-gold:
   name: Gold Ingot
@@ -2941,57 +2941,57 @@ ingot-iron:
 ingot-invar:
   name: Invar Ingot
   sprite: [1, 1]
-  site: cofh
+  site: docs-tf
   url: invar-ingot/
 ingot-iridium:
   name: Iridium Ingot
   sprite: [2, 1]
-  site: cofh
+  site: docs-tf
   url: iridium-ingot/
 ingot-lead:
   name: Lead Ingot
   sprite: [3, 1]
-  site: cofh
+  site: docs-tf
   url: lead-ingot/
 ingot-lumium:
   name: Lumium Ingot
   sprite: [4, 1]
-  site: cofh
+  site: docs-tf
   url: lumium-ingot/
 ingot-mithril:
   name: Mana Infused Ingot
   sprite: [5, 1]
-  site: cofh
+  site: docs-tf
   url: mana-infused-ingot/
 ingot-nickel:
   name: Nickel Ingot
   sprite: [6, 1]
-  site: cofh
+  site: docs-tf
   url: nickel-ingot/
 ingot-platinum:
   name: Platinum Ingot
   sprite: [7, 1]
-  site: cofh
+  site: docs-tf
   url: platinum-ingot/
 ingot-signalum:
   name: Signalum Ingot
   sprite: [8, 1]
-  site: cofh
+  site: docs-tf
   url: signalum-ingot/
 ingot-silver:
   name: Silver Ingot
   sprite: [9, 1]
-  site: cofh
+  site: docs-tf
   url: silver-ingot/
 ingot-steel:
   name: Steel Ingot
   sprite: [10, 1]
-  site: cofh
+  site: docs-tf
   url: steel-ingot/
 ingot-tin:
   name: Tin Ingot
   sprite: [11, 1]
-  site: cofh
+  site: docs-tf
   url: tin-ingot/
 ink-sac:
   name: Ink Sac
@@ -3011,122 +3011,122 @@ item-frame:
 itemduct:
   name: Itemduct
   sprite: [15, 31]
-  site: cofh
+  site: docs-td
   url: itemduct/
 itemduct-dense:
   name: Dense Itemduct
   sprite: [13, 64]
-  site: cofh
+  site: docs-td
   url: itemduct/
 itemduct-vacuum:
   name: Vacuum Itemduct
   sprite: [5, 65]
-  site: cofh
+  site: docs-td
   url: itemduct/
 itemduct-opaque:
   name: Itemduct (Opaque)
   sprite: [0, 32]
-  site: cofh
+  site: docs-td
   url: itemduct/
 itemduct-opaque-dense:
   name: Dense Itemduct (Opaque)
   sprite: [14, 64]
-  site: cofh
+  site: docs-td
   url: itemduct/
 itemduct-opaque-vacuum:
   name: Vacuum Itemduct (Opaque)
   sprite: [6, 65]
-  site: cofh
+  site: docs-td
   url: itemduct/
 itemduct-fast:
   name: Impulse Itemduct
   sprite: [1, 32]
-  site: cofh
+  site: docs-td
   url: impulse-itemduct/
 itemduct-fast-dense:
   name: Dense Impulse Itemduct
   sprite: [15, 64]
-  site: cofh
+  site: docs-td
   url: impulse-itemduct/
 itemduct-fast-vacuum:
   name: Vacuum Impulse Itemduct
   sprite: [7, 65]
-  site: cofh
+  site: docs-td
   url: impulse-itemduct/
 itemduct-fast-opaque:
   name: Impulse Itemduct (Opaque)
   sprite: [2, 32]
-  site: cofh
+  site: docs-td
   url: impulse-itemduct/
 itemduct-fast-opaque-dense:
   name: Dense Impulse Itemduct (Opaque)
   sprite: [0, 65]
-  site: cofh
+  site: docs-td
   url: impulse-itemduct/
 itemduct-fast-opaque-vacuum:
   name: Vacuum Impulse Itemduct (Opaque)
   sprite: [8, 65]
-  site: cofh
+  site: docs-td
   url: impulse-itemduct/
 itemduct-energy:
   name: Signalum-Plated Itemduct
   sprite: [3, 32]
-  site: cofh
+  site: docs-td
   url: signalum-plated-itemduct/
 itemduct-energy-dense:
   name: Dense Signalum-Plated Itemduct
   sprite: [1, 65]
-  site: cofh
+  site: docs-td
   url: signalum-plated-itemduct/
 itemduct-energy-vacuum:
   name: Vacuum Signalum-Plated Itemduct
   sprite: [9, 65]
-  site: cofh
+  site: docs-td
   url: signalum-plated-itemduct/
 itemduct-energy-opaque:
   name: Signalum-Plated Itemduct (Opaque)
   sprite: [4, 32]
-  site: cofh
+  site: docs-td
   url: signalum-plated-itemduct/
 itemduct-energy-opaque-dense:
   name: Dense Signalum-Plated Itemduct (Opaque)
   sprite: [2, 65]
-  site: cofh
+  site: docs-td
   url: signalum-plated-itemduct/
 itemduct-energy-opaque-vacuum:
   name: Vacuum Signalum-Plated Itemduct (Opaque)
   sprite: [10, 65]
-  site: cofh
+  site: docs-td
   url: signalum-plated-itemduct/
 itemduct-energy-fast:
   name: Signalum-Plated Impulse Itemduct
   sprite: [5, 32]
-  site: cofh
+  site: docs-td
   url: signalum-plated-impulse-itemduct/
 itemduct-energy-fast-dense:
   name: Dense Signalum-Plated Impulse Itemduct
   sprite: [3, 65]
-  site: cofh
+  site: docs-td
   url: signalum-plated-impulse-itemduct/
 itemduct-energy-fast-vacuum:
   name: Vacuum Signalum-Plated Impulse Itemduct
   sprite: [11, 65]
-  site: cofh
+  site: docs-td
   url: signalum-plated-impulse-itemduct/
 itemduct-energy-fast-opaque:
   name: Signalum-Plated Impulse Itemduct (Opaque)
   sprite: [6, 32]
-  site: cofh
+  site: docs-td
   url: signalum-plated-impulse-itemduct/
 itemduct-energy-fast-opaque-dense:
   name: Dense Signalum-Plated Impulse Itemduct (Opaque)
   sprite: [4, 65]
-  site: cofh
+  site: docs-td
   url: signalum-plated-impulse-itemduct/
 itemduct-energy-fast-opaque-vacuum:
   name: Vacuum Signalum-Plated Impulse Itemduct (Opaque)
   sprite: [12, 65]
-  site: cofh
+  site: docs-td
   url: signalum-plated-impulse-itemduct/
 jukebox:
   name: Jukebox
@@ -3181,23 +3181,23 @@ leaves-spruce:
 leggings-aluminum:
   name: Aluminum Leggings
   sprite: [6, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-bronze:
   name: Bronze Leggings
   sprite: [7, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-constantan:
   name: Constantan Leggings
   sprite: [8, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-copper:
   name: Copper Leggings
   sprite: [9, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-diamond:
   name: Diamond Leggings
   sprite: [12, 44]
@@ -3206,8 +3206,8 @@ leggings-diamond:
 leggings-electrum:
   name: Electrum Leggings
   sprite: [10, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-gold:
   name: Golden Leggings
   sprite: [0, 57]
@@ -3216,8 +3216,8 @@ leggings-gold:
 leggings-invar:
   name: Invar Leggings
   sprite: [11, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-iron:
   name: Iron Leggings
   sprite: [8, 56]
@@ -3226,8 +3226,8 @@ leggings-iron:
 leggings-lead:
   name: Lead Leggings
   sprite: [12, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-leather:
   name: Leather Pants
   sprite: [14, 52]
@@ -3236,28 +3236,28 @@ leggings-leather:
 leggings-nickel:
   name: Nickel Leggings
   sprite: [13, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-platinum:
   name: Platinum Leggings
   sprite: [14, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-silver:
   name: Silver Leggings
   sprite: [15, 37]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-steel:
   name: Steel Leggings
   sprite: [0, 38]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 leggings-tin:
   name: Tin Leggings
   sprite: [1, 38]
-  site: cofh
-  url: tf-leggings/
+  site: docs-tf
+  url: leggings/
 lever:
   name: Lever
   sprite: [6, 51]
@@ -3291,82 +3291,82 @@ lime-dye:
 machine-brewer:
   name: Alchemical Imbuer
   sprite: [1, 8]
-  site: cofh
+  site: docs-te
   url: alchemical-imbuer/
 machine-centrifuge:
   name: Centrifugal Separator
   sprite: [12, 26]
-  site: cofh
+  site: docs-te
   url: centrifugal-separator/
 machine-charger:
   name: Energetic Infuser
   sprite: [11, 26]
-  site: cofh
+  site: docs-te
   url: energetic-infuser/
 machine-compactor:
   name: Compactor
   sprite: [7, 26]
-  site: cofh
+  site: docs-te
   url: compactor/
 machine-crafter:
   name: Sequential Fabricator
   sprite: [9, 11]
-  site: cofh
+  site: docs-te
   url: sequential-fabricator/
 machine-crucible:
   name: Magma Crucible
   sprite: [8, 26]
-  site: cofh
+  site: docs-te
   url: magma-crucible/
 machine-enchanter:
   name: Arcane Ensorcellator
   sprite: [2, 8]
-  site: cofh
+  site: docs-te
   url: arcane-ensorcellator/
 machine-extruder:
   name: Igneous Extruder
   sprite: [14, 26]
-  site: cofh
+  site: docs-te
   url: igneous-extruder/
 machine-insolator:
   name: Phytogenic Insolator
   sprite: [6, 26]
-  site: cofh
+  site: docs-te
   url: phytogenic-insolator/
 machine-furnace:
   name: Redstone Furnace
   sprite: [2, 26]
-  site: cofh
+  site: docs-te
   url: redstone-furnace/
 machine-precipitator:
   name: Glacial Precipitator
   sprite: [13, 26]
-  site: cofh
+  site: docs-te
   url: glacial-precipitator/
 machine-pulverizer:
   name: Pulverizer
   sprite: [3, 26]
-  site: cofh
+  site: docs-te
   url: pulverizer/
 machine-refinery:
   name: Fractionating Still
   sprite: [9, 26]
-  site: cofh
+  site: docs-te
   url: fractionating-still/
 machine-sawmill:
   name: Sawmill
   sprite: [4, 26]
-  site: cofh
+  site: docs-te
   url: sawmill/
 machine-smelter:
   name: Induction Smelter
   sprite: [5, 26]
-  site: cofh
+  site: docs-te
   url: induction-smelter/
 machine-transposer:
   name: Fluid Transposer
   sprite: [10, 26]
-  site: cofh
+  site: docs-te
   url: fluid-transposer/
 magenta-dye:
   name: Magenta Dye
@@ -3401,12 +3401,12 @@ melon-slice:
 morb:
   name: Morb (Empty)
   sprite: [14, 29]
-  site: cofh
+  site: docs-te
   url: morb/
 morb-reusable:
   name: Reusable Morb (Empty)
   sprite: [15, 29]
-  site: cofh
+  site: docs-te
   url: reusable-morb/
 moss-stone:
   name: Moss Stone
@@ -3416,7 +3416,7 @@ moss-stone:
 multimeter:
   name: Multimeter
   sprite: [6, 11]
-  site: cofh
+  site: docs-tf
   url: multimeter/
 mushroom-brown:
   name: Brown Mushroom
@@ -3501,7 +3501,7 @@ netherrack:
 niter:
   name: Niter
   sprite: [10, 15]
-  site: cofh
+  site: docs-tf
   url: niter/
 note-block:
   name: Note Block
@@ -3511,47 +3511,47 @@ note-block:
 nugget-aluminum:
   name: Aluminum Nugget
   sprite: [4, 10]
-  site: cofh
+  site: docs-tf
   url: aluminum-nugget/
 nugget-bronze:
   name: Bronze Nugget
   sprite: [12, 10]
-  site: cofh
+  site: docs-tf
   url: bronze-nugget/
 nugget-constantan:
   name: Constantan Nugget
   sprite: [13, 10]
-  site: cofh
+  site: docs-tf
   url: constantan-nugget/
 nugget-copper:
   name: Copper Nugget
   sprite: [0, 10]
-  site: cofh
+  site: docs-tf
   url: copper-nugget/
 nugget-diamond:
   name: Diamond Nugget
   sprite: [1, 11]
-  site: cofh
+  site: docs-tf
   url: diamond-nugget/
 nugget-electrum:
   name: Electrum Nugget
   sprite: [10, 10]
-  site: cofh
+  site: docs-tf
   url: electrum-nugget/
 nugget-emerald:
   name: Emerald Nugget
   sprite: [2, 11]
-  site: cofh
+  site: docs-tf
   url: emerald-nugget/
 nugget-enderium:
   name: Enderium Nugget
   sprite: [0, 11]
-  site: cofh
+  site: docs-tf
   url: enderium-nugget/
 nugget-fluxed-electrum:
   name: Fluxed Electrum Nugget
   animated: true
-  site: cofh
+  site: docs-ra
   url: fluxed-electrum-nugget/
 nugget-gold:
   name: Gold Nugget
@@ -3561,12 +3561,12 @@ nugget-gold:
 nugget-invar:
   name: Invar Nugget
   sprite: [11, 10]
-  site: cofh
+  site: docs-tf
   url: invar-nugget/
 nugget-iridium:
   name: Iridium Nugget
   sprite: [7, 10]
-  site: cofh
+  site: docs-tf
   url: iridium-nugget/
 nugget-iron:
   name: Iron Nugget
@@ -3576,47 +3576,47 @@ nugget-iron:
 nugget-lead:
   name: Lead Nugget
   sprite: [3, 10]
-  site: cofh
+  site: docs-tf
   url: lead-nugget/
 nugget-lumium:
   name: Lumium Nugget
   sprite: [15, 10]
-  site: cofh
+  site: docs-tf
   url: lumium-nugget/
 nugget-mithril:
   name: Mana Infused Nugget
   sprite: [8, 10]
-  site: cofh
+  site: docs-tf
   url: mana-infused-nugget/
 nugget-nickel:
   name: Nickel Nugget
   sprite: [5, 10]
-  site: cofh
+  site: docs-tf
   url: nickel-nugget/
 nugget-platinum:
   name: Platinum Nugget
   sprite: [6, 10]
-  site: cofh
+  site: docs-tf
   url: platinum-nugget/
 nugget-signalum:
   name: Signalum Nugget
   sprite: [14, 10]
-  site: cofh
+  site: docs-tf
   url: signalum-nugget/
 nugget-silver:
   name: Silver Nugget
   sprite: [2, 10]
-  site: cofh
+  site: docs-tf
   url: silver-nugget/
 nugget-steel:
   name: Steel Nugget
   sprite: [9, 10]
-  site: cofh
+  site: docs-tf
   url: steel-nugget/
 nugget-tin:
   name: Tin Nugget
   sprite: [1, 10]
-  site: cofh
+  site: docs-tf
   url: tin-nugget/
 obsidian:
   name: Obsidian
@@ -3626,27 +3626,27 @@ obsidian:
 obsidian-rod:
   name: Obsidian Rod
   sprite: [13, 34]
-  site: cofh
+  site: docs-ra
   url: obsidian-rod/
 obsidian-rod-flux-infused:
   name: Flux-Infused Obsidian Rod
   sprite: [12, 34]
-  site: cofh
+  site: docs-ra
   url: flux-infused-obsidian-rod/
 oil-sand:
   name: Oil Sand
   sprite: [10, 7]
-  site: cofh
+  site: docs-tf
   url: oil-sand/
 oil-red-sand:
   name: Oil Sand
   sprite: [12, 62]
-  site: cofh
+  site: docs-tf
   url: oil-sand/
 oil-shale:
   name: Oil Shale
   sprite: [11, 7]
-  site: cofh
+  site: docs-tf
   url: oil-shale/
 orange-dye:
   name: Orange Dye
@@ -3661,7 +3661,7 @@ orange-tulip:
 ore-aluminum:
   name: Aluminum Ore
   sprite: [5, 7]
-  site: cofh
+  site: docs-tf
   url: aluminum-ore/
 ore-coal:
   name: Coal Ore
@@ -3671,7 +3671,7 @@ ore-coal:
 ore-copper:
   name: Copper Ore
   sprite: [1, 7]
-  site: cofh
+  site: docs-tf
   url: copper-ore/
 ore-diamond:
   name: Diamond Ore
@@ -3686,17 +3686,17 @@ ore-emerald:
 ore-fluid-ender:
   name: Resonant End Stone
   sprite: [14, 7]
-  site: cofh
+  site: docs-tf
   url: resonant-end-stone/
 ore-fluid-glowstone:
   name: Energized Netherrack
   sprite: [13, 7]
-  site: cofh
+  site: docs-tf
   url: energized-netherrack/
 ore-fluid-redstone:
   name: Destabilized Redstone Ore
   sprite: [12, 7]
-  site: cofh
+  site: docs-tf
   url: destabilized-redstone-ore/
 ore-gold:
   name: Gold Ore
@@ -3706,7 +3706,7 @@ ore-gold:
 ore-iridium:
   name: Iridium Ore
   sprite: [8, 7]
-  site: cofh
+  site: docs-tf
   url: iridium-ore/
 ore-iron:
   name: Iron Ore
@@ -3721,12 +3721,12 @@ ore-lapis-lazuli:
 ore-lead:
   name: Lead Ore
   sprite: [4, 7]
-  site: cofh
+  site: docs-tf
   url: lead-ore/
 ore-mithril:
   name: Mana Infused Ore
   sprite: [9, 7]
-  site: cofh
+  site: docs-tf
   url: mana-infused-ore/
 ore-nether-quartz:
   name: Nether Quartz Ore
@@ -3736,12 +3736,12 @@ ore-nether-quartz:
 ore-nickel:
   name: Nickel Ore
   sprite: [6, 7]
-  site: cofh
+  site: docs-tf
   url: nickel-ore/
 ore-platinum:
   name: Platinum Ore
   sprite: [7, 7]
-  site: cofh
+  site: docs-tf
   url: platinum-ore/
 ore-redstone:
   name: Redstone Ore
@@ -3751,12 +3751,12 @@ ore-redstone:
 ore-silver:
   name: Silver Ore
   sprite: [3, 7]
-  site: cofh
+  site: docs-tf
   url: silver-ore/
 ore-tin:
   name: Tin Ore
   sprite: [2, 7]
-  site: cofh
+  site: docs-tf
   url: tin-ore/
 oxeye-daisy:
   name: Oxeye Daisy
@@ -3786,43 +3786,43 @@ peony:
 phyto-gro:
   name: Phyto-Gro
   sprite: [14, 12]
-  site: cofh
+  site: docs-tf
   url: phyto-gro/
 phyto-gro-rich:
   name: Rich Phyto-Gro
   sprite: [15, 12]
-  site: cofh
+  site: docs-tf
   url: rich-phyto-gro/
 phyto-gro-fluxed:
   name: Fluxed Phyto-Gro
   animated: true
-  site: cofh
+  site: docs-tf
   url: fluxed-phyto-gro/
 pickaxe-aluminum:
   name: Aluminum Pickaxe
   sprite: [13, 20]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-bronze:
   name: Bronze Pickaxe
   sprite: [14, 20]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-constantan:
   name: Constantan Pickaxe
   sprite: [15, 20]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-copper:
   name: Copper Pickaxe
   sprite: [0, 21]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-electrum:
   name: Electrum Pickaxe
   sprite: [1, 21]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-diamond:
   name: Diamond Pickaxe
   sprite: [8, 44]
@@ -3836,8 +3836,8 @@ pickaxe-gold:
 pickaxe-invar:
   name: Invar Pickaxe
   sprite: [2, 21]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-iron:
   name: Iron Pickaxe
   sprite: [4, 56]
@@ -3846,33 +3846,33 @@ pickaxe-iron:
 pickaxe-lead:
   name: Lead Pickaxe
   sprite: [3, 21]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-nickel:
   name: Nickel Pickaxe
   sprite: [4, 21]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-platinum:
   name: Platinum Pickaxe
   sprite: [5, 21]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-silver:
   name: Silver Pickaxe
   sprite: [6, 21]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-steel:
   name: Steel Pickaxe
   sprite: [7, 21]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-tin:
   name: Tin Pickaxe
   sprite: [8, 21]
-  site: cofh
-  url: tf-pickaxes/
+  site: docs-tf
+  url: pickaxes/
 pickaxe-wood:
   name: Wooden Pickaxe
   sprite: [4, 50]
@@ -3881,82 +3881,82 @@ pickaxe-wood:
 pigment-black:
   name: Black Pigment
   sprite: [15, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-blue:
   name: Blue Pigment
   sprite: [11, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-brown:
   name: Brown Pigment
   sprite: [12, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-cyan:
   name: Cyan Pigment
   sprite: [9, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-gray:
   name: Gray Pigment
   sprite: [7, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-green:
   name: Green Pigment
   sprite: [13, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-light-blue:
   name: Light Blue Pigment
   sprite: [3, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-light-gray:
   name: Light Gray Pigment
   sprite: [8, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-lime:
   name: Lime Pigment
   sprite: [5, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-magenta:
   name: Magenta Pigment
   sprite: [2, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-orange:
   name: Orange Pigment
   sprite: [1, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-pink:
   name: Pink Pigment
   sprite: [6, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-purple:
   name: Purple Pigment
   sprite: [10, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-red:
   name: Red Pigment
   sprite: [14, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-white:
   name: White Pigment
   sprite: [0, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pigment-yellow:
   name: Yellow Pigment
   sprite: [4, 63]
-  site: cofh
+  site: docs-tf
   url: pigments/
 pink-dye:
   name: Pink Dye
@@ -3981,102 +3981,102 @@ piston-sticky:
 plate-aluminum:
   name: Aluminum Plate
   sprite: [3, 14]
-  site: cofh
+  site: docs-tf
   url: aluminum-plate/
 plate-bronze:
   name: Bronze Plate
   sprite: [4, 14]
-  site: cofh
+  site: docs-tf
   url: bronze-plate/
 plate-constantan:
   name: Constantan Plate
   sprite: [5, 14]
-  site: cofh
+  site: docs-tf
   url: constantan-plate/
 plate-copper:
   name: Copper Plate
   sprite: [6, 14]
-  site: cofh
+  site: docs-tf
   url: copper-plate/
 plate-electrum:
   name: Electrum Plate
   sprite: [7, 14]
-  site: cofh
+  site: docs-tf
   url: electrum-plate/
 plate-enderium:
   name: Enderium Plate
   sprite: [8, 14]
-  site: cofh
+  site: docs-tf
   url: enderium-plate/
 plate-fluxed-electrum:
   name: Fluxed Electrum Plate
   animated: true
-  site: cofh
+  site: docs-ra
   url: fluxed-electrum-plate/
 plate-gold:
   name: Gold Plate
   sprite: [9, 14]
-  site: cofh
+  site: docs-tf
   url: gold-plate/
 plate-invar:
   name: Invar Plate
   sprite: [10, 14]
-  site: cofh
+  site: docs-tf
   url: invar-plate/
 plate-iridium:
   name: Iridium Plate
   sprite: [11, 14]
-  site: cofh
+  site: docs-tf
   url: iridium-plate/
 plate-iron:
   name: Iron Plate
   sprite: [12, 14]
-  site: cofh
+  site: docs-tf
   url: iron-plate/
 plate-lead:
   name: Lead Plate
   sprite: [13, 14]
-  site: cofh
+  site: docs-tf
   url: lead-plate/
 plate-lumium:
   name: Lumium Plate
   sprite: [14, 14]
-  site: cofh
+  site: docs-tf
   url: lumium-plate/
 plate-mithril:
   name: Mana Infused Plate
   sprite: [15, 14]
-  site: cofh
+  site: docs-tf
   url: mana-infused-plate/
 plate-nickel:
   name: Nickel Plate
   sprite: [0, 15]
-  site: cofh
+  site: docs-tf
   url: nickel-plate/
 plate-platinum:
   name: Platinum Plate
   sprite: [1, 15]
-  site: cofh
+  site: docs-tf
   url: platinum-plate/
 plate-signalum:
   name: Signalum Plate
   sprite: [2, 15]
-  site: cofh
+  site: docs-tf
   url: signalum-plate/
 plate-silver:
   name: Silver Plate
   sprite: [3, 15]
-  site: cofh
+  site: docs-tf
   url: silver-plate/
 plate-steel:
   name: Steel Plate
   sprite: [4, 15]
-  site: cofh
+  site: docs-tf
   url: steel-plate/
 plate-tin:
   name: Tin Plate
   sprite: [5, 15]
-  site: cofh
+  site: docs-tf
   url: tin-plate/
 podzol:
   name: Podzol
@@ -4101,7 +4101,7 @@ potato:
 portable-tank-basic:
   name: Portable Tank (Basic)
   sprite: [11, 27]
-  site: cofh
+  site: docs-te
   url: portable-tank/
 pressure-plate-gold:
   name: Weighted Pressure Plate (Light)
@@ -4216,7 +4216,7 @@ red-tulip:
 redprint:
   name: Redprint
   sprite: [10, 11]
-  site: cofh
+  site: docs-tf
   url: redprint/
 redstone:
   name: Redstone
@@ -4226,17 +4226,17 @@ redstone:
 redstone-coil-electrum:
   name: Redstone Conductance Coil
   sprite: [8, 15]
-  site: cofh
+  site: docs-tf
   url: redstone-conductance-coil/
 redstone-coil-gold:
   name: Redstone Reception Coil
   sprite: [6, 15]
-  site: cofh
+  site: docs-tf
   url: redstone-reception-coil/
 redstone-coil-silver:
   name: Redstone Transmission Coil
   sprite: [7, 15]
-  site: cofh
+  site: docs-tf
   url: redstone-transmission-coil/
 redstone-lamp:
   name: Redstone Lamp
@@ -4246,12 +4246,12 @@ redstone-lamp:
 redstone-relay:
   name: Redstone Relay
   sprite: [3, 30]
-  site: cofh
+  site: docs-td
   url: redstone-relay/
 redstone-servo:
   name: Redstone Servo
   sprite: [9, 15]
-  site: cofh
+  site: docs-tf
   url: redstone-servo/
 redstone-torch:
   name: Redstone Torch
@@ -4261,132 +4261,132 @@ redstone-torch:
 reservoir-basic:
   name: Reservoir (Basic)
   sprite: [4, 61]
-  site: cofh
+  site: docs-te
   url: reservoir/
 reservoir-hardened:
   name: Reservoir (Hardened)
   sprite: [5, 61]
-  site: cofh
+  site: docs-te
   url: reservoir/
 reservoir-reinforced:
   name: Reservoir (Reinforced)
   sprite: [6, 61]
-  site: cofh
+  site: docs-te
   url: reservoir/
 reservoir-signalum:
   name: Reservoir (Signalum)
   sprite: [7, 61]
-  site: cofh
+  site: docs-te
   url: reservoir/
 reservoir-resonant:
   name: Reservoir (Resonant)
   sprite: [8, 61]
-  site: cofh
+  site: docs-te
   url: reservoir/
 retriever-basic:
   name: Retriever
   sprite: [7, 9]
-  site: cofh
+  site: docs-td
   url: retrievers/
 retriever-hardened:
   name: Hardened Retriever
   sprite: [8, 9]
-  site: cofh
+  site: docs-td
   url: retrievers/
 retriever-reinforced:
   name: Reinforced Retriever
   sprite: [9, 9]
-  site: cofh
+  site: docs-td
   url: retrievers/
 retriever-signalum:
   name: Signalum Retriever
   sprite: [10, 9]
-  site: cofh
+  site: docs-td
   url: retrievers/
 retriever-resonant:
   name: Resonant Retriever
   sprite: [11, 9]
-  site: cofh
+  site: docs-td
   url: retrievers/
 rockwool-black:
   name: Black Rockwool
   sprite: [0, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-blue:
   name: Blue Rockwool
   sprite: [4, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-brown:
   name: Brown Rockwool
   sprite: [3, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-cyan:
   name: Cyan Rockwool
   sprite: [6, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-gray:
   name: Gray Rockwool
   sprite: [8, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-green:
   name: Green Rockwool
   sprite: [2, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-light-blue:
   name: Light Blue Rockwool
   sprite: [12, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-light-gray:
   name: Light Gray Rockwool
   sprite: [7, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-lime:
   name: Lime Rockwool
   sprite: [10, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-magenta:
   name: Magenta Rockwool
   sprite: [13, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-orange:
   name: Orange Rockwool
   sprite: [14, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-pink:
   name: Pink Rockwool
   sprite: [9, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-purple:
   name: Purple Rockwool
   sprite: [5, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-red:
   name: Red Rockwool
   sprite: [1, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-white:
   name: White Rockwool
   sprite: [15, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rockwool-yellow:
   name: Yellow Rockwool
   sprite: [11, 4]
-  site: cofh
+  site: docs-tf
   url: rockwool/
 rose-bush:
   name: Rose Bush
@@ -4401,7 +4401,7 @@ rose-red:
 rosin:
   name: Rosin
   sprite: [14, 15]
-  site: cofh
+  site: docs-tf
   url: rosin/
 rotten-flesh:
   name: Rotten Flesh
@@ -4476,47 +4476,47 @@ sapling-spruce:
 satchel-basic:
   name: Satchel (Basic)
   sprite: [6, 30]
-  site: cofh
+  site: docs-te
   url: satchel/
 satchel-hardened:
   name: Satchel (Hardened)
   sprite: [7, 30]
-  site: cofh
+  site: docs-te
   url: satchel/
 satchel-reinforced:
   name: Satchel (Reinforced)
   sprite: [8, 30]
-  site: cofh
+  site: docs-te
   url: satchel/
 satchel-signalum:
   name: Satchel (Signalum)
   sprite: [9, 30]
-  site: cofh
+  site: docs-te
   url: satchel/
 satchel-resonant:
   name: Satchel (Resonant)
   sprite: [10, 30]
-  site: cofh
+  site: docs-te
   url: satchel/
 satchel-void:
   name: Satchel (Void)
   animated: true
-  site: cofh
+  site: docs-te
   url: satchel/
 saw-blade:
   name: Saw Blade
   sprite: [15, 62]
-  site: cofh
+  site: docs-tf
   url: saw-blade/
 sawdust:
   name: Sawdust
   sprite: [11, 15]
-  site: cofh
+  site: docs-tf
   url: sawdust/
 sawdust-compressed:
   name: Compressed Sawdust
   sprite: [12, 15]
-  site: cofh
+  site: docs-tf
   url: compressed-sawdust/
 seeds:
   name: Seeds
@@ -4526,27 +4526,27 @@ seeds:
 servo-basic:
   name: Servo
   sprite: [13, 8]
-  site: cofh
+  site: docs-td
   url: servos/
 servo-hardened:
   name: Hardened Servo
   sprite: [14, 8]
-  site: cofh
+  site: docs-td
   url: servos/
 servo-reinforced:
   name: Reinforced Servo
   sprite: [15, 8]
-  site: cofh
+  site: docs-td
   url: servos/
 servo-signalum:
   name: Signalum Servo
   sprite: [0, 9]
-  site: cofh
+  site: docs-td
   url: servos/
 servo-resonant:
   name: Resonant Servo
   sprite: [1, 9]
-  site: cofh
+  site: docs-td
   url: servos/
 shears:
   name: Shears
@@ -4556,83 +4556,83 @@ shears:
 shears-aluminum:
   name: Aluminum Shears
   sprite: [9, 21]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-bronze:
   name: Bronze Shears
   sprite: [10, 21]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-constantan:
   name: Constantan Shears
   sprite: [11, 21]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-copper:
   name: Copper Shears
   sprite: [12, 21]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-diamond:
   name: Diamond Shears
   sprite: [13, 21]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-electrum:
   name: Electrum Shears
   sprite: [14, 21]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-gold:
   name: Gold Shears
   sprite: [15, 21]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-invar:
   name: Invar Shears
   sprite: [0, 22]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-lead:
   name: Lead Shears
   sprite: [1, 22]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-nickel:
   name: Nickel Shears
   sprite: [2, 22]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-platinum:
   name: Platinum Shears
   sprite: [3, 22]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-silver:
   name: Silver Shears
   sprite: [4, 22]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-steel:
   name: Steel Shears
   sprite: [5, 22]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-stone:
   name: Stone Shears
   sprite: [6, 22]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-tin:
   name: Tin Shears
   sprite: [7, 22]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shears-wood:
   name: Wooden Shears
   sprite: [8, 22]
-  site: cofh
-  url: tf-shears/
+  site: docs-tf
+  url: shears/
 shield:
   name: Shield
   sprite: [8, 41]
@@ -4641,103 +4641,103 @@ shield:
 shield-aluminum:
   name: Aluminum Shield
   sprite: [9, 22]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-bronze:
   name: Bronze Shield
   sprite: [10, 22]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-constantan:
   name: Constantan Shield
   sprite: [11, 22]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-copper:
   name: Copper Shield
   sprite: [12, 22]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-diamond:
   name: Diamond Shield
   sprite: [13, 22]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-electrum:
   name: Electrum Shield
   sprite: [14, 22]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-gold:
   name: Gold Shield
   sprite: [15, 22]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-invar:
   name: Invar Shield
   sprite: [0, 23]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-iron:
   name: Iron Shield
   sprite: [1, 23]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-lead:
   name: Lead Shield
   sprite: [2, 23]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-nickel:
   name: Nickel Shield
   sprite: [3, 23]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-platinum:
   name: Platinum Shield
   sprite: [4, 23]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-silver:
   name: Silver Shield
   sprite: [5, 23]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-steel:
   name: Steel Shield
   sprite: [6, 23]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-stone:
   name: Stone Shield
   sprite: [7, 23]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shield-tin:
   name: Tin Shield
   sprite: [8, 23]
-  site: cofh
-  url: tf-shields/
+  site: docs-tf
+  url: shields/
 shovel-aluminum:
   name: Aluminum Shovel
   sprite: [9, 23]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-bronze:
   name: Bronze Shovel
   sprite: [10, 23]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-constantan:
   name: Constantan Shovel
   sprite: [11, 23]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-copper:
   name: Copper Shovel
   sprite: [12, 23]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-diamond:
   name: Diamond Shovel
   sprite: [9, 44]
@@ -4746,8 +4746,8 @@ shovel-diamond:
 shovel-electrum:
   name: Electrum Shovel
   sprite: [13, 23]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-gold:
   name: Golden Shovel
   sprite: [13, 56]
@@ -4756,8 +4756,8 @@ shovel-gold:
 shovel-invar:
   name: Invar Shovel
   sprite: [14, 23]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-iron:
   name: Iron Shovel
   sprite: [5, 56]
@@ -4766,33 +4766,33 @@ shovel-iron:
 shovel-lead:
   name: Lead Shovel
   sprite: [15, 23]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-nickel:
   name: Nickel Shovel
   sprite: [0, 24]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-platinum:
   name: Platinum Shovel
   sprite: [1, 24]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-silver:
   name: Silver Shovel
   sprite: [2, 24]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-steel:
   name: Steel Shovel
   sprite: [3, 24]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-tin:
   name: Tin Shovel
   sprite: [4, 24]
-  site: cofh
-  url: tf-shovels/
+  site: docs-tf
+  url: shovels/
 shovel-wood:
   name: Wooden Shovel
   sprite: [5, 50]
@@ -4801,88 +4801,88 @@ shovel-wood:
 sickle-aluminum:
   name: Aluminum Sickle
   sprite: [5, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-bronze:
   name: Bronze Sickle
   sprite: [6, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-constantan:
   name: Constantan Sickle
   sprite: [7, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-copper:
   name: Copper Sickle
   sprite: [8, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-diamond:
   name: Diamond Sickle
   sprite: [9, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-electrum:
   name: Electrum Sickle
   sprite: [10, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-gold:
   name: Gold Sickle
   sprite: [11, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-invar:
   name: Invar Sickle
   sprite: [12, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-iron:
   name: Iron Sickle
   sprite: [13, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-lead:
   name: Lead Sickle
   sprite: [14, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-nickel:
   name: Nickel Sickle
   sprite: [15, 24]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-platinum:
   name: Platinum Sickle
   sprite: [0, 25]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-silver:
   name: Silver Sickle
   sprite: [1, 25]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-steel:
   name: Steel Sickle
   sprite: [2, 25]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-stone:
   name: Stone Sickle
   sprite: [3, 25]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-tin:
   name: Tin Sickle
   sprite: [4, 25]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sickle-wood:
   name: Wooden Sickle
   sprite: [5, 25]
-  site: cofh
-  url: tf-sickles/
+  site: docs-tf
+  url: sickles/
 sign:
   name: Sign
   sprite: [10, 51]
@@ -4891,17 +4891,17 @@ sign:
 signalum-security-lock:
   name: Signalum Security Lock
   sprite: [7, 11]
-  site: cofh
+  site: docs-tf
   url: signalum-security-lock/
 slag:
   name: Slag
   sprite: [15, 3]
-  site: cofh
+  site: docs-tf
   url: slag/
 slag-rich:
   name: Rich Slag
   sprite: [15, 7]
-  site: cofh
+  site: docs-tf
   url: rich-slag/
 slimeball:
   name: Slimeball
@@ -4971,17 +4971,17 @@ stone-bricks-mossy:
 storage-block-aluminum:
   name: Block of Aluminum
   sprite: [4, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-aluminum/
 storage-block-bronze:
   name: Block of Bronze
   sprite: [12, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-bronze/
 storage-block-charcoal:
   name: Block of Charcoal
   sprite: [9, 61]
-  site: cofh
+  site: docs-tf
   url: block-of-charcoal/
 storage-block-coal:
   name: Block of Coal
@@ -4991,37 +4991,37 @@ storage-block-coal:
 storage-block-coal-coke:
   name: Block of Coal Coke
   sprite: [10, 61]
-  site: cofh
+  site: docs-tf
   url: block-of-coal-coke/
 storage-block-constantan:
   name: Block of Constantan
   sprite: [13, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-constantan/
 storage-block-copper:
   name: Block of Copper
   sprite: [0, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-copper/
 storage-block-electrum:
   name: Block of Electrum
   sprite: [10, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-electrum/
 storage-block-enderium:
   name: Block of Enderium
   sprite: [0, 7]
-  site: cofh
+  site: docs-tf
   url: block-of-enderium/
 storage-block-flux-crystal:
   name: Flux Crystal Block
   sprite: [10, 34]
-  site: cofh
+  site: docs-ra
   url: flux-crystal-block/
 storage-block-fluxed-electrum:
   name: Fluxed Electrum Block
   sprite: [9, 34]
-  site: cofh
+  site: docs-ra
   url: fluxed-electrum-block/
 storage-block-gold:
   name: Block of Gold
@@ -5031,12 +5031,12 @@ storage-block-gold:
 storage-block-invar:
   name: Block of Invar
   sprite: [11, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-invar/
 storage-block-iridium:
   name: Block of Iridium
   sprite: [7, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-iridium/
 storage-block-iron:
   name: Block of Iron
@@ -5051,27 +5051,27 @@ storage-block-lapis-lazuli:
 storage-block-lead:
   name: Block of Lead
   sprite: [3, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-lead/
 storage-block-lumium:
   name: Block of Lumium
   sprite: [15, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-lumium/
 storage-block-mithril:
   name: Block of Mana Infused Metal
   sprite: [8, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-mana-infused-metal/
 storage-block-nickel:
   name: Block of Nickel
   sprite: [5, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-nickel/
 storage-block-platinum:
   name: Block of Platinum
   sprite: [6, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-platinum/
 storage-block-redstone:
   name: Block of Redstone
@@ -5081,22 +5081,22 @@ storage-block-redstone:
 storage-block-signalum:
   name: Block of Signalum
   sprite: [14, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-signalum/
 storage-block-silver:
   name: Block of Silver
   sprite: [2, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-silver/
 storage-block-steel:
   name: Block of Steel
   sprite: [9, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-steel/
 storage-block-tin:
   name: Block of Tin
   sprite: [1, 6]
-  site: cofh
+  site: docs-tf
   url: block-of-tin/
 string:
   name: String
@@ -5106,12 +5106,12 @@ string:
 strongbox-basic:
   name: Strongbox (Basic)
   sprite: [13, 27]
-  site: cofh
+  site: docs-te
   url: strongbox/
 structuralduct:
   name: Structuralduct
   sprite: [7, 32]
-  site: cofh
+  site: docs-td
   url: structuralduct/
 sugar:
   name: Sugar
@@ -5126,7 +5126,7 @@ sugar-canes:
 sulfur:
   name: Sulfur
   sprite: [10, 0]
-  site: cofh
+  site: docs-tf
   url: sulfur/
 sunflower:
   name: Sunflower
@@ -5136,23 +5136,23 @@ sunflower:
 sword-aluminum:
   name: Aluminum Sword
   sprite: [6, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-bronze:
   name: Bronze Sword
   sprite: [7, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-constantan:
   name: Constantan Sword
   sprite: [8, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-copper:
   name: Copper Sword
   sprite: [9, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-diamond:
   name: Diamond Sword
   sprite: [10, 44]
@@ -5161,8 +5161,8 @@ sword-diamond:
 sword-electrum:
   name: Electrum Sword
   sprite: [10, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-gold:
   name: Golden Sword
   sprite: [14, 56]
@@ -5171,8 +5171,8 @@ sword-gold:
 sword-invar:
   name: Invar Sword
   sprite: [11, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-iron:
   name: Iron Sword
   sprite: [6, 56]
@@ -5181,33 +5181,33 @@ sword-iron:
 sword-lead:
   name: Lead Sword
   sprite: [12, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-nickel:
   name: Nickel Sword
   sprite: [13, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-platinum:
   name: Platinum Sword
   sprite: [14, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-silver:
   name: Silver Sword
   sprite: [15, 25]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-steel:
   name: Steel Sword
   sprite: [0, 26]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-tin:
   name: Tin Sword
   sprite: [1, 26]
-  site: cofh
-  url: tf-swords/
+  site: docs-tf
+  url: swords/
 sword-wood:
   name: Wooden Sword
   sprite: [6, 50]
@@ -5216,17 +5216,17 @@ sword-wood:
 tar:
   name: Tar
   sprite: [8, 8]
-  site: cofh
+  site: docs-tf
   url: tar/
 tome-of-knowledge:
   name: Tome of Knowledge
   sprite: [5, 60]
-  site: cofh
+  site: docs-tf
   url: tome-of-knowledge/
 tool-casing:
   name: Tool Casing
   sprite: [13, 62]
-  site: cofh
+  site: docs-tf
   url: tool-casing/
 torch:
   name: Torch
@@ -5251,42 +5251,42 @@ trapped-chest:
 upgrade-kit-hardened:
   name: Hardened Upgrade Kit
   sprite: [6, 28]
-  site: cofh
+  site: docs-tf
   url: upgrade-kits/
 upgrade-kit-reinforced:
   name: Reinforced Upgrade Kit
   sprite: [7, 28]
-  site: cofh
+  site: docs-tf
   url: upgrade-kits/
 upgrade-kit-signalum:
   name: Signalum Upgrade Kit
   sprite: [8, 28]
-  site: cofh
+  site: docs-tf
   url: upgrade-kits/
 upgrade-kit-resonant:
   name: Resonant Upgrade Kit
   sprite: [9, 28]
-  site: cofh
+  site: docs-tf
   url: upgrade-kits/
 viaduct:
   name: Viaduct
   sprite: [8, 32]
-  site: cofh
+  site: docs-td
   url: viaduct/
 viaduct-frame:
   name: Viaduct (Untreated)
   sprite: [11, 32]
-  site: cofh
+  site: docs-td
   url: viaduct/
 viaduct-long-range:
   name: Long Range Viaduct
   sprite: [9, 32]
-  site: cofh
+  site: docs-td
   url: long-range-viaduct/
 viaduct-long-range-linking:
   name: Long Range Linking Viaduct
   sprite: [10, 32]
-  site: cofh
+  site: docs-td
   url: long-range-linking-viaduct/
 vines:
   name: Vines
@@ -5296,27 +5296,27 @@ vines:
 watering-can-basic:
   name: Watering Can (Basic)
   sprite: [4, 34]
-  site: cofh
+  site: docs-tc
   url: watering-can/
 watering-can-hardened:
   name: Watering Can (Hardened)
   sprite: [5, 34]
-  site: cofh
+  site: docs-tc
   url: watering-can/
 watering-can-reinforced:
   name: Watering Can (Reinforced)
   sprite: [6, 34]
-  site: cofh
+  site: docs-tc
   url: watering-can/
 watering-can-signalum:
   name: Watering Can (Signalum)
   sprite: [7, 34]
-  site: cofh
+  site: docs-tc
   url: watering-can/
 watering-can-resonant:
   name: Watering Can (Resonant)
   sprite: [8, 34]
-  site: cofh
+  site: docs-tc
   url: watering-can/
 wheat:
   name: Wheat

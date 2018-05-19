@@ -24,7 +24,7 @@ usage-recipes:
 
 
 **Constantan gears** are crafting materials made of
-[constantan](/docs/constantan-ingot/).
+[constantan](/docs/thermal-foundation/constantan-ingot/).
 
 
 Obtaining

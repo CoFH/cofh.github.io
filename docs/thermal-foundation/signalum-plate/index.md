@@ -16,7 +16,7 @@ usage-recipes:
 
 
 **Signalum plates** are crafting materials made of
-[signalum](/docs/signalum-ingot/). They are currently not used for anything.
+[signalum](/docs/thermal-foundation/signalum-ingot/). They are currently not used for anything.
 
 
 Obtaining

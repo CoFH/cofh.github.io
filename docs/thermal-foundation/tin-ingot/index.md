@@ -91,7 +91,7 @@ usage-recipes:
 ![Tin ingot](/assets/images/thermal-foundation/ingot-tin.png){:style="height: 128px"}
 
 
-**Tin ingots** are raw materials obtained from [tin ore](/docs/tin-ore/).
+**Tin ingots** are raw materials obtained from [tin ore](/docs/thermal-foundation/tin-ore/).
 
 
 Obtaining
@@ -134,6 +134,6 @@ Trivia
 
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
-  installed, molten tin can be mixed with molten [silver](/docs/silver-ingot/)
-  and [energized glowstone](/docs/energized-glowstone/) to make molten
-  [lumium](/docs/lumium-ingot/).
+  installed, molten tin can be mixed with molten [silver](/docs/thermal-foundation/silver-ingot/)
+  and [energized glowstone](/docs/thermal-foundation/energized-glowstone/) to make molten
+  [lumium](/docs/thermal-foundation/lumium-ingot/).

@@ -12,9 +12,9 @@ recipes:
     - augment-machine-furnace-food
 ---
 
-A **trivection chamber** is an [augment](/docs/augments/) that increases the
+A **trivection chamber** is an [augment](/docs/thermal-expansion/augments/) that increases the
 amount of cooked [food](https://minecraft.gamepedia.com/Food) a [redstone
-furnace](/docs/redstone-furnace/) produces when processing raw food.
+furnace](/docs/thermal-expansion/redstone-furnace/) produces when processing raw food.
 
 
 Obtaining
@@ -29,11 +29,11 @@ Usage
 
 ### Installation
 A trivection chamber can be installed in the Augmentation tab in a [redstone
-furnace](/docs/redstone-furnace/)'s GUI. It is a specialization that cannot be
+furnace](/docs/thermal-expansion/redstone-furnace/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-A [redstone furnace](/docs/redstone-furnace/) with a trivection chamber
+A [redstone furnace](/docs/thermal-expansion/redstone-furnace/) with a trivection chamber
 installed produces 1.5 times as much cooked
 [food](https://minecraft.gamepedia.com/Food) when processing raw food. The
 output amount is rounded down when necessary, but is always at least 2, which

@@ -35,7 +35,7 @@ usage-recipes:
 
 
 **Pulverized nickel** is a raw material. It is the dust form of
-[nickel](/docs/nickel-ingot/).
+[nickel](/docs/thermal-foundation/nickel-ingot/).
 
 
 Obtaining

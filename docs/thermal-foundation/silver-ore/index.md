@@ -24,8 +24,8 @@ usage-recipes:
 
 
 **Silver ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
-that yields [silver](/docs/silver-ingot/) and small amounts of
-[lead](/docs/lead-ingot/).
+that yields [silver](/docs/thermal-foundation/silver-ingot/) and small amounts of
+[lead](/docs/thermal-foundation/lead-ingot/).
 
 
 Obtaining
@@ -35,7 +35,7 @@ Silver ore is less common than [iron
 ore](https://minecraft.gamepedia.com/Iron_Ore), but more common than [gold
 ore](https://minecraft.gamepedia.com/Gold_Ore). It occurs at low levels in the
 world (layers 5-30). Silver ore veins are slightly smaller than iron ore veins,
-and may contain one or two blocks of [lead ore](/docs/lead-ore/) as well.
+and may contain one or two blocks of [lead ore](/docs/thermal-foundation/lead-ore/) as well.
 Similarly, lead ore veins may contain one or two blocks of silver ore.
 
 Silver ore must be mined with an [iron
@@ -67,4 +67,4 @@ Trivia
 
 * Silver ore is generated in the world using [CoFH World](/docs/cofh-world/) by
   default. The world generation can be tweaked or disabled using CoFH World's
-  [configuration](/docs/world-generator-configuration/).
+  [configuration](/docs/cofh-world/world-generator-configuration/).

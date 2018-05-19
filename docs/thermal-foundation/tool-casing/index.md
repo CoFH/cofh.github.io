@@ -16,7 +16,7 @@ usage-recipes:
 ---
 
 **Tool casings** are crafting materials used to craft
-[fluxbores](/docs/fluxbore/) and [fluxsaws](/docs/fluxsaw/).
+[fluxbores](/docs/thermal-innovation/fluxbore/) and [fluxsaws](/docs/thermal-innovation/fluxsaw/).
 
 
 Obtaining

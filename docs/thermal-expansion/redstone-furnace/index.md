@@ -27,7 +27,7 @@ recipe-list:
 > Coal is for chumps!
 
 
-A **redstone furnace** is a [machine](/docs/machines/) that
+A **redstone furnace** is a [machine](/docs/thermal-expansion/machines/) that
 [smelts](https://minecraft.gamepedia.com/Smelting) items.
 
 
@@ -44,8 +44,8 @@ this can be much slower.
 
 ### Upgrading
 A redstone furnace is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -62,8 +62,8 @@ requires a certain amount of energy to process. When enough energy has been
 consumed for an item, the input is consumed and the output is placed in the
 output slot.
 
-When installed, [pyrolytic conversion](/docs/augment-pyrolytic-conversion/)
-makes a redstone furnace produce [creosote oil](/docs/creosote-oil/), which is
+When installed, [pyrolytic conversion](/docs/thermal-expansion/augment-pyrolytic-conversion/)
+makes a redstone furnace produce [creosote oil](/docs/thermal-foundation/creosote-oil/), which is
 placed in an added output tank.
 
 The speed at which a redstone furnace processes items depends on how much energy
@@ -115,10 +115,10 @@ processing an item, it will finish processing that item before stopping.
 
 ### Security
 A redstone furnace can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A redstone furnace's configuration can be saved on a [redprint](/docs/redprint/)
+A redstone furnace's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
 to be copied to other redstone furnaces.
 
 ### Light source
@@ -128,7 +128,7 @@ When a redstone furnace is active, it emits a light level of 14.
 Tiers
 -----
 
-Redstone furnaces come in five [tiers](/docs/tiers/).
+Redstone furnaces come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -147,7 +147,7 @@ Redstone furnaces come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-A redstone furnace can have [augments](/docs/augments/) installed to improve
+A redstone furnace can have [augments](/docs/thermal-expansion/augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic redstone furnace
 cannot be augmented.

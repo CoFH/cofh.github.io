@@ -28,7 +28,7 @@ usage-recipes:
 
 
 **Signalum nuggets** are raw materials. They are the nugget form of
-[signalum](/docs/signalum-ingot/).
+[signalum](/docs/thermal-foundation/signalum-ingot/).
 
 
 Obtaining

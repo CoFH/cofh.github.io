@@ -12,8 +12,8 @@ recipes:
 ![Lumium coin](/assets/images/thermal-foundation/coin-lumium.png){:style="height: 128px"}
 
 
-**Lumium coins** are materials made of [lumium](/docs/lumium-ingot/) that can be
-used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/).
+**Lumium coins** are materials made of [lumium](/docs/thermal-foundation/lumium-ingot/) that can be
+used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -27,5 +27,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/), lumium
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), lumium
 coins yield 100,000 RF each.

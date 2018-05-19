@@ -26,7 +26,7 @@ recipes:
 
 A **strongbox** is a block that stores items. It is functionally similar to a
 [chest](https://minecraft.gamepedia.com/Chest), but can be moved and
-[secured](/docs/signalum-security-lock/). At higher [tiers](#tiers), it also
+[secured](/docs/thermal-foundation/signalum-security-lock/). At higher [tiers](#tiers), it also
 stores more items.
 
 
@@ -44,8 +44,8 @@ slower.
 
 ### Upgrading
 A strongbox is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -61,17 +61,17 @@ A placed strongbox is functionally similar to a
 items can be manually put in or taken out.
 
 Strongboxes cannot store certain items that can themselves store items, like
-other strongboxes or [satchels](/docs/satchel/).
+other strongboxes or [satchels](/docs/thermal-expansion/satchel/).
 
 ### Input and output
 Items can enter and exit a strongbox through any of its sides.
 
 ### Security
-A strongbox can have a [signalum security lock](/docs/signalum-security-lock/)
+A strongbox can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Enchantments
-A strongbox can be enchanted with [Holding](/docs/holding/) to increase its
+A strongbox can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity increase (slots) |
@@ -91,7 +91,7 @@ strength of between 0 and 15, depending on how full the strongbox is.
 Tiers
 -----
 
-Strongboxes come in six [tiers](/docs/tiers/).
+Strongboxes come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

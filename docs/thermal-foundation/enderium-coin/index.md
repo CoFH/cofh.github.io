@@ -12,8 +12,8 @@ recipes:
 ![Enderium coin](/assets/images/thermal-foundation/coin-enderium.png){:style="height: 128px"}
 
 
-**Enderium coins** are materials made of [enderium](/docs/enderium-ingot/) that
-can be used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/).
+**Enderium coins** are materials made of [enderium](/docs/thermal-foundation/enderium-ingot/) that
+can be used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -27,5 +27,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/), enderium
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), enderium
 coins yield 150,000 RF each.

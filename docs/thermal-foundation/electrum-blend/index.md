@@ -27,7 +27,7 @@ usage-recipes:
 
 
 **Electrum blend** is a raw material. It is the dust form of
-[electrum](/docs/electrum-ingot/).
+[electrum](/docs/thermal-foundation/electrum-ingot/).
 
 
 Obtaining

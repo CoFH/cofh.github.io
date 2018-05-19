@@ -20,7 +20,7 @@ usage-recipes:
 ![Lead plate](/assets/images/thermal-foundation/plate-lead.png){:style="height: 128px"}
 
 
-**Lead plates** are crafting materials made of [lead](/docs/lead-ingot/).
+**Lead plates** are crafting materials made of [lead](/docs/thermal-foundation/lead-ingot/).
 
 
 Obtaining

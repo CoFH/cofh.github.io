@@ -11,8 +11,8 @@ recipes:
     - augment-machine-refinery-oil
 ---
 
-A **reflux column** is an [augment](/docs/augments/) that increases the
-conversion efficiency of a [fractionating still](/docs/fractionating-still/)
+A **reflux column** is an [augment](/docs/thermal-expansion/augments/) that increases the
+conversion efficiency of a [fractionating still](/docs/thermal-expansion/fractionating-still/)
 that processes fossil fuels.
 
 
@@ -28,13 +28,13 @@ Usage
 
 ### Installation
 A reflux column can be installed in the Augmentation tab in a [fractionating
-still](/docs/fractionating-still/)'s GUI. It is a specialization that cannot be
+still](/docs/thermal-expansion/fractionating-still/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-A [fractionating still](/docs/fractionating-still/) with a reflux column
+A [fractionating still](/docs/thermal-expansion/fractionating-still/) with a reflux column
 installed produces an additional 50 mB of the produced fluid per operation.
 However, the machine can only process fossil fuels ([liquifacted
-coal](/docs/liquifacted-coal/), [crude oil](/docs/crude-oil/) and
-[naphtha](/docs/naphtha/)), and the amount of energy required per operation is
+coal](/docs/thermal-foundation/liquifacted-coal/), [crude oil](/docs/thermal-foundation/crude-oil/) and
+[naphtha](/docs/thermal-foundation/naphtha/)), and the amount of energy required per operation is
 increased by 100%.

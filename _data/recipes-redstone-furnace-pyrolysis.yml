@@ -1,5 +1,5 @@
 name: Pyrolytic Conversion
-site: cofh
+site: docs-te
 url: augment-pyrolytic-conversion/
 with-energy: true
 recipes:

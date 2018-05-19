@@ -12,8 +12,8 @@ recipes:
 ![Invar coin](/assets/images/thermal-foundation/coin-invar.png){:style="height: 128px"}
 
 
-**Invar coins** are materials made of [invar](/docs/invar-ingot/) that can be
-used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/).
+**Invar coins** are materials made of [invar](/docs/thermal-foundation/invar-ingot/) that can be
+used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -27,5 +27,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/), invar
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), invar
 coins yield 40,000 RF each.

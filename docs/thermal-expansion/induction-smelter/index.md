@@ -123,7 +123,7 @@ recipe-list:
 
 
 An **induction smelter**, or **smelter** for short, is a
-[machine](/docs/machines/) that smelts items together at high temperatures.
+[machine](/docs/thermal-expansion/machines/) that smelts items together at high temperatures.
 Despite the name, the machine cannot be used for
 [smelting](https://minecraft.gamepedia.com/Smelting).
 
@@ -141,8 +141,8 @@ this can be much slower.
 
 ### Upgrading
 An induction smelter is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -161,8 +161,8 @@ item combination, the input is consumed and the output is placed in the primary
 output slot. A secondary output may be produced when processing certain items,
 which is placed in the secondary output slot.
 
-When installed, a [pyro-concentrator](/docs/augment-pyro-concentrator/) allows
-an induction smelter to consume [blazing pyrotheum](/docs/blazing-pyrotheum/),
+When installed, a [pyro-concentrator](/docs/thermal-expansion/augment-pyro-concentrator/) allows
+an induction smelter to consume [blazing pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/),
 which is stored in an added input tank.
 
 The speed at which an induction smelter processes items depends on how much
@@ -194,8 +194,8 @@ machine's GUI.
 
 One of an induction smelter's input slots can be locked to only accept
 metallurgical fluxes: [sand](https://minecraft.gamepedia.com/Sand), [soul
-sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/rich-slag/)
-and [cinnabar](/docs/cinnabar/). These items are commonly used in smelter
+sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/thermal-foundation/rich-slag/)
+and [cinnabar](/docs/thermal-foundation/cinnabar/). These items are commonly used in smelter
 recipes. The slot is locked by default.
 
 ### Redstone control
@@ -220,11 +220,11 @@ still processing an item, it will finish processing that item before stopping.
 
 ### Security
 An induction smelter can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An induction smelter's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other induction smelters.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other induction smelters.
 
 ### Light source
 When an induction smelter is active, it emits a light level of 14.
@@ -233,7 +233,7 @@ When an induction smelter is active, it emits a light level of 14.
 Tiers
 -----
 
-Induction smelters come in five [tiers](/docs/tiers/).
+Induction smelters come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -252,7 +252,7 @@ Induction smelters come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-An induction smelter can have [augments](/docs/augments/) installed to improve
+An induction smelter can have [augments](/docs/thermal-expansion/augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic smelter cannot be
 augmented.

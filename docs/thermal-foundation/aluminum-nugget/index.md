@@ -16,7 +16,7 @@ usage-recipes:
 
 
 **Aluminum nuggets** are raw materials. They are the nugget form of
-[aluminum](/docs/aluminum-ingot/).
+[aluminum](/docs/thermal-foundation/aluminum-ingot/).
 
 
 Obtaining

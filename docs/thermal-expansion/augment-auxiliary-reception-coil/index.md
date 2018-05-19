@@ -12,8 +12,8 @@ recipes:
     - augment-machine-power
 ---
 
-An **auxiliary reception coil** is an [augment](/docs/augments/) that increases
-the maximum power usage of a [machine](/docs/machines/), thereby increasing its
+An **auxiliary reception coil** is an [augment](/docs/thermal-expansion/augments/) that increases
+the maximum power usage of a [machine](/docs/thermal-expansion/machines/), thereby increasing its
 processing speed.
 
 
@@ -29,11 +29,11 @@ Usage
 
 ### Installation
 An auxiliary reception coil can be installed in the Augmentation tab in a
-[machine](/docs/machines/)'s GUI. It can be installed multiple times, stacking
+[machine](/docs/thermal-expansion/machines/)'s GUI. It can be installed multiple times, stacking
 its effects.
 
 ### Effects
-Installed auxiliary reception coils increase a [machine](/docs/machines/)'s
+Installed auxiliary reception coils increase a [machine](/docs/thermal-expansion/machines/)'s
 maximum power usage, thereby increasing its processing speed. However, they also
 increase the amount of energy required per operation.
 

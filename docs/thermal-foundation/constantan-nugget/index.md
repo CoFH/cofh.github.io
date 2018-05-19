@@ -16,7 +16,7 @@ usage-recipes:
 
 
 **Constantan nuggets** are raw materials. They are the nugget form of
-[constantan](/docs/constantan-ingot/).
+[constantan](/docs/thermal-foundation/constantan-ingot/).
 
 
 Obtaining

@@ -24,7 +24,7 @@ usage-recipes:
 
 
 **Tin ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that yields
-[tin](/docs/tin-ingot/) and small amounts of
+[tin](/docs/thermal-foundation/tin-ingot/) and small amounts of
 [iron](https://minecraft.gamepedia.com/Iron_Ingot).
 
 
@@ -61,4 +61,4 @@ Trivia
 
 * Tin ore is generated in the world using [CoFH World](/docs/cofh-world/) by
   default. The world generation can be tweaked or disabled using CoFH World's
-  [configuration](/docs/world-generator-configuration/).
+  [configuration](/docs/cofh-world/world-generator-configuration/).

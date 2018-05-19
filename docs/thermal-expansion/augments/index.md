@@ -49,8 +49,8 @@ augments:
     - dynamo-numismatic-gem
 ---
 
-**Augments** are items that can be installed in [machines](/docs/machines/) and
-[dynamos](/docs/dynamos/) to improve ('augment') them in certain ways or to
+**Augments** are items that can be installed in [machines](/docs/thermal-expansion/machines/) and
+[dynamos](/docs/thermal-expansion/dynamos/) to improve ('augment') them in certain ways or to
 change how they work.
 
 
@@ -58,8 +58,8 @@ Usage
 -----
 
 Augments can be installed in the Augmentation tab in the GUI of a
-[machine](/docs/machines/) or [dynamo](/docs/dynamos/). The amount of augments
-that can be installed depends on the block's [tier](/docs/tiers/). A basic
+[machine](/docs/thermal-expansion/machines/) or [dynamo](/docs/thermal-expansion/dynamos/). The amount of augments
+that can be installed depends on the block's [tier](/docs/thermal-foundation/tiers/). A basic
 machine or dynamo cannot be augmented.
 
 Some augments can be installed multiple times, stacking their effects.

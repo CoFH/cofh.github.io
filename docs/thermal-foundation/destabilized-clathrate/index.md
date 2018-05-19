@@ -20,15 +20,15 @@ usage-recipes:
 
 
 **Destabilized clathrate** is a material obtained from [destabilized redstone
-ore](/docs/destabilized-redstone-ore/). It can be processed into [destabilized
-redstone](/docs/destabilized-redstone/).
+ore](/docs/thermal-foundation/destabilized-redstone-ore/). It can be processed into [destabilized
+redstone](/docs/thermal-foundation/destabilized-redstone/).
 
 
 Obtaining
 ---------
 
 ### Mining
-[Destabilized redstone ore](/docs/destabilized-redstone-ore/) will drop one
+[Destabilized redstone ore](/docs/thermal-foundation/destabilized-redstone-ore/) will drop one
 piece of destabilized clathrate when mined with a pickaxe. More clathrate is
 dropped if a [Fortune](https://minecraft.gamepedia.com/Fortune) enchanted
 pickaxe is used.

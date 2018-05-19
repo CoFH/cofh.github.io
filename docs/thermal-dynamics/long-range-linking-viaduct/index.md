@@ -11,8 +11,8 @@ recipes:
     - viaduct-long-range-linking
 ---
 
-A **long range linking viaduct** is a type of [viaduct](/docs/viaduct/) used to
-connect regular viaducts to [long range viaducts](/docs/long-range-viaduct/).
+A **long range linking viaduct** is a type of [viaduct](/docs/thermal-dynamics/viaduct/) used to
+connect regular viaducts to [long range viaducts](/docs/thermal-dynamics/long-range-viaduct/).
 
 
 Obtaining
@@ -29,12 +29,12 @@ Usage
 When placed, a long range linking viaduct connects to any adjacent viaducts.
 When used by a player, the duct scans for other long range linking viaducts on
 the other side of any connected sections of [long range
-viaducts](/docs/long-range-viaduct/). When these are found, the long range
+viaducts](/docs/thermal-dynamics/long-range-viaduct/). When these are found, the long range
 linking viaduct becomes functional.
 
 ### Player transfer
 A long range linking viaduct acts as a bridge between regular
-[viaducts](/docs/viaduct/) and [long range viaducts](/docs/long-range-viaduct/).
+[viaducts](/docs/thermal-dynamics/viaduct/) and [long range viaducts](/docs/thermal-dynamics/long-range-viaduct/).
 Unlike regular viaducts, they cannot be used as entrances or destinations;
 players can only move through them while traveling through a network of
 viaducts.

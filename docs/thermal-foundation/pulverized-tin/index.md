@@ -32,7 +32,7 @@ usage-recipes:
 
 
 **Pulverized tin** is a raw material. It is the dust form of
-[tin](/docs/tin-ingot/).
+[tin](/docs/thermal-foundation/tin-ingot/).
 
 
 Obtaining

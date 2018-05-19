@@ -15,7 +15,7 @@ usage-recipes:
     - recycling-fluxduct-hardened
 ---
 
-A **hardened fluxduct** is a [fluxduct](/docs/fluxducts/) of the second tier.
+A **hardened fluxduct** is a [fluxduct](/docs/thermal-dynamics/fluxducts/) of the second tier.
 
 
 Obtaining
@@ -30,7 +30,7 @@ Usage
 
 ### Energy transfer
 A hardened fluxduct works the same way as most other
-[fluxducts](/docs/fluxducts/). It transfers up to 4,000 RF/t per connection.
+[fluxducts](/docs/thermal-dynamics/fluxducts/). It transfers up to 4,000 RF/t per connection.
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}

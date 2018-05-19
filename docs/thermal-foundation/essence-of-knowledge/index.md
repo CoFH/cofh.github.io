@@ -31,20 +31,20 @@ Obtaining
 
 ### Tome of Knowledge
 Essence of knowledge can be drained from a [tome of
-knowledge](/docs/tome-of-knowledge/) that is holding
+knowledge](/docs/thermal-foundation/tome-of-knowledge/) that is holding
 [experience](https://minecraft.gamepedia.com/Experience). This can be done
 manually by using the item on blocks that store fluids, or automatically using
-[fluid transposers](/docs/fluid-transposer/) or similar.
+[fluid transposers](/docs/thermal-expansion/fluid-transposer/) or similar.
 
 ### Insightful Condenser
-An [insightful condenser](/docs/insightful-condenser/) collects nearby
+An [insightful condenser](/docs/thermal-expansion/insightful-condenser/) collects nearby
 [experience orbs](https://minecraft.gamepedia.com/Experience) and converts them
 into essence of knowledge.
 
 ### Centrifugal Separator with Enstabulation Apparatus
-A [centrifugal separator](/docs/centrifugal-separator/) with an [enstabulation
-apparatus](/docs/augment-enstabulation-apparatus/) installed produces essence of
-knowledge when processing filled [morbs](/docs/morb/).
+A [centrifugal separator](/docs/thermal-expansion/centrifugal-separator/) with an [enstabulation
+apparatus](/docs/thermal-expansion/augment-enstabulation-apparatus/) installed produces essence of
+knowledge when processing filled [morbs](/docs/thermal-expansion/morb/).
 
 ### Fluid Transposer
 {% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
@@ -59,19 +59,19 @@ Essence of knowledge cannot be placed as a block.
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Tome of Knowledge
-A [tome of knowledge](/docs/tome-of-knowledge/) can be filled with essence of
+A [tome of knowledge](/docs/thermal-foundation/tome-of-knowledge/) can be filled with essence of
 knowledge, converting it into [experience
 points](https://minecraft.gamepedia.com/Experience). This can be done manually
 by using it on blocks that store fluids, or automatically using [fluid
-transposers](/docs/fluid-transposer/) or similar.
+transposers](/docs/thermal-expansion/fluid-transposer/) or similar.
 
 ### Arcane Ensorcellator
-An [arcane ensorcellator](/docs/arcane-ensorcellator/) uses essence of knowledge
+An [arcane ensorcellator](/docs/thermal-expansion/arcane-ensorcellator/) uses essence of knowledge
 to produce specific [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book).
 
 ### Energetic Infuser with Flux Reconstruction
-An [energetic infuser](/docs/energetic-infuser/) with [flux
-reconstruction](/docs/augment-flux-reconstruction/) installed uses essence of
+An [energetic infuser](/docs/thermal-expansion/energetic-infuser/) with [flux
+reconstruction](/docs/thermal-expansion/augment-flux-reconstruction/) installed uses essence of
 knowledge to repair damaged items. It uses 5 mB of essence of knowledge per
 restored durability point.

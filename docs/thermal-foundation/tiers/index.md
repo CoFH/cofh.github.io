@@ -14,25 +14,25 @@ powerful.
 Upgrading
 ---------
 
-Upgradable blocks are upgraded using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/). Upgradable items are upgraded through
+Upgradable blocks are upgraded using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/). Upgradable items are upgraded through
 crafting recipes.
 
 The following blocks and items can be upgraded:
 
-* All [machines](/docs/machines/)
-* All [dynamos](/docs/dynamos/)
-* [Energy Cell](/docs/energy-cell/)
-* [Flux Capacitor](/docs/flux-capacitor/)
-* [Portable Tank](/docs/portable-tank/)
-* [Reservoir](/docs/reservoir/)
-* [Cache](/docs/cache/)
-* [Strongbox](/docs/strongbox/)
-* [Satchel](/docs/satchel/)
-* [Watering Can](/docs/watering-can/)
-* [Fluxbore](/docs/fluxbore/)
-* [Fluxomagnet](/docs/fluxomagnet/)
-* [Hypoinfuser](/docs/hypoinfuser/)
+* All [machines](/docs/thermal-expansion/machines/)
+* All [dynamos](/docs/thermal-expansion/dynamos/)
+* [Energy Cell](/docs/thermal-expansion/energy-cell/)
+* [Flux Capacitor](/docs/thermal-expansion/flux-capacitor/)
+* [Portable Tank](/docs/thermal-expansion/portable-tank/)
+* [Reservoir](/docs/thermal-expansion/reservoir/)
+* [Cache](/docs/thermal-expansion/cache/)
+* [Strongbox](/docs/thermal-expansion/strongbox/)
+* [Satchel](/docs/thermal-expansion/satchel/)
+* [Watering Can](/docs/thermal-cultivation/watering-can/)
+* [Fluxbore](/docs/thermal-innovation/fluxbore/)
+* [Fluxomagnet](/docs/thermal-innovation/fluxomagnet/)
+* [Hypoinfuser](/docs/thermal-innovation/hypoinfuser/)
 
 
 List of tiers
@@ -43,10 +43,10 @@ List of tiers
 | Tier | Common materials | Description |
 |---
 | Basic | Various materials | Newly crafted blocks and items are at this tier. |
-| Hardened | [Invar](/docs/invar-ingot/) |
-| Reinforced | [Electrum](/docs/electrum-ingot/), [hardened glass](/docs/hardened-glass/) |
-| Signalum | [Signalum](/docs/signalum-ingot/), [cryotheum dust](/docs/cryotheum-dust/) |
-| Resonant | [Enderium](/docs/enderium-ingot/), [pyrotheum dust](/docs/pyrotheum-dust/) | The highest tier that can be legitimately obtained in survival mode. |
+| Hardened | [Invar](/docs/thermal-foundation/invar-ingot/) |
+| Reinforced | [Electrum](/docs/thermal-foundation/electrum-ingot/), [hardened glass](/docs/thermal-foundation/hardened-glass/) |
+| Signalum | [Signalum](/docs/thermal-foundation/signalum-ingot/), [cryotheum dust](/docs/thermal-foundation/cryotheum-dust/) |
+| Resonant | [Enderium](/docs/thermal-foundation/enderium-ingot/), [pyrotheum dust](/docs/thermal-foundation/pyrotheum-dust/) | The highest tier that can be legitimately obtained in survival mode. |
 | Creative | N/A | Only available in creative mode or using commands. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>

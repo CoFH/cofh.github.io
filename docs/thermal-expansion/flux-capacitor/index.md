@@ -44,9 +44,9 @@ Usage
 
 ### Redstone Flux battery
 A flux capacitor can be charged with [Redstone Flux](/docs/redstone-flux/) using
-an [energetic infuser](/docs/energetic-infuser/), another flux capacitor or
-similar. It can be placed in [machines](/docs/machines/) or [enervation
-dynamos](/docs/enervation-dynamo/) to provide them with energy.
+an [energetic infuser](/docs/thermal-expansion/energetic-infuser/), another flux capacitor or
+similar. It can be placed in [machines](/docs/thermal-expansion/machines/) or [enervation
+dynamos](/docs/thermal-expansion/enervation-dynamo/) to provide them with energy.
 
 A basic flux capacitor can hold up to 1,000,000 RF, can be charged at up to
 2,000 RF/t, and can be discharged at up to 1,000 RF/t. This can be increased by
@@ -66,8 +66,8 @@ If [Baubles](https://www.curseforge.com/minecraft/mc-mods/baubles) is installed,
 flux capacitors can be equipped as baubles in any slot.
 
 ### Wireless charging
-An [energetic infuser](/docs/energetic-infuser/) with [parabolic flux
-coupling](/docs/augment-parabolic-flux-coupling/) installed can wirelessly
+An [energetic infuser](/docs/thermal-expansion/energetic-infuser/) with [parabolic flux
+coupling](/docs/thermal-expansion/augment-parabolic-flux-coupling/) installed can wirelessly
 recharge flux capacitors of players within a radius of 32 blocks.
 
 ### Dyeing
@@ -79,7 +79,7 @@ item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
 worth of [water](https://minecraft.gamepedia.com/Water)).
 
 ### Enchantments
-A flux capacitor can be enchanted with [Holding](/docs/holding/) to increase its
+A flux capacitor can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -94,7 +94,7 @@ capacity.
 Tiers
 -----
 
-Flux capacitors come in six [tiers](/docs/tiers/).
+Flux capacitors come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

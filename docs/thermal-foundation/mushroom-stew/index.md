@@ -28,7 +28,7 @@ Obtaining
 {% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
 
 ### Arboreal Extractor
-An [arboreal extractor](/docs/arboreal-extractor/) will produce mushroom stew
+An [arboreal extractor](/docs/thermal-expansion/arboreal-extractor/) will produce mushroom stew
 when placed next to a [huge
 mushroom](https://minecraft.gamepedia.com/Huge_mushroom).
 

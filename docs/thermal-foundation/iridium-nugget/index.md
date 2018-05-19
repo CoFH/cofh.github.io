@@ -16,7 +16,7 @@ usage-recipes:
 
 
 **Iridium nuggets** are raw materials. They are the nugget form of
-[iridium](/docs/iridium-ingot/).
+[iridium](/docs/thermal-foundation/iridium-ingot/).
 
 
 Obtaining

@@ -43,8 +43,8 @@ usage-recipes:
 
 
 **Rich Phyto-Gro** is a type of fertilizer. It is stronger than the
-[regular](/docs/phyto-gro/) version, but weaker than the
-[fluxed](/docs/fluxed-phyto-gro/) version.
+[regular](/docs/thermal-foundation/phyto-gro/) version, but weaker than the
+[fluxed](/docs/thermal-foundation/fluxed-phyto-gro/) version.
 
 
 Obtaining
@@ -78,4 +78,4 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 5x5 area.
 
 ### Arboreal Extractor
 When rich Phyto-Gro is used in an [arboreal
-extractor](/docs/arboreal-extractor/), it produces three times as much fluid.
+extractor](/docs/thermal-expansion/arboreal-extractor/), it produces three times as much fluid.

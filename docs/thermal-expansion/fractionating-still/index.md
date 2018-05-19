@@ -25,7 +25,7 @@ recipe-list:
 
 
 A **fractionating still** (or **still** for short, also known as a **refinery**)
-is a [machine](/docs/machines/) that refines fluids.
+is a [machine](/docs/thermal-expansion/machines/) that refines fluids.
 
 
 Obtaining
@@ -41,8 +41,8 @@ this can be much slower.
 
 ### Upgrading
 A fractionating still is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -106,17 +106,17 @@ stopping.
 
 ### Security
 A fractionating still can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A fractionating still's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other stills.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other stills.
 
 
 Tiers
 -----
 
-Fractionating stills come in five [tiers](/docs/tiers/).
+Fractionating stills come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -135,7 +135,7 @@ Fractionating stills come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-A fractionating still can have [augments](/docs/augments/) installed to improve
+A fractionating still can have [augments](/docs/thermal-expansion/augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic still cannot be
 augmented.

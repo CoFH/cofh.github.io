@@ -15,7 +15,7 @@ recipes:
 > Sends all the things to `/dev/null`!
 
 
-A **nullifier** is a [device](/docs/devices/) that destroys any items and fluids
+A **nullifier** is a [device](/docs/thermal-expansion/devices/) that destroys any items and fluids
 it receives.
 
 
@@ -65,11 +65,11 @@ High
 The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
-A nullifier can have a [signalum security lock](/docs/signalum-security-lock/)
+A nullifier can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Redprints
-A nullifier's configuration can be saved on a [redprint](/docs/redprint/) to be
+A nullifier's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
 copied to other nullifiers.
 
 ### Light source

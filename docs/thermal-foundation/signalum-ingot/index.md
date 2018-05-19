@@ -54,17 +54,17 @@ usage-recipes:
 ![Signalum ingot](/assets/images/thermal-foundation/ingot-signalum.png){:style="height: 128px"}
 
 
-**Signalum ingots** are raw materials made from [copper](/docs/copper-ingot/),
-[silver](/docs/silver-ingot/) and [destabilized
-redstone](/docs/destabilized-redstone/).
+**Signalum ingots** are raw materials made from [copper](/docs/thermal-foundation/copper-ingot/),
+[silver](/docs/thermal-foundation/silver-ingot/) and [destabilized
+redstone](/docs/thermal-foundation/destabilized-redstone/).
 
 
 Obtaining
 ---------
 
 Signalum is an advanced alloy that can be obtained by crafting [signalum
-blend](/docs/signalum-blend/). The blend can only be smelted into ingots in an
-[induction smelter](/docs/induction-smelter/).
+blend](/docs/thermal-foundation/signalum-blend/). The blend can only be smelted into ingots in an
+[induction smelter](/docs/thermal-expansion/induction-smelter/).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -98,6 +98,6 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, signalum can be molten down in a smeltery. Molten signalum can also
-  be made by mixing molten [copper](/docs/copper-ingot/), molten
-  [silver](/docs/silver-ingot/) and [destabilized
-  redstone](/docs/destabilized-redstone/).
+  be made by mixing molten [copper](/docs/thermal-foundation/copper-ingot/), molten
+  [silver](/docs/thermal-foundation/silver-ingot/) and [destabilized
+  redstone](/docs/thermal-foundation/destabilized-redstone/).

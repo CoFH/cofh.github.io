@@ -25,7 +25,7 @@ usage-recipes:
 
 
 **Pulverized aluminum** is a raw material. It is the dust form of
-[aluminum](/docs/aluminum-ingot/).
+[aluminum](/docs/thermal-foundation/aluminum-ingot/).
 
 
 Obtaining

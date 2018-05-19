@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Compressed sawdust** is a material obtained by combining nine pieces of
-[sawdust](/docs/sawdust/). It can be processed into
+[sawdust](/docs/thermal-foundation/sawdust/). It can be processed into
 [charcoal](https://minecraft.gamepedia.com/Charcoal).
 
 

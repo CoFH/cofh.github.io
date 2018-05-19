@@ -71,7 +71,7 @@ usage-recipes:
 
 
 **Aluminum ingots** are raw materials obtained from [aluminum
-ore](/docs/aluminum-ore/). They are unobtainable by default, because aluminum
+ore](/docs/thermal-foundation/aluminum-ore/). They are unobtainable by default, because aluminum
 ore does not generate in the world by default.
 
 

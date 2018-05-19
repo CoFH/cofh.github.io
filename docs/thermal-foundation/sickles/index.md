@@ -102,7 +102,7 @@ uses = mat.maxUses * 4
 {::options parse_block_html="false" /}
 
 ### Enchantments
-Sickles can be enchanted with [Leech](/docs/leech/) and [Vorpal](/docs/vorpal/).
+Sickles can be enchanted with [Leech](/docs/cofh-core/leech/) and [Vorpal](/docs/cofh-core/vorpal/).
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}

@@ -61,27 +61,27 @@ proportional to the amount of blocks connected to it.
 
 The maximum throughput of a fluiduct per connection depends on the viscosity of
 the transferred fluid, and can be between 80 and 600 mB/t (this can be read
-using a [multimeter](/docs/multimeter/)). The actual throughput per connection
+using a [multimeter](/docs/thermal-foundation/multimeter/)). The actual throughput per connection
 depends on how full the fluiduct network is. A fully pressurized fluiduct
 network uses the maximum throughput per connection, while a nearly empty
 fluiduct network uses only half of this.
 
 A fluiduct will break if it contains an extremely hot or cold fluid like
 [lava](https://minecraft.gamepedia.com/Lava) or [gelid
-cryotheum](/docs/gelid-cryotheum/). To transfer these fluids, a [hardened
-fluiduct](/docs/hardened-fluiduct/) must be used.
+cryotheum](/docs/thermal-foundation/gelid-cryotheum/). To transfer these fluids, a [hardened
+fluiduct](/docs/thermal-dynamics/hardened-fluiduct/) must be used.
 
 ### Attachments
 Certain items can be attached to fluiduct connections to change how fluiducts
-work. [Servos](/docs/servos/) allow fluiduct connections to pull fluids out of
-blocks, [filters](/docs/filters/) allow them to restrict which fluids may pass
-through, and [retrievers](/docs/retrievers/) allow them to pull fluids towards
+work. [Servos](/docs/thermal-dynamics/servos/) allow fluiduct connections to pull fluids out of
+blocks, [filters](/docs/thermal-dynamics/filters/) allow them to restrict which fluids may pass
+through, and [retrievers](/docs/thermal-dynamics/retrievers/) allow them to pull fluids towards
 themselves from other blocks connected to the network.
 
 ### Light source
 A transparent fluiduct will emit light when it contains a fluid that emits
 light, like [lava](https://minecraft.gamepedia.com/Lava) or [energized
-glowstone](/docs/energized-glowstone/).
+glowstone](/docs/thermal-foundation/energized-glowstone/).
 
 ### Pulverizer ingredient
 {% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}

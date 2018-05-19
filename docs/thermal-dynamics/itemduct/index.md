@@ -57,21 +57,21 @@ if they have nowhere to go.
 
 Items in an itemduct gradually move towards their destination, at a speed of
 half a block per second (40 ticks per block). The speed may be increased by
-using [impulse itemducts](/docs/impulse-itemduct/) and/or advanced
-[servos](/docs/servos/) and [retrievers](/docs/retrievers/).
+using [impulse itemducts](/docs/thermal-dynamics/impulse-itemduct/) and/or advanced
+[servos](/docs/thermal-dynamics/servos/) and [retrievers](/docs/thermal-dynamics/retrievers/).
 
 Dense and vacuum itemducts change the length of the path they are placed in,
 which may affect item routing. A dense itemduct dramatically increases path
 length, which decreases the priority of destinations behind it by default. A
 vacuum itemduct dramatically decreases path length, which increases the priority
 of destinations behind it by default. Note that the way items are routed may be
-changed by [servos](/docs/servos/) and [retrievers](/docs/retrievers/).
+changed by [servos](/docs/thermal-dynamics/servos/) and [retrievers](/docs/thermal-dynamics/retrievers/).
 
 ### Attachments
 Certain items can be attached to itemduct connections to change how itemducts
-work. [Servos](/docs/servos/) allow itemduct connections to pull items out of
-blocks, [filters](/docs/filters/) allow them to restrict which items may pass
-through, and [retrievers](/docs/retrievers/) allow them to pull items towards
+work. [Servos](/docs/thermal-dynamics/servos/) allow itemduct connections to pull items out of
+blocks, [filters](/docs/thermal-dynamics/filters/) allow them to restrict which items may pass
+through, and [retrievers](/docs/thermal-dynamics/retrievers/) allow them to pull items towards
 themselves from other blocks connected to the network.
 
 ### Fluid Transposer ingredient

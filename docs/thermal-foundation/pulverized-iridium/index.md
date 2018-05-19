@@ -26,7 +26,7 @@ usage-recipes:
 
 
 **Pulverized iridium** is a raw material. It is the dust form of
-[iridium](/docs/iridium-ingot/).
+[iridium](/docs/thermal-foundation/iridium-ingot/).
 
 
 Obtaining

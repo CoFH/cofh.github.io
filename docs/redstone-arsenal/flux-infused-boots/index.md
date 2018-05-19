@@ -28,10 +28,10 @@ Usage
 
 ### Charging
 Flux-infused boots can hold up to 800,000 [RF](/docs/redstone-flux/). They can
-be charged using an [energetic infuser](/docs/energetic-infuser/), a [flux
-capacitor](/docs/flux-capacitor/) or similar. They can also be charged by
-touching a [fluxed electrum block](/docs/fluxed-electrum-block/) or [flux
-crystal block](/docs/flux-crystal-block) while holding them. They can be charged
+be charged using an [energetic infuser](/docs/thermal-expansion/energetic-infuser/), a [flux
+capacitor](/docs/thermal-expansion/flux-capacitor/) or similar. They can also be charged by
+touching a [fluxed electrum block](/docs/redstone-arsenal/fluxed-electrum-block/) or [flux
+crystal block](/docs/redstone-arsenal/flux-crystal-block) while holding them. They can be charged
 at rates up to 4,000 RF/t.
 
 ### Defense
@@ -60,7 +60,7 @@ Flux](/docs/redstone-flux/) when absorbing damage.
 | III | 57% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-Flux-infused boots can also be enchanted with [Holding](/docs/holding/) to
+Flux-infused boots can also be enchanted with [Holding](/docs/cofh-core/holding/) to
 increase their energy capacity.
 
 | Holding level | Capacity multiplier |

@@ -32,7 +32,7 @@ usage-recipes:
 
 
 **Petrotheum dust** is the earth elemental dust. It is most commonly used to
-make [tectonic petrotheum](/docs/tectonic-petrotheum/). It can also be used to
+make [tectonic petrotheum](/docs/thermal-foundation/tectonic-petrotheum/). It can also be used to
 process ores.
 
 
@@ -57,7 +57,7 @@ Usage
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [zephyrean
-aerotheum](/docs/zephyrean-aerotheum/) as fuel in a [reactant
-dynamo](/docs/reactant-dynamo/), petrotheum dust yields 400,000 RF per piece, or
-500,000 RF if an [elemental catalyzer](/docs/augment-elemental-catalyzer/) is
+aerotheum](/docs/thermal-foundation/zephyrean-aerotheum/) as fuel in a [reactant
+dynamo](/docs/thermal-expansion/reactant-dynamo/), petrotheum dust yields 400,000 RF per piece, or
+500,000 RF if an [elemental catalyzer](/docs/thermal-expansion/augment-elemental-catalyzer/) is
 installed.

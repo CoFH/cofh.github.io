@@ -16,7 +16,7 @@ New potions
 Several new potions are added, all of which apply
 [effects](https://minecraft.gamepedia.com/Status_effects) that do not have
 corresponding potions in the base game. [Thermal
-Foundation](/docs/thermal-foundation/) adds [recipes](/docs/tf-potion-recipes/)
+Foundation](/docs/thermal-foundation/) adds [recipes](/docs/thermal-foundation/potion-recipes/)
 to obtain these potions.
 
 {::options parse_block_html="true" /}
@@ -43,7 +43,7 @@ extended versions (brewed using
 [redstone](https://minecraft.gamepedia.com/Redstone)) also gain stronger levels:
 II and III. When [Thermal Expansion](/docs/thermal-expansion/) is installed,
 these can be obtained using an [alchemical
-retort](/docs/augment-alchemical-retort/).
+retort](/docs/thermal-expansion/augment-alchemical-retort/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

@@ -21,7 +21,7 @@ usage-recipes:
 ---
 
 **Fluxed electrum blend** is a raw material. It is the dust form of [fluxed
-electrum](/docs/fluxed-electrum-ingot/).
+electrum](/docs/redstone-arsenal/fluxed-electrum-ingot/).
 
 
 Obtaining

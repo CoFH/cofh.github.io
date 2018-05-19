@@ -11,9 +11,9 @@ recipes:
     - augment-dynamo-boiler
 ---
 
-A **boiler conversion** is an [augment](/docs/augments/) that converts a
-[steam](/docs/steam-dynamo/), [magmatic](/docs/magmatic-dynamo/) or [compression
-dynamo](/docs/compression-dynamo/) into a [steam](/docs/steam/) boiler.
+A **boiler conversion** is an [augment](/docs/thermal-expansion/augments/) that converts a
+[steam](/docs/thermal-expansion/steam-dynamo/), [magmatic](/docs/thermal-expansion/magmatic-dynamo/) or [compression
+dynamo](/docs/thermal-expansion/compression-dynamo/) into a [steam](/docs/thermal-foundation/steam/) boiler.
 
 
 Obtaining
@@ -28,15 +28,15 @@ Usage
 
 ### Installation
 A boiler conversion can be installed in the Augmentation tab in a
-[steam](/docs/steam-dynamo/), [magmatic](/docs/magmatic-dynamo/) or [compression
-dynamo](/docs/compression-dynamo/)'s GUI. It is a specialization that cannot be
+[steam](/docs/thermal-expansion/steam-dynamo/), [magmatic](/docs/thermal-expansion/magmatic-dynamo/) or [compression
+dynamo](/docs/thermal-expansion/compression-dynamo/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-A [steam](/docs/steam-dynamo/), [magmatic](/docs/magmatic-dynamo/) or
-[compression dynamo](/docs/compression-dynamo/) with a boiler conversion
+A [steam](/docs/thermal-expansion/steam-dynamo/), [magmatic](/docs/thermal-expansion/magmatic-dynamo/) or
+[compression dynamo](/docs/thermal-expansion/compression-dynamo/) with a boiler conversion
 installed uses fuel to convert [water](https://minecraft.gamepedia.com/Water)
-into [steam](/docs/steam/) instead of generating [Redstone
+into [steam](/docs/thermal-foundation/steam/) instead of generating [Redstone
 Flux](/docs/redstone-flux/). It produces and outputs steam at the same rates at
 which it would normally generate and emit energy, replacing the energy unit RF
 with the fluid unit mB.
@@ -53,9 +53,9 @@ differs depending on the type of dynamo.
 <div class="uk-overflow-container">
 | Dynamo | Max. power output modifier | Energy modifier |
 |---
-| [Steam Dynamo](/docs/steam-dynamo/) | × 4 | + 15% |
-| [Magmatic Dynamo](/docs/magmatic-dynamo/) | × 2 | - 30% |
-| [Compression Dynamo](/docs/compression-dynamo/) | × 2 | - 40% |
+| [Steam Dynamo](/docs/thermal-expansion/steam-dynamo/) | × 4 | + 15% |
+| [Magmatic Dynamo](/docs/thermal-expansion/magmatic-dynamo/) | × 2 | - 30% |
+| [Compression Dynamo](/docs/thermal-expansion/compression-dynamo/) | × 2 | - 40% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
@@ -66,7 +66,7 @@ increase/decrease percentages are added together before being applied to the
 amount of energy.
 
 Generating energy using dynamos with boiler conversions installed and steam
-dynamos with [turbine conversions](/docs/augment-turbine-conversion/) installed
+dynamos with [turbine conversions](/docs/thermal-expansion/augment-turbine-conversion/) installed
 is more fuel efficient than using dynamos to generate energy directly. A dynamo
 with a boiler conversion installed produces steam at the same rates at which it
 would normally generate energy (replacing RF with mB), while a steam dynamo with

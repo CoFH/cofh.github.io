@@ -17,7 +17,7 @@ usage-recipes:
 ![Tin plate](/assets/images/thermal-foundation/plate-tin.png){:style="height: 128px"}
 
 
-**Tin plates** are crafting materials made of [tin](/docs/tin-ingot/).
+**Tin plates** are crafting materials made of [tin](/docs/thermal-foundation/tin-ingot/).
 
 
 Obtaining

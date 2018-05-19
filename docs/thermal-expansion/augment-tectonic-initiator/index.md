@@ -11,10 +11,10 @@ recipes:
     - augment-machine-pulverizer-petrotheum
 ---
 
-A **tectonic initiator** is an [augment](/docs/augments/) that allows for a
-[pulverizer](/docs/pulverizer/) to process
-[ores](/docs/pulverizer/#ore-processing) more efficiently using [tectonic
-petrotheum](/docs/tectonic-petrotheum/).
+A **tectonic initiator** is an [augment](/docs/thermal-expansion/augments/) that allows for a
+[pulverizer](/docs/thermal-expansion/pulverizer/) to process
+[ores](/docs/thermal-expansion/pulverizer/#ore-processing) more efficiently using [tectonic
+petrotheum](/docs/thermal-foundation/tectonic-petrotheum/).
 
 
 Obtaining
@@ -29,20 +29,20 @@ Usage
 
 ### Installation
 A tectonic initiator can be installed in the Augmentation tab in a
-[pulverizer](/docs/pulverizer/)'s GUI. It is a specialization that cannot be
+[pulverizer](/docs/thermal-expansion/pulverizer/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-A [pulverizer](/docs/pulverizer/) with a tectonic initiator installed produces
+A [pulverizer](/docs/thermal-expansion/pulverizer/) with a tectonic initiator installed produces
 1.5 times as much of the primary product of any
-[ore](/docs/pulverizer/#ore-processing) it processes (amounts are rounded down
+[ore](/docs/thermal-expansion/pulverizer/#ore-processing) it processes (amounts are rounded down
 when necessary). However, it consumes 100 mB of [tectonic
-petrotheum](/docs/tectonic-petrotheum/) per ore to do so, and the amount of
+petrotheum](/docs/thermal-foundation/tectonic-petrotheum/) per ore to do so, and the amount of
 energy required per operation is increased by 50%.
 
 An installed tectonic initiator also increases the chances of a pulverizer
 producing a secondary product. This effect stacks with those of any installed
-[auxiliary sieves](/docs/augment-auxiliary-sieve/).
+[auxiliary sieves](/docs/thermal-expansion/augment-auxiliary-sieve/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

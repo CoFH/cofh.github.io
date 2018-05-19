@@ -26,7 +26,7 @@ recipes:
 ---
 
 A **hypoinfuser** (also known as an **injector**) is a tool that stores and
-injects [fluid potions](/docs/potion-fluid/).
+injects [fluid potions](/docs/thermal-foundation/potion-fluid/).
 
 
 Obtaining
@@ -40,10 +40,10 @@ Usage
 -----
 
 ### Filling and draining
-A hypoinfuser can hold the [fluid form](/docs/potion-fluid/) or any regular
+A hypoinfuser can hold the [fluid form](/docs/thermal-foundation/potion-fluid/) or any regular
 [potion](https://minecraft.gamepedia.com/Potion). It can be filled and drained
 manually by using it on a block that can hold fluid potions, or automatically
-using a [fluid transposer](/docs/fluid-transposer/) or similar. It can also be
+using a [fluid transposer](/docs/thermal-expansion/fluid-transposer/) or similar. It can also be
 filled by combining it with a potion in a crafting grid.
 
 A basic hypoinfuser can store up to 8 bottles worth of a potion (2,000 mB). This
@@ -86,7 +86,7 @@ item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
 worth of [water](https://minecraft.gamepedia.com/Water)).
 
 ### Enchantments
-A hypoinfuser can be enchanted with [Holding](/docs/holding/) to increase its
+A hypoinfuser can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -101,7 +101,7 @@ capacity.
 Tiers
 -----
 
-Hypoinfusers come in six [tiers](/docs/tiers/).
+Hypoinfusers come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

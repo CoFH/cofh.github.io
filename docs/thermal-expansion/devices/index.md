@@ -34,9 +34,9 @@ frame-recipes:
 ---
 
 **Devices** are blocks that perform various functions involving items and/or
-fluids. Unlike [machines](/docs/machines/), they do not use [Redstone
-Flux](/docs/redstone-flux/), and cannot be [upgraded](/docs/tiers/) or
-[augmented](/docs/augments/).
+fluids. Unlike [machines](/docs/thermal-expansion/machines/), they do not use [Redstone
+Flux](/docs/redstone-flux/), and cannot be [upgraded](/docs/thermal-foundation/tiers/) or
+[augmented](/docs/thermal-expansion/augments/).
 
 
 List of devices
@@ -46,18 +46,18 @@ List of devices
 <div class="uk-overflow-container">
 | Device | Description |
 |---
-| [Aqueous Accumulator](/docs/aqueous-accumulator/) | Extracts [water](https://minecraft.gamepedia.com/Water) from its surroundings. |
-| [Nullifier](/docs/nullifier/) | Destroys items and fluids. |
-| [Thermal Mediator](/docs/thermal-mediator/) | Speeds up adjacent [machines](/docs/machines/) and [dynamos](/docs/dynamos/) using [coolants](/docs/coolants/). |
-| [Arboreal Extractor](/docs/arboreal-extractor/) | Extracts a fluid from an adjacent [tree](https://minecraft.gamepedia.com/Tree). |
-| [Aquatic Entangler](/docs/aquatic-entangler/) | Catches [fish](https://minecraft.gamepedia.com/Fish). |
-| [Item Allocator](/docs/item-allocator/) | Stores and transfers items. |
-| [Fluid Allocator](/docs/fluid-allocator/) | Stores and transfers fluids. |
-| [Lexical Transmuter](/docs/lexical-transmuter/) | Converts items into preferred equivalents. |
-| [Insightful Condenser](/docs/insightful-condenser/) | Collects [experience](https://minecraft.gamepedia.com/Experience) in an area. |
-| [Decoctive Diffuser](/docs/decoctive-diffuser/) | Spreads the effects of [fluid potions](/docs/potion-fluid/) in an area. |
-| [Factorizer](/docs/factorizer/) | Combines and splits various items. |
-| [Creature Encaptulator](/docs/creature-encaptulator/) | Captures nearby mobs using [morbs](/docs/morb/). |
+| [Aqueous Accumulator](/docs/thermal-expansion/aqueous-accumulator/) | Extracts [water](https://minecraft.gamepedia.com/Water) from its surroundings. |
+| [Nullifier](/docs/thermal-expansion/nullifier/) | Destroys items and fluids. |
+| [Thermal Mediator](/docs/thermal-expansion/thermal-mediator/) | Speeds up adjacent [machines](/docs/thermal-expansion/machines/) and [dynamos](/docs/thermal-expansion/dynamos/) using [coolants](/docs/thermal-expansion/coolants/). |
+| [Arboreal Extractor](/docs/thermal-expansion/arboreal-extractor/) | Extracts a fluid from an adjacent [tree](https://minecraft.gamepedia.com/Tree). |
+| [Aquatic Entangler](/docs/thermal-expansion/aquatic-entangler/) | Catches [fish](https://minecraft.gamepedia.com/Fish). |
+| [Item Allocator](/docs/thermal-expansion/item-allocator/) | Stores and transfers items. |
+| [Fluid Allocator](/docs/thermal-expansion/fluid-allocator/) | Stores and transfers fluids. |
+| [Lexical Transmuter](/docs/thermal-expansion/lexical-transmuter/) | Converts items into preferred equivalents. |
+| [Insightful Condenser](/docs/thermal-expansion/insightful-condenser/) | Collects [experience](https://minecraft.gamepedia.com/Experience) in an area. |
+| [Decoctive Diffuser](/docs/thermal-expansion/decoctive-diffuser/) | Spreads the effects of [fluid potions](/docs/thermal-foundation/potion-fluid/) in an area. |
+| [Factorizer](/docs/thermal-expansion/factorizer/) | Combines and splits various items. |
+| [Creature Encaptulator](/docs/thermal-expansion/creature-encaptulator/) | Captures nearby mobs using [morbs](/docs/thermal-expansion/morb/). |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
 </div>
 {::options parse_block_html="false" /}

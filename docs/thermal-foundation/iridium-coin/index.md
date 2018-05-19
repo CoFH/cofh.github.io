@@ -12,8 +12,8 @@ recipes:
 ![Iridium coin](/assets/images/thermal-foundation/coin-iridium.png){:style="height: 128px"}
 
 
-**Iridium coins** are materials made of [iridium](/docs/iridium-ingot/) that can
-be used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/).
+**Iridium coins** are materials made of [iridium](/docs/thermal-foundation/iridium-ingot/) that can
+be used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -27,5 +27,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/), iridium
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), iridium
 coins yield 100,000 RF each.

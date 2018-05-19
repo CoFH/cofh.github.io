@@ -43,8 +43,8 @@ Usage
 
 ### Charging
 A fluxsaw can be charged with [Redstone Flux](/docs/redstone-flux/) using an
-[energetic infuser](/docs/energetic-infuser/), a [flux
-capacitor](/docs/flux-capacitor/) or similar.
+[energetic infuser](/docs/thermal-expansion/energetic-infuser/), a [flux
+capacitor](/docs/thermal-expansion/flux-capacitor/) or similar.
 
 A basic fluxsaw can hold up to 40,000 RF and can be charged at up to 1,000 RF/t.
 This can be increased by upgrading the fluxsaw to a higher [tier](#tiers).
@@ -113,7 +113,7 @@ used.
 | III | 60% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-A fluxsaw can also be enchanted with [Holding](/docs/holding/) to increase its
+A fluxsaw can also be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 energy capacity.
 
 | Holding level | Capacity multiplier |
@@ -128,7 +128,7 @@ energy capacity.
 Tiers
 -----
 
-Fluxsaws come in six [tiers](/docs/tiers/).
+Fluxsaws come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

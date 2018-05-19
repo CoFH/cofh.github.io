@@ -11,8 +11,8 @@ recipes:
     - augment-dynamo-enervation-enchant
 ---
 
-A **disjunctive extraction** [augment](/docs/augments/) allows for an
-[enervation dynamo](/docs/enervation-dynamo/) to use
+A **disjunctive extraction** [augment](/docs/thermal-expansion/augments/) allows for an
+[enervation dynamo](/docs/thermal-expansion/enervation-dynamo/) to use
 [enchanted](https://minecraft.gamepedia.com/Enchanting) items as fuel.
 
 
@@ -28,12 +28,12 @@ Usage
 
 ### Installation
 A disjunctive extraction augment can be installed in the Augmentation tab in an
-[enervation dynamo](/docs/enervation-dynamo/)'s GUI. It is a specialization that
+[enervation dynamo](/docs/thermal-expansion/enervation-dynamo/)'s GUI. It is a specialization that
 cannot be installed together with other specialization augments.
 
 ### Effects
 An installed disjunctive extraction augment allows for an [enervation
-dynamo](/docs/enervation-dynamo/) to use
+dynamo](/docs/thermal-expansion/enervation-dynamo/) to use
 [enchanted](https://minecraft.gamepedia.com/Enchanting) items as fuel. The items
 are consumed completely. The augment also quintuples the dynamo's maximum power
 output. However, the dynamo can only generate energy using enchanted items.

@@ -12,8 +12,8 @@ recipes:
 ![Steel coin](/assets/images/thermal-foundation/coin-steel.png){:style="height: 128px"}
 
 
-**Steel coins** are materials made of [steel](/docs/steel-ingot/) that can be
-used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/).
+**Steel coins** are materials made of [steel](/docs/thermal-foundation/steel-ingot/) that can be
+used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -27,5 +27,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/), steel
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), steel
 coins yield 40,000 RF each.

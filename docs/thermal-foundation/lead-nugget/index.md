@@ -25,7 +25,7 @@ usage-recipes:
 
 
 **Lead nuggets** are raw materials. They are the nugget form of
-[lead](/docs/lead-ingot/).
+[lead](/docs/thermal-foundation/lead-ingot/).
 
 
 Obtaining

@@ -24,7 +24,7 @@ usage-recipes:
 
 
 **Invar nuggets** are raw materials. They are the nugget form of
-[invar](/docs/invar-ingot/).
+[invar](/docs/thermal-foundation/invar-ingot/).
 
 
 Obtaining

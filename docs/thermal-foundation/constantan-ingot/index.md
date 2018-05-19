@@ -69,17 +69,17 @@ usage-recipes:
 ![Constantan ingot](/assets/images/thermal-foundation/ingot-constantan.png){:style="height: 128px"}
 
 
-**Constantan ingots** are raw materials made from [copper](/docs/copper-ingot/)
-and [nickel](/docs/nickel-ingot/).
+**Constantan ingots** are raw materials made from [copper](/docs/thermal-foundation/copper-ingot/)
+and [nickel](/docs/thermal-foundation/nickel-ingot/).
 
 
 Obtaining
 ---------
 
-Constantan can be obtained by combining [copper](/docs/copper-ingot/) and
-[nickel](/docs/nickel-ingot/), either by crafting [constantan
-blend](/docs/constantan-blend/) or by using an [induction
-smelter](/docs/induction-smelter/).
+Constantan can be obtained by combining [copper](/docs/thermal-foundation/copper-ingot/) and
+[nickel](/docs/thermal-foundation/nickel-ingot/), either by crafting [constantan
+blend](/docs/thermal-foundation/constantan-blend/) or by using an [induction
+smelter](/docs/thermal-expansion/induction-smelter/).
 
 ### Smelting
 {% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}
@@ -116,5 +116,5 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, constantan can be molten down in a smeltery. Molten constantan can
-  also be made by mixing molten [copper](/docs/copper-ingot/) and molten
-  [nickel](/docs/nickel-ingot/).
+  also be made by mixing molten [copper](/docs/thermal-foundation/copper-ingot/) and molten
+  [nickel](/docs/thermal-foundation/nickel-ingot/).

@@ -1,34 +1,34 @@
 aerotheum:
   name: Zephyrean Aerotheum
-  site: cofh
+  site: docs-tf
   url: zephyrean-aerotheum/
 coal:
   name: Liquifacted Coal
-  site: cofh
+  site: docs-tf
   url: liquifacted-coal/
 creosote-oil:
   name: Creosote Oil
-  site: cofh
+  site: docs-tf
   url: creosote-oil/
 crude-oil:
   name: Crude Oil
-  site: cofh
+  site: docs-tf
   url: crude-oil/
 cryotheum:
   name: Gelid Cryotheum
-  site: cofh
+  site: docs-tf
   url: gelid-cryotheum/
 ender:
   name: Resonant Ender
-  site: cofh
+  site: docs-tf
   url: resonant-ender/
 experience:
   name: Essence of Knowledge
-  site: cofh
+  site: docs-tf
   url: essence-of-knowledge/
 glowstone:
   name: Energized Glowstone
-  site: cofh
+  site: docs-tf
   url: energized-glowstone/
 lava:
   name: Lava
@@ -36,51 +36,51 @@ lava:
   url: Lava
 mana:
   name: Primal Mana
-  site: cofh
+  site: docs-tf
   url: primal-mana/
 mushroom-stew:
   name: Mushroom Stew
-  site: cofh
+  site: docs-tf
   url: mushroom-stew/
 naphtha:
   name: Naphtha
-  site: cofh
+  site: docs-tf
   url: naphtha/
 petrotheum:
   name: Tectonic Petrotheum
-  site: cofh
+  site: docs-tf
   url: tectonic-petrotheum/
 pyrotheum:
   name: Blazing Pyrotheum
-  site: cofh
+  site: docs-tf
   url: blazing-pyrotheum/
 redstone:
   name: Destabilized Redstone
-  site: cofh
+  site: docs-tf
   url: destabilized-redstone/
 refined-fuel:
   name: Refined Fuel
-  site: cofh
+  site: docs-tf
   url: refined-fuel/
 resin:
   name: Resin
-  site: cofh
+  site: docs-tf
   url: resin/
 sap:
   name: Sap
-  site: cofh
+  site: docs-tf
   url: sap/
 steam:
   name: Steam
-  site: cofh
+  site: docs-tf
   url: steam/
 syrup:
   name: Syrup
-  site: cofh
+  site: docs-tf
   url: syrup/
 tree-oil:
   name: Tree Oil
-  site: cofh
+  site: docs-tf
   url: tree-oil/
 water:
   name: Water

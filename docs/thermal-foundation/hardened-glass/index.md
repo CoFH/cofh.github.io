@@ -81,7 +81,7 @@ Usage
 
 ### Light source
 Some variants of hardened glass emit varying amounts of light depending on the
-type of metal, like [lumium](/docs/lumium-ingot/).
+type of metal, like [lumium](/docs/thermal-foundation/lumium-ingot/).
 
 ### Wither proofing
 Hardened glass blocks cannot be broken by

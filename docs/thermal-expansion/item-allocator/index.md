@@ -15,7 +15,7 @@ recipes:
 
 
 An **item allocator** (also known as an **item buffer**) is a
-[device](/docs/devices/) that stores and transfers items between adjacent blocks
+[device](/docs/thermal-expansion/devices/) that stores and transfers items between adjacent blocks
 or transport systems.
 
 
@@ -74,10 +74,10 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An item allocator can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-An item allocator's configuration can be saved on a [redprint](/docs/redprint/)
+An item allocator's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
 to be copied to other item allocators.
 
 ### Light source

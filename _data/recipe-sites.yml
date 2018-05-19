@@ -1,4 +1,16 @@
-cofh:
+docs:
   url: /docs/
+docs-tf:
+  url: /docs/thermal-foundation/
+docs-te:
+  url: /docs/thermal-expansion/
+docs-td:
+  url: /docs/thermal-dynamics/
+docs-tc:
+  url: /docs/thermal-cultivation/
+docs-ti:
+  url: /docs/thermal-innovation/
+docs-ra:
+  url: /docs/redstone-arsenal/
 mc-wiki:
   url: https://minecraft.gamepedia.com/

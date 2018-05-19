@@ -11,10 +11,10 @@ recipes:
     - augment-machine-smelter-pyrotheum
 ---
 
-A **pyro-concentrator** is an [augment](/docs/augments/) that allows for an
-[induction smelter](/docs/induction-smelter/) to process
-[ores](/docs/induction-smelter/#ore-processing) more efficiently using [blazing
-pyrotheum](/docs/blazing-pyrotheum/).
+A **pyro-concentrator** is an [augment](/docs/thermal-expansion/augments/) that allows for an
+[induction smelter](/docs/thermal-expansion/induction-smelter/) to process
+[ores](/docs/thermal-expansion/induction-smelter/#ore-processing) more efficiently using [blazing
+pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/).
 
 
 Obtaining
@@ -29,19 +29,19 @@ Usage
 
 ### Installation
 A pyro-concentrator can be installed in the Augmentation tab in an [induction
-smelter](/docs/induction-smelter/)'s GUI. It is a specialization that cannot be
+smelter](/docs/thermal-expansion/induction-smelter/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-An [induction smelter](/docs/induction-smelter/) with a pyro-concentrator
+An [induction smelter](/docs/thermal-expansion/induction-smelter/) with a pyro-concentrator
 installed produces 1.5 times as much of the primary product of any
-[ore](/docs/induction-smelter/#ore-processing) it processes. However, it
-consumes 100 mB of [blazing pyrotheum](/docs/blazing-pyrotheum/) per ore to do
+[ore](/docs/thermal-expansion/induction-smelter/#ore-processing) it processes. However, it
+consumes 100 mB of [blazing pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/) per ore to do
 so, and the amount of energy required per operation is increased by 50%.
 
 An installed pyro-concentrator also increases the chances of an induction
 smelter producing a secondary product. This effect stacks with those of any
-installed [auxiliary sieves](/docs/augment-auxiliary-sieve/).
+installed [auxiliary sieves](/docs/thermal-expansion/augment-auxiliary-sieve/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

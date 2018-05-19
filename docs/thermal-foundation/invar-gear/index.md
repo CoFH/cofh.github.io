@@ -26,7 +26,7 @@ usage-recipes:
 ![Invar gear](/assets/images/thermal-foundation/gear-invar.png){:style="height: 128px"}
 
 
-**Invar gears** are crafting materials made of [invar](/docs/invar-ingot/).
+**Invar gears** are crafting materials made of [invar](/docs/thermal-foundation/invar-ingot/).
 
 
 Obtaining

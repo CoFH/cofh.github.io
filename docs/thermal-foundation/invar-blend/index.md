@@ -23,7 +23,7 @@ usage-recipes:
 
 
 **Invar blend** is a raw material. It is the dust form of
-[invar](/docs/invar-ingot/).
+[invar](/docs/thermal-foundation/invar-ingot/).
 
 
 Obtaining

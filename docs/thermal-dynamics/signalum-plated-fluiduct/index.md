@@ -16,7 +16,7 @@ recipes:
     - fluiduct-energy-transparent-from-opaque
 ---
 
-A **signalum-plated fluiduct** is a type of [fluiduct](/docs/fluiduct/) that
+A **signalum-plated fluiduct** is a type of [fluiduct](/docs/thermal-dynamics/fluiduct/) that
 transfers both fluids and [Redstone Flux](/docs/redstone-flux/).
 
 
@@ -32,6 +32,6 @@ Usage
 
 ### Fluid and energy transfer
 A signalum-plated fluiduct works the same way as a [hardened
-fluiduct](/docs/hardened-fluiduct/). However, it also transfers [Redstone
-Flux](/docs/redstone-flux/) like a [fluxduct](/docs/fluxducts/), at up to 4,000
+fluiduct](/docs/thermal-dynamics/hardened-fluiduct/). However, it also transfers [Redstone
+Flux](/docs/redstone-flux/) like a [fluxduct](/docs/thermal-dynamics/fluxducts/), at up to 4,000
 RF/t per connection.

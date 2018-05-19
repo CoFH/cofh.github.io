@@ -17,7 +17,7 @@ usage-recipes:
 ---
 
 **Blocks of signalum** are blocks made from [signalum
-ingots](/docs/signalum-ingot/).
+ingots](/docs/thermal-foundation/signalum-ingot/).
 
 
 Obtaining
@@ -34,7 +34,7 @@ Usage
 -----
 
 ### Storage
-Blocks of signalum can be used to store [signalum ingots](/docs/signalum-ingot/)
+Blocks of signalum can be used to store [signalum ingots](/docs/thermal-foundation/signalum-ingot/)
 in a compact way.
 
 ### Light source

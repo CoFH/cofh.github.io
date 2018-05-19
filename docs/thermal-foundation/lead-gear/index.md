@@ -20,7 +20,7 @@ usage-recipes:
 ![Lead gear](/assets/images/thermal-foundation/gear-lead.png){:style="height: 128px"}
 
 
-**Lead gears** are crafting materials made of [lead](/docs/lead-ingot/).
+**Lead gears** are crafting materials made of [lead](/docs/thermal-foundation/lead-ingot/).
 
 
 Obtaining

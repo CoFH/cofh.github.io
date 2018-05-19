@@ -20,15 +20,15 @@ usage-recipes:
 
 
 **Energized clathrate** is a material obtained from [energized
-netherrack](/docs/energized-netherrack/). It can be processed into [energized
-glowstone](/docs/energized-glowstone/).
+netherrack](/docs/thermal-foundation/energized-netherrack/). It can be processed into [energized
+glowstone](/docs/thermal-foundation/energized-glowstone/).
 
 
 Obtaining
 ---------
 
 ### Mining
-[Energized netherrack](/docs/energized-netherrack/) will drop one piece of
+[Energized netherrack](/docs/thermal-foundation/energized-netherrack/) will drop one piece of
 energized clathrate when mined with a pickaxe. More clathrate is dropped if a
 [Fortune](https://minecraft.gamepedia.com/Fortune) enchanted pickaxe is used.
 

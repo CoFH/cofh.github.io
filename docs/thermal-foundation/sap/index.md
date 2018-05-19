@@ -18,18 +18,18 @@ usage-recipes:
 
 **Sap** is a fluid obtained from oak and dark oak
 [trees](https://minecraft.gamepedia.com/Tree). It can be used to turn [regular
-Phyto-Gro](/docs/phyto-gro/) into [rich Phyto-Gro](/docs/rich-phyto-gro/).
+Phyto-Gro](/docs/thermal-foundation/phyto-gro/) into [rich Phyto-Gro](/docs/thermal-foundation/rich-phyto-gro/).
 
 
 Obtaining
 ---------
 
 ### Arboreal Extractor
-An [arboreal extractor](/docs/arboreal-extractor/) will produce sap when placed
+An [arboreal extractor](/docs/thermal-expansion/arboreal-extractor/) will produce sap when placed
 next to an oak or dark oak [tree](https://minecraft.gamepedia.com/Tree).
 
 ### Sawmill with Resin Funnel
-A [sawmill](/docs/sawmill/) with a [resin funnel](/docs/augment-resin-funnel/)
+A [sawmill](/docs/thermal-expansion/sawmill/) with a [resin funnel](/docs/thermal-expansion/augment-resin-funnel/)
 installed produces sap as a byproduct when processing oak or dark oak
 [wood](https://minecraft.gamepedia.com/Wood).
 

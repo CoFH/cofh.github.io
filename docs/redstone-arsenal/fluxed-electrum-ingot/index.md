@@ -39,16 +39,16 @@ usage-recipes:
 ---
 
 **Fluxed electrum ingots** are raw materials made from
-[electrum](/docs/electrum-ingot/) and [destabilized
-redstone](/docs/destabilized-redstone/).
+[electrum](/docs/thermal-foundation/electrum-ingot/) and [destabilized
+redstone](/docs/thermal-foundation/destabilized-redstone/).
 
 
 Obtaining
 ---------
 
 Fluxed electrum is an advanced alloy that can be obtained by crafting [fluxed
-electrum blend](/docs/fluxed-electrum-blend/). The blend can only be smelted
-into ingots in an [induction smelter](/docs/induction-smelter/).
+electrum blend](/docs/redstone-arsenal/fluxed-electrum-blend/). The blend can only be smelted
+into ingots in an [induction smelter](/docs/thermal-expansion/induction-smelter/).
 
 ### Induction Smelter
 {% include recipe-table.html type='smelter' recipes=page.recipes.smelter no-result=true %}

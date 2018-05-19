@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Mana infused gears** are crafting materials made of [mana infused
-metal](/docs/mana-infused-ingot/). They are currently not used for anything.
+metal](/docs/thermal-foundation/mana-infused-ingot/). They are currently not used for anything.
 
 
 Obtaining

@@ -43,8 +43,8 @@ slower.
 
 ### Upgrading
 An energy cell is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -66,22 +66,22 @@ configured in its GUI. A basic energy cell has a maximum transfer rate of 1,000
 RF/t. This can be increased by upgrading the energy cell to a higher
 [tier](#tiers).
 
-When an energy cell is upgraded, or a [redprint](/docs/redprint/)'s contents are
+When an energy cell is upgraded, or a [redprint](/docs/thermal-foundation/redprint/)'s contents are
 copied onto it, the configured transmission rates scale with its tier.
 
 ### Item form
 An energy cell in item form can be charged with [Redstone
 Flux](/docs/redstone-flux/) using an [energetic
-infuser](/docs/energetic-infuser/), a [flux capacitor](/docs/flux-capacitor/) or
+infuser](/docs/thermal-expansion/energetic-infuser/), a [flux capacitor](/docs/thermal-expansion/flux-capacitor/) or
 similar. It can be placed in
-[machines](/docs/machines/) or [enervation dynamos](/docs/enervation-dynamo/) to
+[machines](/docs/thermal-expansion/machines/) or [enervation dynamos](/docs/thermal-expansion/enervation-dynamo/) to
 provide them with energy.
 
 An energy cell item can be charged and discharged at the same rates it can
 receive and emit energy when placed.
 
 An energy cell item can store more energy than a [flux
-capacitor](/docs/flux-capacitor/), but cannot charge items in a player's
+capacitor](/docs/thermal-expansion/flux-capacitor/), but cannot charge items in a player's
 inventory.
 
 ### Redstone control
@@ -105,10 +105,10 @@ GUI.
 
 ### Security
 A placed energy cell can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Enchantments
-An energy cell can be enchanted with [Holding](/docs/holding/) to increase its
+An energy cell can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -120,7 +120,7 @@ capacity.
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Redprints
-An energy cell's configuration can be saved on a [redprint](/docs/redprint/) to
+An energy cell's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to
 be copied to other energy cells.
 
 ### Light source
@@ -136,7 +136,7 @@ strength of between 0 and 15, depending on how full the energy cell is.
 Tiers
 -----
 
-Energy cells come in six [tiers](/docs/tiers/).
+Energy cells come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

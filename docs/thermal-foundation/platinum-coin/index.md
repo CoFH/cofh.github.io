@@ -12,8 +12,8 @@ recipes:
 ![Platinum coin](/assets/images/thermal-foundation/coin-platinum.png){:style="height: 128px"}
 
 
-**Platinum coins** are materials made of [platinum](/docs/platinum-ingot/) that
-can be used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/).
+**Platinum coins** are materials made of [platinum](/docs/thermal-foundation/platinum-ingot/) that
+can be used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -27,5 +27,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/numismatic-dynamo/), platinum
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), platinum
 coins yield 80,000 RF each.

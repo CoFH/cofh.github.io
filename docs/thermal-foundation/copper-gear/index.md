@@ -35,7 +35,7 @@ usage-recipes:
 ![Copper gear](/assets/images/thermal-foundation/gear-copper.png){:style="height: 128px"}
 
 
-**Copper gears** are crafting materials made of [copper](/docs/copper-ingot/).
+**Copper gears** are crafting materials made of [copper](/docs/thermal-foundation/copper-ingot/).
 
 
 Obtaining

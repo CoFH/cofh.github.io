@@ -17,7 +17,7 @@ usage-recipes:
 ---
 
 **Blocks of enderium** are blocks made from [enderium
-ingots](/docs/enderium-ingot/).
+ingots](/docs/thermal-foundation/enderium-ingot/).
 
 
 Obtaining
@@ -34,7 +34,7 @@ Usage
 -----
 
 ### Storage
-Blocks of enderium can be used to store [enderium ingots](/docs/enderium-ingot/)
+Blocks of enderium can be used to store [enderium ingots](/docs/thermal-foundation/enderium-ingot/)
 in a compact way.
 
 ### Light source

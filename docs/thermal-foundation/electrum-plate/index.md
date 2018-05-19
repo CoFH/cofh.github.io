@@ -19,7 +19,7 @@ usage-recipes:
 
 
 **Electrum plates** are crafting materials made of
-[electrum](/docs/electrum-ingot/).
+[electrum](/docs/thermal-foundation/electrum-ingot/).
 
 
 Obtaining

@@ -40,8 +40,8 @@ usage-recipes:
 
 
 **Phyto-Gro** is a type of fertilizer. It is the weakest of its kind, being
-surpassed by the [rich](/docs/rich-phyto-gro/) and
-[fluxed](/docs/fluxed-phyto-gro/) versions.
+surpassed by the [rich](/docs/thermal-foundation/rich-phyto-gro/) and
+[fluxed](/docs/thermal-foundation/fluxed-phyto-gro/) versions.
 
 
 Obtaining
@@ -71,5 +71,5 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 3x3 area.
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Arboreal Extractor
-When Phyto-Gro is used in an [arboreal extractor](/docs/arboreal-extractor/), it
+When Phyto-Gro is used in an [arboreal extractor](/docs/thermal-expansion/arboreal-extractor/), it
 produces twice as much fluid.

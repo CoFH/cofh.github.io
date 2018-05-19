@@ -17,7 +17,7 @@ usage-recipes:
     - recycling-fluxduct-basic
 ---
 
-A **leadstone fluxduct** is a [fluxduct](/docs/fluxducts/) of the first and
+A **leadstone fluxduct** is a [fluxduct](/docs/thermal-dynamics/fluxducts/) of the first and
 lowest tier.
 
 
@@ -33,7 +33,7 @@ Usage
 
 ### Energy transfer
 A leadstone fluxduct works the same way as most other
-[fluxducts](/docs/fluxducts/). It transfers up to 1,000 RF/t per connection.
+[fluxducts](/docs/thermal-dynamics/fluxducts/). It transfers up to 1,000 RF/t per connection.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

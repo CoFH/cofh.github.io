@@ -12,8 +12,8 @@ recipes:
     - augment-machine-secondary-null
 ---
 
-A **nullification chamber** is an [augment](/docs/augments/) that destroys
-excess secondary products when an applicable [machine](/docs/machines/)'s
+A **nullification chamber** is an [augment](/docs/thermal-expansion/augments/) that destroys
+excess secondary products when an applicable [machine](/docs/thermal-expansion/machines/)'s
 secondary output slot/tank is full.
 
 
@@ -29,12 +29,12 @@ Usage
 
 ### Installation
 A nullification chamber can be installed in the Augmentation tab in a
-[machine](/docs/machines/)'s GUI. It can only be installed in machines that can
-produce secondary products, like [pulverizers](/docs/pulverizer/) and [induction
-smelters](/docs/induction-smelter/).
+[machine](/docs/thermal-expansion/machines/)'s GUI. It can only be installed in machines that can
+produce secondary products, like [pulverizers](/docs/thermal-expansion/pulverizer/) and [induction
+smelters](/docs/thermal-expansion/induction-smelter/).
 
 ### Effects
-When a [machine](/docs/machines/)'s secondary output slot/tank is full, but the
+When a [machine](/docs/thermal-expansion/machines/)'s secondary output slot/tank is full, but the
 machine still has room to produce its primary product, an installed
 nullification chamber destroys any more produced secondary products. This allows
 the machine to keep working regardless of whether its secondary output slot/tank

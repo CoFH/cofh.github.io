@@ -33,7 +33,7 @@ usage-recipes:
 
 **Resonant ender** is a fluid obtained by melting [ender
 pearls](https://minecraft.gamepedia.com/Ender_Pearl) in a [magma
-crucible](/docs/magma-crucible/).
+crucible](/docs/thermal-expansion/magma-crucible/).
 
 
 Obtaining
@@ -79,6 +79,6 @@ Trivia
 
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
-  installed, resonant ender can be mixed with molten [lead](/docs/lead-ingot/)
-  and molten [platinum](/docs/platinum-ingot/) in a smeltery to make molten
-  [enderium](/docs/enderium-ingot/).
+  installed, resonant ender can be mixed with molten [lead](/docs/thermal-foundation/lead-ingot/)
+  and molten [platinum](/docs/thermal-foundation/platinum-ingot/) in a smeltery to make molten
+  [enderium](/docs/thermal-foundation/enderium-ingot/).

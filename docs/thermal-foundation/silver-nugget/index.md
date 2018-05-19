@@ -20,7 +20,7 @@ usage-recipes:
 
 
 **Silver nuggets** are raw materials. They are the nugget form of
-[silver](/docs/silver-ingot/).
+[silver](/docs/thermal-foundation/silver-ingot/).
 
 
 Obtaining

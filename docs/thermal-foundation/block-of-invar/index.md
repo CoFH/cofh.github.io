@@ -16,7 +16,7 @@ usage-recipes:
     - ingot-invar-from-block
 ---
 
-**Blocks of invar** are blocks made from [invar ingots](/docs/invar-ingot/).
+**Blocks of invar** are blocks made from [invar ingots](/docs/thermal-foundation/invar-ingot/).
 
 
 Obtaining
@@ -33,7 +33,7 @@ Usage
 -----
 
 ### Storage
-Blocks of invar can be used to store [invar ingots](/docs/invar-ingot/) in a
+Blocks of invar can be used to store [invar ingots](/docs/thermal-foundation/invar-ingot/) in a
 compact way.
 
 ### Mob spawning

@@ -23,7 +23,7 @@ usage-recipes:
 
 
 **Electrum nuggets** are raw materials. They are the nugget form of
-[electrum](/docs/electrum-ingot/).
+[electrum](/docs/thermal-foundation/electrum-ingot/).
 
 
 Obtaining

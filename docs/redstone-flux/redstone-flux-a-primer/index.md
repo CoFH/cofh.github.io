@@ -38,7 +38,7 @@ redstone - its response to heat and particular interactions with various metals.
 Redstone dust at standard temperatures and pressures exists in a stable
 crystalline state. Leading researchers theorize that the ore's formation deep
 underground contributes to this stable structure, possibly through interaction
-with alluvial deposits of [cinnabar](/docs/cinnabar/) - a native form of
+with alluvial deposits of [cinnabar](/docs/thermal-foundation/cinnabar/) - a native form of
 mercury. Further research is required on this mercury-redstone interaction, with
 one researcher commenting that redstone's complex structure makes this problem
 "somewhat like rocket science."
@@ -47,7 +47,7 @@ Exposure to low to moderate levels of heat has no apparent effect on redstone,
 without a proper catalyst in place. However, extreme levels of heat in proper
 conditions where no air is present disrupts the crystalline structure of the
 redstone dust. Upon losing structure, redstone becomes a fluid known as
-[destabilized redstone](/docs/destabilized-redstone/) and will remain fluid at
+[destabilized redstone](/docs/thermal-foundation/destabilized-redstone/) and will remain fluid at
 room temperature. As the extreme pressures required for initial crystal
 formation are not present, this fluid form of redstone will persist even in
 sub-zero temperatures. Given the right temperature and pressure conditions,
@@ -71,7 +71,7 @@ and copper allows for the flow of electrons.
 
 **Silver:** This precious metal, when combined with redstone dust, is able to
 convert heat or electricity into Redstone Flux. Engineering advances have shown
-that a [coil-type geometry](/docs/redstone-transmission-coil/) can be used to
+that a [coil-type geometry](/docs/thermal-foundation/redstone-transmission-coil/) can be used to
 optimize the production and transmission of this Redstone Flux. Essentially,
 silver is most used in the generation of Redstone Flux. The engineering mnemonic
 for this is derived from the chemical abbreviation of silver - Ag - or "A
@@ -79,7 +79,7 @@ Generator."
 
 **Gold:** This precious metal, when combined with redstone dust, is able to
 convert Redstone Flux into heat or magnetism. Engineering advances have shown
-that a [coil-type geometry](/docs/redstone-reception-coil/) can be used to
+that a [coil-type geometry](/docs/thermal-foundation/redstone-reception-coil/) can be used to
 optimize the reception and storage of Redstone Flux. Essentially, gold is most
 used in the reception of Redstone Flux. The engineering mnemonic for this is
 derived from the chemical abbreviation of gold - Au - or "A User."
@@ -97,5 +97,5 @@ unforeseen consequences if exposed to open air or organic substances. It should
 be emphasized that this list is by no means complete, and further research into
 this wondrous phenomenon may yet reveal new interactions. Especially promising
 are the theoretical interactions when Redstone Flux is combined with the
-fundamental fabric of spacetime - [ender](/docs/resonant-ender/). Those theories
+fundamental fabric of spacetime - [ender](/docs/thermal-foundation/resonant-ender/). Those theories
 however, are beyond the scope of this document.

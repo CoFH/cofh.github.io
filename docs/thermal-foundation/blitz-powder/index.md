@@ -25,9 +25,9 @@ usage-recipes:
 
 
 **Blitz powder** is a material that is most commonly obtained from [blitz
-rods](/docs/blitz-rod/). It is the air elemental version of [blaze
+rods](/docs/thermal-foundation/blitz-rod/). It is the air elemental version of [blaze
 powder](https://minecraft.gamepedia.com/Blaze_Powder), and is used to craft
-[aerotheum dust](/docs/aerotheum-dust/).
+[aerotheum dust](/docs/thermal-foundation/aerotheum-dust/).
 
 
 Obtaining
@@ -56,7 +56,7 @@ Usage
 When [brewing](https://minecraft.gamepedia.com/Brewing), blitz powder can be
 added to an [awkward
 potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
-of levitation](/docs/cofh-core-potions/).
+of levitation](/docs/cofh-core/potions/).
 
 ### Compactor ingredient
 {% include recipe-table.html type='compactor' recipes=page.usage-recipes.compactor %}

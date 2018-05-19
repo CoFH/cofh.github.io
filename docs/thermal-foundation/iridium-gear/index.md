@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Iridium gears** are crafting materials made of
-[iridium](/docs/iridium-ingot/). They are currently not used for anything.
+[iridium](/docs/thermal-foundation/iridium-ingot/). They are currently not used for anything.
 
 
 Obtaining

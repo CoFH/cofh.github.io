@@ -17,8 +17,8 @@ recipe-list:
   - red-sandstone
 ---
 
-A **clastic deposition** [augment](/docs/augments/) allows for an [igneous
-extruder](/docs/igneous-extruder/) to produce sedimentary rock, such as
+A **clastic deposition** [augment](/docs/thermal-expansion/augments/) allows for an [igneous
+extruder](/docs/thermal-expansion/igneous-extruder/) to produce sedimentary rock, such as
 [sand](https://minecraft.gamepedia.com/Sand) or
 [gravel](https://minecraft.gamepedia.com/Gravel).
 
@@ -35,12 +35,12 @@ Usage
 
 ### Installation
 A clastic deposition augment can be installed in the Augmentation tab in an
-[igneous extruder](/docs/igneous-extruder/)'s GUI. It is a specialization that
+[igneous extruder](/docs/thermal-expansion/igneous-extruder/)'s GUI. It is a specialization that
 cannot be installed together with other specialization augments.
 
 ### Effects
 An installed clastic deposition augment replaces an [igneous
-extruder](/docs/igneous-extruder/)'s recipe set with [its own](#recipes). This
+extruder](/docs/thermal-expansion/igneous-extruder/)'s recipe set with [its own](#recipes). This
 recipe set consists of producing various types of sedimentary rock.
 
 

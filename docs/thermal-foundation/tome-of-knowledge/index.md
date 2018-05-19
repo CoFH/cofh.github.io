@@ -43,14 +43,14 @@ default).
 ### Essence of Knowledge
 A tome of knowledge converts [experience
 points](https://minecraft.gamepedia.com/Experience) into [essence of
-knowledge](/docs/essence-of-knowledge/) and vice versa. Each experience point is
+knowledge](/docs/thermal-foundation/essence-of-knowledge/) and vice versa. Each experience point is
 worth 20 mB of essence of knowledge.
 
 A tome of knowledge can be filled with essence of knowledge, converting it into
 experience points. Essence of knowledge can also be drained from it, converting
 experience points into the fluid. The item can filled or drained manually by
 using it on blocks that store fluids, or automatically using [fluid
-transposers](/docs/fluid-transposer/) or similar.
+transposers](/docs/thermal-expansion/fluid-transposer/) or similar.
 
 A tome of knowledge can also be filled with [Industrial
 Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)'s
@@ -58,7 +58,7 @@ essence (`essence`) [OpenBlocks](https://www.openmods.info/)'s liquid XP
 (`xpjuice`).
 
 ### Enchantments
-A tome of knowledge can be enchanted with [Holding](/docs/holding/) to increase
+A tome of knowledge can be enchanted with [Holding](/docs/cofh-core/holding/) to increase
 its capacity.
 
 | Holding level | Capacity multiplier |

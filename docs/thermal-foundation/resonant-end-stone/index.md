@@ -17,7 +17,7 @@ usage-recipes:
 
 **Resonant end stone** is a fairly common
 [ore](https://minecraft.gamepedia.com/Ore) that yields [resonant
-clathrate](/docs/resonant-clathrate/) ([resonant ender](/docs/resonant-ender/)).
+clathrate](/docs/thermal-foundation/resonant-clathrate/) ([resonant ender](/docs/thermal-foundation/resonant-ender/)).
 It can be found in the [End](https://minecraft.gamepedia.com/The_End).
 
 
@@ -30,12 +30,12 @@ ore](https://minecraft.gamepedia.com/Coal_Ore).
 
 Resonant end stone must be mined with a [stone
 pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. It drops one piece
-of [resonant clathrate](/docs/resonant-clathrate/) when mined. More clathrate is
+of [resonant clathrate](/docs/thermal-foundation/resonant-clathrate/) when mined. More clathrate is
 dropped if a [Fortune](https://minecraft.gamepedia.com/Fortune) enchanted
 pickaxe is used. The ore block itself can be obtained by mining it with a [Silk
 Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
-When resonant end stone is broken, some [resonant ender](/docs/resonant-ender/)
+When resonant end stone is broken, some [resonant ender](/docs/thermal-foundation/resonant-ender/)
 comes flowing out, which can be dangerous when mining it. This fluid cannot be
 picked up and eventually disappears. If a Silk Touch enchanted pickaxe is used,
 no fluid comes flowing out.
@@ -60,4 +60,4 @@ Trivia
 * Resonant end stone is generated in the world using [CoFH
   World](/docs/cofh-world/) by default. The world generation can be tweaked or
   disabled using CoFH World's
-  [configuration](/docs/world-generator-configuration/).
+  [configuration](/docs/cofh-world/world-generator-configuration/).

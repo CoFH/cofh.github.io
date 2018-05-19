@@ -12,8 +12,8 @@ recipes:
     - augment-dynamo-efficiency
 ---
 
-A **fuel catalyzer** is an [augment](/docs/augments/) that increases the amount
-of energy a [dynamo](/docs/dynamos/) generates from each unit of fuel.
+A **fuel catalyzer** is an [augment](/docs/thermal-expansion/augments/) that increases the amount
+of energy a [dynamo](/docs/thermal-expansion/dynamos/) generates from each unit of fuel.
 
 
 Obtaining
@@ -28,12 +28,12 @@ Usage
 
 ### Installation
 A fuel catalyzer can be installed in the Augmentation tab in a
-[dynamo](/docs/dynamos/)'s GUI. It can be installed multiple times, stacking its
+[dynamo](/docs/thermal-expansion/dynamos/)'s GUI. It can be installed multiple times, stacking its
 effects.
 
 ### Effects
 Installed fuel catalyzers increase the amount of energy a
-[dynamo](/docs/dynamos/) generates from each unit of fuel.
+[dynamo](/docs/thermal-expansion/dynamos/) generates from each unit of fuel.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

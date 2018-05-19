@@ -20,7 +20,7 @@ usage-recipes:
 ![Bronze gear](/assets/images/thermal-foundation/gear-bronze.png){:style="height: 128px"}
 
 
-**Bronze gears** are crafting materials made of [bronze](/docs/bronze-ingot/).
+**Bronze gears** are crafting materials made of [bronze](/docs/thermal-foundation/bronze-ingot/).
 
 
 Obtaining

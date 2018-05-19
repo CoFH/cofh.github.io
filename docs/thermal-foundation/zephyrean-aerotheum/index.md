@@ -20,8 +20,8 @@ usage-recipes:
 
 
 **Zephyrean aerotheum** is the air elemental fluid. It is obtained by melting
-[aerotheum dust](/docs/aerotheum-dust/) in a [magma
-crucible](/docs/magma-crucible/). It is lighter than air and vertically flows up
+[aerotheum dust](/docs/thermal-foundation/aerotheum-dust/) in a [magma
+crucible](/docs/thermal-expansion/magma-crucible/). It is lighter than air and vertically flows up
 instead of down.
 
 
@@ -62,10 +62,10 @@ random direction away from the fluid.
 {% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Reactant Dynamo fuel
-When used together with [petrotheum dust](/docs/petrotheum-dust/) as fuel in a
-[reactant dynamo](/docs/reactant-dynamo/), 100 mB of zephyrean aerotheum yields
+When used together with [petrotheum dust](/docs/thermal-foundation/petrotheum-dust/) as fuel in a
+[reactant dynamo](/docs/thermal-expansion/reactant-dynamo/), 100 mB of zephyrean aerotheum yields
 400,000 RF, or 500,000 RF if an [elemental
-catalyzer](/docs/augment-elemental-catalyzer/) is installed.
+catalyzer](/docs/thermal-expansion/augment-elemental-catalyzer/) is installed.
 
 
 Trivia

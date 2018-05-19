@@ -25,11 +25,11 @@ recipes:
 ---
 
 **Conversion kits** are items used to fully upgrade blocks to a given
-[tier](/docs/tiers/). They can be obtained by combining [upgrade
-kits](/docs/upgrade-kits/).
+[tier](/docs/thermal-foundation/tiers/). They can be obtained by combining [upgrade
+kits](/docs/thermal-foundation/upgrade-kits/).
 
 A creative conversion kit converts a block to its
-[creative](/docs/tiers/#list-of-tiers) version. It cannot be legitimately
+[creative](/docs/thermal-foundation/tiers/#list-of-tiers) version. It cannot be legitimately
 obtained in survival mode.
 
 
@@ -44,6 +44,6 @@ Usage
 -----
 
 ### Upgrading blocks
-When used on an [upgradable block](/docs/tiers/#upgrading), a conversion kit
+When used on an [upgradable block](/docs/thermal-foundation/tiers/#upgrading), a conversion kit
 fully upgrades a block to a certain tier. This works regardless of the block's
 current tier.

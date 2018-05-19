@@ -77,8 +77,8 @@ recipe-list:
 
 
 A **phytogenic insolator**, or **insolator** for short, is a
-[machine](/docs/machines/) that grows and multiplies plants using
-[water](https://minecraft.gamepedia.com/Water), [fertilizer](/docs/phyto-gro/)
+[machine](/docs/thermal-expansion/machines/) that grows and multiplies plants using
+[water](https://minecraft.gamepedia.com/Water), [fertilizer](/docs/thermal-foundation/phyto-gro/)
 and simulated sunlight.
 
 
@@ -95,8 +95,8 @@ this can be much slower.
 
 ### Upgrading
 A phytogenic insolator is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -171,11 +171,11 @@ still processing an item, it will finish processing that item before stopping.
 
 ### Security
 A phytogenic insolator can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A phytogenic insolator's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other insolators.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other insolators.
 
 ### Light source
 When a phytogenic insolator is active, it emits a light level of 14.
@@ -184,7 +184,7 @@ When a phytogenic insolator is active, it emits a light level of 14.
 Tiers
 -----
 
-Phytogenic insolators come in five [tiers](/docs/tiers/).
+Phytogenic insolators come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -203,7 +203,7 @@ Phytogenic insolators come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-A phytogenic insolator can have [augments](/docs/augments/) installed to improve
+A phytogenic insolator can have [augments](/docs/thermal-expansion/augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic insolator cannot be
 augmented.

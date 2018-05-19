@@ -1,5 +1,5 @@
 name: Induction Smelter
-site: cofh
+site: docs-te
 url: induction-smelter/
 with-energy: true
 recipes:
@@ -396,7 +396,7 @@ recipes:
         amount: 2
   hardened-glass-metal:
     results:
-      - html: '<a href="/docs/hardened-glass/">Metal Hardened Glass</a>'
+      - html: '<a href="/docs/thermal-foundation/hardened-glass/">Metal Hardened Glass</a>'
       - item: slag-rich
     ingredients:
       - item-group: hardened-glass

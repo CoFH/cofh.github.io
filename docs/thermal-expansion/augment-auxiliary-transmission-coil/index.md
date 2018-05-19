@@ -12,8 +12,8 @@ recipes:
     - augment-dynamo-power
 ---
 
-An **auxiliary transmission coil** is an [augment](/docs/augments/) that
-increases the maximum power output of a [dynamo](/docs/dynamos/), thereby
+An **auxiliary transmission coil** is an [augment](/docs/thermal-expansion/augments/) that
+increases the maximum power output of a [dynamo](/docs/thermal-expansion/dynamos/), thereby
 increasing its energy production speed.
 
 
@@ -29,11 +29,11 @@ Usage
 
 ### Installation
 An auxiliary transmission coil can be installed in the Augmentation tab in a
-[dynamo](/docs/dynamos/)'s GUI. It can be installed multiple times, stacking its
+[dynamo](/docs/thermal-expansion/dynamos/)'s GUI. It can be installed multiple times, stacking its
 effects.
 
 ### Effects
-Installed auxiliary transmission coils increase a [dynamo](/docs/dynamos/)'s
+Installed auxiliary transmission coils increase a [dynamo](/docs/thermal-expansion/dynamos/)'s
 maximum power output, thereby increasing its energy production speed.
 
 {::options parse_block_html="true" /}

@@ -15,8 +15,8 @@ recipes:
 
 
 A **creature encaptulator** (also known as a **mob catcher**) is a
-[device](/docs/devices/) that captures nearby
-[mobs](https://minecraft.gamepedia.com/Mob) using [morbs](/docs/morb/).
+[device](/docs/thermal-expansion/devices/) that captures nearby
+[mobs](https://minecraft.gamepedia.com/Mob) using [morbs](/docs/thermal-expansion/morb/).
 
 
 Obtaining
@@ -38,7 +38,7 @@ When placed, a creature encaptulator faces the player. It can face any of the
 four cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 ### Operation
-When empty [morbs](/docs/morb/) are supplied to a creature encaptulator, it will
+When empty [morbs](/docs/thermal-expansion/morb/) are supplied to a creature encaptulator, it will
 begin using them to capture [mobs](https://minecraft.gamepedia.com/Mob) in a
 9x7x9 area. The device attempts to capture mobs every 32 ticks (1.6 seconds). It
 captures up to 4 mobs at a time.
@@ -82,8 +82,8 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 A creature encaptulator can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A creature encaptulator's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other creature encaptulators.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other creature encaptulators.

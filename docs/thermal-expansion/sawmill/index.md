@@ -34,7 +34,7 @@ recipe-list:
 > Better watch your hands...
 
 
-A **sawmill** is a [machine](/docs/machines/) that processes
+A **sawmill** is a [machine](/docs/thermal-expansion/machines/) that processes
 [wood](https://minecraft.gamepedia.com/Wood) into [wood
 planks](https://minecraft.gamepedia.com/Wood_Planks) more efficiently than by
 hand. It can also be used to recycle various wooden things.
@@ -53,8 +53,8 @@ this can be much slower.
 
 ### Upgrading
 A sawmill is initially at the lowest [tier](#tiers) (basic). It can be upgraded
-to higher tiers using [upgrade kits](/docs/upgrade-kits/) and [conversion
-kits](/docs/conversion-kits/).
+to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and [conversion
+kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -72,7 +72,7 @@ consumed for an item, the input is consumed and the output is placed in the
 primary output slot. A secondary output may be produced when processing certain
 items, which is placed in the secondary output slot.
 
-When installed, a [resin funnel](/docs/augment-resin-funnel/) makes a sawmill
+When installed, a [resin funnel](/docs/thermal-expansion/augment-resin-funnel/) makes a sawmill
 produce fluid byproducts, which are placed in an added output tank.
 
 The speed at which a sawmill processes items depends on how much energy it can
@@ -123,18 +123,18 @@ When a sawmill must stop working due to a redstone signal and is still
 processing an item, it will finish processing that item before stopping.
 
 ### Security
-A sawmill can have a [signalum security lock](/docs/signalum-security-lock/)
+A sawmill can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Redprints
-A sawmill's configuration can be saved on a [redprint](/docs/redprint/) to be
+A sawmill's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
 copied to other sawmills.
 
 
 Tiers
 -----
 
-Sawmills come in five [tiers](/docs/tiers/).
+Sawmills come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -153,7 +153,7 @@ Sawmills come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-A sawmill can have [augments](/docs/augments/) installed to improve certain
+A sawmill can have [augments](/docs/thermal-expansion/augments/) installed to improve certain
 properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic sawmill cannot be
 augmented.

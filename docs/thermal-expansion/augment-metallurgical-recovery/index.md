@@ -11,10 +11,10 @@ recipes:
     - augment-machine-smelter-flux
 ---
 
-A **metallurgical recovery** [augment](/docs/augments/) provides a chance for an
-[induction smelter](/docs/induction-smelter/) to not consume metallurgical
+A **metallurgical recovery** [augment](/docs/thermal-expansion/augments/) provides a chance for an
+[induction smelter](/docs/thermal-expansion/induction-smelter/) to not consume metallurgical
 fluxes like [sand](https://minecraft.gamepedia.com/Sand) and [rich
-slag](/docs/rich-slag/).
+slag](/docs/thermal-foundation/rich-slag/).
 
 
 Obtaining
@@ -29,19 +29,19 @@ Usage
 
 ### Installation
 A metallurgical recovery augment can be installed in the Augmentation tab in an
-[induction smelter](/docs/induction-smelter/)'s GUI. It can be installed
+[induction smelter](/docs/thermal-expansion/induction-smelter/)'s GUI. It can be installed
 multiple times, stacking its effects.
 
 ### Effects
 Installed metallurgical recovery augments provide a chance for an [induction
-smelter](/docs/induction-smelter/) to not consume a metallurgical flux after an
+smelter](/docs/thermal-expansion/induction-smelter/) to not consume a metallurgical flux after an
 operation. However, they also increase the amount of energy required per
 operation.
 
 Metallurgical fluxes are items that are commonly used in smelter recipes:
 [sand](https://minecraft.gamepedia.com/Sand), [soul
-sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/rich-slag/)
-and [cinnabar](/docs/cinnabar/).
+sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/thermal-foundation/rich-slag/)
+and [cinnabar](/docs/thermal-foundation/cinnabar/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

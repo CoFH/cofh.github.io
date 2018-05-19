@@ -16,7 +16,7 @@ usage-recipes:
     - ingot-iridium-from-block
 ---
 
-**Blocks of iridium** are blocks made from [iridium ingots](/docs/iridium-ingot/).
+**Blocks of iridium** are blocks made from [iridium ingots](/docs/thermal-foundation/iridium-ingot/).
 
 
 Obtaining
@@ -33,7 +33,7 @@ Usage
 -----
 
 ### Storage
-Blocks of iridium can be used to store [iridium ingots](/docs/iridium-ingot/) in
+Blocks of iridium can be used to store [iridium ingots](/docs/thermal-foundation/iridium-ingot/) in
 a compact way.
 
 ### Light source

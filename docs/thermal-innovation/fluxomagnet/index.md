@@ -41,8 +41,8 @@ Usage
 
 ### Charging
 A fluxomagnet can be charged with [Redstone Flux](/docs/redstone-flux/) using an
-[energetic infuser](/docs/energetic-infuser/), a [flux
-capacitor](/docs/flux-capacitor/) or similar.
+[energetic infuser](/docs/thermal-expansion/energetic-infuser/), a [flux
+capacitor](/docs/thermal-expansion/flux-capacitor/) or similar.
 
 A basic fluxomagnet can hold up to 40,000 RF and can be charged at up to 1,000
 RF/t. This can be increased by upgrading the magnet to a higher [tier](#tiers).
@@ -98,7 +98,7 @@ item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
 worth of [water](https://minecraft.gamepedia.com/Water)).
 
 ### Enchantments
-A fluxomagnet can be enchanted with [Holding](/docs/holding/) to increase its
+A fluxomagnet can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -113,7 +113,7 @@ capacity.
 Tiers
 -----
 
-Fluxomagnets come in six [tiers](/docs/tiers/).
+Fluxomagnets come in six [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

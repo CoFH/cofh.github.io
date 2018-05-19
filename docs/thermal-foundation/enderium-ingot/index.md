@@ -50,16 +50,16 @@ usage-recipes:
 ![Enderium ingot](/assets/images/thermal-foundation/ingot-enderium.png){:style="height: 128px"}
 
 
-**Enderium ingots** are raw materials made from [lead](/docs/lead-ingot/),
-[platinum](/docs/platinum-ingot/) and [resonant ender](/docs/resonant-ender/).
+**Enderium ingots** are raw materials made from [lead](/docs/thermal-foundation/lead-ingot/),
+[platinum](/docs/thermal-foundation/platinum-ingot/) and [resonant ender](/docs/thermal-foundation/resonant-ender/).
 
 
 Obtaining
 ---------
 
 Enderium is an advanced alloy that can be obtained by crafting [enderium
-blend](/docs/enderium-blend/). The blend can only be smelted into ingots in an
-[induction smelter](/docs/induction-smelter/).
+blend](/docs/thermal-foundation/enderium-blend/). The blend can only be smelted into ingots in an
+[induction smelter](/docs/thermal-expansion/induction-smelter/).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -93,5 +93,5 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, enderium can be molten down in a smeltery. Molten enderium can also
-  be made by mixing molten [lead](/docs/lead-ingot/), molten
-  [platinum](/docs/platinum-ingot/) and [resonant ender](/docs/resonant-ender/).
+  be made by mixing molten [lead](/docs/thermal-foundation/lead-ingot/), molten
+  [platinum](/docs/thermal-foundation/platinum-ingot/) and [resonant ender](/docs/thermal-foundation/resonant-ender/).

@@ -31,7 +31,7 @@ usage-recipes:
 ---
 
 **Upgrade kits** are items used to incrementally upgrade blocks to higher
-[tiers](/docs/tiers/).
+[tiers](/docs/thermal-foundation/tiers/).
 
 
 Obtaining
@@ -45,13 +45,13 @@ Usage
 -----
 
 ### Upgrading blocks
-When used on an [upgradable block](/docs/tiers/#upgrading), an upgrade kit
-upgrades the block by one [tier](/docs/tiers/). This only works on blocks that
+When used on an [upgradable block](/docs/thermal-foundation/tiers/#upgrading), an upgrade kit
+upgrades the block by one [tier](/docs/thermal-foundation/tiers/). This only works on blocks that
 are at the immediately preceding tier.
 
 ### Crafting ingredients
-Upgrade kits can be combined into [conversion kits](/docs/conversion-kits/),
-which fully upgrade blocks to a certain [tier](/docs/tiers/) regardless of their
+Upgrade kits can be combined into [conversion kits](/docs/thermal-foundation/conversion-kits/),
+which fully upgrade blocks to a certain [tier](/docs/thermal-foundation/tiers/) regardless of their
 current tier.
 
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

@@ -23,7 +23,7 @@ usage-recipes:
 
 
 **Bronze blend** is a raw material. It is the dust form of
-[bronze](/docs/bronze-ingot/).
+[bronze](/docs/thermal-foundation/bronze-ingot/).
 
 
 Obtaining

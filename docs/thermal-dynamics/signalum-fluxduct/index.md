@@ -22,7 +22,7 @@ usage-recipes:
     - fluxduct-resonant-three
 ---
 
-A **signalum fluxduct** is a [fluxduct](/docs/fluxducts/) of the fourth tier.
+A **signalum fluxduct** is a [fluxduct](/docs/thermal-dynamics/fluxducts/) of the fourth tier.
 
 
 Obtaining
@@ -40,7 +40,7 @@ Usage
 
 ### Energy transfer
 A signalum fluxduct works the same way as most other
-[fluxducts](/docs/fluxducts/). It transfers up to 16,000 RF/t per connection.
+[fluxducts](/docs/thermal-dynamics/fluxducts/). It transfers up to 16,000 RF/t per connection.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

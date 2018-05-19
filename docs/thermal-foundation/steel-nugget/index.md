@@ -16,7 +16,7 @@ usage-recipes:
 
 
 **Steel nuggets** are raw materials. They are the nugget form of
-[steel](/docs/steel-ingot/).
+[steel](/docs/thermal-foundation/steel-ingot/).
 
 
 Obtaining

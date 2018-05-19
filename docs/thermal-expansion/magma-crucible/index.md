@@ -53,7 +53,7 @@ recipe-list:
 > Yes, it can make lava. You monster.
 
 
-A **magma crucible**, or **crucible** for short, is a [machine](/docs/machines/)
+A **magma crucible**, or **crucible** for short, is a [machine](/docs/thermal-expansion/machines/)
 that melts items into fluids.
 
 
@@ -70,8 +70,8 @@ this can be much slower.
 
 ### Upgrading
 A magma crucible is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -137,10 +137,10 @@ processing an item, it will finish processing that item before stopping.
 
 ### Security
 A magma crucible can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A magma crucible's configuration can be saved on a [redprint](/docs/redprint/)
+A magma crucible's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
 to be copied to other crucibles.
 
 ### Light source
@@ -150,7 +150,7 @@ When a magma crucible is active, it emits a light level of 14.
 Tiers
 -----
 
-Magma crucibles come in five [tiers](/docs/tiers/).
+Magma crucibles come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -169,7 +169,7 @@ Magma crucibles come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-A magma crucible can have [augments](/docs/augments/) installed to improve
+A magma crucible can have [augments](/docs/thermal-expansion/augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic crucible cannot be
 augmented.

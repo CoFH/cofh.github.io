@@ -16,7 +16,7 @@ usage-recipes:
     - ingot-bronze-from-block
 ---
 
-**Blocks of bronze** are blocks made from [bronze ingots](/docs/bronze-ingot/).
+**Blocks of bronze** are blocks made from [bronze ingots](/docs/thermal-foundation/bronze-ingot/).
 
 
 Obtaining
@@ -33,7 +33,7 @@ Usage
 -----
 
 ### Storage
-Blocks of bronze can be used to store [bronze ingots](/docs/bronze-ingot/) in a
+Blocks of bronze can be used to store [bronze ingots](/docs/thermal-foundation/bronze-ingot/) in a
 compact way.
 
 ### Mob spawning

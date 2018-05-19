@@ -24,7 +24,7 @@ recipe-list:
 
 
 An **energetic infuser** (also known as a **charger**) is a
-[machine](/docs/machines/) that charges items with [Redstone
+[machine](/docs/thermal-expansion/machines/) that charges items with [Redstone
 Flux](/docs/redstone-flux/).
 
 
@@ -41,8 +41,8 @@ this can be much slower.
 
 ### Upgrading
 An energetic infuser is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -64,8 +64,8 @@ to process. When enough energy has been consumed for an item, the input is
 consumed and the output is placed in the output slot.
 
 When installed, a [flux reconstruction
-augment](/docs/augment-flux-reconstruction/) allows an energetic infuser to
-consume [essence of knowledge](/docs/essence-of-knowledge/), which is stored in
+augment](/docs/thermal-expansion/augment-flux-reconstruction/) allows an energetic infuser to
+consume [essence of knowledge](/docs/thermal-foundation/essence-of-knowledge/), which is stored in
 an added input tank.
 
 The speed at which an energetic infuser charges items depends on how much energy
@@ -121,11 +121,11 @@ still processing an item, it will finish processing that item before stopping.
 
 ### Security
 An energetic infuser can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An energetic infuser's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other energetic infusers.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other energetic infusers.
 
 ### Light source
 When an energetic infuser is active, it emits a light level of 7.
@@ -134,7 +134,7 @@ When an energetic infuser is active, it emits a light level of 7.
 Tiers
 -----
 
-Energetic infusers come in five [tiers](/docs/tiers/).
+Energetic infusers come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -153,7 +153,7 @@ Energetic infusers come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-An energetic infuser can have [augments](/docs/augments/) installed to improve
+An energetic infuser can have [augments](/docs/thermal-expansion/augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic energetic infuser
 cannot be augmented.

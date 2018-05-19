@@ -30,7 +30,7 @@ recipe-list:
 
 
 An **igneous extruder**, or **extruder** for short, is a
-[machine](/docs/machines/) that mixes hot and cold fluids to create items.
+[machine](/docs/thermal-expansion/machines/) that mixes hot and cold fluids to create items.
 
 
 Obtaining
@@ -46,8 +46,8 @@ this can be much slower.
 
 ### Upgrading
 An igneous extruder is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -112,11 +112,11 @@ producing an item, it will finish producing that item before stopping.
 
 ### Security
 An igneous extruder can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An igneous extruder's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other extruders.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other extruders.
 
 ### Light source
 When an igneous extruder is active, it emits a light level of 14.
@@ -125,7 +125,7 @@ When an igneous extruder is active, it emits a light level of 14.
 Tiers
 -----
 
-Igneous extruders come in five [tiers](/docs/tiers/).
+Igneous extruders come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -144,7 +144,7 @@ Igneous extruders come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-An igneous extruder can have [augments](/docs/augments/) installed to improve
+An igneous extruder can have [augments](/docs/thermal-expansion/augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic extruder cannot be
 augmented.

@@ -19,7 +19,7 @@ augments:
 ---
 
 A **sequential fabricator** (also known as a **crafter**) is a
-[machine](/docs/machines/) that
+[machine](/docs/thermal-expansion/machines/) that
 [crafts](https://minecraft.gamepedia.com/Crafting) items.
 
 
@@ -36,8 +36,8 @@ this can be much slower.
 
 ### Upgrading
 A sequential fabricator is initially at the lowest [tier](#tiers) (basic). It
-can be upgraded to higher tiers using [upgrade kits](/docs/upgrade-kits/) and
-[conversion kits](/docs/conversion-kits/).
+can be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -58,7 +58,7 @@ Flux](/docs/redstone-flux/) to craft items. The machine requires 400 RF per
 operation. When enough energy has been consumed for an operation, the input is
 consumed and the output is placed in the output slot.
 
-When installed, [fluidic fabrication](/docs/augment-fluidic-fabrication/) allows
+When installed, [fluidic fabrication](/docs/thermal-expansion/augment-fluidic-fabrication/) allows
 a sequential fabricator to use fluids, which are stored in an added input tank.
 
 The speed at which a sequential fabricator crafts items depends on how much
@@ -76,7 +76,7 @@ time.
 
 A sequential fabricator can automatically transfer items out of any sides that
 directly correspond to one of its output slots. This is called auto-output. If
-[pattern validation](/docs/augment-pattern-validation/) is installed, it can
+[pattern validation](/docs/thermal-expansion/augment-pattern-validation/) is installed, it can
 also transfer items from adjacent inventories into any sides that directly
 correspond to its input slots. This is called auto-input. Auto-output and
 auto-input occur whenever the machine finishes crafting an item, or every 32
@@ -113,11 +113,11 @@ still crafting an item, it will finish crafting that item before stopping.
 
 ### Security
 A sequential fabricator can have a [signalum security
-lock](/docs/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A sequential fabricator's configuration can be saved on a
-[redprint](/docs/redprint/) to be copied to other sequential fabricators.
+[redprint](/docs/thermal-foundation/redprint/) to be copied to other sequential fabricators.
 
 ### Light source
 When a sequential fabricator is active, it emits a light level of 7.
@@ -126,7 +126,7 @@ When a sequential fabricator is active, it emits a light level of 7.
 Tiers
 -----
 
-Sequential fabricators come in five [tiers](/docs/tiers/).
+Sequential fabricators come in five [tiers](/docs/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -145,7 +145,7 @@ Sequential fabricators come in five [tiers](/docs/tiers/).
 Augmentation
 ------------
 
-A sequential fabricator can have [augments](/docs/augments/) installed to
+A sequential fabricator can have [augments](/docs/thermal-expansion/augments/) installed to
 improve certain properties or to change how it works. The amount of augments
 that can be installed depends on the machine's [tier](#tiers). A basic
 sequential fabricator cannot be augmented.
