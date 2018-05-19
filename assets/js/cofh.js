@@ -43,11 +43,7 @@ $(function() {
         for (var i = 0; i < pages.length; i++) {
             if (pages[i].url.search($anchor.attr('href').split('/#')[0]) >= 0) return;
         }
-        $anchor
-            .addClass('uk-text-danger')
-            .click(function(event) {
-                event.preventDefault();
-            });
+        $anchor.addClass('uk-text-danger');
     });
 
     $('.cofh-search').on('selectitem.uk.autocomplete', function(event, data) {
