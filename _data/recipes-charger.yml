@@ -1,27 +1,27 @@
 name: Energetic Infuser
-site: docs-te
+site: docs-te5
 url: energetic-infuser/
 with-energy: true
 recipes:
   aqua-chow-fluxed:
     results:
-      - item: aqua-chow-fluxed
+      - item: tf2-aqua-chow-fluxed
     ingredients:
-      - item: aqua-chow-rich
+      - item: tf2-aqua-chow-rich
     energy: 8000
     data:
       input:
-        item: [aqua-chow-rich]
+        item: [tf2-aqua-chow-rich]
       output:
-        item: [aqua-chow-fluxed]
+        item: [tf2-aqua-chow-fluxed]
   phyto-gro-fluxed:
     results:
-      - item: phyto-gro-fluxed
+      - item: tf2-phyto-gro-fluxed
     ingredients:
-      - item: phyto-gro-rich
+      - item: tf2-phyto-gro-rich
     energy: 8000
     data:
       input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       output:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]

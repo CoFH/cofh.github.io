@@ -1,1682 +1,1682 @@
 name: Pulverizer
-site: docs-te
+site: docs-te5
 url: pulverizer/
 with-energy: true
 recipes:
   basalz-powder:
     results:
-      - item: basalz-powder
-      - item: dust-obsidian
+      - item: tf2-basalz-powder
+      - item: tf2-dust-obsidian
     ingredients:
-      - item: basalz-rod
+      - item: tf2-basalz-rod
     energy: 3000
     data:
       input:
-        item: [basalz-rod]
+        item: [tf2-basalz-rod]
       primary-output:
-        item: [basalz-powder]
+        item: [tf2-basalz-powder]
         amount: 4
       secondary-output:
-        item: [dust-obsidian]
+        item: [tf2-dust-obsidian]
       secondary-chance: 50
   blaze-powder:
     results:
-      - item: blaze-powder
-      - item: sulfur
+      - item: mc-blaze-powder
+      - item: tf2-sulfur
     ingredients:
-      - item: blaze-rod
+      - item: mc-blaze-rod
     energy: 3000
     data:
       input:
-        item: [blaze-rod]
+        item: [mc-blaze-rod]
       primary-output:
-        item: [blaze-powder]
+        item: [mc-blaze-powder]
         amount: 4
       secondary-output:
-        item: [sulfur]
+        item: [tf2-sulfur]
       secondary-chance: 50
   blitz-powder:
     results:
-      - item: blitz-powder
-      - item: niter
+      - item: tf2-blitz-powder
+      - item: tf2-niter
     ingredients:
-      - item: blitz-rod
+      - item: tf2-blitz-rod
     energy: 3000
     data:
       input:
-        item: [blitz-rod]
+        item: [tf2-blitz-rod]
       primary-output:
-        item: [blitz-powder]
+        item: [tf2-blitz-powder]
         amount: 4
       secondary-output:
-        item: [niter]
+        item: [tf2-niter]
       secondary-chance: 50
   blizz-powder:
     results:
-      - item: blizz-powder
-      - item: snowball
+      - item: tf2-blizz-powder
+      - item: mc-snowball
     ingredients:
-      - item: blizz-rod
+      - item: tf2-blizz-rod
     energy: 3000
     data:
       input:
-        item: [blizz-rod]
+        item: [tf2-blizz-rod]
       primary-output:
-        item: [blizz-powder]
+        item: [tf2-blizz-powder]
         amount: 4
       secondary-output:
-        item: [snowball]
+        item: [mc-snowball]
       secondary-chance: 50
   bone-meal:
     results:
-      - item: bone-meal
+      - item: mc-bone-meal
     ingredients:
-      - item: bone
+      - item: mc-bone
     energy: 3000
     data:
       input:
-        item: [bone]
+        item: [mc-bone]
       primary-output:
-        item: [bone-meal]
+        item: [mc-bone-meal]
         amount: 6
   dust-metal-from-ingot:
     results:
-      - item-group: dust-metal
+      - item-group: tf2-dust-metal
     ingredients:
-      - item-group: ingot-metal
+      - item-group: ingot-metal-with-tf2
     energy: 2000
     data:
       input:
-        item-group: ingot-metal
+        item-group: ingot-metal-with-tf2
       primary-output:
-        item-group: dust-metal
+        item-group: tf2-dust-metal
   dust-aluminum:
     results:
-      - item: dust-aluminum
+      - item: tf2-dust-aluminum
     ingredients:
-      - item: ingot-aluminum
+      - item: tf2-ingot-aluminum
     energy: 2000
     data:
       input:
-        item: [ingot-aluminum]
+        item: [tf2-ingot-aluminum]
       primary-output:
-        item: [dust-aluminum]
+        item: [tf2-dust-aluminum]
   dust-constantan:
     results:
-      - item: dust-constantan
+      - item: tf2-dust-constantan
     ingredients:
-      - item: ingot-constantan
+      - item: tf2-ingot-constantan
     energy: 2000
     data:
       input:
-        item: [ingot-constantan]
+        item: [tf2-ingot-constantan]
       primary-output:
-        item: [dust-constantan]
+        item: [tf2-dust-constantan]
   dust-bronze:
     results:
-      - item: dust-bronze
+      - item: tf2-dust-bronze
     ingredients:
-      - item: ingot-bronze
+      - item: tf2-ingot-bronze
     energy: 2000
     data:
       input:
-        item: [ingot-bronze]
+        item: [tf2-ingot-bronze]
       primary-output:
-        item: [dust-bronze]
+        item: [tf2-dust-bronze]
   dust-copper:
     results:
-      - item: dust-copper
+      - item: tf2-dust-copper
     ingredients:
-      - item: ingot-copper
+      - item: tf2-ingot-copper
     energy: 2000
     data:
       input:
-        item: [ingot-copper]
+        item: [tf2-ingot-copper]
       primary-output:
-        item: [dust-copper]
+        item: [tf2-dust-copper]
   dust-charcoal:
     results:
-      - item: dust-charcoal
+      - item: tf2-dust-charcoal
     ingredients:
-      - item: charcoal
+      - item: mc-charcoal
     energy: 2000
     data:
       input:
-        item: [charcoal]
+        item: [mc-charcoal]
       primary-output:
-        item: [dust-charcoal]
+        item: [tf2-dust-charcoal]
   dust-coal:
     results:
-      - item: dust-coal
-      - item: sulfur
+      - item: tf2-dust-coal
+      - item: tf2-sulfur
     ingredients:
-      - item: coal
+      - item: mc-coal
     energy: 2000
     data:
       input:
-        item: [coal]
+        item: [mc-coal]
       primary-output:
-        item: [dust-coal]
+        item: [tf2-dust-coal]
       secondary-output:
-        item: [sulfur]
+        item: [tf2-sulfur]
       secondary-chance: 15
   dust-electrum:
     results:
-      - item: dust-electrum
+      - item: tf2-dust-electrum
     ingredients:
-      - item: ingot-electrum
+      - item: tf2-ingot-electrum
     energy: 2000
     data:
       input:
-        item: [ingot-electrum]
+        item: [tf2-ingot-electrum]
       primary-output:
-        item: [dust-electrum]
+        item: [tf2-dust-electrum]
   dust-enderium:
     results:
-      - item: dust-enderium
+      - item: tf2-dust-enderium
     ingredients:
-      - item: ingot-enderium
+      - item: tf2-ingot-enderium
     energy: 2000
     data:
       input:
-        item: [ingot-enderium]
+        item: [tf2-ingot-enderium]
       primary-output:
-        item: [dust-enderium]
+        item: [tf2-dust-enderium]
   dust-fluxed-electrum:
     results:
-      - item: dust-fluxed-electrum
+      - item: ra-dust-fluxed-electrum
     ingredients:
-      - item: ingot-fluxed-electrum
+      - item: ra-ingot-fluxed-electrum
     energy: 2000
     data:
       input:
-        item: [ingot-fluxed-electrum]
+        item: [ra-ingot-fluxed-electrum]
       primary-output:
-        item: [dust-fluxed-electrum]
+        item: [ra-dust-fluxed-electrum]
   dust-gold:
     results:
-      - item: dust-gold
+      - item: tf2-dust-gold
     ingredients:
-      - item: ingot-gold
+      - item: mc-ingot-gold
     energy: 2000
     data:
       input:
-        item: [ingot-gold]
+        item: [mc-ingot-gold]
       primary-output:
-        item: [dust-gold]
+        item: [tf2-dust-gold]
   dust-invar:
     results:
-      - item: dust-invar
+      - item: tf2-dust-invar
     ingredients:
-      - item: ingot-invar
+      - item: tf2-ingot-invar
     energy: 2000
     data:
       input:
-        item: [ingot-invar]
+        item: [tf2-ingot-invar]
       primary-output:
-        item: [dust-invar]
+        item: [tf2-dust-invar]
   dust-iridium:
     results:
-      - item: dust-iridium
+      - item: tf2-dust-iridium
     ingredients:
-      - item: ingot-iridium
+      - item: tf2-ingot-iridium
     energy: 2000
     data:
       input:
-        item: [ingot-iridium]
+        item: [tf2-ingot-iridium]
       primary-output:
-        item: [dust-iridium]
+        item: [tf2-dust-iridium]
   dust-iron:
     results:
-      - item: dust-iron
+      - item: tf2-dust-iron
     ingredients:
-      - item: ingot-iron
+      - item: mc-ingot-iron
     energy: 2000
     data:
       input:
-        item: [ingot-iron]
+        item: [mc-ingot-iron]
       primary-output:
-        item: [dust-iron]
+        item: [tf2-dust-iron]
   dust-lead:
     results:
-      - item: dust-lead
+      - item: tf2-dust-lead
     ingredients:
-      - item: ingot-lead
+      - item: tf2-ingot-lead
     energy: 2000
     data:
       input:
-        item: [ingot-lead]
+        item: [tf2-ingot-lead]
       primary-output:
-        item: [dust-lead]
+        item: [tf2-dust-lead]
   dust-lumium:
     results:
-      - item: dust-lumium
+      - item: tf2-dust-lumium
     ingredients:
-      - item: ingot-lumium
+      - item: tf2-ingot-lumium
     energy: 2000
     data:
       input:
-        item: [ingot-lumium]
+        item: [tf2-ingot-lumium]
       primary-output:
-        item: [dust-lumium]
+        item: [tf2-dust-lumium]
   dust-mithril:
     results:
-      - item: dust-mithril
+      - item: tf2-dust-mithril
     ingredients:
-      - item: ingot-mithril
+      - item: tf2-ingot-mithril
     energy: 2000
     data:
       input:
-        item: [ingot-mithril]
+        item: [tf2-ingot-mithril]
       primary-output:
-        item: [dust-mithril]
+        item: [tf2-dust-mithril]
   dust-nickel:
     results:
-      - item: dust-nickel
+      - item: tf2-dust-nickel
     ingredients:
-      - item: ingot-nickel
+      - item: tf2-ingot-nickel
     energy: 2000
     data:
       input:
-        item: [ingot-nickel]
+        item: [tf2-ingot-nickel]
       primary-output:
-        item: [dust-nickel]
+        item: [tf2-dust-nickel]
   dust-obsidian:
     results:
-      - item: dust-obsidian
+      - item: tf2-dust-obsidian
     ingredients:
-      - item: obsidian
+      - item: mc-obsidian
     energy: 6000
     data:
       input:
-        item: [obsidian]
+        item: [mc-obsidian]
       primary-output:
-        item: [dust-obsidian]
+        item: [tf2-dust-obsidian]
         amount: 4
   dust-platinum:
     results:
-      - item: dust-platinum
+      - item: tf2-dust-platinum
     ingredients:
-      - item: ingot-platinum
+      - item: tf2-ingot-platinum
     energy: 2000
     data:
       input:
-        item: [ingot-platinum]
+        item: [tf2-ingot-platinum]
       primary-output:
-        item: [dust-platinum]
+        item: [tf2-dust-platinum]
   dust-signalum:
     results:
-      - item: dust-signalum
+      - item: tf2-dust-signalum
     ingredients:
-      - item: ingot-signalum
+      - item: tf2-ingot-signalum
     energy: 2000
     data:
       input:
-        item: [ingot-signalum]
+        item: [tf2-ingot-signalum]
       primary-output:
-        item: [dust-signalum]
+        item: [tf2-dust-signalum]
   dust-silver:
     results:
-      - item: dust-silver
+      - item: tf2-dust-silver
     ingredients:
-      - item: ingot-silver
+      - item: tf2-ingot-silver
     energy: 2000
     data:
       input:
-        item: [ingot-silver]
+        item: [tf2-ingot-silver]
       primary-output:
-        item: [dust-silver]
+        item: [tf2-dust-silver]
   dust-steel:
     results:
-      - item: dust-steel
+      - item: tf2-dust-steel
     ingredients:
-      - item: ingot-steel
+      - item: tf2-ingot-steel
     energy: 2000
     data:
       input:
-        item: [ingot-steel]
+        item: [tf2-ingot-steel]
       primary-output:
-        item: [dust-steel]
+        item: [tf2-dust-steel]
   dust-tin:
     results:
-      - item: dust-tin
+      - item: tf2-dust-tin
     ingredients:
-      - item: ingot-tin
+      - item: tf2-ingot-tin
     energy: 2000
     data:
       input:
-        item: [ingot-tin]
+        item: [tf2-ingot-tin]
       primary-output:
-        item: [dust-tin]
+        item: [tf2-dust-tin]
   flint:
     results:
-      - item: flint
-      - item: sand
+      - item: mc-flint
+      - item: mc-sand
     ingredients:
-      - item: gravel
+      - item: mc-gravel
     energy: 4000
     data:
       input:
-        item: [gravel]
+        item: [mc-gravel]
       primary-output:
-        item: [flint]
+        item: [mc-flint]
       secondary-output:
-        item: [sand]
+        item: [mc-sand]
       secondary-chance: 15
   flower-processing-light-blue-orchid:
     results:
-      - item: light-blue-dye
+      - item: mc-light-blue-dye
     ingredients:
-      - item: blue-orchid
+      - item: mc-flower-blue-orchid
     energy: 2000
     data:
       input:
-        item: [blue-orchid]
+        item: [mc-flower-blue-orchid]
       primary-output:
-        item: [light-blue-dye]
+        item: [mc-light-blue-dye]
         amount: 4
   flower-processing-light-gray-azure-bluet:
     results:
-      - item: light-gray-dye
+      - item: mc-light-gray-dye
     ingredients:
-      - item: azure-bluet
+      - item: mc-flower-azure-bluet
     energy: 2000
     data:
       input:
-        item: [azure-bluet]
+        item: [mc-flower-azure-bluet]
       primary-output:
-        item: [light-gray-dye]
+        item: [mc-light-gray-dye]
         amount: 4
   flower-processing-light-gray-oxeye-daisy:
     results:
-      - item: light-gray-dye
+      - item: mc-light-gray-dye
     ingredients:
-      - item: oxeye-daisy
+      - item: mc-flower-oxeye-daisy
     energy: 2000
     data:
       input:
-        item: [oxeye-daisy]
+        item: [mc-flower-oxeye-daisy]
       primary-output:
-        item: [light-gray-dye]
+        item: [mc-light-gray-dye]
         amount: 4
   flower-processing-light-gray-tulip:
     results:
-      - item: light-gray-dye
+      - item: mc-light-gray-dye
     ingredients:
-      - item: white-tulip
+      - item: mc-flower-tulip-white
     energy: 2000
     data:
       input:
-        item: [white-tulip]
+        item: [mc-flower-tulip-white]
       primary-output:
-        item: [light-gray-dye]
+        item: [mc-light-gray-dye]
         amount: 4
   flower-processing-magenta-allium:
     results:
-      - item: magenta-dye
+      - item: mc-magenta-dye
     ingredients:
-      - item: allium
+      - item: mc-flower-allium
     energy: 2000
     data:
       input:
-        item: [allium]
+        item: [mc-flower-allium]
       primary-output:
-        item: [magenta-dye]
+        item: [mc-magenta-dye]
         amount: 4
   flower-processing-magenta-lilac:
     results:
-      - item: magenta-dye
+      - item: mc-magenta-dye
     ingredients:
-      - item: lilac
+      - item: mc-flower-lilac
     energy: 2000
     data:
       input:
-        item: [lilac]
+        item: [mc-flower-lilac]
       primary-output:
-        item: [magenta-dye]
+        item: [mc-magenta-dye]
         amount: 4
   flower-processing-orange-tulip:
     results:
-      - item: orange-dye
+      - item: mc-orange-dye
     ingredients:
-      - item: orange-tulip
+      - item: mc-flower-tulip-orange
     energy: 2000
     data:
       input:
-        item: [orange-tulip]
+        item: [mc-flower-tulip-orange]
       primary-output:
-        item: [orange-dye]
+        item: [mc-orange-dye]
         amount: 4
   flower-processing-pink-peony:
     results:
-      - item: pink-dye
+      - item: mc-pink-dye
     ingredients:
-      - item: peony
+      - item: mc-flower-peony
     energy: 2000
     data:
       input:
-        item: [peony]
+        item: [mc-flower-peony]
       primary-output:
-        item: [pink-dye]
+        item: [mc-pink-dye]
         amount: 4
   flower-processing-pink-tulip:
     results:
-      - item: pink-dye
+      - item: mc-pink-dye
     ingredients:
-      - item: pink-tulip
+      - item: mc-flower-tulip-pink
     energy: 2000
     data:
       input:
-        item: [pink-tulip]
+        item: [mc-flower-tulip-pink]
       primary-output:
-        item: [pink-dye]
+        item: [mc-pink-dye]
         amount: 4
   flower-processing-red-poppy:
     results:
-      - item: rose-red
+      - item: mc-rose-red
     ingredients:
-      - item: poppy
+      - item: mc-flower-poppy
     energy: 2000
     data:
       input:
-        item: [poppy]
+        item: [mc-flower-poppy]
       primary-output:
-        item: [rose-red]
+        item: [mc-rose-red]
         amount: 4
   flower-processing-red-rose-bush:
     results:
-      - item: rose-red
+      - item: mc-rose-red
     ingredients:
-      - item: rose-bush
+      - item: mc-flower-rose-bush
     energy: 2000
     data:
       input:
-        item: [rose-bush]
+        item: [mc-flower-rose-bush]
       primary-output:
-        item: [rose-red]
+        item: [mc-rose-red]
         amount: 4
   flower-processing-red-tulip:
     results:
-      - item: rose-red
+      - item: mc-rose-red
     ingredients:
-      - item: red-tulip
+      - item: mc-flower-tulip-red
     energy: 2000
     data:
       input:
-        item: [red-tulip]
+        item: [mc-flower-tulip-red]
       primary-output:
-        item: [rose-red]
+        item: [mc-rose-red]
         amount: 4
   flower-processing-yellow-dandelion:
     results:
-      - item: dandelion-yellow
+      - item: mc-dandelion-yellow
     ingredients:
-      - item: dandelion
+      - item: mc-flower-dandelion
     energy: 2000
     data:
       input:
-        item: [dandelion]
+        item: [mc-flower-dandelion]
       primary-output:
-        item: [dandelion-yellow]
+        item: [mc-dandelion-yellow]
         amount: 4
   flower-processing-yellow-sunflower:
     results:
-      - item: dandelion-yellow
+      - item: mc-dandelion-yellow
     ingredients:
-      - item: sunflower
+      - item: mc-flower-sunflower
     energy: 2000
     data:
       input:
-        item: [sunflower]
+        item: [mc-flower-sunflower]
       primary-output:
-        item: [dandelion-yellow]
+        item: [mc-dandelion-yellow]
         amount: 4
   fluid-ore-processing-ender:
     results:
-      - item: clathrate-ender
+      - item: tf2-clathrate-ender
     ingredients:
-      - item: ore-fluid-ender
+      - item: tf2-ore-fluid-ender
     energy: 4000
     data:
       input:
-        item: [ore-fluid-ender]
+        item: [tf2-ore-fluid-ender]
       primary-output:
-        item: [clathrate-ender]
+        item: [tf2-clathrate-ender]
         amount: 3
   fluid-ore-processing-glowstone:
     results:
-      - item: clathrate-glowstone
-      - item: sulfur
+      - item: tf2-clathrate-glowstone
+      - item: tf2-sulfur
     ingredients:
-      - item: ore-fluid-glowstone
+      - item: tf2-ore-fluid-glowstone
     energy: 4000
     data:
       input:
-        item: [ore-fluid-glowstone]
+        item: [tf2-ore-fluid-glowstone]
       primary-output:
-        item: [clathrate-glowstone]
+        item: [tf2-clathrate-glowstone]
         amount: 3
       secondary-output:
-        item: [sulfur]
+        item: [tf2-sulfur]
       secondary-chance: 30
   fluid-ore-processing-oil-sand:
     results:
-      - item: bitumen
-      - item: tar
+      - item: tf2-bitumen
+      - item: tf2-tar
     ingredients:
-      - item: oil-sand
+      - item: tf2-oil-sand
     energy: 4000
     data:
       input:
-        item: [oil-sand, oil-red-sand]
+        item: [tf2-oil-sand, tf2-oil-sand-red]
       primary-output:
-        item: [bitumen]
+        item: [tf2-bitumen]
         amount: 3
       secondary-output:
-        item: [tar]
+        item: [tf2-tar]
       secondary-chance: 50
   fluid-ore-processing-oil-shale:
     results:
-      - item: bitumen
-      - item: flint
+      - item: tf2-bitumen
+      - item: mc-flint
     ingredients:
-      - item: oil-shale
+      - item: tf2-oil-shale
     energy: 4000
     data:
       input:
-        item: [oil-shale]
+        item: [tf2-oil-shale]
       primary-output:
-        item: [bitumen]
+        item: [tf2-bitumen]
         amount: 3
       secondary-output:
-        item: [flint]
+        item: [mc-flint]
       secondary-chance: 50
   fluid-ore-processing-redstone:
     results:
-      - item: clathrate-redstone
-      - item: cinnabar
+      - item: tf2-clathrate-redstone
+      - item: tf2-cinnabar
     ingredients:
-      - item: ore-fluid-redstone
+      - item: tf2-ore-fluid-redstone
     energy: 4000
     data:
       input:
-        item: [ore-fluid-redstone]
+        item: [tf2-ore-fluid-redstone]
       primary-output:
-        item: [clathrate-redstone]
+        item: [tf2-clathrate-redstone]
         amount: 3
       secondary-output:
-        item: [cinnabar]
+        item: [tf2-cinnabar]
       secondary-chance: 50
   glowstone-dust-from-glowstone:
     results:
-      - item: glowstone-dust
+      - item: mc-glowstone-dust
     ingredients:
-      - item: glowstone
+      - item: mc-glowstone
     energy: 4000
     data:
       input:
-        item: [glowstone]
+        item: [mc-glowstone]
       primary-output:
-        item: [glowstone-dust]
+        item: [mc-glowstone-dust]
         amount: 4
   gravel-from-netherrack:
     results:
-      - item: gravel
-      - item: sulfur
+      - item: mc-gravel
+      - item: tf2-sulfur
     ingredients:
-      - item: netherrack
+      - item: mc-netherrack
     energy: 4000
     data:
       input:
-        item: [netherrack]
+        item: [mc-netherrack]
       primary-output:
-        item: [gravel]
+        item: [mc-gravel]
       secondary-output:
-        item: [sulfur]
+        item: [tf2-sulfur]
       secondary-chance: 15
   gravel-from-stone:
     results:
-      - item: gravel
-      - item: sand
+      - item: mc-gravel
+      - item: mc-sand
     ingredients:
-      - item: stone
+      - item: mc-stone
     energy: 4000
     data:
       input:
-        item: [stone]
+        item: [mc-stone]
       primary-output:
-        item: [gravel]
+        item: [mc-gravel]
       secondary-output:
-        item: [sand]
+        item: [mc-sand]
       secondary-chance: 15
   magma-cream-from-block:
     results:
-      - item: magma-cream
+      - item: mc-magma-cream
     ingredients:
-      - item: magma-block
+      - item: mc-magma-block
     energy: 4000
     data:
       input:
-        item: [magma-block]
+        item: [mc-magma-block]
       primary-output:
-        item: [magma-cream]
+        item: [mc-magma-cream]
         amount: 4
   ore-processing-aluminum:
     results:
-      - item: dust-aluminum
+      - item: tf2-dust-aluminum
         suffix: x2
-      - item: dust-iron
+      - item: tf2-dust-iron
     ingredients:
-      - item: ore-aluminum
+      - item: tf2-ore-aluminum
     energy: 4000
     data:
       input:
-        item: [ore-aluminum]
+        item: [tf2-ore-aluminum]
       primary-output:
-        item: [dust-aluminum]
+        item: [tf2-dust-aluminum]
         amount: 2
       secondary-output:
-        item: [dust-iron]
+        item: [tf2-dust-iron]
       secondary-chance: 10
   ore-processing-coal:
     results:
-      - item: coal
-      - item: dust-coal
+      - item: mc-coal
+      - item: tf2-dust-coal
     ingredients:
-      - item: ore-coal
+      - item: mc-ore-coal
     energy: 4000
     data:
       input:
-        item: [ore-coal]
+        item: [mc-ore-coal]
       primary-output:
-        item: [coal]
+        item: [mc-coal]
         amount: 3
       secondary-output:
-        item: [dust-coal]
+        item: [tf2-dust-coal]
       secondary-chance: 25
   ore-processing-copper:
     results:
-      - item: dust-copper
+      - item: tf2-dust-copper
         suffix: x2
-      - item: dust-gold
+      - item: tf2-dust-gold
     ingredients:
-      - item: ore-copper
+      - item: tf2-ore-copper
     energy: 4000
     data:
       input:
-        item: [ore-copper]
+        item: [tf2-ore-copper]
       primary-output:
-        item: [dust-copper]
+        item: [tf2-dust-copper]
         amount: 2
       secondary-output:
-        item: [dust-gold]
+        item: [tf2-dust-gold]
       secondary-chance: 10
   ore-processing-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: ore-diamond
+      - item: mc-ore-diamond
     energy: 4000
     data:
       input:
-        item: [ore-diamond]
+        item: [mc-ore-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
         amount: 2
   ore-processing-emerald:
     results:
-      - item: emerald
+      - item: mc-emerald
     ingredients:
-      - item: ore-emerald
+      - item: mc-ore-emerald
     energy: 4000
     data:
       input:
-        item: [ore-emerald]
+        item: [mc-ore-emerald]
       primary-output:
-        item: [emerald]
+        item: [mc-emerald]
         amount: 2
   ore-processing-gold:
     results:
-      - item: dust-gold
+      - item: tf2-dust-gold
         suffix: x2
-      - item: cinnabar
+      - item: tf2-cinnabar
     ingredients:
-      - item: ore-gold
+      - item: mc-ore-gold
     energy: 4000
     data:
       input:
-        item: [ore-gold]
+        item: [mc-ore-gold]
       primary-output:
-        item: [dust-gold]
+        item: [tf2-dust-gold]
         amount: 2
       secondary-output:
-        item: [cinnabar]
+        item: [tf2-cinnabar]
       secondary-chance: 10
   ore-processing-iridium:
     results:
-      - item: dust-iridium
+      - item: tf2-dust-iridium
         suffix: x2
-      - item: dust-platinum
+      - item: tf2-dust-platinum
     ingredients:
-      - item: ore-iridium
+      - item: tf2-ore-iridium
     energy: 4000
     data:
       input:
-        item: [ore-iridium]
+        item: [tf2-ore-iridium]
       primary-output:
-        item: [dust-iridium]
+        item: [tf2-dust-iridium]
         amount: 2
       secondary-output:
-        item: [dust-platinum]
+        item: [tf2-dust-platinum]
       secondary-chance: 10
   ore-processing-iron:
     results:
-      - item: dust-iron
+      - item: tf2-dust-iron
         suffix: x2
-      - item: dust-nickel
+      - item: tf2-dust-nickel
     ingredients:
-      - item: ore-iron
+      - item: mc-ore-iron
     energy: 4000
     data:
       input:
-        item: [ore-iron]
+        item: [mc-ore-iron]
       primary-output:
-        item: [dust-iron]
+        item: [tf2-dust-iron]
         amount: 2
       secondary-output:
-        item: [dust-nickel]
+        item: [tf2-dust-nickel]
       secondary-chance: 10
   ore-processing-lapis-lazuli:
     results:
-      - item: lapis-lazuli
-      - item: sulfur
+      - item: mc-lapis-lazuli
+      - item: tf2-sulfur
     ingredients:
-      - item: ore-lapis-lazuli
+      - item: mc-ore-lapis-lazuli
     energy: 4000
     data:
       input:
-        item: [ore-lapis-lazuli]
+        item: [mc-ore-lapis-lazuli]
       primary-output:
-        item: [lapis-lazuli]
+        item: [mc-lapis-lazuli]
         amount: 10
       secondary-output:
-        item: [sulfur]
+        item: [tf2-sulfur]
       secondary-chance: 20
   ore-processing-lead:
     results:
-      - item: dust-lead
+      - item: tf2-dust-lead
         suffix: x2
-      - item: dust-silver
+      - item: tf2-dust-silver
     ingredients:
-      - item: ore-lead
+      - item: tf2-ore-lead
     energy: 4000
     data:
       input:
-        item: [ore-lead]
+        item: [tf2-ore-lead]
       primary-output:
-        item: [dust-lead]
+        item: [tf2-dust-lead]
         amount: 2
       secondary-output:
-        item: [dust-silver]
+        item: [tf2-dust-silver]
       secondary-chance: 10
   ore-processing-mithril:
     results:
-      - item: dust-mithril
+      - item: tf2-dust-mithril
         suffix: x2
-      - item: dust-gold
+      - item: tf2-dust-gold
     ingredients:
-      - item: ore-mithril
+      - item: tf2-ore-mithril
     energy: 4000
     data:
       input:
-        item: [ore-mithril]
+        item: [tf2-ore-mithril]
       primary-output:
-        item: [dust-mithril]
+        item: [tf2-dust-mithril]
         amount: 2
       secondary-output:
-        item: [dust-gold]
+        item: [tf2-dust-gold]
       secondary-chance: 10
   ore-processing-nether-quartz:
     results:
-      - item: nether-quartz
-      - item: sulfur
+      - item: mc-nether-quartz
+      - item: tf2-sulfur
     ingredients:
-      - item: ore-nether-quartz
+      - item: mc-ore-nether-quartz
     energy: 4000
     data:
       input:
-        item: [ore-nether-quartz]
+        item: [mc-ore-nether-quartz]
       primary-output:
-        item: [nether-quartz]
+        item: [mc-nether-quartz]
         amount: 3
       secondary-output:
-        item: [sulfur]
+        item: [tf2-sulfur]
       secondary-chance: 15
   ore-processing-nickel:
     results:
-      - item: dust-nickel
+      - item: tf2-dust-nickel
         suffix: x2
-      - item: dust-platinum
+      - item: tf2-dust-platinum
     ingredients:
-      - item: ore-nickel
+      - item: tf2-ore-nickel
     energy: 4000
     data:
       input:
-        item: [ore-nickel]
+        item: [tf2-ore-nickel]
       primary-output:
-        item: [dust-nickel]
+        item: [tf2-dust-nickel]
         amount: 2
       secondary-output:
-        item: [dust-platinum]
+        item: [tf2-dust-platinum]
       secondary-chance: 10
   ore-processing-platinum:
     results:
-      - item: dust-platinum
+      - item: tf2-dust-platinum
         suffix: x2
-      - item: dust-iridium
+      - item: tf2-dust-iridium
     ingredients:
-      - item: ore-platinum
+      - item: tf2-ore-platinum
     energy: 4000
     data:
       input:
-        item: [ore-platinum]
+        item: [tf2-ore-platinum]
       primary-output:
-        item: [dust-platinum]
+        item: [tf2-dust-platinum]
         amount: 2
       secondary-output:
-        item: [dust-iridium]
+        item: [tf2-dust-iridium]
       secondary-chance: 10
   ore-processing-redstone:
     results:
-      - item: redstone
-      - item: cinnabar
+      - item: mc-redstone
+      - item: tf2-cinnabar
     ingredients:
-      - item: ore-redstone
+      - item: mc-ore-redstone
     energy: 4000
     data:
       input:
-        item: [ore-redstone]
+        item: [mc-ore-redstone]
       primary-output:
-        item: [redstone]
+        item: [mc-redstone]
         amount: 6
       secondary-output:
-        item: [cinnabar]
+        item: [tf2-cinnabar]
       secondary-chance: 25
   ore-processing-silver:
     results:
-      - item: dust-silver
+      - item: tf2-dust-silver
         suffix: x2
-      - item: dust-lead
+      - item: tf2-dust-lead
     ingredients:
-      - item: ore-silver
+      - item: tf2-ore-silver
     energy: 4000
     data:
       input:
-        item: [ore-silver]
+        item: [tf2-ore-silver]
       primary-output:
-        item: [dust-silver]
+        item: [tf2-dust-silver]
         amount: 2
       secondary-output:
-        item: [dust-lead]
+        item: [tf2-dust-lead]
       secondary-chance: 10
   ore-processing-tin:
     results:
-      - item: dust-tin
+      - item: tf2-dust-tin
         suffix: x2
-      - item: dust-iron
+      - item: tf2-dust-iron
     ingredients:
-      - item: ore-tin
+      - item: tf2-ore-tin
     energy: 4000
     data:
       input:
-        item: [ore-tin]
+        item: [tf2-ore-tin]
       primary-output:
-        item: [dust-tin]
+        item: [tf2-dust-tin]
         amount: 2
       secondary-output:
-        item: [dust-iron]
+        item: [tf2-dust-iron]
       secondary-chance: 10
   prismarine-crystals-from-shard:
     results:
-      - item: prismarine-crystals
+      - item: mc-prismarine-crystals
     ingredients:
-      - item: prismarine-shard
+      - item: mc-prismarine-shard
     energy: 2000
     data:
       input:
-        item: [prismarine-shard]
+        item: [mc-prismarine-shard]
       primary-output:
-        item: [prismarine-crystals]
+        item: [mc-prismarine-crystals]
   recycling-axe-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: axe-diamond
+      - item: mc-tool-axe-diamond
     energy: 6000
     data:
       input:
-        item: [axe-diamond]
+        item: [mc-tool-axe-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
   recycling-axe-wood:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: axe-wood
+      - item: mc-tool-axe-wood
     energy: 3000
     data:
       input:
-        item: [axe-wood]
+        item: [mc-tool-axe-wood]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   recycling-boots-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: boots-diamond
+      - item: mc-armor-boots-diamond
     energy: 6000
     data:
       input:
-        item: [boots-diamond]
+        item: [mc-armor-boots-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
         amount: 2
   recycling-bow:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
       - item: bow
     energy: 3000
     data:
       input:
-        item: [bow]
+        item: [mc-bow]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   recycling-bow-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: bow-diamond
+      - item: tf2-weapon-bow-diamond
     energy: 6000
     data:
       input:
-        item: [bow-diamond]
+        item: [tf2-weapon-bow-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
   recycling-brick-stairs:
     results:
-      - item: brick
+      - item: mc-brick
     ingredients:
-      - item: brick-stairs
+      - item: mc-brick-stairs
     energy: 3000
     data:
       input:
-        item: [brick-stairs]
+        item: [mc-brick-stairs]
       primary-output:
-        item: [brick]
+        item: [mc-brick]
         amount: 3
   recycling-bricks:
     results:
-      - item: brick
+      - item: mc-brick
     ingredients:
-      - item: bricks
+      - item: mc-bricks
     energy: 3000
     data:
       input:
-        item: [bricks]
+        item: [mc-bricks]
       primary-output:
-        item: [brick]
+        item: [mc-brick]
         amount: 4
   recycling-bricks-slab:
     results:
-      - item: brick
+      - item: mc-brick
     ingredients:
-      - item: bricks-slab
+      - item: mc-bricks-slab
     energy: 3000
     data:
       input:
-        item: [bricks-slab]
+        item: [mc-bricks-slab]
       primary-output:
-        item: [brick]
+        item: [mc-brick]
         amount: 2
   recycling-chestplate-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: chestplate-diamond
+      - item: mc-armor-chestplate-diamond
     energy: 6000
     data:
       input:
-        item: [chestplate-diamond]
+        item: [mc-armor-chestplate-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
         amount: 4
   recycling-concrete:
     results:
-      - item-group: concrete-powder
+      - item-group: mc-concrete-powder
     ingredients:
-      - item-group: concrete
+      - item-group: mc-concrete
     energy: 4000
     data:
       input:
-        item-group: concrete
+        item-group: mc-concrete
       primary-output:
-        item-group: concrete-powder
+        item-group: mc-concrete-powder
   recycling-fishing-rod:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: fishing-rod
+      - item: mc-tool-fishing-rod
     energy: 3000
     data:
       input:
-        item: [fishing-rod]
+        item: [mc-tool-fishing-rod]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   recycling-fishing-rod-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: fishing-rod-diamond
+      - item: tf2-tool-fishing-rod-diamond
     energy: 6000
     data:
       input:
-        item: [fishing-rod-diamond]
+        item: [tf2-tool-fishing-rod-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
   recycling-flower-pot:
     results:
-      - item: brick
+      - item: mc-brick
     ingredients:
-      - item: flower-pot
+      - item: mc-flower-pot
     energy: 2000
     data:
       input:
-        item: [flower-pot]
+        item: [mc-flower-pot]
       primary-output:
-        item: [brick]
+        item: [mc-brick]
         amount: 3
   recycling-fluiduct-basic:
     results:
-      - item: nugget-copper
+      - item: tf2-nugget-copper
     ingredients:
-      - item: fluiduct-basic
+      - item: td2-fluiduct-basic
     energy: 1600
     data:
       input:
-        item: [fluiduct-basic]
+        item: [td2-fluiduct-basic]
       primary-output:
-        item: [nugget-copper]
+        item: [tf2-nugget-copper]
         amount: 3
   recycling-fluiduct-basic-opaque:
     results:
-      - item: nugget-copper
-      - item: nugget-lead
+      - item: tf2-nugget-copper
+      - item: tf2-nugget-lead
     ingredients:
-      - item: fluiduct-basic-opaque
+      - item: td2-fluiduct-basic-opaque
     energy: 1600
     data:
       input:
-        item: [fluiduct-basic-opaque]
+        item: [td2-fluiduct-basic-opaque]
       primary-output:
-        item: [nugget-copper]
+        item: [tf2-nugget-copper]
         amount: 3
       secondary-output:
-        item: [nugget-lead]
+        item: [tf2-nugget-lead]
       secondary-chance: 100
   recycling-fluxduct-basic:
     results:
-      - item: redstone
-      - item: nugget-lead
+      - item: mc-redstone
+      - item: tf2-nugget-lead
     ingredients:
-      - item: fluxduct-basic
+      - item: td2-fluxduct-basic
     energy: 1600
     data:
       input:
-        item: [fluxduct-basic]
+        item: [td2-fluxduct-basic]
       primary-output:
-        item: [redstone]
+        item: [mc-redstone]
       secondary-output:
-        item: [nugget-lead]
+        item: [tf2-nugget-lead]
         amount: 3
       secondary-chance: 100
   recycling-fluxduct-hardened:
     results:
-      - item: redstone
-      - item: nugget-invar
+      - item: mc-redstone
+      - item: tf2-nugget-invar
     ingredients:
-      - item: fluxduct-hardened
+      - item: td2-fluxduct-hardened
     energy: 1600
     data:
       input:
-        item: [fluxduct-hardened]
+        item: [td2-fluxduct-hardened]
       primary-output:
-        item: [redstone]
+        item: [mc-redstone]
         amount: 2
       secondary-output:
-        item: [nugget-invar]
+        item: [tf2-nugget-invar]
         amount: 3
       secondary-chance: 100
   recycling-glass:
     results:
-      - item: sand
+      - item: mc-sand
     ingredients:
-      - item: glass
+      - item: mc-glass
     energy: 3000
     data:
       input:
-        item: [glass]
+        item: [mc-glass]
       primary-output:
-        item: [sand]
+        item: [mc-sand]
   recycling-glass-bottle:
     results:
-      - item: sand
+      - item: mc-sand
     ingredients:
-      - item: glass-bottle
+      - item: mc-glass-bottle
     energy: 2000
     data:
       input:
-        item: [glass-bottle]
+        item: [mc-glass-bottle]
       primary-output:
-        item: [sand]
+        item: [mc-sand]
   recycling-glass-stained:
     results:
-      - item: sand
+      - item: mc-sand
     ingredients:
-      - item-group: glass-stained
+      - item-group: mc-glass-stained
     energy: 3000
     data:
       input:
-        item-group: glass-stained
+        item-group: mc-glass-stained
       primary-output:
-        item: [sand]
+        item: [mc-sand]
   recycling-hammer-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: hammer-diamond
+      - item: tf2-tool-hammer-diamond
     energy: 6000
     data:
       input:
-        item: [hammer-diamond]
+        item: [tf2-tool-hammer-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
         amount: 2
   recycling-hammer-wood:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: hammer-wood
+      - item: tf2-tool-hammer-wood
     energy: 3000
     data:
       input:
-        item: [hammer-wood]
+        item: [tf2-tool-hammer-wood]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 4
   recycling-helmet-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: helmet-diamond
+      - item: mc-armor-helmet-diamond
     energy: 6000
     data:
       input:
-        item: [helmet-diamond]
+        item: [mc-armor-helmet-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
         amount: 2
   recycling-hoe-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: hoe-diamond
+      - item: mc-tool-hoe-diamond
     energy: 6000
     data:
       input:
-        item: [hoe-diamond]
+        item: [mc-tool-hoe-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
   recycling-hoe-wood:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: hoe-wood
+      - item: mc-tool-hoe-wood
     energy: 3000
     data:
       input:
-        item: [hoe-wood]
+        item: [mc-tool-hoe-wood]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   recycling-horse-armor-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: horse-armor-diamond
+      - item: mc-horse-armor-diamond
     energy: 6000
     data:
       input:
-        item: [horse-armor-diamond]
+        item: [mc-horse-armor-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
         amount: 2
   recycling-jukebox:
     results:
-      - item: diamond
-      - item: sawdust
+      - item: mc-diamond
+      - item: tf2-sawdust
     ingredients:
-      - item: jukebox
+      - item: mc-jukebox
     energy: 4000
     data:
       input:
-        item: [jukebox]
+        item: [mc-jukebox]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
       secondary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 4
       secondary-chance: 100
   recycling-leggings-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: leggings-diamond
+      - item: mc-armor-leggings-diamond
     energy: 6000
     data:
       input:
-        item: [leggings-diamond]
+        item: [mc-armor-leggings-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
         amount: 3
   recycling-nether-brick:
     results:
-      - item: nether-brick-item
+      - item: mc-nether-brick-item
     ingredients:
-      - item: nether-brick
+      - item: mc-nether-brick
     energy: 3000
     data:
       input:
-        item: [nether-brick]
+        item: [mc-nether-brick]
       primary-output:
-        item: [nether-brick-item]
+        item: [mc-nether-brick-item]
         amount: 4
   recycling-nether-brick-slab:
     results:
-      - item: nether-brick-item
+      - item: mc-nether-brick-item
     ingredients:
-      - item: nether-brick-slab
+      - item: mc-nether-brick-slab
     energy: 3000
     data:
       input:
-        item: [nether-brick-slab]
+        item: [mc-nether-brick-slab]
       primary-output:
-        item: [nether-brick-item]
+        item: [mc-nether-brick-item]
         amount: 2
   recycling-nether-brick-stairs:
     results:
-      - item: nether-brick-item
+      - item: mc-nether-brick-item
     ingredients:
-      - item: nether-brick-stairs
+      - item: mc-nether-brick-stairs
     energy: 3000
     data:
       input:
-        item: [nether-brick-stairs]
+        item: [mc-nether-brick-stairs]
       primary-output:
-        item: [nether-brick-item]
+        item: [mc-nether-brick-item]
         amount: 3
   recycling-nether-quartz-block:
     results:
-      - item: nether-quartz
+      - item: mc-nether-quartz
     ingredients:
-      - item-group: nether-quartz-block
+      - item-group: mc-nether-quartz-block
     energy: 3000
     data:
       input:
-        item-group: nether-quartz-block
+        item-group: mc-nether-quartz-block
       primary-output:
-        item: [nether-quartz]
+        item: [mc-nether-quartz]
         amount: 4
   recycling-nether-quartz-slab:
     results:
-      - item: nether-quartz
+      - item: mc-nether-quartz
     ingredients:
-      - item: nether-quartz-slab
+      - item: mc-nether-quartz-slab
     energy: 3000
     data:
       input:
-        item: [nether-quartz-slab]
+        item: [mc-nether-quartz-slab]
       primary-output:
-        item: [nether-quartz]
+        item: [mc-nether-quartz]
         amount: 2
   recycling-nether-quartz-stairs:
     results:
-      - item: nether-quartz
+      - item: mc-nether-quartz
     ingredients:
-      - item: nether-quartz-stairs
+      - item: mc-nether-quartz-stairs
     energy: 3000
     data:
       input:
-        item: [nether-quartz-stairs]
+        item: [mc-nether-quartz-stairs]
       primary-output:
-        item: [nether-quartz]
+        item: [mc-nether-quartz]
         amount: 3
   recycling-note-block:
     results:
-      - item: redstone
-      - item: sawdust
+      - item: mc-redstone
+      - item: tf2-sawdust
     ingredients:
-      - item: note-block
+      - item: mc-note-block
     energy: 4000
     data:
       input:
-        item: [note-block]
+        item: [mc-note-block]
       primary-output:
-        item: [redstone]
+        item: [mc-redstone]
       secondary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 4
       secondary-chance: 100
   recycling-pickaxe-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: pickaxe-diamond
+      - item: mc-tool-pickaxe-diamond
     energy: 6000
     data:
       input:
-        item: [pickaxe-diamond]
+        item: [mc-tool-pickaxe-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
   recycling-pickaxe-wood:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: pickaxe-wood
+      - item: mc-tool-pickaxe-wood
     energy: 3000
     data:
       input:
-        item: [pickaxe-wood]
+        item: [mc-tool-pickaxe-wood]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   recycling-red-sandstone:
     results:
-      - item: red-sand
-      - item: niter
+      - item: mc-sand-red
+      - item: tf2-niter
     ingredients:
-      - item-group: red-sandstone
+      - item-group: mc-sandstone-red
     energy: 3000
     data:
       input:
-        item-group: red-sandstone
+        item-group: mc-sandstone-red
       primary-output:
-        item: [red-sand]
+        item: [mc-sand-red]
         amount: 2
       secondary-output:
-        item: [niter]
+        item: [tf2-niter]
       secondary-chance: 40
   recycling-red-sandstone-slab:
     results:
-      - item: red-sand
-      - item: niter
+      - item: mc-sand-red
+      - item: tf2-niter
     ingredients:
-      - item: red-sandstone-slab
+      - item: mc-sandstone-red-slab
     energy: 3000
     data:
       input:
-        item: [red-sandstone-slab]
+        item: [mc-sandstone-red-slab]
       primary-output:
-        item: [red-sand]
+        item: [mc-sand-red]
       secondary-output:
-        item: [niter]
+        item: [tf2-niter]
       secondary-chance: 20
   recycling-red-sandstone-stairs:
     results:
-      - item: red-sand
-      - item: niter
+      - item: mc-sand-red
+      - item: tf2-niter
     ingredients:
-      - item: red-sandstone-stairs
+      - item: mc-sandstone-red-stairs
     energy: 3000
     data:
       input:
-        item: [red-sandstone-stairs]
+        item: [mc-sandstone-red-stairs]
       primary-output:
-        item: [red-sand]
+        item: [mc-sand-red]
         amount: 2
       secondary-output:
-        item: [niter]
+        item: [tf2-niter]
       secondary-chance: 20
   recycling-sandstone:
     results:
-      - item: sand
-      - item: niter
+      - item: mc-sand
+      - item: tf2-niter
     ingredients:
-      - item-group: sandstone
+      - item-group: mc-sandstone
     energy: 3000
     data:
       input:
-        item-group: sandstone
+        item-group: mc-sandstone
       primary-output:
-        item: [sand]
+        item: [mc-sand]
         amount: 2
       secondary-output:
-        item: [niter]
+        item: [tf2-niter]
       secondary-chance: 40
   recycling-sandstone-slab:
     results:
-      - item: sand
-      - item: niter
+      - item: mc-sand
+      - item: tf2-niter
     ingredients:
-      - item: sandstone-slab
+      - item: mc-sandstone-slab
     energy: 3000
     data:
       input:
-        item: [sandstone-slab]
+        item: [mc-sandstone-slab]
       primary-output:
-        item: [sand]
+        item: [mc-sand]
       secondary-output:
-        item: [niter]
+        item: [tf2-niter]
       secondary-chance: 20
   recycling-sandstone-stairs:
     results:
-      - item: sand
-      - item: niter
+      - item: mc-sand
+      - item: tf2-niter
     ingredients:
-      - item: sandstone-stairs
+      - item: mc-sandstone-stairs
     energy: 3000
     data:
       input:
-        item: [sandstone-stairs]
+        item: [mc-sandstone-stairs]
       primary-output:
-        item: [sand]
+        item: [mc-sand]
         amount: 2
       secondary-output:
-        item: [niter]
+        item: [tf2-niter]
       secondary-chance: 20
   recycling-shears-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: shears-diamond
+      - item: tf2-tool-shears-diamond
     energy: 6000
     data:
       input:
-        item: [shears-diamond]
+        item: [tf2-tool-shears-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
   recycling-shears-wood:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: shears-wood
+      - item: tf2-tool-shears-wood
     energy: 3000
     data:
       input:
-        item: [shears-wood]
+        item: [tf2-tool-shears-wood]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   recycling-shield:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: shield
+      - item: mc-weapon-shield
     energy: 3000
     data:
       input:
-        item: [shield]
+        item: [mc-weapon-shield]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 6
   recycling-shield-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: shield-diamond
+      - item: tf2-weapon-shield-diamond
     energy: 6000
     data:
       input:
-        item: [shield-diamond]
+        item: [tf2-weapon-shield-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
         amount: 3
   recycling-shovel-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: shovel-diamond
+      - item: mc-tool-shovel-diamond
     energy: 6000
     data:
       input:
-        item: [shovel-diamond]
+        item: [mc-tool-shovel-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
   recycling-shovel-wood:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: shovel-wood
+      - item: mc-tool-shovel-wood
     energy: 3000
     data:
       input:
-        item: [shovel-wood]
+        item: [mc-tool-shovel-wood]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   recycling-sickle-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: sickle-diamond
+      - item: tf2-tool-sickle-diamond
     energy: 6000
     data:
       input:
-        item: [sickle-diamond]
+        item: [tf2-tool-sickle-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
   recycling-sickle-wood:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: sickle-wood
+      - item: tf2-tool-sickle-wood
     energy: 3000
     data:
       input:
-        item: [sickle-wood]
+        item: [tf2-tool-sickle-wood]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   recycling-sword-diamond:
     results:
-      - item: diamond
+      - item: mc-diamond
     ingredients:
-      - item: sword-diamond
+      - item: mc-weapon-sword-diamond
     energy: 6000
     data:
       input:
-        item: [sword-diamond]
+        item: [mc-weapon-sword-diamond]
       primary-output:
-        item: [diamond]
+        item: [mc-diamond]
   recycling-sword-wood:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item: sword-wood
+      - item: mc-weapon-sword-wood
     energy: 3000
     data:
       input:
-        item: [sword-wood]
+        item: [mc-weapon-sword-wood]
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   recycling-wool:
     results:
-      - item: string
-      - item-group: pigment
+      - item: mc-string
+      - item-group: tf2-pigment
     ingredients:
-      - item-group: wool
+      - item-group: mc-wool
     energy: 3000
     data:
       input:
-        item-group: wool
+        item-group: mc-wool
       primary-output:
-        item: [string]
+        item: [mc-string]
         amount: 4
       secondary-output:
-        item-group: pigment
+        item-group: tf2-pigment
       secondary-chance: 15
   sand:
     results:
-      - item: sand
-      - item: gravel
+      - item: mc-sand
+      - item: mc-gravel
     ingredients:
-      - item: cobblestone
+      - item: mc-cobblestone
     energy: 4000
     data:
       input:
-        item: [cobblestone]
+        item: [mc-cobblestone]
       primary-output:
-        item: [sand]
+        item: [mc-sand]
       secondary-output:
-        item: [gravel]
+        item: [mc-gravel]
       secondary-chance: 15
   sawdust-from-wood-log:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item-group: wood-log
+      - item-group: mc-wood-log
     energy: 2000
     data:
       input:
-        item-group: wood-log
+        item-group: mc-wood-log
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 8
   sawdust-from-wood-planks:
     results:
-      - item: sawdust
+      - item: tf2-sawdust
     ingredients:
-      - item-group: wood-planks
+      - item-group: mc-wood-planks
     energy: 1000
     data:
       input:
-        item-group: wood-planks
+        item-group: mc-wood-planks
       primary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
         amount: 2
   sugar:
     results:
-      - item: sugar
+      - item: mc-sugar
     ingredients:
-      - item: sugar-canes
+      - item: mc-sugar-canes
     energy: 2000
     data:
       input:
-        item: [sugar-canes]
+        item: [mc-sugar-canes]
       primary-output:
-        item: [sugar]
+        item: [mc-sugar]
         amount: 2

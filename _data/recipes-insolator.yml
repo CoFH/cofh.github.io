@@ -1,1081 +1,1081 @@
 name: Phytogenic Insolator
-site: docs-te
+site: docs-te5
 url: phytogenic-insolator/
 with-energy: true
 recipes:
   beetroot:
     results:
-      - item: beetroot
+      - item: mc-beetroot
         suffix: x2
-      - item: beetroot-seeds
+      - item: mc-beetroot-seeds
     ingredients:
-      - item: beetroot-seeds
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-beetroot-seeds
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [beetroot-seeds]
+        item: [mc-beetroot-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [beetroot]
+        item: [mc-beetroot]
         amount: 2
       secondary-output:
-        item: [beetroot-seeds]
+        item: [mc-beetroot-seeds]
       secondary-chance: 110
   beetroot-rich:
     results:
-      - item: beetroot
+      - item: mc-beetroot
         suffix: x6
-      - item: beetroot-seeds
+      - item: mc-beetroot-seeds
     ingredients:
-      - item: beetroot-seeds
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-beetroot-seeds
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [beetroot-seeds]
+        item: [mc-beetroot-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [beetroot]
+        item: [mc-beetroot]
         amount: 6
       secondary-output:
-        item: [beetroot-seeds]
+        item: [mc-beetroot-seeds]
       secondary-chance: 125
   beetroot-fluxed:
     results:
-      - item: beetroot
+      - item: mc-beetroot
         suffix: x8
-      - item: beetroot-seeds
+      - item: mc-beetroot-seeds
     ingredients:
-      - item: beetroot-seeds
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-beetroot-seeds
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [beetroot-seeds]
+        item: [mc-beetroot-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [beetroot]
+        item: [mc-beetroot]
         amount: 8
       secondary-output:
-        item: [beetroot-seeds]
+        item: [mc-beetroot-seeds]
       secondary-chance: 150
   cactus:
     results:
-      - item: cactus
+      - item: mc-cactus
         suffix: x2
     ingredients:
-      - item: cactus
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-cactus
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [cactus]
+        item: [mc-cactus]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [cactus]
+        item: [mc-cactus]
         amount: 2
   cactus-rich:
     results:
-      - item: cactus
+      - item: mc-cactus
         suffix: x6
     ingredients:
-      - item: cactus
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-cactus
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [cactus]
+        item: [mc-cactus]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [cactus]
+        item: [mc-cactus]
         amount: 6
   cactus-fluxed:
     results:
-      - item: cactus
+      - item: mc-cactus
         suffix: x8
     ingredients:
-      - item: cactus
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-cactus
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [cactus]
+        item: [mc-cactus]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [cactus]
+        item: [mc-cactus]
         amount: 8
   carrot:
     results:
-      - item: carrot
+      - item: mc-carrot
         suffix: x3
     ingredients:
-      - item: carrot
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-carrot
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [carrot]
+        item: [mc-carrot]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [carrot]
+        item: [mc-carrot]
         amount: 3
   carrot-rich:
     results:
-      - item: carrot
+      - item: mc-carrot
         suffix: x9
     ingredients:
-      - item: carrot
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-carrot
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [carrot]
+        item: [mc-carrot]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [carrot]
+        item: [mc-carrot]
         amount: 9
   carrot-fluxed:
     results:
-      - item: carrot
+      - item: mc-carrot
         suffix: x12
     ingredients:
-      - item: carrot
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-carrot
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [carrot]
+        item: [mc-carrot]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [carrot]
+        item: [mc-carrot]
         amount: 12
   chorus-fruit:
     results:
-      - item: chorus-fruit
+      - item: mc-chorus-fruit
         suffix: x2
-      - item: chorus-flower
+      - item: mc-chorus-flower
     ingredients:
-      - item: chorus-flower
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-chorus-flower
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [chorus-flower]
+        item: [mc-chorus-flower]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [chorus-fruit]
+        item: [mc-chorus-fruit]
         amount: 2
       secondary-output:
-        item: [chorus-flower]
+        item: [mc-chorus-flower]
       secondary-chance: 100
   chorus-fruit-rich:
     results:
-      - item: chorus-fruit
+      - item: mc-chorus-fruit
         suffix: x6
-      - item: chorus-flower
+      - item: mc-chorus-flower
     ingredients:
-      - item: chorus-flower
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-chorus-flower
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [chorus-flower]
+        item: [mc-chorus-flower]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [chorus-fruit]
+        item: [mc-chorus-fruit]
         amount: 6
       secondary-output:
-        item: [chorus-flower]
+        item: [mc-chorus-flower]
       secondary-chance: 125
   chorus-fruit-fluxed:
     results:
-      - item: chorus-fruit
+      - item: mc-chorus-fruit
         suffix: x8
-      - item: chorus-flower
+      - item: mc-chorus-flower
     ingredients:
-      - item: chorus-flower
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-chorus-flower
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [chorus-flower]
+        item: [mc-chorus-flower]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [chorus-fruit]
+        item: [mc-chorus-fruit]
         amount: 8
       secondary-output:
-        item: [chorus-flower]
+        item: [mc-chorus-flower]
       secondary-chance: 150
   cocoa-beans:
     results:
-      - item: cocoa-beans
+      - item: mc-cocoa-beans
         suffix: x3
     ingredients:
-      - item: cocoa-beans
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-cocoa-beans
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [cocoa-beans]
+        item: [mc-cocoa-beans]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [cocoa-beans]
+        item: [mc-cocoa-beans]
         amount: 3
   cocoa-beans-rich:
     results:
-      - item: cocoa-beans
+      - item: mc-cocoa-beans
         suffix: x9
     ingredients:
-      - item: cocoa-beans
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-cocoa-beans
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [cocoa-beans]
+        item: [mc-cocoa-beans]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [cocoa-beans]
+        item: [mc-cocoa-beans]
         amount: 9
   cocoa-beans-fluxed:
     results:
-      - item: cocoa-beans
+      - item: mc-cocoa-beans
         suffix: x12
     ingredients:
-      - item: cocoa-beans
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-cocoa-beans
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [cocoa-beans]
+        item: [mc-cocoa-beans]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [cocoa-beans]
+        item: [mc-cocoa-beans]
         amount: 12
   flower:
     results:
-      - item-group: flower
+      - item-group: mc-flower
         suffix: x3
     ingredients:
-      - item-group: flower
-      - item: phyto-gro
-      - fluid: water
+      - item-group: mc-flower
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item-group: flower
+        item-group: mc-flower
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item-group: flower
+        item-group: mc-flower
         amount: 3
   flower-rich:
     results:
-      - item-group: flower
+      - item-group: mc-flower
         suffix: x9
     ingredients:
-      - item-group: flower
-      - item: phyto-gro-rich
-      - fluid: water
+      - item-group: mc-flower
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item-group: flower
+        item-group: mc-flower
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item-group: flower
+        item-group: mc-flower
         amount: 9
   flower-fluxed:
     results:
-      - item-group: flower
+      - item-group: mc-flower
         suffix: x12
     ingredients:
-      - item-group: flower
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item-group: mc-flower
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item-group: flower
+        item-group: mc-flower
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item-group: flower
+        item-group: mc-flower
         amount: 12
   lily-pad:
     results:
-      - item: lily-pad
+      - item: mc-lily-pad
         suffix: x2
     ingredients:
-      - item: lily-pad
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-lily-pad
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [lily-pad]
+        item: [mc-lily-pad]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [lily-pad]
+        item: [mc-lily-pad]
         amount: 2
   lily-pad-rich:
     results:
-      - item: lily-pad
+      - item: mc-lily-pad
         suffix: x6
     ingredients:
-      - item: lily-pad
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-lily-pad
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [lily-pad]
+        item: [mc-lily-pad]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [lily-pad]
+        item: [mc-lily-pad]
         amount: 6
   lily-pad-fluxed:
     results:
-      - item: lily-pad
+      - item: mc-lily-pad
         suffix: x8
     ingredients:
-      - item: lily-pad
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-lily-pad
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [lily-pad]
+        item: [mc-lily-pad]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [lily-pad]
+        item: [mc-lily-pad]
         amount: 8
   melon:
     results:
-      - item: melon
-      - item: melon-seeds
+      - item: mc-melon
+      - item: mc-melon-seeds
     ingredients:
-      - item: melon-seeds
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-melon-seeds
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [melon-seeds]
+        item: [mc-melon-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [melon]
+        item: [mc-melon]
       secondary-output:
-        item: [melon-seeds]
+        item: [mc-melon-seeds]
       secondary-chance: 100
   melon-rich:
     results:
-      - item: melon
+      - item: mc-melon
         suffix: x3
-      - item: melon-seeds
+      - item: mc-melon-seeds
     ingredients:
-      - item: melon-seeds
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-melon-seeds
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [melon-seeds]
+        item: [mc-melon-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [melon]
+        item: [mc-melon]
         amount: 3
       secondary-output:
-        item: [melon-seeds]
+        item: [mc-melon-seeds]
       secondary-chance: 125
   melon-fluxed:
     results:
-      - item: melon
+      - item: mc-melon
         suffix: x4
-      - item: melon-seeds
+      - item: mc-melon-seeds
     ingredients:
-      - item: melon-seeds
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-melon-seeds
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [melon-seeds]
+        item: [mc-melon-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [melon]
+        item: [mc-melon]
         amount: 4
       secondary-output:
-        item: [melon-seeds]
+        item: [mc-melon-seeds]
       secondary-chance: 150
   mushroom:
     results:
-      - item-group: mushroom
+      - item-group: mc-mushroom
         suffix: x2
     ingredients:
-      - item-group: mushroom
-      - item: phyto-gro
-      - fluid: water
+      - item-group: mc-mushroom
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item-group: mushroom
+        item-group: mc-mushroom
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item-group: mushroom
+        item-group: mc-mushroom
         amount: 2
   mushroom-rich:
     results:
-      - item-group: mushroom
+      - item-group: mc-mushroom
         suffix: x6
     ingredients:
-      - item-group: mushroom
-      - item: phyto-gro-rich
-      - fluid: water
+      - item-group: mc-mushroom
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item-group: mushroom
+        item-group: mc-mushroom
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item-group: mushroom
+        item-group: mc-mushroom
         amount: 6
   mushroom-fluxed:
     results:
-      - item-group: mushroom
+      - item-group: mc-mushroom
         suffix: x8
     ingredients:
-      - item-group: mushroom
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item-group: mc-mushroom
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item-group: mushroom
+        item-group: mc-mushroom
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item-group: mushroom
+        item-group: mc-mushroom
         amount: 8
   nether-wart:
     results:
-      - item: nether-wart
+      - item: mc-nether-wart
         suffix: x2
     ingredients:
-      - item: nether-wart
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-nether-wart
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [nether-wart]
+        item: [mc-nether-wart]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [nether-wart]
+        item: [mc-nether-wart]
         amount: 2
   nether-wart-rich:
     results:
-      - item: nether-wart
+      - item: mc-nether-wart
         suffix: x6
     ingredients:
-      - item: nether-wart
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-nether-wart
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [nether-wart]
+        item: [mc-nether-wart]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [nether-wart]
+        item: [mc-nether-wart]
         amount: 6
   nether-wart-fluxed:
     results:
-      - item: nether-wart
+      - item: mc-nether-wart
         suffix: x8
     ingredients:
-      - item: nether-wart
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-nether-wart
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [nether-wart]
+        item: [mc-nether-wart]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [nether-wart]
+        item: [mc-nether-wart]
         amount: 8
   potato:
     results:
-      - item: potato
+      - item: mc-potato
         suffix: x3
-      - item: poisonous-potato
+      - item: mc-potato-poisonous
     ingredients:
-      - item: potato
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-potato
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [potato]
+        item: [mc-potato]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [potato]
+        item: [mc-potato]
         amount: 3
       secondary-output:
-        item: [poisonous-potato]
+        item: [mc-potato-poisonous]
       secondary-chance: 5
   potato-rich:
     results:
-      - item: potato
+      - item: mc-potato
         suffix: x9
-      - item: poisonous-potato
+      - item: mc-potato-poisonous
     ingredients:
-      - item: potato
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-potato
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [potato]
+        item: [mc-potato]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [potato]
+        item: [mc-potato]
         amount: 9
       secondary-output:
-        item: [poisonous-potato]
+        item: [mc-potato-poisonous]
       secondary-chance: 15
   potato-fluxed:
     results:
-      - item: potato
+      - item: mc-potato
         suffix: x12
-      - item: poisonous-potato
+      - item: mc-potato-poisonous
     ingredients:
-      - item: potato
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-potato
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [potato]
+        item: [mc-potato]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [potato]
+        item: [mc-potato]
         amount: 12
       secondary-output:
-        item: [poisonous-potato]
+        item: [mc-potato-poisonous]
       secondary-chance: 20
   pumpkin:
     results:
-      - item: pumpkin
-      - item: pumpkin-seeds
+      - item: mc-pumpkin
+      - item: mc-pumpkin-seeds
     ingredients:
-      - item: pumpkin-seeds
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-pumpkin-seeds
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [pumpkin-seeds]
+        item: [mc-pumpkin-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [pumpkin]
+        item: [mc-pumpkin]
       secondary-output:
-        item: [pumpkin-seeds]
+        item: [mc-pumpkin-seeds]
       secondary-chance: 100
   pumpkin-rich:
     results:
-      - item: pumpkin
+      - item: mc-pumpkin
         suffix: x3
-      - item: pumpkin-seeds
+      - item: mc-pumpkin-seeds
     ingredients:
-      - item: pumpkin-seeds
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-pumpkin-seeds
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [pumpkin-seeds]
+        item: [mc-pumpkin-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [pumpkin]
+        item: [mc-pumpkin]
         amount: 3
       secondary-output:
-        item: [pumpkin-seeds]
+        item: [mc-pumpkin-seeds]
       secondary-chance: 125
   pumpkin-fluxed:
     results:
-      - item: pumpkin
+      - item: mc-pumpkin
         suffix: x4
-      - item: pumpkin-seeds
+      - item: mc-pumpkin-seeds
     ingredients:
-      - item: pumpkin-seeds
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-pumpkin-seeds
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [pumpkin-seeds]
+        item: [mc-pumpkin-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [pumpkin]
+        item: [mc-pumpkin]
         amount: 4
       secondary-output:
-        item: [pumpkin-seeds]
+        item: [mc-pumpkin-seeds]
       secondary-chance: 150
   sugar-canes:
     results:
-      - item: sugar-canes
+      - item: mc-sugar-canes
         suffix: x2
     ingredients:
-      - item: sugar-canes
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-sugar-canes
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [sugar-canes]
+        item: [mc-sugar-canes]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [sugar-canes]
+        item: [mc-sugar-canes]
         amount: 2
   sugar-canes-rich:
     results:
-      - item: sugar-canes
+      - item: mc-sugar-canes
         suffix: x6
     ingredients:
-      - item: sugar-canes
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-sugar-canes
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [sugar-canes]
+        item: [mc-sugar-canes]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [sugar-canes]
+        item: [mc-sugar-canes]
         amount: 6
   sugar-canes-fluxed:
     results:
-      - item: sugar-canes
+      - item: mc-sugar-canes
         suffix: x8
     ingredients:
-      - item: sugar-canes
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-sugar-canes
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [sugar-canes]
+        item: [mc-sugar-canes]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [sugar-canes]
+        item: [mc-sugar-canes]
         amount: 8
   tall-flower:
     results:
-      - item-group: tall-flower
+      - item-group: mc-flower-tall
         suffix: x2
     ingredients:
-      - item-group: tall-flower
-      - item: phyto-gro
-      - fluid: water
+      - item-group: mc-flower-tall
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item-group: tall-flower
+        item-group: mc-flower-tall
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item-group: tall-flower
+        item-group: mc-flower-tall
         amount: 2
   tall-flower-rich:
     results:
-      - item-group: tall-flower
+      - item-group: mc-flower-tall
         suffix: x6
     ingredients:
-      - item-group: tall-flower
-      - item: phyto-gro-rich
-      - fluid: water
+      - item-group: mc-flower-tall
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item-group: tall-flower
+        item-group: mc-flower-tall
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item-group: tall-flower
+        item-group: mc-flower-tall
         amount: 6
   tall-flower-fluxed:
     results:
-      - item-group: tall-flower
+      - item-group: mc-flower-tall
         suffix: x8
     ingredients:
-      - item-group: tall-flower
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item-group: mc-flower-tall
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item-group: tall-flower
+        item-group: mc-flower-tall
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item-group: tall-flower
+        item-group: mc-flower-tall
         amount: 8
   vines:
     results:
-      - item: vines
+      - item: mc-vines
         suffix: x2
     ingredients:
-      - item: vines
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-vines
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [vines]
+        item: [mc-vines]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [vines]
+        item: [mc-vines]
         amount: 2
   vines-rich:
     results:
-      - item: vines
+      - item: mc-vines
         suffix: x6
     ingredients:
-      - item: vines
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-vines
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [vines]
+        item: [mc-vines]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [vines]
+        item: [mc-vines]
         amount: 6
   vines-fluxed:
     results:
-      - item: vines
+      - item: mc-vines
         suffix: x8
     ingredients:
-      - item: vines
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-vines
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [vines]
+        item: [mc-vines]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [vines]
+        item: [mc-vines]
         amount: 8
   wheat:
     results:
-      - item: wheat
+      - item: mc-wheat
         suffix: x2
-      - item: seeds
+      - item: mc-seeds
     ingredients:
-      - item: seeds
-      - item: phyto-gro
-      - fluid: water
+      - item: mc-seeds
+      - item: tf2-phyto-gro
+      - fluid: mc-water
         fluid-amount: 600
     energy: 2400
     data:
       secondary-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       primary-input:
-        item: [seeds]
+        item: [mc-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 600
       primary-output:
-        item: [wheat]
+        item: [mc-wheat]
         amount: 2
       secondary-output:
-        item: [seeds]
+        item: [mc-seeds]
       secondary-chance: 110
   wheat-rich:
     results:
-      - item: wheat
+      - item: mc-wheat
         suffix: x6
-      - item: seeds
+      - item: mc-seeds
     ingredients:
-      - item: seeds
-      - item: phyto-gro-rich
-      - fluid: water
+      - item: mc-seeds
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
         fluid-amount: 750
     energy: 3000
     data:
       secondary-input:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
       primary-input:
-        item: [seeds]
+        item: [mc-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 750
       primary-output:
-        item: [wheat]
+        item: [mc-wheat]
         amount: 6
       secondary-output:
-        item: [seeds]
+        item: [mc-seeds]
       secondary-chance: 125
   wheat-fluxed:
     results:
-      - item: wheat
+      - item: mc-wheat
         suffix: x8
-      - item: seeds
+      - item: mc-seeds
     ingredients:
-      - item: seeds
-      - item: phyto-gro-fluxed
-      - fluid: water
+      - item: mc-seeds
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
         fluid-amount: 900
     energy: 3600
     data:
       secondary-input:
-        item: [phyto-gro-fluxed]
+        item: [tf2-phyto-gro-fluxed]
       primary-input:
-        item: [seeds]
+        item: [mc-seeds]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 900
       primary-output:
-        item: [wheat]
+        item: [mc-wheat]
         amount: 8
       secondary-output:
-        item: [seeds]
+        item: [mc-seeds]
       secondary-chance: 150

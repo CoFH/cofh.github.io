@@ -1,284 +1,284 @@
 name: Compactor
-site: docs-te
+site: docs-te5
 url: compactor/
 with-energy: true
 recipes:
   blaze-rod-from-powder:
     results:
-      - item: blaze-rod
+      - item: mc-blaze-rod
     ingredients:
-      - item: blaze-powder
+      - item: mc-blaze-powder
     energy: 4000
     data:
       input:
-        item: [blaze-powder]
+        item: [mc-blaze-powder]
         amount: 5
       output:
-        item: [blaze-rod]
+        item: [mc-blaze-rod]
   blizz-rod-from-powder:
     results:
-      - item: blizz-rod
+      - item: tf2-blizz-rod
     ingredients:
-      - item: blizz-powder
+      - item: tf2-blizz-powder
     energy: 4000
     data:
       input:
-        item: [blizz-powder]
+        item: [tf2-blizz-powder]
         amount: 5
       output:
-        item: [blizz-rod]
+        item: [tf2-blizz-rod]
   blitz-rod-from-powder:
     results:
-      - item: blitz-rod
+      - item: tf2-blitz-rod
     ingredients:
-      - item: blitz-powder
+      - item: tf2-blitz-powder
     energy: 4000
     data:
       input:
-        item: [blitz-powder]
+        item: [tf2-blitz-powder]
         amount: 5
       output:
-        item: [blitz-rod]
+        item: [tf2-blitz-rod]
   basalz-rod-from-powder:
     results:
-      - item: basalz-rod
+      - item: tf2-basalz-rod
     ingredients:
-      - item: basalz-powder
+      - item: tf2-basalz-powder
     energy: 4000
     data:
       input:
-        item: [basalz-powder]
+        item: [tf2-basalz-powder]
         amount: 5
       output:
-        item: [basalz-rod]
+        item: [tf2-basalz-rod]
   plate:
     results:
-      - item-group: plate-metal
+      - item-group: tf2-plate-metal
     ingredients:
-      - item-group: ingot-metal
+      - item-group: ingot-metal-with-tf2
     energy: 4000
     data:
       input:
-        item-group: ingot-metal
+        item-group: ingot-metal-with-tf2
       output:
-        item-group: plate-metal
+        item-group: tf2-plate-metal
   plate-aluminum:
     results:
-      - item: plate-aluminum
+      - item: tf2-plate-aluminum
     ingredients:
-      - item: ingot-aluminum
+      - item: tf2-ingot-aluminum
     energy: 4000
     data:
       input:
-        item: [ingot-aluminum]
+        item: [tf2-ingot-aluminum]
       output:
-        item: [plate-aluminum]
+        item: [tf2-plate-aluminum]
   plate-bronze:
     results:
-      - item: plate-bronze
+      - item: tf2-plate-bronze
     ingredients:
-      - item: ingot-bronze
+      - item: tf2-ingot-bronze
     energy: 4000
     data:
       input:
-        item: [ingot-bronze]
+        item: [tf2-ingot-bronze]
       output:
-        item: [plate-bronze]
+        item: [tf2-plate-bronze]
   plate-constantan:
     results:
-      - item: plate-constantan
+      - item: tf2-plate-constantan
     ingredients:
-      - item: ingot-constantan
+      - item: tf2-ingot-constantan
     energy: 4000
     data:
       input:
-        item: [ingot-constantan]
+        item: [tf2-ingot-constantan]
       output:
-        item: [plate-constantan]
+        item: [tf2-plate-constantan]
   plate-copper:
     results:
-      - item: plate-copper
+      - item: tf2-plate-copper
     ingredients:
-      - item: ingot-copper
+      - item: tf2-ingot-copper
     energy: 4000
     data:
       input:
-        item: [ingot-copper]
+        item: [tf2-ingot-copper]
       output:
-        item: [plate-copper]
+        item: [tf2-plate-copper]
   plate-electrum:
     results:
-      - item: plate-electrum
+      - item: tf2-plate-electrum
     ingredients:
-      - item: ingot-electrum
+      - item: tf2-ingot-electrum
     energy: 4000
     data:
       input:
-        item: [ingot-electrum]
+        item: [tf2-ingot-electrum]
       output:
-        item: [plate-electrum]
+        item: [tf2-plate-electrum]
   plate-enderium:
     results:
-      - item: plate-enderium
+      - item: tf2-plate-enderium
     ingredients:
-      - item: ingot-enderium
+      - item: tf2-ingot-enderium
     energy: 4000
     data:
       input:
-        item: [ingot-enderium]
+        item: [tf2-ingot-enderium]
       output:
-        item: [plate-enderium]
+        item: [tf2-plate-enderium]
   plate-fluxed-electrum:
     results:
-      - item: plate-fluxed-electrum
+      - item: ra-plate-fluxed-electrum
     ingredients:
-      - item: ingot-fluxed-electrum
+      - item: ra-ingot-fluxed-electrum
     energy: 4000
     data:
       input:
-        item: [ingot-fluxed-electrum]
+        item: [ra-ingot-fluxed-electrum]
       output:
-        item: [plate-fluxed-electrum]
+        item: [ra-plate-fluxed-electrum]
   plate-gold:
     results:
-      - item: plate-gold
+      - item: tf2-plate-gold
     ingredients:
-      - item: ingot-gold
+      - item: mc-ingot-gold
     energy: 4000
     data:
       input:
-        item: [ingot-gold]
+        item: [mc-ingot-gold]
       output:
-        item: [plate-gold]
+        item: [tf2-plate-gold]
   plate-invar:
     results:
-      - item: plate-invar
+      - item: tf2-plate-invar
     ingredients:
-      - item: ingot-invar
+      - item: tf2-ingot-invar
     energy: 4000
     data:
       input:
-        item: [ingot-invar]
+        item: [tf2-ingot-invar]
       output:
-        item: [plate-invar]
+        item: [tf2-plate-invar]
   plate-iridium:
     results:
-      - item: plate-iridium
+      - item: tf2-plate-iridium
     ingredients:
-      - item: ingot-iridium
+      - item: tf2-ingot-iridium
     energy: 4000
     data:
       input:
-        item: [ingot-iridium]
+        item: [tf2-ingot-iridium]
       output:
-        item: [plate-iridium]
+        item: [tf2-plate-iridium]
   plate-iron:
     results:
-      - item: plate-iron
+      - item: tf2-plate-iron
     ingredients:
-      - item: ingot-iron
+      - item: mc-ingot-iron
     energy: 4000
     data:
       input:
-        item: [ingot-iron]
+        item: [mc-ingot-iron]
       output:
-        item: [plate-iron]
+        item: [tf2-plate-iron]
   plate-lead:
     results:
-      - item: plate-lead
+      - item: tf2-plate-lead
     ingredients:
-      - item: ingot-lead
+      - item: tf2-ingot-lead
     energy: 4000
     data:
       input:
-        item: [ingot-lead]
+        item: [tf2-ingot-lead]
       output:
-        item: [plate-lead]
+        item: [tf2-plate-lead]
   plate-lumium:
     results:
-      - item: plate-lumium
+      - item: tf2-plate-lumium
     ingredients:
-      - item: ingot-lumium
+      - item: tf2-ingot-lumium
     energy: 4000
     data:
       input:
-        item: [ingot-lumium]
+        item: [tf2-ingot-lumium]
       output:
-        item: [plate-lumium]
+        item: [tf2-plate-lumium]
   plate-mithril:
     results:
-      - item: plate-mithril
+      - item: tf2-plate-mithril
     ingredients:
-      - item: ingot-mithril
+      - item: tf2-ingot-mithril
     energy: 4000
     data:
       input:
-        item: [ingot-mithril]
+        item: [tf2-ingot-mithril]
       output:
-        item: [plate-mithril]
+        item: [tf2-plate-mithril]
   plate-nickel:
     results:
-      - item: plate-nickel
+      - item: tf2-plate-nickel
     ingredients:
-      - item: ingot-nickel
+      - item: tf2-ingot-nickel
     energy: 4000
     data:
       input:
-        item: [ingot-nickel]
+        item: [tf2-ingot-nickel]
       output:
-        item: [plate-nickel]
+        item: [tf2-plate-nickel]
   plate-platinum:
     results:
-      - item: plate-platinum
+      - item: tf2-plate-platinum
     ingredients:
-      - item: ingot-platinum
+      - item: tf2-ingot-platinum
     energy: 4000
     data:
       input:
-        item: [ingot-platinum]
+        item: [tf2-ingot-platinum]
       output:
-        item: [plate-platinum]
+        item: [tf2-plate-platinum]
   plate-signalum:
     results:
-      - item: plate-signalum
+      - item: tf2-plate-signalum
     ingredients:
-      - item: ingot-signalum
+      - item: tf2-ingot-signalum
     energy: 4000
     data:
       input:
-        item: [ingot-signalum]
+        item: [tf2-ingot-signalum]
       output:
-        item: [plate-signalum]
+        item: [tf2-plate-signalum]
   plate-silver:
     results:
-      - item: plate-silver
+      - item: tf2-plate-silver
     ingredients:
-      - item: ingot-silver
+      - item: tf2-ingot-silver
     energy: 4000
     data:
       input:
-        item: [ingot-silver]
+        item: [tf2-ingot-silver]
       output:
-        item: [plate-silver]
+        item: [tf2-plate-silver]
   plate-steel:
     results:
-      - item: plate-steel
+      - item: tf2-plate-steel
     ingredients:
-      - item: ingot-steel
+      - item: tf2-ingot-steel
     energy: 4000
     data:
       input:
-        item: [ingot-steel]
+        item: [tf2-ingot-steel]
       output:
-        item: [plate-steel]
+        item: [tf2-plate-steel]
   plate-tin:
     results:
-      - item: plate-tin
+      - item: tf2-plate-tin
     ingredients:
-      - item: ingot-tin
+      - item: tf2-ingot-tin
     energy: 4000
     data:
       input:
-        item: [ingot-tin]
+        item: [tf2-ingot-tin]
       output:
-        item: [plate-tin]
+        item: [tf2-plate-tin]

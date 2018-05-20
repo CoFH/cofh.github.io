@@ -1,95 +1,95 @@
 name: Clastic Deposition
-site: docs-te
+site: docs-te5
 url: augment-clastic-deposition/
 with-energy: true
 recipes:
   gravel:
     results:
-      - item: gravel
+      - item: mc-gravel
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 1500
     energy: 2400
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 1500
       output:
-        item: [gravel]
+        item: [mc-gravel]
   red-sand:
     results:
-      - item: red-sand
+      - item: mc-sand-red
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 1500
     energy: 3200
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 1500
       output:
-        item: [red-sand]
+        item: [mc-sand-red]
   red-sandstone:
     results:
-      - item: red-sandstone
+      - item: mc-sandstone-red
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 2000
     energy: 6400
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 2000
       output:
-        item: [red-sandstone]
+        item: [mc-sandstone-red]
   sand:
     results:
-      - item: sand
+      - item: mc-sand
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 1500
     energy: 3200
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 1500
       output:
-        item: [sand]
+        item: [mc-sand]
   sandstone:
     results:
-      - item: sandstone
+      - item: mc-sandstone
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 2000
     energy: 6400
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 2000
       output:
-        item: [sandstone]
+        item: [mc-sandstone]

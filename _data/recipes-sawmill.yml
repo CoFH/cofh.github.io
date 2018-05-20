@@ -1,163 +1,163 @@
 name: Sawmill
-site: docs-te
+site: docs-te5
 url: sawmill/
 with-energy: true
 recipes:
   recycling-boat:
     results:
-      - item-group: wood-planks
-      - item: sawdust
+      - item-group: mc-wood-planks
+      - item: tf2-sawdust
     ingredients:
-      - item-group: boat
+      - item-group: mc-boat
     energy: 2000
     data:
       input:
-        item-group: boat
+        item-group: mc-boat
       primary-output:
-        item-group: wood-planks
+        item-group: mc-wood-planks
         amount: 2
       secondary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
       secondary-chance: 125
   recycling-boots-leather:
     results:
-      - item: leather
+      - item: mc-leather
     ingredients:
-      - item: boots-leather
+      - item: mc-armor-boots-leather
     energy: 1500
     data:
       input:
-        item: [boots-leather]
+        item: [mc-armor-boots-leather]
       primary-output:
-        item: [leather]
+        item: [mc-leather]
         amount: 2
   recycling-chestplate-leather:
     results:
-      - item: leather
+      - item: mc-leather
     ingredients:
-      - item: chestplate-leather
+      - item: mc-armor-chestplate-leather
     energy: 1500
     data:
       input:
-        item: [chestplate-leather]
+        item: [mc-armor-chestplate-leather]
       primary-output:
-        item: [leather]
+        item: [mc-leather]
         amount: 4
   recycling-door:
     results:
-      - item-group: wood-planks
-      - item: sawdust
+      - item-group: mc-wood-planks
+      - item: tf2-sawdust
     ingredients:
-      - item-group: door-wood
+      - item-group: mc-door-wood
     energy: 2000
     data:
       input:
-        item-group: door-wood
+        item-group: mc-door-wood
       primary-output:
-        item-group: wood-planks
+        item-group: mc-wood-planks
       secondary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
       secondary-chance: 50
   recycling-fence:
     results:
-      - item-group: wood-planks
-      - item: sawdust
+      - item-group: mc-wood-planks
+      - item: tf2-sawdust
     ingredients:
-      - item-group: fence-wood
+      - item-group: mc-fence
     energy: 2000
     data:
       input:
-        item-group: fence-wood
+        item-group: mc-fence
         amount: 2
       primary-output:
-        item-group: wood-planks
+        item-group: mc-wood-planks
       secondary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
       secondary-chance: 25
   recycling-fence-gate:
     results:
-      - item-group: wood-planks
-      - item: sawdust
+      - item-group: mc-wood-planks
+      - item: tf2-sawdust
     ingredients:
-      - item-group: fence-gate
+      - item-group: mc-fence-gate
     energy: 2000
     data:
       input:
-        item-group: fence-gate
+        item-group: mc-fence-gate
       primary-output:
-        item-group: wood-planks
+        item-group: mc-wood-planks
       secondary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
       secondary-chance: 125
   recycling-helmet-leather:
     results:
-      - item: leather
+      - item: mc-leather
     ingredients:
-      - item: helmet-leather
+      - item: mc-armor-helmet-leather
     energy: 1500
     data:
       input:
-        item: [helmet-leather]
+        item: [mc-armor-helmet-leather]
       primary-output:
-        item: [leather]
+        item: [mc-leather]
         amount: 2
   recycling-leggings-leather:
     results:
-      - item: leather
+      - item: mc-leather
     ingredients:
-      - item: leggings-leather
+      - item: mc-armor-leggings-leather
     energy: 1500
     data:
       input:
-        item: [leggings-leather]
+        item: [mc-armor-leggings-leather]
       primary-output:
-        item: [leather]
+        item: [mc-leather]
         amount: 3
   recycling-melon:
     results:
-      - item: melon-slice
-      - item: melon-seeds
+      - item: mc-melon-slice
+      - item: mc-melon-seeds
     ingredients:
-      - item: melon
+      - item: mc-melon
     energy: 1500
     data:
       input:
-        item: [melon]
+        item: [mc-melon]
       primary-output:
-        item: [melon-slice]
+        item: [mc-melon-slice]
         amount: 9
       secondary-output:
-        item: [melon-seeds]
+        item: [mc-melon-seeds]
       secondary-chance: 10
   recycling-wood-stairs:
     results:
-      - item-group: wood-planks
-      - item: sawdust
+      - item-group: mc-wood-planks
+      - item: tf2-sawdust
     ingredients:
-      - item-group: wood-stairs
+      - item-group: mc-wood-stairs
     energy: 2000
     data:
       input:
-        item-group: wood-stairs
+        item-group: mc-wood-stairs
         amount: 2
       primary-output:
-        item-group: wood-planks
+        item-group: mc-wood-planks
       secondary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
       secondary-chance: 25
   wood-processing:
     results:
-      - item-group: wood-planks
-      - item: sawdust
+      - item-group: mc-wood-planks
+      - item: tf2-sawdust
     ingredients:
-      - item-group: wood-log
+      - item-group: mc-wood-log
     energy: 1000
     data:
       input:
-        item-group: wood-log
+        item-group: mc-wood-log
       primary-output:
-        item-group: wood-planks
+        item-group: mc-wood-planks
         amount: 6
       secondary-output:
-        item: [sawdust]
+        item: [tf2-sawdust]
       secondary-chance: 100

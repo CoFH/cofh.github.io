@@ -1,88 +1,88 @@
-aerotheum:
-  name: Zephyrean Aerotheum
-  site: docs-tf
-  url: zephyrean-aerotheum/
-coal:
-  name: Liquifacted Coal
-  site: docs-tf
-  url: liquifacted-coal/
-creosote-oil:
-  name: Creosote Oil
-  site: docs-tf
-  url: creosote-oil/
-crude-oil:
-  name: Crude Oil
-  site: docs-tf
-  url: crude-oil/
-cryotheum:
-  name: Gelid Cryotheum
-  site: docs-tf
-  url: gelid-cryotheum/
-ender:
-  name: Resonant Ender
-  site: docs-tf
-  url: resonant-ender/
-experience:
-  name: Essence of Knowledge
-  site: docs-tf
-  url: essence-of-knowledge/
-glowstone:
-  name: Energized Glowstone
-  site: docs-tf
-  url: energized-glowstone/
-lava:
+mc-lava:
   name: Lava
   site: mc-wiki
   url: Lava
-mana:
-  name: Primal Mana
-  site: docs-tf
-  url: primal-mana/
-mushroom-stew:
-  name: Mushroom Stew
-  site: docs-tf
-  url: mushroom-stew/
-naphtha:
-  name: Naphtha
-  site: docs-tf
-  url: naphtha/
-petrotheum:
-  name: Tectonic Petrotheum
-  site: docs-tf
-  url: tectonic-petrotheum/
-pyrotheum:
-  name: Blazing Pyrotheum
-  site: docs-tf
-  url: blazing-pyrotheum/
-redstone:
-  name: Destabilized Redstone
-  site: docs-tf
-  url: destabilized-redstone/
-refined-fuel:
-  name: Refined Fuel
-  site: docs-tf
-  url: refined-fuel/
-resin:
-  name: Resin
-  site: docs-tf
-  url: resin/
-sap:
-  name: Sap
-  site: docs-tf
-  url: sap/
-steam:
-  name: Steam
-  site: docs-tf
-  url: steam/
-syrup:
-  name: Syrup
-  site: docs-tf
-  url: syrup/
-tree-oil:
-  name: Tree Oil
-  site: docs-tf
-  url: tree-oil/
-water:
+mc-water:
   name: Water
   site: mc-wiki
   url: Water
+tf2-aerotheum:
+  name: Zephyrean Aerotheum
+  site: docs-tf2
+  url: zephyrean-aerotheum/
+tf2-coal:
+  name: Liquifacted Coal
+  site: docs-tf2
+  url: liquifacted-coal/
+tf2-creosote-oil:
+  name: Creosote Oil
+  site: docs-tf2
+  url: creosote-oil/
+tf2-crude-oil:
+  name: Crude Oil
+  site: docs-tf2
+  url: crude-oil/
+tf2-cryotheum:
+  name: Gelid Cryotheum
+  site: docs-tf2
+  url: gelid-cryotheum/
+tf2-ender:
+  name: Resonant Ender
+  site: docs-tf2
+  url: resonant-ender/
+tf2-experience:
+  name: Essence of Knowledge
+  site: docs-tf2
+  url: essence-of-knowledge/
+tf2-glowstone:
+  name: Energized Glowstone
+  site: docs-tf2
+  url: energized-glowstone/
+tf2-mana:
+  name: Primal Mana
+  site: docs-tf2
+  url: primal-mana/
+tf2-mushroom-stew:
+  name: Mushroom Stew
+  site: docs-tf2
+  url: mushroom-stew/
+tf2-naphtha:
+  name: Naphtha
+  site: docs-tf2
+  url: naphtha/
+tf2-petrotheum:
+  name: Tectonic Petrotheum
+  site: docs-tf2
+  url: tectonic-petrotheum/
+tf2-pyrotheum:
+  name: Blazing Pyrotheum
+  site: docs-tf2
+  url: blazing-pyrotheum/
+tf2-redstone:
+  name: Destabilized Redstone
+  site: docs-tf2
+  url: destabilized-redstone/
+tf2-refined-fuel:
+  name: Refined Fuel
+  site: docs-tf2
+  url: refined-fuel/
+tf2-resin:
+  name: Resin
+  site: docs-tf2
+  url: resin/
+tf2-sap:
+  name: Sap
+  site: docs-tf2
+  url: sap/
+tf2-steam:
+  name: Steam
+  site: docs-tf2
+  url: steam/
+tf2-syrup:
+  name: Syrup
+  site: docs-tf2
+  url: syrup/
+tf2-tree-oil:
+  name: Tree Oil
+  site: docs-tf2
+  url: tree-oil/

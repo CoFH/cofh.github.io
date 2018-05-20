@@ -4,261 +4,261 @@ url: Smelting
 recipes:
   charcoal-from-sawdust:
     results:
-      - item: charcoal
+      - item: mc-charcoal
     ingredients:
-      - item: sawdust-compressed
+      - item: tf2-sawdust-compressed
     data:
       input:
-        item: [sawdust-compressed]
+        item: [tf2-sawdust-compressed]
       output:
-        item: [charcoal]
+        item: [mc-charcoal]
   ingot-aluminum-from-dust:
     results:
-      - item: ingot-aluminum
+      - item: tf2-ingot-aluminum
     ingredients:
-      - item: dust-aluminum
+      - item: tf2-dust-aluminum
     data:
       input:
-        item: [dust-aluminum]
+        item: [tf2-dust-aluminum]
       output:
-        item: [ingot-aluminum]
+        item: [tf2-ingot-aluminum]
   ingot-bronze-from-dust:
     results:
-      - item: ingot-bronze
+      - item: tf2-ingot-bronze
     ingredients:
-      - item: dust-bronze
+      - item: tf2-dust-bronze
     data:
       input:
-        item: [dust-bronze]
+        item: [tf2-dust-bronze]
       output:
-        item: [ingot-bronze]
+        item: [tf2-ingot-bronze]
   ingot-constantan-from-dust:
     results:
-      - item: ingot-constantan
+      - item: tf2-ingot-constantan
     ingredients:
-      - item: dust-constantan
+      - item: tf2-dust-constantan
     data:
       input:
-        item: [dust-constantan]
+        item: [tf2-dust-constantan]
       output:
-        item: [ingot-constantan]
+        item: [tf2-ingot-constantan]
   ingot-copper-from-dust:
     results:
-      - item: ingot-copper
+      - item: tf2-ingot-copper
     ingredients:
-      - item: dust-copper
+      - item: tf2-dust-copper
     data:
       input:
-        item: [dust-copper]
+        item: [tf2-dust-copper]
       output:
-        item: [ingot-copper]
+        item: [tf2-ingot-copper]
   ingot-electrum-from-dust:
     results:
-      - item: ingot-electrum
+      - item: tf2-ingot-electrum
     ingredients:
-      - item: dust-electrum
+      - item: tf2-dust-electrum
     data:
       input:
-        item: [dust-electrum]
+        item: [tf2-dust-electrum]
       output:
-        item: [ingot-electrum]
+        item: [tf2-ingot-electrum]
   ingot-gold-from-dust:
     results:
-      - item: ingot-gold
+      - item: mc-ingot-gold
     ingredients:
-      - item: dust-gold
+      - item: tf2-dust-gold
     data:
       input:
-        item: [dust-gold]
+        item: [tf2-dust-gold]
       output:
-        item: [ingot-gold]
+        item: [mc-ingot-gold]
   ingot-invar-from-dust:
     results:
-      - item: ingot-invar
+      - item: tf2-ingot-invar
     ingredients:
-      - item: dust-invar
+      - item: tf2-dust-invar
     data:
       input:
-        item: [dust-invar]
+        item: [tf2-dust-invar]
       output:
-        item: [ingot-invar]
+        item: [tf2-ingot-invar]
   ingot-iridium-from-dust:
     results:
-      - item: ingot-iridium
+      - item: tf2-ingot-iridium
     ingredients:
-      - item: dust-iridium
+      - item: tf2-dust-iridium
     data:
       input:
-        item: [dust-iridium]
+        item: [tf2-dust-iridium]
       output:
-        item: [ingot-iridium]
+        item: [tf2-ingot-iridium]
   ingot-iron-from-dust:
     results:
-      - item: ingot-iron
+      - item: mc-ingot-iron
     ingredients:
-      - item: dust-iron
+      - item: tf2-dust-iron
     data:
       input:
-        item: [dust-iron]
+        item: [tf2-dust-iron]
       output:
-        item: [ingot-iron]
+        item: [mc-ingot-iron]
   ingot-lead-from-dust:
     results:
-      - item: ingot-lead
+      - item: tf2-ingot-lead
     ingredients:
-      - item: dust-lead
+      - item: tf2-dust-lead
     data:
       input:
-        item: [dust-lead]
+        item: [tf2-dust-lead]
       output:
-        item: [ingot-lead]
+        item: [tf2-ingot-lead]
   ingot-mithril-from-dust:
     results:
-      - item: ingot-mithril
+      - item: tf2-ingot-mithril
     ingredients:
-      - item: dust-mithril
+      - item: tf2-dust-mithril
     data:
       input:
-        item: [dust-mithril]
+        item: [tf2-dust-mithril]
       output:
-        item: [ingot-mithril]
+        item: [tf2-ingot-mithril]
   ingot-nickel-from-dust:
     results:
-      - item: ingot-nickel
+      - item: tf2-ingot-nickel
     ingredients:
-      - item: dust-nickel
+      - item: tf2-dust-nickel
     data:
       input:
-        item: [dust-nickel]
+        item: [tf2-dust-nickel]
       output:
-        item: [ingot-nickel]
+        item: [tf2-ingot-nickel]
   ingot-platinum-from-dust:
     results:
-      - item: ingot-platinum
+      - item: tf2-ingot-platinum
     ingredients:
-      - item: dust-platinum
+      - item: tf2-dust-platinum
     data:
       input:
-        item: [dust-platinum]
+        item: [tf2-dust-platinum]
       output:
-        item: [ingot-platinum]
+        item: [tf2-ingot-platinum]
   ingot-silver-from-dust:
     results:
-      - item: ingot-silver
+      - item: tf2-ingot-silver
     ingredients:
-      - item: dust-silver
+      - item: tf2-dust-silver
     data:
       input:
-        item: [dust-silver]
+        item: [tf2-dust-silver]
       output:
-        item: [ingot-silver]
+        item: [tf2-ingot-silver]
   ingot-tin-from-dust:
     results:
-      - item: ingot-tin
+      - item: tf2-ingot-tin
     ingredients:
-      - item: dust-tin
+      - item: tf2-dust-tin
     data:
       input:
-        item: [dust-tin]
+        item: [tf2-dust-tin]
       output:
-        item: [ingot-tin]
+        item: [tf2-ingot-tin]
   ore-processing-aluminum:
     results:
-      - item: ingot-aluminum
+      - item: tf2-ingot-aluminum
     ingredients:
-      - item: ore-aluminum
+      - item: tf2-ore-aluminum
     data:
       input:
-        item: [ore-aluminum]
+        item: [tf2-ore-aluminum]
       output:
-        item: [ingot-aluminum]
+        item: [tf2-ingot-aluminum]
   ore-processing-copper:
     results:
-      - item: ingot-copper
+      - item: tf2-ingot-copper
     ingredients:
-      - item: ore-copper
+      - item: tf2-ore-copper
     data:
       input:
-        item: [ore-copper]
+        item: [tf2-ore-copper]
       output:
-        item: [ingot-copper]
+        item: [tf2-ingot-copper]
   ore-processing-iridium:
     results:
-      - item: ingot-iridium
+      - item: tf2-ingot-iridium
     ingredients:
-      - item: ore-iridium
+      - item: tf2-ore-iridium
     data:
       input:
-        item: [ore-iridium]
+        item: [tf2-ore-iridium]
       output:
-        item: [ingot-iridium]
+        item: [tf2-ingot-iridium]
   ore-processing-lead:
     results:
-      - item: ingot-lead
+      - item: tf2-ingot-lead
     ingredients:
-      - item: ore-lead
+      - item: tf2-ore-lead
     data:
       input:
-        item: [ore-lead]
+        item: [tf2-ore-lead]
       output:
-        item: [ingot-lead]
+        item: [tf2-ingot-lead]
   ore-processing-mithril:
     results:
-      - item: ingot-mithril
+      - item: tf2-ingot-mithril
     ingredients:
-      - item: ore-mithril
+      - item: tf2-ore-mithril
     data:
       input:
-        item: [ore-mithril]
+        item: [tf2-ore-mithril]
       output:
-        item: [ingot-mithril]
+        item: [tf2-ingot-mithril]
   ore-processing-nickel:
     results:
-      - item: ingot-nickel
+      - item: tf2-ingot-nickel
     ingredients:
-      - item: ore-nickel
+      - item: tf2-ore-nickel
     data:
       input:
-        item: [ore-nickel]
+        item: [tf2-ore-nickel]
       output:
-        item: [ingot-nickel]
+        item: [tf2-ingot-nickel]
   ore-processing-platinum:
     results:
-      - item: ingot-platinum
+      - item: tf2-ingot-platinum
     ingredients:
-      - item: ore-platinum
+      - item: tf2-ore-platinum
     data:
       input:
-        item: [ore-platinum]
+        item: [tf2-ore-platinum]
       output:
-        item: [ingot-platinum]
+        item: [tf2-ingot-platinum]
   ore-processing-silver:
     results:
-      - item: ingot-silver
+      - item: tf2-ingot-silver
     ingredients:
-      - item: ore-silver
+      - item: tf2-ore-silver
     data:
       input:
-        item: [ore-silver]
+        item: [tf2-ore-silver]
       output:
-        item: [ingot-silver]
+        item: [tf2-ingot-silver]
   ore-processing-tin:
     results:
-      - item: ingot-tin
+      - item: tf2-ingot-tin
     ingredients:
-      - item: ore-tin
+      - item: tf2-ore-tin
     data:
       input:
-        item: [ore-tin]
+        item: [tf2-ore-tin]
       output:
-        item: [ingot-tin]
+        item: [tf2-ingot-tin]
   rockwool:
     results:
-      - item: rockwool-light-gray
+      - item: tf2-rockwool-light-gray
     ingredients:
-      - item: slag
+      - item: tf2-slag
     data:
       input:
-        item: [slag]
+        item: [tf2-slag]
       output:
-        item: [rockwool-light-gray]
+        item: [tf2-rockwool-light-gray]

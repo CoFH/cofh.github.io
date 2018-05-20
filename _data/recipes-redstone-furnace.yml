@@ -1,30 +1,30 @@
 name: Redstone Furnace
-site: docs-te
+site: docs-te5
 url: redstone-furnace/
 with-energy: true
 recipes:
   cactus-green:
     results:
-      - item: cactus-green
+      - item: mc-cactus-green
     ingredients:
-      - item: cactus
+      - item: mc-cactus
     energy: 1000
     data:
       input:
-        item: [cactus]
+        item: [mc-cactus]
       output:
-        item: [cactus-green]
+        item: [mc-cactus-green]
   food:
     results:
-      - item-group: food-cooked
+      - item-group: mc-food-cooked
     ingredients:
-      - item-group: food-raw
+      - item-group: mc-food-raw
     energy: 1000
     data:
       input:
-        item-group: food-raw
+        item-group: mc-food-raw
       output:
-        item-group: food-cooked
+        item-group: mc-food-cooked
   ingot-from-dust:
     results:
       - html: 'Metal Ingot'
@@ -34,69 +34,69 @@ recipes:
     data:
       input:
         item:
-          - dust-iron
-          - dust-gold
-          - dust-copper
-          - dust-tin
-          - dust-silver
-          - dust-lead
-          - dust-nickel
-          - dust-platinum
-          - dust-iridium
-          - dust-mithril
-          - dust-electrum
-          - dust-invar
-          - dust-bronze
-          - dust-constantan
+          - tf2-dust-iron
+          - tf2-dust-gold
+          - tf2-dust-copper
+          - tf2-dust-tin
+          - tf2-dust-silver
+          - tf2-dust-lead
+          - tf2-dust-nickel
+          - tf2-dust-platinum
+          - tf2-dust-iridium
+          - tf2-dust-mithril
+          - tf2-dust-electrum
+          - tf2-dust-invar
+          - tf2-dust-bronze
+          - tf2-dust-constantan
       output:
         item:
-          - ingot-iron
-          - ingot-gold
-          - ingot-copper
-          - ingot-tin
-          - ingot-silver
-          - ingot-lead
-          - ingot-nickel
-          - ingot-platinum
-          - ingot-iridium
-          - ingot-mithril
-          - ingot-electrum
-          - ingot-invar
-          - ingot-bronze
-          - ingot-constantan
+          - mc-ingot-iron
+          - mc-ingot-gold
+          - tf2-ingot-copper
+          - tf2-ingot-tin
+          - tf2-ingot-silver
+          - tf2-ingot-lead
+          - tf2-ingot-nickel
+          - tf2-ingot-platinum
+          - tf2-ingot-iridium
+          - tf2-ingot-mithril
+          - tf2-ingot-electrum
+          - tf2-ingot-invar
+          - tf2-ingot-bronze
+          - tf2-ingot-constantan
   leather:
     results:
-      - item: leather
+      - item: mc-leather
     ingredients:
-      - item: rotten-flesh
+      - item: mc-rotten-flesh
     energy: 4000
     data:
       input:
-        item: [rotten-flesh]
+        item: [mc-rotten-flesh]
         amount: 4
       output:
-        item: [leather]
+        item: [mc-leather]
   ore-processing-lapis-lazuli:
     results:
-      - item: lapis-lazuli
+      - item: mc-lapis-lazuli
     ingredients:
-      - item: ore-lapis-lazuli
+      - item: mc-ore-lapis-lazuli
     energy: 2000
     data:
       input:
-        item: [ore-lapis-lazuli]
+        item: [mc-ore-lapis-lazuli]
       output:
-        item: [lapis-lazuli]
+        item: [mc-lapis-lazuli]
         amount: 4
   ore-processing-redstone:
     results:
-      - item: redstone
+      - item: mc-redstone
     ingredients:
-      - item: ore-redstone
+      - item: mc-ore-redstone
     energy: 2000
     data:
       input:
-        item: [ore-redstone]
+        item: [mc-ore-redstone]
       output:
-        item: [redstone]
+        item: [mc-redstone]
         amount: 4

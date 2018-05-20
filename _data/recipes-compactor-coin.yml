@@ -1,245 +1,245 @@
 name: Numismatic Press
-site: docs-te
+site: docs-te5
 url: augment-numismatic-press/
 with-energy: true
 recipes:
   coin:
     results:
-      - item-group: coin-metal
+      - item-group: tf2-coin-metal
     ingredients:
-      - item-group: ingot-metal
+      - item-group: ingot-metal-with-tf2
     energy: 4000
     data:
       input:
-        item-group: ingot-metal
+        item-group: ingot-metal-with-tf2
       output:
-        item-group: coin-metal
+        item-group: tf2-coin-metal
         amount: 3
   coin-aluminum:
     results:
-      - item: coin-aluminum
+      - item: tf2-coin-aluminum
     ingredients:
-      - item: ingot-aluminum
+      - item: tf2-ingot-aluminum
     energy: 4000
     data:
       input:
-        item: [ingot-aluminum]
+        item: [tf2-ingot-aluminum]
       output:
-        item: [coin-aluminum]
+        item: [tf2-coin-aluminum]
         amount: 3
   coin-bronze:
     results:
-      - item: coin-bronze
+      - item: tf2-coin-bronze
     ingredients:
-      - item: ingot-bronze
+      - item: tf2-ingot-bronze
     energy: 4000
     data:
       input:
-        item: [ingot-bronze]
+        item: [tf2-ingot-bronze]
       output:
-        item: [coin-bronze]
+        item: [tf2-coin-bronze]
         amount: 3
   coin-constantan:
     results:
-      - item: coin-constantan
+      - item: tf2-coin-constantan
     ingredients:
-      - item: ingot-constantan
+      - item: tf2-ingot-constantan
     energy: 4000
     data:
       input:
-        item: [ingot-constantan]
+        item: [tf2-ingot-constantan]
       output:
-        item: [coin-constantan]
+        item: [tf2-coin-constantan]
         amount: 3
   coin-copper:
     results:
-      - item: coin-copper
+      - item: tf2-coin-copper
     ingredients:
-      - item: ingot-copper
+      - item: tf2-ingot-copper
     energy: 4000
     data:
       input:
-        item: [ingot-copper]
+        item: [tf2-ingot-copper]
       output:
-        item: [coin-copper]
+        item: [tf2-coin-copper]
         amount: 3
   coin-electrum:
     results:
-      - item: coin-electrum
+      - item: tf2-coin-electrum
     ingredients:
-      - item: ingot-electrum
+      - item: tf2-ingot-electrum
     energy: 4000
     data:
       input:
-        item: [ingot-electrum]
+        item: [tf2-ingot-electrum]
       output:
-        item: [coin-electrum]
+        item: [tf2-coin-electrum]
         amount: 3
   coin-enderium:
     results:
-      - item: coin-enderium
+      - item: tf2-coin-enderium
     ingredients:
-      - item: ingot-enderium
+      - item: tf2-ingot-enderium
     energy: 4000
     data:
       input:
-        item: [ingot-enderium]
+        item: [tf2-ingot-enderium]
       output:
-        item: [coin-enderium]
+        item: [tf2-coin-enderium]
         amount: 3
   coin-gold:
     results:
-      - item: coin-gold
+      - item: tf2-coin-gold
     ingredients:
-      - item: ingot-gold
+      - item: mc-ingot-gold
     energy: 4000
     data:
       input:
-        item: [ingot-gold]
+        item: [mc-ingot-gold]
       output:
-        item: [coin-gold]
+        item: [tf2-coin-gold]
         amount: 3
   coin-invar:
     results:
-      - item: coin-invar
+      - item: tf2-coin-invar
     ingredients:
-      - item: ingot-invar
+      - item: tf2-ingot-invar
     energy: 4000
     data:
       input:
-        item: [ingot-invar]
+        item: [tf2-ingot-invar]
       output:
-        item: [coin-invar]
+        item: [tf2-coin-invar]
         amount: 3
   coin-iridium:
     results:
-      - item: coin-iridium
+      - item: tf2-coin-iridium
     ingredients:
-      - item: ingot-iridium
+      - item: tf2-ingot-iridium
     energy: 4000
     data:
       input:
-        item: [ingot-iridium]
+        item: [tf2-ingot-iridium]
       output:
-        item: [coin-iridium]
+        item: [tf2-coin-iridium]
         amount: 3
   coin-iron:
     results:
-      - item: coin-iron
+      - item: tf2-coin-iron
     ingredients:
-      - item: ingot-iron
+      - item: mc-ingot-iron
     energy: 4000
     data:
       input:
-        item: [ingot-iron]
+        item: [mc-ingot-iron]
       output:
-        item: [coin-iron]
+        item: [tf2-coin-iron]
         amount: 3
   coin-lead:
     results:
-      - item: coin-lead
+      - item: tf2-coin-lead
     ingredients:
-      - item: ingot-lead
+      - item: tf2-ingot-lead
     energy: 4000
     data:
       input:
-        item: [ingot-lead]
+        item: [tf2-ingot-lead]
       output:
-        item: [coin-lead]
+        item: [tf2-coin-lead]
         amount: 3
   coin-lumium:
     results:
-      - item: coin-lumium
+      - item: tf2-coin-lumium
     ingredients:
-      - item: ingot-lumium
+      - item: tf2-ingot-lumium
     energy: 4000
     data:
       input:
-        item: [ingot-lumium]
+        item: [tf2-ingot-lumium]
       output:
-        item: [coin-lumium]
+        item: [tf2-coin-lumium]
         amount: 3
   coin-mithril:
     results:
-      - item: coin-mithril
+      - item: tf2-coin-mithril
     ingredients:
-      - item: ingot-mithril
+      - item: tf2-ingot-mithril
     energy: 4000
     data:
       input:
-        item: [ingot-mithril]
+        item: [tf2-ingot-mithril]
       output:
-        item: [coin-mithril]
+        item: [tf2-coin-mithril]
         amount: 3
   coin-nickel:
     results:
-      - item: coin-nickel
+      - item: tf2-coin-nickel
     ingredients:
-      - item: ingot-nickel
+      - item: tf2-ingot-nickel
     energy: 4000
     data:
       input:
-        item: [ingot-nickel]
+        item: [tf2-ingot-nickel]
       output:
-        item: [coin-nickel]
+        item: [tf2-coin-nickel]
         amount: 3
   coin-platinum:
     results:
-      - item: coin-platinum
+      - item: tf2-coin-platinum
     ingredients:
-      - item: ingot-platinum
+      - item: tf2-ingot-platinum
     energy: 4000
     data:
       input:
-        item: [ingot-platinum]
+        item: [tf2-ingot-platinum]
       output:
-        item: [coin-platinum]
+        item: [tf2-coin-platinum]
         amount: 3
   coin-signalum:
     results:
-      - item: coin-signalum
+      - item: tf2-coin-signalum
     ingredients:
-      - item: ingot-signalum
+      - item: tf2-ingot-signalum
     energy: 4000
     data:
       input:
-        item: [ingot-signalum]
+        item: [tf2-ingot-signalum]
       output:
-        item: [coin-signalum]
+        item: [tf2-coin-signalum]
         amount: 3
   coin-silver:
     results:
-      - item: coin-silver
+      - item: tf2-coin-silver
     ingredients:
-      - item: ingot-silver
+      - item: tf2-ingot-silver
     energy: 4000
     data:
       input:
-        item: [ingot-silver]
+        item: [tf2-ingot-silver]
       output:
-        item: [coin-silver]
+        item: [tf2-coin-silver]
         amount: 3
   coin-steel:
     results:
-      - item: coin-steel
+      - item: tf2-coin-steel
     ingredients:
-      - item: ingot-steel
+      - item: tf2-ingot-steel
     energy: 4000
     data:
       input:
-        item: [ingot-steel]
+        item: [tf2-ingot-steel]
       output:
-        item: [coin-steel]
+        item: [tf2-coin-steel]
         amount: 3
   coin-tin:
     results:
-      - item: coin-tin
+      - item: tf2-coin-tin
     ingredients:
-      - item: ingot-tin
+      - item: tf2-ingot-tin
     energy: 4000
     data:
       input:
-        item: [ingot-tin]
+        item: [tf2-ingot-tin]
       output:
-        item: [coin-tin]
+        item: [tf2-coin-tin]
         amount: 3
