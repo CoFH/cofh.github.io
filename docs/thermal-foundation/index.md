@@ -17,7 +17,7 @@ armor made of various materials.
 When Thermal Foundation is installed, several new features such as ores are
 generated in the world using [CoFH World](/) (if installed).
 This world generation can be tweaked or disabled using CoFH World's
-[configuration](/docs/world-generator-configuration/).
+[configuration](/docs/cofh-world/world-generator-configuration/).
 
 
 <div class="uk-margin-top uk-button-group">

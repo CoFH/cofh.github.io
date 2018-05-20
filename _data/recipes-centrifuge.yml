@@ -1,257 +1,257 @@
 name: Centrifugal Separator
-site: cofh
+site: docs-te5
 url: centrifugal-separator/
 with-energy: true
 all-results-bold: true
 recipes:
   concrete-powder:
     results:
-      - item: gravel
-      - item: sand
-      - item-group: pigment
+      - item: mc-gravel
+      - item: mc-sand
+      - item-group: tf2-pigment
     ingredients:
-      - item-group: concrete-powder
+      - item-group: mc-concrete-powder
     energy: 2000
     data:
       input:
-        item-group: concrete-powder
+        item-group: mc-concrete-powder
         amount: 2
       output-1:
-        item: [gravel]
+        item: [mc-gravel]
       output-2:
-        item: [sand]
+        item: [mc-sand]
       output-3:
-        item-group: pigment
+        item-group: tf2-pigment
       output-3-chance: 10
   dust-aerotheum:
     results:
-      - item: blitz-powder
-      - item: niter
-      - item: redstone
+      - item: tf2-blitz-powder
+      - item: tf2-niter
+      - item: mc-redstone
     ingredients:
-      - item: dust-aerotheum
+      - item: tf2-dust-aerotheum
     energy: 4000
     data:
       input:
-        item: [dust-aerotheum]
+        item: [tf2-dust-aerotheum]
         amount: 2
       output-1:
-        item: [blitz-powder]
+        item: [tf2-blitz-powder]
         amount: 2
       output-2:
-        item: [niter]
+        item: [tf2-niter]
       output-3:
-        item: [redstone]
+        item: [mc-redstone]
   dust-bronze:
     results:
-      - item: dust-copper
-      - item: dust-tin
+      - item: tf2-dust-copper
+      - item: tf2-dust-tin
     ingredients:
-      - item: dust-bronze
+      - item: tf2-dust-bronze
     energy: 8000
     data:
       input:
-        item: [dust-bronze]
+        item: [tf2-dust-bronze]
         amount: 4
       output-1:
-        item: [dust-copper]
+        item: [tf2-dust-copper]
         amount: 3
       output-2:
-        item: [dust-tin]
+        item: [tf2-dust-tin]
   dust-constantan:
     results:
-      - item: dust-copper
-      - item: dust-nickel
+      - item: tf2-dust-copper
+      - item: tf2-dust-nickel
     ingredients:
-      - item: dust-constantan
+      - item: tf2-dust-constantan
     energy: 4000
     data:
       input:
-        item: [dust-constantan]
+        item: [tf2-dust-constantan]
         amount: 2
       output-1:
-        item: [dust-copper]
+        item: [tf2-dust-copper]
       output-2:
-        item: [dust-nickel]
+        item: [tf2-dust-nickel]
   dust-cryotheum:
     results:
-      - item: blizz-powder
-      - item: snowball
-      - item: redstone
+      - item: tf2-blizz-powder
+      - item: mc-snowball
+      - item: mc-redstone
     ingredients:
-      - item: dust-cryotheum
+      - item: tf2-dust-cryotheum
     energy: 4000
     data:
       input:
-        item: [dust-cryotheum]
+        item: [tf2-dust-cryotheum]
         amount: 2
       output-1:
-        item: [blizz-powder]
+        item: [tf2-blizz-powder]
         amount: 2
       output-2:
-        item: [snowball]
+        item: [mc-snowball]
       output-3:
-        item: [redstone]
+        item: [mc-redstone]
   dust-electrum:
     results:
-      - item: dust-gold
-      - item: dust-silver
+      - item: tf2-dust-gold
+      - item: tf2-dust-silver
     ingredients:
-      - item: dust-electrum
+      - item: tf2-dust-electrum
     energy: 4000
     data:
       input:
-        item: [dust-electrum]
+        item: [tf2-dust-electrum]
         amount: 2
       output-1:
-        item: [dust-gold]
+        item: [tf2-dust-gold]
       output-2:
-        item: [dust-silver]
+        item: [tf2-dust-silver]
   dust-enderium:
     results:
-      - item: dust-lead
-      - item: dust-platinum
-      - fluid: ender
+      - item: tf2-dust-lead
+      - item: tf2-dust-platinum
+      - fluid: tf2-ender
         fluid-amount: 1000
     ingredients:
-      - item: dust-enderium
+      - item: tf2-dust-enderium
     energy: 8000
     data:
       input:
-        item: [dust-enderium]
+        item: [tf2-dust-enderium]
         amount: 4
       output-1:
-        item: [dust-lead]
+        item: [tf2-dust-lead]
         amount: 3
       output-2:
-        item: [dust-platinum]
+        item: [tf2-dust-platinum]
       fluid-output:
-        fluid: ender
+        fluid: tf2-ender
         amount: 1000
   dust-invar:
     results:
-      - item: dust-iron
-      - item: dust-nickel
+      - item: tf2-dust-iron
+      - item: tf2-dust-nickel
     ingredients:
-      - item: dust-invar
+      - item: tf2-dust-invar
     energy: 6000
     data:
       input:
-        item: [dust-invar]
+        item: [tf2-dust-invar]
         amount: 3
       output-1:
-        item: [dust-iron]
+        item: [tf2-dust-iron]
         amount: 2
       output-2:
-        item: [dust-nickel]
+        item: [tf2-dust-nickel]
   dust-lumium:
     results:
-      - item: dust-tin
-      - item: dust-silver
-      - fluid: glowstone
+      - item: tf2-dust-tin
+      - item: tf2-dust-silver
+      - fluid: tf2-glowstone
         fluid-amount: 1000
     ingredients:
-      - item: dust-lumium
+      - item: tf2-dust-lumium
     energy: 8000
     data:
       input:
-        item: [dust-lumium]
+        item: [tf2-dust-lumium]
         amount: 4
       output-1:
-        item: [dust-tin]
+        item: [tf2-dust-tin]
         amount: 3
       output-2:
-        item: [dust-silver]
+        item: [tf2-dust-silver]
       fluid-output:
-        fluid: glowstone
+        fluid: tf2-glowstone
         amount: 1000
   dust-petrotheum:
     results:
-      - item: basalz-powder
-      - item: dust-obsidian
-      - item: redstone
+      - item: tf2-basalz-powder
+      - item: tf2-dust-obsidian
+      - item: mc-redstone
     ingredients:
-      - item: dust-petrotheum
+      - item: tf2-dust-petrotheum
     energy: 4000
     data:
       input:
-        item: [dust-petrotheum]
+        item: [tf2-dust-petrotheum]
         amount: 2
       output-1:
-        item: [basalz-powder]
+        item: [tf2-basalz-powder]
         amount: 2
       output-2:
-        item: [dust-obsidian]
+        item: [tf2-dust-obsidian]
       output-3:
-        item: [redstone]
+        item: [mc-redstone]
   dust-pyrotheum:
     results:
-      - item: blaze-powder
-      - item: sulfur
-      - item: redstone
+      - item: mc-blaze-powder
+      - item: tf2-sulfur
+      - item: mc-redstone
     ingredients:
-      - item: dust-pyrotheum
+      - item: tf2-dust-pyrotheum
     energy: 4000
     data:
       input:
-        item: [dust-pyrotheum]
+        item: [tf2-dust-pyrotheum]
         amount: 2
       output-1:
-        item: [blaze-powder]
+        item: [mc-blaze-powder]
         amount: 2
       output-2:
-        item: [sulfur]
+        item: [tf2-sulfur]
       output-3:
-        item: [redstone]
+        item: [mc-redstone]
   dust-signalum:
     results:
-      - item: dust-copper
-      - item: dust-silver
-      - fluid: redstone
+      - item: tf2-dust-copper
+      - item: tf2-dust-silver
+      - fluid: tf2-redstone
         fluid-amount: 1000
     ingredients:
-      - item: dust-signalum
+      - item: tf2-dust-signalum
     energy: 8000
     data:
       input:
-        item: [dust-signalum]
+        item: [tf2-dust-signalum]
         amount: 4
       output-1:
-        item: [dust-copper]
+        item: [tf2-dust-copper]
         amount: 3
       output-2:
-        item: [dust-silver]
+        item: [tf2-dust-silver]
       fluid-output:
-        fluid: redstone
+        fluid: tf2-redstone
         amount: 1000
   magma-cream:
     results:
-      - item: slimeball
-      - item: blaze-powder
+      - item: mc-slimeball
+      - item: mc-blaze-powder
     ingredients:
-      - item: magma-cream
+      - item: mc-magma-cream
     energy: 2000
     data:
       input:
-        item: [magma-cream]
+        item: [mc-magma-cream]
       output-1:
-        item: [slimeball]
+        item: [mc-slimeball]
       output-2:
-        item: [blaze-powder]
+        item: [mc-blaze-powder]
   sugar-canes:
     results:
-      - item: sugar
-      - fluid: water
+      - item: mc-sugar
+      - fluid: mc-water
         fluid-amount: 250
     ingredients:
-      - item: sugar-canes
+      - item: mc-sugar-canes
     energy: 2000
     data:
       input:
-        item: [sugar-canes]
+        item: [mc-sugar-canes]
       output-1:
-        item: [sugar]
+        item: [mc-sugar]
         amount: 2
       fluid-output:
-        fluid: water
+        fluid: mc-water
         amount: 250

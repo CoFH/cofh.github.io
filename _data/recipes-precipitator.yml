@@ -1,72 +1,72 @@
 name: Glacial Precipitator
-site: cofh
+site: docs-te5
 url: glacial-precipitator/
 with-energy: true
 recipes:
   snowball:
     results:
-      - item: snowball
+      - item: mc-snowball
     ingredients:
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 500
     energy: 800
     data:
       input:
-        fluid: water
+        fluid: mc-water
         amount: 500
       output:
-        item: [snowball]
+        item: [mc-snowball]
         amount: 4
   snow:
     results:
-      - item: snow
+      - item: mc-snow
     ingredients:
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 500
     energy: 800
     data:
       input:
-        fluid: water
+        fluid: mc-water
         amount: 500
       output:
-        item: [snow]
+        item: [mc-snow]
   ice:
     results:
-      - item: ice
+      - item: mc-ice
     ingredients:
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 1000
     energy: 1600
     data:
       input:
-        fluid: water
+        fluid: mc-water
         amount: 1000
       output:
-        item: [ice]
+        item: [mc-ice]
   snow-layer:
     results:
-      - item: snow-layer
+      - item: mc-snow-layer
     ingredients:
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 500
     energy: 800
     data:
       input:
-        fluid: water
+        fluid: mc-water
         amount: 500
       output:
-        item: [snow-layer]
+        item: [mc-snow-layer]
         amount: 2
   packed-ice:
     results:
-      - item: packed-ice
+      - item: mc-packed-ice
     ingredients:
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 2000
     energy: 1600
     data:
       input:
-        fluid: water
+        fluid: mc-water
         amount: 2000
       output:
-        item: [packed-ice]
+        item: [mc-packed-ice]

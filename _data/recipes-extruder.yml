@@ -1,113 +1,113 @@
 name: Igneous Extruder
-site: cofh
+site: docs-te5
 url: igneous-extruder/
 with-energy: true
 recipes:
   cobblestone:
     results:
-      - item: cobblestone
+      - item: mc-cobblestone
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 0
     energy: 400
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 0
       output:
-        item: [cobblestone]
+        item: [mc-cobblestone]
   stone:
     results:
-      - item: stone
+      - item: mc-stone
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 1000
     energy: 800
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 1000
       output:
-        item: [stone]
+        item: [mc-stone]
   obsidian:
     results:
-      - item: obsidian
+      - item: mc-obsidian
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 1000
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 1000
     energy: 1600
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 1000
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 1000
       output:
-        item: [obsidian]
+        item: [mc-obsidian]
   granite:
     results:
-      - item: granite
+      - item: mc-granite
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 1000
     energy: 800
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 1000
       output:
-        item: [granite]
+        item: [mc-granite]
   diorite:
     results:
-      - item: diorite
+      - item: mc-diorite
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 1000
     energy: 800
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 1000
       output:
-        item: [diorite]
+        item: [mc-diorite]
   andesite:
     results:
-      - item: andesite
+      - item: mc-andesite
     ingredients:
-      - fluid: lava
+      - fluid: mc-lava
         fluid-amount: 0
-      - fluid: water
+      - fluid: mc-water
         fluid-amount: 1000
     energy: 800
     data:
       hot-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 0
       cold-input:
-        fluid: water
+        fluid: mc-water
         amount: 1000
       output:
-        item: [andesite]
+        item: [mc-andesite]

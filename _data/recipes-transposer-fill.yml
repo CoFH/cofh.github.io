@@ -1,831 +1,831 @@
 name: Fluid Transposer
-site: cofh
+site: docs-te5
 url: fluid-transposer/
 with-energy: true
 recipes:
   basalz-powder:
     results:
-      - item: basalz-powder
+      - item: tf2-basalz-powder
     ingredients:
-      - item: dust-obsidian
-      - fluid: experience
+      - item: tf2-dust-obsidian
+      - fluid: tf2-experience
         fluid-amount: 200
     energy: 16000
     data:
       item-input:
-        item: [dust-obsidian]
+        item: [tf2-dust-obsidian]
         amount: 2
       fluid-input:
-        fluid: experience
+        fluid: tf2-experience
         amount: 200
       output:
-        item: [basalz-powder]
+        item: [tf2-basalz-powder]
   blaze-powder:
     results:
-      - item: blaze-powder
+      - item: mc-blaze-powder
     ingredients:
-      - item: sulfur
-      - fluid: experience
+      - item: tf2-sulfur
+      - fluid: tf2-experience
         fluid-amount: 200
     energy: 16000
     data:
       item-input:
-        item: [sulfur]
+        item: [tf2-sulfur]
         amount: 2
       fluid-input:
-        fluid: experience
+        fluid: tf2-experience
         amount: 200
       output:
-        item: [blaze-powder]
+        item: [mc-blaze-powder]
   blitz-powder:
     results:
-      - item: blitz-powder
+      - item: tf2-blitz-powder
     ingredients:
-      - item: niter
-      - fluid: experience
+      - item: tf2-niter
+      - fluid: tf2-experience
         fluid-amount: 200
     energy: 16000
     data:
       item-input:
-        item: [niter]
+        item: [tf2-niter]
         amount: 2
       fluid-input:
-        fluid: experience
+        fluid: tf2-experience
         amount: 200
       output:
-        item: [blitz-powder]
+        item: [tf2-blitz-powder]
   blizz-powder:
     results:
-      - item: blizz-powder
+      - item: tf2-blizz-powder
     ingredients:
-      - item: snowball
-      - fluid: experience
+      - item: mc-snowball
+      - fluid: tf2-experience
         fluid-amount: 200
     energy: 16000
     data:
       item-input:
-        item: [snowball]
+        item: [mc-snowball]
         amount: 2
       fluid-input:
-        fluid: experience
+        fluid: tf2-experience
         amount: 200
       output:
-        item: [blizz-powder]
+        item: [tf2-blizz-powder]
   bottle-o-enchanting:
     results:
-      - item: bottle-o-enchanting
+      - item: mc-bottle-o-enchanting
     ingredients:
-      - item: glass-bottle
+      - item: mc-glass-bottle
       - html: >
-          <a href="/docs/essence-of-knowledge">Essence of Knowledge</a> or<br />
+          <a href="/docs/thermal-foundation/essence-of-knowledge">Essence of Knowledge</a> or<br />
           <a href="https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing">IF Essence</a> or<br />
           <a href="https://www.openmods.info/">OpenBlocks Liquid XP</a> (250 mB)
     energy: 400
     data:
       item-input:
-        item: [glass-bottle]
+        item: [mc-glass-bottle]
       fluid-input:
-        fluid: experience
+        fluid: tf2-experience
         amount: 250
       output:
-        item: [bottle-o-enchanting]
+        item: [mc-bottle-o-enchanting]
   bucket-aerotheum:
     results:
-      - item: bucket-aerotheum
+      - item: tf2-bucket-aerotheum
     ingredients:
-      - item: bucket
-      - fluid: aerotheum
+      - item: mc-bucket
+      - fluid: tf2-aerotheum
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: aerotheum
+        fluid: tf2-aerotheum
         amount: 1000
       output:
-        item: [bucket-aerotheum]
+        item: [tf2-bucket-aerotheum]
   bucket-coal:
     results:
-      - item: bucket-coal
+      - item: tf2-bucket-coal
     ingredients:
-      - item: bucket
-      - fluid: coal
+      - item: mc-bucket
+      - fluid: tf2-coal
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: coal
+        fluid: tf2-coal
         amount: 1000
       output:
-        item: [bucket-coal]
+        item: [tf2-bucket-coal]
   bucket-creosote-oil:
     results:
-      - item: bucket-creosote-oil
+      - item: tf2-bucket-creosote-oil
     ingredients:
-      - item: bucket
-      - fluid: creosote-oil
+      - item: mc-bucket
+      - fluid: tf2-creosote-oil
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: creosote-oil
+        fluid: tf2-creosote-oil
         amount: 1000
       output:
-        item: [bucket-creosote-oil]
+        item: [tf2-bucket-creosote-oil]
   bucket-crude-oil:
     results:
-      - item: bucket-crude-oil
+      - item: tf2-bucket-crude-oil
     ingredients:
-      - item: bucket
-      - fluid: crude-oil
+      - item: mc-bucket
+      - fluid: tf2-crude-oil
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: crude-oil
+        fluid: tf2-crude-oil
         amount: 1000
       output:
-        item: [bucket-crude-oil]
+        item: [tf2-bucket-crude-oil]
   bucket-cryotheum:
     results:
-      - item: bucket-cryotheum
+      - item: tf2-bucket-cryotheum
     ingredients:
-      - item: bucket
-      - fluid: cryotheum
+      - item: mc-bucket
+      - fluid: tf2-cryotheum
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: cryotheum
+        fluid: tf2-cryotheum
         amount: 1000
       output:
-        item: [bucket-cryotheum]
+        item: [tf2-bucket-cryotheum]
   bucket-ender:
     results:
-      - item: bucket-ender
+      - item: tf2-bucket-ender
     ingredients:
-      - item: bucket
-      - fluid: ender
+      - item: mc-bucket
+      - fluid: tf2-ender
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: ender
+        fluid: tf2-ender
         amount: 1000
       output:
-        item: [bucket-ender]
+        item: [tf2-bucket-ender]
   bucket-experience:
     results:
-      - item: bucket-experience
+      - item: tf2-bucket-experience
     ingredients:
-      - item: bucket
-      - fluid: experience
+      - item: mc-bucket
+      - fluid: tf2-experience
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: experience
+        fluid: tf2-experience
         amount: 1000
       output:
-        item: [bucket-experience]
+        item: [tf2-bucket-experience]
   bucket-glowstone:
     results:
-      - item: bucket-glowstone
+      - item: tf2-bucket-glowstone
     ingredients:
-      - item: bucket
-      - fluid: glowstone
+      - item: mc-bucket
+      - fluid: tf2-glowstone
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: glowstone
+        fluid: tf2-glowstone
         amount: 1000
       output:
-        item: [bucket-glowstone]
+        item: [tf2-bucket-glowstone]
   bucket-mana:
     results:
-      - item: bucket-mana
+      - item: tf2-bucket-mana
     ingredients:
-      - item: bucket
-      - fluid: mana
+      - item: mc-bucket
+      - fluid: tf2-mana
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: mana
+        fluid: tf2-mana
         amount: 1000
       output:
-        item: [bucket-mana]
+        item: [tf2-bucket-mana]
   bucket-mushroom-stew:
     results:
-      - item: bucket-mushroom-stew
+      - item: tf2-bucket-mushroom-stew
     ingredients:
-      - item: bucket
-      - fluid: mushroom-stew
+      - item: mc-bucket
+      - fluid: tf2-mushroom-stew
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: mushroom-stew
+        fluid: tf2-mushroom-stew
         amount: 1000
       output:
-        item: [bucket-mushroom-stew]
+        item: [tf2-bucket-mushroom-stew]
   bucket-naphtha:
     results:
-      - item: bucket-naphtha
+      - item: tf2-bucket-naphtha
     ingredients:
-      - item: bucket
-      - fluid: naphtha
+      - item: mc-bucket
+      - fluid: tf2-naphtha
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: naphtha
+        fluid: tf2-naphtha
         amount: 1000
       output:
-        item: [bucket-naphtha]
+        item: [tf2-bucket-naphtha]
   bucket-petrotheum:
     results:
-      - item: bucket-petrotheum
+      - item: tf2-bucket-petrotheum
     ingredients:
-      - item: bucket
-      - fluid: petrotheum
+      - item: mc-bucket
+      - fluid: tf2-petrotheum
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: petrotheum
+        fluid: tf2-petrotheum
         amount: 1000
       output:
-        item: [bucket-petrotheum]
+        item: [tf2-bucket-petrotheum]
   bucket-pyrotheum:
     results:
-      - item: bucket-pyrotheum
+      - item: tf2-bucket-pyrotheum
     ingredients:
-      - item: bucket
-      - fluid: pyrotheum
+      - item: mc-bucket
+      - fluid: tf2-pyrotheum
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: pyrotheum
+        fluid: tf2-pyrotheum
         amount: 1000
       output:
-        item: [bucket-pyrotheum]
+        item: [tf2-bucket-pyrotheum]
   bucket-redstone:
     results:
-      - item: bucket-redstone
+      - item: tf2-bucket-redstone
     ingredients:
-      - item: bucket
-      - fluid: redstone
+      - item: mc-bucket
+      - fluid: tf2-redstone
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: redstone
+        fluid: tf2-redstone
         amount: 1000
       output:
-        item: [bucket-redstone]
+        item: [tf2-bucket-redstone]
   bucket-refined-fuel:
     results:
-      - item: bucket-refined-fuel
+      - item: tf2-bucket-refined-fuel
     ingredients:
-      - item: bucket
-      - fluid: refined-fuel
+      - item: mc-bucket
+      - fluid: tf2-refined-fuel
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: refined-fuel
+        fluid: tf2-refined-fuel
         amount: 1000
       output:
-        item: [bucket-refined-fuel]
+        item: [tf2-bucket-refined-fuel]
   bucket-resin:
     results:
-      - item: bucket-resin
+      - item: tf2-bucket-resin
     ingredients:
-      - item: bucket
-      - fluid: resin
+      - item: mc-bucket
+      - fluid: tf2-resin
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: resin
+        fluid: tf2-resin
         amount: 1000
       output:
-        item: [bucket-resin]
+        item: [tf2-bucket-resin]
   bucket-sap:
     results:
-      - item: bucket-sap
+      - item: tf2-bucket-sap
     ingredients:
-      - item: bucket
-      - fluid: sap
+      - item: mc-bucket
+      - fluid: tf2-sap
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: sap
+        fluid: tf2-sap
         amount: 1000
       output:
-        item: [bucket-sap]
+        item: [tf2-bucket-sap]
   bucket-steam:
     results:
-      - item: bucket-steam
+      - item: tf2-bucket-steam
     ingredients:
-      - item: bucket
-      - fluid: steam
+      - item: mc-bucket
+      - fluid: tf2-steam
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: steam
+        fluid: tf2-steam
         amount: 1000
       output:
-        item: [bucket-steam]
+        item: [tf2-bucket-steam]
   bucket-syrup:
     results:
-      - item: bucket-syrup
+      - item: tf2-bucket-syrup
     ingredients:
-      - item: bucket
-      - fluid: syrup
+      - item: mc-bucket
+      - fluid: tf2-syrup
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: syrup
+        fluid: tf2-syrup
         amount: 1000
       output:
-        item: [bucket-syrup]
+        item: [tf2-bucket-syrup]
   bucket-tree-oil:
     results:
-      - item: bucket-tree-oil
+      - item: tf2-bucket-tree-oil
     ingredients:
-      - item: bucket
-      - fluid: tree-oil
+      - item: mc-bucket
+      - fluid: tf2-tree-oil
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [bucket]
+        item: [mc-bucket]
       fluid-input:
-        fluid: tree-oil
+        fluid: tf2-tree-oil
         amount: 1000
       output:
-        item: [bucket-tree-oil]
+        item: [tf2-bucket-tree-oil]
   concrete:
     results:
-      - item-group: concrete
+      - item-group: mc-concrete
     ingredients:
-      - item-group: concrete-powder
-      - fluid: water
+      - item-group: mc-concrete-powder
+      - fluid: mc-water
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item-group: concrete-powder
+        item-group: mc-concrete-powder
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 1000
       output:
-        item-group: concrete
+        item-group: mc-concrete
   dust-fluxed-electrum:
     results:
-      - item: dust-fluxed-electrum
+      - item: ra-dust-fluxed-electrum
     ingredients:
-      - item: dust-electrum
-      - fluid: redstone
+      - item: tf2-dust-electrum
+      - fluid: tf2-redstone
         fluid-amount: 500
     energy: 2000
     data:
       item-input:
-        item: [dust-electrum]
+        item: [tf2-dust-electrum]
       fluid-input:
-        fluid: redstone
+        fluid: tf2-redstone
         amount: 500
       output:
-        item: [dust-fluxed-electrum]
+        item: [ra-dust-fluxed-electrum]
   end-stone:
     results:
-      - item: end-stone
+      - item: mc-end-stone
     ingredients:
-      - item: sandstone
-      - fluid: ender
+      - item: mc-sandstone
+      - fluid: tf2-ender
         fluid-amount: 250
     energy: 4000
     data:
       item-input:
-        item: [sandstone]
+        item: [mc-sandstone]
       fluid-input:
-        fluid: ender
+        fluid: tf2-ender
         amount: 250
       output:
-        item: [end-stone]
+        item: [mc-end-stone]
   ender-pearl-from-clathrate:
     results:
-      - item: ender-pearl
+      - item: mc-ender-pearl
     ingredients:
-      - item: clathrate-ender
-      - fluid: cryotheum
+      - item: tf2-clathrate-ender
+      - fluid: tf2-cryotheum
         fluid-amount: 200
     energy: 2000
     data:
       item-input:
-        item: [clathrate-ender]
+        item: [tf2-clathrate-ender]
       fluid-input:
-        fluid: cryotheum
+        fluid: tf2-cryotheum
         amount: 200
       output:
-        item: [ender-pearl]
+        item: [mc-ender-pearl]
   ender-pearl-from-fluid:
     results:
-      - item: ender-pearl
+      - item: mc-ender-pearl
     ingredients:
-      - item: dust-cryotheum
-      - fluid: ender
+      - item: tf2-dust-cryotheum
+      - fluid: tf2-ender
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [dust-cryotheum]
+        item: [tf2-dust-cryotheum]
       fluid-input:
-        fluid: ender
+        fluid: tf2-ender
         amount: 1000
       output:
-        item: [ender-pearl]
+        item: [mc-ender-pearl]
         amount: 4
   flux-crystal:
     results:
-      - item: flux-crystal
+      - item: ra-flux-crystal
     ingredients:
-      - item: diamond
-      - fluid: redstone
+      - item: mc-diamond
+      - fluid: tf2-redstone
         fluid-amount: 500
     energy: 2000
     data:
       item-input:
-        item: [diamond]
+        item: [mc-diamond]
       fluid-input:
-        fluid: redstone
+        fluid: tf2-redstone
         amount: 500
       output:
-        item: [flux-crystal]
+        item: [ra-flux-crystal]
   fluxduct-reinforced:
     results:
-      - item: fluxduct-reinforced
+      - item: td2-fluxduct-reinforced
     ingredients:
-      - item: fluxduct-reinforced-empty
-      - fluid: redstone
+      - item: td2-fluxduct-reinforced-empty
+      - fluid: tf2-redstone
         fluid-amount: 200
     energy: 800
     data:
       item-input:
-        item: [fluxduct-reinforced-empty]
+        item: [td2-fluxduct-reinforced-empty]
       fluid-input:
-        fluid: redstone
+        fluid: tf2-redstone
         amount: 200
       output:
-        item: [fluxduct-reinforced]
+        item: [td2-fluxduct-reinforced]
   fluxduct-signalum:
     results:
-      - item: fluxduct-signalum
+      - item: td2-fluxduct-signalum
     ingredients:
-      - item: fluxduct-signalum-empty
-      - fluid: redstone
+      - item: td2-fluxduct-signalum-empty
+      - fluid: tf2-redstone
         fluid-amount: 200
     energy: 800
     data:
       item-input:
-        item: [fluxduct-signalum-empty]
+        item: [td2-fluxduct-signalum-empty]
       fluid-input:
-        fluid: redstone
+        fluid: tf2-redstone
         amount: 200
       output:
-        item: [fluxduct-signalum]
+        item: [td2-fluxduct-signalum]
   fluxduct-resonant:
     results:
-      - item: fluxduct-resonant
+      - item: td2-fluxduct-resonant
     ingredients:
-      - item: fluxduct-resonant-empty
-      - fluid: redstone
+      - item: td2-fluxduct-resonant-empty
+      - fluid: tf2-redstone
         fluid-amount: 200
     energy: 800
     data:
       item-input:
-        item: [fluxduct-resonant-empty]
+        item: [td2-fluxduct-resonant-empty]
       fluid-input:
-        fluid: redstone
+        fluid: tf2-redstone
         amount: 200
       output:
-        item: [fluxduct-resonant]
+        item: [td2-fluxduct-resonant]
   fluxduct-super:
     results:
-      - item: fluxduct-super
+      - item: td2-fluxduct-super
     ingredients:
-      - item: fluxduct-super-empty
-      - fluid: cryotheum
+      - item: td2-fluxduct-super-empty
+      - fluid: tf2-cryotheum
         fluid-amount: 500
     energy: 4000
     data:
       item-input:
-        item: [fluxduct-super-empty]
+        item: [td2-fluxduct-super-empty]
       fluid-input:
-        fluid: cryotheum
+        fluid: tf2-cryotheum
         amount: 500
       output:
-        item: [fluxduct-super]
+        item: [td2-fluxduct-super]
   glowstone-dust-from-clathrate:
     results:
-      - item: glowstone-dust
+      - item: mc-glowstone-dust
     ingredients:
-      - item: clathrate-glowstone
-      - fluid: cryotheum
+      - item: tf2-clathrate-glowstone
+      - fluid: tf2-cryotheum
         fluid-amount: 200
     energy: 2000
     data:
       item-input:
-        item: [clathrate-glowstone]
+        item: [tf2-clathrate-glowstone]
       fluid-input:
-        fluid: cryotheum
+        fluid: tf2-cryotheum
         amount: 200
       output:
-        item: [glowstone-dust]
+        item: [mc-glowstone-dust]
   glowstone-dust-from-fluid:
     results:
-      - item: glowstone-dust
+      - item: mc-glowstone-dust
     ingredients:
-      - item: dust-cryotheum
-      - fluid: glowstone
+      - item: tf2-dust-cryotheum
+      - fluid: tf2-glowstone
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [dust-cryotheum]
+        item: [tf2-dust-cryotheum]
       fluid-input:
-        fluid: glowstone
+        fluid: tf2-glowstone
         amount: 1000
       output:
-        item: [glowstone-dust]
+        item: [mc-glowstone-dust]
         amount: 4
   ice:
     results:
-      - item: ice
+      - item: mc-ice
     ingredients:
-      - item: dust-cryotheum
-      - fluid: water
+      - item: tf2-dust-cryotheum
+      - fluid: mc-water
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [dust-cryotheum]
+        item: [tf2-dust-cryotheum]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 1000
       output:
-        item: [ice]
+        item: [mc-ice]
   itemduct-fast:
     results:
-      - item: itemduct-fast
+      - item: td2-itemduct-fast
     ingredients:
-      - item: itemduct
-      - fluid: glowstone
+      - item: td2-itemduct
+      - fluid: tf2-glowstone
         fluid-amount: 200
     energy: 800
     data:
       item-input:
-        item: [itemduct, itemduct-opaque]
+        item: [td2-itemduct, td2-itemduct-opaque]
       fluid-input:
-        fluid: glowstone
+        fluid: tf2-glowstone
         amount: 200
       output:
-        item: [itemduct-fast, itemduct-fast-opaque]
+        item: [td2-itemduct-fast, td2-itemduct-fast-opaque]
   itemduct-energy-fast:
     results:
-      - item: itemduct-energy-fast
+      - item: td2-itemduct-energy-fast
     ingredients:
-      - item: itemduct-energy
-      - fluid: glowstone
+      - item: td2-itemduct-energy
+      - fluid: tf2-glowstone
         fluid-amount: 200
     energy: 800
     data:
       item-input:
-        item: [itemduct-energy, itemduct-energy-opaque]
+        item: [td2-itemduct-energy, td2-itemduct-energy-opaque]
       fluid-input:
-        fluid: glowstone
+        fluid: tf2-glowstone
         amount: 200
       output:
-        item: [itemduct-energy-fast, itemduct-energy-fast-opaque]
+        item: [td2-itemduct-energy-fast, td2-itemduct-energy-fast-opaque]
   moss-stone:
     results:
-      - item: moss-stone
+      - item: mc-moss-stone
     ingredients:
-      - item: cobblestone
-      - fluid: water
+      - item: mc-cobblestone
+      - fluid: mc-water
         fluid-amount: 250
     energy: 4000
     data:
       item-input:
-        item: [cobblestone]
+        item: [mc-cobblestone]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 250
       output:
-        item: [moss-stone]
+        item: [mc-moss-stone]
   mushroom-stew:
     results:
-      - item: mushroom-stew
+      - item: mc-mushroom-stew
     ingredients:
-      - item: bowl
-      - fluid: mushroom-stew
+      - item: mc-bowl
+      - fluid: tf2-mushroom-stew
         fluid-amount: 250
     energy: 400
     data:
       item-input:
-        item: [bowl]
+        item: [mc-bowl]
       fluid-input:
-        fluid: mushroom-stew
+        fluid: tf2-mushroom-stew
         amount: 250
       output:
-        item: [mushroom-stew]
+        item: [mc-mushroom-stew]
   nether-brick:
     results:
-      - item: nether-brick-item
+      - item: mc-nether-brick-item
     ingredients:
-      - item: brick
-      - fluid: lava
+      - item: mc-brick
+      - fluid: mc-lava
         fluid-amount: 250
     energy: 4000
     data:
       item-input:
-        item: [brick]
+        item: [mc-brick]
       fluid-input:
-        fluid: lava
+        fluid: mc-lava
         amount: 250
       output:
-        item: [nether-brick-item]
+        item: [mc-nether-brick-item]
   packed-ice:
     results:
-      - item: packed-ice
+      - item: mc-packed-ice
     ingredients:
-      - item: ice
-      - fluid: cryotheum
+      - item: mc-ice
+      - fluid: tf2-cryotheum
         fluid-amount: 200
     energy: 400
     data:
       item-input:
-        item: [ice]
+        item: [mc-ice]
       fluid-input:
-        fluid: cryotheum
+        fluid: tf2-cryotheum
         amount: 200
       output:
-        item: [packed-ice]
+        item: [mc-packed-ice]
   phyto-gro-rich:
     results:
-      - item: phyto-gro-rich
+      - item: tf2-phyto-gro-rich
     ingredients:
-      - item: phyto-gro
-      - fluid: sap
+      - item: tf2-phyto-gro
+      - fluid: tf2-sap
         fluid-amount: 200
     energy: 2000
     data:
       item-input:
-        item: [phyto-gro]
+        item: [tf2-phyto-gro]
       fluid-input:
-        fluid: sap
+        fluid: tf2-sap
         amount: 200
       output:
-        item: [phyto-gro-rich]
+        item: [tf2-phyto-gro-rich]
   redstone-from-clathrate:
     results:
-      - item: redstone
+      - item: mc-redstone
     ingredients:
-      - item: clathrate-redstone
-      - fluid: cryotheum
+      - item: tf2-clathrate-redstone
+      - fluid: tf2-cryotheum
         fluid-amount: 200
     energy: 2000
     data:
       item-input:
-        item: [clathrate-redstone]
+        item: [tf2-clathrate-redstone]
       fluid-input:
-        fluid: cryotheum
+        fluid: tf2-cryotheum
         amount: 200
       output:
-        item: [redstone]
+        item: [mc-redstone]
         amount: 2
   redstone-from-fluid:
     results:
-      - item: redstone
+      - item: mc-redstone
     ingredients:
-      - item: dust-cryotheum
-      - fluid: redstone
+      - item: tf2-dust-cryotheum
+      - fluid: tf2-redstone
         fluid-amount: 1000
     energy: 400
     data:
       item-input:
-        item: [dust-cryotheum]
+        item: [tf2-dust-cryotheum]
       fluid-input:
-        fluid: redstone
+        fluid: tf2-redstone
         amount: 1000
       output:
-        item: [redstone]
+        item: [mc-redstone]
         amount: 10
   sponge-wet:
     results:
-      - item: sponge-wet
+      - item: mc-sponge-wet
     ingredients:
-      - item: sponge
-      - fluid: water
+      - item: mc-sponge
+      - fluid: mc-water
         fluid-amount: 1000
     energy: 4000
     data:
       item-input:
-        item: [sponge]
+        item: [mc-sponge]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 1000
       output:
-        item: [sponge-wet]
+        item: [mc-sponge-wet]
   stone-bricks-mossy:
     results:
-      - item: stone-bricks-mossy
+      - item: mc-stone-bricks-mossy
     ingredients:
-      - item: stone-bricks
-      - fluid: water
+      - item: mc-stone-bricks
+      - fluid: mc-water
         fluid-amount: 250
     energy: 4000
     data:
       item-input:
-        item: [stone-bricks]
+        item: [mc-stone-bricks]
       fluid-input:
-        fluid: water
+        fluid: mc-water
         amount: 250
       output:
-        item: [stone-bricks-mossy]
+        item: [mc-stone-bricks-mossy]
   viaduct:
     results:
-      - item: viaduct
+      - item: td2-viaduct
     ingredients:
-      - item: viaduct-frame
-      - fluid: aerotheum
+      - item: td2-viaduct-frame
+      - fluid: tf2-aerotheum
         fluid-amount: 100
     energy: 800
     data:
       item-input:
-        item: [viaduct-frame]
+        item: [td2-viaduct-frame]
       fluid-input:
-        fluid: aerotheum
+        fluid: tf2-aerotheum
         amount: 100
       output:
-        item: [viaduct]
+        item: [td2-viaduct]
   viaduct-long-range-linking:
     results:
-      - item: viaduct-long-range-linking
+      - item: td2-viaduct-long-range-linking
     ingredients:
-      - item: viaduct
-      - fluid: ender
+      - item: td2-viaduct
+      - fluid: tf2-ender
         fluid-amount: 1000
     energy: 8000
     data:
       item-input:
-        item: [viaduct]
+        item: [td2-viaduct]
       fluid-input:
-        fluid: ender
+        fluid: tf2-ender
         amount: 1000
       output:
-        item: [viaduct-long-range-linking]
+        item: [td2-viaduct-long-range-linking]
