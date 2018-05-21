@@ -6,8 +6,8 @@ redirect_from:
   - /docs/aluminum-ingot/
 recipes:
   smelting:
-    - ore-processing-aluminum
-    - ingot-aluminum-from-dust
+    - tf2-ore-processing-aluminum
+    - tf2-ingot-aluminum-from-dust
   crafting:
     - pyrotheum-ore-aluminum
     - petrotheum-pyrotheum-ore-aluminum

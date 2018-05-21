@@ -7,7 +7,7 @@ redirect_from:
   - /docs/mana-infused-ore/
 usage-recipes:
   smelting:
-    - ore-processing-mithril
+    - tf2-ore-processing-mithril
   crafting:
     - pyrotheum-ore-mithril
     - petrotheum-ore-mithril

@@ -62,7 +62,7 @@ usage-recipes:
     - morb-using-slime
     - morb-using-rosin
   smelting:
-    - rockwool
+    - tf2-rockwool
 ---
 
 ![Slag](/assets/images/thermal-foundation/slag.png){:style="height: 128px"}

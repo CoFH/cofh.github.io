@@ -21,7 +21,7 @@ usage-recipes:
     - pyrotheum-dust-iron
     - dust-invar
   smelting:
-    - ingot-iron-from-dust
+    - tf2-ingot-iron-from-dust
   smelter:
     - dust-smelting-iron
     - ingot-steel-from-dust-iron-and-coal-coke

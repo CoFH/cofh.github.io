@@ -11,7 +11,7 @@ recipes:
     - dust-bronze
 usage-recipes:
   smelting:
-    - ingot-bronze-from-dust
+    - tf2-ingot-bronze-from-dust
   smelter:
     - dust-smelting-bronze
     - hardened-glass-bronze

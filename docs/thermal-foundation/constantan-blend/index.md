@@ -11,7 +11,7 @@ recipes:
     - dust-constantan
 usage-recipes:
   smelting:
-    - ingot-constantan-from-dust
+    - tf2-ingot-constantan-from-dust
   smelter:
     - dust-smelting-constantan
     - hardened-glass-constantan

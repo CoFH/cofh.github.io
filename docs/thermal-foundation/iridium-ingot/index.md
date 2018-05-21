@@ -6,8 +6,8 @@ redirect_from:
   - /docs/iridium-ingot/
 recipes:
   smelting:
-    - ore-processing-iridium
-    - ingot-iridium-from-dust
+    - tf2-ore-processing-iridium
+    - tf2-ingot-iridium-from-dust
   crafting:
     - pyrotheum-ore-iridium
     - petrotheum-pyrotheum-ore-iridium

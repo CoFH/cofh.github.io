@@ -9,7 +9,7 @@ recipes:
     - sawdust-compressed
 usage-recipes:
   smelting:
-    - charcoal-from-sawdust
+    - tf2-charcoal-from-sawdust
   redstone-furnace-pyrolysis:
     - charcoal-from-sawdust
 ---

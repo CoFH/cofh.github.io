@@ -13,7 +13,7 @@ usage-recipes:
   crafting:
     - dust-fluxed-electrum-using-electrum
   smelting:
-    - ingot-electrum-from-dust
+    - tf2-ingot-electrum-from-dust
   smelter:
     - dust-smelting-electrum
     - hardened-glass-electrum

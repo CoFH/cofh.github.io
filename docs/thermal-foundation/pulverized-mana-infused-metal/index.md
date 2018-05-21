@@ -15,7 +15,7 @@ usage-recipes:
   crafting:
     - pyrotheum-dust-mithril
   smelting:
-    - ingot-mithril-from-dust
+    - tf2-ingot-mithril-from-dust
   smelter:
     - dust-smelting-mithril
     - hardened-glass-mithril

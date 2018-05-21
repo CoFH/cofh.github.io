@@ -21,7 +21,7 @@ usage-recipes:
     - dust-invar
     - dust-constantan
   smelting:
-    - ingot-nickel-from-dust
+    - tf2-ingot-nickel-from-dust
   smelter:
     - dust-smelting-nickel
     - ingot-invar-from-dust-iron-and-dust-nickel

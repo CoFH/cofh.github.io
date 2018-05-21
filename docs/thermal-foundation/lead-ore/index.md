@@ -7,7 +7,7 @@ redirect_from:
   - /docs/lead-ore/
 usage-recipes:
   smelting:
-    - ore-processing-lead
+    - tf2-ore-processing-lead
   crafting:
     - pyrotheum-ore-lead
     - petrotheum-ore-lead

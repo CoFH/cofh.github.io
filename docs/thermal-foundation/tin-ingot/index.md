@@ -8,8 +8,8 @@ redirect_from:
   - /docs/tin-ingot/
 recipes:
   smelting:
-    - ore-processing-tin
-    - ingot-tin-from-dust
+    - tf2-ore-processing-tin
+    - tf2-ingot-tin-from-dust
   crafting:
     - pyrotheum-ore-tin
     - petrotheum-pyrotheum-ore-tin

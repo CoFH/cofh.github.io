@@ -8,8 +8,8 @@ redirect_from:
   - /docs/mana-infused-ingot/
 recipes:
   smelting:
-    - ore-processing-mithril
-    - ingot-mithril-from-dust
+    - tf2-ore-processing-mithril
+    - tf2-ingot-mithril-from-dust
   crafting:
     - pyrotheum-ore-mithril
     - petrotheum-pyrotheum-ore-mithril

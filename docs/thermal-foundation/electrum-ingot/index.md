@@ -8,7 +8,7 @@ redirect_from:
   - /docs/electrum-ingot/
 recipes:
   smelting:
-    - ingot-electrum-from-dust
+    - tf2-ingot-electrum-from-dust
   crafting:
     - ingot-electrum-from-nuggets
     - ingot-electrum-from-block

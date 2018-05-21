@@ -6,7 +6,7 @@ redirect_from:
   - /docs/constantan-ingot/
 recipes:
   smelting:
-    - ingot-constantan-from-dust
+    - tf2-ingot-constantan-from-dust
   crafting:
     - ingot-constantan-from-nuggets
     - ingot-constantan-from-block

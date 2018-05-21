@@ -9,8 +9,8 @@ redirect_from:
   - /docs/copper-ingot/
 recipes:
   smelting:
-    - ore-processing-copper
-    - ingot-copper-from-dust
+    - tf2-ore-processing-copper
+    - tf2-ingot-copper-from-dust
   crafting:
     - pyrotheum-ore-copper
     - petrotheum-pyrotheum-ore-copper

@@ -19,7 +19,7 @@ usage-recipes:
     - pyrotheum-dust-lead
     - dust-enderium
   smelting:
-    - ingot-lead-from-dust
+    - tf2-ingot-lead-from-dust
   smelter:
     - dust-smelting-lead
     - hardened-glass

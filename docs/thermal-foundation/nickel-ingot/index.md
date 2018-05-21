@@ -10,8 +10,8 @@ redirect_from:
   - /docs/nickel-ingot/
 recipes:
   smelting:
-    - ore-processing-nickel
-    - ingot-nickel-from-dust
+    - tf2-ore-processing-nickel
+    - tf2-ingot-nickel-from-dust
   crafting:
     - pyrotheum-ore-nickel
     - petrotheum-pyrotheum-ore-nickel

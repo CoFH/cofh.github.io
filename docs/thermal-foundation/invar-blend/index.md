@@ -11,7 +11,7 @@ recipes:
     - dust-invar
 usage-recipes:
   smelting:
-    - ingot-invar-from-dust
+    - tf2-ingot-invar-from-dust
   smelter:
     - dust-smelting-invar
     - hardened-glass-invar

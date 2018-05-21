@@ -15,7 +15,7 @@ usage-recipes:
   crafting:
     - pyrotheum-dust-aluminum
   smelting:
-    - ingot-aluminum-from-dust
+    - tf2-ingot-aluminum-from-dust
   smelter:
     - dust-smelting-aluminum
     - hardened-glass-aluminum

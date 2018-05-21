@@ -7,7 +7,7 @@ redirect_from:
   - /docs/tin-ore/
 usage-recipes:
   smelting:
-    - ore-processing-tin
+    - tf2-ore-processing-tin
   crafting:
     - pyrotheum-ore-tin
     - petrotheum-ore-tin

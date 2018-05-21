@@ -22,7 +22,7 @@ usage-recipes:
     - dust-constantan
     - dust-signalum
   smelting:
-    - ingot-copper-from-dust
+    - tf2-ingot-copper-from-dust
   smelter:
     - dust-smelting-copper
     - ingot-bronze-from-dust-copper-and-dust-tin

@@ -8,8 +8,8 @@ redirect_from:
   - /docs/lead-ingot/
 recipes:
   smelting:
-    - ore-processing-lead
-    - ingot-lead-from-dust
+    - tf2-ore-processing-lead
+    - tf2-ingot-lead-from-dust
   crafting:
     - pyrotheum-ore-lead
     - petrotheum-pyrotheum-ore-lead

@@ -7,7 +7,7 @@ redirect_from:
   - /docs/iridium-ore/
 usage-recipes:
   smelting:
-    - ore-processing-iridium
+    - tf2-ore-processing-iridium
   crafting:
     - pyrotheum-ore-iridium
     - petrotheum-ore-iridium

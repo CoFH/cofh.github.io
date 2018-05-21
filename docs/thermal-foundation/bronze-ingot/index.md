@@ -8,7 +8,7 @@ redirect_from:
   - /docs/bronze-ingot/
 recipes:
   smelting:
-    - ingot-bronze-from-dust
+    - tf2-ingot-bronze-from-dust
   crafting:
     - ingot-bronze-from-nuggets
     - ingot-bronze-from-block

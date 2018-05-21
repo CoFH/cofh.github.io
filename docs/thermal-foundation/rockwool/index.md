@@ -9,7 +9,7 @@ redirect_from:
   - /docs/rockwool/
 recipes:
   smelting:
-    - rockwool
+    - tf2-rockwool
   crafting:
     - rockwool-dyeing
 usage-recipes:

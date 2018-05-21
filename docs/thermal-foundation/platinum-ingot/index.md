@@ -10,8 +10,8 @@ redirect_from:
   - /docs/platinum-ingot/
 recipes:
   smelting:
-    - ingot-platinum-from-dust
-    - ore-processing-platinum
+    - tf2-ingot-platinum-from-dust
+    - tf2-ore-processing-platinum
   crafting:
     - pyrotheum-dust-platinum
     - ingot-platinum-from-nuggets

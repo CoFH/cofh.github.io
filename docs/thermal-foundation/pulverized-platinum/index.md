@@ -20,7 +20,7 @@ usage-recipes:
     - pyrotheum-dust-platinum
     - dust-enderium
   smelting:
-    - ingot-platinum-from-dust
+    - tf2-ingot-platinum-from-dust
   smelter:
     - dust-smelting-platinum
     - hardened-glass-platinum

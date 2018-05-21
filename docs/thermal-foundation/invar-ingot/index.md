@@ -8,7 +8,7 @@ redirect_from:
   - /docs/invar-ingot/
 recipes:
   smelting:
-    - ingot-invar-from-dust
+    - tf2-ingot-invar-from-dust
   crafting:
     - ingot-invar-from-nuggets
     - ingot-invar-from-block

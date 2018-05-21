@@ -8,7 +8,7 @@ redirect_from:
   - /docs/copper-ore/
 usage-recipes:
   smelting:
-    - ore-processing-copper
+    - tf2-ore-processing-copper
   crafting:
     - pyrotheum-ore-copper
     - petrotheum-ore-copper

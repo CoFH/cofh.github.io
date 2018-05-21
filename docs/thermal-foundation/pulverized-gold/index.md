@@ -21,7 +21,7 @@ usage-recipes:
     - dust-electrum
     - dust-fluxed-electrum-using-gold-and-silver
   smelting:
-    - ingot-gold-from-dust
+    - tf2-ingot-gold-from-dust
   smelter:
     - dust-smelting-gold
     - ingot-electrum-from-dust-gold-and-dust-silver

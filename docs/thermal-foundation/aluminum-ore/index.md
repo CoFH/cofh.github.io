@@ -7,7 +7,7 @@ redirect_from:
   - /docs/aluminum-ore/
 usage-recipes:
   smelting:
-    - ore-processing-aluminum
+    - tf2-ore-processing-aluminum
   crafting:
     - pyrotheum-ore-aluminum
     - petrotheum-ore-aluminum

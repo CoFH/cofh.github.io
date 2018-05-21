@@ -7,7 +7,7 @@ redirect_from:
   - /docs/nickel-ore/
 usage-recipes:
   smelting:
-    - ore-processing-nickel
+    - tf2-ore-processing-nickel
   crafting:
     - pyrotheum-ore-nickel
     - petrotheum-ore-nickel

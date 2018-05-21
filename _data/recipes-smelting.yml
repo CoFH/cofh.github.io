@@ -2,7 +2,7 @@ name: Smelting
 site: mc-wiki
 url: Smelting
 recipes:
-  charcoal-from-sawdust:
+  tf2-charcoal-from-sawdust:
     results:
       - item: mc-charcoal
     ingredients:
@@ -12,7 +12,7 @@ recipes:
         item: [tf2-sawdust-compressed]
       output:
         item: [mc-charcoal]
-  ingot-aluminum-from-dust:
+  tf2-ingot-aluminum-from-dust:
     results:
       - item: tf2-ingot-aluminum
     ingredients:
@@ -22,7 +22,7 @@ recipes:
         item: [tf2-dust-aluminum]
       output:
         item: [tf2-ingot-aluminum]
-  ingot-bronze-from-dust:
+  tf2-ingot-bronze-from-dust:
     results:
       - item: tf2-ingot-bronze
     ingredients:
@@ -32,7 +32,7 @@ recipes:
         item: [tf2-dust-bronze]
       output:
         item: [tf2-ingot-bronze]
-  ingot-constantan-from-dust:
+  tf2-ingot-constantan-from-dust:
     results:
       - item: tf2-ingot-constantan
     ingredients:
@@ -42,7 +42,7 @@ recipes:
         item: [tf2-dust-constantan]
       output:
         item: [tf2-ingot-constantan]
-  ingot-copper-from-dust:
+  tf2-ingot-copper-from-dust:
     results:
       - item: tf2-ingot-copper
     ingredients:
@@ -52,7 +52,7 @@ recipes:
         item: [tf2-dust-copper]
       output:
         item: [tf2-ingot-copper]
-  ingot-electrum-from-dust:
+  tf2-ingot-electrum-from-dust:
     results:
       - item: tf2-ingot-electrum
     ingredients:
@@ -62,7 +62,7 @@ recipes:
         item: [tf2-dust-electrum]
       output:
         item: [tf2-ingot-electrum]
-  ingot-gold-from-dust:
+  tf2-ingot-gold-from-dust:
     results:
       - item: mc-ingot-gold
     ingredients:
@@ -72,7 +72,7 @@ recipes:
         item: [tf2-dust-gold]
       output:
         item: [mc-ingot-gold]
-  ingot-invar-from-dust:
+  tf2-ingot-invar-from-dust:
     results:
       - item: tf2-ingot-invar
     ingredients:
@@ -82,7 +82,7 @@ recipes:
         item: [tf2-dust-invar]
       output:
         item: [tf2-ingot-invar]
-  ingot-iridium-from-dust:
+  tf2-ingot-iridium-from-dust:
     results:
       - item: tf2-ingot-iridium
     ingredients:
@@ -92,7 +92,7 @@ recipes:
         item: [tf2-dust-iridium]
       output:
         item: [tf2-ingot-iridium]
-  ingot-iron-from-dust:
+  tf2-ingot-iron-from-dust:
     results:
       - item: mc-ingot-iron
     ingredients:
@@ -102,7 +102,7 @@ recipes:
         item: [tf2-dust-iron]
       output:
         item: [mc-ingot-iron]
-  ingot-lead-from-dust:
+  tf2-ingot-lead-from-dust:
     results:
       - item: tf2-ingot-lead
     ingredients:
@@ -112,7 +112,7 @@ recipes:
         item: [tf2-dust-lead]
       output:
         item: [tf2-ingot-lead]
-  ingot-mithril-from-dust:
+  tf2-ingot-mithril-from-dust:
     results:
       - item: tf2-ingot-mithril
     ingredients:
@@ -122,7 +122,7 @@ recipes:
         item: [tf2-dust-mithril]
       output:
         item: [tf2-ingot-mithril]
-  ingot-nickel-from-dust:
+  tf2-ingot-nickel-from-dust:
     results:
       - item: tf2-ingot-nickel
     ingredients:
@@ -132,7 +132,7 @@ recipes:
         item: [tf2-dust-nickel]
       output:
         item: [tf2-ingot-nickel]
-  ingot-platinum-from-dust:
+  tf2-ingot-platinum-from-dust:
     results:
       - item: tf2-ingot-platinum
     ingredients:
@@ -142,7 +142,7 @@ recipes:
         item: [tf2-dust-platinum]
       output:
         item: [tf2-ingot-platinum]
-  ingot-silver-from-dust:
+  tf2-ingot-silver-from-dust:
     results:
       - item: tf2-ingot-silver
     ingredients:
@@ -152,7 +152,7 @@ recipes:
         item: [tf2-dust-silver]
       output:
         item: [tf2-ingot-silver]
-  ingot-tin-from-dust:
+  tf2-ingot-tin-from-dust:
     results:
       - item: tf2-ingot-tin
     ingredients:
@@ -162,7 +162,7 @@ recipes:
         item: [tf2-dust-tin]
       output:
         item: [tf2-ingot-tin]
-  ore-processing-aluminum:
+  tf2-ore-processing-aluminum:
     results:
       - item: tf2-ingot-aluminum
     ingredients:
@@ -172,7 +172,7 @@ recipes:
         item: [tf2-ore-aluminum]
       output:
         item: [tf2-ingot-aluminum]
-  ore-processing-copper:
+  tf2-ore-processing-copper:
     results:
       - item: tf2-ingot-copper
     ingredients:
@@ -182,7 +182,7 @@ recipes:
         item: [tf2-ore-copper]
       output:
         item: [tf2-ingot-copper]
-  ore-processing-iridium:
+  tf2-ore-processing-iridium:
     results:
       - item: tf2-ingot-iridium
     ingredients:
@@ -192,7 +192,7 @@ recipes:
         item: [tf2-ore-iridium]
       output:
         item: [tf2-ingot-iridium]
-  ore-processing-lead:
+  tf2-ore-processing-lead:
     results:
       - item: tf2-ingot-lead
     ingredients:
@@ -202,7 +202,7 @@ recipes:
         item: [tf2-ore-lead]
       output:
         item: [tf2-ingot-lead]
-  ore-processing-mithril:
+  tf2-ore-processing-mithril:
     results:
       - item: tf2-ingot-mithril
     ingredients:
@@ -212,7 +212,7 @@ recipes:
         item: [tf2-ore-mithril]
       output:
         item: [tf2-ingot-mithril]
-  ore-processing-nickel:
+  tf2-ore-processing-nickel:
     results:
       - item: tf2-ingot-nickel
     ingredients:
@@ -222,7 +222,7 @@ recipes:
         item: [tf2-ore-nickel]
       output:
         item: [tf2-ingot-nickel]
-  ore-processing-platinum:
+  tf2-ore-processing-platinum:
     results:
       - item: tf2-ingot-platinum
     ingredients:
@@ -232,7 +232,7 @@ recipes:
         item: [tf2-ore-platinum]
       output:
         item: [tf2-ingot-platinum]
-  ore-processing-silver:
+  tf2-ore-processing-silver:
     results:
       - item: tf2-ingot-silver
     ingredients:
@@ -242,7 +242,7 @@ recipes:
         item: [tf2-ore-silver]
       output:
         item: [tf2-ingot-silver]
-  ore-processing-tin:
+  tf2-ore-processing-tin:
     results:
       - item: tf2-ingot-tin
     ingredients:
@@ -252,7 +252,7 @@ recipes:
         item: [tf2-ore-tin]
       output:
         item: [tf2-ingot-tin]
-  rockwool:
+  tf2-rockwool:
     results:
       - item: tf2-rockwool-light-gray
     ingredients:

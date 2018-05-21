@@ -7,7 +7,7 @@ redirect_from:
   - /docs/silver-ore/
 usage-recipes:
   smelting:
-    - ore-processing-silver
+    - tf2-ore-processing-silver
   crafting:
     - pyrotheum-ore-silver
     - petrotheum-ore-silver

@@ -8,8 +8,8 @@ redirect_from:
   - /docs/silver-ingot/
 recipes:
   smelting:
-    - ore-processing-silver
-    - ingot-silver-from-dust
+    - tf2-ore-processing-silver
+    - tf2-ingot-silver-from-dust
   crafting:
     - pyrotheum-ore-silver
     - petrotheum-pyrotheum-ore-silver

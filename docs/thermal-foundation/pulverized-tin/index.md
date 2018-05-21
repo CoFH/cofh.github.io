@@ -20,7 +20,7 @@ usage-recipes:
     - dust-bronze
     - dust-lumium
   smelting:
-    - ingot-tin-from-dust
+    - tf2-ingot-tin-from-dust
   smelter:
     - dust-smelting-tin
     - ingot-bronze-from-dust-copper-and-dust-tin

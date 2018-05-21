@@ -7,7 +7,7 @@ redirect_from:
   - /docs/platinum-ore/
 usage-recipes:
   smelting:
-    - ore-processing-platinum
+    - tf2-ore-processing-platinum
   crafting:
     - pyrotheum-ore-platinum
     - petrotheum-ore-platinum
