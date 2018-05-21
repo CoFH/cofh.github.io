@@ -269,13 +269,13 @@ Recipes
 -------
 
 ### General
-{% include recipe-table.html type='pulverizer' recipes=page.recipe-list.general %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.general %}
 
 ### Ore processing
-{% include recipe-table.html type='pulverizer' recipes=page.recipe-list.ore-processing %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.ore-processing %}
 
 ### Flower processing
-{% include recipe-table.html type='pulverizer' recipes=page.recipe-list.flower-processing %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.flower-processing %}
 
 ### Recycling
-{% include recipe-table.html type='pulverizer' recipes=page.recipe-list.recycling %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.recycling %}

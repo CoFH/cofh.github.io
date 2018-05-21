@@ -35,7 +35,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Pulverizer
-{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage

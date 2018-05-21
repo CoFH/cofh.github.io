@@ -47,13 +47,13 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='crucible-te5' recipes=page.usage-recipes.crucible %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Centrifugal Separator ingredient
-{% include recipe-table.html type='centrifuge' recipes=page.usage-recipes.centrifuge %}
+{% include recipe-table.html type='centrifuge-te5' recipes=page.usage-recipes.centrifuge %}
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one

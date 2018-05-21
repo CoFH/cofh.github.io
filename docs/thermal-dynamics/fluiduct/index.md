@@ -84,4 +84,4 @@ light, like [lava](https://minecraft.gamepedia.com/Lava) or [energized
 glowstone](/docs/thermal-foundation/energized-glowstone/).
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}

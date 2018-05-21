@@ -47,13 +47,13 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='crucible-te5' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='centrifuge' recipes=page.recipes.centrifuge %}
+{% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge %}
 
 ### Natural generation
 Deposits of [destabilized redstone ore](/docs/thermal-foundation/destabilized-redstone-ore/) may
@@ -82,7 +82,7 @@ may be used in these recipes.
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Reactant Dynamo fuel
 Destabilized redstone can be used with

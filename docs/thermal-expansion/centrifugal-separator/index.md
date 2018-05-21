@@ -162,4 +162,4 @@ Augments can be installed in the Augmentation tab in a centrifuge's GUI.
 Recipes
 -------
 
-{% include recipe-table.html type='centrifuge' recipes=page.recipe-list %}
+{% include recipe-table.html type='centrifuge-te5' recipes=page.recipe-list %}

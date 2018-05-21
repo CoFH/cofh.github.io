@@ -266,19 +266,19 @@ Recipes
 -------
 
 ### General
-{% include recipe-table.html type='smelter' recipes=page.recipe-list.general %}
+{% include recipe-table.html type='smelter-te5' recipes=page.recipe-list.general %}
 
 ### Ore processing
-{% include recipe-table.html type='smelter' recipes=page.recipe-list.ore-processing %}
+{% include recipe-table.html type='smelter-te5' recipes=page.recipe-list.ore-processing %}
 
 ### Ore processing with rich slag
-{% include recipe-table.html type='smelter' recipes=page.recipe-list.ore-processing-rich-slag %}
+{% include recipe-table.html type='smelter-te5' recipes=page.recipe-list.ore-processing-rich-slag %}
 
 ### Ore processing with cinnabar
-{% include recipe-table.html type='smelter' recipes=page.recipe-list.ore-processing-cinnabar %}
+{% include recipe-table.html type='smelter-te5' recipes=page.recipe-list.ore-processing-cinnabar %}
 
 ### Alloying
-{% include recipe-table.html type='smelter' recipes=page.recipe-list.alloying %}
+{% include recipe-table.html type='smelter-te5' recipes=page.recipe-list.alloying %}
 
 ### Recycling
-{% include recipe-table.html type='smelter' recipes=page.recipe-list.recycling %}
+{% include recipe-table.html type='smelter-te5' recipes=page.recipe-list.recycling %}

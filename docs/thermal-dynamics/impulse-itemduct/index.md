@@ -30,7 +30,7 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-fill' recipes=page.recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.recipes.transposer-fill %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}

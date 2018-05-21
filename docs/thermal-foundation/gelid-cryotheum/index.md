@@ -35,10 +35,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='crucible-te5' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -85,7 +85,7 @@ Gelid cryotheum has the following effects on certain blocks and mobs:
   I](https://minecraft.gamepedia.com/Status_effect#Regeneration) for 6 seconds.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 If another mod registers a cinnabar ore block, it can be processed into 2 pieces
 of [cinnabar](/docs/thermal-foundation/cinnabar/) using 200 mB of gelid cryotheum and 2,000 RF.

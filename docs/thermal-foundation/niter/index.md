@@ -43,14 +43,14 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Blitzes
 A [blitz](/docs/thermal-foundation/blitz/) may drop up to two pieces of niter when killed by a
 player.
 
 ### Centrifugal Separator
-{% include recipe-table.html type='centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge no-result=true %}
 
 
 Usage
@@ -60,7 +60,7 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 
 Trivia

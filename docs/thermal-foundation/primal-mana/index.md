@@ -23,7 +23,7 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -73,4 +73,4 @@ Primal mana has the following effects on certain blocks:
 
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}

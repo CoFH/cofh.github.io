@@ -27,10 +27,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='crucible-te5' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -57,7 +57,7 @@ If enabled, tectonic petrotheum breaks any adjacent stone- or rock-like blocks.
 This is disabled by default.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Tectonic Initiator
 An [pulverizer](/docs/thermal-expansion/pulverizer/) with a [tectonic

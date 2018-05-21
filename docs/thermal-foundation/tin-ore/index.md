@@ -50,10 +50,10 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer
-{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter
-{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
 
 
 Trivia

@@ -29,10 +29,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='crucible-te5' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -59,7 +59,7 @@ Projectiles that come into contact with zephyrean aerotheum are sent flying in a
 random direction away from the fluid.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Reactant Dynamo fuel
 When used together with [petrotheum dust](/docs/thermal-foundation/petrotheum-dust/) as fuel in a

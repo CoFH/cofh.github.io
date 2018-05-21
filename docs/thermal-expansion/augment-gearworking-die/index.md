@@ -46,4 +46,4 @@ gears using a gearworking die.
 Recipes
 -------
 
-{% include recipe-table.html type='compactor-gear' recipes=page.recipe-list %}
+{% include recipe-table.html type='compactor-te5-gear' recipes=page.recipe-list %}

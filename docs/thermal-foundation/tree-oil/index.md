@@ -26,10 +26,10 @@ Obtaining
 ---------
 
 ### Fractionating Still
-{% include recipe-table.html type='refinery' recipes=page.recipes.refinery %}
+{% include recipe-table.html type='refinery-te5' recipes=page.recipes.refinery %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -38,7 +38,7 @@ Usage
 Tree oil cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket

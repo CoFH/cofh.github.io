@@ -54,7 +54,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.recipes.transposer-fill no-result=true %}
 
 
 Usage
@@ -68,13 +68,13 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 5x5 area.
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Phytogenic Insolator ingredient
-{% include recipe-table.html type='insolator' recipes=page.usage-recipes.insolator %}
+{% include recipe-table.html type='insolator-te5' recipes=page.usage-recipes.insolator %}
 
 ### Phytogenic Insolator with Sapling Infuser ingredient
-{% include recipe-table.html type='insolator-tree' recipes=page.usage-recipes.insolator-tree %}
+{% include recipe-table.html type='insolator-te5-tree' recipes=page.usage-recipes.insolator-tree %}
 
 ### Energetic Infuser ingredient
-{% include recipe-table.html type='charger' recipes=page.usage-recipes.charger %}
+{% include recipe-table.html type='charger-te5' recipes=page.usage-recipes.charger %}
 
 ### Arboreal Extractor
 When rich Phyto-Gro is used in an [arboreal

@@ -23,11 +23,11 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='compactor' recipes=page.recipes.compactor no-result=true %}
+{% include recipe-table.html type='compactor-te5' recipes=page.recipes.compactor no-result=true %}
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

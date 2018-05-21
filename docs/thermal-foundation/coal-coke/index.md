@@ -31,7 +31,7 @@ Obtaining
 ---------
 
 ### Redstone Furnace with Pyrolytic Conversion
-{% include recipe-table.html type='redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
+{% include recipe-table.html type='redstone-furnace-te5-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -49,4 +49,4 @@ It lasts twice as long as regular [coal](https://minecraft.gamepedia.com/Coal).
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

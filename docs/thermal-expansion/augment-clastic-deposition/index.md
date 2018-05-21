@@ -47,4 +47,4 @@ recipe set consists of producing various types of sedimentary rock.
 Recipes
 -------
 
-{% include recipe-table.html type='extruder-sedimentary' recipes=page.recipe-list %}
+{% include recipe-table.html type='extruder-te5-sedimentary' recipes=page.recipe-list %}

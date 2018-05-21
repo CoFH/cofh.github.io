@@ -36,4 +36,4 @@ Usage
 {% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
 ### Redstone Furnace with Pyrolytic Conversion ingredient
-{% include recipe-table.html type='redstone-furnace-pyrolysis' recipes=page.usage-recipes.redstone-furnace-pyrolysis %}
+{% include recipe-table.html type='redstone-furnace-te5-pyrolysis' recipes=page.usage-recipes.redstone-furnace-pyrolysis %}

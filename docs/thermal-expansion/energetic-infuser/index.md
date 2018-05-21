@@ -169,4 +169,4 @@ Recipes
 An energetic infuser can process the following items that do not hold [Redstone
 Flux](/docs/redstone-flux/) into different items.
 
-{% include recipe-table.html type='charger' recipes=page.recipe-list %}
+{% include recipe-table.html type='charger-te5' recipes=page.recipe-list %}

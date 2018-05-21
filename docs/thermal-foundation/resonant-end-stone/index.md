@@ -45,10 +45,10 @@ Usage
 -----
 
 ### Pulverizer
-{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}
 
 ### Magma Crucible
-{% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='crucible-te5' recipes=page.usage-recipes.crucible %}
 
 ### Light source
 Resonant end stone emits a light level of 3.

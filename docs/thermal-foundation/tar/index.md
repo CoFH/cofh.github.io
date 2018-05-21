@@ -35,10 +35,10 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Fractionating Still
-{% include recipe-table.html type='refinery' recipes=page.recipes.refinery no-result=true %}
+{% include recipe-table.html type='refinery-te5' recipes=page.recipes.refinery no-result=true %}
 
 
 Usage
@@ -48,7 +48,7 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='crucible-te5' recipes=page.usage-recipes.crucible %}
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one

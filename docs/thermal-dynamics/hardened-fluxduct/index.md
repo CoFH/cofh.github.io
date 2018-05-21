@@ -33,4 +33,4 @@ A hardened fluxduct works the same way as most other
 [fluxducts](/docs/thermal-dynamics/fluxducts/). It transfers up to 4,000 RF/t per connection.
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}

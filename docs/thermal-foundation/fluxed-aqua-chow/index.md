@@ -21,7 +21,7 @@ Obtaining
 ---------
 
 ### Energetic Infuser
-{% include recipe-table.html type='charger' recipes=page.recipes.charger no-result=true %}
+{% include recipe-table.html type='charger-te5' recipes=page.recipes.charger no-result=true %}
 
 
 Usage

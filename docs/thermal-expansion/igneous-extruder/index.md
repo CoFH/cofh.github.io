@@ -160,4 +160,4 @@ Recipes
 When a fluid's input amount is listed as 0 mB, it is not consumed; it only needs
 to be inside the corresponding input tank.
 
-{% include recipe-table.html type='extruder' recipes=page.recipe-list %}
+{% include recipe-table.html type='extruder-te5' recipes=page.recipe-list %}

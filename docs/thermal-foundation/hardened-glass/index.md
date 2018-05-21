@@ -73,7 +73,7 @@ Hardened glass can only be harvested by dismantling it with a
 Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
 ### Induction Smelter
-{% include recipe-table.html type='smelter' recipes=page.recipes.smelter %}
+{% include recipe-table.html type='smelter-te5' recipes=page.recipes.smelter %}
 
 
 Usage

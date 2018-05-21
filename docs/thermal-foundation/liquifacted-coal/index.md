@@ -33,10 +33,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='crucible-te5' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -45,10 +45,10 @@ Usage
 Liquifacted coal cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Fractionating Still ingredient
-{% include recipe-table.html type='refinery' recipes=page.usage-recipes.refinery %}
+{% include recipe-table.html type='refinery-te5' recipes=page.usage-recipes.refinery %}
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket

@@ -42,4 +42,4 @@ Flux](/docs/redstone-flux/) like a [fluxduct](/docs/thermal-dynamics/fluxducts/)
 RF/t per connection.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}

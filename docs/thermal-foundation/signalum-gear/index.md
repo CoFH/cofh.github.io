@@ -42,7 +42,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='compactor-te5-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -52,4 +52,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

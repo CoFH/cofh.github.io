@@ -34,7 +34,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.recipes.transposer-fill no-result=true %}
 
 
 Usage

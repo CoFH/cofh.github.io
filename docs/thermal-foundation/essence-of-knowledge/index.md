@@ -47,7 +47,7 @@ apparatus](/docs/thermal-expansion/augment-enstabulation-apparatus/) installed p
 knowledge when processing filled [morbs](/docs/thermal-expansion/morb/).
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -56,7 +56,7 @@ Usage
 Essence of knowledge cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Tome of Knowledge
 A [tome of knowledge](/docs/thermal-foundation/tome-of-knowledge/) can be filled with essence of

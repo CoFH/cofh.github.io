@@ -35,13 +35,13 @@ Obtaining
 ---------
 
 ### Redstone Furnace with Pyrolytic Conversion
-{% include recipe-table.html type='redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis %}
+{% include recipe-table.html type='redstone-furnace-te5-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis %}
 
 ### Magma Crucible
-{% include recipe-table.html type='crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='crucible-te5' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -50,7 +50,7 @@ Usage
 Creosote oil cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket

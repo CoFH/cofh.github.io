@@ -167,7 +167,7 @@ Recipes
 -------
 
 ### Wood processing
-{% include recipe-table.html type='sawmill' recipes=page.recipe-list.wood-processing %}
+{% include recipe-table.html type='sawmill-te5' recipes=page.recipe-list.wood-processing %}
 
 ### Recycling
-{% include recipe-table.html type='sawmill' recipes=page.recipe-list.recycling %}
+{% include recipe-table.html type='sawmill-te5' recipes=page.recipe-list.recycling %}

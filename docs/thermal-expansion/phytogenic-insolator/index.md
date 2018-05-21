@@ -222,10 +222,10 @@ once. The remainder of the chance (e.g. 25% for a 125% chance) becomes the
 chance of the secondary product being produced twice.
 
 ### Using Phyto-Gro
-{% include recipe-table.html type='insolator' recipes=page.recipe-list.phyto-gro %}
+{% include recipe-table.html type='insolator-te5' recipes=page.recipe-list.phyto-gro %}
 
 ### Using rich Phyto-Gro
-{% include recipe-table.html type='insolator' recipes=page.recipe-list.phyto-gro-rich %}
+{% include recipe-table.html type='insolator-te5' recipes=page.recipe-list.phyto-gro-rich %}
 
 ### Using fluxed Phyto-Gro
-{% include recipe-table.html type='insolator' recipes=page.recipe-list.phyto-gro-fluxed %}
+{% include recipe-table.html type='insolator-te5' recipes=page.recipe-list.phyto-gro-fluxed %}
