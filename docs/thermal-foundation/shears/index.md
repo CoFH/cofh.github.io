@@ -8,40 +8,40 @@ redirect_from:
   - /docs/tf-shears/
 recipes:
   crafting:
-    - shears-wood
-    - shears-stone
-    - shears-gold
-    - shears-diamond
-    - shears-copper
-    - shears-tin
-    - shears-silver
-    - shears-lead
-    - shears-aluminum
-    - shears-nickel
-    - shears-platinum
-    - shears-steel
-    - shears-electrum
-    - shears-invar
-    - shears-bronze
-    - shears-constantan
+    - tf2-tool-shears-wood
+    - tf2-tool-shears-stone
+    - tf2-tool-shears-gold
+    - tf2-tool-shears-diamond
+    - tf2-tool-shears-copper
+    - tf2-tool-shears-tin
+    - tf2-tool-shears-silver
+    - tf2-tool-shears-lead
+    - tf2-tool-shears-aluminum
+    - tf2-tool-shears-nickel
+    - tf2-tool-shears-platinum
+    - tf2-tool-shears-steel
+    - tf2-tool-shears-electrum
+    - tf2-tool-shears-invar
+    - tf2-tool-shears-bronze
+    - tf2-tool-shears-constantan
 usage-recipes:
   smelter:
-    - recycling-shears-gold
-    - recycling-shears-copper
-    - recycling-shears-tin
-    - recycling-shears-silver
-    - recycling-shears-lead
-    - recycling-shears-aluminum
-    - recycling-shears-nickel
-    - recycling-shears-platinum
-    - recycling-shears-steel
-    - recycling-shears-electrum
-    - recycling-shears-invar
-    - recycling-shears-bronze
-    - recycling-shears-constantan
+    - recycling-tool-shears-gold
+    - recycling-tool-shears-copper
+    - recycling-tool-shears-tin
+    - recycling-tool-shears-silver
+    - recycling-tool-shears-lead
+    - recycling-tool-shears-aluminum
+    - recycling-tool-shears-nickel
+    - recycling-tool-shears-platinum
+    - recycling-tool-shears-steel
+    - recycling-tool-shears-electrum
+    - recycling-tool-shears-invar
+    - recycling-tool-shears-bronze
+    - recycling-tool-shears-constantan
   pulverizer:
-    - recycling-shears-wood
-    - recycling-shears-diamond
+    - recycling-tool-shears-wood
+    - recycling-tool-shears-diamond
 ---
 
 ![Shears](/assets/images/thermal-foundation/shears.gif){:style="height: 128px"}

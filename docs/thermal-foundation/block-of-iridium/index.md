@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-iridium/
 recipes:
   crafting:
-    - storage-block-iridium
+    - tf2-storage-block-iridium
 usage-recipes:
   crafting:
-    - ingot-iridium-from-block
+    - tf2-ingot-iridium-from-block
 ---
 
 **Blocks of iridium** are blocks made from [iridium ingots](/docs/thermal-foundation/iridium-ingot/).

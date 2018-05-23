@@ -8,7 +8,7 @@ image:
     file: thermal-expansion/decoctive-diffuser.png
 recipes:
   crafting:
-    - device-diffuser
+    - te5-device-diffuser
 ---
 
 A **decoctive diffuser**, or **diffuser** for short, is a

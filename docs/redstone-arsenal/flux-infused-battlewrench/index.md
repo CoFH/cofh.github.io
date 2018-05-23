@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-battlewrench/
 recipes:
   crafting:
-    - flux-infused-battlewrench
+    - ra-weapon-battlewrench
 ---
 
 A **flux-infused battlewrench** is a powerful weapon powered by [Redstone

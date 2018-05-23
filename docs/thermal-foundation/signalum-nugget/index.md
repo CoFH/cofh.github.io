@@ -6,22 +6,22 @@ redirect_from:
   - /docs/signalum-nugget/
 recipes:
   crafting:
-    - nugget-signalum
+    - tf2-nugget-signalum
 usage-recipes:
   crafting:
-    - ingot-signalum-from-nuggets
-    - signalum-security-lock
-    - satchel-resonant
-    - morb-reusable
-    - fluxduct-signalum-empty-one
-    - fluxduct-signalum-one
-    - fluiduct-energy-one
-    - itemduct-energy-one
-    - itemduct-energy-fast-one
-    - redstone-relay
-    - fluxomagnet-resonant
-    - hypoinfuser-resonant
-    - alchemical-quiver-resonant
+    - tf2-ingot-signalum-from-nuggets
+    - tf2-signalum-security-lock
+    - te5-satchel-resonant
+    - te5-morb-reusable
+    - td2-fluxduct-signalum-empty-one
+    - td2-fluxduct-signalum-one
+    - td2-fluiduct-energy-one
+    - td2-itemduct-energy-one
+    - td2-itemduct-energy-fast-one
+    - td2-redstone-relay
+    - ti-fluxomagnet-resonant
+    - ti-hypoinfuser-resonant
+    - ti-alchemical-quiver-resonant
 ---
 
 ![Signalum nugget](/assets/images/thermal-foundation/nugget-signalum.png){:style="height: 128px"}

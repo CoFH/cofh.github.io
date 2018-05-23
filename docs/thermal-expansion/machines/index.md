@@ -39,7 +39,7 @@ redirect_from:
   - /docs/machines/
 frame-recipes:
   crafting:
-    - frame-machine
+    - te5-frame-machine
 ---
 
 **Machines** are blocks that process items and/or fluids using [Redstone

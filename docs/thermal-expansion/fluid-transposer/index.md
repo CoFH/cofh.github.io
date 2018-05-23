@@ -7,7 +7,7 @@ redirect_from:
   - /docs/fluid-transposer/
 recipes:
   crafting:
-    - machine-transposer
+    - te5-machine-transposer
 augments:
   - machine-power
   - machine-secondary
@@ -34,16 +34,16 @@ recipe-list:
     - glowstone-dust-from-clathrate
     - ender-pearl-from-clathrate
     - bottle-o-enchanting
-    - fluxduct-reinforced
-    - fluxduct-signalum
-    - fluxduct-resonant
-    - fluxduct-super
-    - itemduct-fast
-    - itemduct-energy-fast
-    - viaduct
-    - viaduct-long-range-linking
-    - dust-fluxed-electrum
-    - flux-crystal
+    - td2-fluxduct-reinforced
+    - td2-fluxduct-signalum
+    - td2-fluxduct-resonant
+    - td2-fluxduct-super
+    - td2-itemduct-fast
+    - td2-itemduct-energy-fast
+    - td2-viaduct
+    - td2-viaduct-long-range-linking
+    - ra-dust-fluxed-electrum
+    - ra-flux-crystal
   empty:
     - water-from-cactus
     - water-from-sponge

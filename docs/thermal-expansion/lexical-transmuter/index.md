@@ -8,7 +8,7 @@ image:
     file: thermal-expansion/lexical-transmuter.png
 recipes:
   crafting:
-    - device-lexicon
+    - te5-device-lexicon
 ---
 
 A **lexical transmuter** is a [device](/docs/thermal-expansion/devices/) that converts items into

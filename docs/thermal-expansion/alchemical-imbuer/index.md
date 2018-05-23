@@ -8,7 +8,7 @@ redirect_from:
   - /docs/alchemical-imbuer/
 recipes:
   crafting:
-    - machine-brewer
+    - te5-machine-brewer
 augments:
   - machine-power
   - machine-brewer-reagent

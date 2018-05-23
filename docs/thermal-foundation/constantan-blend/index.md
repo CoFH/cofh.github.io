@@ -6,7 +6,7 @@ redirect_from:
   - /docs/constantan-blend/
 recipes:
   crafting:
-    - dust-constantan
+    - tf2-dust-constantan
   pulverizer:
     - dust-constantan
 usage-recipes:

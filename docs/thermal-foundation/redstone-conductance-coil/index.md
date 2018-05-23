@@ -8,31 +8,31 @@ redirect_from:
   - /docs/redstone-conductance-coil/
 recipes:
   crafting:
-    - redstone-coil-electrum
+    - tf2-redstone-coil-electrum
 usage-recipes:
   crafting:
-    - multimeter
-    - energy-cell-basic
-    - machine-crucible
-    - machine-charger
-    - augment-machine-furnace-food
-    - augment-machine-furnace-ore
-    - augment-machine-smelter-pyrotheum
-    - augment-machine-insolator-monoculture
-    - augment-machine-crucible-lava
-    - augment-machine-refinery-oil
-    - augment-machine-refinery-potion
-    - augment-machine-charger-throughput
-    - augment-machine-charger-repair
-    - augment-machine-extruder-sedimentary
-    - augment-dynamo-efficiency
-    - augment-dynamo-steam-turbine
-    - augment-dynamo-magmatic-coolant
-    - augment-dynamo-compression-coolant
-    - augment-dynamo-compression-fuel
-    - augment-dynamo-reactant-elemental
-    - augment-dynamo-enervation-enchant
-    - augment-dynamo-numismatic-gem
+    - tf2-multimeter
+    - te5-energy-cell-basic
+    - te5-machine-crucible
+    - te5-machine-charger
+    - te5-augment-machine-furnace-food
+    - te5-augment-machine-furnace-ore
+    - te5-augment-machine-smelter-pyrotheum
+    - te5-augment-machine-insolator-monoculture
+    - te5-augment-machine-crucible-lava
+    - te5-augment-machine-refinery-oil
+    - te5-augment-machine-refinery-potion
+    - te5-augment-machine-charger-throughput
+    - te5-augment-machine-charger-repair
+    - te5-augment-machine-extruder-sedimentary
+    - te5-augment-dynamo-efficiency
+    - te5-augment-dynamo-steam-turbine
+    - te5-augment-dynamo-magmatic-coolant
+    - te5-augment-dynamo-compression-coolant
+    - te5-augment-dynamo-compression-fuel
+    - te5-augment-dynamo-reactant-elemental
+    - te5-augment-dynamo-enervation-enchant
+    - te5-augment-dynamo-numismatic-gem
 ---
 
 ![Redstone conductance coil](/assets/images/thermal-foundation/redstone-coil-electrum.png){:style="height: 128px"}

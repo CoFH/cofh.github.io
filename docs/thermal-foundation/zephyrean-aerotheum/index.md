@@ -13,7 +13,7 @@ recipes:
 usage-recipes:
   transposer-fill:
     - bucket-aerotheum
-    - viaduct
+    - td2-viaduct
 ---
 
 ![Zephyrean aerotheum](/assets/images/thermal-foundation/zephyrean-aerotheum.gif){:style="height: 128px"}

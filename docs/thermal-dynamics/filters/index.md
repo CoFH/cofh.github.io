@@ -17,16 +17,16 @@ redirect_from:
   - /docs/filters/
 recipes:
   crafting:
-    - filter-basic
-    - filter-hardened
-    - filter-reinforced
-    - filter-signalum
-    - filter-resonant
+    - td2-filter-basic
+    - td2-filter-hardened
+    - td2-filter-reinforced
+    - td2-filter-signalum
+    - td2-filter-resonant
   crafting-upgrading:
-    - filter-hardened-upgrade
-    - filter-reinforced-upgrade
-    - filter-signalum-upgrade
-    - filter-resonant-upgrade
+    - td2-filter-hardened-upgrade
+    - td2-filter-reinforced-upgrade
+    - td2-filter-signalum-upgrade
+    - td2-filter-resonant-upgrade
 ---
 
 **Filters** are items that can be installed on [itemduct](/docs/thermal-dynamics/itemduct/) and

@@ -9,7 +9,7 @@ recipes:
     - plate-bronze
 usage-recipes:
   crafting:
-    - augment-machine-pulverizer-petrotheum
+    - te5-augment-machine-pulverizer-petrotheum
   smelter:
     - recycling-plate-bronze
 ---

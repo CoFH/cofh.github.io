@@ -18,13 +18,13 @@ recipes:
     - dust-lumium
 usage-recipes:
   crafting:
-    - glowstone-dust-from-fluid
-    - dust-lumium
+    - tf2-glowstone-dust-from-fluid
+    - tf2-dust-lumium
   transposer-fill:
     - bucket-glowstone
     - glowstone-dust-from-fluid
-    - itemduct-fast
-    - itemduct-energy-fast
+    - td2-itemduct-fast
+    - td2-itemduct-energy-fast
 ---
 
 ![Energized glowstone](/assets/images/thermal-foundation/energized-glowstone.gif){:style="height: 128px"}

@@ -6,7 +6,7 @@ redirect_from:
   - /docs/aluminum-gear/
 recipes:
   crafting:
-    - gear-aluminum
+    - tf2-gear-aluminum
   compactor-gear:
     - gear-aluminum
 usage-recipes:

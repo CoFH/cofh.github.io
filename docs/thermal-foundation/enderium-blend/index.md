@@ -6,7 +6,7 @@ redirect_from:
   - /docs/enderium-blend/
 recipes:
   crafting:
-    - dust-enderium
+    - tf2-dust-enderium
   pulverizer:
     - dust-enderium
 usage-recipes:

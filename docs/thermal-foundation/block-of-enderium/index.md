@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-enderium/
 recipes:
   crafting:
-    - storage-block-enderium
+    - tf2-storage-block-enderium
 usage-recipes:
   crafting:
-    - ingot-enderium-from-block
+    - tf2-ingot-enderium-from-block
 ---
 
 **Blocks of enderium** are blocks made from [enderium

@@ -10,10 +10,10 @@ redirect_from:
   - /docs/signalum-plated-fluiduct/
 recipes:
   crafting:
-    - fluiduct-energy-one
-    - fluiduct-energy-three
-    - fluiduct-energy-opaque-from-transparent
-    - fluiduct-energy-transparent-from-opaque
+    - td2-fluiduct-energy-one
+    - td2-fluiduct-energy-three
+    - td2-fluiduct-energy-opaque-from-transparent
+    - td2-fluiduct-energy-transparent-from-opaque
 ---
 
 A **signalum-plated fluiduct** is a type of [fluiduct](/docs/thermal-dynamics/fluiduct/) that

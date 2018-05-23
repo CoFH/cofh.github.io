@@ -6,16 +6,16 @@ redirect_from:
   - /docs/constantan-gear/
 recipes:
   crafting:
-    - gear-constantan
+    - tf2-gear-constantan
   compactor-gear:
     - gear-constantan
 usage-recipes:
   crafting:
-    - machine-refinery
-    - machine-brewer
-    - machine-enchanter
-    - dynamo-numismatic
-    - augment-machine-refinery-oil
+    - te5-machine-refinery
+    - te5-machine-brewer
+    - te5-machine-enchanter
+    - te5-dynamo-numismatic
+    - te5-augment-machine-refinery-oil
   smelter:
     - recycling-gear-constantan
 ---

@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-constantan/
 recipes:
   crafting:
-    - storage-block-constantan
+    - tf2-storage-block-constantan
 usage-recipes:
   crafting:
-    - ingot-constantan-from-block
+    - tf2-ingot-constantan-from-block
 ---
 
 **Blocks of constantan** are blocks made from [constantan

@@ -19,11 +19,11 @@ redirect_from:
   - /docs/watering-can/
 recipes:
   crafting:
-    - watering-can-basic
-    - watering-can-hardened
-    - watering-can-reinforced
-    - watering-can-signalum
-    - watering-can-resonant
+    - tc-watering-can-basic
+    - tc-watering-can-hardened
+    - tc-watering-can-reinforced
+    - tc-watering-can-signalum
+    - tc-watering-can-resonant
 ---
 
 A **watering can** is a tool that uses

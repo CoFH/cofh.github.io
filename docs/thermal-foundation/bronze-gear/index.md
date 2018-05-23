@@ -6,13 +6,13 @@ redirect_from:
   - /docs/bronze-gear/
 recipes:
   crafting:
-    - gear-bronze
+    - tf2-gear-bronze
   compactor-gear:
     - gear-bronze
 usage-recipes:
   crafting:
-    - upgrade-kit-hardened
-    - augment-machine-furnace-ore
+    - tf2-upgrade-kit-hardened
+    - te5-augment-machine-furnace-ore
   smelter:
     - recycling-gear-bronze
 ---

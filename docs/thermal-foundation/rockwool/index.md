@@ -11,11 +11,11 @@ recipes:
   smelting:
     - tf2-rockwool
   crafting:
-    - rockwool-dyeing
+    - tf2-rockwool-dyeing
 usage-recipes:
   crafting:
-    - satchel-basic-using-rockwool
-    - satchel-void-using-rockwool
+    - te5-satchel-basic-using-rockwool
+    - te5-satchel-void-using-rockwool
 ---
 
 ![Rockwool](/assets/images/thermal-foundation/rockwool.gif){:style="height: 128px"}

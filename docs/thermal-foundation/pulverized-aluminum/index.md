@@ -6,14 +6,14 @@ redirect_from:
   - /docs/pulverized-aluminum/
 recipes:
   crafting:
-    - petrotheum-ingot-aluminum
-    - petrotheum-ore-aluminum
+    - tf2-petrotheum-ingot-aluminum
+    - tf2-petrotheum-ore-aluminum
   pulverizer:
     - dust-aluminum
     - ore-processing-aluminum
 usage-recipes:
   crafting:
-    - pyrotheum-dust-aluminum
+    - tf2-pyrotheum-dust-aluminum
   smelting:
     - tf2-ingot-aluminum-from-dust
   smelter:

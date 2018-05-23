@@ -8,9 +8,9 @@ redirect_from:
   - /docs/cryo-stabilized-fluxduct/
 recipes:
   crafting:
-    - fluxduct-super-empty
+    - td2-fluxduct-super-empty
   transposer-fill:
-    - fluxduct-super
+    - td2-fluxduct-super
 ---
 
 A **cryo-stabilized fluxduct** is a [fluxduct](/docs/thermal-dynamics/fluxducts/) of the sixth

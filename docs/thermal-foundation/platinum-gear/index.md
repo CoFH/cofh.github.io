@@ -6,7 +6,7 @@ redirect_from:
   - /docs/platinum-gear/
 recipes:
   crafting:
-    - gear-platinum
+    - tf2-gear-platinum
   compactor-gear:
     - gear-platinum
 usage-recipes:

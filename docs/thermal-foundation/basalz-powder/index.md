@@ -7,7 +7,7 @@ redirect_from:
   - /docs/basalz-powder/
 recipes:
   crafting:
-    - basalz-powder
+    - tf2-basalz-powder
   pulverizer:
     - basalz-powder
   transposer-fill:
@@ -16,7 +16,7 @@ recipes:
     - dust-petrotheum
 usage-recipes:
   crafting:
-    - dust-petrotheum
+    - tf2-dust-petrotheum
   compactor:
     - basalz-rod-from-powder
 ---

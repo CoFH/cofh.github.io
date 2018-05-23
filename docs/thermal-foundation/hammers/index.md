@@ -7,42 +7,42 @@ redirect_from:
   - /docs/tf-hammers/
 recipes:
   crafting:
-    - hammer-wood
-    - hammer-stone
-    - hammer-iron
-    - hammer-gold
-    - hammer-diamond
-    - hammer-copper
-    - hammer-tin
-    - hammer-silver
-    - hammer-lead
-    - hammer-aluminum
-    - hammer-nickel
-    - hammer-platinum
-    - hammer-steel
-    - hammer-electrum
-    - hammer-invar
-    - hammer-bronze
-    - hammer-constantan
+    - tf2-tool-hammer-wood
+    - tf2-tool-hammer-stone
+    - tf2-tool-hammer-iron
+    - tf2-tool-hammer-gold
+    - tf2-tool-hammer-diamond
+    - tf2-tool-hammer-copper
+    - tf2-tool-hammer-tin
+    - tf2-tool-hammer-silver
+    - tf2-tool-hammer-lead
+    - tf2-tool-hammer-aluminum
+    - tf2-tool-hammer-nickel
+    - tf2-tool-hammer-platinum
+    - tf2-tool-hammer-steel
+    - tf2-tool-hammer-electrum
+    - tf2-tool-hammer-invar
+    - tf2-tool-hammer-bronze
+    - tf2-tool-hammer-constantan
 usage-recipes:
   smelter:
-    - recycling-hammer-iron
-    - recycling-hammer-gold
-    - recycling-hammer-copper
-    - recycling-hammer-tin
-    - recycling-hammer-silver
-    - recycling-hammer-lead
-    - recycling-hammer-aluminum
-    - recycling-hammer-nickel
-    - recycling-hammer-platinum
-    - recycling-hammer-steel
-    - recycling-hammer-electrum
-    - recycling-hammer-invar
-    - recycling-hammer-bronze
-    - recycling-hammer-constantan
+    - recycling-tool-hammer-iron
+    - recycling-tool-hammer-gold
+    - recycling-tool-hammer-copper
+    - recycling-tool-hammer-tin
+    - recycling-tool-hammer-silver
+    - recycling-tool-hammer-lead
+    - recycling-tool-hammer-aluminum
+    - recycling-tool-hammer-nickel
+    - recycling-tool-hammer-platinum
+    - recycling-tool-hammer-steel
+    - recycling-tool-hammer-electrum
+    - recycling-tool-hammer-invar
+    - recycling-tool-hammer-bronze
+    - recycling-tool-hammer-constantan
   pulverizer:
-    - recycling-hammer-wood
-    - recycling-hammer-diamond
+    - recycling-tool-hammer-wood
+    - recycling-tool-hammer-diamond
 ---
 
 ![Hammers](/assets/images/thermal-foundation/hammers.gif){:style="height: 128px"}

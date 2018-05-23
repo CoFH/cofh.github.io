@@ -8,32 +8,32 @@ redirect_from:
   - /docs/tf-axes/
 recipes:
   crafting:
-    - axe-copper
-    - axe-tin
-    - axe-silver
-    - axe-lead
-    - axe-aluminum
-    - axe-nickel
-    - axe-platinum
-    - axe-steel
-    - axe-electrum
-    - axe-invar
-    - axe-bronze
-    - axe-constantan
+    - tf2-tool-axe-copper
+    - tf2-tool-axe-tin
+    - tf2-tool-axe-silver
+    - tf2-tool-axe-lead
+    - tf2-tool-axe-aluminum
+    - tf2-tool-axe-nickel
+    - tf2-tool-axe-platinum
+    - tf2-tool-axe-steel
+    - tf2-tool-axe-electrum
+    - tf2-tool-axe-invar
+    - tf2-tool-axe-bronze
+    - tf2-tool-axe-constantan
 usage-recipes:
   smelter:
-    - recycling-axe-copper
-    - recycling-axe-tin
-    - recycling-axe-silver
-    - recycling-axe-lead
-    - recycling-axe-aluminum
-    - recycling-axe-nickel
-    - recycling-axe-platinum
-    - recycling-axe-steel
-    - recycling-axe-electrum
-    - recycling-axe-invar
-    - recycling-axe-bronze
-    - recycling-axe-constantan
+    - recycling-tool-axe-copper
+    - recycling-tool-axe-tin
+    - recycling-tool-axe-silver
+    - recycling-tool-axe-lead
+    - recycling-tool-axe-aluminum
+    - recycling-tool-axe-nickel
+    - recycling-tool-axe-platinum
+    - recycling-tool-axe-steel
+    - recycling-tool-axe-electrum
+    - recycling-tool-axe-invar
+    - recycling-tool-axe-bronze
+    - recycling-tool-axe-constantan
 ---
 
 ![Axes](/assets/images/thermal-foundation/axes.gif){:style="height: 128px"}

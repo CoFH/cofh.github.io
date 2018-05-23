@@ -34,33 +34,33 @@ recipes:
     - recycling-horse-armor-gold
     - recycling-pressure-plate-iron
     - recycling-pressure-plate-gold
-    - recycling-axe
-    - recycling-bow
-    - recycling-fishing-rod
-    - recycling-hammer
-    - recycling-hoe
-    - recycling-pickaxe
-    - recycling-shears-metal
-    - recycling-shield-metal
-    - recycling-shovel
-    - recycling-sickle
-    - recycling-sword
-    - recycling-helmet
-    - recycling-chestplate
-    - recycling-leggings
-    - recycling-boots
+    - recycling-tool-pickaxe
+    - recycling-tool-shovel
+    - recycling-tool-axe
+    - recycling-tool-hoe
+    - recycling-tool-fishing-rod-metal
+    - recycling-tool-shears-metal
+    - recycling-tool-hammer
+    - recycling-tool-sickle
+    - recycling-weapon-sword
+    - recycling-weapon-bow-metal
+    - recycling-weapon-shield-metal
+    - recycling-armor-helmet
+    - recycling-armor-chestplate
+    - recycling-armor-leggings
+    - recycling-armor-boots
 usage-recipes:
   crafting:
-    - clay-using-slag
-    - phyto-gro-using-sawdust
-    - phyto-gro-using-charcoal
-    - florb-using-slime
-    - florb-using-rosin
-    - florb-magmatic-using-magma-cream
-    - florb-magmatic-using-slime
-    - florb-magmatic-using-rosin
-    - morb-using-slime
-    - morb-using-rosin
+    - tf2-clay-using-slag
+    - tf2-phyto-gro-using-sawdust
+    - tf2-phyto-gro-using-charcoal
+    - te5-florb-using-slime
+    - te5-florb-using-rosin
+    - te5-florb-magmatic-using-magma-cream
+    - te5-florb-magmatic-using-slime
+    - te5-florb-magmatic-using-rosin
+    - te5-morb-using-slime
+    - te5-morb-using-rosin
   smelting:
     - tf2-rockwool
 ---

@@ -9,9 +9,9 @@ usage-recipes:
   smelting:
     - tf2-ore-processing-iridium
   crafting:
-    - pyrotheum-ore-iridium
-    - petrotheum-ore-iridium
-    - petrotheum-pyrotheum-ore-iridium
+    - tf2-pyrotheum-ore-iridium
+    - tf2-petrotheum-ore-iridium
+    - tf2-petrotheum-pyrotheum-ore-iridium
   pulverizer:
     - ore-processing-iridium
   smelter:

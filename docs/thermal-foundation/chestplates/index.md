@@ -7,32 +7,32 @@ redirect_from:
   - /docs/tf-chestplates/
 recipes:
   crafting:
-    - chestplate-copper
-    - chestplate-tin
-    - chestplate-silver
-    - chestplate-lead
-    - chestplate-aluminum
-    - chestplate-nickel
-    - chestplate-platinum
-    - chestplate-steel
-    - chestplate-electrum
-    - chestplate-invar
-    - chestplate-bronze
-    - chestplate-constantan
+    - tf2-armor-chestplate-copper
+    - tf2-armor-chestplate-tin
+    - tf2-armor-chestplate-silver
+    - tf2-armor-chestplate-lead
+    - tf2-armor-chestplate-aluminum
+    - tf2-armor-chestplate-nickel
+    - tf2-armor-chestplate-platinum
+    - tf2-armor-chestplate-steel
+    - tf2-armor-chestplate-electrum
+    - tf2-armor-chestplate-invar
+    - tf2-armor-chestplate-bronze
+    - tf2-armor-chestplate-constantan
 usage-recipes:
   smelter:
-    - recycling-chestplate-copper
-    - recycling-chestplate-tin
-    - recycling-chestplate-silver
-    - recycling-chestplate-lead
-    - recycling-chestplate-aluminum
-    - recycling-chestplate-nickel
-    - recycling-chestplate-platinum
-    - recycling-chestplate-steel
-    - recycling-chestplate-electrum
-    - recycling-chestplate-invar
-    - recycling-chestplate-bronze
-    - recycling-chestplate-constantan
+    - recycling-armor-chestplate-copper
+    - recycling-armor-chestplate-tin
+    - recycling-armor-chestplate-silver
+    - recycling-armor-chestplate-lead
+    - recycling-armor-chestplate-aluminum
+    - recycling-armor-chestplate-nickel
+    - recycling-armor-chestplate-platinum
+    - recycling-armor-chestplate-steel
+    - recycling-armor-chestplate-electrum
+    - recycling-armor-chestplate-invar
+    - recycling-armor-chestplate-bronze
+    - recycling-armor-chestplate-constantan
 ---
 
 ![Chestplates](/assets/images/thermal-foundation/chestplates.gif){:style="height: 128px"}

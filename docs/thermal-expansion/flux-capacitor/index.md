@@ -20,11 +20,11 @@ redirect_from:
   - /docs/flux-capacitor/
 recipes:
   crafting:
-    - flux-capacitor-basic
-    - flux-capacitor-hardened
-    - flux-capacitor-reinforced
-    - flux-capacitor-signalum
-    - flux-capacitor-resonant
+    - te5-flux-capacitor-basic
+    - te5-flux-capacitor-hardened
+    - te5-flux-capacitor-reinforced
+    - te5-flux-capacitor-signalum
+    - te5-flux-capacitor-resonant
 ---
 
 A **flux capacitor** is an item that stores [Redstone

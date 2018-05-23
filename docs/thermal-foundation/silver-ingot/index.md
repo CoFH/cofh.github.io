@@ -11,11 +11,11 @@ recipes:
     - tf2-ore-processing-silver
     - tf2-ingot-silver-from-dust
   crafting:
-    - pyrotheum-ore-silver
-    - petrotheum-pyrotheum-ore-silver
-    - pyrotheum-dust-silver
-    - ingot-silver-from-nuggets
-    - ingot-silver-from-block
+    - tf2-pyrotheum-ore-silver
+    - tf2-petrotheum-pyrotheum-ore-silver
+    - tf2-pyrotheum-dust-silver
+    - tf2-ingot-silver-from-nuggets
+    - tf2-ingot-silver-from-block
   smelter:
     - ore-processing-sand-silver
     - ore-processing-rich-slag-silver
@@ -24,48 +24,48 @@ recipes:
     - dust-smelting-silver
     - recycling-gear-silver
     - recycling-plate-silver
-    - recycling-axe-silver
-    - recycling-bow-silver
-    - recycling-fishing-rod-silver
-    - recycling-hammer-silver
-    - recycling-hoe-silver
-    - recycling-pickaxe-silver
-    - recycling-shears-silver
-    - recycling-shield-silver
-    - recycling-shovel-silver
-    - recycling-sickle-silver
-    - recycling-sword-silver
-    - recycling-helmet-silver
-    - recycling-chestplate-silver
-    - recycling-leggings-silver
-    - recycling-boots-silver
+    - recycling-tool-pickaxe-silver
+    - recycling-tool-shovel-silver
+    - recycling-tool-axe-silver
+    - recycling-tool-hoe-silver
+    - recycling-tool-fishing-rod-silver
+    - recycling-tool-shears-silver
+    - recycling-tool-hammer-silver
+    - recycling-tool-sickle-silver
+    - recycling-weapon-sword-silver
+    - recycling-weapon-bow-silver
+    - recycling-weapon-shield-silver
+    - recycling-armor-helmet-silver
+    - recycling-armor-chestplate-silver
+    - recycling-armor-leggings-silver
+    - recycling-armor-boots-silver
 usage-recipes:
   crafting:
-    - petrotheum-ingot-silver
-    - nugget-silver
-    - gear-silver
-    - storage-block-silver
-    - redstone-coil-silver
-    - device-diffuser
-    - augment-dynamo-power
-    - fluxbore-basic
-    - fluxsaw-basic
-    - hypoinfuser-basic
-    - axe-silver
-    - bow-silver
-    - fishing-rod-silver
-    - hammer-silver
-    - hoe-silver
-    - pickaxe-silver
-    - shears-silver
-    - shield-silver
-    - shovel-silver
-    - sickle-silver
-    - sword-silver
-    - helmet-silver
-    - chestplate-silver
-    - leggings-silver
-    - boots-silver
+    - tf2-petrotheum-ingot-silver
+    - tf2-nugget-silver
+    - tf2-gear-silver
+    - tf2-storage-block-silver
+    - tf2-redstone-coil-silver
+    - te5-device-diffuser
+    - te5-augment-dynamo-power
+    - ti-fluxbore-basic
+    - ti-fluxsaw-basic
+    - ti-hypoinfuser-basic
+    - tf2-tool-pickaxe-silver
+    - tf2-tool-shovel-silver
+    - tf2-tool-axe-silver
+    - tf2-tool-hoe-silver
+    - tf2-tool-fishing-rod-silver
+    - tf2-tool-shears-silver
+    - tf2-tool-hammer-silver
+    - tf2-tool-sickle-silver
+    - tf2-weapon-sword-silver
+    - tf2-weapon-bow-silver
+    - tf2-weapon-shield-silver
+    - tf2-armor-helmet-silver
+    - tf2-armor-chestplate-silver
+    - tf2-armor-leggings-silver
+    - tf2-armor-boots-silver
   pulverizer:
     - dust-silver
   smelter:

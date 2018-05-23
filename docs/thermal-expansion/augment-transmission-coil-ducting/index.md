@@ -9,7 +9,7 @@ redirect_from:
   - /docs/augment-transmission-coil-ducting/
 recipes:
   crafting:
-    - augment-dynamo-coil-duct
+    - te5-augment-dynamo-coil-duct
 ---
 
 **Transmission coil ducting** is an [augment](/docs/thermal-expansion/augments/) that allows items

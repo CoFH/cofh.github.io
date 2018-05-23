@@ -7,32 +7,32 @@ redirect_from:
   - /docs/tf-boots/
 recipes:
   crafting:
-    - boots-copper
-    - boots-tin
-    - boots-silver
-    - boots-lead
-    - boots-aluminum
-    - boots-nickel
-    - boots-platinum
-    - boots-steel
-    - boots-electrum
-    - boots-invar
-    - boots-bronze
-    - boots-constantan
+    - tf2-armor-boots-copper
+    - tf2-armor-boots-tin
+    - tf2-armor-boots-silver
+    - tf2-armor-boots-lead
+    - tf2-armor-boots-aluminum
+    - tf2-armor-boots-nickel
+    - tf2-armor-boots-platinum
+    - tf2-armor-boots-steel
+    - tf2-armor-boots-electrum
+    - tf2-armor-boots-invar
+    - tf2-armor-boots-bronze
+    - tf2-armor-boots-constantan
 usage-recipes:
   smelter:
-    - recycling-boots-copper
-    - recycling-boots-tin
-    - recycling-boots-silver
-    - recycling-boots-lead
-    - recycling-boots-aluminum
-    - recycling-boots-nickel
-    - recycling-boots-platinum
-    - recycling-boots-steel
-    - recycling-boots-electrum
-    - recycling-boots-invar
-    - recycling-boots-bronze
-    - recycling-boots-constantan
+    - recycling-armor-boots-copper
+    - recycling-armor-boots-tin
+    - recycling-armor-boots-silver
+    - recycling-armor-boots-lead
+    - recycling-armor-boots-aluminum
+    - recycling-armor-boots-nickel
+    - recycling-armor-boots-platinum
+    - recycling-armor-boots-steel
+    - recycling-armor-boots-electrum
+    - recycling-armor-boots-invar
+    - recycling-armor-boots-bronze
+    - recycling-armor-boots-constantan
 ---
 
 ![Boots](/assets/images/thermal-foundation/boots.gif){:style="height: 128px"}

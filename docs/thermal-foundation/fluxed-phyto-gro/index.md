@@ -9,8 +9,8 @@ recipes:
     - phyto-gro-fluxed
 usage-recipes:
   crafting:
-    - augment-machine-insolator-monoculture
-    - watering-can-resonant
+    - te5-augment-machine-insolator-monoculture
+    - tc-watering-can-resonant
   insolator:
     - beetroot-fluxed
     - cactus-fluxed

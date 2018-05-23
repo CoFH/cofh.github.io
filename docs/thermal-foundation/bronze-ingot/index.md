@@ -10,8 +10,8 @@ recipes:
   smelting:
     - tf2-ingot-bronze-from-dust
   crafting:
-    - ingot-bronze-from-nuggets
-    - ingot-bronze-from-block
+    - tf2-ingot-bronze-from-nuggets
+    - tf2-ingot-bronze-from-block
   smelter:
     - dust-smelting-bronze
     - ingot-bronze-from-dust-copper-and-dust-tin
@@ -20,47 +20,47 @@ recipes:
     - ingot-bronze-from-ingot-copper-and-ingot-tin
     - recycling-gear-bronze
     - recycling-plate-bronze
-    - recycling-axe-bronze
-    - recycling-bow-bronze
-    - recycling-fishing-rod-bronze
-    - recycling-hammer-bronze
-    - recycling-hoe-bronze
-    - recycling-pickaxe-bronze
-    - recycling-shears-bronze
-    - recycling-shield-bronze
-    - recycling-shovel-bronze
-    - recycling-sickle-bronze
-    - recycling-sword-bronze
-    - recycling-helmet-bronze
-    - recycling-chestplate-bronze
-    - recycling-leggings-bronze
-    - recycling-boots-bronze
+    - recycling-tool-pickaxe-bronze
+    - recycling-tool-shovel-bronze
+    - recycling-tool-axe-bronze
+    - recycling-tool-hoe-bronze
+    - recycling-tool-fishing-rod-bronze
+    - recycling-tool-shears-bronze
+    - recycling-tool-hammer-bronze
+    - recycling-tool-sickle-bronze
+    - recycling-weapon-sword-bronze
+    - recycling-weapon-bow-bronze
+    - recycling-weapon-shield-bronze
+    - recycling-armor-helmet-bronze
+    - recycling-armor-chestplate-bronze
+    - recycling-armor-leggings-bronze
+    - recycling-armor-boots-bronze
 usage-recipes:
   crafting:
-    - nugget-bronze
-    - gear-bronze
-    - gear-iron-using-bronze
-    - storage-block-bronze
-    - signalum-security-lock
-    - machine-compactor
-    - augment-machine-secondary
-    - fluiduct-super
-    - viaduct-frame
-    - axe-bronze
-    - bow-bronze
-    - fishing-rod-bronze
-    - hammer-bronze
-    - hoe-bronze
-    - pickaxe-bronze
-    - shears-bronze
-    - shield-bronze
-    - shovel-bronze
-    - sickle-bronze
-    - sword-bronze
-    - helmet-bronze
-    - chestplate-bronze
-    - leggings-bronze
-    - boots-bronze
+    - tf2-nugget-bronze
+    - tf2-gear-bronze
+    - tf2-gear-iron-using-bronze
+    - tf2-storage-block-bronze
+    - tf2-signalum-security-lock
+    - te5-machine-compactor
+    - te5-augment-machine-secondary
+    - td2-fluiduct-super
+    - td2-viaduct-frame
+    - tf2-tool-pickaxe-bronze
+    - tf2-tool-shovel-bronze
+    - tf2-tool-axe-bronze
+    - tf2-tool-hoe-bronze
+    - tf2-tool-fishing-rod-bronze
+    - tf2-tool-shears-bronze
+    - tf2-tool-hammer-bronze
+    - tf2-tool-sickle-bronze
+    - tf2-weapon-sword-bronze
+    - tf2-weapon-bow-bronze
+    - tf2-weapon-shield-bronze
+    - tf2-armor-helmet-bronze
+    - tf2-armor-chestplate-bronze
+    - tf2-armor-leggings-bronze
+    - tf2-armor-boots-bronze
   pulverizer:
     - dust-bronze
   compactor:

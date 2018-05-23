@@ -9,10 +9,10 @@ recipes:
     - plate-lead
 usage-recipes:
   crafting:
-    - augment-machine-compactor-gear
-    - augment-machine-refinery-potion
-    - augment-machine-extruder-sedimentary
-    - augment-dynamo-reactant-elemental
+    - te5-augment-machine-compactor-gear
+    - te5-augment-machine-refinery-potion
+    - te5-augment-machine-extruder-sedimentary
+    - te5-augment-dynamo-reactant-elemental
   smelter:
     - recycling-plate-lead
 ---

@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-electrum/
 recipes:
   crafting:
-    - storage-block-electrum
+    - tf2-storage-block-electrum
 usage-recipes:
   crafting:
-    - ingot-electrum-from-block
+    - tf2-ingot-electrum-from-block
 ---
 
 **Blocks of electrum** are blocks made from [electrum

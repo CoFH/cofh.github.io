@@ -5,7 +5,7 @@ redirect_from:
   - /docs/arboreal-extractor/
 recipes:
   crafting:
-    - device-tapper
+    - te5-device-tapper
 ---
 
 ![Arboreal extractor](/assets/images/thermal-expansion/arboreal-extractor.png){:style="height: 128px"}

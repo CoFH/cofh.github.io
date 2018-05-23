@@ -18,11 +18,11 @@ image:
     file: thermal-expansion/reservoir-creative.png
 recipes:
   crafting:
-    - reservoir-basic
-    - reservoir-hardened
-    - reservoir-reinforced
-    - reservoir-signalum
-    - reservoir-resonant
+    - te5-reservoir-basic
+    - te5-reservoir-hardened
+    - te5-reservoir-reinforced
+    - te5-reservoir-signalum
+    - te5-reservoir-resonant
 ---
 
 A **reservoir** is an item that stores fluids. It is functionally similar to a

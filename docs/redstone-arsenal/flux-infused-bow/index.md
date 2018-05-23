@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-bow/
 recipes:
   crafting:
-    - flux-infused-bow
+    - ra-weapon-bow
 ---
 
 A **flux-infused bow** is a powerful [bow](https://minecraft.gamepedia.com/Bow)

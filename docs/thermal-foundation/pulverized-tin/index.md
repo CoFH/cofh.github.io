@@ -6,8 +6,8 @@ redirect_from:
   - /docs/pulverized-tin/
 recipes:
   crafting:
-    - petrotheum-ingot-tin
-    - petrotheum-ore-tin
+    - tf2-petrotheum-ingot-tin
+    - tf2-petrotheum-ore-tin
   pulverizer:
     - dust-tin
     - ore-processing-tin
@@ -16,9 +16,9 @@ recipes:
     - dust-lumium
 usage-recipes:
   crafting:
-    - pyrotheum-dust-tin
-    - dust-bronze
-    - dust-lumium
+    - tf2-pyrotheum-dust-tin
+    - tf2-dust-bronze
+    - tf2-dust-lumium
   smelting:
     - tf2-ingot-tin-from-dust
   smelter:

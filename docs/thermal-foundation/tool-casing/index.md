@@ -8,11 +8,11 @@ image:
     file: thermal-foundation/tool-casing.png
 recipes:
   crafting:
-    - tool-casing
+    - tf2-tool-casing
 usage-recipes:
   crafting:
-    - fluxbore-basic
-    - fluxsaw-basic
+    - ti-fluxbore-basic
+    - ti-fluxsaw-basic
 ---
 
 **Tool casings** are crafting materials used to craft

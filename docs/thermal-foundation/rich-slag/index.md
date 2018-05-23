@@ -26,9 +26,9 @@ recipes:
     - recycling-compass
 usage-recipes:
   crafting:
-    - phyto-gro-rich-using-sawdust
-    - phyto-gro-rich-using-charcoal
-    - augment-machine-smelter-flux
+    - tf2-phyto-gro-rich-using-sawdust
+    - tf2-phyto-gro-rich-using-charcoal
+    - te5-augment-machine-smelter-flux
   smelter:
     - ore-processing-rich-slag-iron
     - ore-processing-rich-slag-gold

@@ -9,27 +9,27 @@ redirect_from:
   - /docs/fluxed-electrum-ingot/
 recipes:
   smelter:
-    - dust-smelting-fluxed-electrum
+    - ra-dust-smelting-fluxed-electrum
   crafting:
-    - ingot-fluxed-electrum-from-nuggets
-    - ingot-fluxed-electrum-from-block
+    - ra-ingot-fluxed-electrum-from-nuggets
+    - ra-ingot-fluxed-electrum-from-block
 usage-recipes:
   crafting:
-    - nugget-fluxed-electrum
-    - gear-fluxed-electrum
-    - storage-block-fluxed-electrum
-    - flux-infused-pickaxe
-    - flux-infused-shovel
-    - flux-infused-axe
-    - flux-infused-fishing-rod
-    - flux-infused-hammer
-    - flux-infused-sickle
-    - flux-infused-wrench
-    - flux-infused-sword
-    - flux-infused-bow
-    - flux-infused-quiver
-    - flux-infused-shield
-    - flux-infused-battlewrench
+    - ra-nugget-fluxed-electrum
+    - ra-gear-fluxed-electrum
+    - ra-storage-block-fluxed-electrum
+    - ra-tool-pickaxe
+    - ra-tool-shovel
+    - ra-tool-axe
+    - ra-tool-fishing-rod
+    - ra-tool-hammer
+    - ra-tool-sickle
+    - ra-tool-wrench
+    - ra-weapon-sword
+    - ra-weapon-bow
+    - ra-weapon-quiver
+    - ra-weapon-shield
+    - ra-weapon-battlewrench
   pulverizer:
     - dust-fluxed-electrum
   compactor:

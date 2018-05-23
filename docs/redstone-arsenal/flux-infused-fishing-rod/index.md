@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-fishing-rod/
 recipes:
   crafting:
-    - flux-infused-fishing-rod
+    - ra-tool-fishing-rod
 ---
 
 A **flux-infused fishing rod** is a powerful [fishing

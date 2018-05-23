@@ -6,13 +6,13 @@ redirect_from:
   - /docs/enderium-gear/
 recipes:
   crafting:
-    - gear-enderium
+    - tf2-gear-enderium
   compactor-gear:
     - gear-enderium
 usage-recipes:
   crafting:
-    - fluxbore-resonant
-    - fluxsaw-resonant
+    - ti-fluxbore-resonant
+    - ti-fluxsaw-resonant
   smelter:
     - recycling-gear-enderium
 ---

@@ -6,7 +6,7 @@ redirect_from:
   - /docs/compressed-sawdust/
 recipes:
   crafting:
-    - sawdust-compressed
+    - tf2-sawdust-compressed
 usage-recipes:
   smelting:
     - tf2-charcoal-from-sawdust

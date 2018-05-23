@@ -9,14 +9,14 @@ recipes:
     - tree-oil
 usage-recipes:
   crafting:
-    - torch-using-rosin
-    - piston-sticky-using-rosin
-    - lead-using-rosin
-    - aqua-chow-using-rosin
-    - aqua-chow-rich-using-rosin
-    - florb-using-rosin
-    - florb-magmatic-using-rosin
-    - morb-using-rosin
+    - tf2-torch-using-rosin
+    - tf2-piston-sticky-using-rosin
+    - tf2-lead-using-rosin
+    - tf2-aqua-chow-using-rosin
+    - tf2-aqua-chow-rich-using-rosin
+    - te5-florb-using-rosin
+    - te5-florb-magmatic-using-rosin
+    - te5-morb-using-rosin
 ---
 
 ![Rosin](/assets/images/thermal-foundation/rosin.png){:style="height: 128px"}

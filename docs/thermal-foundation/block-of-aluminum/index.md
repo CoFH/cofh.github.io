@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-aluminum/
 recipes:
   crafting:
-    - storage-block-aluminum
+    - tf2-storage-block-aluminum
 usage-recipes:
   crafting:
-    - ingot-aluminum-from-block
+    - tf2-ingot-aluminum-from-block
 ---
 
 **Blocks of aluminum** are blocks made from [aluminum

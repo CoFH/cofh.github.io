@@ -6,15 +6,15 @@ redirect_from:
   - /docs/silver-gear/
 recipes:
   crafting:
-    - gear-silver
+    - tf2-gear-silver
   compactor-gear:
     - gear-silver
 usage-recipes:
   crafting:
-    - upgrade-kit-reinforced
-    - augment-machine-smelter-flux
-    - augment-machine-insolator-fertilizer
-    - augment-machine-brewer-reagent
+    - tf2-upgrade-kit-reinforced
+    - te5-augment-machine-smelter-flux
+    - te5-augment-machine-insolator-fertilizer
+    - te5-augment-machine-brewer-reagent
   smelter:
     - recycling-gear-silver
 ---

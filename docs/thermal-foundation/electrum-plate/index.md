@@ -9,8 +9,8 @@ recipes:
     - plate-electrum
 usage-recipes:
   crafting:
-    - augment-machine-compactor-coin
-    - augment-dynamo-numismatic-gem
+    - te5-augment-machine-compactor-coin
+    - te5-augment-dynamo-numismatic-gem
   smelter:
     - recycling-plate-electrum
 ---

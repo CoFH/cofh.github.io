@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-flux-reconstruction/
 recipes:
   crafting:
-    - augment-machine-charger-repair
+    - te5-augment-machine-charger-repair
 ---
 
 A **flux reconstruction** [augment](/docs/thermal-expansion/augments/) allows for an [energetic

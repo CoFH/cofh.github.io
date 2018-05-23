@@ -7,16 +7,16 @@ redirect_from:
   - /docs/copper-nugget/
 recipes:
   crafting:
-    - nugget-copper
+    - tf2-nugget-copper
   pulverizer:
-    - recycling-fluiduct-basic
-    - recycling-fluiduct-basic-opaque
+    - td2-recycling-fluiduct-basic
+    - td2-recycling-fluiduct-basic-opaque
 usage-recipes:
   crafting:
-    - ingot-copper-from-nuggets
-    - fluxomagnet-hardened
-    - hypoinfuser-hardened
-    - alchemical-quiver-hardened
+    - tf2-ingot-copper-from-nuggets
+    - ti-fluxomagnet-hardened
+    - ti-hypoinfuser-hardened
+    - ti-alchemical-quiver-hardened
 ---
 
 ![Copper nugget](/assets/images/thermal-foundation/nugget-copper.png){:style="height: 128px"}

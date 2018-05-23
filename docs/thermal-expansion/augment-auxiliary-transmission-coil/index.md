@@ -9,7 +9,7 @@ redirect_from:
   - /docs/augment-auxiliary-transmission-coil/
 recipes:
   crafting:
-    - augment-dynamo-power
+    - te5-augment-dynamo-power
 ---
 
 An **auxiliary transmission coil** is an [augment](/docs/thermal-expansion/augments/) that

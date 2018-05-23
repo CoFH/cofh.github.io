@@ -9,7 +9,7 @@ recipes:
     - fluid-ore-processing-redstone
 usage-recipes:
   crafting:
-    - redstone-from-clathrate
+    - tf2-redstone-from-clathrate
   crucible:
     - redstone-from-clathrate
   transposer-fill:

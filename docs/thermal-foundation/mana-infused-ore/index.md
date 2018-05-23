@@ -9,9 +9,9 @@ usage-recipes:
   smelting:
     - tf2-ore-processing-mithril
   crafting:
-    - pyrotheum-ore-mithril
-    - petrotheum-ore-mithril
-    - petrotheum-pyrotheum-ore-mithril
+    - tf2-pyrotheum-ore-mithril
+    - tf2-petrotheum-ore-mithril
+    - tf2-petrotheum-pyrotheum-ore-mithril
   pulverizer:
     - ore-processing-mithril
   smelter:

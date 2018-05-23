@@ -8,13 +8,13 @@ redirect_from:
   - /docs/leadstone-fluxduct/
 recipes:
   crafting:
-    - fluxduct-basic
+    - td2-fluxduct-basic
 usage-recipes:
   crafting:
-    - fluxduct-hardened-one
-    - fluxduct-hardened-three
+    - td2-fluxduct-hardened-one
+    - td2-fluxduct-hardened-three
   pulverizer:
-    - recycling-fluxduct-basic
+    - td2-recycling-fluxduct-basic
 ---
 
 A **leadstone fluxduct** is a [fluxduct](/docs/thermal-dynamics/fluxducts/) of the first and

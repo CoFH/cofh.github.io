@@ -10,10 +10,10 @@ redirect_from:
   - /docs/fluxed-electrum-block/
 recipes:
   crafting:
-    - storage-block-fluxed-electrum
+    - ra-storage-block-fluxed-electrum
 usage-recipes:
   crafting:
-    - ingot-fluxed-electrum-from-block
+    - ra-ingot-fluxed-electrum-from-block
 ---
 
 **Fluxed electrum blocks** are blocks made from [fluxed electrum

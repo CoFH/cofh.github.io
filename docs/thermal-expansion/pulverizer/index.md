@@ -7,7 +7,7 @@ redirect_from:
   - /docs/pulverizer/
 recipes:
   crafting:
-    - machine-pulverizer
+    - te5-machine-pulverizer
 augments:
   - machine-power
   - machine-secondary
@@ -16,16 +16,16 @@ augments:
 recipe-list:
   general:
     - dust-metal-from-ingot
+    - dust-fluxed-electrum
     - dust-coal
     - dust-charcoal
     - dust-obsidian
-    - dust-fluxed-electrum
     - sand
     - gravel-from-stone
     - gravel-from-netherrack
     - flint
     - recycling-sandstone
-    - recycling-red-sandstone
+    - recycling-sandstone-red
     - sugar
     - bone-meal
     - glowstone-dust-from-glowstone
@@ -95,39 +95,39 @@ recipe-list:
     - recycling-jukebox
     - recycling-sandstone-slab
     - recycling-sandstone-stairs
-    - recycling-red-sandstone-slab
-    - recycling-red-sandstone-stairs
-    - recycling-fluxduct-basic
-    - recycling-fluxduct-hardened
-    - recycling-fluiduct-basic
-    - recycling-fluiduct-basic-opaque
-    - recycling-pickaxe-wood
-    - recycling-shovel-wood
-    - recycling-axe-wood
-    - recycling-hoe-wood
-    - recycling-fishing-rod
-    - recycling-shears-wood
-    - recycling-hammer-wood
-    - recycling-sickle-wood
-    - recycling-sword-wood
-    - recycling-bow
-    - recycling-shield
-    - recycling-pickaxe-diamond
-    - recycling-shovel-diamond
-    - recycling-axe-diamond
-    - recycling-hoe-diamond
-    - recycling-fishing-rod-diamond
-    - recycling-shears-diamond
-    - recycling-hammer-diamond
-    - recycling-sickle-diamond
-    - recycling-sword-diamond
-    - recycling-bow-diamond
-    - recycling-shield-diamond
-    - recycling-helmet-diamond
-    - recycling-chestplate-diamond
-    - recycling-leggings-diamond
-    - recycling-boots-diamond
+    - recycling-sandstone-red-slab
+    - recycling-sandstone-red-stairs
+    - recycling-tool-pickaxe-wood
+    - recycling-tool-shovel-wood
+    - recycling-tool-axe-wood
+    - recycling-tool-hoe-wood
+    - recycling-tool-fishing-rod
+    - recycling-tool-shears-wood
+    - recycling-tool-hammer-wood
+    - recycling-tool-sickle-wood
+    - recycling-weapon-sword-wood
+    - recycling-weapon-bow
+    - recycling-weapon-shield
+    - recycling-tool-pickaxe-diamond
+    - recycling-tool-shovel-diamond
+    - recycling-tool-axe-diamond
+    - recycling-tool-hoe-diamond
+    - recycling-tool-fishing-rod-diamond
+    - recycling-tool-shears-diamond
+    - recycling-tool-hammer-diamond
+    - recycling-tool-sickle-diamond
+    - recycling-weapon-sword-diamond
+    - recycling-weapon-bow-diamond
+    - recycling-weapon-shield-diamond
+    - recycling-armor-helmet-diamond
+    - recycling-armor-chestplate-diamond
+    - recycling-armor-leggings-diamond
+    - recycling-armor-boots-diamond
     - recycling-horse-armor-diamond
+    - td2-recycling-fluxduct-basic
+    - td2-recycling-fluxduct-hardened
+    - td2-recycling-fluiduct-basic
+    - td2-recycling-fluiduct-basic-opaque
 ---
 
 ![Pulverizer](/assets/images/thermal-expansion/pulverizer.png){:style="height: 128px"}

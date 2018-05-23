@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-lead/
 recipes:
   crafting:
-    - storage-block-lead
+    - tf2-storage-block-lead
 usage-recipes:
   crafting:
-    - ingot-lead-from-block
+    - tf2-ingot-lead-from-block
 ---
 
 **Blocks of lead** are blocks made from [lead ingots](/docs/thermal-foundation/lead-ingot/).

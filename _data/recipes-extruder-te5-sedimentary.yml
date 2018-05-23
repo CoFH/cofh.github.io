@@ -21,42 +21,6 @@ recipes:
         amount: 1500
       output:
         item: [mc-gravel]
-  red-sand:
-    results:
-      - item: mc-sand-red
-    ingredients:
-      - fluid: mc-lava
-        fluid-amount: 0
-      - fluid: mc-water
-        fluid-amount: 1500
-    energy: 3200
-    data:
-      hot-input:
-        fluid: mc-lava
-        amount: 0
-      cold-input:
-        fluid: mc-water
-        amount: 1500
-      output:
-        item: [mc-sand-red]
-  red-sandstone:
-    results:
-      - item: mc-sandstone-red
-    ingredients:
-      - fluid: mc-lava
-        fluid-amount: 0
-      - fluid: mc-water
-        fluid-amount: 2000
-    energy: 6400
-    data:
-      hot-input:
-        fluid: mc-lava
-        amount: 0
-      cold-input:
-        fluid: mc-water
-        amount: 2000
-      output:
-        item: [mc-sandstone-red]
   sand:
     results:
       - item: mc-sand
@@ -75,6 +39,24 @@ recipes:
         amount: 1500
       output:
         item: [mc-sand]
+  sand-red:
+    results:
+      - item: mc-sand-red
+    ingredients:
+      - fluid: mc-lava
+        fluid-amount: 0
+      - fluid: mc-water
+        fluid-amount: 1500
+    energy: 3200
+    data:
+      hot-input:
+        fluid: mc-lava
+        amount: 0
+      cold-input:
+        fluid: mc-water
+        amount: 1500
+      output:
+        item: [mc-sand-red]
   sandstone:
     results:
       - item: mc-sandstone
@@ -93,3 +75,21 @@ recipes:
         amount: 2000
       output:
         item: [mc-sandstone]
+  sandstone-red:
+    results:
+      - item: mc-sandstone-red
+    ingredients:
+      - fluid: mc-lava
+        fluid-amount: 0
+      - fluid: mc-water
+        fluid-amount: 2000
+    energy: 6400
+    data:
+      hot-input:
+        fluid: mc-lava
+        amount: 0
+      cold-input:
+        fluid: mc-water
+        amount: 2000
+      output:
+        item: [mc-sandstone-red]

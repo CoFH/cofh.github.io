@@ -9,9 +9,9 @@ usage-recipes:
   smelting:
     - tf2-ore-processing-nickel
   crafting:
-    - pyrotheum-ore-nickel
-    - petrotheum-ore-nickel
-    - petrotheum-pyrotheum-ore-nickel
+    - tf2-pyrotheum-ore-nickel
+    - tf2-petrotheum-ore-nickel
+    - tf2-petrotheum-pyrotheum-ore-nickel
   pulverizer:
     - ore-processing-nickel
   smelter:

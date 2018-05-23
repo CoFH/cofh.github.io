@@ -425,22 +425,6 @@ recipes:
         amount: 1000
       output:
         item-group: mc-concrete
-  dust-fluxed-electrum:
-    results:
-      - item: ra-dust-fluxed-electrum
-    ingredients:
-      - item: tf2-dust-electrum
-      - fluid: tf2-redstone
-        fluid-amount: 500
-    energy: 2000
-    data:
-      item-input:
-        item: [tf2-dust-electrum]
-      fluid-input:
-        fluid: tf2-redstone
-        amount: 500
-      output:
-        item: [ra-dust-fluxed-electrum]
   end-stone:
     results:
       - item: mc-end-stone
@@ -490,86 +474,6 @@ recipes:
       output:
         item: [mc-ender-pearl]
         amount: 4
-  flux-crystal:
-    results:
-      - item: ra-flux-crystal
-    ingredients:
-      - item: mc-diamond
-      - fluid: tf2-redstone
-        fluid-amount: 500
-    energy: 2000
-    data:
-      item-input:
-        item: [mc-diamond]
-      fluid-input:
-        fluid: tf2-redstone
-        amount: 500
-      output:
-        item: [ra-flux-crystal]
-  fluxduct-reinforced:
-    results:
-      - item: td2-fluxduct-reinforced
-    ingredients:
-      - item: td2-fluxduct-reinforced-empty
-      - fluid: tf2-redstone
-        fluid-amount: 200
-    energy: 800
-    data:
-      item-input:
-        item: [td2-fluxduct-reinforced-empty]
-      fluid-input:
-        fluid: tf2-redstone
-        amount: 200
-      output:
-        item: [td2-fluxduct-reinforced]
-  fluxduct-signalum:
-    results:
-      - item: td2-fluxduct-signalum
-    ingredients:
-      - item: td2-fluxduct-signalum-empty
-      - fluid: tf2-redstone
-        fluid-amount: 200
-    energy: 800
-    data:
-      item-input:
-        item: [td2-fluxduct-signalum-empty]
-      fluid-input:
-        fluid: tf2-redstone
-        amount: 200
-      output:
-        item: [td2-fluxduct-signalum]
-  fluxduct-resonant:
-    results:
-      - item: td2-fluxduct-resonant
-    ingredients:
-      - item: td2-fluxduct-resonant-empty
-      - fluid: tf2-redstone
-        fluid-amount: 200
-    energy: 800
-    data:
-      item-input:
-        item: [td2-fluxduct-resonant-empty]
-      fluid-input:
-        fluid: tf2-redstone
-        amount: 200
-      output:
-        item: [td2-fluxduct-resonant]
-  fluxduct-super:
-    results:
-      - item: td2-fluxduct-super
-    ingredients:
-      - item: td2-fluxduct-super-empty
-      - fluid: tf2-cryotheum
-        fluid-amount: 500
-    energy: 4000
-    data:
-      item-input:
-        item: [td2-fluxduct-super-empty]
-      fluid-input:
-        fluid: tf2-cryotheum
-        amount: 500
-      output:
-        item: [td2-fluxduct-super]
   glowstone-dust-from-clathrate:
     results:
       - item: mc-glowstone-dust
@@ -619,38 +523,6 @@ recipes:
         amount: 1000
       output:
         item: [mc-ice]
-  itemduct-fast:
-    results:
-      - item: td2-itemduct-fast
-    ingredients:
-      - item: td2-itemduct
-      - fluid: tf2-glowstone
-        fluid-amount: 200
-    energy: 800
-    data:
-      item-input:
-        item: [td2-itemduct, td2-itemduct-opaque]
-      fluid-input:
-        fluid: tf2-glowstone
-        amount: 200
-      output:
-        item: [td2-itemduct-fast, td2-itemduct-fast-opaque]
-  itemduct-energy-fast:
-    results:
-      - item: td2-itemduct-energy-fast
-    ingredients:
-      - item: td2-itemduct-energy
-      - fluid: tf2-glowstone
-        fluid-amount: 200
-    energy: 800
-    data:
-      item-input:
-        item: [td2-itemduct-energy, td2-itemduct-energy-opaque]
-      fluid-input:
-        fluid: tf2-glowstone
-        amount: 200
-      output:
-        item: [td2-itemduct-energy-fast, td2-itemduct-energy-fast-opaque]
   moss-stone:
     results:
       - item: mc-moss-stone
@@ -797,7 +669,103 @@ recipes:
         amount: 250
       output:
         item: [mc-stone-bricks-mossy]
-  viaduct:
+  td2-fluxduct-reinforced:
+    results:
+      - item: td2-fluxduct-reinforced
+    ingredients:
+      - item: td2-fluxduct-reinforced-empty
+      - fluid: tf2-redstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [td2-fluxduct-reinforced-empty]
+      fluid-input:
+        fluid: tf2-redstone
+        amount: 200
+      output:
+        item: [td2-fluxduct-reinforced]
+  td2-fluxduct-signalum:
+    results:
+      - item: td2-fluxduct-signalum
+    ingredients:
+      - item: td2-fluxduct-signalum-empty
+      - fluid: tf2-redstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [td2-fluxduct-signalum-empty]
+      fluid-input:
+        fluid: tf2-redstone
+        amount: 200
+      output:
+        item: [td2-fluxduct-signalum]
+  td2-fluxduct-resonant:
+    results:
+      - item: td2-fluxduct-resonant
+    ingredients:
+      - item: td2-fluxduct-resonant-empty
+      - fluid: tf2-redstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [td2-fluxduct-resonant-empty]
+      fluid-input:
+        fluid: tf2-redstone
+        amount: 200
+      output:
+        item: [td2-fluxduct-resonant]
+  td2-fluxduct-super:
+    results:
+      - item: td2-fluxduct-super
+    ingredients:
+      - item: td2-fluxduct-super-empty
+      - fluid: tf2-cryotheum
+        fluid-amount: 500
+    energy: 4000
+    data:
+      item-input:
+        item: [td2-fluxduct-super-empty]
+      fluid-input:
+        fluid: tf2-cryotheum
+        amount: 500
+      output:
+        item: [td2-fluxduct-super]
+  td2-itemduct-fast:
+    results:
+      - item: td2-itemduct-fast
+    ingredients:
+      - item: td2-itemduct
+      - fluid: tf2-glowstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [td2-itemduct, td2-itemduct-opaque]
+      fluid-input:
+        fluid: tf2-glowstone
+        amount: 200
+      output:
+        item: [td2-itemduct-fast, td2-itemduct-fast-opaque]
+  td2-itemduct-energy-fast:
+    results:
+      - item: td2-itemduct-energy-fast
+    ingredients:
+      - item: td2-itemduct-energy
+      - fluid: tf2-glowstone
+        fluid-amount: 200
+    energy: 800
+    data:
+      item-input:
+        item: [td2-itemduct-energy, td2-itemduct-energy-opaque]
+      fluid-input:
+        fluid: tf2-glowstone
+        amount: 200
+      output:
+        item: [td2-itemduct-energy-fast, td2-itemduct-energy-fast-opaque]
+  td2-viaduct:
     results:
       - item: td2-viaduct
     ingredients:
@@ -813,7 +781,7 @@ recipes:
         amount: 100
       output:
         item: [td2-viaduct]
-  viaduct-long-range-linking:
+  td2-viaduct-long-range-linking:
     results:
       - item: td2-viaduct-long-range-linking
     ingredients:
@@ -829,3 +797,35 @@ recipes:
         amount: 1000
       output:
         item: [td2-viaduct-long-range-linking]
+  ra-dust-fluxed-electrum:
+    results:
+      - item: ra-dust-fluxed-electrum
+    ingredients:
+      - item: tf2-dust-electrum
+      - fluid: tf2-redstone
+        fluid-amount: 500
+    energy: 2000
+    data:
+      item-input:
+        item: [tf2-dust-electrum]
+      fluid-input:
+        fluid: tf2-redstone
+        amount: 500
+      output:
+        item: [ra-dust-fluxed-electrum]
+  ra-flux-crystal:
+    results:
+      - item: ra-flux-crystal
+    ingredients:
+      - item: mc-diamond
+      - fluid: tf2-redstone
+        fluid-amount: 500
+    energy: 2000
+    data:
+      item-input:
+        item: [mc-diamond]
+      fluid-input:
+        fluid: tf2-redstone
+        amount: 500
+      output:
+        item: [ra-flux-crystal]

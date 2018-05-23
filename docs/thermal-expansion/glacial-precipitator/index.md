@@ -9,7 +9,7 @@ redirect_from:
   - /docs/glacial-precipitator/
 recipes:
   crafting:
-    - machine-precipitator
+    - te5-machine-precipitator
 augments:
   - machine-power
 recipe-list:

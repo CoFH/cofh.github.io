@@ -6,10 +6,10 @@ redirect_from:
   - /docs/iridium-nugget/
 recipes:
   crafting:
-    - nugget-iridium
+    - tf2-nugget-iridium
 usage-recipes:
   crafting:
-    - ingot-iridium-from-nuggets
+    - tf2-ingot-iridium-from-nuggets
 ---
 
 ![Iridium nugget](/assets/images/thermal-foundation/nugget-iridium.png){:style="height: 128px"}

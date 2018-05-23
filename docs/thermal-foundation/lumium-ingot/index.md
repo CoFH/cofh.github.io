@@ -8,19 +8,19 @@ redirect_from:
   - /docs/lumium-ingot/
 recipes:
   crafting:
-    - ingot-lumium-from-nuggets
-    - ingot-lumium-from-block
+    - tf2-ingot-lumium-from-nuggets
+    - tf2-ingot-lumium-from-block
   smelter:
     - dust-smelting-lumium
     - recycling-gear-lumium
     - recycling-plate-lumium
 usage-recipes:
   crafting:
-    - nugget-lumium
-    - gear-lumium
-    - storage-block-lumium
-    - fluxbore-resonant
-    - fluxsaw-resonant
+    - tf2-nugget-lumium
+    - tf2-gear-lumium
+    - tf2-storage-block-lumium
+    - ti-fluxbore-resonant
+    - ti-fluxsaw-resonant
   pulverizer:
     - dust-lumium
   compactor:

@@ -14,18 +14,18 @@ redirect_from:
   - /docs/itemduct/
 recipes:
   crafting:
-    - itemduct
-    - itemduct-opaque
-    - itemduct-opaque-from-transparent
-    - itemduct-transparent-from-opaque
-    - itemduct-dense
-    - itemduct-vacuum
+    - td2-itemduct
+    - td2-itemduct-opaque
+    - td2-itemduct-opaque-from-transparent
+    - td2-itemduct-transparent-from-opaque
+    - td2-itemduct-dense
+    - td2-itemduct-vacuum
 usage-recipes:
   transposer-fill:
-    - itemduct-fast
+    - td2-itemduct-fast
   crafting:
-    - itemduct-energy-one
-    - itemduct-energy-three
+    - td2-itemduct-energy-one
+    - td2-itemduct-energy-three
 ---
 
 An **itemduct** is a block that transfers items between blocks.

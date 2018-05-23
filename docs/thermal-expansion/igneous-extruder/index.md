@@ -10,7 +10,7 @@ redirect_from:
   - /docs/igneous-extruder/
 recipes:
   crafting:
-    - machine-extruder
+    - te5-machine-extruder
 augments:
   - machine-power
   - machine-extruder-no-water

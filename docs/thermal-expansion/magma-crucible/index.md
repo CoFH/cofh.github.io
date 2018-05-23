@@ -7,7 +7,7 @@ redirect_from:
   - /docs/magma-crucible/
 recipes:
   crafting:
-    - machine-crucible
+    - te5-machine-crucible
 augments:
   - machine-power
   - machine-crucible-lava

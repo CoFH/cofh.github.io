@@ -8,17 +8,17 @@ redirect_from:
   - /docs/redstone-transmission-coil/
 recipes:
   crafting:
-    - redstone-coil-silver
+    - tf2-redstone-coil-silver
 usage-recipes:
   crafting:
-    - dynamo-steam
-    - dynamo-magmatic
-    - dynamo-compression
-    - dynamo-reactant
-    - dynamo-enervation
-    - dynamo-numismatic
-    - machine-charger
-    - augment-dynamo-power
+    - te5-dynamo-steam
+    - te5-dynamo-magmatic
+    - te5-dynamo-compression
+    - te5-dynamo-reactant
+    - te5-dynamo-enervation
+    - te5-dynamo-numismatic
+    - te5-machine-charger
+    - te5-augment-dynamo-power
 ---
 
 ![Redstone transmission coil](/assets/images/thermal-foundation/redstone-coil-silver.png){:style="height: 128px"}

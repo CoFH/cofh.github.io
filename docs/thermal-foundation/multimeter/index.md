@@ -8,7 +8,7 @@ redirect_from:
   - /docs/multimeter/
 recipes:
   crafting:
-    - multimeter
+    - tf2-multimeter
 ---
 
 ![Multimeter](/assets/images/thermal-foundation/multimeter.png){:style="height: 128px"}

@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-elemental-catalyzer/
 recipes:
   crafting:
-    - augment-dynamo-reactant-elemental
+    - te5-augment-dynamo-reactant-elemental
 ---
 
 An **elemental catalyzer** is an [augment](/docs/thermal-expansion/augments/) that increases the

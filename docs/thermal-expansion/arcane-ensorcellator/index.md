@@ -8,7 +8,7 @@ redirect_from:
   - /docs/arcane-ensorcellator/
 recipes:
   crafting:
-    - machine-enchanter
+    - te5-machine-enchanter
 augments:
   - machine-power
 ---

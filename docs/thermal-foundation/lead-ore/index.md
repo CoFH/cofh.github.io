@@ -9,9 +9,9 @@ usage-recipes:
   smelting:
     - tf2-ore-processing-lead
   crafting:
-    - pyrotheum-ore-lead
-    - petrotheum-ore-lead
-    - petrotheum-pyrotheum-ore-lead
+    - tf2-pyrotheum-ore-lead
+    - tf2-petrotheum-ore-lead
+    - tf2-petrotheum-pyrotheum-ore-lead
   pulverizer:
     - ore-processing-lead
   smelter:

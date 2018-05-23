@@ -21,10 +21,10 @@ recipes:
     - dust-pyrotheum
 usage-recipes:
   crafting:
-    - gunpowder-using-coal-sulfur-and-niter
-    - gunpowder-using-charcoal-sulfur-and-niter
-    - dust-pyrotheum
-    - flux-capacitor-basic
+    - tf2-gunpowder-using-coal
+    - tf2-gunpowder-using-charcoal
+    - tf2-dust-pyrotheum
+    - te5-flux-capacitor-basic
   transposer-fill:
     - blaze-powder
 ---

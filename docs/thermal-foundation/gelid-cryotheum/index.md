@@ -18,7 +18,7 @@ usage-recipes:
     - redstone-from-clathrate
     - glowstone-dust-from-clathrate
     - ender-pearl-from-clathrate
-    - fluxduct-super
+    - td2-fluxduct-super
 ---
 
 ![Gelid cryotheum](/assets/images/thermal-foundation/gelid-cryotheum.gif){:style="height: 128px"}

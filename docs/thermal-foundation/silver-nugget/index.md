@@ -6,14 +6,14 @@ redirect_from:
   - /docs/silver-nugget/
 recipes:
   crafting:
-    - nugget-silver
+    - tf2-nugget-silver
 usage-recipes:
   crafting:
-    - ingot-silver-from-nuggets
-    - itemduct-vacuum
-    - itemduct-fast-vacuum
-    - itemduct-energy-vacuum
-    - itemduct-energy-fast-vacuum
+    - tf2-ingot-silver-from-nuggets
+    - td2-itemduct-vacuum
+    - td2-itemduct-fast-vacuum
+    - td2-itemduct-energy-vacuum
+    - td2-itemduct-energy-fast-vacuum
 ---
 
 ![Silver nugget](/assets/images/thermal-foundation/nugget-silver.png){:style="height: 128px"}

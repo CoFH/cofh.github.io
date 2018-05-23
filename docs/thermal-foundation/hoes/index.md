@@ -7,32 +7,32 @@ redirect_from:
   - /docs/tf-hoes/
 recipes:
   crafting:
-    - hoe-copper
-    - hoe-tin
-    - hoe-silver
-    - hoe-lead
-    - hoe-aluminum
-    - hoe-nickel
-    - hoe-platinum
-    - hoe-steel
-    - hoe-electrum
-    - hoe-invar
-    - hoe-bronze
-    - hoe-constantan
+    - tf2-tool-hoe-copper
+    - tf2-tool-hoe-tin
+    - tf2-tool-hoe-silver
+    - tf2-tool-hoe-lead
+    - tf2-tool-hoe-aluminum
+    - tf2-tool-hoe-nickel
+    - tf2-tool-hoe-platinum
+    - tf2-tool-hoe-steel
+    - tf2-tool-hoe-electrum
+    - tf2-tool-hoe-invar
+    - tf2-tool-hoe-bronze
+    - tf2-tool-hoe-constantan
 usage-recipes:
   smelter:
-    - recycling-hoe-copper
-    - recycling-hoe-tin
-    - recycling-hoe-silver
-    - recycling-hoe-lead
-    - recycling-hoe-aluminum
-    - recycling-hoe-nickel
-    - recycling-hoe-platinum
-    - recycling-hoe-steel
-    - recycling-hoe-electrum
-    - recycling-hoe-invar
-    - recycling-hoe-bronze
-    - recycling-hoe-constantan
+    - recycling-tool-hoe-copper
+    - recycling-tool-hoe-tin
+    - recycling-tool-hoe-silver
+    - recycling-tool-hoe-lead
+    - recycling-tool-hoe-aluminum
+    - recycling-tool-hoe-nickel
+    - recycling-tool-hoe-platinum
+    - recycling-tool-hoe-steel
+    - recycling-tool-hoe-electrum
+    - recycling-tool-hoe-invar
+    - recycling-tool-hoe-bronze
+    - recycling-tool-hoe-constantan
 ---
 
 ![Hoes](/assets/images/thermal-foundation/hoes.gif){:style="height: 128px"}

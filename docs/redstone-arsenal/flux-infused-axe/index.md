@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-axe/
 recipes:
   crafting:
-    - flux-infused-axe
+    - ra-tool-axe
 ---
 
 A **flux-infused axe** is a powerful [axe](https://minecraft.gamepedia.com/Axe)

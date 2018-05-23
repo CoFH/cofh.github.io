@@ -6,13 +6,13 @@ redirect_from:
   - /docs/nickel-gear/
 recipes:
   crafting:
-    - gear-nickel
+    - tf2-gear-nickel
   compactor-gear:
     - gear-nickel
 usage-recipes:
   crafting:
-    - machine-refinery
-    - augment-machine-extruder-sedimentary
+    - te5-machine-refinery
+    - te5-augment-machine-extruder-sedimentary
   smelter:
     - recycling-gear-nickel
 ---

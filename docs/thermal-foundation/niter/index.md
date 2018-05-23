@@ -10,21 +10,21 @@ recipes:
     - recycling-sandstone
     - recycling-sandstone-slab
     - recycling-sandstone-stairs
-    - recycling-red-sandstone
-    - recycling-red-sandstone-slab
-    - recycling-red-sandstone-stairs
+    - recycling-sandstone-red
+    - recycling-sandstone-red-slab
+    - recycling-sandstone-red-stairs
     - blitz-powder
   centrifuge:
     - dust-aerotheum
 usage-recipes:
   crafting:
-    - gunpowder-using-coal-sulfur-and-niter
-    - gunpowder-using-charcoal-sulfur-and-niter
-    - dust-aerotheum
-    - phyto-gro-using-sawdust
-    - phyto-gro-using-charcoal
-    - phyto-gro-rich-using-sawdust
-    - phyto-gro-rich-using-charcoal
+    - tf2-gunpowder-using-coal
+    - tf2-gunpowder-using-charcoal
+    - tf2-dust-aerotheum
+    - tf2-phyto-gro-using-sawdust
+    - tf2-phyto-gro-using-charcoal
+    - tf2-phyto-gro-rich-using-sawdust
+    - tf2-phyto-gro-rich-using-charcoal
   transposer-fill:
     - blitz-powder
 ---

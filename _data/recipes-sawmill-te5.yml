@@ -3,6 +3,54 @@ site: docs-te5
 url: sawmill/
 with-energy: true
 recipes:
+  recycling-armor-helmet-leather:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-armor-helmet-leather
+    energy: 1500
+    data:
+      input:
+        item: [mc-armor-helmet-leather]
+      primary-output:
+        item: [mc-leather]
+        amount: 2
+  recycling-armor-chestplate-leather:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-armor-chestplate-leather
+    energy: 1500
+    data:
+      input:
+        item: [mc-armor-chestplate-leather]
+      primary-output:
+        item: [mc-leather]
+        amount: 4
+  recycling-armor-leggings-leather:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-armor-leggings-leather
+    energy: 1500
+    data:
+      input:
+        item: [mc-armor-leggings-leather]
+      primary-output:
+        item: [mc-leather]
+        amount: 3
+  recycling-armor-boots-leather:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-armor-boots-leather
+    energy: 1500
+    data:
+      input:
+        item: [mc-armor-boots-leather]
+      primary-output:
+        item: [mc-leather]
+        amount: 2
   recycling-boat:
     results:
       - item-group: mc-wood-planks
@@ -19,30 +67,6 @@ recipes:
       secondary-output:
         item: [tf2-sawdust]
       secondary-chance: 125
-  recycling-boots-leather:
-    results:
-      - item: mc-leather
-    ingredients:
-      - item: mc-armor-boots-leather
-    energy: 1500
-    data:
-      input:
-        item: [mc-armor-boots-leather]
-      primary-output:
-        item: [mc-leather]
-        amount: 2
-  recycling-chestplate-leather:
-    results:
-      - item: mc-leather
-    ingredients:
-      - item: mc-armor-chestplate-leather
-    energy: 1500
-    data:
-      input:
-        item: [mc-armor-chestplate-leather]
-      primary-output:
-        item: [mc-leather]
-        amount: 4
   recycling-door:
     results:
       - item-group: mc-wood-planks
@@ -89,30 +113,6 @@ recipes:
       secondary-output:
         item: [tf2-sawdust]
       secondary-chance: 125
-  recycling-helmet-leather:
-    results:
-      - item: mc-leather
-    ingredients:
-      - item: mc-armor-helmet-leather
-    energy: 1500
-    data:
-      input:
-        item: [mc-armor-helmet-leather]
-      primary-output:
-        item: [mc-leather]
-        amount: 2
-  recycling-leggings-leather:
-    results:
-      - item: mc-leather
-    ingredients:
-      - item: mc-armor-leggings-leather
-    energy: 1500
-    data:
-      input:
-        item: [mc-armor-leggings-leather]
-      primary-output:
-        item: [mc-leather]
-        amount: 3
   recycling-melon:
     results:
       - item: mc-melon-slice

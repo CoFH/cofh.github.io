@@ -7,7 +7,7 @@ redirect_from:
   - /docs/redstone-furnace/
 recipes:
   crafting:
-    - machine-furnace
+    - te5-machine-furnace
 augments:
   - machine-power
   - machine-furnace-food

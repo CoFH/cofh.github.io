@@ -8,42 +8,42 @@ redirect_from:
   - /docs/tf-sickles/
 recipes:
   crafting:
-    - sickle-wood
-    - sickle-stone
-    - sickle-iron
-    - sickle-gold
-    - sickle-diamond
-    - sickle-copper
-    - sickle-tin
-    - sickle-silver
-    - sickle-lead
-    - sickle-aluminum
-    - sickle-nickel
-    - sickle-platinum
-    - sickle-steel
-    - sickle-electrum
-    - sickle-invar
-    - sickle-bronze
-    - sickle-constantan
+    - tf2-tool-sickle-wood
+    - tf2-tool-sickle-stone
+    - tf2-tool-sickle-iron
+    - tf2-tool-sickle-gold
+    - tf2-tool-sickle-diamond
+    - tf2-tool-sickle-copper
+    - tf2-tool-sickle-tin
+    - tf2-tool-sickle-silver
+    - tf2-tool-sickle-lead
+    - tf2-tool-sickle-aluminum
+    - tf2-tool-sickle-nickel
+    - tf2-tool-sickle-platinum
+    - tf2-tool-sickle-steel
+    - tf2-tool-sickle-electrum
+    - tf2-tool-sickle-invar
+    - tf2-tool-sickle-bronze
+    - tf2-tool-sickle-constantan
 usage-recipes:
   smelter:
-    - recycling-sickle-iron
-    - recycling-sickle-gold
-    - recycling-sickle-copper
-    - recycling-sickle-tin
-    - recycling-sickle-silver
-    - recycling-sickle-lead
-    - recycling-sickle-aluminum
-    - recycling-sickle-nickel
-    - recycling-sickle-platinum
-    - recycling-sickle-steel
-    - recycling-sickle-electrum
-    - recycling-sickle-invar
-    - recycling-sickle-bronze
-    - recycling-sickle-constantan
+    - recycling-tool-sickle-iron
+    - recycling-tool-sickle-gold
+    - recycling-tool-sickle-copper
+    - recycling-tool-sickle-tin
+    - recycling-tool-sickle-silver
+    - recycling-tool-sickle-lead
+    - recycling-tool-sickle-aluminum
+    - recycling-tool-sickle-nickel
+    - recycling-tool-sickle-platinum
+    - recycling-tool-sickle-steel
+    - recycling-tool-sickle-electrum
+    - recycling-tool-sickle-invar
+    - recycling-tool-sickle-bronze
+    - recycling-tool-sickle-constantan
   pulverizer:
-    - recycling-sickle-wood
-    - recycling-sickle-diamond
+    - recycling-tool-sickle-wood
+    - recycling-tool-sickle-diamond
 ---
 
 ![Sickles](/assets/images/thermal-foundation/sickles.gif){:style="height: 128px"}

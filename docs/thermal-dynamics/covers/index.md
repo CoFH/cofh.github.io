@@ -33,7 +33,7 @@ redirect_from:
   - /docs/covers/
 recipes:
   crafting:
-    - duct-covers
+    - td2-covers
 ---
 
 **Covers** are items that can be installed on ducts to hide them, making them

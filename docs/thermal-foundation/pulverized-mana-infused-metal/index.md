@@ -6,14 +6,14 @@ redirect_from:
   - /docs/pulverized-mana-infused-metal/
 recipes:
   crafting:
-    - petrotheum-ingot-mithril
-    - petrotheum-ore-mithril
+    - tf2-petrotheum-ingot-mithril
+    - tf2-petrotheum-ore-mithril
   pulverizer:
     - dust-mithril
     - ore-processing-mithril
 usage-recipes:
   crafting:
-    - pyrotheum-dust-mithril
+    - tf2-pyrotheum-dust-mithril
   smelting:
     - tf2-ingot-mithril-from-dust
   smelter:

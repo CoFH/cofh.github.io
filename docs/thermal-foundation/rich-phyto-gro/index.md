@@ -6,16 +6,16 @@ redirect_from:
   - /docs/rich-phyto-gro/
 recipes:
   crafting:
-    - phyto-gro-rich-using-sawdust
-    - phyto-gro-rich-using-charcoal
+    - tf2-phyto-gro-rich-using-sawdust
+    - tf2-phyto-gro-rich-using-charcoal
   transposer-fill:
     - phyto-gro-rich
 usage-recipes:
   crafting:
-    - podzol-using-phyto-gro
-    - mycelium-using-phyto-gro
-    - augment-machine-insolator-fertilizer
-    - watering-can-signalum
+    - tf2-podzol-using-phyto-gro
+    - tf2-mycelium-using-phyto-gro
+    - te5-augment-machine-insolator-fertilizer
+    - tc-watering-can-signalum
   charger:
     - phyto-gro-fluxed
   insolator:

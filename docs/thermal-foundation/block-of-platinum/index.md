@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-platinum/
 recipes:
   crafting:
-    - storage-block-platinum
+    - tf2-storage-block-platinum
 usage-recipes:
   crafting:
-    - ingot-platinum-from-block
+    - tf2-ingot-platinum-from-block
 ---
 
 **Blocks of platinum** are blocks made from [platinum

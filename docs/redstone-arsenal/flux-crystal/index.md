@@ -9,17 +9,17 @@ redirect_from:
   - /docs/flux-crystal/
 recipes:
   crafting:
-    - flux-crystal
-    - flux-crystal-from-block
+    - ra-flux-crystal
+    - ra-flux-crystal-from-block
   transposer-fill:
-    - flux-crystal
+    - ra-flux-crystal
 usage-recipes:
   crafting:
-    - storage-block-flux-crystal
-    - obsidian-rod-flux-infused
-    - fluxed-armor-plating
-    - flux-infused-quiver
-    - flux-infused-shield
+    - ra-storage-block-flux-crystal
+    - ra-obsidian-rod-flux-infused
+    - ra-fluxed-armor-plating
+    - ra-weapon-quiver
+    - ra-weapon-shield
 ---
 
 **Flux crystals** are raw materials made from

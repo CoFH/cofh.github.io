@@ -7,32 +7,32 @@ redirect_from:
   - /docs/tf-leggings/
 recipes:
   crafting:
-    - leggings-copper
-    - leggings-tin
-    - leggings-silver
-    - leggings-lead
-    - leggings-aluminum
-    - leggings-nickel
-    - leggings-platinum
-    - leggings-steel
-    - leggings-electrum
-    - leggings-invar
-    - leggings-bronze
-    - leggings-constantan
+    - tf2-armor-leggings-copper
+    - tf2-armor-leggings-tin
+    - tf2-armor-leggings-silver
+    - tf2-armor-leggings-lead
+    - tf2-armor-leggings-aluminum
+    - tf2-armor-leggings-nickel
+    - tf2-armor-leggings-platinum
+    - tf2-armor-leggings-steel
+    - tf2-armor-leggings-electrum
+    - tf2-armor-leggings-invar
+    - tf2-armor-leggings-bronze
+    - tf2-armor-leggings-constantan
 usage-recipes:
   smelter:
-    - recycling-leggings-copper
-    - recycling-leggings-tin
-    - recycling-leggings-silver
-    - recycling-leggings-lead
-    - recycling-leggings-aluminum
-    - recycling-leggings-nickel
-    - recycling-leggings-platinum
-    - recycling-leggings-steel
-    - recycling-leggings-electrum
-    - recycling-leggings-invar
-    - recycling-leggings-bronze
-    - recycling-leggings-constantan
+    - recycling-armor-leggings-copper
+    - recycling-armor-leggings-tin
+    - recycling-armor-leggings-silver
+    - recycling-armor-leggings-lead
+    - recycling-armor-leggings-aluminum
+    - recycling-armor-leggings-nickel
+    - recycling-armor-leggings-platinum
+    - recycling-armor-leggings-steel
+    - recycling-armor-leggings-electrum
+    - recycling-armor-leggings-invar
+    - recycling-armor-leggings-bronze
+    - recycling-armor-leggings-constantan
 ---
 
 ![Leggings](/assets/images/thermal-foundation/leggings.gif){:style="height: 128px"}

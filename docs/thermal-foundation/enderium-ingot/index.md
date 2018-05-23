@@ -8,35 +8,35 @@ redirect_from:
   - /docs/enderium-ingot/
 recipes:
   crafting:
-    - ingot-enderium-from-nuggets
-    - ingot-enderium-from-block
+    - tf2-ingot-enderium-from-nuggets
+    - tf2-ingot-enderium-from-block
   smelter:
     - dust-smelting-enderium
     - recycling-gear-enderium
     - recycling-plate-enderium
 usage-recipes:
   crafting:
-    - nugget-enderium
-    - gear-enderium
-    - storage-block-enderium
-    - upgrade-kit-resonant
-    - flux-capacitor-resonant
-    - reservoir-resonant
-    - satchel-resonant
-    - fluxduct-resonant-empty-three
-    - fluxduct-resonant-three
-    - servo-resonant
-    - servo-resonant-upgrade
-    - filter-resonant
-    - filter-resonant-upgrade
-    - retriever-resonant
-    - retriever-resonant-upgrade
-    - watering-can-resonant
-    - fluxbore-resonant
-    - fluxsaw-resonant
-    - fluxomagnet-resonant
-    - hypoinfuser-resonant
-    - alchemical-quiver-resonant
+    - tf2-nugget-enderium
+    - tf2-gear-enderium
+    - tf2-storage-block-enderium
+    - tf2-upgrade-kit-resonant
+    - te5-flux-capacitor-resonant
+    - te5-reservoir-resonant
+    - te5-satchel-resonant
+    - td2-fluxduct-resonant-empty-three
+    - td2-fluxduct-resonant-three
+    - td2-servo-resonant
+    - td2-servo-resonant-upgrade
+    - td2-filter-resonant
+    - td2-filter-resonant-upgrade
+    - td2-retriever-resonant
+    - td2-retriever-resonant-upgrade
+    - tc-watering-can-resonant
+    - ti-fluxbore-resonant
+    - ti-fluxsaw-resonant
+    - ti-fluxomagnet-resonant
+    - ti-hypoinfuser-resonant
+    - ti-alchemical-quiver-resonant
   pulverizer:
     - dust-enderium
   compactor:

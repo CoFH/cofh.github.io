@@ -7,7 +7,7 @@ redirect_from:
   - /docs/sawmill/
 recipes:
   crafting:
-    - machine-sawmill
+    - te5-machine-sawmill
 augments:
   - machine-power
   - machine-secondary
@@ -23,10 +23,10 @@ recipe-list:
     - recycling-boat
     - recycling-door
     - recycling-melon
-    - recycling-helmet-leather
-    - recycling-chestplate-leather
-    - recycling-leggings-leather
-    - recycling-boots-leather
+    - recycling-armor-helmet-leather
+    - recycling-armor-chestplate-leather
+    - recycling-armor-leggings-leather
+    - recycling-armor-boots-leather
 ---
 
 ![Sawmill](/assets/images/thermal-expansion/sawmill.png){:style="height: 128px"}

@@ -22,14 +22,14 @@ redirect_from:
   - /docs/satchel/
 recipes:
   crafting:
-    - satchel-basic-using-leather
-    - satchel-basic-using-rockwool
-    - satchel-hardened
-    - satchel-reinforced
-    - satchel-signalum
-    - satchel-resonant
-    - satchel-void-using-leather
-    - satchel-void-using-rockwool
+    - te5-satchel-basic-using-leather
+    - te5-satchel-basic-using-rockwool
+    - te5-satchel-hardened
+    - te5-satchel-reinforced
+    - te5-satchel-signalum
+    - te5-satchel-resonant
+    - te5-satchel-void-using-leather
+    - te5-satchel-void-using-rockwool
 ---
 
 A **satchel** is an item that stores other items. It is able to automatically

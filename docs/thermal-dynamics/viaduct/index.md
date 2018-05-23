@@ -10,12 +10,12 @@ redirect_from:
   - /docs/viaduct/
 recipes:
   crafting:
-    - viaduct-frame
+    - td2-viaduct-frame
   transposer-fill:
-    - viaduct
+    - td2-viaduct
 usage-recipes:
   transposer-fill:
-    - viaduct-long-range-linking
+    - td2-viaduct-long-range-linking
 ---
 
 > Whoosh!

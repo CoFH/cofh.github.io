@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-sword/
 recipes:
   crafting:
-    - flux-infused-sword
+    - ra-weapon-sword
 ---
 
 A **flux-infused sword** is a powerful

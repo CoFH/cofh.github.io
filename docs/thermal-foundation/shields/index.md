@@ -40,40 +40,40 @@ image:
     file: thermal-foundation/shield-constantan.png
 recipes:
   crafting:
-    - shield-stone
-    - shield-iron
-    - shield-gold
-    - shield-diamond
-    - shield-copper
-    - shield-tin
-    - shield-silver
-    - shield-lead
-    - shield-aluminum
-    - shield-nickel
-    - shield-platinum
-    - shield-steel
-    - shield-electrum
-    - shield-invar
-    - shield-bronze
-    - shield-constantan
+    - tf2-weapon-shield-stone
+    - tf2-weapon-shield-iron
+    - tf2-weapon-shield-gold
+    - tf2-weapon-shield-diamond
+    - tf2-weapon-shield-copper
+    - tf2-weapon-shield-tin
+    - tf2-weapon-shield-silver
+    - tf2-weapon-shield-lead
+    - tf2-weapon-shield-aluminum
+    - tf2-weapon-shield-nickel
+    - tf2-weapon-shield-platinum
+    - tf2-weapon-shield-steel
+    - tf2-weapon-shield-electrum
+    - tf2-weapon-shield-invar
+    - tf2-weapon-shield-bronze
+    - tf2-weapon-shield-constantan
 usage-recipes:
   smelter:
-    - recycling-shield-iron
-    - recycling-shield-gold
-    - recycling-shield-copper
-    - recycling-shield-tin
-    - recycling-shield-silver
-    - recycling-shield-lead
-    - recycling-shield-aluminum
-    - recycling-shield-nickel
-    - recycling-shield-platinum
-    - recycling-shield-steel
-    - recycling-shield-electrum
-    - recycling-shield-invar
-    - recycling-shield-bronze
-    - recycling-shield-constantan
+    - recycling-weapon-shield-iron
+    - recycling-weapon-shield-gold
+    - recycling-weapon-shield-copper
+    - recycling-weapon-shield-tin
+    - recycling-weapon-shield-silver
+    - recycling-weapon-shield-lead
+    - recycling-weapon-shield-aluminum
+    - recycling-weapon-shield-nickel
+    - recycling-weapon-shield-platinum
+    - recycling-weapon-shield-steel
+    - recycling-weapon-shield-electrum
+    - recycling-weapon-shield-invar
+    - recycling-weapon-shield-bronze
+    - recycling-weapon-shield-constantan
   pulverizer:
-    - recycling-shield-diamond
+    - recycling-weapon-shield-diamond
 ---
 
 **[Shields](https://minecraft.gamepedia.com/Shield)** are weapons in vanilla

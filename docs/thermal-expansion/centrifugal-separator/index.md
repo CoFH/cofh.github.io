@@ -5,7 +5,7 @@ redirect_from:
   - /docs/centrifugal-separator/
 recipes:
   crafting:
-    - machine-centrifuge
+    - te5-machine-centrifuge
 augments:
   - machine-power
   - machine-secondary

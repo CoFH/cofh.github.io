@@ -9,9 +9,9 @@ recipes:
     - dust-charcoal
 usage-recipes:
   crafting:
-    - gunpowder-using-charcoal-sulfur-and-niter
-    - phyto-gro-using-charcoal
-    - phyto-gro-rich-using-charcoal
+    - tf2-gunpowder-using-charcoal
+    - tf2-phyto-gro-using-charcoal
+    - tf2-phyto-gro-rich-using-charcoal
   smelter:
     - ingot-steel-from-dust-iron-and-dust-charcoal
     - ingot-steel-from-ingot-iron-and-dust-charcoal

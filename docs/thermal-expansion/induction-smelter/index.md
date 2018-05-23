@@ -7,7 +7,7 @@ redirect_from:
   - /docs/induction-smelter/
 recipes:
   crafting:
-    - machine-smelter
+    - te5-machine-smelter
 augments:
   - machine-power
   - machine-secondary
@@ -17,7 +17,7 @@ augments:
 recipe-list:
   general:
     - dust-smelting
-    - dust-smelting-fluxed-electrum
+    - ra-dust-smelting-fluxed-electrum
     - stone-bricks
     - nether-brick
     - hardened-glass
@@ -98,21 +98,21 @@ recipe-list:
     - recycling-compass
     - recycling-door-iron
     - recycling-hopper
-    - recycling-pickaxe
-    - recycling-shovel
-    - recycling-axe
-    - recycling-hoe
-    - recycling-fishing-rod
-    - recycling-shears-metal
-    - recycling-hammer
-    - recycling-sickle
-    - recycling-sword
-    - recycling-bow
-    - recycling-shield-metal
-    - recycling-helmet
-    - recycling-chestplate
-    - recycling-leggings
-    - recycling-boots
+    - recycling-tool-pickaxe
+    - recycling-tool-shovel
+    - recycling-tool-axe
+    - recycling-tool-hoe
+    - recycling-tool-fishing-rod-metal
+    - recycling-tool-shears-metal
+    - recycling-tool-hammer
+    - recycling-tool-sickle
+    - recycling-weapon-sword
+    - recycling-weapon-bow-metal
+    - recycling-weapon-shield-metal
+    - recycling-armor-helmet
+    - recycling-armor-chestplate
+    - recycling-armor-leggings
+    - recycling-armor-boots
     - recycling-horse-armor-iron
     - recycling-horse-armor-gold
 ---

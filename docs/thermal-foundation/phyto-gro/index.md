@@ -8,11 +8,11 @@ redirect_from:
   - /docs/phyto-gro/
 recipes:
   crafting:
-    - phyto-gro-using-sawdust
-    - phyto-gro-using-charcoal
+    - tf2-phyto-gro-using-sawdust
+    - tf2-phyto-gro-using-charcoal
 usage-recipes:
   crafting:
-    - watering-can-reinforced
+    - tc-watering-can-reinforced
   transposer-fill:
     - phyto-gro-rich
   insolator:

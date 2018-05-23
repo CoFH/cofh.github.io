@@ -8,32 +8,32 @@ redirect_from:
   - /docs/tf-shovels/
 recipes:
   crafting:
-    - shovel-copper
-    - shovel-tin
-    - shovel-silver
-    - shovel-lead
-    - shovel-aluminum
-    - shovel-nickel
-    - shovel-platinum
-    - shovel-steel
-    - shovel-electrum
-    - shovel-invar
-    - shovel-bronze
-    - shovel-constantan
+    - tf2-tool-shovel-copper
+    - tf2-tool-shovel-tin
+    - tf2-tool-shovel-silver
+    - tf2-tool-shovel-lead
+    - tf2-tool-shovel-aluminum
+    - tf2-tool-shovel-nickel
+    - tf2-tool-shovel-platinum
+    - tf2-tool-shovel-steel
+    - tf2-tool-shovel-electrum
+    - tf2-tool-shovel-invar
+    - tf2-tool-shovel-bronze
+    - tf2-tool-shovel-constantan
 usage-recipes:
   smelter:
-    - recycling-shovel-copper
-    - recycling-shovel-tin
-    - recycling-shovel-silver
-    - recycling-shovel-lead
-    - recycling-shovel-aluminum
-    - recycling-shovel-nickel
-    - recycling-shovel-platinum
-    - recycling-shovel-steel
-    - recycling-shovel-electrum
-    - recycling-shovel-invar
-    - recycling-shovel-bronze
-    - recycling-shovel-constantan
+    - recycling-tool-shovel-copper
+    - recycling-tool-shovel-tin
+    - recycling-tool-shovel-silver
+    - recycling-tool-shovel-lead
+    - recycling-tool-shovel-aluminum
+    - recycling-tool-shovel-nickel
+    - recycling-tool-shovel-platinum
+    - recycling-tool-shovel-steel
+    - recycling-tool-shovel-electrum
+    - recycling-tool-shovel-invar
+    - recycling-tool-shovel-bronze
+    - recycling-tool-shovel-constantan
 ---
 
 ![Shovels](/assets/images/thermal-foundation/shovels.gif){:style="height: 128px"}

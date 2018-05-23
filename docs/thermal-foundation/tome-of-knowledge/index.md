@@ -8,10 +8,10 @@ image:
     file: thermal-foundation/tome-of-knowledge.png
 recipes:
   crafting:
-    - tome-of-knowledge
+    - tf2-tome-of-knowledge
 usage-recipes:
   crafting:
-    - device-xp-collector
+    - te5-device-xp-collector
 ---
 
 A **tome of knowledge** is an item that stores

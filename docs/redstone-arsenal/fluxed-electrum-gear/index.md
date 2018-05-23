@@ -9,12 +9,12 @@ redirect_from:
   - /docs/fluxed-electrum-gear/
 recipes:
   crafting:
-    - gear-fluxed-electrum
+    - ra-gear-fluxed-electrum
   compactor-gear:
     - gear-fluxed-electrum
 usage-recipes:
   crafting:
-    - flux-infused-battlewrench
+    - ra-weapon-battlewrench
 ---
 
 **Fluxed electrum gears** are crafting materials made of [fluxed

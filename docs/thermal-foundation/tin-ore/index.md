@@ -9,9 +9,9 @@ usage-recipes:
   smelting:
     - tf2-ore-processing-tin
   crafting:
-    - pyrotheum-ore-tin
-    - petrotheum-ore-tin
-    - petrotheum-pyrotheum-ore-tin
+    - tf2-pyrotheum-ore-tin
+    - tf2-petrotheum-ore-tin
+    - tf2-petrotheum-pyrotheum-ore-tin
   pulverizer:
     - ore-processing-tin
   smelter:

@@ -8,32 +8,32 @@ redirect_from:
   - /docs/tf-swords/
 recipes:
   crafting:
-    - sword-copper
-    - sword-tin
-    - sword-silver
-    - sword-lead
-    - sword-aluminum
-    - sword-nickel
-    - sword-platinum
-    - sword-steel
-    - sword-electrum
-    - sword-invar
-    - sword-bronze
-    - sword-constantan
+    - tf2-weapon-sword-copper
+    - tf2-weapon-sword-tin
+    - tf2-weapon-sword-silver
+    - tf2-weapon-sword-lead
+    - tf2-weapon-sword-aluminum
+    - tf2-weapon-sword-nickel
+    - tf2-weapon-sword-platinum
+    - tf2-weapon-sword-steel
+    - tf2-weapon-sword-electrum
+    - tf2-weapon-sword-invar
+    - tf2-weapon-sword-bronze
+    - tf2-weapon-sword-constantan
 usage-recipes:
   smelter:
-    - recycling-sword-copper
-    - recycling-sword-tin
-    - recycling-sword-silver
-    - recycling-sword-lead
-    - recycling-sword-aluminum
-    - recycling-sword-nickel
-    - recycling-sword-platinum
-    - recycling-sword-steel
-    - recycling-sword-electrum
-    - recycling-sword-invar
-    - recycling-sword-bronze
-    - recycling-sword-constantan
+    - recycling-weapon-sword-copper
+    - recycling-weapon-sword-tin
+    - recycling-weapon-sword-silver
+    - recycling-weapon-sword-lead
+    - recycling-weapon-sword-aluminum
+    - recycling-weapon-sword-nickel
+    - recycling-weapon-sword-platinum
+    - recycling-weapon-sword-steel
+    - recycling-weapon-sword-electrum
+    - recycling-weapon-sword-invar
+    - recycling-weapon-sword-bronze
+    - recycling-weapon-sword-constantan
 ---
 
 ![Swords](/assets/images/thermal-foundation/swords.gif){:style="height: 128px"}

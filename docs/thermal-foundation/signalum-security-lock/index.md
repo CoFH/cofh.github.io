@@ -8,7 +8,7 @@ redirect_from:
   - /docs/signalum-security-lock/
 recipes:
   crafting:
-    - signalum-security-lock
+    - tf2-signalum-security-lock
 ---
 
 ![Signalum security lock](/assets/images/thermal-foundation/signalum-security-lock.png){:style="height: 128px"}

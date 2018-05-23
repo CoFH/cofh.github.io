@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-omniwrench/
 recipes:
   crafting:
-    - flux-infused-wrench
+    - ra-tool-wrench
 ---
 
 A **flux-infused omniwrench** is a [wrench](/docs/wrenches/) powered by

@@ -8,39 +8,39 @@ redirect_from:
   - /docs/signalum-ingot/
 recipes:
   crafting:
-    - ingot-signalum-from-nuggets
-    - ingot-signalum-from-block
+    - tf2-ingot-signalum-from-nuggets
+    - tf2-ingot-signalum-from-block
   smelter:
     - dust-smelting-signalum
     - recycling-gear-signalum
     - recycling-plate-signalum
 usage-recipes:
   crafting:
-    - nugget-signalum
-    - gear-signalum
-    - storage-block-signalum
-    - upgrade-kit-signalum
-    - flux-capacitor-signalum
-    - reservoir-signalum
-    - reservoir-resonant
-    - satchel-signalum
-    - fluxduct-signalum-empty-three
-    - fluxduct-signalum-three
-    - fluiduct-energy-three
-    - itemduct-energy-three
-    - itemduct-energy-fast-three
-    - servo-signalum
-    - servo-signalum-upgrade
-    - filter-signalum
-    - filter-signalum-upgrade
-    - retriever-signalum
-    - retriever-signalum-upgrade
-    - watering-can-signalum
-    - fluxbore-signalum
-    - fluxsaw-signalum
-    - fluxomagnet-signalum
-    - hypoinfuser-signalum
-    - alchemical-quiver-signalum
+    - tf2-nugget-signalum
+    - tf2-gear-signalum
+    - tf2-storage-block-signalum
+    - tf2-upgrade-kit-signalum
+    - te5-flux-capacitor-signalum
+    - te5-reservoir-signalum
+    - te5-reservoir-resonant
+    - te5-satchel-signalum
+    - td2-fluxduct-signalum-empty-three
+    - td2-fluxduct-signalum-three
+    - td2-fluiduct-energy-three
+    - td2-itemduct-energy-three
+    - td2-itemduct-energy-fast-three
+    - td2-servo-signalum
+    - td2-servo-signalum-upgrade
+    - td2-filter-signalum
+    - td2-filter-signalum-upgrade
+    - td2-retriever-signalum
+    - td2-retriever-signalum-upgrade
+    - tc-watering-can-signalum
+    - ti-fluxbore-signalum
+    - ti-fluxsaw-signalum
+    - ti-fluxomagnet-signalum
+    - ti-hypoinfuser-signalum
+    - ti-alchemical-quiver-signalum
   pulverizer:
     - dust-signalum
   compactor:

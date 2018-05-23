@@ -10,16 +10,16 @@ redirect_from:
   - /docs/impulse-itemduct/
 recipes:
   transposer-fill:
-    - itemduct-fast
+    - td2-itemduct-fast
   crafting:
-    - itemduct-fast-opaque-from-transparent
-    - itemduct-fast-transparent-from-opaque
-    - itemduct-fast-dense
-    - itemduct-fast-vacuum
+    - td2-itemduct-fast-opaque-from-transparent
+    - td2-itemduct-fast-transparent-from-opaque
+    - td2-itemduct-fast-dense
+    - td2-itemduct-fast-vacuum
 usage-recipes:
   crafting:
-    - itemduct-energy-fast-one
-    - itemduct-energy-fast-three
+    - td2-itemduct-energy-fast-one
+    - td2-itemduct-energy-fast-three
 ---
 
 An **impulse itemduct** is a type of [itemduct](/docs/thermal-dynamics/itemduct/) that transfers

@@ -9,10 +9,10 @@ redirect_from:
   - /docs/fluxed-electrum-nugget/
 recipes:
   crafting:
-    - nugget-fluxed-electrum
+    - ra-nugget-fluxed-electrum
 usage-recipes:
   crafting:
-    - ingot-fluxed-electrum-from-nuggets
+    - ra-ingot-fluxed-electrum-from-nuggets
 ---
 
 **Fluxed electrum nuggets** are raw materials. They are the nugget form of

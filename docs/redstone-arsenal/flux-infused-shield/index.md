@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-shield/
 recipes:
   crafting:
-    - flux-infused-shield
+    - ra-weapon-shield
 ---
 
 A **flux-infused shield** is a powerful

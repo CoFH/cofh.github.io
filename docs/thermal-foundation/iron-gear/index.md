@@ -7,32 +7,32 @@ redirect_from:
   - /docs/iron-gear/
 recipes:
   crafting:
-    - gear-iron
-    - gear-iron-using-copper
-    - gear-iron-using-tin
-    - gear-iron-using-bronze
+    - tf2-gear-iron
+    - tf2-gear-iron-using-copper
+    - tf2-gear-iron-using-tin
+    - tf2-gear-iron-using-bronze
   compactor-gear:
     - gear-iron
 usage-recipes:
   crafting:
-    - device-water-gen
-    - device-nullifier
-    - device-heat-sink
-    - device-tapper
-    - device-fisher
-    - device-item-buffer
-    - device-fluid-buffer
-    - device-lexicon
-    - device-xp-collector
-    - device-diffuser
-    - device-factorizer
-    - device-mob-catcher
-    - augment-machine-compactor-gear
-    - augment-machine-charger-repair
-    - augment-dynamo-boiler
-    - augment-dynamo-steam-turbine
-    - fluxbore-basic
-    - fluxsaw-basic
+    - te5-device-water-gen
+    - te5-device-nullifier
+    - te5-device-heat-sink
+    - te5-device-tapper
+    - te5-device-fisher
+    - te5-device-item-buffer
+    - te5-device-fluid-buffer
+    - te5-device-lexicon
+    - te5-device-xp-collector
+    - te5-device-diffuser
+    - te5-device-factorizer
+    - te5-device-mob-catcher
+    - te5-augment-machine-compactor-gear
+    - te5-augment-machine-charger-repair
+    - te5-augment-dynamo-boiler
+    - te5-augment-dynamo-steam-turbine
+    - ti-fluxbore-basic
+    - ti-fluxsaw-basic
   smelter:
     - recycling-gear-iron
 ---

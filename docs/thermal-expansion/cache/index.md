@@ -21,7 +21,7 @@ redirect_from:
   - /docs/cache/
 recipes:
   crafting:
-    - cache-basic
+    - te5-cache-basic
 ---
 
 A **cache** is a block that stores a large amount of a single item.

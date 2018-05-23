@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-signalum/
 recipes:
   crafting:
-    - storage-block-signalum
+    - tf2-storage-block-signalum
 usage-recipes:
   crafting:
-    - ingot-signalum-from-block
+    - tf2-ingot-signalum-from-block
 ---
 
 **Blocks of signalum** are blocks made from [signalum

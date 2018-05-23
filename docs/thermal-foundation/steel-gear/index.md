@@ -6,7 +6,7 @@ redirect_from:
   - /docs/steel-gear/
 recipes:
   crafting:
-    - gear-steel
+    - tf2-gear-steel
   compactor-gear:
     - gear-steel
 usage-recipes:

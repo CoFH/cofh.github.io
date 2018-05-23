@@ -9,9 +9,9 @@ usage-recipes:
   smelting:
     - tf2-ore-processing-silver
   crafting:
-    - pyrotheum-ore-silver
-    - petrotheum-ore-silver
-    - petrotheum-pyrotheum-ore-silver
+    - tf2-pyrotheum-ore-silver
+    - tf2-petrotheum-ore-silver
+    - tf2-petrotheum-pyrotheum-ore-silver
   pulverizer:
     - ore-processing-silver
   smelter:

@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-pyrolytic-conversion/
 recipes:
   crafting:
-    - augment-machine-furnace-pyrolysis
+    - te5-augment-machine-furnace-pyrolysis
 recipe-list:
   - coal-coke
   - storage-block-coal-coke

@@ -6,7 +6,7 @@ redirect_from:
   - /docs/signalum-blend/
 recipes:
   crafting:
-    - dust-signalum
+    - tf2-dust-signalum
   pulverizer:
     - dust-signalum
 usage-recipes:

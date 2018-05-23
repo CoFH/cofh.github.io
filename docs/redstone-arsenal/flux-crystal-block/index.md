@@ -9,10 +9,10 @@ redirect_from:
   - /docs/flux-crystal-block/
 recipes:
   crafting:
-    - storage-block-flux-crystal
+    - ra-storage-block-flux-crystal
 usage-recipes:
   crafting:
-    - flux-crystal-from-block
+    - ra-flux-crystal-from-block
 ---
 
 **Flux crystal blocks** are blocks made from [flux

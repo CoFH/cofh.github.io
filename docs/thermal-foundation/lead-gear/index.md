@@ -6,13 +6,13 @@ redirect_from:
   - /docs/lead-gear/
 recipes:
   crafting:
-    - gear-lead
+    - tf2-gear-lead
   compactor-gear:
     - gear-lead
 usage-recipes:
   crafting:
-    - dynamo-reactant
-    - frame-energy-cell
+    - te5-dynamo-reactant
+    - te5-frame-energy-cell
   smelter:
     - recycling-gear-lead
 ---

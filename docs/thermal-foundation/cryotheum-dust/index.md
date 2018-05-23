@@ -9,24 +9,24 @@ redirect_from:
   - /docs/cryotheum-dust/
 recipes:
   crafting:
-    - dust-cryotheum
+    - tf2-dust-cryotheum
 usage-recipes:
   crafting:
-    - ice-using-cryotheum
-    - packed-ice-using-cryotheum
-    - redstone-from-fluid
-    - glowstone-dust-from-fluid
-    - ender-pearl-from-fluid
-    - redstone-from-clathrate
-    - glowstone-dust-from-clathrate
-    - ender-pearl-from-clathrate
-    - upgrade-kit-signalum
-    - flux-capacitor-signalum
-    - reservoir-signalum
-    - augment-machine-extruder-no-water
-    - augment-dynamo-magmatic-coolant
-    - augment-dynamo-compression-coolant
-    - watering-can-signalum
+    - tf2-ice-using-cryotheum
+    - tf2-packed-ice-using-cryotheum
+    - tf2-redstone-from-fluid
+    - tf2-glowstone-dust-from-fluid
+    - tf2-ender-pearl-from-fluid
+    - tf2-redstone-from-clathrate
+    - tf2-glowstone-dust-from-clathrate
+    - tf2-ender-pearl-from-clathrate
+    - tf2-upgrade-kit-signalum
+    - te5-flux-capacitor-signalum
+    - te5-reservoir-signalum
+    - te5-augment-machine-extruder-no-water
+    - te5-augment-dynamo-magmatic-coolant
+    - te5-augment-dynamo-compression-coolant
+    - tc-watering-can-signalum
   crucible:
     - cryotheum
   transposer-fill:

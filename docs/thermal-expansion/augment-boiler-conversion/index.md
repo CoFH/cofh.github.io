@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-boiler-conversion/
 recipes:
   crafting:
-    - augment-dynamo-boiler
+    - te5-augment-dynamo-boiler
 ---
 
 A **boiler conversion** is an [augment](/docs/thermal-expansion/augments/) that converts a

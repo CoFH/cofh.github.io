@@ -10,9 +10,9 @@ redirect_from:
   - /docs/super-laminar-fluiduct/
 recipes:
   crafting:
-    - fluiduct-super
-    - fluiduct-super-opaque-from-transparent
-    - fluiduct-super-transparent-from-opaque
+    - td2-fluiduct-super
+    - td2-fluiduct-super-opaque-from-transparent
+    - td2-fluiduct-super-transparent-from-opaque
 ---
 
 A **super-laminar fluiduct** is a type of [fluiduct](/docs/thermal-dynamics/fluiduct/) that can

@@ -11,7 +11,7 @@ redirect_from:
   - /docs/sequential-fabricator/
 recipes:
   crafting:
-    - machine-crafter
+    - te5-machine-crafter
 augments:
   - machine-power
   - machine-crafter-input

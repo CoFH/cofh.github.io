@@ -10,9 +10,9 @@ usage-recipes:
   smelting:
     - tf2-ore-processing-copper
   crafting:
-    - pyrotheum-ore-copper
-    - petrotheum-ore-copper
-    - petrotheum-pyrotheum-ore-copper
+    - tf2-pyrotheum-ore-copper
+    - tf2-petrotheum-ore-copper
+    - tf2-petrotheum-pyrotheum-ore-copper
   pulverizer:
     - ore-processing-copper
   smelter:

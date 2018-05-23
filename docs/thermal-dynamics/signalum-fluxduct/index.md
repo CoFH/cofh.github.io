@@ -8,18 +8,18 @@ redirect_from:
   - /docs/signalum-fluxduct/
 recipes:
   crafting:
-    - fluxduct-signalum-empty-one
-    - fluxduct-signalum-empty-three
-    - fluxduct-signalum-one
-    - fluxduct-signalum-three
+    - td2-fluxduct-signalum-empty-one
+    - td2-fluxduct-signalum-empty-three
+    - td2-fluxduct-signalum-one
+    - td2-fluxduct-signalum-three
   transposer-fill:
-    - fluxduct-signalum
+    - td2-fluxduct-signalum
 usage-recipes:
   crafting:
-    - fluxduct-resonant-empty-one
-    - fluxduct-resonant-empty-three
-    - fluxduct-resonant-one
-    - fluxduct-resonant-three
+    - td2-fluxduct-resonant-empty-one
+    - td2-fluxduct-resonant-empty-three
+    - td2-fluxduct-resonant-one
+    - td2-fluxduct-resonant-three
 ---
 
 A **signalum fluxduct** is a [fluxduct](/docs/thermal-dynamics/fluxducts/) of the fourth tier.

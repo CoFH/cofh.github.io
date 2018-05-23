@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-helm/
 recipes:
   crafting:
-    - flux-infused-helmet
+    - ra-armor-helmet
 ---
 
 A **flux-infused helm** is a powerful

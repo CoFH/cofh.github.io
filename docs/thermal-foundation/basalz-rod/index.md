@@ -10,7 +10,7 @@ recipes:
     - basalz-rod-from-powder
 usage-recipes:
   crafting:
-    - basalz-powder
+    - tf2-basalz-powder
   pulverizer:
     - basalz-powder
 ---

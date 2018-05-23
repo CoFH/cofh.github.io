@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-pickaxe/
 recipes:
   crafting:
-    - flux-infused-pickaxe
+    - ra-tool-pickaxe
 ---
 
 A **flux-infused pickaxe** is a powerful

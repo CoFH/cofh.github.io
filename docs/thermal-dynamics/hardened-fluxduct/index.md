@@ -8,11 +8,11 @@ redirect_from:
   - /docs/hardened-fluxduct/
 recipes:
   crafting:
-    - fluxduct-hardened-one
-    - fluxduct-hardened-three
+    - td2-fluxduct-hardened-one
+    - td2-fluxduct-hardened-three
 usage-recipes:
   pulverizer:
-    - recycling-fluxduct-hardened
+    - td2-recycling-fluxduct-hardened
 ---
 
 A **hardened fluxduct** is a [fluxduct](/docs/thermal-dynamics/fluxducts/) of the second tier.

@@ -17,16 +17,16 @@ redirect_from:
   - /docs/servos/
 recipes:
   crafting:
-    - servo-basic
-    - servo-hardened
-    - servo-reinforced
-    - servo-signalum
-    - servo-resonant
+    - td2-servo-basic
+    - td2-servo-hardened
+    - td2-servo-reinforced
+    - td2-servo-signalum
+    - td2-servo-resonant
   crafting-upgrading:
-    - servo-hardened-upgrade
-    - servo-reinforced-upgrade
-    - servo-signalum-upgrade
-    - servo-resonant-upgrade
+    - td2-servo-hardened-upgrade
+    - td2-servo-reinforced-upgrade
+    - td2-servo-signalum-upgrade
+    - td2-servo-resonant-upgrade
 ---
 
 **Servos** are items that can be installed on [itemduct](/docs/thermal-dynamics/itemduct/) and

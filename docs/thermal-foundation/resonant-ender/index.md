@@ -17,13 +17,13 @@ recipes:
     - dust-enderium
 usage-recipes:
   crafting:
-    - ender-pearl-from-fluid
-    - dust-enderium
+    - tf2-ender-pearl-from-fluid
+    - tf2-dust-enderium
   transposer-fill:
     - bucket-ender
     - ender-pearl-from-fluid
     - end-stone
-    - viaduct-long-range-linking
+    - td2-viaduct-long-range-linking
 ---
 
 ![Resonant ender](/assets/images/thermal-foundation/resonant-ender.gif){:style="height: 128px"}

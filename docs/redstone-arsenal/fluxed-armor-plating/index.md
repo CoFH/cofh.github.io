@@ -9,13 +9,13 @@ redirect_from:
   - /docs/fluxed-armor-plating/
 recipes:
   crafting:
-    - fluxed-armor-plating
+    - ra-fluxed-armor-plating
 usage-recipes:
   crafting:
-    - flux-infused-helmet
-    - flux-infused-chestplate
-    - flux-infused-leggings
-    - flux-infused-boots
+    - ra-armor-helmet
+    - ra-armor-chestplate
+    - ra-armor-leggings
+    - ra-armor-boots
 ---
 
 **Fluxed armor plating** is a crafting material used to make flux-infused armor.

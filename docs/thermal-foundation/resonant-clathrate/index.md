@@ -9,7 +9,7 @@ recipes:
     - fluid-ore-processing-ender
 usage-recipes:
   crafting:
-    - ender-pearl-from-clathrate
+    - tf2-ender-pearl-from-clathrate
   crucible:
     - ender-from-clathrate
   transposer-fill:

@@ -6,7 +6,7 @@ redirect_from:
   - /docs/compactor/
 recipes:
   crafting:
-    - machine-compactor
+    - te5-machine-compactor
 augments:
   - machine-power
   - machine-compactor-coin

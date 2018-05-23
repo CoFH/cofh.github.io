@@ -6,15 +6,15 @@ redirect_from:
   - /docs/tin-gear/
 recipes:
   crafting:
-    - gear-tin
+    - tf2-gear-tin
   compactor-gear:
     - gear-tin
 usage-recipes:
   crafting:
-    - frame-machine
-    - dynamo-compression
-    - augment-machine-sawmill-tapper
-    - augment-machine-crafter-input
+    - te5-frame-machine
+    - te5-dynamo-compression
+    - te5-augment-machine-sawmill-tapper
+    - te5-augment-machine-crafter-input
   smelter:
     - recycling-gear-tin
 ---

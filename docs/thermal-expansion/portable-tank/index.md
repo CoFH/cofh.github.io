@@ -20,7 +20,7 @@ redirect_from:
   - /docs/portable-tank/
 recipes:
   crafting:
-    - portable-tank-basic
+    - te5-portable-tank-basic
 ---
 
 A **portable tank** is a block that stores a large amount of a fluid.

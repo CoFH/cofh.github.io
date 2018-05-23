@@ -6,13 +6,13 @@ redirect_from:
   - /docs/lumium-gear/
 recipes:
   crafting:
-    - gear-lumium
+    - tf2-gear-lumium
   compactor-gear:
     - gear-lumium
 usage-recipes:
   crafting:
-    - upgrade-kit-resonant
-    - machine-insolator
+    - tf2-upgrade-kit-resonant
+    - te5-machine-insolator
   smelter:
     - recycling-gear-lumium
 ---

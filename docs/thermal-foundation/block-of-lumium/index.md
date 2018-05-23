@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-lumium/
 recipes:
   crafting:
-    - storage-block-lumium
+    - tf2-storage-block-lumium
 usage-recipes:
   crafting:
-    - ingot-lumium-from-block
+    - tf2-ingot-lumium-from-block
 ---
 
 **Blocks of lumium** are blocks made from [lumium ingots](/docs/thermal-foundation/lumium-ingot/).

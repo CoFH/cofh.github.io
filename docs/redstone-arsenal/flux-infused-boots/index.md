@@ -8,7 +8,7 @@ redirect_from:
   - /docs/flux-infused-boots/
 recipes:
   crafting:
-    - flux-infused-boots
+    - ra-armor-boots
 ---
 
 **Flux-infused boots** are powerful

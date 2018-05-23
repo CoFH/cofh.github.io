@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-sapling-infuser/
 recipes:
   crafting:
-    - augment-machine-insolator-tree
+    - te5-augment-machine-insolator-tree
 recipe-list:
   - wood
   - wood-rich

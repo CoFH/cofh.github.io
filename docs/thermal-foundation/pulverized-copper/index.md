@@ -6,8 +6,8 @@ redirect_from:
   - /docs/pulverized-copper/
 recipes:
   crafting:
-    - petrotheum-ingot-copper
-    - petrotheum-ore-copper
+    - tf2-petrotheum-ingot-copper
+    - tf2-petrotheum-ore-copper
   pulverizer:
     - dust-copper
     - ore-processing-copper
@@ -17,10 +17,10 @@ recipes:
     - dust-signalum
 usage-recipes:
   crafting:
-    - pyrotheum-dust-copper
-    - dust-bronze
-    - dust-constantan
-    - dust-signalum
+    - tf2-pyrotheum-dust-copper
+    - tf2-dust-bronze
+    - tf2-dust-constantan
+    - tf2-dust-signalum
   smelting:
     - tf2-ingot-copper-from-dust
   smelter:

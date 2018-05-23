@@ -7,8 +7,8 @@ redirect_from:
   - /docs/pulverized-iron/
 recipes:
   crafting:
-    - petrotheum-ingot-iron
-    - petrotheum-ore-iron
+    - tf2-petrotheum-ingot-iron
+    - tf2-petrotheum-ore-iron
   pulverizer:
     - dust-iron
     - ore-processing-iron
@@ -18,8 +18,8 @@ recipes:
     - dust-invar
 usage-recipes:
   crafting:
-    - pyrotheum-dust-iron
-    - dust-invar
+    - tf2-pyrotheum-dust-iron
+    - tf2-dust-invar
   smelting:
     - tf2-ingot-iron-from-dust
   smelter:

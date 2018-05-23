@@ -12,8 +12,8 @@ recipes:
     - dust-petrotheum
 usage-recipes:
   crafting:
-    - dust-petrotheum
-    - obsidian-rod
+    - tf2-dust-petrotheum
+    - ra-obsidian-rod
   smelter:
     - hardened-glass
   transposer-fill:

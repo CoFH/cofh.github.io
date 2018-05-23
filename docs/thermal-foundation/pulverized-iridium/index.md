@@ -6,15 +6,15 @@ redirect_from:
   - /docs/pulverized-iridium/
 recipes:
   crafting:
-    - petrotheum-ingot-iridium
-    - petrotheum-ore-iridium
+    - tf2-petrotheum-ingot-iridium
+    - tf2-petrotheum-ore-iridium
   pulverizer:
     - dust-iridium
     - ore-processing-iridium
     - ore-processing-platinum
 usage-recipes:
   crafting:
-    - pyrotheum-dust-iridium
+    - tf2-pyrotheum-dust-iridium
   smelting:
     - tf2-ingot-iridium-from-dust
   smelter:

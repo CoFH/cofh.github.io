@@ -8,20 +8,20 @@ redirect_from:
   - /docs/petrotheum-dust/
 recipes:
   crafting:
-    - dust-petrotheum
+    - tf2-dust-petrotheum
 usage-recipes:
   crafting:
-    - petrotheum-metal-ore
-    - petrotheum-pyrotheum-metal-ore
-    - petrotheum-ingot-metal-ore
-    - petrotheum-ore-coal
-    - petrotheum-ore-redstone
-    - petrotheum-ore-lapis-lazuli
-    - petrotheum-ore-diamond
-    - petrotheum-ore-emerald
-    - petrotheum-ore-nether-quartz
-    - augment-machine-pulverizer-petrotheum
-    - fluxbore-signalum
+    - tf2-petrotheum-ore-metal
+    - tf2-petrotheum-pyrotheum-ore-metal
+    - tf2-petrotheum-ingot-ore-metal
+    - tf2-petrotheum-ore-coal
+    - tf2-petrotheum-ore-redstone
+    - tf2-petrotheum-ore-lapis-lazuli
+    - tf2-petrotheum-ore-diamond
+    - tf2-petrotheum-ore-emerald
+    - tf2-petrotheum-ore-nether-quartz
+    - te5-augment-machine-pulverizer-petrotheum
+    - ti-fluxbore-signalum
   crucible:
     - petrotheum
   centrifuge:

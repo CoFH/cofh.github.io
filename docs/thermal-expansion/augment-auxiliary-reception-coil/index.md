@@ -9,7 +9,7 @@ redirect_from:
   - /docs/augment-auxiliary-reception-coil/
 recipes:
   crafting:
-    - augment-machine-power
+    - te5-augment-machine-power
 ---
 
 An **auxiliary reception coil** is an [augment](/docs/thermal-expansion/augments/) that increases

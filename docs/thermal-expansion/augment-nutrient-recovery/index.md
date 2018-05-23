@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-nutrient-recovery/
 recipes:
   crafting:
-    - augment-machine-insolator-fertilizer
+    - te5-augment-machine-insolator-fertilizer
 ---
 
 A **nutrient recovery** [augment](/docs/thermal-expansion/augments/) provides a chance for a

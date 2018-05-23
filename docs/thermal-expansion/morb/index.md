@@ -8,11 +8,11 @@ image:
     file: thermal-expansion/morb.png
 recipes:
   crafting:
-    - morb-using-slime
-    - morb-using-rosin
+    - te5-morb-using-slime
+    - te5-morb-using-rosin
 usage-recipes:
   crafting:
-    - morb-reusable
+    - te5-morb-reusable
 ---
 
 A **morb** ('mob orb') is a throwable item that can be used to capture

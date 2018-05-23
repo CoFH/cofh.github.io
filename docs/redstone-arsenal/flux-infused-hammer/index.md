@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-hammer/
 recipes:
   crafting:
-    - flux-infused-hammer
+    - ra-tool-hammer
 ---
 
 A **flux-infused hammer** is a powerful [hammer](/docs/thermal-foundation/hammers/) powered by

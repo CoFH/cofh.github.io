@@ -6,10 +6,10 @@ redirect_from:
   - /docs/bronze-nugget/
 recipes:
   crafting:
-    - nugget-bronze
+    - tf2-nugget-bronze
 usage-recipes:
   crafting:
-    - ingot-bronze-from-nuggets
+    - tf2-ingot-bronze-from-nuggets
 ---
 
 ![Bronze nugget](/assets/images/thermal-foundation/nugget-bronze.png){:style="height: 128px"}

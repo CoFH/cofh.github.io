@@ -9,11 +9,11 @@ recipes:
     - tf2-ore-processing-iridium
     - tf2-ingot-iridium-from-dust
   crafting:
-    - pyrotheum-ore-iridium
-    - petrotheum-pyrotheum-ore-iridium
-    - pyrotheum-dust-iridium
-    - ingot-iridium-from-nuggets
-    - ingot-iridium-from-block
+    - tf2-pyrotheum-ore-iridium
+    - tf2-petrotheum-pyrotheum-ore-iridium
+    - tf2-pyrotheum-dust-iridium
+    - tf2-ingot-iridium-from-nuggets
+    - tf2-ingot-iridium-from-block
   smelter:
     - ore-processing-sand-iridium
     - ore-processing-rich-slag-iridium
@@ -24,10 +24,10 @@ recipes:
     - recycling-plate-iridium
 usage-recipes:
   crafting:
-    - petrotheum-ingot-iridium
-    - nugget-iridium
-    - gear-iridium
-    - storage-block-iridium
+    - tf2-petrotheum-ingot-iridium
+    - tf2-nugget-iridium
+    - tf2-gear-iridium
+    - tf2-storage-block-iridium
   pulverizer:
     - dust-iridium
   compactor:

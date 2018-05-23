@@ -9,8 +9,8 @@ recipes:
     - plate-nickel
 usage-recipes:
   crafting:
-    - augment-machine-smelter-pyrotheum
-    - augment-machine-insolator-monoculture
+    - te5-augment-machine-smelter-pyrotheum
+    - te5-augment-machine-insolator-monoculture
   smelter:
     - recycling-plate-nickel
 ---

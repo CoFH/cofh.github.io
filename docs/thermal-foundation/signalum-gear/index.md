@@ -7,23 +7,23 @@ redirect_from:
   - /docs/signalum-gear/
 recipes:
   crafting:
-    - gear-signalum
+    - tf2-gear-signalum
   compactor-gear:
     - gear-signalum
 usage-recipes:
   crafting:
-    - augment-machine-pulverizer-petrotheum
-    - augment-machine-smelter-pyrotheum
-    - augment-machine-insolator-tree
-    - augment-machine-insolator-monoculture
-    - augment-machine-refinery-potion
-    - augment-dynamo-magmatic-coolant
-    - augment-dynamo-compression-fuel
-    - augment-dynamo-reactant-elemental
-    - augment-dynamo-enervation-enchant
-    - augment-dynamo-numismatic-gem
-    - fluxbore-signalum
-    - fluxsaw-signalum
+    - te5-augment-machine-pulverizer-petrotheum
+    - te5-augment-machine-smelter-pyrotheum
+    - te5-augment-machine-insolator-tree
+    - te5-augment-machine-insolator-monoculture
+    - te5-augment-machine-refinery-potion
+    - te5-augment-dynamo-magmatic-coolant
+    - te5-augment-dynamo-compression-fuel
+    - te5-augment-dynamo-reactant-elemental
+    - te5-augment-dynamo-enervation-enchant
+    - te5-augment-dynamo-numismatic-gem
+    - ti-fluxbore-signalum
+    - ti-fluxsaw-signalum
   smelter:
     - recycling-gear-signalum
 ---

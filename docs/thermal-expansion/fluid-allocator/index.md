@@ -8,7 +8,7 @@ redirect_from:
   - /docs/fluid-allocator/
 recipes:
   crafting:
-    - device-fluid-buffer
+    - te5-device-fluid-buffer
 ---
 
 > It's like a [hopper](https://minecraft.gamepedia.com/Hopper), for fluids!

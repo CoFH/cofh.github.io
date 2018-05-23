@@ -16,12 +16,12 @@ redirect_from:
   - /docs/conversion-kits/
 recipes:
   crafting:
-    - conversion-kit-reinforced
-    - conversion-kit-signalum-1
-    - conversion-kit-signalum-2
-    - conversion-kit-resonant-1
-    - conversion-kit-resonant-2
-    - conversion-kit-resonant-3
+    - tf2-conversion-kit-reinforced
+    - tf2-conversion-kit-signalum-1
+    - tf2-conversion-kit-signalum-2
+    - tf2-conversion-kit-resonant-1
+    - tf2-conversion-kit-resonant-2
+    - tf2-conversion-kit-resonant-3
 ---
 
 **Conversion kits** are items used to fully upgrade blocks to a given

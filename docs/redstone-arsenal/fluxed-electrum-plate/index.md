@@ -12,7 +12,7 @@ recipes:
     - plate-fluxed-electrum
 usage-recipes:
   crafting:
-    - fluxed-armor-plating
+    - ra-fluxed-armor-plating
 ---
 
 **Fluxed electrum plates** are crafting materials made of [fluxed

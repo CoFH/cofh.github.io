@@ -9,10 +9,10 @@ redirect_from:
   - /docs/structuralduct/
 recipes:
   crafting:
-    - structuralduct
+    - td2-structuralduct
 usage-recipes:
   crafting:
-    - duct-covers
+    - td2-covers
 ---
 
 A **structuralduct** is a decorative block that connects to most other ducts. It

@@ -6,10 +6,10 @@ redirect_from:
   - /docs/diamond-nugget/
 recipes:
   crafting:
-    - nugget-diamond
+    - tf2-nugget-diamond
 usage-recipes:
   crafting:
-    - diamond-from-nuggets
+    - tf2-diamond-from-nuggets
 ---
 
 ![Diamond nugget](/assets/images/thermal-foundation/nugget-diamond.png){:style="height: 128px"}

@@ -7,7 +7,7 @@ redirect_from:
   - /docs/energetic-infuser/
 recipes:
   crafting:
-    - machine-charger
+    - te5-machine-charger
 augments:
   - machine-power
   - machine-charger-throughput

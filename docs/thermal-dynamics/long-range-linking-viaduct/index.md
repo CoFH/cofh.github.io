@@ -8,7 +8,7 @@ redirect_from:
   - /docs/long-range-linking-viaduct/
 recipes:
   transposer-fill:
-    - viaduct-long-range-linking
+    - td2-viaduct-long-range-linking
 ---
 
 A **long range linking viaduct** is a type of [viaduct](/docs/thermal-dynamics/viaduct/) used to

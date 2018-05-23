@@ -11,7 +11,7 @@ redirect_from:
   - /docs/steam-dynamo/
 recipes:
   crafting:
-    - dynamo-steam
+    - te5-dynamo-steam
 augments:
   - dynamo-power
   - dynamo-efficiency

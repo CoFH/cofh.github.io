@@ -18,11 +18,11 @@ image:
     file: thermal-innovation/alchemical-quiver-creative.png
 recipes:
   crafting:
-    - alchemical-quiver-basic
-    - alchemical-quiver-hardened
-    - alchemical-quiver-reinforced
-    - alchemical-quiver-signalum
-    - alchemical-quiver-resonant
+    - ti-alchemical-quiver-basic
+    - ti-alchemical-quiver-hardened
+    - ti-alchemical-quiver-reinforced
+    - ti-alchemical-quiver-signalum
+    - ti-alchemical-quiver-resonant
 ---
 
 An **alchemical quiver** is an item that stores

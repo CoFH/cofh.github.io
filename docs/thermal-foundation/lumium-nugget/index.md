@@ -6,10 +6,10 @@ redirect_from:
   - /docs/lumium-nugget/
 recipes:
   crafting:
-    - nugget-lumium
+    - tf2-nugget-lumium
 usage-recipes:
   crafting:
-    - ingot-lumium-from-nuggets
+    - tf2-ingot-lumium-from-nuggets
 ---
 
 ![Lumium nugget](/assets/images/thermal-foundation/nugget-lumium.png){:style="height: 128px"}

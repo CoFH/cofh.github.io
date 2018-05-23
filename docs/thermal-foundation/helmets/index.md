@@ -9,32 +9,32 @@ redirect_from:
   - /docs/tf-helmets/
 recipes:
   crafting:
-    - helmet-copper
-    - helmet-tin
-    - helmet-silver
-    - helmet-lead
-    - helmet-aluminum
-    - helmet-nickel
-    - helmet-platinum
-    - helmet-steel
-    - helmet-electrum
-    - helmet-invar
-    - helmet-bronze
-    - helmet-constantan
+    - tf2-armor-helmet-copper
+    - tf2-armor-helmet-tin
+    - tf2-armor-helmet-silver
+    - tf2-armor-helmet-lead
+    - tf2-armor-helmet-aluminum
+    - tf2-armor-helmet-nickel
+    - tf2-armor-helmet-platinum
+    - tf2-armor-helmet-steel
+    - tf2-armor-helmet-electrum
+    - tf2-armor-helmet-invar
+    - tf2-armor-helmet-bronze
+    - tf2-armor-helmet-constantan
 usage-recipes:
   smelter:
-    - recycling-helmet-copper
-    - recycling-helmet-tin
-    - recycling-helmet-silver
-    - recycling-helmet-lead
-    - recycling-helmet-aluminum
-    - recycling-helmet-nickel
-    - recycling-helmet-platinum
-    - recycling-helmet-steel
-    - recycling-helmet-electrum
-    - recycling-helmet-invar
-    - recycling-helmet-bronze
-    - recycling-helmet-constantan
+    - recycling-armor-helmet-copper
+    - recycling-armor-helmet-tin
+    - recycling-armor-helmet-silver
+    - recycling-armor-helmet-lead
+    - recycling-armor-helmet-aluminum
+    - recycling-armor-helmet-nickel
+    - recycling-armor-helmet-platinum
+    - recycling-armor-helmet-steel
+    - recycling-armor-helmet-electrum
+    - recycling-armor-helmet-invar
+    - recycling-armor-helmet-bronze
+    - recycling-armor-helmet-constantan
 ---
 
 ![Helmets](/assets/images/thermal-foundation/helmets.gif){:style="height: 128px"}

@@ -9,7 +9,7 @@ redirect_from:
   - /docs/augment-trivection-chamber/
 recipes:
   crafting:
-    - augment-machine-furnace-food
+    - te5-augment-machine-furnace-food
 ---
 
 A **trivection chamber** is an [augment](/docs/thermal-expansion/augments/) that increases the

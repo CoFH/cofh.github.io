@@ -11,11 +11,11 @@ recipes:
     - tf2-ore-processing-lead
     - tf2-ingot-lead-from-dust
   crafting:
-    - pyrotheum-ore-lead
-    - petrotheum-pyrotheum-ore-lead
-    - pyrotheum-dust-lead
-    - ingot-lead-from-nuggets
-    - ingot-lead-from-block
+    - tf2-pyrotheum-ore-lead
+    - tf2-petrotheum-pyrotheum-ore-lead
+    - tf2-pyrotheum-dust-lead
+    - tf2-ingot-lead-from-nuggets
+    - tf2-ingot-lead-from-block
   smelter:
     - ore-processing-sand-lead
     - ore-processing-rich-slag-lead
@@ -24,66 +24,66 @@ recipes:
     - dust-smelting-lead
     - recycling-gear-lead
     - recycling-plate-lead
-    - recycling-axe-lead
-    - recycling-bow-lead
-    - recycling-fishing-rod-lead
-    - recycling-hammer-lead
-    - recycling-hoe-lead
-    - recycling-pickaxe-lead
-    - recycling-shears-lead
-    - recycling-shield-lead
-    - recycling-shovel-lead
-    - recycling-sickle-lead
-    - recycling-sword-lead
-    - recycling-helmet-lead
-    - recycling-chestplate-lead
-    - recycling-leggings-lead
-    - recycling-boots-lead
+    - recycling-tool-pickaxe-lead
+    - recycling-tool-shovel-lead
+    - recycling-tool-axe-lead
+    - recycling-tool-hoe-lead
+    - recycling-tool-fishing-rod-lead
+    - recycling-tool-shears-lead
+    - recycling-tool-hammer-lead
+    - recycling-tool-sickle-lead
+    - recycling-weapon-sword-lead
+    - recycling-weapon-bow-lead
+    - recycling-weapon-shield-lead
+    - recycling-armor-helmet-lead
+    - recycling-armor-chestplate-lead
+    - recycling-armor-leggings-lead
+    - recycling-armor-boots-lead
 usage-recipes:
   crafting:
-    - petrotheum-ingot-lead
-    - nugget-lead
-    - gear-lead
-    - storage-block-lead
-    - multimeter
-    - device-lexicon
-    - device-factorizer
-    - dynamo-reactant
-    - energy-cell-basic
-    - flux-capacitor-basic
-    - augment-machine-charger-throughput
-    - augment-dynamo-efficiency
-    - fluxduct-basic
-    - fluiduct-basic-opaque
-    - fluiduct-basic-opaque-from-transparent
-    - fluiduct-hardened-opaque
-    - fluiduct-hardened-opaque-from-transparent
-    - fluiduct-energy-opaque-from-transparent
-    - fluiduct-super-opaque-from-transparent
-    - itemduct-opaque
-    - itemduct-opaque-from-transparent
-    - itemduct-fast-opaque-from-transparent
-    - itemduct-energy-opaque-from-transparent
-    - itemduct-energy-fast-opaque-from-transparent
-    - structuralduct
-    - viaduct-long-range
-    - redstone-relay
-    - fluxomagnet-basic
-    - axe-lead
-    - bow-lead
-    - fishing-rod-lead
-    - hammer-lead
-    - hoe-lead
-    - pickaxe-lead
-    - shears-lead
-    - shield-lead
-    - shovel-lead
-    - sickle-lead
-    - sword-lead
-    - helmet-lead
-    - chestplate-lead
-    - leggings-lead
-    - boots-lead
+    - tf2-petrotheum-ingot-lead
+    - tf2-nugget-lead
+    - tf2-gear-lead
+    - tf2-storage-block-lead
+    - tf2-multimeter
+    - te5-device-lexicon
+    - te5-device-factorizer
+    - te5-dynamo-reactant
+    - te5-energy-cell-basic
+    - te5-flux-capacitor-basic
+    - te5-augment-machine-charger-throughput
+    - te5-augment-dynamo-efficiency
+    - td2-fluxduct-basic
+    - td2-fluiduct-basic-opaque
+    - td2-fluiduct-basic-opaque-from-transparent
+    - td2-fluiduct-hardened-opaque
+    - td2-fluiduct-hardened-opaque-from-transparent
+    - td2-fluiduct-energy-opaque-from-transparent
+    - td2-fluiduct-super-opaque-from-transparent
+    - td2-itemduct-opaque
+    - td2-itemduct-opaque-from-transparent
+    - td2-itemduct-fast-opaque-from-transparent
+    - td2-itemduct-energy-opaque-from-transparent
+    - td2-itemduct-energy-fast-opaque-from-transparent
+    - td2-structuralduct
+    - td2-viaduct-long-range
+    - td2-redstone-relay
+    - ti-fluxomagnet-basic
+    - tf2-tool-pickaxe-lead
+    - tf2-tool-shovel-lead
+    - tf2-tool-axe-lead
+    - tf2-tool-hoe-lead
+    - tf2-tool-fishing-rod-lead
+    - tf2-tool-shears-lead
+    - tf2-tool-hammer-lead
+    - tf2-tool-sickle-lead
+    - tf2-weapon-sword-lead
+    - tf2-weapon-bow-lead
+    - tf2-weapon-shield-lead
+    - tf2-armor-helmet-lead
+    - tf2-armor-chestplate-lead
+    - tf2-armor-leggings-lead
+    - tf2-armor-boots-lead
   pulverizer:
     - dust-lead
   compactor:

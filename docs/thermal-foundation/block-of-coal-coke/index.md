@@ -8,12 +8,12 @@ image:
     file: thermal-foundation/storage-block-coal-coke.png
 recipes:
   crafting:
-    - storage-block-coal-coke
+    - tf2-storage-block-coal-coke
   redstone-furnace-pyrolysis:
     - storage-block-coal-coke
 usage-recipes:
   crafting:
-    - coal-coke-from-block
+    - tf2-coal-coke-from-block
 ---
 
 **Blocks of coal coke** are blocks made from [coal coke](/docs/thermal-foundation/coal-coke/).

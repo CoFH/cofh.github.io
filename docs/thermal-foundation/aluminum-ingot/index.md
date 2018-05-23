@@ -9,11 +9,11 @@ recipes:
     - tf2-ore-processing-aluminum
     - tf2-ingot-aluminum-from-dust
   crafting:
-    - pyrotheum-ore-aluminum
-    - petrotheum-pyrotheum-ore-aluminum
-    - pyrotheum-dust-aluminum
-    - ingot-aluminum-from-nuggets
-    - ingot-aluminum-from-block
+    - tf2-pyrotheum-ore-aluminum
+    - tf2-petrotheum-pyrotheum-ore-aluminum
+    - tf2-pyrotheum-dust-aluminum
+    - tf2-ingot-aluminum-from-nuggets
+    - tf2-ingot-aluminum-from-block
   smelter:
     - ore-processing-sand-aluminum
     - ore-processing-rich-slag-aluminum
@@ -21,42 +21,42 @@ recipes:
     - dust-smelting-aluminum
     - recycling-gear-aluminum
     - recycling-plate-aluminum
-    - recycling-axe-aluminum
-    - recycling-bow-aluminum
-    - recycling-fishing-rod-aluminum
-    - recycling-hammer-aluminum
-    - recycling-hoe-aluminum
-    - recycling-pickaxe-aluminum
-    - recycling-shears-aluminum
-    - recycling-shield-aluminum
-    - recycling-shovel-aluminum
-    - recycling-sickle-aluminum
-    - recycling-sword-aluminum
-    - recycling-helmet-aluminum
-    - recycling-chestplate-aluminum
-    - recycling-leggings-aluminum
-    - recycling-boots-aluminum
+    - recycling-tool-pickaxe-aluminum
+    - recycling-tool-shovel-aluminum
+    - recycling-tool-axe-aluminum
+    - recycling-tool-hoe-aluminum
+    - recycling-tool-fishing-rod-aluminum
+    - recycling-tool-shears-aluminum
+    - recycling-tool-hammer-aluminum
+    - recycling-tool-sickle-aluminum
+    - recycling-weapon-sword-aluminum
+    - recycling-weapon-bow-aluminum
+    - recycling-weapon-shield-aluminum
+    - recycling-armor-helmet-aluminum
+    - recycling-armor-chestplate-aluminum
+    - recycling-armor-leggings-aluminum
+    - recycling-armor-boots-aluminum
 usage-recipes:
   crafting:
-    - petrotheum-ingot-aluminum
-    - nugget-aluminum
-    - gear-aluminum
-    - storage-block-aluminum
-    - axe-aluminum
-    - bow-aluminum
-    - fishing-rod-aluminum
-    - hammer-aluminum
-    - hoe-aluminum
-    - pickaxe-aluminum
-    - shears-aluminum
-    - shield-aluminum
-    - shovel-aluminum
-    - sickle-aluminum
-    - sword-aluminum
-    - helmet-aluminum
-    - chestplate-aluminum
-    - leggings-aluminum
-    - boots-aluminum
+    - tf2-petrotheum-ingot-aluminum
+    - tf2-nugget-aluminum
+    - tf2-gear-aluminum
+    - tf2-storage-block-aluminum
+    - tf2-tool-pickaxe-aluminum
+    - tf2-tool-shovel-aluminum
+    - tf2-tool-axe-aluminum
+    - tf2-tool-hoe-aluminum
+    - tf2-tool-fishing-rod-aluminum
+    - tf2-tool-shears-aluminum
+    - tf2-tool-hammer-aluminum
+    - tf2-tool-sickle-aluminum
+    - tf2-weapon-sword-aluminum
+    - tf2-weapon-bow-aluminum
+    - tf2-weapon-shield-aluminum
+    - tf2-armor-helmet-aluminum
+    - tf2-armor-chestplate-aluminum
+    - tf2-armor-leggings-aluminum
+    - tf2-armor-boots-aluminum
   pulverizer:
     - dust-aluminum
   compactor:

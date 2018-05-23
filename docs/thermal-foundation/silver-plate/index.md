@@ -9,9 +9,9 @@ recipes:
     - plate-silver
 usage-recipes:
   crafting:
-    - augment-machine-furnace-food
-    - augment-machine-charger-throughput
-    - augment-machine-charger-wireless
+    - te5-augment-machine-furnace-food
+    - te5-augment-machine-charger-throughput
+    - te5-augment-machine-charger-wireless
   smelter:
     - recycling-plate-silver
 ---

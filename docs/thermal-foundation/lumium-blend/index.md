@@ -6,7 +6,7 @@ redirect_from:
   - /docs/lumium-blend/
 recipes:
   crafting:
-    - dust-lumium
+    - tf2-dust-lumium
   pulverizer:
     - dust-lumium
 usage-recipes:

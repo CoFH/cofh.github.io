@@ -12,11 +12,11 @@ recipes:
     - tf2-ore-processing-copper
     - tf2-ingot-copper-from-dust
   crafting:
-    - pyrotheum-ore-copper
-    - petrotheum-pyrotheum-ore-copper
-    - pyrotheum-dust-copper
-    - ingot-copper-from-nuggets
-    - ingot-copper-from-block
+    - tf2-pyrotheum-ore-copper
+    - tf2-petrotheum-pyrotheum-ore-copper
+    - tf2-pyrotheum-dust-copper
+    - tf2-ingot-copper-from-nuggets
+    - tf2-ingot-copper-from-block
   smelter:
     - ore-processing-sand-copper
     - ore-processing-rich-slag-copper
@@ -24,63 +24,63 @@ recipes:
     - dust-smelting-copper
     - recycling-gear-copper
     - recycling-plate-copper
-    - recycling-axe-copper
-    - recycling-bow-copper
-    - recycling-fishing-rod-copper
-    - recycling-hammer-copper
-    - recycling-hoe-copper
-    - recycling-pickaxe-copper
-    - recycling-shears-copper
-    - recycling-shield-copper
-    - recycling-shovel-copper
-    - recycling-sickle-copper
-    - recycling-sword-copper
-    - recycling-helmet-copper
-    - recycling-chestplate-copper
-    - recycling-leggings-copper
-    - recycling-boots-copper
+    - recycling-tool-pickaxe-copper
+    - recycling-tool-shovel-copper
+    - recycling-tool-axe-copper
+    - recycling-tool-hoe-copper
+    - recycling-tool-fishing-rod-copper
+    - recycling-tool-shears-copper
+    - recycling-tool-hammer-copper
+    - recycling-tool-sickle-copper
+    - recycling-weapon-sword-copper
+    - recycling-weapon-bow-copper
+    - recycling-weapon-shield-copper
+    - recycling-armor-helmet-copper
+    - recycling-armor-chestplate-copper
+    - recycling-armor-leggings-copper
+    - recycling-armor-boots-copper
 usage-recipes:
   crafting:
-    - petrotheum-ingot-copper
-    - nugget-copper
-    - gear-copper
-    - gear-iron-using-copper
-    - drill-head
-    - saw-blade
-    - storage-block-copper
-    - multimeter
-    - device-heat-sink
-    - device-tapper
-    - device-fluid-buffer
-    - dynamo-steam
-    - flux-capacitor-basic
-    - portable-tank-basic
-    - reservoir-basic
-    - reservoir-hardened
-    - augment-machine-crafter-tank
-    - augment-dynamo-coil-duct
-    - fluiduct-basic
-    - fluiduct-basic-opaque
-    - watering-can-basic
-    - fluxbore-hardened
-    - fluxsaw-hardened
-    - hypoinfuser-basic
-    - alchemical-quiver-basic
-    - axe-copper
-    - bow-copper
-    - fishing-rod-copper
-    - hammer-copper
-    - hoe-copper
-    - pickaxe-copper
-    - shears-copper
-    - shield-copper
-    - shovel-copper
-    - sickle-copper
-    - sword-copper
-    - helmet-copper
-    - chestplate-copper
-    - leggings-copper
-    - boots-copper
+    - tf2-petrotheum-ingot-copper
+    - tf2-nugget-copper
+    - tf2-gear-copper
+    - tf2-gear-iron-using-copper
+    - tf2-drill-head
+    - tf2-saw-blade
+    - tf2-storage-block-copper
+    - tf2-multimeter
+    - te5-device-heat-sink
+    - te5-device-tapper
+    - te5-device-fluid-buffer
+    - te5-dynamo-steam
+    - te5-flux-capacitor-basic
+    - te5-portable-tank-basic
+    - te5-reservoir-basic
+    - te5-reservoir-hardened
+    - te5-augment-machine-crafter-tank
+    - te5-augment-dynamo-coil-duct
+    - td2-fluiduct-basic
+    - td2-fluiduct-basic-opaque
+    - tc-watering-can-basic
+    - ti-fluxbore-hardened
+    - ti-fluxsaw-hardened
+    - ti-hypoinfuser-basic
+    - ti-alchemical-quiver-basic
+    - tf2-tool-pickaxe-copper
+    - tf2-tool-shovel-copper
+    - tf2-tool-axe-copper
+    - tf2-tool-hoe-copper
+    - tf2-tool-fishing-rod-copper
+    - tf2-tool-shears-copper
+    - tf2-tool-hammer-copper
+    - tf2-tool-sickle-copper
+    - tf2-weapon-sword-copper
+    - tf2-weapon-bow-copper
+    - tf2-weapon-shield-copper
+    - tf2-armor-helmet-copper
+    - tf2-armor-chestplate-copper
+    - tf2-armor-leggings-copper
+    - tf2-armor-boots-copper
   pulverizer:
     - dust-copper
   smelter:

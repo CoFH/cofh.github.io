@@ -6,17 +6,17 @@ redirect_from:
   - /docs/electrum-gear/
 recipes:
   crafting:
-    - gear-electrum
+    - tf2-gear-electrum
   compactor-gear:
     - gear-electrum
 usage-recipes:
   crafting:
-    - upgrade-kit-signalum
-    - dynamo-enervation
-    - augment-machine-charger-throughput
-    - augment-machine-charger-wireless
-    - fluxbore-reinforced
-    - fluxsaw-reinforced
+    - tf2-upgrade-kit-signalum
+    - te5-dynamo-enervation
+    - te5-augment-machine-charger-throughput
+    - te5-augment-machine-charger-wireless
+    - ti-fluxbore-reinforced
+    - ti-fluxsaw-reinforced
   smelter:
     - recycling-gear-electrum
 ---

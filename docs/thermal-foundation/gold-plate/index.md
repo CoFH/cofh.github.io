@@ -9,7 +9,7 @@ recipes:
     - plate-gold
 usage-recipes:
   crafting:
-    - augment-dynamo-enervation-enchant
+    - te5-augment-dynamo-enervation-enchant
   smelter:
     - recycling-plate-gold
 ---

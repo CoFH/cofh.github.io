@@ -9,32 +9,32 @@ redirect_from:
   - /docs/tf-pickaxes/
 recipes:
   crafting:
-    - pickaxe-copper
-    - pickaxe-tin
-    - pickaxe-silver
-    - pickaxe-lead
-    - pickaxe-aluminum
-    - pickaxe-nickel
-    - pickaxe-platinum
-    - pickaxe-steel
-    - pickaxe-electrum
-    - pickaxe-invar
-    - pickaxe-bronze
-    - pickaxe-constantan
+    - tf2-tool-pickaxe-copper
+    - tf2-tool-pickaxe-tin
+    - tf2-tool-pickaxe-silver
+    - tf2-tool-pickaxe-lead
+    - tf2-tool-pickaxe-aluminum
+    - tf2-tool-pickaxe-nickel
+    - tf2-tool-pickaxe-platinum
+    - tf2-tool-pickaxe-steel
+    - tf2-tool-pickaxe-electrum
+    - tf2-tool-pickaxe-invar
+    - tf2-tool-pickaxe-bronze
+    - tf2-tool-pickaxe-constantan
 usage-recipes:
   smelter:
-    - recycling-pickaxe-copper
-    - recycling-pickaxe-tin
-    - recycling-pickaxe-silver
-    - recycling-pickaxe-lead
-    - recycling-pickaxe-aluminum
-    - recycling-pickaxe-nickel
-    - recycling-pickaxe-platinum
-    - recycling-pickaxe-steel
-    - recycling-pickaxe-electrum
-    - recycling-pickaxe-invar
-    - recycling-pickaxe-bronze
-    - recycling-pickaxe-constantan
+    - recycling-tool-pickaxe-copper
+    - recycling-tool-pickaxe-tin
+    - recycling-tool-pickaxe-silver
+    - recycling-tool-pickaxe-lead
+    - recycling-tool-pickaxe-aluminum
+    - recycling-tool-pickaxe-nickel
+    - recycling-tool-pickaxe-platinum
+    - recycling-tool-pickaxe-steel
+    - recycling-tool-pickaxe-electrum
+    - recycling-tool-pickaxe-invar
+    - recycling-tool-pickaxe-bronze
+    - recycling-tool-pickaxe-constantan
 ---
 
 ![Pickaxes](/assets/images/thermal-foundation/pickaxes.gif){:style="height: 128px"}

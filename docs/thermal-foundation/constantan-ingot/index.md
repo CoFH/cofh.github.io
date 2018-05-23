@@ -8,8 +8,8 @@ recipes:
   smelting:
     - tf2-ingot-constantan-from-dust
   crafting:
-    - ingot-constantan-from-nuggets
-    - ingot-constantan-from-block
+    - tf2-ingot-constantan-from-nuggets
+    - tf2-ingot-constantan-from-block
   smelter:
     - dust-smelting-constantan
     - ingot-constantan-from-dust-copper-and-dust-nickel
@@ -18,44 +18,44 @@ recipes:
     - ingot-constantan-from-ingot-copper-and-ingot-nickel
     - recycling-gear-constantan
     - recycling-plate-constantan
-    - recycling-axe-constantan
-    - recycling-bow-constantan
-    - recycling-fishing-rod-constantan
-    - recycling-hammer-constantan
-    - recycling-hoe-constantan
-    - recycling-pickaxe-constantan
-    - recycling-shears-constantan
-    - recycling-shield-constantan
-    - recycling-shovel-constantan
-    - recycling-sickle-constantan
-    - recycling-sword-constantan
-    - recycling-helmet-constantan
-    - recycling-chestplate-constantan
-    - recycling-leggings-constantan
-    - recycling-boots-constantan
+    - recycling-tool-pickaxe-constantan
+    - recycling-tool-shovel-constantan
+    - recycling-tool-axe-constantan
+    - recycling-tool-hoe-constantan
+    - recycling-tool-fishing-rod-constantan
+    - recycling-tool-shears-constantan
+    - recycling-tool-hammer-constantan
+    - recycling-tool-sickle-constantan
+    - recycling-weapon-sword-constantan
+    - recycling-weapon-bow-constantan
+    - recycling-weapon-shield-constantan
+    - recycling-armor-helmet-constantan
+    - recycling-armor-chestplate-constantan
+    - recycling-armor-leggings-constantan
+    - recycling-armor-boots-constantan
 usage-recipes:
   crafting:
-    - nugget-constantan
-    - gear-constantan
-    - storage-block-constantan
-    - machine-centrifuge
-    - device-mob-catcher
-    - dynamo-numismatic
-    - axe-constantan
-    - bow-constantan
-    - fishing-rod-constantan
-    - hammer-constantan
-    - hoe-constantan
-    - pickaxe-constantan
-    - shears-constantan
-    - shield-constantan
-    - shovel-constantan
-    - sickle-constantan
-    - sword-constantan
-    - helmet-constantan
-    - chestplate-constantan
-    - leggings-constantan
-    - boots-constantan
+    - tf2-nugget-constantan
+    - tf2-gear-constantan
+    - tf2-storage-block-constantan
+    - te5-machine-centrifuge
+    - te5-device-mob-catcher
+    - te5-dynamo-numismatic
+    - tf2-tool-pickaxe-constantan
+    - tf2-tool-shovel-constantan
+    - tf2-tool-axe-constantan
+    - tf2-tool-hoe-constantan
+    - tf2-tool-fishing-rod-constantan
+    - tf2-tool-shears-constantan
+    - tf2-tool-hammer-constantan
+    - tf2-tool-sickle-constantan
+    - tf2-weapon-sword-constantan
+    - tf2-weapon-bow-constantan
+    - tf2-weapon-shield-constantan
+    - tf2-armor-helmet-constantan
+    - tf2-armor-chestplate-constantan
+    - tf2-armor-leggings-constantan
+    - tf2-armor-boots-constantan
   pulverizer:
     - dust-constantan
   compactor:

@@ -12,8 +12,8 @@ redirect_from:
   - /docs/florb/
 recipes:
   crafting:
-    - florb-using-slime
-    - florb-using-rosin
+    - te5-florb-using-slime
+    - te5-florb-using-rosin
 ---
 
 A **florb** ('fluid orb') is a throwable item that contains a fluid.

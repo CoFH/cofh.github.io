@@ -9,7 +9,7 @@ redirect_from:
   - /docs/enervation-dynamo/
 recipes:
   crafting:
-    - dynamo-enervation
+    - te5-dynamo-enervation
 augments:
   - dynamo-power
   - dynamo-efficiency

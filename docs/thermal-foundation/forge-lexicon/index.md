@@ -8,10 +8,10 @@ redirect_from:
   - /docs/forge-lexicon/
 recipes:
   crafting:
-    - forge-lexicon
+    - tf2-forge-lexicon
 usage-recipes:
   crafting:
-    - device-lexicon
+    - te5-device-lexicon
 ---
 
 ![Forge Lexicon](/assets/images/thermal-foundation/forge-lexicon.png){:style="height: 128px"}

@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-pyroclastic-injection/
 recipes:
   crafting:
-    - augment-machine-extruder-no-water
+    - te5-augment-machine-extruder-no-water
 ---
 
 A **pyroclastic injection** [augment](/docs/thermal-expansion/augments/) allows for an [igneous

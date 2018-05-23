@@ -12,9 +12,9 @@ recipes:
     - naphtha-from-crude-oil
 usage-recipes:
   crafting:
-    - torch-using-tar
-    - piston-sticky-using-tar
-    - lead-using-tar
+    - tf2-torch-using-tar
+    - tf2-piston-sticky-using-tar
+    - tf2-lead-using-tar
   crucible:
     - creosote-oil-from-tar
 ---

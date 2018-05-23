@@ -9,10 +9,10 @@ redirect_from:
   - /docs/obsidian-rod/
 recipes:
   crafting:
-    - obsidian-rod
+    - ra-obsidian-rod
 usage-recipes:
   crafting:
-    - obsidian-rod-flux-infused
+    - ra-obsidian-rod-flux-infused
 ---
 
 **Obsidian rods** are crafting materials used to make flux-infused tools and

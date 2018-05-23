@@ -6,28 +6,28 @@ redirect_from:
   - /docs/copper-gear/
 recipes:
   crafting:
-    - gear-copper
+    - tf2-gear-copper
   compactor-gear:
     - gear-copper
 usage-recipes:
   crafting:
-    - machine-furnace
-    - machine-pulverizer
-    - machine-sawmill
-    - machine-smelter
-    - machine-insolator
-    - machine-compactor
-    - machine-crucible
-    - machine-transposer
-    - machine-charger
-    - machine-centrifuge
-    - machine-crafter
-    - machine-precipitator
-    - machine-extruder
-    - frame-device
-    - dynamo-steam
-    - augment-machine-furnace-food
-    - augment-machine-extruder-no-water
+    - te5-machine-furnace
+    - te5-machine-pulverizer
+    - te5-machine-sawmill
+    - te5-machine-smelter
+    - te5-machine-insolator
+    - te5-machine-compactor
+    - te5-machine-crucible
+    - te5-machine-transposer
+    - te5-machine-charger
+    - te5-machine-centrifuge
+    - te5-machine-crafter
+    - te5-machine-precipitator
+    - te5-machine-extruder
+    - te5-frame-device
+    - te5-dynamo-steam
+    - te5-augment-machine-furnace-food
+    - te5-augment-machine-extruder-no-water
   smelter:
     - recycling-gear-copper
 ---

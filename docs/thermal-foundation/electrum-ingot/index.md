@@ -10,8 +10,8 @@ recipes:
   smelting:
     - tf2-ingot-electrum-from-dust
   crafting:
-    - ingot-electrum-from-nuggets
-    - ingot-electrum-from-block
+    - tf2-ingot-electrum-from-nuggets
+    - tf2-ingot-electrum-from-block
   smelter:
     - dust-smelting-electrum
     - ingot-electrum-from-dust-gold-and-dust-silver
@@ -20,66 +20,66 @@ recipes:
     - ingot-electrum-from-ingot-gold-and-ingot-silver
     - recycling-gear-electrum
     - recycling-plate-electrum
-    - recycling-axe-electrum
-    - recycling-bow-electrum
-    - recycling-fishing-rod-electrum
-    - recycling-hammer-electrum
-    - recycling-hoe-electrum
-    - recycling-pickaxe-electrum
-    - recycling-shears-electrum
-    - recycling-shield-electrum
-    - recycling-shovel-electrum
-    - recycling-sickle-electrum
-    - recycling-sword-electrum
-    - recycling-helmet-electrum
-    - recycling-chestplate-electrum
-    - recycling-leggings-electrum
-    - recycling-boots-electrum
+    - recycling-tool-pickaxe-electrum
+    - recycling-tool-shovel-electrum
+    - recycling-tool-axe-electrum
+    - recycling-tool-hoe-electrum
+    - recycling-tool-fishing-rod-electrum
+    - recycling-tool-shears-electrum
+    - recycling-tool-hammer-electrum
+    - recycling-tool-sickle-electrum
+    - recycling-weapon-sword-electrum
+    - recycling-weapon-bow-electrum
+    - recycling-weapon-shield-electrum
+    - recycling-armor-helmet-electrum
+    - recycling-armor-chestplate-electrum
+    - recycling-armor-leggings-electrum
+    - recycling-armor-boots-electrum
 usage-recipes:
   crafting:
-    - nugget-electrum
-    - gear-electrum
-    - storage-block-electrum
-    - redstone-coil-electrum
-    - upgrade-kit-reinforced
-    - dynamo-enervation
-    - flux-capacitor-reinforced
-    - reservoir-reinforced
-    - reservoir-signalum
-    - satchel-reinforced
-    - augment-dynamo-throttle
-    - fluxduct-reinforced-empty
-    - fluxduct-super-empty
-    - fluiduct-energy-three
-    - itemduct-energy-three
-    - itemduct-energy-fast-three
-    - servo-reinforced
-    - servo-reinforced-upgrade
-    - filter-reinforced
-    - filter-reinforced-upgrade
-    - retriever-reinforced
-    - retriever-reinforced-upgrade
-    - watering-can-reinforced
-    - fluxbore-reinforced
-    - fluxsaw-reinforced
-    - fluxomagnet-reinforced
-    - hypoinfuser-reinforced
-    - alchemical-quiver-reinforced
-    - axe-electrum
-    - bow-electrum
-    - fishing-rod-electrum
-    - hammer-electrum
-    - hoe-electrum
-    - pickaxe-electrum
-    - shears-electrum
-    - shield-electrum
-    - shovel-electrum
-    - sickle-electrum
-    - sword-electrum
-    - helmet-electrum
-    - chestplate-electrum
-    - leggings-electrum
-    - boots-electrum
+    - tf2-nugget-electrum
+    - tf2-gear-electrum
+    - tf2-storage-block-electrum
+    - tf2-redstone-coil-electrum
+    - tf2-upgrade-kit-reinforced
+    - te5-dynamo-enervation
+    - te5-flux-capacitor-reinforced
+    - te5-reservoir-reinforced
+    - te5-reservoir-signalum
+    - te5-satchel-reinforced
+    - te5-augment-dynamo-throttle
+    - td2-fluxduct-reinforced-empty
+    - td2-fluxduct-super-empty
+    - td2-fluiduct-energy-three
+    - td2-itemduct-energy-three
+    - td2-itemduct-energy-fast-three
+    - td2-servo-reinforced
+    - td2-servo-reinforced-upgrade
+    - td2-filter-reinforced
+    - td2-filter-reinforced-upgrade
+    - td2-retriever-reinforced
+    - td2-retriever-reinforced-upgrade
+    - tc-watering-can-reinforced
+    - ti-fluxbore-reinforced
+    - ti-fluxsaw-reinforced
+    - ti-fluxomagnet-reinforced
+    - ti-hypoinfuser-reinforced
+    - ti-alchemical-quiver-reinforced
+    - tf2-tool-pickaxe-electrum
+    - tf2-tool-shovel-electrum
+    - tf2-tool-axe-electrum
+    - tf2-tool-hoe-electrum
+    - tf2-tool-fishing-rod-electrum
+    - tf2-tool-shears-electrum
+    - tf2-tool-hammer-electrum
+    - tf2-tool-sickle-electrum
+    - tf2-weapon-sword-electrum
+    - tf2-weapon-bow-electrum
+    - tf2-weapon-shield-electrum
+    - tf2-armor-helmet-electrum
+    - tf2-armor-chestplate-electrum
+    - tf2-armor-leggings-electrum
+    - tf2-armor-boots-electrum
   pulverizer:
     - dust-electrum
   compactor:

@@ -9,15 +9,15 @@ redirect_from:
   - /docs/fluxed-electrum-blend/
 recipes:
   crafting:
-    - dust-fluxed-electrum-using-electrum
-    - dust-fluxed-electrum-using-gold-and-silver
+    - ra-dust-fluxed-electrum-using-electrum
+    - ra-dust-fluxed-electrum-using-gold-and-silver
   transposer-fill:
-    - dust-fluxed-electrum
+    - ra-dust-fluxed-electrum
   pulverizer:
     - dust-fluxed-electrum
 usage-recipes:
   smelter:
-    - dust-smelting-fluxed-electrum
+    - ra-dust-smelting-fluxed-electrum
 ---
 
 **Fluxed electrum blend** is a raw material. It is the dust form of [fluxed

@@ -7,7 +7,7 @@ redirect_from:
   - /docs/blizz-powder/
 recipes:
   crafting:
-    - blizz-powder
+    - tf2-blizz-powder
   pulverizer:
     - blizz-powder
   transposer-fill:
@@ -16,7 +16,7 @@ recipes:
     - dust-cryotheum
 usage-recipes:
   crafting:
-    - dust-cryotheum
+    - tf2-dust-cryotheum
   compactor:
     - blizz-rod-from-powder
 ---

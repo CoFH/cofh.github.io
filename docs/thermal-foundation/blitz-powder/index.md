@@ -7,7 +7,7 @@ redirect_from:
   - /docs/blitz-powder/
 recipes:
   crafting:
-    - blitz-powder
+    - tf2-blitz-powder
   pulverizer:
     - blitz-powder
   transposer-fill:
@@ -16,7 +16,7 @@ recipes:
     - dust-aerotheum
 usage-recipes:
   crafting:
-    - dust-aerotheum
+    - tf2-dust-aerotheum
   compactor:
     - blitz-rod-from-powder
 ---

@@ -9,19 +9,19 @@ redirect_from:
   - /docs/flux-infused-obsidian-rod/
 recipes:
   crafting:
-    - obsidian-rod-flux-infused
+    - ra-obsidian-rod-flux-infused
 usage-recipes:
   crafting:
-    - flux-infused-pickaxe
-    - flux-infused-shovel
-    - flux-infused-axe
-    - flux-infused-fishing-rod
-    - flux-infused-hammer
-    - flux-infused-sickle
-    - flux-infused-wrench
-    - flux-infused-sword
-    - flux-infused-bow
-    - flux-infused-battlewrench
+    - ra-tool-pickaxe
+    - ra-tool-shovel
+    - ra-tool-axe
+    - ra-tool-fishing-rod
+    - ra-tool-hammer
+    - ra-tool-sickle
+    - ra-tool-wrench
+    - ra-weapon-sword
+    - ra-weapon-bow
+    - ra-weapon-battlewrench
 ---
 
 **Flux-infused obsidian rods** are crafting materials used to make flux-infused

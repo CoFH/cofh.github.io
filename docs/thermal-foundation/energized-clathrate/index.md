@@ -9,7 +9,7 @@ recipes:
     - fluid-ore-processing-glowstone
 usage-recipes:
   crafting:
-    - glowstone-dust-from-clathrate
+    - tf2-glowstone-dust-from-clathrate
   crucible:
     - glowstone-from-clathrate
   transposer-fill:

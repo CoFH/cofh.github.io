@@ -6,7 +6,7 @@ redirect_from:
   - /docs/bronze-blend/
 recipes:
   crafting:
-    - dust-bronze
+    - tf2-dust-bronze
   pulverizer:
     - dust-bronze
 usage-recipes:

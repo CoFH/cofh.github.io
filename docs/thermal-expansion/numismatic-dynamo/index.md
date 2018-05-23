@@ -8,7 +8,7 @@ image:
     file: thermal-expansion/dynamo-numismatic-rf.png
 recipes:
   crafting:
-    - dynamo-numismatic
+    - te5-dynamo-numismatic
 augments:
   - dynamo-power
   - dynamo-efficiency

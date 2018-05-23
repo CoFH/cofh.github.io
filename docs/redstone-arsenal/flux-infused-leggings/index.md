@@ -8,7 +8,7 @@ redirect_from:
   - /docs/flux-infused-leggings/
 recipes:
   crafting:
-    - flux-infused-leggings
+    - ra-armor-leggings
 ---
 
 **Flux-infused leggings** are powerful

@@ -13,11 +13,11 @@ recipes:
     - tf2-ore-processing-nickel
     - tf2-ingot-nickel-from-dust
   crafting:
-    - pyrotheum-ore-nickel
-    - petrotheum-pyrotheum-ore-nickel
-    - pyrotheum-dust-nickel
-    - ingot-nickel-from-nuggets
-    - ingot-nickel-from-block
+    - tf2-pyrotheum-ore-nickel
+    - tf2-petrotheum-pyrotheum-ore-nickel
+    - tf2-pyrotheum-dust-nickel
+    - tf2-ingot-nickel-from-nuggets
+    - tf2-ingot-nickel-from-block
   smelter:
     - ore-processing-sand-nickel
     - ore-processing-rich-slag-nickel
@@ -26,42 +26,42 @@ recipes:
     - dust-smelting-nickel
     - recycling-gear-nickel
     - recycling-plate-nickel
-    - recycling-axe-nickel
-    - recycling-bow-nickel
-    - recycling-fishing-rod-nickel
-    - recycling-hammer-nickel
-    - recycling-hoe-nickel
-    - recycling-pickaxe-nickel
-    - recycling-shears-nickel
-    - recycling-shield-nickel
-    - recycling-shovel-nickel
-    - recycling-sickle-nickel
-    - recycling-sword-nickel
-    - recycling-helmet-nickel
-    - recycling-chestplate-nickel
-    - recycling-leggings-nickel
-    - recycling-boots-nickel
+    - recycling-tool-pickaxe-nickel
+    - recycling-tool-shovel-nickel
+    - recycling-tool-axe-nickel
+    - recycling-tool-hoe-nickel
+    - recycling-tool-fishing-rod-nickel
+    - recycling-tool-shears-nickel
+    - recycling-tool-hammer-nickel
+    - recycling-tool-sickle-nickel
+    - recycling-weapon-sword-nickel
+    - recycling-weapon-bow-nickel
+    - recycling-weapon-shield-nickel
+    - recycling-armor-helmet-nickel
+    - recycling-armor-chestplate-nickel
+    - recycling-armor-leggings-nickel
+    - recycling-armor-boots-nickel
 usage-recipes:
   crafting:
-    - petrotheum-ingot-nickel
-    - nugget-nickel
-    - gear-nickel
-    - storage-block-nickel
-    - axe-nickel
-    - bow-nickel
-    - fishing-rod-nickel
-    - hammer-nickel
-    - hoe-nickel
-    - pickaxe-nickel
-    - shears-nickel
-    - shield-nickel
-    - shovel-nickel
-    - sickle-nickel
-    - sword-nickel
-    - helmet-nickel
-    - chestplate-nickel
-    - leggings-nickel
-    - boots-nickel
+    - tf2-petrotheum-ingot-nickel
+    - tf2-nugget-nickel
+    - tf2-gear-nickel
+    - tf2-storage-block-nickel
+    - tf2-tool-pickaxe-nickel
+    - tf2-tool-shovel-nickel
+    - tf2-tool-axe-nickel
+    - tf2-tool-hoe-nickel
+    - tf2-tool-fishing-rod-nickel
+    - tf2-tool-shears-nickel
+    - tf2-tool-hammer-nickel
+    - tf2-tool-sickle-nickel
+    - tf2-weapon-sword-nickel
+    - tf2-weapon-bow-nickel
+    - tf2-weapon-shield-nickel
+    - tf2-armor-helmet-nickel
+    - tf2-armor-chestplate-nickel
+    - tf2-armor-leggings-nickel
+    - tf2-armor-boots-nickel
   pulverizer:
     - dust-nickel
   smelter:

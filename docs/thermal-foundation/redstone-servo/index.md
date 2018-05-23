@@ -8,39 +8,39 @@ redirect_from:
   - /docs/redstone-servo/
 recipes:
   crafting:
-    - redstone-servo
+    - tf2-redstone-servo
 usage-recipes:
   crafting:
-    - device-water-gen
-    - device-nullifier
-    - device-heat-sink
-    - device-tapper
-    - device-fisher
-    - device-item-buffer
-    - device-fluid-buffer
-    - device-lexicon
-    - device-xp-collector
-    - device-diffuser
-    - device-factorizer
-    - device-mob-catcher
-    - portable-tank-basic
-    - reservoir-basic
-    - cache-basic
-    - augment-machine-secondary
-    - augment-machine-furnace-pyrolysis
-    - augment-machine-pulverizer-petrotheum
-    - augment-machine-sawmill-tapper
-    - augment-machine-smelter-flux
-    - augment-machine-insolator-fertilizer
-    - augment-machine-insolator-tree
-    - augment-machine-compactor-coin
-    - augment-machine-compactor-gear
-    - augment-machine-charger-wireless
-    - augment-machine-centrifuge-mobs
-    - augment-machine-crafter-input
-    - augment-machine-crafter-tank
-    - augment-machine-brewer-reagent
-    - augment-machine-extruder-no-water
+    - te5-device-water-gen
+    - te5-device-nullifier
+    - te5-device-heat-sink
+    - te5-device-tapper
+    - te5-device-fisher
+    - te5-device-item-buffer
+    - te5-device-fluid-buffer
+    - te5-device-lexicon
+    - te5-device-xp-collector
+    - te5-device-diffuser
+    - te5-device-factorizer
+    - te5-device-mob-catcher
+    - te5-portable-tank-basic
+    - te5-reservoir-basic
+    - te5-cache-basic
+    - te5-augment-machine-secondary
+    - te5-augment-machine-furnace-pyrolysis
+    - te5-augment-machine-pulverizer-petrotheum
+    - te5-augment-machine-sawmill-tapper
+    - te5-augment-machine-smelter-flux
+    - te5-augment-machine-insolator-fertilizer
+    - te5-augment-machine-insolator-tree
+    - te5-augment-machine-compactor-coin
+    - te5-augment-machine-compactor-gear
+    - te5-augment-machine-charger-wireless
+    - te5-augment-machine-centrifuge-mobs
+    - te5-augment-machine-crafter-input
+    - te5-augment-machine-crafter-tank
+    - te5-augment-machine-brewer-reagent
+    - te5-augment-machine-extruder-no-water
 ---
 
 ![Redstone servo](/assets/images/thermal-foundation/redstone-servo.png){:style="height: 128px"}

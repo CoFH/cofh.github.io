@@ -6,8 +6,8 @@ redirect_from:
   - /docs/pulverized-lead/
 recipes:
   crafting:
-    - petrotheum-ingot-lead
-    - petrotheum-ore-lead
+    - tf2-petrotheum-ingot-lead
+    - tf2-petrotheum-ore-lead
   pulverizer:
     - dust-lead
     - ore-processing-lead
@@ -16,8 +16,8 @@ recipes:
     - dust-enderium
 usage-recipes:
   crafting:
-    - pyrotheum-dust-lead
-    - dust-enderium
+    - tf2-pyrotheum-dust-lead
+    - tf2-dust-enderium
   smelting:
     - tf2-ingot-lead-from-dust
   smelter:

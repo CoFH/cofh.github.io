@@ -8,10 +8,10 @@ image:
     file: thermal-foundation/drill-head.png
 recipes:
   crafting:
-    - drill-head
+    - tf2-drill-head
 usage-recipes:
   crafting:
-    - fluxbore-basic
+    - ti-fluxbore-basic
 ---
 
 **Drill heads** are crafting materials used to craft

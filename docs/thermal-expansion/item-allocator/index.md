@@ -6,7 +6,7 @@ redirect_from:
   - /docs/item-allocator/
 recipes:
   crafting:
-    - device-item-buffer
+    - te5-device-item-buffer
 ---
 
 ![Item allocator](/assets/images/thermal-expansion/item-allocator.png){:style="height: 128px"}

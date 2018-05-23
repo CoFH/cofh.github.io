@@ -18,11 +18,11 @@ image:
     file: thermal-innovation/fluxsaw-creative.png
 recipes:
   crafting:
-    - fluxsaw-basic
-    - fluxsaw-hardened
-    - fluxsaw-reinforced
-    - fluxsaw-signalum
-    - fluxsaw-resonant
+    - ti-fluxsaw-basic
+    - ti-fluxsaw-hardened
+    - ti-fluxsaw-reinforced
+    - ti-fluxsaw-signalum
+    - ti-fluxsaw-resonant
 ---
 
 A **fluxsaw**, or **saw** for short, is a tool that cuts blocks using [Redstone

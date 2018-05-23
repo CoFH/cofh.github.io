@@ -10,8 +10,8 @@ recipes:
   smelting:
     - tf2-ingot-invar-from-dust
   crafting:
-    - ingot-invar-from-nuggets
-    - ingot-invar-from-block
+    - tf2-ingot-invar-from-nuggets
+    - tf2-ingot-invar-from-block
   smelter:
     - dust-smelting-invar
     - ingot-invar-from-dust-iron-and-dust-nickel
@@ -20,66 +20,66 @@ recipes:
     - ingot-invar-from-ingot-iron-and-ingot-nickel
     - recycling-gear-invar
     - recycling-plate-invar
-    - recycling-axe-invar
-    - recycling-bow-invar
-    - recycling-fishing-rod-invar
-    - recycling-hammer-invar
-    - recycling-hoe-invar
-    - recycling-pickaxe-invar
-    - recycling-shears-invar
-    - recycling-shield-invar
-    - recycling-shovel-invar
-    - recycling-sickle-invar
-    - recycling-sword-invar
-    - recycling-helmet-invar
-    - recycling-chestplate-invar
-    - recycling-leggings-invar
-    - recycling-boots-invar
+    - recycling-tool-pickaxe-invar
+    - recycling-tool-shovel-invar
+    - recycling-tool-axe-invar
+    - recycling-tool-hoe-invar
+    - recycling-tool-fishing-rod-invar
+    - recycling-tool-shears-invar
+    - recycling-tool-hammer-invar
+    - recycling-tool-sickle-invar
+    - recycling-weapon-sword-invar
+    - recycling-weapon-bow-invar
+    - recycling-weapon-shield-invar
+    - recycling-armor-helmet-invar
+    - recycling-armor-chestplate-invar
+    - recycling-armor-leggings-invar
+    - recycling-armor-boots-invar
 usage-recipes:
   crafting:
-    - nugget-invar
-    - gear-invar
-    - storage-block-invar
-    - upgrade-kit-hardened
-    - machine-smelter
-    - machine-precipitator
-    - machine-extruder
-    - device-heat-sink
-    - dynamo-magmatic
-    - flux-capacitor-hardened
-    - reservoir-hardened
-    - reservoir-reinforced
-    - satchel-hardened
-    - fluxduct-hardened-three
-    - fluiduct-hardened
-    - fluiduct-hardened-opaque
-    - servo-hardened
-    - servo-hardened-upgrade
-    - filter-hardened
-    - filter-hardened-upgrade
-    - retriever-hardened
-    - retriever-hardened-upgrade
-    - watering-can-hardened
-    - fluxbore-hardened
-    - fluxsaw-hardened
-    - fluxomagnet-hardened
-    - hypoinfuser-hardened
-    - alchemical-quiver-hardened
-    - axe-invar
-    - bow-invar
-    - fishing-rod-invar
-    - hammer-invar
-    - hoe-invar
-    - pickaxe-invar
-    - shears-invar
-    - shield-invar
-    - shovel-invar
-    - sickle-invar
-    - sword-invar
-    - helmet-invar
-    - chestplate-invar
-    - leggings-invar
-    - boots-invar
+    - tf2-nugget-invar
+    - tf2-gear-invar
+    - tf2-storage-block-invar
+    - tf2-upgrade-kit-hardened
+    - te5-machine-smelter
+    - te5-machine-precipitator
+    - te5-machine-extruder
+    - te5-device-heat-sink
+    - te5-dynamo-magmatic
+    - te5-flux-capacitor-hardened
+    - te5-reservoir-hardened
+    - te5-reservoir-reinforced
+    - te5-satchel-hardened
+    - td2-fluxduct-hardened-three
+    - td2-fluiduct-hardened
+    - td2-fluiduct-hardened-opaque
+    - td2-servo-hardened
+    - td2-servo-hardened-upgrade
+    - td2-filter-hardened
+    - td2-filter-hardened-upgrade
+    - td2-retriever-hardened
+    - td2-retriever-hardened-upgrade
+    - tc-watering-can-hardened
+    - ti-fluxbore-hardened
+    - ti-fluxsaw-hardened
+    - ti-fluxomagnet-hardened
+    - ti-hypoinfuser-hardened
+    - ti-alchemical-quiver-hardened
+    - tf2-tool-pickaxe-invar
+    - tf2-tool-shovel-invar
+    - tf2-tool-axe-invar
+    - tf2-tool-hoe-invar
+    - tf2-tool-fishing-rod-invar
+    - tf2-tool-shears-invar
+    - tf2-tool-hammer-invar
+    - tf2-tool-sickle-invar
+    - tf2-weapon-sword-invar
+    - tf2-weapon-bow-invar
+    - tf2-weapon-shield-invar
+    - tf2-armor-helmet-invar
+    - tf2-armor-chestplate-invar
+    - tf2-armor-leggings-invar
+    - tf2-armor-boots-invar
   pulverizer:
     - dust-invar
   compactor:

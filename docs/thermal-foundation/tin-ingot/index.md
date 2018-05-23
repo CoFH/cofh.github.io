@@ -11,11 +11,11 @@ recipes:
     - tf2-ore-processing-tin
     - tf2-ingot-tin-from-dust
   crafting:
-    - pyrotheum-ore-tin
-    - petrotheum-pyrotheum-ore-tin
-    - pyrotheum-dust-tin
-    - ingot-tin-from-nuggets
-    - ingot-tin-from-block
+    - tf2-pyrotheum-ore-tin
+    - tf2-petrotheum-pyrotheum-ore-tin
+    - tf2-pyrotheum-dust-tin
+    - tf2-ingot-tin-from-nuggets
+    - tf2-ingot-tin-from-block
   smelter:
     - ore-processing-sand-tin
     - ore-processing-rich-slag-tin
@@ -23,58 +23,58 @@ recipes:
     - dust-smelting-tin
     - recycling-gear-tin
     - recycling-plate-tin
-    - recycling-axe-tin
-    - recycling-bow-tin
-    - recycling-fishing-rod-tin
-    - recycling-hammer-tin
-    - recycling-hoe-tin
-    - recycling-pickaxe-tin
-    - recycling-shears-tin
-    - recycling-shield-tin
-    - recycling-shovel-tin
-    - recycling-sickle-tin
-    - recycling-sword-tin
-    - recycling-helmet-tin
-    - recycling-chestplate-tin
-    - recycling-leggings-tin
-    - recycling-boots-tin
+    - recycling-tool-pickaxe-tin
+    - recycling-tool-shovel-tin
+    - recycling-tool-axe-tin
+    - recycling-tool-hoe-tin
+    - recycling-tool-fishing-rod-tin
+    - recycling-tool-shears-tin
+    - recycling-tool-hammer-tin
+    - recycling-tool-sickle-tin
+    - recycling-weapon-sword-tin
+    - recycling-weapon-bow-tin
+    - recycling-weapon-shield-tin
+    - recycling-armor-helmet-tin
+    - recycling-armor-chestplate-tin
+    - recycling-armor-leggings-tin
+    - recycling-armor-boots-tin
 usage-recipes:
   crafting:
-    - petrotheum-ingot-tin
-    - nugget-tin
-    - gear-tin
-    - gear-iron-using-tin
-    - storage-block-tin
-    - crescent-hammer
-    - machine-crafter
-    - frame-device
-    - device-item-buffer
-    - dynamo-compression
-    - flux-capacitor-hardened
-    - reservoir-basic
-    - cache-basic
-    - strongbox-basic
-    - satchel-basic-using-leather
-    - satchel-basic-using-rockwool
-    - itemduct
-    - itemduct-opaque
-    - fluxbore-basic
-    - fluxsaw-basic
-    - axe-tin
-    - bow-tin
-    - fishing-rod-tin
-    - hammer-tin
-    - hoe-tin
-    - pickaxe-tin
-    - shears-tin
-    - shield-tin
-    - shovel-tin
-    - sickle-tin
-    - sword-tin
-    - helmet-tin
-    - chestplate-tin
-    - leggings-tin
-    - boots-tin
+    - tf2-petrotheum-ingot-tin
+    - tf2-nugget-tin
+    - tf2-gear-tin
+    - tf2-gear-iron-using-tin
+    - tf2-storage-block-tin
+    - tf2-crescent-hammer
+    - te5-machine-crafter
+    - te5-frame-device
+    - te5-device-item-buffer
+    - te5-dynamo-compression
+    - te5-flux-capacitor-hardened
+    - te5-reservoir-basic
+    - te5-cache-basic
+    - te5-strongbox-basic
+    - te5-satchel-basic-using-leather
+    - te5-satchel-basic-using-rockwool
+    - td2-itemduct
+    - td2-itemduct-opaque
+    - ti-fluxbore-basic
+    - ti-fluxsaw-basic
+    - tf2-tool-pickaxe-tin
+    - tf2-tool-shovel-tin
+    - tf2-tool-axe-tin
+    - tf2-tool-hoe-tin
+    - tf2-tool-fishing-rod-tin
+    - tf2-tool-shears-tin
+    - tf2-tool-hammer-tin
+    - tf2-tool-sickle-tin
+    - tf2-weapon-sword-tin
+    - tf2-weapon-bow-tin
+    - tf2-weapon-shield-tin
+    - tf2-armor-helmet-tin
+    - tf2-armor-chestplate-tin
+    - tf2-armor-leggings-tin
+    - tf2-armor-boots-tin
   pulverizer:
     - dust-tin
   smelter:

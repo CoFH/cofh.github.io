@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-numismatic-press/
 recipes:
   crafting:
-    - augment-machine-compactor-coin
+    - te5-augment-machine-compactor-coin
 recipe-list:
   - coin
 ---

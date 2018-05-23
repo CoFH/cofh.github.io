@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-bronze/
 recipes:
   crafting:
-    - storage-block-bronze
+    - tf2-storage-block-bronze
 usage-recipes:
   crafting:
-    - ingot-bronze-from-block
+    - tf2-ingot-bronze-from-block
 ---
 
 **Blocks of bronze** are blocks made from [bronze ingots](/docs/thermal-foundation/bronze-ingot/).

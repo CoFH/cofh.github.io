@@ -9,11 +9,11 @@ recipes:
     - plate-copper
 usage-recipes:
   crafting:
-    - augment-machine-furnace-pyrolysis
-    - augment-machine-sawmill-tapper
-    - augment-dynamo-boiler
-    - augment-dynamo-steam-turbine
-    - augment-dynamo-compression-fuel
+    - te5-augment-machine-furnace-pyrolysis
+    - te5-augment-machine-sawmill-tapper
+    - te5-augment-dynamo-boiler
+    - te5-augment-dynamo-steam-turbine
+    - te5-augment-dynamo-compression-fuel
   smelter:
     - recycling-plate-copper
 ---

@@ -8,10 +8,10 @@ image:
     file: thermal-foundation/storage-block-charcoal.png
 recipes:
   crafting:
-    - storage-block-charcoal
+    - tf2-storage-block-charcoal
 usage-recipes:
   crafting:
-    - charcoal-from-block
+    - tf2-charcoal-from-block
 ---
 
 **Blocks of charcoal** are blocks made from

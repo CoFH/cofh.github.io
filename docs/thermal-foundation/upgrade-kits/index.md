@@ -16,18 +16,18 @@ redirect_from:
   - /docs/upgrade-kits/
 recipes:
   crafting:
-    - upgrade-kit-hardened
-    - upgrade-kit-reinforced
-    - upgrade-kit-signalum
-    - upgrade-kit-resonant
+    - tf2-upgrade-kit-hardened
+    - tf2-upgrade-kit-reinforced
+    - tf2-upgrade-kit-signalum
+    - tf2-upgrade-kit-resonant
 usage-recipes:
   crafting:
-    - conversion-kit-reinforced
-    - conversion-kit-signalum-1
-    - conversion-kit-signalum-2
-    - conversion-kit-resonant-1
-    - conversion-kit-resonant-2
-    - conversion-kit-resonant-3
+    - tf2-conversion-kit-reinforced
+    - tf2-conversion-kit-signalum-1
+    - tf2-conversion-kit-signalum-2
+    - tf2-conversion-kit-resonant-1
+    - tf2-conversion-kit-resonant-2
+    - tf2-conversion-kit-resonant-3
 ---
 
 **Upgrade kits** are items used to incrementally upgrade blocks to higher

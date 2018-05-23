@@ -30,7 +30,7 @@ image:
     file: thermal-expansion/creature-encaptulator.png
 frame-recipes:
   crafting:
-    - frame-device
+    - te5-frame-device
 ---
 
 **Devices** are blocks that perform various functions involving items and/or

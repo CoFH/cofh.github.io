@@ -8,13 +8,13 @@ redirect_from:
   - /docs/augment-clastic-deposition/
 recipes:
   crafting:
-    - augment-machine-extruder-sedimentary
+    - te5-augment-machine-extruder-sedimentary
 recipe-list:
   - gravel
   - sand
-  - red-sand
+  - sand-red
   - sandstone
-  - red-sandstone
+  - sandstone-red
 ---
 
 A **clastic deposition** [augment](/docs/thermal-expansion/augments/) allows for an [igneous

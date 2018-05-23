@@ -9,7 +9,7 @@ recipes:
     - plate-tin
 usage-recipes:
   crafting:
-    - augment-dynamo-compression-coolant
+    - te5-augment-dynamo-compression-coolant
   smelter:
     - recycling-plate-tin
 ---

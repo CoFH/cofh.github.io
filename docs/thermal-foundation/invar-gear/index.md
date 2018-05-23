@@ -6,19 +6,19 @@ redirect_from:
   - /docs/invar-gear/
 recipes:
   crafting:
-    - gear-invar
+    - tf2-gear-invar
   compactor-gear:
     - gear-invar
 usage-recipes:
   crafting:
-    - dynamo-magmatic
-    - augment-machine-furnace-pyrolysis
-    - augment-machine-compactor-coin
-    - augment-machine-crucible-lava
-    - augment-machine-centrifuge-mobs
-    - augment-dynamo-compression-coolant
-    - fluxbore-hardened
-    - fluxsaw-hardened
+    - te5-dynamo-magmatic
+    - te5-augment-machine-furnace-pyrolysis
+    - te5-augment-machine-compactor-coin
+    - te5-augment-machine-crucible-lava
+    - te5-augment-machine-centrifuge-mobs
+    - te5-augment-dynamo-compression-coolant
+    - ti-fluxbore-hardened
+    - ti-fluxsaw-hardened
   smelter:
     - recycling-gear-invar
 ---

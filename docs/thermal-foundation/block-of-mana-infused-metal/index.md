@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-mana-infused-metal/
 recipes:
   crafting:
-    - storage-block-mithril
+    - tf2-storage-block-mithril
 usage-recipes:
   crafting:
-    - ingot-mithril-from-block
+    - tf2-ingot-mithril-from-block
 ---
 
 **Blocks of mana infused metal** are blocks made from [mana infused

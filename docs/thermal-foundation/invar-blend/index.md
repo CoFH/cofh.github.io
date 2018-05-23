@@ -6,7 +6,7 @@ redirect_from:
   - /docs/invar-blend/
 recipes:
   crafting:
-    - dust-invar
+    - tf2-dust-invar
   pulverizer:
     - dust-invar
 usage-recipes:

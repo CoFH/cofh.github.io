@@ -21,8 +21,8 @@ redirect_from:
   - /docs/energy-cell/
 recipes:
   crafting:
-    - frame-energy-cell
-    - energy-cell-basic
+    - te5-frame-energy-cell
+    - te5-energy-cell-basic
 ---
 
 An **energy cell** is a block that stores a large amount of [Redstone

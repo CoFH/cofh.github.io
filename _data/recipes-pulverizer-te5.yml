@@ -947,30 +947,43 @@ recipes:
         item: [mc-prismarine-shard]
       primary-output:
         item: [mc-prismarine-crystals]
-  recycling-axe-diamond:
+  recycling-armor-helmet-diamond:
     results:
       - item: mc-diamond
     ingredients:
-      - item: mc-tool-axe-diamond
+      - item: mc-armor-helmet-diamond
     energy: 6000
     data:
       input:
-        item: [mc-tool-axe-diamond]
+        item: [mc-armor-helmet-diamond]
       primary-output:
         item: [mc-diamond]
-  recycling-axe-wood:
+        amount: 2
+  recycling-armor-chestplate-diamond:
     results:
-      - item: tf2-sawdust
+      - item: mc-diamond
     ingredients:
-      - item: mc-tool-axe-wood
-    energy: 3000
+      - item: mc-armor-chestplate-diamond
+    energy: 6000
     data:
       input:
-        item: [mc-tool-axe-wood]
+        item: [mc-armor-chestplate-diamond]
       primary-output:
-        item: [tf2-sawdust]
-        amount: 2
-  recycling-boots-diamond:
+        item: [mc-diamond]
+        amount: 4
+  recycling-armor-leggings-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-armor-leggings-diamond
+    energy: 6000
+    data:
+      input:
+        item: [mc-armor-leggings-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 3
+  recycling-armor-boots-diamond:
     results:
       - item: mc-diamond
     ingredients:
@@ -982,29 +995,6 @@ recipes:
       primary-output:
         item: [mc-diamond]
         amount: 2
-  recycling-bow:
-    results:
-      - item: tf2-sawdust
-    ingredients:
-      - item: bow
-    energy: 3000
-    data:
-      input:
-        item: [mc-bow]
-      primary-output:
-        item: [tf2-sawdust]
-        amount: 2
-  recycling-bow-diamond:
-    results:
-      - item: mc-diamond
-    ingredients:
-      - item: tf2-weapon-bow-diamond
-    energy: 6000
-    data:
-      input:
-        item: [tf2-weapon-bow-diamond]
-      primary-output:
-        item: [mc-diamond]
   recycling-brick-stairs:
     results:
       - item: mc-brick
@@ -1041,18 +1031,6 @@ recipes:
       primary-output:
         item: [mc-brick]
         amount: 2
-  recycling-chestplate-diamond:
-    results:
-      - item: mc-diamond
-    ingredients:
-      - item: mc-armor-chestplate-diamond
-    energy: 6000
-    data:
-      input:
-        item: [mc-armor-chestplate-diamond]
-      primary-output:
-        item: [mc-diamond]
-        amount: 4
   recycling-concrete:
     results:
       - item-group: mc-concrete-powder
@@ -1064,29 +1042,6 @@ recipes:
         item-group: mc-concrete
       primary-output:
         item-group: mc-concrete-powder
-  recycling-fishing-rod:
-    results:
-      - item: tf2-sawdust
-    ingredients:
-      - item: mc-tool-fishing-rod
-    energy: 3000
-    data:
-      input:
-        item: [mc-tool-fishing-rod]
-      primary-output:
-        item: [tf2-sawdust]
-        amount: 2
-  recycling-fishing-rod-diamond:
-    results:
-      - item: mc-diamond
-    ingredients:
-      - item: tf2-tool-fishing-rod-diamond
-    energy: 6000
-    data:
-      input:
-        item: [tf2-tool-fishing-rod-diamond]
-      primary-output:
-        item: [mc-diamond]
   recycling-flower-pot:
     results:
       - item: mc-brick
@@ -1099,67 +1054,6 @@ recipes:
       primary-output:
         item: [mc-brick]
         amount: 3
-  recycling-fluiduct-basic:
-    results:
-      - item: tf2-nugget-copper
-    ingredients:
-      - item: td2-fluiduct-basic
-    energy: 1600
-    data:
-      input:
-        item: [td2-fluiduct-basic]
-      primary-output:
-        item: [tf2-nugget-copper]
-        amount: 3
-  recycling-fluiduct-basic-opaque:
-    results:
-      - item: tf2-nugget-copper
-      - item: tf2-nugget-lead
-    ingredients:
-      - item: td2-fluiduct-basic-opaque
-    energy: 1600
-    data:
-      input:
-        item: [td2-fluiduct-basic-opaque]
-      primary-output:
-        item: [tf2-nugget-copper]
-        amount: 3
-      secondary-output:
-        item: [tf2-nugget-lead]
-      secondary-chance: 100
-  recycling-fluxduct-basic:
-    results:
-      - item: mc-redstone
-      - item: tf2-nugget-lead
-    ingredients:
-      - item: td2-fluxduct-basic
-    energy: 1600
-    data:
-      input:
-        item: [td2-fluxduct-basic]
-      primary-output:
-        item: [mc-redstone]
-      secondary-output:
-        item: [tf2-nugget-lead]
-        amount: 3
-      secondary-chance: 100
-  recycling-fluxduct-hardened:
-    results:
-      - item: mc-redstone
-      - item: tf2-nugget-invar
-    ingredients:
-      - item: td2-fluxduct-hardened
-    energy: 1600
-    data:
-      input:
-        item: [td2-fluxduct-hardened]
-      primary-output:
-        item: [mc-redstone]
-        amount: 2
-      secondary-output:
-        item: [tf2-nugget-invar]
-        amount: 3
-      secondary-chance: 100
   recycling-glass:
     results:
       - item: mc-sand
@@ -1193,65 +1087,6 @@ recipes:
         item-group: mc-glass-stained
       primary-output:
         item: [mc-sand]
-  recycling-hammer-diamond:
-    results:
-      - item: mc-diamond
-    ingredients:
-      - item: tf2-tool-hammer-diamond
-    energy: 6000
-    data:
-      input:
-        item: [tf2-tool-hammer-diamond]
-      primary-output:
-        item: [mc-diamond]
-        amount: 2
-  recycling-hammer-wood:
-    results:
-      - item: tf2-sawdust
-    ingredients:
-      - item: tf2-tool-hammer-wood
-    energy: 3000
-    data:
-      input:
-        item: [tf2-tool-hammer-wood]
-      primary-output:
-        item: [tf2-sawdust]
-        amount: 4
-  recycling-helmet-diamond:
-    results:
-      - item: mc-diamond
-    ingredients:
-      - item: mc-armor-helmet-diamond
-    energy: 6000
-    data:
-      input:
-        item: [mc-armor-helmet-diamond]
-      primary-output:
-        item: [mc-diamond]
-        amount: 2
-  recycling-hoe-diamond:
-    results:
-      - item: mc-diamond
-    ingredients:
-      - item: mc-tool-hoe-diamond
-    energy: 6000
-    data:
-      input:
-        item: [mc-tool-hoe-diamond]
-      primary-output:
-        item: [mc-diamond]
-  recycling-hoe-wood:
-    results:
-      - item: tf2-sawdust
-    ingredients:
-      - item: mc-tool-hoe-wood
-    energy: 3000
-    data:
-      input:
-        item: [mc-tool-hoe-wood]
-      primary-output:
-        item: [tf2-sawdust]
-        amount: 2
   recycling-horse-armor-diamond:
     results:
       - item: mc-diamond
@@ -1280,18 +1115,6 @@ recipes:
         item: [tf2-sawdust]
         amount: 4
       secondary-chance: 100
-  recycling-leggings-diamond:
-    results:
-      - item: mc-diamond
-    ingredients:
-      - item: mc-armor-leggings-diamond
-    energy: 6000
-    data:
-      input:
-        item: [mc-armor-leggings-diamond]
-      primary-output:
-        item: [mc-diamond]
-        amount: 3
   recycling-nether-brick:
     results:
       - item: mc-nether-brick-item
@@ -1380,76 +1203,6 @@ recipes:
         item: [tf2-sawdust]
         amount: 4
       secondary-chance: 100
-  recycling-pickaxe-diamond:
-    results:
-      - item: mc-diamond
-    ingredients:
-      - item: mc-tool-pickaxe-diamond
-    energy: 6000
-    data:
-      input:
-        item: [mc-tool-pickaxe-diamond]
-      primary-output:
-        item: [mc-diamond]
-  recycling-pickaxe-wood:
-    results:
-      - item: tf2-sawdust
-    ingredients:
-      - item: mc-tool-pickaxe-wood
-    energy: 3000
-    data:
-      input:
-        item: [mc-tool-pickaxe-wood]
-      primary-output:
-        item: [tf2-sawdust]
-        amount: 2
-  recycling-red-sandstone:
-    results:
-      - item: mc-sand-red
-      - item: tf2-niter
-    ingredients:
-      - item-group: mc-sandstone-red
-    energy: 3000
-    data:
-      input:
-        item-group: mc-sandstone-red
-      primary-output:
-        item: [mc-sand-red]
-        amount: 2
-      secondary-output:
-        item: [tf2-niter]
-      secondary-chance: 40
-  recycling-red-sandstone-slab:
-    results:
-      - item: mc-sand-red
-      - item: tf2-niter
-    ingredients:
-      - item: mc-sandstone-red-slab
-    energy: 3000
-    data:
-      input:
-        item: [mc-sandstone-red-slab]
-      primary-output:
-        item: [mc-sand-red]
-      secondary-output:
-        item: [tf2-niter]
-      secondary-chance: 20
-  recycling-red-sandstone-stairs:
-    results:
-      - item: mc-sand-red
-      - item: tf2-niter
-    ingredients:
-      - item: mc-sandstone-red-stairs
-    energy: 3000
-    data:
-      input:
-        item: [mc-sandstone-red-stairs]
-      primary-output:
-        item: [mc-sand-red]
-        amount: 2
-      secondary-output:
-        item: [tf2-niter]
-      secondary-chance: 20
   recycling-sandstone:
     results:
       - item: mc-sand
@@ -1497,7 +1250,170 @@ recipes:
       secondary-output:
         item: [tf2-niter]
       secondary-chance: 20
-  recycling-shears-diamond:
+  recycling-sandstone-red:
+    results:
+      - item: mc-sand-red
+      - item: tf2-niter
+    ingredients:
+      - item-group: mc-sandstone-red
+    energy: 3000
+    data:
+      input:
+        item-group: mc-sandstone-red
+      primary-output:
+        item: [mc-sand-red]
+        amount: 2
+      secondary-output:
+        item: [tf2-niter]
+      secondary-chance: 40
+  recycling-sandstone-red-slab:
+    results:
+      - item: mc-sand-red
+      - item: tf2-niter
+    ingredients:
+      - item: mc-sandstone-red-slab
+    energy: 3000
+    data:
+      input:
+        item: [mc-sandstone-red-slab]
+      primary-output:
+        item: [mc-sand-red]
+      secondary-output:
+        item: [tf2-niter]
+      secondary-chance: 20
+  recycling-sandstone-red-stairs:
+    results:
+      - item: mc-sand-red
+      - item: tf2-niter
+    ingredients:
+      - item: mc-sandstone-red-stairs
+    energy: 3000
+    data:
+      input:
+        item: [mc-sandstone-red-stairs]
+      primary-output:
+        item: [mc-sand-red]
+        amount: 2
+      secondary-output:
+        item: [tf2-niter]
+      secondary-chance: 20
+  recycling-tool-axe-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-tool-axe-diamond
+    energy: 6000
+    data:
+      input:
+        item: [mc-tool-axe-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-axe-wood:
+    results:
+      - item: tf2-sawdust
+    ingredients:
+      - item: mc-tool-axe-wood
+    energy: 3000
+    data:
+      input:
+        item: [mc-tool-axe-wood]
+      primary-output:
+        item: [tf2-sawdust]
+        amount: 2
+  recycling-tool-fishing-rod:
+    results:
+      - item: tf2-sawdust
+    ingredients:
+      - item: mc-tool-fishing-rod
+    energy: 3000
+    data:
+      input:
+        item: [mc-tool-fishing-rod]
+      primary-output:
+        item: [tf2-sawdust]
+        amount: 2
+  recycling-tool-fishing-rod-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf2-tool-fishing-rod-diamond
+    energy: 6000
+    data:
+      input:
+        item: [tf2-tool-fishing-rod-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-hammer-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf2-tool-hammer-diamond
+    energy: 6000
+    data:
+      input:
+        item: [tf2-tool-hammer-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 2
+  recycling-tool-hammer-wood:
+    results:
+      - item: tf2-sawdust
+    ingredients:
+      - item: tf2-tool-hammer-wood
+    energy: 3000
+    data:
+      input:
+        item: [tf2-tool-hammer-wood]
+      primary-output:
+        item: [tf2-sawdust]
+        amount: 4
+  recycling-tool-hoe-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-tool-hoe-diamond
+    energy: 6000
+    data:
+      input:
+        item: [mc-tool-hoe-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-hoe-wood:
+    results:
+      - item: tf2-sawdust
+    ingredients:
+      - item: mc-tool-hoe-wood
+    energy: 3000
+    data:
+      input:
+        item: [mc-tool-hoe-wood]
+      primary-output:
+        item: [tf2-sawdust]
+        amount: 2
+  recycling-tool-pickaxe-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-tool-pickaxe-diamond
+    energy: 6000
+    data:
+      input:
+        item: [mc-tool-pickaxe-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-pickaxe-wood:
+    results:
+      - item: tf2-sawdust
+    ingredients:
+      - item: mc-tool-pickaxe-wood
+    energy: 3000
+    data:
+      input:
+        item: [mc-tool-pickaxe-wood]
+      primary-output:
+        item: [tf2-sawdust]
+        amount: 2
+  recycling-tool-shears-diamond:
     results:
       - item: mc-diamond
     ingredients:
@@ -1508,7 +1424,7 @@ recipes:
         item: [tf2-tool-shears-diamond]
       primary-output:
         item: [mc-diamond]
-  recycling-shears-wood:
+  recycling-tool-shears-wood:
     results:
       - item: tf2-sawdust
     ingredients:
@@ -1520,31 +1436,7 @@ recipes:
       primary-output:
         item: [tf2-sawdust]
         amount: 2
-  recycling-shield:
-    results:
-      - item: tf2-sawdust
-    ingredients:
-      - item: mc-weapon-shield
-    energy: 3000
-    data:
-      input:
-        item: [mc-weapon-shield]
-      primary-output:
-        item: [tf2-sawdust]
-        amount: 6
-  recycling-shield-diamond:
-    results:
-      - item: mc-diamond
-    ingredients:
-      - item: tf2-weapon-shield-diamond
-    energy: 6000
-    data:
-      input:
-        item: [tf2-weapon-shield-diamond]
-      primary-output:
-        item: [mc-diamond]
-        amount: 3
-  recycling-shovel-diamond:
+  recycling-tool-shovel-diamond:
     results:
       - item: mc-diamond
     ingredients:
@@ -1555,7 +1447,7 @@ recipes:
         item: [mc-tool-shovel-diamond]
       primary-output:
         item: [mc-diamond]
-  recycling-shovel-wood:
+  recycling-tool-shovel-wood:
     results:
       - item: tf2-sawdust
     ingredients:
@@ -1567,7 +1459,7 @@ recipes:
       primary-output:
         item: [tf2-sawdust]
         amount: 2
-  recycling-sickle-diamond:
+  recycling-tool-sickle-diamond:
     results:
       - item: mc-diamond
     ingredients:
@@ -1578,7 +1470,7 @@ recipes:
         item: [tf2-tool-sickle-diamond]
       primary-output:
         item: [mc-diamond]
-  recycling-sickle-wood:
+  recycling-tool-sickle-wood:
     results:
       - item: tf2-sawdust
     ingredients:
@@ -1590,7 +1482,54 @@ recipes:
       primary-output:
         item: [tf2-sawdust]
         amount: 2
-  recycling-sword-diamond:
+  recycling-weapon-bow:
+    results:
+      - item: tf2-sawdust
+    ingredients:
+      - item: mc-bow
+    energy: 3000
+    data:
+      input:
+        item: [mc-bow]
+      primary-output:
+        item: [tf2-sawdust]
+        amount: 2
+  recycling-weapon-bow-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf2-weapon-bow-diamond
+    energy: 6000
+    data:
+      input:
+        item: [tf2-weapon-bow-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-weapon-shield:
+    results:
+      - item: tf2-sawdust
+    ingredients:
+      - item: mc-weapon-shield
+    energy: 3000
+    data:
+      input:
+        item: [mc-weapon-shield]
+      primary-output:
+        item: [tf2-sawdust]
+        amount: 6
+  recycling-weapon-shield-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf2-weapon-shield-diamond
+    energy: 6000
+    data:
+      input:
+        item: [tf2-weapon-shield-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 3
+  recycling-weapon-sword-diamond:
     results:
       - item: mc-diamond
     ingredients:
@@ -1601,7 +1540,7 @@ recipes:
         item: [mc-weapon-sword-diamond]
       primary-output:
         item: [mc-diamond]
-  recycling-sword-wood:
+  recycling-weapon-sword-wood:
     results:
       - item: tf2-sawdust
     ingredients:
@@ -1680,3 +1619,64 @@ recipes:
       primary-output:
         item: [mc-sugar]
         amount: 2
+  td2-recycling-fluiduct-basic:
+    results:
+      - item: tf2-nugget-copper
+    ingredients:
+      - item: td2-fluiduct-basic
+    energy: 1600
+    data:
+      input:
+        item: [td2-fluiduct-basic]
+      primary-output:
+        item: [tf2-nugget-copper]
+        amount: 3
+  td2-recycling-fluiduct-basic-opaque:
+    results:
+      - item: tf2-nugget-copper
+      - item: tf2-nugget-lead
+    ingredients:
+      - item: td2-fluiduct-basic-opaque
+    energy: 1600
+    data:
+      input:
+        item: [td2-fluiduct-basic-opaque]
+      primary-output:
+        item: [tf2-nugget-copper]
+        amount: 3
+      secondary-output:
+        item: [tf2-nugget-lead]
+      secondary-chance: 100
+  td2-recycling-fluxduct-basic:
+    results:
+      - item: mc-redstone
+      - item: tf2-nugget-lead
+    ingredients:
+      - item: td2-fluxduct-basic
+    energy: 1600
+    data:
+      input:
+        item: [td2-fluxduct-basic]
+      primary-output:
+        item: [mc-redstone]
+      secondary-output:
+        item: [tf2-nugget-lead]
+        amount: 3
+      secondary-chance: 100
+  td2-recycling-fluxduct-hardened:
+    results:
+      - item: mc-redstone
+      - item: tf2-nugget-invar
+    ingredients:
+      - item: td2-fluxduct-hardened
+    energy: 1600
+    data:
+      input:
+        item: [td2-fluxduct-hardened]
+      primary-output:
+        item: [mc-redstone]
+        amount: 2
+      secondary-output:
+        item: [tf2-nugget-invar]
+        amount: 3
+      secondary-chance: 100

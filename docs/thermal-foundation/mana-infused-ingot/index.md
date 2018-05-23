@@ -11,11 +11,11 @@ recipes:
     - tf2-ore-processing-mithril
     - tf2-ingot-mithril-from-dust
   crafting:
-    - pyrotheum-ore-mithril
-    - petrotheum-pyrotheum-ore-mithril
-    - pyrotheum-dust-mithril
-    - ingot-mithril-from-nuggets
-    - ingot-mithril-from-block
+    - tf2-pyrotheum-ore-mithril
+    - tf2-petrotheum-pyrotheum-ore-mithril
+    - tf2-pyrotheum-dust-mithril
+    - tf2-ingot-mithril-from-nuggets
+    - tf2-ingot-mithril-from-block
   smelter:
     - ore-processing-sand-mithril
     - ore-processing-rich-slag-mithril
@@ -25,10 +25,10 @@ recipes:
     - recycling-plate-mithril
 usage-recipes:
   crafting:
-    - petrotheum-ingot-mithril
-    - nugget-mithril
-    - gear-mithril
-    - storage-block-mithril
+    - tf2-petrotheum-ingot-mithril
+    - tf2-nugget-mithril
+    - tf2-gear-mithril
+    - tf2-storage-block-mithril
   pulverizer:
     - dust-mithril
   compactor:

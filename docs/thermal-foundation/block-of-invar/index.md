@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-invar/
 recipes:
   crafting:
-    - storage-block-invar
+    - tf2-storage-block-invar
 usage-recipes:
   crafting:
-    - ingot-invar-from-block
+    - tf2-ingot-invar-from-block
 ---
 
 **Blocks of invar** are blocks made from [invar ingots](/docs/thermal-foundation/invar-ingot/).

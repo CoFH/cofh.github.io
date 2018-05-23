@@ -18,19 +18,19 @@ recipes:
     - dust-signalum
 usage-recipes:
   crafting:
-    - redstone-from-fluid
-    - dust-signalum
-    - dust-fluxed-electrum-using-electrum
-    - dust-fluxed-electrum-using-gold-and-silver
-    - flux-crystal
+    - tf2-redstone-from-fluid
+    - tf2-dust-signalum
+    - ra-dust-fluxed-electrum-using-electrum
+    - ra-dust-fluxed-electrum-using-gold-and-silver
+    - ra-flux-crystal
   transposer-fill:
     - bucket-redstone
     - redstone-from-fluid
-    - fluxduct-reinforced
-    - fluxduct-signalum
-    - fluxduct-resonant
-    - dust-fluxed-electrum
-    - flux-crystal
+    - td2-fluxduct-reinforced
+    - td2-fluxduct-signalum
+    - td2-fluxduct-resonant
+    - ra-dust-fluxed-electrum
+    - ra-flux-crystal
 ---
 
 ![Destabilized redstone](/assets/images/thermal-foundation/destabilized-redstone.gif){:style="height: 128px"}

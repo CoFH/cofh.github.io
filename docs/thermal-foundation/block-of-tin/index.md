@@ -10,10 +10,10 @@ redirect_from:
   - /docs/block-of-tin/
 recipes:
   crafting:
-    - storage-block-tin
+    - tf2-storage-block-tin
 usage-recipes:
   crafting:
-    - ingot-tin-from-block
+    - tf2-ingot-tin-from-block
 ---
 
 **Blocks of tin** are blocks made from [tin ingots](/docs/thermal-foundation/tin-ingot/).

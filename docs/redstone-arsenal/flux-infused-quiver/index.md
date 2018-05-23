@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-quiver/
 recipes:
   crafting:
-    - flux-infused-quiver
+    - ra-weapon-quiver
 ---
 
 A **flux-infused quiver** is a [Redstone Flux](/docs/redstone-flux/)-powered

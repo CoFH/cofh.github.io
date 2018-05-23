@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-sickle/
 recipes:
   crafting:
-    - flux-infused-sickle
+    - ra-tool-sickle
 ---
 
 A **flux-infused sickle** is a powerful [sickle](/docs/thermal-foundation/sickles/) powered by

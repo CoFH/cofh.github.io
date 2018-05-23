@@ -6,8 +6,8 @@ redirect_from:
   - /docs/steel-ingot/
 recipes:
   crafting:
-    - ingot-steel-from-nuggets
-    - ingot-steel-from-block
+    - tf2-ingot-steel-from-nuggets
+    - tf2-ingot-steel-from-block
   smelter:
     - ingot-steel-from-dust-iron-and-coal-coke
     - ingot-steel-from-dust-iron-and-dust-coal
@@ -18,41 +18,41 @@ recipes:
     - dust-smelting-steel
     - recycling-gear-steel
     - recycling-plate-steel
-    - recycling-axe-steel
-    - recycling-bow-steel
-    - recycling-fishing-rod-steel
-    - recycling-hammer-steel
-    - recycling-hoe-steel
-    - recycling-pickaxe-steel
-    - recycling-shears-steel
-    - recycling-shield-steel
-    - recycling-shovel-steel
-    - recycling-sickle-steel
-    - recycling-sword-steel
-    - recycling-helmet-steel
-    - recycling-chestplate-steel
-    - recycling-leggings-steel
-    - recycling-boots-steel
+    - recycling-tool-pickaxe-steel
+    - recycling-tool-shovel-steel
+    - recycling-tool-axe-steel
+    - recycling-tool-hoe-steel
+    - recycling-tool-fishing-rod-steel
+    - recycling-tool-shears-steel
+    - recycling-tool-hammer-steel
+    - recycling-tool-sickle-steel
+    - recycling-weapon-sword-steel
+    - recycling-weapon-bow-steel
+    - recycling-weapon-shield-steel
+    - recycling-armor-helmet-steel
+    - recycling-armor-chestplate-steel
+    - recycling-armor-leggings-steel
+    - recycling-armor-boots-steel
 usage-recipes:
   crafting:
-    - nugget-steel
-    - gear-steel
-    - storage-block-steel
-    - axe-steel
-    - bow-steel
-    - fishing-rod-steel
-    - hammer-steel
-    - hoe-steel
-    - pickaxe-steel
-    - shears-steel
-    - shield-steel
-    - shovel-steel
-    - sickle-steel
-    - sword-steel
-    - helmet-steel
-    - chestplate-steel
-    - leggings-steel
-    - boots-steel
+    - tf2-nugget-steel
+    - tf2-gear-steel
+    - tf2-storage-block-steel
+    - tf2-tool-pickaxe-steel
+    - tf2-tool-shovel-steel
+    - tf2-tool-axe-steel
+    - tf2-tool-hoe-steel
+    - tf2-tool-fishing-rod-steel
+    - tf2-tool-shears-steel
+    - tf2-tool-hammer-steel
+    - tf2-tool-sickle-steel
+    - tf2-weapon-sword-steel
+    - tf2-weapon-bow-steel
+    - tf2-weapon-shield-steel
+    - tf2-armor-helmet-steel
+    - tf2-armor-chestplate-steel
+    - tf2-armor-leggings-steel
+    - tf2-armor-boots-steel
   pulverizer:
     - dust-steel
   compactor:

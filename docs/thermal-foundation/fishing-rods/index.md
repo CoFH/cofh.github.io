@@ -8,40 +8,40 @@ redirect_from:
   - /docs/tf-fishing-rods/
 recipes:
   crafting:
-    - fishing-rod-stone
-    - fishing-rod-iron
-    - fishing-rod-gold
-    - fishing-rod-diamond
-    - fishing-rod-copper
-    - fishing-rod-tin
-    - fishing-rod-silver
-    - fishing-rod-lead
-    - fishing-rod-aluminum
-    - fishing-rod-nickel
-    - fishing-rod-platinum
-    - fishing-rod-steel
-    - fishing-rod-electrum
-    - fishing-rod-invar
-    - fishing-rod-bronze
-    - fishing-rod-constantan
+    - tf2-tool-fishing-rod-stone
+    - tf2-tool-fishing-rod-iron
+    - tf2-tool-fishing-rod-gold
+    - tf2-tool-fishing-rod-diamond
+    - tf2-tool-fishing-rod-copper
+    - tf2-tool-fishing-rod-tin
+    - tf2-tool-fishing-rod-silver
+    - tf2-tool-fishing-rod-lead
+    - tf2-tool-fishing-rod-aluminum
+    - tf2-tool-fishing-rod-nickel
+    - tf2-tool-fishing-rod-platinum
+    - tf2-tool-fishing-rod-steel
+    - tf2-tool-fishing-rod-electrum
+    - tf2-tool-fishing-rod-invar
+    - tf2-tool-fishing-rod-bronze
+    - tf2-tool-fishing-rod-constantan
 usage-recipes:
   smelter:
-    - recycling-fishing-rod-iron
-    - recycling-fishing-rod-gold
-    - recycling-fishing-rod-copper
-    - recycling-fishing-rod-tin
-    - recycling-fishing-rod-silver
-    - recycling-fishing-rod-lead
-    - recycling-fishing-rod-aluminum
-    - recycling-fishing-rod-nickel
-    - recycling-fishing-rod-platinum
-    - recycling-fishing-rod-steel
-    - recycling-fishing-rod-electrum
-    - recycling-fishing-rod-invar
-    - recycling-fishing-rod-bronze
-    - recycling-fishing-rod-constantan
+    - recycling-tool-fishing-rod-iron
+    - recycling-tool-fishing-rod-gold
+    - recycling-tool-fishing-rod-copper
+    - recycling-tool-fishing-rod-tin
+    - recycling-tool-fishing-rod-silver
+    - recycling-tool-fishing-rod-lead
+    - recycling-tool-fishing-rod-aluminum
+    - recycling-tool-fishing-rod-nickel
+    - recycling-tool-fishing-rod-platinum
+    - recycling-tool-fishing-rod-steel
+    - recycling-tool-fishing-rod-electrum
+    - recycling-tool-fishing-rod-invar
+    - recycling-tool-fishing-rod-bronze
+    - recycling-tool-fishing-rod-constantan
   pulverizer:
-    - recycling-fishing-rod-diamond
+    - recycling-tool-fishing-rod-diamond
 ---
 
 ![Fishing rods](/assets/images/thermal-foundation/fishing-rods.gif){:style="height: 128px"}

@@ -11,7 +11,7 @@ redirect_from:
   - /docs/compression-dynamo/
 recipes:
   crafting:
-    - dynamo-compression
+    - te5-dynamo-compression
 augments:
   - dynamo-power
   - dynamo-efficiency

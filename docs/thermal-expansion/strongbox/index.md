@@ -21,7 +21,7 @@ redirect_from:
   - /docs/strongbox/
 recipes:
   crafting:
-    - strongbox-basic
+    - te5-strongbox-basic
 ---
 
 A **strongbox** is a block that stores items. It is functionally similar to a

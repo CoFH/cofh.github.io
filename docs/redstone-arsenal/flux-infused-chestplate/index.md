@@ -8,7 +8,7 @@ redirect_from:
   - /docs/flux-infused-chestplate/
 recipes:
   crafting:
-    - flux-infused-chestplate
+    - ra-armor-chestplate
 ---
 
 A **flux-infused chestplate** is a powerful

@@ -10,7 +10,7 @@ redirect_from:
   - /docs/flux-infused-shovel/
 recipes:
   crafting:
-    - flux-infused-shovel
+    - ra-tool-shovel
 ---
 
 A **flux-infused shovel** is a powerful

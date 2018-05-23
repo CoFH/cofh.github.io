@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-pattern-validation/
 recipes:
   crafting:
-    - augment-machine-crafter-input
+    - te5-augment-machine-crafter-input
 ---
 
 A **pattern validation** [augment](/docs/thermal-expansion/augments/) allows for a [sequential

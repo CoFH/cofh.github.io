@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-gearworking-die/
 recipes:
   crafting:
-    - augment-machine-compactor-gear
+    - te5-augment-machine-compactor-gear
 recipe-list:
   - gear
   - gear-fluxed-electrum

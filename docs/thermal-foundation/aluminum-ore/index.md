@@ -9,9 +9,9 @@ usage-recipes:
   smelting:
     - tf2-ore-processing-aluminum
   crafting:
-    - pyrotheum-ore-aluminum
-    - petrotheum-ore-aluminum
-    - petrotheum-pyrotheum-ore-aluminum
+    - tf2-pyrotheum-ore-aluminum
+    - tf2-petrotheum-ore-aluminum
+    - tf2-petrotheum-pyrotheum-ore-aluminum
   pulverizer:
     - ore-processing-aluminum
   smelter:

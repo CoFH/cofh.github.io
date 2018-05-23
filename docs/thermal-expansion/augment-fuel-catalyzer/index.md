@@ -9,7 +9,7 @@ redirect_from:
   - /docs/augment-fuel-catalyzer/
 recipes:
   crafting:
-    - augment-dynamo-efficiency
+    - te5-augment-dynamo-efficiency
 ---
 
 A **fuel catalyzer** is an [augment](/docs/thermal-expansion/augments/) that increases the amount

@@ -9,7 +9,7 @@ redirect_from:
   - /docs/redprint/
 recipes:
   crafting:
-    - redprint
+    - tf2-redprint
 ---
 
 ![Redprint](/assets/images/thermal-foundation/redprint.png){:style="height: 128px"}

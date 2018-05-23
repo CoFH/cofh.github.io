@@ -6,19 +6,19 @@ redirect_from:
   - /docs/lead-nugget/
 recipes:
   crafting:
-    - nugget-lead
+    - tf2-nugget-lead
   pulverizer:
-    - recycling-fluxduct-basic
-    - recycling-fluiduct-basic-opaque
+    - td2-recycling-fluxduct-basic
+    - td2-recycling-fluiduct-basic-opaque
 usage-recipes:
   crafting:
-    - ingot-lead-from-nuggets
-    - augment-dynamo-coil-duct
-    - augment-dynamo-throttle
-    - itemduct-dense
-    - itemduct-fast-dense
-    - itemduct-energy-dense
-    - itemduct-energy-fast-dense
+    - tf2-ingot-lead-from-nuggets
+    - te5-augment-dynamo-coil-duct
+    - te5-augment-dynamo-throttle
+    - td2-itemduct-dense
+    - td2-itemduct-fast-dense
+    - td2-itemduct-energy-dense
+    - td2-itemduct-energy-fast-dense
 ---
 
 ![Lead nugget](/assets/images/thermal-foundation/nugget-lead.png){:style="height: 128px"}

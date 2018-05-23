@@ -9,7 +9,7 @@ redirect_from:
   - /docs/reactant-dynamo/
 recipes:
   crafting:
-    - dynamo-reactant
+    - te5-dynamo-reactant
 augments:
   - dynamo-power
   - dynamo-efficiency

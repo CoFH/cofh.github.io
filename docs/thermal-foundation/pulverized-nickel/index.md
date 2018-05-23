@@ -6,8 +6,8 @@ redirect_from:
   - /docs/pulverized-nickel/
 recipes:
   crafting:
-    - petrotheum-ingot-nickel
-    - petrotheum-ore-nickel
+    - tf2-petrotheum-ingot-nickel
+    - tf2-petrotheum-ore-nickel
   pulverizer:
     - dust-nickel
     - ore-processing-nickel
@@ -17,9 +17,9 @@ recipes:
     - dust-constantan
 usage-recipes:
   crafting:
-    - pyrotheum-dust-nickel
-    - dust-invar
-    - dust-constantan
+    - tf2-pyrotheum-dust-nickel
+    - tf2-dust-invar
+    - tf2-dust-constantan
   smelting:
     - tf2-ingot-nickel-from-dust
   smelter:

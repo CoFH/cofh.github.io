@@ -5,7 +5,7 @@ redirect_from:
   - /docs/thermal-mediator/
 recipes:
   crafting:
-    - device-heat-sink
+    - te5-device-heat-sink
 ---
 
 ![Thermal mediator](/assets/images/thermal-expansion/thermal-mediator.png){:style="height: 128px"}

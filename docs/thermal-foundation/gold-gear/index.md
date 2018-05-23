@@ -6,12 +6,12 @@ redirect_from:
   - /docs/gold-gear/
 recipes:
   crafting:
-    - gear-gold
+    - tf2-gear-gold
   compactor-gear:
     - gear-gold
 usage-recipes:
   crafting:
-    - multimeter
+    - tf2-multimeter
   smelter:
     - recycling-gear-gold
 ---

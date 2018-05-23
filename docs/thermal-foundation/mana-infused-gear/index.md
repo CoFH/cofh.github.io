@@ -6,7 +6,7 @@ redirect_from:
   - /docs/mana-infused-gear/
 recipes:
   crafting:
-    - gear-mithril
+    - tf2-gear-mithril
   compactor-gear:
     - gear-mithril
 usage-recipes:

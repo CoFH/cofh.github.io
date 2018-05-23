@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-lapidary-calibration/
 recipes:
   crafting:
-    - augment-dynamo-numismatic-gem
+    - te5-augment-dynamo-numismatic-gem
 ---
 
 A **lapidary calibration** [augment](/docs/thermal-expansion/augments/) allows for a [numismatic

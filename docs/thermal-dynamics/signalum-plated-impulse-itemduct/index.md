@@ -10,14 +10,14 @@ redirect_from:
   - /docs/signalum-plated-impulse-itemduct/
 recipes:
   crafting:
-    - itemduct-energy-fast-one
-    - itemduct-energy-fast-three
-    - itemduct-energy-fast-opaque-from-transparent
-    - itemduct-energy-fast-transparent-from-opaque
-    - itemduct-energy-fast-dense
-    - itemduct-energy-fast-vacuum
+    - td2-itemduct-energy-fast-one
+    - td2-itemduct-energy-fast-three
+    - td2-itemduct-energy-fast-opaque-from-transparent
+    - td2-itemduct-energy-fast-transparent-from-opaque
+    - td2-itemduct-energy-fast-dense
+    - td2-itemduct-energy-fast-vacuum
   transposer-fill:
-    - itemduct-energy-fast
+    - td2-itemduct-energy-fast
 ---
 
 A **signalum-plated impulse itemduct** is a type of [itemduct](/docs/thermal-dynamics/itemduct/)

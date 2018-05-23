@@ -9,19 +9,19 @@ redirect_from:
   - /docs/pyrotheum-dust/
 recipes:
   crafting:
-    - dust-pyrotheum
+    - tf2-dust-pyrotheum
 usage-recipes:
   crafting:
-    - pyrotheum-metal-ore
-    - petrotheum-pyrotheum-metal-ore
-    - pyrotheum-dust-metal-ore
-    - upgrade-kit-resonant
-    - flux-capacitor-resonant
-    - reservoir-resonant
-    - augment-machine-furnace-ore
-    - augment-machine-smelter-pyrotheum
-    - augment-dynamo-compression-fuel
-    - watering-can-resonant
+    - tf2-pyrotheum-ore-metal
+    - tf2-petrotheum-pyrotheum-ore-metal
+    - tf2-pyrotheum-dust-ore-metal
+    - tf2-upgrade-kit-resonant
+    - te5-flux-capacitor-resonant
+    - te5-reservoir-resonant
+    - te5-augment-machine-furnace-ore
+    - te5-augment-machine-smelter-pyrotheum
+    - te5-augment-dynamo-compression-fuel
+    - tc-watering-can-resonant
   crucible:
     - pyrotheum
   centrifuge:

@@ -18,11 +18,11 @@ image:
     file: thermal-innovation/fluxomagnet-creative.png
 recipes:
   crafting:
-    - fluxomagnet-basic
-    - fluxomagnet-hardened
-    - fluxomagnet-reinforced
-    - fluxomagnet-signalum
-    - fluxomagnet-resonant
+    - ti-fluxomagnet-basic
+    - ti-fluxomagnet-hardened
+    - ti-fluxomagnet-reinforced
+    - ti-fluxomagnet-signalum
+    - ti-fluxomagnet-resonant
 ---
 
 A **fluxomagnet**, or **magnet** for short, is a tool that attracts dropped

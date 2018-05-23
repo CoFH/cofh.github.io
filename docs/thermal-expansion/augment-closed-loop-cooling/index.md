@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-closed-loop-cooling/
 recipes:
   crafting:
-    - augment-dynamo-compression-coolant
+    - te5-augment-dynamo-compression-coolant
 ---
 
 A **closed-loop cooling** [augment](/docs/thermal-expansion/augments/) allows for a [compression

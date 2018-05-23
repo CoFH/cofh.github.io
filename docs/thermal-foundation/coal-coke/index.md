@@ -6,12 +6,12 @@ redirect_from:
   - /docs/coal-coke/
 recipes:
   crafting:
-    - coal-coke-from-block
+    - tf2-coal-coke-from-block
   redstone-furnace-pyrolysis:
     - coal-coke
 usage-recipes:
   crafting:
-    - storage-block-coal-coke
+    - tf2-storage-block-coal-coke
   smelter:
     - ingot-steel-from-dust-iron-and-coal-coke
     - ingot-steel-from-ingot-iron-and-coal-coke

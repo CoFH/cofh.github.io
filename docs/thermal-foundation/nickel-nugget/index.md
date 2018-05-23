@@ -6,10 +6,10 @@ redirect_from:
   - /docs/nickel-nugget/
 recipes:
   crafting:
-    - nugget-nickel
+    - tf2-nugget-nickel
 usage-recipes:
   crafting:
-    - ingot-nickel-from-nuggets
+    - tf2-ingot-nickel-from-nuggets
 ---
 
 ![Nickel nugget](/assets/images/thermal-foundation/nugget-nickel.png){:style="height: 128px"}

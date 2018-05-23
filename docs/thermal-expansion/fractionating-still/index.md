@@ -5,7 +5,7 @@ redirect_from:
   - /docs/fractionating-still/
 recipes:
   crafting:
-    - machine-refinery
+    - te5-machine-refinery
 augments:
   - machine-power
   - machine-secondary

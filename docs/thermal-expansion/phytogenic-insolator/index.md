@@ -9,7 +9,7 @@ redirect_from:
   - /docs/phytogenic-insolator/
 recipes:
   crafting:
-    - machine-insolator
+    - te5-machine-insolator
 augments:
   - machine-power
   - machine-secondary

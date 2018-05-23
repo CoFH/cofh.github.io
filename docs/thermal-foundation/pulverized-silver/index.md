@@ -6,8 +6,8 @@ redirect_from:
   - /docs/pulverized-silver/
 recipes:
   crafting:
-    - petrotheum-ingot-silver
-    - petrotheum-ore-silver
+    - tf2-petrotheum-ingot-silver
+    - tf2-petrotheum-ore-silver
   pulverizer:
     - dust-silver
     - ore-processing-silver
@@ -18,11 +18,11 @@ recipes:
     - dust-lumium
 usage-recipes:
   crafting:
-    - pyrotheum-dust-silver
-    - dust-electrum
-    - dust-signalum
-    - dust-lumium
-    - dust-fluxed-electrum-using-gold-and-silver
+    - tf2-pyrotheum-dust-silver
+    - tf2-dust-electrum
+    - tf2-dust-signalum
+    - tf2-dust-lumium
+    - ra-dust-fluxed-electrum-using-gold-and-silver
   smelting:
     - tf2-ingot-silver-from-dust
   smelter:

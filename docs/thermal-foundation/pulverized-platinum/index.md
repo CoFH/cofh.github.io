@@ -6,8 +6,8 @@ redirect_from:
   - /docs/pulverized-platinum/
 recipes:
   crafting:
-    - petrotheum-ingot-platinum
-    - petrotheum-ore-platinum
+    - tf2-petrotheum-ingot-platinum
+    - tf2-petrotheum-ore-platinum
   pulverizer:
     - dust-platinum
     - ore-processing-nickel
@@ -17,8 +17,8 @@ recipes:
     - dust-enderium
 usage-recipes:
   crafting:
-    - pyrotheum-dust-platinum
-    - dust-enderium
+    - tf2-pyrotheum-dust-platinum
+    - tf2-dust-enderium
   smelting:
     - tf2-ingot-platinum-from-dust
   smelter:

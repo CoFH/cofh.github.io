@@ -8,12 +8,12 @@ redirect_from:
   - /docs/aerotheum-dust/
 recipes:
   crafting:
-    - dust-aerotheum
+    - tf2-dust-aerotheum
 usage-recipes:
   crafting:
-    - augment-machine-extruder-sedimentary
-    - augment-dynamo-reactant-elemental
-    - fluxsaw-signalum
+    - te5-augment-machine-extruder-sedimentary
+    - te5-augment-dynamo-reactant-elemental
+    - ti-fluxsaw-signalum
   crucible:
     - aerotheum
   centrifuge:

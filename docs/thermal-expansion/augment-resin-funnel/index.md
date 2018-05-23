@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-resin-funnel/
 recipes:
   crafting:
-    - augment-machine-sawmill-tapper
+    - te5-augment-machine-sawmill-tapper
 ---
 
 A **resin funnel** is an [augment](/docs/thermal-expansion/augments/) that allows for a

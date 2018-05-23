@@ -9,7 +9,7 @@ recipes:
     - plate-lumium
 usage-recipes:
   crafting:
-    - augment-machine-insolator-tree
+    - te5-augment-machine-insolator-tree
   smelter:
     - recycling-plate-lumium
 ---

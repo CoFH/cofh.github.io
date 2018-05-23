@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-flux-linkage-concentrator/
 recipes:
   crafting:
-    - augment-machine-charger-throughput
+    - te5-augment-machine-charger-throughput
 ---
 
 A **flux linkage concentrator** is an [augment](/docs/thermal-expansion/augments/) that greatly

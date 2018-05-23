@@ -6,18 +6,18 @@ redirect_from:
   - /docs/invar-nugget/
 recipes:
   crafting:
-    - nugget-invar
+    - tf2-nugget-invar
   pulverizer:
-    - recycling-fluxduct-hardened
+    - td2-recycling-fluxduct-hardened
 usage-recipes:
   crafting:
-    - ingot-invar-from-nuggets
-    - satchel-reinforced
-    - augment-machine-secondary-null
-    - fluxduct-hardened-one
-    - fluxomagnet-reinforced
-    - hypoinfuser-reinforced
-    - alchemical-quiver-reinforced
+    - tf2-ingot-invar-from-nuggets
+    - te5-satchel-reinforced
+    - te5-augment-machine-secondary-null
+    - td2-fluxduct-hardened-one
+    - ti-fluxomagnet-reinforced
+    - ti-hypoinfuser-reinforced
+    - ti-alchemical-quiver-reinforced
 ---
 
 ![Invar nugget](/assets/images/thermal-foundation/nugget-invar.png){:style="height: 128px"}

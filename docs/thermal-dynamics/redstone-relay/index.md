@@ -8,7 +8,7 @@ redirect_from:
   - /docs/redstone-relay/
 recipes:
   crafting:
-    - redstone-relay
+    - td2-redstone-relay
 ---
 
 A **redstone relay** is an item that can be installed on

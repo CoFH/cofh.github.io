@@ -9,9 +9,9 @@ usage-recipes:
   smelting:
     - tf2-ore-processing-platinum
   crafting:
-    - pyrotheum-ore-platinum
-    - petrotheum-ore-platinum
-    - petrotheum-pyrotheum-ore-platinum
+    - tf2-pyrotheum-ore-platinum
+    - tf2-petrotheum-ore-platinum
+    - tf2-petrotheum-pyrotheum-ore-platinum
   pulverizer:
     - ore-processing-platinum
   smelter:

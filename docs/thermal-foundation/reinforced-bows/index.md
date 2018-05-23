@@ -9,40 +9,40 @@ redirect_from:
   - /docs/tf-reinforced-bows/
 recipes:
   crafting:
-    - bow-stone
-    - bow-iron
-    - bow-gold
-    - bow-diamond
-    - bow-copper
-    - bow-tin
-    - bow-silver
-    - bow-lead
-    - bow-aluminum
-    - bow-nickel
-    - bow-platinum
-    - bow-steel
-    - bow-electrum
-    - bow-invar
-    - bow-bronze
-    - bow-constantan
+    - tf2-weapon-bow-stone
+    - tf2-weapon-bow-iron
+    - tf2-weapon-bow-gold
+    - tf2-weapon-bow-diamond
+    - tf2-weapon-bow-copper
+    - tf2-weapon-bow-tin
+    - tf2-weapon-bow-silver
+    - tf2-weapon-bow-lead
+    - tf2-weapon-bow-aluminum
+    - tf2-weapon-bow-nickel
+    - tf2-weapon-bow-platinum
+    - tf2-weapon-bow-steel
+    - tf2-weapon-bow-electrum
+    - tf2-weapon-bow-invar
+    - tf2-weapon-bow-bronze
+    - tf2-weapon-bow-constantan
 usage-recipes:
   smelter:
-    - recycling-bow-iron
-    - recycling-bow-gold
-    - recycling-bow-copper
-    - recycling-bow-tin
-    - recycling-bow-silver
-    - recycling-bow-lead
-    - recycling-bow-aluminum
-    - recycling-bow-nickel
-    - recycling-bow-platinum
-    - recycling-bow-steel
-    - recycling-bow-electrum
-    - recycling-bow-invar
-    - recycling-bow-bronze
-    - recycling-bow-constantan
+    - recycling-weapon-bow-iron
+    - recycling-weapon-bow-gold
+    - recycling-weapon-bow-copper
+    - recycling-weapon-bow-tin
+    - recycling-weapon-bow-silver
+    - recycling-weapon-bow-lead
+    - recycling-weapon-bow-aluminum
+    - recycling-weapon-bow-nickel
+    - recycling-weapon-bow-platinum
+    - recycling-weapon-bow-steel
+    - recycling-weapon-bow-electrum
+    - recycling-weapon-bow-invar
+    - recycling-weapon-bow-bronze
+    - recycling-weapon-bow-constantan
   pulverizer:
-    - recycling-bow-diamond
+    - recycling-weapon-bow-diamond
 ---
 
 ![Reinforced Bows](/assets/images/thermal-foundation/bows.gif){:style="height: 128px"}

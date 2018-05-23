@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-tectonic-initiator/
 recipes:
   crafting:
-    - augment-machine-pulverizer-petrotheum
+    - te5-augment-machine-pulverizer-petrotheum
 ---
 
 A **tectonic initiator** is an [augment](/docs/thermal-expansion/augments/) that allows for a

@@ -13,14 +13,14 @@ redirect_from:
   - /docs/fluiduct/
 recipes:
   crafting:
-    - fluiduct-basic
-    - fluiduct-basic-opaque
-    - fluiduct-basic-opaque-from-transparent
-    - fluiduct-basic-transparent-from-opaque
+    - td2-fluiduct-basic
+    - td2-fluiduct-basic-opaque
+    - td2-fluiduct-basic-opaque-from-transparent
+    - td2-fluiduct-basic-transparent-from-opaque
 usage-recipes:
   pulverizer:
-    - recycling-fluiduct-basic
-    - recycling-fluiduct-basic-opaque
+    - td2-recycling-fluiduct-basic
+    - td2-recycling-fluiduct-basic-opaque
 ---
 
 A **fluiduct** is a block that transfers fluids between blocks.

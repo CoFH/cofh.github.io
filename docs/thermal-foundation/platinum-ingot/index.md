@@ -13,11 +13,11 @@ recipes:
     - tf2-ingot-platinum-from-dust
     - tf2-ore-processing-platinum
   crafting:
-    - pyrotheum-dust-platinum
-    - ingot-platinum-from-nuggets
-    - ingot-platinum-from-block
-    - pyrotheum-ore-platinum
-    - petrotheum-pyrotheum-ore-platinum
+    - tf2-pyrotheum-dust-platinum
+    - tf2-ingot-platinum-from-nuggets
+    - tf2-ingot-platinum-from-block
+    - tf2-pyrotheum-ore-platinum
+    - tf2-petrotheum-pyrotheum-ore-platinum
   smelter:
     - ore-processing-cinnabar-nickel
     - dust-smelting-platinum
@@ -27,42 +27,42 @@ recipes:
     - ore-processing-cinnabar-iridium
     - recycling-gear-platinum
     - recycling-plate-platinum
-    - recycling-axe-platinum
-    - recycling-bow-platinum
-    - recycling-fishing-rod-platinum
-    - recycling-hammer-platinum
-    - recycling-hoe-platinum
-    - recycling-pickaxe-platinum
-    - recycling-shears-platinum
-    - recycling-shield-platinum
-    - recycling-shovel-platinum
-    - recycling-sickle-platinum
-    - recycling-sword-platinum
-    - recycling-helmet-platinum
-    - recycling-chestplate-platinum
-    - recycling-leggings-platinum
-    - recycling-boots-platinum
+    - recycling-tool-pickaxe-platinum
+    - recycling-tool-shovel-platinum
+    - recycling-tool-axe-platinum
+    - recycling-tool-hoe-platinum
+    - recycling-tool-fishing-rod-platinum
+    - recycling-tool-shears-platinum
+    - recycling-tool-hammer-platinum
+    - recycling-tool-sickle-platinum
+    - recycling-weapon-sword-platinum
+    - recycling-weapon-bow-platinum
+    - recycling-weapon-shield-platinum
+    - recycling-armor-helmet-platinum
+    - recycling-armor-chestplate-platinum
+    - recycling-armor-leggings-platinum
+    - recycling-armor-boots-platinum
 usage-recipes:
   crafting:
-    - petrotheum-ingot-platinum
-    - nugget-platinum
-    - gear-platinum
-    - storage-block-platinum
-    - axe-platinum
-    - bow-platinum
-    - fishing-rod-platinum
-    - hammer-platinum
-    - hoe-platinum
-    - pickaxe-platinum
-    - shears-platinum
-    - shield-platinum
-    - shovel-platinum
-    - sickle-platinum
-    - sword-platinum
-    - helmet-platinum
-    - chestplate-platinum
-    - leggings-platinum
-    - boots-platinum
+    - tf2-petrotheum-ingot-platinum
+    - tf2-nugget-platinum
+    - tf2-gear-platinum
+    - tf2-storage-block-platinum
+    - tf2-tool-pickaxe-platinum
+    - tf2-tool-shovel-platinum
+    - tf2-tool-axe-platinum
+    - tf2-tool-hoe-platinum
+    - tf2-tool-fishing-rod-platinum
+    - tf2-tool-shears-platinum
+    - tf2-tool-hammer-platinum
+    - tf2-tool-sickle-platinum
+    - tf2-weapon-sword-platinum
+    - tf2-weapon-bow-platinum
+    - tf2-weapon-shield-platinum
+    - tf2-armor-helmet-platinum
+    - tf2-armor-chestplate-platinum
+    - tf2-armor-leggings-platinum
+    - tf2-armor-boots-platinum
   pulverizer:
     - dust-platinum
   compactor:

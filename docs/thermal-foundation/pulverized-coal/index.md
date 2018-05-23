@@ -6,13 +6,13 @@ redirect_from:
   - /docs/pulverized-coal/
 recipes:
   crafting:
-    - petrotheum-ore-coal
+    - tf2-petrotheum-ore-coal
   pulverizer:
     - dust-coal
     - ore-processing-coal
 usage-recipes:
   crafting:
-    - gunpowder-using-coal-sulfur-and-niter
+    - tf2-gunpowder-using-coal
   smelter:
     - ingot-steel-from-dust-iron-and-dust-coal
     - ingot-steel-from-ingot-iron-and-dust-coal

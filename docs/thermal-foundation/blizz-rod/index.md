@@ -11,7 +11,7 @@ recipes:
     - blizz-rod-from-powder
 usage-recipes:
   crafting:
-    - blizz-powder
+    - tf2-blizz-powder
   pulverizer:
     - blizz-powder
 ---

@@ -6,8 +6,8 @@ redirect_from:
   - /docs/pulverized-gold/
 recipes:
   crafting:
-    - petrotheum-ingot-gold
-    - petrotheum-ore-gold
+    - tf2-petrotheum-ingot-gold
+    - tf2-petrotheum-ore-gold
   pulverizer:
     - dust-gold
     - ore-processing-gold
@@ -17,9 +17,9 @@ recipes:
     - dust-electrum
 usage-recipes:
   crafting:
-    - pyrotheum-dust-gold
-    - dust-electrum
-    - dust-fluxed-electrum-using-gold-and-silver
+    - tf2-pyrotheum-dust-gold
+    - tf2-dust-electrum
+    - ra-dust-fluxed-electrum-using-gold-and-silver
   smelting:
     - tf2-ingot-gold-from-dust
   smelter:

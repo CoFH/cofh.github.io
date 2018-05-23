@@ -8,7 +8,7 @@ redirect_from:
   - /docs/long-range-viaduct/
 recipes:
   crafting:
-    - viaduct-long-range
+    - td2-viaduct-long-range
 ---
 
 A **long range viaduct** is a type of [viaduct](/docs/thermal-dynamics/viaduct/) that provides

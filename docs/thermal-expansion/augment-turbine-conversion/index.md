@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-turbine-conversion/
 recipes:
   crafting:
-    - augment-dynamo-steam-turbine
+    - te5-augment-dynamo-steam-turbine
 ---
 
 A **turbine conversion** is an [augment](/docs/thermal-expansion/augments/) that changes a [steam

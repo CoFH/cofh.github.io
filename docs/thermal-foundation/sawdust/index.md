@@ -19,32 +19,32 @@ recipes:
     - sawdust-from-wood-planks
     - recycling-note-block
     - recycling-jukebox
-    - recycling-pickaxe-wood
-    - recycling-shovel-wood
-    - recycling-axe-wood
-    - recycling-hoe-wood
-    - recycling-fishing-rod
-    - recycling-shears-wood
-    - recycling-hammer-wood
-    - recycling-sickle-wood
-    - recycling-sword-wood
-    - recycling-bow
-    - recycling-shield
+    - recycling-tool-pickaxe-wood
+    - recycling-tool-shovel-wood
+    - recycling-tool-axe-wood
+    - recycling-tool-hoe-wood
+    - recycling-tool-fishing-rod
+    - recycling-tool-shears-wood
+    - recycling-tool-hammer-wood
+    - recycling-tool-sickle-wood
+    - recycling-weapon-sword-wood
+    - recycling-weapon-bow
+    - recycling-weapon-shield
 usage-recipes:
   crafting:
-    - sawdust-compressed
-    - paper-using-sawdust
-    - phyto-gro-using-sawdust
-    - phyto-gro-rich-using-sawdust
-    - aqua-chow-using-slime
-    - aqua-chow-using-rosin
-    - aqua-chow-rich-using-slime
-    - aqua-chow-rich-using-rosin
-    - florb-using-slime
-    - florb-using-rosin
-    - florb-magmatic-using-magma-cream
-    - florb-magmatic-using-slime
-    - florb-magmatic-using-rosin
+    - tf2-sawdust-compressed
+    - tf2-paper-using-sawdust
+    - tf2-phyto-gro-using-sawdust
+    - tf2-phyto-gro-rich-using-sawdust
+    - tf2-aqua-chow-using-slime
+    - tf2-aqua-chow-using-rosin
+    - tf2-aqua-chow-rich-using-slime
+    - tf2-aqua-chow-rich-using-rosin
+    - te5-florb-using-slime
+    - te5-florb-using-rosin
+    - te5-florb-magmatic-using-magma-cream
+    - te5-florb-magmatic-using-slime
+    - te5-florb-magmatic-using-rosin
 ---
 
 ![Sawdust](/assets/images/thermal-foundation/sawdust.png){:style="height: 128px"}

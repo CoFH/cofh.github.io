@@ -6,19 +6,19 @@ redirect_from:
   - /docs/electrum-blend/
 recipes:
   crafting:
-    - dust-electrum
+    - tf2-dust-electrum
   pulverizer:
     - dust-electrum
 usage-recipes:
   crafting:
-    - dust-fluxed-electrum-using-electrum
+    - ra-dust-fluxed-electrum-using-electrum
   smelting:
     - tf2-ingot-electrum-from-dust
   smelter:
     - dust-smelting-electrum
     - hardened-glass-electrum
   transposer-fill:
-    - dust-fluxed-electrum
+    - ra-dust-fluxed-electrum
   centrifuge:
     - dust-electrum
 ---

@@ -11,7 +11,7 @@ redirect_from:
   - /docs/magmatic-dynamo/
 recipes:
   crafting:
-    - dynamo-magmatic
+    - te5-dynamo-magmatic
 augments:
   - dynamo-power
   - dynamo-efficiency

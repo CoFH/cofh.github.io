@@ -8,7 +8,7 @@ redirect_from:
   - /docs/augment-alchemical-retort/
 recipes:
   crafting:
-    - augment-machine-refinery-potion
+    - te5-augment-machine-refinery-potion
 ---
 
 An **alchemical retort** is an [augment](/docs/thermal-expansion/augments/) that allows for a

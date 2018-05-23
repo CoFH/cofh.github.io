@@ -6,17 +6,17 @@ redirect_from:
   - /docs/electrum-nugget/
 recipes:
   crafting:
-    - nugget-electrum
+    - tf2-nugget-electrum
 usage-recipes:
   crafting:
-    - ingot-electrum-from-nuggets
-    - satchel-signalum
-    - fluiduct-energy-one
-    - itemduct-energy-one
-    - itemduct-energy-fast-one
-    - fluxomagnet-signalum
-    - hypoinfuser-signalum
-    - alchemical-quiver-signalum
+    - tf2-ingot-electrum-from-nuggets
+    - te5-satchel-signalum
+    - td2-fluiduct-energy-one
+    - td2-itemduct-energy-one
+    - td2-itemduct-energy-fast-one
+    - ti-fluxomagnet-signalum
+    - ti-hypoinfuser-signalum
+    - ti-alchemical-quiver-signalum
 ---
 
 ![Electrum nugget](/assets/images/thermal-foundation/nugget-electrum.png){:style="height: 128px"}

@@ -5,7 +5,7 @@ redirect_from:
   - /docs/aquatic-entangler/
 recipes:
   crafting:
-    - device-fisher
+    - te5-device-fisher
 ---
 
 ![Aquatic entangler](/assets/images/thermal-expansion/aquatic-entangler.png){:style="height: 128px"}

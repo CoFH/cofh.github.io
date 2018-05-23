@@ -10,7 +10,7 @@ recipes:
     - blitz-rod-from-powder
 usage-recipes:
   crafting:
-    - blitz-powder
+    - tf2-blitz-powder
   pulverizer:
     - blitz-powder
 ---

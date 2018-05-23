@@ -9,9 +9,9 @@ recipes:
     - plate-invar
 usage-recipes:
   crafting:
-    - augment-machine-furnace-ore
-    - augment-machine-extruder-no-water
-    - augment-dynamo-magmatic-coolant
+    - te5-augment-machine-furnace-ore
+    - te5-augment-machine-extruder-no-water
+    - te5-augment-dynamo-magmatic-coolant
   smelter:
     - recycling-plate-invar
 ---

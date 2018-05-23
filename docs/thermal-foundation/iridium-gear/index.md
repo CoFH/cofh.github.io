@@ -6,7 +6,7 @@ redirect_from:
   - /docs/iridium-gear/
 recipes:
   crafting:
-    - gear-iridium
+    - tf2-gear-iridium
   compactor-gear:
     - gear-iridium
 usage-recipes:

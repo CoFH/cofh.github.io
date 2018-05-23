@@ -28,32 +28,32 @@ recipes:
     - hardened-glass-enderium
 usage-recipes:
   crafting:
-    - upgrade-kit-reinforced
-    - machine-brewer
-    - device-diffuser
-    - flux-capacitor-reinforced
-    - reservoir-reinforced
-    - augment-machine-smelter-flux
-    - augment-machine-insolator-fertilizer
-    - augment-machine-refinery-oil
-    - augment-machine-charger-repair
-    - augment-machine-charger-wireless
-    - augment-dynamo-boiler
-    - fluxduct-reinforced-empty
-    - fluxduct-super-empty
-    - fluiduct-hardened
-    - fluiduct-hardened-transparent-from-opaque
-    - fluiduct-energy-transparent-from-opaque
-    - fluiduct-super
-    - fluiduct-super-transparent-from-opaque
-    - itemduct
-    - itemduct-transparent-from-opaque
-    - itemduct-fast-transparent-from-opaque
-    - itemduct-energy-transparent-from-opaque
-    - itemduct-energy-fast-transparent-from-opaque
-    - viaduct-frame
-    - viaduct-long-range
-    - watering-can-reinforced
+    - tf2-upgrade-kit-reinforced
+    - te5-machine-brewer
+    - te5-device-diffuser
+    - te5-flux-capacitor-reinforced
+    - te5-reservoir-reinforced
+    - te5-augment-machine-smelter-flux
+    - te5-augment-machine-insolator-fertilizer
+    - te5-augment-machine-refinery-oil
+    - te5-augment-machine-charger-repair
+    - te5-augment-machine-charger-wireless
+    - te5-augment-dynamo-boiler
+    - td2-fluxduct-reinforced-empty
+    - td2-fluxduct-super-empty
+    - td2-fluiduct-hardened
+    - td2-fluiduct-hardened-transparent-from-opaque
+    - td2-fluiduct-energy-transparent-from-opaque
+    - td2-fluiduct-super
+    - td2-fluiduct-super-transparent-from-opaque
+    - td2-itemduct
+    - td2-itemduct-transparent-from-opaque
+    - td2-itemduct-fast-transparent-from-opaque
+    - td2-itemduct-energy-transparent-from-opaque
+    - td2-itemduct-energy-fast-transparent-from-opaque
+    - td2-viaduct-frame
+    - td2-viaduct-long-range
+    - tc-watering-can-reinforced
 ---
 
 ![Hardened glass](/assets/images/thermal-foundation/hardened-glass.png){:style="height: 96px"}
