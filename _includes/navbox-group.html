@@ -2,7 +2,8 @@
     {% if include.group.title %}
         <th class="cofh-navbox-group-title">
             {% if include.group.url %}
-                {% include navbox-link.html page_url=include.page_url link_url=include.group.url text=include.group.title %}
+                {% capture group_url %}{{include.url_prefix}}{{include.group.url}}{% endcapture %}
+                {% include navbox-link.html page_url=include.page_url link_url=group_url text=include.group.title %}
             {% else %}
                 {{ include.group.title }}
             {% endif %}
@@ -22,7 +23,7 @@
                     {% endif %}
 
                     {% for item in include.group.items %}
-                        {% include navbox-item.html page_url=include.page_url item=item last=forloop.last %}
+                        {% include navbox-item.html page_url=include.page_url url_prefix=include.url_prefix item=item last=forloop.last %}
                     {% endfor %}
 
                     {% if include.group.groups %}
@@ -34,7 +35,7 @@
                     <table class="uk-table cofh-navbox-table cofh-navbox-subgroups-table">
                         <tbody>
                             {% for subgroup in include.group.groups %}
-                                {% include navbox-group.html group=subgroup page_url=include.page_url %}
+                                {% include navbox-group.html group=subgroup page_url=include.page_url url_prefix=include.url_prefix %}
                             {% endfor %}
                         </tbody>
                     </table>

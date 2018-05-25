@@ -1,957 +1,957 @@
-axe-metal:
-  name: Metal Axe
-  site: mc-wiki
-  url: Axe
-  prefix:
-    ingredient: 'any'
-  items:
-    - axe-iron
-    - axe-gold
-    - axe-copper
-    - axe-tin
-    - axe-silver
-    - axe-lead
-    - axe-aluminum
-    - axe-nickel
-    - axe-platinum
-    - axe-steel
-    - axe-electrum
-    - axe-invar
-    - axe-bronze
-    - axe-constantan
-bed:
+mc-bed:
   name: Bed
   site: mc-wiki
   url: Bed
   prefix:
     ingredient: 'any color'
   items:
-    - bed-white
-    - bed-orange
-    - bed-magenta
-    - bed-light-blue
-    - bed-yellow
-    - bed-lime
-    - bed-pink
-    - bed-gray
-    - bed-light-gray
-    - bed-cyan
-    - bed-purple
-    - bed-blue
-    - bed-brown
-    - bed-green
-    - bed-red
-    - bed-black
-boat:
+    - mc-bed-white
+    - mc-bed-orange
+    - mc-bed-magenta
+    - mc-bed-light-blue
+    - mc-bed-yellow
+    - mc-bed-lime
+    - mc-bed-pink
+    - mc-bed-gray
+    - mc-bed-light-gray
+    - mc-bed-cyan
+    - mc-bed-purple
+    - mc-bed-blue
+    - mc-bed-brown
+    - mc-bed-green
+    - mc-bed-red
+    - mc-bed-black
+mc-boat:
   name: Boat
   site: mc-wiki
   url: Boat
   prefix:
     ingredient: 'any'
   items:
-    - boat-oak
-    - boat-spruce
-    - boat-birch
-    - boat-jungle
-    - boat-acacia
-    - boat-dark-oak
-boots-metal:
-  name: Metal Boots
-  site: mc-wiki
-  url: Boots
-  prefix:
-    ingredient: 'any'
-  items:
-    - boots-iron
-    - boots-gold
-    - boots-copper
-    - boots-tin
-    - boots-silver
-    - boots-lead
-    - boots-aluminum
-    - boots-nickel
-    - boots-platinum
-    - boots-steel
-    - boots-electrum
-    - boots-invar
-    - boots-bronze
-    - boots-constantan
-bow-metal:
-  name: Metal Reinforced Bow
-  site: cofh
-  url: tf-reinforced-bows/
-  prefix:
-    ingredient: 'any'
-  items:
-    - bow-iron
-    - bow-gold
-    - bow-copper
-    - bow-tin
-    - bow-silver
-    - bow-lead
-    - bow-aluminum
-    - bow-nickel
-    - bow-platinum
-    - bow-steel
-    - bow-electrum
-    - bow-invar
-    - bow-bronze
-    - bow-constantan
-chestplate-metal:
-  name: Metal Chestplate
-  site: mc-wiki
-  url: Chestplate
-  prefix:
-    ingredient: 'any'
-  items:
-    - chestplate-iron
-    - chestplate-gold
-    - chestplate-copper
-    - chestplate-tin
-    - chestplate-silver
-    - chestplate-lead
-    - chestplate-aluminum
-    - chestplate-nickel
-    - chestplate-platinum
-    - chestplate-steel
-    - chestplate-electrum
-    - chestplate-invar
-    - chestplate-bronze
-    - chestplate-constantan
-coin-metal:
-  name: Metal Coin
-  prefix:
-    ingredient: 'any'
-  items:
-    - coin-iron
-    - coin-gold
-    - coin-copper
-    - coin-tin
-    - coin-silver
-    - coin-lead
-    - coin-aluminum
-    - coin-nickel
-    - coin-platinum
-    - coin-iridium
-    - coin-mithril
-    - coin-steel
-    - coin-electrum
-    - coin-invar
-    - coin-bronze
-    - coin-constantan
-    - coin-signalum
-    - coin-lumium
-    - coin-enderium
-concrete:
+    - mc-boat-oak
+    - mc-boat-spruce
+    - mc-boat-birch
+    - mc-boat-jungle
+    - mc-boat-acacia
+    - mc-boat-dark-oak
+mc-concrete:
   name: Concrete
   site: mc-wiki
   url: Concrete
   prefix:
     ingredient: 'any color'
   items:
-    - concrete-white
-    - concrete-orange
-    - concrete-magenta
-    - concrete-light-blue
-    - concrete-yellow
-    - concrete-lime
-    - concrete-pink
-    - concrete-gray
-    - concrete-light-gray
-    - concrete-cyan
-    - concrete-purple
-    - concrete-blue
-    - concrete-brown
-    - concrete-green
-    - concrete-red
-    - concrete-black
-concrete-powder:
+    - mc-concrete-white
+    - mc-concrete-orange
+    - mc-concrete-magenta
+    - mc-concrete-light-blue
+    - mc-concrete-yellow
+    - mc-concrete-lime
+    - mc-concrete-pink
+    - mc-concrete-gray
+    - mc-concrete-light-gray
+    - mc-concrete-cyan
+    - mc-concrete-purple
+    - mc-concrete-blue
+    - mc-concrete-brown
+    - mc-concrete-green
+    - mc-concrete-red
+    - mc-concrete-black
+mc-concrete-powder:
   name: Concrete Powder
   site: mc-wiki
   url: Concrete_Powder
   prefix:
     ingredient: 'any color'
   items:
-    - concrete-powder-white
-    - concrete-powder-orange
-    - concrete-powder-magenta
-    - concrete-powder-light-blue
-    - concrete-powder-yellow
-    - concrete-powder-lime
-    - concrete-powder-pink
-    - concrete-powder-gray
-    - concrete-powder-light-gray
-    - concrete-powder-cyan
-    - concrete-powder-purple
-    - concrete-powder-blue
-    - concrete-powder-brown
-    - concrete-powder-green
-    - concrete-powder-red
-    - concrete-powder-black
-door-wood:
+    - mc-concrete-powder-white
+    - mc-concrete-powder-orange
+    - mc-concrete-powder-magenta
+    - mc-concrete-powder-light-blue
+    - mc-concrete-powder-yellow
+    - mc-concrete-powder-lime
+    - mc-concrete-powder-pink
+    - mc-concrete-powder-gray
+    - mc-concrete-powder-light-gray
+    - mc-concrete-powder-cyan
+    - mc-concrete-powder-purple
+    - mc-concrete-powder-blue
+    - mc-concrete-powder-brown
+    - mc-concrete-powder-green
+    - mc-concrete-powder-red
+    - mc-concrete-powder-black
+mc-door-wood:
   name: Wooden Door
   site: mc-wiki
   url: Door
   prefix:
     ingredient: 'any'
   items:
-    - door-wood-oak
-    - door-wood-spruce
-    - door-wood-birch
-    - door-wood-jungle
-    - door-wood-acacia
-    - door-wood-dark-oak
-dust-metal:
-  name: Metal Dust
-  prefix:
-    ingredient: 'any'
-  items:
-    - dust-iron
-    - dust-gold
-    - dust-copper
-    - dust-tin
-    - dust-silver
-    - dust-lead
-    - dust-aluminum
-    - dust-nickel
-    - dust-platinum
-    - dust-iridium
-    - dust-mithril
-    - dust-steel
-    - dust-electrum
-    - dust-invar
-    - dust-bronze
-    - dust-constantan
-    - dust-signalum
-    - dust-lumium
-    - dust-enderium
-dye:
+    - mc-door-wood-oak
+    - mc-door-wood-spruce
+    - mc-door-wood-birch
+    - mc-door-wood-jungle
+    - mc-door-wood-acacia
+    - mc-door-wood-dark-oak
+mc-dye:
   name: Dye
   site: mc-wiki
   url: Dye
   prefix:
     ingredient: 'any'
   items:
-    - bone-meal
-    - orange-dye
-    - magenta-dye
-    - light-blue-dye
-    - dandelion-yellow
-    - lime-dye
-    - pink-dye
-    - gray-dye
-    - light-gray-dye
-    - cyan-dye
-    - purple-dye
-    - lapis-lazuli
-    - cocoa-beans
-    - cactus-green
-    - rose-red
-    - ink-sac
-fence-wood:
+    - mc-bone-meal
+    - mc-orange-dye
+    - mc-magenta-dye
+    - mc-light-blue-dye
+    - mc-dandelion-yellow
+    - mc-lime-dye
+    - mc-pink-dye
+    - mc-gray-dye
+    - mc-light-gray-dye
+    - mc-cyan-dye
+    - mc-purple-dye
+    - mc-lapis-lazuli
+    - mc-cocoa-beans
+    - mc-cactus-green
+    - mc-rose-red
+    - mc-ink-sac
+mc-fence:
   name: Fence
   site: mc-wiki
   url: Fence
   prefix:
     ingredient: 'any wooden'
   items:
-    - fence-oak
-    - fence-spruce
-    - fence-birch
-    - fence-jungle
-    - fence-acacia
-    - fence-dark-oak
-fence-gate:
+    - mc-fence-oak
+    - mc-fence-spruce
+    - mc-fence-birch
+    - mc-fence-jungle
+    - mc-fence-acacia
+    - mc-fence-dark-oak
+mc-fence-gate:
   name: Fence Gate
   site: mc-wiki
   url: Fence_Gate
   prefix:
     ingredient: 'any'
   items:
-    - fence-gate-oak
-    - fence-gate-spruce
-    - fence-gate-birch
-    - fence-gate-jungle
-    - fence-gate-acacia
-    - fence-gate-dark-oak
-fishing-rod-metal:
-  name: Metal Fishing Rod
-  site: cofh
-  url: tf-fishing-rods/
-  prefix:
-    ingredient: 'any'
-  items:
-    - fishing-rod-iron
-    - fishing-rod-gold
-    - fishing-rod-copper
-    - fishing-rod-tin
-    - fishing-rod-silver
-    - fishing-rod-lead
-    - fishing-rod-aluminum
-    - fishing-rod-nickel
-    - fishing-rod-platinum
-    - fishing-rod-steel
-    - fishing-rod-electrum
-    - fishing-rod-invar
-    - fishing-rod-bronze
-    - fishing-rod-constantan
-flower:
+    - mc-fence-gate-oak
+    - mc-fence-gate-spruce
+    - mc-fence-gate-birch
+    - mc-fence-gate-jungle
+    - mc-fence-gate-acacia
+    - mc-fence-gate-dark-oak
+mc-flower:
   name: Flower
   site: mc-wiki
   url: Flower
   prefix:
     ingredient: 'any'
   items:
-    - dandelion
-    - poppy
-    - blue-orchid
-    - allium
-    - azure-bluet
-    - red-tulip
-    - orange-tulip
-    - white-tulip
-    - pink-tulip
-    - oxeye-daisy
-food-raw:
-  name: Raw Food
-  site: mc-wiki
-  url: Food
-  items:
-    - potato
-    - raw-porkchop
-    - raw-beef
-    - raw-chicken
-    - raw-mutton
-    - raw-rabbit
-    - raw-fish
-    - raw-salmon
-food-cooked:
-  name: Cooked Food
-  site: mc-wiki
-  url: Food
-  items:
-    - baked-potato
-    - cooked-porkchop
-    - steak
-    - cooked-chicken
-    - cooked-mutton
-    - cooked-rabbit
-    - cooked-fish
-    - cooked-salmon
-gear-metal:
-  name: Metal Gear
-  prefix:
-    ingredient: 'any'
-  items:
-    - gear-iron
-    - gear-gold
-    - gear-copper
-    - gear-tin
-    - gear-silver
-    - gear-lead
-    - gear-aluminum
-    - gear-nickel
-    - gear-platinum
-    - gear-iridium
-    - gear-mithril
-    - gear-steel
-    - gear-electrum
-    - gear-invar
-    - gear-bronze
-    - gear-constantan
-    - gear-signalum
-    - gear-lumium
-    - gear-enderium
-glass-stained:
-  name: Stained Glass
-  site: mc-wiki
-  url: Glass
-  prefix:
-    ingredient: 'any color'
-  items:
-    - glass-stained-white
-    - glass-stained-orange
-    - glass-stained-magenta
-    - glass-stained-light-blue
-    - glass-stained-yellow
-    - glass-stained-lime
-    - glass-stained-pink
-    - glass-stained-gray
-    - glass-stained-light-gray
-    - glass-stained-cyan
-    - glass-stained-purple
-    - glass-stained-blue
-    - glass-stained-brown
-    - glass-stained-green
-    - glass-stained-red
-    - glass-stained-black
-hammer-metal:
-  name: Metal Hammer
-  site: cofh
-  url: tf-hammers/
-  prefix:
-    ingredient: 'any'
-  items:
-    - hammer-iron
-    - hammer-gold
-    - hammer-copper
-    - hammer-tin
-    - hammer-silver
-    - hammer-lead
-    - hammer-aluminum
-    - hammer-nickel
-    - hammer-platinum
-    - hammer-steel
-    - hammer-electrum
-    - hammer-invar
-    - hammer-bronze
-    - hammer-constantan
-hardened-glass:
-  name: Hardened Glass
-  site: cofh
-  url: hardened-glass/
-  items:
-    - hardened-glass
-    - hardened-glass-copper
-    - hardened-glass-tin
-    - hardened-glass-silver
-    - hardened-glass-aluminum
-    - hardened-glass-nickel
-    - hardened-glass-platinum
-    - hardened-glass-iridium
-    - hardened-glass-steel
-    - hardened-glass-electrum
-    - hardened-glass-invar
-    - hardened-glass-bronze
-    - hardened-glass-constantan
-    - hardened-glass-signalum
-    - hardened-glass-lumium
-    - hardened-glass-enderium
-helmet-metal:
-  name: Metal Helmet
-  site: mc-wiki
-  url: Helmet
-  prefix:
-    ingredient: 'any'
-  items:
-    - helmet-iron
-    - helmet-gold
-    - helmet-copper
-    - helmet-tin
-    - helmet-silver
-    - helmet-lead
-    - helmet-aluminum
-    - helmet-nickel
-    - helmet-platinum
-    - helmet-steel
-    - helmet-electrum
-    - helmet-invar
-    - helmet-bronze
-    - helmet-constantan
-hoe-metal:
-  name: Metal Hoe
-  site: mc-wiki
-  url: Hoe
-  prefix:
-    ingredient: 'any'
-  items:
-    - hoe-iron
-    - hoe-gold
-    - hoe-copper
-    - hoe-tin
-    - hoe-silver
-    - hoe-lead
-    - hoe-aluminum
-    - hoe-nickel
-    - hoe-platinum
-    - hoe-steel
-    - hoe-electrum
-    - hoe-invar
-    - hoe-bronze
-    - hoe-constantan
-ingot-metal:
-  name: Metal Ingot
-  prefix:
-    ingredient: 'any'
-  items:
-    - ingot-iron
-    - ingot-gold
-    - ingot-copper
-    - ingot-tin
-    - ingot-silver
-    - ingot-lead
-    - ingot-aluminum
-    - ingot-nickel
-    - ingot-platinum
-    - ingot-iridium
-    - ingot-mithril
-    - ingot-steel
-    - ingot-electrum
-    - ingot-invar
-    - ingot-bronze
-    - ingot-constantan
-    - ingot-signalum
-    - ingot-lumium
-    - ingot-enderium
-ingot-metal-equipment:
-  name: Metal Ingot
-  items:
-    - ingot-iron
-    - ingot-gold
-    - ingot-copper
-    - ingot-tin
-    - ingot-silver
-    - ingot-lead
-    - ingot-aluminum
-    - ingot-nickel
-    - ingot-platinum
-    - ingot-steel
-    - ingot-electrum
-    - ingot-invar
-    - ingot-bronze
-    - ingot-constantan
-leaves:
-  name: Leaves
-  site: mc-wiki
-  url: Leaves
-  prefix:
-    ingredient: 'any'
-  items:
-    - leaves-oak
-    - leaves-spruce
-    - leaves-birch
-    - leaves-jungle
-    - leaves-acacia
-    - leaves-dark-oak
-leggings-metal:
-  name: Metal Leggings
-  site: mc-wiki
-  url: Leggings
-  prefix:
-    ingredient: 'any'
-  items:
-    - leggings-iron
-    - leggings-gold
-    - leggings-copper
-    - leggings-tin
-    - leggings-silver
-    - leggings-lead
-    - leggings-aluminum
-    - leggings-nickel
-    - leggings-platinum
-    - leggings-steel
-    - leggings-electrum
-    - leggings-invar
-    - leggings-bronze
-    - leggings-constantan
-metal-ore:
-  name: Metal Ore
-  prefix:
-    ingredient: 'any'
-  items:
-    - ore-iron
-    - ore-gold
-    - ore-copper
-    - ore-tin
-    - ore-silver
-    - ore-lead
-    - ore-aluminum
-    - ore-nickel
-    - ore-platinum
-    - ore-iridium
-    - ore-mithril
-metal-ore-dust:
-  name: Metal Ore Dust
-  prefix:
-    ingredient: 'any'
-  items:
-    - dust-iron
-    - dust-gold
-    - dust-copper
-    - dust-tin
-    - dust-silver
-    - dust-lead
-    - dust-aluminum
-    - dust-nickel
-    - dust-platinum
-    - dust-iridium
-    - dust-mithril
-metal-ore-ingot:
-  name: Metal Ore Ingot
-  prefix:
-    ingredient: 'any'
-  items:
-    - ingot-iron
-    - ingot-gold
-    - ingot-copper
-    - ingot-tin
-    - ingot-silver
-    - ingot-lead
-    - ingot-aluminum
-    - ingot-nickel
-    - ingot-platinum
-    - ingot-iridium
-    - ingot-mithril
-mushroom:
-  name: Mushroom
-  site: mc-wiki
-  url: Mushroom
-  prefix:
-    ingredient: 'any'
-  items:
-    - mushroom-brown
-    - mushroom-red
-nether-quartz-block:
-  name: Block of Quartz
-  site: mc-wiki
-  url: Block_of_Quartz
-  items:
-    - nether-quartz-block
-    - nether-quartz-block-chiseled
-    - nether-quartz-block-pillar
-nugget-metal:
-  name: Metal Nugget
-  prefix:
-    ingredient: 'any'
-  items:
-    - nugget-iron
-    - nugget-gold
-    - nugget-copper
-    - nugget-tin
-    - nugget-silver
-    - nugget-lead
-    - nugget-aluminum
-    - nugget-nickel
-    - nugget-platinum
-    - nugget-iridium
-    - nugget-mithril
-    - nugget-steel
-    - nugget-electrum
-    - nugget-invar
-    - nugget-bronze
-    - nugget-constantan
-    - nugget-signalum
-    - nugget-lumium
-    - nugget-enderium
-pickaxe-metal:
-  name: Metal Pickaxe
-  site: mc-wiki
-  url: Pickaxe
-  prefix:
-    ingredient: 'any'
-  items:
-    - pickaxe-iron
-    - pickaxe-gold
-    - pickaxe-copper
-    - pickaxe-tin
-    - pickaxe-silver
-    - pickaxe-lead
-    - pickaxe-aluminum
-    - pickaxe-nickel
-    - pickaxe-platinum
-    - pickaxe-steel
-    - pickaxe-electrum
-    - pickaxe-invar
-    - pickaxe-bronze
-    - pickaxe-constantan
-pigment:
-  name: Pigment
-  site: cofh
-  url: pigments/
-  prefix:
-    ingredient: 'any'
-  items:
-    - pigment-white
-    - pigment-orange
-    - pigment-magenta
-    - pigment-light-blue
-    - pigment-yellow
-    - pigment-lime
-    - pigment-pink
-    - pigment-gray
-    - pigment-light-gray
-    - pigment-cyan
-    - pigment-purple
-    - pigment-blue
-    - pigment-brown
-    - pigment-green
-    - pigment-red
-    - pigment-black
-plate-metal:
-  name: Metal Plate
-  prefix:
-    ingredient: 'any'
-  items:
-    - plate-iron
-    - plate-gold
-    - plate-copper
-    - plate-tin
-    - plate-silver
-    - plate-lead
-    - plate-aluminum
-    - plate-nickel
-    - plate-platinum
-    - plate-iridium
-    - plate-mithril
-    - plate-steel
-    - plate-electrum
-    - plate-invar
-    - plate-bronze
-    - plate-constantan
-    - plate-signalum
-    - plate-lumium
-    - plate-enderium
-red-sandstone:
-  name: Red Sandstone
-  site: mc-wiki
-  url: Sandstone
-  items:
-    - red-sandstone
-    - red-sandstone-chiseled
-    - red-sandstone-smooth
-rockwool:
-  name: Rockwool
-  site: cofh
-  url: rockwool/
-  prefix:
-    ingredient: 'any color'
-  items:
-    - rockwool-white
-    - rockwool-orange
-    - rockwool-magenta
-    - rockwool-light-blue
-    - rockwool-yellow
-    - rockwool-lime
-    - rockwool-pink
-    - rockwool-gray
-    - rockwool-light-gray
-    - rockwool-cyan
-    - rockwool-purple
-    - rockwool-blue
-    - rockwool-brown
-    - rockwool-green
-    - rockwool-red
-    - rockwool-black
-sandstone:
-  name: Sandstone
-  site: mc-wiki
-  url: Sandstone
-  items:
-    - sandstone
-    - sandstone-chiseled
-    - sandstone-smooth
-sapling:
-  name: Sapling
-  site: mc-wiki
-  url: Sapling
-  prefix:
-    ingredient: 'any'
-  items:
-    - sapling-oak
-    - sapling-spruce
-    - sapling-birch
-    - sapling-jungle
-    - sapling-acacia
-    - sapling-dark-oak
-shears-metal:
-  name: Metal Shears
-  site: cofh
-  url: tf-shears/
-  prefix:
-    ingredient: 'any'
-  items:
-    - shears
-    - shears-gold
-    - shears-copper
-    - shears-tin
-    - shears-silver
-    - shears-lead
-    - shears-aluminum
-    - shears-nickel
-    - shears-platinum
-    - shears-steel
-    - shears-electrum
-    - shears-invar
-    - shears-bronze
-    - shears-constantan
-shield-metal:
-  name: Metal Shield
-  site: cofh
-  url: tf-shields/
-  prefix:
-    ingredient: 'any'
-  items:
-    - shield-iron
-    - shield-gold
-    - shield-copper
-    - shield-tin
-    - shield-silver
-    - shield-lead
-    - shield-aluminum
-    - shield-nickel
-    - shield-platinum
-    - shield-steel
-    - shield-electrum
-    - shield-invar
-    - shield-bronze
-    - shield-constantan
-shovel-metal:
-  name: Metal Shovel
-  site: mc-wiki
-  url: Shovel
-  prefix:
-    ingredient: 'any'
-  items:
-    - shovel-iron
-    - shovel-gold
-    - shovel-copper
-    - shovel-tin
-    - shovel-silver
-    - shovel-lead
-    - shovel-aluminum
-    - shovel-nickel
-    - shovel-platinum
-    - shovel-steel
-    - shovel-electrum
-    - shovel-invar
-    - shovel-bronze
-    - shovel-constantan
-sickle-metal:
-  name: Metal Sickle
-  site: cofh
-  url: tf-sickles/
-  prefix:
-    ingredient: 'any'
-  items:
-    - sickle-iron
-    - sickle-gold
-    - sickle-copper
-    - sickle-tin
-    - sickle-silver
-    - sickle-lead
-    - sickle-aluminum
-    - sickle-nickel
-    - sickle-platinum
-    - sickle-steel
-    - sickle-electrum
-    - sickle-invar
-    - sickle-bronze
-    - sickle-constantan
-storage-block-metal:
-  name: Block of Metal
-  prefix:
-    ingredient: 'any'
-  items:
-    - storage-block-iron
-    - storage-block-gold
-    - storage-block-copper
-    - storage-block-tin
-    - storage-block-silver
-    - storage-block-lead
-    - storage-block-aluminum
-    - storage-block-nickel
-    - storage-block-platinum
-    - storage-block-iridium
-    - storage-block-mithril
-    - storage-block-steel
-    - storage-block-electrum
-    - storage-block-invar
-    - storage-block-bronze
-    - storage-block-constantan
-    - storage-block-signalum
-    - storage-block-lumium
-    - storage-block-enderium
-sword-metal:
-  name: Metal Sword
-  site: mc-wiki
-  url: Sword
-  prefix:
-    ingredient: 'any'
-  items:
-    - sword-iron
-    - sword-gold
-    - sword-copper
-    - sword-tin
-    - sword-silver
-    - sword-lead
-    - sword-aluminum
-    - sword-nickel
-    - sword-platinum
-    - sword-steel
-    - sword-electrum
-    - sword-invar
-    - sword-bronze
-    - sword-constantan
-tall-flower:
+    - mc-flower-dandelion
+    - mc-flower-poppy
+    - mc-flower-blue-orchid
+    - mc-flower-allium
+    - mc-flower-azure-bluet
+    - mc-flower-tulip-red
+    - mc-flower-tulip-orange
+    - mc-flower-tulip-white
+    - mc-flower-tulip-pink
+    - mc-flower-oxeye-daisy
+mc-flower-tall:
   name: Tall Flower
   site: mc-wiki
   url: Flower
   prefix:
     ingredient: 'any'
   items:
-    - sunflower
-    - lilac
-    - rose-bush
-    - peony
-wood-log:
+    - mc-flower-sunflower
+    - mc-flower-lilac
+    - mc-flower-rose-bush
+    - mc-flower-peony
+mc-food-raw:
+  name: Raw Food
+  site: mc-wiki
+  url: Food
+  items:
+    - mc-potato
+    - mc-porkchop-raw
+    - mc-beef-raw
+    - mc-chicken-raw
+    - mc-mutton-raw
+    - mc-rabbit-raw
+    - mc-fish-raw
+    - mc-salmon-raw
+mc-food-cooked:
+  name: Cooked Food
+  site: mc-wiki
+  url: Food
+  items:
+    - mc-potato-baked
+    - mc-porkchop-cooked
+    - mc-beef-cooked
+    - mc-chicken-cooked
+    - mc-mutton-cooked
+    - mc-rabbit-cooked
+    - mc-fish-cooked
+    - mc-salmon-cooked
+mc-glass-stained:
+  name: Stained Glass
+  site: mc-wiki
+  url: Glass
+  prefix:
+    ingredient: 'any color'
+  items:
+    - mc-glass-stained-white
+    - mc-glass-stained-orange
+    - mc-glass-stained-magenta
+    - mc-glass-stained-light-blue
+    - mc-glass-stained-yellow
+    - mc-glass-stained-lime
+    - mc-glass-stained-pink
+    - mc-glass-stained-gray
+    - mc-glass-stained-light-gray
+    - mc-glass-stained-cyan
+    - mc-glass-stained-purple
+    - mc-glass-stained-blue
+    - mc-glass-stained-brown
+    - mc-glass-stained-green
+    - mc-glass-stained-red
+    - mc-glass-stained-black
+mc-leaves:
+  name: Leaves
+  site: mc-wiki
+  url: Leaves
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-leaves-oak
+    - mc-leaves-spruce
+    - mc-leaves-birch
+    - mc-leaves-jungle
+    - mc-leaves-acacia
+    - mc-leaves-dark-oak
+mc-mushroom:
+  name: Mushroom
+  site: mc-wiki
+  url: Mushroom
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-mushroom-brown
+    - mc-mushroom-red
+mc-nether-quartz-block:
+  name: Block of Quartz
+  site: mc-wiki
+  url: Block_of_Quartz
+  items:
+    - mc-nether-quartz-block
+    - mc-nether-quartz-block-chiseled
+    - mc-nether-quartz-block-pillar
+mc-sandstone:
+  name: Sandstone
+  site: mc-wiki
+  url: Sandstone
+  items:
+    - mc-sandstone
+    - mc-sandstone-chiseled
+    - mc-sandstone-smooth
+mc-sandstone-red:
+  name: Red Sandstone
+  site: mc-wiki
+  url: Sandstone
+  items:
+    - mc-sandstone-red
+    - mc-sandstone-red-chiseled
+    - mc-sandstone-red-smooth
+mc-sapling:
+  name: Sapling
+  site: mc-wiki
+  url: Sapling
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-sapling-oak
+    - mc-sapling-spruce
+    - mc-sapling-birch
+    - mc-sapling-jungle
+    - mc-sapling-acacia
+    - mc-sapling-dark-oak
+mc-wood-log:
   name: Wood
   site: mc-wiki
   url: Wood
   prefix:
     ingredient: 'any'
   items:
-    - wood-log-oak
-    - wood-log-spruce
-    - wood-log-birch
-    - wood-log-jungle
-    - wood-log-acacia
-    - wood-log-dark-oak
-wood-planks:
+    - mc-wood-log-oak
+    - mc-wood-log-spruce
+    - mc-wood-log-birch
+    - mc-wood-log-jungle
+    - mc-wood-log-acacia
+    - mc-wood-log-dark-oak
+mc-wood-planks:
   name: Wood Planks
   site: mc-wiki
   url: Wood_Planks
   prefix:
     ingredient: 'any'
   items:
-    - wood-planks-oak
-    - wood-planks-spruce
-    - wood-planks-birch
-    - wood-planks-jungle
-    - wood-planks-acacia
-    - wood-planks-dark-oak
-wood-stairs:
+    - mc-wood-planks-oak
+    - mc-wood-planks-spruce
+    - mc-wood-planks-birch
+    - mc-wood-planks-jungle
+    - mc-wood-planks-acacia
+    - mc-wood-planks-dark-oak
+mc-wood-stairs:
   name: Wood Stairs
   site: mc-wiki
   url: Stairs
   prefix:
     ingredient: 'any'
   items:
-    - wood-stairs-oak
-    - wood-stairs-spruce
-    - wood-stairs-birch
-    - wood-stairs-jungle
-    - wood-stairs-acacia
-    - wood-stairs-dark-oak
-wool:
+    - mc-wood-stairs-oak
+    - mc-wood-stairs-spruce
+    - mc-wood-stairs-birch
+    - mc-wood-stairs-jungle
+    - mc-wood-stairs-acacia
+    - mc-wood-stairs-dark-oak
+mc-wool:
   name: Wool
   site: mc-wiki
   url: Wool
   prefix:
     ingredient: 'any color'
   items:
-    - wool-white
-    - wool-orange
-    - wool-magenta
-    - wool-light-blue
-    - wool-yellow
-    - wool-lime
-    - wool-pink
-    - wool-gray
-    - wool-light-gray
-    - wool-cyan
-    - wool-purple
-    - wool-blue
-    - wool-brown
-    - wool-green
-    - wool-red
-    - wool-black
+    - mc-wool-white
+    - mc-wool-orange
+    - mc-wool-magenta
+    - mc-wool-light-blue
+    - mc-wool-yellow
+    - mc-wool-lime
+    - mc-wool-pink
+    - mc-wool-gray
+    - mc-wool-light-gray
+    - mc-wool-cyan
+    - mc-wool-purple
+    - mc-wool-blue
+    - mc-wool-brown
+    - mc-wool-green
+    - mc-wool-red
+    - mc-wool-black
+tf2-coin-metal:
+  name: Metal Coin
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-coin-iron
+    - tf2-coin-gold
+    - tf2-coin-copper
+    - tf2-coin-tin
+    - tf2-coin-silver
+    - tf2-coin-lead
+    - tf2-coin-aluminum
+    - tf2-coin-nickel
+    - tf2-coin-platinum
+    - tf2-coin-iridium
+    - tf2-coin-mithril
+    - tf2-coin-steel
+    - tf2-coin-electrum
+    - tf2-coin-invar
+    - tf2-coin-bronze
+    - tf2-coin-constantan
+    - tf2-coin-signalum
+    - tf2-coin-lumium
+    - tf2-coin-enderium
+tf2-dust-metal:
+  name: Metal Dust
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-dust-iron
+    - tf2-dust-gold
+    - tf2-dust-copper
+    - tf2-dust-tin
+    - tf2-dust-silver
+    - tf2-dust-lead
+    - tf2-dust-aluminum
+    - tf2-dust-nickel
+    - tf2-dust-platinum
+    - tf2-dust-iridium
+    - tf2-dust-mithril
+    - tf2-dust-steel
+    - tf2-dust-electrum
+    - tf2-dust-invar
+    - tf2-dust-bronze
+    - tf2-dust-constantan
+    - tf2-dust-signalum
+    - tf2-dust-lumium
+    - tf2-dust-enderium
+tf2-gear-metal:
+  name: Metal Gear
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-gear-iron
+    - tf2-gear-gold
+    - tf2-gear-copper
+    - tf2-gear-tin
+    - tf2-gear-silver
+    - tf2-gear-lead
+    - tf2-gear-aluminum
+    - tf2-gear-nickel
+    - tf2-gear-platinum
+    - tf2-gear-iridium
+    - tf2-gear-mithril
+    - tf2-gear-steel
+    - tf2-gear-electrum
+    - tf2-gear-invar
+    - tf2-gear-bronze
+    - tf2-gear-constantan
+    - tf2-gear-signalum
+    - tf2-gear-lumium
+    - tf2-gear-enderium
+tf2-hardened-glass:
+  name: Hardened Glass
+  site: docs-tf2
+  url: hardened-glass/
+  items:
+    - tf2-hardened-glass
+    - tf2-hardened-glass-copper
+    - tf2-hardened-glass-tin
+    - tf2-hardened-glass-silver
+    - tf2-hardened-glass-aluminum
+    - tf2-hardened-glass-nickel
+    - tf2-hardened-glass-platinum
+    - tf2-hardened-glass-iridium
+    - tf2-hardened-glass-steel
+    - tf2-hardened-glass-electrum
+    - tf2-hardened-glass-invar
+    - tf2-hardened-glass-bronze
+    - tf2-hardened-glass-constantan
+    - tf2-hardened-glass-signalum
+    - tf2-hardened-glass-lumium
+    - tf2-hardened-glass-enderium
+tf2-pigment:
+  name: Pigment
+  site: docs-tf2
+  url: pigments/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-pigment-white
+    - tf2-pigment-orange
+    - tf2-pigment-magenta
+    - tf2-pigment-light-blue
+    - tf2-pigment-yellow
+    - tf2-pigment-lime
+    - tf2-pigment-pink
+    - tf2-pigment-gray
+    - tf2-pigment-light-gray
+    - tf2-pigment-cyan
+    - tf2-pigment-purple
+    - tf2-pigment-blue
+    - tf2-pigment-brown
+    - tf2-pigment-green
+    - tf2-pigment-red
+    - tf2-pigment-black
+tf2-plate-metal:
+  name: Metal Plate
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-plate-iron
+    - tf2-plate-gold
+    - tf2-plate-copper
+    - tf2-plate-tin
+    - tf2-plate-silver
+    - tf2-plate-lead
+    - tf2-plate-aluminum
+    - tf2-plate-nickel
+    - tf2-plate-platinum
+    - tf2-plate-iridium
+    - tf2-plate-mithril
+    - tf2-plate-steel
+    - tf2-plate-electrum
+    - tf2-plate-invar
+    - tf2-plate-bronze
+    - tf2-plate-constantan
+    - tf2-plate-signalum
+    - tf2-plate-lumium
+    - tf2-plate-enderium
+tf2-rockwool:
+  name: Rockwool
+  site: docs-tf2
+  url: rockwool/
+  prefix:
+    ingredient: 'any color'
+  items:
+    - tf2-rockwool-white
+    - tf2-rockwool-orange
+    - tf2-rockwool-magenta
+    - tf2-rockwool-light-blue
+    - tf2-rockwool-yellow
+    - tf2-rockwool-lime
+    - tf2-rockwool-pink
+    - tf2-rockwool-gray
+    - tf2-rockwool-light-gray
+    - tf2-rockwool-cyan
+    - tf2-rockwool-purple
+    - tf2-rockwool-blue
+    - tf2-rockwool-brown
+    - tf2-rockwool-green
+    - tf2-rockwool-red
+    - tf2-rockwool-black
+armor-helmet-metal-with-tf2:
+  name: Metal Helmet
+  site: mc-wiki
+  url: Helmet
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-armor-helmet-iron
+    - mc-armor-helmet-gold
+    - tf2-armor-helmet-copper
+    - tf2-armor-helmet-tin
+    - tf2-armor-helmet-silver
+    - tf2-armor-helmet-lead
+    - tf2-armor-helmet-aluminum
+    - tf2-armor-helmet-nickel
+    - tf2-armor-helmet-platinum
+    - tf2-armor-helmet-steel
+    - tf2-armor-helmet-electrum
+    - tf2-armor-helmet-invar
+    - tf2-armor-helmet-bronze
+    - tf2-armor-helmet-constantan
+armor-chestplate-metal-with-tf2:
+  name: Metal Chestplate
+  site: mc-wiki
+  url: Chestplate
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-armor-chestplate-iron
+    - mc-armor-chestplate-gold
+    - tf2-armor-chestplate-copper
+    - tf2-armor-chestplate-tin
+    - tf2-armor-chestplate-silver
+    - tf2-armor-chestplate-lead
+    - tf2-armor-chestplate-aluminum
+    - tf2-armor-chestplate-nickel
+    - tf2-armor-chestplate-platinum
+    - tf2-armor-chestplate-steel
+    - tf2-armor-chestplate-electrum
+    - tf2-armor-chestplate-invar
+    - tf2-armor-chestplate-bronze
+    - tf2-armor-chestplate-constantan
+armor-leggings-metal-with-tf2:
+  name: Metal Leggings
+  site: mc-wiki
+  url: Leggings
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-armor-leggings-iron
+    - mc-armor-leggings-gold
+    - tf2-armor-leggings-copper
+    - tf2-armor-leggings-tin
+    - tf2-armor-leggings-silver
+    - tf2-armor-leggings-lead
+    - tf2-armor-leggings-aluminum
+    - tf2-armor-leggings-nickel
+    - tf2-armor-leggings-platinum
+    - tf2-armor-leggings-steel
+    - tf2-armor-leggings-electrum
+    - tf2-armor-leggings-invar
+    - tf2-armor-leggings-bronze
+    - tf2-armor-leggings-constantan
+armor-boots-metal-with-tf2:
+  name: Metal Boots
+  site: mc-wiki
+  url: Boots
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-armor-boots-iron
+    - mc-armor-boots-gold
+    - tf2-armor-boots-copper
+    - tf2-armor-boots-tin
+    - tf2-armor-boots-silver
+    - tf2-armor-boots-lead
+    - tf2-armor-boots-aluminum
+    - tf2-armor-boots-nickel
+    - tf2-armor-boots-platinum
+    - tf2-armor-boots-steel
+    - tf2-armor-boots-electrum
+    - tf2-armor-boots-invar
+    - tf2-armor-boots-bronze
+    - tf2-armor-boots-constantan
+dust-ore-metal-with-tf2:
+  name: Metal Ore Dust
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-dust-iron
+    - tf2-dust-gold
+    - tf2-dust-copper
+    - tf2-dust-tin
+    - tf2-dust-silver
+    - tf2-dust-lead
+    - tf2-dust-aluminum
+    - tf2-dust-nickel
+    - tf2-dust-platinum
+    - tf2-dust-iridium
+    - tf2-dust-mithril
+ingot-metal-with-tf2:
+  name: Metal Ingot
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-ingot-iron
+    - mc-ingot-gold
+    - tf2-ingot-copper
+    - tf2-ingot-tin
+    - tf2-ingot-silver
+    - tf2-ingot-lead
+    - tf2-ingot-aluminum
+    - tf2-ingot-nickel
+    - tf2-ingot-platinum
+    - tf2-ingot-iridium
+    - tf2-ingot-mithril
+    - tf2-ingot-steel
+    - tf2-ingot-electrum
+    - tf2-ingot-invar
+    - tf2-ingot-bronze
+    - tf2-ingot-constantan
+    - tf2-ingot-signalum
+    - tf2-ingot-lumium
+    - tf2-ingot-enderium
+ingot-equipment-metal-with-tf2:
+  name: Metal Ingot
+  items:
+    - mc-ingot-iron
+    - mc-ingot-gold
+    - tf2-ingot-copper
+    - tf2-ingot-tin
+    - tf2-ingot-silver
+    - tf2-ingot-lead
+    - tf2-ingot-aluminum
+    - tf2-ingot-nickel
+    - tf2-ingot-platinum
+    - tf2-ingot-steel
+    - tf2-ingot-electrum
+    - tf2-ingot-invar
+    - tf2-ingot-bronze
+    - tf2-ingot-constantan
+ingot-ore-metal-with-tf2:
+  name: Metal Ore Ingot
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-ingot-iron
+    - mc-ingot-gold
+    - tf2-ingot-copper
+    - tf2-ingot-tin
+    - tf2-ingot-silver
+    - tf2-ingot-lead
+    - tf2-ingot-aluminum
+    - tf2-ingot-nickel
+    - tf2-ingot-platinum
+    - tf2-ingot-iridium
+    - tf2-ingot-mithril
+nugget-metal-with-tf2:
+  name: Metal Nugget
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-nugget-iron
+    - mc-nugget-gold
+    - tf2-nugget-copper
+    - tf2-nugget-tin
+    - tf2-nugget-silver
+    - tf2-nugget-lead
+    - tf2-nugget-aluminum
+    - tf2-nugget-nickel
+    - tf2-nugget-platinum
+    - tf2-nugget-iridium
+    - tf2-nugget-mithril
+    - tf2-nugget-steel
+    - tf2-nugget-electrum
+    - tf2-nugget-invar
+    - tf2-nugget-bronze
+    - tf2-nugget-constantan
+    - tf2-nugget-signalum
+    - tf2-nugget-lumium
+    - tf2-nugget-enderium
+ore-metal-with-tf2:
+  name: Metal Ore
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-ore-iron
+    - mc-ore-gold
+    - tf2-ore-copper
+    - tf2-ore-tin
+    - tf2-ore-silver
+    - tf2-ore-lead
+    - tf2-ore-aluminum
+    - tf2-ore-nickel
+    - tf2-ore-platinum
+    - tf2-ore-iridium
+    - tf2-ore-mithril
+storage-block-metal-with-tf2:
+  name: Block of Metal
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-storage-block-iron
+    - mc-storage-block-gold
+    - tf2-storage-block-copper
+    - tf2-storage-block-tin
+    - tf2-storage-block-silver
+    - tf2-storage-block-lead
+    - tf2-storage-block-aluminum
+    - tf2-storage-block-nickel
+    - tf2-storage-block-platinum
+    - tf2-storage-block-iridium
+    - tf2-storage-block-mithril
+    - tf2-storage-block-steel
+    - tf2-storage-block-electrum
+    - tf2-storage-block-invar
+    - tf2-storage-block-bronze
+    - tf2-storage-block-constantan
+    - tf2-storage-block-signalum
+    - tf2-storage-block-lumium
+    - tf2-storage-block-enderium
+tool-axe-metal-with-tf2:
+  name: Metal Axe
+  site: mc-wiki
+  url: Axe
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-axe-iron
+    - mc-tool-axe-gold
+    - tf2-tool-axe-copper
+    - tf2-tool-axe-tin
+    - tf2-tool-axe-silver
+    - tf2-tool-axe-lead
+    - tf2-tool-axe-aluminum
+    - tf2-tool-axe-nickel
+    - tf2-tool-axe-platinum
+    - tf2-tool-axe-steel
+    - tf2-tool-axe-electrum
+    - tf2-tool-axe-invar
+    - tf2-tool-axe-bronze
+    - tf2-tool-axe-constantan
+tool-fishing-rod-metal-with-tf2:
+  name: Metal Fishing Rod
+  site: docs-tf2
+  url: fishing-rods/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-tool-fishing-rod-iron
+    - tf2-tool-fishing-rod-gold
+    - tf2-tool-fishing-rod-copper
+    - tf2-tool-fishing-rod-tin
+    - tf2-tool-fishing-rod-silver
+    - tf2-tool-fishing-rod-lead
+    - tf2-tool-fishing-rod-aluminum
+    - tf2-tool-fishing-rod-nickel
+    - tf2-tool-fishing-rod-platinum
+    - tf2-tool-fishing-rod-steel
+    - tf2-tool-fishing-rod-electrum
+    - tf2-tool-fishing-rod-invar
+    - tf2-tool-fishing-rod-bronze
+    - tf2-tool-fishing-rod-constantan
+tool-hammer-metal-with-tf2:
+  name: Metal Hammer
+  site: docs-tf2
+  url: hammers/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-tool-hammer-iron
+    - tf2-tool-hammer-gold
+    - tf2-tool-hammer-copper
+    - tf2-tool-hammer-tin
+    - tf2-tool-hammer-silver
+    - tf2-tool-hammer-lead
+    - tf2-tool-hammer-aluminum
+    - tf2-tool-hammer-nickel
+    - tf2-tool-hammer-platinum
+    - tf2-tool-hammer-steel
+    - tf2-tool-hammer-electrum
+    - tf2-tool-hammer-invar
+    - tf2-tool-hammer-bronze
+    - tf2-tool-hammer-constantan
+tool-hoe-metal-with-tf2:
+  name: Metal Hoe
+  site: mc-wiki
+  url: Hoe
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-hoe-iron
+    - mc-tool-hoe-gold
+    - tf2-tool-hoe-copper
+    - tf2-tool-hoe-tin
+    - tf2-tool-hoe-silver
+    - tf2-tool-hoe-lead
+    - tf2-tool-hoe-aluminum
+    - tf2-tool-hoe-nickel
+    - tf2-tool-hoe-platinum
+    - tf2-tool-hoe-steel
+    - tf2-tool-hoe-electrum
+    - tf2-tool-hoe-invar
+    - tf2-tool-hoe-bronze
+    - tf2-tool-hoe-constantan
+tool-pickaxe-metal-with-tf2:
+  name: Metal Pickaxe
+  site: mc-wiki
+  url: Pickaxe
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-pickaxe-iron
+    - mc-tool-pickaxe-gold
+    - tf2-tool-pickaxe-copper
+    - tf2-tool-pickaxe-tin
+    - tf2-tool-pickaxe-silver
+    - tf2-tool-pickaxe-lead
+    - tf2-tool-pickaxe-aluminum
+    - tf2-tool-pickaxe-nickel
+    - tf2-tool-pickaxe-platinum
+    - tf2-tool-pickaxe-steel
+    - tf2-tool-pickaxe-electrum
+    - tf2-tool-pickaxe-invar
+    - tf2-tool-pickaxe-bronze
+    - tf2-tool-pickaxe-constantan
+tool-shears-metal-with-tf2:
+  name: Metal Shears
+  site: docs-tf2
+  url: shears/
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-shears
+    - tf2-tool-shears-gold
+    - tf2-tool-shears-copper
+    - tf2-tool-shears-tin
+    - tf2-tool-shears-silver
+    - tf2-tool-shears-lead
+    - tf2-tool-shears-aluminum
+    - tf2-tool-shears-nickel
+    - tf2-tool-shears-platinum
+    - tf2-tool-shears-steel
+    - tf2-tool-shears-electrum
+    - tf2-tool-shears-invar
+    - tf2-tool-shears-bronze
+    - tf2-tool-shears-constantan
+tool-shovel-metal-with-tf2:
+  name: Metal Shovel
+  site: mc-wiki
+  url: Shovel
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-shovel-iron
+    - mc-tool-shovel-gold
+    - tf2-tool-shovel-copper
+    - tf2-tool-shovel-tin
+    - tf2-tool-shovel-silver
+    - tf2-tool-shovel-lead
+    - tf2-tool-shovel-aluminum
+    - tf2-tool-shovel-nickel
+    - tf2-tool-shovel-platinum
+    - tf2-tool-shovel-steel
+    - tf2-tool-shovel-electrum
+    - tf2-tool-shovel-invar
+    - tf2-tool-shovel-bronze
+    - tf2-tool-shovel-constantan
+tool-sickle-metal-with-tf2:
+  name: Metal Sickle
+  site: docs-tf2
+  url: sickles/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-tool-sickle-iron
+    - tf2-tool-sickle-gold
+    - tf2-tool-sickle-copper
+    - tf2-tool-sickle-tin
+    - tf2-tool-sickle-silver
+    - tf2-tool-sickle-lead
+    - tf2-tool-sickle-aluminum
+    - tf2-tool-sickle-nickel
+    - tf2-tool-sickle-platinum
+    - tf2-tool-sickle-steel
+    - tf2-tool-sickle-electrum
+    - tf2-tool-sickle-invar
+    - tf2-tool-sickle-bronze
+    - tf2-tool-sickle-constantan
+weapon-bow-metal-with-tf2:
+  name: Metal Reinforced Bow
+  site: docs-tf2
+  url: reinforced-bows/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-weapon-bow-iron
+    - tf2-weapon-bow-gold
+    - tf2-weapon-bow-copper
+    - tf2-weapon-bow-tin
+    - tf2-weapon-bow-silver
+    - tf2-weapon-bow-lead
+    - tf2-weapon-bow-aluminum
+    - tf2-weapon-bow-nickel
+    - tf2-weapon-bow-platinum
+    - tf2-weapon-bow-steel
+    - tf2-weapon-bow-electrum
+    - tf2-weapon-bow-invar
+    - tf2-weapon-bow-bronze
+    - tf2-weapon-bow-constantan
+weapon-shield-metal-with-tf2:
+  name: Metal Shield
+  site: docs-tf2
+  url: shields/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-weapon-shield-iron
+    - tf2-weapon-shield-gold
+    - tf2-weapon-shield-copper
+    - tf2-weapon-shield-tin
+    - tf2-weapon-shield-silver
+    - tf2-weapon-shield-lead
+    - tf2-weapon-shield-aluminum
+    - tf2-weapon-shield-nickel
+    - tf2-weapon-shield-platinum
+    - tf2-weapon-shield-steel
+    - tf2-weapon-shield-electrum
+    - tf2-weapon-shield-invar
+    - tf2-weapon-shield-bronze
+    - tf2-weapon-shield-constantan
+weapon-sword-metal-with-tf2:
+  name: Metal Sword
+  site: mc-wiki
+  url: Sword
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-weapon-sword-iron
+    - mc-weapon-sword-gold
+    - tf2-weapon-sword-copper
+    - tf2-weapon-sword-tin
+    - tf2-weapon-sword-silver
+    - tf2-weapon-sword-lead
+    - tf2-weapon-sword-aluminum
+    - tf2-weapon-sword-nickel
+    - tf2-weapon-sword-platinum
+    - tf2-weapon-sword-steel
+    - tf2-weapon-sword-electrum
+    - tf2-weapon-sword-invar
+    - tf2-weapon-sword-bronze
+    - tf2-weapon-sword-constantan

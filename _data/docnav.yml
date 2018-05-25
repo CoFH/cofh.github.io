@@ -8,15 +8,15 @@ redstone-flux:
               url: redstone-flux-a-primer/
 
 cofh-core:
-  title: CoFH Core
+  title: CoFH Core 4
   url: cofh-core/
   sections:
     - groups:
         - items:
             - title: Commands
-              url: cofh-core-commands/
+              url: commands/
             - title: Tweaks
-              url: cofh-core-tweaks/
+              url: tweaks/
             - title: Friend List
               url: friend-list/
             - title: Enchantments
@@ -36,7 +36,22 @@ cofh-core:
                 - title: Vorpal
                   url: vorpal/
             - title: Potions
-              url: cofh-core-potions/
+              url: potions/
+
+cofh-core-3:
+  title: CoFH Core 3
+  url: cofh-core/3/
+  # old worldgen stuff
+
+cofh-core-2:
+  title: CoFH Core 2
+  url: cofh-core/2/
+  # was anything noteworthy...
+
+cofh-core-1:
+  title: CoFH Core 1
+  url: cofh-core/1/
+  # ...even in these versions?
 
 cofh-world:
   title: CoFH World
@@ -106,10 +121,10 @@ cofh-world:
         - title: Other
           items:
             - title: Commands
-              url: cofh-world-commands/
+              url: commands/
 
 thermal-foundation:
-  title: Thermal Foundation
+  title: Thermal Foundation 2
   url: thermal-foundation/
   sections:
     - title: World
@@ -839,53 +854,53 @@ thermal-foundation:
         - title: Tools
           items:
             - title: Pickaxes
-              url: tf-pickaxes/
+              url: pickaxes/
               icon: [10, 13]
             - title: Shovels
-              url: tf-shovels/
+              url: shovels/
               icon: [11, 13]
             - title: Axes
-              url: tf-axes/
+              url: axes/
               icon: [12, 13]
             - title: Hoes
-              url: tf-hoes/
+              url: hoes/
               icon: [13, 13]
             - title: Fishing Rods
-              url: tf-fishing-rods/
+              url: fishing-rods/
               icon: [14, 13]
             - title: Shears
-              url: tf-shears/
+              url: shears/
               icon: [15, 13]
             - title: Hammers
-              url: tf-hammers/
+              url: hammers/
               icon: [0, 14]
             - title: Sickles
-              url: tf-sickles/
+              url: sickles/
               icon: [1, 14]
         - title: Weapons
           items:
             - title: Swords
-              url: tf-swords/
+              url: swords/
               icon: [2, 14]
             - title: Reinforced Bows
-              url: tf-reinforced-bows/
+              url: reinforced-bows/
               icon: [3, 14]
             - title: Shields
-              url: tf-shields/
+              url: shields/
               icon: [4, 14]
         - title: Armor
           items:
             - title: Helmets
-              url: tf-helmets/
+              url: helmets/
               icon: [5, 14]
             - title: Chestplates
-              url: tf-chestplates/
+              url: chestplates/
               icon: [6, 14]
             - title: Leggings
-              url: tf-leggings/
+              url: leggings/
               icon: [7, 14]
             - title: Boots
-              url: tf-boots/
+              url: boots/
               icon: [8, 14]
     - title: Other
       groups:
@@ -893,12 +908,16 @@ thermal-foundation:
             - title: Tiers
               url: tiers/
             - title: Potion recipes
-              url: tf-potion-recipes/
+              url: potion-recipes/
             - title: Vanilla recipes
-              url: tf-vanilla-recipes/
+              url: vanilla-recipes/
+
+thermal-foundation-1:
+  title: Thermal Foundation 1
+  url: thermal-foundation/1/
 
 thermal-expansion:
-  title: Thermal Expansion
+  title: Thermal Expansion 5
   url: thermal-expansion/
   sections:
     - groups:
@@ -1180,8 +1199,28 @@ thermal-expansion:
                   url: reusable-morb/
                   icon: [9, 19]
 
+thermal-expansion-4:
+  title: Thermal Expansion 4
+  url: thermal-expansion/4/
+  # probably
+
+thermal-expansion-3:
+  title: Thermal Expansion 3
+  url: thermal-expansion/3/
+  # maybe
+
+thermal-expansion-2:
+  title: Thermal Expansion 2
+  url: thermal-expansion/2/
+  # yeah, right
+
+thermal-expansion-1:
+  title: Thermal Expansion 1
+  url: thermal-expansion/1/
+  # LOL
+
 thermal-dynamics:
-  title: Thermal Dynamics
+  title: Thermal Dynamics 2
   url: thermal-dynamics/
   sections:
     - groups:
@@ -1273,6 +1312,10 @@ thermal-dynamics:
             - title: Redstone Relay
               url: redstone-relay/
               icon: [1, 21]
+
+thermal-dynamics-1:
+  title: Thermal Dynamics 1
+  url: thermal-dynamics/1/
 
 thermal-cultivation:
   title: Thermal Cultivation

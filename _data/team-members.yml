@@ -30,6 +30,18 @@
     - icon: reddit
       url: https://www.reddit.com/user/covers1624
 
+- name: skyboy026
+  image: https://avatars.io/twitter/skyboy026
+  status: Active
+  description: Developer (MineFactory Reloaded, CoFH World)
+  links:
+    - icon: twitter
+      url: https://twitter.com/skyboy026
+    - icon: github
+      url: https://github.com/skyboy
+    - icon: reddit
+      url: https://www.reddit.com/user/skyboy026
+
 - name: Tonius
   image: https://avatars.io/twitter/ToniusMods
   status: Active
@@ -65,15 +77,3 @@
       url: https://github.com/ZeldoKavira
     - icon: reddit
       url: https://www.reddit.com/user/ZeldoKavira
-
-- name: skyboy026
-  image: https://avatars.io/twitter/skyboy026
-  status: Inactive
-  description: Developer (MineFactory Reloaded, CoFH Core)
-  links:
-    - icon: twitter
-      url: https://twitter.com/skyboy026
-    - icon: github
-      url: https://github.com/skyboy
-    - icon: reddit
-      url: https://www.reddit.com/user/skyboy026

@@ -1,0 +1,80 @@
+name: Sapling Infuser
+site: docs-te5
+url: augment-sapling-infuser/
+with-energy: true
+recipes:
+  wood:
+    results:
+      - item-group: mc-wood-log
+        suffix: x6
+      - item-group: mc-sapling
+    ingredients:
+      - item-group: mc-sapling
+      - item: tf2-phyto-gro
+      - fluid: mc-water
+        fluid-amount: 1200
+    energy: 4800
+    data:
+      secondary-input:
+        item: [tf2-phyto-gro]
+      primary-input:
+        item-group: mc-sapling
+      fluid-input:
+        fluid: mc-water
+        amount: 1200
+      primary-output:
+        item-group: mc-wood-log
+        amount: 6
+      secondary-output:
+        item-group: mc-sapling
+      secondary-chance: 100
+  wood-rich:
+    results:
+      - item-group: mc-wood-log
+        suffix: x18
+      - item-group: mc-sapling
+    ingredients:
+      - item-group: mc-sapling
+      - item: tf2-phyto-gro-rich
+      - fluid: mc-water
+        fluid-amount: 1500
+    energy: 6000
+    data:
+      secondary-input:
+        item: [tf2-phyto-gro-rich]
+      primary-input:
+        item-group: mc-sapling
+      fluid-input:
+        fluid: mc-water
+        amount: 1500
+      primary-output:
+        item-group: mc-wood-log
+        amount: 18
+      secondary-output:
+        item-group: mc-sapling
+      secondary-chance: 125
+  wood-fluxed:
+    results:
+      - item-group: mc-wood-log
+        suffix: x24
+      - item-group: mc-sapling
+    ingredients:
+      - item-group: mc-sapling
+      - item: tf2-phyto-gro-fluxed
+      - fluid: mc-water
+        fluid-amount: 1800
+    energy: 7200
+    data:
+      secondary-input:
+        item: [tf2-phyto-gro-fluxed]
+      primary-input:
+        item-group: mc-sapling
+      fluid-input:
+        fluid: mc-water
+        amount: 1800
+      primary-output:
+        item-group: mc-wood-log
+        amount: 24
+      secondary-output:
+        item-group: mc-sapling
+      secondary-chance: 150

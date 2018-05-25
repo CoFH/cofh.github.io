@@ -9,8 +9,8 @@ redirect_from: /mods/thermal-dynamics/
 
 **Thermal Dynamics** is one of the mods in the Thermal Series. It provides
 various types of ducts, which are blocks that transfer
-[energy](/docs/fluxducts/), [fluids](/docs/fluiduct/), [items](/docs/itemduct/)
-and [players](/docs/viaduct/).
+[energy](/docs/thermal-dynamics/fluxducts/), [fluids](/docs/thermal-dynamics/fluiduct/), [items](/docs/thermal-dynamics/itemduct/)
+and [players](/docs/thermal-dynamics/viaduct/).
 
 
 <div class="uk-margin-top uk-button-group">
