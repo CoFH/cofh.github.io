@@ -114,8 +114,8 @@ cofh-world:
               items:
                 - title: Weighted array
                   url: world-generator-configuration/common-formats/weighted-array/
-                - title: Random number generator
-                  url: world-generator-configuration/common-formats/random-number-generator/
+                - title: Number provider
+                  url: world-generator-configuration/common-formats/number-provider/
                 - title: Block ID
                   url: world-generator-configuration/common-formats/block-id/
         - title: Other

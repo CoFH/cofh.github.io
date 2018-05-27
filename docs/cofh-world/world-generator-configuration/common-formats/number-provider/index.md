@@ -1,5 +1,5 @@
 ---
-title: Random number generator
+title: Number provider
 nav: cofh-world
 ---
 
