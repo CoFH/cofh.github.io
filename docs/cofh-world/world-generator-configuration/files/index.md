@@ -4,7 +4,7 @@ nav: cofh-world
 ---
 
 This page describes the files that are used to [configure the world
-generation](/docs/world-generator-configuration/) of [CoFH
+generation](/docs/cofh-world/world-generator-configuration/) of [CoFH
 World](/docs/cofh-world/).
 
 
@@ -46,7 +46,7 @@ mod or mods that must be loaded to read the file.
 ### populate
 The `populate` value is an object whose values each describe a feature to
 generate in the world (or: to 'populate' the world with). [Feature
-format](/docs/world-generator-configuration/feature-format/) further describes
+format](/docs/cofh-world/world-generator-configuration/feature-format/) further describes
 how to specify a feature.
 
 ### dependencies
@@ -103,3 +103,13 @@ Examples
 --------
 
 Coming soon...
+
+
+Tips
+----
+
+* If world generation is not working as intended, try checking the log. Any
+  errors that are found in the files are logged while the configuration is
+  loaded.
+* Using [`/cofhworld reload`](/docs/cofh-world/commands/#reload) allows for
+  reloading the configuration without restarting the game.

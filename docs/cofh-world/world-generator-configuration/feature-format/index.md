@@ -6,7 +6,7 @@ nav: cofh-world
 This page describes the [JSON](http://www.json.org/) format that [CoFH
 World](/docs/cofh-world/) uses for describing features to generate in the world.
 Features are described inside the `populate` value of [world generation
-files](/docs/world-generator-configuration/files/).
+files](/docs/cofh-world/world-generator-configuration/files/).
 
 
 Features
@@ -29,7 +29,7 @@ Features are described as objects with the following values.
                 <td markdown="span">`generator`</td>
                 <td markdown="span">
                     [Feature type configuration](#feature-type-configuration) /
-                    [weighted array](/docs/world-generator-configuration/common-formats/weighted-array/)
+                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
                     of feature type configurations
                 </td>
                 <td>-</td>
@@ -45,7 +45,7 @@ Features are described as objects with the following values.
                 <td>-</td>
                 <td markdown="span">
                     The
-                    [distribution type](/docs/world-generator-configuration/distribution-types/)
+                    [distribution type](/docs/cofh-world/world-generator-configuration/distribution-types/)
                     used to distribute the feature in the world. The used
                     distribution type may require additional values to be added
                     to the feature entry.
@@ -131,10 +131,10 @@ generate. It is an object with the following values.
                 <td>String</td>
                 <td markdown="span">
                     (Set by
-                    [distribution type](/docs/world-generator-configuration/distribution-types/))
+                    [distribution type](/docs/cofh-world/world-generator-configuration/distribution-types/))
                 </td>
                 <td markdown="span">
-                    The [feature type](/docs/world-generator-configuration/feature-types/)
+                    The [feature type](/docs/cofh-world/world-generator-configuration/feature-types/)
                     used to generate the feature. The used feature type may
                     require additional values to be added to the feature type
                     configuration.
@@ -143,9 +143,9 @@ generate. It is an object with the following values.
             <tr>
                 <td markdown="span">`block`</td>
                 <td markdown="span">
-                    [Block ID](/docs/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
                     /
-                    [weighted array](/docs/world-generator-configuration/common-formats/weighted-array/)
+                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
                     of block IDs
                 </td>
                 <td>-</td>
@@ -158,12 +158,12 @@ generate. It is an object with the following values.
             <tr>
                 <td markdown="span">`material` (optional)</td>
                 <td markdown="span">
-                    [Block ID](/docs/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td markdown="span">
                     (Set by
-                    [distribution type](/docs/world-generator-configuration/distribution-types/))
+                    [distribution type](/docs/cofh-world/world-generator-configuration/distribution-types/))
                 </td>
                 <td>
                     The type(s) of block that may be replaced to generate the

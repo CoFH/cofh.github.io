@@ -69,46 +69,46 @@ cofh-world:
             - title: Feature types
               url: world-generator-configuration/feature-types/
               items:
-                - title: Cluster
+                - title: cluster
                   url: world-generator-configuration/feature-types/cluster/
-                - title: Sparse cluster
+                - title: sparse-cluster
                   url: world-generator-configuration/feature-types/sparse-cluster/
-                - title: Large vein
+                - title: large-vein
                   url: world-generator-configuration/feature-types/large-vein/
-                - title: Decoration
+                - title: decoration
                   url: world-generator-configuration/feature-types/decoration/
-                - title: Small tree
+                - title: small-tree
                   url: world-generator-configuration/feature-types/small-tree/
-                - title: Plate
+                - title: plate
                   url: world-generator-configuration/feature-types/plate/
-                - title: Boulder
+                - title: boulder
                   url: world-generator-configuration/feature-types/boulder/
-                - title: Lake
+                - title: lake
                   url: world-generator-configuration/feature-types/lake/
-                - title: Geode
+                - title: geode
                   url: world-generator-configuration/feature-types/geode/
-                - title: Spike
+                - title: spike
                   url: world-generator-configuration/feature-types/spike/
-                - title: Stalagmite
+                - title: stalagmite
                   url: world-generator-configuration/feature-types/stalagmite/
-                - title: Stalactite
+                - title: stalactite
                   url: world-generator-configuration/feature-types/stalactite/
             - title: Distribution types
               url: world-generator-configuration/distribution-types/
               items:
-                - title: Uniform
+                - title: uniform
                   url: world-generator-configuration/distribution-types/uniform/
-                - title: Gaussian
+                - title: gaussian
                   url: world-generator-configuration/distribution-types/gaussian/
-                - title: Surface
+                - title: surface
                   url: world-generator-configuration/distribution-types/surface/
-                - title: Decoration
+                - title: decoration
                   url: world-generator-configuration/distribution-types/decoration/
-                - title: Underfluid
+                - title: underfluid
                   url: world-generator-configuration/distribution-types/underfluid/
-                - title: Cave
+                - title: cave
                   url: world-generator-configuration/distribution-types/cave/
-                - title: Fractal
+                - title: fractal
                   url: world-generator-configuration/distribution-types/fractal/
             - title: Common formats
               items:
