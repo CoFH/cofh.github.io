@@ -12,31 +12,34 @@ cofh-core:
   url: cofh-core/
   sections:
     - groups:
-        - items:
+        - title: General
+          items:
             - title: Commands
               url: commands/
             - title: Tweaks
               url: tweaks/
             - title: Friend List
               url: friend-list/
-            - title: Enchantments
-              subitems:
-                - title: Holding
-                  url: holding/
-                - title: Insight
-                  url: insight/
-                - title: Leech
-                  url: leech/
-                - title: Multishot
-                  url: multishot/
-                - title: Smelting
-                  url: smelting/
-                - title: Soulbound
-                  url: soulbound/
-                - title: Vorpal
-                  url: vorpal/
             - title: Potions
               url: potions/
+        - title: Enchantments
+          items:
+            - title: Holding
+              url: holding/
+            - title: Insight
+              url: insight/
+            - title: Leech
+              url: leech/
+            - title: Multishot
+              url: multishot/
+            - title: Smashing
+              url: smashing/
+            - title: Smelting
+              url: smelting/
+            - title: Soulbound
+              url: soulbound/
+            - title: Vorpal
+              url: vorpal/
 
 cofh-core-3:
   title: CoFH Core 3
@@ -74,7 +77,7 @@ thermal-foundation:
           items:
             - title: Copper
               url: copper-ore/
-              icon: [0, 0]
+              icon: [9, 23]
             - title: Tin
               url: tin-ore/
               icon: [1, 0]
@@ -561,6 +564,20 @@ thermal-foundation:
                 - title: Coal Coke
                   url: coal-coke/
                   icon: [6, 9]
+                - title: Pulped Biomass
+                  url: pulped-biomass/
+                  icon: [10, 23]
+                  subitems:
+                    - title: Rich
+                      url: rich-biomass/
+                      icon: [11, 23]
+                - title: Pulped Bioblend
+                  url: pulped-bioblend/
+                  icon: [12, 23]
+                  subitems:
+                    - title: Rich
+                      url: rich-bioblend/
+                      icon: [13, 23]
                 - title: Rosin
                   url: rosin/
                   icon: [7, 9]
@@ -742,11 +759,8 @@ thermal-foundation:
             - title: Tectonic Petrotheum
               url: tectonic-petrotheum/
               icon: [11, 12]
-        - title: Fuel
+        - title: Fossil
           items:
-            - title: Creosote Oil
-              url: creosote-oil/
-              icon: [12, 12]
             - title: Liquifacted Coal
               url: liquifacted-coal/
               icon: [13, 12]
@@ -759,9 +773,17 @@ thermal-foundation:
             - title: Refined Fuel
               url: refined-fuel/
               icon: [0, 13]
-            - title: Tree Oil
-              url: tree-oil/
-              icon: [1, 13]
+        - title: Bio
+          items:
+            - title: Seed Oil
+              url: seed-oil/
+              icon: [14, 23]
+            - title: Biocrude
+              url: biocrude/
+              icon: [15, 23]
+            - title: Grassoline
+              url: grassoline/
+              icon: [0, 24]
         - title: Tree
           items:
             - title: Resin
@@ -770,11 +792,17 @@ thermal-foundation:
             - title: Sap
               url: sap/
               icon: [3, 13]
+            - title: Tree Oil
+              url: tree-oil/
+              icon: [1, 13]
         - title: Other
           items:
             - title: Steam
               url: steam/
               icon: [4, 13]
+            - title: Creosote Oil
+              url: creosote-oil/
+              icon: [12, 12]
             - title: Mushroom Stew
               url: mushroom-stew/
               icon: [5, 13]
@@ -843,6 +871,9 @@ thermal-foundation:
             - title: Boots
               url: boots/
               icon: [8, 14]
+            - title: Horse Armor
+              url: horse-armor/
+              icon: [1, 24]
     - title: Other
       groups:
         - items:
@@ -952,6 +983,9 @@ thermal-expansion:
             - title: Creature Encaptulator
               url: creature-encaptulator/
               icon: [6, 23]
+            - title: Vacuumulator
+              url: vacuumulator/
+              icon: [2, 24]
         - title: Dynamos
           url: dynamos/
           items:
@@ -1111,6 +1145,9 @@ thermal-expansion:
                 - title: Ignition Plugs
                   url: augment-ignition-plugs/
                   icon: [2, 19]
+                - title: Agitative Manifold
+                  url: augment-agitative-manifold/
+                  icon: [3, 24]
                 - title: Elemental Catalyzer
                   url: augment-elemental-catalyzer/
                   icon: [3, 19]
