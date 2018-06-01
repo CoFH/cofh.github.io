@@ -19,7 +19,7 @@ quick overview:
 ### Vanilla+ Tools
 ![Vanilla+ Tools overview](/assets/images/posts/2018-06-01-vanillaplus-tools-and-satchels/tools.png)
 
-Vanilla+ Tools adds additional tools and weapons made of wood, iron, gold and
+Vanilla+ Tools adds additional tools and weapons made of wood, stone, iron, gold and
 diamond. They are the same types of additional tools and weapons that [Thermal
 Foundation](/docs/thermal-foundation/) provides:
 [hammers](/docs/vanillaplus-tools/hammers/),
