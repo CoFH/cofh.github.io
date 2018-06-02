@@ -113,8 +113,7 @@ recipe-list:
     - recycling-armor-chestplate
     - recycling-armor-leggings
     - recycling-armor-boots
-    - recycling-horse-armor-iron
-    - recycling-horse-armor-gold
+    - recycling-horse-armor-metal
 ---
 
 ![Induction smelter](/assets/images/thermal-expansion/induction-smelter.png){:style="height: 128px"}

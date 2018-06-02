@@ -603,6 +603,27 @@ dust-ore-metal-with-tf2:
     - tf2-dust-platinum
     - tf2-dust-iridium
     - tf2-dust-mithril
+horse-armor-metal-with-tf2:
+  name: Metal Horse Armor
+  site: mc-wiki
+  url: Horse_Armor
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-horse-armor-iron
+    - mc-horse-armor-gold
+    - tf2-horse-armor-copper
+    - tf2-horse-armor-tin
+    - tf2-horse-armor-silver
+    - tf2-horse-armor-lead
+    - tf2-horse-armor-aluminum
+    - tf2-horse-armor-nickel
+    - tf2-horse-armor-platinum
+    - tf2-horse-armor-steel
+    - tf2-horse-armor-electrum
+    - tf2-horse-armor-invar
+    - tf2-horse-armor-bronze
+    - tf2-horse-armor-constantan
 ingot-metal-with-tf2:
   name: Metal Ingot
   prefix:

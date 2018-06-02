@@ -36,6 +36,7 @@ recipes:
     - recycling-armor-chestplate-aluminum
     - recycling-armor-leggings-aluminum
     - recycling-armor-boots-aluminum
+    - recycling-horse-armor-aluminum
 usage-recipes:
   crafting:
     - tf2-petrotheum-ingot-aluminum
@@ -57,6 +58,7 @@ usage-recipes:
     - tf2-armor-chestplate-aluminum
     - tf2-armor-leggings-aluminum
     - tf2-armor-boots-aluminum
+    - tf2-horse-armor-aluminum
   pulverizer:
     - dust-aluminum
   compactor:

@@ -1390,6 +1390,74 @@ recipes:
         - [item: [tf2-niter], item: [tf2-niter]]
       result:
         item: [mc-gunpowder]
+  tf2-horse-armor-aluminum:
+    results:
+      - item: tf2-horse-armor-aluminum
+    ingredients:
+      - item: tf2-ingot-aluminum
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-aluminum], null, item: [tf2-ingot-aluminum]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-aluminum], null, item: [tf2-ingot-aluminum]]
+      result:
+        item: [tf2-horse-armor-aluminum]
+  tf2-horse-armor-bronze:
+    results:
+      - item: tf2-horse-armor-bronze
+    ingredients:
+      - item: tf2-ingot-bronze
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-bronze], null, item: [tf2-ingot-bronze]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-bronze], null, item: [tf2-ingot-bronze]]
+      result:
+        item: [tf2-horse-armor-bronze]
+  tf2-horse-armor-constantan:
+    results:
+      - item: tf2-horse-armor-constantan
+    ingredients:
+      - item: tf2-ingot-constantan
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-constantan], null, item: [tf2-ingot-constantan]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-constantan], null, item: [tf2-ingot-constantan]]
+      result:
+        item: [tf2-horse-armor-constantan]
+  tf2-horse-armor-copper:
+    results:
+      - item: tf2-horse-armor-copper
+    ingredients:
+      - item: tf2-ingot-copper
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-copper], null, item: [tf2-ingot-copper]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-copper], null, item: [tf2-ingot-copper]]
+      result:
+        item: [tf2-horse-armor-copper]
   tf2-horse-armor-diamond:
     results:
       - item: mc-horse-armor-diamond
@@ -1407,6 +1475,23 @@ recipes:
         - [item: [mc-diamond], null, item: [mc-diamond]]
       result:
         item: [mc-horse-armor-diamond]
+  tf2-horse-armor-electrum:
+    results:
+      - item: tf2-horse-armor-electrum
+    ingredients:
+      - item: tf2-ingot-electrum
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-electrum], null, item: [tf2-ingot-electrum]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-electrum], null, item: [tf2-ingot-electrum]]
+      result:
+        item: [tf2-horse-armor-electrum]
   tf2-horse-armor-gold:
     results:
       - item: mc-horse-armor-gold
@@ -1424,6 +1509,23 @@ recipes:
         - [item: [mc-ingot-gold], null, item: [mc-ingot-gold]]
       result:
         item: [mc-horse-armor-gold]
+  tf2-horse-armor-invar:
+    results:
+      - item: tf2-horse-armor-invar
+    ingredients:
+      - item: tf2-ingot-invar
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-invar], null, item: [tf2-ingot-invar]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-invar], null, item: [tf2-ingot-invar]]
+      result:
+        item: [tf2-horse-armor-invar]
   tf2-horse-armor-iron:
     results:
       - item: mc-horse-armor-iron
@@ -1441,6 +1543,108 @@ recipes:
         - [item: [mc-ingot-iron], null, item: [mc-ingot-iron]]
       result:
         item: [mc-horse-armor-iron]
+  tf2-horse-armor-lead:
+    results:
+      - item: tf2-horse-armor-lead
+    ingredients:
+      - item: tf2-ingot-lead
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-lead], null, item: [tf2-ingot-lead]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-lead], null, item: [tf2-ingot-lead]]
+      result:
+        item: [tf2-horse-armor-lead]
+  tf2-horse-armor-nickel:
+    results:
+      - item: tf2-horse-armor-nickel
+    ingredients:
+      - item: tf2-ingot-nickel
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-nickel], null, item: [tf2-ingot-nickel]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-nickel], null, item: [tf2-ingot-nickel]]
+      result:
+        item: [tf2-horse-armor-nickel]
+  tf2-horse-armor-platinum:
+    results:
+      - item: tf2-horse-armor-platinum
+    ingredients:
+      - item: tf2-ingot-platinum
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-platinum], null, item: [tf2-ingot-platinum]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-platinum], null, item: [tf2-ingot-platinum]]
+      result:
+        item: [tf2-horse-armor-platinum]
+  tf2-horse-armor-silver:
+    results:
+      - item: tf2-horse-armor-silver
+    ingredients:
+      - item: tf2-ingot-silver
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-silver], null, item: [tf2-ingot-silver]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-silver], null, item: [tf2-ingot-silver]]
+      result:
+        item: [tf2-horse-armor-silver]
+  tf2-horse-armor-steel:
+    results:
+      - item: tf2-horse-armor-steel
+    ingredients:
+      - item: tf2-ingot-steel
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-steel], null, item: [tf2-ingot-steel]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-steel], null, item: [tf2-ingot-steel]]
+      result:
+        item: [tf2-horse-armor-steel]
+  tf2-horse-armor-tin:
+    results:
+      - item: tf2-horse-armor-tin
+    ingredients:
+      - item: tf2-ingot-tin
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-tin], null, item: [tf2-ingot-tin]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-tin], null, item: [tf2-ingot-tin]]
+      result:
+        item: [tf2-horse-armor-tin]
   tf2-ice-using-cryotheum:
     results:
       - item: mc-ice

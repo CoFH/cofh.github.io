@@ -35,6 +35,7 @@ recipes:
     - recycling-armor-chestplate-invar
     - recycling-armor-leggings-invar
     - recycling-armor-boots-invar
+    - recycling-horse-armor-invar
 usage-recipes:
   crafting:
     - tf2-nugget-invar
@@ -80,6 +81,7 @@ usage-recipes:
     - tf2-armor-chestplate-invar
     - tf2-armor-leggings-invar
     - tf2-armor-boots-invar
+    - tf2-horse-armor-invar
   pulverizer:
     - dust-invar
   compactor:

@@ -35,6 +35,7 @@ recipes:
     - recycling-armor-chestplate-electrum
     - recycling-armor-leggings-electrum
     - recycling-armor-boots-electrum
+    - recycling-horse-armor-electrum
 usage-recipes:
   crafting:
     - tf2-nugget-electrum
@@ -80,6 +81,7 @@ usage-recipes:
     - tf2-armor-chestplate-electrum
     - tf2-armor-leggings-electrum
     - tf2-armor-boots-electrum
+    - tf2-horse-armor-electrum
   pulverizer:
     - dust-electrum
   compactor:

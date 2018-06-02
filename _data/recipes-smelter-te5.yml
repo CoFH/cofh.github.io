@@ -3589,6 +3589,120 @@ recipes:
       secondary-output:
         item: [tf2-slag]
       secondary-chance: 25
+  recycling-horse-armor-metal:
+    results:
+      - item-group: ingot-equipment-metal-with-tf2
+      - item: tf2-slag
+    ingredients:
+      - item-group: horse-armor-metal-with-tf2
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item-group: horse-armor-metal-with-tf2
+      primary-output:
+        item-group: ingot-equipment-metal-with-tf2
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-aluminum:
+    results:
+      - item: tf2-ingot-aluminum
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-aluminum
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-aluminum]
+      primary-output:
+        item: [tf2-ingot-aluminum]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-bronze:
+    results:
+      - item: tf2-ingot-bronze
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-bronze
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-bronze]
+      primary-output:
+        item: [tf2-ingot-bronze]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-constantan:
+    results:
+      - item: tf2-ingot-constantan
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-constantan
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-constantan]
+      primary-output:
+        item: [tf2-ingot-constantan]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-copper:
+    results:
+      - item: tf2-ingot-copper
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-copper
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-copper]
+      primary-output:
+        item: [tf2-ingot-copper]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-electrum:
+    results:
+      - item: tf2-ingot-electrum
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-electrum
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-electrum]
+      primary-output:
+        item: [tf2-ingot-electrum]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
   recycling-horse-armor-gold:
     results:
       - item: mc-ingot-gold
@@ -3608,6 +3722,25 @@ recipes:
       secondary-output:
         item: [tf2-slag]
       secondary-chance: 15
+  recycling-horse-armor-invar:
+    results:
+      - item: tf2-ingot-invar
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-invar
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-invar]
+      primary-output:
+        item: [tf2-ingot-invar]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
   recycling-horse-armor-iron:
     results:
       - item: mc-ingot-iron
@@ -3623,6 +3756,120 @@ recipes:
         item: [mc-horse-armor-iron]
       primary-output:
         item: [mc-ingot-iron]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-lead:
+    results:
+      - item: tf2-ingot-lead
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-lead
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-lead]
+      primary-output:
+        item: [tf2-ingot-lead]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-nickel:
+    results:
+      - item: tf2-ingot-nickel
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-nickel
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-nickel]
+      primary-output:
+        item: [tf2-ingot-nickel]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-platinum:
+    results:
+      - item: tf2-ingot-platinum
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-platinum
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-platinum]
+      primary-output:
+        item: [tf2-ingot-platinum]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-silver:
+    results:
+      - item: tf2-ingot-silver
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-silver
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-silver]
+      primary-output:
+        item: [tf2-ingot-silver]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-steel:
+    results:
+      - item: tf2-ingot-steel
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-steel
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-steel]
+      primary-output:
+        item: [tf2-ingot-steel]
+        amount: 2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 15
+  recycling-horse-armor-tin:
+    results:
+      - item: tf2-ingot-tin
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-horse-armor-tin
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-horse-armor-tin]
+      primary-output:
+        item: [tf2-ingot-tin]
         amount: 2
       secondary-output:
         item: [tf2-slag]

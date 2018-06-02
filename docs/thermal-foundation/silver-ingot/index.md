@@ -39,6 +39,7 @@ recipes:
     - recycling-armor-chestplate-silver
     - recycling-armor-leggings-silver
     - recycling-armor-boots-silver
+    - recycling-horse-armor-silver
 usage-recipes:
   crafting:
     - tf2-petrotheum-ingot-silver
@@ -66,6 +67,7 @@ usage-recipes:
     - tf2-armor-chestplate-silver
     - tf2-armor-leggings-silver
     - tf2-armor-boots-silver
+    - tf2-horse-armor-silver
   pulverizer:
     - dust-silver
   smelter:

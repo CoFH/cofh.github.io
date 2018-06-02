@@ -38,6 +38,7 @@ recipes:
     - recycling-armor-chestplate-tin
     - recycling-armor-leggings-tin
     - recycling-armor-boots-tin
+    - recycling-horse-armor-tin
 usage-recipes:
   crafting:
     - tf2-petrotheum-ingot-tin
@@ -75,6 +76,7 @@ usage-recipes:
     - tf2-armor-chestplate-tin
     - tf2-armor-leggings-tin
     - tf2-armor-boots-tin
+    - tf2-horse-armor-tin
   pulverizer:
     - dust-tin
   smelter:

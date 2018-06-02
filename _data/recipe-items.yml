@@ -2813,6 +2813,66 @@ tf2-hardened-glass-tin:
   sprite: [14, 1]
   site: docs-tf2
   url: hardened-glass/
+tf2-horse-armor-aluminum:
+  name: Aluminum Horse Armor
+  sprite: [13, 65]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-bronze:
+  name: Bronze Horse Armor
+  sprite: [14, 65]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-constantan:
+  name: Constantan Horse Armor
+  sprite: [15, 65]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-copper:
+  name: Copper Horse Armor
+  sprite: [0, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-electrum:
+  name: Electrum Horse Armor
+  sprite: [1, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-invar:
+  name: Invar Horse Armor
+  sprite: [2, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-lead:
+  name: Lead Horse Armor
+  sprite: [3, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-nickel:
+  name: Nickel Horse Armor
+  sprite: [4, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-platinum:
+  name: Platinum Horse Armor
+  sprite: [5, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-silver:
+  name: Silver Horse Armor
+  sprite: [6, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-steel:
+  name: Steel Horse Armor
+  sprite: [7, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-tin:
+  name: Tin Horse Armor
+  sprite: [8, 66]
+  site: docs-tf2
+  url: horse-armor/
 tf2-ingot-aluminum:
   name: Aluminum Ingot
   sprite: [11, 0]

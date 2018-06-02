@@ -35,6 +35,7 @@ recipes:
     - recycling-armor-chestplate-bronze
     - recycling-armor-leggings-bronze
     - recycling-armor-boots-bronze
+    - recycling-horse-armor-bronze
 usage-recipes:
   crafting:
     - tf2-nugget-bronze
@@ -61,6 +62,7 @@ usage-recipes:
     - tf2-armor-chestplate-bronze
     - tf2-armor-leggings-bronze
     - tf2-armor-boots-bronze
+    - tf2-horse-armor-bronze
   pulverizer:
     - dust-bronze
   compactor:

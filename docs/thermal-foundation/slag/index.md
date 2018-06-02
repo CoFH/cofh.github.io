@@ -49,6 +49,7 @@ recipes:
     - recycling-armor-chestplate
     - recycling-armor-leggings
     - recycling-armor-boots
+    - recycling-horse-armor-metal
 usage-recipes:
   crafting:
     - tf2-clay-using-slag

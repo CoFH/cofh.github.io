@@ -39,6 +39,7 @@ recipes:
     - recycling-armor-chestplate-copper
     - recycling-armor-leggings-copper
     - recycling-armor-boots-copper
+    - recycling-horse-armor-copper
 usage-recipes:
   crafting:
     - tf2-petrotheum-ingot-copper
@@ -81,6 +82,7 @@ usage-recipes:
     - tf2-armor-chestplate-copper
     - tf2-armor-leggings-copper
     - tf2-armor-boots-copper
+    - tf2-horse-armor-copper
   pulverizer:
     - dust-copper
   smelter:
