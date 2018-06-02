@@ -47,6 +47,12 @@ Obtaining
 ### Centrifugal Separator
 {% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge no-result=true %}
 
+### Smashing
+When [gold ore](https://minecraft.gamepedia.com/Gold_Ore) is broken using a
+[Smashing](/docs/cofh-core/smashing/) enchanted
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+pulverized gold are dropped instead of the ore.
+
 
 Usage
 -----

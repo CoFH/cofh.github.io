@@ -38,6 +38,12 @@ Obtaining
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
+### Smashing
+When [iridium ore](/docs/thermal-foundation/iridium-ore/) is broken using a
+[Smashing](/docs/cofh-core/smashing/) enchanted
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+pulverized iridium are dropped instead of the ore.
+
 
 Usage
 -----

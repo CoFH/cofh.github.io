@@ -51,6 +51,12 @@ Obtaining
 ### Centrifugal Separator
 {% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge no-result=true %}
 
+### Smashing
+When [silver ore](/docs/thermal-foundation/silver-ore/) is broken using a
+[Smashing](/docs/cofh-core/smashing/) enchanted
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+pulverized silver are dropped instead of the ore.
+
 
 Usage
 -----
