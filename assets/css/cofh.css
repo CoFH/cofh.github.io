@@ -291,6 +291,11 @@ table.cofh-navbox-table td.cofh-navbox-group-subgroups-container {
     background-image: url('/assets/images/navbox-icon-sheet.png?{{site.time | date: "%s"}}');
 }
 
+a.cofh-navbox-link {
+    display: inline-block;
+    white-space: nowrap;
+}
+
 a.cofh-navbox-link, a.cofh-navbox-link:hover {
     text-decoration: none;
 }
