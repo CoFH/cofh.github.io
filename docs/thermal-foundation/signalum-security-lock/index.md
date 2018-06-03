@@ -32,6 +32,9 @@ Usage
 A signalum security lock can be installed on a block by using it on the block.
 It can be installed on an item by combining it with the item in a crafting grid.
 
+When a signalum security lock is held in the player's offhand, it is
+automatically installed on blocks when they are placed.
+
 Installing signalum security locks only works on blocks and items that support
 it. Most blocks and items in [Thermal Expansion](/docs/thermal-expansion/) that
 can contain items or fluids support signalum security locks.
