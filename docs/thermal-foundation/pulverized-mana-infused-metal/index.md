@@ -14,6 +14,7 @@ recipes:
 usage-recipes:
   crafting:
     - tf2-pyrotheum-dust-mithril
+    - tf2-hardened-glass-mithril
   smelting:
     - tf2-ingot-mithril-from-dust
   smelter:

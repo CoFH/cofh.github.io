@@ -19,6 +19,7 @@ usage-recipes:
   crafting:
     - tf2-pyrotheum-dust-platinum
     - tf2-dust-enderium
+    - tf2-hardened-glass-platinum
   smelting:
     - tf2-ingot-platinum-from-dust
   smelter:

@@ -18,6 +18,8 @@ usage-recipes:
   crafting:
     - tf2-pyrotheum-dust-lead
     - tf2-dust-enderium
+    - tf2-hardened-glass
+    - tf2-hardened-glass-lead
   smelting:
     - tf2-ingot-lead-from-dust
   smelter:

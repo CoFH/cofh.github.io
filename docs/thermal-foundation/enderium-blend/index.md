@@ -10,6 +10,8 @@ recipes:
   pulverizer:
     - dust-enderium
 usage-recipes:
+  crafting:
+    - tf2-hardened-glass-enderium
   smelter:
     - dust-smelting-enderium
     - hardened-glass-enderium
@@ -42,6 +44,9 @@ enderium blend.
 
 Usage
 -----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

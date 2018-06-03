@@ -10,6 +10,8 @@ recipes:
   pulverizer:
     - dust-lumium
 usage-recipes:
+  crafting:
+    - tf2-hardened-glass-lumium
   smelter:
     - dust-smelting-lumium
     - hardened-glass-lumium
@@ -42,6 +44,9 @@ blend.
 
 Usage
 -----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

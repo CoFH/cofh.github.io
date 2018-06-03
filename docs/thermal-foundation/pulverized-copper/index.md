@@ -21,6 +21,7 @@ usage-recipes:
     - tf2-dust-bronze
     - tf2-dust-constantan
     - tf2-dust-signalum
+    - tf2-hardened-glass-copper
   smelting:
     - tf2-ingot-copper-from-dust
   smelter:

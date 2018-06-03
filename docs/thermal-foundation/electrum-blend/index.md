@@ -11,6 +11,7 @@ recipes:
     - dust-electrum
 usage-recipes:
   crafting:
+    - tf2-hardened-glass-electrum
     - ra-dust-fluxed-electrum-using-electrum
   smelting:
     - tf2-ingot-electrum-from-dust

@@ -22,6 +22,7 @@ usage-recipes:
     - tf2-dust-electrum
     - tf2-dust-signalum
     - tf2-dust-lumium
+    - tf2-hardened-glass-silver
     - ra-dust-fluxed-electrum-using-gold-and-silver
   smelting:
     - tf2-ingot-silver-from-dust

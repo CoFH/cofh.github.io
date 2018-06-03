@@ -19,6 +19,7 @@ usage-recipes:
     - tf2-pyrotheum-dust-tin
     - tf2-dust-bronze
     - tf2-dust-lumium
+    - tf2-hardened-glass-tin
   smelting:
     - tf2-ingot-tin-from-dust
   smelter:

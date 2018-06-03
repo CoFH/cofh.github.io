@@ -20,6 +20,7 @@ usage-recipes:
     - tf2-pyrotheum-dust-nickel
     - tf2-dust-invar
     - tf2-dust-constantan
+    - tf2-hardened-glass-nickel
   smelting:
     - tf2-ingot-nickel-from-dust
   smelter:

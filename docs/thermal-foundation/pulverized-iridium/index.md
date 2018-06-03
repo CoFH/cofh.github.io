@@ -15,6 +15,7 @@ recipes:
 usage-recipes:
   crafting:
     - tf2-pyrotheum-dust-iridium
+    - tf2-hardened-glass-iridium
   smelting:
     - tf2-ingot-iridium-from-dust
   smelter:

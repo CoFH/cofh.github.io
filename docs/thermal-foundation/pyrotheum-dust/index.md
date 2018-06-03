@@ -16,6 +16,8 @@ usage-recipes:
     - tf2-petrotheum-pyrotheum-ore-metal
     - tf2-pyrotheum-dust-ore-metal
     - tf2-upgrade-kit-resonant
+    - tf2-hardened-glass
+    - tf2-hardened-glass-metal
     - te5-flux-capacitor-resonant
     - te5-reservoir-resonant
     - te5-augment-machine-furnace-ore

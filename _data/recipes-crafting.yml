@@ -1390,6 +1390,360 @@ recipes:
         - [item: [tf2-niter], item: [tf2-niter]]
       result:
         item: [mc-gunpowder]
+  tf2-hardened-glass:
+    results:
+      - item: tf2-hardened-glass
+    ingredients:
+      - item: tf2-dust-lead
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - [item: [tf2-dust-lead], item: [tf2-dust-obsidian]]
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass]
+  tf2-hardened-glass-metal:
+    results:
+      - html: '<a href="/docs/thermal-foundation/hardened-glass/">Metal Hardened Glass</a>'
+    ingredients:
+      - html: 'Metal Dust'
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item:
+            - tf2-dust-copper
+            - tf2-dust-tin
+            - tf2-dust-silver
+            - tf2-dust-lead
+            - tf2-dust-aluminum
+            - tf2-dust-nickel
+            - tf2-dust-platinum
+            - tf2-dust-iridium
+            - tf2-dust-mithril
+            - tf2-dust-steel
+            - tf2-dust-electrum
+            - tf2-dust-invar
+            - tf2-dust-bronze
+            - tf2-dust-constantan
+            - tf2-dust-signalum
+            - tf2-dust-lumium
+            - tf2-dust-enderium
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item:
+          - tf2-hardened-glass-copper
+          - tf2-hardened-glass-tin
+          - tf2-hardened-glass-silver
+          - tf2-hardened-glass
+          - tf2-hardened-glass-aluminum
+          - tf2-hardened-glass-nickel
+          - tf2-hardened-glass-platinum
+          - tf2-hardened-glass-iridium
+          - tf2-hardened-glass-mithril
+          - tf2-hardened-glass-steel
+          - tf2-hardened-glass-electrum
+          - tf2-hardened-glass-invar
+          - tf2-hardened-glass-bronze
+          - tf2-hardened-glass-constantan
+          - tf2-hardened-glass-signalum
+          - tf2-hardened-glass-lumium
+          - tf2-hardened-glass-enderium
+  tf2-hardened-glass-copper:
+    results:
+      - item: tf2-hardened-glass-copper
+    ingredients:
+      - item: tf2-dust-copper
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-copper]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-copper]
+  tf2-hardened-glass-tin:
+    results:
+      - item: tf2-hardened-glass-tin
+    ingredients:
+      - item: tf2-dust-tin
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-tin]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-tin]
+  tf2-hardened-glass-silver:
+    results:
+      - item: tf2-hardened-glass-silver
+    ingredients:
+      - item: tf2-dust-silver
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-silver]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-silver]
+  tf2-hardened-glass-lead:
+    results:
+      - item: tf2-hardened-glass
+    ingredients:
+      - item: tf2-dust-lead
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-lead]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass]
+  tf2-hardened-glass-aluminum:
+    results:
+      - item: tf2-hardened-glass-aluminum
+    ingredients:
+      - item: tf2-dust-aluminum
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-aluminum]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-aluminum]
+  tf2-hardened-glass-nickel:
+    results:
+      - item: tf2-hardened-glass-nickel
+    ingredients:
+      - item: tf2-dust-nickel
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-nickel]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-nickel]
+  tf2-hardened-glass-platinum:
+    results:
+      - item: tf2-hardened-glass-platinum
+    ingredients:
+      - item: tf2-dust-platinum
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-platinum]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-platinum]
+  tf2-hardened-glass-iridium:
+    results:
+      - item: tf2-hardened-glass-iridium
+    ingredients:
+      - item: tf2-dust-iridium
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-iridium]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-iridium]
+  tf2-hardened-glass-mithril:
+    results:
+      - item: tf2-hardened-glass-mithril
+    ingredients:
+      - item: tf2-dust-mithril
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-mithril]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-mithril]
+  tf2-hardened-glass-steel:
+    results:
+      - item: tf2-hardened-glass-steel
+    ingredients:
+      - item: tf2-dust-steel
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-steel]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-steel]
+  tf2-hardened-glass-electrum:
+    results:
+      - item: tf2-hardened-glass-electrum
+    ingredients:
+      - item: tf2-dust-electrum
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-electrum]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-electrum]
+  tf2-hardened-glass-invar:
+    results:
+      - item: tf2-hardened-glass-invar
+    ingredients:
+      - item: tf2-dust-invar
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-invar]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-invar]
+  tf2-hardened-glass-bronze:
+    results:
+      - item: tf2-hardened-glass-bronze
+    ingredients:
+      - item: tf2-dust-bronze
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-bronze]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-bronze]
+  tf2-hardened-glass-constantan:
+    results:
+      - item: tf2-hardened-glass-constantan
+    ingredients:
+      - item: tf2-dust-constantan
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-constantan]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-constantan]
+  tf2-hardened-glass-signalum:
+    results:
+      - item: tf2-hardened-glass-signalum
+    ingredients:
+      - item: tf2-dust-signalum
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-signalum]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-signalum]
+  tf2-hardened-glass-lumium:
+    results:
+      - item: tf2-hardened-glass-lumium
+    ingredients:
+      - item: tf2-dust-lumium
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-lumium]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-lumium]
+  tf2-hardened-glass-enderium:
+    results:
+      - item: tf2-hardened-glass-enderium
+    ingredients:
+      - item: tf2-dust-enderium
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-enderium]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-enderium]
   tf2-horse-armor-aluminum:
     results:
       - item: tf2-horse-armor-aluminum
