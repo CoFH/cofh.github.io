@@ -3,25 +3,6 @@ site: docs-te5
 url: fractionating-still/
 with-energy: true
 recipes:
-  tree-oil:
-    results:
-      - fluid: tf2-tree-oil
-        fluid-amount: 50
-      - item: tf2-rosin
-    ingredients:
-      - fluid: tf2-resin
-        fluid-amount: 100
-    energy: 5000
-    data:
-      input:
-        fluid: tf2-resin
-        amount: 100
-      fluid-output:
-        fluid: tf2-tree-oil
-        amount: 50
-      item-output:
-        item: [tf2-rosin]
-      item-chance: 75
   naphtha-from-coal:
     results:
       - fluid: tf2-naphtha
@@ -79,3 +60,37 @@ recipes:
       item-output:
         item: [tf2-sulfur]
       item-chance: 50
+  tree-oil:
+    results:
+      - fluid: tf2-tree-oil
+        fluid-amount: 50
+      - item: tf2-rosin
+    ingredients:
+      - fluid: tf2-resin
+        fluid-amount: 100
+    energy: 5000
+    data:
+      input:
+        fluid: tf2-resin
+        amount: 100
+      fluid-output:
+        fluid: tf2-tree-oil
+        amount: 50
+      item-output:
+        item: [tf2-rosin]
+      item-chance: 75
+  grassoline:
+    results:
+      - fluid: tf2-grassoline
+        fluid-amount: 100
+    ingredients:
+      - fluid: tf2-biocrude
+        fluid-amount: 200
+    energy: 5000
+    data:
+      input:
+        fluid: tf2-biocrude
+        amount: 200
+      fluid-output:
+        fluid: tf2-grassoline
+        amount: 100

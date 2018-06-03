@@ -653,6 +653,20 @@ recipes:
       result:
         item: [tf2-basalz-powder]
         amount: 2
+  tf2-bioblend:
+    results:
+      - item: tf2-bioblend
+    ingredients:
+      - item: tf2-biomass
+      - item: tf2-sawdust
+    data:
+      shapeless: true
+      rows:
+        - [item: [tf2-biomass], item: [tf2-biomass]]
+        - [item: [tf2-biomass], item: [tf2-sawdust]]
+      result:
+        item: [tf2-bioblend]
+        amount: 4
   tf2-blitz-powder:
     results:
       - item: tf2-blitz-powder
@@ -824,6 +838,19 @@ recipes:
         - [item: [tf2-nugget-diamond], item: [tf2-nugget-diamond], item: [tf2-nugget-diamond]]
       result:
         item: [mc-diamond]
+  tf2-dirt-using-biomass-and-slag:
+    results:
+      - item: mc-dirt
+    ingredients:
+      - item: tf2-biomass
+      - item: tf2-slag
+    data:
+      shapeless: true
+      rows:
+        - [item: [tf2-biomass], item: [tf2-biomass]]
+        - [item: [tf2-slag], item: [tf2-slag]]
+      result:
+        item: [mc-dirt]
   tf2-drill-head:
     results:
       - item: tf2-drill-head

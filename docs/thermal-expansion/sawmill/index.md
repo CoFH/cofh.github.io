@@ -14,19 +14,27 @@ augments:
   - machine-secondary-null
   - machine-sawmill-tapper
 recipe-list:
-  wood-processing:
-    - wood-processing
-  recycling:
-    - recycling-wood-stairs
-    - recycling-fence
-    - recycling-fence-gate
-    - recycling-boat
-    - recycling-door
-    - recycling-melon
-    - recycling-armor-helmet-leather
-    - recycling-armor-chestplate-leather
-    - recycling-armor-leggings-leather
-    - recycling-armor-boots-leather
+  - wood-processing
+  - biomass-from-sapling
+  - biomass-from-wheat
+  - biomass-from-potato
+  - biomass-from-carrot
+  - biomass-from-beetroot
+  - biomass-from-cactus
+  - biomass-from-sugar-canes
+  - biomass-from-pumpkin
+  - biomass-from-melon
+  - biomass-from-lily-pad
+  - biomass-from-vines
+  - recycling-wood-stairs
+  - recycling-fence
+  - recycling-fence-gate
+  - recycling-boat
+  - recycling-door
+  - recycling-armor-helmet-leather
+  - recycling-armor-chestplate-leather
+  - recycling-armor-leggings-leather
+  - recycling-armor-boots-leather
 ---
 
 ![Sawmill](/assets/images/thermal-expansion/sawmill.png){:style="height: 128px"}
@@ -37,7 +45,9 @@ recipe-list:
 A **sawmill** is a [machine](/docs/thermal-expansion/machines/) that processes
 [wood](https://minecraft.gamepedia.com/Wood) into [wood
 planks](https://minecraft.gamepedia.com/Wood_Planks) more efficiently than by
-hand. It can also be used to recycle various wooden things.
+hand. It can also be used to produce [pulped
+biomass](/docs/thermal-foundation/pulped-biomass/) and to recycle various wooden
+things.
 
 
 Obtaining
@@ -166,8 +176,4 @@ Augments can be installed in the Augmentation tab in a sawmill's GUI.
 Recipes
 -------
 
-### Wood processing
-{% include recipe-table.html type='sawmill-te5' recipes=page.recipe-list.wood-processing %}
-
-### Recycling
-{% include recipe-table.html type='sawmill-te5' recipes=page.recipe-list.recycling %}
+{% include recipe-table.html type='sawmill-te5' recipes=page.recipe-list %}

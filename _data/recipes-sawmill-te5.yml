@@ -3,6 +3,163 @@ site: docs-te5
 url: sawmill/
 with-energy: true
 recipes:
+  biomass-from-beetroot:
+    results:
+      - item: tf2-biomass
+      - item: mc-beetroot-seeds
+    ingredients:
+      - item: mc-beetroot
+    energy: 2000
+    data:
+      input:
+        item: [mc-beetroot]
+        amount: 8
+      primary-output:
+        item: [tf2-biomass]
+      secondary-output:
+        item: [mc-beetroot-seeds]
+      secondary-chance: 50
+  biomass-from-cactus:
+    results:
+      - item: tf2-biomass
+    ingredients:
+      - item: mc-cactus
+    energy: 2000
+    data:
+      input:
+        item: [mc-cactus]
+        amount: 4
+      primary-output:
+        item: [tf2-biomass]
+  biomass-from-carrot:
+    results:
+      - item: tf2-biomass
+    ingredients:
+      - item: mc-carrot
+    energy: 2000
+    data:
+      input:
+        item: [mc-carrot]
+        amount: 8
+      primary-output:
+        item: [tf2-biomass]
+  biomass-from-lily-pad:
+    results:
+      - item: tf2-biomass
+    ingredients:
+      - item: mc-lily-pad
+    energy: 2000
+    data:
+      input:
+        item: [mc-lily-pad]
+        amount: 8
+      primary-output:
+        item: [tf2-biomass]
+  biomass-from-melon:
+    results:
+      - item: tf2-biomass
+      - item: mc-melon-seeds
+    ingredients:
+      - item: mc-melon
+    energy: 2000
+    data:
+      input:
+        item: [mc-melon]
+        amount: 4
+      primary-output:
+        item: [tf2-biomass]
+      secondary-output:
+        item: [mc-melon-seeds]
+      secondary-chance: 50
+  biomass-from-potato:
+    results:
+      - item: tf2-biomass
+    ingredients:
+      - item: mc-potato
+    energy: 2000
+    data:
+      input:
+        item: [mc-potato]
+        amount: 8
+      primary-output:
+        item: [tf2-biomass]
+  biomass-from-pumpkin:
+    results:
+      - item: tf2-biomass
+      - item: mc-pumpkin-seeds
+    ingredients:
+      - item: mc-pumpkin
+    energy: 2000
+    data:
+      input:
+        item: [mc-pumpkin]
+        amount: 4
+      primary-output:
+        item: [tf2-biomass]
+      secondary-output:
+        item: [mc-pumpkin-seeds]
+      secondary-chance: 50
+  biomass-from-sapling:
+    results:
+      - item: tf2-biomass
+      - item: tf2-sawdust
+    ingredients:
+      - item-group: mc-sapling
+    energy: 2000
+    data:
+      input:
+        item-group: mc-sapling
+        amount: 4
+      primary-output:
+        item: [tf2-biomass]
+      secondary-output:
+        item: [tf2-sawdust]
+      secondary-chance: 50
+  biomass-from-sugar-canes:
+    results:
+      - item: tf2-biomass
+      - item: mc-sugar
+    ingredients:
+      - item: mc-sugar-canes
+    energy: 2000
+    data:
+      input:
+        item: [mc-sugar-canes]
+        amount: 8
+      primary-output:
+        item: [tf2-biomass]
+      secondary-output:
+        item: [mc-sugar]
+        amount: 2
+      secondary-chance: 100
+  biomass-from-vines:
+    results:
+      - item: tf2-biomass
+    ingredients:
+      - item: mc-vines
+    energy: 2000
+    data:
+      input:
+        item: [mc-vines]
+        amount: 8
+      primary-output:
+        item: [tf2-biomass]
+  biomass-from-wheat:
+    results:
+      - item: tf2-biomass
+      - item: mc-seeds
+    ingredients:
+      - item: mc-wheat
+    energy: 2000
+    data:
+      input:
+        item: [mc-wheat]
+        amount: 8
+      primary-output:
+        item: [tf2-biomass]
+      secondary-output:
+        item: [mc-seeds]
+      secondary-chance: 50
   recycling-armor-helmet-leather:
     results:
       - item: mc-leather
@@ -113,22 +270,6 @@ recipes:
       secondary-output:
         item: [tf2-sawdust]
       secondary-chance: 125
-  recycling-melon:
-    results:
-      - item: mc-melon-slice
-      - item: mc-melon-seeds
-    ingredients:
-      - item: mc-melon
-    energy: 1500
-    data:
-      input:
-        item: [mc-melon]
-      primary-output:
-        item: [mc-melon-slice]
-        amount: 9
-      secondary-output:
-        item: [mc-melon-seeds]
-      secondary-chance: 10
   recycling-wood-stairs:
     results:
       - item-group: mc-wood-planks

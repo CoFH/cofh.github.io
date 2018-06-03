@@ -9,6 +9,7 @@ redirect_from:
 recipes:
   sawmill:
     - wood-processing
+    - biomass-from-sapling
     - recycling-wood-stairs
     - recycling-fence
     - recycling-fence-gate
@@ -34,6 +35,7 @@ usage-recipes:
   crafting:
     - tf2-sawdust-compressed
     - tf2-paper-using-sawdust
+    - tf2-bioblend
     - tf2-phyto-gro-using-sawdust
     - tf2-phyto-gro-rich-using-sawdust
     - tf2-aqua-chow-using-slime

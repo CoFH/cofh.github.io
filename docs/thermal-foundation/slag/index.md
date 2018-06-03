@@ -53,6 +53,7 @@ recipes:
 usage-recipes:
   crafting:
     - tf2-clay-using-slag
+    - tf2-dirt-using-biomass-and-slag
     - tf2-phyto-gro-using-sawdust
     - tf2-phyto-gro-using-charcoal
     - te5-florb-using-slime

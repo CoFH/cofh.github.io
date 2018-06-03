@@ -27,6 +27,8 @@ recipe-list:
     - blitz-powder
     - basalz-powder
     - phyto-gro-rich
+    - biomass-rich
+    - bioblend-rich
     - redstone-from-fluid
     - glowstone-dust-from-fluid
     - ender-pearl-from-fluid
@@ -47,6 +49,10 @@ recipe-list:
   empty:
     - water-from-cactus
     - water-from-sponge
+    - seed-oil-from-seeds
+    - seed-oil-from-beetroot-seeds
+    - seed-oil-from-pumpkin-seeds
+    - seed-oil-from-melon-seeds
     - mushroom-stew
 ---
 

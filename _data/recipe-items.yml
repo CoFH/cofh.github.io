@@ -2218,6 +2218,26 @@ tf2-basalz-rod:
   sprite: [1, 16]
   site: docs-tf2
   url: basalz-rod/
+tf2-biomass:
+  name: Pulped Biomass
+  sprite: [9, 66]
+  site: docs-tf2
+  url: pulped-biomass/
+tf2-biomass-rich:
+  name: Rich Biomass
+  sprite: [10, 66]
+  site: docs-tf2
+  url: rich-biomass/
+tf2-bioblend:
+  name: Pulped Bioblend
+  sprite: [11, 66]
+  site: docs-tf2
+  url: pulped-bioblend/
+tf2-bioblend-rich:
+  name: Rich Bioblend
+  sprite: [12, 66]
+  site: docs-tf2
+  url: rich-bioblend/
 tf2-bitumen:
   name: Bitumen
   animated: true
@@ -2248,6 +2268,11 @@ tf2-bucket-aerotheum:
   sprite: [13, 59]
   site: docs-tf2
   url: zephyrean-aerotheum/
+tf2-bucket-biocrude:
+  name: Biocrude Bucket
+  sprite: [14, 66]
+  site: docs-tf2
+  url: biocrude/
 tf2-bucket-coal:
   name: Liquifacted Coal Bucket
   sprite: [2, 59]
@@ -2283,6 +2308,11 @@ tf2-bucket-glowstone:
   sprite: [9, 40]
   site: docs-tf2
   url: energized-glowstone/
+tf2-bucket-grassoline:
+  name: Grassoline Bucket
+  sprite: [15, 66]
+  site: docs-tf2
+  url: grassoline/
 tf2-bucket-mana:
   name: Primal Mana Bucket
   sprite: [15, 59]
@@ -2328,6 +2358,11 @@ tf2-bucket-sap:
   sprite: [6, 59]
   site: docs-tf2
   url: sap/
+tf2-bucket-seed-oil:
+  name: Seed Oil Bucket
+  sprite: [13, 66]
+  site: docs-tf2
+  url: seed-oil/
 tf2-bucket-steam:
   name: Steam Bucket
   sprite: [0, 59]

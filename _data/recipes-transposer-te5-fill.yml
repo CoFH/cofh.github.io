@@ -20,6 +20,38 @@ recipes:
         amount: 200
       output:
         item: [tf2-basalz-powder]
+  biomass-rich:
+    results:
+      - item: tf2-biomass-rich
+    ingredients:
+      - item: tf2-biomass
+      - fluid: tf2-seed-oil
+        fluid-amount: 100
+    energy: 800
+    data:
+      item-input:
+        item: [tf2-biomass]
+      fluid-input:
+        fluid: tf2-seed-oil
+        amount: 100
+      output:
+        item: [tf2-biomass-rich]
+  bioblend-rich:
+    results:
+      - item: tf2-bioblend-rich
+    ingredients:
+      - item: tf2-bioblend
+      - fluid: tf2-seed-oil
+        fluid-amount: 100
+    energy: 800
+    data:
+      item-input:
+        item: [tf2-bioblend]
+      fluid-input:
+        fluid: tf2-seed-oil
+        amount: 100
+      output:
+        item: [tf2-bioblend-rich]
   blaze-powder:
     results:
       - item: mc-blaze-powder
@@ -105,6 +137,22 @@ recipes:
         amount: 1000
       output:
         item: [tf2-bucket-aerotheum]
+  bucket-biocrude:
+    results:
+      - item: tf2-bucket-biocrude
+    ingredients:
+      - item: mc-bucket
+      - fluid: tf2-biocrude
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [mc-bucket]
+      fluid-input:
+        fluid: tf2-biocrude
+        amount: 1000
+      output:
+        item: [tf2-bucket-biocrude]
   bucket-coal:
     results:
       - item: tf2-bucket-coal
@@ -217,6 +265,22 @@ recipes:
         amount: 1000
       output:
         item: [tf2-bucket-glowstone]
+  bucket-grassoline:
+    results:
+      - item: tf2-bucket-grassoline
+    ingredients:
+      - item: mc-bucket
+      - fluid: tf2-grassoline
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [mc-bucket]
+      fluid-input:
+        fluid: tf2-grassoline
+        amount: 1000
+      output:
+        item: [tf2-bucket-grassoline]
   bucket-mana:
     results:
       - item: tf2-bucket-mana
@@ -361,6 +425,22 @@ recipes:
         amount: 1000
       output:
         item: [tf2-bucket-sap]
+  bucket-seed-oil:
+    results:
+      - item: tf2-bucket-seed-oil
+    ingredients:
+      - item: mc-bucket
+      - fluid: tf2-seed-oil
+        fluid-amount: 1000
+    energy: 400
+    data:
+      item-input:
+        item: [mc-bucket]
+      fluid-input:
+        fluid: tf2-seed-oil
+        amount: 1000
+      output:
+        item: [tf2-bucket-seed-oil]
   bucket-steam:
     results:
       - item: tf2-bucket-steam

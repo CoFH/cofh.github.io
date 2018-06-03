@@ -17,6 +17,7 @@ recipe-list:
   - naphtha-from-crude-oil
   - refined-fuel
   - tree-oil
+  - grassoline
 ---
 
 ![Fractionating still](/assets/images/thermal-expansion/fractionating-still.png){:style="height: 128px"}

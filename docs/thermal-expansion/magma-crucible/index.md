@@ -46,6 +46,10 @@ recipe-list:
   - fluid-ore-processing-oil-sand
   - fluid-ore-processing-oil-shale
   - creosote-oil-from-tar
+  - biocrude-from-biomass
+  - biocrude-from-biomass-rich
+  - biocrude-from-bioblend
+  - biocrude-from-bioblend-rich
 ---
 
 ![Magma crucible](/assets/images/thermal-expansion/magma-crucible.png){:style="height: 128px"}
