@@ -5662,12 +5662,12 @@ recipes:
     results:
       - item: mc-torch
     ingredients:
-      - item: mc-string
+      - item: mc-stick
       - item: tf2-rosin
     data:
       rows:
         - [null, item: [tf2-rosin]]
-        - [null, item: [mc-string]]
+        - [null, item: [mc-stick]]
       result:
         item: [mc-torch]
         amount: 4
@@ -5675,12 +5675,12 @@ recipes:
     results:
       - item: mc-torch
     ingredients:
-      - item: mc-string
+      - item: mc-stick
       - item: tf2-tar
     data:
       rows:
         - [null, item: [tf2-tar]]
-        - [null, item: [mc-string]]
+        - [null, item: [mc-stick]]
       result:
         item: [mc-torch]
         amount: 4
