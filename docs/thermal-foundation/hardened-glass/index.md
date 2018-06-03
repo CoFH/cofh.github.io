@@ -94,3 +94,10 @@ glass blocks change the color of
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+
+Trivia
+------
+
+* If [ConnectedTexturesMod](https://minecraft.curseforge.com/projects/ctm) is
+  installed, placed hardened glass blocks have connected textures.
