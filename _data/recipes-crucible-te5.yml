@@ -81,19 +81,6 @@ recipes:
       output:
         fluid: tf2-coal
         amount: 100
-  creosote-oil-from-tar:
-    results:
-      - fluid: tf2-creosote-oil
-        fluid-amount: 250
-    ingredients:
-      - item: tf2-tar
-    energy: 2000
-    data:
-      input:
-        item: [tf2-tar]
-      output:
-        fluid: tf2-creosote-oil
-        amount: 250
   crude-oil-from-bitumen:
     results:
       - fluid: tf2-crude-oil

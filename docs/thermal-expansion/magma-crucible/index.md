@@ -45,7 +45,6 @@ recipe-list:
   - crude-oil-from-bitumen
   - fluid-ore-processing-oil-sand
   - fluid-ore-processing-oil-shale
-  - creosote-oil-from-tar
   - biocrude-from-biomass
   - biocrude-from-biomass-rich
   - biocrude-from-bioblend
@@ -95,7 +94,7 @@ output tank.
 The speed at which a magma crucible processes items depends on how much energy
 it can use per tick. This in turn depends on how much power is being supplied,
 and on the machine's maximum power usage. A basic crucible has a maximum power
-usage of 50 RF/t. This can be increased by upgrading the machine to a higher
+usage of 40 RF/t. This can be increased by upgrading the machine to a higher
 [tier](#tiers), and by installing certain [augments](#augmentation).
 
 ### Input and output
@@ -157,11 +156,11 @@ Magma crucibles come in five [tiers](/docs/thermal-foundation/tiers/).
 <div class="uk-overflow-container">
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer |
 |---
-| Basic | 50 RF/t | 0 | 16 | 1,000 mB |
-| Hardened | 75 RF/t | 1 | 16 | 1,000 mB |
-| Reinforced | 100 RF/t | 2 | 28 | 3,000 mB |
-| Signalum | 125 RF/t | 3 | 44 | 6,000 mB |
-| Resonant | 150 RF/t | 4 | 64 | 10,000 mB |
+| Basic | 40 RF/t | 0 | 16 | 1,000 mB |
+| Hardened | 60 RF/t | 1 | 16 | 1,000 mB |
+| Reinforced | 80 RF/t | 2 | 28 | 3,000 mB |
+| Signalum | 100 RF/t | 3 | 44 | 6,000 mB |
+| Resonant | 120 RF/t | 4 | 64 | 10,000 mB |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

@@ -42,7 +42,6 @@ usage-recipes:
     - tf2-gear-invar
     - tf2-storage-block-invar
     - tf2-upgrade-kit-hardened
-    - te5-machine-smelter
     - te5-machine-precipitator
     - te5-machine-extruder
     - te5-device-heat-sink

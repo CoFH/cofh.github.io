@@ -13,8 +13,6 @@ usage-recipes:
   crafting:
     - tf2-multimeter
     - te5-energy-cell-basic
-    - te5-machine-crucible
-    - te5-machine-charger
     - te5-augment-machine-furnace-food
     - te5-augment-machine-furnace-ore
     - te5-augment-machine-smelter-pyrotheum

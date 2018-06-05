@@ -63,22 +63,22 @@ recipes:
   tree-oil:
     results:
       - fluid: tf2-tree-oil
-        fluid-amount: 50
+        fluid-amount: 100
       - item: tf2-rosin
     ingredients:
       - fluid: tf2-resin
-        fluid-amount: 100
+        fluid-amount: 200
     energy: 5000
     data:
       input:
         fluid: tf2-resin
-        amount: 100
+        amount: 200
       fluid-output:
         fluid: tf2-tree-oil
-        amount: 50
+        amount: 100
       item-output:
         item: [tf2-rosin]
-      item-chance: 75
+      item-chance: 50
   grassoline:
     results:
       - fluid: tf2-grassoline

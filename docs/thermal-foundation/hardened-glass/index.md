@@ -48,6 +48,7 @@ recipes:
 usage-recipes:
   crafting:
     - tf2-upgrade-kit-reinforced
+    - te5-machine-crucible
     - te5-machine-brewer
     - te5-device-diffuser
     - te5-flux-capacitor-reinforced

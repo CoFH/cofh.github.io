@@ -26,7 +26,6 @@ recipe-list:
     - flint
     - recycling-sandstone
     - recycling-sandstone-red
-    - sugar
     - bone-meal
     - glowstone-dust-from-glowstone
     - magma-cream-from-block
@@ -78,6 +77,8 @@ recipe-list:
   recycling:
     - recycling-wool
     - recycling-concrete
+    - recycling-clay-block
+    - recycling-terracotta
     - recycling-bricks
     - recycling-bricks-slab
     - recycling-brick-stairs

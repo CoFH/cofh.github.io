@@ -11,6 +11,7 @@ recipes:
     - gear-invar
 usage-recipes:
   crafting:
+    - te5-machine-smelter
     - te5-dynamo-magmatic
     - te5-augment-machine-furnace-pyrolysis
     - te5-augment-machine-compactor-coin

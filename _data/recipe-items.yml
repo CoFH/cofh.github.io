@@ -398,6 +398,11 @@ mc-clay:
   sprite: [3, 39]
   site: mc-wiki
   url: Clay
+mc-clay-block:
+  name: Clay
+  sprite: [0, 67]
+  site: mc-wiki
+  url: Clay_(block)
 mc-clock:
   name: Clock
   sprite: [14, 55]
@@ -1643,6 +1648,91 @@ mc-sugar-canes:
   sprite: [10, 42]
   site: mc-wiki
   url: Sugar_Canes
+mc-terracotta:
+  name: Terracotta
+  sprite: [1, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-black:
+  name: Black Terracotta
+  sprite: [1, 68]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-blue:
+  name: Blue Terracotta
+  sprite: [13, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-brown:
+  name: Brown Terracotta
+  sprite: [14, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-cyan:
+  name: Cyan Terracotta
+  sprite: [11, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-gray:
+  name: Gray Terracotta
+  sprite: [9, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-green:
+  name: Green Terracotta
+  sprite: [15, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-light-blue:
+  name: Light Blue Terracotta
+  sprite: [5, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-light-gray:
+  name: Light Gray Terracotta
+  sprite: [10, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-lime:
+  name: Lime Terracotta
+  sprite: [7, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-magenta:
+  name: Magenta Terracotta
+  sprite: [4, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-orange:
+  name: Orange Terracotta
+  sprite: [3, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-pink:
+  name: Pink Terracotta
+  sprite: [8, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-purple:
+  name: Purple Terracotta
+  sprite: [12, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-red:
+  name: Red Terracotta
+  sprite: [0, 68]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-white:
+  name: White Terracotta
+  sprite: [2, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-yellow:
+  name: Yellow Terracotta
+  sprite: [6, 67]
+  site: mc-wiki
+  url: Terracotta
 mc-tool-axe-diamond:
   name: Diamond Axe
   sprite: [6, 44]

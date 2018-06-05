@@ -11,6 +11,7 @@ recipes:
     - gear-lead
 usage-recipes:
   crafting:
+    - te5-machine-charger
     - te5-dynamo-reactant
     - te5-frame-energy-cell
   smelter:

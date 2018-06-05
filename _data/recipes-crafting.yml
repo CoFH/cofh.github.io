@@ -7523,10 +7523,10 @@ recipes:
       - item: tf2-redstone-coil-gold
       - item: tf2-gear-copper
       - item: tf2-redstone-coil-silver
-      - item: tf2-redstone-coil-electrum
+      - item: tf2-gear-lead
     data:
       rows:
-        - [null, item: [tf2-redstone-coil-electrum]]
+        - [null, item: [tf2-gear-lead]]
         - [item: [tf2-redstone-coil-silver], item: [te5-frame-machine], item: [tf2-redstone-coil-silver]]
         - [item: [tf2-gear-copper], item: [tf2-redstone-coil-gold], item: [tf2-gear-copper]]
       result:
@@ -7571,10 +7571,12 @@ recipes:
       - item: tf2-redstone-coil-gold
       - item: tf2-gear-copper
       - item: mc-nether-brick
-      - item: tf2-redstone-coil-electrum
+      - item: tf2-hardened-glass
     data:
       rows:
-        - [null, item: [tf2-redstone-coil-electrum]]
+        - - null
+          - random: true
+            item-group: tf2-hardened-glass
         - [item: [mc-nether-brick], item: [te5-frame-machine], item: [mc-nether-brick]]
         - [item: [tf2-gear-copper], item: [tf2-redstone-coil-gold], item: [tf2-gear-copper]]
       result:
@@ -7718,12 +7720,12 @@ recipes:
       - item: te5-frame-machine
       - item: tf2-redstone-coil-gold
       - item: tf2-gear-copper
-      - item: tf2-ingot-invar
-      - item: mc-bucket
+      - item: mc-sand
+      - item: tf2-gear-invar
     data:
       rows:
-        - [null, item: [mc-bucket]]
-        - [item: [tf2-ingot-invar], item: [te5-frame-machine], item: [tf2-ingot-invar]]
+        - [null, item: [tf2-gear-invar]]
+        - [item: [mc-sand, mc-sand-red], item: [te5-frame-machine], item: [mc-sand, mc-sand-red]]
         - [item: [tf2-gear-copper], item: [tf2-redstone-coil-gold], item: [tf2-gear-copper]]
       result:
         item: [te5-machine-smelter]
