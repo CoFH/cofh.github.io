@@ -43,7 +43,8 @@ Usage
 -----
 
 ### Placement
-When placed, a reactant dynamo faces up. It can face any direction, and can be
+When placed, a reactant dynamo faces up. When placed while sneaking, it faces
+away from the player. A reactant dynamo can face any direction, and can be
 rotated using a [wrench](/docs/wrenches/).
 
 ### Energy generation
@@ -89,9 +90,9 @@ High
 
 The current mode can be set using the Redstone Control tab in the dynamo's GUI.
 
-When a reactant dynamo must stop working due to a redstone signal and is still
+When a reactant dynamo is deactivated by a redstone signal and is still
 generating energy from a reaction, it will finish generating energy from that
-reaction before stopping.
+reaction first.
 
 ### Security
 A reactant dynamo can have a [signalum security

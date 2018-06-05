@@ -148,9 +148,6 @@ High
 
 The current mode can be set using the Redstone Control tab in the machine's GUI.
 
-When a fluid transposer must stop working due to a redstone signal and is still
-processing an item, it will finish processing that item before stopping.
-
 ### Security
 A fluid transposer can have a [signalum security
 lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.

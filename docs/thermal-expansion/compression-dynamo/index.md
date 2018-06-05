@@ -47,8 +47,9 @@ Usage
 -----
 
 ### Placement
-When placed, a compression dynamo faces up. It can face any direction, and can
-be rotated using a [wrench](/docs/wrenches/).
+When placed, a compression dynamo faces up. When placed while sneaking, it faces
+away from the player. A compression dynamo can face any direction, and can be
+rotated using a [wrench](/docs/wrenches/).
 
 ### Energy generation
 When a compression dynamo is filled with fluid [fuel](#fuels) and
@@ -102,9 +103,9 @@ High
 
 The current mode can be set using the Redstone Control tab in the dynamo's GUI.
 
-When a compression dynamo must stop working due to a redstone signal and is
-still generating energy from a consumed batch of fuel, it will finish generating
-energy from that batch before stopping.
+When a compression dynamo is deactivated by a redstone signal and is still
+generating energy from a consumed batch of fuel, it will finish generating
+energy from that batch first.
 
 ### Security
 A compression dynamo can have a [signalum security

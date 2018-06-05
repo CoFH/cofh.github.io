@@ -46,8 +46,9 @@ Usage
 -----
 
 ### Placement
-When placed, a steam dynamo faces up. It can face any direction, and can be
-rotated using a [wrench](/docs/wrenches/).
+When placed, a steam dynamo faces up. When placed while sneaking, it faces away
+from the player. A steam dynamo can face any direction, and can be rotated using
+a [wrench](/docs/wrenches/).
 
 ### Energy generation
 A steam dynamo has a fuel slot and a
@@ -93,9 +94,9 @@ High
 
 The current mode can be set using the Redstone Control tab in the dynamo's GUI.
 
-When a steam dynamo must stop working due to a redstone signal and is still
-generating energy from a consumed unit of fuel, it will finish generating energy
-from that unit of fuel before stopping.
+When a steam dynamo is deactivated by a redstone signal and is still generating
+energy from a consumed unit of fuel, it will finish generating energy from that
+unit of fuel first.
 
 ### Security
 A steam dynamo can have a [signalum security

@@ -103,9 +103,6 @@ High
 
 The current mode can be set using the Redstone Control tab in the machine's GUI.
 
-When an alchemical imbuer must stop working due to a redstone signal and is
-still brewing a potion, it will finish brewing that potion before stopping.
-
 ### Security
 An alchemical imbuer can have a [signalum security
 lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
