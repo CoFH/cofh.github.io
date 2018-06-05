@@ -43,3 +43,9 @@ When used as fuel in a [compression
 dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket of grassoline
 yields 800,000 RF, or 1,000,000 RF if an [agitative
 manifold](/docs/thermal-expansion/augment-agitative-manifold/) is installed.
+
+
+Trivia
+------
+
+* Grassoline is internally registered as "refined biofuel".

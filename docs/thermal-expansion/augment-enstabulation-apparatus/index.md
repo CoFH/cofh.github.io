@@ -39,9 +39,9 @@ This recipe set consists of processing [morbs](/docs/thermal-expansion/morb/) co
 types of [mobs](https://minecraft.gamepedia.com/Mob) into mob drops and [essence
 of knowledge](/docs/thermal-foundation/essence-of-knowledge/).
 
-When processing morbs, each operation requires 4,000 RF. There is a 20% chance
-that an empty morb is returned as an output. When processing a [reusable
-morb](/docs/thermal-expansion/reusable-morb/), this is an 80% chance.
+When processing morbs, each operation requires 4,000 RF. There is a 25% chance
+that an empty morb is returned as an output. [Reusable
+morbs](/docs/thermal-expansion/reusable-morb/) are always returned.
 
 
 Recipes
@@ -93,7 +93,7 @@ produced at a time.
 | [Villager](https://minecraft.gamepedia.com/Villager) | [Emerald](https://minecraft.gamepedia.com/Emerald) (2%) | 0 mB |
 | [Vindicator](https://minecraft.gamepedia.com/Vindicator) | [Emerald](https://minecraft.gamepedia.com/Emerald) (50%) | 100 mB |
 | [Witch](https://minecraft.gamepedia.com/Witch) | [Glowstone Dust](https://minecraft.gamepedia.com/Glowstone_Dust) × 2 (40%), [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) × 2 (40%), [Redstone](https://minecraft.gamepedia.com/Redstone) × 2 (40%) | 100 mB |
-| [Wither Skeleton](https://minecraft.gamepedia.com/Wither_Skeleton) | [Coal](https://minecraft.gamepedia.com/Coal) (25%), [Bone](https://minecraft.gamepedia.com/Bone) × 2 (50%) | 100 mB |
+| [Wither Skeleton](https://minecraft.gamepedia.com/Wither_Skeleton) | [Coal](https://minecraft.gamepedia.com/Coal) (25%), [Bone](https://minecraft.gamepedia.com/Bone) × 2 (50%), [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) (2%) | 100 mB |
 | [Zombie](https://minecraft.gamepedia.com/Zombie) | [Rotten Flesh](https://minecraft.gamepedia.com/Rotten_Flesh) × 2 (50%), [Iron Ingot](https://minecraft.gamepedia.com/Iron_Ingot) (2%), [Potato](https://minecraft.gamepedia.com/Potato) (2%) | 100 mB |
 | [Zombie Pigman](https://minecraft.gamepedia.com/Zombie_Pigman) | [Rotten Flesh](https://minecraft.gamepedia.com/Rotten_Flesh) (50%), [Gold Nugget](https://minecraft.gamepedia.com/Gold_Nugget) (50%), [Gold Ingot](https://minecraft.gamepedia.com/Gold_Ingot) (2%) | 100 mB |
 | [Zombie Villager](https://minecraft.gamepedia.com/Zombie_Villager) | [Rotten Flesh](https://minecraft.gamepedia.com/Rotten_Flesh) × 2 (50%), [Iron Ingot](https://minecraft.gamepedia.com/Iron_Ingot) (2%), [Potato](https://minecraft.gamepedia.com/Potato) (2%) | 100 mB |

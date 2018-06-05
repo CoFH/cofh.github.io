@@ -40,11 +40,11 @@ cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 When placed next to the bottom of a [tree](https://minecraft.gamepedia.com/Tree)
 (or [huge mushroom](https://minecraft.gamepedia.com/Huge_mushroom)), an arboreal
 extractor will start extracting a fluid. An active arboreal extractor produces a
-certain amount of fluid every 600 ticks (30 seconds).
+certain amount of fluid every 500 ticks (25 seconds).
 
 The amount of fluid an arboreal extractor produces per cycle can be increased by
 placing fertilizer items in its fertilizer slot. Fertilizer will boost the
-device's production for 16 cycles per item.
+device's production for 8 cycles per item.
 
 | Fertilizer type | Production multiplier |
 |---
@@ -63,7 +63,7 @@ directly correspond to its output tank. This is called auto-output. The device
 can automatically transfer up to 1,000 mB of fluid at a time. It can also
 transfer items from adjacent inventories into any sides that directly correspond
 to its fertilizer slot. This is called auto-input. Auto-output and auto-input
-occur every 600 ticks (30 seconds). Auto-output occurs after fluid is produced,
+occur every 500 ticks (25 seconds). Auto-output occurs after fluid is produced,
 and auto-input occurs right before fluid is produced.
 
 Which sides correspond to which slots/tanks and whether auto-output and
@@ -110,7 +110,7 @@ produced per cycle depends on the type of tree.
 | Birch | [Resin](/docs/thermal-foundation/resin/) | 50 mB |
 | Jungle | [Resin](/docs/thermal-foundation/resin/) | 50 mB |
 | Acacia | [Resin](/docs/thermal-foundation/resin/) | 50 mB |
-| Dark Oak | [Sap](/docs/thermal-foundation/sap/) | 50 mB |
+| Dark Oak | [Sap](/docs/thermal-foundation/sap/) | 100 mB |
 | Huge brown mushroom | [Mushroom Stew](/docs/thermal-foundation/mushroom-stew/) | 50 mB |
 | Huge red mushroom | [Mushroom Stew](/docs/thermal-foundation/mushroom-stew/) | 50 mB |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

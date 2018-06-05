@@ -96,6 +96,3 @@ lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict wh
 ### Redprints
 A decoctive diffuser's configuration can be saved on a
 [redprint](/docs/thermal-foundation/redprint/) to be copied to other diffusers.
-
-### Light source
-When a decoctive diffuser is active, it emits a light level of 5.

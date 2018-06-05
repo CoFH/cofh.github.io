@@ -54,7 +54,7 @@ differs depending on the type of dynamo.
 | Dynamo | Max. power output modifier | Energy modifier |
 |---
 | [Steam Dynamo](/docs/thermal-expansion/steam-dynamo/) | × 4 | + 15% |
-| [Magmatic Dynamo](/docs/thermal-expansion/magmatic-dynamo/) | × 2 | - 30% |
+| [Magmatic Dynamo](/docs/thermal-expansion/magmatic-dynamo/) | × 2 | - 40% |
 | [Compression Dynamo](/docs/thermal-expansion/compression-dynamo/) | × 2 | - 40% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>

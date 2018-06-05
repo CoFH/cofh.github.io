@@ -97,4 +97,4 @@ An insightful condenser's configuration can be saved on a
 [redprint](/docs/thermal-foundation/redprint/) to be copied to other insightful condensers.
 
 ### Light source
-When an insightful condenser is active, it emits a light level of 5.
+When an insightful condenser is active, it emits a light level of 2.

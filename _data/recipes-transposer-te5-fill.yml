@@ -674,7 +674,7 @@ recipes:
       - item: tf2-phyto-gro
       - fluid: tf2-sap
         fluid-amount: 200
-    energy: 2000
+    energy: 1600
     data:
       item-input:
         item: [tf2-phyto-gro]

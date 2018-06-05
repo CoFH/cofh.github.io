@@ -41,10 +41,10 @@ increase the amount of energy required per operation.
 <div class="uk-overflow-container">
 | Installed amount | Max. power usage multiplier | Energy increase |
 |---
-| 1 | × 2 | + 15% |
-| 2 | × 3 | + 30% |
-| 3 | × 4 | + 45% |
-| 4 | × 5 | + 60% |
+| 1 | × 2 | + 10% |
+| 2 | × 3 | + 20% |
+| 3 | × 4 | + 30% |
+| 4 | × 5 | + 40% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

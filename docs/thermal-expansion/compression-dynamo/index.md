@@ -164,10 +164,10 @@ amounts of energy.
 | [Seed Oil](/docs/thermal-foundation/seed-oil/) | 80,000 RF |
 | [Liquifacted Coal](/docs/thermal-foundation/liquifacted-coal/) | 400,000 RF |
 | [Crude Oil](/docs/thermal-foundation/crude-oil/) | 400,000 RF |
+| [Tree Oil](/docs/thermal-foundation/tree-oil/) | 400,000 RF |
 | [Grassoline](/docs/thermal-foundation/grassoline/) | 800,000 RF |
-| [Tree Oil](/docs/thermal-foundation/tree-oil/) | 1,000,000 RF |
-| [Naphtha](/docs/thermal-foundation/naphtha/) | 1,250,000 RF |
-| [Refined Fuel](/docs/thermal-foundation/refined-fuel/) | 2,000,000 RF |
+| [Naphtha](/docs/thermal-foundation/naphtha/) | 1,000,000 RF |
+| [Refined Fuel](/docs/thermal-foundation/refined-fuel/) | 1,500,000 RF |
 | Canola Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 80,000 RF |
 | Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 200,000 RF |
 | Crystallized Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 400,000 RF |
