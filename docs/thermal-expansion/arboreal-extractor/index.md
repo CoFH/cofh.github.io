@@ -39,8 +39,18 @@ cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 ### Operation
 When placed next to the bottom of a [tree](https://minecraft.gamepedia.com/Tree)
 (or [huge mushroom](https://minecraft.gamepedia.com/Huge_mushroom)), an arboreal
-extractor will start extracting a fluid. An active arboreal extractor produces a
-certain amount of fluid every 500 ticks (25 seconds).
+extractor will start extracting a [fluid](#products).
+
+An active arboreal extractor produces a certain amount of a fluid every 500
+ticks (25 seconds). The amount of time increases when other arboreal extractors
+are nearby.
+
+| Adjacent extractors | Cycle length |
+|---
+| 0 | 500 ticks (25 seconds) |
+| 1 | 750 ticks (37.5 seconds) |
+| 2 or more | 1,000 ticks (50 seconds) |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 The amount of fluid an arboreal extractor produces per cycle can be increased by
 placing fertilizer items in its fertilizer slot. Fertilizer will boost the
@@ -63,8 +73,8 @@ directly correspond to its output tank. This is called auto-output. The device
 can automatically transfer up to 1,000 mB of fluid at a time. It can also
 transfer items from adjacent inventories into any sides that directly correspond
 to its fertilizer slot. This is called auto-input. Auto-output and auto-input
-occur every 500 ticks (25 seconds). Auto-output occurs after fluid is produced,
-and auto-input occurs right before fluid is produced.
+occur at the same speed at which fluid is produced. Auto-output occurs after
+fluid is produced, and auto-input occurs right before fluid is produced.
 
 Which sides correspond to which slots/tanks and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the

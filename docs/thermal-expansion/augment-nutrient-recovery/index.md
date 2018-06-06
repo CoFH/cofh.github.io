@@ -45,6 +45,11 @@ operation.
 | 2 | 40% | + 30% |
 | 3 | 60% | + 45% |
 | 4 | 80% | + 60% |
+| 5 | 95% | + 75% |
+| 6 | 95% | + 90% |
+| 7 | 95% | + 105% |
+| 8 | 95% | + 120% |
+| 9 | 95% | + 135% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

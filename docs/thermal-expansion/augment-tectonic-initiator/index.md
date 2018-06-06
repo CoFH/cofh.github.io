@@ -44,22 +44,27 @@ An installed tectonic initiator also increases the chances of a pulverizer
 producing a secondary product. This effect stacks with those of any installed
 [auxiliary sieves](/docs/thermal-expansion/augment-auxiliary-sieve/).
 
+<!--
+modifiedChance = 100 - amount * 15 - 25   (minimum is 5)
+multiplier = 100 / modifiedChance
+-->
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed auxiliary sieves | Chance multiplier (approx.) | Chance multiplier (exact) |
+| Installed auxiliary sieves | Chance multiplier |
 |---
-| 0 | × 1.33 | × 1 1/3 |
-| 1 | × 1.67 | × 1 2/3 |
-| 2 | × 2.22 | × 2 2/9 |
-| 3 | × 3.33 | × 3 1/3 |
+| 0 | × 1.33 |
+| 1 | × 1.67 |
+| 2 | × 2.22 |
+| 3 | × 3.33 |
+| 4 | × 6.67 |
+| 5 | × 20 |
+| 6 | × 20 |
+| 7 | × 20 |
+| 8 | × 20 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
-
-If the chance for a secondary product is raised to above 100%, the secondary
-product is guaranteed to be produced at least once. The remainder of the chance
-(e.g. 25% for a 125% chance) becomes the chance of the secondary product being
-produced twice.
 
 If a tectonic initiator is installed together with other augments that increase
 the amount of energy required per operation, their energy increase percentages

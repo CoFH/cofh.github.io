@@ -44,6 +44,11 @@ maximum power output, thereby increasing its energy production speed.
 | 2 | × 3 |
 | 3 | × 4 |
 | 4 | × 5 |
+| 5 | × 6 |
+| 6 | × 7 |
+| 7 | × 8 |
+| 8 | × 9 |
+| 9 | × 10 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

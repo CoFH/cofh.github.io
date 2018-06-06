@@ -45,6 +45,11 @@ increase the amount of energy required per operation.
 | 2 | × 3 | + 20% |
 | 3 | × 4 | + 30% |
 | 4 | × 5 | + 40% |
+| 5 | × 6 | + 50% |
+| 6 | × 7 | + 60% |
+| 7 | × 8 | + 70% |
+| 8 | × 9 | + 80% |
+| 9 | × 10 | + 90% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

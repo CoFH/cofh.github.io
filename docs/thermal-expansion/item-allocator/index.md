@@ -55,6 +55,27 @@ Which sides can output and/or accept items and whether auto-output and
 auto-input are enabled can be configured using the Configuration tab in the
 device's GUI.
 
+### Filtering
+An item allocator can be configured to only accept and transfer items that match
+a given list of items. This can be done by using the placed item allocator while
+sneaking. It has various options that determine how this list is used to match
+items.
+
+Blacklist/Whitelist
+: Treat the list of items as a blacklist (store all items except these) or as a
+whitelist (only store these items). The list is used as a blacklist by default.
+
+Ore Dictionary
+: Match items that are considered equivalent, like the various versions of
+copper and tin ingots added by different mods. This is ignored by default.
+
+Metadata
+: Match items by their exact metadata / damage value. This is ignored by
+default.
+
+NBT
+: Match items by their exact NBT data. This is ignored by default.
+
 ### Redstone control
 An item allocator may be configured to respond to
 [redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
