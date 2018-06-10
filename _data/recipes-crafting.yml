@@ -7063,6 +7063,22 @@ recipes:
         - [item: [tf2-gear-iron], item: [tf2-redstone-servo], item: [tf2-gear-iron]]
       result:
         item: [te5-device-item-buffer]
+  te5-device-item-collector:
+    results:
+      - item: te5-device-item-collector
+    ingredients:
+      - item: te5-frame-device
+      - item: tf2-redstone-servo
+      - item: tf2-gear-iron
+      - item: tf2-ingot-tin
+      - item: mc-hopper
+    data:
+      rows:
+        - [null, item: [mc-hopper]]
+        - [item: [tf2-ingot-tin], item: [te5-frame-device], item: [tf2-ingot-tin]]
+        - [item: [tf2-gear-iron], item: [tf2-redstone-servo], item: [tf2-gear-iron]]
+      result:
+        item: [te5-device-item-collector]
   te5-device-lexicon:
     results:
       - item: te5-device-lexicon

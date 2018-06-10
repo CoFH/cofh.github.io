@@ -4748,6 +4748,11 @@ te5-device-item-buffer:
   sprite: [3, 27]
   site: docs-te5
   url: item-allocator/
+te5-device-item-collector:
+  name: Vacuumulator
+  sprite: [2, 68]
+  site: docs-te5
+  url: vacuumulator/
 te5-device-lexicon:
   name: Lexical Transmuter
   sprite: [4, 8]

@@ -50,6 +50,7 @@ usage-recipes:
     - te5-machine-crafter
     - te5-frame-device
     - te5-device-item-buffer
+    - te5-device-item-collector
     - te5-dynamo-compression
     - te5-flux-capacitor-hardened
     - te5-reservoir-basic
