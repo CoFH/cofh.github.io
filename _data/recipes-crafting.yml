@@ -6906,6 +6906,21 @@ recipes:
         - [null, item: [tf2-dust-pyrotheum]]
       result:
         item: [te5-augment-dynamo-compression-fuel]
+  te5-augment-dynamo-compression-biofuel:
+    results:
+      - item: te5-augment-dynamo-compression-biofuel
+    ingredients:
+      - item: tf2-redstone-coil-electrum
+      - item: tf2-plate-constantan
+      - item: tf2-gear-bronze
+      - item: tf2-dust-aerotheum
+    data:
+      rows:
+        - [null, item: [tf2-gear-bronze]]
+        - [item: [tf2-plate-constantan], item: [tf2-redstone-coil-electrum], item: [tf2-plate-constantan]]
+        - [null, item: [tf2-dust-aerotheum]]
+      result:
+        item: [te5-augment-dynamo-compression-biofuel]
   te5-augment-dynamo-reactant-elemental:
     results:
       - item: te5-augment-dynamo-reactant-elemental

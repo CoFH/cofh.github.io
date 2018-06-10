@@ -28,6 +28,7 @@ usage-recipes:
     - te5-augment-dynamo-magmatic-coolant
     - te5-augment-dynamo-compression-coolant
     - te5-augment-dynamo-compression-fuel
+    - te5-augment-dynamo-compression-biofuel
     - te5-augment-dynamo-reactant-elemental
     - te5-augment-dynamo-enervation-enchant
     - te5-augment-dynamo-numismatic-gem

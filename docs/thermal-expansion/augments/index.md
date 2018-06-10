@@ -44,6 +44,7 @@ augments:
     - dynamo-magmatic-coolant
     - dynamo-compression-coolant
     - dynamo-compression-fuel
+    - dynamo-compression-biofuel
     - dynamo-reactant-elemental
     - dynamo-enervation-enchant
     - dynamo-numismatic-gem

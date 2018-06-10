@@ -4698,6 +4698,11 @@ te5-augment-dynamo-compression-fuel:
   sprite: [15, 28]
   site: docs-te5
   url: augment-ignition-plugs/
+te5-augment-dynamo-compression-biofuel:
+  name: 'Augment: Agitative Manifold'
+  sprite: [3, 68]
+  site: docs-te5
+  url: augment-agitative-manifold/
 te5-augment-dynamo-reactant-elemental:
   name: 'Augment: Elemental Catalyzer'
   sprite: [3, 29]

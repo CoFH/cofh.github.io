@@ -20,6 +20,7 @@ augments:
   - dynamo-boiler
   - dynamo-compression-coolant
   - dynamo-compression-fuel
+  - dynamo-compression-biofuel
 ---
 
 A **compression dynamo** is a [dynamo](/docs/thermal-expansion/dynamos/) fueled by fluid fuel and
