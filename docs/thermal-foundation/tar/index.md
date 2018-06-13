@@ -25,8 +25,7 @@ usage-recipes:
 coal](/docs/thermal-foundation/liquifacted-coal/) or [crude oil](/docs/thermal-foundation/crude-oil/) in a
 [fractionating still](/docs/thermal-expansion/fractionating-still/). It can be used to craft
 [torches](https://minecraft.gamepedia.com/Torches), and can replace
-[slimeballs](https://minecraft.gamepedia.com/Slimeball) in some recipes. It can
-also be processed into [creosote oil](/docs/thermal-foundation/creosote-oil/).
+[slimeballs](https://minecraft.gamepedia.com/Slimeball) in some recipes.
 
 
 Obtaining
