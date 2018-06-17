@@ -1,5 +1,5 @@
 ---
-title: Satchel
+title: Satchel (Thermal Expansion)
 nav: thermal-expansion
 image:
   - alt: Satchel (Basic)

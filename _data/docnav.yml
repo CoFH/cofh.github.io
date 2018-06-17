@@ -1425,3 +1425,38 @@ redstone-arsenal:
             - title: Fluxed Armor Plating
               url: fluxed-armor-plating/
               icon: [0, 23]
+
+vanillaplus-tools:
+  title: Vanilla+ Tools
+  url: vanillaplus-tools/
+  sections:
+    - groups:
+        - items:
+            - title: Hammers
+              url: hammers/
+              icon: [9, 24]
+            - title: Sickles
+              url: sickles/
+              icon: [8, 24]
+            - title: Fishing Rods
+              url: fishing-rods/
+              icon: [6, 24]
+            - title: Shears
+              url: shears/
+              icon: [7, 24]
+            - title: Reinforced Bows
+              url: reinforced-bows/
+              icon: [5, 24]
+            - title: Shields
+              url: shields/
+              icon: [10, 24]
+
+vanillaplus-satchels:
+  title: Vanilla+ Satchels
+  url: vanillaplus-satchels/
+  sections:
+    - groups:
+        - items:
+            - title: Satchel
+              url: satchel/
+              icon: [4, 24]
