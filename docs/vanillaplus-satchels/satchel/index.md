@@ -1,35 +1,24 @@
 ---
-title: Satchel (Thermal Expansion)
-nav: thermal-expansion
+title: Satchel (Vanilla+ Satchels)
+nav: vanillaplus-satchels
 image:
-  - alt: Satchel (Basic)
-    file: thermal-expansion/satchel-basic.png
-  - alt: Satchel (Hardened)
-    file: thermal-expansion/satchel-hardened.png
-  - alt: Satchel (Reinforced)
-    file: thermal-expansion/satchel-reinforced.png
-  - alt: Satchel (Signalum)
-    file: thermal-expansion/satchel-signalum.png
-  - alt: Satchel (Resonant)
-    file: thermal-expansion/satchel-resonant.png
-  - alt: Satchel (Void)
-    file: thermal-expansion/satchel-void.gif
-  - alt: Satchel (Creative)
-    file: thermal-expansion/satchel-creative.png
-redirect_from:
-  - /docs/thermal-expansion/storage/satchels/
-  - /docs/thermal-expansion/storage/satchel/
-  - /docs/satchel/
+  - alt: Satchel
+    file: vanillaplus-satchels/satchel-basic.png
+  - alt: Iron satchel
+    file: vanillaplus-satchels/satchel-iron.png
+  - alt: Gold satchel
+    file: vanillaplus-satchels/satchel-gold.png
+  - alt: Diamond satchel
+    file: vanillaplus-satchels/satchel-diamond.png
+  - alt: Emerald satchel
+    file: vanillaplus-satchels/satchel-emerald.png
 recipes:
   crafting:
-    - te5-satchel-basic-using-leather
-    - te5-satchel-basic-using-rockwool
-    - te5-satchel-hardened
-    - te5-satchel-reinforced
-    - te5-satchel-signalum
-    - te5-satchel-resonant
-    - te5-satchel-void-using-leather
-    - te5-satchel-void-using-rockwool
+    - vps-satchel-basic
+    - vps-satchel-iron
+    - vps-satchel-gold
+    - vps-satchel-diamond
+    - vps-satchel-emerald
 ---
 
 A **satchel** is an item that stores other items. It is able to automatically
@@ -51,7 +40,7 @@ A satchel can be opened by using it. When opened, items can be put in or taken
 out, like with [chests](https://minecraft.gamepedia.com/Chest).
 
 Satchels cannot store certain items that can themselves store items, such as
-other satchels or [strongboxes](/docs/thermal-expansion/strongbox/).
+other satchels.
 
 ### Item transfer
 A satchel's contents can be transferred into a block that stores items by using
@@ -89,12 +78,30 @@ crafting grid. The dyes can be removed by placing the satchel in a crafting
 grid.
 
 ### Security
-A satchel can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
-installed to restrict who can access it.
+A satchel can be secured to restrict who can access it. This is done by
+combining the satchel with [obsidian](https://minecraft.gamepedia.com/Obsidian)
+in a crafting grid. A secured satchel can be in one of three modes:
+
+Public Access
+: Anyone can access the satchel. This is the default mode.
+
+Restricted
+: The owner and any of their [friends](/docs/cofh-core/friend-list/) can access
+the satchel.
+
+Owner Only
+: Only the owner can access the satchel.
+
+The current mode can be set using the Security tab in the satchel's GUI.
+
+When dropped, a secured satchel cannot be destroyed by things like
+[lava](https://minecraft.gamepedia.com/Lava) and
+[cacti](https://minecraft.gamepedia.com/Cactus). However, it still despawns
+after a while.
 
 ### Enchantments
-A satchel can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
-capacity.
+A satchel can be enchanted with [Holding](/docs/cofh-core/holding/) to increase
+its capacity.
 
 | Holding level | Capacity increase (slots) |
 |---
@@ -105,23 +112,20 @@ capacity.
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 
-Types
+Tiers
 -----
 
-There are seven different satchel types, most of which are
-[tiers](/docs/thermal-foundation/tiers/).
+Satchels come in five tiers.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Type | Capacity (slots) | Auto-collect filter slots | Note |
+| Type | Capacity (slots) | Auto-collect filter slots |
 |---
 | Basic | 9 | 3 |
-| Hardened | 18 | 6 |
-| Reinforced | 27 | 9 |
-| Signalum | 36 | 12 |
-| Resonant | 45 | 15 |
-| Void | 1 | 15 | Destroys any items it receives. |
-| Creative | 1 | N/A | Provides an unlimited amount of the item it stores. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+| Iron | 18 | 6 |
+| Gold | 27 | 9 |
+| Diamond | 36 | 12 |
+| Emerald | 45 | 15 |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

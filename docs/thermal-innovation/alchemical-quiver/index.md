@@ -80,12 +80,8 @@ arrow](https://minecraft.gamepedia.com/Tipped_Arrow) before it is fired.
 The top and bottom parts of an alchemical quiver can be dyed by combining the
 quiver with [dyes](https://minecraft.gamepedia.com/Dye) in a crafting grid. The
 top and/or bottom parts are dyed depending on the dyes' positions around the
-quiver in the crafting grid.
-
-Dyes can be removed from an alchemical quiver by combining it with a [water
-bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
-item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
-worth of [water](https://minecraft.gamepedia.com/Water)).
+quiver in the crafting grid. The dyes can be removed by placing the quiver in a
+crafting grid.
 
 ### Enchantments
 An alchemical quiver can be enchanted with [Holding](/docs/cofh-core/holding/) to increase

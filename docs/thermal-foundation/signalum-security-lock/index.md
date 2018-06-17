@@ -58,4 +58,4 @@ item.
 When dropped, a secured block or item cannot be destroyed by things like
 [lava](https://minecraft.gamepedia.com/Lava) and
 [cacti](https://minecraft.gamepedia.com/Cactus). However, it still despawns
-after 5 minutes.
+after a while.

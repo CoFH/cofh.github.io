@@ -5693,3 +5693,28 @@ ra-weapon-sword:
   sprite: [7, 35]
   site: docs-ra
   url: flux-infused-sword/
+vps-satchel-basic:
+  name: Satchel
+  sprite: [4, 68]
+  site: docs-vps
+  url: satchel/
+vps-satchel-iron:
+  name: Iron Satchel
+  sprite: [5, 68]
+  site: docs-vps
+  url: satchel/
+vps-satchel-gold:
+  name: Gold Satchel
+  sprite: [6, 68]
+  site: docs-vps
+  url: satchel/
+vps-satchel-diamond:
+  name: Diamond Satchel
+  sprite: [7, 68]
+  site: docs-vps
+  url: satchel/
+vps-satchel-emerald:
+  name: Emerald Satchel
+  sprite: [8, 68]
+  site: docs-vps
+  url: satchel/

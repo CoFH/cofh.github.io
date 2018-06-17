@@ -92,10 +92,7 @@ NBT
 ### Dyeing
 A fluxomagnet can be dyed by combining it with a
 [dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
-removed by combining the fluxomagnet with a [water
-bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
-item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
-worth of [water](https://minecraft.gamepedia.com/Water)).
+removed by placing the fluxomagnet in a crafting grid.
 
 ### Enchantments
 A fluxomagnet can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
