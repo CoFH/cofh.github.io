@@ -10453,6 +10453,381 @@ recipes:
         - [null, item: [ra-obsidian-rod-flux-infused]]
       result:
         item: [ra-weapon-sword]
+  vpt-tool-fishing-rod-diamond:
+    results:
+      - item: vpt-tool-fishing-rod-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, null, item: [mc-diamond]]
+        - [null, item: [mc-diamond], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+      result:
+        item: [vpt-tool-fishing-rod-diamond]
+  vpt-tool-fishing-rod-gold:
+    results:
+      - item: vpt-tool-fishing-rod-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, null, item: [mc-ingot-gold]]
+        - [null, item: [mc-ingot-gold], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+      result:
+        item: [vpt-tool-fishing-rod-gold]
+  vpt-tool-fishing-rod-iron:
+    results:
+      - item: vpt-tool-fishing-rod-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, null, item: [mc-ingot-iron]]
+        - [null, item: [mc-ingot-iron], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+      result:
+        item: [vpt-tool-fishing-rod-iron]
+  vpt-tool-fishing-rod-stone:
+    results:
+      - item: vpt-tool-fishing-rod-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, null, item: [mc-cobblestone]]
+        - [null, item: [mc-cobblestone], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+      result:
+        item: [vpt-tool-fishing-rod-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-hammer-diamond:
+    results:
+      - item: vpt-tool-hammer-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-diamond
+    data:
+      rows:
+        - [item: [mc-diamond], item: [mc-diamond], item: [mc-diamond]]
+        - [item: [mc-diamond], item: [mc-stick], item: [mc-diamond]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-diamond]
+  vpt-tool-hammer-gold:
+    results:
+      - item: vpt-tool-hammer-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [item: [mc-ingot-gold], item: [mc-ingot-gold], item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], item: [mc-stick], item: [mc-ingot-gold]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-gold]
+  vpt-tool-hammer-iron:
+    results:
+      - item: vpt-tool-hammer-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [item: [mc-ingot-iron], item: [mc-ingot-iron], item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], item: [mc-stick], item: [mc-ingot-iron]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-iron]
+  vpt-tool-hammer-stone:
+    results:
+      - item: vpt-tool-hammer-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [item: [mc-cobblestone], item: [mc-cobblestone], item: [mc-cobblestone]]
+        - [item: [mc-cobblestone], item: [mc-stick], item: [mc-cobblestone]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-hammer-wood:
+    results:
+      - item: vpt-tool-hammer-wood
+    ingredients:
+      - item: mc-stick
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - random: true
+            item-group: mc-wood-planks
+          - random: true
+            item-group: mc-wood-planks
+          - random: true
+            item-group: mc-wood-planks
+        - - random: true
+            item-group: mc-wood-planks
+          - item: [mc-stick]
+          - random: true
+            item-group: mc-wood-planks
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-wood]
+    note: >
+      Disabled by default.
+  vpt-tool-shears-diamond:
+    results:
+      - item: vpt-tool-shears-diamond
+    ingredients:
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [item: [mc-diamond]]
+      result:
+        item: [vpt-tool-shears-diamond]
+  vpt-tool-shears-gold:
+    results:
+      - item: vpt-tool-shears-gold
+    ingredients:
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold]]
+      result:
+        item: [vpt-tool-shears-gold]
+  vpt-tool-shears-stone:
+    results:
+      - item: vpt-tool-shears-stone
+    ingredients:
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone]]
+        - [item: [mc-cobblestone]]
+      result:
+        item: [vpt-tool-shears-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-shears-wood:
+    results:
+      - item: vpt-tool-shears-wood
+    ingredients:
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - null
+          - random: true
+            item-group: mc-wood-planks
+        - - random: true
+            item-group: mc-wood-planks
+      result:
+        item: [vpt-tool-shears-wood]
+    note: >
+      Disabled by default.
+  vpt-tool-sickle-diamond:
+    results:
+      - item: vpt-tool-sickle-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [null, null, item: [mc-diamond]]
+        - [item: [mc-stick], item: [mc-diamond]]
+      result:
+        item: [vpt-tool-sickle-diamond]
+  vpt-tool-sickle-gold:
+    results:
+      - item: vpt-tool-sickle-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold]]
+        - [null, null, item: [mc-ingot-gold]]
+        - [item: [mc-stick], item: [mc-ingot-gold]]
+      result:
+        item: [vpt-tool-sickle-gold]
+  vpt-tool-sickle-iron:
+    results:
+      - item: vpt-tool-sickle-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, item: [mc-ingot-iron]]
+        - [null, null, item: [mc-ingot-iron]]
+        - [item: [mc-stick], item: [mc-ingot-iron]]
+      result:
+        item: [vpt-tool-sickle-iron]
+  vpt-tool-sickle-stone:
+    results:
+      - item: vpt-tool-sickle-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone]]
+        - [null, null, item: [mc-cobblestone]]
+        - [item: [mc-stick], item: [mc-cobblestone]]
+      result:
+        item: [vpt-tool-sickle-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-sickle-wood:
+    results:
+      - item: vpt-tool-sickle-wood
+    ingredients:
+      - item: mc-stick
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - null
+          - random: true
+            item-group: mc-wood-planks
+        - - null
+          - null
+          - random: true
+            item-group: mc-wood-planks
+        - - item: [mc-stick]
+          - random: true
+            item-group: mc-wood-planks
+      result:
+        item: [vpt-tool-sickle-wood]
+    note: >
+      Disabled by default.
+  vpt-weapon-bow-diamond:
+    results:
+      - item: vpt-weapon-bow-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+        - [null, item: [mc-diamond], item: [mc-string]]
+      result:
+        item: [vpt-weapon-bow-diamond]
+  vpt-weapon-bow-gold:
+    results:
+      - item: vpt-weapon-bow-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+        - [null, item: [mc-ingot-gold], item: [mc-string]]
+      result:
+        item: [vpt-weapon-bow-gold]
+  vpt-weapon-bow-iron:
+    results:
+      - item: vpt-weapon-bow-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, item: [mc-ingot-iron], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+        - [null, item: [mc-ingot-iron], item: [mc-string]]
+      result:
+        item: [vpt-weapon-bow-iron]
+  vpt-weapon-bow-stone:
+    results:
+      - item: vpt-weapon-bow-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+        - [null, item: [mc-cobblestone], item: [mc-string]]
+      result:
+        item: [vpt-weapon-bow-stone]
+    note: >
+      Disabled by default.
+  vpt-weapon-shield-diamond:
+    results:
+      - item: vpt-weapon-shield-diamond
+    ingredients:
+      - item: mc-weapon-shield
+      - item: mc-diamond
+    data:
+      rows:
+        - [item: [mc-diamond], item: [mc-diamond], item: [mc-diamond]]
+        - [item: [mc-diamond], item: [mc-weapon-shield], item: [mc-diamond]]
+        - [null, item: [mc-diamond]]
+      result:
+        item: [vpt-weapon-shield-diamond]
+  vpt-weapon-shield-gold:
+    results:
+      - item: vpt-weapon-shield-gold
+    ingredients:
+      - item: mc-weapon-shield
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [item: [mc-ingot-gold], item: [mc-ingot-gold], item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], item: [mc-weapon-shield], item: [mc-ingot-gold]]
+        - [null, item: [mc-ingot-gold]]
+      result:
+        item: [vpt-weapon-shield-gold]
+  vpt-weapon-shield-iron:
+    results:
+      - item: vpt-weapon-shield-iron
+    ingredients:
+      - item: mc-weapon-shield
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [item: [mc-ingot-iron], item: [mc-ingot-iron], item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], item: [mc-weapon-shield], item: [mc-ingot-iron]]
+        - [null, item: [mc-ingot-iron]]
+      result:
+        item: [vpt-weapon-shield-iron]
+  vpt-weapon-shield-stone:
+    results:
+      - item: vpt-weapon-shield-stone
+    ingredients:
+      - item: mc-weapon-shield
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [item: [mc-cobblestone], item: [mc-cobblestone], item: [mc-cobblestone]]
+        - [item: [mc-cobblestone], item: [mc-weapon-shield], item: [mc-cobblestone]]
+        - [null, item: [mc-cobblestone]]
+      result:
+        item: [vpt-weapon-shield-stone]
+    note: >
+      Disabled by default.
   vps-satchel-basic:
     results:
       - item: vps-satchel-basic

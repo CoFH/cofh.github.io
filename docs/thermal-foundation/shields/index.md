@@ -6,8 +6,6 @@ redirect_from:
   - /docs/shields/
   - /docs/tf-shields/
 image:
-  - alt: Stone shield
-    file: thermal-foundation/shield-stone.png
   - alt: Iron shield
     file: thermal-foundation/shield-iron.png
   - alt: Gold shield
@@ -38,6 +36,8 @@ image:
     file: thermal-foundation/shield-bronze.png
   - alt: Constantan shield
     file: thermal-foundation/shield-constantan.png
+  - alt: Stone shield
+    file: thermal-foundation/shield-stone.png
 recipes:
   crafting:
     - tf2-weapon-shield-stone

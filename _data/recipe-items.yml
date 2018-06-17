@@ -5693,6 +5693,136 @@ ra-weapon-sword:
   sprite: [7, 35]
   site: docs-ra
   url: flux-infused-sword/
+vpt-tool-fishing-rod-diamond:
+  name: Diamond Fishing Rod
+  sprite: [4, 18]
+  site: docs-vpt
+  url: fishing-rods/
+vpt-tool-fishing-rod-gold:
+  name: Gold Fishing Rod
+  sprite: [6, 18]
+  site: docs-vpt
+  url: fishing-rods/
+vpt-tool-fishing-rod-iron:
+  name: Iron Fishing Rod
+  sprite: [8, 18]
+  site: docs-vpt
+  url: fishing-rods/
+vpt-tool-fishing-rod-stone:
+  name: Stone Fishing Rod
+  sprite: [14, 18]
+  site: docs-vpt
+  url: fishing-rods/
+vpt-tool-hammer-diamond:
+  name: Diamond Hammer
+  sprite: [4, 19]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-hammer-gold:
+  name: Gold Hammer
+  sprite: [6, 19]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-hammer-iron:
+  name: Iron Hammer
+  sprite: [8, 19]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-hammer-stone:
+  name: Stone Hammer
+  sprite: [14, 19]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-hammer-wood:
+  name: Wooden Hammer
+  sprite: [0, 20]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-shears-diamond:
+  name: Diamond Shears
+  sprite: [13, 21]
+  site: docs-vpt
+  url: shears/
+vpt-tool-shears-gold:
+  name: Gold Shears
+  sprite: [15, 21]
+  site: docs-vpt
+  url: shears/
+vpt-tool-shears-stone:
+  name: Stone Shears
+  sprite: [6, 22]
+  site: docs-vpt
+  url: shears/
+vpt-tool-shears-wood:
+  name: Wooden Shears
+  sprite: [8, 22]
+  site: docs-vpt
+  url: shears/
+vpt-tool-sickle-diamond:
+  name: Diamond Sickle
+  sprite: [9, 24]
+  site: docs-vpt
+  url: sickles/
+vpt-tool-sickle-gold:
+  name: Gold Sickle
+  sprite: [11, 24]
+  site: docs-vpt
+  url: sickles/
+vpt-tool-sickle-iron:
+  name: Iron Sickle
+  sprite: [13, 24]
+  site: docs-vpt
+  url: sickles/
+vpt-tool-sickle-stone:
+  name: Stone Sickle
+  sprite: [3, 25]
+  site: docs-vpt
+  url: sickles/
+vpt-tool-sickle-wood:
+  name: Wooden Sickle
+  sprite: [5, 25]
+  site: docs-vpt
+  url: sickles/
+vpt-weapon-bow-diamond:
+  name: Diamond Reinforced Bow
+  sprite: [4, 17]
+  site: docs-vpt
+  url: reinforced-bows/
+vpt-weapon-bow-gold:
+  name: Gold Reinforced Bow
+  sprite: [6, 17]
+  site: docs-vpt
+  url: reinforced-bows/
+vpt-weapon-bow-iron:
+  name: Iron Reinforced Bow
+  sprite: [8, 17]
+  site: docs-vpt
+  url: reinforced-bows/
+vpt-weapon-bow-stone:
+  name: Stone Reinforced Bow
+  sprite: [14, 17]
+  site: docs-vpt
+  url: reinforced-bows/
+vpt-weapon-shield-diamond:
+  name: Diamond Shield
+  sprite: [13, 22]
+  site: docs-vpt
+  url: shields/
+vpt-weapon-shield-gold:
+  name: Gold Shield
+  sprite: [15, 22]
+  site: docs-vpt
+  url: shields/
+vpt-weapon-shield-iron:
+  name: Iron Shield
+  sprite: [1, 23]
+  site: docs-vpt
+  url: shields/
+vpt-weapon-shield-stone:
+  name: Stone Shield
+  sprite: [7, 23]
+  site: docs-vpt
+  url: shields/
 vps-satchel-basic:
   name: Satchel
   sprite: [4, 68]
