@@ -15,13 +15,15 @@ specified when describing
 | [`sparse-cluster`](/docs/cofh-world/world-generator-configuration/feature-types/sparse-cluster/) | Like `cluster`, but generates more rarely with smaller sizes. |
 | [`large-vein`](/docs/cofh-world/world-generator-configuration/feature-types/large-vein/) | Similar to `cluster`, but can be much larger and more spread out. |
 | [`decoration`](/docs/cofh-world/world-generator-configuration/feature-types/decoration/) | A group of individual blocks scattered around on a surface. |
-| [`small-tree`](/docs/cofh-world/world-generator-configuration/feature-types/small-tree/) | A small oak-shaped tree. |
-| [`plate`](/docs/cofh-world/world-generator-configuration/feature-types/plate/) | A vertical cylinder of blocks, like sand and clay deposits underwater. |
-| [`boulder`](/docs/cofh-world/world-generator-configuration/feature-types/boulder/) | A group of almost spherical groups of blocks. |
 | [`lake`](/docs/cofh-world/world-generator-configuration/feature-types/lake/) | Shaped like naturally generated ponds of water or lava. |
-| [`geode`](/docs/cofh-world/world-generator-configuration/feature-types/geode/) | Like `lake`, but completely surrounded by blocks and filled. |
+| [`plate`](/docs/cofh-world/world-generator-configuration/feature-types/plate/) | A vertical cylinder of blocks, like sand and clay deposits underwater. |
+| [`geode`](/docs/cofh-world/world-generator-configuration/feature-types/geode/) | Shape is similar to `lake`, but completely surrounded by blocks and filled. |
 | [`spike`](/docs/cofh-world/world-generator-configuration/feature-types/spike/) | A narrow upwards pointing spike, like the ones in ice plains spikes biomes. |
+| [`boulder`](/docs/cofh-world/world-generator-configuration/feature-types/boulder/) | A group of almost spherical groups of blocks. |
 | [`stalagmite`](/docs/cofh-world/world-generator-configuration/feature-types/stalagmite/) | An upwards pointing spike. |
 | [`stalactite`](/docs/cofh-world/world-generator-configuration/feature-types/stalactite/) | A downwards pointing spike. |
+| [`small-tree`](/docs/cofh-world/world-generator-configuration/feature-types/small-tree/) | A small oak-shaped tree. |
+| [`sequential`](/docs/cofh-world/world-generator-configuration/feature-types/sequential/) | TODO |
+| [`structure`](/docs/cofh-world/world-generator-configuration/feature-types/structure/) | TODO |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>

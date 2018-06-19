@@ -76,7 +76,10 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">`x-variance` (optional)</td>
                 <td>Number</td>
                 <td markdown="span">`8`</td>
-                <td>How spread out a group of blocks may be, in blocks along the X axis.</td>
+                <td>
+                    How spread out a group of blocks may be, in blocks along the
+                    X axis.
+                </td>
             </tr>
             <tr>
                 <td markdown="span">`y-variance` (optional)</td>

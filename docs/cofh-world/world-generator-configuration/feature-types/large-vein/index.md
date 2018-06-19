@@ -11,6 +11,10 @@ blocks, much like
 However, these deposits may be much larger and more spread out than those
 generated with `cluster`.
 
+<!-- TODO: not exactly blobs. it actually generates in branches, but they tend
+to be thick so it turns out as a blob anyway, and this can now be changed using
+`spindly`. -->
+
 
 Options
 -------
@@ -49,6 +53,14 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                     out, looking somewhat like neurons. If `false`, the deposits
                     are much larger and denser, and look more like those
                     generated with `cluster`.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`spindly` (optional)</td>
+                <td>Boolean</td>
+                <td markdown="span">`false`</td>
+                <td markdown="span">
+                    TODO
                 </td>
             </tr>
         </tbody>

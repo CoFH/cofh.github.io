@@ -38,23 +38,70 @@ All world generation files must contain valid [JSON](http://www.json.org/) or
 [HOCON](https://github.com/lightbend/config/blob/master/HOCON.md) data. From now
 on, JSON terms will be used to describe the format of the data.
 
-Every file contains a single 'root' object. This object must contain a value
-named `populate`, which describes the features to generate in the world. The
-root object may also contain a value named `dependencies`, which describes the
-mod or mods that must be loaded to read the file.
+Each world generation file consists of a single object with the following
+values.
 
-### populate
-The `populate` value is an object whose values each describe a feature to
-generate in the world (or: to 'populate' the world with). [Feature
-format](/docs/cofh-world/world-generator-configuration/feature-format/) further describes
-how to specify a feature.
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td markdown="span">`populate`</td>
+                <td>Object</td>
+                <td>-</td>
+                <td markdown="span">
+                    An object whose values each describe a feature to generate
+                    in the world (or: to 'populate' the world with). The page
+                    [Feature
+                    format](/docs/cofh-world/world-generator-configuration/feature-format/)
+                    describes how to specify a feature.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`dependencies` (optional)</td>
+                <td markdown="span">
+                    [Forge mod entry](#forge-mod-entry) / array of Forge mod
+                    entries
+                </td>
+                <td>(None)</td>
+                <td markdown="span">
+                    The mod or mods that must be loaded in order for the file to
+                    be read. If any of the specified mods are not loaded, the
+                    entire file is skipped.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`enabled` (optional)</td>
+                <td>Boolean</td>
+                <td markdown="span">`true`</td>
+                <td markdown="span">
+                    Whether the file should be read at all. If set to `false`,
+                    the entire file is skipped.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`priority` (optional)</td>
+                <td>Number</td>
+                <td markdown="span">`0`</td>
+                <td>
+                    The loading priority of the file. Files with a higher
+                    priority are read first.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-### dependencies
-The `dependencies` value is either a single Forge mod entry, or an array of
-them. If one of the specified dependencies is not loaded, the entire file will
-be ignored.
-
-Forge mod entries are objects with the following values.
+### Forge mod entry
+A Forge mod entry describes a mod, optionally with a specific version or range
+of versions. It is an object with the following values.
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
