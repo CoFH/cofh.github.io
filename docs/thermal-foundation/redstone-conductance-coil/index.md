@@ -13,8 +13,6 @@ usage-recipes:
   crafting:
     - tf2-multimeter
     - te5-energy-cell-basic
-    - te5-machine-crucible
-    - te5-machine-charger
     - te5-augment-machine-furnace-food
     - te5-augment-machine-furnace-ore
     - te5-augment-machine-smelter-pyrotheum
@@ -30,6 +28,7 @@ usage-recipes:
     - te5-augment-dynamo-magmatic-coolant
     - te5-augment-dynamo-compression-coolant
     - te5-augment-dynamo-compression-fuel
+    - te5-augment-dynamo-compression-biofuel
     - te5-augment-dynamo-reactant-elemental
     - te5-augment-dynamo-enervation-enchant
     - te5-augment-dynamo-numismatic-gem

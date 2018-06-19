@@ -102,7 +102,18 @@ uses = mat.maxUses * 4
 {::options parse_block_html="false" /}
 
 ### Enchantments
-Sickles can be enchanted with [Leech](/docs/cofh-core/leech/) and [Vorpal](/docs/cofh-core/vorpal/).
+Sickles can be enchanted with the following
+[enchantments](https://minecraft.gamepedia.com/Enchanting):
+
+* [Curse of Vanishing](https://minecraft.gamepedia.com/Enchanting#Curse_of_Vanishing)
+* [Efficiency](https://minecraft.gamepedia.com/Enchanting#Efficiency)
+* [Fortune](https://minecraft.gamepedia.com/Enchanting#Fortune)
+* [Mending](https://minecraft.gamepedia.com/Enchanting#Mending)
+* [Silk Touch](https://minecraft.gamepedia.com/Enchanting#Silk_Touch)
+* [Unbreaking](https://minecraft.gamepedia.com/Enchanting#Unbreaking)
+* [Leech](/docs/cofh-core/leech/)
+* [Vorpal](/docs/cofh-core/vorpal/)
+* [Soulbound](/docs/cofh-core/soulbound/)
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

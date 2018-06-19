@@ -46,7 +46,7 @@ A fluid allocator can automatically transfer fluids out of any configured output
 sides, evenly dividing them if multiple output sides are configured. This is
 called auto-output. It can also transfer fluids from adjacent blocks into any
 configured input sides. This is called auto-input. Auto-output and auto-input
-occur every tick (0.05 seconds) if the fluid allocator is active.
+occur every 8 ticks (0.4 seconds) if the fluid allocator is active.
 
 The amount of fluid that a fluid allocator transfers per cycle can be configured
 separately for auto-output and auto-input. It can, at most, transfer 8,000 mB of

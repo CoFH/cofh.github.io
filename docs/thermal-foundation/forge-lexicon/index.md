@@ -6,6 +6,9 @@ redirect_from:
   - /docs/thermal-foundation/items/forge-lexicon/
   - /docs/thermal-foundation/items/tools/forge-lexicon/
   - /docs/forge-lexicon/
+image:
+  - alt: Forge Lexicon
+    file: thermal-foundation/forge-lexicon.png
 recipes:
   crafting:
     - tf2-forge-lexicon
@@ -14,7 +17,7 @@ usage-recipes:
     - te5-device-lexicon
 ---
 
-![Forge Lexicon](/assets/images/thermal-foundation/forge-lexicon.png){:style="height: 128px"}
+> Also known as a Thesoreus.
 
 
 A **Forge Lexicon** is an item that converts items into other items that are

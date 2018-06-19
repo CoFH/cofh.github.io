@@ -325,6 +325,15 @@ dynamo-compression-fuel:
     output and the amount of energy it generates from each unit of fuel.
     However, the dynamo can only generate energy using <a
     href="/docs/thermal-foundation/refined-fuel/">refined fuel</a>.
+dynamo-compression-biofuel:
+  name: Agitative Manifold
+  url: augment-agitative-manifold/
+  installed-in: '<a href="/docs/thermal-expansion/compression-dynamo/">Compression Dynamo</a>'
+  description: >
+    A specialization that greatly increases a compression dynamo's maximum power
+    output and the amount of energy it generates from each unit of fuel.
+    However, the dynamo can only generate energy using <a
+    href="/docs/thermal-foundation/grassoline/">grassoline</a>.
 dynamo-reactant-elemental:
   name: Elemental Catalyzer
   url: augment-elemental-catalyzer/

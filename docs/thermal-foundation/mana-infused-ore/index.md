@@ -56,5 +56,12 @@ Usage
 ### Induction Smelter
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
 
+### Smashing
+When mana infused ore is broken using a [Smashing](/docs/cofh-core/smashing/)
+enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
+two piles of [pulverized mana infused
+metal](/docs/thermal-foundation/pulverized-mana-infused-metal/) are dropped
+instead of the ore.
+
 ### Light source
 Mana infused ore emits a light level of 8.

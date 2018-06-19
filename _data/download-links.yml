@@ -57,8 +57,6 @@
     curse: https://mods.curse.com/mc-mods/minecraft/222880-thermal-foundation
     curseforge: https://minecraft.curseforge.com/projects/thermal-foundation
     changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalfoundation_changelog.txt
-  note: >
-    CoFH World is not strictly required, but the default world generation uses it.
 
 - name: Thermal Expansion
   tag: thermal-expansion
@@ -147,6 +145,30 @@
     curse: https://mods.curse.com/mc-mods/minecraft/redstone-arsenal
     curseforge: https://minecraft.curseforge.com/projects/redstone-arsenal
     changelog: https://raw.githubusercontent.com/CoFH/Version/master/redstonearsenal_changelog.txt
+
+- name: Vanilla+ Tools
+  tag: vanillaplus-tools
+  minecraft: '1.12'
+  requirements:
+    - name: Minecraft Forge
+      link: https://files.minecraftforge.net/
+    - name: CoFH Core
+      link: '#cofh-core'
+  links:
+    curse: https://www.curseforge.com/minecraft/mc-mods/cofh-vanilla-tools
+    curseforge: https://minecraft.curseforge.com/projects/cofh-vanilla-tools
+
+- name: Vanilla+ Satchels
+  tag: vanillaplus-satchels
+  minecraft: '1.12'
+  requirements:
+    - name: Minecraft Forge
+      link: https://files.minecraftforge.net/
+    - name: CoFH Core
+      link: '#cofh-core'
+  links:
+    curse: https://www.curseforge.com/minecraft/mc-mods/cofh-vanilla-satchels
+    curseforge: https://minecraft.curseforge.com/projects/cofh-vanilla-satchels
 
 - name: MineFactory Reloaded
   tag: minefactory-reloaded

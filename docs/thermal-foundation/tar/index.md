@@ -15,8 +15,6 @@ usage-recipes:
     - tf2-torch-using-tar
     - tf2-piston-sticky-using-tar
     - tf2-lead-using-tar
-  crucible:
-    - creosote-oil-from-tar
 ---
 
 ![Tar](/assets/images/thermal-foundation/tar.png){:style="height: 128px"}
@@ -27,8 +25,7 @@ usage-recipes:
 coal](/docs/thermal-foundation/liquifacted-coal/) or [crude oil](/docs/thermal-foundation/crude-oil/) in a
 [fractionating still](/docs/thermal-expansion/fractionating-still/). It can be used to craft
 [torches](https://minecraft.gamepedia.com/Torches), and can replace
-[slimeballs](https://minecraft.gamepedia.com/Slimeball) in some recipes. It can
-also be processed into [creosote oil](/docs/thermal-foundation/creosote-oil/).
+[slimeballs](https://minecraft.gamepedia.com/Slimeball) in some recipes.
 
 
 Obtaining
@@ -46,9 +43,6 @@ Usage
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Magma Crucible ingredient
-{% include recipe-table.html type='crucible-te5' recipes=page.usage-recipes.crucible %}
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one

@@ -54,8 +54,8 @@ potion](/docs/thermal-foundation/potion-fluid/) and a reagent
 ([brewing](https://minecraft.gamepedia.com/Brewing) ingredient) is placed in its
 input slot, the machine will start consuming [Redstone
 Flux](/docs/redstone-flux/) to brew the corresponding potion. Potions are brewed
-in batches of 750 mB (3 [bottles](https://minecraft.gamepedia.com/Glass_Bottles)
-worth), with each batch costing 2,400 RF. When enough energy has been consumed
+in batches of 500 mB (2 [bottles](https://minecraft.gamepedia.com/Glass_Bottles)
+worth), with each batch costing 4,800 RF. When enough energy has been consumed
 for a batch, the input is consumed and the resulting fluid potion is placed in
 the output tank.
 
@@ -102,9 +102,6 @@ High
 : The brewer only works when powered.
 
 The current mode can be set using the Redstone Control tab in the machine's GUI.
-
-When an alchemical imbuer must stop working due to a redstone signal and is
-still brewing a potion, it will finish brewing that potion before stopping.
 
 ### Security
 An alchemical imbuer can have a [signalum security

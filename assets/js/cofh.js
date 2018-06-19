@@ -40,8 +40,9 @@ $(function() {
 
     $(".uk-container a[href^='/docs/']").each(function(i, anchor) {
         $anchor = $(anchor);
+        var href = $anchor.attr('href').split('/#')[0];
         for (var i = 0; i < pages.length; i++) {
-            if (pages[i].url.search($anchor.attr('href').split('/#')[0]) >= 0) return;
+            if (pages[i].url.indexOf(href) !== -1) return;
         }
         $anchor.addClass('uk-text-danger');
     });

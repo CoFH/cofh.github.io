@@ -27,6 +27,8 @@ recipe-list:
     - blitz-powder
     - basalz-powder
     - phyto-gro-rich
+    - biomass-rich
+    - bioblend-rich
     - redstone-from-fluid
     - glowstone-dust-from-fluid
     - ender-pearl-from-fluid
@@ -47,6 +49,10 @@ recipe-list:
   empty:
     - water-from-cactus
     - water-from-sponge
+    - seed-oil-from-seeds
+    - seed-oil-from-beetroot-seeds
+    - seed-oil-from-pumpkin-seeds
+    - seed-oil-from-melon-seeds
     - mushroom-stew
 ---
 
@@ -141,9 +147,6 @@ High
 : The transposer only works when powered.
 
 The current mode can be set using the Redstone Control tab in the machine's GUI.
-
-When a fluid transposer must stop working due to a redstone signal and is still
-processing an item, it will finish processing that item before stopping.
 
 ### Security
 A fluid transposer can have a [signalum security

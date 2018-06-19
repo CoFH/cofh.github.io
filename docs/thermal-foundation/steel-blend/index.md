@@ -8,6 +8,8 @@ recipes:
   pulverizer:
     - dust-steel
 usage-recipes:
+  crafting:
+    - tf2-hardened-glass-steel
   smelter:
     - dust-smelting-steel
     - hardened-glass-steel
@@ -33,6 +35,9 @@ smelter](/docs/thermal-expansion/induction-smelter/).
 
 Usage
 -----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

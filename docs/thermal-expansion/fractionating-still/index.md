@@ -17,6 +17,7 @@ recipe-list:
   - naphtha-from-crude-oil
   - refined-fuel
   - tree-oil
+  - grassoline
 ---
 
 ![Fractionating still](/assets/images/thermal-expansion/fractionating-still.png){:style="height: 128px"}
@@ -99,10 +100,6 @@ High
 : The still only works when powered.
 
 The current mode can be set using the Redstone Control tab in the machine's GUI.
-
-When a fractionating still must stop working due to a redstone signal and is
-still processing a batch of fluid, it will finish processing that batch before
-stopping.
 
 ### Security
 A fractionating still can have a [signalum security

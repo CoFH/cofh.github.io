@@ -14,6 +14,7 @@ recipes:
 usage-recipes:
   crafting:
     - tf2-pyrotheum-dust-mithril
+    - tf2-hardened-glass-mithril
   smelting:
     - tf2-ingot-mithril-from-dust
   smelter:
@@ -36,6 +37,12 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Smashing
+When [mana infused ore](/docs/thermal-foundation/mana-infused-ore/) is broken
+using a [Smashing](/docs/cofh-core/smashing/) enchanted
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+pulverized mana infused metal are dropped instead of the ore.
 
 
 Usage

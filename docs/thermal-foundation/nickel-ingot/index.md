@@ -41,6 +41,7 @@ recipes:
     - recycling-armor-chestplate-nickel
     - recycling-armor-leggings-nickel
     - recycling-armor-boots-nickel
+    - recycling-horse-armor-nickel
 usage-recipes:
   crafting:
     - tf2-petrotheum-ingot-nickel
@@ -62,6 +63,7 @@ usage-recipes:
     - tf2-armor-chestplate-nickel
     - tf2-armor-leggings-nickel
     - tf2-armor-boots-nickel
+    - tf2-horse-armor-nickel
   pulverizer:
     - dust-nickel
   smelter:

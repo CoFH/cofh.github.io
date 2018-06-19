@@ -7,6 +7,25 @@ redirect_from:
   - /docs/thermal-foundation/blocks/decorative/hardened-glass/
   - /docs/hardened-glass/
 recipes:
+  crafting:
+    - tf2-hardened-glass
+    - tf2-hardened-glass-copper
+    - tf2-hardened-glass-tin
+    - tf2-hardened-glass-silver
+    - tf2-hardened-glass-lead
+    - tf2-hardened-glass-aluminum
+    - tf2-hardened-glass-nickel
+    - tf2-hardened-glass-platinum
+    - tf2-hardened-glass-iridium
+    - tf2-hardened-glass-mithril
+    - tf2-hardened-glass-steel
+    - tf2-hardened-glass-electrum
+    - tf2-hardened-glass-invar
+    - tf2-hardened-glass-bronze
+    - tf2-hardened-glass-constantan
+    - tf2-hardened-glass-signalum
+    - tf2-hardened-glass-lumium
+    - tf2-hardened-glass-enderium
   smelter:
     - hardened-glass
     - hardened-glass-copper
@@ -29,6 +48,7 @@ recipes:
 usage-recipes:
   crafting:
     - tf2-upgrade-kit-reinforced
+    - te5-machine-crucible
     - te5-machine-brewer
     - te5-device-diffuser
     - te5-flux-capacitor-reinforced
@@ -75,6 +95,9 @@ Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 ### Induction Smelter
 {% include recipe-table.html type='smelter-te5' recipes=page.recipes.smelter %}
 
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+
 
 Usage
 -----
@@ -94,3 +117,10 @@ glass blocks change the color of
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+
+Trivia
+------
+
+* If [ConnectedTexturesMod](https://minecraft.curseforge.com/projects/ctm) is
+  installed, placed hardened glass blocks have connected textures.

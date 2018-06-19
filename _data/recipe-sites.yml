@@ -12,5 +12,9 @@ docs-ti:
   url: /docs/thermal-innovation/
 docs-ra:
   url: /docs/redstone-arsenal/
+docs-vpt:
+  url: /docs/vanillaplus-tools/
+docs-vps:
+  url: /docs/vanillaplus-satchels/
 mc-wiki:
   url: https://minecraft.gamepedia.com/

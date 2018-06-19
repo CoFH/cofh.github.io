@@ -22,14 +22,14 @@
             "label": "Serve",
             "group": "none",
             "type": "shell",
-            "command": "rm -rf _site .jekyll-metadata && bundle exec jekyll serve",
+            "command": "rm -rf _site .jekyll-metadata && bundle exec jekyll serve --drafts",
             "problemMatcher": []
         },
         {
             "label": "Serve (Incremental)",
             "group": "none",
             "type": "shell",
-            "command": "rm -rf _site .jekyll-metadata && bundle exec jekyll serve -I",
+            "command": "rm -rf _site .jekyll-metadata && bundle exec jekyll serve --drafts -I",
             "problemMatcher": []
         }
     ]

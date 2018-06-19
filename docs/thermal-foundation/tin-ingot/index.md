@@ -38,6 +38,7 @@ recipes:
     - recycling-armor-chestplate-tin
     - recycling-armor-leggings-tin
     - recycling-armor-boots-tin
+    - recycling-horse-armor-tin
 usage-recipes:
   crafting:
     - tf2-petrotheum-ingot-tin
@@ -49,6 +50,7 @@ usage-recipes:
     - te5-machine-crafter
     - te5-frame-device
     - te5-device-item-buffer
+    - te5-device-item-collector
     - te5-dynamo-compression
     - te5-flux-capacitor-hardened
     - te5-reservoir-basic
@@ -75,6 +77,7 @@ usage-recipes:
     - tf2-armor-chestplate-tin
     - tf2-armor-leggings-tin
     - tf2-armor-boots-tin
+    - tf2-horse-armor-tin
   pulverizer:
     - dust-tin
   smelter:

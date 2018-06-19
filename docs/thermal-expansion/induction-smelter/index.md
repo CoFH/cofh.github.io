@@ -113,8 +113,7 @@ recipe-list:
     - recycling-armor-chestplate
     - recycling-armor-leggings
     - recycling-armor-boots
-    - recycling-horse-armor-iron
-    - recycling-horse-armor-gold
+    - recycling-horse-armor-metal
 ---
 
 ![Induction smelter](/assets/images/thermal-expansion/induction-smelter.png){:style="height: 128px"}
@@ -214,9 +213,6 @@ High
 : The smelter only works when powered.
 
 The current mode can be set using the Redstone Control tab in the machine's GUI.
-
-When an induction smelter must stop working due to a redstone signal and is
-still processing an item, it will finish processing that item before stopping.
 
 ### Security
 An induction smelter can have a [signalum security

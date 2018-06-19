@@ -653,6 +653,20 @@ recipes:
       result:
         item: [tf2-basalz-powder]
         amount: 2
+  tf2-bioblend:
+    results:
+      - item: tf2-bioblend
+    ingredients:
+      - item: tf2-biomass
+      - item: tf2-sawdust
+    data:
+      shapeless: true
+      rows:
+        - [item: [tf2-biomass], item: [tf2-biomass]]
+        - [item: [tf2-biomass], item: [tf2-sawdust]]
+      result:
+        item: [tf2-bioblend]
+        amount: 4
   tf2-blitz-powder:
     results:
       - item: tf2-blitz-powder
@@ -824,6 +838,19 @@ recipes:
         - [item: [tf2-nugget-diamond], item: [tf2-nugget-diamond], item: [tf2-nugget-diamond]]
       result:
         item: [mc-diamond]
+  tf2-dirt-using-biomass-and-slag:
+    results:
+      - item: mc-dirt
+    ingredients:
+      - item: tf2-biomass
+      - item: tf2-slag
+    data:
+      shapeless: true
+      rows:
+        - [item: [tf2-biomass], item: [tf2-biomass]]
+        - [item: [tf2-slag], item: [tf2-slag]]
+      result:
+        item: [mc-dirt]
   tf2-drill-head:
     results:
       - item: tf2-drill-head
@@ -1390,6 +1417,428 @@ recipes:
         - [item: [tf2-niter], item: [tf2-niter]]
       result:
         item: [mc-gunpowder]
+  tf2-hardened-glass:
+    results:
+      - item: tf2-hardened-glass
+    ingredients:
+      - item: tf2-dust-lead
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - [item: [tf2-dust-lead], item: [tf2-dust-obsidian]]
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass]
+  tf2-hardened-glass-metal:
+    results:
+      - html: '<a href="/docs/thermal-foundation/hardened-glass/">Metal Hardened Glass</a>'
+    ingredients:
+      - html: 'Metal Dust'
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item:
+            - tf2-dust-copper
+            - tf2-dust-tin
+            - tf2-dust-silver
+            - tf2-dust-lead
+            - tf2-dust-aluminum
+            - tf2-dust-nickel
+            - tf2-dust-platinum
+            - tf2-dust-iridium
+            - tf2-dust-mithril
+            - tf2-dust-steel
+            - tf2-dust-electrum
+            - tf2-dust-invar
+            - tf2-dust-bronze
+            - tf2-dust-constantan
+            - tf2-dust-signalum
+            - tf2-dust-lumium
+            - tf2-dust-enderium
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item:
+          - tf2-hardened-glass-copper
+          - tf2-hardened-glass-tin
+          - tf2-hardened-glass-silver
+          - tf2-hardened-glass
+          - tf2-hardened-glass-aluminum
+          - tf2-hardened-glass-nickel
+          - tf2-hardened-glass-platinum
+          - tf2-hardened-glass-iridium
+          - tf2-hardened-glass-mithril
+          - tf2-hardened-glass-steel
+          - tf2-hardened-glass-electrum
+          - tf2-hardened-glass-invar
+          - tf2-hardened-glass-bronze
+          - tf2-hardened-glass-constantan
+          - tf2-hardened-glass-signalum
+          - tf2-hardened-glass-lumium
+          - tf2-hardened-glass-enderium
+  tf2-hardened-glass-copper:
+    results:
+      - item: tf2-hardened-glass-copper
+    ingredients:
+      - item: tf2-dust-copper
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-copper]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-copper]
+  tf2-hardened-glass-tin:
+    results:
+      - item: tf2-hardened-glass-tin
+    ingredients:
+      - item: tf2-dust-tin
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-tin]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-tin]
+  tf2-hardened-glass-silver:
+    results:
+      - item: tf2-hardened-glass-silver
+    ingredients:
+      - item: tf2-dust-silver
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-silver]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-silver]
+  tf2-hardened-glass-lead:
+    results:
+      - item: tf2-hardened-glass
+    ingredients:
+      - item: tf2-dust-lead
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-lead]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass]
+  tf2-hardened-glass-aluminum:
+    results:
+      - item: tf2-hardened-glass-aluminum
+    ingredients:
+      - item: tf2-dust-aluminum
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-aluminum]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-aluminum]
+  tf2-hardened-glass-nickel:
+    results:
+      - item: tf2-hardened-glass-nickel
+    ingredients:
+      - item: tf2-dust-nickel
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-nickel]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-nickel]
+  tf2-hardened-glass-platinum:
+    results:
+      - item: tf2-hardened-glass-platinum
+    ingredients:
+      - item: tf2-dust-platinum
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-platinum]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-platinum]
+  tf2-hardened-glass-iridium:
+    results:
+      - item: tf2-hardened-glass-iridium
+    ingredients:
+      - item: tf2-dust-iridium
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-iridium]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-iridium]
+  tf2-hardened-glass-mithril:
+    results:
+      - item: tf2-hardened-glass-mithril
+    ingredients:
+      - item: tf2-dust-mithril
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-mithril]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-mithril]
+  tf2-hardened-glass-steel:
+    results:
+      - item: tf2-hardened-glass-steel
+    ingredients:
+      - item: tf2-dust-steel
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-steel]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-steel]
+  tf2-hardened-glass-electrum:
+    results:
+      - item: tf2-hardened-glass-electrum
+    ingredients:
+      - item: tf2-dust-electrum
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-electrum]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-electrum]
+  tf2-hardened-glass-invar:
+    results:
+      - item: tf2-hardened-glass-invar
+    ingredients:
+      - item: tf2-dust-invar
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-invar]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-invar]
+  tf2-hardened-glass-bronze:
+    results:
+      - item: tf2-hardened-glass-bronze
+    ingredients:
+      - item: tf2-dust-bronze
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-bronze]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-bronze]
+  tf2-hardened-glass-constantan:
+    results:
+      - item: tf2-hardened-glass-constantan
+    ingredients:
+      - item: tf2-dust-constantan
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-constantan]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-constantan]
+  tf2-hardened-glass-signalum:
+    results:
+      - item: tf2-hardened-glass-signalum
+    ingredients:
+      - item: tf2-dust-signalum
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-signalum]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-signalum]
+  tf2-hardened-glass-lumium:
+    results:
+      - item: tf2-hardened-glass-lumium
+    ingredients:
+      - item: tf2-dust-lumium
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-lumium]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-lumium]
+  tf2-hardened-glass-enderium:
+    results:
+      - item: tf2-hardened-glass-enderium
+    ingredients:
+      - item: tf2-dust-enderium
+      - item-group: tf2-hardened-glass
+      - item: tf2-dust-obsidian
+      - item: tf2-dust-pyrotheum
+    data:
+      shapeless: true
+      rows:
+        - - item: [tf2-dust-enderium]
+          - random: true
+            item-group: tf2-hardened-glass
+        - [item: [tf2-dust-obsidian], item: [tf2-dust-pyrotheum]]
+      result:
+        item: [tf2-hardened-glass-enderium]
+  tf2-horse-armor-aluminum:
+    results:
+      - item: tf2-horse-armor-aluminum
+    ingredients:
+      - item: tf2-ingot-aluminum
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-aluminum], null, item: [tf2-ingot-aluminum]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-aluminum], null, item: [tf2-ingot-aluminum]]
+      result:
+        item: [tf2-horse-armor-aluminum]
+  tf2-horse-armor-bronze:
+    results:
+      - item: tf2-horse-armor-bronze
+    ingredients:
+      - item: tf2-ingot-bronze
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-bronze], null, item: [tf2-ingot-bronze]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-bronze], null, item: [tf2-ingot-bronze]]
+      result:
+        item: [tf2-horse-armor-bronze]
+  tf2-horse-armor-constantan:
+    results:
+      - item: tf2-horse-armor-constantan
+    ingredients:
+      - item: tf2-ingot-constantan
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-constantan], null, item: [tf2-ingot-constantan]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-constantan], null, item: [tf2-ingot-constantan]]
+      result:
+        item: [tf2-horse-armor-constantan]
+  tf2-horse-armor-copper:
+    results:
+      - item: tf2-horse-armor-copper
+    ingredients:
+      - item: tf2-ingot-copper
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-copper], null, item: [tf2-ingot-copper]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-copper], null, item: [tf2-ingot-copper]]
+      result:
+        item: [tf2-horse-armor-copper]
   tf2-horse-armor-diamond:
     results:
       - item: mc-horse-armor-diamond
@@ -1407,6 +1856,23 @@ recipes:
         - [item: [mc-diamond], null, item: [mc-diamond]]
       result:
         item: [mc-horse-armor-diamond]
+  tf2-horse-armor-electrum:
+    results:
+      - item: tf2-horse-armor-electrum
+    ingredients:
+      - item: tf2-ingot-electrum
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-electrum], null, item: [tf2-ingot-electrum]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-electrum], null, item: [tf2-ingot-electrum]]
+      result:
+        item: [tf2-horse-armor-electrum]
   tf2-horse-armor-gold:
     results:
       - item: mc-horse-armor-gold
@@ -1424,6 +1890,23 @@ recipes:
         - [item: [mc-ingot-gold], null, item: [mc-ingot-gold]]
       result:
         item: [mc-horse-armor-gold]
+  tf2-horse-armor-invar:
+    results:
+      - item: tf2-horse-armor-invar
+    ingredients:
+      - item: tf2-ingot-invar
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-invar], null, item: [tf2-ingot-invar]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-invar], null, item: [tf2-ingot-invar]]
+      result:
+        item: [tf2-horse-armor-invar]
   tf2-horse-armor-iron:
     results:
       - item: mc-horse-armor-iron
@@ -1441,6 +1924,108 @@ recipes:
         - [item: [mc-ingot-iron], null, item: [mc-ingot-iron]]
       result:
         item: [mc-horse-armor-iron]
+  tf2-horse-armor-lead:
+    results:
+      - item: tf2-horse-armor-lead
+    ingredients:
+      - item: tf2-ingot-lead
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-lead], null, item: [tf2-ingot-lead]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-lead], null, item: [tf2-ingot-lead]]
+      result:
+        item: [tf2-horse-armor-lead]
+  tf2-horse-armor-nickel:
+    results:
+      - item: tf2-horse-armor-nickel
+    ingredients:
+      - item: tf2-ingot-nickel
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-nickel], null, item: [tf2-ingot-nickel]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-nickel], null, item: [tf2-ingot-nickel]]
+      result:
+        item: [tf2-horse-armor-nickel]
+  tf2-horse-armor-platinum:
+    results:
+      - item: tf2-horse-armor-platinum
+    ingredients:
+      - item: tf2-ingot-platinum
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-platinum], null, item: [tf2-ingot-platinum]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-platinum], null, item: [tf2-ingot-platinum]]
+      result:
+        item: [tf2-horse-armor-platinum]
+  tf2-horse-armor-silver:
+    results:
+      - item: tf2-horse-armor-silver
+    ingredients:
+      - item: tf2-ingot-silver
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-silver], null, item: [tf2-ingot-silver]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-silver], null, item: [tf2-ingot-silver]]
+      result:
+        item: [tf2-horse-armor-silver]
+  tf2-horse-armor-steel:
+    results:
+      - item: tf2-horse-armor-steel
+    ingredients:
+      - item: tf2-ingot-steel
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-steel], null, item: [tf2-ingot-steel]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-steel], null, item: [tf2-ingot-steel]]
+      result:
+        item: [tf2-horse-armor-steel]
+  tf2-horse-armor-tin:
+    results:
+      - item: tf2-horse-armor-tin
+    ingredients:
+      - item: tf2-ingot-tin
+      - item: mc-leather
+      - item-group: mc-wool
+    data:
+      rows:
+        - [item: [tf2-ingot-tin], null, item: [tf2-ingot-tin]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [item: [tf2-ingot-tin], null, item: [tf2-ingot-tin]]
+      result:
+        item: [tf2-horse-armor-tin]
   tf2-ice-using-cryotheum:
     results:
       - item: mc-ice
@@ -5104,12 +5689,12 @@ recipes:
     results:
       - item: mc-torch
     ingredients:
-      - item: mc-string
+      - item: mc-stick
       - item: tf2-rosin
     data:
       rows:
         - [null, item: [tf2-rosin]]
-        - [null, item: [mc-string]]
+        - [null, item: [mc-stick]]
       result:
         item: [mc-torch]
         amount: 4
@@ -5117,12 +5702,12 @@ recipes:
     results:
       - item: mc-torch
     ingredients:
-      - item: mc-string
+      - item: mc-stick
       - item: tf2-tar
     data:
       rows:
         - [null, item: [tf2-tar]]
-        - [null, item: [mc-string]]
+        - [null, item: [mc-stick]]
       result:
         item: [mc-torch]
         amount: 4
@@ -6321,6 +6906,21 @@ recipes:
         - [null, item: [tf2-dust-pyrotheum]]
       result:
         item: [te5-augment-dynamo-compression-fuel]
+  te5-augment-dynamo-compression-biofuel:
+    results:
+      - item: te5-augment-dynamo-compression-biofuel
+    ingredients:
+      - item: tf2-redstone-coil-electrum
+      - item: tf2-plate-constantan
+      - item: tf2-gear-bronze
+      - item: tf2-dust-aerotheum
+    data:
+      rows:
+        - [null, item: [tf2-gear-bronze]]
+        - [item: [tf2-plate-constantan], item: [tf2-redstone-coil-electrum], item: [tf2-plate-constantan]]
+        - [null, item: [tf2-dust-aerotheum]]
+      result:
+        item: [te5-augment-dynamo-compression-biofuel]
   te5-augment-dynamo-reactant-elemental:
     results:
       - item: te5-augment-dynamo-reactant-elemental
@@ -6478,6 +7078,22 @@ recipes:
         - [item: [tf2-gear-iron], item: [tf2-redstone-servo], item: [tf2-gear-iron]]
       result:
         item: [te5-device-item-buffer]
+  te5-device-item-collector:
+    results:
+      - item: te5-device-item-collector
+    ingredients:
+      - item: te5-frame-device
+      - item: tf2-redstone-servo
+      - item: tf2-gear-iron
+      - item: tf2-ingot-tin
+      - item: mc-hopper
+    data:
+      rows:
+        - [null, item: [mc-hopper]]
+        - [item: [tf2-ingot-tin], item: [te5-frame-device], item: [tf2-ingot-tin]]
+        - [item: [tf2-gear-iron], item: [tf2-redstone-servo], item: [tf2-gear-iron]]
+      result:
+        item: [te5-device-item-collector]
   te5-device-lexicon:
     results:
       - item: te5-device-lexicon
@@ -6938,10 +7554,10 @@ recipes:
       - item: tf2-redstone-coil-gold
       - item: tf2-gear-copper
       - item: tf2-redstone-coil-silver
-      - item: tf2-redstone-coil-electrum
+      - item: tf2-gear-lead
     data:
       rows:
-        - [null, item: [tf2-redstone-coil-electrum]]
+        - [null, item: [tf2-gear-lead]]
         - [item: [tf2-redstone-coil-silver], item: [te5-frame-machine], item: [tf2-redstone-coil-silver]]
         - [item: [tf2-gear-copper], item: [tf2-redstone-coil-gold], item: [tf2-gear-copper]]
       result:
@@ -6986,10 +7602,12 @@ recipes:
       - item: tf2-redstone-coil-gold
       - item: tf2-gear-copper
       - item: mc-nether-brick
-      - item: tf2-redstone-coil-electrum
+      - item: tf2-hardened-glass
     data:
       rows:
-        - [null, item: [tf2-redstone-coil-electrum]]
+        - - null
+          - random: true
+            item-group: tf2-hardened-glass
         - [item: [mc-nether-brick], item: [te5-frame-machine], item: [mc-nether-brick]]
         - [item: [tf2-gear-copper], item: [tf2-redstone-coil-gold], item: [tf2-gear-copper]]
       result:
@@ -7133,12 +7751,12 @@ recipes:
       - item: te5-frame-machine
       - item: tf2-redstone-coil-gold
       - item: tf2-gear-copper
-      - item: tf2-ingot-invar
-      - item: mc-bucket
+      - item: mc-sand
+      - item: tf2-gear-invar
     data:
       rows:
-        - [null, item: [mc-bucket]]
-        - [item: [tf2-ingot-invar], item: [te5-frame-machine], item: [tf2-ingot-invar]]
+        - [null, item: [tf2-gear-invar]]
+        - [item: [mc-sand, mc-sand-red], item: [te5-frame-machine], item: [mc-sand, mc-sand-red]]
         - [item: [tf2-gear-copper], item: [tf2-redstone-coil-gold], item: [tf2-gear-copper]]
       result:
         item: [te5-machine-smelter]
@@ -9835,3 +10453,446 @@ recipes:
         - [null, item: [ra-obsidian-rod-flux-infused]]
       result:
         item: [ra-weapon-sword]
+  vpt-tool-fishing-rod-diamond:
+    results:
+      - item: vpt-tool-fishing-rod-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, null, item: [mc-diamond]]
+        - [null, item: [mc-diamond], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+      result:
+        item: [vpt-tool-fishing-rod-diamond]
+  vpt-tool-fishing-rod-gold:
+    results:
+      - item: vpt-tool-fishing-rod-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, null, item: [mc-ingot-gold]]
+        - [null, item: [mc-ingot-gold], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+      result:
+        item: [vpt-tool-fishing-rod-gold]
+  vpt-tool-fishing-rod-iron:
+    results:
+      - item: vpt-tool-fishing-rod-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, null, item: [mc-ingot-iron]]
+        - [null, item: [mc-ingot-iron], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+      result:
+        item: [vpt-tool-fishing-rod-iron]
+  vpt-tool-fishing-rod-stone:
+    results:
+      - item: vpt-tool-fishing-rod-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, null, item: [mc-cobblestone]]
+        - [null, item: [mc-cobblestone], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+      result:
+        item: [vpt-tool-fishing-rod-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-hammer-diamond:
+    results:
+      - item: vpt-tool-hammer-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-diamond
+    data:
+      rows:
+        - [item: [mc-diamond], item: [mc-diamond], item: [mc-diamond]]
+        - [item: [mc-diamond], item: [mc-stick], item: [mc-diamond]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-diamond]
+  vpt-tool-hammer-gold:
+    results:
+      - item: vpt-tool-hammer-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [item: [mc-ingot-gold], item: [mc-ingot-gold], item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], item: [mc-stick], item: [mc-ingot-gold]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-gold]
+  vpt-tool-hammer-iron:
+    results:
+      - item: vpt-tool-hammer-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [item: [mc-ingot-iron], item: [mc-ingot-iron], item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], item: [mc-stick], item: [mc-ingot-iron]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-iron]
+  vpt-tool-hammer-stone:
+    results:
+      - item: vpt-tool-hammer-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [item: [mc-cobblestone], item: [mc-cobblestone], item: [mc-cobblestone]]
+        - [item: [mc-cobblestone], item: [mc-stick], item: [mc-cobblestone]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-hammer-wood:
+    results:
+      - item: vpt-tool-hammer-wood
+    ingredients:
+      - item: mc-stick
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - random: true
+            item-group: mc-wood-planks
+          - random: true
+            item-group: mc-wood-planks
+          - random: true
+            item-group: mc-wood-planks
+        - - random: true
+            item-group: mc-wood-planks
+          - item: [mc-stick]
+          - random: true
+            item-group: mc-wood-planks
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-hammer-wood]
+    note: >
+      Disabled by default.
+  vpt-tool-shears-diamond:
+    results:
+      - item: vpt-tool-shears-diamond
+    ingredients:
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [item: [mc-diamond]]
+      result:
+        item: [vpt-tool-shears-diamond]
+  vpt-tool-shears-gold:
+    results:
+      - item: vpt-tool-shears-gold
+    ingredients:
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold]]
+      result:
+        item: [vpt-tool-shears-gold]
+  vpt-tool-shears-stone:
+    results:
+      - item: vpt-tool-shears-stone
+    ingredients:
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone]]
+        - [item: [mc-cobblestone]]
+      result:
+        item: [vpt-tool-shears-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-shears-wood:
+    results:
+      - item: vpt-tool-shears-wood
+    ingredients:
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - null
+          - random: true
+            item-group: mc-wood-planks
+        - - random: true
+            item-group: mc-wood-planks
+      result:
+        item: [vpt-tool-shears-wood]
+    note: >
+      Disabled by default.
+  vpt-tool-sickle-diamond:
+    results:
+      - item: vpt-tool-sickle-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [null, null, item: [mc-diamond]]
+        - [item: [mc-stick], item: [mc-diamond]]
+      result:
+        item: [vpt-tool-sickle-diamond]
+  vpt-tool-sickle-gold:
+    results:
+      - item: vpt-tool-sickle-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold]]
+        - [null, null, item: [mc-ingot-gold]]
+        - [item: [mc-stick], item: [mc-ingot-gold]]
+      result:
+        item: [vpt-tool-sickle-gold]
+  vpt-tool-sickle-iron:
+    results:
+      - item: vpt-tool-sickle-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, item: [mc-ingot-iron]]
+        - [null, null, item: [mc-ingot-iron]]
+        - [item: [mc-stick], item: [mc-ingot-iron]]
+      result:
+        item: [vpt-tool-sickle-iron]
+  vpt-tool-sickle-stone:
+    results:
+      - item: vpt-tool-sickle-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone]]
+        - [null, null, item: [mc-cobblestone]]
+        - [item: [mc-stick], item: [mc-cobblestone]]
+      result:
+        item: [vpt-tool-sickle-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-sickle-wood:
+    results:
+      - item: vpt-tool-sickle-wood
+    ingredients:
+      - item: mc-stick
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - null
+          - random: true
+            item-group: mc-wood-planks
+        - - null
+          - null
+          - random: true
+            item-group: mc-wood-planks
+        - - item: [mc-stick]
+          - random: true
+            item-group: mc-wood-planks
+      result:
+        item: [vpt-tool-sickle-wood]
+    note: >
+      Disabled by default.
+  vpt-weapon-bow-diamond:
+    results:
+      - item: vpt-weapon-bow-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+        - [null, item: [mc-diamond], item: [mc-string]]
+      result:
+        item: [vpt-weapon-bow-diamond]
+  vpt-weapon-bow-gold:
+    results:
+      - item: vpt-weapon-bow-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+        - [null, item: [mc-ingot-gold], item: [mc-string]]
+      result:
+        item: [vpt-weapon-bow-gold]
+  vpt-weapon-bow-iron:
+    results:
+      - item: vpt-weapon-bow-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, item: [mc-ingot-iron], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+        - [null, item: [mc-ingot-iron], item: [mc-string]]
+      result:
+        item: [vpt-weapon-bow-iron]
+  vpt-weapon-bow-stone:
+    results:
+      - item: vpt-weapon-bow-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-string
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone], item: [mc-string]]
+        - [item: [mc-stick], null, item: [mc-string]]
+        - [null, item: [mc-cobblestone], item: [mc-string]]
+      result:
+        item: [vpt-weapon-bow-stone]
+    note: >
+      Disabled by default.
+  vpt-weapon-shield-diamond:
+    results:
+      - item: vpt-weapon-shield-diamond
+    ingredients:
+      - item: mc-weapon-shield
+      - item: mc-diamond
+    data:
+      rows:
+        - [item: [mc-diamond], item: [mc-diamond], item: [mc-diamond]]
+        - [item: [mc-diamond], item: [mc-weapon-shield], item: [mc-diamond]]
+        - [null, item: [mc-diamond]]
+      result:
+        item: [vpt-weapon-shield-diamond]
+  vpt-weapon-shield-gold:
+    results:
+      - item: vpt-weapon-shield-gold
+    ingredients:
+      - item: mc-weapon-shield
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [item: [mc-ingot-gold], item: [mc-ingot-gold], item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], item: [mc-weapon-shield], item: [mc-ingot-gold]]
+        - [null, item: [mc-ingot-gold]]
+      result:
+        item: [vpt-weapon-shield-gold]
+  vpt-weapon-shield-iron:
+    results:
+      - item: vpt-weapon-shield-iron
+    ingredients:
+      - item: mc-weapon-shield
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [item: [mc-ingot-iron], item: [mc-ingot-iron], item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], item: [mc-weapon-shield], item: [mc-ingot-iron]]
+        - [null, item: [mc-ingot-iron]]
+      result:
+        item: [vpt-weapon-shield-iron]
+  vpt-weapon-shield-stone:
+    results:
+      - item: vpt-weapon-shield-stone
+    ingredients:
+      - item: mc-weapon-shield
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [item: [mc-cobblestone], item: [mc-cobblestone], item: [mc-cobblestone]]
+        - [item: [mc-cobblestone], item: [mc-weapon-shield], item: [mc-cobblestone]]
+        - [null, item: [mc-cobblestone]]
+      result:
+        item: [vpt-weapon-shield-stone]
+    note: >
+      Disabled by default.
+  vps-satchel-basic:
+    results:
+      - item: vps-satchel-basic
+    ingredients:
+      - item-group: mc-wool
+      - item: mc-leather
+    data:
+      rows:
+        - [null, item: [mc-leather]]
+        - - item: [mc-leather]
+          - random: true
+            item-group: mc-wool
+          - item: [mc-leather]
+        - [null, item: [mc-leather]]
+      result:
+        item: [vps-satchel-basic]
+  vps-satchel-iron:
+    results:
+      - item: vps-satchel-iron
+    ingredients:
+      - item: vps-satchel-basic
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], item: [vps-satchel-basic], item: [mc-ingot-iron]]
+        - [null, item: [mc-ingot-iron]]
+      result:
+        item: [vps-satchel-iron]
+  vps-satchel-gold:
+    results:
+      - item: vps-satchel-gold
+    ingredients:
+      - item: vps-satchel-iron
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], item: [vps-satchel-iron], item: [mc-ingot-gold]]
+        - [null, item: [mc-ingot-gold]]
+      result:
+        item: [vps-satchel-gold]
+  vps-satchel-diamond:
+    results:
+      - item: vps-satchel-diamond
+    ingredients:
+      - item: vps-satchel-gold
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [item: [mc-diamond], item: [vps-satchel-gold], item: [mc-diamond]]
+        - [null, item: [mc-diamond]]
+      result:
+        item: [vps-satchel-diamond]
+  vps-satchel-emerald:
+    results:
+      - item: vps-satchel-emerald
+    ingredients:
+      - item: vps-satchel-diamond
+      - item: mc-emerald
+    data:
+      rows:
+        - [null, item: [mc-emerald]]
+        - [item: [mc-emerald], item: [vps-satchel-diamond], item: [mc-emerald]]
+        - [null, item: [mc-emerald]]
+      result:
+        item: [vps-satchel-emerald]

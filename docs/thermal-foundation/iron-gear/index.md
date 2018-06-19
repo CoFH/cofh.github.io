@@ -27,6 +27,7 @@ usage-recipes:
     - te5-device-diffuser
     - te5-device-factorizer
     - te5-device-mob-catcher
+    - te5-device-item-collector
     - te5-augment-machine-compactor-gear
     - te5-augment-machine-charger-repair
     - te5-augment-dynamo-boiler

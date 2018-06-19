@@ -80,10 +80,7 @@ hypoinfusers can be equipped as baubles in any slot.
 ### Dyeing
 A hypoinfuser can be dyed by combining it with a
 [dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
-removed by combining the hypoinfuser with a [water
-bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
-item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
-worth of [water](https://minecraft.gamepedia.com/Water)).
+removed by placing the hypoinfuser in a crafting grid.
 
 ### Enchantments
 A hypoinfuser can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its

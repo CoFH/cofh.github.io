@@ -16,6 +16,58 @@ recipes:
       output:
         fluid: tf2-aerotheum
         amount: 250
+  biocrude-from-biomass:
+    results:
+      - fluid: tf2-biocrude
+        fluid-amount: 100
+    ingredients:
+      - item: tf2-biomass
+    energy: 4000
+    data:
+      input:
+        item: [tf2-biomass]
+      output:
+        fluid: tf2-biocrude
+        amount: 100
+  biocrude-from-biomass-rich:
+    results:
+      - fluid: tf2-biocrude
+        fluid-amount: 150
+    ingredients:
+      - item: tf2-biomass-rich
+    energy: 4000
+    data:
+      input:
+        item: [tf2-biomass-rich]
+      output:
+        fluid: tf2-biocrude
+        amount: 150
+  biocrude-from-bioblend:
+    results:
+      - fluid: tf2-biocrude
+        fluid-amount: 100
+    ingredients:
+      - item: tf2-bioblend
+    energy: 4000
+    data:
+      input:
+        item: [tf2-bioblend]
+      output:
+        fluid: tf2-biocrude
+        amount: 100
+  biocrude-from-bioblend-rich:
+    results:
+      - fluid: tf2-biocrude
+        fluid-amount: 150
+    ingredients:
+      - item: tf2-bioblend-rich
+    energy: 4000
+    data:
+      input:
+        item: [tf2-bioblend-rich]
+      output:
+        fluid: tf2-biocrude
+        amount: 150
   coal:
     results:
       - fluid: tf2-coal
@@ -29,19 +81,6 @@ recipes:
       output:
         fluid: tf2-coal
         amount: 100
-  creosote-oil-from-tar:
-    results:
-      - fluid: tf2-creosote-oil
-        fluid-amount: 250
-    ingredients:
-      - item: tf2-tar
-    energy: 2000
-    data:
-      input:
-        item: [tf2-tar]
-      output:
-        fluid: tf2-creosote-oil
-        amount: 250
   crude-oil-from-bitumen:
     results:
       - fluid: tf2-crude-oil

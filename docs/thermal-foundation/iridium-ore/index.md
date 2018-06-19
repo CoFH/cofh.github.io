@@ -55,5 +55,11 @@ Usage
 ### Induction Smelter
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
 
+### Smashing
+When iridium ore is broken using a [Smashing](/docs/cofh-core/smashing/)
+enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
+two piles of [pulverized iridium](/docs/thermal-foundation/pulverized-iridium/)
+are dropped instead of the ore.
+
 ### Light source
 Iridium ore emits a light level of 4.

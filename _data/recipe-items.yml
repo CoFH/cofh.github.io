@@ -398,6 +398,11 @@ mc-clay:
   sprite: [3, 39]
   site: mc-wiki
   url: Clay
+mc-clay-block:
+  name: Clay
+  sprite: [0, 67]
+  site: mc-wiki
+  url: Clay_(block)
 mc-clock:
   name: Clock
   sprite: [14, 55]
@@ -1643,6 +1648,91 @@ mc-sugar-canes:
   sprite: [10, 42]
   site: mc-wiki
   url: Sugar_Canes
+mc-terracotta:
+  name: Terracotta
+  sprite: [1, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-black:
+  name: Black Terracotta
+  sprite: [1, 68]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-blue:
+  name: Blue Terracotta
+  sprite: [13, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-brown:
+  name: Brown Terracotta
+  sprite: [14, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-cyan:
+  name: Cyan Terracotta
+  sprite: [11, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-gray:
+  name: Gray Terracotta
+  sprite: [9, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-green:
+  name: Green Terracotta
+  sprite: [15, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-light-blue:
+  name: Light Blue Terracotta
+  sprite: [5, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-light-gray:
+  name: Light Gray Terracotta
+  sprite: [10, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-lime:
+  name: Lime Terracotta
+  sprite: [7, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-magenta:
+  name: Magenta Terracotta
+  sprite: [4, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-orange:
+  name: Orange Terracotta
+  sprite: [3, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-pink:
+  name: Pink Terracotta
+  sprite: [8, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-purple:
+  name: Purple Terracotta
+  sprite: [12, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-red:
+  name: Red Terracotta
+  sprite: [0, 68]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-white:
+  name: White Terracotta
+  sprite: [2, 67]
+  site: mc-wiki
+  url: Terracotta
+mc-terracotta-yellow:
+  name: Yellow Terracotta
+  sprite: [6, 67]
+  site: mc-wiki
+  url: Terracotta
 mc-tool-axe-diamond:
   name: Diamond Axe
   sprite: [6, 44]
@@ -2218,6 +2308,26 @@ tf2-basalz-rod:
   sprite: [1, 16]
   site: docs-tf2
   url: basalz-rod/
+tf2-biomass:
+  name: Pulped Biomass
+  sprite: [9, 66]
+  site: docs-tf2
+  url: pulped-biomass/
+tf2-biomass-rich:
+  name: Rich Biomass
+  sprite: [10, 66]
+  site: docs-tf2
+  url: rich-biomass/
+tf2-bioblend:
+  name: Pulped Bioblend
+  sprite: [11, 66]
+  site: docs-tf2
+  url: pulped-bioblend/
+tf2-bioblend-rich:
+  name: Rich Bioblend
+  sprite: [12, 66]
+  site: docs-tf2
+  url: rich-bioblend/
 tf2-bitumen:
   name: Bitumen
   animated: true
@@ -2248,6 +2358,11 @@ tf2-bucket-aerotheum:
   sprite: [13, 59]
   site: docs-tf2
   url: zephyrean-aerotheum/
+tf2-bucket-biocrude:
+  name: Biocrude Bucket
+  sprite: [14, 66]
+  site: docs-tf2
+  url: biocrude/
 tf2-bucket-coal:
   name: Liquifacted Coal Bucket
   sprite: [2, 59]
@@ -2283,6 +2398,11 @@ tf2-bucket-glowstone:
   sprite: [9, 40]
   site: docs-tf2
   url: energized-glowstone/
+tf2-bucket-grassoline:
+  name: Grassoline Bucket
+  sprite: [15, 66]
+  site: docs-tf2
+  url: grassoline/
 tf2-bucket-mana:
   name: Primal Mana Bucket
   sprite: [15, 59]
@@ -2328,6 +2448,11 @@ tf2-bucket-sap:
   sprite: [6, 59]
   site: docs-tf2
   url: sap/
+tf2-bucket-seed-oil:
+  name: Seed Oil Bucket
+  sprite: [13, 66]
+  site: docs-tf2
+  url: seed-oil/
 tf2-bucket-steam:
   name: Steam Bucket
   sprite: [0, 59]
@@ -2813,6 +2938,66 @@ tf2-hardened-glass-tin:
   sprite: [14, 1]
   site: docs-tf2
   url: hardened-glass/
+tf2-horse-armor-aluminum:
+  name: Aluminum Horse Armor
+  sprite: [13, 65]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-bronze:
+  name: Bronze Horse Armor
+  sprite: [14, 65]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-constantan:
+  name: Constantan Horse Armor
+  sprite: [15, 65]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-copper:
+  name: Copper Horse Armor
+  sprite: [0, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-electrum:
+  name: Electrum Horse Armor
+  sprite: [1, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-invar:
+  name: Invar Horse Armor
+  sprite: [2, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-lead:
+  name: Lead Horse Armor
+  sprite: [3, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-nickel:
+  name: Nickel Horse Armor
+  sprite: [4, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-platinum:
+  name: Platinum Horse Armor
+  sprite: [5, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-silver:
+  name: Silver Horse Armor
+  sprite: [6, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-steel:
+  name: Steel Horse Armor
+  sprite: [7, 66]
+  site: docs-tf2
+  url: horse-armor/
+tf2-horse-armor-tin:
+  name: Tin Horse Armor
+  sprite: [8, 66]
+  site: docs-tf2
+  url: horse-armor/
 tf2-ingot-aluminum:
   name: Aluminum Ingot
   sprite: [11, 0]
@@ -4513,6 +4698,11 @@ te5-augment-dynamo-compression-fuel:
   sprite: [15, 28]
   site: docs-te5
   url: augment-ignition-plugs/
+te5-augment-dynamo-compression-biofuel:
+  name: 'Augment: Agitative Manifold'
+  sprite: [3, 68]
+  site: docs-te5
+  url: augment-agitative-manifold/
 te5-augment-dynamo-reactant-elemental:
   name: 'Augment: Elemental Catalyzer'
   sprite: [3, 29]
@@ -4563,6 +4753,11 @@ te5-device-item-buffer:
   sprite: [3, 27]
   site: docs-te5
   url: item-allocator/
+te5-device-item-collector:
+  name: Vacuumulator
+  sprite: [2, 68]
+  site: docs-te5
+  url: vacuumulator/
 te5-device-lexicon:
   name: Lexical Transmuter
   sprite: [4, 8]
@@ -5498,3 +5693,158 @@ ra-weapon-sword:
   sprite: [7, 35]
   site: docs-ra
   url: flux-infused-sword/
+vpt-tool-fishing-rod-diamond:
+  name: Diamond Fishing Rod
+  sprite: [4, 18]
+  site: docs-vpt
+  url: fishing-rods/
+vpt-tool-fishing-rod-gold:
+  name: Gold Fishing Rod
+  sprite: [6, 18]
+  site: docs-vpt
+  url: fishing-rods/
+vpt-tool-fishing-rod-iron:
+  name: Iron Fishing Rod
+  sprite: [8, 18]
+  site: docs-vpt
+  url: fishing-rods/
+vpt-tool-fishing-rod-stone:
+  name: Stone Fishing Rod
+  sprite: [14, 18]
+  site: docs-vpt
+  url: fishing-rods/
+vpt-tool-hammer-diamond:
+  name: Diamond Hammer
+  sprite: [4, 19]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-hammer-gold:
+  name: Gold Hammer
+  sprite: [6, 19]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-hammer-iron:
+  name: Iron Hammer
+  sprite: [8, 19]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-hammer-stone:
+  name: Stone Hammer
+  sprite: [14, 19]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-hammer-wood:
+  name: Wooden Hammer
+  sprite: [0, 20]
+  site: docs-vpt
+  url: hammers/
+vpt-tool-shears-diamond:
+  name: Diamond Shears
+  sprite: [13, 21]
+  site: docs-vpt
+  url: shears/
+vpt-tool-shears-gold:
+  name: Gold Shears
+  sprite: [15, 21]
+  site: docs-vpt
+  url: shears/
+vpt-tool-shears-stone:
+  name: Stone Shears
+  sprite: [6, 22]
+  site: docs-vpt
+  url: shears/
+vpt-tool-shears-wood:
+  name: Wooden Shears
+  sprite: [8, 22]
+  site: docs-vpt
+  url: shears/
+vpt-tool-sickle-diamond:
+  name: Diamond Sickle
+  sprite: [9, 24]
+  site: docs-vpt
+  url: sickles/
+vpt-tool-sickle-gold:
+  name: Gold Sickle
+  sprite: [11, 24]
+  site: docs-vpt
+  url: sickles/
+vpt-tool-sickle-iron:
+  name: Iron Sickle
+  sprite: [13, 24]
+  site: docs-vpt
+  url: sickles/
+vpt-tool-sickle-stone:
+  name: Stone Sickle
+  sprite: [3, 25]
+  site: docs-vpt
+  url: sickles/
+vpt-tool-sickle-wood:
+  name: Wooden Sickle
+  sprite: [5, 25]
+  site: docs-vpt
+  url: sickles/
+vpt-weapon-bow-diamond:
+  name: Diamond Reinforced Bow
+  sprite: [4, 17]
+  site: docs-vpt
+  url: reinforced-bows/
+vpt-weapon-bow-gold:
+  name: Gold Reinforced Bow
+  sprite: [6, 17]
+  site: docs-vpt
+  url: reinforced-bows/
+vpt-weapon-bow-iron:
+  name: Iron Reinforced Bow
+  sprite: [8, 17]
+  site: docs-vpt
+  url: reinforced-bows/
+vpt-weapon-bow-stone:
+  name: Stone Reinforced Bow
+  sprite: [14, 17]
+  site: docs-vpt
+  url: reinforced-bows/
+vpt-weapon-shield-diamond:
+  name: Diamond Shield
+  sprite: [13, 22]
+  site: docs-vpt
+  url: shields/
+vpt-weapon-shield-gold:
+  name: Gold Shield
+  sprite: [15, 22]
+  site: docs-vpt
+  url: shields/
+vpt-weapon-shield-iron:
+  name: Iron Shield
+  sprite: [1, 23]
+  site: docs-vpt
+  url: shields/
+vpt-weapon-shield-stone:
+  name: Stone Shield
+  sprite: [7, 23]
+  site: docs-vpt
+  url: shields/
+vps-satchel-basic:
+  name: Satchel
+  sprite: [4, 68]
+  site: docs-vps
+  url: satchel/
+vps-satchel-iron:
+  name: Iron Satchel
+  sprite: [5, 68]
+  site: docs-vps
+  url: satchel/
+vps-satchel-gold:
+  name: Gold Satchel
+  sprite: [6, 68]
+  site: docs-vps
+  url: satchel/
+vps-satchel-diamond:
+  name: Diamond Satchel
+  sprite: [7, 68]
+  site: docs-vps
+  url: satchel/
+vps-satchel-emerald:
+  name: Emerald Satchel
+  sprite: [8, 68]
+  site: docs-vps
+  url: satchel/

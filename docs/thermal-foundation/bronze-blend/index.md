@@ -10,6 +10,8 @@ recipes:
   pulverizer:
     - dust-bronze
 usage-recipes:
+  crafting:
+    - tf2-hardened-glass-bronze
   smelting:
     - tf2-ingot-bronze-from-dust
   smelter:
@@ -38,6 +40,9 @@ Obtaining
 
 Usage
 -----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Smelting ingredient
 {% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}

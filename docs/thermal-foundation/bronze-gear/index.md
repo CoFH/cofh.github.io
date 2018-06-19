@@ -13,6 +13,7 @@ usage-recipes:
   crafting:
     - tf2-upgrade-kit-hardened
     - te5-augment-machine-furnace-ore
+    - te5-augment-dynamo-compression-biofuel
   smelter:
     - recycling-gear-bronze
 ---

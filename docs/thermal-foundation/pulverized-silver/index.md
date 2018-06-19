@@ -22,6 +22,7 @@ usage-recipes:
     - tf2-dust-electrum
     - tf2-dust-signalum
     - tf2-dust-lumium
+    - tf2-hardened-glass-silver
     - ra-dust-fluxed-electrum-using-gold-and-silver
   smelting:
     - tf2-ingot-silver-from-dust
@@ -50,6 +51,12 @@ Obtaining
 
 ### Centrifugal Separator
 {% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge no-result=true %}
+
+### Smashing
+When [silver ore](/docs/thermal-foundation/silver-ore/) is broken using a
+[Smashing](/docs/cofh-core/smashing/) enchanted
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+pulverized silver are dropped instead of the ore.
 
 
 Usage

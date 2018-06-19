@@ -13,6 +13,8 @@ recipes:
 usage-recipes:
   crafting:
     - tf2-dust-petrotheum
+    - tf2-hardened-glass
+    - tf2-hardened-glass-metal
     - ra-obsidian-rod
   smelter:
     - hardened-glass

@@ -35,13 +35,13 @@ recipes:
     - recycling-armor-chestplate-invar
     - recycling-armor-leggings-invar
     - recycling-armor-boots-invar
+    - recycling-horse-armor-invar
 usage-recipes:
   crafting:
     - tf2-nugget-invar
     - tf2-gear-invar
     - tf2-storage-block-invar
     - tf2-upgrade-kit-hardened
-    - te5-machine-smelter
     - te5-machine-precipitator
     - te5-machine-extruder
     - te5-device-heat-sink
@@ -80,6 +80,7 @@ usage-recipes:
     - tf2-armor-chestplate-invar
     - tf2-armor-leggings-invar
     - tf2-armor-boots-invar
+    - tf2-horse-armor-invar
   pulverizer:
     - dust-invar
   compactor:

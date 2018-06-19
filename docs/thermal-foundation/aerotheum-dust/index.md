@@ -12,6 +12,7 @@ recipes:
 usage-recipes:
   crafting:
     - te5-augment-machine-extruder-sedimentary
+    - te5-augment-dynamo-compression-biofuel
     - te5-augment-dynamo-reactant-elemental
     - ti-fluxsaw-signalum
   crucible:

@@ -13,8 +13,6 @@ recipes:
     - charcoal-from-cactus
     - charcoal-from-sugar-canes
     - charcoal-from-sawdust
-  crucible:
-    - creosote-oil-from-tar
   transposer-empty:
     - bucket-creosote-oil
 usage-recipes:
@@ -36,9 +34,6 @@ Obtaining
 
 ### Redstone Furnace with Pyrolytic Conversion
 {% include recipe-table.html type='redstone-furnace-te5-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis %}
-
-### Magma Crucible
-{% include recipe-table.html type='crucible-te5' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
 {% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}

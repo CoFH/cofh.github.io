@@ -46,7 +46,8 @@ Usage
 -----
 
 ### Placement
-When placed, a magmatic dynamo faces up. It can face any direction, and can be
+When placed, a magmatic dynamo faces up. When placed while sneaking, it faces
+away from the player. A magmatic dynamo can face any direction, and can be
 rotated using a [wrench](/docs/wrenches/).
 
 ### Energy generation
@@ -91,9 +92,9 @@ High
 
 The current mode can be set using the Redstone Control tab in the dynamo's GUI.
 
-When a magmatic dynamo must stop working due to a redstone signal and is still
+When a magmatic dynamo is deactivated by a redstone signal and is still
 generating energy from a consumed batch of fuel, it will finish generating
-energy from that batch before stopping.
+energy from that batch first.
 
 ### Security
 A magmatic dynamo can have a [signalum security

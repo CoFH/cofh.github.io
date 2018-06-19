@@ -43,8 +43,9 @@ Usage
 -----
 
 ### Placement
-When placed, an enervation dynamo faces up. It can face any direction, and can
-be rotated using a [wrench](/docs/wrenches/).
+When placed, an enervation dynamo faces up. When placed while sneaking, it faces
+away from the player. An enervation dynamo can face any direction, and can be
+rotated using a [wrench](/docs/wrenches/).
 
 ### Energy generation
 When [fuel](#fuels) or an item that holds [Redstone Flux](/docs/redstone-flux/)
@@ -88,9 +89,9 @@ High
 
 The current mode can be set using the Redstone Control tab in the dynamo's GUI.
 
-When an enervation dynamo must stop working due to a redstone signal and is
-still generating energy from a consumed unit of fuel, it will finish generating
-energy from that unit of fuel before stopping.
+When an enervation dynamo is deactivated by a redstone signal and is still
+generating energy from a consumed unit of fuel, it will finish generating energy
+from that unit of fuel first.
 
 ### Security
 An enervation dynamo can have a [signalum security

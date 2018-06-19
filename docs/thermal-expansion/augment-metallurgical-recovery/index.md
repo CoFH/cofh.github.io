@@ -47,10 +47,15 @@ and [cinnabar](/docs/thermal-foundation/cinnabar/).
 <div class="uk-overflow-container">
 | Installed amount | Flux reuse chance | Energy increase |
 |---
-| 1 | 15% | + 10% |
-| 2 | 30% | + 20% |
-| 3 | 45% | + 30% |
-| 4 | 60% | + 40% |
+| 1 | 15% | + 15% |
+| 2 | 30% | + 30% |
+| 3 | 45% | + 45% |
+| 4 | 60% | + 60% |
+| 5 | 75% | + 75% |
+| 6 | 90% | + 90% |
+| 7 | 95% | + 105% |
+| 8 | 95% | + 120% |
+| 9 | 95% | + 135% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

@@ -19,6 +19,7 @@ usage-recipes:
     - tf2-pyrotheum-dust-tin
     - tf2-dust-bronze
     - tf2-dust-lumium
+    - tf2-hardened-glass-tin
   smelting:
     - tf2-ingot-tin-from-dust
   smelter:
@@ -46,6 +47,12 @@ Obtaining
 
 ### Centrifugal Separator
 {% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge no-result=true %}
+
+### Smashing
+When [tin ore](/docs/thermal-foundation/tin-ore/) is broken using a
+[Smashing](/docs/cofh-core/smashing/) enchanted
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+pulverized tin are dropped instead of the ore.
 
 
 Usage

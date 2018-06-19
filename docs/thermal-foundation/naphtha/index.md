@@ -49,8 +49,9 @@ Naphtha cannot be placed as a block.
 {% include recipe-table.html type='refinery-te5' recipes=page.usage-recipes.refinery %}
 
 ### Compression Dynamo fuel
-When used as fuel in a [compression dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket
-of naphtha yields 1,250,000 RF.
+When used as fuel in a [compression
+dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket of naphtha yields
+1,000,000 RF.
 
 
 Trivia

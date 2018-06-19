@@ -1,5 +1,5 @@
 ---
-title: Satchel
+title: Satchel (Thermal Expansion)
 nav: thermal-expansion
 image:
   - alt: Satchel (Basic)
@@ -50,8 +50,8 @@ Usage
 A satchel can be opened by using it. When opened, items can be put in or taken
 out, like with [chests](https://minecraft.gamepedia.com/Chest).
 
-Satchels cannot store certain items that can themselves store items, like other
-satchels or [strongboxes](/docs/thermal-expansion/strongbox/).
+Satchels cannot store certain items that can themselves store items, such as
+other satchels or [strongboxes](/docs/thermal-expansion/strongbox/).
 
 ### Item transfer
 A satchel's contents can be transferred into a block that stores items by using
@@ -85,12 +85,8 @@ NBT
 The body and flap of a satchel can be dyed by combining the satchel with
 [dyes](https://minecraft.gamepedia.com/Dye) in a crafting grid. The body and/or
 flap are dyed depending on the dyes' positions around the satchel in the
-crafting grid.
-
-Dyes can be removed from a satchel by combining it with a [water
-bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
-item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
-worth of [water](https://minecraft.gamepedia.com/Water)).
+crafting grid. The dyes can be removed by placing the satchel in a crafting
+grid.
 
 ### Security
 A satchel can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)

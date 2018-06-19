@@ -42,3 +42,7 @@ enchanted to increase their capacity.
 ### Redstone Arsenal
 All equipment added by [Redstone Arsenal](/docs/redstone-arsenal/) can be
 enchanted to hold more energy.
+
+### Vanilla+ Satchels
+[Satchels](/docs/vanillaplus-satchels/satchel/) can be enchanted to hold more
+items.

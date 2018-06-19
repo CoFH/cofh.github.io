@@ -1031,6 +1031,18 @@ recipes:
       primary-output:
         item: [mc-brick]
         amount: 2
+  recycling-clay-block:
+    results:
+      - item: mc-clay
+    ingredients:
+      - item: mc-clay-block
+    energy: 3000
+    data:
+      input:
+        item: [mc-clay-block]
+      primary-output:
+        item: [mc-clay]
+        amount: 4
   recycling-concrete:
     results:
       - item-group: mc-concrete-powder
@@ -1047,7 +1059,7 @@ recipes:
       - item: mc-brick
     ingredients:
       - item: mc-flower-pot
-    energy: 2000
+    energy: 4000
     data:
       input:
         item: [mc-flower-pot]
@@ -1059,7 +1071,7 @@ recipes:
       - item: mc-sand
     ingredients:
       - item: mc-glass
-    energy: 3000
+    energy: 4000
     data:
       input:
         item: [mc-glass]
@@ -1070,7 +1082,7 @@ recipes:
       - item: mc-sand
     ingredients:
       - item: mc-glass-bottle
-    energy: 2000
+    energy: 4000
     data:
       input:
         item: [mc-glass-bottle]
@@ -1081,7 +1093,7 @@ recipes:
       - item: mc-sand
     ingredients:
       - item-group: mc-glass-stained
-    energy: 3000
+    energy: 4000
     data:
       input:
         item-group: mc-glass-stained
@@ -1297,6 +1309,36 @@ recipes:
       secondary-output:
         item: [tf2-niter]
       secondary-chance: 20
+  recycling-terracotta:
+    results:
+      - item: mc-clay
+    ingredients:
+      - item: mc-terracotta
+    energy: 4000
+    data:
+      input:
+        item:
+          - mc-terracotta
+          - mc-terracotta-white
+          - mc-terracotta-orange
+          - mc-terracotta-magenta
+          - mc-terracotta-light-blue
+          - mc-terracotta-yellow
+          - mc-terracotta-lime
+          - mc-terracotta-pink
+          - mc-terracotta-gray
+          - mc-terracotta-light-gray
+          - mc-terracotta-cyan
+          - mc-terracotta-purple
+          - mc-terracotta-blue
+          - mc-terracotta-brown
+          - mc-terracotta-green
+          - mc-terracotta-red
+          - mc-terracotta-black
+        random: true
+      primary-output:
+        item: [mc-clay]
+        amount: 4
   recycling-tool-axe-diamond:
     results:
       - item: mc-diamond
@@ -1606,18 +1648,6 @@ recipes:
         item-group: mc-wood-planks
       primary-output:
         item: [tf2-sawdust]
-        amount: 2
-  sugar:
-    results:
-      - item: mc-sugar
-    ingredients:
-      - item: mc-sugar-canes
-    energy: 2000
-    data:
-      input:
-        item: [mc-sugar-canes]
-      primary-output:
-        item: [mc-sugar]
         amount: 2
   td2-recycling-fluiduct-basic:
     results:

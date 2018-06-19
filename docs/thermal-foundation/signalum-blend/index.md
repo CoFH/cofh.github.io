@@ -10,6 +10,8 @@ recipes:
   pulverizer:
     - dust-signalum
 usage-recipes:
+  crafting:
+    - tf2-hardened-glass-signalum
   smelter:
     - dust-smelting-signalum
     - hardened-glass-signalum
@@ -42,6 +44,9 @@ signalum blend.
 
 Usage
 -----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

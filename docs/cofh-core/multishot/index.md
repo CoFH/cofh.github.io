@@ -16,8 +16,9 @@ Usage
 
 [Bows](https://minecraft.gamepedia.com/Bow), [reinforced
 bows](/docs/thermal-foundation/reinforced-bows/) and [flux-infused
-bows](/docs/redstone-arsenal/flux-infused-bow/) can all be enchanted with Multishot. The amount
-of arrows a Multishot enchanted bow fires depends on the enchantment level.
+bows](/docs/redstone-arsenal/flux-infused-bow/) can all be enchanted with
+Multishot. The amount of arrows a Multishot enchanted bow fires depends on the
+enchantment level.
 
 | Multishot level | Arrows fired |
 |---
@@ -26,3 +27,7 @@ of arrows a Multishot enchanted bow fires depends on the enchantment level.
 | III | 4 |
 | IV | 5 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
+Not all arrows fired in a single shot are fired quite as accurately as firing a
+single arrow. However, all of them can damage the same
+[entity](https://minecraft.gamepedia.com/Entity) simultaneously.

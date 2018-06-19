@@ -38,9 +38,10 @@ four cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 An active insightful condenser collects any [experience
 orbs](https://minecraft.gamepedia.com/Experience) in a 5x5x5 area centered on
 the device. The experience it collects is converted into [essence of
-knowledge](/docs/thermal-foundation/essence-of-knowledge/) (20 mB per experience point) and stored
-in the device's output tank. The device attempts to collect and convert
-experience every 16 ticks (0.8 seconds).
+knowledge](/docs/thermal-foundation/essence-of-knowledge/) (20 mB per experience
+point) and stored in the device's output tank. The device attempts to collect
+and convert experience every 16 ticks (0.8 seconds), or directly after it is
+activated by a [redstone signal](#redstone-control).
 
 The amount of essence of knowledge an insightful condenser produces per
 experience point can be increased by placing catalyst items in its catalyst
@@ -96,4 +97,4 @@ An insightful condenser's configuration can be saved on a
 [redprint](/docs/thermal-foundation/redprint/) to be copied to other insightful condensers.
 
 ### Light source
-When an insightful condenser is active, it emits a light level of 5.
+When an insightful condenser is active, it emits a light level of 2.

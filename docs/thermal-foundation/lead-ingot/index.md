@@ -39,6 +39,7 @@ recipes:
     - recycling-armor-chestplate-lead
     - recycling-armor-leggings-lead
     - recycling-armor-boots-lead
+    - recycling-horse-armor-lead
 usage-recipes:
   crafting:
     - tf2-petrotheum-ingot-lead
@@ -84,6 +85,7 @@ usage-recipes:
     - tf2-armor-chestplate-lead
     - tf2-armor-leggings-lead
     - tf2-armor-boots-lead
+    - tf2-horse-armor-lead
   pulverizer:
     - dust-lead
   compactor:

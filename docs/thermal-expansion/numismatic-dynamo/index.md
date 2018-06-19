@@ -46,7 +46,8 @@ Usage
 -----
 
 ### Placement
-When placed, a numismatic dynamo faces up. It can face any direction, and can be
+When placed, a numismatic dynamo faces up. When placed while sneaking, it faces
+away from the player. A numismatic dynamo can face any direction, and can be
 rotated using a [wrench](/docs/wrenches/).
 
 ### Energy generation
@@ -90,9 +91,9 @@ High
 
 The current mode can be set using the Redstone Control tab in the dynamo's GUI.
 
-When a numismatic dynamo must stop working due to a redstone signal and is still
+When a numismatic dynamo is deactivated by a redstone signal and is still
 generating energy from a consumed unit of fuel, it will finish generating energy
-from that unit of fuel before stopping.
+from that unit of fuel first.
 
 ### Security
 A numismatic dynamo can have a [signalum security

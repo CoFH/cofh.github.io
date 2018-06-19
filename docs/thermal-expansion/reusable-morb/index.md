@@ -30,7 +30,7 @@ break after releasing a contained [mob](https://minecraft.gamepedia.com/Mob).
 
 ### Centrifugal Separator with Enstabulation Apparatus
 When processing filled reusable morbs using a [centrifugal
-separator](/docs/thermal-expansion/centrifugal-separator/) with an [enstabulation
-apparatus](/docs/thermal-expansion/augment-enstabulation-apparatus/) installed, there is a 80%
-chance that an empty morb is returned as an output, instead of the 20% chance
-when processing regular [morbs](/docs/thermal-expansion/morb/).
+separator](/docs/thermal-expansion/centrifugal-separator/) with an
+[enstabulation
+apparatus](/docs/thermal-expansion/augment-enstabulation-apparatus/) installed,
+the empty morbs are always returned as an output.

@@ -20,6 +20,7 @@ usage-recipes:
     - tf2-pyrotheum-dust-nickel
     - tf2-dust-invar
     - tf2-dust-constantan
+    - tf2-hardened-glass-nickel
   smelting:
     - tf2-ingot-nickel-from-dust
   smelter:
@@ -49,6 +50,12 @@ Obtaining
 
 ### Centrifugal Separator
 {% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge no-result=true %}
+
+### Smashing
+When [nickel ore](/docs/thermal-foundation/nickel-ore/) is broken using a
+[Smashing](/docs/cofh-core/smashing/) enchanted
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+pulverized nickel are dropped instead of the ore.
 
 
 Usage

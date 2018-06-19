@@ -8,6 +8,8 @@ recipes:
   compactor:
     - plate-constantan
 usage-recipes:
+  crafting:
+    - te5-augment-dynamo-compression-biofuel
   smelter:
     - recycling-plate-constantan
 ---
@@ -16,7 +18,7 @@ usage-recipes:
 
 
 **Constantan plates** are crafting materials made of
-[constantan](/docs/thermal-foundation/constantan-ingot/). They are currently not used for anything.
+[constantan](/docs/thermal-foundation/constantan-ingot/).
 
 
 Obtaining
@@ -28,6 +30,9 @@ Obtaining
 
 Usage
 -----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

@@ -107,9 +107,6 @@ High
 
 The current mode can be set using the Redstone Control tab in the machine's GUI.
 
-When an igneous extruder must stop working due to a redstone signal and is still
-producing an item, it will finish producing that item before stopping.
-
 ### Security
 An igneous extruder can have a [signalum security
 lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.

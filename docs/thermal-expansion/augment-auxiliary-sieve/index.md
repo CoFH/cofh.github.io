@@ -41,26 +41,31 @@ Installed auxiliary sieves increase the chances of a [machine](/docs/thermal-exp
 producing a secondary product. However, they also increase the amount of energy
 required per operation.
 
+<!--
+secondaryChance = 100 - amount * 15   (minimum is 5)
+multiplier = 100 / secondaryChance
+-->
+
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed amount | Chance multiplier (approx.) | Chance multiplier (exact) | Energy increase |
+| Installed amount | Chance multiplier | Energy increase |
 |---
-| 1 | × 1.18 | × 1 3/17 | + 10% |
-| 2 | × 1.43 | × 1 3/7 | + 20% |
-| 3 | × 1.82 | × 1 9/11 | + 30% |
-| 4 | × 2.5 | × 2 1/2 | + 40% |
+| 1 | × 1.18 | + 10% |
+| 2 | × 1.43 | + 20% |
+| 3 | × 1.82 | + 30% |
+| 4 | × 2.5 | + 40% |
+| 5 | × 4 | + 50% |
+| 6 | × 10 | + 60% |
+| 7 | × 20 | + 70% |
+| 8 | × 20 | + 80% |
+| 9 | × 20 | + 90% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}
 
 For example, if a machine is processing something that has a 35% chance of
 producing a secondary product, and two auxiliary sieves are installed, the
-chance is multiplied by approximately 1.43, raising it to 50%.
-
-If the chance for a secondary product is raised to above 100%, the secondary
-product is guaranteed to be produced at least once. The remainder of the chance
-(e.g. 25% for a 125% chance) becomes the chance of the secondary product being
-produced twice.
+chance percentage is multiplied by 1.43, raising it to 50%.
 
 If auxiliary sieves are installed together with other augments that increase the
 amount of energy required per operation, their energy increase percentages are

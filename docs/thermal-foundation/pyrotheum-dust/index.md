@@ -16,6 +16,8 @@ usage-recipes:
     - tf2-petrotheum-pyrotheum-ore-metal
     - tf2-pyrotheum-dust-ore-metal
     - tf2-upgrade-kit-resonant
+    - tf2-hardened-glass
+    - tf2-hardened-glass-metal
     - te5-flux-capacitor-resonant
     - te5-reservoir-resonant
     - te5-augment-machine-furnace-ore
@@ -54,6 +56,14 @@ Usage
 
 ### Centrifugal Separator ingredient
 {% include recipe-table.html type='centrifuge-te5' recipes=page.usage-recipes.centrifuge %}
+
+### Arcane Ensorcellator ingredient
+Pyrotheum dust can be combined with
+[books](https://minecraft.gamepedia.com/Book) and [essence of
+knowledge](/docs/thermal-foundation/essence-of-knowledge/) in an [arcane
+ensorcellator](/docs/thermal-expansion/arcane-ensorcellator/) to produce
+[Smelting](/docs/cofh-core/smelting/) [enchanted
+books](https://minecraft.gamepedia.com/Enchanted_Book).
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one

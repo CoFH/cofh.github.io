@@ -33,6 +33,7 @@ recipes:
     - recycling-armor-chestplate-steel
     - recycling-armor-leggings-steel
     - recycling-armor-boots-steel
+    - recycling-horse-armor-steel
 usage-recipes:
   crafting:
     - tf2-nugget-steel
@@ -53,6 +54,7 @@ usage-recipes:
     - tf2-armor-chestplate-steel
     - tf2-armor-leggings-steel
     - tf2-armor-boots-steel
+    - tf2-horse-armor-steel
   pulverizer:
     - dust-steel
   compactor:

@@ -55,6 +55,14 @@ Usage
 ### Centrifugal Separator ingredient
 {% include recipe-table.html type='centrifuge-te5' recipes=page.usage-recipes.centrifuge %}
 
+### Arcane Ensorcellator ingredient
+Petrotheum dust can be combined with
+[books](https://minecraft.gamepedia.com/Book) and [essence of
+knowledge](/docs/thermal-foundation/essence-of-knowledge/) in an [arcane
+ensorcellator](/docs/thermal-expansion/arcane-ensorcellator/) to produce
+[Smashing](/docs/cofh-core/smashing/) [enchanted
+books](https://minecraft.gamepedia.com/Enchanted_Book).
+
 ### Reactant Dynamo fuel
 When used together with 100 mB of [zephyrean
 aerotheum](/docs/thermal-foundation/zephyrean-aerotheum/) as fuel in a [reactant

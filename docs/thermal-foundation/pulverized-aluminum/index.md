@@ -14,6 +14,7 @@ recipes:
 usage-recipes:
   crafting:
     - tf2-pyrotheum-dust-aluminum
+    - tf2-hardened-glass-aluminum
   smelting:
     - tf2-ingot-aluminum-from-dust
   smelter:
@@ -36,6 +37,12 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Smashing
+When [aluminum ore](/docs/thermal-foundation/aluminum-ore/) is broken using a
+[Smashing](/docs/cofh-core/smashing/) enchanted
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+pulverized aluminum are dropped instead of the ore.
 
 
 Usage

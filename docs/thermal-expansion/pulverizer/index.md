@@ -26,7 +26,6 @@ recipe-list:
     - flint
     - recycling-sandstone
     - recycling-sandstone-red
-    - sugar
     - bone-meal
     - glowstone-dust-from-glowstone
     - magma-cream-from-block
@@ -78,6 +77,8 @@ recipe-list:
   recycling:
     - recycling-wool
     - recycling-concrete
+    - recycling-clay-block
+    - recycling-terracotta
     - recycling-bricks
     - recycling-bricks-slab
     - recycling-brick-stairs
@@ -217,9 +218,6 @@ High
 : The pulverizer only works when powered.
 
 The current mode can be set using the Redstone Control tab in the machine's GUI.
-
-When a pulverizer must stop working due to a redstone signal and is still
-processing an item, it will finish processing that item before stopping.
 
 ### Security
 A pulverizer can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)

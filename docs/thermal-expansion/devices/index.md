@@ -28,6 +28,8 @@ image:
     file: thermal-expansion/factorizer.png
   - alt: Creature encaptulator
     file: thermal-expansion/creature-encaptulator.png
+  - alt: Vacuumulator
+    file: thermal-expansion/vacuumulator.png
 frame-recipes:
   crafting:
     - te5-frame-device
@@ -58,6 +60,7 @@ List of devices
 | [Decoctive Diffuser](/docs/thermal-expansion/decoctive-diffuser/) | Spreads the effects of [fluid potions](/docs/thermal-foundation/potion-fluid/) in an area. |
 | [Factorizer](/docs/thermal-expansion/factorizer/) | Combines and splits various items. |
 | [Creature Encaptulator](/docs/thermal-expansion/creature-encaptulator/) | Captures nearby mobs using [morbs](/docs/thermal-expansion/morb/). |
+| [Vacuumulator](/docs/thermal-expansion/vacuumulator/) | Collects nearby dropped items. |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
 </div>
 {::options parse_block_html="false" /}

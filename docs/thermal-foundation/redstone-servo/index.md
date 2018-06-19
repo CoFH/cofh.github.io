@@ -23,6 +23,7 @@ usage-recipes:
     - te5-device-diffuser
     - te5-device-factorizer
     - te5-device-mob-catcher
+    - te5-device-item-collector
     - te5-portable-tank-basic
     - te5-reservoir-basic
     - te5-cache-basic

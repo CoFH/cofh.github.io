@@ -42,6 +42,7 @@ recipes:
     - recycling-armor-chestplate-platinum
     - recycling-armor-leggings-platinum
     - recycling-armor-boots-platinum
+    - recycling-horse-armor-platinum
 usage-recipes:
   crafting:
     - tf2-petrotheum-ingot-platinum
@@ -63,6 +64,7 @@ usage-recipes:
     - tf2-armor-chestplate-platinum
     - tf2-armor-leggings-platinum
     - tf2-armor-boots-platinum
+    - tf2-horse-armor-platinum
   pulverizer:
     - dust-platinum
   compactor:

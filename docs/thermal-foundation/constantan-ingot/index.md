@@ -33,6 +33,7 @@ recipes:
     - recycling-armor-chestplate-constantan
     - recycling-armor-leggings-constantan
     - recycling-armor-boots-constantan
+    - recycling-horse-armor-constantan
 usage-recipes:
   crafting:
     - tf2-nugget-constantan
@@ -56,6 +57,7 @@ usage-recipes:
     - tf2-armor-chestplate-constantan
     - tf2-armor-leggings-constantan
     - tf2-armor-boots-constantan
+    - tf2-horse-armor-constantan
   pulverizer:
     - dust-constantan
   compactor:

@@ -43,6 +43,11 @@ Installed fuel catalyzers increase the amount of energy a
 | 2 | + 30% |
 | 3 | + 45% |
 | 4 | + 60% |
+| 5 | + 75% |
+| 6 | + 90% |
+| 7 | + 105% |
+| 8 | + 120% |
+| 9 | + 135% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

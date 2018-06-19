@@ -51,12 +51,12 @@ differs depending on the type of dynamo.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Dynamo | Max. power output modifier | Energy modifier |
+| Dynamo | Max. power output modifier | Energy modifier | Note |
 |---
 | [Steam Dynamo](/docs/thermal-expansion/steam-dynamo/) | × 4 | + 15% |
-| [Magmatic Dynamo](/docs/thermal-expansion/magmatic-dynamo/) | × 2 | - 30% |
-| [Compression Dynamo](/docs/thermal-expansion/compression-dynamo/) | × 2 | - 40% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+| [Magmatic Dynamo](/docs/thermal-expansion/magmatic-dynamo/) | × 2 | - 40% |
+| [Compression Dynamo](/docs/thermal-expansion/compression-dynamo/) | × 2 | - 40% | Coolant fuel efficiency bonus is removed. |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
 

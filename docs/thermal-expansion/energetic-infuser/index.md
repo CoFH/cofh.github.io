@@ -71,7 +71,7 @@ an added input tank.
 The speed at which an energetic infuser charges items depends on how much energy
 it can use per tick. This in turn depends on how much power is being supplied,
 and on the machine's maximum power usage. A basic energetic infuser has a
-maximum power usage of 50 RF/t. This can be increased by upgrading the machine
+maximum power usage of 40 RF/t. This can be increased by upgrading the machine
 to a higher [tier](#tiers), and by installing certain [augments](#augmentation).
 
 The speed at which an energetic infuser charges items that hold energy may be
@@ -116,9 +116,6 @@ High
 
 The current mode can be set using the Redstone Control tab in the machine's GUI.
 
-When an energetic infuser must stop working due to a redstone signal and is
-still processing an item, it will finish processing that item before stopping.
-
 ### Security
 An energetic infuser can have a [signalum security
 lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
@@ -140,11 +137,11 @@ Energetic infusers come in five [tiers](/docs/thermal-foundation/tiers/).
 <div class="uk-overflow-container">
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
 |---
-| Basic | 50 RF/t | 0 | 16 |
-| Hardened | 75 RF/t | 1 | 16 |
-| Reinforced | 100 RF/t | 2 | 28 |
-| Signalum | 125 RF/t | 3 | 44 |
-| Resonant | 150 RF/t | 4 | 64 |
+| Basic | 40 RF/t | 0 | 16 |
+| Hardened | 60 RF/t | 1 | 16 |
+| Reinforced | 80 RF/t | 2 | 28 |
+| Signalum | 100 RF/t | 3 | 44 |
+| Resonant | 120 RF/t | 4 | 64 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 </div>
 {::options parse_block_html="false" /}

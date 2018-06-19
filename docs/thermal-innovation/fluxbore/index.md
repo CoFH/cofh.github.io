@@ -88,10 +88,7 @@ A charged fluxbore consumes 400 RF per hit.
 ### Dyeing
 A fluxbore can be dyed by combining it with a
 [dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
-removed by combining the fluxbore with a [water
-bucket](https://minecraft.gamepedia.com/Water_Bucket) in a crafting grid (or any
-item that holds at least a [bucket](https://minecraft.gamepedia.com/Bucket)
-worth of [water](https://minecraft.gamepedia.com/Water)).
+removed by placing the fluxbore in a crafting grid.
 
 ### Enchantments
 A fluxbore can receive all the enchantments that

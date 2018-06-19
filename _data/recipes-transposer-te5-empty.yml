@@ -19,6 +19,22 @@ recipes:
         amount: 1000
       item-output:
         item: [mc-bucket]
+  bucket-biocrude:
+    results:
+      - fluid: tf2-biocrude
+        fluid-amount: 1000
+      - item: mc-bucket
+    ingredients:
+      - item: tf2-bucket-biocrude
+    energy: 400
+    data:
+      input:
+        item: [tf2-bucket-biocrude]
+      fluid-output:
+        fluid: tf2-biocrude
+        amount: 1000
+      item-output:
+        item: [mc-bucket]
   bucket-coal:
     results:
       - fluid: tf2-coal
@@ -128,6 +144,22 @@ recipes:
         item: [tf2-bucket-glowstone]
       fluid-output:
         fluid: tf2-glowstone
+        amount: 1000
+      item-output:
+        item: [mc-bucket]
+  bucket-grassoline:
+    results:
+      - fluid: tf2-grassoline
+        fluid-amount: 1000
+      - item: mc-bucket
+    ingredients:
+      - item: tf2-bucket-grassoline
+    energy: 400
+    data:
+      input:
+        item: [tf2-bucket-grassoline]
+      fluid-output:
+        fluid: tf2-grassoline
         amount: 1000
       item-output:
         item: [mc-bucket]
@@ -275,6 +307,22 @@ recipes:
         amount: 1000
       item-output:
         item: [mc-bucket]
+  bucket-seed-oil:
+    results:
+      - fluid: tf2-seed-oil
+        fluid-amount: 1000
+      - item: mc-bucket
+    ingredients:
+      - item: tf2-bucket-seed-oil
+    energy: 400
+    data:
+      input:
+        item: [tf2-bucket-seed-oil]
+      fluid-output:
+        fluid: tf2-seed-oil
+        amount: 1000
+      item-output:
+        item: [mc-bucket]
   bucket-steam:
     results:
       - fluid: tf2-steam
@@ -339,6 +387,58 @@ recipes:
         amount: 250
       item-output:
         item: [mc-bowl]
+  seed-oil-from-beetroot-seeds:
+    results:
+      - fluid: tf2-seed-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-beetroot-seeds
+    energy: 1600
+    data:
+      input:
+        item: [mc-beetroot-seeds]
+      fluid-output:
+        fluid: tf2-seed-oil
+        amount: 50
+  seed-oil-from-melon-seeds:
+    results:
+      - fluid: tf2-seed-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-melon-seeds
+    energy: 1600
+    data:
+      input:
+        item: [mc-melon-seeds]
+      fluid-output:
+        fluid: tf2-seed-oil
+        amount: 50
+  seed-oil-from-pumpkin-seeds:
+    results:
+      - fluid: tf2-seed-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-pumpkin-seeds
+    energy: 1600
+    data:
+      input:
+        item: [mc-pumpkin-seeds]
+      fluid-output:
+        fluid: tf2-seed-oil
+        amount: 50
+  seed-oil-from-seeds:
+    results:
+      - fluid: tf2-seed-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-seeds
+    energy: 1600
+    data:
+      input:
+        item: [mc-seeds]
+      fluid-output:
+        fluid: tf2-seed-oil
+        amount: 50
   water-from-cactus:
     results:
       - fluid: mc-water

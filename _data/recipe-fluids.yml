@@ -10,6 +10,10 @@ tf2-aerotheum:
   name: Zephyrean Aerotheum
   site: docs-tf2
   url: zephyrean-aerotheum/
+tf2-biocrude:
+  name: Biocrude
+  site: docs-tf2
+  url: biocrude/
 tf2-coal:
   name: Liquifacted Coal
   site: docs-tf2
@@ -38,6 +42,10 @@ tf2-glowstone:
   name: Energized Glowstone
   site: docs-tf2
   url: energized-glowstone/
+tf2-grassoline:
+  name: Grassoline
+  site: docs-tf2
+  url: grassoline/
 tf2-mana:
   name: Primal Mana
   site: docs-tf2
@@ -74,6 +82,10 @@ tf2-sap:
   name: Sap
   site: docs-tf2
   url: sap/
+tf2-seed-oil:
+  name: Seed Oil
+  site: docs-tf2
+  url: seed-oil/
 tf2-steam:
   name: Steam
   site: docs-tf2

@@ -33,6 +33,9 @@ When a redprint is used on a configurable block in the world, the block's
 configuration is stored on it. It can then be used on other blocks of the same
 type to apply the stored configuration to them.
 
+When a redprint is held in the player's offhand, the stored configuration is
+automatically applied to blocks when they are placed.
+
 A written redprint may be erased by using it while sneaking. When used on a
 configurable block while sneaking, the redprint is overwritten with the
 configuration of the block.
