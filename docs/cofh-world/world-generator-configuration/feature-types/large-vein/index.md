@@ -5,15 +5,15 @@ nav: cofh-world
 
 **`large-vein`** is one of the [feature
 types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/cofh-world/). It generates somewhat round deposits of
-blocks, much like
-[`cluster`](/docs/cofh-world/world-generator-configuration/feature-types/cluster/).
-However, these deposits may be much larger and more spread out than those
-generated with `cluster`.
+by [CoFH World](/docs/cofh-world/). It generates deposits of blocks as a group
+of branches that start from a center point. These types of deposits can get very
+large.
 
-<!-- TODO: not exactly blobs. it actually generates in branches, but they tend
-to be thick so it turns out as a blob anyway, and this can now be changed using
-`spindly`. -->
+A deposit of blocks generated using `large-vein` consists of 'main branches' and
+'sub-branches'. Main branches start from the center point of the deposit.
+Sub-branches have a 1 in 3 chance of being generated from each block in a main
+branch. Both types of branches are generated as strings of blocks that 'grow' in
+random directions.
 
 
 Options
@@ -38,10 +38,15 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">`cluster-size`</td>
                 <td>Number</td>
                 <td>-</td>
-                <td>
-                    How large the deposits are. This value is not measured in
-                    blocks, so some experimenting is needed to obtain the
-                    desired result.
+                <td markdown="span">
+                    The maximum amount of main branches that generated deposits
+                    consist of.<br />
+                    <br />
+                    `cluster-size` also determines the maximum lengths of
+                    branches. Each main branch consists of up to
+                    `1 + ([cluster-size] / 30)` blocks, and each sub-branch
+                    consists of up to `1 + ([max. main branch length] / 5)`
+                    blocks.
                 </td>
             </tr>
             <tr>
@@ -49,10 +54,11 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td>Boolean</td>
                 <td markdown="span">`true`</td>
                 <td markdown="span">
-                    If `true`, generated deposits are smaller and more spread
-                    out, looking somewhat like neurons. If `false`, the deposits
-                    are much larger and denser, and look more like those
-                    generated with `cluster`.
+                    If `true`, the total amount of main branches in deposits and
+                    the amount of blocks in a main branch is reduced by 1 for
+                    each block generated as part of a sub-branch. This causes
+                    less main branches to be generated and makes them shorter,
+                    while sub-branches keep the same maximum length.
                 </td>
             </tr>
             <tr>
@@ -60,7 +66,10 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td>Boolean</td>
                 <td markdown="span">`false`</td>
                 <td markdown="span">
-                    TODO
+                    If `true`, the amount of main branches in deposits is
+                    reduced by 1 for each block generated as part of a main
+                    branch. This causes less main branches to be generated,
+                    though they keep the same maximum length.
                 </td>
             </tr>
         </tbody>
