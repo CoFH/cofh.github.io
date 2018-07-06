@@ -16,11 +16,11 @@ specified when describing
 | [`large-vein`](/docs/cofh-world/world-generator-configuration/feature-types/large-vein/) | Similar to `cluster`, but can be much larger and more spread out. |
 | [`decoration`](/docs/cofh-world/world-generator-configuration/feature-types/decoration/) | A group of individual blocks scattered around on a surface. |
 | [`lake`](/docs/cofh-world/world-generator-configuration/feature-types/lake/) | Shaped like naturally generated ponds of water or lava. |
-| [`plate`](/docs/cofh-world/world-generator-configuration/feature-types/plate/) | A vertical cylinder of blocks, like sand and clay deposits underwater. |
-| [`geode`](/docs/cofh-world/world-generator-configuration/feature-types/geode/) | Shape is similar to `lake`, but completely surrounded by blocks and filled. |
-| [`spike`](/docs/cofh-world/world-generator-configuration/feature-types/spike/) | A narrow upwards pointing spike, like the ones in ice plains spikes biomes. |
+| [`plate`](/docs/cofh-world/world-generator-configuration/feature-types/plate/) | A vertical cylinder of blocks, similar to clay deposits. |
+| [`geode`](/docs/cofh-world/world-generator-configuration/feature-types/geode/) | Shape is similar to `lake`, except completely filled with and surrounded by blocks. |
+| [`spike`](/docs/cofh-world/world-generator-configuration/feature-types/spike/) | An upwards pointing spike, like the ones in ice plains spikes biomes. |
 | [`boulder`](/docs/cofh-world/world-generator-configuration/feature-types/boulder/) | A group of almost spherical groups of blocks. |
-| [`stalagmite`](/docs/cofh-world/world-generator-configuration/feature-types/stalagmite/) | An upwards pointing spike. |
+| [`stalagmite`](/docs/cofh-world/world-generator-configuration/feature-types/stalagmite/) | An upwards pointing spike, with a smoother shape than `spike`. |
 | [`stalactite`](/docs/cofh-world/world-generator-configuration/feature-types/stalactite/) | A downwards pointing spike. |
 | [`small-tree`](/docs/cofh-world/world-generator-configuration/feature-types/small-tree/) | A small oak-shaped tree. |
 | [`sequential`](/docs/cofh-world/world-generator-configuration/feature-types/sequential/) | TODO |
