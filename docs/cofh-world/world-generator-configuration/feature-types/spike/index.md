@@ -3,7 +3,7 @@ title: spike
 nav: cofh-world
 ---
 
-**`spikes`** is one of the [feature
+**`spike`** is one of the [feature
 types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
 by [CoFH World](/docs/cofh-world/). It generates upwards pointing spikes, like
 the ones found in [ice plains spikes
