@@ -149,10 +149,16 @@ generate. It is an object with the following values.
                     of block IDs
                 </td>
                 <td>-</td>
-                <td>
+                <td markdown="span">
                     The type(s) of block that the feature primarily consists of.
                     When specified as a weighted array, a block type is chosen
-                    randomly for each generated block.
+                    randomly for each generated block.<br />
+                    <br />
+                    When using
+                    [`sequential`](/docs/cofh-world/world-generator-configuration/feature-types/sequential/)
+                    or
+                    [`structure`](/docs/cofh-world/world-generator-configuration/feature-types/structure/),
+                    this value does not need to be specified.
                 </td>
             </tr>
             <tr>
