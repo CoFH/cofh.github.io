@@ -20,7 +20,7 @@ specified when describing
 | [`geode`](/docs/cofh-world/world-generator-configuration/feature-types/geode/) | Shape is similar to `lake`, except completely filled with and surrounded by blocks. |
 | [`spike`](/docs/cofh-world/world-generator-configuration/feature-types/spike/) | An upwards pointing spike, like the ones in ice plains spikes biomes. |
 | [`boulder`](/docs/cofh-world/world-generator-configuration/feature-types/boulder/) | A group of nearly spherical deposits of blocks. |
-| [`stalagmite`](/docs/cofh-world/world-generator-configuration/feature-types/stalagmite/) | An upwards pointing spike, with a smoother shape than `spike`. |
+| [`stalagmite`](/docs/cofh-world/world-generator-configuration/feature-types/stalagmite/) | An upwards pointing spike. |
 | [`stalactite`](/docs/cofh-world/world-generator-configuration/feature-types/stalactite/) | A downwards pointing spike. |
 | [`small-tree`](/docs/cofh-world/world-generator-configuration/feature-types/small-tree/) | A small oak-shaped tree. |
 | [`sequential`](/docs/cofh-world/world-generator-configuration/feature-types/sequential/) | TODO |
