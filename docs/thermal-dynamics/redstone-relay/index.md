@@ -67,12 +67,12 @@ Inverted Scaled
 : The relay inverts the signal strength before transferring/outputting it. For
 example, 0 becomes 15 and 14 becomes 1.
 
-Treshold
+Threshold
 : The relay transfers/outputs a signal at full strength if the signal strength
-is greater than or equal to a configured treshold.
+is greater than or equal to a configured threshold.
 
-Inverted Treshold
-: Similar to the Treshold mode, except the transferred/outputted signal is
+Inverted Threshold
+: Similar to the Threshold mode, except the transferred/outputted signal is
 inverted.
 
 ### Channels
