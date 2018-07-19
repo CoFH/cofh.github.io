@@ -15,7 +15,7 @@ Index
 
 ### Core
 * [Redstone Flux](/docs/redstone-flux/)
-* [CoFH Core](/docs/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.5.2)</span>
+* [CoFH Core](/docs/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.5.3)</span>
 * [CoFH World](/docs/cofh-world/) - <span class="uk-text-small uk-text-warning">WIP (1.1.1 → 1.2.0)</span>
 
 ### Thermal Series
