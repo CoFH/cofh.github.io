@@ -125,6 +125,8 @@ cofh-world:
                   url: world-generator-configuration/common-formats/weighted-array/
                 - title: Number provider
                   url: world-generator-configuration/common-formats/number-provider/
+                - title: Enum value
+                  url: world-generator-configuration/common-formats/enum-value/
                 - title: Block ID
                   url: world-generator-configuration/common-formats/block-id/
         - title: Other

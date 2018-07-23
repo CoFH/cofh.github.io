@@ -1,0 +1,120 @@
+---
+title: structure
+nav: cofh-world
+---
+
+**`structure`** is one of the [feature
+types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
+by [CoFH World](/docs/cofh-world/). It generates structures loaded from NBT
+files; the same files that [structure
+blocks](https://minecraft.gamepedia.com/Structure_Block) use.
+
+When using this feature type, the value `block` does not need to be specified in
+the base [feature type
+configuration](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
+
+
+Options
+-------
+
+When using this feature type, the following value must be added to the [feature
+type
+configuration](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td markdown="span">`structure`</td>
+                <td markdown="span">
+                    String /
+                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
+                    of strings
+                </td>
+                <td markdown="span">-</td>
+                <td markdown="span">
+                    The path to the NBT file of the structure to generate. The
+                    path is relative to the file that the feature is specified
+                    in. If specified as a weighted array, a file is chosen
+                    randomly each time the feature is generated.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`ignored-block` (optional)</td>
+                <td markdown="span">
+                    [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    /
+                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
+                    of block IDs
+                </td>
+                <td markdown="span">(None)</td>
+                <td markdown="span">
+                    TODO
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`ignore-entities` (optional)</td>
+                <td markdown="span">Boolean</td>
+                <td markdown="span">`false`</td>
+                <td markdown="span">
+                    If `true`, any entities saved in the structure file are
+                    *not* loaded when generating the structure.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`integrity` (optional)</td>
+                <td markdown="span">Number</td>
+                <td markdown="span">`1`</td> <!-- 2? -->
+                <td markdown="span">
+                    If lower than `1`, the structure is generated with random
+                    blocks removed from it. May be any value between `0` and
+                    `1`. Lower values will result in more blocks being removed.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`rotation` (optional)</td>
+                <td markdown="span">
+                    [Enum value](/docs/cofh-world/world-generator-configuration/common-formats/enum-value/)
+                    /
+                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
+                    of enum values
+                </td>
+                <td markdown="span">(All rotations)</td>
+                <td markdown="span">
+                    The possible rotations of the generated structure. Possible
+                    enum values are `NONE`, `CLOCKWISE_90`, `CLOCKWISE_180` and
+                    `COUNTERCLOCKWISE_90`.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`mirror` (optional)</td>
+                <td markdown="span">
+                    [Enum value](/docs/cofh-world/world-generator-configuration/common-formats/enum-value/)
+                    /
+                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
+                    of enum values
+                </td>
+                <td markdown="span">(No mirroring)</td>
+                <td markdown="span">
+                    The possible ways in which the generated structure may be
+                    mirrored. Possible enum values are `NONE`, `LEFT_RIGHT` and
+                    `FRONT_BACK`.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+Examples
+--------
+
+Coming soon...
