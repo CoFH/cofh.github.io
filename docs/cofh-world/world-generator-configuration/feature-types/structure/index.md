@@ -3,6 +3,14 @@ title: structure
 nav: cofh-world
 ---
 
+<div class="uk-alert uk-alert-warning">
+    <p markdown="span">
+        **Warning:** This feature type is **unstable**. It can cause crashes
+        during world generation.
+    </p>
+</div>
+
+
 **`structure`** is one of the [feature
 types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
 by [CoFH World](/docs/cofh-world/). It generates structures loaded from NBT
@@ -55,9 +63,11 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                     [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
                     of block IDs
                 </td>
-                <td markdown="span">(None)</td>
+                <td markdown="span">(Any block)</td>
                 <td markdown="span">
-                    TODO
+                    The type of block that may be replaced by the blocks in the
+                    structure. If specified as a weighted array, a single block
+                    type is chosen randomly each time the feature is generated.
                 </td>
             </tr>
             <tr>
@@ -72,7 +82,7 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
             <tr>
                 <td markdown="span">`integrity` (optional)</td>
                 <td markdown="span">Number</td>
-                <td markdown="span">`1`</td> <!-- 2? -->
+                <td markdown="span">`1`</td> <!-- actually 2 but that doesn't make a difference -->
                 <td markdown="span">
                     If lower than `1`, the structure is generated with random
                     blocks removed from it. May be any value between `0` and
@@ -102,7 +112,7 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                     [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
                     of enum values
                 </td>
-                <td markdown="span">(No mirroring)</td>
+                <td markdown="span">`"NONE"`</td>
                 <td markdown="span">
                     The possible ways in which the generated structure may be
                     mirrored. Possible enum values are `NONE`, `LEFT_RIGHT` and
