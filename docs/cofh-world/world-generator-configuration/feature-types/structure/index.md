@@ -63,10 +63,12 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                     [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
                     of block IDs
                 </td>
-                <td markdown="span">(Any block)</td>
+                <td markdown="span">(None)</td>
                 <td markdown="span">
-                    The type of block that may be replaced by the blocks in the
-                    structure. If specified as a weighted array, a single block
+                    A type of block in the structure that should not be
+                    generated. For example, this can be set to air blocks to
+                    prevent structures that include air blocks from carving out
+                    terrain. If specified as a weighted array, a single block
                     type is chosen randomly each time the feature is generated.
                 </td>
             </tr>
@@ -75,8 +77,8 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">Boolean</td>
                 <td markdown="span">`false`</td>
                 <td markdown="span">
-                    If `true`, any entities saved in the structure file are
-                    *not* loaded when generating the structure.
+                    If `true`, entities included in the structure file are not
+                    generated with the structure.
                 </td>
             </tr>
             <tr>
