@@ -113,6 +113,8 @@ cofh-world:
                   url: world-generator-configuration/distribution-types/fractal/
                 - title: decoration
                   url: world-generator-configuration/distribution-types/decoration/
+                - title: underwater
+                  url: world-generator-configuration/distribution-types/underwater/
                 - title: underfluid
                   url: world-generator-configuration/distribution-types/underfluid/
                 - title: cave
