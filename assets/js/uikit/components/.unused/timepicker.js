@@ -1,15 +1,15 @@
-/*! UIkit 2.20.3 | http://www.getuikit.com | (c) 2014 YOOtheme | MIT License */
+/*! UIkit 2.27.5 | http://www.getuikit.com | (c) 2014 YOOtheme | MIT License */
 (function(addon) {
 
     var component;
 
-    if (window.UIkit) {
-        component = addon(UIkit);
+    if (window.UIkit2) {
+        component = addon(UIkit2);
     }
 
-    if (typeof define == "function" && define.amd) {
-        define("uikit-search", ["uikit"], function(){
-            return component || addon(UIkit);
+    if (typeof define == 'function' && define.amd) {
+        define('uikit-timepicker', ['uikit'], function(){
+            return component || addon(UIkit2);
         });
     }
 
@@ -30,12 +30,12 @@
         boot: function() {
 
             // init code
-            UI.$html.on("focus.timepicker.uikit", "[data-uk-timepicker]", function(e) {
+            UI.$html.on('focus.timepicker.uikit', '[data-uk-timepicker]', function(e) {
 
                 var ele = UI.$(this);
 
-                if (!ele.data("timepicker")) {
-                    var obj = UI.timepicker(ele, UI.Utils.options(ele.attr("data-uk-timepicker")));
+                if (!ele.data('timepicker')) {
+                    var obj = UI.timepicker(ele, UI.Utils.options(ele.attr('data-uk-timepicker')));
 
                     setTimeout(function(){
                         obj.autocomplete.input.focus();
@@ -46,7 +46,7 @@
 
         init: function() {
 
-            var $this  = this, times = getTimeRange(this.options.start, this.options.end);
+            var $this  = this, times = getTimeRange(this.options.start, this.options.end), container;
 
             this.options.minLength = 0;
             this.options.template  = '<ul class="uk-nav uk-nav-autocomplete uk-autocomplete-results">{{~items}}<li data-value="{{$item.value}}"><a>{{$item.value}}</a></li>{{/items}}</ul>';
@@ -55,9 +55,14 @@
                 release(times[$this.options.format] || times['12h']);
             };
 
-            this.element.wrap('<div class="uk-autocomplete"></div>');
+            if (this.element.is('input')) {
+                this.element.wrap('<div class="uk-autocomplete"></div>');
+                container = this.element.parent();
+            } else {
+                container = this.element.addClass('uk-autocomplete');
+            }
 
-            this.autocomplete = UI.autocomplete(this.element.parent(), this.options);
+            this.autocomplete = UI.autocomplete(container, this.options);
             this.autocomplete.dropdown.addClass('uk-dropdown-small uk-dropdown-scrollable');
 
             this.autocomplete.on('show.uk.autocomplete', function() {
@@ -74,9 +79,9 @@
                 $this.autocomplete.value = Math.random();
                 $this.autocomplete.triggercomplete();
 
-            }).on('blur', function() {
+            }).on('blur', UI.Utils.debounce(function() {
                 $this.checkTime();
-            });
+            }, 100));
 
             this.element.data("timepicker", this);
         },

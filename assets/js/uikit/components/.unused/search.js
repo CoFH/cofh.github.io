@@ -1,15 +1,15 @@
-/*! UIkit 2.20.3 | http://www.getuikit.com | (c) 2014 YOOtheme | MIT License */
+/*! UIkit 2.27.5 | http://www.getuikit.com | (c) 2014 YOOtheme | MIT License */
 (function(addon) {
 
     var component;
 
-    if (window.UIkit) {
-        component = addon(UIkit);
+    if (window.UIkit2) {
+        component = addon(UIkit2);
     }
 
-    if (typeof define == "function" && define.amd) {
-        define("uikit-search", ["uikit"], function(){
-            return component || addon(UIkit);
+    if (typeof define == 'function' && define.amd) {
+        define('uikit-search', ['uikit'], function(){
+            return component || addon(UIkit2);
         });
     }
 
@@ -45,9 +45,9 @@
 
             renderer: function(data) {
 
-                var $this = this, opts = this.options;
+                var opts = this.options;
 
-                this.dropdown.append(this.template({"items":data.results || [], "msgResultsHeader":opts.msgResultsHeader, "msgMoreResults": opts.msgMoreResults, "msgNoResults": opts.msgNoResults}));
+                this.dropdown.append(this.template({items:data.results || [], msgResultsHeader:opts.msgResultsHeader, msgMoreResults: opts.msgMoreResults, msgNoResults: opts.msgNoResults}));
                 this.show();
             }
         },
@@ -55,11 +55,11 @@
         boot: function() {
 
             // init code
-            UI.$html.on("focus.search.uikit", "[data-uk-search]", function(e) {
+            UI.$html.on('focus.search.uikit', '[data-uk-search]', function(e) {
                 var ele =UI.$(this);
 
-                if (!ele.data("search")) {
-                    var obj = UI.search(ele, UI.Utils.options(ele.attr("data-uk-search")));
+                if (!ele.data('search')) {
+                    UI.search(ele, UI.Utils.options(ele.attr('data-uk-search')));
                 }
             });
         },
@@ -72,10 +72,10 @@
             this.autocomplete.dropdown.addClass('uk-dropdown-search');
 
             this.autocomplete.input.on("keyup", function(){
-                $this.element[$this.autocomplete.input.val() ? "addClass":"removeClass"]("uk-active");
+                $this.element[$this.autocomplete.input.val() ? 'addClass':'removeClass']('uk-active');
             }).closest("form").on("reset", function(){
-                $this.value="";
-                $this.element.removeClass("uk-active");
+                $this.value = '';
+                $this.element.removeClass('uk-active');
             });
 
             this.on('selectitem.uk.autocomplete', function(e, data) {
@@ -86,7 +86,7 @@
                 }
             });
 
-            this.element.data("search", this);
+            this.element.data('search', this);
         }
     });
 });
