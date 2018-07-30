@@ -1,13 +1,14 @@
 ---
-title: uniform
+title: gaussian
 nav: cofh-world
 ---
 
-**`uniform`** is one of the [distribution
+**`gaussian`** is one of the [distribution
 types](/docs/cofh-world/world-generator-configuration/distribution-types/)
-provided by [CoFH World](/docs/cofh-world/). It distributes features evenly
-between a minimum and maximum altitude. Most
-[ores](https://minecraft.gamepedia.com/Ore) are distributed like this.
+provided by [CoFH World](/docs/cofh-world/). It distributes features spread
+around a certain altitude. The features are the most common at that altitude and
+gradually become less common further away from it. [Lapis lazuli
+ore](https://minecraft.gamepedia.com/Lapis_Lazuli_Ore) is distributed like this.
 
 When using this distribution type, the
 [`cluster`](/docs/cofh-world/world-generator-configuration/feature-types/cluster/)
@@ -35,19 +36,32 @@ entry](/docs/cofh-world/world-generator-configuration/feature-format/#features).
         </thead>
         <tbody>
             <tr>
-                <td markdown="span">`min-height`</td>
+                <td markdown="span">`center-height`</td>
                 <td markdown="span">Number</td>
                 <td markdown="span">-</td>
                 <td markdown="span">
-                    The minimum altitude to place features at.
+                    The altitude to place features around.
                 </td>
             </tr>
             <tr>
-                <td markdown="span">`max-height`</td>
+                <td markdown="span">`spread`</td>
                 <td markdown="span">Number</td>
                 <td markdown="span">-</td>
                 <td markdown="span">
-                    The maximum altitude to place features at.
+                    The maximum distance from the center altitude at which
+                    features may be placed, in blocks.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`smoothness` (optional)</td>
+                <td markdown="span">Number</td>
+                <td markdown="span">`2`</td>
+                <td markdown="span">
+                    Determines how smoothly the amount of features declines when
+                    further from the center altitude. Must be greater than zero.
+                    The default value makes the decline roughly linear. Higher
+                    values may cause small amounts of features to be placed
+                    beyond the configured altitudes.
                 </td>
             </tr>
         </tbody>
