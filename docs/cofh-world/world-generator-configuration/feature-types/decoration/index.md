@@ -1,14 +1,12 @@
 ---
-title: decoration (feature type)
+title: decoration
 nav: cofh-world
 ---
 
 **`decoration`** is one of the [feature
 types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
 by [CoFH World](/docs/cofh-world/). It generates groups of individual blocks
-scattered around on a surface, like small plants and flowers. It is meant to be
-used with the [`decoration` distribution
-type](/docs/cofh-world/world-generator-configuration/distribution-types/decoration/).
+scattered around on a surface, like small plants and flowers.
 
 
 Options
@@ -42,15 +40,18 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                     / array of block IDs
                 </td>
                 <td>Grass block</td>
-                <td>The block(s) that blocks in a group may generate on top of.</td>
+                <td>
+                    The type(s) of block that blocks in a group may generate on
+                    top of.
+                </td>
             </tr>
             <tr>
                 <td markdown="span">`see-sky` (optional)</td>
                 <td>Boolean</td>
                 <td markdown="span">`true`</td>
                 <td>
-                    Whether to only generate in places with a direct line of
-                    sight to the sky.
+                    Whether to only generate blocks in places with a direct line
+                    of sight to the sky.
                 </td>
             </tr>
             <tr>
@@ -77,21 +78,32 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td>Number</td>
                 <td markdown="span">`8`</td>
                 <td>
-                    How spread out a group of blocks may be, in blocks along the
-                    X axis.
+                    The maximum amount of blocks that may be randomly added to
+                    the X coordinate of the position of a group to place the
+                    blocks in the group.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`y-variance` (optional)</td>
                 <td>Number</td>
                 <td markdown="span">`4`</td>
-                <td>Ditto, except along the Y axis.</td>
+                <td markdown="span">
+                    The maximum amount of blocks that may be randomly added to
+                    the Y coordinate of the position of a group to place the
+                    blocks in the group. Note that non-zero values may cause
+                    blocks to float in the air, or not generate at all depending
+                    on the value `surface`.
+                </td>
             </tr>
             <tr>
                 <td markdown="span">`z-variance` (optional)</td>
                 <td>Number</td>
                 <td markdown="span">`8`</td>
-                <td>Ditto, except along the Z axis.</td>
+                <td>
+                    The maximum amount of blocks that may be randomly added to
+                    the Z coordinate of the position of a group to place the
+                    blocks in the group.
+                </td>
             </tr>
         </tbody>
     </table>
