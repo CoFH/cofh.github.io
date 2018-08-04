@@ -10,11 +10,12 @@ around a certain altitude. The features are the most common at that altitude and
 gradually become less common further away from it. [Lapis lazuli
 ore](https://minecraft.gamepedia.com/Lapis_Lazuli_Ore) is distributed like this.
 
-When using this distribution type, the
+When using this distribution type, the feature type
 [`cluster`](/docs/cofh-world/world-generator-configuration/feature-types/cluster/)
-feature type is used by default, and the value `material` of [feature type
+is used by default, and the value `material` of [feature type
 configurations](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-is set to [stone](https://minecraft.gamepedia.com/Stone) by default.
+is set to [stone](https://minecraft.gamepedia.com/Stone) (and all of its
+variations) by default.
 
 
 Options

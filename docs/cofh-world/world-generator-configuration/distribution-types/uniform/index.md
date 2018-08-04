@@ -9,11 +9,12 @@ provided by [CoFH World](/docs/cofh-world/). It distributes features evenly
 between a minimum and maximum altitude. Most
 [ores](https://minecraft.gamepedia.com/Ore) are distributed like this.
 
-When using this distribution type, the
+When using this distribution type, the feature type
 [`cluster`](/docs/cofh-world/world-generator-configuration/feature-types/cluster/)
-feature type is used by default, and the value `material` of [feature type
+is used by default, and the value `material` of [feature type
 configurations](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-is set to [stone](https://minecraft.gamepedia.com/Stone) by default.
+is set to [stone](https://minecraft.gamepedia.com/Stone) (and all of its
+variations) by default.
 
 
 Options

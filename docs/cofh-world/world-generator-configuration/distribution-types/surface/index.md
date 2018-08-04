@@ -9,9 +9,9 @@ provided by [CoFH World](/docs/cofh-world/). It distributes features on the
 surface. It does so by randomly picking X and Z coordinates and placing features
 on top of the highest blocks at those coordinates.
 
-When using this distribution type, the
+When using this distribution type, the feature type
 [`cluster`](/docs/cofh-world/world-generator-configuration/feature-types/cluster/)
-feature type is used by default, and the value `material` of [feature type
+is used by default, and the value `material` of [feature type
 configurations](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
 is set to [stone](https://minecraft.gamepedia.com/Stone),
 [dirt](https://minecraft.gamepedia.com/Dirt), [grass

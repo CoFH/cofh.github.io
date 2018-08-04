@@ -13,9 +13,9 @@ distribution type to use is specified when describing a
 |---
 | [`uniform`](/docs/cofh-world/world-generator-configuration/distribution-types/uniform/) | Features are evenly distributed between a mininum and maximum altitude. |
 | [`gaussian`](/docs/cofh-world/world-generator-configuration/distribution-types/gaussian/) | Features are distributed spread around a certain altitude. |
-| [`surface`](/docs/cofh-world/world-generator-configuration/distribution-types/surface/) | Features are distributed at the surface (where the sky is visible). |
-| [`fractal`](/docs/cofh-world/world-generator-configuration/distribution-types/fractal/) | Features are grouped together in large clusters. |
-| [`decoration`](/docs/cofh-world/world-generator-configuration/distribution-types/decoration/) | Like `surface`, but with useful default options for using together with the [`decoration` feature type](/docs/cofh-world/world-generator-configuration/feature-types/decoration/). |
+| [`surface`](/docs/cofh-world/world-generator-configuration/distribution-types/surface/) | Features are distributed on the surface. |
+| [`fractal`](/docs/cofh-world/world-generator-configuration/distribution-types/fractal/) | Features are distributed together in box-shaped areas. |
+| [`decoration`](/docs/cofh-world/world-generator-configuration/distribution-types/decoration/) | Like `surface`, but with useful default options for using together with the feature type [`decoration`](/docs/cofh-world/world-generator-configuration/feature-types/decoration/). |
 | [`underwater`](/docs/cofh-world/world-generator-configuration/distribution-types/underwater/) | Features are distributed at the bottom of bodies of water. |
 | [`underfluid`](/docs/cofh-world/world-generator-configuration/distribution-types/underfluid/) | Features are distributed at the bottom of bodies of a certain type of fluid. |
 | [`cave`](/docs/cofh-world/world-generator-configuration/distribution-types/cave/) | Features are distributed around underground caves. |
