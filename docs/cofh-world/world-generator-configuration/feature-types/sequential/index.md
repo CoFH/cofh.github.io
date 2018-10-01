@@ -36,19 +36,15 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">
                     Array of
                     [feature type configurations](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-                    and/or
-                    [weighted arrays](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
-                    of feature type configurations
+                    and/or arrays of feature type configurations
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
                     The features to generate in sequence. Each item in the
                     array is either a
                     [feature type configuration](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-                    or a
-                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
-                    of them. When specified as a weighted array, one of the
-                    feature type configurations is chosen randomly each time the
+                    or an array of them. When specified as an array, a feature
+                    type configuration is selected randomly each time the
                     feature is generated.
                 </td>
             </tr>

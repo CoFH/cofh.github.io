@@ -50,9 +50,7 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">`outline-block` (optional)</td>
                 <td markdown="span">
                     [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
-                    /
-                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
-                    of block IDs
+                    / array of block IDs
                 </td>
                 <td markdown="span">(None)</td>
                 <td markdown="span">
@@ -61,7 +59,8 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                     [lava](https://minecraft.gamepedia.com/Lava) lakes. By
                     default, about half of the blocks in the outline are
                     actually generated, and the outline only replaces existing
-                    blocks in the world.
+                    blocks in the world. When specified as an array, a block
+                    type is selected randomly for each generated block.
                 </td>
             </tr>
             <tr>
@@ -86,13 +85,13 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">`gap-block` (optional)</td>
                 <td markdown="span">
                     [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
-                    /
-                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
-                    of block IDs
+                    / array of block IDs
                 </td>
                 <td markdown="span">Air</td>
                 <td markdown="span">
-                    The block(s) to place above lakes to carve out space.
+                    The block(s) to place above lakes to carve out space. When
+                    specified as an array, a block type is selected randomly for
+                    each generated block.
                 </td>
             </tr>
         </tbody>

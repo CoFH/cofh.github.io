@@ -121,14 +121,14 @@ cofh-world:
                   url: world-generator-configuration/distribution-types/sequential/
             - title: Common formats
               items:
-                - title: Weighted array
-                  url: world-generator-configuration/common-formats/weighted-array/
-                - title: Number provider
-                  url: world-generator-configuration/common-formats/number-provider/
-                - title: Enum value
-                  url: world-generator-configuration/common-formats/enum-value/
                 - title: Block ID
                   url: world-generator-configuration/common-formats/block-id/
+                - title: Enum value
+                  url: world-generator-configuration/common-formats/enum-value/
+                - title: Number provider
+                  url: world-generator-configuration/common-formats/number-provider/
+                - title: Weighted string
+                  url: world-generator-configuration/common-formats/weighted-string/
         - title: Other
           items:
             - title: Commands

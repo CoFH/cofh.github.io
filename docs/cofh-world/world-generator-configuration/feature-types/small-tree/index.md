@@ -45,12 +45,14 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">`leaves` (optional)</td>
                 <td markdown="span">
                     [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
-                    /
-                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
-                    of block IDs
+                    / array of block IDs
                 </td>
                 <td>(None)</td>
-                <td>The block(s) used to generate the leaves of trees.</td>
+                <td>
+                    The block(s) used to generate the leaves of trees. When
+                    specified as an array, a block type is selected randomly for
+                    each generated block.
+                </td>
             </tr>
             <tr>
                 <td markdown="span">`min-height` (optional)</td>

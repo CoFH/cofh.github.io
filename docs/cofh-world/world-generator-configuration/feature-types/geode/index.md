@@ -36,13 +36,13 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">`crust` (optional)</td>
                 <td markdown="span">
                     [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
-                    /
-                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
-                    of block IDs
+                    / array of block IDs
                 </td>
                 <td markdown="span">Stone</td>
                 <td markdown="span">
                     The block(s) used to generate the outermost layer of geodes.
+                    When specified as an array, a block type is selected
+                    randomly for each generated block.
                 </td>
             </tr>
             <tr>
@@ -58,15 +58,14 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">`filler` (optional)</td>
                 <td markdown="span">
                     [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
-                    /
-                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
-                    of block IDs
+                    / array of block IDs
                 </td>
                 <td markdown="span">(None)</td>
                 <td markdown="span">
                     The blocks(s) used to generate a core of different blocks
                     at the center of geodes. This only works if `hollow` is set
-                    to `true`.
+                    to `true`. When specified as an array, a block type is
+                    selected randomly for each generated block.
                 </td>
             </tr>
         </tbody>

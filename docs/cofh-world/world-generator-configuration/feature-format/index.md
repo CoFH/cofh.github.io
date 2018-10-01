@@ -29,14 +29,13 @@ Features are described as objects with the following values.
                 <td markdown="span">`generator`</td>
                 <td markdown="span">
                     [Feature type configuration](#feature-type-configuration) /
-                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
-                    of feature type configurations
+                    array of feature type configurations
                 </td>
                 <td>-</td>
                 <td>
-                    The type of feature to generate. When specified as a
-                    weighted array, a feature type configuration is chosen
-                    randomly each time the feature is generated.
+                    The type of feature to generate. When specified as an array,
+                    a feature type configuration is chosen randomly each time
+                    the feature is generated.
                 </td>
             </tr>
             <tr>
@@ -144,14 +143,12 @@ generate. It is an object with the following values.
                 <td markdown="span">`block`</td>
                 <td markdown="span">
                     [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
-                    /
-                    [weighted array](/docs/cofh-world/world-generator-configuration/common-formats/weighted-array/)
-                    of block IDs
+                    / array of block IDs
                 </td>
                 <td>-</td>
                 <td markdown="span">
                     The type(s) of block that the feature primarily consists of.
-                    When specified as a weighted array, a block type is chosen
+                    When specified as an array, a block type is selected
                     randomly for each generated block.<br />
                     <br />
                     When using
@@ -174,6 +171,17 @@ generate. It is an object with the following values.
                 <td>
                     The type(s) of block that may be replaced to generate the
                     feature, such as stone for ore blocks.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`weight` (optional)</td>
+                <td markdown="span">Number</td>
+                <td markdown="span">`100`</td>
+                <td>
+                    How likely the feature type configuration is to be selected
+                    when it is part of an array of items to randomly choose
+                    from. Items with a greater weight have a higher chance of
+                    being selected.
                 </td>
             </tr>
         </tbody>

@@ -13,6 +13,8 @@ as an object, said object can contain the following values.
 If specified as a string, the value `name` seen above can be used directly. The
 other values will be set to their defaults.
 
+TODO: add weight
+
 
 Links
 -----
