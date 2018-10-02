@@ -373,6 +373,18 @@ thermal-foundation:
                 - title: Enderium
                   url: enderium-gear/
                   icon: [13, 5]
+                - title: Wood
+                  url: wooden-gear/
+                  icon: [11, 24]
+                - title: Stone
+                  url: stone-gear/
+                  icon: [12, 24]
+                - title: Diamond
+                  url: diamond-gear/
+                  icon: [13, 24]
+                - title: Emerald
+                  url: emerald-gear/
+                  icon: [14, 24]
             - title: Plates
               items:
                 - title: Iron
@@ -843,6 +855,9 @@ thermal-foundation:
             - title: Hammers
               url: hammers/
               icon: [0, 14]
+            - title: Excavators
+              url: excavators/
+              icon: [15, 24]
             - title: Sickles
               url: sickles/
               icon: [1, 14]
@@ -1349,6 +1364,9 @@ redstone-arsenal:
             - title: Hammer
               url: flux-infused-hammer/
               icon: [10, 21]
+            - title: Excavator
+              url: flux-infused-excavator/
+              icon: [0, 25]
             - title: Sickle
               url: flux-infused-sickle/
               icon: [11, 21]
@@ -1435,6 +1453,9 @@ vanillaplus-tools:
             - title: Hammers
               url: hammers/
               icon: [9, 24]
+            - title: Excavators
+              url: excavators/
+              icon: [1, 25]
             - title: Sickles
               url: sickles/
               icon: [8, 24]

@@ -851,6 +851,7 @@ recipes:
         - [item: [tf2-slag], item: [tf2-slag]]
       result:
         item: [mc-dirt]
+        amount: 2
   tf2-drill-head:
     results:
       - item: tf2-drill-head
