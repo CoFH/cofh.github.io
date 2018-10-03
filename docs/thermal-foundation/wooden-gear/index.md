@@ -7,10 +7,12 @@ image:
 recipes:
   crafting:
     - tf2-gear-wood
+usage-recipes:
+  crafting:
+    - tf2-gear-stone
 ---
 
-**Wooden gears** are crafting materials made of wood. They are currently not
-used for anything.
+**Wooden gears** are crafting materials made of wood.
 
 
 Obtaining
@@ -18,3 +20,10 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+
+Usage
+-----
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

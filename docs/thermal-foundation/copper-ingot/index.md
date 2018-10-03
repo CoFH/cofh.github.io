@@ -46,7 +46,6 @@ usage-recipes:
     - tf2-petrotheum-ingot-copper
     - tf2-nugget-copper
     - tf2-gear-copper
-    - tf2-gear-iron-using-copper
     - tf2-drill-head
     - tf2-saw-blade
     - tf2-storage-block-copper

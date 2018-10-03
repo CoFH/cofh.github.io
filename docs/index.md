@@ -15,12 +15,12 @@ Index
 
 ### Core
 * [Redstone Flux](/docs/redstone-flux/)
-* [CoFH Core](/docs/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.6.0)</span>
+* [CoFH Core](/docs/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.6.1)</span>
 * [CoFH World](/docs/cofh-world/) - <span class="uk-text-small uk-text-warning">WIP (1.1.1 → 1.3.0)</span>
 
 ### Thermal Series
 * [Thermal Foundation](/docs/thermal-foundation/) - <span class="uk-text-small uk-text-warning">WIP (2.5.0 → 2.6.1)</span>
-* [Thermal Expansion](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-warning">WIP (5.5.0 → 5.5.1)</span>
+* [Thermal Expansion](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-warning">WIP (5.5.0 → 5.5.2)</span>
 * [Thermal Dynamics](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-success">up to date (2.5.2)</span>
 * [Thermal Cultivation](/docs/thermal-cultivation/) - <span class="uk-text-small uk-text-success">up to date (0.3.1)</span>
 * [Thermal Innovation](/docs/thermal-innovation/) - <span class="uk-text-small uk-text-success">up to date (0.3.1)</span>

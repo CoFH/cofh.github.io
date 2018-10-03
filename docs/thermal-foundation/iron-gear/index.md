@@ -8,9 +8,6 @@ redirect_from:
 recipes:
   crafting:
     - tf2-gear-iron
-    - tf2-gear-iron-using-copper
-    - tf2-gear-iron-using-tin
-    - tf2-gear-iron-using-bronze
   compactor-gear:
     - gear-iron
 usage-recipes:

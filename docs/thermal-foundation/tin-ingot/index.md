@@ -45,7 +45,6 @@ usage-recipes:
     - tf2-petrotheum-ingot-tin
     - tf2-nugget-tin
     - tf2-gear-tin
-    - tf2-gear-iron-using-tin
     - tf2-storage-block-tin
     - tf2-crescent-hammer
     - te5-machine-crafter

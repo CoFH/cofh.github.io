@@ -41,7 +41,6 @@ usage-recipes:
   crafting:
     - tf2-nugget-bronze
     - tf2-gear-bronze
-    - tf2-gear-iron-using-bronze
     - tf2-storage-block-bronze
     - tf2-signalum-security-lock
     - te5-machine-compactor
