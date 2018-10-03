@@ -134,8 +134,8 @@ machine-compactor-gear:
   url: augment-gearworking-die/
   installed-in: '<a href="/docs/thermal-expansion/compactor/">Compactor</a>'
   description: >
-    A specialization that allows for a compactor to produce metal gears instead
-    of plates.
+    A specialization that allows for a compactor to produce gears instead of
+    plates.
 machine-crucible-lava:
   name: Pyroconvective Loop
   url: augment-pyroconvective-loop/

@@ -1132,6 +1132,19 @@ recipes:
         - [null, item: [tf2-ingot-copper]]
       result:
         item: [tf2-gear-copper]
+  tf2-gear-diamond:
+    results:
+      - item: tf2-gear-diamond
+    ingredients:
+      - item: mc-ingot-iron
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [item: [mc-diamond], item: [mc-ingot-iron], item: [mc-diamond]]
+        - [null, item: [mc-diamond]]
+      result:
+        item: [tf2-gear-diamond]
   tf2-gear-electrum:
     results:
       - item: tf2-gear-electrum
@@ -1145,6 +1158,19 @@ recipes:
         - [null, item: [tf2-ingot-electrum]]
       result:
         item: [tf2-gear-electrum]
+  tf2-gear-emerald:
+    results:
+      - item: tf2-gear-emerald
+    ingredients:
+      - item: mc-ingot-iron
+      - item: mc-emerald
+    data:
+      rows:
+        - [null, item: [mc-emerald]]
+        - [item: [mc-emerald], item: [mc-ingot-iron], item: [mc-emerald]]
+        - [null, item: [mc-emerald]]
+      result:
+        item: [tf2-gear-emerald]
   tf2-gear-enderium:
     results:
       - item: tf2-gear-enderium
@@ -1352,6 +1378,19 @@ recipes:
         - [null, item: [tf2-ingot-steel]]
       result:
         item: [tf2-gear-steel]
+  tf2-gear-stone:
+    results:
+      - item: tf2-gear-stone
+    ingredients:
+      - item: mc-ingot-iron
+      - item: mc-stone
+    data:
+      rows:
+        - [null, item: [mc-stone]]
+        - [item: [mc-stone], item: [mc-ingot-iron], item: [mc-stone]]
+        - [null, item: [mc-stone]]
+      result:
+        item: [tf2-gear-stone]
   tf2-gear-tin:
     results:
       - item: tf2-gear-tin
@@ -1365,6 +1404,19 @@ recipes:
         - [null, item: [tf2-ingot-tin]]
       result:
         item: [tf2-gear-tin]
+  tf2-gear-wood:
+    results:
+      - item: tf2-gear-wood
+    ingredients:
+      - item: mc-ingot-iron
+      - item: mc-stick
+    data:
+      rows:
+        - [null, item: [mc-stick]]
+        - [item: [mc-stick], item: [mc-ingot-iron], item: [mc-stick]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-gear-wood]
   tf2-glowstone-dust-from-clathrate:
     results:
       - item: mc-glowstone-dust

@@ -3,18 +3,6 @@ site: docs-te5
 url: augment-gearworking-die/
 with-energy: true
 recipes:
-  gear:
-    results:
-      - item-group: tf2-gear-metal
-    ingredients:
-      - item-group: ingot-metal-with-tf2
-    energy: 4000
-    data:
-      input:
-        item-group: ingot-metal-with-tf2
-        amount: 4
-      output:
-        item-group: tf2-gear-metal
   gear-aluminum:
     results:
       - item: tf2-gear-aluminum
@@ -63,6 +51,18 @@ recipes:
         amount: 4
       output:
         item: [tf2-gear-copper]
+  gear-diamond:
+    results:
+      - item: tf2-gear-diamond
+    ingredients:
+      - item: mc-diamond
+    energy: 4000
+    data:
+      input:
+        item: [mc-diamond]
+        amount: 4
+      output:
+        item: [tf2-gear-diamond]
   gear-electrum:
     results:
       - item: tf2-gear-electrum
@@ -75,6 +75,18 @@ recipes:
         amount: 4
       output:
         item: [tf2-gear-electrum]
+  gear-emerald:
+    results:
+      - item: tf2-gear-emerald
+    ingredients:
+      - item: mc-emerald
+    energy: 4000
+    data:
+      input:
+        item: [mc-emerald]
+        amount: 4
+      output:
+        item: [tf2-gear-emerald]
   gear-enderium:
     results:
       - item: tf2-gear-enderium
