@@ -4395,6 +4395,237 @@ recipes:
         - [null, item: [mc-stick]]
       result:
         item: [tf2-tool-axe-tin]
+  tf2-tool-excavator-aluminum:
+    results:
+      - item: tf2-tool-excavator-aluminum
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-aluminum
+    data:
+      rows:
+        - [null, item: [tf2-ingot-aluminum]]
+        - [item: [tf2-ingot-aluminum], item: [mc-stick], item: [tf2-ingot-aluminum]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-aluminum]
+  tf2-tool-excavator-bronze:
+    results:
+      - item: tf2-tool-excavator-bronze
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-bronze
+    data:
+      rows:
+        - [null, item: [tf2-ingot-bronze]]
+        - [item: [tf2-ingot-bronze], item: [mc-stick], item: [tf2-ingot-bronze]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-bronze]
+  tf2-tool-excavator-constantan:
+    results:
+      - item: tf2-tool-excavator-constantan
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-constantan
+    data:
+      rows:
+        - [null, item: [tf2-ingot-constantan]]
+        - [item: [tf2-ingot-constantan], item: [mc-stick], item: [tf2-ingot-constantan]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-constantan]
+  tf2-tool-excavator-copper:
+    results:
+      - item: tf2-tool-excavator-copper
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-copper
+    data:
+      rows:
+        - [null, item: [tf2-ingot-copper]]
+        - [item: [tf2-ingot-copper], item: [mc-stick], item: [tf2-ingot-copper]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-copper]
+  tf2-tool-excavator-diamond:
+    results:
+      - item: tf2-tool-excavator-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [item: [mc-diamond], item: [mc-stick], item: [mc-diamond]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-diamond]
+  tf2-tool-excavator-electrum:
+    results:
+      - item: tf2-tool-excavator-electrum
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-electrum
+    data:
+      rows:
+        - [null, item: [tf2-ingot-electrum]]
+        - [item: [tf2-ingot-electrum], item: [mc-stick], item: [tf2-ingot-electrum]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-electrum]
+  tf2-tool-excavator-gold:
+    results:
+      - item: tf2-tool-excavator-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], item: [mc-stick], item: [mc-ingot-gold]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-gold]
+  tf2-tool-excavator-invar:
+    results:
+      - item: tf2-tool-excavator-invar
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-invar
+    data:
+      rows:
+        - [null, item: [tf2-ingot-invar]]
+        - [item: [tf2-ingot-invar], item: [mc-stick], item: [tf2-ingot-invar]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-invar]
+  tf2-tool-excavator-iron:
+    results:
+      - item: tf2-tool-excavator-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], item: [mc-stick], item: [mc-ingot-iron]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-iron]
+  tf2-tool-excavator-lead:
+    results:
+      - item: tf2-tool-excavator-lead
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-lead
+    data:
+      rows:
+        - [null, item: [tf2-ingot-lead]]
+        - [item: [tf2-ingot-lead], item: [mc-stick], item: [tf2-ingot-lead]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-lead]
+  tf2-tool-excavator-nickel:
+    results:
+      - item: tf2-tool-excavator-nickel
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-nickel
+    data:
+      rows:
+        - [null, item: [tf2-ingot-nickel]]
+        - [item: [tf2-ingot-nickel], item: [mc-stick], item: [tf2-ingot-nickel]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-nickel]
+  tf2-tool-excavator-platinum:
+    results:
+      - item: tf2-tool-excavator-platinum
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-platinum
+    data:
+      rows:
+        - [null, item: [tf2-ingot-platinum]]
+        - [item: [tf2-ingot-platinum], item: [mc-stick], item: [tf2-ingot-platinum]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-platinum]
+  tf2-tool-excavator-silver:
+    results:
+      - item: tf2-tool-excavator-silver
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-silver
+    data:
+      rows:
+        - [null, item: [tf2-ingot-silver]]
+        - [item: [tf2-ingot-silver], item: [mc-stick], item: [tf2-ingot-silver]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-silver]
+  tf2-tool-excavator-steel:
+    results:
+      - item: tf2-tool-excavator-steel
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-steel
+    data:
+      rows:
+        - [null, item: [tf2-ingot-steel]]
+        - [item: [tf2-ingot-steel], item: [mc-stick], item: [tf2-ingot-steel]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-steel]
+  tf2-tool-excavator-stone:
+    results:
+      - item: tf2-tool-excavator-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone]]
+        - [item: [mc-cobblestone], item: [mc-stick], item: [mc-cobblestone]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-stone]
+    note: >
+      Disabled by default.
+  tf2-tool-excavator-tin:
+    results:
+      - item: tf2-tool-excavator-tin
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-tin
+    data:
+      rows:
+        - [null, item: [tf2-ingot-tin]]
+        - [item: [tf2-ingot-tin], item: [mc-stick], item: [tf2-ingot-tin]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-tin]
+  tf2-tool-excavator-wood:
+    results:
+      - item: tf2-tool-excavator-wood
+    ingredients:
+      - item: mc-stick
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - null
+          - random: true
+            item-group: mc-wood-planks
+        - - random: true
+            item-group: mc-wood-planks
+          - item: [mc-stick]
+          - random: true
+            item-group: mc-wood-planks
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-wood]
+    note: >
+      Disabled by default.
   tf2-tool-fishing-rod-aluminum:
     results:
       - item: tf2-tool-fishing-rod-aluminum

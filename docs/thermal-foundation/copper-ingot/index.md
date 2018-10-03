@@ -31,6 +31,7 @@ recipes:
     - recycling-tool-fishing-rod-copper
     - recycling-tool-shears-copper
     - recycling-tool-hammer-copper
+    - recycling-tool-excavator-copper
     - recycling-tool-sickle-copper
     - recycling-weapon-sword-copper
     - recycling-weapon-bow-copper
@@ -74,6 +75,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-copper
     - tf2-tool-shears-copper
     - tf2-tool-hammer-copper
+    - tf2-tool-excavator-copper
     - tf2-tool-sickle-copper
     - tf2-weapon-sword-copper
     - tf2-weapon-bow-copper

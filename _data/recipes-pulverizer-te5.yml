@@ -1362,6 +1362,29 @@ recipes:
       primary-output:
         item: [tf2-sawdust]
         amount: 2
+  recycling-tool-excavator-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf2-tool-excavator-diamond
+    energy: 6000
+    data:
+      input:
+        item: [tf2-tool-excavator-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-excavator-wood:
+    results:
+      - item: tf2-sawdust
+    ingredients:
+      - item: tf2-tool-excavator-wood
+    energy: 3000
+    data:
+      input:
+        item: [tf2-tool-excavator-wood]
+      primary-output:
+        item: [tf2-sawdust]
+        amount: 2
   recycling-tool-fishing-rod:
     results:
       - item: tf2-sawdust

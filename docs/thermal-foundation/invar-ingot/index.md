@@ -27,6 +27,7 @@ recipes:
     - recycling-tool-fishing-rod-invar
     - recycling-tool-shears-invar
     - recycling-tool-hammer-invar
+    - recycling-tool-excavator-invar
     - recycling-tool-sickle-invar
     - recycling-weapon-sword-invar
     - recycling-weapon-bow-invar
@@ -72,6 +73,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-invar
     - tf2-tool-shears-invar
     - tf2-tool-hammer-invar
+    - tf2-tool-excavator-invar
     - tf2-tool-sickle-invar
     - tf2-weapon-sword-invar
     - tf2-weapon-bow-invar

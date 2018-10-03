@@ -31,6 +31,7 @@ recipes:
     - recycling-tool-fishing-rod-lead
     - recycling-tool-shears-lead
     - recycling-tool-hammer-lead
+    - recycling-tool-excavator-lead
     - recycling-tool-sickle-lead
     - recycling-weapon-sword-lead
     - recycling-weapon-bow-lead
@@ -77,6 +78,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-lead
     - tf2-tool-shears-lead
     - tf2-tool-hammer-lead
+    - tf2-tool-excavator-lead
     - tf2-tool-sickle-lead
     - tf2-weapon-sword-lead
     - tf2-weapon-bow-lead

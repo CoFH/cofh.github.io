@@ -28,6 +28,7 @@ recipes:
     - recycling-tool-fishing-rod-aluminum
     - recycling-tool-shears-aluminum
     - recycling-tool-hammer-aluminum
+    - recycling-tool-excavator-aluminum
     - recycling-tool-sickle-aluminum
     - recycling-weapon-sword-aluminum
     - recycling-weapon-bow-aluminum
@@ -50,6 +51,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-aluminum
     - tf2-tool-shears-aluminum
     - tf2-tool-hammer-aluminum
+    - tf2-tool-excavator-aluminum
     - tf2-tool-sickle-aluminum
     - tf2-weapon-sword-aluminum
     - tf2-weapon-bow-aluminum
