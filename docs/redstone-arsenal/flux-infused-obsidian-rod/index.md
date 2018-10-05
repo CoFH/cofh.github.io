@@ -17,6 +17,7 @@ usage-recipes:
     - ra-tool-axe
     - ra-tool-fishing-rod
     - ra-tool-hammer
+    - ra-tool-excavator
     - ra-tool-sickle
     - ra-tool-wrench
     - ra-weapon-sword

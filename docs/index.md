@@ -30,4 +30,4 @@ Index
 * [Vanilla+ Satchels](/docs/vanillaplus-satchels/) - <span class="uk-text-small uk-text-success">up to date (1.0.1)</span>
 
 ### Other mods
-* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-warning">WIP (2.5.1 → 2.6.1)</span>
+* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (2.6.1)</span>

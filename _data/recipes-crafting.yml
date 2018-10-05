@@ -10528,6 +10528,19 @@ recipes:
         - [null, item: [ra-obsidian-rod-flux-infused]]
       result:
         item: [ra-tool-axe]
+  ra-tool-excavator:
+    results:
+      - item: ra-tool-excavator
+    ingredients:
+      - item: ra-obsidian-rod-flux-infused
+      - item: ra-ingot-fluxed-electrum
+    data:
+      rows:
+        - [null, item: [ra-ingot-fluxed-electrum]]
+        - [item: [ra-ingot-fluxed-electrum], item: [ra-obsidian-rod-flux-infused], item: [ra-ingot-fluxed-electrum]]
+        - [null, item: [ra-obsidian-rod-flux-infused]]
+      result:
+        item: [ra-tool-excavator]
   ra-tool-fishing-rod:
     results:
       - item: ra-tool-fishing-rod
