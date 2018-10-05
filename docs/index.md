@@ -21,7 +21,7 @@ Index
 ### Thermal Series
 * [Thermal Foundation](/docs/thermal-foundation/) - <span class="uk-text-small uk-text-warning">WIP (2.5.0 → 2.6.1)</span>
 * [Thermal Expansion](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-warning">WIP (5.5.0 → 5.5.2)</span>
-* [Thermal Dynamics](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-success">up to date (2.5.2)</span>
+* [Thermal Dynamics](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-success">up to date (2.5.3)</span>
 * [Thermal Cultivation](/docs/thermal-cultivation/) - <span class="uk-text-small uk-text-success">up to date (0.3.1)</span>
 * [Thermal Innovation](/docs/thermal-innovation/) - <span class="uk-text-small uk-text-success">up to date (0.3.1)</span>
 
@@ -30,4 +30,4 @@ Index
 * [Vanilla+ Satchels](/docs/vanillaplus-satchels/) - <span class="uk-text-small uk-text-success">up to date (1.0.1)</span>
 
 ### Other mods
-* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-warning">WIP (2.5.1 → 2.6.0)</span>
+* [Redstone Arsenal](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-warning">WIP (2.5.1 → 2.6.1)</span>
