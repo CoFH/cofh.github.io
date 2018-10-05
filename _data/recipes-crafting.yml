@@ -10689,6 +10689,81 @@ recipes:
         - [null, item: [ra-obsidian-rod-flux-infused]]
       result:
         item: [ra-weapon-sword]
+  vpt-tool-excavator-diamond:
+    results:
+      - item: vpt-tool-excavator-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [item: [mc-diamond], item: [mc-stick], item: [mc-diamond]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-diamond]
+  vpt-tool-excavator-gold:
+    results:
+      - item: vpt-tool-excavator-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], item: [mc-stick], item: [mc-ingot-gold]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-gold]
+  vpt-tool-excavator-iron:
+    results:
+      - item: vpt-tool-excavator-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], item: [mc-stick], item: [mc-ingot-iron]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-iron]
+  vpt-tool-excavator-stone:
+    results:
+      - item: vpt-tool-excavator-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone]]
+        - [item: [mc-cobblestone], item: [mc-stick], item: [mc-cobblestone]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-excavator-wood:
+    results:
+      - item: vpt-tool-excavator-wood
+    ingredients:
+      - item: mc-stick
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - null
+          - random: true
+            item-group: mc-wood-planks
+        - - random: true
+            item-group: mc-wood-planks
+          - item: [mc-stick]
+          - random: true
+            item-group: mc-wood-planks
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-wood]
+    note: >
+      Disabled by default.
   vpt-tool-fishing-rod-diamond:
     results:
       - item: vpt-tool-fishing-rod-diamond

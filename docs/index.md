@@ -26,7 +26,7 @@ Index
 * [Thermal Innovation](/docs/thermal-innovation/) - <span class="uk-text-small uk-text-success">up to date (0.3.1)</span>
 
 ### Vanilla+ Series
-* [Vanilla+ Tools](/docs/vanillaplus-tools/) - <span class="uk-text-small uk-text-warning">WIP (1.0.0 → 1.1.0)</span>
+* [Vanilla+ Tools](/docs/vanillaplus-tools/) - <span class="uk-text-small uk-text-success">up to date (1.1.0)</span>
 * [Vanilla+ Satchels](/docs/vanillaplus-satchels/) - <span class="uk-text-small uk-text-success">up to date (1.0.1)</span>
 
 ### Other mods

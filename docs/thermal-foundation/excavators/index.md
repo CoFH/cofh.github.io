@@ -95,7 +95,7 @@ Excavators can be used to dig the same blocks as with
 an excavator, any blocks surrounding it in a 3x3 area will be broken as well if
 possible. This can be temporarily disabled by sneaking.
 
-Excavators use 1 durability for every individual block mined.
+Excavators use 1 durability for every individual block broken.
 
 ### Comparison
 {% comment %}
