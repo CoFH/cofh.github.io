@@ -31,6 +31,7 @@ recipe-list:
   - recycling-fence-gate
   - recycling-boat
   - recycling-door
+  - recycling-saddle
   - recycling-armor-helmet-leather
   - recycling-armor-chestplate-leather
   - recycling-armor-leggings-leather

@@ -79,6 +79,17 @@ recipes:
       primary-output:
         item: [mc-bone-meal]
         amount: 6
+  cobblestone-from-stone:
+    results:
+      - item: mc-cobblestone
+    ingredients:
+      - item: mc-stone
+    energy: 1000
+    data:
+      input:
+        item: [mc-stone]
+      primary-output:
+        item: [mc-cobblestone]
   dust-metal-from-ingot:
     results:
       - item-group: tf2-dust-metal
@@ -348,21 +359,6 @@ recipes:
         item: [tf2-ingot-tin]
       primary-output:
         item: [tf2-dust-tin]
-  flint:
-    results:
-      - item: mc-flint
-      - item: mc-sand
-    ingredients:
-      - item: mc-gravel
-    energy: 4000
-    data:
-      input:
-        item: [mc-gravel]
-      primary-output:
-        item: [mc-flint]
-      secondary-output:
-        item: [mc-sand]
-      secondary-chance: 15
   flower-processing-light-blue-orchid:
     results:
       - item: mc-light-blue-dye
@@ -619,6 +615,21 @@ recipes:
       primary-output:
         item: [mc-glowstone-dust]
         amount: 4
+  gravel-from-cobblestone:
+    results:
+      - item: mc-gravel
+      - item: mc-sand
+    ingredients:
+      - item: mc-cobblestone
+    energy: 4000
+    data:
+      input:
+        item: [mc-cobblestone]
+      primary-output:
+        item: [mc-gravel]
+      secondary-output:
+        item: [mc-sand]
+      secondary-chance: 15
   gravel-from-netherrack:
     results:
       - item: mc-gravel
@@ -633,21 +644,6 @@ recipes:
         item: [mc-gravel]
       secondary-output:
         item: [tf2-sulfur]
-      secondary-chance: 15
-  gravel-from-stone:
-    results:
-      - item: mc-gravel
-      - item: mc-sand
-    ingredients:
-      - item: mc-stone
-    energy: 4000
-    data:
-      input:
-        item: [mc-stone]
-      primary-output:
-        item: [mc-gravel]
-      secondary-output:
-        item: [mc-sand]
       secondary-chance: 15
   magma-cream-from-block:
     results:
@@ -1633,20 +1629,20 @@ recipes:
       secondary-output:
         item-group: tf2-pigment
       secondary-chance: 15
-  sand:
+  sand-from-gravel:
     results:
       - item: mc-sand
-      - item: mc-gravel
+      - item: mc-flint
     ingredients:
-      - item: mc-cobblestone
+      - item: mc-gravel
     energy: 4000
     data:
       input:
-        item: [mc-cobblestone]
+        item: [mc-gravel]
       primary-output:
         item: [mc-sand]
       secondary-output:
-        item: [mc-gravel]
+        item: [mc-flint]
       secondary-chance: 15
   sawdust-from-wood-log:
     results:

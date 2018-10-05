@@ -505,22 +505,6 @@ recipes:
         amount: 1000
       output:
         item-group: mc-concrete
-  end-stone:
-    results:
-      - item: mc-end-stone
-    ingredients:
-      - item: mc-sandstone
-      - fluid: tf2-ender
-        fluid-amount: 250
-    energy: 4000
-    data:
-      item-input:
-        item: [mc-sandstone]
-      fluid-input:
-        fluid: tf2-ender
-        amount: 250
-      output:
-        item: [mc-end-stone]
   ender-pearl-from-clathrate:
     results:
       - item: mc-ender-pearl
@@ -635,22 +619,6 @@ recipes:
         amount: 250
       output:
         item: [mc-mushroom-stew]
-  nether-brick:
-    results:
-      - item: mc-nether-brick-item
-    ingredients:
-      - item: mc-brick
-      - fluid: mc-lava
-        fluid-amount: 250
-    energy: 4000
-    data:
-      item-input:
-        item: [mc-brick]
-      fluid-input:
-        fluid: mc-lava
-        amount: 250
-      output:
-        item: [mc-nether-brick-item]
   packed-ice:
     results:
       - item: mc-packed-ice

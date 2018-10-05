@@ -98,6 +98,14 @@ recipe-list:
     - recycling-compass
     - recycling-door-iron
     - recycling-hopper
+    - recycling-iron-bars
+    - recycling-iron-trapdoor
+    - recycling-minecart
+    - recycling-minecart-with-chest
+    - recycling-minecart-with-furnace
+    - recycling-minecart-with-hopper
+    - recycling-rail
+    - recycling-powered-rail
     - recycling-tool-pickaxe
     - recycling-tool-shovel
     - recycling-tool-axe

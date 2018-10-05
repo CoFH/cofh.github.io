@@ -3874,6 +3874,120 @@ recipes:
       secondary-output:
         item: [tf2-slag]
       secondary-chance: 15
+  recycling-iron-bars:
+    results:
+      - item: mc-nugget-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-iron-bars
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-iron-bars]
+      primary-output:
+        item: [mc-nugget-iron]
+        amount: 3
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 5
+  recycling-iron-trapdoor:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-iron-trapdoor
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-iron-trapdoor]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 3
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 5
+  recycling-minecart:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-minecart
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-minecart]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 4
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 20
+  recycling-minecart-with-chest:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-minecart-with-chest
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-minecart-with-chest]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 4
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 20
+  recycling-minecart-with-furnace:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-minecart-with-furnace
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-minecart-with-furnace]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 4
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 30
+  recycling-minecart-with-hopper:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-minecart-with-hopper
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-minecart-with-hopper]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 8
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 20
   recycling-plate:
     results:
       - item-group: ingot-metal-with-tf2
@@ -4234,6 +4348,25 @@ recipes:
       secondary-output:
         item: [tf2-slag]
       secondary-chance: 10
+  recycling-powered-rail:
+    results:
+      - item: mc-nugget-gold
+      - item: tf2-slag
+    ingredients:
+      - item: mc-powered-rail
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-powered-rail]
+      primary-output:
+        item: [mc-nugget-gold]
+        amount: 6
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
   recycling-pressure-plate-gold:
     results:
       - item: mc-ingot-gold
@@ -4272,6 +4405,25 @@ recipes:
       secondary-output:
         item: [tf2-slag]
       secondary-chance: 10
+  recycling-rail:
+    results:
+      - item: mc-nugget-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-rail
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-rail]
+      primary-output:
+        item: [mc-nugget-iron]
+        amount: 3
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 5
   recycling-tool-axe:
     results:
       - item-group: ingot-equipment-metal-with-tf2

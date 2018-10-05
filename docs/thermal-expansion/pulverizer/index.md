@@ -14,18 +14,19 @@ augments:
   - machine-secondary-null
   - machine-pulverizer-petrotheum
 recipe-list:
-  general:
+  blocks:
+    - cobblestone-from-stone
+    - gravel-from-cobblestone
+    - gravel-from-netherrack
+    - sand-from-gravel
+    - recycling-sandstone
+    - recycling-sandstone-red
+  items:
     - dust-metal-from-ingot
     - dust-fluxed-electrum
     - dust-coal
     - dust-charcoal
     - dust-obsidian
-    - sand
-    - gravel-from-stone
-    - gravel-from-netherrack
-    - flint
-    - recycling-sandstone
-    - recycling-sandstone-red
     - bone-meal
     - glowstone-dust-from-glowstone
     - magma-cream-from-block
@@ -266,8 +267,11 @@ Augments can be installed in the Augmentation tab in a pulverizer's GUI.
 Recipes
 -------
 
-### General
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.general %}
+### Blocks
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.blocks %}
+
+### Items
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.items %}
 
 ### Ore processing
 {% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.ore-processing %}

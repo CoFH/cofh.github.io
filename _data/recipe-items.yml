@@ -1028,6 +1028,11 @@ mc-iron-bars:
   sprite: [0, 56]
   site: mc-wiki
   url: Iron_Bars
+mc-iron-trapdoor:
+  name: Iron Trapdoor
+  sprite: [15, 69]
+  site: mc-wiki
+  url: Iron_Trapdoor
 mc-item-frame:
   name: Item Frame
   sprite: [5, 51]
@@ -1138,6 +1143,26 @@ mc-melon-slice:
   sprite: [7, 51]
   site: mc-wiki
   url: Melon
+mc-minecart:
+  name: Minecart
+  sprite: [0, 70]
+  site: mc-wiki
+  url: Minecart
+mc-minecart-with-chest:
+  name: Minecart with Chest
+  sprite: [1, 70]
+  site: mc-wiki
+  url: Minecart_with_Chest
+mc-minecart-with-furnace:
+  name: Minecart with Furnace
+  sprite: [2, 70]
+  site: mc-wiki
+  url: Minecart_with_Furnace
+mc-minecart-with-hopper:
+  name: Minecart with Hopper
+  sprite: [3, 70]
+  site: mc-wiki
+  url: Minecart_with_Hopper
 mc-moss-stone:
   name: Moss Stone
   sprite: [14, 33]
@@ -1358,6 +1383,11 @@ mc-potato-poisonous:
   sprite: [10, 57]
   site: mc-wiki
   url: Poisonous_Potato
+mc-powered-rail:
+  name: Powered Rail
+  sprite: [5, 70]
+  site: mc-wiki
+  url: Powered_Rail
 mc-pressure-plate-gold:
   name: Weighted Pressure Plate (Light)
   sprite: [1, 54]
@@ -1408,6 +1438,11 @@ mc-rabbit-raw:
   sprite: [11, 55]
   site: mc-wiki
   url: Raw_Rabbit
+mc-rail:
+  name: Rail
+  sprite: [4, 70]
+  site: mc-wiki
+  url: Rail
 mc-redstone:
   name: Redstone
   sprite: [7, 0]

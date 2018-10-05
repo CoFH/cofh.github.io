@@ -19,8 +19,6 @@ recipe-list:
     - sponge-wet
     - ice
     - packed-ice
-    - end-stone
-    - nether-brick
     - mushroom-stew
     - blaze-powder
     - blizz-powder
