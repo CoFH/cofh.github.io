@@ -95,6 +95,14 @@ values.
                     priority are read first.
                 </td>
             </tr>
+            <tr>
+                <td markdown="span">`namespace` (optional)</td>
+                <td>String</td>
+                <td markdown="span">(None)</td>
+                <td>
+                    TODO
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>

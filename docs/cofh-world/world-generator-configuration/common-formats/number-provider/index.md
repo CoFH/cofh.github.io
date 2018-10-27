@@ -1,6 +1,9 @@
 ---
 title: Number provider
 nav: cofh-world
+_TODO:
+  - split up
+  - replace "Number" with "Number provider" for options that can use them
 ---
 
 Constant
@@ -33,8 +36,13 @@ World value
   * `HEIGHT_MAP`
   * `HIGHEST_BLOCK`
   * `SURFACE_BLOCK`
-  * `CURRENT_Y`
   * `LOWEST_CHUNK_HORIZON`
+  * `SPAWN_X`
+  * `SPAWN_Y`
+  * `SPAWN_Z`
+  * `CURRENT_X`
+  * `CURRENT_Y`
+  * `CURRENT_Z`
 
 
 Operation

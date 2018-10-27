@@ -57,6 +57,14 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                     default (see `height`).
                 </td>
             </tr>
+            <tr>
+                <td markdown="span">`shape` (optional)</td>
+                <td markdown="span">String</td>
+                <td markdown="span">`"CIRCLE"`</td>
+                <td markdown="span">
+                    TODO
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>

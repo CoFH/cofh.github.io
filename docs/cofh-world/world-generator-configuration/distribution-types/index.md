@@ -19,5 +19,6 @@ distribution type to use is specified when describing a
 | [`underfluid`](/docs/cofh-world/world-generator-configuration/distribution-types/underfluid/) | Features are distributed at the bottom of bodies of certain types of fluid. |
 | [`cave`](/docs/cofh-world/world-generator-configuration/distribution-types/cave/) | Features are distributed in the floors or ceilings of caves. |
 | [`sequential`](/docs/cofh-world/world-generator-configuration/distribution-types/sequential/) | Features are distributed multiple times in the same chunk, using one distribution after the other. |
+| [`custom`](/docs/cofh-world/world-generator-configuration/distribution-types/custom/) | TODO |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>

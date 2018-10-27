@@ -139,6 +139,7 @@ generate. It is an object with the following values.
                     configuration.
                 </td>
             </tr>
+            <!-- TODO: move this to feature type pages -->
             <tr>
                 <td markdown="span">`block`</td>
                 <td markdown="span">
