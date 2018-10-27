@@ -10,12 +10,33 @@ recipes:
   crafting:
     - te5-augment-machine-compactor-gear
 recipe-list:
-  - gear
+  - gear-iron
+  - gear-gold
+  - gear-copper
+  - gear-tin
+  - gear-silver
+  - gear-lead
+  - gear-aluminum
+  - gear-nickel
+  - gear-platinum
+  - gear-iridium
+  - gear-mithril
+  - gear-steel
+  - gear-electrum
+  - gear-invar
+  - gear-bronze
+  - gear-constantan
+  - gear-signalum
+  - gear-lumium
+  - gear-enderium
+  - gear-diamond
+  - gear-emerald
   - gear-fluxed-electrum
 ---
 
-A **gearworking die** is an [augment](/docs/thermal-expansion/augments/) that allows for a
-[compactor](/docs/thermal-expansion/compactor/) to produce metal gears instead of plates.
+A **gearworking die** is an [augment](/docs/thermal-expansion/augments/) that
+allows for a [compactor](/docs/thermal-expansion/compactor/) to produce gears
+instead of plates.
 
 
 Obtaining
@@ -34,9 +55,9 @@ A gearworking die can be installed in the Augmentation tab in a
 installed together with other specialization augments.
 
 ### Effects
-An installed gearworking die allows for a [compactor](/docs/thermal-expansion/compactor/) to
-produce metal gears from ingots. This replaces the machine's ability to produce
-metal plates.
+An installed gearworking die allows for a
+[compactor](/docs/thermal-expansion/compactor/) to produce gears from ingots and
+gems. This replaces the machine's ability to produce plates.
 
 Unlike with manual crafting, no additional ingots (usually
 [iron](https://minecraft.gamepedia.com/Iron_Ingot)) are required to produce

@@ -27,6 +27,7 @@ recipes:
     - recycling-tool-fishing-rod-bronze
     - recycling-tool-shears-bronze
     - recycling-tool-hammer-bronze
+    - recycling-tool-excavator-bronze
     - recycling-tool-sickle-bronze
     - recycling-weapon-sword-bronze
     - recycling-weapon-bow-bronze
@@ -40,7 +41,6 @@ usage-recipes:
   crafting:
     - tf2-nugget-bronze
     - tf2-gear-bronze
-    - tf2-gear-iron-using-bronze
     - tf2-storage-block-bronze
     - tf2-signalum-security-lock
     - te5-machine-compactor
@@ -54,6 +54,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-bronze
     - tf2-tool-shears-bronze
     - tf2-tool-hammer-bronze
+    - tf2-tool-excavator-bronze
     - tf2-tool-sickle-bronze
     - tf2-weapon-sword-bronze
     - tf2-weapon-bow-bronze

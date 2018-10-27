@@ -30,6 +30,7 @@ recipes:
     - recycling-tool-fishing-rod-tin
     - recycling-tool-shears-tin
     - recycling-tool-hammer-tin
+    - recycling-tool-excavator-tin
     - recycling-tool-sickle-tin
     - recycling-weapon-sword-tin
     - recycling-weapon-bow-tin
@@ -44,7 +45,6 @@ usage-recipes:
     - tf2-petrotheum-ingot-tin
     - tf2-nugget-tin
     - tf2-gear-tin
-    - tf2-gear-iron-using-tin
     - tf2-storage-block-tin
     - tf2-crescent-hammer
     - te5-machine-crafter
@@ -69,6 +69,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-tin
     - tf2-tool-shears-tin
     - tf2-tool-hammer-tin
+    - tf2-tool-excavator-tin
     - tf2-tool-sickle-tin
     - tf2-weapon-sword-tin
     - tf2-weapon-bow-tin

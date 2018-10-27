@@ -25,6 +25,7 @@ recipes:
     - recycling-tool-fishing-rod-steel
     - recycling-tool-shears-steel
     - recycling-tool-hammer-steel
+    - recycling-tool-excavator-steel
     - recycling-tool-sickle-steel
     - recycling-weapon-sword-steel
     - recycling-weapon-bow-steel
@@ -46,6 +47,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-steel
     - tf2-tool-shears-steel
     - tf2-tool-hammer-steel
+    - tf2-tool-excavator-steel
     - tf2-tool-sickle-steel
     - tf2-weapon-sword-steel
     - tf2-weapon-bow-steel

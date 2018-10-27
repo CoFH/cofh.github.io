@@ -26,14 +26,22 @@ recipes:
     - recycling-anvil
     - recycling-anvil-slightly-damaged
     - recycling-anvil-very-damaged
-    - recycling-bucket
-    - recycling-cauldron
-    - recycling-door-iron
-    - recycling-hopper
-    - recycling-horse-armor-iron
-    - recycling-horse-armor-gold
     - recycling-pressure-plate-iron
     - recycling-pressure-plate-gold
+    - recycling-bucket
+    - recycling-cauldron
+    - recycling-clock
+    - recycling-compass
+    - recycling-door-iron
+    - recycling-hopper
+    - recycling-iron-bars
+    - recycling-iron-trapdoor
+    - recycling-minecart
+    - recycling-minecart-with-chest
+    - recycling-minecart-with-furnace
+    - recycling-minecart-with-hopper
+    - recycling-rail
+    - recycling-powered-rail
     - recycling-tool-pickaxe
     - recycling-tool-shovel
     - recycling-tool-axe
@@ -41,6 +49,7 @@ recipes:
     - recycling-tool-fishing-rod-metal
     - recycling-tool-shears-metal
     - recycling-tool-hammer
+    - recycling-tool-excavator
     - recycling-tool-sickle
     - recycling-weapon-sword
     - recycling-weapon-bow-metal

@@ -73,7 +73,7 @@ NBT
 : Match items by their exact NBT data. This is ignored by default.
 
 ### Redstone control
-Anvacuumulator may be configured to respond to
+A vacuumulator may be configured to respond to
 [redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
 of three modes:
 

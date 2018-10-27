@@ -851,6 +851,7 @@ recipes:
         - [item: [tf2-slag], item: [tf2-slag]]
       result:
         item: [mc-dirt]
+        amount: 2
   tf2-drill-head:
     results:
       - item: tf2-drill-head
@@ -1083,12 +1084,11 @@ recipes:
     results:
       - item: tf2-gear-aluminum
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-aluminum
     data:
       rows:
         - [null, item: [tf2-ingot-aluminum]]
-        - [item: [tf2-ingot-aluminum], item: [mc-ingot-iron], item: [tf2-ingot-aluminum]]
+        - [item: [tf2-ingot-aluminum], null, item: [tf2-ingot-aluminum]]
         - [null, item: [tf2-ingot-aluminum]]
       result:
         item: [tf2-gear-aluminum]
@@ -1096,12 +1096,11 @@ recipes:
     results:
       - item: tf2-gear-bronze
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-bronze
     data:
       rows:
         - [null, item: [tf2-ingot-bronze]]
-        - [item: [tf2-ingot-bronze], item: [mc-ingot-iron], item: [tf2-ingot-bronze]]
+        - [item: [tf2-ingot-bronze], null, item: [tf2-ingot-bronze]]
         - [null, item: [tf2-ingot-bronze]]
       result:
         item: [tf2-gear-bronze]
@@ -1109,12 +1108,11 @@ recipes:
     results:
       - item: tf2-gear-constantan
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-constantan
     data:
       rows:
         - [null, item: [tf2-ingot-constantan]]
-        - [item: [tf2-ingot-constantan], item: [mc-ingot-iron], item: [tf2-ingot-constantan]]
+        - [item: [tf2-ingot-constantan], null, item: [tf2-ingot-constantan]]
         - [null, item: [tf2-ingot-constantan]]
       result:
         item: [tf2-gear-constantan]
@@ -1122,38 +1120,59 @@ recipes:
     results:
       - item: tf2-gear-copper
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-copper
     data:
       rows:
         - [null, item: [tf2-ingot-copper]]
-        - [item: [tf2-ingot-copper], item: [mc-ingot-iron], item: [tf2-ingot-copper]]
+        - [item: [tf2-ingot-copper], null, item: [tf2-ingot-copper]]
         - [null, item: [tf2-ingot-copper]]
       result:
         item: [tf2-gear-copper]
+  tf2-gear-diamond:
+    results:
+      - item: tf2-gear-diamond
+    ingredients:
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [item: [mc-diamond], null, item: [mc-diamond]]
+        - [null, item: [mc-diamond]]
+      result:
+        item: [tf2-gear-diamond]
   tf2-gear-electrum:
     results:
       - item: tf2-gear-electrum
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-electrum
     data:
       rows:
         - [null, item: [tf2-ingot-electrum]]
-        - [item: [tf2-ingot-electrum], item: [mc-ingot-iron], item: [tf2-ingot-electrum]]
+        - [item: [tf2-ingot-electrum], null, item: [tf2-ingot-electrum]]
         - [null, item: [tf2-ingot-electrum]]
       result:
         item: [tf2-gear-electrum]
+  tf2-gear-emerald:
+    results:
+      - item: tf2-gear-emerald
+    ingredients:
+      - item: mc-emerald
+    data:
+      rows:
+        - [null, item: [mc-emerald]]
+        - [item: [mc-emerald], null, item: [mc-emerald]]
+        - [null, item: [mc-emerald]]
+      result:
+        item: [tf2-gear-emerald]
   tf2-gear-enderium:
     results:
       - item: tf2-gear-enderium
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-enderium
     data:
       rows:
         - [null, item: [tf2-ingot-enderium]]
-        - [item: [tf2-ingot-enderium], item: [mc-ingot-iron], item: [tf2-ingot-enderium]]
+        - [item: [tf2-ingot-enderium], null, item: [tf2-ingot-enderium]]
         - [null, item: [tf2-ingot-enderium]]
       result:
         item: [tf2-gear-enderium]
@@ -1161,12 +1180,11 @@ recipes:
     results:
       - item: tf2-gear-gold
     ingredients:
-      - item: mc-ingot-iron
       - item: mc-ingot-gold
     data:
       rows:
         - [null, item: [mc-ingot-gold]]
-        - [item: [mc-ingot-gold], item: [mc-ingot-iron], item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], null, item: [mc-ingot-gold]]
         - [null, item: [mc-ingot-gold]]
       result:
         item: [tf2-gear-gold]
@@ -1174,12 +1192,11 @@ recipes:
     results:
       - item: tf2-gear-invar
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-invar
     data:
       rows:
         - [null, item: [tf2-ingot-invar]]
-        - [item: [tf2-ingot-invar], item: [mc-ingot-iron], item: [tf2-ingot-invar]]
+        - [item: [tf2-ingot-invar], null, item: [tf2-ingot-invar]]
         - [null, item: [tf2-ingot-invar]]
       result:
         item: [tf2-gear-invar]
@@ -1187,12 +1204,11 @@ recipes:
     results:
       - item: tf2-gear-iridium
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-iridium
     data:
       rows:
         - [null, item: [tf2-ingot-iridium]]
-        - [item: [tf2-ingot-iridium], item: [mc-ingot-iron], item: [tf2-ingot-iridium]]
+        - [item: [tf2-ingot-iridium], null, item: [tf2-ingot-iridium]]
         - [null, item: [tf2-ingot-iridium]]
       result:
         item: [tf2-gear-iridium]
@@ -1204,46 +1220,7 @@ recipes:
     data:
       rows:
         - [null, item: [mc-ingot-iron]]
-        - [item: [mc-ingot-iron], item: [mc-ingot-iron], item: [mc-ingot-iron]]
-        - [null, item: [mc-ingot-iron]]
-      result:
-        item: [tf2-gear-iron]
-  tf2-gear-iron-using-copper:
-    results:
-      - item: tf2-gear-iron
-    ingredients:
-      - item: mc-ingot-iron
-      - item: tf2-ingot-copper
-    data:
-      rows:
-        - [null, item: [mc-ingot-iron]]
-        - [item: [mc-ingot-iron], item: [tf2-ingot-copper], item: [mc-ingot-iron]]
-        - [null, item: [mc-ingot-iron]]
-      result:
-        item: [tf2-gear-iron]
-  tf2-gear-iron-using-tin:
-    results:
-      - item: tf2-gear-iron
-    ingredients:
-      - item: mc-ingot-iron
-      - item: tf2-ingot-tin
-    data:
-      rows:
-        - [null, item: [mc-ingot-iron]]
-        - [item: [mc-ingot-iron], item: [tf2-ingot-tin], item: [mc-ingot-iron]]
-        - [null, item: [mc-ingot-iron]]
-      result:
-        item: [tf2-gear-iron]
-  tf2-gear-iron-using-bronze:
-    results:
-      - item: tf2-gear-iron
-    ingredients:
-      - item: mc-ingot-iron
-      - item: tf2-ingot-bronze
-    data:
-      rows:
-        - [null, item: [mc-ingot-iron]]
-        - [item: [mc-ingot-iron], item: [tf2-ingot-bronze], item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], null, item: [mc-ingot-iron]]
         - [null, item: [mc-ingot-iron]]
       result:
         item: [tf2-gear-iron]
@@ -1251,12 +1228,11 @@ recipes:
     results:
       - item: tf2-gear-lead
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-lead
     data:
       rows:
         - [null, item: [tf2-ingot-lead]]
-        - [item: [tf2-ingot-lead], item: [mc-ingot-iron], item: [tf2-ingot-lead]]
+        - [item: [tf2-ingot-lead], null, item: [tf2-ingot-lead]]
         - [null, item: [tf2-ingot-lead]]
       result:
         item: [tf2-gear-lead]
@@ -1264,12 +1240,11 @@ recipes:
     results:
       - item: tf2-gear-lumium
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-lumium
     data:
       rows:
         - [null, item: [tf2-ingot-lumium]]
-        - [item: [tf2-ingot-lumium], item: [mc-ingot-iron], item: [tf2-ingot-lumium]]
+        - [item: [tf2-ingot-lumium], null, item: [tf2-ingot-lumium]]
         - [null, item: [tf2-ingot-lumium]]
       result:
         item: [tf2-gear-lumium]
@@ -1277,12 +1252,11 @@ recipes:
     results:
       - item: tf2-gear-mithril
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-mithril
     data:
       rows:
         - [null, item: [tf2-ingot-mithril]]
-        - [item: [tf2-ingot-mithril], item: [mc-ingot-iron], item: [tf2-ingot-mithril]]
+        - [item: [tf2-ingot-mithril], null, item: [tf2-ingot-mithril]]
         - [null, item: [tf2-ingot-mithril]]
       result:
         item: [tf2-gear-mithril]
@@ -1290,12 +1264,11 @@ recipes:
     results:
       - item: tf2-gear-nickel
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-nickel
     data:
       rows:
         - [null, item: [tf2-ingot-nickel]]
-        - [item: [tf2-ingot-nickel], item: [mc-ingot-iron], item: [tf2-ingot-nickel]]
+        - [item: [tf2-ingot-nickel], null, item: [tf2-ingot-nickel]]
         - [null, item: [tf2-ingot-nickel]]
       result:
         item: [tf2-gear-nickel]
@@ -1303,12 +1276,11 @@ recipes:
     results:
       - item: tf2-gear-platinum
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-platinum
     data:
       rows:
         - [null, item: [tf2-ingot-platinum]]
-        - [item: [tf2-ingot-platinum], item: [mc-ingot-iron], item: [tf2-ingot-platinum]]
+        - [item: [tf2-ingot-platinum], null, item: [tf2-ingot-platinum]]
         - [null, item: [tf2-ingot-platinum]]
       result:
         item: [tf2-gear-platinum]
@@ -1316,12 +1288,11 @@ recipes:
     results:
       - item: tf2-gear-signalum
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-signalum
     data:
       rows:
         - [null, item: [tf2-ingot-signalum]]
-        - [item: [tf2-ingot-signalum], item: [mc-ingot-iron], item: [tf2-ingot-signalum]]
+        - [item: [tf2-ingot-signalum], null, item: [tf2-ingot-signalum]]
         - [null, item: [tf2-ingot-signalum]]
       result:
         item: [tf2-gear-signalum]
@@ -1329,12 +1300,11 @@ recipes:
     results:
       - item: tf2-gear-silver
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-silver
     data:
       rows:
         - [null, item: [tf2-ingot-silver]]
-        - [item: [tf2-ingot-silver], item: [mc-ingot-iron], item: [tf2-ingot-silver]]
+        - [item: [tf2-ingot-silver], null, item: [tf2-ingot-silver]]
         - [null, item: [tf2-ingot-silver]]
       result:
         item: [tf2-gear-silver]
@@ -1342,28 +1312,51 @@ recipes:
     results:
       - item: tf2-gear-steel
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-steel
     data:
       rows:
         - [null, item: [tf2-ingot-steel]]
-        - [item: [tf2-ingot-steel], item: [mc-ingot-iron], item: [tf2-ingot-steel]]
+        - [item: [tf2-ingot-steel], null, item: [tf2-ingot-steel]]
         - [null, item: [tf2-ingot-steel]]
       result:
         item: [tf2-gear-steel]
+  tf2-gear-stone:
+    results:
+      - item: tf2-gear-stone
+    ingredients:
+      - item: tf2-gear-wood
+      - item: mc-stone
+    data:
+      rows:
+        - [null, item: [mc-stone]]
+        - [item: [mc-stone], item: [tf2-gear-wood], item: [mc-stone]]
+        - [null, item: [mc-stone]]
+      result:
+        item: [tf2-gear-stone]
   tf2-gear-tin:
     results:
       - item: tf2-gear-tin
     ingredients:
-      - item: mc-ingot-iron
       - item: tf2-ingot-tin
     data:
       rows:
         - [null, item: [tf2-ingot-tin]]
-        - [item: [tf2-ingot-tin], item: [mc-ingot-iron], item: [tf2-ingot-tin]]
+        - [item: [tf2-ingot-tin], null, item: [tf2-ingot-tin]]
         - [null, item: [tf2-ingot-tin]]
       result:
         item: [tf2-gear-tin]
+  tf2-gear-wood:
+    results:
+      - item: tf2-gear-wood
+    ingredients:
+      - item: mc-stick
+    data:
+      rows:
+        - [null, item: [mc-stick]]
+        - [item: [mc-stick], null, item: [mc-stick]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-gear-wood]
   tf2-glowstone-dust-from-clathrate:
     results:
       - item: mc-glowstone-dust
@@ -4342,6 +4335,237 @@ recipes:
         - [null, item: [mc-stick]]
       result:
         item: [tf2-tool-axe-tin]
+  tf2-tool-excavator-aluminum:
+    results:
+      - item: tf2-tool-excavator-aluminum
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-aluminum
+    data:
+      rows:
+        - [null, item: [tf2-ingot-aluminum]]
+        - [item: [tf2-ingot-aluminum], item: [mc-stick], item: [tf2-ingot-aluminum]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-aluminum]
+  tf2-tool-excavator-bronze:
+    results:
+      - item: tf2-tool-excavator-bronze
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-bronze
+    data:
+      rows:
+        - [null, item: [tf2-ingot-bronze]]
+        - [item: [tf2-ingot-bronze], item: [mc-stick], item: [tf2-ingot-bronze]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-bronze]
+  tf2-tool-excavator-constantan:
+    results:
+      - item: tf2-tool-excavator-constantan
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-constantan
+    data:
+      rows:
+        - [null, item: [tf2-ingot-constantan]]
+        - [item: [tf2-ingot-constantan], item: [mc-stick], item: [tf2-ingot-constantan]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-constantan]
+  tf2-tool-excavator-copper:
+    results:
+      - item: tf2-tool-excavator-copper
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-copper
+    data:
+      rows:
+        - [null, item: [tf2-ingot-copper]]
+        - [item: [tf2-ingot-copper], item: [mc-stick], item: [tf2-ingot-copper]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-copper]
+  tf2-tool-excavator-diamond:
+    results:
+      - item: tf2-tool-excavator-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [item: [mc-diamond], item: [mc-stick], item: [mc-diamond]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-diamond]
+  tf2-tool-excavator-electrum:
+    results:
+      - item: tf2-tool-excavator-electrum
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-electrum
+    data:
+      rows:
+        - [null, item: [tf2-ingot-electrum]]
+        - [item: [tf2-ingot-electrum], item: [mc-stick], item: [tf2-ingot-electrum]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-electrum]
+  tf2-tool-excavator-gold:
+    results:
+      - item: tf2-tool-excavator-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], item: [mc-stick], item: [mc-ingot-gold]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-gold]
+  tf2-tool-excavator-invar:
+    results:
+      - item: tf2-tool-excavator-invar
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-invar
+    data:
+      rows:
+        - [null, item: [tf2-ingot-invar]]
+        - [item: [tf2-ingot-invar], item: [mc-stick], item: [tf2-ingot-invar]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-invar]
+  tf2-tool-excavator-iron:
+    results:
+      - item: tf2-tool-excavator-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], item: [mc-stick], item: [mc-ingot-iron]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-iron]
+  tf2-tool-excavator-lead:
+    results:
+      - item: tf2-tool-excavator-lead
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-lead
+    data:
+      rows:
+        - [null, item: [tf2-ingot-lead]]
+        - [item: [tf2-ingot-lead], item: [mc-stick], item: [tf2-ingot-lead]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-lead]
+  tf2-tool-excavator-nickel:
+    results:
+      - item: tf2-tool-excavator-nickel
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-nickel
+    data:
+      rows:
+        - [null, item: [tf2-ingot-nickel]]
+        - [item: [tf2-ingot-nickel], item: [mc-stick], item: [tf2-ingot-nickel]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-nickel]
+  tf2-tool-excavator-platinum:
+    results:
+      - item: tf2-tool-excavator-platinum
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-platinum
+    data:
+      rows:
+        - [null, item: [tf2-ingot-platinum]]
+        - [item: [tf2-ingot-platinum], item: [mc-stick], item: [tf2-ingot-platinum]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-platinum]
+  tf2-tool-excavator-silver:
+    results:
+      - item: tf2-tool-excavator-silver
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-silver
+    data:
+      rows:
+        - [null, item: [tf2-ingot-silver]]
+        - [item: [tf2-ingot-silver], item: [mc-stick], item: [tf2-ingot-silver]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-silver]
+  tf2-tool-excavator-steel:
+    results:
+      - item: tf2-tool-excavator-steel
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-steel
+    data:
+      rows:
+        - [null, item: [tf2-ingot-steel]]
+        - [item: [tf2-ingot-steel], item: [mc-stick], item: [tf2-ingot-steel]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-steel]
+  tf2-tool-excavator-stone:
+    results:
+      - item: tf2-tool-excavator-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone]]
+        - [item: [mc-cobblestone], item: [mc-stick], item: [mc-cobblestone]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-stone]
+    note: >
+      Disabled by default.
+  tf2-tool-excavator-tin:
+    results:
+      - item: tf2-tool-excavator-tin
+    ingredients:
+      - item: mc-stick
+      - item: tf2-ingot-tin
+    data:
+      rows:
+        - [null, item: [tf2-ingot-tin]]
+        - [item: [tf2-ingot-tin], item: [mc-stick], item: [tf2-ingot-tin]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-tin]
+  tf2-tool-excavator-wood:
+    results:
+      - item: tf2-tool-excavator-wood
+    ingredients:
+      - item: mc-stick
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - null
+          - random: true
+            item-group: mc-wood-planks
+        - - random: true
+            item-group: mc-wood-planks
+          - item: [mc-stick]
+          - random: true
+            item-group: mc-wood-planks
+        - [null, item: [mc-stick]]
+      result:
+        item: [tf2-tool-excavator-wood]
+    note: >
+      Disabled by default.
   tf2-tool-fishing-rod-aluminum:
     results:
       - item: tf2-tool-fishing-rod-aluminum
@@ -10195,12 +10419,11 @@ recipes:
     results:
       - item: ra-gear-fluxed-electrum
     ingredients:
-      - item: mc-ingot-iron
       - item: ra-ingot-fluxed-electrum
     data:
       rows:
         - [null, item: [ra-ingot-fluxed-electrum]]
-        - [item: [ra-ingot-fluxed-electrum], item: [mc-ingot-iron], item: [ra-ingot-fluxed-electrum]]
+        - [item: [ra-ingot-fluxed-electrum], null, item: [ra-ingot-fluxed-electrum]]
         - [null, item: [ra-ingot-fluxed-electrum]]
       result:
         item: [ra-gear-fluxed-electrum]
@@ -10305,6 +10528,19 @@ recipes:
         - [null, item: [ra-obsidian-rod-flux-infused]]
       result:
         item: [ra-tool-axe]
+  ra-tool-excavator:
+    results:
+      - item: ra-tool-excavator
+    ingredients:
+      - item: ra-obsidian-rod-flux-infused
+      - item: ra-ingot-fluxed-electrum
+    data:
+      rows:
+        - [null, item: [ra-ingot-fluxed-electrum]]
+        - [item: [ra-ingot-fluxed-electrum], item: [ra-obsidian-rod-flux-infused], item: [ra-ingot-fluxed-electrum]]
+        - [null, item: [ra-obsidian-rod-flux-infused]]
+      result:
+        item: [ra-tool-excavator]
   ra-tool-fishing-rod:
     results:
       - item: ra-tool-fishing-rod
@@ -10453,6 +10689,81 @@ recipes:
         - [null, item: [ra-obsidian-rod-flux-infused]]
       result:
         item: [ra-weapon-sword]
+  vpt-tool-excavator-diamond:
+    results:
+      - item: vpt-tool-excavator-diamond
+    ingredients:
+      - item: mc-stick
+      - item: mc-diamond
+    data:
+      rows:
+        - [null, item: [mc-diamond]]
+        - [item: [mc-diamond], item: [mc-stick], item: [mc-diamond]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-diamond]
+  vpt-tool-excavator-gold:
+    results:
+      - item: vpt-tool-excavator-gold
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-gold
+    data:
+      rows:
+        - [null, item: [mc-ingot-gold]]
+        - [item: [mc-ingot-gold], item: [mc-stick], item: [mc-ingot-gold]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-gold]
+  vpt-tool-excavator-iron:
+    results:
+      - item: vpt-tool-excavator-iron
+    ingredients:
+      - item: mc-stick
+      - item: mc-ingot-iron
+    data:
+      rows:
+        - [null, item: [mc-ingot-iron]]
+        - [item: [mc-ingot-iron], item: [mc-stick], item: [mc-ingot-iron]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-iron]
+  vpt-tool-excavator-stone:
+    results:
+      - item: vpt-tool-excavator-stone
+    ingredients:
+      - item: mc-stick
+      - item: mc-cobblestone
+    data:
+      rows:
+        - [null, item: [mc-cobblestone]]
+        - [item: [mc-cobblestone], item: [mc-stick], item: [mc-cobblestone]]
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-stone]
+    note: >
+      Disabled by default.
+  vpt-tool-excavator-wood:
+    results:
+      - item: vpt-tool-excavator-wood
+    ingredients:
+      - item: mc-stick
+      - item-group: mc-wood-planks
+    data:
+      rows:
+        - - null
+          - random: true
+            item-group: mc-wood-planks
+        - - random: true
+            item-group: mc-wood-planks
+          - item: [mc-stick]
+          - random: true
+            item-group: mc-wood-planks
+        - [null, item: [mc-stick]]
+      result:
+        item: [vpt-tool-excavator-wood]
+    note: >
+      Disabled by default.
   vpt-tool-fishing-rod-diamond:
     results:
       - item: vpt-tool-fishing-rod-diamond

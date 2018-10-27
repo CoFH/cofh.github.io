@@ -33,6 +33,7 @@ recipes:
     - recycling-tool-fishing-rod-nickel
     - recycling-tool-shears-nickel
     - recycling-tool-hammer-nickel
+    - recycling-tool-excavator-nickel
     - recycling-tool-sickle-nickel
     - recycling-weapon-sword-nickel
     - recycling-weapon-bow-nickel
@@ -55,6 +56,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-nickel
     - tf2-tool-shears-nickel
     - tf2-tool-hammer-nickel
+    - tf2-tool-excavator-nickel
     - tf2-tool-sickle-nickel
     - tf2-weapon-sword-nickel
     - tf2-weapon-bow-nickel

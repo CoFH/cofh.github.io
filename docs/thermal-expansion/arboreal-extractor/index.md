@@ -43,13 +43,13 @@ extractor will start extracting a [fluid](#products).
 
 An active arboreal extractor produces a certain amount of a fluid every 500
 ticks (25 seconds). The amount of time increases when other arboreal extractors
-are nearby.
+are extracting from the same tree.
 
-| Adjacent extractors | Cycle length |
+| Extractors | Cycle length per extractor |
 |---
-| 0 | 500 ticks (25 seconds) |
-| 1 | 750 ticks (37.5 seconds) |
-| 2 or more | 1,000 ticks (50 seconds) |
+| 1 | 500 ticks (25 seconds) |
+| 2 | 750 ticks (37.5 seconds) |
+| 3 or more | 1,000 ticks (50 seconds) |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 The amount of fluid an arboreal extractor produces per cycle can be increased by

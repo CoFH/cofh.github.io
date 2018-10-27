@@ -25,6 +25,7 @@ recipes:
     - recycling-tool-fishing-rod-constantan
     - recycling-tool-shears-constantan
     - recycling-tool-hammer-constantan
+    - recycling-tool-excavator-constantan
     - recycling-tool-sickle-constantan
     - recycling-weapon-sword-constantan
     - recycling-weapon-bow-constantan
@@ -49,6 +50,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-constantan
     - tf2-tool-shears-constantan
     - tf2-tool-hammer-constantan
+    - tf2-tool-excavator-constantan
     - tf2-tool-sickle-constantan
     - tf2-weapon-sword-constantan
     - tf2-weapon-bow-constantan

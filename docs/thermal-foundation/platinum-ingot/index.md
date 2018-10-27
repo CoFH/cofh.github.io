@@ -34,6 +34,7 @@ recipes:
     - recycling-tool-fishing-rod-platinum
     - recycling-tool-shears-platinum
     - recycling-tool-hammer-platinum
+    - recycling-tool-excavator-platinum
     - recycling-tool-sickle-platinum
     - recycling-weapon-sword-platinum
     - recycling-weapon-bow-platinum
@@ -56,6 +57,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-platinum
     - tf2-tool-shears-platinum
     - tf2-tool-hammer-platinum
+    - tf2-tool-excavator-platinum
     - tf2-tool-sickle-platinum
     - tf2-weapon-sword-platinum
     - tf2-weapon-bow-platinum

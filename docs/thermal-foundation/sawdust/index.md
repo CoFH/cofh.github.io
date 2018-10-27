@@ -27,6 +27,7 @@ recipes:
     - recycling-tool-fishing-rod
     - recycling-tool-shears-wood
     - recycling-tool-hammer-wood
+    - recycling-tool-excavator-wood
     - recycling-tool-sickle-wood
     - recycling-weapon-sword-wood
     - recycling-weapon-bow

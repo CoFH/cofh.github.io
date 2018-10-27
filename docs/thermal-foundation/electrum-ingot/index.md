@@ -27,6 +27,7 @@ recipes:
     - recycling-tool-fishing-rod-electrum
     - recycling-tool-shears-electrum
     - recycling-tool-hammer-electrum
+    - recycling-tool-excavator-electrum
     - recycling-tool-sickle-electrum
     - recycling-weapon-sword-electrum
     - recycling-weapon-bow-electrum
@@ -73,6 +74,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-electrum
     - tf2-tool-shears-electrum
     - tf2-tool-hammer-electrum
+    - tf2-tool-excavator-electrum
     - tf2-tool-sickle-electrum
     - tf2-weapon-sword-electrum
     - tf2-weapon-bow-electrum

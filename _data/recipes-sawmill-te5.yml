@@ -220,7 +220,7 @@ recipes:
         item-group: mc-boat
       primary-output:
         item-group: mc-wood-planks
-        amount: 2
+        amount: 4
       secondary-output:
         item: [tf2-sawdust]
       secondary-chance: 125
@@ -270,6 +270,18 @@ recipes:
       secondary-output:
         item: [tf2-sawdust]
       secondary-chance: 125
+  recycling-saddle:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-saddle
+    energy: 1500
+    data:
+      input:
+        item: [mc-saddle]
+      primary-output:
+        item: [mc-leather]
+        amount: 3
   recycling-wood-stairs:
     results:
       - item-group: mc-wood-planks

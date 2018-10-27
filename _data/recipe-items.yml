@@ -1028,6 +1028,11 @@ mc-iron-bars:
   sprite: [0, 56]
   site: mc-wiki
   url: Iron_Bars
+mc-iron-trapdoor:
+  name: Iron Trapdoor
+  sprite: [15, 69]
+  site: mc-wiki
+  url: Iron_Trapdoor
 mc-item-frame:
   name: Item Frame
   sprite: [5, 51]
@@ -1138,6 +1143,26 @@ mc-melon-slice:
   sprite: [7, 51]
   site: mc-wiki
   url: Melon
+mc-minecart:
+  name: Minecart
+  sprite: [0, 70]
+  site: mc-wiki
+  url: Minecart
+mc-minecart-with-chest:
+  name: Minecart with Chest
+  sprite: [1, 70]
+  site: mc-wiki
+  url: Minecart_with_Chest
+mc-minecart-with-furnace:
+  name: Minecart with Furnace
+  sprite: [2, 70]
+  site: mc-wiki
+  url: Minecart_with_Furnace
+mc-minecart-with-hopper:
+  name: Minecart with Hopper
+  sprite: [3, 70]
+  site: mc-wiki
+  url: Minecart_with_Hopper
 mc-moss-stone:
   name: Moss Stone
   sprite: [14, 33]
@@ -1358,6 +1383,11 @@ mc-potato-poisonous:
   sprite: [10, 57]
   site: mc-wiki
   url: Poisonous_Potato
+mc-powered-rail:
+  name: Powered Rail
+  sprite: [5, 70]
+  site: mc-wiki
+  url: Powered_Rail
 mc-pressure-plate-gold:
   name: Weighted Pressure Plate (Light)
   sprite: [1, 54]
@@ -1408,6 +1438,11 @@ mc-rabbit-raw:
   sprite: [11, 55]
   site: mc-wiki
   url: Raw_Rabbit
+mc-rail:
+  name: Rail
+  sprite: [4, 70]
+  site: mc-wiki
+  url: Rail
 mc-redstone:
   name: Redstone
   sprite: [7, 0]
@@ -2773,11 +2808,21 @@ tf2-gear-copper:
   sprite: [3, 13]
   site: docs-tf2
   url: copper-gear/
+tf2-gear-diamond:
+  name: Diamond Gear
+  sprite: [11, 68]
+  site: docs-tf2
+  url: diamond-gear/
 tf2-gear-electrum:
   name: Electrum Gear
   sprite: [4, 13]
   site: docs-tf2
   url: electrum-gear/
+tf2-gear-emerald:
+  name: Emerald Gear
+  sprite: [12, 68]
+  site: docs-tf2
+  url: emerald-gear/
 tf2-gear-enderium:
   name: Enderium Gear
   sprite: [5, 13]
@@ -2843,11 +2888,21 @@ tf2-gear-steel:
   sprite: [1, 14]
   site: docs-tf2
   url: steel-gear/
+tf2-gear-stone:
+  name: Stone Gear
+  sprite: [10, 68]
+  site: docs-tf2
+  url: stone-gear/
 tf2-gear-tin:
   name: Tin Gear
   sprite: [2, 14]
   site: docs-tf2
   url: tin-gear/
+tf2-gear-wood:
+  name: Wooden Gear
+  sprite: [9, 68]
+  site: docs-tf2
+  url: wooden-gear/
 tf2-geode:
   name: Geode
   sprite: [0, 16]
@@ -3768,6 +3823,91 @@ tf2-tool-axe-tin:
   sprite: [15, 16]
   site: docs-tf2
   url: axes/
+tf2-tool-excavator-aluminum:
+  name: Aluminum Excavator
+  sprite: [13, 68]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-bronze:
+  name: Bronze Excavator
+  sprite: [14, 68]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-constantan:
+  name: Constantan Excavator
+  sprite: [15, 68]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-copper:
+  name: Copper Excavator
+  sprite: [0, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-diamond:
+  name: Diamond Excavator
+  sprite: [1, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-electrum:
+  name: Electrum Excavator
+  sprite: [2, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-gold:
+  name: Gold Excavator
+  sprite: [3, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-invar:
+  name: Invar Excavator
+  sprite: [4, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-iron:
+  name: Iron Excavator
+  sprite: [5, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-lead:
+  name: Lead Excavator
+  sprite: [6, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-nickel:
+  name: Nickel Excavator
+  sprite: [7, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-platinum:
+  name: Platinum Excavator
+  sprite: [8, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-silver:
+  name: Silver Excavator
+  sprite: [9, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-steel:
+  name: Steel Excavator
+  sprite: [10, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-stone:
+  name: Stone Excavator
+  sprite: [11, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-tin:
+  name: Tin Excavator
+  sprite: [12, 69]
+  site: docs-tf2
+  url: excavators/
+tf2-tool-excavator-wood:
+  name: Wooden Excavator
+  sprite: [13, 69]
+  site: docs-tf2
+  url: excavators/
 tf2-tool-fishing-rod-aluminum:
   name: Aluminum Fishing Rod
   sprite: [0, 18]
@@ -5638,6 +5778,11 @@ ra-tool-axe:
   sprite: [14, 34]
   site: docs-ra
   url: flux-infused-axe/
+ra-tool-excavator:
+  name: Flux-Infused Excavator
+  sprite: [14, 69]
+  site: docs-ra
+  url: flux-infused-excavator/
 ra-tool-fishing-rod:
   name: Flux-Infused Fishing Rod
   sprite: [1, 35]
@@ -5693,6 +5838,31 @@ ra-weapon-sword:
   sprite: [7, 35]
   site: docs-ra
   url: flux-infused-sword/
+vpt-tool-excavator-diamond:
+  name: Diamond Excavator
+  sprite: [1, 69]
+  site: docs-vpt
+  url: excavators/
+vpt-tool-excavator-gold:
+  name: Gold Excavator
+  sprite: [3, 69]
+  site: docs-vpt
+  url: excavators/
+vpt-tool-excavator-iron:
+  name: Iron Excavator
+  sprite: [5, 69]
+  site: docs-vpt
+  url: excavators/
+vpt-tool-excavator-stone:
+  name: Stone Excavator
+  sprite: [11, 69]
+  site: docs-vpt
+  url: excavators/
+vpt-tool-excavator-wood:
+  name: Wooden Excavator
+  sprite: [13, 69]
+  site: docs-vpt
+  url: excavators/
 vpt-tool-fishing-rod-diamond:
   name: Diamond Fishing Rod
   sprite: [4, 18]

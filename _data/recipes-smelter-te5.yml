@@ -3874,6 +3874,120 @@ recipes:
       secondary-output:
         item: [tf2-slag]
       secondary-chance: 15
+  recycling-iron-bars:
+    results:
+      - item: mc-nugget-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-iron-bars
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-iron-bars]
+      primary-output:
+        item: [mc-nugget-iron]
+        amount: 3
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 5
+  recycling-iron-trapdoor:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-iron-trapdoor
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-iron-trapdoor]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 3
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 5
+  recycling-minecart:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-minecart
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-minecart]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 4
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 20
+  recycling-minecart-with-chest:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-minecart-with-chest
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-minecart-with-chest]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 4
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 20
+  recycling-minecart-with-furnace:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-minecart-with-furnace
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-minecart-with-furnace]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 4
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 30
+  recycling-minecart-with-hopper:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-minecart-with-hopper
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-minecart-with-hopper]
+      primary-output:
+        item: [mc-ingot-iron]
+        amount: 8
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 20
   recycling-plate:
     results:
       - item-group: ingot-metal-with-tf2
@@ -4234,6 +4348,25 @@ recipes:
       secondary-output:
         item: [tf2-slag]
       secondary-chance: 10
+  recycling-powered-rail:
+    results:
+      - item: mc-nugget-gold
+      - item: tf2-slag
+    ingredients:
+      - item: mc-powered-rail
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-powered-rail]
+      primary-output:
+        item: [mc-nugget-gold]
+        amount: 6
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
   recycling-pressure-plate-gold:
     results:
       - item: mc-ingot-gold
@@ -4272,6 +4405,25 @@ recipes:
       secondary-output:
         item: [tf2-slag]
       secondary-chance: 10
+  recycling-rail:
+    results:
+      - item: mc-nugget-iron
+      - item: tf2-slag
+    ingredients:
+      - item: mc-rail
+      - item: mc-sand
+    energy: 4000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [mc-rail]
+      primary-output:
+        item: [mc-nugget-iron]
+        amount: 3
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 5
   recycling-tool-axe:
     results:
       - item-group: ingot-equipment-metal-with-tf2
@@ -4537,6 +4689,276 @@ recipes:
         item: [mc-sand]
       primary-input:
         item: [tf2-tool-axe-tin]
+      primary-output:
+        item: [tf2-ingot-tin]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator:
+    results:
+      - item-group: ingot-equipment-metal-with-tf2
+      - item: tf2-slag
+    ingredients:
+      - item-group: tool-excavator-metal-with-tf2
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item-group: tool-excavator-metal-with-tf2
+      primary-output:
+        item-group: ingot-equipment-metal-with-tf2
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-aluminum:
+    results:
+      - item: tf2-ingot-aluminum
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-aluminum
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-aluminum]
+      primary-output:
+        item: [tf2-ingot-aluminum]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-bronze:
+    results:
+      - item: tf2-ingot-bronze
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-bronze
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-bronze]
+      primary-output:
+        item: [tf2-ingot-bronze]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-constantan:
+    results:
+      - item: tf2-ingot-constantan
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-constantan
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-constantan]
+      primary-output:
+        item: [tf2-ingot-constantan]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-copper:
+    results:
+      - item: tf2-ingot-copper
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-copper
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-copper]
+      primary-output:
+        item: [tf2-ingot-copper]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-electrum:
+    results:
+      - item: tf2-ingot-electrum
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-electrum
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-electrum]
+      primary-output:
+        item: [tf2-ingot-electrum]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-gold:
+    results:
+      - item: mc-ingot-gold
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-gold
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-gold]
+      primary-output:
+        item: [mc-ingot-gold]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-invar:
+    results:
+      - item: tf2-ingot-invar
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-invar
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-invar]
+      primary-output:
+        item: [tf2-ingot-invar]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-iron:
+    results:
+      - item: mc-ingot-iron
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-iron
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-iron]
+      primary-output:
+        item: [mc-ingot-iron]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-lead:
+    results:
+      - item: tf2-ingot-lead
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-lead
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-lead]
+      primary-output:
+        item: [tf2-ingot-lead]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-nickel:
+    results:
+      - item: tf2-ingot-nickel
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-nickel
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-nickel]
+      primary-output:
+        item: [tf2-ingot-nickel]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-platinum:
+    results:
+      - item: tf2-ingot-platinum
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-platinum
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-platinum]
+      primary-output:
+        item: [tf2-ingot-platinum]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-silver:
+    results:
+      - item: tf2-ingot-silver
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-silver
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-silver]
+      primary-output:
+        item: [tf2-ingot-silver]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-steel:
+    results:
+      - item: tf2-ingot-steel
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-steel
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-steel]
+      primary-output:
+        item: [tf2-ingot-steel]
+      secondary-output:
+        item: [tf2-slag]
+      secondary-chance: 10
+  recycling-tool-excavator-tin:
+    results:
+      - item: tf2-ingot-tin
+      - item: tf2-slag
+    ingredients:
+      - item: tf2-tool-excavator-tin
+      - item: mc-sand
+    energy: 6000
+    data:
+      secondary-input:
+        item: [mc-sand]
+      primary-input:
+        item: [tf2-tool-excavator-tin]
       primary-output:
         item: [tf2-ingot-tin]
       secondary-output:

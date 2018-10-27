@@ -766,6 +766,27 @@ tool-axe-metal-with-tf2:
     - tf2-tool-axe-invar
     - tf2-tool-axe-bronze
     - tf2-tool-axe-constantan
+tool-excavator-metal-with-tf2:
+  name: Metal Excavator
+  site: docs-tf2
+  url: excavators/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf2-tool-excavator-iron
+    - tf2-tool-excavator-gold
+    - tf2-tool-excavator-copper
+    - tf2-tool-excavator-tin
+    - tf2-tool-excavator-silver
+    - tf2-tool-excavator-lead
+    - tf2-tool-excavator-aluminum
+    - tf2-tool-excavator-nickel
+    - tf2-tool-excavator-platinum
+    - tf2-tool-excavator-steel
+    - tf2-tool-excavator-electrum
+    - tf2-tool-excavator-invar
+    - tf2-tool-excavator-bronze
+    - tf2-tool-excavator-constantan
 tool-fishing-rod-metal-with-tf2:
   name: Metal Fishing Rod
   site: docs-tf2

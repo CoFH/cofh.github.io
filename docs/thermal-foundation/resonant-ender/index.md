@@ -22,7 +22,6 @@ usage-recipes:
   transposer-fill:
     - bucket-ender
     - ender-pearl-from-fluid
-    - end-stone
     - td2-viaduct-long-range-linking
 ---
 

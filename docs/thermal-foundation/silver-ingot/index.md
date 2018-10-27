@@ -31,6 +31,7 @@ recipes:
     - recycling-tool-fishing-rod-silver
     - recycling-tool-shears-silver
     - recycling-tool-hammer-silver
+    - recycling-tool-excavator-silver
     - recycling-tool-sickle-silver
     - recycling-weapon-sword-silver
     - recycling-weapon-bow-silver
@@ -59,6 +60,7 @@ usage-recipes:
     - tf2-tool-fishing-rod-silver
     - tf2-tool-shears-silver
     - tf2-tool-hammer-silver
+    - tf2-tool-excavator-silver
     - tf2-tool-sickle-silver
     - tf2-weapon-sword-silver
     - tf2-weapon-bow-silver

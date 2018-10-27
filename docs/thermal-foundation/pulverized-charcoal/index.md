@@ -39,3 +39,9 @@ Usage
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
+
+### Steam Dynamo fuel
+When used as fuel in a [steam dynamo](/docs/thermal-expansion/steam-dynamo/),
+pulverized charcoal yields 16,000 RF per piece. Unlike most steam dynamo fuels,
+pulverized charcoal cannot also be used as
+[furnace](https://minecraft.gamepedia.com/Furnace) fuel.
