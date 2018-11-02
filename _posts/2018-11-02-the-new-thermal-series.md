@@ -77,6 +77,11 @@ floor at this time or just doesn't exist yet:
 #### Thermal Expansion
 - Renewed focus on being a core processing mod - Machines / Dynamos ONLY.
   - Intent is to unify Machines + Devices
+- Machines are being Streamlined / redone:
+  - Total rework of Recipes under the hood.
+  - Fewer side config options - In / Out / Both / Open / None.
+  - Machines with Primary / Secondary outputs have 4 now.
+  - Plans for advanced filtering / logistics support.
 - Specialization Augments going away.
   - Replaced by adjacent "companion" blocks or other machines where appropriate.
 - Dynamos will have a dedicated "Coil" slot to change the type of resource they
