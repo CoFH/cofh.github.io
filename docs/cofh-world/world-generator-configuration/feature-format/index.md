@@ -112,7 +112,9 @@ Features are described as objects with the following values.
 
 ### Feature type configuration
 A feature type configuration specifies and configures the type of feature to
-generate. It is an object with the following values.
+generate. It is an object with the following values. The used [feature
+type](/docs/cofh-world/world-generator-configuration/feature-types/) may require
+additional values to be added.
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -134,29 +136,7 @@ generate. It is an object with the following values.
                 </td>
                 <td markdown="span">
                     The [feature type](/docs/cofh-world/world-generator-configuration/feature-types/)
-                    used to generate the feature. The used feature type may
-                    require additional values to be added to the feature type
-                    configuration.
-                </td>
-            </tr>
-            <!-- TODO: move this to feature type pages -->
-            <tr>
-                <td markdown="span">`block`</td>
-                <td markdown="span">
-                    [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td>-</td>
-                <td markdown="span">
-                    The type(s) of block that the feature primarily consists of.
-                    When specified as an array, a block type is selected
-                    randomly for each generated block.<br />
-                    <br />
-                    When using
-                    [`sequential`](/docs/cofh-world/world-generator-configuration/feature-types/sequential/)
-                    or
-                    [`structure`](/docs/cofh-world/world-generator-configuration/feature-types/structure/),
-                    this value does not need to be specified.
+                    to generate.
                 </td>
             </tr>
             <tr>

@@ -10,14 +10,11 @@ by [CoFH World](/docs/cofh-world/). It generates structures that are similar to
 except completely filled with and surrounded by blocks. They can also contain a
 core of different blocks at the center.
 
-The configured primary block(s) to generate the feature with is used to generate
-the content of geodes.
-
 
 Options
 -------
 
-When using this feature type, the following values may be added to the [feature
+When using this feature type, the following values must be added to the [feature
 type
 configuration](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
 
@@ -32,6 +29,19 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td markdown="span">`block`</td>
+                <td markdown="span">
+                    [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    / array of block IDs
+                </td>
+                <td>-</td>
+                <td markdown="span">
+                    The block(s) used to generate the content of geodes. When
+                    specified as an array, a block type is selected randomly for
+                    each generated block.
+                </td>
+            </tr>
             <tr>
                 <td markdown="span">`crust` (optional)</td>
                 <td markdown="span">

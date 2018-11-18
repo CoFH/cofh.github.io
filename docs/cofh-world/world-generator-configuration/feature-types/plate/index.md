@@ -28,6 +28,19 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
         </thead>
         <tbody>
             <tr>
+                <td markdown="span">`block`</td>
+                <td markdown="span">
+                    [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    / array of block IDs
+                </td>
+                <td>-</td>
+                <td markdown="span">
+                    The type(s) of block that the plates consist of. When
+                    specified as an array, a block type is selected randomly for
+                    each generated block.
+                </td>
+            </tr>
+            <tr>
                 <td markdown="span">`radius`</td>
                 <td markdown="span">Number</td>
                 <td markdown="span">-</td>
@@ -62,7 +75,8 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">String</td>
                 <td markdown="span">`"CIRCLE"`</td>
                 <td markdown="span">
-                    TODO
+                    The shape of plates as seen from above. Possible values are
+                    `"CIRCLE"` and `"SQUARE"`.
                 </td>
             </tr>
         </tbody>

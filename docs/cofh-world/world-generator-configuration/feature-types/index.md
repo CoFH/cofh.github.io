@@ -13,7 +13,7 @@ specified when describing
 |---
 | [`cluster`](/docs/cofh-world/world-generator-configuration/feature-types/cluster/) | A somewhat round deposit of blocks; often used for generating ores. |
 | [`sparse-cluster`](/docs/cofh-world/world-generator-configuration/feature-types/sparse-cluster/) | Like `cluster`, but generates more rarely with smaller sizes. |
-| [`large-vein`](/docs/cofh-world/world-generator-configuration/feature-types/large-vein/) | Similar to `cluster`, but can be much larger and more spread out. |
+| [`large-vein`](/docs/cofh-world/world-generator-configuration/feature-types/large-vein/) | A deposit consisting of a group of branches that start from a center point; can get very large. |
 | [`decoration`](/docs/cofh-world/world-generator-configuration/feature-types/decoration/) | A group of individual blocks scattered around on a surface. |
 | [`lake`](/docs/cofh-world/world-generator-configuration/feature-types/lake/) | Shaped like naturally generated ponds of water or lava. |
 | [`plate`](/docs/cofh-world/world-generator-configuration/feature-types/plate/) | A vertical cylinder of blocks, similar to clay deposits. |

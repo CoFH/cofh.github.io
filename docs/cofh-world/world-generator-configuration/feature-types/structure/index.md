@@ -3,23 +3,11 @@ title: structure
 nav: cofh-world
 ---
 
-<div class="uk-alert uk-alert-warning">
-    <p markdown="span">
-        **Warning:** This feature type is **unstable**. It can cause crashes
-        during world generation.
-    </p>
-</div>
-
-
 **`structure`** is one of the [feature
 types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
 by [CoFH World](/docs/cofh-world/). It generates structures loaded from NBT
 files; the same files that [structure
 blocks](https://minecraft.gamepedia.com/Structure_Block) use.
-
-When using this feature type, the value `block` does not need to be specified in
-the base [feature type
-configuration](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
 
 
 Options
@@ -91,28 +79,28 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
             <tr>
                 <td markdown="span">`rotation` (optional)</td>
                 <td markdown="span">
-                    [Enum value](/docs/cofh-world/world-generator-configuration/common-formats/enum-value/)
-                    / array of enum values
+                    String / array of
+                    [weighted strings](/docs/cofh-world/world-generator-configuration/common-formats/weighted-string/)
                 </td>
                 <td markdown="span">(All rotations)</td>
                 <td markdown="span">
                     The possible rotations of the generated structure. Possible
-                    enum values are `NONE`, `CLOCKWISE_90`, `CLOCKWISE_180` and
-                    `COUNTERCLOCKWISE_90`. When specified as an array, a
+                    values are `"NONE"`, `"CLOCKWISE_90"`, `"CLOCKWISE_180"` and
+                    `"COUNTERCLOCKWISE_90"`. When specified as an array, a
                     rotation is selected randomly for each generated structure.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`mirror` (optional)</td>
                 <td markdown="span">
-                    [Enum value](/docs/cofh-world/world-generator-configuration/common-formats/enum-value/)
-                    / array of enum values
+                    String / array of
+                    [weighted strings](/docs/cofh-world/world-generator-configuration/common-formats/weighted-string/)
                 </td>
                 <td markdown="span">`"NONE"`</td>
                 <td markdown="span">
                     The possible ways in which the generated structure may be
-                    mirrored. Possible enum values are `NONE`, `LEFT_RIGHT` and
-                    `FRONT_BACK`. When specified as an array, an item is
+                    mirrored. Possible values are `"NONE"`, `"LEFT_RIGHT"` and
+                    `"FRONT_BACK"`. When specified as an array, an item is
                     selected randomly for each generated structure.
                 </td>
             </tr>

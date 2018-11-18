@@ -129,8 +129,6 @@ cofh-world:
               items:
                 - title: Block ID
                   url: world-generator-configuration/common-formats/block-id/
-                - title: Enum value
-                  url: world-generator-configuration/common-formats/enum-value/
                 - title: Number provider
                   url: world-generator-configuration/common-formats/number-provider/
                   subitems:

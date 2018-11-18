@@ -8,10 +8,6 @@ types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
 by [CoFH World](/docs/cofh-world/). It generates multiple features at the same
 location, one after the other.
 
-When using this feature type, the value `block` does not need to be specified in
-the base [feature type
-configuration](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
-
 
 Options
 -------

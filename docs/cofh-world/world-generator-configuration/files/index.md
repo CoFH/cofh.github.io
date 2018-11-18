@@ -99,8 +99,11 @@ values.
                 <td markdown="span">`namespace` (optional)</td>
                 <td>String</td>
                 <td markdown="span">(None)</td>
-                <td>
-                    TODO
+                <td markdown="span">
+                    When specified, this string is prepended to the names of the
+                    features described in `populate`. This can be used to
+                    prevent name conflicts with features described in other
+                    files.
                 </td>
             </tr>
         </tbody>

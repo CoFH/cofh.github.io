@@ -12,7 +12,7 @@ blocks. It is often used for generating ores.
 Options
 -------
 
-When using this feature type, the following value must be added to the [feature
+When using this feature type, the following values must be added to the [feature
 type
 configuration](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
 
@@ -27,6 +27,19 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td markdown="span">`block`</td>
+                <td markdown="span">
+                    [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    / array of block IDs
+                </td>
+                <td>-</td>
+                <td markdown="span">
+                    The type(s) of block that the deposits consist of. When
+                    specified as an array, a block type is selected randomly for
+                    each generated block.
+                </td>
+            </tr>
             <tr>
                 <td markdown="span">`cluster-size`</td>
                 <td>Number</td>

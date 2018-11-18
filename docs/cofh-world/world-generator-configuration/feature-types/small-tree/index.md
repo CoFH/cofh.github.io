@@ -5,15 +5,13 @@ nav: cofh-world
 
 **`small-tree`** is one of the [feature
 types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/cofh-world/). It generates small oak-shaped trees. The
-configured primary block(s) to generate the feature with is used to generate the
-trunk.
+by [CoFH World](/docs/cofh-world/). It generates small oak-shaped trees.
 
 
 Options
 -------
 
-When using this feature type, the following values may be added to the [feature
+When using this feature type, the following values must be added to the [feature
 type
 configuration](/docs/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
 
@@ -28,6 +26,19 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td markdown="span">`block`</td>
+                <td markdown="span">
+                    [Block ID](/docs/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    / array of block IDs
+                </td>
+                <td>-</td>
+                <td markdown="span">
+                    The block(s) used to generate the trunks of trees. When
+                    specified as an array, a block type is selected randomly for
+                    each generated block.
+                </td>
+            </tr>
             <tr>
                 <td markdown="span">`surface` (optional)</td>
                 <td markdown="span">
