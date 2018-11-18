@@ -26,6 +26,6 @@ specified when describing
 | [`spout`](/docs/cofh-world/world-generator-configuration/feature-types/spout/) | A column of blocks of a certain height, generated from the bottom up. |
 | [`structure`](/docs/cofh-world/world-generator-configuration/feature-types/structure/) | A structure loaded from an NBT file. |
 | [`sequential`](/docs/cofh-world/world-generator-configuration/feature-types/sequential/) | Multiple features at the same location, one after the other. |
-| [`consecutive`](/docs/cofh-world/world-generator-configuration/feature-types/consecutive/) | TODO |
+| [`consecutive`](/docs/cofh-world/world-generator-configuration/feature-types/consecutive/) | Loops through a list of features, generating one at a time. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
