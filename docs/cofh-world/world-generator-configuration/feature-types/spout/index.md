@@ -1,12 +1,14 @@
 ---
-title: plate
+title: spout
 nav: cofh-world
 ---
 
-**`plate`** is one of the [feature
+**`spout`** is one of the [feature
 types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/cofh-world/). It generates vertical cylinders, similar to
-[clay](https://minecraft.gamepedia.com/Clay_(block)) deposits.
+by [CoFH World](/docs/cofh-world/). It generates columns of blocks of a certain
+height. The columns are generated from the bottom up, starting from the
+coordinates where the features are placed. This can be used to generate 'spouts'
+of fluid that emerge from underground.
 
 
 Options
@@ -35,7 +37,7 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 </td>
                 <td>-</td>
                 <td markdown="span">
-                    The type(s) of block that the plates consist of. When
+                    The type(s) of block that the spouts consist of. When
                     specified as an array, a block type is selected randomly for
                     each generated block.
                 </td>
@@ -45,31 +47,17 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">Number</td>
                 <td markdown="span">-</td>
                 <td markdown="span">
-                    The radius of a plate, in blocks. May contain values up to
-                    32.
+                    The radius of a spout, in blocks. A radius of `0` will cause
+                    spouts of one block wide to be generated. May contain values
+                    up to 8.
                 </td>
             </tr>
             <tr>
-                <td markdown="span">`height` (optional)</td>
+                <td markdown="span">`height`</td>
                 <td markdown="span">Number</td>
-                <td markdown="span">`1`</td>
+                <td markdown="span">-</td>
                 <td markdown="span">
-                    The amount of vertical layers to add to a plate both above
-                    and below its center. For example, when set to `1`, plates
-                    will be 3 blocks tall, and when set to `2`, plates will be
-                    5 blocks tall. When set to `0`, plates will be 1 block tall.
-                    May contain values up to 64.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`slim` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `true`, the top layer of plates is not generated,
-                    allowing plates that are an even number of blocks tall to be
-                    generated. Plates are always an odd number of blocks tall by
-                    default (see `height`).
+                    The height of a spout, in blocks.
                 </td>
             </tr>
             <tr>
@@ -77,7 +65,7 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
                 <td markdown="span">String</td>
                 <td markdown="span">`"CIRCLE"`</td>
                 <td markdown="span">
-                    The shape of plates as seen from above. Possible values are
+                    The shape of spouts as seen from above. Possible values are
                     `"CIRCLE"` and `"SQUARE"`.
                 </td>
             </tr>

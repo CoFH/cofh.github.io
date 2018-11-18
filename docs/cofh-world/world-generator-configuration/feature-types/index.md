@@ -23,7 +23,7 @@ specified when describing
 | [`stalagmite`](/docs/cofh-world/world-generator-configuration/feature-types/stalagmite/) | An upwards pointing spike. |
 | [`stalactite`](/docs/cofh-world/world-generator-configuration/feature-types/stalactite/) | A downwards pointing spike. |
 | [`small-tree`](/docs/cofh-world/world-generator-configuration/feature-types/small-tree/) | A small oak-shaped tree. |
-| [`spout`](/docs/cofh-world/world-generator-configuration/feature-types/spout/) | TODO |
+| [`spout`](/docs/cofh-world/world-generator-configuration/feature-types/spout/) | A column of blocks of a certain height, generated from the bottom up. |
 | [`structure`](/docs/cofh-world/world-generator-configuration/feature-types/structure/) | A structure loaded from an NBT file. |
 | [`sequential`](/docs/cofh-world/world-generator-configuration/feature-types/sequential/) | Multiple features at the same location, one after the other. |
 | [`consecutive`](/docs/cofh-world/world-generator-configuration/feature-types/consecutive/) | TODO |
