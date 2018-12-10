@@ -16,7 +16,7 @@ Index
 ### Minecraft 1.12
 * [Redstone Flux](/docs/redstone-flux/)
 * [CoFH Core 4.6](/docs/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.6.1)</span>
-* [CoFH World](/docs/cofh-world/) - <span class="uk-text-small uk-text-warning">WIP (1.1.1 → 1.3.0)</span>
+* [CoFH World](/docs/cofh-world/) - <span class="uk-text-small uk-text-success">up to date (1.3.0)</span>
 * [Thermal Foundation 2.6](/docs/thermal-foundation/) - <span class="uk-text-small uk-text-success">up to date (2.6.1)</span>
 * [Thermal Expansion 5.5](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-success">up to date (5.5.2)</span>
 * [Thermal Dynamics 2.5](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-success">up to date (2.5.3)</span>
