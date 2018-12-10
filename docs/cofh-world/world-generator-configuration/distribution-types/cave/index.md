@@ -51,11 +51,14 @@ entry](/docs/cofh-world/world-generator-configuration/feature-format/#features).
             </tr>
             <tr>
                 <td markdown="span">`ground-level` (optional)</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">(Taken from world)</td>
                 <td markdown="span">
                     The altitude below which to look for caves to distribute
-                    features in.
+                    features in. Evaluated once per feature.
                 </td>
             </tr>
         </tbody>

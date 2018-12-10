@@ -36,28 +36,38 @@ entry](/docs/cofh-world/world-generator-configuration/feature-format/#features).
         <tbody>
             <tr>
                 <td markdown="span">`x-offset`</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
                     The X coordinate at which to place features, relative to the
-                    center of each chunk.
+                    center of each chunk. Evaluated once per feature.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`y-offset`</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
-                    The Y coordinate at which to place features.
+                    The Y coordinate at which to place features. Evaluated once
+                    per feature.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`z-offset`</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
                     The Z coordinate at which to place features, relative to the
-                    center of each chunk.
+                    center of each chunk. Evaluated once per feature.
                 </td>
             </tr>
         </tbody>

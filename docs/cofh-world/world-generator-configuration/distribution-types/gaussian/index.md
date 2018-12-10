@@ -38,31 +38,42 @@ entry](/docs/cofh-world/world-generator-configuration/feature-format/#features).
         <tbody>
             <tr>
                 <td markdown="span">`center-height`</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
-                    The altitude to place features around.
+                    The altitude to place features around. Evaluated once per
+                    feature.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`spread`</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
                     The maximum distance from the center altitude at which
-                    features may be placed, in blocks.
+                    features may be placed, in blocks. Evaluated once per
+                    feature.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`smoothness` (optional)</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">`2`</td>
                 <td markdown="span">
                     Determines how smoothly the amount of features declines when
                     further from the center altitude. Must be greater than zero.
                     The default value makes the decline roughly linear. Higher
                     values may cause small amounts of features to be placed
-                    beyond the configured altitudes.
+                    beyond the configured altitudes. Evaluated once per feature.
                 </td>
             </tr>
         </tbody>

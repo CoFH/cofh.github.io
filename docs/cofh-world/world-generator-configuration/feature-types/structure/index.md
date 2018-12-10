@@ -7,7 +7,8 @@ nav: cofh-world
 types](/docs/cofh-world/world-generator-configuration/feature-types/) provided
 by [CoFH World](/docs/cofh-world/). It generates structures loaded from NBT
 files; the same files that [structure
-blocks](https://minecraft.gamepedia.com/Structure_Block) use.
+blocks](https://minecraft.gamepedia.com/Structure_Block) use. One structure is
+generated per chunk.
 
 
 Options
@@ -68,12 +69,16 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
             </tr>
             <tr>
                 <td markdown="span">`integrity` (optional)</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">`1`</td> <!-- actually 2 but that doesn't make a difference -->
                 <td markdown="span">
                     If lower than `1`, the structure is generated with random
                     blocks removed from it. May be any value between `0` and
                     `1`. Lower values will result in more blocks being removed.
+                    Evaluated once per structure.
                 </td>
             </tr>
             <tr>

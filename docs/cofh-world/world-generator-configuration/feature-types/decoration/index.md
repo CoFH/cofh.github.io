@@ -79,43 +79,55 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
             </tr>
             <tr>
                 <td markdown="span">`stack-height` (optional)</td>
-                <td>Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">`1`</td>
                 <td>
                     How many times to vertically stack each block in a group,
-                    like cacti and sugar cane.
+                    like cacti and sugar cane. Evaluated once per bottom block.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`x-variance` (optional)</td>
-                <td>Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">`8`</td>
                 <td>
                     The maximum amount of blocks that may be randomly added to
                     the X coordinate of the position of a group to place the
-                    blocks in the group.
+                    blocks in the group. Evaluated once per block.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`y-variance` (optional)</td>
-                <td>Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">`4`</td>
                 <td markdown="span">
                     The maximum amount of blocks that may be randomly added to
                     the Y coordinate of the position of a group to place the
                     blocks in the group. Note that non-zero values may cause
                     blocks to float in the air, or not generate at all depending
-                    on the value `surface`.
+                    on the value `surface`. Evaluated once per block.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`z-variance` (optional)</td>
-                <td>Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">`8`</td>
                 <td>
                     The maximum amount of blocks that may be randomly added to
                     the Z coordinate of the position of a group to place the
-                    blocks in the group.
+                    blocks in the group. Evaluated once per block.
                 </td>
             </tr>
         </tbody>

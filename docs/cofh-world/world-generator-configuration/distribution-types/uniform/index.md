@@ -37,18 +37,26 @@ entry](/docs/cofh-world/world-generator-configuration/feature-format/#features).
         <tbody>
             <tr>
                 <td markdown="span">`min-height`</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
-                    The minimum altitude to place features at.
+                    The minimum altitude to place features at. Evaluated once
+                    per chunk.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`max-height`</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
-                    The maximum altitude to place features at.
+                    The maximum altitude to place features at. Evaulated once
+                    per chunk.
                 </td>
             </tr>
         </tbody>

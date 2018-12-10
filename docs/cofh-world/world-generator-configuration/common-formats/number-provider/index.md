@@ -1,20 +1,13 @@
 ---
 title: Number provider
 nav: cofh-world
-_TODO:
-  - replace "Number" with "Number provider" for options that can use them
 ---
 
 A **number provider** is a format used while describing
-[features](/docs/cofh-world/world-generator-configuration/feature-format/)
+[features](/docs/cofh-world/world-generator-configuration/feature-format/) to
 specify a source of numbers. It can often be used in places where a regular
 number can be specified. They can return the same or a different number each
 time the world generator asks them for one.
-
-As an example, the world generator can ask a number provider for a number when
-determining how large a deposit of blocks should be. This could be a constant
-value, a random value each time, or a value that gets higher or lower based on
-the altitude of the deposit.
 
 There are six types of number providers: constants, two types of random number
 generators, world values, operations and bounded values. Most types allow for
@@ -212,32 +205,118 @@ chunk at the current X and Z coordinates of the world generator.
 Operation
 ---------
 
-An operation number provider performs an operation using two given values (which
-may themselves be number providers). It can perform various types of operations
-such as addition and multiplication. It is an object with the following values.
+An operation number provider performs an operation using two given values. It
+can perform various types of operations such as addition and multiplication. It
+is an object with the following values.
 
-* `value-a`
-* `value-b`
-* `operation`
-  * `ADD`
-  * `SUBTRACT`
-  * `MULTIPLY`
-  * `DIVIDE`
-  * `MODULO`
-  * `MINIMUM`
-  * `MAXIMUM`
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td markdown="span">`value-a`</td>
+                <td markdown="span">Number / number provider</td>
+                <td markdown="span">-</td>
+                <td markdown="span">
+                    The first value in the operation.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`value-b`</td>
+                <td markdown="span">Number / number provider</td>
+                <td markdown="span">-</td>
+                <td markdown="span">
+                    The second value in the operation.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`operation`</td>
+                <td markdown="span">String</td>
+                <td markdown="span">-</td>
+                <td markdown="span">
+                    The type of operation to perform.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+The following operation types are available:
+
+`ADD`
+: Add the second value to the first value.
+
+`SUBTRACT`
+: Subtract the second value from the first value.
+
+`MULTIPLY`
+: Multiply the first value by the second value.
+
+`DIVIDE`
+: Divide the first value by the second value.
+
+`MODULO`
+: Return the remainder of dividing the first value by the second value.
+
+`MINIMUM`
+: Return the lesser value of the two.
+
+`MAXIMUM`
+: Return the greater value of the two.
 
 
 Bounded
 -------
 
-A bounded number provider applies a minimum and maximum value to a given value
-(which may itself be a number provider), increasing it when it is too low and
-decreasing it when it is too high.
+A bounded number provider applies a minimum and maximum value to a given value,
+increasing it when it is too low and decreasing it when it is too high. It is an
+object with the following values.
 
-* `value`
-* `min`
-* `max`
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td markdown="span">`value`</td>
+                <td markdown="span">Number / number provider</td>
+                <td markdown="span">-</td>
+                <td markdown="span">
+                    The value to apply a minimum and maximum value to.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`min`</td>
+                <td markdown="span">Number / number provider</td>
+                <td markdown="span">-</td>
+                <td markdown="span">
+                    The minimum value.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`max`</td>
+                <td markdown="span">Number / number provider</td>
+                <td markdown="span">-</td>
+                <td markdown="span">
+                    The maximum value.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 
 Examples

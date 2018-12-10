@@ -51,14 +51,17 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
             </tr>
             <tr>
                 <td markdown="span">`height` (optional)</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">`1`</td>
                 <td markdown="span">
                     The amount of vertical layers to add to a plate both above
                     and below its center. For example, when set to `1`, plates
                     will be 3 blocks tall, and when set to `2`, plates will be
                     5 blocks tall. When set to `0`, plates will be 1 block tall.
-                    May contain values up to 64.
+                    May contain values up to 64. Evaluated once per plate.
                 </td>
             </tr>
             <tr>

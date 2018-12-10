@@ -44,20 +44,26 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
             </tr>
             <tr>
                 <td markdown="span">`radius`</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
                     The radius of a spout, in blocks. A radius of `0` will cause
                     spouts of one block wide to be generated. May contain values
-                    up to 8.
+                    up to 8. Evaluated once per layer in each spout.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`height`</td>
-                <td markdown="span">Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
-                    The height of a spout, in blocks.
+                    The height of a spout, in blocks. Evaluated once per spout.
                 </td>
             </tr>
             <tr>

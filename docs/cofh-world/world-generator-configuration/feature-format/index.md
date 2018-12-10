@@ -52,11 +52,14 @@ Features are described as objects with the following values.
             </tr>
             <tr>
                 <td markdown="span">`cluster-count`</td>
-                <td>Number</td>
+                <td markdown="span">
+                    Number /
+                    [number provider](/docs/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                </td>
                 <td>-</td>
                 <td>
                     How many attempts to generate the feature are done in a
-                    chunk.
+                    chunk. Evaluated once per chunk.
                 </td>
             </tr>
             <tr>
