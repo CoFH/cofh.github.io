@@ -65,7 +65,7 @@ Gelid cryotheum has the following effects on certain blocks and mobs:
 * [water](https://minecraft.gamepedia.com/Water) source blocks are turned into
   [ice](https://minecraft.gamepedia.com/Ice);
 * flowing [water](https://minecraft.gamepedia.com/Water) is turned into
-  [snow](https://minecraft.gamepedia.com/Snow);
+  [snow](https://minecraft.gamepedia.com/Snow_Block);
 * [lava](https://minecraft.gamepedia.com/Lava) source blocks are turned into
   [obsidian](https://minecraft.gamepedia.com/Obsidian);
 * flowing [lava](https://minecraft.gamepedia.com/Lava) is turned into

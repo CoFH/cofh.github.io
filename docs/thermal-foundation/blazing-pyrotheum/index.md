@@ -72,7 +72,7 @@ Blazing pyrotheum has the following effects on certain blocks and mobs:
   [stone](https://minecraft.gamepedia.com/Stone);
 * [clay](https://minecraft.gamepedia.com/Clay_(block)) is smelted into
   [terracotta](https://minecraft.gamepedia.com/Terracotta);
-* [snow](https://minecraft.gamepedia.com/Snow) and [snow
+* [snow](https://minecraft.gamepedia.com/Snow_Block) and [snow
   layers](https://minecraft.gamepedia.com/Slow_(layer)) are evaporated;
 * [cobblestone stairs](https://minecraft.gamepedia.com/Stairs) are smelted into
   [stone brick stairs](https://minecraft.gamepedia.com/Stairs);

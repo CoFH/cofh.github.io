@@ -15,7 +15,11 @@
                 {% if section.title %}
                     <tr>
                         <td colspan="2" class="cofh-navbox-section-title">
-                            {{ section.title }}
+                            {% if section.url %}
+                                {% include navbox-link.html page_url=page_url link_url=section.url text=section.title %}
+                            {% else %}
+                                {{ section.title }}
+                            {% endif %}
                         </td>
                     </tr>
                 {% endif %}

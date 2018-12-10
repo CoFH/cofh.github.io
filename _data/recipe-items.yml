@@ -1592,7 +1592,7 @@ mc-snow:
   name: Snow
   sprite: [11, 58]
   site: mc-wiki
-  url: Snow
+  url: Snow_Block
 mc-snow-layer:
   name: Snow (layer)
   sprite: [9, 41]
