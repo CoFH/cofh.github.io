@@ -35,6 +35,8 @@ pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better.
 Usage
 -----
 
+Placed blocks of coal coke are flammable.
+
 ### Storage
 Blocks of coal coke can be used to store [coal coke](/docs/thermal-foundation/coal-coke/) in a
 compact way.

@@ -31,6 +31,8 @@ pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better.
 Usage
 -----
 
+Placed blocks of charcoal are flammable.
+
 ### Storage
 Blocks of charcoal can be used to store
 [charcoal](https://minecraft.gamepedia.com/Charcoal) in a compact way.

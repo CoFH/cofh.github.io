@@ -40,9 +40,10 @@ four cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 ### Operation
 When empty [morbs](/docs/thermal-expansion/morb/) are supplied to a creature
 encaptulator, it will begin using them to capture
-[mobs](https://minecraft.gamepedia.com/Mob) in a 9x7x9 area. The device attempts
-to capture mobs every 32 ticks (1.6 seconds), or directly after it is activated
-by a [redstone signal](#redstone-control). It captures up to 4 mobs at a time.
+[mobs](https://minecraft.gamepedia.com/Mob) in a 11x11x11 area. The device
+attempts to capture mobs every 32 ticks (1.6 seconds), or directly after it is
+activated by a [redstone signal](#redstone-control). It captures up to 4 mobs at
+a time.
 
 A creature encaptulator can be configured to only capture hostile or passive
 mobs. It never captures tamed mobs, mobs that are being ridden or mobs that are
