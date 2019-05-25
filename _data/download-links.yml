@@ -8,7 +8,7 @@
   note: >
     Provides the Redstone Flux energy system.
   links:
-    curse: https://mods.curse.com/mc-mods/minecraft/270789-redstone-flux
+    curse: https://mods.curse.com/mc-mods/minecraft/redstone-flux
     curseforge: https://minecraft.curseforge.com/projects/redstone-flux
 
 - name: CoFH Core
@@ -24,8 +24,8 @@
   note: >
     Required for most Team CoFH mods.
   links:
-    curse: https://mods.curse.com/mc-mods/minecraft/cofhcore
-    curseforge: https://minecraft.curseforge.com/projects/cofhcore
+    curse: https://mods.curse.com/mc-mods/minecraft/cofh-core
+    curseforge: https://minecraft.curseforge.com/projects/cofh-core
     changelog: https://raw.githubusercontent.com/CoFH/Version/master/cofhcore_changelog.txt
 
 - name: CoFH World
@@ -38,7 +38,7 @@
   note: >
     Handles world generation.
   links:
-    curse: https://mods.curse.com/mc-mods/minecraft/271384-cofh-world
+    curse: https://mods.curse.com/mc-mods/minecraft/cofh-world
     curseforge: https://minecraft.curseforge.com/projects/cofh-world
 
 - name: Thermal Foundation
@@ -54,7 +54,7 @@
       link: '#cofh-world'
       suffix: (MC 1.12+)
   links:
-    curse: https://mods.curse.com/mc-mods/minecraft/222880-thermal-foundation
+    curse: https://mods.curse.com/mc-mods/minecraft/thermal-foundation
     curseforge: https://minecraft.curseforge.com/projects/thermal-foundation
     changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalfoundation_changelog.txt
 
@@ -70,11 +70,11 @@
     - name: Thermal Foundation
       link: '#thermal-foundation'
     - name: CodeChickenLib
-      link: https://mods.curse.com/mc-mods/minecraft/242818-codechicken-lib-1-8
+      link: https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8
       suffix: (MC 1.10+)
   links:
-    curse: https://mods.curse.com/mc-mods/minecraft/thermalexpansion
-    curseforge: https://minecraft.curseforge.com/projects/thermalexpansion
+    curse: https://mods.curse.com/mc-mods/minecraft/thermal-expansion
+    curseforge: https://minecraft.curseforge.com/projects/thermal-expansion
     changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalexpansion_changelog.txt
 
 - name: Thermal Dynamics
@@ -89,12 +89,12 @@
     - name: Thermal Foundation
       link: '#thermal-foundation'
     - name: CodeChickenLib
-      link: https://mods.curse.com/mc-mods/minecraft/242818-codechicken-lib-1-8
+      link: https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8
       suffix: (MC 1.10+)
   note: >
     Installing Thermal Expansion is recommended, but not required.
   links:
-    curse: https://mods.curse.com/mc-mods/minecraft/227443-thermal-dynamics
+    curse: https://mods.curse.com/mc-mods/minecraft/thermal-dynamics
     curseforge: https://minecraft.curseforge.com/projects/thermal-dynamics
     changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermaldynamics_changelog.txt
 
@@ -110,7 +110,7 @@
     - name: Thermal Foundation
       link: '#thermal-foundation'
   links:
-    curse: https://mods.curse.com/mc-mods/minecraft/271835-thermal-cultivation
+    curse: https://mods.curse.com/mc-mods/minecraft/thermal-cultivation
     curseforge: https://minecraft.curseforge.com/projects/thermal-cultivation
     changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalcultivation_changelog.txt
 
