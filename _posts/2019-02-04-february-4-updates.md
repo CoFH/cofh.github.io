@@ -17,7 +17,7 @@ improvements.
 #### CoFH Core
 * Blocks such as machines and devices may be rotated when active.
 
-### Thermal Foundation
+#### Thermal Foundation
 * [Blocks of charcoal](/docs/thermal-foundation/block-of-charcoal/) and [blocks
   of coal coke](/docs/thermal-foundation/block-of-coal-coke/) are flammable.
 * [Blizzes](/docs/thermal-foundation/blizz/),
@@ -30,7 +30,7 @@ improvements.
 * Added a configuration option to make the other gears require an additional
   [iron ingot](https://minecraft.gamepedia.com/Iron_Ingot) to craft.
 
-### Thermal Expansion
+#### Thermal Expansion
 * Added a configuration option for the ore to dust ratio of
   [pulverizers](/docs/thermal-expansion/pulverizer/).
 * Added a configuration option for the wood to planks ratio of
@@ -46,6 +46,6 @@ improvements.
   always visible, instead of having to hold Shift. This way, when searching for
   a certain machine or dynamo, any applicable augments are also shown.
 
-### Thermal Cultivation
+#### Thermal Cultivation
 * [Watering cans](/docs/thermal-cultivation/watering-can/) can be used while
   sneaking.
