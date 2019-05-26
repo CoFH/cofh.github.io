@@ -58,9 +58,11 @@ Resonant ender can be placed as a block using a
 Resonant ender blocks emit a light level of 3.
 
 ### Effects
-Any [entities](https://minecraft.gamepedia.com/Entity) that come into contact
-with resonant ender are teleported to a random destination in a radius of 8
-blocks.
+[Entities](https://minecraft.gamepedia.com/Entity) that come into contact with
+resonant ender are teleported to a random destination in a radius of 8 blocks.
+This does not happen to [dropped
+items](https://minecraft.gamepedia.com/Item_(entity)) or [experience
+orbs](https://minecraft.gamepedia.com/Experience).
 
 ### Crafting ingredient
 Any item that contains at least one

@@ -48,10 +48,10 @@ for repo in REPOS:
 
     cwd = os.path.join(parent_path, repo)
 
-    current_commit_id = Popen(['git', 'rev-parse', '--short', 'HEAD'], stdout=PIPE, cwd=cwd).communicate()[0].strip()
+    current_commit_id = Popen(['git', 'rev-parse', '--short', 'HEAD'], stdout=PIPE, cwd=cwd).communicate()[0].strip().decode('utf-8')
 
     while True:
-        commit_id = raw_input('Commit ID for {} ({}): '.format(repo, current_commit_id))
+        commit_id = input('Commit ID for {} ({}): '.format(repo, current_commit_id))
         if commit_id == '':
             break
 

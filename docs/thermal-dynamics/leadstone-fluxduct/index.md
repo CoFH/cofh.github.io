@@ -13,8 +13,6 @@ usage-recipes:
   crafting:
     - td2-fluxduct-hardened-one
     - td2-fluxduct-hardened-three
-  pulverizer:
-    - td2-recycling-fluxduct-basic
 ---
 
 A **leadstone fluxduct** is a [fluxduct](/docs/thermal-dynamics/fluxducts/) of the first and
@@ -37,6 +35,3 @@ A leadstone fluxduct works the same way as most other
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
-
-### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}

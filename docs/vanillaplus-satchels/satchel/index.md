@@ -12,6 +12,8 @@ image:
     file: vanillaplus-satchels/satchel-diamond.png
   - alt: Emerald satchel
     file: vanillaplus-satchels/satchel-emerald.png
+  - alt: Satchel (Void)
+    file: vanillaplus-satchels/satchel-void.gif
 recipes:
   crafting:
     - vps-satchel-basic
@@ -19,6 +21,7 @@ recipes:
     - vps-satchel-gold
     - vps-satchel-diamond
     - vps-satchel-emerald
+    - vps-satchel-void
 ---
 
 A **satchel** is an item that stores other items. It is able to automatically
@@ -119,13 +122,14 @@ Satchels come in five tiers.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Type | Capacity (slots) | Auto-collect filter slots |
+| Type | Capacity (slots) | Auto-collect filter slots | Note |
 |---
 | Basic | 9 | 3 |
 | Iron | 18 | 6 |
 | Gold | 27 | 9 |
 | Diamond | 36 | 12 |
 | Emerald | 45 | 15 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+| Void | 1 | 15 | Destroys any items it receives. |
+{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

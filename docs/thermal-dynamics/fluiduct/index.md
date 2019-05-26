@@ -17,10 +17,6 @@ recipes:
     - td2-fluiduct-basic-opaque
     - td2-fluiduct-basic-opaque-from-transparent
     - td2-fluiduct-basic-transparent-from-opaque
-usage-recipes:
-  pulverizer:
-    - td2-recycling-fluiduct-basic
-    - td2-recycling-fluiduct-basic-opaque
 ---
 
 A **fluiduct** is a block that transfers fluids between blocks.
@@ -82,6 +78,3 @@ themselves from other blocks connected to the network.
 A transparent fluiduct will emit light when it contains a fluid that emits
 light, like [lava](https://minecraft.gamepedia.com/Lava) or [energized
 glowstone](/docs/thermal-foundation/energized-glowstone/).
-
-### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}

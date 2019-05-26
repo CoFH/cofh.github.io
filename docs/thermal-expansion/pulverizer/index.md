@@ -126,10 +126,6 @@ recipe-list:
     - recycling-armor-leggings-diamond
     - recycling-armor-boots-diamond
     - recycling-horse-armor-diamond
-    - td2-recycling-fluxduct-basic
-    - td2-recycling-fluxduct-hardened
-    - td2-recycling-fluiduct-basic
-    - td2-recycling-fluiduct-basic-opaque
 ---
 
 ![Pulverizer](/assets/images/thermal-expansion/pulverizer.png){:style="height: 128px"}

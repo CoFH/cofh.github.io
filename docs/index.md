@@ -15,33 +15,18 @@ Index
 
 ### Minecraft 1.12
 * [Redstone Flux](/docs/redstone-flux/)
-* [CoFH Core 4.6](/docs/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.6.2)</span>
-* [CoFH World](/docs/cofh-world/) - <span class="uk-text-small uk-text-success">up to date (1.3.0)</span>
-* [Thermal Foundation 2.6](/docs/thermal-foundation/) - <span class="uk-text-small uk-text-success">up to date (2.6.2)</span>
-* [Thermal Expansion 5.5](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-success">up to date (5.5.3)</span>
-* [Thermal Dynamics 2.5](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-success">up to date (2.5.4)</span>
-* [Thermal Cultivation](/docs/thermal-cultivation/) - <span class="uk-text-small uk-text-success">up to date (0.3.2)</span>
-* [Thermal Innovation](/docs/thermal-innovation/) - <span class="uk-text-small uk-text-success">up to date (0.3.2)</span>
-* [Redstone Arsenal 2.6](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (2.6.2)</span>
+* [CoFH Core 4](/docs/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.6.3)</span>
+* [CoFH World](/docs/cofh-world/) - <span class="uk-text-small uk-text-success">up to date (1.3.1)</span>
+* [Thermal Foundation 2](/docs/thermal-foundation/) - <span class="uk-text-small uk-text-success">up to date (2.6.3)</span>
+* [Thermal Expansion 5](/docs/thermal-expansion/) - <span class="uk-text-small uk-text-success">up to date (5.5.4)</span>
+* [Thermal Dynamics 2](/docs/thermal-dynamics/) - <span class="uk-text-small uk-text-success">up to date (2.5.4)</span>
+* [Thermal Cultivation](/docs/thermal-cultivation/) - <span class="uk-text-small uk-text-success">up to date (0.3.3)</span>
+* [Thermal Innovation](/docs/thermal-innovation/) - <span class="uk-text-small uk-text-success">up to date (0.3.3)</span>
+* [Redstone Arsenal 2](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (2.6.3)</span>
 * [Vanilla+ Tools](/docs/vanillaplus-tools/) - <span class="uk-text-small uk-text-success">up to date (1.1.0)</span>
-* [Vanilla+ Satchels](/docs/vanillaplus-satchels/) - <span class="uk-text-small uk-text-success">up to date (1.0.1)</span>
+* [Vanilla+ Satchels](/docs/vanillaplus-satchels/) - <span class="uk-text-small uk-text-success">up to date (1.0.2)</span>
 
 <!--
-### Minecraft 1.11
-* [CoFH Core 4.2](/docs/cofh-core/4.2/)
-* [Thermal Foundation 2.2](/docs/thermal-foundation/2.2/)
-* [Thermal Expansion 5.2](/docs/thermal-expansion/5.2/)
-* [Thermal Dynamics 2.2](/docs/thermal-dynamics/2.2/)
-* [Redstone Arsenal 2.2](/docs/redstone-arsenal/2.2/)
-
-### Minecraft 1.10
-* [CoFH Core 4.1](/docs/cofh-core/4.1/)
-* [Thermal Foundation 2.1](/docs/thermal-foundation/2.1/)
-* [Thermal Expansion 5.1](/docs/thermal-expansion/5.1/)
-* [Thermal Dynamics 2.0](/docs/thermal-dynamics/2.0/)
-* [Redstone Arsenal 2.1](/docs/redstone-arsenal/2.1/)
-* [MineFactory Reloaded 2.9](/docs/minefactory-reloaded/2.9/)
-
 ### Minecraft 1.7
 * [CoFH Core 3](/docs/cofh-core/3/)
 * [Thermal Foundation 1](/docs/thermal-foundation/1/)

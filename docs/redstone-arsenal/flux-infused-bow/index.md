@@ -42,8 +42,8 @@ toggled by pressing "Cycle Item Mode" (V by default).
 ### Weapon
 Like a regular [bow](https://minecraft.gamepedia.com/Bow), a flux-infused bow
 can be used to fire [arrows](https://minecraft.gamepedia.com/Arrow). It has an
-arrow damage multiplier of 2.5, an arrow speed multiplier of 1.5, and consumes
-200 RF per use. When empowered, it has an arrow damage multiplier of 3.25, an
+arrow damage multiplier of 0.5, an arrow speed multiplier of 1.5, and consumes
+200 RF per use. When empowered, it has an arrow damage multiplier of 1.25, an
 arrow speed multiplier of 1.6, and consumes 800 RF per use.
 
 ### Enchantments

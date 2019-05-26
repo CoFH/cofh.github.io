@@ -172,6 +172,14 @@ amounts of energy.
 | [Grassoline](/docs/thermal-foundation/grassoline/) | 800,000 RF |
 | [Naphtha](/docs/thermal-foundation/naphtha/) | 1,000,000 RF |
 | [Refined Fuel](/docs/thermal-foundation/refined-fuel/) | 1,500,000 RF |
+| Gaseous Fuel ([BuildCraft](https://www.mod-buildcraft.com/)) | 200,000 RF |
+| Mixed Light Fuels ([BuildCraft](https://www.mod-buildcraft.com/)) | 320,000 RF |
+| Distilled Oil ([BuildCraft](https://www.mod-buildcraft.com/)) | 400,000 RF |
+| Mixed Heavy Fuels ([BuildCraft](https://www.mod-buildcraft.com/)) | 640,000 RF |
+| Light Fuel ([BuildCraft](https://www.mod-buildcraft.com/)) | 800,000 RF |
+| Heavy Oil ([BuildCraft](https://www.mod-buildcraft.com/)) | 1,000,000 RF |
+| Dense Oil ([BuildCraft](https://www.mod-buildcraft.com/)) | 1,600,000 RF |
+| Dense Fuel ([BuildCraft](https://www.mod-buildcraft.com/)) | 2,400,000 RF |
 | Canola Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 80,000 RF |
 | Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 200,000 RF |
 | Crystallized Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 400,000 RF |

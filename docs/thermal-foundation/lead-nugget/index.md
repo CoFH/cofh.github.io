@@ -7,9 +7,6 @@ redirect_from:
 recipes:
   crafting:
     - tf2-nugget-lead
-  pulverizer:
-    - td2-recycling-fluxduct-basic
-    - td2-recycling-fluiduct-basic-opaque
 usage-recipes:
   crafting:
     - tf2-ingot-lead-from-nuggets
@@ -33,9 +30,6 @@ Obtaining
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
-
-### Pulverizer
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage

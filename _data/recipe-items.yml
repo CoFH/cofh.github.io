@@ -6018,3 +6018,8 @@ vps-satchel-emerald:
   sprite: [8, 68]
   site: docs-vps
   url: satchel/
+vps-satchel-void:
+  name: Satchel (Void)
+  animated: true
+  site: docs-vps
+  url: satchel/

@@ -11207,3 +11207,17 @@ recipes:
         - [null, item: [mc-emerald]]
       result:
         item: [vps-satchel-emerald]
+  vps-satchel-void:
+    results:
+      - item: vps-satchel-void
+    ingredients:
+      - item: mc-bucket-lava
+      - item: mc-cobblestone
+      - item: mc-leather
+    data:
+      rows:
+        - [null, item: [mc-leather]]
+        - [item: [mc-cobblestone], item: [mc-bucket-lava], item: [mc-cobblestone]]
+        - [item: [mc-leather], null, item: [mc-leather]]
+      result:
+        item: [vps-satchel-void]
