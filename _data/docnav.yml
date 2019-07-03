@@ -137,6 +137,8 @@ cofh-world:
           items:
             - title: Commands
               url: commands/
+            - title: Examples
+              url: examples/
 
 thermal-foundation:
   title: Thermal Foundation 2
