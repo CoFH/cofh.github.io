@@ -1,4 +1,5 @@
 _site/
+vendor/
 Thumbs.db
 .jekyll-metadata
 Gemfile.lock
