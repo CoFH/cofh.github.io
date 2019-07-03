@@ -23,6 +23,7 @@ exclude:
   - /*.xcf
   - /Thumbs.db
   - /.unused
+  - vendor
 
 plugins:
   - jekyll-paginate
