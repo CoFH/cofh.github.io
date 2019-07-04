@@ -3,3 +3,4 @@ vendor/
 Thumbs.db
 .jekyll-metadata
 Gemfile.lock
+.bundle/config
