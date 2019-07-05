@@ -36,7 +36,7 @@
         <link rel="stylesheet" href="/assets/css/cofh.css{{cache_buster}}" />
 
         {% for style in page.styles %}
-        <link rel="stylesheet" href="{{ css }}" />
+        <link rel="stylesheet" href="{{ style }}" />
         {% endfor %}
 
         <script src="/assets/js/jquery.min.js"></script>
@@ -45,7 +45,7 @@
         <script src="/assets/js/uikit/components/sticky.min.js"></script>
         <script src="/assets/js/uikit/components/tooltip.min.js"></script>
         <script src="/assets/js/cofh.js{{cache_buster}}"></script>
-        
+
         {% for script in page.scripts %}
         <script src="{{ script }}"></script>
         {% endfor %}
