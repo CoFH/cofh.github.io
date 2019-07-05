@@ -17,6 +17,9 @@ defaults:
     values:
       layout: docs
 
+collections:
+  - world_examples
+
 exclude:
   - README.md
   - /*.pdn
