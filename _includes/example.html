@@ -1,10 +1,7 @@
 <div class="uk-grid">
   <div class="uk-width-1">
     <div class="uk-panel uk-panel-box"> <!-- uk-panel-box-primary -->
-      <div class="uk-panel-title uk-flex uk-flex-space-between uk-flex-items-center">
-        <h4 class="uk-margin-bottom-remove">
-          Description
-        </h4>
+      <div class="uk-panel-title uk-flex uk-flex-right uk-flex-items-center">
 
         <div class="uk-flex">
           <a
@@ -23,11 +20,7 @@
 
       {{ include.content | markdownify }}
 
-      <h4>
-        Screenshots
-      </h4>
-
-      <div class="uk-grid">
+      <div class="uk-grid uk-margin-top">
 
       {% for image in include.images %}
 
