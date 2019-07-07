@@ -7,6 +7,7 @@ link:
 type: feature
 group: boulder
 title: Boulder
+primary: true
 images:
   -
     href: banners/banner1.jpg
