@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/distribution-types/surface/
-  file: https://gist.github.com/sustained/38a009bd304517998576777365f1ff89/raw/f4806019dee93e0fcfcd4701dbdde8b6d711e7a7/surface_example.json
+  code:
+    embed: https://gist.github.com/sustained/3b00a7c9dc3743d59da6948006badc4d.js
+    download: https://gist.github.com/sustained/3b00a7c9dc3743d59da6948006badc4d/archive/fa185bd33ab859e498860c8323dc3c60ee8109b7.zip
 type: distribution
 group: surface
 title: Uniform

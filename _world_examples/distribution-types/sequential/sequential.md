@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/distribution-types/sequential/
-  file: https://gist.github.com/sustained/38a009bd304517998576777365f1ff89/raw/f4806019dee93e0fcfcd4701dbdde8b6d711e7a7/sequential_example.json
+  code:
+    embed: https://gist.github.com/sustained/32b76d4c171e484b2e6343ed02e812c6.js
+    download: https://gist.github.com/sustained/32b76d4c171e484b2e6343ed02e812c6/archive/6997ab96fc5e176a7d68aa185d32eff09c2b3407.zip
 type: distribution
 group: sequential
 title: Sequential

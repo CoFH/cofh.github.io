@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/distribution-types/gaussian/
-  file: https://gist.github.com/sustained/38a009bd304517998576777365f1ff89/raw/f4806019dee93e0fcfcd4701dbdde8b6d711e7a7/gaussian_example.json
+  code:
+    embed: https://gist.github.com/sustained/51e74927ca127d40b6aa6648eeb44a4b.js
+    download: https://gist.github.com/sustained/51e74927ca127d40b6aa6648eeb44a4b/archive/d9ceaa413c6569590db1a0f8749a81f5f1405682.zip
 type: distribution
 group: gaussian
 title: Gaussian

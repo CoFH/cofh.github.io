@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/distribution-types/underfluid/
-  file: https://gist.github.com/sustained/38a009bd304517998576777365f1ff89/raw/f4806019dee93e0fcfcd4701dbdde8b6d711e7a7/underfluid_example.json
+  code:
+    embed: https://gist.github.com/sustained/ed670beea25c122c37c7e75cf73c8172.js
+    download: https://gist.github.com/sustained/ed670beea25c122c37c7e75cf73c8172/archive/2b59874cb68979e33c55a2c029a90edad5c0088f.zip
 type: distribution
 group: underfluid
 title: Underfluid

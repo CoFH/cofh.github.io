@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/distribution-types/cave/
-  file: https://gist.github.com/sustained/38a009bd304517998576777365f1ff89/raw/f4806019dee93e0fcfcd4701dbdde8b6d711e7a7/cave_example.json
+  code:
+    embed: https://gist.github.com/sustained/fd95551c9e89d06c3d7678ad5240a98f.js
+    download: https://gist.github.com/sustained/fd95551c9e89d06c3d7678ad5240a98f/archive/f18a680038d5d89cbbe3bd048fd7cea095912af8.zip
 type: distribution
 group: cave
 title: Cave

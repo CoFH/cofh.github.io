@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/distribution-types/custom/
-  file: https://gist.github.com/sustained/38a009bd304517998576777365f1ff89/raw/f4806019dee93e0fcfcd4701dbdde8b6d711e7a7/custom_example.json
+  code:
+    embed: https://gist.github.com/sustained/20c67f174a3bd1902f9f13d40cc93098.js
+    download: https://gist.github.com/sustained/20c67f174a3bd1902f9f13d40cc93098/archive/7bfbc131a87411c3ff81c91ccb9a5ef702526d0e.zip
 type: distribution
 group: custom
 title: Custom

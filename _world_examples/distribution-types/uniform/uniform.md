@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/distribution-types/uniform/
-  file: https://gist.github.com/sustained/38a009bd304517998576777365f1ff89/raw/f4806019dee93e0fcfcd4701dbdde8b6d711e7a7/uniform_example.json
+  code:
+    embed: https://gist.github.com/sustained/35f042f862e142d271dd72256184bb78.js
+    download: https://gist.github.com/sustained/35f042f862e142d271dd72256184bb78/archive/652d23d977c0a72775d900ae3ba1dd9f0c75235a.zip
 type: distribution
 group: uniform
 title: Uniform
