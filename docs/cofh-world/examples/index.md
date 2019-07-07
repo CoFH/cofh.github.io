@@ -16,46 +16,16 @@ Every example includes:
 
 The actual feature and distribution type pages themselves, however, include many many more examples; this page is intended only to provide you with an overview.
 
-{% assign features = site.world_examples
-  | where: "type", "feature"
-  | where: "primary", true
-%}
-
-{% assign distributions = site.world_examples
-  | where: "type", "distribution"
-  | where: "primary", true
-%}
 
 ## Feature Type Examples
 
-{% for example in features %}
-
-### {{ example.title }}
-
-  {% include example.md
-  type=example.type
-  link=example.link
-  title=example.title
-  images=example.images
-  primary=example.primary
-  content=example.content %}
-
-{% endfor %}
+{% include examples.html type="feature" primary=true %}
 
 --------
 
 ## Distribution Type Examples
 
-{% for example in distributions %}
-
-  {% include example.md
-    type=example.type
-    link=example.link
-    title=example.title
-    images=example.images
-    content=example.content %}
-
-{% endfor %}
+{% include examples.html type="distribution" primary=true %}
 
 --------
 
