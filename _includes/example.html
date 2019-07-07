@@ -1,26 +1,31 @@
 <div class="uk-grid">
   <div class="uk-width-1">
-    <div class="uk-panel uk-panel-box"> <!-- uk-panel-box-primary -->
-      <div class="uk-panel-title uk-flex uk-flex-right uk-flex-items-center">
-
+    <div class="uk-panel uk-panel-box uk-padding-bottom-remove">
+      <div class="uk-flex uk-flex-right uk-flex-items-center">
         <div class="uk-flex">
           <a
             class="uk-button uk-button-primary uk-button-small uk-border-rounded uk-margin-right"
-            href="{{ include.link.file }}">
-            Download file
+            href="{{ include.link.docs }}">
+            View documentation
+          </a>
+
+          <a
+            class="uk-button uk-button-success uk-button-small uk-border-rounded uk-margin-right"
+            href="#">
+            Show/hide code
           </a>
           
           <a
             class="uk-button uk-button-success uk-button-small uk-border-rounded"
-            href="{{ include.link.docs }}">
-            View documentation
+            href="{{ include.link.code.download }}">
+            Download code
           </a>
         </div>
       </div>
 
       {{ include.content | markdownify }}
 
-      <div class="uk-grid uk-margin-top">
+      <div class="uk-grid uk-margin-top uk-margin-bottom">
 
       {% for image in include.images %}
 
@@ -35,6 +40,8 @@
 
       {% endfor %}
       </div>
+
+      <script src="{{ include.link.code.embed }}.js"></script>
     </div>
   </div>
 </div>
