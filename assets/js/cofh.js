@@ -22,7 +22,7 @@ $(window).on('hashchange load', function() {
 });
 
 $(function() {
-    $("body").removeClass("no-js");
+    $("body").removeClass("cofh-no-js");
 
     var $banner = $('.cofh-banner');
     if ($banner.length > 0) {
