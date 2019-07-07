@@ -311,3 +311,7 @@ a.cofh-navbox-link:hover > span {
 .cofh-no-js .cofh-js-required {
     display: none;
 }
+
+#cofh-docs-content a.uk-button {
+    color: white !important;
+}
