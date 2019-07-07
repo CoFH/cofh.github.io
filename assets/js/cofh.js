@@ -22,6 +22,8 @@ $(window).on('hashchange load', function() {
 });
 
 $(function() {
+    $("body").removeClass("no-js");
+
     var $banner = $('.cofh-banner');
     if ($banner.length > 0) {
         var bannerImage = '/assets/images/banners/banner' + Math.floor(Math.random() * 7 + 1) + '.jpg';
