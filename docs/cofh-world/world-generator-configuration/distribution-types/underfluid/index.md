@@ -80,4 +80,4 @@ entry](/docs/cofh-world/world-generator-configuration/feature-format/#features).
 Examples
 --------
 
-Coming soon...
+{% include examples.html group="underfluid" primary=false %}

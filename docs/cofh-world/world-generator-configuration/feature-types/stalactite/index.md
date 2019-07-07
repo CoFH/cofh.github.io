@@ -142,4 +142,4 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
 Examples
 --------
 
-Coming soon...
+{% include examples.html group="stalactite" primary=false %}
