@@ -32,11 +32,12 @@ The actual feature and distribution type pages themselves, however, include many
 
 ### {{ example.title }}
 
-  {% include example.html
+  {% include example.md
   type=example.type
   link=example.link
   title=example.title
   images=example.images
+  primary=example.primary
   content=example.content %}
 
 {% endfor %}
@@ -47,9 +48,7 @@ The actual feature and distribution type pages themselves, however, include many
 
 {% for example in distributions %}
 
-### {{ example.title }}
-
-  {% include example.html
+  {% include example.md
     type=example.type
     link=example.link
     title=example.title
