@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/decoration/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/decoration_example.json
+  code:
+    embed: https://gist.github.com/sustained/9a60fd1e8ab2ff290a43cad2baaedda8.js
+    download: https://gist.github.com/sustained/9a60fd1e8ab2ff290a43cad2baaedda8/archive/652eda713b9feada6da51fb5e6537885837574a8.zip
 type: feature
 group: decoration
 title: Decoration

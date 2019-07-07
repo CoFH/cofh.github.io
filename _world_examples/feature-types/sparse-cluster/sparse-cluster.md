@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/sparse-cluster/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/sparse_cluster_example.json
+  code:
+    embed: https://gist.github.com/sustained/948ddbe91c504119b6b0b678cbe29044.js
+    download: https://gist.github.com/sustained/948ddbe91c504119b6b0b678cbe29044/archive/341cd9fe73a9a6dd3ba25e9121142ed6374b9839.zip
 type: feature
 group: sparse-cluster
 title: Sparse Cluster

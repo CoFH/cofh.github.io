@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/small-tree
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/small_tree_example.json
+  code:
+    embed: https://gist.github.com/sustained/dd931ea678e22f3740a7b2f1f00b6a6d.js
+    download: https://gist.github.com/sustained/dd931ea678e22f3740a7b2f1f00b6a6d/archive/a5d0d92b55580b64130f03ad89d011414a33a36d.zip
 type: feature
 group: small-tree
 title: Small Tree

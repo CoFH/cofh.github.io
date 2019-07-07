@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/consecutive/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/consecutive_example.json
+  code:
+    embed: https://gist.github.com/sustained/4da2c926a9040b9bfe925f6400eae87e.js
+    download: https://gist.github.com/sustained/4da2c926a9040b9bfe925f6400eae87e/archive/1b54e077b442c202943191f571db7a89df54fcdb.zip
 type: feature
 group: consecutive
 title: Consecutive

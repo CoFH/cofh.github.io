@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/plate/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/plate_example.json
+  code:
+    embed: https://gist.github.com/sustained/83146f70072168bd7c226243db71357e.js
+    download: https://gist.github.com/sustained/83146f70072168bd7c226243db71357e/archive/1b4931e7c3041aac52cc24a8e386dd5d003eefbd.zip
 type: feature
 group: plate
 title: Plate

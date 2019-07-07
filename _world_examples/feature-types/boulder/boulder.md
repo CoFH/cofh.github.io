@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/boulder/
-  file: https://gist.githubusercontent.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/boulder_example.json
+  code:
+    embed: https://gist.github.com/sustained/7d73ebefa0ef7f9c64be08fd05bece78.js
+    download: https://gist.github.com/sustained/7d73ebefa0ef7f9c64be08fd05bece78/archive/6ca1d4a6c2a8057fd4106cd205fe90882c8b08b4.zip
 type: feature
 group: boulder
 title: Boulder

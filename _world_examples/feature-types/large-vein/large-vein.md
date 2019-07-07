@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/large-vein/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/large_vein_example.json
+  code:
+    embed: https://gist.github.com/sustained/bce1c8d264662e46c324b8b67b9acafe.js
+    download: https://gist.github.com/sustained/bce1c8d264662e46c324b8b67b9acafe/archive/e37480baf198bb1cb656292195e6e324b2907458.zip
 type: feature
 group: large-vein
 title: Large Vein

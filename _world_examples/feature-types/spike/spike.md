@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/spike/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/spike_example.json
+  code:
+    embed: https://gist.github.com/sustained/195ac833b59d9cd07c607025451f2422.js
+    download: https://gist.github.com/sustained/195ac833b59d9cd07c607025451f2422/archive/5c666ada53ae4b4aa16212966d48e3a11ee01cfe.zip
 type: feature
 group: spike
 title: Spike

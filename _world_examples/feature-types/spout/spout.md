@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/spout/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/spout_example.json
+  code:
+    embed: https://gist.github.com/sustained/84b67791b1ac04bcc0b6dbb7582c2eca.js
+    download: https://gist.github.com/sustained/84b67791b1ac04bcc0b6dbb7582c2eca/archive/4286f402e7cfd68621e3912ba5adc93a2572630a.zip
 type: feature
 group: spout
 title: Spout

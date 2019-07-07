@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/structure/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/structure_example.json
+  code:
+    embed: https://gist.github.com/sustained/950d9b48e3621e284668f362529e2a74.js
+    download: https://gist.github.com/sustained/950d9b48e3621e284668f362529e2a74/archive/4c39c60e0d125224d2b3b99dee5b9ce8a75adc31.zip
 type: feature
 group: structure
 title: Structure

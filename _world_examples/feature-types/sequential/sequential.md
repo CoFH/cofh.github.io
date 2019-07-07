@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/sequential/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/sequential_example.json
+  code:
+    embed: https://gist.github.com/sustained/d6dcfc20ef1b9af102a148d4acc33e55.js
+    download: https://gist.github.com/sustained/d6dcfc20ef1b9af102a148d4acc33e55/archive/f1c1e24c747f54be57ad29926b6849c029eb7ac2.zip
 type: feature
 group: sequential
 title: Sequential

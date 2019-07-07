@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/geode/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/geode_example.json
+  code:
+    embed: https://gist.github.com/sustained/898757dad45ddfc239421084e427c954.js
+    download: https://gist.github.com/sustained/898757dad45ddfc239421084e427c954/archive/a8003506f607387148531c042dd14e83bb9a287b.zip
 type: feature
 group: geode
 title: Geode

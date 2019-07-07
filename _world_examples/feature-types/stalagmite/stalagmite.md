@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/stalagmite/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/stalagmite_example.json
+  code:
+    embed: https://gist.github.com/sustained/56a68d50ade2cb207597bd7df28ecf46.js
+    download: https://gist.github.com/sustained/56a68d50ade2cb207597bd7df28ecf46/archive/b7158797acd407d5e8caeb82d007bb4649a7e107.zip
 type: feature
 group: stalagmite
 title: Stalagmite

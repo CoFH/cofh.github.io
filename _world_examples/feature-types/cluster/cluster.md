@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/cluster/
-  file: https://gist.githubusercontent.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/cluster_example.json
+  code:
+    embed: https://gist.github.com/sustained/b32fe2255dc566700e93f8653aafe8cc.js
+    download: https://gist.github.com/sustained/b32fe2255dc566700e93f8653aafe8cc/archive/2098dee6eaa663bdc6b5132caf51e034784656fc.zip
 type: feature
 group: cluster
 title: Cluster

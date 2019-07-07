@@ -1,7 +1,9 @@
 ---
 link:
   docs: /docs/cofh-world/world-generator-configuration/feature-types/stalactite/
-  file: https://gist.github.com/sustained/d12f167ef4ad2faaf27ec029e20d36b6/raw/7204cdecbbd2a286b6f70ebf20b5e3d7a3b286b1/stalactite_example.json
+  code:
+    embed: https://gist.github.com/sustained/7c932bcf15a5f3596e33dd56d8854cd8.js
+    download: https://gist.github.com/sustained/7c932bcf15a5f3596e33dd56d8854cd8/archive/2e53ff310aab0921367590f9c23675eec1ca9b06.zip
 type: feature
 group: stalactite
 title: Stalactite
