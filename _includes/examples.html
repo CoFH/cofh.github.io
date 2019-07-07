@@ -1,0 +1,39 @@
+
+
+{% if include.group %}
+
+  {% assign examples = site.world_examples
+    | where: "group", include.group
+    | where: "primary", include.primary
+  %}
+
+{% else if include.type %}
+
+  {% assign examples = site.world_examples
+    | where: "type", include.type
+    | where: "primary", include.primary
+  %}
+
+{% else %}
+
+### wtf m8
+
+{% endif %}
+
+{% if examples.size == 0 %}
+
+  {% include notice.html notice="There are currently no examples!" %}
+
+{% endif %}
+
+{% for example in examples %}
+
+  {% include example.md
+    type=example.type
+    link=example.link
+    title=example.title
+    images=example.images
+    primary=example.primary
+    content=example.content %}
+
+{% endfor %}
