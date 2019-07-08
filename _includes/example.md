@@ -16,7 +16,7 @@
 
         <div class="uk-width-medium-1-3">
           <a
-            href="/assets/images/{{ image.href }}"
+            href="/assets/images/examples/{{ image.href }}"
             data-uk-lightbox="{group: '{{ include.title | slugify }}'}"
             title="{{ image.title }}">
             <img class="uk-thumbnail" src="/assets/images/examples/{{ image.href }}">
