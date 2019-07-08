@@ -5,7 +5,7 @@ nav: cofh-world
 
 {% include notice.html notice="This page is a work-in-progress. Hard hats are recommended." %}
 
-Here you will find one simple example for each [feature](world-generator-configuration/feature-types/) and [distribution type](world-generator-configuration/distribution-types/).
+Here you will find one simple example for each [feature type](world-generator-configuration/feature-types/), [distribution type](world-generator-configuration/distribution-types/) and common format.
 
 Every example includes:
 
@@ -14,7 +14,7 @@ Every example includes:
 - a link to an example JSON file
 - a gallery of images
 
-The actual feature and distribution type pages themselves, however, include many many more examples; this page is intended only to provide you with an overview.
+The actual feature/distribution type and common format pages themselves, however, include many many more examples; this page is intended only to provide you with an overview.
 
 
 ## Feature Type Examples
