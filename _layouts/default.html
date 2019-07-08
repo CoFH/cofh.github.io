@@ -35,7 +35,12 @@
         <link rel="stylesheet" href="/assets/css/uikit/components/tooltip.min.css" />
         <link rel="stylesheet" href="/assets/css/uikit/components/slidenav.min.css" />
         <link rel="stylesheet" href="/assets/css/uikit/components/slider.min.css" />
+        <link rel="stylesheet" href="/assets/css/highlight/vs.css" />
         <link rel="stylesheet" href="/assets/css/cofh.css{{cache_buster}}" />
+
+        {% for style in page.styles %}
+        <link rel="stylesheet" href="{{ style }}" />
+        {% endfor %}
 
         <script src="/assets/js/jquery.min.js"></script>
         <script src="/assets/js/uikit/uikit.min.js"></script>
@@ -45,6 +50,10 @@
         <script src="/assets/js/uikit/components/lightbox.min.js"></script>
         <script src="/assets/js/uikit/components/slider.min.js"></script>
         <script src="/assets/js/cofh.js{{cache_buster}}"></script>
+
+        {% for script in page.scripts %}
+        <script src="{{ script }}"></script>
+        {% endfor %}
     </head>
 
     <body class="cofh-no-js">
