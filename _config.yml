@@ -34,6 +34,8 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
+highlighter: rouge
+
 permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5
 paginate_path: "/posts/page-:num/"
