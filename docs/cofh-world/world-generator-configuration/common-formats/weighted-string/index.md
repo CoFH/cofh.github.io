@@ -54,4 +54,4 @@ string is given the default weight.
 Examples
 --------
 
-Coming soon...
+{% include examples.html group="weighted-string" primary=false %}
