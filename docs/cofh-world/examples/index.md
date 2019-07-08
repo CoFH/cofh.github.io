@@ -29,6 +29,10 @@ The actual feature and distribution type pages themselves, however, include many
 
 --------
 
+## Common Format Examples
+
+{% include examples.html type="common-format" primary=true %}
+
 ## Contributing Examples
 
 If you feel that you have examples of generation which aren't covered by this guide which you'd like to contribute then please [open an issue](#).
