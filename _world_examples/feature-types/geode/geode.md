@@ -10,14 +10,14 @@ title: Geode
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: geode/primary/one.png
+    title: A close-up of a smooth andesite geode.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: geode/primary/two.png
+    title: A smooth andesite geode with a cross-section cut away, revealing the iron and gold ore within.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: geode/primary/three.png
+    title: A broad shot showing smooth andesite geodes dotted around the landscape.
 ---
 
-This is an example of spawning geodes.
+Let's spawn some geodes consisting of a smooth andesite crust with iron and gold ore within.
