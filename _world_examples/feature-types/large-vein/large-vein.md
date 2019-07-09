@@ -10,14 +10,20 @@ title: Large Vein
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: large-vein/primary/one.png
+    title: A large vein of bone blocks protruding from the surface.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: large-vein/primary/two.png
+    title: Several large bone block veins scattered around the world.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: large-vein/primary/three.png
+    title: A large vein with the earth around it removed, showing how the extents of the vein go below the surface.
+  -
+    href: large-vein/primary/four.png
+    title: A large vein with the earth around it removed but from below.
+  -
+    href: large-vein/primary/five.png
+    title: A large vein with the bone blocks highlighted, even those which are below the surface.
 ---
 
-This is an example of spawning large veins.
+We'll spawn large veins of bone blocks which poke out of the ground, something akin to heavily degraded dinosaur fossils.
