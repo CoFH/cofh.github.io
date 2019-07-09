@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/3b00a7c9dc3743d59da6948006badc4d/archive/fa185bd33ab859e498860c8323dc3c60ee8109b7.zip
 type: distribution
 group: surface
-title: Uniform
+title: Surface
 primary: true
 images:
   -
