@@ -10,14 +10,19 @@ title: Cluster
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: cluster/primary/one.png
+    title: An individual cluster of iron ore.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: cluster/primary/two.png
+    title: A view from below of a 5x5 chunk area with everything stripped except the iron ore.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: cluster/primary/three.png
+    title: A view from above of a 5x5 chunk area with everything stripped except the iron ore (which is highlighted).
 ---
 
-This is an example of spawning clusters.
+Next we'll spawn some clusters of iron ore.
+
+- Our clusters have a `cluster-size` of 8 (note that this is not equivalent to number of blocks).
+- They will be spawned between Y=0 and Y=64 (see: `min-height`, `max-height`).
+- One in eight chunks will spawn this feature (see: `chunk-chance`).
+- For each of those chunks, the generator will attempt to spawn our feature eight times (see: `cluster-count`).
