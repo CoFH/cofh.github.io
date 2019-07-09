@@ -10,13 +10,13 @@ title: Spike
 primary: true
 images:
   -
-    href: banners/banner1.jpg
+    href: spike/primary/one.png
     title: I am the first example.
   -
-    href: banners/banner2.jpg
+    href: spike/primary/two.png
     title: I am the second title.
   -
-    href: banners/banner3.jpg
+    href: spike/primary/three.png
     title: I am the third title.
 ---
 
