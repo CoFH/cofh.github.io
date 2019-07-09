@@ -10,14 +10,14 @@ title: Decoration
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: decoration/primary/one.png
+    title: A close-up of a cluster of dandelions.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: decoration/primary/two.png
+    title: A wide, sweeping shot showing many clusters of dandelions.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: decoration/primary/three.png
+    title: A handful of clusters of dandelions from above.
 ---
 
-This is an example of spawning decorations.
+In this example, we'll spawn large groups of dandelions around the surface of the world.
