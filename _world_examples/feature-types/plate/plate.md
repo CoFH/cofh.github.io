@@ -10,14 +10,14 @@ title: Plate
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: plate/primary/one.png
+    title: A cylindrical cobblestone structure viewed from above.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: plate/primary/two.png
+    title: A cylindrical cobblestone structure viewed from an angle.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: plate/primary/three.png
+    title: Cobblestone cylinders sparsely distributed around the surface.
 ---
 
-This is an example of spawning plates.
+Cylindrical cobblestone structures will spawn relatively uncommonly upon the world's surface, using the code from this example.
