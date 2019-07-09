@@ -10,11 +10,9 @@
       <script src="{{ include.link.code.embed }}"></script>
       {% endif %}
 
-      <div class="uk-grid uk-margin-top uk-margin-bottom">
-
+      <div class="uk-grid uk-margin-top">
       {% for image in include.images %}
-
-        <div class="uk-width-medium-1-3">
+        <div class="uk-width-medium-1-3 uk-margin-bottom">
           <a
             href="/assets/images/examples/{{ image.href }}"
             data-uk-lightbox="{group: '{{ include.title | slugify }}'}"
@@ -22,7 +20,6 @@
             <img class="uk-thumbnail" src="/assets/images/examples/{{ image.href }}">
           </a>
         </div>
-
       {% endfor %}
       </div>
 
