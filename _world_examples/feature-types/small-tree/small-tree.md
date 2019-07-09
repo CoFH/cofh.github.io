@@ -10,14 +10,14 @@ title: Small Tree
 primary: true
 images:
   -
-    href: banners/banner1.jpg
+    href: small-tree/primary/one.png
     title: I am the first example.
   -
-    href: banners/banner2.jpg
+    href: small-tree/primary/two.png
     title: I am the second title.
   -
-    href: banners/banner3.jpg
+    href: small-tree/primary/three.png
     title: I am the third title.
 ---
 
-This is an example of spawning small trees.
+If the Nether had trees, perhaps this is what they'd look like?
