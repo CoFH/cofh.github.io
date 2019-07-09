@@ -10,14 +10,16 @@ title: Sparse Cluster
 primary: true
 images:
   -
-    href: banners/banner1.jpg
+    href: sparse-cluster/primary/one.png
     title: I am the first example.
   -
-    href: banners/banner2.jpg
+    href: sparse-cluster/primary/two.png
     title: I am the second title.
   -
-    href: banners/banner3.jpg
+    href: sparse-cluster/primary/three.png
     title: I am the third title.
 ---
 
-This is an example of spawning sparse clusters.
+Clusters and Sparse Clusters are very similar, so for this example we've left every value identical to the Cluster example **except for** the only value which acts differently - `cluster-size`.
+
+You may [read the documentation](docs/cofh-world/world-generator-configuration/feature-types/sparse-cluster/) for Sparse Clusters to learn more.
