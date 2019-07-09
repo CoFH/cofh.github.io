@@ -10,14 +10,19 @@ title: Boulder
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: boulder/primary/one.png
+    title: A close-up of an individual boulder.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: boulder/primary/two.png
+    title: A wide shot of many boulders littered across the landscape.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: boulder/primary/three.png
+    title: A birdseye-view of many boulders.
 ---
 
-This is an example of spawning boulders.
+Let's spawn some boulders made of cobblestone and mossy cobblestone (see: `block`) upon the surface of the world.
+
+- Our boulders have a `diameter` of 3 and a `size-variance` of 2 (which is the default).
+- One in four chunks will spawn this feature (see: `chunk-chance`).
+- For each of those chunks, the generator will attempt to spawn our feature once (see: `cluster-count`).
+- Each cluster is comprised of a single boulder (see: `count`).
