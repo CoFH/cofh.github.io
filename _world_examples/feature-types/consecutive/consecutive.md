@@ -10,14 +10,16 @@ title: Consecutive
 primary: true
 images:
   -
-    href: banners/banner4.jpg
+    href: consecutive/primary/one.png
     title: I am the first example.
   -
-    href: banners/banner5.jpg
+    href: consecutive/primary/two.png
     title: I am the second title.
   -
-    href: banners/banner6.jpg
+    href: consecutive/primary/three.png
     title: I am the third title.
 ---
 
-This is an example of spawning consecutives.
+We'll make it so that 1 in 64 chunks have a chance of spawning a group of 4 spikes.
+
+The spikes will consist of andesite, diorite, granite and stone.
