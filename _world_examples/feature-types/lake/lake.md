@@ -11,13 +11,13 @@ primary: true
 images:
   -
     href: lake/primary/one.png
-    title: I am the first example.
+    title: A single lava lake viewed from an angle.
   -
     href: lake/primary/two.png
-    title: I am the second title.
+    title: Many lava lakes spread out over the world's surface.
   -
     href: lake/primary/three.png
-    title: I am the third title.
+    title: Three lava lakes viewed from above.
 ---
 
 We will distribute lava lakes upon the world's surface, for this example.

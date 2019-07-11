@@ -11,13 +11,13 @@ primary: true
 images:
   -
     href: spike/primary/one.png
-    title: I am the first example.
+    title: Three spikes made of red hardened clay.
   -
     href: spike/primary/two.png
-    title: I am the second title.
+    title: Several groups of red hardened clay spikes viewed from above.
   -
     href: spike/primary/three.png
-    title: I am the third title.
+    title: A side-view of tens of groups of red hardened clay spikes all the way to the horizon.
 ---
 
 This is an example of spawning spikes.

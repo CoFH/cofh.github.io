@@ -11,13 +11,13 @@ primary: true
 images:
   -
     href: sparse-cluster/primary/one.png
-    title: I am the first example.
+    title: A close-up view with everything stripped except for several sparse clusters of iron ore.
   -
     href: sparse-cluster/primary/two.png
-    title: I am the second title.
+    title: A view from below of a 5x5 chunk area with everything stripped except the sparse clusters of iron ore.
   -
     href: sparse-cluster/primary/three.png
-    title: I am the third title.
+    title: A view from above of a 5x5 chunk area with everything stripped except the sparse clusters of iron ore.
 ---
 
 Clusters and Sparse Clusters are very similar, so for this example we've left every value identical to the Cluster example **except for** the only value which acts differently - `cluster-size`.

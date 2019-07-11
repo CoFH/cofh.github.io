@@ -11,13 +11,13 @@ primary: true
 images:
   -
     href: small-tree/primary/one.png
-    title: I am the first example.
+    title: A strange tree viewed from an angle.
   -
     href: small-tree/primary/two.png
-    title: I am the second title.
+    title: Four strange trees spread out evenly.
   -
     href: small-tree/primary/three.png
-    title: I am the third title.
+    title: A side-view of many strange trees.
 ---
 
 If the Nether had trees, perhaps this is what they'd look like?
