@@ -11,13 +11,13 @@ primary: true
 images:
   -
     href: consecutive/primary/one.png
-    title: I am the first example.
+    title: A close up of a group of 4 spikes.
   -
     href: consecutive/primary/two.png
-    title: I am the second title.
+    title: Shows several groups of spikes scattered around from up high.
   -
     href: consecutive/primary/three.png
-    title: I am the third title.
+    title: A single group of spikes from a birds-eye view.
 ---
 
 We'll make it so that 1 in 64 chunks have a chance of spawning a group of 4 spikes.
