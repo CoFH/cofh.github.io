@@ -10,14 +10,16 @@ title: Sequential
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: sequential/primary/one.png
+    title: A lava lake with an obsidian spike protruding from it.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: sequential/primary/two.png
+    title: Three lava lakes each with an obsidian spike poking out.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: sequential/primary/three.png
+    title: Lots of lava lakes dotted about the surface each with their own obsidian spike.
 ---
 
-This is an example of spawning sequentials.
+We'll spawn a sequence of two items in the same position: lava lakes and spikes.
+
+The final result is lava lakes with obsidian spikes protruding from them.
