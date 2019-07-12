@@ -10,14 +10,14 @@ title: Stalagmite
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: stalagmite/primary/one.png
+    title: A close shot of a single mossy cobblestone stalagmite.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: stalagmite/primary/two.png
+    title: Stalagmites made of mossy cobblestone as far as the eye can see.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: stalagmite/primary/three.png
+    title: A cluster of mossy cobblestone stalagmites as viewed from above.
 ---
 
-This is an example of spawning stalagmites.
+This is an example of spawning large stalagmites made of mossy cobblestone.
