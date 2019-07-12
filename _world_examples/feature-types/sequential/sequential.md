@@ -20,6 +20,9 @@ images:
     title: Lots of lava lakes dotted about the surface each with their own obsidian spike.
 ---
 
-We'll spawn a sequence of two items in the same position: lava lakes and spikes.
+We'll spawn a sequence of two items in the same position:
+
+* a lava lake
+* a spike
 
 The final result is lava lakes with obsidian spikes protruding from them.

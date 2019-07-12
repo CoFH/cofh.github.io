@@ -20,4 +20,4 @@ images:
     title: A side-view of tens of groups of red hardened clay spikes all the way to the horizon.
 ---
 
-This is an example of spawning spikes.
+We'll spawn groups of 3 red hardened clay spikes for this example. 
