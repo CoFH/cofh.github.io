@@ -4,21 +4,21 @@
 
   {% assign examples = site.world_examples
     | where: "group", include.group
-    | where: "primary", include.primary
   %}
 
 {% else if include.type %}
 
   {% assign examples = site.world_examples
     | where: "type", include.type
-    | where: "primary", include.primary
   %}
 
-{% else %}
-
-### wtf m8
-
 {% endif %}
+
+{% if include.primary %}
+
+  {% assign examples = examples
+    | where: "primary", include.primary
+  $}
 
 {% if examples.size == 0 %}
 
@@ -33,7 +33,7 @@
     link=example.link
     title=example.title
     images=example.images
-    primary=example.primary
+    primary=include.primary
     content=example.content %}
 
 {% endfor %}
