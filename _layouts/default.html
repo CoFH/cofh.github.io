@@ -38,7 +38,7 @@
         <link rel="stylesheet" href="/assets/css/highlight/vs.css" />
         <link rel="stylesheet" href="/assets/css/cofh.css{{cache_buster}}" />
 
-        {% for style in page.styles %}
+        {% for style in layout.styles %}
         <link rel="stylesheet" href="{{ style }}" />
         {% endfor %}
 
@@ -51,7 +51,7 @@
         <script src="/assets/js/uikit/components/slider.min.js"></script>
         <script src="/assets/js/cofh.js{{cache_buster}}"></script>
 
-        {% for script in page.scripts %}
+        {% for script in layout.scripts %}
         <script src="{{ script }}"></script>
         {% endfor %}
     </head>
