@@ -10,7 +10,7 @@ type: feature
 # support "sub-collections". The group allows us to use the groupBy Liquid filter
 # on the examples collection. TL;DR: EVERY example for each INDIVIDUAL 
 # distribution and feature type all belong to the same group.
-group: boulder
+group: my-group
 # Self-explanatory.
 title: My lovely title.
 # Can be either true or false. If true, this is regarded as the primary example 
