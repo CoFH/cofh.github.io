@@ -10,14 +10,18 @@ title: Structure
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: structure/primary/one.png
+    title: A close view of the structure from a 45 degree angle.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: structure/primary/two.png
+    title: How the structure looks from the inside.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: structure/primary/three.png
+    title: The structure as seen from far above.
 ---
 
 This is an example of spawning structures.
+
+Do note that you'll need <a href="/assets/other/example_structure.nbt" target="_blank">the example structure NBT file</a>, or to create your own using structure blocks and to call it `example_structure.nbt` (see `structure` in the JSON).
+
+{% include notice.html notice="The NBT file will need to be placed in the same directory as the JSON file." %}
