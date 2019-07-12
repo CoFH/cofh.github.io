@@ -1,9 +1,14 @@
+{% if include.primary %}
+  {% assign classes="uk-panel uk-panel-box-primary uk-panel-box" %}
+{% else %}
+  {% assign classes="uk-panel uk-panel-box" %}
+{% endif %}
 
 ### {{ include.title }}
 
 <div class="uk-grid">
   <div class="uk-width-1">
-    <div class="uk-panel uk-panel-box">
+    <div class="{{ classes }}">
       {{ include.content | markdownify }}
 
       {% if include.link.code.embed %}
