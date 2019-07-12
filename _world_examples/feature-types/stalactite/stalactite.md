@@ -11,13 +11,13 @@ primary: true
 images:
   -
     href: banners/banner1.jpg
-    title: I am the first example.
+    title: A close-up of several large stalactites.
   -
     href: banners/banner2.jpg
-    title: I am the second title.
+    title: Several stalactites in the foreground with hundreds more visible in the background.
   -
     href: banners/banner3.jpg
-    title: I am the third title.
+    title: A 5x5 chunk area of the ceiling cut away, with the stalactites still intact.
 ---
 
-This is an example of spawning stalactites.
+This is an example of spawning large stalactites made of mossy cobblestone.
