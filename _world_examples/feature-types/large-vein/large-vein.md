@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/bce1c8d264662e46c324b8b67b9acafe/archive/e37480baf198bb1cb656292195e6e324b2907458.zip
 type: feature
 group: large-vein
-title: Large Vein
+title: "Large Vein: Large Veins of Bone"
 primary: true
 images:
   -

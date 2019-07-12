@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/d6dcfc20ef1b9af102a148d4acc33e55/archive/f1c1e24c747f54be57ad29926b6849c029eb7ac2.zip
 type: feature
 group: sequential
-title: Sequential
+title: "Sequential: Lava Lakes with Obsidian Spikes"
 primary: true
 images:
   -

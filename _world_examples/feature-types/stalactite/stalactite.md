@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/7c932bcf15a5f3596e33dd56d8854cd8/archive/2e53ff310aab0921367590f9c23675eec1ca9b06.zip
 type: feature
 group: stalactite
-title: Stalactite
+title: "Stalactite: Large Mossy Cobblestone Stalactites"
 primary: true
 images:
   -

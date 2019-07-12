@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/4da2c926a9040b9bfe925f6400eae87e/archive/1b54e077b442c202943191f571db7a89df54fcdb.zip
 type: feature
 group: consecutive
-title: Consecutive
+title: "Consecutive: Varied Stone Spikes"
 primary: true
 images:
   -

@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/dd931ea678e22f3740a7b2f1f00b6a6d/archive/a5d0d92b55580b64130f03ad89d011414a33a36d.zip
 type: feature
 group: small-tree
-title: Small Tree
+title: "Small Tree: Strange Nether Trees"
 primary: true
 images:
   -

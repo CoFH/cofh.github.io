@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/898757dad45ddfc239421084e427c954/archive/a8003506f607387148531c042dd14e83bb9a287b.zip
 type: feature
 group: geode
-title: Geode
+title: "Geode: Iron & Gold Geodes"
 primary: true
 images:
   -

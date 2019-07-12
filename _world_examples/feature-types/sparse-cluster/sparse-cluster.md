@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/948ddbe91c504119b6b0b678cbe29044/archive/341cd9fe73a9a6dd3ba25e9121142ed6374b9839.zip
 type: feature
 group: sparse-cluster
-title: Sparse Cluster
+title: "Sparse Cluster: Small Iron Ore Clusters"
 primary: true
 images:
   -

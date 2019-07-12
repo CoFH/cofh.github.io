@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/9a60fd1e8ab2ff290a43cad2baaedda8/archive/652eda713b9feada6da51fb5e6537885837574a8.zip
 type: feature
 group: decoration
-title: Decoration
+title: "Decoration: Dandelion Groups"
 primary: true
 images:
   -

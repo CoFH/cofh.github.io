@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/b32fe2255dc566700e93f8653aafe8cc/archive/2098dee6eaa663bdc6b5132caf51e034784656fc.zip
 type: feature
 group: cluster
-title: Cluster
+title: "Cluster: Iron Ore Clusters"
 primary: true
 images:
   -

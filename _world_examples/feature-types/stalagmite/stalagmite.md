@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/56a68d50ade2cb207597bd7df28ecf46/archive/b7158797acd407d5e8caeb82d007bb4649a7e107.zip
 type: feature
 group: stalagmite
-title: Stalagmite
+title: "Stagmite: Large Mossy Cobblestone Stalagmites"
 primary: true
 images:
   -

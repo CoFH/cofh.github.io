@@ -6,7 +6,7 @@ link:
     download: https://gist.github.com/sustained/84b67791b1ac04bcc0b6dbb7582c2eca/archive/4286f402e7cfd68621e3912ba5adc93a2572630a.zip
 type: feature
 group: spout
-title: Spout
+title: "Spout: Cobblestone Pillars"
 primary: true
 images:
   -
