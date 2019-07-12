@@ -19,19 +19,19 @@ The actual feature/distribution type and common format pages themselves, however
 
 ## Feature Type Examples
 
-{% include examples.html type="feature" primary=true %}
+{% include examples.html type="feature" primary=true showDocs=true %}
 
 --------
 
 ## Distribution Type Examples
 
-{% include examples.html type="distribution" primary=true %}
+{% include examples.html type="distribution" primary=true showDocs=true %}
 
 --------
 
 ## Common Format Examples
 
-{% include examples.html type="common-format" primary=true %}
+{% include examples.html type="common-format" primary=true showDocs=true %}
 
 ## Contributing Examples
 
