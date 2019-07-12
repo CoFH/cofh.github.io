@@ -10,14 +10,16 @@ title: Spout
 primary: true
 images:
   -
-    href: banners/banner1.jpg
-    title: I am the first example.
+    href: spout/primary/one.png
+    title: A 1x1 cobblestone pillar reaching up into the sky.
   -
-    href: banners/banner2.jpg
-    title: I am the second title.
+    href: spout/primary/two.png
+    title: Many 1x1 cobblestone pillars of varying heights dotted across the landscape.
   -
-    href: banners/banner3.jpg
-    title: I am the third title.
+    href: spout/primary/three.png
+    title: Many 1x1 cobblestone pillars of varying heights dotted across the landscape.
 ---
 
-This is an example of spawning spouts.
+It looks like someone has been pillaring up into the sky for some reason and forgot to clean up after themselves!
+
+At least, that's how we are going to make it appear with this example.
