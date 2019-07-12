@@ -33,7 +33,7 @@
       </div>
 
       <div class="uk-flex uk-flex-right">
-        {% if include.primary %}
+        {% if include.showDocs %}
         <a
           class="uk-button uk-button-primary uk-button-small uk-border-rounded uk-margin-left"
           href="{{ include.link.docs }}">

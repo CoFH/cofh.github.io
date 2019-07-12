@@ -14,11 +14,9 @@
 
 {% endif %}
 
-{% if include.primary %}
-
-  {% assign examples = examples
-    | where: "primary", include.primary
-  $}
+{% assign examples = examples
+  | where: "primary", include.primary
+%}
 
 {% if examples.size == 0 %}
 
@@ -33,7 +31,8 @@
     link=example.link
     title=example.title
     images=example.images
-    primary=include.primary
+    primary=example.primary
+    showDocs=include.showDocs
     content=example.content %}
 
 {% endfor %}
