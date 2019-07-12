@@ -322,4 +322,5 @@ object with the following values.
 Examples
 --------
 
+{% include examples.html group="number-provider" primary=true %}
 {% include examples.html group="number-provider" primary=false %}

@@ -92,4 +92,5 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
 Examples
 --------
 
+{% include examples.html group="plate" primary=true %}
 {% include examples.html group="plate" primary=false %}

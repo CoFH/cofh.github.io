@@ -88,4 +88,5 @@ entry](/docs/cofh-world/world-generator-configuration/feature-format/#features).
 Examples
 --------
 
+{% include examples.html group="surface" primary=true %}
 {% include examples.html group="surface" primary=false %}

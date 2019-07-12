@@ -80,4 +80,5 @@ entry](/docs/cofh-world/world-generator-configuration/feature-format/#features).
 Examples
 --------
 
+{% include examples.html group="underfluid" primary=true %}
 {% include examples.html group="underfluid" primary=false %}

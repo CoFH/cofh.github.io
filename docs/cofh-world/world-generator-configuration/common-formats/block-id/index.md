@@ -89,4 +89,5 @@ the `name` value.
 Examples
 --------
 
+{% include examples.html group="block-id" primary=true %}
 {% include examples.html group="block-id" primary=false %}

@@ -50,4 +50,5 @@ entry](/docs/cofh-world/world-generator-configuration/feature-format/#features).
 Examples
 --------
 
+{% include examples.html group="sequential" primary=true %}
 {% include examples.html group="sequential" primary=false %}

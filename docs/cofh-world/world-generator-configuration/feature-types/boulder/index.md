@@ -124,4 +124,5 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
 Examples
 --------
 
+{% include examples.html group="boulder" primary=true %}
 {% include examples.html group="boulder" primary=false %}

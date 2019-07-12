@@ -93,4 +93,5 @@ configuration](/docs/cofh-world/world-generator-configuration/feature-format/#fe
 Examples
 --------
 
+{% include examples.html group="large-vein" primary=true %}
 {% include examples.html group="large-vein" primary=false %}
