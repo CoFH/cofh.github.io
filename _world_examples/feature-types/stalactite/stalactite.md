@@ -10,13 +10,13 @@ title: Stalactite
 primary: true
 images:
   -
-    href: banners/banner1.jpg
+    href: stalactite/primary/one.png
     title: A close-up of several large stalactites.
   -
-    href: banners/banner2.jpg
+    href: stalactite/primary/two.png
     title: Several stalactites in the foreground with hundreds more visible in the background.
   -
-    href: banners/banner3.jpg
+    href: stalactite/primary/three.png
     title: A 5x5 chunk area of the ceiling cut away, with the stalactites still intact.
 ---
 
