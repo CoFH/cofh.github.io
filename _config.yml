@@ -17,18 +17,24 @@ defaults:
     values:
       layout: docs
 
+collections:
+  - world_examples
+
 exclude:
   - README.md
   - /*.pdn
   - /*.xcf
   - /Thumbs.db
   - /.unused
+  - vendor
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+
+highlighter: rouge
 
 permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5

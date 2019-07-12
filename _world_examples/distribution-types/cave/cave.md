@@ -1,0 +1,14 @@
+---
+link:
+  docs: /docs/cofh-world/world-generator-configuration/distribution-types/cave/
+  code:
+    embed: https://gist.github.com/sustained/fd95551c9e89d06c3d7678ad5240a98f.js
+    download: https://gist.github.com/sustained/fd95551c9e89d06c3d7678ad5240a98f/archive/f18a680038d5d89cbbe3bd048fd7cea095912af8.zip
+type: distribution
+group: cave
+title: Cave
+primary: true
+images: []
+---
+
+This is an example of distributing in caves.
