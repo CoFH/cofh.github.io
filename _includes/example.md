@@ -7,7 +7,11 @@
       {{ include.content | markdownify }}
 
       {% if include.link.code.embed %}
-      <script src="{{ include.link.code.embed }}"></script>
+        <script src="{{ include.link.code.embed }}"></script>
+      {% endif %}
+
+      {% if include.images.size == 0 %}
+        {% include notice.html notice="There are no images for this example!" %}
       {% endif %}
 
       <div class="uk-grid uk-margin-top">
