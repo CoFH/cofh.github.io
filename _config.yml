@@ -19,8 +19,11 @@ defaults:
 
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
   - _scripts
   - _modrepos
+  - .env
   - /*.pdn
   - /*.xcf
   - /Thumbs.db
