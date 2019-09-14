@@ -14,5 +14,6 @@
             80
         ]
     },
-    "python.linting.enabled": false
+    "python.linting.enabled": false,
+    "python.formatting.provider": "black"
 }

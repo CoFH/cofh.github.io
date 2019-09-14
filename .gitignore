@@ -1,5 +1,6 @@
-_site/
+_site
 Thumbs.db
 .jekyll-metadata
 Gemfile.lock
 .env
+_modrepos

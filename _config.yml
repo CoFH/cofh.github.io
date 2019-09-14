@@ -19,6 +19,8 @@ defaults:
 
 exclude:
   - README.md
+  - _scripts
+  - _modrepos
   - /*.pdn
   - /*.xcf
   - /Thumbs.db
