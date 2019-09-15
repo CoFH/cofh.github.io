@@ -1,6 +1,5 @@
 ---
 title: Block of Constantan
-nav: thermal-foundation-2
 image:
 - alt: Block of constantan
   file: thermal-foundation-2/storage-block-constantan.png

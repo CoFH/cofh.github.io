@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Pyroconvective Loop'
-nav: thermal-expansion-5
 image:
 - alt: Pyroconvective loop augment
   file: thermal-expansion-5/augment-machine-crucible-lava.gif

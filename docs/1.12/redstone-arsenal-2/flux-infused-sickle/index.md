@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Sickle
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused sickle
   file: redstone-arsenal-2/flux-infused-sickle.png

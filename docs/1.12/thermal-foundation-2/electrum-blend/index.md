@@ -1,6 +1,5 @@
 ---
 title: Electrum Blend
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/electrum-blend/
 - /docs/electrum-blend/

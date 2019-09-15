@@ -1,6 +1,5 @@
 ---
 title: Steam
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/steam/
 - /docs/thermal-foundation/fluids/other/steam/

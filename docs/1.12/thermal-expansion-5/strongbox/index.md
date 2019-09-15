@@ -1,6 +1,5 @@
 ---
 title: Strongbox
-nav: thermal-expansion-5
 image:
 - alt: Strongbox (Basic)
   file: thermal-expansion-5/strongbox-basic.png

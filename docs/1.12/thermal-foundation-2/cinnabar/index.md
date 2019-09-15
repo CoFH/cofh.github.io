@@ -1,6 +1,5 @@
 ---
 title: Cinnabar
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/materials/cinnabar/
 - /docs/thermal-foundation/items/materials/other/cinnabar/

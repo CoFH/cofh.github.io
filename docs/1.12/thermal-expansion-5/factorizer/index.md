@@ -1,6 +1,5 @@
 ---
 title: Factorizer
-nav: thermal-expansion-5
 redirect_from:
 - /docs/factorizer/
 - /docs/thermal-expansion/factorizer/

@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Reflux Column'
-nav: thermal-expansion-5
 image:
 - alt: Reflux column augment
   file: thermal-expansion-5/augment-machine-refinery-oil.png

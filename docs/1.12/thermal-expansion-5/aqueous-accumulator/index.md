@@ -1,6 +1,5 @@
 ---
 title: Aqueous Accumulator
-nav: thermal-expansion-5
 redirect_from:
 - /docs/thermal-expansion/machines/aqueous-accumulator/
 - /docs/thermal-expansion/devices/aqueous-accumulator/

@@ -1,6 +1,5 @@
 ---
 title: Tin Plate
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/plates/tin-plate/
 - /docs/tin-plate/

@@ -1,6 +1,5 @@
 ---
 title: Zephyrean Aerotheum
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/zephyrean-aerotheum/
 - /docs/thermal-foundation/fluids/elemental/zephyrean-aerotheum/

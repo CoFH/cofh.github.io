@@ -1,6 +1,5 @@
 ---
 title: Thermal Cultivation
-nav: thermal-cultivation
 redirect_from:
 - /docs/thermal-cultivation/
 ---

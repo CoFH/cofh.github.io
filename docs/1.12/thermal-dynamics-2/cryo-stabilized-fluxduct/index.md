@@ -1,6 +1,5 @@
 ---
 title: Cryo-Stabilized Fluxduct
-nav: thermal-dynamics-2
 image:
 - alt: Cryo-stabilized fluxduct
   file: thermal-dynamics-2/fluxduct-cryo-stabilized.png

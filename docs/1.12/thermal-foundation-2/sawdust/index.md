@@ -1,6 +1,5 @@
 ---
 title: Sawdust
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-expansion/materials/sawdust/
 - /docs/thermal-foundation/materials/sawdust/

@@ -1,6 +1,5 @@
 ---
 title: Iron Gear
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/materials/gears/
 - /docs/thermal-foundation/items/materials/gears/iron-gear/

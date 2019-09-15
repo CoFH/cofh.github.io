@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Flux Reconstruction'
-nav: thermal-expansion-5
 image:
 - alt: Flux reconstruction augment
   file: thermal-expansion-5/augment-machine-charger-repair.png

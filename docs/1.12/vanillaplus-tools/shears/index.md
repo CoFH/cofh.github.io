@@ -1,6 +1,5 @@
 ---
 title: Shears (Vanilla+ Tools)
-nav: vanillaplus-tools
 image:
 - alt: Gold shears
   file: vanillaplus-tools/shears-gold.png

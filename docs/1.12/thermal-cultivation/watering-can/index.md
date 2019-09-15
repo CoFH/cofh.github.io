@@ -1,6 +1,5 @@
 ---
 title: Watering Can
-nav: thermal-cultivation
 image:
 - alt: Watering can (Basic)
   file: thermal-cultivation/watering-can-basic.png

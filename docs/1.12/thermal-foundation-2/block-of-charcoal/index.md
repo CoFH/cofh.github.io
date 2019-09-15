@@ -1,6 +1,5 @@
 ---
 title: Block of Charcoal
-nav: thermal-foundation-2
 redirect_from:
 - /docs/block-of-charcoal/
 - /docs/thermal-foundation/block-of-charcoal/

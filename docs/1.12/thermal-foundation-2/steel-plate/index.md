@@ -1,6 +1,5 @@
 ---
 title: Steel Plate
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/plates/steel-plate/
 - /docs/steel-plate/

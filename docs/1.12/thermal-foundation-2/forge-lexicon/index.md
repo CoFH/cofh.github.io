@@ -1,6 +1,5 @@
 ---
 title: Forge Lexicon
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/other/forge-lexicon/
 - /docs/thermal-foundation/items/forge-lexicon/

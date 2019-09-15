@@ -1,6 +1,5 @@
 ---
 title: Enderium Blend
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/enderium-blend/
 - /docs/enderium-blend/

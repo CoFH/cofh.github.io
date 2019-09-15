@@ -1,6 +1,5 @@
 ---
 title: Constantan Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/ingots/constantan-ingot/
 - /docs/constantan-ingot/

@@ -1,6 +1,5 @@
 ---
 title: Resonant Fluxduct
-nav: thermal-dynamics-2
 image:
 - alt: Resonant fluxduct
   file: thermal-dynamics-2/fluxduct-resonant.png

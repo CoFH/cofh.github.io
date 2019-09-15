@@ -1,6 +1,5 @@
 ---
 title: Electrum Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/alloys/electrum/
 - /docs/thermal-foundation/metals-and-alloys/electrum/

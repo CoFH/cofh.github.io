@@ -1,6 +1,5 @@
 ---
 title: Reusable Morb
-nav: thermal-expansion-5
 redirect_from:
 - /docs/stasis-morb/
 - /docs/reusable-morb/

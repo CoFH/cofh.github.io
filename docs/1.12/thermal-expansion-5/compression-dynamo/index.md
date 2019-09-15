@@ -1,6 +1,5 @@
 ---
 title: Compression Dynamo
-nav: thermal-expansion-5
 image:
 - alt: Compression dynamo
   file: thermal-expansion-5/dynamo-compression-rf.png

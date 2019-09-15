@@ -1,6 +1,5 @@
 ---
 title: Aquatic Entangler
-nav: thermal-expansion-5
 redirect_from:
 - /docs/aquatic-entangler/
 - /docs/thermal-expansion/aquatic-entangler/

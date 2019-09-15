@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Transmission Coil Ducting'
-nav: thermal-expansion-5
 image:
 - alt: Transmission coil ducting augment
   file: thermal-expansion-5/augment-dynamo-coil-duct.png

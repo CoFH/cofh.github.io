@@ -1,6 +1,5 @@
 ---
 title: Block of Steel
-nav: thermal-foundation-2
 image:
 - alt: Block of steel
   file: thermal-foundation-2/storage-block-steel.png

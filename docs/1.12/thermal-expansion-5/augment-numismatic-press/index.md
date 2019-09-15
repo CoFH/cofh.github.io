@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Numismatic Press'
-nav: thermal-expansion-5
 image:
 - alt: Numismatic press augment
   file: thermal-expansion-5/augment-machine-compactor-coin.png

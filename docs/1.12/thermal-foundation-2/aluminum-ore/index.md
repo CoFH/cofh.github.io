@@ -1,6 +1,5 @@
 ---
 title: Aluminum Ore
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/ores/aluminum-ore/
 - /docs/thermal-foundation/world/ores/aluminum-ore/

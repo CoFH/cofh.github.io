@@ -1,6 +1,5 @@
 ---
 title: Flux Capacitor
-nav: thermal-expansion-5
 image:
 - alt: Flux capacitor (Basic)
   file: thermal-expansion-5/flux-capacitor-basic.png

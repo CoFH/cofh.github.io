@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Flux Anodizers'
-nav: thermal-expansion-5
 image:
 - alt: Flux anodizers augment
   file: thermal-expansion-5/augment-machine-furnace-ore.png

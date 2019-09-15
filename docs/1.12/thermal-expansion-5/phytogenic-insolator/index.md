@@ -1,6 +1,5 @@
 ---
 title: Phytogenic Insolator
-nav: thermal-expansion-5
 redirect_from:
 - /docs/thermal-expansion/machines/phytogenic-insolator/
 - /docs/augment-mycelium-substrate/

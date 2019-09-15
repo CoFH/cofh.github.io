@@ -1,6 +1,5 @@
 ---
 title: Fluxomagnet
-nav: thermal-innovation
 redirect_from:
 - /docs/fluxomagnet/
 - /docs/thermal-innovation/fluxomagnet/

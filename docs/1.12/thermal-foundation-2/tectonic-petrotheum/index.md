@@ -1,6 +1,5 @@
 ---
 title: Tectonic Petrotheum
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/tectonic-petrotheum/
 - /docs/thermal-foundation/fluids/elemental/tectonic-petrotheum/

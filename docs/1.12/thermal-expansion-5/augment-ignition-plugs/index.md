@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Ignition Plugs'
-nav: thermal-expansion-5
 image:
 - alt: Ignition plugs augment
   file: thermal-expansion-5/augment-dynamo-compression-fuel.png

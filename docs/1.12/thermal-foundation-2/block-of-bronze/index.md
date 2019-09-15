@@ -1,6 +1,5 @@
 ---
 title: Block of Bronze
-nav: thermal-foundation-2
 image:
 - alt: Block of bronze
   file: thermal-foundation-2/storage-block-bronze.png

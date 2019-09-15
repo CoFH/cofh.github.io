@@ -1,6 +1,5 @@
 ---
 title: Cryotheum Dust
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/items/cryotheum-dust/
 - /docs/thermal-foundation/elemental-materials/cryotheum-dust/

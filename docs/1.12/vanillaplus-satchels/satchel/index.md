@@ -1,6 +1,5 @@
 ---
 title: Satchel (Vanilla+ Satchels)
-nav: vanillaplus-satchels
 image:
 - alt: Satchel
   file: vanillaplus-satchels/satchel-basic.png

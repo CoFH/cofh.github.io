@@ -1,6 +1,5 @@
 ---
 title: Saw Blade
-nav: thermal-foundation-2
 redirect_from:
 - /docs/saw-blade/
 - /docs/thermal-foundation/saw-blade/

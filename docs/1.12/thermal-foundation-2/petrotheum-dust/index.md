@@ -1,6 +1,5 @@
 ---
 title: Petrotheum Dust
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/elemental-materials/petrotheum-dust/
 - /docs/thermal-foundation/items/materials/elemental/petrotheum-dust/

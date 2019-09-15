@@ -1,6 +1,5 @@
 ---
 title: "Redstone Flux: A Primer"
-nav: redstone-flux
 redirect_from:
   - /redstone-flux/a-primer.html
   - /docs/redstone-flux/a-primer/

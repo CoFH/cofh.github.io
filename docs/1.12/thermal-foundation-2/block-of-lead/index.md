@@ -1,6 +1,5 @@
 ---
 title: Block of Lead
-nav: thermal-foundation-2
 image:
 - alt: Block of lead
   file: thermal-foundation-2/storage-block-lead.png

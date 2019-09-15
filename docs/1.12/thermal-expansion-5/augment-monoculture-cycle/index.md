@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Monoculture Cycle'
-nav: thermal-expansion-5
 image:
 - alt: Monoculture cycle augment
   file: thermal-expansion-5/augment-machine-insolator-monoculture.gif

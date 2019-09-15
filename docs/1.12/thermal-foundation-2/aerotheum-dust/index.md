@@ -1,6 +1,5 @@
 ---
 title: Aerotheum Dust
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/elemental-materials/aerotheum-dust/
 - /docs/thermal-foundation/items/materials/elemental/aerotheum-dust/

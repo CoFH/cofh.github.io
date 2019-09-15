@@ -1,6 +1,5 @@
 ---
 title: Block of Mana Infused Metal
-nav: thermal-foundation-2
 image:
 - alt: Block of mana infused metal
   file: thermal-foundation-2/storage-block-mithril.png

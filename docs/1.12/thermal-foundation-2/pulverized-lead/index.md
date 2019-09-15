@@ -1,6 +1,5 @@
 ---
 title: Pulverized Lead
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/pulverized-lead/
 - /docs/pulverized-lead/

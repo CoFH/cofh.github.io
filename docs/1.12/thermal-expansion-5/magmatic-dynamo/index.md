@@ -1,6 +1,5 @@
 ---
 title: Magmatic Dynamo
-nav: thermal-expansion-5
 image:
 - alt: Magmatic dynamo
   file: thermal-expansion-5/dynamo-magmatic-rf.png

@@ -1,6 +1,5 @@
 ---
 title: Decoctive Diffuser
-nav: thermal-expansion-5
 redirect_from:
 - /docs/decoctive-diffuser/
 - /docs/thermal-expansion/decoctive-diffuser/

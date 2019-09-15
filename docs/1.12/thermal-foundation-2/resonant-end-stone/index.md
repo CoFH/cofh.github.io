@@ -1,6 +1,5 @@
 ---
 title: Resonant End Stone
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/ores/resonant-end-stone/
 - /docs/thermal-foundation/world/fluid-ores/resonant-end-stone/

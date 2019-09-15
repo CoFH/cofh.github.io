@@ -1,6 +1,5 @@
 ---
 title: Energized Glowstone
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/fluids/energized-glowstone/
 - /docs/thermal-foundation/fluids/energized-glowstone/

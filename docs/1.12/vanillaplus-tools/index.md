@@ -1,6 +1,5 @@
 ---
 title: Vanilla+ Tools
-nav: vanillaplus-tools
 redirect_from:
 - /docs/vanillaplus-tools/
 ---

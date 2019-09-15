@@ -1,6 +1,5 @@
 ---
 title: Mana Infused Coin
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/coins/mana-infused-coin/
 - /docs/mana-infused-coin/

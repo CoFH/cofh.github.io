@@ -1,6 +1,5 @@
 ---
 title: Enervation Dynamo
-nav: thermal-expansion-5
 image:
 - alt: Enervation dynamo
   file: thermal-expansion-5/dynamo-enervation-rf.png

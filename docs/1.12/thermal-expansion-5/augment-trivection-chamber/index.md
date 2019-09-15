@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Trivection Chamber'
-nav: thermal-expansion-5
 image:
 - alt: Trivection chamber augment
   file: thermal-expansion-5/augment-machine-furnace-food.png

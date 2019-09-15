@@ -1,6 +1,5 @@
 ---
 title: Leadstone Fluxduct
-nav: thermal-dynamics-2
 image:
 - alt: Leadstone fluxduct
   file: thermal-dynamics-2/fluxduct-leadstone.png

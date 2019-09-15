@@ -1,6 +1,5 @@
 ---
 title: Item Allocator
-nav: thermal-expansion-5
 redirect_from:
 - /docs/thermal-expansion/devices/item-allocator/
 - /docs/item-allocator/

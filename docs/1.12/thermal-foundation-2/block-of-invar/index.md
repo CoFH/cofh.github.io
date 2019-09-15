@@ -1,6 +1,5 @@
 ---
 title: Block of Invar
-nav: thermal-foundation-2
 image:
 - alt: Block of invar
   file: thermal-foundation-2/storage-block-invar.png

@@ -1,6 +1,5 @@
 ---
 title: Fluxed Aqua-Chow
-nav: thermal-foundation-2
 redirect_from:
 - /docs/fluxed-aqua-chow/
 - /docs/thermal-foundation/fluxed-aqua-chow/

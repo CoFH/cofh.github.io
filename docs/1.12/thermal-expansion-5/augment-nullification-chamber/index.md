@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Nullification Chamber'
-nav: thermal-expansion-5
 image:
 - alt: Nullification chamber augment
   file: thermal-expansion-5/augment-machine-secondary-null.gif

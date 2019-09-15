@@ -1,6 +1,5 @@
 ---
 title: Crescent Hammer
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-expansion/tools/crescent-hammer/
 - /docs/thermal-foundation/items/crescent-hammer/

@@ -1,6 +1,5 @@
 ---
 title: Reactant Dynamo
-nav: thermal-expansion-5
 image:
 - alt: Reactant dynamo
   file: thermal-expansion-5/dynamo-reactant-rf.png

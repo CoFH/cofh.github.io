@@ -1,6 +1,5 @@
 ---
 title: Pulverized Mana Infused Metal
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/pulverized-mana-infused-metal/
 - /docs/pulverized-mana-infused-metal/

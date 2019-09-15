@@ -1,6 +1,5 @@
 ---
 title: Redstone Servo
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/items/pneumatic-servo/
 - /docs/thermal-expansion/materials/pneumatic-servo/

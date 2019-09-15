@@ -1,6 +1,5 @@
 ---
 title: Aqua-Chow
-nav: thermal-foundation-2
 redirect_from:
 - /docs/aqua-chow/
 - /docs/thermal-foundation/aqua-chow/

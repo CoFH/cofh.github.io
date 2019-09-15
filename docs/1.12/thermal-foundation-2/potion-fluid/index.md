@@ -1,6 +1,5 @@
 ---
 title: Potion (fluid)
-nav: thermal-foundation-2
 redirect_from:
 - /docs/potion-fluid/
 - /docs/thermal-foundation/potion-fluid/

@@ -1,6 +1,5 @@
 ---
 title: Covers
-nav: thermal-dynamics-2
 image:
 - alt: Stone cover
   file: thermal-dynamics-2/cover-stone.png

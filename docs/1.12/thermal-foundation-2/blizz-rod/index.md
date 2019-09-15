@@ -1,6 +1,5 @@
 ---
 title: Blizz Rod
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/elemental-materials/blizz-rod/
 - /docs/thermal-foundation/materials/blizz-rod/

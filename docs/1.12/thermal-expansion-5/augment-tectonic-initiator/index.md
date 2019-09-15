@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Tectonic Initiator'
-nav: thermal-expansion-5
 image:
 - alt: Tectonic initiator augment
   file: thermal-expansion-5/augment-machine-pulverizer-petrotheum.gif

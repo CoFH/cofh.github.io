@@ -1,6 +1,5 @@
 ---
 title: Portable Tank
-nav: thermal-expansion-5
 image:
 - alt: Portable tank (Basic)
   file: thermal-expansion-5/portable-tank-basic.png

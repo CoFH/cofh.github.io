@@ -1,6 +1,5 @@
 ---
 title: Hardened Glass
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-expansion/materials/hardened-glass/
 - /docs/thermal-foundation/blocks/hardened-glass/

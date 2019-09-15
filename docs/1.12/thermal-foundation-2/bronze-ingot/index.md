@@ -1,6 +1,5 @@
 ---
 title: Bronze Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/alloys/bronze/
 - /docs/thermal-foundation/metals-and-alloys/bronze/

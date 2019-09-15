@@ -1,6 +1,5 @@
 ---
 title: Rockwool
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-expansion/other/rockwool/
 - /docs/thermal-expansion/materials/rockwool/

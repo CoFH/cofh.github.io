@@ -1,6 +1,5 @@
 ---
 title: Hypoinfuser
-nav: thermal-innovation
 redirect_from:
 - /docs/hypoinfuser/
 - /docs/thermal-innovation/hypoinfuser/

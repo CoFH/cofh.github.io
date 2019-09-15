@@ -1,6 +1,5 @@
 ---
 title: Excavators (Thermal Foundation)
-nav: thermal-foundation-2
 image:
 - alt: Iron excavator
   file: thermal-foundation-2/excavator-iron.png

@@ -1,6 +1,5 @@
 ---
 title: Sap
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/tree/sap/
 - /docs/sap/

@@ -1,6 +1,5 @@
 ---
 title: Pulverized Charcoal
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/pulverized-charcoal/
 - /docs/pulverized-charcoal/

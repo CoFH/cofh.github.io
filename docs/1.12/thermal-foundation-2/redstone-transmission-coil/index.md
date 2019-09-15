@@ -1,6 +1,5 @@
 ---
 title: Redstone Transmission Coil
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/items/redstone-transmission-coil/
 - /docs/thermal-expansion/materials/redstone-transmission-coil/

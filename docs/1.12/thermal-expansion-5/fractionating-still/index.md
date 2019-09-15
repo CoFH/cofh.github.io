@@ -1,6 +1,5 @@
 ---
 title: Fractionating Still
-nav: thermal-expansion-5
 redirect_from:
 - /docs/fractionating-still/
 - /docs/thermal-expansion/fractionating-still/

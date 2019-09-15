@@ -1,6 +1,5 @@
 ---
 title: Enderium Coin
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/coins/enderium-coin/
 - /docs/enderium-coin/

@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Fluidic Fabrication'
-nav: thermal-expansion-5
 image:
 - alt: Fluidic fabrication augment
   file: thermal-expansion-5/augment-machine-crafter-tank.png

@@ -1,6 +1,5 @@
 ---
 title: Sequential Fabricator
-nav: thermal-expansion-5
 image:
 - alt: Sequential fabricator
   file: thermal-expansion-5/sequential-fabricator.png

@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Elemental Catalyzer'
-nav: thermal-expansion-5
 image:
 - alt: Elemental catalyzer augment
   file: thermal-expansion-5/augment-dynamo-reactant-elemental.png

@@ -1,6 +1,5 @@
 ---
 title: Slag
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-expansion/materials/slag/
 - /docs/thermal-foundation/materials/slag/

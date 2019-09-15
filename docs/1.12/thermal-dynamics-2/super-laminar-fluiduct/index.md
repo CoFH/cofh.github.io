@@ -1,6 +1,5 @@
 ---
 title: Super-Laminar Fluiduct
-nav: thermal-dynamics-2
 image:
 - alt: Super-laminar fluiduct
   file: thermal-dynamics-2/fluiduct-super-laminar.png

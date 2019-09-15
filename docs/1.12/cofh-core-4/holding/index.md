@@ -1,6 +1,5 @@
 ---
 title: Holding
-nav: cofh-core-4
 redirect_from:
 - /docs/cofh-core/enchantments/holding/
 - /docs/cofh-core/features/enchantments/

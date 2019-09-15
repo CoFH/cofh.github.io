@@ -1,6 +1,5 @@
 ---
 title: Tool Casing
-nav: thermal-foundation-2
 redirect_from:
 - /docs/tool-casing/
 - /docs/thermal-foundation/tool-casing/

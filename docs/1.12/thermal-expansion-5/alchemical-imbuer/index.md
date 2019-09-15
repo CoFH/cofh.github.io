@@ -1,6 +1,5 @@
 ---
 title: Alchemical Imbuer
-nav: thermal-expansion-5
 image:
 - alt: Alchemical imbuer
   file: thermal-expansion-5/alchemical-imbuer.png

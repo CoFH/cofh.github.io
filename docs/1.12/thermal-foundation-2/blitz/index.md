@@ -1,6 +1,5 @@
 ---
 title: Blitz
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/mobs/blitz/
 - /docs/thermal-foundation/world/mobs/blitz/

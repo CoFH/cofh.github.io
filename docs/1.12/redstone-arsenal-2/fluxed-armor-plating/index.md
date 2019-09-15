@@ -1,6 +1,5 @@
 ---
 title: Fluxed Armor Plating
-nav: redstone-arsenal-2
 image:
 - alt: Fluxed armor plating
   file: redstone-arsenal-2/fluxed-armor-plating.png

@@ -1,6 +1,5 @@
 ---
 title: Energetic Infuser
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/machines/energetic-infuser/
 - /docs/thermal-expansion/machines/energetic-infuser/

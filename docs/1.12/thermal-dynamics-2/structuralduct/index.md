@@ -1,6 +1,5 @@
 ---
 title: Structuralduct
-nav: thermal-dynamics-2
 image:
 - alt: Structuralduct
   file: thermal-dynamics-2/structuralduct.png

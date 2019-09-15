@@ -1,6 +1,5 @@
 ---
 title: Morb
-nav: thermal-expansion-5
 redirect_from:
 - /docs/morb/
 - /docs/thermal-expansion/morb/

@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Shovel
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused shovel
   file: redstone-arsenal-2/flux-infused-shovel.png

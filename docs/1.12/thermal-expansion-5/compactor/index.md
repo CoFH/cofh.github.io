@@ -1,6 +1,5 @@
 ---
 title: Compactor
-nav: thermal-expansion-5
 redirect_from:
 - /docs/thermal-expansion/machines/compactor/
 - /docs/compactor/

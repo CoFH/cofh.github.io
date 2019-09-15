@@ -1,6 +1,5 @@
 ---
 title: Viaduct
-nav: thermal-dynamics-2
 image:
 - alt: Viaduct
   file: thermal-dynamics-2/viaduct.png

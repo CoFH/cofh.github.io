@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Pyroclastic Injection'
-nav: thermal-expansion-5
 image:
 - alt: Pyroclastic injection augment
   file: thermal-expansion-5/augment-machine-extruder-no-water.gif

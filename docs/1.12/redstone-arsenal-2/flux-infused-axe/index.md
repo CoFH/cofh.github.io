@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Axe
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused axe
   file: redstone-arsenal-2/flux-infused-axe.png

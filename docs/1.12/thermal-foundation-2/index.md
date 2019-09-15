@@ -1,6 +1,5 @@
 ---
 title: Thermal Foundation 2
-nav: thermal-foundation-2
 redirect_from:
 - /mods/thermal-foundation/
 - /docs/schematic/

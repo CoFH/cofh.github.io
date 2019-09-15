@@ -1,6 +1,5 @@
 ---
 title: Block of Copper
-nav: thermal-foundation-2
 image:
 - alt: Block of copper
   file: thermal-foundation-2/storage-block-copper.png

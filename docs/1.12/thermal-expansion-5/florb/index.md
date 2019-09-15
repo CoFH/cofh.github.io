@@ -1,6 +1,5 @@
 ---
 title: Florb
-nav: thermal-expansion-5
 image:
 - alt: Florb
   file: thermal-expansion-5/florb.png

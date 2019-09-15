@@ -1,6 +1,5 @@
 ---
 title: Blitz Powder
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/elemental-materials/blitz-powder/
 - /docs/thermal-foundation/items/materials/elemental/blitz-powder/

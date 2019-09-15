@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Pyro-Concentrator'
-nav: thermal-expansion-5
 image:
 - alt: Pyro-concentrator augment
   file: thermal-expansion-5/augment-machine-smelter-pyrotheum.gif

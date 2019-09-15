@@ -1,6 +1,5 @@
 ---
 title: Lead Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/base-metals/lead/
 - /docs/thermal-foundation/metals-and-alloys/lead/

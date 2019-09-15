@@ -16,6 +16,50 @@ defaults:
       type: pages
     values:
       layout: docs
+  - scope:
+      path: "docs/redstone-flux"
+    values:
+      nav: redstone-flux
+  - scope:
+      path: "docs/1.12/cofh-core-4"
+    values:
+      nav: cofh-core-4
+  - scope:
+      path: "docs/1.12/cofh-world"
+    values:
+      nav: cofh-world
+  - scope:
+      path: "docs/1.12/thermal-foundation-2"
+    values:
+      nav: thermal-foundation-2
+  - scope:
+      path: "docs/1.12/thermal-expansion-5"
+    values:
+      nav: thermal-expansion-5
+  - scope:
+      path: "docs/1.12/thermal-dynamics-2"
+    values:
+      nav: thermal-dynamics-2
+  - scope:
+      path: "docs/1.12/thermal-cultivation"
+    values:
+      nav: thermal-cultivation
+  - scope:
+      path: "docs/1.12/thermal-innovation"
+    values:
+      nav: thermal-innovation
+  - scope:
+      path: "docs/1.12/redstone-arsenal-2"
+    values:
+      nav: redstone-arsenal-2
+  - scope:
+      path: "docs/1.12/vanillaplus-tools"
+    values:
+      nav: vanillaplus-tools
+  - scope:
+      path: "docs/1.12/vanillaplus-satchels"
+    values:
+      nav: vanillaplus-satchels
 
 exclude:
   - README.md

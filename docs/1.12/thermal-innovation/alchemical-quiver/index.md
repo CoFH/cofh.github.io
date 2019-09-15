@@ -1,6 +1,5 @@
 ---
 title: Alchemical Quiver
-nav: thermal-innovation
 redirect_from:
 - /docs/alchemical-quiver/
 - /docs/thermal-innovation/alchemical-quiver/

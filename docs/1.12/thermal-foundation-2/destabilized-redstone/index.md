@@ -1,6 +1,5 @@
 ---
 title: Destabilized Redstone
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/fluids/destabilized-redstone/
 - /docs/thermal-foundation/fluids/destabilized-redstone/

@@ -1,6 +1,5 @@
 ---
 title: Block of Iridium
-nav: thermal-foundation-2
 image:
 - alt: Block of iridium
   file: thermal-foundation-2/storage-block-iridium.png

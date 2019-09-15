@@ -1,6 +1,5 @@
 ---
 title: Swords (Thermal Foundation)
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/equipment/swords/
 - /docs/thermal-foundation/equipment/weapons/swords/

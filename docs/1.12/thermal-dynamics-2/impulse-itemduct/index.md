@@ -1,6 +1,5 @@
 ---
 title: Impulse Itemduct
-nav: thermal-dynamics-2
 image:
 - alt: Impulse itemduct
   file: thermal-dynamics-2/itemduct-impulse.png

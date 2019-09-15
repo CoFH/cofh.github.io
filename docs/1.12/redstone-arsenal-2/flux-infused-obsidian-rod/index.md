@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Obsidian Rod
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused obsidian rod
   file: redstone-arsenal-2/obsidian-rod-flux-infused.png

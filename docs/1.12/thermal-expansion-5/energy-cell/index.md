@@ -1,6 +1,5 @@
 ---
 title: Energy Cell
-nav: thermal-expansion-5
 image:
 - alt: Energy cell (Basic)
   file: thermal-expansion-5/energy-cell-basic.png

@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Pyrolytic Conversion'
-nav: thermal-expansion-5
 image:
 - alt: Pyrolytic conversion augment
   file: thermal-expansion-5/augment-machine-furnace-pyrolysis.png

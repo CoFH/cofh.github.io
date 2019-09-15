@@ -1,6 +1,5 @@
 ---
 title: Basalz
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/mobs/basalz/
 - /docs/thermal-foundation/world/mobs/basalz/

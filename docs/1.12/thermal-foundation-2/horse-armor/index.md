@@ -1,6 +1,5 @@
 ---
 title: Horse Armor (Thermal Foundation)
-nav: thermal-foundation-2
 image:
 - alt: Copper horse armor
   file: thermal-foundation-2/horse-armor-copper.png

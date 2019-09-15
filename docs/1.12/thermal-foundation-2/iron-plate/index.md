@@ -1,6 +1,5 @@
 ---
 title: Iron Plate
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/plates/iron-plate/
 - /docs/iron-plate/

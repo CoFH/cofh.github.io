@@ -1,6 +1,5 @@
 ---
 title: Essence of Knowledge
-nav: thermal-foundation-2
 redirect_from:
 - /docs/essence-of-knowledge/
 - /docs/thermal-foundation/essence-of-knowledge/

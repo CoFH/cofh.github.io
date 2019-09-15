@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Reagent Recovery'
-nav: thermal-expansion-5
 image:
 - alt: Reagent recovery augment
   file: thermal-expansion-5/augment-machine-brewer-reagent.png

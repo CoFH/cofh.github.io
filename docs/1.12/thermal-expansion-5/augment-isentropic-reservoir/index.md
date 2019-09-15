@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Isentropic Reservoir'
-nav: thermal-expansion-5
 image:
 - alt: Isentropic reservoir augment
   file: thermal-expansion-5/augment-dynamo-magmatic-coolant.png

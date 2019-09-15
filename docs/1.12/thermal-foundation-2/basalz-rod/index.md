@@ -1,6 +1,5 @@
 ---
 title: Basalz Rod
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/elemental-materials/basalz-rod/
 - /docs/thermal-foundation/items/materials/elemental/basalz-rod/

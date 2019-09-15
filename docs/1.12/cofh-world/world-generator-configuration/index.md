@@ -1,6 +1,5 @@
 ---
 title: World generator configuration
-nav: cofh-world
 redirect_from:
 - /mods/cofh-core/custom-world-generation.html
 - /docs/cofh-core/features/custom-world-generation/

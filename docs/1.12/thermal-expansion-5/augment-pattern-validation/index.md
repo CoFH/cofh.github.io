@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Pattern Validation'
-nav: thermal-expansion-5
 image:
 - alt: Pattern validation augment
   file: thermal-expansion-5/augment-machine-crafter-input.gif

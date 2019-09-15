@@ -1,6 +1,5 @@
 ---
 title: Induction Smelter
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/machines/induction-smelter/
 - /docs/thermal-expansion/machines/induction-smelter/

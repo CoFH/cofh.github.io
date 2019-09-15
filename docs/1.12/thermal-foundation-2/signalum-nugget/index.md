@@ -1,6 +1,5 @@
 ---
 title: Signalum Nugget
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/nuggets/signalum-nugget/
 - /docs/signalum-nugget/

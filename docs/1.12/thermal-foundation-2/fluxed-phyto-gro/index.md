@@ -1,6 +1,5 @@
 ---
 title: Fluxed Phyto-Gro
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/other/fluxed-phyto-gro/
 - /docs/fluxed-phyto-gro/

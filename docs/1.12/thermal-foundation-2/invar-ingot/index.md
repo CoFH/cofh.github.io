@@ -1,6 +1,5 @@
 ---
 title: Invar Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/alloys/invar/
 - /docs/thermal-foundation/metals-and-alloys/invar/

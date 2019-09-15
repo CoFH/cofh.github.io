@@ -1,6 +1,5 @@
 ---
 title: Refined Fuel
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/fuel/refined-fuel/
 - /docs/refined-fuel/

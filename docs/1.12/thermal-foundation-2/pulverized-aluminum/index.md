@@ -1,6 +1,5 @@
 ---
 title: Pulverized Aluminum
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/pulverized-aluminum/
 - /docs/pulverized-aluminum/

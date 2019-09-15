@@ -1,6 +1,5 @@
 ---
 title: Block of Platinum
-nav: thermal-foundation-2
 image:
 - alt: Block of platinum
   file: thermal-foundation-2/storage-block-platinum.png

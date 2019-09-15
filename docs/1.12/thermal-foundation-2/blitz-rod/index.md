@@ -1,6 +1,5 @@
 ---
 title: Blitz Rod
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/elemental-materials/blitz-rod/
 - /docs/thermal-foundation/items/materials/elemental/blitz-rod/

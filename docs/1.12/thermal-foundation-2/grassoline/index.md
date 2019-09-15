@@ -1,6 +1,5 @@
 ---
 title: Grassoline
-nav: thermal-foundation-2
 image:
 - alt: Grassoline
   file: thermal-foundation-2/grassoline.gif

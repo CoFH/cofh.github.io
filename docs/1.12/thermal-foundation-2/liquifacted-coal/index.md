@@ -1,6 +1,5 @@
 ---
 title: Liquifacted Coal
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/fluids/liquifacted-coal/
 - /docs/thermal-foundation/fluids/liquifacted-coal/

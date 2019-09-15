@@ -1,6 +1,5 @@
 ---
 title: Resin
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/tree/resin/
 - /docs/resin/

@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Sapling Infuser'
-nav: thermal-expansion-5
 image:
 - alt: Sapling infuser augment
   file: thermal-expansion-5/augment-machine-insolator-tree.png

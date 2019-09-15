@@ -1,6 +1,5 @@
 ---
 title: Fluxbore
-nav: thermal-innovation
 redirect_from:
 - /docs/fluxbore/
 - /docs/thermal-innovation/fluxbore/

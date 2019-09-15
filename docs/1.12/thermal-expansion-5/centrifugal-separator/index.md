@@ -1,6 +1,5 @@
 ---
 title: Centrifugal Separator
-nav: thermal-expansion-5
 redirect_from:
 - /docs/centrifugal-separator/
 - /docs/thermal-expansion/centrifugal-separator/

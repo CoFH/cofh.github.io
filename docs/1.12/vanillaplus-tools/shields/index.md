@@ -1,6 +1,5 @@
 ---
 title: Shields (Vanilla+ Tools)
-nav: vanillaplus-tools
 image:
 - alt: Iron shield
   file: vanillaplus-tools/shield-iron.png

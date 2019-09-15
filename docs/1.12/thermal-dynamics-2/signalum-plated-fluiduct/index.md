@@ -1,6 +1,5 @@
 ---
 title: Signalum-Plated Fluiduct
-nav: thermal-dynamics-2
 image:
 - alt: Signalum-plated fluiduct
   file: thermal-dynamics-2/fluiduct-signalum-plated.png

@@ -1,6 +1,5 @@
 ---
 title: Constantan Blend
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/constantan-blend/
 - /docs/constantan-blend/

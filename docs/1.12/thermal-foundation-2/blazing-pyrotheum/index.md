@@ -1,6 +1,5 @@
 ---
 title: Blazing Pyrotheum
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/fluids/blazing-pyrotheum/
 - /docs/thermal-foundation/fluids/blazing-pyrotheum/

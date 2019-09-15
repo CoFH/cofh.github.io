@@ -1,6 +1,5 @@
 ---
 title: Destabilized Redstone Ore
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/ores/destabilized-redstone-ore/
 - /docs/thermal-foundation/world/fluid-ores/destabilized-redstone-ore/

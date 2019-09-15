@@ -1,6 +1,5 @@
 ---
 title: Energized Netherrack
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/ores/energized-netherrack/
 - /docs/thermal-foundation/world/fluid-ores/energized-netherrack/

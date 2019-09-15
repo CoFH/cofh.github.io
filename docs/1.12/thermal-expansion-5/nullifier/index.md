@@ -1,6 +1,5 @@
 ---
 title: Nullifier
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/devices/nullifier/
 - /docs/thermal-expansion/devices/nullifier/

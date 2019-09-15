@@ -1,6 +1,5 @@
 ---
 title: Steel Blend
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/steel-blend/
 - /docs/steel-blend/

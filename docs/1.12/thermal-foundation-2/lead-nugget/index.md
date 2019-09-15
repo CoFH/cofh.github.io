@@ -1,6 +1,5 @@
 ---
 title: Lead Nugget
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/nuggets/lead-nugget/
 - /docs/lead-nugget/

@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Chestplate
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused chestplate
   file: redstone-arsenal-2/flux-infused-chestplate.png

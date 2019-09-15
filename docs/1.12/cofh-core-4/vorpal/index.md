@@ -1,6 +1,5 @@
 ---
 title: Vorpal
-nav: cofh-core-4
 redirect_from:
 - /docs/vorpal/
 - /docs/cofh-core/vorpal/

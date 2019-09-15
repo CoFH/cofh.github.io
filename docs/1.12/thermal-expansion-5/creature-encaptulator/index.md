@@ -1,6 +1,5 @@
 ---
 title: Creature Encaptulator
-nav: thermal-expansion-5
 redirect_from:
 - /docs/creature-encaptulator/
 - /docs/thermal-expansion/creature-encaptulator/

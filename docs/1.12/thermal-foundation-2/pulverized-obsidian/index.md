@@ -1,6 +1,5 @@
 ---
 title: Pulverized Obsidian
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/pulverized-obsidian/
 - /docs/pulverized-obsidian/

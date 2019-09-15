@@ -1,6 +1,5 @@
 ---
 title: CoFH Core 4
-nav: cofh-core-4
 redirect_from:
 - /cofh-core/
 - /core-mods/cofhcore/

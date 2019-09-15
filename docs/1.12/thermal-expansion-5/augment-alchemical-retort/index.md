@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Alchemical Retort'
-nav: thermal-expansion-5
 image:
 - alt: Alchemical retort augment
   file: thermal-expansion-5/augment-machine-refinery-potion.png

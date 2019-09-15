@@ -1,6 +1,5 @@
 ---
 title: Signalum Security Lock
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-expansion/materials/signalum-security-lock/
 - /docs/thermal-foundation/items/signalum-security-lock/

@@ -1,6 +1,5 @@
 ---
 title: Fluxed Electrum Gear
-nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum gear
   file: redstone-arsenal-2/gear-fluxed-electrum.gif

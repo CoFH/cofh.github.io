@@ -1,6 +1,5 @@
 ---
 title: Redstone Relay
-nav: thermal-dynamics-2
 image:
 - alt: Redstone relay
   file: thermal-dynamics-2/redstone-relay.png

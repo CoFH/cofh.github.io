@@ -1,6 +1,5 @@
 ---
 title: Iridium Ore
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/ores/iridium-ore/
 - /docs/thermal-foundation/world/ores/iridium-ore/

@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Bow
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused bow
   file: redstone-arsenal-2/flux-infused-bow.png

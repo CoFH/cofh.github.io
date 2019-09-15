@@ -1,6 +1,5 @@
 ---
 title: Block of Enderium
-nav: thermal-foundation-2
 image:
 - alt: Block of enderium
   file: thermal-foundation-2/storage-block-enderium.png

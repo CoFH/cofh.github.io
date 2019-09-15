@@ -1,6 +1,5 @@
 ---
 title: Thermal Dynamics 2
-nav: thermal-dynamics-2
 redirect_from:
 - /mods/thermal-dynamics/
 - /docs/thermal-dynamics/

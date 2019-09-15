@@ -1,6 +1,5 @@
 ---
 title: Rich Biomass
-nav: thermal-foundation-2
 image:
 - alt: Rich biomass
   file: thermal-foundation-2/biomass-rich.png

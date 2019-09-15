@@ -1,6 +1,5 @@
 ---
 title: Block of Coal Coke
-nav: thermal-foundation-2
 redirect_from:
 - /docs/block-of-coal-coke/
 - /docs/thermal-foundation/block-of-coal-coke/

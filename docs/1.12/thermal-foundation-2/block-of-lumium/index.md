@@ -1,6 +1,5 @@
 ---
 title: Block of Lumium
-nav: thermal-foundation-2
 image:
 - alt: Block of lumium
   file: thermal-foundation-2/storage-block-lumium.png

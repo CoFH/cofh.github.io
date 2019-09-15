@@ -1,6 +1,5 @@
 ---
 title: Resonant Ender
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/fluids/resonant-ender/
 - /docs/thermal-foundation/fluids/resonant-ender/

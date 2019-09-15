@@ -1,6 +1,5 @@
 ---
 title: Pulverized Gold
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/pulverized-gold/
 - /docs/pulverized-gold/

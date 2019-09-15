@@ -1,6 +1,5 @@
 ---
 title: Potions (CoFH Core)
-nav: cofh-core-4
 redirect_from:
 - /docs/cofh-core-potions/
 - /docs/cofh-core/potions/

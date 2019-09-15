@@ -1,6 +1,5 @@
 ---
 title: Numismatic Dynamo
-nav: thermal-expansion-5
 redirect_from:
 - /docs/numismatic-dynamo/
 - /docs/thermal-expansion/numismatic-dynamo/

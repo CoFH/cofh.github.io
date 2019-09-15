@@ -1,6 +1,5 @@
 ---
 title: Sawmill
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/machines/sawmill/
 - /docs/thermal-expansion/machines/sawmill/

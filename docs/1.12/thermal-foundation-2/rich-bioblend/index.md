@@ -1,6 +1,5 @@
 ---
 title: Rich Bioblend
-nav: thermal-foundation-2
 image:
 - alt: Rich bioblend
   file: thermal-foundation-2/bioblend-rich.png

@@ -1,6 +1,5 @@
 ---
 title: Syrup
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/other/syrup/
 - /docs/syrup/

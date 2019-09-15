@@ -1,6 +1,5 @@
 ---
 title: Upgrade Kits
-nav: thermal-foundation-2
 image:
 - alt: Hardened upgrade kit
   file: thermal-foundation-2/upgrade-kit-hardened.png

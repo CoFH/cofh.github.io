@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Agitative Manifold'
-nav: thermal-expansion-5
 image:
 - alt: Agitative manifold augment
   file: thermal-expansion-5/augment-dynamo-compression-biofuel.png

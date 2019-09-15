@@ -1,6 +1,5 @@
 ---
 title: Files
-nav: cofh-world
 redirect_from:
 - /docs/cofh-world/world-generator-configuration/files/
 ---

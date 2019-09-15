@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Enstabulation Apparatus'
-nav: thermal-expansion-5
 image:
 - alt: Enstabulation apparatus augment
   file: thermal-expansion-5/augment-machine-centrifuge-mobs.png

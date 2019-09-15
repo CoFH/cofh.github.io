@@ -1,6 +1,5 @@
 ---
 title: Igneous Extruder
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/machines/igneous-extruder/
 - /docs/thermal-expansion/machines/igneous-extruder/

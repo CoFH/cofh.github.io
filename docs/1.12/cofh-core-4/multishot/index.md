@@ -1,6 +1,5 @@
 ---
 title: Multishot
-nav: cofh-core-4
 redirect_from:
 - /docs/cofh-core/enchantments/multishot/
 - /docs/multishot/

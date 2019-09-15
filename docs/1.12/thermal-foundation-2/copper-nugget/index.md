@@ -1,6 +1,5 @@
 ---
 title: Copper Nugget
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/materials/nuggets/
 - /docs/thermal-foundation/items/materials/nuggets/copper-nugget/

@@ -1,6 +1,5 @@
 ---
 title: Arcane Ensorcellator
-nav: thermal-expansion-5
 image:
 - alt: Arcane ensorcellator
   file: thermal-expansion-5/arcane-ensorcellator.png

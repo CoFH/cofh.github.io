@@ -1,6 +1,5 @@
 ---
 title: Pulverizer
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/machines/pulverizer/
 - /docs/thermal-expansion/machines/pulverizer/

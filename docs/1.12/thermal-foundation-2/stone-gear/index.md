@@ -1,6 +1,5 @@
 ---
 title: Stone Gear
-nav: thermal-foundation-2
 image:
 - alt: Stone gear
   file: thermal-foundation-2/gear-stone.png

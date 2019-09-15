@@ -1,6 +1,5 @@
 ---
 title: Mana Infused Gear
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/gears/mana-infused-gear/
 - /docs/mana-infused-gear/

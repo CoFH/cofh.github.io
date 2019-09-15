@@ -1,6 +1,5 @@
 ---
 title: Redprint
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-expansion/storage/redprint/
 - /docs/thermal-expansion/tools/redprint/

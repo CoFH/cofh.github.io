@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Sword
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused sword
   file: redstone-arsenal-2/flux-infused-sword.png

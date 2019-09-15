@@ -1,6 +1,5 @@
 ---
 title: Redstone Furnace
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/machines/redstone-furnace/
 - /docs/thermal-expansion/machines/redstone-furnace/

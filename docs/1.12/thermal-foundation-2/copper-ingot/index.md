@@ -1,6 +1,5 @@
 ---
 title: Copper Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/base-metals/copper/
 - /docs/thermal-foundation/metals-and-alloys/copper/

@@ -1,6 +1,5 @@
 ---
 title: Lexical Transmuter
-nav: thermal-expansion-5
 redirect_from:
 - /docs/lexical-transmuter/
 - /docs/thermal-expansion/lexical-transmuter/

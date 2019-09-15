@@ -1,6 +1,5 @@
 ---
 title: Augments
-nav: thermal-expansion-5
 redirect_from:
 - /docs/thermal-expansion/augments/augmentation/
 - /docs/thermal-expansion/tiers-and-augments/augments/

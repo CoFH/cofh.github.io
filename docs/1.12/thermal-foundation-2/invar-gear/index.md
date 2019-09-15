@@ -1,6 +1,5 @@
 ---
 title: Invar Gear
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/gears/invar-gear/
 - /docs/invar-gear/

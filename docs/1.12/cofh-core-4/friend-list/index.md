@@ -1,6 +1,5 @@
 ---
 title: Friend List
-nav: cofh-core-4
 redirect_from:
 - /docs/friend-list/
 - /docs/cofh-core/friend-list/

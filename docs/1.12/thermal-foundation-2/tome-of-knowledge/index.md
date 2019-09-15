@@ -1,6 +1,5 @@
 ---
 title: Tome of Knowledge
-nav: thermal-foundation-2
 redirect_from:
 - /docs/tome-of-knowledge/
 - /docs/thermal-foundation/tome-of-knowledge/

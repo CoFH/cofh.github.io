@@ -1,6 +1,5 @@
 ---
 title: Leech
-nav: cofh-core-4
 redirect_from:
 - /docs/leech/
 - /docs/cofh-core/leech/

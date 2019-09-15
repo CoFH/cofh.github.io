@@ -1,6 +1,5 @@
 ---
 title: Redstone Conductance Coil
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/items/redstone-conductance-coil/
 - /docs/thermal-expansion/materials/redstone-conductance-coil/

@@ -1,6 +1,5 @@
 ---
 title: Vanilla+ Satchels
-nav: vanillaplus-satchels
 redirect_from:
 - /docs/vanillaplus-satchels/
 ---

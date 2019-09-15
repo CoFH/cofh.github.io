@@ -1,6 +1,5 @@
 ---
 title: Primal Mana
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/primal-mana/
 - /docs/thermal-foundation/fluids/other/primal-mana/

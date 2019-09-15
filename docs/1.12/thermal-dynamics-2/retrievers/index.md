@@ -1,6 +1,5 @@
 ---
 title: Retrievers
-nav: thermal-dynamics-2
 image:
 - alt: Retriever
   file: thermal-dynamics-2/retriever-basic.png

@@ -1,6 +1,5 @@
 ---
 title: Pigments
-nav: thermal-foundation-2
 redirect_from:
 - /docs/pigments/
 - /docs/thermal-foundation/pigments/

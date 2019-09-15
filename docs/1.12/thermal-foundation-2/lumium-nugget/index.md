@@ -1,6 +1,5 @@
 ---
 title: Lumium Nugget
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/nuggets/lumium-nugget/
 - /docs/lumium-nugget/

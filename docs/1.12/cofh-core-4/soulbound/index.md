@@ -1,6 +1,5 @@
 ---
 title: Soulbound
-nav: cofh-core-4
 redirect_from:
 - /docs/soulbound/
 - /docs/cofh-core/soulbound/

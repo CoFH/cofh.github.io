@@ -1,6 +1,5 @@
 ---
 title: Flux Crystal
-nav: redstone-arsenal-2
 image:
 - alt: Flux crystal
   file: redstone-arsenal-2/flux-crystal.gif

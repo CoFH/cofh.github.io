@@ -1,6 +1,5 @@
 ---
 title: Filters
-nav: thermal-dynamics-2
 image:
 - alt: Filter
   file: thermal-dynamics-2/filter-basic.png

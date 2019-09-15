@@ -1,6 +1,5 @@
 ---
 title: Biocrude
-nav: thermal-foundation-2
 image:
 - alt: Biocrude
   file: thermal-foundation-2/biocrude.gif

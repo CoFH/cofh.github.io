@@ -1,6 +1,5 @@
 ---
 title: Smashing
-nav: cofh-core-4
 redirect_from:
 - /docs/cofh-core/smashing/
 - /docs/cofh-core-4/smashing/

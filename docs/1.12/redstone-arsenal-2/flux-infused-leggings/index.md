@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Leggings
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused leggings
   file: redstone-arsenal-2/flux-infused-leggings.png

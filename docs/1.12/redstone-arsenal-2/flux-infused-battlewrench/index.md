@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused BattleWrench
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused battlewrench
   file: redstone-arsenal-2/flux-infused-battlewrench.png

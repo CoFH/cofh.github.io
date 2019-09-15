@@ -1,6 +1,5 @@
 ---
 title: Fluxed Electrum Block
-nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum block
   file: redstone-arsenal-2/storage-block-fluxed-electrum.png

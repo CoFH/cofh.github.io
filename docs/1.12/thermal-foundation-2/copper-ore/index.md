@@ -1,6 +1,5 @@
 ---
 title: Copper Ore
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/world-generation/ores/
 - /docs/thermal-foundation/ores/copper-ore/

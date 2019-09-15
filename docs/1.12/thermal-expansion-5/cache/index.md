@@ -1,6 +1,5 @@
 ---
 title: Cache
-nav: thermal-expansion-5
 image:
 - alt: Cache (Basic)
   file: thermal-expansion-5/cache-basic.png

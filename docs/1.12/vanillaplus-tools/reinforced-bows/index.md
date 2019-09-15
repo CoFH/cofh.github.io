@@ -1,6 +1,5 @@
 ---
 title: Reinforced Bows (Vanilla+ Tools)
-nav: vanillaplus-tools
 image:
 - alt: Iron reinforced bow
   file: vanillaplus-tools/bow-iron.png

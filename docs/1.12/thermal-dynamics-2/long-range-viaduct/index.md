@@ -1,6 +1,5 @@
 ---
 title: Long Range Viaduct
-nav: thermal-dynamics-2
 image:
 - alt: Long range viaduct
   file: thermal-dynamics-2/viaduct-long-range.png

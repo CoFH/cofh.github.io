@@ -1,6 +1,5 @@
 ---
 title: Aluminum Gear
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/gears/aluminum-gear/
 - /docs/aluminum-gear/

@@ -1,6 +1,5 @@
 ---
 title: Copper Coin
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/coins/copper-coin/
 - /docs/copper-coin/

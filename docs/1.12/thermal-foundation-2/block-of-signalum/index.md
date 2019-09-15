@@ -1,6 +1,5 @@
 ---
 title: Block of Signalum
-nav: thermal-foundation-2
 image:
 - alt: Block of signalum
   file: thermal-foundation-2/storage-block-signalum.png

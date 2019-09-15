@@ -1,6 +1,5 @@
 ---
 title: Axes (Thermal Foundation)
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/equipment/axes/
 - /docs/thermal-foundation/equipment/tools/axes/

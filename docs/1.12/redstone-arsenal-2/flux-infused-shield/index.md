@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Shield
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused shield
   file: redstone-arsenal-2/flux-infused-shield.png

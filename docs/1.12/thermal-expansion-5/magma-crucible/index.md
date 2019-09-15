@@ -1,6 +1,5 @@
 ---
 title: Magma Crucible
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/machines/magma-crucible/
 - /docs/thermal-expansion/machines/magma-crucible/

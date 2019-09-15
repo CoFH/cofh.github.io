@@ -1,6 +1,5 @@
 ---
 title: Crude Oil
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/fuel/crude-oil/
 - /docs/crude-oil/

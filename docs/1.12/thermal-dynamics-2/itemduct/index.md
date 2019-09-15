@@ -1,6 +1,5 @@
 ---
 title: Itemduct
-nav: thermal-dynamics-2
 image:
 - alt: Itemduct
   file: thermal-dynamics-2/itemduct.png

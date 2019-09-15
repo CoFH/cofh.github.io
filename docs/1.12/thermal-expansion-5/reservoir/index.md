@@ -1,6 +1,5 @@
 ---
 title: Reservoir
-nav: thermal-expansion-5
 redirect_from:
 - /docs/reservoir/
 - /docs/thermal-expansion/reservoir/

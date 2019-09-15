@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Metallurgical Recovery'
-nav: thermal-expansion-5
 image:
 - alt: Metallurgical recovery augment
   file: thermal-expansion-5/augment-machine-smelter-flux.png

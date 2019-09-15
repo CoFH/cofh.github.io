@@ -1,6 +1,5 @@
 ---
 title: Magmatic Florb
-nav: thermal-expansion-5
 image:
 - alt: Magmatic florb
   file: thermal-expansion-5/florb-magmatic.png

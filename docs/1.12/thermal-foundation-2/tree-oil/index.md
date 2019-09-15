@@ -1,6 +1,5 @@
 ---
 title: Tree Oil
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/fuel/tree-oil/
 - /docs/tree-oil/

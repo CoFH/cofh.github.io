@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Auxiliary Reception Coil'
-nav: thermal-expansion-5
 image:
 - alt: Auxiliary reception coil augment
   file: thermal-expansion-5/augment-machine-power.png

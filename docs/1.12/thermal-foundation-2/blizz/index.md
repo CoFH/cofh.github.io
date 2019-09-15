@@ -1,6 +1,5 @@
 ---
 title: Blizz
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/mobs/blizz/
 - /docs/thermal-foundation/world/mobs/blizz/

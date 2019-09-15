@@ -1,6 +1,5 @@
 ---
 title: Helmets (Thermal Foundation)
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/items/invar-armor/
 - /docs/thermal-foundation/equipment/armor/

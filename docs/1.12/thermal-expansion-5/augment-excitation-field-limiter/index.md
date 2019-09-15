@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Excitation Field Limiter'
-nav: thermal-expansion-5
 image:
 - alt: Excitation field limiter augment
   file: thermal-expansion-5/augment-dynamo-throttle.png

@@ -1,6 +1,5 @@
 ---
 title: Steam Dynamo
-nav: thermal-expansion-5
 image:
 - alt: Steam dynamo
   file: thermal-expansion-5/dynamo-steam-rf.png

@@ -1,6 +1,5 @@
 ---
 title: Nickel Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/base-metals/ferrous-metal/
 - /docs/thermal-foundation/base-metals/nickel/

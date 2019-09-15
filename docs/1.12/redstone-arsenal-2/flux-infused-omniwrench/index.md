@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused OmniWrench
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused omniwrench
   file: redstone-arsenal-2/flux-infused-omniwrench.png

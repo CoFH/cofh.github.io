@@ -1,6 +1,5 @@
 ---
 title: Pyrotheum Dust
-nav: thermal-foundation-2
 redirect_from:
 - /thermal-expansion/items/pyrotheum-dust/
 - /docs/thermal-foundation/elemental-materials/pyrotheum-dust/

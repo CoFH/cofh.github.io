@@ -1,6 +1,5 @@
 ---
 title: Block of Silver
-nav: thermal-foundation-2
 image:
 - alt: Block of silver
   file: thermal-foundation-2/storage-block-silver.png

@@ -1,6 +1,5 @@
 ---
 title: Signalum Coin
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/coins/signalum-coin/
 - /docs/signalum-coin/

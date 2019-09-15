@@ -1,6 +1,5 @@
 ---
 title: Coal Coke
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/other/coal-coke/
 - /docs/coal-coke/

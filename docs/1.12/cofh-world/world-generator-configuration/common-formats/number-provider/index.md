@@ -1,6 +1,5 @@
 ---
 title: Number provider
-nav: cofh-world
 redirect_from:
 - /docs/cofh-world/world-generator-configuration/common-formats/number-provider/
 ---

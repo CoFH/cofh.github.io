@@ -1,6 +1,5 @@
 ---
 title: Block of Electrum
-nav: thermal-foundation-2
 image:
 - alt: Block of electrum
   file: thermal-foundation-2/storage-block-electrum.png

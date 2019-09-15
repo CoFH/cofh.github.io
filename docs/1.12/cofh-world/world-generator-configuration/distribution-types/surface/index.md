@@ -1,6 +1,5 @@
 ---
 title: surface
-nav: cofh-world
 redirect_from:
 - /docs/cofh-world/world-generator-configuration/distribution-types/surface/
 ---

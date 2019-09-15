@@ -1,6 +1,5 @@
 ---
 title: Tweaks (CoFH Core)
-nav: cofh-core-4
 redirect_from:
 - /docs/cofh-core-tweaks/
 - /docs/cofh-core/tweaks/

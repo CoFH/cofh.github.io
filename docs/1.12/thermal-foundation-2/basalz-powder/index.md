@@ -1,6 +1,5 @@
 ---
 title: Basalz Powder
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/elemental-materials/basalz-powder/
 - /docs/thermal-foundation/items/materials/elemental/basalz-powder/

@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Nutrient Recovery'
-nav: thermal-expansion-5
 image:
 - alt: Nutrient recovery augment
   file: thermal-expansion-5/augment-machine-insolator-fertilizer.png

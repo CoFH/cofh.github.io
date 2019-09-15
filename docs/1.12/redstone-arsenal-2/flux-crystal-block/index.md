@@ -1,6 +1,5 @@
 ---
 title: Flux Crystal Block
-nav: redstone-arsenal-2
 image:
 - alt: Flux crystal block
   file: redstone-arsenal-2/storage-block-flux-crystal.png

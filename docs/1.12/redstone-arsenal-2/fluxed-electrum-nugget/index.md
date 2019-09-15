@@ -1,6 +1,5 @@
 ---
 title: Fluxed Electrum Nugget
-nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum nugget
   file: redstone-arsenal-2/nugget-fluxed-electrum.gif

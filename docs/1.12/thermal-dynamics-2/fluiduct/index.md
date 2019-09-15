@@ -1,6 +1,5 @@
 ---
 title: Fluiduct
-nav: thermal-dynamics-2
 image:
 - alt: Fluiduct
   file: thermal-dynamics-2/fluiduct.png

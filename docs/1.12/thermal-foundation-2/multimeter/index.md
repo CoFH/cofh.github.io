@@ -1,6 +1,5 @@
 ---
 title: Multimeter
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-expansion/tools/multimeter/
 - /docs/thermal-foundation/items/multimeter/

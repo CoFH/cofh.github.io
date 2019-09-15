@@ -1,6 +1,5 @@
 ---
 title: Fluxed Electrum Plate
-nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum plate
   file: redstone-arsenal-2/plate-fluxed-electrum.gif

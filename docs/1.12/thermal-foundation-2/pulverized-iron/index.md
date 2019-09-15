@@ -1,6 +1,5 @@
 ---
 title: Pulverized Iron
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/materials/pulverized-materials-and-blends/
 - /docs/thermal-foundation/items/materials/dusts/pulverized-iron/

@@ -1,6 +1,5 @@
 ---
 title: Creosote Oil
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/fuel/creosote-oil/
 - /docs/creosote-oil/

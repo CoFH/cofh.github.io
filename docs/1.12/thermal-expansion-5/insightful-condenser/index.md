@@ -1,6 +1,5 @@
 ---
 title: Insightful Condenser
-nav: thermal-expansion-5
 redirect_from:
 - /docs/insightful-condenser/
 - /docs/thermal-expansion/insightful-condenser/

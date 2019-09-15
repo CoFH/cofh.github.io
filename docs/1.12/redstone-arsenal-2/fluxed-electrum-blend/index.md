@@ -1,6 +1,5 @@
 ---
 title: Fluxed Electrum Blend
-nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum blend
   file: redstone-arsenal-2/dust-fluxed-electrum.gif

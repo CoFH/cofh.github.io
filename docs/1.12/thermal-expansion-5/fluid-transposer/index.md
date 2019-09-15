@@ -1,6 +1,5 @@
 ---
 title: Fluid Transposer
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/machines/fluid-transposer/
 - /docs/thermal-expansion/machines/fluid-transposer/

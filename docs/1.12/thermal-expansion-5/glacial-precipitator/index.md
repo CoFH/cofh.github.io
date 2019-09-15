@@ -1,6 +1,5 @@
 ---
 title: Glacial Precipitator
-nav: thermal-expansion-5
 redirect_from:
 - /thermal-expansion/machines/glacial-precipitator/
 - /docs/thermal-expansion/machines/glacial-precipitator/

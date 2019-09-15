@@ -1,6 +1,5 @@
 ---
 title: Pulverized Nickel
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/dusts/pulverized-nickel/
 - /docs/pulverized-nickel/

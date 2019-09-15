@@ -1,6 +1,5 @@
 ---
 title: Block of Tin
-nav: thermal-foundation-2
 image:
 - alt: Block of tin
   file: thermal-foundation-2/storage-block-tin.png

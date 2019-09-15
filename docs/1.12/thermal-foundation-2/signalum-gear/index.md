@@ -1,6 +1,5 @@
 ---
 title: Signalum Gear
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/gears/signalum-gear/
 - /docs/thermal-foundation/gears/signalum-gear/

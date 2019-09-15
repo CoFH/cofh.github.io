@@ -1,6 +1,5 @@
 ---
 title: Compressed Sawdust
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/other/compressed-sawdust/
 - /docs/compressed-sawdust/

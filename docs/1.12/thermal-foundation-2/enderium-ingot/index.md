@@ -1,6 +1,5 @@
 ---
 title: Enderium Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/alloys/enderium/
 - /docs/thermal-foundation/metals-and-alloys/enderium/

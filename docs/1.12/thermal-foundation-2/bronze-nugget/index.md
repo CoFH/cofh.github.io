@@ -1,6 +1,5 @@
 ---
 title: Bronze Nugget
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/nuggets/bronze-nugget/
 - /docs/bronze-nugget/

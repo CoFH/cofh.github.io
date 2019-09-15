@@ -1,6 +1,5 @@
 ---
 title: Potion recipes (Thermal Foundation)
-nav: thermal-foundation-2
 redirect_from:
 - /docs/tf-potion-recipes/
 - /docs/thermal-foundation/potion-recipes/

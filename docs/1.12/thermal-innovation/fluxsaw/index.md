@@ -1,6 +1,5 @@
 ---
 title: Fluxsaw
-nav: thermal-innovation
 redirect_from:
 - /docs/fluxsaw/
 - /docs/thermal-innovation/fluxsaw/

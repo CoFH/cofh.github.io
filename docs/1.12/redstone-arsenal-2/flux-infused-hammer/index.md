@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Hammer
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused hammer
   file: redstone-arsenal-2/flux-infused-hammer.png

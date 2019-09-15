@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Flux Linkage Concentrator'
-nav: thermal-expansion-5
 image:
 - alt: Flux linkage concentrator augment
   file: thermal-expansion-5/augment-machine-charger-throughput.png

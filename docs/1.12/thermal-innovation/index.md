@@ -1,6 +1,5 @@
 ---
 title: Thermal Innovation
-nav: thermal-innovation
 redirect_from:
 - /docs/thermal-innovation/
 ---

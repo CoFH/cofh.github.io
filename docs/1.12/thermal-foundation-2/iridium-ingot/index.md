@@ -1,6 +1,5 @@
 ---
 title: Iridium Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/ingots/iridium-ingot/
 - /docs/iridium-ingot/

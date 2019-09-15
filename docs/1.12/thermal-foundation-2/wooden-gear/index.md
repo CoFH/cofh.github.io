@@ -1,6 +1,5 @@
 ---
 title: Wooden Gear
-nav: thermal-foundation-2
 image:
 - alt: Wooden gear
   file: thermal-foundation-2/gear-wood.png

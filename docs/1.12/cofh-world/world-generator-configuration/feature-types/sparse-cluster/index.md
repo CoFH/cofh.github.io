@@ -1,6 +1,5 @@
 ---
 title: sparse-cluster
-nav: cofh-world
 redirect_from:
 - /docs/cofh-world/world-generator-configuration/feature-types/sparse-cluster/
 ---

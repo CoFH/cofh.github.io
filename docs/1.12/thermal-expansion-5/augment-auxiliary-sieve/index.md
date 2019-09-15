@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Auxiliary Sieve'
-nav: thermal-expansion-5
 image:
 - alt: Auxiliary sieve augment
   file: thermal-expansion-5/augment-machine-secondary.png

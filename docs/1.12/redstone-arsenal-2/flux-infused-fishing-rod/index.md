@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Fishing Rod
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused fishing rod
   file: redstone-arsenal-2/flux-infused-fishing-rod.png

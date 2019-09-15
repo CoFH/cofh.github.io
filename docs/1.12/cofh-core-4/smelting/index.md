@@ -1,6 +1,5 @@
 ---
 title: Smelting
-nav: cofh-core-4
 redirect_from:
 - /docs/smelting/
 - /docs/cofh-core/smelting/

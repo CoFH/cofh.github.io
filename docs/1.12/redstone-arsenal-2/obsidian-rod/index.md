@@ -1,6 +1,5 @@
 ---
 title: Obsidian Rod
-nav: redstone-arsenal-2
 image:
 - alt: Obsidian rod
   file: redstone-arsenal-2/obsidian-rod.png

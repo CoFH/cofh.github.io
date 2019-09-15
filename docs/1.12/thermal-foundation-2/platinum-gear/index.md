@@ -1,6 +1,5 @@
 ---
 title: Platinum Gear
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/items/materials/gears/platinum-gear/
 - /docs/platinum-gear/

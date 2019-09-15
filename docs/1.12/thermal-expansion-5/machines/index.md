@@ -1,6 +1,5 @@
 ---
 title: Machines
-nav: thermal-expansion-5
 image:
 - alt: Redstone furnace
   file: thermal-expansion-5/redstone-furnace.png

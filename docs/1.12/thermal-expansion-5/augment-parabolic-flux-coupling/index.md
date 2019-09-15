@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Parabolic Flux Coupling'
-nav: thermal-expansion-5
 image:
 - alt: Parabolic flux coupling augment
   file: thermal-expansion-5/augment-machine-charger-wireless.png

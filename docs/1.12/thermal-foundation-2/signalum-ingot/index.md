@@ -1,6 +1,5 @@
 ---
 title: Signalum Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/alloys/signalum/
 - /docs/thermal-foundation/metals-and-alloys/signalum/

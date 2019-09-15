@@ -1,6 +1,5 @@
 ---
 title: Nickel Ore
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/ores/nickel-ore/
 - /docs/thermal-foundation/world/ores/nickel-ore/

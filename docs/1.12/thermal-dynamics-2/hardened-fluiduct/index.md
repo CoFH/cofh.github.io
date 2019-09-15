@@ -1,6 +1,5 @@
 ---
 title: Hardened Fluiduct
-nav: thermal-dynamics-2
 image:
 - alt: Hardened fluiduct
   file: thermal-dynamics-2/fluiduct-hardened.png

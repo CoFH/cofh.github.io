@@ -1,6 +1,5 @@
 ---
 title: Mushroom Stew
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/fluids/other/mushroom-stew/
 - /docs/mushroom-stew/

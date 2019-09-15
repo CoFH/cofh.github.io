@@ -1,6 +1,5 @@
 ---
 title: Sulfur
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/materials/sulfur/
 - /docs/thermal-foundation/items/materials/other/sulfur/

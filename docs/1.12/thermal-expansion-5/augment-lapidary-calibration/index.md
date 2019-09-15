@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Lapidary Calibration'
-nav: thermal-expansion-5
 image:
 - alt: Lapidary calibration augment
   file: thermal-expansion-5/augment-dynamo-numismatic-gem.png

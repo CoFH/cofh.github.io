@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Fuel Catalyzer'
-nav: thermal-expansion-5
 image:
 - alt: Fuel catalyzer augment
   file: thermal-expansion-5/augment-dynamo-efficiency.gif

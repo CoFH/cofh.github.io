@@ -1,6 +1,5 @@
 ---
 title: 'Augment: Auxiliary Transmission Coil'
-nav: thermal-expansion-5
 image:
 - alt: Auxiliary transmission coil augment
   file: thermal-expansion-5/augment-dynamo-power.png

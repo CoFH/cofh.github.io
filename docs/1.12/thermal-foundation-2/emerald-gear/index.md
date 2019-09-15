@@ -1,6 +1,5 @@
 ---
 title: Emerald Gear
-nav: thermal-foundation-2
 image:
 - alt: Emerald gear
   file: thermal-foundation-2/gear-emerald.png

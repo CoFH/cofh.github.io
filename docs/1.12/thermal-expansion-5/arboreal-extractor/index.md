@@ -1,6 +1,5 @@
 ---
 title: Arboreal Extractor
-nav: thermal-expansion-5
 redirect_from:
 - /docs/arboreal-extractor/
 - /docs/thermal-expansion/arboreal-extractor/

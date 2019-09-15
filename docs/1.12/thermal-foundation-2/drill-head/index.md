@@ -1,6 +1,5 @@
 ---
 title: Drill Head
-nav: thermal-foundation-2
 redirect_from:
 - /docs/drill-head/
 - /docs/thermal-foundation/drill-head/

@@ -1,6 +1,5 @@
 ---
 title: Lumium Ingot
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/alloys/lumium/
 - /docs/thermal-foundation/metals-and-alloys/lumium/

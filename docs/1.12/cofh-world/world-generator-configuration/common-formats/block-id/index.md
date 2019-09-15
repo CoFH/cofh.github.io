@@ -1,6 +1,5 @@
 ---
 title: Block ID
-nav: cofh-world
 redirect_from:
 - /docs/cofh-world/world-generator-configuration/common-formats/block-id/
 ---

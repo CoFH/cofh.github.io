@@ -1,6 +1,5 @@
 ---
 title: Fluxed Electrum Ingot
-nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum ingot
   file: redstone-arsenal-2/ingot-fluxed-electrum.gif

@@ -1,6 +1,5 @@
 ---
 title: Seed Oil
-nav: thermal-foundation-2
 image:
 - alt: Seed oil
   file: thermal-foundation-2/seed-oil.gif

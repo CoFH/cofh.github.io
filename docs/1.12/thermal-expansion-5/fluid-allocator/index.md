@@ -1,6 +1,5 @@
 ---
 title: Fluid Allocator
-nav: thermal-expansion-5
 image:
 - alt: Fluid allocator
   file: thermal-expansion-5/fluid-allocator.png

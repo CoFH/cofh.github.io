@@ -1,6 +1,5 @@
 ---
 title: Blizz Powder
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/elemental-materials/blizz-powder/
 - /docs/thermal-foundation/items/materials/elemental/blizz-powder/

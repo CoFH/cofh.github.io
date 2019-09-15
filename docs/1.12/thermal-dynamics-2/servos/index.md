@@ -1,6 +1,5 @@
 ---
 title: Servos
-nav: thermal-dynamics-2
 image:
 - alt: Servo
   file: thermal-dynamics-2/servo-basic.png

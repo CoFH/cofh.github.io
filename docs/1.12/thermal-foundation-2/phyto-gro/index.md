@@ -1,6 +1,5 @@
 ---
 title: Phyto-Gro
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-expansion/materials/phyto-gro/
 - /docs/thermal-foundation/materials/phyto-gro/

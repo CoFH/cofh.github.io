@@ -1,6 +1,5 @@
 ---
 title: Dynamos
-nav: thermal-expansion-5
 redirect_from:
 - /docs/dynamos/
 - /docs/thermal-expansion/dynamos/

@@ -1,6 +1,5 @@
 ---
 title: Mana Dust
-nav: thermal-foundation-2
 redirect_from:
 - /docs/thermal-foundation/materials/mana-dust/
 - /docs/thermal-foundation/items/materials/other/mana-dust/

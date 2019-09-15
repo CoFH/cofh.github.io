@@ -1,6 +1,5 @@
 ---
 title: Flux-Infused Excavator
-nav: redstone-arsenal-2
 image:
 - alt: Flux-infused excavator
   file: redstone-arsenal-2/flux-infused-excavator.png

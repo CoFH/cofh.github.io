@@ -1,6 +1,5 @@
 ---
 title: Thermal Mediator
-nav: thermal-expansion-5
 redirect_from:
 - /docs/thermal-mediator/
 - /docs/thermal-expansion/thermal-mediator/

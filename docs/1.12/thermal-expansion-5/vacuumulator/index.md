@@ -1,6 +1,5 @@
 ---
 title: Vacuumulator
-nav: thermal-expansion-5
 image:
 - alt: Vacuumulator
   file: thermal-expansion-5/vacuumulator.png

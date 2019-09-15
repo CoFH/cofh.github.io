@@ -1,6 +1,5 @@
 ---
 title: Signalum-Plated Itemduct
-nav: thermal-dynamics-2
 image:
 - alt: Signalum-plated itemduct
   file: thermal-dynamics-2/itemduct-signalum-plated.png
