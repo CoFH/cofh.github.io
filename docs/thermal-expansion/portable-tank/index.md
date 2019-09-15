@@ -99,7 +99,7 @@ A portable tank can have a [signalum security
 lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Enchantments
-A portable tank can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
+A portable tank can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |

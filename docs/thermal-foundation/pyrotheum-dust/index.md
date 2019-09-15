@@ -62,7 +62,7 @@ Pyrotheum dust can be combined with
 [books](https://minecraft.gamepedia.com/Book) and [essence of
 knowledge](/docs/thermal-foundation/essence-of-knowledge/) in an [arcane
 ensorcellator](/docs/thermal-expansion/arcane-ensorcellator/) to produce
-[Smelting](/docs/cofh-core/smelting/) [enchanted
+[Smelting](/docs/cofh-core-4/smelting/) [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book).
 
 ### Fuel

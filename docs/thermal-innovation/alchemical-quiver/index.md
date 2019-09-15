@@ -84,7 +84,7 @@ quiver in the crafting grid. The dyes can be removed by placing the quiver in a
 crafting grid.
 
 ### Enchantments
-An alchemical quiver can be enchanted with [Holding](/docs/cofh-core/holding/) to increase
+An alchemical quiver can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase
 its arrow and potion capacity.
 
 | Holding level | Capacity multiplier |

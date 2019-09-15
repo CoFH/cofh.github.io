@@ -1,8 +1,9 @@
 ---
 title: Vorpal
-nav: cofh-core
+nav: cofh-core-4
 redirect_from:
-  - /docs/vorpal/
+- /docs/vorpal/
+- /docs/cofh-core/vorpal/
 ---
 
 **Vorpal** is an [enchantment](https://minecraft.gamepedia.com/Enchanting) that

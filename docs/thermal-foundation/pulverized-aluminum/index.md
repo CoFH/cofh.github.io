@@ -40,7 +40,7 @@ Obtaining
 
 ### Smashing
 When [aluminum ore](/docs/thermal-foundation/aluminum-ore/) is broken using a
-[Smashing](/docs/cofh-core/smashing/) enchanted
+[Smashing](/docs/cofh-core-4/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized aluminum are dropped instead of the ore.
 

@@ -56,7 +56,7 @@ Usage
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When tin ore is broken using a [Smashing](/docs/cofh-core/smashing/) enchanted
+When tin ore is broken using a [Smashing](/docs/cofh-core-4/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 [pulverized tin](/docs/thermal-foundation/pulverized-tin/) are dropped instead
 of the ore.

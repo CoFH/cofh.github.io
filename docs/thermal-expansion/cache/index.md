@@ -70,7 +70,7 @@ A cache can be locked to only accept the currently stored item, even when it
 becomes empty. This can be toggled by using the cache while sneaking.
 
 ### Enchantments
-A cache can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
+A cache can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |

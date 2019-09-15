@@ -110,7 +110,7 @@ used.
 | III | 60% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-A fluxbore can also be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
+A fluxbore can also be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its
 energy capacity.
 
 | Holding level | Capacity multiplier |

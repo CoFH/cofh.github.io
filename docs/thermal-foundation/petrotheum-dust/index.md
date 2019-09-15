@@ -60,7 +60,7 @@ Petrotheum dust can be combined with
 [books](https://minecraft.gamepedia.com/Book) and [essence of
 knowledge](/docs/thermal-foundation/essence-of-knowledge/) in an [arcane
 ensorcellator](/docs/thermal-expansion/arcane-ensorcellator/) to produce
-[Smashing](/docs/cofh-core/smashing/) [enchanted
+[Smashing](/docs/cofh-core-4/smashing/) [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book).
 
 ### Reactant Dynamo fuel

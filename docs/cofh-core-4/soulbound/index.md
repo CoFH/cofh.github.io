@@ -1,8 +1,9 @@
 ---
 title: Soulbound
-nav: cofh-core
+nav: cofh-core-4
 redirect_from:
-  - /docs/soulbound/
+- /docs/soulbound/
+- /docs/cofh-core/soulbound/
 ---
 
 **Soulbound** is an [enchantment](https://minecraft.gamepedia.com/Enchanting)

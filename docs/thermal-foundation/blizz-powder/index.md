@@ -56,7 +56,7 @@ Usage
 When [brewing](https://minecraft.gamepedia.com/Brewing), blizz powder can be
 added to an [awkward
 potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
-of absorption](/docs/cofh-core/potions/).
+of absorption](/docs/cofh-core-4/potions/).
 
 ### Compactor ingredient
 {% include recipe-table.html type='compactor-te5' recipes=page.usage-recipes.compactor %}

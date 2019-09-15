@@ -6,7 +6,7 @@ author_url: http://www.twitter.com/ToniusMods
 published: true
 ---
 
-On December 24, new updates were released for [CoFH Core](/docs/cofh-core/),
+On December 24, new updates were released for [CoFH Core](/docs/cofh-core-4/),
 [CoFH World](/docs/cofh-world/), the [Thermal Series](/docs/#thermal-series) and
 [Redstone Arsenal](/docs/redstone-arsenal/).
 

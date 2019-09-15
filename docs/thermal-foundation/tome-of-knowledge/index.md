@@ -58,7 +58,7 @@ essence (`essence`) [OpenBlocks](https://www.openmods.info/)'s liquid XP
 (`xpjuice`).
 
 ### Enchantments
-A tome of knowledge can be enchanted with [Holding](/docs/cofh-core/holding/) to increase
+A tome of knowledge can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase
 its capacity.
 
 | Holding level | Capacity multiplier |

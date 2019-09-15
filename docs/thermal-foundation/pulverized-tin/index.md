@@ -50,7 +50,7 @@ Obtaining
 
 ### Smashing
 When [tin ore](/docs/thermal-foundation/tin-ore/) is broken using a
-[Smashing](/docs/cofh-core/smashing/) enchanted
+[Smashing](/docs/cofh-core-4/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized tin are dropped instead of the ore.
 

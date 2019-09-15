@@ -5,7 +5,7 @@ author_url: http://www.twitter.com/ToniusMods
 published: true
 ---
 
-On April 25, new updates were released for [CoFH Core](/docs/cofh-core/), the
+On April 25, new updates were released for [CoFH Core](/docs/cofh-core-4/), the
 [Thermal Series](/docs/#thermal-series) and [Redstone
 Arsenal](/docs/redstone-arsenal/).
 
@@ -18,12 +18,12 @@ before the docs are updated.
   tracker](https://github.com/CoFH/Feedback/issues?q=is%3Aissue+is%3Aclosed+label%3Afixed+sort%3Aupdated-desc)).
 
 #### CoFH Core
-* New [potion types](/docs/cofh-core/potions/)
+* New [potion types](/docs/cofh-core-4/potions/)
   * Potion of Luck (applies
     [Luck](https://minecraft.gamepedia.com/Status_effect#Luck))
   * Potion of Misfortune (applies [Bad
     Luck](https://minecraft.gamepedia.com/Status_effect#Bad_Luck))
-* [Insight](/docs/cofh-core/insight/) can be applied to
+* [Insight](/docs/cofh-core-4/insight/) can be applied to
   [bows](https://minecraft.gamepedia.com/Bow).
 * [Infinity](https://minecraft.gamepedia.com/Infinity) enchanted
   [bows](https://minecraft.gamepedia.com/Bow) work without requiring a single
@@ -35,7 +35,7 @@ before the docs are updated.
   still used for the default world generation.
 * [Oil sand](/docs/thermal-foundation/oil-sand/) now has a red variant.
 * Added [recipes](/docs/thermal-foundation/potion-recipes/) for [potions of Luck
-  and Misfortune](/docs/cofh-core/potions/).
+  and Misfortune](/docs/cofh-core-4/potions/).
 * [Tectonic petrotheum](/docs/thermal-foundation/tectonic-petrotheum/) no longer applies [Night
   Vision](https://minecraft.gamepedia.com/Status_effect#Night_Vision) when
   touched.

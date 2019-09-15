@@ -58,7 +58,7 @@ empowered arrow. Each empowered arrow costs 6,400 RF to fire.
 ### Enchantments
 A flux-infused quiver has an
 [enchantability](https://minecraft.gamepedia.com/Enchantability) of 10. It can
-be enchanted with [Holding](/docs/cofh-core/holding/) to increase its energy capacity.
+be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its energy capacity.
 
 | Holding level | Capacity multiplier |
 |---

@@ -54,7 +54,7 @@ Usage
 When [brewing](https://minecraft.gamepedia.com/Brewing), pulverized obsidian can
 be added to an [awkward
 potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
-of resistance](/docs/cofh-core/potions/).
+of resistance](/docs/cofh-core-4/potions/).
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

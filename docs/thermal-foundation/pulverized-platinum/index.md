@@ -48,7 +48,7 @@ Obtaining
 
 ### Smashing
 When [platinum ore](/docs/thermal-foundation/platinum-ore/) is broken using a
-[Smashing](/docs/cofh-core/smashing/) enchanted
+[Smashing](/docs/cofh-core-4/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized platinum are dropped instead of the ore.
 

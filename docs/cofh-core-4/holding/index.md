@@ -1,11 +1,12 @@
 ---
 title: Holding
-nav: cofh-core
+nav: cofh-core-4
 redirect_from:
-  - /docs/cofh-core/enchantments/holding/
-  - /docs/cofh-core/features/enchantments/
-  - /docs/cofh-core/enchantments/
-  - /docs/holding/
+- /docs/cofh-core/enchantments/holding/
+- /docs/cofh-core/features/enchantments/
+- /docs/cofh-core/enchantments/
+- /docs/holding/
+- /docs/cofh-core/holding/
 ---
 
 **Holding** is an [enchantment](https://minecraft.gamepedia.com/Enchanting) that

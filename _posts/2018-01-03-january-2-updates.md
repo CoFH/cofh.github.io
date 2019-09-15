@@ -5,7 +5,7 @@ author_url: http://www.twitter.com/ToniusMods
 published: true
 ---
 
-On January 2, new updates were released for [CoFH Core](/docs/cofh-core/), the
+On January 2, new updates were released for [CoFH Core](/docs/cofh-core-4/), the
 [Thermal Series](/docs/#thermal-series) and [Redstone
 Arsenal](/docs/redstone-arsenal/).
 

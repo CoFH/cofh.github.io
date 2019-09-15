@@ -1,9 +1,10 @@
 ---
 title: Multishot
-nav: cofh-core
+nav: cofh-core-4
 redirect_from:
-  - /docs/cofh-core/enchantments/multishot/
-  - /docs/multishot/
+- /docs/cofh-core/enchantments/multishot/
+- /docs/multishot/
+- /docs/cofh-core/multishot/
 ---
 
 **Multishot** is an [enchantment](https://minecraft.gamepedia.com/Enchanting)

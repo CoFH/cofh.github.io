@@ -1,8 +1,9 @@
 ---
 title: Insight
-nav: cofh-core
+nav: cofh-core-4
 redirect_from:
-  - /docs/insight/
+- /docs/insight/
+- /docs/cofh-core/insight/
 ---
 
 **Insight** is an [enchantment](https://minecraft.gamepedia.com/Enchanting) that

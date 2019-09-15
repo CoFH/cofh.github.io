@@ -60,7 +60,7 @@ Flux](/docs/redstone-flux/) when absorbing damage.
 | III | 57% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-Flux-infused boots can also be enchanted with [Holding](/docs/cofh-core/holding/) to
+Flux-infused boots can also be enchanted with [Holding](/docs/cofh-core-4/holding/) to
 increase their energy capacity.
 
 | Holding level | Capacity multiplier |

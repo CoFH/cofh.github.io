@@ -40,7 +40,7 @@ Obtaining
 
 ### Smashing
 When [mana infused ore](/docs/thermal-foundation/mana-infused-ore/) is broken
-using a [Smashing](/docs/cofh-core/smashing/) enchanted
+using a [Smashing](/docs/cofh-core-4/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized mana infused metal are dropped instead of the ore.
 

@@ -1,8 +1,9 @@
 ---
 title: Friend List
-nav: cofh-core
+nav: cofh-core-4
 redirect_from:
-  - /docs/friend-list/
+- /docs/friend-list/
+- /docs/cofh-core/friend-list/
 ---
 
 The **friend list** is a feature that allows players to mark other players as
@@ -14,7 +15,7 @@ Management
 ----------
 
 A player can manage their friend list using the [`/cofh friend`
-command](/docs/cofh-core/commands/#friend).
+command](/docs/cofh-core-4/commands/#friend).
 
 While the command allows players to quickly add and remove other players, a
 friend list can also be managed in a GUI by using `/cofh friend gui`. This GUI

@@ -1,6 +1,8 @@
 ---
 title: Smashing
-nav: cofh-core
+nav: cofh-core-4
+redirect_from:
+- /docs/cofh-core/smashing/
 ---
 
 **Smashing** is an [enchantment](https://minecraft.gamepedia.com/Enchanting)
@@ -24,7 +26,7 @@ ore](/docs/thermal-foundation/copper-ore/) drops two piles of [pulverized
 copper](/docs/thermal-foundation/pulverized-copper/).
 
 When a tool is enchanted with both Smashing and
-[Smelting](/docs/cofh-core/smelting/), the effect of Smashing is applied before
+[Smelting](/docs/cofh-core-4/smelting/), the effect of Smashing is applied before
 that of Smelting when breaking a block, causing metal ores to drop multiple
 ingots when broken.
 

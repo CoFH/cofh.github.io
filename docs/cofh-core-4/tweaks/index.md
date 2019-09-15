@@ -1,11 +1,12 @@
 ---
 title: Tweaks (CoFH Core)
-nav: cofh-core
+nav: cofh-core-4
 redirect_from:
-  - /docs/cofh-core-tweaks/
+- /docs/cofh-core-tweaks/
+- /docs/cofh-core/tweaks/
 ---
 
-[CoFH Core](/docs/cofh-core/) adds several **tweaks** to the game. Most of these
+[CoFH Core](/docs/cofh-core-4/) adds several **tweaks** to the game. Most of these
 are optional and can be disabled.
 
 

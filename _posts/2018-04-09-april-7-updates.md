@@ -5,7 +5,7 @@ author_url: http://www.twitter.com/ToniusMods
 published: true
 ---
 
-On April 7, new updates were released for [CoFH Core](/docs/cofh-core/),
+On April 7, new updates were released for [CoFH Core](/docs/cofh-core-4/),
 [Thermal Foundation](/docs/thermal-foundation/), [Thermal
 Expansion](/docs/thermal-expansion/), [Thermal
 Dynamics](/docs/thermal-dynamics/) and [Redstone
@@ -17,7 +17,7 @@ Innovation](/docs/thermal-innovation/) was also released.
   tracker](https://github.com/CoFH/Feedback/issues?q=is%3Aissue+is%3Aclosed+label%3Afixed+sort%3Aupdated-desc)).
 
 #### CoFH Core
-* [Soulbound](/docs/cofh-core/soulbound/) enchantment
+* [Soulbound](/docs/cofh-core-4/soulbound/) enchantment
   * Prevents items from being dropped on death.
   * Goes up to level III.
   * The enchantment level may be reduced by one on death.

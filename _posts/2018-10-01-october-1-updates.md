@@ -6,7 +6,7 @@ published: true
 ---
 
 On October 1, new updates were released for [Redstone
-Flux](/docs/redstone-flux/), [CoFH Core](/docs/cofh-core/), [CoFH
+Flux](/docs/redstone-flux/), [CoFH Core](/docs/cofh-core-4/), [CoFH
 World](/docs/cofh-world/), the [Thermal Series](/docs/#thermal-series), the
 [Vanilla+ Series](/docs/#vanilla-series) and [Redstone
 Arsenal](/docs/redstone-arsenal/).
@@ -18,7 +18,7 @@ Arsenal](/docs/redstone-arsenal/).
   tracker](https://github.com/CoFH/Feedback/issues?q=is%3Aissue+is%3Aclosed+label%3Afixed+sort%3Aupdated-desc)).
 
 #### CoFH Core
-* [Vorpal](/docs/cofh-core/vorpal/) now has a visual effect when dealing
+* [Vorpal](/docs/cofh-core-4/vorpal/) now has a visual effect when dealing
   increased damage.
 
 #### CoFH World

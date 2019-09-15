@@ -1,11 +1,12 @@
 ---
 title: Potions (CoFH Core)
-nav: cofh-core
+nav: cofh-core-4
 redirect_from:
-  - /docs/cofh-core-potions/
+- /docs/cofh-core-potions/
+- /docs/cofh-core/potions/
 ---
 
-[CoFH Core](/docs/cofh-core/) adds several new
+[CoFH Core](/docs/cofh-core-4/) adds several new
 [potions](https://minecraft.gamepedia.com/Potion) to the game, along with
 stronger versions of some existing potions.
 

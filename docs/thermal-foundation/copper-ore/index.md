@@ -58,7 +58,7 @@ Usage
 {% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When copper ore is broken using a [Smashing](/docs/cofh-core/smashing/)
+When copper ore is broken using a [Smashing](/docs/cofh-core-4/smashing/)
 enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
 two piles of [pulverized copper](/docs/thermal-foundation/pulverized-copper/)
 are dropped instead of the ore.

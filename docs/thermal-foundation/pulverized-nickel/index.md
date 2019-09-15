@@ -53,7 +53,7 @@ Obtaining
 
 ### Smashing
 When [nickel ore](/docs/thermal-foundation/nickel-ore/) is broken using a
-[Smashing](/docs/cofh-core/smashing/) enchanted
+[Smashing](/docs/cofh-core-4/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized nickel are dropped instead of the ore.
 

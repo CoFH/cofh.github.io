@@ -11,7 +11,7 @@ Tools](https://minecraft.curseforge.com/projects/cofh-vanilla-tools) and
 Satchels](https://minecraft.curseforge.com/projects/cofh-vanilla-satchels). They
 are part of the new "Vanilla+" series, a group of lightweight mods intended for use
 in lightly modded or low-technology modpacks. Both mods require [CoFH
-Core](/docs/cofh-core/) to run.
+Core](/docs/cofh-core-4/) to run.
 
 Documentation for the mods will be added to the website soon. For now, here's a
 quick overview:

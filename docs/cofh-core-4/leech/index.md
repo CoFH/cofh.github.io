@@ -1,8 +1,9 @@
 ---
 title: Leech
-nav: cofh-core
+nav: cofh-core-4
 redirect_from:
-  - /docs/leech/
+- /docs/leech/
+- /docs/cofh-core/leech/
 ---
 
 **Leech** is an [enchantment](https://minecraft.gamepedia.com/Enchanting) that

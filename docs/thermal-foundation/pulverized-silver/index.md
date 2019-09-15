@@ -54,7 +54,7 @@ Obtaining
 
 ### Smashing
 When [silver ore](/docs/thermal-foundation/silver-ore/) is broken using a
-[Smashing](/docs/cofh-core/smashing/) enchanted
+[Smashing](/docs/cofh-core-4/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized silver are dropped instead of the ore.
 

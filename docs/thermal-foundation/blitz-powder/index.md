@@ -56,7 +56,7 @@ Usage
 When [brewing](https://minecraft.gamepedia.com/Brewing), blitz powder can be
 added to an [awkward
 potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
-of levitation](/docs/cofh-core/potions/).
+of levitation](/docs/cofh-core-4/potions/).
 
 ### Compactor ingredient
 {% include recipe-table.html type='compactor-te5' recipes=page.usage-recipes.compactor %}

@@ -41,7 +41,7 @@ Obtaining
 
 ### Smashing
 When [iridium ore](/docs/thermal-foundation/iridium-ore/) is broken using a
-[Smashing](/docs/cofh-core/smashing/) enchanted
+[Smashing](/docs/cofh-core-4/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized iridium are dropped instead of the ore.
 

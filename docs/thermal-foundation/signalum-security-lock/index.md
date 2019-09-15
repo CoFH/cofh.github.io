@@ -46,7 +46,7 @@ Public Access
 : Anyone can access the block or item. This is the default mode.
 
 Restricted
-: The owner and any of their [friends](/docs/cofh-core/friend-list/) can access the block
+: The owner and any of their [friends](/docs/cofh-core-4/friend-list/) can access the block
 or item.
 
 Owner Only

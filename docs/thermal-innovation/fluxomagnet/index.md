@@ -95,7 +95,7 @@ A fluxomagnet can be dyed by combining it with a
 removed by placing the fluxomagnet in a crafting grid.
 
 ### Enchantments
-A fluxomagnet can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
+A fluxomagnet can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |

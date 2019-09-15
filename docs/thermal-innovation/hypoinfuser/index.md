@@ -83,7 +83,7 @@ A hypoinfuser can be dyed by combining it with a
 removed by placing the hypoinfuser in a crafting grid.
 
 ### Enchantments
-A hypoinfuser can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
+A hypoinfuser can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |

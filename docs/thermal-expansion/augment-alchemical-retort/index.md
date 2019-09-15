@@ -35,10 +35,10 @@ that cannot be installed together with other specialization augments.
 ### Effects
 A [fractionating still](/docs/thermal-expansion/fractionating-still/) with an alchemical retort
 installed can refine level II [fluid potions](/docs/thermal-foundation/potion-fluid/) to increase
-their potency to [levels up to IV](/docs/cofh-core/potions/#stronger-potions).
+their potency to [levels up to IV](/docs/cofh-core-4/potions/#stronger-potions).
 It can also refine the extended versions of potions (brewed using
 [redstone](https://minecraft.gamepedia.com/Redstone)) to increase their potency
-to [levels up to III](/docs/cofh-core/potions/#stronger-potions). However, the
+to [levels up to III](/docs/cofh-core-4/potions/#stronger-potions). However, the
 machine cannot process anything other than potions.
 
 Refining a fluid potion requires 2,500 RF per operation. The amount of fluid

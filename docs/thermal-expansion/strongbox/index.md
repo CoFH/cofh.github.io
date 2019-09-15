@@ -71,7 +71,7 @@ A strongbox can have a [signalum security lock](/docs/thermal-foundation/signalu
 installed to restrict who can access it.
 
 ### Enchantments
-A strongbox can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
+A strongbox can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its
 capacity.
 
 | Holding level | Capacity increase (slots) |

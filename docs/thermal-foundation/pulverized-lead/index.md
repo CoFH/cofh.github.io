@@ -48,7 +48,7 @@ Obtaining
 
 ### Smashing
 When [lead ore](/docs/thermal-foundation/lead-ore/) is broken using a
-[Smashing](/docs/cofh-core/smashing/) enchanted
+[Smashing](/docs/cofh-core-4/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized lead are dropped instead of the ore.
 

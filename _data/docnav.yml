@@ -7,9 +7,9 @@ redstone-flux:
             - title: 'Redstone Flux: A Primer'
               url: redstone-flux-a-primer/
 
-cofh-core:
+cofh-core-4:
   title: CoFH Core 4
-  url: cofh-core/
+  url: cofh-core-4/
   sections:
     - groups:
         - title: General
@@ -43,17 +43,17 @@ cofh-core:
 
 cofh-core-3:
   title: CoFH Core 3
-  url: cofh-core/3/
+  url: cofh-core-3/
   # old worldgen stuff
 
 cofh-core-2:
   title: CoFH Core 2
-  url: cofh-core/2/
+  url: cofh-core-2/
   # was anything noteworthy...
 
 cofh-core-1:
   title: CoFH Core 1
-  url: cofh-core/1/
+  url: cofh-core-1/
   # ...even in these versions?
 
 cofh-world:

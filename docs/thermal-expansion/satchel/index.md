@@ -93,7 +93,7 @@ A satchel can have a [signalum security lock](/docs/thermal-foundation/signalum-
 installed to restrict who can access it.
 
 ### Enchantments
-A satchel can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
+A satchel can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its
 capacity.
 
 | Holding level | Capacity increase (slots) |

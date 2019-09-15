@@ -108,7 +108,7 @@ A placed energy cell can have a [signalum security
 lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Enchantments
-An energy cell can be enchanted with [Holding](/docs/cofh-core/holding/) to increase its
+An energy cell can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |

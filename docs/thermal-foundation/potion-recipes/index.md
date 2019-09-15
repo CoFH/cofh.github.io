@@ -6,13 +6,13 @@ redirect_from:
 ---
 
 [Thermal Foundation](/docs/thermal-foundation/) adds recipes to obtain the new
-[potions](/docs/cofh-core/potions/) added by [CoFH Core](/docs/cofh-core/).
+[potions](/docs/cofh-core-4/potions/) added by [CoFH Core](/docs/cofh-core-4/).
 
 
 Brewing
 -------
 
-Most [potions](/docs/cofh-core/potions/) added by [CoFH Core](/docs/cofh-core/)
+Most [potions](/docs/cofh-core-4/potions/) added by [CoFH Core](/docs/cofh-core-4/)
 can be [brewed](https://minecraft.gamepedia.com/Brewing) by adding certain
 ingredients to [awkward
 potions](https://minecraft.gamepedia.com/Potion#Base_potions).

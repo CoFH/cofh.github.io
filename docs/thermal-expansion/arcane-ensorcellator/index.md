@@ -196,14 +196,14 @@ of knowledge](/docs/thermal-foundation/essence-of-knowledge/).
 | [Curse of Binding](https://minecraft.gamepedia.com/Curse_of_Binding) | [Popped Chorus Fruit](https://minecraft.gamepedia.com/Popped_Chorus_Fruit) | 5,000 mB | 40,000 RF |
 | [Curse of Vanishing](https://minecraft.gamepedia.com/Curse_of_Vanishing) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 5,000 mB | 40,000 RF |
 |
-| [Holding I](/docs/cofh-core/holding/) | [Chest](https://minecraft.gamepedia.com/Chest) | 1,500 mB | 500 RF |
-| [Insight I](/docs/cofh-core/insight/) | [Bottle o' Enchanting](https://minecraft.gamepedia.com/Bottle_o%27_Enchanting) | 1,500 mB | 12,000 RF |
-| [Leech I](/docs/cofh-core/leech/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 1,500 mB | 12,000 RF |
-| [Soulbound I](/docs/cofh-core/soulbound/) | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | 1,500 mB | 12,000 RF |
-| [Multishot I](/docs/cofh-core/multishot/) | [Arrow](https://minecraft.gamepedia.com/Arrow) | 3,000 mB | 24,000 RF |
-| [Smashing](/docs/cofh-core/smashing/) | [Petrotheum Dust](/docs/thermal-foundation/petrotheum-dust/) | 3,000 mB | 24,000 RF |
-| [Smelting](/docs/cofh-core/smelting/) | [Pyrotheum Dust](/docs/thermal-foundation/pyrotheum-dust/) | 3,000 mB | 24,000 RF |
-| [Vorpal I](/docs/cofh-core/vorpal/) | [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) | 5,000 mB | 40,000 RF |
+| [Holding I](/docs/cofh-core-4/holding/) | [Chest](https://minecraft.gamepedia.com/Chest) | 1,500 mB | 500 RF |
+| [Insight I](/docs/cofh-core-4/insight/) | [Bottle o' Enchanting](https://minecraft.gamepedia.com/Bottle_o%27_Enchanting) | 1,500 mB | 12,000 RF |
+| [Leech I](/docs/cofh-core-4/leech/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 1,500 mB | 12,000 RF |
+| [Soulbound I](/docs/cofh-core-4/soulbound/) | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | 1,500 mB | 12,000 RF |
+| [Multishot I](/docs/cofh-core-4/multishot/) | [Arrow](https://minecraft.gamepedia.com/Arrow) | 3,000 mB | 24,000 RF |
+| [Smashing](/docs/cofh-core-4/smashing/) | [Petrotheum Dust](/docs/thermal-foundation/petrotheum-dust/) | 3,000 mB | 24,000 RF |
+| [Smelting](/docs/cofh-core-4/smelting/) | [Pyrotheum Dust](/docs/thermal-foundation/pyrotheum-dust/) | 3,000 mB | 24,000 RF |
+| [Vorpal I](/docs/cofh-core-4/vorpal/) | [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) | 5,000 mB | 40,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
