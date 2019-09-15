@@ -9,7 +9,7 @@ redstone-flux:
 
 cofh-core-4:
   title: CoFH Core 4
-  url: cofh-core-4/
+  url: 1.12/cofh-core-4/
   sections:
     - groups:
         - title: General
@@ -41,24 +41,9 @@ cofh-core-4:
             - title: Vorpal
               url: vorpal/
 
-cofh-core-3:
-  title: CoFH Core 3
-  url: cofh-core-3/
-  # old worldgen stuff
-
-cofh-core-2:
-  title: CoFH Core 2
-  url: cofh-core-2/
-  # was anything noteworthy...
-
-cofh-core-1:
-  title: CoFH Core 1
-  url: cofh-core-1/
-  # ...even in these versions?
-
 cofh-world:
   title: CoFH World
-  url: cofh-world/
+  url: 1.12/cofh-world/
   sections:
     - groups:
         - title: Configuration
@@ -140,7 +125,7 @@ cofh-world:
 
 thermal-foundation-2:
   title: Thermal Foundation 2
-  url: thermal-foundation-2/
+  url: 1.12/thermal-foundation-2/
   sections:
     - title: World
       groups:
@@ -970,13 +955,9 @@ thermal-foundation-2:
             - title: Vanilla recipes
               url: vanilla-recipes/
 
-thermal-foundation-1:
-  title: Thermal Foundation 1
-  url: thermal-foundation-1/
-
 thermal-expansion-5:
   title: Thermal Expansion 5
-  url: thermal-expansion-5/
+  url: 1.12/thermal-expansion-5/
   sections:
     - groups:
         - title: Machines
@@ -1263,29 +1244,9 @@ thermal-expansion-5:
                   url: reusable-morb/
                   icon: [9, 19]
 
-thermal-expansion-4:
-  title: Thermal Expansion 4
-  url: thermal-expansion-4/
-  # probably
-
-thermal-expansion-3:
-  title: Thermal Expansion 3
-  url: thermal-expansion-3/
-  # maybe
-
-thermal-expansion-2:
-  title: Thermal Expansion 2
-  url: thermal-expansion-2/
-  # yeah, right
-
-thermal-expansion-1:
-  title: Thermal Expansion 1
-  url: thermal-expansion-1/
-  # LOL
-
 thermal-dynamics-2:
   title: Thermal Dynamics 2
-  url: thermal-dynamics-2/
+  url: 1.12/thermal-dynamics-2/
   sections:
     - groups:
         - title: Ducts
@@ -1377,13 +1338,9 @@ thermal-dynamics-2:
               url: redstone-relay/
               icon: [1, 21]
 
-thermal-dynamics-1:
-  title: Thermal Dynamics 1
-  url: thermal-dynamics-1/
-
 thermal-cultivation:
   title: Thermal Cultivation
-  url: thermal-cultivation/
+  url: 1.12/thermal-cultivation/
   sections:
     - groups:
         - items:
@@ -1393,7 +1350,7 @@ thermal-cultivation:
 
 thermal-innovation:
   title: Thermal Innovation
-  url: thermal-innovation/
+  url: 1.12/thermal-innovation/
   sections:
     - groups:
         - items:
@@ -1415,7 +1372,7 @@ thermal-innovation:
 
 redstone-arsenal-2:
   title: Redstone Arsenal 2
-  url: redstone-arsenal-2/
+  url: 1.12/redstone-arsenal-2/
   sections:
     - groups:
         - title: Flux-Infused Tools
@@ -1515,17 +1472,9 @@ redstone-arsenal-2:
               url: fluxed-armor-plating/
               icon: [0, 23]
 
-redstone-arsenal-1.1:
-  title: Redstone Arsenal 1.1
-  url: redstone-arsenal-1.1/
-
-redstone-arsenal-1.0:
-  title: Redstone Arsenal 1.0
-  url: redstone-arsenal-1.0/
-
 vanillaplus-tools:
   title: Vanilla+ Tools
-  url: vanillaplus-tools/
+  url: 1.12/vanillaplus-tools/
   sections:
     - groups:
         - items:
@@ -1553,7 +1502,7 @@ vanillaplus-tools:
 
 vanillaplus-satchels:
   title: Vanilla+ Satchels
-  url: vanillaplus-satchels/
+  url: 1.12/vanillaplus-satchels/
   sections:
     - groups:
         - items:

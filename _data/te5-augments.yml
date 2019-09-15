@@ -1,7 +1,7 @@
 machine-power:
   name: Auxiliary Reception Coil
   url: augment-auxiliary-reception-coil/
-  installed-in: 'Any <a href="/docs/thermal-expansion-5/machines/">machine</a>'
+  installed-in: 'Any <a href="/docs/1.12/thermal-expansion-5/machines/">machine</a>'
   description: >
     Increases a machine's maximum power usage (speed). However, also increases
     the amount of energy required per operation. Can be installed multiple
@@ -10,7 +10,7 @@ machine-secondary:
   name: Auxiliary Sieve
   url: augment-auxiliary-sieve/
   installed-in: >
-    <a href="/docs/thermal-expansion-5/machines/">Machines</a> with<br />
+    <a href="/docs/1.12/thermal-expansion-5/machines/">Machines</a> with<br />
     secondary products
   description: >
     Increases the chances of a machine producing a secondary product. However,
@@ -21,7 +21,7 @@ machine-secondary-null:
   url: augment-nullification-chamber/
   animated: true
   installed-in: >
-    <a href="/docs/thermal-expansion-5/machines/">Machines</a> with<br />
+    <a href="/docs/1.12/thermal-expansion-5/machines/">Machines</a> with<br />
     secondary products
   description: >
     Destroys excess secondary products when a machine's secondary output
@@ -29,7 +29,7 @@ machine-secondary-null:
 machine-furnace-food:
   name: Trivection Chamber
   url: augment-trivection-chamber/
-  installed-in: '<a href="/docs/thermal-expansion-5/redstone-furnace/">Redstone Furnace</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/redstone-furnace/">Redstone Furnace</a>'
   description: >
     A specialization that increases the amount of cooked <a
     href="https://minecraft.gamepedia.com/Food">food</a> a redstone furnace
@@ -38,7 +38,7 @@ machine-furnace-food:
 machine-furnace-ore:
   name: Flux Anodizers
   url: augment-flux-anodizers/
-  installed-in: '<a href="/docs/thermal-expansion-5/redstone-furnace/">Redstone Furnace</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/redstone-furnace/">Redstone Furnace</a>'
   description: >
     A specialization that allows for a redstone furnace to process ores more
     efficiently. However, a redstone furnace can only process ores when
@@ -46,14 +46,14 @@ machine-furnace-ore:
 machine-furnace-pyrolysis:
   name: Pyrolytic Conversion
   url: augment-pyrolytic-conversion/
-  installed-in: '<a href="/docs/thermal-expansion-5/redstone-furnace/">Redstone Furnace</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/redstone-furnace/">Redstone Furnace</a>'
   description: >
     A specialization that allows for a redstone furnace to process various
     plant-based materials into <a
     href="https://minecraft.gamepedia.com/Charcoal">charcoal</a>, and <a
     href="https://minecraft.gamepedia.com/Coal">coal</a> into <a
-    href="/docs/thermal-foundation-2/coal-coke/">coal coke</a>. It also produces
-    <a href="/docs/thermal-foundation-2/creosote-oil/">creosote oil</a> as a
+    href="/docs/1.12/thermal-foundation-2/coal-coke/">coal coke</a>. It also produces
+    <a href="/docs/1.12/thermal-foundation-2/creosote-oil/">creosote oil</a> as a
     byproduct when installed. However, when installed, a redstone furnace can
     only process these items and its maximum power usage (speed) is reduced by a
     factor of 10.
@@ -61,46 +61,46 @@ machine-pulverizer-petrotheum:
   name: Tectonic Initiator
   url: augment-tectonic-initiator/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion-5/pulverizer/">Pulverizer</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/pulverizer/">Pulverizer</a>'
   description: >
     A specialization that allows for a pulverizer to process ores more
     efficiently using <a
-    href="/docs/thermal-foundation-2/tectonic-petrotheum/">tectonic
+    href="/docs/1.12/thermal-foundation-2/tectonic-petrotheum/">tectonic
     petrotheum</a>. 100 mB of petrotheum is consumed per ore.
 machine-sawmill-tapper:
   name: Resin Funnel
   url: augment-resin-funnel/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion-5/sawmill/">Sawmill</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/sawmill/">Sawmill</a>'
   description: >
     A specialization that allows for a sawmill to extract fluids from <a
     href="https://minecraft.gamepedia.com/Wood">wood</a> while processing it,
-    like <a href="/docs/thermal-foundation-2/resin/">resin</a> and <a
-    href="/docs/thermal-foundation-2/sap/">sap</a>.
+    like <a href="/docs/1.12/thermal-foundation-2/resin/">resin</a> and <a
+    href="/docs/1.12/thermal-foundation-2/sap/">sap</a>.
 machine-smelter-flux:
   name: Metallurgical Recovery
   url: augment-metallurgical-recovery/
-  installed-in: '<a href="/docs/thermal-expansion-5/induction-smelter/">Induction Smelter</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/induction-smelter/">Induction Smelter</a>'
   description: >
     Provides a chance for an induction smelter to not consume metallurgical
     fluxes (such as <a href="https://minecraft.gamepedia.com/Sand">sand</a> and
-    <a href="/docs/thermal-foundation-2/rich-slag/">rich slag</a>). However, also
+    <a href="/docs/1.12/thermal-foundation-2/rich-slag/">rich slag</a>). However, also
     increases the amount of energy required per operation. Can be installed
     multiple times.
 machine-smelter-pyrotheum:
   name: Pyro-Concentrator
   url: augment-pyro-concentrator/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion-5/induction-smelter/">Induction Smelter</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/induction-smelter/">Induction Smelter</a>'
   description: >
     A specialization that allows for an induction smelter to process ores more
     efficiently using <a
-    href="/docs/thermal-foundation-2/blazing-pyrotheum/">blazing pyrotheum</a>.
+    href="/docs/1.12/thermal-foundation-2/blazing-pyrotheum/">blazing pyrotheum</a>.
     100 mB of pyrotheum is consumed per ore.
 machine-insolator-fertilizer:
   name: Nutrient Recovery
   url: augment-nutrient-recovery/
-  installed-in: '<a href="/docs/thermal-expansion-5/phytogenic-insolator/">Phytogenic Insolator</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/phytogenic-insolator/">Phytogenic Insolator</a>'
   description: >
     Provides a chance for a phytogenic insolator to not consume fertilizer.
     However, also increases the amount of energy required per operation. Can be
@@ -108,7 +108,7 @@ machine-insolator-fertilizer:
 machine-insolator-tree:
   name: Sapling Infuser
   url: augment-sapling-infuser/
-  installed-in: '<a href="/docs/thermal-expansion-5/phytogenic-insolator/">Phytogenic Insolator</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/phytogenic-insolator/">Phytogenic Insolator</a>'
   description: >
     Allows for a phytogenic insolator to grow <a
     href="https://minecraft.gamepedia.com/Tree">trees</a>.
@@ -116,7 +116,7 @@ machine-insolator-monoculture:
   name: Monoculture Cycle
   url: augment-monoculture-cycle/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion-5/phytogenic-insolator/">Phytogenic Insolator</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/phytogenic-insolator/">Phytogenic Insolator</a>'
   description: >
     A specialization that changes a phytogenic insolator to not consume
     non-fertilizer inputs. However, also increases the amount of energy required
@@ -125,14 +125,14 @@ machine-insolator-monoculture:
 machine-compactor-coin:
   name: Numismatic Press
   url: augment-numismatic-press/
-  installed-in: '<a href="/docs/thermal-expansion-5/compactor/">Compactor</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/compactor/">Compactor</a>'
   description: >
     A specialization that allows for a compactor to produce metal coins instead
     of plates.
 machine-compactor-gear:
   name: Gearworking Die
   url: augment-gearworking-die/
-  installed-in: '<a href="/docs/thermal-expansion-5/compactor/">Compactor</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/compactor/">Compactor</a>'
   description: >
     A specialization that allows for a compactor to produce gears instead of
     plates.
@@ -140,7 +140,7 @@ machine-crucible-lava:
   name: Pyroconvective Loop
   url: augment-pyroconvective-loop/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion-5/magma-crucible/">Magma Crucible</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/magma-crucible/">Magma Crucible</a>'
   description: >
     A specialization that increases a magma crucible's maximum power usage
     (speed) by a factor of 10. However, a crucible can only produce <a
@@ -148,7 +148,7 @@ machine-crucible-lava:
 machine-refinery-oil:
   name: Reflux Column
   url: augment-reflux-column/
-  installed-in: '<a href="/docs/thermal-expansion-5/fractionating-still/">Fractionating Still</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/fractionating-still/">Fractionating Still</a>'
   description: >
     A specialization that increases a fractionating still's conversion
     efficiency when processing fossil fuels. However, a still can only process
@@ -156,16 +156,16 @@ machine-refinery-oil:
 machine-refinery-potion:
   name: Alchemical Retort
   url: augment-alchemical-retort/
-  installed-in: '<a href="/docs/thermal-expansion-5/fractionating-still/">Fractionating Still</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/fractionating-still/">Fractionating Still</a>'
   description: >
     A specialization that allows for a fractionating still to refine <a
-    href="/docs/thermal-foundation-2/potion-fluid/">fluid potions</a>, increasing
+    href="/docs/1.12/thermal-foundation-2/potion-fluid/">fluid potions</a>, increasing
     their potency level. However, a still can only process potions when
     installed.
 machine-charger-throughput:
   name: Flux Linkage Concentrator
   url: augment-flux-linkage-concentrator/
-  installed-in: '<a href="/docs/thermal-expansion-5/energetic-infuser/">Energetic Infuser</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/energetic-infuser/">Energetic Infuser</a>'
   description: >
     A specialization that greatly increases an energetic infuser's maximum power
     usage (speed) when charging items that hold <a
@@ -174,37 +174,37 @@ machine-charger-throughput:
 machine-charger-repair:
   name: Flux Reconstruction
   url: augment-flux-reconstruction/
-  installed-in: '<a href="/docs/thermal-expansion-5/energetic-infuser/">Energetic Infuser</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/energetic-infuser/">Energetic Infuser</a>'
   description: >
     A specialization that allows for an energetic infuser to repair damaged
-    items using <a href="/docs/thermal-foundation-2/essence-of-knowledge/">essence
+    items using <a href="/docs/1.12/thermal-foundation-2/essence-of-knowledge/">essence
     of knowledge</a>. However, an energetic infuser will no longer charge items
     when installed.
 machine-charger-wireless:
   name: Parabolic Flux Coupling
   url: augment-parabolic-flux-coupling/
-  installed-in: '<a href="/docs/thermal-expansion-5/energetic-infuser/">Energetic Infuser</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/energetic-infuser/">Energetic Infuser</a>'
   description: >
     A specialization that allows for an energetic infuser to wirelessly recharge
-    <a href="/docs/thermal-expansion-5/flux-capacitor/">flux capacitors</a> of
+    <a href="/docs/1.12/thermal-expansion-5/flux-capacitor/">flux capacitors</a> of
     players within a radius of 32 blocks. However, an energetic infuser will no
     longer charge or process items directly when installed.
 machine-centrifuge-mobs:
   name: Enstabulation Apparatus
   url: augment-enstabulation-apparatus/
-  installed-in: '<a href="/docs/thermal-expansion-5/centrifugal-separator/">Centrifugal Separator</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/centrifugal-separator/">Centrifugal Separator</a>'
   description: >
     A specialization that allows for a centrifugal separator to process filled
-    <a href="/docs/thermal-expansion-5/morb/">morbs</a> for <a
+    <a href="/docs/1.12/thermal-expansion-5/morb/">morbs</a> for <a
     href="https://minecraft.gamepedia.com/Mob">mob</a> drops and <a
-    href="/docs/thermal-foundation-2/essence-of-knowledge/">essence of
+    href="/docs/1.12/thermal-foundation-2/essence-of-knowledge/">essence of
     knowledge</a>. However, a centrifugal separator can only process morbs when
     installed.
 machine-crafter-input:
   name: Pattern Validation
   url: augment-pattern-validation/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion-5/sequential-fabricator/">Sequential Fabricator</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/sequential-fabricator/">Sequential Fabricator</a>'
   description: >
     Allows for a sequential fabricator to handle item input more intelligently.
     Two input slots are designated for each crafting slot. Also allows
@@ -212,7 +212,7 @@ machine-crafter-input:
 machine-crafter-tank:
   name: Fluidic Fabrication
   url: augment-fluidic-fabrication/
-  installed-in: '<a href="/docs/thermal-expansion-5/sequential-fabricator/">Sequential Fabricator</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/sequential-fabricator/">Sequential Fabricator</a>'
   description: >
     Allows for a sequential fabricator to craft recipes that include a fluid
     container item (such as a filled <a
@@ -221,7 +221,7 @@ machine-crafter-tank:
 machine-brewer-reagent:
   name: Reagent Recovery
   url: augment-reagent-recovery/
-  installed-in: '<a href="/docs/thermal-expansion-5/alchemical-imbuer/">Alchemical Imbuer</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/alchemical-imbuer/">Alchemical Imbuer</a>'
   description: >
     Provides a chance for an alchemical imbuer to not consume reagents (<a
     href="https://minecraft.gamepedia.com/Brewing">brewing</a> ingredients).
@@ -231,7 +231,7 @@ machine-extruder-no-water:
   name: Pyroclastic Injection
   url: augment-pyroclastic-injection/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion-5/igneous-extruder/">Igneous Extruder</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/igneous-extruder/">Igneous Extruder</a>'
   description: >
     A specialization that allows for an igneous extruder to work without cold
     fluids (<a href="https://minecraft.gamepedia.com/Water">water</a>), so that
@@ -241,7 +241,7 @@ machine-extruder-sedimentary:
   name: Clastic Deposition
   url: augment-clastic-deposition/
   animated: true
-  installed-in: '<a href="/docs/thermal-expansion-5/igneous-extruder/">Igneous Extruder</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/igneous-extruder/">Igneous Extruder</a>'
   description: >
     A specialization that allows for an igneous extruder to produce sedimentary
     rock, such as <a href="https://minecraft.gamepedia.com/Sand">sand</a> or <a
@@ -250,7 +250,7 @@ machine-extruder-sedimentary:
 dynamo-power:
   name: Auxiliary Transmission Coil
   url: augment-auxiliary-transmission-coil/
-  installed-in: 'Any <a href="/docs/thermal-expansion-5/dynamos/">dynamo</a>'
+  installed-in: 'Any <a href="/docs/1.12/thermal-expansion-5/dynamos/">dynamo</a>'
   description: >
     Increases a dynamo's maximum power output (speed). Can be installed multiple
     times.
@@ -258,21 +258,21 @@ dynamo-efficiency:
   name: Fuel Catalyzer
   url: augment-fuel-catalyzer/
   animated: true
-  installed-in: 'Any <a href="/docs/thermal-expansion-5/dynamos/">dynamo</a>'
+  installed-in: 'Any <a href="/docs/1.12/thermal-expansion-5/dynamos/">dynamo</a>'
   description: >
     Increases the amount of energy a dynamo generates from each unit of fuel.
     Can be installed multiple times.
 dynamo-coil-duct:
   name: Transmission Coil Ducting
   url: augment-transmission-coil-ducting/
-  installed-in: 'Any <a href="/docs/thermal-expansion-5/dynamos/">dynamo</a>'
+  installed-in: 'Any <a href="/docs/1.12/thermal-expansion-5/dynamos/">dynamo</a>'
   description: >
     Allows items and fluids to enter a dynamo through its coil, which can
     normally only emit energy.
 dynamo-throttle:
   name: Excitation Field Limiter
   url: augment-excitation-field-limiter/
-  installed-in: 'Any <a href="/docs/thermal-expansion-5/dynamos/">dynamo</a>'
+  installed-in: 'Any <a href="/docs/1.12/thermal-expansion-5/dynamos/">dynamo</a>'
   description: >
     Lowers the minimum power output of a dynamo to zero, preventing energy loss
     when it is active and cannot emit the energy it generates.
@@ -281,73 +281,73 @@ dynamo-boiler:
   url: augment-boiler-conversion/
   animated: true
   installed-in: >
-    <a href="/docs/thermal-expansion-5/steam-dynamo/">Steam Dynamo</a> or<br />
-    <a href="/docs/thermal-expansion-5/magmatic-dynamo/">Magmatic Dynamo</a> or<br />
-    <a href="/docs/thermal-expansion-5/compression-dynamo/">Compression Dynamo</a>
+    <a href="/docs/1.12/thermal-expansion-5/steam-dynamo/">Steam Dynamo</a> or<br />
+    <a href="/docs/1.12/thermal-expansion-5/magmatic-dynamo/">Magmatic Dynamo</a> or<br />
+    <a href="/docs/1.12/thermal-expansion-5/compression-dynamo/">Compression Dynamo</a>
   description: >
     A specialization that changes an applicable dynamo to convert <a
     href="https://minecraft.gamepedia.com/Water">water</a> into <a
-    href="/docs/thermal-foundation-2/steam/">steam</a> instead of generating <a
+    href="/docs/1.12/thermal-foundation-2/steam/">steam</a> instead of generating <a
     href="/docs/redstone-flux/">Redstone Flux</a>. This increases fuel
     efficiency.
 dynamo-steam-turbine:
   name: Turbine Conversion
   url: augment-turbine-conversion/
-  installed-in: '<a href="/docs/thermal-expansion-5/steam-dynamo/">Steam Dynamo</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/steam-dynamo/">Steam Dynamo</a>'
   description: >
     A specialization that changes a steam dynamo to work on <a
-    href="/docs/thermal-foundation-2/steam/">steam</a> supplied from an external
+    href="/docs/1.12/thermal-foundation-2/steam/">steam</a> supplied from an external
     source.
 dynamo-magmatic-coolant:
   name: Isentropic Reservoir
   url: augment-isentropic-reservoir/
-  installed-in: '<a href="/docs/thermal-expansion-5/magmatic-dynamo/">Magmatic Dynamo</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/magmatic-dynamo/">Magmatic Dynamo</a>'
   description: >
     A specialization that greatly increases a magmatic dynamo's maximum power
     output and the amount of energy it generates from each unit of fuel.
     However, the dynamo requires <a
-    href="/docs/thermal-expansion-5/coolants/">coolant</a> as well as fuel to
+    href="/docs/1.12/thermal-expansion-5/coolants/">coolant</a> as well as fuel to
     generate energy.
 dynamo-compression-coolant:
   name: Closed-Loop Cooling
   url: augment-closed-loop-cooling/
-  installed-in: '<a href="/docs/thermal-expansion-5/compression-dynamo/">Compression Dynamo</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/compression-dynamo/">Compression Dynamo</a>'
   description: >
     A specialization that allows for a compression dynamo to work without
-    consuming <a href="/docs/thermal-expansion-5/coolants/">coolant</a>. However,
+    consuming <a href="/docs/1.12/thermal-expansion-5/coolants/">coolant</a>. However,
     at least some coolant must be present in the dynamo for it to work.
 dynamo-compression-fuel:
   name: Ignition Plugs
   url: augment-ignition-plugs/
-  installed-in: '<a href="/docs/thermal-expansion-5/compression-dynamo/">Compression Dynamo</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/compression-dynamo/">Compression Dynamo</a>'
   description: >
     A specialization that greatly increases a compression dynamo's maximum power
     output and the amount of energy it generates from each unit of fuel.
     However, the dynamo can only generate energy using <a
-    href="/docs/thermal-foundation-2/refined-fuel/">refined fuel</a>.
+    href="/docs/1.12/thermal-foundation-2/refined-fuel/">refined fuel</a>.
 dynamo-compression-biofuel:
   name: Agitative Manifold
   url: augment-agitative-manifold/
-  installed-in: '<a href="/docs/thermal-expansion-5/compression-dynamo/">Compression Dynamo</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/compression-dynamo/">Compression Dynamo</a>'
   description: >
     A specialization that greatly increases a compression dynamo's maximum power
     output and the amount of energy it generates from each unit of fuel.
     However, the dynamo can only generate energy using <a
-    href="/docs/thermal-foundation-2/grassoline/">grassoline</a>.
+    href="/docs/1.12/thermal-foundation-2/grassoline/">grassoline</a>.
 dynamo-reactant-elemental:
   name: Elemental Catalyzer
   url: augment-elemental-catalyzer/
-  installed-in: '<a href="/docs/thermal-expansion-5/reactant-dynamo/">Reactant Dynamo</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/reactant-dynamo/">Reactant Dynamo</a>'
   description: >
     A specialization that greatly increases a reactant dynamo's maximum power
     output and the amount of energy it generates from each reaction. However,
     the dynamo can only generate energy from elemental reactions, like between
-    <a href="/docs/thermal-foundation-2/blazing-pyrotheum">blazing pyrotheum</a>
-    and <a href="/docs/thermal-foundation-2/cryotheum-dust/">cryotheum dust</a>.
+    <a href="/docs/1.12/thermal-foundation-2/blazing-pyrotheum">blazing pyrotheum</a>
+    and <a href="/docs/1.12/thermal-foundation-2/cryotheum-dust/">cryotheum dust</a>.
 dynamo-enervation-enchant:
   name: Disjunctive Extraction
   url: augment-disjunctive-extraction/
-  installed-in: '<a href="/docs/thermal-expansion-5/enervation-dynamo/">Enervation Dynamo</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/enervation-dynamo/">Enervation Dynamo</a>'
   description: >
     A specialization that allows for an enervation dynamo to use <a
     href="https://minecraft.gamepedia.com/Enchanting">enchanted</a> items as
@@ -356,7 +356,7 @@ dynamo-enervation-enchant:
 dynamo-numismatic-gem:
   name: Lapidary Calibration
   url: augment-lapidary-calibration/
-  installed-in: '<a href="/docs/thermal-expansion-5/numismatic-dynamo/">Numismatic Dynamo</a>'
+  installed-in: '<a href="/docs/1.12/thermal-expansion-5/numismatic-dynamo/">Numismatic Dynamo</a>'
   description: >
     A specialization that allows for a numismatic dynamo to use various
     gemstones as fuel, and greatly increases its maximum power output and the

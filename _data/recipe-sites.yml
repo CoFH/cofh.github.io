@@ -1,20 +1,20 @@
 docs:
   url: /docs/
 docs-tf2:
-  url: /docs/thermal-foundation-2/
+  url: /docs/1.12/thermal-foundation-2/
 docs-te5:
-  url: /docs/thermal-expansion-5/
+  url: /docs/1.12/thermal-expansion-5/
 docs-td2:
-  url: /docs/thermal-dynamics-2/
+  url: /docs/1.12/thermal-dynamics-2/
 docs-tc:
-  url: /docs/thermal-cultivation/
+  url: /docs/1.12/thermal-cultivation/
 docs-ti:
-  url: /docs/thermal-innovation/
+  url: /docs/1.12/thermal-innovation/
 docs-ra2:
-  url: /docs/redstone-arsenal-2/
+  url: /docs/1.12/redstone-arsenal-2/
 docs-vpt:
-  url: /docs/vanillaplus-tools/
+  url: /docs/1.12/vanillaplus-tools/
 docs-vps:
-  url: /docs/vanillaplus-satchels/
+  url: /docs/1.12/vanillaplus-satchels/
 mc-wiki:
   url: https://minecraft.gamepedia.com/

@@ -19,15 +19,14 @@ Brewcraft: a farming mod that contained a brewing overhaul for potions, as well
 as a way to make alcoholic beverages.
 
 As King Lemming was still figuring out how to create Tile Entities, he created a
-[furnace](/docs/thermal-expansion-5/redstone-furnace/) that worked on Minecraft
-Joules instead of items as fuel. He then figured he might as well make more
-blocks like that. Eventually, this development led to the release of the first
-version of Thermal Expansion for Minecraft 1.2, leaving Brewcraft abandoned.
-Back then, the mod contained about 7 machines and a few other things like
-Rockwool and Hardened Glass. TE was a BuildCraft addon: it required BuildCraft
-itself or addons like Forestry in order to power the machines with Minecraft
-Joules, BuildCraft's old power system. It wasn't until the third iteration that
-the mod became fully independent.
+furnace that worked on Minecraft Joules instead of items as fuel. He then
+figured he might as well make more blocks like that. Eventually, this
+development led to the release of the first version of Thermal Expansion for
+Minecraft 1.2, leaving Brewcraft abandoned. Back then, the mod contained about 7
+machines and a few other things like Rockwool and Hardened Glass. TE was a
+BuildCraft addon: it required BuildCraft itself or addons like Forestry in order
+to power the machines with Minecraft Joules, BuildCraft's old power system. It
+wasn't until the third iteration that the mod became fully independent.
 
 Since then, more people joined the team, Thermal Expansion got rewritten a bunch
 of times, new mods were made, some were abandoned again, and Minecraft Joules
