@@ -43,8 +43,8 @@ slower.
 
 ### Upgrading
 An energy cell is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -66,7 +66,7 @@ configured in its GUI. A basic energy cell has a maximum transfer rate of 1,000
 RF/t. This can be increased by upgrading the energy cell to a higher
 [tier](#tiers).
 
-When an energy cell is upgraded, or a [redprint](/docs/thermal-foundation/redprint/)'s contents are
+When an energy cell is upgraded, or a [redprint](/docs/thermal-foundation-2/redprint/)'s contents are
 copied onto it, the configured transmission rates scale with its tier.
 
 ### Item form
@@ -105,7 +105,7 @@ GUI.
 
 ### Security
 A placed energy cell can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Enchantments
 An energy cell can be enchanted with [Holding](/docs/cofh-core-4/holding/) to increase its
@@ -120,7 +120,7 @@ capacity.
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Redprints
-An energy cell's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to
+An energy cell's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/) to
 be copied to other energy cells.
 
 ### Light source
@@ -136,7 +136,7 @@ strength of between 0 and 15, depending on how full the energy cell is.
 Tiers
 -----
 
-Energy cells come in six [tiers](/docs/thermal-foundation/tiers/).
+Energy cells come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

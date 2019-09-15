@@ -18,7 +18,7 @@ Usage
 -----
 
 ### Thermal Foundation
-[Tomes of knowledge](/docs/thermal-foundation/tome-of-knowledge/) can be enchanted to hold more
+[Tomes of knowledge](/docs/thermal-foundation-2/tome-of-knowledge/) can be enchanted to hold more
 [experience](https://minecraft.gamepedia.com/Experience).
 
 ### Thermal Expansion

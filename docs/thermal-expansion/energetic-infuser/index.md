@@ -41,8 +41,8 @@ this can be much slower.
 
 ### Upgrading
 An energetic infuser is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -65,7 +65,7 @@ consumed and the output is placed in the output slot.
 
 When installed, a [flux reconstruction
 augment](/docs/thermal-expansion/augment-flux-reconstruction/) allows an energetic infuser to
-consume [essence of knowledge](/docs/thermal-foundation/essence-of-knowledge/), which is stored in
+consume [essence of knowledge](/docs/thermal-foundation-2/essence-of-knowledge/), which is stored in
 an added input tank.
 
 The speed at which an energetic infuser charges items depends on how much energy
@@ -118,11 +118,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 An energetic infuser can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An energetic infuser's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other energetic infusers.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other energetic infusers.
 
 ### Light source
 When an energetic infuser is active, it emits a light level of 7.
@@ -131,7 +131,7 @@ When an energetic infuser is active, it emits a light level of 7.
 Tiers
 -----
 
-Energetic infusers come in five [tiers](/docs/thermal-foundation/tiers/).
+Energetic infusers come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

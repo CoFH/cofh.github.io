@@ -138,9 +138,9 @@ cofh-world:
             - title: Commands
               url: commands/
 
-thermal-foundation:
+thermal-foundation-2:
   title: Thermal Foundation 2
-  url: thermal-foundation/
+  url: thermal-foundation-2/
   sections:
     - title: World
       groups:
@@ -972,7 +972,7 @@ thermal-foundation:
 
 thermal-foundation-1:
   title: Thermal Foundation 1
-  url: thermal-foundation/1/
+  url: thermal-foundation-1/
 
 thermal-expansion:
   title: Thermal Expansion 5

@@ -38,8 +38,8 @@ this can be much slower.
 
 ### Upgrading
 A magmatic dynamo is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -98,10 +98,10 @@ energy from that batch first.
 
 ### Security
 A magmatic dynamo can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A magmatic dynamo's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
+A magmatic dynamo's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/)
 to be copied to other dynamos.
 
 ### Light source
@@ -111,7 +111,7 @@ When a magmatic dynamo is active, it emits a light level of 14.
 Tiers
 -----
 
-Magmatic dynamos come in six [tiers](/docs/thermal-foundation/tiers/).
+Magmatic dynamos come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -149,7 +149,7 @@ amounts of energy.
 | Fuel | Energy per 1,000 mB |
 |---
 | [Lava](https://minecraft.gamepedia.com/Lava) | 120,000 RF |
-| [Blazing Pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/) | 2,000,000 RF |
+| [Blazing Pyrotheum](/docs/thermal-foundation-2/blazing-pyrotheum/) | 2,000,000 RF |
 | Pahoehoe Lava ([IndustrialCraft²](https://www.industrial-craft.net/)) | 80,000 RF |
 | Hot Coolant ([IndustrialCraft²](https://www.industrial-craft.net/)) | 40,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

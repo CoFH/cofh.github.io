@@ -39,8 +39,8 @@ the item.
 
 ### Upgrading
 A cache is initially at the lowest [tier](#tiers) (basic). It can be upgraded to
-higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and [conversion
-kits](/docs/thermal-foundation/conversion-kits/).
+higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and [conversion
+kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -61,7 +61,7 @@ Items can be taken out of a cache by punching it. A single item is taken out at
 a time. Full stacks can be taken out by punching the cache while sneaking.
 
 The exact amount of items that a cache stores can be read using a
-[multimeter](/docs/thermal-foundation/multimeter/).
+[multimeter](/docs/thermal-foundation-2/multimeter/).
 
 ### Input and output
 Items can enter and exit a cache through any of its sides.
@@ -90,7 +90,7 @@ strength of between 0 and 15, depending on how full the cache is.
 Tiers
 -----
 
-Caches come in six [tiers](/docs/thermal-foundation/tiers/).
+Caches come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

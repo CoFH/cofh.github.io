@@ -10,7 +10,7 @@ recipes:
 ---
 
 A **flux-infused excavator** is a powerful
-[excavator](/docs/thermal-foundation/excavators/) powered by [Redstone
+[excavator](/docs/thermal-foundation-2/excavators/) powered by [Redstone
 Flux](/docs/redstone-flux/).
 
 
@@ -45,7 +45,7 @@ can be toggled by pressing "Cycle Item Mode" (V by default).
 An uncharged flux-infused excavator has a very low digging speed (even slower
 than a [wooden shovel](https://minecraft.gamepedia.com/Wooden_Shovel)) and can
 only break one block at a time. When charged, it has the same digging speed as a
-[diamond excavator](/docs/thermal-foundation/excavators/), breaks up to 9 blocks
+[diamond excavator](/docs/thermal-foundation-2/excavators/), breaks up to 9 blocks
 at a time in a 3x3 area, and consumes 200 RF per use. When empowered, it is 1.5
 times as fast as a diamond excavator, breaks up to 25 blocks at a time in a 5x5
 area, and consumes 1,600 RF per use.
@@ -62,7 +62,7 @@ of damage that bypasses armor). When empowered, its attack speed is raised to
 A flux-infused excavator has an
 [enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
 slightly higher than that of a [golden
-excavator](/docs/thermal-foundation/excavators/). It can receive all the
+excavator](/docs/thermal-foundation-2/excavators/). It can receive all the
 enchantments that other excavators can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a

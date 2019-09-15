@@ -109,7 +109,7 @@ recipes:
     ingredients:
       - item: mc-glass-bottle
       - html: >
-          <a href="/docs/thermal-foundation/essence-of-knowledge">Essence of Knowledge</a> or<br />
+          <a href="/docs/thermal-foundation-2/essence-of-knowledge">Essence of Knowledge</a> or<br />
           <a href="https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing">IF Essence</a> or<br />
           <a href="https://www.openmods.info/">OpenBlocks Liquid XP</a> (250 mB)
     energy: 400

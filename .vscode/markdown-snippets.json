@@ -9,7 +9,7 @@
 	},
 	"CoFH: TF link": {
 		"prefix": "cltf",
-		"body": "[$1](/docs/thermal-foundation/$2)$0"
+		"body": "[$1](/docs/thermal-foundation-2/$2)$0"
 	},
 	"CoFH: TE link": {
 		"prefix": "clte",

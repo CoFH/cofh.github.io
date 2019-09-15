@@ -12,7 +12,7 @@ recipes:
 An **agitative manifold** is an [augment](/docs/thermal-expansion/augments/)
 that increases the amount of [Redstone Flux](/docs/redstone-flux/) a
 [compression dynamo](/docs/thermal-expansion/compression-dynamo/) generates
-using [grassoline](/docs/thermal-foundation/grassoline/).
+using [grassoline](/docs/thermal-foundation-2/grassoline/).
 
 
 Obtaining
@@ -36,7 +36,7 @@ An installed agitative manifold triples the maximum power output of a
 [compression dynamo](/docs/thermal-expansion/compression-dynamo/), and increases
 the amount of [Redstone Flux](/docs/redstone-flux/) it generates from each unit
 of fuel by 25%. However, the dynamo can only generate energy using
-[grassoline](/docs/thermal-foundation/grassoline/).
+[grassoline](/docs/thermal-foundation-2/grassoline/).
 
 If an agitative manifold is installed together with other augments that affect
 the amount of energy generated from each unit of fuel, their energy

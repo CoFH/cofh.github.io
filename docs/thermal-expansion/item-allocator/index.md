@@ -95,10 +95,10 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An item allocator can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-An item allocator's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
+An item allocator's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/)
 to be copied to other item allocators.
 
 ### Light source

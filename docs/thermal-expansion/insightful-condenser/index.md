@@ -13,7 +13,7 @@ recipes:
 
 An **insightful condenser** is a [device](/docs/thermal-expansion/devices/) that collects nearby
 [experience orbs](https://minecraft.gamepedia.com/Experience) and converts them
-into [essence of knowledge](/docs/thermal-foundation/essence-of-knowledge/).
+into [essence of knowledge](/docs/thermal-foundation-2/essence-of-knowledge/).
 
 
 Obtaining
@@ -38,7 +38,7 @@ four cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 An active insightful condenser collects any [experience
 orbs](https://minecraft.gamepedia.com/Experience) in a 5x5x5 area centered on
 the device. The experience it collects is converted into [essence of
-knowledge](/docs/thermal-foundation/essence-of-knowledge/) (20 mB per experience
+knowledge](/docs/thermal-foundation-2/essence-of-knowledge/) (20 mB per experience
 point) and stored in the device's output tank. The device attempts to collect
 and convert experience every 16 ticks (0.8 seconds), or directly after it is
 activated by a [redstone signal](#redstone-control).
@@ -52,7 +52,7 @@ consumed.
 |---
 | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | × 1.5 | 50 XP |
 | [Lapis Lazuli](https://minecraft.gamepedia.com/Lapis_Lazuli) | × 2 | 100 XP |
-| [Mana Dust](/docs/thermal-foundation/mana-dust/) | × 2.5 | 200 XP |
+| [Mana Dust](/docs/thermal-foundation-2/mana-dust/) | × 2.5 | 200 XP |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Input and output
@@ -90,11 +90,11 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An insightful condenser can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An insightful condenser's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other insightful condensers.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other insightful condensers.
 
 ### Light source
 When an insightful condenser is active, it emits a light level of 2.

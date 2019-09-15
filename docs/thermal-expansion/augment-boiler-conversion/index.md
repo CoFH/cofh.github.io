@@ -13,7 +13,7 @@ recipes:
 
 A **boiler conversion** is an [augment](/docs/thermal-expansion/augments/) that converts a
 [steam](/docs/thermal-expansion/steam-dynamo/), [magmatic](/docs/thermal-expansion/magmatic-dynamo/) or [compression
-dynamo](/docs/thermal-expansion/compression-dynamo/) into a [steam](/docs/thermal-foundation/steam/) boiler.
+dynamo](/docs/thermal-expansion/compression-dynamo/) into a [steam](/docs/thermal-foundation-2/steam/) boiler.
 
 
 Obtaining
@@ -36,7 +36,7 @@ installed together with other specialization augments.
 A [steam](/docs/thermal-expansion/steam-dynamo/), [magmatic](/docs/thermal-expansion/magmatic-dynamo/) or
 [compression dynamo](/docs/thermal-expansion/compression-dynamo/) with a boiler conversion
 installed uses fuel to convert [water](https://minecraft.gamepedia.com/Water)
-into [steam](/docs/thermal-foundation/steam/) instead of generating [Redstone
+into [steam](/docs/thermal-foundation-2/steam/) instead of generating [Redstone
 Flux](/docs/redstone-flux/). It produces and outputs steam at the same rates at
 which it would normally generate and emit energy, replacing the energy unit RF
 with the fluid unit mB.

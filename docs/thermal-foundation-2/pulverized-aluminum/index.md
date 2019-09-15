@@ -1,0 +1,59 @@
+---
+title: Pulverized Aluminum
+nav: thermal-foundation-2
+redirect_from:
+- /docs/thermal-foundation/items/materials/dusts/pulverized-aluminum/
+- /docs/pulverized-aluminum/
+- /docs/thermal-foundation/pulverized-aluminum/
+recipes:
+  crafting:
+  - tf2-petrotheum-ingot-aluminum
+  - tf2-petrotheum-ore-aluminum
+  pulverizer:
+  - dust-aluminum
+  - ore-processing-aluminum
+usage-recipes:
+  crafting:
+  - tf2-pyrotheum-dust-aluminum
+  - tf2-hardened-glass-aluminum
+  smelting:
+  - tf2-ingot-aluminum-from-dust
+  smelter:
+  - dust-smelting-aluminum
+  - hardened-glass-aluminum
+---
+
+![Pulverized aluminum](/assets/images/thermal-foundation/dust-aluminum.png){:style="height: 128px"}
+
+
+**Pulverized aluminum** is a raw material. It is the dust form of
+[aluminum](/docs/thermal-foundation-2/aluminum-ingot/).
+
+
+Obtaining
+---------
+
+### Pulverizer
+{% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}
+
+### Crafting
+{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+
+### Smashing
+When [aluminum ore](/docs/thermal-foundation-2/aluminum-ore/) is broken using a
+[Smashing](/docs/cofh-core-4/smashing/) enchanted
+[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+pulverized aluminum are dropped instead of the ore.
+
+
+Usage
+-----
+
+### Smelting ingredient
+{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+
+### Crafting ingredient
+{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+
+### Induction Smelter ingredient
+{% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}

@@ -13,7 +13,7 @@ recipes:
     - ra-tool-sickle
 ---
 
-A **flux-infused sickle** is a powerful [sickle](/docs/thermal-foundation/sickles/) powered by
+A **flux-infused sickle** is a powerful [sickle](/docs/thermal-foundation-2/sickles/) powered by
 [Redstone Flux](/docs/redstone-flux/).
 
 
@@ -41,7 +41,7 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Breaking plants
 A charged flux-infused sickle can break up to 49 plant-like blocks in a 7x7 area
-(like regular [sickles](/docs/thermal-foundation/sickles/)), and consumes 200 RF per use. When
+(like regular [sickles](/docs/thermal-foundation-2/sickles/)), and consumes 200 RF per use. When
 empowered, it can break up to 121 blocks in a 11x11 area, and consumes 1,200 RF
 per use.
 
@@ -56,7 +56,7 @@ and its flux damage is raised to 6.
 ### Enchantments
 A flux-infused sickle has an
 [enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
-slightly higher than that of a [golden sickle](/docs/thermal-foundation/sickles/). It can
+slightly higher than that of a [golden sickle](/docs/thermal-foundation-2/sickles/). It can
 receive all the enchantments that other sickles can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a

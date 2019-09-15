@@ -15,7 +15,7 @@ A **lexical transmuter** is a [device](/docs/thermal-expansion/devices/) that co
 other items that are considered equivalent. Examples of equivalent items are the
 various versions of copper and tin ingots added by different mods.
 
-A lexical transmuter is essentially a [Forge Lexicon](/docs/thermal-foundation/forge-lexicon/) in
+A lexical transmuter is essentially a [Forge Lexicon](/docs/thermal-foundation-2/forge-lexicon/) in
 block form.
 
 
@@ -81,11 +81,11 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 A lexical transmuter can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A lexical transmuter's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other lexical transmuters.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other lexical transmuters.
 
 ### Light source
 When a lexical transmuter is active, it emits a light level of 12.

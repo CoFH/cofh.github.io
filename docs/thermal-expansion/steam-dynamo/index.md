@@ -38,8 +38,8 @@ this can be much slower.
 
 ### Upgrading
 A steam dynamo is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -100,10 +100,10 @@ unit of fuel first.
 
 ### Security
 A steam dynamo can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A steam dynamo's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to
+A steam dynamo's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/) to
 be copied to other dynamos.
 
 ### Light source
@@ -114,7 +114,7 @@ active, it emits a light level of 7.
 Tiers
 -----
 
-Steam dynamos come in six [tiers](/docs/thermal-foundation/tiers/).
+Steam dynamos come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -155,12 +155,12 @@ buckets](https://minecraft.gamepedia.com/Lava_Bucket).
 |---
 | [Coal](https://minecraft.gamepedia.com/Coal) | 24,000 RF |
 | [Block of Coal](https://minecraft.gamepedia.com/Block_of_Coal) | 240,000 RF |
-| [Pulverized Coal](/docs/thermal-foundation/pulverized-coal/) | 24,000 RF |
+| [Pulverized Coal](/docs/thermal-foundation-2/pulverized-coal/) | 24,000 RF |
 | [Charcoal](https://minecraft.gamepedia.com/Charcoal) | 16,000 RF |
-| [Block of Charcoal](/docs/thermal-foundation/block-of-charcoal/) | 160,000 RF |
-| [Pulverized Charcoal](/docs/thermal-foundation/pulverized-charcoal/) | 16,000 RF |
-| [Coal Coke](/docs/thermal-foundation/coal-coke/) | 40,000 RF |
-| [Block of Coal Coke](/docs/thermal-foundation/block-of-coal-coke/) | 400,000 RF |
+| [Block of Charcoal](/docs/thermal-foundation-2/block-of-charcoal/) | 160,000 RF |
+| [Pulverized Charcoal](/docs/thermal-foundation-2/pulverized-charcoal/) | 16,000 RF |
+| [Coal Coke](/docs/thermal-foundation-2/coal-coke/) | 40,000 RF |
+| [Block of Coal Coke](/docs/thermal-foundation-2/block-of-coal-coke/) | 400,000 RF |
 | Any other [furnace](https://minecraft.gamepedia.com/Furnace) fuel* | (Burn time in ticks × 10) RF
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 

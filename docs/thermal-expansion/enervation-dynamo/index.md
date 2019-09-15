@@ -35,8 +35,8 @@ this can be much slower.
 
 ### Upgrading
 An enervation dynamo is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -95,11 +95,11 @@ from that unit of fuel first.
 
 ### Security
 An enervation dynamo can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An enervation dynamo's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other dynamos.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other dynamos.
 
 ### Light source
 When an enervation dynamo is active, it emits a light level of 7.
@@ -108,7 +108,7 @@ When an enervation dynamo is active, it emits a light level of 7.
 Tiers
 -----
 
-Enervation dynamos come in six [tiers](/docs/thermal-foundation/tiers/).
+Enervation dynamos come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

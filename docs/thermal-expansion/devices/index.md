@@ -37,7 +37,7 @@ frame-recipes:
 
 **Devices** are blocks that perform various functions involving items and/or
 fluids. Unlike [machines](/docs/thermal-expansion/machines/), they do not use [Redstone
-Flux](/docs/redstone-flux/), and cannot be [upgraded](/docs/thermal-foundation/tiers/) or
+Flux](/docs/redstone-flux/), and cannot be [upgraded](/docs/thermal-foundation-2/tiers/) or
 [augmented](/docs/thermal-expansion/augments/).
 
 
@@ -57,7 +57,7 @@ List of devices
 | [Fluid Allocator](/docs/thermal-expansion/fluid-allocator/) | Stores and transfers fluids. |
 | [Lexical Transmuter](/docs/thermal-expansion/lexical-transmuter/) | Converts items into preferred equivalents. |
 | [Insightful Condenser](/docs/thermal-expansion/insightful-condenser/) | Collects [experience](https://minecraft.gamepedia.com/Experience) in an area. |
-| [Decoctive Diffuser](/docs/thermal-expansion/decoctive-diffuser/) | Spreads the effects of [fluid potions](/docs/thermal-foundation/potion-fluid/) in an area. |
+| [Decoctive Diffuser](/docs/thermal-expansion/decoctive-diffuser/) | Spreads the effects of [fluid potions](/docs/thermal-foundation-2/potion-fluid/) in an area. |
 | [Factorizer](/docs/thermal-expansion/factorizer/) | Combines and splits various items. |
 | [Creature Encaptulator](/docs/thermal-expansion/creature-encaptulator/) | Captures nearby mobs using [morbs](/docs/thermal-expansion/morb/). |
 | [Vacuumulator](/docs/thermal-expansion/vacuumulator/) | Collects nearby dropped items. |

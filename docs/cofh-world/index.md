@@ -11,7 +11,7 @@ functionality for the mods of Team CoFH for that version of the game. It also
 provides a configuration system that allows users to define new types of
 features to generate in worlds.
 
-[Thermal Foundation](/docs/thermal-foundation/) uses this mod for its world
+[Thermal Foundation](/docs/thermal-foundation-2/) uses this mod for its world
 generation by default.
 
 

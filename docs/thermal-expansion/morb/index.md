@@ -46,7 +46,7 @@ A [centrifugal separator](/docs/thermal-expansion/centrifugal-separator/) with
 an [enstabulation
 apparatus](/docs/thermal-expansion/augment-enstabulation-apparatus/) installed
 processes filled morbs into [mob](https://minecraft.gamepedia.com/Mob) drops and
-[essence of knowledge](/docs/thermal-foundation/essence-of-knowledge/). When
+[essence of knowledge](/docs/thermal-foundation-2/essence-of-knowledge/). When
 processing morbs, there is a 25% chance that an empty morb is returned as an
 output.
 

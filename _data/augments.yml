@@ -52,8 +52,8 @@ machine-furnace-pyrolysis:
     plant-based materials into <a
     href="https://minecraft.gamepedia.com/Charcoal">charcoal</a>, and <a
     href="https://minecraft.gamepedia.com/Coal">coal</a> into <a
-    href="/docs/thermal-foundation/coal-coke/">coal coke</a>. It also produces
-    <a href="/docs/thermal-foundation/creosote-oil/">creosote oil</a> as a
+    href="/docs/thermal-foundation-2/coal-coke/">coal coke</a>. It also produces
+    <a href="/docs/thermal-foundation-2/creosote-oil/">creosote oil</a> as a
     byproduct when installed. However, when installed, a redstone furnace can
     only process these items and its maximum power usage (speed) is reduced by a
     factor of 10.
@@ -65,7 +65,7 @@ machine-pulverizer-petrotheum:
   description: >
     A specialization that allows for a pulverizer to process ores more
     efficiently using <a
-    href="/docs/thermal-foundation/tectonic-petrotheum/">tectonic
+    href="/docs/thermal-foundation-2/tectonic-petrotheum/">tectonic
     petrotheum</a>. 100 mB of petrotheum is consumed per ore.
 machine-sawmill-tapper:
   name: Resin Funnel
@@ -75,8 +75,8 @@ machine-sawmill-tapper:
   description: >
     A specialization that allows for a sawmill to extract fluids from <a
     href="https://minecraft.gamepedia.com/Wood">wood</a> while processing it,
-    like <a href="/docs/thermal-foundation/resin/">resin</a> and <a
-    href="/docs/thermal-foundation/sap/">sap</a>.
+    like <a href="/docs/thermal-foundation-2/resin/">resin</a> and <a
+    href="/docs/thermal-foundation-2/sap/">sap</a>.
 machine-smelter-flux:
   name: Metallurgical Recovery
   url: augment-metallurgical-recovery/
@@ -84,7 +84,7 @@ machine-smelter-flux:
   description: >
     Provides a chance for an induction smelter to not consume metallurgical
     fluxes (such as <a href="https://minecraft.gamepedia.com/Sand">sand</a> and
-    <a href="/docs/thermal-foundation/rich-slag/">rich slag</a>). However, also
+    <a href="/docs/thermal-foundation-2/rich-slag/">rich slag</a>). However, also
     increases the amount of energy required per operation. Can be installed
     multiple times.
 machine-smelter-pyrotheum:
@@ -95,7 +95,7 @@ machine-smelter-pyrotheum:
   description: >
     A specialization that allows for an induction smelter to process ores more
     efficiently using <a
-    href="/docs/thermal-foundation/blazing-pyrotheum/">blazing pyrotheum</a>.
+    href="/docs/thermal-foundation-2/blazing-pyrotheum/">blazing pyrotheum</a>.
     100 mB of pyrotheum is consumed per ore.
 machine-insolator-fertilizer:
   name: Nutrient Recovery
@@ -159,7 +159,7 @@ machine-refinery-potion:
   installed-in: '<a href="/docs/thermal-expansion/fractionating-still/">Fractionating Still</a>'
   description: >
     A specialization that allows for a fractionating still to refine <a
-    href="/docs/thermal-foundation/potion-fluid/">fluid potions</a>, increasing
+    href="/docs/thermal-foundation-2/potion-fluid/">fluid potions</a>, increasing
     their potency level. However, a still can only process potions when
     installed.
 machine-charger-throughput:
@@ -177,7 +177,7 @@ machine-charger-repair:
   installed-in: '<a href="/docs/thermal-expansion/energetic-infuser/">Energetic Infuser</a>'
   description: >
     A specialization that allows for an energetic infuser to repair damaged
-    items using <a href="/docs/thermal-foundation/essence-of-knowledge/">essence
+    items using <a href="/docs/thermal-foundation-2/essence-of-knowledge/">essence
     of knowledge</a>. However, an energetic infuser will no longer charge items
     when installed.
 machine-charger-wireless:
@@ -197,7 +197,7 @@ machine-centrifuge-mobs:
     A specialization that allows for a centrifugal separator to process filled
     <a href="/docs/thermal-expansion/morb/">morbs</a> for <a
     href="https://minecraft.gamepedia.com/Mob">mob</a> drops and <a
-    href="/docs/thermal-foundation/essence-of-knowledge/">essence of
+    href="/docs/thermal-foundation-2/essence-of-knowledge/">essence of
     knowledge</a>. However, a centrifugal separator can only process morbs when
     installed.
 machine-crafter-input:
@@ -287,7 +287,7 @@ dynamo-boiler:
   description: >
     A specialization that changes an applicable dynamo to convert <a
     href="https://minecraft.gamepedia.com/Water">water</a> into <a
-    href="/docs/thermal-foundation/steam/">steam</a> instead of generating <a
+    href="/docs/thermal-foundation-2/steam/">steam</a> instead of generating <a
     href="/docs/redstone-flux/">Redstone Flux</a>. This increases fuel
     efficiency.
 dynamo-steam-turbine:
@@ -296,7 +296,7 @@ dynamo-steam-turbine:
   installed-in: '<a href="/docs/thermal-expansion/steam-dynamo/">Steam Dynamo</a>'
   description: >
     A specialization that changes a steam dynamo to work on <a
-    href="/docs/thermal-foundation/steam/">steam</a> supplied from an external
+    href="/docs/thermal-foundation-2/steam/">steam</a> supplied from an external
     source.
 dynamo-magmatic-coolant:
   name: Isentropic Reservoir
@@ -324,7 +324,7 @@ dynamo-compression-fuel:
     A specialization that greatly increases a compression dynamo's maximum power
     output and the amount of energy it generates from each unit of fuel.
     However, the dynamo can only generate energy using <a
-    href="/docs/thermal-foundation/refined-fuel/">refined fuel</a>.
+    href="/docs/thermal-foundation-2/refined-fuel/">refined fuel</a>.
 dynamo-compression-biofuel:
   name: Agitative Manifold
   url: augment-agitative-manifold/
@@ -333,7 +333,7 @@ dynamo-compression-biofuel:
     A specialization that greatly increases a compression dynamo's maximum power
     output and the amount of energy it generates from each unit of fuel.
     However, the dynamo can only generate energy using <a
-    href="/docs/thermal-foundation/grassoline/">grassoline</a>.
+    href="/docs/thermal-foundation-2/grassoline/">grassoline</a>.
 dynamo-reactant-elemental:
   name: Elemental Catalyzer
   url: augment-elemental-catalyzer/
@@ -342,8 +342,8 @@ dynamo-reactant-elemental:
     A specialization that greatly increases a reactant dynamo's maximum power
     output and the amount of energy it generates from each reaction. However,
     the dynamo can only generate energy from elemental reactions, like between
-    <a href="/docs/thermal-foundation/blazing-pyrotheum">blazing pyrotheum</a>
-    and <a href="/docs/thermal-foundation/cryotheum-dust/">cryotheum dust</a>.
+    <a href="/docs/thermal-foundation-2/blazing-pyrotheum">blazing pyrotheum</a>
+    and <a href="/docs/thermal-foundation-2/cryotheum-dust/">cryotheum dust</a>.
 dynamo-enervation-enchant:
   name: Disjunctive Extraction
   url: augment-disjunctive-extraction/

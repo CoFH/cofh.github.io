@@ -30,4 +30,4 @@ Usage
 
 A magmatic florb works like a regular [florb](/docs/thermal-expansion/florb/), except it can hold
 hot fluids like [lava](https://minecraft.gamepedia.com/Lava) and [blazing
-pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/).
+pyrotheum](/docs/thermal-foundation-2/blazing-pyrotheum/).

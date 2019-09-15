@@ -149,8 +149,8 @@ this can be much slower.
 
 ### Upgrading
 An induction smelter is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -170,7 +170,7 @@ output slot. A secondary output may be produced when processing certain items,
 which is placed in the secondary output slot.
 
 When installed, a [pyro-concentrator](/docs/thermal-expansion/augment-pyro-concentrator/) allows
-an induction smelter to consume [blazing pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/),
+an induction smelter to consume [blazing pyrotheum](/docs/thermal-foundation-2/blazing-pyrotheum/),
 which is stored in an added input tank.
 
 The speed at which an induction smelter processes items depends on how much
@@ -202,8 +202,8 @@ machine's GUI.
 
 One of an induction smelter's input slots can be locked to only accept
 metallurgical fluxes: [sand](https://minecraft.gamepedia.com/Sand), [soul
-sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/thermal-foundation/rich-slag/)
-and [cinnabar](/docs/thermal-foundation/cinnabar/). These items are commonly used in smelter
+sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/thermal-foundation-2/rich-slag/)
+and [cinnabar](/docs/thermal-foundation-2/cinnabar/). These items are commonly used in smelter
 recipes. The slot is locked by default.
 
 ### Redstone control
@@ -225,11 +225,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 An induction smelter can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An induction smelter's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other induction smelters.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other induction smelters.
 
 ### Light source
 When an induction smelter is active, it emits a light level of 14.
@@ -238,7 +238,7 @@ When an induction smelter is active, it emits a light level of 14.
 Tiers
 -----
 
-Induction smelters come in five [tiers](/docs/thermal-foundation/tiers/).
+Induction smelters come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

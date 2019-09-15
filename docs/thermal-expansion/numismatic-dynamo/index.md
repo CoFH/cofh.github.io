@@ -38,8 +38,8 @@ this can be much slower.
 
 ### Upgrading
 A numismatic dynamo is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -97,11 +97,11 @@ from that unit of fuel first.
 
 ### Security
 A numismatic dynamo can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A numismatic dynamo's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other dynamos.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other dynamos.
 
 ### Light source
 When a numismatic dynamo is active, it emits a light level of 7.
@@ -110,7 +110,7 @@ When a numismatic dynamo is active, it emits a light level of 7.
 Tiers
 -----
 
-Numismatic dynamos come in six [tiers](/docs/thermal-foundation/tiers/).
+Numismatic dynamos come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -148,23 +148,23 @@ amounts of energy.
 | Fuel | Energy per unit |
 |---
 | [Emerald](https://minecraft.gamepedia.com/Emerald) | 200,000 RF |
-| [Iron Coin](/docs/thermal-foundation/iron-coin/) | 30,000 RF |
-| [Gold Coin](/docs/thermal-foundation/gold-coin/) | 40,000 RF |
-| [Copper Coin](/docs/thermal-foundation/copper-coin/) | 30,000 RF |
-| [Tin Coin](/docs/thermal-foundation/tin-coin/) | 30,000 RF |
-| [Silver Coin](/docs/thermal-foundation/silver-coin/) | 40,000 RF |
-| [Lead Coin](/docs/thermal-foundation/lead-coin/) | 40,000 RF |
-| [Aluminum Coin](/docs/thermal-foundation/aluminum-coin/) | 40,000 RF |
-| [Nickel Coin](/docs/thermal-foundation/nickel-coin/) | 60,000 RF |
-| [Platinum Coin](/docs/thermal-foundation/platinum-coin/) | 80,000 RF |
-| [Iridium Coin](/docs/thermal-foundation/iridium-coin/) | 100,000 RF |
-| [Mana Infused Coin](/docs/thermal-foundation/mana-infused-coin/) | 150,000 RF |
-| [Steel Coin](/docs/thermal-foundation/steel-coin/) | 40,000 RF |
-| [Electrum Coin](/docs/thermal-foundation/electrum-coin/) | 40,000 RF |
-| [Invar Coin](/docs/thermal-foundation/invar-coin/) | 40,000 RF |
-| [Bronze Coin](/docs/thermal-foundation/bronze-coin/) | 30,000 RF |
-| [Constantan Coin](/docs/thermal-foundation/constantan-coin/) | 45,000 RF |
-| [Signalum Coin](/docs/thermal-foundation/signalum-coin/) | 100,000 RF |
-| [Lumium Coin](/docs/thermal-foundation/lumium-coin/) | 100,000 RF |
-| [Enderium Coin](/docs/thermal-foundation/enderium-coin/) | 150,000 RF |
+| [Iron Coin](/docs/thermal-foundation-2/iron-coin/) | 30,000 RF |
+| [Gold Coin](/docs/thermal-foundation-2/gold-coin/) | 40,000 RF |
+| [Copper Coin](/docs/thermal-foundation-2/copper-coin/) | 30,000 RF |
+| [Tin Coin](/docs/thermal-foundation-2/tin-coin/) | 30,000 RF |
+| [Silver Coin](/docs/thermal-foundation-2/silver-coin/) | 40,000 RF |
+| [Lead Coin](/docs/thermal-foundation-2/lead-coin/) | 40,000 RF |
+| [Aluminum Coin](/docs/thermal-foundation-2/aluminum-coin/) | 40,000 RF |
+| [Nickel Coin](/docs/thermal-foundation-2/nickel-coin/) | 60,000 RF |
+| [Platinum Coin](/docs/thermal-foundation-2/platinum-coin/) | 80,000 RF |
+| [Iridium Coin](/docs/thermal-foundation-2/iridium-coin/) | 100,000 RF |
+| [Mana Infused Coin](/docs/thermal-foundation-2/mana-infused-coin/) | 150,000 RF |
+| [Steel Coin](/docs/thermal-foundation-2/steel-coin/) | 40,000 RF |
+| [Electrum Coin](/docs/thermal-foundation-2/electrum-coin/) | 40,000 RF |
+| [Invar Coin](/docs/thermal-foundation-2/invar-coin/) | 40,000 RF |
+| [Bronze Coin](/docs/thermal-foundation-2/bronze-coin/) | 30,000 RF |
+| [Constantan Coin](/docs/thermal-foundation-2/constantan-coin/) | 45,000 RF |
+| [Signalum Coin](/docs/thermal-foundation-2/signalum-coin/) | 100,000 RF |
+| [Lumium Coin](/docs/thermal-foundation-2/lumium-coin/) | 100,000 RF |
+| [Enderium Coin](/docs/thermal-foundation-2/enderium-coin/) | 150,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

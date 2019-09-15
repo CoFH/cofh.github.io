@@ -73,8 +73,8 @@ this can be much slower.
 
 ### Upgrading
 A magma crucible is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -137,10 +137,10 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A magma crucible can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A magma crucible's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
+A magma crucible's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/)
 to be copied to other crucibles.
 
 ### Light source
@@ -150,7 +150,7 @@ When a magma crucible is active, it emits a light level of 14.
 Tiers
 -----
 
-Magma crucibles come in five [tiers](/docs/thermal-foundation/tiers/).
+Magma crucibles come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

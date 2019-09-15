@@ -6,7 +6,7 @@ published: true
 ---
 
 On April 7, new updates were released for [CoFH Core](/docs/cofh-core-4/),
-[Thermal Foundation](/docs/thermal-foundation/), [Thermal
+[Thermal Foundation](/docs/thermal-foundation-2/), [Thermal
 Expansion](/docs/thermal-expansion/), [Thermal
 Dynamics](/docs/thermal-dynamics/) and [Redstone
 Arsenal](/docs/redstone-arsenal/). The first version of [Thermal
@@ -23,18 +23,18 @@ Innovation](/docs/thermal-innovation/) was also released.
   * The enchantment level may be reduced by one on death.
 
 #### Thermal Foundation
-* [Iron gears](/docs/thermal-foundation/iron-gear/) can now also be crafted using
-  [copper](/docs/thermal-foundation/copper-ingot/), [tin](/docs/thermal-foundation/tin-ingot/) or
-  [bronze](/docs/thermal-foundation/bronze-ingot/) ingots at the center of the recipe.
-* [Shields](/docs/thermal-foundation/shields/) now look a lot more like the
+* [Iron gears](/docs/thermal-foundation-2/iron-gear/) can now also be crafted using
+  [copper](/docs/thermal-foundation-2/copper-ingot/), [tin](/docs/thermal-foundation-2/tin-ingot/) or
+  [bronze](/docs/thermal-foundation-2/bronze-ingot/) ingots at the center of the recipe.
+* [Shields](/docs/thermal-foundation-2/shields/) now look a lot more like the
   vanilla shield. (Thanks [Ithronyar](https://github.com/Ithronyar))
 * The elemental dusts are all slightly cheaper to craft:
-  * [pyrotheum dust](/docs/thermal-foundation/pyrotheum-dust/) no longer uses [pulverized
-    coal](/docs/thermal-foundation/pulverized-coal/);
-  * [cryotheum dust](/docs/thermal-foundation/cryotheum-dust/) no longer uses
-    [niter](/docs/thermal-foundation/niter/);
-  * [aerotheum dust](/docs/thermal-foundation/aerotheum-dust/) no longer uses sand;
-  * [petrotheum dust](/docs/thermal-foundation/petrotheum-dust/) no longer uses clay.
+  * [pyrotheum dust](/docs/thermal-foundation-2/pyrotheum-dust/) no longer uses [pulverized
+    coal](/docs/thermal-foundation-2/pulverized-coal/);
+  * [cryotheum dust](/docs/thermal-foundation-2/cryotheum-dust/) no longer uses
+    [niter](/docs/thermal-foundation-2/niter/);
+  * [aerotheum dust](/docs/thermal-foundation-2/aerotheum-dust/) no longer uses sand;
+  * [petrotheum dust](/docs/thermal-foundation-2/petrotheum-dust/) no longer uses clay.
 
 #### Thermal Expansion
 * [Clastic Deposition](/docs/thermal-expansion/augment-clastic-deposition/)
@@ -51,11 +51,11 @@ Innovation](/docs/thermal-innovation/) was also released.
 * [Compactors](/docs/thermal-expansion/compactor/) can now only produce plates, coins and gears
   from ingots. Storage blocks and nuggets no longer work.
 * [Magma crucibles](/docs/thermal-expansion/magma-crucible/) produce 250 mB of [creosote
-  oil](/docs/thermal-foundation/creosote-oil/) from each unit of [tar](/docs/thermal-foundation/tar/), instead of 100
+  oil](/docs/thermal-foundation-2/creosote-oil/) from each unit of [tar](/docs/thermal-foundation-2/tar/), instead of 100
   mB.
 * [Centrifugal separators](/docs/thermal-expansion/centrifugal-separator/) can process sugar canes
   into 2 units of sugar each, as well as 250 mB of water.
-* [Creosote oil](/docs/thermal-foundation/creosote-oil/) yields 40,000 RF when used in a
+* [Creosote oil](/docs/thermal-foundation-2/creosote-oil/) yields 40,000 RF when used in a
   [compression dynamo](/docs/thermal-expansion/compression-dynamo/), instead of 20,000 RF.
 
 #### Redstone Arsenal
@@ -85,6 +85,6 @@ worked on, but here's a quick overview.
     64 blocks away.
   * Items can be filtered, like with [satchels](/docs/thermal-expansion/satchel/).
 * [Hypoinfuser](/docs/thermal-innovation/hypoinfuser/)
-  * Stores [fluid potions](/docs/thermal-foundation/potion-fluid/), and can automatically infuse
+  * Stores [fluid potions](/docs/thermal-foundation-2/potion-fluid/), and can automatically infuse
     the wielder with them.
   * Can be used on entities to forcibly inject the contained potion.

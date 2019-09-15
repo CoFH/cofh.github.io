@@ -16,16 +16,16 @@ On December 24, new updates were released for [CoFH Core](/docs/cofh-core-4/),
 * Some minor recipe adjustments.
 
 #### Thermal Foundation
-* [Tomes of knowledge](/docs/thermal-foundation/tome-of-knowledge/) take and give as much
+* [Tomes of knowledge](/docs/thermal-foundation-2/tome-of-knowledge/) take and give as much
   experience as possible when used, instead of one level at a time.
   * They can also be filled with [OpenBlocks](https://www.openmods.info/)'s
     liquid XP, converting it into experience.
-* [Hardened glass](/docs/thermal-foundation/hardened-glass/) is now wither proof.
+* [Hardened glass](/docs/thermal-foundation-2/hardened-glass/) is now wither proof.
 
 #### Thermal Expansion
 * Machines
   * [Fluid transposers](/docs/thermal-expansion/fluid-transposer/) can now make tipped arrows
-    using [fluid lingering potions](/docs/thermal-foundation/potion-fluid/).
+    using [fluid lingering potions](/docs/thermal-foundation-2/potion-fluid/).
   * The [glacial precipitator](/docs/thermal-expansion/glacial-precipitator/) has been reworked.
     It now lets you select a recipe from a list, and is thus no longer limited
     to 3 products.

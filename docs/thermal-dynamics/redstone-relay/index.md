@@ -37,7 +37,7 @@ connection. It can be removed by using a [wrench](/docs/wrenches/) on it.
 ### Configuration
 An installed redstone relay can be configured by using it.
 
-A redstone relay's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
+A redstone relay's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/)
 to be copied to other redstone relays.
 
 ### Transfer modes

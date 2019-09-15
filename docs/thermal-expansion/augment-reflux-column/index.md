@@ -35,6 +35,6 @@ installed together with other specialization augments.
 A [fractionating still](/docs/thermal-expansion/fractionating-still/) with a reflux column
 installed produces an additional 50 mB of the produced fluid per operation.
 However, the machine can only process fossil fuels ([liquifacted
-coal](/docs/thermal-foundation/liquifacted-coal/), [crude oil](/docs/thermal-foundation/crude-oil/) and
-[naphtha](/docs/thermal-foundation/naphtha/)), and the amount of energy required per operation is
+coal](/docs/thermal-foundation-2/liquifacted-coal/), [crude oil](/docs/thermal-foundation-2/crude-oil/) and
+[naphtha](/docs/thermal-foundation-2/naphtha/)), and the amount of energy required per operation is
 increased by 100%.

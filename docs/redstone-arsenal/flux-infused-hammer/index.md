@@ -13,7 +13,7 @@ recipes:
     - ra-tool-hammer
 ---
 
-A **flux-infused hammer** is a powerful [hammer](/docs/thermal-foundation/hammers/) powered by
+A **flux-infused hammer** is a powerful [hammer](/docs/thermal-foundation-2/hammers/) powered by
 [Redstone Flux](/docs/redstone-flux/).
 
 
@@ -46,7 +46,7 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 An uncharged flux-infused hammer has a very low mining speed (even slower than a
 [wooden pickaxe](https://minecraft.gamepedia.com/Wooden_Pickaxe)) and can only
 break one block at a time. When charged, it has the same mining speed as a
-[diamond hammer](/docs/thermal-foundation/hammers/), breaks up to 9 blocks at a time in a 3x3
+[diamond hammer](/docs/thermal-foundation-2/hammers/), breaks up to 9 blocks at a time in a 3x3
 area, and consumes 200 RF per use. When empowered, it is 1.5 times as fast as a
 diamond hammer, breaks up to 25 blocks at a time in a 5x5 area, and consumes
 1,600 RF per use.
@@ -65,7 +65,7 @@ and its flux damage is raised to 6.
 ### Enchantments
 A flux-infused hammer has an
 [enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
-slightly higher than that of a [golden hammer](/docs/thermal-foundation/hammers/). It can
+slightly higher than that of a [golden hammer](/docs/thermal-foundation-2/hammers/). It can
 receive all the enchantments that other hammers can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a

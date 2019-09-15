@@ -39,8 +39,8 @@ An installed elemental catalyzer quintuples the maximum power output of a
 Flux](/docs/redstone-flux/) it generates from each
 [reaction](/docs/thermal-expansion/reactant-dynamo/#reactions) by 25%. However, the dynamo can
 only generate energy from elemental reactions, like between [blazing
-pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/) and [cryotheum
-dust](/docs/thermal-foundation/cryotheum-dust/).
+pyrotheum](/docs/thermal-foundation-2/blazing-pyrotheum/) and [cryotheum
+dust](/docs/thermal-foundation-2/cryotheum-dust/).
 
 If an elemental catalyzer is installed together with other augments that affect
 the amount of energy generated from each unit of fuel, their energy

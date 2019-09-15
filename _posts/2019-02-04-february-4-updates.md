@@ -18,15 +18,15 @@ improvements.
 * Blocks such as machines and devices may be rotated when active.
 
 #### Thermal Foundation
-* [Blocks of charcoal](/docs/thermal-foundation/block-of-charcoal/) and [blocks
-  of coal coke](/docs/thermal-foundation/block-of-coal-coke/) are flammable.
-* [Blizzes](/docs/thermal-foundation/blizz/),
-  [blitzes](/docs/thermal-foundation/blitz/) and
-  [basalzes](/docs/thermal-foundation/basalz/) will still be registered when
+* [Blocks of charcoal](/docs/thermal-foundation-2/block-of-charcoal/) and [blocks
+  of coal coke](/docs/thermal-foundation-2/block-of-coal-coke/) are flammable.
+* [Blizzes](/docs/thermal-foundation-2/blizz/),
+  [blitzes](/docs/thermal-foundation-2/blitz/) and
+  [basalzes](/docs/thermal-foundation-2/basalz/) will still be registered when
   disabled in the configuration file. They just won't spawn.
 * Added a configuration option to disable the crafting recipes for [wooden
-  gears](/docs/thermal-foundation/wooden-gear/) and [stone
-  gears](/docs/thermal-foundation/stone-gear/).
+  gears](/docs/thermal-foundation-2/wooden-gear/) and [stone
+  gears](/docs/thermal-foundation-2/stone-gear/).
 * Added a configuration option to make the other gears require an additional
   [iron ingot](https://minecraft.gamepedia.com/Iron_Ingot) to craft.
 

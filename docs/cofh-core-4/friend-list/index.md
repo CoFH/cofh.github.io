@@ -8,7 +8,7 @@ redirect_from:
 
 The **friend list** is a feature that allows players to mark other players as
 their friends. This can be used by blocks or items that are secured with a
-[signalum security lock](/docs/thermal-foundation/signalum-security-lock/).
+[signalum security lock](/docs/thermal-foundation-2/signalum-security-lock/).
 
 
 Management
@@ -30,5 +30,5 @@ Usage
 -----
 
 When a block or item that is secured with a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) is in 'Restricted' mode, the owner and
+lock](/docs/thermal-foundation-2/signalum-security-lock/) is in 'Restricted' mode, the owner and
 anyone in their friend list can access it.

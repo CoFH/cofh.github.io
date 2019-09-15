@@ -14,7 +14,7 @@ recipes:
 A **pyro-concentrator** is an [augment](/docs/thermal-expansion/augments/) that allows for an
 [induction smelter](/docs/thermal-expansion/induction-smelter/) to process
 [ores](/docs/thermal-expansion/induction-smelter/#ore-processing) more efficiently using [blazing
-pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/).
+pyrotheum](/docs/thermal-foundation-2/blazing-pyrotheum/).
 
 
 Obtaining
@@ -36,7 +36,7 @@ installed together with other specialization augments.
 An [induction smelter](/docs/thermal-expansion/induction-smelter/) with a pyro-concentrator
 installed produces 1.5 times as much of the primary product of any
 [ore](/docs/thermal-expansion/induction-smelter/#ore-processing) it processes. However, it
-consumes 100 mB of [blazing pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/) per ore to do
+consumes 100 mB of [blazing pyrotheum](/docs/thermal-foundation-2/blazing-pyrotheum/) per ore to do
 so, and the amount of energy required per operation is increased by 50%.
 
 An installed pyro-concentrator also increases the chances of an induction

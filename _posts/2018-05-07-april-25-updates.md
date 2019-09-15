@@ -33,19 +33,19 @@ before the docs are updated.
 #### Thermal Foundation
 * [CoFH World](/docs/cofh-world/) is no longer a hard dependency. However, it is
   still used for the default world generation.
-* [Oil sand](/docs/thermal-foundation/oil-sand/) now has a red variant.
-* Added [recipes](/docs/thermal-foundation/potion-recipes/) for [potions of Luck
+* [Oil sand](/docs/thermal-foundation-2/oil-sand/) now has a red variant.
+* Added [recipes](/docs/thermal-foundation-2/potion-recipes/) for [potions of Luck
   and Misfortune](/docs/cofh-core-4/potions/).
-* [Tectonic petrotheum](/docs/thermal-foundation/tectonic-petrotheum/) no longer applies [Night
+* [Tectonic petrotheum](/docs/thermal-foundation-2/tectonic-petrotheum/) no longer applies [Night
   Vision](https://minecraft.gamepedia.com/Status_effect#Night_Vision) when
   touched.
-* Elemental dusts ([pyrotheum](/docs/thermal-foundation/pyrotheum-dust/),
-  [cryotheum](/docs/thermal-foundation/cryotheum-dust/), [aerotheum](/docs/thermal-foundation/aerotheum-dust/) and
-  [petrotheum](/docs/thermal-foundation/petrotheum-dust/)) are crafted with two units of elemental
+* Elemental dusts ([pyrotheum](/docs/thermal-foundation-2/pyrotheum-dust/),
+  [cryotheum](/docs/thermal-foundation-2/cryotheum-dust/), [aerotheum](/docs/thermal-foundation-2/aerotheum-dust/) and
+  [petrotheum](/docs/thermal-foundation-2/petrotheum-dust/)) are crafted with two units of elemental
   powder instead of one.
-* New crafting materials: [tool casing](/docs/thermal-foundation/tool-casing/), [drill
-  head](/docs/thermal-foundation/drill-head/) and [saw blade](/docs/thermal-foundation/saw-blade/).
-* [Pigments](/docs/thermal-foundation/pigments/)
+* New crafting materials: [tool casing](/docs/thermal-foundation-2/tool-casing/), [drill
+  head](/docs/thermal-foundation-2/drill-head/) and [saw blade](/docs/thermal-foundation-2/saw-blade/).
+* [Pigments](/docs/thermal-foundation-2/pigments/)
   * Types of [dye](https://minecraft.gamepedia.com/Dye) that can only be used
     for dyeing (unlike certain dyes like [bone
     meal](https://minecraft.gamepedia.com/Bone_Meal) and [lapis
@@ -54,11 +54,11 @@ before the docs are updated.
     [pulverizer](/docs/thermal-expansion/pulverizer/) or [concrete
     powder](https://minecraft.gamepedia.com/Concrete_Powder) in a [centrifugal
     separator](/docs/thermal-expansion/centrifugal-separator/).
-* [Multimeters](/docs/thermal-foundation/multimeter/) are crafted with [gold
-  gears](/docs/thermal-foundation/gold-gear/) instead of [electrum gears](/docs/thermal-foundation/electrum-gear/).
+* [Multimeters](/docs/thermal-foundation-2/multimeter/) are crafted with [gold
+  gears](/docs/thermal-foundation-2/gold-gear/) instead of [electrum gears](/docs/thermal-foundation-2/electrum-gear/).
 * Slightly rebalanced tools and armor.
-* [Hammers](/docs/thermal-foundation/hammers/) and
-  [sickles](/docs/thermal-foundation/sickles/) don't break multiple blocks when
+* [Hammers](/docs/thermal-foundation-2/hammers/) and
+  [sickles](/docs/thermal-foundation-2/sickles/) don't break multiple blocks when
   sneaking.
 
 #### Thermal Expansion
@@ -70,8 +70,8 @@ before the docs are updated.
   * A [device](/docs/thermal-expansion/devices/) that captures
     [mobs](https://minecraft.gamepedia.com/Mob) in an area using
     [morbs](/docs/thermal-expansion/morb/).
-* [Sawmills](/docs/thermal-expansion/sawmill/) are crafted with [saw blades](/docs/thermal-foundation/saw-blade/)
-  instead of [iron gears](/docs/thermal-foundation/iron-gear/).
+* [Sawmills](/docs/thermal-expansion/sawmill/) are crafted with [saw blades](/docs/thermal-foundation-2/saw-blade/)
+  instead of [iron gears](/docs/thermal-foundation-2/iron-gear/).
 * [Compactor](/docs/thermal-expansion/compactor/) changes
   * Removed Storage mode; this functionality is now handled by the
     [factorizer](/docs/thermal-expansion/factorizer/).
@@ -85,9 +85,9 @@ before the docs are updated.
   bricks](https://minecraft.gamepedia.com/Stone_Bricks), as they are now
   obtainable through [smelting](https://minecraft.gamepedia.com/Smelting).
 * [Induction smelter](/docs/thermal-expansion/induction-smelter/) recipe tweaks
-  * [Hardened glass](/docs/thermal-foundation/hardened-glass/) can no longer be produced using
-    [lead ingots](/docs/thermal-foundation/lead-ingot/); only [pulverized
-    lead](/docs/thermal-foundation/pulverized-lead/) works.
+  * [Hardened glass](/docs/thermal-foundation-2/hardened-glass/) can no longer be produced using
+    [lead ingots](/docs/thermal-foundation-2/lead-ingot/); only [pulverized
+    lead](/docs/thermal-foundation-2/pulverized-lead/) works.
   * [Lapis lazuli ore](https://minecraft.gamepedia.com/Lapis_Lazuli_Ore) can now
     be processed.
   * Processing [redstone ore](https://minecraft.gamepedia.com/Redstone_Ore)
@@ -105,17 +105,17 @@ before the docs are updated.
   [granite](https://minecraft.gamepedia.com/Granite) and
   [diorite](https://minecraft.gamepedia.com/Diorite).
 * [Fluid transposer](/docs/thermal-expansion/fluid-transposer/) elemental powder recipes changed:
-  * [Essence of knowledge](/docs/thermal-foundation/essence-of-knowledge/) is used instead of
-    [destabilized redstone](/docs/thermal-foundation/destabilized-redstone/).
+  * [Essence of knowledge](/docs/thermal-foundation-2/essence-of-knowledge/) is used instead of
+    [destabilized redstone](/docs/thermal-foundation-2/destabilized-redstone/).
   * [Blaze powder](https://minecraft.gamepedia.com/Blaze_Powder) requires 2
-    [sulfur](/docs/thermal-foundation/sulfur/) instead of [glowstone
+    [sulfur](/docs/thermal-foundation-2/sulfur/) instead of [glowstone
     dust](https://minecraft.gamepedia.com/Glowstone_Dust).
-  * [Blizz powder](/docs/thermal-foundation/blizz-powder/) requires 2
+  * [Blizz powder](/docs/thermal-foundation-2/blizz-powder/) requires 2
     [snowballs](https://minecraft.gamepedia.com/Snowball) instead of 1.
-  * [Blitz powder](/docs/thermal-foundation/blitz-powder/) requires 2 [niter](/docs/thermal-foundation/niter/) instead
+  * [Blitz powder](/docs/thermal-foundation-2/blitz-powder/) requires 2 [niter](/docs/thermal-foundation-2/niter/) instead
     of [sand](https://minecraft.gamepedia.com/Sand).
-  * [Basalz powder](/docs/thermal-foundation/basalz-powder/) requires 2 [pulverized
-    obsidian](/docs/thermal-foundation/pulverized-obsidian/) instead of 1.
+  * [Basalz powder](/docs/thermal-foundation-2/basalz-powder/) requires 2 [pulverized
+    obsidian](/docs/thermal-foundation-2/pulverized-obsidian/) instead of 1.
 * Active [dynamos](/docs/thermal-expansion/dynamos/) now have animated textures.
 * [Flux capacitors](/docs/thermal-expansion/flux-capacitor/) and [reservoirs](/docs/thermal-expansion/reservoir/)
   can be equipped as
@@ -147,7 +147,7 @@ before the docs are updated.
   * Much like a [fluxbore](/docs/thermal-innovation/fluxbore/), but for chopping wood.
 * [Alchemical Quiver](/docs/thermal-innovation/alchemical-quiver/)
   * Stores [arrows](https://minecraft.gamepedia.com/Arrow) and can automatically
-    imbue them with a [fluid potion](/docs/thermal-foundation/potion-fluid/).
+    imbue them with a [fluid potion](/docs/thermal-foundation-2/potion-fluid/).
 * [Fluxbores](/docs/thermal-innovation/fluxbore/) can mine different areas:
   * Tunnel: 1x2
   * Area: 3x3

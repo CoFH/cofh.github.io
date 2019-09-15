@@ -17,7 +17,7 @@ New potions
 Several new potions are added, all of which apply
 [effects](https://minecraft.gamepedia.com/Status_effects) that do not have
 corresponding potions in the base game. [Thermal
-Foundation](/docs/thermal-foundation/) adds [recipes](/docs/thermal-foundation/potion-recipes/)
+Foundation](/docs/thermal-foundation-2/) adds [recipes](/docs/thermal-foundation-2/potion-recipes/)
 to obtain these potions.
 
 {::options parse_block_html="true" /}

@@ -39,7 +39,7 @@ Usage
 A hardened fluiduct works the same way as a regular [fluiduct](/docs/thermal-dynamics/fluiduct/).
 However, it will not break if it contains an extremely hot or cold fluid like
 [lava](https://minecraft.gamepedia.com/Lava) or [gelid
-cryotheum](/docs/thermal-foundation/gelid-cryotheum/).
+cryotheum](/docs/thermal-foundation-2/gelid-cryotheum/).
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

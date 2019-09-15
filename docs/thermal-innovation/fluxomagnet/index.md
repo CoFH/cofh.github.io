@@ -110,7 +110,7 @@ capacity.
 Tiers
 -----
 
-Fluxomagnets come in six [tiers](/docs/thermal-foundation/tiers/).
+Fluxomagnets come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

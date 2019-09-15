@@ -75,10 +75,10 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 A fluid allocator can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A fluid allocator's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
+A fluid allocator's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/)
 to be copied to other fluid allocators.
 
 ### Light source

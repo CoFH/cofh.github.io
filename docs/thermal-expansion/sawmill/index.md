@@ -47,7 +47,7 @@ A **sawmill** is a [machine](/docs/thermal-expansion/machines/) that processes
 [wood](https://minecraft.gamepedia.com/Wood) into [wood
 planks](https://minecraft.gamepedia.com/Wood_Planks) more efficiently than by
 hand. It can also be used to produce [pulped
-biomass](/docs/thermal-foundation/pulped-biomass/) and to recycle various wooden
+biomass](/docs/thermal-foundation-2/pulped-biomass/) and to recycle various wooden
 things.
 
 
@@ -64,8 +64,8 @@ this can be much slower.
 
 ### Upgrading
 A sawmill is initially at the lowest [tier](#tiers) (basic). It can be upgraded
-to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and [conversion
-kits](/docs/thermal-foundation/conversion-kits/).
+to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and [conversion
+kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -131,18 +131,18 @@ High
 The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
-A sawmill can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
+A sawmill can have a [signalum security lock](/docs/thermal-foundation-2/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Redprints
-A sawmill's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
+A sawmill's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/) to be
 copied to other sawmills.
 
 
 Tiers
 -----
 
-Sawmills come in five [tiers](/docs/thermal-foundation/tiers/).
+Sawmills come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

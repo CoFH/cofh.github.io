@@ -13,7 +13,7 @@ recipes:
 
 A **flux reconstruction** [augment](/docs/thermal-expansion/augments/) allows for an [energetic
 infuser](/docs/thermal-expansion/energetic-infuser/) to repair damaged items using [essence of
-knowledge](/docs/thermal-foundation/essence-of-knowledge/).
+knowledge](/docs/thermal-foundation-2/essence-of-knowledge/).
 
 
 Obtaining
@@ -35,4 +35,4 @@ cannot be installed together with other specialization augments.
 An [energetic infuser](/docs/thermal-expansion/energetic-infuser/) with flux reconstruction
 installed repairs damaged items instead of charging items with [Redstone
 Flux](/docs/redstone-flux/). It uses 500 RF and 5 mB of [essence of
-knowledge](/docs/thermal-foundation/essence-of-knowledge/) per restored durability point.
+knowledge](/docs/thermal-foundation-2/essence-of-knowledge/) per restored durability point.

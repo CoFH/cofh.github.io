@@ -20,7 +20,7 @@ augments:
 An **alchemical imbuer**, also known as a **brewer**, is a
 [machine](/docs/thermal-expansion/machines/) that brews
 [potions](https://minecraft.gamepedia.com/Potion). It works with potions in
-their [fluid forms](/docs/thermal-foundation/potion-fluid/).
+their [fluid forms](/docs/thermal-foundation-2/potion-fluid/).
 
 
 Obtaining
@@ -36,8 +36,8 @@ this can be much slower.
 
 ### Upgrading
 An alchemical imbuer is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -50,7 +50,7 @@ cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 ### Processing
 When an alchemical imbuer's input tank is filled with
 [water](https://minecraft.gamepedia.com/Water) or a [fluid
-potion](/docs/thermal-foundation/potion-fluid/) and a reagent
+potion](/docs/thermal-foundation-2/potion-fluid/) and a reagent
 ([brewing](https://minecraft.gamepedia.com/Brewing) ingredient) is placed in its
 input slot, the machine will start consuming [Redstone
 Flux](/docs/redstone-flux/) to brew the corresponding potion. Potions are brewed
@@ -105,11 +105,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 An alchemical imbuer can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An alchemical imbuer's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other alchemical imbuers.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other alchemical imbuers.
 
 ### Light source
 When an alchemical imbuer is active, it emits a light level of 12.
@@ -118,7 +118,7 @@ When an alchemical imbuer is active, it emits a light level of 12.
 Tiers
 -----
 
-Alchemical imbuers come in five [tiers](/docs/thermal-foundation/tiers/).
+Alchemical imbuers come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

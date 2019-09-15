@@ -42,8 +42,8 @@ this can be much slower.
 
 ### Upgrading
 A glacial precipitator is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -106,17 +106,17 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A glacial precipitator can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A glacial precipitator's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other precipitators.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other precipitators.
 
 
 Tiers
 -----
 
-Glacial precipitators come in five [tiers](/docs/thermal-foundation/tiers/).
+Glacial precipitators come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

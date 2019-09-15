@@ -60,7 +60,7 @@ Usage
 
 Augments can be installed in the Augmentation tab in the GUI of a
 [machine](/docs/thermal-expansion/machines/) or [dynamo](/docs/thermal-expansion/dynamos/). The amount of augments
-that can be installed depends on the block's [tier](/docs/thermal-foundation/tiers/). A basic
+that can be installed depends on the block's [tier](/docs/thermal-foundation-2/tiers/). A basic
 machine or dynamo cannot be augmented.
 
 Some augments can be installed multiple times, stacking their effects.

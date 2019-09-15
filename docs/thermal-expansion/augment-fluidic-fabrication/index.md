@@ -40,6 +40,6 @@ a crafting recipe that includes a fluid container item (such as a filled
 the tank instead of using the fluid container item.
 
 As an example, this augment can be used to simplify producing [signalum
-blend](/docs/thermal-foundation/signalum-blend/). In this case, [destabilized
-redstone](/docs/thermal-foundation/destabilized-redstone/) can be pumped into the machine directly,
+blend](/docs/thermal-foundation-2/signalum-blend/). In this case, [destabilized
+redstone](/docs/thermal-foundation-2/destabilized-redstone/) can be pumped into the machine directly,
 instead of supplying filled buckets and extracting empty ones.

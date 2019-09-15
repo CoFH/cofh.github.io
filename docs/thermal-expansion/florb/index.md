@@ -44,5 +44,5 @@ A filled florb can be thrown by using it. On impact, it releases the fluid it
 holds into the world.
 
 Florbs that contain fluids that are lighter than air, like [energized
-glowstone](/docs/thermal-foundation/energized-glowstone/) and [zephyrean
-aerotheum](/docs/thermal-foundation/zephyrean-aerotheum/), can be thrown further.
+glowstone](/docs/thermal-foundation-2/energized-glowstone/) and [zephyrean
+aerotheum](/docs/thermal-foundation-2/zephyrean-aerotheum/), can be thrown further.

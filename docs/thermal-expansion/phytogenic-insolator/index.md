@@ -78,7 +78,7 @@ recipe-list:
 
 A **phytogenic insolator**, or **insolator** for short, is a
 [machine](/docs/thermal-expansion/machines/) that grows and multiplies plants using
-[water](https://minecraft.gamepedia.com/Water), [fertilizer](/docs/thermal-foundation/phyto-gro/)
+[water](https://minecraft.gamepedia.com/Water), [fertilizer](/docs/thermal-foundation-2/phyto-gro/)
 and simulated sunlight.
 
 
@@ -95,8 +95,8 @@ this can be much slower.
 
 ### Upgrading
 A phytogenic insolator is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -168,11 +168,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A phytogenic insolator can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A phytogenic insolator's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other insolators.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other insolators.
 
 ### Light source
 When a phytogenic insolator is active, it emits a light level of 14.
@@ -181,7 +181,7 @@ When a phytogenic insolator is active, it emits a light level of 14.
 Tiers
 -----
 
-Phytogenic insolators come in five [tiers](/docs/thermal-foundation/tiers/).
+Phytogenic insolators come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

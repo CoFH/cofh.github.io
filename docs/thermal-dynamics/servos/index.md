@@ -60,7 +60,7 @@ on whether the servo is installed on an [itemduct](/docs/thermal-dynamics/itemdu
 A servo's configuration also affects items or fluids that are inserted into the
 duct by the connected block.
 
-A servo's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
+A servo's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/) to be
 copied to other servos, [filters](/docs/thermal-dynamics/filters/) or
 [retrievers](/docs/thermal-dynamics/retrievers/).
 
@@ -153,7 +153,7 @@ NBT
 Tiers
 -----
 
-Servos come in five [tiers](/docs/thermal-foundation/tiers/).
+Servos come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

@@ -21,9 +21,9 @@ instantly crushed into two piles of dust (three if the ore is from the
 [End](https://minecraft.gamepedia.com/The_End)). This only works with ore blocks
 that drop themselves when broken. For example, [iron
 ore](https://minecraft.gamepedia.com/Iron_Ore) drops two piles of [pulverized
-iron](/docs/thermal-foundation/pulverized-iron/) and [copper
-ore](/docs/thermal-foundation/copper-ore/) drops two piles of [pulverized
-copper](/docs/thermal-foundation/pulverized-copper/).
+iron](/docs/thermal-foundation-2/pulverized-iron/) and [copper
+ore](/docs/thermal-foundation-2/copper-ore/) drops two piles of [pulverized
+copper](/docs/thermal-foundation-2/pulverized-copper/).
 
 When a tool is enchanted with both Smashing and
 [Smelting](/docs/cofh-core-4/smelting/), the effect of Smashing is applied before

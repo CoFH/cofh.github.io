@@ -61,9 +61,9 @@ for 8 cycles per item.
 
 | Bait type | Production multiplier |
 |---
-| [Aqua-Chow](/docs/thermal-foundation/aqua-chow/) | × 2 |
-| [Rich Aqua-Chow](/docs/thermal-foundation/rich-aqua-chow/) | × 3 |
-| [Fluxed Aqua-Chow](/docs/thermal-foundation/fluxed-aqua-chow/) | × 4 |
+| [Aqua-Chow](/docs/thermal-foundation-2/aqua-chow/) | × 2 |
+| [Rich Aqua-Chow](/docs/thermal-foundation-2/rich-aqua-chow/) | × 3 |
+| [Fluxed Aqua-Chow](/docs/thermal-foundation-2/fluxed-aqua-chow/) | × 4 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Input and output
@@ -102,11 +102,11 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An aquatic entangler can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An aquatic entangler's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other aquatic entanglers.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other aquatic entanglers.
 
 
 Products

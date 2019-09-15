@@ -35,8 +35,8 @@ this can be much slower.
 
 ### Upgrading
 A reactant dynamo is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -96,10 +96,10 @@ reaction first.
 
 ### Security
 A reactant dynamo can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A reactant dynamo's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
+A reactant dynamo's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/)
 to be copied to other dynamos.
 
 ### Light source
@@ -109,7 +109,7 @@ When a reactant dynamo is active, it emits a light level of 7.
 Tiers
 -----
 
-Reactant dynamos come in six [tiers](/docs/thermal-foundation/tiers/).
+Reactant dynamos come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -146,18 +146,18 @@ to generate varying amounts of energy.
 
 | Fuel (100 mB) | Reactant | Energy |
 |---
-| [Destabilized Redstone](/docs/thermal-foundation/destabilized-redstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 80,000 RF |
-| [Destabilized Redstone](/docs/thermal-foundation/destabilized-redstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 100,000 RF |
-| [Destabilized Redstone](/docs/thermal-foundation/destabilized-redstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 100,000 RF |
-| [Destabilized Redstone](/docs/thermal-foundation/destabilized-redstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 150,000 RF |
-| [Destabilized Redstone](/docs/thermal-foundation/destabilized-redstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 150,000 RF |
-| [Energized Glowstone](/docs/thermal-foundation/energized-glowstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 100,000 RF |
-| [Energized Glowstone](/docs/thermal-foundation/energized-glowstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 125,000 RF |
-| [Energized Glowstone](/docs/thermal-foundation/energized-glowstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 125,000 RF |
-| [Energized Glowstone](/docs/thermal-foundation/energized-glowstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 200,000 RF |
-| [Energized Glowstone](/docs/thermal-foundation/energized-glowstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 200,000 RF |
-| [Blazing Pyrotheum](/docs/thermal-foundation/blazing-pyrotheum/) | [Cryotheum Dust](/docs/thermal-foundation/cryotheum-dust/) | 400,000 RF |
-| [Gelid Cryotheum](/docs/thermal-foundation/gelid-cryotheum/) | [Pyrotheum Dust](/docs/thermal-foundation/pyrotheum-dust/) | 400,000 RF |
-| [Zephyrean Aerotheum](/docs/thermal-foundation/zephyrean-aerotheum/) | [Petrotheum Dust](/docs/thermal-foundation/petrotheum-dust/) | 400,000 RF |
-| [Tectonic Petrotheum](/docs/thermal-foundation/tectonic-petrotheum/) | [Aerotheum Dust](/docs/thermal-foundation/aerotheum-dust/) | 400,000 RF |
+| [Destabilized Redstone](/docs/thermal-foundation-2/destabilized-redstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 80,000 RF |
+| [Destabilized Redstone](/docs/thermal-foundation-2/destabilized-redstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 100,000 RF |
+| [Destabilized Redstone](/docs/thermal-foundation-2/destabilized-redstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 100,000 RF |
+| [Destabilized Redstone](/docs/thermal-foundation-2/destabilized-redstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 150,000 RF |
+| [Destabilized Redstone](/docs/thermal-foundation-2/destabilized-redstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 150,000 RF |
+| [Energized Glowstone](/docs/thermal-foundation-2/energized-glowstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 100,000 RF |
+| [Energized Glowstone](/docs/thermal-foundation-2/energized-glowstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 125,000 RF |
+| [Energized Glowstone](/docs/thermal-foundation-2/energized-glowstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 125,000 RF |
+| [Energized Glowstone](/docs/thermal-foundation-2/energized-glowstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 200,000 RF |
+| [Energized Glowstone](/docs/thermal-foundation-2/energized-glowstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 200,000 RF |
+| [Blazing Pyrotheum](/docs/thermal-foundation-2/blazing-pyrotheum/) | [Cryotheum Dust](/docs/thermal-foundation-2/cryotheum-dust/) | 400,000 RF |
+| [Gelid Cryotheum](/docs/thermal-foundation-2/gelid-cryotheum/) | [Pyrotheum Dust](/docs/thermal-foundation-2/pyrotheum-dust/) | 400,000 RF |
+| [Zephyrean Aerotheum](/docs/thermal-foundation-2/zephyrean-aerotheum/) | [Petrotheum Dust](/docs/thermal-foundation-2/petrotheum-dust/) | 400,000 RF |
+| [Tectonic Petrotheum](/docs/thermal-foundation-2/tectonic-petrotheum/) | [Aerotheum Dust](/docs/thermal-foundation-2/aerotheum-dust/) | 400,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

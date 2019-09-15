@@ -36,8 +36,8 @@ this can be much slower.
 
 ### Upgrading
 A sequential fabricator is initially at the lowest [tier](#tiers) (basic). It
-can be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+can be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -110,11 +110,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A sequential fabricator can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A sequential fabricator's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other sequential fabricators.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other sequential fabricators.
 
 ### Light source
 When a sequential fabricator is active, it emits a light level of 7.
@@ -123,7 +123,7 @@ When a sequential fabricator is active, it emits a light level of 7.
 Tiers
 -----
 
-Sequential fabricators come in five [tiers](/docs/thermal-foundation/tiers/).
+Sequential fabricators come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

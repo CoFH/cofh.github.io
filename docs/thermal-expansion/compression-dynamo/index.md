@@ -40,8 +40,8 @@ this can be much slower.
 
 ### Upgrading
 A compression dynamo is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -113,11 +113,11 @@ energy from that batch first.
 
 ### Security
 A compression dynamo can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A compression dynamo's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other dynamos.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other dynamos.
 
 ### Light source
 When a compression dynamo that produces [Redstone Flux](/docs/redstone-flux/) is
@@ -127,7 +127,7 @@ active, it emits a light level of 7.
 Tiers
 -----
 
-Compression dynamos come in six [tiers](/docs/thermal-foundation/tiers/).
+Compression dynamos come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -164,14 +164,14 @@ amounts of energy.
 
 | Fuel | Energy per 1,000 mB |
 |---
-| [Creosote Oil](/docs/thermal-foundation/creosote-oil/) | 40,000 RF |
-| [Seed Oil](/docs/thermal-foundation/seed-oil/) | 80,000 RF |
-| [Liquifacted Coal](/docs/thermal-foundation/liquifacted-coal/) | 400,000 RF |
-| [Crude Oil](/docs/thermal-foundation/crude-oil/) | 400,000 RF |
-| [Tree Oil](/docs/thermal-foundation/tree-oil/) | 400,000 RF |
-| [Grassoline](/docs/thermal-foundation/grassoline/) | 800,000 RF |
-| [Naphtha](/docs/thermal-foundation/naphtha/) | 1,000,000 RF |
-| [Refined Fuel](/docs/thermal-foundation/refined-fuel/) | 1,500,000 RF |
+| [Creosote Oil](/docs/thermal-foundation-2/creosote-oil/) | 40,000 RF |
+| [Seed Oil](/docs/thermal-foundation-2/seed-oil/) | 80,000 RF |
+| [Liquifacted Coal](/docs/thermal-foundation-2/liquifacted-coal/) | 400,000 RF |
+| [Crude Oil](/docs/thermal-foundation-2/crude-oil/) | 400,000 RF |
+| [Tree Oil](/docs/thermal-foundation-2/tree-oil/) | 400,000 RF |
+| [Grassoline](/docs/thermal-foundation-2/grassoline/) | 800,000 RF |
+| [Naphtha](/docs/thermal-foundation-2/naphtha/) | 1,000,000 RF |
+| [Refined Fuel](/docs/thermal-foundation-2/refined-fuel/) | 1,500,000 RF |
 | Gaseous Fuel ([BuildCraft](https://www.mod-buildcraft.com/)) | 200,000 RF |
 | Mixed Light Fuels ([BuildCraft](https://www.mod-buildcraft.com/)) | 320,000 RF |
 | Distilled Oil ([BuildCraft](https://www.mod-buildcraft.com/)) | 400,000 RF |

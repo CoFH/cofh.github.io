@@ -13,7 +13,7 @@ recipes:
 
 A **nutrient recovery** [augment](/docs/thermal-expansion/augments/) provides a chance for a
 [phytogenic insolator](/docs/thermal-expansion/phytogenic-insolator/) to not consume fertilizer
-([Phyto-Gro](/docs/thermal-foundation/phyto-gro/)).
+([Phyto-Gro](/docs/thermal-foundation-2/phyto-gro/)).
 
 
 Obtaining

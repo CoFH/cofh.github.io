@@ -37,7 +37,7 @@ An installed enstabulation apparatus replaces a [centrifugal
 separator](/docs/thermal-expansion/centrifugal-separator/)'s recipe set with [its own](#recipes).
 This recipe set consists of processing [morbs](/docs/thermal-expansion/morb/) containing various
 types of [mobs](https://minecraft.gamepedia.com/Mob) into mob drops and [essence
-of knowledge](/docs/thermal-foundation/essence-of-knowledge/).
+of knowledge](/docs/thermal-foundation-2/essence-of-knowledge/).
 
 When processing morbs, each operation requires 4,000 RF. There is a 25% chance
 that an empty morb is returned as an output. [Reusable
@@ -72,7 +72,7 @@ produced at a time.
 | [Wolf](https://minecraft.gamepedia.com/Wolf) | - | 40 mB |
 | [Zombie Horse](https://minecraft.gamepedia.com/Zombie_Horse) | [Rotten Flesh](https://minecraft.gamepedia.com/Rotten_Flesh) × 2 (50%) | 40 mB |
 |
-| [Blaze](https://minecraft.gamepedia.com/Blaze) | [Blaze Rod](https://minecraft.gamepedia.com/Blaze_Rod) (50%), [Sulfur](/docs/thermal-foundation/sulfur/) (25%) | 200 mB |
+| [Blaze](https://minecraft.gamepedia.com/Blaze) | [Blaze Rod](https://minecraft.gamepedia.com/Blaze_Rod) (50%), [Sulfur](/docs/thermal-foundation-2/sulfur/) (25%) | 200 mB |
 | [Cave Spider](https://minecraft.gamepedia.com/Cave_Spider) | [String](https://minecraft.gamepedia.com/String) × 2 (50%), [Spider Eye](https://minecraft.gamepedia.com/Spider_Eye) (25%) | 100 mB |
 | [Creeper](https://minecraft.gamepedia.com/Creeper) | [Gunpowder](https://minecraft.gamepedia.com/) × 2 (50%) | 100 mB |
 | [Elder Guardian](https://minecraft.gamepedia.com/Elder_Guardian) | [Prismarine Shard](https://minecraft.gamepedia.com/Prismarine_Shard) × 2 (50%), [Prismarine Crystals](https://minecraft.gamepedia.com/Prismarine_Crystals) (50%) | 200 mB |
@@ -82,7 +82,7 @@ produced at a time.
 | [Ghast](https://minecraft.gamepedia.com/Ghast) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) (50%), [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) (50%) | 100 mB |
 | [Guardian](https://minecraft.gamepedia.com/Guardian) | [Prismarine Shard](https://minecraft.gamepedia.com/Prismarine_Shard) × 2 (50%), [Prismarine Crystals](https://minecraft.gamepedia.com/Prismarine_Crystals) (50%) | 200 mB |
 | [Husk](https://minecraft.gamepedia.com/Husk) | [Rotten Flesh](https://minecraft.gamepedia.com/Rotten_Flesh) × 2 (50%), [Iron Ingot](https://minecraft.gamepedia.com/Iron_Ingot) (2%), [Potato](https://minecraft.gamepedia.com/Potato) (2%) | 100 mB |
-| [Magma Cube](https://minecraft.gamepedia.com/Magma_Cube) | [Magma Cream](https://minecraft.gamepedia.com/Magma_Cream) (50%), [Sulfur](/docs/thermal-foundation/sulfur/) (25%) | 40 mB |
+| [Magma Cube](https://minecraft.gamepedia.com/Magma_Cube) | [Magma Cream](https://minecraft.gamepedia.com/Magma_Cream) (50%), [Sulfur](/docs/thermal-foundation-2/sulfur/) (25%) | 40 mB |
 | [Shulker](https://minecraft.gamepedia.com/Shulker) | [Shulker Shell](https://minecraft.gamepedia.com/Shulker_Shell) (50%) | 100 mB |
 | [Silverfish](https://minecraft.gamepedia.com/Silverfish) | - | 100 mB |
 | [Skeleton](https://minecraft.gamepedia.com/Skeleton) | [Arrow](https://minecraft.gamepedia.com/Arrow) × 2 (50%), [Bone](https://minecraft.gamepedia.com/Bone) × 2 (50%) | 100 mB |
@@ -98,9 +98,9 @@ produced at a time.
 | [Zombie Pigman](https://minecraft.gamepedia.com/Zombie_Pigman) | [Rotten Flesh](https://minecraft.gamepedia.com/Rotten_Flesh) (50%), [Gold Nugget](https://minecraft.gamepedia.com/Gold_Nugget) (50%), [Gold Ingot](https://minecraft.gamepedia.com/Gold_Ingot) (2%) | 100 mB |
 | [Zombie Villager](https://minecraft.gamepedia.com/Zombie_Villager) | [Rotten Flesh](https://minecraft.gamepedia.com/Rotten_Flesh) × 2 (50%), [Iron Ingot](https://minecraft.gamepedia.com/Iron_Ingot) (2%), [Potato](https://minecraft.gamepedia.com/Potato) (2%) | 100 mB |
 |
-| [Blizz](/docs/thermal-foundation/blizz/) | [Blizz Rod](/docs/thermal-foundation/blizz-rod/) (50%), [Snowball](https://minecraft.gamepedia.com/Snowball) × 4 (25%) | 200 mB |
-| [Blitz](/docs/thermal-foundation/blitz/) | [Blitz Rod](/docs/thermal-foundation/blitz-rod/) (50%), [Niter](/docs/thermal-foundation/niter/) × 2 (25%) | 200 mB |
-| [Basalz](/docs/thermal-foundation/basalz/) | [Basalz Rod](/docs/thermal-foundation/basalz-rod/) (50%), [Pulverized Obsidian](/docs/thermal-foundation/pulverized-obsidian/) × 2 (25%) | 200 mB |
+| [Blizz](/docs/thermal-foundation-2/blizz/) | [Blizz Rod](/docs/thermal-foundation-2/blizz-rod/) (50%), [Snowball](https://minecraft.gamepedia.com/Snowball) × 4 (25%) | 200 mB |
+| [Blitz](/docs/thermal-foundation-2/blitz/) | [Blitz Rod](/docs/thermal-foundation-2/blitz-rod/) (50%), [Niter](/docs/thermal-foundation-2/niter/) × 2 (25%) | 200 mB |
+| [Basalz](/docs/thermal-foundation-2/basalz/) | [Basalz Rod](/docs/thermal-foundation-2/basalz-rod/) (50%), [Pulverized Obsidian](/docs/thermal-foundation-2/pulverized-obsidian/) × 2 (25%) | 200 mB |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

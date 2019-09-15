@@ -19,7 +19,7 @@ image:
 ---
 
 **Dynamos** are blocks that generate [Redstone Flux](/docs/redstone-flux/) by
-consuming various kinds of fuel. They can be [upgraded](/docs/thermal-foundation/tiers/) and
+consuming various kinds of fuel. They can be [upgraded](/docs/thermal-foundation-2/tiers/) and
 [augmented](/docs/thermal-expansion/augments/).
 
 

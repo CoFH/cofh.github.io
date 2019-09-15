@@ -26,7 +26,7 @@ recipes:
 
 A **strongbox** is a block that stores items. It is functionally similar to a
 [chest](https://minecraft.gamepedia.com/Chest), but can be moved and
-[secured](/docs/thermal-foundation/signalum-security-lock/). At higher [tiers](#tiers), it also
+[secured](/docs/thermal-foundation-2/signalum-security-lock/). At higher [tiers](#tiers), it also
 stores more items.
 
 
@@ -44,8 +44,8 @@ slower.
 
 ### Upgrading
 A strongbox is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -67,7 +67,7 @@ other strongboxes or [satchels](/docs/thermal-expansion/satchel/).
 Items can enter and exit a strongbox through any of its sides.
 
 ### Security
-A strongbox can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
+A strongbox can have a [signalum security lock](/docs/thermal-foundation-2/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Enchantments
@@ -91,7 +91,7 @@ strength of between 0 and 15, depending on how full the strongbox is.
 Tiers
 -----
 
-Strongboxes come in six [tiers](/docs/thermal-foundation/tiers/).
+Strongboxes come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

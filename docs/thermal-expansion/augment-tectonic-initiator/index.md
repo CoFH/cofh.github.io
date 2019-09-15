@@ -14,7 +14,7 @@ recipes:
 A **tectonic initiator** is an [augment](/docs/thermal-expansion/augments/) that allows for a
 [pulverizer](/docs/thermal-expansion/pulverizer/) to process
 [ores](/docs/thermal-expansion/pulverizer/#ore-processing) more efficiently using [tectonic
-petrotheum](/docs/thermal-foundation/tectonic-petrotheum/).
+petrotheum](/docs/thermal-foundation-2/tectonic-petrotheum/).
 
 
 Obtaining
@@ -37,7 +37,7 @@ A [pulverizer](/docs/thermal-expansion/pulverizer/) with a tectonic initiator in
 1.5 times as much of the primary product of any
 [ore](/docs/thermal-expansion/pulverizer/#ore-processing) it processes (amounts are rounded down
 when necessary). However, it consumes 100 mB of [tectonic
-petrotheum](/docs/thermal-foundation/tectonic-petrotheum/) per ore to do so, and the amount of
+petrotheum](/docs/thermal-foundation-2/tectonic-petrotheum/) per ore to do so, and the amount of
 energy required per operation is increased by 50%.
 
 An installed tectonic initiator also increases the chances of a pulverizer

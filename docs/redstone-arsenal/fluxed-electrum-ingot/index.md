@@ -40,8 +40,8 @@ usage-recipes:
 ---
 
 **Fluxed electrum ingots** are raw materials made from
-[electrum](/docs/thermal-foundation/electrum-ingot/) and [destabilized
-redstone](/docs/thermal-foundation/destabilized-redstone/).
+[electrum](/docs/thermal-foundation-2/electrum-ingot/) and [destabilized
+redstone](/docs/thermal-foundation-2/destabilized-redstone/).
 
 
 Obtaining

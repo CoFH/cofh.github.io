@@ -57,7 +57,7 @@ An installed filter can be configured by using it. The available options depend
 on whether the filter is installed on an [itemduct](/docs/thermal-dynamics/itemduct/) or on a
 [fluiduct](/docs/thermal-dynamics/fluiduct/).
 
-A filter's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
+A filter's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/) to be
 copied to other filters, [servos](/docs/thermal-dynamics/servos/) or
 [retrievers](/docs/thermal-dynamics/retrievers/).
 
@@ -110,7 +110,7 @@ NBT
 Tiers
 -----
 
-Filters come in five [tiers](/docs/thermal-foundation/tiers/).
+Filters come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

@@ -31,20 +31,20 @@ Arsenal](/docs/redstone-arsenal/).
   server.
 
 #### Thermal Foundation
-* [Excavators](/docs/thermal-foundation/excavators/)
-  * Like [hammers](/docs/thermal-foundation/hammers/), except they're shovels.
+* [Excavators](/docs/thermal-foundation-2/excavators/)
+  * Like [hammers](/docs/thermal-foundation-2/hammers/), except they're shovels.
 * New gear types
-  * [Wood](/docs/thermal-foundation/wooden-gear/),
-    [stone](/docs/thermal-foundation/stone-gear/),
-    [diamond](/docs/thermal-foundation/diamond-gear/) and
-    [emerald](/docs/thermal-foundation/emerald-gear/).
+  * [Wood](/docs/thermal-foundation-2/wooden-gear/),
+    [stone](/docs/thermal-foundation-2/stone-gear/),
+    [diamond](/docs/thermal-foundation-2/diamond-gear/) and
+    [emerald](/docs/thermal-foundation-2/emerald-gear/).
   * These aren't used for anything by default, but they can be used by modpack
     developers.
 * Gear crafting recipes no longer use a center ingot.
 * Increased the amount of dirt that can be crafted using [pulped
-  biomass](/docs/thermal-foundation/pulped-biomass/).
+  biomass](/docs/thermal-foundation-2/pulped-biomass/).
 * Added an example configuration for generating [platinum
-  ore](/docs/thermal-foundation/platinum-ore/) (disabled by default).
+  ore](/docs/thermal-foundation-2/platinum-ore/) (disabled by default).
 
 #### Thermal Expansion
 * [Machines](/docs/thermal-expansion/machines/) no longer abort processing
@@ -58,12 +58,12 @@ Arsenal](/docs/redstone-arsenal/).
 * [Induction smelters](/docs/thermal-expansion/induction-smelter/) can recycle
   iron bars, iron trapdoors, minecarts and rails.
 * [Steam dynamos](/docs/thermal-expansion/steam-dynamo/) can use [pulverized
-  coal](/docs/thermal-foundation/pulverized-coal/) and [pulverized
-  charcoal](/docs/thermal-foundation/pulverized-charcoal/) as fuel.
+  coal](/docs/thermal-foundation-2/pulverized-coal/) and [pulverized
+  charcoal](/docs/thermal-foundation-2/pulverized-charcoal/) as fuel.
 
 #### Redstone Arsenal
 * [Flux-infused excavator](/docs/redstone-arsenal/flux-infused-excavator)
-  * A powerful [excavator](/docs/thermal-foundation/excavators/) powered by
+  * A powerful [excavator](/docs/thermal-foundation-2/excavators/) powered by
     [Redstone Flux](/docs/redstone-flux/).
 * [Fluxed electrum gears](/docs/redstone-arsenal/fluxed-electrum-gear/) no
   longer require a center ingot to craft.

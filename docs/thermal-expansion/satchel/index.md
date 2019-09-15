@@ -89,7 +89,7 @@ crafting grid. The dyes can be removed by placing the satchel in a crafting
 grid.
 
 ### Security
-A satchel can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
+A satchel can have a [signalum security lock](/docs/thermal-foundation-2/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Enchantments
@@ -109,7 +109,7 @@ Types
 -----
 
 There are seven different satchel types, most of which are
-[tiers](/docs/thermal-foundation/tiers/).
+[tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

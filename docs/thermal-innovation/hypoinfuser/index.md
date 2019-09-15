@@ -26,7 +26,7 @@ recipes:
 ---
 
 A **hypoinfuser** (also known as an **injector**) is a tool that stores and
-injects [fluid potions](/docs/thermal-foundation/potion-fluid/).
+injects [fluid potions](/docs/thermal-foundation-2/potion-fluid/).
 
 
 Obtaining
@@ -40,7 +40,7 @@ Usage
 -----
 
 ### Filling and draining
-A hypoinfuser can hold the [fluid form](/docs/thermal-foundation/potion-fluid/) or any regular
+A hypoinfuser can hold the [fluid form](/docs/thermal-foundation-2/potion-fluid/) or any regular
 [potion](https://minecraft.gamepedia.com/Potion). It can be filled and drained
 manually by using it on a block that can hold fluid potions, or automatically
 using a [fluid transposer](/docs/thermal-expansion/fluid-transposer/) or similar. It can also be
@@ -98,7 +98,7 @@ capacity.
 Tiers
 -----
 
-Hypoinfusers come in six [tiers](/docs/thermal-foundation/tiers/).
+Hypoinfusers come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

@@ -14,7 +14,7 @@ recipes:
 A **metallurgical recovery** [augment](/docs/thermal-expansion/augments/) provides a chance for an
 [induction smelter](/docs/thermal-expansion/induction-smelter/) to not consume metallurgical
 fluxes like [sand](https://minecraft.gamepedia.com/Sand) and [rich
-slag](/docs/thermal-foundation/rich-slag/).
+slag](/docs/thermal-foundation-2/rich-slag/).
 
 
 Obtaining
@@ -40,8 +40,8 @@ operation.
 
 Metallurgical fluxes are items that are commonly used in smelter recipes:
 [sand](https://minecraft.gamepedia.com/Sand), [soul
-sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/thermal-foundation/rich-slag/)
-and [cinnabar](/docs/thermal-foundation/cinnabar/).
+sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/thermal-foundation-2/rich-slag/)
+and [cinnabar](/docs/thermal-foundation-2/cinnabar/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

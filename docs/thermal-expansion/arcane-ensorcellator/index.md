@@ -36,8 +36,8 @@ this can be much slower.
 
 ### Upgrading
 An arcane ensorcellator is initially at the lowest [tier](#tiers) (basic). It
-can be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+can be upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -103,11 +103,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 An arcane ensorcellator can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An arcane ensorcellator's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other arcane ensorcellators.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other arcane ensorcellators.
 
 ### Light source
 When an arcane ensorcellator is active, it emits a light level of 12.
@@ -116,7 +116,7 @@ When an arcane ensorcellator is active, it emits a light level of 12.
 Tiers
 -----
 
-Arcane ensorcellators come in five [tiers](/docs/thermal-foundation/tiers/).
+Arcane ensorcellators come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -153,7 +153,7 @@ An arcane ensorcellator can produce [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book) with the following
 [enchantments](https://minecraft.gamepedia.com/Enchantments) by combining
 [books](https://minecraft.gamepedia.com/Books) with certain items and [essence
-of knowledge](/docs/thermal-foundation/essence-of-knowledge/).
+of knowledge](/docs/thermal-foundation-2/essence-of-knowledge/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -201,8 +201,8 @@ of knowledge](/docs/thermal-foundation/essence-of-knowledge/).
 | [Leech I](/docs/cofh-core-4/leech/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 1,500 mB | 12,000 RF |
 | [Soulbound I](/docs/cofh-core-4/soulbound/) | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | 1,500 mB | 12,000 RF |
 | [Multishot I](/docs/cofh-core-4/multishot/) | [Arrow](https://minecraft.gamepedia.com/Arrow) | 3,000 mB | 24,000 RF |
-| [Smashing](/docs/cofh-core-4/smashing/) | [Petrotheum Dust](/docs/thermal-foundation/petrotheum-dust/) | 3,000 mB | 24,000 RF |
-| [Smelting](/docs/cofh-core-4/smelting/) | [Pyrotheum Dust](/docs/thermal-foundation/pyrotheum-dust/) | 3,000 mB | 24,000 RF |
+| [Smashing](/docs/cofh-core-4/smashing/) | [Petrotheum Dust](/docs/thermal-foundation-2/petrotheum-dust/) | 3,000 mB | 24,000 RF |
+| [Smelting](/docs/cofh-core-4/smelting/) | [Pyrotheum Dust](/docs/thermal-foundation-2/pyrotheum-dust/) | 3,000 mB | 24,000 RF |
 | [Vorpal I](/docs/cofh-core-4/vorpal/) | [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) | 5,000 mB | 40,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>

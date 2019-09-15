@@ -151,8 +151,8 @@ this can be much slower.
 
 ### Upgrading
 A pulverizer is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -171,7 +171,7 @@ primary output slot. A secondary output may be produced when processing certain
 items, which is placed in the secondary output slot.
 
 When installed, a [tectonic initiator](/docs/thermal-expansion/augment-tectonic-initiator/) allows
-a pulverizer to consume [tectonic petrotheum](/docs/thermal-foundation/tectonic-petrotheum/), which
+a pulverizer to consume [tectonic petrotheum](/docs/thermal-foundation-2/tectonic-petrotheum/), which
 is stored in an added input tank.
 
 The speed at which a pulverizer processes items depends on how much energy it
@@ -217,11 +217,11 @@ High
 The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
-A pulverizer can have a [signalum security lock](/docs/thermal-foundation/signalum-security-lock/)
+A pulverizer can have a [signalum security lock](/docs/thermal-foundation-2/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Redprints
-A pulverizer's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
+A pulverizer's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/) to be
 copied to other pulverizers.
 
 ### Light source
@@ -231,7 +231,7 @@ When a pulverizer is active, it emits a light level of 4.
 Tiers
 -----
 
-Pulverizers come in five [tiers](/docs/thermal-foundation/tiers/).
+Pulverizers come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

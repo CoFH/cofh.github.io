@@ -57,7 +57,7 @@ An installed retriever can be configured by using it. The available options
 depend on whether the retriever is installed on an [itemduct](/docs/thermal-dynamics/itemduct/)
 or on a [fluiduct](/docs/thermal-dynamics/fluiduct/).
 
-A retriever's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/) to be
+A retriever's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/) to be
 copied to other retrievers, [servos](/docs/thermal-dynamics/servos/) or
 [filters](/docs/thermal-dynamics/filters/).
 
@@ -157,7 +157,7 @@ NBT
 Tiers
 -----
 
-Retrievers come in five [tiers](/docs/thermal-foundation/tiers/).
+Retrievers come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

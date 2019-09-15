@@ -44,8 +44,8 @@ this can be much slower.
 
 ### Upgrading
 A redstone furnace is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -63,7 +63,7 @@ consumed for an item, the input is consumed and the output is placed in the
 output slot.
 
 When installed, [pyrolytic conversion](/docs/thermal-expansion/augment-pyrolytic-conversion/)
-makes a redstone furnace produce [creosote oil](/docs/thermal-foundation/creosote-oil/), which is
+makes a redstone furnace produce [creosote oil](/docs/thermal-foundation-2/creosote-oil/), which is
 placed in an added output tank.
 
 The speed at which a redstone furnace processes items depends on how much energy
@@ -112,10 +112,10 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A redstone furnace can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A redstone furnace's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
+A redstone furnace's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/)
 to be copied to other redstone furnaces.
 
 ### Light source
@@ -125,7 +125,7 @@ When a redstone furnace is active, it emits a light level of 14.
 Tiers
 -----
 
-Redstone furnaces come in five [tiers](/docs/thermal-foundation/tiers/).
+Redstone furnaces come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

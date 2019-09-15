@@ -13,7 +13,7 @@ recipes:
 
 A **decoctive diffuser**, or **diffuser** for short, is a
 [device](/docs/thermal-expansion/devices/) that spreads the effects of [fluid
-potions](/docs/thermal-foundation/potion-fluid/) in an area.
+potions](/docs/thermal-foundation-2/potion-fluid/) in an area.
 
 
 Obtaining
@@ -35,7 +35,7 @@ When placed, a decoctive diffuser faces the player. It can face any of the four
 cardinal directions, and can be rotated using a [wrench](/docs/wrenches/).
 
 ### Operation
-When a [fluid potion](/docs/thermal-foundation/potion-fluid/) is supplied to a
+When a [fluid potion](/docs/thermal-foundation-2/potion-fluid/) is supplied to a
 decoctive diffuser, it will begin applying the potion's
 [effect](https://minecraft.gamepedia.com/Status_effect) to nearby entities in a
 certain area (9x9x9 for [potions](https://minecraft.gamepedia.com/Potion),
@@ -91,8 +91,8 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 A decoctive diffuser can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A decoctive diffuser's configuration can be saved on a
-[redprint](/docs/thermal-foundation/redprint/) to be copied to other diffusers.
+[redprint](/docs/thermal-foundation-2/redprint/) to be copied to other diffusers.

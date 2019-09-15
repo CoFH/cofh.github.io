@@ -14,14 +14,14 @@ Arsenal](/docs/redstone-arsenal/).
   tracker](https://github.com/CoFH/Feedback/issues?q=is%3Aissue+is%3Aclosed+label%3Afixed+sort%3Aupdated-desc)).
 
 #### Thermal Foundation
-* Added [block of charcoal](/docs/thermal-foundation/block-of-charcoal/) and [block of coal
-  coke](/docs/thermal-foundation/block-of-coal-coke/).
-* [Tomes of knowledge](/docs/thermal-foundation/tome-of-knowledge/) now once again take and give
+* Added [block of charcoal](/docs/thermal-foundation-2/block-of-charcoal/) and [block of coal
+  coke](/docs/thermal-foundation-2/block-of-coal-coke/).
+* [Tomes of knowledge](/docs/thermal-foundation-2/tome-of-knowledge/) now once again take and give
   one level of experience at a time when used.
-* [Oil sand](/docs/thermal-foundation/oil-sand/) and [oil shale](/docs/thermal-foundation/oil-shale/) can now be
+* [Oil sand](/docs/thermal-foundation-2/oil-sand/) and [oil shale](/docs/thermal-foundation-2/oil-shale/) can now be
   harvested with a shovel. A pickaxe will still work, though.
 * Fluid ores no longer spill fluids when harvested with Silk Touch.
-* Crafting clay using [slag](/docs/thermal-foundation/slag/) now yields 4 clay instead of 2.
+* Crafting clay using [slag](/docs/thermal-foundation-2/slag/) now yields 4 clay instead of 2.
 
 #### Thermal Expansion
 * [Morbs](/docs/thermal-expansion/morb/)

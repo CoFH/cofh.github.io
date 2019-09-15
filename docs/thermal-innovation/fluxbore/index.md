@@ -125,7 +125,7 @@ energy capacity.
 Tiers
 -----
 
-Fluxbores come in six [tiers](/docs/thermal-foundation/tiers/).
+Fluxbores come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

@@ -77,8 +77,8 @@ this can be much slower.
 
 ### Upgrading
 A fluid transposer is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](/docs/thermal-foundation-2/upgrade-kits/) and
+[conversion kits](/docs/thermal-foundation-2/conversion-kits/).
 
 
 Usage
@@ -148,17 +148,17 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A fluid transposer can have a [signalum security
-lock](/docs/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](/docs/thermal-foundation-2/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A fluid transposer's configuration can be saved on a [redprint](/docs/thermal-foundation/redprint/)
+A fluid transposer's configuration can be saved on a [redprint](/docs/thermal-foundation-2/redprint/)
 to be copied to other transposers.
 
 
 Tiers
 -----
 
-Fluid transposers come in five [tiers](/docs/thermal-foundation/tiers/).
+Fluid transposers come in five [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -195,7 +195,7 @@ Recipes
   [buckets](https://minecraft.gamepedia.com/Bucket) can be filled with 1,000 mB
   of fluid for 400 RF.
 * [Glass bottles](https://minecraft.gamepedia.com/Glass_Bottle) can be filled
-  with [fluid potions](/docs/thermal-foundation/potion-fluid/) (250 mB each) for 800 RF.
+  with [fluid potions](/docs/thermal-foundation-2/potion-fluid/) (250 mB each) for 800 RF.
 * [Tipped arrows](https://minecraft.gamepedia.com/Tipped_arrows) can be made by
   infusing [arrows](https://minecraft.gamepedia.com/Arrow) with 25 mB of a fluid
   [lingering potion](https://minecraft.gamepedia.com/Lingering_Potion) for 400
@@ -206,7 +206,7 @@ Recipes
 ### Emptying
 * 1,000 mB of fluid can be drained from items that hold fluids such as filled
   [buckets](https://minecraft.gamepedia.com/Bucket) for 400 RF.
-* 250 mB of a [fluid potion](/docs/thermal-foundation/potion-fluid/) can be drained from a
+* 250 mB of a [fluid potion](/docs/thermal-foundation-2/potion-fluid/) can be drained from a
   [potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
 
 {% include recipe-table.html type='transposer-te5-empty' recipes=page.recipe-list.empty %}

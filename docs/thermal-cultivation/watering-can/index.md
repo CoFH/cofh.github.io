@@ -90,7 +90,7 @@ capacity.
 Tiers
 -----
 
-Watering cans come in six [tiers](/docs/thermal-foundation/tiers/).
+Watering cans come in six [tiers](/docs/thermal-foundation-2/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

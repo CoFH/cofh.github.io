@@ -14,7 +14,7 @@ Arsenal](/docs/redstone-arsenal/).
   tracker](https://github.com/CoFH/Feedback/issues?q=is%3Aissue+is%3Aclosed+label%3Afixed+sort%3Aupdated-desc)).
 
 #### Thermal Foundation
-* [Tomes of knowledge](/docs/thermal-foundation/tome-of-knowledge/) can be filled with [Industrial
+* [Tomes of knowledge](/docs/thermal-foundation-2/tome-of-knowledge/) can be filled with [Industrial
   Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)'s
   essence, converting it into experience.
 
@@ -32,7 +32,7 @@ Arsenal](/docs/redstone-arsenal/).
     separator](/docs/thermal-expansion/centrifugal-separator/) to "process" filled
     [morbs](/docs/thermal-expansion/morb/).
   * Morbs will provide items and [essence of
-    knowledge](/docs/thermal-foundation/essence-of-knowledge/) from the contained mobs.
+    knowledge](/docs/thermal-foundation-2/essence-of-knowledge/) from the contained mobs.
 * The crafting recipes of [machines](/docs/thermal-expansion/machines/),
   [devices](/docs/thermal-expansion/devices/), [dynamos](/docs/thermal-expansion/dynamos/) and
   [augments](/docs/thermal-expansion/augments/) have been tweaked.

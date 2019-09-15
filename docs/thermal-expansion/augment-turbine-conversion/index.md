@@ -12,7 +12,7 @@ recipes:
 ---
 
 A **turbine conversion** is an [augment](/docs/thermal-expansion/augments/) that changes a [steam
-dynamo](/docs/thermal-expansion/steam-dynamo/) to work on [steam](/docs/thermal-foundation/steam/) supplied from an
+dynamo](/docs/thermal-expansion/steam-dynamo/) to work on [steam](/docs/thermal-foundation-2/steam/) supplied from an
 external source.
 
 
@@ -33,7 +33,7 @@ installed together with other specialization augments.
 
 ### Effects
 A [steam dynamo](/docs/thermal-expansion/steam-dynamo/) with a turbine conversion installed
-generates [Redstone Flux](/docs/redstone-flux/) using [steam](/docs/thermal-foundation/steam/)
+generates [Redstone Flux](/docs/redstone-flux/) using [steam](/docs/thermal-foundation-2/steam/)
 instead of [water](https://minecraft.gamepedia.com/Water) and solid fuel. It
 generates 2 RF of energy per mB of steam, regardless of other installed
 [augments](/docs/thermal-expansion/augments/).
