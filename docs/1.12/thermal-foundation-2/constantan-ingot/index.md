@@ -94,7 +94,7 @@ smelter](/docs/1.12/thermal-expansion-5/induction-smelter/).
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='smelter-te5' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -104,16 +104,16 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='compactor-te5' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='compactor-te5-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='compactor-te5-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

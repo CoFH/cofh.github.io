@@ -59,16 +59,16 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='crucible-te5' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Centrifugal Separator ingredient
-{% include recipe-table.html type='centrifuge-te5' recipes=page.usage-recipes.centrifuge %}
+{% include recipe-table.html type='te5-centrifuge' recipes=page.usage-recipes.centrifuge %}
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [blazing pyrotheum](/docs/1.12/thermal-foundation-2/blazing-pyrotheum/)

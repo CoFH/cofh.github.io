@@ -34,7 +34,7 @@ conversion](/docs/1.12/thermal-expansion-5/augment-boiler-conversion/) installed
 [Redstone Flux](/docs/redstone-flux/).
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -43,7 +43,7 @@ Usage
 Steam cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Steam Dynamo with Turbine Conversion
 A [steam dynamo](/docs/1.12/thermal-expansion-5/steam-dynamo/) with a [turbine

@@ -147,4 +147,4 @@ Augments can be installed in the Augmentation tab in a compactor's GUI.
 Recipes
 -------
 
-{% include recipe-table.html type='compactor-te5' recipes=page.recipe-list %}
+{% include recipe-table.html type='te5-compactor' recipes=page.recipe-list %}

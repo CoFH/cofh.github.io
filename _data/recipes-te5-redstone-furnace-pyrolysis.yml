@@ -1,0 +1,120 @@
+name: Pyrolytic Conversion
+site: te5-docs
+url: augment-pyrolytic-conversion/
+with-energy: true
+recipes:
+  charcoal-from-cactus:
+    results:
+      - item: mc-charcoal
+      - fluid: tf2-creosote-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-cactus
+    energy: 2000
+    data:
+      input:
+        item: [mc-cactus]
+        amount: 4
+      output:
+        item: [mc-charcoal]
+      fluid-output:
+        fluid: tf2-creosote-oil
+        amount: 50
+  charcoal-from-hay-bale:
+    results:
+      - item: mc-charcoal
+      - fluid: tf2-creosote-oil
+        fluid-amount: 100
+    ingredients:
+      - item: mc-hay-bale
+    energy: 2000
+    data:
+      input:
+        item: [mc-hay-bale]
+      output:
+        item: [mc-charcoal]
+      fluid-output:
+        fluid: tf2-creosote-oil
+        amount: 100
+  charcoal-from-sawdust:
+    results:
+      - item: mc-charcoal
+      - fluid: tf2-creosote-oil
+        fluid-amount: 50
+    ingredients:
+      - item: tf2-sawdust-compressed
+    energy: 1000
+    data:
+      input:
+        item: [tf2-sawdust-compressed]
+      output:
+        item: [mc-charcoal]
+      fluid-output:
+        fluid: tf2-creosote-oil
+        amount: 50
+  charcoal-from-sugar-canes:
+    results:
+      - item: mc-charcoal
+      - fluid: tf2-creosote-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-sugar-canes
+    energy: 1000
+    data:
+      input:
+        item: [mc-sugar-canes]
+        amount: 8
+      output:
+        item: [mc-charcoal]
+      fluid-output:
+        fluid: tf2-creosote-oil
+        amount: 50
+  charcoal-from-wood-log:
+    results:
+      - item: mc-charcoal
+      - fluid: tf2-creosote-oil
+        fluid-amount: 100
+    ingredients:
+      - item-group: mc-wood-log
+    energy: 1000
+    data:
+      input:
+        random: true
+        item-group: mc-wood-log
+      output:
+        item: [mc-charcoal]
+      fluid-output:
+        fluid: tf2-creosote-oil
+        amount: 100
+  coal-coke:
+    results:
+      - item: tf2-coal-coke
+      - fluid: tf2-creosote-oil
+        fluid-amount: 250
+    ingredients:
+      - item: mc-coal
+    energy: 2000
+    data:
+      input:
+        item: [mc-coal]
+      output:
+        item: [tf2-coal-coke]
+      fluid-output:
+        fluid: tf2-creosote-oil
+        amount: 250
+  storage-block-coal-coke:
+    results:
+      - item: tf2-storage-block-coal-coke
+      - fluid: tf2-creosote-oil
+        fluid-amount: 2500
+    ingredients:
+      - item: mc-storage-block-coal
+    energy: 16000
+    data:
+      input:
+        item: [mc-storage-block-coal]
+      output:
+        item: [tf2-storage-block-coal-coke]
+      fluid-output:
+        fluid: tf2-creosote-oil
+        amount: 2500

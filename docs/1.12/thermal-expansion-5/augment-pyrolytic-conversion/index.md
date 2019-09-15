@@ -65,4 +65,4 @@ are added together before being applied to the amount of energy.
 Recipes
 -------
 
-{% include recipe-table.html type='redstone-furnace-te5-pyrolysis' recipes=page.recipe-list %}
+{% include recipe-table.html type='te5-redstone-furnace-pyrolysis' recipes=page.recipe-list %}

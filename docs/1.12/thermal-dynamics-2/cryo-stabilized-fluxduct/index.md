@@ -26,7 +26,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill %}
 
 
 Usage

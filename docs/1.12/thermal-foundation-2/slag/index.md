@@ -89,7 +89,7 @@ Obtaining
 ---------
 
 ### Induction Smelter
-{% include recipe-table.html type='smelter-te5' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage

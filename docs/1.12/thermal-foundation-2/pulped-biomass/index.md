@@ -40,7 +40,7 @@ Obtaining
 ---------
 
 ### Sawmill
-{% include recipe-table.html type='sawmill-te5' recipes=page.recipes.sawmill no-result=true %}
+{% include recipe-table.html type='te5-sawmill' recipes=page.recipes.sawmill no-result=true %}
 
 
 Usage
@@ -50,7 +50,7 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='crucible-te5' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

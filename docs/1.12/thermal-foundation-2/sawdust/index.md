@@ -63,10 +63,10 @@ Obtaining
 ---------
 
 ### Sawmill
-{% include recipe-table.html type='sawmill-te5' recipes=page.recipes.sawmill no-result=true %}
+{% include recipe-table.html type='te5-sawmill' recipes=page.recipes.sawmill no-result=true %}
 
 ### Pulverizer
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage

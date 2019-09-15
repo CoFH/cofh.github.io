@@ -27,7 +27,7 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 ### Arboreal Extractor
 An [arboreal extractor](/docs/1.12/thermal-expansion-5/arboreal-extractor/) will produce mushroom stew
@@ -41,4 +41,4 @@ Usage
 Mushroom stew cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

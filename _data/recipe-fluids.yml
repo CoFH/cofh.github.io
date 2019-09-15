@@ -8,93 +8,93 @@ mc-water:
   url: Water
 tf2-aerotheum:
   name: Zephyrean Aerotheum
-  site: docs-tf2
+  site: tf2-docs
   url: zephyrean-aerotheum/
 tf2-biocrude:
   name: Biocrude
-  site: docs-tf2
+  site: tf2-docs
   url: biocrude/
 tf2-coal:
   name: Liquifacted Coal
-  site: docs-tf2
+  site: tf2-docs
   url: liquifacted-coal/
 tf2-creosote-oil:
   name: Creosote Oil
-  site: docs-tf2
+  site: tf2-docs
   url: creosote-oil/
 tf2-crude-oil:
   name: Crude Oil
-  site: docs-tf2
+  site: tf2-docs
   url: crude-oil/
 tf2-cryotheum:
   name: Gelid Cryotheum
-  site: docs-tf2
+  site: tf2-docs
   url: gelid-cryotheum/
 tf2-ender:
   name: Resonant Ender
-  site: docs-tf2
+  site: tf2-docs
   url: resonant-ender/
 tf2-experience:
   name: Essence of Knowledge
-  site: docs-tf2
+  site: tf2-docs
   url: essence-of-knowledge/
 tf2-glowstone:
   name: Energized Glowstone
-  site: docs-tf2
+  site: tf2-docs
   url: energized-glowstone/
 tf2-grassoline:
   name: Grassoline
-  site: docs-tf2
+  site: tf2-docs
   url: grassoline/
 tf2-mana:
   name: Primal Mana
-  site: docs-tf2
+  site: tf2-docs
   url: primal-mana/
 tf2-mushroom-stew:
   name: Mushroom Stew
-  site: docs-tf2
+  site: tf2-docs
   url: mushroom-stew/
 tf2-naphtha:
   name: Naphtha
-  site: docs-tf2
+  site: tf2-docs
   url: naphtha/
 tf2-petrotheum:
   name: Tectonic Petrotheum
-  site: docs-tf2
+  site: tf2-docs
   url: tectonic-petrotheum/
 tf2-pyrotheum:
   name: Blazing Pyrotheum
-  site: docs-tf2
+  site: tf2-docs
   url: blazing-pyrotheum/
 tf2-redstone:
   name: Destabilized Redstone
-  site: docs-tf2
+  site: tf2-docs
   url: destabilized-redstone/
 tf2-refined-fuel:
   name: Refined Fuel
-  site: docs-tf2
+  site: tf2-docs
   url: refined-fuel/
 tf2-resin:
   name: Resin
-  site: docs-tf2
+  site: tf2-docs
   url: resin/
 tf2-sap:
   name: Sap
-  site: docs-tf2
+  site: tf2-docs
   url: sap/
 tf2-seed-oil:
   name: Seed Oil
-  site: docs-tf2
+  site: tf2-docs
   url: seed-oil/
 tf2-steam:
   name: Steam
-  site: docs-tf2
+  site: tf2-docs
   url: steam/
 tf2-syrup:
   name: Syrup
-  site: docs-tf2
+  site: tf2-docs
   url: syrup/
 tf2-tree-oil:
   name: Tree Oil
-  site: docs-tf2
+  site: tf2-docs
   url: tree-oil/

@@ -40,13 +40,13 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
 When [lead ore](/docs/1.12/thermal-foundation-2/lead-ore/) is broken using a
@@ -65,4 +65,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}

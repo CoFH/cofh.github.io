@@ -41,13 +41,13 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='crucible-te5' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='te5-crucible' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge %}
+{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge %}
 
 
 Usage
@@ -74,7 +74,7 @@ used in these recipes.
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 
 Trivia

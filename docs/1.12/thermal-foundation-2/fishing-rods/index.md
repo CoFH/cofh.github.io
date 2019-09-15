@@ -105,7 +105,7 @@ luckModifier = round(mat.harvestLevel / 2)
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}

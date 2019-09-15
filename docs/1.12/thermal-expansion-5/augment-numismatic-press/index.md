@@ -43,4 +43,4 @@ metal plates.
 Recipes
 -------
 
-{% include recipe-table.html type='compactor-te5-coin' recipes=page.recipe-list %}
+{% include recipe-table.html type='te5-compactor-coin' recipes=page.recipe-list %}

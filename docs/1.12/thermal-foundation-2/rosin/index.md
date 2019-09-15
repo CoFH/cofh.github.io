@@ -34,7 +34,7 @@ Obtaining
 ---------
 
 ### Fractionating Still
-{% include recipe-table.html type='refinery-te5' recipes=page.recipes.refinery no-result=true %}
+{% include recipe-table.html type='te5-refinery' recipes=page.recipes.refinery no-result=true %}
 
 
 Usage

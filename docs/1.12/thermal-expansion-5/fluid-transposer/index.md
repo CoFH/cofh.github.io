@@ -203,7 +203,7 @@ Recipes
   [lingering potion](https://minecraft.gamepedia.com/Lingering_Potion) for 400
   RF.
 
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.recipe-list.fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipe-list.fill %}
 
 ### Emptying
 * 1,000 mB of fluid can be drained from items that hold fluids such as filled
@@ -211,4 +211,4 @@ Recipes
 * 250 mB of a [fluid potion](/docs/1.12/thermal-foundation-2/potion-fluid/) can be drained from a
   [potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
 
-{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipe-list.empty %}
+{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipe-list.empty %}

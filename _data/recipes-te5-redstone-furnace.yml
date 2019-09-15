@@ -1,0 +1,102 @@
+name: Redstone Furnace
+site: te5-docs
+url: redstone-furnace/
+with-energy: true
+recipes:
+  cactus-green:
+    results:
+      - item: mc-cactus-green
+    ingredients:
+      - item: mc-cactus
+    energy: 1000
+    data:
+      input:
+        item: [mc-cactus]
+      output:
+        item: [mc-cactus-green]
+  food:
+    results:
+      - item-group: mc-food-cooked
+    ingredients:
+      - item-group: mc-food-raw
+    energy: 1000
+    data:
+      input:
+        item-group: mc-food-raw
+      output:
+        item-group: mc-food-cooked
+  ingot-from-dust:
+    results:
+      - html: 'Metal Ingot'
+    ingredients:
+      - html: '<a href="https://minecraft.gamepedia.com/Smelting">Smeltable</a> Metal Dust'
+    energy: 1500
+    data:
+      input:
+        item:
+          - tf2-dust-iron
+          - tf2-dust-gold
+          - tf2-dust-copper
+          - tf2-dust-tin
+          - tf2-dust-silver
+          - tf2-dust-lead
+          - tf2-dust-nickel
+          - tf2-dust-platinum
+          - tf2-dust-iridium
+          - tf2-dust-mithril
+          - tf2-dust-electrum
+          - tf2-dust-invar
+          - tf2-dust-bronze
+          - tf2-dust-constantan
+      output:
+        item:
+          - mc-ingot-iron
+          - mc-ingot-gold
+          - tf2-ingot-copper
+          - tf2-ingot-tin
+          - tf2-ingot-silver
+          - tf2-ingot-lead
+          - tf2-ingot-nickel
+          - tf2-ingot-platinum
+          - tf2-ingot-iridium
+          - tf2-ingot-mithril
+          - tf2-ingot-electrum
+          - tf2-ingot-invar
+          - tf2-ingot-bronze
+          - tf2-ingot-constantan
+  leather:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-rotten-flesh
+    energy: 4000
+    data:
+      input:
+        item: [mc-rotten-flesh]
+        amount: 4
+      output:
+        item: [mc-leather]
+  ore-processing-lapis-lazuli:
+    results:
+      - item: mc-lapis-lazuli
+    ingredients:
+      - item: mc-ore-lapis-lazuli
+    energy: 2000
+    data:
+      input:
+        item: [mc-ore-lapis-lazuli]
+      output:
+        item: [mc-lapis-lazuli]
+        amount: 4
+  ore-processing-redstone:
+    results:
+      - item: mc-redstone
+    ingredients:
+      - item: mc-ore-redstone
+    energy: 2000
+    data:
+      input:
+        item: [mc-ore-redstone]
+      output:
+        item: [mc-redstone]
+        amount: 4

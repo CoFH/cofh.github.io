@@ -266,16 +266,16 @@ Recipes
 -------
 
 ### Blocks
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.blocks %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.blocks %}
 
 ### Items
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.items %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.items %}
 
 ### Ore processing
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.ore-processing %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.ore-processing %}
 
 ### Flower processing
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.flower-processing %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.flower-processing %}
 
 ### Recycling
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipe-list.recycling %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.recycling %}

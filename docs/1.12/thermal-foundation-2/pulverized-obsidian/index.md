@@ -36,14 +36,14 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Basalzes
 A [basalz](/docs/1.12/thermal-foundation-2/basalz/) may drop up to two pieces of pulverized obsidian when
 killed by a player.
 
 ### Centrifugal Separator
-{% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 
 Usage
@@ -59,7 +59,7 @@ potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
 of resistance](/docs/1.12/cofh-core-4/potions/).
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

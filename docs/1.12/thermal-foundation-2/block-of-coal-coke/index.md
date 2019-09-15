@@ -31,7 +31,7 @@ pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better.
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Redstone Furnace with Pyrolytic Conversion
-{% include recipe-table.html type='redstone-furnace-te5-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
+{% include recipe-table.html type='te5-redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
 
 
 Usage

@@ -40,7 +40,7 @@ a byproduct when processing oak or dark oak
 sap as oak wood.
 
 ### Fluid Transposer
-{% include recipe-table.html type='transposer-te5-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -49,4 +49,4 @@ Usage
 Sap cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

@@ -165,4 +165,4 @@ performed in a redstone furnace for 2,000 RF.
 Redstone furnaces have some recipes of their own, some of which replace regular
 smelting recipes. The following table lists these recipes.
 
-{% include recipe-table.html type='redstone-furnace-te5' recipes=page.recipe-list %}
+{% include recipe-table.html type='te5-redstone-furnace' recipes=page.recipe-list %}

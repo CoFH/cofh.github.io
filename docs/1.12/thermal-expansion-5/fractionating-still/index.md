@@ -147,4 +147,4 @@ Augments can be installed in the Augmentation tab in a still's GUI.
 Recipes
 -------
 
-{% include recipe-table.html type='refinery-te5' recipes=page.recipe-list %}
+{% include recipe-table.html type='te5-refinery' recipes=page.recipe-list %}

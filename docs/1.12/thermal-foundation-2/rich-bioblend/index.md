@@ -27,11 +27,11 @@ Obtaining
 ---------
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.recipes.transposer-fill no-result=true %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
 
 
 Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='crucible-te5' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}

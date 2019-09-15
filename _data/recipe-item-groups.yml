@@ -414,7 +414,7 @@ tf2-gear-metal:
     - tf2-gear-enderium
 tf2-hardened-glass:
   name: Hardened Glass
-  site: docs-tf2
+  site: tf2-docs
   url: hardened-glass/
   items:
     - tf2-hardened-glass
@@ -435,7 +435,7 @@ tf2-hardened-glass:
     - tf2-hardened-glass-enderium
 tf2-pigment:
   name: Pigment
-  site: docs-tf2
+  site: tf2-docs
   url: pigments/
   prefix:
     ingredient: 'any'
@@ -482,7 +482,7 @@ tf2-plate-metal:
     - tf2-plate-enderium
 tf2-rockwool:
   name: Rockwool
-  site: docs-tf2
+  site: tf2-docs
   url: rockwool/
   prefix:
     ingredient: 'any color'
@@ -768,7 +768,7 @@ tool-axe-metal-with-tf2:
     - tf2-tool-axe-constantan
 tool-excavator-metal-with-tf2:
   name: Metal Excavator
-  site: docs-tf2
+  site: tf2-docs
   url: excavators/
   prefix:
     ingredient: 'any'
@@ -789,7 +789,7 @@ tool-excavator-metal-with-tf2:
     - tf2-tool-excavator-constantan
 tool-fishing-rod-metal-with-tf2:
   name: Metal Fishing Rod
-  site: docs-tf2
+  site: tf2-docs
   url: fishing-rods/
   prefix:
     ingredient: 'any'
@@ -810,7 +810,7 @@ tool-fishing-rod-metal-with-tf2:
     - tf2-tool-fishing-rod-constantan
 tool-hammer-metal-with-tf2:
   name: Metal Hammer
-  site: docs-tf2
+  site: tf2-docs
   url: hammers/
   prefix:
     ingredient: 'any'
@@ -873,7 +873,7 @@ tool-pickaxe-metal-with-tf2:
     - tf2-tool-pickaxe-constantan
 tool-shears-metal-with-tf2:
   name: Metal Shears
-  site: docs-tf2
+  site: tf2-docs
   url: shears/
   prefix:
     ingredient: 'any'
@@ -915,7 +915,7 @@ tool-shovel-metal-with-tf2:
     - tf2-tool-shovel-constantan
 tool-sickle-metal-with-tf2:
   name: Metal Sickle
-  site: docs-tf2
+  site: tf2-docs
   url: sickles/
   prefix:
     ingredient: 'any'
@@ -936,7 +936,7 @@ tool-sickle-metal-with-tf2:
     - tf2-tool-sickle-constantan
 weapon-bow-metal-with-tf2:
   name: Metal Reinforced Bow
-  site: docs-tf2
+  site: tf2-docs
   url: reinforced-bows/
   prefix:
     ingredient: 'any'
@@ -957,7 +957,7 @@ weapon-bow-metal-with-tf2:
     - tf2-weapon-bow-constantan
 weapon-shield-metal-with-tf2:
   name: Metal Shield
-  site: docs-tf2
+  site: tf2-docs
   url: shields/
   prefix:
     ingredient: 'any'

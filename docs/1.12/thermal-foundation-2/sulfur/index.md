@@ -44,20 +44,20 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='smelter-te5' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
 
 ### Fractionating Still
-{% include recipe-table.html type='refinery-te5' recipes=page.recipes.refinery no-result=true %}
+{% include recipe-table.html type='te5-refinery' recipes=page.recipes.refinery no-result=true %}
 
 ### Mobs
 Mobs that are immune to fire have a chance to drop sulfur on death. This mostly
 includes mobs from the [Nether](https://minecraft.gamepedia.com/The_Nether).
 
 ### Centrifugal Separator
-{% include recipe-table.html type='centrifuge-te5' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 
 Usage
@@ -67,4 +67,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

@@ -118,7 +118,7 @@ Sickles can be enchanted with the following
 * [Soulbound](/docs/1.12/cofh-core-4/soulbound/)
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='smelter-te5' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}

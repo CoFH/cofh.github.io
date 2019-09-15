@@ -184,4 +184,4 @@ Augments can be installed in the Augmentation tab in a crucible's GUI.
 Recipes
 -------
 
-{% include recipe-table.html type='crucible-te5' recipes=page.recipe-list %}
+{% include recipe-table.html type='te5-crucible' recipes=page.recipe-list %}

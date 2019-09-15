@@ -30,7 +30,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='compactor-te5-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage

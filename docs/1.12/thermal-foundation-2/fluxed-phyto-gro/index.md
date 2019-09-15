@@ -46,7 +46,7 @@ Obtaining
 ---------
 
 ### Energetic Infuser
-{% include recipe-table.html type='charger-te5' recipes=page.recipes.charger no-result=true %}
+{% include recipe-table.html type='te5-charger' recipes=page.recipes.charger no-result=true %}
 
 
 Usage
@@ -60,10 +60,10 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 7x7 area.
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Phytogenic Insolator ingredient
-{% include recipe-table.html type='insolator-te5' recipes=page.usage-recipes.insolator %}
+{% include recipe-table.html type='te5-insolator' recipes=page.usage-recipes.insolator %}
 
 ### Phytogenic Insolator with Sapling Infuser ingredient
-{% include recipe-table.html type='insolator-te5-tree' recipes=page.usage-recipes.insolator-tree %}
+{% include recipe-table.html type='te5-insolator-tree' recipes=page.usage-recipes.insolator-tree %}
 
 ### Arboreal Extractor
 When fluxed Phyto-Gro is used in an [arboreal

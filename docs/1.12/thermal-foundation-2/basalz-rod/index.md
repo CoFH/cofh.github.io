@@ -33,7 +33,7 @@ Obtaining
 A [basalz](/docs/1.12/thermal-foundation-2/basalz/) may drop a basalz rod when killed by a player.
 
 ### Compactor
-{% include recipe-table.html type='compactor-te5' recipes=page.recipes.compactor no-result=true %}
+{% include recipe-table.html type='te5-compactor' recipes=page.recipes.compactor no-result=true %}
 
 
 Usage
@@ -43,4 +43,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='pulverizer-te5' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}

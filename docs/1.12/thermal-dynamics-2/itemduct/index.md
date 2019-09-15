@@ -77,7 +77,7 @@ through, and [retrievers](/docs/1.12/thermal-dynamics-2/retrievers/) allow them 
 themselves from other blocks connected to the network.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

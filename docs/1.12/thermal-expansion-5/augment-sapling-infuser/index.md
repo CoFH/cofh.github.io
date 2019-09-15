@@ -46,4 +46,4 @@ An installed sapling infuser adds some extra [recipes](#recipes) to a
 Recipes
 -------
 
-{% include recipe-table.html type='insolator-te5-tree' recipes=page.recipe-list %}
+{% include recipe-table.html type='te5-insolator-tree' recipes=page.recipe-list %}
