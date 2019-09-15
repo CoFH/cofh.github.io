@@ -17,7 +17,7 @@ usage-recipes:
   - bucket-pyrotheum
 ---
 
-![Blazing pyrotheum](/assets/images/thermal-foundation/blazing-pyrotheum.gif){:style="height: 128px"}
+![Blazing pyrotheum](/assets/images/thermal-foundation-2/blazing-pyrotheum.gif){:style="height: 128px"}
 
 > This is actually worse than lava. You monster.
 

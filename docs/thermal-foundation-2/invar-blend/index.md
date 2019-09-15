@@ -22,7 +22,7 @@ usage-recipes:
   - dust-invar
 ---
 
-![Invar blend](/assets/images/thermal-foundation/dust-invar.png){:style="height: 128px"}
+![Invar blend](/assets/images/thermal-foundation-2/dust-invar.png){:style="height: 128px"}
 
 
 **Invar blend** is a raw material. It is the dust form of

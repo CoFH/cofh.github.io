@@ -72,7 +72,7 @@ usage-recipes:
   - gear-aluminum
 ---
 
-![Aluminum ingot](/assets/images/thermal-foundation/ingot-aluminum.png){:style="height: 128px"}
+![Aluminum ingot](/assets/images/thermal-foundation-2/ingot-aluminum.png){:style="height: 128px"}
 
 
 **Aluminum ingots** are raw materials obtained from [aluminum

@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-expansion/insightful-condenser/
 image:
 - alt: Insightful condenser
-  file: thermal-expansion/insightful-condenser.png
+  file: thermal-expansion-5/insightful-condenser.png
 recipes:
   crafting:
   - te5-device-xp-collector

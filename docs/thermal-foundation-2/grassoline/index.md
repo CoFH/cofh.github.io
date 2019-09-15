@@ -3,7 +3,7 @@ title: Grassoline
 nav: thermal-foundation-2
 image:
 - alt: Grassoline
-  file: thermal-foundation/grassoline.gif
+  file: thermal-foundation-2/grassoline.gif
 recipes:
   refinery:
   - grassoline

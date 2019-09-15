@@ -3,7 +3,7 @@ title: 'Augment: Pyro-Concentrator'
 nav: thermal-expansion-5
 image:
 - alt: Pyro-concentrator augment
-  file: thermal-expansion/augment-machine-smelter-pyrotheum.gif
+  file: thermal-expansion-5/augment-machine-smelter-pyrotheum.gif
 redirect_from:
 - /docs/augment-pyro-concentrator/
 - /docs/thermal-expansion/augment-pyro-concentrator/

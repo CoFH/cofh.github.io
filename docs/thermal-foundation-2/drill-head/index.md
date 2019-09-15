@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-foundation/drill-head/
 image:
 - alt: Drill head
-  file: thermal-foundation/drill-head.png
+  file: thermal-foundation-2/drill-head.png
 recipes:
   crafting:
   - tf2-drill-head

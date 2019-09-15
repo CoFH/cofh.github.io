@@ -77,8 +77,8 @@ usage-recipes:
   - tc-watering-can-reinforced
 ---
 
-![Hardened glass](/assets/images/thermal-foundation/hardened-glass.png){:style="height: 96px"}
-![Hardened glass variants](/assets/images/thermal-foundation/hardened-glass-variants.gif){:style="height: 96px"}
+![Hardened glass](/assets/images/thermal-foundation-2/hardened-glass.png){:style="height: 96px"}
+![Hardened glass variants](/assets/images/thermal-foundation-2/hardened-glass-variants.gif){:style="height: 96px"}
 
 
 **Hardened glass** is a hard to break and explosion resistant version of

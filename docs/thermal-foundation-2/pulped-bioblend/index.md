@@ -3,7 +3,7 @@ title: Pulped Bioblend
 nav: thermal-foundation-2
 image:
 - alt: Pulped bioblend
-  file: thermal-foundation/bioblend.png
+  file: thermal-foundation-2/bioblend.png
 recipes:
   crafting:
   - tf2-bioblend

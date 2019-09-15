@@ -18,7 +18,7 @@ usage-recipes:
   - ingot-steel-from-ingot-iron-and-dust-charcoal
 ---
 
-![Pulverized charcoal](/assets/images/thermal-foundation/dust-charcoal.png){:style="height: 128px"}
+![Pulverized charcoal](/assets/images/thermal-foundation-2/dust-charcoal.png){:style="height: 128px"}
 
 
 **Pulverized charcoal** is a raw material. It is the dust form of

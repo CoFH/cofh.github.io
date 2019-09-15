@@ -3,9 +3,9 @@ title: Oil Sand
 nav: thermal-foundation-2
 image:
 - alt: Oil sand
-  file: thermal-foundation/ore-fluid-crude-oil-sand.png
+  file: thermal-foundation-2/ore-fluid-crude-oil-sand.png
 - alt: Oil sand
-  file: thermal-foundation/ore-fluid-crude-oil-red-sand.png
+  file: thermal-foundation-2/ore-fluid-crude-oil-red-sand.png
 redirect_from:
 - /docs/thermal-foundation/ores/oil-sand/
 - /docs/thermal-foundation/world/fluid-ores/oil-sand/

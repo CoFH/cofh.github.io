@@ -3,13 +3,13 @@ title: Conversion Kits
 nav: thermal-foundation-2
 image:
 - alt: Reinforced conversion kit
-  file: thermal-foundation/conversion-kit-reinforced.png
+  file: thermal-foundation-2/conversion-kit-reinforced.png
 - alt: Signalum conversion kit
-  file: thermal-foundation/conversion-kit-signalum.png
+  file: thermal-foundation-2/conversion-kit-signalum.png
 - alt: Resonant conversion kit
-  file: thermal-foundation/conversion-kit-resonant.png
+  file: thermal-foundation-2/conversion-kit-resonant.png
 - alt: Creative conversion kit
-  file: thermal-foundation/conversion-kit-creative.png
+  file: thermal-foundation-2/conversion-kit-creative.png
 redirect_from:
 - /docs/thermal-expansion/tiers-and-augments/conversion-kits/
 - /docs/thermal-expansion/tiers/conversion-kits/

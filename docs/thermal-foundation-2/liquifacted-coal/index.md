@@ -19,7 +19,7 @@ usage-recipes:
   - naphtha-from-coal
 ---
 
-![Liquifacted coal](/assets/images/thermal-foundation/liquifacted-coal.gif){:style="height: 128px"}
+![Liquifacted coal](/assets/images/thermal-foundation-2/liquifacted-coal.gif){:style="height: 128px"}
 
 > Liquifaction is salvation!
 

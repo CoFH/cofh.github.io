@@ -3,7 +3,7 @@ title: 'Augment: Metallurgical Recovery'
 nav: thermal-expansion-5
 image:
 - alt: Metallurgical recovery augment
-  file: thermal-expansion/augment-machine-smelter-flux.png
+  file: thermal-expansion-5/augment-machine-smelter-flux.png
 redirect_from:
 - /docs/augment-metallurgical-recovery/
 - /docs/thermal-expansion/augment-metallurgical-recovery/

@@ -55,7 +55,7 @@ recipe-list:
   - mushroom-stew
 ---
 
-![Fluid transposer](/assets/images/thermal-expansion/fluid-transposer.png){:style="height: 128px"}
+![Fluid transposer](/assets/images/thermal-expansion-5/fluid-transposer.png){:style="height: 128px"}
 
 > Filling buckets by hand is hard work.
 

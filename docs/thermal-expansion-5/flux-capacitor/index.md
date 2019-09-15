@@ -3,17 +3,17 @@ title: Flux Capacitor
 nav: thermal-expansion-5
 image:
 - alt: Flux capacitor (Basic)
-  file: thermal-expansion/flux-capacitor-basic.png
+  file: thermal-expansion-5/flux-capacitor-basic.png
 - alt: Flux capacitor (Hardened)
-  file: thermal-expansion/flux-capacitor-hardened.png
+  file: thermal-expansion-5/flux-capacitor-hardened.png
 - alt: Flux capacitor (Reinforced)
-  file: thermal-expansion/flux-capacitor-reinforced.png
+  file: thermal-expansion-5/flux-capacitor-reinforced.png
 - alt: Flux capacitor (Signalum)
-  file: thermal-expansion/flux-capacitor-signalum.png
+  file: thermal-expansion-5/flux-capacitor-signalum.png
 - alt: Flux capacitor (Resonant)
-  file: thermal-expansion/flux-capacitor-resonant.png
+  file: thermal-expansion-5/flux-capacitor-resonant.png
 - alt: Flux capacitor (Creative)
-  file: thermal-expansion/flux-capacitor-creative.png
+  file: thermal-expansion-5/flux-capacitor-creative.png
 redirect_from:
 - /docs/thermal-expansion/storage/flux-capacitors/
 - /docs/thermal-expansion/storage/flux-capacitor/

@@ -3,7 +3,7 @@ title: Sequential Fabricator
 nav: thermal-expansion-5
 image:
 - alt: Sequential fabricator
-  file: thermal-expansion/sequential-fabricator.png
+  file: thermal-expansion-5/sequential-fabricator.png
 redirect_from:
 - /thermal-expansion/machines/cyclic-assembler/
 - /docs/thermal-expansion/machines/cyclic-assembler/

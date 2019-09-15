@@ -84,7 +84,7 @@ usage-recipes:
   - gear-silver
 ---
 
-![Silver ingot](/assets/images/thermal-foundation/ingot-silver.png){:style="height: 128px"}
+![Silver ingot](/assets/images/thermal-foundation-2/ingot-silver.png){:style="height: 128px"}
 
 
 **Silver ingots** are raw materials obtained from [silver

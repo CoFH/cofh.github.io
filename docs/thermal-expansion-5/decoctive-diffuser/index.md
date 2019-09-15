@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-expansion/decoctive-diffuser/
 image:
 - alt: Decoctive diffuser
-  file: thermal-expansion/decoctive-diffuser.png
+  file: thermal-expansion-5/decoctive-diffuser.png
 recipes:
   crafting:
   - te5-device-diffuser

@@ -2,11 +2,11 @@
 title: Wrenches
 image:
   - alt: Crescent hammer
-    file: thermal-foundation/crescent-hammer.png
+    file: thermal-foundation-2/crescent-hammer.png
   - alt: Flux-infused omniwrench
-    file: redstone-arsenal/flux-infused-omniwrench.png
+    file: redstone-arsenal-2/flux-infused-omniwrench.png
   - alt: Flux-infused battlewrench
-    file: redstone-arsenal/flux-infused-battlewrench.png
+    file: redstone-arsenal-2/flux-infused-battlewrench.png
 ---
 
 **Wrenches** are tools that can be used to configure, rotate or dismantle

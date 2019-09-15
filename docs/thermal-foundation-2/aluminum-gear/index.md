@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-gear-aluminum
 ---
 
-![Aluminum gear](/assets/images/thermal-foundation/gear-aluminum.png){:style="height: 128px"}
+![Aluminum gear](/assets/images/thermal-foundation-2/gear-aluminum.png){:style="height: 128px"}
 
 
 **Aluminum gears** are crafting materials made of

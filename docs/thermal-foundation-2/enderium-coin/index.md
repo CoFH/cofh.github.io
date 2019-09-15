@@ -10,7 +10,7 @@ recipes:
   - coin-enderium
 ---
 
-![Enderium coin](/assets/images/thermal-foundation/coin-enderium.png){:style="height: 128px"}
+![Enderium coin](/assets/images/thermal-foundation-2/coin-enderium.png){:style="height: 128px"}
 
 
 **Enderium coins** are materials made of [enderium](/docs/thermal-foundation-2/enderium-ingot/) that

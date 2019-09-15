@@ -3,7 +3,7 @@ title: Flux-Infused Boots
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused boots
-  file: redstone-arsenal/flux-infused-boots.png
+  file: redstone-arsenal-2/flux-infused-boots.png
 redirect_from:
 - /docs/flux-infused-boots/
 - /docs/redstone-arsenal/flux-infused-boots/

@@ -28,7 +28,7 @@ usage-recipes:
   - hardened-glass
 ---
 
-![Pulverized lead](/assets/images/thermal-foundation/dust-lead.png){:style="height: 128px"}
+![Pulverized lead](/assets/images/thermal-foundation-2/dust-lead.png){:style="height: 128px"}
 
 
 **Pulverized lead** is a raw material. It is the dust form of

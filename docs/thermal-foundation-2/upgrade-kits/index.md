@@ -3,13 +3,13 @@ title: Upgrade Kits
 nav: thermal-foundation-2
 image:
 - alt: Hardened upgrade kit
-  file: thermal-foundation/upgrade-kit-hardened.png
+  file: thermal-foundation-2/upgrade-kit-hardened.png
 - alt: Reinforced upgrade kit
-  file: thermal-foundation/upgrade-kit-reinforced.png
+  file: thermal-foundation-2/upgrade-kit-reinforced.png
 - alt: Signalum upgrade kit
-  file: thermal-foundation/upgrade-kit-signalum.png
+  file: thermal-foundation-2/upgrade-kit-signalum.png
 - alt: Resonant upgrade kit
-  file: thermal-foundation/upgrade-kit-resonant.png
+  file: thermal-foundation-2/upgrade-kit-resonant.png
 redirect_from:
 - /docs/thermal-expansion/tiers-and-augments/upgrade-kits/
 - /docs/thermal-expansion/tiers/upgrade-kits/

@@ -10,7 +10,7 @@ recipes:
   - coin-signalum
 ---
 
-![Signalum coin](/assets/images/thermal-foundation/coin-signalum.png){:style="height: 128px"}
+![Signalum coin](/assets/images/thermal-foundation-2/coin-signalum.png){:style="height: 128px"}
 
 
 **Signalum coins** are materials made of [signalum](/docs/thermal-foundation-2/signalum-ingot/) that

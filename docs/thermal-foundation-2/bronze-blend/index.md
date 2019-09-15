@@ -22,7 +22,7 @@ usage-recipes:
   - dust-bronze
 ---
 
-![Bronze blend](/assets/images/thermal-foundation/dust-bronze.png){:style="height: 128px"}
+![Bronze blend](/assets/images/thermal-foundation-2/dust-bronze.png){:style="height: 128px"}
 
 
 **Bronze blend** is a raw material. It is the dust form of

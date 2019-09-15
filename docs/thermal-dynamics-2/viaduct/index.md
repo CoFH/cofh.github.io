@@ -3,7 +3,7 @@ title: Viaduct
 nav: thermal-dynamics-2
 image:
 - alt: Viaduct
-  file: thermal-dynamics/viaduct.png
+  file: thermal-dynamics-2/viaduct.png
 redirect_from:
 - /docs/thermal-dynamics/ducts/viaducts/
 - /docs/viaducts/

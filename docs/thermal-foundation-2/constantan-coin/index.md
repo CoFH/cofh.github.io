@@ -10,7 +10,7 @@ recipes:
   - coin-constantan
 ---
 
-![Constantan coin](/assets/images/thermal-foundation/coin-constantan.png){:style="height: 128px"}
+![Constantan coin](/assets/images/thermal-foundation-2/coin-constantan.png){:style="height: 128px"}
 
 
 **Constantan coins** are materials made of [constantan](/docs/thermal-foundation-2/constantan-ingot/)

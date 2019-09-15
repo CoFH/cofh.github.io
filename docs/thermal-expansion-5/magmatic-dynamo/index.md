@@ -3,9 +3,9 @@ title: Magmatic Dynamo
 nav: thermal-expansion-5
 image:
 - alt: Magmatic dynamo
-  file: thermal-expansion/dynamo-magmatic-rf.png
+  file: thermal-expansion-5/dynamo-magmatic-rf.png
 - alt: Magmatic dynamo with boiler conversion
-  file: thermal-expansion/dynamo-magmatic-steam.png
+  file: thermal-expansion-5/dynamo-magmatic-steam.png
 redirect_from:
 - /docs/thermal-expansion/dynamos/magmatic-dynamo/
 - /docs/magmatic-dynamo/

@@ -3,7 +3,7 @@ title: Magmatic Florb
 nav: thermal-expansion-5
 image:
 - alt: Magmatic florb
-  file: thermal-expansion/florb-magmatic.png
+  file: thermal-expansion-5/florb-magmatic.png
 redirect_from:
 - /docs/thermal-expansion/items/magmatic-florb/
 - /docs/magmatic-florb/

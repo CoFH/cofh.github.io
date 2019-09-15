@@ -7,7 +7,7 @@ redirect_from:
 - /docs/thermal-expansion/reusable-morb/
 image:
 - alt: Reusable morb
-  file: thermal-expansion/morb-reusable.png
+  file: thermal-expansion-5/morb-reusable.png
 recipes:
   crafting:
   - te5-morb-reusable

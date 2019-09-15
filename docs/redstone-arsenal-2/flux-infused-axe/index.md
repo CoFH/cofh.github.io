@@ -3,7 +3,7 @@ title: Flux-Infused Axe
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused axe
-  file: redstone-arsenal/flux-infused-axe.png
+  file: redstone-arsenal-2/flux-infused-axe.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-axe/
 - /docs/redstone-arsenal/tools/flux-infused-axe/

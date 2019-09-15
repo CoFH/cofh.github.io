@@ -3,7 +3,7 @@ title: Biocrude
 nav: thermal-foundation-2
 image:
 - alt: Biocrude
-  file: thermal-foundation/biocrude.gif
+  file: thermal-foundation-2/biocrude.gif
 recipes:
   crucible:
   - biocrude-from-biomass

@@ -3,7 +3,7 @@ title: Flux-Infused Shield
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused shield
-  file: redstone-arsenal/flux-infused-shield.png
+  file: redstone-arsenal-2/flux-infused-shield.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-shield/
 - /docs/redstone-arsenal/weapons/flux-infused-shield/

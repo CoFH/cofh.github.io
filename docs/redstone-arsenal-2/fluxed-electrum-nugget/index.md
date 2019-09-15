@@ -3,7 +3,7 @@ title: Fluxed Electrum Nugget
 nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum nugget
-  file: redstone-arsenal/nugget-fluxed-electrum.gif
+  file: redstone-arsenal-2/nugget-fluxed-electrum.gif
 redirect_from:
 - /docs/redstone-arsenal/materials/fluxed-electrum-nugget/
 - /docs/fluxed-electrum-nugget/

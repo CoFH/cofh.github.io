@@ -11,7 +11,7 @@ recipes:
   - te5-device-water-gen
 ---
 
-![Aqueous accumulator](/assets/images/thermal-expansion/aqueous-accumulator.png){:style="height: 128px"}
+![Aqueous accumulator](/assets/images/thermal-expansion-5/aqueous-accumulator.png){:style="height: 128px"}
 
 > No, it does not work with lava. You monster.
 

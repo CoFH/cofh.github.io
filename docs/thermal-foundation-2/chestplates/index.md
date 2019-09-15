@@ -36,7 +36,7 @@ usage-recipes:
   - recycling-armor-chestplate-constantan
 ---
 
-![Chestplates](/assets/images/thermal-foundation/chestplates.gif){:style="height: 128px"}
+![Chestplates](/assets/images/thermal-foundation-2/chestplates.gif){:style="height: 128px"}
 
 
 **[Chestplates](https://minecraft.gamepedia.com/Chestplate)** are a type of

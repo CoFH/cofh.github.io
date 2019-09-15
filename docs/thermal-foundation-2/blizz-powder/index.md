@@ -22,7 +22,7 @@ usage-recipes:
   - blizz-rod-from-powder
 ---
 
-![Blizz powder](/assets/images/thermal-foundation/blizz-powder.gif){:style="height: 128px"}
+![Blizz powder](/assets/images/thermal-foundation-2/blizz-powder.gif){:style="height: 128px"}
 
 
 **Blizz powder** is a material that is most commonly obtained from [blizz

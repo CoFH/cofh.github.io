@@ -20,7 +20,7 @@ usage-recipes:
   - dust-lumium
 ---
 
-![Lumium blend](/assets/images/thermal-foundation/dust-lumium.png){:style="height: 128px"}
+![Lumium blend](/assets/images/thermal-foundation-2/dust-lumium.png){:style="height: 128px"}
 
 
 **Lumium blend** is a raw material. It is the dust form of

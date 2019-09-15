@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-gear-iridium
 ---
 
-![Iridium gear](/assets/images/thermal-foundation/gear-iridium.png){:style="height: 128px"}
+![Iridium gear](/assets/images/thermal-foundation-2/gear-iridium.png){:style="height: 128px"}
 
 
 **Iridium gears** are crafting materials made of

@@ -3,7 +3,7 @@ title: Obsidian Rod
 nav: redstone-arsenal-2
 image:
 - alt: Obsidian rod
-  file: redstone-arsenal/obsidian-rod.png
+  file: redstone-arsenal-2/obsidian-rod.png
 redirect_from:
 - /docs/redstone-arsenal/materials/obsidian-rod/
 - /docs/obsidian-rod/

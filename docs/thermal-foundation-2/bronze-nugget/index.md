@@ -13,7 +13,7 @@ usage-recipes:
   - tf2-ingot-bronze-from-nuggets
 ---
 
-![Bronze nugget](/assets/images/thermal-foundation/nugget-bronze.png){:style="height: 128px"}
+![Bronze nugget](/assets/images/thermal-foundation-2/nugget-bronze.png){:style="height: 128px"}
 
 
 **Bronze nuggets** are raw materials. They are the nugget form of

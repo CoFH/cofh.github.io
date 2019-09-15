@@ -3,7 +3,7 @@ title: 'Augment: Turbine Conversion'
 nav: thermal-expansion-5
 image:
 - alt: Turbine conversion augment
-  file: thermal-expansion/augment-dynamo-steam-turbine.png
+  file: thermal-expansion-5/augment-dynamo-steam-turbine.png
 redirect_from:
 - /docs/augment-turbine-conversion/
 - /docs/thermal-expansion/augment-turbine-conversion/

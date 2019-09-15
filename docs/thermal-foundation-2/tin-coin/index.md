@@ -10,7 +10,7 @@ recipes:
   - coin-tin
 ---
 
-![Tin coin](/assets/images/thermal-foundation/coin-tin.png){:style="height: 128px"}
+![Tin coin](/assets/images/thermal-foundation-2/coin-tin.png){:style="height: 128px"}
 
 
 **Tin coins** are materials made of [tin](/docs/thermal-foundation-2/tin-ingot/) that can be used as

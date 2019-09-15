@@ -3,7 +3,7 @@ title: Redstone Energy Fluxduct
 nav: thermal-dynamics-2
 image:
 - alt: Redstone energy fluxduct
-  file: thermal-dynamics/fluxduct-redstone-energy.png
+  file: thermal-dynamics-2/fluxduct-redstone-energy.png
 redirect_from:
 - /docs/redstone-energy-fluxduct/
 - /docs/thermal-dynamics/redstone-energy-fluxduct/

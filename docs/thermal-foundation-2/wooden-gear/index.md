@@ -3,7 +3,7 @@ title: Wooden Gear
 nav: thermal-foundation-2
 image:
 - alt: Wooden gear
-  file: thermal-foundation/gear-wood.png
+  file: thermal-foundation-2/gear-wood.png
 recipes:
   crafting:
   - tf2-gear-wood

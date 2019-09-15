@@ -3,7 +3,7 @@ title: Block of Tin
 nav: thermal-foundation-2
 image:
 - alt: Block of tin
-  file: thermal-foundation/storage-block-tin.png
+  file: thermal-foundation-2/storage-block-tin.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/tin-block/
 - /docs/tin-block/

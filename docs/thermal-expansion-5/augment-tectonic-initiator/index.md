@@ -3,7 +3,7 @@ title: 'Augment: Tectonic Initiator'
 nav: thermal-expansion-5
 image:
 - alt: Tectonic initiator augment
-  file: thermal-expansion/augment-machine-pulverizer-petrotheum.gif
+  file: thermal-expansion-5/augment-machine-pulverizer-petrotheum.gif
 redirect_from:
 - /docs/augment-tectonic-initiator/
 - /docs/thermal-expansion/augment-tectonic-initiator/

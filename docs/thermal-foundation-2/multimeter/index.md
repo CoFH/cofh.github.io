@@ -12,7 +12,7 @@ recipes:
   - tf2-multimeter
 ---
 
-![Multimeter](/assets/images/thermal-foundation/multimeter.png){:style="height: 128px"}
+![Multimeter](/assets/images/thermal-foundation-2/multimeter.png){:style="height: 128px"}
 
 > There are no accidents, only Flukes.
 

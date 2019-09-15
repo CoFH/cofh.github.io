@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-expansion/factorizer/
 image:
 - alt: Factorizer
-  file: thermal-expansion/factorizer.png
+  file: thermal-expansion-5/factorizer.png
 recipes:
   crafting:
   - te5-device-factorizer

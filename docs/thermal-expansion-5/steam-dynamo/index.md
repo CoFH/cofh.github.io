@@ -3,9 +3,9 @@ title: Steam Dynamo
 nav: thermal-expansion-5
 image:
 - alt: Steam dynamo
-  file: thermal-expansion/dynamo-steam-rf.png
+  file: thermal-expansion-5/dynamo-steam-rf.png
 - alt: Steam dynamo with boiler conversion
-  file: thermal-expansion/dynamo-steam-steam.png
+  file: thermal-expansion-5/dynamo-steam-steam.png
 redirect_from:
 - /docs/thermal-expansion/dynamos/steam-dynamo/
 - /docs/steam-dynamo/

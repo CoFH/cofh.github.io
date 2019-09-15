@@ -6,37 +6,37 @@ redirect_from:
 - /docs/thermal-foundation/pigments/
 image:
 - alt: White pigment
-  file: thermal-foundation/pigment-white.png
+  file: thermal-foundation-2/pigment-white.png
 - alt: Orange pigment
-  file: thermal-foundation/pigment-orange.png
+  file: thermal-foundation-2/pigment-orange.png
 - alt: Magenta pigment
-  file: thermal-foundation/pigment-magenta.png
+  file: thermal-foundation-2/pigment-magenta.png
 - alt: Light blue pigment
-  file: thermal-foundation/pigment-light-blue.png
+  file: thermal-foundation-2/pigment-light-blue.png
 - alt: Yellow pigment
-  file: thermal-foundation/pigment-yellow.png
+  file: thermal-foundation-2/pigment-yellow.png
 - alt: Lime pigment
-  file: thermal-foundation/pigment-lime.png
+  file: thermal-foundation-2/pigment-lime.png
 - alt: Pink pigment
-  file: thermal-foundation/pigment-pink.png
+  file: thermal-foundation-2/pigment-pink.png
 - alt: Gray pigment
-  file: thermal-foundation/pigment-gray.png
+  file: thermal-foundation-2/pigment-gray.png
 - alt: Light gray pigment
-  file: thermal-foundation/pigment-light-gray.png
+  file: thermal-foundation-2/pigment-light-gray.png
 - alt: Cyan pigment
-  file: thermal-foundation/pigment-cyan.png
+  file: thermal-foundation-2/pigment-cyan.png
 - alt: Purple pigment
-  file: thermal-foundation/pigment-purple.png
+  file: thermal-foundation-2/pigment-purple.png
 - alt: Blue pigment
-  file: thermal-foundation/pigment-blue.png
+  file: thermal-foundation-2/pigment-blue.png
 - alt: Brown pigment
-  file: thermal-foundation/pigment-brown.png
+  file: thermal-foundation-2/pigment-brown.png
 - alt: Green pigment
-  file: thermal-foundation/pigment-green.png
+  file: thermal-foundation-2/pigment-green.png
 - alt: Red pigment
-  file: thermal-foundation/pigment-red.png
+  file: thermal-foundation-2/pigment-red.png
 - alt: Black pigment
-  file: thermal-foundation/pigment-black.png
+  file: thermal-foundation-2/pigment-black.png
 recipes:
   pulverizer:
   - recycling-wool

@@ -3,9 +3,9 @@ title: Fluiduct
 nav: thermal-dynamics-2
 image:
 - alt: Fluiduct
-  file: thermal-dynamics/fluiduct.png
+  file: thermal-dynamics-2/fluiduct.png
 - alt: Fluiduct (opaque)
-  file: thermal-dynamics/fluiduct-opaque.png
+  file: thermal-dynamics-2/fluiduct-opaque.png
 redirect_from:
 - /thermal-expansion/fluids/fluiducts/
 - /docs/thermal-dynamics/ducts/fluiducts/

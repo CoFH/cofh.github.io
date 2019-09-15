@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-enderium
 ---
 
-![Enderium plate](/assets/images/thermal-foundation/plate-enderium.png){:style="height: 128px"}
+![Enderium plate](/assets/images/thermal-foundation-2/plate-enderium.png){:style="height: 128px"}
 
 
 **Enderium plates** are crafting materials made of

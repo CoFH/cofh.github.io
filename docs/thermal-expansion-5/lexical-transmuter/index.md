@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-expansion/lexical-transmuter/
 image:
 - alt: Lexical transmuter
-  file: thermal-expansion/lexical-transmuter.png
+  file: thermal-expansion-5/lexical-transmuter.png
 recipes:
   crafting:
   - te5-device-lexicon

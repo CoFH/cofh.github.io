@@ -45,7 +45,7 @@ usage-recipes:
   - recycling-tool-shears-diamond
 ---
 
-![Shears](/assets/images/thermal-foundation/shears.gif){:style="height: 128px"}
+![Shears](/assets/images/thermal-foundation-2/shears.gif){:style="height: 128px"}
 
 
 **[Shears](https://minecraft.gamepedia.com/Shears)** are tools in vanilla

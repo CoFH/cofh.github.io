@@ -30,7 +30,7 @@ usage-recipes:
   - hardened-glass-tin
 ---
 
-![Pulverized tin](/assets/images/thermal-foundation/dust-tin.png){:style="height: 128px"}
+![Pulverized tin](/assets/images/thermal-foundation-2/dust-tin.png){:style="height: 128px"}
 
 
 **Pulverized tin** is a raw material. It is the dust form of

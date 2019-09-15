@@ -21,7 +21,7 @@ usage-recipes:
   - ore-processing-cinnabar-tin
 ---
 
-![Tin ore](/assets/images/thermal-foundation/ore-tin.png){:style="height: 128px"}
+![Tin ore](/assets/images/thermal-foundation-2/ore-tin.png){:style="height: 128px"}
 
 
 **Tin ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that yields

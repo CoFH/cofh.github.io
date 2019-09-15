@@ -18,7 +18,7 @@ usage-recipes:
   - recycling-plate-lead
 ---
 
-![Lead plate](/assets/images/thermal-foundation/plate-lead.png){:style="height: 128px"}
+![Lead plate](/assets/images/thermal-foundation-2/plate-lead.png){:style="height: 128px"}
 
 
 **Lead plates** are crafting materials made of [lead](/docs/thermal-foundation-2/lead-ingot/).

@@ -3,7 +3,7 @@ title: Vacuumulator
 nav: thermal-expansion-5
 image:
 - alt: Vacuumulator
-  file: thermal-expansion/vacuumulator.png
+  file: thermal-expansion-5/vacuumulator.png
 recipes:
   crafting:
   - te5-device-item-collector

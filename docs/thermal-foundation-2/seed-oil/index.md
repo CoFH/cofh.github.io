@@ -3,7 +3,7 @@ title: Seed Oil
 nav: thermal-foundation-2
 image:
 - alt: Seed oil
-  file: thermal-foundation/seed-oil.gif
+  file: thermal-foundation-2/seed-oil.gif
 recipes:
   transposer-empty:
   - seed-oil-from-seeds

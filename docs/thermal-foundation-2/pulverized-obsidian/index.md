@@ -23,7 +23,7 @@ usage-recipes:
   - basalz-powder
 ---
 
-![Pulverized obsidian](/assets/images/thermal-foundation/dust-obsidian.png){:style="height: 128px"}
+![Pulverized obsidian](/assets/images/thermal-foundation-2/dust-obsidian.png){:style="height: 128px"}
 
 
 **Pulverized obsidian** is a raw material that is most commonly obtained by

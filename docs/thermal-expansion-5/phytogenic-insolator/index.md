@@ -72,7 +72,7 @@ recipe-list:
   - chorus-fruit-fluxed
 ---
 
-![Phytogenic insolator](/assets/images/thermal-expansion/phytogenic-insolator.png){:style="height: 128px"}
+![Phytogenic insolator](/assets/images/thermal-expansion-5/phytogenic-insolator.png){:style="height: 128px"}
 
 > Definitely not organic.
 

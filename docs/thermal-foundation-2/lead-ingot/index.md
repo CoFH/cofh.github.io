@@ -99,7 +99,7 @@ usage-recipes:
   - gear-lead
 ---
 
-![Lead ingot](/assets/images/thermal-foundation/ingot-lead.png){:style="height: 128px"}
+![Lead ingot](/assets/images/thermal-foundation-2/ingot-lead.png){:style="height: 128px"}
 
 
 **Lead ingots** are raw materials obtained from [lead ore](/docs/thermal-foundation-2/lead-ore/) and

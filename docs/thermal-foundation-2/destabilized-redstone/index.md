@@ -34,7 +34,7 @@ usage-recipes:
   - ra2-flux-crystal
 ---
 
-![Destabilized redstone](/assets/images/thermal-foundation/destabilized-redstone.gif){:style="height: 128px"}
+![Destabilized redstone](/assets/images/thermal-foundation-2/destabilized-redstone.gif){:style="height: 128px"}
 
 > Behold, the Redstone Revolution!
 

@@ -20,7 +20,7 @@ usage-recipes:
   - dust-enderium
 ---
 
-![Enderium blend](/assets/images/thermal-foundation/dust-enderium.png){:style="height: 128px"}
+![Enderium blend](/assets/images/thermal-foundation-2/dust-enderium.png){:style="height: 128px"}
 
 
 **Enderium blend** is a raw material. It is the dust form of

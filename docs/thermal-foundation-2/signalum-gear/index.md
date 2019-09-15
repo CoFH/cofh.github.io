@@ -29,7 +29,7 @@ usage-recipes:
   - recycling-gear-signalum
 ---
 
-![Signalum gear](/assets/images/thermal-foundation/gear-signalum.png){:style="height: 128px"}
+![Signalum gear](/assets/images/thermal-foundation-2/gear-signalum.png){:style="height: 128px"}
 
 
 **Signalum gears** are crafting materials made of

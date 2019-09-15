@@ -3,31 +3,31 @@ title: Covers
 nav: thermal-dynamics-2
 image:
 - alt: Stone cover
-  file: thermal-dynamics/cover-stone.png
+  file: thermal-dynamics-2/cover-stone.png
 - alt: Cobblestone cover
-  file: thermal-dynamics/cover-cobblestone.png
+  file: thermal-dynamics-2/cover-cobblestone.png
 - alt: Oak wood cover
-  file: thermal-dynamics/cover-wood-log-oak.png
+  file: thermal-dynamics-2/cover-wood-log-oak.png
 - alt: Oak wood planks cover
-  file: thermal-dynamics/cover-wood-planks-oak.png
+  file: thermal-dynamics-2/cover-wood-planks-oak.png
 - alt: Sandstone cover
-  file: thermal-dynamics/cover-sandstone.png
+  file: thermal-dynamics-2/cover-sandstone.png
 - alt: Nether brick cover
-  file: thermal-dynamics/cover-nether-brick.png
+  file: thermal-dynamics-2/cover-nether-brick.png
 - alt: Obsidian cover
-  file: thermal-dynamics/cover-obsidian.png
+  file: thermal-dynamics-2/cover-obsidian.png
 - alt: Moss stone cover
-  file: thermal-dynamics/cover-moss-stone.png
+  file: thermal-dynamics-2/cover-moss-stone.png
 - alt: Bricks cover
-  file: thermal-dynamics/cover-bricks.png
+  file: thermal-dynamics-2/cover-bricks.png
 - alt: Polished granite cover
-  file: thermal-dynamics/cover-granite-polished.png
+  file: thermal-dynamics-2/cover-granite-polished.png
 - alt: Polished diorite cover
-  file: thermal-dynamics/cover-diorite-polished.png
+  file: thermal-dynamics-2/cover-diorite-polished.png
 - alt: Polished andesite cover
-  file: thermal-dynamics/cover-andesite-polished.png
+  file: thermal-dynamics-2/cover-andesite-polished.png
 - alt: End stone bricks cover
-  file: thermal-dynamics/cover-end-stone-bricks.png
+  file: thermal-dynamics-2/cover-end-stone-bricks.png
 redirect_from:
 - /docs/thermal-dynamics/attachments/covers/
 - /docs/covers/

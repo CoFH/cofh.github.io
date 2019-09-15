@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-gear-platinum
 ---
 
-![Platinum gear](/assets/images/thermal-foundation/gear-platinum.png){:style="height: 128px"}
+![Platinum gear](/assets/images/thermal-foundation-2/gear-platinum.png){:style="height: 128px"}
 
 
 **Platinum gears** are crafting materials made of

@@ -28,7 +28,7 @@ usage-recipes:
   - hardened-glass-platinum
 ---
 
-![Pulverized platinum](/assets/images/thermal-foundation/dust-platinum.png){:style="height: 128px"}
+![Pulverized platinum](/assets/images/thermal-foundation-2/dust-platinum.png){:style="height: 128px"}
 
 
 **Pulverized platinum** is a raw material. It is the dust form of

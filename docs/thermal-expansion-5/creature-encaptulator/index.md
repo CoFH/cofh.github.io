@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-expansion/creature-encaptulator/
 image:
 - alt: Creature encaptulator
-  file: thermal-expansion/creature-encaptulator.png
+  file: thermal-expansion-5/creature-encaptulator.png
 recipes:
   crafting:
   - te5-device-mob-catcher

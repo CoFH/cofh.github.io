@@ -21,7 +21,7 @@ recipe-list:
 - basalz-rod-from-powder
 ---
 
-![Compactor](/assets/images/thermal-expansion/compactor.png){:style="height: 128px"}
+![Compactor](/assets/images/thermal-expansion-5/compactor.png){:style="height: 128px"}
 
 > More gentle than a pulverizer.
 

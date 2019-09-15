@@ -3,7 +3,7 @@ title: Block of Electrum
 nav: thermal-foundation-2
 image:
 - alt: Block of electrum
-  file: thermal-foundation/storage-block-electrum.png
+  file: thermal-foundation-2/storage-block-electrum.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/electrum-block/
 - /docs/electrum-block/

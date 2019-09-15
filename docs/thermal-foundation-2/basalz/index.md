@@ -8,7 +8,7 @@ redirect_from:
 - /docs/thermal-foundation/basalz/
 ---
 
-![Basalz](/assets/images/thermal-foundation/basalz.png){:style="height: 192px"}
+![Basalz](/assets/images/thermal-foundation-2/basalz.png){:style="height: 192px"}
 
 
 **Basalzes** are hostile mobs found in mountainous and/or barren

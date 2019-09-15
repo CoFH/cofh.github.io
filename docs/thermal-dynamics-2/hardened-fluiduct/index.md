@@ -3,9 +3,9 @@ title: Hardened Fluiduct
 nav: thermal-dynamics-2
 image:
 - alt: Hardened fluiduct
-  file: thermal-dynamics/fluiduct-hardened.png
+  file: thermal-dynamics-2/fluiduct-hardened.png
 - alt: Hardened fluiduct (opaque)
-  file: thermal-dynamics/fluiduct-hardened-opaque.png
+  file: thermal-dynamics-2/fluiduct-hardened-opaque.png
 redirect_from:
 - /docs/hardened-fluiduct/
 - /docs/thermal-dynamics/hardened-fluiduct/

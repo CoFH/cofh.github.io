@@ -10,7 +10,7 @@ recipes:
   - coin-lead
 ---
 
-![Lead coin](/assets/images/thermal-foundation/coin-lead.png){:style="height: 128px"}
+![Lead coin](/assets/images/thermal-foundation-2/coin-lead.png){:style="height: 128px"}
 
 
 **Lead coins** are materials made of [lead](/docs/thermal-foundation-2/lead-ingot/) that can be used

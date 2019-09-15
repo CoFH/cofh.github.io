@@ -3,15 +3,15 @@ title: Retrievers
 nav: thermal-dynamics-2
 image:
 - alt: Retriever
-  file: thermal-dynamics/retriever-basic.png
+  file: thermal-dynamics-2/retriever-basic.png
 - alt: Hardened retriever
-  file: thermal-dynamics/retriever-hardened.png
+  file: thermal-dynamics-2/retriever-hardened.png
 - alt: Reinforced retriever
-  file: thermal-dynamics/retriever-reinforced.png
+  file: thermal-dynamics-2/retriever-reinforced.png
 - alt: Signalum retriever
-  file: thermal-dynamics/retriever-signalum.png
+  file: thermal-dynamics-2/retriever-signalum.png
 - alt: Resonant retriever
-  file: thermal-dynamics/retriever-resonant.png
+  file: thermal-dynamics-2/retriever-resonant.png
 redirect_from:
 - /docs/thermal-dynamics/attachments/retrievers/
 - /docs/retrievers/

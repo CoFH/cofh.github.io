@@ -3,7 +3,7 @@ title: Flux-Infused OmniWrench
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused omniwrench
-  file: redstone-arsenal/flux-infused-omniwrench.png
+  file: redstone-arsenal-2/flux-infused-omniwrench.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-omniwrench/
 - /docs/redstone-arsenal/tools/flux-infused-omniwrench/

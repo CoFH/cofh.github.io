@@ -3,7 +3,7 @@ title: Structuralduct
 nav: thermal-dynamics-2
 image:
 - alt: Structuralduct
-  file: thermal-dynamics/structuralduct.png
+  file: thermal-dynamics-2/structuralduct.png
 redirect_from:
 - /docs/thermal-dynamics/ducts/structuralduct/
 - /docs/structuralduct/

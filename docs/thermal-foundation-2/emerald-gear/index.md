@@ -3,7 +3,7 @@ title: Emerald Gear
 nav: thermal-foundation-2
 image:
 - alt: Emerald gear
-  file: thermal-foundation/gear-emerald.png
+  file: thermal-foundation-2/gear-emerald.png
 recipes:
   crafting:
   - tf2-gear-emerald

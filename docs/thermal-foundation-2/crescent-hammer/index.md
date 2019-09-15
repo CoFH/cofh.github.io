@@ -12,7 +12,7 @@ recipes:
   - tf2-crescent-hammer
 ---
 
-![Crescent hammer](/assets/images/thermal-foundation/crescent-hammer.png){:style="height: 128px"}
+![Crescent hammer](/assets/images/thermal-foundation-2/crescent-hammer.png){:style="height: 128px"}
 
 > Any tool is a hammer if you really need one.
 

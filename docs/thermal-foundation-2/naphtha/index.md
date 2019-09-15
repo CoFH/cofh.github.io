@@ -18,7 +18,7 @@ usage-recipes:
   - refined-fuel
 ---
 
-![Naphtha](/assets/images/thermal-foundation/naphtha.gif){:style="height: 128px"}
+![Naphtha](/assets/images/thermal-foundation-2/naphtha.gif){:style="height: 128px"}
 
 
 **Naphtha** is a fluid obtained by processing [crude oil](/docs/thermal-foundation-2/crude-oil/) or

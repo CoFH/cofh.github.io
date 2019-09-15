@@ -3,7 +3,7 @@ title: Block of Constantan
 nav: thermal-foundation-2
 image:
 - alt: Block of constantan
-  file: thermal-foundation/storage-block-constantan.png
+  file: thermal-foundation-2/storage-block-constantan.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/constantan-block/
 - /docs/constantan-block/

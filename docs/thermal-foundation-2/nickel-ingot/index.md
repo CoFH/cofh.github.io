@@ -82,7 +82,7 @@ usage-recipes:
   - gear-nickel
 ---
 
-![Nickel ingot](/assets/images/thermal-foundation/ingot-nickel.png){:style="height: 128px"}
+![Nickel ingot](/assets/images/thermal-foundation-2/ingot-nickel.png){:style="height: 128px"}
 
 
 **Nickel ingots** are raw materials obtained from [nickel

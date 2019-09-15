@@ -13,7 +13,7 @@ usage-recipes:
   - fluid-ore-processing-ender
 ---
 
-![Resonant end stone](/assets/images/thermal-foundation/ore-fluid-ender.png){:style="height: 128px"}
+![Resonant end stone](/assets/images/thermal-foundation-2/ore-fluid-ender.png){:style="height: 128px"}
 
 
 **Resonant end stone** is a fairly common

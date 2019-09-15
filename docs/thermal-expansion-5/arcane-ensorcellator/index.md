@@ -3,7 +3,7 @@ title: Arcane Ensorcellator
 nav: thermal-expansion-5
 image:
 - alt: Arcane ensorcellator
-  file: thermal-expansion/arcane-ensorcellator.png
+  file: thermal-expansion-5/arcane-ensorcellator.png
 redirect_from:
 - /docs/arcane-ensorcellator/
 - /docs/thermal-expansion/arcane-ensorcellator/

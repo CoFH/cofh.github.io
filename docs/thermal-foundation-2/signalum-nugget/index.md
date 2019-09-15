@@ -25,7 +25,7 @@ usage-recipes:
   - ti-alchemical-quiver-resonant
 ---
 
-![Signalum nugget](/assets/images/thermal-foundation/nugget-signalum.png){:style="height: 128px"}
+![Signalum nugget](/assets/images/thermal-foundation-2/nugget-signalum.png){:style="height: 128px"}
 
 
 **Signalum nuggets** are raw materials. They are the nugget form of

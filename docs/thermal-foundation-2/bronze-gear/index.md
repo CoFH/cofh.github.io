@@ -19,7 +19,7 @@ usage-recipes:
   - recycling-gear-bronze
 ---
 
-![Bronze gear](/assets/images/thermal-foundation/gear-bronze.png){:style="height: 128px"}
+![Bronze gear](/assets/images/thermal-foundation-2/gear-bronze.png){:style="height: 128px"}
 
 
 **Bronze gears** are crafting materials made of [bronze](/docs/thermal-foundation-2/bronze-ingot/).

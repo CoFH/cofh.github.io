@@ -36,7 +36,7 @@ usage-recipes:
   - recycling-tool-hoe-constantan
 ---
 
-![Hoes](/assets/images/thermal-foundation/hoes.gif){:style="height: 128px"}
+![Hoes](/assets/images/thermal-foundation-2/hoes.gif){:style="height: 128px"}
 
 
 **[Hoes](https://minecraft.gamepedia.com/Hoe)** are tools in vanilla Minecraft.

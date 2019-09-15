@@ -21,7 +21,7 @@ usage-recipes:
   - coal
 ---
 
-![Pulverized coal](/assets/images/thermal-foundation/dust-coal.png){:style="height: 128px"}
+![Pulverized coal](/assets/images/thermal-foundation-2/dust-coal.png){:style="height: 128px"}
 
 
 **Pulverized coal** is a raw material. It is the dust form of

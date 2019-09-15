@@ -15,7 +15,7 @@ usage-recipes:
   - td2-fluxduct-resonant-one
 ---
 
-![Enderium nugget](/assets/images/thermal-foundation/nugget-enderium.png){:style="height: 128px"}
+![Enderium nugget](/assets/images/thermal-foundation-2/nugget-enderium.png){:style="height: 128px"}
 
 
 **Enderium nuggets** are raw materials. They are the nugget form of

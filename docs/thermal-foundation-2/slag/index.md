@@ -77,7 +77,7 @@ usage-recipes:
   - tf2-rockwool
 ---
 
-![Slag](/assets/images/thermal-foundation/slag.png){:style="height: 128px"}
+![Slag](/assets/images/thermal-foundation-2/slag.png){:style="height: 128px"}
 
 
 **Slag** is a material obtained as a byproduct from [induction

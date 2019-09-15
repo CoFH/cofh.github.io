@@ -3,9 +3,9 @@ title: Signalum-Plated Itemduct
 nav: thermal-dynamics-2
 image:
 - alt: Signalum-plated itemduct
-  file: thermal-dynamics/itemduct-signalum-plated.png
+  file: thermal-dynamics-2/itemduct-signalum-plated.png
 - alt: Signalum-plated itemduct (opaque)
-  file: thermal-dynamics/itemduct-signalum-plated-opaque.png
+  file: thermal-dynamics-2/itemduct-signalum-plated-opaque.png
 redirect_from:
 - /docs/signalum-plated-itemduct/
 - /docs/thermal-dynamics/signalum-plated-itemduct/

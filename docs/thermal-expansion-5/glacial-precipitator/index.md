@@ -21,7 +21,7 @@ recipe-list:
 - packed-ice
 ---
 
-![Glacial precipitator](/assets/images/thermal-expansion/glacial-precipitator.png){:style="height: 128px"}
+![Glacial precipitator](/assets/images/thermal-expansion-5/glacial-precipitator.png){:style="height: 128px"}
 
 > Have a snowball fight!
 

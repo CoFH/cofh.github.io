@@ -10,7 +10,7 @@ recipes:
   - coin-electrum
 ---
 
-![Electrum coin](/assets/images/thermal-foundation/coin-electrum.png){:style="height: 128px"}
+![Electrum coin](/assets/images/thermal-foundation-2/coin-electrum.png){:style="height: 128px"}
 
 
 **Electrum coins** are materials made of [electrum](/docs/thermal-foundation-2/electrum-ingot/) that

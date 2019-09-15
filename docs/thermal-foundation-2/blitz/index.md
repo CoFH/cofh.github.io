@@ -8,7 +8,7 @@ redirect_from:
 - /docs/thermal-foundation/blitz/
 ---
 
-![Blitz](/assets/images/thermal-foundation/blitz.png){:style="height: 192px"}
+![Blitz](/assets/images/thermal-foundation-2/blitz.png){:style="height: 192px"}
 
 
 **Blitzes** are hostile mobs found in

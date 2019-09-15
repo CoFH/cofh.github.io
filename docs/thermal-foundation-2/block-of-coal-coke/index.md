@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-foundation/block-of-coal-coke/
 image:
 - alt: Block of coal coke
-  file: thermal-foundation/storage-block-coal-coke.png
+  file: thermal-foundation-2/storage-block-coal-coke.png
 recipes:
   crafting:
   - tf2-storage-block-coal-coke

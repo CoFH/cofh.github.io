@@ -3,7 +3,7 @@ title: Rich Bioblend
 nav: thermal-foundation-2
 image:
 - alt: Rich bioblend
-  file: thermal-foundation/bioblend-rich.png
+  file: thermal-foundation-2/bioblend-rich.png
 recipes:
   transposer-fill:
   - bioblend-rich

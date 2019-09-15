@@ -21,7 +21,7 @@ usage-recipes:
   - ore-processing-cinnabar-silver
 ---
 
-![Silver ore](/assets/images/thermal-foundation/ore-silver.png){:style="height: 128px"}
+![Silver ore](/assets/images/thermal-foundation-2/ore-silver.png){:style="height: 128px"}
 
 
 **Silver ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)

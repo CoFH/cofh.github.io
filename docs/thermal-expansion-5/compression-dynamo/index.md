@@ -3,9 +3,9 @@ title: Compression Dynamo
 nav: thermal-expansion-5
 image:
 - alt: Compression dynamo
-  file: thermal-expansion/dynamo-compression-rf.png
+  file: thermal-expansion-5/dynamo-compression-rf.png
 - alt: Compression dynamo with boiler conversion
-  file: thermal-expansion/dynamo-compression-steam.png
+  file: thermal-expansion-5/dynamo-compression-steam.png
 redirect_from:
 - /docs/thermal-expansion/dynamos/compression-dynamo/
 - /docs/compression-dynamo/

@@ -13,7 +13,7 @@ usage-recipes:
   - tf2-ingot-platinum-from-nuggets
 ---
 
-![Platinum nugget](/assets/images/thermal-foundation/nugget-platinum.png){:style="height: 128px"}
+![Platinum nugget](/assets/images/thermal-foundation-2/nugget-platinum.png){:style="height: 128px"}
 
 
 **Platinum nuggets** are raw materials. They are the nugget form of

@@ -3,7 +3,7 @@ title: Fluxed Electrum Ingot
 nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum ingot
-  file: redstone-arsenal/ingot-fluxed-electrum.gif
+  file: redstone-arsenal-2/ingot-fluxed-electrum.gif
 redirect_from:
 - /docs/redstone-arsenal/materials/fluxed-electrum-ingot/
 - /docs/fluxed-electrum-ingot/

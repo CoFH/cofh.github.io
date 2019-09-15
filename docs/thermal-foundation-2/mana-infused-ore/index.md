@@ -21,7 +21,7 @@ usage-recipes:
   - ore-processing-cinnabar-mithril
 ---
 
-![Mana Infused ore](/assets/images/thermal-foundation/ore-mithril.png){:style="height: 128px"}
+![Mana Infused ore](/assets/images/thermal-foundation-2/ore-mithril.png){:style="height: 128px"}
 
 
 **Mana infused ore** is an [ore](https://minecraft.gamepedia.com/Ore) that

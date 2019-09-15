@@ -3,7 +3,7 @@ title: 'Augment: Resin Funnel'
 nav: thermal-expansion-5
 image:
 - alt: Resin funnel augment
-  file: thermal-expansion/augment-machine-sawmill-tapper.gif
+  file: thermal-expansion-5/augment-machine-sawmill-tapper.gif
 redirect_from:
 - /docs/augment-resin-funnel/
 - /docs/thermal-expansion/augment-resin-funnel/

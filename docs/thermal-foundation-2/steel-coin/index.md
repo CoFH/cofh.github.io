@@ -10,7 +10,7 @@ recipes:
   - coin-steel
 ---
 
-![Steel coin](/assets/images/thermal-foundation/coin-steel.png){:style="height: 128px"}
+![Steel coin](/assets/images/thermal-foundation-2/coin-steel.png){:style="height: 128px"}
 
 
 **Steel coins** are materials made of [steel](/docs/thermal-foundation-2/steel-ingot/) that can be

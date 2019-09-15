@@ -10,7 +10,7 @@ recipes:
   - coin-invar
 ---
 
-![Invar coin](/assets/images/thermal-foundation/coin-invar.png){:style="height: 128px"}
+![Invar coin](/assets/images/thermal-foundation-2/coin-invar.png){:style="height: 128px"}
 
 
 **Invar coins** are materials made of [invar](/docs/thermal-foundation-2/invar-ingot/) that can be

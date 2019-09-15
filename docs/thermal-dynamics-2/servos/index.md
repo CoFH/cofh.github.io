@@ -3,15 +3,15 @@ title: Servos
 nav: thermal-dynamics-2
 image:
 - alt: Servo
-  file: thermal-dynamics/servo-basic.png
+  file: thermal-dynamics-2/servo-basic.png
 - alt: Hardened servo
-  file: thermal-dynamics/servo-hardened.png
+  file: thermal-dynamics-2/servo-hardened.png
 - alt: Reinforced servo
-  file: thermal-dynamics/servo-reinforced.png
+  file: thermal-dynamics-2/servo-reinforced.png
 - alt: Signalum servo
-  file: thermal-dynamics/servo-signalum.png
+  file: thermal-dynamics-2/servo-signalum.png
 - alt: Resonant servo
-  file: thermal-dynamics/servo-resonant.png
+  file: thermal-dynamics-2/servo-resonant.png
 redirect_from:
 - /docs/thermal-dynamics/attachments/servos/
 - /docs/servos/

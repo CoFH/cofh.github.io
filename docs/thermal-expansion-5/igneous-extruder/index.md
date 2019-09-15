@@ -25,7 +25,7 @@ recipe-list:
 - andesite
 ---
 
-![Igneous extruder](/assets/images/thermal-expansion/igneous-extruder.png){:style="height: 128px"}
+![Igneous extruder](/assets/images/thermal-expansion-5/igneous-extruder.png){:style="height: 128px"}
 
 > Minecraft physics are fun!
 

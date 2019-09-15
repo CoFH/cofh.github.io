@@ -3,7 +3,7 @@ title: Flux Crystal Block
 nav: redstone-arsenal-2
 image:
 - alt: Flux crystal block
-  file: redstone-arsenal/storage-block-flux-crystal.png
+  file: redstone-arsenal-2/storage-block-flux-crystal.png
 redirect_from:
 - /docs/redstone-arsenal/materials/flux-crystal-block/
 - /docs/flux-crystal-block/

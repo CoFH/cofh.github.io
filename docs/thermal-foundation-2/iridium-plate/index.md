@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-iridium
 ---
 
-![Iridium plate](/assets/images/thermal-foundation/plate-iridium.png){:style="height: 128px"}
+![Iridium plate](/assets/images/thermal-foundation-2/plate-iridium.png){:style="height: 128px"}
 
 
 **Iridium plates** are crafting materials made of

@@ -3,7 +3,7 @@ title: Block of Platinum
 nav: thermal-foundation-2
 image:
 - alt: Block of platinum
-  file: thermal-foundation/storage-block-platinum.png
+  file: thermal-foundation-2/storage-block-platinum.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/platinum-block/
 - /docs/platinum-block/

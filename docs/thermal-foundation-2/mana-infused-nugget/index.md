@@ -13,7 +13,7 @@ usage-recipes:
   - tf2-ingot-mithril-from-nuggets
 ---
 
-![Mana infused nugget](/assets/images/thermal-foundation/nugget-mithril.png){:style="height: 128px"}
+![Mana infused nugget](/assets/images/thermal-foundation-2/nugget-mithril.png){:style="height: 128px"}
 
 
 **Mana infused nuggets** are raw materials. They are the nugget form of [mana

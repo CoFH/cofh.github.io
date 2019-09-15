@@ -3,7 +3,7 @@ title: Flux-Infused Bow
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused bow
-  file: redstone-arsenal/flux-infused-bow.png
+  file: redstone-arsenal-2/flux-infused-bow.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-bow/
 - /docs/redstone-arsenal/weapons/flux-infused-bow/

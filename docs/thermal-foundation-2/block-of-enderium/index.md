@@ -3,7 +3,7 @@ title: Block of Enderium
 nav: thermal-foundation-2
 image:
 - alt: Block of enderium
-  file: thermal-foundation/storage-block-enderium.png
+  file: thermal-foundation-2/storage-block-enderium.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/enderium-block/
 - /docs/enderium-block/

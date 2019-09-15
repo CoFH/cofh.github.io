@@ -19,7 +19,7 @@ usage-recipes:
   - ti-alchemical-quiver-reinforced
 ---
 
-![Invar nugget](/assets/images/thermal-foundation/nugget-invar.png){:style="height: 128px"}
+![Invar nugget](/assets/images/thermal-foundation-2/nugget-invar.png){:style="height: 128px"}
 
 
 **Invar nuggets** are raw materials. They are the nugget form of

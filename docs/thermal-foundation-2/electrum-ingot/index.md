@@ -95,7 +95,7 @@ usage-recipes:
   - gear-electrum
 ---
 
-![Electrum ingot](/assets/images/thermal-foundation/ingot-electrum.png){:style="height: 128px"}
+![Electrum ingot](/assets/images/thermal-foundation-2/ingot-electrum.png){:style="height: 128px"}
 
 
 **Electrum ingots** are raw materials made from

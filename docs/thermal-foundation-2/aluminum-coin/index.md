@@ -10,7 +10,7 @@ recipes:
   - coin-aluminum
 ---
 
-![Aluminum coin](/assets/images/thermal-foundation/coin-aluminum.png){:style="height: 128px"}
+![Aluminum coin](/assets/images/thermal-foundation-2/coin-aluminum.png){:style="height: 128px"}
 
 
 **Aluminum coins** are materials made of [aluminum](/docs/thermal-foundation-2/aluminum-ingot/) that

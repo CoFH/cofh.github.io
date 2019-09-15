@@ -52,7 +52,7 @@ usage-recipes:
   - gear-signalum
 ---
 
-![Signalum ingot](/assets/images/thermal-foundation/ingot-signalum.png){:style="height: 128px"}
+![Signalum ingot](/assets/images/thermal-foundation-2/ingot-signalum.png){:style="height: 128px"}
 
 
 **Signalum ingots** are raw materials made from [copper](/docs/thermal-foundation-2/copper-ingot/),

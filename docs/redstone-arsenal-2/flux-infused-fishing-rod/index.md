@@ -3,7 +3,7 @@ title: Flux-Infused Fishing Rod
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused fishing rod
-  file: redstone-arsenal/flux-infused-fishing-rod.png
+  file: redstone-arsenal-2/flux-infused-fishing-rod.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-fishing-rod/
 - /docs/redstone-arsenal/tools/flux-infused-fishing-rod/

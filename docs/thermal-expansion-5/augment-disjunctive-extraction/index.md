@@ -3,7 +3,7 @@ title: 'Augment: Disjunctive Extraction'
 nav: thermal-expansion-5
 image:
 - alt: Disjunctive extraction augment
-  file: thermal-expansion/augment-dynamo-enervation-enchant.png
+  file: thermal-expansion-5/augment-dynamo-enervation-enchant.png
 redirect_from:
 - /docs/augment-disjunctive-extraction/
 - /docs/thermal-expansion/augment-disjunctive-extraction/

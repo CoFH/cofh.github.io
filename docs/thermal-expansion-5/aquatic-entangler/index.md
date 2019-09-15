@@ -9,7 +9,7 @@ recipes:
   - te5-device-fisher
 ---
 
-![Aquatic entangler](/assets/images/thermal-expansion/aquatic-entangler.png){:style="height: 128px"}
+![Aquatic entangler](/assets/images/thermal-expansion-5/aquatic-entangler.png){:style="height: 128px"}
 
 > Hang up your fishing rod.
 

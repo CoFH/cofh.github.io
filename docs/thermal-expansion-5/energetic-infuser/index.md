@@ -19,7 +19,7 @@ recipe-list:
 - aqua-chow-fluxed
 ---
 
-![Energetic infuser](/assets/images/thermal-expansion/energetic-infuser.png){:style="height: 128px"}
+![Energetic infuser](/assets/images/thermal-expansion-5/energetic-infuser.png){:style="height: 128px"}
 
 > Feel the hum.
 

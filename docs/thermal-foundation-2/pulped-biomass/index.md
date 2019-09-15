@@ -3,7 +3,7 @@ title: Pulped Biomass
 nav: thermal-foundation-2
 image:
 - alt: Pulped biomass
-  file: thermal-foundation/biomass.png
+  file: thermal-foundation-2/biomass.png
 recipes:
   sawmill:
   - biomass-from-sapling

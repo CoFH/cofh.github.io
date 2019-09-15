@@ -8,37 +8,37 @@ redirect_from:
 - /docs/thermal-foundation/shields/
 image:
 - alt: Iron shield
-  file: thermal-foundation/shield-iron.png
+  file: thermal-foundation-2/shield-iron.png
 - alt: Gold shield
-  file: thermal-foundation/shield-gold.png
+  file: thermal-foundation-2/shield-gold.png
 - alt: Diamond shield
-  file: thermal-foundation/shield-diamond.png
+  file: thermal-foundation-2/shield-diamond.png
 - alt: Copper shield
-  file: thermal-foundation/shield-copper.png
+  file: thermal-foundation-2/shield-copper.png
 - alt: Tin shield
-  file: thermal-foundation/shield-tin.png
+  file: thermal-foundation-2/shield-tin.png
 - alt: Silver shield
-  file: thermal-foundation/shield-silver.png
+  file: thermal-foundation-2/shield-silver.png
 - alt: Lead shield
-  file: thermal-foundation/shield-lead.png
+  file: thermal-foundation-2/shield-lead.png
 - alt: Aluminum shield
-  file: thermal-foundation/shield-aluminum.png
+  file: thermal-foundation-2/shield-aluminum.png
 - alt: Nickel shield
-  file: thermal-foundation/shield-nickel.png
+  file: thermal-foundation-2/shield-nickel.png
 - alt: Platinum shield
-  file: thermal-foundation/shield-platinum.png
+  file: thermal-foundation-2/shield-platinum.png
 - alt: Steel shield
-  file: thermal-foundation/shield-steel.png
+  file: thermal-foundation-2/shield-steel.png
 - alt: Electrum shield
-  file: thermal-foundation/shield-electrum.png
+  file: thermal-foundation-2/shield-electrum.png
 - alt: Invar shield
-  file: thermal-foundation/shield-invar.png
+  file: thermal-foundation-2/shield-invar.png
 - alt: Bronze shield
-  file: thermal-foundation/shield-bronze.png
+  file: thermal-foundation-2/shield-bronze.png
 - alt: Constantan shield
-  file: thermal-foundation/shield-constantan.png
+  file: thermal-foundation-2/shield-constantan.png
 - alt: Stone shield
-  file: thermal-foundation/shield-stone.png
+  file: thermal-foundation-2/shield-stone.png
 recipes:
   crafting:
   - tf2-weapon-shield-stone

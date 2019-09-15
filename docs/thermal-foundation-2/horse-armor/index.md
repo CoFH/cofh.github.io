@@ -3,29 +3,29 @@ title: Horse Armor (Thermal Foundation)
 nav: thermal-foundation-2
 image:
 - alt: Copper horse armor
-  file: thermal-foundation/horse-armor-copper.png
+  file: thermal-foundation-2/horse-armor-copper.png
 - alt: Tin horse armor
-  file: thermal-foundation/horse-armor-tin.png
+  file: thermal-foundation-2/horse-armor-tin.png
 - alt: Silver horse armor
-  file: thermal-foundation/horse-armor-silver.png
+  file: thermal-foundation-2/horse-armor-silver.png
 - alt: Lead horse armor
-  file: thermal-foundation/horse-armor-lead.png
+  file: thermal-foundation-2/horse-armor-lead.png
 - alt: Aluminum horse armor
-  file: thermal-foundation/horse-armor-aluminum.png
+  file: thermal-foundation-2/horse-armor-aluminum.png
 - alt: Nickel horse armor
-  file: thermal-foundation/horse-armor-nickel.png
+  file: thermal-foundation-2/horse-armor-nickel.png
 - alt: Platinum horse armor
-  file: thermal-foundation/horse-armor-platinum.png
+  file: thermal-foundation-2/horse-armor-platinum.png
 - alt: Steel horse armor
-  file: thermal-foundation/horse-armor-steel.png
+  file: thermal-foundation-2/horse-armor-steel.png
 - alt: Electrum horse armor
-  file: thermal-foundation/horse-armor-electrum.png
+  file: thermal-foundation-2/horse-armor-electrum.png
 - alt: Invar horse armor
-  file: thermal-foundation/horse-armor-invar.png
+  file: thermal-foundation-2/horse-armor-invar.png
 - alt: Bronze horse armor
-  file: thermal-foundation/horse-armor-bronze.png
+  file: thermal-foundation-2/horse-armor-bronze.png
 - alt: Constantan horse armor
-  file: thermal-foundation/horse-armor-constantan.png
+  file: thermal-foundation-2/horse-armor-constantan.png
 recipes:
   crafting:
   - tf2-horse-armor-copper

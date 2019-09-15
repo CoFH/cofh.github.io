@@ -22,7 +22,7 @@ usage-recipes:
   - basalz-rod-from-powder
 ---
 
-![Basalz powder](/assets/images/thermal-foundation/basalz-powder.gif){:style="height: 128px"}
+![Basalz powder](/assets/images/thermal-foundation-2/basalz-powder.gif){:style="height: 128px"}
 
 
 **Basalz powder** is a material that is most commonly obtained from [basalz

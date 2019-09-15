@@ -47,7 +47,7 @@ usage-recipes:
   - recycling-tool-sickle-diamond
 ---
 
-![Sickles](/assets/images/thermal-foundation/sickles.gif){:style="height: 128px"}
+![Sickles](/assets/images/thermal-foundation-2/sickles.gif){:style="height: 128px"}
 
 
 **Sickles** are tools that can be used to break large amounts of plant-like

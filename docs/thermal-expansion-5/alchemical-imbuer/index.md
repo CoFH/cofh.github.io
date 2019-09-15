@@ -3,7 +3,7 @@ title: Alchemical Imbuer
 nav: thermal-expansion-5
 image:
 - alt: Alchemical imbuer
-  file: thermal-expansion/alchemical-imbuer.png
+  file: thermal-expansion-5/alchemical-imbuer.png
 redirect_from:
 - /docs/alchemical-imbuer/
 - /docs/thermal-expansion/alchemical-imbuer/

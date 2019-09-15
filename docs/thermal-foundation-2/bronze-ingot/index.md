@@ -75,7 +75,7 @@ usage-recipes:
   - gear-bronze
 ---
 
-![Bronze ingot](/assets/images/thermal-foundation/ingot-bronze.png){:style="height: 128px"}
+![Bronze ingot](/assets/images/thermal-foundation-2/ingot-bronze.png){:style="height: 128px"}
 
 
 **Bronze ingots** are raw materials made from [copper](/docs/thermal-foundation-2/copper-ingot/) and

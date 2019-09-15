@@ -3,15 +3,15 @@ title: Filters
 nav: thermal-dynamics-2
 image:
 - alt: Filter
-  file: thermal-dynamics/filter-basic.png
+  file: thermal-dynamics-2/filter-basic.png
 - alt: Hardened filter
-  file: thermal-dynamics/filter-hardened.png
+  file: thermal-dynamics-2/filter-hardened.png
 - alt: Reinforced filter
-  file: thermal-dynamics/filter-reinforced.png
+  file: thermal-dynamics-2/filter-reinforced.png
 - alt: Signalum filter
-  file: thermal-dynamics/filter-signalum.png
+  file: thermal-dynamics-2/filter-signalum.png
 - alt: Resonant filter
-  file: thermal-dynamics/filter-resonant.png
+  file: thermal-dynamics-2/filter-resonant.png
 redirect_from:
 - /docs/thermal-dynamics/attachments/filters/
 - /docs/filters/

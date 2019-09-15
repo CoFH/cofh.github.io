@@ -3,7 +3,7 @@ title: 'Augment: Numismatic Press'
 nav: thermal-expansion-5
 image:
 - alt: Numismatic press augment
-  file: thermal-expansion/augment-machine-compactor-coin.png
+  file: thermal-expansion-5/augment-machine-compactor-coin.png
 redirect_from:
 - /docs/augment-numismatic-press/
 - /docs/thermal-expansion/augment-numismatic-press/

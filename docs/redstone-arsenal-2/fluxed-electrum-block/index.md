@@ -3,7 +3,7 @@ title: Fluxed Electrum Block
 nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum block
-  file: redstone-arsenal/storage-block-fluxed-electrum.png
+  file: redstone-arsenal-2/storage-block-fluxed-electrum.png
 redirect_from:
 - /redstone-arsenal/block/
 - /docs/redstone-arsenal/materials/fluxed-electrum-block/

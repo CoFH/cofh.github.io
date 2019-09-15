@@ -3,7 +3,7 @@ title: 'Augment: Nullification Chamber'
 nav: thermal-expansion-5
 image:
 - alt: Nullification chamber augment
-  file: thermal-expansion/augment-machine-secondary-null.gif
+  file: thermal-expansion-5/augment-machine-secondary-null.gif
 redirect_from:
 - /docs/thermal-expansion/augments/machine-secondary-nullifier/
 - /docs/augment-nullification-chamber/

@@ -34,7 +34,7 @@ usage-recipes:
   - hardened-glass-copper
 ---
 
-![Pulverized copper](/assets/images/thermal-foundation/dust-copper.png){:style="height: 128px"}
+![Pulverized copper](/assets/images/thermal-foundation-2/dust-copper.png){:style="height: 128px"}
 
 
 **Pulverized copper** is a raw material. It is the dust form of

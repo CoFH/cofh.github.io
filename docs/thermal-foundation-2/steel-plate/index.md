@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-steel
 ---
 
-![Steel plate](/assets/images/thermal-foundation/plate-steel.png){:style="height: 128px"}
+![Steel plate](/assets/images/thermal-foundation-2/plate-steel.png){:style="height: 128px"}
 
 
 **Steel plates** are crafting materials made of [steel](/docs/thermal-foundation-2/steel-ingot/).

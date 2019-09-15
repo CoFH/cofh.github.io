@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-platinum
 ---
 
-![Platinum plate](/assets/images/thermal-foundation/plate-platinum.png){:style="height: 128px"}
+![Platinum plate](/assets/images/thermal-foundation-2/plate-platinum.png){:style="height: 128px"}
 
 
 **Platinum plates** are crafting materials made of

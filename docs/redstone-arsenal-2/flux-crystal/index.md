@@ -3,7 +3,7 @@ title: Flux Crystal
 nav: redstone-arsenal-2
 image:
 - alt: Flux crystal
-  file: redstone-arsenal/flux-crystal.gif
+  file: redstone-arsenal-2/flux-crystal.gif
 redirect_from:
 - /docs/redstone-arsenal/materials/flux-crystal/
 - /docs/flux-crystal/

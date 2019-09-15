@@ -3,7 +3,7 @@ title: Block of Bronze
 nav: thermal-foundation-2
 image:
 - alt: Block of bronze
-  file: thermal-foundation/storage-block-bronze.png
+  file: thermal-foundation-2/storage-block-bronze.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/bronze-block/
 - /docs/bronze-block/

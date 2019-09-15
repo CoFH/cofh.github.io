@@ -37,7 +37,7 @@ usage-recipes:
   - wood
 ---
 
-![Phyto-Gro](/assets/images/thermal-foundation/phyto-gro.png){:style="height: 128px"}
+![Phyto-Gro](/assets/images/thermal-foundation-2/phyto-gro.png){:style="height: 128px"}
 
 
 **Phyto-Gro** is a type of fertilizer. It is the weakest of its kind, being

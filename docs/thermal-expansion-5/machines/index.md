@@ -3,37 +3,37 @@ title: Machines
 nav: thermal-expansion-5
 image:
 - alt: Redstone furnace
-  file: thermal-expansion/redstone-furnace.png
+  file: thermal-expansion-5/redstone-furnace.png
 - alt: Pulverizer
-  file: thermal-expansion/pulverizer.png
+  file: thermal-expansion-5/pulverizer.png
 - alt: Sawmill
-  file: thermal-expansion/sawmill.png
+  file: thermal-expansion-5/sawmill.png
 - alt: Induction smelter
-  file: thermal-expansion/induction-smelter.png
+  file: thermal-expansion-5/induction-smelter.png
 - alt: Phytogenic insolator
-  file: thermal-expansion/phytogenic-insolator.png
+  file: thermal-expansion-5/phytogenic-insolator.png
 - alt: Compactor
-  file: thermal-expansion/compactor.png
+  file: thermal-expansion-5/compactor.png
 - alt: Magma crucible
-  file: thermal-expansion/magma-crucible.png
+  file: thermal-expansion-5/magma-crucible.png
 - alt: Fractionating still
-  file: thermal-expansion/fractionating-still.png
+  file: thermal-expansion-5/fractionating-still.png
 - alt: Fluid transposer
-  file: thermal-expansion/fluid-transposer.png
+  file: thermal-expansion-5/fluid-transposer.png
 - alt: Energetic infuser
-  file: thermal-expansion/energetic-infuser.png
+  file: thermal-expansion-5/energetic-infuser.png
 - alt: Centrifugal separator
-  file: thermal-expansion/centrifugal-separator.png
+  file: thermal-expansion-5/centrifugal-separator.png
 - alt: Sequential fabricator
-  file: thermal-expansion/sequential-fabricator.png
+  file: thermal-expansion-5/sequential-fabricator.png
 - alt: Alchemical imbuer
-  file: thermal-expansion/alchemical-imbuer.png
+  file: thermal-expansion-5/alchemical-imbuer.png
 - alt: Arcane ensorcellator
-  file: thermal-expansion/arcane-ensorcellator.png
+  file: thermal-expansion-5/arcane-ensorcellator.png
 - alt: Glacial precipitator
-  file: thermal-expansion/glacial-precipitator.png
+  file: thermal-expansion-5/glacial-precipitator.png
 - alt: Igneous extruder
-  file: thermal-expansion/igneous-extruder.png
+  file: thermal-expansion-5/igneous-extruder.png
 redirect_from:
 - /docs/thermal-expansion/materials/machine-frames/
 - /docs/machines/

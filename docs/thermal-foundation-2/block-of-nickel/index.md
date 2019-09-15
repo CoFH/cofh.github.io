@@ -3,7 +3,7 @@ title: Block of Nickel
 nav: thermal-foundation-2
 image:
 - alt: Block of nickel
-  file: thermal-foundation/storage-block-nickel.png
+  file: thermal-foundation-2/storage-block-nickel.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/nickel-block/
 - /docs/nickel-block/

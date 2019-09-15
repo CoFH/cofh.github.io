@@ -10,7 +10,7 @@ recipes:
   - coin-mithril
 ---
 
-![Mana infused coin](/assets/images/thermal-foundation/coin-mithril.png){:style="height: 128px"}
+![Mana infused coin](/assets/images/thermal-foundation-2/coin-mithril.png){:style="height: 128px"}
 
 
 **Mana infused coins** are materials made of [mana infused

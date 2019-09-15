@@ -3,7 +3,7 @@ title: Leadstone Fluxduct
 nav: thermal-dynamics-2
 image:
 - alt: Leadstone fluxduct
-  file: thermal-dynamics/fluxduct-leadstone.png
+  file: thermal-dynamics-2/fluxduct-leadstone.png
 redirect_from:
 - /docs/leadstone-fluxduct/
 - /docs/thermal-dynamics/leadstone-fluxduct/

@@ -3,7 +3,7 @@ title: Flux-Infused Pickaxe
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused pickaxe
-  file: redstone-arsenal/flux-infused-pickaxe.png
+  file: redstone-arsenal-2/flux-infused-pickaxe.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-pickaxe/
 - /docs/redstone-arsenal/tools/flux-infused-pickaxe/

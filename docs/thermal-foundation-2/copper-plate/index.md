@@ -19,7 +19,7 @@ usage-recipes:
   - recycling-plate-copper
 ---
 
-![Copper plate](/assets/images/thermal-foundation/plate-copper.png){:style="height: 128px"}
+![Copper plate](/assets/images/thermal-foundation-2/plate-copper.png){:style="height: 128px"}
 
 
 **Copper plates** are crafting materials made of [copper](/docs/thermal-foundation-2/copper-ingot/).

@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-foundation/block-of-charcoal/
 image:
 - alt: Block of charcoal
-  file: thermal-foundation/storage-block-charcoal.png
+  file: thermal-foundation-2/storage-block-charcoal.png
 recipes:
   crafting:
   - tf2-storage-block-charcoal

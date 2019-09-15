@@ -21,7 +21,7 @@ usage-recipes:
   - ore-processing-cinnabar-iridium
 ---
 
-![Iridium ore](/assets/images/thermal-foundation/ore-iridium.png){:style="height: 128px"}
+![Iridium ore](/assets/images/thermal-foundation-2/ore-iridium.png){:style="height: 128px"}
 
 
 **Iridium ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields

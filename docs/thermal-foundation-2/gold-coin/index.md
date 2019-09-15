@@ -10,7 +10,7 @@ recipes:
   - coin-gold
 ---
 
-![Gold coin](/assets/images/thermal-foundation/coin-gold.png){:style="height: 128px"}
+![Gold coin](/assets/images/thermal-foundation-2/coin-gold.png){:style="height: 128px"}
 
 
 **Gold coins** are materials made of

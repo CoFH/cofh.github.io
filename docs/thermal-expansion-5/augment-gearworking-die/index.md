@@ -3,7 +3,7 @@ title: 'Augment: Gearworking Die'
 nav: thermal-expansion-5
 image:
 - alt: Gearworking Die augment
-  file: thermal-expansion/augment-machine-compactor-gear.png
+  file: thermal-expansion-5/augment-machine-compactor-gear.png
 redirect_from:
 - /docs/augment-gearworking-die/
 - /docs/thermal-expansion/augment-gearworking-die/

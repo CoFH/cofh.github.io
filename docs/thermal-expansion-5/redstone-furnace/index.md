@@ -23,7 +23,7 @@ recipe-list:
 - leather
 ---
 
-![Redstone furnace](/assets/images/thermal-expansion/redstone-furnace.png){:style="height: 128px"}
+![Redstone furnace](/assets/images/thermal-expansion-5/redstone-furnace.png){:style="height: 128px"}
 
 > Coal is for chumps!
 

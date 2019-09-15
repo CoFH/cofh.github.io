@@ -13,7 +13,7 @@ usage-recipes:
   - tf2-ingot-nickel-from-nuggets
 ---
 
-![Nickel nugget](/assets/images/thermal-foundation/nugget-nickel.png){:style="height: 128px"}
+![Nickel nugget](/assets/images/thermal-foundation-2/nugget-nickel.png){:style="height: 128px"}
 
 
 **Nickel nuggets** are raw materials. They are the nugget form of

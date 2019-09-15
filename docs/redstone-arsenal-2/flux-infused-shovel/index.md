@@ -3,7 +3,7 @@ title: Flux-Infused Shovel
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused shovel
-  file: redstone-arsenal/flux-infused-shovel.png
+  file: redstone-arsenal-2/flux-infused-shovel.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-shovel/
 - /docs/redstone-arsenal/tools/flux-infused-shovel/

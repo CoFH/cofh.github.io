@@ -33,7 +33,7 @@ usage-recipes:
   - hardened-glass-nickel
 ---
 
-![Pulverized nickel](/assets/images/thermal-foundation/dust-nickel.png){:style="height: 128px"}
+![Pulverized nickel](/assets/images/thermal-foundation-2/dust-nickel.png){:style="height: 128px"}
 
 
 **Pulverized nickel** is a raw material. It is the dust form of

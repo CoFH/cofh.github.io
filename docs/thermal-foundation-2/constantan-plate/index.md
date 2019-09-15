@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-plate-constantan
 ---
 
-![Constantan plate](/assets/images/thermal-foundation/plate-constantan.png){:style="height: 128px"}
+![Constantan plate](/assets/images/thermal-foundation-2/plate-constantan.png){:style="height: 128px"}
 
 
 **Constantan plates** are crafting materials made of

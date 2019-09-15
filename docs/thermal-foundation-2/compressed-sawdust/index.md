@@ -15,7 +15,7 @@ usage-recipes:
   - charcoal-from-sawdust
 ---
 
-![Compressed sawdust](/assets/images/thermal-foundation/sawdust-compressed.png){:style="height: 128px"}
+![Compressed sawdust](/assets/images/thermal-foundation-2/sawdust-compressed.png){:style="height: 128px"}
 
 
 **Compressed sawdust** is a material obtained by combining nine pieces of

@@ -45,7 +45,7 @@ usage-recipes:
   - te5-augment-machine-extruder-no-water
 ---
 
-![Redstone servo](/assets/images/thermal-foundation/redstone-servo.png){:style="height: 128px"}
+![Redstone servo](/assets/images/thermal-foundation-2/redstone-servo.png){:style="height: 128px"}
 
 
 **Redstone servos** are crafting materials made of

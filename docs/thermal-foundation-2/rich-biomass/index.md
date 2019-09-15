@@ -3,7 +3,7 @@ title: Rich Biomass
 nav: thermal-foundation-2
 image:
 - alt: Rich biomass
-  file: thermal-foundation/biomass-rich.png
+  file: thermal-foundation-2/biomass-rich.png
 recipes:
   transposer-fill:
   - biomass-rich

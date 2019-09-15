@@ -3,7 +3,7 @@ title: Diamond Gear
 nav: thermal-foundation-2
 image:
 - alt: Diamond gear
-  file: thermal-foundation/gear-diamond.png
+  file: thermal-foundation-2/gear-diamond.png
 recipes:
   crafting:
   - tf2-gear-diamond

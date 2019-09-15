@@ -39,7 +39,7 @@ recipe-list:
 - recycling-armor-boots-leather
 ---
 
-![Sawmill](/assets/images/thermal-expansion/sawmill.png){:style="height: 128px"}
+![Sawmill](/assets/images/thermal-expansion-5/sawmill.png){:style="height: 128px"}
 
 > Better watch your hands...
 

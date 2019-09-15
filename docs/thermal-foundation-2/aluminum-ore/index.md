@@ -21,7 +21,7 @@ usage-recipes:
   - ore-processing-cinnabar-aluminum
 ---
 
-![Aluminum ore](/assets/images/thermal-foundation/ore-aluminum.png){:style="height: 128px"}
+![Aluminum ore](/assets/images/thermal-foundation-2/ore-aluminum.png){:style="height: 128px"}
 
 
 **Aluminum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields

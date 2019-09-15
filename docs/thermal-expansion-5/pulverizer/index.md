@@ -129,7 +129,7 @@ recipe-list:
   - recycling-horse-armor-diamond
 ---
 
-![Pulverizer](/assets/images/thermal-expansion/pulverizer.png){:style="height: 128px"}
+![Pulverizer](/assets/images/thermal-expansion-5/pulverizer.png){:style="height: 128px"}
 
 > MACHINE SMASH! Puny ore.
 

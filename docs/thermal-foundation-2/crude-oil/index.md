@@ -19,7 +19,7 @@ usage-recipes:
   - naphtha-from-crude-oil
 ---
 
-![Crude oil](/assets/images/thermal-foundation/crude-oil.gif){:style="height: 128px"}
+![Crude oil](/assets/images/thermal-foundation-2/crude-oil.gif){:style="height: 128px"}
 
 
 **Crude oil** is a fluid obtained from [oil sand](/docs/thermal-foundation-2/oil-sand/) and [oil

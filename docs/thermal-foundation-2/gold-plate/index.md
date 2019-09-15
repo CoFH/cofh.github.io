@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-plate-gold
 ---
 
-![Gold plate](/assets/images/thermal-foundation/plate-gold.png){:style="height: 128px"}
+![Gold plate](/assets/images/thermal-foundation-2/plate-gold.png){:style="height: 128px"}
 
 
 **Gold plates** are crafting materials made of

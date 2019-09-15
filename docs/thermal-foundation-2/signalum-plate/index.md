@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-signalum
 ---
 
-![Signalum plate](/assets/images/thermal-foundation/plate-signalum.png){:style="height: 128px"}
+![Signalum plate](/assets/images/thermal-foundation-2/plate-signalum.png){:style="height: 128px"}
 
 
 **Signalum plates** are crafting materials made of

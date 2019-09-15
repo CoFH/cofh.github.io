@@ -10,7 +10,7 @@ recipes:
   - coin-copper
 ---
 
-![Copper coin](/assets/images/thermal-foundation/coin-copper.png){:style="height: 128px"}
+![Copper coin](/assets/images/thermal-foundation-2/coin-copper.png){:style="height: 128px"}
 
 
 **Copper coins** are materials made of [copper](/docs/thermal-foundation-2/copper-ingot/) that can be

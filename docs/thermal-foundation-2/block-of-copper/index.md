@@ -3,7 +3,7 @@ title: Block of Copper
 nav: thermal-foundation-2
 image:
 - alt: Block of copper
-  file: thermal-foundation/storage-block-copper.png
+  file: thermal-foundation-2/storage-block-copper.png
 redirect_from:
 - /docs/thermal-foundation/materials/storage-blocks/
 - /docs/thermal-foundation/blocks/metal/copper-block/

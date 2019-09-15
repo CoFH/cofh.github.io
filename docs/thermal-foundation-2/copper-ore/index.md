@@ -22,7 +22,7 @@ usage-recipes:
   - ore-processing-cinnabar-copper
 ---
 
-![Copper ore](/assets/images/thermal-foundation/ore-copper.png){:style="height: 128px"}
+![Copper ore](/assets/images/thermal-foundation-2/ore-copper.png){:style="height: 128px"}
 
 
 **Copper ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that

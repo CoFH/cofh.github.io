@@ -3,7 +3,7 @@ title: Redstone Relay
 nav: thermal-dynamics-2
 image:
 - alt: Redstone relay
-  file: thermal-dynamics/redstone-relay.png
+  file: thermal-dynamics-2/redstone-relay.png
 redirect_from:
 - /docs/redstone-relay/
 - /docs/thermal-dynamics/redstone-relay/

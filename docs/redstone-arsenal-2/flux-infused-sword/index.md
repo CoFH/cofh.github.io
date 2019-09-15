@@ -3,7 +3,7 @@ title: Flux-Infused Sword
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused sword
-  file: redstone-arsenal/flux-infused-sword.png
+  file: redstone-arsenal-2/flux-infused-sword.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-sword/
 - /docs/redstone-arsenal/weapons/flux-infused-sword/

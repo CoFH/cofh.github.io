@@ -36,7 +36,7 @@ usage-recipes:
   - recycling-armor-boots-constantan
 ---
 
-![Boots](/assets/images/thermal-foundation/boots.gif){:style="height: 128px"}
+![Boots](/assets/images/thermal-foundation-2/boots.gif){:style="height: 128px"}
 
 
 **[Boots](https://minecraft.gamepedia.com/Boots)** are a type of

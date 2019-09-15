@@ -33,7 +33,7 @@ usage-recipes:
   - recycling-gear-copper
 ---
 
-![Copper gear](/assets/images/thermal-foundation/gear-copper.png){:style="height: 128px"}
+![Copper gear](/assets/images/thermal-foundation-2/gear-copper.png){:style="height: 128px"}
 
 
 **Copper gears** are crafting materials made of [copper](/docs/thermal-foundation-2/copper-ingot/).

@@ -3,7 +3,7 @@ title: Block of Iridium
 nav: thermal-foundation-2
 image:
 - alt: Block of iridium
-  file: thermal-foundation/storage-block-iridium.png
+  file: thermal-foundation-2/storage-block-iridium.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/iridium-block/
 - /docs/iridium-block/

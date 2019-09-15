@@ -17,7 +17,7 @@ usage-recipes:
   - blizz-powder
 ---
 
-![Blizz rod](/assets/images/thermal-foundation/blizz-rod.png){:style="height: 128px"}
+![Blizz rod](/assets/images/thermal-foundation-2/blizz-rod.png){:style="height: 128px"}
 
 
 **Blizz rods** are materials that are dropped by [blizzes](/docs/thermal-foundation-2/blizz/). They

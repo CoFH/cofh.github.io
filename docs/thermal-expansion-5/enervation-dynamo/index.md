@@ -3,7 +3,7 @@ title: Enervation Dynamo
 nav: thermal-expansion-5
 image:
 - alt: Enervation dynamo
-  file: thermal-expansion/dynamo-enervation-rf.png
+  file: thermal-expansion-5/dynamo-enervation-rf.png
 redirect_from:
 - /docs/thermal-expansion/dynamos/enervation-dynamo/
 - /docs/enervation-dynamo/

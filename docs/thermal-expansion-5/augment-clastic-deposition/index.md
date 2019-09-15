@@ -3,7 +3,7 @@ title: 'Augment: Clastic Deposition'
 nav: thermal-expansion-5
 image:
 - alt: Clastic deposition augment
-  file: thermal-expansion/augment-machine-extruder-sedimentary.gif
+  file: thermal-expansion-5/augment-machine-extruder-sedimentary.gif
 redirect_from:
 - /docs/augment-clastic-deposition/
 - /docs/thermal-expansion/augment-clastic-deposition/

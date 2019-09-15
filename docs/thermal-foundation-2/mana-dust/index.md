@@ -8,7 +8,7 @@ redirect_from:
 - /docs/thermal-foundation/mana-dust/
 ---
 
-![Mana dust](/assets/images/thermal-foundation/dust-mana.gif){:style="height: 128px"}
+![Mana dust](/assets/images/thermal-foundation-2/dust-mana.gif){:style="height: 128px"}
 
 
 **Mana dust** is a material that currently cannot be obtained.

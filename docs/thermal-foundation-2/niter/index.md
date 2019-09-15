@@ -30,7 +30,7 @@ usage-recipes:
   - blitz-powder
 ---
 
-![Niter](/assets/images/thermal-foundation/niter.png){:style="height: 128px"}
+![Niter](/assets/images/thermal-foundation-2/niter.png){:style="height: 128px"}
 
 
 **Niter** is a byproduct of processing

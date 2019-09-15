@@ -13,7 +13,7 @@ usage-recipes:
   - tf2-ingot-steel-from-nuggets
 ---
 
-![Steel nugget](/assets/images/thermal-foundation/nugget-steel.png){:style="height: 128px"}
+![Steel nugget](/assets/images/thermal-foundation-2/nugget-steel.png){:style="height: 128px"}
 
 
 **Steel nuggets** are raw materials. They are the nugget form of

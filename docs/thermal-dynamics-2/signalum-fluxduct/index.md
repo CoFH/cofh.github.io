@@ -3,7 +3,7 @@ title: Signalum Fluxduct
 nav: thermal-dynamics-2
 image:
 - alt: Signalum fluxduct
-  file: thermal-dynamics/fluxduct-signalum.png
+  file: thermal-dynamics-2/fluxduct-signalum.png
 redirect_from:
 - /docs/signalum-fluxduct/
 - /docs/thermal-dynamics/signalum-fluxduct/

@@ -39,7 +39,7 @@ usage-recipes:
   - dust-cryotheum
 ---
 
-![Cryotheum dust](/assets/images/thermal-foundation/dust-cryotheum.gif){:style="height: 128px"}
+![Cryotheum dust](/assets/images/thermal-foundation-2/dust-cryotheum.gif){:style="height: 128px"}
 
 
 **Cryotheum dust** is the ice elemental dust. It is most commonly used to make

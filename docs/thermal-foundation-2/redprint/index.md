@@ -13,7 +13,7 @@ recipes:
   - tf2-redprint
 ---
 
-![Redprint](/assets/images/thermal-foundation/redprint.png){:style="height: 128px"}
+![Redprint](/assets/images/thermal-foundation-2/redprint.png){:style="height: 128px"}
 
 
 **Redprints** are items that can copy the configuration of certain blocks to

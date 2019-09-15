@@ -38,7 +38,7 @@ usage-recipes:
   - recycling-armor-helmet-constantan
 ---
 
-![Helmets](/assets/images/thermal-foundation/helmets.gif){:style="height: 128px"}
+![Helmets](/assets/images/thermal-foundation-2/helmets.gif){:style="height: 128px"}
 
 
 **[Helmets](https://minecraft.gamepedia.com/Helmet)** are a type of

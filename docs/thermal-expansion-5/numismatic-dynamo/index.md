@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-expansion/numismatic-dynamo/
 image:
 - alt: Numismatic dynamo
-  file: thermal-expansion/dynamo-numismatic-rf.png
+  file: thermal-expansion-5/dynamo-numismatic-rf.png
 recipes:
   crafting:
   - te5-dynamo-numismatic

@@ -38,7 +38,7 @@ usage-recipes:
   - recycling-tool-pickaxe-constantan
 ---
 
-![Pickaxes](/assets/images/thermal-foundation/pickaxes.gif){:style="height: 128px"}
+![Pickaxes](/assets/images/thermal-foundation-2/pickaxes.gif){:style="height: 128px"}
 
 
 **[Pickaxes](https://minecraft.gamepedia.com/Pickaxe)** are tools in vanilla

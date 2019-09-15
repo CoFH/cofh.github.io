@@ -3,7 +3,7 @@ title: Block of Aluminum
 nav: thermal-foundation-2
 image:
 - alt: Block of aluminum
-  file: thermal-foundation/storage-block-aluminum.png
+  file: thermal-foundation-2/storage-block-aluminum.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/aluminum-block/
 - /docs/aluminum-block/

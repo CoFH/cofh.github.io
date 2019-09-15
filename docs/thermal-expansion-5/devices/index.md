@@ -6,31 +6,31 @@ redirect_from:
 - /docs/thermal-expansion/devices/
 image:
 - alt: Aqueous accumulator
-  file: thermal-expansion/aqueous-accumulator.png
+  file: thermal-expansion-5/aqueous-accumulator.png
 - alt: Nullifier
-  file: thermal-expansion/nullifier.png
+  file: thermal-expansion-5/nullifier.png
 - alt: Thermal mediator
-  file: thermal-expansion/thermal-mediator.png
+  file: thermal-expansion-5/thermal-mediator.png
 - alt: Arboreal extractor
-  file: thermal-expansion/arboreal-extractor.png
+  file: thermal-expansion-5/arboreal-extractor.png
 - alt: Aquatic entangler
-  file: thermal-expansion/aquatic-entangler.png
+  file: thermal-expansion-5/aquatic-entangler.png
 - alt: Item allocator
-  file: thermal-expansion/item-allocator.png
+  file: thermal-expansion-5/item-allocator.png
 - alt: Fluid allocator
-  file: thermal-expansion/fluid-allocator.png
+  file: thermal-expansion-5/fluid-allocator.png
 - alt: Lexical transmuter
-  file: thermal-expansion/lexical-transmuter.png
+  file: thermal-expansion-5/lexical-transmuter.png
 - alt: Insightful condenser
-  file: thermal-expansion/insightful-condenser.png
+  file: thermal-expansion-5/insightful-condenser.png
 - alt: Decoctive diffuser
-  file: thermal-expansion/decoctive-diffuser.png
+  file: thermal-expansion-5/decoctive-diffuser.png
 - alt: Factorizer
-  file: thermal-expansion/factorizer.png
+  file: thermal-expansion-5/factorizer.png
 - alt: Creature encaptulator
-  file: thermal-expansion/creature-encaptulator.png
+  file: thermal-expansion-5/creature-encaptulator.png
 - alt: Vacuumulator
-  file: thermal-expansion/vacuumulator.png
+  file: thermal-expansion-5/vacuumulator.png
 frame-recipes:
   crafting:
   - te5-frame-device

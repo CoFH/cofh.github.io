@@ -3,17 +3,17 @@ title: Energy Cell
 nav: thermal-expansion-5
 image:
 - alt: Energy cell (Basic)
-  file: thermal-expansion/energy-cell-basic.png
+  file: thermal-expansion-5/energy-cell-basic.png
 - alt: Energy cell (Hardened)
-  file: thermal-expansion/energy-cell-hardened.png
+  file: thermal-expansion-5/energy-cell-hardened.png
 - alt: Energy cell (Reinforced)
-  file: thermal-expansion/energy-cell-reinforced.png
+  file: thermal-expansion-5/energy-cell-reinforced.png
 - alt: Energy cell (Signalum)
-  file: thermal-expansion/energy-cell-signalum.png
+  file: thermal-expansion-5/energy-cell-signalum.png
 - alt: Energy cell (Resonant)
-  file: thermal-expansion/energy-cell-resonant.png
+  file: thermal-expansion-5/energy-cell-resonant.png
 - alt: Energy cell (Creative)
-  file: thermal-expansion/energy-cell-creative.png
+  file: thermal-expansion-5/energy-cell-creative.png
 redirect_from:
 - /docs/thermal-expansion/storage/energy-cells/
 - /docs/thermal-expansion/storage/energy-cell/

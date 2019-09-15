@@ -3,7 +3,7 @@ title: 'Augment: Closed-Loop Cooling'
 nav: thermal-expansion-5
 image:
 - alt: Closed-loop cooling augment
-  file: thermal-expansion/augment-dynamo-compression-coolant.png
+  file: thermal-expansion-5/augment-dynamo-compression-coolant.png
 redirect_from:
 - /docs/augment-closed-loop-cooling/
 - /docs/thermal-expansion/augment-closed-loop-cooling/

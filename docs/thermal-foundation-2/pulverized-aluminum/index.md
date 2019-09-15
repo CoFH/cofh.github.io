@@ -23,7 +23,7 @@ usage-recipes:
   - hardened-glass-aluminum
 ---
 
-![Pulverized aluminum](/assets/images/thermal-foundation/dust-aluminum.png){:style="height: 128px"}
+![Pulverized aluminum](/assets/images/thermal-foundation-2/dust-aluminum.png){:style="height: 128px"}
 
 
 **Pulverized aluminum** is a raw material. It is the dust form of

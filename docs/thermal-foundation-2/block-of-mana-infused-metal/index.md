@@ -3,7 +3,7 @@ title: Block of Mana Infused Metal
 nav: thermal-foundation-2
 image:
 - alt: Block of mana infused metal
-  file: thermal-foundation/storage-block-mithril.png
+  file: thermal-foundation-2/storage-block-mithril.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/mana-infused-block/
 - /docs/mana-infused-block/

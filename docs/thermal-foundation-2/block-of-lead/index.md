@@ -3,7 +3,7 @@ title: Block of Lead
 nav: thermal-foundation-2
 image:
 - alt: Block of lead
-  file: thermal-foundation/storage-block-lead.png
+  file: thermal-foundation-2/storage-block-lead.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/lead-block/
 - /docs/lead-block/

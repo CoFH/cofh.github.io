@@ -3,7 +3,7 @@ title: Block of Lumium
 nav: thermal-foundation-2
 image:
 - alt: Block of lumium
-  file: thermal-foundation/storage-block-lumium.png
+  file: thermal-foundation-2/storage-block-lumium.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/lumium-block/
 - /docs/lumium-block/

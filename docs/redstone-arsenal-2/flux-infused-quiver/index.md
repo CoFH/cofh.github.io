@@ -3,7 +3,7 @@ title: Flux-Infused Quiver
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused quiver
-  file: redstone-arsenal/flux-infused-quiver.png
+  file: redstone-arsenal-2/flux-infused-quiver.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-quiver/
 - /docs/redstone-arsenal/weapons/flux-infused-quiver/

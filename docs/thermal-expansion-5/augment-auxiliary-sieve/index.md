@@ -3,7 +3,7 @@ title: 'Augment: Auxiliary Sieve'
 nav: thermal-expansion-5
 image:
 - alt: Auxiliary sieve augment
-  file: thermal-expansion/augment-machine-secondary.png
+  file: thermal-expansion-5/augment-machine-secondary.png
 redirect_from:
 - /docs/thermal-expansion/augments/machine-secondary-output/
 - /docs/augment-auxiliary-sieve/

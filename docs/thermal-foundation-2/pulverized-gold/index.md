@@ -29,7 +29,7 @@ usage-recipes:
   - ingot-electrum-from-dust-gold-and-ingot-silver
 ---
 
-![Pulverized gold](/assets/images/thermal-foundation/dust-gold.png){:style="height: 128px"}
+![Pulverized gold](/assets/images/thermal-foundation-2/dust-gold.png){:style="height: 128px"}
 
 
 **Pulverized gold** is a raw material. It is the dust form of

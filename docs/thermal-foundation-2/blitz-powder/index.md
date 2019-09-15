@@ -22,7 +22,7 @@ usage-recipes:
   - blitz-rod-from-powder
 ---
 
-![Blitz powder](/assets/images/thermal-foundation/blitz-powder.gif){:style="height: 128px"}
+![Blitz powder](/assets/images/thermal-foundation-2/blitz-powder.gif){:style="height: 128px"}
 
 
 **Blitz powder** is a material that is most commonly obtained from [blitz

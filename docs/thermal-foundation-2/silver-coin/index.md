@@ -10,7 +10,7 @@ recipes:
   - coin-silver
 ---
 
-![Silver coin](/assets/images/thermal-foundation/coin-silver.png){:style="height: 128px"}
+![Silver coin](/assets/images/thermal-foundation-2/coin-silver.png){:style="height: 128px"}
 
 
 **Silver coins** are materials made of [silver](/docs/thermal-foundation-2/silver-ingot/) that can be

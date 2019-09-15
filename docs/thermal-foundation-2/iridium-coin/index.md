@@ -10,7 +10,7 @@ recipes:
   - coin-iridium
 ---
 
-![Iridium coin](/assets/images/thermal-foundation/coin-iridium.png){:style="height: 128px"}
+![Iridium coin](/assets/images/thermal-foundation-2/coin-iridium.png){:style="height: 128px"}
 
 
 **Iridium coins** are materials made of [iridium](/docs/thermal-foundation-2/iridium-ingot/) that can

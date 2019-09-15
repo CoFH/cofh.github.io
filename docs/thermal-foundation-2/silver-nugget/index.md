@@ -17,7 +17,7 @@ usage-recipes:
   - td2-itemduct-energy-fast-vacuum
 ---
 
-![Silver nugget](/assets/images/thermal-foundation/nugget-silver.png){:style="height: 128px"}
+![Silver nugget](/assets/images/thermal-foundation-2/nugget-silver.png){:style="height: 128px"}
 
 
 **Silver nuggets** are raw materials. They are the nugget form of

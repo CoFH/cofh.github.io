@@ -3,7 +3,7 @@ title: Fluxed Electrum Blend
 nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum blend
-  file: redstone-arsenal/dust-fluxed-electrum.gif
+  file: redstone-arsenal-2/dust-fluxed-electrum.gif
 redirect_from:
 - /docs/redstone-arsenal/materials/fluxed-electrum-blend/
 - /docs/fluxed-electrum-blend/

@@ -3,9 +3,9 @@ title: Itemduct
 nav: thermal-dynamics-2
 image:
 - alt: Itemduct
-  file: thermal-dynamics/itemduct.png
+  file: thermal-dynamics-2/itemduct.png
 - alt: Itemduct (opaque)
-  file: thermal-dynamics/itemduct-opaque.png
+  file: thermal-dynamics-2/itemduct-opaque.png
 redirect_from:
 - /thermal-expansion/items/itemducts/
 - /thermal-expansion/transportation/itemducts/

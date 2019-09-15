@@ -10,7 +10,7 @@ recipes:
   - te5-device-item-buffer
 ---
 
-![Item allocator](/assets/images/thermal-expansion/item-allocator.png){:style="height: 128px"}
+![Item allocator](/assets/images/thermal-expansion-5/item-allocator.png){:style="height: 128px"}
 
 > Better than a [hopper](https://minecraft.gamepedia.com/Hopper), really!
 

@@ -71,7 +71,7 @@ usage-recipes:
   - gear-constantan
 ---
 
-![Constantan ingot](/assets/images/thermal-foundation/ingot-constantan.png){:style="height: 128px"}
+![Constantan ingot](/assets/images/thermal-foundation-2/ingot-constantan.png){:style="height: 128px"}
 
 
 **Constantan ingots** are raw materials made from [copper](/docs/thermal-foundation-2/copper-ingot/)

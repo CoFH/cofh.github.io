@@ -3,7 +3,7 @@ title: Block of Silver
 nav: thermal-foundation-2
 image:
 - alt: Block of silver
-  file: thermal-foundation/storage-block-silver.png
+  file: thermal-foundation-2/storage-block-silver.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/silver-block/
 - /docs/silver-block/

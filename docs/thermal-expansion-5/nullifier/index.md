@@ -11,7 +11,7 @@ recipes:
   - te5-device-nullifier
 ---
 
-![Nullifier](/assets/images/thermal-expansion/nullifier.png){:style="height: 128px"}
+![Nullifier](/assets/images/thermal-expansion-5/nullifier.png){:style="height: 128px"}
 
 > Sends all the things to `/dev/null`!
 

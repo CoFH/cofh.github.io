@@ -3,7 +3,7 @@ title: 'Augment: Pattern Validation'
 nav: thermal-expansion-5
 image:
 - alt: Pattern validation augment
-  file: thermal-expansion/augment-machine-crafter-input.gif
+  file: thermal-expansion-5/augment-machine-crafter-input.gif
 redirect_from:
 - /docs/augment-pattern-validation/
 - /docs/thermal-expansion/augment-pattern-validation/

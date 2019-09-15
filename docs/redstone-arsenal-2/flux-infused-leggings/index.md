@@ -3,7 +3,7 @@ title: Flux-Infused Leggings
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused leggings
-  file: redstone-arsenal/flux-infused-leggings.png
+  file: redstone-arsenal-2/flux-infused-leggings.png
 redirect_from:
 - /docs/flux-infused-leggings/
 - /docs/redstone-arsenal/flux-infused-leggings/

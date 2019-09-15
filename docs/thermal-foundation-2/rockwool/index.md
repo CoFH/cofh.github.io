@@ -19,7 +19,7 @@ usage-recipes:
   - te5-satchel-void-using-rockwool
 ---
 
-![Rockwool](/assets/images/thermal-foundation/rockwool.gif){:style="height: 128px"}
+![Rockwool](/assets/images/thermal-foundation-2/rockwool.gif){:style="height: 128px"}
 
 
 **Rockwool** is a fireproof and slightly more explosion resistant version of

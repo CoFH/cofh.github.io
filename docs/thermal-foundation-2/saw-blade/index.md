@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-foundation/saw-blade/
 image:
 - alt: Saw blade
-  file: thermal-foundation/saw-blade.png
+  file: thermal-foundation-2/saw-blade.png
 recipes:
   crafting:
   - tf2-saw-blade

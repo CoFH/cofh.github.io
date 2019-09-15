@@ -6,17 +6,17 @@ redirect_from:
 - /docs/thermal-expansion/reservoir/
 image:
 - alt: Reservoir (Basic)
-  file: thermal-expansion/reservoir-basic.png
+  file: thermal-expansion-5/reservoir-basic.png
 - alt: Reservoir (Hardened)
-  file: thermal-expansion/reservoir-hardened.png
+  file: thermal-expansion-5/reservoir-hardened.png
 - alt: Reservoir (Reinforced)
-  file: thermal-expansion/reservoir-reinforced.png
+  file: thermal-expansion-5/reservoir-reinforced.png
 - alt: Reservoir (Signalum)
-  file: thermal-expansion/reservoir-signalum.png
+  file: thermal-expansion-5/reservoir-signalum.png
 - alt: Reservoir (Resonant)
-  file: thermal-expansion/reservoir-resonant.png
+  file: thermal-expansion-5/reservoir-resonant.png
 - alt: Reservoir (Creative)
-  file: thermal-expansion/reservoir-creative.png
+  file: thermal-expansion-5/reservoir-creative.png
 recipes:
   crafting:
   - te5-reservoir-basic

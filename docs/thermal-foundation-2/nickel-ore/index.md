@@ -21,7 +21,7 @@ usage-recipes:
   - ore-processing-cinnabar-nickel
 ---
 
-![Nickel ore](/assets/images/thermal-foundation/ore-nickel.png){:style="height: 128px"}
+![Nickel ore](/assets/images/thermal-foundation-2/ore-nickel.png){:style="height: 128px"}
 
 
 **Nickel ore** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that

@@ -32,7 +32,7 @@ usage-recipes:
   - ingot-invar-from-dust-iron-and-ingot-nickel
 ---
 
-![Pulverized iron](/assets/images/thermal-foundation/dust-iron.png){:style="height: 128px"}
+![Pulverized iron](/assets/images/thermal-foundation-2/dust-iron.png){:style="height: 128px"}
 
 
 **Pulverized iron** is a raw material. It is the dust form of

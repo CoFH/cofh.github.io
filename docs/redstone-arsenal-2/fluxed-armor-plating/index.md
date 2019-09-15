@@ -3,7 +3,7 @@ title: Fluxed Armor Plating
 nav: redstone-arsenal-2
 image:
 - alt: Fluxed armor plating
-  file: redstone-arsenal/fluxed-armor-plating.png
+  file: redstone-arsenal-2/fluxed-armor-plating.png
 redirect_from:
 - /docs/redstone-arsenal/materials/fluxed-armor-plating/
 - /docs/fluxed-armor-plating/

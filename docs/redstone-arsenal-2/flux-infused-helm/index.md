@@ -3,7 +3,7 @@ title: Flux-Infused Helm
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused helm
-  file: redstone-arsenal/flux-infused-helm.png
+  file: redstone-arsenal-2/flux-infused-helm.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-armor/
 - /docs/flux-infused-armor/

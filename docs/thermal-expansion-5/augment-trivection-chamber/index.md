@@ -3,7 +3,7 @@ title: 'Augment: Trivection Chamber'
 nav: thermal-expansion-5
 image:
 - alt: Trivection chamber augment
-  file: thermal-expansion/augment-machine-furnace-food.png
+  file: thermal-expansion-5/augment-machine-furnace-food.png
 redirect_from:
 - /docs/thermal-expansion/augments/redstone-furnace-specialization/
 - /docs/augment-trivection-chamber/

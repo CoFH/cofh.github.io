@@ -3,7 +3,7 @@ title: Cryo-Stabilized Fluxduct
 nav: thermal-dynamics-2
 image:
 - alt: Cryo-stabilized fluxduct
-  file: thermal-dynamics/fluxduct-cryo-stabilized.png
+  file: thermal-dynamics-2/fluxduct-cryo-stabilized.png
 redirect_from:
 - /docs/cryo-stabilized-fluxduct/
 - /docs/thermal-dynamics/cryo-stabilized-fluxduct/

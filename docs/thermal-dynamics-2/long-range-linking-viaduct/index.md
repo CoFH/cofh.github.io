@@ -3,7 +3,7 @@ title: Long Range Linking Viaduct
 nav: thermal-dynamics-2
 image:
 - alt: Long range linking viaduct
-  file: thermal-dynamics/viaduct-long-range-linking.png
+  file: thermal-dynamics-2/viaduct-long-range-linking.png
 redirect_from:
 - /docs/long-range-linking-viaduct/
 - /docs/thermal-dynamics/long-range-linking-viaduct/

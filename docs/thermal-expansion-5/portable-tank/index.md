@@ -3,17 +3,17 @@ title: Portable Tank
 nav: thermal-expansion-5
 image:
 - alt: Portable tank (Basic)
-  file: thermal-expansion/portable-tank-basic.png
+  file: thermal-expansion-5/portable-tank-basic.png
 - alt: Portable tank (Hardened)
-  file: thermal-expansion/portable-tank-hardened.png
+  file: thermal-expansion-5/portable-tank-hardened.png
 - alt: Portable tank (Reinforced)
-  file: thermal-expansion/portable-tank-reinforced.png
+  file: thermal-expansion-5/portable-tank-reinforced.png
 - alt: Portable tank (Signalum)
-  file: thermal-expansion/portable-tank-signalum.png
+  file: thermal-expansion-5/portable-tank-signalum.png
 - alt: Portable tank (Resonant)
-  file: thermal-expansion/portable-tank-resonant.png
+  file: thermal-expansion-5/portable-tank-resonant.png
 - alt: Portable tank (Creative)
-  file: thermal-expansion/portable-tank-creative.png
+  file: thermal-expansion-5/portable-tank-creative.png
 redirect_from:
 - /docs/thermal-expansion/storage/portable-tanks/
 - /docs/thermal-expansion/storage/portable-tank/

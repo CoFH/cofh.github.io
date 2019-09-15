@@ -40,7 +40,7 @@ usage-recipes:
   - gear-mithril
 ---
 
-![Mana infused ingot](/assets/images/thermal-foundation/ingot-mithril.png){:style="height: 128px"}
+![Mana infused ingot](/assets/images/thermal-foundation-2/ingot-mithril.png){:style="height: 128px"}
 
 
 **Mana infused ingots** are raw materials obtained from [mana infused

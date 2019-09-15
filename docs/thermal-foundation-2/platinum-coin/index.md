@@ -10,7 +10,7 @@ recipes:
   - coin-platinum
 ---
 
-![Platinum coin](/assets/images/thermal-foundation/coin-platinum.png){:style="height: 128px"}
+![Platinum coin](/assets/images/thermal-foundation-2/coin-platinum.png){:style="height: 128px"}
 
 
 **Platinum coins** are materials made of [platinum](/docs/thermal-foundation-2/platinum-ingot/) that

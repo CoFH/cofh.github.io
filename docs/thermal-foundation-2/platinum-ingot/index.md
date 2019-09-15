@@ -78,7 +78,7 @@ usage-recipes:
   - gear-platinum
 ---
 
-![Platinum ingot](/assets/images/thermal-foundation/ingot-platinum.png){:style="height: 128px"}
+![Platinum ingot](/assets/images/thermal-foundation-2/ingot-platinum.png){:style="height: 128px"}
 
 
 **Platinum ingots** are raw materials obtained from [nickel

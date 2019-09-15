@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-expansion/morb/
 image:
 - alt: Morb
-  file: thermal-expansion/morb.png
+  file: thermal-expansion-5/morb.png
 recipes:
   crafting:
   - te5-morb-using-slime

@@ -68,7 +68,7 @@ usage-recipes:
   - gear-steel
 ---
 
-![Steel ingot](/assets/images/thermal-foundation/ingot-steel.png){:style="height: 128px"}
+![Steel ingot](/assets/images/thermal-foundation-2/ingot-steel.png){:style="height: 128px"}
 
 
 **Steel ingots** are raw materials made from

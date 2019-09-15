@@ -21,7 +21,7 @@ recipe-list:
 - grassoline
 ---
 
-![Fractionating still](/assets/images/thermal-expansion/fractionating-still.png){:style="height: 128px"}
+![Fractionating still](/assets/images/thermal-expansion-5/fractionating-still.png){:style="height: 128px"}
 
 > Products may or may not be drinkable.
 

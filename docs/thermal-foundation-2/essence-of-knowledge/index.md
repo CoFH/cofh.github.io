@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-foundation/essence-of-knowledge/
 image:
 - alt: Essence of knowledge
-  file: thermal-foundation/essence-of-knowledge.gif
+  file: thermal-foundation-2/essence-of-knowledge.gif
 recipes:
   transposer-empty:
   - bucket-experience

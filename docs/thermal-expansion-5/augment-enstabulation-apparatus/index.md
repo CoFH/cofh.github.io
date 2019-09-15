@@ -3,7 +3,7 @@ title: 'Augment: Enstabulation Apparatus'
 nav: thermal-expansion-5
 image:
 - alt: Enstabulation apparatus augment
-  file: thermal-expansion/augment-machine-centrifuge-mobs.png
+  file: thermal-expansion-5/augment-machine-centrifuge-mobs.png
 redirect_from:
 - /docs/augment-enstabulation-apparatus/
 - /docs/thermal-expansion/augment-enstabulation-apparatus/

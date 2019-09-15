@@ -52,7 +52,7 @@ recipe-list:
 - biocrude-from-bioblend-rich
 ---
 
-![Magma crucible](/assets/images/thermal-expansion/magma-crucible.png){:style="height: 128px"}
+![Magma crucible](/assets/images/thermal-expansion-5/magma-crucible.png){:style="height: 128px"}
 
 > Yes, it can make lava. You monster.
 

@@ -13,7 +13,7 @@ usage-recipes:
   - fluid-ore-processing-oil-shale
 ---
 
-![Oil shale](/assets/images/thermal-foundation/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
+![Oil shale](/assets/images/thermal-foundation-2/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
 
 
 **Oil shale** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that

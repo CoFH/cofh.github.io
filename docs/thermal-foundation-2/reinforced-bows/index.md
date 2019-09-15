@@ -46,7 +46,7 @@ usage-recipes:
   - recycling-weapon-bow-diamond
 ---
 
-![Reinforced Bows](/assets/images/thermal-foundation/bows.gif){:style="height: 128px"}
+![Reinforced Bows](/assets/images/thermal-foundation-2/bows.gif){:style="height: 128px"}
 
 
 **[Bows](https://minecraft.gamepedia.com/Bow)** are weapons in vanilla

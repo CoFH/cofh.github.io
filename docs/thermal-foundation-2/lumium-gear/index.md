@@ -18,7 +18,7 @@ usage-recipes:
   - recycling-gear-lumium
 ---
 
-![Lumium gear](/assets/images/thermal-foundation/gear-lumium.png){:style="height: 128px"}
+![Lumium gear](/assets/images/thermal-foundation-2/gear-lumium.png){:style="height: 128px"}
 
 
 **Lumium gears** are crafting materials made of [lumium](/docs/thermal-foundation-2/lumium-ingot/).

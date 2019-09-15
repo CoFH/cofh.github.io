@@ -100,7 +100,7 @@ usage-recipes:
   - gear-copper
 ---
 
-![Copper ingot](/assets/images/thermal-foundation/ingot-copper.png){:style="height: 128px"}
+![Copper ingot](/assets/images/thermal-foundation-2/ingot-copper.png){:style="height: 128px"}
 
 
 **Copper ingots** are raw materials obtained from [copper

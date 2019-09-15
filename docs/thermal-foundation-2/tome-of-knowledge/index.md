@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-foundation/tome-of-knowledge/
 image:
 - alt: Tome of knowledge
-  file: thermal-foundation/tome-of-knowledge.png
+  file: thermal-foundation-2/tome-of-knowledge.png
 recipes:
   crafting:
   - tf2-tome-of-knowledge

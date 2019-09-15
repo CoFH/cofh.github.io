@@ -3,7 +3,7 @@ title: Florb
 nav: thermal-expansion-5
 image:
 - alt: Florb
-  file: thermal-expansion/florb.png
+  file: thermal-expansion-5/florb.png
 redirect_from:
 - /docs/thermal-expansion/items/florbs/
 - /docs/thermal-expansion/tools/florbs/

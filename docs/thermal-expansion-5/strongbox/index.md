@@ -3,17 +3,17 @@ title: Strongbox
 nav: thermal-expansion-5
 image:
 - alt: Strongbox (Basic)
-  file: thermal-expansion/strongbox-basic.png
+  file: thermal-expansion-5/strongbox-basic.png
 - alt: Strongbox (Hardened)
-  file: thermal-expansion/strongbox-hardened.png
+  file: thermal-expansion-5/strongbox-hardened.png
 - alt: Strongbox (Reinforced)
-  file: thermal-expansion/strongbox-reinforced.png
+  file: thermal-expansion-5/strongbox-reinforced.png
 - alt: Strongbox (Signalum)
-  file: thermal-expansion/strongbox-signalum.png
+  file: thermal-expansion-5/strongbox-signalum.png
 - alt: Strongbox (Resonant)
-  file: thermal-expansion/strongbox-resonant.png
+  file: thermal-expansion-5/strongbox-resonant.png
 - alt: Strongbox (Creative)
-  file: thermal-expansion/strongbox-creative.png
+  file: thermal-expansion-5/strongbox-creative.png
 redirect_from:
 - /thermal-expansion/items/strongbox/
 - /docs/thermal-expansion/storage/strongboxes/

@@ -18,7 +18,7 @@ usage-recipes:
   - ingot-steel-from-ingot-iron-and-coal-coke
 ---
 
-![Coal coke](/assets/images/thermal-foundation/coal-coke.png){:style="height: 128px"}
+![Coal coke](/assets/images/thermal-foundation-2/coal-coke.png){:style="height: 128px"}
 
 
 **Coal coke** is a material obtained by processing

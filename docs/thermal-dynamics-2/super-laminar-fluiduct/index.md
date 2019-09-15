@@ -3,9 +3,9 @@ title: Super-Laminar Fluiduct
 nav: thermal-dynamics-2
 image:
 - alt: Super-laminar fluiduct
-  file: thermal-dynamics/fluiduct-super-laminar.png
+  file: thermal-dynamics-2/fluiduct-super-laminar.png
 - alt: Super-laminar fluiduct (opaque)
-  file: thermal-dynamics/fluiduct-super-laminar-opaque.png
+  file: thermal-dynamics-2/fluiduct-super-laminar-opaque.png
 redirect_from:
 - /docs/super-laminar-fluiduct/
 - /docs/thermal-dynamics/super-laminar-fluiduct/

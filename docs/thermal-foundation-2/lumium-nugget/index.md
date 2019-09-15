@@ -13,7 +13,7 @@ usage-recipes:
   - tf2-ingot-lumium-from-nuggets
 ---
 
-![Lumium nugget](/assets/images/thermal-foundation/nugget-lumium.png){:style="height: 128px"}
+![Lumium nugget](/assets/images/thermal-foundation-2/nugget-lumium.png){:style="height: 128px"}
 
 
 **Lumium nuggets** are raw materials. They are the nugget form of

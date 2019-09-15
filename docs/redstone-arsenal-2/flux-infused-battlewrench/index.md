@@ -3,7 +3,7 @@ title: Flux-Infused BattleWrench
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused battlewrench
-  file: redstone-arsenal/flux-infused-battlewrench.png
+  file: redstone-arsenal-2/flux-infused-battlewrench.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-battlewrench/
 - /docs/redstone-arsenal/weapons/flux-infused-battlewrench/

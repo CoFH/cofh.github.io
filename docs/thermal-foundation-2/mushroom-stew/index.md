@@ -15,7 +15,7 @@ usage-recipes:
   - mushroom-stew
 ---
 
-![Mushroom stew](/assets/images/thermal-foundation/mushroom-stew.gif){:style="height: 128px"}
+![Mushroom stew](/assets/images/thermal-foundation-2/mushroom-stew.gif){:style="height: 128px"}
 
 
 **Mushroom stew** is the fluid form of the [item of the same

@@ -46,7 +46,7 @@ usage-recipes:
   - recycling-tool-hammer-diamond
 ---
 
-![Hammers](/assets/images/thermal-foundation/hammers.gif){:style="height: 128px"}
+![Hammers](/assets/images/thermal-foundation-2/hammers.gif){:style="height: 128px"}
 
 
 **Hammers** are [pickaxe](https://minecraft.gamepedia.com/Pickaxe)-like tools

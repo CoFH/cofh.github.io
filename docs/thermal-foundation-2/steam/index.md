@@ -14,7 +14,7 @@ usage-recipes:
   - bucket-steam
 ---
 
-![Steam](/assets/images/thermal-foundation/steam.gif){:style="height: 128px"}
+![Steam](/assets/images/thermal-foundation-2/steam.gif){:style="height: 128px"}
 
 
 **Steam** is a fluid used by [steam dynamos](/docs/thermal-expansion-5/steam-dynamo/) with a

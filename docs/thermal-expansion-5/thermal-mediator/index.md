@@ -9,7 +9,7 @@ recipes:
   - te5-device-heat-sink
 ---
 
-![Thermal mediator](/assets/images/thermal-expansion/thermal-mediator.png){:style="height: 128px"}
+![Thermal mediator](/assets/images/thermal-expansion-5/thermal-mediator.png){:style="height: 128px"}
 
 
 A **thermal mediator** (also known as a **heat sink**) is a

@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-aluminum
 ---
 
-![Aluminum plate](/assets/images/thermal-foundation/plate-aluminum.png){:style="height: 128px"}
+![Aluminum plate](/assets/images/thermal-foundation-2/plate-aluminum.png){:style="height: 128px"}
 
 
 **Aluminum plates** are crafting materials made of

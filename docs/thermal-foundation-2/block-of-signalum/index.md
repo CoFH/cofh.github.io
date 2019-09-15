@@ -3,7 +3,7 @@ title: Block of Signalum
 nav: thermal-foundation-2
 image:
 - alt: Block of signalum
-  file: thermal-foundation/storage-block-signalum.png
+  file: thermal-foundation-2/storage-block-signalum.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/signalum-block/
 - /docs/signalum-block/

@@ -32,7 +32,7 @@ usage-recipes:
   - gear-lumium
 ---
 
-![Lumium ingot](/assets/images/thermal-foundation/ingot-lumium.png){:style="height: 128px"}
+![Lumium ingot](/assets/images/thermal-foundation-2/ingot-lumium.png){:style="height: 128px"}
 
 
 **Lumium ingots** are raw materials made from [tin](/docs/thermal-foundation-2/tin-ingot/),

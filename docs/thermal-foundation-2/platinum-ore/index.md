@@ -21,7 +21,7 @@ usage-recipes:
   - ore-processing-cinnabar-platinum
 ---
 
-![Platinum ore](/assets/images/thermal-foundation/ore-platinum.png){:style="height: 128px"}
+![Platinum ore](/assets/images/thermal-foundation-2/ore-platinum.png){:style="height: 128px"}
 
 
 **Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields

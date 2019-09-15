@@ -3,7 +3,7 @@ title: Stone Gear
 nav: thermal-foundation-2
 image:
 - alt: Stone gear
-  file: thermal-foundation/gear-stone.png
+  file: thermal-foundation-2/gear-stone.png
 recipes:
   crafting:
   - tf2-gear-stone

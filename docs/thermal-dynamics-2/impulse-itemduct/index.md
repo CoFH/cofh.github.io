@@ -3,9 +3,9 @@ title: Impulse Itemduct
 nav: thermal-dynamics-2
 image:
 - alt: Impulse itemduct
-  file: thermal-dynamics/itemduct-impulse.png
+  file: thermal-dynamics-2/itemduct-impulse.png
 - alt: Impulse itemduct (opaque)
-  file: thermal-dynamics/itemduct-impulse-opaque.png
+  file: thermal-dynamics-2/itemduct-impulse-opaque.png
 redirect_from:
 - /docs/impulse-itemduct/
 - /docs/thermal-dynamics/impulse-itemduct/

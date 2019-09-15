@@ -20,7 +20,7 @@ usage-recipes:
   - te5-morb-using-rosin
 ---
 
-![Rosin](/assets/images/thermal-foundation/rosin.png){:style="height: 128px"}
+![Rosin](/assets/images/thermal-foundation-2/rosin.png){:style="height: 128px"}
 
 
 **Rosin** is a byproduct of processing [resin](/docs/thermal-foundation-2/resin/) in a [fractionating

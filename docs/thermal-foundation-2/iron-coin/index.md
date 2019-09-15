@@ -10,7 +10,7 @@ recipes:
   - coin-iron
 ---
 
-![Iron coin](/assets/images/thermal-foundation/coin-iron.png){:style="height: 128px"}
+![Iron coin](/assets/images/thermal-foundation-2/coin-iron.png){:style="height: 128px"}
 
 
 **Iron coins** are materials made of

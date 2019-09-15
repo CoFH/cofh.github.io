@@ -36,7 +36,7 @@ usage-recipes:
   - recycling-gear-iron
 ---
 
-![Iron gear](/assets/images/thermal-foundation/gear-iron.png){:style="height: 128px"}
+![Iron gear](/assets/images/thermal-foundation-2/gear-iron.png){:style="height: 128px"}
 
 
 **Iron gears** are crafting materials made of

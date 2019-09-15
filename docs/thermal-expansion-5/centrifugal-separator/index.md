@@ -29,7 +29,7 @@ recipe-list:
 - dust-petrotheum
 ---
 
-![Centrifugal separator](/assets/images/thermal-expansion/centrifugal-separator.png){:style="height: 128px"}
+![Centrifugal separator](/assets/images/thermal-expansion-5/centrifugal-separator.png){:style="height: 128px"}
 
 > Spin to win!
 

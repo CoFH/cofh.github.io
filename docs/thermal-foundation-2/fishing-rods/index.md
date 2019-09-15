@@ -45,7 +45,7 @@ usage-recipes:
   - recycling-tool-fishing-rod-diamond
 ---
 
-![Fishing rods](/assets/images/thermal-foundation/fishing-rods.gif){:style="height: 128px"}
+![Fishing rods](/assets/images/thermal-foundation-2/fishing-rods.gif){:style="height: 128px"}
 
 
 **[Fishing rods](https://minecraft.gamepedia.com/Fishing_Rod)** are tools in

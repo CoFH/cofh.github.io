@@ -13,7 +13,7 @@ usage-recipes:
   - fluid-ore-processing-redstone
 ---
 
-![Destabilized redstone ore](/assets/images/thermal-foundation/ore-fluid-redstone.png){:style="height: 128px"}
+![Destabilized redstone ore](/assets/images/thermal-foundation-2/ore-fluid-redstone.png){:style="height: 128px"}
 
 
 **Destabilized redstone ore** is a rare

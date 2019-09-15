@@ -93,7 +93,7 @@ usage-recipes:
   - gear-tin
 ---
 
-![Tin ingot](/assets/images/thermal-foundation/ingot-tin.png){:style="height: 128px"}
+![Tin ingot](/assets/images/thermal-foundation-2/ingot-tin.png){:style="height: 128px"}
 
 
 **Tin ingots** are raw materials obtained from [tin ore](/docs/thermal-foundation-2/tin-ore/).

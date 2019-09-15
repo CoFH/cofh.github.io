@@ -3,39 +3,39 @@ title: Excavators (Thermal Foundation)
 nav: thermal-foundation-2
 image:
 - alt: Iron excavator
-  file: thermal-foundation/excavator-iron.png
+  file: thermal-foundation-2/excavator-iron.png
 - alt: Gold excavator
-  file: thermal-foundation/excavator-gold.png
+  file: thermal-foundation-2/excavator-gold.png
 - alt: Diamond excavator
-  file: thermal-foundation/excavator-diamond.png
+  file: thermal-foundation-2/excavator-diamond.png
 - alt: Copper excavator
-  file: thermal-foundation/excavator-copper.png
+  file: thermal-foundation-2/excavator-copper.png
 - alt: Tin excavator
-  file: thermal-foundation/excavator-tin.png
+  file: thermal-foundation-2/excavator-tin.png
 - alt: Silver excavator
-  file: thermal-foundation/excavator-silver.png
+  file: thermal-foundation-2/excavator-silver.png
 - alt: Lead excavator
-  file: thermal-foundation/excavator-lead.png
+  file: thermal-foundation-2/excavator-lead.png
 - alt: Aluminum excavator
-  file: thermal-foundation/excavator-aluminum.png
+  file: thermal-foundation-2/excavator-aluminum.png
 - alt: Nickel excavator
-  file: thermal-foundation/excavator-nickel.png
+  file: thermal-foundation-2/excavator-nickel.png
 - alt: Platinum excavator
-  file: thermal-foundation/excavator-platinum.png
+  file: thermal-foundation-2/excavator-platinum.png
 - alt: Steel excavator
-  file: thermal-foundation/excavator-steel.png
+  file: thermal-foundation-2/excavator-steel.png
 - alt: Electrum excavator
-  file: thermal-foundation/excavator-electrum.png
+  file: thermal-foundation-2/excavator-electrum.png
 - alt: Invar excavator
-  file: thermal-foundation/excavator-invar.png
+  file: thermal-foundation-2/excavator-invar.png
 - alt: Bronze excavator
-  file: thermal-foundation/excavator-bronze.png
+  file: thermal-foundation-2/excavator-bronze.png
 - alt: Constantan excavator
-  file: thermal-foundation/excavator-constantan.png
+  file: thermal-foundation-2/excavator-constantan.png
 - alt: Stone excavator
-  file: thermal-foundation/excavator-stone.png
+  file: thermal-foundation-2/excavator-stone.png
 - alt: Wooden excavator
-  file: thermal-foundation/excavator-wood.png
+  file: thermal-foundation-2/excavator-wood.png
 recipes:
   crafting:
   - tf2-tool-excavator-wood

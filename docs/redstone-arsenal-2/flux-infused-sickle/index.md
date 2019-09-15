@@ -3,7 +3,7 @@ title: Flux-Infused Sickle
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused sickle
-  file: redstone-arsenal/flux-infused-sickle.png
+  file: redstone-arsenal-2/flux-infused-sickle.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-sickle/
 - /docs/redstone-arsenal/tools/flux-infused-sickle/

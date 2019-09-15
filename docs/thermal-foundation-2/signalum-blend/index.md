@@ -20,7 +20,7 @@ usage-recipes:
   - dust-signalum
 ---
 
-![Signalum blend](/assets/images/thermal-foundation/dust-signalum.png){:style="height: 128px"}
+![Signalum blend](/assets/images/thermal-foundation-2/dust-signalum.png){:style="height: 128px"}
 
 
 **Signalum blend** is a raw material. It is the dust form of

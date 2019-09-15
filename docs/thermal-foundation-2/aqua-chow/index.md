@@ -10,7 +10,7 @@ recipes:
   - tf2-aqua-chow-using-rosin
 ---
 
-![Aqua-Chow](/assets/images/thermal-foundation/aqua-chow.png){:style="height: 128px"}
+![Aqua-Chow](/assets/images/thermal-foundation-2/aqua-chow.png){:style="height: 128px"}
 
 
 **Aqua-Chow** is a type of fish bait that can be used by [aquatic

@@ -10,7 +10,7 @@ recipes:
   - coin-bronze
 ---
 
-![Bronze coin](/assets/images/thermal-foundation/coin-bronze.png){:style="height: 128px"}
+![Bronze coin](/assets/images/thermal-foundation-2/coin-bronze.png){:style="height: 128px"}
 
 
 **Bronze coins** are materials made of [bronze](/docs/thermal-foundation-2/bronze-ingot/) that can be

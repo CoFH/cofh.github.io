@@ -16,7 +16,7 @@ usage-recipes:
   - recycling-plate-nickel
 ---
 
-![Nickel plate](/assets/images/thermal-foundation/plate-nickel.png){:style="height: 128px"}
+![Nickel plate](/assets/images/thermal-foundation-2/plate-nickel.png){:style="height: 128px"}
 
 
 **Nickel plates** are crafting materials made of [nickel](/docs/thermal-foundation-2/nickel-ingot/).

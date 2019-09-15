@@ -3,9 +3,9 @@ title: Signalum-Plated Fluiduct
 nav: thermal-dynamics-2
 image:
 - alt: Signalum-plated fluiduct
-  file: thermal-dynamics/fluiduct-signalum-plated.png
+  file: thermal-dynamics-2/fluiduct-signalum-plated.png
 - alt: Signalum-plated fluiduct (opaque)
-  file: thermal-dynamics/fluiduct-signalum-plated-opaque.png
+  file: thermal-dynamics-2/fluiduct-signalum-plated-opaque.png
 redirect_from:
 - /docs/signalum-plated-fluiduct/
 - /docs/thermal-dynamics/signalum-plated-fluiduct/

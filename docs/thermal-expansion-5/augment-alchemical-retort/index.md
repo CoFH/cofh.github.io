@@ -3,7 +3,7 @@ title: 'Augment: Alchemical Retort'
 nav: thermal-expansion-5
 image:
 - alt: Alchemical retort augment
-  file: thermal-expansion/augment-machine-refinery-potion.png
+  file: thermal-expansion-5/augment-machine-refinery-potion.png
 redirect_from:
 - /docs/augment-alchemical-retort/
 - /docs/thermal-expansion/augment-alchemical-retort/

@@ -126,7 +126,7 @@ recipe-list:
   - recycling-horse-armor-metal
 ---
 
-![Induction smelter](/assets/images/thermal-expansion/induction-smelter.png){:style="height: 128px"}
+![Induction smelter](/assets/images/thermal-expansion-5/induction-smelter.png){:style="height: 128px"}
 
 > Will absolutely not cook food.
 

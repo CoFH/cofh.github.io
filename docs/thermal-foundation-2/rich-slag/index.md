@@ -44,7 +44,7 @@ usage-recipes:
   - ore-processing-rich-slag-mithril
 ---
 
-![Rich slag](/assets/images/thermal-foundation/slag-rich.png){:style="height: 128px"}
+![Rich slag](/assets/images/thermal-foundation-2/slag-rich.png){:style="height: 128px"}
 
 
 **Rich slag** is a material obtained as a byproduct from [induction

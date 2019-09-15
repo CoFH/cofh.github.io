@@ -3,7 +3,7 @@ title: 'Augment: Auxiliary Reception Coil'
 nav: thermal-expansion-5
 image:
 - alt: Auxiliary reception coil augment
-  file: thermal-expansion/augment-machine-power.png
+  file: thermal-expansion-5/augment-machine-power.png
 redirect_from:
 - /docs/thermal-expansion/augments/machine-processing-speed/
 - /docs/augment-auxiliary-reception-coil/

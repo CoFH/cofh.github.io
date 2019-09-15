@@ -3,7 +3,7 @@ title: Resonant Fluxduct
 nav: thermal-dynamics-2
 image:
 - alt: Resonant fluxduct
-  file: thermal-dynamics/fluxduct-resonant.png
+  file: thermal-dynamics-2/fluxduct-resonant.png
 redirect_from:
 - /docs/resonant-fluxduct/
 - /docs/thermal-dynamics/resonant-fluxduct/

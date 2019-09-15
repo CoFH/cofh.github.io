@@ -3,7 +3,7 @@ title: Fluxed Electrum Plate
 nav: redstone-arsenal-2
 image:
 - alt: Fluxed electrum plate
-  file: redstone-arsenal/plate-fluxed-electrum.gif
+  file: redstone-arsenal-2/plate-fluxed-electrum.gif
 redirect_from:
 - /docs/redstone-arsenal/materials/fluxed-electrum-plate/
 - /docs/fluxed-electrum-plate/

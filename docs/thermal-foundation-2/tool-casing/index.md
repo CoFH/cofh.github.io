@@ -6,7 +6,7 @@ redirect_from:
 - /docs/thermal-foundation/tool-casing/
 image:
 - alt: Tool casing
-  file: thermal-foundation/tool-casing.png
+  file: thermal-foundation-2/tool-casing.png
 recipes:
   crafting:
   - tf2-tool-casing

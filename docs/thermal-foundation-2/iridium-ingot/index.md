@@ -39,7 +39,7 @@ usage-recipes:
   - gear-iridium
 ---
 
-![Iridium ingot](/assets/images/thermal-foundation/ingot-iridium.png){:style="height: 128px"}
+![Iridium ingot](/assets/images/thermal-foundation-2/ingot-iridium.png){:style="height: 128px"}
 
 
 **Iridium ingots** are raw materials obtained from [iridium

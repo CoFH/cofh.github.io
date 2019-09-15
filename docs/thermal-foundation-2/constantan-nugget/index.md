@@ -13,7 +13,7 @@ usage-recipes:
   - tf2-ingot-constantan-from-nuggets
 ---
 
-![Constantan nugget](/assets/images/thermal-foundation/nugget-constantan.png){:style="height: 128px"}
+![Constantan nugget](/assets/images/thermal-foundation-2/nugget-constantan.png){:style="height: 128px"}
 
 
 **Constantan nuggets** are raw materials. They are the nugget form of

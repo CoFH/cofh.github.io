@@ -3,7 +3,7 @@ title: Block of Steel
 nav: thermal-foundation-2
 image:
 - alt: Block of steel
-  file: thermal-foundation/storage-block-steel.png
+  file: thermal-foundation-2/storage-block-steel.png
 redirect_from:
 - /docs/thermal-foundation/blocks/metal/steel-block/
 - /docs/steel-block/

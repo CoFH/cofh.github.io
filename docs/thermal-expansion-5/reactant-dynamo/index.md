@@ -3,7 +3,7 @@ title: Reactant Dynamo
 nav: thermal-expansion-5
 image:
 - alt: Reactant dynamo
-  file: thermal-expansion/dynamo-reactant-rf.png
+  file: thermal-expansion-5/dynamo-reactant-rf.png
 redirect_from:
 - /docs/thermal-expansion/dynamos/reactant-dynamo/
 - /docs/reactant-dynamo/

@@ -15,7 +15,7 @@ usage-recipes:
   - tree-oil
 ---
 
-![Resin](/assets/images/thermal-foundation/resin.gif){:style="height: 128px"}
+![Resin](/assets/images/thermal-foundation-2/resin.gif){:style="height: 128px"}
 
 
 **Resin** is a fluid obtained from spruce, birch, jungle and acacia

@@ -3,7 +3,7 @@ title: Fluid Allocator
 nav: thermal-expansion-5
 image:
 - alt: Fluid allocator
-  file: thermal-expansion/fluid-allocator.png
+  file: thermal-expansion-5/fluid-allocator.png
 redirect_from:
 - /docs/fluid-allocator/
 - /docs/thermal-expansion/fluid-allocator/

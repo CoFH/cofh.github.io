@@ -3,7 +3,7 @@ title: 'Augment: Sapling Infuser'
 nav: thermal-expansion-5
 image:
 - alt: Sapling infuser augment
-  file: thermal-expansion/augment-machine-insolator-tree.png
+  file: thermal-expansion-5/augment-machine-insolator-tree.png
 redirect_from:
 - /docs/augment-sapling-infuser/
 - /docs/thermal-expansion/augment-sapling-infuser/

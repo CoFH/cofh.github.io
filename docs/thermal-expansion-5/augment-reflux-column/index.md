@@ -3,7 +3,7 @@ title: 'Augment: Reflux Column'
 nav: thermal-expansion-5
 image:
 - alt: Reflux column augment
-  file: thermal-expansion/augment-machine-refinery-oil.png
+  file: thermal-expansion-5/augment-machine-refinery-oil.png
 redirect_from:
 - /docs/augment-reflux-column/
 - /docs/thermal-expansion/augment-reflux-column/

@@ -10,7 +10,7 @@ recipes:
   - coin-nickel
 ---
 
-![Nickel coin](/assets/images/thermal-foundation/coin-nickel.png){:style="height: 128px"}
+![Nickel coin](/assets/images/thermal-foundation-2/coin-nickel.png){:style="height: 128px"}
 
 
 **Nickel coins** are materials made of [nickel](/docs/thermal-foundation-2/nickel-ingot/) that can be

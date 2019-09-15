@@ -24,7 +24,7 @@ usage-recipes:
   - hardened-glass-iridium
 ---
 
-![Pulverized iridium](/assets/images/thermal-foundation/dust-iridium.png){:style="height: 128px"}
+![Pulverized iridium](/assets/images/thermal-foundation-2/dust-iridium.png){:style="height: 128px"}
 
 
 **Pulverized iridium** is a raw material. It is the dust form of

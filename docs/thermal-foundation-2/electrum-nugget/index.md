@@ -20,7 +20,7 @@ usage-recipes:
   - ti-alchemical-quiver-signalum
 ---
 
-![Electrum nugget](/assets/images/thermal-foundation/nugget-electrum.png){:style="height: 128px"}
+![Electrum nugget](/assets/images/thermal-foundation-2/nugget-electrum.png){:style="height: 128px"}
 
 
 **Electrum nuggets** are raw materials. They are the nugget form of

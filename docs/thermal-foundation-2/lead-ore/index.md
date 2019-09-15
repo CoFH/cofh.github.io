@@ -21,7 +21,7 @@ usage-recipes:
   - ore-processing-cinnabar-lead
 ---
 
-![Lead ore](/assets/images/thermal-foundation/ore-lead.png){:style="height: 128px"}
+![Lead ore](/assets/images/thermal-foundation-2/ore-lead.png){:style="height: 128px"}
 
 
 **Lead ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)

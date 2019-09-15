@@ -3,7 +3,7 @@ title: 'Augment: Boiler Conversion'
 nav: thermal-expansion-5
 image:
 - alt: Boiler conversion augment
-  file: thermal-expansion/augment-dynamo-boiler.gif
+  file: thermal-expansion-5/augment-dynamo-boiler.gif
 redirect_from:
 - /docs/augment-boiler-conversion/
 - /docs/thermal-expansion/augment-boiler-conversion/

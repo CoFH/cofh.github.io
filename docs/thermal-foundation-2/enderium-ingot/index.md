@@ -48,7 +48,7 @@ usage-recipes:
   - gear-enderium
 ---
 
-![Enderium ingot](/assets/images/thermal-foundation/ingot-enderium.png){:style="height: 128px"}
+![Enderium ingot](/assets/images/thermal-foundation-2/ingot-enderium.png){:style="height: 128px"}
 
 
 **Enderium ingots** are raw materials made from [lead](/docs/thermal-foundation-2/lead-ingot/),

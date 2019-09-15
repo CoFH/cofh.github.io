@@ -3,7 +3,7 @@ title: Flux-Infused Hammer
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused hammer
-  file: redstone-arsenal/flux-infused-hammer.png
+  file: redstone-arsenal-2/flux-infused-hammer.png
 redirect_from:
 - /docs/redstone-arsenal/equipment/flux-infused-hammer/
 - /docs/redstone-arsenal/tools/flux-infused-hammer/

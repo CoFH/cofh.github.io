@@ -3,19 +3,19 @@ title: Satchel (Thermal Expansion)
 nav: thermal-expansion-5
 image:
 - alt: Satchel (Basic)
-  file: thermal-expansion/satchel-basic.png
+  file: thermal-expansion-5/satchel-basic.png
 - alt: Satchel (Hardened)
-  file: thermal-expansion/satchel-hardened.png
+  file: thermal-expansion-5/satchel-hardened.png
 - alt: Satchel (Reinforced)
-  file: thermal-expansion/satchel-reinforced.png
+  file: thermal-expansion-5/satchel-reinforced.png
 - alt: Satchel (Signalum)
-  file: thermal-expansion/satchel-signalum.png
+  file: thermal-expansion-5/satchel-signalum.png
 - alt: Satchel (Resonant)
-  file: thermal-expansion/satchel-resonant.png
+  file: thermal-expansion-5/satchel-resonant.png
 - alt: Satchel (Void)
-  file: thermal-expansion/satchel-void.gif
+  file: thermal-expansion-5/satchel-void.gif
 - alt: Satchel (Creative)
-  file: thermal-expansion/satchel-creative.png
+  file: thermal-expansion-5/satchel-creative.png
 redirect_from:
 - /docs/thermal-expansion/storage/satchels/
 - /docs/thermal-expansion/storage/satchel/

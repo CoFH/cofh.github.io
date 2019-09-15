@@ -19,7 +19,7 @@ usage-recipes:
   - td2-itemduct-energy-fast-dense
 ---
 
-![Lead nugget](/assets/images/thermal-foundation/nugget-lead.png){:style="height: 128px"}
+![Lead nugget](/assets/images/thermal-foundation-2/nugget-lead.png){:style="height: 128px"}
 
 
 **Lead nuggets** are raw materials. They are the nugget form of

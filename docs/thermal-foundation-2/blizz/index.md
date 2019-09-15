@@ -8,7 +8,7 @@ redirect_from:
 - /docs/thermal-foundation/blizz/
 ---
 
-![Blizz](/assets/images/thermal-foundation/blizz.png){:style="height: 192px"}
+![Blizz](/assets/images/thermal-foundation-2/blizz.png){:style="height: 192px"}
 
 
 **Blizzes** are hostile mobs found in cold

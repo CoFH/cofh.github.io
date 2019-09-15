@@ -34,7 +34,7 @@ usage-recipes:
   - hardened-glass-silver
 ---
 
-![Pulverized silver](/assets/images/thermal-foundation/dust-silver.png){:style="height: 128px"}
+![Pulverized silver](/assets/images/thermal-foundation-2/dust-silver.png){:style="height: 128px"}
 
 
 **Pulverized silver** is a raw material. It is the dust form of

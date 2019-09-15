@@ -12,7 +12,7 @@ recipes:
   - tf2-signalum-security-lock
 ---
 
-![Signalum security lock](/assets/images/thermal-foundation/signalum-security-lock.png){:style="height: 128px"}
+![Signalum security lock](/assets/images/thermal-foundation-2/signalum-security-lock.png){:style="height: 128px"}
 
 
 **Signalum security locks** are items that can be installed on certain blocks

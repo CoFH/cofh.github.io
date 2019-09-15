@@ -14,7 +14,7 @@ usage-recipes:
   - te5-satchel-hardened
 ---
 
-![Tin nugget](/assets/images/thermal-foundation/nugget-tin.png){:style="height: 128px"}
+![Tin nugget](/assets/images/thermal-foundation-2/nugget-tin.png){:style="height: 128px"}
 
 
 **Tin nuggets** are raw materials. They are the nugget form of

@@ -3,17 +3,17 @@ title: Fluxducts
 nav: thermal-dynamics-2
 image:
 - alt: Leadstone fluxduct
-  file: thermal-dynamics/fluxduct-leadstone.png
+  file: thermal-dynamics-2/fluxduct-leadstone.png
 - alt: Hardened fluxduct
-  file: thermal-dynamics/fluxduct-hardened.png
+  file: thermal-dynamics-2/fluxduct-hardened.png
 - alt: Redstone energy fluxduct
-  file: thermal-dynamics/fluxduct-redstone-energy.png
+  file: thermal-dynamics-2/fluxduct-redstone-energy.png
 - alt: Signalum fluxduct
-  file: thermal-dynamics/fluxduct-signalum.png
+  file: thermal-dynamics-2/fluxduct-signalum.png
 - alt: Resonant fluxduct
-  file: thermal-dynamics/fluxduct-resonant.png
+  file: thermal-dynamics-2/fluxduct-resonant.png
 - alt: Cryo-stabilized fluxduct
-  file: thermal-dynamics/fluxduct-cryo-stabilized.png
+  file: thermal-dynamics-2/fluxduct-cryo-stabilized.png
 redirect_from:
 - /thermal-expansion/energy/energy-conduits/
 - /docs/thermal-dynamics/ducts/fluxducts/

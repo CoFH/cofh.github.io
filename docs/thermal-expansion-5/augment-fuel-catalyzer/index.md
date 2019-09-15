@@ -3,7 +3,7 @@ title: 'Augment: Fuel Catalyzer'
 nav: thermal-expansion-5
 image:
 - alt: Fuel catalyzer augment
-  file: thermal-expansion/augment-dynamo-efficiency.gif
+  file: thermal-expansion-5/augment-dynamo-efficiency.gif
 redirect_from:
 - /docs/thermal-expansion/augments/dynamo-fuel-efficiency/
 - /docs/augment-fuel-catalyzer/

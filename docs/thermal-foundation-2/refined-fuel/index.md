@@ -15,7 +15,7 @@ usage-recipes:
   - bucket-refined-fuel
 ---
 
-![Refined fuel](/assets/images/thermal-foundation/refined-fuel.gif){:style="height: 128px"}
+![Refined fuel](/assets/images/thermal-foundation-2/refined-fuel.gif){:style="height: 128px"}
 
 
 **Refined fuel** is a fluid obtained by processing [naphtha](/docs/thermal-foundation-2/naphtha/) in

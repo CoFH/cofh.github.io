@@ -37,7 +37,7 @@ usage-recipes:
   - recycling-tool-shovel-constantan
 ---
 
-![Shovels](/assets/images/thermal-foundation/shovels.gif){:style="height: 128px"}
+![Shovels](/assets/images/thermal-foundation-2/shovels.gif){:style="height: 128px"}
 
 
 **[Shovels](https://minecraft.gamepedia.com/Shovel)** are tools in vanilla

@@ -9,7 +9,7 @@ recipes:
   - te5-device-tapper
 ---
 
-![Arboreal extractor](/assets/images/thermal-expansion/arboreal-extractor.png){:style="height: 128px"}
+![Arboreal extractor](/assets/images/thermal-expansion-5/arboreal-extractor.png){:style="height: 128px"}
 
 > Put down the axe.
 

@@ -94,7 +94,7 @@ usage-recipes:
   - gear-invar
 ---
 
-![Invar ingot](/assets/images/thermal-foundation/ingot-invar.png){:style="height: 128px"}
+![Invar ingot](/assets/images/thermal-foundation-2/ingot-invar.png){:style="height: 128px"}
 
 
 **Invar ingots** are raw materials made from

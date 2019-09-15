@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-plate-tin
 ---
 
-![Tin plate](/assets/images/thermal-foundation/plate-tin.png){:style="height: 128px"}
+![Tin plate](/assets/images/thermal-foundation-2/plate-tin.png){:style="height: 128px"}
 
 
 **Tin plates** are crafting materials made of [tin](/docs/thermal-foundation-2/tin-ingot/).

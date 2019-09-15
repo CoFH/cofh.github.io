@@ -10,7 +10,7 @@ recipes:
   - coin-lumium
 ---
 
-![Lumium coin](/assets/images/thermal-foundation/coin-lumium.png){:style="height: 128px"}
+![Lumium coin](/assets/images/thermal-foundation-2/coin-lumium.png){:style="height: 128px"}
 
 
 **Lumium coins** are materials made of [lumium](/docs/thermal-foundation-2/lumium-ingot/) that can be

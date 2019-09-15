@@ -3,7 +3,7 @@ title: Hardened Fluxduct
 nav: thermal-dynamics-2
 image:
 - alt: Hardened fluxduct
-  file: thermal-dynamics/fluxduct-hardened.png
+  file: thermal-dynamics-2/fluxduct-hardened.png
 redirect_from:
 - /docs/hardened-fluxduct/
 - /docs/thermal-dynamics/hardened-fluxduct/

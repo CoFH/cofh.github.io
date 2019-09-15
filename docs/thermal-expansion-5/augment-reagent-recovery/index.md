@@ -3,7 +3,7 @@ title: 'Augment: Reagent Recovery'
 nav: thermal-expansion-5
 image:
 - alt: Reagent recovery augment
-  file: thermal-expansion/augment-machine-brewer-reagent.png
+  file: thermal-expansion-5/augment-machine-brewer-reagent.png
 redirect_from:
 - /docs/augment-reagent-recovery/
 - /docs/thermal-expansion/augment-reagent-recovery/

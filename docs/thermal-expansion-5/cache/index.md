@@ -3,17 +3,17 @@ title: Cache
 nav: thermal-expansion-5
 image:
 - alt: Cache (Basic)
-  file: thermal-expansion/cache-basic.png
+  file: thermal-expansion-5/cache-basic.png
 - alt: Cache (Hardened)
-  file: thermal-expansion/cache-hardened.png
+  file: thermal-expansion-5/cache-hardened.png
 - alt: Cache (Reinforced)
-  file: thermal-expansion/cache-reinforced.png
+  file: thermal-expansion-5/cache-reinforced.png
 - alt: Cache (Signalum)
-  file: thermal-expansion/cache-signalum.png
+  file: thermal-expansion-5/cache-signalum.png
 - alt: Cache (Resonant)
-  file: thermal-expansion/cache-resonant.png
+  file: thermal-expansion-5/cache-resonant.png
 - alt: Cache (Creative)
-  file: thermal-expansion/cache-creative.png
+  file: thermal-expansion-5/cache-creative.png
 redirect_from:
 - /docs/thermal-expansion/storage/caches/
 - /thermal-expansion/items/cache-2/

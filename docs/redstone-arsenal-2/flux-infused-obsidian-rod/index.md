@@ -3,7 +3,7 @@ title: Flux-Infused Obsidian Rod
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused obsidian rod
-  file: redstone-arsenal/obsidian-rod-flux-infused.png
+  file: redstone-arsenal-2/obsidian-rod-flux-infused.png
 redirect_from:
 - /docs/redstone-arsenal/materials/flux-infused-obsidian-rod/
 - /docs/flux-infused-obsidian-rod/

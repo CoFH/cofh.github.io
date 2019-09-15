@@ -16,7 +16,7 @@ usage-recipes:
   - recycling-plate-electrum
 ---
 
-![Electrum plate](/assets/images/thermal-foundation/plate-electrum.png){:style="height: 128px"}
+![Electrum plate](/assets/images/thermal-foundation-2/plate-electrum.png){:style="height: 128px"}
 
 
 **Electrum plates** are crafting materials made of

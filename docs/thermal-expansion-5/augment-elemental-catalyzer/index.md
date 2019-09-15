@@ -3,7 +3,7 @@ title: 'Augment: Elemental Catalyzer'
 nav: thermal-expansion-5
 image:
 - alt: Elemental catalyzer augment
-  file: thermal-expansion/augment-dynamo-reactant-elemental.png
+  file: thermal-expansion-5/augment-dynamo-reactant-elemental.png
 redirect_from:
 - /docs/augment-elemental-catalyzer/
 - /docs/thermal-expansion/augment-elemental-catalyzer/

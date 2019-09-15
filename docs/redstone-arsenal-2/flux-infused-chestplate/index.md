@@ -3,7 +3,7 @@ title: Flux-Infused Chestplate
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused chestplate
-  file: redstone-arsenal/flux-infused-chestplate.png
+  file: redstone-arsenal-2/flux-infused-chestplate.png
 redirect_from:
 - /docs/flux-infused-chestplate/
 - /docs/redstone-arsenal/flux-infused-chestplate/

@@ -13,7 +13,7 @@ usage-recipes:
   - bucket-syrup
 ---
 
-![Syrup](/assets/images/thermal-foundation/syrup.gif){:style="height: 128px"}
+![Syrup](/assets/images/thermal-foundation-2/syrup.gif){:style="height: 128px"}
 
 
 **Syrup** is a fluid that currently cannot be obtained and is not used for

@@ -13,7 +13,7 @@ usage-recipes:
   - tf2-emerald-from-nuggets
 ---
 
-![Emerald nugget](/assets/images/thermal-foundation/nugget-emerald.png){:style="height: 128px"}
+![Emerald nugget](/assets/images/thermal-foundation-2/nugget-emerald.png){:style="height: 128px"}
 
 
 **Emerald nuggets** are raw materials. They are the nugget form of

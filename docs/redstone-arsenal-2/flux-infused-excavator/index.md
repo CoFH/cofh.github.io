@@ -3,7 +3,7 @@ title: Flux-Infused Excavator
 nav: redstone-arsenal-2
 image:
 - alt: Flux-infused excavator
-  file: redstone-arsenal/flux-infused-excavator.png
+  file: redstone-arsenal-2/flux-infused-excavator.png
 recipes:
   crafting:
   - ra2-tool-excavator

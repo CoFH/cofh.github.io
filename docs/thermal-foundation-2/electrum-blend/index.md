@@ -25,7 +25,7 @@ usage-recipes:
   - dust-electrum
 ---
 
-![Electrum blend](/assets/images/thermal-foundation/dust-electrum.png){:style="height: 128px"}
+![Electrum blend](/assets/images/thermal-foundation-2/dust-electrum.png){:style="height: 128px"}
 
 
 **Electrum blend** is a raw material. It is the dust form of

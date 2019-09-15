@@ -22,7 +22,7 @@ usage-recipes:
   - recycling-gear-electrum
 ---
 
-![Electrum gear](/assets/images/thermal-foundation/gear-electrum.png){:style="height: 128px"}
+![Electrum gear](/assets/images/thermal-foundation-2/gear-electrum.png){:style="height: 128px"}
 
 
 **Electrum gears** are crafting materials made of

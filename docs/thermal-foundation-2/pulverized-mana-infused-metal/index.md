@@ -23,7 +23,7 @@ usage-recipes:
   - hardened-glass-mithril
 ---
 
-![Pulverized mana infused metal](/assets/images/thermal-foundation/dust-mithril.png){:style="height: 128px"}
+![Pulverized mana infused metal](/assets/images/thermal-foundation-2/dust-mithril.png){:style="height: 128px"}
 
 
 **Pulverized mana infused metal** is a raw material. It is the dust form of
