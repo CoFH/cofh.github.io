@@ -11,22 +11,12 @@ redirect_from:
 
 
 **Redstone Flux**, often referred to as **RF**, is the energy system used by the
-mods of Team CoFH. As described in [Redstone Flux: A
-Primer](/docs/redstone-flux/redstone-flux-a-primer/), it is an extension of the
-redstone power system.
+mods of Team CoFH. Most of these mods have something that produces, moves,
+stores or consumes Redstone Flux in one way or another. Many other mods also add
+devices that work with Redstone Flux.
 
-Various blocks and items in the CoFH mods consume Redstone Flux energy to
-accomplish all kinds of tasks. Redstone Flux is usually consumed for one of two
-reasons:
-
-* replacing the requirement of manual labor in automated systems;
-* adding a cost for doing things that otherwise wouldn't be possible.
-
-The CoFH mods offer various ways to produce, move, store and consume Redstone
-Flux, such as [Thermal Expansion](/docs/thermal-expansion-5/)'s
-[dynamos](/docs/thermal-expansion-5/dynamos/) and [energy cell](/docs/thermal-expansion-5/energy-cell/), and [Thermal
-Dynamics](/docs/thermal-dynamics-2/)'s [fluxducts](/docs/thermal-dynamics-2/fluxducts/). Many other
-mods also add devices that work with Redstone Flux.
+See [Redstone Flux: A Primer](/docs/redstone-flux/redstone-flux-a-primer/) for
+an in-universe explanation of Redstone Flux.
 
 
 <div class="uk-margin-top uk-button-group">
