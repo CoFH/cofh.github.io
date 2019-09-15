@@ -11,7 +11,7 @@ recipes:
     ingredients:
       - fluid: tf2-coal
         fluid-amount: 200
-    energy: 5000
+    energy: "5,000"
     data:
       input:
         fluid: tf2-coal
@@ -30,7 +30,7 @@ recipes:
     ingredients:
       - fluid: tf2-crude-oil
         fluid-amount: 200
-    energy: 5000
+    energy: "5,000"
     data:
       input:
         fluid: tf2-crude-oil
@@ -49,7 +49,7 @@ recipes:
     ingredients:
       - fluid: tf2-naphtha
         fluid-amount: 150
-    energy: 5000
+    energy: "5,000"
     data:
       input:
         fluid: tf2-naphtha
@@ -68,7 +68,7 @@ recipes:
     ingredients:
       - fluid: tf2-resin
         fluid-amount: 200
-    energy: 5000
+    energy: "5,000"
     data:
       input:
         fluid: tf2-resin
@@ -86,7 +86,7 @@ recipes:
     ingredients:
       - fluid: tf2-biocrude
         fluid-amount: 200
-    energy: 5000
+    energy: "5,000"
     data:
       input:
         fluid: tf2-biocrude

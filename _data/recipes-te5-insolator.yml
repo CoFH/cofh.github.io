@@ -12,8 +12,8 @@ recipes:
       - item: mc-beetroot-seeds
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -21,7 +21,7 @@ recipes:
         item: [mc-beetroot-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-beetroot]
         amount: 2
@@ -37,8 +37,8 @@ recipes:
       - item: mc-beetroot-seeds
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -46,7 +46,7 @@ recipes:
         item: [mc-beetroot-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-beetroot]
         amount: 4
@@ -62,8 +62,8 @@ recipes:
       - item: mc-beetroot-seeds
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -71,7 +71,7 @@ recipes:
         item: [mc-beetroot-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-beetroot]
         amount: 6
@@ -86,8 +86,8 @@ recipes:
       - item: mc-cactus
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -95,7 +95,7 @@ recipes:
         item: [mc-cactus]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-cactus]
         amount: 2
@@ -107,8 +107,8 @@ recipes:
       - item: mc-cactus
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -116,7 +116,7 @@ recipes:
         item: [mc-cactus]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-cactus]
         amount: 4
@@ -128,8 +128,8 @@ recipes:
       - item: mc-cactus
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -137,7 +137,7 @@ recipes:
         item: [mc-cactus]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-cactus]
         amount: 6
@@ -149,8 +149,8 @@ recipes:
       - item: mc-carrot
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -158,7 +158,7 @@ recipes:
         item: [mc-carrot]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-carrot]
         amount: 3
@@ -170,8 +170,8 @@ recipes:
       - item: mc-carrot
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -179,7 +179,7 @@ recipes:
         item: [mc-carrot]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-carrot]
         amount: 6
@@ -191,8 +191,8 @@ recipes:
       - item: mc-carrot
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -200,7 +200,7 @@ recipes:
         item: [mc-carrot]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-carrot]
         amount: 9
@@ -213,8 +213,8 @@ recipes:
       - item: mc-chorus-flower
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -222,7 +222,7 @@ recipes:
         item: [mc-chorus-flower]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-chorus-fruit]
         amount: 2
@@ -238,8 +238,8 @@ recipes:
       - item: mc-chorus-flower
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -247,7 +247,7 @@ recipes:
         item: [mc-chorus-flower]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-chorus-fruit]
         amount: 4
@@ -263,8 +263,8 @@ recipes:
       - item: mc-chorus-flower
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -272,7 +272,7 @@ recipes:
         item: [mc-chorus-flower]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-chorus-fruit]
         amount: 6
@@ -287,8 +287,8 @@ recipes:
       - item: mc-cocoa-beans
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -296,7 +296,7 @@ recipes:
         item: [mc-cocoa-beans]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-cocoa-beans]
         amount: 3
@@ -308,8 +308,8 @@ recipes:
       - item: mc-cocoa-beans
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -317,7 +317,7 @@ recipes:
         item: [mc-cocoa-beans]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-cocoa-beans]
         amount: 6
@@ -329,8 +329,8 @@ recipes:
       - item: mc-cocoa-beans
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -338,7 +338,7 @@ recipes:
         item: [mc-cocoa-beans]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-cocoa-beans]
         amount: 9
@@ -350,8 +350,8 @@ recipes:
       - item-group: mc-flower
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -359,7 +359,7 @@ recipes:
         item-group: mc-flower
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item-group: mc-flower
         amount: 3
@@ -371,8 +371,8 @@ recipes:
       - item-group: mc-flower
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -380,7 +380,7 @@ recipes:
         item-group: mc-flower
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item-group: mc-flower
         amount: 6
@@ -392,8 +392,8 @@ recipes:
       - item-group: mc-flower
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -401,7 +401,7 @@ recipes:
         item-group: mc-flower
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item-group: mc-flower
         amount: 9
@@ -413,8 +413,8 @@ recipes:
       - item: mc-lily-pad
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -422,7 +422,7 @@ recipes:
         item: [mc-lily-pad]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-lily-pad]
         amount: 2
@@ -434,8 +434,8 @@ recipes:
       - item: mc-lily-pad
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -443,7 +443,7 @@ recipes:
         item: [mc-lily-pad]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-lily-pad]
         amount: 4
@@ -455,8 +455,8 @@ recipes:
       - item: mc-lily-pad
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -464,7 +464,7 @@ recipes:
         item: [mc-lily-pad]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-lily-pad]
         amount: 6
@@ -476,8 +476,8 @@ recipes:
       - item: mc-melon-seeds
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -485,7 +485,7 @@ recipes:
         item: [mc-melon-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-melon]
       secondary-output:
@@ -500,8 +500,8 @@ recipes:
       - item: mc-melon-seeds
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -509,7 +509,7 @@ recipes:
         item: [mc-melon-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-melon]
         amount: 2
@@ -525,8 +525,8 @@ recipes:
       - item: mc-melon-seeds
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -534,7 +534,7 @@ recipes:
         item: [mc-melon-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-melon]
         amount: 3
@@ -549,8 +549,8 @@ recipes:
       - item-group: mc-mushroom
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -558,7 +558,7 @@ recipes:
         item-group: mc-mushroom
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item-group: mc-mushroom
         amount: 2
@@ -570,8 +570,8 @@ recipes:
       - item-group: mc-mushroom
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -579,7 +579,7 @@ recipes:
         item-group: mc-mushroom
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item-group: mc-mushroom
         amount: 4
@@ -591,8 +591,8 @@ recipes:
       - item-group: mc-mushroom
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -600,7 +600,7 @@ recipes:
         item-group: mc-mushroom
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item-group: mc-mushroom
         amount: 6
@@ -612,8 +612,8 @@ recipes:
       - item: mc-nether-wart
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -621,7 +621,7 @@ recipes:
         item: [mc-nether-wart]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-nether-wart]
         amount: 2
@@ -633,8 +633,8 @@ recipes:
       - item: mc-nether-wart
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -642,7 +642,7 @@ recipes:
         item: [mc-nether-wart]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-nether-wart]
         amount: 4
@@ -654,8 +654,8 @@ recipes:
       - item: mc-nether-wart
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -663,7 +663,7 @@ recipes:
         item: [mc-nether-wart]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-nether-wart]
         amount: 6
@@ -676,8 +676,8 @@ recipes:
       - item: mc-potato
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -685,7 +685,7 @@ recipes:
         item: [mc-potato]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-potato]
         amount: 3
@@ -701,8 +701,8 @@ recipes:
       - item: mc-potato
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -710,7 +710,7 @@ recipes:
         item: [mc-potato]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-potato]
         amount: 6
@@ -726,8 +726,8 @@ recipes:
       - item: mc-potato
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -735,7 +735,7 @@ recipes:
         item: [mc-potato]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-potato]
         amount: 9
@@ -750,8 +750,8 @@ recipes:
       - item: mc-pumpkin-seeds
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -759,7 +759,7 @@ recipes:
         item: [mc-pumpkin-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-pumpkin]
       secondary-output:
@@ -774,8 +774,8 @@ recipes:
       - item: mc-pumpkin-seeds
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -783,7 +783,7 @@ recipes:
         item: [mc-pumpkin-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-pumpkin]
         amount: 2
@@ -799,8 +799,8 @@ recipes:
       - item: mc-pumpkin-seeds
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -808,7 +808,7 @@ recipes:
         item: [mc-pumpkin-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-pumpkin]
         amount: 3
@@ -823,8 +823,8 @@ recipes:
       - item: mc-sugar-canes
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -832,7 +832,7 @@ recipes:
         item: [mc-sugar-canes]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-sugar-canes]
         amount: 2
@@ -844,8 +844,8 @@ recipes:
       - item: mc-sugar-canes
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -853,7 +853,7 @@ recipes:
         item: [mc-sugar-canes]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-sugar-canes]
         amount: 4
@@ -865,8 +865,8 @@ recipes:
       - item: mc-sugar-canes
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -874,7 +874,7 @@ recipes:
         item: [mc-sugar-canes]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-sugar-canes]
         amount: 6
@@ -886,8 +886,8 @@ recipes:
       - item-group: mc-flower-tall
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -895,7 +895,7 @@ recipes:
         item-group: mc-flower-tall
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item-group: mc-flower-tall
         amount: 2
@@ -907,8 +907,8 @@ recipes:
       - item-group: mc-flower-tall
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -916,7 +916,7 @@ recipes:
         item-group: mc-flower-tall
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item-group: mc-flower-tall
         amount: 4
@@ -928,8 +928,8 @@ recipes:
       - item-group: mc-flower-tall
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -937,7 +937,7 @@ recipes:
         item-group: mc-flower-tall
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item-group: mc-flower-tall
         amount: 6
@@ -949,8 +949,8 @@ recipes:
       - item: mc-vines
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -958,7 +958,7 @@ recipes:
         item: [mc-vines]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-vines]
         amount: 2
@@ -970,8 +970,8 @@ recipes:
       - item: mc-vines
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -979,7 +979,7 @@ recipes:
         item: [mc-vines]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-vines]
         amount: 4
@@ -991,8 +991,8 @@ recipes:
       - item: mc-vines
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -1000,7 +1000,7 @@ recipes:
         item: [mc-vines]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-vines]
         amount: 6
@@ -1013,8 +1013,8 @@ recipes:
       - item: mc-seeds
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -1022,7 +1022,7 @@ recipes:
         item: [mc-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item: [mc-wheat]
         amount: 2
@@ -1038,8 +1038,8 @@ recipes:
       - item: mc-seeds
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -1047,7 +1047,7 @@ recipes:
         item: [mc-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item: [mc-wheat]
         amount: 4
@@ -1063,8 +1063,8 @@ recipes:
       - item: mc-seeds
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 2400
-    energy: 9600
+        fluid-amount: "2,400"
+    energy: "9,600"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -1072,7 +1072,7 @@ recipes:
         item: [mc-seeds]
       fluid-input:
         fluid: mc-water
-        amount: 2400
+        amount: "2,400"
       primary-output:
         item: [mc-wheat]
         amount: 6

@@ -10,15 +10,15 @@ recipes:
       - fluid: mc-lava
         fluid-amount: 0
       - fluid: mc-water
-        fluid-amount: 1500
-    energy: 2400
+        fluid-amount: "1,500"
+    energy: "2,400"
     data:
       hot-input:
         fluid: mc-lava
         amount: 0
       cold-input:
         fluid: mc-water
-        amount: 1500
+        amount: "1,500"
       output:
         item: [mc-gravel]
   sand:
@@ -28,15 +28,15 @@ recipes:
       - fluid: mc-lava
         fluid-amount: 0
       - fluid: mc-water
-        fluid-amount: 1500
-    energy: 3200
+        fluid-amount: "1,500"
+    energy: "3,200"
     data:
       hot-input:
         fluid: mc-lava
         amount: 0
       cold-input:
         fluid: mc-water
-        amount: 1500
+        amount: "1,500"
       output:
         item: [mc-sand]
   sand-red:
@@ -46,15 +46,15 @@ recipes:
       - fluid: mc-lava
         fluid-amount: 0
       - fluid: mc-water
-        fluid-amount: 1500
-    energy: 3200
+        fluid-amount: "1,500"
+    energy: "3,200"
     data:
       hot-input:
         fluid: mc-lava
         amount: 0
       cold-input:
         fluid: mc-water
-        amount: 1500
+        amount: "1,500"
       output:
         item: [mc-sand-red]
   sandstone:
@@ -64,15 +64,15 @@ recipes:
       - fluid: mc-lava
         fluid-amount: 0
       - fluid: mc-water
-        fluid-amount: 2000
-    energy: 6400
+        fluid-amount: "2,000"
+    energy: "6,400"
     data:
       hot-input:
         fluid: mc-lava
         amount: 0
       cold-input:
         fluid: mc-water
-        amount: 2000
+        amount: "2,000"
       output:
         item: [mc-sandstone]
   sandstone-red:
@@ -82,14 +82,14 @@ recipes:
       - fluid: mc-lava
         fluid-amount: 0
       - fluid: mc-water
-        fluid-amount: 2000
-    energy: 6400
+        fluid-amount: "2,000"
+    energy: "6,400"
     data:
       hot-input:
         fluid: mc-lava
         amount: 0
       cold-input:
         fluid: mc-water
-        amount: 2000
+        amount: "2,000"
       output:
         item: [mc-sandstone-red]

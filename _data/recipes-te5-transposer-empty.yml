@@ -6,7 +6,7 @@ recipes:
   bucket-aerotheum:
     results:
       - fluid: tf2-aerotheum
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-aerotheum
@@ -16,13 +16,13 @@ recipes:
         item: [tf2-bucket-aerotheum]
       fluid-output:
         fluid: tf2-aerotheum
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-biocrude:
     results:
       - fluid: tf2-biocrude
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-biocrude
@@ -32,13 +32,13 @@ recipes:
         item: [tf2-bucket-biocrude]
       fluid-output:
         fluid: tf2-biocrude
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-coal:
     results:
       - fluid: tf2-coal
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-coal
@@ -48,13 +48,13 @@ recipes:
         item: [tf2-bucket-coal]
       fluid-output:
         fluid: tf2-coal
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-creosote-oil:
     results:
       - fluid: tf2-creosote-oil
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-creosote-oil
@@ -64,13 +64,13 @@ recipes:
         item: [tf2-bucket-creosote-oil]
       fluid-output:
         fluid: tf2-creosote-oil
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-crude-oil:
     results:
       - fluid: tf2-crude-oil
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-crude-oil
@@ -80,13 +80,13 @@ recipes:
         item: [tf2-bucket-crude-oil]
       fluid-output:
         fluid: tf2-crude-oil
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-cryotheum:
     results:
       - fluid: tf2-cryotheum
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-cryotheum
@@ -96,13 +96,13 @@ recipes:
         item: [tf2-bucket-cryotheum]
       fluid-output:
         fluid: tf2-cryotheum
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-ender:
     results:
       - fluid: tf2-ender
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-ender
@@ -112,13 +112,13 @@ recipes:
         item: [tf2-bucket-ender]
       fluid-output:
         fluid: tf2-ender
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-experience:
     results:
       - fluid: tf2-experience
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-experience
@@ -128,13 +128,13 @@ recipes:
         item: [tf2-bucket-experience]
       fluid-output:
         fluid: tf2-experience
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-glowstone:
     results:
       - fluid: tf2-glowstone
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-glowstone
@@ -144,13 +144,13 @@ recipes:
         item: [tf2-bucket-glowstone]
       fluid-output:
         fluid: tf2-glowstone
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-grassoline:
     results:
       - fluid: tf2-grassoline
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-grassoline
@@ -160,13 +160,13 @@ recipes:
         item: [tf2-bucket-grassoline]
       fluid-output:
         fluid: tf2-grassoline
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-mana:
     results:
       - fluid: tf2-mana
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-mana
@@ -176,13 +176,13 @@ recipes:
         item: [tf2-bucket-mana]
       fluid-output:
         fluid: tf2-mana
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-mushroom-stew:
     results:
       - fluid: tf2-mushroom-stew
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-mushroom-stew
@@ -192,13 +192,13 @@ recipes:
         item: [tf2-bucket-mushroom-stew]
       fluid-output:
         fluid: tf2-mushroom-stew
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-naphtha:
     results:
       - fluid: tf2-naphtha
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-naphtha
@@ -208,13 +208,13 @@ recipes:
         item: [tf2-bucket-naphtha]
       fluid-output:
         fluid: tf2-naphtha
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-petrotheum:
     results:
       - fluid: tf2-petrotheum
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-petrotheum
@@ -224,13 +224,13 @@ recipes:
         item: [tf2-bucket-petrotheum]
       fluid-output:
         fluid: tf2-petrotheum
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-pyrotheum:
     results:
       - fluid: tf2-pyrotheum
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-pyrotheum
@@ -240,13 +240,13 @@ recipes:
         item: [tf2-bucket-pyrotheum]
       fluid-output:
         fluid: tf2-pyrotheum
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-redstone:
     results:
       - fluid: tf2-redstone
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-redstone
@@ -256,13 +256,13 @@ recipes:
         item: [tf2-bucket-redstone]
       fluid-output:
         fluid: tf2-redstone
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-refined-fuel:
     results:
       - fluid: tf2-refined-fuel
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-refined-fuel
@@ -272,13 +272,13 @@ recipes:
         item: [tf2-bucket-refined-fuel]
       fluid-output:
         fluid: tf2-refined-fuel
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-resin:
     results:
       - fluid: tf2-resin
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-resin
@@ -288,13 +288,13 @@ recipes:
         item: [tf2-bucket-resin]
       fluid-output:
         fluid: tf2-resin
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-sap:
     results:
       - fluid: tf2-sap
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-sap
@@ -304,13 +304,13 @@ recipes:
         item: [tf2-bucket-sap]
       fluid-output:
         fluid: tf2-sap
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-seed-oil:
     results:
       - fluid: tf2-seed-oil
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-seed-oil
@@ -320,13 +320,13 @@ recipes:
         item: [tf2-bucket-seed-oil]
       fluid-output:
         fluid: tf2-seed-oil
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-steam:
     results:
       - fluid: tf2-steam
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-steam
@@ -336,13 +336,13 @@ recipes:
         item: [tf2-bucket-steam]
       fluid-output:
         fluid: tf2-steam
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-syrup:
     results:
       - fluid: tf2-syrup
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-syrup
@@ -352,13 +352,13 @@ recipes:
         item: [tf2-bucket-syrup]
       fluid-output:
         fluid: tf2-syrup
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   bucket-tree-oil:
     results:
       - fluid: tf2-tree-oil
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-bucket
     ingredients:
       - item: tf2-bucket-tree-oil
@@ -368,7 +368,7 @@ recipes:
         item: [tf2-bucket-tree-oil]
       fluid-output:
         fluid: tf2-tree-oil
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-bucket]
   mushroom-stew:
@@ -393,7 +393,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: mc-beetroot-seeds
-    energy: 1600
+    energy: "1,600"
     data:
       input:
         item: [mc-beetroot-seeds]
@@ -406,7 +406,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: mc-melon-seeds
-    energy: 1600
+    energy: "1,600"
     data:
       input:
         item: [mc-melon-seeds]
@@ -419,7 +419,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: mc-pumpkin-seeds
-    energy: 1600
+    energy: "1,600"
     data:
       input:
         item: [mc-pumpkin-seeds]
@@ -432,7 +432,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: mc-seeds
-    energy: 1600
+    energy: "1,600"
     data:
       input:
         item: [mc-seeds]
@@ -445,7 +445,7 @@ recipes:
         fluid-amount: 500
     ingredients:
       - item: mc-cactus
-    energy: 2400
+    energy: "2,400"
     data:
       input:
         item: [mc-cactus]
@@ -455,16 +455,16 @@ recipes:
   water-from-sponge:
     results:
       - fluid: mc-water
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - item: mc-sponge
     ingredients:
       - item: mc-sponge-wet
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-sponge-wet]
       fluid-output:
         fluid: mc-water
-        amount: 1000
+        amount: "1,000"
       item-output:
         item: [mc-sponge]

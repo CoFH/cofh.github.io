@@ -44,8 +44,8 @@ compact way.
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
-block of coal coke lasts 1600 seconds, which is enough to smelt up to 160 items.
-It lasts slightly longer than 9 individual pieces of coal coke.
+block of coal coke lasts 1,600 seconds, which is enough to smelt up to 160
+items. It lasts slightly longer than 9 individual pieces of coal coke.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

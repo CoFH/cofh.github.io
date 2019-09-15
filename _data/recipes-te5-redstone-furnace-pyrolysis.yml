@@ -10,7 +10,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: mc-cactus
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-cactus]
@@ -27,7 +27,7 @@ recipes:
         fluid-amount: 100
     ingredients:
       - item: mc-hay-bale
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-hay-bale]
@@ -43,7 +43,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: tf2-sawdust-compressed
-    energy: 1000
+    energy: "1,000"
     data:
       input:
         item: [tf2-sawdust-compressed]
@@ -59,7 +59,7 @@ recipes:
         fluid-amount: 50
     ingredients:
       - item: mc-sugar-canes
-    energy: 1000
+    energy: "1,000"
     data:
       input:
         item: [mc-sugar-canes]
@@ -76,7 +76,7 @@ recipes:
         fluid-amount: 100
     ingredients:
       - item-group: mc-wood-log
-    energy: 1000
+    energy: "1,000"
     data:
       input:
         random: true
@@ -93,7 +93,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: mc-coal
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-coal]
@@ -106,10 +106,10 @@ recipes:
     results:
       - item: tf2-storage-block-coal-coke
       - fluid: tf2-creosote-oil
-        fluid-amount: 2500
+        fluid-amount: "2,500"
     ingredients:
       - item: mc-storage-block-coal
-    energy: 16000
+    energy: "16,000"
     data:
       input:
         item: [mc-storage-block-coal]
@@ -117,4 +117,4 @@ recipes:
         item: [tf2-storage-block-coal-coke]
       fluid-output:
         fluid: tf2-creosote-oil
-        amount: 2500
+        amount: "2,500"

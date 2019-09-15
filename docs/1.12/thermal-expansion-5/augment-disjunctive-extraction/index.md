@@ -44,4 +44,4 @@ enchantments on the item, and on the [minimum modified enchantment
 level](https://minecraft.gamepedia.com/Enchanting/Levels) of those enchantments
 at their corresponding levels.
 
-    energyRF = 5000 * ([sum of minimum modified enchantment levels] + (numEnchantments * (numEnchantments + 1) / 2))
+    energyRF = 5,000 * ([sum of minimum modified enchantment levels] + (numEnchantments * (numEnchantments + 1) / 2))

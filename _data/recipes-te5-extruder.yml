@@ -28,7 +28,7 @@ recipes:
       - fluid: mc-lava
         fluid-amount: 0
       - fluid: mc-water
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     energy: 800
     data:
       hot-input:
@@ -36,7 +36,7 @@ recipes:
         amount: 0
       cold-input:
         fluid: mc-water
-        amount: 1000
+        amount: "1,000"
       output:
         item: [mc-stone]
   obsidian:
@@ -44,17 +44,17 @@ recipes:
       - item: mc-obsidian
     ingredients:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
       - fluid: mc-water
-        fluid-amount: 1000
-    energy: 1600
+        fluid-amount: "1,000"
+    energy: "1,600"
     data:
       hot-input:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
       cold-input:
         fluid: mc-water
-        amount: 1000
+        amount: "1,000"
       output:
         item: [mc-obsidian]
   granite:
@@ -64,7 +64,7 @@ recipes:
       - fluid: mc-lava
         fluid-amount: 0
       - fluid: mc-water
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     energy: 800
     data:
       hot-input:
@@ -72,7 +72,7 @@ recipes:
         amount: 0
       cold-input:
         fluid: mc-water
-        amount: 1000
+        amount: "1,000"
       output:
         item: [mc-granite]
   diorite:
@@ -82,7 +82,7 @@ recipes:
       - fluid: mc-lava
         fluid-amount: 0
       - fluid: mc-water
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     energy: 800
     data:
       hot-input:
@@ -90,7 +90,7 @@ recipes:
         amount: 0
       cold-input:
         fluid: mc-water
-        amount: 1000
+        amount: "1,000"
       output:
         item: [mc-diorite]
   andesite:
@@ -100,7 +100,7 @@ recipes:
       - fluid: mc-lava
         fluid-amount: 0
       - fluid: mc-water
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     energy: 800
     data:
       hot-input:
@@ -108,6 +108,6 @@ recipes:
         amount: 0
       cold-input:
         fluid: mc-water
-        amount: 1000
+        amount: "1,000"
       output:
         item: [mc-andesite]

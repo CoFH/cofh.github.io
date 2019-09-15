@@ -9,7 +9,7 @@ recipes:
       - item: mc-beetroot-seeds
     ingredients:
       - item: mc-beetroot
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-beetroot]
@@ -24,7 +24,7 @@ recipes:
       - item: tf2-biomass
     ingredients:
       - item: mc-cactus
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-cactus]
@@ -36,7 +36,7 @@ recipes:
       - item: tf2-biomass
     ingredients:
       - item: mc-carrot
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-carrot]
@@ -48,7 +48,7 @@ recipes:
       - item: tf2-biomass
     ingredients:
       - item: mc-lily-pad
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-lily-pad]
@@ -61,7 +61,7 @@ recipes:
       - item: mc-melon-seeds
     ingredients:
       - item: mc-melon
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-melon]
@@ -76,7 +76,7 @@ recipes:
       - item: tf2-biomass
     ingredients:
       - item: mc-potato
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-potato]
@@ -89,7 +89,7 @@ recipes:
       - item: mc-pumpkin-seeds
     ingredients:
       - item: mc-pumpkin
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-pumpkin]
@@ -105,7 +105,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item-group: mc-sapling
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item-group: mc-sapling
@@ -121,7 +121,7 @@ recipes:
       - item: mc-sugar
     ingredients:
       - item: mc-sugar-canes
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-sugar-canes]
@@ -137,7 +137,7 @@ recipes:
       - item: tf2-biomass
     ingredients:
       - item: mc-vines
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-vines]
@@ -150,7 +150,7 @@ recipes:
       - item: mc-seeds
     ingredients:
       - item: mc-wheat
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-wheat]
@@ -165,7 +165,7 @@ recipes:
       - item: mc-leather
     ingredients:
       - item: mc-armor-helmet-leather
-    energy: 1500
+    energy: "1,500"
     data:
       input:
         item: [mc-armor-helmet-leather]
@@ -177,7 +177,7 @@ recipes:
       - item: mc-leather
     ingredients:
       - item: mc-armor-chestplate-leather
-    energy: 1500
+    energy: "1,500"
     data:
       input:
         item: [mc-armor-chestplate-leather]
@@ -189,7 +189,7 @@ recipes:
       - item: mc-leather
     ingredients:
       - item: mc-armor-leggings-leather
-    energy: 1500
+    energy: "1,500"
     data:
       input:
         item: [mc-armor-leggings-leather]
@@ -201,7 +201,7 @@ recipes:
       - item: mc-leather
     ingredients:
       - item: mc-armor-boots-leather
-    energy: 1500
+    energy: "1,500"
     data:
       input:
         item: [mc-armor-boots-leather]
@@ -214,7 +214,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item-group: mc-boat
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item-group: mc-boat
@@ -230,7 +230,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item-group: mc-door-wood
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item-group: mc-door-wood
@@ -245,7 +245,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item-group: mc-fence
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item-group: mc-fence
@@ -261,7 +261,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item-group: mc-fence-gate
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item-group: mc-fence-gate
@@ -275,7 +275,7 @@ recipes:
       - item: mc-leather
     ingredients:
       - item: mc-saddle
-    energy: 1500
+    energy: "1,500"
     data:
       input:
         item: [mc-saddle]
@@ -288,7 +288,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item-group: mc-wood-stairs
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item-group: mc-wood-stairs
@@ -304,7 +304,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item-group: mc-wood-log
-    energy: 1000
+    energy: "1,000"
     data:
       input:
         item-group: mc-wood-log

@@ -9,7 +9,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: tf2-dust-aerotheum
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-dust-aerotheum]
@@ -22,7 +22,7 @@ recipes:
         fluid-amount: 100
     ingredients:
       - item: tf2-biomass
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-biomass]
@@ -35,7 +35,7 @@ recipes:
         fluid-amount: 150
     ingredients:
       - item: tf2-biomass-rich
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-biomass-rich]
@@ -48,7 +48,7 @@ recipes:
         fluid-amount: 100
     ingredients:
       - item: tf2-bioblend
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-bioblend]
@@ -61,7 +61,7 @@ recipes:
         fluid-amount: 150
     ingredients:
       - item: tf2-bioblend-rich
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-bioblend-rich]
@@ -74,7 +74,7 @@ recipes:
         fluid-amount: 100
     ingredients:
       - item: tf2-dust-coal
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-dust-coal]
@@ -87,7 +87,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: tf2-bitumen
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-bitumen]
@@ -100,7 +100,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: tf2-dust-cryotheum
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-dust-cryotheum]
@@ -113,7 +113,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: mc-ender-pearl
-    energy: 20000
+    energy: "20,000"
     data:
       input:
         item: [mc-ender-pearl]
@@ -126,7 +126,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: tf2-clathrate-ender
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-clathrate-ender]
@@ -136,75 +136,75 @@ recipes:
   fluid-ore-processing-ender:
     results:
       - fluid: tf2-ender
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: tf2-ore-fluid-ender
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-fluid-ender]
       output:
         fluid: tf2-ender
-        amount: 1000
+        amount: "1,000"
   fluid-ore-processing-glowstone:
     results:
       - fluid: tf2-glowstone
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: tf2-ore-fluid-glowstone
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-fluid-glowstone]
       output:
         fluid: tf2-glowstone
-        amount: 1000
+        amount: "1,000"
   fluid-ore-processing-oil-sand:
     results:
       - fluid: tf2-crude-oil
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: tf2-oil-sand
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-oil-sand, tf2-oil-sand-red]
       output:
         fluid: tf2-crude-oil
-        amount: 1000
+        amount: "1,000"
   fluid-ore-processing-oil-shale:
     results:
       - fluid: tf2-crude-oil
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: tf2-oil-shale
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-oil-shale]
       output:
         fluid: tf2-crude-oil
-        amount: 1000
+        amount: "1,000"
   fluid-ore-processing-redstone:
     results:
       - fluid: tf2-redstone
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: tf2-ore-fluid-redstone
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-fluid-redstone]
       output:
         fluid: tf2-redstone
-        amount: 1000
+        amount: "1,000"
   glowstone:
     results:
       - fluid: tf2-glowstone
         fluid-amount: 250
     ingredients:
       - item: mc-glowstone-dust
-    energy: 20000
+    energy: "20,000"
     data:
       input:
         item: [mc-glowstone-dust]
@@ -214,23 +214,23 @@ recipes:
   glowstone-from-block:
     results:
       - fluid: tf2-glowstone
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-glowstone
-    energy: 80000
+    energy: "80,000"
     data:
       input:
         item: [mc-glowstone]
       output:
         fluid: tf2-glowstone
-        amount: 1000
+        amount: "1,000"
   glowstone-from-clathrate:
     results:
       - fluid: tf2-glowstone
         fluid-amount: 250
     ingredients:
       - item: tf2-clathrate-glowstone
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-clathrate-glowstone]
@@ -240,153 +240,153 @@ recipes:
   lava-from-andesite:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-andesite
-    energy: 300000
+    energy: "300,000"
     data:
       input:
         item: [mc-andesite]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-andesite-polished:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-andesite-polished
-    energy: 300000
+    energy: "300,000"
     data:
       input:
         item: [mc-andesite-polished]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-cobblestone:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-cobblestone
-    energy: 300000
+    energy: "300,000"
     data:
       input:
         item: [mc-cobblestone]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-diorite:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-diorite
-    energy: 300000
+    energy: "300,000"
     data:
       input:
         item: [mc-diorite]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-diorite-polished:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-diorite-polished
-    energy: 300000
+    energy: "300,000"
     data:
       input:
         item: [mc-diorite-polished]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-granite:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-granite
-    energy: 300000
+    energy: "300,000"
     data:
       input:
         item: [mc-granite]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-granite-polished:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-granite-polished
-    energy: 300000
+    energy: "300,000"
     data:
       input:
         item: [mc-granite-polished]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-magma-block:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-magma-block
-    energy: 40000
+    energy: "40,000"
     data:
       input:
         item: [mc-magma-block]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-netherrack:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-netherrack
-    energy: 60000
+    energy: "60,000"
     data:
       input:
         item: [mc-netherrack]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-obsidian:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-obsidian
-    energy: 300000
+    energy: "300,000"
     data:
       input:
         item: [mc-obsidian]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   lava-from-stone:
     results:
       - fluid: mc-lava
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-stone
-    energy: 300000
+    energy: "300,000"
     data:
       input:
         item: [mc-stone]
       output:
         fluid: mc-lava
-        amount: 1000
+        amount: "1,000"
   petrotheum:
     results:
       - fluid: tf2-petrotheum
         fluid-amount: 250
     ingredients:
       - item: tf2-dust-petrotheum
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-dust-petrotheum]
@@ -399,7 +399,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: tf2-dust-pyrotheum
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-dust-pyrotheum]
@@ -412,7 +412,7 @@ recipes:
         fluid-amount: 100
     ingredients:
       - item: mc-redstone
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [mc-redstone]
@@ -425,7 +425,7 @@ recipes:
         fluid-amount: 900
     ingredients:
       - item: mc-storage-block-redstone
-    energy: 72000
+    energy: "72,000"
     data:
       input:
         item: [mc-storage-block-redstone]
@@ -438,7 +438,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: tf2-clathrate-redstone
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-clathrate-redstone]
@@ -448,16 +448,16 @@ recipes:
   water-from-ice:
     results:
       - fluid: mc-water
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: mc-ice
-    energy: 1600
+    energy: "1,600"
     data:
       input:
         item: [mc-ice]
       output:
         fluid: mc-water
-        amount: 1000
+        amount: "1,000"
   water-from-snow:
     results:
       - fluid: mc-water

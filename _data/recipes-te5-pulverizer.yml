@@ -9,7 +9,7 @@ recipes:
       - item: tf2-dust-obsidian
     ingredients:
       - item: tf2-basalz-rod
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [tf2-basalz-rod]
@@ -25,7 +25,7 @@ recipes:
       - item: tf2-sulfur
     ingredients:
       - item: mc-blaze-rod
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-blaze-rod]
@@ -41,7 +41,7 @@ recipes:
       - item: tf2-niter
     ingredients:
       - item: tf2-blitz-rod
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [tf2-blitz-rod]
@@ -57,7 +57,7 @@ recipes:
       - item: mc-snowball
     ingredients:
       - item: tf2-blizz-rod
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [tf2-blizz-rod]
@@ -72,7 +72,7 @@ recipes:
       - item: mc-bone-meal
     ingredients:
       - item: mc-bone
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-bone]
@@ -84,7 +84,7 @@ recipes:
       - item: mc-cobblestone
     ingredients:
       - item: mc-stone
-    energy: 1000
+    energy: "1,000"
     data:
       input:
         item: [mc-stone]
@@ -95,7 +95,7 @@ recipes:
       - item-group: tf2-dust-metal
     ingredients:
       - item-group: ingot-metal-with-tf2
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item-group: ingot-metal-with-tf2
@@ -106,7 +106,7 @@ recipes:
       - item: tf2-dust-aluminum
     ingredients:
       - item: tf2-ingot-aluminum
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-aluminum]
@@ -117,7 +117,7 @@ recipes:
       - item: tf2-dust-constantan
     ingredients:
       - item: tf2-ingot-constantan
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-constantan]
@@ -128,7 +128,7 @@ recipes:
       - item: tf2-dust-bronze
     ingredients:
       - item: tf2-ingot-bronze
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-bronze]
@@ -139,7 +139,7 @@ recipes:
       - item: tf2-dust-copper
     ingredients:
       - item: tf2-ingot-copper
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-copper]
@@ -150,7 +150,7 @@ recipes:
       - item: tf2-dust-charcoal
     ingredients:
       - item: mc-charcoal
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-charcoal]
@@ -162,7 +162,7 @@ recipes:
       - item: tf2-sulfur
     ingredients:
       - item: mc-coal
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-coal]
@@ -176,7 +176,7 @@ recipes:
       - item: tf2-dust-electrum
     ingredients:
       - item: tf2-ingot-electrum
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-electrum]
@@ -187,7 +187,7 @@ recipes:
       - item: tf2-dust-enderium
     ingredients:
       - item: tf2-ingot-enderium
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-enderium]
@@ -198,7 +198,7 @@ recipes:
       - item: ra2-dust-fluxed-electrum
     ingredients:
       - item: ra2-ingot-fluxed-electrum
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [ra2-ingot-fluxed-electrum]
@@ -209,7 +209,7 @@ recipes:
       - item: tf2-dust-gold
     ingredients:
       - item: mc-ingot-gold
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-ingot-gold]
@@ -220,7 +220,7 @@ recipes:
       - item: tf2-dust-invar
     ingredients:
       - item: tf2-ingot-invar
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-invar]
@@ -231,7 +231,7 @@ recipes:
       - item: tf2-dust-iridium
     ingredients:
       - item: tf2-ingot-iridium
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-iridium]
@@ -242,7 +242,7 @@ recipes:
       - item: tf2-dust-iron
     ingredients:
       - item: mc-ingot-iron
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-ingot-iron]
@@ -253,7 +253,7 @@ recipes:
       - item: tf2-dust-lead
     ingredients:
       - item: tf2-ingot-lead
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-lead]
@@ -264,7 +264,7 @@ recipes:
       - item: tf2-dust-lumium
     ingredients:
       - item: tf2-ingot-lumium
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-lumium]
@@ -275,7 +275,7 @@ recipes:
       - item: tf2-dust-mithril
     ingredients:
       - item: tf2-ingot-mithril
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-mithril]
@@ -286,7 +286,7 @@ recipes:
       - item: tf2-dust-nickel
     ingredients:
       - item: tf2-ingot-nickel
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-nickel]
@@ -297,7 +297,7 @@ recipes:
       - item: tf2-dust-obsidian
     ingredients:
       - item: mc-obsidian
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-obsidian]
@@ -309,7 +309,7 @@ recipes:
       - item: tf2-dust-platinum
     ingredients:
       - item: tf2-ingot-platinum
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-platinum]
@@ -320,7 +320,7 @@ recipes:
       - item: tf2-dust-signalum
     ingredients:
       - item: tf2-ingot-signalum
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-signalum]
@@ -331,7 +331,7 @@ recipes:
       - item: tf2-dust-silver
     ingredients:
       - item: tf2-ingot-silver
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-silver]
@@ -342,7 +342,7 @@ recipes:
       - item: tf2-dust-steel
     ingredients:
       - item: tf2-ingot-steel
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-steel]
@@ -353,7 +353,7 @@ recipes:
       - item: tf2-dust-tin
     ingredients:
       - item: tf2-ingot-tin
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [tf2-ingot-tin]
@@ -364,7 +364,7 @@ recipes:
       - item: mc-light-blue-dye
     ingredients:
       - item: mc-flower-blue-orchid
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-blue-orchid]
@@ -376,7 +376,7 @@ recipes:
       - item: mc-light-gray-dye
     ingredients:
       - item: mc-flower-azure-bluet
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-azure-bluet]
@@ -388,7 +388,7 @@ recipes:
       - item: mc-light-gray-dye
     ingredients:
       - item: mc-flower-oxeye-daisy
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-oxeye-daisy]
@@ -400,7 +400,7 @@ recipes:
       - item: mc-light-gray-dye
     ingredients:
       - item: mc-flower-tulip-white
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-tulip-white]
@@ -412,7 +412,7 @@ recipes:
       - item: mc-magenta-dye
     ingredients:
       - item: mc-flower-allium
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-allium]
@@ -424,7 +424,7 @@ recipes:
       - item: mc-magenta-dye
     ingredients:
       - item: mc-flower-lilac
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-lilac]
@@ -436,7 +436,7 @@ recipes:
       - item: mc-orange-dye
     ingredients:
       - item: mc-flower-tulip-orange
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-tulip-orange]
@@ -448,7 +448,7 @@ recipes:
       - item: mc-pink-dye
     ingredients:
       - item: mc-flower-peony
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-peony]
@@ -460,7 +460,7 @@ recipes:
       - item: mc-pink-dye
     ingredients:
       - item: mc-flower-tulip-pink
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-tulip-pink]
@@ -472,7 +472,7 @@ recipes:
       - item: mc-rose-red
     ingredients:
       - item: mc-flower-poppy
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-poppy]
@@ -484,7 +484,7 @@ recipes:
       - item: mc-rose-red
     ingredients:
       - item: mc-flower-rose-bush
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-rose-bush]
@@ -496,7 +496,7 @@ recipes:
       - item: mc-rose-red
     ingredients:
       - item: mc-flower-tulip-red
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-tulip-red]
@@ -508,7 +508,7 @@ recipes:
       - item: mc-dandelion-yellow
     ingredients:
       - item: mc-flower-dandelion
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-dandelion]
@@ -520,7 +520,7 @@ recipes:
       - item: mc-dandelion-yellow
     ingredients:
       - item: mc-flower-sunflower
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-flower-sunflower]
@@ -532,7 +532,7 @@ recipes:
       - item: tf2-clathrate-ender
     ingredients:
       - item: tf2-ore-fluid-ender
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-fluid-ender]
@@ -545,7 +545,7 @@ recipes:
       - item: tf2-sulfur
     ingredients:
       - item: tf2-ore-fluid-glowstone
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-fluid-glowstone]
@@ -561,7 +561,7 @@ recipes:
       - item: tf2-tar
     ingredients:
       - item: tf2-oil-sand
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-oil-sand, tf2-oil-sand-red]
@@ -577,7 +577,7 @@ recipes:
       - item: mc-flint
     ingredients:
       - item: tf2-oil-shale
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-oil-shale]
@@ -593,7 +593,7 @@ recipes:
       - item: tf2-cinnabar
     ingredients:
       - item: tf2-ore-fluid-redstone
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-fluid-redstone]
@@ -608,7 +608,7 @@ recipes:
       - item: mc-glowstone-dust
     ingredients:
       - item: mc-glowstone
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-glowstone]
@@ -621,7 +621,7 @@ recipes:
       - item: mc-sand
     ingredients:
       - item: mc-cobblestone
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-cobblestone]
@@ -636,7 +636,7 @@ recipes:
       - item: tf2-sulfur
     ingredients:
       - item: mc-netherrack
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-netherrack]
@@ -650,7 +650,7 @@ recipes:
       - item: mc-magma-cream
     ingredients:
       - item: mc-magma-block
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-magma-block]
@@ -664,7 +664,7 @@ recipes:
       - item: tf2-dust-iron
     ingredients:
       - item: tf2-ore-aluminum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-aluminum]
@@ -680,7 +680,7 @@ recipes:
       - item: tf2-dust-coal
     ingredients:
       - item: mc-ore-coal
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ore-coal]
@@ -697,7 +697,7 @@ recipes:
       - item: tf2-dust-gold
     ingredients:
       - item: tf2-ore-copper
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-copper]
@@ -712,7 +712,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-ore-diamond
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ore-diamond]
@@ -724,7 +724,7 @@ recipes:
       - item: mc-emerald
     ingredients:
       - item: mc-ore-emerald
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ore-emerald]
@@ -738,7 +738,7 @@ recipes:
       - item: tf2-cinnabar
     ingredients:
       - item: mc-ore-gold
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ore-gold]
@@ -755,7 +755,7 @@ recipes:
       - item: tf2-dust-platinum
     ingredients:
       - item: tf2-ore-iridium
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-iridium]
@@ -772,7 +772,7 @@ recipes:
       - item: tf2-dust-nickel
     ingredients:
       - item: mc-ore-iron
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ore-iron]
@@ -788,7 +788,7 @@ recipes:
       - item: tf2-sulfur
     ingredients:
       - item: mc-ore-lapis-lazuli
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ore-lapis-lazuli]
@@ -805,7 +805,7 @@ recipes:
       - item: tf2-dust-silver
     ingredients:
       - item: tf2-ore-lead
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-lead]
@@ -822,7 +822,7 @@ recipes:
       - item: tf2-dust-gold
     ingredients:
       - item: tf2-ore-mithril
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-mithril]
@@ -838,7 +838,7 @@ recipes:
       - item: tf2-sulfur
     ingredients:
       - item: mc-ore-nether-quartz
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ore-nether-quartz]
@@ -855,7 +855,7 @@ recipes:
       - item: tf2-dust-platinum
     ingredients:
       - item: tf2-ore-nickel
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-nickel]
@@ -872,7 +872,7 @@ recipes:
       - item: tf2-dust-iridium
     ingredients:
       - item: tf2-ore-platinum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-platinum]
@@ -888,7 +888,7 @@ recipes:
       - item: tf2-cinnabar
     ingredients:
       - item: mc-ore-redstone
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ore-redstone]
@@ -905,7 +905,7 @@ recipes:
       - item: tf2-dust-lead
     ingredients:
       - item: tf2-ore-silver
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-silver]
@@ -922,7 +922,7 @@ recipes:
       - item: tf2-dust-iron
     ingredients:
       - item: tf2-ore-tin
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ore-tin]
@@ -937,7 +937,7 @@ recipes:
       - item: mc-prismarine-crystals
     ingredients:
       - item: mc-prismarine-shard
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-prismarine-shard]
@@ -948,7 +948,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-armor-helmet-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-armor-helmet-diamond]
@@ -960,7 +960,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-armor-chestplate-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-armor-chestplate-diamond]
@@ -972,7 +972,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-armor-leggings-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-armor-leggings-diamond]
@@ -984,7 +984,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-armor-boots-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-armor-boots-diamond]
@@ -996,7 +996,7 @@ recipes:
       - item: mc-brick
     ingredients:
       - item: mc-brick-stairs
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-brick-stairs]
@@ -1008,7 +1008,7 @@ recipes:
       - item: mc-brick
     ingredients:
       - item: mc-bricks
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-bricks]
@@ -1020,7 +1020,7 @@ recipes:
       - item: mc-brick
     ingredients:
       - item: mc-bricks-slab
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-bricks-slab]
@@ -1032,7 +1032,7 @@ recipes:
       - item: mc-clay
     ingredients:
       - item: mc-clay-block
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-clay-block]
@@ -1044,7 +1044,7 @@ recipes:
       - item-group: mc-concrete-powder
     ingredients:
       - item-group: mc-concrete
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item-group: mc-concrete
@@ -1055,7 +1055,7 @@ recipes:
       - item: mc-brick
     ingredients:
       - item: mc-flower-pot
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-flower-pot]
@@ -1067,7 +1067,7 @@ recipes:
       - item: mc-sand
     ingredients:
       - item: mc-glass
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-glass]
@@ -1078,7 +1078,7 @@ recipes:
       - item: mc-sand
     ingredients:
       - item: mc-glass-bottle
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-glass-bottle]
@@ -1089,7 +1089,7 @@ recipes:
       - item: mc-sand
     ingredients:
       - item-group: mc-glass-stained
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item-group: mc-glass-stained
@@ -1100,7 +1100,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-horse-armor-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-horse-armor-diamond]
@@ -1113,7 +1113,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-jukebox
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-jukebox]
@@ -1128,7 +1128,7 @@ recipes:
       - item: mc-nether-brick-item
     ingredients:
       - item: mc-nether-brick
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-nether-brick]
@@ -1140,7 +1140,7 @@ recipes:
       - item: mc-nether-brick-item
     ingredients:
       - item: mc-nether-brick-slab
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-nether-brick-slab]
@@ -1152,7 +1152,7 @@ recipes:
       - item: mc-nether-brick-item
     ingredients:
       - item: mc-nether-brick-stairs
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-nether-brick-stairs]
@@ -1164,7 +1164,7 @@ recipes:
       - item: mc-nether-quartz
     ingredients:
       - item-group: mc-nether-quartz-block
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item-group: mc-nether-quartz-block
@@ -1176,7 +1176,7 @@ recipes:
       - item: mc-nether-quartz
     ingredients:
       - item: mc-nether-quartz-slab
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-nether-quartz-slab]
@@ -1188,7 +1188,7 @@ recipes:
       - item: mc-nether-quartz
     ingredients:
       - item: mc-nether-quartz-stairs
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-nether-quartz-stairs]
@@ -1201,7 +1201,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-note-block
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-note-block]
@@ -1217,7 +1217,7 @@ recipes:
       - item: tf2-niter
     ingredients:
       - item-group: mc-sandstone
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item-group: mc-sandstone
@@ -1233,7 +1233,7 @@ recipes:
       - item: tf2-niter
     ingredients:
       - item: mc-sandstone-slab
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-sandstone-slab]
@@ -1248,7 +1248,7 @@ recipes:
       - item: tf2-niter
     ingredients:
       - item: mc-sandstone-stairs
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-sandstone-stairs]
@@ -1264,7 +1264,7 @@ recipes:
       - item: tf2-niter
     ingredients:
       - item-group: mc-sandstone-red
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item-group: mc-sandstone-red
@@ -1280,7 +1280,7 @@ recipes:
       - item: tf2-niter
     ingredients:
       - item: mc-sandstone-red-slab
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-sandstone-red-slab]
@@ -1295,7 +1295,7 @@ recipes:
       - item: tf2-niter
     ingredients:
       - item: mc-sandstone-red-stairs
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-sandstone-red-stairs]
@@ -1310,7 +1310,7 @@ recipes:
       - item: mc-clay
     ingredients:
       - item: mc-terracotta
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item:
@@ -1340,7 +1340,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-tool-axe-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-tool-axe-diamond]
@@ -1351,7 +1351,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-tool-axe-wood
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-tool-axe-wood]
@@ -1363,7 +1363,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: tf2-tool-excavator-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [tf2-tool-excavator-diamond]
@@ -1374,7 +1374,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: tf2-tool-excavator-wood
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [tf2-tool-excavator-wood]
@@ -1386,7 +1386,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-tool-fishing-rod
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-tool-fishing-rod]
@@ -1398,7 +1398,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: tf2-tool-fishing-rod-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [tf2-tool-fishing-rod-diamond]
@@ -1409,7 +1409,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: tf2-tool-hammer-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [tf2-tool-hammer-diamond]
@@ -1421,7 +1421,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: tf2-tool-hammer-wood
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [tf2-tool-hammer-wood]
@@ -1433,7 +1433,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-tool-hoe-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-tool-hoe-diamond]
@@ -1444,7 +1444,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-tool-hoe-wood
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-tool-hoe-wood]
@@ -1456,7 +1456,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-tool-pickaxe-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-tool-pickaxe-diamond]
@@ -1467,7 +1467,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-tool-pickaxe-wood
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-tool-pickaxe-wood]
@@ -1479,7 +1479,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: tf2-tool-shears-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [tf2-tool-shears-diamond]
@@ -1490,7 +1490,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: tf2-tool-shears-wood
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [tf2-tool-shears-wood]
@@ -1502,7 +1502,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-tool-shovel-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-tool-shovel-diamond]
@@ -1513,7 +1513,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-tool-shovel-wood
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-tool-shovel-wood]
@@ -1525,7 +1525,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: tf2-tool-sickle-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [tf2-tool-sickle-diamond]
@@ -1536,7 +1536,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: tf2-tool-sickle-wood
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [tf2-tool-sickle-wood]
@@ -1548,7 +1548,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-bow
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-bow]
@@ -1560,7 +1560,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: tf2-weapon-bow-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [tf2-weapon-bow-diamond]
@@ -1571,7 +1571,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-weapon-shield
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-weapon-shield]
@@ -1583,7 +1583,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: tf2-weapon-shield-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [tf2-weapon-shield-diamond]
@@ -1595,7 +1595,7 @@ recipes:
       - item: mc-diamond
     ingredients:
       - item: mc-weapon-sword-diamond
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [mc-weapon-sword-diamond]
@@ -1606,7 +1606,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item: mc-weapon-sword-wood
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item: [mc-weapon-sword-wood]
@@ -1619,7 +1619,7 @@ recipes:
       - item-group: tf2-pigment
     ingredients:
       - item-group: mc-wool
-    energy: 3000
+    energy: "3,000"
     data:
       input:
         item-group: mc-wool
@@ -1635,7 +1635,7 @@ recipes:
       - item: mc-flint
     ingredients:
       - item: mc-gravel
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-gravel]
@@ -1649,7 +1649,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item-group: mc-wood-log
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item-group: mc-wood-log
@@ -1661,7 +1661,7 @@ recipes:
       - item: tf2-sawdust
     ingredients:
       - item-group: mc-wood-planks
-    energy: 1000
+    energy: "1,000"
     data:
       input:
         item-group: mc-wood-planks

@@ -8,7 +8,7 @@ recipes:
       - item: tf2-aqua-chow-fluxed
     ingredients:
       - item: tf2-aqua-chow-rich
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-aqua-chow-rich]
@@ -19,7 +19,7 @@ recipes:
       - item: tf2-phyto-gro-fluxed
     ingredients:
       - item: tf2-phyto-gro-rich
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-phyto-gro-rich]

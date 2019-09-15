@@ -8,7 +8,7 @@ recipes:
       - item: mc-cactus-green
     ingredients:
       - item: mc-cactus
-    energy: 1000
+    energy: "1,000"
     data:
       input:
         item: [mc-cactus]
@@ -19,7 +19,7 @@ recipes:
       - item-group: mc-food-cooked
     ingredients:
       - item-group: mc-food-raw
-    energy: 1000
+    energy: "1,000"
     data:
       input:
         item-group: mc-food-raw
@@ -30,7 +30,7 @@ recipes:
       - html: 'Metal Ingot'
     ingredients:
       - html: '<a href="https://minecraft.gamepedia.com/Smelting">Smeltable</a> Metal Dust'
-    energy: 1500
+    energy: "1,500"
     data:
       input:
         item:
@@ -69,7 +69,7 @@ recipes:
       - item: mc-leather
     ingredients:
       - item: mc-rotten-flesh
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-rotten-flesh]
@@ -81,7 +81,7 @@ recipes:
       - item: mc-lapis-lazuli
     ingredients:
       - item: mc-ore-lapis-lazuli
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-ore-lapis-lazuli]
@@ -93,7 +93,7 @@ recipes:
       - item: mc-redstone
     ingredients:
       - item: mc-ore-redstone
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-ore-redstone]

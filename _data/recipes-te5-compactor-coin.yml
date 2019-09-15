@@ -8,7 +8,7 @@ recipes:
       - item-group: tf2-coin-metal
     ingredients:
       - item-group: ingot-metal-with-tf2
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item-group: ingot-metal-with-tf2
@@ -20,7 +20,7 @@ recipes:
       - item: tf2-coin-aluminum
     ingredients:
       - item: tf2-ingot-aluminum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-aluminum]
@@ -32,7 +32,7 @@ recipes:
       - item: tf2-coin-bronze
     ingredients:
       - item: tf2-ingot-bronze
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-bronze]
@@ -44,7 +44,7 @@ recipes:
       - item: tf2-coin-constantan
     ingredients:
       - item: tf2-ingot-constantan
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-constantan]
@@ -56,7 +56,7 @@ recipes:
       - item: tf2-coin-copper
     ingredients:
       - item: tf2-ingot-copper
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-copper]
@@ -68,7 +68,7 @@ recipes:
       - item: tf2-coin-electrum
     ingredients:
       - item: tf2-ingot-electrum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-electrum]
@@ -80,7 +80,7 @@ recipes:
       - item: tf2-coin-enderium
     ingredients:
       - item: tf2-ingot-enderium
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-enderium]
@@ -92,7 +92,7 @@ recipes:
       - item: tf2-coin-gold
     ingredients:
       - item: mc-ingot-gold
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ingot-gold]
@@ -104,7 +104,7 @@ recipes:
       - item: tf2-coin-invar
     ingredients:
       - item: tf2-ingot-invar
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-invar]
@@ -116,7 +116,7 @@ recipes:
       - item: tf2-coin-iridium
     ingredients:
       - item: tf2-ingot-iridium
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-iridium]
@@ -128,7 +128,7 @@ recipes:
       - item: tf2-coin-iron
     ingredients:
       - item: mc-ingot-iron
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ingot-iron]
@@ -140,7 +140,7 @@ recipes:
       - item: tf2-coin-lead
     ingredients:
       - item: tf2-ingot-lead
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-lead]
@@ -152,7 +152,7 @@ recipes:
       - item: tf2-coin-lumium
     ingredients:
       - item: tf2-ingot-lumium
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-lumium]
@@ -164,7 +164,7 @@ recipes:
       - item: tf2-coin-mithril
     ingredients:
       - item: tf2-ingot-mithril
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-mithril]
@@ -176,7 +176,7 @@ recipes:
       - item: tf2-coin-nickel
     ingredients:
       - item: tf2-ingot-nickel
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-nickel]
@@ -188,7 +188,7 @@ recipes:
       - item: tf2-coin-platinum
     ingredients:
       - item: tf2-ingot-platinum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-platinum]
@@ -200,7 +200,7 @@ recipes:
       - item: tf2-coin-signalum
     ingredients:
       - item: tf2-ingot-signalum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-signalum]
@@ -212,7 +212,7 @@ recipes:
       - item: tf2-coin-silver
     ingredients:
       - item: tf2-ingot-silver
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-silver]
@@ -224,7 +224,7 @@ recipes:
       - item: tf2-coin-steel
     ingredients:
       - item: tf2-ingot-steel
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-steel]
@@ -236,7 +236,7 @@ recipes:
       - item: tf2-coin-tin
     ingredients:
       - item: tf2-ingot-tin
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-tin]

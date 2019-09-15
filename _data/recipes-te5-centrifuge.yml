@@ -11,7 +11,7 @@ recipes:
       - item-group: tf2-pigment
     ingredients:
       - item-group: mc-concrete-powder
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item-group: mc-concrete-powder
@@ -30,7 +30,7 @@ recipes:
       - item: mc-redstone
     ingredients:
       - item: tf2-dust-aerotheum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-dust-aerotheum]
@@ -48,7 +48,7 @@ recipes:
       - item: tf2-dust-tin
     ingredients:
       - item: tf2-dust-bronze
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-dust-bronze]
@@ -64,7 +64,7 @@ recipes:
       - item: tf2-dust-nickel
     ingredients:
       - item: tf2-dust-constantan
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-dust-constantan]
@@ -80,7 +80,7 @@ recipes:
       - item: mc-redstone
     ingredients:
       - item: tf2-dust-cryotheum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-dust-cryotheum]
@@ -98,7 +98,7 @@ recipes:
       - item: tf2-dust-silver
     ingredients:
       - item: tf2-dust-electrum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-dust-electrum]
@@ -112,10 +112,10 @@ recipes:
       - item: tf2-dust-lead
       - item: tf2-dust-platinum
       - fluid: tf2-ender
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: tf2-dust-enderium
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-dust-enderium]
@@ -127,14 +127,14 @@ recipes:
         item: [tf2-dust-platinum]
       fluid-output:
         fluid: tf2-ender
-        amount: 1000
+        amount: "1,000"
   dust-invar:
     results:
       - item: tf2-dust-iron
       - item: tf2-dust-nickel
     ingredients:
       - item: tf2-dust-invar
-    energy: 6000
+    energy: "6,000"
     data:
       input:
         item: [tf2-dust-invar]
@@ -149,10 +149,10 @@ recipes:
       - item: tf2-dust-tin
       - item: tf2-dust-silver
       - fluid: tf2-glowstone
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: tf2-dust-lumium
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-dust-lumium]
@@ -164,7 +164,7 @@ recipes:
         item: [tf2-dust-silver]
       fluid-output:
         fluid: tf2-glowstone
-        amount: 1000
+        amount: "1,000"
   dust-petrotheum:
     results:
       - item: tf2-basalz-powder
@@ -172,7 +172,7 @@ recipes:
       - item: mc-redstone
     ingredients:
       - item: tf2-dust-petrotheum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-dust-petrotheum]
@@ -191,7 +191,7 @@ recipes:
       - item: mc-redstone
     ingredients:
       - item: tf2-dust-pyrotheum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-dust-pyrotheum]
@@ -208,10 +208,10 @@ recipes:
       - item: tf2-dust-copper
       - item: tf2-dust-silver
       - fluid: tf2-redstone
-        fluid-amount: 1000
+        fluid-amount: "1,000"
     ingredients:
       - item: tf2-dust-signalum
-    energy: 8000
+    energy: "8,000"
     data:
       input:
         item: [tf2-dust-signalum]
@@ -223,14 +223,14 @@ recipes:
         item: [tf2-dust-silver]
       fluid-output:
         fluid: tf2-redstone
-        amount: 1000
+        amount: "1,000"
   magma-cream:
     results:
       - item: mc-slimeball
       - item: mc-blaze-powder
     ingredients:
       - item: mc-magma-cream
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-magma-cream]
@@ -245,7 +245,7 @@ recipes:
         fluid-amount: 250
     ingredients:
       - item: mc-sugar-canes
-    energy: 2000
+    energy: "2,000"
     data:
       input:
         item: [mc-sugar-canes]

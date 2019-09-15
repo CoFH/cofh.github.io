@@ -35,12 +35,12 @@ recipes:
       - item: mc-ice
     ingredients:
       - fluid: mc-water
-        fluid-amount: 1000
-    energy: 1600
+        fluid-amount: "1,000"
+    energy: "1,600"
     data:
       input:
         fluid: mc-water
-        amount: 1000
+        amount: "1,000"
       output:
         item: [mc-ice]
   snow-layer:
@@ -62,11 +62,11 @@ recipes:
       - item: mc-packed-ice
     ingredients:
       - fluid: mc-water
-        fluid-amount: 2000
-    energy: 1600
+        fluid-amount: "2,000"
+    energy: "1,600"
     data:
       input:
         fluid: mc-water
-        amount: 2000
+        amount: "2,000"
       output:
         item: [mc-packed-ice]

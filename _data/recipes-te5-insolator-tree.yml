@@ -12,8 +12,8 @@ recipes:
       - item-group: mc-sapling
       - item: tf2-phyto-gro
       - fluid: mc-water
-        fluid-amount: 1200
-    energy: 4800
+        fluid-amount: "1,200"
+    energy: "4,800"
     data:
       secondary-input:
         item: [tf2-phyto-gro]
@@ -21,7 +21,7 @@ recipes:
         item-group: mc-sapling
       fluid-input:
         fluid: mc-water
-        amount: 1200
+        amount: "1,200"
       primary-output:
         item-group: mc-wood-log
         amount: 6
@@ -37,8 +37,8 @@ recipes:
       - item-group: mc-sapling
       - item: tf2-phyto-gro-rich
       - fluid: mc-water
-        fluid-amount: 1500
-    energy: 6000
+        fluid-amount: "1,500"
+    energy: "6,000"
     data:
       secondary-input:
         item: [tf2-phyto-gro-rich]
@@ -46,7 +46,7 @@ recipes:
         item-group: mc-sapling
       fluid-input:
         fluid: mc-water
-        amount: 1500
+        amount: "1,500"
       primary-output:
         item-group: mc-wood-log
         amount: 18
@@ -62,8 +62,8 @@ recipes:
       - item-group: mc-sapling
       - item: tf2-phyto-gro-fluxed
       - fluid: mc-water
-        fluid-amount: 1800
-    energy: 7200
+        fluid-amount: "1,800"
+    energy: "7,200"
     data:
       secondary-input:
         item: [tf2-phyto-gro-fluxed]
@@ -71,7 +71,7 @@ recipes:
         item-group: mc-sapling
       fluid-input:
         fluid: mc-water
-        amount: 1800
+        amount: "1,800"
       primary-output:
         item-group: mc-wood-log
         amount: 24

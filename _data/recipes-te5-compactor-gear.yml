@@ -8,7 +8,7 @@ recipes:
       - item: tf2-gear-aluminum
     ingredients:
       - item: tf2-ingot-aluminum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-aluminum]
@@ -20,7 +20,7 @@ recipes:
       - item: tf2-gear-bronze
     ingredients:
       - item: tf2-ingot-bronze
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-bronze]
@@ -32,7 +32,7 @@ recipes:
       - item: tf2-gear-constantan
     ingredients:
       - item: tf2-ingot-constantan
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-constantan]
@@ -44,7 +44,7 @@ recipes:
       - item: tf2-gear-copper
     ingredients:
       - item: tf2-ingot-copper
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-copper]
@@ -56,7 +56,7 @@ recipes:
       - item: tf2-gear-diamond
     ingredients:
       - item: mc-diamond
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-diamond]
@@ -68,7 +68,7 @@ recipes:
       - item: tf2-gear-electrum
     ingredients:
       - item: tf2-ingot-electrum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-electrum]
@@ -80,7 +80,7 @@ recipes:
       - item: tf2-gear-emerald
     ingredients:
       - item: mc-emerald
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-emerald]
@@ -92,7 +92,7 @@ recipes:
       - item: tf2-gear-enderium
     ingredients:
       - item: tf2-ingot-enderium
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-enderium]
@@ -104,7 +104,7 @@ recipes:
       - item: ra2-gear-fluxed-electrum
     ingredients:
       - item: ra2-ingot-fluxed-electrum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [ra2-ingot-fluxed-electrum]
@@ -116,7 +116,7 @@ recipes:
       - item: tf2-gear-gold
     ingredients:
       - item: mc-ingot-gold
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ingot-gold]
@@ -128,7 +128,7 @@ recipes:
       - item: tf2-gear-invar
     ingredients:
       - item: tf2-ingot-invar
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-invar]
@@ -140,7 +140,7 @@ recipes:
       - item: tf2-gear-iridium
     ingredients:
       - item: tf2-ingot-iridium
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-iridium]
@@ -152,7 +152,7 @@ recipes:
       - item: tf2-gear-iron
     ingredients:
       - item: mc-ingot-iron
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [mc-ingot-iron]
@@ -164,7 +164,7 @@ recipes:
       - item: tf2-gear-lead
     ingredients:
       - item: tf2-ingot-lead
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-lead]
@@ -176,7 +176,7 @@ recipes:
       - item: tf2-gear-lumium
     ingredients:
       - item: tf2-ingot-lumium
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-lumium]
@@ -188,7 +188,7 @@ recipes:
       - item: tf2-gear-mithril
     ingredients:
       - item: tf2-ingot-mithril
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-mithril]
@@ -200,7 +200,7 @@ recipes:
       - item: tf2-gear-nickel
     ingredients:
       - item: tf2-ingot-nickel
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-nickel]
@@ -212,7 +212,7 @@ recipes:
       - item: tf2-gear-platinum
     ingredients:
       - item: tf2-ingot-platinum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-platinum]
@@ -224,7 +224,7 @@ recipes:
       - item: tf2-gear-signalum
     ingredients:
       - item: tf2-ingot-signalum
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-signalum]
@@ -236,7 +236,7 @@ recipes:
       - item: tf2-gear-silver
     ingredients:
       - item: tf2-ingot-silver
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-silver]
@@ -248,7 +248,7 @@ recipes:
       - item: tf2-gear-steel
     ingredients:
       - item: tf2-ingot-steel
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-steel]
@@ -260,7 +260,7 @@ recipes:
       - item: tf2-gear-tin
     ingredients:
       - item: tf2-ingot-tin
-    energy: 4000
+    energy: "4,000"
     data:
       input:
         item: [tf2-ingot-tin]

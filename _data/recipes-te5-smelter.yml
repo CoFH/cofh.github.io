@@ -10,7 +10,7 @@ recipes:
     ingredients:
       - item-group: tf2-dust-metal
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -28,7 +28,7 @@ recipes:
     ingredients:
       - item: tf2-dust-aluminum
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -46,7 +46,7 @@ recipes:
     ingredients:
       - item: tf2-dust-bronze
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -64,7 +64,7 @@ recipes:
     ingredients:
       - item: tf2-dust-constantan
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -82,7 +82,7 @@ recipes:
     ingredients:
       - item: tf2-dust-copper
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -100,7 +100,7 @@ recipes:
     ingredients:
       - item: tf2-dust-electrum
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -118,7 +118,7 @@ recipes:
     ingredients:
       - item: tf2-dust-enderium
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -136,7 +136,7 @@ recipes:
     ingredients:
       - item: tf2-dust-gold
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -154,7 +154,7 @@ recipes:
     ingredients:
       - item: tf2-dust-invar
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -172,7 +172,7 @@ recipes:
     ingredients:
       - item: tf2-dust-iridium
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -190,7 +190,7 @@ recipes:
     ingredients:
       - item: tf2-dust-iron
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -208,7 +208,7 @@ recipes:
     ingredients:
       - item: tf2-dust-lead
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -226,7 +226,7 @@ recipes:
     ingredients:
       - item: tf2-dust-lumium
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -244,7 +244,7 @@ recipes:
     ingredients:
       - item: tf2-dust-mithril
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -262,7 +262,7 @@ recipes:
     ingredients:
       - item: tf2-dust-nickel
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -280,7 +280,7 @@ recipes:
     ingredients:
       - item: tf2-dust-platinum
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -298,7 +298,7 @@ recipes:
     ingredients:
       - item: tf2-dust-signalum
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -316,7 +316,7 @@ recipes:
     ingredients:
       - item: tf2-dust-silver
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -334,7 +334,7 @@ recipes:
     ingredients:
       - item: tf2-dust-steel
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -352,7 +352,7 @@ recipes:
     ingredients:
       - item: tf2-dust-tin
       - item: mc-sand
-    energy: 1000
+    energy: "1,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -369,7 +369,7 @@ recipes:
     ingredients:
       - item: tf2-dust-lead
       - item: tf2-dust-obsidian
-    energy: 8000
+    energy: "8,000"
     data:
       primary-input:
         item: [tf2-dust-lead]
@@ -387,7 +387,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - html: 'Metal Dust'
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -442,7 +442,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-aluminum
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -463,7 +463,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-bronze
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -484,7 +484,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-constantan
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -505,7 +505,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-copper
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -526,7 +526,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-electrum
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -547,7 +547,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-enderium
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -568,7 +568,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-invar
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -589,7 +589,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-iridium
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -610,7 +610,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-lead
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -631,7 +631,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-lumium
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -652,7 +652,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-mithril
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -673,7 +673,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-nickel
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -694,7 +694,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-platinum
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -715,7 +715,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-signalum
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -736,7 +736,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-silver
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -757,7 +757,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-steel
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -778,7 +778,7 @@ recipes:
     ingredients:
       - item-group: tf2-hardened-glass
       - item: tf2-dust-tin
-    energy: 6000
+    energy: "6,000"
     data:
       primary-input:
         random: true
@@ -798,7 +798,7 @@ recipes:
     ingredients:
       - item: tf2-dust-copper
       - item: tf2-dust-tin
-    energy: 3200
+    energy: "3,200"
     data:
       primary-input:
         item: [tf2-dust-copper]
@@ -814,7 +814,7 @@ recipes:
     ingredients:
       - item: tf2-dust-copper
       - item: tf2-ingot-tin
-    energy: 3600
+    energy: "3,600"
     data:
       primary-input:
         item: [tf2-dust-copper]
@@ -830,7 +830,7 @@ recipes:
     ingredients:
       - item: tf2-ingot-copper
       - item: tf2-dust-tin
-    energy: 4400
+    energy: "4,400"
     data:
       primary-input:
         item: [tf2-ingot-copper]
@@ -846,7 +846,7 @@ recipes:
     ingredients:
       - item: tf2-ingot-copper
       - item: tf2-ingot-tin
-    energy: 4800
+    energy: "4,800"
     data:
       primary-input:
         item: [tf2-ingot-copper]
@@ -862,7 +862,7 @@ recipes:
     ingredients:
       - item: tf2-dust-copper
       - item: tf2-dust-nickel
-    energy: 1600
+    energy: "1,600"
     data:
       primary-input:
         item: [tf2-dust-copper]
@@ -877,7 +877,7 @@ recipes:
     ingredients:
       - item: tf2-dust-copper
       - item: tf2-ingot-nickel
-    energy: 2000
+    energy: "2,000"
     data:
       primary-input:
         item: [tf2-dust-copper]
@@ -892,7 +892,7 @@ recipes:
     ingredients:
       - item: tf2-ingot-copper
       - item: tf2-dust-nickel
-    energy: 2000
+    energy: "2,000"
     data:
       primary-input:
         item: [tf2-ingot-copper]
@@ -907,7 +907,7 @@ recipes:
     ingredients:
       - item: tf2-ingot-copper
       - item: tf2-ingot-nickel
-    energy: 2400
+    energy: "2,400"
     data:
       primary-input:
         item: [tf2-ingot-copper]
@@ -922,7 +922,7 @@ recipes:
     ingredients:
       - item: tf2-dust-gold
       - item: tf2-dust-silver
-    energy: 1600
+    energy: "1,600"
     data:
       primary-input:
         item: [tf2-dust-gold]
@@ -937,7 +937,7 @@ recipes:
     ingredients:
       - item: tf2-dust-gold
       - item: tf2-ingot-silver
-    energy: 2000
+    energy: "2,000"
     data:
       primary-input:
         item: [tf2-dust-gold]
@@ -952,7 +952,7 @@ recipes:
     ingredients:
       - item: mc-ingot-gold
       - item: tf2-dust-silver
-    energy: 2000
+    energy: "2,000"
     data:
       primary-input:
         item: [mc-ingot-gold]
@@ -967,7 +967,7 @@ recipes:
     ingredients:
       - item: mc-ingot-gold
       - item: tf2-ingot-silver
-    energy: 2400
+    energy: "2,400"
     data:
       primary-input:
         item: [mc-ingot-gold]
@@ -982,7 +982,7 @@ recipes:
     ingredients:
       - item: tf2-dust-iron
       - item: tf2-dust-nickel
-    energy: 2400
+    energy: "2,400"
     data:
       primary-input:
         item: [tf2-dust-iron]
@@ -998,7 +998,7 @@ recipes:
     ingredients:
       - item: tf2-dust-iron
       - item: tf2-ingot-nickel
-    energy: 2800
+    energy: "2,800"
     data:
       primary-input:
         item: [tf2-dust-iron]
@@ -1014,7 +1014,7 @@ recipes:
     ingredients:
       - item: mc-ingot-iron
       - item: tf2-dust-nickel
-    energy: 3200
+    energy: "3,200"
     data:
       primary-input:
         item: [mc-ingot-iron]
@@ -1030,7 +1030,7 @@ recipes:
     ingredients:
       - item: mc-ingot-iron
       - item: tf2-ingot-nickel
-    energy: 3600
+    energy: "3,600"
     data:
       primary-input:
         item: [mc-ingot-iron]
@@ -1046,7 +1046,7 @@ recipes:
     ingredients:
       - item: tf2-dust-iron
       - item: tf2-coal-coke
-    energy: 2000
+    energy: "2,000"
     data:
       primary-input:
         item: [tf2-dust-iron]
@@ -1060,7 +1060,7 @@ recipes:
     ingredients:
       - item: tf2-dust-iron
       - item: tf2-dust-charcoal
-    energy: 4000
+    energy: "4,000"
     data:
       primary-input:
         item: [tf2-dust-iron]
@@ -1075,7 +1075,7 @@ recipes:
     ingredients:
       - item: tf2-dust-iron
       - item: tf2-dust-coal
-    energy: 4000
+    energy: "4,000"
     data:
       primary-input:
         item: [tf2-dust-iron]
@@ -1090,7 +1090,7 @@ recipes:
     ingredients:
       - item: mc-ingot-iron
       - item: tf2-coal-coke
-    energy: 2400
+    energy: "2,400"
     data:
       primary-input:
         item: [mc-ingot-iron]
@@ -1104,7 +1104,7 @@ recipes:
     ingredients:
       - item: mc-ingot-iron
       - item: tf2-dust-charcoal
-    energy: 4400
+    energy: "4,400"
     data:
       primary-input:
         item: [mc-ingot-iron]
@@ -1119,7 +1119,7 @@ recipes:
     ingredients:
       - item: mc-ingot-iron
       - item: tf2-dust-coal
-    energy: 4400
+    energy: "4,400"
     data:
       primary-input:
         item: [mc-ingot-iron]
@@ -1135,7 +1135,7 @@ recipes:
     ingredients:
       - item: mc-netherrack
       - item: mc-soul-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: mc-soul-sand
@@ -1156,7 +1156,7 @@ recipes:
     ingredients:
       - item: tf2-ore-aluminum
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1177,7 +1177,7 @@ recipes:
     ingredients:
       - item: tf2-ore-copper
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1198,7 +1198,7 @@ recipes:
     ingredients:
       - item: mc-ore-gold
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1219,7 +1219,7 @@ recipes:
     ingredients:
       - item: tf2-ore-iridium
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1240,7 +1240,7 @@ recipes:
     ingredients:
       - item: mc-ore-iron
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1261,7 +1261,7 @@ recipes:
     ingredients:
       - item: tf2-ore-lead
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1282,7 +1282,7 @@ recipes:
     ingredients:
       - item: tf2-ore-mithril
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1303,7 +1303,7 @@ recipes:
     ingredients:
       - item: tf2-ore-nickel
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1324,7 +1324,7 @@ recipes:
     ingredients:
       - item: tf2-ore-platinum
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1345,7 +1345,7 @@ recipes:
     ingredients:
       - item: tf2-ore-silver
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1366,7 +1366,7 @@ recipes:
     ingredients:
       - item: tf2-ore-tin
       - item: tf2-cinnabar
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-cinnabar]
@@ -1386,7 +1386,7 @@ recipes:
     ingredients:
       - item: mc-ore-lapis-lazuli
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1405,7 +1405,7 @@ recipes:
     ingredients:
       - item: mc-ore-nether-quartz
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1424,7 +1424,7 @@ recipes:
     ingredients:
       - item: mc-ore-redstone
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1444,7 +1444,7 @@ recipes:
     ingredients:
       - item: tf2-ore-aluminum
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1465,7 +1465,7 @@ recipes:
     ingredients:
       - item: tf2-ore-copper
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1486,7 +1486,7 @@ recipes:
     ingredients:
       - item: mc-ore-gold
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1507,7 +1507,7 @@ recipes:
     ingredients:
       - item: tf2-ore-iridium
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1528,7 +1528,7 @@ recipes:
     ingredients:
       - item: mc-ore-iron
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1549,7 +1549,7 @@ recipes:
     ingredients:
       - item: tf2-ore-lead
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1570,7 +1570,7 @@ recipes:
     ingredients:
       - item: tf2-ore-mithril
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1591,7 +1591,7 @@ recipes:
     ingredients:
       - item: tf2-ore-nickel
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1612,7 +1612,7 @@ recipes:
     ingredients:
       - item: tf2-ore-platinum
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1633,7 +1633,7 @@ recipes:
     ingredients:
       - item: tf2-ore-silver
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1654,7 +1654,7 @@ recipes:
     ingredients:
       - item: tf2-ore-tin
       - item: tf2-slag-rich
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [tf2-slag-rich]
@@ -1675,7 +1675,7 @@ recipes:
     ingredients:
       - item: tf2-ore-aluminum
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1696,7 +1696,7 @@ recipes:
     ingredients:
       - item: tf2-ore-copper
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1717,7 +1717,7 @@ recipes:
     ingredients:
       - item: mc-ore-gold
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1738,7 +1738,7 @@ recipes:
     ingredients:
       - item: tf2-ore-iridium
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1759,7 +1759,7 @@ recipes:
     ingredients:
       - item: mc-ore-iron
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1780,7 +1780,7 @@ recipes:
     ingredients:
       - item: tf2-ore-lead
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1801,7 +1801,7 @@ recipes:
     ingredients:
       - item: tf2-ore-mithril
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1822,7 +1822,7 @@ recipes:
     ingredients:
       - item: tf2-ore-nickel
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1843,7 +1843,7 @@ recipes:
     ingredients:
       - item: tf2-ore-platinum
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1864,7 +1864,7 @@ recipes:
     ingredients:
       - item: tf2-ore-silver
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1885,7 +1885,7 @@ recipes:
     ingredients:
       - item: tf2-ore-tin
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1905,7 +1905,7 @@ recipes:
     ingredients:
       - item: mc-anvil
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1924,7 +1924,7 @@ recipes:
     ingredients:
       - item: mc-anvil-slightly-damaged
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1943,7 +1943,7 @@ recipes:
     ingredients:
       - item: mc-anvil-very-damaged
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1962,7 +1962,7 @@ recipes:
     ingredients:
       - item-group: armor-helmet-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -1981,7 +1981,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2000,7 +2000,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2019,7 +2019,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2038,7 +2038,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2057,7 +2057,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2076,7 +2076,7 @@ recipes:
     ingredients:
       - item: mc-armor-helmet-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2095,7 +2095,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2114,7 +2114,7 @@ recipes:
     ingredients:
       - item: mc-armor-helmet-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2133,7 +2133,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2152,7 +2152,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2171,7 +2171,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2190,7 +2190,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2209,7 +2209,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2228,7 +2228,7 @@ recipes:
     ingredients:
       - item: tf2-armor-helmet-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2247,7 +2247,7 @@ recipes:
     ingredients:
       - item-group: armor-chestplate-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2266,7 +2266,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2285,7 +2285,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2304,7 +2304,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2323,7 +2323,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2342,7 +2342,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2361,7 +2361,7 @@ recipes:
     ingredients:
       - item: mc-armor-chestplate-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2380,7 +2380,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2399,7 +2399,7 @@ recipes:
     ingredients:
       - item: mc-armor-chestplate-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2418,7 +2418,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2437,7 +2437,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2456,7 +2456,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2475,7 +2475,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2494,7 +2494,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2513,7 +2513,7 @@ recipes:
     ingredients:
       - item: tf2-armor-chestplate-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2532,7 +2532,7 @@ recipes:
     ingredients:
       - item-group: armor-leggings-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2551,7 +2551,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2570,7 +2570,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2589,7 +2589,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2608,7 +2608,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2627,7 +2627,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2646,7 +2646,7 @@ recipes:
     ingredients:
       - item: mc-armor-leggings-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2665,7 +2665,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2684,7 +2684,7 @@ recipes:
     ingredients:
       - item: mc-armor-leggings-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2703,7 +2703,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2722,7 +2722,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2741,7 +2741,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2760,7 +2760,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2779,7 +2779,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2798,7 +2798,7 @@ recipes:
     ingredients:
       - item: tf2-armor-leggings-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2817,7 +2817,7 @@ recipes:
     ingredients:
       - item-group: armor-boots-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2836,7 +2836,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2855,7 +2855,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2874,7 +2874,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2893,7 +2893,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2912,7 +2912,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2931,7 +2931,7 @@ recipes:
     ingredients:
       - item: mc-armor-boots-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2950,7 +2950,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2969,7 +2969,7 @@ recipes:
     ingredients:
       - item: mc-armor-boots-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -2988,7 +2988,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3007,7 +3007,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3026,7 +3026,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3045,7 +3045,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3064,7 +3064,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3083,7 +3083,7 @@ recipes:
     ingredients:
       - item: tf2-armor-boots-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3102,7 +3102,7 @@ recipes:
     ingredients:
       - item: mc-bucket
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3121,7 +3121,7 @@ recipes:
     ingredients:
       - item: mc-cauldron
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3140,7 +3140,7 @@ recipes:
     ingredients:
       - item: mc-clock
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3159,7 +3159,7 @@ recipes:
     ingredients:
       - item: mc-compass
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3178,7 +3178,7 @@ recipes:
     ingredients:
       - item: mc-door-iron
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3197,7 +3197,7 @@ recipes:
     ingredients:
       - item-group: tf2-gear-metal
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3216,7 +3216,7 @@ recipes:
     ingredients:
       - item: tf2-gear-iron
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3235,7 +3235,7 @@ recipes:
     ingredients:
       - item: tf2-gear-gold
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3254,7 +3254,7 @@ recipes:
     ingredients:
       - item: tf2-gear-copper
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3273,7 +3273,7 @@ recipes:
     ingredients:
       - item: tf2-gear-tin
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3292,7 +3292,7 @@ recipes:
     ingredients:
       - item: tf2-gear-silver
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3311,7 +3311,7 @@ recipes:
     ingredients:
       - item: tf2-gear-lead
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3330,7 +3330,7 @@ recipes:
     ingredients:
       - item: tf2-gear-aluminum
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3349,7 +3349,7 @@ recipes:
     ingredients:
       - item: tf2-gear-nickel
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3368,7 +3368,7 @@ recipes:
     ingredients:
       - item: tf2-gear-platinum
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3387,7 +3387,7 @@ recipes:
     ingredients:
       - item: tf2-gear-iridium
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3406,7 +3406,7 @@ recipes:
     ingredients:
       - item: tf2-gear-mithril
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3425,7 +3425,7 @@ recipes:
     ingredients:
       - item: tf2-gear-steel
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3444,7 +3444,7 @@ recipes:
     ingredients:
       - item: tf2-gear-electrum
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3463,7 +3463,7 @@ recipes:
     ingredients:
       - item: tf2-gear-invar
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3482,7 +3482,7 @@ recipes:
     ingredients:
       - item: tf2-gear-bronze
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3501,7 +3501,7 @@ recipes:
     ingredients:
       - item: tf2-gear-constantan
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3520,7 +3520,7 @@ recipes:
     ingredients:
       - item: tf2-gear-signalum
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3539,7 +3539,7 @@ recipes:
     ingredients:
       - item: tf2-gear-lumium
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3558,7 +3558,7 @@ recipes:
     ingredients:
       - item: tf2-gear-enderium
       - item: mc-sand
-    energy: 3000
+    energy: "3,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3577,7 +3577,7 @@ recipes:
     ingredients:
       - item: mc-hopper
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3596,7 +3596,7 @@ recipes:
     ingredients:
       - item-group: horse-armor-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3615,7 +3615,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3634,7 +3634,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3653,7 +3653,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3672,7 +3672,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3691,7 +3691,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3710,7 +3710,7 @@ recipes:
     ingredients:
       - item: mc-horse-armor-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3729,7 +3729,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3748,7 +3748,7 @@ recipes:
     ingredients:
       - item: mc-horse-armor-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3767,7 +3767,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3786,7 +3786,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3805,7 +3805,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3824,7 +3824,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3843,7 +3843,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3862,7 +3862,7 @@ recipes:
     ingredients:
       - item: tf2-horse-armor-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3881,7 +3881,7 @@ recipes:
     ingredients:
       - item: mc-iron-bars
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3900,7 +3900,7 @@ recipes:
     ingredients:
       - item: mc-iron-trapdoor
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3919,7 +3919,7 @@ recipes:
     ingredients:
       - item: mc-minecart
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3938,7 +3938,7 @@ recipes:
     ingredients:
       - item: mc-minecart-with-chest
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3957,7 +3957,7 @@ recipes:
     ingredients:
       - item: mc-minecart-with-furnace
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3976,7 +3976,7 @@ recipes:
     ingredients:
       - item: mc-minecart-with-hopper
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -3995,7 +3995,7 @@ recipes:
     ingredients:
       - item-group: tf2-plate-metal
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4013,7 +4013,7 @@ recipes:
     ingredients:
       - item: tf2-plate-iron
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4031,7 +4031,7 @@ recipes:
     ingredients:
       - item: tf2-plate-gold
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4049,7 +4049,7 @@ recipes:
     ingredients:
       - item: tf2-plate-copper
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4067,7 +4067,7 @@ recipes:
     ingredients:
       - item: tf2-plate-tin
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4085,7 +4085,7 @@ recipes:
     ingredients:
       - item: tf2-plate-silver
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4103,7 +4103,7 @@ recipes:
     ingredients:
       - item: tf2-plate-lead
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4121,7 +4121,7 @@ recipes:
     ingredients:
       - item: tf2-plate-aluminum
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4139,7 +4139,7 @@ recipes:
     ingredients:
       - item: tf2-plate-nickel
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4157,7 +4157,7 @@ recipes:
     ingredients:
       - item: tf2-plate-platinum
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4175,7 +4175,7 @@ recipes:
     ingredients:
       - item: tf2-plate-iridium
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4193,7 +4193,7 @@ recipes:
     ingredients:
       - item: tf2-plate-mithril
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4211,7 +4211,7 @@ recipes:
     ingredients:
       - item: tf2-plate-steel
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4229,7 +4229,7 @@ recipes:
     ingredients:
       - item: tf2-plate-electrum
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4247,7 +4247,7 @@ recipes:
     ingredients:
       - item: tf2-plate-invar
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4265,7 +4265,7 @@ recipes:
     ingredients:
       - item: tf2-plate-bronze
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4283,7 +4283,7 @@ recipes:
     ingredients:
       - item: tf2-plate-constantan
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4301,7 +4301,7 @@ recipes:
     ingredients:
       - item: tf2-plate-signalum
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4319,7 +4319,7 @@ recipes:
     ingredients:
       - item: tf2-plate-lumium
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4337,7 +4337,7 @@ recipes:
     ingredients:
       - item: tf2-plate-enderium
       - item: mc-sand
-    energy: 2000
+    energy: "2,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4355,7 +4355,7 @@ recipes:
     ingredients:
       - item: mc-powered-rail
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4374,7 +4374,7 @@ recipes:
     ingredients:
       - item: mc-pressure-plate-gold
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4393,7 +4393,7 @@ recipes:
     ingredients:
       - item: mc-pressure-plate-iron
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4412,7 +4412,7 @@ recipes:
     ingredients:
       - item: mc-rail
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4431,7 +4431,7 @@ recipes:
     ingredients:
       - item-group: tool-axe-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4449,7 +4449,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4467,7 +4467,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4485,7 +4485,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4503,7 +4503,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4521,7 +4521,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4539,7 +4539,7 @@ recipes:
     ingredients:
       - item: mc-tool-axe-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4557,7 +4557,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4575,7 +4575,7 @@ recipes:
     ingredients:
       - item: mc-tool-axe-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4593,7 +4593,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4611,7 +4611,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4629,7 +4629,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4647,7 +4647,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4665,7 +4665,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4683,7 +4683,7 @@ recipes:
     ingredients:
       - item: tf2-tool-axe-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4701,7 +4701,7 @@ recipes:
     ingredients:
       - item-group: tool-excavator-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4719,7 +4719,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4737,7 +4737,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4755,7 +4755,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4773,7 +4773,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4791,7 +4791,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4809,7 +4809,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4827,7 +4827,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4845,7 +4845,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4863,7 +4863,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4881,7 +4881,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4899,7 +4899,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4917,7 +4917,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4935,7 +4935,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4953,7 +4953,7 @@ recipes:
     ingredients:
       - item: tf2-tool-excavator-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4971,7 +4971,7 @@ recipes:
     ingredients:
       - item-group: tool-fishing-rod-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -4989,7 +4989,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5007,7 +5007,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5025,7 +5025,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5043,7 +5043,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5061,7 +5061,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5079,7 +5079,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5097,7 +5097,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5115,7 +5115,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5133,7 +5133,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5151,7 +5151,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5169,7 +5169,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5187,7 +5187,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5205,7 +5205,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5223,7 +5223,7 @@ recipes:
     ingredients:
       - item: tf2-tool-fishing-rod-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5241,7 +5241,7 @@ recipes:
     ingredients:
       - item-group: tool-hammer-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5260,7 +5260,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5279,7 +5279,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5298,7 +5298,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5317,7 +5317,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5336,7 +5336,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5355,7 +5355,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5374,7 +5374,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5393,7 +5393,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5412,7 +5412,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5431,7 +5431,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5450,7 +5450,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5469,7 +5469,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5488,7 +5488,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5507,7 +5507,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hammer-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5526,7 +5526,7 @@ recipes:
     ingredients:
       - item-group: tool-hoe-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5544,7 +5544,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5562,7 +5562,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5580,7 +5580,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5598,7 +5598,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5616,7 +5616,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5634,7 +5634,7 @@ recipes:
     ingredients:
       - item: mc-tool-hoe-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5652,7 +5652,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5670,7 +5670,7 @@ recipes:
     ingredients:
       - item: mc-tool-hoe-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5688,7 +5688,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5706,7 +5706,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5724,7 +5724,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5742,7 +5742,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5760,7 +5760,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5778,7 +5778,7 @@ recipes:
     ingredients:
       - item: tf2-tool-hoe-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5796,7 +5796,7 @@ recipes:
     ingredients:
       - item-group: tool-pickaxe-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5814,7 +5814,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5832,7 +5832,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5850,7 +5850,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5868,7 +5868,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5886,7 +5886,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5904,7 +5904,7 @@ recipes:
     ingredients:
       - item: mc-tool-pickaxe-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5922,7 +5922,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5940,7 +5940,7 @@ recipes:
     ingredients:
       - item: mc-tool-pickaxe-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5958,7 +5958,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5976,7 +5976,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -5994,7 +5994,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6012,7 +6012,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6030,7 +6030,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6048,7 +6048,7 @@ recipes:
     ingredients:
       - item: tf2-tool-pickaxe-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6066,7 +6066,7 @@ recipes:
     ingredients:
       - item-group: tool-shears-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6084,7 +6084,7 @@ recipes:
     ingredients:
       - item: mc-tool-shears
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6102,7 +6102,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6120,7 +6120,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6138,7 +6138,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6156,7 +6156,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6174,7 +6174,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6192,7 +6192,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6210,7 +6210,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6228,7 +6228,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6246,7 +6246,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6264,7 +6264,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6282,7 +6282,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6300,7 +6300,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6318,7 +6318,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shears-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6336,7 +6336,7 @@ recipes:
     ingredients:
       - item-group: tool-shovel-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6354,7 +6354,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6372,7 +6372,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6390,7 +6390,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6408,7 +6408,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6426,7 +6426,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6444,7 +6444,7 @@ recipes:
     ingredients:
       - item: mc-tool-shovel-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6462,7 +6462,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6480,7 +6480,7 @@ recipes:
     ingredients:
       - item: mc-tool-shovel-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6498,7 +6498,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6516,7 +6516,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6534,7 +6534,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6552,7 +6552,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6570,7 +6570,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6588,7 +6588,7 @@ recipes:
     ingredients:
       - item: tf2-tool-shovel-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6606,7 +6606,7 @@ recipes:
     ingredients:
       - item-group: tool-sickle-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6624,7 +6624,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6642,7 +6642,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6660,7 +6660,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6678,7 +6678,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6696,7 +6696,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6714,7 +6714,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6732,7 +6732,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6750,7 +6750,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6768,7 +6768,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6786,7 +6786,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6804,7 +6804,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6822,7 +6822,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6840,7 +6840,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6858,7 +6858,7 @@ recipes:
     ingredients:
       - item: tf2-tool-sickle-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6876,7 +6876,7 @@ recipes:
     ingredients:
       - item: mc-cobblestone
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6895,7 +6895,7 @@ recipes:
     ingredients:
       - item-group: weapon-bow-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6913,7 +6913,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6931,7 +6931,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6949,7 +6949,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6967,7 +6967,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -6985,7 +6985,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7003,7 +7003,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7021,7 +7021,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7039,7 +7039,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7057,7 +7057,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7075,7 +7075,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7093,7 +7093,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7111,7 +7111,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7129,7 +7129,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7147,7 +7147,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-bow-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7165,7 +7165,7 @@ recipes:
     ingredients:
       - item-group: weapon-shield-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7184,7 +7184,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7203,7 +7203,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7222,7 +7222,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7241,7 +7241,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7260,7 +7260,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7279,7 +7279,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7298,7 +7298,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7317,7 +7317,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7336,7 +7336,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7355,7 +7355,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7374,7 +7374,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7393,7 +7393,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7412,7 +7412,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7431,7 +7431,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-shield-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7450,7 +7450,7 @@ recipes:
     ingredients:
       - item-group: weapon-sword-metal-with-tf2
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7468,7 +7468,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-aluminum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7486,7 +7486,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-bronze
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7504,7 +7504,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-constantan
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7522,7 +7522,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-copper
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7540,7 +7540,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-electrum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7558,7 +7558,7 @@ recipes:
     ingredients:
       - item: mc-weapon-sword-gold
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7576,7 +7576,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-invar
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7594,7 +7594,7 @@ recipes:
     ingredients:
       - item: mc-weapon-sword-iron
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7612,7 +7612,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-lead
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7630,7 +7630,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-nickel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7648,7 +7648,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-platinum
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7666,7 +7666,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-silver
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7684,7 +7684,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-steel
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7702,7 +7702,7 @@ recipes:
     ingredients:
       - item: tf2-weapon-sword-tin
       - item: mc-sand
-    energy: 6000
+    energy: "6,000"
     data:
       secondary-input:
         item: [mc-sand]
@@ -7719,7 +7719,7 @@ recipes:
     ingredients:
       - item: ra2-dust-fluxed-electrum
       - item: mc-sand
-    energy: 4000
+    energy: "4,000"
     data:
       secondary-input:
         item: [mc-sand]
