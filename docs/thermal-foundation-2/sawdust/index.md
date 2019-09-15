@@ -55,7 +55,7 @@ usage-recipes:
 
 
 **Sawdust** is a material commonly obtained as a byproduct from
-[sawmills](/docs/thermal-expansion/sawmill/).
+[sawmills](/docs/thermal-expansion-5/sawmill/).
 
 
 Obtaining

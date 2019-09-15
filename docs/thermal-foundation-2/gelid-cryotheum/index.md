@@ -29,7 +29,7 @@ usage-recipes:
 
 **Gelid cryotheum** is the ice elemental fluid. It is obtained by melting
 [cryotheum dust](/docs/thermal-foundation-2/cryotheum-dust/) in a [magma
-crucible](/docs/thermal-expansion/magma-crucible/).
+crucible](/docs/thermal-expansion-5/magma-crucible/).
 
 
 Obtaining
@@ -93,11 +93,11 @@ of [cinnabar](/docs/thermal-foundation-2/cinnabar/) using 200 mB of gelid cryoth
 
 ### Reactant Dynamo fuel
 When used together with [pyrotheum dust](/docs/thermal-foundation-2/pyrotheum-dust/) as fuel in a
-[reactant dynamo](/docs/thermal-expansion/reactant-dynamo/), 100 mB of gelid cryotheum yields
+[reactant dynamo](/docs/thermal-expansion-5/reactant-dynamo/), 100 mB of gelid cryotheum yields
 400,000 RF, or 500,000 RF if an [elemental
-catalyzer](/docs/thermal-expansion/augment-elemental-catalyzer/) is installed.
+catalyzer](/docs/thermal-expansion-5/augment-elemental-catalyzer/) is installed.
 
 ### Coolant
-Gelid cryotheum is a very effective [coolant](/docs/thermal-expansion/coolants/). It is 3 times as
+Gelid cryotheum is a very effective [coolant](/docs/thermal-expansion-5/coolants/). It is 3 times as
 effective and lasts 12 times as long as
 [water](https://minecraft.gamepedia.com/Water).

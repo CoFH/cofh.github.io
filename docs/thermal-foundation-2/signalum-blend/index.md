@@ -36,7 +36,7 @@ Obtaining
 Any item that contains at least one
 [bucket](https://minecraft.gamepedia.com/Bucket) worth of [destabilized
 redstone](/docs/thermal-foundation-2/destabilized-redstone/) may be used. Using a [portable
-tank](/docs/thermal-expansion/portable-tank/) can make it easier to craft large amounts of
+tank](/docs/thermal-expansion-5/portable-tank/) can make it easier to craft large amounts of
 signalum blend.
 
 ### Pulverizer

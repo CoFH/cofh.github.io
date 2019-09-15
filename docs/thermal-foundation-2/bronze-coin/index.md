@@ -14,7 +14,7 @@ recipes:
 
 
 **Bronze coins** are materials made of [bronze](/docs/thermal-foundation-2/bronze-ingot/) that can be
-used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
+used as fuel in a [numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/).
 
 
 Obtaining
@@ -28,5 +28,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), bronze
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/), bronze
 coins yield 30,000 RF each.

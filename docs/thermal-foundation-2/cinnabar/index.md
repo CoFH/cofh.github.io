@@ -30,8 +30,8 @@ usage-recipes:
 
 
 **Cinnabar** is a byproduct of processing certain ores in a
-[pulverizer](/docs/thermal-expansion/pulverizer/). It can be used for processing metal ores in an
-[induction smelter](/docs/thermal-expansion/induction-smelter/) with a guaranteed secondary metal
+[pulverizer](/docs/thermal-expansion-5/pulverizer/). It can be used for processing metal ores in an
+[induction smelter](/docs/thermal-expansion-5/induction-smelter/) with a guaranteed secondary metal
 output.
 
 
@@ -44,7 +44,7 @@ Obtaining
 ### Fluid Transposer
 If another mod registers a cinnabar ore block, it can be processed into 2 pieces
 of cinnabar using 200 mB of [gelid cryotheum](/docs/thermal-foundation-2/gelid-cryotheum/) and 2,000
-RF in a [fluid transposer](/docs/thermal-expansion/fluid-transposer/).
+RF in a [fluid transposer](/docs/thermal-expansion-5/fluid-transposer/).
 
 
 Usage

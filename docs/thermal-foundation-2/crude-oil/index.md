@@ -24,7 +24,7 @@ usage-recipes:
 
 **Crude oil** is a fluid obtained from [oil sand](/docs/thermal-foundation-2/oil-sand/) and [oil
 shale](/docs/thermal-foundation-2/oil-shale/). It can be used as fuel in a [compression
-dynamo](/docs/thermal-expansion/compression-dynamo/), or processed into [naphtha](/docs/thermal-foundation-2/naphtha/).
+dynamo](/docs/thermal-expansion-5/compression-dynamo/), or processed into [naphtha](/docs/thermal-foundation-2/naphtha/).
 
 
 Obtaining
@@ -56,5 +56,5 @@ flammable.
 {% include recipe-table.html type='refinery-te5' recipes=page.usage-recipes.refinery %}
 
 ### Compression Dynamo fuel
-When used as fuel in a [compression dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket
+When used as fuel in a [compression dynamo](/docs/thermal-expansion-5/compression-dynamo/), a bucket
 of crude oil yields 400,000 RF.

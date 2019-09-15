@@ -19,8 +19,8 @@ usage-recipes:
 
 
 **Refined fuel** is a fluid obtained by processing [naphtha](/docs/thermal-foundation-2/naphtha/) in
-a [fractionating still](/docs/thermal-expansion/fractionating-still/). It can be used as fuel in a
-[compression dynamo](/docs/thermal-expansion/compression-dynamo/).
+a [fractionating still](/docs/thermal-expansion-5/fractionating-still/). It can be used as fuel in a
+[compression dynamo](/docs/thermal-expansion-5/compression-dynamo/).
 
 
 Obtaining
@@ -43,6 +43,6 @@ Refined fuel cannot be placed as a block.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression
-dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket of refined fuel
+dynamo](/docs/thermal-expansion-5/compression-dynamo/), a bucket of refined fuel
 yields 1,500,000 RF, or 2,250,000 RF if [ignition
-plugs](/docs/thermal-expansion/augment-ignition-plugs/) are installed.
+plugs](/docs/thermal-expansion-5/augment-ignition-plugs/) are installed.

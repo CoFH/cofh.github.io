@@ -8,7 +8,7 @@ redirect_from:
 **Smashing** is an [enchantment](https://minecraft.gamepedia.com/Enchanting)
 that makes [pickaxes](https://minecraft.gamepedia.com/Pickaxe) and similar tools
 instantly crush broken ore blocks into multiple piles of dust, similar to how a
-[pulverizer](/docs/thermal-expansion/) processes ores.
+[pulverizer](/docs/thermal-expansion-5/) processes ores.
 
 
 Usage

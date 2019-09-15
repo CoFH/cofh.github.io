@@ -25,7 +25,7 @@ turn [pulped biomass](/docs/thermal-foundation-2/pulped-biomass/) into [rich
 biomass](/docs/thermal-foundation-2/rich-biomass/) and [pulped
 bioblend](/docs/thermal-foundation-2/pulped-bioblend/) into [rich
 bioblend](/docs/thermal-foundation-2/rich-bioblend/). It can also be used as fuel
-in a [compression dynamo](/docs/thermal-expansion/compression-dynamo/).
+in a [compression dynamo](/docs/thermal-expansion-5/compression-dynamo/).
 
 
 Obtaining
@@ -45,5 +45,5 @@ Seed oil cannot be placed as a block.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression
-dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket of seed oil
+dynamo](/docs/thermal-expansion-5/compression-dynamo/), a bucket of seed oil
 yields 80,000 RF.

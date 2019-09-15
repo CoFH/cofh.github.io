@@ -42,9 +42,9 @@ Stronger potions
 The following potions gain additional stronger levels: III and IV. Their
 extended versions (brewed using
 [redstone](https://minecraft.gamepedia.com/Redstone)) also gain stronger levels:
-II and III. When [Thermal Expansion](/docs/thermal-expansion/) is installed,
+II and III. When [Thermal Expansion](/docs/thermal-expansion-5/) is installed,
 these can be obtained using an [alchemical
-retort](/docs/thermal-expansion/augment-alchemical-retort/).
+retort](/docs/thermal-expansion-5/augment-alchemical-retort/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

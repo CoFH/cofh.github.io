@@ -60,7 +60,7 @@ Obtaining
 
 Enderium is an advanced alloy that can be obtained by crafting [enderium
 blend](/docs/thermal-foundation-2/enderium-blend/). The blend can only be smelted into ingots in an
-[induction smelter](/docs/thermal-expansion/induction-smelter/).
+[induction smelter](/docs/thermal-expansion-5/induction-smelter/).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

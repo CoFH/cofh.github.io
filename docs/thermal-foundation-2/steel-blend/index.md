@@ -28,7 +28,7 @@ Obtaining
 
 Unlike other blends, steel blend cannot be crafted. Instead, steel is obtained
 by making [steel ingots](/docs/thermal-foundation-2/steel-ingot/) in an [induction
-smelter](/docs/thermal-expansion/induction-smelter/).
+smelter](/docs/thermal-expansion-5/induction-smelter/).
 
 ### Pulverizer
 {% include recipe-table.html type='pulverizer-te5' recipes=page.recipes.pulverizer no-result=true %}

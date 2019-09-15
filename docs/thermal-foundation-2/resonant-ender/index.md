@@ -33,7 +33,7 @@ usage-recipes:
 
 **Resonant ender** is a fluid obtained by melting [ender
 pearls](https://minecraft.gamepedia.com/Ender_Pearl) in a [magma
-crucible](/docs/thermal-expansion/magma-crucible/).
+crucible](/docs/thermal-expansion-5/magma-crucible/).
 
 
 Obtaining

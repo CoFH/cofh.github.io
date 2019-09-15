@@ -54,7 +54,7 @@ upgrading the quiver to a higher [tier](#tiers).
 An alchemical quiver can hold the [fluid form](/docs/thermal-foundation-2/potion-fluid/) or any
 regular [potion](https://minecraft.gamepedia.com/Potion). It can be filled and
 drained manually by using it on a block that can hold fluid potions, or
-automatically using a [fluid transposer](/docs/thermal-expansion/fluid-transposer/) or similar. It
+automatically using a [fluid transposer](/docs/thermal-expansion-5/fluid-transposer/) or similar. It
 can also be filled by combining it with a potion in a crafting grid.
 
 A basic alchemical quiver can store up to 8 bottles worth of a potion (2,000

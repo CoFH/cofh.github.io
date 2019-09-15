@@ -47,17 +47,17 @@ Arsenal](/docs/redstone-arsenal/).
   ore](/docs/thermal-foundation-2/platinum-ore/) (disabled by default).
 
 #### Thermal Expansion
-* [Machines](/docs/thermal-expansion/machines/) no longer abort processing
+* [Machines](/docs/thermal-expansion-5/machines/) no longer abort processing
   immediately when deactivated by a redstone signal.
-* [Pulverizer](/docs/thermal-expansion/pulverizer/) recipes tweaked:
+* [Pulverizer](/docs/thermal-expansion-5/pulverizer/) recipes tweaked:
   * cobblestone is processed into gravel and sand;
   * gravel is processed into sand and flint;
   * stone is processed into cobblestone;
   * stone requires less energy to process.
-* [Sawmills](/docs/thermal-expansion/sawmill/) can recycle saddles.
-* [Induction smelters](/docs/thermal-expansion/induction-smelter/) can recycle
+* [Sawmills](/docs/thermal-expansion-5/sawmill/) can recycle saddles.
+* [Induction smelters](/docs/thermal-expansion-5/induction-smelter/) can recycle
   iron bars, iron trapdoors, minecarts and rails.
-* [Steam dynamos](/docs/thermal-expansion/steam-dynamo/) can use [pulverized
+* [Steam dynamos](/docs/thermal-expansion-5/steam-dynamo/) can use [pulverized
   coal](/docs/thermal-foundation-2/pulverized-coal/) and [pulverized
   charcoal](/docs/thermal-foundation-2/pulverized-charcoal/) as fuel.
 

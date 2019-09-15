@@ -44,6 +44,6 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Numismatic Dynamo with Lapidary Calibration
-When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/) with a
-[lapidary calibration](/docs/thermal-expansion/augment-lapidary-calibration/) installed, flux
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/) with a
+[lapidary calibration](/docs/thermal-expansion-5/augment-lapidary-calibration/) installed, flux
 crystals yield 1,500,000 RF each.

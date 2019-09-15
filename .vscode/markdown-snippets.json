@@ -13,7 +13,7 @@
 	},
 	"CoFH: TE link": {
 		"prefix": "clte",
-		"body": "[$1](/docs/thermal-expansion/$2)$0"
+		"body": "[$1](/docs/thermal-expansion-5/$2)$0"
 	},
 	"CoFH: TD link": {
 		"prefix": "cltd",

@@ -16,12 +16,12 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-A [fluid transposer](/docs/thermal-expansion/fluid-transposer/) can extract potions from their
+A [fluid transposer](/docs/thermal-expansion-5/fluid-transposer/) can extract potions from their
 [bottles](https://minecraft.gamepedia.com/Glass_Bottle). This requires 800 RF of
 energy and yields 250 mB of fluid per potion.
 
 ### Alchemical Imbuer
-An [alchemical imbuer](/docs/thermal-expansion/alchemical-imbuer/) can brew
+An [alchemical imbuer](/docs/thermal-expansion-5/alchemical-imbuer/) can brew
 [water](https://minecraft.gamepedia.com/Water) into fluid potions using
 [brewing](https://minecraft.gamepedia.com/Brewing) ingredients.
 
@@ -30,24 +30,24 @@ Usage
 -----
 
 ### Fluid Transposer
-A [fluid transposer](/docs/thermal-expansion/fluid-transposer/) can fill [glass
+A [fluid transposer](/docs/thermal-expansion-5/fluid-transposer/) can fill [glass
 bottles](https://minecraft.gamepedia.com/Glass_Bottle) with fluid potions,
 producing regular potion items. This requires 800 RF of energy and 250 mB of
 fluid per potion.
 
 ### Alchemical Imbuer
-An [alchemical imbuer](/docs/thermal-expansion/alchemical-imbuer/) can be used to further brew
+An [alchemical imbuer](/docs/thermal-expansion-5/alchemical-imbuer/) can be used to further brew
 fluid potions using [brewing](https://minecraft.gamepedia.com/Brewing)
 ingredients.
 
 ### Fractionating Still with Alchemical Retort
-A [fractionating still](/docs/thermal-expansion/fractionating-still/) with an [alchemical
-retort](/docs/thermal-expansion/augment-alchemical-retort/) installed refines fluid potions,
+A [fractionating still](/docs/thermal-expansion-5/fractionating-still/) with an [alchemical
+retort](/docs/thermal-expansion-5/augment-alchemical-retort/) installed refines fluid potions,
 increasing their potency to levels that cannot be obtained through
 [brewing](https://minecraft.gamepedia.com/Brewing).
 
 ### Decoctive Diffuser
-A [decoctive diffuser](/docs/thermal-expansion/decoctive-diffuser/) applies the effects of a fluid
+A [decoctive diffuser](/docs/thermal-expansion-5/decoctive-diffuser/) applies the effects of a fluid
 potion in an area. Its range increases when using a fluid [splash
 potion](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
 potion](https://minecraft.gamepedia.com/Lingering_Potion).

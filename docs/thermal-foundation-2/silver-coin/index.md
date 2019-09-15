@@ -14,7 +14,7 @@ recipes:
 
 
 **Silver coins** are materials made of [silver](/docs/thermal-foundation-2/silver-ingot/) that can be
-used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
+used as fuel in a [numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/).
 
 
 Obtaining
@@ -28,5 +28,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), silver
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/), silver
 coins yield 40,000 RF each.

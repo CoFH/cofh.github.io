@@ -66,4 +66,4 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 7x7 area.
 
 ### Arboreal Extractor
 When fluxed Phyto-Gro is used in an [arboreal
-extractor](/docs/thermal-expansion/arboreal-extractor/), it produces four times as much fluid.
+extractor](/docs/thermal-expansion-5/arboreal-extractor/), it produces four times as much fluid.

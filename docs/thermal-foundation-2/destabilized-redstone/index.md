@@ -41,7 +41,7 @@ usage-recipes:
 
 **Destabilized redstone** is a fluid obtained by melting
 [redstone](https://minecraft.gamepedia.com/Redstone) in a [magma
-crucible](/docs/thermal-expansion/magma-crucible/).
+crucible](/docs/thermal-expansion-5/magma-crucible/).
 
 
 Obtaining
@@ -92,7 +92,7 @@ wart](https://minecraft.gamepedia.com/Nether_Wart),
 [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [blaze
 powder](https://minecraft.gamepedia.com/Blaze_Powder) or [ghast
 tears](https://minecraft.gamepedia.com/Ghast_Tear) in a [reactant
-dynamo](/docs/thermal-expansion/reactant-dynamo/) to generate varying amounts of energy.
+dynamo](/docs/thermal-expansion-5/reactant-dynamo/) to generate varying amounts of energy.
 
 
 Trivia

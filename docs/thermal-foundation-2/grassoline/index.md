@@ -18,8 +18,8 @@ redirect_from:
 
 **Grassoline** is a fluid obtained by processing
 [biocrude](/docs/thermal-foundation-2/biocrude/) in a [fractionating
-still](/docs/thermal-expansion/fractionating-still/). It can be used as fuel in
-a [compression dynamo](/docs/thermal-expansion/compression-dynamo/).
+still](/docs/thermal-expansion-5/fractionating-still/). It can be used as fuel in
+a [compression dynamo](/docs/thermal-expansion-5/compression-dynamo/).
 
 
 Obtaining
@@ -42,9 +42,9 @@ Grassoline cannot be placed as a block.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression
-dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket of grassoline
+dynamo](/docs/thermal-expansion-5/compression-dynamo/), a bucket of grassoline
 yields 800,000 RF, or 1,000,000 RF if an [agitative
-manifold](/docs/thermal-expansion/augment-agitative-manifold/) is installed.
+manifold](/docs/thermal-expansion-5/augment-agitative-manifold/) is installed.
 
 
 Trivia

@@ -38,7 +38,7 @@ usage-recipes:
 [redstone](https://minecraft.gamepedia.com/Redstone) and
 [gold](https://minecraft.gamepedia.com/Gold_Ingot). They are used to craft
 things that can receive [Redstone Flux](/docs/redstone-flux/), notably
-[machines](/docs/thermal-expansion/machines/).
+[machines](/docs/thermal-expansion-5/machines/).
 
 
 Obtaining

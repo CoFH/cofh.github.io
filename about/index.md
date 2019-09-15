@@ -19,7 +19,7 @@ Brewcraft: a farming mod that contained a brewing overhaul for potions, as well
 as a way to make alcoholic beverages.
 
 As King Lemming was still figuring out how to create Tile Entities, he created a
-[furnace](/docs/thermal-expansion/redstone-furnace/) that worked on Minecraft
+[furnace](/docs/thermal-expansion-5/redstone-furnace/) that worked on Minecraft
 Joules instead of items as fuel. He then figured he might as well make more
 blocks like that. Eventually, this development led to the release of the first
 version of Thermal Expansion for Minecraft 1.2, leaving Brewcraft abandoned.

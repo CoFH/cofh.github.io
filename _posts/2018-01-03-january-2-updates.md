@@ -24,16 +24,16 @@ Arsenal](/docs/redstone-arsenal/).
 * Crafting clay using [slag](/docs/thermal-foundation-2/slag/) now yields 4 clay instead of 2.
 
 #### Thermal Expansion
-* [Morbs](/docs/thermal-expansion/morb/)
+* [Morbs](/docs/thermal-expansion-5/morb/)
   * Throwable items that can be used to capture and release mobs. (Thanks
     [ImbaKnugel](https://github.com/ImbaKnugel))
   * These will be expanded on in the future. <small>(mob processing)</small>
-* [Void satchel](/docs/thermal-expansion/satchel/)
+* [Void satchel](/docs/thermal-expansion-5/satchel/)
   * A special type of satchel that destroys any items put into it.
-  * Can be useful when paired with [auto-collect](/docs/thermal-expansion/satchel/#auto-collect).
-* [Satchel](/docs/thermal-expansion/satchel/) contents can now only be dumped into inventories
+  * Can be useful when paired with [auto-collect](/docs/thermal-expansion-5/satchel/#auto-collect).
+* [Satchel](/docs/thermal-expansion-5/satchel/) contents can now only be dumped into inventories
   while sneaking.
-* [Induction smelters](/docs/thermal-expansion/induction-smelter/) now smelt one metal dust at a
+* [Induction smelters](/docs/thermal-expansion-5/induction-smelter/) now smelt one metal dust at a
   time for 500 RF, instead of two at a time for 800 RF.
 
 #### Thermal Dynamics

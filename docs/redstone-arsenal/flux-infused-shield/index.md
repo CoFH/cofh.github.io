@@ -30,8 +30,8 @@ Usage
 
 ### Charging
 A flux-infused shield can hold up to 320,000 [RF](/docs/redstone-flux/). It can
-be charged using an [energetic infuser](/docs/thermal-expansion/energetic-infuser/), a [flux
-capacitor](/docs/thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
+be charged using an [energetic infuser](/docs/thermal-expansion-5/energetic-infuser/), a [flux
+capacitor](/docs/thermal-expansion-5/flux-capacitor/) or similar. It can also be charged by touching
 a [fluxed electrum block](/docs/redstone-arsenal/fluxed-electrum-block/) or [flux crystal
 block](/docs/redstone-arsenal/flux-crystal-block) while holding it. It can be charged at rates up
 to 4,000 RF/t.

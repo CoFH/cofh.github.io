@@ -14,7 +14,7 @@ recipes:
 
 
 **Aqua-Chow** is a type of fish bait that can be used by [aquatic
-entanglers](/docs/thermal-expansion/aquatic-entangler/). It is the weakest of its kind, being
+entanglers](/docs/thermal-expansion-5/aquatic-entangler/). It is the weakest of its kind, being
 surpassed by the [rich](/docs/thermal-foundation-2/rich-aqua-chow/) and
 [fluxed](/docs/thermal-foundation-2/fluxed-aqua-chow/) versions.
 
@@ -30,5 +30,5 @@ Usage
 -----
 
 ### Aquatic Entangler
-When Aqua-Chow is used in an [aquatic entangler](/docs/thermal-expansion/aquatic-entangler/), it
+When Aqua-Chow is used in an [aquatic entangler](/docs/thermal-expansion-5/aquatic-entangler/), it
 produces twice as much [fish](https://minecraft.gamepedia.com/Fish).

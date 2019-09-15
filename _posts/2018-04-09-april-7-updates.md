@@ -7,7 +7,7 @@ published: true
 
 On April 7, new updates were released for [CoFH Core](/docs/cofh-core-4/),
 [Thermal Foundation](/docs/thermal-foundation-2/), [Thermal
-Expansion](/docs/thermal-expansion/), [Thermal
+Expansion](/docs/thermal-expansion-5/), [Thermal
 Dynamics](/docs/thermal-dynamics/) and [Redstone
 Arsenal](/docs/redstone-arsenal/). The first version of [Thermal
 Innovation](/docs/thermal-innovation/) was also released.
@@ -37,26 +37,26 @@ Innovation](/docs/thermal-innovation/) was also released.
   * [petrotheum dust](/docs/thermal-foundation-2/petrotheum-dust/) no longer uses clay.
 
 #### Thermal Expansion
-* [Clastic Deposition](/docs/thermal-expansion/augment-clastic-deposition/)
-  * An augment that allows for an [igneous extruder](/docs/thermal-expansion/igneous-extruder/) to
+* [Clastic Deposition](/docs/thermal-expansion-5/augment-clastic-deposition/)
+  * An augment that allows for an [igneous extruder](/docs/thermal-expansion-5/igneous-extruder/) to
     produce sedimentary rock (gravel, sand, sandstone).
-* [Dynamos](/docs/thermal-expansion/dynamos/) that use [coolants](/docs/thermal-expansion/coolants/) produce more
+* [Dynamos](/docs/thermal-expansion-5/dynamos/) that use [coolants](/docs/thermal-expansion-5/coolants/) produce more
   energy when using more effective coolants.
-* [Item allocators](/docs/thermal-expansion/item-allocator/) and [strongboxes](/docs/thermal-expansion/strongbox/)
+* [Item allocators](/docs/thermal-expansion-5/item-allocator/) and [strongboxes](/docs/thermal-expansion-5/strongbox/)
   with public access can be read by redstone comparators.
-* [Decoctive diffusers](/docs/thermal-expansion/decoctive-diffuser/) have a greater area of
+* [Decoctive diffusers](/docs/thermal-expansion-5/decoctive-diffuser/) have a greater area of
   effect.
-* [Phytogenic insolators](/docs/thermal-expansion/phytogenic-insolator/) produce chorus fruits
+* [Phytogenic insolators](/docs/thermal-expansion-5/phytogenic-insolator/) produce chorus fruits
   instead of chorus plant blocks.
-* [Compactors](/docs/thermal-expansion/compactor/) can now only produce plates, coins and gears
+* [Compactors](/docs/thermal-expansion-5/compactor/) can now only produce plates, coins and gears
   from ingots. Storage blocks and nuggets no longer work.
-* [Magma crucibles](/docs/thermal-expansion/magma-crucible/) produce 250 mB of [creosote
+* [Magma crucibles](/docs/thermal-expansion-5/magma-crucible/) produce 250 mB of [creosote
   oil](/docs/thermal-foundation-2/creosote-oil/) from each unit of [tar](/docs/thermal-foundation-2/tar/), instead of 100
   mB.
-* [Centrifugal separators](/docs/thermal-expansion/centrifugal-separator/) can process sugar canes
+* [Centrifugal separators](/docs/thermal-expansion-5/centrifugal-separator/) can process sugar canes
   into 2 units of sugar each, as well as 250 mB of water.
 * [Creosote oil](/docs/thermal-foundation-2/creosote-oil/) yields 40,000 RF when used in a
-  [compression dynamo](/docs/thermal-expansion/compression-dynamo/), instead of 20,000 RF.
+  [compression dynamo](/docs/thermal-expansion-5/compression-dynamo/), instead of 20,000 RF.
 
 #### Redstone Arsenal
 * [Flux-infused shields](/docs/redstone-arsenal/flux-infused-shield/) now look a lot more like
@@ -83,7 +83,7 @@ worked on, but here's a quick overview.
     on tier).
   * Can be used actively to pull items to the wielder from a target area up to
     64 blocks away.
-  * Items can be filtered, like with [satchels](/docs/thermal-expansion/satchel/).
+  * Items can be filtered, like with [satchels](/docs/thermal-expansion-5/satchel/).
 * [Hypoinfuser](/docs/thermal-innovation/hypoinfuser/)
   * Stores [fluid potions](/docs/thermal-foundation-2/potion-fluid/), and can automatically infuse
     the wielder with them.

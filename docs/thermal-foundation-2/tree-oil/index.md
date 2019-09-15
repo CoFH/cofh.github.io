@@ -19,8 +19,8 @@ usage-recipes:
 
 
 **Tree oil** is a fluid obtained by processing [resin](/docs/thermal-foundation-2/resin/) in a
-[fractionating still](/docs/thermal-expansion/fractionating-still/). It can be used as fuel in a
-[compression dynamo](/docs/thermal-expansion/compression-dynamo/).
+[fractionating still](/docs/thermal-expansion-5/fractionating-still/). It can be used as fuel in a
+[compression dynamo](/docs/thermal-expansion-5/compression-dynamo/).
 
 
 Obtaining
@@ -43,5 +43,5 @@ Tree oil cannot be placed as a block.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression
-dynamo](/docs/thermal-expansion/compression-dynamo/), a bucket of tree oil
+dynamo](/docs/thermal-expansion-5/compression-dynamo/), a bucket of tree oil
 yields 400,000 RF.

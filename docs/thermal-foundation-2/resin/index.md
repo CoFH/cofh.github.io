@@ -27,13 +27,13 @@ Obtaining
 ---------
 
 ### Arboreal Extractor
-An [arboreal extractor](/docs/thermal-expansion/arboreal-extractor/) will produce resin when
+An [arboreal extractor](/docs/thermal-expansion-5/arboreal-extractor/) will produce resin when
 placed next to a spruce, birch, jungle or acacia
 [tree](https://minecraft.gamepedia.com/Tree). Spruce trees produce twice as much
 resin as other trees.
 
 ### Sawmill with Resin Funnel
-A [sawmill](/docs/thermal-expansion/sawmill/) with a [resin funnel](/docs/thermal-expansion/augment-resin-funnel/)
+A [sawmill](/docs/thermal-expansion-5/sawmill/) with a [resin funnel](/docs/thermal-expansion-5/augment-resin-funnel/)
 installed produces resin as a byproduct when processing spruce, birch, jungle or
 acacia [wood](https://minecraft.gamepedia.com/Wood). Spruce wood yields twice as
 much resin as other types of wood.

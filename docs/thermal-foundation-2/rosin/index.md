@@ -24,7 +24,7 @@ usage-recipes:
 
 
 **Rosin** is a byproduct of processing [resin](/docs/thermal-foundation-2/resin/) in a [fractionating
-still](/docs/thermal-expansion/fractionating-still/). It can be used to craft
+still](/docs/thermal-expansion-5/fractionating-still/). It can be used to craft
 [torches](https://minecraft.gamepedia.com/Torches), and can replace
 [slimeballs](https://minecraft.gamepedia.com/Slimeball) in some recipes.
 

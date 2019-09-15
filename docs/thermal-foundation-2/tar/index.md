@@ -22,9 +22,9 @@ usage-recipes:
 
 
 **Tar** is a byproduct of processing [oil sand](/docs/thermal-foundation-2/oil-sand/) in a
-[pulverizer](/docs/thermal-expansion/pulverizer/), and of processing [liquifacted
+[pulverizer](/docs/thermal-expansion-5/pulverizer/), and of processing [liquifacted
 coal](/docs/thermal-foundation-2/liquifacted-coal/) or [crude oil](/docs/thermal-foundation-2/crude-oil/) in a
-[fractionating still](/docs/thermal-expansion/fractionating-still/). It can be used to craft
+[fractionating still](/docs/thermal-expansion-5/fractionating-still/). It can be used to craft
 [torches](https://minecraft.gamepedia.com/Torches), and can replace
 [slimeballs](https://minecraft.gamepedia.com/Slimeball) in some recipes.
 

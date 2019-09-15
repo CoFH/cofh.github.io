@@ -35,6 +35,6 @@ bows](/docs/vanillaplus-tools/reinforced-bows/) and
 Vanilla+ Satchels adds a set of [satchels](/docs/vanillaplus-satchels/satchel/),
 which are items that store other items, and are able to automatically store
 picked up items. They are functionally identical to the
-[satchels](/docs/thermal-expansion/satchel/) added by [Thermal
-Expansion](/docs/thermal-expansion/), but are made of leather, iron, gold,
+[satchels](/docs/thermal-expansion-5/satchel/) added by [Thermal
+Expansion](/docs/thermal-expansion-5/), but are made of leather, iron, gold,
 diamond and emerald.

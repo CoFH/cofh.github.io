@@ -51,7 +51,7 @@ A tome of knowledge can be filled with essence of knowledge, converting it into
 experience points. Essence of knowledge can also be drained from it, converting
 experience points into the fluid. The item can filled or drained manually by
 using it on blocks that store fluids, or automatically using [fluid
-transposers](/docs/thermal-expansion/fluid-transposer/) or similar.
+transposers](/docs/thermal-expansion-5/fluid-transposer/) or similar.
 
 A tome of knowledge can also be filled with [Industrial
 Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)'s

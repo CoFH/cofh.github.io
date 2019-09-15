@@ -51,6 +51,6 @@ Usage
 ### Reactant Dynamo fuel
 When used together with 100 mB of [tectonic
 petrotheum](/docs/thermal-foundation-2/tectonic-petrotheum/) as fuel in a [reactant
-dynamo](/docs/thermal-expansion/reactant-dynamo/), aerotheum dust yields 400,000 RF per piece, or
-500,000 RF if an [elemental catalyzer](/docs/thermal-expansion/augment-elemental-catalyzer/) is
+dynamo](/docs/thermal-expansion-5/reactant-dynamo/), aerotheum dust yields 400,000 RF per piece, or
+500,000 RF if an [elemental catalyzer](/docs/thermal-expansion-5/augment-elemental-catalyzer/) is
 installed.

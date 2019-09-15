@@ -35,7 +35,7 @@ usage-recipes:
 
 **Energized glowstone** is a fluid obtained by melting
 [glowstone](https://minecraft.gamepedia.com/Glowstone) in a [magma
-crucible](/docs/thermal-expansion/magma-crucible/). It is lighter than air and vertically flows up
+crucible](/docs/thermal-expansion-5/magma-crucible/). It is lighter than air and vertically flows up
 instead of down.
 
 
@@ -104,7 +104,7 @@ wart](https://minecraft.gamepedia.com/Nether_Wart),
 [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [blaze
 powder](https://minecraft.gamepedia.com/Blaze_Powder) or [ghast
 tears](https://minecraft.gamepedia.com/Ghast_Tear) in a [reactant
-dynamo](/docs/thermal-expansion/reactant-dynamo/) to generate varying amounts of energy.
+dynamo](/docs/thermal-expansion-5/reactant-dynamo/) to generate varying amounts of energy.
 
 
 Trivia

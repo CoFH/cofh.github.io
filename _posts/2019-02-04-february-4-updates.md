@@ -32,17 +32,17 @@ improvements.
 
 #### Thermal Expansion
 * Added a configuration option for the ore to dust ratio of
-  [pulverizers](/docs/thermal-expansion/pulverizer/).
+  [pulverizers](/docs/thermal-expansion-5/pulverizer/).
 * Added a configuration option for the wood to planks ratio of
-  [sawmills](/docs/thermal-expansion/sawmill/).
+  [sawmills](/docs/thermal-expansion-5/sawmill/).
 * Added a configuration option for the experience collection radius of
-  [insightful condensers](/docs/thermal-expansion/insightful-condenser/).
+  [insightful condensers](/docs/thermal-expansion-5/insightful-condenser/).
 * Increased the working area of [creature
-  encaptulators](/docs/thermal-expansion/creature-encaptulator/) from 9x7x9 to
+  encaptulators](/docs/thermal-expansion-5/creature-encaptulator/) from 9x7x9 to
   11x11x11.
 * Added a configuration option for the item collection radius of
-  [vacuumulators](/docs/thermal-expansion/vacuumulator/).
-* The first line of [augment](/docs/thermal-expansion/augments/) tooltips is now
+  [vacuumulators](/docs/thermal-expansion-5/vacuumulator/).
+* The first line of [augment](/docs/thermal-expansion-5/augments/) tooltips is now
   always visible, instead of having to hold Shift. This way, when searching for
   a certain machine or dynamo, any applicable augments are also shown.
 

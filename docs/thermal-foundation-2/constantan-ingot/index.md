@@ -84,7 +84,7 @@ Obtaining
 Constantan can be obtained by combining [copper](/docs/thermal-foundation-2/copper-ingot/) and
 [nickel](/docs/thermal-foundation-2/nickel-ingot/), either by crafting [constantan
 blend](/docs/thermal-foundation-2/constantan-blend/) or by using an [induction
-smelter](/docs/thermal-expansion/induction-smelter/).
+smelter](/docs/thermal-expansion-5/induction-smelter/).
 
 ### Smelting
 {% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}

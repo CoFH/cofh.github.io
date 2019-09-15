@@ -14,5 +14,5 @@ redirect_from:
 **Mana dust** is a material that currently cannot be obtained.
 
 Mana dust can currently only be used in an [insightful
-condenser](/docs/thermal-expansion/insightful-condenser/), to increase the amount of [essence of
+condenser](/docs/thermal-expansion-5/insightful-condenser/), to increase the amount of [essence of
 knowledge](/docs/thermal-foundation-2/essence-of-knowledge/) the device produces.

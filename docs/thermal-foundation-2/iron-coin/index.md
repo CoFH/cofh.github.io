@@ -15,7 +15,7 @@ recipes:
 
 **Iron coins** are materials made of
 [iron](https://minecraft.gamepedia.com/Iron_Ingot) that can be used as fuel in a
-[numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
+[numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/).
 
 
 Obtaining
@@ -29,5 +29,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), iron coins
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/), iron coins
 yield 30,000 RF each.

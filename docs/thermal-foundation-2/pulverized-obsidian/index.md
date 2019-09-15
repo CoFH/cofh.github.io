@@ -28,7 +28,7 @@ usage-recipes:
 
 **Pulverized obsidian** is a raw material that is most commonly obtained by
 processing [obsidian](https://minecraft.gamepedia.com/Obsidian) in a
-[pulverizer](/docs/thermal-expansion/pulverizer/).
+[pulverizer](/docs/thermal-expansion-5/pulverizer/).
 
 
 Obtaining

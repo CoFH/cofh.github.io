@@ -62,7 +62,7 @@ Usage
 Pyrotheum dust can be combined with
 [books](https://minecraft.gamepedia.com/Book) and [essence of
 knowledge](/docs/thermal-foundation-2/essence-of-knowledge/) in an [arcane
-ensorcellator](/docs/thermal-expansion/arcane-ensorcellator/) to produce
+ensorcellator](/docs/thermal-expansion-5/arcane-ensorcellator/) to produce
 [Smelting](/docs/cofh-core-4/smelting/) [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book).
 
@@ -74,6 +74,6 @@ rods](https://minecraft.gamepedia.com/Blaze_Rod).
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [gelid cryotheum](/docs/thermal-foundation-2/gelid-cryotheum/) as
-fuel in a [reactant dynamo](/docs/thermal-expansion/reactant-dynamo/), pyrotheum dust yields
+fuel in a [reactant dynamo](/docs/thermal-expansion-5/reactant-dynamo/), pyrotheum dust yields
 400,000 RF per piece, or 500,000 RF if an [elemental
-catalyzer](/docs/thermal-expansion/augment-elemental-catalyzer/) is installed.
+catalyzer](/docs/thermal-expansion-5/augment-elemental-catalyzer/) is installed.

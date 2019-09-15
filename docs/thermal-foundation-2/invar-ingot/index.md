@@ -109,7 +109,7 @@ Invar can be obtained by combining
 [iron](https://minecraft.gamepedia.com/Iron_Ingot) and
 [nickel](/docs/thermal-foundation-2/nickel-ingot/), either by crafting [invar
 blend](/docs/thermal-foundation-2/invar-blend/) or by using an [induction
-smelter](/docs/thermal-expansion/induction-smelter/).
+smelter](/docs/thermal-expansion-5/induction-smelter/).
 
 ### Smelting
 {% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}

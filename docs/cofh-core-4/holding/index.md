@@ -25,13 +25,13 @@ Usage
 The following blocks and items can be enchanted to hold more items, fluids or
 energy:
 
-* [Energy Cell](/docs/thermal-expansion/energy-cell/)
-* [Flux Capacitor](/docs/thermal-expansion/flux-capacitor/)
-* [Portable Tank](/docs/thermal-expansion/portable-tank/)
-* [Reservoir](/docs/thermal-expansion/reservoir/)
-* [Cache](/docs/thermal-expansion/cache/)
-* [Strongbox](/docs/thermal-expansion/strongbox/)
-* [Satchel](/docs/thermal-expansion/satchel/)
+* [Energy Cell](/docs/thermal-expansion-5/energy-cell/)
+* [Flux Capacitor](/docs/thermal-expansion-5/flux-capacitor/)
+* [Portable Tank](/docs/thermal-expansion-5/portable-tank/)
+* [Reservoir](/docs/thermal-expansion-5/reservoir/)
+* [Cache](/docs/thermal-expansion-5/cache/)
+* [Strongbox](/docs/thermal-expansion-5/strongbox/)
+* [Satchel](/docs/thermal-expansion-5/satchel/)
 
 ### Thermal Cultivation
 [Watering cans](/docs/thermal-cultivation/watering-can/) can be enchanted to hold more water.

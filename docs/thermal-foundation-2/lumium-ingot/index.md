@@ -46,7 +46,7 @@ Obtaining
 Lumium is an advanced alloy that can be obtained by crafting [lumium
 blend](/docs/thermal-foundation-2/lumium-blend/). The
 blend can only be smelted into ingots in an [induction
-smelter](/docs/thermal-expansion/induction-smelter/).
+smelter](/docs/thermal-expansion-5/induction-smelter/).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

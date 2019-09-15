@@ -91,8 +91,8 @@ Obtaining
 ---------
 
 Platinum can be obtained by processing [nickel ore](/docs/thermal-foundation-2/nickel-ore/) in a
-[pulverizer](/docs/thermal-expansion/pulverizer/), or in an [induction
-smelter](/docs/thermal-expansion/induction-smelter/) with [cinnabar](/docs/thermal-foundation-2/cinnabar/).
+[pulverizer](/docs/thermal-expansion-5/pulverizer/), or in an [induction
+smelter](/docs/thermal-expansion-5/induction-smelter/) with [cinnabar](/docs/thermal-foundation-2/cinnabar/).
 
 ### Smelting
 {% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}

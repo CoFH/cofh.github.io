@@ -42,6 +42,6 @@ When used on a compatible block while the user is sneaking, a wrench will
 attempt to dismantle it. When dismantled, a block is instantly dropped as an
 item.
 
-Most blocks in [Thermal Expansion](/docs/thermal-expansion/) and [Thermal
+Most blocks in [Thermal Expansion](/docs/thermal-expansion-5/) and [Thermal
 Dynamics](/docs/thermal-dynamics/) can be dismantled, as well as [hardened
 glass](/docs/thermal-foundation-2/hardened-glass/).

@@ -41,8 +41,8 @@ Usage
 
 ### Charging
 A fluxomagnet can be charged with [Redstone Flux](/docs/redstone-flux/) using an
-[energetic infuser](/docs/thermal-expansion/energetic-infuser/), a [flux
-capacitor](/docs/thermal-expansion/flux-capacitor/) or similar.
+[energetic infuser](/docs/thermal-expansion-5/energetic-infuser/), a [flux
+capacitor](/docs/thermal-expansion-5/flux-capacitor/) or similar.
 
 A basic fluxomagnet can hold up to 40,000 RF and can be charged at up to 1,000
 RF/t. This can be increased by upgrading the magnet to a higher [tier](#tiers).

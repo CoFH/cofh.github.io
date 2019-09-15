@@ -72,5 +72,5 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 3x3 area.
 {% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Arboreal Extractor
-When Phyto-Gro is used in an [arboreal extractor](/docs/thermal-expansion/arboreal-extractor/), it
+When Phyto-Gro is used in an [arboreal extractor](/docs/thermal-expansion-5/arboreal-extractor/), it
 produces twice as much fluid.

@@ -15,7 +15,7 @@ recipes:
 
 **Mana infused coins** are materials made of [mana infused
 metal](/docs/thermal-foundation-2/mana-infused-ingot/) that can be used as fuel in a [numismatic
-dynamo](/docs/thermal-expansion/numismatic-dynamo/).
+dynamo](/docs/thermal-expansion-5/numismatic-dynamo/).
 
 
 Obtaining
@@ -29,5 +29,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), mana
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/), mana
 infused coins yield 150,000 RF each.

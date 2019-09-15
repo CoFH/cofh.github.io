@@ -87,7 +87,7 @@ Obtaining
 
 Bronze can be obtained by combining [copper](/docs/thermal-foundation-2/copper-ingot/) and
 [tin](/docs/thermal-foundation-2/tin-ingot/), either by crafting [bronze blend](/docs/thermal-foundation-2/bronze-blend/)
-or by using an [induction smelter](/docs/thermal-expansion/induction-smelter/).
+or by using an [induction smelter](/docs/thermal-expansion-5/induction-smelter/).
 
 ### Smelting
 {% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}

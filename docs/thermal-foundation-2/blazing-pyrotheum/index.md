@@ -24,7 +24,7 @@ usage-recipes:
 
 **Blazing pyrotheum** is the fire elemental fluid. It is obtained by melting
 [pyrotheum dust](/docs/thermal-foundation-2/pyrotheum-dust/) in a [magma
-crucible](/docs/thermal-expansion/magma-crucible/).
+crucible](/docs/thermal-expansion-5/magma-crucible/).
 
 
 Obtaining
@@ -84,18 +84,18 @@ Blazing pyrotheum has the following effects on certain blocks and mobs:
 {% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Pyro-Concentrator
-An [induction smelter](/docs/thermal-expansion/induction-smelter/) with a
-[pyro-concentrator](/docs/thermal-expansion/augment-pyro-concentrator/) installed consumes blazing
+An [induction smelter](/docs/thermal-expansion-5/induction-smelter/) with a
+[pyro-concentrator](/docs/thermal-expansion-5/augment-pyro-concentrator/) installed consumes blazing
 pyrotheum to process ores more efficiently. It consumes 100 mB of pyrotheum per
 processed ore.
 
 ### Magmatic Dynamo fuel
-When used as fuel in a [magmatic dynamo](/docs/thermal-expansion/magmatic-dynamo/), a bucket of
+When used as fuel in a [magmatic dynamo](/docs/thermal-expansion-5/magmatic-dynamo/), a bucket of
 blazing pyrotheum yields 2,000,000 RF, or 2,500,000 RF if an [isentropic
-reservoir](/docs/thermal-expansion/augment-isentropic-reservoir/) is installed.
+reservoir](/docs/thermal-expansion-5/augment-isentropic-reservoir/) is installed.
 
 ### Reactant Dynamo fuel
 When used together with [cryotheum dust](/docs/thermal-foundation-2/cryotheum-dust/) as fuel in a
-[reactant dynamo](/docs/thermal-expansion/reactant-dynamo/), 100 mB of blazing pyrotheum yields
+[reactant dynamo](/docs/thermal-expansion-5/reactant-dynamo/), 100 mB of blazing pyrotheum yields
 400,000 RF, or 500,000 RF if an [elemental
-catalyzer](/docs/thermal-expansion/augment-elemental-catalyzer/) is installed.
+catalyzer](/docs/thermal-expansion-5/augment-elemental-catalyzer/) is installed.

@@ -19,26 +19,26 @@ Arsenal](/docs/redstone-arsenal/).
   essence, converting it into experience.
 
 #### Thermal Expansion
-* [Sequential Fabricator](/docs/thermal-expansion/sequential-fabricator/)
+* [Sequential Fabricator](/docs/thermal-expansion-5/sequential-fabricator/)
   * A machine that crafts items.
   * Augments:
-    * [Pattern Validation](/docs/thermal-expansion/augment-pattern-validation/) allows for
+    * [Pattern Validation](/docs/thermal-expansion-5/augment-pattern-validation/) allows for
       more intelligent input. Two input slots are designated for each crafting
       slot.
-    * [Fluidic Fabrication](/docs/thermal-expansion/augment-fluidic-fabrication/) adds a fluid
+    * [Fluidic Fabrication](/docs/thermal-expansion-5/augment-fluidic-fabrication/) adds a fluid
       tank, which can replace filled buckets in recipes.
-* [Enstabulation Apparatus](/docs/thermal-expansion/augment-enstabulation-apparatus/)
+* [Enstabulation Apparatus](/docs/thermal-expansion-5/augment-enstabulation-apparatus/)
   * An augment that allows for a [centrifugal
-    separator](/docs/thermal-expansion/centrifugal-separator/) to "process" filled
-    [morbs](/docs/thermal-expansion/morb/).
+    separator](/docs/thermal-expansion-5/centrifugal-separator/) to "process" filled
+    [morbs](/docs/thermal-expansion-5/morb/).
   * Morbs will provide items and [essence of
     knowledge](/docs/thermal-foundation-2/essence-of-knowledge/) from the contained mobs.
-* The crafting recipes of [machines](/docs/thermal-expansion/machines/),
-  [devices](/docs/thermal-expansion/devices/), [dynamos](/docs/thermal-expansion/dynamos/) and
-  [augments](/docs/thermal-expansion/augments/) have been tweaked.
+* The crafting recipes of [machines](/docs/thermal-expansion-5/machines/),
+  [devices](/docs/thermal-expansion-5/devices/), [dynamos](/docs/thermal-expansion-5/dynamos/) and
+  [augments](/docs/thermal-expansion-5/augments/) have been tweaked.
   * Dynamos and augments are all slightly cheaper.
   * Augments are slightly simpler to craft.
-* [Compactors](/docs/thermal-expansion/compactor/) can press elemental (blaze, blizz, etc.)
+* [Compactors](/docs/thermal-expansion-5/compactor/) can press elemental (blaze, blizz, etc.)
   powders into rods.
 * All fluid-handling blocks can now be properly filled and drained by hand using
-  buckets or [reservoirs](/docs/thermal-expansion/reservoir/).
+  buckets or [reservoirs](/docs/thermal-expansion-5/reservoir/).

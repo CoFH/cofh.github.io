@@ -110,7 +110,7 @@ Electrum can be obtained by combining
 [gold](https://minecraft.gamepedia.com/Gold_Ingot) and
 [silver](/docs/thermal-foundation-2/silver-ingot/), either by crafting [electrum
 blend](/docs/thermal-foundation-2/electrum-blend/) or by using an [induction
-smelter](/docs/thermal-expansion/induction-smelter/).
+smelter](/docs/thermal-expansion-5/induction-smelter/).
 
 ### Smelting
 {% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}

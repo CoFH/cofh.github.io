@@ -17,8 +17,8 @@ usage-recipes:
 ![Steam](/assets/images/thermal-foundation/steam.gif){:style="height: 128px"}
 
 
-**Steam** is a fluid used by [steam dynamos](/docs/thermal-expansion/steam-dynamo/) with a
-[turbine conversion](/docs/thermal-expansion/augment-turbine-conversion/) installed to generate
+**Steam** is a fluid used by [steam dynamos](/docs/thermal-expansion-5/steam-dynamo/) with a
+[turbine conversion](/docs/thermal-expansion-5/augment-turbine-conversion/) installed to generate
 [Redstone Flux](/docs/redstone-flux/).
 
 
@@ -26,9 +26,9 @@ Obtaining
 ---------
 
 ### Dynamo with Boiler Conversion
-A [steam](/docs/thermal-expansion/steam-dynamo/), [magmatic](/docs/thermal-expansion/magmatic-dynamo/) or
-[compression dynamo](/docs/thermal-expansion/compression-dynamo/) with a [boiler
-conversion](/docs/thermal-expansion/augment-boiler-conversion/) installed converts
+A [steam](/docs/thermal-expansion-5/steam-dynamo/), [magmatic](/docs/thermal-expansion-5/magmatic-dynamo/) or
+[compression dynamo](/docs/thermal-expansion-5/compression-dynamo/) with a [boiler
+conversion](/docs/thermal-expansion-5/augment-boiler-conversion/) installed converts
 [water](https://minecraft.gamepedia.com/Water) into steam instead of generating
 [Redstone Flux](/docs/redstone-flux/).
 
@@ -45,6 +45,6 @@ Steam cannot be placed as a block.
 {% include recipe-table.html type='transposer-te5-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Steam Dynamo with Turbine Conversion
-A [steam dynamo](/docs/thermal-expansion/steam-dynamo/) with a [turbine
-conversion](/docs/thermal-expansion/augment-turbine-conversion/) installed generates 2 RF of
+A [steam dynamo](/docs/thermal-expansion-5/steam-dynamo/) with a [turbine
+conversion](/docs/thermal-expansion-5/augment-turbine-conversion/) installed generates 2 RF of
 energy per mB of steam.

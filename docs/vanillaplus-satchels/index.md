@@ -9,8 +9,8 @@ nav: vanillaplus-satchels
 **Vanilla+ Satchels** is a mod in the Vanilla+ Series that provides
 [satchels](/docs/vanillaplus-satchels/satchel/). These are items that store
 other items, and are able to automatically store picked up items. They are
-functionally identical to the [satchels](/docs/thermal-expansion/satchel/)
-provided by [Thermal Expansion](/docs/thermal-expansion/), but are made of
+functionally identical to the [satchels](/docs/thermal-expansion-5/satchel/)
+provided by [Thermal Expansion](/docs/thermal-expansion-5/), but are made of
 materials that are available in the base game.
 
 

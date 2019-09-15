@@ -974,9 +974,9 @@ thermal-foundation-1:
   title: Thermal Foundation 1
   url: thermal-foundation-1/
 
-thermal-expansion:
+thermal-expansion-5:
   title: Thermal Expansion 5
-  url: thermal-expansion/
+  url: thermal-expansion-5/
   sections:
     - groups:
         - title: Machines
@@ -1265,22 +1265,22 @@ thermal-expansion:
 
 thermal-expansion-4:
   title: Thermal Expansion 4
-  url: thermal-expansion/4/
+  url: thermal-expansion-4/
   # probably
 
 thermal-expansion-3:
   title: Thermal Expansion 3
-  url: thermal-expansion/3/
+  url: thermal-expansion-3/
   # maybe
 
 thermal-expansion-2:
   title: Thermal Expansion 2
-  url: thermal-expansion/2/
+  url: thermal-expansion-2/
   # yeah, right
 
 thermal-expansion-1:
   title: Thermal Expansion 1
-  url: thermal-expansion/1/
+  url: thermal-expansion-1/
   # LOL
 
 thermal-dynamics:

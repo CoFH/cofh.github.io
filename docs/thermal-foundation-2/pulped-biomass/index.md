@@ -30,7 +30,7 @@ redirect_from:
 ---
 
 **Pulped biomass** is a material obtained by processing various plants in
-[sawmills](/docs/thermal-expansion/sawmill/). It can be processed into
+[sawmills](/docs/thermal-expansion-5/sawmill/). It can be processed into
 [biocrude](/docs/thermal-foundation-2/biocrude/), which can then be processed into
 [grassoline](/docs/thermal-foundation-2/grassoline/).
 

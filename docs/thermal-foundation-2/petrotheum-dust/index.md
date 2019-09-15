@@ -60,13 +60,13 @@ Usage
 Petrotheum dust can be combined with
 [books](https://minecraft.gamepedia.com/Book) and [essence of
 knowledge](/docs/thermal-foundation-2/essence-of-knowledge/) in an [arcane
-ensorcellator](/docs/thermal-expansion/arcane-ensorcellator/) to produce
+ensorcellator](/docs/thermal-expansion-5/arcane-ensorcellator/) to produce
 [Smashing](/docs/cofh-core-4/smashing/) [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book).
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [zephyrean
 aerotheum](/docs/thermal-foundation-2/zephyrean-aerotheum/) as fuel in a [reactant
-dynamo](/docs/thermal-expansion/reactant-dynamo/), petrotheum dust yields 400,000 RF per piece, or
-500,000 RF if an [elemental catalyzer](/docs/thermal-expansion/augment-elemental-catalyzer/) is
+dynamo](/docs/thermal-expansion-5/reactant-dynamo/), petrotheum dust yields 400,000 RF per piece, or
+500,000 RF if an [elemental catalyzer](/docs/thermal-expansion-5/augment-elemental-catalyzer/) is
 installed.

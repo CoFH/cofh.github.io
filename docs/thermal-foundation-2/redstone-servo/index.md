@@ -52,7 +52,7 @@ usage-recipes:
 [iron](https://minecraft.gamepedia.com/Iron_Ingot) and
 [redstone](https://minecraft.gamepedia.com/Redstone). They are used to craft
 things that do not need [Redstone Flux](/docs/redstone-flux/) to operate,
-notably [devices](/docs/thermal-expansion/devices/).
+notably [devices](/docs/thermal-expansion-5/devices/).
 
 
 Obtaining

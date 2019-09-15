@@ -14,7 +14,7 @@ recipes:
 
 
 **Tin coins** are materials made of [tin](/docs/thermal-foundation-2/tin-ingot/) that can be used as
-fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/).
+fuel in a [numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/).
 
 
 Obtaining
@@ -28,5 +28,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/thermal-expansion/numismatic-dynamo/), tin coins
+When used as fuel in a [numismatic dynamo](/docs/thermal-expansion-5/numismatic-dynamo/), tin coins
 yield 30,000 RF each.
