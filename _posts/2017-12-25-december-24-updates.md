@@ -56,7 +56,7 @@ On December 24, new updates were released for [CoFH Core](/docs/cofh-core-4/),
     [augments](/docs/thermal-expansion-5/augments/) have been removed.
 
 #### Thermal Dynamics
-* [Covers](/docs/thermal-dynamics/covers/) can now be made from nearly all blocks, except
+* [Covers](/docs/thermal-dynamics-2/covers/) can now be made from nearly all blocks, except
   specific blacklisted ones that really wouldn't work as covers.
 
 #### Redstone Arsenal

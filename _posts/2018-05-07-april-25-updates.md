@@ -133,7 +133,7 @@ before the docs are updated.
     increase their potency to levels up to III.
 
 #### Thermal Dynamics
-* [Dense and Vacuum Itemducts](/docs/thermal-dynamics/itemduct/)
+* [Dense and Vacuum Itemducts](/docs/thermal-dynamics-2/itemduct/)
   * These were gone for a long time, but they're back now.
   * Affect item routing by dramatically increasing or decreasing the length of a
     route.

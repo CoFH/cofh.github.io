@@ -8,7 +8,7 @@ published: true
 On April 7, new updates were released for [CoFH Core](/docs/cofh-core-4/),
 [Thermal Foundation](/docs/thermal-foundation-2/), [Thermal
 Expansion](/docs/thermal-expansion-5/), [Thermal
-Dynamics](/docs/thermal-dynamics/) and [Redstone
+Dynamics](/docs/thermal-dynamics-2/) and [Redstone
 Arsenal](/docs/redstone-arsenal/). The first version of [Thermal
 Innovation](/docs/thermal-innovation/) was also released.
 

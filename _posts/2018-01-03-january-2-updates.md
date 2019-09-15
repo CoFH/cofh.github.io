@@ -37,7 +37,7 @@ Arsenal](/docs/redstone-arsenal/).
   time for 500 RF, instead of two at a time for 800 RF.
 
 #### Thermal Dynamics
-* [Redstone Relay](/docs/thermal-dynamics/redstone-relay/)
+* [Redstone Relay](/docs/thermal-dynamics-2/redstone-relay/)
   * This was gone for a while, but it's back now. (Thanks
     [ImbaKnugel](https://github.com/ImbaKnugel))
   * Transmits redstone signals through a duct network.

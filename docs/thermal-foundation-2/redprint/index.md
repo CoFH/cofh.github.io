@@ -42,4 +42,4 @@ configurable block while sneaking, the redprint is overwritten with the
 configuration of the block.
 
 All configurable blocks in [Thermal Expansion](/docs/thermal-expansion-5/) and
-[Thermal Dynamics](/docs/thermal-dynamics/) support redprints.
+[Thermal Dynamics](/docs/thermal-dynamics-2/) support redprints.

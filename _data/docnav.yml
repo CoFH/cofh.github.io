@@ -1283,9 +1283,9 @@ thermal-expansion-1:
   url: thermal-expansion-1/
   # LOL
 
-thermal-dynamics:
+thermal-dynamics-2:
   title: Thermal Dynamics 2
-  url: thermal-dynamics/
+  url: thermal-dynamics-2/
   sections:
     - groups:
         - title: Ducts
@@ -1379,7 +1379,7 @@ thermal-dynamics:
 
 thermal-dynamics-1:
   title: Thermal Dynamics 1
-  url: thermal-dynamics/1/
+  url: thermal-dynamics-1/
 
 thermal-cultivation:
   title: Thermal Cultivation

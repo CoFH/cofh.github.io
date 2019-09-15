@@ -17,7 +17,7 @@
 	},
 	"CoFH: TD link": {
 		"prefix": "cltd",
-		"body": "[$1](/docs/thermal-dynamics/$2)$0"
+		"body": "[$1](/docs/thermal-dynamics-2/$2)$0"
 	},
 	"CoFH: TC link": {
 		"prefix": "cltc",
