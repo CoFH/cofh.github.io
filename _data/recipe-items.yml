@@ -5698,145 +5698,145 @@ ti-hypoinfuser-resonant:
   sprite: [11, 62]
   site: docs-ti
   url: hypoinfuser/
-ra-armor-helmet:
+ra2-armor-helmet:
   name: Flux-Infused Helm
   sprite: [10, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-helm/
-ra-armor-chestplate:
+ra2-armor-chestplate:
   name: Flux-Infused Chestplate
   sprite: [11, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-chestplate/
-ra-armor-leggings:
+ra2-armor-leggings:
   name: Flux-Infused Leggings
   sprite: [12, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-leggings/
-ra-armor-boots:
+ra2-armor-boots:
   name: Flux-Infused Boots
   sprite: [13, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-boots/
-ra-dust-fluxed-electrum:
+ra2-dust-fluxed-electrum:
   name: Fluxed Electrum Blend
   animated: true
-  site: docs-ra
+  site: docs-ra2
   url: fluxed-electrum-blend/
-ra-fluxed-armor-plating:
+ra2-fluxed-armor-plating:
   name: Fluxed Armor Plating
   sprite: [11, 34]
-  site: docs-ra
+  site: docs-ra2
   url: fluxed-armor-plating/
-ra-gear-fluxed-electrum:
+ra2-gear-fluxed-electrum:
   name: Fluxed Electrum Gear
   animated: true
-  site: docs-ra
+  site: docs-ra2
   url: fluxed-electrum-gear/
-ra-ingot-fluxed-electrum:
+ra2-ingot-fluxed-electrum:
   name: Fluxed Electrum Ingot
   animated: true
-  site: docs-ra
+  site: docs-ra2
   url: fluxed-electrum-ingot/
-ra-nugget-fluxed-electrum:
+ra2-nugget-fluxed-electrum:
   name: Fluxed Electrum Nugget
   animated: true
-  site: docs-ra
+  site: docs-ra2
   url: fluxed-electrum-nugget/
-ra-obsidian-rod:
+ra2-obsidian-rod:
   name: Obsidian Rod
   sprite: [13, 34]
-  site: docs-ra
+  site: docs-ra2
   url: obsidian-rod/
-ra-obsidian-rod-flux-infused:
+ra2-obsidian-rod-flux-infused:
   name: Flux-Infused Obsidian Rod
   sprite: [12, 34]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-obsidian-rod/
-ra-plate-fluxed-electrum:
+ra2-plate-fluxed-electrum:
   name: Fluxed Electrum Plate
   animated: true
-  site: docs-ra
+  site: docs-ra2
   url: fluxed-electrum-plate/
-ra-storage-block-flux-crystal:
+ra2-storage-block-flux-crystal:
   name: Flux Crystal Block
   sprite: [10, 34]
-  site: docs-ra
+  site: docs-ra2
   url: flux-crystal-block/
-ra-storage-block-fluxed-electrum:
+ra2-storage-block-fluxed-electrum:
   name: Fluxed Electrum Block
   sprite: [9, 34]
-  site: docs-ra
+  site: docs-ra2
   url: fluxed-electrum-block/
-ra-flux-crystal:
+ra2-flux-crystal:
   name: Flux Crystal
   animated: true
-  site: docs-ra
+  site: docs-ra2
   url: flux-crystal/
-ra-tool-axe:
+ra2-tool-axe:
   name: Flux-Infused Axe
   sprite: [14, 34]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-axe/
-ra-tool-excavator:
+ra2-tool-excavator:
   name: Flux-Infused Excavator
   sprite: [14, 69]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-excavator/
-ra-tool-fishing-rod:
+ra2-tool-fishing-rod:
   name: Flux-Infused Fishing Rod
   sprite: [1, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-fishing-rod/
-ra-tool-hammer:
+ra2-tool-hammer:
   name: Flux-Infused Hammer
   sprite: [2, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-hammer/
-ra-tool-pickaxe:
+ra2-tool-pickaxe:
   name: Flux-Infused Pickaxe
   sprite: [3, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-pickaxe/
-ra-tool-shovel:
+ra2-tool-shovel:
   name: Flux-Infused Shovel
   sprite: [5, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-shovel/
-ra-tool-sickle:
+ra2-tool-sickle:
   name: Flux-Infused Sickle
   sprite: [6, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-sickle/
-ra-tool-wrench:
+ra2-tool-wrench:
   name: Flux-Infused OmniWrench
   sprite: [8, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-omniwrench/
-ra-weapon-battlewrench:
+ra2-weapon-battlewrench:
   name: Flux-Infused BattleWrench
   sprite: [15, 34]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-battlewrench/
-ra-weapon-bow:
+ra2-weapon-bow:
   name: Flux-Infused Bow
   sprite: [0, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-bow/
-ra-weapon-quiver:
+ra2-weapon-quiver:
   name: Flux-Infused Quiver
   sprite: [9, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-quiver/
-ra-weapon-shield:
+ra2-weapon-shield:
   name: Flux-Infused Shield
   sprite: [4, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-shield/
-ra-weapon-sword:
+ra2-weapon-sword:
   name: Flux-Infused Sword
   sprite: [7, 35]
-  site: docs-ra
+  site: docs-ra2
   url: flux-infused-sword/
 vpt-tool-excavator-diamond:
   name: Diamond Excavator

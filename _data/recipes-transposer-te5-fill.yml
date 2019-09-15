@@ -845,9 +845,9 @@ recipes:
         amount: 1000
       output:
         item: [td2-viaduct-long-range-linking]
-  ra-dust-fluxed-electrum:
+  ra2-dust-fluxed-electrum:
     results:
-      - item: ra-dust-fluxed-electrum
+      - item: ra2-dust-fluxed-electrum
     ingredients:
       - item: tf2-dust-electrum
       - fluid: tf2-redstone
@@ -860,10 +860,10 @@ recipes:
         fluid: tf2-redstone
         amount: 500
       output:
-        item: [ra-dust-fluxed-electrum]
-  ra-flux-crystal:
+        item: [ra2-dust-fluxed-electrum]
+  ra2-flux-crystal:
     results:
-      - item: ra-flux-crystal
+      - item: ra2-flux-crystal
     ingredients:
       - item: mc-diamond
       - fluid: tf2-redstone
@@ -876,4 +876,4 @@ recipes:
         fluid: tf2-redstone
         amount: 500
       output:
-        item: [ra-flux-crystal]
+        item: [ra2-flux-crystal]

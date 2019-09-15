@@ -8,7 +8,7 @@ published: true
 
 On December 24, new updates were released for [CoFH Core](/docs/cofh-core-4/),
 [CoFH World](/docs/cofh-world/), the [Thermal Series](/docs/#thermal-series) and
-[Redstone Arsenal](/docs/redstone-arsenal/).
+[Redstone Arsenal](/docs/redstone-arsenal-2/).
 
 #### General
 * Various refactors and bugfixes (see the [issue

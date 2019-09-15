@@ -10298,57 +10298,57 @@ recipes:
         - [item: [tf2-nugget-signalum], null, item: [tf2-nugget-signalum]]
       result:
         item: [ti-hypoinfuser-resonant]
-  ra-armor-helmet:
+  ra2-armor-helmet:
     results:
-      - item: ra-armor-helmet
+      - item: ra2-armor-helmet
     ingredients:
-      - item: ra-fluxed-armor-plating
+      - item: ra2-fluxed-armor-plating
     data:
       rows:
         - []
-        - [item: [ra-fluxed-armor-plating], item: [ra-fluxed-armor-plating], item: [ra-fluxed-armor-plating]]
-        - [item: [ra-fluxed-armor-plating], null, item: [ra-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], item: [ra2-fluxed-armor-plating], item: [ra2-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], null, item: [ra2-fluxed-armor-plating]]
       result:
-        item: [ra-armor-helmet]
-  ra-armor-chestplate:
+        item: [ra2-armor-helmet]
+  ra2-armor-chestplate:
     results:
-      - item: ra-armor-chestplate
+      - item: ra2-armor-chestplate
     ingredients:
-      - item: ra-fluxed-armor-plating
+      - item: ra2-fluxed-armor-plating
     data:
       rows:
-        - [item: [ra-fluxed-armor-plating], null, item: [ra-fluxed-armor-plating]]
-        - [item: [ra-fluxed-armor-plating], item: [ra-fluxed-armor-plating], item: [ra-fluxed-armor-plating]]
-        - [item: [ra-fluxed-armor-plating], item: [ra-fluxed-armor-plating], item: [ra-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], null, item: [ra2-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], item: [ra2-fluxed-armor-plating], item: [ra2-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], item: [ra2-fluxed-armor-plating], item: [ra2-fluxed-armor-plating]]
       result:
-        item: [ra-armor-chestplate]
-  ra-armor-leggings:
+        item: [ra2-armor-chestplate]
+  ra2-armor-leggings:
     results:
-      - item: ra-armor-leggings
+      - item: ra2-armor-leggings
     ingredients:
-      - item: ra-fluxed-armor-plating
+      - item: ra2-fluxed-armor-plating
     data:
       rows:
-        - [item: [ra-fluxed-armor-plating], item: [ra-fluxed-armor-plating], item: [ra-fluxed-armor-plating]]
-        - [item: [ra-fluxed-armor-plating], null, item: [ra-fluxed-armor-plating]]
-        - [item: [ra-fluxed-armor-plating], null, item: [ra-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], item: [ra2-fluxed-armor-plating], item: [ra2-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], null, item: [ra2-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], null, item: [ra2-fluxed-armor-plating]]
       result:
-        item: [ra-armor-leggings]
-  ra-armor-boots:
+        item: [ra2-armor-leggings]
+  ra2-armor-boots:
     results:
-      - item: ra-armor-boots
+      - item: ra2-armor-boots
     ingredients:
-      - item: ra-fluxed-armor-plating
+      - item: ra2-fluxed-armor-plating
     data:
       rows:
         - []
-        - [item: [ra-fluxed-armor-plating], null, item: [ra-fluxed-armor-plating]]
-        - [item: [ra-fluxed-armor-plating], null, item: [ra-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], null, item: [ra2-fluxed-armor-plating]]
+        - [item: [ra2-fluxed-armor-plating], null, item: [ra2-fluxed-armor-plating]]
       result:
-        item: [ra-armor-boots]
-  ra-dust-fluxed-electrum-using-electrum:
+        item: [ra2-armor-boots]
+  ra2-dust-fluxed-electrum-using-electrum:
     results:
-      - item: ra-dust-fluxed-electrum
+      - item: ra2-dust-fluxed-electrum
     ingredients:
       - item: tf2-dust-electrum
       - item: tf2-bucket-redstone
@@ -10358,11 +10358,11 @@ recipes:
         - [item: [tf2-dust-electrum], item: [tf2-dust-electrum]]
         - [item: [tf2-bucket-redstone]]
       result:
-        item: [ra-dust-fluxed-electrum]
+        item: [ra2-dust-fluxed-electrum]
         amount: 2
-  ra-dust-fluxed-electrum-using-gold-and-silver:
+  ra2-dust-fluxed-electrum-using-gold-and-silver:
     results:
-      - item: ra-dust-fluxed-electrum
+      - item: ra2-dust-fluxed-electrum
     ingredients:
       - item: tf2-dust-gold
       - item: tf2-dust-silver
@@ -10373,11 +10373,11 @@ recipes:
         - [item: [tf2-dust-gold], item: [tf2-dust-silver]]
         - [item: [tf2-bucket-redstone]]
       result:
-        item: [ra-dust-fluxed-electrum]
+        item: [ra2-dust-fluxed-electrum]
         amount: 2
-  ra-flux-crystal:
+  ra2-flux-crystal:
     results:
-      - item: ra-flux-crystal
+      - item: ra2-flux-crystal
     ingredients:
       - item: mc-diamond
       - item: tf2-bucket-redstone
@@ -10387,87 +10387,87 @@ recipes:
         - [item: [mc-diamond], item: [mc-diamond]]
         - [item: [tf2-bucket-redstone]]
       result:
-        item: [ra-flux-crystal]
+        item: [ra2-flux-crystal]
         amount: 2
-  ra-flux-crystal-from-block:
+  ra2-flux-crystal-from-block:
     results:
-      - item: ra-flux-crystal
+      - item: ra2-flux-crystal
     ingredients:
-      - item: ra-storage-block-flux-crystal
+      - item: ra2-storage-block-flux-crystal
     data:
       shapeless: true
       rows:
         - []
-        - [null, item: [ra-storage-block-flux-crystal]]
+        - [null, item: [ra2-storage-block-flux-crystal]]
       result:
-        item: [ra-flux-crystal]
+        item: [ra2-flux-crystal]
         amount: 9
-  ra-fluxed-armor-plating:
+  ra2-fluxed-armor-plating:
     results:
-      - item: ra-fluxed-armor-plating
+      - item: ra2-fluxed-armor-plating
     ingredients:
-      - item: ra-plate-fluxed-electrum
-      - item: ra-flux-crystal
+      - item: ra2-plate-fluxed-electrum
+      - item: ra2-flux-crystal
     data:
       rows:
-        - [null, item: [ra-plate-fluxed-electrum]]
-        - [item: [ra-plate-fluxed-electrum], item: [ra-flux-crystal], item: [ra-plate-fluxed-electrum]]
-        - [null, item: [ra-plate-fluxed-electrum]]
+        - [null, item: [ra2-plate-fluxed-electrum]]
+        - [item: [ra2-plate-fluxed-electrum], item: [ra2-flux-crystal], item: [ra2-plate-fluxed-electrum]]
+        - [null, item: [ra2-plate-fluxed-electrum]]
       result:
-        item: [ra-fluxed-armor-plating]
-  ra-gear-fluxed-electrum:
+        item: [ra2-fluxed-armor-plating]
+  ra2-gear-fluxed-electrum:
     results:
-      - item: ra-gear-fluxed-electrum
+      - item: ra2-gear-fluxed-electrum
     ingredients:
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-ingot-fluxed-electrum
     data:
       rows:
-        - [null, item: [ra-ingot-fluxed-electrum]]
-        - [item: [ra-ingot-fluxed-electrum], null, item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-ingot-fluxed-electrum]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], null, item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
       result:
-        item: [ra-gear-fluxed-electrum]
-  ra-ingot-fluxed-electrum-from-block:
+        item: [ra2-gear-fluxed-electrum]
+  ra2-ingot-fluxed-electrum-from-block:
     results:
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-ingot-fluxed-electrum
     ingredients:
-      - item: ra-storage-block-fluxed-electrum
+      - item: ra2-storage-block-fluxed-electrum
     data:
       shapeless: true
       rows:
         - []
-        - [null, item: [ra-storage-block-fluxed-electrum]]
+        - [null, item: [ra2-storage-block-fluxed-electrum]]
       result:
-        item: [ra-ingot-fluxed-electrum]
+        item: [ra2-ingot-fluxed-electrum]
         amount: 9
-  ra-ingot-fluxed-electrum-from-nuggets:
+  ra2-ingot-fluxed-electrum-from-nuggets:
     results:
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-ingot-fluxed-electrum
     ingredients:
-      - item: ra-nugget-fluxed-electrum
+      - item: ra2-nugget-fluxed-electrum
     data:
       rows:
-        - [item: [ra-nugget-fluxed-electrum], item: [ra-nugget-fluxed-electrum], item: [ra-nugget-fluxed-electrum]]
-        - [item: [ra-nugget-fluxed-electrum], item: [ra-nugget-fluxed-electrum], item: [ra-nugget-fluxed-electrum]]
-        - [item: [ra-nugget-fluxed-electrum], item: [ra-nugget-fluxed-electrum], item: [ra-nugget-fluxed-electrum]]
+        - [item: [ra2-nugget-fluxed-electrum], item: [ra2-nugget-fluxed-electrum], item: [ra2-nugget-fluxed-electrum]]
+        - [item: [ra2-nugget-fluxed-electrum], item: [ra2-nugget-fluxed-electrum], item: [ra2-nugget-fluxed-electrum]]
+        - [item: [ra2-nugget-fluxed-electrum], item: [ra2-nugget-fluxed-electrum], item: [ra2-nugget-fluxed-electrum]]
       result:
-        item: [ra-ingot-fluxed-electrum]
-  ra-nugget-fluxed-electrum:
+        item: [ra2-ingot-fluxed-electrum]
+  ra2-nugget-fluxed-electrum:
     results:
-      - item: ra-nugget-fluxed-electrum
+      - item: ra2-nugget-fluxed-electrum
     ingredients:
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-ingot-fluxed-electrum
     data:
       shapeless: true
       rows:
         - []
-        - [null, item: [ra-ingot-fluxed-electrum]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
       result:
-        item: [ra-nugget-fluxed-electrum]
+        item: [ra2-nugget-fluxed-electrum]
         amount: 9
-  ra-obsidian-rod:
+  ra2-obsidian-rod:
     results:
-      - item: ra-obsidian-rod
+      - item: ra2-obsidian-rod
     ingredients:
       - item: mc-blaze-powder
       - item: tf2-dust-obsidian
@@ -10477,218 +10477,218 @@ recipes:
         - [null, item: [mc-blaze-powder]]
         - [item: [tf2-dust-obsidian]]
       result:
-        item: [ra-obsidian-rod]
-  ra-obsidian-rod-flux-infused:
+        item: [ra2-obsidian-rod]
+  ra2-obsidian-rod-flux-infused:
     results:
-      - item: ra-obsidian-rod-flux-infused
+      - item: ra2-obsidian-rod-flux-infused
     ingredients:
-      - item: ra-obsidian-rod
-      - item: ra-flux-crystal
+      - item: ra2-obsidian-rod
+      - item: ra2-flux-crystal
     data:
       rows:
-        - [null, null, item: [ra-flux-crystal]]
-        - [null, item: [ra-obsidian-rod]]
-        - [item: [ra-flux-crystal]]
+        - [null, null, item: [ra2-flux-crystal]]
+        - [null, item: [ra2-obsidian-rod]]
+        - [item: [ra2-flux-crystal]]
       result:
-        item: [ra-obsidian-rod-flux-infused]
-  ra-storage-block-flux-crystal:
+        item: [ra2-obsidian-rod-flux-infused]
+  ra2-storage-block-flux-crystal:
     results:
-      - item: ra-storage-block-flux-crystal
+      - item: ra2-storage-block-flux-crystal
     ingredients:
-      - item: ra-flux-crystal
+      - item: ra2-flux-crystal
     data:
       rows:
-        - [item: [ra-flux-crystal], item: [ra-flux-crystal], item: [ra-flux-crystal]]
-        - [item: [ra-flux-crystal], item: [ra-flux-crystal], item: [ra-flux-crystal]]
-        - [item: [ra-flux-crystal], item: [ra-flux-crystal], item: [ra-flux-crystal]]
+        - [item: [ra2-flux-crystal], item: [ra2-flux-crystal], item: [ra2-flux-crystal]]
+        - [item: [ra2-flux-crystal], item: [ra2-flux-crystal], item: [ra2-flux-crystal]]
+        - [item: [ra2-flux-crystal], item: [ra2-flux-crystal], item: [ra2-flux-crystal]]
       result:
-        item: [ra-storage-block-flux-crystal]
-  ra-storage-block-fluxed-electrum:
+        item: [ra2-storage-block-flux-crystal]
+  ra2-storage-block-fluxed-electrum:
     results:
-      - item: ra-storage-block-fluxed-electrum
+      - item: ra2-storage-block-fluxed-electrum
     ingredients:
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-ingot-fluxed-electrum
     data:
       rows:
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum]]
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum]]
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum]]
       result:
-        item: [ra-storage-block-fluxed-electrum]
-  ra-tool-axe:
+        item: [ra2-storage-block-fluxed-electrum]
+  ra2-tool-axe:
     results:
-      - item: ra-tool-axe
+      - item: ra2-tool-axe
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
     data:
       rows:
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum]]
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-obsidian-rod-flux-infused]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-obsidian-rod-flux-infused]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
       result:
-        item: [ra-tool-axe]
-  ra-tool-excavator:
+        item: [ra2-tool-axe]
+  ra2-tool-excavator:
     results:
-      - item: ra-tool-excavator
+      - item: ra2-tool-excavator
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
     data:
       rows:
-        - [null, item: [ra-ingot-fluxed-electrum]]
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-obsidian-rod-flux-infused], item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-obsidian-rod-flux-infused], item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
       result:
-        item: [ra-tool-excavator]
-  ra-tool-fishing-rod:
+        item: [ra2-tool-excavator]
+  ra2-tool-fishing-rod:
     results:
-      - item: ra-tool-fishing-rod
+      - item: ra2-tool-fishing-rod
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
       - item: mc-string
     data:
       rows:
-        - [null, null, item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-ingot-fluxed-electrum], item: [mc-string]]
-        - [item: [ra-obsidian-rod-flux-infused], null, item: [mc-string]]
+        - [null, null, item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-ingot-fluxed-electrum], item: [mc-string]]
+        - [item: [ra2-obsidian-rod-flux-infused], null, item: [mc-string]]
       result:
-        item: [ra-tool-fishing-rod]
-  ra-tool-hammer:
+        item: [ra2-tool-fishing-rod]
+  ra2-tool-hammer:
     results:
-      - item: ra-tool-hammer
+      - item: ra2-tool-hammer
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
     data:
       rows:
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum]]
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-obsidian-rod-flux-infused], item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-obsidian-rod-flux-infused], item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
       result:
-        item: [ra-tool-hammer]
-  ra-tool-pickaxe:
+        item: [ra2-tool-hammer]
+  ra2-tool-pickaxe:
     results:
-      - item: ra-tool-pickaxe
+      - item: ra2-tool-pickaxe
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
     data:
       rows:
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
       result:
-        item: [ra-tool-pickaxe]
-  ra-tool-shovel:
+        item: [ra2-tool-pickaxe]
+  ra2-tool-shovel:
     results:
-      - item: ra-tool-shovel
+      - item: ra2-tool-shovel
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
     data:
       rows:
-        - [null, item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
       result:
-        item: [ra-tool-shovel]
-  ra-tool-sickle:
+        item: [ra2-tool-shovel]
+  ra2-tool-sickle:
     results:
-      - item: ra-tool-sickle
+      - item: ra2-tool-sickle
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
     data:
       rows:
-        - [null, item: [ra-ingot-fluxed-electrum]]
-        - [null, null, item: [ra-ingot-fluxed-electrum]]
-        - [item: [ra-obsidian-rod-flux-infused], item: [ra-ingot-fluxed-electrum]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
+        - [null, null, item: [ra2-ingot-fluxed-electrum]]
+        - [item: [ra2-obsidian-rod-flux-infused], item: [ra2-ingot-fluxed-electrum]]
       result:
-        item: [ra-tool-sickle]
-  ra-tool-wrench:
+        item: [ra2-tool-sickle]
+  ra2-tool-wrench:
     results:
-      - item: ra-tool-wrench
+      - item: ra2-tool-wrench
     ingredients:
-      - item: ra-ingot-fluxed-electrum
-      - item: ra-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
     data:
       rows:
-        - [item: [ra-ingot-fluxed-electrum], null, item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
-        - [null, item: [ra-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], null, item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
       result:
-        item: [ra-tool-wrench]
-  ra-weapon-battlewrench:
+        item: [ra2-tool-wrench]
+  ra2-weapon-battlewrench:
     results:
-      - item: ra-weapon-battlewrench
+      - item: ra2-weapon-battlewrench
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
-      - item: ra-gear-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
+      - item: ra2-gear-fluxed-electrum
     data:
       rows:
-        - [item: [ra-ingot-fluxed-electrum], null, item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-gear-fluxed-electrum]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
+        - [item: [ra2-ingot-fluxed-electrum], null, item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-gear-fluxed-electrum]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
       result:
-        item: [ra-weapon-battlewrench]
-  ra-weapon-bow:
+        item: [ra2-weapon-battlewrench]
+  ra2-weapon-bow:
     results:
-      - item: ra-weapon-bow
+      - item: ra2-weapon-bow
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
       - item: mc-string
     data:
       rows:
-        - [null, item: [ra-ingot-fluxed-electrum], item: [mc-string]]
-        - [item: [ra-obsidian-rod-flux-infused], null, item: [mc-string]]
-        - [null, item: [ra-ingot-fluxed-electrum], item: [mc-string]]
+        - [null, item: [ra2-ingot-fluxed-electrum], item: [mc-string]]
+        - [item: [ra2-obsidian-rod-flux-infused], null, item: [mc-string]]
+        - [null, item: [ra2-ingot-fluxed-electrum], item: [mc-string]]
       result:
-        item: [ra-weapon-bow]
-  ra-weapon-quiver:
+        item: [ra2-weapon-bow]
+  ra2-weapon-quiver:
     results:
-      - item: ra-weapon-quiver
+      - item: ra2-weapon-quiver
     ingredients:
-      - item: ra-ingot-fluxed-electrum
-      - item: ra-flux-crystal
+      - item: ra2-ingot-fluxed-electrum
+      - item: ra2-flux-crystal
       - item: mc-arrow
       - item: mc-string
     data:
       rows:
         - [item: [mc-arrow], item: [mc-arrow]]
-        - [item: [ra-flux-crystal], item: [ra-ingot-fluxed-electrum], item: [mc-string]]
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-flux-crystal], item: [mc-string]]
+        - [item: [ra2-flux-crystal], item: [ra2-ingot-fluxed-electrum], item: [mc-string]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-flux-crystal], item: [mc-string]]
       result:
-        item: [ra-weapon-quiver]
-  ra-weapon-shield:
+        item: [ra2-weapon-quiver]
+  ra2-weapon-shield:
     results:
-      - item: ra-weapon-shield
+      - item: ra2-weapon-shield
     ingredients:
-      - item: ra-ingot-fluxed-electrum
-      - item: ra-flux-crystal
+      - item: ra2-ingot-fluxed-electrum
+      - item: ra2-flux-crystal
     data:
       rows:
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-flux-crystal], item: [ra-ingot-fluxed-electrum]]
-        - [item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum], item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-flux-crystal], item: [ra2-ingot-fluxed-electrum]]
+        - [item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum], item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
       result:
-        item: [ra-weapon-shield]
-  ra-weapon-sword:
+        item: [ra2-weapon-shield]
+  ra2-weapon-sword:
     results:
-      - item: ra-weapon-sword
+      - item: ra2-weapon-sword
     ingredients:
-      - item: ra-obsidian-rod-flux-infused
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-obsidian-rod-flux-infused
+      - item: ra2-ingot-fluxed-electrum
     data:
       rows:
-        - [null, item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-ingot-fluxed-electrum]]
-        - [null, item: [ra-obsidian-rod-flux-infused]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-ingot-fluxed-electrum]]
+        - [null, item: [ra2-obsidian-rod-flux-infused]]
       result:
-        item: [ra-weapon-sword]
+        item: [ra2-weapon-sword]
   vpt-tool-excavator-diamond:
     results:
       - item: vpt-tool-excavator-diamond

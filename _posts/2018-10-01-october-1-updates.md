@@ -9,7 +9,7 @@ On October 1, new updates were released for [Redstone
 Flux](/docs/redstone-flux/), [CoFH Core](/docs/cofh-core-4/), [CoFH
 World](/docs/cofh-world/), the [Thermal Series](/docs/#thermal-series), the
 [Vanilla+ Series](/docs/#vanilla-series) and [Redstone
-Arsenal](/docs/redstone-arsenal/).
+Arsenal](/docs/redstone-arsenal-2/).
 
 [Changelogs on GitHub](https://github.com/CoFH/Version)
 
@@ -62,10 +62,10 @@ Arsenal](/docs/redstone-arsenal/).
   charcoal](/docs/thermal-foundation-2/pulverized-charcoal/) as fuel.
 
 #### Redstone Arsenal
-* [Flux-infused excavator](/docs/redstone-arsenal/flux-infused-excavator)
+* [Flux-infused excavator](/docs/redstone-arsenal-2/flux-infused-excavator)
   * A powerful [excavator](/docs/thermal-foundation-2/excavators/) powered by
     [Redstone Flux](/docs/redstone-flux/).
-* [Fluxed electrum gears](/docs/redstone-arsenal/fluxed-electrum-gear/) no
+* [Fluxed electrum gears](/docs/redstone-arsenal-2/fluxed-electrum-gear/) no
   longer require a center ingot to craft.
 
 #### Vanilla+ Tools

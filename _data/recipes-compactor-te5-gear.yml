@@ -101,16 +101,16 @@ recipes:
         item: [tf2-gear-enderium]
   gear-fluxed-electrum:
     results:
-      - item: ra-gear-fluxed-electrum
+      - item: ra2-gear-fluxed-electrum
     ingredients:
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-ingot-fluxed-electrum
     energy: 4000
     data:
       input:
-        item: [ra-ingot-fluxed-electrum]
+        item: [ra2-ingot-fluxed-electrum]
         amount: 4
       output:
-        item: [ra-gear-fluxed-electrum]
+        item: [ra2-gear-fluxed-electrum]
   gear-gold:
     results:
       - item: tf2-gear-gold

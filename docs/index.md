@@ -22,7 +22,7 @@ Index
 * [Thermal Dynamics 2](/docs/thermal-dynamics-2/) - <span class="uk-text-small uk-text-success">up to date (2.5.5)</span>
 * [Thermal Cultivation](/docs/thermal-cultivation/) - <span class="uk-text-small uk-text-success">up to date (0.3.3)</span>
 * [Thermal Innovation](/docs/thermal-innovation/) - <span class="uk-text-small uk-text-success">up to date (0.3.3)</span>
-* [Redstone Arsenal 2](/docs/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (2.6.3)</span>
+* [Redstone Arsenal 2](/docs/redstone-arsenal-2/) - <span class="uk-text-small uk-text-success">up to date (2.6.3)</span>
 * [Vanilla+ Tools](/docs/vanillaplus-tools/) - <span class="uk-text-small uk-text-success">up to date (1.1.0)</span>
 * [Vanilla+ Satchels](/docs/vanillaplus-satchels/) - <span class="uk-text-small uk-text-success">up to date (1.0.2)</span>
 

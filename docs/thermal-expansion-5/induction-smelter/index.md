@@ -18,7 +18,7 @@ augments:
 recipe-list:
   general:
   - dust-smelting
-  - ra-dust-smelting-fluxed-electrum
+  - ra2-dust-smelting-fluxed-electrum
   - stone-bricks
   - nether-brick
   - hardened-glass

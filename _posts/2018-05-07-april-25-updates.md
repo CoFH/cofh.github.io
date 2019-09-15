@@ -7,7 +7,7 @@ published: true
 
 On April 25, new updates were released for [CoFH Core](/docs/cofh-core-4/), the
 [Thermal Series](/docs/#thermal-series) and [Redstone
-Arsenal](/docs/redstone-arsenal/).
+Arsenal](/docs/redstone-arsenal-2/).
 
 It took a while to update the documentation for these updates, which is why this
 post is also a bit late. The post for the next updates will probably be written
@@ -164,8 +164,8 @@ before the docs are updated.
 * All equipment can now be dyed.
 
 #### Redstone Arsenal
-* [Flux-infused hammers](/docs/redstone-arsenal/flux-infused-hammer/) and
-  [sickles](/docs/redstone-arsenal/flux-infused-sickle/) don't break multiple blocks when
+* [Flux-infused hammers](/docs/redstone-arsenal-2/flux-infused-hammer/) and
+  [sickles](/docs/redstone-arsenal-2/flux-infused-sickle/) don't break multiple blocks when
   sneaking.
 * Flux-infused armor uses slightly more energy when hit.
 

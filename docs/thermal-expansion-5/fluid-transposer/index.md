@@ -43,8 +43,8 @@ recipe-list:
   - td2-itemduct-energy-fast
   - td2-viaduct
   - td2-viaduct-long-range-linking
-  - ra-dust-fluxed-electrum
-  - ra-flux-crystal
+  - ra2-dust-fluxed-electrum
+  - ra2-flux-crystal
   empty:
   - water-from-cactus
   - water-from-sponge

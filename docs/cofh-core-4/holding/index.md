@@ -41,7 +41,7 @@ All equipment added by [Thermal Innovation](/docs/thermal-innovation/) can be
 enchanted to increase their capacity.
 
 ### Redstone Arsenal
-All equipment added by [Redstone Arsenal](/docs/redstone-arsenal/) can be
+All equipment added by [Redstone Arsenal](/docs/redstone-arsenal-2/) can be
 enchanted to hold more energy.
 
 ### Vanilla+ Satchels

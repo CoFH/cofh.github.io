@@ -6,8 +6,8 @@ nav: thermal-innovation
 ![Thermal Innovation logo](/assets/images/modlogos/thermal-innovation.png){:.cofh-mod-page-logo}
 
 
-**Thermal Innovation** is one of the mods in the Thermal Series. It provides
-tools and gadgets that directly increase player power.
+**Thermal Innovation** is a mod for Minecraft 1.12. It adds tools and gadgets
+that directly increase player power.
 
 
 <div class="uk-margin-top uk-button-group">

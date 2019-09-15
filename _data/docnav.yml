@@ -1413,9 +1413,9 @@ thermal-innovation:
               url: alchemical-quiver/
               icon: [8, 23]
 
-redstone-arsenal:
-  title: Redstone Arsenal
-  url: redstone-arsenal/
+redstone-arsenal-2:
+  title: Redstone Arsenal 2
+  url: redstone-arsenal-2/
   sections:
     - groups:
         - title: Flux-Infused Tools
@@ -1514,6 +1514,14 @@ redstone-arsenal:
             - title: Fluxed Armor Plating
               url: fluxed-armor-plating/
               icon: [0, 23]
+
+redstone-arsenal-1.1:
+  title: Redstone Arsenal 1.1
+  url: redstone-arsenal-1.1/
+
+redstone-arsenal-1.0:
+  title: Redstone Arsenal 1.0
+  url: redstone-arsenal-1.0/
 
 vanillaplus-tools:
   title: Vanilla+ Tools

@@ -20,7 +20,7 @@ usage-recipes:
   crafting:
   - tf2-pyrotheum-dust-gold
   - tf2-dust-electrum
-  - ra-dust-fluxed-electrum-using-gold-and-silver
+  - ra2-dust-fluxed-electrum-using-gold-and-silver
   smelting:
   - tf2-ingot-gold-from-dust
   smelter:

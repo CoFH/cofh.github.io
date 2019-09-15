@@ -23,8 +23,8 @@ a similar item, some of which are compatible with the CoFH mods.
 * [Crescent Hammer](/docs/thermal-foundation-2/crescent-hammer/)
 
 ### Redstone Arsenal
-* [Flux-Infused OmniWrench](/docs/redstone-arsenal/flux-infused-omniwrench/)
-* [Flux-Infused BattleWrench](/docs/redstone-arsenal/flux-infused-battlewrench/)
+* [Flux-Infused OmniWrench](/docs/redstone-arsenal-2/flux-infused-omniwrench/)
+* [Flux-Infused BattleWrench](/docs/redstone-arsenal-2/flux-infused-battlewrench/)
 
 
 Usage

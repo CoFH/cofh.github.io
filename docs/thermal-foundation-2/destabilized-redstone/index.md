@@ -21,17 +21,17 @@ usage-recipes:
   crafting:
   - tf2-redstone-from-fluid
   - tf2-dust-signalum
-  - ra-dust-fluxed-electrum-using-electrum
-  - ra-dust-fluxed-electrum-using-gold-and-silver
-  - ra-flux-crystal
+  - ra2-dust-fluxed-electrum-using-electrum
+  - ra2-dust-fluxed-electrum-using-gold-and-silver
+  - ra2-flux-crystal
   transposer-fill:
   - bucket-redstone
   - redstone-from-fluid
   - td2-fluxduct-reinforced
   - td2-fluxduct-signalum
   - td2-fluxduct-resonant
-  - ra-dust-fluxed-electrum
-  - ra-flux-crystal
+  - ra2-dust-fluxed-electrum
+  - ra2-flux-crystal
 ---
 
 ![Destabilized redstone](/assets/images/thermal-foundation/destabilized-redstone.gif){:style="height: 128px"}

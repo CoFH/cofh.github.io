@@ -58,7 +58,7 @@ dynamo](/docs/thermal-expansion-5/numismatic-dynamo/) with a lapidary calibratio
 | [Prismarine Shard](https://minecraft.gamepedia.com/Prismarine_Shard) | 150,000 RF |
 | [Emerald](https://minecraft.gamepedia.com/Emerald) | 200,000 RF |
 | [Diamond](https://minecraft.gamepedia.com/Diamond) | 1,200,000 RF |
-| [Flux Crystal](/docs/redstone-arsenal/flux-crystal/) | 1,500,000 RF |
+| [Flux Crystal](/docs/redstone-arsenal-2/flux-crystal/) | 1,500,000 RF |
 | Amethyst ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
 | Ruby ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
 | Peridot ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |

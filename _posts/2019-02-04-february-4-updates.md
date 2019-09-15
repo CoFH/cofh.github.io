@@ -7,7 +7,7 @@ published: true
 
 On February 4, new updates were released for [CoFH Core](/docs/cofh-core-4/), the
 [Thermal Series](/docs/#thermal-series) and [Redstone
-Arsenal](/docs/redstone-arsenal/). These are minor updates with bugfixes and QoL
+Arsenal](/docs/redstone-arsenal-2/). These are minor updates with bugfixes and QoL
 improvements.
 
 #### General

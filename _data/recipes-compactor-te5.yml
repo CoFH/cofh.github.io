@@ -130,15 +130,15 @@ recipes:
         item: [tf2-plate-enderium]
   plate-fluxed-electrum:
     results:
-      - item: ra-plate-fluxed-electrum
+      - item: ra2-plate-fluxed-electrum
     ingredients:
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-ingot-fluxed-electrum
     energy: 4000
     data:
       input:
-        item: [ra-ingot-fluxed-electrum]
+        item: [ra2-ingot-fluxed-electrum]
       output:
-        item: [ra-plate-fluxed-electrum]
+        item: [ra2-plate-fluxed-electrum]
   plate-gold:
     results:
       - item: tf2-plate-gold

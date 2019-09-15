@@ -195,15 +195,15 @@ recipes:
         item: [tf2-dust-enderium]
   dust-fluxed-electrum:
     results:
-      - item: ra-dust-fluxed-electrum
+      - item: ra2-dust-fluxed-electrum
     ingredients:
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-ingot-fluxed-electrum
     energy: 2000
     data:
       input:
-        item: [ra-ingot-fluxed-electrum]
+        item: [ra2-ingot-fluxed-electrum]
       primary-output:
-        item: [ra-dust-fluxed-electrum]
+        item: [ra2-dust-fluxed-electrum]
   dust-gold:
     results:
       - item: tf2-dust-gold

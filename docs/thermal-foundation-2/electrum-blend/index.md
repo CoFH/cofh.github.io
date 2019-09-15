@@ -13,14 +13,14 @@ recipes:
 usage-recipes:
   crafting:
   - tf2-hardened-glass-electrum
-  - ra-dust-fluxed-electrum-using-electrum
+  - ra2-dust-fluxed-electrum-using-electrum
   smelting:
   - tf2-ingot-electrum-from-dust
   smelter:
   - dust-smelting-electrum
   - hardened-glass-electrum
   transposer-fill:
-  - ra-dust-fluxed-electrum
+  - ra2-dust-fluxed-electrum
   centrifuge:
   - dust-electrum
 ---

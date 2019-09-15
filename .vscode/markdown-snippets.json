@@ -29,7 +29,7 @@
 	},
 	"CoFH: RA link": {
 		"prefix": "clra",
-		"body": "[$1](/docs/redstone-arsenal/$2)$0"
+		"body": "[$1](/docs/redstone-arsenal-2/$2)$0"
 	},
 	"CoFH: recipe table (obtaining)": {
 		"prefix": "crto",

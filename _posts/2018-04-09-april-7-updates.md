@@ -9,7 +9,7 @@ On April 7, new updates were released for [CoFH Core](/docs/cofh-core-4/),
 [Thermal Foundation](/docs/thermal-foundation-2/), [Thermal
 Expansion](/docs/thermal-expansion-5/), [Thermal
 Dynamics](/docs/thermal-dynamics-2/) and [Redstone
-Arsenal](/docs/redstone-arsenal/). The first version of [Thermal
+Arsenal](/docs/redstone-arsenal-2/). The first version of [Thermal
 Innovation](/docs/thermal-innovation/) was also released.
 
 #### General
@@ -59,7 +59,7 @@ Innovation](/docs/thermal-innovation/) was also released.
   [compression dynamo](/docs/thermal-expansion-5/compression-dynamo/), instead of 20,000 RF.
 
 #### Redstone Arsenal
-* [Flux-infused shields](/docs/redstone-arsenal/flux-infused-shield/) now look a lot more like
+* [Flux-infused shields](/docs/redstone-arsenal-2/flux-infused-shield/) now look a lot more like
   the vanilla shield.
 
 

@@ -7713,17 +7713,17 @@ recipes:
       secondary-output:
         item: [tf2-slag]
       secondary-chance: 10
-  ra-dust-smelting-fluxed-electrum:
+  ra2-dust-smelting-fluxed-electrum:
     results:
-      - item: ra-ingot-fluxed-electrum
+      - item: ra2-ingot-fluxed-electrum
     ingredients:
-      - item: ra-dust-fluxed-electrum
+      - item: ra2-dust-fluxed-electrum
       - item: mc-sand
     energy: 4000
     data:
       secondary-input:
         item: [mc-sand]
       primary-input:
-        item: [ra-dust-fluxed-electrum]
+        item: [ra2-dust-fluxed-electrum]
       primary-output:
-        item: [ra-ingot-fluxed-electrum]
+        item: [ra2-ingot-fluxed-electrum]
