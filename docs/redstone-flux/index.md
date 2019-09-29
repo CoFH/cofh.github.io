@@ -16,9 +16,3 @@ devices that work with Redstone Flux.
 
 See [Redstone Flux: A Primer](/docs/redstone-flux/redstone-flux-a-primer/) for
 an in-universe explanation of Redstone Flux.
-
-
-<div class="uk-margin-top uk-button-group">
-    <a class="uk-button uk-button-large uk-button-success uk-text-bold" href="/downloads/">Download</a>
-    <a class="uk-button uk-button-large" href="https://github.com/CoFH/RedstoneFlux">GitHub</a>
-</div>

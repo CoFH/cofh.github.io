@@ -19,9 +19,3 @@ When Thermal Foundation 2 is installed, several new features such as ores are
 generated in the world using [CoFH World](/docs/1.12/cofh-world/). This world
 generation can be tweaked or disabled using CoFH World's
 [configuration](/docs/1.12/cofh-world/world-generator-configuration/).
-
-
-<div class="uk-margin-top uk-button-group">
-    <a class="uk-button uk-button-large uk-button-success uk-text-bold" href="/downloads/">Download</a>
-    <a class="uk-button uk-button-large" href="https://github.com/CoFH/ThermalFoundation">GitHub</a>
-</div>

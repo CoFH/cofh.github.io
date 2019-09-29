@@ -1,50 +1,44 @@
 ---
 title: Downloads
 layout: simple_info
-redirect_from: /downloads.html
+redirect_from:
+  - /downloads.html
+  - /license/
+  - /permissions.html
 ---
 
-This page lists download links for all Team CoFH mods. For modpack permissions,
-see [Permissions](/permissions/).
+This page lists download links for all Team CoFH mods.
 
-Before installing a mod, *always back up your world!* Especially when
-it's a development build.
+* Yes, you can use these in your modpack.
+* Before installing, *always back up your world!* Especially when it's a
+  development build.
+* Report bugs on the [issue tracker](https://github.com/CoFH/Feedback).
+  Questions and suggestions should go to the [Discord
+  server](https://discord.gg/uRKrnbH).
 
-Report bugs and suggest new features on the [GitHub issue
-tracker](https://github.com/CoFH/Feedback). Ask questions on the [Discord
-server](https://discord.gg/uRKrnbH).
+<div class="uk-accordion" data-uk-accordion="{showfirst: true, collapse: true}">
+    <h2 class="uk-accordion-title">Minecraft 1.12</h2>
+    <div class="uk-accordion-content">
+        {% include download-items.html minecraft="1.12" %}
+    </div>
 
-<ul class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin data-uk-grid-match="{target: '.uk-panel'}">
-    {% for mod in site.data.download-links %}
-        <li id="{{mod.tag}}">
-            <div class="uk-panel uk-panel-box">
-                {% if mod.logo %}
-                    <div class="cofh-download-logo" style="background-image: url(/assets/images/{{ mod.logo }})" title="{{mod.name}}"></div>
-                {% else %}
-                    <h3>{{mod.name}}</h3>
-                {% endif %}
+    <h2 class="uk-accordion-title">Minecraft 1.11</h2>
+    <div class="uk-accordion-content">
+        {% include download-items.html minecraft="1.11" %}
+    </div>
 
-                <h4><strong>Requirements:</strong></h4>
-                <ul>
-                    <li>Minecraft {{ mod.minecraft }}</li>
-                    {% for req in mod.requirements %}
-                        <li><a href="{{req.link}}">{{ req.name }}</a> {{ req.suffix }}</li>
-                    {% endfor %}
-                </ul>
+    <h2 class="uk-accordion-title">Minecraft 1.10</h2>
+    <div class="uk-accordion-content">
+        {% include download-items.html minecraft="1.10" %}
+    </div>
 
-                {% if mod.note %}
-                    <p>{{ mod.note }}</p>
-                {% endif %}
+    <h2 class="uk-accordion-title">Minecraft 1.7</h2>
+    <div class="uk-accordion-content">
+        {% include download-items.html minecraft="1.7" %}
+    </div>
 
-                <div class="uk-button-group uk-margin-top">
-                    <a class="uk-button uk-button-small uk-button-success uk-text-bold" href="{{mod.links.curse}}">Download on Curse</a>
-                    <a class="uk-button uk-button-small" href="{{mod.links.curseforge}}">Project page</a>
-
-                    {% if mod.links.changelog %}
-                        <a class="uk-button uk-button-small" href="{{mod.links.changelog}}">Changelog</a>
-                    {% endif %}
-                </div>
-            </div>
-        </li>
-    {% endfor %}
-</ul>
+    <h2 class="uk-accordion-title">Minecraft 1.6</h2>
+    <div class="uk-accordion-content">
+        {% include download-items.html minecraft="1.6" %}
+    </div>
+</div>

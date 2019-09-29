@@ -14,9 +14,3 @@ features to generate in worlds.
 
 [Thermal Foundation](/docs/1.12/thermal-foundation-2/) uses this mod for its world
 generation by default.
-
-
-<div class="uk-margin-top uk-button-group">
-    <a class="uk-button uk-button-large uk-button-success uk-text-bold" href="/downloads/">Download</a>
-    <a class="uk-button uk-button-large" href="https://github.com/CoFH/CoFHWorld">GitHub</a>
-</div>
