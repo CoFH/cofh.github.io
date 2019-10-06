@@ -53,10 +53,10 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=false %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=false %}
 
 
 Usage

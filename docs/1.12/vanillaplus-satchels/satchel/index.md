@@ -15,12 +15,12 @@ image:
   file: vanillaplus-satchels/satchel-void.gif
 recipes:
   crafting:
-  - vps-satchel-basic
-  - vps-satchel-iron
-  - vps-satchel-gold
-  - vps-satchel-diamond
-  - vps-satchel-emerald
-  - vps-satchel-void
+  - vps-1-12-satchel-basic
+  - vps-1-12-satchel-iron
+  - vps-1-12-satchel-gold
+  - vps-1-12-satchel-diamond
+  - vps-1-12-satchel-emerald
+  - vps-1-12-satchel-void
 redirect_from:
 - /docs/vanillaplus-satchels/satchel/
 ---

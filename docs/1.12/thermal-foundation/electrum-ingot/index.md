@@ -10,10 +10,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/electrum-ingot/
 recipes:
   smelting:
-  - tf2-ingot-electrum-from-dust
+  - tf-1-12-ingot-electrum-from-dust
   crafting:
-  - tf2-ingot-electrum-from-nuggets
-  - tf2-ingot-electrum-from-block
+  - tf-1-12-ingot-electrum-from-nuggets
+  - tf-1-12-ingot-electrum-from-block
   smelter:
   - dust-smelting-electrum
   - ingot-electrum-from-dust-gold-and-dust-silver
@@ -41,51 +41,51 @@ recipes:
   - recycling-horse-armor-electrum
 usage-recipes:
   crafting:
-  - tf2-nugget-electrum
-  - tf2-gear-electrum
-  - tf2-storage-block-electrum
-  - tf2-redstone-coil-electrum
-  - tf2-upgrade-kit-reinforced
-  - te5-dynamo-enervation
-  - te5-flux-capacitor-reinforced
-  - te5-reservoir-reinforced
-  - te5-reservoir-signalum
-  - te5-satchel-reinforced
-  - te5-augment-dynamo-throttle
-  - td2-fluxduct-reinforced-empty
-  - td2-fluxduct-super-empty
-  - td2-fluiduct-energy-three
-  - td2-itemduct-energy-three
-  - td2-itemduct-energy-fast-three
-  - td2-servo-reinforced
-  - td2-servo-reinforced-upgrade
-  - td2-filter-reinforced
-  - td2-filter-reinforced-upgrade
-  - td2-retriever-reinforced
-  - td2-retriever-reinforced-upgrade
-  - tc-watering-can-reinforced
-  - ti-fluxbore-reinforced
-  - ti-fluxsaw-reinforced
-  - ti-fluxomagnet-reinforced
-  - ti-hypoinfuser-reinforced
-  - ti-alchemical-quiver-reinforced
-  - tf2-tool-pickaxe-electrum
-  - tf2-tool-shovel-electrum
-  - tf2-tool-axe-electrum
-  - tf2-tool-hoe-electrum
-  - tf2-tool-fishing-rod-electrum
-  - tf2-tool-shears-electrum
-  - tf2-tool-hammer-electrum
-  - tf2-tool-excavator-electrum
-  - tf2-tool-sickle-electrum
-  - tf2-weapon-sword-electrum
-  - tf2-weapon-bow-electrum
-  - tf2-weapon-shield-electrum
-  - tf2-armor-helmet-electrum
-  - tf2-armor-chestplate-electrum
-  - tf2-armor-leggings-electrum
-  - tf2-armor-boots-electrum
-  - tf2-horse-armor-electrum
+  - tf-1-12-nugget-electrum
+  - tf-1-12-gear-electrum
+  - tf-1-12-storage-block-electrum
+  - tf-1-12-redstone-coil-electrum
+  - tf-1-12-upgrade-kit-reinforced
+  - te-1-12-dynamo-enervation
+  - te-1-12-flux-capacitor-reinforced
+  - te-1-12-reservoir-reinforced
+  - te-1-12-reservoir-signalum
+  - te-1-12-satchel-reinforced
+  - te-1-12-augment-dynamo-throttle
+  - td-1-12-fluxduct-reinforced-empty
+  - td-1-12-fluxduct-super-empty
+  - td-1-12-fluiduct-energy-three
+  - td-1-12-itemduct-energy-three
+  - td-1-12-itemduct-energy-fast-three
+  - td-1-12-servo-reinforced
+  - td-1-12-servo-reinforced-upgrade
+  - td-1-12-filter-reinforced
+  - td-1-12-filter-reinforced-upgrade
+  - td-1-12-retriever-reinforced
+  - td-1-12-retriever-reinforced-upgrade
+  - tc-1-12-watering-can-reinforced
+  - ti-1-12-fluxbore-reinforced
+  - ti-1-12-fluxsaw-reinforced
+  - ti-1-12-fluxomagnet-reinforced
+  - ti-1-12-hypoinfuser-reinforced
+  - ti-1-12-alchemical-quiver-reinforced
+  - tf-1-12-tool-pickaxe-electrum
+  - tf-1-12-tool-shovel-electrum
+  - tf-1-12-tool-axe-electrum
+  - tf-1-12-tool-hoe-electrum
+  - tf-1-12-tool-fishing-rod-electrum
+  - tf-1-12-tool-shears-electrum
+  - tf-1-12-tool-hammer-electrum
+  - tf-1-12-tool-excavator-electrum
+  - tf-1-12-tool-sickle-electrum
+  - tf-1-12-weapon-sword-electrum
+  - tf-1-12-weapon-bow-electrum
+  - tf-1-12-weapon-shield-electrum
+  - tf-1-12-armor-helmet-electrum
+  - tf-1-12-armor-chestplate-electrum
+  - tf-1-12-armor-leggings-electrum
+  - tf-1-12-armor-boots-electrum
+  - tf-1-12-horse-armor-electrum
   pulverizer:
   - dust-electrum
   compactor:
@@ -120,7 +120,7 @@ smelter](/docs/1.12/thermal-expansion/induction-smelter/).
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -130,13 +130,13 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}

@@ -12,12 +12,12 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/viaduct/
 recipes:
   crafting:
-  - td2-viaduct-frame
+  - td-1-12-viaduct-frame
   transposer-fill:
-  - td2-viaduct
+  - td-1-12-viaduct
 usage-recipes:
   transposer-fill:
-  - td2-viaduct-long-range-linking
+  - td-1-12-viaduct-long-range-linking
 ---
 
 > Whoosh!
@@ -37,7 +37,7 @@ A placed viaduct can be instantly picked up by dismantling it with a
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill %}
 
 
 Usage
@@ -65,4 +65,4 @@ viaducts](/docs/1.12/thermal-dynamics/long-range-viaduct/).
 
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

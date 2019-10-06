@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-tin/
 recipes:
   crafting:
-  - tf2-storage-block-tin
+  - tf-1-12-storage-block-tin
 usage-recipes:
   crafting:
-  - tf2-ingot-tin-from-block
+  - tf-1-12-ingot-tin-from-block
 ---
 
 **Blocks of tin** are blocks made from [tin ingots](/docs/1.12/thermal-foundation/tin-ingot/).

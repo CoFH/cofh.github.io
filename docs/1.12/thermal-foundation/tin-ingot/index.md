@@ -10,14 +10,14 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/tin-ingot/
 recipes:
   smelting:
-  - tf2-ore-processing-tin
-  - tf2-ingot-tin-from-dust
+  - tf-1-12-ore-processing-tin
+  - tf-1-12-ingot-tin-from-dust
   crafting:
-  - tf2-pyrotheum-ore-tin
-  - tf2-petrotheum-pyrotheum-ore-tin
-  - tf2-pyrotheum-dust-tin
-  - tf2-ingot-tin-from-nuggets
-  - tf2-ingot-tin-from-block
+  - tf-1-12-pyrotheum-ore-tin
+  - tf-1-12-petrotheum-pyrotheum-ore-tin
+  - tf-1-12-pyrotheum-dust-tin
+  - tf-1-12-ingot-tin-from-nuggets
+  - tf-1-12-ingot-tin-from-block
   smelter:
   - ore-processing-sand-tin
   - ore-processing-rich-slag-tin
@@ -44,43 +44,43 @@ recipes:
   - recycling-horse-armor-tin
 usage-recipes:
   crafting:
-  - tf2-petrotheum-ingot-tin
-  - tf2-nugget-tin
-  - tf2-gear-tin
-  - tf2-storage-block-tin
-  - tf2-crescent-hammer
-  - te5-machine-crafter
-  - te5-frame-device
-  - te5-device-item-buffer
-  - te5-device-item-collector
-  - te5-dynamo-compression
-  - te5-flux-capacitor-hardened
-  - te5-reservoir-basic
-  - te5-cache-basic
-  - te5-strongbox-basic
-  - te5-satchel-basic-using-leather
-  - te5-satchel-basic-using-rockwool
-  - td2-itemduct
-  - td2-itemduct-opaque
-  - ti-fluxbore-basic
-  - ti-fluxsaw-basic
-  - tf2-tool-pickaxe-tin
-  - tf2-tool-shovel-tin
-  - tf2-tool-axe-tin
-  - tf2-tool-hoe-tin
-  - tf2-tool-fishing-rod-tin
-  - tf2-tool-shears-tin
-  - tf2-tool-hammer-tin
-  - tf2-tool-excavator-tin
-  - tf2-tool-sickle-tin
-  - tf2-weapon-sword-tin
-  - tf2-weapon-bow-tin
-  - tf2-weapon-shield-tin
-  - tf2-armor-helmet-tin
-  - tf2-armor-chestplate-tin
-  - tf2-armor-leggings-tin
-  - tf2-armor-boots-tin
-  - tf2-horse-armor-tin
+  - tf-1-12-petrotheum-ingot-tin
+  - tf-1-12-nugget-tin
+  - tf-1-12-gear-tin
+  - tf-1-12-storage-block-tin
+  - tf-1-12-crescent-hammer
+  - te-1-12-machine-crafter
+  - te-1-12-frame-device
+  - te-1-12-device-item-buffer
+  - te-1-12-device-item-collector
+  - te-1-12-dynamo-compression
+  - te-1-12-flux-capacitor-hardened
+  - te-1-12-reservoir-basic
+  - te-1-12-cache-basic
+  - te-1-12-strongbox-basic
+  - te-1-12-satchel-basic-using-leather
+  - te-1-12-satchel-basic-using-rockwool
+  - td-1-12-itemduct
+  - td-1-12-itemduct-opaque
+  - ti-1-12-fluxbore-basic
+  - ti-1-12-fluxsaw-basic
+  - tf-1-12-tool-pickaxe-tin
+  - tf-1-12-tool-shovel-tin
+  - tf-1-12-tool-axe-tin
+  - tf-1-12-tool-hoe-tin
+  - tf-1-12-tool-fishing-rod-tin
+  - tf-1-12-tool-shears-tin
+  - tf-1-12-tool-hammer-tin
+  - tf-1-12-tool-excavator-tin
+  - tf-1-12-tool-sickle-tin
+  - tf-1-12-weapon-sword-tin
+  - tf-1-12-weapon-bow-tin
+  - tf-1-12-weapon-shield-tin
+  - tf-1-12-armor-helmet-tin
+  - tf-1-12-armor-chestplate-tin
+  - tf-1-12-armor-leggings-tin
+  - tf-1-12-armor-boots-tin
+  - tf-1-12-horse-armor-tin
   pulverizer:
   - dust-tin
   smelter:
@@ -110,7 +110,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -120,19 +120,19 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

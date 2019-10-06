@@ -22,11 +22,11 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/flux-capacitor/
 recipes:
   crafting:
-  - te5-flux-capacitor-basic
-  - te5-flux-capacitor-hardened
-  - te5-flux-capacitor-reinforced
-  - te5-flux-capacitor-signalum
-  - te5-flux-capacitor-resonant
+  - te-1-12-flux-capacitor-basic
+  - te-1-12-flux-capacitor-hardened
+  - te-1-12-flux-capacitor-reinforced
+  - te-1-12-flux-capacitor-signalum
+  - te-1-12-flux-capacitor-resonant
 ---
 
 A **flux capacitor** is an item that stores [Redstone

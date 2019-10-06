@@ -9,18 +9,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/leggings/
 recipes:
   crafting:
-  - tf2-armor-leggings-copper
-  - tf2-armor-leggings-tin
-  - tf2-armor-leggings-silver
-  - tf2-armor-leggings-lead
-  - tf2-armor-leggings-aluminum
-  - tf2-armor-leggings-nickel
-  - tf2-armor-leggings-platinum
-  - tf2-armor-leggings-steel
-  - tf2-armor-leggings-electrum
-  - tf2-armor-leggings-invar
-  - tf2-armor-leggings-bronze
-  - tf2-armor-leggings-constantan
+  - tf-1-12-armor-leggings-copper
+  - tf-1-12-armor-leggings-tin
+  - tf-1-12-armor-leggings-silver
+  - tf-1-12-armor-leggings-lead
+  - tf-1-12-armor-leggings-aluminum
+  - tf-1-12-armor-leggings-nickel
+  - tf-1-12-armor-leggings-platinum
+  - tf-1-12-armor-leggings-steel
+  - tf-1-12-armor-leggings-electrum
+  - tf-1-12-armor-leggings-invar
+  - tf-1-12-armor-leggings-bronze
+  - tf-1-12-armor-leggings-constantan
 usage-recipes:
   smelter:
   - recycling-armor-leggings-copper
@@ -89,4 +89,4 @@ defense = mat.reductionAmounts[1]
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

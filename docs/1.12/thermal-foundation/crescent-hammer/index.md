@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/crescent-hammer/
 recipes:
   crafting:
-  - tf2-crescent-hammer
+  - tf-1-12-crescent-hammer
 ---
 
 ![Crescent hammer](/assets/images/thermal-foundation-2/crescent-hammer.png){:style="height: 128px"}

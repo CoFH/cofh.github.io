@@ -11,28 +11,28 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/fluxed-electrum-ingot/
 recipes:
   smelter:
-  - ra2-dust-smelting-fluxed-electrum
+  - ra-1-12-dust-smelting-fluxed-electrum
   crafting:
-  - ra2-ingot-fluxed-electrum-from-nuggets
-  - ra2-ingot-fluxed-electrum-from-block
+  - ra-1-12-ingot-fluxed-electrum-from-nuggets
+  - ra-1-12-ingot-fluxed-electrum-from-block
 usage-recipes:
   crafting:
-  - ra2-nugget-fluxed-electrum
-  - ra2-gear-fluxed-electrum
-  - ra2-storage-block-fluxed-electrum
-  - ra2-tool-pickaxe
-  - ra2-tool-shovel
-  - ra2-tool-axe
-  - ra2-tool-fishing-rod
-  - ra2-tool-hammer
-  - ra2-tool-excavator
-  - ra2-tool-sickle
-  - ra2-tool-wrench
-  - ra2-weapon-sword
-  - ra2-weapon-bow
-  - ra2-weapon-quiver
-  - ra2-weapon-shield
-  - ra2-weapon-battlewrench
+  - ra-1-12-nugget-fluxed-electrum
+  - ra-1-12-gear-fluxed-electrum
+  - ra-1-12-storage-block-fluxed-electrum
+  - ra-1-12-tool-pickaxe
+  - ra-1-12-tool-shovel
+  - ra-1-12-tool-axe
+  - ra-1-12-tool-fishing-rod
+  - ra-1-12-tool-hammer
+  - ra-1-12-tool-excavator
+  - ra-1-12-tool-sickle
+  - ra-1-12-tool-wrench
+  - ra-1-12-weapon-sword
+  - ra-1-12-weapon-bow
+  - ra-1-12-weapon-quiver
+  - ra-1-12-weapon-shield
+  - ra-1-12-weapon-battlewrench
   pulverizer:
   - dust-fluxed-electrum
   compactor:
@@ -54,7 +54,7 @@ electrum blend](/docs/1.12/redstone-arsenal/fluxed-electrum-blend/). The blend c
 into ingots in an [induction smelter](/docs/1.12/thermal-expansion/induction-smelter/).
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -67,10 +67,10 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}

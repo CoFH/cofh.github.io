@@ -23,7 +23,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/cache/
 recipes:
   crafting:
-  - te5-cache-basic
+  - te-1-12-cache-basic
 ---
 
 A **cache** is a block that stores a large amount of a single item.

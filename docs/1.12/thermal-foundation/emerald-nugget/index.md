@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/emerald-nugget/
 recipes:
   crafting:
-  - tf2-nugget-emerald
+  - tf-1-12-nugget-emerald
 usage-recipes:
   crafting:
-  - tf2-emerald-from-nuggets
+  - tf-1-12-emerald-from-nuggets
 ---
 
 ![Emerald nugget](/assets/images/thermal-foundation-2/nugget-emerald.png){:style="height: 128px"}

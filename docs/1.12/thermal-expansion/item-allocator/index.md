@@ -8,7 +8,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/item-allocator/
 recipes:
   crafting:
-  - te5-device-item-buffer
+  - te-1-12-device-item-buffer
 ---
 
 ![Item allocator](/assets/images/thermal-expansion-5/item-allocator.png){:style="height: 128px"}

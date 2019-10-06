@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/nullifier/
 recipes:
   crafting:
-  - te5-device-nullifier
+  - te-1-12-device-nullifier
 ---
 
 ![Nullifier](/assets/images/thermal-expansion-5/nullifier.png){:style="height: 128px"}

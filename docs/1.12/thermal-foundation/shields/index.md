@@ -42,22 +42,22 @@ image:
   file: thermal-foundation-2/shield-stone.png
 recipes:
   crafting:
-  - tf2-weapon-shield-stone
-  - tf2-weapon-shield-iron
-  - tf2-weapon-shield-gold
-  - tf2-weapon-shield-diamond
-  - tf2-weapon-shield-copper
-  - tf2-weapon-shield-tin
-  - tf2-weapon-shield-silver
-  - tf2-weapon-shield-lead
-  - tf2-weapon-shield-aluminum
-  - tf2-weapon-shield-nickel
-  - tf2-weapon-shield-platinum
-  - tf2-weapon-shield-steel
-  - tf2-weapon-shield-electrum
-  - tf2-weapon-shield-invar
-  - tf2-weapon-shield-bronze
-  - tf2-weapon-shield-constantan
+  - tf-1-12-weapon-shield-stone
+  - tf-1-12-weapon-shield-iron
+  - tf-1-12-weapon-shield-gold
+  - tf-1-12-weapon-shield-diamond
+  - tf-1-12-weapon-shield-copper
+  - tf-1-12-weapon-shield-tin
+  - tf-1-12-weapon-shield-silver
+  - tf-1-12-weapon-shield-lead
+  - tf-1-12-weapon-shield-aluminum
+  - tf-1-12-weapon-shield-nickel
+  - tf-1-12-weapon-shield-platinum
+  - tf-1-12-weapon-shield-steel
+  - tf-1-12-weapon-shield-electrum
+  - tf-1-12-weapon-shield-invar
+  - tf-1-12-weapon-shield-bronze
+  - tf-1-12-weapon-shield-constantan
 usage-recipes:
   smelter:
   - recycling-weapon-shield-iron
@@ -126,7 +126,7 @@ uses = mat.maxUses + 275
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}

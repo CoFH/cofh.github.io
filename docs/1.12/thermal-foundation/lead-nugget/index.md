@@ -8,16 +8,16 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/lead-nugget/
 recipes:
   crafting:
-  - tf2-nugget-lead
+  - tf-1-12-nugget-lead
 usage-recipes:
   crafting:
-  - tf2-ingot-lead-from-nuggets
-  - te5-augment-dynamo-coil-duct
-  - te5-augment-dynamo-throttle
-  - td2-itemduct-dense
-  - td2-itemduct-fast-dense
-  - td2-itemduct-energy-dense
-  - td2-itemduct-energy-fast-dense
+  - tf-1-12-ingot-lead-from-nuggets
+  - te-1-12-augment-dynamo-coil-duct
+  - te-1-12-augment-dynamo-throttle
+  - td-1-12-itemduct-dense
+  - td-1-12-itemduct-fast-dense
+  - td-1-12-itemduct-energy-dense
+  - td-1-12-itemduct-energy-fast-dense
 ---
 
 ![Lead nugget](/assets/images/thermal-foundation-2/nugget-lead.png){:style="height: 128px"}

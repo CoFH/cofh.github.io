@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-disjunctive-extraction/
 recipes:
   crafting:
-  - te5-augment-dynamo-enervation-enchant
+  - te-1-12-augment-dynamo-enervation-enchant
 ---
 
 A **disjunctive extraction** [augment](/docs/1.12/thermal-expansion/augments/) allows for an

@@ -14,7 +14,7 @@ recipes:
   - plate-fluxed-electrum
 usage-recipes:
   crafting:
-  - ra2-fluxed-armor-plating
+  - ra-1-12-fluxed-armor-plating
 ---
 
 **Fluxed electrum plates** are crafting materials made of [fluxed
@@ -25,7 +25,7 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='te5-compactor' recipes=page.recipes.compactor no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.recipes.compactor no-result=true %}
 
 
 Usage

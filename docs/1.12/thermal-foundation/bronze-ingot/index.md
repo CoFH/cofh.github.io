@@ -10,10 +10,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/bronze-ingot/
 recipes:
   smelting:
-  - tf2-ingot-bronze-from-dust
+  - tf-1-12-ingot-bronze-from-dust
   crafting:
-  - tf2-ingot-bronze-from-nuggets
-  - tf2-ingot-bronze-from-block
+  - tf-1-12-ingot-bronze-from-nuggets
+  - tf-1-12-ingot-bronze-from-block
   smelter:
   - dust-smelting-bronze
   - ingot-bronze-from-dust-copper-and-dust-tin
@@ -41,31 +41,31 @@ recipes:
   - recycling-horse-armor-bronze
 usage-recipes:
   crafting:
-  - tf2-nugget-bronze
-  - tf2-gear-bronze
-  - tf2-storage-block-bronze
-  - tf2-signalum-security-lock
-  - te5-machine-compactor
-  - te5-augment-machine-secondary
-  - td2-fluiduct-super
-  - td2-viaduct-frame
-  - tf2-tool-pickaxe-bronze
-  - tf2-tool-shovel-bronze
-  - tf2-tool-axe-bronze
-  - tf2-tool-hoe-bronze
-  - tf2-tool-fishing-rod-bronze
-  - tf2-tool-shears-bronze
-  - tf2-tool-hammer-bronze
-  - tf2-tool-excavator-bronze
-  - tf2-tool-sickle-bronze
-  - tf2-weapon-sword-bronze
-  - tf2-weapon-bow-bronze
-  - tf2-weapon-shield-bronze
-  - tf2-armor-helmet-bronze
-  - tf2-armor-chestplate-bronze
-  - tf2-armor-leggings-bronze
-  - tf2-armor-boots-bronze
-  - tf2-horse-armor-bronze
+  - tf-1-12-nugget-bronze
+  - tf-1-12-gear-bronze
+  - tf-1-12-storage-block-bronze
+  - tf-1-12-signalum-security-lock
+  - te-1-12-machine-compactor
+  - te-1-12-augment-machine-secondary
+  - td-1-12-fluiduct-super
+  - td-1-12-viaduct-frame
+  - tf-1-12-tool-pickaxe-bronze
+  - tf-1-12-tool-shovel-bronze
+  - tf-1-12-tool-axe-bronze
+  - tf-1-12-tool-hoe-bronze
+  - tf-1-12-tool-fishing-rod-bronze
+  - tf-1-12-tool-shears-bronze
+  - tf-1-12-tool-hammer-bronze
+  - tf-1-12-tool-excavator-bronze
+  - tf-1-12-tool-sickle-bronze
+  - tf-1-12-weapon-sword-bronze
+  - tf-1-12-weapon-bow-bronze
+  - tf-1-12-weapon-shield-bronze
+  - tf-1-12-armor-helmet-bronze
+  - tf-1-12-armor-chestplate-bronze
+  - tf-1-12-armor-leggings-bronze
+  - tf-1-12-armor-boots-bronze
+  - tf-1-12-horse-armor-bronze
   pulverizer:
   - dust-bronze
   compactor:
@@ -97,7 +97,7 @@ or by using an [induction smelter](/docs/1.12/thermal-expansion/induction-smelte
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -107,13 +107,13 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}

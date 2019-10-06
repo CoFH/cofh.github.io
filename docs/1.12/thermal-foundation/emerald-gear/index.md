@@ -5,7 +5,7 @@ image:
   file: thermal-foundation-2/gear-emerald.png
 recipes:
   crafting:
-  - tf2-gear-emerald
+  - tf-1-12-gear-emerald
   compactor-gear:
   - gear-emerald
 redirect_from:
@@ -26,4 +26,4 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}

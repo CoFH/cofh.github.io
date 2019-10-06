@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-numismatic-press/
 recipes:
   crafting:
-  - te5-augment-machine-compactor-coin
+  - te-1-12-augment-machine-compactor-coin
 recipe-list:
 - coin
 ---
@@ -43,4 +43,4 @@ metal plates.
 Recipes
 -------
 
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.recipe-list %}

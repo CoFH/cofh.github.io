@@ -8,12 +8,12 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/enderium-nugget/
 recipes:
   crafting:
-  - tf2-nugget-enderium
+  - tf-1-12-nugget-enderium
 usage-recipes:
   crafting:
-  - tf2-ingot-enderium-from-nuggets
-  - td2-fluxduct-resonant-empty-one
-  - td2-fluxduct-resonant-one
+  - tf-1-12-ingot-enderium-from-nuggets
+  - td-1-12-fluxduct-resonant-empty-one
+  - td-1-12-fluxduct-resonant-one
 ---
 
 ![Enderium nugget](/assets/images/thermal-foundation-2/nugget-enderium.png){:style="height: 128px"}

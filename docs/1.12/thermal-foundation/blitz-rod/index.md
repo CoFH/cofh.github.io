@@ -12,7 +12,7 @@ recipes:
   - blitz-rod-from-powder
 usage-recipes:
   crafting:
-  - tf2-blitz-powder
+  - tf-1-12-blitz-powder
   pulverizer:
   - blitz-powder
 ---
@@ -33,7 +33,7 @@ Obtaining
 A [blitz](/docs/1.12/thermal-foundation/blitz/) may drop a blitz rod when killed by a player.
 
 ### Compactor
-{% include recipe-table.html type='te5-compactor' recipes=page.recipes.compactor no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.recipes.compactor no-result=true %}
 
 
 Usage
@@ -43,4 +43,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}

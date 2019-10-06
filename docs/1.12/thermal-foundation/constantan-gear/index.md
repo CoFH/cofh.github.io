@@ -8,16 +8,16 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/constantan-gear/
 recipes:
   crafting:
-  - tf2-gear-constantan
+  - tf-1-12-gear-constantan
   compactor-gear:
   - gear-constantan
 usage-recipes:
   crafting:
-  - te5-machine-refinery
-  - te5-machine-brewer
-  - te5-machine-enchanter
-  - te5-dynamo-numismatic
-  - te5-augment-machine-refinery-oil
+  - te-1-12-machine-refinery
+  - te-1-12-machine-brewer
+  - te-1-12-machine-enchanter
+  - te-1-12-dynamo-numismatic
+  - te-1-12-augment-machine-refinery-oil
   smelter:
   - recycling-gear-constantan
 ---
@@ -36,7 +36,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -46,4 +46,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

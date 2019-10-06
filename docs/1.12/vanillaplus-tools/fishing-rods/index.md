@@ -11,10 +11,10 @@ image:
   file: vanillaplus-tools/fishing-rod-stone.png
 recipes:
   crafting:
-  - vpt-tool-fishing-rod-stone
-  - vpt-tool-fishing-rod-iron
-  - vpt-tool-fishing-rod-gold
-  - vpt-tool-fishing-rod-diamond
+  - vpt-1-12-tool-fishing-rod-stone
+  - vpt-1-12-tool-fishing-rod-iron
+  - vpt-1-12-tool-fishing-rod-gold
+  - vpt-1-12-tool-fishing-rod-diamond
 redirect_from:
 - /docs/vanillaplus-tools/fishing-rods/
 ---

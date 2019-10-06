@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/compressed-sawdust/
 recipes:
   crafting:
-  - tf2-sawdust-compressed
+  - tf-1-12-sawdust-compressed
 usage-recipes:
   smelting:
-  - tf2-charcoal-from-sawdust
+  - tf-1-12-charcoal-from-sawdust
   redstone-furnace-pyrolysis:
   - charcoal-from-sawdust
 ---
@@ -38,4 +38,4 @@ Usage
 {% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
 ### Redstone Furnace with Pyrolytic Conversion ingredient
-{% include recipe-table.html type='te5-redstone-furnace-pyrolysis' recipes=page.usage-recipes.redstone-furnace-pyrolysis %}
+{% include recipe-table.html type='te-1-12-redstone-furnace-pyrolysis' recipes=page.usage-recipes.redstone-furnace-pyrolysis %}

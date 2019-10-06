@@ -10,7 +10,7 @@ image:
   file: thermal-expansion-5/creature-encaptulator.png
 recipes:
   crafting:
-  - te5-device-mob-catcher
+  - te-1-12-device-mob-catcher
 ---
 
 > Gotta catch 'em all!

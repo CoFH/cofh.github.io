@@ -15,10 +15,10 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/fluiduct/
 recipes:
   crafting:
-  - td2-fluiduct-basic
-  - td2-fluiduct-basic-opaque
-  - td2-fluiduct-basic-opaque-from-transparent
-  - td2-fluiduct-basic-transparent-from-opaque
+  - td-1-12-fluiduct-basic
+  - td-1-12-fluiduct-basic-opaque
+  - td-1-12-fluiduct-basic-opaque-from-transparent
+  - td-1-12-fluiduct-basic-transparent-from-opaque
 ---
 
 A **fluiduct** is a block that transfers fluids between blocks.

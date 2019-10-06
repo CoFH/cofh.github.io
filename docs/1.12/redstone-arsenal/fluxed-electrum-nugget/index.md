@@ -11,10 +11,10 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/fluxed-electrum-nugget/
 recipes:
   crafting:
-  - ra2-nugget-fluxed-electrum
+  - ra-1-12-nugget-fluxed-electrum
 usage-recipes:
   crafting:
-  - ra2-ingot-fluxed-electrum-from-nuggets
+  - ra-1-12-ingot-fluxed-electrum-from-nuggets
 ---
 
 **Fluxed electrum nuggets** are raw materials. They are the nugget form of

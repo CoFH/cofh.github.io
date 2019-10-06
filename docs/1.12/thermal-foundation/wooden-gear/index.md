@@ -5,10 +5,10 @@ image:
   file: thermal-foundation-2/gear-wood.png
 recipes:
   crafting:
-  - tf2-gear-wood
+  - tf-1-12-gear-wood
 usage-recipes:
   crafting:
-  - tf2-gear-stone
+  - tf-1-12-gear-stone
 redirect_from:
 - /docs/thermal-foundation/wooden-gear/
 - /docs/thermal-foundation-2/wooden-gear/

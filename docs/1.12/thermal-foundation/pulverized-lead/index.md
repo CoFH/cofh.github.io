@@ -8,8 +8,8 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pulverized-lead/
 recipes:
   crafting:
-  - tf2-petrotheum-ingot-lead
-  - tf2-petrotheum-ore-lead
+  - tf-1-12-petrotheum-ingot-lead
+  - tf-1-12-petrotheum-ore-lead
   pulverizer:
   - dust-lead
   - ore-processing-lead
@@ -18,12 +18,12 @@ recipes:
   - dust-enderium
 usage-recipes:
   crafting:
-  - tf2-pyrotheum-dust-lead
-  - tf2-dust-enderium
-  - tf2-hardened-glass
-  - tf2-hardened-glass-lead
+  - tf-1-12-pyrotheum-dust-lead
+  - tf-1-12-dust-enderium
+  - tf-1-12-hardened-glass
+  - tf-1-12-hardened-glass-lead
   smelting:
-  - tf2-ingot-lead-from-dust
+  - tf-1-12-ingot-lead-from-dust
   smelter:
   - dust-smelting-lead
   - hardened-glass
@@ -40,13 +40,13 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
 When [lead ore](/docs/1.12/thermal-foundation/lead-ore/) is broken using a
@@ -65,4 +65,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/fluxed-electrum-block/
 recipes:
   crafting:
-  - ra2-storage-block-fluxed-electrum
+  - ra-1-12-storage-block-fluxed-electrum
 usage-recipes:
   crafting:
-  - ra2-ingot-fluxed-electrum-from-block
+  - ra-1-12-ingot-fluxed-electrum-from-block
 ---
 
 **Fluxed electrum blocks** are blocks made from [fluxed electrum

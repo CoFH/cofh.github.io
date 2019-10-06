@@ -11,9 +11,9 @@ recipes:
   - dust-charcoal
 usage-recipes:
   crafting:
-  - tf2-gunpowder-using-charcoal
-  - tf2-phyto-gro-using-charcoal
-  - tf2-phyto-gro-rich-using-charcoal
+  - tf-1-12-gunpowder-using-charcoal
+  - tf-1-12-phyto-gro-using-charcoal
+  - tf-1-12-phyto-gro-rich-using-charcoal
   smelter:
   - ingot-steel-from-dust-iron-and-dust-charcoal
   - ingot-steel-from-ingot-iron-and-dust-charcoal
@@ -30,7 +30,7 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage
@@ -40,7 +40,7 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Steam Dynamo fuel
 When used as fuel in a [steam dynamo](/docs/1.12/thermal-expansion/steam-dynamo/),

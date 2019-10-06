@@ -5,7 +5,7 @@ image:
   file: thermal-foundation-2/gear-stone.png
 recipes:
   crafting:
-  - tf2-gear-stone
+  - tf-1-12-gear-stone
 redirect_from:
 - /docs/thermal-foundation/stone-gear/
 - /docs/thermal-foundation-2/stone-gear/

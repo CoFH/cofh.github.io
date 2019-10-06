@@ -7,7 +7,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/centrifugal-separator/
 recipes:
   crafting:
-  - te5-machine-centrifuge
+  - te-1-12-machine-centrifuge
 augments:
 - machine-power
 - machine-secondary
@@ -155,10 +155,10 @@ centrifuge cannot be augmented.
 
 Augments can be installed in the Augmentation tab in a centrifuge's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
 -------
 
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipe-list %}

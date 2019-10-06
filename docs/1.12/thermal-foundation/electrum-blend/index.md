@@ -8,20 +8,20 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/electrum-blend/
 recipes:
   crafting:
-  - tf2-dust-electrum
+  - tf-1-12-dust-electrum
   pulverizer:
   - dust-electrum
 usage-recipes:
   crafting:
-  - tf2-hardened-glass-electrum
-  - ra2-dust-fluxed-electrum-using-electrum
+  - tf-1-12-hardened-glass-electrum
+  - ra-1-12-dust-fluxed-electrum-using-electrum
   smelting:
-  - tf2-ingot-electrum-from-dust
+  - tf-1-12-ingot-electrum-from-dust
   smelter:
   - dust-smelting-electrum
   - hardened-glass-electrum
   transposer-fill:
-  - ra2-dust-fluxed-electrum
+  - ra-1-12-dust-fluxed-electrum
   centrifuge:
   - dust-electrum
 ---
@@ -40,7 +40,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage
@@ -53,10 +53,10 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Centrifugal Separator ingredient
-{% include recipe-table.html type='te5-centrifuge' recipes=page.usage-recipes.centrifuge %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.usage-recipes.centrifuge %}

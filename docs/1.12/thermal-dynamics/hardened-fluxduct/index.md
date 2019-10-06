@@ -10,8 +10,8 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/hardened-fluxduct/
 recipes:
   crafting:
-  - td2-fluxduct-hardened-one
-  - td2-fluxduct-hardened-three
+  - td-1-12-fluxduct-hardened-one
+  - td-1-12-fluxduct-hardened-three
 ---
 
 A **hardened fluxduct** is a [fluxduct](/docs/1.12/thermal-dynamics/fluxducts/) of the second tier.

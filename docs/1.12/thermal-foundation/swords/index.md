@@ -10,18 +10,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/swords/
 recipes:
   crafting:
-  - tf2-weapon-sword-copper
-  - tf2-weapon-sword-tin
-  - tf2-weapon-sword-silver
-  - tf2-weapon-sword-lead
-  - tf2-weapon-sword-aluminum
-  - tf2-weapon-sword-nickel
-  - tf2-weapon-sword-platinum
-  - tf2-weapon-sword-steel
-  - tf2-weapon-sword-electrum
-  - tf2-weapon-sword-invar
-  - tf2-weapon-sword-bronze
-  - tf2-weapon-sword-constantan
+  - tf-1-12-weapon-sword-copper
+  - tf-1-12-weapon-sword-tin
+  - tf-1-12-weapon-sword-silver
+  - tf-1-12-weapon-sword-lead
+  - tf-1-12-weapon-sword-aluminum
+  - tf-1-12-weapon-sword-nickel
+  - tf-1-12-weapon-sword-platinum
+  - tf-1-12-weapon-sword-steel
+  - tf-1-12-weapon-sword-electrum
+  - tf-1-12-weapon-sword-invar
+  - tf-1-12-weapon-sword-bronze
+  - tf-1-12-weapon-sword-constantan
 usage-recipes:
   smelter:
   - recycling-weapon-sword-copper
@@ -88,4 +88,4 @@ uses = mat.maxUses
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

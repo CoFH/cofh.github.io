@@ -11,8 +11,8 @@ recipes:
   - plate-electrum
 usage-recipes:
   crafting:
-  - te5-augment-machine-compactor-coin
-  - te5-augment-dynamo-numismatic-gem
+  - te-1-12-augment-machine-compactor-coin
+  - te-1-12-augment-dynamo-numismatic-gem
   smelter:
   - recycling-plate-electrum
 ---
@@ -28,7 +28,7 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='te5-compactor' recipes=page.recipes.compactor no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.recipes.compactor no-result=true %}
 
 
 Usage
@@ -38,4 +38,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

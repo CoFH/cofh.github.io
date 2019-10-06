@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/redstone-furnace/
 recipes:
   crafting:
-  - te5-machine-furnace
+  - te-1-12-machine-furnace
 augments:
 - machine-power
 - machine-furnace-food
@@ -153,7 +153,7 @@ cannot be augmented.
 
 Augments can be installed in the Augmentation tab in a redstone furnace's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
@@ -165,4 +165,4 @@ performed in a redstone furnace for 2,000 RF.
 Redstone furnaces have some recipes of their own, some of which replace regular
 smelting recipes. The following table lists these recipes.
 
-{% include recipe-table.html type='te5-redstone-furnace' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-redstone-furnace' recipes=page.recipe-list %}

@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-flux-anodizers/
 recipes:
   crafting:
-  - te5-augment-machine-furnace-ore
+  - te-1-12-augment-machine-furnace-ore
 ---
 
 A **flux anodizers** [augment](/docs/1.12/thermal-expansion/augments/) allows for a [redstone

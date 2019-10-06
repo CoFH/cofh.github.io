@@ -5,7 +5,7 @@ image:
   file: thermal-expansion-5/vacuumulator.png
 recipes:
   crafting:
-  - te5-device-item-collector
+  - te-1-12-device-item-collector
 redirect_from:
 - /docs/thermal-expansion/vacuumulator/
 - /docs/thermal-expansion-5/vacuumulator/

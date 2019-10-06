@@ -27,18 +27,18 @@ image:
   file: thermal-foundation-2/horse-armor-constantan.png
 recipes:
   crafting:
-  - tf2-horse-armor-copper
-  - tf2-horse-armor-tin
-  - tf2-horse-armor-silver
-  - tf2-horse-armor-lead
-  - tf2-horse-armor-aluminum
-  - tf2-horse-armor-nickel
-  - tf2-horse-armor-platinum
-  - tf2-horse-armor-steel
-  - tf2-horse-armor-electrum
-  - tf2-horse-armor-invar
-  - tf2-horse-armor-bronze
-  - tf2-horse-armor-constantan
+  - tf-1-12-horse-armor-copper
+  - tf-1-12-horse-armor-tin
+  - tf-1-12-horse-armor-silver
+  - tf-1-12-horse-armor-lead
+  - tf-1-12-horse-armor-aluminum
+  - tf-1-12-horse-armor-nickel
+  - tf-1-12-horse-armor-platinum
+  - tf-1-12-horse-armor-steel
+  - tf-1-12-horse-armor-electrum
+  - tf-1-12-horse-armor-invar
+  - tf-1-12-horse-armor-bronze
+  - tf-1-12-horse-armor-constantan
 usage-recipes:
   smelter:
   - recycling-horse-armor-copper
@@ -100,4 +100,4 @@ Usage
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

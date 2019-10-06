@@ -11,21 +11,21 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pyrotheum-dust/
 recipes:
   crafting:
-  - tf2-dust-pyrotheum
+  - tf-1-12-dust-pyrotheum
 usage-recipes:
   crafting:
-  - tf2-pyrotheum-ore-metal
-  - tf2-petrotheum-pyrotheum-ore-metal
-  - tf2-pyrotheum-dust-ore-metal
-  - tf2-upgrade-kit-resonant
-  - tf2-hardened-glass
-  - tf2-hardened-glass-metal
-  - te5-flux-capacitor-resonant
-  - te5-reservoir-resonant
-  - te5-augment-machine-furnace-ore
-  - te5-augment-machine-smelter-pyrotheum
-  - te5-augment-dynamo-compression-fuel
-  - tc-watering-can-resonant
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-dust-ore-metal
+  - tf-1-12-upgrade-kit-resonant
+  - tf-1-12-hardened-glass
+  - tf-1-12-hardened-glass-metal
+  - te-1-12-flux-capacitor-resonant
+  - te-1-12-reservoir-resonant
+  - te-1-12-augment-machine-furnace-ore
+  - te-1-12-augment-machine-smelter-pyrotheum
+  - te-1-12-augment-dynamo-compression-fuel
+  - tc-1-12-watering-can-resonant
   crucible:
   - pyrotheum
   centrifuge:
@@ -51,13 +51,13 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Centrifugal Separator ingredient
-{% include recipe-table.html type='te5-centrifuge' recipes=page.usage-recipes.centrifuge %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.usage-recipes.centrifuge %}
 
 ### Arcane Ensorcellator ingredient
 Pyrotheum dust can be combined with

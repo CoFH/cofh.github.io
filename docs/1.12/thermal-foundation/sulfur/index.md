@@ -23,10 +23,10 @@ recipes:
   - dust-pyrotheum
 usage-recipes:
   crafting:
-  - tf2-gunpowder-using-coal
-  - tf2-gunpowder-using-charcoal
-  - tf2-dust-pyrotheum
-  - te5-flux-capacitor-basic
+  - tf-1-12-gunpowder-using-coal
+  - tf-1-12-gunpowder-using-charcoal
+  - tf-1-12-dust-pyrotheum
+  - te-1-12-flux-capacitor-basic
   transposer-fill:
   - blaze-powder
 ---
@@ -44,20 +44,20 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 ### Fractionating Still
-{% include recipe-table.html type='te5-refinery' recipes=page.recipes.refinery no-result=true %}
+{% include recipe-table.html type='te-1-12-refinery' recipes=page.recipes.refinery no-result=true %}
 
 ### Mobs
 Mobs that are immune to fire have a chance to drop sulfur on death. This mostly
 includes mobs from the [Nether](https://minecraft.gamepedia.com/The_Nether).
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 
 Usage
@@ -67,4 +67,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

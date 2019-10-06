@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/constantan-nugget/
 recipes:
   crafting:
-  - tf2-nugget-constantan
+  - tf-1-12-nugget-constantan
 usage-recipes:
   crafting:
-  - tf2-ingot-constantan-from-nuggets
+  - tf-1-12-ingot-constantan-from-nuggets
 ---
 
 ![Constantan nugget](/assets/images/thermal-foundation-2/nugget-constantan.png){:style="height: 128px"}

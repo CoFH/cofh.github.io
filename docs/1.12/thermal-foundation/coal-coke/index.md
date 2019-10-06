@@ -8,12 +8,12 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/coal-coke/
 recipes:
   crafting:
-  - tf2-coal-coke-from-block
+  - tf-1-12-coal-coke-from-block
   redstone-furnace-pyrolysis:
   - coal-coke
 usage-recipes:
   crafting:
-  - tf2-storage-block-coal-coke
+  - tf-1-12-storage-block-coal-coke
   smelter:
   - ingot-steel-from-dust-iron-and-coal-coke
   - ingot-steel-from-ingot-iron-and-coal-coke
@@ -33,7 +33,7 @@ Obtaining
 ---------
 
 ### Redstone Furnace with Pyrolytic Conversion
-{% include recipe-table.html type='te5-redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
+{% include recipe-table.html type='te-1-12-redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -51,4 +51,4 @@ It lasts twice as long as regular [coal](https://minecraft.gamepedia.com/Coal).
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

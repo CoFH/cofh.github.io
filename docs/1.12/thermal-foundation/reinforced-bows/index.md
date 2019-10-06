@@ -11,22 +11,22 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/reinforced-bows/
 recipes:
   crafting:
-  - tf2-weapon-bow-stone
-  - tf2-weapon-bow-iron
-  - tf2-weapon-bow-gold
-  - tf2-weapon-bow-diamond
-  - tf2-weapon-bow-copper
-  - tf2-weapon-bow-tin
-  - tf2-weapon-bow-silver
-  - tf2-weapon-bow-lead
-  - tf2-weapon-bow-aluminum
-  - tf2-weapon-bow-nickel
-  - tf2-weapon-bow-platinum
-  - tf2-weapon-bow-steel
-  - tf2-weapon-bow-electrum
-  - tf2-weapon-bow-invar
-  - tf2-weapon-bow-bronze
-  - tf2-weapon-bow-constantan
+  - tf-1-12-weapon-bow-stone
+  - tf-1-12-weapon-bow-iron
+  - tf-1-12-weapon-bow-gold
+  - tf-1-12-weapon-bow-diamond
+  - tf-1-12-weapon-bow-copper
+  - tf-1-12-weapon-bow-tin
+  - tf-1-12-weapon-bow-silver
+  - tf-1-12-weapon-bow-lead
+  - tf-1-12-weapon-bow-aluminum
+  - tf-1-12-weapon-bow-nickel
+  - tf-1-12-weapon-bow-platinum
+  - tf-1-12-weapon-bow-steel
+  - tf-1-12-weapon-bow-electrum
+  - tf-1-12-weapon-bow-invar
+  - tf-1-12-weapon-bow-bronze
+  - tf-1-12-weapon-bow-constantan
 usage-recipes:
   smelter:
   - recycling-weapon-bow-iron
@@ -100,7 +100,7 @@ arrowSpeed = 1 + (mat.efficiency / 20)
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}

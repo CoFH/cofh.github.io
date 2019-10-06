@@ -10,24 +10,24 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/hardened-glass/
 recipes:
   crafting:
-  - tf2-hardened-glass
-  - tf2-hardened-glass-copper
-  - tf2-hardened-glass-tin
-  - tf2-hardened-glass-silver
-  - tf2-hardened-glass-lead
-  - tf2-hardened-glass-aluminum
-  - tf2-hardened-glass-nickel
-  - tf2-hardened-glass-platinum
-  - tf2-hardened-glass-iridium
-  - tf2-hardened-glass-mithril
-  - tf2-hardened-glass-steel
-  - tf2-hardened-glass-electrum
-  - tf2-hardened-glass-invar
-  - tf2-hardened-glass-bronze
-  - tf2-hardened-glass-constantan
-  - tf2-hardened-glass-signalum
-  - tf2-hardened-glass-lumium
-  - tf2-hardened-glass-enderium
+  - tf-1-12-hardened-glass
+  - tf-1-12-hardened-glass-copper
+  - tf-1-12-hardened-glass-tin
+  - tf-1-12-hardened-glass-silver
+  - tf-1-12-hardened-glass-lead
+  - tf-1-12-hardened-glass-aluminum
+  - tf-1-12-hardened-glass-nickel
+  - tf-1-12-hardened-glass-platinum
+  - tf-1-12-hardened-glass-iridium
+  - tf-1-12-hardened-glass-mithril
+  - tf-1-12-hardened-glass-steel
+  - tf-1-12-hardened-glass-electrum
+  - tf-1-12-hardened-glass-invar
+  - tf-1-12-hardened-glass-bronze
+  - tf-1-12-hardened-glass-constantan
+  - tf-1-12-hardened-glass-signalum
+  - tf-1-12-hardened-glass-lumium
+  - tf-1-12-hardened-glass-enderium
   smelter:
   - hardened-glass
   - hardened-glass-copper
@@ -49,33 +49,33 @@ recipes:
   - hardened-glass-enderium
 usage-recipes:
   crafting:
-  - tf2-upgrade-kit-reinforced
-  - te5-machine-crucible
-  - te5-machine-brewer
-  - te5-device-diffuser
-  - te5-flux-capacitor-reinforced
-  - te5-reservoir-reinforced
-  - te5-augment-machine-smelter-flux
-  - te5-augment-machine-insolator-fertilizer
-  - te5-augment-machine-refinery-oil
-  - te5-augment-machine-charger-repair
-  - te5-augment-machine-charger-wireless
-  - te5-augment-dynamo-boiler
-  - td2-fluxduct-reinforced-empty
-  - td2-fluxduct-super-empty
-  - td2-fluiduct-hardened
-  - td2-fluiduct-hardened-transparent-from-opaque
-  - td2-fluiduct-energy-transparent-from-opaque
-  - td2-fluiduct-super
-  - td2-fluiduct-super-transparent-from-opaque
-  - td2-itemduct
-  - td2-itemduct-transparent-from-opaque
-  - td2-itemduct-fast-transparent-from-opaque
-  - td2-itemduct-energy-transparent-from-opaque
-  - td2-itemduct-energy-fast-transparent-from-opaque
-  - td2-viaduct-frame
-  - td2-viaduct-long-range
-  - tc-watering-can-reinforced
+  - tf-1-12-upgrade-kit-reinforced
+  - te-1-12-machine-crucible
+  - te-1-12-machine-brewer
+  - te-1-12-device-diffuser
+  - te-1-12-flux-capacitor-reinforced
+  - te-1-12-reservoir-reinforced
+  - te-1-12-augment-machine-smelter-flux
+  - te-1-12-augment-machine-insolator-fertilizer
+  - te-1-12-augment-machine-refinery-oil
+  - te-1-12-augment-machine-charger-repair
+  - te-1-12-augment-machine-charger-wireless
+  - te-1-12-augment-dynamo-boiler
+  - td-1-12-fluxduct-reinforced-empty
+  - td-1-12-fluxduct-super-empty
+  - td-1-12-fluiduct-hardened
+  - td-1-12-fluiduct-hardened-transparent-from-opaque
+  - td-1-12-fluiduct-energy-transparent-from-opaque
+  - td-1-12-fluiduct-super
+  - td-1-12-fluiduct-super-transparent-from-opaque
+  - td-1-12-itemduct
+  - td-1-12-itemduct-transparent-from-opaque
+  - td-1-12-itemduct-fast-transparent-from-opaque
+  - td-1-12-itemduct-energy-transparent-from-opaque
+  - td-1-12-itemduct-energy-fast-transparent-from-opaque
+  - td-1-12-viaduct-frame
+  - td-1-12-viaduct-long-range
+  - tc-1-12-watering-can-reinforced
 ---
 
 ![Hardened glass](/assets/images/thermal-foundation-2/hardened-glass.png){:style="height: 96px"}
@@ -95,7 +95,7 @@ Hardened glass can only be harvested by dismantling it with a
 Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}

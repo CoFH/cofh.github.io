@@ -1,0 +1,1670 @@
+name: Pulverizer
+site: te-1-12-docs
+url: pulverizer/
+with-energy: true
+recipes:
+  basalz-powder:
+    results:
+      - item: tf-1-12-basalz-powder
+      - item: tf-1-12-dust-obsidian
+    ingredients:
+      - item: tf-1-12-basalz-rod
+    energy: "3,000"
+    data:
+      input:
+        item: [tf-1-12-basalz-rod]
+      primary-output:
+        item: [tf-1-12-basalz-powder]
+        amount: 4
+      secondary-output:
+        item: [tf-1-12-dust-obsidian]
+      secondary-chance: 50
+  blaze-powder:
+    results:
+      - item: mc-blaze-powder
+      - item: tf-1-12-sulfur
+    ingredients:
+      - item: mc-blaze-rod
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-blaze-rod]
+      primary-output:
+        item: [mc-blaze-powder]
+        amount: 4
+      secondary-output:
+        item: [tf-1-12-sulfur]
+      secondary-chance: 50
+  blitz-powder:
+    results:
+      - item: tf-1-12-blitz-powder
+      - item: tf-1-12-niter
+    ingredients:
+      - item: tf-1-12-blitz-rod
+    energy: "3,000"
+    data:
+      input:
+        item: [tf-1-12-blitz-rod]
+      primary-output:
+        item: [tf-1-12-blitz-powder]
+        amount: 4
+      secondary-output:
+        item: [tf-1-12-niter]
+      secondary-chance: 50
+  blizz-powder:
+    results:
+      - item: tf-1-12-blizz-powder
+      - item: mc-snowball
+    ingredients:
+      - item: tf-1-12-blizz-rod
+    energy: "3,000"
+    data:
+      input:
+        item: [tf-1-12-blizz-rod]
+      primary-output:
+        item: [tf-1-12-blizz-powder]
+        amount: 4
+      secondary-output:
+        item: [mc-snowball]
+      secondary-chance: 50
+  bone-meal:
+    results:
+      - item: mc-bone-meal
+    ingredients:
+      - item: mc-bone
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-bone]
+      primary-output:
+        item: [mc-bone-meal]
+        amount: 6
+  cobblestone-from-stone:
+    results:
+      - item: mc-cobblestone
+    ingredients:
+      - item: mc-stone
+    energy: "1,000"
+    data:
+      input:
+        item: [mc-stone]
+      primary-output:
+        item: [mc-cobblestone]
+  dust-metal-from-ingot:
+    results:
+      - item-group: tf-1-12-dust-metal
+    ingredients:
+      - item-group: ingot-metal-with-tf2
+    energy: "2,000"
+    data:
+      input:
+        item-group: ingot-metal-with-tf2
+      primary-output:
+        item-group: tf-1-12-dust-metal
+  dust-aluminum:
+    results:
+      - item: tf-1-12-dust-aluminum
+    ingredients:
+      - item: tf-1-12-ingot-aluminum
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-aluminum]
+      primary-output:
+        item: [tf-1-12-dust-aluminum]
+  dust-constantan:
+    results:
+      - item: tf-1-12-dust-constantan
+    ingredients:
+      - item: tf-1-12-ingot-constantan
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-constantan]
+      primary-output:
+        item: [tf-1-12-dust-constantan]
+  dust-bronze:
+    results:
+      - item: tf-1-12-dust-bronze
+    ingredients:
+      - item: tf-1-12-ingot-bronze
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-bronze]
+      primary-output:
+        item: [tf-1-12-dust-bronze]
+  dust-copper:
+    results:
+      - item: tf-1-12-dust-copper
+    ingredients:
+      - item: tf-1-12-ingot-copper
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-copper]
+      primary-output:
+        item: [tf-1-12-dust-copper]
+  dust-charcoal:
+    results:
+      - item: tf-1-12-dust-charcoal
+    ingredients:
+      - item: mc-charcoal
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-charcoal]
+      primary-output:
+        item: [tf-1-12-dust-charcoal]
+  dust-coal:
+    results:
+      - item: tf-1-12-dust-coal
+      - item: tf-1-12-sulfur
+    ingredients:
+      - item: mc-coal
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-coal]
+      primary-output:
+        item: [tf-1-12-dust-coal]
+      secondary-output:
+        item: [tf-1-12-sulfur]
+      secondary-chance: 15
+  dust-electrum:
+    results:
+      - item: tf-1-12-dust-electrum
+    ingredients:
+      - item: tf-1-12-ingot-electrum
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-electrum]
+      primary-output:
+        item: [tf-1-12-dust-electrum]
+  dust-enderium:
+    results:
+      - item: tf-1-12-dust-enderium
+    ingredients:
+      - item: tf-1-12-ingot-enderium
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-enderium]
+      primary-output:
+        item: [tf-1-12-dust-enderium]
+  dust-fluxed-electrum:
+    results:
+      - item: ra-1-12-dust-fluxed-electrum
+    ingredients:
+      - item: ra-1-12-ingot-fluxed-electrum
+    energy: "2,000"
+    data:
+      input:
+        item: [ra-1-12-ingot-fluxed-electrum]
+      primary-output:
+        item: [ra-1-12-dust-fluxed-electrum]
+  dust-gold:
+    results:
+      - item: tf-1-12-dust-gold
+    ingredients:
+      - item: mc-ingot-gold
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-ingot-gold]
+      primary-output:
+        item: [tf-1-12-dust-gold]
+  dust-invar:
+    results:
+      - item: tf-1-12-dust-invar
+    ingredients:
+      - item: tf-1-12-ingot-invar
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-invar]
+      primary-output:
+        item: [tf-1-12-dust-invar]
+  dust-iridium:
+    results:
+      - item: tf-1-12-dust-iridium
+    ingredients:
+      - item: tf-1-12-ingot-iridium
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-iridium]
+      primary-output:
+        item: [tf-1-12-dust-iridium]
+  dust-iron:
+    results:
+      - item: tf-1-12-dust-iron
+    ingredients:
+      - item: mc-ingot-iron
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-ingot-iron]
+      primary-output:
+        item: [tf-1-12-dust-iron]
+  dust-lead:
+    results:
+      - item: tf-1-12-dust-lead
+    ingredients:
+      - item: tf-1-12-ingot-lead
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-lead]
+      primary-output:
+        item: [tf-1-12-dust-lead]
+  dust-lumium:
+    results:
+      - item: tf-1-12-dust-lumium
+    ingredients:
+      - item: tf-1-12-ingot-lumium
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-lumium]
+      primary-output:
+        item: [tf-1-12-dust-lumium]
+  dust-mithril:
+    results:
+      - item: tf-1-12-dust-mithril
+    ingredients:
+      - item: tf-1-12-ingot-mithril
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-mithril]
+      primary-output:
+        item: [tf-1-12-dust-mithril]
+  dust-nickel:
+    results:
+      - item: tf-1-12-dust-nickel
+    ingredients:
+      - item: tf-1-12-ingot-nickel
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-nickel]
+      primary-output:
+        item: [tf-1-12-dust-nickel]
+  dust-obsidian:
+    results:
+      - item: tf-1-12-dust-obsidian
+    ingredients:
+      - item: mc-obsidian
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-obsidian]
+      primary-output:
+        item: [tf-1-12-dust-obsidian]
+        amount: 4
+  dust-platinum:
+    results:
+      - item: tf-1-12-dust-platinum
+    ingredients:
+      - item: tf-1-12-ingot-platinum
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-platinum]
+      primary-output:
+        item: [tf-1-12-dust-platinum]
+  dust-signalum:
+    results:
+      - item: tf-1-12-dust-signalum
+    ingredients:
+      - item: tf-1-12-ingot-signalum
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-signalum]
+      primary-output:
+        item: [tf-1-12-dust-signalum]
+  dust-silver:
+    results:
+      - item: tf-1-12-dust-silver
+    ingredients:
+      - item: tf-1-12-ingot-silver
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-silver]
+      primary-output:
+        item: [tf-1-12-dust-silver]
+  dust-steel:
+    results:
+      - item: tf-1-12-dust-steel
+    ingredients:
+      - item: tf-1-12-ingot-steel
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-steel]
+      primary-output:
+        item: [tf-1-12-dust-steel]
+  dust-tin:
+    results:
+      - item: tf-1-12-dust-tin
+    ingredients:
+      - item: tf-1-12-ingot-tin
+    energy: "2,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-tin]
+      primary-output:
+        item: [tf-1-12-dust-tin]
+  flower-processing-light-blue-orchid:
+    results:
+      - item: mc-light-blue-dye
+    ingredients:
+      - item: mc-flower-blue-orchid
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-blue-orchid]
+      primary-output:
+        item: [mc-light-blue-dye]
+        amount: 4
+  flower-processing-light-gray-azure-bluet:
+    results:
+      - item: mc-light-gray-dye
+    ingredients:
+      - item: mc-flower-azure-bluet
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-azure-bluet]
+      primary-output:
+        item: [mc-light-gray-dye]
+        amount: 4
+  flower-processing-light-gray-oxeye-daisy:
+    results:
+      - item: mc-light-gray-dye
+    ingredients:
+      - item: mc-flower-oxeye-daisy
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-oxeye-daisy]
+      primary-output:
+        item: [mc-light-gray-dye]
+        amount: 4
+  flower-processing-light-gray-tulip:
+    results:
+      - item: mc-light-gray-dye
+    ingredients:
+      - item: mc-flower-tulip-white
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-tulip-white]
+      primary-output:
+        item: [mc-light-gray-dye]
+        amount: 4
+  flower-processing-magenta-allium:
+    results:
+      - item: mc-magenta-dye
+    ingredients:
+      - item: mc-flower-allium
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-allium]
+      primary-output:
+        item: [mc-magenta-dye]
+        amount: 4
+  flower-processing-magenta-lilac:
+    results:
+      - item: mc-magenta-dye
+    ingredients:
+      - item: mc-flower-lilac
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-lilac]
+      primary-output:
+        item: [mc-magenta-dye]
+        amount: 4
+  flower-processing-orange-tulip:
+    results:
+      - item: mc-orange-dye
+    ingredients:
+      - item: mc-flower-tulip-orange
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-tulip-orange]
+      primary-output:
+        item: [mc-orange-dye]
+        amount: 4
+  flower-processing-pink-peony:
+    results:
+      - item: mc-pink-dye
+    ingredients:
+      - item: mc-flower-peony
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-peony]
+      primary-output:
+        item: [mc-pink-dye]
+        amount: 4
+  flower-processing-pink-tulip:
+    results:
+      - item: mc-pink-dye
+    ingredients:
+      - item: mc-flower-tulip-pink
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-tulip-pink]
+      primary-output:
+        item: [mc-pink-dye]
+        amount: 4
+  flower-processing-red-poppy:
+    results:
+      - item: mc-rose-red
+    ingredients:
+      - item: mc-flower-poppy
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-poppy]
+      primary-output:
+        item: [mc-rose-red]
+        amount: 4
+  flower-processing-red-rose-bush:
+    results:
+      - item: mc-rose-red
+    ingredients:
+      - item: mc-flower-rose-bush
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-rose-bush]
+      primary-output:
+        item: [mc-rose-red]
+        amount: 4
+  flower-processing-red-tulip:
+    results:
+      - item: mc-rose-red
+    ingredients:
+      - item: mc-flower-tulip-red
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-tulip-red]
+      primary-output:
+        item: [mc-rose-red]
+        amount: 4
+  flower-processing-yellow-dandelion:
+    results:
+      - item: mc-dandelion-yellow
+    ingredients:
+      - item: mc-flower-dandelion
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-dandelion]
+      primary-output:
+        item: [mc-dandelion-yellow]
+        amount: 4
+  flower-processing-yellow-sunflower:
+    results:
+      - item: mc-dandelion-yellow
+    ingredients:
+      - item: mc-flower-sunflower
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-flower-sunflower]
+      primary-output:
+        item: [mc-dandelion-yellow]
+        amount: 4
+  fluid-ore-processing-ender:
+    results:
+      - item: tf-1-12-clathrate-ender
+    ingredients:
+      - item: tf-1-12-ore-fluid-ender
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-fluid-ender]
+      primary-output:
+        item: [tf-1-12-clathrate-ender]
+        amount: 3
+  fluid-ore-processing-glowstone:
+    results:
+      - item: tf-1-12-clathrate-glowstone
+      - item: tf-1-12-sulfur
+    ingredients:
+      - item: tf-1-12-ore-fluid-glowstone
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-fluid-glowstone]
+      primary-output:
+        item: [tf-1-12-clathrate-glowstone]
+        amount: 3
+      secondary-output:
+        item: [tf-1-12-sulfur]
+      secondary-chance: 30
+  fluid-ore-processing-oil-sand:
+    results:
+      - item: tf-1-12-bitumen
+      - item: tf-1-12-tar
+    ingredients:
+      - item: tf-1-12-oil-sand
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-oil-sand, tf-1-12-oil-sand-red]
+      primary-output:
+        item: [tf-1-12-bitumen]
+        amount: 3
+      secondary-output:
+        item: [tf-1-12-tar]
+      secondary-chance: 50
+  fluid-ore-processing-oil-shale:
+    results:
+      - item: tf-1-12-bitumen
+      - item: mc-flint
+    ingredients:
+      - item: tf-1-12-oil-shale
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-oil-shale]
+      primary-output:
+        item: [tf-1-12-bitumen]
+        amount: 3
+      secondary-output:
+        item: [mc-flint]
+      secondary-chance: 50
+  fluid-ore-processing-redstone:
+    results:
+      - item: tf-1-12-clathrate-redstone
+      - item: tf-1-12-cinnabar
+    ingredients:
+      - item: tf-1-12-ore-fluid-redstone
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-fluid-redstone]
+      primary-output:
+        item: [tf-1-12-clathrate-redstone]
+        amount: 3
+      secondary-output:
+        item: [tf-1-12-cinnabar]
+      secondary-chance: 50
+  glowstone-dust-from-glowstone:
+    results:
+      - item: mc-glowstone-dust
+    ingredients:
+      - item: mc-glowstone
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-glowstone]
+      primary-output:
+        item: [mc-glowstone-dust]
+        amount: 4
+  gravel-from-cobblestone:
+    results:
+      - item: mc-gravel
+      - item: mc-sand
+    ingredients:
+      - item: mc-cobblestone
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-cobblestone]
+      primary-output:
+        item: [mc-gravel]
+      secondary-output:
+        item: [mc-sand]
+      secondary-chance: 15
+  gravel-from-netherrack:
+    results:
+      - item: mc-gravel
+      - item: tf-1-12-sulfur
+    ingredients:
+      - item: mc-netherrack
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-netherrack]
+      primary-output:
+        item: [mc-gravel]
+      secondary-output:
+        item: [tf-1-12-sulfur]
+      secondary-chance: 15
+  magma-cream-from-block:
+    results:
+      - item: mc-magma-cream
+    ingredients:
+      - item: mc-magma-block
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-magma-block]
+      primary-output:
+        item: [mc-magma-cream]
+        amount: 4
+  ore-processing-aluminum:
+    results:
+      - item: tf-1-12-dust-aluminum
+        suffix: x2
+      - item: tf-1-12-dust-iron
+    ingredients:
+      - item: tf-1-12-ore-aluminum
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-aluminum]
+      primary-output:
+        item: [tf-1-12-dust-aluminum]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-iron]
+      secondary-chance: 10
+  ore-processing-coal:
+    results:
+      - item: mc-coal
+      - item: tf-1-12-dust-coal
+    ingredients:
+      - item: mc-ore-coal
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ore-coal]
+      primary-output:
+        item: [mc-coal]
+        amount: 3
+      secondary-output:
+        item: [tf-1-12-dust-coal]
+      secondary-chance: 25
+  ore-processing-copper:
+    results:
+      - item: tf-1-12-dust-copper
+        suffix: x2
+      - item: tf-1-12-dust-gold
+    ingredients:
+      - item: tf-1-12-ore-copper
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-copper]
+      primary-output:
+        item: [tf-1-12-dust-copper]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-gold]
+      secondary-chance: 10
+  ore-processing-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-ore-diamond
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ore-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 2
+  ore-processing-emerald:
+    results:
+      - item: mc-emerald
+    ingredients:
+      - item: mc-ore-emerald
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ore-emerald]
+      primary-output:
+        item: [mc-emerald]
+        amount: 2
+  ore-processing-gold:
+    results:
+      - item: tf-1-12-dust-gold
+        suffix: x2
+      - item: tf-1-12-cinnabar
+    ingredients:
+      - item: mc-ore-gold
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ore-gold]
+      primary-output:
+        item: [tf-1-12-dust-gold]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-cinnabar]
+      secondary-chance: 10
+  ore-processing-iridium:
+    results:
+      - item: tf-1-12-dust-iridium
+        suffix: x2
+      - item: tf-1-12-dust-platinum
+    ingredients:
+      - item: tf-1-12-ore-iridium
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-iridium]
+      primary-output:
+        item: [tf-1-12-dust-iridium]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-platinum]
+      secondary-chance: 10
+  ore-processing-iron:
+    results:
+      - item: tf-1-12-dust-iron
+        suffix: x2
+      - item: tf-1-12-dust-nickel
+    ingredients:
+      - item: mc-ore-iron
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ore-iron]
+      primary-output:
+        item: [tf-1-12-dust-iron]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-nickel]
+      secondary-chance: 10
+  ore-processing-lapis-lazuli:
+    results:
+      - item: mc-lapis-lazuli
+      - item: tf-1-12-sulfur
+    ingredients:
+      - item: mc-ore-lapis-lazuli
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ore-lapis-lazuli]
+      primary-output:
+        item: [mc-lapis-lazuli]
+        amount: 10
+      secondary-output:
+        item: [tf-1-12-sulfur]
+      secondary-chance: 20
+  ore-processing-lead:
+    results:
+      - item: tf-1-12-dust-lead
+        suffix: x2
+      - item: tf-1-12-dust-silver
+    ingredients:
+      - item: tf-1-12-ore-lead
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-lead]
+      primary-output:
+        item: [tf-1-12-dust-lead]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-silver]
+      secondary-chance: 10
+  ore-processing-mithril:
+    results:
+      - item: tf-1-12-dust-mithril
+        suffix: x2
+      - item: tf-1-12-dust-gold
+    ingredients:
+      - item: tf-1-12-ore-mithril
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-mithril]
+      primary-output:
+        item: [tf-1-12-dust-mithril]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-gold]
+      secondary-chance: 10
+  ore-processing-nether-quartz:
+    results:
+      - item: mc-nether-quartz
+      - item: tf-1-12-sulfur
+    ingredients:
+      - item: mc-ore-nether-quartz
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ore-nether-quartz]
+      primary-output:
+        item: [mc-nether-quartz]
+        amount: 3
+      secondary-output:
+        item: [tf-1-12-sulfur]
+      secondary-chance: 15
+  ore-processing-nickel:
+    results:
+      - item: tf-1-12-dust-nickel
+        suffix: x2
+      - item: tf-1-12-dust-platinum
+    ingredients:
+      - item: tf-1-12-ore-nickel
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-nickel]
+      primary-output:
+        item: [tf-1-12-dust-nickel]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-platinum]
+      secondary-chance: 10
+  ore-processing-platinum:
+    results:
+      - item: tf-1-12-dust-platinum
+        suffix: x2
+      - item: tf-1-12-dust-iridium
+    ingredients:
+      - item: tf-1-12-ore-platinum
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-platinum]
+      primary-output:
+        item: [tf-1-12-dust-platinum]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-iridium]
+      secondary-chance: 10
+  ore-processing-redstone:
+    results:
+      - item: mc-redstone
+      - item: tf-1-12-cinnabar
+    ingredients:
+      - item: mc-ore-redstone
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ore-redstone]
+      primary-output:
+        item: [mc-redstone]
+        amount: 6
+      secondary-output:
+        item: [tf-1-12-cinnabar]
+      secondary-chance: 25
+  ore-processing-silver:
+    results:
+      - item: tf-1-12-dust-silver
+        suffix: x2
+      - item: tf-1-12-dust-lead
+    ingredients:
+      - item: tf-1-12-ore-silver
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-silver]
+      primary-output:
+        item: [tf-1-12-dust-silver]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-lead]
+      secondary-chance: 10
+  ore-processing-tin:
+    results:
+      - item: tf-1-12-dust-tin
+        suffix: x2
+      - item: tf-1-12-dust-iron
+    ingredients:
+      - item: tf-1-12-ore-tin
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ore-tin]
+      primary-output:
+        item: [tf-1-12-dust-tin]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-dust-iron]
+      secondary-chance: 10
+  prismarine-crystals-from-shard:
+    results:
+      - item: mc-prismarine-crystals
+    ingredients:
+      - item: mc-prismarine-shard
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-prismarine-shard]
+      primary-output:
+        item: [mc-prismarine-crystals]
+  recycling-armor-helmet-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-armor-helmet-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-armor-helmet-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 2
+  recycling-armor-chestplate-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-armor-chestplate-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-armor-chestplate-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 4
+  recycling-armor-leggings-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-armor-leggings-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-armor-leggings-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 3
+  recycling-armor-boots-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-armor-boots-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-armor-boots-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 2
+  recycling-brick-stairs:
+    results:
+      - item: mc-brick
+    ingredients:
+      - item: mc-brick-stairs
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-brick-stairs]
+      primary-output:
+        item: [mc-brick]
+        amount: 3
+  recycling-bricks:
+    results:
+      - item: mc-brick
+    ingredients:
+      - item: mc-bricks
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-bricks]
+      primary-output:
+        item: [mc-brick]
+        amount: 4
+  recycling-bricks-slab:
+    results:
+      - item: mc-brick
+    ingredients:
+      - item: mc-bricks-slab
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-bricks-slab]
+      primary-output:
+        item: [mc-brick]
+        amount: 2
+  recycling-clay-block:
+    results:
+      - item: mc-clay
+    ingredients:
+      - item: mc-clay-block
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-clay-block]
+      primary-output:
+        item: [mc-clay]
+        amount: 4
+  recycling-concrete:
+    results:
+      - item-group: mc-concrete-powder
+    ingredients:
+      - item-group: mc-concrete
+    energy: "4,000"
+    data:
+      input:
+        item-group: mc-concrete
+      primary-output:
+        item-group: mc-concrete-powder
+  recycling-flower-pot:
+    results:
+      - item: mc-brick
+    ingredients:
+      - item: mc-flower-pot
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-flower-pot]
+      primary-output:
+        item: [mc-brick]
+        amount: 3
+  recycling-glass:
+    results:
+      - item: mc-sand
+    ingredients:
+      - item: mc-glass
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-glass]
+      primary-output:
+        item: [mc-sand]
+  recycling-glass-bottle:
+    results:
+      - item: mc-sand
+    ingredients:
+      - item: mc-glass-bottle
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-glass-bottle]
+      primary-output:
+        item: [mc-sand]
+  recycling-glass-stained:
+    results:
+      - item: mc-sand
+    ingredients:
+      - item-group: mc-glass-stained
+    energy: "4,000"
+    data:
+      input:
+        item-group: mc-glass-stained
+      primary-output:
+        item: [mc-sand]
+  recycling-horse-armor-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-horse-armor-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-horse-armor-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 2
+  recycling-jukebox:
+    results:
+      - item: mc-diamond
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-jukebox
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-jukebox]
+      primary-output:
+        item: [mc-diamond]
+      secondary-output:
+        item: [tf-1-12-sawdust]
+        amount: 4
+      secondary-chance: 100
+  recycling-nether-brick:
+    results:
+      - item: mc-nether-brick-item
+    ingredients:
+      - item: mc-nether-brick
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-nether-brick]
+      primary-output:
+        item: [mc-nether-brick-item]
+        amount: 4
+  recycling-nether-brick-slab:
+    results:
+      - item: mc-nether-brick-item
+    ingredients:
+      - item: mc-nether-brick-slab
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-nether-brick-slab]
+      primary-output:
+        item: [mc-nether-brick-item]
+        amount: 2
+  recycling-nether-brick-stairs:
+    results:
+      - item: mc-nether-brick-item
+    ingredients:
+      - item: mc-nether-brick-stairs
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-nether-brick-stairs]
+      primary-output:
+        item: [mc-nether-brick-item]
+        amount: 3
+  recycling-nether-quartz-block:
+    results:
+      - item: mc-nether-quartz
+    ingredients:
+      - item-group: mc-nether-quartz-block
+    energy: "3,000"
+    data:
+      input:
+        item-group: mc-nether-quartz-block
+      primary-output:
+        item: [mc-nether-quartz]
+        amount: 4
+  recycling-nether-quartz-slab:
+    results:
+      - item: mc-nether-quartz
+    ingredients:
+      - item: mc-nether-quartz-slab
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-nether-quartz-slab]
+      primary-output:
+        item: [mc-nether-quartz]
+        amount: 2
+  recycling-nether-quartz-stairs:
+    results:
+      - item: mc-nether-quartz
+    ingredients:
+      - item: mc-nether-quartz-stairs
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-nether-quartz-stairs]
+      primary-output:
+        item: [mc-nether-quartz]
+        amount: 3
+  recycling-note-block:
+    results:
+      - item: mc-redstone
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-note-block
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-note-block]
+      primary-output:
+        item: [mc-redstone]
+      secondary-output:
+        item: [tf-1-12-sawdust]
+        amount: 4
+      secondary-chance: 100
+  recycling-sandstone:
+    results:
+      - item: mc-sand
+      - item: tf-1-12-niter
+    ingredients:
+      - item-group: mc-sandstone
+    energy: "3,000"
+    data:
+      input:
+        item-group: mc-sandstone
+      primary-output:
+        item: [mc-sand]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-niter]
+      secondary-chance: 40
+  recycling-sandstone-slab:
+    results:
+      - item: mc-sand
+      - item: tf-1-12-niter
+    ingredients:
+      - item: mc-sandstone-slab
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-sandstone-slab]
+      primary-output:
+        item: [mc-sand]
+      secondary-output:
+        item: [tf-1-12-niter]
+      secondary-chance: 20
+  recycling-sandstone-stairs:
+    results:
+      - item: mc-sand
+      - item: tf-1-12-niter
+    ingredients:
+      - item: mc-sandstone-stairs
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-sandstone-stairs]
+      primary-output:
+        item: [mc-sand]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-niter]
+      secondary-chance: 20
+  recycling-sandstone-red:
+    results:
+      - item: mc-sand-red
+      - item: tf-1-12-niter
+    ingredients:
+      - item-group: mc-sandstone-red
+    energy: "3,000"
+    data:
+      input:
+        item-group: mc-sandstone-red
+      primary-output:
+        item: [mc-sand-red]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-niter]
+      secondary-chance: 40
+  recycling-sandstone-red-slab:
+    results:
+      - item: mc-sand-red
+      - item: tf-1-12-niter
+    ingredients:
+      - item: mc-sandstone-red-slab
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-sandstone-red-slab]
+      primary-output:
+        item: [mc-sand-red]
+      secondary-output:
+        item: [tf-1-12-niter]
+      secondary-chance: 20
+  recycling-sandstone-red-stairs:
+    results:
+      - item: mc-sand-red
+      - item: tf-1-12-niter
+    ingredients:
+      - item: mc-sandstone-red-stairs
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-sandstone-red-stairs]
+      primary-output:
+        item: [mc-sand-red]
+        amount: 2
+      secondary-output:
+        item: [tf-1-12-niter]
+      secondary-chance: 20
+  recycling-terracotta:
+    results:
+      - item: mc-clay
+    ingredients:
+      - item: mc-terracotta
+    energy: "4,000"
+    data:
+      input:
+        item:
+          - mc-terracotta
+          - mc-terracotta-white
+          - mc-terracotta-orange
+          - mc-terracotta-magenta
+          - mc-terracotta-light-blue
+          - mc-terracotta-yellow
+          - mc-terracotta-lime
+          - mc-terracotta-pink
+          - mc-terracotta-gray
+          - mc-terracotta-light-gray
+          - mc-terracotta-cyan
+          - mc-terracotta-purple
+          - mc-terracotta-blue
+          - mc-terracotta-brown
+          - mc-terracotta-green
+          - mc-terracotta-red
+          - mc-terracotta-black
+        random: true
+      primary-output:
+        item: [mc-clay]
+        amount: 4
+  recycling-tool-axe-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-tool-axe-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-tool-axe-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-axe-wood:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-tool-axe-wood
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-tool-axe-wood]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-tool-excavator-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf-1-12-tool-excavator-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [tf-1-12-tool-excavator-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-excavator-wood:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: tf-1-12-tool-excavator-wood
+    energy: "3,000"
+    data:
+      input:
+        item: [tf-1-12-tool-excavator-wood]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-tool-fishing-rod:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-tool-fishing-rod
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-tool-fishing-rod]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-tool-fishing-rod-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf-1-12-tool-fishing-rod-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [tf-1-12-tool-fishing-rod-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-hammer-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf-1-12-tool-hammer-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [tf-1-12-tool-hammer-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 2
+  recycling-tool-hammer-wood:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: tf-1-12-tool-hammer-wood
+    energy: "3,000"
+    data:
+      input:
+        item: [tf-1-12-tool-hammer-wood]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 4
+  recycling-tool-hoe-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-tool-hoe-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-tool-hoe-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-hoe-wood:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-tool-hoe-wood
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-tool-hoe-wood]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-tool-pickaxe-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-tool-pickaxe-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-tool-pickaxe-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-pickaxe-wood:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-tool-pickaxe-wood
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-tool-pickaxe-wood]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-tool-shears-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf-1-12-tool-shears-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [tf-1-12-tool-shears-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-shears-wood:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: tf-1-12-tool-shears-wood
+    energy: "3,000"
+    data:
+      input:
+        item: [tf-1-12-tool-shears-wood]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-tool-shovel-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-tool-shovel-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-tool-shovel-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-shovel-wood:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-tool-shovel-wood
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-tool-shovel-wood]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-tool-sickle-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf-1-12-tool-sickle-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [tf-1-12-tool-sickle-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-tool-sickle-wood:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: tf-1-12-tool-sickle-wood
+    energy: "3,000"
+    data:
+      input:
+        item: [tf-1-12-tool-sickle-wood]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-weapon-bow:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-bow
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-bow]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-weapon-bow-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf-1-12-weapon-bow-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [tf-1-12-weapon-bow-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-weapon-shield:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-weapon-shield
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-weapon-shield]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 6
+  recycling-weapon-shield-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: tf-1-12-weapon-shield-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [tf-1-12-weapon-shield-diamond]
+      primary-output:
+        item: [mc-diamond]
+        amount: 3
+  recycling-weapon-sword-diamond:
+    results:
+      - item: mc-diamond
+    ingredients:
+      - item: mc-weapon-sword-diamond
+    energy: "6,000"
+    data:
+      input:
+        item: [mc-weapon-sword-diamond]
+      primary-output:
+        item: [mc-diamond]
+  recycling-weapon-sword-wood:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item: mc-weapon-sword-wood
+    energy: "3,000"
+    data:
+      input:
+        item: [mc-weapon-sword-wood]
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2
+  recycling-wool:
+    results:
+      - item: mc-string
+      - item-group: tf-1-12-pigment
+    ingredients:
+      - item-group: mc-wool
+    energy: "3,000"
+    data:
+      input:
+        item-group: mc-wool
+      primary-output:
+        item: [mc-string]
+        amount: 4
+      secondary-output:
+        item-group: tf-1-12-pigment
+      secondary-chance: 15
+  sand-from-gravel:
+    results:
+      - item: mc-sand
+      - item: mc-flint
+    ingredients:
+      - item: mc-gravel
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-gravel]
+      primary-output:
+        item: [mc-sand]
+      secondary-output:
+        item: [mc-flint]
+      secondary-chance: 15
+  sawdust-from-wood-log:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item-group: mc-wood-log
+    energy: "2,000"
+    data:
+      input:
+        item-group: mc-wood-log
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 8
+  sawdust-from-wood-planks:
+    results:
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item-group: mc-wood-planks
+    energy: "1,000"
+    data:
+      input:
+        item-group: mc-wood-planks
+      primary-output:
+        item: [tf-1-12-sawdust]
+        amount: 2

@@ -11,14 +11,14 @@ recipes:
   - tree-oil
 usage-recipes:
   crafting:
-  - tf2-torch-using-rosin
-  - tf2-piston-sticky-using-rosin
-  - tf2-lead-using-rosin
-  - tf2-aqua-chow-using-rosin
-  - tf2-aqua-chow-rich-using-rosin
-  - te5-florb-using-rosin
-  - te5-florb-magmatic-using-rosin
-  - te5-morb-using-rosin
+  - tf-1-12-torch-using-rosin
+  - tf-1-12-piston-sticky-using-rosin
+  - tf-1-12-lead-using-rosin
+  - tf-1-12-aqua-chow-using-rosin
+  - tf-1-12-aqua-chow-rich-using-rosin
+  - te-1-12-florb-using-rosin
+  - te-1-12-florb-magmatic-using-rosin
+  - te-1-12-morb-using-rosin
 ---
 
 ![Rosin](/assets/images/thermal-foundation-2/rosin.png){:style="height: 128px"}
@@ -34,7 +34,7 @@ Obtaining
 ---------
 
 ### Fractionating Still
-{% include recipe-table.html type='te5-refinery' recipes=page.recipes.refinery no-result=true %}
+{% include recipe-table.html type='te-1-12-refinery' recipes=page.recipes.refinery no-result=true %}
 
 
 Usage

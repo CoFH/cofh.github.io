@@ -11,13 +11,13 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/rockwool/
 recipes:
   smelting:
-  - tf2-rockwool
+  - tf-1-12-rockwool
   crafting:
-  - tf2-rockwool-dyeing
+  - tf-1-12-rockwool-dyeing
 usage-recipes:
   crafting:
-  - te5-satchel-basic-using-rockwool
-  - te5-satchel-void-using-rockwool
+  - te-1-12-satchel-basic-using-rockwool
+  - te-1-12-satchel-void-using-rockwool
 ---
 
 ![Rockwool](/assets/images/thermal-foundation-2/rockwool.gif){:style="height: 128px"}

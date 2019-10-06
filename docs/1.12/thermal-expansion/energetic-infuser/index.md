@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/energetic-infuser/
 recipes:
   crafting:
-  - te5-machine-charger
+  - te-1-12-machine-charger
 augments:
 - machine-power
 - machine-charger-throughput
@@ -159,7 +159,7 @@ cannot be augmented.
 
 Augments can be installed in the Augmentation tab in an energetic infuser's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
@@ -168,4 +168,4 @@ Recipes
 An energetic infuser can process the following items that do not hold [Redstone
 Flux](/docs/redstone-flux/) into different items.
 
-{% include recipe-table.html type='te5-charger' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-charger' recipes=page.recipe-list %}

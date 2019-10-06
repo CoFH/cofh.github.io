@@ -18,18 +18,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/upgrade-kits/
 recipes:
   crafting:
-  - tf2-upgrade-kit-hardened
-  - tf2-upgrade-kit-reinforced
-  - tf2-upgrade-kit-signalum
-  - tf2-upgrade-kit-resonant
+  - tf-1-12-upgrade-kit-hardened
+  - tf-1-12-upgrade-kit-reinforced
+  - tf-1-12-upgrade-kit-signalum
+  - tf-1-12-upgrade-kit-resonant
 usage-recipes:
   crafting:
-  - tf2-conversion-kit-reinforced
-  - tf2-conversion-kit-signalum-1
-  - tf2-conversion-kit-signalum-2
-  - tf2-conversion-kit-resonant-1
-  - tf2-conversion-kit-resonant-2
-  - tf2-conversion-kit-resonant-3
+  - tf-1-12-conversion-kit-reinforced
+  - tf-1-12-conversion-kit-signalum-1
+  - tf-1-12-conversion-kit-signalum-2
+  - tf-1-12-conversion-kit-resonant-1
+  - tf-1-12-conversion-kit-resonant-2
+  - tf-1-12-conversion-kit-resonant-3
 ---
 
 **Upgrade kits** are items used to incrementally upgrade blocks to higher

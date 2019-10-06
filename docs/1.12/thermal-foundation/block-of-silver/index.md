@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-silver/
 recipes:
   crafting:
-  - tf2-storage-block-silver
+  - tf-1-12-storage-block-silver
 usage-recipes:
   crafting:
-  - tf2-ingot-silver-from-block
+  - tf-1-12-ingot-silver-from-block
 ---
 
 **Blocks of silver** are blocks made from [silver ingots](/docs/1.12/thermal-foundation/silver-ingot/).

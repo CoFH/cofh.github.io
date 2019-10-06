@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/induction-smelter/
 recipes:
   crafting:
-  - te5-machine-smelter
+  - te-1-12-machine-smelter
 augments:
 - machine-power
 - machine-secondary
@@ -19,7 +19,7 @@ augments:
 recipe-list:
   general:
   - dust-smelting
-  - ra2-dust-smelting-fluxed-electrum
+  - ra-1-12-dust-smelting-fluxed-electrum
   - stone-bricks
   - nether-brick
   - hardened-glass
@@ -266,26 +266,26 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a smelter's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
 -------
 
 ### General
-{% include recipe-table.html type='te5-smelter' recipes=page.recipe-list.general %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.general %}
 
 ### Ore processing
-{% include recipe-table.html type='te5-smelter' recipes=page.recipe-list.ore-processing %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.ore-processing %}
 
 ### Ore processing with rich slag
-{% include recipe-table.html type='te5-smelter' recipes=page.recipe-list.ore-processing-rich-slag %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.ore-processing-rich-slag %}
 
 ### Ore processing with cinnabar
-{% include recipe-table.html type='te5-smelter' recipes=page.recipe-list.ore-processing-cinnabar %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.ore-processing-cinnabar %}
 
 ### Alloying
-{% include recipe-table.html type='te5-smelter' recipes=page.recipe-list.alloying %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.alloying %}
 
 ### Recycling
-{% include recipe-table.html type='te5-smelter' recipes=page.recipe-list.recycling %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.recycling %}

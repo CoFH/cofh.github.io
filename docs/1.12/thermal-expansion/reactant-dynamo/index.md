@@ -11,7 +11,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/reactant-dynamo/
 recipes:
   crafting:
-  - te5-dynamo-reactant
+  - te-1-12-dynamo-reactant
 augments:
 - dynamo-power
 - dynamo-efficiency
@@ -137,7 +137,7 @@ be augmented.
 
 Augments can be installed in the Augmentation tab in a reactant dynamo's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Reactions

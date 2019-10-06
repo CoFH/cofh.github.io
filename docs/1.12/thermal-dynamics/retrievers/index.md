@@ -19,16 +19,16 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/retrievers/
 recipes:
   crafting:
-  - td2-retriever-basic
-  - td2-retriever-hardened
-  - td2-retriever-reinforced
-  - td2-retriever-signalum
-  - td2-retriever-resonant
+  - td-1-12-retriever-basic
+  - td-1-12-retriever-hardened
+  - td-1-12-retriever-reinforced
+  - td-1-12-retriever-signalum
+  - td-1-12-retriever-resonant
   crafting-upgrading:
-  - td2-retriever-hardened-upgrade
-  - td2-retriever-reinforced-upgrade
-  - td2-retriever-signalum-upgrade
-  - td2-retriever-resonant-upgrade
+  - td-1-12-retriever-hardened-upgrade
+  - td-1-12-retriever-reinforced-upgrade
+  - td-1-12-retriever-signalum-upgrade
+  - td-1-12-retriever-resonant-upgrade
 ---
 
 **Retrievers** are items that can be installed on [itemduct](/docs/1.12/thermal-dynamics/itemduct/)

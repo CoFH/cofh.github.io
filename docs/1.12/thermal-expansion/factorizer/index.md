@@ -10,7 +10,7 @@ image:
   file: thermal-expansion-5/factorizer.png
 recipes:
   crafting:
-  - te5-device-factorizer
+  - te-1-12-device-factorizer
 ---
 
 > Refactor your storage!

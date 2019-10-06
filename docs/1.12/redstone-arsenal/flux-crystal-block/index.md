@@ -11,10 +11,10 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-crystal-block/
 recipes:
   crafting:
-  - ra2-storage-block-flux-crystal
+  - ra-1-12-storage-block-flux-crystal
 usage-recipes:
   crafting:
-  - ra2-flux-crystal-from-block
+  - ra-1-12-flux-crystal-from-block
 ---
 
 **Flux crystal blocks** are blocks made from [flux

@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-bow/
 recipes:
   crafting:
-  - ra2-weapon-bow
+  - ra-1-12-weapon-bow
 ---
 
 A **flux-infused bow** is a powerful [bow](https://minecraft.gamepedia.com/Bow)

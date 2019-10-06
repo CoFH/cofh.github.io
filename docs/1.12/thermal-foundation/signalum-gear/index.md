@@ -9,23 +9,23 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/signalum-gear/
 recipes:
   crafting:
-  - tf2-gear-signalum
+  - tf-1-12-gear-signalum
   compactor-gear:
   - gear-signalum
 usage-recipes:
   crafting:
-  - te5-augment-machine-pulverizer-petrotheum
-  - te5-augment-machine-smelter-pyrotheum
-  - te5-augment-machine-insolator-tree
-  - te5-augment-machine-insolator-monoculture
-  - te5-augment-machine-refinery-potion
-  - te5-augment-dynamo-magmatic-coolant
-  - te5-augment-dynamo-compression-fuel
-  - te5-augment-dynamo-reactant-elemental
-  - te5-augment-dynamo-enervation-enchant
-  - te5-augment-dynamo-numismatic-gem
-  - ti-fluxbore-signalum
-  - ti-fluxsaw-signalum
+  - te-1-12-augment-machine-pulverizer-petrotheum
+  - te-1-12-augment-machine-smelter-pyrotheum
+  - te-1-12-augment-machine-insolator-tree
+  - te-1-12-augment-machine-insolator-monoculture
+  - te-1-12-augment-machine-refinery-potion
+  - te-1-12-augment-dynamo-magmatic-coolant
+  - te-1-12-augment-dynamo-compression-fuel
+  - te-1-12-augment-dynamo-reactant-elemental
+  - te-1-12-augment-dynamo-enervation-enchant
+  - te-1-12-augment-dynamo-numismatic-gem
+  - ti-1-12-fluxbore-signalum
+  - ti-1-12-fluxsaw-signalum
   smelter:
   - recycling-gear-signalum
 ---
@@ -44,7 +44,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -54,4 +54,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

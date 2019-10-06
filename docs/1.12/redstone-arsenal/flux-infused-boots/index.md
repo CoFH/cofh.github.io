@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-boots/
 recipes:
   crafting:
-  - ra2-armor-boots
+  - ra-1-12-armor-boots
 ---
 
 **Flux-infused boots** are powerful

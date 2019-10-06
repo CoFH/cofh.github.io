@@ -10,15 +10,15 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/redstone-energy-fluxduct/
 recipes:
   crafting:
-  - td2-fluxduct-reinforced-empty
+  - td-1-12-fluxduct-reinforced-empty
   transposer-fill:
-  - td2-fluxduct-reinforced
+  - td-1-12-fluxduct-reinforced
 usage-recipes:
   crafting:
-  - td2-fluxduct-signalum-empty-one
-  - td2-fluxduct-signalum-empty-three
-  - td2-fluxduct-signalum-one
-  - td2-fluxduct-signalum-three
+  - td-1-12-fluxduct-signalum-empty-one
+  - td-1-12-fluxduct-signalum-empty-three
+  - td-1-12-fluxduct-signalum-one
+  - td-1-12-fluxduct-signalum-three
 ---
 
 A **redstone energy fluxduct** is a [fluxduct](/docs/1.12/thermal-dynamics/fluxducts/) of the third
@@ -32,7 +32,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill %}
 
 
 Usage

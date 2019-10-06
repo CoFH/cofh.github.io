@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-sword/
 recipes:
   crafting:
-  - ra2-weapon-sword
+  - ra-1-12-weapon-sword
 ---
 
 A **flux-infused sword** is a powerful

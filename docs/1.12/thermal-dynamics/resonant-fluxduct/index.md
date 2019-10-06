@@ -10,15 +10,15 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/resonant-fluxduct/
 recipes:
   crafting:
-  - td2-fluxduct-resonant-empty-one
-  - td2-fluxduct-resonant-empty-three
-  - td2-fluxduct-resonant-one
-  - td2-fluxduct-resonant-three
+  - td-1-12-fluxduct-resonant-empty-one
+  - td-1-12-fluxduct-resonant-empty-three
+  - td-1-12-fluxduct-resonant-one
+  - td-1-12-fluxduct-resonant-three
   transposer-fill:
-  - td2-fluxduct-resonant
+  - td-1-12-fluxduct-resonant
 usage-recipes:
   crafting:
-  - td2-fluxduct-super-empty
+  - td-1-12-fluxduct-super-empty
 ---
 
 A **resonant fluxduct** is a [fluxduct](/docs/1.12/thermal-dynamics/fluxducts/) of the fifth tier. It
@@ -33,7 +33,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill %}
 
 
 Usage

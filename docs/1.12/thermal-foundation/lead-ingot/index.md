@@ -10,14 +10,14 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/lead-ingot/
 recipes:
   smelting:
-  - tf2-ore-processing-lead
-  - tf2-ingot-lead-from-dust
+  - tf-1-12-ore-processing-lead
+  - tf-1-12-ingot-lead-from-dust
   crafting:
-  - tf2-pyrotheum-ore-lead
-  - tf2-petrotheum-pyrotheum-ore-lead
-  - tf2-pyrotheum-dust-lead
-  - tf2-ingot-lead-from-nuggets
-  - tf2-ingot-lead-from-block
+  - tf-1-12-pyrotheum-ore-lead
+  - tf-1-12-petrotheum-pyrotheum-ore-lead
+  - tf-1-12-pyrotheum-dust-lead
+  - tf-1-12-ingot-lead-from-nuggets
+  - tf-1-12-ingot-lead-from-block
   smelter:
   - ore-processing-sand-lead
   - ore-processing-rich-slag-lead
@@ -45,51 +45,51 @@ recipes:
   - recycling-horse-armor-lead
 usage-recipes:
   crafting:
-  - tf2-petrotheum-ingot-lead
-  - tf2-nugget-lead
-  - tf2-gear-lead
-  - tf2-storage-block-lead
-  - tf2-multimeter
-  - te5-device-lexicon
-  - te5-device-factorizer
-  - te5-dynamo-reactant
-  - te5-energy-cell-basic
-  - te5-flux-capacitor-basic
-  - te5-augment-machine-charger-throughput
-  - te5-augment-dynamo-efficiency
-  - td2-fluxduct-basic
-  - td2-fluiduct-basic-opaque
-  - td2-fluiduct-basic-opaque-from-transparent
-  - td2-fluiduct-hardened-opaque
-  - td2-fluiduct-hardened-opaque-from-transparent
-  - td2-fluiduct-energy-opaque-from-transparent
-  - td2-fluiduct-super-opaque-from-transparent
-  - td2-itemduct-opaque
-  - td2-itemduct-opaque-from-transparent
-  - td2-itemduct-fast-opaque-from-transparent
-  - td2-itemduct-energy-opaque-from-transparent
-  - td2-itemduct-energy-fast-opaque-from-transparent
-  - td2-structuralduct
-  - td2-viaduct-long-range
-  - td2-redstone-relay
-  - ti-fluxomagnet-basic
-  - tf2-tool-pickaxe-lead
-  - tf2-tool-shovel-lead
-  - tf2-tool-axe-lead
-  - tf2-tool-hoe-lead
-  - tf2-tool-fishing-rod-lead
-  - tf2-tool-shears-lead
-  - tf2-tool-hammer-lead
-  - tf2-tool-excavator-lead
-  - tf2-tool-sickle-lead
-  - tf2-weapon-sword-lead
-  - tf2-weapon-bow-lead
-  - tf2-weapon-shield-lead
-  - tf2-armor-helmet-lead
-  - tf2-armor-chestplate-lead
-  - tf2-armor-leggings-lead
-  - tf2-armor-boots-lead
-  - tf2-horse-armor-lead
+  - tf-1-12-petrotheum-ingot-lead
+  - tf-1-12-nugget-lead
+  - tf-1-12-gear-lead
+  - tf-1-12-storage-block-lead
+  - tf-1-12-multimeter
+  - te-1-12-device-lexicon
+  - te-1-12-device-factorizer
+  - te-1-12-dynamo-reactant
+  - te-1-12-energy-cell-basic
+  - te-1-12-flux-capacitor-basic
+  - te-1-12-augment-machine-charger-throughput
+  - te-1-12-augment-dynamo-efficiency
+  - td-1-12-fluxduct-basic
+  - td-1-12-fluiduct-basic-opaque
+  - td-1-12-fluiduct-basic-opaque-from-transparent
+  - td-1-12-fluiduct-hardened-opaque
+  - td-1-12-fluiduct-hardened-opaque-from-transparent
+  - td-1-12-fluiduct-energy-opaque-from-transparent
+  - td-1-12-fluiduct-super-opaque-from-transparent
+  - td-1-12-itemduct-opaque
+  - td-1-12-itemduct-opaque-from-transparent
+  - td-1-12-itemduct-fast-opaque-from-transparent
+  - td-1-12-itemduct-energy-opaque-from-transparent
+  - td-1-12-itemduct-energy-fast-opaque-from-transparent
+  - td-1-12-structuralduct
+  - td-1-12-viaduct-long-range
+  - td-1-12-redstone-relay
+  - ti-1-12-fluxomagnet-basic
+  - tf-1-12-tool-pickaxe-lead
+  - tf-1-12-tool-shovel-lead
+  - tf-1-12-tool-axe-lead
+  - tf-1-12-tool-hoe-lead
+  - tf-1-12-tool-fishing-rod-lead
+  - tf-1-12-tool-shears-lead
+  - tf-1-12-tool-hammer-lead
+  - tf-1-12-tool-excavator-lead
+  - tf-1-12-tool-sickle-lead
+  - tf-1-12-weapon-sword-lead
+  - tf-1-12-weapon-bow-lead
+  - tf-1-12-weapon-shield-lead
+  - tf-1-12-armor-helmet-lead
+  - tf-1-12-armor-chestplate-lead
+  - tf-1-12-armor-leggings-lead
+  - tf-1-12-armor-boots-lead
+  - tf-1-12-horse-armor-lead
   pulverizer:
   - dust-lead
   compactor:
@@ -117,7 +117,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -127,16 +127,16 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

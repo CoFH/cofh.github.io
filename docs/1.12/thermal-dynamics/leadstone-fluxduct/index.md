@@ -10,11 +10,11 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/leadstone-fluxduct/
 recipes:
   crafting:
-  - td2-fluxduct-basic
+  - td-1-12-fluxduct-basic
 usage-recipes:
   crafting:
-  - td2-fluxduct-hardened-one
-  - td2-fluxduct-hardened-three
+  - td-1-12-fluxduct-hardened-one
+  - td-1-12-fluxduct-hardened-three
 ---
 
 A **leadstone fluxduct** is a [fluxduct](/docs/1.12/thermal-dynamics/fluxducts/) of the first and

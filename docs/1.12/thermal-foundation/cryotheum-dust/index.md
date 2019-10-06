@@ -11,24 +11,24 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/cryotheum-dust/
 recipes:
   crafting:
-  - tf2-dust-cryotheum
+  - tf-1-12-dust-cryotheum
 usage-recipes:
   crafting:
-  - tf2-ice-using-cryotheum
-  - tf2-packed-ice-using-cryotheum
-  - tf2-redstone-from-fluid
-  - tf2-glowstone-dust-from-fluid
-  - tf2-ender-pearl-from-fluid
-  - tf2-redstone-from-clathrate
-  - tf2-glowstone-dust-from-clathrate
-  - tf2-ender-pearl-from-clathrate
-  - tf2-upgrade-kit-signalum
-  - te5-flux-capacitor-signalum
-  - te5-reservoir-signalum
-  - te5-augment-machine-extruder-no-water
-  - te5-augment-dynamo-magmatic-coolant
-  - te5-augment-dynamo-compression-coolant
-  - tc-watering-can-signalum
+  - tf-1-12-ice-using-cryotheum
+  - tf-1-12-packed-ice-using-cryotheum
+  - tf-1-12-redstone-from-fluid
+  - tf-1-12-glowstone-dust-from-fluid
+  - tf-1-12-ender-pearl-from-fluid
+  - tf-1-12-redstone-from-clathrate
+  - tf-1-12-glowstone-dust-from-clathrate
+  - tf-1-12-ender-pearl-from-clathrate
+  - tf-1-12-upgrade-kit-signalum
+  - te-1-12-flux-capacitor-signalum
+  - te-1-12-reservoir-signalum
+  - te-1-12-augment-machine-extruder-no-water
+  - te-1-12-augment-dynamo-magmatic-coolant
+  - te-1-12-augment-dynamo-compression-coolant
+  - tc-1-12-watering-can-signalum
   crucible:
   - cryotheum
   transposer-fill:
@@ -59,16 +59,16 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Centrifugal Separator ingredient
-{% include recipe-table.html type='te5-centrifuge' recipes=page.usage-recipes.centrifuge %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.usage-recipes.centrifuge %}
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [blazing pyrotheum](/docs/1.12/thermal-foundation/blazing-pyrotheum/)

@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/pulverizer/
 recipes:
   crafting:
-  - te5-machine-pulverizer
+  - te-1-12-machine-pulverizer
 augments:
 - machine-power
 - machine-secondary
@@ -259,23 +259,23 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a pulverizer's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
 -------
 
 ### Blocks
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.blocks %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipe-list.blocks %}
 
 ### Items
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.items %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipe-list.items %}
 
 ### Ore processing
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.ore-processing %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipe-list.ore-processing %}
 
 ### Flower processing
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.flower-processing %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipe-list.flower-processing %}
 
 ### Recycling
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipe-list.recycling %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipe-list.recycling %}

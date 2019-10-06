@@ -13,7 +13,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/sequential-fabricator/
 recipes:
   crafting:
-  - te5-machine-crafter
+  - te-1-12-machine-crafter
 augments:
 - machine-power
 - machine-crafter-input
@@ -152,4 +152,4 @@ sequential fabricator cannot be augmented.
 Augments can be installed in the Augmentation tab in a sequential fabricator's
 GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}

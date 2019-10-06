@@ -63,19 +63,19 @@ recipes:
   - recycling-horse-armor-metal
 usage-recipes:
   crafting:
-  - tf2-clay-using-slag
-  - tf2-dirt-using-biomass-and-slag
-  - tf2-phyto-gro-using-sawdust
-  - tf2-phyto-gro-using-charcoal
-  - te5-florb-using-slime
-  - te5-florb-using-rosin
-  - te5-florb-magmatic-using-magma-cream
-  - te5-florb-magmatic-using-slime
-  - te5-florb-magmatic-using-rosin
-  - te5-morb-using-slime
-  - te5-morb-using-rosin
+  - tf-1-12-clay-using-slag
+  - tf-1-12-dirt-using-biomass-and-slag
+  - tf-1-12-phyto-gro-using-sawdust
+  - tf-1-12-phyto-gro-using-charcoal
+  - te-1-12-florb-using-slime
+  - te-1-12-florb-using-rosin
+  - te-1-12-florb-magmatic-using-magma-cream
+  - te-1-12-florb-magmatic-using-slime
+  - te-1-12-florb-magmatic-using-rosin
+  - te-1-12-morb-using-slime
+  - te-1-12-morb-using-rosin
   smelting:
-  - tf2-rockwool
+  - tf-1-12-rockwool
 ---
 
 ![Slag](/assets/images/thermal-foundation-2/slag.png){:style="height: 128px"}
@@ -89,7 +89,7 @@ Obtaining
 ---------
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage

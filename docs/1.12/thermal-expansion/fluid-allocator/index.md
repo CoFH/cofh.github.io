@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/fluid-allocator/
 recipes:
   crafting:
-  - te5-device-fluid-buffer
+  - te-1-12-device-fluid-buffer
 ---
 
 > It's like a [hopper](https://minecraft.gamepedia.com/Hopper), for fluids!

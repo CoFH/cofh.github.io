@@ -10,40 +10,40 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/redstone-servo/
 recipes:
   crafting:
-  - tf2-redstone-servo
+  - tf-1-12-redstone-servo
 usage-recipes:
   crafting:
-  - te5-device-water-gen
-  - te5-device-nullifier
-  - te5-device-heat-sink
-  - te5-device-tapper
-  - te5-device-fisher
-  - te5-device-item-buffer
-  - te5-device-fluid-buffer
-  - te5-device-lexicon
-  - te5-device-xp-collector
-  - te5-device-diffuser
-  - te5-device-factorizer
-  - te5-device-mob-catcher
-  - te5-device-item-collector
-  - te5-portable-tank-basic
-  - te5-reservoir-basic
-  - te5-cache-basic
-  - te5-augment-machine-secondary
-  - te5-augment-machine-furnace-pyrolysis
-  - te5-augment-machine-pulverizer-petrotheum
-  - te5-augment-machine-sawmill-tapper
-  - te5-augment-machine-smelter-flux
-  - te5-augment-machine-insolator-fertilizer
-  - te5-augment-machine-insolator-tree
-  - te5-augment-machine-compactor-coin
-  - te5-augment-machine-compactor-gear
-  - te5-augment-machine-charger-wireless
-  - te5-augment-machine-centrifuge-mobs
-  - te5-augment-machine-crafter-input
-  - te5-augment-machine-crafter-tank
-  - te5-augment-machine-brewer-reagent
-  - te5-augment-machine-extruder-no-water
+  - te-1-12-device-water-gen
+  - te-1-12-device-nullifier
+  - te-1-12-device-heat-sink
+  - te-1-12-device-tapper
+  - te-1-12-device-fisher
+  - te-1-12-device-item-buffer
+  - te-1-12-device-fluid-buffer
+  - te-1-12-device-lexicon
+  - te-1-12-device-xp-collector
+  - te-1-12-device-diffuser
+  - te-1-12-device-factorizer
+  - te-1-12-device-mob-catcher
+  - te-1-12-device-item-collector
+  - te-1-12-portable-tank-basic
+  - te-1-12-reservoir-basic
+  - te-1-12-cache-basic
+  - te-1-12-augment-machine-secondary
+  - te-1-12-augment-machine-furnace-pyrolysis
+  - te-1-12-augment-machine-pulverizer-petrotheum
+  - te-1-12-augment-machine-sawmill-tapper
+  - te-1-12-augment-machine-smelter-flux
+  - te-1-12-augment-machine-insolator-fertilizer
+  - te-1-12-augment-machine-insolator-tree
+  - te-1-12-augment-machine-compactor-coin
+  - te-1-12-augment-machine-compactor-gear
+  - te-1-12-augment-machine-charger-wireless
+  - te-1-12-augment-machine-centrifuge-mobs
+  - te-1-12-augment-machine-crafter-input
+  - te-1-12-augment-machine-crafter-tank
+  - te-1-12-augment-machine-brewer-reagent
+  - te-1-12-augment-machine-extruder-no-water
 ---
 
 ![Redstone servo](/assets/images/thermal-foundation-2/redstone-servo.png){:style="height: 128px"}

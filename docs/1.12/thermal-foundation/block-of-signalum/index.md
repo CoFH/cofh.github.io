@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-signalum/
 recipes:
   crafting:
-  - tf2-storage-block-signalum
+  - tf-1-12-storage-block-signalum
 usage-recipes:
   crafting:
-  - tf2-ingot-signalum-from-block
+  - tf-1-12-ingot-signalum-from-block
 ---
 
 **Blocks of signalum** are blocks made from [signalum

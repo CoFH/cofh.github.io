@@ -8,15 +8,15 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/silver-gear/
 recipes:
   crafting:
-  - tf2-gear-silver
+  - tf-1-12-gear-silver
   compactor-gear:
   - gear-silver
 usage-recipes:
   crafting:
-  - tf2-upgrade-kit-reinforced
-  - te5-augment-machine-smelter-flux
-  - te5-augment-machine-insolator-fertilizer
-  - te5-augment-machine-brewer-reagent
+  - tf-1-12-upgrade-kit-reinforced
+  - te-1-12-augment-machine-smelter-flux
+  - te-1-12-augment-machine-insolator-fertilizer
+  - te-1-12-augment-machine-brewer-reagent
   smelter:
   - recycling-gear-silver
 ---
@@ -34,7 +34,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -44,4 +44,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

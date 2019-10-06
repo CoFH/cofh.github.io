@@ -20,19 +20,19 @@ recipes:
   - dust-signalum
 usage-recipes:
   crafting:
-  - tf2-redstone-from-fluid
-  - tf2-dust-signalum
-  - ra2-dust-fluxed-electrum-using-electrum
-  - ra2-dust-fluxed-electrum-using-gold-and-silver
-  - ra2-flux-crystal
+  - tf-1-12-redstone-from-fluid
+  - tf-1-12-dust-signalum
+  - ra-1-12-dust-fluxed-electrum-using-electrum
+  - ra-1-12-dust-fluxed-electrum-using-gold-and-silver
+  - ra-1-12-flux-crystal
   transposer-fill:
   - bucket-redstone
   - redstone-from-fluid
-  - td2-fluxduct-reinforced
-  - td2-fluxduct-signalum
-  - td2-fluxduct-resonant
-  - ra2-dust-fluxed-electrum
-  - ra2-flux-crystal
+  - td-1-12-fluxduct-reinforced
+  - td-1-12-fluxduct-signalum
+  - td-1-12-fluxduct-resonant
+  - ra-1-12-dust-fluxed-electrum
+  - ra-1-12-flux-crystal
 ---
 
 ![Destabilized redstone](/assets/images/thermal-foundation-2/destabilized-redstone.gif){:style="height: 128px"}
@@ -49,13 +49,13 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='te5-crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge %}
 
 ### Natural generation
 Deposits of [destabilized redstone ore](/docs/1.12/thermal-foundation/destabilized-redstone-ore/) may
@@ -84,7 +84,7 @@ may be used in these recipes.
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Reactant Dynamo fuel
 Destabilized redstone can be used with

@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/multimeter/
 recipes:
   crafting:
-  - tf2-multimeter
+  - tf-1-12-multimeter
 ---
 
 ![Multimeter](/assets/images/thermal-foundation-2/multimeter.png){:style="height: 128px"}

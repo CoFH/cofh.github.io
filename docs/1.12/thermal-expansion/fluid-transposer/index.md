@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/fluid-transposer/
 recipes:
   crafting:
-  - te5-machine-transposer
+  - te-1-12-machine-transposer
 augments:
 - machine-power
 - machine-secondary
@@ -36,16 +36,16 @@ recipe-list:
   - glowstone-dust-from-clathrate
   - ender-pearl-from-clathrate
   - bottle-o-enchanting
-  - td2-fluxduct-reinforced
-  - td2-fluxduct-signalum
-  - td2-fluxduct-resonant
-  - td2-fluxduct-super
-  - td2-itemduct-fast
-  - td2-itemduct-energy-fast
-  - td2-viaduct
-  - td2-viaduct-long-range-linking
-  - ra2-dust-fluxed-electrum
-  - ra2-flux-crystal
+  - td-1-12-fluxduct-reinforced
+  - td-1-12-fluxduct-signalum
+  - td-1-12-fluxduct-resonant
+  - td-1-12-fluxduct-super
+  - td-1-12-itemduct-fast
+  - td-1-12-itemduct-energy-fast
+  - td-1-12-viaduct
+  - td-1-12-viaduct-long-range-linking
+  - ra-1-12-dust-fluxed-electrum
+  - ra-1-12-flux-crystal
   empty:
   - water-from-cactus
   - water-from-sponge
@@ -186,7 +186,7 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a transposer's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
@@ -203,7 +203,7 @@ Recipes
   [lingering potion](https://minecraft.gamepedia.com/Lingering_Potion) for 400
   RF.
 
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipe-list.fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipe-list.fill %}
 
 ### Emptying
 * 1,000 mB of fluid can be drained from items that hold fluids such as filled
@@ -211,4 +211,4 @@ Recipes
 * 250 mB of a [fluid potion](/docs/1.12/thermal-foundation/potion-fluid/) can be drained from a
   [potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
 
-{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipe-list.empty %}
+{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipe-list.empty %}

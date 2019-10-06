@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/platinum-nugget/
 recipes:
   crafting:
-  - tf2-nugget-platinum
+  - tf-1-12-nugget-platinum
 usage-recipes:
   crafting:
-  - tf2-ingot-platinum-from-nuggets
+  - tf-1-12-ingot-platinum-from-nuggets
 ---
 
 ![Platinum nugget](/assets/images/thermal-foundation-2/nugget-platinum.png){:style="height: 128px"}

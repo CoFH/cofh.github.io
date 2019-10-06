@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/aluminum-nugget/
 recipes:
   crafting:
-  - tf2-nugget-aluminum
+  - tf-1-12-nugget-aluminum
 usage-recipes:
   crafting:
-  - tf2-ingot-aluminum-from-nuggets
+  - tf-1-12-ingot-aluminum-from-nuggets
 ---
 
 ![Aluminum nugget](/assets/images/thermal-foundation-2/nugget-aluminum.png){:style="height: 128px"}

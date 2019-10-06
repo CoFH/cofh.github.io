@@ -6,95 +6,95 @@ mc-water:
   name: Water
   site: mc-wiki
   url: Water
-tf2-aerotheum:
+tf-1-12-aerotheum:
   name: Zephyrean Aerotheum
-  site: tf2-docs
+  site: tf-1-12-docs
   url: zephyrean-aerotheum/
-tf2-biocrude:
+tf-1-12-biocrude:
   name: Biocrude
-  site: tf2-docs
+  site: tf-1-12-docs
   url: biocrude/
-tf2-coal:
+tf-1-12-coal:
   name: Liquifacted Coal
-  site: tf2-docs
+  site: tf-1-12-docs
   url: liquifacted-coal/
-tf2-creosote-oil:
+tf-1-12-creosote-oil:
   name: Creosote Oil
-  site: tf2-docs
+  site: tf-1-12-docs
   url: creosote-oil/
-tf2-crude-oil:
+tf-1-12-crude-oil:
   name: Crude Oil
-  site: tf2-docs
+  site: tf-1-12-docs
   url: crude-oil/
-tf2-cryotheum:
+tf-1-12-cryotheum:
   name: Gelid Cryotheum
-  site: tf2-docs
+  site: tf-1-12-docs
   url: gelid-cryotheum/
-tf2-ender:
+tf-1-12-ender:
   name: Resonant Ender
-  site: tf2-docs
+  site: tf-1-12-docs
   url: resonant-ender/
-tf2-experience:
+tf-1-12-experience:
   name: Essence of Knowledge
-  site: tf2-docs
+  site: tf-1-12-docs
   url: essence-of-knowledge/
-tf2-glowstone:
+tf-1-12-glowstone:
   name: Energized Glowstone
-  site: tf2-docs
+  site: tf-1-12-docs
   url: energized-glowstone/
-tf2-grassoline:
+tf-1-12-grassoline:
   name: Grassoline
-  site: tf2-docs
+  site: tf-1-12-docs
   url: grassoline/
-tf2-mana:
+tf-1-12-mana:
   name: Primal Mana
-  site: tf2-docs
+  site: tf-1-12-docs
   url: primal-mana/
-tf2-mushroom-stew:
+tf-1-12-mushroom-stew:
   name: Mushroom Stew
-  site: tf2-docs
+  site: tf-1-12-docs
   url: mushroom-stew/
-tf2-naphtha:
+tf-1-12-naphtha:
   name: Naphtha
-  site: tf2-docs
+  site: tf-1-12-docs
   url: naphtha/
-tf2-petrotheum:
+tf-1-12-petrotheum:
   name: Tectonic Petrotheum
-  site: tf2-docs
+  site: tf-1-12-docs
   url: tectonic-petrotheum/
-tf2-pyrotheum:
+tf-1-12-pyrotheum:
   name: Blazing Pyrotheum
-  site: tf2-docs
+  site: tf-1-12-docs
   url: blazing-pyrotheum/
-tf2-redstone:
+tf-1-12-redstone:
   name: Destabilized Redstone
-  site: tf2-docs
+  site: tf-1-12-docs
   url: destabilized-redstone/
-tf2-refined-fuel:
+tf-1-12-refined-fuel:
   name: Refined Fuel
-  site: tf2-docs
+  site: tf-1-12-docs
   url: refined-fuel/
-tf2-resin:
+tf-1-12-resin:
   name: Resin
-  site: tf2-docs
+  site: tf-1-12-docs
   url: resin/
-tf2-sap:
+tf-1-12-sap:
   name: Sap
-  site: tf2-docs
+  site: tf-1-12-docs
   url: sap/
-tf2-seed-oil:
+tf-1-12-seed-oil:
   name: Seed Oil
-  site: tf2-docs
+  site: tf-1-12-docs
   url: seed-oil/
-tf2-steam:
+tf-1-12-steam:
   name: Steam
-  site: tf2-docs
+  site: tf-1-12-docs
   url: steam/
-tf2-syrup:
+tf-1-12-syrup:
   name: Syrup
-  site: tf2-docs
+  site: tf-1-12-docs
   url: syrup/
-tf2-tree-oil:
+tf-1-12-tree-oil:
   name: Tree Oil
-  site: tf2-docs
+  site: tf-1-12-docs
   url: tree-oil/

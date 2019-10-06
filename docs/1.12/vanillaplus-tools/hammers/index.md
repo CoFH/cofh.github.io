@@ -13,11 +13,11 @@ image:
   file: vanillaplus-tools/hammer-stone.png
 recipes:
   crafting:
-  - vpt-tool-hammer-wood
-  - vpt-tool-hammer-stone
-  - vpt-tool-hammer-iron
-  - vpt-tool-hammer-gold
-  - vpt-tool-hammer-diamond
+  - vpt-1-12-tool-hammer-wood
+  - vpt-1-12-tool-hammer-stone
+  - vpt-1-12-tool-hammer-iron
+  - vpt-1-12-tool-hammer-gold
+  - vpt-1-12-tool-hammer-diamond
 redirect_from:
 - /docs/vanillaplus-tools/hammers/
 ---

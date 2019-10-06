@@ -11,10 +11,10 @@ image:
   file: vanillaplus-tools/shield-stone.png
 recipes:
   crafting:
-  - vpt-weapon-shield-stone
-  - vpt-weapon-shield-iron
-  - vpt-weapon-shield-gold
-  - vpt-weapon-shield-diamond
+  - vpt-1-12-weapon-shield-stone
+  - vpt-1-12-weapon-shield-iron
+  - vpt-1-12-weapon-shield-gold
+  - vpt-1-12-weapon-shield-diamond
 redirect_from:
 - /docs/vanillaplus-tools/shields/
 ---

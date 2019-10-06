@@ -12,14 +12,14 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/platinum-ingot/
 recipes:
   smelting:
-  - tf2-ingot-platinum-from-dust
-  - tf2-ore-processing-platinum
+  - tf-1-12-ingot-platinum-from-dust
+  - tf-1-12-ore-processing-platinum
   crafting:
-  - tf2-pyrotheum-dust-platinum
-  - tf2-ingot-platinum-from-nuggets
-  - tf2-ingot-platinum-from-block
-  - tf2-pyrotheum-ore-platinum
-  - tf2-petrotheum-pyrotheum-ore-platinum
+  - tf-1-12-pyrotheum-dust-platinum
+  - tf-1-12-ingot-platinum-from-nuggets
+  - tf-1-12-ingot-platinum-from-block
+  - tf-1-12-pyrotheum-ore-platinum
+  - tf-1-12-petrotheum-pyrotheum-ore-platinum
   smelter:
   - ore-processing-cinnabar-nickel
   - dust-smelting-platinum
@@ -48,27 +48,27 @@ recipes:
   - recycling-horse-armor-platinum
 usage-recipes:
   crafting:
-  - tf2-petrotheum-ingot-platinum
-  - tf2-nugget-platinum
-  - tf2-gear-platinum
-  - tf2-storage-block-platinum
-  - tf2-tool-pickaxe-platinum
-  - tf2-tool-shovel-platinum
-  - tf2-tool-axe-platinum
-  - tf2-tool-hoe-platinum
-  - tf2-tool-fishing-rod-platinum
-  - tf2-tool-shears-platinum
-  - tf2-tool-hammer-platinum
-  - tf2-tool-excavator-platinum
-  - tf2-tool-sickle-platinum
-  - tf2-weapon-sword-platinum
-  - tf2-weapon-bow-platinum
-  - tf2-weapon-shield-platinum
-  - tf2-armor-helmet-platinum
-  - tf2-armor-chestplate-platinum
-  - tf2-armor-leggings-platinum
-  - tf2-armor-boots-platinum
-  - tf2-horse-armor-platinum
+  - tf-1-12-petrotheum-ingot-platinum
+  - tf-1-12-nugget-platinum
+  - tf-1-12-gear-platinum
+  - tf-1-12-storage-block-platinum
+  - tf-1-12-tool-pickaxe-platinum
+  - tf-1-12-tool-shovel-platinum
+  - tf-1-12-tool-axe-platinum
+  - tf-1-12-tool-hoe-platinum
+  - tf-1-12-tool-fishing-rod-platinum
+  - tf-1-12-tool-shears-platinum
+  - tf-1-12-tool-hammer-platinum
+  - tf-1-12-tool-excavator-platinum
+  - tf-1-12-tool-sickle-platinum
+  - tf-1-12-weapon-sword-platinum
+  - tf-1-12-weapon-bow-platinum
+  - tf-1-12-weapon-shield-platinum
+  - tf-1-12-armor-helmet-platinum
+  - tf-1-12-armor-chestplate-platinum
+  - tf-1-12-armor-leggings-platinum
+  - tf-1-12-armor-boots-platinum
+  - tf-1-12-horse-armor-platinum
   pulverizer:
   - dust-platinum
   compactor:
@@ -102,7 +102,7 @@ smelter](/docs/1.12/thermal-expansion/induction-smelter/) with [cinnabar](/docs/
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -112,16 +112,16 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

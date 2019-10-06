@@ -11,9 +11,9 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/magmatic-florb/
 recipes:
   crafting:
-  - te5-florb-magmatic-using-magma-cream
-  - te5-florb-magmatic-using-slime
-  - te5-florb-magmatic-using-rosin
+  - te-1-12-florb-magmatic-using-magma-cream
+  - te-1-12-florb-magmatic-using-slime
+  - te-1-12-florb-magmatic-using-rosin
 ---
 
 A **magmatic florb** is a [florb](/docs/1.12/thermal-expansion/florb/) that can hold hot fluids like

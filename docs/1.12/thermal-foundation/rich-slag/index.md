@@ -28,9 +28,9 @@ recipes:
   - recycling-compass
 usage-recipes:
   crafting:
-  - tf2-phyto-gro-rich-using-sawdust
-  - tf2-phyto-gro-rich-using-charcoal
-  - te5-augment-machine-smelter-flux
+  - tf-1-12-phyto-gro-rich-using-sawdust
+  - tf-1-12-phyto-gro-rich-using-charcoal
+  - te-1-12-augment-machine-smelter-flux
   smelter:
   - ore-processing-rich-slag-iron
   - ore-processing-rich-slag-gold
@@ -58,14 +58,14 @@ Obtaining
 ---------
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

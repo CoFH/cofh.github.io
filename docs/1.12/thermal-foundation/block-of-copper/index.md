@@ -13,10 +13,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-copper/
 recipes:
   crafting:
-  - tf2-storage-block-copper
+  - tf-1-12-storage-block-copper
 usage-recipes:
   crafting:
-  - tf2-ingot-copper-from-block
+  - tf-1-12-ingot-copper-from-block
 ---
 
 **Blocks of copper** are blocks made from [copper ingots](/docs/1.12/thermal-foundation/copper-ingot/).

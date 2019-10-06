@@ -11,17 +11,17 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-crystal/
 recipes:
   crafting:
-  - ra2-flux-crystal
-  - ra2-flux-crystal-from-block
+  - ra-1-12-flux-crystal
+  - ra-1-12-flux-crystal-from-block
   transposer-fill:
-  - ra2-flux-crystal
+  - ra-1-12-flux-crystal
 usage-recipes:
   crafting:
-  - ra2-storage-block-flux-crystal
-  - ra2-obsidian-rod-flux-infused
-  - ra2-fluxed-armor-plating
-  - ra2-weapon-quiver
-  - ra2-weapon-shield
+  - ra-1-12-storage-block-flux-crystal
+  - ra-1-12-obsidian-rod-flux-infused
+  - ra-1-12-fluxed-armor-plating
+  - ra-1-12-weapon-quiver
+  - ra-1-12-weapon-shield
 ---
 
 **Flux crystals** are raw materials made from
@@ -36,7 +36,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
 
 
 Usage

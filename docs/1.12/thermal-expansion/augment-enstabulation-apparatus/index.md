@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-enstabulation-apparatus/
 recipes:
   crafting:
-  - te5-augment-machine-centrifuge-mobs
+  - te-1-12-augment-machine-centrifuge-mobs
 ---
 
 An **enstabulation apparatus** is an [augment](/docs/1.12/thermal-expansion/augments/) that allows for

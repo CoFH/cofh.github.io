@@ -2,263 +2,263 @@ name: Smelting
 site: mc-wiki
 url: Smelting
 recipes:
-  tf2-charcoal-from-sawdust:
+  tf-1-12-charcoal-from-sawdust:
     results:
       - item: mc-charcoal
     ingredients:
-      - item: tf2-sawdust-compressed
+      - item: tf-1-12-sawdust-compressed
     data:
       input:
-        item: [tf2-sawdust-compressed]
+        item: [tf-1-12-sawdust-compressed]
       output:
         item: [mc-charcoal]
-  tf2-ingot-aluminum-from-dust:
+  tf-1-12-ingot-aluminum-from-dust:
     results:
-      - item: tf2-ingot-aluminum
+      - item: tf-1-12-ingot-aluminum
     ingredients:
-      - item: tf2-dust-aluminum
+      - item: tf-1-12-dust-aluminum
     data:
       input:
-        item: [tf2-dust-aluminum]
+        item: [tf-1-12-dust-aluminum]
       output:
-        item: [tf2-ingot-aluminum]
-  tf2-ingot-bronze-from-dust:
+        item: [tf-1-12-ingot-aluminum]
+  tf-1-12-ingot-bronze-from-dust:
     results:
-      - item: tf2-ingot-bronze
+      - item: tf-1-12-ingot-bronze
     ingredients:
-      - item: tf2-dust-bronze
+      - item: tf-1-12-dust-bronze
     data:
       input:
-        item: [tf2-dust-bronze]
+        item: [tf-1-12-dust-bronze]
       output:
-        item: [tf2-ingot-bronze]
-  tf2-ingot-constantan-from-dust:
+        item: [tf-1-12-ingot-bronze]
+  tf-1-12-ingot-constantan-from-dust:
     results:
-      - item: tf2-ingot-constantan
+      - item: tf-1-12-ingot-constantan
     ingredients:
-      - item: tf2-dust-constantan
+      - item: tf-1-12-dust-constantan
     data:
       input:
-        item: [tf2-dust-constantan]
+        item: [tf-1-12-dust-constantan]
       output:
-        item: [tf2-ingot-constantan]
-  tf2-ingot-copper-from-dust:
+        item: [tf-1-12-ingot-constantan]
+  tf-1-12-ingot-copper-from-dust:
     results:
-      - item: tf2-ingot-copper
+      - item: tf-1-12-ingot-copper
     ingredients:
-      - item: tf2-dust-copper
+      - item: tf-1-12-dust-copper
     data:
       input:
-        item: [tf2-dust-copper]
+        item: [tf-1-12-dust-copper]
       output:
-        item: [tf2-ingot-copper]
-  tf2-ingot-electrum-from-dust:
+        item: [tf-1-12-ingot-copper]
+  tf-1-12-ingot-electrum-from-dust:
     results:
-      - item: tf2-ingot-electrum
+      - item: tf-1-12-ingot-electrum
     ingredients:
-      - item: tf2-dust-electrum
+      - item: tf-1-12-dust-electrum
     data:
       input:
-        item: [tf2-dust-electrum]
+        item: [tf-1-12-dust-electrum]
       output:
-        item: [tf2-ingot-electrum]
-  tf2-ingot-gold-from-dust:
+        item: [tf-1-12-ingot-electrum]
+  tf-1-12-ingot-gold-from-dust:
     results:
       - item: mc-ingot-gold
     ingredients:
-      - item: tf2-dust-gold
+      - item: tf-1-12-dust-gold
     data:
       input:
-        item: [tf2-dust-gold]
+        item: [tf-1-12-dust-gold]
       output:
         item: [mc-ingot-gold]
-  tf2-ingot-invar-from-dust:
+  tf-1-12-ingot-invar-from-dust:
     results:
-      - item: tf2-ingot-invar
+      - item: tf-1-12-ingot-invar
     ingredients:
-      - item: tf2-dust-invar
+      - item: tf-1-12-dust-invar
     data:
       input:
-        item: [tf2-dust-invar]
+        item: [tf-1-12-dust-invar]
       output:
-        item: [tf2-ingot-invar]
-  tf2-ingot-iridium-from-dust:
+        item: [tf-1-12-ingot-invar]
+  tf-1-12-ingot-iridium-from-dust:
     results:
-      - item: tf2-ingot-iridium
+      - item: tf-1-12-ingot-iridium
     ingredients:
-      - item: tf2-dust-iridium
+      - item: tf-1-12-dust-iridium
     data:
       input:
-        item: [tf2-dust-iridium]
+        item: [tf-1-12-dust-iridium]
       output:
-        item: [tf2-ingot-iridium]
-  tf2-ingot-iron-from-dust:
+        item: [tf-1-12-ingot-iridium]
+  tf-1-12-ingot-iron-from-dust:
     results:
       - item: mc-ingot-iron
     ingredients:
-      - item: tf2-dust-iron
+      - item: tf-1-12-dust-iron
     data:
       input:
-        item: [tf2-dust-iron]
+        item: [tf-1-12-dust-iron]
       output:
         item: [mc-ingot-iron]
-  tf2-ingot-lead-from-dust:
+  tf-1-12-ingot-lead-from-dust:
     results:
-      - item: tf2-ingot-lead
+      - item: tf-1-12-ingot-lead
     ingredients:
-      - item: tf2-dust-lead
+      - item: tf-1-12-dust-lead
     data:
       input:
-        item: [tf2-dust-lead]
+        item: [tf-1-12-dust-lead]
       output:
-        item: [tf2-ingot-lead]
-  tf2-ingot-mithril-from-dust:
+        item: [tf-1-12-ingot-lead]
+  tf-1-12-ingot-mithril-from-dust:
     results:
-      - item: tf2-ingot-mithril
+      - item: tf-1-12-ingot-mithril
     ingredients:
-      - item: tf2-dust-mithril
+      - item: tf-1-12-dust-mithril
     data:
       input:
-        item: [tf2-dust-mithril]
+        item: [tf-1-12-dust-mithril]
       output:
-        item: [tf2-ingot-mithril]
-  tf2-ingot-nickel-from-dust:
+        item: [tf-1-12-ingot-mithril]
+  tf-1-12-ingot-nickel-from-dust:
     results:
-      - item: tf2-ingot-nickel
+      - item: tf-1-12-ingot-nickel
     ingredients:
-      - item: tf2-dust-nickel
+      - item: tf-1-12-dust-nickel
     data:
       input:
-        item: [tf2-dust-nickel]
+        item: [tf-1-12-dust-nickel]
       output:
-        item: [tf2-ingot-nickel]
-  tf2-ingot-platinum-from-dust:
+        item: [tf-1-12-ingot-nickel]
+  tf-1-12-ingot-platinum-from-dust:
     results:
-      - item: tf2-ingot-platinum
+      - item: tf-1-12-ingot-platinum
     ingredients:
-      - item: tf2-dust-platinum
+      - item: tf-1-12-dust-platinum
     data:
       input:
-        item: [tf2-dust-platinum]
+        item: [tf-1-12-dust-platinum]
       output:
-        item: [tf2-ingot-platinum]
-  tf2-ingot-silver-from-dust:
+        item: [tf-1-12-ingot-platinum]
+  tf-1-12-ingot-silver-from-dust:
     results:
-      - item: tf2-ingot-silver
+      - item: tf-1-12-ingot-silver
     ingredients:
-      - item: tf2-dust-silver
+      - item: tf-1-12-dust-silver
     data:
       input:
-        item: [tf2-dust-silver]
+        item: [tf-1-12-dust-silver]
       output:
-        item: [tf2-ingot-silver]
-  tf2-ingot-tin-from-dust:
+        item: [tf-1-12-ingot-silver]
+  tf-1-12-ingot-tin-from-dust:
     results:
-      - item: tf2-ingot-tin
+      - item: tf-1-12-ingot-tin
     ingredients:
-      - item: tf2-dust-tin
+      - item: tf-1-12-dust-tin
     data:
       input:
-        item: [tf2-dust-tin]
+        item: [tf-1-12-dust-tin]
       output:
-        item: [tf2-ingot-tin]
-  tf2-ore-processing-aluminum:
+        item: [tf-1-12-ingot-tin]
+  tf-1-12-ore-processing-aluminum:
     results:
-      - item: tf2-ingot-aluminum
+      - item: tf-1-12-ingot-aluminum
     ingredients:
-      - item: tf2-ore-aluminum
+      - item: tf-1-12-ore-aluminum
     data:
       input:
-        item: [tf2-ore-aluminum]
+        item: [tf-1-12-ore-aluminum]
       output:
-        item: [tf2-ingot-aluminum]
-  tf2-ore-processing-copper:
+        item: [tf-1-12-ingot-aluminum]
+  tf-1-12-ore-processing-copper:
     results:
-      - item: tf2-ingot-copper
+      - item: tf-1-12-ingot-copper
     ingredients:
-      - item: tf2-ore-copper
+      - item: tf-1-12-ore-copper
     data:
       input:
-        item: [tf2-ore-copper]
+        item: [tf-1-12-ore-copper]
       output:
-        item: [tf2-ingot-copper]
-  tf2-ore-processing-iridium:
+        item: [tf-1-12-ingot-copper]
+  tf-1-12-ore-processing-iridium:
     results:
-      - item: tf2-ingot-iridium
+      - item: tf-1-12-ingot-iridium
     ingredients:
-      - item: tf2-ore-iridium
+      - item: tf-1-12-ore-iridium
     data:
       input:
-        item: [tf2-ore-iridium]
+        item: [tf-1-12-ore-iridium]
       output:
-        item: [tf2-ingot-iridium]
-  tf2-ore-processing-lead:
+        item: [tf-1-12-ingot-iridium]
+  tf-1-12-ore-processing-lead:
     results:
-      - item: tf2-ingot-lead
+      - item: tf-1-12-ingot-lead
     ingredients:
-      - item: tf2-ore-lead
+      - item: tf-1-12-ore-lead
     data:
       input:
-        item: [tf2-ore-lead]
+        item: [tf-1-12-ore-lead]
       output:
-        item: [tf2-ingot-lead]
-  tf2-ore-processing-mithril:
+        item: [tf-1-12-ingot-lead]
+  tf-1-12-ore-processing-mithril:
     results:
-      - item: tf2-ingot-mithril
+      - item: tf-1-12-ingot-mithril
     ingredients:
-      - item: tf2-ore-mithril
+      - item: tf-1-12-ore-mithril
     data:
       input:
-        item: [tf2-ore-mithril]
+        item: [tf-1-12-ore-mithril]
       output:
-        item: [tf2-ingot-mithril]
-  tf2-ore-processing-nickel:
+        item: [tf-1-12-ingot-mithril]
+  tf-1-12-ore-processing-nickel:
     results:
-      - item: tf2-ingot-nickel
+      - item: tf-1-12-ingot-nickel
     ingredients:
-      - item: tf2-ore-nickel
+      - item: tf-1-12-ore-nickel
     data:
       input:
-        item: [tf2-ore-nickel]
+        item: [tf-1-12-ore-nickel]
       output:
-        item: [tf2-ingot-nickel]
-  tf2-ore-processing-platinum:
+        item: [tf-1-12-ingot-nickel]
+  tf-1-12-ore-processing-platinum:
     results:
-      - item: tf2-ingot-platinum
+      - item: tf-1-12-ingot-platinum
     ingredients:
-      - item: tf2-ore-platinum
+      - item: tf-1-12-ore-platinum
     data:
       input:
-        item: [tf2-ore-platinum]
+        item: [tf-1-12-ore-platinum]
       output:
-        item: [tf2-ingot-platinum]
-  tf2-ore-processing-silver:
+        item: [tf-1-12-ingot-platinum]
+  tf-1-12-ore-processing-silver:
     results:
-      - item: tf2-ingot-silver
+      - item: tf-1-12-ingot-silver
     ingredients:
-      - item: tf2-ore-silver
+      - item: tf-1-12-ore-silver
     data:
       input:
-        item: [tf2-ore-silver]
+        item: [tf-1-12-ore-silver]
       output:
-        item: [tf2-ingot-silver]
-  tf2-ore-processing-tin:
+        item: [tf-1-12-ingot-silver]
+  tf-1-12-ore-processing-tin:
     results:
-      - item: tf2-ingot-tin
+      - item: tf-1-12-ingot-tin
     ingredients:
-      - item: tf2-ore-tin
+      - item: tf-1-12-ore-tin
     data:
       input:
-        item: [tf2-ore-tin]
+        item: [tf-1-12-ore-tin]
       output:
-        item: [tf2-ingot-tin]
-  tf2-rockwool:
+        item: [tf-1-12-ingot-tin]
+  tf-1-12-rockwool:
     results:
-      - item: tf2-rockwool-light-gray
+      - item: tf-1-12-rockwool-light-gray
     ingredients:
-      - item: tf2-slag
+      - item: tf-1-12-slag
     data:
       input:
-        item: [tf2-slag]
+        item: [tf-1-12-slag]
       output:
-        item: [tf2-rockwool-light-gray]
+        item: [tf-1-12-rockwool-light-gray]

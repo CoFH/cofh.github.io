@@ -36,20 +36,20 @@ recipes:
   - recycling-weapon-shield
 usage-recipes:
   crafting:
-  - tf2-sawdust-compressed
-  - tf2-paper-using-sawdust
-  - tf2-bioblend
-  - tf2-phyto-gro-using-sawdust
-  - tf2-phyto-gro-rich-using-sawdust
-  - tf2-aqua-chow-using-slime
-  - tf2-aqua-chow-using-rosin
-  - tf2-aqua-chow-rich-using-slime
-  - tf2-aqua-chow-rich-using-rosin
-  - te5-florb-using-slime
-  - te5-florb-using-rosin
-  - te5-florb-magmatic-using-magma-cream
-  - te5-florb-magmatic-using-slime
-  - te5-florb-magmatic-using-rosin
+  - tf-1-12-sawdust-compressed
+  - tf-1-12-paper-using-sawdust
+  - tf-1-12-bioblend
+  - tf-1-12-phyto-gro-using-sawdust
+  - tf-1-12-phyto-gro-rich-using-sawdust
+  - tf-1-12-aqua-chow-using-slime
+  - tf-1-12-aqua-chow-using-rosin
+  - tf-1-12-aqua-chow-rich-using-slime
+  - tf-1-12-aqua-chow-rich-using-rosin
+  - te-1-12-florb-using-slime
+  - te-1-12-florb-using-rosin
+  - te-1-12-florb-magmatic-using-magma-cream
+  - te-1-12-florb-magmatic-using-slime
+  - te-1-12-florb-magmatic-using-rosin
 ---
 
 ![Sawdust](/assets/images/thermal-foundation-2/sawdust.png){:style="height: 128px"}
@@ -63,10 +63,10 @@ Obtaining
 ---------
 
 ### Sawmill
-{% include recipe-table.html type='te5-sawmill' recipes=page.recipes.sawmill no-result=true %}
+{% include recipe-table.html type='te-1-12-sawmill' recipes=page.recipes.sawmill no-result=true %}
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage

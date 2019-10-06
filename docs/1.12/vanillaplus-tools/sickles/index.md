@@ -13,11 +13,11 @@ image:
   file: vanillaplus-tools/sickle-stone.png
 recipes:
   crafting:
-  - vpt-tool-sickle-wood
-  - vpt-tool-sickle-stone
-  - vpt-tool-sickle-iron
-  - vpt-tool-sickle-gold
-  - vpt-tool-sickle-diamond
+  - vpt-1-12-tool-sickle-wood
+  - vpt-1-12-tool-sickle-stone
+  - vpt-1-12-tool-sickle-iron
+  - vpt-1-12-tool-sickle-gold
+  - vpt-1-12-tool-sickle-diamond
 redirect_from:
 - /docs/vanillaplus-tools/sickles/
 ---

@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-constantan/
 recipes:
   crafting:
-  - tf2-storage-block-constantan
+  - tf-1-12-storage-block-constantan
 usage-recipes:
   crafting:
-  - tf2-ingot-constantan-from-block
+  - tf-1-12-ingot-constantan-from-block
 ---
 
 **Blocks of constantan** are blocks made from [constantan

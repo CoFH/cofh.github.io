@@ -8,16 +8,16 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/invar-nugget/
 recipes:
   crafting:
-  - tf2-nugget-invar
+  - tf-1-12-nugget-invar
 usage-recipes:
   crafting:
-  - tf2-ingot-invar-from-nuggets
-  - te5-satchel-reinforced
-  - te5-augment-machine-secondary-null
-  - td2-fluxduct-hardened-one
-  - ti-fluxomagnet-reinforced
-  - ti-hypoinfuser-reinforced
-  - ti-alchemical-quiver-reinforced
+  - tf-1-12-ingot-invar-from-nuggets
+  - te-1-12-satchel-reinforced
+  - te-1-12-augment-machine-secondary-null
+  - td-1-12-fluxduct-hardened-one
+  - ti-1-12-fluxomagnet-reinforced
+  - ti-1-12-hypoinfuser-reinforced
+  - ti-1-12-alchemical-quiver-reinforced
 ---
 
 ![Invar nugget](/assets/images/thermal-foundation-2/nugget-invar.png){:style="height: 128px"}

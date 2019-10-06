@@ -5,7 +5,7 @@ image:
   file: redstone-arsenal-2/flux-infused-excavator.png
 recipes:
   crafting:
-  - ra2-tool-excavator
+  - ra-1-12-tool-excavator
 redirect_from:
 - /docs/redstone-arsenal/flux-infused-excavator/
 - /docs/redstone-arsenal-2/flux-infused-excavator/

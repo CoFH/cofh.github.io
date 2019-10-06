@@ -11,18 +11,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/helmets/
 recipes:
   crafting:
-  - tf2-armor-helmet-copper
-  - tf2-armor-helmet-tin
-  - tf2-armor-helmet-silver
-  - tf2-armor-helmet-lead
-  - tf2-armor-helmet-aluminum
-  - tf2-armor-helmet-nickel
-  - tf2-armor-helmet-platinum
-  - tf2-armor-helmet-steel
-  - tf2-armor-helmet-electrum
-  - tf2-armor-helmet-invar
-  - tf2-armor-helmet-bronze
-  - tf2-armor-helmet-constantan
+  - tf-1-12-armor-helmet-copper
+  - tf-1-12-armor-helmet-tin
+  - tf-1-12-armor-helmet-silver
+  - tf-1-12-armor-helmet-lead
+  - tf-1-12-armor-helmet-aluminum
+  - tf-1-12-armor-helmet-nickel
+  - tf-1-12-armor-helmet-platinum
+  - tf-1-12-armor-helmet-steel
+  - tf-1-12-armor-helmet-electrum
+  - tf-1-12-armor-helmet-invar
+  - tf-1-12-armor-helmet-bronze
+  - tf-1-12-armor-helmet-constantan
 usage-recipes:
   smelter:
   - recycling-armor-helmet-copper
@@ -91,4 +91,4 @@ defense = mat.reductionAmounts[3]
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

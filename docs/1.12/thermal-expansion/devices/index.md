@@ -34,7 +34,7 @@ image:
   file: thermal-expansion-5/vacuumulator.png
 frame-recipes:
   crafting:
-  - te5-frame-device
+  - te-1-12-frame-device
 ---
 
 **Devices** are blocks that perform various functions involving items and/or

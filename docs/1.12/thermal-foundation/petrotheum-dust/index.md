@@ -10,20 +10,20 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/petrotheum-dust/
 recipes:
   crafting:
-  - tf2-dust-petrotheum
+  - tf-1-12-dust-petrotheum
 usage-recipes:
   crafting:
-  - tf2-petrotheum-ore-metal
-  - tf2-petrotheum-pyrotheum-ore-metal
-  - tf2-petrotheum-ingot-ore-metal
-  - tf2-petrotheum-ore-coal
-  - tf2-petrotheum-ore-redstone
-  - tf2-petrotheum-ore-lapis-lazuli
-  - tf2-petrotheum-ore-diamond
-  - tf2-petrotheum-ore-emerald
-  - tf2-petrotheum-ore-nether-quartz
-  - te5-augment-machine-pulverizer-petrotheum
-  - ti-fluxbore-signalum
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ore-coal
+  - tf-1-12-petrotheum-ore-redstone
+  - tf-1-12-petrotheum-ore-lapis-lazuli
+  - tf-1-12-petrotheum-ore-diamond
+  - tf-1-12-petrotheum-ore-emerald
+  - tf-1-12-petrotheum-ore-nether-quartz
+  - te-1-12-augment-machine-pulverizer-petrotheum
+  - ti-1-12-fluxbore-signalum
   crucible:
   - petrotheum
   centrifuge:
@@ -49,13 +49,13 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Centrifugal Separator ingredient
-{% include recipe-table.html type='te5-centrifuge' recipes=page.usage-recipes.centrifuge %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.usage-recipes.centrifuge %}
 
 ### Arcane Ensorcellator ingredient
 Petrotheum dust can be combined with

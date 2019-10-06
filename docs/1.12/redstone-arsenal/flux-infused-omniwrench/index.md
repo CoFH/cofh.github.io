@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-omniwrench/
 recipes:
   crafting:
-  - ra2-tool-wrench
+  - ra-1-12-tool-wrench
 ---
 
 A **flux-infused omniwrench** is a [wrench](/docs/1.12/wrenches/) powered by

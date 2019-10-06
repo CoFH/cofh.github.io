@@ -8,11 +8,11 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/tin-nugget/
 recipes:
   crafting:
-  - tf2-nugget-tin
+  - tf-1-12-nugget-tin
 usage-recipes:
   crafting:
-  - tf2-ingot-tin-from-nuggets
-  - te5-satchel-hardened
+  - tf-1-12-ingot-tin-from-nuggets
+  - te-1-12-satchel-hardened
 ---
 
 ![Tin nugget](/assets/images/thermal-foundation-2/nugget-tin.png){:style="height: 128px"}

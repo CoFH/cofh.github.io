@@ -9,30 +9,30 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/iron-gear/
 recipes:
   crafting:
-  - tf2-gear-iron
+  - tf-1-12-gear-iron
   compactor-gear:
   - gear-iron
 usage-recipes:
   crafting:
-  - te5-device-water-gen
-  - te5-device-nullifier
-  - te5-device-heat-sink
-  - te5-device-tapper
-  - te5-device-fisher
-  - te5-device-item-buffer
-  - te5-device-fluid-buffer
-  - te5-device-lexicon
-  - te5-device-xp-collector
-  - te5-device-diffuser
-  - te5-device-factorizer
-  - te5-device-mob-catcher
-  - te5-device-item-collector
-  - te5-augment-machine-compactor-gear
-  - te5-augment-machine-charger-repair
-  - te5-augment-dynamo-boiler
-  - te5-augment-dynamo-steam-turbine
-  - ti-fluxbore-basic
-  - ti-fluxsaw-basic
+  - te-1-12-device-water-gen
+  - te-1-12-device-nullifier
+  - te-1-12-device-heat-sink
+  - te-1-12-device-tapper
+  - te-1-12-device-fisher
+  - te-1-12-device-item-buffer
+  - te-1-12-device-fluid-buffer
+  - te-1-12-device-lexicon
+  - te-1-12-device-xp-collector
+  - te-1-12-device-diffuser
+  - te-1-12-device-factorizer
+  - te-1-12-device-mob-catcher
+  - te-1-12-device-item-collector
+  - te-1-12-augment-machine-compactor-gear
+  - te-1-12-augment-machine-charger-repair
+  - te-1-12-augment-dynamo-boiler
+  - te-1-12-augment-dynamo-steam-turbine
+  - ti-1-12-fluxbore-basic
+  - ti-1-12-fluxsaw-basic
   smelter:
   - recycling-gear-iron
 ---
@@ -51,7 +51,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -61,4 +61,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

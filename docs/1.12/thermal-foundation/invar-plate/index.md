@@ -11,9 +11,9 @@ recipes:
   - plate-invar
 usage-recipes:
   crafting:
-  - te5-augment-machine-furnace-ore
-  - te5-augment-machine-extruder-no-water
-  - te5-augment-dynamo-magmatic-coolant
+  - te-1-12-augment-machine-furnace-ore
+  - te-1-12-augment-machine-extruder-no-water
+  - te-1-12-augment-dynamo-magmatic-coolant
   smelter:
   - recycling-plate-invar
 ---
@@ -28,7 +28,7 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='te5-compactor' recipes=page.recipes.compactor no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.recipes.compactor no-result=true %}
 
 
 Usage
@@ -38,4 +38,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

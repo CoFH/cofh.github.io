@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-pickaxe/
 recipes:
   crafting:
-  - ra2-tool-pickaxe
+  - ra-1-12-tool-pickaxe
 ---
 
 A **flux-infused pickaxe** is a powerful

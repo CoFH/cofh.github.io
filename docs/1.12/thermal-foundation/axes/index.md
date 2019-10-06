@@ -10,18 +10,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/axes/
 recipes:
   crafting:
-  - tf2-tool-axe-copper
-  - tf2-tool-axe-tin
-  - tf2-tool-axe-silver
-  - tf2-tool-axe-lead
-  - tf2-tool-axe-aluminum
-  - tf2-tool-axe-nickel
-  - tf2-tool-axe-platinum
-  - tf2-tool-axe-steel
-  - tf2-tool-axe-electrum
-  - tf2-tool-axe-invar
-  - tf2-tool-axe-bronze
-  - tf2-tool-axe-constantan
+  - tf-1-12-tool-axe-copper
+  - tf-1-12-tool-axe-tin
+  - tf-1-12-tool-axe-silver
+  - tf-1-12-tool-axe-lead
+  - tf-1-12-tool-axe-aluminum
+  - tf-1-12-tool-axe-nickel
+  - tf-1-12-tool-axe-platinum
+  - tf-1-12-tool-axe-steel
+  - tf-1-12-tool-axe-electrum
+  - tf-1-12-tool-axe-invar
+  - tf-1-12-tool-axe-bronze
+  - tf-1-12-tool-axe-constantan
 usage-recipes:
   smelter:
   - recycling-tool-axe-copper
@@ -88,4 +88,4 @@ uses = mat.maxUses
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

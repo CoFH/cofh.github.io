@@ -40,7 +40,7 @@ acacia [wood](https://minecraft.gamepedia.com/Wood). Spruce wood yields twice as
 much resin as other types of wood.
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -49,7 +49,7 @@ Usage
 Resin cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Fractionating Still ingredient
-{% include recipe-table.html type='te5-refinery' recipes=page.usage-recipes.refinery %}
+{% include recipe-table.html type='te-1-12-refinery' recipes=page.usage-recipes.refinery %}

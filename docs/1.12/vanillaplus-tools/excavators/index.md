@@ -13,11 +13,11 @@ image:
   file: vanillaplus-tools/excavator-stone.png
 recipes:
   crafting:
-  - vpt-tool-excavator-wood
-  - vpt-tool-excavator-stone
-  - vpt-tool-excavator-iron
-  - vpt-tool-excavator-gold
-  - vpt-tool-excavator-diamond
+  - vpt-1-12-tool-excavator-wood
+  - vpt-1-12-tool-excavator-stone
+  - vpt-1-12-tool-excavator-iron
+  - vpt-1-12-tool-excavator-gold
+  - vpt-1-12-tool-excavator-diamond
 redirect_from:
 - /docs/vanillaplus-tools/excavators/
 ---

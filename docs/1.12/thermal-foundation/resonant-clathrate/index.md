@@ -11,7 +11,7 @@ recipes:
   - fluid-ore-processing-ender
 usage-recipes:
   crafting:
-  - tf2-ender-pearl-from-clathrate
+  - tf-1-12-ender-pearl-from-clathrate
   crucible:
   - ender-from-clathrate
   transposer-fill:
@@ -35,17 +35,17 @@ clathrate when mined with a pickaxe. More clathrate is dropped if a
 [Fortune](https://minecraft.gamepedia.com/Fortune) enchanted pickaxe is used.
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/iridium-nugget/
 recipes:
   crafting:
-  - tf2-nugget-iridium
+  - tf-1-12-nugget-iridium
 usage-recipes:
   crafting:
-  - tf2-ingot-iridium-from-nuggets
+  - tf-1-12-ingot-iridium-from-nuggets
 ---
 
 ![Iridium nugget](/assets/images/thermal-foundation-2/nugget-iridium.png){:style="height: 128px"}

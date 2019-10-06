@@ -5,7 +5,7 @@ image:
   file: thermal-foundation-2/bioblend.png
 recipes:
   crafting:
-  - tf2-bioblend
+  - tf-1-12-bioblend
 usage-recipes:
   crucible:
   - biocrude-from-bioblend
@@ -36,7 +36,7 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

@@ -10,22 +10,22 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/fishing-rods/
 recipes:
   crafting:
-  - tf2-tool-fishing-rod-stone
-  - tf2-tool-fishing-rod-iron
-  - tf2-tool-fishing-rod-gold
-  - tf2-tool-fishing-rod-diamond
-  - tf2-tool-fishing-rod-copper
-  - tf2-tool-fishing-rod-tin
-  - tf2-tool-fishing-rod-silver
-  - tf2-tool-fishing-rod-lead
-  - tf2-tool-fishing-rod-aluminum
-  - tf2-tool-fishing-rod-nickel
-  - tf2-tool-fishing-rod-platinum
-  - tf2-tool-fishing-rod-steel
-  - tf2-tool-fishing-rod-electrum
-  - tf2-tool-fishing-rod-invar
-  - tf2-tool-fishing-rod-bronze
-  - tf2-tool-fishing-rod-constantan
+  - tf-1-12-tool-fishing-rod-stone
+  - tf-1-12-tool-fishing-rod-iron
+  - tf-1-12-tool-fishing-rod-gold
+  - tf-1-12-tool-fishing-rod-diamond
+  - tf-1-12-tool-fishing-rod-copper
+  - tf-1-12-tool-fishing-rod-tin
+  - tf-1-12-tool-fishing-rod-silver
+  - tf-1-12-tool-fishing-rod-lead
+  - tf-1-12-tool-fishing-rod-aluminum
+  - tf-1-12-tool-fishing-rod-nickel
+  - tf-1-12-tool-fishing-rod-platinum
+  - tf-1-12-tool-fishing-rod-steel
+  - tf-1-12-tool-fishing-rod-electrum
+  - tf-1-12-tool-fishing-rod-invar
+  - tf-1-12-tool-fishing-rod-bronze
+  - tf-1-12-tool-fishing-rod-constantan
 usage-recipes:
   smelter:
   - recycling-tool-fishing-rod-iron
@@ -105,7 +105,7 @@ luckModifier = round(mat.harvestLevel / 2)
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}

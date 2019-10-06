@@ -10,35 +10,35 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/enderium-ingot/
 recipes:
   crafting:
-  - tf2-ingot-enderium-from-nuggets
-  - tf2-ingot-enderium-from-block
+  - tf-1-12-ingot-enderium-from-nuggets
+  - tf-1-12-ingot-enderium-from-block
   smelter:
   - dust-smelting-enderium
   - recycling-gear-enderium
   - recycling-plate-enderium
 usage-recipes:
   crafting:
-  - tf2-nugget-enderium
-  - tf2-gear-enderium
-  - tf2-storage-block-enderium
-  - tf2-upgrade-kit-resonant
-  - te5-flux-capacitor-resonant
-  - te5-reservoir-resonant
-  - te5-satchel-resonant
-  - td2-fluxduct-resonant-empty-three
-  - td2-fluxduct-resonant-three
-  - td2-servo-resonant
-  - td2-servo-resonant-upgrade
-  - td2-filter-resonant
-  - td2-filter-resonant-upgrade
-  - td2-retriever-resonant
-  - td2-retriever-resonant-upgrade
-  - tc-watering-can-resonant
-  - ti-fluxbore-resonant
-  - ti-fluxsaw-resonant
-  - ti-fluxomagnet-resonant
-  - ti-hypoinfuser-resonant
-  - ti-alchemical-quiver-resonant
+  - tf-1-12-nugget-enderium
+  - tf-1-12-gear-enderium
+  - tf-1-12-storage-block-enderium
+  - tf-1-12-upgrade-kit-resonant
+  - te-1-12-flux-capacitor-resonant
+  - te-1-12-reservoir-resonant
+  - te-1-12-satchel-resonant
+  - td-1-12-fluxduct-resonant-empty-three
+  - td-1-12-fluxduct-resonant-three
+  - td-1-12-servo-resonant
+  - td-1-12-servo-resonant-upgrade
+  - td-1-12-filter-resonant
+  - td-1-12-filter-resonant-upgrade
+  - td-1-12-retriever-resonant
+  - td-1-12-retriever-resonant-upgrade
+  - tc-1-12-watering-can-resonant
+  - ti-1-12-fluxbore-resonant
+  - ti-1-12-fluxsaw-resonant
+  - ti-1-12-fluxomagnet-resonant
+  - ti-1-12-hypoinfuser-resonant
+  - ti-1-12-alchemical-quiver-resonant
   pulverizer:
   - dust-enderium
   compactor:
@@ -67,7 +67,7 @@ blend](/docs/1.12/thermal-foundation/enderium-blend/). The blend can only be sme
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -77,16 +77,16 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

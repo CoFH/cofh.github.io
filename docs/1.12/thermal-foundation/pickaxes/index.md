@@ -11,18 +11,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pickaxes/
 recipes:
   crafting:
-  - tf2-tool-pickaxe-copper
-  - tf2-tool-pickaxe-tin
-  - tf2-tool-pickaxe-silver
-  - tf2-tool-pickaxe-lead
-  - tf2-tool-pickaxe-aluminum
-  - tf2-tool-pickaxe-nickel
-  - tf2-tool-pickaxe-platinum
-  - tf2-tool-pickaxe-steel
-  - tf2-tool-pickaxe-electrum
-  - tf2-tool-pickaxe-invar
-  - tf2-tool-pickaxe-bronze
-  - tf2-tool-pickaxe-constantan
+  - tf-1-12-tool-pickaxe-copper
+  - tf-1-12-tool-pickaxe-tin
+  - tf-1-12-tool-pickaxe-silver
+  - tf-1-12-tool-pickaxe-lead
+  - tf-1-12-tool-pickaxe-aluminum
+  - tf-1-12-tool-pickaxe-nickel
+  - tf-1-12-tool-pickaxe-platinum
+  - tf-1-12-tool-pickaxe-steel
+  - tf-1-12-tool-pickaxe-electrum
+  - tf-1-12-tool-pickaxe-invar
+  - tf-1-12-tool-pickaxe-bronze
+  - tf-1-12-tool-pickaxe-constantan
 usage-recipes:
   smelter:
   - recycling-tool-pickaxe-copper
@@ -89,4 +89,4 @@ uses = mat.maxUses
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

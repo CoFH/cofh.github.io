@@ -37,23 +37,23 @@ image:
   file: thermal-foundation-2/excavator-wood.png
 recipes:
   crafting:
-  - tf2-tool-excavator-wood
-  - tf2-tool-excavator-stone
-  - tf2-tool-excavator-iron
-  - tf2-tool-excavator-gold
-  - tf2-tool-excavator-diamond
-  - tf2-tool-excavator-copper
-  - tf2-tool-excavator-tin
-  - tf2-tool-excavator-silver
-  - tf2-tool-excavator-lead
-  - tf2-tool-excavator-aluminum
-  - tf2-tool-excavator-nickel
-  - tf2-tool-excavator-platinum
-  - tf2-tool-excavator-steel
-  - tf2-tool-excavator-electrum
-  - tf2-tool-excavator-invar
-  - tf2-tool-excavator-bronze
-  - tf2-tool-excavator-constantan
+  - tf-1-12-tool-excavator-wood
+  - tf-1-12-tool-excavator-stone
+  - tf-1-12-tool-excavator-iron
+  - tf-1-12-tool-excavator-gold
+  - tf-1-12-tool-excavator-diamond
+  - tf-1-12-tool-excavator-copper
+  - tf-1-12-tool-excavator-tin
+  - tf-1-12-tool-excavator-silver
+  - tf-1-12-tool-excavator-lead
+  - tf-1-12-tool-excavator-aluminum
+  - tf-1-12-tool-excavator-nickel
+  - tf-1-12-tool-excavator-platinum
+  - tf-1-12-tool-excavator-steel
+  - tf-1-12-tool-excavator-electrum
+  - tf-1-12-tool-excavator-invar
+  - tf-1-12-tool-excavator-bronze
+  - tf-1-12-tool-excavator-constantan
 usage-recipes:
   smelter:
   - recycling-tool-excavator-iron
@@ -136,7 +136,7 @@ Excavators can receive the same enchantments that
 [shovels](https://minecraft.gamepedia.com/Shovel) can.
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}

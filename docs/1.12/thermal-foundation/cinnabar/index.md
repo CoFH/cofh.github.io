@@ -40,7 +40,7 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Fluid Transposer
 If another mod registers a cinnabar ore block, it can be processed into 2 pieces
@@ -52,7 +52,7 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 
 Trivia

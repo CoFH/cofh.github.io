@@ -9,18 +9,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/boots/
 recipes:
   crafting:
-  - tf2-armor-boots-copper
-  - tf2-armor-boots-tin
-  - tf2-armor-boots-silver
-  - tf2-armor-boots-lead
-  - tf2-armor-boots-aluminum
-  - tf2-armor-boots-nickel
-  - tf2-armor-boots-platinum
-  - tf2-armor-boots-steel
-  - tf2-armor-boots-electrum
-  - tf2-armor-boots-invar
-  - tf2-armor-boots-bronze
-  - tf2-armor-boots-constantan
+  - tf-1-12-armor-boots-copper
+  - tf-1-12-armor-boots-tin
+  - tf-1-12-armor-boots-silver
+  - tf-1-12-armor-boots-lead
+  - tf-1-12-armor-boots-aluminum
+  - tf-1-12-armor-boots-nickel
+  - tf-1-12-armor-boots-platinum
+  - tf-1-12-armor-boots-steel
+  - tf-1-12-armor-boots-electrum
+  - tf-1-12-armor-boots-invar
+  - tf-1-12-armor-boots-bronze
+  - tf-1-12-armor-boots-constantan
 usage-recipes:
   smelter:
   - recycling-armor-boots-copper
@@ -89,4 +89,4 @@ defense = mat.reductionAmounts[0]
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

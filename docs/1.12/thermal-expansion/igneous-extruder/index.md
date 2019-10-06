@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/igneous-extruder/
 recipes:
   crafting:
-  - te5-machine-extruder
+  - te-1-12-machine-extruder
 augments:
 - machine-power
 - machine-extruder-no-water
@@ -150,7 +150,7 @@ augmented.
 
 Augments can be installed in the Augmentation tab in an extruder's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
@@ -159,4 +159,4 @@ Recipes
 When a fluid's input amount is listed as 0 mB, it is not consumed; it only needs
 to be inside the corresponding input tank.
 
-{% include recipe-table.html type='te5-extruder' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-extruder' recipes=page.recipe-list %}

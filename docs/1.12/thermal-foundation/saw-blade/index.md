@@ -10,11 +10,11 @@ image:
   file: thermal-foundation-2/saw-blade.png
 recipes:
   crafting:
-  - tf2-saw-blade
+  - tf-1-12-saw-blade
 usage-recipes:
   crafting:
-  - te5-machine-sawmill
-  - ti-fluxsaw-basic
+  - te-1-12-machine-sawmill
+  - ti-1-12-fluxsaw-basic
 ---
 
 **Saw blades** are crafting materials used to craft [sawmills](/docs/1.12/thermal-expansion/sawmill/)

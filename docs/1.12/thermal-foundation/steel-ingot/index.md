@@ -8,8 +8,8 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/steel-ingot/
 recipes:
   crafting:
-  - tf2-ingot-steel-from-nuggets
-  - tf2-ingot-steel-from-block
+  - tf-1-12-ingot-steel-from-nuggets
+  - tf-1-12-ingot-steel-from-block
   smelter:
   - ingot-steel-from-dust-iron-and-coal-coke
   - ingot-steel-from-dust-iron-and-dust-coal
@@ -39,26 +39,26 @@ recipes:
   - recycling-horse-armor-steel
 usage-recipes:
   crafting:
-  - tf2-nugget-steel
-  - tf2-gear-steel
-  - tf2-storage-block-steel
-  - tf2-tool-pickaxe-steel
-  - tf2-tool-shovel-steel
-  - tf2-tool-axe-steel
-  - tf2-tool-hoe-steel
-  - tf2-tool-fishing-rod-steel
-  - tf2-tool-shears-steel
-  - tf2-tool-hammer-steel
-  - tf2-tool-excavator-steel
-  - tf2-tool-sickle-steel
-  - tf2-weapon-sword-steel
-  - tf2-weapon-bow-steel
-  - tf2-weapon-shield-steel
-  - tf2-armor-helmet-steel
-  - tf2-armor-chestplate-steel
-  - tf2-armor-leggings-steel
-  - tf2-armor-boots-steel
-  - tf2-horse-armor-steel
+  - tf-1-12-nugget-steel
+  - tf-1-12-gear-steel
+  - tf-1-12-storage-block-steel
+  - tf-1-12-tool-pickaxe-steel
+  - tf-1-12-tool-shovel-steel
+  - tf-1-12-tool-axe-steel
+  - tf-1-12-tool-hoe-steel
+  - tf-1-12-tool-fishing-rod-steel
+  - tf-1-12-tool-shears-steel
+  - tf-1-12-tool-hammer-steel
+  - tf-1-12-tool-excavator-steel
+  - tf-1-12-tool-sickle-steel
+  - tf-1-12-weapon-sword-steel
+  - tf-1-12-weapon-bow-steel
+  - tf-1-12-weapon-shield-steel
+  - tf-1-12-armor-helmet-steel
+  - tf-1-12-armor-chestplate-steel
+  - tf-1-12-armor-leggings-steel
+  - tf-1-12-armor-boots-steel
+  - tf-1-12-horse-armor-steel
   pulverizer:
   - dust-steel
   compactor:
@@ -84,7 +84,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -94,13 +94,13 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}

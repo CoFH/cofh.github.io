@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/long-range-viaduct/
 recipes:
   crafting:
-  - td2-viaduct-long-range
+  - td-1-12-viaduct-long-range
 ---
 
 A **long range viaduct** is a type of [viaduct](/docs/1.12/thermal-dynamics/viaduct/) that provides

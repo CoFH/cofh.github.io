@@ -8,8 +8,8 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pulverized-silver/
 recipes:
   crafting:
-  - tf2-petrotheum-ingot-silver
-  - tf2-petrotheum-ore-silver
+  - tf-1-12-petrotheum-ingot-silver
+  - tf-1-12-petrotheum-ore-silver
   pulverizer:
   - dust-silver
   - ore-processing-silver
@@ -20,14 +20,14 @@ recipes:
   - dust-lumium
 usage-recipes:
   crafting:
-  - tf2-pyrotheum-dust-silver
-  - tf2-dust-electrum
-  - tf2-dust-signalum
-  - tf2-dust-lumium
-  - tf2-hardened-glass-silver
-  - ra2-dust-fluxed-electrum-using-gold-and-silver
+  - tf-1-12-pyrotheum-dust-silver
+  - tf-1-12-dust-electrum
+  - tf-1-12-dust-signalum
+  - tf-1-12-dust-lumium
+  - tf-1-12-hardened-glass-silver
+  - ra-1-12-dust-fluxed-electrum-using-gold-and-silver
   smelting:
-  - tf2-ingot-silver-from-dust
+  - tf-1-12-ingot-silver-from-dust
   smelter:
   - dust-smelting-silver
   - ingot-electrum-from-dust-gold-and-dust-silver
@@ -46,13 +46,13 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
 When [silver ore](/docs/1.12/thermal-foundation/silver-ore/) is broken using a
@@ -71,4 +71,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

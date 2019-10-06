@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/bronze-nugget/
 recipes:
   crafting:
-  - tf2-nugget-bronze
+  - tf-1-12-nugget-bronze
 usage-recipes:
   crafting:
-  - tf2-ingot-bronze-from-nuggets
+  - tf-1-12-ingot-bronze-from-nuggets
 ---
 
 ![Bronze nugget](/assets/images/thermal-foundation-2/nugget-bronze.png){:style="height: 128px"}

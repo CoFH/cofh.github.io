@@ -11,10 +11,10 @@ image:
   file: vanillaplus-tools/shears-stone.png
 recipes:
   crafting:
-  - vpt-tool-shears-wood
-  - vpt-tool-shears-stone
-  - vpt-tool-shears-gold
-  - vpt-tool-shears-diamond
+  - vpt-1-12-tool-shears-wood
+  - vpt-1-12-tool-shears-stone
+  - vpt-1-12-tool-shears-gold
+  - vpt-1-12-tool-shears-diamond
 redirect_from:
 - /docs/vanillaplus-tools/shears/
 ---

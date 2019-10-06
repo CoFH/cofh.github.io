@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-sickle/
 recipes:
   crafting:
-  - ra2-tool-sickle
+  - ra-1-12-tool-sickle
 ---
 
 A **flux-infused sickle** is a powerful [sickle](/docs/1.12/thermal-foundation/sickles/) powered by

@@ -1,0 +1,96 @@
+name: Fractionating Still
+site: te-1-12-docs
+url: fractionating-still/
+with-energy: true
+recipes:
+  naphtha-from-coal:
+    results:
+      - fluid: tf-1-12-naphtha
+        fluid-amount: 100
+      - item: tf-1-12-tar
+    ingredients:
+      - fluid: tf-1-12-coal
+        fluid-amount: 200
+    energy: "5,000"
+    data:
+      input:
+        fluid: tf-1-12-coal
+        amount: 200
+      fluid-output:
+        fluid: tf-1-12-naphtha
+        amount: 100
+      item-output:
+        item: [tf-1-12-tar]
+      item-chance: 75
+  naphtha-from-crude-oil:
+    results:
+      - fluid: tf-1-12-naphtha
+        fluid-amount: 150
+      - item: tf-1-12-tar
+    ingredients:
+      - fluid: tf-1-12-crude-oil
+        fluid-amount: 200
+    energy: "5,000"
+    data:
+      input:
+        fluid: tf-1-12-crude-oil
+        amount: 200
+      fluid-output:
+        fluid: tf-1-12-naphtha
+        amount: 150
+      item-output:
+        item: [tf-1-12-tar]
+      item-chance: 50
+  refined-fuel:
+    results:
+      - fluid: tf-1-12-refined-fuel
+        fluid-amount: 100
+      - item: tf-1-12-sulfur
+    ingredients:
+      - fluid: tf-1-12-naphtha
+        fluid-amount: 150
+    energy: "5,000"
+    data:
+      input:
+        fluid: tf-1-12-naphtha
+        amount: 150
+      fluid-output:
+        fluid: tf-1-12-refined-fuel
+        amount: 100
+      item-output:
+        item: [tf-1-12-sulfur]
+      item-chance: 50
+  tree-oil:
+    results:
+      - fluid: tf-1-12-tree-oil
+        fluid-amount: 100
+      - item: tf-1-12-rosin
+    ingredients:
+      - fluid: tf-1-12-resin
+        fluid-amount: 200
+    energy: "5,000"
+    data:
+      input:
+        fluid: tf-1-12-resin
+        amount: 200
+      fluid-output:
+        fluid: tf-1-12-tree-oil
+        amount: 100
+      item-output:
+        item: [tf-1-12-rosin]
+      item-chance: 50
+  grassoline:
+    results:
+      - fluid: tf-1-12-grassoline
+        fluid-amount: 100
+    ingredients:
+      - fluid: tf-1-12-biocrude
+        fluid-amount: 200
+    energy: "5,000"
+    data:
+      input:
+        fluid: tf-1-12-biocrude
+        amount: 200
+      fluid-output:
+        fluid: tf-1-12-grassoline
+        amount: 100

@@ -11,7 +11,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-auxiliary-sieve/
 recipes:
   crafting:
-  - te5-augment-machine-secondary
+  - te-1-12-augment-machine-secondary
 ---
 
 An **auxiliary sieve** is an [augment](/docs/1.12/thermal-expansion/augments/) that increases the

@@ -1,0 +1,17 @@
+<div style="position: relative; width: 252px; height: 140px; background: url('/assets/images/recipe/types/te-1-12-insolator.png')">
+    {% include recipe/slot.html data=include.data.primary-input top=32 left=10 %}
+    {% include recipe/slot.html data=include.data.secondary-input top=32 left=54 %}
+    {% include recipe/tank.html data=include.data.fluid-input top=10 left=210 size=10000 recipe_type='te-1-12-insolator' gauge_sprite_top=0 gauge_sprite_left=252 %}
+
+    {% include recipe/slot.html data=include.data.primary-output top=34 left=158 %}
+
+    {% if include.data.secondary-output %}
+        {% include recipe/slot.html data=include.data.secondary-output top=86 left=158 %}
+
+        {% if include.data.secondary-chance %}
+            <div class="cofh-recipe-floating-text" style="top: 96px; right: 100px; text-align: right">
+                {{include.data.secondary-chance}}%
+            </div>
+        {% endif %}
+    {% endif %}
+</div>

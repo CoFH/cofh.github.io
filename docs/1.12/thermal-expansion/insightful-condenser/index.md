@@ -10,7 +10,7 @@ image:
   file: thermal-expansion-5/insightful-condenser.png
 recipes:
   crafting:
-  - te5-device-xp-collector
+  - te-1-12-device-xp-collector
 ---
 
 An **insightful condenser** is a [device](/docs/1.12/thermal-expansion/devices/) that collects nearby

@@ -9,11 +9,11 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/mana-infused-ore/
 usage-recipes:
   smelting:
-  - tf2-ore-processing-mithril
+  - tf-1-12-ore-processing-mithril
   crafting:
-  - tf2-pyrotheum-ore-mithril
-  - tf2-petrotheum-ore-mithril
-  - tf2-petrotheum-pyrotheum-ore-mithril
+  - tf-1-12-pyrotheum-ore-mithril
+  - tf-1-12-petrotheum-ore-mithril
+  - tf-1-12-petrotheum-pyrotheum-ore-mithril
   pulverizer:
   - ore-processing-mithril
   smelter:
@@ -53,10 +53,10 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
 When mana infused ore is broken using a [Smashing](/docs/1.12/cofh-core/smashing/)

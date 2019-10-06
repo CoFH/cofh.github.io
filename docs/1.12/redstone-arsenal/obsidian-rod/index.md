@@ -11,10 +11,10 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/obsidian-rod/
 recipes:
   crafting:
-  - ra2-obsidian-rod
+  - ra-1-12-obsidian-rod
 usage-recipes:
   crafting:
-  - ra2-obsidian-rod-flux-infused
+  - ra-1-12-obsidian-rod-flux-infused
 ---
 
 **Obsidian rods** are crafting materials used to make flux-infused tools and

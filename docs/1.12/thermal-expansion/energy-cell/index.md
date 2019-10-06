@@ -23,8 +23,8 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/energy-cell/
 recipes:
   crafting:
-  - te5-frame-energy-cell
-  - te5-energy-cell-basic
+  - te-1-12-frame-energy-cell
+  - te-1-12-energy-cell-basic
 ---
 
 An **energy cell** is a block that stores a large amount of [Redstone

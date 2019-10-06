@@ -13,10 +13,10 @@ image:
   file: thermal-foundation-2/forge-lexicon.png
 recipes:
   crafting:
-  - tf2-forge-lexicon
+  - tf-1-12-forge-lexicon
 usage-recipes:
   crafting:
-  - te5-device-lexicon
+  - te-1-12-device-lexicon
 ---
 
 > Also known as a Thesoreus.

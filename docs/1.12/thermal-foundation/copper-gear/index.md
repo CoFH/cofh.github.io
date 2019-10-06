@@ -8,28 +8,28 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/copper-gear/
 recipes:
   crafting:
-  - tf2-gear-copper
+  - tf-1-12-gear-copper
   compactor-gear:
   - gear-copper
 usage-recipes:
   crafting:
-  - te5-machine-furnace
-  - te5-machine-pulverizer
-  - te5-machine-sawmill
-  - te5-machine-smelter
-  - te5-machine-insolator
-  - te5-machine-compactor
-  - te5-machine-crucible
-  - te5-machine-transposer
-  - te5-machine-charger
-  - te5-machine-centrifuge
-  - te5-machine-crafter
-  - te5-machine-precipitator
-  - te5-machine-extruder
-  - te5-frame-device
-  - te5-dynamo-steam
-  - te5-augment-machine-furnace-food
-  - te5-augment-machine-extruder-no-water
+  - te-1-12-machine-furnace
+  - te-1-12-machine-pulverizer
+  - te-1-12-machine-sawmill
+  - te-1-12-machine-smelter
+  - te-1-12-machine-insolator
+  - te-1-12-machine-compactor
+  - te-1-12-machine-crucible
+  - te-1-12-machine-transposer
+  - te-1-12-machine-charger
+  - te-1-12-machine-centrifuge
+  - te-1-12-machine-crafter
+  - te-1-12-machine-precipitator
+  - te-1-12-machine-extruder
+  - te-1-12-frame-device
+  - te-1-12-dynamo-steam
+  - te-1-12-augment-machine-furnace-food
+  - te-1-12-augment-machine-extruder-no-water
   smelter:
   - recycling-gear-copper
 ---
@@ -47,7 +47,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -57,4 +57,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

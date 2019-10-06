@@ -23,7 +23,7 @@ Obtaining
 ---------
 
 ### Energetic Infuser
-{% include recipe-table.html type='te5-charger' recipes=page.recipes.charger no-result=true %}
+{% include recipe-table.html type='te-1-12-charger' recipes=page.recipes.charger no-result=true %}
 
 
 Usage

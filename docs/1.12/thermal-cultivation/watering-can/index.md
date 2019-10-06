@@ -19,11 +19,11 @@ redirect_from:
 - /docs/thermal-cultivation/watering-can/
 recipes:
   crafting:
-  - tc-watering-can-basic
-  - tc-watering-can-hardened
-  - tc-watering-can-reinforced
-  - tc-watering-can-signalum
-  - tc-watering-can-resonant
+  - tc-1-12-watering-can-basic
+  - tc-1-12-watering-can-hardened
+  - tc-1-12-watering-can-reinforced
+  - tc-1-12-watering-can-signalum
+  - tc-1-12-watering-can-resonant
 ---
 
 A **watering can** is a tool that uses

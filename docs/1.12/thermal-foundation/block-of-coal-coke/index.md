@@ -10,12 +10,12 @@ image:
   file: thermal-foundation-2/storage-block-coal-coke.png
 recipes:
   crafting:
-  - tf2-storage-block-coal-coke
+  - tf-1-12-storage-block-coal-coke
   redstone-furnace-pyrolysis:
   - storage-block-coal-coke
 usage-recipes:
   crafting:
-  - tf2-coal-coke-from-block
+  - tf-1-12-coal-coke-from-block
 ---
 
 **Blocks of coal coke** are blocks made from [coal coke](/docs/1.12/thermal-foundation/coal-coke/).
@@ -31,7 +31,7 @@ pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better.
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Redstone Furnace with Pyrolytic Conversion
-{% include recipe-table.html type='te5-redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
+{% include recipe-table.html type='te-1-12-redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
 
 
 Usage

@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-aluminum/
 recipes:
   crafting:
-  - tf2-storage-block-aluminum
+  - tf-1-12-storage-block-aluminum
 usage-recipes:
   crafting:
-  - tf2-ingot-aluminum-from-block
+  - tf-1-12-ingot-aluminum-from-block
 ---
 
 **Blocks of aluminum** are blocks made from [aluminum

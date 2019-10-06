@@ -1,0 +1,316 @@
+name: Sawmill
+site: te-1-12-docs
+url: sawmill/
+with-energy: true
+recipes:
+  biomass-from-beetroot:
+    results:
+      - item: tf-1-12-biomass
+      - item: mc-beetroot-seeds
+    ingredients:
+      - item: mc-beetroot
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-beetroot]
+        amount: 8
+      primary-output:
+        item: [tf-1-12-biomass]
+      secondary-output:
+        item: [mc-beetroot-seeds]
+      secondary-chance: 50
+  biomass-from-cactus:
+    results:
+      - item: tf-1-12-biomass
+    ingredients:
+      - item: mc-cactus
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-cactus]
+        amount: 4
+      primary-output:
+        item: [tf-1-12-biomass]
+  biomass-from-carrot:
+    results:
+      - item: tf-1-12-biomass
+    ingredients:
+      - item: mc-carrot
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-carrot]
+        amount: 8
+      primary-output:
+        item: [tf-1-12-biomass]
+  biomass-from-lily-pad:
+    results:
+      - item: tf-1-12-biomass
+    ingredients:
+      - item: mc-lily-pad
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-lily-pad]
+        amount: 8
+      primary-output:
+        item: [tf-1-12-biomass]
+  biomass-from-melon:
+    results:
+      - item: tf-1-12-biomass
+      - item: mc-melon-seeds
+    ingredients:
+      - item: mc-melon
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-melon]
+        amount: 4
+      primary-output:
+        item: [tf-1-12-biomass]
+      secondary-output:
+        item: [mc-melon-seeds]
+      secondary-chance: 50
+  biomass-from-potato:
+    results:
+      - item: tf-1-12-biomass
+    ingredients:
+      - item: mc-potato
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-potato]
+        amount: 8
+      primary-output:
+        item: [tf-1-12-biomass]
+  biomass-from-pumpkin:
+    results:
+      - item: tf-1-12-biomass
+      - item: mc-pumpkin-seeds
+    ingredients:
+      - item: mc-pumpkin
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-pumpkin]
+        amount: 4
+      primary-output:
+        item: [tf-1-12-biomass]
+      secondary-output:
+        item: [mc-pumpkin-seeds]
+      secondary-chance: 50
+  biomass-from-sapling:
+    results:
+      - item: tf-1-12-biomass
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item-group: mc-sapling
+    energy: "2,000"
+    data:
+      input:
+        item-group: mc-sapling
+        amount: 4
+      primary-output:
+        item: [tf-1-12-biomass]
+      secondary-output:
+        item: [tf-1-12-sawdust]
+      secondary-chance: 50
+  biomass-from-sugar-canes:
+    results:
+      - item: tf-1-12-biomass
+      - item: mc-sugar
+    ingredients:
+      - item: mc-sugar-canes
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-sugar-canes]
+        amount: 8
+      primary-output:
+        item: [tf-1-12-biomass]
+      secondary-output:
+        item: [mc-sugar]
+        amount: 2
+      secondary-chance: 100
+  biomass-from-vines:
+    results:
+      - item: tf-1-12-biomass
+    ingredients:
+      - item: mc-vines
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-vines]
+        amount: 8
+      primary-output:
+        item: [tf-1-12-biomass]
+  biomass-from-wheat:
+    results:
+      - item: tf-1-12-biomass
+      - item: mc-seeds
+    ingredients:
+      - item: mc-wheat
+    energy: "2,000"
+    data:
+      input:
+        item: [mc-wheat]
+        amount: 8
+      primary-output:
+        item: [tf-1-12-biomass]
+      secondary-output:
+        item: [mc-seeds]
+      secondary-chance: 50
+  recycling-armor-helmet-leather:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-armor-helmet-leather
+    energy: "1,500"
+    data:
+      input:
+        item: [mc-armor-helmet-leather]
+      primary-output:
+        item: [mc-leather]
+        amount: 2
+  recycling-armor-chestplate-leather:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-armor-chestplate-leather
+    energy: "1,500"
+    data:
+      input:
+        item: [mc-armor-chestplate-leather]
+      primary-output:
+        item: [mc-leather]
+        amount: 4
+  recycling-armor-leggings-leather:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-armor-leggings-leather
+    energy: "1,500"
+    data:
+      input:
+        item: [mc-armor-leggings-leather]
+      primary-output:
+        item: [mc-leather]
+        amount: 3
+  recycling-armor-boots-leather:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-armor-boots-leather
+    energy: "1,500"
+    data:
+      input:
+        item: [mc-armor-boots-leather]
+      primary-output:
+        item: [mc-leather]
+        amount: 2
+  recycling-boat:
+    results:
+      - item-group: mc-wood-planks
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item-group: mc-boat
+    energy: "2,000"
+    data:
+      input:
+        item-group: mc-boat
+      primary-output:
+        item-group: mc-wood-planks
+        amount: 4
+      secondary-output:
+        item: [tf-1-12-sawdust]
+      secondary-chance: 125
+  recycling-door:
+    results:
+      - item-group: mc-wood-planks
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item-group: mc-door-wood
+    energy: "2,000"
+    data:
+      input:
+        item-group: mc-door-wood
+      primary-output:
+        item-group: mc-wood-planks
+      secondary-output:
+        item: [tf-1-12-sawdust]
+      secondary-chance: 50
+  recycling-fence:
+    results:
+      - item-group: mc-wood-planks
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item-group: mc-fence
+    energy: "2,000"
+    data:
+      input:
+        item-group: mc-fence
+        amount: 2
+      primary-output:
+        item-group: mc-wood-planks
+      secondary-output:
+        item: [tf-1-12-sawdust]
+      secondary-chance: 25
+  recycling-fence-gate:
+    results:
+      - item-group: mc-wood-planks
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item-group: mc-fence-gate
+    energy: "2,000"
+    data:
+      input:
+        item-group: mc-fence-gate
+      primary-output:
+        item-group: mc-wood-planks
+      secondary-output:
+        item: [tf-1-12-sawdust]
+      secondary-chance: 125
+  recycling-saddle:
+    results:
+      - item: mc-leather
+    ingredients:
+      - item: mc-saddle
+    energy: "1,500"
+    data:
+      input:
+        item: [mc-saddle]
+      primary-output:
+        item: [mc-leather]
+        amount: 3
+  recycling-wood-stairs:
+    results:
+      - item-group: mc-wood-planks
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item-group: mc-wood-stairs
+    energy: "2,000"
+    data:
+      input:
+        item-group: mc-wood-stairs
+        amount: 2
+      primary-output:
+        item-group: mc-wood-planks
+      secondary-output:
+        item: [tf-1-12-sawdust]
+      secondary-chance: 25
+  wood-processing:
+    results:
+      - item-group: mc-wood-planks
+      - item: tf-1-12-sawdust
+    ingredients:
+      - item-group: mc-wood-log
+    energy: "1,000"
+    data:
+      input:
+        item-group: mc-wood-log
+      primary-output:
+        item-group: mc-wood-planks
+        amount: 6
+      secondary-output:
+        item: [tf-1-12-sawdust]
+      secondary-chance: 100

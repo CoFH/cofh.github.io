@@ -11,12 +11,12 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/fluxed-electrum-gear/
 recipes:
   crafting:
-  - ra2-gear-fluxed-electrum
+  - ra-1-12-gear-fluxed-electrum
   compactor-gear:
   - gear-fluxed-electrum
 usage-recipes:
   crafting:
-  - ra2-weapon-battlewrench
+  - ra-1-12-weapon-battlewrench
 ---
 
 **Fluxed electrum gears** are crafting materials made of [fluxed
@@ -30,7 +30,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage

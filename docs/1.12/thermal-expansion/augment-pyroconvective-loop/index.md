@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-pyroconvective-loop/
 recipes:
   crafting:
-  - te5-augment-machine-crucible-lava
+  - te-1-12-augment-machine-crucible-lava
 ---
 
 A **pyroconvective loop** is an [augment](/docs/1.12/thermal-expansion/augments/) that greatly

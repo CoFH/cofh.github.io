@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-shovel/
 recipes:
   crafting:
-  - ra2-tool-shovel
+  - ra-1-12-tool-shovel
 ---
 
 A **flux-infused shovel** is a powerful

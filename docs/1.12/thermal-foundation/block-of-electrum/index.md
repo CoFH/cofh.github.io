@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-electrum/
 recipes:
   crafting:
-  - tf2-storage-block-electrum
+  - tf-1-12-storage-block-electrum
 usage-recipes:
   crafting:
-  - tf2-ingot-electrum-from-block
+  - tf-1-12-ingot-electrum-from-block
 ---
 
 **Blocks of electrum** are blocks made from [electrum

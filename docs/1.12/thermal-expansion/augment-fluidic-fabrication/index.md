@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-fluidic-fabrication/
 recipes:
   crafting:
-  - te5-augment-machine-crafter-tank
+  - te-1-12-augment-machine-crafter-tank
 ---
 
 A **fluidic fabrication** [augment](/docs/1.12/thermal-expansion/augments/) allows for a [sequential

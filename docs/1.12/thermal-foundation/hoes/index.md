@@ -9,18 +9,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/hoes/
 recipes:
   crafting:
-  - tf2-tool-hoe-copper
-  - tf2-tool-hoe-tin
-  - tf2-tool-hoe-silver
-  - tf2-tool-hoe-lead
-  - tf2-tool-hoe-aluminum
-  - tf2-tool-hoe-nickel
-  - tf2-tool-hoe-platinum
-  - tf2-tool-hoe-steel
-  - tf2-tool-hoe-electrum
-  - tf2-tool-hoe-invar
-  - tf2-tool-hoe-bronze
-  - tf2-tool-hoe-constantan
+  - tf-1-12-tool-hoe-copper
+  - tf-1-12-tool-hoe-tin
+  - tf-1-12-tool-hoe-silver
+  - tf-1-12-tool-hoe-lead
+  - tf-1-12-tool-hoe-aluminum
+  - tf-1-12-tool-hoe-nickel
+  - tf-1-12-tool-hoe-platinum
+  - tf-1-12-tool-hoe-steel
+  - tf-1-12-tool-hoe-electrum
+  - tf-1-12-tool-hoe-invar
+  - tf-1-12-tool-hoe-bronze
+  - tf-1-12-tool-hoe-constantan
 usage-recipes:
   smelter:
   - recycling-tool-hoe-copper
@@ -87,4 +87,4 @@ uses = mat.maxUses
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

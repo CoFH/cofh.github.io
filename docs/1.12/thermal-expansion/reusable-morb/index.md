@@ -11,7 +11,7 @@ image:
   file: thermal-expansion-5/morb-reusable.png
 recipes:
   crafting:
-  - te5-morb-reusable
+  - te-1-12-morb-reusable
 ---
 
 A **reusable morb** is a [morb](/docs/1.12/thermal-expansion/morb/) that never breaks.

@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-ignition-plugs/
 recipes:
   crafting:
-  - te5-augment-dynamo-compression-fuel
+  - te-1-12-augment-dynamo-compression-fuel
 ---
 
 An **ignition plugs** [augment](/docs/1.12/thermal-expansion/augments/) increases the amount of

@@ -12,14 +12,14 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/nickel-ingot/
 recipes:
   smelting:
-  - tf2-ore-processing-nickel
-  - tf2-ingot-nickel-from-dust
+  - tf-1-12-ore-processing-nickel
+  - tf-1-12-ingot-nickel-from-dust
   crafting:
-  - tf2-pyrotheum-ore-nickel
-  - tf2-petrotheum-pyrotheum-ore-nickel
-  - tf2-pyrotheum-dust-nickel
-  - tf2-ingot-nickel-from-nuggets
-  - tf2-ingot-nickel-from-block
+  - tf-1-12-pyrotheum-ore-nickel
+  - tf-1-12-petrotheum-pyrotheum-ore-nickel
+  - tf-1-12-pyrotheum-dust-nickel
+  - tf-1-12-ingot-nickel-from-nuggets
+  - tf-1-12-ingot-nickel-from-block
   smelter:
   - ore-processing-sand-nickel
   - ore-processing-rich-slag-nickel
@@ -47,27 +47,27 @@ recipes:
   - recycling-horse-armor-nickel
 usage-recipes:
   crafting:
-  - tf2-petrotheum-ingot-nickel
-  - tf2-nugget-nickel
-  - tf2-gear-nickel
-  - tf2-storage-block-nickel
-  - tf2-tool-pickaxe-nickel
-  - tf2-tool-shovel-nickel
-  - tf2-tool-axe-nickel
-  - tf2-tool-hoe-nickel
-  - tf2-tool-fishing-rod-nickel
-  - tf2-tool-shears-nickel
-  - tf2-tool-hammer-nickel
-  - tf2-tool-excavator-nickel
-  - tf2-tool-sickle-nickel
-  - tf2-weapon-sword-nickel
-  - tf2-weapon-bow-nickel
-  - tf2-weapon-shield-nickel
-  - tf2-armor-helmet-nickel
-  - tf2-armor-chestplate-nickel
-  - tf2-armor-leggings-nickel
-  - tf2-armor-boots-nickel
-  - tf2-horse-armor-nickel
+  - tf-1-12-petrotheum-ingot-nickel
+  - tf-1-12-nugget-nickel
+  - tf-1-12-gear-nickel
+  - tf-1-12-storage-block-nickel
+  - tf-1-12-tool-pickaxe-nickel
+  - tf-1-12-tool-shovel-nickel
+  - tf-1-12-tool-axe-nickel
+  - tf-1-12-tool-hoe-nickel
+  - tf-1-12-tool-fishing-rod-nickel
+  - tf-1-12-tool-shears-nickel
+  - tf-1-12-tool-hammer-nickel
+  - tf-1-12-tool-excavator-nickel
+  - tf-1-12-tool-sickle-nickel
+  - tf-1-12-weapon-sword-nickel
+  - tf-1-12-weapon-bow-nickel
+  - tf-1-12-weapon-shield-nickel
+  - tf-1-12-armor-helmet-nickel
+  - tf-1-12-armor-chestplate-nickel
+  - tf-1-12-armor-leggings-nickel
+  - tf-1-12-armor-boots-nickel
+  - tf-1-12-horse-armor-nickel
   pulverizer:
   - dust-nickel
   smelter:
@@ -101,7 +101,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -111,19 +111,19 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

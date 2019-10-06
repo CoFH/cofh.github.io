@@ -10,10 +10,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/invar-ingot/
 recipes:
   smelting:
-  - tf2-ingot-invar-from-dust
+  - tf-1-12-ingot-invar-from-dust
   crafting:
-  - tf2-ingot-invar-from-nuggets
-  - tf2-ingot-invar-from-block
+  - tf-1-12-ingot-invar-from-nuggets
+  - tf-1-12-ingot-invar-from-block
   smelter:
   - dust-smelting-invar
   - ingot-invar-from-dust-iron-and-dust-nickel
@@ -41,50 +41,50 @@ recipes:
   - recycling-horse-armor-invar
 usage-recipes:
   crafting:
-  - tf2-nugget-invar
-  - tf2-gear-invar
-  - tf2-storage-block-invar
-  - tf2-upgrade-kit-hardened
-  - te5-machine-precipitator
-  - te5-machine-extruder
-  - te5-device-heat-sink
-  - te5-dynamo-magmatic
-  - te5-flux-capacitor-hardened
-  - te5-reservoir-hardened
-  - te5-reservoir-reinforced
-  - te5-satchel-hardened
-  - td2-fluxduct-hardened-three
-  - td2-fluiduct-hardened
-  - td2-fluiduct-hardened-opaque
-  - td2-servo-hardened
-  - td2-servo-hardened-upgrade
-  - td2-filter-hardened
-  - td2-filter-hardened-upgrade
-  - td2-retriever-hardened
-  - td2-retriever-hardened-upgrade
-  - tc-watering-can-hardened
-  - ti-fluxbore-hardened
-  - ti-fluxsaw-hardened
-  - ti-fluxomagnet-hardened
-  - ti-hypoinfuser-hardened
-  - ti-alchemical-quiver-hardened
-  - tf2-tool-pickaxe-invar
-  - tf2-tool-shovel-invar
-  - tf2-tool-axe-invar
-  - tf2-tool-hoe-invar
-  - tf2-tool-fishing-rod-invar
-  - tf2-tool-shears-invar
-  - tf2-tool-hammer-invar
-  - tf2-tool-excavator-invar
-  - tf2-tool-sickle-invar
-  - tf2-weapon-sword-invar
-  - tf2-weapon-bow-invar
-  - tf2-weapon-shield-invar
-  - tf2-armor-helmet-invar
-  - tf2-armor-chestplate-invar
-  - tf2-armor-leggings-invar
-  - tf2-armor-boots-invar
-  - tf2-horse-armor-invar
+  - tf-1-12-nugget-invar
+  - tf-1-12-gear-invar
+  - tf-1-12-storage-block-invar
+  - tf-1-12-upgrade-kit-hardened
+  - te-1-12-machine-precipitator
+  - te-1-12-machine-extruder
+  - te-1-12-device-heat-sink
+  - te-1-12-dynamo-magmatic
+  - te-1-12-flux-capacitor-hardened
+  - te-1-12-reservoir-hardened
+  - te-1-12-reservoir-reinforced
+  - te-1-12-satchel-hardened
+  - td-1-12-fluxduct-hardened-three
+  - td-1-12-fluiduct-hardened
+  - td-1-12-fluiduct-hardened-opaque
+  - td-1-12-servo-hardened
+  - td-1-12-servo-hardened-upgrade
+  - td-1-12-filter-hardened
+  - td-1-12-filter-hardened-upgrade
+  - td-1-12-retriever-hardened
+  - td-1-12-retriever-hardened-upgrade
+  - tc-1-12-watering-can-hardened
+  - ti-1-12-fluxbore-hardened
+  - ti-1-12-fluxsaw-hardened
+  - ti-1-12-fluxomagnet-hardened
+  - ti-1-12-hypoinfuser-hardened
+  - ti-1-12-alchemical-quiver-hardened
+  - tf-1-12-tool-pickaxe-invar
+  - tf-1-12-tool-shovel-invar
+  - tf-1-12-tool-axe-invar
+  - tf-1-12-tool-hoe-invar
+  - tf-1-12-tool-fishing-rod-invar
+  - tf-1-12-tool-shears-invar
+  - tf-1-12-tool-hammer-invar
+  - tf-1-12-tool-excavator-invar
+  - tf-1-12-tool-sickle-invar
+  - tf-1-12-weapon-sword-invar
+  - tf-1-12-weapon-bow-invar
+  - tf-1-12-weapon-shield-invar
+  - tf-1-12-armor-helmet-invar
+  - tf-1-12-armor-chestplate-invar
+  - tf-1-12-armor-leggings-invar
+  - tf-1-12-armor-boots-invar
+  - tf-1-12-horse-armor-invar
   pulverizer:
   - dust-invar
   compactor:
@@ -119,7 +119,7 @@ smelter](/docs/1.12/thermal-expansion/induction-smelter/).
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -129,16 +129,16 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

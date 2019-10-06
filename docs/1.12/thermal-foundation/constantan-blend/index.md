@@ -8,14 +8,14 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/constantan-blend/
 recipes:
   crafting:
-  - tf2-dust-constantan
+  - tf-1-12-dust-constantan
   pulverizer:
   - dust-constantan
 usage-recipes:
   crafting:
-  - tf2-hardened-glass-constantan
+  - tf-1-12-hardened-glass-constantan
   smelting:
-  - tf2-ingot-constantan-from-dust
+  - tf-1-12-ingot-constantan-from-dust
   smelter:
   - dust-smelting-constantan
   - hardened-glass-constantan
@@ -37,7 +37,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage
@@ -50,7 +50,7 @@ Usage
 {% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Centrifugal Separator ingredient
-{% include recipe-table.html type='te5-centrifuge' recipes=page.usage-recipes.centrifuge %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.usage-recipes.centrifuge %}

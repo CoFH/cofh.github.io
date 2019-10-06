@@ -22,7 +22,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/portable-tank/
 recipes:
   crafting:
-  - te5-portable-tank-basic
+  - te-1-12-portable-tank-basic
 ---
 
 A **portable tank** is a block that stores a large amount of a fluid.

@@ -9,13 +9,13 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/copper-nugget/
 recipes:
   crafting:
-  - tf2-nugget-copper
+  - tf-1-12-nugget-copper
 usage-recipes:
   crafting:
-  - tf2-ingot-copper-from-nuggets
-  - ti-fluxomagnet-hardened
-  - ti-hypoinfuser-hardened
-  - ti-alchemical-quiver-hardened
+  - tf-1-12-ingot-copper-from-nuggets
+  - ti-1-12-fluxomagnet-hardened
+  - ti-1-12-hypoinfuser-hardened
+  - ti-1-12-alchemical-quiver-hardened
 ---
 
 ![Copper nugget](/assets/images/thermal-foundation-2/nugget-copper.png){:style="height: 128px"}

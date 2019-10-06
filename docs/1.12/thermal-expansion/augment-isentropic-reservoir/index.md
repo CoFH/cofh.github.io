@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-isentropic-reservoir/
 recipes:
   crafting:
-  - te5-augment-dynamo-magmatic-coolant
+  - te-1-12-augment-dynamo-magmatic-coolant
 ---
 
 An **isentropic reservoir** is an [augment](/docs/1.12/thermal-expansion/augments/) that increases the

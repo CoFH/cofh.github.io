@@ -10,22 +10,22 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/shears/
 recipes:
   crafting:
-  - tf2-tool-shears-wood
-  - tf2-tool-shears-stone
-  - tf2-tool-shears-gold
-  - tf2-tool-shears-diamond
-  - tf2-tool-shears-copper
-  - tf2-tool-shears-tin
-  - tf2-tool-shears-silver
-  - tf2-tool-shears-lead
-  - tf2-tool-shears-aluminum
-  - tf2-tool-shears-nickel
-  - tf2-tool-shears-platinum
-  - tf2-tool-shears-steel
-  - tf2-tool-shears-electrum
-  - tf2-tool-shears-invar
-  - tf2-tool-shears-bronze
-  - tf2-tool-shears-constantan
+  - tf-1-12-tool-shears-wood
+  - tf-1-12-tool-shears-stone
+  - tf-1-12-tool-shears-gold
+  - tf-1-12-tool-shears-diamond
+  - tf-1-12-tool-shears-copper
+  - tf-1-12-tool-shears-tin
+  - tf-1-12-tool-shears-silver
+  - tf-1-12-tool-shears-lead
+  - tf-1-12-tool-shears-aluminum
+  - tf-1-12-tool-shears-nickel
+  - tf-1-12-tool-shears-platinum
+  - tf-1-12-tool-shears-steel
+  - tf-1-12-tool-shears-electrum
+  - tf-1-12-tool-shears-invar
+  - tf-1-12-tool-shears-bronze
+  - tf-1-12-tool-shears-constantan
 usage-recipes:
   smelter:
   - recycling-tool-shears-gold
@@ -97,7 +97,7 @@ uses = mat.maxUses - 12
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}

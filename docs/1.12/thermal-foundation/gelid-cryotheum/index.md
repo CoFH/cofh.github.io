@@ -20,7 +20,7 @@ usage-recipes:
   - redstone-from-clathrate
   - glowstone-dust-from-clathrate
   - ender-pearl-from-clathrate
-  - td2-fluxduct-super
+  - td-1-12-fluxduct-super
 ---
 
 ![Gelid cryotheum](/assets/images/thermal-foundation-2/gelid-cryotheum.gif){:style="height: 128px"}
@@ -37,10 +37,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='te5-crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -87,7 +87,7 @@ Gelid cryotheum has the following effects on certain blocks and mobs:
   I](https://minecraft.gamepedia.com/Status_effect#Regeneration) for 6 seconds.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 If another mod registers a cinnabar ore block, it can be processed into 2 pieces
 of [cinnabar](/docs/1.12/thermal-foundation/cinnabar/) using 200 mB of gelid cryotheum and 2,000 RF.

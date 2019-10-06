@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-gearworking-die/
 recipes:
   crafting:
-  - te5-augment-machine-compactor-gear
+  - te-1-12-augment-machine-compactor-gear
 recipe-list:
 - gear-iron
 - gear-gold
@@ -69,4 +69,4 @@ gears using a gearworking die.
 Recipes
 -------
 
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipe-list %}

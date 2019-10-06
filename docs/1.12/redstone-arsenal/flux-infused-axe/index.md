@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-axe/
 recipes:
   crafting:
-  - ra2-tool-axe
+  - ra-1-12-tool-axe
 ---
 
 A **flux-infused axe** is a powerful [axe](https://minecraft.gamepedia.com/Axe)

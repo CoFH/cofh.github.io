@@ -12,15 +12,15 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/hardened-fluiduct/
 recipes:
   crafting:
-  - td2-fluiduct-hardened
-  - td2-fluiduct-hardened-opaque
-  - td2-fluiduct-hardened-opaque-from-transparent
-  - td2-fluiduct-hardened-transparent-from-opaque
+  - td-1-12-fluiduct-hardened
+  - td-1-12-fluiduct-hardened-opaque
+  - td-1-12-fluiduct-hardened-opaque-from-transparent
+  - td-1-12-fluiduct-hardened-transparent-from-opaque
 usage-recipes:
   crafting:
-  - td2-fluiduct-energy-one
-  - td2-fluiduct-energy-three
-  - td2-fluiduct-super
+  - td-1-12-fluiduct-energy-one
+  - td-1-12-fluiduct-energy-three
+  - td-1-12-fluiduct-super
 ---
 
 A **hardened fluiduct** is a type of [fluiduct](/docs/1.12/thermal-dynamics/fluiduct/) that can

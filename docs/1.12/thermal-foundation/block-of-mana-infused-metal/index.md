@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-mana-infused-metal/
 recipes:
   crafting:
-  - tf2-storage-block-mithril
+  - tf-1-12-storage-block-mithril
 usage-recipes:
   crafting:
-  - tf2-ingot-mithril-from-block
+  - tf-1-12-ingot-mithril-from-block
 ---
 
 **Blocks of mana infused metal** are blocks made from [mana infused

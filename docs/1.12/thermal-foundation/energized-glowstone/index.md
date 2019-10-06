@@ -20,13 +20,13 @@ recipes:
   - dust-lumium
 usage-recipes:
   crafting:
-  - tf2-glowstone-dust-from-fluid
-  - tf2-dust-lumium
+  - tf-1-12-glowstone-dust-from-fluid
+  - tf-1-12-dust-lumium
   transposer-fill:
   - bucket-glowstone
   - glowstone-dust-from-fluid
-  - td2-itemduct-fast
-  - td2-itemduct-energy-fast
+  - td-1-12-itemduct-fast
+  - td-1-12-itemduct-energy-fast
 ---
 
 ![Energized glowstone](/assets/images/thermal-foundation-2/energized-glowstone.gif){:style="height: 128px"}
@@ -44,13 +44,13 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='te5-crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge %}
 
 ### Natural generation
 Deposits of [energized netherrack](/docs/1.12/thermal-foundation/energized-netherrack/) may contain some
@@ -96,7 +96,7 @@ may be used in these recipes.
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Reactant Dynamo fuel
 Energized glowstone can be used with

@@ -10,18 +10,18 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/signalum-fluxduct/
 recipes:
   crafting:
-  - td2-fluxduct-signalum-empty-one
-  - td2-fluxduct-signalum-empty-three
-  - td2-fluxduct-signalum-one
-  - td2-fluxduct-signalum-three
+  - td-1-12-fluxduct-signalum-empty-one
+  - td-1-12-fluxduct-signalum-empty-three
+  - td-1-12-fluxduct-signalum-one
+  - td-1-12-fluxduct-signalum-three
   transposer-fill:
-  - td2-fluxduct-signalum
+  - td-1-12-fluxduct-signalum
 usage-recipes:
   crafting:
-  - td2-fluxduct-resonant-empty-one
-  - td2-fluxduct-resonant-empty-three
-  - td2-fluxduct-resonant-one
-  - td2-fluxduct-resonant-three
+  - td-1-12-fluxduct-resonant-empty-one
+  - td-1-12-fluxduct-resonant-empty-three
+  - td-1-12-fluxduct-resonant-one
+  - td-1-12-fluxduct-resonant-three
 ---
 
 A **signalum fluxduct** is a [fluxduct](/docs/1.12/thermal-dynamics/fluxducts/) of the fourth tier.
@@ -34,7 +34,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill %}
 
 
 Usage

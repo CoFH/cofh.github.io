@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/aqueous-accumulator/
 recipes:
   crafting:
-  - te5-device-water-gen
+  - te-1-12-device-water-gen
 ---
 
 ![Aqueous accumulator](/assets/images/thermal-expansion-5/aqueous-accumulator.png){:style="height: 128px"}

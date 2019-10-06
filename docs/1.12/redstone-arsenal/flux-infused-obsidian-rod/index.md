@@ -11,20 +11,20 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-obsidian-rod/
 recipes:
   crafting:
-  - ra2-obsidian-rod-flux-infused
+  - ra-1-12-obsidian-rod-flux-infused
 usage-recipes:
   crafting:
-  - ra2-tool-pickaxe
-  - ra2-tool-shovel
-  - ra2-tool-axe
-  - ra2-tool-fishing-rod
-  - ra2-tool-hammer
-  - ra2-tool-excavator
-  - ra2-tool-sickle
-  - ra2-tool-wrench
-  - ra2-weapon-sword
-  - ra2-weapon-bow
-  - ra2-weapon-battlewrench
+  - ra-1-12-tool-pickaxe
+  - ra-1-12-tool-shovel
+  - ra-1-12-tool-axe
+  - ra-1-12-tool-fishing-rod
+  - ra-1-12-tool-hammer
+  - ra-1-12-tool-excavator
+  - ra-1-12-tool-sickle
+  - ra-1-12-tool-wrench
+  - ra-1-12-weapon-sword
+  - ra-1-12-weapon-bow
+  - ra-1-12-weapon-battlewrench
 ---
 
 **Flux-infused obsidian rods** are crafting materials used to make flux-infused

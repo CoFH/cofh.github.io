@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/sawmill/
 recipes:
   crafting:
-  - te5-machine-sawmill
+  - te-1-12-machine-sawmill
 augments:
 - machine-power
 - machine-secondary
@@ -170,10 +170,10 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a sawmill's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
 -------
 
-{% include recipe-table.html type='te5-sawmill' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-sawmill' recipes=page.recipe-list %}

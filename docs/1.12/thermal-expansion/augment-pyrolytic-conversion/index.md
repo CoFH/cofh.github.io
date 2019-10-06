@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-pyrolytic-conversion/
 recipes:
   crafting:
-  - te5-augment-machine-furnace-pyrolysis
+  - te-1-12-augment-machine-furnace-pyrolysis
 recipe-list:
 - coal-coke
 - storage-block-coal-coke
@@ -65,4 +65,4 @@ are added together before being applied to the amount of energy.
 Recipes
 -------
 
-{% include recipe-table.html type='te5-redstone-furnace-pyrolysis' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-redstone-furnace-pyrolysis' recipes=page.recipe-list %}

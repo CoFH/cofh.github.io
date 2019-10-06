@@ -11,14 +11,14 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/copper-ingot/
 recipes:
   smelting:
-  - tf2-ore-processing-copper
-  - tf2-ingot-copper-from-dust
+  - tf-1-12-ore-processing-copper
+  - tf-1-12-ingot-copper-from-dust
   crafting:
-  - tf2-pyrotheum-ore-copper
-  - tf2-petrotheum-pyrotheum-ore-copper
-  - tf2-pyrotheum-dust-copper
-  - tf2-ingot-copper-from-nuggets
-  - tf2-ingot-copper-from-block
+  - tf-1-12-pyrotheum-ore-copper
+  - tf-1-12-petrotheum-pyrotheum-ore-copper
+  - tf-1-12-pyrotheum-dust-copper
+  - tf-1-12-ingot-copper-from-nuggets
+  - tf-1-12-ingot-copper-from-block
   smelter:
   - ore-processing-sand-copper
   - ore-processing-rich-slag-copper
@@ -45,47 +45,47 @@ recipes:
   - recycling-horse-armor-copper
 usage-recipes:
   crafting:
-  - tf2-petrotheum-ingot-copper
-  - tf2-nugget-copper
-  - tf2-gear-copper
-  - tf2-drill-head
-  - tf2-saw-blade
-  - tf2-storage-block-copper
-  - tf2-multimeter
-  - te5-device-heat-sink
-  - te5-device-tapper
-  - te5-device-fluid-buffer
-  - te5-dynamo-steam
-  - te5-flux-capacitor-basic
-  - te5-portable-tank-basic
-  - te5-reservoir-basic
-  - te5-reservoir-hardened
-  - te5-augment-machine-crafter-tank
-  - te5-augment-dynamo-coil-duct
-  - td2-fluiduct-basic
-  - td2-fluiduct-basic-opaque
-  - tc-watering-can-basic
-  - ti-fluxbore-hardened
-  - ti-fluxsaw-hardened
-  - ti-hypoinfuser-basic
-  - ti-alchemical-quiver-basic
-  - tf2-tool-pickaxe-copper
-  - tf2-tool-shovel-copper
-  - tf2-tool-axe-copper
-  - tf2-tool-hoe-copper
-  - tf2-tool-fishing-rod-copper
-  - tf2-tool-shears-copper
-  - tf2-tool-hammer-copper
-  - tf2-tool-excavator-copper
-  - tf2-tool-sickle-copper
-  - tf2-weapon-sword-copper
-  - tf2-weapon-bow-copper
-  - tf2-weapon-shield-copper
-  - tf2-armor-helmet-copper
-  - tf2-armor-chestplate-copper
-  - tf2-armor-leggings-copper
-  - tf2-armor-boots-copper
-  - tf2-horse-armor-copper
+  - tf-1-12-petrotheum-ingot-copper
+  - tf-1-12-nugget-copper
+  - tf-1-12-gear-copper
+  - tf-1-12-drill-head
+  - tf-1-12-saw-blade
+  - tf-1-12-storage-block-copper
+  - tf-1-12-multimeter
+  - te-1-12-device-heat-sink
+  - te-1-12-device-tapper
+  - te-1-12-device-fluid-buffer
+  - te-1-12-dynamo-steam
+  - te-1-12-flux-capacitor-basic
+  - te-1-12-portable-tank-basic
+  - te-1-12-reservoir-basic
+  - te-1-12-reservoir-hardened
+  - te-1-12-augment-machine-crafter-tank
+  - te-1-12-augment-dynamo-coil-duct
+  - td-1-12-fluiduct-basic
+  - td-1-12-fluiduct-basic-opaque
+  - tc-1-12-watering-can-basic
+  - ti-1-12-fluxbore-hardened
+  - ti-1-12-fluxsaw-hardened
+  - ti-1-12-hypoinfuser-basic
+  - ti-1-12-alchemical-quiver-basic
+  - tf-1-12-tool-pickaxe-copper
+  - tf-1-12-tool-shovel-copper
+  - tf-1-12-tool-axe-copper
+  - tf-1-12-tool-hoe-copper
+  - tf-1-12-tool-fishing-rod-copper
+  - tf-1-12-tool-shears-copper
+  - tf-1-12-tool-hammer-copper
+  - tf-1-12-tool-excavator-copper
+  - tf-1-12-tool-sickle-copper
+  - tf-1-12-weapon-sword-copper
+  - tf-1-12-weapon-bow-copper
+  - tf-1-12-weapon-shield-copper
+  - tf-1-12-armor-helmet-copper
+  - tf-1-12-armor-chestplate-copper
+  - tf-1-12-armor-leggings-copper
+  - tf-1-12-armor-boots-copper
+  - tf-1-12-horse-armor-copper
   pulverizer:
   - dust-copper
   smelter:
@@ -118,7 +118,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -128,19 +128,19 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

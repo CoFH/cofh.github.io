@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-hammer/
 recipes:
   crafting:
-  - ra2-tool-hammer
+  - ra-1-12-tool-hammer
 ---
 
 A **flux-infused hammer** is a powerful [hammer](/docs/1.12/thermal-foundation/hammers/) powered by

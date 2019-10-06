@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/long-range-linking-viaduct/
 recipes:
   transposer-fill:
-  - td2-viaduct-long-range-linking
+  - td-1-12-viaduct-long-range-linking
 ---
 
 A **long range linking viaduct** is a type of [viaduct](/docs/1.12/thermal-dynamics/viaduct/) used to
@@ -21,7 +21,7 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
 
 
 Usage

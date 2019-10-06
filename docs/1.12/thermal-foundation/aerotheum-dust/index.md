@@ -10,13 +10,13 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/aerotheum-dust/
 recipes:
   crafting:
-  - tf2-dust-aerotheum
+  - tf-1-12-dust-aerotheum
 usage-recipes:
   crafting:
-  - te5-augment-machine-extruder-sedimentary
-  - te5-augment-dynamo-compression-biofuel
-  - te5-augment-dynamo-reactant-elemental
-  - ti-fluxsaw-signalum
+  - te-1-12-augment-machine-extruder-sedimentary
+  - te-1-12-augment-dynamo-compression-biofuel
+  - te-1-12-augment-dynamo-reactant-elemental
+  - ti-1-12-fluxsaw-signalum
   crucible:
   - aerotheum
   centrifuge:
@@ -41,13 +41,13 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Centrifugal Separator ingredient
-{% include recipe-table.html type='te5-centrifuge' recipes=page.usage-recipes.centrifuge %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.usage-recipes.centrifuge %}
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [tectonic

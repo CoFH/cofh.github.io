@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-steel/
 recipes:
   crafting:
-  - tf2-storage-block-steel
+  - tf-1-12-storage-block-steel
 usage-recipes:
   crafting:
-  - tf2-ingot-steel-from-block
+  - tf-1-12-ingot-steel-from-block
 ---
 
 **Blocks of steel** are blocks made from [steel ingots](/docs/1.12/thermal-foundation/steel-ingot/).

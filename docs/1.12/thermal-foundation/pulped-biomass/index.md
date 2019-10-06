@@ -18,8 +18,8 @@ recipes:
   - biomass-from-vines
 usage-recipes:
   crafting:
-  - tf2-dirt-using-biomass-and-slag
-  - tf2-bioblend
+  - tf-1-12-dirt-using-biomass-and-slag
+  - tf-1-12-bioblend
   crucible:
   - biocrude-from-biomass
   transposer-fill:
@@ -40,7 +40,7 @@ Obtaining
 ---------
 
 ### Sawmill
-{% include recipe-table.html type='te5-sawmill' recipes=page.recipes.sawmill no-result=true %}
+{% include recipe-table.html type='te-1-12-sawmill' recipes=page.recipes.sawmill no-result=true %}
 
 
 Usage
@@ -50,7 +50,7 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

@@ -23,7 +23,7 @@ Obtaining
 ---------
 
 ### Compactor with Numismatic Press
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.recipes.compactor-coin no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.recipes.compactor-coin no-result=true %}
 
 
 Usage

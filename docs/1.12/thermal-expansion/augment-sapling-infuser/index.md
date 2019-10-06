@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-sapling-infuser/
 recipes:
   crafting:
-  - te5-augment-machine-insolator-tree
+  - te-1-12-augment-machine-insolator-tree
 recipe-list:
 - wood
 - wood-rich
@@ -46,4 +46,4 @@ An installed sapling infuser adds some extra [recipes](#recipes) to a
 Recipes
 -------
 
-{% include recipe-table.html type='te5-insolator-tree' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-insolator-tree' recipes=page.recipe-list %}

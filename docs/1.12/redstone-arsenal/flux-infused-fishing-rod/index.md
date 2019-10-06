@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-fishing-rod/
 recipes:
   crafting:
-  - ra2-tool-fishing-rod
+  - ra-1-12-tool-fishing-rod
 ---
 
 A **flux-infused fishing rod** is a powerful [fishing

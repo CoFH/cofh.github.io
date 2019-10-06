@@ -11,10 +11,10 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/structuralduct/
 recipes:
   crafting:
-  - td2-structuralduct
+  - td-1-12-structuralduct
 usage-recipes:
   crafting:
-  - td2-covers
+  - td-1-12-covers
 ---
 
 A **structuralduct** is a decorative block that connects to most other ducts. It

@@ -41,7 +41,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/machines/
 frame-recipes:
   crafting:
-  - te5-frame-machine
+  - te-1-12-frame-machine
 ---
 
 **Machines** are blocks that process items and/or fluids using [Redstone

@@ -9,23 +9,23 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/hammers/
 recipes:
   crafting:
-  - tf2-tool-hammer-wood
-  - tf2-tool-hammer-stone
-  - tf2-tool-hammer-iron
-  - tf2-tool-hammer-gold
-  - tf2-tool-hammer-diamond
-  - tf2-tool-hammer-copper
-  - tf2-tool-hammer-tin
-  - tf2-tool-hammer-silver
-  - tf2-tool-hammer-lead
-  - tf2-tool-hammer-aluminum
-  - tf2-tool-hammer-nickel
-  - tf2-tool-hammer-platinum
-  - tf2-tool-hammer-steel
-  - tf2-tool-hammer-electrum
-  - tf2-tool-hammer-invar
-  - tf2-tool-hammer-bronze
-  - tf2-tool-hammer-constantan
+  - tf-1-12-tool-hammer-wood
+  - tf-1-12-tool-hammer-stone
+  - tf-1-12-tool-hammer-iron
+  - tf-1-12-tool-hammer-gold
+  - tf-1-12-tool-hammer-diamond
+  - tf-1-12-tool-hammer-copper
+  - tf-1-12-tool-hammer-tin
+  - tf-1-12-tool-hammer-silver
+  - tf-1-12-tool-hammer-lead
+  - tf-1-12-tool-hammer-aluminum
+  - tf-1-12-tool-hammer-nickel
+  - tf-1-12-tool-hammer-platinum
+  - tf-1-12-tool-hammer-steel
+  - tf-1-12-tool-hammer-electrum
+  - tf-1-12-tool-hammer-invar
+  - tf-1-12-tool-hammer-bronze
+  - tf-1-12-tool-hammer-constantan
 usage-recipes:
   smelter:
   - recycling-tool-hammer-iron
@@ -109,7 +109,7 @@ Touch](https://minecraft.gamepedia.com/Silk_Touch) and
 [Fortune](https://minecraft.gamepedia.com/Fortune).
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}

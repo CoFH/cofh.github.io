@@ -8,17 +8,17 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/electrum-gear/
 recipes:
   crafting:
-  - tf2-gear-electrum
+  - tf-1-12-gear-electrum
   compactor-gear:
   - gear-electrum
 usage-recipes:
   crafting:
-  - tf2-upgrade-kit-signalum
-  - te5-dynamo-enervation
-  - te5-augment-machine-charger-throughput
-  - te5-augment-machine-charger-wireless
-  - ti-fluxbore-reinforced
-  - ti-fluxsaw-reinforced
+  - tf-1-12-upgrade-kit-signalum
+  - te-1-12-dynamo-enervation
+  - te-1-12-augment-machine-charger-throughput
+  - te-1-12-augment-machine-charger-wireless
+  - ti-1-12-fluxbore-reinforced
+  - ti-1-12-fluxsaw-reinforced
   smelter:
   - recycling-gear-electrum
 ---
@@ -37,7 +37,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -47,4 +47,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

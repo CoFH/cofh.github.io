@@ -18,12 +18,12 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/conversion-kits/
 recipes:
   crafting:
-  - tf2-conversion-kit-reinforced
-  - tf2-conversion-kit-signalum-1
-  - tf2-conversion-kit-signalum-2
-  - tf2-conversion-kit-resonant-1
-  - tf2-conversion-kit-resonant-2
-  - tf2-conversion-kit-resonant-3
+  - tf-1-12-conversion-kit-reinforced
+  - tf-1-12-conversion-kit-signalum-1
+  - tf-1-12-conversion-kit-signalum-2
+  - tf-1-12-conversion-kit-resonant-1
+  - tf-1-12-conversion-kit-resonant-2
+  - tf-1-12-conversion-kit-resonant-3
 ---
 
 **Conversion kits** are items used to fully upgrade blocks to a given

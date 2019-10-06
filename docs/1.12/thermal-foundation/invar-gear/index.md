@@ -8,20 +8,20 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/invar-gear/
 recipes:
   crafting:
-  - tf2-gear-invar
+  - tf-1-12-gear-invar
   compactor-gear:
   - gear-invar
 usage-recipes:
   crafting:
-  - te5-machine-smelter
-  - te5-dynamo-magmatic
-  - te5-augment-machine-furnace-pyrolysis
-  - te5-augment-machine-compactor-coin
-  - te5-augment-machine-crucible-lava
-  - te5-augment-machine-centrifuge-mobs
-  - te5-augment-dynamo-compression-coolant
-  - ti-fluxbore-hardened
-  - ti-fluxsaw-hardened
+  - te-1-12-machine-smelter
+  - te-1-12-dynamo-magmatic
+  - te-1-12-augment-machine-furnace-pyrolysis
+  - te-1-12-augment-machine-compactor-coin
+  - te-1-12-augment-machine-crucible-lava
+  - te-1-12-augment-machine-centrifuge-mobs
+  - te-1-12-augment-dynamo-compression-coolant
+  - ti-1-12-fluxbore-hardened
+  - ti-1-12-fluxsaw-hardened
   smelter:
   - recycling-gear-invar
 ---
@@ -39,7 +39,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -49,4 +49,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

@@ -8,17 +8,17 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pulverized-mana-infused-metal/
 recipes:
   crafting:
-  - tf2-petrotheum-ingot-mithril
-  - tf2-petrotheum-ore-mithril
+  - tf-1-12-petrotheum-ingot-mithril
+  - tf-1-12-petrotheum-ore-mithril
   pulverizer:
   - dust-mithril
   - ore-processing-mithril
 usage-recipes:
   crafting:
-  - tf2-pyrotheum-dust-mithril
-  - tf2-hardened-glass-mithril
+  - tf-1-12-pyrotheum-dust-mithril
+  - tf-1-12-hardened-glass-mithril
   smelting:
-  - tf2-ingot-mithril-from-dust
+  - tf-1-12-ingot-mithril-from-dust
   smelter:
   - dust-smelting-mithril
   - hardened-glass-mithril
@@ -35,7 +35,7 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -57,4 +57,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

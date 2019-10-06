@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-reflux-column/
 recipes:
   crafting:
-  - te5-augment-machine-refinery-oil
+  - te-1-12-augment-machine-refinery-oil
 ---
 
 A **reflux column** is an [augment](/docs/1.12/thermal-expansion/augments/) that increases the

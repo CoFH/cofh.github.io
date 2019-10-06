@@ -11,13 +11,13 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/fluxed-armor-plating/
 recipes:
   crafting:
-  - ra2-fluxed-armor-plating
+  - ra-1-12-fluxed-armor-plating
 usage-recipes:
   crafting:
-  - ra2-armor-helmet
-  - ra2-armor-chestplate
-  - ra2-armor-leggings
-  - ra2-armor-boots
+  - ra-1-12-armor-helmet
+  - ra-1-12-armor-chestplate
+  - ra-1-12-armor-leggings
+  - ra-1-12-armor-boots
 ---
 
 **Fluxed armor plating** is a crafting material used to make flux-infused armor.

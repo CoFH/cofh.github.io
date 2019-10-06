@@ -8,13 +8,13 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/enderium-gear/
 recipes:
   crafting:
-  - tf2-gear-enderium
+  - tf-1-12-gear-enderium
   compactor-gear:
   - gear-enderium
 usage-recipes:
   crafting:
-  - ti-fluxbore-resonant
-  - ti-fluxsaw-resonant
+  - ti-1-12-fluxbore-resonant
+  - ti-1-12-fluxsaw-resonant
   smelter:
   - recycling-gear-enderium
 ---
@@ -33,7 +33,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -43,4 +43,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

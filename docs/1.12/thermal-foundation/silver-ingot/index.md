@@ -10,14 +10,14 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/silver-ingot/
 recipes:
   smelting:
-  - tf2-ore-processing-silver
-  - tf2-ingot-silver-from-dust
+  - tf-1-12-ore-processing-silver
+  - tf-1-12-ingot-silver-from-dust
   crafting:
-  - tf2-pyrotheum-ore-silver
-  - tf2-petrotheum-pyrotheum-ore-silver
-  - tf2-pyrotheum-dust-silver
-  - tf2-ingot-silver-from-nuggets
-  - tf2-ingot-silver-from-block
+  - tf-1-12-pyrotheum-ore-silver
+  - tf-1-12-petrotheum-pyrotheum-ore-silver
+  - tf-1-12-pyrotheum-dust-silver
+  - tf-1-12-ingot-silver-from-nuggets
+  - tf-1-12-ingot-silver-from-block
   smelter:
   - ore-processing-sand-silver
   - ore-processing-rich-slag-silver
@@ -45,33 +45,33 @@ recipes:
   - recycling-horse-armor-silver
 usage-recipes:
   crafting:
-  - tf2-petrotheum-ingot-silver
-  - tf2-nugget-silver
-  - tf2-gear-silver
-  - tf2-storage-block-silver
-  - tf2-redstone-coil-silver
-  - te5-device-diffuser
-  - te5-augment-dynamo-power
-  - ti-fluxbore-basic
-  - ti-fluxsaw-basic
-  - ti-hypoinfuser-basic
-  - tf2-tool-pickaxe-silver
-  - tf2-tool-shovel-silver
-  - tf2-tool-axe-silver
-  - tf2-tool-hoe-silver
-  - tf2-tool-fishing-rod-silver
-  - tf2-tool-shears-silver
-  - tf2-tool-hammer-silver
-  - tf2-tool-excavator-silver
-  - tf2-tool-sickle-silver
-  - tf2-weapon-sword-silver
-  - tf2-weapon-bow-silver
-  - tf2-weapon-shield-silver
-  - tf2-armor-helmet-silver
-  - tf2-armor-chestplate-silver
-  - tf2-armor-leggings-silver
-  - tf2-armor-boots-silver
-  - tf2-horse-armor-silver
+  - tf-1-12-petrotheum-ingot-silver
+  - tf-1-12-nugget-silver
+  - tf-1-12-gear-silver
+  - tf-1-12-storage-block-silver
+  - tf-1-12-redstone-coil-silver
+  - te-1-12-device-diffuser
+  - te-1-12-augment-dynamo-power
+  - ti-1-12-fluxbore-basic
+  - ti-1-12-fluxsaw-basic
+  - ti-1-12-hypoinfuser-basic
+  - tf-1-12-tool-pickaxe-silver
+  - tf-1-12-tool-shovel-silver
+  - tf-1-12-tool-axe-silver
+  - tf-1-12-tool-hoe-silver
+  - tf-1-12-tool-fishing-rod-silver
+  - tf-1-12-tool-shears-silver
+  - tf-1-12-tool-hammer-silver
+  - tf-1-12-tool-excavator-silver
+  - tf-1-12-tool-sickle-silver
+  - tf-1-12-weapon-sword-silver
+  - tf-1-12-weapon-bow-silver
+  - tf-1-12-weapon-shield-silver
+  - tf-1-12-armor-helmet-silver
+  - tf-1-12-armor-chestplate-silver
+  - tf-1-12-armor-leggings-silver
+  - tf-1-12-armor-boots-silver
+  - tf-1-12-horse-armor-silver
   pulverizer:
   - dust-silver
   smelter:
@@ -102,7 +102,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -112,19 +112,19 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

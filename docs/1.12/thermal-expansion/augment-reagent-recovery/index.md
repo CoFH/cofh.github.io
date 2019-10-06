@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-reagent-recovery/
 recipes:
   crafting:
-  - te5-augment-machine-brewer-reagent
+  - te-1-12-augment-machine-brewer-reagent
 ---
 
 A **reagent recovery** [augment](/docs/1.12/thermal-expansion/augments/) provides a chance for an

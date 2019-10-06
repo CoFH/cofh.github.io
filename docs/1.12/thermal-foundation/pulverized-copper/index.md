@@ -8,8 +8,8 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pulverized-copper/
 recipes:
   crafting:
-  - tf2-petrotheum-ingot-copper
-  - tf2-petrotheum-ore-copper
+  - tf-1-12-petrotheum-ingot-copper
+  - tf-1-12-petrotheum-ore-copper
   pulverizer:
   - dust-copper
   - ore-processing-copper
@@ -19,13 +19,13 @@ recipes:
   - dust-signalum
 usage-recipes:
   crafting:
-  - tf2-pyrotheum-dust-copper
-  - tf2-dust-bronze
-  - tf2-dust-constantan
-  - tf2-dust-signalum
-  - tf2-hardened-glass-copper
+  - tf-1-12-pyrotheum-dust-copper
+  - tf-1-12-dust-bronze
+  - tf-1-12-dust-constantan
+  - tf-1-12-dust-signalum
+  - tf-1-12-hardened-glass-copper
   smelting:
-  - tf2-ingot-copper-from-dust
+  - tf-1-12-ingot-copper-from-dust
   smelter:
   - dust-smelting-copper
   - ingot-bronze-from-dust-copper-and-dust-tin
@@ -46,13 +46,13 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
 When [copper ore](/docs/1.12/thermal-foundation/copper-ore/) is broken using a
@@ -71,4 +71,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

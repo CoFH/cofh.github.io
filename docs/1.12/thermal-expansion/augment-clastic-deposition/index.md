@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-clastic-deposition/
 recipes:
   crafting:
-  - te5-augment-machine-extruder-sedimentary
+  - te-1-12-augment-machine-extruder-sedimentary
 recipe-list:
 - gravel
 - sand
@@ -49,4 +49,4 @@ recipe set consists of producing various types of sedimentary rock.
 Recipes
 -------
 
-{% include recipe-table.html type='te5-extruder-sedimentary' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-extruder-sedimentary' recipes=page.recipe-list %}

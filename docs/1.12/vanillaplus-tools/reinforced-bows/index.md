@@ -11,10 +11,10 @@ image:
   file: vanillaplus-tools/bow-stone.png
 recipes:
   crafting:
-  - vpt-weapon-bow-stone
-  - vpt-weapon-bow-iron
-  - vpt-weapon-bow-gold
-  - vpt-weapon-bow-diamond
+  - vpt-1-12-weapon-bow-stone
+  - vpt-1-12-weapon-bow-iron
+  - vpt-1-12-weapon-bow-gold
+  - vpt-1-12-weapon-bow-diamond
 redirect_from:
 - /docs/vanillaplus-tools/reinforced-bows/
 ---

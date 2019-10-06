@@ -8,8 +8,8 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pulverized-tin/
 recipes:
   crafting:
-  - tf2-petrotheum-ingot-tin
-  - tf2-petrotheum-ore-tin
+  - tf-1-12-petrotheum-ingot-tin
+  - tf-1-12-petrotheum-ore-tin
   pulverizer:
   - dust-tin
   - ore-processing-tin
@@ -18,12 +18,12 @@ recipes:
   - dust-lumium
 usage-recipes:
   crafting:
-  - tf2-pyrotheum-dust-tin
-  - tf2-dust-bronze
-  - tf2-dust-lumium
-  - tf2-hardened-glass-tin
+  - tf-1-12-pyrotheum-dust-tin
+  - tf-1-12-dust-bronze
+  - tf-1-12-dust-lumium
+  - tf-1-12-hardened-glass-tin
   smelting:
-  - tf2-ingot-tin-from-dust
+  - tf-1-12-ingot-tin-from-dust
   smelter:
   - dust-smelting-tin
   - ingot-bronze-from-dust-copper-and-dust-tin
@@ -42,13 +42,13 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
 When [tin ore](/docs/1.12/thermal-foundation/tin-ore/) is broken using a
@@ -67,4 +67,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

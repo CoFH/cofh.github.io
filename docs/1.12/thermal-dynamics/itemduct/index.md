@@ -16,18 +16,18 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/itemduct/
 recipes:
   crafting:
-  - td2-itemduct
-  - td2-itemduct-opaque
-  - td2-itemduct-opaque-from-transparent
-  - td2-itemduct-transparent-from-opaque
-  - td2-itemduct-dense
-  - td2-itemduct-vacuum
+  - td-1-12-itemduct
+  - td-1-12-itemduct-opaque
+  - td-1-12-itemduct-opaque-from-transparent
+  - td-1-12-itemduct-transparent-from-opaque
+  - td-1-12-itemduct-dense
+  - td-1-12-itemduct-vacuum
 usage-recipes:
   transposer-fill:
-  - td2-itemduct-fast
+  - td-1-12-itemduct-fast
   crafting:
-  - td2-itemduct-energy-one
-  - td2-itemduct-energy-three
+  - td-1-12-itemduct-energy-one
+  - td-1-12-itemduct-energy-three
 ---
 
 An **itemduct** is a block that transfers items between blocks.
@@ -77,7 +77,7 @@ through, and [retrievers](/docs/1.12/thermal-dynamics/retrievers/) allow them to
 themselves from other blocks connected to the network.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

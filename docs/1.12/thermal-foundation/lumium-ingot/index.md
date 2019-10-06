@@ -10,19 +10,19 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/lumium-ingot/
 recipes:
   crafting:
-  - tf2-ingot-lumium-from-nuggets
-  - tf2-ingot-lumium-from-block
+  - tf-1-12-ingot-lumium-from-nuggets
+  - tf-1-12-ingot-lumium-from-block
   smelter:
   - dust-smelting-lumium
   - recycling-gear-lumium
   - recycling-plate-lumium
 usage-recipes:
   crafting:
-  - tf2-nugget-lumium
-  - tf2-gear-lumium
-  - tf2-storage-block-lumium
-  - ti-fluxbore-resonant
-  - ti-fluxsaw-resonant
+  - tf-1-12-nugget-lumium
+  - tf-1-12-gear-lumium
+  - tf-1-12-storage-block-lumium
+  - ti-1-12-fluxbore-resonant
+  - ti-1-12-fluxsaw-resonant
   pulverizer:
   - dust-lumium
   compactor:
@@ -53,7 +53,7 @@ smelter](/docs/1.12/thermal-expansion/induction-smelter/).
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -63,16 +63,16 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

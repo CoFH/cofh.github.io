@@ -8,12 +8,12 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/signalum-blend/
 recipes:
   crafting:
-  - tf2-dust-signalum
+  - tf-1-12-dust-signalum
   pulverizer:
   - dust-signalum
 usage-recipes:
   crafting:
-  - tf2-hardened-glass-signalum
+  - tf-1-12-hardened-glass-signalum
   smelter:
   - dust-smelting-signalum
   - hardened-glass-signalum
@@ -41,7 +41,7 @@ tank](/docs/1.12/thermal-expansion/portable-tank/) can make it easier to craft l
 signalum blend.
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 
 Usage
@@ -51,7 +51,7 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Centrifugal Separator ingredient
-{% include recipe-table.html type='te5-centrifuge' recipes=page.usage-recipes.centrifuge %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.usage-recipes.centrifuge %}

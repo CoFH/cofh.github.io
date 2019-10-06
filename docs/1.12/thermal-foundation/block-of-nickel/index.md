@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-nickel/
 recipes:
   crafting:
-  - tf2-storage-block-nickel
+  - tf-1-12-storage-block-nickel
 usage-recipes:
   crafting:
-  - tf2-ingot-nickel-from-block
+  - tf-1-12-ingot-nickel-from-block
 ---
 
 **Blocks of nickel** are blocks made from [nickel ingots](/docs/1.12/thermal-foundation/nickel-ingot/).

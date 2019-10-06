@@ -11,7 +11,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/phytogenic-insolator/
 recipes:
   crafting:
-  - te5-machine-insolator
+  - te-1-12-machine-insolator
 augments:
 - machine-power
 - machine-secondary
@@ -209,7 +209,7 @@ augmented.
 
 Augments can be installed in the Augmentation tab in an insolator's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
@@ -221,10 +221,10 @@ once. The remainder of the chance (e.g. 25% for a 125% chance) becomes the
 chance of the secondary product being produced twice.
 
 ### Using Phyto-Gro
-{% include recipe-table.html type='te5-insolator' recipes=page.recipe-list.phyto-gro %}
+{% include recipe-table.html type='te-1-12-insolator' recipes=page.recipe-list.phyto-gro %}
 
 ### Using rich Phyto-Gro
-{% include recipe-table.html type='te5-insolator' recipes=page.recipe-list.phyto-gro-rich %}
+{% include recipe-table.html type='te-1-12-insolator' recipes=page.recipe-list.phyto-gro-rich %}
 
 ### Using fluxed Phyto-Gro
-{% include recipe-table.html type='te5-insolator' recipes=page.recipe-list.phyto-gro-fluxed %}
+{% include recipe-table.html type='te-1-12-insolator' recipes=page.recipe-list.phyto-gro-fluxed %}

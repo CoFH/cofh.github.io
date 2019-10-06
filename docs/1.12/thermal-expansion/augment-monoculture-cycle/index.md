@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-monoculture-cycle/
 recipes:
   crafting:
-  - te5-augment-machine-insolator-monoculture
+  - te-1-12-augment-machine-insolator-monoculture
 ---
 
 A **monoculture cycle** [augment](/docs/1.12/thermal-expansion/augments/) changes a [phytogenic

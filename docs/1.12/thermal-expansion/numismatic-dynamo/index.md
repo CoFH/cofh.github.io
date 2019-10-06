@@ -10,7 +10,7 @@ image:
   file: thermal-expansion-5/dynamo-numismatic-rf.png
 recipes:
   crafting:
-  - te5-dynamo-numismatic
+  - te-1-12-dynamo-numismatic
 augments:
 - dynamo-power
 - dynamo-efficiency
@@ -138,7 +138,7 @@ cannot be augmented.
 
 Augments can be installed in the Augmentation tab in a numismatic dynamo's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Fuels

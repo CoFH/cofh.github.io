@@ -35,7 +35,7 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/covers/
 recipes:
   crafting:
-  - td2-covers
+  - td-1-12-covers
 ---
 
 **Covers** are items that can be installed on ducts to hide them, making them

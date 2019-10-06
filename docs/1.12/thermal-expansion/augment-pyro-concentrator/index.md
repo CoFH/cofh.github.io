@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-pyro-concentrator/
 recipes:
   crafting:
-  - te5-augment-machine-smelter-pyrotheum
+  - te-1-12-augment-machine-smelter-pyrotheum
 ---
 
 A **pyro-concentrator** is an [augment](/docs/1.12/thermal-expansion/augments/) that allows for an

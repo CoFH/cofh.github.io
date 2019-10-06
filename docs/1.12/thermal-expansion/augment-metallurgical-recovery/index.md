@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-metallurgical-recovery/
 recipes:
   crafting:
-  - te5-augment-machine-smelter-flux
+  - te-1-12-augment-machine-smelter-flux
 ---
 
 A **metallurgical recovery** [augment](/docs/1.12/thermal-expansion/augments/) provides a chance for an

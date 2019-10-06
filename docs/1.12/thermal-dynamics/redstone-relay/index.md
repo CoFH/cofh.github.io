@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/redstone-relay/
 recipes:
   crafting:
-  - td2-redstone-relay
+  - td-1-12-redstone-relay
 ---
 
 A **redstone relay** is an item that can be installed on

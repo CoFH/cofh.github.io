@@ -8,13 +8,13 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pulverized-coal/
 recipes:
   crafting:
-  - tf2-petrotheum-ore-coal
+  - tf-1-12-petrotheum-ore-coal
   pulverizer:
   - dust-coal
   - ore-processing-coal
 usage-recipes:
   crafting:
-  - tf2-gunpowder-using-coal
+  - tf-1-12-gunpowder-using-coal
   smelter:
   - ingot-steel-from-dust-iron-and-dust-coal
   - ingot-steel-from-ingot-iron-and-dust-coal
@@ -33,7 +33,7 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -46,10 +46,10 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='te5-crucible' recipes=page.usage-recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Steam Dynamo fuel
 When used as fuel in a [steam dynamo](/docs/1.12/thermal-expansion/steam-dynamo/),

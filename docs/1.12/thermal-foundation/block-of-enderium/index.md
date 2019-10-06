@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-enderium/
 recipes:
   crafting:
-  - tf2-storage-block-enderium
+  - tf-1-12-storage-block-enderium
 usage-recipes:
   crafting:
-  - tf2-ingot-enderium-from-block
+  - tf-1-12-ingot-enderium-from-block
 ---
 
 **Blocks of enderium** are blocks made from [enderium

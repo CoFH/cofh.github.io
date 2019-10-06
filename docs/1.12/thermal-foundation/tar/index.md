@@ -14,9 +14,9 @@ recipes:
   - naphtha-from-crude-oil
 usage-recipes:
   crafting:
-  - tf2-torch-using-tar
-  - tf2-piston-sticky-using-tar
-  - tf2-lead-using-tar
+  - tf-1-12-torch-using-tar
+  - tf-1-12-piston-sticky-using-tar
+  - tf-1-12-lead-using-tar
 ---
 
 ![Tar](/assets/images/thermal-foundation-2/tar.png){:style="height: 128px"}
@@ -34,10 +34,10 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Fractionating Still
-{% include recipe-table.html type='te5-refinery' recipes=page.recipes.refinery no-result=true %}
+{% include recipe-table.html type='te-1-12-refinery' recipes=page.recipes.refinery no-result=true %}
 
 
 Usage

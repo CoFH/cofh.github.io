@@ -11,7 +11,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-excitation-field-limiter/
 recipes:
   crafting:
-  - te5-augment-dynamo-throttle
+  - te-1-12-augment-dynamo-throttle
 ---
 
 An **excitation field limiter** is an [augment](/docs/1.12/thermal-expansion/augments/) that prevents a

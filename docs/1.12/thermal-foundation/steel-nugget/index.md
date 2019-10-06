@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/steel-nugget/
 recipes:
   crafting:
-  - tf2-nugget-steel
+  - tf-1-12-nugget-steel
 usage-recipes:
   crafting:
-  - tf2-ingot-steel-from-nuggets
+  - tf-1-12-ingot-steel-from-nuggets
 ---
 
 ![Steel nugget](/assets/images/thermal-foundation-2/nugget-steel.png){:style="height: 128px"}

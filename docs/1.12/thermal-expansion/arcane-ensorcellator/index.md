@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/arcane-ensorcellator/
 recipes:
   crafting:
-  - te5-machine-enchanter
+  - te-1-12-machine-enchanter
 augments:
 - machine-power
 ---
@@ -145,7 +145,7 @@ ensorcellator cannot be augmented.
 Augments can be installed in the Augmentation tab in an arcane ensorcellator's
 GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes

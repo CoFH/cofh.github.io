@@ -13,7 +13,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/steam-dynamo/
 recipes:
   crafting:
-  - te5-dynamo-steam
+  - te-1-12-dynamo-steam
 augments:
 - dynamo-power
 - dynamo-efficiency
@@ -142,7 +142,7 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a steam dynamo's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Fuels

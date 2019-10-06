@@ -24,14 +24,14 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/satchel/
 recipes:
   crafting:
-  - te5-satchel-basic-using-leather
-  - te5-satchel-basic-using-rockwool
-  - te5-satchel-hardened
-  - te5-satchel-reinforced
-  - te5-satchel-signalum
-  - te5-satchel-resonant
-  - te5-satchel-void-using-leather
-  - te5-satchel-void-using-rockwool
+  - te-1-12-satchel-basic-using-leather
+  - te-1-12-satchel-basic-using-rockwool
+  - te-1-12-satchel-hardened
+  - te-1-12-satchel-reinforced
+  - te-1-12-satchel-signalum
+  - te-1-12-satchel-resonant
+  - te-1-12-satchel-void-using-leather
+  - te-1-12-satchel-void-using-rockwool
 ---
 
 A **satchel** is an item that stores other items. It is able to automatically

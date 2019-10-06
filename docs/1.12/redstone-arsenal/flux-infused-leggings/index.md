@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-leggings/
 recipes:
   crafting:
-  - ra2-armor-leggings
+  - ra-1-12-armor-leggings
 ---
 
 **Flux-infused leggings** are powerful

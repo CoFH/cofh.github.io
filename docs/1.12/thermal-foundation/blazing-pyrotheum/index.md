@@ -32,10 +32,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='te5-crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -82,7 +82,7 @@ Blazing pyrotheum has the following effects on certain blocks and mobs:
 
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Pyro-Concentrator
 An [induction smelter](/docs/1.12/thermal-expansion/induction-smelter/) with a

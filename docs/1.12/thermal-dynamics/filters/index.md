@@ -19,16 +19,16 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/filters/
 recipes:
   crafting:
-  - td2-filter-basic
-  - td2-filter-hardened
-  - td2-filter-reinforced
-  - td2-filter-signalum
-  - td2-filter-resonant
+  - td-1-12-filter-basic
+  - td-1-12-filter-hardened
+  - td-1-12-filter-reinforced
+  - td-1-12-filter-signalum
+  - td-1-12-filter-resonant
   crafting-upgrading:
-  - td2-filter-hardened-upgrade
-  - td2-filter-reinforced-upgrade
-  - td2-filter-signalum-upgrade
-  - td2-filter-resonant-upgrade
+  - td-1-12-filter-hardened-upgrade
+  - td-1-12-filter-reinforced-upgrade
+  - td-1-12-filter-signalum-upgrade
+  - td-1-12-filter-resonant-upgrade
 ---
 
 **Filters** are items that can be installed on [itemduct](/docs/1.12/thermal-dynamics/itemduct/) and

@@ -18,11 +18,11 @@ image:
   file: thermal-innovation/fluxbore-creative.png
 recipes:
   crafting:
-  - ti-fluxbore-basic
-  - ti-fluxbore-hardened
-  - ti-fluxbore-reinforced
-  - ti-fluxbore-signalum
-  - ti-fluxbore-resonant
+  - ti-1-12-fluxbore-basic
+  - ti-1-12-fluxbore-hardened
+  - ti-1-12-fluxbore-reinforced
+  - ti-1-12-fluxbore-signalum
+  - ti-1-12-fluxbore-resonant
 ---
 
 A **fluxbore** (also known as a **drill**) is a tool that mines blocks using

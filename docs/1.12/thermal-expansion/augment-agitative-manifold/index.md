@@ -5,7 +5,7 @@ image:
   file: thermal-expansion-5/augment-dynamo-compression-biofuel.png
 recipes:
   crafting:
-  - te5-augment-dynamo-compression-biofuel
+  - te-1-12-augment-dynamo-compression-biofuel
 redirect_from:
 - /docs/thermal-expansion/augment-agitative-manifold/
 - /docs/thermal-expansion-5/augment-agitative-manifold/

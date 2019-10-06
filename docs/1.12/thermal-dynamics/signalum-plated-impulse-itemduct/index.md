@@ -12,14 +12,14 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/signalum-plated-impulse-itemduct/
 recipes:
   crafting:
-  - td2-itemduct-energy-fast-one
-  - td2-itemduct-energy-fast-three
-  - td2-itemduct-energy-fast-opaque-from-transparent
-  - td2-itemduct-energy-fast-transparent-from-opaque
-  - td2-itemduct-energy-fast-dense
-  - td2-itemduct-energy-fast-vacuum
+  - td-1-12-itemduct-energy-fast-one
+  - td-1-12-itemduct-energy-fast-three
+  - td-1-12-itemduct-energy-fast-opaque-from-transparent
+  - td-1-12-itemduct-energy-fast-transparent-from-opaque
+  - td-1-12-itemduct-energy-fast-dense
+  - td-1-12-itemduct-energy-fast-vacuum
   transposer-fill:
-  - td2-itemduct-energy-fast
+  - td-1-12-itemduct-energy-fast
 ---
 
 A **signalum-plated impulse itemduct** is a type of [itemduct](/docs/1.12/thermal-dynamics/itemduct/)
@@ -34,7 +34,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill %}
 
 
 Usage

@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/magma-crucible/
 recipes:
   crafting:
-  - te5-machine-crucible
+  - te-1-12-machine-crucible
 augments:
 - machine-power
 - machine-crucible-lava
@@ -178,10 +178,10 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a crucible's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}
 
 
 Recipes
 -------
 
-{% include recipe-table.html type='te5-crucible' recipes=page.recipe-list %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.recipe-list %}

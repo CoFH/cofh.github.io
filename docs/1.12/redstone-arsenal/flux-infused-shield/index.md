@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-shield/
 recipes:
   crafting:
-  - ra2-weapon-shield
+  - ra-1-12-weapon-shield
 ---
 
 A **flux-infused shield** is a powerful

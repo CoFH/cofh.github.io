@@ -11,8 +11,8 @@ recipes:
   - phyto-gro-fluxed
 usage-recipes:
   crafting:
-  - te5-augment-machine-insolator-monoculture
-  - tc-watering-can-resonant
+  - te-1-12-augment-machine-insolator-monoculture
+  - tc-1-12-watering-can-resonant
   insolator:
   - beetroot-fluxed
   - cactus-fluxed
@@ -46,7 +46,7 @@ Obtaining
 ---------
 
 ### Energetic Infuser
-{% include recipe-table.html type='te5-charger' recipes=page.recipes.charger no-result=true %}
+{% include recipe-table.html type='te-1-12-charger' recipes=page.recipes.charger no-result=true %}
 
 
 Usage
@@ -60,10 +60,10 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 7x7 area.
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Phytogenic Insolator ingredient
-{% include recipe-table.html type='te5-insolator' recipes=page.usage-recipes.insolator %}
+{% include recipe-table.html type='te-1-12-insolator' recipes=page.usage-recipes.insolator %}
 
 ### Phytogenic Insolator with Sapling Infuser ingredient
-{% include recipe-table.html type='te5-insolator-tree' recipes=page.usage-recipes.insolator-tree %}
+{% include recipe-table.html type='te-1-12-insolator-tree' recipes=page.usage-recipes.insolator-tree %}
 
 ### Arboreal Extractor
 When fluxed Phyto-Gro is used in an [arboreal

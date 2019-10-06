@@ -8,8 +8,8 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pulverized-nickel/
 recipes:
   crafting:
-  - tf2-petrotheum-ingot-nickel
-  - tf2-petrotheum-ore-nickel
+  - tf-1-12-petrotheum-ingot-nickel
+  - tf-1-12-petrotheum-ore-nickel
   pulverizer:
   - dust-nickel
   - ore-processing-nickel
@@ -19,12 +19,12 @@ recipes:
   - dust-constantan
 usage-recipes:
   crafting:
-  - tf2-pyrotheum-dust-nickel
-  - tf2-dust-invar
-  - tf2-dust-constantan
-  - tf2-hardened-glass-nickel
+  - tf-1-12-pyrotheum-dust-nickel
+  - tf-1-12-dust-invar
+  - tf-1-12-dust-constantan
+  - tf-1-12-hardened-glass-nickel
   smelting:
-  - tf2-ingot-nickel-from-dust
+  - tf-1-12-ingot-nickel-from-dust
   smelter:
   - dust-smelting-nickel
   - ingot-invar-from-dust-iron-and-dust-nickel
@@ -45,13 +45,13 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
 When [nickel ore](/docs/1.12/thermal-foundation/nickel-ore/) is broken using a
@@ -70,4 +70,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

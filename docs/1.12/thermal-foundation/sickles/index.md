@@ -10,23 +10,23 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/sickles/
 recipes:
   crafting:
-  - tf2-tool-sickle-wood
-  - tf2-tool-sickle-stone
-  - tf2-tool-sickle-iron
-  - tf2-tool-sickle-gold
-  - tf2-tool-sickle-diamond
-  - tf2-tool-sickle-copper
-  - tf2-tool-sickle-tin
-  - tf2-tool-sickle-silver
-  - tf2-tool-sickle-lead
-  - tf2-tool-sickle-aluminum
-  - tf2-tool-sickle-nickel
-  - tf2-tool-sickle-platinum
-  - tf2-tool-sickle-steel
-  - tf2-tool-sickle-electrum
-  - tf2-tool-sickle-invar
-  - tf2-tool-sickle-bronze
-  - tf2-tool-sickle-constantan
+  - tf-1-12-tool-sickle-wood
+  - tf-1-12-tool-sickle-stone
+  - tf-1-12-tool-sickle-iron
+  - tf-1-12-tool-sickle-gold
+  - tf-1-12-tool-sickle-diamond
+  - tf-1-12-tool-sickle-copper
+  - tf-1-12-tool-sickle-tin
+  - tf-1-12-tool-sickle-silver
+  - tf-1-12-tool-sickle-lead
+  - tf-1-12-tool-sickle-aluminum
+  - tf-1-12-tool-sickle-nickel
+  - tf-1-12-tool-sickle-platinum
+  - tf-1-12-tool-sickle-steel
+  - tf-1-12-tool-sickle-electrum
+  - tf-1-12-tool-sickle-invar
+  - tf-1-12-tool-sickle-bronze
+  - tf-1-12-tool-sickle-constantan
 usage-recipes:
   smelter:
   - recycling-tool-sickle-iron
@@ -118,7 +118,7 @@ Sickles can be enchanted with the following
 * [Soulbound](/docs/1.12/cofh-core/soulbound/)
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}

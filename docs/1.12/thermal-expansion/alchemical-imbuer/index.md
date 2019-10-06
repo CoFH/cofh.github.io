@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/alchemical-imbuer/
 recipes:
   crafting:
-  - te5-machine-brewer
+  - te-1-12-machine-brewer
 augments:
 - machine-power
 - machine-brewer-reagent
@@ -146,4 +146,4 @@ cannot be augmented.
 
 Augments can be installed in the Augmentation tab in an alchemical imbuer's GUI.
 
-{% include te5-augment-table.html augments=page.augments %}
+{% include te-1-12-augment-table.html augments=page.augments %}

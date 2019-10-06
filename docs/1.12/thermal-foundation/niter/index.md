@@ -20,13 +20,13 @@ recipes:
   - dust-aerotheum
 usage-recipes:
   crafting:
-  - tf2-gunpowder-using-coal
-  - tf2-gunpowder-using-charcoal
-  - tf2-dust-aerotheum
-  - tf2-phyto-gro-using-sawdust
-  - tf2-phyto-gro-using-charcoal
-  - tf2-phyto-gro-rich-using-sawdust
-  - tf2-phyto-gro-rich-using-charcoal
+  - tf-1-12-gunpowder-using-coal
+  - tf-1-12-gunpowder-using-charcoal
+  - tf-1-12-dust-aerotheum
+  - tf-1-12-phyto-gro-using-sawdust
+  - tf-1-12-phyto-gro-using-charcoal
+  - tf-1-12-phyto-gro-rich-using-sawdust
+  - tf-1-12-phyto-gro-rich-using-charcoal
   transposer-fill:
   - blitz-powder
 ---
@@ -45,14 +45,14 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Blitzes
 A [blitz](/docs/1.12/thermal-foundation/blitz/) may drop up to two pieces of niter when killed by a
 player.
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te5-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 
 Usage
@@ -62,7 +62,7 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 
 Trivia

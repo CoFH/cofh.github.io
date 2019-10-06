@@ -9,10 +9,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/vanilla-recipes/
 recipes:
   crafting:
-  - tf2-saddle
-  - tf2-horse-armor-iron
-  - tf2-horse-armor-gold
-  - tf2-horse-armor-diamond
+  - tf-1-12-saddle
+  - tf-1-12-horse-armor-iron
+  - tf-1-12-horse-armor-gold
+  - tf-1-12-horse-armor-diamond
 ---
 
 [Thermal Foundation](/docs/1.12/thermal-foundation/) adds several recipes for items

@@ -8,16 +8,16 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/rich-phyto-gro/
 recipes:
   crafting:
-  - tf2-phyto-gro-rich-using-sawdust
-  - tf2-phyto-gro-rich-using-charcoal
+  - tf-1-12-phyto-gro-rich-using-sawdust
+  - tf-1-12-phyto-gro-rich-using-charcoal
   transposer-fill:
   - phyto-gro-rich
 usage-recipes:
   crafting:
-  - tf2-podzol-using-phyto-gro
-  - tf2-mycelium-using-phyto-gro
-  - te5-augment-machine-insolator-fertilizer
-  - tc-watering-can-signalum
+  - tf-1-12-podzol-using-phyto-gro
+  - tf-1-12-mycelium-using-phyto-gro
+  - te-1-12-augment-machine-insolator-fertilizer
+  - tc-1-12-watering-can-signalum
   charger:
   - phyto-gro-fluxed
   insolator:
@@ -56,7 +56,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
 
 
 Usage
@@ -70,13 +70,13 @@ meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 5x5 area.
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Phytogenic Insolator ingredient
-{% include recipe-table.html type='te5-insolator' recipes=page.usage-recipes.insolator %}
+{% include recipe-table.html type='te-1-12-insolator' recipes=page.usage-recipes.insolator %}
 
 ### Phytogenic Insolator with Sapling Infuser ingredient
-{% include recipe-table.html type='te5-insolator-tree' recipes=page.usage-recipes.insolator-tree %}
+{% include recipe-table.html type='te-1-12-insolator-tree' recipes=page.usage-recipes.insolator-tree %}
 
 ### Energetic Infuser ingredient
-{% include recipe-table.html type='te5-charger' recipes=page.usage-recipes.charger %}
+{% include recipe-table.html type='te-1-12-charger' recipes=page.usage-recipes.charger %}
 
 ### Arboreal Extractor
 When rich Phyto-Gro is used in an [arboreal

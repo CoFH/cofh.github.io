@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-helm/
 recipes:
   crafting:
-  - ra2-armor-helmet
+  - ra-1-12-armor-helmet
 ---
 
 A **flux-infused helm** is a powerful

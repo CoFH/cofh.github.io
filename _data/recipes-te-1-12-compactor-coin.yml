@@ -1,0 +1,245 @@
+name: Numismatic Press
+site: te-1-12-docs
+url: augment-numismatic-press/
+with-energy: true
+recipes:
+  coin:
+    results:
+      - item-group: tf-1-12-coin-metal
+    ingredients:
+      - item-group: ingot-metal-with-tf2
+    energy: "4,000"
+    data:
+      input:
+        item-group: ingot-metal-with-tf2
+      output:
+        item-group: tf-1-12-coin-metal
+        amount: 3
+  coin-aluminum:
+    results:
+      - item: tf-1-12-coin-aluminum
+    ingredients:
+      - item: tf-1-12-ingot-aluminum
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-aluminum]
+      output:
+        item: [tf-1-12-coin-aluminum]
+        amount: 3
+  coin-bronze:
+    results:
+      - item: tf-1-12-coin-bronze
+    ingredients:
+      - item: tf-1-12-ingot-bronze
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-bronze]
+      output:
+        item: [tf-1-12-coin-bronze]
+        amount: 3
+  coin-constantan:
+    results:
+      - item: tf-1-12-coin-constantan
+    ingredients:
+      - item: tf-1-12-ingot-constantan
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-constantan]
+      output:
+        item: [tf-1-12-coin-constantan]
+        amount: 3
+  coin-copper:
+    results:
+      - item: tf-1-12-coin-copper
+    ingredients:
+      - item: tf-1-12-ingot-copper
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-copper]
+      output:
+        item: [tf-1-12-coin-copper]
+        amount: 3
+  coin-electrum:
+    results:
+      - item: tf-1-12-coin-electrum
+    ingredients:
+      - item: tf-1-12-ingot-electrum
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-electrum]
+      output:
+        item: [tf-1-12-coin-electrum]
+        amount: 3
+  coin-enderium:
+    results:
+      - item: tf-1-12-coin-enderium
+    ingredients:
+      - item: tf-1-12-ingot-enderium
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-enderium]
+      output:
+        item: [tf-1-12-coin-enderium]
+        amount: 3
+  coin-gold:
+    results:
+      - item: tf-1-12-coin-gold
+    ingredients:
+      - item: mc-ingot-gold
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ingot-gold]
+      output:
+        item: [tf-1-12-coin-gold]
+        amount: 3
+  coin-invar:
+    results:
+      - item: tf-1-12-coin-invar
+    ingredients:
+      - item: tf-1-12-ingot-invar
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-invar]
+      output:
+        item: [tf-1-12-coin-invar]
+        amount: 3
+  coin-iridium:
+    results:
+      - item: tf-1-12-coin-iridium
+    ingredients:
+      - item: tf-1-12-ingot-iridium
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-iridium]
+      output:
+        item: [tf-1-12-coin-iridium]
+        amount: 3
+  coin-iron:
+    results:
+      - item: tf-1-12-coin-iron
+    ingredients:
+      - item: mc-ingot-iron
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-ingot-iron]
+      output:
+        item: [tf-1-12-coin-iron]
+        amount: 3
+  coin-lead:
+    results:
+      - item: tf-1-12-coin-lead
+    ingredients:
+      - item: tf-1-12-ingot-lead
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-lead]
+      output:
+        item: [tf-1-12-coin-lead]
+        amount: 3
+  coin-lumium:
+    results:
+      - item: tf-1-12-coin-lumium
+    ingredients:
+      - item: tf-1-12-ingot-lumium
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-lumium]
+      output:
+        item: [tf-1-12-coin-lumium]
+        amount: 3
+  coin-mithril:
+    results:
+      - item: tf-1-12-coin-mithril
+    ingredients:
+      - item: tf-1-12-ingot-mithril
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-mithril]
+      output:
+        item: [tf-1-12-coin-mithril]
+        amount: 3
+  coin-nickel:
+    results:
+      - item: tf-1-12-coin-nickel
+    ingredients:
+      - item: tf-1-12-ingot-nickel
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-nickel]
+      output:
+        item: [tf-1-12-coin-nickel]
+        amount: 3
+  coin-platinum:
+    results:
+      - item: tf-1-12-coin-platinum
+    ingredients:
+      - item: tf-1-12-ingot-platinum
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-platinum]
+      output:
+        item: [tf-1-12-coin-platinum]
+        amount: 3
+  coin-signalum:
+    results:
+      - item: tf-1-12-coin-signalum
+    ingredients:
+      - item: tf-1-12-ingot-signalum
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-signalum]
+      output:
+        item: [tf-1-12-coin-signalum]
+        amount: 3
+  coin-silver:
+    results:
+      - item: tf-1-12-coin-silver
+    ingredients:
+      - item: tf-1-12-ingot-silver
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-silver]
+      output:
+        item: [tf-1-12-coin-silver]
+        amount: 3
+  coin-steel:
+    results:
+      - item: tf-1-12-coin-steel
+    ingredients:
+      - item: tf-1-12-ingot-steel
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-steel]
+      output:
+        item: [tf-1-12-coin-steel]
+        amount: 3
+  coin-tin:
+    results:
+      - item: tf-1-12-coin-tin
+    ingredients:
+      - item: tf-1-12-ingot-tin
+    energy: "4,000"
+    data:
+      input:
+        item: [tf-1-12-ingot-tin]
+      output:
+        item: [tf-1-12-coin-tin]
+        amount: 3

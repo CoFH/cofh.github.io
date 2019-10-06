@@ -10,14 +10,14 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/mana-infused-ingot/
 recipes:
   smelting:
-  - tf2-ore-processing-mithril
-  - tf2-ingot-mithril-from-dust
+  - tf-1-12-ore-processing-mithril
+  - tf-1-12-ingot-mithril-from-dust
   crafting:
-  - tf2-pyrotheum-ore-mithril
-  - tf2-petrotheum-pyrotheum-ore-mithril
-  - tf2-pyrotheum-dust-mithril
-  - tf2-ingot-mithril-from-nuggets
-  - tf2-ingot-mithril-from-block
+  - tf-1-12-pyrotheum-ore-mithril
+  - tf-1-12-petrotheum-pyrotheum-ore-mithril
+  - tf-1-12-pyrotheum-dust-mithril
+  - tf-1-12-ingot-mithril-from-nuggets
+  - tf-1-12-ingot-mithril-from-block
   smelter:
   - ore-processing-sand-mithril
   - ore-processing-rich-slag-mithril
@@ -27,10 +27,10 @@ recipes:
   - recycling-plate-mithril
 usage-recipes:
   crafting:
-  - tf2-petrotheum-ingot-mithril
-  - tf2-nugget-mithril
-  - tf2-gear-mithril
-  - tf2-storage-block-mithril
+  - tf-1-12-petrotheum-ingot-mithril
+  - tf-1-12-nugget-mithril
+  - tf-1-12-gear-mithril
+  - tf-1-12-storage-block-mithril
   pulverizer:
   - dust-mithril
   compactor:
@@ -59,7 +59,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -69,16 +69,16 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

@@ -1,0 +1,470 @@
+name: Fluid Transposer
+site: te-1-12-docs
+url: fluid-transposer/
+with-energy: true
+recipes:
+  bucket-aerotheum:
+    results:
+      - fluid: tf-1-12-aerotheum
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-aerotheum
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-aerotheum]
+      fluid-output:
+        fluid: tf-1-12-aerotheum
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-biocrude:
+    results:
+      - fluid: tf-1-12-biocrude
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-biocrude
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-biocrude]
+      fluid-output:
+        fluid: tf-1-12-biocrude
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-coal:
+    results:
+      - fluid: tf-1-12-coal
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-coal
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-coal]
+      fluid-output:
+        fluid: tf-1-12-coal
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-creosote-oil:
+    results:
+      - fluid: tf-1-12-creosote-oil
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-creosote-oil
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-creosote-oil]
+      fluid-output:
+        fluid: tf-1-12-creosote-oil
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-crude-oil:
+    results:
+      - fluid: tf-1-12-crude-oil
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-crude-oil
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-crude-oil]
+      fluid-output:
+        fluid: tf-1-12-crude-oil
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-cryotheum:
+    results:
+      - fluid: tf-1-12-cryotheum
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-cryotheum
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-cryotheum]
+      fluid-output:
+        fluid: tf-1-12-cryotheum
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-ender:
+    results:
+      - fluid: tf-1-12-ender
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-ender
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-ender]
+      fluid-output:
+        fluid: tf-1-12-ender
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-experience:
+    results:
+      - fluid: tf-1-12-experience
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-experience
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-experience]
+      fluid-output:
+        fluid: tf-1-12-experience
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-glowstone:
+    results:
+      - fluid: tf-1-12-glowstone
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-glowstone
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-glowstone]
+      fluid-output:
+        fluid: tf-1-12-glowstone
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-grassoline:
+    results:
+      - fluid: tf-1-12-grassoline
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-grassoline
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-grassoline]
+      fluid-output:
+        fluid: tf-1-12-grassoline
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-mana:
+    results:
+      - fluid: tf-1-12-mana
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-mana
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-mana]
+      fluid-output:
+        fluid: tf-1-12-mana
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-mushroom-stew:
+    results:
+      - fluid: tf-1-12-mushroom-stew
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-mushroom-stew
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-mushroom-stew]
+      fluid-output:
+        fluid: tf-1-12-mushroom-stew
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-naphtha:
+    results:
+      - fluid: tf-1-12-naphtha
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-naphtha
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-naphtha]
+      fluid-output:
+        fluid: tf-1-12-naphtha
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-petrotheum:
+    results:
+      - fluid: tf-1-12-petrotheum
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-petrotheum
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-petrotheum]
+      fluid-output:
+        fluid: tf-1-12-petrotheum
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-pyrotheum:
+    results:
+      - fluid: tf-1-12-pyrotheum
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-pyrotheum
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-pyrotheum]
+      fluid-output:
+        fluid: tf-1-12-pyrotheum
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-redstone:
+    results:
+      - fluid: tf-1-12-redstone
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-redstone
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-redstone]
+      fluid-output:
+        fluid: tf-1-12-redstone
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-refined-fuel:
+    results:
+      - fluid: tf-1-12-refined-fuel
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-refined-fuel
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-refined-fuel]
+      fluid-output:
+        fluid: tf-1-12-refined-fuel
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-resin:
+    results:
+      - fluid: tf-1-12-resin
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-resin
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-resin]
+      fluid-output:
+        fluid: tf-1-12-resin
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-sap:
+    results:
+      - fluid: tf-1-12-sap
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-sap
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-sap]
+      fluid-output:
+        fluid: tf-1-12-sap
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-seed-oil:
+    results:
+      - fluid: tf-1-12-seed-oil
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-seed-oil
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-seed-oil]
+      fluid-output:
+        fluid: tf-1-12-seed-oil
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-steam:
+    results:
+      - fluid: tf-1-12-steam
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-steam
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-steam]
+      fluid-output:
+        fluid: tf-1-12-steam
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-syrup:
+    results:
+      - fluid: tf-1-12-syrup
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-syrup
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-syrup]
+      fluid-output:
+        fluid: tf-1-12-syrup
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  bucket-tree-oil:
+    results:
+      - fluid: tf-1-12-tree-oil
+        fluid-amount: "1,000"
+      - item: mc-bucket
+    ingredients:
+      - item: tf-1-12-bucket-tree-oil
+    energy: 400
+    data:
+      input:
+        item: [tf-1-12-bucket-tree-oil]
+      fluid-output:
+        fluid: tf-1-12-tree-oil
+        amount: "1,000"
+      item-output:
+        item: [mc-bucket]
+  mushroom-stew:
+    results:
+      - fluid: tf-1-12-mushroom-stew
+        fluid-amount: 250
+      - item: mc-bowl
+    ingredients:
+      - item: mc-mushroom-stew
+    energy: 400
+    data:
+      input:
+        item: [mc-mushroom-stew]
+      fluid-output:
+        fluid: tf-1-12-mushroom-stew
+        amount: 250
+      item-output:
+        item: [mc-bowl]
+  seed-oil-from-beetroot-seeds:
+    results:
+      - fluid: tf-1-12-seed-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-beetroot-seeds
+    energy: "1,600"
+    data:
+      input:
+        item: [mc-beetroot-seeds]
+      fluid-output:
+        fluid: tf-1-12-seed-oil
+        amount: 50
+  seed-oil-from-melon-seeds:
+    results:
+      - fluid: tf-1-12-seed-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-melon-seeds
+    energy: "1,600"
+    data:
+      input:
+        item: [mc-melon-seeds]
+      fluid-output:
+        fluid: tf-1-12-seed-oil
+        amount: 50
+  seed-oil-from-pumpkin-seeds:
+    results:
+      - fluid: tf-1-12-seed-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-pumpkin-seeds
+    energy: "1,600"
+    data:
+      input:
+        item: [mc-pumpkin-seeds]
+      fluid-output:
+        fluid: tf-1-12-seed-oil
+        amount: 50
+  seed-oil-from-seeds:
+    results:
+      - fluid: tf-1-12-seed-oil
+        fluid-amount: 50
+    ingredients:
+      - item: mc-seeds
+    energy: "1,600"
+    data:
+      input:
+        item: [mc-seeds]
+      fluid-output:
+        fluid: tf-1-12-seed-oil
+        amount: 50
+  water-from-cactus:
+    results:
+      - fluid: mc-water
+        fluid-amount: 500
+    ingredients:
+      - item: mc-cactus
+    energy: "2,400"
+    data:
+      input:
+        item: [mc-cactus]
+      fluid-output:
+        fluid: mc-water
+        amount: 500
+  water-from-sponge:
+    results:
+      - fluid: mc-water
+        fluid-amount: "1,000"
+      - item: mc-sponge
+    ingredients:
+      - item: mc-sponge-wet
+    energy: "4,000"
+    data:
+      input:
+        item: [mc-sponge-wet]
+      fluid-output:
+        fluid: mc-water
+        amount: "1,000"
+      item-output:
+        item: [mc-sponge]

@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/constantan-ingot/
 recipes:
   smelting:
-  - tf2-ingot-constantan-from-dust
+  - tf-1-12-ingot-constantan-from-dust
   crafting:
-  - tf2-ingot-constantan-from-nuggets
-  - tf2-ingot-constantan-from-block
+  - tf-1-12-ingot-constantan-from-nuggets
+  - tf-1-12-ingot-constantan-from-block
   smelter:
   - dust-smelting-constantan
   - ingot-constantan-from-dust-copper-and-dust-nickel
@@ -39,29 +39,29 @@ recipes:
   - recycling-horse-armor-constantan
 usage-recipes:
   crafting:
-  - tf2-nugget-constantan
-  - tf2-gear-constantan
-  - tf2-storage-block-constantan
-  - te5-machine-centrifuge
-  - te5-device-mob-catcher
-  - te5-dynamo-numismatic
-  - tf2-tool-pickaxe-constantan
-  - tf2-tool-shovel-constantan
-  - tf2-tool-axe-constantan
-  - tf2-tool-hoe-constantan
-  - tf2-tool-fishing-rod-constantan
-  - tf2-tool-shears-constantan
-  - tf2-tool-hammer-constantan
-  - tf2-tool-excavator-constantan
-  - tf2-tool-sickle-constantan
-  - tf2-weapon-sword-constantan
-  - tf2-weapon-bow-constantan
-  - tf2-weapon-shield-constantan
-  - tf2-armor-helmet-constantan
-  - tf2-armor-chestplate-constantan
-  - tf2-armor-leggings-constantan
-  - tf2-armor-boots-constantan
-  - tf2-horse-armor-constantan
+  - tf-1-12-nugget-constantan
+  - tf-1-12-gear-constantan
+  - tf-1-12-storage-block-constantan
+  - te-1-12-machine-centrifuge
+  - te-1-12-device-mob-catcher
+  - te-1-12-dynamo-numismatic
+  - tf-1-12-tool-pickaxe-constantan
+  - tf-1-12-tool-shovel-constantan
+  - tf-1-12-tool-axe-constantan
+  - tf-1-12-tool-hoe-constantan
+  - tf-1-12-tool-fishing-rod-constantan
+  - tf-1-12-tool-shears-constantan
+  - tf-1-12-tool-hammer-constantan
+  - tf-1-12-tool-excavator-constantan
+  - tf-1-12-tool-sickle-constantan
+  - tf-1-12-weapon-sword-constantan
+  - tf-1-12-weapon-bow-constantan
+  - tf-1-12-weapon-shield-constantan
+  - tf-1-12-armor-helmet-constantan
+  - tf-1-12-armor-chestplate-constantan
+  - tf-1-12-armor-leggings-constantan
+  - tf-1-12-armor-boots-constantan
+  - tf-1-12-horse-armor-constantan
   pulverizer:
   - dust-constantan
   compactor:
@@ -94,7 +94,7 @@ smelter](/docs/1.12/thermal-expansion/induction-smelter/).
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -104,16 +104,16 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
 
 
 Trivia

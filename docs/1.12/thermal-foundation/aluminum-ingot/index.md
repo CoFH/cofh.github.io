@@ -8,14 +8,14 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/aluminum-ingot/
 recipes:
   smelting:
-  - tf2-ore-processing-aluminum
-  - tf2-ingot-aluminum-from-dust
+  - tf-1-12-ore-processing-aluminum
+  - tf-1-12-ingot-aluminum-from-dust
   crafting:
-  - tf2-pyrotheum-ore-aluminum
-  - tf2-petrotheum-pyrotheum-ore-aluminum
-  - tf2-pyrotheum-dust-aluminum
-  - tf2-ingot-aluminum-from-nuggets
-  - tf2-ingot-aluminum-from-block
+  - tf-1-12-pyrotheum-ore-aluminum
+  - tf-1-12-petrotheum-pyrotheum-ore-aluminum
+  - tf-1-12-pyrotheum-dust-aluminum
+  - tf-1-12-ingot-aluminum-from-nuggets
+  - tf-1-12-ingot-aluminum-from-block
   smelter:
   - ore-processing-sand-aluminum
   - ore-processing-rich-slag-aluminum
@@ -42,27 +42,27 @@ recipes:
   - recycling-horse-armor-aluminum
 usage-recipes:
   crafting:
-  - tf2-petrotheum-ingot-aluminum
-  - tf2-nugget-aluminum
-  - tf2-gear-aluminum
-  - tf2-storage-block-aluminum
-  - tf2-tool-pickaxe-aluminum
-  - tf2-tool-shovel-aluminum
-  - tf2-tool-axe-aluminum
-  - tf2-tool-hoe-aluminum
-  - tf2-tool-fishing-rod-aluminum
-  - tf2-tool-shears-aluminum
-  - tf2-tool-hammer-aluminum
-  - tf2-tool-excavator-aluminum
-  - tf2-tool-sickle-aluminum
-  - tf2-weapon-sword-aluminum
-  - tf2-weapon-bow-aluminum
-  - tf2-weapon-shield-aluminum
-  - tf2-armor-helmet-aluminum
-  - tf2-armor-chestplate-aluminum
-  - tf2-armor-leggings-aluminum
-  - tf2-armor-boots-aluminum
-  - tf2-horse-armor-aluminum
+  - tf-1-12-petrotheum-ingot-aluminum
+  - tf-1-12-nugget-aluminum
+  - tf-1-12-gear-aluminum
+  - tf-1-12-storage-block-aluminum
+  - tf-1-12-tool-pickaxe-aluminum
+  - tf-1-12-tool-shovel-aluminum
+  - tf-1-12-tool-axe-aluminum
+  - tf-1-12-tool-hoe-aluminum
+  - tf-1-12-tool-fishing-rod-aluminum
+  - tf-1-12-tool-shears-aluminum
+  - tf-1-12-tool-hammer-aluminum
+  - tf-1-12-tool-excavator-aluminum
+  - tf-1-12-tool-sickle-aluminum
+  - tf-1-12-weapon-sword-aluminum
+  - tf-1-12-weapon-bow-aluminum
+  - tf-1-12-weapon-shield-aluminum
+  - tf-1-12-armor-helmet-aluminum
+  - tf-1-12-armor-chestplate-aluminum
+  - tf-1-12-armor-leggings-aluminum
+  - tf-1-12-armor-boots-aluminum
+  - tf-1-12-horse-armor-aluminum
   pulverizer:
   - dust-aluminum
   compactor:
@@ -91,7 +91,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Induction Smelter
-{% include recipe-table.html type='te5-smelter' recipes=page.recipes.smelter no-result=true %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter no-result=true %}
 
 
 Usage
@@ -101,13 +101,13 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te5-pulverizer' recipes=page.usage-recipes.pulverizer %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
 
 ### Compactor ingredient
-{% include recipe-table.html type='te5-compactor' recipes=page.usage-recipes.compactor %}
+{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
 
 ### Compactor with Numismatic Press ingredient
-{% include recipe-table.html type='te5-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
+{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.usage-recipes.compactor-coin %}
 
 ### Compactor with Gearworking Die ingredient
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.usage-recipes.compactor-gear %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.usage-recipes.compactor-gear %}

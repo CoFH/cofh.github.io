@@ -75,7 +75,7 @@ List of augments
 ----------------
 
 ### Machine augments
-{% include te5-augment-table.html augments=page.augments.machine %}
+{% include te-1-12-augment-table.html augments=page.augments.machine %}
 
 ### Dynamo augments
-{% include te5-augment-table.html augments=page.augments.dynamo %}
+{% include te-1-12-augment-table.html augments=page.augments.dynamo %}

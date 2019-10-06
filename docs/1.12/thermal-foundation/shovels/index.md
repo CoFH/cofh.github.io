@@ -10,18 +10,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/shovels/
 recipes:
   crafting:
-  - tf2-tool-shovel-copper
-  - tf2-tool-shovel-tin
-  - tf2-tool-shovel-silver
-  - tf2-tool-shovel-lead
-  - tf2-tool-shovel-aluminum
-  - tf2-tool-shovel-nickel
-  - tf2-tool-shovel-platinum
-  - tf2-tool-shovel-steel
-  - tf2-tool-shovel-electrum
-  - tf2-tool-shovel-invar
-  - tf2-tool-shovel-bronze
-  - tf2-tool-shovel-constantan
+  - tf-1-12-tool-shovel-copper
+  - tf-1-12-tool-shovel-tin
+  - tf-1-12-tool-shovel-silver
+  - tf-1-12-tool-shovel-lead
+  - tf-1-12-tool-shovel-aluminum
+  - tf-1-12-tool-shovel-nickel
+  - tf-1-12-tool-shovel-platinum
+  - tf-1-12-tool-shovel-steel
+  - tf-1-12-tool-shovel-electrum
+  - tf-1-12-tool-shovel-invar
+  - tf-1-12-tool-shovel-bronze
+  - tf-1-12-tool-shovel-constantan
 usage-recipes:
   smelter:
   - recycling-tool-shovel-copper
@@ -88,4 +88,4 @@ uses = mat.maxUses
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

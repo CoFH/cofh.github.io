@@ -18,11 +18,11 @@ image:
   file: thermal-innovation/hypoinfuser-creative.png
 recipes:
   crafting:
-  - ti-hypoinfuser-basic
-  - ti-hypoinfuser-hardened
-  - ti-hypoinfuser-reinforced
-  - ti-hypoinfuser-signalum
-  - ti-hypoinfuser-resonant
+  - ti-1-12-hypoinfuser-basic
+  - ti-1-12-hypoinfuser-hardened
+  - ti-1-12-hypoinfuser-reinforced
+  - ti-1-12-hypoinfuser-signalum
+  - ti-1-12-hypoinfuser-resonant
 ---
 
 A **hypoinfuser** (also known as an **injector**) is a tool that stores and

@@ -12,10 +12,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/block-of-platinum/
 recipes:
   crafting:
-  - tf2-storage-block-platinum
+  - tf-1-12-storage-block-platinum
 usage-recipes:
   crafting:
-  - tf2-ingot-platinum-from-block
+  - tf-1-12-ingot-platinum-from-block
 ---
 
 **Blocks of platinum** are blocks made from [platinum

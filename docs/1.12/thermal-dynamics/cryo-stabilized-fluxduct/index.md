@@ -10,9 +10,9 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/cryo-stabilized-fluxduct/
 recipes:
   crafting:
-  - td2-fluxduct-super-empty
+  - td-1-12-fluxduct-super-empty
   transposer-fill:
-  - td2-fluxduct-super
+  - td-1-12-fluxduct-super
 ---
 
 A **cryo-stabilized fluxduct** is a [fluxduct](/docs/1.12/thermal-dynamics/fluxducts/) of the sixth
@@ -26,7 +26,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill %}
 
 
 Usage

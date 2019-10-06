@@ -12,9 +12,9 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/super-laminar-fluiduct/
 recipes:
   crafting:
-  - td2-fluiduct-super
-  - td2-fluiduct-super-opaque-from-transparent
-  - td2-fluiduct-super-transparent-from-opaque
+  - td-1-12-fluiduct-super
+  - td-1-12-fluiduct-super-opaque-from-transparent
+  - td-1-12-fluiduct-super-transparent-from-opaque
 ---
 
 A **super-laminar fluiduct** is a type of [fluiduct](/docs/1.12/thermal-dynamics/fluiduct/) that can

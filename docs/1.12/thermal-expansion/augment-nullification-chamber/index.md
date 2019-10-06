@@ -11,7 +11,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-nullification-chamber/
 recipes:
   crafting:
-  - te5-augment-machine-secondary-null
+  - te-1-12-augment-machine-secondary-null
 ---
 
 A **nullification chamber** is an [augment](/docs/1.12/thermal-expansion/augments/) that destroys

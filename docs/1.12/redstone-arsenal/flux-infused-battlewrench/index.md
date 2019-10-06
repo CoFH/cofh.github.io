@@ -12,7 +12,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-battlewrench/
 recipes:
   crafting:
-  - ra2-weapon-battlewrench
+  - ra-1-12-weapon-battlewrench
 ---
 
 A **flux-infused battlewrench** is a powerful weapon powered by [Redstone

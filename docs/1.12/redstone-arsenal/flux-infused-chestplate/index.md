@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/redstone-arsenal-2/flux-infused-chestplate/
 recipes:
   crafting:
-  - ra2-armor-chestplate
+  - ra-1-12-armor-chestplate
 ---
 
 A **flux-infused chestplate** is a powerful

@@ -10,26 +10,26 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/redstone-reception-coil/
 recipes:
   crafting:
-  - tf2-redstone-coil-gold
+  - tf-1-12-redstone-coil-gold
 usage-recipes:
   crafting:
-  - te5-machine-furnace
-  - te5-machine-pulverizer
-  - te5-machine-sawmill
-  - te5-machine-smelter
-  - te5-machine-insolator
-  - te5-machine-compactor
-  - te5-machine-crucible
-  - te5-machine-refinery
-  - te5-machine-transposer
-  - te5-machine-charger
-  - te5-machine-centrifuge
-  - te5-machine-crafter
-  - te5-machine-brewer
-  - te5-machine-enchanter
-  - te5-machine-precipitator
-  - te5-machine-extruder
-  - te5-augment-machine-power
+  - te-1-12-machine-furnace
+  - te-1-12-machine-pulverizer
+  - te-1-12-machine-sawmill
+  - te-1-12-machine-smelter
+  - te-1-12-machine-insolator
+  - te-1-12-machine-compactor
+  - te-1-12-machine-crucible
+  - te-1-12-machine-refinery
+  - te-1-12-machine-transposer
+  - te-1-12-machine-charger
+  - te-1-12-machine-centrifuge
+  - te-1-12-machine-crafter
+  - te-1-12-machine-brewer
+  - te-1-12-machine-enchanter
+  - te-1-12-machine-precipitator
+  - te-1-12-machine-extruder
+  - te-1-12-augment-machine-power
 ---
 
 ![Redstone reception coil](/assets/images/thermal-foundation-2/redstone-coil-gold.png){:style="height: 128px"}

@@ -8,10 +8,10 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/mana-infused-nugget/
 recipes:
   crafting:
-  - tf2-nugget-mithril
+  - tf-1-12-nugget-mithril
 usage-recipes:
   crafting:
-  - tf2-ingot-mithril-from-nuggets
+  - tf-1-12-ingot-mithril-from-nuggets
 ---
 
 ![Mana infused nugget](/assets/images/thermal-foundation-2/nugget-mithril.png){:style="height: 128px"}

@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/augment-parabolic-flux-coupling/
 recipes:
   crafting:
-  - te5-augment-machine-charger-wireless
+  - te-1-12-augment-machine-charger-wireless
 ---
 
 A **parabolic flux coupling** [augment](/docs/1.12/thermal-expansion/augments/) allows for an

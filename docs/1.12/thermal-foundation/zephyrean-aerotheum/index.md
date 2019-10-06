@@ -15,7 +15,7 @@ recipes:
 usage-recipes:
   transposer-fill:
   - bucket-aerotheum
-  - td2-viaduct
+  - td-1-12-viaduct
 ---
 
 ![Zephyrean aerotheum](/assets/images/thermal-foundation-2/zephyrean-aerotheum.gif){:style="height: 128px"}
@@ -31,10 +31,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='te5-crucible' recipes=page.recipes.crucible %}
+{% include recipe-table.html type='te-1-12-crucible' recipes=page.recipes.crucible %}
 
 ### Fluid Transposer
-{% include recipe-table.html type='te5-transposer-empty' recipes=page.recipes.transposer-empty %}
+{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
 
 
 Usage
@@ -61,7 +61,7 @@ Projectiles that come into contact with zephyrean aerotheum are sent flying in a
 random direction away from the fluid.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te5-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Reactant Dynamo fuel
 When used together with [petrotheum dust](/docs/1.12/thermal-foundation/petrotheum-dust/) as fuel in a

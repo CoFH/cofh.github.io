@@ -8,18 +8,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/pulverized-iridium/
 recipes:
   crafting:
-  - tf2-petrotheum-ingot-iridium
-  - tf2-petrotheum-ore-iridium
+  - tf-1-12-petrotheum-ingot-iridium
+  - tf-1-12-petrotheum-ore-iridium
   pulverizer:
   - dust-iridium
   - ore-processing-iridium
   - ore-processing-platinum
 usage-recipes:
   crafting:
-  - tf2-pyrotheum-dust-iridium
-  - tf2-hardened-glass-iridium
+  - tf-1-12-pyrotheum-dust-iridium
+  - tf-1-12-hardened-glass-iridium
   smelting:
-  - tf2-ingot-iridium-from-dust
+  - tf-1-12-ingot-iridium-from-dust
   smelter:
   - dust-smelting-iridium
   - hardened-glass-iridium
@@ -36,7 +36,7 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te5-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -58,4 +58,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

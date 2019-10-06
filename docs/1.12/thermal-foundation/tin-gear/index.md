@@ -8,15 +8,15 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/tin-gear/
 recipes:
   crafting:
-  - tf2-gear-tin
+  - tf-1-12-gear-tin
   compactor-gear:
   - gear-tin
 usage-recipes:
   crafting:
-  - te5-frame-machine
-  - te5-dynamo-compression
-  - te5-augment-machine-sawmill-tapper
-  - te5-augment-machine-crafter-input
+  - te-1-12-frame-machine
+  - te-1-12-dynamo-compression
+  - te-1-12-augment-machine-sawmill-tapper
+  - te-1-12-augment-machine-crafter-input
   smelter:
   - recycling-gear-tin
 ---
@@ -34,7 +34,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te5-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
 
 
 Usage
@@ -44,4 +44,4 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

@@ -9,18 +9,18 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/chestplates/
 recipes:
   crafting:
-  - tf2-armor-chestplate-copper
-  - tf2-armor-chestplate-tin
-  - tf2-armor-chestplate-silver
-  - tf2-armor-chestplate-lead
-  - tf2-armor-chestplate-aluminum
-  - tf2-armor-chestplate-nickel
-  - tf2-armor-chestplate-platinum
-  - tf2-armor-chestplate-steel
-  - tf2-armor-chestplate-electrum
-  - tf2-armor-chestplate-invar
-  - tf2-armor-chestplate-bronze
-  - tf2-armor-chestplate-constantan
+  - tf-1-12-armor-chestplate-copper
+  - tf-1-12-armor-chestplate-tin
+  - tf-1-12-armor-chestplate-silver
+  - tf-1-12-armor-chestplate-lead
+  - tf-1-12-armor-chestplate-aluminum
+  - tf-1-12-armor-chestplate-nickel
+  - tf-1-12-armor-chestplate-platinum
+  - tf-1-12-armor-chestplate-steel
+  - tf-1-12-armor-chestplate-electrum
+  - tf-1-12-armor-chestplate-invar
+  - tf-1-12-armor-chestplate-bronze
+  - tf-1-12-armor-chestplate-constantan
 usage-recipes:
   smelter:
   - recycling-armor-chestplate-copper
@@ -89,4 +89,4 @@ defense = mat.reductionAmounts[2]
 {::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te5-smelter' recipes=page.usage-recipes.smelter %}
+{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

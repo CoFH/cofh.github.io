@@ -23,7 +23,7 @@ redirect_from:
 - /docs/1.12/thermal-expansion-5/strongbox/
 recipes:
   crafting:
-  - te5-strongbox-basic
+  - te-1-12-strongbox-basic
 ---
 
 A **strongbox** is a block that stores items. It is functionally similar to a

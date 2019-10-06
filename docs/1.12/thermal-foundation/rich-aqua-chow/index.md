@@ -7,8 +7,8 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/rich-aqua-chow/
 recipes:
   crafting:
-  - tf2-aqua-chow-rich-using-slime
-  - tf2-aqua-chow-rich-using-rosin
+  - tf-1-12-aqua-chow-rich-using-slime
+  - tf-1-12-aqua-chow-rich-using-rosin
 ---
 
 ![Rich Aqua-Chow](/assets/images/thermal-foundation-2/aqua-chow-rich.png){:style="height: 128px"}
