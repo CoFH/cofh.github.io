@@ -2,7 +2,7 @@
     {% include recipe/slot.html data=include.data.input top=30 left=18 %}
     {% include recipe/tank.html data=include.data.fluid-output top=10 left=122 size=1000 recipe_type='te-1-12-transposer-empty' gauge_sprite_top=0 gauge_sprite_left=164 %}
 
-    {% if include.data.item-output %}
+    {%- if include.data.item-output -%}
         {% include recipe/slot.html data=include.data.item-output top=90 left=18 %}
-    {% endif %}
+    {%- endif -%}
 </div>

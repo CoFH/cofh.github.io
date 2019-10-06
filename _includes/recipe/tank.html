@@ -1,8 +1,8 @@
-{% assign fluid_name = include.data.fluid %}
-{% assign fluid_data = site.data.recipe-fluids[fluid_name] %}
-{% assign fluid_site = site.data.recipe-sites[fluid_data.site] %}
+{%- assign fluid_name = include.data.fluid -%}
+{%- assign fluid_data = site.data.recipe-fluids[fluid_name] -%}
+{%- assign fluid_site = site.data.recipe-sites[fluid_data.site] -%}
 
-{% capture height %}{% unless include.data.amount == 0 %}{{include.data.amount | times: 100 | divided_by: include.size}}{% else %}25{% endunless %}{% endcapture %}
+{%- capture height -%}{%- unless include.data.amount == 0 -%}{{include.data.amount | times: 100 | divided_by: include.size}}{%- else -%}25{%- endunless -%}{%- endcapture -%}
 
 <div style="position: absolute; top: {{ include.top }}px; left: {{ include.left }}px; width: 32px; height: {{include.height | default: 120}}px">
     <a href="{{ fluid_site.url }}{{ fluid_data.url }}">

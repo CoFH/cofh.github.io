@@ -6,9 +6,9 @@ layout: blog
     <article class="uk-article">
         <h1 class="uk-article-title">{{ page.title }}</h1>
 
-        {% if page.author or page.date %}
+        {%- if page.author or page.date -%}
         <p class="uk-article-meta">Written{% if page.author %} by <strong>{% if page.author_url %}<a href="{{ page.author_url }}">{% endif %}{{ page.author }}{% if page.author_url %}</a>{% endif %}</strong>{% endif %}{% if page.date %} on {{ page.date | date: '%A, %B %-d, %Y' }}{% endif %}</p>
-        {% endif %}
+        {%- endif -%}
 
         <hr />
 
@@ -16,7 +16,7 @@ layout: blog
     </article>
 
     <div class="uk-clearfix uk-margin-large-top">
-        {% if page.next %}<a href="{{ page.next.url }}" class="uk-float-left uk-button uk-button-mini">&laquo; {{ page.next.title }}</a>{% endif %}
-        {% if page.previous %}<a href="{{ page.previous.url }}" class="uk-float-right uk-button uk-button-mini">{{ page.previous.title }} &raquo;</a>{% endif %}
+        {%- if page.next -%}<a href="{{ page.next.url }}" class="uk-float-left uk-button uk-button-mini">&laquo; {{ page.next.title }}</a>{%- endif -%}
+        {%- if page.previous -%}<a href="{{ page.previous.url }}" class="uk-float-right uk-button uk-button-mini">{{ page.previous.title }} &raquo;</a>{%- endif -%}
     </div>
 </div>

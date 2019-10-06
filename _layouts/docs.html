@@ -6,23 +6,23 @@ layout: default
     <h1>{{ page.title }}</h1>
     <hr />
 
-    {% if page.outdated %}
+    {%- if page.outdated -%}
         {% include page-outdated.html %}
-    {% endif %}
+    {%- endif -%}
 
-    {% if page.wip %}
+    {%- if page.wip -%}
         {% include page-wip.html %}
-    {% endif %}
+    {%- endif -%}
 
-    {% if page.image %}
+    {%- if page.image -%}
         {% include page-image.html data=page.image %}
-    {% endif %}
+    {%- endif -%}
 
     {{ content }}
 
-    {% if page.nav %}
+    {%- if page.nav -%}
         <div class="uk-width-1-1 uk-width-medium-5-6 uk-container-center" style="margin-top: 65px">
             {% include navbox.html nav=page.nav %}
         </div>
-    {% endif %}
+    {%- endif -%}
 </div>

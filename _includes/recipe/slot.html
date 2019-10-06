@@ -1,24 +1,24 @@
 <div style="position: absolute; top: {{ include.top }}px; left: {{ include.left }}px; width: 32px; height: 32px">
-    {% assign item_list = include.data.item %}
+    {%- assign item_list = include.data.item -%}
 
-    {% if include.data.item-group %}
-        {% assign item_list = site.data.recipe-item-groups[include.data.item-group].items %}
-    {% endif %}
+    {%- if include.data.item-group -%}
+        {%- assign item_list = site.data.recipe-item-groups[include.data.item-group].items -%}
+    {%- endif -%}
 
-    {% if item_list.size > 1 %}
+    {%- if item_list.size > 1 -%}
         <div class="cofh-cycle {% if include.data.random %}random{% endif %}">
-            {% for item in item_list %}
+            {%- for item in item_list -%}
                 <div class="{% unless forloop.first %}hidden{% endunless %}">
                     {% include recipe/item-sprite.html item=item %}
                 </div>
-            {% endfor %}
+            {%- endfor -%}
         </div>
-    {% else %}
-        {% assign item=item_list[0] %}
+    {%- else -%}
+        {%- assign item=item_list[0] -%}
         {% include recipe/item-sprite.html item=item %}
-    {% endif %}
+    {%- endif -%}
 
-    {% if include.data.amount > 1 %}
+    {%- if include.data.amount > 1 -%}
         <span class="cofh-recipe-slot-amount">{{ include.data.amount }}</span>
-    {% endif%}
+    {%- endif-%}
 </div>

@@ -1,28 +1,28 @@
-{% assign item_url = null %}
-{% if include.item.url %}
-    {% capture item_url %}{{include.url_prefix}}{{include.item.url}}{% endcapture %}
-{% endif %}
+{%- assign item_url = null -%}
+{%- if include.item.url -%}
+    {%- capture item_url -%}{{include.url_prefix}}{{include.item.url}}{%- endcapture -%}
+{%- endif -%}
 
-{% if include.item.subitems and item_url == null %}
+{%- if include.item.subitems and item_url == null -%}
     <span class="cofh-nowrap">
         {% include navbox-icon.html icon=include.item.icon %}
         {{ include.item.title }}
     </span>
-{% else %}
+{%- else -%}
     {% include navbox-link.html page_url=include.page_url link_url=item_url text=include.item.title icon=include.item.icon %}
-{% endif %}
+{%- endif -%}
 
-{% if include.item.subitems %}
-    {% capture subitems %}
-        {% for subitem in include.item.subitems %}
+{%- if include.item.subitems -%}
+    {%- capture subitems -%}
+        {%- for subitem in include.item.subitems -%}
             {% include navbox-item.html page_url=include.page_url url_prefix=include.url_prefix item=subitem last=forloop.last %}
-        {% endfor %}
-    {% endcapture %}
+        {%- endfor -%}
+    {%- endcapture -%}
 
     <span>
         ({{subitems | strip}})
     </span>
-{% endif %}
+{%- endif -%}
 
 {% unless include.last %}
     <span class="uk-text-bold">&#8729;</span>

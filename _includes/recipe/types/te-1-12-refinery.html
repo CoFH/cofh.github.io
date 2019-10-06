@@ -2,11 +2,11 @@
     {% include recipe/tank.html data=include.data.input top=24 left=10 height=60 size=500 recipe_type='te-1-12-refinery' gauge_sprite_top=0 gauge_sprite_left=208 %}
     {% include recipe/tank.html data=include.data.fluid-output top=10 left=166 size=500 recipe_type='te-1-12-refinery' gauge_sprite_top=0 gauge_sprite_left=240 %}
 
-    {% if include.data.item-output %}
+    {%- if include.data.item-output -%}
         {% include recipe/slot.html data=include.data.item-output top=56 left=114 %}
 
         <div class="cofh-recipe-floating-text" style="top: 101px; right: 56px; text-align: right">
             {{include.data.item-chance}}%
         </div>
-    {% endif %}
+    {%- endif -%}
 </div>

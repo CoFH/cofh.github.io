@@ -1,44 +1,44 @@
 <tr>
-    {% if include.group.title %}
+    {%- if include.group.title -%}
         <th class="cofh-navbox-group-title">
-            {% if include.group.url %}
-                {% capture group_url %}{{include.url_prefix}}{{include.group.url}}{% endcapture %}
+            {%- if include.group.url -%}
+                {%- capture group_url -%}{{include.url_prefix}}{{include.group.url}}{%- endcapture -%}
                 {% include navbox-link.html page_url=include.page_url link_url=group_url text=include.group.title %}
-            {% else %}
+            {%- else -%}
                 {{ include.group.title }}
-            {% endif %}
+            {%- endif -%}
         </th>
 
-        {% if include.group.groups %}
+        {%- if include.group.groups -%}
             <td class="cofh-navbox-group-subgroups-container">
-        {% else %}
+        {%- else -%}
             <td class="cofh-navbox-group-items">
-        {% endif %}
-    {% else %}
+        {%- endif -%}
+    {%- else -%}
             <td colspan="2" class="cofh-navbox-group-items uk-text-center">
-    {% endif %}
-                {% if include.group.items %}
-                    {% if include.group.groups %}
+    {%- endif -%}
+                {%- if include.group.items -%}
+                    {%- if include.group.groups -%}
                         <div style="padding: 2px">
-                    {% endif %}
+                    {%- endif -%}
 
-                    {% for item in include.group.items %}
+                    {%- for item in include.group.items -%}
                         {% include navbox-item.html page_url=include.page_url url_prefix=include.url_prefix item=item last=forloop.last %}
-                    {% endfor %}
+                    {%- endfor -%}
 
-                    {% if include.group.groups %}
+                    {%- if include.group.groups -%}
                         </div>
-                    {% endif %}
-                {% endif %}
+                    {%- endif -%}
+                {%- endif -%}
 
-                {% if include.group.groups %}
+                {%- if include.group.groups -%}
                     <table class="uk-table cofh-navbox-table cofh-navbox-subgroups-table">
                         <tbody>
-                            {% for subgroup in include.group.groups %}
+                            {%- for subgroup in include.group.groups -%}
                                 {% include navbox-group.html group=subgroup page_url=include.page_url url_prefix=include.url_prefix %}
-                            {% endfor %}
+                            {%- endfor -%}
                         </tbody>
                     </table>
-                {% endif %}
+                {%- endif -%}
             </td>
 </tr>

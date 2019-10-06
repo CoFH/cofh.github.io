@@ -1,23 +1,23 @@
 <div style="position: relative; width: 236px; height: 124px; background: url('/assets/images/recipe/types/crafting.png')">
-    {% for row in include.data.rows %}
-        {% capture offset %}{{ forloop.index0 | times: 4 | plus: 10 }}{% endcapture %}
-        {% capture top %}{{ forloop.index0 | times: 32 | plus: offset }}{% endcapture %}
+    {%- for row in include.data.rows -%}
+        {%- capture offset -%}{{ forloop.index0 | times: 4 | plus: 10 }}{%- endcapture -%}
+        {%- capture top -%}{{ forloop.index0 | times: 32 | plus: offset }}{%- endcapture -%}
 
-        {% for col in row %}
-            {% if col %}
-                {% capture offset %}{{ forloop.index0 | times: 4 | plus: 10 }}{% endcapture %}
-                {% capture left %}{{ forloop.index0 | times: 32 | plus: offset }}{% endcapture %}
+        {%- for col in row -%}
+            {%- if col -%}
+                {%- capture offset -%}{{ forloop.index0 | times: 4 | plus: 10 }}{%- endcapture -%}
+                {%- capture left -%}{{ forloop.index0 | times: 32 | plus: offset }}{%- endcapture -%}
 
                 {% include recipe/slot.html data=col top=top left=left %}
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
 
     {% include recipe/slot.html data=include.data.result top=46 left=186 %}
 
-    {% if include.data.shapeless %}
+    {%- if include.data.shapeless -%}
         <div class="cofh-recipe-floating-text" style="top: 8px; right: 8px; text-align: right">
             Shapeless
         </div>
-    {% endif %}
+    {%- endif -%}
 </div>

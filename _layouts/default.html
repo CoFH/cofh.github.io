@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
 
-        {% capture title %}{% if page.title %}{{ page.title }} - {% endif %}Team CoFH{% endcapture %}
-        {% assign description = "The official site for news, downloads and documentation for the Team CoFH Minecraft mods: Redstone Flux, CoFH Core, CoFH World, Thermal Series (Thermal Expansion, Thermal Foundation, Thermal Dynamics, Thermal Cultivation, Thermal Innovation), Redstone Arsenal, Vanilla+ Series (Tools, Satchels)" %}
+        {%- capture title -%}{%- if page.title -%}{{ page.title }} - {%- endif -%}Team CoFH{%- endcapture -%}
+        {%- assign description = "The official site for news, downloads and documentation for the Team CoFH Minecraft mods: Redstone Flux, CoFH Core, CoFH World, Thermal Series (Thermal Expansion, Thermal Foundation, Thermal Dynamics, Thermal Cultivation, Thermal Innovation), Redstone Arsenal, Vanilla+ Series (Tools, Satchels)" -%}
 
         <title>{{ title }}</title>
 
@@ -26,7 +26,7 @@
         <!-- Other Browsers -->
         <link href="/favicon.ico" rel="icon" type="image/x-icon" />
 
-        {% capture cache_buster %}?{{site.time | date: '%s'}}{% endcapture %}
+        {%- capture cache_buster -%}?{{site.time | date: '%s'}}{%- endcapture -%}
 
         <link rel="stylesheet" href="/assets/css/uikit/uikit.min.css" />
         <link rel="stylesheet" href="/assets/css/uikit/components/accordion.min.css" />
@@ -46,13 +46,13 @@
     </head>
 
     <body>
-        {% if page.show_banner %}
+        {%- if page.show_banner -%}
         <div class="cofh-banner uk-hidden-small">
             <div class="uk-container uk-container-center">
                 <a href="/"><img class="cofh-logo" src="/assets/images/logo.png" /></a>
             </div>
         </div>
-        {% endif %}
+        {%- endif -%}
 
         <nav class="uk-navbar uk-margin-bottom" data-uk-sticky>
             <div class="uk-container uk-container-center">

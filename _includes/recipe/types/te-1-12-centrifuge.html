@@ -3,43 +3,43 @@
 
     {% include recipe/slot.html data=include.data.output-1 top=38 left=106 %}
 
-    {% if include.data.output-1-chance %}
+    {%- if include.data.output-1-chance -%}
         <div class="cofh-recipe-floating-text" style="top: 20px; right: 56px; text-align: center">
             {{include.data.output-1-chance}}%
         </div>
-    {% endif %}
+    {%- endif -%}
 
-    {% if include.data.output-2 %}
+    {%- if include.data.output-2 -%}
         {% include recipe/slot.html data=include.data.output-2 top=38 left=142 %}
 
-        {% if include.data.output-2-chance %}
+        {%- if include.data.output-2-chance -%}
             <div class="cofh-recipe-floating-text" style="top: 20px; right: 20px; text-align: center">
                 {{include.data.output-2-chance}}%
             </div>
-        {% endif %}
-    {% endif %}
+        {%- endif -%}
+    {%- endif -%}
 
-    {% if include.data.output-3 %}
+    {%- if include.data.output-3 -%}
         {% include recipe/slot.html data=include.data.output-3 top=74 left=106 %}
 
-        {% if include.data.output-3-chance %}
+        {%- if include.data.output-3-chance -%}
             <div class="cofh-recipe-floating-text" style="top: 110px; right: 56px; text-align: center">
                 {{include.data.output-3-chance}}%
             </div>
-        {% endif %}
-    {% endif %}
+        {%- endif -%}
+    {%- endif -%}
 
-    {% if include.data.output-4 %}
+    {%- if include.data.output-4 -%}
         {% include recipe/slot.html data=include.data.output-4 top=74 left=142 %}
 
-        {% if include.data.output-4-chance %}
+        {%- if include.data.output-4-chance -%}
             <div class="cofh-recipe-floating-text" style="top: 110px; right: 20px; text-align: center">
                 {{include.data.output-4-chance}}%
             </div>
-        {% endif %}
-    {% endif %}
+        {%- endif -%}
+    {%- endif -%}
 
-    {% if include.data.fluid-output %}
+    {%- if include.data.fluid-output -%}
         {% include recipe/tank.html data=include.data.fluid-output top=10 left=186 size=4000 recipe_type='te-1-12-centrifuge' gauge_sprite_top=0 gauge_sprite_left=228 %}
-    {% endif %}
+    {%- endif -%}
 </div>

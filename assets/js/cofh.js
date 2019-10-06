@@ -3,11 +3,11 @@ layout: null
 ---
 
 var pages = [
-    {% for page in site.pages %}{% if page.title %}{
+    {%- for page in site.pages -%}{%- if page.title -%}{
         title: "{{ page.title }}",
         value: "{{ page.title }}",
         url: "{{ page.url }}"
-    }{% if forloop.last %}{% else %},{% endif %}{% endif %}{% endfor %}
+    }{%- if forloop.last -%}{%- else -%},{%- endif -%}{%- endif -%}{%- endfor -%}
 ];
 
 $(window).on('hashchange load', function() {

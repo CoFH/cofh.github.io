@@ -1,65 +1,65 @@
-{% capture recipes_file %}recipes-{{include.type}}{% endcapture %}
-{% assign type_data = site.data[recipes_file] %}
-{% assign type_site = site.data.recipe-sites[type_data.site] %}
+{%- capture recipes_file -%}recipes-{{include.type}}{%- endcapture -%}
+{%- assign type_data = site.data[recipes_file] -%}
+{%- assign type_site = site.data.recipe-sites[type_data.site] -%}
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped cofh-info-table">
         <thead>
             <tr>
-                {% unless include.no-result %}
+                {%- unless include.no-result -%}
                     <th>Result(s)</th>
-                {% endunless %}
+                {%- endunless -%}
                 <th>Ingredients</th>
-                {% if type_data.with-energy %}
+                {%- if type_data.with-energy -%}
                     <th>Energy</th>
-                {% endif %}
+                {%- endif -%}
                 <th><a href="{{type_site.url}}{{type_data.url}}">{{type_data.name}}</a> recipe</th>
-                {% if include.with-note %}
+                {%- if include.with-note -%}
                     <th>Note</th>
-                {% endif %}
+                {%- endif -%}
             </tr>
         </thead>
 
         <tbody>
-            {% for recipe in include.recipes %}
-                {% assign recipe_data = type_data.recipes[recipe] %}
+            {%- for recipe in include.recipes -%}
+                {%- assign recipe_data = type_data.recipes[recipe] -%}
 
                 <tr>
-                    {% unless include.no-result %}
+                    {%- unless include.no-result -%}
                         <td class="uk-text-center cofh-nowrap">
-                            {% for result in recipe_data.results %}
-                                {% if type_data.all-results-bold or forloop.first %}
+                            {%- for result in recipe_data.results -%}
+                                {%- if type_data.all-results-bold or forloop.first -%}
                                     <strong>
-                                {% endif %}
+                                {%- endif -%}
 
                                 {% include recipe-table-item.html item=result type='result' first=forloop.first %}
 
-                                {% if type_data.all-results-bold or forloop.first %}
+                                {%- if type_data.all-results-bold or forloop.first -%}
                                     </strong>
-                                {% endif %}
+                                {%- endif -%}
 
                                 <br />
-                            {% endfor %}
+                            {%- endfor -%}
                         </td>
-                    {% endunless %}
+                    {%- endunless -%}
 
                     <td>
-                        {% for ingr in recipe_data.ingredients %}
+                        {%- for ingr in recipe_data.ingredients -%}
                             {% include recipe-table-item.html item=ingr type='ingredient' first=forloop.first %}
 
-                            {% unless forloop.last %}
-                                +
-                            {% endunless %}
+                            {%- unless forloop.last -%}
+                                &nbsp;+
+                            {%- endunless -%}
 
                             <br />
-                        {% endfor %}
+                        {%- endfor -%}
                     </td>
 
-                    {% if type_data.with-energy %}
+                    {%- if type_data.with-energy -%}
                         <td class="cofh-nowrap uk-text-right">
                             {{ recipe_data.energy }} RF
                         </td>
-                    {% endif %}
+                    {%- endif -%}
 
                     <td style="padding: 2px; text-align: center">
                         <div class="cofh-recipe">
@@ -67,11 +67,11 @@
                         </div>
                     </td>
 
-                    {% if include.with-note %}
+                    {%- if include.with-note -%}
                         <td>{{ recipe_data.note }}</td>
-                    {% endif %}
+                    {%- endif -%}
                 </tr>
-            {% endfor %}
+            {%- endfor -%}
         </tbody>
     </table>
 </div>
