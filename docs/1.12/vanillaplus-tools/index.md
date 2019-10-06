@@ -1,5 +1,5 @@
 ---
-title: Vanilla+ Tools
+title: Vanilla+ Tools (Minecraft 1.12)
 redirect_from:
 - /docs/vanillaplus-tools/
 ---

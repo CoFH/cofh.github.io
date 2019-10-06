@@ -1,5 +1,5 @@
 ---
-title: Thermal Cultivation
+title: Thermal Cultivation (Minecraft 1.12)
 redirect_from:
 - /docs/thermal-cultivation/
 ---

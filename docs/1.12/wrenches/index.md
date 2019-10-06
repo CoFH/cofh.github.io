@@ -22,11 +22,11 @@ These are the wrenches added by the CoFH mods. Many mods add a type of wrench or
 a similar item, some of which are compatible with the CoFH mods.
 
 ### Thermal Series
-* [Crescent Hammer](/docs/1.12/thermal-foundation-2/crescent-hammer/)
+* [Crescent Hammer](/docs/1.12/thermal-foundation/crescent-hammer/)
 
 ### Redstone Arsenal
-* [Flux-Infused OmniWrench](/docs/1.12/redstone-arsenal-2/flux-infused-omniwrench/)
-* [Flux-Infused BattleWrench](/docs/1.12/redstone-arsenal-2/flux-infused-battlewrench/)
+* [Flux-Infused OmniWrench](/docs/1.12/redstone-arsenal/flux-infused-omniwrench/)
+* [Flux-Infused BattleWrench](/docs/1.12/redstone-arsenal/flux-infused-battlewrench/)
 
 
 Usage
@@ -44,6 +44,6 @@ When used on a compatible block while the user is sneaking, a wrench will
 attempt to dismantle it. When dismantled, a block is instantly dropped as an
 item.
 
-Most blocks in [Thermal Expansion](/docs/1.12/thermal-expansion-5/) and [Thermal
-Dynamics](/docs/1.12/thermal-dynamics-2/) can be dismantled, as well as [hardened
-glass](/docs/1.12/thermal-foundation-2/hardened-glass/).
+Most blocks in [Thermal Expansion](/docs/1.12/thermal-expansion/) and [Thermal
+Dynamics](/docs/1.12/thermal-dynamics/) can be dismantled, as well as [hardened
+glass](/docs/1.12/thermal-foundation/hardened-glass/).

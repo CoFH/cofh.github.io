@@ -1,5 +1,5 @@
 ---
-title: Thermal Innovation
+title: Thermal Innovation (Minecraft 1.12)
 redirect_from:
 - /docs/thermal-innovation/
 ---

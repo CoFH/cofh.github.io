@@ -6,10 +6,10 @@ published: true
 ---
 
 On October 1, new updates were released for [Redstone
-Flux](/docs/redstone-flux/), [CoFH Core](/docs/1.12/cofh-core-4/), [CoFH
+Flux](/docs/redstone-flux/), [CoFH Core](/docs/1.12/cofh-core/), [CoFH
 World](/docs/1.12/cofh-world/), the [Thermal Series](/docs/#thermal-series), the
 [Vanilla+ Series](/docs/#vanilla-series) and [Redstone
-Arsenal](/docs/1.12/redstone-arsenal-2/).
+Arsenal](/docs/1.12/redstone-arsenal/).
 
 [Changelogs on GitHub](https://github.com/CoFH/Version)
 
@@ -18,7 +18,7 @@ Arsenal](/docs/1.12/redstone-arsenal-2/).
   tracker](https://github.com/CoFH/Feedback/issues?q=is%3Aissue+is%3Aclosed+label%3Afixed+sort%3Aupdated-desc)).
 
 #### CoFH Core
-* [Vorpal](/docs/1.12/cofh-core-4/vorpal/) now has a visual effect when dealing
+* [Vorpal](/docs/1.12/cofh-core/vorpal/) now has a visual effect when dealing
   increased damage.
 
 #### CoFH World
@@ -31,41 +31,41 @@ Arsenal](/docs/1.12/redstone-arsenal-2/).
   server.
 
 #### Thermal Foundation
-* [Excavators](/docs/1.12/thermal-foundation-2/excavators/)
-  * Like [hammers](/docs/1.12/thermal-foundation-2/hammers/), except they're shovels.
+* [Excavators](/docs/1.12/thermal-foundation/excavators/)
+  * Like [hammers](/docs/1.12/thermal-foundation/hammers/), except they're shovels.
 * New gear types
-  * [Wood](/docs/1.12/thermal-foundation-2/wooden-gear/),
-    [stone](/docs/1.12/thermal-foundation-2/stone-gear/),
-    [diamond](/docs/1.12/thermal-foundation-2/diamond-gear/) and
-    [emerald](/docs/1.12/thermal-foundation-2/emerald-gear/).
+  * [Wood](/docs/1.12/thermal-foundation/wooden-gear/),
+    [stone](/docs/1.12/thermal-foundation/stone-gear/),
+    [diamond](/docs/1.12/thermal-foundation/diamond-gear/) and
+    [emerald](/docs/1.12/thermal-foundation/emerald-gear/).
   * These aren't used for anything by default, but they can be used by modpack
     developers.
 * Gear crafting recipes no longer use a center ingot.
 * Increased the amount of dirt that can be crafted using [pulped
-  biomass](/docs/1.12/thermal-foundation-2/pulped-biomass/).
+  biomass](/docs/1.12/thermal-foundation/pulped-biomass/).
 * Added an example configuration for generating [platinum
-  ore](/docs/1.12/thermal-foundation-2/platinum-ore/) (disabled by default).
+  ore](/docs/1.12/thermal-foundation/platinum-ore/) (disabled by default).
 
 #### Thermal Expansion
-* [Machines](/docs/1.12/thermal-expansion-5/machines/) no longer abort processing
+* [Machines](/docs/1.12/thermal-expansion/machines/) no longer abort processing
   immediately when deactivated by a redstone signal.
-* [Pulverizer](/docs/1.12/thermal-expansion-5/pulverizer/) recipes tweaked:
+* [Pulverizer](/docs/1.12/thermal-expansion/pulverizer/) recipes tweaked:
   * cobblestone is processed into gravel and sand;
   * gravel is processed into sand and flint;
   * stone is processed into cobblestone;
   * stone requires less energy to process.
-* [Sawmills](/docs/1.12/thermal-expansion-5/sawmill/) can recycle saddles.
-* [Induction smelters](/docs/1.12/thermal-expansion-5/induction-smelter/) can recycle
+* [Sawmills](/docs/1.12/thermal-expansion/sawmill/) can recycle saddles.
+* [Induction smelters](/docs/1.12/thermal-expansion/induction-smelter/) can recycle
   iron bars, iron trapdoors, minecarts and rails.
-* [Steam dynamos](/docs/1.12/thermal-expansion-5/steam-dynamo/) can use [pulverized
-  coal](/docs/1.12/thermal-foundation-2/pulverized-coal/) and [pulverized
-  charcoal](/docs/1.12/thermal-foundation-2/pulverized-charcoal/) as fuel.
+* [Steam dynamos](/docs/1.12/thermal-expansion/steam-dynamo/) can use [pulverized
+  coal](/docs/1.12/thermal-foundation/pulverized-coal/) and [pulverized
+  charcoal](/docs/1.12/thermal-foundation/pulverized-charcoal/) as fuel.
 
 #### Redstone Arsenal
-* [Flux-infused excavator](/docs/1.12/redstone-arsenal-2/flux-infused-excavator)
-  * A powerful [excavator](/docs/1.12/thermal-foundation-2/excavators/) powered by
+* [Flux-infused excavator](/docs/1.12/redstone-arsenal/flux-infused-excavator)
+  * A powerful [excavator](/docs/1.12/thermal-foundation/excavators/) powered by
     [Redstone Flux](/docs/redstone-flux/).
-* [Fluxed electrum gears](/docs/1.12/redstone-arsenal-2/fluxed-electrum-gear/) no
+* [Fluxed electrum gears](/docs/1.12/redstone-arsenal/fluxed-electrum-gear/) no
   longer require a center ingot to craft.
 
 #### Vanilla+ Tools

@@ -43,8 +43,8 @@ Usage
 
 ### Charging
 A fluxbore can be charged with [Redstone Flux](/docs/redstone-flux/) using an
-[energetic infuser](/docs/1.12/thermal-expansion-5/energetic-infuser/), a [flux
-capacitor](/docs/1.12/thermal-expansion-5/flux-capacitor/) or similar.
+[energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/), a [flux
+capacitor](/docs/1.12/thermal-expansion/flux-capacitor/) or similar.
 
 A basic fluxbore can hold up to 40,000 RF and can be charged at up to 1,000
 RF/t. This can be increased by upgrading the fluxbore to a higher
@@ -110,7 +110,7 @@ used.
 | III | 60% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-A fluxbore can also be enchanted with [Holding](/docs/1.12/cofh-core-4/holding/) to increase its
+A fluxbore can also be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
 energy capacity.
 
 | Holding level | Capacity multiplier |
@@ -125,7 +125,7 @@ energy capacity.
 Tiers
 -----
 
-Fluxbores come in six [tiers](/docs/1.12/thermal-foundation-2/tiers/).
+Fluxbores come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

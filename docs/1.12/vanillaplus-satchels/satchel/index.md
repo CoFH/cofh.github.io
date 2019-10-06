@@ -90,7 +90,7 @@ Public Access
 : Anyone can access the satchel. This is the default mode.
 
 Restricted
-: The owner and any of their [friends](/docs/1.12/cofh-core-4/friend-list/) can access
+: The owner and any of their [friends](/docs/1.12/cofh-core/friend-list/) can access
 the satchel.
 
 Owner Only
@@ -104,7 +104,7 @@ When dropped, a secured satchel cannot be destroyed by things like
 after a while.
 
 ### Enchantments
-A satchel can be enchanted with [Holding](/docs/1.12/cofh-core-4/holding/) to increase
+A satchel can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase
 its capacity.
 
 | Holding level | Capacity increase (slots) |

@@ -1,17 +1,17 @@
 docs:
   url: /docs/
 tf2-docs:
-  url: /docs/1.12/thermal-foundation-2/
+  url: /docs/1.12/thermal-foundation/
 te5-docs:
-  url: /docs/1.12/thermal-expansion-5/
+  url: /docs/1.12/thermal-expansion/
 td2-docs:
-  url: /docs/1.12/thermal-dynamics-2/
+  url: /docs/1.12/thermal-dynamics/
 tc-docs:
   url: /docs/1.12/thermal-cultivation/
 ti-docs:
   url: /docs/1.12/thermal-innovation/
 ra2-docs:
-  url: /docs/1.12/redstone-arsenal-2/
+  url: /docs/1.12/redstone-arsenal/
 vpt-docs:
   url: /docs/1.12/vanillaplus-tools/
 vps-docs:

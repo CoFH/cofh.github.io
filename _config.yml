@@ -21,45 +21,45 @@ defaults:
     values:
       nav: redstone-flux
   - scope:
-      path: "docs/1.12/cofh-core-4"
+      path: "docs/1.12/cofh-core"
     values:
-      nav: cofh-core-4
+      nav: cofh-core-1.12
   - scope:
       path: "docs/1.12/cofh-world"
     values:
-      nav: cofh-world
+      nav: cofh-world-1.12
   - scope:
-      path: "docs/1.12/thermal-foundation-2"
+      path: "docs/1.12/thermal-foundation"
     values:
-      nav: thermal-foundation-2
+      nav: thermal-foundation-1.12
   - scope:
-      path: "docs/1.12/thermal-expansion-5"
+      path: "docs/1.12/thermal-expansion"
     values:
-      nav: thermal-expansion-5
+      nav: thermal-expansion-1.12
   - scope:
-      path: "docs/1.12/thermal-dynamics-2"
+      path: "docs/1.12/thermal-dynamics"
     values:
-      nav: thermal-dynamics-2
+      nav: thermal-dynamics-1.12
   - scope:
       path: "docs/1.12/thermal-cultivation"
     values:
-      nav: thermal-cultivation
+      nav: thermal-cultivation-1.12
   - scope:
       path: "docs/1.12/thermal-innovation"
     values:
-      nav: thermal-innovation
+      nav: thermal-innovation-1.12
   - scope:
-      path: "docs/1.12/redstone-arsenal-2"
+      path: "docs/1.12/redstone-arsenal"
     values:
-      nav: redstone-arsenal-2
+      nav: redstone-arsenal-1.12
   - scope:
       path: "docs/1.12/vanillaplus-tools"
     values:
-      nav: vanillaplus-tools
+      nav: vanillaplus-tools-1.12
   - scope:
       path: "docs/1.12/vanillaplus-satchels"
     values:
-      nav: vanillaplus-satchels
+      nav: vanillaplus-satchels-1.12
 
 exclude:
   - README.md

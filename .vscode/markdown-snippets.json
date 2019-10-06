@@ -9,15 +9,15 @@
 	},
 	"CoFH: TF link": {
 		"prefix": "cltf",
-		"body": "[$1](/docs/1.12/thermal-foundation-2/$2)$0"
+		"body": "[$1](/docs/1.12/thermal-foundation/$2)$0"
 	},
 	"CoFH: TE link": {
 		"prefix": "clte",
-		"body": "[$1](/docs/1.12/thermal-expansion-5/$2)$0"
+		"body": "[$1](/docs/1.12/thermal-expansion/$2)$0"
 	},
 	"CoFH: TD link": {
 		"prefix": "cltd",
-		"body": "[$1](/docs/1.12/thermal-dynamics-2/$2)$0"
+		"body": "[$1](/docs/1.12/thermal-dynamics/$2)$0"
 	},
 	"CoFH: TC link": {
 		"prefix": "cltc",
@@ -29,7 +29,7 @@
 	},
 	"CoFH: RA link": {
 		"prefix": "clra",
-		"body": "[$1](/docs/1.12/redstone-arsenal-2/$2)$0"
+		"body": "[$1](/docs/1.12/redstone-arsenal/$2)$0"
 	},
 	"CoFH: recipe table (obtaining)": {
 		"prefix": "crto",

@@ -7,9 +7,9 @@ redstone-flux:
             - title: 'Redstone Flux: A Primer'
               url: redstone-flux-a-primer/
 
-cofh-core-4:
-  title: CoFH Core 4
-  url: 1.12/cofh-core-4/
+cofh-core-1.12:
+  title: CoFH Core (Minecraft 1.12)
+  url: 1.12/cofh-core/
   sections:
     - groups:
         - title: General
@@ -41,8 +41,8 @@ cofh-core-4:
             - title: Vorpal
               url: vorpal/
 
-cofh-world:
-  title: CoFH World
+cofh-world-1.12:
+  title: CoFH World (Minecraft 1.12)
   url: 1.12/cofh-world/
   sections:
     - groups:
@@ -123,9 +123,9 @@ cofh-world:
             - title: Commands
               url: commands/
 
-thermal-foundation-2:
-  title: Thermal Foundation 2
-  url: 1.12/thermal-foundation-2/
+thermal-foundation-1.12:
+  title: Thermal Foundation (Minecraft 1.12)
+  url: 1.12/thermal-foundation/
   sections:
     - title: World
       groups:
@@ -955,9 +955,9 @@ thermal-foundation-2:
             - title: Vanilla recipes
               url: vanilla-recipes/
 
-thermal-expansion-5:
-  title: Thermal Expansion 5
-  url: 1.12/thermal-expansion-5/
+thermal-expansion-1.12:
+  title: Thermal Expansion (Minecraft 1.12)
+  url: 1.12/thermal-expansion/
   sections:
     - groups:
         - title: Machines
@@ -1244,9 +1244,9 @@ thermal-expansion-5:
                   url: reusable-morb/
                   icon: [9, 19]
 
-thermal-dynamics-2:
-  title: Thermal Dynamics 2
-  url: 1.12/thermal-dynamics-2/
+thermal-dynamics-1.12:
+  title: Thermal Dynamics (Minecraft 1.12)
+  url: 1.12/thermal-dynamics/
   sections:
     - groups:
         - title: Ducts
@@ -1338,8 +1338,8 @@ thermal-dynamics-2:
               url: redstone-relay/
               icon: [1, 21]
 
-thermal-cultivation:
-  title: Thermal Cultivation
+thermal-cultivation-1.12:
+  title: Thermal Cultivation (Minecraft 1.12)
   url: 1.12/thermal-cultivation/
   sections:
     - groups:
@@ -1348,8 +1348,8 @@ thermal-cultivation:
               url: watering-can/
               icon: [2, 21]
 
-thermal-innovation:
-  title: Thermal Innovation
+thermal-innovation-1.12:
+  title: Thermal Innovation (Minecraft 1.12)
   url: 1.12/thermal-innovation/
   sections:
     - groups:
@@ -1370,9 +1370,9 @@ thermal-innovation:
               url: alchemical-quiver/
               icon: [8, 23]
 
-redstone-arsenal-2:
-  title: Redstone Arsenal 2
-  url: 1.12/redstone-arsenal-2/
+redstone-arsenal-1.12:
+  title: Redstone Arsenal (Minecraft 1.12)
+  url: 1.12/redstone-arsenal/
   sections:
     - groups:
         - title: Flux-Infused Tools
@@ -1472,8 +1472,8 @@ redstone-arsenal-2:
               url: fluxed-armor-plating/
               icon: [0, 23]
 
-vanillaplus-tools:
-  title: Vanilla+ Tools
+vanillaplus-tools-1.12:
+  title: Vanilla+ Tools (Minecraft 1.12)
   url: 1.12/vanillaplus-tools/
   sections:
     - groups:
@@ -1500,8 +1500,8 @@ vanillaplus-tools:
               url: shields/
               icon: [10, 24]
 
-vanillaplus-satchels:
-  title: Vanilla+ Satchels
+vanillaplus-satchels-1.12:
+  title: Vanilla+ Satchels (Minecraft 1.12)
   url: 1.12/vanillaplus-satchels/
   sections:
     - groups:
