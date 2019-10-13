@@ -11,7 +11,7 @@ recipes:
 redirect_from:
 - /docs/thermal-foundation/diamond-gear/
 - /docs/thermal-foundation-2/diamond-gear/
-- /docs/1.12/thermal-foundation/diamond-gear/
+- /docs/1.12/thermal-foundation-2/diamond-gear/
 ---
 
 **Diamond gears** are crafting materials made of

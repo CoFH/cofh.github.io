@@ -5,7 +5,7 @@ redirect_from:
 - /docs/diamond-nugget/
 - /docs/thermal-foundation/diamond-nugget/
 - /docs/thermal-foundation-2/diamond-nugget/
-- /docs/1.12/thermal-foundation/diamond-nugget/
+- /docs/1.12/thermal-foundation-2/diamond-nugget/
 recipes:
   crafting:
   - tf-1-12-nugget-diamond
