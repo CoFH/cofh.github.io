@@ -11,7 +11,7 @@ recipes:
   - tf-1-12-nugget-diamond
 usage-recipes:
   crafting:
-  - tf-1-12-12-12-12-diamond-from-nuggets
+  - tf-1-12-diamond-from-nuggets
 ---
 
 ![Diamond nugget](/assets/images/thermal-foundation-2/nugget-diamond.png){:style="height: 128px"}
