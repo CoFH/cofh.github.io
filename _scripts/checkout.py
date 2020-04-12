@@ -12,17 +12,19 @@ from threading import Thread
 
 
 REPOS = [
-    "RedstoneFlux",
-    "CoFHCore",
-    "CoFHWorld",
-    "ThermalFoundation",
-    "ThermalExpansion",
-    "ThermalDynamics",
-    "ThermalCultivation",
-    "ThermalInnovation",
-    "RedstoneArsenal",
-    "VanillaTools",
-    "VanillaSatchels",
+    dict(name="RedstoneFlux", url="git@github.com:CoFH/RedstoneFlux.git"),
+    dict(name="CoFHCore", url="git@github.com:CoFH/CoFHCore.git"),
+    dict(name="CoFHWorld", url="git@github.com:CoFH/CoFHWorld.git"),
+    dict(name="ThermalFoundation", url="git@github.com:CoFH/ThermalFoundation.git"),
+    dict(name="ThermalExpansion", url="git@github.com:CoFH/ThermalExpansion.git"),
+    dict(name="ThermalDynamics", url="git@github.com:CoFH/ThermalDynamics.git"),
+    dict(name="ThermalCultivation", url="git@github.com:CoFH/ThermalCultivation.git"),
+    dict(name="ThermalInnovation", url="git@github.com:CoFH/ThermalInnovation.git"),
+    dict(name="RedstoneArsenal", url="git@github.com:CoFH/RedstoneArsenal.git"),
+    dict(name="VanillaTools", url="git@github.com:CoFH/VanillaTools.git"),
+    dict(name="VanillaSatchels", url="git@github.com:CoFH/VanillaSatchels.git"),
+    dict(name="1.14", url="git@github.com:KingLemming/1.14.git"),
+    dict(name="1.15", url="git@github.com:KingLemming/1.15.git"),
 ]
 
 
@@ -33,17 +35,14 @@ def main():
     os.makedirs(repos_path, exist_ok=True)
 
     def fetch(repo):
-        repo_path = os.path.join(repos_path, repo)
+        repo_path = os.path.join(repos_path, repo["name"])
 
         if not os.path.isdir(repo_path):
-            Popen(
-                ["git", "clone", "git@github.com:CoFH/{}.git".format(repo)],
-                cwd=repos_path,
-            ).wait()
+            Popen(["git", "clone", repo["url"]], cwd=repos_path).wait()
         else:
             Popen(["git", "fetch"], cwd=repo_path).wait()
 
-        sys.stdout.write("- {}\n".format(repo))
+        sys.stdout.write("- {}\n".format(repo["name"]))
 
     threads = [Thread(target=fetch, args=(repo,)) for repo in REPOS]
 
@@ -56,7 +55,7 @@ def main():
     for repo in REPOS:
         print("")
 
-        cwd = os.path.join(repos_path, repo)
+        cwd = os.path.join(repos_path, repo["name"])
 
         current_commit_id = (
             Popen(["git", "rev-parse", "--short", "HEAD"], stdout=PIPE, cwd=cwd)
@@ -66,7 +65,7 @@ def main():
         )
 
         while True:
-            commit_id = input("Commit ID for {} ({}): ".format(repo, current_commit_id))
+            commit_id = input("Commit ID for {} ({}): ".format(repo["name"], current_commit_id))
             if commit_id == "":
                 break
 

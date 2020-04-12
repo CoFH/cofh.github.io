@@ -1,3 +1,61 @@
+"1.15":
+  - id: cofh-core-1-15
+    logo: cofh-core
+    title: CoFH Core
+    note: >
+      Required for all Team CoFH mods.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
+      # docs: /docs/1.15/cofh-core/
+      source: https://github.com/KingLemming/1.15
+  - id: ensorcellation-1-15
+    logo: ensorcellation
+    title: Ensorcellation
+    note: >
+      Requires <a href="#cofh-core-1-15">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/ensorcellation
+      # docs: /docs/1.15/ensorcellation/
+      source: https://github.com/KingLemming/1.15
+  - id: archers-paradox-1-15
+    logo: archers-paradox
+    title: Archer's Paradox
+    note: >
+      Requires <a href="#cofh-core-1-15">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/archers-paradox
+      # docs: /docs/1.15/archers-paradox/
+      source: https://github.com/KingLemming/1.15
+
+"1.14":
+  - id: cofh-core-1-14
+    logo: cofh-core
+    title: CoFH Core
+    note: >
+      Required for all Team CoFH mods.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
+      # docs: /docs/1.14/cofh-core/
+      source: https://github.com/KingLemming/1.14
+  - id: ensorcellation-1-14
+    logo: ensorcellation
+    title: Ensorcellation
+    note: >
+      Requires <a href="#cofh-core-1-14">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/ensorcellation
+      # docs: /docs/1.14/ensorcellation/
+      source: https://github.com/KingLemming/1.14
+  - id: archers-paradox-1-14
+    logo: archers-paradox
+    title: Archer's Paradox
+    note: >
+      Requires <a href="#cofh-core-1-14">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/archers-paradox
+      # docs: /docs/1.14/archers-paradox/
+      source: https://github.com/KingLemming/1.14
+
 "1.12":
   - id: redstone-flux-1-12
     logo: redstone-flux

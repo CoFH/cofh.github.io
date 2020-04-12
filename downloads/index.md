@@ -17,6 +17,16 @@ This page lists download links for all Team CoFH mods.
   server](https://discord.gg/uRKrnbH).
 
 <div class="uk-accordion" data-uk-accordion="{showfirst: true, collapse: true}">
+    <h2 class="uk-accordion-title">Minecraft 1.15</h2>
+    <div class="uk-accordion-content">
+        {% include download-items.html minecraft="1.15" %}
+    </div>
+
+    <h2 class="uk-accordion-title">Minecraft 1.14</h2>
+    <div class="uk-accordion-content">
+        {% include download-items.html minecraft="1.14" %}
+    </div>
+
     <h2 class="uk-accordion-title">Minecraft 1.12</h2>
     <div class="uk-accordion-content">
         {% include download-items.html minecraft="1.12" %}
