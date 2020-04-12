@@ -8342,6 +8342,7 @@ recipes:
         - [item: [mc-ingot-iron], item: [mc-paper], item: [mc-ingot-iron]]
       result:
         item: [td-1-12-filter-basic]
+        amount: 2
   td-1-12-filter-hardened:
     results:
       - item: td-1-12-filter-hardened
@@ -8357,6 +8358,7 @@ recipes:
         - [item: [tf-1-12-ingot-invar], item: [mc-paper], item: [tf-1-12-ingot-invar]]
       result:
         item: [td-1-12-filter-hardened]
+        amount: 2
   td-1-12-filter-hardened-upgrade:
     results:
       - item: td-1-12-filter-hardened
@@ -8384,6 +8386,7 @@ recipes:
         - [item: [tf-1-12-ingot-electrum], item: [mc-paper], item: [tf-1-12-ingot-electrum]]
       result:
         item: [td-1-12-filter-reinforced]
+        amount: 2
   td-1-12-filter-reinforced-upgrade:
     results:
       - item: td-1-12-filter-reinforced
@@ -8435,6 +8438,7 @@ recipes:
         - [item: [tf-1-12-ingot-signalum], item: [mc-paper], item: [tf-1-12-ingot-signalum]]
       result:
         item: [td-1-12-filter-signalum]
+        amount: 2
   td-1-12-filter-signalum-upgrade:
     results:
       - item: td-1-12-filter-signalum
@@ -8498,6 +8502,7 @@ recipes:
         - [item: [tf-1-12-ingot-enderium], item: [mc-paper], item: [tf-1-12-ingot-enderium]]
       result:
         item: [td-1-12-filter-resonant]
+        amount: 2
   td-1-12-filter-resonant-upgrade:
     results:
       - item: td-1-12-filter-resonant
@@ -9342,6 +9347,7 @@ recipes:
         - [item: [mc-ingot-iron], item: [mc-eye-of-ender], item: [mc-ingot-iron]]
       result:
         item: [td-1-12-retriever-basic]
+        amount: 2
   td-1-12-retriever-hardened:
     results:
       - item: td-1-12-retriever-hardened
@@ -9357,6 +9363,7 @@ recipes:
         - [item: [tf-1-12-ingot-invar], item: [mc-eye-of-ender], item: [tf-1-12-ingot-invar]]
       result:
         item: [td-1-12-retriever-hardened]
+        amount: 2
   td-1-12-retriever-hardened-upgrade:
     results:
       - item: td-1-12-retriever-hardened
@@ -9384,6 +9391,7 @@ recipes:
         - [item: [tf-1-12-ingot-electrum], item: [mc-eye-of-ender], item: [tf-1-12-ingot-electrum]]
       result:
         item: [td-1-12-retriever-reinforced]
+        amount: 2
   td-1-12-retriever-reinforced-upgrade:
     results:
       - item: td-1-12-retriever-reinforced
@@ -9435,6 +9443,7 @@ recipes:
         - [item: [tf-1-12-ingot-signalum], item: [mc-eye-of-ender], item: [tf-1-12-ingot-signalum]]
       result:
         item: [td-1-12-retriever-signalum]
+        amount: 2
   td-1-12-retriever-signalum-upgrade:
     results:
       - item: td-1-12-retriever-signalum
@@ -9498,6 +9507,7 @@ recipes:
         - [item: [tf-1-12-ingot-enderium], item: [mc-eye-of-ender], item: [tf-1-12-ingot-enderium]]
       result:
         item: [td-1-12-retriever-resonant]
+        amount: 2
   td-1-12-retriever-resonant-upgrade:
     results:
       - item: td-1-12-retriever-resonant
@@ -9573,6 +9583,7 @@ recipes:
         - [item: [mc-ingot-iron], item: [mc-redstone], item: [mc-ingot-iron]]
       result:
         item: [td-1-12-servo-basic]
+        amount: 2
   td-1-12-servo-hardened:
     results:
       - item: td-1-12-servo-hardened
@@ -9588,6 +9599,7 @@ recipes:
         - [item: [tf-1-12-ingot-invar], item: [mc-redstone], item: [tf-1-12-ingot-invar]]
       result:
         item: [td-1-12-servo-hardened]
+        amount: 2
   td-1-12-servo-hardened-upgrade:
     results:
       - item: td-1-12-servo-hardened
@@ -9615,6 +9627,7 @@ recipes:
         - [item: [tf-1-12-ingot-electrum], item: [mc-redstone], item: [tf-1-12-ingot-electrum]]
       result:
         item: [td-1-12-servo-reinforced]
+        amount: 2
   td-1-12-servo-reinforced-upgrade:
     results:
       - item: td-1-12-servo-reinforced
@@ -9666,6 +9679,7 @@ recipes:
         - [item: [tf-1-12-ingot-signalum], item: [mc-redstone], item: [tf-1-12-ingot-signalum]]
       result:
         item: [td-1-12-servo-signalum]
+        amount: 2
   td-1-12-servo-signalum-upgrade:
     results:
       - item: td-1-12-servo-signalum
@@ -9729,6 +9743,7 @@ recipes:
         - [item: [tf-1-12-ingot-enderium], item: [mc-redstone], item: [tf-1-12-ingot-enderium]]
       result:
         item: [td-1-12-servo-resonant]
+        amount: 2
   td-1-12-servo-resonant-upgrade:
     results:
       - item: td-1-12-servo-resonant
