@@ -17,7 +17,7 @@ recipes:
 
 A **flux-infused pickaxe** is a powerful
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) powered by [Redstone
-Flux](/docs/redstone-flux/).
+Flux](../../../redstone-flux/).
 
 
 Obtaining
@@ -31,11 +31,11 @@ Usage
 -----
 
 ### Charging
-A flux-infused pickaxe can hold up to 320,000 [RF](/docs/redstone-flux/). It can
-be charged using an [energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/), a [flux
-capacitor](/docs/1.12/thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
-a [fluxed electrum block](/docs/1.12/redstone-arsenal/fluxed-electrum-block/) or [flux crystal
-block](/docs/1.12/redstone-arsenal/flux-crystal-block) while holding it. It can be charged at rates up
+A flux-infused pickaxe can hold up to 320,000 [RF](../../../redstone-flux/). It can
+be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
+capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
+a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal
+block](../flux-crystal-block) while holding it. It can be charged at rates up
 to 4,000 RF/t.
 
 An uncharged flux-infused pickaxe is still usable and will not break when used,
@@ -81,7 +81,7 @@ enchantments that other pickaxes can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused pickaxe has a chance to not consume [Redstone
-Flux](/docs/redstone-flux/) when used.
+Flux](../../../redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---
@@ -90,7 +90,7 @@ Flux](/docs/redstone-flux/) when used.
 | III | 60% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-A flux-infused pickaxe can also be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to
+A flux-infused pickaxe can also be enchanted with [Holding](../../cofh-core/holding/) to
 increase its energy capacity.
 
 | Holding level | Capacity multiplier |

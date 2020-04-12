@@ -37,7 +37,7 @@ usage-recipes:
 **Sulfur** is a byproduct of various different processes. It may also be dropped
 by mobs that are immune to fire. It can be used to craft
 [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [pyrotheum
-dust](/docs/1.12/thermal-foundation/pyrotheum-dust/) and [flux capacitors](/docs/1.12/thermal-expansion/flux-capacitor/).
+dust](../pyrotheum-dust/) and [flux capacitors](../../thermal-expansion/flux-capacitor/).
 
 
 Obtaining

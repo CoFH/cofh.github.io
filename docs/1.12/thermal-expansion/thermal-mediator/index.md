@@ -14,15 +14,15 @@ recipes:
 
 
 A **thermal mediator** (also known as a **heat sink**) is a
-[device](/docs/1.12/thermal-expansion/devices/) that uses [coolants](/docs/1.12/thermal-expansion/coolants/) to speed up
-adjacent [machines](/docs/1.12/thermal-expansion/machines/) and [dynamos](/docs/1.12/thermal-expansion/dynamos/).
+[device](../devices/) that uses [coolants](../coolants/) to speed up
+adjacent [machines](../machines/) and [dynamos](../dynamos/).
 
 
 Obtaining
 ---------
 
 A placed thermal mediator can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -34,17 +34,17 @@ Usage
 
 ### Placement
 When placed, a thermal mediator faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
-When a fluid [coolant](/docs/1.12/thermal-expansion/coolants/) is supplied to a thermal mediator, it
-will begin consuming it to speed up any adjacent [machines](/docs/1.12/thermal-expansion/machines/) and
-[dynamos](/docs/1.12/thermal-expansion/dynamos/). The rate at which coolant is consumed depends on the
-[thermal capacity](/docs/1.12/thermal-expansion/coolants/#usage) of the used coolant.
+When a fluid [coolant](../coolants/) is supplied to a thermal mediator, it
+will begin consuming it to speed up any adjacent [machines](../machines/) and
+[dynamos](../dynamos/). The rate at which coolant is consumed depends on the
+[thermal capacity](../coolants/#usage) of the used coolant.
 
 Every tick, blocks adjacent to an active thermal mediator have a chance to
 perform additional work during that tick. This chance is equal to the [coolant
-factor](/docs/1.12/thermal-expansion/coolants/#usage) of the used coolant.
+factor](../coolants/#usage) of the used coolant.
 
 ### Input
 Fluids can enter a thermal mediator through its sides. Which sides of the device
@@ -69,10 +69,10 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 A thermal mediator can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A thermal mediator's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/)
+A thermal mediator's configuration can be saved on a [redprint](../../thermal-foundation/redprint/)
 to be copied to other thermal mediators.
 
 ### Light source

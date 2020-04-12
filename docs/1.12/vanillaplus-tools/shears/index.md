@@ -20,7 +20,7 @@ redirect_from:
 ---
 
 **[Shears](https://minecraft.gamepedia.com/Shears)** are tools in vanilla
-Minecraft. [Vanilla+ Tools](/docs/1.12/vanillaplus-tools/) adds a set of shears made
+Minecraft. [Vanilla+ Tools](../) adds a set of shears made
 of materials other than iron.
 
 

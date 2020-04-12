@@ -26,8 +26,8 @@ usage-recipes:
 
 
 **Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
-[platinum](/docs/1.12/thermal-foundation/platinum-ingot/) and small amounts of
-[iridium](/docs/1.12/thermal-foundation/iridium-ingot/). It is unobtainable by default.
+[platinum](../platinum-ingot/) and small amounts of
+[iridium](../iridium-ingot/). It is unobtainable by default.
 
 
 Obtaining
@@ -58,10 +58,10 @@ Usage
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When platinum ore is broken using a [Smashing](/docs/1.12/cofh-core/smashing/)
+When platinum ore is broken using a [Smashing](../../cofh-core/smashing/)
 enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
 two piles of [pulverized
-platinum](/docs/1.12/thermal-foundation/pulverized-platinum/) are dropped instead of
+platinum](../pulverized-platinum/) are dropped instead of
 the ore.
 
 ### Light source

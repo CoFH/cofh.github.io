@@ -133,7 +133,7 @@ recipe-list:
 
 
 An **induction smelter**, or **smelter** for short, is a
-[machine](/docs/1.12/thermal-expansion/machines/) that smelts items together at high temperatures.
+[machine](../machines/) that smelts items together at high temperatures.
 Despite the name, the machine cannot be used for
 [smelting](https://minecraft.gamepedia.com/Smelting).
 
@@ -142,7 +142,7 @@ Obtaining
 ---------
 
 A placed induction smelter can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -151,8 +151,8 @@ this can be much slower.
 
 ### Upgrading
 An induction smelter is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -160,19 +160,19 @@ Usage
 
 ### Placement
 When placed, an induction smelter faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 An induction smelter has two input slots. When combinations of items are placed
 in these slots, the machine will start consuming [Redstone
-Flux](/docs/redstone-flux/) to process them. Every item combination requires a
+Flux](../../../redstone-flux/) to process them. Every item combination requires a
 certain amount of energy to process. When enough energy has been consumed for an
 item combination, the input is consumed and the output is placed in the primary
 output slot. A secondary output may be produced when processing certain items,
 which is placed in the secondary output slot.
 
-When installed, a [pyro-concentrator](/docs/1.12/thermal-expansion/augment-pyro-concentrator/) allows
-an induction smelter to consume [blazing pyrotheum](/docs/1.12/thermal-foundation/blazing-pyrotheum/),
+When installed, a [pyro-concentrator](../augment-pyro-concentrator/) allows
+an induction smelter to consume [blazing pyrotheum](../../thermal-foundation/blazing-pyrotheum/),
 which is stored in an added input tank.
 
 The speed at which an induction smelter processes items depends on how much
@@ -204,8 +204,8 @@ machine's GUI.
 
 One of an induction smelter's input slots can be locked to only accept
 metallurgical fluxes: [sand](https://minecraft.gamepedia.com/Sand), [soul
-sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](/docs/1.12/thermal-foundation/rich-slag/)
-and [cinnabar](/docs/1.12/thermal-foundation/cinnabar/). These items are commonly used in smelter
+sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](../../thermal-foundation/rich-slag/)
+and [cinnabar](../../thermal-foundation/cinnabar/). These items are commonly used in smelter
 recipes. The slot is locked by default.
 
 ### Redstone control
@@ -227,11 +227,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 An induction smelter can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An induction smelter's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other induction smelters.
+[redprint](../../thermal-foundation/redprint/) to be copied to other induction smelters.
 
 ### Light source
 When an induction smelter is active, it emits a light level of 14.
@@ -240,7 +240,7 @@ When an induction smelter is active, it emits a light level of 14.
 Tiers
 -----
 
-Induction smelters come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Induction smelters come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -259,7 +259,7 @@ Induction smelters come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-An induction smelter can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+An induction smelter can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic smelter cannot be
 augmented.

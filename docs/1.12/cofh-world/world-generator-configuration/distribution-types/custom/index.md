@@ -4,25 +4,23 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/distribution-types/custom/
 ---
 
-**`custom`** is one of the [distribution
-types](/docs/1.12/cofh-world/world-generator-configuration/distribution-types/)
-provided by [CoFH World](/docs/1.12/cofh-world/). It distributes features at
-user-specified coordinates in each chunk.
+**`custom`** is one of the [distribution types](../) provided by [CoFH
+World](../../../). It distributes features at user-specified coordinates in each
+chunk.
 
 When using this distribution type, the feature type
-[`cluster`](/docs/1.12/cofh-world/world-generator-configuration/feature-types/cluster/)
-is used by default, and the value `material` of [feature type
-configurations](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-is set to [stone](https://minecraft.gamepedia.com/Stone) (and all of its
-variations) by default.
+[`cluster`](../../feature-types/cluster/) is used by default, and the value
+`material` of [feature type
+configurations](../../feature-format/#feature-type-configuration) is set to
+[stone](https://minecraft.gamepedia.com/Stone) (and all of its variations) by
+default.
 
 
 Options
 -------
 
 When using this distribution type, the following values must be added to the
-[feature
-entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+[feature entry](../../feature-format/#features).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -38,8 +36,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`x-offset`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -50,8 +47,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`y-offset`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -62,8 +58,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`z-offset`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">

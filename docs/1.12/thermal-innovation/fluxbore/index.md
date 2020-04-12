@@ -26,7 +26,7 @@ recipes:
 ---
 
 A **fluxbore** (also known as a **drill**) is a tool that mines blocks using
-[Redstone Flux](/docs/redstone-flux/). It functions as both a
+[Redstone Flux](../../../redstone-flux/). It functions as both a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) and a
 [shovel](https://minecraft.gamepedia.com/Shovel).
 
@@ -42,9 +42,9 @@ Usage
 -----
 
 ### Charging
-A fluxbore can be charged with [Redstone Flux](/docs/redstone-flux/) using an
-[energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/), a [flux
-capacitor](/docs/1.12/thermal-expansion/flux-capacitor/) or similar.
+A fluxbore can be charged with [Redstone Flux](../../../redstone-flux/) using an
+[energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
+capacitor](../../thermal-expansion/flux-capacitor/) or similar.
 
 A basic fluxbore can hold up to 40,000 RF and can be charged at up to 1,000
 RF/t. This can be increased by upgrading the fluxbore to a higher
@@ -100,7 +100,7 @@ A basic fluxbore has an
 be increased by upgrading the fluxbore to a higher [tier](#tiers).
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
-fluxbore has a chance to not consume [Redstone Flux](/docs/redstone-flux/) when
+fluxbore has a chance to not consume [Redstone Flux](../../../redstone-flux/) when
 used.
 
 | Unbreaking level | No energy use chance |
@@ -110,7 +110,7 @@ used.
 | III | 60% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-A fluxbore can also be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
+A fluxbore can also be enchanted with [Holding](../../cofh-core/holding/) to increase its
 energy capacity.
 
 | Holding level | Capacity multiplier |
@@ -125,7 +125,7 @@ energy capacity.
 Tiers
 -----
 
-Fluxbores come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Fluxbores come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

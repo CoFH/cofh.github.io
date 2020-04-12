@@ -39,7 +39,7 @@ usage-recipes:
 
 
 **Pulverized silver** is a raw material. It is the dust form of
-[silver](/docs/1.12/thermal-foundation/silver-ingot/).
+[silver](../silver-ingot/).
 
 
 Obtaining
@@ -55,8 +55,8 @@ Obtaining
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
-When [silver ore](/docs/1.12/thermal-foundation/silver-ore/) is broken using a
-[Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When [silver ore](../silver-ore/) is broken using a
+[Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized silver are dropped instead of the ore.
 

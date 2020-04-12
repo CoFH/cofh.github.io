@@ -89,7 +89,7 @@ usage-recipes:
 
 
 **Silver ingots** are raw materials obtained from [silver
-ore](/docs/1.12/thermal-foundation/silver-ore/) and [lead ore](/docs/1.12/thermal-foundation/lead-ore/).
+ore](../silver-ore/) and [lead ore](../lead-ore/).
 
 
 Obtaining
@@ -133,8 +133,8 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, molten silver can be mixed with molten
-  [copper](/docs/1.12/thermal-foundation/copper-ingot/) and [destabilized
-  redstone](/docs/1.12/thermal-foundation/destabilized-redstone/) to make molten
-  [signalum](/docs/1.12/thermal-foundation/signalum-ingot/), or with molten [tin](/docs/1.12/thermal-foundation/tin-ingot/) and
-  [energized glowstone](/docs/1.12/thermal-foundation/energized-glowstone/) to make molten
-  [lumium](/docs/1.12/thermal-foundation/lumium-ingot/).
+  [copper](../copper-ingot/) and [destabilized
+  redstone](../destabilized-redstone/) to make molten
+  [signalum](../signalum-ingot/), or with molten [tin](../tin-ingot/) and
+  [energized glowstone](../energized-glowstone/) to make molten
+  [lumium](../lumium-ingot/).

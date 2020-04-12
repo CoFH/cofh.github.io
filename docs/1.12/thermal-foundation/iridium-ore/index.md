@@ -26,8 +26,8 @@ usage-recipes:
 
 
 **Iridium ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
-[iridium](/docs/1.12/thermal-foundation/iridium-ingot/) and small amounts of
-[platinum](/docs/1.12/thermal-foundation/platinum-ingot/). It is unobtainable by default.
+[iridium](../iridium-ingot/) and small amounts of
+[platinum](../platinum-ingot/). It is unobtainable by default.
 
 
 Obtaining
@@ -58,9 +58,9 @@ Usage
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When iridium ore is broken using a [Smashing](/docs/1.12/cofh-core/smashing/)
+When iridium ore is broken using a [Smashing](../../cofh-core/smashing/)
 enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
-two piles of [pulverized iridium](/docs/1.12/thermal-foundation/pulverized-iridium/)
+two piles of [pulverized iridium](../pulverized-iridium/)
 are dropped instead of the ore.
 
 ### Light source

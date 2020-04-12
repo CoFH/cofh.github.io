@@ -13,8 +13,8 @@ redirect_from:
 ---
 
 A **flux-infused excavator** is a powerful
-[excavator](/docs/1.12/thermal-foundation/excavators/) powered by [Redstone
-Flux](/docs/redstone-flux/).
+[excavator](../../thermal-foundation/excavators/) powered by [Redstone
+Flux](../../../redstone-flux/).
 
 
 Obtaining
@@ -28,14 +28,13 @@ Usage
 -----
 
 ### Charging
-A flux-infused excavator can hold up to 320,000 [RF](/docs/redstone-flux/). It
-can be charged using an [energetic
-infuser](/docs/1.12/thermal-expansion/energetic-infuser/), a [flux
-capacitor](/docs/1.12/thermal-expansion/flux-capacitor/) or similar. It can also be
-charged by touching a [fluxed electrum
-block](/docs/1.12/redstone-arsenal/fluxed-electrum-block/) or [flux crystal
-block](/docs/1.12/redstone-arsenal/flux-crystal-block) while holding it. It can be
-charged at rates up to 4,000 RF/t.
+A flux-infused excavator can hold up to 320,000 [RF](../../../redstone-flux/).
+It can be charged using an [energetic
+infuser](../../thermal-expansion/energetic-infuser/), a [flux
+capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be
+charged by touching a [fluxed electrum block](../fluxed-electrum-block/) or
+[flux crystal block](../flux-crystal-block) while holding it. It can be charged
+at rates up to 4,000 RF/t.
 
 An uncharged flux-infused excavator is still usable and will not break when
 used, but it is much less powerful.
@@ -48,7 +47,7 @@ can be toggled by pressing "Cycle Item Mode" (V by default).
 An uncharged flux-infused excavator has a very low digging speed (even slower
 than a [wooden shovel](https://minecraft.gamepedia.com/Wooden_Shovel)) and can
 only break one block at a time. When charged, it has the same digging speed as a
-[diamond excavator](/docs/1.12/thermal-foundation/excavators/), breaks up to 9 blocks
+[diamond excavator](../../thermal-foundation/excavators/), breaks up to 9 blocks
 at a time in a 3x3 area, and consumes 200 RF per use. When empowered, it is 1.5
 times as fast as a diamond excavator, breaks up to 25 blocks at a time in a 5x5
 area, and consumes 1,600 RF per use.
@@ -65,12 +64,12 @@ of damage that bypasses armor). When empowered, its attack speed is raised to
 A flux-infused excavator has an
 [enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
 slightly higher than that of a [golden
-excavator](/docs/1.12/thermal-foundation/excavators/). It can receive all the
+excavator](../../thermal-foundation/excavators/). It can receive all the
 enchantments that other excavators can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused excavator has a chance to not consume [Redstone
-Flux](/docs/redstone-flux/) when used.
+Flux](../../../redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---
@@ -80,7 +79,7 @@ Flux](/docs/redstone-flux/) when used.
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 A flux-infused excavator can also be enchanted with
-[Holding](/docs/1.12/cofh-core/holding/) to increase its energy capacity.
+[Holding](../../cofh-core/holding/) to increase its energy capacity.
 
 | Holding level | Capacity multiplier |
 |---

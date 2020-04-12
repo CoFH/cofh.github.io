@@ -39,7 +39,7 @@ usage-recipes:
 
 
 **Pulverized copper** is a raw material. It is the dust form of
-[copper](/docs/1.12/thermal-foundation/copper-ingot/).
+[copper](../copper-ingot/).
 
 
 Obtaining
@@ -55,8 +55,8 @@ Obtaining
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
-When [copper ore](/docs/1.12/thermal-foundation/copper-ore/) is broken using a
-[Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When [copper ore](../copper-ore/) is broken using a
+[Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized copper are dropped instead of the ore.
 

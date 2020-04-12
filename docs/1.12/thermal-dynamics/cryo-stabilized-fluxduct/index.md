@@ -15,8 +15,8 @@ recipes:
   - td-1-12-fluxduct-super
 ---
 
-A **cryo-stabilized fluxduct** is a [fluxduct](/docs/1.12/thermal-dynamics/fluxducts/) of the sixth
-and highest tier. It can transfer any amount of power.
+A **cryo-stabilized fluxduct** is a [fluxduct](../fluxducts/) of the sixth and
+highest tier. It can transfer any amount of power.
 
 
 Obtaining
@@ -34,6 +34,6 @@ Usage
 
 ### Energy transfer
 A cryo-stabilized fluxduct works mostly the same way as other
-[fluxducts](/docs/1.12/thermal-dynamics/fluxducts/). However, it can transfer an unlimited amount of
-[Redstone Flux](/docs/redstone-flux/) per tick. A network of cryo-stabilized
+[fluxducts](../fluxducts/). However, it can transfer an unlimited amount of
+[Redstone Flux](../../../redstone-flux/) per tick. A network of cryo-stabilized
 fluxducts also does not store any energy.

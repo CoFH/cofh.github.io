@@ -26,9 +26,9 @@ usage-recipes:
 
 
 **Liquifacted coal** is a fluid obtained by melting [pulverized
-coal](/docs/1.12/thermal-foundation/pulverized-coal/) in a [magma crucible](/docs/1.12/thermal-expansion/magma-crucible/). It
-can be used as fuel in a [compression dynamo](/docs/1.12/thermal-expansion/compression-dynamo/), or
-processed into [naphtha](/docs/1.12/thermal-foundation/naphtha/).
+coal](../pulverized-coal/) in a [magma crucible](../../thermal-expansion/magma-crucible/). It
+can be used as fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/), or
+processed into [naphtha](../naphtha/).
 
 
 Obtaining
@@ -53,5 +53,5 @@ Liquifacted coal cannot be placed as a block.
 {% include recipe-table.html type='te-1-12-refinery' recipes=page.usage-recipes.refinery %}
 
 ### Compression Dynamo fuel
-When used as fuel in a [compression dynamo](/docs/1.12/thermal-expansion/compression-dynamo/), a bucket
+When used as fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/), a bucket
 of liquifacted coal yields 400,000 RF.

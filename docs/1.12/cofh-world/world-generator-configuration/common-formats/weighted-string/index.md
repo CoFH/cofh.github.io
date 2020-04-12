@@ -5,9 +5,8 @@ redirect_from:
 ---
 
 A **weighted string** is a format used while describing
-[features](/docs/1.12/cofh-world/world-generator-configuration/feature-format/) to
-specify a string along with its chance of being randomly selected from a list of
-strings.
+[features](../../feature-format/) to specify a string along with its chance of
+being randomly selected from a list of strings.
 
 
 Format

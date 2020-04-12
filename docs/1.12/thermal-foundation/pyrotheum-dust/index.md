@@ -36,7 +36,7 @@ usage-recipes:
 
 
 **Pyrotheum dust** is the fire elemental dust. It is most commonly used to make
-[blazing pyrotheum](/docs/1.12/thermal-foundation/blazing-pyrotheum/). It can also be used to process
+[blazing pyrotheum](../blazing-pyrotheum/). It can also be used to process
 metal ores, and is used in several advanced crafting recipes.
 
 
@@ -62,9 +62,9 @@ Usage
 ### Arcane Ensorcellator ingredient
 Pyrotheum dust can be combined with
 [books](https://minecraft.gamepedia.com/Book) and [essence of
-knowledge](/docs/1.12/thermal-foundation/essence-of-knowledge/) in an [arcane
-ensorcellator](/docs/1.12/thermal-expansion/arcane-ensorcellator/) to produce
-[Smelting](/docs/1.12/cofh-core/smelting/) [enchanted
+knowledge](../essence-of-knowledge/) in an [arcane
+ensorcellator](../../thermal-expansion/arcane-ensorcellator/) to produce
+[Smelting](../../cofh-core/smelting/) [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book).
 
 ### Fuel
@@ -74,7 +74,7 @@ items. It lasts just as long as [blaze
 rods](https://minecraft.gamepedia.com/Blaze_Rod).
 
 ### Reactant Dynamo fuel
-When used together with 100 mB of [gelid cryotheum](/docs/1.12/thermal-foundation/gelid-cryotheum/) as
-fuel in a [reactant dynamo](/docs/1.12/thermal-expansion/reactant-dynamo/), pyrotheum dust yields
+When used together with 100 mB of [gelid cryotheum](../gelid-cryotheum/) as
+fuel in a [reactant dynamo](../../thermal-expansion/reactant-dynamo/), pyrotheum dust yields
 400,000 RF per piece, or 500,000 RF if an [elemental
-catalyzer](/docs/1.12/thermal-expansion/augment-elemental-catalyzer/) is installed.
+catalyzer](../../thermal-expansion/augment-elemental-catalyzer/) is installed.

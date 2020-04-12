@@ -54,7 +54,7 @@ Obtaining
 
 ### Smashing
 When [iron ore](https://minecraft.gamepedia.com/Iron_Ore) is broken using a
-[Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+[Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized iron are dropped instead of the ore.
 

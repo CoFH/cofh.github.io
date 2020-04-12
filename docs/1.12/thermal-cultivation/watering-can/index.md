@@ -75,8 +75,8 @@ A watering can can be dyed by combining it with a
 removed by placing the watering can in a crafting grid.
 
 ### Enchantments
-A watering can can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
-capacity.
+A watering can can be enchanted with [Holding](../../cofh-core/holding/) to
+increase its capacity.
 
 | Holding level | Capacity multiplier |
 |---
@@ -90,7 +90,7 @@ capacity.
 Tiers
 -----
 
-Watering cans come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Watering cans come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

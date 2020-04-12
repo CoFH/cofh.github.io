@@ -24,8 +24,8 @@ usage-recipes:
 ![Rosin](/assets/images/thermal-foundation-2/rosin.png){:style="height: 128px"}
 
 
-**Rosin** is a byproduct of processing [resin](/docs/1.12/thermal-foundation/resin/) in a [fractionating
-still](/docs/1.12/thermal-expansion/fractionating-still/). It can be used to craft
+**Rosin** is a byproduct of processing [resin](../resin/) in a [fractionating
+still](../../thermal-expansion/fractionating-still/). It can be used to craft
 [torches](https://minecraft.gamepedia.com/Torches), and can replace
 [slimeballs](https://minecraft.gamepedia.com/Slimeball) in some recipes.
 

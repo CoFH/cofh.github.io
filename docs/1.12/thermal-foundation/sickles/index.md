@@ -113,9 +113,9 @@ Sickles can be enchanted with the following
 * [Mending](https://minecraft.gamepedia.com/Enchanting#Mending)
 * [Silk Touch](https://minecraft.gamepedia.com/Enchanting#Silk_Touch)
 * [Unbreaking](https://minecraft.gamepedia.com/Enchanting#Unbreaking)
-* [Leech](/docs/1.12/cofh-core/leech/)
-* [Vorpal](/docs/1.12/cofh-core/vorpal/)
-* [Soulbound](/docs/1.12/cofh-core/soulbound/)
+* [Leech](../../cofh-core/leech/)
+* [Vorpal](../../cofh-core/vorpal/)
+* [Soulbound](../../cofh-core/soulbound/)
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

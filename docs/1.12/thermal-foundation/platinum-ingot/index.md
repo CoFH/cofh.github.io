@@ -83,17 +83,17 @@ usage-recipes:
 
 
 **Platinum ingots** are raw materials obtained from [nickel
-ore](/docs/1.12/thermal-foundation/nickel-ore/). They can also be obtained from [platinum
-ore](/docs/1.12/thermal-foundation/platinum-ore/) and [iridium ore](/docs/1.12/thermal-foundation/iridium-ore/), but those ores
+ore](../nickel-ore/). They can also be obtained from [platinum
+ore](../platinum-ore/) and [iridium ore](../iridium-ore/), but those ores
 don't generate in the world by default.
 
 
 Obtaining
 ---------
 
-Platinum can be obtained by processing [nickel ore](/docs/1.12/thermal-foundation/nickel-ore/) in a
-[pulverizer](/docs/1.12/thermal-expansion/pulverizer/), or in an [induction
-smelter](/docs/1.12/thermal-expansion/induction-smelter/) with [cinnabar](/docs/1.12/thermal-foundation/cinnabar/).
+Platinum can be obtained by processing [nickel ore](../nickel-ore/) in a
+[pulverizer](../../thermal-expansion/pulverizer/), or in an [induction
+smelter](../../thermal-expansion/induction-smelter/) with [cinnabar](../cinnabar/).
 
 ### Smelting
 {% include recipe-table.html type='smelting' recipes=page.recipes.smelting no-result=true %}
@@ -130,6 +130,6 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, platinum can be molten down in a smeltery. Molten platinum can also
-  be mixed with molten [lead](/docs/1.12/thermal-foundation/lead-ingot/) and [resonant
-  ender](/docs/1.12/thermal-foundation/resonant-ender/) to make molten
-  [enderium](/docs/1.12/thermal-foundation/enderium-ingot/).
+  be mixed with molten [lead](../lead-ingot/) and [resonant
+  ender](../resonant-ender/) to make molten
+  [enderium](../enderium-ingot/).

@@ -4,19 +4,16 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/feature-types/sparse-cluster/
 ---
 
-**`sparse-cluster`** is one of the [feature
-types](/docs/1.12/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/1.12/cofh-world/). It is nearly equivalent to
-[`cluster`](/docs/1.12/cofh-world/world-generator-configuration/feature-types/cluster/),
-but generates deposits of blocks more rarely when a smaller size is set.
+**`sparse-cluster`** is one of the [feature types](../) provided by [CoFH
+World](../../../). It is nearly equivalent to [`cluster`](../cluster/), but
+generates deposits of blocks more rarely when a smaller size is set.
 
 
 Options
 -------
 
 When using this feature type, the following values must be added to the [feature
-type
-configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
+type configuration](../../feature-format/#feature-type-configuration).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -32,7 +29,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`block`</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td>-</td>

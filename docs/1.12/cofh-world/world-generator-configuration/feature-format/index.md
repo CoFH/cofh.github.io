@@ -5,9 +5,9 @@ redirect_from:
 ---
 
 This page describes the [JSON](http://www.json.org/) format that [CoFH
-World](/docs/1.12/cofh-world/) uses for describing features to generate in the world.
-Features are described inside the `populate` value of [world generation
-files](/docs/1.12/cofh-world/world-generator-configuration/files/).
+World](../../) uses for describing features to generate in the world. Features
+are described inside the `populate` value of [world generation
+files](../files/).
 
 
 Features
@@ -44,8 +44,7 @@ Features are described as objects with the following values.
                 <td>String</td>
                 <td>-</td>
                 <td markdown="span">
-                    The
-                    [distribution type](/docs/1.12/cofh-world/world-generator-configuration/distribution-types/)
+                    The [distribution type](../distribution-types/)
                     used to distribute the feature in the world. The used
                     distribution type may require additional values to be added
                     to the feature entry.
@@ -54,8 +53,7 @@ Features are described as objects with the following values.
             <tr>
                 <td markdown="span">`cluster-count`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../common-formats/number-provider/)
                 </td>
                 <td>-</td>
                 <td>
@@ -117,8 +115,7 @@ Features are described as objects with the following values.
 ### Feature type configuration
 A feature type configuration specifies and configures the type of feature to
 generate. It is an object with the following values. The used [feature
-type](/docs/1.12/cofh-world/world-generator-configuration/feature-types/) may require
-additional values to be added.
+type](../feature-types/) may require additional values to be added.
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -135,23 +132,20 @@ additional values to be added.
                 <td markdown="span">`type` (optional)</td>
                 <td>String</td>
                 <td markdown="span">
-                    (Set by
-                    [distribution type](/docs/1.12/cofh-world/world-generator-configuration/distribution-types/))
+                    (Set by [distribution type](../distribution-types/))
                 </td>
                 <td markdown="span">
-                    The [feature type](/docs/1.12/cofh-world/world-generator-configuration/feature-types/)
-                    to generate.
+                    The [feature type](../feature-types/) to generate.
                 </td>
             </tr>
             <tr>
                 <td markdown="span">`material` (optional)</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td markdown="span">
-                    (Set by
-                    [distribution type](/docs/1.12/cofh-world/world-generator-configuration/distribution-types/))
+                    (Set by [distribution type](../distribution-types/))
                 </td>
                 <td>
                     The type(s) of block that may be replaced to generate the

@@ -19,7 +19,7 @@ usage-recipes:
   - tf-1-12-ingot-copper-from-block
 ---
 
-**Blocks of copper** are blocks made from [copper ingots](/docs/1.12/thermal-foundation/copper-ingot/).
+**Blocks of copper** are blocks made from [copper ingots](../copper-ingot/).
 
 
 Obtaining
@@ -36,7 +36,7 @@ Usage
 -----
 
 ### Storage
-Blocks of copper can be used to store [copper ingots](/docs/1.12/thermal-foundation/copper-ingot/) in a
+Blocks of copper can be used to store [copper ingots](../copper-ingot/) in a
 compact way.
 
 ### Mob spawning

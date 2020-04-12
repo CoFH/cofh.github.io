@@ -20,9 +20,9 @@ image:
   file: thermal-expansion-5/dynamo-numismatic-rf.png
 ---
 
-**Dynamos** are blocks that generate [Redstone Flux](/docs/redstone-flux/) by
-consuming various kinds of fuel. They can be [upgraded](/docs/1.12/thermal-foundation/tiers/) and
-[augmented](/docs/1.12/thermal-expansion/augments/).
+**Dynamos** are blocks that generate [Redstone Flux](../../../redstone-flux/) by
+consuming various kinds of fuel. They can be [upgraded](../../thermal-foundation/tiers/) and
+[augmented](../augments/).
 
 
 List of dynamos
@@ -32,12 +32,12 @@ List of dynamos
 <div class="uk-overflow-container">
 | Dynamo | Fuel type |
 |---
-| [Steam Dynamo](/docs/1.12/thermal-expansion/steam-dynamo/) | [Water](https://minecraft.gamepedia.com/Water) and solid fuel |
-| [Magmatic Dynamo](/docs/1.12/thermal-expansion/magmatic-dynamo/) | Hot fluids |
-| [Compression Dynamo](/docs/1.12/thermal-expansion/compression-dynamo/) | Fluid fuel and [coolant](/docs/1.12/thermal-expansion/coolants/) |
-| [Reactant Dynamo](/docs/1.12/thermal-expansion/reactant-dynamo/) | Fluid fuel and solid reactant |
-| [Enervation Dynamo](/docs/1.12/thermal-expansion/enervation-dynamo/) | [Redstone](https://minecraft.gamepedia.com/Redstone) and items that hold [Redstone Flux](/docs/redstone-flux/) |
-| [Numismatic Dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/) | Currency ([emeralds](https://minecraft.gamepedia.com/Emerald) and metal coins) |
+| [Steam Dynamo](../steam-dynamo/) | [Water](https://minecraft.gamepedia.com/Water) and solid fuel |
+| [Magmatic Dynamo](../magmatic-dynamo/) | Hot fluids |
+| [Compression Dynamo](../compression-dynamo/) | Fluid fuel and [coolant](../coolants/) |
+| [Reactant Dynamo](../reactant-dynamo/) | Fluid fuel and solid reactant |
+| [Enervation Dynamo](../enervation-dynamo/) | [Redstone](https://minecraft.gamepedia.com/Redstone) and items that hold [Redstone Flux](../../../redstone-flux/) |
+| [Numismatic Dynamo](../numismatic-dynamo/) | Currency ([emeralds](https://minecraft.gamepedia.com/Emerald) and metal coins) |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-compress .uk-text-small}
 </div>
 {::options parse_block_html="false" /}

@@ -20,16 +20,16 @@ augments:
 
 
 An **alchemical imbuer**, also known as a **brewer**, is a
-[machine](/docs/1.12/thermal-expansion/machines/) that brews
+[machine](../machines/) that brews
 [potions](https://minecraft.gamepedia.com/Potion). It works with potions in
-their [fluid forms](/docs/1.12/thermal-foundation/potion-fluid/).
+their [fluid forms](../../thermal-foundation/potion-fluid/).
 
 
 Obtaining
 ---------
 
 A placed alchemical imbuer can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -38,8 +38,8 @@ this can be much slower.
 
 ### Upgrading
 An alchemical imbuer is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -47,15 +47,15 @@ Usage
 
 ### Placement
 When placed, an alchemical imbuer faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When an alchemical imbuer's input tank is filled with
 [water](https://minecraft.gamepedia.com/Water) or a [fluid
-potion](/docs/1.12/thermal-foundation/potion-fluid/) and a reagent
+potion](../../thermal-foundation/potion-fluid/) and a reagent
 ([brewing](https://minecraft.gamepedia.com/Brewing) ingredient) is placed in its
 input slot, the machine will start consuming [Redstone
-Flux](/docs/redstone-flux/) to brew the corresponding potion. Potions are brewed
+Flux](../../../redstone-flux/) to brew the corresponding potion. Potions are brewed
 in batches of 500 mB (2 [bottles](https://minecraft.gamepedia.com/Glass_Bottles)
 worth), with each batch costing 4,800 RF. When enough energy has been consumed
 for a batch, the input is consumed and the resulting fluid potion is placed in
@@ -107,11 +107,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 An alchemical imbuer can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An alchemical imbuer's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other alchemical imbuers.
+[redprint](../../thermal-foundation/redprint/) to be copied to other alchemical imbuers.
 
 ### Light source
 When an alchemical imbuer is active, it emits a light level of 12.
@@ -120,7 +120,7 @@ When an alchemical imbuer is active, it emits a light level of 12.
 Tiers
 -----
 
-Alchemical imbuers come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Alchemical imbuers come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -139,7 +139,7 @@ Alchemical imbuers come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-An alchemical imbuer can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+An alchemical imbuer can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic alchemical imbuer
 cannot be augmented.

@@ -19,7 +19,7 @@ augments:
 
 
 An **arcane ensorcellator**, also known as an **enchanter**, is a
-[machine](/docs/1.12/thermal-expansion/machines/) that enchants
+[machine](../machines/) that enchants
 [books](https://minecraft.gamepedia.com/Book) and other arcana. It is capable of
 producing specific [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book).
@@ -29,7 +29,7 @@ Obtaining
 ---------
 
 A placed arcane ensorcellator can be instantly picked up by dismantling it with
-a [wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -38,8 +38,8 @@ this can be much slower.
 
 ### Upgrading
 An arcane ensorcellator is initially at the lowest [tier](#tiers) (basic). It
-can be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+can be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -47,12 +47,12 @@ Usage
 
 ### Placement
 When placed, an arcane ensorcellator faces the player. It can face any of the
-four cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 An arcane ensorcellator has two input slots and an input tank. When combinations
 of items and fluids are inserted in the slots and the tank, the machine will
-start consuming [Redstone Flux](/docs/redstone-flux/) to process them. Every
+start consuming [Redstone Flux](../../../redstone-flux/) to process them. Every
 item/fluid combination requires a certain amount of energy to process. When
 enough energy has been consumed for an item/fluid combination, the input is
 consumed and the output is placed in the output slot.
@@ -105,11 +105,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 An arcane ensorcellator can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An arcane ensorcellator's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other arcane ensorcellators.
+[redprint](../../thermal-foundation/redprint/) to be copied to other arcane ensorcellators.
 
 ### Light source
 When an arcane ensorcellator is active, it emits a light level of 12.
@@ -118,7 +118,7 @@ When an arcane ensorcellator is active, it emits a light level of 12.
 Tiers
 -----
 
-Arcane ensorcellators come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Arcane ensorcellators come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -137,7 +137,7 @@ Arcane ensorcellators come in five [tiers](/docs/1.12/thermal-foundation/tiers/)
 Augmentation
 ------------
 
-An arcane ensorcellator can have [augments](/docs/1.12/thermal-expansion/augments/) installed to
+An arcane ensorcellator can have [augments](../augments/) installed to
 improve certain properties or to change how it works. The amount of augments
 that can be installed depends on the machine's [tier](#tiers). A basic arcane
 ensorcellator cannot be augmented.
@@ -155,7 +155,7 @@ An arcane ensorcellator can produce [enchanted
 books](https://minecraft.gamepedia.com/Enchanted_Book) with the following
 [enchantments](https://minecraft.gamepedia.com/Enchantments) by combining
 [books](https://minecraft.gamepedia.com/Books) with certain items and [essence
-of knowledge](/docs/1.12/thermal-foundation/essence-of-knowledge/).
+of knowledge](../../thermal-foundation/essence-of-knowledge/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -198,14 +198,14 @@ of knowledge](/docs/1.12/thermal-foundation/essence-of-knowledge/).
 | [Curse of Binding](https://minecraft.gamepedia.com/Curse_of_Binding) | [Popped Chorus Fruit](https://minecraft.gamepedia.com/Popped_Chorus_Fruit) | 5,000 mB | 40,000 RF |
 | [Curse of Vanishing](https://minecraft.gamepedia.com/Curse_of_Vanishing) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 5,000 mB | 40,000 RF |
 |
-| [Holding I](/docs/1.12/cofh-core/holding/) | [Chest](https://minecraft.gamepedia.com/Chest) | 1,500 mB | 500 RF |
-| [Insight I](/docs/1.12/cofh-core/insight/) | [Bottle o' Enchanting](https://minecraft.gamepedia.com/Bottle_o%27_Enchanting) | 1,500 mB | 12,000 RF |
-| [Leech I](/docs/1.12/cofh-core/leech/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 1,500 mB | 12,000 RF |
-| [Soulbound I](/docs/1.12/cofh-core/soulbound/) | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | 1,500 mB | 12,000 RF |
-| [Multishot I](/docs/1.12/cofh-core/multishot/) | [Arrow](https://minecraft.gamepedia.com/Arrow) | 3,000 mB | 24,000 RF |
-| [Smashing](/docs/1.12/cofh-core/smashing/) | [Petrotheum Dust](/docs/1.12/thermal-foundation/petrotheum-dust/) | 3,000 mB | 24,000 RF |
-| [Smelting](/docs/1.12/cofh-core/smelting/) | [Pyrotheum Dust](/docs/1.12/thermal-foundation/pyrotheum-dust/) | 3,000 mB | 24,000 RF |
-| [Vorpal I](/docs/1.12/cofh-core/vorpal/) | [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) | 5,000 mB | 40,000 RF |
+| [Holding I](../../cofh-core/holding/) | [Chest](https://minecraft.gamepedia.com/Chest) | 1,500 mB | 500 RF |
+| [Insight I](../../cofh-core/insight/) | [Bottle o' Enchanting](https://minecraft.gamepedia.com/Bottle_o%27_Enchanting) | 1,500 mB | 12,000 RF |
+| [Leech I](../../cofh-core/leech/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 1,500 mB | 12,000 RF |
+| [Soulbound I](../../cofh-core/soulbound/) | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | 1,500 mB | 12,000 RF |
+| [Multishot I](../../cofh-core/multishot/) | [Arrow](https://minecraft.gamepedia.com/Arrow) | 3,000 mB | 24,000 RF |
+| [Smashing](../../cofh-core/smashing/) | [Petrotheum Dust](../../thermal-foundation/petrotheum-dust/) | 3,000 mB | 24,000 RF |
+| [Smelting](../../cofh-core/smelting/) | [Pyrotheum Dust](../../thermal-foundation/pyrotheum-dust/) | 3,000 mB | 24,000 RF |
+| [Vorpal I](../../cofh-core/vorpal/) | [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) | 5,000 mB | 40,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

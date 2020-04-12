@@ -18,7 +18,7 @@ usage-recipes:
   - tf-1-12-ingot-nickel-from-block
 ---
 
-**Blocks of nickel** are blocks made from [nickel ingots](/docs/1.12/thermal-foundation/nickel-ingot/).
+**Blocks of nickel** are blocks made from [nickel ingots](../nickel-ingot/).
 
 
 Obtaining
@@ -35,7 +35,7 @@ Usage
 -----
 
 ### Storage
-Blocks of nickel can be used to store [nickel ingots](/docs/1.12/thermal-foundation/nickel-ingot/) in a
+Blocks of nickel can be used to store [nickel ingots](../nickel-ingot/) in a
 compact way.
 
 ### Mob spawning

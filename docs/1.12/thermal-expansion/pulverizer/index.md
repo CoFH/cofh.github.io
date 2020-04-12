@@ -135,7 +135,7 @@ recipe-list:
 > MACHINE SMASH! Puny ore.
 
 
-A **pulverizer** is a [machine](/docs/1.12/thermal-expansion/machines/) that crushes items. It is
+A **pulverizer** is a [machine](../machines/) that crushes items. It is
 commonly used to process ores and other items more efficiently, and to recycle
 certain items.
 
@@ -144,7 +144,7 @@ Obtaining
 ---------
 
 A placed pulverizer can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -153,8 +153,8 @@ this can be much slower.
 
 ### Upgrading
 A pulverizer is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -162,18 +162,18 @@ Usage
 
 ### Placement
 When placed, a pulverizer faces the player. It can face any of the four cardinal
-directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When items are placed in a pulverizer's input slot, the machine will start
-consuming [Redstone Flux](/docs/redstone-flux/) to process them. Every item
+consuming [Redstone Flux](../../../redstone-flux/) to process them. Every item
 requires a certain amount of energy to process. When enough energy has been
 consumed for an item, the input is consumed and the output is placed in the
 primary output slot. A secondary output may be produced when processing certain
 items, which is placed in the secondary output slot.
 
-When installed, a [tectonic initiator](/docs/1.12/thermal-expansion/augment-tectonic-initiator/) allows
-a pulverizer to consume [tectonic petrotheum](/docs/1.12/thermal-foundation/tectonic-petrotheum/), which
+When installed, a [tectonic initiator](../augment-tectonic-initiator/) allows
+a pulverizer to consume [tectonic petrotheum](../../thermal-foundation/tectonic-petrotheum/), which
 is stored in an added input tank.
 
 The speed at which a pulverizer processes items depends on how much energy it
@@ -219,11 +219,11 @@ High
 The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
-A pulverizer can have a [signalum security lock](/docs/1.12/thermal-foundation/signalum-security-lock/)
+A pulverizer can have a [signalum security lock](../../thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Redprints
-A pulverizer's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/) to be
+A pulverizer's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to be
 copied to other pulverizers.
 
 ### Light source
@@ -233,7 +233,7 @@ When a pulverizer is active, it emits a light level of 4.
 Tiers
 -----
 
-Pulverizers come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Pulverizers come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -252,7 +252,7 @@ Pulverizers come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-A pulverizer can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve certain
+A pulverizer can have [augments](../augments/) installed to improve certain
 properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic pulverizer cannot be
 augmented.

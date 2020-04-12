@@ -25,7 +25,7 @@ usage-recipes:
 
 
 **Lumium blend** is a raw material. It is the dust form of
-[lumium](/docs/1.12/thermal-foundation/lumium-ingot/).
+[lumium](../lumium-ingot/).
 
 
 Obtaining
@@ -36,8 +36,8 @@ Obtaining
 
 Any item that contains at least one
 [bucket](https://minecraft.gamepedia.com/Bucket) worth of [energized
-glowstone](/docs/1.12/thermal-foundation/energized-glowstone/) may be used. Using a [portable
-tank](/docs/1.12/thermal-expansion/portable-tank/) can make it easier to craft large amounts of lumium
+glowstone](../energized-glowstone/) may be used. Using a [portable
+tank](../../thermal-expansion/portable-tank/) can make it easier to craft large amounts of lumium
 blend.
 
 ### Pulverizer

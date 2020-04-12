@@ -26,7 +26,7 @@ recipes:
 ---
 
 A **fluxomagnet**, or **magnet** for short, is a tool that attracts dropped
-items using [Redstone Flux](/docs/redstone-flux/).
+items using [Redstone Flux](../../../redstone-flux/).
 
 
 Obtaining
@@ -40,9 +40,9 @@ Usage
 -----
 
 ### Charging
-A fluxomagnet can be charged with [Redstone Flux](/docs/redstone-flux/) using an
-[energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/), a [flux
-capacitor](/docs/1.12/thermal-expansion/flux-capacitor/) or similar.
+A fluxomagnet can be charged with [Redstone Flux](../../../redstone-flux/) using an
+[energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
+capacitor](../../thermal-expansion/flux-capacitor/) or similar.
 
 A basic fluxomagnet can hold up to 40,000 RF and can be charged at up to 1,000
 RF/t. This can be increased by upgrading the magnet to a higher [tier](#tiers).
@@ -95,7 +95,7 @@ A fluxomagnet can be dyed by combining it with a
 removed by placing the fluxomagnet in a crafting grid.
 
 ### Enchantments
-A fluxomagnet can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
+A fluxomagnet can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -110,7 +110,7 @@ capacity.
 Tiers
 -----
 
-Fluxomagnets come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Fluxomagnets come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

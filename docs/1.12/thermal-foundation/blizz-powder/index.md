@@ -27,9 +27,9 @@ usage-recipes:
 
 
 **Blizz powder** is a material that is most commonly obtained from [blizz
-rods](/docs/1.12/thermal-foundation/blizz-rod/). It is the ice elemental version of [blaze
+rods](../blizz-rod/). It is the ice elemental version of [blaze
 powder](https://minecraft.gamepedia.com/Blaze_Powder), and is used to craft
-[cryotheum dust](/docs/1.12/thermal-foundation/cryotheum-dust/).
+[cryotheum dust](../cryotheum-dust/).
 
 
 Obtaining
@@ -58,7 +58,7 @@ Usage
 When [brewing](https://minecraft.gamepedia.com/Brewing), blizz powder can be
 added to an [awkward
 potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
-of absorption](/docs/1.12/cofh-core/potions/).
+of absorption](../../cofh-core/potions/).
 
 ### Compactor ingredient
 {% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}

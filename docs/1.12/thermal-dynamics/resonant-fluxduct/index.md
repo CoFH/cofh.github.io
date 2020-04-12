@@ -21,9 +21,9 @@ usage-recipes:
   - td-1-12-fluxduct-super-empty
 ---
 
-A **resonant fluxduct** is a [fluxduct](/docs/1.12/thermal-dynamics/fluxducts/) of the fifth tier. It
+A **resonant fluxduct** is a [fluxduct](../fluxducts/) of the fifth tier. It
 could be considered the highest 'regular' tier, due to the different behavior of
-[cryo-stabilized fluxducts](/docs/1.12/thermal-dynamics/cryo-stabilized-fluxduct/).
+[cryo-stabilized fluxducts](../cryo-stabilized-fluxduct/).
 
 
 Obtaining
@@ -41,7 +41,7 @@ Usage
 
 ### Energy transfer
 A resonant fluxduct works the same way as most other
-[fluxducts](/docs/1.12/thermal-dynamics/fluxducts/). It transfers up to 25,000 RF/t per connection.
+[fluxducts](../fluxducts/). It transfers up to 25,000 RF/t per connection.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

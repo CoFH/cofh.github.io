@@ -38,8 +38,8 @@ usage-recipes:
 **Redstone reception coils** are crafting materials made of
 [redstone](https://minecraft.gamepedia.com/Redstone) and
 [gold](https://minecraft.gamepedia.com/Gold_Ingot). They are used to craft
-things that can receive [Redstone Flux](/docs/redstone-flux/), notably
-[machines](/docs/1.12/thermal-expansion/machines/).
+things that can receive [Redstone Flux](../../../redstone-flux/), notably
+[machines](../../thermal-expansion/machines/).
 
 
 Obtaining

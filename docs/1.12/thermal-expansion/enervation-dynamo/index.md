@@ -20,15 +20,15 @@ augments:
 - dynamo-enervation-enchant
 ---
 
-An **enervation dynamo** is a [dynamo](/docs/1.12/thermal-expansion/dynamos/) that extracts [Redstone
-Flux](/docs/redstone-flux/) from natural sources and from items that store it.
+An **enervation dynamo** is a [dynamo](../dynamos/) that extracts [Redstone
+Flux](../../../redstone-flux/) from natural sources and from items that store it.
 
 
 Obtaining
 ---------
 
 A placed enervation dynamo can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -37,8 +37,8 @@ this can be much slower.
 
 ### Upgrading
 An enervation dynamo is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -47,10 +47,10 @@ Usage
 ### Placement
 When placed, an enervation dynamo faces up. When placed while sneaking, it faces
 away from the player. An enervation dynamo can face any direction, and can be
-rotated using a [wrench](/docs/1.12/wrenches/).
+rotated using a [wrench](../../wrenches/).
 
 ### Energy generation
-When [fuel](#fuels) or an item that holds [Redstone Flux](/docs/redstone-flux/)
+When [fuel](#fuels) or an item that holds [Redstone Flux](../../../redstone-flux/)
 is placed in an enervation dynamo's fuel slot, the dynamo will start extracting
 energy from it. Every unit of fuel yields a certain amount of energy when
 consumed. Items that hold energy are not consumed, only drained.
@@ -65,14 +65,14 @@ When an active enervation dynamo cannot emit the energy it generates, it will
 keep working at its minimum power output (a tenth of its maximum power output).
 Any more energy that is extracted in this case is lost. This can be resolved by
 installing an [excitation field
-limiter](/docs/1.12/thermal-expansion/augment-excitation-field-limiter/).
+limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-An enervation dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
+An enervation dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Items can enter an enervation dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil
-ducting](/docs/1.12/thermal-expansion/augment-transmission-coil-ducting/) is installed.
+ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 An enervation dynamo may be configured to respond to
@@ -97,11 +97,11 @@ from that unit of fuel first.
 
 ### Security
 An enervation dynamo can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An enervation dynamo's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other dynamos.
+[redprint](../../thermal-foundation/redprint/) to be copied to other dynamos.
 
 ### Light source
 When an enervation dynamo is active, it emits a light level of 7.
@@ -110,7 +110,7 @@ When an enervation dynamo is active, it emits a light level of 7.
 Tiers
 -----
 
-Enervation dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Enervation dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -129,7 +129,7 @@ Enervation dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-An enervation dynamo can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+An enervation dynamo can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the dynamo's [tier](#tiers). A basic enervation dynamo
 cannot be augmented.

@@ -14,7 +14,7 @@ redirect_from:
 
 **Basalzes** are hostile mobs found in mountainous and/or barren
 [biomes](https://minecraft.gamepedia.com/Biome). They drop [basalz
-rods](/docs/1.12/thermal-foundation/basalz-rod/).
+rods](../basalz-rod/).
 
 
 Appearance
@@ -44,8 +44,8 @@ Drops
 -----
 
 When killed by a player, basalzes may drop up to two pieces of [pulverized
-obsidian](/docs/1.12/thermal-foundation/pulverized-obsidian/), and may drop one [basalz
-rod](/docs/1.12/thermal-foundation/basalz-rod/). They drop more items if a
+obsidian](../pulverized-obsidian/), and may drop one [basalz
+rod](../basalz-rod/). They drop more items if a
 [Looting](https://minecraft.gamepedia.com/Looting) enchanted weapon is used.
 
 

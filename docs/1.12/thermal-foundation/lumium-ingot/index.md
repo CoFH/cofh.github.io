@@ -36,18 +36,18 @@ usage-recipes:
 ![Lumium ingot](/assets/images/thermal-foundation-2/ingot-lumium.png){:style="height: 128px"}
 
 
-**Lumium ingots** are raw materials made from [tin](/docs/1.12/thermal-foundation/tin-ingot/),
-[silver](/docs/1.12/thermal-foundation/silver-ingot/) and [energized
-glowstone](/docs/1.12/thermal-foundation/energized-glowstone/).
+**Lumium ingots** are raw materials made from [tin](../tin-ingot/),
+[silver](../silver-ingot/) and [energized
+glowstone](../energized-glowstone/).
 
 
 Obtaining
 ---------
 
 Lumium is an advanced alloy that can be obtained by crafting [lumium
-blend](/docs/1.12/thermal-foundation/lumium-blend/). The
+blend](../lumium-blend/). The
 blend can only be smelted into ingots in an [induction
-smelter](/docs/1.12/thermal-expansion/induction-smelter/).
+smelter](../../thermal-expansion/induction-smelter/).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -81,6 +81,6 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, lumium can be molten down in a smeltery. Molten lumium can also be
-  made by mixing molten [tin](/docs/1.12/thermal-foundation/tin-ingot/), molten
-  [silver](/docs/1.12/thermal-foundation/silver-ingot/) and [energized
-  glowstone](/docs/1.12/thermal-foundation/energized-glowstone/).
+  made by mixing molten [tin](../tin-ingot/), molten
+  [silver](../silver-ingot/) and [energized
+  glowstone](../energized-glowstone/).

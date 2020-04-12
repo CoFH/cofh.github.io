@@ -14,7 +14,7 @@ recipes:
   - te-1-12-morb-reusable
 ---
 
-A **reusable morb** is a [morb](/docs/1.12/thermal-expansion/morb/) that never breaks.
+A **reusable morb** is a [morb](../morb/) that never breaks.
 
 
 Obtaining
@@ -27,12 +27,12 @@ Obtaining
 Usage
 -----
 
-A reusable morb works like a regular [morb](/docs/1.12/thermal-expansion/morb/), except it doesn't
+A reusable morb works like a regular [morb](../morb/), except it doesn't
 break after releasing a contained [mob](https://minecraft.gamepedia.com/Mob).
 
 ### Centrifugal Separator with Enstabulation Apparatus
 When processing filled reusable morbs using a [centrifugal
-separator](/docs/1.12/thermal-expansion/centrifugal-separator/) with an
+separator](../centrifugal-separator/) with an
 [enstabulation
-apparatus](/docs/1.12/thermal-expansion/augment-enstabulation-apparatus/) installed,
+apparatus](../augment-enstabulation-apparatus/) installed,
 the empty morbs are always returned as an output.

@@ -27,7 +27,7 @@ recipes:
 
 An **alchemical quiver** is an item that stores
 [arrows](https://minecraft.gamepedia.com/Arrows) and can automatically imbue
-them with [fluid potions](/docs/1.12/thermal-foundation/potion-fluid/).
+them with [fluid potions](../../thermal-foundation/potion-fluid/).
 
 
 Obtaining
@@ -51,10 +51,10 @@ A basic alchemical quiver can store up to 40 arrows. This can be increased by
 upgrading the quiver to a higher [tier](#tiers).
 
 ### Filling and draining
-An alchemical quiver can hold the [fluid form](/docs/1.12/thermal-foundation/potion-fluid/) or any
+An alchemical quiver can hold the [fluid form](../../thermal-foundation/potion-fluid/) or any
 regular [potion](https://minecraft.gamepedia.com/Potion). It can be filled and
 drained manually by using it on a block that can hold fluid potions, or
-automatically using a [fluid transposer](/docs/1.12/thermal-expansion/fluid-transposer/) or similar. It
+automatically using a [fluid transposer](../../thermal-expansion/fluid-transposer/) or similar. It
 can also be filled by combining it with a potion in a crafting grid.
 
 A basic alchemical quiver can store up to 8 bottles worth of a potion (2,000
@@ -84,7 +84,7 @@ quiver in the crafting grid. The dyes can be removed by placing the quiver in a
 crafting grid.
 
 ### Enchantments
-An alchemical quiver can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase
+An alchemical quiver can be enchanted with [Holding](../../cofh-core/holding/) to increase
 its arrow and potion capacity.
 
 | Holding level | Capacity multiplier |
@@ -99,7 +99,7 @@ its arrow and potion capacity.
 Tiers
 -----
 
-Alchemical quivers come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Alchemical quivers come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

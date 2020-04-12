@@ -28,7 +28,7 @@ Obtaining
 ---------
 
 A placed fluiduct can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). It can also be mined using a
+[wrench](../../wrenches/). It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -41,7 +41,7 @@ Usage
 ### Placement
 When placed, a fluiduct connects to any adjacent fluiducts and blocks that can
 output or receive fluids. Any connected side of a fluiduct can be disconnected
-and reconnected by using a [wrench](/docs/1.12/wrenches/) on it.
+and reconnected by using a [wrench](../../wrenches/) on it.
 
 ### Fluid transfer
 When a block inserts a fluid into a fluiduct, the fluid is distributed to all
@@ -59,24 +59,24 @@ proportional to the amount of blocks connected to it.
 
 The maximum throughput of a fluiduct per connection depends on the viscosity of
 the transferred fluid, and can be between 80 and 600 mB/t (this can be read
-using a [multimeter](/docs/1.12/thermal-foundation/multimeter/)). The actual throughput per connection
-depends on how full the fluiduct network is. A fully pressurized fluiduct
-network uses the maximum throughput per connection, while a nearly empty
-fluiduct network uses only half of this.
+using a [multimeter](../../thermal-foundation/multimeter/)). The actual
+throughput per connection depends on how full the fluiduct network is. A fully
+pressurized fluiduct network uses the maximum throughput per connection, while a
+nearly empty fluiduct network uses only half of this.
 
 A fluiduct will break if it contains an extremely hot or cold fluid like
 [lava](https://minecraft.gamepedia.com/Lava) or [gelid
-cryotheum](/docs/1.12/thermal-foundation/gelid-cryotheum/). To transfer these fluids, a [hardened
-fluiduct](/docs/1.12/thermal-dynamics/hardened-fluiduct/) must be used.
+cryotheum](../../thermal-foundation/gelid-cryotheum/). To transfer these fluids,
+a [hardened fluiduct](../hardened-fluiduct/) must be used.
 
 ### Attachments
 Certain items can be attached to fluiduct connections to change how fluiducts
-work. [Servos](/docs/1.12/thermal-dynamics/servos/) allow fluiduct connections to pull fluids out of
-blocks, [filters](/docs/1.12/thermal-dynamics/filters/) allow them to restrict which fluids may pass
-through, and [retrievers](/docs/1.12/thermal-dynamics/retrievers/) allow them to pull fluids towards
+work. [Servos](../servos/) allow fluiduct connections to pull fluids out of
+blocks, [filters](../filters/) allow them to restrict which fluids may pass
+through, and [retrievers](../retrievers/) allow them to pull fluids towards
 themselves from other blocks connected to the network.
 
 ### Light source
 A transparent fluiduct will emit light when it contains a fluid that emits
 light, like [lava](https://minecraft.gamepedia.com/Lava) or [energized
-glowstone](/docs/1.12/thermal-foundation/energized-glowstone/).
+glowstone](../../thermal-foundation/energized-glowstone/).

@@ -27,9 +27,9 @@ usage-recipes:
 
 
 **Basalz powder** is a material that is most commonly obtained from [basalz
-rods](/docs/1.12/thermal-foundation/basalz-rod/). It is the earth elemental version of [blaze
+rods](../basalz-rod/). It is the earth elemental version of [blaze
 powder](https://minecraft.gamepedia.com/Blaze_Powder), and is used to craft
-[petrotheum dust](/docs/1.12/thermal-foundation/petrotheum-dust/).
+[petrotheum dust](../petrotheum-dust/).
 
 
 Obtaining
@@ -58,7 +58,7 @@ Usage
 When [brewing](https://minecraft.gamepedia.com/Brewing), basalz powder can be
 added to an [awkward
 potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
-of haste](/docs/1.12/cofh-core/potions/).
+of haste](../../cofh-core/potions/).
 
 ### Compactor ingredient
 {% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}

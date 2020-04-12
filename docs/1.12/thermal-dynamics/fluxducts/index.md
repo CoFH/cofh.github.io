@@ -22,7 +22,7 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/fluxducts/
 ---
 
-**Fluxducts** are blocks that transfer [Redstone Flux](/docs/redstone-flux/)
+**Fluxducts** are blocks that transfer [Redstone Flux](../../../redstone-flux/)
 between blocks.
 
 
@@ -32,7 +32,7 @@ Obtaining
 Fluxducts come in six [tiers](#tiers), each with their own recipes.
 
 A placed fluxduct can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). It can also be mined using a
+[wrench](../../wrenches/). It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 
@@ -41,14 +41,14 @@ Usage
 
 ### Placement
 When placed, a fluxduct connects to any adjacent fluxducts and blocks that can
-transmit or receive [Redstone Flux](/docs/redstone-flux/). Any connected side of
-a fluxduct can be disconnected and reconnected by using a
-[wrench](/docs/1.12/wrenches/) on it.
+transmit or receive [Redstone Flux](../../../redstone-flux/). Any connected side
+of a fluxduct can be disconnected and reconnected by using a
+[wrench](../../wrenches/) on it.
 
 ### Energy transfer
-When a block transmits [Redstone Flux](/docs/redstone-flux/) through a fluxduct,
-the energy is distributed to all connected blocks that can receive it, as evenly
-as possible.
+When a block transmits [Redstone Flux](../../../redstone-flux/) through a
+fluxduct, the energy is distributed to all connected blocks that can receive it,
+as evenly as possible.
 
 A limited amount of energy per tick can be transferred through each fluxduct
 connection. However, there is no limit on how much power can travel through a
@@ -63,18 +63,18 @@ amount of blocks connected to it.
 Tiers
 -----
 
-Fluxducts come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Fluxducts come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
 | Tier | Max. transfer per connection | Note |
 |---
-| [Leadstone](/docs/1.12/thermal-dynamics/leadstone-fluxduct/) | 1,000 RF/t |
-| [Hardened](/docs/1.12/thermal-dynamics/hardened-fluxduct/) | 4,000 RF/t |
-| [Redstone Energy](/docs/1.12/thermal-dynamics/redstone-energy-fluxduct/) | 9,000 RF/t |
-| [Signalum](/docs/1.12/thermal-dynamics/signalum-fluxduct/) | 16,000 RF/t |
-| [Resonant](/docs/1.12/thermal-dynamics/resonant-fluxduct/) | 25,000 RF/t |
-| [Cryo-Stabilized](/docs/1.12/thermal-dynamics/cryo-stabilized-fluxduct/) | N/A | No transfer limit; does not store energy. |
+| [Leadstone](../leadstone-fluxduct/) | 1,000 RF/t |
+| [Hardened](../hardened-fluxduct/) | 4,000 RF/t |
+| [Redstone Energy](../redstone-energy-fluxduct/) | 9,000 RF/t |
+| [Signalum](../signalum-fluxduct/) | 16,000 RF/t |
+| [Resonant](../resonant-fluxduct/) | 25,000 RF/t |
+| [Cryo-Stabilized](../cryo-stabilized-fluxduct/) | N/A | No transfer limit; does not store energy. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

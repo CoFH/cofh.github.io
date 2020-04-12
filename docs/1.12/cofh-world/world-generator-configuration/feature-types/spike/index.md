@@ -4,11 +4,9 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/feature-types/spike/
 ---
 
-**`spike`** is one of the [feature
-types](/docs/1.12/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/1.12/cofh-world/). It generates upwards pointing spikes, like
-the ones found in [ice plains spikes
-biomes](https://minecraft.gamepedia.com/Ice_Plains_Spikes).
+**`spike`** is one of the [feature types](../) provided by [CoFH
+World](../../../). It generates upwards pointing spikes, like the ones found in
+[ice plains spikes biomes](https://minecraft.gamepedia.com/Ice_Plains_Spikes).
 
 Spikes are only generated on top of a surface; they are never generated in
 midair.
@@ -18,8 +16,7 @@ Options
 -------
 
 When using this feature type, the following values must be added to the [feature
-type
-configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
+type configuration](../../feature-format/#feature-type-configuration).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -35,7 +32,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`block`</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td>-</td>

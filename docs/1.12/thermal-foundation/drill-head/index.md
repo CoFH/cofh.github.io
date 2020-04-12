@@ -17,7 +17,7 @@ usage-recipes:
 ---
 
 **Drill heads** are crafting materials used to craft
-[fluxbores](/docs/1.12/thermal-innovation/fluxbore/).
+[fluxbores](../../thermal-innovation/fluxbore/).
 
 
 Obtaining

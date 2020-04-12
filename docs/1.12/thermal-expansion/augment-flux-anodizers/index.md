@@ -13,8 +13,8 @@ recipes:
   - te-1-12-augment-machine-furnace-ore
 ---
 
-A **flux anodizers** [augment](/docs/1.12/thermal-expansion/augments/) allows for a [redstone
-furnace](/docs/1.12/thermal-expansion/redstone-furnace/) to process ores more efficiently.
+A **flux anodizers** [augment](../augments/) allows for a [redstone
+furnace](../redstone-furnace/) to process ores more efficiently.
 
 
 Obtaining
@@ -29,11 +29,11 @@ Usage
 
 ### Installation
 A flux anodizers augment can be installed in the Augmentation tab in a [redstone
-furnace](/docs/1.12/thermal-expansion/redstone-furnace/)'s GUI. It is a specialization that cannot be
+furnace](../redstone-furnace/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-A [redstone furnace](/docs/1.12/thermal-expansion/redstone-furnace/) with flux anodizers installed
+A [redstone furnace](../redstone-furnace/) with flux anodizers installed
 produces 1.5 as much of the product of processing any ore. The output amount is
 rounded down when necessary, but is always at least 2.
 

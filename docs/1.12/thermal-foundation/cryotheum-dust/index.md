@@ -44,7 +44,7 @@ usage-recipes:
 
 
 **Cryotheum dust** is the ice elemental dust. It is most commonly used to make
-[gelid cryotheum](/docs/1.12/thermal-foundation/gelid-cryotheum/). It can also be used to freeze some
+[gelid cryotheum](../gelid-cryotheum/). It can also be used to freeze some
 fluids into solids, and is used in several advanced crafting recipes.
 
 
@@ -71,7 +71,7 @@ Usage
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.usage-recipes.centrifuge %}
 
 ### Reactant Dynamo fuel
-When used together with 100 mB of [blazing pyrotheum](/docs/1.12/thermal-foundation/blazing-pyrotheum/)
-as fuel in a [reactant dynamo](/docs/1.12/thermal-expansion/reactant-dynamo/), cryotheum dust yields
+When used together with 100 mB of [blazing pyrotheum](../blazing-pyrotheum/)
+as fuel in a [reactant dynamo](../../thermal-expansion/reactant-dynamo/), cryotheum dust yields
 400,000 RF per piece, or 500,000 RF if an [elemental
-catalyzer](/docs/1.12/thermal-expansion/augment-elemental-catalyzer/) is installed.
+catalyzer](../../thermal-expansion/augment-elemental-catalyzer/) is installed.

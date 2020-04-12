@@ -14,9 +14,9 @@ recipes:
   - te-1-12-augment-dynamo-coil-duct
 ---
 
-**Transmission coil ducting** is an [augment](/docs/1.12/thermal-expansion/augments/) that allows items
-and fluids to enter a [dynamo](/docs/1.12/thermal-expansion/dynamos/) through its coil, which can
-normally only emit [Redstone Flux](/docs/redstone-flux/).
+**Transmission coil ducting** is an [augment](../augments/) that allows items
+and fluids to enter a [dynamo](../dynamos/) through its coil, which can
+normally only emit [Redstone Flux](../../../redstone-flux/).
 
 
 Obtaining
@@ -31,10 +31,10 @@ Usage
 
 ### Installation
 Transmission coil ducting can be installed in the Augmentation tab in a
-[dynamo](/docs/1.12/thermal-expansion/dynamos/)'s GUI.
+[dynamo](../dynamos/)'s GUI.
 
 ### Effects
-Installed transmission coil ducting allows for a [dynamo](/docs/1.12/thermal-expansion/dynamos/) to
+Installed transmission coil ducting allows for a [dynamo](../dynamos/) to
 receive items and fluids through its coil, which is the side that emits
-[Redstone Flux](/docs/redstone-flux/). Dynamos can normally only receive items
+[Redstone Flux](../../../redstone-flux/). Dynamos can normally only receive items
 and fluids through the other sides.

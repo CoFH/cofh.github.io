@@ -42,7 +42,7 @@ usage-recipes:
 
 
 **[Swords](https://minecraft.gamepedia.com/Sword)** are weapons in vanilla
-Minecraft. [Thermal Foundation](/docs/1.12/thermal-foundation/) adds a set of swords
+Minecraft. [Thermal Foundation](../) adds a set of swords
 made of various metals.
 
 

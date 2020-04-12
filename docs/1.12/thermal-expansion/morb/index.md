@@ -44,14 +44,14 @@ breaking after releasing the mob.
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Centrifugal Separator with Enstabulation Apparatus
-A [centrifugal separator](/docs/1.12/thermal-expansion/centrifugal-separator/) with
+A [centrifugal separator](../centrifugal-separator/) with
 an [enstabulation
-apparatus](/docs/1.12/thermal-expansion/augment-enstabulation-apparatus/) installed
+apparatus](../augment-enstabulation-apparatus/) installed
 processes filled morbs into [mob](https://minecraft.gamepedia.com/Mob) drops and
-[essence of knowledge](/docs/1.12/thermal-foundation/essence-of-knowledge/). When
+[essence of knowledge](../../thermal-foundation/essence-of-knowledge/). When
 processing morbs, there is a 25% chance that an empty morb is returned as an
 output.
 
 ### Creature Encaptulator
-A [creature encaptulator](/docs/1.12/thermal-expansion/creature-encaptulator/) uses morbs to
+A [creature encaptulator](../creature-encaptulator/) uses morbs to
 automatically capture [mobs](https://minecraft.gamepedia.com/Mob) in an area.

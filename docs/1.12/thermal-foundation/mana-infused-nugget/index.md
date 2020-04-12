@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Mana infused nuggets** are raw materials. They are the nugget form of [mana
-infused metal](/docs/1.12/thermal-foundation/mana-infused-ingot/).
+infused metal](../mana-infused-ingot/).
 
 
 Obtaining

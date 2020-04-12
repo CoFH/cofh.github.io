@@ -7,24 +7,24 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/potion-recipes/
 ---
 
-[Thermal Foundation](/docs/1.12/thermal-foundation/) adds recipes to obtain the new
-[potions](/docs/1.12/cofh-core/potions/) added by [CoFH Core](/docs/1.12/cofh-core/).
+[Thermal Foundation](../) adds recipes to obtain the new
+[potions](../../cofh-core/potions/) added by [CoFH Core](../../cofh-core/).
 
 
 Brewing
 -------
 
-Most [potions](/docs/1.12/cofh-core/potions/) added by [CoFH Core](/docs/1.12/cofh-core/)
+Most [potions](../../cofh-core/potions/) added by [CoFH Core](../../cofh-core/)
 can be [brewed](https://minecraft.gamepedia.com/Brewing) by adding certain
 ingredients to [awkward
 potions](https://minecraft.gamepedia.com/Potion#Base_potions).
 
 | Potion | Ingredient |
 |---
-| Potion of Haste | [Basalz Powder](/docs/1.12/thermal-foundation/basalz-powder/) |
-| Potion of Resistance | [Pulverized Obsidian](/docs/1.12/thermal-foundation/pulverized-obsidian/) |
-| Potion of Levitation | [Blitz Powder](/docs/1.12/thermal-foundation/blitz-powder/) |
-| Potion of Absorption | [Blizz Powder](/docs/1.12/thermal-foundation/blizz-powder/) |
+| Potion of Haste | [Basalz Powder](../basalz-powder/) |
+| Potion of Resistance | [Pulverized Obsidian](../pulverized-obsidian/) |
+| Potion of Levitation | [Blitz Powder](../blitz-powder/) |
+| Potion of Absorption | [Blizz Powder](../blizz-powder/) |
 | Potion of Luck | [Emerald](https://minecraft.gamepedia.com/Emerald) |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 

@@ -4,31 +4,29 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/distribution-types/cave/
 ---
 
-**`cave`** is one of the [distribution
-types](/docs/1.12/cofh-world/world-generator-configuration/distribution-types/)
-provided by [CoFH World](/docs/1.12/cofh-world/). It distributes features in the
-floors or ceilings of caves. It does so by randomly picking X and Z coordinates
-and a Y coordinate below ground, finding the nearest cave (if any), and placing
-features in the cave's floor or ceiling at those X and Z coordinates.
+**`cave`** is one of the [distribution types](../) provided by [CoFH
+World](../../../). It distributes features in the floors or ceilings of caves.
+It does so by randomly picking X and Z coordinates and a Y coordinate below
+ground, finding the nearest cave (if any), and placing features in the cave's
+floor or ceiling at those X and Z coordinates.
 
 If a cave cannot be found at randomly chosen coordinates, it still counts
 towards the value `cluster-count` of the [feature
-entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+entry](../../feature-format/#features).
 
 When using this distribution type, the feature type
-[`cluster`](/docs/1.12/cofh-world/world-generator-configuration/feature-types/cluster/)
-is used by default, and the value `material` of [feature type
-configurations](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-is set to [stone](https://minecraft.gamepedia.com/Stone) (and all of its
-variations) by default.
+[`cluster`](../../feature-types/cluster/) is used by default, and the value
+`material` of [feature type
+configurations](../../feature-format/#feature-type-configuration) is set to
+[stone](https://minecraft.gamepedia.com/Stone) (and all of its variations) by
+default.
 
 
 Options
 -------
 
 When using this distribution type, the following values may be added to the
-[feature
-entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+[feature entry](../../feature-format/#features).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -53,8 +51,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`ground-level` (optional)</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">(Taken from world)</td>
                 <td markdown="span">

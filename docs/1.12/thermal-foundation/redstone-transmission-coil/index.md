@@ -28,8 +28,8 @@ usage-recipes:
 
 **Redstone transmission coils** are crafting materials made of
 [redstone](https://minecraft.gamepedia.com/Redstone) and
-[silver](/docs/1.12/thermal-foundation/silver-ingot/). They are used to craft things that can transmit
-[Redstone Flux](/docs/redstone-flux/), notably [dynamos](/docs/1.12/thermal-expansion/dynamos/).
+[silver](../silver-ingot/). They are used to craft things that can transmit
+[Redstone Flux](../../../redstone-flux/), notably [dynamos](../../thermal-expansion/dynamos/).
 
 
 Obtaining

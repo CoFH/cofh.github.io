@@ -41,7 +41,7 @@ usage-recipes:
 
 
 **[Hoes](https://minecraft.gamepedia.com/Hoe)** are tools in vanilla Minecraft.
-[Thermal Foundation](/docs/1.12/thermal-foundation/) adds a set of hoes made of
+[Thermal Foundation](../) adds a set of hoes made of
 various metals.
 
 

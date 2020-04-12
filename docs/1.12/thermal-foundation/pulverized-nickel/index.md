@@ -38,7 +38,7 @@ usage-recipes:
 
 
 **Pulverized nickel** is a raw material. It is the dust form of
-[nickel](/docs/1.12/thermal-foundation/nickel-ingot/).
+[nickel](../nickel-ingot/).
 
 
 Obtaining
@@ -54,8 +54,8 @@ Obtaining
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
-When [nickel ore](/docs/1.12/thermal-foundation/nickel-ore/) is broken using a
-[Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When [nickel ore](../nickel-ore/) is broken using a
+[Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized nickel are dropped instead of the ore.
 

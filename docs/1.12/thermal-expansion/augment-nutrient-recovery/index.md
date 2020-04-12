@@ -13,9 +13,9 @@ recipes:
   - te-1-12-augment-machine-insolator-fertilizer
 ---
 
-A **nutrient recovery** [augment](/docs/1.12/thermal-expansion/augments/) provides a chance for a
-[phytogenic insolator](/docs/1.12/thermal-expansion/phytogenic-insolator/) to not consume fertilizer
-([Phyto-Gro](/docs/1.12/thermal-foundation/phyto-gro/)).
+A **nutrient recovery** [augment](../augments/) provides a chance for a
+[phytogenic insolator](../phytogenic-insolator/) to not consume fertilizer
+([Phyto-Gro](../../thermal-foundation/phyto-gro/)).
 
 
 Obtaining
@@ -30,12 +30,12 @@ Usage
 
 ### Installation
 A nutrient recovery augment can be installed in the Augmentation tab in a
-[phytogenic insolator](/docs/1.12/thermal-expansion/phytogenic-insolator/)'s GUI. It can be installed
+[phytogenic insolator](../phytogenic-insolator/)'s GUI. It can be installed
 multiple times, stacking its effects.
 
 ### Effects
 Installed nutrient recovery augments provide a chance for a [phytogenic
-insolator](/docs/1.12/thermal-expansion/phytogenic-insolator/) to not consume a fertilizer item after
+insolator](../phytogenic-insolator/) to not consume a fertilizer item after
 an operation. However, they also increase the amount of energy required per
 operation.
 

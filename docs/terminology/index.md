@@ -8,14 +8,14 @@ This is a list of terms that frequently appear in modded Minecraft.
 ### Energy
 Various implementations of energy systems exist in modded Minecraft, like steam
 power, Energy Units, Charge and Joules. The various Team CoFH mods typically use
-the [Redstone Flux](/docs/redstone-flux/) system, which is also supported by a
-wide variety of other mods.
+the [Redstone Flux](../redstone-flux/) system, which is also supported by a wide
+variety of other mods.
 
 ### Fluid
 Type of matter that cannot be stored in inventories like items, but must be
 stored in tanks instead, or in fluid container items like buckets. Fluid amounts
 are expressed in [millibuckets](#millibucket-mb). [Thermal
-Foundation](/docs/1.12/thermal-foundation/) adds various kinds of fluids. Water and
+Foundation](../1.12/thermal-foundation/) adds various kinds of fluids. Water and
 lava from vanilla Minecraft are also considered fluids.
 
 ### Inventory
@@ -28,12 +28,12 @@ original fluid containers. One bucket can store 1,000 mB of fluid.
 
 ### Power (RF/t)
 The rate of [energy](#energy) being transferred or converted. In the [Redstone
-Flux](/docs/redstone-flux/) energy system, this is expressed as RF/t, which
-stands for [RF](#rf) per [tick](#tick-t).
+Flux](../redstone-flux/) energy system, this is expressed as RF/t, which stands
+for [RF](#rf) per [tick](#tick-t).
 
 ### RF
 Can be one of two things depending on context: an abbreviation for [Redstone
-Flux](/docs/redstone-flux/), or a unit used to express amounts of Redstone Flux
+Flux](../redstone-flux/), or a unit used to express amounts of Redstone Flux
 energy.
 
 ### Tank

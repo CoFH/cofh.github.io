@@ -4,20 +4,17 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/feature-types/geode/
 ---
 
-**`geode`** is one of the [feature
-types](/docs/1.12/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/1.12/cofh-world/). It generates structures that are similar to
-[lakes](/docs/1.12/cofh-world/world-generator-configuration/feature-types/lake/),
-except completely filled with and surrounded by blocks. They can also contain a
-core of different blocks at the center.
+**`geode`** is one of the [feature types](../) provided by [CoFH
+World](../../../). It generates structures that are similar to
+[lakes](../lake/), except completely filled with and surrounded by blocks. They
+can also contain a core of different blocks at the center.
 
 
 Options
 -------
 
 When using this feature type, the following values must be added to the [feature
-type
-configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
+type configuration](../../feature-format/#feature-type-configuration).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -33,7 +30,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`block`</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td>-</td>
@@ -46,7 +43,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`crust` (optional)</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td markdown="span">Stone</td>
@@ -68,7 +65,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`filler` (optional)</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td markdown="span">(None)</td>

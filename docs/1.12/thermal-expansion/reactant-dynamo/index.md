@@ -20,7 +20,7 @@ augments:
 - dynamo-reactant-elemental
 ---
 
-A **reactant dynamo** is a [dynamo](/docs/1.12/thermal-expansion/dynamos/) fueled by fluid fuel and
+A **reactant dynamo** is a [dynamo](../dynamos/) fueled by fluid fuel and
 solid reactant.
 
 
@@ -28,7 +28,7 @@ Obtaining
 ---------
 
 A placed reactant dynamo can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -37,8 +37,8 @@ this can be much slower.
 
 ### Upgrading
 A reactant dynamo is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -47,12 +47,12 @@ Usage
 ### Placement
 When placed, a reactant dynamo faces up. When placed while sneaking, it faces
 away from the player. A reactant dynamo can face any direction, and can be
-rotated using a [wrench](/docs/1.12/wrenches/).
+rotated using a [wrench](../../wrenches/).
 
 ### Energy generation
 When a reactant dynamo is supplied a fluid fuel and a reactant item that can
 [react](#reactions) with one another, the dynamo will start consuming both to
-generate [Redstone Flux](/docs/redstone-flux/). 100 mB of fluid fuel and one
+generate [Redstone Flux](../../../redstone-flux/). 100 mB of fluid fuel and one
 unit of reactant are consumed together at a time. Every reaction yields a
 certain amount of energy.
 
@@ -66,14 +66,14 @@ When an active reactant dynamo cannot emit the energy it generates, it will keep
 working at its minimum power output (a tenth of its maximum power output). Any
 more energy that is generated in this case is lost. This can be resolved by
 installing an [excitation field
-limiter](/docs/1.12/thermal-expansion/augment-excitation-field-limiter/).
+limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A reactant dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
+A reactant dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Fluids and items can enter a reactant dynamo through its sides. They
 cannot enter it through the coil, unless [transmission coil
-ducting](/docs/1.12/thermal-expansion/augment-transmission-coil-ducting/) is installed.
+ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 A reactant dynamo may be configured to respond to
@@ -98,10 +98,10 @@ reaction first.
 
 ### Security
 A reactant dynamo can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A reactant dynamo's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/)
+A reactant dynamo's configuration can be saved on a [redprint](../../thermal-foundation/redprint/)
 to be copied to other dynamos.
 
 ### Light source
@@ -111,7 +111,7 @@ When a reactant dynamo is active, it emits a light level of 7.
 Tiers
 -----
 
-Reactant dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Reactant dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -130,7 +130,7 @@ Reactant dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-A reactant dynamo can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+A reactant dynamo can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the dynamo's [tier](#tiers). A basic reactant dynamo cannot
 be augmented.
@@ -148,18 +148,18 @@ to generate varying amounts of energy.
 
 | Fuel (100 mB) | Reactant | Energy |
 |---
-| [Destabilized Redstone](/docs/1.12/thermal-foundation/destabilized-redstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 80,000 RF |
-| [Destabilized Redstone](/docs/1.12/thermal-foundation/destabilized-redstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 100,000 RF |
-| [Destabilized Redstone](/docs/1.12/thermal-foundation/destabilized-redstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 100,000 RF |
-| [Destabilized Redstone](/docs/1.12/thermal-foundation/destabilized-redstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 150,000 RF |
-| [Destabilized Redstone](/docs/1.12/thermal-foundation/destabilized-redstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 150,000 RF |
-| [Energized Glowstone](/docs/1.12/thermal-foundation/energized-glowstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 100,000 RF |
-| [Energized Glowstone](/docs/1.12/thermal-foundation/energized-glowstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 125,000 RF |
-| [Energized Glowstone](/docs/1.12/thermal-foundation/energized-glowstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 125,000 RF |
-| [Energized Glowstone](/docs/1.12/thermal-foundation/energized-glowstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 200,000 RF |
-| [Energized Glowstone](/docs/1.12/thermal-foundation/energized-glowstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 200,000 RF |
-| [Blazing Pyrotheum](/docs/1.12/thermal-foundation/blazing-pyrotheum/) | [Cryotheum Dust](/docs/1.12/thermal-foundation/cryotheum-dust/) | 400,000 RF |
-| [Gelid Cryotheum](/docs/1.12/thermal-foundation/gelid-cryotheum/) | [Pyrotheum Dust](/docs/1.12/thermal-foundation/pyrotheum-dust/) | 400,000 RF |
-| [Zephyrean Aerotheum](/docs/1.12/thermal-foundation/zephyrean-aerotheum/) | [Petrotheum Dust](/docs/1.12/thermal-foundation/petrotheum-dust/) | 400,000 RF |
-| [Tectonic Petrotheum](/docs/1.12/thermal-foundation/tectonic-petrotheum/) | [Aerotheum Dust](/docs/1.12/thermal-foundation/aerotheum-dust/) | 400,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 80,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 100,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 100,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 150,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 150,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 100,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 125,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 125,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 200,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 200,000 RF |
+| [Blazing Pyrotheum](../../thermal-foundation/blazing-pyrotheum/) | [Cryotheum Dust](../../thermal-foundation/cryotheum-dust/) | 400,000 RF |
+| [Gelid Cryotheum](../../thermal-foundation/gelid-cryotheum/) | [Pyrotheum Dust](../../thermal-foundation/pyrotheum-dust/) | 400,000 RF |
+| [Zephyrean Aerotheum](../../thermal-foundation/zephyrean-aerotheum/) | [Petrotheum Dust](../../thermal-foundation/petrotheum-dust/) | 400,000 RF |
+| [Tectonic Petrotheum](../../thermal-foundation/tectonic-petrotheum/) | [Aerotheum Dust](../../thermal-foundation/aerotheum-dust/) | 400,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

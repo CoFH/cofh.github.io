@@ -17,8 +17,8 @@ recipe-list:
 - wood-fluxed
 ---
 
-A **sapling infuser** is an [augment](/docs/1.12/thermal-expansion/augments/) that allows for a
-[phytogenic insolator](/docs/1.12/thermal-expansion/phytogenic-insolator/) to grow
+A **sapling infuser** is an [augment](../augments/) that allows for a
+[phytogenic insolator](../phytogenic-insolator/) to grow
 [trees](https://minecraft.gamepedia.com/Tree).
 
 
@@ -34,11 +34,11 @@ Usage
 
 ### Installation
 A sapling infuser can be installed in the Augmentation tab in a [phytogenic
-insolator](/docs/1.12/thermal-expansion/phytogenic-insolator/)'s GUI.
+insolator](../phytogenic-insolator/)'s GUI.
 
 ### Effects
 An installed sapling infuser adds some extra [recipes](#recipes) to a
-[phytogenic insolator](/docs/1.12/thermal-expansion/phytogenic-insolator/). These recipes allow for
+[phytogenic insolator](../phytogenic-insolator/). These recipes allow for
 [wood](https://minecraft.gamepedia.com/Wood) to be produced from
 [saplings](https://minecraft.gamepedia.com/Sapling).
 

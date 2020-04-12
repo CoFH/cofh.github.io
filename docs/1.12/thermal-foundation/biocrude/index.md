@@ -23,9 +23,9 @@ redirect_from:
 ---
 
 **Biocrude** is a fluid obtained by melting down
-[biomass](/docs/1.12/thermal-foundation/pulped-biomass/) or
-[bioblend](/docs/1.12/thermal-foundation/pulped-bioblend/). It can be processed into
-[grassoline](/docs/1.12/thermal-foundation/grassoline/).
+[biomass](../pulped-biomass/) or
+[bioblend](../pulped-bioblend/). It can be processed into
+[grassoline](../grassoline/).
 
 
 Obtaining

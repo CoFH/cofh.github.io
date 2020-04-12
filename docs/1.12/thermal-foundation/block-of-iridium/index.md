@@ -18,7 +18,7 @@ usage-recipes:
   - tf-1-12-ingot-iridium-from-block
 ---
 
-**Blocks of iridium** are blocks made from [iridium ingots](/docs/1.12/thermal-foundation/iridium-ingot/).
+**Blocks of iridium** are blocks made from [iridium ingots](../iridium-ingot/).
 
 
 Obtaining
@@ -35,7 +35,7 @@ Usage
 -----
 
 ### Storage
-Blocks of iridium can be used to store [iridium ingots](/docs/1.12/thermal-foundation/iridium-ingot/) in
+Blocks of iridium can be used to store [iridium ingots](../iridium-ingot/) in
 a compact way.
 
 ### Light source

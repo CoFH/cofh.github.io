@@ -22,9 +22,9 @@ recipes:
   - td-1-12-itemduct-energy-fast
 ---
 
-A **signalum-plated impulse itemduct** is a type of [itemduct](/docs/1.12/thermal-dynamics/itemduct/)
-that combines the functions of an [impulse itemduct](/docs/1.12/thermal-dynamics/impulse-itemduct/)
-and a [signalum-plated itemduct](/docs/1.12/thermal-dynamics/signalum-plated-itemduct/).
+A **signalum-plated impulse itemduct** is a type of [itemduct](../itemduct/)
+that combines the functions of an [impulse itemduct](../impulse-itemduct/)
+and a [signalum-plated itemduct](../signalum-plated-itemduct/).
 
 
 Obtaining
@@ -42,7 +42,7 @@ Usage
 
 ### Item and energy transfer
 A signalum-plated impulse itemduct works the same way as a regular
-[itemduct](/docs/1.12/thermal-dynamics/itemduct/). However, items move through it faster like with an
-[impulse itemduct](/docs/1.12/thermal-dynamics/impulse-itemduct/), and it also transfers [Redstone
-Flux](/docs/redstone-flux/) like a [signalum-plated
-itemduct](/docs/1.12/thermal-dynamics/signalum-plated-itemduct/).
+[itemduct](../itemduct/). However, items move through it faster like with an
+[impulse itemduct](../impulse-itemduct/), and it also transfers [Redstone
+Flux](../../../redstone-flux/) like a [signalum-plated
+itemduct](../signalum-plated-itemduct/).

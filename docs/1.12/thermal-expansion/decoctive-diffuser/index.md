@@ -14,15 +14,15 @@ recipes:
 ---
 
 A **decoctive diffuser**, or **diffuser** for short, is a
-[device](/docs/1.12/thermal-expansion/devices/) that spreads the effects of [fluid
-potions](/docs/1.12/thermal-foundation/potion-fluid/) in an area.
+[device](../devices/) that spreads the effects of [fluid
+potions](../../thermal-foundation/potion-fluid/) in an area.
 
 
 Obtaining
 ---------
 
 A placed decoctive diffuser can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -34,10 +34,10 @@ Usage
 
 ### Placement
 When placed, a decoctive diffuser faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
-When a [fluid potion](/docs/1.12/thermal-foundation/potion-fluid/) is supplied to a
+When a [fluid potion](../../thermal-foundation/potion-fluid/) is supplied to a
 decoctive diffuser, it will begin applying the potion's
 [effect](https://minecraft.gamepedia.com/Status_effect) to nearby entities in a
 certain area (9x9x9 for [potions](https://minecraft.gamepedia.com/Potion),
@@ -93,8 +93,8 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 A decoctive diffuser can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A decoctive diffuser's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other diffusers.
+[redprint](../../thermal-foundation/redprint/) to be copied to other diffusers.

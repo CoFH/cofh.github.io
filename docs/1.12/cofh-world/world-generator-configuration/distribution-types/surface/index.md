@@ -4,17 +4,16 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/distribution-types/surface/
 ---
 
-**`surface`** is one of the [distribution
-types](/docs/1.12/cofh-world/world-generator-configuration/distribution-types/)
-provided by [CoFH World](/docs/1.12/cofh-world/). It distributes features on the
-surface. It does so by randomly picking X and Z coordinates and placing features
-on top of the highest blocks at those coordinates.
+**`surface`** is one of the [distribution types](../) provided by [CoFH
+World](../../../). It distributes features on the surface. It does so by
+randomly picking X and Z coordinates and placing features on top of the highest
+blocks at those coordinates.
 
 When using this distribution type, the feature type
-[`cluster`](/docs/1.12/cofh-world/world-generator-configuration/feature-types/cluster/)
-is used by default, and the value `material` of [feature type
-configurations](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-is set to [stone](https://minecraft.gamepedia.com/Stone),
+[`cluster`](../../feature-types/cluster/) is used by default, and the value
+`material` of [feature type
+configurations](../../feature-format/#feature-type-configuration) is set to
+[stone](https://minecraft.gamepedia.com/Stone),
 [dirt](https://minecraft.gamepedia.com/Dirt), [grass
 blocks](https://minecraft.gamepedia.com/Grass_Block),
 [sand](https://minecraft.gamepedia.com/Sand),
@@ -30,8 +29,7 @@ Options
 -------
 
 When using this distribution type, the following values may be added to the
-[feature
-entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+[feature entry](../../feature-format/#features).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -47,12 +45,12 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`material` (optional)</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td markdown="span">
                     (Same as default `material` value of
-                    [feature type configurations](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration),
+                    [feature type configurations](../../feature-format/#feature-type-configuration),
                     described above)
                 </td>
                 <td markdown="span">
@@ -62,7 +60,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
                     coordinates is specified here. Otherwise, the feature is
                     skipped, but still counts towards the value `cluster-count`
                     of the
-                    [feature entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+                    [feature entry](../../feature-format/#features).
                 </td>
             </tr>
             <tr>

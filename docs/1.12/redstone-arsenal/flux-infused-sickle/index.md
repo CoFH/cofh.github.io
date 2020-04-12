@@ -15,8 +15,8 @@ recipes:
   - ra-1-12-tool-sickle
 ---
 
-A **flux-infused sickle** is a powerful [sickle](/docs/1.12/thermal-foundation/sickles/) powered by
-[Redstone Flux](/docs/redstone-flux/).
+A **flux-infused sickle** is a powerful [sickle](../../thermal-foundation/sickles/) powered by
+[Redstone Flux](../../../redstone-flux/).
 
 
 Obtaining
@@ -30,11 +30,11 @@ Usage
 -----
 
 ### Charging
-A flux-infused sickle can hold up to 320,000 [RF](/docs/redstone-flux/). It can
-be charged using an [energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/), a [flux
-capacitor](/docs/1.12/thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
-a [fluxed electrum block](/docs/1.12/redstone-arsenal/fluxed-electrum-block/) or [flux crystal
-block](/docs/1.12/redstone-arsenal/flux-crystal-block) while holding it. It can be charged at rates up
+A flux-infused sickle can hold up to 320,000 [RF](../../../redstone-flux/). It can
+be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
+capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
+a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal
+block](../flux-crystal-block) while holding it. It can be charged at rates up
 to 4,000 RF/t.
 
 ### Empowering
@@ -43,7 +43,7 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Breaking plants
 A charged flux-infused sickle can break up to 49 plant-like blocks in a 7x7 area
-(like regular [sickles](/docs/1.12/thermal-foundation/sickles/)), and consumes 200 RF per use. When
+(like regular [sickles](../../thermal-foundation/sickles/)), and consumes 200 RF per use. When
 empowered, it can break up to 121 blocks in a 11x11 area, and consumes 1,200 RF
 per use.
 
@@ -58,12 +58,12 @@ and its flux damage is raised to 6.
 ### Enchantments
 A flux-infused sickle has an
 [enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
-slightly higher than that of a [golden sickle](/docs/1.12/thermal-foundation/sickles/). It can
+slightly higher than that of a [golden sickle](../../thermal-foundation/sickles/). It can
 receive all the enchantments that other sickles can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused sickle has a chance to not consume [Redstone
-Flux](/docs/redstone-flux/) when used.
+Flux](../../../redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---
@@ -72,7 +72,7 @@ Flux](/docs/redstone-flux/) when used.
 | III | 60% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-A flux-infused sickle can also be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to
+A flux-infused sickle can also be enchanted with [Holding](../../cofh-core/holding/) to
 increase its energy capacity.
 
 | Holding level | Capacity multiplier |

@@ -26,15 +26,15 @@ recipe-list:
 
 
 An **energetic infuser** (also known as a **charger**) is a
-[machine](/docs/1.12/thermal-expansion/machines/) that charges items with [Redstone
-Flux](/docs/redstone-flux/).
+[machine](../machines/) that charges items with [Redstone
+Flux](../../../redstone-flux/).
 
 
 Obtaining
 ---------
 
 A placed energetic infuser can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -43,8 +43,8 @@ this can be much slower.
 
 ### Upgrading
 An energetic infuser is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -52,11 +52,11 @@ Usage
 
 ### Placement
 When placed, an energetic infuser faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When items that hold energy are placed in an energetic infuser's input slot, the
-machine will start consuming [Redstone Flux](/docs/redstone-flux/) to charge
+machine will start consuming [Redstone Flux](../../../redstone-flux/) to charge
 them. The machine will keep charging an item until it is fully charged. Once an
 item is fully charged, it is moved to the output slot.
 
@@ -66,8 +66,8 @@ to process. When enough energy has been consumed for an item, the input is
 consumed and the output is placed in the output slot.
 
 When installed, a [flux reconstruction
-augment](/docs/1.12/thermal-expansion/augment-flux-reconstruction/) allows an energetic infuser to
-consume [essence of knowledge](/docs/1.12/thermal-foundation/essence-of-knowledge/), which is stored in
+augment](../augment-flux-reconstruction/) allows an energetic infuser to
+consume [essence of knowledge](../../thermal-foundation/essence-of-knowledge/), which is stored in
 an added input tank.
 
 The speed at which an energetic infuser charges items depends on how much energy
@@ -120,11 +120,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 An energetic infuser can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An energetic infuser's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other energetic infusers.
+[redprint](../../thermal-foundation/redprint/) to be copied to other energetic infusers.
 
 ### Light source
 When an energetic infuser is active, it emits a light level of 7.
@@ -133,7 +133,7 @@ When an energetic infuser is active, it emits a light level of 7.
 Tiers
 -----
 
-Energetic infusers come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Energetic infusers come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -152,7 +152,7 @@ Energetic infusers come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-An energetic infuser can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+An energetic infuser can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic energetic infuser
 cannot be augmented.
@@ -166,6 +166,6 @@ Recipes
 -------
 
 An energetic infuser can process the following items that do not hold [Redstone
-Flux](/docs/redstone-flux/) into different items.
+Flux](../../../redstone-flux/) into different items.
 
 {% include recipe-table.html type='te-1-12-charger' recipes=page.recipe-list %}

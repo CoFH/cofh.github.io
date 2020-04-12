@@ -13,9 +13,9 @@ recipes:
   - te-1-12-augment-machine-charger-throughput
 ---
 
-A **flux linkage concentrator** is an [augment](/docs/1.12/thermal-expansion/augments/) that greatly
-increases the charging speed of an [energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/)
-when charging items that hold [Redstone Flux](/docs/redstone-flux/).
+A **flux linkage concentrator** is an [augment](../augments/) that greatly
+increases the charging speed of an [energetic infuser](../energetic-infuser/)
+when charging items that hold [Redstone Flux](../../../redstone-flux/).
 
 
 Obtaining
@@ -30,15 +30,15 @@ Usage
 
 ### Installation
 A flux linkage concentrator can be installed in the Augmentation tab in an
-[energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/)'s GUI. It is a specialization that
+[energetic infuser](../energetic-infuser/)'s GUI. It is a specialization that
 cannot be installed together with other specialization augments.
 
 ### Effects
 An installed flux linkage concentrator greatly increases an [energetic
-infuser](/docs/1.12/thermal-expansion/energetic-infuser/)'s maximum power usage when charging items
-that hold [Redstone Flux](/docs/redstone-flux/), thereby greatly increasing its
+infuser](../energetic-infuser/)'s maximum power usage when charging items
+that hold [Redstone Flux](../../../redstone-flux/), thereby greatly increasing its
 charging speed. The increased maximum power usage depends on the machine's
-[tier](/docs/1.12/thermal-foundation/tiers/).
+[tier](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

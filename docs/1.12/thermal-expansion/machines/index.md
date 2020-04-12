@@ -45,8 +45,8 @@ frame-recipes:
 ---
 
 **Machines** are blocks that process items and/or fluids using [Redstone
-Flux](/docs/redstone-flux/). They can be [upgraded](/docs/1.12/thermal-foundation/tiers/) and
-[augmented](/docs/1.12/thermal-expansion/augments/).
+Flux](../../../redstone-flux/). They can be [upgraded](../../thermal-foundation/tiers/) and
+[augmented](../augments/).
 
 
 List of machines
@@ -56,22 +56,22 @@ List of machines
 <div class="uk-overflow-container">
 | Machine | Description |
 |---
-| [Redstone Furnace](/docs/1.12/thermal-expansion/redstone-furnace/) | [Smelts](https://minecraft.gamepedia.com/Smelting) items, and cooks food very quickly. |
-| [Pulverizer](/docs/1.12/thermal-expansion/pulverizer/) | Crushes items. Can be used to process ores. |
-| [Sawmill](/docs/1.12/thermal-expansion/sawmill/) | Cuts logs into planks and reprocesses wooden things. |
-| [Induction Smelter](/docs/1.12/thermal-expansion/induction-smelter/) | Smelts things together at high temperatures. Can be used to process ores. |
-| [Phytogenic Insolator](/docs/1.12/thermal-expansion/phytogenic-insolator/) | Grows and multiplies plants. |
-| [Compactor](/docs/1.12/thermal-expansion/compactor/) | Compresses items into different forms. |
-| [Magma Crucible](/docs/1.12/thermal-expansion/magma-crucible/) | Melts items into fluids. |
-| [Fractionating Still](/docs/1.12/thermal-expansion/fractionating-still/) | Refines fluids. |
-| [Fluid Transposer](/docs/1.12/thermal-expansion/fluid-transposer/) | Fills or empties things that hold fluids, like [buckets](https://minecraft.gamepedia.com/Bucket). |
-| [Energetic Infuser](/docs/1.12/thermal-expansion/energetic-infuser/) | Charges items. |
-| [Centrifugal Separator](/docs/1.12/thermal-expansion/centrifugal-separator/) | Separates items into their components. |
-| [Sequential Fabricator](/docs/1.12/thermal-expansion/sequential-fabricator/) | [Crafts](https://minecraft.gamepedia.com/Crafting) items. |
-| [Alchemical Imbuer](/docs/1.12/thermal-expansion/alchemical-imbuer/) | Brews [potions](https://minecraft.gamepedia.com/Potion). |
-| [Arcane Ensorcellator](/docs/1.12/thermal-expansion/arcane-ensorcellator/) | Enchants [books](https://minecraft.gamepedia.com/Book) and other arcana. Can produce specific [enchanted books](https://minecraft.gamepedia.com/Enchanted_Book). |
-| [Glacial Precipitator](/docs/1.12/thermal-expansion/glacial-precipitator/) | Freezes fluids into items. |
-| [Igneous Extruder](/docs/1.12/thermal-expansion/igneous-extruder/) | Mixes hot and cold fluids to create items. |
+| [Redstone Furnace](../redstone-furnace/) | [Smelts](https://minecraft.gamepedia.com/Smelting) items, and cooks food very quickly. |
+| [Pulverizer](../pulverizer/) | Crushes items. Can be used to process ores. |
+| [Sawmill](../sawmill/) | Cuts logs into planks and reprocesses wooden things. |
+| [Induction Smelter](../induction-smelter/) | Smelts things together at high temperatures. Can be used to process ores. |
+| [Phytogenic Insolator](../phytogenic-insolator/) | Grows and multiplies plants. |
+| [Compactor](../compactor/) | Compresses items into different forms. |
+| [Magma Crucible](../magma-crucible/) | Melts items into fluids. |
+| [Fractionating Still](../fractionating-still/) | Refines fluids. |
+| [Fluid Transposer](../fluid-transposer/) | Fills or empties things that hold fluids, like [buckets](https://minecraft.gamepedia.com/Bucket). |
+| [Energetic Infuser](../energetic-infuser/) | Charges items. |
+| [Centrifugal Separator](../centrifugal-separator/) | Separates items into their components. |
+| [Sequential Fabricator](../sequential-fabricator/) | [Crafts](https://minecraft.gamepedia.com/Crafting) items. |
+| [Alchemical Imbuer](../alchemical-imbuer/) | Brews [potions](https://minecraft.gamepedia.com/Potion). |
+| [Arcane Ensorcellator](../arcane-ensorcellator/) | Enchants [books](https://minecraft.gamepedia.com/Book) and other arcana. Can produce specific [enchanted books](https://minecraft.gamepedia.com/Enchanted_Book). |
+| [Glacial Precipitator](../glacial-precipitator/) | Freezes fluids into items. |
+| [Igneous Extruder](../igneous-extruder/) | Mixes hot and cold fluids to create items. |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
 </div>
 {::options parse_block_html="false" /}

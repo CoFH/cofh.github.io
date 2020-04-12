@@ -16,7 +16,7 @@ recipes:
 > Refactor your storage!
 
 
-A **factorizer** is a [device](/docs/1.12/thermal-expansion/devices/) that combines and splits various
+A **factorizer** is a [device](../devices/) that combines and splits various
 items.
 
 
@@ -24,7 +24,7 @@ Obtaining
 ---------
 
 A placed factorizer can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -36,7 +36,7 @@ Usage
 
 ### Placement
 When placed, a factorizer faces the player. It can face any of the four cardinal
-directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
 A factorizer can be in one of two modes: Combine or Split. In Combine mode, a
@@ -82,11 +82,11 @@ High
 The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
-A factorizer can have a [signalum security lock](/docs/1.12/thermal-foundation/signalum-security-lock/)
+A factorizer can have a [signalum security lock](../../thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Redprints
-A factorizer's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/) to be
+A factorizer's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to be
 copied to other factorizers.
 
 ### Light source

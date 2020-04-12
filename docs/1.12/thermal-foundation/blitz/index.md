@@ -15,7 +15,7 @@ redirect_from:
 **Blitzes** are hostile mobs found in
 [deserts](https://minecraft.gamepedia.com/Desert) and
 [savannas](https://minecraft.gamepedia.com/Savanna). They drop [blitz
-rods](/docs/1.12/thermal-foundation/blitz-rod/).
+rods](../blitz-rod/).
 
 
 Appearance
@@ -44,7 +44,7 @@ Drops
 -----
 
 When killed by a player, blitzes may drop up to two pieces of
-[niter](/docs/1.12/thermal-foundation/niter/), and may drop one [blitz rod](/docs/1.12/thermal-foundation/blitz-rod/). They drop
+[niter](../niter/), and may drop one [blitz rod](../blitz-rod/). They drop
 more items if a [Looting](https://minecraft.gamepedia.com/Looting) enchanted
 weapon is used.
 

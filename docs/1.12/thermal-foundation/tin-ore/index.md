@@ -26,7 +26,7 @@ usage-recipes:
 
 
 **Tin ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that yields
-[tin](/docs/1.12/thermal-foundation/tin-ingot/) and small amounts of
+[tin](../tin-ingot/) and small amounts of
 [iron](https://minecraft.gamepedia.com/Iron_Ingot).
 
 
@@ -58,15 +58,15 @@ Usage
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When tin ore is broken using a [Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When tin ore is broken using a [Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
-[pulverized tin](/docs/1.12/thermal-foundation/pulverized-tin/) are dropped instead
+[pulverized tin](../pulverized-tin/) are dropped instead
 of the ore.
 
 
 Trivia
 ------
 
-* Tin ore is generated in the world using [CoFH World](/docs/1.12/cofh-world/) by
+* Tin ore is generated in the world using [CoFH World](../../cofh-world/) by
   default. The world generation can be tweaked or disabled using CoFH World's
-  [configuration](/docs/1.12/cofh-world/world-generator-configuration/).
+  [configuration](../../cofh-world/world-generator-configuration/).

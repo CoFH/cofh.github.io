@@ -18,7 +18,7 @@ usage-recipes:
   - tf-1-12-coal-coke-from-block
 ---
 
-**Blocks of coal coke** are blocks made from [coal coke](/docs/1.12/thermal-foundation/coal-coke/).
+**Blocks of coal coke** are blocks made from [coal coke](../coal-coke/).
 
 
 Obtaining
@@ -40,7 +40,7 @@ Usage
 Placed blocks of coal coke are flammable.
 
 ### Storage
-Blocks of coal coke can be used to store [coal coke](/docs/1.12/thermal-foundation/coal-coke/) in a
+Blocks of coal coke can be used to store [coal coke](../coal-coke/) in a
 compact way.
 
 ### Fuel

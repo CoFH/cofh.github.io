@@ -45,7 +45,7 @@ usage-recipes:
 
 
 **Mana infused ingots** are raw materials obtained from [mana infused
-ore](/docs/1.12/thermal-foundation/mana-infused-ore/). They are unobtainable by default, because mana
+ore](../mana-infused-ore/). They are unobtainable by default, because mana
 infused ore does not generate in the world by default.
 
 

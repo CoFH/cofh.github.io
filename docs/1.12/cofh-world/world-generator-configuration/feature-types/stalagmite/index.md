@@ -4,27 +4,24 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/feature-types/stalagmite/
 ---
 
-**`stalagmite`** is one of the [feature
-types](/docs/1.12/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/1.12/cofh-world/). It generates upwards pointing spikes. The
-shape of these spikes is different than those generated using
-[`spike`](/docs/1.12/cofh-world/world-generator-configuration/feature-types/spike/).
+**`stalagmite`** is one of the [feature types](../) provided by [CoFH
+World](../../../). It generates upwards pointing spikes. The shape of these
+spikes is different than those generated using [`spike`](../spike/).
 
 Stalagmites are only generated on the surface or underground. They are never
 generated in midair.
 
 The value `material` of a [feature type
-configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-is only used to determine the position of stalagmites. When generating the
-stalagmites themselves, the option `gen-body` is used instead.
+configuration](../../feature-format/#feature-type-configuration) is only used to
+determine the position of stalagmites. When generating the stalagmites
+themselves, the option `gen-body` is used instead.
 
 
 Options
 -------
 
 When using this feature type, the following values must be added to the [feature
-type
-configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
+type configuration](../../feature-format/#feature-type-configuration).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -40,7 +37,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`block`</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td>-</td>
@@ -53,7 +50,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`gen-body` (optional)</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td markdown="span">Air</td>

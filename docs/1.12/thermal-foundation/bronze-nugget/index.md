@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Bronze nuggets** are raw materials. They are the nugget form of
-[bronze](/docs/1.12/thermal-foundation/bronze-ingot/).
+[bronze](../bronze-ingot/).
 
 
 Obtaining

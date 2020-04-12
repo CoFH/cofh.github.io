@@ -42,5 +42,5 @@ A written redprint may be erased by using it while sneaking. When used on a
 configurable block while sneaking, the redprint is overwritten with the
 configuration of the block.
 
-All configurable blocks in [Thermal Expansion](/docs/1.12/thermal-expansion/) and
-[Thermal Dynamics](/docs/1.12/thermal-dynamics/) support redprints.
+All configurable blocks in [Thermal Expansion](../../thermal-expansion/) and
+[Thermal Dynamics](../../thermal-dynamics/) support redprints.

@@ -32,7 +32,7 @@ Obtaining
 ---------
 
 A placed portable tank can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its stored fluid and configuration are preserved in
+[wrench](../../wrenches/). Its stored fluid and configuration are preserved in
 the item. It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
 slower.
@@ -42,8 +42,8 @@ slower.
 
 ### Upgrading
 A portable tank is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -55,7 +55,7 @@ Fluids can be put in and taken out of a portable tank using
 fluids.
 
 ### Configuration
-A portable tank can be configured by using a [multimeter](/docs/1.12/thermal-foundation/multimeter/) on
+A portable tank can be configured by using a [multimeter](../../thermal-foundation/multimeter/) on
 it while sneaking, which opens the tank's GUI. Some aspects of the tank can also
 be configured without opening the GUI.
 
@@ -64,7 +64,7 @@ Fluids can enter and exit a portable tank through its sides.
 
 A placed portable tank can automatically transfer fluids out of the bottom. This
 is called auto-output. Auto-output can be enabled in the tank's GUI, or by using
-a [wrench](/docs/1.12/wrenches/). When a portable tank is placed on top of another
+a [wrench](../../wrenches/). When a portable tank is placed on top of another
 portable tank, auto-output is enabled automatically for the upper tank.
 
 A placed portable tank can be locked to only accept the fluid it currently
@@ -73,9 +73,9 @@ using it while sneaking.
 
 ### Item form
 A portable tank in item form can be filled and emptied using a [fluid
-transposer](/docs/1.12/thermal-expansion/fluid-transposer/). It can be used on placed portable tanks to
+transposer](../fluid-transposer/). It can be used on placed portable tanks to
 move fluids around. It can also be used to more quickly craft things that
-require fluids to craft, like [signalum blend](/docs/1.12/thermal-foundation/signalum-blend/).
+require fluids to craft, like [signalum blend](../../thermal-foundation/signalum-blend/).
 
 ### Redstone control
 A placed portable tank may be configured to respond to
@@ -98,10 +98,10 @@ tank's GUI.
 
 ### Security
 A portable tank can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Enchantments
-A portable tank can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
+A portable tank can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -113,13 +113,13 @@ capacity.
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Redprints
-A portable tank's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/) to
+A portable tank's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to
 be copied to other portable tanks.
 
 ### Light source
 A portable tank will emit light when it contains a fluid that emits light, like
 [lava](https://minecraft.gamepedia.com/Lava) or [energized
-glowstone](/docs/1.12/thermal-foundation/energized-glowstone/).
+glowstone](../../thermal-foundation/energized-glowstone/).
 
 ### Redstone comparators
 When placed next to a portable tank, a [redstone
@@ -130,7 +130,7 @@ strength of between 0 and 15, depending on how full the tank is.
 Tiers
 -----
 
-Portable tanks come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Portable tanks come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

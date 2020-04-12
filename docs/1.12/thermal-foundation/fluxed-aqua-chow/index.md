@@ -14,8 +14,8 @@ recipes:
 
 
 **Fluxed Aqua-Chow** is a type of fish bait that can be used by [aquatic
-entanglers](/docs/1.12/thermal-expansion/aquatic-entangler/). It is the strongest of its kind,
-surpassing the [regular](/docs/1.12/thermal-foundation/aqua-chow/) and [rich](/docs/1.12/thermal-foundation/rich-aqua-chow/)
+entanglers](../../thermal-expansion/aquatic-entangler/). It is the strongest of its kind,
+surpassing the [regular](../aqua-chow/) and [rich](../rich-aqua-chow/)
 versions.
 
 
@@ -31,5 +31,5 @@ Usage
 
 ### Aquatic Entangler
 When fluxed Aqua-Chow is used in an [aquatic
-entangler](/docs/1.12/thermal-expansion/aquatic-entangler/), it produces four times as much
+entangler](../../thermal-expansion/aquatic-entangler/), it produces four times as much
 [fish](https://minecraft.gamepedia.com/Fish).

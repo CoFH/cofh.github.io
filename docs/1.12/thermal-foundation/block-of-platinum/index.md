@@ -19,7 +19,7 @@ usage-recipes:
 ---
 
 **Blocks of platinum** are blocks made from [platinum
-ingots](/docs/1.12/thermal-foundation/platinum-ingot/).
+ingots](../platinum-ingot/).
 
 
 Obtaining
@@ -36,7 +36,7 @@ Usage
 -----
 
 ### Storage
-Blocks of platinum can be used to store [platinum ingots](/docs/1.12/thermal-foundation/platinum-ingot/)
+Blocks of platinum can be used to store [platinum ingots](../platinum-ingot/)
 in a compact way.
 
 ### Light source

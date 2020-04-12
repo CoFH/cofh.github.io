@@ -18,7 +18,7 @@ recipes:
 > Any tool is a hammer if you really need one.
 
 
-A **crescent hammer** is a type of [wrench](/docs/1.12/wrenches/) added by the
+A **crescent hammer** is a type of [wrench](../../wrenches/) added by the
 Thermal Series.
 
 
@@ -32,7 +32,7 @@ Obtaining
 Usage
 -----
 
-A crescent hammer serves as a [wrench](/docs/1.12/wrenches/#usage).
+A crescent hammer serves as a [wrench](../../wrenches/#usage).
 
 ### Weapon
 When used as a weapon, a crescent hammer deals 2 damage.

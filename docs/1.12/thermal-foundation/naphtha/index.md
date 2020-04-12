@@ -22,11 +22,11 @@ usage-recipes:
 ![Naphtha](/assets/images/thermal-foundation-2/naphtha.gif){:style="height: 128px"}
 
 
-**Naphtha** is a fluid obtained by processing [crude oil](/docs/1.12/thermal-foundation/crude-oil/) or
-[liquifacted coal](/docs/1.12/thermal-foundation/liquifacted-coal/) in a [fractionating
-still](/docs/1.12/thermal-expansion/fractionating-still/). It can be used as fuel in a [compression
-dynamo](/docs/1.12/thermal-expansion/compression-dynamo/), or processed into [refined
-fuel](/docs/1.12/thermal-foundation/refined-fuel/).
+**Naphtha** is a fluid obtained by processing [crude oil](../crude-oil/) or
+[liquifacted coal](../liquifacted-coal/) in a [fractionating
+still](../../thermal-expansion/fractionating-still/). It can be used as fuel in a [compression
+dynamo](../../thermal-expansion/compression-dynamo/), or processed into [refined
+fuel](../refined-fuel/).
 
 
 Obtaining
@@ -52,7 +52,7 @@ Naphtha cannot be placed as a block.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression
-dynamo](/docs/1.12/thermal-expansion/compression-dynamo/), a bucket of naphtha yields
+dynamo](../../thermal-expansion/compression-dynamo/), a bucket of naphtha yields
 1,000,000 RF.
 
 

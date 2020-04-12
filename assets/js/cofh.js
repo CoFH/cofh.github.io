@@ -38,15 +38,6 @@ $(function() {
             .append('<a href="#" class="uk-float-right uk-margin-right cofh-clickable-icon" title="Top of Page"><i class="uk-icon-chevron-up"></i></a>');
     });
 
-    $(".uk-container a[href^='/docs/']").each(function(i, anchor) {
-        $anchor = $(anchor);
-        var href = $anchor.attr('href').split('/#')[0];
-        for (var i = 0; i < pages.length; i++) {
-            if (pages[i].url.indexOf(href) !== -1) return;
-        }
-        $anchor.addClass('uk-text-danger');
-    });
-
     $('.cofh-search').on('selectitem.uk.autocomplete', function(event, data) {
         window.location.href = window.location.protocol + '//' + window.location.host + data.url;
     });

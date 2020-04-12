@@ -19,7 +19,7 @@ usage-recipes:
 ---
 
 **Fluxed electrum blocks** are blocks made from [fluxed electrum
-ingots](/docs/1.12/redstone-arsenal/fluxed-electrum-ingot/).
+ingots](../fluxed-electrum-ingot/).
 
 
 Obtaining
@@ -37,7 +37,7 @@ Usage
 
 ### Storage
 Fluxed electrum blocks can be used to store [fluxed electrum
-ingots](/docs/1.12/redstone-arsenal/fluxed-electrum-ingot/) in a compact way.
+ingots](../fluxed-electrum-ingot/) in a compact way.
 
 ### Damage
 A fluxed electrum block damages entities that touch it. It deals 2 damage every
@@ -45,7 +45,7 @@ half-second, regardless of armor.
 
 ### Charging items
 A fluxed electrum block charges items held by a player that touches it. Items
-that can store [Redstone Flux](/docs/redstone-flux/) are charged at a rate of
+that can store [Redstone Flux](../../../redstone-flux/) are charged at a rate of
 100 RF/t while the player takes damage.
 
 ### Light source

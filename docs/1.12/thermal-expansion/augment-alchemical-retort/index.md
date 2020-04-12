@@ -13,9 +13,9 @@ recipes:
   - te-1-12-augment-machine-refinery-potion
 ---
 
-An **alchemical retort** is an [augment](/docs/1.12/thermal-expansion/augments/) that allows for a
-[fractionating still](/docs/1.12/thermal-expansion/fractionating-still/) to refine [fluid
-potions](/docs/1.12/thermal-foundation/potion-fluid/), increasing their potency to levels that cannot be
+An **alchemical retort** is an [augment](../augments/) that allows for a
+[fractionating still](../fractionating-still/) to refine [fluid
+potions](../../thermal-foundation/potion-fluid/), increasing their potency to levels that cannot be
 obtained through [brewing](https://minecraft.gamepedia.com/Brewing).
 
 
@@ -31,16 +31,16 @@ Usage
 
 ### Installation
 An alchemical retort can be installed in the Augmentation tab in a
-[fractionating still](/docs/1.12/thermal-expansion/fractionating-still/)'s GUI. It is a specialization
+[fractionating still](../fractionating-still/)'s GUI. It is a specialization
 that cannot be installed together with other specialization augments.
 
 ### Effects
-A [fractionating still](/docs/1.12/thermal-expansion/fractionating-still/) with an alchemical retort
-installed can refine level II [fluid potions](/docs/1.12/thermal-foundation/potion-fluid/) to increase
-their potency to [levels up to IV](/docs/1.12/cofh-core/potions/#stronger-potions).
+A [fractionating still](../fractionating-still/) with an alchemical retort
+installed can refine level II [fluid potions](../../thermal-foundation/potion-fluid/) to increase
+their potency to [levels up to IV](../../cofh-core/potions/#stronger-potions).
 It can also refine the extended versions of potions (brewed using
 [redstone](https://minecraft.gamepedia.com/Redstone)) to increase their potency
-to [levels up to III](/docs/1.12/cofh-core/potions/#stronger-potions). However, the
+to [levels up to III](../../cofh-core/potions/#stronger-potions). However, the
 machine cannot process anything other than potions.
 
 Refining a fluid potion requires 2,500 RF per operation. The amount of fluid

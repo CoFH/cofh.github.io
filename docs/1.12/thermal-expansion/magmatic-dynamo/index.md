@@ -23,7 +23,7 @@ augments:
 - dynamo-magmatic-coolant
 ---
 
-A **magmatic dynamo** is a [dynamo](/docs/1.12/thermal-expansion/dynamos/) fueled by hot fluids like
+A **magmatic dynamo** is a [dynamo](../dynamos/) fueled by hot fluids like
 [lava](https://minecraft.gamepedia.com/Lava).
 
 
@@ -31,7 +31,7 @@ Obtaining
 ---------
 
 A placed magmatic dynamo can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -40,8 +40,8 @@ this can be much slower.
 
 ### Upgrading
 A magmatic dynamo is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -50,11 +50,11 @@ Usage
 ### Placement
 When placed, a magmatic dynamo faces up. When placed while sneaking, it faces
 away from the player. A magmatic dynamo can face any direction, and can be
-rotated using a [wrench](/docs/1.12/wrenches/).
+rotated using a [wrench](../../wrenches/).
 
 ### Energy generation
 When a magmatic dynamo is filled with fluid [fuel](#fuels), it will start
-consuming it to generate [Redstone Flux](/docs/redstone-flux/). Fuel is consumed
+consuming it to generate [Redstone Flux](../../../redstone-flux/). Fuel is consumed
 in batches of 100 mB. Every batch of fuel yields a certain amount of energy when
 consumed.
 
@@ -68,14 +68,14 @@ When an active magmatic dynamo cannot emit the energy it generates, it will keep
 working at its minimum power output (a tenth of its maximum power output). Any
 more energy that is generated in this case is lost. This can be resolved by
 installing an [excitation field
-limiter](/docs/1.12/thermal-expansion/augment-excitation-field-limiter/).
+limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A magmatic dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
+A magmatic dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Fluids can enter a magmatic dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil
-ducting](/docs/1.12/thermal-expansion/augment-transmission-coil-ducting/) is installed.
+ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 A magmatic dynamo may be configured to respond to
@@ -100,10 +100,10 @@ energy from that batch first.
 
 ### Security
 A magmatic dynamo can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A magmatic dynamo's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/)
+A magmatic dynamo's configuration can be saved on a [redprint](../../thermal-foundation/redprint/)
 to be copied to other dynamos.
 
 ### Light source
@@ -113,7 +113,7 @@ When a magmatic dynamo is active, it emits a light level of 14.
 Tiers
 -----
 
-Magmatic dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Magmatic dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -132,7 +132,7 @@ Magmatic dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-A magmatic dynamo can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+A magmatic dynamo can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the dynamo's [tier](#tiers). A basic magmatic dynamo cannot
 be augmented.
@@ -151,7 +151,7 @@ amounts of energy.
 | Fuel | Energy per 1,000 mB |
 |---
 | [Lava](https://minecraft.gamepedia.com/Lava) | 120,000 RF |
-| [Blazing Pyrotheum](/docs/1.12/thermal-foundation/blazing-pyrotheum/) | 2,000,000 RF |
+| [Blazing Pyrotheum](../../thermal-foundation/blazing-pyrotheum/) | 2,000,000 RF |
 | Pahoehoe Lava ([IndustrialCraft²](https://www.industrial-craft.net/)) | 80,000 RF |
 | Hot Coolant ([IndustrialCraft²](https://www.industrial-craft.net/)) | 40,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

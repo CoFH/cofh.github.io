@@ -23,7 +23,7 @@ usage-recipes:
 
 
 **Enderium gears** are crafting materials made of
-[enderium](/docs/1.12/thermal-foundation/enderium-ingot/).
+[enderium](../enderium-ingot/).
 
 
 Obtaining

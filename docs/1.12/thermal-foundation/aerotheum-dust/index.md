@@ -27,7 +27,7 @@ usage-recipes:
 
 
 **Aerotheum dust** is the air elemental dust. It is most commonly used to make
-[zephyrean aerotheum](/docs/1.12/thermal-foundation/zephyrean-aerotheum/).
+[zephyrean aerotheum](../zephyrean-aerotheum/).
 
 
 Obtaining
@@ -50,8 +50,7 @@ Usage
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.usage-recipes.centrifuge %}
 
 ### Reactant Dynamo fuel
-When used together with 100 mB of [tectonic
-petrotheum](/docs/1.12/thermal-foundation/tectonic-petrotheum/) as fuel in a [reactant
-dynamo](/docs/1.12/thermal-expansion/reactant-dynamo/), aerotheum dust yields 400,000 RF per piece, or
-500,000 RF if an [elemental catalyzer](/docs/1.12/thermal-expansion/augment-elemental-catalyzer/) is
-installed.
+When used together with 100 mB of [tectonic petrotheum](../tectonic-petrotheum/)
+as fuel in a [reactant dynamo](../../thermal-expansion/reactant-dynamo/),
+aerotheum dust yields 400,000 RF per piece, or 500,000 RF if an [elemental
+catalyzer](../../thermal-expansion/augment-elemental-catalyzer/) is installed.

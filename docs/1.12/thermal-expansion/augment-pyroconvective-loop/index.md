@@ -13,8 +13,8 @@ recipes:
   - te-1-12-augment-machine-crucible-lava
 ---
 
-A **pyroconvective loop** is an [augment](/docs/1.12/thermal-expansion/augments/) that greatly
-increases the processing speed of a [magma crucible](/docs/1.12/thermal-expansion/magma-crucible/) that
+A **pyroconvective loop** is an [augment](../augments/) that greatly
+increases the processing speed of a [magma crucible](../magma-crucible/) that
 produces [lava](https://minecraft.gamepedia.com/Lava).
 
 
@@ -30,11 +30,11 @@ Usage
 
 ### Installation
 A pyroconvective loop can be installed in the Augmentation tab in a [magma
-crucible](/docs/1.12/thermal-expansion/magma-crucible/)'s GUI. It is a specialization that cannot be
+crucible](../magma-crucible/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
 An installed pyroconvective loop increases a [magma
-crucible](/docs/1.12/thermal-expansion/magma-crucible/)'s maximum power usage by a factor of 10,
+crucible](../magma-crucible/)'s maximum power usage by a factor of 10,
 thereby greatly increasing its processing speed. However, the machine can only
 produce [lava](https://minecraft.gamepedia.com/Lava).

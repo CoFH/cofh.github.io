@@ -14,8 +14,8 @@ recipes:
   - te-1-12-augment-machine-secondary
 ---
 
-An **auxiliary sieve** is an [augment](/docs/1.12/thermal-expansion/augments/) that increases the
-chances of an applicable [machine](/docs/1.12/thermal-expansion/machines/) producing a secondary
+An **auxiliary sieve** is an [augment](../augments/) that increases the
+chances of an applicable [machine](../machines/) producing a secondary
 product.
 
 
@@ -31,15 +31,15 @@ Usage
 
 ### Installation
 An auxiliary sieve can be installed in the Augmentation tab in a
-[machine](/docs/1.12/thermal-expansion/machines/)'s GUI. It can be installed multiple times, stacking
+[machine](../machines/)'s GUI. It can be installed multiple times, stacking
 its effects.
 
 Auxiliary sieves can only be installed in machines that can produce secondary
-products, like [pulverizers](/docs/1.12/thermal-expansion/pulverizer/) and [induction
-smelters](/docs/1.12/thermal-expansion/induction-smelter/).
+products, like [pulverizers](../pulverizer/) and [induction
+smelters](../induction-smelter/).
 
 ### Effects
-Installed auxiliary sieves increase the chances of a [machine](/docs/1.12/thermal-expansion/machines/)
+Installed auxiliary sieves increase the chances of a [machine](../machines/)
 producing a secondary product. However, they also increase the amount of energy
 required per operation.
 

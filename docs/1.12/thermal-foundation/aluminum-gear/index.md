@@ -20,7 +20,7 @@ usage-recipes:
 
 
 **Aluminum gears** are crafting materials made of
-[aluminum](/docs/1.12/thermal-foundation/aluminum-ingot/). They are currently not used for anything.
+[aluminum](../aluminum-ingot/). They are currently not used for anything.
 
 
 Obtaining

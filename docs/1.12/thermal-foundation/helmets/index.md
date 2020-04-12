@@ -44,7 +44,7 @@ usage-recipes:
 
 **[Helmets](https://minecraft.gamepedia.com/Helmet)** are a type of
 [armor](https://minecraft.gamepedia.com/Armor) in vanilla Minecraft. [Thermal
-Foundation](/docs/1.12/thermal-foundation/) adds a set of helmets made of various
+Foundation](../) adds a set of helmets made of various
 metals.
 
 

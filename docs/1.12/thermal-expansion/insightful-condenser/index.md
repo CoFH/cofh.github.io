@@ -13,16 +13,16 @@ recipes:
   - te-1-12-device-xp-collector
 ---
 
-An **insightful condenser** is a [device](/docs/1.12/thermal-expansion/devices/) that collects nearby
+An **insightful condenser** is a [device](../devices/) that collects nearby
 [experience orbs](https://minecraft.gamepedia.com/Experience) and converts them
-into [essence of knowledge](/docs/1.12/thermal-foundation/essence-of-knowledge/).
+into [essence of knowledge](../../thermal-foundation/essence-of-knowledge/).
 
 
 Obtaining
 ---------
 
 A placed insightful condenser can be instantly picked up by dismantling it with
-a [wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -34,13 +34,13 @@ Usage
 
 ### Placement
 When placed, an insightful condenser faces the player. It can face any of the
-four cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
 An active insightful condenser collects any [experience
 orbs](https://minecraft.gamepedia.com/Experience) in a 5x5x5 area centered on
 the device. The experience it collects is converted into [essence of
-knowledge](/docs/1.12/thermal-foundation/essence-of-knowledge/) (20 mB per experience
+knowledge](../../thermal-foundation/essence-of-knowledge/) (20 mB per experience
 point) and stored in the device's output tank. The device attempts to collect
 and convert experience every 16 ticks (0.8 seconds), or directly after it is
 activated by a [redstone signal](#redstone-control).
@@ -54,7 +54,7 @@ consumed.
 |---
 | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | × 1.5 | 50 XP |
 | [Lapis Lazuli](https://minecraft.gamepedia.com/Lapis_Lazuli) | × 2 | 100 XP |
-| [Mana Dust](/docs/1.12/thermal-foundation/mana-dust/) | × 2.5 | 200 XP |
+| [Mana Dust](../../thermal-foundation/mana-dust/) | × 2.5 | 200 XP |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Input and output
@@ -92,11 +92,11 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An insightful condenser can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An insightful condenser's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other insightful condensers.
+[redprint](../../thermal-foundation/redprint/) to be copied to other insightful condensers.
 
 ### Light source
 When an insightful condenser is active, it emits a light level of 2.

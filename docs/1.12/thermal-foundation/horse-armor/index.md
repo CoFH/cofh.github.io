@@ -60,7 +60,7 @@ redirect_from:
 ---
 
 **[Horse armor](https://minecraft.gamepedia.com/Horse_Armor)** is a type of item
-in vanilla Minecraft. [Thermal Foundation](/docs/1.12/thermal-foundation/) adds a set
+in vanilla Minecraft. [Thermal Foundation](../) adds a set
 of horse armor variants made of various metals.
 
 

@@ -23,7 +23,7 @@ augments:
 - dynamo-steam-turbine
 ---
 
-A **steam dynamo** is a [dynamo](/docs/1.12/thermal-expansion/dynamos/) fueled by
+A **steam dynamo** is a [dynamo](../dynamos/) fueled by
 [water](https://minecraft.gamepedia.com/Water) and solid fuel.
 
 
@@ -31,7 +31,7 @@ Obtaining
 ---------
 
 A placed steam dynamo can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -40,8 +40,8 @@ this can be much slower.
 
 ### Upgrading
 A steam dynamo is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -50,13 +50,13 @@ Usage
 ### Placement
 When placed, a steam dynamo faces up. When placed while sneaking, it faces away
 from the player. A steam dynamo can face any direction, and can be rotated using
-a [wrench](/docs/1.12/wrenches/).
+a [wrench](../../wrenches/).
 
 ### Energy generation
 A steam dynamo has a fuel slot and a
 [water](https://minecraft.gamepedia.com/Water) tank. When [fuel](#fuels) is
 placed in its fuel slot and the tank is filled with water, the dynamo will start
-consuming both to generate [Redstone Flux](/docs/redstone-flux/). Every unit of
+consuming both to generate [Redstone Flux](../../../redstone-flux/). Every unit of
 fuel yields a certain amount of energy when consumed. Water is consumed in
 batches of 100 mB to generate 25,000 RF at a time.
 
@@ -70,14 +70,14 @@ When an active steam dynamo cannot emit the energy it generates, it will keep
 working at its minimum power output (a tenth of its maximum power output). Any
 more energy that is generated in this case is lost. This can be resolved by
 installing an [excitation field
-limiter](/docs/1.12/thermal-expansion/augment-excitation-field-limiter/).
+limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A steam dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil, which
+A steam dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil, which
 points in the direction the dynamo is facing. It only emits energy when it is
 active. Fuel and water can enter a steam dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil
-ducting](/docs/1.12/thermal-expansion/augment-transmission-coil-ducting/) is installed.
+ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 A steam dynamo may be configured to respond to
@@ -102,21 +102,21 @@ unit of fuel first.
 
 ### Security
 A steam dynamo can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A steam dynamo's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/) to
+A steam dynamo's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to
 be copied to other dynamos.
 
 ### Light source
-When a steam dynamo that produces [Redstone Flux](/docs/redstone-flux/) is
+When a steam dynamo that produces [Redstone Flux](../../../redstone-flux/) is
 active, it emits a light level of 7.
 
 
 Tiers
 -----
 
-Steam dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Steam dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -135,7 +135,7 @@ Steam dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-A steam dynamo can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve certain
+A steam dynamo can have [augments](../augments/) installed to improve certain
 properties or to change how it works. The amount of augments that can be
 installed depends on the dynamo's [tier](#tiers). A basic steam dynamo cannot be
 augmented.
@@ -157,12 +157,12 @@ buckets](https://minecraft.gamepedia.com/Lava_Bucket).
 |---
 | [Coal](https://minecraft.gamepedia.com/Coal) | 24,000 RF |
 | [Block of Coal](https://minecraft.gamepedia.com/Block_of_Coal) | 240,000 RF |
-| [Pulverized Coal](/docs/1.12/thermal-foundation/pulverized-coal/) | 24,000 RF |
+| [Pulverized Coal](../../thermal-foundation/pulverized-coal/) | 24,000 RF |
 | [Charcoal](https://minecraft.gamepedia.com/Charcoal) | 16,000 RF |
-| [Block of Charcoal](/docs/1.12/thermal-foundation/block-of-charcoal/) | 160,000 RF |
-| [Pulverized Charcoal](/docs/1.12/thermal-foundation/pulverized-charcoal/) | 16,000 RF |
-| [Coal Coke](/docs/1.12/thermal-foundation/coal-coke/) | 40,000 RF |
-| [Block of Coal Coke](/docs/1.12/thermal-foundation/block-of-coal-coke/) | 400,000 RF |
+| [Block of Charcoal](../../thermal-foundation/block-of-charcoal/) | 160,000 RF |
+| [Pulverized Charcoal](../../thermal-foundation/pulverized-charcoal/) | 16,000 RF |
+| [Coal Coke](../../thermal-foundation/coal-coke/) | 40,000 RF |
+| [Block of Coal Coke](../../thermal-foundation/block-of-coal-coke/) | 400,000 RF |
 | Any other [furnace](https://minecraft.gamepedia.com/Furnace) fuel* | (Burn time in ticks × 10) RF
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 

@@ -105,7 +105,7 @@ usage-recipes:
 
 
 **Copper ingots** are raw materials obtained from [copper
-ore](/docs/1.12/thermal-foundation/copper-ore/).
+ore](../copper-ore/).
 
 
 Obtaining
@@ -149,8 +149,8 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, molten copper can be mixed with molten
-  [nickel](/docs/1.12/thermal-foundation/nickel-ingot/) to make molten
-  [constantan](/docs/1.12/thermal-foundation/constantan-ingot/), or with molten
-  [silver](/docs/1.12/thermal-foundation/silver-ingot/) and [destabilized
-  redstone](/docs/1.12/thermal-foundation/destabilized-redstone/) to make molten
-  [signalum](/docs/1.12/thermal-foundation/signalum-ingot/).
+  [nickel](../nickel-ingot/) to make molten
+  [constantan](../constantan-ingot/), or with molten
+  [silver](../silver-ingot/) and [destabilized
+  redstone](../destabilized-redstone/) to make molten
+  [signalum](../signalum-ingot/).

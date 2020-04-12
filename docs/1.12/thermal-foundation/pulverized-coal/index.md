@@ -52,7 +52,7 @@ Usage
 {% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Steam Dynamo fuel
-When used as fuel in a [steam dynamo](/docs/1.12/thermal-expansion/steam-dynamo/),
+When used as fuel in a [steam dynamo](../../thermal-expansion/steam-dynamo/),
 pulverized coal yields 24,000 RF per piece. Unlike most steam dynamo fuels,
 pulverized coal cannot also be used as
 [furnace](https://minecraft.gamepedia.com/Furnace) fuel.

@@ -22,7 +22,7 @@ usage-recipes:
 ![Nickel gear](/assets/images/thermal-foundation-2/gear-nickel.png){:style="height: 128px"}
 
 
-**Nickel gears** are crafting materials made of [nickel](/docs/1.12/thermal-foundation/nickel-ingot/).
+**Nickel gears** are crafting materials made of [nickel](../nickel-ingot/).
 
 
 Obtaining

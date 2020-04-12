@@ -18,7 +18,7 @@ usage-recipes:
   - tf-1-12-ingot-tin-from-block
 ---
 
-**Blocks of tin** are blocks made from [tin ingots](/docs/1.12/thermal-foundation/tin-ingot/).
+**Blocks of tin** are blocks made from [tin ingots](../tin-ingot/).
 
 
 Obtaining
@@ -35,7 +35,7 @@ Usage
 -----
 
 ### Storage
-Blocks of tin can be used to store [tin ingots](/docs/1.12/thermal-foundation/tin-ingot/) in a compact
+Blocks of tin can be used to store [tin ingots](../tin-ingot/) in a compact
 way.
 
 ### Mob spawning

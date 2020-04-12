@@ -26,8 +26,8 @@ usage-recipes:
 
 
 **Nickel ore** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
-yields [nickel](/docs/1.12/thermal-foundation/nickel-ingot/) and small amounts of
-[platinum](/docs/1.12/thermal-foundation/platinum-ingot/).
+yields [nickel](../nickel-ingot/) and small amounts of
+[platinum](../platinum-ingot/).
 
 
 Obtaining
@@ -58,15 +58,15 @@ Usage
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When nickel ore is broken using a [Smashing](/docs/1.12/cofh-core/smashing/)
+When nickel ore is broken using a [Smashing](../../cofh-core/smashing/)
 enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
-two piles of [pulverized nickel](/docs/1.12/thermal-foundation/pulverized-nickel/)
+two piles of [pulverized nickel](../pulverized-nickel/)
 are dropped instead of the ore.
 
 
 Trivia
 ------
 
-* Nickel ore is generated in the world using [CoFH World](/docs/1.12/cofh-world/) by
+* Nickel ore is generated in the world using [CoFH World](../../cofh-world/) by
   default. The world generation can be tweaked or disabled using CoFH World's
-  [configuration](/docs/1.12/cofh-world/world-generator-configuration/).
+  [configuration](../../cofh-world/world-generator-configuration/).

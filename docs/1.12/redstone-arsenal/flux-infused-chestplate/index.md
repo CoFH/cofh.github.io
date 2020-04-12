@@ -15,7 +15,7 @@ recipes:
 
 A **flux-infused chestplate** is a powerful
 [chestplate](https://minecraft.gamepedia.com/Chestplate) powered by [Redstone
-Flux](/docs/redstone-flux/).
+Flux](../../../redstone-flux/).
 
 
 Obtaining
@@ -29,12 +29,13 @@ Usage
 -----
 
 ### Charging
-A flux-infused chestplate can hold up to 800,000 [RF](/docs/redstone-flux/). It
-can be charged using an [energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/), a [flux
-capacitor](/docs/1.12/thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
-a [fluxed electrum block](/docs/1.12/redstone-arsenal/fluxed-electrum-block/) or [flux crystal
-block](/docs/1.12/redstone-arsenal/flux-crystal-block) while holding it. It can be charged at rates up
-to 4,000 RF/t.
+A flux-infused chestplate can hold up to 800,000 [RF](../../../redstone-flux/).
+It can be charged using an [energetic
+infuser](../../thermal-expansion/energetic-infuser/), a [flux
+capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be
+charged by touching a [fluxed electrum block](../fluxed-electrum-block/) or
+[flux crystal block](../flux-crystal-block) while holding it. It can be charged
+at rates up to 4,000 RF/t.
 
 ### Defense
 A charged flux-infused chestplate offers the same protection as a [diamond
@@ -55,7 +56,7 @@ all the enchantments that other chestplates can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused chestplate has a chance to not consume [Redstone
-Flux](/docs/redstone-flux/) when absorbing damage.
+Flux](../../../redstone-flux/) when absorbing damage.
 
 | Unbreaking level | No energy use chance |
 |---
@@ -64,8 +65,8 @@ Flux](/docs/redstone-flux/) when absorbing damage.
 | III | 57% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
-A flux-infused chestplate can also be enchanted with [Holding](/docs/1.12/cofh-core/holding/)
-to increase its energy capacity.
+A flux-infused chestplate can also be enchanted with
+[Holding](../../cofh-core/holding/) to increase its energy capacity.
 
 | Holding level | Capacity multiplier |
 |---

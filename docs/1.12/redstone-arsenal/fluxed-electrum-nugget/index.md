@@ -18,7 +18,7 @@ usage-recipes:
 ---
 
 **Fluxed electrum nuggets** are raw materials. They are the nugget form of
-[fluxed electrum](/docs/1.12/redstone-arsenal/fluxed-electrum-ingot/).
+[fluxed electrum](../fluxed-electrum-ingot/).
 
 
 Obtaining

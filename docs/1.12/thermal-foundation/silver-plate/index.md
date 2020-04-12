@@ -21,7 +21,7 @@ usage-recipes:
 ![Silver plate](/assets/images/thermal-foundation-2/plate-silver.png){:style="height: 128px"}
 
 
-**Silver plates** are crafting materials made of [silver](/docs/1.12/thermal-foundation/silver-ingot/).
+**Silver plates** are crafting materials made of [silver](../silver-ingot/).
 
 
 Obtaining

@@ -22,7 +22,7 @@ usage-recipes:
 ![Lumium gear](/assets/images/thermal-foundation-2/gear-lumium.png){:style="height: 128px"}
 
 
-**Lumium gears** are crafting materials made of [lumium](/docs/1.12/thermal-foundation/lumium-ingot/).
+**Lumium gears** are crafting materials made of [lumium](../lumium-ingot/).
 
 
 Obtaining

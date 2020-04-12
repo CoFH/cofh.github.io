@@ -22,11 +22,11 @@ redirect_from:
 ---
 
 **Seed oil** is a fluid obtained from various kinds of seeds. It can be used to
-turn [pulped biomass](/docs/1.12/thermal-foundation/pulped-biomass/) into [rich
-biomass](/docs/1.12/thermal-foundation/rich-biomass/) and [pulped
-bioblend](/docs/1.12/thermal-foundation/pulped-bioblend/) into [rich
-bioblend](/docs/1.12/thermal-foundation/rich-bioblend/). It can also be used as fuel
-in a [compression dynamo](/docs/1.12/thermal-expansion/compression-dynamo/).
+turn [pulped biomass](../pulped-biomass/) into [rich
+biomass](../rich-biomass/) and [pulped
+bioblend](../pulped-bioblend/) into [rich
+bioblend](../rich-bioblend/). It can also be used as fuel
+in a [compression dynamo](../../thermal-expansion/compression-dynamo/).
 
 
 Obtaining
@@ -46,5 +46,5 @@ Seed oil cannot be placed as a block.
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression
-dynamo](/docs/1.12/thermal-expansion/compression-dynamo/), a bucket of seed oil
+dynamo](../../thermal-expansion/compression-dynamo/), a bucket of seed oil
 yields 80,000 RF.

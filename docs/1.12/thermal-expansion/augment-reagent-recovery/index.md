@@ -13,8 +13,8 @@ recipes:
   - te-1-12-augment-machine-brewer-reagent
 ---
 
-A **reagent recovery** [augment](/docs/1.12/thermal-expansion/augments/) provides a chance for an
-[alchemical imbuer](/docs/1.12/thermal-expansion/alchemical-imbuer/) to not consume reagents
+A **reagent recovery** [augment](../augments/) provides a chance for an
+[alchemical imbuer](../alchemical-imbuer/) to not consume reagents
 ([brewing](https://minecraft.gamepedia.com/Brewing) ingredients).
 
 
@@ -30,12 +30,12 @@ Usage
 
 ### Installation
 A reagent recovery augment can be installed in the Augmentation tab in an
-[alchemical imbuer](/docs/1.12/thermal-expansion/alchemical-imbuer/)'s GUI. It can be installed
+[alchemical imbuer](../alchemical-imbuer/)'s GUI. It can be installed
 multiple times, stacking its effects.
 
 ### Effects
 Installed reagent recovery augments provide a chance for a [alchemical
-imbuer](/docs/1.12/thermal-expansion/alchemical-imbuer/) to not consume a reagent
+imbuer](../alchemical-imbuer/) to not consume a reagent
 ([brewing](https://minecraft.gamepedia.com/Brewing) ingredient) after an
 operation. However, they also increase the amount of energy required per
 operation.

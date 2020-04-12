@@ -36,9 +36,9 @@ usage-recipes:
 
 **Niter** is a byproduct of processing
 [sandstone](https://minecraft.gamepedia.com/Sandstone) or [blitz
-rods](/docs/1.12/thermal-foundation/blitz-rod/) in a [pulverizer](/docs/1.12/thermal-expansion/pulverizer/). It can be used to
+rods](../blitz-rod/) in a [pulverizer](../../thermal-expansion/pulverizer/). It can be used to
 craft [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [aerotheum
-dust](/docs/1.12/thermal-foundation/aerotheum-dust/) and [Phyto-Gro](/docs/1.12/thermal-foundation/phyto-gro/).
+dust](../aerotheum-dust/) and [Phyto-Gro](../phyto-gro/).
 
 
 Obtaining
@@ -48,7 +48,7 @@ Obtaining
 {% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Blitzes
-A [blitz](/docs/1.12/thermal-foundation/blitz/) may drop up to two pieces of niter when killed by a
+A [blitz](../blitz/) may drop up to two pieces of niter when killed by a
 player.
 
 ### Centrifugal Separator

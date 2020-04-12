@@ -17,7 +17,6 @@ the mods of Team CoFH for that version of the game. It must be installed in
 order for the mods to run.
 
 Other than providing common functionality for the other mods, CoFH Core also
-provides a set of useful [commands](/docs/1.12/cofh-core/commands/), some
-configurable [game tweaks](/docs/1.12/cofh-core/tweaks/), a [friend
-list](/docs/1.12/cofh-core/friend-list/), and several new enchantments. It also
-notifies players of updates for the CoFH mods.
+provides a set of useful [commands](commands/), some configurable [game
+tweaks](tweaks/), a [friend list](friend-list/), and several new enchantments.
+It also notifies players of updates for the CoFH mods.

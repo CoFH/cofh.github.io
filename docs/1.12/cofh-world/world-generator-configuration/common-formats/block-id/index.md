@@ -5,8 +5,8 @@ redirect_from:
 ---
 
 A **block ID** is a format used while describing
-[features](/docs/1.12/cofh-world/world-generator-configuration/feature-format/) to
-specify a type of [block](https://minecraft.gamepedia.com/Block) in the world.
+[features](../../feature-format/) to specify a type of
+[block](https://minecraft.gamepedia.com/Block) in the world.
 
 
 Format

@@ -41,8 +41,8 @@ usage-recipes:
 
 **Redstone conductance coils** are crafting materials made of
 [redstone](https://minecraft.gamepedia.com/Redstone) and
-[electrum](/docs/1.12/thermal-foundation/electrum-ingot/). They are used to craft various things that
-work with [Redstone Flux](/docs/redstone-flux/).
+[electrum](../electrum-ingot/). They are used to craft various things that
+work with [Redstone Flux](../../../redstone-flux/).
 
 
 Obtaining

@@ -20,7 +20,7 @@ redirect_from:
 ---
 
 **[Bows](https://minecraft.gamepedia.com/Bow)** are weapons in vanilla
-Minecraft. [Vanilla+ Tools](/docs/1.12/vanillaplus-tools/) adds a set of
+Minecraft. [Vanilla+ Tools](../) adds a set of
 **reinforced bows**, which are bows made of materials other than wood.
 
 

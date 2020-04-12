@@ -10,8 +10,7 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/
 ---
 
-[CoFH World](/docs/1.12/cofh-world/) allows users and modpack makers to configure
-custom features to be generated in the world, such as ores, plants, boulders,
-spikes and lakes.
+[CoFH World](../) allows users and modpack makers to configure custom features
+to be generated in the world, such as ores, plants, boulders, spikes and lakes.
 
-<a class="uk-button uk-button-primary" href="/docs/1.12/cofh-world/world-generator-configuration/files/">Start at Files</a>
+<a class="uk-button uk-button-primary" href="files/">Start at Files</a>

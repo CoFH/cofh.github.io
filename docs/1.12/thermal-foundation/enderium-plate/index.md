@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Enderium plates** are crafting materials made of
-[enderium](/docs/1.12/thermal-foundation/enderium-ingot/). They are currently not used for anything.
+[enderium](../enderium-ingot/). They are currently not used for anything.
 
 
 Obtaining

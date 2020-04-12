@@ -4,20 +4,17 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/feature-types/structure/
 ---
 
-**`structure`** is one of the [feature
-types](/docs/1.12/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/1.12/cofh-world/). It generates structures loaded from NBT
-files; the same files that [structure
-blocks](https://minecraft.gamepedia.com/Structure_Block) use. One structure is
-generated per chunk.
+**`structure`** is one of the [feature types](../) provided by [CoFH
+World](../../../). It generates structures loaded from NBT files; the same files
+that [structure blocks](https://minecraft.gamepedia.com/Structure_Block) use.
+One structure is generated per chunk.
 
 
 Options
 -------
 
 When using this feature type, the following value must be added to the [feature
-type
-configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
+type configuration](../../feature-format/#feature-type-configuration).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -34,7 +31,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
                 <td markdown="span">`structure`</td>
                 <td markdown="span">
                     String / array of
-                    [weighted strings](/docs/1.12/cofh-world/world-generator-configuration/common-formats/weighted-string/)
+                    [weighted strings](../../common-formats/weighted-string/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -47,7 +44,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`ignored-block` (optional)</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td markdown="span">(None)</td>
@@ -71,8 +68,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`integrity` (optional)</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">`1`</td> <!-- actually 2 but that doesn't make a difference -->
                 <td markdown="span">
@@ -86,7 +82,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
                 <td markdown="span">`rotation` (optional)</td>
                 <td markdown="span">
                     String / array of
-                    [weighted strings](/docs/1.12/cofh-world/world-generator-configuration/common-formats/weighted-string/)
+                    [weighted strings](../../common-formats/weighted-string/)
                 </td>
                 <td markdown="span">(All rotations)</td>
                 <td markdown="span">
@@ -100,7 +96,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
                 <td markdown="span">`mirror` (optional)</td>
                 <td markdown="span">
                     String / array of
-                    [weighted strings](/docs/1.12/cofh-world/world-generator-configuration/common-formats/weighted-string/)
+                    [weighted strings](../../common-formats/weighted-string/)
                 </td>
                 <td markdown="span">`"NONE"`</td>
                 <td markdown="span">

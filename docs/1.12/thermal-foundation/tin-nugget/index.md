@@ -19,7 +19,7 @@ usage-recipes:
 
 
 **Tin nuggets** are raw materials. They are the nugget form of
-[tin](/docs/1.12/thermal-foundation/tin-ingot/).
+[tin](../tin-ingot/).
 
 
 Obtaining

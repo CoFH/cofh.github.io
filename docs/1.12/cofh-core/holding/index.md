@@ -19,32 +19,33 @@ Usage
 -----
 
 ### Thermal Foundation
-[Tomes of knowledge](/docs/1.12/thermal-foundation/tome-of-knowledge/) can be enchanted to hold more
-[experience](https://minecraft.gamepedia.com/Experience).
+[Tomes of knowledge](../../thermal-foundation/tome-of-knowledge/) can be
+enchanted to hold more [experience](https://minecraft.gamepedia.com/Experience).
 
 ### Thermal Expansion
 The following blocks and items can be enchanted to hold more items, fluids or
 energy:
 
-* [Energy Cell](/docs/1.12/thermal-expansion/energy-cell/)
-* [Flux Capacitor](/docs/1.12/thermal-expansion/flux-capacitor/)
-* [Portable Tank](/docs/1.12/thermal-expansion/portable-tank/)
-* [Reservoir](/docs/1.12/thermal-expansion/reservoir/)
-* [Cache](/docs/1.12/thermal-expansion/cache/)
-* [Strongbox](/docs/1.12/thermal-expansion/strongbox/)
-* [Satchel](/docs/1.12/thermal-expansion/satchel/)
+* [Energy Cell](../../thermal-expansion/energy-cell/)
+* [Flux Capacitor](../../thermal-expansion/flux-capacitor/)
+* [Portable Tank](../../thermal-expansion/portable-tank/)
+* [Reservoir](../../thermal-expansion/reservoir/)
+* [Cache](../../thermal-expansion/cache/)
+* [Strongbox](../../thermal-expansion/strongbox/)
+* [Satchel](../../thermal-expansion/satchel/)
 
 ### Thermal Cultivation
-[Watering cans](/docs/1.12/thermal-cultivation/watering-can/) can be enchanted to hold more water.
+[Watering cans](../../thermal-cultivation/watering-can/) can be enchanted to
+hold more water.
 
 ### Thermal Innovation
-All equipment added by [Thermal Innovation](/docs/1.12/thermal-innovation/) can be
+All equipment added by [Thermal Innovation](../../thermal-innovation/) can be
 enchanted to increase their capacity.
 
 ### Redstone Arsenal
-All equipment added by [Redstone Arsenal](/docs/1.12/redstone-arsenal/) can be
+All equipment added by [Redstone Arsenal](../../redstone-arsenal/) can be
 enchanted to hold more energy.
 
 ### Vanilla+ Satchels
-[Satchels](/docs/1.12/vanillaplus-satchels/satchel/) can be enchanted to hold more
+[Satchels](../../vanillaplus-satchels/satchel/) can be enchanted to hold more
 items.

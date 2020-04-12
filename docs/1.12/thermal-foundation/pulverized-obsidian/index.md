@@ -29,7 +29,7 @@ usage-recipes:
 
 **Pulverized obsidian** is a raw material that is most commonly obtained by
 processing [obsidian](https://minecraft.gamepedia.com/Obsidian) in a
-[pulverizer](/docs/1.12/thermal-expansion/pulverizer/).
+[pulverizer](../../thermal-expansion/pulverizer/).
 
 
 Obtaining
@@ -39,7 +39,7 @@ Obtaining
 {% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
 
 ### Basalzes
-A [basalz](/docs/1.12/thermal-foundation/basalz/) may drop up to two pieces of pulverized obsidian when
+A [basalz](../basalz/) may drop up to two pieces of pulverized obsidian when
 killed by a player.
 
 ### Centrifugal Separator
@@ -56,7 +56,7 @@ Usage
 When [brewing](https://minecraft.gamepedia.com/Brewing), pulverized obsidian can
 be added to an [awkward
 potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
-of resistance](/docs/1.12/cofh-core/potions/).
+of resistance](../../cofh-core/potions/).
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

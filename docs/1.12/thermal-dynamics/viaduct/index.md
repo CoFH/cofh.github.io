@@ -30,7 +30,7 @@ Obtaining
 ---------
 
 A placed viaduct can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). It can also be mined using a
+[wrench](../../wrenches/). It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -46,11 +46,11 @@ Usage
 ### Placement
 When placed, a viaduct connects to any adjacent viaducts. Any connected side of
 a viaduct can be disconnected and reconnected by using a
-[wrench](/docs/1.12/wrenches/) on it.
+[wrench](../../wrenches/) on it.
 
 ### Player transfer
 A side of a viaduct can be opened and closed by using a
-[wrench](/docs/1.12/wrenches/) on it. Every opened side in a network of viaducts
+[wrench](../../wrenches/) on it. Every opened side in a network of viaducts
 counts as both an entrance and a destination. Every destination can be given a
 name and an item icon.
 
@@ -61,7 +61,7 @@ time by sneaking.
 
 Players in a viaduct move at a speed of 10 blocks per second (2 ticks per
 block). The speed may be increased by using [long range
-viaducts](/docs/1.12/thermal-dynamics/long-range-viaduct/).
+viaducts](../long-range-viaduct/).
 
 
 ### Fluid Transposer ingredient

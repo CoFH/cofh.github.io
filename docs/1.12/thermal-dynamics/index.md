@@ -11,7 +11,5 @@ redirect_from:
 
 
 **Thermal Dynamics** is a mod for Minecraft 1.12. It adds blocks that transfer
-[energy](/docs/1.12/thermal-dynamics/fluxducts/),
-[fluids](/docs/1.12/thermal-dynamics/fluiduct/),
-[items](/docs/1.12/thermal-dynamics/itemduct/) and
-[players](/docs/1.12/thermal-dynamics/viaduct/).
+[energy](fluxducts/), [fluids](fluiduct/), [items](itemduct/) and
+[players](viaduct/).

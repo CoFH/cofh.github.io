@@ -16,7 +16,7 @@ recipes:
 
 
 An **aquatic entangler** (also known as a **fisher**) is a
-[device](/docs/1.12/thermal-expansion/devices/) that catches
+[device](../devices/) that catches
 [fish](https://minecraft.gamepedia.com/Fish).
 
 
@@ -24,7 +24,7 @@ Obtaining
 ---------
 
 A placed aquatic entangler can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -36,7 +36,7 @@ Usage
 
 ### Placement
 When placed, an aquatic entangler faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
 When placed in a body of [water](https://minecraft.gamepedia.com/Water), an
@@ -63,9 +63,9 @@ for 8 cycles per item.
 
 | Bait type | Production multiplier |
 |---
-| [Aqua-Chow](/docs/1.12/thermal-foundation/aqua-chow/) | × 2 |
-| [Rich Aqua-Chow](/docs/1.12/thermal-foundation/rich-aqua-chow/) | × 3 |
-| [Fluxed Aqua-Chow](/docs/1.12/thermal-foundation/fluxed-aqua-chow/) | × 4 |
+| [Aqua-Chow](../../thermal-foundation/aqua-chow/) | × 2 |
+| [Rich Aqua-Chow](../../thermal-foundation/rich-aqua-chow/) | × 3 |
+| [Fluxed Aqua-Chow](../../thermal-foundation/fluxed-aqua-chow/) | × 4 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Input and output
@@ -104,11 +104,11 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An aquatic entangler can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An aquatic entangler's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other aquatic entanglers.
+[redprint](../../thermal-foundation/redprint/) to be copied to other aquatic entanglers.
 
 
 Products

@@ -15,7 +15,7 @@ recipes:
   - tf-1-12-horse-armor-diamond
 ---
 
-[Thermal Foundation](/docs/1.12/thermal-foundation/) adds several recipes for items
+[Thermal Foundation](../) adds several recipes for items
 in vanilla Minecraft that normally cannot be crafted. These recipes can be
 disabled.
 

@@ -62,7 +62,7 @@ recipe-list:
 
 
 A **fluid transposer**, or **transposer** for short, is a
-[machine](/docs/1.12/thermal-expansion/machines/) that fills and empties items that hold fluids, like
+[machine](../machines/) that fills and empties items that hold fluids, like
 [buckets](https://minecraft.gamepedia.com/Bucket).
 
 
@@ -70,7 +70,7 @@ Obtaining
 ---------
 
 A placed fluid transposer can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -79,8 +79,8 @@ this can be much slower.
 
 ### Upgrading
 A fluid transposer is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -88,7 +88,7 @@ Usage
 
 ### Placement
 When placed, a fluid transposer faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 A fluid transposer can be in two modes: Fill and Empty.
@@ -96,7 +96,7 @@ A fluid transposer can be in two modes: Fill and Empty.
 In Fill mode, a fluid transposer fills or infuses items with fluids. When items
 are placed in a transposer's input slot in this mode and the input tank is
 filled with a fluid, the machine will start consuming [Redstone
-Flux](/docs/redstone-flux/) to fill the items with fixed amounts of fluid. Every
+Flux](../../../redstone-flux/) to fill the items with fixed amounts of fluid. Every
 item requires a certain amount of energy to fill with a certain amount of fluid.
 When enough energy has been consumed for an item, the input fluid is consumed. A
 fluid transposer will keep processing the same item until the item is full or
@@ -150,17 +150,17 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A fluid transposer can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A fluid transposer's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/)
+A fluid transposer's configuration can be saved on a [redprint](../../thermal-foundation/redprint/)
 to be copied to other transposers.
 
 
 Tiers
 -----
 
-Fluid transposers come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Fluid transposers come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -179,7 +179,7 @@ Fluid transposers come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-A fluid transposer can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+A fluid transposer can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic transposer cannot be
 augmented.
@@ -197,7 +197,7 @@ Recipes
   [buckets](https://minecraft.gamepedia.com/Bucket) can be filled with 1,000 mB
   of fluid for 400 RF.
 * [Glass bottles](https://minecraft.gamepedia.com/Glass_Bottle) can be filled
-  with [fluid potions](/docs/1.12/thermal-foundation/potion-fluid/) (250 mB each) for 800 RF.
+  with [fluid potions](../../thermal-foundation/potion-fluid/) (250 mB each) for 800 RF.
 * [Tipped arrows](https://minecraft.gamepedia.com/Tipped_arrows) can be made by
   infusing [arrows](https://minecraft.gamepedia.com/Arrow) with 25 mB of a fluid
   [lingering potion](https://minecraft.gamepedia.com/Lingering_Potion) for 400
@@ -208,7 +208,7 @@ Recipes
 ### Emptying
 * 1,000 mB of fluid can be drained from items that hold fluids such as filled
   [buckets](https://minecraft.gamepedia.com/Bucket) for 400 RF.
-* 250 mB of a [fluid potion](/docs/1.12/thermal-foundation/potion-fluid/) can be drained from a
+* 250 mB of a [fluid potion](../../thermal-foundation/potion-fluid/) can be drained from a
   [potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
 
 {% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipe-list.empty %}

@@ -87,7 +87,7 @@ usage-recipes:
 
 
 **Nickel ingots** are raw materials obtained from [nickel
-ore](/docs/1.12/thermal-foundation/nickel-ore/) and [iron
+ore](../nickel-ore/) and [iron
 ore](https://minecraft.gamepedia.com/Iron_Ore).
 
 
@@ -133,5 +133,5 @@ Trivia
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, molten nickel can be mixed with molten
   [iron](https://minecraft.gamepedia.com/Iron_Ingot) to make molten
-  [invar](/docs/1.12/thermal-foundation/invar-ingot/), or with molten [copper](/docs/1.12/thermal-foundation/copper-ingot/) to
-  make molten [constantan](/docs/1.12/thermal-foundation/constantan-ingot/).
+  [invar](../invar-ingot/), or with molten [copper](../copper-ingot/) to
+  make molten [constantan](../constantan-ingot/).

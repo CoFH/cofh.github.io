@@ -25,7 +25,7 @@ usage-recipes:
 
 
 **Signalum blend** is a raw material. It is the dust form of
-[signalum](/docs/1.12/thermal-foundation/signalum-ingot/).
+[signalum](../signalum-ingot/).
 
 
 Obtaining
@@ -36,8 +36,8 @@ Obtaining
 
 Any item that contains at least one
 [bucket](https://minecraft.gamepedia.com/Bucket) worth of [destabilized
-redstone](/docs/1.12/thermal-foundation/destabilized-redstone/) may be used. Using a [portable
-tank](/docs/1.12/thermal-expansion/portable-tank/) can make it easier to craft large amounts of
+redstone](../destabilized-redstone/) may be used. Using a [portable
+tank](../../thermal-expansion/portable-tank/) can make it easier to craft large amounts of
 signalum blend.
 
 ### Pulverizer

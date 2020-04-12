@@ -14,7 +14,7 @@ redirect_from:
 
 **Blizzes** are hostile mobs found in cold
 [biomes](https://minecraft.gamepedia.com/Biome). They drop [blizz
-rods](/docs/1.12/thermal-foundation/blizz-rod/).
+rods](../blizz-rod/).
 
 
 Appearance
@@ -42,7 +42,7 @@ Drops
 
 When killed by a player, blizzes may drop up to four
 [snowballs](https://minecraft.gamepedia.com/Snowball), and may drop one [blizz
-rod](/docs/1.12/thermal-foundation/blizz-rod/). They drop more items if a
+rod](../blizz-rod/). They drop more items if a
 [Looting](https://minecraft.gamepedia.com/Looting) enchanted weapon is used.
 
 

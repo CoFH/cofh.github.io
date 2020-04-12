@@ -14,8 +14,8 @@ recipes:
 ![Nickel coin](/assets/images/thermal-foundation-2/coin-nickel.png){:style="height: 128px"}
 
 
-**Nickel coins** are materials made of [nickel](/docs/1.12/thermal-foundation/nickel-ingot/) that can be
-used as fuel in a [numismatic dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/).
+**Nickel coins** are materials made of [nickel](../nickel-ingot/) that can be
+used as fuel in a [numismatic dynamo](../../thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -29,5 +29,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/), nickel
+When used as fuel in a [numismatic dynamo](../../thermal-expansion/numismatic-dynamo/), nickel
 coins yield 60,000 RF each.

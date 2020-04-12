@@ -28,14 +28,14 @@ recipe-list:
 
 
 A **glacial precipitator**, or **precipitator** for short, is a
-[machine](/docs/1.12/thermal-expansion/machines/) that freezes fluids into items.
+[machine](../machines/) that freezes fluids into items.
 
 
 Obtaining
 ---------
 
 A placed glacial precipitator can be instantly picked up by dismantling it with
-a [wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -44,8 +44,8 @@ this can be much slower.
 
 ### Upgrading
 A glacial precipitator is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -53,7 +53,7 @@ Usage
 
 ### Placement
 When placed, a glacial precipitator faces the player. It can face any of the
-four cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 A glacial precipitator can be configured to freeze a certain fluid into a
@@ -61,7 +61,7 @@ certain item following one of its available [recipes](#recipes).
 
 When a glacial precipitator's input tank is filled with the fluid corresponding
 to the configured recipe, the machine will start consuming [Redstone
-Flux](/docs/redstone-flux/) to produce the recipe's output item. Every produced
+Flux](../../../redstone-flux/) to produce the recipe's output item. Every produced
 item requires a certain amount of energy and fluid. When enough energy has been
 consumed for an item, the input is consumed and the output is placed in the
 output slot.
@@ -108,17 +108,17 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A glacial precipitator can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A glacial precipitator's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other precipitators.
+[redprint](../../thermal-foundation/redprint/) to be copied to other precipitators.
 
 
 Tiers
 -----
 
-Glacial precipitators come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Glacial precipitators come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -137,7 +137,7 @@ Glacial precipitators come in five [tiers](/docs/1.12/thermal-foundation/tiers/)
 Augmentation
 ------------
 
-A glacial precipitator can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+A glacial precipitator can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic precipitator cannot
 be augmented.

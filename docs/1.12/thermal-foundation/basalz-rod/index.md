@@ -20,17 +20,17 @@ usage-recipes:
 ![Basalz rod](/assets/images/thermal-foundation-2/basalz-rod.png){:style="height: 128px"}
 
 
-**Basalz rods** are materials that are dropped by [basalzes](/docs/1.12/thermal-foundation/basalz/).
+**Basalz rods** are materials that are dropped by [basalzes](../basalz/).
 They are the earth elemental versions of [blaze
 rods](https://minecraft.gamepedia.com/Blaze_Rod). Their only use is to be
-processed into [basalz powder](/docs/1.12/thermal-foundation/basalz-powder/).
+processed into [basalz powder](../basalz-powder/).
 
 
 Obtaining
 ---------
 
 ### Basalzes
-A [basalz](/docs/1.12/thermal-foundation/basalz/) may drop a basalz rod when killed by a player.
+A [basalz](../basalz/) may drop a basalz rod when killed by a player.
 
 ### Compactor
 {% include recipe-table.html type='te-1-12-compactor' recipes=page.recipes.compactor no-result=true %}

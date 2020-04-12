@@ -13,11 +13,11 @@ recipes:
   - te-1-12-device-lexicon
 ---
 
-A **lexical transmuter** is a [device](/docs/1.12/thermal-expansion/devices/) that converts items into
+A **lexical transmuter** is a [device](../devices/) that converts items into
 other items that are considered equivalent. Examples of equivalent items are the
 various versions of copper and tin ingots added by different mods.
 
-A lexical transmuter is essentially a [Forge Lexicon](/docs/1.12/thermal-foundation/forge-lexicon/) in
+A lexical transmuter is essentially a [Forge Lexicon](../../thermal-foundation/forge-lexicon/) in
 block form.
 
 
@@ -25,7 +25,7 @@ Obtaining
 ---------
 
 A placed lexical transmuter can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -37,7 +37,7 @@ Usage
 
 ### Placement
 When placed, a lexical transmuter faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
 A lexical transmuter allows users to configure a list of preferred items to
@@ -83,11 +83,11 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 A lexical transmuter can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A lexical transmuter's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other lexical transmuters.
+[redprint](../../thermal-foundation/redprint/) to be copied to other lexical transmuters.
 
 ### Light source
 When a lexical transmuter is active, it emits a light level of 12.

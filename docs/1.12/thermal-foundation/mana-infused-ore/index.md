@@ -26,7 +26,7 @@ usage-recipes:
 
 
 **Mana infused ore** is an [ore](https://minecraft.gamepedia.com/Ore) that
-yields [mana infused metal](/docs/1.12/thermal-foundation/mana-infused-ingot/) and small amounts of
+yields [mana infused metal](../mana-infused-ingot/) and small amounts of
 [gold](https://minecraft.gamepedia.com/Gold_Ingot). It is unobtainable by
 default.
 
@@ -59,10 +59,10 @@ Usage
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When mana infused ore is broken using a [Smashing](/docs/1.12/cofh-core/smashing/)
+When mana infused ore is broken using a [Smashing](../../cofh-core/smashing/)
 enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
 two piles of [pulverized mana infused
-metal](/docs/1.12/thermal-foundation/pulverized-mana-infused-metal/) are dropped
+metal](../pulverized-mana-infused-metal/) are dropped
 instead of the ore.
 
 ### Light source

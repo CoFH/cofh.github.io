@@ -33,7 +33,7 @@ usage-recipes:
 
 
 **Pulverized lead** is a raw material. It is the dust form of
-[lead](/docs/1.12/thermal-foundation/lead-ingot/).
+[lead](../lead-ingot/).
 
 
 Obtaining
@@ -49,8 +49,8 @@ Obtaining
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
-When [lead ore](/docs/1.12/thermal-foundation/lead-ore/) is broken using a
-[Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When [lead ore](../lead-ore/) is broken using a
+[Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized lead are dropped instead of the ore.
 

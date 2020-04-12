@@ -17,8 +17,8 @@ usage-recipes:
   - ti-1-12-fluxsaw-basic
 ---
 
-**Saw blades** are crafting materials used to craft [sawmills](/docs/1.12/thermal-expansion/sawmill/)
-and [fluxsaws](/docs/1.12/thermal-innovation/fluxsaw/).
+**Saw blades** are crafting materials used to craft [sawmills](../../thermal-expansion/sawmill/)
+and [fluxsaws](../../thermal-innovation/fluxsaw/).
 
 
 Obtaining

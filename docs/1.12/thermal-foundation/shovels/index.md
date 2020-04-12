@@ -42,7 +42,7 @@ usage-recipes:
 
 
 **[Shovels](https://minecraft.gamepedia.com/Shovel)** are tools in vanilla
-Minecraft. [Thermal Foundation](/docs/1.12/thermal-foundation/) adds a set of shovels
+Minecraft. [Thermal Foundation](../) adds a set of shovels
 made of various metals.
 
 

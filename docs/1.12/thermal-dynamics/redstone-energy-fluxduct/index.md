@@ -21,7 +21,7 @@ usage-recipes:
   - td-1-12-fluxduct-signalum-three
 ---
 
-A **redstone energy fluxduct** is a [fluxduct](/docs/1.12/thermal-dynamics/fluxducts/) of the third
+A **redstone energy fluxduct** is a [fluxduct](../fluxducts/) of the third
 tier.
 
 
@@ -40,7 +40,7 @@ Usage
 
 ### Energy transfer
 A redstone energy fluxduct works the same way as most other
-[fluxducts](/docs/1.12/thermal-dynamics/fluxducts/). It transfers up to 9,000 RF/t per connection.
+[fluxducts](../fluxducts/). It transfers up to 9,000 RF/t per connection.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

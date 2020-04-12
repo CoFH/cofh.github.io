@@ -24,7 +24,7 @@ usage-recipes:
   - td-1-12-itemduct-energy-fast-three
 ---
 
-An **impulse itemduct** is a type of [itemduct](/docs/1.12/thermal-dynamics/itemduct/) that transfers
+An **impulse itemduct** is a type of [itemduct](../itemduct/) that transfers
 items at a greater speed.
 
 
@@ -42,7 +42,7 @@ Usage
 -----
 
 ### Item transfer
-An impulse itemduct works the same way as a regular [itemduct](/docs/1.12/thermal-dynamics/itemduct/).
+An impulse itemduct works the same way as a regular [itemduct](../itemduct/).
 However, items inside it move at a speed of 2 blocks per second (10 ticks per
 block); four times as fast as they would in a regular itemduct.
 

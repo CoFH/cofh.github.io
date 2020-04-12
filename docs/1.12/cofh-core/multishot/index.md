@@ -17,8 +17,8 @@ Usage
 -----
 
 [Bows](https://minecraft.gamepedia.com/Bow), [reinforced
-bows](/docs/1.12/thermal-foundation/reinforced-bows/) and [flux-infused
-bows](/docs/1.12/redstone-arsenal/flux-infused-bow/) can all be enchanted with
+bows](../../thermal-foundation/reinforced-bows/) and [flux-infused
+bows](../../redstone-arsenal/flux-infused-bow/) can all be enchanted with
 Multishot. The amount of arrows a Multishot enchanted bow fires depends on the
 enchantment level.
 

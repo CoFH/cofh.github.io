@@ -26,7 +26,7 @@ usage-recipes:
 
 **Flux crystals** are raw materials made from
 [diamonds](https://minecraft.gamepedia.com/Diamond) and [destabilized
-redstone](/docs/1.12/thermal-foundation/destabilized-redstone/).
+redstone](../../thermal-foundation/destabilized-redstone/).
 
 
 Obtaining
@@ -46,6 +46,7 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Numismatic Dynamo with Lapidary Calibration
-When used as fuel in a [numismatic dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/) with a
-[lapidary calibration](/docs/1.12/thermal-expansion/augment-lapidary-calibration/) installed, flux
-crystals yield 1,500,000 RF each.
+When used as fuel in a [numismatic
+dynamo](../../thermal-expansion/numismatic-dynamo/) with a [lapidary
+calibration](../../thermal-expansion/augment-lapidary-calibration/) installed,
+flux crystals yield 1,500,000 RF each.

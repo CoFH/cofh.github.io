@@ -17,7 +17,7 @@ recipes:
 
 
 An **item allocator** (also known as an **item buffer**) is a
-[device](/docs/1.12/thermal-expansion/devices/) that stores and transfers items between adjacent blocks
+[device](../devices/) that stores and transfers items between adjacent blocks
 or transport systems.
 
 
@@ -25,7 +25,7 @@ Obtaining
 ---------
 
 A placed item allocator can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -37,7 +37,7 @@ Usage
 
 ### Placement
 When placed, an item allocator faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
 Items can enter and exit an item allocator through its sides. It can store items
@@ -97,10 +97,10 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An item allocator can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-An item allocator's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/)
+An item allocator's configuration can be saved on a [redprint](../../thermal-foundation/redprint/)
 to be copied to other item allocators.
 
 ### Light source

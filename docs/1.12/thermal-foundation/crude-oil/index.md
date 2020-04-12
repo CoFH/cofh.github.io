@@ -23,9 +23,9 @@ usage-recipes:
 ![Crude oil](/assets/images/thermal-foundation-2/crude-oil.gif){:style="height: 128px"}
 
 
-**Crude oil** is a fluid obtained from [oil sand](/docs/1.12/thermal-foundation/oil-sand/) and [oil
-shale](/docs/1.12/thermal-foundation/oil-shale/). It can be used as fuel in a [compression
-dynamo](/docs/1.12/thermal-expansion/compression-dynamo/), or processed into [naphtha](/docs/1.12/thermal-foundation/naphtha/).
+**Crude oil** is a fluid obtained from [oil sand](../oil-sand/) and [oil
+shale](../oil-shale/). It can be used as fuel in a [compression
+dynamo](../../thermal-expansion/compression-dynamo/), or processed into [naphtha](../naphtha/).
 
 
 Obtaining
@@ -39,7 +39,7 @@ Obtaining
 
 ### Natural generation
 Crude oil can rarely be found underground inside large deposits of [oil
-sand](/docs/1.12/thermal-foundation/oil-sand/) or [oil shale](/docs/1.12/thermal-foundation/oil-shale/). It can be picked up
+sand](../oil-sand/) or [oil shale](../oil-shale/). It can be picked up
 using a [bucket](https://minecraft.gamepedia.com/Bucket).
 
 
@@ -57,5 +57,5 @@ flammable.
 {% include recipe-table.html type='te-1-12-refinery' recipes=page.usage-recipes.refinery %}
 
 ### Compression Dynamo fuel
-When used as fuel in a [compression dynamo](/docs/1.12/thermal-expansion/compression-dynamo/), a bucket
+When used as fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/), a bucket
 of crude oil yields 400,000 RF.

@@ -29,7 +29,7 @@ usage-recipes:
 
 
 **Pulverized iridium** is a raw material. It is the dust form of
-[iridium](/docs/1.12/thermal-foundation/iridium-ingot/).
+[iridium](../iridium-ingot/).
 
 
 Obtaining
@@ -42,8 +42,8 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Smashing
-When [iridium ore](/docs/1.12/thermal-foundation/iridium-ore/) is broken using a
-[Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When [iridium ore](../iridium-ore/) is broken using a
+[Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized iridium are dropped instead of the ore.
 

@@ -14,8 +14,8 @@ recipes:
 ![Copper coin](/assets/images/thermal-foundation-2/coin-copper.png){:style="height: 128px"}
 
 
-**Copper coins** are materials made of [copper](/docs/1.12/thermal-foundation/copper-ingot/) that can be
-used as fuel in a [numismatic dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/).
+**Copper coins** are materials made of [copper](../copper-ingot/) that can be
+used as fuel in a [numismatic dynamo](../../thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -29,5 +29,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/), copper
+When used as fuel in a [numismatic dynamo](../../thermal-expansion/numismatic-dynamo/), copper
 coins yield 30,000 RF each.

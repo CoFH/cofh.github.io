@@ -58,7 +58,7 @@ recipe-list:
 > Yes, it can make lava. You monster.
 
 
-A **magma crucible**, or **crucible** for short, is a [machine](/docs/1.12/thermal-expansion/machines/)
+A **magma crucible**, or **crucible** for short, is a [machine](../machines/)
 that melts items into fluids.
 
 
@@ -66,7 +66,7 @@ Obtaining
 ---------
 
 A placed magma crucible can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -75,8 +75,8 @@ this can be much slower.
 
 ### Upgrading
 A magma crucible is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -84,11 +84,11 @@ Usage
 
 ### Placement
 When placed, a magma crucible faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When items are placed in a magma crucible's input slot, the machine will start
-consuming [Redstone Flux](/docs/redstone-flux/) to process them. Every item
+consuming [Redstone Flux](../../../redstone-flux/) to process them. Every item
 requires a certain amount of energy to process. When enough energy has been
 consumed for an item, the input is consumed and the output is placed in the
 output tank.
@@ -139,10 +139,10 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A magma crucible can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
-A magma crucible's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/)
+A magma crucible's configuration can be saved on a [redprint](../../thermal-foundation/redprint/)
 to be copied to other crucibles.
 
 ### Light source
@@ -152,7 +152,7 @@ When a magma crucible is active, it emits a light level of 14.
 Tiers
 -----
 
-Magma crucibles come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Magma crucibles come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -171,7 +171,7 @@ Magma crucibles come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-A magma crucible can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+A magma crucible can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic crucible cannot be
 augmented.

@@ -7,7 +7,7 @@ redirect_from:
 - /docs/1.12/cofh-core-4/potions/
 ---
 
-[CoFH Core](/docs/1.12/cofh-core/) adds several new
+[CoFH Core](../) adds several new
 [potions](https://minecraft.gamepedia.com/Potion) to the game, along with
 stronger versions of some existing potions.
 
@@ -18,7 +18,7 @@ New potions
 Several new potions are added, all of which apply
 [effects](https://minecraft.gamepedia.com/Status_effects) that do not have
 corresponding potions in the base game. [Thermal
-Foundation](/docs/1.12/thermal-foundation/) adds [recipes](/docs/1.12/thermal-foundation/potion-recipes/)
+Foundation](../../thermal-foundation/) adds [recipes](../../thermal-foundation/potion-recipes/)
 to obtain these potions.
 
 {::options parse_block_html="true" /}
@@ -43,9 +43,9 @@ Stronger potions
 The following potions gain additional stronger levels: III and IV. Their
 extended versions (brewed using
 [redstone](https://minecraft.gamepedia.com/Redstone)) also gain stronger levels:
-II and III. When [Thermal Expansion](/docs/1.12/thermal-expansion/) is installed,
+II and III. When [Thermal Expansion](../../thermal-expansion/) is installed,
 these can be obtained using an [alchemical
-retort](/docs/1.12/thermal-expansion/augment-alchemical-retort/).
+retort](../../thermal-expansion/augment-alchemical-retort/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

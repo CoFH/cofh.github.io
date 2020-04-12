@@ -17,8 +17,7 @@ usage-recipes:
   - ra-1-12-flux-crystal-from-block
 ---
 
-**Flux crystal blocks** are blocks made from [flux
-crystals](/docs/1.12/redstone-arsenal/flux-crystal/).
+**Flux crystal blocks** are blocks made from [flux crystals](../flux-crystal/).
 
 
 Obtaining
@@ -35,8 +34,8 @@ Usage
 -----
 
 ### Storage
-Flux crystal blocks can be used to store [flux crystals](/docs/1.12/redstone-arsenal/flux-crystal/) in
-a compact way.
+Flux crystal blocks can be used to store [flux crystals](../flux-crystal/) in a
+compact way.
 
 ### Damage
 A flux crystal block damages entities that touch it. It deals 2 damage every
@@ -44,7 +43,7 @@ half-second, regardless of armor.
 
 ### Charging items
 A flux crystal block charges items held by a player that touches it. Items that
-can store [Redstone Flux](/docs/redstone-flux/) are charged at a rate of 100
+can store [Redstone Flux](../../../redstone-flux/) are charged at a rate of 100
 RF/t while the player takes damage.
 
 ### Light source

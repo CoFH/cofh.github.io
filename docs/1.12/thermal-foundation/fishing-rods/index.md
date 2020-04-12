@@ -50,7 +50,7 @@ usage-recipes:
 
 
 **[Fishing rods](https://minecraft.gamepedia.com/Fishing_Rod)** are tools in
-vanilla Minecraft. [Thermal Foundation](/docs/1.12/thermal-foundation/) adds a set of
+vanilla Minecraft. [Thermal Foundation](../) adds a set of
 fishing rods made of various materials.
 
 

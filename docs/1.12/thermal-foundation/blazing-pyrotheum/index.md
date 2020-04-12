@@ -24,8 +24,8 @@ usage-recipes:
 
 
 **Blazing pyrotheum** is the fire elemental fluid. It is obtained by melting
-[pyrotheum dust](/docs/1.12/thermal-foundation/pyrotheum-dust/) in a [magma
-crucible](/docs/1.12/thermal-expansion/magma-crucible/).
+[pyrotheum dust](../pyrotheum-dust/) in a [magma
+crucible](../../thermal-expansion/magma-crucible/).
 
 
 Obtaining
@@ -85,18 +85,18 @@ Blazing pyrotheum has the following effects on certain blocks and mobs:
 {% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Pyro-Concentrator
-An [induction smelter](/docs/1.12/thermal-expansion/induction-smelter/) with a
-[pyro-concentrator](/docs/1.12/thermal-expansion/augment-pyro-concentrator/) installed consumes blazing
+An [induction smelter](../../thermal-expansion/induction-smelter/) with a
+[pyro-concentrator](../../thermal-expansion/augment-pyro-concentrator/) installed consumes blazing
 pyrotheum to process ores more efficiently. It consumes 100 mB of pyrotheum per
 processed ore.
 
 ### Magmatic Dynamo fuel
-When used as fuel in a [magmatic dynamo](/docs/1.12/thermal-expansion/magmatic-dynamo/), a bucket of
+When used as fuel in a [magmatic dynamo](../../thermal-expansion/magmatic-dynamo/), a bucket of
 blazing pyrotheum yields 2,000,000 RF, or 2,500,000 RF if an [isentropic
-reservoir](/docs/1.12/thermal-expansion/augment-isentropic-reservoir/) is installed.
+reservoir](../../thermal-expansion/augment-isentropic-reservoir/) is installed.
 
 ### Reactant Dynamo fuel
-When used together with [cryotheum dust](/docs/1.12/thermal-foundation/cryotheum-dust/) as fuel in a
-[reactant dynamo](/docs/1.12/thermal-expansion/reactant-dynamo/), 100 mB of blazing pyrotheum yields
+When used together with [cryotheum dust](../cryotheum-dust/) as fuel in a
+[reactant dynamo](../../thermal-expansion/reactant-dynamo/), 100 mB of blazing pyrotheum yields
 400,000 RF, or 500,000 RF if an [elemental
-catalyzer](/docs/1.12/thermal-expansion/augment-elemental-catalyzer/) is installed.
+catalyzer](../../thermal-expansion/augment-elemental-catalyzer/) is installed.

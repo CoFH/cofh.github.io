@@ -5,10 +5,9 @@ redirect_from:
 ---
 
 A **number provider** is a format used while describing
-[features](/docs/1.12/cofh-world/world-generator-configuration/feature-format/) to
-specify a source of numbers. It can often be used in places where a regular
-number can be specified. They can return the same or a different number each
-time the world generator asks them for one.
+[features](../../feature-format/) to specify a source of numbers. It can often
+be used in places where a regular number can be specified. They can return the
+same or a different number each time the world generator asks them for one.
 
 There are six types of number providers: constants, two types of random number
 generators, world values, operations and bounded values. Most types allow for

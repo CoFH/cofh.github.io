@@ -33,7 +33,7 @@ usage-recipes:
 
 
 **Pulverized platinum** is a raw material. It is the dust form of
-[platinum](/docs/1.12/thermal-foundation/platinum-ingot/).
+[platinum](../platinum-ingot/).
 
 
 Obtaining
@@ -49,8 +49,8 @@ Obtaining
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
-When [platinum ore](/docs/1.12/thermal-foundation/platinum-ore/) is broken using a
-[Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When [platinum ore](../platinum-ore/) is broken using a
+[Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized platinum are dropped instead of the ore.
 

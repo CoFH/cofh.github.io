@@ -36,7 +36,7 @@ usage-recipes:
 
 **Energized glowstone** is a fluid obtained by melting
 [glowstone](https://minecraft.gamepedia.com/Glowstone) in a [magma
-crucible](/docs/1.12/thermal-expansion/magma-crucible/). It is lighter than air and vertically flows up
+crucible](../../thermal-expansion/magma-crucible/). It is lighter than air and vertically flows up
 instead of down.
 
 
@@ -53,7 +53,7 @@ Obtaining
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge %}
 
 ### Natural generation
-Deposits of [energized netherrack](/docs/1.12/thermal-foundation/energized-netherrack/) may contain some
+Deposits of [energized netherrack](../energized-netherrack/) may contain some
 energized glowstone, which can be picked up using a
 [bucket](https://minecraft.gamepedia.com/Bucket).
 
@@ -85,7 +85,7 @@ seconds, as well as
 [Glowing](https://minecraft.gamepedia.com/Status_effect#Glowing) for 30 seconds.
 
 When an energized glowstone source block comes into contact with [gelid
-cryotheum](/docs/1.12/thermal-foundation/gelid-cryotheum/), the source block instantly condenses back
+cryotheum](../gelid-cryotheum/), the source block instantly condenses back
 into solid [glowstone](https://minecraft.gamepedia.com/Glowstone).
 
 ### Crafting ingredient
@@ -105,7 +105,7 @@ wart](https://minecraft.gamepedia.com/Nether_Wart),
 [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [blaze
 powder](https://minecraft.gamepedia.com/Blaze_Powder) or [ghast
 tears](https://minecraft.gamepedia.com/Ghast_Tear) in a [reactant
-dynamo](/docs/1.12/thermal-expansion/reactant-dynamo/) to generate varying amounts of energy.
+dynamo](../../thermal-expansion/reactant-dynamo/) to generate varying amounts of energy.
 
 
 Trivia
@@ -116,5 +116,5 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, energized glowstone can be mixed with molten
-  [tin](/docs/1.12/thermal-foundation/tin-ingot/) and molten [silver](/docs/1.12/thermal-foundation/silver-ingot/) in a smeltery
-  to make molten [lumium](/docs/1.12/thermal-foundation/lumium-ingot/).
+  [tin](../tin-ingot/) and molten [silver](../silver-ingot/) in a smeltery
+  to make molten [lumium](../lumium-ingot/).

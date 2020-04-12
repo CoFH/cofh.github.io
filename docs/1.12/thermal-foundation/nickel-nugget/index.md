@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Nickel nuggets** are raw materials. They are the nugget form of
-[nickel](/docs/1.12/thermal-foundation/nickel-ingot/).
+[nickel](../nickel-ingot/).
 
 
 Obtaining

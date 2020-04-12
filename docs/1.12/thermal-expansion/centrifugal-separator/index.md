@@ -36,14 +36,14 @@ recipe-list:
 
 
 A **centrifugal separator**, or **centrifuge** for short, is a
-[machine](/docs/1.12/thermal-expansion/machines/) that separates items into their components.
+[machine](../machines/) that separates items into their components.
 
 
 Obtaining
 ---------
 
 A placed centrifugal separator can be instantly picked up by dismantling it with
-a [wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -52,8 +52,8 @@ this can be much slower.
 
 ### Upgrading
 A centrifugal separator is initially at the lowest [tier](#tiers) (basic). It
-can be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+can be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -61,12 +61,12 @@ Usage
 
 ### Placement
 When placed, a centrifugal separator faces the player. It can face any of the
-four cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 A centrifugal separator has an input slot, four output slots and an output tank.
 When items are placed in the input slot, the machine will start consuming
-[Redstone Flux](/docs/redstone-flux/) to process them. Every item requires a
+[Redstone Flux](../../../redstone-flux/) to process them. Every item requires a
 certain amount of energy to process. When enough energy has been consumed for an
 item, the input is consumed and the output is placed in the output slots. Some
 items may have a fluid output as well, which is placed in the output tank.
@@ -116,11 +116,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A centrifugal separator can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A centrifugal separator's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other centrifuges.
+[redprint](../../thermal-foundation/redprint/) to be copied to other centrifuges.
 
 ### Light source
 When a centrifugal separator is active, it emits a light level of 4.
@@ -129,7 +129,7 @@ When a centrifugal separator is active, it emits a light level of 4.
 Tiers
 -----
 
-Centrifugal separators come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Centrifugal separators come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -148,7 +148,7 @@ Centrifugal separators come in five [tiers](/docs/1.12/thermal-foundation/tiers/
 Augmentation
 ------------
 
-A centrifugal separator can have [augments](/docs/1.12/thermal-expansion/augments/) installed to
+A centrifugal separator can have [augments](../augments/) installed to
 improve certain properties or to change how it works. The amount of augments
 that can be installed depends on the machine's [tier](#tiers). A basic
 centrifuge cannot be augmented.

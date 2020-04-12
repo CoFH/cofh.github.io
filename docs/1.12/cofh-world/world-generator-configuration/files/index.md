@@ -5,8 +5,7 @@ redirect_from:
 ---
 
 This page describes the files that are used to [configure the world
-generation](/docs/1.12/cofh-world/world-generator-configuration/) of [CoFH
-World](/docs/1.12/cofh-world/).
+generation](../) of [CoFH World](../../).
 
 
 File structure
@@ -18,8 +17,8 @@ directory is read recursively, so the files may be grouped in subfolders.
 
 The `cofh/world` directory contains one or more files by default:
 `00_minecraft.json`, and the default files added by [Thermal
-Foundation](/docs/1.12/thermal-foundation/) if it is installed. Other mods may also
-add files for their default world generation.
+Foundation](../../../thermal-foundation/) if it is installed. Other mods may
+also add files for their default world generation.
 
 The files in the directory are read in alphabetical order. This can be used to
 make certain features generate before others.
@@ -60,8 +59,7 @@ values.
                 <td markdown="span">
                     An object whose values each describe a feature to generate
                     in the world (or: to 'populate' the world with). The page
-                    [Feature
-                    format](/docs/1.12/cofh-world/world-generator-configuration/feature-format/)
+                    [Feature format](../feature-format/)
                     describes how to specify a feature.
                 </td>
             </tr>
@@ -170,5 +168,5 @@ Tips
 * If world generation is not working as intended, try checking the log. Any
   errors that are found in the files are logged while the configuration is
   loaded.
-* Using [`/cofhworld reload`](/docs/1.12/cofh-world/commands/#reload) allows for
-  reloading the configuration without restarting the game.
+* Using [`/cofhworld reload`](../../commands/#reload) allows for reloading the
+  configuration without restarting the game.

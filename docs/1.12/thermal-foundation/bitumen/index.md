@@ -18,16 +18,16 @@ usage-recipes:
 ![Bitumen](/assets/images/thermal-foundation-2/bitumen.gif){:style="height: 128px"}
 
 
-**Bitumen** is a material obtained from [oil sand](/docs/1.12/thermal-foundation/oil-sand/) and [oil
-shale](/docs/1.12/thermal-foundation/oil-shale/). It can be processed into [crude
-oil](/docs/1.12/thermal-foundation/crude-oil/).
+**Bitumen** is a material obtained from [oil sand](../oil-sand/) and [oil
+shale](../oil-shale/). It can be processed into [crude
+oil](../crude-oil/).
 
 
 Obtaining
 ---------
 
 ### Mining
-[Oil sand](/docs/1.12/thermal-foundation/oil-sand/) and [oil shale](/docs/1.12/thermal-foundation/oil-shale/) will drop one
+[Oil sand](../oil-sand/) and [oil shale](../oil-shale/) will drop one
 piece of bitumen when mined with a pickaxe. More bitumen is dropped if a
 [Fortune](https://minecraft.gamepedia.com/Fortune) enchanted pickaxe is used.
 

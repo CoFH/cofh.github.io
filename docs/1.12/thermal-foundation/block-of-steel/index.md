@@ -18,7 +18,7 @@ usage-recipes:
   - tf-1-12-ingot-steel-from-block
 ---
 
-**Blocks of steel** are blocks made from [steel ingots](/docs/1.12/thermal-foundation/steel-ingot/).
+**Blocks of steel** are blocks made from [steel ingots](../steel-ingot/).
 
 
 Obtaining
@@ -35,7 +35,7 @@ Usage
 -----
 
 ### Storage
-Blocks of steel can be used to store [steel ingots](/docs/1.12/thermal-foundation/steel-ingot/) in a
+Blocks of steel can be used to store [steel ingots](../steel-ingot/) in a
 compact way.
 
 ### Mob spawning

@@ -15,7 +15,7 @@ recipes:
   - ra-1-12-weapon-quiver
 ---
 
-A **flux-infused quiver** is a [Redstone Flux](/docs/redstone-flux/)-powered
+A **flux-infused quiver** is a [Redstone Flux](../../../redstone-flux/)-powered
 item that provides powerful ammunition for
 [bows](https://minecraft.gamepedia.com/Bow) when charged.
 
@@ -31,11 +31,11 @@ Usage
 -----
 
 ### Charging
-A flux-infused quiver can hold up to 320,000 [RF](/docs/redstone-flux/). It can
-be charged using an [energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/), a [flux
-capacitor](/docs/1.12/thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
-a [fluxed electrum block](/docs/1.12/redstone-arsenal/fluxed-electrum-block/) or [flux crystal
-block](/docs/1.12/redstone-arsenal/flux-crystal-block) while holding it. It can be charged at rates up
+A flux-infused quiver can hold up to 320,000 [RF](../../../redstone-flux/). It can
+be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
+capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
+a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal
+block](../flux-crystal-block) while holding it. It can be charged at rates up
 to 4,000 RF/t.
 
 ### Empowering
@@ -60,7 +60,7 @@ empowered arrow. Each empowered arrow costs 6,400 RF to fire.
 ### Enchantments
 A flux-infused quiver has an
 [enchantability](https://minecraft.gamepedia.com/Enchantability) of 10. It can
-be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its energy capacity.
+be enchanted with [Holding](../../cofh-core/holding/) to increase its energy capacity.
 
 | Holding level | Capacity multiplier |
 |---

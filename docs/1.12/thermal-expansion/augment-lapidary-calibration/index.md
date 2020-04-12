@@ -13,9 +13,9 @@ recipes:
   - te-1-12-augment-dynamo-numismatic-gem
 ---
 
-A **lapidary calibration** [augment](/docs/1.12/thermal-expansion/augments/) allows for a [numismatic
-dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/) to use various [gemstones](#fuels) as fuel,
-and increases the amount of [Redstone Flux](/docs/redstone-flux/) it generates.
+A **lapidary calibration** [augment](../augments/) allows for a [numismatic
+dynamo](../numismatic-dynamo/) to use various [gemstones](#fuels) as fuel,
+and increases the amount of [Redstone Flux](../../../redstone-flux/) it generates.
 
 
 Obtaining
@@ -30,14 +30,14 @@ Usage
 
 ### Installation
 A lapidary calibration augment can be installed in the Augmentation tab in a
-[numismatic dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/)'s GUI. It is a specialization that
+[numismatic dynamo](../numismatic-dynamo/)'s GUI. It is a specialization that
 cannot be installed together with other specialization augments.
 
 ### Effects
 An installed lapidary calibration augment allows for a [numismatic
-dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/) to use various [gemstones](#fuels) as fuel. It
+dynamo](../numismatic-dynamo/) to use various [gemstones](#fuels) as fuel. It
 also quintuples the dynamo's maximum power output, and increases the amount of
-[Redstone Flux](/docs/redstone-flux/) it generates from each unit of fuel by
+[Redstone Flux](../../../redstone-flux/) it generates from each unit of fuel by
 25%. However, the dynamo can only generate energy using gemstones.
 
 If a lapidary calibration augment is installed together with other augments that
@@ -50,7 +50,7 @@ Fuels
 -----
 
 The following items can be consumed by a [numismatic
-dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/) with a lapidary calibration augment installed.
+dynamo](../numismatic-dynamo/) with a lapidary calibration augment installed.
 
 | Fuel | Energy per unit |
 |---
@@ -59,7 +59,7 @@ dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/) with a lapidary calibra
 | [Prismarine Shard](https://minecraft.gamepedia.com/Prismarine_Shard) | 150,000 RF |
 | [Emerald](https://minecraft.gamepedia.com/Emerald) | 200,000 RF |
 | [Diamond](https://minecraft.gamepedia.com/Diamond) | 1,200,000 RF |
-| [Flux Crystal](/docs/1.12/redstone-arsenal/flux-crystal/) | 1,500,000 RF |
+| [Flux Crystal](../../redstone-arsenal/flux-crystal/) | 1,500,000 RF |
 | Amethyst ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
 | Ruby ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
 | Peridot ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |

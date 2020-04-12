@@ -24,7 +24,7 @@ usage-recipes:
 ![Silver gear](/assets/images/thermal-foundation-2/gear-silver.png){:style="height: 128px"}
 
 
-**Silver gears** are crafting materials made of [silver](/docs/1.12/thermal-foundation/silver-ingot/).
+**Silver gears** are crafting materials made of [silver](../silver-ingot/).
 
 
 Obtaining

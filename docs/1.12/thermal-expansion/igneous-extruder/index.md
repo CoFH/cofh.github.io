@@ -32,14 +32,14 @@ recipe-list:
 
 
 An **igneous extruder**, or **extruder** for short, is a
-[machine](/docs/1.12/thermal-expansion/machines/) that mixes hot and cold fluids to create items.
+[machine](../machines/) that mixes hot and cold fluids to create items.
 
 
 Obtaining
 ---------
 
 A placed igneous extruder can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -48,8 +48,8 @@ this can be much slower.
 
 ### Upgrading
 An igneous extruder is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -57,7 +57,7 @@ Usage
 
 ### Placement
 When placed, an igneous extruder faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 An igneous extruder can be configured to mix a certain pair of fluids into a
@@ -65,7 +65,7 @@ certain item following one of its available [recipes](#recipes).
 
 When an igneous extruder's input tanks are filled with at least 1,000 mB of the
 fluids corresponding to the configured recipe, the machine will start consuming
-[Redstone Flux](/docs/redstone-flux/) to produce the recipe's output item. Every
+[Redstone Flux](../../../redstone-flux/) to produce the recipe's output item. Every
 produced item requires certain amounts of energy and the two fluids. When enough
 energy has been consumed for an item, the input is consumed and the output is
 placed in the output slot.
@@ -111,11 +111,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 An igneous extruder can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An igneous extruder's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other extruders.
+[redprint](../../thermal-foundation/redprint/) to be copied to other extruders.
 
 ### Light source
 When an igneous extruder is active, it emits a light level of 14.
@@ -124,7 +124,7 @@ When an igneous extruder is active, it emits a light level of 14.
 Tiers
 -----
 
-Igneous extruders come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Igneous extruders come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -143,7 +143,7 @@ Igneous extruders come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-An igneous extruder can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+An igneous extruder can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic extruder cannot be
 augmented.

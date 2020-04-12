@@ -4,27 +4,25 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/distribution-types/gaussian/
 ---
 
-**`gaussian`** is one of the [distribution
-types](/docs/1.12/cofh-world/world-generator-configuration/distribution-types/)
-provided by [CoFH World](/docs/1.12/cofh-world/). It distributes features spread
-around a certain altitude. The features are the most common at that altitude and
-gradually become less common further away from it. [Lapis lazuli
+**`gaussian`** is one of the [distribution types](../) provided by [CoFH
+World](../../../). It distributes features spread around a certain altitude. The
+features are the most common at that altitude and gradually become less common
+further away from it. [Lapis lazuli
 ore](https://minecraft.gamepedia.com/Lapis_Lazuli_Ore) is distributed like this.
 
 When using this distribution type, the feature type
-[`cluster`](/docs/1.12/cofh-world/world-generator-configuration/feature-types/cluster/)
-is used by default, and the value `material` of [feature type
-configurations](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-is set to [stone](https://minecraft.gamepedia.com/Stone) (and all of its
-variations) by default.
+[`cluster`](../../feature-types/cluster/) is used by default, and the value
+`material` of [feature type
+configurations](../../feature-format/#feature-type-configuration) is set to
+[stone](https://minecraft.gamepedia.com/Stone) (and all of its variations) by
+default.
 
 
 Options
 -------
 
 When using this distribution type, the following values must be added to the
-[feature
-entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+[feature entry](../../feature-format/#features).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -40,8 +38,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`center-height`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -52,8 +49,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`spread`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -65,8 +61,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`smoothness` (optional)</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">`2`</td>
                 <td markdown="span">

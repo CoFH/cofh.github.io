@@ -4,31 +4,27 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/distribution-types/fractal/
 ---
 
-**`fractal`** is one of the [distribution
-types](/docs/1.12/cofh-world/world-generator-configuration/distribution-types/)
-provided by [CoFH World](/docs/1.12/cofh-world/). It distributes all features to
-generate in a chunk together in a box-shaped area. The size and altitude of this
-area can be configured.
+**`fractal`** is one of the [distribution types](../) provided by [CoFH
+World](../../../). It distributes all features to generate in a chunk together
+in a box-shaped area. The size and altitude of this area can be configured.
 
 Large enough areas can reach into many other chunks, which can cause problems
 with cascading world generation. These problems can be prevented using the value
-`chunk-chance` in the [feature
-entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+`chunk-chance` in the [feature entry](../../feature-format/#features).
 
 When using this distribution type, the feature type
-[`large-vein`](/docs/1.12/cofh-world/world-generator-configuration/feature-types/large-vein/)
-is used by default, and the value `material` of [feature type
-configurations](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-is set to [stone](https://minecraft.gamepedia.com/Stone) (and all of its
-variations) by default.
+[`large-vein`](../../feature-types/large-vein/) is used by default, and the
+value `material` of [feature type
+configurations](../../feature-format/#feature-type-configuration) is set to
+[stone](https://minecraft.gamepedia.com/Stone) (and all of its variations) by
+default.
 
 
 Options
 -------
 
 When using this distribution type, the following values must be added to the
-[feature
-entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+[feature entry](../../feature-format/#features).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -44,8 +40,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`min-height`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -56,8 +51,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`vein-height`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -68,8 +62,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`vein-diameter`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -80,8 +73,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`vertical-density`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -94,7 +86,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
                 <td markdown="span">`horizontal-density`</td>
                 <td markdown="span">
                     Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">

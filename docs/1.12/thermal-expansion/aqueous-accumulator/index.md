@@ -17,7 +17,7 @@ recipes:
 > No, it does not work with lava. You monster.
 
 
-An **aqueous accumulator** is a [device](/docs/1.12/thermal-expansion/devices/) that generates
+An **aqueous accumulator** is a [device](../devices/) that generates
 [water](https://minecraft.gamepedia.com/Water) by extracting it from the
 device's surroundings.
 
@@ -26,7 +26,7 @@ Obtaining
 ---------
 
 A placed aqueous accumulator can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -38,7 +38,7 @@ Usage
 
 ### Placement
 When placed, an aqueous accumulator faces the player. It can face any of the
-four cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
 When placed between at least two [water](https://minecraft.gamepedia.com/Water)
@@ -100,11 +100,11 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An aqueous accumulator can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An aqueous accumulator's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other aqueous accumulators.
+[redprint](../../thermal-foundation/redprint/) to be copied to other aqueous accumulators.
 
 
 Trivia

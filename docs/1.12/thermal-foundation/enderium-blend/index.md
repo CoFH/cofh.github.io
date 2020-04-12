@@ -25,7 +25,7 @@ usage-recipes:
 
 
 **Enderium blend** is a raw material. It is the dust form of
-[enderium](/docs/1.12/thermal-foundation/enderium-ingot/).
+[enderium](../enderium-ingot/).
 
 
 Obtaining
@@ -36,8 +36,8 @@ Obtaining
 
 Any item that contains at least one
 [bucket](https://minecraft.gamepedia.com/Bucket) worth of [resonant
-ender](/docs/1.12/thermal-foundation/resonant-ender/) may be used. Using a [portable
-tank](/docs/1.12/thermal-expansion/portable-tank/) can make it easier to craft large amounts of
+ender](../resonant-ender/) may be used. Using a [portable
+tank](../../thermal-expansion/portable-tank/) can make it easier to craft large amounts of
 enderium blend.
 
 ### Pulverizer

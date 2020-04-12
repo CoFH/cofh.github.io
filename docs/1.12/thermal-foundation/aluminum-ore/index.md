@@ -26,7 +26,7 @@ usage-recipes:
 
 
 **Aluminum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
-[aluminum](/docs/1.12/thermal-foundation/aluminum-ingot/) and small amounts of
+[aluminum](../aluminum-ingot/) and small amounts of
 [iron](https://minecraft.gamepedia.com/Iron_Ingot). It is unobtainable by
 default.
 
@@ -59,8 +59,8 @@ Usage
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When aluminum ore is broken using a [Smashing](/docs/1.12/cofh-core/smashing/)
+When aluminum ore is broken using a [Smashing](../../cofh-core/smashing/)
 enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
 two piles of [pulverized
-aluminum](/docs/1.12/thermal-foundation/pulverized-aluminum/) are dropped instead of
+aluminum](../pulverized-aluminum/) are dropped instead of
 the ore.

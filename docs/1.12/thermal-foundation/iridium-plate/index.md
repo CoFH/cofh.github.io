@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Iridium plates** are crafting materials made of
-[iridium](/docs/1.12/thermal-foundation/iridium-ingot/). They are currently not used for anything.
+[iridium](../iridium-ingot/). They are currently not used for anything.
 
 
 Obtaining

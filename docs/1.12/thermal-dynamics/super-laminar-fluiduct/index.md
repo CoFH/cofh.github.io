@@ -17,7 +17,7 @@ recipes:
   - td-1-12-fluiduct-super-transparent-from-opaque
 ---
 
-A **super-laminar fluiduct** is a type of [fluiduct](/docs/1.12/thermal-dynamics/fluiduct/) that can
+A **super-laminar fluiduct** is a type of [fluiduct](../fluiduct/) that can
 transfer any amount of fluid.
 
 
@@ -33,6 +33,6 @@ Usage
 
 ### Fluid transfer
 A super-laminar fluiduct works the same way as a [hardened
-fluiduct](/docs/1.12/thermal-dynamics/hardened-fluiduct/). However, a fully pressurized network of
+fluiduct](../hardened-fluiduct/). However, a fully pressurized network of
 super-laminar fluiducts can transfer any amount of fluid per tick through each
 connection. This may still be limited by connected blocks.

@@ -17,7 +17,7 @@ recipes:
 > Sends all the things to `/dev/null`!
 
 
-A **nullifier** is a [device](/docs/1.12/thermal-expansion/devices/) that destroys any items and fluids
+A **nullifier** is a [device](../devices/) that destroys any items and fluids
 it receives.
 
 
@@ -25,7 +25,7 @@ Obtaining
 ---------
 
 A placed nullifier can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -37,7 +37,7 @@ Usage
 
 ### Placement
 When placed, a nullifier faces the player. It can face any of the four cardinal
-directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
 When a nullifier receives items or fluids, they are instantly destroyed. Items
@@ -67,11 +67,11 @@ High
 The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
-A nullifier can have a [signalum security lock](/docs/1.12/thermal-foundation/signalum-security-lock/)
+A nullifier can have a [signalum security lock](../../thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Redprints
-A nullifier's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/) to be
+A nullifier's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to be
 copied to other nullifiers.
 
 ### Light source

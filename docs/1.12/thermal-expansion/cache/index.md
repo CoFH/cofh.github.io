@@ -33,7 +33,7 @@ Obtaining
 ---------
 
 A placed cache can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its stored items and configuration are preserved in
+[wrench](../../wrenches/). Its stored items and configuration are preserved in
 the item.
 
 ### Crafting
@@ -41,8 +41,8 @@ the item.
 
 ### Upgrading
 A cache is initially at the lowest [tier](#tiers) (basic). It can be upgraded to
-higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and [conversion
-kits](/docs/1.12/thermal-foundation/conversion-kits/).
+higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and [conversion
+kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -50,7 +50,7 @@ Usage
 
 ### Placement
 When placed, a cache faces the player. It can face any of the four cardinal
-directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+directions, and can be rotated using a [wrench](../../wrenches/).
 
 The front of a cache displays the item it stores and roughly how full it is.
 
@@ -63,7 +63,7 @@ Items can be taken out of a cache by punching it. A single item is taken out at
 a time. Full stacks can be taken out by punching the cache while sneaking.
 
 The exact amount of items that a cache stores can be read using a
-[multimeter](/docs/1.12/thermal-foundation/multimeter/).
+[multimeter](../../thermal-foundation/multimeter/).
 
 ### Input and output
 Items can enter and exit a cache through any of its sides.
@@ -72,7 +72,7 @@ A cache can be locked to only accept the currently stored item, even when it
 becomes empty. This can be toggled by using the cache while sneaking.
 
 ### Enchantments
-A cache can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
+A cache can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -92,7 +92,7 @@ strength of between 0 and 15, depending on how full the cache is.
 Tiers
 -----
 
-Caches come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Caches come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

@@ -12,4 +12,4 @@ redirect_from:
 
 
 **Redstone Arsenal** is a mod for Minecraft 1.12. It adds a set of powerful
-tools, weapons and armor powered by [Redstone Flux](/docs/redstone-flux/).
+tools, weapons and armor powered by [Redstone Flux](../../redstone-flux/).

@@ -44,7 +44,7 @@ Usage
 
 ### Fluid storage
 A reservoir can be filled and drained by hand, or automatically using a [fluid
-transposer](/docs/1.12/thermal-expansion/fluid-transposer/) or similar. It can be filled and drained at
+transposer](../fluid-transposer/) or similar. It can be filled and drained at
 rates up to 1,000 mB/t. A basic reservoir can store up to 10
 [buckets](https://minecraft.gamepedia.com/Bucket) worth of fluid (10,000 mB).
 This can be increased by upgrading the reservoir to a higher [tier](#tiers).
@@ -73,7 +73,7 @@ A reservoir can be dyed by combining it with a
 removed by placing the reservoir in a crafting grid.
 
 ### Enchantments
-A reservoir can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
+A reservoir can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -88,7 +88,7 @@ capacity.
 Tiers
 -----
 
-Reservoirs come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Reservoirs come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

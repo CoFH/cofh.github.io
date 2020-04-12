@@ -18,7 +18,7 @@ usage-recipes:
   - tf-1-12-ingot-lumium-from-block
 ---
 
-**Blocks of lumium** are blocks made from [lumium ingots](/docs/1.12/thermal-foundation/lumium-ingot/).
+**Blocks of lumium** are blocks made from [lumium ingots](../lumium-ingot/).
 
 
 Obtaining
@@ -35,7 +35,7 @@ Usage
 -----
 
 ### Storage
-Blocks of lumium can be used to store [lumium ingots](/docs/1.12/thermal-foundation/lumium-ingot/) in a
+Blocks of lumium can be used to store [lumium ingots](../lumium-ingot/) in a
 compact way.
 
 ### Light source

@@ -7,8 +7,8 @@ redirect_from:
 - /docs/1.12/cofh-core-4/tweaks/
 ---
 
-[CoFH Core](/docs/1.12/cofh-core/) adds several **tweaks** to the game. Most of these
-are optional and can be disabled.
+[CoFH Core](../) adds several **tweaks** to the game. Most of these are optional
+and can be disabled.
 
 
 Infinity bows without arrows

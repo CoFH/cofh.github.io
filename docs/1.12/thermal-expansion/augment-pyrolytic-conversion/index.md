@@ -21,11 +21,11 @@ recipe-list:
 - charcoal-from-sawdust
 ---
 
-A **pyrolytic conversion** [augment](/docs/1.12/thermal-expansion/augments/) allows for a [redstone
-furnace](/docs/1.12/thermal-expansion/redstone-furnace/) to process various plant-based materials into
+A **pyrolytic conversion** [augment](../augments/) allows for a [redstone
+furnace](../redstone-furnace/) to process various plant-based materials into
 [charcoal](https://minecraft.gamepedia.com/Charcoal), and
-[coal](https://minecraft.gamepedia.com/Coal) into [coal coke](/docs/1.12/thermal-foundation/coal-coke/),
-with [creosote oil](/docs/1.12/thermal-foundation/creosote-oil/) as a byproduct.
+[coal](https://minecraft.gamepedia.com/Coal) into [coal coke](../../thermal-foundation/coal-coke/),
+with [creosote oil](../../thermal-foundation/creosote-oil/) as a byproduct.
 
 
 Obtaining
@@ -40,17 +40,17 @@ Usage
 
 ### Installation
 A pyrolytic conversion augment can be installed in the Augmentation tab in a
-[redstone furnace](/docs/1.12/thermal-expansion/redstone-furnace/)'s GUI. It is a specialization that
+[redstone furnace](../redstone-furnace/)'s GUI. It is a specialization that
 cannot be installed together with other specialization augments.
 
 ### Effects
 An installed pyrolytic conversion augment replaces a [redstone
-furnace](/docs/1.12/thermal-expansion/redstone-furnace/)'s recipe set with [its own](#recipes). This
+furnace](../redstone-furnace/)'s recipe set with [its own](#recipes). This
 recipe set consists of processing various plant-based materials into
 [charcoal](https://minecraft.gamepedia.com/Charcoal), and
-[coal](https://minecraft.gamepedia.com/Coal) into [coal coke](/docs/1.12/thermal-foundation/coal-coke/).
+[coal](https://minecraft.gamepedia.com/Coal) into [coal coke](../../thermal-foundation/coal-coke/).
 The redstone furnace also gains the ability to produce [creosote
-oil](/docs/1.12/thermal-foundation/creosote-oil/) as a byproduct.
+oil](../../thermal-foundation/creosote-oil/) as a byproduct.
 
 However, an installed pyrolytic conversion augment decreases a redstone
 furnace's maximum power usage by a factor of 10, thereby greatly reducing its

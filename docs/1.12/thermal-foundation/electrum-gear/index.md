@@ -27,7 +27,7 @@ usage-recipes:
 
 
 **Electrum gears** are crafting materials made of
-[electrum](/docs/1.12/thermal-foundation/electrum-ingot/).
+[electrum](../electrum-ingot/).
 
 
 Obtaining

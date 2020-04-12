@@ -79,7 +79,7 @@ usage-recipes:
 ---
 
 **[Shields](https://minecraft.gamepedia.com/Shield)** are weapons in vanilla
-Minecraft. [Thermal Foundation](/docs/1.12/thermal-foundation/) adds a set of shields
+Minecraft. [Thermal Foundation](../) adds a set of shields
 made of various materials.
 
 

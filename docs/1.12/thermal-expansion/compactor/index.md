@@ -27,7 +27,7 @@ recipe-list:
 > More gentle than a pulverizer.
 
 
-A **compactor** is a [machine](/docs/1.12/thermal-expansion/machines/) that applies pressure to items
+A **compactor** is a [machine](../machines/) that applies pressure to items
 to change their form.
 
 
@@ -35,7 +35,7 @@ Obtaining
 ---------
 
 A placed compactor can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -44,8 +44,8 @@ this can be much slower.
 
 ### Upgrading
 A compactor is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -53,11 +53,11 @@ Usage
 
 ### Placement
 When placed, a compactor faces the player. It can face any of the four cardinal
-directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When items are placed in a compactor's input slot, the machine will start
-consuming [Redstone Flux](/docs/redstone-flux/) to process them. Every item
+consuming [Redstone Flux](../../../redstone-flux/) to process them. Every item
 requires a certain amount of energy to process. When enough energy has been
 consumed for an item, the input is consumed and the output is placed in the
 output slot.
@@ -104,18 +104,18 @@ High
 The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
-A compactor can have a [signalum security lock](/docs/1.12/thermal-foundation/signalum-security-lock/)
+A compactor can have a [signalum security lock](../../thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Redprints
-A compactor's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/) to be
+A compactor's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to be
 copied to other compactors.
 
 
 Tiers
 -----
 
-Compactors come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Compactors come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -134,7 +134,7 @@ Compactors come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-A compactor can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve certain
+A compactor can have [augments](../augments/) installed to improve certain
 properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic compactor cannot be
 augmented.

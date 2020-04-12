@@ -14,9 +14,9 @@ recipes:
   - te-1-12-augment-dynamo-throttle
 ---
 
-An **excitation field limiter** is an [augment](/docs/1.12/thermal-expansion/augments/) that prevents a
-[dynamo](/docs/1.12/thermal-expansion/dynamos/) from wasting generated [Redstone
-Flux](/docs/redstone-flux/) when it cannot be emitted.
+An **excitation field limiter** is an [augment](../augments/) that prevents a
+[dynamo](../dynamos/) from wasting generated [Redstone
+Flux](../../../redstone-flux/) when it cannot be emitted.
 
 
 Obtaining
@@ -31,13 +31,13 @@ Usage
 
 ### Installation
 An excitation field limiter can be installed in the Augmentation tab in a
-[dynamo](/docs/1.12/thermal-expansion/dynamos/)'s GUI.
+[dynamo](../dynamos/)'s GUI.
 
 ### Effects
 An installed excitation field limiter lowers the minimum power output of a
-[dynamo](/docs/1.12/thermal-expansion/dynamos/) to zero.
+[dynamo](../dynamos/) to zero.
 
 Normally, when an active dynamo cannot emit the energy it generates, it will
 keep working at its minimum power output. Any more [Redstone
-Flux](/docs/redstone-flux/) that is generated in this case is lost. An installed
+Flux](../../../redstone-flux/) that is generated in this case is lost. An installed
 excitation field limiter prevents this energy loss.

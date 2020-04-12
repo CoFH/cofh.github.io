@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Platinum nuggets** are raw materials. They are the nugget form of
-[platinum](/docs/1.12/thermal-foundation/platinum-ingot/).
+[platinum](../platinum-ingot/).
 
 
 Obtaining

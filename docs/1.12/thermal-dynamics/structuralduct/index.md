@@ -18,14 +18,14 @@ usage-recipes:
 ---
 
 A **structuralduct** is a decorative block that connects to most other ducts. It
-is most commonly used to craft [covers](/docs/1.12/thermal-dynamics/covers/).
+is most commonly used to craft [covers](../covers/).
 
 
 Obtaining
 ---------
 
 A placed structuralduct can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). It can also be mined using a
+[wrench](../../wrenches/). It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -38,7 +38,7 @@ Usage
 ### Placement
 When placed, a structuralduct connects to any adjacent ducts of the same width.
 Any connected side of a structuralduct can be disconnected and reconnected by
-using a [wrench](/docs/1.12/wrenches/) on it.
+using a [wrench](../../wrenches/) on it.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

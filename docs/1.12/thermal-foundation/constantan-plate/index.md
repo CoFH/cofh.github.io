@@ -20,7 +20,7 @@ usage-recipes:
 
 
 **Constantan plates** are crafting materials made of
-[constantan](/docs/1.12/thermal-foundation/constantan-ingot/).
+[constantan](../constantan-ingot/).
 
 
 Obtaining

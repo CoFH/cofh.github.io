@@ -13,10 +13,10 @@ recipes:
   - te-1-12-augment-machine-pulverizer-petrotheum
 ---
 
-A **tectonic initiator** is an [augment](/docs/1.12/thermal-expansion/augments/) that allows for a
-[pulverizer](/docs/1.12/thermal-expansion/pulverizer/) to process
-[ores](/docs/1.12/thermal-expansion/pulverizer/#ore-processing) more efficiently using [tectonic
-petrotheum](/docs/1.12/thermal-foundation/tectonic-petrotheum/).
+A **tectonic initiator** is an [augment](../augments/) that allows for a
+[pulverizer](../pulverizer/) to process
+[ores](../pulverizer/#ore-processing) more efficiently using [tectonic
+petrotheum](../../thermal-foundation/tectonic-petrotheum/).
 
 
 Obtaining
@@ -31,20 +31,20 @@ Usage
 
 ### Installation
 A tectonic initiator can be installed in the Augmentation tab in a
-[pulverizer](/docs/1.12/thermal-expansion/pulverizer/)'s GUI. It is a specialization that cannot be
+[pulverizer](../pulverizer/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-A [pulverizer](/docs/1.12/thermal-expansion/pulverizer/) with a tectonic initiator installed produces
+A [pulverizer](../pulverizer/) with a tectonic initiator installed produces
 1.5 times as much of the primary product of any
-[ore](/docs/1.12/thermal-expansion/pulverizer/#ore-processing) it processes (amounts are rounded down
+[ore](../pulverizer/#ore-processing) it processes (amounts are rounded down
 when necessary). However, it consumes 100 mB of [tectonic
-petrotheum](/docs/1.12/thermal-foundation/tectonic-petrotheum/) per ore to do so, and the amount of
+petrotheum](../../thermal-foundation/tectonic-petrotheum/) per ore to do so, and the amount of
 energy required per operation is increased by 50%.
 
 An installed tectonic initiator also increases the chances of a pulverizer
 producing a secondary product. This effect stacks with those of any installed
-[auxiliary sieves](/docs/1.12/thermal-expansion/augment-auxiliary-sieve/).
+[auxiliary sieves](../augment-auxiliary-sieve/).
 
 <!--
 modifiedChance = 100 - amount * 15 - 25   (minimum is 5)

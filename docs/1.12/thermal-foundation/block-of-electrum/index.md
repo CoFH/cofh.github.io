@@ -19,7 +19,7 @@ usage-recipes:
 ---
 
 **Blocks of electrum** are blocks made from [electrum
-ingots](/docs/1.12/thermal-foundation/electrum-ingot/).
+ingots](../electrum-ingot/).
 
 
 Obtaining
@@ -36,7 +36,7 @@ Usage
 -----
 
 ### Storage
-Blocks of electrum can be used to store [electrum ingots](/docs/1.12/thermal-foundation/electrum-ingot/)
+Blocks of electrum can be used to store [electrum ingots](../electrum-ingot/)
 in a compact way.
 
 ### Mob spawning

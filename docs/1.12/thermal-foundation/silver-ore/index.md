@@ -26,8 +26,8 @@ usage-recipes:
 
 
 **Silver ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
-that yields [silver](/docs/1.12/thermal-foundation/silver-ingot/) and small amounts of
-[lead](/docs/1.12/thermal-foundation/lead-ingot/).
+that yields [silver](../silver-ingot/) and small amounts of
+[lead](../lead-ingot/).
 
 
 Obtaining
@@ -37,7 +37,7 @@ Silver ore is less common than [iron
 ore](https://minecraft.gamepedia.com/Iron_Ore), but more common than [gold
 ore](https://minecraft.gamepedia.com/Gold_Ore). It occurs at low levels in the
 world (layers 5-30). Silver ore veins are slightly smaller than iron ore veins,
-and may contain one or two blocks of [lead ore](/docs/1.12/thermal-foundation/lead-ore/) as well.
+and may contain one or two blocks of [lead ore](../lead-ore/) as well.
 Similarly, lead ore veins may contain one or two blocks of silver ore.
 
 Silver ore must be mined with an [iron
@@ -61,9 +61,9 @@ Usage
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When silver ore is broken using a [Smashing](/docs/1.12/cofh-core/smashing/)
+When silver ore is broken using a [Smashing](../../cofh-core/smashing/)
 enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
-two piles of [pulverized silver](/docs/1.12/thermal-foundation/pulverized-silver/)
+two piles of [pulverized silver](../pulverized-silver/)
 are dropped instead of the ore.
 
 ### Light source
@@ -73,6 +73,6 @@ Silver ore emits a light level of 4.
 Trivia
 ------
 
-* Silver ore is generated in the world using [CoFH World](/docs/1.12/cofh-world/) by
+* Silver ore is generated in the world using [CoFH World](../../cofh-world/) by
   default. The world generation can be tweaked or disabled using CoFH World's
-  [configuration](/docs/1.12/cofh-world/world-generator-configuration/).
+  [configuration](../../cofh-world/world-generator-configuration/).

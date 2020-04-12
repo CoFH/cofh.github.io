@@ -28,14 +28,14 @@ recipe-list:
 
 
 A **fractionating still** (or **still** for short, also known as a **refinery**)
-is a [machine](/docs/1.12/thermal-expansion/machines/) that refines fluids.
+is a [machine](../machines/) that refines fluids.
 
 
 Obtaining
 ---------
 
 A placed fractionating still can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -44,8 +44,8 @@ this can be much slower.
 
 ### Upgrading
 A fractionating still is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -53,11 +53,11 @@ Usage
 
 ### Placement
 When placed, a fractionating still faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When a fractionating still's input tank is filled with a fluid, the machine will
-start consuming [Redstone Flux](/docs/redstone-flux/) to process it. Each batch
+start consuming [Redstone Flux](../../../redstone-flux/) to process it. Each batch
 of fluid requires a certain amount of energy to process. When enough energy has
 been consumed for a batch of fluid, the fluid is consumed and the output is
 placed in the output tank. A secondary item output may be produced, which is
@@ -105,17 +105,17 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A fractionating still can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A fractionating still's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other stills.
+[redprint](../../thermal-foundation/redprint/) to be copied to other stills.
 
 
 Tiers
 -----
 
-Fractionating stills come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Fractionating stills come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -134,7 +134,7 @@ Fractionating stills come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-A fractionating still can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+A fractionating still can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic still cannot be
 augmented.

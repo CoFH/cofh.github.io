@@ -16,7 +16,7 @@ recipes:
 
 
 An **arboreal extractor** (also known as a **tapper**) is a
-[device](/docs/1.12/thermal-expansion/devices/) that extracts a fluid from an adjacent
+[device](../devices/) that extracts a fluid from an adjacent
 [tree](https://minecraft.gamepedia.com/Tree).
 
 
@@ -24,7 +24,7 @@ Obtaining
 ---------
 
 A placed arboreal extractor can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
 
 ### Crafting
@@ -36,7 +36,7 @@ Usage
 
 ### Placement
 When placed, an arboreal extractor faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
 When placed next to the bottom of a [tree](https://minecraft.gamepedia.com/Tree)
@@ -60,9 +60,9 @@ device's production for 8 cycles per item.
 
 | Fertilizer type | Production multiplier |
 |---
-| [Phyto-Gro](/docs/1.12/thermal-foundation/phyto-gro/) | × 2 |
-| [Rich Phyto-Gro](/docs/1.12/thermal-foundation/rich-phyto-gro/) | × 3 |
-| [Fluxed Phyto-Gro](/docs/1.12/thermal-foundation/fluxed-phyto-gro/) | × 4 |
+| [Phyto-Gro](../../thermal-foundation/phyto-gro/) | × 2 |
+| [Rich Phyto-Gro](../../thermal-foundation/rich-phyto-gro/) | × 3 |
+| [Fluxed Phyto-Gro](../../thermal-foundation/fluxed-phyto-gro/) | × 4 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Input and output
@@ -102,11 +102,11 @@ The current mode can be set using the Redstone Control tab in the device's GUI.
 
 ### Security
 An arboreal extractor can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 An arboreal extractor's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other arboreal extractors.
+[redprint](../../thermal-foundation/redprint/) to be copied to other arboreal extractors.
 
 
 Products
@@ -117,12 +117,12 @@ produced per cycle depends on the type of tree.
 
 | Tree type | Extracted fluid | Fluid per cycle |
 |---
-| Oak | [Sap](/docs/1.12/thermal-foundation/sap/) | 50 mB |
-| Spruce | [Resin](/docs/1.12/thermal-foundation/resin/) | 100 mB |
-| Birch | [Resin](/docs/1.12/thermal-foundation/resin/) | 50 mB |
-| Jungle | [Resin](/docs/1.12/thermal-foundation/resin/) | 50 mB |
-| Acacia | [Resin](/docs/1.12/thermal-foundation/resin/) | 50 mB |
-| Dark Oak | [Sap](/docs/1.12/thermal-foundation/sap/) | 100 mB |
-| Huge brown mushroom | [Mushroom Stew](/docs/1.12/thermal-foundation/mushroom-stew/) | 50 mB |
-| Huge red mushroom | [Mushroom Stew](/docs/1.12/thermal-foundation/mushroom-stew/) | 50 mB |
+| Oak | [Sap](../../thermal-foundation/sap/) | 50 mB |
+| Spruce | [Resin](../../thermal-foundation/resin/) | 100 mB |
+| Birch | [Resin](../../thermal-foundation/resin/) | 50 mB |
+| Jungle | [Resin](../../thermal-foundation/resin/) | 50 mB |
+| Acacia | [Resin](../../thermal-foundation/resin/) | 50 mB |
+| Dark Oak | [Sap](../../thermal-foundation/sap/) | 100 mB |
+| Huge brown mushroom | [Mushroom Stew](../../thermal-foundation/mushroom-stew/) | 50 mB |
+| Huge red mushroom | [Mushroom Stew](../../thermal-foundation/mushroom-stew/) | 50 mB |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

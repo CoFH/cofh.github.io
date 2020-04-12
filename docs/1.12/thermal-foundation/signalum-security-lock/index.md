@@ -38,7 +38,7 @@ When a signalum security lock is held in the player's offhand, it is
 automatically installed on blocks when they are placed.
 
 Installing signalum security locks only works on blocks and items that support
-it. Most blocks and items in [Thermal Expansion](/docs/1.12/thermal-expansion/) that
+it. Most blocks and items in [Thermal Expansion](../../thermal-expansion/) that
 can contain items or fluids support signalum security locks.
 
 ### Security
@@ -48,7 +48,7 @@ Public Access
 : Anyone can access the block or item. This is the default mode.
 
 Restricted
-: The owner and any of their [friends](/docs/1.12/cofh-core/friend-list/) can access the block
+: The owner and any of their [friends](../../cofh-core/friend-list/) can access the block
 or item.
 
 Owner Only

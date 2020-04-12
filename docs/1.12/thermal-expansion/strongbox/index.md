@@ -28,7 +28,7 @@ recipes:
 
 A **strongbox** is a block that stores items. It is functionally similar to a
 [chest](https://minecraft.gamepedia.com/Chest), but can be moved and
-[secured](/docs/1.12/thermal-foundation/signalum-security-lock/). At higher [tiers](#tiers), it also
+[secured](../../thermal-foundation/signalum-security-lock/). At higher [tiers](#tiers), it also
 stores more items.
 
 
@@ -36,7 +36,7 @@ Obtaining
 ---------
 
 A placed strongbox can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its stored items and configuration are preserved in
+[wrench](../../wrenches/). Its stored items and configuration are preserved in
 the item. It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
 slower.
@@ -46,8 +46,8 @@ slower.
 
 ### Upgrading
 A strongbox is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -55,7 +55,7 @@ Usage
 
 ### Placement
 When placed, a strongbox faces the player. It can face any of the four cardinal
-directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Manual usage
 A placed strongbox is functionally similar to a
@@ -63,17 +63,17 @@ A placed strongbox is functionally similar to a
 items can be manually put in or taken out.
 
 Strongboxes cannot store certain items that can themselves store items, like
-other strongboxes or [satchels](/docs/1.12/thermal-expansion/satchel/).
+other strongboxes or [satchels](../satchel/).
 
 ### Input and output
 Items can enter and exit a strongbox through any of its sides.
 
 ### Security
-A strongbox can have a [signalum security lock](/docs/1.12/thermal-foundation/signalum-security-lock/)
+A strongbox can have a [signalum security lock](../../thermal-foundation/signalum-security-lock/)
 installed to restrict who can access it.
 
 ### Enchantments
-A strongbox can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
+A strongbox can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity increase (slots) |
@@ -93,7 +93,7 @@ strength of between 0 and 15, depending on how full the strongbox is.
 Tiers
 -----
 
-Strongboxes come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Strongboxes come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

@@ -9,7 +9,7 @@ redirect_from:
 - /docs/1.12/cofh-core-4/commands/
 ---
 
-[CoFH Core](/docs/1.12/cofh-core/) adds various
+[CoFH Core](../) adds various
 **[commands](https://minecraft.gamepedia.com/Commands)** to the game.
 
 
@@ -25,7 +25,7 @@ All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 | [version](#version) | Displays the installed version of CoFH Core. | -1 |
 | [help](#help) | Displays information about CoFH Core's commands. | -1 |
 | [syntax](#syntax) | Displays the syntax of CoFH Core's commands. | -1 |
-| [friend](#friend) | Allows management of a player's [friend list](/docs/1.12/cofh-core/friend-list/). | -1 |
+| [friend](#friend) | Allows management of a player's [friend list](../friend-list/). | -1 |
 | [hand](#hand) | Displays information about held items. | 0 |
 | [tps](#tps) | Displays the server TPS (ticks per second). | 0 |
 | [enchant](#enchant) | Applies enchantments to held items. | 2 |
@@ -81,9 +81,9 @@ commands.
 ---
 
 ### friend
-Allows management of the command user's [friend
-list](/docs/1.12/cofh-core/friend-list/). Can be done by either opening the friend
-list GUI or by adding/removing friends directly.
+Allows management of the command user's [friend list](../friend-list/). Can be
+done by either opening the friend list GUI or by adding/removing friends
+directly.
 
     /cofh friend {gui | list | add <player> | remove <player>}
 

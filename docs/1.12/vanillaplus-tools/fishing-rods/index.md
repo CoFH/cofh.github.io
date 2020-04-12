@@ -20,7 +20,7 @@ redirect_from:
 ---
 
 **[Fishing rods](https://minecraft.gamepedia.com/Fishing_Rod)** are tools in
-vanilla Minecraft. [Vanilla+ Tools](/docs/1.12/vanillaplus-tools/) adds a set of
+vanilla Minecraft. [Vanilla+ Tools](../) adds a set of
 fishing rods made of materials other than wood.
 
 

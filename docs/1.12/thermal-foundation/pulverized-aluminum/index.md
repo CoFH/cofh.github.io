@@ -28,7 +28,7 @@ usage-recipes:
 
 
 **Pulverized aluminum** is a raw material. It is the dust form of
-[aluminum](/docs/1.12/thermal-foundation/aluminum-ingot/).
+[aluminum](../aluminum-ingot/).
 
 
 Obtaining
@@ -41,8 +41,8 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Smashing
-When [aluminum ore](/docs/1.12/thermal-foundation/aluminum-ore/) is broken using a
-[Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When [aluminum ore](../aluminum-ore/) is broken using a
+[Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized aluminum are dropped instead of the ore.
 

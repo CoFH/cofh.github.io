@@ -13,10 +13,10 @@ recipes:
   - te-1-12-augment-machine-smelter-pyrotheum
 ---
 
-A **pyro-concentrator** is an [augment](/docs/1.12/thermal-expansion/augments/) that allows for an
-[induction smelter](/docs/1.12/thermal-expansion/induction-smelter/) to process
-[ores](/docs/1.12/thermal-expansion/induction-smelter/#ore-processing) more efficiently using [blazing
-pyrotheum](/docs/1.12/thermal-foundation/blazing-pyrotheum/).
+A **pyro-concentrator** is an [augment](../augments/) that allows for an
+[induction smelter](../induction-smelter/) to process
+[ores](../induction-smelter/#ore-processing) more efficiently using [blazing
+pyrotheum](../../thermal-foundation/blazing-pyrotheum/).
 
 
 Obtaining
@@ -31,19 +31,19 @@ Usage
 
 ### Installation
 A pyro-concentrator can be installed in the Augmentation tab in an [induction
-smelter](/docs/1.12/thermal-expansion/induction-smelter/)'s GUI. It is a specialization that cannot be
+smelter](../induction-smelter/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-An [induction smelter](/docs/1.12/thermal-expansion/induction-smelter/) with a pyro-concentrator
+An [induction smelter](../induction-smelter/) with a pyro-concentrator
 installed produces 1.5 times as much of the primary product of any
-[ore](/docs/1.12/thermal-expansion/induction-smelter/#ore-processing) it processes. However, it
-consumes 100 mB of [blazing pyrotheum](/docs/1.12/thermal-foundation/blazing-pyrotheum/) per ore to do
+[ore](../induction-smelter/#ore-processing) it processes. However, it
+consumes 100 mB of [blazing pyrotheum](../../thermal-foundation/blazing-pyrotheum/) per ore to do
 so, and the amount of energy required per operation is increased by 50%.
 
 An installed pyro-concentrator also increases the chances of an induction
 smelter producing a secondary product. This effect stacks with those of any
-installed [auxiliary sieves](/docs/1.12/thermal-expansion/augment-auxiliary-sieve/).
+installed [auxiliary sieves](../augment-auxiliary-sieve/).
 
 <!--
 modifiedChance = 100 - amount * 15 - 30   (minimum is 5)

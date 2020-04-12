@@ -18,7 +18,7 @@ usage-recipes:
   - tf-1-12-ingot-lead-from-block
 ---
 
-**Blocks of lead** are blocks made from [lead ingots](/docs/1.12/thermal-foundation/lead-ingot/).
+**Blocks of lead** are blocks made from [lead ingots](../lead-ingot/).
 
 
 Obtaining
@@ -35,7 +35,7 @@ Usage
 -----
 
 ### Storage
-Blocks of lead can be used to store [lead ingots](/docs/1.12/thermal-foundation/lead-ingot/) in a
+Blocks of lead can be used to store [lead ingots](../lead-ingot/) in a
 compact way.
 
 ### Mob spawning
@@ -49,5 +49,5 @@ Blocks of lead can be used to build
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Primal Mana
-When [primal mana](/docs/1.12/thermal-foundation/primal-mana/) touches a block of lead, the block is
+When [primal mana](../primal-mana/) touches a block of lead, the block is
 turned into a [block of gold](https://minecraft.gamepedia.com/Block_of_Gold).

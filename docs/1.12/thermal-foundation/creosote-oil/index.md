@@ -26,9 +26,9 @@ usage-recipes:
 
 
 **Creosote oil** is a fluid that is most commonly obtained as a byproduct from
-[redstone furnaces](/docs/1.12/thermal-expansion/redstone-furnace/) with [pyrolytic
-conversion](/docs/1.12/thermal-expansion/augment-pyrolytic-conversion/) installed. It can be used as
-fuel in a [compression dynamo](/docs/1.12/thermal-expansion/compression-dynamo/).
+[redstone furnaces](../../thermal-expansion/redstone-furnace/) with [pyrolytic
+conversion](../../thermal-expansion/augment-pyrolytic-conversion/) installed. It can be used as
+fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/).
 
 
 Obtaining
@@ -50,5 +50,5 @@ Creosote oil cannot be placed as a block.
 {% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Compression Dynamo fuel
-When used as fuel in a [compression dynamo](/docs/1.12/thermal-expansion/compression-dynamo/), a bucket
+When used as fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/), a bucket
 of creosote oil yields 40,000 RF.

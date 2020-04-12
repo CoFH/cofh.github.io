@@ -20,7 +20,7 @@ usage-recipes:
 ---
 
 **Fluxed electrum gears** are crafting materials made of [fluxed
-electrum](/docs/1.12/redstone-arsenal/fluxed-electrum-ingot/).
+electrum](../fluxed-electrum-ingot/).
 
 
 Obtaining

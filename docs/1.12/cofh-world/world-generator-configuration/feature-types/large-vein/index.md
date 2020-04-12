@@ -4,11 +4,9 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/feature-types/large-vein/
 ---
 
-**`large-vein`** is one of the [feature
-types](/docs/1.12/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/1.12/cofh-world/). It generates deposits of blocks as a group
-of branches that start from a center point. These types of deposits can get very
-large.
+**`large-vein`** is one of the [feature types](../) provided by [CoFH
+World](../../../). It generates deposits of blocks as a group of branches that
+start from a center point. These types of deposits can get very large.
 
 A deposit of blocks generated using `large-vein` consists of 'main branches' and
 'sub-branches'. Main branches start from the center point of the deposit.
@@ -21,8 +19,7 @@ Options
 -------
 
 When using this feature type, the following values must be added to the [feature
-type
-configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
+type configuration](../../feature-format/#feature-type-configuration).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -38,7 +35,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`block`</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td>-</td>

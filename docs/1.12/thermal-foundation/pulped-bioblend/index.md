@@ -18,10 +18,10 @@ redirect_from:
 ---
 
 **Pulped bioblend** is a material obtained by mixing [pulped
-biomass](/docs/1.12/thermal-foundation/pulped-biomass/) and
-[sawdust](/docs/1.12/thermal-foundation/sawdust/). It can be processed into
-[biocrude](/docs/1.12/thermal-foundation/biocrude/), which can then be processed into
-[grassoline](/docs/1.12/thermal-foundation/grassoline/). Using bioblend allows for
+biomass](../pulped-biomass/) and
+[sawdust](../sawdust/). It can be processed into
+[biocrude](../biocrude/), which can then be processed into
+[grassoline](../grassoline/). Using bioblend allows for
 more biocrude to be produced from the same amount of biomass.
 
 

@@ -91,7 +91,7 @@ Obtaining
 ---------
 
 Hardened glass can only be harvested by dismantling it with a
-[wrench](/docs/1.12/wrenches/) or by breaking it with a [Silk
+[wrench](../../wrenches/) or by breaking it with a [Silk
 Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
 
 ### Induction Smelter
@@ -106,7 +106,7 @@ Usage
 
 ### Light source
 Some variants of hardened glass emit varying amounts of light depending on the
-type of metal, like [lumium](/docs/1.12/thermal-foundation/lumium-ingot/).
+type of metal, like [lumium](../lumium-ingot/).
 
 ### Wither proofing
 Hardened glass blocks cannot be broken by

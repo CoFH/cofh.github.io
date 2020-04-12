@@ -43,7 +43,7 @@ usage-recipes:
 
 
 **[Pickaxes](https://minecraft.gamepedia.com/Pickaxe)** are tools in vanilla
-Minecraft. [Thermal Foundation](/docs/1.12/thermal-foundation/) adds a set of
+Minecraft. [Thermal Foundation](../) adds a set of
 pickaxes made of various metals.
 
 

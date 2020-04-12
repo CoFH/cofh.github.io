@@ -13,8 +13,8 @@ recipes:
   - te-1-12-augment-dynamo-steam-turbine
 ---
 
-A **turbine conversion** is an [augment](/docs/1.12/thermal-expansion/augments/) that changes a [steam
-dynamo](/docs/1.12/thermal-expansion/steam-dynamo/) to work on [steam](/docs/1.12/thermal-foundation/steam/) supplied from an
+A **turbine conversion** is an [augment](../augments/) that changes a [steam
+dynamo](../steam-dynamo/) to work on [steam](../../thermal-foundation/steam/) supplied from an
 external source.
 
 
@@ -30,15 +30,15 @@ Usage
 
 ### Installation
 A turbine conversion can be installed in the Augmentation tab in a [steam
-dynamo](/docs/1.12/thermal-expansion/steam-dynamo/)'s GUI. It is a specialization that cannot be
+dynamo](../steam-dynamo/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-A [steam dynamo](/docs/1.12/thermal-expansion/steam-dynamo/) with a turbine conversion installed
-generates [Redstone Flux](/docs/redstone-flux/) using [steam](/docs/1.12/thermal-foundation/steam/)
+A [steam dynamo](../steam-dynamo/) with a turbine conversion installed
+generates [Redstone Flux](../../../redstone-flux/) using [steam](../../thermal-foundation/steam/)
 instead of [water](https://minecraft.gamepedia.com/Water) and solid fuel. It
 generates 2 RF of energy per mB of steam, regardless of other installed
-[augments](/docs/1.12/thermal-expansion/augments/).
+[augments](../augments/).
 
 When the dynamo is inactive, any steam stored inside gradually dissipates. This
 can cause energy loss when steam is being supplied while the dynamo is inactive.
@@ -47,7 +47,7 @@ An installed turbine conversion quadruples the maximum power output of a steam
 dynamo.
 
 Generating energy using dynamos with [boiler
-conversions](/docs/1.12/thermal-expansion/augment-boiler-conversion/) installed and steam dynamos with
+conversions](../augment-boiler-conversion/) installed and steam dynamos with
 turbine conversions installed is more fuel efficient than using dynamos to
 generate energy directly. A dynamo with a boiler conversion installed produces
 steam at the same rates at which it would normally generate energy (replacing RF

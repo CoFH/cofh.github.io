@@ -23,7 +23,7 @@ augments:
 > it, just insert coins.
 
 
-A **numismatic dynamo** is a [dynamo](/docs/1.12/thermal-expansion/dynamos/) fueled by currency, like
+A **numismatic dynamo** is a [dynamo](../dynamos/) fueled by currency, like
 [emeralds](https://minecraft.gamepedia.com/Emerald) and metal coins.
 
 
@@ -31,7 +31,7 @@ Obtaining
 ---------
 
 A placed numismatic dynamo can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+[wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -40,8 +40,8 @@ this can be much slower.
 
 ### Upgrading
 A numismatic dynamo is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -50,11 +50,11 @@ Usage
 ### Placement
 When placed, a numismatic dynamo faces up. When placed while sneaking, it faces
 away from the player. A numismatic dynamo can face any direction, and can be
-rotated using a [wrench](/docs/1.12/wrenches/).
+rotated using a [wrench](../../wrenches/).
 
 ### Energy generation
 When [fuel](#fuels) is placed in a numismatic dynamo's fuel slot, it will start
-consuming it to generate [Redstone Flux](/docs/redstone-flux/). Every unit of
+consuming it to generate [Redstone Flux](../../../redstone-flux/). Every unit of
 fuel yields a certain amount of energy when consumed.
 
 The speed at which energy is generated and fuel is consumed depends on how much
@@ -67,14 +67,14 @@ When an active numismatic dynamo cannot emit the energy it generates, it will
 keep working at its minimum power output (a tenth of its maximum power output).
 Any more energy that is generated in this case is lost. This can be resolved by
 installing an [excitation field
-limiter](/docs/1.12/thermal-expansion/augment-excitation-field-limiter/).
+limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A numismatic dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
+A numismatic dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Items can enter a numismatic dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil
-ducting](/docs/1.12/thermal-expansion/augment-transmission-coil-ducting/) is installed.
+ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 A numismatic dynamo may be configured to respond to
@@ -99,11 +99,11 @@ from that unit of fuel first.
 
 ### Security
 A numismatic dynamo can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A numismatic dynamo's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other dynamos.
+[redprint](../../thermal-foundation/redprint/) to be copied to other dynamos.
 
 ### Light source
 When a numismatic dynamo is active, it emits a light level of 7.
@@ -112,7 +112,7 @@ When a numismatic dynamo is active, it emits a light level of 7.
 Tiers
 -----
 
-Numismatic dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Numismatic dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -131,7 +131,7 @@ Numismatic dynamos come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
 Augmentation
 ------------
 
-A numismatic dynamo can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+A numismatic dynamo can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the dynamo's [tier](#tiers). A basic numismatic dynamo
 cannot be augmented.
@@ -150,23 +150,23 @@ amounts of energy.
 | Fuel | Energy per unit |
 |---
 | [Emerald](https://minecraft.gamepedia.com/Emerald) | 200,000 RF |
-| [Iron Coin](/docs/1.12/thermal-foundation/iron-coin/) | 30,000 RF |
-| [Gold Coin](/docs/1.12/thermal-foundation/gold-coin/) | 40,000 RF |
-| [Copper Coin](/docs/1.12/thermal-foundation/copper-coin/) | 30,000 RF |
-| [Tin Coin](/docs/1.12/thermal-foundation/tin-coin/) | 30,000 RF |
-| [Silver Coin](/docs/1.12/thermal-foundation/silver-coin/) | 40,000 RF |
-| [Lead Coin](/docs/1.12/thermal-foundation/lead-coin/) | 40,000 RF |
-| [Aluminum Coin](/docs/1.12/thermal-foundation/aluminum-coin/) | 40,000 RF |
-| [Nickel Coin](/docs/1.12/thermal-foundation/nickel-coin/) | 60,000 RF |
-| [Platinum Coin](/docs/1.12/thermal-foundation/platinum-coin/) | 80,000 RF |
-| [Iridium Coin](/docs/1.12/thermal-foundation/iridium-coin/) | 100,000 RF |
-| [Mana Infused Coin](/docs/1.12/thermal-foundation/mana-infused-coin/) | 150,000 RF |
-| [Steel Coin](/docs/1.12/thermal-foundation/steel-coin/) | 40,000 RF |
-| [Electrum Coin](/docs/1.12/thermal-foundation/electrum-coin/) | 40,000 RF |
-| [Invar Coin](/docs/1.12/thermal-foundation/invar-coin/) | 40,000 RF |
-| [Bronze Coin](/docs/1.12/thermal-foundation/bronze-coin/) | 30,000 RF |
-| [Constantan Coin](/docs/1.12/thermal-foundation/constantan-coin/) | 45,000 RF |
-| [Signalum Coin](/docs/1.12/thermal-foundation/signalum-coin/) | 100,000 RF |
-| [Lumium Coin](/docs/1.12/thermal-foundation/lumium-coin/) | 100,000 RF |
-| [Enderium Coin](/docs/1.12/thermal-foundation/enderium-coin/) | 150,000 RF |
+| [Iron Coin](../../thermal-foundation/iron-coin/) | 30,000 RF |
+| [Gold Coin](../../thermal-foundation/gold-coin/) | 40,000 RF |
+| [Copper Coin](../../thermal-foundation/copper-coin/) | 30,000 RF |
+| [Tin Coin](../../thermal-foundation/tin-coin/) | 30,000 RF |
+| [Silver Coin](../../thermal-foundation/silver-coin/) | 40,000 RF |
+| [Lead Coin](../../thermal-foundation/lead-coin/) | 40,000 RF |
+| [Aluminum Coin](../../thermal-foundation/aluminum-coin/) | 40,000 RF |
+| [Nickel Coin](../../thermal-foundation/nickel-coin/) | 60,000 RF |
+| [Platinum Coin](../../thermal-foundation/platinum-coin/) | 80,000 RF |
+| [Iridium Coin](../../thermal-foundation/iridium-coin/) | 100,000 RF |
+| [Mana Infused Coin](../../thermal-foundation/mana-infused-coin/) | 150,000 RF |
+| [Steel Coin](../../thermal-foundation/steel-coin/) | 40,000 RF |
+| [Electrum Coin](../../thermal-foundation/electrum-coin/) | 40,000 RF |
+| [Invar Coin](../../thermal-foundation/invar-coin/) | 40,000 RF |
+| [Bronze Coin](../../thermal-foundation/bronze-coin/) | 30,000 RF |
+| [Constantan Coin](../../thermal-foundation/constantan-coin/) | 45,000 RF |
+| [Signalum Coin](../../thermal-foundation/signalum-coin/) | 100,000 RF |
+| [Lumium Coin](../../thermal-foundation/lumium-coin/) | 100,000 RF |
+| [Enderium Coin](../../thermal-foundation/enderium-coin/) | 150,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

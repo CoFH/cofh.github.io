@@ -34,7 +34,7 @@ usage-recipes:
 
 
 **Signalum gears** are crafting materials made of
-[signalum](/docs/1.12/thermal-foundation/signalum-ingot/).
+[signalum](../signalum-ingot/).
 
 
 Obtaining

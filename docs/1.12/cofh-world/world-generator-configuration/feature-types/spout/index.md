@@ -4,20 +4,18 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/feature-types/spout/
 ---
 
-**`spout`** is one of the [feature
-types](/docs/1.12/cofh-world/world-generator-configuration/feature-types/) provided
-by [CoFH World](/docs/1.12/cofh-world/). It generates columns of blocks of a certain
-height. The columns are generated from the bottom up, starting from the
-coordinates where the features are placed. This can be used to generate 'spouts'
-of fluid that emerge from underground.
+**`spout`** is one of the [feature types](../) provided by [CoFH
+World](../../../). It generates columns of blocks of a certain height. The
+columns are generated from the bottom up, starting from the coordinates where
+the features are placed. This can be used to generate 'spouts' of fluid that
+emerge from underground.
 
 
 Options
 -------
 
 When using this feature type, the following values must be added to the [feature
-type
-configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration).
+type configuration](../../feature-format/#feature-type-configuration).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -33,7 +31,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`block`</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td>-</td>
@@ -46,8 +44,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`radius`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">
@@ -59,8 +56,7 @@ configuration](/docs/1.12/cofh-world/world-generator-configuration/feature-forma
             <tr>
                 <td markdown="span">`height`</td>
                 <td markdown="span">
-                    Number /
-                    [number provider](/docs/1.12/cofh-world/world-generator-configuration/common-formats/number-provider/)
+                    Number / [number provider](../../common-formats/number-provider/)
                 </td>
                 <td markdown="span">-</td>
                 <td markdown="span">

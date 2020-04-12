@@ -23,7 +23,7 @@ usage-recipes:
 ![Copper plate](/assets/images/thermal-foundation-2/plate-copper.png){:style="height: 128px"}
 
 
-**Copper plates** are crafting materials made of [copper](/docs/1.12/thermal-foundation/copper-ingot/).
+**Copper plates** are crafting materials made of [copper](../copper-ingot/).
 
 
 Obtaining

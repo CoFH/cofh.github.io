@@ -24,7 +24,7 @@ usage-recipes:
 ![Tin gear](/assets/images/thermal-foundation-2/gear-tin.png){:style="height: 128px"}
 
 
-**Tin gears** are crafting materials made of [tin](/docs/1.12/thermal-foundation/tin-ingot/).
+**Tin gears** are crafting materials made of [tin](../tin-ingot/).
 
 
 Obtaining

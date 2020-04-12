@@ -28,14 +28,14 @@ recipes:
 ---
 
 An **energy cell** is a block that stores a large amount of [Redstone
-Flux](/docs/redstone-flux/).
+Flux](../../../redstone-flux/).
 
 
 Obtaining
 ---------
 
 A placed energy cell can be instantly picked up by dismantling it with a
-[wrench](/docs/1.12/wrenches/). Its stored energy and configuration are preserved in
+[wrench](../../wrenches/). Its stored energy and configuration are preserved in
 the item. It can also be mined using a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
 slower.
@@ -45,8 +45,8 @@ slower.
 
 ### Upgrading
 An energy cell is initially at the lowest [tier](#tiers) (basic). It can be
-upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -54,12 +54,12 @@ Usage
 
 ### Placement
 When placed, an energy cell faces the player. It can face any of the four
-cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 The front of an energy cell displays roughly how full it is.
 
 ### Input and output
-A placed energy cell can receive and emit [Redstone Flux](/docs/redstone-flux/)
+A placed energy cell can receive and emit [Redstone Flux](../../../redstone-flux/)
 through its sides. Which sides can receive or emit energy (or do neither) can be
 configured using the Configuration tab in the energy cell's GUI.
 
@@ -68,22 +68,22 @@ configured in its GUI. A basic energy cell has a maximum transfer rate of 1,000
 RF/t. This can be increased by upgrading the energy cell to a higher
 [tier](#tiers).
 
-When an energy cell is upgraded, or a [redprint](/docs/1.12/thermal-foundation/redprint/)'s contents are
+When an energy cell is upgraded, or a [redprint](../../thermal-foundation/redprint/)'s contents are
 copied onto it, the configured transmission rates scale with its tier.
 
 ### Item form
 An energy cell in item form can be charged with [Redstone
-Flux](/docs/redstone-flux/) using an [energetic
-infuser](/docs/1.12/thermal-expansion/energetic-infuser/), a [flux capacitor](/docs/1.12/thermal-expansion/flux-capacitor/) or
+Flux](../../../redstone-flux/) using an [energetic
+infuser](../energetic-infuser/), a [flux capacitor](../flux-capacitor/) or
 similar. It can be placed in
-[machines](/docs/1.12/thermal-expansion/machines/) or [enervation dynamos](/docs/1.12/thermal-expansion/enervation-dynamo/) to
+[machines](../machines/) or [enervation dynamos](../enervation-dynamo/) to
 provide them with energy.
 
 An energy cell item can be charged and discharged at the same rates it can
 receive and emit energy when placed.
 
 An energy cell item can store more energy than a [flux
-capacitor](/docs/1.12/thermal-expansion/flux-capacitor/), but cannot charge items in a player's
+capacitor](../flux-capacitor/), but cannot charge items in a player's
 inventory.
 
 ### Redstone control
@@ -107,10 +107,10 @@ GUI.
 
 ### Security
 A placed energy cell can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Enchantments
-An energy cell can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
+An energy cell can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -122,11 +122,11 @@ capacity.
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 ### Redprints
-An energy cell's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/) to
+An energy cell's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to
 be copied to other energy cells.
 
 ### Light source
-A placed energy cell that is holding [Redstone Flux](/docs/redstone-flux/) emits
+A placed energy cell that is holding [Redstone Flux](../../../redstone-flux/) emits
 a light level of between 1 and 8, depending on how full it is.
 
 ### Redstone comparators
@@ -138,7 +138,7 @@ strength of between 0 and 15, depending on how full the energy cell is.
 Tiers
 -----
 
-Energy cells come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Energy cells come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

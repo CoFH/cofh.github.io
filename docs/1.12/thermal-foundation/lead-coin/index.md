@@ -14,8 +14,8 @@ recipes:
 ![Lead coin](/assets/images/thermal-foundation-2/coin-lead.png){:style="height: 128px"}
 
 
-**Lead coins** are materials made of [lead](/docs/1.12/thermal-foundation/lead-ingot/) that can be used
-as fuel in a [numismatic dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/).
+**Lead coins** are materials made of [lead](../lead-ingot/) that can be used
+as fuel in a [numismatic dynamo](../../thermal-expansion/numismatic-dynamo/).
 
 
 Obtaining
@@ -29,5 +29,5 @@ Usage
 -----
 
 ### Numismatic Dynamo fuel
-When used as fuel in a [numismatic dynamo](/docs/1.12/thermal-expansion/numismatic-dynamo/), lead coins
+When used as fuel in a [numismatic dynamo](../../thermal-expansion/numismatic-dynamo/), lead coins
 yield 40,000 RF each.

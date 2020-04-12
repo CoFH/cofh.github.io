@@ -15,8 +15,8 @@ recipe-list:
 - coin
 ---
 
-A **numismatic press** is an [augment](/docs/1.12/thermal-expansion/augments/) that allows for a
-[compactor](/docs/1.12/thermal-expansion/compactor/) to produce metal coins instead of plates.
+A **numismatic press** is an [augment](../augments/) that allows for a
+[compactor](../compactor/) to produce metal coins instead of plates.
 
 
 Obtaining
@@ -31,11 +31,11 @@ Usage
 
 ### Installation
 A numismatic press can be installed in the Augmentation tab in a
-[compactor](/docs/1.12/thermal-expansion/compactor/)'s GUI. It is a specialization that cannot be
+[compactor](../compactor/)'s GUI. It is a specialization that cannot be
 installed together with other specialization augments.
 
 ### Effects
-An installed numismatic press allows for a [compactor](/docs/1.12/thermal-expansion/compactor/) to
+An installed numismatic press allows for a [compactor](../compactor/) to
 produce metal coins from ingots. This replaces the machine's ability to produce
 metal plates.
 

@@ -26,8 +26,8 @@ usage-recipes:
 
 
 **Lead ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
-that yields [lead](/docs/1.12/thermal-foundation/lead-ingot/) and small amounts of
-[silver](/docs/1.12/thermal-foundation/silver-ingot/).
+that yields [lead](../lead-ingot/) and small amounts of
+[silver](../silver-ingot/).
 
 
 Obtaining
@@ -38,7 +38,7 @@ ore](https://minecraft.gamepedia.com/Iron_Ore), but more common than [gold
 ore](https://minecraft.gamepedia.com/Gold_Ore). It occurs at relatively low
 levels in the world (layers 15-35). Lead ore veins are slightly smaller than
 iron ore veins, and may contain one or two blocks of [silver
-ore](/docs/1.12/thermal-foundation/silver-ore/) as well. Similarly, silver ore veins may contain one or
+ore](../silver-ore/) as well. Similarly, silver ore veins may contain one or
 two blocks of lead ore.
 
 Lead ore must be mined with an [iron
@@ -62,15 +62,15 @@ Usage
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
 
 ### Smashing
-When lead ore is broken using a [Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When lead ore is broken using a [Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
-[pulverized lead](/docs/1.12/thermal-foundation/pulverized-lead/) are dropped instead
+[pulverized lead](../pulverized-lead/) are dropped instead
 of the ore.
 
 
 Trivia
 ------
 
-* Lead ore is generated in the world using [CoFH World](/docs/1.12/cofh-world/) by
+* Lead ore is generated in the world using [CoFH World](../../cofh-world/) by
   default. The world generation can be tweaked or disabled using CoFH World's
-  [configuration](/docs/1.12/cofh-world/world-generator-configuration/).
+  [configuration](../../cofh-world/world-generator-configuration/).

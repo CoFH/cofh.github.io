@@ -51,7 +51,7 @@ usage-recipes:
 
 
 **[Bows](https://minecraft.gamepedia.com/Bow)** are weapons in vanilla
-Minecraft. [Thermal Foundation](/docs/1.12/thermal-foundation/) adds a set of
+Minecraft. [Thermal Foundation](../) adds a set of
 **reinforced bows**, which are bows made with various materials.
 
 

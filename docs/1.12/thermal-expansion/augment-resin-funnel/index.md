@@ -13,10 +13,10 @@ recipes:
   - te-1-12-augment-machine-sawmill-tapper
 ---
 
-A **resin funnel** is an [augment](/docs/1.12/thermal-expansion/augments/) that allows for a
-[sawmill](/docs/1.12/thermal-expansion/sawmill/) to extract fluids from
+A **resin funnel** is an [augment](../augments/) that allows for a
+[sawmill](../sawmill/) to extract fluids from
 [wood](https://minecraft.gamepedia.com/Wood), like an [arboreal
-extractor](/docs/1.12/thermal-expansion/arboreal-extractor/) does with
+extractor](../arboreal-extractor/) does with
 [trees](https://minecraft.gamepedia.com/Tree).
 
 
@@ -32,14 +32,14 @@ Usage
 
 ### Installation
 A resin funnel can be installed in the Augmentation tab in a
-[sawmill](/docs/1.12/thermal-expansion/sawmill/)'s GUI. It is a specialization that cannot be installed
+[sawmill](../sawmill/)'s GUI. It is a specialization that cannot be installed
 together with other specialization augments.
 
 ### Effects
-A [sawmill](/docs/1.12/thermal-expansion/sawmill/) with a resin funnel installed produces a fluid
+A [sawmill](../sawmill/) with a resin funnel installed produces a fluid
 byproduct when processing [wood](https://minecraft.gamepedia.com/Wood). It
-produces the same [fluids](/docs/1.12/thermal-expansion/arboreal-extractor/#products) that an [arboreal
-extractor](/docs/1.12/thermal-expansion/arboreal-extractor/) extracts from the corresponding types of
+produces the same [fluids](../arboreal-extractor/#products) that an [arboreal
+extractor](../arboreal-extractor/) extracts from the corresponding types of
 [trees](https://minecraft.gamepedia.com/Tree). The amount of fluid produced per
 unit of wood is equal to the amount of fluid an arboreal extractor produces per
 cycle divided by 5.

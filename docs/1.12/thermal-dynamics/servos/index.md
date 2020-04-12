@@ -31,8 +31,8 @@ recipes:
   - td-1-12-servo-resonant-upgrade
 ---
 
-**Servos** are items that can be installed on [itemduct](/docs/1.12/thermal-dynamics/itemduct/) and
-[fluiduct](/docs/1.12/thermal-dynamics/fluiduct/) connections. They extract items or fluids from
+**Servos** are items that can be installed on [itemduct](../itemduct/) and
+[fluiduct](../fluiduct/) connections. They extract items or fluids from
 adjacent blocks and insert them into the ducts.
 
 
@@ -50,21 +50,21 @@ Usage
 -----
 
 ### Installation
-A servo can be installed on an [itemduct](/docs/1.12/thermal-dynamics/itemduct/) or
-[fluiduct](/docs/1.12/thermal-dynamics/fluiduct/) connection by using it on the connection. It can be
-removed by using a [wrench](/docs/1.12/wrenches/) on it.
+A servo can be installed on an [itemduct](../itemduct/) or
+[fluiduct](../fluiduct/) connection by using it on the connection. It can be
+removed by using a [wrench](../../wrenches/) on it.
 
 ### Configuration
 An installed servo can be configured by using it. The available options depend
-on whether the servo is installed on an [itemduct](/docs/1.12/thermal-dynamics/itemduct/) or on a
-[fluiduct](/docs/1.12/thermal-dynamics/fluiduct/).
+on whether the servo is installed on an [itemduct](../itemduct/) or on a
+[fluiduct](../fluiduct/).
 
 A servo's configuration also affects items or fluids that are inserted into the
 duct by the connected block.
 
-A servo's configuration can be saved on a [redprint](/docs/1.12/thermal-foundation/redprint/) to be
-copied to other servos, [filters](/docs/1.12/thermal-dynamics/filters/) or
-[retrievers](/docs/1.12/thermal-dynamics/retrievers/).
+A servo's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to be
+copied to other servos, [filters](../filters/) or
+[retrievers](../retrievers/).
 
 ### Redstone control
 By default, a servo is only active when powered with
@@ -81,7 +81,7 @@ High
 : The servo is only active when powered. This is the default mode.
 
 ### Item transfer
-When installed on an [itemduct](/docs/1.12/thermal-dynamics/itemduct/) connection, an active servo
+When installed on an [itemduct](../itemduct/) connection, an active servo
 extracts items from the block it is connected to.
 
 Items are extracted from a block in stacks. The maximum size of each stack and
@@ -120,12 +120,12 @@ certain blocks in the network.
 
 Nearest-First
 : Items are sent to the connected block that has the shortest path to it first,
-taking into account [dense and vacuum itemducts](/docs/1.12/thermal-dynamics/itemduct/#item-transfer).
+taking into account [dense and vacuum itemducts](../itemduct/#item-transfer).
 This is the default mode.
 
 Furthest-First
 : Items are sent to the connected block that has the longest path to it first,
-taking into account [dense and vacuum itemducts](/docs/1.12/thermal-dynamics/itemduct/#item-transfer).
+taking into account [dense and vacuum itemducts](../itemduct/#item-transfer).
 
 Random
 : Each item is sent to a random connected block.
@@ -134,7 +134,7 @@ Round Robin
 : Items are sent to each connected block in a repeating order.
 
 ### Fluid transfer
-When installed on a [fluiduct](/docs/1.12/thermal-dynamics/fluiduct/) connection, an active servo
+When installed on a [fluiduct](../fluiduct/) connection, an active servo
 extracts fluids from the block it is connected to. The rate at which fluids are
 extracted depends on the servo's [tier](#tiers).
 
@@ -155,7 +155,7 @@ NBT
 Tiers
 -----
 
-Servos come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Servos come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

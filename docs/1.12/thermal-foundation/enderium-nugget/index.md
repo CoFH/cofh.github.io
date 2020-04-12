@@ -20,7 +20,7 @@ usage-recipes:
 
 
 **Enderium nuggets** are raw materials. They are the nugget form of
-[enderium](/docs/1.12/thermal-foundation/enderium-ingot/).
+[enderium](../enderium-ingot/).
 
 
 Obtaining

@@ -19,7 +19,7 @@ usage-recipes:
 ![Bronze plate](/assets/images/thermal-foundation-2/plate-bronze.png){:style="height: 128px"}
 
 
-**Bronze plates** are crafting materials made of [bronze](/docs/1.12/thermal-foundation/bronze-ingot/).
+**Bronze plates** are crafting materials made of [bronze](../bronze-ingot/).
 
 
 Obtaining

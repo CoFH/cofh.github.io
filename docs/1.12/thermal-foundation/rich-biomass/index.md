@@ -16,10 +16,10 @@ redirect_from:
 ---
 
 **Rich biomass** is a material obtained by infusing [pulped
-biomass](/docs/1.12/thermal-foundation/pulped-biomass/) with [seed
-oil](/docs/1.12/thermal-foundation/seed-oil/). It can be processed into
-[biocrude](/docs/1.12/thermal-foundation/biocrude/), which can then be processed into
-[grassoline](/docs/1.12/thermal-foundation/grassoline/). Rich biomass yields more
+biomass](../pulped-biomass/) with [seed
+oil](../seed-oil/). It can be processed into
+[biocrude](../biocrude/), which can then be processed into
+[grassoline](../grassoline/). Rich biomass yields more
 biocrude than the regular variant.
 
 

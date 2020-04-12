@@ -21,15 +21,15 @@ usage-recipes:
 
 
 **Steel blend** is a raw material. It is the dust form of
-[steel](/docs/1.12/thermal-foundation/steel-ingot/).
+[steel](../steel-ingot/).
 
 
 Obtaining
 ---------
 
 Unlike other blends, steel blend cannot be crafted. Instead, steel is obtained
-by making [steel ingots](/docs/1.12/thermal-foundation/steel-ingot/) in an [induction
-smelter](/docs/1.12/thermal-expansion/induction-smelter/).
+by making [steel ingots](../steel-ingot/) in an [induction
+smelter](../../thermal-expansion/induction-smelter/).
 
 ### Pulverizer
 {% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}

@@ -30,7 +30,7 @@ recipes:
 ---
 
 A **flux capacitor** is an item that stores [Redstone
-Flux](/docs/redstone-flux/) and can use it to charge items in a player's
+Flux](../../../redstone-flux/) and can use it to charge items in a player's
 inventory.
 
 
@@ -45,10 +45,10 @@ Usage
 -----
 
 ### Redstone Flux battery
-A flux capacitor can be charged with [Redstone Flux](/docs/redstone-flux/) using
-an [energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/), another flux capacitor or
-similar. It can be placed in [machines](/docs/1.12/thermal-expansion/machines/) or [enervation
-dynamos](/docs/1.12/thermal-expansion/enervation-dynamo/) to provide them with energy.
+A flux capacitor can be charged with [Redstone Flux](../../../redstone-flux/) using
+an [energetic infuser](../energetic-infuser/), another flux capacitor or
+similar. It can be placed in [machines](../machines/) or [enervation
+dynamos](../enervation-dynamo/) to provide them with energy.
 
 A basic flux capacitor can hold up to 1,000,000 RF, can be charged at up to
 2,000 RF/t, and can be discharged at up to 1,000 RF/t. This can be increased by
@@ -57,7 +57,7 @@ upgrading the flux capacitor to a higher [tier](#tiers).
 ### Charging items
 A charged flux capacitor can be activated and deactivated by using it while
 sneaking. When active, a flux capacitor charges items that can hold [Redstone
-Flux](/docs/redstone-flux/) in a player's inventory.
+Flux](../../../redstone-flux/) in a player's inventory.
 
 A flux capacitor can be set to charge a player's held and worn items (the
 default mode), other items in their inventory that are not equipped, or all
@@ -68,8 +68,8 @@ If [Baubles](https://www.curseforge.com/minecraft/mc-mods/baubles) is installed,
 flux capacitors can be equipped as baubles in any slot.
 
 ### Wireless charging
-An [energetic infuser](/docs/1.12/thermal-expansion/energetic-infuser/) with [parabolic flux
-coupling](/docs/1.12/thermal-expansion/augment-parabolic-flux-coupling/) installed can wirelessly
+An [energetic infuser](../energetic-infuser/) with [parabolic flux
+coupling](../augment-parabolic-flux-coupling/) installed can wirelessly
 recharge flux capacitors of players within a radius of 32 blocks.
 
 ### Dyeing
@@ -78,7 +78,7 @@ A flux capacitor can be dyed by combining it with a
 removed by placing the flux capacitor in a crafting grid.
 
 ### Enchantments
-A flux capacitor can be enchanted with [Holding](/docs/1.12/cofh-core/holding/) to increase its
+A flux capacitor can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
 | Holding level | Capacity multiplier |
@@ -93,7 +93,7 @@ capacity.
 Tiers
 -----
 
-Flux capacitors come in six [tiers](/docs/1.12/thermal-foundation/tiers/).
+Flux capacitors come in six [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">

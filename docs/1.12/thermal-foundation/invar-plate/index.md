@@ -21,7 +21,7 @@ usage-recipes:
 ![Invar plate](/assets/images/thermal-foundation-2/plate-invar.png){:style="height: 128px"}
 
 
-**Invar plates** are crafting materials made of [invar](/docs/1.12/thermal-foundation/invar-ingot/).
+**Invar plates** are crafting materials made of [invar](../invar-ingot/).
 
 
 Obtaining

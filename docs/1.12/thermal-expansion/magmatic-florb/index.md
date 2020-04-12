@@ -16,7 +16,7 @@ recipes:
   - te-1-12-florb-magmatic-using-rosin
 ---
 
-A **magmatic florb** is a [florb](/docs/1.12/thermal-expansion/florb/) that can hold hot fluids like
+A **magmatic florb** is a [florb](../florb/) that can hold hot fluids like
 [lava](https://minecraft.gamepedia.com/Lava).
 
 
@@ -30,6 +30,6 @@ Obtaining
 Usage
 -----
 
-A magmatic florb works like a regular [florb](/docs/1.12/thermal-expansion/florb/), except it can hold
+A magmatic florb works like a regular [florb](../florb/), except it can hold
 hot fluids like [lava](https://minecraft.gamepedia.com/Lava) and [blazing
-pyrotheum](/docs/1.12/thermal-foundation/blazing-pyrotheum/).
+pyrotheum](../../thermal-foundation/blazing-pyrotheum/).

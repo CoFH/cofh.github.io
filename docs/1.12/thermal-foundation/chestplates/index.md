@@ -42,7 +42,7 @@ usage-recipes:
 
 **[Chestplates](https://minecraft.gamepedia.com/Chestplate)** are a type of
 [armor](https://minecraft.gamepedia.com/Armor) in vanilla Minecraft. [Thermal
-Foundation](/docs/1.12/thermal-foundation/) adds a set of chestplates made of various
+Foundation](../) adds a set of chestplates made of various
 metals.
 
 

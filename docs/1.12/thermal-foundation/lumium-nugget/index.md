@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Lumium nuggets** are raw materials. They are the nugget form of
-[lumium](/docs/1.12/thermal-foundation/lumium-ingot/).
+[lumium](../lumium-ingot/).
 
 
 Obtaining

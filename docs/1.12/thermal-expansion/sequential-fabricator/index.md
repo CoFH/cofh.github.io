@@ -21,7 +21,7 @@ augments:
 ---
 
 A **sequential fabricator** (also known as a **crafter**) is a
-[machine](/docs/1.12/thermal-expansion/machines/) that
+[machine](../machines/) that
 [crafts](https://minecraft.gamepedia.com/Crafting) items.
 
 
@@ -29,7 +29,7 @@ Obtaining
 ---------
 
 A placed sequential fabricator can be instantly picked up by dismantling it with
-a [wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -38,8 +38,8 @@ this can be much slower.
 
 ### Upgrading
 A sequential fabricator is initially at the lowest [tier](#tiers) (basic). It
-can be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+can be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -47,7 +47,7 @@ Usage
 
 ### Placement
 When placed, a sequential fabricator faces the player. It can face any of the
-four cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 A sequential fabricator must be configured to perform a specific
@@ -56,11 +56,11 @@ function.
 
 When the required items for the configured recipe are placed in a sequential
 fabricator's input slots, the machine will start consuming [Redstone
-Flux](/docs/redstone-flux/) to craft items. The machine requires 400 RF per
+Flux](../../../redstone-flux/) to craft items. The machine requires 400 RF per
 operation. When enough energy has been consumed for an operation, the input is
 consumed and the output is placed in the output slot.
 
-When installed, [fluidic fabrication](/docs/1.12/thermal-expansion/augment-fluidic-fabrication/) allows
+When installed, [fluidic fabrication](../augment-fluidic-fabrication/) allows
 a sequential fabricator to use fluids, which are stored in an added input tank.
 
 The speed at which a sequential fabricator crafts items depends on how much
@@ -78,7 +78,7 @@ time.
 
 A sequential fabricator can automatically transfer items out of any sides that
 directly correspond to one of its output slots. This is called auto-output. If
-[pattern validation](/docs/1.12/thermal-expansion/augment-pattern-validation/) is installed, it can
+[pattern validation](../augment-pattern-validation/) is installed, it can
 also transfer items from adjacent inventories into any sides that directly
 correspond to its input slots. This is called auto-input. Auto-output and
 auto-input occur whenever the machine finishes crafting an item, or every 32
@@ -112,11 +112,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A sequential fabricator can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A sequential fabricator's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other sequential fabricators.
+[redprint](../../thermal-foundation/redprint/) to be copied to other sequential fabricators.
 
 ### Light source
 When a sequential fabricator is active, it emits a light level of 7.
@@ -125,7 +125,7 @@ When a sequential fabricator is active, it emits a light level of 7.
 Tiers
 -----
 
-Sequential fabricators come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Sequential fabricators come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -144,7 +144,7 @@ Sequential fabricators come in five [tiers](/docs/1.12/thermal-foundation/tiers/
 Augmentation
 ------------
 
-A sequential fabricator can have [augments](/docs/1.12/thermal-expansion/augments/) installed to
+A sequential fabricator can have [augments](../augments/) installed to
 improve certain properties or to change how it works. The amount of augments
 that can be installed depends on the machine's [tier](#tiers). A basic
 sequential fabricator cannot be augmented.

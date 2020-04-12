@@ -103,8 +103,8 @@ usage-recipes:
 ![Lead ingot](/assets/images/thermal-foundation-2/ingot-lead.png){:style="height: 128px"}
 
 
-**Lead ingots** are raw materials obtained from [lead ore](/docs/1.12/thermal-foundation/lead-ore/) and
-[silver ore](/docs/1.12/thermal-foundation/silver-ore/).
+**Lead ingots** are raw materials obtained from [lead ore](../lead-ore/) and
+[silver ore](../silver-ore/).
 
 
 Obtaining
@@ -145,5 +145,5 @@ Trivia
 * If [Tinkers'
   Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
   installed, molten lead can be mixed with molten
-  [platinum](/docs/1.12/thermal-foundation/platinum-ingot/) and [resonant ender](/docs/1.12/thermal-foundation/resonant-ender/)
-  to make molten [enderium](/docs/1.12/thermal-foundation/enderium-ingot/).
+  [platinum](../platinum-ingot/) and [resonant ender](../resonant-ender/)
+  to make molten [enderium](../enderium-ingot/).

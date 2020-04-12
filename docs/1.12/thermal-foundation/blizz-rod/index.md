@@ -21,17 +21,17 @@ usage-recipes:
 ![Blizz rod](/assets/images/thermal-foundation-2/blizz-rod.png){:style="height: 128px"}
 
 
-**Blizz rods** are materials that are dropped by [blizzes](/docs/1.12/thermal-foundation/blizz/). They
+**Blizz rods** are materials that are dropped by [blizzes](../blizz/). They
 are the ice elemental versions of [blaze
 rods](https://minecraft.gamepedia.com/Blaze_Rod). Their only use is to be
-processed into [blizz powder](/docs/1.12/thermal-foundation/blizz-powder/).
+processed into [blizz powder](../blizz-powder/).
 
 
 Obtaining
 ---------
 
 ### Blizzes
-A [blizz](/docs/1.12/thermal-foundation/blizz/) may drop a blizz rod when killed by a player.
+A [blizz](../blizz/) may drop a blizz rod when killed by a player.
 
 ### Compactor
 {% include recipe-table.html type='te-1-12-compactor' recipes=page.recipes.compactor no-result=true %}

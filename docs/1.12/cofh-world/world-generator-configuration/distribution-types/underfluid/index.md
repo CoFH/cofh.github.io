@@ -4,22 +4,21 @@ redirect_from:
 - /docs/cofh-world/world-generator-configuration/distribution-types/underfluid/
 ---
 
-**`underfluid`** is one of the [distribution
-types](/docs/1.12/cofh-world/world-generator-configuration/distribution-types/)
-provided by [CoFH World](/docs/1.12/cofh-world/). It distributes features at the
-bottom of bodies of certain types of fluid. It does so by randomly picking X and
-Z coordinates and placing features below the highest fluid block or column of
-fluid blocks at those coordinates, if any.
+**`underfluid`** is one of the [distribution types](../) provided by [CoFH
+World](../../../). It distributes features at the bottom of bodies of certain
+types of fluid. It does so by randomly picking X and Z coordinates and placing
+features below the highest fluid block or column of fluid blocks at those
+coordinates, if any.
 
 If there are no fluid blocks at randomly chosen X and Z coordinates, it still
 counts towards the value `cluster-count` of the [feature
-entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+entry](../../feature-format/#features).
 
 When using this distribution type, the feature type
-[`cluster`](/docs/1.12/cofh-world/world-generator-configuration/feature-types/cluster/)
-is used by default, and the value `material` of [feature type
-configurations](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration)
-is set to [dirt](https://minecraft.gamepedia.com/Dirt) and [grass
+[`cluster`](../../feature-types/cluster/) is used by default, and the value
+`material` of [feature type
+configurations](../../feature-format/#feature-type-configuration) is set to
+[dirt](https://minecraft.gamepedia.com/Dirt) and [grass
 blocks](https://minecraft.gamepedia.com/Grass_Block) (and all variations of
 these blocks) by default.
 
@@ -28,8 +27,7 @@ Options
 -------
 
 When using this distribution type, the following values must be added to the
-[feature
-entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+[feature entry](../../feature-format/#features).
 
 <div class="uk-overflow-container">
     <table class="uk-table uk-table-striped uk-text-small">
@@ -55,12 +53,12 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
             <tr>
                 <td markdown="span">`material` (optional)</td>
                 <td markdown="span">
-                    [Block ID](/docs/1.12/cofh-world/world-generator-configuration/common-formats/block-id/)
+                    [Block ID](../../common-formats/block-id/)
                     / array of block IDs
                 </td>
                 <td markdown="span">
                     (Same as default `material` value of
-                    [feature type configurations](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#feature-type-configuration),
+                    [feature type configurations](../../feature-format/#feature-type-configuration),
                     described above)
                 </td>
                 <td markdown="span">
@@ -70,7 +68,7 @@ entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#featu
                     at those coordinates is specified here. Otherwise, the
                     feature is skipped, but still counts towards the value
                     `cluster-count` of the
-                    [feature entry](/docs/1.12/cofh-world/world-generator-configuration/feature-format/#features).
+                    [feature entry](../../feature-format/#features).
                 </td>
             </tr>
         </tbody>

@@ -20,7 +20,7 @@ usage-recipes:
 
 
 **Platinum gears** are crafting materials made of
-[platinum](/docs/1.12/thermal-foundation/platinum-ingot/). They are currently not used for anything.
+[platinum](../platinum-ingot/). They are currently not used for anything.
 
 
 Obtaining

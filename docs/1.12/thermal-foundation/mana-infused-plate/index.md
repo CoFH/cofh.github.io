@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Mana infused plates** are crafting materials made of [mana infused
-metal](/docs/1.12/thermal-foundation/mana-infused-ingot/). They are currently not used for anything.
+metal](../mana-infused-ingot/). They are currently not used for anything.
 
 
 Obtaining

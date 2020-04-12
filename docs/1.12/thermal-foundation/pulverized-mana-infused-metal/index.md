@@ -28,7 +28,7 @@ usage-recipes:
 
 
 **Pulverized mana infused metal** is a raw material. It is the dust form of
-[mana infused metal](/docs/1.12/thermal-foundation/mana-infused-ingot/).
+[mana infused metal](../mana-infused-ingot/).
 
 
 Obtaining
@@ -41,8 +41,8 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Smashing
-When [mana infused ore](/docs/1.12/thermal-foundation/mana-infused-ore/) is broken
-using a [Smashing](/docs/1.12/cofh-core/smashing/) enchanted
+When [mana infused ore](../mana-infused-ore/) is broken
+using a [Smashing](../../cofh-core/smashing/) enchanted
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
 pulverized mana infused metal are dropped instead of the ore.
 

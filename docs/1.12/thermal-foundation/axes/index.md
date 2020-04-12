@@ -42,7 +42,7 @@ usage-recipes:
 
 
 **[Axes](https://minecraft.gamepedia.com/Axe)** are tools in vanilla Minecraft.
-[Thermal Foundation](/docs/1.12/thermal-foundation/) adds a set of axes made of
+[Thermal Foundation](../) adds a set of axes made of
 various metals.
 
 

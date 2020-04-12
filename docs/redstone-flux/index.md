@@ -14,5 +14,5 @@ mods of Team CoFH. Most of these mods have something that produces, moves,
 stores or consumes Redstone Flux in one way or another. Many other mods also add
 devices that work with Redstone Flux.
 
-See [Redstone Flux: A Primer](/docs/redstone-flux/redstone-flux-a-primer/) for
-an in-universe explanation of Redstone Flux.
+See [Redstone Flux: A Primer](redstone-flux-a-primer/) for an in-universe
+explanation of Redstone Flux.

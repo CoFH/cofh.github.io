@@ -21,8 +21,8 @@ usage-recipes:
 
 
 **Tectonic petrotheum** is the earth elemental fluid. It is obtained by melting
-[petrotheum dust](/docs/1.12/thermal-foundation/petrotheum-dust/) in a [magma
-crucible](/docs/1.12/thermal-expansion/magma-crucible/).
+[petrotheum dust](../petrotheum-dust/) in a [magma
+crucible](../../thermal-expansion/magma-crucible/).
 
 
 Obtaining
@@ -62,13 +62,13 @@ This is disabled by default.
 {% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
 
 ### Tectonic Initiator
-An [pulverizer](/docs/1.12/thermal-expansion/pulverizer/) with a [tectonic
-initiator](/docs/1.12/thermal-expansion/augment-tectonic-initiator/) installed consumes tectonic
+An [pulverizer](../../thermal-expansion/pulverizer/) with a [tectonic
+initiator](../../thermal-expansion/augment-tectonic-initiator/) installed consumes tectonic
 petrotheum to process ores more efficiently. It consumes 100 mB of petrotheum
 per processed ore.
 
 ### Reactant Dynamo fuel
-When used together with [aerotheum dust](/docs/1.12/thermal-foundation/aerotheum-dust/) as fuel in a
-[reactant dynamo](/docs/1.12/thermal-expansion/reactant-dynamo/), 100 mB of tectonic petrotheum yields
+When used together with [aerotheum dust](../aerotheum-dust/) as fuel in a
+[reactant dynamo](../../thermal-expansion/reactant-dynamo/), 100 mB of tectonic petrotheum yields
 400,000 RF, or 500,000 RF if an [elemental
-catalyzer](/docs/1.12/thermal-expansion/augment-elemental-catalyzer/) is installed.
+catalyzer](../../thermal-expansion/augment-elemental-catalyzer/) is installed.

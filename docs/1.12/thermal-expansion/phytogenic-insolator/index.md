@@ -79,8 +79,8 @@ recipe-list:
 
 
 A **phytogenic insolator**, or **insolator** for short, is a
-[machine](/docs/1.12/thermal-expansion/machines/) that grows and multiplies plants using
-[water](https://minecraft.gamepedia.com/Water), [fertilizer](/docs/1.12/thermal-foundation/phyto-gro/)
+[machine](../machines/) that grows and multiplies plants using
+[water](https://minecraft.gamepedia.com/Water), [fertilizer](../../thermal-foundation/phyto-gro/)
 and simulated sunlight.
 
 
@@ -88,7 +88,7 @@ Obtaining
 ---------
 
 A placed phytogenic insolator can be instantly picked up by dismantling it with
-a [wrench](/docs/1.12/wrenches/). Its configuration is preserved in the item. It can
+a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
 this can be much slower.
 
@@ -97,8 +97,8 @@ this can be much slower.
 
 ### Upgrading
 A phytogenic insolator is initially at the lowest [tier](#tiers) (basic). It can
-be upgraded to higher tiers using [upgrade kits](/docs/1.12/thermal-foundation/upgrade-kits/) and
-[conversion kits](/docs/1.12/thermal-foundation/conversion-kits/).
+be upgraded to higher tiers using [upgrade kits](../../thermal-foundation/upgrade-kits/) and
+[conversion kits](../../thermal-foundation/conversion-kits/).
 
 
 Usage
@@ -106,13 +106,13 @@ Usage
 
 ### Placement
 When placed, a phytogenic insolator faces the player. It can face any of the
-four cardinal directions, and can be rotated using a [wrench](/docs/1.12/wrenches/).
+four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 A phytogenic insolator has two input slots and an input tank. When combinations
 of items are placed in these slots and the tank is filled with
 [water](https://minecraft.gamepedia.com/Water), the machine will start consuming
-[Redstone Flux](/docs/redstone-flux/) to process the items. Every item
+[Redstone Flux](../../../redstone-flux/) to process the items. Every item
 combination requires a certain amount of energy to process. When enough energy
 has been consumed for an item combination, the input is consumed and the output
 is placed in the primary output slot. A secondary output may be produced when
@@ -170,11 +170,11 @@ The current mode can be set using the Redstone Control tab in the machine's GUI.
 
 ### Security
 A phytogenic insolator can have a [signalum security
-lock](/docs/1.12/thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
+lock](../../thermal-foundation/signalum-security-lock/) installed to restrict who can access it.
 
 ### Redprints
 A phytogenic insolator's configuration can be saved on a
-[redprint](/docs/1.12/thermal-foundation/redprint/) to be copied to other insolators.
+[redprint](../../thermal-foundation/redprint/) to be copied to other insolators.
 
 ### Light source
 When a phytogenic insolator is active, it emits a light level of 14.
@@ -183,7 +183,7 @@ When a phytogenic insolator is active, it emits a light level of 14.
 Tiers
 -----
 
-Phytogenic insolators come in five [tiers](/docs/1.12/thermal-foundation/tiers/).
+Phytogenic insolators come in five [tiers](../../thermal-foundation/tiers/).
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
@@ -202,7 +202,7 @@ Phytogenic insolators come in five [tiers](/docs/1.12/thermal-foundation/tiers/)
 Augmentation
 ------------
 
-A phytogenic insolator can have [augments](/docs/1.12/thermal-expansion/augments/) installed to improve
+A phytogenic insolator can have [augments](../augments/) installed to improve
 certain properties or to change how it works. The amount of augments that can be
 installed depends on the machine's [tier](#tiers). A basic insolator cannot be
 augmented.
