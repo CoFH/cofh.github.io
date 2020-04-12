@@ -15,7 +15,7 @@ recipes:
 
 A **flux linkage concentrator** is an [augment](../augments/) that greatly
 increases the charging speed of an [energetic infuser](../energetic-infuser/)
-when charging items that hold [Redstone Flux](../../../redstone-flux/).
+when charging items that hold [Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -36,7 +36,7 @@ cannot be installed together with other specialization augments.
 ### Effects
 An installed flux linkage concentrator greatly increases an [energetic
 infuser](../energetic-infuser/)'s maximum power usage when charging items
-that hold [Redstone Flux](../../../redstone-flux/), thereby greatly increasing its
+that hold [Redstone Flux](/docs/redstone-flux/), thereby greatly increasing its
 charging speed. The increased maximum power usage depends on the machine's
 [tier](../../thermal-foundation/tiers/).
 

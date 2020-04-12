@@ -35,5 +35,5 @@ Usage
 ### Energy transfer
 A cryo-stabilized fluxduct works mostly the same way as other
 [fluxducts](../fluxducts/). However, it can transfer an unlimited amount of
-[Redstone Flux](../../../redstone-flux/) per tick. A network of cryo-stabilized
+[Redstone Flux](/docs/redstone-flux/) per tick. A network of cryo-stabilized
 fluxducts also does not store any energy.

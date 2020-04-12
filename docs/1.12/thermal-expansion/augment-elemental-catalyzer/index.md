@@ -14,7 +14,7 @@ recipes:
 ---
 
 An **elemental catalyzer** is an [augment](../augments/) that increases the
-amount of [Redstone Flux](../../../redstone-flux/) a [reactant
+amount of [Redstone Flux](/docs/redstone-flux/) a [reactant
 dynamo](../reactant-dynamo/) generates from
 [reactions](../reactant-dynamo/#reactions) between elemental fluids and
 dusts.
@@ -38,7 +38,7 @@ installed together with other specialization augments.
 ### Effects
 An installed elemental catalyzer quintuples the maximum power output of a
 [reactant dynamo](../reactant-dynamo/), and increases the amount of [Redstone
-Flux](../../../redstone-flux/) it generates from each
+Flux](/docs/redstone-flux/) it generates from each
 [reaction](../reactant-dynamo/#reactions) by 25%. However, the dynamo can
 only generate energy from elemental reactions, like between [blazing
 pyrotheum](../../thermal-foundation/blazing-pyrotheum/) and [cryotheum

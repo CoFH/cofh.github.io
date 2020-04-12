@@ -52,7 +52,7 @@ rotated using a [wrench](../../wrenches/).
 ### Energy generation
 When a reactant dynamo is supplied a fluid fuel and a reactant item that can
 [react](#reactions) with one another, the dynamo will start consuming both to
-generate [Redstone Flux](../../../redstone-flux/). 100 mB of fluid fuel and one
+generate [Redstone Flux](/docs/redstone-flux/). 100 mB of fluid fuel and one
 unit of reactant are consumed together at a time. Every reaction yields a
 certain amount of energy.
 
@@ -69,7 +69,7 @@ installing an [excitation field
 limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A reactant dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil,
+A reactant dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Fluids and items can enter a reactant dynamo through its sides. They
 cannot enter it through the coil, unless [transmission coil

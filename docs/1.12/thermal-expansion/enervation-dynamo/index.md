@@ -21,7 +21,7 @@ augments:
 ---
 
 An **enervation dynamo** is a [dynamo](../dynamos/) that extracts [Redstone
-Flux](../../../redstone-flux/) from natural sources and from items that store it.
+Flux](/docs/redstone-flux/) from natural sources and from items that store it.
 
 
 Obtaining
@@ -50,7 +50,7 @@ away from the player. An enervation dynamo can face any direction, and can be
 rotated using a [wrench](../../wrenches/).
 
 ### Energy generation
-When [fuel](#fuels) or an item that holds [Redstone Flux](../../../redstone-flux/)
+When [fuel](/docs/redstone-flux/)
 is placed in an enervation dynamo's fuel slot, the dynamo will start extracting
 energy from it. Every unit of fuel yields a certain amount of energy when
 consumed. Items that hold energy are not consumed, only drained.
@@ -68,7 +68,7 @@ installing an [excitation field
 limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-An enervation dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil,
+An enervation dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Items can enter an enervation dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil

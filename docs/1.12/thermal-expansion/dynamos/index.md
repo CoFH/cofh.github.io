@@ -20,7 +20,7 @@ image:
   file: thermal-expansion-5/dynamo-numismatic-rf.png
 ---
 
-**Dynamos** are blocks that generate [Redstone Flux](../../../redstone-flux/) by
+**Dynamos** are blocks that generate [Redstone Flux](/docs/redstone-flux/) by
 consuming various kinds of fuel. They can be [upgraded](../../thermal-foundation/tiers/) and
 [augmented](../augments/).
 
@@ -36,7 +36,7 @@ List of dynamos
 | [Magmatic Dynamo](../magmatic-dynamo/) | Hot fluids |
 | [Compression Dynamo](../compression-dynamo/) | Fluid fuel and [coolant](../coolants/) |
 | [Reactant Dynamo](../reactant-dynamo/) | Fluid fuel and solid reactant |
-| [Enervation Dynamo](../enervation-dynamo/) | [Redstone](https://minecraft.gamepedia.com/Redstone) and items that hold [Redstone Flux](../../../redstone-flux/) |
+| [Enervation Dynamo](/docs/redstone-flux/) |
 | [Numismatic Dynamo](../numismatic-dynamo/) | Currency ([emeralds](https://minecraft.gamepedia.com/Emerald) and metal coins) |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-compress .uk-text-small}
 </div>

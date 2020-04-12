@@ -22,7 +22,7 @@ redirect_from:
 - /docs/1.12/thermal-dynamics-2/fluxducts/
 ---
 
-**Fluxducts** are blocks that transfer [Redstone Flux](../../../redstone-flux/)
+**Fluxducts** are blocks that transfer [Redstone Flux](/docs/redstone-flux/)
 between blocks.
 
 
@@ -41,12 +41,12 @@ Usage
 
 ### Placement
 When placed, a fluxduct connects to any adjacent fluxducts and blocks that can
-transmit or receive [Redstone Flux](../../../redstone-flux/). Any connected side
+transmit or receive [Redstone Flux](/docs/redstone-flux/). Any connected side
 of a fluxduct can be disconnected and reconnected by using a
 [wrench](../../wrenches/) on it.
 
 ### Energy transfer
-When a block transmits [Redstone Flux](../../../redstone-flux/) through a
+When a block transmits [Redstone Flux](/docs/redstone-flux/) through a
 fluxduct, the energy is distributed to all connected blocks that can receive it,
 as evenly as possible.
 

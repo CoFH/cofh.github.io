@@ -39,7 +39,7 @@ frame-recipes:
 
 **Devices** are blocks that perform various functions involving items and/or
 fluids. Unlike [machines](../machines/), they do not use [Redstone
-Flux](../../../redstone-flux/), and cannot be [upgraded](../../thermal-foundation/tiers/) or
+Flux](/docs/redstone-flux/), and cannot be [upgraded](../../thermal-foundation/tiers/) or
 [augmented](../augments/).
 
 

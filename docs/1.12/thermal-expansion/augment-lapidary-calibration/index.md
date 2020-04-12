@@ -15,7 +15,7 @@ recipes:
 
 A **lapidary calibration** [augment](../augments/) allows for a [numismatic
 dynamo](../numismatic-dynamo/) to use various [gemstones](#fuels) as fuel,
-and increases the amount of [Redstone Flux](../../../redstone-flux/) it generates.
+and increases the amount of [Redstone Flux](/docs/redstone-flux/) it generates.
 
 
 Obtaining
@@ -37,7 +37,7 @@ cannot be installed together with other specialization augments.
 An installed lapidary calibration augment allows for a [numismatic
 dynamo](../numismatic-dynamo/) to use various [gemstones](#fuels) as fuel. It
 also quintuples the dynamo's maximum power output, and increases the amount of
-[Redstone Flux](../../../redstone-flux/) it generates from each unit of fuel by
+[Redstone Flux](/docs/redstone-flux/) it generates from each unit of fuel by
 25%. However, the dynamo can only generate energy using gemstones.
 
 If a lapidary calibration augment is installed together with other augments that

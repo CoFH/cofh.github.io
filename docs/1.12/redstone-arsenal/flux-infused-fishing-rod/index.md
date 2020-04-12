@@ -17,7 +17,7 @@ recipes:
 
 A **flux-infused fishing rod** is a powerful [fishing
 rod](https://minecraft.gamepedia.com/Fishing_Rod) powered by [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -31,7 +31,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused fishing rod can hold up to 320,000 [RF](../../../redstone-flux/).
+A flux-infused fishing rod can hold up to 320,000 [RF](/docs/redstone-flux/).
 It can be charged using an [energetic
 infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be
@@ -60,7 +60,7 @@ enchantments that a regular fishing rod can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused fishing rod has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when used.
+Flux](/docs/redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---

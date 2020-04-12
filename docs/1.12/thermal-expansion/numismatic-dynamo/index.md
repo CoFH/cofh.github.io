@@ -54,7 +54,7 @@ rotated using a [wrench](../../wrenches/).
 
 ### Energy generation
 When [fuel](#fuels) is placed in a numismatic dynamo's fuel slot, it will start
-consuming it to generate [Redstone Flux](../../../redstone-flux/). Every unit of
+consuming it to generate [Redstone Flux](/docs/redstone-flux/). Every unit of
 fuel yields a certain amount of energy when consumed.
 
 The speed at which energy is generated and fuel is consumed depends on how much
@@ -70,7 +70,7 @@ installing an [excitation field
 limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A numismatic dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil,
+A numismatic dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Items can enter a numismatic dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil

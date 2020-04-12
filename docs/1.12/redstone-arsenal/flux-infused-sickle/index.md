@@ -16,7 +16,7 @@ recipes:
 ---
 
 A **flux-infused sickle** is a powerful [sickle](../../thermal-foundation/sickles/) powered by
-[Redstone Flux](../../../redstone-flux/).
+[Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -30,7 +30,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused sickle can hold up to 320,000 [RF](../../../redstone-flux/). It can
+A flux-infused sickle can hold up to 320,000 [RF](/docs/redstone-flux/). It can
 be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
 a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal
@@ -63,7 +63,7 @@ receive all the enchantments that other sickles can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused sickle has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when used.
+Flux](/docs/redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---

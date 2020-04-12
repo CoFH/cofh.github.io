@@ -14,7 +14,7 @@ recipes:
 ---
 
 An **isentropic reservoir** is an [augment](../augments/) that increases the
-amount of [Redstone Flux](../../../redstone-flux/) a [magmatic
+amount of [Redstone Flux](/docs/redstone-flux/) a [magmatic
 dynamo](../magmatic-dynamo/) generates by making it consume
 [coolant](../coolants/) as well as fuel.
 
@@ -37,7 +37,7 @@ installed together with other specialization augments.
 ### Effects
 An installed isentropic reservoir quadruples the maximum power output of a
 [magmatic dynamo](../magmatic-dynamo/), and increases the amount of [Redstone
-Flux](../../../redstone-flux/) it generates from each unit of fuel by 15%. However,
+Flux](/docs/redstone-flux/) it generates from each unit of fuel by 15%. However,
 the dynamo requires [coolant](../coolants/) as well as fuel to generate
 energy.
 

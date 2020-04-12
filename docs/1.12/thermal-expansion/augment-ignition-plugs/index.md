@@ -14,7 +14,7 @@ recipes:
 ---
 
 An **ignition plugs** [augment](../augments/) increases the amount of
-[Redstone Flux](../../../redstone-flux/) a [compression
+[Redstone Flux](/docs/redstone-flux/) a [compression
 dynamo](../compression-dynamo/) generates using [refined
 fuel](../../thermal-foundation/refined-fuel/).
 
@@ -37,7 +37,7 @@ that cannot be installed together with other specialization augments.
 ### Effects
 An installed ignition plugs augment quadruples the maximum power output of a
 [compression dynamo](../compression-dynamo/), and increases the amount of
-[Redstone Flux](../../../redstone-flux/) it generates from each unit of fuel by
+[Redstone Flux](/docs/redstone-flux/) it generates from each unit of fuel by
 50%. However, the dynamo can only generate energy using [refined
 fuel](../../thermal-foundation/refined-fuel/).
 

@@ -14,7 +14,7 @@ redirect_from:
 
 A **flux-infused excavator** is a powerful
 [excavator](../../thermal-foundation/excavators/) powered by [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -28,7 +28,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused excavator can hold up to 320,000 [RF](../../../redstone-flux/).
+A flux-infused excavator can hold up to 320,000 [RF](/docs/redstone-flux/).
 It can be charged using an [energetic
 infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be
@@ -69,7 +69,7 @@ enchantments that other excavators can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused excavator has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when used.
+Flux](/docs/redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---

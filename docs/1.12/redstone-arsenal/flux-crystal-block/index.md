@@ -43,7 +43,7 @@ half-second, regardless of armor.
 
 ### Charging items
 A flux crystal block charges items held by a player that touches it. Items that
-can store [Redstone Flux](../../../redstone-flux/) are charged at a rate of 100
+can store [Redstone Flux](/docs/redstone-flux/) are charged at a rate of 100
 RF/t while the player takes damage.
 
 ### Light source

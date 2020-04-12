@@ -28,7 +28,7 @@ recipes:
 ---
 
 An **energy cell** is a block that stores a large amount of [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -59,7 +59,7 @@ cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 The front of an energy cell displays roughly how full it is.
 
 ### Input and output
-A placed energy cell can receive and emit [Redstone Flux](../../../redstone-flux/)
+A placed energy cell can receive and emit [Redstone Flux](/docs/redstone-flux/)
 through its sides. Which sides can receive or emit energy (or do neither) can be
 configured using the Configuration tab in the energy cell's GUI.
 
@@ -73,7 +73,7 @@ copied onto it, the configured transmission rates scale with its tier.
 
 ### Item form
 An energy cell in item form can be charged with [Redstone
-Flux](../../../redstone-flux/) using an [energetic
+Flux](/docs/redstone-flux/) using an [energetic
 infuser](../energetic-infuser/), a [flux capacitor](../flux-capacitor/) or
 similar. It can be placed in
 [machines](../machines/) or [enervation dynamos](../enervation-dynamo/) to
@@ -126,7 +126,7 @@ An energy cell's configuration can be saved on a [redprint](../../thermal-founda
 be copied to other energy cells.
 
 ### Light source
-A placed energy cell that is holding [Redstone Flux](../../../redstone-flux/) emits
+A placed energy cell that is holding [Redstone Flux](/docs/redstone-flux/) emits
 a light level of between 1 and 8, depending on how full it is.
 
 ### Redstone comparators

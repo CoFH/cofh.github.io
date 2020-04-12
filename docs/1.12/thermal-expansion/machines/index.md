@@ -45,7 +45,7 @@ frame-recipes:
 ---
 
 **Machines** are blocks that process items and/or fluids using [Redstone
-Flux](../../../redstone-flux/). They can be [upgraded](../../thermal-foundation/tiers/) and
+Flux](/docs/redstone-flux/). They can be [upgraded](../../thermal-foundation/tiers/) and
 [augmented](../augments/).
 
 

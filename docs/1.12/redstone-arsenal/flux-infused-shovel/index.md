@@ -17,7 +17,7 @@ recipes:
 
 A **flux-infused shovel** is a powerful
 [shovel](https://minecraft.gamepedia.com/Shovel) powered by [Redstone
-Flux](../../../redstone-flux/). It also serves as a
+Flux](/docs/redstone-flux/). It also serves as a
 [hoe](https://minecraft.gamepedia.com/Hoe).
 
 
@@ -32,7 +32,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused shovel can hold up to 320,000 [RF](../../../redstone-flux/). It can
+A flux-infused shovel can hold up to 320,000 [RF](/docs/redstone-flux/). It can
 be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
 a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal
@@ -87,7 +87,7 @@ enchantments that other shovels can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused shovel has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when used.
+Flux](/docs/redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---

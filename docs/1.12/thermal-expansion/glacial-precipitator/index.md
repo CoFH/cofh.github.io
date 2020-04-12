@@ -61,7 +61,7 @@ certain item following one of its available [recipes](#recipes).
 
 When a glacial precipitator's input tank is filled with the fluid corresponding
 to the configured recipe, the machine will start consuming [Redstone
-Flux](../../../redstone-flux/) to produce the recipe's output item. Every produced
+Flux](/docs/redstone-flux/) to produce the recipe's output item. Every produced
 item requires a certain amount of energy and fluid. When enough energy has been
 consumed for an item, the input is consumed and the output is placed in the
 output slot.

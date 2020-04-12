@@ -55,7 +55,7 @@ When an alchemical imbuer's input tank is filled with
 potion](../../thermal-foundation/potion-fluid/) and a reagent
 ([brewing](https://minecraft.gamepedia.com/Brewing) ingredient) is placed in its
 input slot, the machine will start consuming [Redstone
-Flux](../../../redstone-flux/) to brew the corresponding potion. Potions are brewed
+Flux](/docs/redstone-flux/) to brew the corresponding potion. Potions are brewed
 in batches of 500 mB (2 [bottles](https://minecraft.gamepedia.com/Glass_Bottles)
 worth), with each batch costing 4,800 RF. When enough energy has been consumed
 for a batch, the input is consumed and the resulting fluid potion is placed in

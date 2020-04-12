@@ -65,7 +65,7 @@ certain item following one of its available [recipes](#recipes).
 
 When an igneous extruder's input tanks are filled with at least 1,000 mB of the
 fluids corresponding to the configured recipe, the machine will start consuming
-[Redstone Flux](../../../redstone-flux/) to produce the recipe's output item. Every
+[Redstone Flux](/docs/redstone-flux/) to produce the recipe's output item. Every
 produced item requires certain amounts of energy and the two fluids. When enough
 energy has been consumed for an item, the input is consumed and the output is
 placed in the output slot.

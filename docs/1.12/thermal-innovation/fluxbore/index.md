@@ -26,7 +26,7 @@ recipes:
 ---
 
 A **fluxbore** (also known as a **drill**) is a tool that mines blocks using
-[Redstone Flux](../../../redstone-flux/). It functions as both a
+[Redstone Flux](/docs/redstone-flux/). It functions as both a
 [pickaxe](https://minecraft.gamepedia.com/Pickaxe) and a
 [shovel](https://minecraft.gamepedia.com/Shovel).
 
@@ -42,7 +42,7 @@ Usage
 -----
 
 ### Charging
-A fluxbore can be charged with [Redstone Flux](../../../redstone-flux/) using an
+A fluxbore can be charged with [Redstone Flux](/docs/redstone-flux/) using an
 [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar.
 
@@ -100,7 +100,7 @@ A basic fluxbore has an
 be increased by upgrading the fluxbore to a higher [tier](#tiers).
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
-fluxbore has a chance to not consume [Redstone Flux](../../../redstone-flux/) when
+fluxbore has a chance to not consume [Redstone Flux](/docs/redstone-flux/) when
 used.
 
 | Unbreaking level | No energy use chance |

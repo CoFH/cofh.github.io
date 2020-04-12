@@ -16,7 +16,7 @@ recipes:
 ---
 
 A **flux-infused battlewrench** is a powerful weapon powered by [Redstone
-Flux](../../../redstone-flux/) that also serves as a [wrench](../../wrenches/).
+Flux](/docs/redstone-flux/) that also serves as a [wrench](../../wrenches/).
 
 
 Obtaining
@@ -31,7 +31,7 @@ Usage
 
 ### Charging
 A flux-infused battlewrench can hold up to 320,000
-[RF](../../../redstone-flux/). It can be charged using an [energetic
+[RF](/docs/redstone-flux/). It can be charged using an [energetic
 infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be
 charged by touching a [fluxed electrum block](../fluxed-electrum-block/) or
@@ -70,7 +70,7 @@ receive all the enchantments that
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused battlewrench has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when used.
+Flux](/docs/redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---

@@ -30,7 +30,7 @@ recipes:
 ---
 
 A **flux capacitor** is an item that stores [Redstone
-Flux](../../../redstone-flux/) and can use it to charge items in a player's
+Flux](/docs/redstone-flux/) and can use it to charge items in a player's
 inventory.
 
 
@@ -45,7 +45,7 @@ Usage
 -----
 
 ### Redstone Flux battery
-A flux capacitor can be charged with [Redstone Flux](../../../redstone-flux/) using
+A flux capacitor can be charged with [Redstone Flux](/docs/redstone-flux/) using
 an [energetic infuser](../energetic-infuser/), another flux capacitor or
 similar. It can be placed in [machines](../machines/) or [enervation
 dynamos](../enervation-dynamo/) to provide them with energy.
@@ -57,7 +57,7 @@ upgrading the flux capacitor to a higher [tier](#tiers).
 ### Charging items
 A charged flux capacitor can be activated and deactivated by using it while
 sneaking. When active, a flux capacitor charges items that can hold [Redstone
-Flux](../../../redstone-flux/) in a player's inventory.
+Flux](/docs/redstone-flux/) in a player's inventory.
 
 A flux capacitor can be set to charge a player's held and worn items (the
 default mode), other items in their inventory that are not equipped, or all

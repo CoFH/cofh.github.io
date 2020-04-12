@@ -57,7 +57,7 @@ cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When a fractionating still's input tank is filled with a fluid, the machine will
-start consuming [Redstone Flux](../../../redstone-flux/) to process it. Each batch
+start consuming [Redstone Flux](/docs/redstone-flux/) to process it. Each batch
 of fluid requires a certain amount of energy to process. When enough energy has
 been consumed for a batch of fluid, the fluid is consumed and the output is
 placed in the output tank. A secondary item output may be produced, which is

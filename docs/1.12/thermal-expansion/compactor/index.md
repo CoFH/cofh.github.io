@@ -57,7 +57,7 @@ directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When items are placed in a compactor's input slot, the machine will start
-consuming [Redstone Flux](../../../redstone-flux/) to process them. Every item
+consuming [Redstone Flux](/docs/redstone-flux/) to process them. Every item
 requires a certain amount of energy to process. When enough energy has been
 consumed for an item, the input is consumed and the output is placed in the
 output slot.

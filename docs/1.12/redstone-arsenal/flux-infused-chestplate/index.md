@@ -15,7 +15,7 @@ recipes:
 
 A **flux-infused chestplate** is a powerful
 [chestplate](https://minecraft.gamepedia.com/Chestplate) powered by [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -29,7 +29,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused chestplate can hold up to 800,000 [RF](../../../redstone-flux/).
+A flux-infused chestplate can hold up to 800,000 [RF](/docs/redstone-flux/).
 It can be charged using an [energetic
 infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be
@@ -56,7 +56,7 @@ all the enchantments that other chestplates can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused chestplate has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when absorbing damage.
+Flux](/docs/redstone-flux/) when absorbing damage.
 
 | Unbreaking level | No energy use chance |
 |---

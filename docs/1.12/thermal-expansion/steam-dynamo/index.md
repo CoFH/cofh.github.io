@@ -56,7 +56,7 @@ a [wrench](../../wrenches/).
 A steam dynamo has a fuel slot and a
 [water](https://minecraft.gamepedia.com/Water) tank. When [fuel](#fuels) is
 placed in its fuel slot and the tank is filled with water, the dynamo will start
-consuming both to generate [Redstone Flux](../../../redstone-flux/). Every unit of
+consuming both to generate [Redstone Flux](/docs/redstone-flux/). Every unit of
 fuel yields a certain amount of energy when consumed. Water is consumed in
 batches of 100 mB to generate 25,000 RF at a time.
 
@@ -73,7 +73,7 @@ installing an [excitation field
 limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A steam dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil, which
+A steam dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil, which
 points in the direction the dynamo is facing. It only emits energy when it is
 active. Fuel and water can enter a steam dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil
@@ -109,7 +109,7 @@ A steam dynamo's configuration can be saved on a [redprint](../../thermal-founda
 be copied to other dynamos.
 
 ### Light source
-When a steam dynamo that produces [Redstone Flux](../../../redstone-flux/) is
+When a steam dynamo that produces [Redstone Flux](/docs/redstone-flux/) is
 active, it emits a light level of 7.
 
 

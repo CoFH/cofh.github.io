@@ -15,7 +15,7 @@ recipes:
   - ra-1-12-weapon-quiver
 ---
 
-A **flux-infused quiver** is a [Redstone Flux](../../../redstone-flux/)-powered
+A **flux-infused quiver** is a [Redstone Flux](/docs/redstone-flux/)-powered
 item that provides powerful ammunition for
 [bows](https://minecraft.gamepedia.com/Bow) when charged.
 
@@ -31,7 +31,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused quiver can hold up to 320,000 [RF](../../../redstone-flux/). It can
+A flux-infused quiver can hold up to 320,000 [RF](/docs/redstone-flux/). It can
 be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
 a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal

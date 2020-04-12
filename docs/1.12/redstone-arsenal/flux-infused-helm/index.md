@@ -17,7 +17,7 @@ recipes:
 
 A **flux-infused helm** is a powerful
 [helmet](https://minecraft.gamepedia.com/Helmet) powered by [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -31,7 +31,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused helm can hold up to 800,000 [RF](../../../redstone-flux/). It can be
+A flux-infused helm can hold up to 800,000 [RF](/docs/redstone-flux/). It can be
 charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
 a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal
@@ -55,7 +55,7 @@ enchantments that other helmets can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused helm has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when absorbing damage.
+Flux](/docs/redstone-flux/) when absorbing damage.
 
 | Unbreaking level | No energy use chance |
 |---

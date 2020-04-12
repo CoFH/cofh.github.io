@@ -17,7 +17,7 @@ recipes:
 
 A **flux-infused sword** is a powerful
 [sword](https://minecraft.gamepedia.com/Sword) powered by [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -31,7 +31,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused sword can hold up to 320,000 [RF](../../../redstone-flux/). It can
+A flux-infused sword can hold up to 320,000 [RF](/docs/redstone-flux/). It can
 be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
 a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal
@@ -61,7 +61,7 @@ enchantments that other swords can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused sword has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when used.
+Flux](/docs/redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---

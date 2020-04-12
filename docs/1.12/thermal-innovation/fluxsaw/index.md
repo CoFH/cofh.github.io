@@ -26,7 +26,7 @@ recipes:
 ---
 
 A **fluxsaw**, or **saw** for short, is a tool that cuts blocks using [Redstone
-Flux](../../../redstone-flux/). It functions as an
+Flux](/docs/redstone-flux/). It functions as an
 [axe](https://minecraft.gamepedia.com/Axe) and
 [shears](https://minecraft.gamepedia.com/Shears).
 
@@ -42,7 +42,7 @@ Usage
 -----
 
 ### Charging
-A fluxsaw can be charged with [Redstone Flux](../../../redstone-flux/) using an
+A fluxsaw can be charged with [Redstone Flux](/docs/redstone-flux/) using an
 [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar.
 
@@ -100,7 +100,7 @@ A basic fluxsaw has an
 be increased by upgrading the fluxsaw to a higher [tier](#tiers).
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
-fluxsaw has a chance to not consume [Redstone Flux](../../../redstone-flux/) when
+fluxsaw has a chance to not consume [Redstone Flux](/docs/redstone-flux/) when
 used.
 
 | Unbreaking level | No energy use chance |

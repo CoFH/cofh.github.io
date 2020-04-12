@@ -24,7 +24,7 @@ usage-recipes:
 ---
 
 A **signalum-plated itemduct** is a type of [itemduct](../itemduct/) that
-transfers both items and [Redstone Flux](../../../redstone-flux/).
+transfers both items and [Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -40,7 +40,7 @@ Usage
 ### Item and energy transfer
 A signalum-plated itemduct works the same way as a regular
 [itemduct](../itemduct/). However, it also transfers [Redstone
-Flux](../../../redstone-flux/) like a [fluxduct](../fluxducts/), at up to 4,000
+Flux](/docs/redstone-flux/) like a [fluxduct](../fluxducts/), at up to 4,000
 RF/t per connection.
 
 ### Fluid Transposer ingredient

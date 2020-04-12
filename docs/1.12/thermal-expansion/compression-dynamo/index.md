@@ -57,7 +57,7 @@ rotated using a [wrench](../../wrenches/).
 ### Energy generation
 When a compression dynamo is filled with fluid [fuel](#fuels) and
 [coolant](../coolants/), it will start consuming both to
-generate [Redstone Flux](../../../redstone-flux/). Fuel and coolant are consumed in
+generate [Redstone Flux](/docs/redstone-flux/). Fuel and coolant are consumed in
 batches of 100 mB. Every batch of fuel yields a certain amount of energy when
 consumed. Every batch of coolant can be used to generate a certain amount of
 energy; this amount is equal to the [thermal
@@ -86,7 +86,7 @@ installing an [excitation field
 limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A compression dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil,
+A compression dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Fluids can enter a compression dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil
@@ -122,7 +122,7 @@ A compression dynamo's configuration can be saved on a
 [redprint](../../thermal-foundation/redprint/) to be copied to other dynamos.
 
 ### Light source
-When a compression dynamo that produces [Redstone Flux](../../../redstone-flux/) is
+When a compression dynamo that produces [Redstone Flux](/docs/redstone-flux/) is
 active, it emits a light level of 7.
 
 

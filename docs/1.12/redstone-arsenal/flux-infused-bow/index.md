@@ -16,7 +16,7 @@ recipes:
 ---
 
 A **flux-infused bow** is a powerful [bow](https://minecraft.gamepedia.com/Bow)
-powered by [Redstone Flux](../../../redstone-flux/).
+powered by [Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -30,7 +30,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused bow can hold up to 320,000 [RF](../../../redstone-flux/). It can
+A flux-infused bow can hold up to 320,000 [RF](/docs/redstone-flux/). It can
 be charged using an [energetic
 infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be
@@ -56,7 +56,7 @@ much higher than that of a regular [bow](https://minecraft.gamepedia.com/Bow).
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused bow has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when used.
+Flux](/docs/redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---

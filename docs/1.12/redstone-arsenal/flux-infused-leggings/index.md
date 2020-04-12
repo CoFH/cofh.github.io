@@ -15,7 +15,7 @@ recipes:
 
 **Flux-infused leggings** are powerful
 [leggings](https://minecraft.gamepedia.com/Leggings) powered by [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -29,7 +29,7 @@ Usage
 -----
 
 ### Charging
-Flux-infused leggings can hold up to 800,000 [RF](../../../redstone-flux/). They
+Flux-infused leggings can hold up to 800,000 [RF](/docs/redstone-flux/). They
 can be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. They can also be charged by
 touching a [fluxed electrum block](../fluxed-electrum-block/) or [flux
@@ -53,7 +53,7 @@ the enchantments that other leggings can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking),
 flux-infused leggings have a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when absorbing damage.
+Flux](/docs/redstone-flux/) when absorbing damage.
 
 | Unbreaking level | No energy use chance |
 |---

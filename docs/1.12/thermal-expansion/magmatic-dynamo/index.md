@@ -54,7 +54,7 @@ rotated using a [wrench](../../wrenches/).
 
 ### Energy generation
 When a magmatic dynamo is filled with fluid [fuel](#fuels), it will start
-consuming it to generate [Redstone Flux](../../../redstone-flux/). Fuel is consumed
+consuming it to generate [Redstone Flux](/docs/redstone-flux/). Fuel is consumed
 in batches of 100 mB. Every batch of fuel yields a certain amount of energy when
 consumed.
 
@@ -71,7 +71,7 @@ installing an [excitation field
 limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A magmatic dynamo emits [Redstone Flux](../../../redstone-flux/) from its coil,
+A magmatic dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Fluids can enter a magmatic dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil

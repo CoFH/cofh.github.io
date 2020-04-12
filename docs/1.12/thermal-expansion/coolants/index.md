@@ -9,7 +9,7 @@ redirect_from:
 
 In [Thermal Expansion](../), certain fluids are registered
 as **coolants**. They may be used when generating or consuming [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Usage

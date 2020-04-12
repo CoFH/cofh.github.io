@@ -16,7 +16,7 @@ recipes:
 ---
 
 A **flux-infused omniwrench** is a [wrench](../../wrenches/) powered by
-[Redstone Flux](../../../redstone-flux/). It also serves as
+[Redstone Flux](/docs/redstone-flux/). It also serves as
 [shears](https://minecraft.gamepedia.com/Shears).
 
 
@@ -31,7 +31,7 @@ Usage
 -----
 
 ### Charging
-A flux-infused omniwrench can hold up to 320,000 [RF](../../../redstone-flux/). It
+A flux-infused omniwrench can hold up to 320,000 [RF](/docs/redstone-flux/). It
 can be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
 a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal
@@ -60,7 +60,7 @@ A flux-infused omniwrench can receive all the enchantments that
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
 flux-infused omniwrench has a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when used.
+Flux](/docs/redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
 |---

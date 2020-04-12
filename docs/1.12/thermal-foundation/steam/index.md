@@ -20,7 +20,7 @@ usage-recipes:
 
 **Steam** is a fluid used by [steam dynamos](../../thermal-expansion/steam-dynamo/) with a
 [turbine conversion](../../thermal-expansion/augment-turbine-conversion/) installed to generate
-[Redstone Flux](../../../redstone-flux/).
+[Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -31,7 +31,7 @@ A [steam](../../thermal-expansion/steam-dynamo/), [magmatic](../../thermal-expan
 [compression dynamo](../../thermal-expansion/compression-dynamo/) with a [boiler
 conversion](../../thermal-expansion/augment-boiler-conversion/) installed converts
 [water](https://minecraft.gamepedia.com/Water) into steam instead of generating
-[Redstone Flux](../../../redstone-flux/).
+[Redstone Flux](/docs/redstone-flux/).
 
 ### Fluid Transposer
 {% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}

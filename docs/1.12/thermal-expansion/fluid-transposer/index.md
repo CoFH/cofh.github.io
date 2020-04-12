@@ -96,7 +96,7 @@ A fluid transposer can be in two modes: Fill and Empty.
 In Fill mode, a fluid transposer fills or infuses items with fluids. When items
 are placed in a transposer's input slot in this mode and the input tank is
 filled with a fluid, the machine will start consuming [Redstone
-Flux](../../../redstone-flux/) to fill the items with fixed amounts of fluid. Every
+Flux](/docs/redstone-flux/) to fill the items with fixed amounts of fluid. Every
 item requires a certain amount of energy to fill with a certain amount of fluid.
 When enough energy has been consumed for an item, the input fluid is consumed. A
 fluid transposer will keep processing the same item until the item is full or

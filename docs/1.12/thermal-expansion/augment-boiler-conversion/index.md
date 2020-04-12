@@ -39,7 +39,7 @@ A [steam](../steam-dynamo/), [magmatic](../magmatic-dynamo/) or
 [compression dynamo](../compression-dynamo/) with a boiler conversion
 installed uses fuel to convert [water](https://minecraft.gamepedia.com/Water)
 into [steam](../../thermal-foundation/steam/) instead of generating [Redstone
-Flux](../../../redstone-flux/). It produces and outputs steam at the same rates at
+Flux](/docs/redstone-flux/). It produces and outputs steam at the same rates at
 which it would normally generate and emit energy, replacing the energy unit RF
 with the fluid unit mB.
 

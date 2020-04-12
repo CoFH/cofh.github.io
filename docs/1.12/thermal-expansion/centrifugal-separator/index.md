@@ -66,7 +66,7 @@ four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 ### Processing
 A centrifugal separator has an input slot, four output slots and an output tank.
 When items are placed in the input slot, the machine will start consuming
-[Redstone Flux](../../../redstone-flux/) to process them. Every item requires a
+[Redstone Flux](/docs/redstone-flux/) to process them. Every item requires a
 certain amount of energy to process. When enough energy has been consumed for an
 item, the input is consumed and the output is placed in the output slots. Some
 items may have a fluid output as well, which is placed in the output tank.

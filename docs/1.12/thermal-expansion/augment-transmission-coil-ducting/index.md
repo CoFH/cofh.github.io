@@ -16,7 +16,7 @@ recipes:
 
 **Transmission coil ducting** is an [augment](../augments/) that allows items
 and fluids to enter a [dynamo](../dynamos/) through its coil, which can
-normally only emit [Redstone Flux](../../../redstone-flux/).
+normally only emit [Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -36,5 +36,5 @@ Transmission coil ducting can be installed in the Augmentation tab in a
 ### Effects
 Installed transmission coil ducting allows for a [dynamo](../dynamos/) to
 receive items and fluids through its coil, which is the side that emits
-[Redstone Flux](../../../redstone-flux/). Dynamos can normally only receive items
+[Redstone Flux](/docs/redstone-flux/). Dynamos can normally only receive items
 and fluids through the other sides.

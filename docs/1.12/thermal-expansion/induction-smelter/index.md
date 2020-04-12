@@ -165,7 +165,7 @@ cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 ### Processing
 An induction smelter has two input slots. When combinations of items are placed
 in these slots, the machine will start consuming [Redstone
-Flux](../../../redstone-flux/) to process them. Every item combination requires a
+Flux](/docs/redstone-flux/) to process them. Every item combination requires a
 certain amount of energy to process. When enough energy has been consumed for an
 item combination, the input is consumed and the output is placed in the primary
 output slot. A secondary output may be produced when processing certain items,

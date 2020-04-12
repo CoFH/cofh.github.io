@@ -15,7 +15,7 @@ recipes:
 
 **Flux-infused boots** are powerful
 [boots](https://minecraft.gamepedia.com/Boots) powered by [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -29,7 +29,7 @@ Usage
 -----
 
 ### Charging
-Flux-infused boots can hold up to 800,000 [RF](../../../redstone-flux/). They
+Flux-infused boots can hold up to 800,000 [RF](/docs/redstone-flux/). They
 can be charged using an [energetic
 infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. They can also be
@@ -54,7 +54,7 @@ enchantments that other boots can receive.
 
 When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking),
 flux-infused boots have a chance to not consume [Redstone
-Flux](../../../redstone-flux/) when absorbing damage.
+Flux](/docs/redstone-flux/) when absorbing damage.
 
 | Unbreaking level | No energy use chance |
 |---

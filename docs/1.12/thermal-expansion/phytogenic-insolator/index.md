@@ -112,7 +112,7 @@ four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 A phytogenic insolator has two input slots and an input tank. When combinations
 of items are placed in these slots and the tank is filled with
 [water](https://minecraft.gamepedia.com/Water), the machine will start consuming
-[Redstone Flux](../../../redstone-flux/) to process the items. Every item
+[Redstone Flux](/docs/redstone-flux/) to process the items. Every item
 combination requires a certain amount of energy to process. When enough energy
 has been consumed for an item combination, the input is consumed and the output
 is placed in the primary output slot. A secondary output may be produced when

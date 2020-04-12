@@ -26,7 +26,7 @@ recipes:
 ---
 
 A **fluxomagnet**, or **magnet** for short, is a tool that attracts dropped
-items using [Redstone Flux](../../../redstone-flux/).
+items using [Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -40,7 +40,7 @@ Usage
 -----
 
 ### Charging
-A fluxomagnet can be charged with [Redstone Flux](../../../redstone-flux/) using an
+A fluxomagnet can be charged with [Redstone Flux](/docs/redstone-flux/) using an
 [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar.
 

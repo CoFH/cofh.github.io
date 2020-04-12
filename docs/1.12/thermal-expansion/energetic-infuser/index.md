@@ -27,7 +27,7 @@ recipe-list:
 
 An **energetic infuser** (also known as a **charger**) is a
 [machine](../machines/) that charges items with [Redstone
-Flux](../../../redstone-flux/).
+Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -56,7 +56,7 @@ cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When items that hold energy are placed in an energetic infuser's input slot, the
-machine will start consuming [Redstone Flux](../../../redstone-flux/) to charge
+machine will start consuming [Redstone Flux](/docs/redstone-flux/) to charge
 them. The machine will keep charging an item until it is fully charged. Once an
 item is fully charged, it is moved to the output slot.
 
@@ -166,6 +166,6 @@ Recipes
 -------
 
 An energetic infuser can process the following items that do not hold [Redstone
-Flux](../../../redstone-flux/) into different items.
+Flux](/docs/redstone-flux/) into different items.
 
 {% include recipe-table.html type='te-1-12-charger' recipes=page.recipe-list %}

@@ -36,5 +36,5 @@ cannot be installed together with other specialization augments.
 ### Effects
 An [energetic infuser](../energetic-infuser/) with flux reconstruction
 installed repairs damaged items instead of charging items with [Redstone
-Flux](../../../redstone-flux/). It uses 500 RF and 5 mB of [essence of
+Flux](/docs/redstone-flux/). It uses 500 RF and 5 mB of [essence of
 knowledge](../../thermal-foundation/essence-of-knowledge/) per restored durability point.

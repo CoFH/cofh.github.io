@@ -16,7 +16,7 @@ recipes:
 
 An **excitation field limiter** is an [augment](../augments/) that prevents a
 [dynamo](../dynamos/) from wasting generated [Redstone
-Flux](../../../redstone-flux/) when it cannot be emitted.
+Flux](/docs/redstone-flux/) when it cannot be emitted.
 
 
 Obtaining
@@ -39,5 +39,5 @@ An installed excitation field limiter lowers the minimum power output of a
 
 Normally, when an active dynamo cannot emit the energy it generates, it will
 keep working at its minimum power output. Any more [Redstone
-Flux](../../../redstone-flux/) that is generated in this case is lost. An installed
+Flux](/docs/redstone-flux/) that is generated in this case is lost. An installed
 excitation field limiter prevents this energy loss.

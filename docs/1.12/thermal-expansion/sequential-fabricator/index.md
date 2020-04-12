@@ -56,7 +56,7 @@ function.
 
 When the required items for the configured recipe are placed in a sequential
 fabricator's input slots, the machine will start consuming [Redstone
-Flux](../../../redstone-flux/) to craft items. The machine requires 400 RF per
+Flux](/docs/redstone-flux/) to craft items. The machine requires 400 RF per
 operation. When enough energy has been consumed for an operation, the input is
 consumed and the output is placed in the output slot.
 

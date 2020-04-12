@@ -52,7 +52,7 @@ four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 ### Processing
 An arcane ensorcellator has two input slots and an input tank. When combinations
 of items and fluids are inserted in the slots and the tank, the machine will
-start consuming [Redstone Flux](../../../redstone-flux/) to process them. Every
+start consuming [Redstone Flux](/docs/redstone-flux/) to process them. Every
 item/fluid combination requires a certain amount of energy to process. When
 enough energy has been consumed for an item/fluid combination, the input is
 consumed and the output is placed in the output slot.

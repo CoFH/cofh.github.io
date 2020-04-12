@@ -44,5 +44,5 @@ Usage
 A signalum-plated impulse itemduct works the same way as a regular
 [itemduct](../itemduct/). However, items move through it faster like with an
 [impulse itemduct](../impulse-itemduct/), and it also transfers [Redstone
-Flux](../../../redstone-flux/) like a [signalum-plated
+Flux](/docs/redstone-flux/) like a [signalum-plated
 itemduct](../signalum-plated-itemduct/).

@@ -19,7 +19,7 @@ recipes:
 ---
 
 A **signalum-plated fluiduct** is a type of [fluiduct](../fluiduct/) that
-transfers both fluids and [Redstone Flux](../../../redstone-flux/).
+transfers both fluids and [Redstone Flux](/docs/redstone-flux/).
 
 
 Obtaining
@@ -35,5 +35,5 @@ Usage
 ### Fluid and energy transfer
 A signalum-plated fluiduct works the same way as a [hardened
 fluiduct](../hardened-fluiduct/). However, it also transfers [Redstone
-Flux](../../../redstone-flux/) like a [fluxduct](../fluxducts/), at up to 4,000
+Flux](/docs/redstone-flux/) like a [fluxduct](../fluxducts/), at up to 4,000
 RF/t per connection.
