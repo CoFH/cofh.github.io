@@ -21,6 +21,10 @@ defaults:
     values:
       nav: redstone-flux
   - scope:
+      path: "docs/1.15/cofh-core"
+    values:
+      nav: cofh-core-1.15
+  - scope:
       path: "docs/1.12/cofh-core"
     values:
       nav: cofh-core-1.12

@@ -6,7 +6,7 @@
       Required for all Team CoFH mods.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
-      # docs: /docs/1.15/cofh-core/
+      docs: /docs/1.15/cofh-core/
       source: https://github.com/KingLemming/1.15
   - id: ensorcellation-1-15
     logo: ensorcellation

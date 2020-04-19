@@ -12,6 +12,8 @@ from threading import Thread
 
 
 REPOS = [
+    dict(name="1.15", url="git@github.com:KingLemming/1.15.git"),
+    dict(name="1.14", url="git@github.com:KingLemming/1.14.git"),
     dict(name="RedstoneFlux", url="git@github.com:CoFH/RedstoneFlux.git"),
     dict(name="CoFHCore", url="git@github.com:CoFH/CoFHCore.git"),
     dict(name="CoFHWorld", url="git@github.com:CoFH/CoFHWorld.git"),
@@ -23,8 +25,6 @@ REPOS = [
     dict(name="RedstoneArsenal", url="git@github.com:CoFH/RedstoneArsenal.git"),
     dict(name="VanillaTools", url="git@github.com:CoFH/VanillaTools.git"),
     dict(name="VanillaSatchels", url="git@github.com:CoFH/VanillaSatchels.git"),
-    dict(name="1.14", url="git@github.com:KingLemming/1.14.git"),
-    dict(name="1.15", url="git@github.com:KingLemming/1.15.git"),
 ]
 
 

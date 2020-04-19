@@ -14,6 +14,9 @@ Index
 
 <!-- Arrow symbol: → -->
 
+### Minecraft 1.15
+* [CoFH Core](1.15/cofh-core/) - <span class="uk-text-small uk-text-warning">WIP (→ 0.3.2b)</span>
+
 ### Minecraft 1.12
 * [CoFH Core](1.12/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.6.6)</span>
 * [CoFH World](1.12/cofh-world/) - <span class="uk-text-small uk-text-success">up to date (1.3.1)</span>

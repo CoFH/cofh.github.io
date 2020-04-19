@@ -4,8 +4,38 @@ redstone-flux:
   sections:
     - groups:
         - items:
-            - title: 'Redstone Flux: A Primer'
+            - title: "Redstone Flux: A Primer"
               url: redstone-flux-a-primer/
+
+cofh-core-1.15:
+  title: CoFH Core (Minecraft 1.15)
+  url: 1.15/cofh-core/
+  sections:
+    - groups:
+        - title: General
+          items:
+            - title: Tweaks
+            # Improved Feather Falling
+            # Improved Infinity
+            # Improved Mending
+            # Fishing exhaustion
+            # Sapling growth modifier
+            # Item descriptions
+            # Enchantment descriptions
+            - title: Holding
+            - title: Potions
+            - title: Ectoplasm
+            - title: Glossed Magma
+        - title: Effects
+          items:
+            - title: Blast Resistance
+            - title: Chilled
+            - title: Clarity
+            - title: Enderference
+            - title: Love
+            - title: Magic Resistance
+            - title: Panacea
+            - title: Shock Resistance
 
 cofh-core-1.12:
   title: CoFH Core (Minecraft 1.12)
