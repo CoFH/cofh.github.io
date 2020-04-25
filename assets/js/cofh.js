@@ -2,6 +2,7 @@
 layout: null
 ---
 
+// List of pages, used by search bar autocomplete
 var pages = [
     {%- for page in site.pages -%}{%- if page.title -%}{
         title: "{{ page.title }}",
@@ -10,24 +11,15 @@ var pages = [
     }{%- if forloop.last -%}{%- else -%},{%- endif -%}{%- endif -%}{%- endfor -%}
 ];
 
-$(window).on('hashchange load', function() {
-    var $anchor = $(window.location.hash);
-    if ($anchor.length > 0) {
-        $('html, body')
-            .stop()
-            .animate({
-                scrollTop: $anchor.offset().top - 50
-            }, 0);
-    }
-});
-
 $(function() {
+    // Random banner image
     var $banner = $('.cofh-banner');
     if ($banner.length > 0) {
         var bannerImage = '/assets/images/banners/banner' + Math.floor(Math.random() * 7 + 1) + '.jpg';
         $banner.css('background-image', 'url(' + bannerImage + ')');
     }
 
+    // Header permalink and back to top links
     $(':header').each(function() {
         var id = $(this).attr('id');
         if (typeof(id) === 'undefined') return;
@@ -38,6 +30,7 @@ $(function() {
             .append('<a href="#" class="uk-float-right uk-margin-right cofh-clickable-icon" title="Top of Page"><i class="uk-icon-chevron-up"></i></a>');
     });
 
+    // Search bar
     $('.cofh-search').on('selectitem.uk.autocomplete', function(event, data) {
         window.location.href = window.location.protocol + '//' + window.location.host + data.url;
     });
@@ -45,6 +38,7 @@ $(function() {
         window.location.href = 'http://google.com/search?q=' + $('.cofh-search > input').val() + ' site:' + window.location.hostname;
     });
 
+    // Pause recipe cycling on mouseover
     $('.cofh-recipe')
         .mouseenter(function() {
             $(this).find('.cofh-cycle').addClass('paused');
@@ -53,6 +47,7 @@ $(function() {
             $(this).find('.cofh-cycle').removeClass('paused');
         });
 
+    // Recipe cycling
     window.setInterval(function() {
         $('.cofh-cycle:not(.paused) > :not(.hidden)').each(function() {
             var $this = $(this);
