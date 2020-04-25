@@ -26,6 +26,15 @@
       download: https://www.curseforge.com/minecraft/mc-mods/archers-paradox
       # docs: /docs/1.15/archers-paradox/
       source: https://github.com/KingLemming/1.15
+  - id: omgourd-1-15
+    logo: omgourd
+    title: Oh My Gourd
+    note: >
+      Requires <a href="#cofh-core-1-15">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd
+      # docs: /docs/1.15/oh-my-gourd/
+      source: https://github.com/KingLemming/1.15
 
 "1.14":
   - id: cofh-core-1-14

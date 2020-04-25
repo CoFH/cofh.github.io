@@ -14,6 +14,23 @@ cofh-core-1.15:
     - groups:
         - title: General
           items:
+            - title: Effects
+            # Blast Resistance
+            # Chilled
+            # Clarity
+            # Enderference
+            # Love
+            # Magic Resistance
+            # Panacea
+            # Shock Resistance
+            - title: Commands
+            # enderchest
+            # heal
+            # ignite
+            # repair
+            # zap
+            - title: Holding
+            - title: Potions
             - title: Tweaks
             # Improved Feather Falling
             # Improved Infinity
@@ -22,20 +39,17 @@ cofh-core-1.15:
             # Sapling growth modifier
             # Item descriptions
             # Enchantment descriptions
-            - title: Holding
-            - title: Potions
+        - title: Blocks and items
+          items:
             - title: Ectoplasm
             - title: Glossed Magma
-        - title: Effects
+        - title: Fluids
           items:
-            - title: Blast Resistance
-            - title: Chilled
-            - title: Clarity
-            - title: Enderference
-            - title: Love
-            - title: Magic Resistance
-            - title: Panacea
-            - title: Shock Resistance
+            - title: Essence of Knowledge
+            - title: Honey
+            - title: Milk
+            - title: Potion
+            - title: Steam
 
 cofh-core-1.12:
   title: CoFH Core (Minecraft 1.12)

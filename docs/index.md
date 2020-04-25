@@ -15,7 +15,7 @@ Index
 <!-- Arrow symbol: → -->
 
 ### Minecraft 1.15
-* [CoFH Core](1.15/cofh-core/) - <span class="uk-text-small uk-text-warning">WIP (→ 0.3.2b)</span>
+* [CoFH Core](1.15/cofh-core/) - <span class="uk-text-small uk-text-warning">WIP (→ 0.4.0b)</span>
 
 ### Minecraft 1.12
 * [CoFH Core](1.12/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (4.6.6)</span>
@@ -25,6 +25,6 @@ Index
 * [Thermal Dynamics](1.12/thermal-dynamics/) - <span class="uk-text-small uk-text-success">up to date (2.5.6)</span>
 * [Thermal Cultivation](1.12/thermal-cultivation/) - <span class="uk-text-small uk-text-success">up to date (0.3.6)</span>
 * [Thermal Innovation](1.12/thermal-innovation/) - <span class="uk-text-small uk-text-success">up to date (0.3.6)</span>
-* [Redstone Arsenal](1.12/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (2.6.4)</span>
+* [Redstone Arsenal](1.12/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (2.6.6)</span>
 * [Vanilla+ Tools](1.12/vanillaplus-tools/) - <span class="uk-text-small uk-text-success">up to date (1.1.0)</span>
 * [Vanilla+ Satchels](1.12/vanillaplus-satchels/) - <span class="uk-text-small uk-text-success">up to date (1.0.2)</span>
