@@ -1,0 +1,34 @@
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small cofh-info-table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {%- for effect in include.effects -%}
+                <tr>
+                    <td style="width: 48px; min-width: 48px">
+                        <img src="/assets/images/cofh-core-1-15/effect/{{effect.id}}.png" alt="{{effect.name}}" style="width: 48px; height: 48px" />
+                    </td>
+
+                    <td class="cofh-nowrap">
+                        <strong>{{effect.name}}</strong>
+                    </td>
+
+                    <td style="min-width: 200px">
+                        {{effect.description}}
+                    </td>
+
+                    <td class="cofh-nowrap">
+                        {{effect.type}}
+                    </td>
+                </tr>
+            {%- endfor -%}
+        </tbody>
+    </table>
+</div>

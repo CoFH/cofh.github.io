@@ -24,7 +24,7 @@ consists of a text box with buttons to add or remove a player, a list of online
 players and the friend list itself. Player names can be chosen from the lists,
 or typed manually in the text box.
 
-![Friend list GUI](/assets/images/cofh-core-4/friend-list-gui.png){:style="height: 250px"}
+![Friend list GUI](/assets/images/cofh-core-1-14/friend-list-gui.png){:style="height: 250px"}
 
 
 Usage
