@@ -1,5 +1,5 @@
 ---
-title: Hoes (Thermal Foundation)
+title: Hoes
 redirect_from:
 - /docs/thermal-foundation/equipment/tools/hoes/
 - /docs/hoes/

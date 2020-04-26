@@ -1,5 +1,5 @@
 ---
-title: Helmets (Thermal Foundation)
+title: Helmets
 redirect_from:
 - /thermal-expansion/items/invar-armor/
 - /docs/thermal-foundation/equipment/armor/

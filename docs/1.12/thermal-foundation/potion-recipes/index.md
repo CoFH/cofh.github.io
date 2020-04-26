@@ -1,5 +1,5 @@
 ---
-title: Potion recipes (Thermal Foundation)
+title: Potion recipes
 redirect_from:
 - /docs/tf-potion-recipes/
 - /docs/thermal-foundation/potion-recipes/

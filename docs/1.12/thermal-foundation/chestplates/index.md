@@ -1,5 +1,5 @@
 ---
-title: Chestplates (Thermal Foundation)
+title: Chestplates
 redirect_from:
 - /docs/thermal-foundation/equipment/armor/chestplates/
 - /docs/chestplates/

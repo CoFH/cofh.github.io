@@ -1,5 +1,5 @@
 ---
-title: Shields (Thermal Foundation)
+title: Shields
 redirect_from:
 - /docs/thermal-foundation/equipment/weapons/shields/
 - /docs/shields/

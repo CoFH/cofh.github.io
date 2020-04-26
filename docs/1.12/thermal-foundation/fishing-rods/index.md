@@ -1,5 +1,5 @@
 ---
-title: Fishing Rods (Thermal Foundation)
+title: Fishing Rods
 redirect_from:
 - /docs/thermal-foundation/equipment/fishing-rods/
 - /docs/thermal-foundation/equipment/tools/fishing-rods/

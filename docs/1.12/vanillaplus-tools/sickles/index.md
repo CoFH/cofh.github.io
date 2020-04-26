@@ -1,5 +1,5 @@
 ---
-title: Sickles (Vanilla+ Tools)
+title: Sickles
 image:
 - alt: Iron sickle
   file: vanillaplus-tools/sickle-iron.png

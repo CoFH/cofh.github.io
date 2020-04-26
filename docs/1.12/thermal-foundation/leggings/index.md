@@ -1,5 +1,5 @@
 ---
-title: Leggings (Thermal Foundation)
+title: Leggings
 redirect_from:
 - /docs/thermal-foundation/equipment/armor/leggings/
 - /docs/leggings/

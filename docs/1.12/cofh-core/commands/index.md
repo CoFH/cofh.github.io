@@ -1,5 +1,5 @@
 ---
-title: Commands (CoFH Core)
+title: Commands
 redirect_from:
 - /mods/cofh-core/commands.html
 - /docs/cofh-core/features/commands/

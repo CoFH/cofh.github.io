@@ -1,5 +1,5 @@
 ---
-title: Satchel (Thermal Expansion)
+title: Satchel
 image:
 - alt: Satchel (Basic)
   file: thermal-expansion-5/satchel-basic.png

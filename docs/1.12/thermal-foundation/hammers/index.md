@@ -1,5 +1,5 @@
 ---
-title: Hammers (Thermal Foundation)
+title: Hammers
 redirect_from:
 - /docs/thermal-foundation/equipment/tools/hammers/
 - /docs/hammers/

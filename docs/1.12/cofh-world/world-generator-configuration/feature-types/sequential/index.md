@@ -1,5 +1,5 @@
 ---
-title: sequential (feature type)
+title: sequential
 redirect_from:
 - /docs/cofh-world/world-generator-configuration/feature-types/sequential/
 ---

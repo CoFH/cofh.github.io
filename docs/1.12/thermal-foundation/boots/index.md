@@ -1,5 +1,5 @@
 ---
-title: Boots (Thermal Foundation)
+title: Boots
 redirect_from:
 - /docs/thermal-foundation/equipment/armor/boots/
 - /docs/boots/

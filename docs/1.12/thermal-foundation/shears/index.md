@@ -1,5 +1,5 @@
 ---
-title: Shears (Thermal Foundation)
+title: Shears
 redirect_from:
 - /docs/thermal-foundation/equipment/shears/
 - /docs/thermal-foundation/equipment/tools/shears/

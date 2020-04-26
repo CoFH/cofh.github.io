@@ -1,5 +1,5 @@
 ---
-title: Shields (Vanilla+ Tools)
+title: Shields
 image:
 - alt: Iron shield
   file: vanillaplus-tools/shield-iron.png

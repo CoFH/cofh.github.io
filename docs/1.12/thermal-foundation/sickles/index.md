@@ -1,5 +1,5 @@
 ---
-title: Sickles (Thermal Foundation)
+title: Sickles
 redirect_from:
 - /docs/thermal-foundation/equipment/sickles/
 - /docs/thermal-foundation/equipment/tools/sickles/

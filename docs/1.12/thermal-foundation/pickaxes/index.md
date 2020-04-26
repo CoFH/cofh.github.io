@@ -1,5 +1,5 @@
 ---
-title: Pickaxes (Thermal Foundation)
+title: Pickaxes
 redirect_from:
 - /thermal-expansion/tools/invar-tools/
 - /docs/thermal-foundation/equipment/pickaxes/

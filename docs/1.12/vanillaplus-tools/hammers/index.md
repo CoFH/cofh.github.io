@@ -1,5 +1,5 @@
 ---
-title: Hammers (Vanilla+ Tools)
+title: Hammers
 image:
 - alt: Iron hammer
   file: vanillaplus-tools/hammer-iron.png

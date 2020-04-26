@@ -1,5 +1,5 @@
 ---
-title: sequential (distribution type)
+title: sequential
 redirect_from:
 - /docs/cofh-world/world-generator-configuration/distribution-types/sequential/
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vanilla recipes (Thermal Foundation)
+title: Vanilla recipes
 redirect_from:
 - /docs/thermal-foundation/other/vanilla-recipes/
 - /docs/vanilla-recipes/

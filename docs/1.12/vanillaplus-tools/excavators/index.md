@@ -1,5 +1,5 @@
 ---
-title: Excavators (Vanilla+ Tools)
+title: Excavators
 image:
 - alt: Iron excavator
   file: vanillaplus-tools/excavator-iron.png

@@ -1,5 +1,5 @@
 ---
-title: Shovels (Thermal Foundation)
+title: Shovels
 redirect_from:
 - /docs/thermal-foundation/equipment/shovels/
 - /docs/thermal-foundation/equipment/tools/shovels/

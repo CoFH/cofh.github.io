@@ -1,5 +1,5 @@
 ---
-title: Potions (CoFH Core)
+title: Potions
 redirect_from:
 - /docs/cofh-core-potions/
 - /docs/cofh-core/potions/

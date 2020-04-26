@@ -1,5 +1,5 @@
 ---
-title: Fishing Rods (Vanilla+ Tools)
+title: Fishing Rods
 image:
 - alt: Iron fishing rod
   file: vanillaplus-tools/fishing-rod-iron.png

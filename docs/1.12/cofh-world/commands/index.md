@@ -1,5 +1,5 @@
 ---
-title: Commands (CoFH World)
+title: Commands
 redirect_from:
 - /docs/cofh-world-commands/
 - /docs/cofh-world/commands/

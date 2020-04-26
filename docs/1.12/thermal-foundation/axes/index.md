@@ -1,5 +1,5 @@
 ---
-title: Axes (Thermal Foundation)
+title: Axes
 redirect_from:
 - /docs/thermal-foundation/equipment/axes/
 - /docs/thermal-foundation/equipment/tools/axes/
