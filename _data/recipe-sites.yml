@@ -1,5 +1,9 @@
 docs:
   url: /docs/
+core-1-15-docs:
+  url: /docs/1.15/cofh-core/
+ap-1-15-docs:
+  url: /docs/1.15/archers-paradox/
 tf-1-12-docs:
   url: /docs/1.12/thermal-foundation/
 te-1-12-docs:

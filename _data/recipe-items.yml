@@ -853,6 +853,11 @@ mc-flower-pot:
   sprite: [0, 45]
   site: mc-wiki
   url: Flower_Pot
+mc-ghast-tear:
+  name: Ghast Tear
+  sprite: [8, 70]
+  site: mc-wiki
+  url: Ghast_Tear
 mc-glass:
   name: Glass
   sprite: [3, 11]
@@ -2078,6 +2083,16 @@ mc-wool-yellow:
   sprite: [11, 4]
   site: mc-wiki
   url: Wool
+core-1-15-ectoplasm:
+  name: Ectoplasm
+  sprite: [6, 70]
+  site: core-1-15-docs
+  url: ectoplasm/
+ap-1-15-phantasmal-arrow:
+  name: Phantasmal Arrow
+  sprite: [7, 70]
+  site: ap-1-15-docs
+  url: phantasmal-arrow/
 tf-1-12-aqua-chow:
   name: Aqua-Chow
   sprite: [0, 60]

@@ -16,6 +16,7 @@ cofh-core-1.15:
             - title: Commands
               url: commands/
             - title: Ectoplasm
+              url: ectoplasm/
             - title: Status effects
               url: status-effects/
             - title: Tweaks

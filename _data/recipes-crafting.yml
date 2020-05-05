@@ -2,6 +2,32 @@ name: Crafting
 site: mc-wiki
 url: Crafting
 recipes:
+  core-1-15-ectoplasm:
+    results:
+      - item: core-1-15-ectoplasm
+    ingredients:
+      - item: mc-ghast-tear
+      - item: mc-slimeball
+    data:
+      shapeless: true
+      rows:
+        - [item: [mc-ghast-tear], item: [mc-slimeball]]
+      result:
+        item: [core-1-15-ectoplasm]
+  ap-1-15-phantasmal-arrow:
+    results:
+      - item: ap-1-15-phantasmal-arrow
+    ingredients:
+      - item: mc-arrow
+      - item: core-1-15-ectoplasm
+    data:
+      rows:
+        - [null, item: [core-1-15-ectoplasm]]
+        - [item: [core-1-15-ectoplasm], item: [mc-arrow], item: [core-1-15-ectoplasm]]
+        - [null, item: [core-1-15-ectoplasm]]
+      result:
+        item: [ap-1-15-phantasmal-arrow]
+        amount: 2
   tf-1-12-aqua-chow-using-slime:
     results:
       - item: tf-1-12-aqua-chow
