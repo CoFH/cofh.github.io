@@ -15,22 +15,10 @@ cofh-core-1.15:
         - title: General
           items:
             - title: Commands
-            # enderchest
-            # heal
-            # ignite
-            # repair
-            # zap
+              url: commands/
             - title: Holding
             - title: Status effects
               url: status-effects/
-            # Blast Resistance
-            # Chilled
-            # Clarity
-            # Enderference
-            # Love
-            # Magic Resistance
-            # Panacea
-            # Shock Resistance
             - title: Tweaks
             # Improved Feather Falling
             # Improved Infinity
