@@ -12,25 +12,14 @@ cofh-core-1.15:
   url: 1.15/cofh-core/
   sections:
     - groups:
-        - title: General
-          items:
+        - items:
             - title: Commands
               url: commands/
-            - title: Holding
+            - title: Ectoplasm
             - title: Status effects
               url: status-effects/
             - title: Tweaks
-            # Improved Feather Falling
-            # Improved Infinity
-            # Improved Mending
-            # Fishing exhaustion
-            # Sapling growth modifier
-            # Item descriptions
-            # Enchantment descriptions
-        - title: Blocks and items
-          items:
-            - title: Ectoplasm
-            - title: Glossed Magma
+              url: tweaks/
         # - title: Fluids
         #   items:
         #     - title: Essence of Knowledge

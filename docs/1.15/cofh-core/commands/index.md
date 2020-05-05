@@ -13,13 +13,13 @@ All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 
 {::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Command | Description | Permission level |
+| Command | Description |
 |---
-| [enderchest](#enderchest) | Opens a player's [ender chest](https://minecraft.gamepedia.com/Ender_Chest). | 2 |
-| [heal](#heal) | Fully heals players. | 2 |
-| [ignite](#ignite) | Sets entities on fire. | 2 |
-| [repair](#repair) | Fully repairs the equipment of players. | 2 |
-| [zap](#zap) | Causes entities to be struck by [lightning](https://minecraft.gamepedia.com/Lightning). | 2 |
+| [enderchest](#enderchest) | Opens a player's [ender chest](https://minecraft.gamepedia.com/Ender_Chest). |
+| [heal](#heal) | Fully heals players. |
+| [ignite](#ignite) | Sets entities on fire. |
+| [repair](#repair) | Fully repairs the equipment of players. |
+| [zap](#zap) | Causes entities to be struck by [lightning](https://minecraft.gamepedia.com/Lightning). |
 {:.uk-table .uk-table-striped}
 </div>
 {::options parse_block_html="false" /}
