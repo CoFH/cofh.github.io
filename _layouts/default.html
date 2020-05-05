@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
 
-        {%- capture title -%}{%- if page.title -%}{{ page.title }} - {%- endif -%}Team CoFH{%- endcapture -%}
+        {% capture title %}{% if page.title %}{{ page.title }} - {% endif %}Team CoFH{% endcapture %}
         {%- assign description = "The official site for news, downloads and documentation for the Team CoFH Minecraft mods: Redstone Flux, CoFH Core, CoFH World, Thermal Series (Thermal Expansion, Thermal Foundation, Thermal Dynamics, Thermal Cultivation, Thermal Innovation), Redstone Arsenal, Vanilla+ Series (Tools, Satchels)" -%}
 
         <title>{{ title }}</title>
