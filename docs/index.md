@@ -15,7 +15,7 @@ Index
 <!-- Arrow symbol: → -->
 
 ### Minecraft 1.15
-* [CoFH Core](1.15/cofh-core/) - <span class="uk-text-small uk-text-warning">WIP (→ 0.4.0b)</span>
+* [CoFH Core](1.15/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (0.4.0b)</span>
 * <a class="uk-text-danger">Archer's Paradox</a>
 * <a class="uk-text-danger">Ensorcellation</a>
 * <a class="uk-text-danger">Oh My Gourd</a>
