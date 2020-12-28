@@ -1,6 +1,5 @@
 - name: King Lemming
   image: https://pbs.twimg.com/profile_images/378800000754277281/af3e85cba6b7b841161ac113b1169f9e_400x400.png
-  status: Active
   description: Founder and lead developer
   links:
     - icon: twitter
@@ -12,7 +11,6 @@
 
 - name: Cynycal
   image: https://pbs.twimg.com/profile_images/1300753730619334656/blEHxTcJ_400x400.png
-  status: Active
   description: Co-founder and artist
   links:
     - icon: twitter
@@ -20,7 +18,6 @@
 
 - name: covers1624
   image: https://pbs.twimg.com/profile_images/695636359415894017/fCtyS90H_400x400.png
-  status: Active
   description: Developer
   links:
     - icon: twitter
@@ -32,7 +29,6 @@
 
 - name: skyboy026
   image: https://pbs.twimg.com/profile_images/1269067500496576513/EwuenOjE_400x400.jpg
-  status: Active
   description: Developer (MineFactory Reloaded, CoFH World)
   links:
     - icon: twitter
@@ -44,7 +40,6 @@
 
 - name: Tonius
   image: https://pbs.twimg.com/profile_images/901804867500613632/_G57XEr5_400x400.jpg
-  status: Active
   description: Web developer
   links:
     - icon: twitter
@@ -56,7 +51,6 @@
 
 - name: RWTema
   image: https://pbs.twimg.com/profile_images/1253340841940140038/FLpmpYEy_400x400.jpg
-  status: Active
   description: Developer (Thermal Dynamics)
   links:
     - icon: twitter
@@ -68,7 +62,6 @@
 
 - name: Zeldo Kavira
   image: https://pbs.twimg.com/profile_images/728264022932381696/i9noJ0A1_400x400.jpg
-  status: Inactive
   description: Developer
   links:
     - icon: twitter
