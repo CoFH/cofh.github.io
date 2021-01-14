@@ -21,6 +21,10 @@ defaults:
     values:
       nav: redstone-flux
   - scope:
+      path: "docs/1.16/thermal-series"
+    values:
+      nav: thermal-series    
+  - scope:
       path: "docs/1.15/cofh-core"
     values:
       nav: cofh-core-1.15

@@ -1,5 +1,7 @@
 docs:
   url: /docs/
+ts-1-16-docs:
+  url: /docs/1.16/thermal-series/
 core-1-15-docs:
   url: /docs/1.15/cofh-core/
 ap-1-15-docs:

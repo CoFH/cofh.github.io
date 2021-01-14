@@ -2655,7 +2655,7 @@ tf-1-12-conversion-kit-resonant:
   url: conversion-kits/
 tf-1-12-crescent-hammer:
   name: Crescent Hammer
-  sprite: [5, 11]
+  sprite: [12, 70]
   site: tf-1-12-docs
   url: crescent-hammer/
 tf-1-12-drill-head:
@@ -6038,3 +6038,8 @@ vps-1-12-satchel-void:
   animated: true
   site: vps-1-12-docs
   url: satchel/
+thermal-1-16-thermalpedia:
+  name: Thermalpedia
+  sprite: [9, 70]
+  site: ts-1-16-docs
+  url: thermalpedia/
