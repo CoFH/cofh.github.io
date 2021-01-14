@@ -2,6 +2,18 @@ name: Crafting
 site: mc-wiki
 url: Crafting
 recipes:
+  thermal-1-16-thermalpedia:
+    results:
+      - item: thermal-1-16-thermalpedia
+    ingredients:
+      - item: tf-1-12-crescent-hammer 
+      - item: mc-book
+    data:
+      shapeless: true
+      rows:
+        - [item: [tf-1-12-crescent-hammer], item: [mc-book]]
+      result:
+       item: [thermal-1-16-thermalpedia]
   core-1-15-ectoplasm:
     results:
       - item: core-1-15-ectoplasm

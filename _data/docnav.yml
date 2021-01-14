@@ -6,7 +6,19 @@ redstone-flux:
         - items:
             - title: "Redstone Flux: A Primer"
               url: redstone-flux-a-primer/
-
+              
+thermal-series:
+ title: Thermal Series
+ url: 1.16/thermal-series/
+ sections:
+  - groups:
+    - title: Information
+      items:
+      - title: Thermalpedia
+        icon: [2, 25]
+        url: thermalpedia/
+        
+        
 cofh-core-1.15:
   title: CoFH Core (Minecraft 1.15)
   url: 1.15/cofh-core/

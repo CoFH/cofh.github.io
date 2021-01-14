@@ -12,7 +12,7 @@ This page lists download links for all Team CoFH mods.
 * Yes, you can use these in your modpack.
 * Before installing, *always back up your world!* Especially when it's a
   development build.
-* Report bugs on the [issue tracker](https://github.com/CoFH/Feedback).
+* Report bugs on the discord.
   Questions and suggestions should go to the [Discord
   server](https://discord.gg/uRKrnbH).
 
