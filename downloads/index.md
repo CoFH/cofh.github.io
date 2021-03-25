@@ -12,11 +12,15 @@ This page lists download links for all Team CoFH mods.
 * Yes, you can use these in your modpack.
 * Before installing, *always back up your world!* Especially when it's a
   development build.
-* Report bugs on the discord.
-  Questions and suggestions should go to the [Discord
+* Report bugs, ask questions, and give feedback on the discord! Or just join for a good chat. [Discord
   server](https://discord.gg/uRKrnbH).
-
+  
 <div class="uk-accordion" data-uk-accordion="{showfirst: true, collapse: true}">
+    <h2 class="uk-accordion-title">Minecraft 1.16</h2>
+    <div class="uk-accordion-content">
+        {% include download-items.html minecraft="1.16" %}
+    </div>
+	
     <h2 class="uk-accordion-title">Minecraft 1.15</h2>
     <div class="uk-accordion-content">
         {% include download-items.html minecraft="1.15" %}

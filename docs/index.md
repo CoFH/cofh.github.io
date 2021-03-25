@@ -16,6 +16,7 @@ Index
 
 ### Minecraft 1.16
 * [Thermal Series](1.16/thermal-series/) - <span class="uk-text-small uk-text-success">Temporary website pages </span>
+* [Ensorcellation](1.16/ensorcellation/) - <span class="uk-text-small uk-text-success">up to date (1.2.0) </span>
 
 ### Minecraft 1.15
 * [CoFH Core](1.15/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (0.4.0b)</span>

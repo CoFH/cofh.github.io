@@ -1,3 +1,86 @@
+"1.16":
+  - id: cofh-core-1-16
+    logo: cofh-core
+    title: CoFH Core
+    note: >
+      Required for all Team CoFH mods.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
+     # docs: /docs/1.16/cofh-core/
+      source: https://github.com/KingLemming/1.16
+  - id: archers-paradox-1-16
+    logo: archers-paradox
+    title: Archer's Paradox
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/archers-paradox
+      # docs: /docs/1.15/archers-paradox/
+      source: https://github.com/KingLemming/1.16
+  - id: ensorcellation-1-16
+    logo: ensorcellation
+    title: Ensorcellation
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/ensorcellation
+      docs: /docs/1.16/ensorcellation/
+      source: https://github.com/KingLemming/1.16
+  - id: omgourd-1-16
+    logo: omgourd
+    title: Oh My Gourd
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd
+      # docs: /docs/1.15/oh-my-gourd/
+      source: https://github.com/KingLemming/1.16
+  - id: thermal-foundation-1-16
+    logo: new-thermal-foundation
+    title: Thermal Foundation
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/thermal-foundation
+      docs: /docs/1.16/thermal-series
+      source: https://github.com/KingLemming/1.16     
+  - id: thermal-cultivation-1-16
+    logo: new-thermal-cultivation
+    title: Thermal Cultivation
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation
+      docs: /docs/1.16/thermal-series
+      source: https://github.com/KingLemming/1.16     
+  - id: thermal-expansion-1-16
+    logo: new-thermal-expansion
+    title: Thermal Expansion
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/thermal-expansion
+      docs: /docs/1.16/thermal-series
+      source: https://github.com/KingLemming/1.16   
+  - id: thermal-innovation-1-16
+    logo: new-thermal-innovation
+    title: Thermal Innovation
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/thermal-innovation
+      docs: /docs/1.16/thermal-series
+      source: https://github.com/KingLemming/1.16
+  - id: thermal-locmotion-1-16
+    logo: new-thermal-locomotion
+    title: Thermal Locomotion
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion
+      docs: /docs/1.16/thermal-series
+      source: https://github.com/KingLemming/1.16      
+      
 "1.15":
   - id: cofh-core-1-15
     logo: cofh-core
