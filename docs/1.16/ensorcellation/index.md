@@ -8,7 +8,7 @@ I see you want to know more about the magic of Ensorcellation.
 
 **Note:** These values are based off of an unchanged config for Ensorcellation. Things such as "obtained" may not be correct if the config has been changed in the pack you are playing or if you have changed the configs yourself. Configs can be found in the save folder, serverconfig, ensorcellation. These can then be applied to new worlds by moving it to the defaultconfigs folder. 
 
-**Damage Enchants:** Damage enchants include, sharpness, ender disruption, bane of arthropods, smite, outlaw, vigilante, magic edge, instigation.
+**Damage Enchants:** Damage enchants include, sharpness, ender disruption, bane of arthropods, smite, outlaw, vigilante, magic edge, instigating.
 
 
 <div class="uk-overflow-container">
@@ -225,12 +225,28 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">Chestplates</td>
             </tr>
 			<tr>
+                <td markdown="span">Soulbound</td>
+                <td markdown="span">I</td>
+                <td markdown="span">The item will remain with the owner after an untimely demise</td>
+                <td markdown="span">Enchanting</td>
+                <td markdown="span">None</td>
+                <td markdown="span">Almost all enchantables</td>
+            </tr>
+			<tr>
                 <td markdown="span">Tilling</td>
                 <td markdown="span">I-IV</td>
                 <td markdown="span">Tills additional blocks in a radius</td>
                 <td markdown="span">[Treasure](https://minecraft.fandom.com/wiki/Enchanting_mechanics#Treasure)</td>
                 <td markdown="span">Furrowing</td>
                 <td markdown="span">Hoes</td>
+            </tr>
+			<tr>
+                <td markdown="span">Trueshot</td>
+                <td markdown="span">I-II</td>
+                <td markdown="span">Increases the accuracy and speed of arrows, and allows them to pierce</td>
+                <td markdown="span">Enchanting</td>
+                <td markdown="span">Volley</td>
+                <td markdown="span">Bows</td>
             </tr>
 			<tr>
                 <td markdown="span">Vigilante</td>
