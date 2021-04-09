@@ -15,8 +15,11 @@ Index
 <!-- Arrow symbol: → -->
 
 ### Minecraft 1.16
-* [Thermal Series](1.16/thermal-series/) - <span class="uk-text-small uk-text-success">Temporary website pages </span>
+* <a class="uk-text-danger">CoFH Core</a>
+* [Archer's Paradox](1.16/archers-paradox/) - <span class="uk-text-small uk-text-success">up tp date (1.2.0) </span>
 * [Ensorcellation](1.16/ensorcellation/) - <span class="uk-text-small uk-text-success">up to date (1.2.0) </span>
+* [Thermal Series](1.16/thermal-series/) - <span class="uk-text-small uk-text-success">Temporary website pages </span>
+
 
 ### Minecraft 1.15
 * [CoFH Core](1.15/cofh-core/) - <span class="uk-text-small uk-text-success">up to date (0.4.0b)</span>

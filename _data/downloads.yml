@@ -15,7 +15,7 @@
       Requires <a href="#cofh-core-1-16">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/archers-paradox
-      # docs: /docs/1.15/archers-paradox/
+      docs: /docs/1.16/archers-paradox/
       source: https://github.com/KingLemming/1.16
   - id: ensorcellation-1-16
     logo: ensorcellation

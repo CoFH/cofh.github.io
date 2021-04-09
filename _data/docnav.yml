@@ -17,7 +17,68 @@ thermal-series:
       - title: Thermalpedia
         icon: [2, 25]
         url: thermalpedia/
-        
+
+archers-paradox:
+  title: Archer's Paradox
+  url: 1.16/archers-paradox/
+  sections:
+  - groups:
+    - title: Arrows
+      items:
+      - title: Blaze Arrow
+        icon: [3, 25]
+        url: blaze-arrow/
+      - title: Challenge Arrow
+        icon: [4, 25]
+        url: challenge-arrow/
+      - title: Diamond Arrow
+        icon: [5, 25]
+        url: diamond-arrow/
+      - title: Displacement Arrow
+        icon: [6, 25]
+        url: displacement-arrow/
+      - title: Ender Arrow
+        icon: [7, 25]
+        url: ender-arrow/
+      - title: Explosive Arrow
+        icon: [8, 25]
+        url: explosive-arrow/
+      - title: Frost Arrow 
+        icon: [9, 25]
+        url: frost-arrow/
+      - title: Glowstone Arrow
+        icon: [10, 25]
+        url: glowstone-arrow/
+      - title: Lightning Arrow
+        icon: [11, 25]
+        url: lightning-arrow/
+      - title: Phantasmal Arrow
+        icon: [12, 25]
+        url: phantasmal-arrow/
+      - title: Prismarine Arrow
+        icon: [13, 25]
+        url: prismarine-arrow/
+      - title: Quartz Arrow
+        icon: [14, 25]
+        url: quartz-arrow/
+      - title: Redstone Arrow
+        icon: [15, 25]
+        url: redstone-arrow/
+      - title: Shulker Arrow
+        icon: [0, 26]
+        url: shulker-arrow/
+      - title: Slime Arrow
+        icon: [1, 26]
+        url: slime-arrow/
+      - title: Spore Arrow
+        icon: [2, 26]
+        url: spore-arrow/
+      - title: Training Arrow
+        icon: [3, 26]
+        url: training-arrow/
+      - title: Verdant Arrow
+        icon: [4, 26]
+        url: verdant-arrow/        
         
 cofh-core-1.15:
   title: CoFH Core (Minecraft 1.15)

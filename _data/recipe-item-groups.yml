@@ -1,3 +1,32 @@
+mcj-mushroom:
+  name: Mushroom
+  site: mc-wiki
+  url: Mushroom
+  prefix:
+    ingredient: 'any'
+  items:
+    - mcj-mushroom-brown
+    - mcj-mushroom-red
+mcj-flower:
+  name: Flower
+  site: mc-wiki
+  url: Flower
+  prefix:
+    ingredient: 'any'
+  items:
+    - mcj-flower-dandelion
+    - mcj-flower-poppy
+    - mcj-flower-blue-orchid
+    - mcj-flower-allium
+    - mcj-flower-azure-bluet
+    - mcj-flower-tulip-red
+    - mcj-flower-tulip-orange
+    - mcj-flower-tulip-white
+    - mcj-flower-tulip-pink
+    - mcj-flower-oxeye-daisy
+    - mcj-flower-cornflower
+    - mcj-flower-lily-of-the-valley
+    - mcj-flower-wither-rose
 mc-bed:
   name: Bed
   site: mc-wiki
