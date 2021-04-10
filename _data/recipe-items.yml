@@ -1,3 +1,338 @@
+mcj-arrow:
+  name: Arrow
+  sprite: [2, 149]
+  site: mc-wiki
+  url: Arrow
+mcj-blaze-powder:
+  name: Blaze Powder
+  sprite: [3, 146]
+  site: mc-wiki
+  url: Blaze_Powder
+mcj-bone-meal:
+  name: Bone Meal
+  sprite: [1, 145]
+  site: mc-wiki
+  url: Bone_Meal
+mcj-book:
+  name: Book
+  sprite: [0, 145]
+  site: mc-wiki
+  url: Book
+mcj-bottle-o-enchanting:
+  name: Bottle o' Enchanting
+  sprite: [1, 132]
+  site: mc-wiki
+  url: Bottle_o%27_Enchanting
+mcj-diamond:
+  name: Diamond
+  sprite: [12, 134]
+  site: mc-wiki
+  url: Diamond
+mcj-emerald:
+  name: Emerald
+  sprite: [2, 133]
+  site: mc-wiki
+  url: Emerald
+mcj-end-stone:
+  name: End Stone
+  sprite: [9, 132]
+  site: mc-wiki
+  url: End_Stone
+mcj-ender-pearl:
+  name: Ender Pearl
+  sprite: [2, 132]
+  site: mc-wiki
+  url: Ender_Pearl
+mcj-eye-of-ender:
+  name: Eye of Ender
+  sprite: [3, 132]
+  site: mc-wiki
+  url: Eye_of_Ender
+mcj-feather:
+  name: Feather
+  sprite: [15, 131]
+  site: mc-wiki
+  url: Feather
+mcj-flower-allium:
+  name: Allium
+  sprite: [11, 149]
+  site: mc-wiki
+  url: Flower
+mcj-flower-azure-bluet:
+  name: Azure Bluet
+  sprite: [1, 149]
+  site: mc-wiki
+  url: Flower
+mcj-flower-blue-orchid:
+  name: Blue Orchid
+  sprite: [9, 145]
+  site: mc-wiki
+  url: Flower
+mcj-flower-cornflower:
+  name: Cornflower
+  sprite: [10, 139]
+  site: mc-wiki
+  url: Flower
+mcj-flower-dandelion:
+  name: Dandelion
+  sprite: [1, 137]
+  site: mc-wiki
+  url: Flower
+mcj-flower-lilac:
+  name: Lilac
+  sprite: [2, 121]
+  site: mc-wiki
+  url: Flower
+mcj-flower-lily-of-the-valley:
+  name: Lily of the Valley
+  sprite: [1, 121]
+  site: mc-wiki
+  url: Flower
+mcj-flower-oxeye-daisy:
+  name: Oxeye Daisy
+  sprite: [8, 113]
+  site: mc-wiki
+  url: Flower
+mcj-flower-peony:
+  name: Peony
+  sprite: [4, 113]
+  site: mc-wiki
+  url: Flower
+mcj-flower-poppy:
+  name: Poppy
+  sprite: [10, 110]
+  site: mc-wiki
+  url: Flower
+mcj-flower-rose-bush:
+  name: Rose Bush
+  sprite: [13, 105]
+  site: mc-wiki
+  url: Flower
+mcj-flower-sunflower:
+  name: Sunflower
+  sprite: [9, 99]
+  site: mc-wiki
+  url: Flower
+mcj-flower-tulip-orange:
+  name: Orange Tulip
+  sprite: [10, 113]
+  site: mc-wiki
+  url: Flower
+mcj-flower-tulip-pink:
+  name: Pink Tulip
+  sprite: [5, 112]
+  site: mc-wiki
+  url: Flower
+mcj-flower-tulip-red:
+  name: Red Tulip
+  sprite: [6, 106]
+  site: mc-wiki
+  url: Flower
+mcj-flower-tulip-white:
+  name: White Tulip
+  sprite: [3, 96]
+  site: mc-wiki
+  url: Flower
+mcj-flower-wither-rose:
+  name: Wither Rose
+  sprite: [1, 96]
+  site: mc-wiki
+  url: Flower
+mcj-ghast-tear:
+  name: Ghast Tear
+  sprite: [14, 130]
+  site: mc-wiki
+  url: Ghast_Tear
+mcj-glowstone:
+  name: Glowstone
+  sprite: [6, 130]
+  site: mc-wiki
+  url: Glowstone
+mcj-grass-block:
+  name: Grass Block
+  sprite: [0, 129]
+  site: mc-wiki
+  url: Grass_Block
+mcj-gunpowder:
+  name: Gunpowder
+  sprite: [4, 127]
+  site: mc-wiki
+  url: Gunpowder
+mcj-lapis-lazuli:
+  name: Lapis Lazuli
+  sprite: [8, 123]
+  site: mc-wiki
+  url: Lapis_Lazuli
+mcj-mushroom-brown:
+  name: Brown Mushroom
+  sprite: [11, 143]
+  site: mc-wiki
+  url: Mushroom
+mcj-mushroom-red:
+  name: Red Mushroom
+  sprite: [5, 107]
+  site: mc-wiki
+  url: Mushroom
+mcj-mycelium:
+  name: Mycelium
+  sprite: [3, 117]
+  site: mc-wiki
+  url: Mycelium
+mcj-nether-star:
+  name: Nether star
+  sprite: [7, 116]
+  site: mc-wiki
+  url: Nether_Star
+mcj-packed-ice:
+  name: Packed Ice
+  sprite: [7, 113]
+  site: mc-wiki
+  url: Packed_Ice
+mcj-popped-chorus-fruit:
+  name: Popped Chorus Fruit
+  sprite: [11, 110]
+  site: mc-wiki
+  url: Popped_Chorus_Fruit
+mcj-prismarine-crystals:
+  name: Prismarine Crystals
+  sprite: [1, 110]
+  site: mc-wiki
+  url: Prismarine_Crystals
+mcj-nether-quartz:
+  name: Nether Quartz
+  sprite: [7, 108]
+  site: mc-wiki
+  url: Nether_Quartz
+mcj-rabbit-hide:
+  name: Rabbit Hide
+  sprite: [15, 107]
+  site: mc-wiki
+  url: Rabbit_Hide
+mcj-redstone:
+  name: Redstone
+  sprite: [4, 106]
+  site: mc-wiki
+  url: Redstone
+mcj-slimeball:
+  name: Slimeball
+  sprite: [7, 104]
+  site: mc-wiki
+  url: Slimeball
+mcj-stick:
+  name: Stick
+  sprite: [13, 101]
+  site: mc-wiki
+  url: Stick
+mcj-tnt:
+  name: TNT
+  sprite: [4, 99]
+  site: mc-wiki
+  url: TNT
+ap-1-16-blaze-arrow:
+  name: Blaze Arrow
+  sprite: [11, 93]
+  site: ap-1-16-docs
+  url: blaze-arrow/
+ap-1-16-challenge-arrow:
+  name: Challenge Arrow
+  sprite: [12, 93]
+  site: ap-1-16-docs
+  url: challenge-arrow/
+ap-1-16-diamond-arrow:
+  name: Diamond Arrow
+  sprite: [13, 93]
+  site: ap-1-16-docs
+  url: diamond-arrow/
+ap-1-16-displacement-arrow:
+  name: Displacement Arrow
+  sprite: [14, 93]
+  site: ap-1-16-docs
+  url: displacement-arrow/
+ap-1-16-ender-arrow:
+  name: Ender Arrow
+  sprite: [15, 93]
+  site: ap-1-16-docs
+  url: ender-arrow/
+ap-1-16-explosive-arrow:
+  name: Explosive Arrow
+  sprite: [0, 94]
+  site: ap-1-16-docs
+  url: explosive-arrow/
+ap-1-16-frost-arrow:
+  name: Frost Arrow
+  sprite: [1, 94]
+  site: ap-1-16-docs
+  url: frost-arrow/
+ap-1-16-glowstone-arrow:
+  name: Glowstone Arrow
+  sprite: [2, 94]
+  site: ap-1-16-docs
+  url: glowstone-arrow/
+ap-1-16-lightning-arrow:
+  name: Lightning Arrow
+  sprite: [3, 94]
+  site: ap-1-16-docs
+  url: lightning-arrow/
+ap-1-16-phantasmal-arrow:
+  name: Phantasmal Arrow
+  sprite: [4, 94]
+  site: ap-1-16-docs
+  url: phantasmal-arrow/
+ap-1-16-prismarine-arrow:
+  name: Prismarine Arrow
+  sprite: [5, 94]
+  site: ap-1-16-docs
+  url: prismarine-arrow/
+ap-1-16-quartz-arrow:
+  name: Quartz Arrow
+  sprite: [6, 94]
+  site: ap-1-16-docs
+  url: quartz-arrow/
+ap-1-16-redstone-arrow:
+  name: Redstone Arrow
+  sprite: [7, 94]
+  site: ap-1-16-docs
+  url: redstone-arrow/
+ap-1-16-shulker-arrow:
+  name: Shulker Arrow
+  sprite: [8, 94]
+  site: ap-1-16-docs
+  url: shulker-arrow/
+ap-1-16-slime-arrow:
+  name: Slime Arrow
+  sprite: [9, 94]
+  site: ap-1-16-docs
+  url: slime-arrow/
+ap-1-16-spore-arrow:
+  name: Spore Arrow
+  sprite: [10, 94]
+  site: ap-1-16-docs
+  url: spore-arrow/
+ap-1-16-training-arrow:
+  name: Training Arrow
+  sprite: [11, 94]
+  site: ap-1-16-docs
+  url: training-arrow/
+ap-1-16-verdant-arrow:
+  name: Verdant Arrow
+  sprite: [12, 94]
+  site: ap-1-16-docs
+  url: verdant-arrow/
+core-1-16-ectoplasm:
+  name: Ectoplasm
+  sprite: [7, 70]
+  site: core-1-15-docs
+  url: ectoplasm/
+ts-1-16-thermalpedia:
+  name: Thermalpedia
+  sprite: [6, 70]
+  site: ts-1-16-docs
+  url: thermalpedia/
+ts-1-16-crescent-hammer:
+  name: Crescent Hammer
+  sprite: [9, 70]
+  site: ts-1-16-docs
+  url: crescent-hammer/
 mc-andesite:
   name: Andesite
   sprite: [0, 42]
@@ -2083,16 +2418,6 @@ mc-wool-yellow:
   sprite: [11, 4]
   site: mc-wiki
   url: Wool
-core-1-15-ectoplasm:
-  name: Ectoplasm
-  sprite: [6, 70]
-  site: core-1-15-docs
-  url: ectoplasm/
-ap-1-15-phantasmal-arrow:
-  name: Phantasmal Arrow
-  sprite: [7, 70]
-  site: ap-1-15-docs
-  url: phantasmal-arrow/
 tf-1-12-aqua-chow:
   name: Aqua-Chow
   sprite: [0, 60]
@@ -2655,7 +2980,7 @@ tf-1-12-conversion-kit-resonant:
   url: conversion-kits/
 tf-1-12-crescent-hammer:
   name: Crescent Hammer
-  sprite: [12, 70]
+  sprite: [5, 11]
   site: tf-1-12-docs
   url: crescent-hammer/
 tf-1-12-drill-head:
@@ -6038,8 +6363,3 @@ vps-1-12-satchel-void:
   animated: true
   site: vps-1-12-docs
   url: satchel/
-thermal-1-16-thermalpedia:
-  name: Thermalpedia
-  sprite: [9, 70]
-  site: ts-1-16-docs
-  url: thermalpedia/

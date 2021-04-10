@@ -2,44 +2,307 @@ name: Crafting
 site: mc-wiki
 url: Crafting
 recipes:
-  thermal-1-16-thermalpedia:
+  ts-1-16-thermalpedia:
     results:
-      - item: thermal-1-16-thermalpedia
+      - item: ts-1-16-thermalpedia
     ingredients:
-      - item: tf-1-12-crescent-hammer 
-      - item: mc-book
+      - item: ts-1-16-crescent-hammer 
+      - item: mcj-book
     data:
       shapeless: true
       rows:
-        - [item: [tf-1-12-crescent-hammer], item: [mc-book]]
+        - [item: [ts-1-16-crescent-hammer], item: [mcj-book]]
       result:
-       item: [thermal-1-16-thermalpedia]
-  core-1-15-ectoplasm:
+       item: [ts-1-16-thermalpedia]
+  core-1-16-ectoplasm:
     results:
-      - item: core-1-15-ectoplasm
+      - item: core-1-16-ectoplasm
     ingredients:
-      - item: mc-ghast-tear
-      - item: mc-slimeball
+      - item: mcj-ghast-tear
+      - item: mcj-slimeball
     data:
       shapeless: true
       rows:
-        - [item: [mc-ghast-tear], item: [mc-slimeball]]
+        - [item: [mcj-ghast-tear], item: [mcj-slimeball]]
       result:
-        item: [core-1-15-ectoplasm]
-  ap-1-15-phantasmal-arrow:
+        item: [core-1-16-ectoplasm]
+  ap-1-16-blaze-arrow:
+    results: 
+      - item: ap-1-16-blaze-arrow
+    ingredients:
+      - item: mcj-blaze-powder
+      - item: mcj-arrow
+    data:
+      rows:
+        - [null, item: [mcj-arrow]]
+        - [item: [mcj-arrow], item: [mcj-blaze-powder], item: [mcj-arrow]]
+        - [null, item: [mcj-arrow]]
+      result:
+        item: [ap-1-16-blaze-arrow]
+        amount: 4
+  ap-1-16-challenge-arrow:
     results:
-      - item: ap-1-15-phantasmal-arrow
+      - item: ap-1-16-challenge-arrow
+    ingredients:
+      - item: mcj-emerald
+      - item: ap-1-16-training-arrow
+      - item: mcj-lapis-lazuli
+      - item: mcj-bottle-o-enchanting
+    data:
+      rows:
+        - [item: [mcj-emerald], item: [ap-1-16-training-arrow], item: [mcj-lapis-lazuli]]
+        - [item: [ap-1-16-training-arrow], item: [mcj-bottle-o-enchanting], item: [ap-1-16-training-arrow]]
+        - [item: [mcj-lapis-lazuli], item: [ap-1-16-training-arrow], item: [mcj-emerald]]
+      result:
+        item: [ap-1-16-challenge-arrow]
+        amount: 4
+  ap-1-16-diamond-arrow:
+    results: 
+      - item: ap-1-16-diamond-arrow
+    ingredients:
+      - item: mcj-diamond
+      - item: mcj-stick
+      - item: mcj-feather
+    data:
+      rows:
+        - [null, item: [mcj-diamond]]
+        - [null, item: [mcj-stick]]
+        - [null, item: [mcj-feather]]
+      result:
+        item: [ap-1-16-diamond-arrow]
+        amount: 4
+  ap-1-16-displacement-arrow:
+    results: 
+      - item: ap-1-16-displacement-arrow
+    ingredients:
+      - item: ap-1-16-ender-arrow
+      - item: mcj-gunpowder
+    data:
+      rows:
+        - [null, item: [ap-1-16-ender-arrow]]
+        - [item: [ap-1-16-ender-arrow], item: [mcj-gunpowder], item: [ap-1-16-ender-arrow]]
+        - [null, item: [ap-1-16-ender-arrow]]
+      result:
+        item: [ap-1-16-displacement-arrow]
+        amount: 4
+  ap-1-16-ender-arrow:
+    results: 
+      - item: ap-1-16-ender-arrow
+    ingredients:
+      - item: mcj-arrow
+      - item: mcj-ender-pearl
+    data:
+      rows:
+        - [null, item: [mcj-arrow]]
+        - [item: [mcj-arrow], item: [mcj-ender-pearl], item: [mcj-arrow]]
+        - [null, item: [mcj-arrow]]
+      result:
+        item: [ap-1-16-ender-arrow]
+        amount: 4
+  ap-1-16-explosive-arrow:
+    results: 
+      - item: ap-1-16-explosive-arrow
+    ingredients:
+      - item: mcj-arrow
+      - item: mcj-tnt
+    data:
+      rows:
+        - [null, item: [mcj-arrow]]
+        - [item: [mcj-arrow], item: [mcj-tnt], item: [mcj-arrow]]
+        - [null, item: [mcj-arrow]]
+      result:
+        item: [ap-1-16-explosive-arrow]
+        amount: 4
+  ap-1-16-frost-arrow:
+    results: 
+      - item: ap-1-16-frost-arrow
+    ingredients:
+      - item: mcj-arrow
+      - item: mcj-packed-ice
+    data:
+      rows:
+        - [null, item: [mcj-arrow]]
+        - [item: [mcj-arrow], item: [mcj-packed-ice], item: [mcj-arrow]]
+        - [null, item: [mcj-arrow]]
+      result:
+        item: [ap-1-16-frost-arrow]
+        amount: 4
+  ap-1-16-glowstone-arrow:
+    results: 
+      - item: ap-1-16-glowstone-arrow
+    ingredients:
+      - item: mcj-arrow
+      - item: mcj-glowstone
+    data:
+      rows:
+        - [null, item: [mcj-arrow]]
+        - [item: [mcj-arrow], item: [mcj-glowstone], item: [mcj-arrow]]
+        - [null, item: [mcj-arrow]]
+      result:
+        item: [ap-1-16-glowstone-arrow]
+        amount: 4
+  ap-1-16-lightning-arrow:
+    results: 
+      - item: ap-1-16-lightning-arrow
+    ingredients:
+      - item: mcj-arrow
+      - item: mcj-nether-star
+    data:
+      rows:
+        - [null, item: [mcj-arrow]]
+        - [item: [mcj-arrow], item: [mcj-nether-star], item: [mcj-arrow]]
+        - [null, item: [mcj-arrow]]
+      result:
+        item: [ap-1-16-lightning-arrow]
+        amount: 4
+  ap-1-16-phantasmal-arrow:
+    results:
+      - item: ap-1-16-phantasmal-arrow
     ingredients:
       - item: mc-arrow
-      - item: core-1-15-ectoplasm
+      - item: core-1-16-ectoplasm
     data:
       rows:
-        - [null, item: [core-1-15-ectoplasm]]
-        - [item: [core-1-15-ectoplasm], item: [mc-arrow], item: [core-1-15-ectoplasm]]
-        - [null, item: [core-1-15-ectoplasm]]
+        - [null, item: [core-1-16-ectoplasm]]
+        - [item: [core-1-16-ectoplasm], item: [mc-arrow], item: [core-1-16-ectoplasm]]
+        - [null, item: [core-1-16-ectoplasm]]
       result:
-        item: [ap-1-15-phantasmal-arrow]
+        item: [ap-1-16-phantasmal-arrow]
         amount: 2
+  ap-1-16-prismarine-arrow:
+    results: 
+      - item: ap-1-16-prismarine-arrow
+    ingredients:
+      - item: mcj-prismarine-crystals
+      - item: mcj-stick
+      - item: mcj-feather
+    data:
+      rows:
+        - [null, item: [mcj-prismarine-crystals]]
+        - [null, item: [mcj-stick]]
+        - [null, item: [mcj-feather]]
+      result:
+        item: [ap-1-16-prismarine-arrow]
+        amount: 4
+  ap-1-16-quartz-arrow:
+    results: 
+      - item: ap-1-16-quartz-arrow
+    ingredients:
+      - item: mcj-nether-quartz
+      - item: mcj-stick
+      - item: mcj-feather
+    data:
+      rows:
+        - [null, item: [mcj-nether-quartz]]
+        - [null, item: [mcj-stick]]
+        - [null, item: [mcj-feather]]
+      result:
+        item: [ap-1-16-quartz-arrow]
+        amount: 4
+  ap-1-16-redstone-arrow:
+    results: 
+      - item: ap-1-16-redstone-arrow
+    ingredients:
+      - item: mcj-arrow
+      - item: mcj-redstone
+    data:
+      rows:
+        - [null, item: [mcj-arrow]]
+        - [item: [mcj-arrow], item: [mcj-redstone], item: [mcj-arrow]]
+        - [null, item: [mcj-arrow]]
+      result:
+        item: [ap-1-16-redstone-arrow]
+        amount: 4
+  ap-1-16-shulker-arrow:
+    results: 
+      - item: ap-1-16-shulker-arrow
+    ingredients:
+      - item: mcj-end-stone
+      - item: mcj-arrow
+      - item: mcj-popped-chorus-fruit
+      - item: mcj-eye-of-ender
+    data:
+      rows:
+        - [item: [mcj-end-stone], item: [mcj-arrow], item: [mcj-popped-chorus-fruit]]
+        - [item: [mcj-arrow], item: [mcj-eye-of-ender], item: [mcj-arrow]]
+        - [item: [mcj-popped-chorus-fruit], item: [mcj-arrow], item: [mcj-end-stone]]
+      result:
+        item: [ap-1-16-shulker-arrow]
+        amount: 4
+  ap-1-16-slime-arrow:
+    results: 
+      - item: ap-1-16-slime-arrow
+    ingredients:
+      - item: mcj-slimeball
+      - item: mcj-stick
+      - item: mcj-feather
+    data:
+      rows:
+        - [null, item: [mcj-slimeball]]
+        - [null, item: [mcj-stick]]
+        - [null, item: [mcj-feather]]
+      result:
+        item: [ap-1-16-slime-arrow]
+        amount: 4
+  ap-1-16-spore-arrow:
+    results: 
+      - item: ap-1-16-spore-arrow
+    ingredients:
+      - item: mcj-bone-meal
+      - item: mcj-arrow
+      - item-group: mcj-mushroom
+      - item: mcj-mycelium
+    data:
+      rows:
+        - - item: [mcj-bone-meal]
+          - item: [mcj-arrow]
+          - random: true
+            item-group: mcj-mushroom
+        - [item: [mcj-arrow], item: [mcj-mycelium], item: [mcj-arrow]]
+        - - random: true
+            item-group: mcj-mushroom
+          - item: [mcj-arrow]
+          - item: [mcj-bone-meal]
+      result:
+        item: [ap-1-16-spore-arrow]
+        amount: 4
+  ap-1-16-training-arrow:
+    results: 
+      - item: ap-1-16-training-arrow
+    ingredients:
+      - item: mcj-rabbit-hide
+      - item: mcj-stick
+      - item: mcj-feather
+    data:
+      rows:
+        - [null, item: [mcj-rabbit-hide]]
+        - [null, item: [mcj-stick]]
+        - [null, item: [mcj-feather]]
+      result:
+        item: [ap-1-16-training-arrow]
+        amount: 4
+  ap-1-16-verdant-arrow:
+    results: 
+      - item: ap-1-16-verdant-arrow
+    ingredients:
+      - item: mcj-bone-meal
+      - item: mcj-arrow
+      - item-group: mcj-flower
+      - item: mcj-grass-block
+    data:
+      rows:
+        - - item: [mcj-bone-meal]
+          - item: [mcj-arrow]
+          - random: true
+            item-group: mcj-flower
+        - [item: [mcj-arrow], item: [mcj-grass-block], item: [mcj-arrow]]
+        - - random: true
+            item-group: mcj-flower
+          - item: [mcj-arrow]
+          - item: [mcj-bone-meal]
+      result:
+        item: [ap-1-16-verdant-arrow]
+        amount: 4
   tf-1-12-aqua-chow-using-slime:
     results:
       - item: tf-1-12-aqua-chow

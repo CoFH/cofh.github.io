@@ -5,14 +5,14 @@ image:
   file: cofh-core-1-15/ectoplasm.png
 recipes:
   crafting:
-  - core-1-15-ectoplasm
+  - core-1-16-ectoplasm
 usage-recipes:
   crafting:
-  - ap-1-15-phantasmal-arrow
+  - ap-1-16-phantasmal-arrow
 ---
 
 **Ectoplasm** is a crafting material. It is currently only used to craft
-[phantasmal arrows](../../archers-paradox/phantasmal-arrow/).
+[phantasmal arrows](../../../1.16/archers-paradox/phantasmal-arrow/).
 
 
 Obtaining

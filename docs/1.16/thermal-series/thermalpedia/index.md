@@ -5,10 +5,10 @@ image:
   file: thermal-1-16/thermalpedia.png
 recipes:
   crafting:
-  - thermal-1-16-thermalpedia
+  - ts-1-16-thermalpedia
 ---
 
-**Thermalpedia**  The Thermalpedia is an item that can be obtained in game provided you have [patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli) installed. This guidebook tells you about all the new features of 1.16!
+The **Thermalpedia** is an item that can be obtained in game provided you have [patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli) installed. This guidebook tells you about all the new features of 1.16!
 **:•)**
 
 Obtaining
