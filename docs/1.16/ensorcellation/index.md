@@ -61,7 +61,7 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">I-III</td>
                 <td markdown="span">Slows and weakens attackers while knocking them away</td>
                 <td markdown="span">Enchanting</td>
-                <td markdown="span">Flaming Rebuke, Displacement</td>
+                <td markdown="span">Flaming Rebuke, Displacement, Thorns</td>
                 <td markdown="span">Chestplates</td>
             </tr>
 			<tr>
@@ -85,7 +85,7 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">I-III</td>
                 <td markdown="span">Randomly teleports attackers away</td>
                 <td markdown="span">Enchanting</td>
-                <td markdown="span">Chilling Rebuke, Flaming Rebuke</td>
+                <td markdown="span">Chilling Rebuke, Flaming Rebuke, Thorns</td>
                 <td markdown="span">Chestplates</td>
             </tr>
 			<tr>
@@ -109,7 +109,7 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">I-III</td>
                 <td markdown="span">Sets attackers on fire while knocking them away</td>
                 <td markdown="span">Enchanting</td>
-                <td markdown="span">Chilling Rebuke, Displacement</td>
+                <td markdown="span">Chilling Rebuke, Displacement, Thorns</td>
                 <td markdown="span">Chestplates</td>
             </tr>
 			<tr>
