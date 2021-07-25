@@ -173,7 +173,7 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">I-III</td>
                 <td markdown="span">Slightly increases damage dealt and converts it to magic damage</td>
                 <td markdown="span">[Treasure](https://minecraft.fandom.com/wiki/Enchanting_mechanics#Treasure)</td>
-                <td markdown="span">Sweeping Edge</td>
+                <td markdown="span">Damage Enchants</td>
                 <td markdown="span">Weapons</td>
             </tr>
 			<tr>
