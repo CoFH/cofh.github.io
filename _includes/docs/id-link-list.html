@@ -1,0 +1,22 @@
+{%- if include.ids -%}
+  {%- unless ver -%}
+    {%- assign ver = page.version | replace: ".", "" -%}
+  {%- endunless -%}
+  
+  {%- if include.ids.first -%}
+    {%- assign ids = include.ids -%}
+  {%- else -%}
+    {%- assign ids = include.ids | split: ' ' -%}
+  {%- endif -%}
+  
+  <ul>
+    {%- for id in ids -%}
+      {%- capture id-link -%}{% include docs/get-link.html id=id %}{%- endcapture -%}
+      <li>
+        {%- if id-link.size > 0 -%}<a href="{{id-link}}"{% else %}<div{% endif %} class="docs-navbox-link">
+          {% include docs/icon.html ids=id %} {{site.data.docs[ver].items-fluids[id].name}}
+        {%- if id-link.size > 0 -%}</a>{% else %}</div>{% endif %}
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

@@ -1,14 +1,9 @@
 ---
+show-image: false
 title: Thermal Expansion (Minecraft 1.12)
-redirect_from:
-- /thermal-expansion/
-- /mods/thermal-expansion/
-- /docs/thermal-expansion/
-- /docs/thermal-expansion-5/
-- /docs/1.12/thermal-expansion-5/
 ---
 
-![Thermal Expansion logo](/assets/images/modlogos/thermal-expansion.png){:.cofh-mod-page-logo}
+![Thermal Expansion logo](/assets/images/logos/1.12/thermal-expansion.png){:.cofh-mod-page-logo}
 
 
 **Thermal Expansion** is a mod for Minecraft 1.12. It adds blocks for automating

@@ -1,0 +1,76 @@
+grassoline:
+  energy: 5000
+  inputs:
+    fluid:
+    - amount: 200
+      id:
+      - tf-1-12-biocrude
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-grassoline
+naphtha-from-coal:
+  energy: 5000
+  inputs:
+    fluid:
+    - amount: 200
+      id:
+      - tf-1-12-coal
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-naphtha
+    item:
+    - chance: 0.75
+      id:
+      - tf-1-12-tar
+naphtha-from-crude-oil:
+  energy: 5000
+  inputs:
+    fluid:
+    - amount: 200
+      id:
+      - tf-1-12-crude-oil
+  outputs:
+    fluid:
+    - amount: 150
+      id:
+      - tf-1-12-naphtha
+    item:
+    - chance: 0.5
+      id:
+      - tf-1-12-tar
+refined-fuel:
+  energy: 5000
+  inputs:
+    fluid:
+    - amount: 150
+      id:
+      - tf-1-12-naphtha
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-refined-fuel
+    item:
+    - chance: 0.5
+      id:
+      - tf-1-12-sulfur
+tree-oil:
+  energy: 5000
+  inputs:
+    fluid:
+    - amount: 200
+      id:
+      - tf-1-12-resin
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-tree-oil
+    item:
+    - chance: 0.5
+      id:
+      - tf-1-12-rosin

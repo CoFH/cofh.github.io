@@ -1,0 +1,22 @@
+{%- if include.urls -%}
+  {%- unless ver -%}
+    {%- assign ver = page.version | replace: ".", "" -%}
+  {%- endunless -%}
+  
+  {%- unless find-docs -%}
+    {%- assign find-docs = site.pages | where: "layout", "docs" | where: "version", page.version -%}
+  {%- endunless -%}
+  
+  <ul>
+    {%- for url in include.urls -%}
+      {%- assign find-doc = find-docs | find: "url", url -%}
+      {%- if find-doc -%}
+        <li>
+          <a href="{{url}}" class="docs-navbox-link">
+            {% include docs/icon.html ids=find-doc.subjects %} {{find-doc.title}}
+          </a>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

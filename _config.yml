@@ -1,77 +1,4 @@
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-  - scope:
-      path: ""
-      type: posts
-    values:
-      is_post: true
-      layout: post
-      author: Team CoFH
-      author_url: http://www.twitter.com/TeamCoFH
-  - scope:
-      path: "docs"
-      type: pages
-    values:
-      layout: docs
-  - scope:
-      path: "docs/redstone-flux"
-    values:
-      nav: redstone-flux
-  - scope:
-      path: "docs/1.16/thermal-series"
-    values:
-      nav: thermal-series    
-  - scope:
-      path: "docs/1.16/archers-paradox"
-    values:
-      nav: archers-paradox    
-  - scope:
-      path: "docs/1.15/cofh-core"
-    values:
-      nav: cofh-core-1.15
-  - scope:
-      path: "docs/1.12/cofh-core"
-    values:
-      nav: cofh-core-1.12
-  - scope:
-      path: "docs/1.12/cofh-world"
-    values:
-      nav: cofh-world-1.12
-  - scope:
-      path: "docs/1.12/thermal-foundation"
-    values:
-      nav: thermal-foundation-1.12
-  - scope:
-      path: "docs/1.12/thermal-expansion"
-    values:
-      nav: thermal-expansion-1.12
-  - scope:
-      path: "docs/1.12/thermal-dynamics"
-    values:
-      nav: thermal-dynamics-1.12
-  - scope:
-      path: "docs/1.12/thermal-cultivation"
-    values:
-      nav: thermal-cultivation-1.12
-  - scope:
-      path: "docs/1.12/thermal-innovation"
-    values:
-      nav: thermal-innovation-1.12
-  - scope:
-      path: "docs/1.12/redstone-arsenal"
-    values:
-      nav: redstone-arsenal-1.12
-  - scope:
-      path: "docs/1.12/vanillaplus-tools"
-    values:
-      nav: vanillaplus-tools-1.12
-  - scope:
-      path: "docs/1.12/vanillaplus-satchels"
-    values:
-      nav: vanillaplus-satchels-1.12
+title: Team CoFH
 
 exclude:
   - README.md
@@ -91,7 +18,118 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-permalink: '/posts/:year/:month/:day/:title/'
+permalink: '/blog/:year/:month/:day/:title/'
 paginate: 5
-paginate_path: "/posts/page-:num/"
+paginate_path: "/blog/page-:num/"
 url: 'https://teamcofh.com'
+
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: default
+- scope:
+    path: ""
+    type: posts
+  values:
+    is_post: true
+    layout: post
+    author: Team CoFH
+    author_url: http://www.twitter.com/TeamCoFH
+- scope:
+    path: "docs"
+    type: pages
+  values:
+    layout: docs
+    cycle-image: true
+    show-image: true
+- scope:
+    path: "docs/1.7"
+    type: pages
+  values:
+    version: 1.7
+- scope:
+    path: "docs/1.12"
+    type: pages
+  values:
+    version: 1.12
+- scope:
+    path: "docs/1.15"
+    type: pages
+  values:
+    version: 1.15
+- scope:
+    path: "docs/1.16"
+    type: pages
+  values:
+    version: 1.16
+- scope:
+    path: "docs/*/cofh-core"
+    type: pages
+  values:
+    mod: CoFH Core
+- scope:
+    path: "docs/*/cofh-world"
+    type: pages
+  values:
+    mod: CoFH World
+- scope:
+    path: "docs/*/redstone-arsenal"
+    type: pages
+  values:
+    mod: Redstone Arsenal
+- scope:
+    path: "docs/*/vanilla-satchels"
+    type: pages
+  values:
+    mod: Vanilla+ Satchels
+- scope:
+    path: "docs/*/vanilla-tools"
+    type: pages
+  values:
+    mod: Vanilla+ Tools
+- scope:
+    path: "docs/*/ensorcellation"
+    type: pages
+  values:
+    mod: Ensorcellation
+- scope:
+    path: "docs/*/archer-s-paradox"
+    type: pages
+  values:
+    mod: Archer's Paradox
+- scope:
+    path: "docs/*/dyenamics"
+    type: pages
+  values:
+    mod: Dyenamics
+- scope:
+    path: "docs/*/thermal-foundation"
+    type: pages
+  values:
+    mod: Thermal Foundation
+- scope:
+    path: "docs/*/thermal-expansion"
+    type: pages
+  values:
+    mod: Thermal Expansion
+- scope:
+    path: "docs/*/thermal-dynamics"
+    type: pages
+  values:
+    mod: Thermal Dynamics
+- scope:
+    path: "docs/*/thermal-innovation"
+    type: pages
+  values:
+    mod: Thermal Innovation
+- scope:
+    path: "docs/*/thermal-cultivation"
+    type: pages
+  values:
+    mod: Thermal Cultivation
+- scope:
+    path: "docs/*/thermal-locomotion"
+    type: pages
+  values:
+    mod: Thermal Locomotion

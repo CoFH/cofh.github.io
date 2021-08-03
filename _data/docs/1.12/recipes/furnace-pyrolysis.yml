@@ -1,0 +1,105 @@
+charcoal-from-cactus:
+  energy: 2000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-cactus
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - tf-1-12-creosote-oil
+    item:
+    - id:
+      - mc-charcoal
+charcoal-from-hay-bale:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-hay-bale
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-creosote-oil
+    item:
+    - id:
+      - mc-charcoal
+charcoal-from-sawdust:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust-compressed
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - tf-1-12-creosote-oil
+    item:
+    - id:
+      - mc-charcoal
+charcoal-from-sugar-canes:
+  energy: 1000
+  inputs:
+    item:
+    - count: 8
+      id:
+      - mc-sugar-canes
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - tf-1-12-creosote-oil
+    item:
+    - id:
+      - mc-charcoal
+charcoal-from-wood-log:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - mc-wood-log-oak
+      - mc-wood-log-spruce
+      - mc-wood-log-birch
+      - mc-wood-log-jungle
+      - mc-wood-log-acacia
+      - mc-wood-log-dark-oak
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-creosote-oil
+    item:
+    - id:
+      - mc-charcoal
+coal-coke:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-coal
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-creosote-oil
+    item:
+    - id:
+      - tf-1-12-coal-coke
+storage-block-coal-coke:
+  energy: 16000
+  inputs:
+    item:
+    - id:
+      - mc-storage-block-coal
+  outputs:
+    fluid:
+    - amount: 2500
+      id:
+      - tf-1-12-creosote-oil
+    item:
+    - id:
+      - tf-1-12-storage-block-coal-coke

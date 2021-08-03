@@ -1,0 +1,31 @@
+pulverizer_diamond_armor:
+  experience: 1.5
+  inputs:
+    item:
+    - id:
+      - diamond_boots
+      - diamond_helmet
+      - diamond_leggings
+      - diamond_chestplate
+  outputs:
+    item:
+    - count: 3
+      id:
+      - diamond
+pulverizer_diamond_tools:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - diamond_axe
+      - diamond_sword
+      - diamond_shovel
+      - diamond_pickaxe
+  outputs:
+    item:
+    - count: 1
+      id:
+      - diamond
+    - count: 1
+      id:
+      - sawdust

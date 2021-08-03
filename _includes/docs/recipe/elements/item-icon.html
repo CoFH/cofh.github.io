@@ -1,0 +1,29 @@
+{%- if include.id -%}	
+  {%- unless ver -%}
+    {%- assign ver = page.version | replace: ".", "" -%}
+  {%- endunless -%}
+  
+  {%- assign tooltip = site.data.docs[ver].items-fluids[include.id].name -%}
+	{%- if include.count -%}
+    {%- assign tooltip = tooltip | append: "<br>Count: " | append: include.count -%}
+  {%- elsif include.chance -%}
+    {%- assign chance = include.chance | times: 100 | round | append: "%" -%}
+    {%- assign tooltip = tooltip | append: "<br>Chance: " | append: chance -%}
+  {%- endif -%}
+  
+	{%- if include.link == nil or include.link == "" -%}
+		<div class="docs-item-icon docs-cycleable{% if include.hidden %} hidden{% endif %}">
+			{% include docs/icon.html ids=include.id %}
+      <div class="docs-tooltip">{{tooltip}}</div>
+		</div>
+	{%- else -%}
+		<a href="{{include.link}}" class="docs-item-icon docs-cycleable{% if include.hidden %} hidden{% endif %}">
+			{% include docs/icon.html ids=include.id %}
+      <div class="docs-tooltip">{{tooltip}}</div>
+		</a>
+	{%- endif -%}
+{%- else -%}
+  <div class="docs-item-icon">
+    {% include docs/icon.html %}
+  </div>
+{%- endif -%}

@@ -1,0 +1,209 @@
+coin-aluminum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-aluminum
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-aluminum
+coin-bronze:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-bronze
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-bronze
+coin-constantan:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-constantan
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-constantan
+coin-copper:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-copper
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-copper
+coin-electrum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-electrum
+coin-enderium:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-enderium
+coin-gold:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ingot-gold
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-gold
+coin-invar:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-invar
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-invar
+coin-iridium:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-iridium
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-iridium
+coin-iron:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ingot-iron
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-iron
+coin-lead:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-lead
+coin-lumium:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lumium
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-lumium
+coin-mithril:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-mithril
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-mithril
+coin-nickel:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-nickel
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-nickel
+coin-platinum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-platinum
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-platinum
+coin-signalum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-signalum
+coin-silver:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-silver
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-silver
+coin-steel:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-steel
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-steel
+coin-tin:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-tin
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-coin-tin

@@ -1,0 +1,56 @@
+pyrolyzer_bitumen:
+  energy: 4000
+  experience: 0.15
+  inputs:
+    item:
+    - id:
+      - bitumen
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - fluid_heavy_oil
+    item:
+    - id:
+      - coal_coke
+    - chance: 0.5
+      id:
+      - tar
+pyrolyzer_coal:
+  experience: 0.15
+  inputs:
+    item:
+    - id:
+      - coal
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - fluid_creosote
+    item:
+    - id:
+      - coal_coke
+    - chance: 0.25
+      id:
+      - tar
+pyrolyzer_logs:
+  experience: 0.15
+  inputs:
+    item:
+    - id:
+      - warped_stem
+      - crimson_stem
+      - warped_hyphae
+      - crimson_hyphae
+      - stripped_warped_stem
+      - stripped_crimson_stem
+      - stripped_warped_hyphae
+      - stripped_crimson_hyphae
+  outputs:
+    fluid:
+    - amount: 125
+      id:
+      - fluid_creosote
+    item:
+    - id:
+      - charcoal

@@ -1,0 +1,146 @@
+/* Docs */
+.docs-content h2 {
+  border-bottom: 1px solid var(--line-color);
+}
+
+.docs-content .table-contents {
+  float: right;
+}
+
+.docs-content .table-contents ul {
+  margin-bottom: 0;
+}
+
+.docs-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+}
+
+.docs-navbox-link {
+  display: inline-block;
+  margin: 3px;
+}
+
+/* Docs Recipe */
+.docs-recipe {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 5px;
+}
+
+.docs-recipe-component {
+  padding: 5px;
+  line-height: 0;
+}
+
+.docs-item-slot {
+  position: relative;
+  background-color: var(--bg-color-4);
+}
+
+.docs-item-icon {
+  display: inline-block;
+  border: 3px solid var(--bg-color-4);
+}
+
+.docs-item-count {
+  position: absolute;
+  bottom: 0px;
+  right: -5px;
+  line-height: 0;
+}
+
+.docs-item-slots-grid {
+  display: grid;
+  grid-gap: 8px;
+}
+
+.docs-item-slots-row {
+  display: grid;
+  grid-gap: 8px;
+  grid-auto-flow: column;
+}
+
+.docs-machine-input {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.docs-fluid-slot {
+  display: inline-block;
+  background-color: var(--bg-color-4);
+  position: relative;
+}
+
+.docs-fluid-icon {
+  position: absolute;
+  bottom: 0px;
+}
+
+.docs-fluid-overlay {
+  position: relative;
+  display: inline-block;
+  background-image: url('/assets/images/docs/overlay-fluid-medium.png');
+  height: 80px;
+  width: 32px;
+  background-size: cover;
+  z-index: 1;
+}
+
+.docs-rf-bar {
+  position: relative;
+  border: 3px solid var(--bg-color-4);
+  display: inline-block;
+  background-image: url('/assets/images/docs/rf-bar.png');
+  height: 80px;
+  width: 24px;
+  background-size: cover;
+}
+
+.docs-quantity-list {
+  padding-left: 1.5ch;
+}
+
+.docs-quantity-list li {
+  text-indent: -1.5ch;
+}
+
+.docs-tooltip {
+  display: none;
+  position: absolute;
+  background-color: var(--contrast-bg-color);
+  color: var(--bg-color-1);
+  padding: 8px;
+  border-radius: 3px;
+  bottom: calc(100% + 10px);
+  white-space: pre;
+  line-height: 1.1em;
+  z-index: 5;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+:hover > .docs-tooltip {
+  display: block;
+}
+
+:hover > .docs-tooltip::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  bottom: -7px;
+  border-top: 9px solid var(--contrast-bg-color);
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+}

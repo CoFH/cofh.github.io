@@ -1,0 +1,42 @@
+lapidary_diamond:
+  energy: 500000
+  inputs:
+    item:
+    - id:
+      - diamond
+lapidary_emerald:
+  energy: 125000
+  inputs:
+    item:
+    - id:
+      - emerald
+lapidary_lapis:
+  energy: 40000
+  inputs:
+    item:
+    - id:
+      - lapis_lazuli
+lapidary_prismarine:
+  energy: 40000
+  inputs:
+    item:
+    - id:
+      - prismarine_crystals
+lapidary_quartz:
+  energy: 40000
+  inputs:
+    item:
+    - id:
+      - quartz
+lapidary_ruby:
+  energy: 125000
+  inputs:
+    item:
+    - id:
+      - ruby
+lapidary_sapphire:
+  energy: 125000
+  inputs:
+    item:
+    - id:
+      - sapphire

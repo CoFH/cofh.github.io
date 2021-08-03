@@ -1,0 +1,2840 @@
+press_apatite_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - apatite
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - apatite_block
+press_apatite_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - apatite_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - apatite
+press_apple_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - apple
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - apple_block
+press_apple_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - apple_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - apple
+press_bamboo_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - bamboo
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - bamboo_block
+press_bamboo_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - bamboo_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - bamboo
+press_barley_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - barley
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - barley_block
+press_barley_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - barley_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - barley
+press_beetroot_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - beetroot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - beetroot_block
+press_beetroot_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - beetroot_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - beetroot
+press_bell_pepper_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - bell_pepper
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - bell_pepper_block
+press_bell_pepper_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - bell_pepper_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - bell_pepper
+press_bitumen_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - bitumen
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - bitumen_block
+press_bitumen_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - bitumen_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - bitumen
+press_blue_ice_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - packed_ice
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - blue_ice
+press_blue_ice_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - blue_ice
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - packed_ice
+press_bricks_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - brick
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - bricks
+press_bricks_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - bricks
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - brick
+press_bronze_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - bronze_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - bronze_coin
+press_bronze_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - bronze_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - bronze_gear
+press_bronze_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - bronze_ingot
+  outputs:
+    item:
+    - id:
+      - bronze_plate
+press_bronze_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - bronze_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - bronze_coin
+press_bronze_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - bronze_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - bronze_block
+press_bronze_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - bronze_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - bronze_ingot
+press_carrot_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - carrot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - carrot_block
+press_carrot_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - carrot_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - carrot
+press_charcoal_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - charcoal
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - charcoal_block
+press_charcoal_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - charcoal_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - charcoal
+press_cinnabar_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - cinnabar
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - cinnabar_block
+press_cinnabar_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - cinnabar_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - cinnabar
+press_clay_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - clay_ball
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - clay
+press_clay_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - clay
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - clay_ball
+press_coal_coke_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - coal_coke
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - coal_coke_block
+press_coal_coke_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - coal_coke_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - coal_coke
+press_coal_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - coal
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - coal_block
+press_coal_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - coal_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - coal
+press_coffee_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - coffee
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - coffee_block
+press_coffee_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - coffee_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - coffee
+press_constantan_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - constantan_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - constantan_coin
+press_constantan_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - constantan_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - constantan_gear
+press_constantan_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - constantan_ingot
+  outputs:
+    item:
+    - id:
+      - constantan_plate
+press_constantan_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - constantan_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - constantan_coin
+press_constantan_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - constantan_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - constantan_block
+press_constantan_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - constantan_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - constantan_ingot
+press_copper_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - copper_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - copper_coin
+press_copper_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - copper_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - copper_gear
+press_copper_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - copper_ingot
+  outputs:
+    item:
+    - id:
+      - copper_plate
+press_copper_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - copper_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - copper_coin
+press_copper_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - copper_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - copper_block
+press_copper_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - copper_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - copper_ingot
+press_corn_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - corn
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - corn_block
+press_corn_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - corn_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - corn
+press_cured_rubber_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - cured_rubber
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - cured_rubber_block
+press_cured_rubber_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - cured_rubber_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - cured_rubber
+press_dandelion_to_latex:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - dandelion
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - fluid_latex
+press_diamond_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - diamond
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - diamond_block
+press_diamond_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - diamond_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - diamond
+press_dried_kelp_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - dried_kelp
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - dried_kelp_block
+press_dried_kelp_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - dried_kelp_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - dried_kelp
+press_eggplant_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - eggplant
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - eggplant_block
+press_eggplant_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - eggplant_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - eggplant
+press_electrum_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - electrum_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - electrum_coin
+press_electrum_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - electrum_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - electrum_gear
+press_electrum_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - electrum_ingot
+  outputs:
+    item:
+    - id:
+      - electrum_plate
+press_electrum_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - electrum_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - electrum_coin
+press_electrum_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - electrum_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - electrum_block
+press_electrum_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - electrum_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - electrum_ingot
+press_emerald_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - emerald
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - emerald_block
+press_emerald_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - emerald_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - emerald
+press_enderium_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - enderium_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - enderium_coin
+press_enderium_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - enderium_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - enderium_gear
+press_enderium_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - enderium_ingot
+  outputs:
+    item:
+    - id:
+      - enderium_plate
+press_enderium_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - enderium_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - enderium_coin
+press_enderium_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - enderium_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - enderium_block
+press_enderium_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - enderium_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - enderium_ingot
+press_flax_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - flax
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - flax_block
+press_flax_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - flax_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - flax
+press_frost_melon_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - frost_melon_slice
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - frost_melon
+press_frost_melon_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - frost_melon
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - frost_melon_slice
+press_gold_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - gold_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - gold_coin
+press_gold_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - gold_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - gold_gear
+press_gold_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - gold_ingot
+  outputs:
+    item:
+    - id:
+      - gold_plate
+press_gold_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - gold_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - gold_coin
+press_gold_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - gold_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - gold_block
+press_gold_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - gold_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - gold_ingot
+press_green_bean_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - green_bean
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - green_bean_block
+press_green_bean_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - green_bean_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - green_bean
+press_gunpowder_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - gunpowder
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - gunpowder_block
+press_gunpowder_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - gunpowder_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - gunpowder
+press_honeycomb_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - honeycomb
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - honeycomb_block
+press_honeycomb_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - honeycomb_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - honeycomb
+press_hops_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - hops
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - hops_block
+press_hops_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - hops_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - hops
+press_invar_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - invar_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - invar_coin
+press_invar_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - invar_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - invar_gear
+press_invar_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - invar_ingot
+  outputs:
+    item:
+    - id:
+      - invar_plate
+press_invar_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - invar_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - invar_coin
+press_invar_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - invar_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - invar_block
+press_invar_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - invar_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - invar_ingot
+press_iron_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - iron_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - iron_coin
+press_iron_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - iron_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - iron_gear
+press_iron_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - iron_ingot
+  outputs:
+    item:
+    - id:
+      - iron_plate
+press_iron_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - iron_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - iron_coin
+press_iron_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - iron_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - iron_block
+press_iron_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - iron_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - iron_ingot
+press_lapis_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - lapis_lazuli
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - lapis_block
+press_lapis_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - lapis_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - lapis_lazuli
+press_lead_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - lead_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - lead_coin
+press_lead_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - lead_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - lead_gear
+press_lead_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - lead_ingot
+  outputs:
+    item:
+    - id:
+      - lead_plate
+press_lead_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - lead_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - lead_coin
+press_lead_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - lead_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - lead_block
+press_lead_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - lead_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - lead_ingot
+press_lumium_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - lumium_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - lumium_coin
+press_lumium_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - lumium_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - lumium_gear
+press_lumium_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - lumium_ingot
+  outputs:
+    item:
+    - id:
+      - lumium_plate
+press_lumium_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - lumium_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - lumium_coin
+press_lumium_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - lumium_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - lumium_block
+press_lumium_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - lumium_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - lumium_ingot
+press_magma_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - magma_cream
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - magma_block
+press_magma_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - magma_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - magma_cream
+press_melon_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - melon_slice
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - melon
+press_melon_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - melon
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - melon_slice
+press_nether_bricks_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - nether_brick
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - nether_bricks
+press_nether_bricks_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - nether_bricks
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - nether_brick
+press_nether_wart_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - nether_wart
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - nether_wart_block
+press_nether_wart_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - nether_wart_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - nether_wart
+press_netherite_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - netherite_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - netherite_block
+press_netherite_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - netherite_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - netherite_ingot
+press_nickel_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - nickel_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - nickel_coin
+press_nickel_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - nickel_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - nickel_gear
+press_nickel_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - nickel_ingot
+  outputs:
+    item:
+    - id:
+      - nickel_plate
+press_nickel_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - nickel_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - nickel_coin
+press_nickel_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - nickel_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - nickel_block
+press_nickel_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - nickel_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - nickel_ingot
+press_niter_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - niter
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - niter_block
+press_niter_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - niter_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - niter
+press_onion_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - onion
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - onion_block
+press_onion_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - onion_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - onion
+press_packed_ice_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - ice
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - packed_ice
+press_packed_ice_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - packed_ice
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - ice
+press_peanut_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - peanut
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - peanut_block
+press_peanut_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - peanut_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - peanut
+press_potato_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - potato
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - potato_block
+press_potato_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - potato_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - potato
+press_prismarine_brick_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - prismarine_bricks
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - prismarine_shard
+press_prismarine_bricks_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - prismarine_shard
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - prismarine_bricks
+press_prismarine_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - prismarine_shard
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - prismarine
+press_prismarine_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - prismarine
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - prismarine_shard
+press_quartz_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - quartz
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - quartz_block
+press_quartz_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - quartz_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - quartz
+press_radish_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - radish
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - radish_block
+press_radish_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - radish_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - radish
+press_red_sandstone_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - red_sand
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - red_sandstone
+press_red_sandstone_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - red_sandstone
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - red_sand
+press_redstone_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - redstone
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - redstone_block
+press_redstone_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - redstone_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - redstone
+press_rice_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - rice
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - rice_block
+press_rice_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - rice_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - rice
+press_rich_slag_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - rich_slag
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - rich_slag_block
+press_rich_slag_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - rich_slag_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - rich_slag
+press_rosin_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - rosin
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - rosin_block
+press_rosin_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - rosin_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - rosin
+press_rubber_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - rubber
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - rubber_block
+press_rubber_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - rubber_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - rubber
+press_ruby_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - ruby
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - ruby_block
+press_ruby_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - ruby_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - ruby
+press_sadiroot_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - sadiroot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - sadiroot_block
+press_sadiroot_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - sadiroot_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - sadiroot
+press_sandstone_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - sand
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - sandstone
+press_sandstone_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - sandstone
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - sand
+press_sapphire_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - sapphire
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - sapphire_block
+press_sapphire_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - sapphire_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - sapphire
+press_sawdust_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - sawdust
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - sawdust_block
+press_sawdust_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - sawdust_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - sawdust
+press_signalum_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - signalum_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - signalum_coin
+press_signalum_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - signalum_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - signalum_gear
+press_signalum_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - signalum_ingot
+  outputs:
+    item:
+    - id:
+      - signalum_plate
+press_signalum_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - signalum_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - signalum_coin
+press_signalum_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - signalum_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - signalum_block
+press_signalum_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - signalum_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - signalum_ingot
+press_silver_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - silver_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - silver_coin
+press_silver_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - silver_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - silver_gear
+press_silver_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - silver_ingot
+  outputs:
+    item:
+    - id:
+      - silver_plate
+press_silver_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - silver_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - silver_coin
+press_silver_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - silver_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - silver_block
+press_silver_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - silver_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - silver_ingot
+press_slag_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - slag
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - slag_block
+press_slag_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - slag_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - slag
+press_slime_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - slime_ball
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - slime_block
+press_slime_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - slime_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - slime_ball
+press_snow_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - snowball
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - snow_block
+press_snow_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - snow_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - snowball
+press_spinach_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - spinach
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - spinach_block
+press_spinach_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - spinach_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - spinach
+press_strawberry_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - strawberry
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - strawberry_block
+press_strawberry_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - strawberry_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - strawberry
+press_string_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 4
+      id:
+      - string
+    - id:
+      - press_packing_2x2_die
+  outputs:
+    item:
+    - id:
+      - white_wool
+press_sugar_cane_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - sugar_cane
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - sugar_cane_block
+press_sugar_cane_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - sugar_cane_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - sugar_cane
+press_sulfur_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - sulfur
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - sulfur_block
+press_sulfur_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - sulfur_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - sulfur
+press_tar_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - tar
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - tar_block
+press_tar_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - tar_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tar
+press_tea_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - tea
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - tea_block
+press_tea_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - tea_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tea
+press_tin_ingot_to_coin:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - tin_ingot
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tin_coin
+press_tin_ingot_to_gear:
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tin_ingot
+    - id:
+      - press_gear_die
+  outputs:
+    item:
+    - id:
+      - tin_gear
+press_tin_ingot_to_plate:
+  inputs:
+    item:
+    - id:
+      - tin_ingot
+  outputs:
+    item:
+    - id:
+      - tin_plate
+press_tin_nugget_to_coin:
+  energy: 800
+  inputs:
+    item:
+    - count: 3
+      id:
+      - tin_nugget
+    - id:
+      - press_coin_die
+  outputs:
+    item:
+    - id:
+      - tin_coin
+press_tin_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - tin_ingot
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - tin_block
+press_tin_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - tin_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tin_ingot
+press_tomato_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - tomato
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - tomato_block
+press_tomato_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - tomato_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tomato
+press_vine_to_latex:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - vine
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - fluid_latex
+press_wheat_packing:
+  energy: 400
+  inputs:
+    item:
+    - count: 9
+      id:
+      - wheat
+    - id:
+      - press_packing_3x3_die
+  outputs:
+    item:
+    - id:
+      - hay_block
+press_wheat_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - hay_block
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 9
+      id:
+      - wheat
+press_wool_unpacking:
+  energy: 400
+  inputs:
+    item:
+    - count: 1
+      id:
+      - white_wool
+    - id:
+      - press_unpacking_die
+  outputs:
+    item:
+    - count: 4
+      id:
+      - string

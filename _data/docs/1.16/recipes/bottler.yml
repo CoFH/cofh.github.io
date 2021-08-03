@@ -1,0 +1,279 @@
+bottler_black_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - black_concrete_powder
+  outputs:
+    item:
+    - id:
+      - black_concrete
+bottler_blue_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - blue_concrete_powder
+  outputs:
+    item:
+    - id:
+      - blue_concrete
+bottler_brown_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - brown_concrete_powder
+  outputs:
+    item:
+    - id:
+      - brown_concrete
+bottler_cyan_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - cyan_concrete_powder
+  outputs:
+    item:
+    - id:
+      - cyan_concrete
+bottler_experience_bottle:
+  inputs:
+    fluid:
+    - amount: 250
+      id:
+      - fluid_experience
+    item:
+    - id:
+      - glass_bottle
+  outputs:
+    item:
+    - id:
+      - experience_bottle
+bottler_gray_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - gray_concrete_powder
+  outputs:
+    item:
+    - id:
+      - gray_concrete
+bottler_green_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - green_concrete_powder
+  outputs:
+    item:
+    - id:
+      - green_concrete
+bottler_honey_bottle:
+  inputs:
+    fluid:
+    - amount: 250
+      id:
+      - fluid_honey
+    item:
+    - id:
+      - glass_bottle
+  outputs:
+    item:
+    - id:
+      - honey_bottle
+bottler_light_blue_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - light_blue_concrete_powder
+  outputs:
+    item:
+    - id:
+      - light_blue_concrete
+bottler_light_gray_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - light_gray_concrete_powder
+  outputs:
+    item:
+    - id:
+      - light_gray_concrete
+bottler_lime_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - lime_concrete_powder
+  outputs:
+    item:
+    - id:
+      - lime_concrete
+bottler_magenta_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - magenta_concrete_powder
+  outputs:
+    item:
+    - id:
+      - magenta_concrete
+bottler_mossy_cobblestone:
+  energy: 2000
+  inputs:
+    fluid:
+    - amount: 500
+      id:
+      - fluid_water
+    item:
+    - id:
+      - cobblestone
+      - mossy_cobblestone
+      - infested_cobblestone
+  outputs:
+    item:
+    - id:
+      - mossy_cobblestone
+bottler_mossy_stone_bricks:
+  energy: 2000
+  inputs:
+    fluid:
+    - amount: 500
+      id:
+      - fluid_water
+    item:
+    - id:
+      - stone_bricks
+  outputs:
+    item:
+    - id:
+      - mossy_stone_bricks
+bottler_orange_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - orange_concrete_powder
+  outputs:
+    item:
+    - id:
+      - orange_concrete
+bottler_pink_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - pink_concrete_powder
+  outputs:
+    item:
+    - id:
+      - pink_concrete
+bottler_purple_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - purple_concrete_powder
+  outputs:
+    item:
+    - id:
+      - purple_concrete
+bottler_red_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - red_concrete_powder
+  outputs:
+    item:
+    - id:
+      - red_concrete
+bottler_water_bottle:
+  inputs:
+    fluid:
+    - amount: 250
+      id:
+      - fluid_water
+    item:
+    - id:
+      - glass_bottle
+  outputs:
+    item:
+    - id:
+      - potion
+      nbt:
+        Potion: water
+bottler_white_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - white_concrete_powder
+  outputs:
+    item:
+    - id:
+      - white_concrete
+bottler_yellow_concrete:
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+    item:
+    - id:
+      - yellow_concrete_powder
+  outputs:
+    item:
+    - id:
+      - yellow_concrete

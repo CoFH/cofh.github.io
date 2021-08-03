@@ -1,0 +1,706 @@
+smelter_alloy_bronze:
+  energy: 6400
+  inputs:
+    item:
+    - count: 3
+      id:
+      - copper_ingot
+      - copper_dust
+    - count: 1
+      id:
+      - tin_ingot
+      - tin_dust
+  outputs:
+    item:
+    - count: 4
+      id:
+      - bronze_ingot
+smelter_alloy_constantan:
+  energy: 3200
+  inputs:
+    item:
+    - count: 1
+      id:
+      - copper_ingot
+      - copper_dust
+    - count: 1
+      id:
+      - nickel_ingot
+      - nickel_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - constantan_ingot
+smelter_alloy_electrum:
+  energy: 3200
+  inputs:
+    item:
+    - count: 1
+      id:
+      - gold_ingot
+      - gold_dust
+    - count: 1
+      id:
+      - silver_ingot
+      - silver_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - electrum_ingot
+smelter_alloy_enderium:
+  energy: 16000
+  inputs:
+    item:
+    - count: 3
+      id:
+      - lead_ingot
+      - lead_dust
+    - count: 1
+      id:
+      - diamond_dust
+    - count: 2
+      id:
+      - ender_pearl
+      - ender_pearl_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - enderium_ingot
+smelter_alloy_invar:
+  energy: 4800
+  inputs:
+    item:
+    - count: 2
+      id:
+      - iron_ingot
+      - iron_dust
+    - count: 1
+      id:
+      - nickel_ingot
+      - nickel_dust
+  outputs:
+    item:
+    - count: 3
+      id:
+      - invar_ingot
+smelter_alloy_lumium:
+  energy: 12000
+  inputs:
+    item:
+    - count: 3
+      id:
+      - tin_ingot
+      - tin_dust
+    - count: 1
+      id:
+      - silver_ingot
+      - silver_dust
+    - count: 2
+      id:
+      - glowstone_dust
+  outputs:
+    item:
+    - count: 4
+      id:
+      - lumium_ingot
+smelter_alloy_netherite:
+  energy: 800
+  inputs:
+    item:
+    - count: 4
+      id:
+      - gold_ingot
+      - gold_dust
+    - count: 4
+      id:
+      - netherite_scrap
+  outputs:
+    item:
+    - count: 1
+      id:
+      - netherite_ingot
+smelter_alloy_signalum:
+  energy: 12000
+  inputs:
+    item:
+    - count: 3
+      id:
+      - copper_ingot
+      - copper_dust
+    - count: 1
+      id:
+      - silver_ingot
+      - silver_dust
+    - count: 4
+      id:
+      - redstone
+  outputs:
+    item:
+    - count: 4
+      id:
+      - signalum_ingot
+smelter_ancient_debris:
+  experience: 2.0
+  inputs:
+    item:
+    - id:
+      - ancient_debris
+  outputs:
+    item:
+    - count: 2
+      id:
+      - netherite_scrap
+    - count: 0.2
+      id:
+      - rich_slag
+smelter_apatite_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - apatite_ore
+  outputs:
+    item:
+    - chance: 6.5
+      id:
+      - apatite
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_bronze_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - bronze_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - bronze_ingot
+smelter_cinnabar_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - cinnabar_ore
+  outputs:
+    item:
+    - chance: 1.5
+      id:
+      - cinnabar
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_coal_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - coal_ore
+  outputs:
+    item:
+    - chance: 1.5
+      id:
+      - coal
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_constantan_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - constantan_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - constantan_ingot
+smelter_copper_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - copper_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - copper_ingot
+smelter_copper_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - copper_ore
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - copper_ingot
+    - chance: 0.2
+      id:
+      - gold_ingot
+    - chance: 0.2
+      id:
+      - rich_slag
+smelter_cured_rubber:
+  inputs:
+    item:
+    - count: 2
+      id:
+      - rubber
+    - count: 1
+      id:
+      - sulfur
+      - sulfur_dust
+  outputs:
+    item:
+    - count: 4
+      id:
+      - cured_rubber
+smelter_diamond_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - diamond_ore
+  outputs:
+    item:
+    - chance: 1.5
+      id:
+      - diamond
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_electrum_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - electrum_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - electrum_ingot
+smelter_emerald_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - emerald_ore
+  outputs:
+    item:
+    - chance: 1.5
+      id:
+      - emerald
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_enderium_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - enderium_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - enderium_ingot
+smelter_glass_enderium:
+  energy: 4800
+  inputs:
+    item:
+    - count: 2
+      id:
+      - obsidian_glass
+    - count: 1
+      id:
+      - enderium_ingot
+      - enderium_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - enderium_glass
+smelter_glass_lumium:
+  energy: 4800
+  inputs:
+    item:
+    - count: 2
+      id:
+      - obsidian_glass
+    - count: 1
+      id:
+      - lumium_ingot
+      - lumium_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - lumium_glass
+smelter_glass_obsidian:
+  energy: 4800
+  inputs:
+    item:
+    - count: 1
+      id:
+      - obsidian
+    - count: 1
+      id:
+      - quartz
+      - quartz_dust
+    - count: 1
+      id:
+      - sand
+      - red_sand
+  outputs:
+    item:
+    - count: 2
+      id:
+      - obsidian_glass
+smelter_glass_signalum:
+  energy: 4800
+  inputs:
+    item:
+    - count: 2
+      id:
+      - obsidian_glass
+    - count: 1
+      id:
+      - signalum_ingot
+      - signalum_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - signalum_glass
+smelter_gold_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - gold_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - gold_ingot
+smelter_gold_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - gold_ore
+      - nether_gold_ore
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - gold_ingot
+    - count: 0.1
+      id:
+      - cinnabar
+    - chance: 0.2
+      id:
+      - rich_slag
+smelter_gravel:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - gravel
+  outputs:
+    item:
+    - count: 1
+      id:
+      - flint
+    - count: 1
+      id:
+      - slag
+smelter_invar_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - invar_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - invar_ingot
+smelter_iron_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - iron_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - iron_ingot
+smelter_iron_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - iron_ore
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - iron_ingot
+    - chance: 0.2
+      id:
+      - nickel_ingot
+    - chance: 0.2
+      id:
+      - rich_slag
+smelter_lapis_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - lapis_ore
+  outputs:
+    item:
+    - chance: 8.5
+      id:
+      - lapis_lazuli
+    - chance: 0.75
+      id:
+      - sulfur
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_lead_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - lead_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - lead_ingot
+smelter_lead_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - lead_ore
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - lead_ingot
+    - chance: 0.2
+      id:
+      - silver_ingot
+    - chance: 0.2
+      id:
+      - rich_slag
+smelter_lumium_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - lumium_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - lumium_ingot
+smelter_nickel_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - nickel_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - nickel_ingot
+smelter_nickel_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - nickel_ore
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - nickel_ingot
+    - chance: 0.2
+      id:
+      - copper_ingot
+    - chance: 0.2
+      id:
+      - rich_slag
+smelter_niter_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - niter_ore
+  outputs:
+    item:
+    - chance: 3.5
+      id:
+      - niter
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_quartz_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - nether_quartz_ore
+  outputs:
+    item:
+    - chance: 1.5
+      id:
+      - quartz
+    - chance: 0.5
+      id:
+      - sulfur
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_redstone_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - redstone_ore
+  outputs:
+    item:
+    - chance: 3.5
+      id:
+      - redstone
+    - count: 0.5
+      id:
+      - cinnabar
+    - chance: 0.2
+      id:
+      - rich_slag
+smelter_ruby_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - ruby_ore
+  outputs:
+    item:
+    - chance: 1.5
+      id:
+      - ruby
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_sapphire_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - sapphire_ore
+  outputs:
+    item:
+    - chance: 1.5
+      id:
+      - sapphire
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_signalum_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - signalum_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - signalum_ingot
+smelter_silver_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - silver_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - silver_ingot
+smelter_silver_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - silver_ore
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - silver_ingot
+    - chance: 0.2
+      id:
+      - lead_ingot
+    - chance: 0.2
+      id:
+      - rich_slag
+smelter_sulfur_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - sulfur_ore
+  outputs:
+    item:
+    - chance: 3.5
+      id:
+      - sulfur
+    - chance: 0.15
+      id:
+      - rich_slag
+smelter_tin_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - tin_dust
+  outputs:
+    item:
+    - count: 1
+      id:
+      - tin_ingot
+smelter_tin_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - tin_ore
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - tin_ingot
+    - chance: 0.75
+      id:
+      - apatite
+    - chance: 0.2
+      id:
+      - rich_slag

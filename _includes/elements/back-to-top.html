@@ -1,0 +1,19 @@
+<button tabindex=0 class="top-button" id="top-button" title="Back to top"><i class="fas fa-angle-double-up"></i></button>
+<script>
+  const topButton = document.getElementById("top-button");
+  topButton.onclick = (e) => {window.scrollTo({top: 0, behavior: 'smooth'}); e.target.blur()};
+  topButton.onkeyup = (e) => { if (e.keyCode === 13) topButton.click(); };
+  
+  // On scroll, check to see if button should appear
+  onScroll();
+  window.onscroll = onScroll;
+
+  // Makes back to top button appear, if the page has been scrolled down
+  function onScroll() {
+    if (document.documentElement.scrollTop > 500)
+      topButton.classList.add("top-button-selected");
+    else
+      topButton.classList.remove("top-button-selected");
+      topButton.blur()
+  }
+</script>

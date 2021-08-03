@@ -1,0 +1,405 @@
+bucket-aerotheum:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-aerotheum
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-aerotheum
+    item:
+    - id:
+      - mc-bucket
+bucket-biocrude:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-biocrude
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-biocrude
+    item:
+    - id:
+      - mc-bucket
+bucket-coal:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-coal
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-coal
+    item:
+    - id:
+      - mc-bucket
+bucket-creosote-oil:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-creosote-oil
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-creosote-oil
+    item:
+    - id:
+      - mc-bucket
+bucket-crude-oil:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-crude-oil
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-crude-oil
+    item:
+    - id:
+      - mc-bucket
+bucket-cryotheum:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-cryotheum
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-cryotheum
+    item:
+    - id:
+      - mc-bucket
+bucket-ender:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-ender
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-ender
+    item:
+    - id:
+      - mc-bucket
+bucket-experience:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-experience
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-experience
+    item:
+    - id:
+      - mc-bucket
+bucket-glowstone:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-glowstone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-glowstone
+    item:
+    - id:
+      - mc-bucket
+bucket-grassoline:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-grassoline
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-grassoline
+    item:
+    - id:
+      - mc-bucket
+bucket-mana:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-mana
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-mana
+    item:
+    - id:
+      - mc-bucket
+bucket-mushroom-stew:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-mushroom-stew
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-mushroom-stew
+    item:
+    - id:
+      - mc-bucket
+bucket-naphtha:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-naphtha
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-naphtha
+    item:
+    - id:
+      - mc-bucket
+bucket-petrotheum:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-petrotheum
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-petrotheum
+    item:
+    - id:
+      - mc-bucket
+bucket-pyrotheum:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-pyrotheum
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-pyrotheum
+    item:
+    - id:
+      - mc-bucket
+bucket-redstone:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-redstone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-redstone
+    item:
+    - id:
+      - mc-bucket
+bucket-refined-fuel:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-refined-fuel
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-refined-fuel
+    item:
+    - id:
+      - mc-bucket
+bucket-resin:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-resin
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-resin
+    item:
+    - id:
+      - mc-bucket
+bucket-sap:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-sap
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-sap
+    item:
+    - id:
+      - mc-bucket
+bucket-seed-oil:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-seed-oil
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-seed-oil
+    item:
+    - id:
+      - mc-bucket
+bucket-steam:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-steam
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-steam
+    item:
+    - id:
+      - mc-bucket
+bucket-syrup:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-syrup
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-syrup
+    item:
+    - id:
+      - mc-bucket
+bucket-tree-oil:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-tree-oil
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-tree-oil
+    item:
+    - id:
+      - mc-bucket
+mushroom-stew:
+  energy: 400
+  inputs:
+    item:
+    - id:
+      - mc-mushroom-stew
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-mushroom-stew
+    item:
+    - id:
+      - mc-bowl
+seed-oil-from-beetroot-seeds:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - mc-beetroot-seeds
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - tf-1-12-seed-oil
+seed-oil-from-melon-seeds:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - mc-melon-seeds
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - tf-1-12-seed-oil
+seed-oil-from-pumpkin-seeds:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - mc-pumpkin-seeds
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - tf-1-12-seed-oil
+seed-oil-from-seeds:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - mc-seeds
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - tf-1-12-seed-oil
+water-from-cactus:
+  energy: 2400
+  inputs:
+    item:
+    - id:
+      - mc-cactus
+  outputs:
+    fluid:
+    - amount: 500
+      id:
+      - mc-water
+water-from-sponge:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-sponge-wet
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-sponge

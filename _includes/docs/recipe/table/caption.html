@@ -1,0 +1,41 @@
+{%- unless ver -%}
+  {%- assign ver = page.version | replace: ".", "" -%}
+{%- endunless -%}
+
+{%- if include.display-type == "crafting" -%}
+  <a href="https://minecraft.fandom.com/wiki/Crafting">{{site.data.docs[ver].recipe-types[include.recipe-type].name}}</a>
+  
+{%- elsif include.display-type == "machine" -%}
+  {%- if site.data.docs[ver].recipe-types[include.recipe-type].url -%}
+    {%- assign link = site.data.docs[ver].recipe-types[include.recipe-type].url -%}
+  {%- elsif include.recipe-type == "smelting" or include.recipe-type == "blasting" -%}
+    {%- assign link = "https://minecraft.fandom.com/wiki/Smelting" -%}
+  {%- else -%}
+    {%- assign machine = "machine_" | append: include.recipe-type -%}
+    {%- capture link -%}{% include docs/get-link.html id=machine %}{%- endcapture -%}
+  {%- endif -%}
+  {%- if link.size > 0 %}
+    <a href="{{link}}">{{site.data.docs[ver].recipe-types[include.recipe-type].name}}</a>
+  {%- else -%}
+    {{site.data.docs[ver].recipe-types[include.recipe-type].name}}
+  {% endif %}
+  
+{%- elsif include.display-type == "dynamo" -%}
+  {%- assign dynamo = "dynamo_" | append: include.recipe-type | replace: "_fuel", "" -%}
+  {%- capture link -%}{% include docs/get-link.html id=dynamo %}{%- endcapture -%}
+  {%- if link.size > 0 %}
+    <a href="{{link}}">{{site.data.docs[ver].recipe-types[include.recipe-type].name}}</a>
+  {%- else -%}
+    {{site.data.docs[ver].recipe-types[include.recipe-type].name}}
+  {% endif %}
+  
+{%- elsif include.display-type == "catalyst" -%}
+  {%- assign machine = "machine_" | append: include.recipe-type | replace: "_catalyst", "" -%}
+  {%- capture machine-link -%}{% include docs/get-link.html id=machine %}{%- endcapture -%}
+  {%- if machine-link.size > 0 %}
+    <a href="{{machine-link}}">{{site.data.docs[ver].items-fluids[machine].name}}</a>
+  {%- else -%}
+    {{site.data.docs[ver].items-fluids[machine].name}}
+  {%- endif -%}
+  &nbsp;<a href="/docs/{{page.version}}/catalysts">Catalyst</a>
+{%- endif -%}

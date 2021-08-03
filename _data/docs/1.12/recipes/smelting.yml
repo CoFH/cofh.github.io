@@ -1,0 +1,234 @@
+tf-1-12-charcoal-from-sawdust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust-compressed
+  outputs:
+    item:
+    - id:
+      - mc-charcoal
+tf-1-12-ingot-aluminum-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-aluminum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-aluminum
+tf-1-12-ingot-bronze-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-bronze
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-bronze
+tf-1-12-ingot-constantan-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-constantan
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-constantan
+tf-1-12-ingot-copper-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-copper
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-copper
+tf-1-12-ingot-electrum-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-electrum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-electrum
+tf-1-12-ingot-gold-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-gold
+  outputs:
+    item:
+    - id:
+      - mc-ingot-gold
+tf-1-12-ingot-invar-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-invar
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-invar
+tf-1-12-ingot-iridium-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-iridium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-iridium
+tf-1-12-ingot-iron-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-iron
+  outputs:
+    item:
+    - id:
+      - mc-ingot-iron
+tf-1-12-ingot-lead-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-lead
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lead
+tf-1-12-ingot-mithril-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-mithril
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-mithril
+tf-1-12-ingot-nickel-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-nickel
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-nickel
+tf-1-12-ingot-platinum-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-platinum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-platinum
+tf-1-12-ingot-silver-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-silver
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-silver
+tf-1-12-ingot-tin-from-dust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-tin
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-tin
+tf-1-12-ore-processing-aluminum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-aluminum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-aluminum
+tf-1-12-ore-processing-copper:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-copper
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-copper
+tf-1-12-ore-processing-iridium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-iridium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-iridium
+tf-1-12-ore-processing-lead:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-lead
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lead
+tf-1-12-ore-processing-mithril:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-mithril
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-mithril
+tf-1-12-ore-processing-nickel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-nickel
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-nickel
+tf-1-12-ore-processing-platinum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-platinum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-platinum
+tf-1-12-ore-processing-silver:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-silver
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-silver
+tf-1-12-ore-processing-tin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-tin
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-tin
+tf-1-12-rockwool:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-slag
+  outputs:
+    item:
+    - id:
+      - tf-1-12-rockwool-light-gray

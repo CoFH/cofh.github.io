@@ -1,10 +1,9 @@
 ---
+show-image: false
 title: CoFH World (Minecraft 1.12)
-redirect_from:
-- /docs/cofh-world/
 ---
 
-![CoFH World logo](/assets/images/modlogos/cofh-world.png){:.cofh-mod-page-logo}
+![CoFH World logo](/assets/images/logos/1.12/cofh-world.png){:.cofh-mod-page-logo}
 
 
 **CoFH World** is a mod for Minecraft 1.12 that provides common world generation

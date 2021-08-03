@@ -1,0 +1,1067 @@
+import os
+import glob
+import json
+import yaml
+from PIL import Image
+import math
+import pprint
+import copy
+
+groups = yaml.load('''mc-bed:
+  name: Bed
+  site: mc-wiki
+  url: Bed
+  prefix:
+    ingredient: 'any color'
+  items:
+    - mc-bed-white
+    - mc-bed-orange
+    - mc-bed-magenta
+    - mc-bed-light-blue
+    - mc-bed-yellow
+    - mc-bed-lime
+    - mc-bed-pink
+    - mc-bed-gray
+    - mc-bed-light-gray
+    - mc-bed-cyan
+    - mc-bed-purple
+    - mc-bed-blue
+    - mc-bed-brown
+    - mc-bed-green
+    - mc-bed-red
+    - mc-bed-black
+mc-boat:
+  name: Boat
+  site: mc-wiki
+  url: Boat
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-boat-oak
+    - mc-boat-spruce
+    - mc-boat-birch
+    - mc-boat-jungle
+    - mc-boat-acacia
+    - mc-boat-dark-oak
+mc-concrete:
+  name: Concrete
+  site: mc-wiki
+  url: Concrete
+  prefix:
+    ingredient: 'any color'
+  items:
+    - mc-concrete-white
+    - mc-concrete-orange
+    - mc-concrete-magenta
+    - mc-concrete-light-blue
+    - mc-concrete-yellow
+    - mc-concrete-lime
+    - mc-concrete-pink
+    - mc-concrete-gray
+    - mc-concrete-light-gray
+    - mc-concrete-cyan
+    - mc-concrete-purple
+    - mc-concrete-blue
+    - mc-concrete-brown
+    - mc-concrete-green
+    - mc-concrete-red
+    - mc-concrete-black
+mc-concrete-powder:
+  name: Concrete Powder
+  site: mc-wiki
+  url: Concrete_Powder
+  prefix:
+    ingredient: 'any color'
+  items:
+    - mc-concrete-powder-white
+    - mc-concrete-powder-orange
+    - mc-concrete-powder-magenta
+    - mc-concrete-powder-light-blue
+    - mc-concrete-powder-yellow
+    - mc-concrete-powder-lime
+    - mc-concrete-powder-pink
+    - mc-concrete-powder-gray
+    - mc-concrete-powder-light-gray
+    - mc-concrete-powder-cyan
+    - mc-concrete-powder-purple
+    - mc-concrete-powder-blue
+    - mc-concrete-powder-brown
+    - mc-concrete-powder-green
+    - mc-concrete-powder-red
+    - mc-concrete-powder-black
+mc-door-wood:
+  name: Wooden Door
+  site: mc-wiki
+  url: Door
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-door-wood-oak
+    - mc-door-wood-spruce
+    - mc-door-wood-birch
+    - mc-door-wood-jungle
+    - mc-door-wood-acacia
+    - mc-door-wood-dark-oak
+mc-dye:
+  name: Dye
+  site: mc-wiki
+  url: Dye
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-bone-meal
+    - mc-orange-dye
+    - mc-magenta-dye
+    - mc-light-blue-dye
+    - mc-dandelion-yellow
+    - mc-lime-dye
+    - mc-pink-dye
+    - mc-gray-dye
+    - mc-light-gray-dye
+    - mc-cyan-dye
+    - mc-purple-dye
+    - mc-lapis-lazuli
+    - mc-cocoa-beans
+    - mc-cactus-green
+    - mc-rose-red
+    - mc-ink-sac
+mc-fence:
+  name: Fence
+  site: mc-wiki
+  url: Fence
+  prefix:
+    ingredient: 'any wooden'
+  items:
+    - mc-fence-oak
+    - mc-fence-spruce
+    - mc-fence-birch
+    - mc-fence-jungle
+    - mc-fence-acacia
+    - mc-fence-dark-oak
+mc-fence-gate:
+  name: Fence Gate
+  site: mc-wiki
+  url: Fence_Gate
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-fence-gate-oak
+    - mc-fence-gate-spruce
+    - mc-fence-gate-birch
+    - mc-fence-gate-jungle
+    - mc-fence-gate-acacia
+    - mc-fence-gate-dark-oak
+mc-flower:
+  name: Flower
+  site: mc-wiki
+  url: Flower
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-flower-dandelion
+    - mc-flower-poppy
+    - mc-flower-blue-orchid
+    - mc-flower-allium
+    - mc-flower-azure-bluet
+    - mc-flower-tulip-red
+    - mc-flower-tulip-orange
+    - mc-flower-tulip-white
+    - mc-flower-tulip-pink
+    - mc-flower-oxeye-daisy
+mc-flower-tall:
+  name: Tall Flower
+  site: mc-wiki
+  url: Flower
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-flower-sunflower
+    - mc-flower-lilac
+    - mc-flower-rose-bush
+    - mc-flower-peony
+mc-food-raw:
+  name: Raw Food
+  site: mc-wiki
+  url: Food
+  items:
+    - mc-potato
+    - mc-porkchop-raw
+    - mc-beef-raw
+    - mc-chicken-raw
+    - mc-mutton-raw
+    - mc-rabbit-raw
+    - mc-fish-raw
+    - mc-salmon-raw
+mc-food-cooked:
+  name: Cooked Food
+  site: mc-wiki
+  url: Food
+  items:
+    - mc-potato-baked
+    - mc-porkchop-cooked
+    - mc-beef-cooked
+    - mc-chicken-cooked
+    - mc-mutton-cooked
+    - mc-rabbit-cooked
+    - mc-fish-cooked
+    - mc-salmon-cooked
+mc-glass-stained:
+  name: Stained Glass
+  site: mc-wiki
+  url: Glass
+  prefix:
+    ingredient: 'any color'
+  items:
+    - mc-glass-stained-white
+    - mc-glass-stained-orange
+    - mc-glass-stained-magenta
+    - mc-glass-stained-light-blue
+    - mc-glass-stained-yellow
+    - mc-glass-stained-lime
+    - mc-glass-stained-pink
+    - mc-glass-stained-gray
+    - mc-glass-stained-light-gray
+    - mc-glass-stained-cyan
+    - mc-glass-stained-purple
+    - mc-glass-stained-blue
+    - mc-glass-stained-brown
+    - mc-glass-stained-green
+    - mc-glass-stained-red
+    - mc-glass-stained-black
+mc-leaves:
+  name: Leaves
+  site: mc-wiki
+  url: Leaves
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-leaves-oak
+    - mc-leaves-spruce
+    - mc-leaves-birch
+    - mc-leaves-jungle
+    - mc-leaves-acacia
+    - mc-leaves-dark-oak
+mc-mushroom:
+  name: Mushroom
+  site: mc-wiki
+  url: Mushroom
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-mushroom-brown
+    - mc-mushroom-red
+mc-nether-quartz-block:
+  name: Block of Quartz
+  site: mc-wiki
+  url: Block_of_Quartz
+  items:
+    - mc-nether-quartz-block
+    - mc-nether-quartz-block-chiseled
+    - mc-nether-quartz-block-pillar
+mc-sandstone:
+  name: Sandstone
+  site: mc-wiki
+  url: Sandstone
+  items:
+    - mc-sandstone
+    - mc-sandstone-chiseled
+    - mc-sandstone-smooth
+mc-sandstone-red:
+  name: Red Sandstone
+  site: mc-wiki
+  url: Sandstone
+  items:
+    - mc-sandstone-red
+    - mc-sandstone-red-chiseled
+    - mc-sandstone-red-smooth
+mc-sapling:
+  name: Sapling
+  site: mc-wiki
+  url: Sapling
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-sapling-oak
+    - mc-sapling-spruce
+    - mc-sapling-birch
+    - mc-sapling-jungle
+    - mc-sapling-acacia
+    - mc-sapling-dark-oak
+mc-wood-log:
+  name: Wood
+  site: mc-wiki
+  url: Wood
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-wood-log-oak
+    - mc-wood-log-spruce
+    - mc-wood-log-birch
+    - mc-wood-log-jungle
+    - mc-wood-log-acacia
+    - mc-wood-log-dark-oak
+mc-wood-planks:
+  name: Wood Planks
+  site: mc-wiki
+  url: Wood_Planks
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-wood-planks-oak
+    - mc-wood-planks-spruce
+    - mc-wood-planks-birch
+    - mc-wood-planks-jungle
+    - mc-wood-planks-acacia
+    - mc-wood-planks-dark-oak
+mc-wood-stairs:
+  name: Wood Stairs
+  site: mc-wiki
+  url: Stairs
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-wood-stairs-oak
+    - mc-wood-stairs-spruce
+    - mc-wood-stairs-birch
+    - mc-wood-stairs-jungle
+    - mc-wood-stairs-acacia
+    - mc-wood-stairs-dark-oak
+mc-wool:
+  name: Wool
+  site: mc-wiki
+  url: Wool
+  prefix:
+    ingredient: 'any color'
+  items:
+    - mc-wool-white
+    - mc-wool-orange
+    - mc-wool-magenta
+    - mc-wool-light-blue
+    - mc-wool-yellow
+    - mc-wool-lime
+    - mc-wool-pink
+    - mc-wool-gray
+    - mc-wool-light-gray
+    - mc-wool-cyan
+    - mc-wool-purple
+    - mc-wool-blue
+    - mc-wool-brown
+    - mc-wool-green
+    - mc-wool-red
+    - mc-wool-black
+tf-1-12-coin-metal:
+  name: Metal Coin
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-coin-iron
+    - tf-1-12-coin-gold
+    - tf-1-12-coin-copper
+    - tf-1-12-coin-tin
+    - tf-1-12-coin-silver
+    - tf-1-12-coin-lead
+    - tf-1-12-coin-aluminum
+    - tf-1-12-coin-nickel
+    - tf-1-12-coin-platinum
+    - tf-1-12-coin-iridium
+    - tf-1-12-coin-mithril
+    - tf-1-12-coin-steel
+    - tf-1-12-coin-electrum
+    - tf-1-12-coin-invar
+    - tf-1-12-coin-bronze
+    - tf-1-12-coin-constantan
+    - tf-1-12-coin-signalum
+    - tf-1-12-coin-lumium
+    - tf-1-12-coin-enderium
+tf-1-12-dust-metal:
+  name: Metal Dust
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-dust-iron
+    - tf-1-12-dust-gold
+    - tf-1-12-dust-copper
+    - tf-1-12-dust-tin
+    - tf-1-12-dust-silver
+    - tf-1-12-dust-lead
+    - tf-1-12-dust-aluminum
+    - tf-1-12-dust-nickel
+    - tf-1-12-dust-platinum
+    - tf-1-12-dust-iridium
+    - tf-1-12-dust-mithril
+    - tf-1-12-dust-steel
+    - tf-1-12-dust-electrum
+    - tf-1-12-dust-invar
+    - tf-1-12-dust-bronze
+    - tf-1-12-dust-constantan
+    - tf-1-12-dust-signalum
+    - tf-1-12-dust-lumium
+    - tf-1-12-dust-enderium
+tf-1-12-gear-metal:
+  name: Metal Gear
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-gear-iron
+    - tf-1-12-gear-gold
+    - tf-1-12-gear-copper
+    - tf-1-12-gear-tin
+    - tf-1-12-gear-silver
+    - tf-1-12-gear-lead
+    - tf-1-12-gear-aluminum
+    - tf-1-12-gear-nickel
+    - tf-1-12-gear-platinum
+    - tf-1-12-gear-iridium
+    - tf-1-12-gear-mithril
+    - tf-1-12-gear-steel
+    - tf-1-12-gear-electrum
+    - tf-1-12-gear-invar
+    - tf-1-12-gear-bronze
+    - tf-1-12-gear-constantan
+    - tf-1-12-gear-signalum
+    - tf-1-12-gear-lumium
+    - tf-1-12-gear-enderium
+tf-1-12-hardened-glass:
+  name: Hardened Glass
+  site: tf-1-12-docs
+  url: hardened-glass/
+  items:
+    - tf-1-12-hardened-glass
+    - tf-1-12-hardened-glass-copper
+    - tf-1-12-hardened-glass-tin
+    - tf-1-12-hardened-glass-silver
+    - tf-1-12-hardened-glass-aluminum
+    - tf-1-12-hardened-glass-nickel
+    - tf-1-12-hardened-glass-platinum
+    - tf-1-12-hardened-glass-iridium
+    - tf-1-12-hardened-glass-steel
+    - tf-1-12-hardened-glass-electrum
+    - tf-1-12-hardened-glass-invar
+    - tf-1-12-hardened-glass-bronze
+    - tf-1-12-hardened-glass-constantan
+    - tf-1-12-hardened-glass-signalum
+    - tf-1-12-hardened-glass-lumium
+    - tf-1-12-hardened-glass-enderium
+tf-1-12-pigment:
+  name: Pigment
+  site: tf-1-12-docs
+  url: pigments/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-pigment-white
+    - tf-1-12-pigment-orange
+    - tf-1-12-pigment-magenta
+    - tf-1-12-pigment-light-blue
+    - tf-1-12-pigment-yellow
+    - tf-1-12-pigment-lime
+    - tf-1-12-pigment-pink
+    - tf-1-12-pigment-gray
+    - tf-1-12-pigment-light-gray
+    - tf-1-12-pigment-cyan
+    - tf-1-12-pigment-purple
+    - tf-1-12-pigment-blue
+    - tf-1-12-pigment-brown
+    - tf-1-12-pigment-green
+    - tf-1-12-pigment-red
+    - tf-1-12-pigment-black
+tf-1-12-plate-metal:
+  name: Metal Plate
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-plate-iron
+    - tf-1-12-plate-gold
+    - tf-1-12-plate-copper
+    - tf-1-12-plate-tin
+    - tf-1-12-plate-silver
+    - tf-1-12-plate-lead
+    - tf-1-12-plate-aluminum
+    - tf-1-12-plate-nickel
+    - tf-1-12-plate-platinum
+    - tf-1-12-plate-iridium
+    - tf-1-12-plate-mithril
+    - tf-1-12-plate-steel
+    - tf-1-12-plate-electrum
+    - tf-1-12-plate-invar
+    - tf-1-12-plate-bronze
+    - tf-1-12-plate-constantan
+    - tf-1-12-plate-signalum
+    - tf-1-12-plate-lumium
+    - tf-1-12-plate-enderium
+tf-1-12-rockwool:
+  name: Rockwool
+  site: tf-1-12-docs
+  url: rockwool/
+  prefix:
+    ingredient: 'any color'
+  items:
+    - tf-1-12-rockwool-white
+    - tf-1-12-rockwool-orange
+    - tf-1-12-rockwool-magenta
+    - tf-1-12-rockwool-light-blue
+    - tf-1-12-rockwool-yellow
+    - tf-1-12-rockwool-lime
+    - tf-1-12-rockwool-pink
+    - tf-1-12-rockwool-gray
+    - tf-1-12-rockwool-light-gray
+    - tf-1-12-rockwool-cyan
+    - tf-1-12-rockwool-purple
+    - tf-1-12-rockwool-blue
+    - tf-1-12-rockwool-brown
+    - tf-1-12-rockwool-green
+    - tf-1-12-rockwool-red
+    - tf-1-12-rockwool-black
+armor-helmet-metal-with-tf2:
+  name: Metal Helmet
+  site: mc-wiki
+  url: Helmet
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-armor-helmet-iron
+    - mc-armor-helmet-gold
+    - tf-1-12-armor-helmet-copper
+    - tf-1-12-armor-helmet-tin
+    - tf-1-12-armor-helmet-silver
+    - tf-1-12-armor-helmet-lead
+    - tf-1-12-armor-helmet-aluminum
+    - tf-1-12-armor-helmet-nickel
+    - tf-1-12-armor-helmet-platinum
+    - tf-1-12-armor-helmet-steel
+    - tf-1-12-armor-helmet-electrum
+    - tf-1-12-armor-helmet-invar
+    - tf-1-12-armor-helmet-bronze
+    - tf-1-12-armor-helmet-constantan
+armor-chestplate-metal-with-tf2:
+  name: Metal Chestplate
+  site: mc-wiki
+  url: Chestplate
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-armor-chestplate-iron
+    - mc-armor-chestplate-gold
+    - tf-1-12-armor-chestplate-copper
+    - tf-1-12-armor-chestplate-tin
+    - tf-1-12-armor-chestplate-silver
+    - tf-1-12-armor-chestplate-lead
+    - tf-1-12-armor-chestplate-aluminum
+    - tf-1-12-armor-chestplate-nickel
+    - tf-1-12-armor-chestplate-platinum
+    - tf-1-12-armor-chestplate-steel
+    - tf-1-12-armor-chestplate-electrum
+    - tf-1-12-armor-chestplate-invar
+    - tf-1-12-armor-chestplate-bronze
+    - tf-1-12-armor-chestplate-constantan
+armor-leggings-metal-with-tf2:
+  name: Metal Leggings
+  site: mc-wiki
+  url: Leggings
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-armor-leggings-iron
+    - mc-armor-leggings-gold
+    - tf-1-12-armor-leggings-copper
+    - tf-1-12-armor-leggings-tin
+    - tf-1-12-armor-leggings-silver
+    - tf-1-12-armor-leggings-lead
+    - tf-1-12-armor-leggings-aluminum
+    - tf-1-12-armor-leggings-nickel
+    - tf-1-12-armor-leggings-platinum
+    - tf-1-12-armor-leggings-steel
+    - tf-1-12-armor-leggings-electrum
+    - tf-1-12-armor-leggings-invar
+    - tf-1-12-armor-leggings-bronze
+    - tf-1-12-armor-leggings-constantan
+armor-boots-metal-with-tf2:
+  name: Metal Boots
+  site: mc-wiki
+  url: Boots
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-armor-boots-iron
+    - mc-armor-boots-gold
+    - tf-1-12-armor-boots-copper
+    - tf-1-12-armor-boots-tin
+    - tf-1-12-armor-boots-silver
+    - tf-1-12-armor-boots-lead
+    - tf-1-12-armor-boots-aluminum
+    - tf-1-12-armor-boots-nickel
+    - tf-1-12-armor-boots-platinum
+    - tf-1-12-armor-boots-steel
+    - tf-1-12-armor-boots-electrum
+    - tf-1-12-armor-boots-invar
+    - tf-1-12-armor-boots-bronze
+    - tf-1-12-armor-boots-constantan
+dust-ore-metal-with-tf2:
+  name: Metal Ore Dust
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-dust-iron
+    - tf-1-12-dust-gold
+    - tf-1-12-dust-copper
+    - tf-1-12-dust-tin
+    - tf-1-12-dust-silver
+    - tf-1-12-dust-lead
+    - tf-1-12-dust-aluminum
+    - tf-1-12-dust-nickel
+    - tf-1-12-dust-platinum
+    - tf-1-12-dust-iridium
+    - tf-1-12-dust-mithril
+horse-armor-metal-with-tf2:
+  name: Metal Horse Armor
+  site: mc-wiki
+  url: Horse_Armor
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-horse-armor-iron
+    - mc-horse-armor-gold
+    - tf-1-12-horse-armor-copper
+    - tf-1-12-horse-armor-tin
+    - tf-1-12-horse-armor-silver
+    - tf-1-12-horse-armor-lead
+    - tf-1-12-horse-armor-aluminum
+    - tf-1-12-horse-armor-nickel
+    - tf-1-12-horse-armor-platinum
+    - tf-1-12-horse-armor-steel
+    - tf-1-12-horse-armor-electrum
+    - tf-1-12-horse-armor-invar
+    - tf-1-12-horse-armor-bronze
+    - tf-1-12-horse-armor-constantan
+ingot-metal-with-tf2:
+  name: Metal Ingot
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-ingot-iron
+    - mc-ingot-gold
+    - tf-1-12-ingot-copper
+    - tf-1-12-ingot-tin
+    - tf-1-12-ingot-silver
+    - tf-1-12-ingot-lead
+    - tf-1-12-ingot-aluminum
+    - tf-1-12-ingot-nickel
+    - tf-1-12-ingot-platinum
+    - tf-1-12-ingot-iridium
+    - tf-1-12-ingot-mithril
+    - tf-1-12-ingot-steel
+    - tf-1-12-ingot-electrum
+    - tf-1-12-ingot-invar
+    - tf-1-12-ingot-bronze
+    - tf-1-12-ingot-constantan
+    - tf-1-12-ingot-signalum
+    - tf-1-12-ingot-lumium
+    - tf-1-12-ingot-enderium
+ingot-equipment-metal-with-tf2:
+  name: Metal Ingot
+  items:
+    - mc-ingot-iron
+    - mc-ingot-gold
+    - tf-1-12-ingot-copper
+    - tf-1-12-ingot-tin
+    - tf-1-12-ingot-silver
+    - tf-1-12-ingot-lead
+    - tf-1-12-ingot-aluminum
+    - tf-1-12-ingot-nickel
+    - tf-1-12-ingot-platinum
+    - tf-1-12-ingot-steel
+    - tf-1-12-ingot-electrum
+    - tf-1-12-ingot-invar
+    - tf-1-12-ingot-bronze
+    - tf-1-12-ingot-constantan
+ingot-ore-metal-with-tf2:
+  name: Metal Ore Ingot
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-ingot-iron
+    - mc-ingot-gold
+    - tf-1-12-ingot-copper
+    - tf-1-12-ingot-tin
+    - tf-1-12-ingot-silver
+    - tf-1-12-ingot-lead
+    - tf-1-12-ingot-aluminum
+    - tf-1-12-ingot-nickel
+    - tf-1-12-ingot-platinum
+    - tf-1-12-ingot-iridium
+    - tf-1-12-ingot-mithril
+nugget-metal-with-tf2:
+  name: Metal Nugget
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-nugget-iron
+    - mc-nugget-gold
+    - tf-1-12-nugget-copper
+    - tf-1-12-nugget-tin
+    - tf-1-12-nugget-silver
+    - tf-1-12-nugget-lead
+    - tf-1-12-nugget-aluminum
+    - tf-1-12-nugget-nickel
+    - tf-1-12-nugget-platinum
+    - tf-1-12-nugget-iridium
+    - tf-1-12-nugget-mithril
+    - tf-1-12-nugget-steel
+    - tf-1-12-nugget-electrum
+    - tf-1-12-nugget-invar
+    - tf-1-12-nugget-bronze
+    - tf-1-12-nugget-constantan
+    - tf-1-12-nugget-signalum
+    - tf-1-12-nugget-lumium
+    - tf-1-12-nugget-enderium
+ore-metal-with-tf2:
+  name: Metal Ore
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-ore-iron
+    - mc-ore-gold
+    - tf-1-12-ore-copper
+    - tf-1-12-ore-tin
+    - tf-1-12-ore-silver
+    - tf-1-12-ore-lead
+    - tf-1-12-ore-aluminum
+    - tf-1-12-ore-nickel
+    - tf-1-12-ore-platinum
+    - tf-1-12-ore-iridium
+    - tf-1-12-ore-mithril
+storage-block-metal-with-tf2:
+  name: Block of Metal
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-storage-block-iron
+    - mc-storage-block-gold
+    - tf-1-12-storage-block-copper
+    - tf-1-12-storage-block-tin
+    - tf-1-12-storage-block-silver
+    - tf-1-12-storage-block-lead
+    - tf-1-12-storage-block-aluminum
+    - tf-1-12-storage-block-nickel
+    - tf-1-12-storage-block-platinum
+    - tf-1-12-storage-block-iridium
+    - tf-1-12-storage-block-mithril
+    - tf-1-12-storage-block-steel
+    - tf-1-12-storage-block-electrum
+    - tf-1-12-storage-block-invar
+    - tf-1-12-storage-block-bronze
+    - tf-1-12-storage-block-constantan
+    - tf-1-12-storage-block-signalum
+    - tf-1-12-storage-block-lumium
+    - tf-1-12-storage-block-enderium
+tool-axe-metal-with-tf2:
+  name: Metal Axe
+  site: mc-wiki
+  url: Axe
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-axe-iron
+    - mc-tool-axe-gold
+    - tf-1-12-tool-axe-copper
+    - tf-1-12-tool-axe-tin
+    - tf-1-12-tool-axe-silver
+    - tf-1-12-tool-axe-lead
+    - tf-1-12-tool-axe-aluminum
+    - tf-1-12-tool-axe-nickel
+    - tf-1-12-tool-axe-platinum
+    - tf-1-12-tool-axe-steel
+    - tf-1-12-tool-axe-electrum
+    - tf-1-12-tool-axe-invar
+    - tf-1-12-tool-axe-bronze
+    - tf-1-12-tool-axe-constantan
+tool-excavator-metal-with-tf2:
+  name: Metal Excavator
+  site: tf-1-12-docs
+  url: excavators/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-tool-excavator-iron
+    - tf-1-12-tool-excavator-gold
+    - tf-1-12-tool-excavator-copper
+    - tf-1-12-tool-excavator-tin
+    - tf-1-12-tool-excavator-silver
+    - tf-1-12-tool-excavator-lead
+    - tf-1-12-tool-excavator-aluminum
+    - tf-1-12-tool-excavator-nickel
+    - tf-1-12-tool-excavator-platinum
+    - tf-1-12-tool-excavator-steel
+    - tf-1-12-tool-excavator-electrum
+    - tf-1-12-tool-excavator-invar
+    - tf-1-12-tool-excavator-bronze
+    - tf-1-12-tool-excavator-constantan
+tool-fishing-rod-metal-with-tf2:
+  name: Metal Fishing Rod
+  site: tf-1-12-docs
+  url: fishing-rods/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-tool-fishing-rod-iron
+    - tf-1-12-tool-fishing-rod-gold
+    - tf-1-12-tool-fishing-rod-copper
+    - tf-1-12-tool-fishing-rod-tin
+    - tf-1-12-tool-fishing-rod-silver
+    - tf-1-12-tool-fishing-rod-lead
+    - tf-1-12-tool-fishing-rod-aluminum
+    - tf-1-12-tool-fishing-rod-nickel
+    - tf-1-12-tool-fishing-rod-platinum
+    - tf-1-12-tool-fishing-rod-steel
+    - tf-1-12-tool-fishing-rod-electrum
+    - tf-1-12-tool-fishing-rod-invar
+    - tf-1-12-tool-fishing-rod-bronze
+    - tf-1-12-tool-fishing-rod-constantan
+tool-hammer-metal-with-tf2:
+  name: Metal Hammer
+  site: tf-1-12-docs
+  url: hammers/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-tool-hammer-iron
+    - tf-1-12-tool-hammer-gold
+    - tf-1-12-tool-hammer-copper
+    - tf-1-12-tool-hammer-tin
+    - tf-1-12-tool-hammer-silver
+    - tf-1-12-tool-hammer-lead
+    - tf-1-12-tool-hammer-aluminum
+    - tf-1-12-tool-hammer-nickel
+    - tf-1-12-tool-hammer-platinum
+    - tf-1-12-tool-hammer-steel
+    - tf-1-12-tool-hammer-electrum
+    - tf-1-12-tool-hammer-invar
+    - tf-1-12-tool-hammer-bronze
+    - tf-1-12-tool-hammer-constantan
+tool-hoe-metal-with-tf2:
+  name: Metal Hoe
+  site: mc-wiki
+  url: Hoe
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-hoe-iron
+    - mc-tool-hoe-gold
+    - tf-1-12-tool-hoe-copper
+    - tf-1-12-tool-hoe-tin
+    - tf-1-12-tool-hoe-silver
+    - tf-1-12-tool-hoe-lead
+    - tf-1-12-tool-hoe-aluminum
+    - tf-1-12-tool-hoe-nickel
+    - tf-1-12-tool-hoe-platinum
+    - tf-1-12-tool-hoe-steel
+    - tf-1-12-tool-hoe-electrum
+    - tf-1-12-tool-hoe-invar
+    - tf-1-12-tool-hoe-bronze
+    - tf-1-12-tool-hoe-constantan
+tool-pickaxe-metal-with-tf2:
+  name: Metal Pickaxe
+  site: mc-wiki
+  url: Pickaxe
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-pickaxe-iron
+    - mc-tool-pickaxe-gold
+    - tf-1-12-tool-pickaxe-copper
+    - tf-1-12-tool-pickaxe-tin
+    - tf-1-12-tool-pickaxe-silver
+    - tf-1-12-tool-pickaxe-lead
+    - tf-1-12-tool-pickaxe-aluminum
+    - tf-1-12-tool-pickaxe-nickel
+    - tf-1-12-tool-pickaxe-platinum
+    - tf-1-12-tool-pickaxe-steel
+    - tf-1-12-tool-pickaxe-electrum
+    - tf-1-12-tool-pickaxe-invar
+    - tf-1-12-tool-pickaxe-bronze
+    - tf-1-12-tool-pickaxe-constantan
+tool-shears-metal-with-tf2:
+  name: Metal Shears
+  site: tf-1-12-docs
+  url: shears/
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-shears
+    - tf-1-12-tool-shears-gold
+    - tf-1-12-tool-shears-copper
+    - tf-1-12-tool-shears-tin
+    - tf-1-12-tool-shears-silver
+    - tf-1-12-tool-shears-lead
+    - tf-1-12-tool-shears-aluminum
+    - tf-1-12-tool-shears-nickel
+    - tf-1-12-tool-shears-platinum
+    - tf-1-12-tool-shears-steel
+    - tf-1-12-tool-shears-electrum
+    - tf-1-12-tool-shears-invar
+    - tf-1-12-tool-shears-bronze
+    - tf-1-12-tool-shears-constantan
+tool-shovel-metal-with-tf2:
+  name: Metal Shovel
+  site: mc-wiki
+  url: Shovel
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-tool-shovel-iron
+    - mc-tool-shovel-gold
+    - tf-1-12-tool-shovel-copper
+    - tf-1-12-tool-shovel-tin
+    - tf-1-12-tool-shovel-silver
+    - tf-1-12-tool-shovel-lead
+    - tf-1-12-tool-shovel-aluminum
+    - tf-1-12-tool-shovel-nickel
+    - tf-1-12-tool-shovel-platinum
+    - tf-1-12-tool-shovel-steel
+    - tf-1-12-tool-shovel-electrum
+    - tf-1-12-tool-shovel-invar
+    - tf-1-12-tool-shovel-bronze
+    - tf-1-12-tool-shovel-constantan
+tool-sickle-metal-with-tf2:
+  name: Metal Sickle
+  site: tf-1-12-docs
+  url: sickles/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-tool-sickle-iron
+    - tf-1-12-tool-sickle-gold
+    - tf-1-12-tool-sickle-copper
+    - tf-1-12-tool-sickle-tin
+    - tf-1-12-tool-sickle-silver
+    - tf-1-12-tool-sickle-lead
+    - tf-1-12-tool-sickle-aluminum
+    - tf-1-12-tool-sickle-nickel
+    - tf-1-12-tool-sickle-platinum
+    - tf-1-12-tool-sickle-steel
+    - tf-1-12-tool-sickle-electrum
+    - tf-1-12-tool-sickle-invar
+    - tf-1-12-tool-sickle-bronze
+    - tf-1-12-tool-sickle-constantan
+weapon-bow-metal-with-tf2:
+  name: Metal Reinforced Bow
+  site: tf-1-12-docs
+  url: reinforced-bows/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-weapon-bow-iron
+    - tf-1-12-weapon-bow-gold
+    - tf-1-12-weapon-bow-copper
+    - tf-1-12-weapon-bow-tin
+    - tf-1-12-weapon-bow-silver
+    - tf-1-12-weapon-bow-lead
+    - tf-1-12-weapon-bow-aluminum
+    - tf-1-12-weapon-bow-nickel
+    - tf-1-12-weapon-bow-platinum
+    - tf-1-12-weapon-bow-steel
+    - tf-1-12-weapon-bow-electrum
+    - tf-1-12-weapon-bow-invar
+    - tf-1-12-weapon-bow-bronze
+    - tf-1-12-weapon-bow-constantan
+weapon-shield-metal-with-tf2:
+  name: Metal Shield
+  site: tf-1-12-docs
+  url: shields/
+  prefix:
+    ingredient: 'any'
+  items:
+    - tf-1-12-weapon-shield-iron
+    - tf-1-12-weapon-shield-gold
+    - tf-1-12-weapon-shield-copper
+    - tf-1-12-weapon-shield-tin
+    - tf-1-12-weapon-shield-silver
+    - tf-1-12-weapon-shield-lead
+    - tf-1-12-weapon-shield-aluminum
+    - tf-1-12-weapon-shield-nickel
+    - tf-1-12-weapon-shield-platinum
+    - tf-1-12-weapon-shield-steel
+    - tf-1-12-weapon-shield-electrum
+    - tf-1-12-weapon-shield-invar
+    - tf-1-12-weapon-shield-bronze
+    - tf-1-12-weapon-shield-constantan
+weapon-sword-metal-with-tf2:
+  name: Metal Sword
+  site: mc-wiki
+  url: Sword
+  prefix:
+    ingredient: 'any'
+  items:
+    - mc-weapon-sword-iron
+    - mc-weapon-sword-gold
+    - tf-1-12-weapon-sword-copper
+    - tf-1-12-weapon-sword-tin
+    - tf-1-12-weapon-sword-silver
+    - tf-1-12-weapon-sword-lead
+    - tf-1-12-weapon-sword-aluminum
+    - tf-1-12-weapon-sword-nickel
+    - tf-1-12-weapon-sword-platinum
+    - tf-1-12-weapon-sword-steel
+    - tf-1-12-weapon-sword-electrum
+    - tf-1-12-weapon-sword-invar
+    - tf-1-12-weapon-sword-bronze
+    - tf-1-12-weapon-sword-constantan
+''')
+
+os.makedirs("output", exist_ok=True)
+
+class NoAliasDumper(yaml.SafeDumper):
+  def ignore_aliases(self, data):
+    return True
+
+for file in glob.glob("*.yml"):
+  with open(file,'r') as f:
+    data = yaml.load(f)
+    for recipe_id in data:
+      data[recipe_id]["inputs"] = {"item": [], "fluid": []}
+      for possible_input in ["input", "primary-input", "secondary-input", "fluid-input"]:
+        if input := data[recipe_id].pop(possible_input, None):
+          new = {}
+          if "item" in input or "item-group" in input:
+            if id := input.pop("item", None):
+              new["id"] = id if isinstance(id, list) else [id]
+            if group := input.pop("item-group", None):
+              new["id"] = groups[group]["items"]
+            if count := input.pop("amount", None):
+              new["count"] = count
+            data[recipe_id]["inputs"]["item"].append(new)
+          
+          if "fluid" in input:
+            new["id"] = [input["fluid"]]
+            new["amount"] = input["amount"]
+            data[recipe_id]["inputs"]["fluid"].append(new)
+      
+      data[recipe_id]["outputs"] = {"item": [], "fluid": []}
+      for possible_output in ["output", "item-output", "primary-output", "secondary-output", "fluid-output"]:
+        if output := data[recipe_id].pop(possible_output, None):
+          new = {}
+          if "item" in output or "item-group" in output:
+            if id := output.pop("item", None):
+              new["id"] = id if isinstance(id, list) else [id]
+            if group := output.pop("item-group", None):
+              new["id"] = groups[group]["items"]
+            if count := output.pop("amount", None):
+              new["count"] = count
+            if chance := data[recipe_id].pop(possible_output.replace("output", "chance"), None):
+              new["chance"] = chance / 100
+            data[recipe_id]["outputs"]["item"].append(new)
+          
+          if "fluid" in output:
+            new["id"] = [output["fluid"]]
+            new["amount"] = output["amount"]
+            data[recipe_id]["outputs"]["fluid"].append(new)
+      
+      for put in ["inputs", "outputs"]:
+        for type in ["item", "fluid"]:
+          if len(data[recipe_id][put][type]) == 0:
+            data[recipe_id][put].pop(type)
+      
+      pprint.pprint(data[recipe_id])
+    
+    with open(f'output/{file}','w') as output:
+      yaml.dump(data, output, Dumper=NoAliasDumper)

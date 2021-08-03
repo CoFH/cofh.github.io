@@ -1,0 +1,14 @@
+tree_extractor_boost_bone_meal:
+  cycles: 8
+  inputs:
+    item:
+    - id:
+      - bone_meal
+  output: 1.5
+tree_extractor_boost_phytogro:
+  cycles: 16
+  inputs:
+    item:
+    - id:
+      - phytogro
+  output: 2.0

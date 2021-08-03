@@ -1,0 +1,169 @@
+crafting_shaped:
+  name: Shaped Crafting
+  display-type: crafting
+crafting_shapeless:
+  name: Shapeless Crafting
+  display-type: crafting
+blasting:
+  name: Blasting
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+bottler:
+  name: Fluid Encapsulator
+  display-type: machine
+  energy: 400
+  inputs:
+    item: 1
+    fluid: 1
+  outputs:
+    item: 1
+centrifuge:
+  name: Centrifugal Separator
+  display-type: machine
+  energy: 4000
+  inputs:
+    item: 1
+  outputs:
+    item: 4
+    fluid: 1
+chiller:
+  name: Blast Chiller
+  display-type: machine
+  inputs:
+    item: 1
+    fluid: 1
+  outputs:
+    item: 1
+crucible:
+  name: Magma Crucible
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    fluid: 1
+furnace:
+  name: Redstone Furnace
+  display-type: machine
+  energy: 2000
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+insolator:
+  name: Phytogenic Insolator
+  display-type: machine
+  energy: 20000
+  water: 500
+  inputs:
+    item: 1
+    catalyst: 1
+    fluid: 1
+  outputs:
+    item: 4
+press:
+  name: Multiservo Press
+  display-type: machine
+  energy: 2400
+  inputs:
+    item: 1
+    lower-item: 1
+  outputs:
+    item: 1
+    fluid: 1
+pulverizer:
+  name: Pulverizer
+  display-type: machine
+  energy: 4000
+  inputs:
+    item: 1
+    catalyst: 1
+  outputs:
+    item: 4
+pyrolyzer:
+  name: Pyrolyzer
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 4
+    fluid: 1
+refinery:
+  name: Fractionating Still
+  display-type: machine
+  inputs:
+    fluid: 1
+  outputs:
+    item: 1
+    fluid: 2
+sawmill:
+  name: Sawmill
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 4
+smelter:
+  name: Induction Smelter
+  display-type: machine
+  energy: 3200
+  inputs:
+    item: 3
+    catalyst: 1
+  outputs:
+    item: 4
+smelting:
+  name: Smelting
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+potion_diffuser_boost:
+  name: Potion Diffuser Boost
+  display-type: boost
+rock_gen:
+  name: Igneous Extruder
+  display-type: rock_gen
+tree_extractor:
+  name: Arboreal Extractor
+  display-type: tree_extractor
+tree_extractor_boost:
+  name: Arboreal Extractor Boost
+  display-type: boost
+insolator_catalyst:
+  name: Phytogenic Insolator Catalyst
+  display-type: catalyst
+pulverizer_catalyst:
+  name: Pulverizer Catalyst
+  display-type: catalyst
+smelter_catalyst:
+  name: Induction Smelter Catalyst
+  display-type: catalyst
+compression_fuel:
+  name: Compression Dynamo
+  display-type: dynamo
+  inputs:
+    fluid: 1
+lapidary_fuel:
+  name: Lapidary Dynamo
+  display-type: dynamo
+  inputs:
+    item: 1
+numismatic_fuel:
+  name: Numismatic Dynamo
+  display-type: dynamo
+  inputs:
+    item: 1
+magmatic_fuel:
+  name: Magmatic Dynamo
+  display-type: dynamo
+  inputs:
+    fluid: 1
+stirling_fuel:
+  name: Stirling Dynamo
+  display-type: dynamo
+  inputs:
+    item: 1

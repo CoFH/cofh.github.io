@@ -1,0 +1,48 @@
+tree_extractor_acacia:
+  leaves: acacia_leaves
+  outputs:
+    fluid:
+    - amount: 25
+      id:
+      - fluid_resin
+  trunk: acacia_log
+tree_extractor_birch:
+  leaves: birch_leaves
+  outputs:
+    fluid:
+    - amount: 25
+      id:
+      - fluid_resin
+  trunk: birch_log
+tree_extractor_dark_oak:
+  leaves: dark_oak_leaves
+  outputs:
+    fluid:
+    - amount: 25
+      id:
+      - fluid_sap
+  trunk: dark_oak_log
+tree_extractor_jungle:
+  leaves: jungle_leaves
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - fluid_latex
+  trunk: jungle_log
+tree_extractor_oak:
+  leaves: oak_leaves
+  outputs:
+    fluid:
+    - amount: 25
+      id:
+      - fluid_resin
+  trunk: oak_log
+tree_extractor_spruce:
+  leaves: spruce_leaves
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - fluid_resin
+  trunk: spruce_log

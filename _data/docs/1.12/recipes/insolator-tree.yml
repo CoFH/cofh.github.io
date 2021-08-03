@@ -1,0 +1,105 @@
+wood:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-sapling-oak
+      - mc-sapling-spruce
+      - mc-sapling-birch
+      - mc-sapling-jungle
+      - mc-sapling-acacia
+      - mc-sapling-dark-oak
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-wood-log-oak
+      - mc-wood-log-spruce
+      - mc-wood-log-birch
+      - mc-wood-log-jungle
+      - mc-wood-log-acacia
+      - mc-wood-log-dark-oak
+    - chance: 1.0
+      id:
+      - mc-sapling-oak
+      - mc-sapling-spruce
+      - mc-sapling-birch
+      - mc-sapling-jungle
+      - mc-sapling-acacia
+      - mc-sapling-dark-oak
+wood-fluxed:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-sapling-oak
+      - mc-sapling-spruce
+      - mc-sapling-birch
+      - mc-sapling-jungle
+      - mc-sapling-acacia
+      - mc-sapling-dark-oak
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 24
+      id:
+      - mc-wood-log-oak
+      - mc-wood-log-spruce
+      - mc-wood-log-birch
+      - mc-wood-log-jungle
+      - mc-wood-log-acacia
+      - mc-wood-log-dark-oak
+    - chance: 1.5
+      id:
+      - mc-sapling-oak
+      - mc-sapling-spruce
+      - mc-sapling-birch
+      - mc-sapling-jungle
+      - mc-sapling-acacia
+      - mc-sapling-dark-oak
+wood-rich:
+  energy: 6000
+  inputs:
+    fluid:
+    - amount: 1500
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-sapling-oak
+      - mc-sapling-spruce
+      - mc-sapling-birch
+      - mc-sapling-jungle
+      - mc-sapling-acacia
+      - mc-sapling-dark-oak
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 18
+      id:
+      - mc-wood-log-oak
+      - mc-wood-log-spruce
+      - mc-wood-log-birch
+      - mc-wood-log-jungle
+      - mc-wood-log-acacia
+      - mc-wood-log-dark-oak
+    - chance: 1.25
+      id:
+      - mc-sapling-oak
+      - mc-sapling-spruce
+      - mc-sapling-birch
+      - mc-sapling-jungle
+      - mc-sapling-acacia
+      - mc-sapling-dark-oak

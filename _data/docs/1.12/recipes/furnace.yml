@@ -1,0 +1,103 @@
+cactus-green:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - mc-cactus
+  outputs:
+    item:
+    - id:
+      - mc-cactus-green
+food:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - mc-potato
+      - mc-porkchop-raw
+      - mc-beef-raw
+      - mc-chicken-raw
+      - mc-mutton-raw
+      - mc-rabbit-raw
+      - mc-fish-raw
+      - mc-salmon-raw
+  outputs:
+    item:
+    - id:
+      - mc-potato-baked
+      - mc-porkchop-cooked
+      - mc-beef-cooked
+      - mc-chicken-cooked
+      - mc-mutton-cooked
+      - mc-rabbit-cooked
+      - mc-fish-cooked
+      - mc-salmon-cooked
+ingot-from-dust:
+  energy: 1500
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-iron
+      - tf-1-12-dust-gold
+      - tf-1-12-dust-copper
+      - tf-1-12-dust-tin
+      - tf-1-12-dust-silver
+      - tf-1-12-dust-lead
+      - tf-1-12-dust-nickel
+      - tf-1-12-dust-platinum
+      - tf-1-12-dust-iridium
+      - tf-1-12-dust-mithril
+      - tf-1-12-dust-electrum
+      - tf-1-12-dust-invar
+      - tf-1-12-dust-bronze
+      - tf-1-12-dust-constantan
+  outputs:
+    item:
+    - id:
+      - mc-ingot-iron
+      - mc-ingot-gold
+      - tf-1-12-ingot-copper
+      - tf-1-12-ingot-tin
+      - tf-1-12-ingot-silver
+      - tf-1-12-ingot-lead
+      - tf-1-12-ingot-nickel
+      - tf-1-12-ingot-platinum
+      - tf-1-12-ingot-iridium
+      - tf-1-12-ingot-mithril
+      - tf-1-12-ingot-electrum
+      - tf-1-12-ingot-invar
+      - tf-1-12-ingot-bronze
+      - tf-1-12-ingot-constantan
+leather:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-rotten-flesh
+  outputs:
+    item:
+    - id:
+      - mc-leather
+ore-processing-lapis-lazuli:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-ore-lapis-lazuli
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-lapis-lazuli
+ore-processing-redstone:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-ore-redstone
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-redstone

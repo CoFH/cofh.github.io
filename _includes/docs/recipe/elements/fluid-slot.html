@@ -1,0 +1,54 @@
+{%- if include.id -%}
+  {%- unless ver -%}
+    {%- assign ver = page.version | replace: ".", "" -%}
+  {%- endunless -%}
+  
+  {%- if include.id.first -%}
+    {%- assign id = include.id.first -%}
+  {%- else -%}
+    {%- assign id = include.id -%}
+  {%- endif -%}
+  
+  {%- assign link = "" -%}
+  {%- for cache-id in cache-ids -%}
+    {%- if cache-id == id -%}
+      {%- assign link = cache-links[forloop.index0] -%}
+      {%- break -%}
+    {%- endif -%}
+    
+    {%- if forloop.last -%}
+      {%- assign cache-ids = cache-ids | push: id -%}
+      {%- capture link -%}{% include docs/get-link.html id=id %}{%- endcapture -%}
+      {%- assign cache-links = cache-links | push: link -%}
+    {%- endif -%}
+  {%- endfor -%}
+  
+  {%- assign tooltip = site.data.docs[ver].items-fluids[id].name -%}
+	{%- if include.amount -%}
+    {%- capture amount -%}{% include util/number-commas.html number=include.amount %}{%- endcapture -%}
+    {%- assign tooltip = tooltip | append: "<br>" | append: amount | append: "mB" -%}
+  {%- endif -%}
+  
+  {%- assign data = site.data.docs[ver].items-fluids[id] -%}
+  {%- if link and link != "" -%}
+    <a href="{{link}}" class="docs-fluid-slot">
+      <div class="docs-fluid-icon">
+        {% include docs/icon.html ids=id %}
+      </div>
+      <div class="docs-fluid-overlay"></div>
+      <div class="docs-tooltip">{{tooltip}}</div>
+    </a>
+  {%- else -%}
+    <div class="docs-fluid-slot">
+      <div class="docs-fluid-icon">
+        {% include docs/icon.html ids=id %}
+      </div>
+      <div class="docs-fluid-overlay"></div>
+      <div class="docs-tooltip">{{tooltip}}</div>
+    </div>
+  {%- endif -%}
+{%- else -%}
+  <div class="docs-fluid-slot">
+    <div class="docs-fluid-overlay"></div>
+  </div>
+{%- endif -%}

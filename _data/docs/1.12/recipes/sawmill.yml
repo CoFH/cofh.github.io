@@ -1,0 +1,342 @@
+biomass-from-beetroot:
+  energy: 2000
+  inputs:
+    item:
+    - count: 8
+      id:
+      - mc-beetroot
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+    - chance: 0.5
+      id:
+      - mc-beetroot-seeds
+biomass-from-cactus:
+  energy: 2000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-cactus
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+biomass-from-carrot:
+  energy: 2000
+  inputs:
+    item:
+    - count: 8
+      id:
+      - mc-carrot
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+biomass-from-lily-pad:
+  energy: 2000
+  inputs:
+    item:
+    - count: 8
+      id:
+      - mc-lily-pad
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+biomass-from-melon:
+  energy: 2000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-melon
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+    - chance: 0.5
+      id:
+      - mc-melon-seeds
+biomass-from-potato:
+  energy: 2000
+  inputs:
+    item:
+    - count: 8
+      id:
+      - mc-potato
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+biomass-from-pumpkin:
+  energy: 2000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-pumpkin
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+    - chance: 0.5
+      id:
+      - mc-pumpkin-seeds
+biomass-from-sapling:
+  energy: 2000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-sapling-oak
+      - mc-sapling-spruce
+      - mc-sapling-birch
+      - mc-sapling-jungle
+      - mc-sapling-acacia
+      - mc-sapling-dark-oak
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+    - chance: 0.5
+      id:
+      - tf-1-12-sawdust
+biomass-from-sugar-canes:
+  energy: 2000
+  inputs:
+    item:
+    - count: 8
+      id:
+      - mc-sugar-canes
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+    - chance: 1.0
+      count: 2
+      id:
+      - mc-sugar
+biomass-from-vines:
+  energy: 2000
+  inputs:
+    item:
+    - count: 8
+      id:
+      - mc-vines
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+biomass-from-wheat:
+  energy: 2000
+  inputs:
+    item:
+    - count: 8
+      id:
+      - mc-wheat
+  outputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+    - chance: 0.5
+      id:
+      - mc-seeds
+recycling-armor-boots-leather:
+  energy: 1500
+  inputs:
+    item:
+    - id:
+      - mc-armor-boots-leather
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-leather
+recycling-armor-chestplate-leather:
+  energy: 1500
+  inputs:
+    item:
+    - id:
+      - mc-armor-chestplate-leather
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-leather
+recycling-armor-helmet-leather:
+  energy: 1500
+  inputs:
+    item:
+    - id:
+      - mc-armor-helmet-leather
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-leather
+recycling-armor-leggings-leather:
+  energy: 1500
+  inputs:
+    item:
+    - id:
+      - mc-armor-leggings-leather
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-leather
+recycling-boat:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-boat-oak
+      - mc-boat-spruce
+      - mc-boat-birch
+      - mc-boat-jungle
+      - mc-boat-acacia
+      - mc-boat-dark-oak
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-wood-planks-oak
+      - mc-wood-planks-spruce
+      - mc-wood-planks-birch
+      - mc-wood-planks-jungle
+      - mc-wood-planks-acacia
+      - mc-wood-planks-dark-oak
+    - chance: 1.25
+      id:
+      - tf-1-12-sawdust
+recycling-door:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-door-wood-oak
+      - mc-door-wood-spruce
+      - mc-door-wood-birch
+      - mc-door-wood-jungle
+      - mc-door-wood-acacia
+      - mc-door-wood-dark-oak
+  outputs:
+    item:
+    - id:
+      - mc-wood-planks-oak
+      - mc-wood-planks-spruce
+      - mc-wood-planks-birch
+      - mc-wood-planks-jungle
+      - mc-wood-planks-acacia
+      - mc-wood-planks-dark-oak
+    - chance: 0.5
+      id:
+      - tf-1-12-sawdust
+recycling-fence:
+  energy: 2000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - mc-fence-oak
+      - mc-fence-spruce
+      - mc-fence-birch
+      - mc-fence-jungle
+      - mc-fence-acacia
+      - mc-fence-dark-oak
+  outputs:
+    item:
+    - id:
+      - mc-wood-planks-oak
+      - mc-wood-planks-spruce
+      - mc-wood-planks-birch
+      - mc-wood-planks-jungle
+      - mc-wood-planks-acacia
+      - mc-wood-planks-dark-oak
+    - chance: 0.25
+      id:
+      - tf-1-12-sawdust
+recycling-fence-gate:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-fence-gate-oak
+      - mc-fence-gate-spruce
+      - mc-fence-gate-birch
+      - mc-fence-gate-jungle
+      - mc-fence-gate-acacia
+      - mc-fence-gate-dark-oak
+  outputs:
+    item:
+    - id:
+      - mc-wood-planks-oak
+      - mc-wood-planks-spruce
+      - mc-wood-planks-birch
+      - mc-wood-planks-jungle
+      - mc-wood-planks-acacia
+      - mc-wood-planks-dark-oak
+    - chance: 1.25
+      id:
+      - tf-1-12-sawdust
+recycling-saddle:
+  energy: 1500
+  inputs:
+    item:
+    - id:
+      - mc-saddle
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-leather
+recycling-wood-stairs:
+  energy: 2000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - mc-wood-stairs-oak
+      - mc-wood-stairs-spruce
+      - mc-wood-stairs-birch
+      - mc-wood-stairs-jungle
+      - mc-wood-stairs-acacia
+      - mc-wood-stairs-dark-oak
+  outputs:
+    item:
+    - id:
+      - mc-wood-planks-oak
+      - mc-wood-planks-spruce
+      - mc-wood-planks-birch
+      - mc-wood-planks-jungle
+      - mc-wood-planks-acacia
+      - mc-wood-planks-dark-oak
+    - chance: 0.25
+      id:
+      - tf-1-12-sawdust
+wood-processing:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - mc-wood-log-oak
+      - mc-wood-log-spruce
+      - mc-wood-log-birch
+      - mc-wood-log-jungle
+      - mc-wood-log-acacia
+      - mc-wood-log-dark-oak
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-wood-planks-oak
+      - mc-wood-planks-spruce
+      - mc-wood-planks-birch
+      - mc-wood-planks-jungle
+      - mc-wood-planks-acacia
+      - mc-wood-planks-dark-oak
+    - chance: 1.0
+      id:
+      - tf-1-12-sawdust

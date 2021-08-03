@@ -1,0 +1,82 @@
+refinery_crude_oil:
+  energy: 6000
+  inputs:
+    fluid:
+    - amount: 100
+      id:
+      - fluid_crude_oil
+  outputs:
+    fluid:
+    - amount: 40
+      id:
+      - fluid_heavy_oil
+    - amount: 60
+      id:
+      - fluid_light_oil
+    item:
+    - chance: 0.1
+      id:
+      - bitumen
+refinery_heavy_oil:
+  energy: 6000
+  inputs:
+    fluid:
+    - amount: 100
+      id:
+      - fluid_heavy_oil
+  outputs:
+    fluid:
+    - amount: 75
+      id:
+      - fluid_refined_fuel
+    item:
+    - chance: 0.1
+      id:
+      - tar
+refinery_light_oil:
+  energy: 6000
+  inputs:
+    fluid:
+    - amount: 100
+      id:
+      - fluid_light_oil
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - fluid_refined_fuel
+    item:
+    - chance: 0.2
+      id:
+      - sulfur_dust
+refinery_resin:
+  energy: 4000
+  inputs:
+    fluid:
+    - amount: 200
+      id:
+      - fluid_resin
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - fluid_tree_oil
+    item:
+    - chance: 0.5
+      id:
+      - rosin
+refinery_sap:
+  energy: 4000
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_sap
+  outputs:
+    fluid:
+    - amount: 50
+      id:
+      - fluid_syrup
+    - amount: 950
+      id:
+      - fluid_water

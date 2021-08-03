@@ -2,27 +2,21 @@
 layout: default
 ---
 
-<div id="cofh-docs-content" class="uk-width-1-1 uk-width-medium-3-4 uk-container-center">
+{%- assign docs-by-version = site.pages | where: "layout", "docs" | group_by: "version" | sort: "name" -%}
+
+<div class="body">
+  {% include docs/nav/navtabs.html %}
+  <main id="main-content" class="docs-content content">
     <h1>{{ page.title }}</h1>
-    <hr />
-
-    {%- if page.outdated -%}
-        {% include page-outdated.html %}
-    {%- endif -%}
-
-    {%- if page.wip -%}
-        {% include page-wip.html %}
-    {%- endif -%}
-
-    {%- if page.image -%}
-        {% include page-image.html data=page.image %}
-    {%- endif -%}
-
-    {{ content }}
-
-    {%- if page.nav -%}
-        <div class="uk-width-1-1 uk-width-medium-5-6 uk-container-center" style="margin-top: 65px">
-            {% include navbox.html nav=page.nav %}
-        </div>
-    {%- endif -%}
+    <div class="subtext">{{ page.mod }} {{ page.version }}</div>
+    <hr>
+    {% include docs/nav/table-of-contents.html html=content ordered=true %}
+    <article>
+      {%- include docs/image.html -%}
+      
+      {{ content }}
+    </article>
+  </main>
+  {% include docs/nav/navbox.html %}
 </div>
+<script src="/assets/js/cofh-docs.js"></script>

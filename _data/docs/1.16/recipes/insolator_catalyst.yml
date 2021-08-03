@@ -1,0 +1,20 @@
+insolator_catalyst_bone_meal:
+  energy_mod: 0.8
+  inputs:
+    item:
+    - id:
+      - bone_meal
+  min_chance: 0.1
+  primary_mod: 1.5
+  secondary_mod: 1.5
+  use_chance: 0.5
+insolator_catalyst_phytogro:
+  energy_mod: 0.8
+  inputs:
+    item:
+    - id:
+      - phytogro
+  min_chance: 0.75
+  primary_mod: 3.0
+  secondary_mod: 3.0
+  use_chance: 0.75

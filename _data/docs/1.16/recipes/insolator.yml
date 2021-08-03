@@ -1,0 +1,897 @@
+insolator_acacia_sapling:
+  energy_mod: 3.0
+  inputs:
+    item:
+    - id:
+      - acacia_sapling
+  outputs:
+    item:
+    - chance: 6.0
+      id:
+      - acacia_log
+    - chance: 1.1
+      id:
+      - acacia_sapling
+  water_mod: 3.0
+insolator_allium:
+  inputs:
+    item:
+    - id:
+      - allium
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - allium
+insolator_azure_bluet:
+  inputs:
+    item:
+    - id:
+      - azure_bluet
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - azure_bluet
+insolator_bamboo:
+  inputs:
+    item:
+    - id:
+      - bamboo
+  outputs:
+    item:
+    - chance: 3.0
+      id:
+      - bamboo
+insolator_barley:
+  inputs:
+    item:
+    - id:
+      - barley_seeds
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - barley
+    - chance: 1.1
+      id:
+      - barley_seeds
+  water_mod: 0.5
+insolator_beetroot:
+  inputs:
+    item:
+    - id:
+      - beetroot_seeds
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - beetroot
+    - chance: 1.1
+      id:
+      - beetroot_seeds
+insolator_bell_pepper:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - bell_pepper_seeds
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - bell_pepper
+    - chance: 1.1
+      id:
+      - bell_pepper_seeds
+  water_mod: 1.5
+insolator_birch_sapling:
+  energy_mod: 3.0
+  inputs:
+    item:
+    - id:
+      - birch_sapling
+  outputs:
+    item:
+    - chance: 6.0
+      id:
+      - birch_log
+    - chance: 1.1
+      id:
+      - birch_sapling
+  water_mod: 3.0
+insolator_blue_orchid:
+  inputs:
+    item:
+    - id:
+      - blue_orchid
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - blue_orchid
+insolator_brain_coral:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - brain_coral
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - brain_coral
+  water_mod: 1.5
+insolator_brain_coral_fan:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - brain_coral_fan
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - brain_coral_fan
+  water_mod: 1.5
+insolator_brown_mushroom:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - brown_mushroom
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - brown_mushroom
+  water_mod: 1.5
+insolator_bubble_coral:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - bubble_coral
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - bubble_coral
+  water_mod: 1.5
+insolator_bubble_coral_fan:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - bubble_coral_fan
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - bubble_coral_fan
+  water_mod: 1.5
+insolator_cactus:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - cactus
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - cactus
+  water_mod: 0.5
+insolator_carrot:
+  inputs:
+    item:
+    - id:
+      - carrot
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - carrot
+insolator_chorus_flower:
+  energy_mod: 2.0
+  inputs:
+    item:
+    - id:
+      - chorus_flower
+  outputs:
+    item:
+    - chance: 1.1
+      id:
+      - chorus_fruit
+    - chance: 1.1
+      id:
+      - chorus_flower
+  water_mod: 2.0
+insolator_cocoa_beans:
+  inputs:
+    item:
+    - id:
+      - cocoa_beans
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - cocoa_beans
+insolator_corn:
+  energy_mod: 1.25
+  inputs:
+    item:
+    - id:
+      - corn_seeds
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - corn
+    - chance: 1.1
+      id:
+      - corn_seeds
+  water_mod: 1.25
+insolator_cornflower:
+  inputs:
+    item:
+    - id:
+      - cornflower
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - cornflower
+insolator_dandelion:
+  inputs:
+    item:
+    - id:
+      - dandelion
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - dandelion
+insolator_dark_oak_sapling:
+  energy_mod: 3.0
+  inputs:
+    item:
+    - id:
+      - dark_oak_sapling
+  outputs:
+    item:
+    - chance: 6.0
+      id:
+      - dark_oak_log
+    - chance: 1.1
+      id:
+      - dark_oak_sapling
+    - chance: 0.5
+      id:
+      - apple
+  water_mod: 3.0
+insolator_eggplant:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - eggplant_seeds
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - eggplant
+    - chance: 1.1
+      id:
+      - eggplant_seeds
+  water_mod: 1.5
+insolator_fire_coral:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - fire_coral
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - fire_coral
+  water_mod: 1.5
+insolator_fire_coral_fan:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - fire_coral_fan
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - fire_coral_fan
+  water_mod: 1.5
+insolator_flax:
+  inputs:
+    item:
+    - id:
+      - flax_seeds
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - flax
+    - chance: 1.1
+      id:
+      - flax_seeds
+  water_mod: 0.5
+insolator_frost_melon:
+  energy_mod: 3.0
+  inputs:
+    item:
+    - id:
+      - frost_melon_seeds
+  outputs:
+    item:
+    - chance: 1.1
+      id:
+      - frost_melon
+    - chance: 1.1
+      id:
+      - frost_melon_seeds
+  water_mod: 1.5
+insolator_glowstone_mushroom:
+  energy_mod: 4.0
+  inputs:
+    item:
+    - id:
+      - glowstone_mushroom_spores
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - glowstone_dust
+    - chance: 1.0
+      id:
+      - glowstone_mushroom_spores
+insolator_green_bean:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - green_bean_seeds
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - green_bean
+    - chance: 1.1
+      id:
+      - green_bean_seeds
+  water_mod: 1.5
+insolator_gunpowder_mushroom:
+  energy_mod: 4.0
+  inputs:
+    item:
+    - id:
+      - gunpowder_mushroom_spores
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - gunpowder
+    - chance: 1.0
+      id:
+      - gunpowder_mushroom_spores
+insolator_horn_coral:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - horn_coral
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - horn_coral
+  water_mod: 1.5
+insolator_horn_coral_fan:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - horn_coral_fan
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - horn_coral_fan
+  water_mod: 1.5
+insolator_jungle_sapling:
+  energy_mod: 3.0
+  inputs:
+    item:
+    - id:
+      - jungle_sapling
+  outputs:
+    item:
+    - chance: 6.0
+      id:
+      - jungle_log
+    - chance: 1.1
+      id:
+      - jungle_sapling
+  water_mod: 3.0
+insolator_kelp:
+  inputs:
+    item:
+    - id:
+      - kelp
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - kelp
+insolator_lilac:
+  inputs:
+    item:
+    - id:
+      - lilac
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - lilac
+insolator_lily_of_the_valley:
+  inputs:
+    item:
+    - id:
+      - lily_of_the_valley
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - lily_of_the_valley
+insolator_lily_pad:
+  inputs:
+    item:
+    - id:
+      - lily_pad
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - lily_pad
+insolator_melon:
+  energy_mod: 2.0
+  inputs:
+    item:
+    - id:
+      - melon_seeds
+  outputs:
+    item:
+    - chance: 1.1
+      id:
+      - melon
+    - chance: 1.1
+      id:
+      - melon_seeds
+  water_mod: 2.0
+insolator_nether_wart:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - nether_wart
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - nether_wart
+insolator_oak_sapling:
+  energy_mod: 3.0
+  inputs:
+    item:
+    - id:
+      - oak_sapling
+  outputs:
+    item:
+    - chance: 6.0
+      id:
+      - oak_log
+    - chance: 1.1
+      id:
+      - oak_sapling
+    - chance: 0.5
+      id:
+      - apple
+  water_mod: 3.0
+insolator_onion:
+  inputs:
+    item:
+    - id:
+      - onion_seeds
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - onion
+    - chance: 1.1
+      id:
+      - onion_seeds
+insolator_orange_tulip:
+  inputs:
+    item:
+    - id:
+      - orange_tulip
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - orange_tulip
+insolator_oxeye_daisy:
+  inputs:
+    item:
+    - id:
+      - oxeye_daisy
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - oxeye_daisy
+insolator_peanut:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - peanut_seeds
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - peanut
+    - chance: 1.1
+      id:
+      - peanut_seeds
+  water_mod: 1.5
+insolator_peony:
+  inputs:
+    item:
+    - id:
+      - peony
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - peony
+insolator_pink_tulip:
+  inputs:
+    item:
+    - id:
+      - pink_tulip
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - pink_tulip
+insolator_poppy:
+  inputs:
+    item:
+    - id:
+      - poppy
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - poppy
+insolator_potato:
+  inputs:
+    item:
+    - id:
+      - potato
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - potato
+    - chance: 0.05
+      id:
+      - poisonous_potato
+insolator_pumpkin:
+  energy_mod: 2.0
+  inputs:
+    item:
+    - id:
+      - pumpkin_seeds
+  outputs:
+    item:
+    - chance: 1.1
+      id:
+      - pumpkin
+    - chance: 1.1
+      id:
+      - pumpkin_seeds
+  water_mod: 2.0
+insolator_radish:
+  inputs:
+    item:
+    - id:
+      - radish_seeds
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - radish
+    - chance: 1.1
+      id:
+      - radish_seeds
+insolator_red_mushroom:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - red_mushroom
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - red_mushroom
+  water_mod: 1.5
+insolator_red_tulip:
+  inputs:
+    item:
+    - id:
+      - red_tulip
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - red_tulip
+insolator_redstone_mushroom:
+  energy_mod: 4.0
+  inputs:
+    item:
+    - id:
+      - redstone_mushroom_spores
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - redstone
+    - chance: 1.0
+      id:
+      - redstone_mushroom_spores
+insolator_rice:
+  inputs:
+    item:
+    - id:
+      - rice_seeds
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - rice
+    - chance: 1.1
+      id:
+      - rice_seeds
+insolator_rose_bush:
+  inputs:
+    item:
+    - id:
+      - rose_bush
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - rose_bush
+insolator_sadiroot:
+  inputs:
+    item:
+    - id:
+      - sadiroot_seeds
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - sadiroot
+    - chance: 1.1
+      id:
+      - sadiroot_seeds
+insolator_sea_pickle:
+  inputs:
+    item:
+    - id:
+      - sea_pickle
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - sea_pickle
+insolator_slime_mushroom:
+  energy_mod: 4.0
+  inputs:
+    item:
+    - id:
+      - slime_mushroom_spores
+  outputs:
+    item:
+    - chance: 1.0
+      id:
+      - slime_ball
+    - chance: 1.0
+      id:
+      - slime_mushroom_spores
+insolator_spinach:
+  inputs:
+    item:
+    - id:
+      - spinach_seeds
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - spinach
+    - chance: 1.1
+      id:
+      - spinach_seeds
+insolator_spruce_sapling:
+  energy_mod: 3.0
+  inputs:
+    item:
+    - id:
+      - spruce_sapling
+  outputs:
+    item:
+    - chance: 6.0
+      id:
+      - spruce_log
+    - chance: 1.1
+      id:
+      - spruce_sapling
+  water_mod: 3.0
+insolator_strawberry:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - strawberry_seeds
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - strawberry
+    - chance: 1.1
+      id:
+      - strawberry_seeds
+  water_mod: 1.5
+insolator_sugar_cane:
+  inputs:
+    item:
+    - id:
+      - sugar_cane
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - sugar_cane
+insolator_sunflower:
+  inputs:
+    item:
+    - id:
+      - sunflower
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - sunflower
+insolator_sweet_berries:
+  inputs:
+    item:
+    - id:
+      - sweet_berries
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - sweet_berries
+insolator_tomato:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - tomato_seeds
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - tomato
+    - chance: 1.1
+      id:
+      - tomato_seeds
+  water_mod: 1.5
+insolator_tube_coral:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - tube_coral
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - tube_coral
+  water_mod: 1.5
+insolator_tube_coral_fan:
+  energy_mod: 1.5
+  inputs:
+    item:
+    - id:
+      - tube_coral_fan
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - tube_coral_fan
+  water_mod: 1.5
+insolator_twisting_vines:
+  inputs:
+    item:
+    - id:
+      - twisting_vines
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - twisting_vines
+insolator_vine:
+  inputs:
+    item:
+    - id:
+      - vine
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - vine
+insolator_weeping_vines:
+  inputs:
+    item:
+    - id:
+      - weeping_vines
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - weeping_vines
+insolator_wheat:
+  inputs:
+    item:
+    - id:
+      - wheat_seeds
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - wheat
+    - chance: 1.1
+      id:
+      - wheat_seeds
+  water_mod: 0.5
+insolator_white_tulip:
+  inputs:
+    item:
+    - id:
+      - white_tulip
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - white_tulip
+insolator_wither_rose:
+  inputs:
+    item:
+    - id:
+      - wither_rose
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - wither_rose

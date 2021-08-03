@@ -1,0 +1,408 @@
+aerotheum:
+  energy: 8000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-aerotheum
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-aerotheum
+biocrude-from-bioblend:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bioblend
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-biocrude
+biocrude-from-bioblend-rich:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bioblend-rich
+  outputs:
+    fluid:
+    - amount: 150
+      id:
+      - tf-1-12-biocrude
+biocrude-from-biomass:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-biocrude
+biocrude-from-biomass-rich:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-biomass-rich
+  outputs:
+    fluid:
+    - amount: 150
+      id:
+      - tf-1-12-biocrude
+coal:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-coal
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-coal
+crude-oil-from-bitumen:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bitumen
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-crude-oil
+cryotheum:
+  energy: 8000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-cryotheum
+ender:
+  energy: 20000
+  inputs:
+    item:
+    - id:
+      - mc-ender-pearl
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-ender
+ender-from-clathrate:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-clathrate-ender
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-ender
+fluid-ore-processing-ender:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-fluid-ender
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-ender
+fluid-ore-processing-glowstone:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-fluid-glowstone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-glowstone
+fluid-ore-processing-oil-sand:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-oil-sand
+      - tf-1-12-oil-sand-red
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-crude-oil
+fluid-ore-processing-oil-shale:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-oil-shale
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-crude-oil
+fluid-ore-processing-redstone:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-fluid-redstone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-redstone
+glowstone:
+  energy: 20000
+  inputs:
+    item:
+    - id:
+      - mc-glowstone-dust
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-glowstone
+glowstone-from-block:
+  energy: 80000
+  inputs:
+    item:
+    - id:
+      - mc-glowstone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-glowstone
+glowstone-from-clathrate:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-clathrate-glowstone
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-glowstone
+lava-from-andesite:
+  energy: 300000
+  inputs:
+    item:
+    - id:
+      - mc-andesite
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-andesite-polished:
+  energy: 300000
+  inputs:
+    item:
+    - id:
+      - mc-andesite-polished
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-cobblestone:
+  energy: 300000
+  inputs:
+    item:
+    - id:
+      - mc-cobblestone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-diorite:
+  energy: 300000
+  inputs:
+    item:
+    - id:
+      - mc-diorite
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-diorite-polished:
+  energy: 300000
+  inputs:
+    item:
+    - id:
+      - mc-diorite-polished
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-granite:
+  energy: 300000
+  inputs:
+    item:
+    - id:
+      - mc-granite
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-granite-polished:
+  energy: 300000
+  inputs:
+    item:
+    - id:
+      - mc-granite-polished
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-magma-block:
+  energy: 40000
+  inputs:
+    item:
+    - id:
+      - mc-magma-block
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-netherrack:
+  energy: 60000
+  inputs:
+    item:
+    - id:
+      - mc-netherrack
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-obsidian:
+  energy: 300000
+  inputs:
+    item:
+    - id:
+      - mc-obsidian
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+lava-from-stone:
+  energy: 300000
+  inputs:
+    item:
+    - id:
+      - mc-stone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+petrotheum:
+  energy: 8000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-petrotheum
+pyrotheum:
+  energy: 8000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-pyrotheum
+redstone:
+  energy: 8000
+  inputs:
+    item:
+    - id:
+      - mc-redstone
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - tf-1-12-redstone
+redstone-from-block:
+  energy: 72000
+  inputs:
+    item:
+    - id:
+      - mc-storage-block-redstone
+  outputs:
+    fluid:
+    - amount: 900
+      id:
+      - tf-1-12-redstone
+redstone-from-clathrate:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-clathrate-redstone
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - tf-1-12-redstone
+water-from-ice:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - mc-ice
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-water
+water-from-snow:
+  energy: 800
+  inputs:
+    item:
+    - id:
+      - mc-snow
+  outputs:
+    fluid:
+    - amount: 500
+      id:
+      - mc-water
+water-from-snowball:
+  energy: 200
+  inputs:
+    item:
+    - id:
+      - mc-snowball
+  outputs:
+    fluid:
+    - amount: 125
+      id:
+      - mc-water

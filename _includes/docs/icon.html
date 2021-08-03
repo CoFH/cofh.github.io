@@ -1,0 +1,31 @@
+{%- if include.ids -%}  
+  {%- if include.version -%}
+    {%- assign version = include.version -%}
+  {%- elsif page.version -%}
+    {%- assign version = page.version -%}
+  {%- endif -%}
+    {%- assign ver = version | replace: ".", "" -%}
+  
+  {%- if include.ids.first -%}
+    {%- assign ids = include.ids -%}
+  {%- else -%}
+    {%- assign ids = include.ids | split: " " -%}
+  {%- endif -%}
+  
+  {%- if ids.size == 1 -%}
+    {%- assign coords = site.data.docs[ver].items-fluids[ids.first].position -%}
+    <div class="docs-icon docs-cycleable{% if include.hidden %} hidden{% endif %}" style="background-image:url('/assets/images/docs/{{version}}/sprites.png'); background-position:-{{coords[0] | times: 33}}px -{{coords[1] | times: 33}}px;{% if include.margin %} margin:{{include.margin}}px;{% endif %}"></div>
+  {%- else -%}
+    <div class="docs-icon docs-cycle">
+      {%- for id in ids -%}
+        {%- if forloop.first -%}
+          {% include docs/icon.html ids=id version=include.version %}
+        {%- else -%}
+          {% include docs/icon.html ids=id version=include.version hidden=true %}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+{%- else -%}
+  <div class="docs-icon docs-cycleable"></div>
+{%- endif -%}

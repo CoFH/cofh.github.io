@@ -1,0 +1,84 @@
+numismatic_bronze_coin:
+  energy: 40000
+  inputs:
+    item:
+    - id:
+      - bronze_coin
+numismatic_constantan_coin:
+  energy: 56000
+  inputs:
+    item:
+    - id:
+      - constantan_coin
+numismatic_copper_coin:
+  energy: 32000
+  inputs:
+    item:
+    - id:
+      - copper_coin
+numismatic_electrum_coin:
+  energy: 60000
+  inputs:
+    item:
+    - id:
+      - electrum_coin
+numismatic_enderium_coin:
+  energy: 160000
+  inputs:
+    item:
+    - id:
+      - enderium_coin
+numismatic_gold_coin:
+  energy: 64000
+  inputs:
+    item:
+    - id:
+      - gold_coin
+numismatic_invar_coin:
+  energy: 48000
+  inputs:
+    item:
+    - id:
+      - invar_coin
+numismatic_iron_coin:
+  energy: 32000
+  inputs:
+    item:
+    - id:
+      - iron_coin
+numismatic_lead_coin:
+  energy: 48000
+  inputs:
+    item:
+    - id:
+      - lead_coin
+numismatic_lumium_coin:
+  energy: 80000
+  inputs:
+    item:
+    - id:
+      - lumium_coin
+numismatic_nickel_coin:
+  energy: 64000
+  inputs:
+    item:
+    - id:
+      - nickel_coin
+numismatic_signalum_coin:
+  energy: 80000
+  inputs:
+    item:
+    - id:
+      - signalum_coin
+numismatic_silver_coin:
+  energy: 48000
+  inputs:
+    item:
+    - id:
+      - silver_coin
+numismatic_tin_coin:
+  energy: 32000
+  inputs:
+    item:
+    - id:
+      - tin_coin

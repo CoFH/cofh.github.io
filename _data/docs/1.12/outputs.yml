@@ -1,0 +1,4356 @@
+mc-andesite:
+  extruder:
+  - andesite
+mc-beef-cooked:
+  furnace:
+  - food
+mc-beetroot:
+  insolator:
+  - beetroot-fluxed
+  - beetroot
+  - beetroot-rich
+mc-beetroot-seeds:
+  insolator:
+  - beetroot-fluxed
+  - beetroot
+  - beetroot-rich
+  sawmill:
+  - biomass-from-beetroot
+mc-blaze-powder:
+  centrifuge:
+  - magma-cream
+  - dust-pyrotheum
+  pulverizer:
+  - blaze-powder
+  transposer-fill:
+  - blaze-powder
+mc-blaze-rod:
+  compactor:
+  - blaze-rod-from-powder
+mc-bone-meal:
+  pulverizer:
+  - bone-meal
+mc-bottle-o-enchanting:
+  transposer-fill:
+  - bottle-o-enchanting
+mc-bowl:
+  transposer-empty:
+  - mushroom-stew
+mc-brick:
+  pulverizer:
+  - recycling-brick-stairs
+  - recycling-bricks-slab
+  - recycling-flower-pot
+  - recycling-bricks
+mc-bucket:
+  transposer-empty:
+  - bucket-cryotheum
+  - bucket-redstone
+  - bucket-resin
+  - bucket-refined-fuel
+  - bucket-mushroom-stew
+  - bucket-tree-oil
+  - bucket-crude-oil
+  - bucket-aerotheum
+  - bucket-pyrotheum
+  - bucket-creosote-oil
+  - bucket-syrup
+  - bucket-petrotheum
+  - bucket-grassoline
+  - bucket-glowstone
+  - bucket-steam
+  - bucket-coal
+  - bucket-sap
+  - bucket-ender
+  - bucket-biocrude
+  - bucket-seed-oil
+  - bucket-naphtha
+  - bucket-mana
+  - bucket-experience
+mc-cactus:
+  insolator:
+  - cactus-fluxed
+  - cactus-rich
+  - cactus
+mc-cactus-green:
+  furnace:
+  - cactus-green
+mc-carrot:
+  insolator:
+  - carrot-rich
+  - carrot
+  - carrot-fluxed
+mc-charcoal:
+  crafting-shapeless:
+  - tf-1-12-charcoal-from-block
+  furnace-pyrolysis:
+  - charcoal-from-sawdust
+  - charcoal-from-hay-bale
+  - charcoal-from-sugar-canes
+  - charcoal-from-wood-log
+  - charcoal-from-cactus
+  smelting:
+  - tf-1-12-charcoal-from-sawdust
+mc-chicken-cooked:
+  furnace:
+  - food
+mc-chorus-flower:
+  insolator:
+  - chorus-fruit-rich
+  - chorus-fruit-fluxed
+  - chorus-fruit
+mc-chorus-fruit:
+  insolator:
+  - chorus-fruit-rich
+  - chorus-fruit-fluxed
+  - chorus-fruit
+mc-clay:
+  crafting-shapeless:
+  - tf-1-12-clay-using-slag
+  pulverizer:
+  - recycling-clay-block
+  - recycling-terracotta
+mc-coal:
+  pulverizer:
+  - ore-processing-coal
+mc-cobblestone:
+  extruder:
+  - cobblestone
+  pulverizer:
+  - cobblestone-from-stone
+mc-cocoa-beans:
+  insolator:
+  - cocoa-beans-rich
+  - cocoa-beans-fluxed
+  - cocoa-beans
+mc-concrete-black:
+  transposer-fill:
+  - concrete
+mc-concrete-blue:
+  transposer-fill:
+  - concrete
+mc-concrete-brown:
+  transposer-fill:
+  - concrete
+mc-concrete-cyan:
+  transposer-fill:
+  - concrete
+mc-concrete-gray:
+  transposer-fill:
+  - concrete
+mc-concrete-green:
+  transposer-fill:
+  - concrete
+mc-concrete-light-blue:
+  transposer-fill:
+  - concrete
+mc-concrete-light-gray:
+  transposer-fill:
+  - concrete
+mc-concrete-lime:
+  transposer-fill:
+  - concrete
+mc-concrete-magenta:
+  transposer-fill:
+  - concrete
+mc-concrete-orange:
+  transposer-fill:
+  - concrete
+mc-concrete-pink:
+  transposer-fill:
+  - concrete
+mc-concrete-powder-black:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-blue:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-brown:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-cyan:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-gray:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-green:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-light-blue:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-light-gray:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-lime:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-magenta:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-orange:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-pink:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-purple:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-red:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-white:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-powder-yellow:
+  pulverizer:
+  - recycling-concrete
+mc-concrete-purple:
+  transposer-fill:
+  - concrete
+mc-concrete-red:
+  transposer-fill:
+  - concrete
+mc-concrete-white:
+  transposer-fill:
+  - concrete
+mc-concrete-yellow:
+  transposer-fill:
+  - concrete
+mc-dandelion-yellow:
+  pulverizer:
+  - flower-processing-yellow-sunflower
+  - flower-processing-yellow-dandelion
+mc-diamond:
+  crafting-shaped:
+  - tf-1-12-diamond-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-diamond
+  pulverizer:
+  - recycling-tool-axe-diamond
+  - recycling-tool-shears-diamond
+  - recycling-tool-sickle-diamond
+  - recycling-armor-helmet-diamond
+  - recycling-tool-excavator-diamond
+  - recycling-armor-leggings-diamond
+  - recycling-weapon-sword-diamond
+  - ore-processing-diamond
+  - recycling-tool-shovel-diamond
+  - recycling-weapon-shield-diamond
+  - recycling-tool-fishing-rod-diamond
+  - recycling-tool-pickaxe-diamond
+  - recycling-armor-chestplate-diamond
+  - recycling-jukebox
+  - recycling-weapon-bow-diamond
+  - recycling-tool-hoe-diamond
+  - recycling-horse-armor-diamond
+  - recycling-tool-hammer-diamond
+  - recycling-armor-boots-diamond
+mc-diorite:
+  extruder:
+  - diorite
+mc-dirt:
+  crafting-shapeless:
+  - tf-1-12-dirt-using-biomass-and-slag
+mc-emerald:
+  crafting-shaped:
+  - tf-1-12-emerald-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-emerald
+  pulverizer:
+  - ore-processing-emerald
+mc-ender-pearl:
+  crafting-shapeless:
+  - tf-1-12-ender-pearl-from-fluid
+  - tf-1-12-ender-pearl-from-clathrate
+  transposer-fill:
+  - ender-pearl-from-clathrate
+  - ender-pearl-from-fluid
+mc-fish-cooked:
+  furnace:
+  - food
+mc-flint:
+  pulverizer:
+  - fluid-ore-processing-oil-shale
+  - sand-from-gravel
+mc-flower-allium:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-flower-azure-bluet:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-flower-blue-orchid:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-flower-dandelion:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-flower-lilac:
+  insolator:
+  - tall-flower
+  - tall-flower-fluxed
+  - tall-flower-rich
+mc-flower-oxeye-daisy:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-flower-peony:
+  insolator:
+  - tall-flower
+  - tall-flower-fluxed
+  - tall-flower-rich
+mc-flower-poppy:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-flower-rose-bush:
+  insolator:
+  - tall-flower
+  - tall-flower-fluxed
+  - tall-flower-rich
+mc-flower-sunflower:
+  insolator:
+  - tall-flower
+  - tall-flower-fluxed
+  - tall-flower-rich
+mc-flower-tulip-orange:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-flower-tulip-pink:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-flower-tulip-red:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-flower-tulip-white:
+  insolator:
+  - flower-rich
+  - flower-fluxed
+  - flower
+mc-glowstone-dust:
+  crafting-shapeless:
+  - tf-1-12-glowstone-dust-from-fluid
+  - tf-1-12-glowstone-dust-from-clathrate
+  pulverizer:
+  - glowstone-dust-from-glowstone
+  transposer-fill:
+  - glowstone-dust-from-fluid
+  - glowstone-dust-from-clathrate
+mc-granite:
+  extruder:
+  - granite
+mc-gravel:
+  centrifuge:
+  - concrete-powder
+  extruder-sedimentary:
+  - gravel
+  pulverizer:
+  - gravel-from-netherrack
+  - gravel-from-cobblestone
+mc-gunpowder:
+  crafting-shapeless:
+  - tf-1-12-gunpowder-using-coal
+  - tf-1-12-gunpowder-using-charcoal
+mc-horse-armor-diamond:
+  crafting-shaped:
+  - tf-1-12-horse-armor-diamond
+mc-horse-armor-gold:
+  crafting-shaped:
+  - tf-1-12-horse-armor-gold
+mc-horse-armor-iron:
+  crafting-shaped:
+  - tf-1-12-horse-armor-iron
+mc-ice:
+  crafting-shapeless:
+  - tf-1-12-ice-using-cryotheum
+  precipitator:
+  - ice
+  transposer-fill:
+  - ice
+mc-ingot-gold:
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-dust-gold
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-gold
+  - tf-1-12-pyrotheum-ore-gold
+  - tf-1-12-pyrotheum-dust-ore-metal
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-plate
+  - recycling-pressure-plate-gold
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - ore-processing-cinnabar-mithril
+  - recycling-clock
+  - recycling-tool-pickaxe
+  - ore-processing-cinnabar-copper
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - ore-processing-sand-gold
+  - recycling-gear
+  - recycling-weapon-shield-metal
+  - ore-processing-cinnabar-gold
+  - recycling-armor-helmet
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - ore-processing-rich-slag-gold
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-gold-from-dust
+mc-ingot-iron:
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-iron
+  - tf-1-12-pyrotheum-dust-iron
+  - tf-1-12-pyrotheum-ore-iron
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-dust-ore-metal
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-minecart-with-furnace
+  - recycling-plate
+  - recycling-anvil
+  - recycling-minecart-with-hopper
+  - recycling-hopper
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - ore-processing-cinnabar-tin
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-door-iron
+  - recycling-weapon-bow-metal
+  - recycling-pressure-plate-iron
+  - ore-processing-cinnabar-aluminum
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - recycling-anvil-very-damaged
+  - recycling-cauldron
+  - recycling-minecart-with-chest
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-minecart
+  - recycling-armor-helmet
+  - recycling-anvil-slightly-damaged
+  - ore-processing-cinnabar-iron
+  - recycling-bucket
+  - recycling-tool-shovel
+  - ore-processing-sand-iron
+  - recycling-armor-boots
+  - ore-processing-rich-slag-iron
+  - recycling-iron-trapdoor
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-compass
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-iron-from-dust
+mc-lapis-lazuli:
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-lapis-lazuli
+  furnace:
+  - ore-processing-lapis-lazuli
+  pulverizer:
+  - ore-processing-lapis-lazuli
+  smelter:
+  - ore-processing-lapis-lazuli
+mc-lava:
+  crucible:
+  - lava-from-stone
+  - lava-from-diorite-polished
+  - lava-from-netherrack
+  - lava-from-cobblestone
+  - lava-from-diorite
+  - lava-from-granite
+  - lava-from-granite-polished
+  - lava-from-magma-block
+  - lava-from-andesite
+  - lava-from-andesite-polished
+  - lava-from-obsidian
+mc-lead:
+  crafting-shaped:
+  - tf-1-12-lead-using-tar
+  - tf-1-12-lead-using-rosin
+mc-leather:
+  furnace:
+  - leather
+  sawmill:
+  - recycling-armor-leggings-leather
+  - recycling-armor-boots-leather
+  - recycling-saddle
+  - recycling-armor-chestplate-leather
+  - recycling-armor-helmet-leather
+mc-light-blue-dye:
+  pulverizer:
+  - flower-processing-light-blue-orchid
+mc-light-gray-dye:
+  pulverizer:
+  - flower-processing-light-gray-tulip
+  - flower-processing-light-gray-azure-bluet
+  - flower-processing-light-gray-oxeye-daisy
+mc-lily-pad:
+  insolator:
+  - lily-pad-rich
+  - lily-pad
+  - lily-pad-fluxed
+mc-magenta-dye:
+  pulverizer:
+  - flower-processing-magenta-lilac
+  - flower-processing-magenta-allium
+mc-magma-cream:
+  pulverizer:
+  - magma-cream-from-block
+mc-melon:
+  insolator:
+  - melon
+  - melon-fluxed
+  - melon-rich
+mc-melon-seeds:
+  insolator:
+  - melon
+  - melon-fluxed
+  - melon-rich
+  sawmill:
+  - biomass-from-melon
+mc-moss-stone:
+  transposer-fill:
+  - moss-stone
+mc-mushroom-brown:
+  insolator:
+  - mushroom-rich
+  - mushroom
+  - mushroom-fluxed
+mc-mushroom-red:
+  insolator:
+  - mushroom-rich
+  - mushroom
+  - mushroom-fluxed
+mc-mushroom-stew:
+  transposer-fill:
+  - mushroom-stew
+mc-mutton-cooked:
+  furnace:
+  - food
+mc-mycelium:
+  crafting-shapeless:
+  - tf-1-12-mycelium-using-phyto-gro
+mc-nether-brick:
+  smelter:
+  - nether-brick
+mc-nether-brick-item:
+  pulverizer:
+  - recycling-nether-brick-slab
+  - recycling-nether-brick
+  - recycling-nether-brick-stairs
+mc-nether-quartz:
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-nether-quartz
+  pulverizer:
+  - ore-processing-nether-quartz
+  - recycling-nether-quartz-slab
+  - recycling-nether-quartz-block
+  - recycling-nether-quartz-stairs
+  smelter:
+  - ore-processing-nether-quartz
+mc-nether-wart:
+  insolator:
+  - nether-wart-fluxed
+  - nether-wart-rich
+  - nether-wart
+mc-nugget-gold:
+  smelter:
+  - recycling-powered-rail
+mc-nugget-iron:
+  smelter:
+  - recycling-rail
+  - recycling-iron-bars
+mc-obsidian:
+  extruder:
+  - obsidian
+mc-orange-dye:
+  pulverizer:
+  - flower-processing-orange-tulip
+mc-packed-ice:
+  crafting-shapeless:
+  - tf-1-12-packed-ice-using-cryotheum
+  precipitator:
+  - packed-ice
+  transposer-fill:
+  - packed-ice
+mc-paper:
+  crafting-shapeless:
+  - tf-1-12-paper-using-sawdust
+mc-pink-dye:
+  pulverizer:
+  - flower-processing-pink-peony
+  - flower-processing-pink-tulip
+mc-piston-sticky:
+  crafting-shaped:
+  - tf-1-12-piston-sticky-using-tar
+  - tf-1-12-piston-sticky-using-rosin
+mc-podzol:
+  crafting-shapeless:
+  - tf-1-12-podzol-using-phyto-gro
+mc-porkchop-cooked:
+  furnace:
+  - food
+mc-potato:
+  insolator:
+  - potato
+  - potato-fluxed
+  - potato-rich
+mc-potato-baked:
+  furnace:
+  - food
+mc-potato-poisonous:
+  insolator:
+  - potato
+  - potato-fluxed
+  - potato-rich
+mc-prismarine-crystals:
+  pulverizer:
+  - prismarine-crystals-from-shard
+mc-pumpkin:
+  insolator:
+  - pumpkin-fluxed
+  - pumpkin-rich
+  - pumpkin
+mc-pumpkin-seeds:
+  insolator:
+  - pumpkin-fluxed
+  - pumpkin-rich
+  - pumpkin
+  sawmill:
+  - biomass-from-pumpkin
+mc-rabbit-cooked:
+  furnace:
+  - food
+mc-redstone:
+  centrifuge:
+  - dust-cryotheum
+  - dust-petrotheum
+  - dust-pyrotheum
+  - dust-aerotheum
+  crafting-shapeless:
+  - tf-1-12-redstone-from-fluid
+  - tf-1-12-petrotheum-ore-redstone
+  - tf-1-12-redstone-from-clathrate
+  furnace:
+  - ore-processing-redstone
+  pulverizer:
+  - ore-processing-redstone
+  - recycling-note-block
+  smelter:
+  - ore-processing-redstone
+  transposer-fill:
+  - redstone-from-clathrate
+  - redstone-from-fluid
+mc-rose-red:
+  pulverizer:
+  - flower-processing-red-poppy
+  - flower-processing-red-rose-bush
+  - flower-processing-red-tulip
+mc-saddle:
+  crafting-shaped:
+  - tf-1-12-saddle
+mc-salmon-cooked:
+  furnace:
+  - food
+mc-sand:
+  centrifuge:
+  - concrete-powder
+  extruder-sedimentary:
+  - sand
+  pulverizer:
+  - sand-from-gravel
+  - gravel-from-cobblestone
+  - recycling-sandstone
+  - recycling-sandstone-slab
+  - recycling-glass-stained
+  - recycling-sandstone-stairs
+  - recycling-glass-bottle
+  - recycling-glass
+mc-sand-red:
+  extruder-sedimentary:
+  - sand-red
+  pulverizer:
+  - recycling-sandstone-red-stairs
+  - recycling-sandstone-red-slab
+  - recycling-sandstone-red
+mc-sandstone:
+  extruder-sedimentary:
+  - sandstone
+mc-sandstone-red:
+  extruder-sedimentary:
+  - sandstone-red
+mc-sapling-acacia:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-sapling-birch:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-sapling-dark-oak:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-sapling-jungle:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-sapling-oak:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-sapling-spruce:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-seeds:
+  insolator:
+  - wheat-fluxed
+  - wheat-rich
+  - wheat
+  sawmill:
+  - biomass-from-wheat
+mc-slimeball:
+  centrifuge:
+  - magma-cream
+mc-snow:
+  precipitator:
+  - snow
+mc-snow-layer:
+  precipitator:
+  - snow-layer
+mc-snowball:
+  centrifuge:
+  - dust-cryotheum
+  precipitator:
+  - snowball
+  pulverizer:
+  - blizz-powder
+mc-sponge:
+  transposer-empty:
+  - water-from-sponge
+mc-sponge-wet:
+  transposer-fill:
+  - sponge-wet
+mc-stone:
+  extruder:
+  - stone
+mc-stone-bricks:
+  smelter:
+  - stone-bricks
+mc-stone-bricks-mossy:
+  transposer-fill:
+  - stone-bricks-mossy
+mc-string:
+  pulverizer:
+  - recycling-wool
+mc-sugar:
+  centrifuge:
+  - sugar-canes
+  sawmill:
+  - biomass-from-sugar-canes
+mc-sugar-canes:
+  insolator:
+  - sugar-canes
+  - sugar-canes-fluxed
+  - sugar-canes-rich
+mc-torch:
+  crafting-shaped:
+  - tf-1-12-torch-using-tar
+  - tf-1-12-torch-using-rosin
+mc-vines:
+  insolator:
+  - vines-fluxed
+  - vines
+  - vines-rich
+mc-water:
+  centrifuge:
+  - sugar-canes
+  crucible:
+  - water-from-snowball
+  - water-from-snow
+  - water-from-ice
+  transposer-empty:
+  - water-from-cactus
+  - water-from-sponge
+mc-wheat:
+  insolator:
+  - wheat-fluxed
+  - wheat-rich
+  - wheat
+mc-wood-log-acacia:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-wood-log-birch:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-wood-log-dark-oak:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-wood-log-jungle:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-wood-log-oak:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-wood-log-spruce:
+  insolator-tree:
+  - wood-rich
+  - wood
+  - wood-fluxed
+mc-wood-planks-acacia:
+  sawmill:
+  - recycling-fence-gate
+  - recycling-wood-stairs
+  - recycling-boat
+  - recycling-door
+  - recycling-fence
+  - wood-processing
+mc-wood-planks-birch:
+  sawmill:
+  - recycling-fence-gate
+  - recycling-wood-stairs
+  - recycling-boat
+  - recycling-door
+  - recycling-fence
+  - wood-processing
+mc-wood-planks-dark-oak:
+  sawmill:
+  - recycling-fence-gate
+  - recycling-wood-stairs
+  - recycling-boat
+  - recycling-door
+  - recycling-fence
+  - wood-processing
+mc-wood-planks-jungle:
+  sawmill:
+  - recycling-fence-gate
+  - recycling-wood-stairs
+  - recycling-boat
+  - recycling-door
+  - recycling-fence
+  - wood-processing
+mc-wood-planks-oak:
+  sawmill:
+  - recycling-fence-gate
+  - recycling-wood-stairs
+  - recycling-boat
+  - recycling-door
+  - recycling-fence
+  - wood-processing
+mc-wood-planks-spruce:
+  sawmill:
+  - recycling-fence-gate
+  - recycling-wood-stairs
+  - recycling-boat
+  - recycling-door
+  - recycling-fence
+  - wood-processing
+ra-1-12-armor-boots:
+  crafting-shaped:
+  - ra-1-12-armor-boots
+ra-1-12-armor-chestplate:
+  crafting-shaped:
+  - ra-1-12-armor-chestplate
+ra-1-12-armor-helmet:
+  crafting-shaped:
+  - ra-1-12-armor-helmet
+ra-1-12-armor-leggings:
+  crafting-shaped:
+  - ra-1-12-armor-leggings
+ra-1-12-dust-fluxed-electrum:
+  crafting-shapeless:
+  - ra-1-12-dust-fluxed-electrum-using-gold-and-silver
+  - ra-1-12-dust-fluxed-electrum-using-electrum
+  pulverizer:
+  - dust-fluxed-electrum
+  transposer-fill:
+  - ra-1-12-dust-fluxed-electrum
+ra-1-12-flux-crystal:
+  crafting-shapeless:
+  - ra-1-12-flux-crystal
+  - ra-1-12-flux-crystal-from-block
+  transposer-fill:
+  - ra-1-12-flux-crystal
+ra-1-12-fluxed-armor-plating:
+  crafting-shaped:
+  - ra-1-12-fluxed-armor-plating
+ra-1-12-gear-fluxed-electrum:
+  compactor-gear:
+  - gear-fluxed-electrum
+  crafting-shaped:
+  - ra-1-12-gear-fluxed-electrum
+ra-1-12-ingot-fluxed-electrum:
+  crafting-shaped:
+  - ra-1-12-ingot-fluxed-electrum-from-nuggets
+  crafting-shapeless:
+  - ra-1-12-ingot-fluxed-electrum-from-block
+  smelter:
+  - ra-1-12-dust-smelting-fluxed-electrum
+ra-1-12-nugget-fluxed-electrum:
+  crafting-shapeless:
+  - ra-1-12-nugget-fluxed-electrum
+ra-1-12-obsidian-rod:
+  crafting-shaped:
+  - ra-1-12-obsidian-rod
+ra-1-12-obsidian-rod-flux-infused:
+  crafting-shaped:
+  - ra-1-12-obsidian-rod-flux-infused
+ra-1-12-plate-fluxed-electrum:
+  compactor:
+  - plate-fluxed-electrum
+ra-1-12-storage-block-flux-crystal:
+  crafting-shaped:
+  - ra-1-12-storage-block-flux-crystal
+ra-1-12-storage-block-fluxed-electrum:
+  crafting-shaped:
+  - ra-1-12-storage-block-fluxed-electrum
+ra-1-12-tool-axe:
+  crafting-shaped:
+  - ra-1-12-tool-axe
+ra-1-12-tool-excavator:
+  crafting-shaped:
+  - ra-1-12-tool-excavator
+ra-1-12-tool-fishing-rod:
+  crafting-shaped:
+  - ra-1-12-tool-fishing-rod
+ra-1-12-tool-hammer:
+  crafting-shaped:
+  - ra-1-12-tool-hammer
+ra-1-12-tool-pickaxe:
+  crafting-shaped:
+  - ra-1-12-tool-pickaxe
+ra-1-12-tool-shovel:
+  crafting-shaped:
+  - ra-1-12-tool-shovel
+ra-1-12-tool-sickle:
+  crafting-shaped:
+  - ra-1-12-tool-sickle
+ra-1-12-tool-wrench:
+  crafting-shaped:
+  - ra-1-12-tool-wrench
+ra-1-12-weapon-battlewrench:
+  crafting-shaped:
+  - ra-1-12-weapon-battlewrench
+ra-1-12-weapon-bow:
+  crafting-shaped:
+  - ra-1-12-weapon-bow
+ra-1-12-weapon-quiver:
+  crafting-shaped:
+  - ra-1-12-weapon-quiver
+ra-1-12-weapon-shield:
+  crafting-shaped:
+  - ra-1-12-weapon-shield
+ra-1-12-weapon-sword:
+  crafting-shaped:
+  - ra-1-12-weapon-sword
+tc-1-12-watering-can-basic:
+  crafting-shaped:
+  - tc-1-12-watering-can-basic
+tc-1-12-watering-can-hardened:
+  crafting-shaped:
+  - tc-1-12-watering-can-hardened
+tc-1-12-watering-can-reinforced:
+  crafting-shaped:
+  - tc-1-12-watering-can-reinforced
+tc-1-12-watering-can-resonant:
+  crafting-shaped:
+  - tc-1-12-watering-can-resonant
+tc-1-12-watering-can-signalum:
+  crafting-shaped:
+  - tc-1-12-watering-can-signalum
+td-1-12-cover-mc-andesite-polished:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-bricks:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-cobblestone:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-diorite-polished:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-end-stone-bricks:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-granite-polished:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-moss-stone:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-nether-brick:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-obsidian:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-sandstone:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-stone:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-wood-log-oak:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-cover-mc-wood-planks-oak:
+  crafting-shapeless:
+  - td-1-12-covers
+td-1-12-filter-basic:
+  crafting-shaped:
+  - td-1-12-filter-basic
+td-1-12-filter-hardened:
+  crafting-shaped:
+  - td-1-12-filter-hardened
+  crafting-shapeless:
+  - td-1-12-filter-hardened-upgrade
+td-1-12-filter-reinforced:
+  crafting-shaped:
+  - td-1-12-filter-reinforced
+  crafting-shapeless:
+  - td-1-12-filter-reinforced-upgrade
+td-1-12-filter-resonant:
+  crafting-shaped:
+  - td-1-12-filter-resonant
+  crafting-shapeless:
+  - td-1-12-filter-resonant-upgrade
+td-1-12-filter-signalum:
+  crafting-shaped:
+  - td-1-12-filter-signalum
+  crafting-shapeless:
+  - td-1-12-filter-signalum-upgrade
+td-1-12-fluiduct-basic:
+  crafting-shaped:
+  - td-1-12-fluiduct-basic
+  crafting-shapeless:
+  - td-1-12-fluiduct-basic-transparent-from-opaque
+td-1-12-fluiduct-basic-opaque:
+  crafting-shaped:
+  - td-1-12-fluiduct-basic-opaque
+  crafting-shapeless:
+  - td-1-12-fluiduct-basic-opaque-from-transparent
+td-1-12-fluiduct-energy:
+  crafting-shapeless:
+  - td-1-12-fluiduct-energy-one
+  - td-1-12-fluiduct-energy-three
+  - td-1-12-fluiduct-energy-transparent-from-opaque
+td-1-12-fluiduct-energy-opaque:
+  crafting-shapeless:
+  - td-1-12-fluiduct-energy-one
+  - td-1-12-fluiduct-energy-opaque-from-transparent
+  - td-1-12-fluiduct-energy-three
+td-1-12-fluiduct-hardened:
+  crafting-shaped:
+  - td-1-12-fluiduct-hardened
+  crafting-shapeless:
+  - td-1-12-fluiduct-hardened-transparent-from-opaque
+td-1-12-fluiduct-hardened-opaque:
+  crafting-shaped:
+  - td-1-12-fluiduct-hardened-opaque
+  crafting-shapeless:
+  - td-1-12-fluiduct-hardened-opaque-from-transparent
+td-1-12-fluiduct-super:
+  crafting-shaped:
+  - td-1-12-fluiduct-super
+  crafting-shapeless:
+  - td-1-12-fluiduct-super-transparent-from-opaque
+td-1-12-fluiduct-super-opaque:
+  crafting-shaped:
+  - td-1-12-fluiduct-super
+  crafting-shapeless:
+  - td-1-12-fluiduct-super-opaque-from-transparent
+td-1-12-fluxduct-basic:
+  crafting-shaped:
+  - td-1-12-fluxduct-basic
+td-1-12-fluxduct-hardened:
+  crafting-shapeless:
+  - td-1-12-fluxduct-hardened-three
+  - td-1-12-fluxduct-hardened-one
+td-1-12-fluxduct-reinforced:
+  transposer-fill:
+  - td-1-12-fluxduct-reinforced
+td-1-12-fluxduct-reinforced-empty:
+  crafting-shaped:
+  - td-1-12-fluxduct-reinforced-empty
+td-1-12-fluxduct-resonant:
+  crafting-shapeless:
+  - td-1-12-fluxduct-resonant-one
+  - td-1-12-fluxduct-resonant-three
+  transposer-fill:
+  - td-1-12-fluxduct-resonant
+td-1-12-fluxduct-resonant-empty:
+  crafting-shapeless:
+  - td-1-12-fluxduct-resonant-empty-three
+  - td-1-12-fluxduct-resonant-empty-one
+td-1-12-fluxduct-signalum:
+  crafting-shapeless:
+  - td-1-12-fluxduct-signalum-three
+  - td-1-12-fluxduct-signalum-one
+  transposer-fill:
+  - td-1-12-fluxduct-signalum
+td-1-12-fluxduct-signalum-empty:
+  crafting-shapeless:
+  - td-1-12-fluxduct-signalum-empty-one
+  - td-1-12-fluxduct-signalum-empty-three
+td-1-12-fluxduct-super:
+  transposer-fill:
+  - td-1-12-fluxduct-super
+td-1-12-fluxduct-super-empty:
+  crafting-shaped:
+  - td-1-12-fluxduct-super-empty
+td-1-12-itemduct:
+  crafting-shaped:
+  - td-1-12-itemduct
+  crafting-shapeless:
+  - td-1-12-itemduct-transparent-from-opaque
+td-1-12-itemduct-dense:
+  crafting-shapeless:
+  - td-1-12-itemduct-dense
+td-1-12-itemduct-energy:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-three
+  - td-1-12-itemduct-energy-one
+  - td-1-12-itemduct-energy-transparent-from-opaque
+td-1-12-itemduct-energy-dense:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-dense
+td-1-12-itemduct-energy-fast:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-fast-three
+  - td-1-12-itemduct-energy-fast-transparent-from-opaque
+  - td-1-12-itemduct-energy-fast-one
+  transposer-fill:
+  - td-1-12-itemduct-energy-fast
+td-1-12-itemduct-energy-fast-dense:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-fast-dense
+td-1-12-itemduct-energy-fast-opaque:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-fast-three
+  - td-1-12-itemduct-energy-fast-opaque-from-transparent
+  - td-1-12-itemduct-energy-fast-one
+  transposer-fill:
+  - td-1-12-itemduct-energy-fast
+td-1-12-itemduct-energy-fast-opaque-dense:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-fast-dense
+td-1-12-itemduct-energy-fast-opaque-vacuum:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-fast-vacuum
+td-1-12-itemduct-energy-fast-vacuum:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-fast-vacuum
+td-1-12-itemduct-energy-opaque:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-three
+  - td-1-12-itemduct-energy-one
+  - td-1-12-itemduct-energy-opaque-from-transparent
+td-1-12-itemduct-energy-opaque-dense:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-dense
+td-1-12-itemduct-energy-opaque-vacuum:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-vacuum
+td-1-12-itemduct-energy-vacuum:
+  crafting-shapeless:
+  - td-1-12-itemduct-energy-vacuum
+td-1-12-itemduct-fast:
+  crafting-shapeless:
+  - td-1-12-itemduct-fast-transparent-from-opaque
+  transposer-fill:
+  - td-1-12-itemduct-fast
+td-1-12-itemduct-fast-dense:
+  crafting-shapeless:
+  - td-1-12-itemduct-fast-dense
+td-1-12-itemduct-fast-opaque:
+  crafting-shapeless:
+  - td-1-12-itemduct-fast-opaque-from-transparent
+  transposer-fill:
+  - td-1-12-itemduct-fast
+td-1-12-itemduct-fast-opaque-dense:
+  crafting-shapeless:
+  - td-1-12-itemduct-fast-dense
+td-1-12-itemduct-fast-opaque-vacuum:
+  crafting-shapeless:
+  - td-1-12-itemduct-fast-vacuum
+td-1-12-itemduct-fast-vacuum:
+  crafting-shapeless:
+  - td-1-12-itemduct-fast-vacuum
+td-1-12-itemduct-opaque:
+  crafting-shaped:
+  - td-1-12-itemduct-opaque
+  crafting-shapeless:
+  - td-1-12-itemduct-opaque-from-transparent
+td-1-12-itemduct-opaque-dense:
+  crafting-shapeless:
+  - td-1-12-itemduct-dense
+td-1-12-itemduct-opaque-vacuum:
+  crafting-shapeless:
+  - td-1-12-itemduct-vacuum
+td-1-12-itemduct-vacuum:
+  crafting-shapeless:
+  - td-1-12-itemduct-vacuum
+td-1-12-redstone-relay:
+  crafting-shaped:
+  - td-1-12-redstone-relay
+td-1-12-retriever-basic:
+  crafting-shaped:
+  - td-1-12-retriever-basic
+td-1-12-retriever-hardened:
+  crafting-shaped:
+  - td-1-12-retriever-hardened
+  crafting-shapeless:
+  - td-1-12-retriever-hardened-upgrade
+td-1-12-retriever-reinforced:
+  crafting-shaped:
+  - td-1-12-retriever-reinforced
+  crafting-shapeless:
+  - td-1-12-retriever-reinforced-upgrade
+td-1-12-retriever-resonant:
+  crafting-shaped:
+  - td-1-12-retriever-resonant
+  crafting-shapeless:
+  - td-1-12-retriever-resonant-upgrade
+td-1-12-retriever-signalum:
+  crafting-shaped:
+  - td-1-12-retriever-signalum
+  crafting-shapeless:
+  - td-1-12-retriever-signalum-upgrade
+td-1-12-servo-basic:
+  crafting-shaped:
+  - td-1-12-servo-basic
+td-1-12-servo-hardened:
+  crafting-shaped:
+  - td-1-12-servo-hardened
+  crafting-shapeless:
+  - td-1-12-servo-hardened-upgrade
+td-1-12-servo-reinforced:
+  crafting-shaped:
+  - td-1-12-servo-reinforced
+  crafting-shapeless:
+  - td-1-12-servo-reinforced-upgrade
+td-1-12-servo-resonant:
+  crafting-shaped:
+  - td-1-12-servo-resonant
+  crafting-shapeless:
+  - td-1-12-servo-resonant-upgrade
+td-1-12-servo-signalum:
+  crafting-shaped:
+  - td-1-12-servo-signalum
+  crafting-shapeless:
+  - td-1-12-servo-signalum-upgrade
+td-1-12-structuralduct:
+  crafting-shaped:
+  - td-1-12-structuralduct
+td-1-12-viaduct:
+  transposer-fill:
+  - td-1-12-viaduct
+td-1-12-viaduct-frame:
+  crafting-shaped:
+  - td-1-12-viaduct-frame
+td-1-12-viaduct-long-range:
+  crafting-shaped:
+  - td-1-12-viaduct-long-range
+td-1-12-viaduct-long-range-linking:
+  transposer-fill:
+  - td-1-12-viaduct-long-range-linking
+te-1-12-augment-dynamo-boiler:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-boiler
+te-1-12-augment-dynamo-coil-duct:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-coil-duct
+te-1-12-augment-dynamo-compression-biofuel:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-compression-biofuel
+te-1-12-augment-dynamo-compression-coolant:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-compression-coolant
+te-1-12-augment-dynamo-compression-fuel:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-compression-fuel
+te-1-12-augment-dynamo-efficiency:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-efficiency
+te-1-12-augment-dynamo-enervation-enchant:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-enervation-enchant
+te-1-12-augment-dynamo-magmatic-coolant:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-magmatic-coolant
+te-1-12-augment-dynamo-numismatic-gem:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-numismatic-gem
+te-1-12-augment-dynamo-power:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-power
+te-1-12-augment-dynamo-reactant-elemental:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-reactant-elemental
+te-1-12-augment-dynamo-steam-turbine:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-steam-turbine
+te-1-12-augment-dynamo-throttle:
+  crafting-shaped:
+  - te-1-12-augment-dynamo-throttle
+te-1-12-augment-machine-brewer-reagent:
+  crafting-shaped:
+  - te-1-12-augment-machine-brewer-reagent
+te-1-12-augment-machine-centrifuge-mobs:
+  crafting-shaped:
+  - te-1-12-augment-machine-centrifuge-mobs
+te-1-12-augment-machine-charger-repair:
+  crafting-shaped:
+  - te-1-12-augment-machine-charger-repair
+te-1-12-augment-machine-charger-throughput:
+  crafting-shaped:
+  - te-1-12-augment-machine-charger-throughput
+te-1-12-augment-machine-charger-wireless:
+  crafting-shaped:
+  - te-1-12-augment-machine-charger-wireless
+te-1-12-augment-machine-compactor-coin:
+  crafting-shaped:
+  - te-1-12-augment-machine-compactor-coin
+te-1-12-augment-machine-compactor-gear:
+  crafting-shaped:
+  - te-1-12-augment-machine-compactor-gear
+te-1-12-augment-machine-crafter-input:
+  crafting-shaped:
+  - te-1-12-augment-machine-crafter-input
+te-1-12-augment-machine-crafter-tank:
+  crafting-shaped:
+  - te-1-12-augment-machine-crafter-tank
+te-1-12-augment-machine-crucible-lava:
+  crafting-shaped:
+  - te-1-12-augment-machine-crucible-lava
+te-1-12-augment-machine-extruder-no-water:
+  crafting-shaped:
+  - te-1-12-augment-machine-extruder-no-water
+te-1-12-augment-machine-extruder-sedimentary:
+  crafting-shaped:
+  - te-1-12-augment-machine-extruder-sedimentary
+te-1-12-augment-machine-furnace-food:
+  crafting-shaped:
+  - te-1-12-augment-machine-furnace-food
+te-1-12-augment-machine-furnace-ore:
+  crafting-shaped:
+  - te-1-12-augment-machine-furnace-ore
+te-1-12-augment-machine-furnace-pyrolysis:
+  crafting-shaped:
+  - te-1-12-augment-machine-furnace-pyrolysis
+te-1-12-augment-machine-insolator-fertilizer:
+  crafting-shaped:
+  - te-1-12-augment-machine-insolator-fertilizer
+te-1-12-augment-machine-insolator-monoculture:
+  crafting-shaped:
+  - te-1-12-augment-machine-insolator-monoculture
+te-1-12-augment-machine-insolator-tree:
+  crafting-shaped:
+  - te-1-12-augment-machine-insolator-tree
+te-1-12-augment-machine-power:
+  crafting-shaped:
+  - te-1-12-augment-machine-power
+te-1-12-augment-machine-pulverizer-petrotheum:
+  crafting-shaped:
+  - te-1-12-augment-machine-pulverizer-petrotheum
+te-1-12-augment-machine-refinery-oil:
+  crafting-shaped:
+  - te-1-12-augment-machine-refinery-oil
+te-1-12-augment-machine-refinery-potion:
+  crafting-shaped:
+  - te-1-12-augment-machine-refinery-potion
+te-1-12-augment-machine-sawmill-tapper:
+  crafting-shaped:
+  - te-1-12-augment-machine-sawmill-tapper
+te-1-12-augment-machine-secondary:
+  crafting-shaped:
+  - te-1-12-augment-machine-secondary
+te-1-12-augment-machine-secondary-null:
+  crafting-shaped:
+  - te-1-12-augment-machine-secondary-null
+te-1-12-augment-machine-smelter-flux:
+  crafting-shaped:
+  - te-1-12-augment-machine-smelter-flux
+te-1-12-augment-machine-smelter-pyrotheum:
+  crafting-shaped:
+  - te-1-12-augment-machine-smelter-pyrotheum
+te-1-12-cache-basic:
+  crafting-shaped:
+  - te-1-12-cache-basic
+te-1-12-device-diffuser:
+  crafting-shaped:
+  - te-1-12-device-diffuser
+te-1-12-device-factorizer:
+  crafting-shaped:
+  - te-1-12-device-factorizer
+te-1-12-device-fisher:
+  crafting-shaped:
+  - te-1-12-device-fisher
+te-1-12-device-fluid-buffer:
+  crafting-shaped:
+  - te-1-12-device-fluid-buffer
+te-1-12-device-heat-sink:
+  crafting-shaped:
+  - te-1-12-device-heat-sink
+te-1-12-device-item-buffer:
+  crafting-shaped:
+  - te-1-12-device-item-buffer
+te-1-12-device-item-collector:
+  crafting-shaped:
+  - te-1-12-device-item-collector
+te-1-12-device-lexicon:
+  crafting-shaped:
+  - te-1-12-device-lexicon
+te-1-12-device-mob-catcher:
+  crafting-shaped:
+  - te-1-12-device-mob-catcher
+te-1-12-device-nullifier:
+  crafting-shaped:
+  - te-1-12-device-nullifier
+te-1-12-device-tapper:
+  crafting-shaped:
+  - te-1-12-device-tapper
+te-1-12-device-water-gen:
+  crafting-shaped:
+  - te-1-12-device-water-gen
+te-1-12-device-xp-collector:
+  crafting-shaped:
+  - te-1-12-device-xp-collector
+te-1-12-dynamo-compression:
+  crafting-shaped:
+  - te-1-12-dynamo-compression
+te-1-12-dynamo-enervation:
+  crafting-shaped:
+  - te-1-12-dynamo-enervation
+te-1-12-dynamo-magmatic:
+  crafting-shaped:
+  - te-1-12-dynamo-magmatic
+te-1-12-dynamo-numismatic:
+  crafting-shaped:
+  - te-1-12-dynamo-numismatic
+te-1-12-dynamo-reactant:
+  crafting-shaped:
+  - te-1-12-dynamo-reactant
+te-1-12-dynamo-steam:
+  crafting-shaped:
+  - te-1-12-dynamo-steam
+te-1-12-energy-cell-basic:
+  crafting-shaped:
+  - te-1-12-energy-cell-basic
+te-1-12-florb:
+  crafting-shapeless:
+  - te-1-12-florb-using-slime
+  - te-1-12-florb-using-rosin
+te-1-12-florb-magmatic:
+  crafting-shapeless:
+  - te-1-12-florb-magmatic-using-slime
+  - te-1-12-florb-magmatic-using-magma-cream
+  - te-1-12-florb-magmatic-using-rosin
+te-1-12-flux-capacitor-basic:
+  crafting-shaped:
+  - te-1-12-flux-capacitor-basic
+te-1-12-flux-capacitor-hardened:
+  crafting-shaped:
+  - te-1-12-flux-capacitor-hardened
+te-1-12-flux-capacitor-reinforced:
+  crafting-shaped:
+  - te-1-12-flux-capacitor-reinforced
+te-1-12-flux-capacitor-resonant:
+  crafting-shaped:
+  - te-1-12-flux-capacitor-resonant
+te-1-12-flux-capacitor-signalum:
+  crafting-shaped:
+  - te-1-12-flux-capacitor-signalum
+te-1-12-frame-device:
+  crafting-shaped:
+  - te-1-12-frame-device
+te-1-12-frame-energy-cell:
+  crafting-shaped:
+  - te-1-12-frame-energy-cell
+te-1-12-frame-machine:
+  crafting-shaped:
+  - te-1-12-frame-machine
+te-1-12-machine-brewer:
+  crafting-shaped:
+  - te-1-12-machine-brewer
+te-1-12-machine-centrifuge:
+  crafting-shaped:
+  - te-1-12-machine-centrifuge
+te-1-12-machine-charger:
+  crafting-shaped:
+  - te-1-12-machine-charger
+te-1-12-machine-compactor:
+  crafting-shaped:
+  - te-1-12-machine-compactor
+te-1-12-machine-crafter:
+  crafting-shaped:
+  - te-1-12-machine-crafter
+te-1-12-machine-crucible:
+  crafting-shaped:
+  - te-1-12-machine-crucible
+te-1-12-machine-enchanter:
+  crafting-shaped:
+  - te-1-12-machine-enchanter
+te-1-12-machine-extruder:
+  crafting-shaped:
+  - te-1-12-machine-extruder
+te-1-12-machine-furnace:
+  crafting-shaped:
+  - te-1-12-machine-furnace
+te-1-12-machine-insolator:
+  crafting-shaped:
+  - te-1-12-machine-insolator
+te-1-12-machine-precipitator:
+  crafting-shaped:
+  - te-1-12-machine-precipitator
+te-1-12-machine-pulverizer:
+  crafting-shaped:
+  - te-1-12-machine-pulverizer
+te-1-12-machine-refinery:
+  crafting-shaped:
+  - te-1-12-machine-refinery
+te-1-12-machine-sawmill:
+  crafting-shaped:
+  - te-1-12-machine-sawmill
+te-1-12-machine-smelter:
+  crafting-shaped:
+  - te-1-12-machine-smelter
+te-1-12-machine-transposer:
+  crafting-shaped:
+  - te-1-12-machine-transposer
+te-1-12-morb:
+  crafting-shapeless:
+  - te-1-12-morb-using-rosin
+  - te-1-12-morb-using-slime
+te-1-12-morb-reusable:
+  crafting-shapeless:
+  - te-1-12-morb-reusable
+te-1-12-portable-tank-basic:
+  crafting-shaped:
+  - te-1-12-portable-tank-basic
+te-1-12-reservoir-basic:
+  crafting-shaped:
+  - te-1-12-reservoir-basic
+te-1-12-reservoir-hardened:
+  crafting-shaped:
+  - te-1-12-reservoir-hardened
+te-1-12-reservoir-reinforced:
+  crafting-shaped:
+  - te-1-12-reservoir-reinforced
+te-1-12-reservoir-resonant:
+  crafting-shaped:
+  - te-1-12-reservoir-resonant
+te-1-12-reservoir-signalum:
+  crafting-shaped:
+  - te-1-12-reservoir-signalum
+te-1-12-satchel-basic:
+  crafting-shaped:
+  - te-1-12-satchel-basic-using-leather
+  - te-1-12-satchel-basic-using-rockwool
+te-1-12-satchel-hardened:
+  crafting-shaped:
+  - te-1-12-satchel-hardened
+te-1-12-satchel-reinforced:
+  crafting-shaped:
+  - te-1-12-satchel-reinforced
+te-1-12-satchel-resonant:
+  crafting-shaped:
+  - te-1-12-satchel-resonant
+te-1-12-satchel-signalum:
+  crafting-shaped:
+  - te-1-12-satchel-signalum
+te-1-12-satchel-void:
+  crafting-shaped:
+  - te-1-12-satchel-void-using-leather
+  - te-1-12-satchel-void-using-rockwool
+te-1-12-strongbox-basic:
+  crafting-shaped:
+  - te-1-12-strongbox-basic
+tf-1-12-aerotheum:
+  crucible:
+  - aerotheum
+  transposer-empty:
+  - bucket-aerotheum
+tf-1-12-aqua-chow:
+  crafting-shapeless:
+  - tf-1-12-aqua-chow-using-slime
+  - tf-1-12-aqua-chow-using-rosin
+tf-1-12-aqua-chow-fluxed:
+  charger:
+  - aqua-chow-fluxed
+tf-1-12-aqua-chow-rich:
+  crafting-shapeless:
+  - tf-1-12-aqua-chow-rich-using-rosin
+  - tf-1-12-aqua-chow-rich-using-slime
+tf-1-12-armor-boots-aluminum:
+  crafting-shaped:
+  - tf-1-12-armor-boots-aluminum
+tf-1-12-armor-boots-bronze:
+  crafting-shaped:
+  - tf-1-12-armor-boots-bronze
+tf-1-12-armor-boots-constantan:
+  crafting-shaped:
+  - tf-1-12-armor-boots-constantan
+tf-1-12-armor-boots-copper:
+  crafting-shaped:
+  - tf-1-12-armor-boots-copper
+tf-1-12-armor-boots-electrum:
+  crafting-shaped:
+  - tf-1-12-armor-boots-electrum
+tf-1-12-armor-boots-invar:
+  crafting-shaped:
+  - tf-1-12-armor-boots-invar
+tf-1-12-armor-boots-lead:
+  crafting-shaped:
+  - tf-1-12-armor-boots-lead
+tf-1-12-armor-boots-nickel:
+  crafting-shaped:
+  - tf-1-12-armor-boots-nickel
+tf-1-12-armor-boots-platinum:
+  crafting-shaped:
+  - tf-1-12-armor-boots-platinum
+tf-1-12-armor-boots-silver:
+  crafting-shaped:
+  - tf-1-12-armor-boots-silver
+tf-1-12-armor-boots-steel:
+  crafting-shaped:
+  - tf-1-12-armor-boots-steel
+tf-1-12-armor-boots-tin:
+  crafting-shaped:
+  - tf-1-12-armor-boots-tin
+tf-1-12-armor-chestplate-aluminum:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-aluminum
+tf-1-12-armor-chestplate-bronze:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-bronze
+tf-1-12-armor-chestplate-constantan:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-constantan
+tf-1-12-armor-chestplate-copper:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-copper
+tf-1-12-armor-chestplate-electrum:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-electrum
+tf-1-12-armor-chestplate-invar:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-invar
+tf-1-12-armor-chestplate-lead:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-lead
+tf-1-12-armor-chestplate-nickel:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-nickel
+tf-1-12-armor-chestplate-platinum:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-platinum
+tf-1-12-armor-chestplate-silver:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-silver
+tf-1-12-armor-chestplate-steel:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-steel
+tf-1-12-armor-chestplate-tin:
+  crafting-shaped:
+  - tf-1-12-armor-chestplate-tin
+tf-1-12-armor-helmet-aluminum:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-aluminum
+tf-1-12-armor-helmet-bronze:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-bronze
+tf-1-12-armor-helmet-constantan:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-constantan
+tf-1-12-armor-helmet-copper:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-copper
+tf-1-12-armor-helmet-electrum:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-electrum
+tf-1-12-armor-helmet-invar:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-invar
+tf-1-12-armor-helmet-lead:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-lead
+tf-1-12-armor-helmet-nickel:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-nickel
+tf-1-12-armor-helmet-platinum:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-platinum
+tf-1-12-armor-helmet-silver:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-silver
+tf-1-12-armor-helmet-steel:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-steel
+tf-1-12-armor-helmet-tin:
+  crafting-shaped:
+  - tf-1-12-armor-helmet-tin
+tf-1-12-armor-leggings-aluminum:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-aluminum
+tf-1-12-armor-leggings-bronze:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-bronze
+tf-1-12-armor-leggings-constantan:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-constantan
+tf-1-12-armor-leggings-copper:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-copper
+tf-1-12-armor-leggings-electrum:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-electrum
+tf-1-12-armor-leggings-invar:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-invar
+tf-1-12-armor-leggings-lead:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-lead
+tf-1-12-armor-leggings-nickel:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-nickel
+tf-1-12-armor-leggings-platinum:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-platinum
+tf-1-12-armor-leggings-silver:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-silver
+tf-1-12-armor-leggings-steel:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-steel
+tf-1-12-armor-leggings-tin:
+  crafting-shaped:
+  - tf-1-12-armor-leggings-tin
+tf-1-12-basalz-powder:
+  centrifuge:
+  - dust-petrotheum
+  crafting-shapeless:
+  - tf-1-12-basalz-powder
+  pulverizer:
+  - basalz-powder
+  transposer-fill:
+  - basalz-powder
+tf-1-12-basalz-rod:
+  compactor:
+  - basalz-rod-from-powder
+tf-1-12-bioblend:
+  crafting-shapeless:
+  - tf-1-12-bioblend
+tf-1-12-bioblend-rich:
+  transposer-fill:
+  - bioblend-rich
+tf-1-12-biocrude:
+  crucible:
+  - biocrude-from-bioblend
+  - biocrude-from-bioblend-rich
+  - biocrude-from-biomass
+  - biocrude-from-biomass-rich
+  transposer-empty:
+  - bucket-biocrude
+tf-1-12-biomass:
+  sawmill:
+  - biomass-from-sapling
+  - biomass-from-beetroot
+  - biomass-from-pumpkin
+  - biomass-from-lily-pad
+  - biomass-from-cactus
+  - biomass-from-sugar-canes
+  - biomass-from-wheat
+  - biomass-from-melon
+  - biomass-from-potato
+  - biomass-from-vines
+  - biomass-from-carrot
+tf-1-12-biomass-rich:
+  transposer-fill:
+  - biomass-rich
+tf-1-12-bitumen:
+  pulverizer:
+  - fluid-ore-processing-oil-sand
+  - fluid-ore-processing-oil-shale
+tf-1-12-blitz-powder:
+  centrifuge:
+  - dust-aerotheum
+  crafting-shapeless:
+  - tf-1-12-blitz-powder
+  pulverizer:
+  - blitz-powder
+  transposer-fill:
+  - blitz-powder
+tf-1-12-blitz-rod:
+  compactor:
+  - blitz-rod-from-powder
+tf-1-12-blizz-powder:
+  centrifuge:
+  - dust-cryotheum
+  crafting-shapeless:
+  - tf-1-12-blizz-powder
+  pulverizer:
+  - blizz-powder
+  transposer-fill:
+  - blizz-powder
+tf-1-12-blizz-rod:
+  compactor:
+  - blizz-rod-from-powder
+tf-1-12-bucket-aerotheum:
+  transposer-fill:
+  - bucket-aerotheum
+tf-1-12-bucket-biocrude:
+  transposer-fill:
+  - bucket-biocrude
+tf-1-12-bucket-coal:
+  transposer-fill:
+  - bucket-coal
+tf-1-12-bucket-creosote-oil:
+  transposer-fill:
+  - bucket-creosote-oil
+tf-1-12-bucket-crude-oil:
+  transposer-fill:
+  - bucket-crude-oil
+tf-1-12-bucket-cryotheum:
+  transposer-fill:
+  - bucket-cryotheum
+tf-1-12-bucket-ender:
+  transposer-fill:
+  - bucket-ender
+tf-1-12-bucket-experience:
+  transposer-fill:
+  - bucket-experience
+tf-1-12-bucket-glowstone:
+  transposer-fill:
+  - bucket-glowstone
+tf-1-12-bucket-grassoline:
+  transposer-fill:
+  - bucket-grassoline
+tf-1-12-bucket-mana:
+  transposer-fill:
+  - bucket-mana
+tf-1-12-bucket-mushroom-stew:
+  transposer-fill:
+  - bucket-mushroom-stew
+tf-1-12-bucket-naphtha:
+  transposer-fill:
+  - bucket-naphtha
+tf-1-12-bucket-petrotheum:
+  transposer-fill:
+  - bucket-petrotheum
+tf-1-12-bucket-pyrotheum:
+  transposer-fill:
+  - bucket-pyrotheum
+tf-1-12-bucket-redstone:
+  transposer-fill:
+  - bucket-redstone
+tf-1-12-bucket-refined-fuel:
+  transposer-fill:
+  - bucket-refined-fuel
+tf-1-12-bucket-resin:
+  transposer-fill:
+  - bucket-resin
+tf-1-12-bucket-sap:
+  transposer-fill:
+  - bucket-sap
+tf-1-12-bucket-seed-oil:
+  transposer-fill:
+  - bucket-seed-oil
+tf-1-12-bucket-steam:
+  transposer-fill:
+  - bucket-steam
+tf-1-12-bucket-syrup:
+  transposer-fill:
+  - bucket-syrup
+tf-1-12-bucket-tree-oil:
+  transposer-fill:
+  - bucket-tree-oil
+tf-1-12-cinnabar:
+  pulverizer:
+  - ore-processing-gold
+  - fluid-ore-processing-redstone
+  - ore-processing-redstone
+tf-1-12-clathrate-ender:
+  pulverizer:
+  - fluid-ore-processing-ender
+tf-1-12-clathrate-glowstone:
+  pulverizer:
+  - fluid-ore-processing-glowstone
+tf-1-12-clathrate-redstone:
+  pulverizer:
+  - fluid-ore-processing-redstone
+tf-1-12-coal:
+  crucible:
+  - coal
+  transposer-empty:
+  - bucket-coal
+tf-1-12-coal-coke:
+  crafting-shapeless:
+  - tf-1-12-coal-coke-from-block
+  furnace-pyrolysis:
+  - coal-coke
+tf-1-12-coin-aluminum:
+  compactor-coin:
+  - coin-aluminum
+tf-1-12-coin-bronze:
+  compactor-coin:
+  - coin-bronze
+tf-1-12-coin-constantan:
+  compactor-coin:
+  - coin-constantan
+tf-1-12-coin-copper:
+  compactor-coin:
+  - coin-copper
+tf-1-12-coin-electrum:
+  compactor-coin:
+  - coin-electrum
+tf-1-12-coin-enderium:
+  compactor-coin:
+  - coin-enderium
+tf-1-12-coin-gold:
+  compactor-coin:
+  - coin-gold
+tf-1-12-coin-invar:
+  compactor-coin:
+  - coin-invar
+tf-1-12-coin-iridium:
+  compactor-coin:
+  - coin-iridium
+tf-1-12-coin-iron:
+  compactor-coin:
+  - coin-iron
+tf-1-12-coin-lead:
+  compactor-coin:
+  - coin-lead
+tf-1-12-coin-lumium:
+  compactor-coin:
+  - coin-lumium
+tf-1-12-coin-mithril:
+  compactor-coin:
+  - coin-mithril
+tf-1-12-coin-nickel:
+  compactor-coin:
+  - coin-nickel
+tf-1-12-coin-platinum:
+  compactor-coin:
+  - coin-platinum
+tf-1-12-coin-signalum:
+  compactor-coin:
+  - coin-signalum
+tf-1-12-coin-silver:
+  compactor-coin:
+  - coin-silver
+tf-1-12-coin-steel:
+  compactor-coin:
+  - coin-steel
+tf-1-12-coin-tin:
+  compactor-coin:
+  - coin-tin
+tf-1-12-conversion-kit-reinforced:
+  crafting-shapeless:
+  - tf-1-12-conversion-kit-reinforced
+tf-1-12-conversion-kit-resonant:
+  crafting-shapeless:
+  - tf-1-12-conversion-kit-resonant-2
+  - tf-1-12-conversion-kit-resonant-1
+  - tf-1-12-conversion-kit-resonant-3
+tf-1-12-conversion-kit-signalum:
+  crafting-shapeless:
+  - tf-1-12-conversion-kit-signalum-2
+  - tf-1-12-conversion-kit-signalum-1
+tf-1-12-creosote-oil:
+  furnace-pyrolysis:
+  - charcoal-from-sawdust
+  - charcoal-from-hay-bale
+  - storage-block-coal-coke
+  - charcoal-from-sugar-canes
+  - charcoal-from-wood-log
+  - coal-coke
+  - charcoal-from-cactus
+  transposer-empty:
+  - bucket-creosote-oil
+tf-1-12-crescent-hammer:
+  crafting-shaped:
+  - tf-1-12-crescent-hammer
+tf-1-12-crude-oil:
+  crucible:
+  - crude-oil-from-bitumen
+  - fluid-ore-processing-oil-sand
+  - fluid-ore-processing-oil-shale
+  transposer-empty:
+  - bucket-crude-oil
+tf-1-12-cryotheum:
+  crucible:
+  - cryotheum
+  transposer-empty:
+  - bucket-cryotheum
+tf-1-12-drill-head:
+  crafting-shaped:
+  - tf-1-12-drill-head
+tf-1-12-dust-aerotheum:
+  crafting-shapeless:
+  - tf-1-12-dust-aerotheum
+tf-1-12-dust-aluminum:
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ore-aluminum
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ingot-aluminum
+  pulverizer:
+  - ore-processing-aluminum
+  - dust-metal-from-ingot
+  - dust-aluminum
+tf-1-12-dust-bronze:
+  crafting-shapeless:
+  - tf-1-12-dust-bronze
+  pulverizer:
+  - dust-bronze
+  - dust-metal-from-ingot
+tf-1-12-dust-charcoal:
+  pulverizer:
+  - dust-charcoal
+tf-1-12-dust-coal:
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-coal
+  pulverizer:
+  - ore-processing-coal
+  - dust-coal
+tf-1-12-dust-constantan:
+  crafting-shapeless:
+  - tf-1-12-dust-constantan
+  pulverizer:
+  - dust-metal-from-ingot
+  - dust-constantan
+tf-1-12-dust-copper:
+  centrifuge:
+  - dust-signalum
+  - dust-bronze
+  - dust-constantan
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ore-copper
+  - tf-1-12-petrotheum-ingot-copper
+  pulverizer:
+  - dust-metal-from-ingot
+  - dust-copper
+  - ore-processing-copper
+tf-1-12-dust-cryotheum:
+  crafting-shapeless:
+  - tf-1-12-dust-cryotheum
+tf-1-12-dust-electrum:
+  crafting-shapeless:
+  - tf-1-12-dust-electrum
+  pulverizer:
+  - dust-metal-from-ingot
+  - dust-electrum
+tf-1-12-dust-enderium:
+  crafting-shapeless:
+  - tf-1-12-dust-enderium
+  pulverizer:
+  - dust-metal-from-ingot
+  - dust-enderium
+tf-1-12-dust-gold:
+  centrifuge:
+  - dust-electrum
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ingot-gold
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ore-gold
+  pulverizer:
+  - dust-metal-from-ingot
+  - ore-processing-gold
+  - ore-processing-copper
+  - dust-gold
+  - ore-processing-mithril
+tf-1-12-dust-invar:
+  crafting-shapeless:
+  - tf-1-12-dust-invar
+  pulverizer:
+  - dust-metal-from-ingot
+  - dust-invar
+tf-1-12-dust-iridium:
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ore-iridium
+  - tf-1-12-petrotheum-ingot-iridium
+  pulverizer:
+  - dust-metal-from-ingot
+  - dust-iridium
+  - ore-processing-iridium
+  - ore-processing-platinum
+tf-1-12-dust-iron:
+  centrifuge:
+  - dust-invar
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ingot-iron
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ore-iron
+  pulverizer:
+  - ore-processing-aluminum
+  - dust-metal-from-ingot
+  - ore-processing-tin
+  - dust-iron
+  - ore-processing-iron
+tf-1-12-dust-lead:
+  centrifuge:
+  - dust-enderium
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ingot-lead
+  - tf-1-12-petrotheum-ore-lead
+  pulverizer:
+  - ore-processing-lead
+  - dust-metal-from-ingot
+  - ore-processing-silver
+  - dust-lead
+tf-1-12-dust-lumium:
+  crafting-shapeless:
+  - tf-1-12-dust-lumium
+  pulverizer:
+  - dust-metal-from-ingot
+  - dust-lumium
+tf-1-12-dust-mithril:
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ingot-mithril
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ore-mithril
+  pulverizer:
+  - dust-metal-from-ingot
+  - ore-processing-mithril
+  - dust-mithril
+tf-1-12-dust-nickel:
+  centrifuge:
+  - dust-invar
+  - dust-constantan
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ore-nickel
+  - tf-1-12-petrotheum-ingot-nickel
+  pulverizer:
+  - ore-processing-nickel
+  - dust-metal-from-ingot
+  - dust-nickel
+  - ore-processing-iron
+tf-1-12-dust-obsidian:
+  centrifuge:
+  - dust-petrotheum
+  pulverizer:
+  - dust-obsidian
+  - basalz-powder
+tf-1-12-dust-petrotheum:
+  crafting-shapeless:
+  - tf-1-12-dust-petrotheum
+tf-1-12-dust-platinum:
+  centrifuge:
+  - dust-enderium
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ore-platinum
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ingot-platinum
+  pulverizer:
+  - dust-platinum
+  - dust-metal-from-ingot
+  - ore-processing-platinum
+  - ore-processing-nickel
+  - ore-processing-iridium
+tf-1-12-dust-pyrotheum:
+  crafting-shapeless:
+  - tf-1-12-dust-pyrotheum
+tf-1-12-dust-signalum:
+  crafting-shapeless:
+  - tf-1-12-dust-signalum
+  pulverizer:
+  - dust-signalum
+  - dust-metal-from-ingot
+tf-1-12-dust-silver:
+  centrifuge:
+  - dust-signalum
+  - dust-electrum
+  - dust-lumium
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ingot-silver
+  - tf-1-12-petrotheum-ore-silver
+  pulverizer:
+  - dust-silver
+  - ore-processing-lead
+  - dust-metal-from-ingot
+  - ore-processing-silver
+tf-1-12-dust-steel:
+  pulverizer:
+  - dust-metal-from-ingot
+  - dust-steel
+tf-1-12-dust-tin:
+  centrifuge:
+  - dust-bronze
+  - dust-lumium
+  crafting-shapeless:
+  - tf-1-12-petrotheum-ore-metal
+  - tf-1-12-petrotheum-ore-tin
+  - tf-1-12-petrotheum-ingot-ore-metal
+  - tf-1-12-petrotheum-ingot-tin
+  pulverizer:
+  - dust-metal-from-ingot
+  - dust-tin
+  - ore-processing-tin
+tf-1-12-ender:
+  centrifuge:
+  - dust-enderium
+  crucible:
+  - ender
+  - ender-from-clathrate
+  - fluid-ore-processing-ender
+  transposer-empty:
+  - bucket-ender
+tf-1-12-experience:
+  transposer-empty:
+  - bucket-experience
+tf-1-12-forge-lexicon:
+  crafting-shaped:
+  - tf-1-12-forge-lexicon
+tf-1-12-gear-aluminum:
+  compactor-gear:
+  - gear-aluminum
+  crafting-shaped:
+  - tf-1-12-gear-aluminum
+tf-1-12-gear-bronze:
+  compactor-gear:
+  - gear-bronze
+  crafting-shaped:
+  - tf-1-12-gear-bronze
+tf-1-12-gear-constantan:
+  compactor-gear:
+  - gear-constantan
+  crafting-shaped:
+  - tf-1-12-gear-constantan
+tf-1-12-gear-copper:
+  compactor-gear:
+  - gear-copper
+  crafting-shaped:
+  - tf-1-12-gear-copper
+tf-1-12-gear-diamond:
+  compactor-gear:
+  - gear-diamond
+  crafting-shaped:
+  - tf-1-12-gear-diamond
+tf-1-12-gear-electrum:
+  compactor-gear:
+  - gear-electrum
+  crafting-shaped:
+  - tf-1-12-gear-electrum
+tf-1-12-gear-emerald:
+  compactor-gear:
+  - gear-emerald
+  crafting-shaped:
+  - tf-1-12-gear-emerald
+tf-1-12-gear-enderium:
+  compactor-gear:
+  - gear-enderium
+  crafting-shaped:
+  - tf-1-12-gear-enderium
+tf-1-12-gear-gold:
+  compactor-gear:
+  - gear-gold
+  crafting-shaped:
+  - tf-1-12-gear-gold
+tf-1-12-gear-invar:
+  compactor-gear:
+  - gear-invar
+  crafting-shaped:
+  - tf-1-12-gear-invar
+tf-1-12-gear-iridium:
+  compactor-gear:
+  - gear-iridium
+  crafting-shaped:
+  - tf-1-12-gear-iridium
+tf-1-12-gear-iron:
+  compactor-gear:
+  - gear-iron
+  crafting-shaped:
+  - tf-1-12-gear-iron
+tf-1-12-gear-lead:
+  compactor-gear:
+  - gear-lead
+  crafting-shaped:
+  - tf-1-12-gear-lead
+tf-1-12-gear-lumium:
+  compactor-gear:
+  - gear-lumium
+  crafting-shaped:
+  - tf-1-12-gear-lumium
+tf-1-12-gear-mithril:
+  compactor-gear:
+  - gear-mithril
+  crafting-shaped:
+  - tf-1-12-gear-mithril
+tf-1-12-gear-nickel:
+  compactor-gear:
+  - gear-nickel
+  crafting-shaped:
+  - tf-1-12-gear-nickel
+tf-1-12-gear-platinum:
+  compactor-gear:
+  - gear-platinum
+  crafting-shaped:
+  - tf-1-12-gear-platinum
+tf-1-12-gear-signalum:
+  compactor-gear:
+  - gear-signalum
+  crafting-shaped:
+  - tf-1-12-gear-signalum
+tf-1-12-gear-silver:
+  compactor-gear:
+  - gear-silver
+  crafting-shaped:
+  - tf-1-12-gear-silver
+tf-1-12-gear-steel:
+  compactor-gear:
+  - gear-steel
+  crafting-shaped:
+  - tf-1-12-gear-steel
+tf-1-12-gear-stone:
+  crafting-shaped:
+  - tf-1-12-gear-stone
+tf-1-12-gear-tin:
+  compactor-gear:
+  - gear-tin
+  crafting-shaped:
+  - tf-1-12-gear-tin
+tf-1-12-gear-wood:
+  crafting-shaped:
+  - tf-1-12-gear-wood
+tf-1-12-glowstone:
+  centrifuge:
+  - dust-lumium
+  crucible:
+  - glowstone-from-clathrate
+  - fluid-ore-processing-glowstone
+  - glowstone
+  - glowstone-from-block
+  transposer-empty:
+  - bucket-glowstone
+tf-1-12-grassoline:
+  refinery:
+  - grassoline
+  transposer-empty:
+  - bucket-grassoline
+tf-1-12-hardened-glass:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-lead
+  - tf-1-12-hardened-glass
+  smelter:
+  - hardened-glass
+  - hardened-glass-lead
+  - hardened-glass-metal
+tf-1-12-hardened-glass-aluminum:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-aluminum
+  smelter:
+  - hardened-glass-aluminum
+  - hardened-glass-metal
+tf-1-12-hardened-glass-bronze:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-bronze
+  smelter:
+  - hardened-glass-metal
+  - hardened-glass-bronze
+tf-1-12-hardened-glass-constantan:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-constantan
+  smelter:
+  - hardened-glass-constantan
+  - hardened-glass-metal
+tf-1-12-hardened-glass-copper:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-copper
+  smelter:
+  - hardened-glass-copper
+  - hardened-glass-metal
+tf-1-12-hardened-glass-electrum:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-electrum
+  smelter:
+  - hardened-glass-electrum
+  - hardened-glass-metal
+tf-1-12-hardened-glass-enderium:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-enderium
+  smelter:
+  - hardened-glass-enderium
+  - hardened-glass-metal
+tf-1-12-hardened-glass-invar:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-invar
+  smelter:
+  - hardened-glass-invar
+  - hardened-glass-metal
+tf-1-12-hardened-glass-iridium:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-iridium
+  smelter:
+  - hardened-glass-iridium
+  - hardened-glass-metal
+tf-1-12-hardened-glass-lumium:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-lumium
+  smelter:
+  - hardened-glass-lumium
+  - hardened-glass-metal
+tf-1-12-hardened-glass-mithril:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-mithril
+  smelter:
+  - hardened-glass-mithril
+  - hardened-glass-metal
+tf-1-12-hardened-glass-nickel:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-nickel
+  smelter:
+  - hardened-glass-nickel
+  - hardened-glass-metal
+tf-1-12-hardened-glass-platinum:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-platinum
+  smelter:
+  - hardened-glass-platinum
+  - hardened-glass-metal
+tf-1-12-hardened-glass-signalum:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-signalum
+  smelter:
+  - hardened-glass-signalum
+  - hardened-glass-metal
+tf-1-12-hardened-glass-silver:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-silver
+  smelter:
+  - hardened-glass-silver
+  - hardened-glass-metal
+tf-1-12-hardened-glass-steel:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-steel
+  smelter:
+  - hardened-glass-steel
+  - hardened-glass-metal
+tf-1-12-hardened-glass-tin:
+  crafting-shapeless:
+  - tf-1-12-hardened-glass-tin
+  smelter:
+  - hardened-glass-metal
+  - hardened-glass-tin
+tf-1-12-horse-armor-aluminum:
+  crafting-shaped:
+  - tf-1-12-horse-armor-aluminum
+tf-1-12-horse-armor-bronze:
+  crafting-shaped:
+  - tf-1-12-horse-armor-bronze
+tf-1-12-horse-armor-constantan:
+  crafting-shaped:
+  - tf-1-12-horse-armor-constantan
+tf-1-12-horse-armor-copper:
+  crafting-shaped:
+  - tf-1-12-horse-armor-copper
+tf-1-12-horse-armor-electrum:
+  crafting-shaped:
+  - tf-1-12-horse-armor-electrum
+tf-1-12-horse-armor-invar:
+  crafting-shaped:
+  - tf-1-12-horse-armor-invar
+tf-1-12-horse-armor-lead:
+  crafting-shaped:
+  - tf-1-12-horse-armor-lead
+tf-1-12-horse-armor-nickel:
+  crafting-shaped:
+  - tf-1-12-horse-armor-nickel
+tf-1-12-horse-armor-platinum:
+  crafting-shaped:
+  - tf-1-12-horse-armor-platinum
+tf-1-12-horse-armor-silver:
+  crafting-shaped:
+  - tf-1-12-horse-armor-silver
+tf-1-12-horse-armor-steel:
+  crafting-shaped:
+  - tf-1-12-horse-armor-steel
+tf-1-12-horse-armor-tin:
+  crafting-shaped:
+  - tf-1-12-horse-armor-tin
+tf-1-12-ingot-aluminum:
+  crafting-shaped:
+  - tf-1-12-ingot-aluminum-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-ore-aluminum
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-aluminum
+  - tf-1-12-ingot-aluminum-from-block
+  - tf-1-12-pyrotheum-dust-aluminum
+  - tf-1-12-pyrotheum-dust-ore-metal
+  smelter:
+  - recycling-plate
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - ore-processing-sand-aluminum
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - ore-processing-cinnabar-aluminum
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - ore-processing-rich-slag-aluminum
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-aluminum-from-dust
+  - tf-1-12-ore-processing-aluminum
+tf-1-12-ingot-bronze:
+  crafting-shaped:
+  - tf-1-12-ingot-bronze-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-ingot-bronze-from-block
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - ingot-bronze-from-dust-copper-and-ingot-tin
+  - recycling-plate
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - ingot-bronze-from-ingot-copper-and-ingot-tin
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - ingot-bronze-from-ingot-copper-and-dust-tin
+  - recycling-armor-helmet
+  - ingot-bronze-from-dust-copper-and-dust-tin
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-bronze-from-dust
+tf-1-12-ingot-constantan:
+  crafting-shaped:
+  - tf-1-12-ingot-constantan-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-ingot-constantan-from-block
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-plate
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - ingot-constantan-from-ingot-copper-and-ingot-nickel
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - ingot-constantan-from-dust-copper-and-ingot-nickel
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - ingot-constantan-from-ingot-copper-and-dust-nickel
+  - ingot-constantan-from-dust-copper-and-dust-nickel
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-constantan-from-dust
+tf-1-12-ingot-copper:
+  crafting-shaped:
+  - tf-1-12-ingot-copper-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-ingot-copper-from-block
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-ore-copper
+  - tf-1-12-petrotheum-pyrotheum-ore-copper
+  - tf-1-12-pyrotheum-dust-ore-metal
+  - tf-1-12-pyrotheum-dust-copper
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-plate
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - ore-processing-rich-slag-copper
+  - ore-processing-cinnabar-copper
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - ore-processing-sand-copper
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-copper-from-dust
+  - tf-1-12-ore-processing-copper
+tf-1-12-ingot-electrum:
+  crafting-shaped:
+  - tf-1-12-ingot-electrum-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-ingot-electrum-from-block
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-plate
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - ingot-electrum-from-ingot-gold-and-ingot-silver
+  - recycling-tool-pickaxe
+  - ingot-electrum-from-dust-gold-and-dust-silver
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - ingot-electrum-from-ingot-gold-and-dust-silver
+  - recycling-armor-helmet
+  - ingot-electrum-from-dust-gold-and-ingot-silver
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-electrum-from-dust
+tf-1-12-ingot-enderium:
+  crafting-shaped:
+  - tf-1-12-ingot-enderium-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-ingot-enderium-from-block
+  smelter:
+  - dust-smelting
+  - recycling-gear
+  - recycling-plate
+tf-1-12-ingot-invar:
+  crafting-shaped:
+  - tf-1-12-ingot-invar-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-ingot-invar-from-block
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-plate
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - ingot-invar-from-dust-iron-and-dust-nickel
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - ingot-invar-from-ingot-iron-and-dust-nickel
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - recycling-tool-shovel
+  - ingot-invar-from-ingot-iron-and-ingot-nickel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - ingot-invar-from-dust-iron-and-ingot-nickel
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-invar-from-dust
+tf-1-12-ingot-iridium:
+  crafting-shaped:
+  - tf-1-12-ingot-iridium-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-iridium
+  - tf-1-12-pyrotheum-ore-iridium
+  - tf-1-12-pyrotheum-dust-iridium
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-ingot-iridium-from-block
+  - tf-1-12-pyrotheum-dust-ore-metal
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - ore-processing-cinnabar-iridium
+  - recycling-gear
+  - recycling-plate
+  - dust-smelting
+  - ore-processing-cinnabar-platinum
+  - ore-processing-rich-slag-iridium
+  - ore-processing-sand-iridium
+  smelting:
+  - tf-1-12-ingot-iridium-from-dust
+  - tf-1-12-ore-processing-iridium
+tf-1-12-ingot-lead:
+  crafting-shaped:
+  - tf-1-12-ingot-lead-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-lead
+  - tf-1-12-pyrotheum-dust-lead
+  - tf-1-12-ingot-lead-from-block
+  - tf-1-12-pyrotheum-ore-lead
+  - tf-1-12-pyrotheum-dust-ore-metal
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-plate
+  - ore-processing-cinnabar-lead
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - ore-processing-cinnabar-silver
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - ore-processing-sand-lead
+  - recycling-horse-armor-metal
+  - ore-processing-rich-slag-lead
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-lead-from-dust
+  - tf-1-12-ore-processing-lead
+tf-1-12-ingot-lumium:
+  crafting-shaped:
+  - tf-1-12-ingot-lumium-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-ingot-lumium-from-block
+  smelter:
+  - dust-smelting
+  - recycling-gear
+  - recycling-plate
+tf-1-12-ingot-mithril:
+  crafting-shaped:
+  - tf-1-12-ingot-mithril-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-ingot-mithril-from-block
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-ore-mithril
+  - tf-1-12-pyrotheum-dust-mithril
+  - tf-1-12-pyrotheum-dust-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-mithril
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-gear
+  - recycling-plate
+  - ore-processing-rich-slag-mithril
+  - dust-smelting
+  - ore-processing-cinnabar-mithril
+  - ore-processing-sand-mithril
+  smelting:
+  - tf-1-12-ingot-mithril-from-dust
+  - tf-1-12-ore-processing-mithril
+tf-1-12-ingot-nickel:
+  crafting-shaped:
+  - tf-1-12-ingot-nickel-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-nickel
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-ingot-nickel-from-block
+  - tf-1-12-pyrotheum-dust-nickel
+  - tf-1-12-pyrotheum-ore-nickel
+  - tf-1-12-pyrotheum-dust-ore-metal
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-plate
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - ore-processing-cinnabar-nickel
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - ore-processing-rich-slag-nickel
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - ore-processing-sand-nickel
+  - ore-processing-cinnabar-iron
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-horse-armor-nickel
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ore-processing-nickel
+  - tf-1-12-ingot-nickel-from-dust
+tf-1-12-ingot-platinum:
+  crafting-shaped:
+  - tf-1-12-ingot-platinum-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-ingot-platinum-from-block
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-platinum
+  - tf-1-12-pyrotheum-dust-platinum
+  - tf-1-12-pyrotheum-ore-platinum
+  - tf-1-12-pyrotheum-dust-ore-metal
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-plate
+  - ore-processing-cinnabar-platinum
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - ore-processing-cinnabar-nickel
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - ore-processing-rich-slag-platinum
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - ore-processing-cinnabar-iridium
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - recycling-tool-shovel
+  - recycling-horse-armor-platinum
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - ore-processing-sand-platinum
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ore-processing-platinum
+  - tf-1-12-ingot-platinum-from-dust
+tf-1-12-ingot-signalum:
+  crafting-shaped:
+  - tf-1-12-ingot-signalum-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-ingot-signalum-from-block
+  smelter:
+  - dust-smelting
+  - recycling-gear
+  - recycling-plate
+tf-1-12-ingot-silver:
+  crafting-shaped:
+  - tf-1-12-ingot-silver-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-ore-silver
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-ingot-silver-from-block
+  - tf-1-12-pyrotheum-dust-silver
+  - tf-1-12-pyrotheum-dust-ore-metal
+  - tf-1-12-petrotheum-pyrotheum-ore-silver
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-plate
+  - ore-processing-cinnabar-lead
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - ore-processing-cinnabar-silver
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - ore-processing-rich-slag-silver
+  - recycling-horse-armor-silver
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - ore-processing-sand-silver
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ingot-silver-from-dust
+  - tf-1-12-ore-processing-silver
+tf-1-12-ingot-steel:
+  crafting-shaped:
+  - tf-1-12-ingot-steel-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-ingot-steel-from-block
+  smelter:
+  - recycling-plate
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - ingot-steel-from-dust-iron-and-dust-coal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - ingot-steel-from-ingot-iron-and-dust-charcoal
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - recycling-horse-armor-steel
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - ingot-steel-from-ingot-iron-and-coal-coke
+  - ingot-steel-from-ingot-iron-and-dust-coal
+  - ingot-steel-from-dust-iron-and-dust-charcoal
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - ingot-steel-from-dust-iron-and-coal-coke
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+tf-1-12-ingot-tin:
+  crafting-shaped:
+  - tf-1-12-ingot-tin-from-nuggets
+  crafting-shapeless:
+  - tf-1-12-petrotheum-pyrotheum-ore-metal
+  - tf-1-12-ingot-tin-from-block
+  - tf-1-12-petrotheum-pyrotheum-ore-tin
+  - tf-1-12-pyrotheum-ore-metal
+  - tf-1-12-pyrotheum-dust-tin
+  - tf-1-12-pyrotheum-ore-tin
+  - tf-1-12-pyrotheum-dust-ore-metal
+  furnace:
+  - ingot-from-dust
+  smelter:
+  - recycling-horse-armor-tin
+  - recycling-plate
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - ore-processing-cinnabar-tin
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-weapon-bow-metal
+  - recycling-tool-sickle
+  - recycling-horse-armor-metal
+  - recycling-tool-pickaxe
+  - recycling-armor-leggings
+  - recycling-weapon-sword
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-armor-helmet
+  - ore-processing-sand-tin
+  - ore-processing-rich-slag-tin
+  - recycling-tool-shovel
+  - recycling-armor-boots
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-tool-excavator
+  smelting:
+  - tf-1-12-ore-processing-tin
+  - tf-1-12-ingot-tin-from-dust
+tf-1-12-mana:
+  transposer-empty:
+  - bucket-mana
+tf-1-12-multimeter:
+  crafting-shaped:
+  - tf-1-12-multimeter
+tf-1-12-mushroom-stew:
+  transposer-empty:
+  - bucket-mushroom-stew
+  - mushroom-stew
+tf-1-12-naphtha:
+  refinery:
+  - naphtha-from-crude-oil
+  - naphtha-from-coal
+  transposer-empty:
+  - bucket-naphtha
+tf-1-12-niter:
+  centrifuge:
+  - dust-aerotheum
+  pulverizer:
+  - recycling-sandstone-red-stairs
+  - recycling-sandstone-red
+  - recycling-sandstone-slab
+  - recycling-sandstone
+  - recycling-sandstone-stairs
+  - blitz-powder
+  - recycling-sandstone-red-slab
+tf-1-12-nugget-aluminum:
+  crafting-shapeless:
+  - tf-1-12-nugget-aluminum
+tf-1-12-nugget-bronze:
+  crafting-shapeless:
+  - tf-1-12-nugget-bronze
+tf-1-12-nugget-constantan:
+  crafting-shapeless:
+  - tf-1-12-nugget-constantan
+tf-1-12-nugget-copper:
+  crafting-shapeless:
+  - tf-1-12-nugget-copper
+tf-1-12-nugget-diamond:
+  crafting-shapeless:
+  - tf-1-12-nugget-diamond
+tf-1-12-nugget-electrum:
+  crafting-shapeless:
+  - tf-1-12-nugget-electrum
+tf-1-12-nugget-emerald:
+  crafting-shapeless:
+  - tf-1-12-nugget-emerald
+tf-1-12-nugget-enderium:
+  crafting-shapeless:
+  - tf-1-12-nugget-enderium
+tf-1-12-nugget-invar:
+  crafting-shapeless:
+  - tf-1-12-nugget-invar
+tf-1-12-nugget-iridium:
+  crafting-shapeless:
+  - tf-1-12-nugget-iridium
+tf-1-12-nugget-lead:
+  crafting-shapeless:
+  - tf-1-12-nugget-lead
+tf-1-12-nugget-lumium:
+  crafting-shapeless:
+  - tf-1-12-nugget-lumium
+tf-1-12-nugget-mithril:
+  crafting-shapeless:
+  - tf-1-12-nugget-mithril
+tf-1-12-nugget-nickel:
+  crafting-shapeless:
+  - tf-1-12-nugget-nickel
+tf-1-12-nugget-platinum:
+  crafting-shapeless:
+  - tf-1-12-nugget-platinum
+tf-1-12-nugget-signalum:
+  crafting-shapeless:
+  - tf-1-12-nugget-signalum
+tf-1-12-nugget-silver:
+  crafting-shapeless:
+  - tf-1-12-nugget-silver
+tf-1-12-nugget-steel:
+  crafting-shapeless:
+  - tf-1-12-nugget-steel
+tf-1-12-nugget-tin:
+  crafting-shapeless:
+  - tf-1-12-nugget-tin
+tf-1-12-petrotheum:
+  crucible:
+  - petrotheum
+  transposer-empty:
+  - bucket-petrotheum
+tf-1-12-phyto-gro:
+  crafting-shapeless:
+  - tf-1-12-phyto-gro-using-sawdust
+  - tf-1-12-phyto-gro-using-charcoal
+tf-1-12-phyto-gro-fluxed:
+  charger:
+  - phyto-gro-fluxed
+tf-1-12-phyto-gro-rich:
+  crafting-shapeless:
+  - tf-1-12-phyto-gro-rich-using-charcoal
+  - tf-1-12-phyto-gro-rich-using-sawdust
+  transposer-fill:
+  - phyto-gro-rich
+tf-1-12-pigment-black:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-blue:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-brown:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-cyan:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-gray:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-green:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-light-blue:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-light-gray:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-lime:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-magenta:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-orange:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-pink:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-purple:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-red:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-white:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-pigment-yellow:
+  centrifuge:
+  - concrete-powder
+  pulverizer:
+  - recycling-wool
+tf-1-12-plate-aluminum:
+  compactor:
+  - plate-aluminum
+tf-1-12-plate-bronze:
+  compactor:
+  - plate-bronze
+tf-1-12-plate-constantan:
+  compactor:
+  - plate-constantan
+tf-1-12-plate-copper:
+  compactor:
+  - plate-copper
+tf-1-12-plate-electrum:
+  compactor:
+  - plate-electrum
+tf-1-12-plate-enderium:
+  compactor:
+  - plate-enderium
+tf-1-12-plate-gold:
+  compactor:
+  - plate-gold
+tf-1-12-plate-invar:
+  compactor:
+  - plate-invar
+tf-1-12-plate-iridium:
+  compactor:
+  - plate-iridium
+tf-1-12-plate-iron:
+  compactor:
+  - plate-iron
+tf-1-12-plate-lead:
+  compactor:
+  - plate-lead
+tf-1-12-plate-lumium:
+  compactor:
+  - plate-lumium
+tf-1-12-plate-mithril:
+  compactor:
+  - plate-mithril
+tf-1-12-plate-nickel:
+  compactor:
+  - plate-nickel
+tf-1-12-plate-platinum:
+  compactor:
+  - plate-platinum
+tf-1-12-plate-signalum:
+  compactor:
+  - plate-signalum
+tf-1-12-plate-silver:
+  compactor:
+  - plate-silver
+tf-1-12-plate-steel:
+  compactor:
+  - plate-steel
+tf-1-12-plate-tin:
+  compactor:
+  - plate-tin
+tf-1-12-pyrotheum:
+  crucible:
+  - pyrotheum
+  transposer-empty:
+  - bucket-pyrotheum
+tf-1-12-redprint:
+  crafting-shapeless:
+  - tf-1-12-redprint
+tf-1-12-redstone:
+  centrifuge:
+  - dust-signalum
+  crucible:
+  - redstone-from-clathrate
+  - redstone-from-block
+  - fluid-ore-processing-redstone
+  - redstone
+  transposer-empty:
+  - bucket-redstone
+tf-1-12-redstone-coil-electrum:
+  crafting-shaped:
+  - tf-1-12-redstone-coil-electrum
+tf-1-12-redstone-coil-gold:
+  crafting-shaped:
+  - tf-1-12-redstone-coil-gold
+tf-1-12-redstone-coil-silver:
+  crafting-shaped:
+  - tf-1-12-redstone-coil-silver
+tf-1-12-redstone-servo:
+  crafting-shaped:
+  - tf-1-12-redstone-servo
+tf-1-12-refined-fuel:
+  refinery:
+  - refined-fuel
+  transposer-empty:
+  - bucket-refined-fuel
+tf-1-12-resin:
+  transposer-empty:
+  - bucket-resin
+tf-1-12-rockwool-black:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-blue:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-brown:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-cyan:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-gray:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-green:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-light-blue:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-light-gray:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+  smelting:
+  - tf-1-12-rockwool
+tf-1-12-rockwool-lime:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-magenta:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-orange:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-pink:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-purple:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-red:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-white:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rockwool-yellow:
+  crafting-shapeless:
+  - tf-1-12-rockwool-dyeing
+tf-1-12-rosin:
+  refinery:
+  - tree-oil
+tf-1-12-sap:
+  transposer-empty:
+  - bucket-sap
+tf-1-12-saw-blade:
+  crafting-shaped:
+  - tf-1-12-saw-blade
+tf-1-12-sawdust:
+  pulverizer:
+  - recycling-tool-hoe-wood
+  - recycling-tool-shears-wood
+  - recycling-weapon-bow
+  - recycling-tool-excavator-wood
+  - sawdust-from-wood-planks
+  - recycling-note-block
+  - recycling-tool-shovel-wood
+  - recycling-tool-fishing-rod
+  - recycling-tool-axe-wood
+  - recycling-tool-sickle-wood
+  - sawdust-from-wood-log
+  - recycling-tool-hammer-wood
+  - recycling-jukebox
+  - recycling-weapon-sword-wood
+  - recycling-weapon-shield
+  - recycling-tool-pickaxe-wood
+  sawmill:
+  - recycling-fence-gate
+  - biomass-from-sapling
+  - recycling-wood-stairs
+  - recycling-boat
+  - recycling-door
+  - recycling-fence
+  - wood-processing
+tf-1-12-sawdust-compressed:
+  crafting-shaped:
+  - tf-1-12-sawdust-compressed
+tf-1-12-seed-oil:
+  transposer-empty:
+  - seed-oil-from-pumpkin-seeds
+  - seed-oil-from-seeds
+  - bucket-seed-oil
+  - seed-oil-from-beetroot-seeds
+  - seed-oil-from-melon-seeds
+tf-1-12-signalum-security-lock:
+  crafting-shaped:
+  - tf-1-12-signalum-security-lock
+tf-1-12-slag:
+  smelter:
+  - recycling-horse-armor-tin
+  - recycling-minecart-with-furnace
+  - recycling-plate
+  - recycling-pressure-plate-gold
+  - recycling-anvil
+  - recycling-minecart-with-hopper
+  - recycling-hopper
+  - recycling-tool-axe
+  - recycling-tool-hoe
+  - recycling-tool-fishing-rod-metal
+  - recycling-tool-shears-metal
+  - recycling-iron-bars
+  - recycling-door-iron
+  - recycling-weapon-bow-metal
+  - recycling-pressure-plate-iron
+  - ore-processing-rich-slag-platinum
+  - recycling-tool-sickle
+  - ore-processing-rich-slag-nickel
+  - ore-processing-rich-slag-silver
+  - recycling-horse-armor-silver
+  - recycling-horse-armor-metal
+  - recycling-powered-rail
+  - recycling-rail
+  - ore-processing-rich-slag-iridium
+  - ore-processing-rich-slag-lead
+  - stone-bricks
+  - recycling-tool-pickaxe
+  - ore-processing-rich-slag-copper
+  - recycling-armor-leggings
+  - recycling-anvil-very-damaged
+  - recycling-cauldron
+  - recycling-horse-armor-steel
+  - recycling-minecart-with-chest
+  - recycling-weapon-shield-metal
+  - recycling-gear
+  - recycling-weapon-sword
+  - recycling-minecart
+  - recycling-armor-helmet
+  - ore-processing-rich-slag-mithril
+  - ore-processing-rich-slag-tin
+  - recycling-anvil-slightly-damaged
+  - recycling-bucket
+  - recycling-tool-shovel
+  - recycling-horse-armor-platinum
+  - recycling-armor-boots
+  - ore-processing-rich-slag-aluminum
+  - ore-processing-rich-slag-iron
+  - recycling-iron-trapdoor
+  - recycling-tool-hammer
+  - dust-smelting
+  - recycling-armor-chestplate
+  - recycling-horse-armor-nickel
+  - ore-processing-rich-slag-gold
+  - recycling-tool-excavator
+tf-1-12-slag-rich:
+  smelter:
+  - hardened-glass-constantan
+  - hardened-glass-copper
+  - hardened-glass-silver
+  - hardened-glass-lumium
+  - hardened-glass-lead
+  - hardened-glass-metal
+  - ore-processing-sand-aluminum
+  - hardened-glass-aluminum
+  - hardened-glass-bronze
+  - hardened-glass-tin
+  - ore-processing-sand-lead
+  - hardened-glass-signalum
+  - hardened-glass-steel
+  - ore-processing-lapis-lazuli
+  - recycling-clock
+  - hardened-glass-platinum
+  - hardened-glass-nickel
+  - ore-processing-sand-gold
+  - ore-processing-cinnabar-gold
+  - ore-processing-nether-quartz
+  - ore-processing-sand-tin
+  - ore-processing-sand-nickel
+  - ore-processing-sand-silver
+  - hardened-glass-iridium
+  - hardened-glass-enderium
+  - ore-processing-sand-iridium
+  - ore-processing-sand-iron
+  - hardened-glass-electrum
+  - ore-processing-sand-copper
+  - hardened-glass-mithril
+  - ore-processing-redstone
+  - hardened-glass-invar
+  - recycling-compass
+  - ore-processing-sand-mithril
+  - ore-processing-sand-platinum
+tf-1-12-steam:
+  transposer-empty:
+  - bucket-steam
+tf-1-12-storage-block-aluminum:
+  crafting-shaped:
+  - tf-1-12-storage-block-aluminum
+tf-1-12-storage-block-bronze:
+  crafting-shaped:
+  - tf-1-12-storage-block-bronze
+tf-1-12-storage-block-charcoal:
+  crafting-shaped:
+  - tf-1-12-storage-block-charcoal
+tf-1-12-storage-block-coal-coke:
+  crafting-shaped:
+  - tf-1-12-storage-block-coal-coke
+  furnace-pyrolysis:
+  - storage-block-coal-coke
+tf-1-12-storage-block-constantan:
+  crafting-shaped:
+  - tf-1-12-storage-block-constantan
+tf-1-12-storage-block-copper:
+  crafting-shaped:
+  - tf-1-12-storage-block-copper
+tf-1-12-storage-block-electrum:
+  crafting-shaped:
+  - tf-1-12-storage-block-electrum
+tf-1-12-storage-block-enderium:
+  crafting-shaped:
+  - tf-1-12-storage-block-enderium
+tf-1-12-storage-block-invar:
+  crafting-shaped:
+  - tf-1-12-storage-block-invar
+tf-1-12-storage-block-iridium:
+  crafting-shaped:
+  - tf-1-12-storage-block-iridium
+tf-1-12-storage-block-lead:
+  crafting-shaped:
+  - tf-1-12-storage-block-lead
+tf-1-12-storage-block-lumium:
+  crafting-shaped:
+  - tf-1-12-storage-block-lumium
+tf-1-12-storage-block-mithril:
+  crafting-shaped:
+  - tf-1-12-storage-block-mithril
+tf-1-12-storage-block-nickel:
+  crafting-shaped:
+  - tf-1-12-storage-block-nickel
+tf-1-12-storage-block-platinum:
+  crafting-shaped:
+  - tf-1-12-storage-block-platinum
+tf-1-12-storage-block-signalum:
+  crafting-shaped:
+  - tf-1-12-storage-block-signalum
+tf-1-12-storage-block-silver:
+  crafting-shaped:
+  - tf-1-12-storage-block-silver
+tf-1-12-storage-block-steel:
+  crafting-shaped:
+  - tf-1-12-storage-block-steel
+tf-1-12-storage-block-tin:
+  crafting-shaped:
+  - tf-1-12-storage-block-tin
+tf-1-12-sulfur:
+  centrifuge:
+  - dust-pyrotheum
+  pulverizer:
+  - ore-processing-nether-quartz
+  - fluid-ore-processing-glowstone
+  - dust-coal
+  - gravel-from-netherrack
+  - ore-processing-lapis-lazuli
+  - blaze-powder
+  refinery:
+  - refined-fuel
+  smelter:
+  - nether-brick
+tf-1-12-syrup:
+  transposer-empty:
+  - bucket-syrup
+tf-1-12-tar:
+  pulverizer:
+  - fluid-ore-processing-oil-sand
+  refinery:
+  - naphtha-from-crude-oil
+  - naphtha-from-coal
+tf-1-12-tome-of-knowledge:
+  crafting-shaped:
+  - tf-1-12-tome-of-knowledge
+tf-1-12-tool-axe-aluminum:
+  crafting-shaped:
+  - tf-1-12-tool-axe-aluminum
+tf-1-12-tool-axe-bronze:
+  crafting-shaped:
+  - tf-1-12-tool-axe-bronze
+tf-1-12-tool-axe-constantan:
+  crafting-shaped:
+  - tf-1-12-tool-axe-constantan
+tf-1-12-tool-axe-copper:
+  crafting-shaped:
+  - tf-1-12-tool-axe-copper
+tf-1-12-tool-axe-electrum:
+  crafting-shaped:
+  - tf-1-12-tool-axe-electrum
+tf-1-12-tool-axe-invar:
+  crafting-shaped:
+  - tf-1-12-tool-axe-invar
+tf-1-12-tool-axe-lead:
+  crafting-shaped:
+  - tf-1-12-tool-axe-lead
+tf-1-12-tool-axe-nickel:
+  crafting-shaped:
+  - tf-1-12-tool-axe-nickel
+tf-1-12-tool-axe-platinum:
+  crafting-shaped:
+  - tf-1-12-tool-axe-platinum
+tf-1-12-tool-axe-silver:
+  crafting-shaped:
+  - tf-1-12-tool-axe-silver
+tf-1-12-tool-axe-steel:
+  crafting-shaped:
+  - tf-1-12-tool-axe-steel
+tf-1-12-tool-axe-tin:
+  crafting-shaped:
+  - tf-1-12-tool-axe-tin
+tf-1-12-tool-casing:
+  crafting-shaped:
+  - tf-1-12-tool-casing
+tf-1-12-tool-excavator-aluminum:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-aluminum
+tf-1-12-tool-excavator-bronze:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-bronze
+tf-1-12-tool-excavator-constantan:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-constantan
+tf-1-12-tool-excavator-copper:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-copper
+tf-1-12-tool-excavator-diamond:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-diamond
+tf-1-12-tool-excavator-electrum:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-electrum
+tf-1-12-tool-excavator-gold:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-gold
+tf-1-12-tool-excavator-invar:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-invar
+tf-1-12-tool-excavator-iron:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-iron
+tf-1-12-tool-excavator-lead:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-lead
+tf-1-12-tool-excavator-nickel:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-nickel
+tf-1-12-tool-excavator-platinum:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-platinum
+tf-1-12-tool-excavator-silver:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-silver
+tf-1-12-tool-excavator-steel:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-steel
+tf-1-12-tool-excavator-stone:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-stone
+tf-1-12-tool-excavator-tin:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-tin
+tf-1-12-tool-excavator-wood:
+  crafting-shaped:
+  - tf-1-12-tool-excavator-wood
+tf-1-12-tool-fishing-rod-aluminum:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-aluminum
+tf-1-12-tool-fishing-rod-bronze:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-bronze
+tf-1-12-tool-fishing-rod-constantan:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-constantan
+tf-1-12-tool-fishing-rod-copper:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-copper
+tf-1-12-tool-fishing-rod-diamond:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-diamond
+tf-1-12-tool-fishing-rod-electrum:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-electrum
+tf-1-12-tool-fishing-rod-gold:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-gold
+tf-1-12-tool-fishing-rod-invar:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-invar
+tf-1-12-tool-fishing-rod-iron:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-iron
+tf-1-12-tool-fishing-rod-lead:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-lead
+tf-1-12-tool-fishing-rod-nickel:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-nickel
+tf-1-12-tool-fishing-rod-platinum:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-platinum
+tf-1-12-tool-fishing-rod-silver:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-silver
+tf-1-12-tool-fishing-rod-steel:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-steel
+tf-1-12-tool-fishing-rod-stone:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-stone
+tf-1-12-tool-fishing-rod-tin:
+  crafting-shaped:
+  - tf-1-12-tool-fishing-rod-tin
+tf-1-12-tool-hammer-aluminum:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-aluminum
+tf-1-12-tool-hammer-bronze:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-bronze
+tf-1-12-tool-hammer-constantan:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-constantan
+tf-1-12-tool-hammer-copper:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-copper
+tf-1-12-tool-hammer-diamond:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-diamond
+tf-1-12-tool-hammer-electrum:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-electrum
+tf-1-12-tool-hammer-gold:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-gold
+tf-1-12-tool-hammer-invar:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-invar
+tf-1-12-tool-hammer-iron:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-iron
+tf-1-12-tool-hammer-lead:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-lead
+tf-1-12-tool-hammer-nickel:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-nickel
+tf-1-12-tool-hammer-platinum:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-platinum
+tf-1-12-tool-hammer-silver:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-silver
+tf-1-12-tool-hammer-steel:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-steel
+tf-1-12-tool-hammer-stone:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-stone
+tf-1-12-tool-hammer-tin:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-tin
+tf-1-12-tool-hammer-wood:
+  crafting-shaped:
+  - tf-1-12-tool-hammer-wood
+tf-1-12-tool-hoe-aluminum:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-aluminum
+tf-1-12-tool-hoe-bronze:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-bronze
+tf-1-12-tool-hoe-constantan:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-constantan
+tf-1-12-tool-hoe-copper:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-copper
+tf-1-12-tool-hoe-electrum:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-electrum
+tf-1-12-tool-hoe-invar:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-invar
+tf-1-12-tool-hoe-lead:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-lead
+tf-1-12-tool-hoe-nickel:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-nickel
+tf-1-12-tool-hoe-platinum:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-platinum
+tf-1-12-tool-hoe-silver:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-silver
+tf-1-12-tool-hoe-steel:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-steel
+tf-1-12-tool-hoe-tin:
+  crafting-shaped:
+  - tf-1-12-tool-hoe-tin
+tf-1-12-tool-pickaxe-aluminum:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-aluminum
+tf-1-12-tool-pickaxe-bronze:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-bronze
+tf-1-12-tool-pickaxe-constantan:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-constantan
+tf-1-12-tool-pickaxe-copper:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-copper
+tf-1-12-tool-pickaxe-electrum:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-electrum
+tf-1-12-tool-pickaxe-invar:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-invar
+tf-1-12-tool-pickaxe-lead:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-lead
+tf-1-12-tool-pickaxe-nickel:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-nickel
+tf-1-12-tool-pickaxe-platinum:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-platinum
+tf-1-12-tool-pickaxe-silver:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-silver
+tf-1-12-tool-pickaxe-steel:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-steel
+tf-1-12-tool-pickaxe-tin:
+  crafting-shaped:
+  - tf-1-12-tool-pickaxe-tin
+tf-1-12-tool-shears-aluminum:
+  crafting-shaped:
+  - tf-1-12-tool-shears-aluminum
+tf-1-12-tool-shears-bronze:
+  crafting-shaped:
+  - tf-1-12-tool-shears-bronze
+tf-1-12-tool-shears-constantan:
+  crafting-shaped:
+  - tf-1-12-tool-shears-constantan
+tf-1-12-tool-shears-copper:
+  crafting-shaped:
+  - tf-1-12-tool-shears-copper
+tf-1-12-tool-shears-diamond:
+  crafting-shaped:
+  - tf-1-12-tool-shears-diamond
+tf-1-12-tool-shears-electrum:
+  crafting-shaped:
+  - tf-1-12-tool-shears-electrum
+tf-1-12-tool-shears-gold:
+  crafting-shaped:
+  - tf-1-12-tool-shears-gold
+tf-1-12-tool-shears-invar:
+  crafting-shaped:
+  - tf-1-12-tool-shears-invar
+tf-1-12-tool-shears-lead:
+  crafting-shaped:
+  - tf-1-12-tool-shears-lead
+tf-1-12-tool-shears-nickel:
+  crafting-shaped:
+  - tf-1-12-tool-shears-nickel
+tf-1-12-tool-shears-platinum:
+  crafting-shaped:
+  - tf-1-12-tool-shears-platinum
+tf-1-12-tool-shears-silver:
+  crafting-shaped:
+  - tf-1-12-tool-shears-silver
+tf-1-12-tool-shears-steel:
+  crafting-shaped:
+  - tf-1-12-tool-shears-steel
+tf-1-12-tool-shears-stone:
+  crafting-shaped:
+  - tf-1-12-tool-shears-stone
+tf-1-12-tool-shears-tin:
+  crafting-shaped:
+  - tf-1-12-tool-shears-tin
+tf-1-12-tool-shears-wood:
+  crafting-shaped:
+  - tf-1-12-tool-shears-wood
+tf-1-12-tool-shovel-aluminum:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-aluminum
+tf-1-12-tool-shovel-bronze:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-bronze
+tf-1-12-tool-shovel-constantan:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-constantan
+tf-1-12-tool-shovel-copper:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-copper
+tf-1-12-tool-shovel-electrum:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-electrum
+tf-1-12-tool-shovel-invar:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-invar
+tf-1-12-tool-shovel-lead:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-lead
+tf-1-12-tool-shovel-nickel:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-nickel
+tf-1-12-tool-shovel-platinum:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-platinum
+tf-1-12-tool-shovel-silver:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-silver
+tf-1-12-tool-shovel-steel:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-steel
+tf-1-12-tool-shovel-tin:
+  crafting-shaped:
+  - tf-1-12-tool-shovel-tin
+tf-1-12-tool-sickle-aluminum:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-aluminum
+tf-1-12-tool-sickle-bronze:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-bronze
+tf-1-12-tool-sickle-constantan:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-constantan
+tf-1-12-tool-sickle-copper:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-copper
+tf-1-12-tool-sickle-diamond:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-diamond
+tf-1-12-tool-sickle-electrum:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-electrum
+tf-1-12-tool-sickle-gold:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-gold
+tf-1-12-tool-sickle-invar:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-invar
+tf-1-12-tool-sickle-iron:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-iron
+tf-1-12-tool-sickle-lead:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-lead
+tf-1-12-tool-sickle-nickel:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-nickel
+tf-1-12-tool-sickle-platinum:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-platinum
+tf-1-12-tool-sickle-silver:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-silver
+tf-1-12-tool-sickle-steel:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-steel
+tf-1-12-tool-sickle-stone:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-stone
+tf-1-12-tool-sickle-tin:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-tin
+tf-1-12-tool-sickle-wood:
+  crafting-shaped:
+  - tf-1-12-tool-sickle-wood
+tf-1-12-tree-oil:
+  refinery:
+  - tree-oil
+  transposer-empty:
+  - bucket-tree-oil
+tf-1-12-upgrade-kit-hardened:
+  crafting-shaped:
+  - tf-1-12-upgrade-kit-hardened
+tf-1-12-upgrade-kit-reinforced:
+  crafting-shaped:
+  - tf-1-12-upgrade-kit-reinforced
+tf-1-12-upgrade-kit-resonant:
+  crafting-shaped:
+  - tf-1-12-upgrade-kit-resonant
+tf-1-12-upgrade-kit-signalum:
+  crafting-shaped:
+  - tf-1-12-upgrade-kit-signalum
+tf-1-12-weapon-bow-aluminum:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-aluminum
+tf-1-12-weapon-bow-bronze:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-bronze
+tf-1-12-weapon-bow-constantan:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-constantan
+tf-1-12-weapon-bow-copper:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-copper
+tf-1-12-weapon-bow-diamond:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-diamond
+tf-1-12-weapon-bow-electrum:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-electrum
+tf-1-12-weapon-bow-gold:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-gold
+tf-1-12-weapon-bow-invar:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-invar
+tf-1-12-weapon-bow-iron:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-iron
+tf-1-12-weapon-bow-lead:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-lead
+tf-1-12-weapon-bow-nickel:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-nickel
+tf-1-12-weapon-bow-platinum:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-platinum
+tf-1-12-weapon-bow-silver:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-silver
+tf-1-12-weapon-bow-steel:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-steel
+tf-1-12-weapon-bow-stone:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-stone
+tf-1-12-weapon-bow-tin:
+  crafting-shaped:
+  - tf-1-12-weapon-bow-tin
+tf-1-12-weapon-shield-aluminum:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-aluminum
+tf-1-12-weapon-shield-bronze:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-bronze
+tf-1-12-weapon-shield-constantan:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-constantan
+tf-1-12-weapon-shield-copper:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-copper
+tf-1-12-weapon-shield-diamond:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-diamond
+tf-1-12-weapon-shield-electrum:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-electrum
+tf-1-12-weapon-shield-gold:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-gold
+tf-1-12-weapon-shield-invar:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-invar
+tf-1-12-weapon-shield-iron:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-iron
+tf-1-12-weapon-shield-lead:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-lead
+tf-1-12-weapon-shield-nickel:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-nickel
+tf-1-12-weapon-shield-platinum:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-platinum
+tf-1-12-weapon-shield-silver:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-silver
+tf-1-12-weapon-shield-steel:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-steel
+tf-1-12-weapon-shield-stone:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-stone
+tf-1-12-weapon-shield-tin:
+  crafting-shaped:
+  - tf-1-12-weapon-shield-tin
+tf-1-12-weapon-sword-aluminum:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-aluminum
+tf-1-12-weapon-sword-bronze:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-bronze
+tf-1-12-weapon-sword-constantan:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-constantan
+tf-1-12-weapon-sword-copper:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-copper
+tf-1-12-weapon-sword-electrum:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-electrum
+tf-1-12-weapon-sword-invar:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-invar
+tf-1-12-weapon-sword-lead:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-lead
+tf-1-12-weapon-sword-nickel:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-nickel
+tf-1-12-weapon-sword-platinum:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-platinum
+tf-1-12-weapon-sword-silver:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-silver
+tf-1-12-weapon-sword-steel:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-steel
+tf-1-12-weapon-sword-tin:
+  crafting-shaped:
+  - tf-1-12-weapon-sword-tin
+ti-1-12-alchemical-quiver-basic:
+  crafting-shaped:
+  - ti-1-12-alchemical-quiver-basic
+ti-1-12-alchemical-quiver-hardened:
+  crafting-shaped:
+  - ti-1-12-alchemical-quiver-hardened
+ti-1-12-alchemical-quiver-reinforced:
+  crafting-shaped:
+  - ti-1-12-alchemical-quiver-reinforced
+ti-1-12-alchemical-quiver-resonant:
+  crafting-shaped:
+  - ti-1-12-alchemical-quiver-resonant
+ti-1-12-alchemical-quiver-signalum:
+  crafting-shaped:
+  - ti-1-12-alchemical-quiver-signalum
+ti-1-12-fluxbore-basic:
+  crafting-shaped:
+  - ti-1-12-fluxbore-basic
+ti-1-12-fluxbore-hardened:
+  crafting-shaped:
+  - ti-1-12-fluxbore-hardened
+ti-1-12-fluxbore-reinforced:
+  crafting-shaped:
+  - ti-1-12-fluxbore-reinforced
+ti-1-12-fluxbore-resonant:
+  crafting-shaped:
+  - ti-1-12-fluxbore-resonant
+ti-1-12-fluxbore-signalum:
+  crafting-shaped:
+  - ti-1-12-fluxbore-signalum
+ti-1-12-fluxomagnet-basic:
+  crafting-shaped:
+  - ti-1-12-fluxomagnet-basic
+ti-1-12-fluxomagnet-hardened:
+  crafting-shaped:
+  - ti-1-12-fluxomagnet-hardened
+ti-1-12-fluxomagnet-reinforced:
+  crafting-shaped:
+  - ti-1-12-fluxomagnet-reinforced
+ti-1-12-fluxomagnet-resonant:
+  crafting-shaped:
+  - ti-1-12-fluxomagnet-resonant
+ti-1-12-fluxomagnet-signalum:
+  crafting-shaped:
+  - ti-1-12-fluxomagnet-signalum
+ti-1-12-fluxsaw-basic:
+  crafting-shaped:
+  - ti-1-12-fluxsaw-basic
+ti-1-12-fluxsaw-hardened:
+  crafting-shaped:
+  - ti-1-12-fluxsaw-hardened
+ti-1-12-fluxsaw-reinforced:
+  crafting-shaped:
+  - ti-1-12-fluxsaw-reinforced
+ti-1-12-fluxsaw-resonant:
+  crafting-shaped:
+  - ti-1-12-fluxsaw-resonant
+ti-1-12-fluxsaw-signalum:
+  crafting-shaped:
+  - ti-1-12-fluxsaw-signalum
+ti-1-12-hypoinfuser-basic:
+  crafting-shaped:
+  - ti-1-12-hypoinfuser-basic
+ti-1-12-hypoinfuser-hardened:
+  crafting-shaped:
+  - ti-1-12-hypoinfuser-hardened
+ti-1-12-hypoinfuser-reinforced:
+  crafting-shaped:
+  - ti-1-12-hypoinfuser-reinforced
+ti-1-12-hypoinfuser-resonant:
+  crafting-shaped:
+  - ti-1-12-hypoinfuser-resonant
+ti-1-12-hypoinfuser-signalum:
+  crafting-shaped:
+  - ti-1-12-hypoinfuser-signalum
+vps-1-12-satchel-basic:
+  crafting-shaped:
+  - vps-1-12-satchel-basic
+vps-1-12-satchel-diamond:
+  crafting-shaped:
+  - vps-1-12-satchel-diamond
+vps-1-12-satchel-emerald:
+  crafting-shaped:
+  - vps-1-12-satchel-emerald
+vps-1-12-satchel-gold:
+  crafting-shaped:
+  - vps-1-12-satchel-gold
+vps-1-12-satchel-iron:
+  crafting-shaped:
+  - vps-1-12-satchel-iron
+vps-1-12-satchel-void:
+  crafting-shaped:
+  - vps-1-12-satchel-void
+vpt-1-12-tool-excavator-diamond:
+  crafting-shaped:
+  - vpt-1-12-tool-excavator-diamond
+vpt-1-12-tool-excavator-gold:
+  crafting-shaped:
+  - vpt-1-12-tool-excavator-gold
+vpt-1-12-tool-excavator-iron:
+  crafting-shaped:
+  - vpt-1-12-tool-excavator-iron
+vpt-1-12-tool-excavator-stone:
+  crafting-shaped:
+  - vpt-1-12-tool-excavator-stone
+vpt-1-12-tool-excavator-wood:
+  crafting-shaped:
+  - vpt-1-12-tool-excavator-wood
+vpt-1-12-tool-fishing-rod-diamond:
+  crafting-shaped:
+  - vpt-1-12-tool-fishing-rod-diamond
+vpt-1-12-tool-fishing-rod-gold:
+  crafting-shaped:
+  - vpt-1-12-tool-fishing-rod-gold
+vpt-1-12-tool-fishing-rod-iron:
+  crafting-shaped:
+  - vpt-1-12-tool-fishing-rod-iron
+vpt-1-12-tool-fishing-rod-stone:
+  crafting-shaped:
+  - vpt-1-12-tool-fishing-rod-stone
+vpt-1-12-tool-hammer-diamond:
+  crafting-shaped:
+  - vpt-1-12-tool-hammer-diamond
+vpt-1-12-tool-hammer-gold:
+  crafting-shaped:
+  - vpt-1-12-tool-hammer-gold
+vpt-1-12-tool-hammer-iron:
+  crafting-shaped:
+  - vpt-1-12-tool-hammer-iron
+vpt-1-12-tool-hammer-stone:
+  crafting-shaped:
+  - vpt-1-12-tool-hammer-stone
+vpt-1-12-tool-hammer-wood:
+  crafting-shaped:
+  - vpt-1-12-tool-hammer-wood
+vpt-1-12-tool-shears-diamond:
+  crafting-shaped:
+  - vpt-1-12-tool-shears-diamond
+vpt-1-12-tool-shears-gold:
+  crafting-shaped:
+  - vpt-1-12-tool-shears-gold
+vpt-1-12-tool-shears-stone:
+  crafting-shaped:
+  - vpt-1-12-tool-shears-stone
+vpt-1-12-tool-shears-wood:
+  crafting-shaped:
+  - vpt-1-12-tool-shears-wood
+vpt-1-12-tool-sickle-diamond:
+  crafting-shaped:
+  - vpt-1-12-tool-sickle-diamond
+vpt-1-12-tool-sickle-gold:
+  crafting-shaped:
+  - vpt-1-12-tool-sickle-gold
+vpt-1-12-tool-sickle-iron:
+  crafting-shaped:
+  - vpt-1-12-tool-sickle-iron
+vpt-1-12-tool-sickle-stone:
+  crafting-shaped:
+  - vpt-1-12-tool-sickle-stone
+vpt-1-12-tool-sickle-wood:
+  crafting-shaped:
+  - vpt-1-12-tool-sickle-wood
+vpt-1-12-weapon-bow-diamond:
+  crafting-shaped:
+  - vpt-1-12-weapon-bow-diamond
+vpt-1-12-weapon-bow-gold:
+  crafting-shaped:
+  - vpt-1-12-weapon-bow-gold
+vpt-1-12-weapon-bow-iron:
+  crafting-shaped:
+  - vpt-1-12-weapon-bow-iron
+vpt-1-12-weapon-bow-stone:
+  crafting-shaped:
+  - vpt-1-12-weapon-bow-stone
+vpt-1-12-weapon-shield-diamond:
+  crafting-shaped:
+  - vpt-1-12-weapon-shield-diamond
+vpt-1-12-weapon-shield-gold:
+  crafting-shaped:
+  - vpt-1-12-weapon-shield-gold
+vpt-1-12-weapon-shield-iron:
+  crafting-shaped:
+  - vpt-1-12-weapon-shield-iron
+vpt-1-12-weapon-shield-stone:
+  crafting-shaped:
+  - vpt-1-12-weapon-shield-stone

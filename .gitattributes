@@ -1,7 +1,2 @@
-assets/css/uikit/* linguist-vendored=true
-assets/css/fonts/* linguist-vendored=true
-assets/js/uikit/* linguist-vendored=true
-assets/js/jquery.min.js linguist-vendored=true
-docs/* linguist-documentation=false
-*.md linguist-detectable=true
-*.yml linguist-detectable=true
+# Auto detect text files and perform LF normalization
+* text=auto

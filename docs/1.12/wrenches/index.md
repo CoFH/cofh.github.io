@@ -1,14 +1,12 @@
 ---
-title: Wrenches (Minecraft 1.12)
 image:
 - alt: Crescent hammer
-  file: thermal-foundation-2/crescent-hammer.png
+  file: thermal-foundation/crescent-hammer.png
 - alt: Flux-infused omniwrench
-  file: redstone-arsenal-2/flux-infused-omniwrench.png
+  file: redstone-arsenal/flux-infused-omniwrench.png
 - alt: Flux-infused battlewrench
-  file: redstone-arsenal-2/flux-infused-battlewrench.png
-redirect_from:
-- /docs/wrenches/
+  file: redstone-arsenal/flux-infused-battlewrench.png
+title: Wrenches (Minecraft 1.12)
 ---
 
 **Wrenches** are tools that can be used to configure, rotate or dismantle

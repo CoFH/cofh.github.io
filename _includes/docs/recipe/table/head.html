@@ -1,0 +1,19 @@
+{%- if include.display-type == "crafting" -%}
+  <td>Ingredients</td>
+  <td>Results</td>
+  <td>Recipe</td>
+
+{%- elsif include.display-type == "machine" -%}
+  <td>Ingredients</td>
+  <td>Results</td>
+  <td>Recipe</td>
+
+{%- elsif include.display-type == "dynamo" -%}
+  <td>Fuel</td>
+  <td>Output</td>
+  <td>Recipe</td>
+
+{%- elsif include.display-type == "catalyst" -%}
+  <td>Modifiers</td>
+  <td>Recipe</td>
+{%- endif -%}

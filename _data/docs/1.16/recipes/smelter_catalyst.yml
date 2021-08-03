@@ -1,0 +1,41 @@
+smelter_catalyst_blaze_powder:
+  energy_mod: 0.25
+  inputs:
+    item:
+    - id:
+      - blaze_powder
+  min_chance: 0.2
+  primary_mod: 1.25
+  secondary_mod: 3.0
+  use_chance: 0.5
+smelter_catalyst_cinnabar:
+  energy_mod: 2.5
+  inputs:
+    item:
+    - id:
+      - cinnabar
+  min_chance: 0.5
+  primary_mod: 3.0
+  secondary_mod: 3.0
+  use_chance: 0.8
+smelter_catalyst_rich_slag:
+  energy_mod: 1.75
+  inputs:
+    item:
+    - id:
+      - rich_slag
+  min_chance: 0.1
+  primary_mod: 2.5
+  secondary_mod: 2.25
+  use_chance: 0.6
+smelter_catalyst_sand:
+  energy_mod: 1.25
+  inputs:
+    item:
+    - id:
+      - sand
+      - red_sand
+  min_chance: 0.05
+  primary_mod: 1.75
+  secondary_mod: 1.75
+  use_chance: 0.4

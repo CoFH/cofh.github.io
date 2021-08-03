@@ -1,0 +1,1615 @@
+basalz-powder:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-basalz-rod
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-basalz-powder
+    - chance: 0.5
+      id:
+      - tf-1-12-dust-obsidian
+blaze-powder:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-blaze-rod
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-blaze-powder
+    - chance: 0.5
+      id:
+      - tf-1-12-sulfur
+blitz-powder:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-blitz-rod
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-blitz-powder
+    - chance: 0.5
+      id:
+      - tf-1-12-niter
+blizz-powder:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-blizz-rod
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-blizz-powder
+    - chance: 0.5
+      id:
+      - mc-snowball
+bone-meal:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-bone
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-bone-meal
+cobblestone-from-stone:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - mc-stone
+  outputs:
+    item:
+    - id:
+      - mc-cobblestone
+dust-aluminum:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-aluminum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-aluminum
+dust-bronze:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-bronze
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-bronze
+dust-charcoal:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-charcoal
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-charcoal
+dust-coal:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-coal
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-coal
+    - chance: 0.15
+      id:
+      - tf-1-12-sulfur
+dust-constantan:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-constantan
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-constantan
+dust-copper:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-copper
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-copper
+dust-electrum:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-electrum
+dust-enderium:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-enderium
+dust-fluxed-electrum:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - ra-1-12-ingot-fluxed-electrum
+  outputs:
+    item:
+    - id:
+      - ra-1-12-dust-fluxed-electrum
+dust-gold:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-ingot-gold
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-gold
+dust-invar:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-invar
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-invar
+dust-iridium:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-iridium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-iridium
+dust-iron:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-ingot-iron
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-iron
+dust-lead:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-lead
+dust-lumium:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lumium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-lumium
+dust-metal-from-ingot:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-ingot-iron
+      - mc-ingot-gold
+      - tf-1-12-ingot-copper
+      - tf-1-12-ingot-tin
+      - tf-1-12-ingot-silver
+      - tf-1-12-ingot-lead
+      - tf-1-12-ingot-aluminum
+      - tf-1-12-ingot-nickel
+      - tf-1-12-ingot-platinum
+      - tf-1-12-ingot-iridium
+      - tf-1-12-ingot-mithril
+      - tf-1-12-ingot-steel
+      - tf-1-12-ingot-electrum
+      - tf-1-12-ingot-invar
+      - tf-1-12-ingot-bronze
+      - tf-1-12-ingot-constantan
+      - tf-1-12-ingot-signalum
+      - tf-1-12-ingot-lumium
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-iron
+      - tf-1-12-dust-gold
+      - tf-1-12-dust-copper
+      - tf-1-12-dust-tin
+      - tf-1-12-dust-silver
+      - tf-1-12-dust-lead
+      - tf-1-12-dust-aluminum
+      - tf-1-12-dust-nickel
+      - tf-1-12-dust-platinum
+      - tf-1-12-dust-iridium
+      - tf-1-12-dust-mithril
+      - tf-1-12-dust-steel
+      - tf-1-12-dust-electrum
+      - tf-1-12-dust-invar
+      - tf-1-12-dust-bronze
+      - tf-1-12-dust-constantan
+      - tf-1-12-dust-signalum
+      - tf-1-12-dust-lumium
+      - tf-1-12-dust-enderium
+dust-mithril:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-mithril
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-mithril
+dust-nickel:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-nickel
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-nickel
+dust-obsidian:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-obsidian
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-dust-obsidian
+dust-platinum:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-platinum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-platinum
+dust-signalum:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-signalum
+dust-silver:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-silver
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-silver
+dust-steel:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-steel
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-steel
+dust-tin:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-tin
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-tin
+flower-processing-light-blue-orchid:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-blue-orchid
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-light-blue-dye
+flower-processing-light-gray-azure-bluet:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-azure-bluet
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-light-gray-dye
+flower-processing-light-gray-oxeye-daisy:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-oxeye-daisy
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-light-gray-dye
+flower-processing-light-gray-tulip:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-tulip-white
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-light-gray-dye
+flower-processing-magenta-allium:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-allium
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-magenta-dye
+flower-processing-magenta-lilac:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-lilac
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-magenta-dye
+flower-processing-orange-tulip:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-tulip-orange
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-orange-dye
+flower-processing-pink-peony:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-peony
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-pink-dye
+flower-processing-pink-tulip:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-tulip-pink
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-pink-dye
+flower-processing-red-poppy:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-poppy
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-rose-red
+flower-processing-red-rose-bush:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-rose-bush
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-rose-red
+flower-processing-red-tulip:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-tulip-red
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-rose-red
+flower-processing-yellow-dandelion:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-dandelion
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-dandelion-yellow
+flower-processing-yellow-sunflower:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-flower-sunflower
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-dandelion-yellow
+fluid-ore-processing-ender:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-fluid-ender
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-clathrate-ender
+fluid-ore-processing-glowstone:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-fluid-glowstone
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-clathrate-glowstone
+    - chance: 0.3
+      id:
+      - tf-1-12-sulfur
+fluid-ore-processing-oil-sand:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-oil-sand tf-1-12-oil-sand-red
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-bitumen
+    - chance: 0.5
+      id:
+      - tf-1-12-tar
+fluid-ore-processing-oil-shale:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-oil-shale
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-bitumen
+    - chance: 0.5
+      id:
+      - mc-flint
+fluid-ore-processing-redstone:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-fluid-redstone
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-clathrate-redstone
+    - chance: 0.5
+      id:
+      - tf-1-12-cinnabar
+glowstone-dust-from-glowstone:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-glowstone
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-glowstone-dust
+gravel-from-cobblestone:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-cobblestone
+  outputs:
+    item:
+    - id:
+      - mc-gravel
+    - chance: 0.15
+      id:
+      - mc-sand
+gravel-from-netherrack:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-netherrack
+  outputs:
+    item:
+    - id:
+      - mc-gravel
+    - chance: 0.15
+      id:
+      - tf-1-12-sulfur
+magma-cream-from-block:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-magma-block
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-magma-cream
+ore-processing-aluminum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-aluminum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-aluminum
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-iron
+ore-processing-coal:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ore-coal
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-coal
+    - chance: 0.25
+      id:
+      - tf-1-12-dust-coal
+ore-processing-copper:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-copper
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-copper
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-gold
+ore-processing-diamond:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ore-diamond
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-diamond
+ore-processing-emerald:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ore-emerald
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-emerald
+ore-processing-gold:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ore-gold
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-gold
+    - chance: 0.1
+      id:
+      - tf-1-12-cinnabar
+ore-processing-iridium:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-iridium
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-iridium
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-platinum
+ore-processing-iron:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ore-iron
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-iron
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-nickel
+ore-processing-lapis-lazuli:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ore-lapis-lazuli
+  outputs:
+    item:
+    - count: 10
+      id:
+      - mc-lapis-lazuli
+    - chance: 0.2
+      id:
+      - tf-1-12-sulfur
+ore-processing-lead:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-lead
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-lead
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-silver
+ore-processing-mithril:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-mithril
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-mithril
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-gold
+ore-processing-nether-quartz:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ore-nether-quartz
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-nether-quartz
+    - chance: 0.15
+      id:
+      - tf-1-12-sulfur
+ore-processing-nickel:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-nickel
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-nickel
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-platinum
+ore-processing-platinum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-platinum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-platinum
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-iridium
+ore-processing-redstone:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ore-redstone
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-redstone
+    - chance: 0.25
+      id:
+      - tf-1-12-cinnabar
+ore-processing-silver:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-silver
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-silver
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-lead
+ore-processing-tin:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-tin
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-tin
+    - chance: 0.1
+      id:
+      - tf-1-12-dust-iron
+prismarine-crystals-from-shard:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-prismarine-shard
+  outputs:
+    item:
+    - id:
+      - mc-prismarine-crystals
+recycling-armor-boots-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-armor-boots-diamond
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-diamond
+recycling-armor-chestplate-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-armor-chestplate-diamond
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-diamond
+recycling-armor-helmet-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-armor-helmet-diamond
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-diamond
+recycling-armor-leggings-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-armor-leggings-diamond
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-diamond
+recycling-brick-stairs:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-brick-stairs
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-brick
+recycling-bricks:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-bricks
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-brick
+recycling-bricks-slab:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-bricks-slab
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-brick
+recycling-clay-block:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-clay-block
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-clay
+recycling-concrete:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-concrete-white
+      - mc-concrete-orange
+      - mc-concrete-magenta
+      - mc-concrete-light-blue
+      - mc-concrete-yellow
+      - mc-concrete-lime
+      - mc-concrete-pink
+      - mc-concrete-gray
+      - mc-concrete-light-gray
+      - mc-concrete-cyan
+      - mc-concrete-purple
+      - mc-concrete-blue
+      - mc-concrete-brown
+      - mc-concrete-green
+      - mc-concrete-red
+      - mc-concrete-black
+  outputs:
+    item:
+    - id:
+      - mc-concrete-powder-white
+      - mc-concrete-powder-orange
+      - mc-concrete-powder-magenta
+      - mc-concrete-powder-light-blue
+      - mc-concrete-powder-yellow
+      - mc-concrete-powder-lime
+      - mc-concrete-powder-pink
+      - mc-concrete-powder-gray
+      - mc-concrete-powder-light-gray
+      - mc-concrete-powder-cyan
+      - mc-concrete-powder-purple
+      - mc-concrete-powder-blue
+      - mc-concrete-powder-brown
+      - mc-concrete-powder-green
+      - mc-concrete-powder-red
+      - mc-concrete-powder-black
+recycling-flower-pot:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-flower-pot
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-brick
+recycling-glass:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-glass
+  outputs:
+    item:
+    - id:
+      - mc-sand
+recycling-glass-bottle:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-glass-bottle
+  outputs:
+    item:
+    - id:
+      - mc-sand
+recycling-glass-stained:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-glass-stained-white
+      - mc-glass-stained-orange
+      - mc-glass-stained-magenta
+      - mc-glass-stained-light-blue
+      - mc-glass-stained-yellow
+      - mc-glass-stained-lime
+      - mc-glass-stained-pink
+      - mc-glass-stained-gray
+      - mc-glass-stained-light-gray
+      - mc-glass-stained-cyan
+      - mc-glass-stained-purple
+      - mc-glass-stained-blue
+      - mc-glass-stained-brown
+      - mc-glass-stained-green
+      - mc-glass-stained-red
+      - mc-glass-stained-black
+  outputs:
+    item:
+    - id:
+      - mc-sand
+recycling-horse-armor-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-horse-armor-diamond
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-diamond
+recycling-jukebox:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-jukebox
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+    - chance: 1.0
+      count: 4
+      id:
+      - tf-1-12-sawdust
+recycling-nether-brick:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-nether-brick
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-nether-brick-item
+recycling-nether-brick-slab:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-nether-brick-slab
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-nether-brick-item
+recycling-nether-brick-stairs:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-nether-brick-stairs
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-nether-brick-item
+recycling-nether-quartz-block:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-nether-quartz-block
+      - mc-nether-quartz-block-chiseled
+      - mc-nether-quartz-block-pillar
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-nether-quartz
+recycling-nether-quartz-slab:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-nether-quartz-slab
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-nether-quartz
+recycling-nether-quartz-stairs:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-nether-quartz-stairs
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-nether-quartz
+recycling-note-block:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-note-block
+  outputs:
+    item:
+    - id:
+      - mc-redstone
+    - chance: 1.0
+      count: 4
+      id:
+      - tf-1-12-sawdust
+recycling-sandstone:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-sandstone
+      - mc-sandstone-chiseled
+      - mc-sandstone-smooth
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-sand
+    - chance: 0.4
+      id:
+      - tf-1-12-niter
+recycling-sandstone-red:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-sandstone-red
+      - mc-sandstone-red-chiseled
+      - mc-sandstone-red-smooth
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-sand-red
+    - chance: 0.4
+      id:
+      - tf-1-12-niter
+recycling-sandstone-red-slab:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-sandstone-red-slab
+  outputs:
+    item:
+    - id:
+      - mc-sand-red
+    - chance: 0.2
+      id:
+      - tf-1-12-niter
+recycling-sandstone-red-stairs:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-sandstone-red-stairs
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-sand-red
+    - chance: 0.2
+      id:
+      - tf-1-12-niter
+recycling-sandstone-slab:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-sandstone-slab
+  outputs:
+    item:
+    - id:
+      - mc-sand
+    - chance: 0.2
+      id:
+      - tf-1-12-niter
+recycling-sandstone-stairs:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-sandstone-stairs
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-sand
+    - chance: 0.2
+      id:
+      - tf-1-12-niter
+recycling-terracotta:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-terracotta
+      - mc-terracotta-white
+      - mc-terracotta-orange
+      - mc-terracotta-magenta
+      - mc-terracotta-light-blue
+      - mc-terracotta-yellow
+      - mc-terracotta-lime
+      - mc-terracotta-pink
+      - mc-terracotta-gray
+      - mc-terracotta-light-gray
+      - mc-terracotta-cyan
+      - mc-terracotta-purple
+      - mc-terracotta-blue
+      - mc-terracotta-brown
+      - mc-terracotta-green
+      - mc-terracotta-red
+      - mc-terracotta-black
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-clay
+recycling-tool-axe-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-tool-axe-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-tool-axe-wood:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-tool-axe-wood
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-tool-excavator-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-tool-excavator-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-tool-excavator-wood:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-tool-excavator-wood
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-tool-fishing-rod:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-tool-fishing-rod
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-tool-fishing-rod-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-tool-fishing-rod-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-tool-hammer-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-tool-hammer-diamond
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-diamond
+recycling-tool-hammer-wood:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-tool-hammer-wood
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-sawdust
+recycling-tool-hoe-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-tool-hoe-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-tool-hoe-wood:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-tool-hoe-wood
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-tool-pickaxe-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-tool-pickaxe-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-tool-pickaxe-wood:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-tool-pickaxe-wood
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-tool-shears-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-tool-shears-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-tool-shears-wood:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-tool-shears-wood
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-tool-shovel-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-tool-shovel-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-tool-shovel-wood:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-tool-shovel-wood
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-tool-sickle-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-tool-sickle-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-tool-sickle-wood:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-tool-sickle-wood
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-weapon-bow:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-bow
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-weapon-bow-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-weapon-bow-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-weapon-shield:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-weapon-shield
+  outputs:
+    item:
+    - count: 6
+      id:
+      - tf-1-12-sawdust
+recycling-weapon-shield-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-weapon-shield-diamond
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-diamond
+recycling-weapon-sword-diamond:
+  energy: 6000
+  inputs:
+    item:
+    - id:
+      - mc-weapon-sword-diamond
+  outputs:
+    item:
+    - id:
+      - mc-diamond
+recycling-weapon-sword-wood:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-weapon-sword-wood
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust
+recycling-wool:
+  energy: 3000
+  inputs:
+    item:
+    - id:
+      - mc-wool-white
+      - mc-wool-orange
+      - mc-wool-magenta
+      - mc-wool-light-blue
+      - mc-wool-yellow
+      - mc-wool-lime
+      - mc-wool-pink
+      - mc-wool-gray
+      - mc-wool-light-gray
+      - mc-wool-cyan
+      - mc-wool-purple
+      - mc-wool-blue
+      - mc-wool-brown
+      - mc-wool-green
+      - mc-wool-red
+      - mc-wool-black
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-string
+    - chance: 0.15
+      id:
+      - tf-1-12-pigment-white
+      - tf-1-12-pigment-orange
+      - tf-1-12-pigment-magenta
+      - tf-1-12-pigment-light-blue
+      - tf-1-12-pigment-yellow
+      - tf-1-12-pigment-lime
+      - tf-1-12-pigment-pink
+      - tf-1-12-pigment-gray
+      - tf-1-12-pigment-light-gray
+      - tf-1-12-pigment-cyan
+      - tf-1-12-pigment-purple
+      - tf-1-12-pigment-blue
+      - tf-1-12-pigment-brown
+      - tf-1-12-pigment-green
+      - tf-1-12-pigment-red
+      - tf-1-12-pigment-black
+sand-from-gravel:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-gravel
+  outputs:
+    item:
+    - id:
+      - mc-sand
+    - chance: 0.15
+      id:
+      - mc-flint
+sawdust-from-wood-log:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-wood-log-oak
+      - mc-wood-log-spruce
+      - mc-wood-log-birch
+      - mc-wood-log-jungle
+      - mc-wood-log-acacia
+      - mc-wood-log-dark-oak
+  outputs:
+    item:
+    - count: 8
+      id:
+      - tf-1-12-sawdust
+sawdust-from-wood-planks:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - mc-wood-planks-oak
+      - mc-wood-planks-spruce
+      - mc-wood-planks-birch
+      - mc-wood-planks-jungle
+      - mc-wood-planks-acacia
+      - mc-wood-planks-dark-oak
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-sawdust

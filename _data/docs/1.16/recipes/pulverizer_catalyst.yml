@@ -1,0 +1,20 @@
+pulverizer_catalyst_basalz_powder:
+  energy_mod: 0.25
+  inputs:
+    item:
+    - id:
+      - basalz_powder
+  min_chance: 0.2
+  primary_mod: 1.25
+  secondary_mod: 3.0
+  use_chance: 0.5
+pulverizer_catalyst_flint:
+  energy_mod: 1.1
+  inputs:
+    item:
+    - id:
+      - flint
+  min_chance: 0.05
+  primary_mod: 1.1
+  secondary_mod: 1.5
+  use_chance: 0.2

@@ -1,79 +1,60 @@
 "1.16":
-  - id: cofh-core-1-16
-    logo: cofh-core
-    title: CoFH Core
+  CoFH Core:
     note: >
       Required for all Team CoFH mods.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
-     # docs: /docs/1.16/cofh-core/
       source: https://github.com/KingLemming/1.16
-  - id: archers-paradox-1-16
-    logo: archers-paradox
-    title: Archer's Paradox
+  Archer's Paradox:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/archers-paradox
       docs: /docs/1.16/archers-paradox/
       source: https://github.com/KingLemming/1.16
-  - id: ensorcellation-1-16
-    logo: ensorcellation
-    title: Ensorcellation
+  Ensorcellation:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/ensorcellation
       docs: /docs/1.16/ensorcellation/
       source: https://github.com/KingLemming/1.16
-  - id: omgourd-1-16
-    logo: omgourd
-    title: Oh My Gourd
+  Oh My Gourd:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd
       # docs: /docs/1.15/oh-my-gourd/
       source: https://github.com/KingLemming/1.16
-  - id: thermal-foundation-1-16
-    logo: new-thermal-foundation
-    title: Thermal Foundation
+  Thermal Foundation:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-foundation
       docs: /docs/1.16/thermal-series
       source: https://github.com/KingLemming/1.16     
-  - id: thermal-cultivation-1-16
-    logo: new-thermal-cultivation
-    title: Thermal Cultivation
+  Thermal Cultivation:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation
       docs: /docs/1.16/thermal-series
       source: https://github.com/KingLemming/1.16     
-  - id: thermal-expansion-1-16
-    logo: new-thermal-expansion
-    title: Thermal Expansion
+  Thermal Expansion:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-expansion
       docs: /docs/1.16/thermal-series
       source: https://github.com/KingLemming/1.16   
-  - id: thermal-innovation-1-16
-    logo: new-thermal-innovation
-    title: Thermal Innovation
+  Thermal Innovation:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-innovation
       docs: /docs/1.16/thermal-series
       source: https://github.com/KingLemming/1.16
-  - id: thermal-locmotion-1-16
-    logo: new-thermal-locomotion
-    title: Thermal Locomotion
+  Thermal Locomotion:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
     links:
@@ -82,36 +63,28 @@
       source: https://github.com/KingLemming/1.16      
       
 "1.15":
-  - id: cofh-core-1-15
-    logo: cofh-core
-    title: CoFH Core
+  CoFH Core:
     note: >
       Required for all Team CoFH mods.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
       docs: /docs/1.15/cofh-core/
       source: https://github.com/KingLemming/1.15
-  - id: archers-paradox-1-15
-    logo: archers-paradox
-    title: Archer's Paradox
+  Archer's Paradox:
     note: >
       Requires <a href="#cofh-core-1-15">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/archers-paradox
       # docs: /docs/1.15/archers-paradox/
       source: https://github.com/KingLemming/1.15
-  - id: ensorcellation-1-15
-    logo: ensorcellation
-    title: Ensorcellation
+  Ensorcellation:
     note: >
       Requires <a href="#cofh-core-1-15">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/ensorcellation
       # docs: /docs/1.15/ensorcellation/
       source: https://github.com/KingLemming/1.15
-  - id: omgourd-1-15
-    logo: omgourd
-    title: Oh My Gourd
+  Oh My Gourd:
     note: >
       Requires <a href="#cofh-core-1-15">CoFH Core</a>.
     links:
@@ -120,27 +93,21 @@
       source: https://github.com/KingLemming/1.15
 
 "1.14":
-  - id: cofh-core-1-14
-    logo: cofh-core
-    title: CoFH Core
+  CoFH Core:
     note: >
       Required for all Team CoFH mods.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
       # docs: /docs/1.14/cofh-core/
       source: https://github.com/KingLemming/1.14
-  - id: ensorcellation-1-14
-    logo: ensorcellation
-    title: Ensorcellation
+  Ensorcellation:
     note: >
       Requires <a href="#cofh-core-1-14">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/ensorcellation
       # docs: /docs/1.14/ensorcellation/
       source: https://github.com/KingLemming/1.14
-  - id: archers-paradox-1-14
-    logo: archers-paradox
-    title: Archer's Paradox
+  Archer's Paradox:
     note: >
       Requires <a href="#cofh-core-1-14">CoFH Core</a>.
     links:
@@ -149,18 +116,14 @@
       source: https://github.com/KingLemming/1.14
 
 "1.12":
-  - id: redstone-flux-1-12
-    logo: redstone-flux
-    title: Redstone Flux
+  Redstone Flux:
     note: >
       Provides the Redstone Flux energy system.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/redstone-flux
       docs: /docs/redstone-flux/
       source: https://github.com/CoFH/RedstoneFlux
-  - id: cofh-core-1-12
-    logo: cofh-core
-    title: CoFH Core
+  CoFH Core:
     note: >
       Required for most Team CoFH mods. Requires <a href="#redstone-flux-1-12">Redstone Flux</a>.
     links:
@@ -168,18 +131,14 @@
       docs: /docs/1.12/cofh-core/
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/cofhcore_changelog.txt
       source: https://github.com/CoFH/CoFHCore
-  - id: cofh-world-1-12
-    logo: cofh-world
-    title: CoFH World
+  CoFH World:
     note: >
       Handles world generation.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-world
       docs: /docs/1.12/cofh-world/
       source: https://github.com/CoFH/CoFHWorld
-  - id: thermal-foundation-1-12
-    logo: thermal-foundation
-    title: Thermal Foundation
+  Thermal Foundation:
     note: >
       Requires <a href="#cofh-core-1-12">CoFH Core</a> and <a href="#cofh-world-1-12">CoFH World</a>.
     links:
@@ -187,9 +146,7 @@
       docs: /docs/1.12/thermal-foundation/
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalfoundation_changelog.txt
       source: https://github.com/CoFH/ThermalFoundation
-  - id: thermal-expansion-1-12
-    logo: thermal-expansion
-    title: Thermal Expansion
+  Thermal Expansion:
     note: >
       Requires <a href="#thermal-foundation-1-12">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.
     links:
@@ -197,9 +154,7 @@
       docs: /docs/1.12/thermal-expansion/
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalexpansion_changelog.txt
       source: https://github.com/CoFH/ThermalExpansion
-  - id: thermal-dynamics-1-12
-    logo: thermal-dynamics
-    title: Thermal Dynamics
+  Thermal Dynamics:
     note: >
       Requires <a href="#thermal-foundation-1-12">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.
     links:
@@ -207,9 +162,7 @@
       docs: /docs/1.12/thermal-dynamics/
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermaldynamics_changelog.txt
       source: https://github.com/CoFH/ThermalDynamics
-  - id: thermal-cultivation-1-12
-    logo: thermal-cultivation
-    title: Thermal Cultivation
+  Thermal Cultivation:
     note: >
       Requires <a href="#thermal-foundation-1-12">Thermal Foundation</a>.
     links:
@@ -217,9 +170,7 @@
       docs: /docs/1.12/thermal-cultivation/
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalcultivation_changelog.txt
       source: https://github.com/CoFH/ThermalCultivation
-  - id: thermal-innovation-1-12
-    logo: thermal-innovation
-    title: Thermal Innovation
+  Thermal Innovation:
     note: >
       Requires <a href="#thermal-foundation-1-12">Thermal Foundation</a>.
     links:
@@ -227,9 +178,7 @@
       docs: /docs/1.12/thermal-innovation/
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalinnovation_changelog.txt
       source: https://github.com/CoFH/ThermalInnovation
-  - id: redstone-arsenal-1-12
-    logo: redstone-arsenal
-    title: Redstone Arsenal
+  Redstone Arsenal:
     note: >
       Requires <a href="#cofh-core-1-12">CoFH Core</a>.
     links:
@@ -237,27 +186,21 @@
       docs: /docs/1.12/redstone-arsenal/
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/redstonearsenal_changelog.txt
       source: https://github.com/CoFH/RedstoneArsenal
-  - id: vanillaplus-tools-1-12
-    logo: vanillaplus-tools
-    title: Vanilla+ Tools
+  Vanilla+ Tools:
     note: >
       Requires <a href="#cofh-core-1-12">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-vanilla-tools
       docs: /docs/1.12/vanillaplus-tools/
       source: https://github.com/CoFH/VanillaTools
-  - id: vanillaplus-satchels-1-12
-    logo: vanillaplus-satchels
-    title: Vanilla+ Satchels
+  Vanilla+ Satchels:
     note: >
       Requires <a href="#cofh-core-1-12">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-vanilla-satchels
       docs: /docs/1.12/vanillaplus-satchels/
       source: https://github.com/CoFH/VanillaSatchels
-  - id: no-night-vision-flashing-1-12
-    logo: no-night-vision-flashing
-    title: No Night Vision Flashing
+  No Night Vision Flashing:
     note: >
       Removes the flashing effect when Night Vision is wearing off.
     links:
@@ -265,45 +208,35 @@
       source: https://github.com/CoFH/NoNVFlash
 
 "1.11":
-  - id: cofh-core-1-11
-    logo: cofh-core
-    title: CoFH Core
+  CoFH Core:
     note: >
       Required for most Team CoFH mods.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/cofhcore_changelog.txt
       source: https://github.com/CoFH/CoFHCore
-  - id: thermal-foundation-1-11
-    logo: thermal-foundation
-    title: Thermal Foundation
+  Thermal Foundation:
     note: >
       Requires <a href="#cofh-core-1-11">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-foundation
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalfoundation_changelog.txt
       source: https://github.com/CoFH/ThermalFoundation
-  - id: thermal-expansion-1-11
-    logo: thermal-expansion
-    title: Thermal Expansion
+  Thermal Expansion:
     note: >
       Requires <a href="#thermal-foundation-1-11">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-expansion
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalexpansion_changelog.txt
       source: https://github.com/CoFH/ThermalExpansion
-  - id: thermal-dynamics-1-11
-    logo: thermal-dynamics
-    title: Thermal Dynamics
+  Thermal Dynamics:
     note: >
       Requires <a href="#thermal-foundation-1-11">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermaldynamics_changelog.txt
       source: https://github.com/CoFH/ThermalDynamics
-  - id: redstone-arsenal-1-11
-    logo: redstone-arsenal
-    title: Redstone Arsenal
+  Redstone Arsenal:
     note: >
       Requires <a href="#cofh-core-1-11">CoFH Core</a>.
     links:
@@ -312,45 +245,35 @@
       source: https://github.com/CoFH/RedstoneArsenal
 
 "1.10":
-  - id: cofh-core-1-10
-    logo: cofh-core
-    title: CoFH Core
+  CoFH Core:
     note: >
       Required for most Team CoFH mods.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/cofhcore_changelog.txt
       source: https://github.com/CoFH/CoFHCore
-  - id: thermal-foundation-1-10
-    logo: thermal-foundation
-    title: Thermal Foundation
+  Thermal Foundation:
     note: >
       Requires <a href="#cofh-core-1-10">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-foundation
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalfoundation_changelog.txt
       source: https://github.com/CoFH/ThermalFoundation
-  - id: thermal-expansion-1-10
-    logo: thermal-expansion
-    title: Thermal Expansion
+  Thermal Expansion:
     note: >
       Requires <a href="#thermal-foundation-1-10">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-expansion
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalexpansion_changelog.txt
       source: https://github.com/CoFH/ThermalExpansion
-  - id: thermal-dynamics-1-10
-    logo: thermal-dynamics
-    title: Thermal Dynamics
+  Thermal Dynamics:
     note: >
       Requires <a href="#thermal-foundation-1-10">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermaldynamics_changelog.txt
       source: https://github.com/CoFH/ThermalDynamics
-  - id: redstone-arsenal-1-10
-    logo: redstone-arsenal
-    title: Redstone Arsenal
+  Redstone Arsenal:
     note: >
       Requires <a href="#cofh-core-1-10">CoFH Core</a>.
     links:
@@ -359,94 +282,72 @@
       source: https://github.com/CoFH/RedstoneArsenal
 
 "1.7":
-  - id: cofh-core-1-7
-    logo: cofh-core
-    title: CoFH Core
+  CoFH Core:
     note: >
       Required for most Team CoFH mods.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/cofhcore_changelog.txt
       source: https://github.com/CoFH/CoFHCore
-  - id: cofh-tweaks-1-7
-    logo: cofh-tweaks
-    title: CoFHTweaks
+  CoFHTweaks:
     note: >
       Various performance improvements.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofhtweaks
       source: https://github.com/CoFH/CoFHTweaks
-  - id: thermal-foundation-1-7
-    logo: thermal-foundation
-    title: Thermal Foundation
+  Thermal Foundation:
     note: >
       Requires <a href="#cofh-core-1-7">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-foundation
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalfoundation_changelog.txt
       source: https://github.com/CoFH/ThermalFoundation
-  - id: thermal-expansion-1-7
-    logo: thermal-expansion
-    title: Thermal Expansion
+  Thermal Expansion:
     note: >
       Requires <a href="#thermal-foundation-1-7">Thermal Foundation</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-expansion
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalexpansion_changelog.txt
       source: https://github.com/CoFH/ThermalExpansion
-  - id: thermal-dynamics-1-7
-    logo: thermal-dynamics
-    title: Thermal Dynamics
+  Thermal Dynamics:
     note: >
       Requires <a href="#thermal-foundation-1-7">Thermal Foundation</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermaldynamics_changelog.txt
       source: https://github.com/CoFH/ThermalDynamics
-  - id: redstone-arsenal-1-7
-    logo: redstone-arsenal
-    title: Redstone Arsenal
+  Redstone Arsenal:
     note: >
       Requires <a href="#cofh-core-1-7">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/redstonearsenal_changelog.txt
       source: https://github.com/CoFH/RedstoneArsenal
-  - id: minefactory-reloaded-1-7
-    logo: minefactory-reloaded
-    title: MineFactory Reloaded
+  MineFactory Reloaded:
     note: >
       Requires <a href="#cofh-core-1-7">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded
       source: https://github.com/skyboy/MineFactoryReloaded
-  - id: nether-ores-1-7
-    logo: nether-ores
-    title: NetherOres
+  NetherOres:
     note: >
       Requires <a href="#cofh-core-1-7">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/netherores
       source: https://github.com/skyboy/NetherOres
-  - id: tabula-rasa-1-7
-    logo: tabula-rasa
-    title: Tabula Rasa
+  Tabula Rasa:
     note: >
       Allows adding new blocks and items using configuration files.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/tabula-rasa
       source: https://github.com/CoFH/TabulaRasa
-  - id: cobblehaters-1-7
-    logo: cobblehaters
-    title: CobbleHaters
+  CobbleHaters:
     note: >
       Makes cobblestone impossible to get. May be used for challenge runs.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cobblehaters
       source: https://github.com/skyboy/CobbleHaters
-  - id: alternate-scoring-1-7
-    logo: alternate-scoring
-    title: Alternate Scoring
+  Alternate Scoring:
     note: >
       Provides alternate methods of scoring. May be used for challenge runs.
     links:
@@ -454,44 +355,34 @@
       source: https://github.com/skyboy/Scoring
 
 "1.6":
-  - id: cofh-core-1-6
-    logo: cofh-core
-    title: CoFH Core
+  CoFH Core:
     note: >
       Required for most Team CoFH mods.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/cofhcore_changelog.txt
       source: https://github.com/CoFH/CoFHCore
-  - id: thermal-expansion-1-6
-    logo: thermal-expansion
-    title: Thermal Expansion
+  Thermal Expansion:
     note: >
       Requires <a href="#cofh-core-1-6">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-expansion
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/thermalexpansion_changelog.txt
       source: https://github.com/CoFH/ThermalExpansion
-  - id: redstone-arsenal-1-6
-    logo: redstone-arsenal
-    title: Redstone Arsenal
+  Redstone Arsenal:
     note: >
       Requires <a href="#cofh-core-1-6">CoFH Core</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal
       changelog: https://raw.githubusercontent.com/CoFH/Version/master/redstonearsenal_changelog.txt
       source: https://github.com/CoFH/RedstoneArsenal
-  - id: minefactory-reloaded-1-6
-    logo: minefactory-reloaded
-    title: MineFactory Reloaded
+  MineFactory Reloaded:
     note: >
       Requires <a href="https://www.curseforge.com/minecraft/mc-mods/powercrystalscore">PowerCrystalsCore</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded
       source: https://github.com/skyboy/MineFactoryReloaded
-  - id: nether-ores-1-6
-    logo: nether-ores
-    title: NetherOres
+  NetherOres:
     note: >
       Requires <a href="https://www.curseforge.com/minecraft/mc-mods/powercrystalscore">PowerCrystalsCore</a>.
     links:

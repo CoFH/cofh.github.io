@@ -1,0 +1,57 @@
+smelter_gold_armor:
+  experience: 1.2
+  inputs:
+    item:
+    - id:
+      - golden_boots
+      - golden_helmet
+      - golden_leggings
+      - golden_chestplate
+  outputs:
+    item:
+    - count: 3
+      id:
+      - gold_ingot
+smelter_gold_tools:
+  experience: 0.4
+  inputs:
+    item:
+    - id:
+      - golden_axe
+      - golden_sword
+      - golden_shovel
+      - golden_pickaxe
+  outputs:
+    item:
+    - count: 1
+      id:
+      - gold_ingot
+smelter_iron_armor:
+  experience: 0.9
+  inputs:
+    item:
+    - id:
+      - iron_boots
+      - iron_helmet
+      - iron_leggings
+      - iron_chestplate
+  outputs:
+    item:
+    - count: 3
+      id:
+      - iron_ingot
+smelter_iron_tools:
+  experience: 0.3
+  inputs:
+    item:
+    - id:
+      - shears
+      - iron_axe
+      - iron_sword
+      - iron_shovel
+      - iron_pickaxe
+  outputs:
+    item:
+    - count: 1
+      id:
+      - iron_ingot

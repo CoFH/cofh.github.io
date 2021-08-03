@@ -1,0 +1,23 @@
+{%- if include.number == 1 -%}
+  {%- assign cols = 1 -%}
+{%- elsif include.number <= 4 -%}
+  {%- assign cols = 2 -%}
+{%- elsif include.number <= 9 -%}
+  {%- assign cols = 3 -%}
+{%- elsif include.number <= 16 -%}
+  {%- assign cols = 4 -%}
+{%- else -%}
+  {%- assign cols = 5 -%}
+{%- endif -%}
+
+<div class="docs-item-slots-grid docs-recipe-component" style="grid-template-columns:repeat({{cols}}, auto);">
+  {%- assign max = include.number | minus: 1 -%}
+  {%- for i in (0..max) -%}
+    {%- if include.slots and include.slots[i] -%}
+      {%- assign slot = include.slots[i] -%}
+      {% include docs/recipe/elements/item-slot.html slot=slot %}
+    {%- else -%}
+      {% include docs/recipe/elements/item-slot.html %}
+    {%- endif -%}
+  {%- endfor -%}
+</div>

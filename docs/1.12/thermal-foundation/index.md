@@ -1,14 +1,9 @@
 ---
+show-image: false
 title: Thermal Foundation (Minecraft 1.12)
-redirect_from:
-- /mods/thermal-foundation/
-- /docs/schematic/
-- /docs/thermal-foundation/
-- /docs/thermal-foundation-2/
-- /docs/1.12/thermal-foundation-2/
 ---
 
-![Thermal Foundation logo](/assets/images/modlogos/thermal-foundation.png){:.cofh-mod-page-logo}
+![Thermal Foundation logo](/assets/images/logos/1.12/thermal-foundation.png){:.cofh-mod-page-logo}
 
 
 **Thermal Foundation** is a mod for Minecraft 1.12. It adds basic materials and

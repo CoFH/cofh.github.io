@@ -1,0 +1,70 @@
+gravel:
+  energy: 2400
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 1500
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-gravel
+sand:
+  energy: 3200
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 1500
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-sand
+sand-red:
+  energy: 3200
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 1500
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-sand-red
+sandstone:
+  energy: 6400
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 2000
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-sandstone
+sandstone-red:
+  energy: 6400
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 2000
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-sandstone-red

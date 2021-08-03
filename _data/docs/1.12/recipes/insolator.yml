@@ -1,0 +1,946 @@
+beetroot:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-beetroot-seeds
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-beetroot
+    - chance: 1.1
+      id:
+      - mc-beetroot-seeds
+beetroot-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-beetroot-seeds
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-beetroot
+    - chance: 1.5
+      id:
+      - mc-beetroot-seeds
+beetroot-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-beetroot-seeds
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-beetroot
+    - chance: 1.25
+      id:
+      - mc-beetroot-seeds
+cactus:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-cactus
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-cactus
+cactus-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-cactus
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-cactus
+cactus-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-cactus
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-cactus
+carrot:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-carrot
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-carrot
+carrot-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-carrot
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 9
+      id:
+      - mc-carrot
+carrot-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-carrot
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-carrot
+chorus-fruit:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-chorus-flower
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-chorus-fruit
+    - chance: 1.0
+      id:
+      - mc-chorus-flower
+chorus-fruit-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-chorus-flower
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-chorus-fruit
+    - chance: 1.5
+      id:
+      - mc-chorus-flower
+chorus-fruit-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-chorus-flower
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-chorus-fruit
+    - chance: 1.25
+      id:
+      - mc-chorus-flower
+cocoa-beans:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-cocoa-beans
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-cocoa-beans
+cocoa-beans-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-cocoa-beans
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 9
+      id:
+      - mc-cocoa-beans
+cocoa-beans-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-cocoa-beans
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-cocoa-beans
+flower:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-flower-dandelion
+      - mc-flower-poppy
+      - mc-flower-blue-orchid
+      - mc-flower-allium
+      - mc-flower-azure-bluet
+      - mc-flower-tulip-red
+      - mc-flower-tulip-orange
+      - mc-flower-tulip-white
+      - mc-flower-tulip-pink
+      - mc-flower-oxeye-daisy
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-flower-dandelion
+      - mc-flower-poppy
+      - mc-flower-blue-orchid
+      - mc-flower-allium
+      - mc-flower-azure-bluet
+      - mc-flower-tulip-red
+      - mc-flower-tulip-orange
+      - mc-flower-tulip-white
+      - mc-flower-tulip-pink
+      - mc-flower-oxeye-daisy
+flower-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-flower-dandelion
+      - mc-flower-poppy
+      - mc-flower-blue-orchid
+      - mc-flower-allium
+      - mc-flower-azure-bluet
+      - mc-flower-tulip-red
+      - mc-flower-tulip-orange
+      - mc-flower-tulip-white
+      - mc-flower-tulip-pink
+      - mc-flower-oxeye-daisy
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 9
+      id:
+      - mc-flower-dandelion
+      - mc-flower-poppy
+      - mc-flower-blue-orchid
+      - mc-flower-allium
+      - mc-flower-azure-bluet
+      - mc-flower-tulip-red
+      - mc-flower-tulip-orange
+      - mc-flower-tulip-white
+      - mc-flower-tulip-pink
+      - mc-flower-oxeye-daisy
+flower-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-flower-dandelion
+      - mc-flower-poppy
+      - mc-flower-blue-orchid
+      - mc-flower-allium
+      - mc-flower-azure-bluet
+      - mc-flower-tulip-red
+      - mc-flower-tulip-orange
+      - mc-flower-tulip-white
+      - mc-flower-tulip-pink
+      - mc-flower-oxeye-daisy
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-flower-dandelion
+      - mc-flower-poppy
+      - mc-flower-blue-orchid
+      - mc-flower-allium
+      - mc-flower-azure-bluet
+      - mc-flower-tulip-red
+      - mc-flower-tulip-orange
+      - mc-flower-tulip-white
+      - mc-flower-tulip-pink
+      - mc-flower-oxeye-daisy
+lily-pad:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-lily-pad
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-lily-pad
+lily-pad-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-lily-pad
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-lily-pad
+lily-pad-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-lily-pad
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-lily-pad
+melon:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-melon-seeds
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - id:
+      - mc-melon
+    - chance: 1.0
+      id:
+      - mc-melon-seeds
+melon-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-melon-seeds
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-melon
+    - chance: 1.5
+      id:
+      - mc-melon-seeds
+melon-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-melon-seeds
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-melon
+    - chance: 1.25
+      id:
+      - mc-melon-seeds
+mushroom:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-mushroom-brown
+      - mc-mushroom-red
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-mushroom-brown
+      - mc-mushroom-red
+mushroom-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-mushroom-brown
+      - mc-mushroom-red
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-mushroom-brown
+      - mc-mushroom-red
+mushroom-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-mushroom-brown
+      - mc-mushroom-red
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-mushroom-brown
+      - mc-mushroom-red
+nether-wart:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-nether-wart
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-nether-wart
+nether-wart-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-nether-wart
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-nether-wart
+nether-wart-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-nether-wart
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-nether-wart
+potato:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-potato
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-potato
+    - chance: 0.05
+      id:
+      - mc-potato-poisonous
+potato-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-potato
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 9
+      id:
+      - mc-potato
+    - chance: 0.15
+      id:
+      - mc-potato-poisonous
+potato-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-potato
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-potato
+    - chance: 0.1
+      id:
+      - mc-potato-poisonous
+pumpkin:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-pumpkin-seeds
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - id:
+      - mc-pumpkin
+    - chance: 1.0
+      id:
+      - mc-pumpkin-seeds
+pumpkin-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-pumpkin-seeds
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 3
+      id:
+      - mc-pumpkin
+    - chance: 1.5
+      id:
+      - mc-pumpkin-seeds
+pumpkin-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-pumpkin-seeds
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-pumpkin
+    - chance: 1.25
+      id:
+      - mc-pumpkin-seeds
+sugar-canes:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-sugar-canes
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-sugar-canes
+sugar-canes-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-sugar-canes
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-sugar-canes
+sugar-canes-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-sugar-canes
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-sugar-canes
+tall-flower:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-flower-sunflower
+      - mc-flower-lilac
+      - mc-flower-rose-bush
+      - mc-flower-peony
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-flower-sunflower
+      - mc-flower-lilac
+      - mc-flower-rose-bush
+      - mc-flower-peony
+tall-flower-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-flower-sunflower
+      - mc-flower-lilac
+      - mc-flower-rose-bush
+      - mc-flower-peony
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-flower-sunflower
+      - mc-flower-lilac
+      - mc-flower-rose-bush
+      - mc-flower-peony
+tall-flower-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-flower-sunflower
+      - mc-flower-lilac
+      - mc-flower-rose-bush
+      - mc-flower-peony
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-flower-sunflower
+      - mc-flower-lilac
+      - mc-flower-rose-bush
+      - mc-flower-peony
+vines:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-vines
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-vines
+vines-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-vines
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-vines
+vines-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-vines
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-vines
+wheat:
+  energy: 4800
+  inputs:
+    fluid:
+    - amount: 1200
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-seeds
+    - id:
+      - tf-1-12-phyto-gro
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-wheat
+    - chance: 1.1
+      id:
+      - mc-seeds
+wheat-fluxed:
+  energy: 9600
+  inputs:
+    fluid:
+    - amount: 2400
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-seeds
+    - id:
+      - tf-1-12-phyto-gro-fluxed
+  outputs:
+    item:
+    - count: 6
+      id:
+      - mc-wheat
+    - chance: 1.5
+      id:
+      - mc-seeds
+wheat-rich:
+  energy: 7200
+  inputs:
+    fluid:
+    - amount: 1800
+      id:
+      - mc-water
+    item:
+    - id:
+      - mc-seeds
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-wheat
+    - chance: 1.25
+      id:
+      - mc-seeds

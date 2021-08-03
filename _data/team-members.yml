@@ -1,6 +1,7 @@
 - name: King Lemming
   image: https://pbs.twimg.com/profile_images/378800000754277281/af3e85cba6b7b841161ac113b1169f9e_400x400.png
   description: Founder and lead developer
+  quote: Life is meaningless without suffering
   links:
     - icon: twitter
       url: https://twitter.com/KingLemmingCoFH
@@ -30,6 +31,7 @@
 - name: skyboy026
   image: https://pbs.twimg.com/profile_images/1269067500496576513/EwuenOjE_400x400.jpg
   description: Developer (MineFactory Reloaded, CoFH World)
+  quote: this is some convoluted logic, oracle
   links:
     - icon: twitter
       url: https://twitter.com/skyboy026
@@ -70,3 +72,13 @@
       url: https://github.com/ZeldoKavira
     - icon: reddit
       url: https://www.reddit.com/user/ZeldoKavira
+
+- name: FloofHips
+  image: https://pbs.twimg.com/profile_images/1322970969049309191/qBK7v2mJ_400x400.jpg
+  description: Artist, developer (Dyenamics)
+  quote: aawagga
+  links:
+    - icon: twitter
+      url: https://twitter.com/FloofHips
+    - icon: github
+      url: https://github.com/FloofHips

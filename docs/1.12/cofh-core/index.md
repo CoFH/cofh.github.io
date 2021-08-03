@@ -1,15 +1,9 @@
 ---
+show-image: false
 title: CoFH Core (Minecraft 1.12)
-redirect_from:
-- /cofh-core/
-- /core-mods/cofhcore/
-- /mods/cofh-core/
-- /docs/cofh-core/
-- /docs/cofh-core-4/
-- /docs/1.12/cofh-core-4/
 ---
 
-![CoFH Core logo](/assets/images/modlogos/cofh-core.png){:.cofh-mod-page-logo}
+![CoFH Core logo](/assets/images/logos/1.12/cofh-core.png){:.cofh-mod-page-logo}
 
 
 **CoFH Core** is a mod for Minecraft 1.12 that provides common functionality for

@@ -1,0 +1,264 @@
+apatite_from_blasting:
+  cookingtime: 100
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - apatite_ore
+  outputs:
+    item:
+    - id:
+      - apatite
+bronze_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - bronze_dust
+  outputs:
+    item:
+    - id:
+      - bronze_ingot
+cinnabar_from_blasting:
+  cookingtime: 100
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - cinnabar_ore
+  outputs:
+    item:
+    - id:
+      - cinnabar
+constantan_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - constantan_dust
+  outputs:
+    item:
+    - id:
+      - constantan_ingot
+copper_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - copper_dust
+  outputs:
+    item:
+    - id:
+      - copper_ingot
+copper_ingot_from_ore_blasting:
+  cookingtime: 100
+  experience: 0.6
+  inputs:
+    item:
+    - id:
+      - copper_ore
+  outputs:
+    item:
+    - id:
+      - copper_ingot
+electrum_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - electrum_dust
+  outputs:
+    item:
+    - id:
+      - electrum_ingot
+enderium_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - enderium_dust
+  outputs:
+    item:
+    - id:
+      - enderium_ingot
+gold_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - gold_dust
+  outputs:
+    item:
+    - id:
+      - gold_ingot
+invar_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - invar_dust
+  outputs:
+    item:
+    - id:
+      - invar_ingot
+iron_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - iron_dust
+  outputs:
+    item:
+    - id:
+      - iron_ingot
+lead_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - lead_dust
+  outputs:
+    item:
+    - id:
+      - lead_ingot
+lead_ingot_from_ore_blasting:
+  cookingtime: 100
+  experience: 0.8
+  inputs:
+    item:
+    - id:
+      - lead_ore
+  outputs:
+    item:
+    - id:
+      - lead_ingot
+lumium_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - lumium_dust
+  outputs:
+    item:
+    - id:
+      - lumium_ingot
+nickel_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - nickel_dust
+  outputs:
+    item:
+    - id:
+      - nickel_ingot
+nickel_ingot_from_ore_blasting:
+  cookingtime: 100
+  experience: 1.0
+  inputs:
+    item:
+    - id:
+      - nickel_ore
+  outputs:
+    item:
+    - id:
+      - nickel_ingot
+niter_from_blasting:
+  cookingtime: 100
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - niter_ore
+  outputs:
+    item:
+    - id:
+      - niter
+signalum_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - signalum_dust
+  outputs:
+    item:
+    - id:
+      - signalum_ingot
+silver_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - silver_dust
+  outputs:
+    item:
+    - id:
+      - silver_ingot
+silver_ingot_from_ore_blasting:
+  cookingtime: 100
+  experience: 1.0
+  inputs:
+    item:
+    - id:
+      - silver_ore
+  outputs:
+    item:
+    - id:
+      - silver_ingot
+sulfur_from_blasting:
+  cookingtime: 100
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - sulfur_ore
+  outputs:
+    item:
+    - id:
+      - sulfur
+tin_ingot_from_dust_blasting:
+  cookingtime: 100
+  experience: 0.0
+  inputs:
+    item:
+    - id:
+      - tin_dust
+  outputs:
+    item:
+    - id:
+      - tin_ingot
+tin_ingot_from_ore_blasting:
+  cookingtime: 100
+  experience: 0.6
+  inputs:
+    item:
+    - id:
+      - tin_ore
+  outputs:
+    item:
+    - id:
+      - tin_ingot
+white_rockwool_from_blasting:
+  cookingtime: 100
+  experience: 0.1
+  inputs:
+    item:
+    - id:
+      - slag
+  outputs:
+    item:
+    - id:
+      - white_rockwool

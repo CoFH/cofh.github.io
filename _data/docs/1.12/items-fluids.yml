@@ -1,0 +1,7410 @@
+mc-andesite:
+  name: Andesite
+  position:
+  - 1
+  - 0
+  url: https://minecraft.fandom.com/wiki/Andesite
+mc-andesite-polished:
+  name: Polished Andesite
+  position:
+  - 2
+  - 0
+  url: https://minecraft.fandom.com/wiki/Polished_Andesite
+mc-anvil:
+  name: Anvil
+  position:
+  - 3
+  - 0
+  url: https://minecraft.fandom.com/wiki/Anvil
+mc-anvil-slightly-damaged:
+  name: Slightly Damaged Anvil
+  position:
+  - 4
+  - 0
+  url: https://minecraft.fandom.com/wiki/Anvil
+mc-anvil-very-damaged:
+  name: Very Damaged Anvil
+  position:
+  - 5
+  - 0
+  url: https://minecraft.fandom.com/wiki/Anvil
+mc-armor-boots-diamond:
+  name: Diamond Boots
+  position:
+  - 6
+  - 0
+  url: https://minecraft.fandom.com/wiki/Boots
+mc-armor-boots-gold:
+  name: Golden Boots
+  position:
+  - 7
+  - 0
+  url: https://minecraft.fandom.com/wiki/Boots
+mc-armor-boots-iron:
+  name: Iron Boots
+  position:
+  - 8
+  - 0
+  url: https://minecraft.fandom.com/wiki/Boots
+mc-armor-boots-leather:
+  name: Leather Boots
+  position:
+  - 9
+  - 0
+  url: https://minecraft.fandom.com/wiki/Leather_Boots
+mc-armor-chestplate-diamond:
+  name: Diamond Chestplate
+  position:
+  - 10
+  - 0
+  url: https://minecraft.fandom.com/wiki/Chestplate
+mc-armor-chestplate-gold:
+  name: Golden Chestplate
+  position:
+  - 11
+  - 0
+  url: https://minecraft.fandom.com/wiki/Chestplate
+mc-armor-chestplate-iron:
+  name: Iron Chestplate
+  position:
+  - 12
+  - 0
+  url: https://minecraft.fandom.com/wiki/Chestplate
+mc-armor-chestplate-leather:
+  name: Leather Tunic
+  position:
+  - 13
+  - 0
+  url: https://minecraft.fandom.com/wiki/Leather_Tunic
+mc-armor-helmet-diamond:
+  name: Diamond Helmet
+  position:
+  - 14
+  - 0
+  url: https://minecraft.fandom.com/wiki/Helmet
+mc-armor-helmet-gold:
+  name: Golden Helmet
+  position:
+  - 15
+  - 0
+  url: https://minecraft.fandom.com/wiki/Golden_Helmet
+mc-armor-helmet-iron:
+  name: Iron Helmet
+  position:
+  - 16
+  - 0
+  url: https://minecraft.fandom.com/wiki/Iron_Helmet
+mc-armor-helmet-leather:
+  name: Leather Cap
+  position:
+  - 17
+  - 0
+  url: https://minecraft.fandom.com/wiki/Leather_Cap
+mc-armor-leggings-diamond:
+  name: Diamond Leggings
+  position:
+  - 18
+  - 0
+  url: https://minecraft.fandom.com/wiki/Leggings
+mc-armor-leggings-gold:
+  name: Golden Leggings
+  position:
+  - 19
+  - 0
+  url: https://minecraft.fandom.com/wiki/Leggings
+mc-armor-leggings-iron:
+  name: Iron Leggings
+  position:
+  - 20
+  - 0
+  url: https://minecraft.fandom.com/wiki/Leggings
+mc-armor-leggings-leather:
+  name: Leather Pants
+  position:
+  - 21
+  - 0
+  url: https://minecraft.fandom.com/wiki/Leather_Pants
+mc-arrow:
+  name: Arrow
+  position:
+  - 22
+  - 0
+  url: https://minecraft.fandom.com/wiki/Arrow
+mc-bed-black:
+  name: Black Bed
+  position:
+  - 23
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-blue:
+  name: Blue Bed
+  position:
+  - 24
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-brown:
+  name: Brown Bed
+  position:
+  - 25
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-cyan:
+  name: Cyan Bed
+  position:
+  - 26
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-gray:
+  name: Gray Bed
+  position:
+  - 27
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-green:
+  name: Green Bed
+  position:
+  - 28
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-light-blue:
+  name: Light Blue Bed
+  position:
+  - 29
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-light-gray:
+  name: Light Gray Bed
+  position:
+  - 30
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-lime:
+  name: Lime Bed
+  position:
+  - 31
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-magenta:
+  name: Magenta Bed
+  position:
+  - 32
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-orange:
+  name: Orange Bed
+  position:
+  - 33
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-pink:
+  name: Pink Bed
+  position:
+  - 34
+  - 0
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-purple:
+  name: Purple Bed
+  position:
+  - 0
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-red:
+  name: Red Bed
+  position:
+  - 1
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-white:
+  name: White Bed
+  position:
+  - 2
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-bed-yellow:
+  name: Yellow Bed
+  position:
+  - 3
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bed
+mc-beef-cooked:
+  name: Steak
+  position:
+  - 4
+  - 1
+  url: https://minecraft.fandom.com/wiki/Steak
+mc-beef-raw:
+  name: Raw Beef
+  position:
+  - 5
+  - 1
+  url: https://minecraft.fandom.com/wiki/Raw_Beef
+mc-beetroot:
+  name: Beetroot
+  position:
+  - 6
+  - 1
+  url: https://minecraft.fandom.com/wiki/Beetroot
+mc-beetroot-seeds:
+  name: Beetroot Seeds
+  position:
+  - 7
+  - 1
+  url: https://minecraft.fandom.com/wiki/Beetroot_Seeds
+mc-blaze-powder:
+  name: Blaze Powder
+  position:
+  - 8
+  - 1
+  url: https://minecraft.fandom.com/wiki/Blaze_Powder
+mc-blaze-rod:
+  name: Blaze Rod
+  position:
+  - 9
+  - 1
+  url: https://minecraft.fandom.com/wiki/Blaze_Rod
+mc-boat-acacia:
+  name: Acacia Boat
+  position:
+  - 10
+  - 1
+  url: https://minecraft.fandom.com/wiki/Boat
+mc-boat-birch:
+  name: Birch Boat
+  position:
+  - 11
+  - 1
+  url: https://minecraft.fandom.com/wiki/Boat
+mc-boat-dark-oak:
+  name: Dark Oak Boat
+  position:
+  - 12
+  - 1
+  url: https://minecraft.fandom.com/wiki/Boat
+mc-boat-jungle:
+  name: Jungle Boat
+  position:
+  - 13
+  - 1
+  url: https://minecraft.fandom.com/wiki/Boat
+mc-boat-oak:
+  name: Oak Boat
+  position:
+  - 14
+  - 1
+  url: https://minecraft.fandom.com/wiki/Boat
+mc-boat-spruce:
+  name: Spruce Boat
+  position:
+  - 15
+  - 1
+  url: https://minecraft.fandom.com/wiki/Boat
+mc-bone:
+  name: Bone
+  position:
+  - 16
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bone
+mc-bone-meal:
+  name: Bone Meal
+  position:
+  - 17
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bone_Meal
+mc-book:
+  name: Book
+  position:
+  - 18
+  - 1
+  url: https://minecraft.fandom.com/wiki/Book
+mc-bookshelf:
+  name: Bookshelf
+  position:
+  - 19
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bookshelf
+mc-bottle-o-enchanting:
+  name: Bottle o' Enchanting
+  position:
+  - 20
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bottle_o%27_Enchanting
+mc-bow:
+  name: Bow
+  position:
+  - 21
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bow
+mc-bowl:
+  name: Bowl
+  position:
+  - 22
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bowl
+mc-bread:
+  name: Bread
+  position:
+  - 23
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bread
+mc-brewing-stand:
+  name: Brewing Stand
+  position:
+  - 24
+  - 1
+  url: https://minecraft.fandom.com/wiki/Brewing_Stand
+mc-brick:
+  name: Brick
+  position:
+  - 25
+  - 1
+  url: https://minecraft.fandom.com/wiki/Brick
+mc-brick-stairs:
+  name: Brick Stairs
+  position:
+  - 26
+  - 1
+  url: https://minecraft.fandom.com/wiki/Brick_Stairs
+mc-bricks:
+  name: Bricks
+  position:
+  - 27
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bricks
+mc-bricks-slab:
+  name: Bricks Slab
+  position:
+  - 28
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bricks_Slab
+mc-bucket:
+  name: Bucket
+  position:
+  - 29
+  - 1
+  url: https://minecraft.fandom.com/wiki/Bucket
+mc-bucket-lava:
+  name: Lava Bucket
+  position:
+  - 30
+  - 1
+  url: https://minecraft.fandom.com/wiki/Lava_Bucket
+mc-bucket-water:
+  name: Water Bucket
+  position:
+  - 31
+  - 1
+  url: https://minecraft.fandom.com/wiki/Water_Bucket
+mc-button-wood:
+  name: Button
+  position:
+  - 32
+  - 1
+  url: https://minecraft.fandom.com/wiki/Button
+mc-cactus:
+  name: Cactus
+  position:
+  - 33
+  - 1
+  url: https://minecraft.fandom.com/wiki/Cactus
+mc-cactus-green:
+  name: Cactus Green
+  position:
+  - 34
+  - 1
+  url: https://minecraft.fandom.com/wiki/Cactus_Green
+mc-carrot:
+  name: Carrot
+  position:
+  - 0
+  - 2
+  url: https://minecraft.fandom.com/wiki/Carrot
+mc-cauldron:
+  name: Cauldron
+  position:
+  - 1
+  - 2
+  url: https://minecraft.fandom.com/wiki/Cauldron
+mc-charcoal:
+  name: Charcoal
+  position:
+  - 2
+  - 2
+  url: https://minecraft.fandom.com/wiki/Charcoal
+mc-chest:
+  name: Chest
+  position:
+  - 3
+  - 2
+  url: https://minecraft.fandom.com/wiki/Chest
+mc-chest-trapped:
+  name: Trapped Chest
+  position:
+  - 4
+  - 2
+  url: https://minecraft.fandom.com/wiki/Trapped_Chest
+mc-chicken-cooked:
+  name: Cooked Chicken
+  position:
+  - 5
+  - 2
+  url: https://minecraft.fandom.com/wiki/Cooked_Chicken
+mc-chicken-raw:
+  name: Raw Chicken
+  position:
+  - 6
+  - 2
+  url: https://minecraft.fandom.com/wiki/Raw_Chicken
+mc-chorus-flower:
+  name: Chorus Flower
+  position:
+  - 7
+  - 2
+  url: https://minecraft.fandom.com/wiki/Chorus_Flower
+mc-chorus-fruit:
+  name: Chorus Fruit
+  position:
+  - 8
+  - 2
+  url: https://minecraft.fandom.com/wiki/Chorus_Fruit
+mc-chorus-plant:
+  name: Chorus Plant
+  position:
+  - 9
+  - 2
+  url: https://minecraft.fandom.com/wiki/Chorus_Plant
+mc-clay:
+  name: Clay
+  position:
+  - 10
+  - 2
+  url: https://minecraft.fandom.com/wiki/Clay
+mc-clay-block:
+  name: Clay
+  position:
+  - 11
+  - 2
+  url: https://minecraft.fandom.com/wiki/Clay_(block)
+mc-clock:
+  name: Clock
+  position:
+  - 12
+  - 2
+  url: https://minecraft.fandom.com/wiki/Clock
+mc-coal:
+  name: Coal
+  position:
+  - 13
+  - 2
+  url: https://minecraft.fandom.com/wiki/Coal
+mc-cobblestone:
+  name: Cobblestone
+  position:
+  - 14
+  - 2
+  url: https://minecraft.fandom.com/wiki/Cobblestone
+mc-cocoa-beans:
+  name: Cocoa Beans
+  position:
+  - 15
+  - 2
+  url: https://minecraft.fandom.com/wiki/Cocoa_Beans
+mc-compass:
+  name: Compass
+  position:
+  - 16
+  - 2
+  url: https://minecraft.fandom.com/wiki/Compass
+mc-concrete-black:
+  name: Black Concrete
+  position:
+  - 17
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-blue:
+  name: Blue Concrete
+  position:
+  - 18
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-brown:
+  name: Brown Concrete
+  position:
+  - 19
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-cyan:
+  name: Cyan Concrete
+  position:
+  - 20
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-gray:
+  name: Gray Concrete
+  position:
+  - 21
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-green:
+  name: Green Concrete
+  position:
+  - 22
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-light-blue:
+  name: Light Blue Concrete
+  position:
+  - 23
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-light-gray:
+  name: Light Gray Concrete
+  position:
+  - 24
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-lime:
+  name: Lime Concrete
+  position:
+  - 25
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-magenta:
+  name: Magenta Concrete
+  position:
+  - 26
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-orange:
+  name: Orange Concrete
+  position:
+  - 27
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-pink:
+  name: Pink Concrete
+  position:
+  - 28
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-powder-black:
+  name: Black Concrete Powder
+  position:
+  - 29
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-blue:
+  name: Blue Concrete Powder
+  position:
+  - 30
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-brown:
+  name: Brown Concrete Powder
+  position:
+  - 31
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-cyan:
+  name: Cyan Concrete Powder
+  position:
+  - 32
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-gray:
+  name: Gray Concrete Powder
+  position:
+  - 33
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-green:
+  name: Green Concrete Powder
+  position:
+  - 34
+  - 2
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-light-blue:
+  name: Light Blue Concrete Powder
+  position:
+  - 0
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-light-gray:
+  name: Light Gray Concrete Powder
+  position:
+  - 1
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-lime:
+  name: Lime Concrete Powder
+  position:
+  - 2
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-magenta:
+  name: Magenta Concrete Powder
+  position:
+  - 3
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-orange:
+  name: Orange Concrete Powder
+  position:
+  - 4
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-pink:
+  name: Pink Concrete Powder
+  position:
+  - 5
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-purple:
+  name: Purple Concrete Powder
+  position:
+  - 6
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-red:
+  name: Red Concrete Powder
+  position:
+  - 7
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-white:
+  name: White Concrete Powder
+  position:
+  - 8
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-powder-yellow:
+  name: Yellow Concrete Powder
+  position:
+  - 9
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete_Powder
+mc-concrete-purple:
+  name: Purple Concrete
+  position:
+  - 10
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-red:
+  name: Red Concrete
+  position:
+  - 11
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-white:
+  name: White Concrete
+  position:
+  - 12
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-concrete-yellow:
+  name: Yellow Concrete
+  position:
+  - 13
+  - 3
+  url: https://minecraft.fandom.com/wiki/Concrete
+mc-crafting-table:
+  name: Crafting Table
+  position:
+  - 14
+  - 3
+  url: https://minecraft.fandom.com/wiki/Crafting_Table
+mc-cyan-dye:
+  name: Cyan Dye
+  position:
+  - 15
+  - 3
+  url: https://minecraft.fandom.com/wiki/Cyan_Dye
+mc-dandelion-yellow:
+  name: Dandelion Yellow
+  position:
+  - 16
+  - 3
+  url: https://minecraft.fandom.com/wiki/Dandelion_Yellow
+mc-diamond:
+  name: Diamond
+  position:
+  - 17
+  - 3
+  url: https://minecraft.fandom.com/wiki/Diamond
+mc-diorite:
+  name: Diorite
+  position:
+  - 18
+  - 3
+  url: https://minecraft.fandom.com/wiki/Diorite
+mc-diorite-polished:
+  name: Polished Diorite
+  position:
+  - 19
+  - 3
+  url: https://minecraft.fandom.com/wiki/Polished_Diorite
+mc-dirt:
+  name: Dirt
+  position:
+  - 20
+  - 3
+  url: https://minecraft.fandom.com/wiki/Dirt
+mc-dirt-coarse:
+  name: Coarse Dirt
+  position:
+  - 21
+  - 3
+  url: https://minecraft.fandom.com/wiki/Coarse_Dirt
+mc-dispenser:
+  name: Dispenser
+  position:
+  - 22
+  - 3
+  url: https://minecraft.fandom.com/wiki/Dispenser
+mc-door-iron:
+  name: Iron Door
+  position:
+  - 23
+  - 3
+  url: https://minecraft.fandom.com/wiki/Door
+mc-door-wood-acacia:
+  name: Acacia Door
+  position:
+  - 24
+  - 3
+  url: https://minecraft.fandom.com/wiki/Door
+mc-door-wood-birch:
+  name: Birch Door
+  position:
+  - 25
+  - 3
+  url: https://minecraft.fandom.com/wiki/Door
+mc-door-wood-dark-oak:
+  name: Dark Oak Door
+  position:
+  - 26
+  - 3
+  url: https://minecraft.fandom.com/wiki/Door
+mc-door-wood-jungle:
+  name: Jungle Door
+  position:
+  - 27
+  - 3
+  url: https://minecraft.fandom.com/wiki/Door
+mc-door-wood-oak:
+  name: Oak Door
+  position:
+  - 28
+  - 3
+  url: https://minecraft.fandom.com/wiki/Door
+mc-door-wood-spruce:
+  name: Spruce Door
+  position:
+  - 29
+  - 3
+  url: https://minecraft.fandom.com/wiki/Door
+mc-emerald:
+  name: Emerald
+  position:
+  - 30
+  - 3
+  url: https://minecraft.fandom.com/wiki/Emerald
+mc-enchantment-table:
+  name: Enchantment Table
+  position:
+  - 31
+  - 3
+  url: https://minecraft.fandom.com/wiki/Enchantment_Table
+mc-end-stone:
+  name: End Stone
+  position:
+  - 32
+  - 3
+  url: https://minecraft.fandom.com/wiki/End_Stone
+mc-end-stone-bricks:
+  name: End Stone Bricks
+  position:
+  - 33
+  - 3
+  url: https://minecraft.fandom.com/wiki/End_Stone_Bricks
+mc-ender-pearl:
+  name: Ender Pearl
+  position:
+  - 34
+  - 3
+  url: https://minecraft.fandom.com/wiki/Ender_Pearl
+mc-eye-of-ender:
+  name: Eye of Ender
+  position:
+  - 0
+  - 4
+  url: https://minecraft.fandom.com/wiki/Eye_of_Ender
+mc-fence-acacia:
+  name: Acacia Fence
+  position:
+  - 1
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence
+mc-fence-birch:
+  name: Birch Fence
+  position:
+  - 2
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence
+mc-fence-dark-oak:
+  name: Dark Oak Fence
+  position:
+  - 3
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence
+mc-fence-gate-acacia:
+  name: Acacia Fence Gate
+  position:
+  - 4
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence_Gate
+mc-fence-gate-birch:
+  name: Birch Fence Gate
+  position:
+  - 5
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence_Gate
+mc-fence-gate-dark-oak:
+  name: Dark Oak Fence Gate
+  position:
+  - 6
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence_Gate
+mc-fence-gate-jungle:
+  name: Jungle Fence Gate
+  position:
+  - 7
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence_Gate
+mc-fence-gate-oak:
+  name: Oak Fence Gate
+  position:
+  - 8
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence_Gate
+mc-fence-gate-spruce:
+  name: Spruce Fence Gate
+  position:
+  - 9
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence_Gate
+mc-fence-jungle:
+  name: Jungle Fence
+  position:
+  - 10
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence
+mc-fence-oak:
+  name: Oak Fence
+  position:
+  - 11
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence
+mc-fence-spruce:
+  name: Spruce Fence
+  position:
+  - 12
+  - 4
+  url: https://minecraft.fandom.com/wiki/Fence
+mc-fish-cooked:
+  name: Cooked Fish
+  position:
+  - 13
+  - 4
+  url: https://minecraft.fandom.com/wiki/Cooked_Fish
+mc-fish-raw:
+  name: Raw Fish
+  position:
+  - 14
+  - 4
+  url: https://minecraft.fandom.com/wiki/Raw_Fish
+mc-flint:
+  name: Flint
+  position:
+  - 15
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flint
+mc-flint-and-steel:
+  name: Flint and Steel
+  position:
+  - 16
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flint_and_Steel
+mc-flower-allium:
+  name: Allium
+  position:
+  - 17
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-azure-bluet:
+  name: Azure Bluet
+  position:
+  - 18
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-blue-orchid:
+  name: Blue Orchid
+  position:
+  - 19
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-dandelion:
+  name: Dandelion
+  position:
+  - 20
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-lilac:
+  name: Lilac
+  position:
+  - 21
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-oxeye-daisy:
+  name: Oxeye Daisy
+  position:
+  - 22
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-peony:
+  name: Peony
+  position:
+  - 23
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-poppy:
+  name: Poppy
+  position:
+  - 24
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-pot:
+  name: Flower Pot
+  position:
+  - 25
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower_Pot
+mc-flower-rose-bush:
+  name: Rose Bush
+  position:
+  - 26
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-sunflower:
+  name: Sunflower
+  position:
+  - 27
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-tulip-orange:
+  name: Orange Tulip
+  position:
+  - 28
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-tulip-pink:
+  name: Pink Tulip
+  position:
+  - 29
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-tulip-red:
+  name: Red Tulip
+  position:
+  - 30
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-flower-tulip-white:
+  name: White Tulip
+  position:
+  - 31
+  - 4
+  url: https://minecraft.fandom.com/wiki/Flower
+mc-ghast-tear:
+  name: Ghast Tear
+  position:
+  - 32
+  - 4
+  url: https://minecraft.fandom.com/wiki/Ghast_Tear
+mc-glass:
+  name: Glass
+  position:
+  - 33
+  - 4
+  url: https://minecraft.fandom.com/wiki/Glass
+mc-glass-bottle:
+  name: Glass Bottle
+  position:
+  - 34
+  - 4
+  url: https://minecraft.fandom.com/wiki/Glass_Bottle
+mc-glass-stained-black:
+  name: Black Stained Glass
+  position:
+  - 0
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-blue:
+  name: Blue Stained Glass
+  position:
+  - 1
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-brown:
+  name: Brown Stained Glass
+  position:
+  - 2
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-cyan:
+  name: Cyan Stained Glass
+  position:
+  - 3
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-gray:
+  name: Gray Stained Glass
+  position:
+  - 4
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-green:
+  name: Green Stained Glass
+  position:
+  - 5
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-light-blue:
+  name: Light Blue Stained Glass
+  position:
+  - 6
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-light-gray:
+  name: Light Gray Stained Glass
+  position:
+  - 7
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-lime:
+  name: Lime Stained Glass
+  position:
+  - 8
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-magenta:
+  name: Magenta Stained Glass
+  position:
+  - 9
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-orange:
+  name: Orange Stained Glass
+  position:
+  - 10
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-pink:
+  name: Pink Stained Glass
+  position:
+  - 11
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-purple:
+  name: Purple Stained Glass
+  position:
+  - 12
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-red:
+  name: Red Stained Glass
+  position:
+  - 13
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-white:
+  name: White Stained Glass
+  position:
+  - 14
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glass-stained-yellow:
+  name: Yellow Stained Glass
+  position:
+  - 15
+  - 5
+  url: https://minecraft.fandom.com/wiki/Stained_Glass
+mc-glowstone:
+  name: Glowstone
+  position:
+  - 16
+  - 5
+  url: https://minecraft.fandom.com/wiki/Glowstone
+mc-glowstone-dust:
+  name: Glowstone Dust
+  position:
+  - 17
+  - 5
+  url: https://minecraft.fandom.com/wiki/Glowstone_Dust
+mc-granite:
+  name: Granite
+  position:
+  - 18
+  - 5
+  url: https://minecraft.fandom.com/wiki/Granite
+mc-granite-polished:
+  name: Polished Granite
+  position:
+  - 19
+  - 5
+  url: https://minecraft.fandom.com/wiki/Polished_Granite
+mc-gravel:
+  name: Gravel
+  position:
+  - 20
+  - 5
+  url: https://minecraft.fandom.com/wiki/Gravel
+mc-gray-dye:
+  name: Gray Dye
+  position:
+  - 21
+  - 5
+  url: https://minecraft.fandom.com/wiki/Gray_Dye
+mc-gunpowder:
+  name: Gunpowder
+  position:
+  - 22
+  - 5
+  url: https://minecraft.fandom.com/wiki/Gunpowder
+mc-hay-bale:
+  name: Hay Bale
+  position:
+  - 23
+  - 5
+  url: https://minecraft.fandom.com/wiki/Hay_Bale
+mc-hopper:
+  name: Hopper
+  position:
+  - 24
+  - 5
+  url: https://minecraft.fandom.com/wiki/Hopper
+mc-horse-armor-diamond:
+  name: Diamond Horse Armor
+  position:
+  - 25
+  - 5
+  url: https://minecraft.fandom.com/wiki/Horse_Armor
+mc-horse-armor-gold:
+  name: Golden Horse Armor
+  position:
+  - 26
+  - 5
+  url: https://minecraft.fandom.com/wiki/Horse_Armor
+mc-horse-armor-iron:
+  name: Iron Horse Armor
+  position:
+  - 27
+  - 5
+  url: https://minecraft.fandom.com/wiki/Horse_Armor
+mc-ice:
+  name: Ice
+  position:
+  - 28
+  - 5
+  url: https://minecraft.fandom.com/wiki/Ice
+mc-ingot-gold:
+  name: Gold Ingot
+  position:
+  - 29
+  - 5
+  url: https://minecraft.fandom.com/wiki/Gold_Ingot
+mc-ingot-iron:
+  name: Iron Ingot
+  position:
+  - 30
+  - 5
+  url: https://minecraft.fandom.com/wiki/Iron_Ingot
+mc-ink-sac:
+  name: Ink Sac
+  position:
+  - 31
+  - 5
+  url: https://minecraft.fandom.com/wiki/Ink_Sac
+mc-iron-bars:
+  name: Iron Bars
+  position:
+  - 32
+  - 5
+  url: https://minecraft.fandom.com/wiki/Iron_Bars
+mc-iron-trapdoor:
+  name: Iron Trapdoor
+  position:
+  - 33
+  - 5
+  url: https://minecraft.fandom.com/wiki/Iron_Trapdoor
+mc-item-frame:
+  name: Item Frame
+  position:
+  - 34
+  - 5
+  url: https://minecraft.fandom.com/wiki/Item_Frame
+mc-jukebox:
+  name: Jukebox
+  position:
+  - 0
+  - 6
+  url: https://minecraft.fandom.com/wiki/Jukebox
+mc-lapis-lazuli:
+  name: Lapis Lazuli
+  position:
+  - 1
+  - 6
+  url: https://minecraft.fandom.com/wiki/Lapis_Lazuli
+mc-lava:
+  name: Lava
+  position:
+  - 2
+  - 6
+  url: https://minecraft.fandom.com/wiki/Lava
+mc-lead:
+  name: Lead
+  position:
+  - 3
+  - 6
+  url: https://minecraft.fandom.com/wiki/Lead
+mc-leather:
+  name: Leather
+  position:
+  - 4
+  - 6
+  url: https://minecraft.fandom.com/wiki/Leather
+mc-leaves-acacia:
+  name: Acacia Leaves
+  position:
+  - 5
+  - 6
+  url: https://minecraft.fandom.com/wiki/Leaves
+mc-leaves-birch:
+  name: Birch Leaves
+  position:
+  - 6
+  - 6
+  url: https://minecraft.fandom.com/wiki/Leaves
+mc-leaves-dark-oak:
+  name: Dark Oak Leaves
+  position:
+  - 7
+  - 6
+  url: https://minecraft.fandom.com/wiki/Leaves
+mc-leaves-jungle:
+  name: Jungle Leaves
+  position:
+  - 8
+  - 6
+  url: https://minecraft.fandom.com/wiki/Leaves
+mc-leaves-oak:
+  name: Oak Leaves
+  position:
+  - 9
+  - 6
+  url: https://minecraft.fandom.com/wiki/Leaves
+mc-leaves-spruce:
+  name: Spruce Leaves
+  position:
+  - 10
+  - 6
+  url: https://minecraft.fandom.com/wiki/Leaves
+mc-lever:
+  name: Lever
+  position:
+  - 11
+  - 6
+  url: https://minecraft.fandom.com/wiki/Lever
+mc-light-blue-dye:
+  name: Light Blue Dye
+  position:
+  - 12
+  - 6
+  url: https://minecraft.fandom.com/wiki/Light_Blue_Dye
+mc-light-gray-dye:
+  name: Light Gray Dye
+  position:
+  - 13
+  - 6
+  url: https://minecraft.fandom.com/wiki/Light_Gray_Dye
+mc-lily-pad:
+  name: Lily Pad
+  position:
+  - 14
+  - 6
+  url: https://minecraft.fandom.com/wiki/Lily_Pad
+mc-lime-dye:
+  name: Lime Dye
+  position:
+  - 15
+  - 6
+  url: https://minecraft.fandom.com/wiki/Lime_Dye
+mc-magenta-dye:
+  name: Magenta Dye
+  position:
+  - 16
+  - 6
+  url: https://minecraft.fandom.com/wiki/Magenta_Dye
+mc-magma-block:
+  name: Magma Block
+  position:
+  - 17
+  - 6
+  url: https://minecraft.fandom.com/wiki/Magma_Block
+mc-magma-cream:
+  name: Magma Cream
+  position:
+  - 18
+  - 6
+  url: https://minecraft.fandom.com/wiki/Magma_Cream
+mc-melon:
+  name: Melon
+  position:
+  - 19
+  - 6
+  url: https://minecraft.fandom.com/wiki/Melon_(block)
+mc-melon-seeds:
+  name: Melon Seeds
+  position:
+  - 20
+  - 6
+  url: https://minecraft.fandom.com/wiki/Melon_Seeds
+mc-melon-slice:
+  name: Melon
+  position:
+  - 21
+  - 6
+  url: https://minecraft.fandom.com/wiki/Melon
+mc-minecart:
+  name: Minecart
+  position:
+  - 22
+  - 6
+  url: https://minecraft.fandom.com/wiki/Minecart
+mc-minecart-with-chest:
+  name: Minecart with Chest
+  position:
+  - 23
+  - 6
+  url: https://minecraft.fandom.com/wiki/Minecart_with_Chest
+mc-minecart-with-furnace:
+  name: Minecart with Furnace
+  position:
+  - 24
+  - 6
+  url: https://minecraft.fandom.com/wiki/Minecart_with_Furnace
+mc-minecart-with-hopper:
+  name: Minecart with Hopper
+  position:
+  - 25
+  - 6
+  url: https://minecraft.fandom.com/wiki/Minecart_with_Hopper
+mc-moss-stone:
+  name: Moss Stone
+  position:
+  - 26
+  - 6
+  url: https://minecraft.fandom.com/wiki/Moss_Stone
+mc-mushroom-brown:
+  name: Brown Mushroom
+  position:
+  - 27
+  - 6
+  url: https://minecraft.fandom.com/wiki/Mushroom
+mc-mushroom-red:
+  name: Red Mushroom
+  position:
+  - 28
+  - 6
+  url: https://minecraft.fandom.com/wiki/Mushroom
+mc-mushroom-stew:
+  name: Mushroom Stew
+  position:
+  - 29
+  - 6
+  url: https://minecraft.fandom.com/wiki/Mushroom_Stew
+mc-mutton-cooked:
+  name: Cooked Mutton
+  position:
+  - 30
+  - 6
+  url: https://minecraft.fandom.com/wiki/Cooked_Mutton
+mc-mutton-raw:
+  name: Raw Mutton
+  position:
+  - 31
+  - 6
+  url: https://minecraft.fandom.com/wiki/Raw_Mutton
+mc-mycelium:
+  name: Mycelium
+  position:
+  - 32
+  - 6
+  url: https://minecraft.fandom.com/wiki/Mycelium
+mc-nether-brick:
+  name: Nether Brick
+  position:
+  - 33
+  - 6
+  url: https://minecraft.fandom.com/wiki/Nether_Brick
+mc-nether-brick-item:
+  name: Nether Brick
+  position:
+  - 34
+  - 6
+  url: https://minecraft.fandom.com/wiki/Nether_Brick_(item)
+mc-nether-brick-slab:
+  name: Nether Brick Slab
+  position:
+  - 0
+  - 7
+  url: https://minecraft.fandom.com/wiki/Nether_Brick_Slab
+mc-nether-brick-stairs:
+  name: Nether Brick Stairs
+  position:
+  - 1
+  - 7
+  url: https://minecraft.fandom.com/wiki/Nether_Brick_Stairs
+mc-nether-quartz:
+  name: Nether Quartz
+  position:
+  - 2
+  - 7
+  url: https://minecraft.fandom.com/wiki/Nether_Quartz
+mc-nether-quartz-block:
+  name: Block of Quartz
+  position:
+  - 3
+  - 7
+  url: https://minecraft.fandom.com/wiki/Block_of_Quartz
+mc-nether-quartz-block-chiseled:
+  name: Chiseled Quartz Block
+  position:
+  - 4
+  - 7
+  url: https://minecraft.fandom.com/wiki/Block_of_Quartz
+mc-nether-quartz-block-pillar:
+  name: Pillar Quartz Block
+  position:
+  - 5
+  - 7
+  url: https://minecraft.fandom.com/wiki/Block_of_Quartz
+mc-nether-quartz-slab:
+  name: Quartz Slab
+  position:
+  - 6
+  - 7
+  url: https://minecraft.fandom.com/wiki/Quartz_Slab
+mc-nether-quartz-stairs:
+  name: Quartz Stairs
+  position:
+  - 7
+  - 7
+  url: https://minecraft.fandom.com/wiki/Quartz_Stairs
+mc-nether-wart:
+  name: Nether Wart
+  position:
+  - 8
+  - 7
+  url: https://minecraft.fandom.com/wiki/Nether_Wart
+mc-netherrack:
+  name: Netherrack
+  position:
+  - 9
+  - 7
+  url: https://minecraft.fandom.com/wiki/Netherrack
+mc-note-block:
+  name: Note Block
+  position:
+  - 10
+  - 7
+  url: https://minecraft.fandom.com/wiki/Note_Block
+mc-nugget-gold:
+  name: Gold Nugget
+  position:
+  - 11
+  - 7
+  url: https://minecraft.fandom.com/wiki/Gold_Nugget
+mc-nugget-iron:
+  name: Iron Nugget
+  position:
+  - 12
+  - 7
+  url: https://minecraft.fandom.com/wiki/Iron_Nugget
+mc-obsidian:
+  name: Obsidian
+  position:
+  - 13
+  - 7
+  url: https://minecraft.fandom.com/wiki/Obsidian
+mc-orange-dye:
+  name: Orange Dye
+  position:
+  - 14
+  - 7
+  url: https://minecraft.fandom.com/wiki/Orange_Dye
+mc-ore-coal:
+  name: Coal Ore
+  position:
+  - 15
+  - 7
+  url: https://minecraft.fandom.com/wiki/Coal_Ore
+mc-ore-diamond:
+  name: Diamond Ore
+  position:
+  - 16
+  - 7
+  url: https://minecraft.fandom.com/wiki/Diamond_Ore
+mc-ore-emerald:
+  name: Emerald Ore
+  position:
+  - 17
+  - 7
+  url: https://minecraft.fandom.com/wiki/Emerald_Ore
+mc-ore-gold:
+  name: Gold Ore
+  position:
+  - 18
+  - 7
+  url: https://minecraft.fandom.com/wiki/Gold_Ore
+mc-ore-iron:
+  name: Iron Ore
+  position:
+  - 19
+  - 7
+  url: https://minecraft.fandom.com/wiki/Iron_Ore
+mc-ore-lapis-lazuli:
+  name: Lapis Lazuli Ore
+  position:
+  - 20
+  - 7
+  url: https://minecraft.fandom.com/wiki/Lapis_Lazuli_Ore
+mc-ore-nether-quartz:
+  name: Nether Quartz Ore
+  position:
+  - 21
+  - 7
+  url: https://minecraft.fandom.com/wiki/Nether_Quartz_Ore
+mc-ore-redstone:
+  name: Redstone Ore
+  position:
+  - 22
+  - 7
+  url: https://minecraft.fandom.com/wiki/Redstone_Ore
+mc-packed-ice:
+  name: Packed Ice
+  position:
+  - 23
+  - 7
+  url: https://minecraft.fandom.com/wiki/Packed_Ice
+mc-painting:
+  name: Painting
+  position:
+  - 24
+  - 7
+  url: https://minecraft.fandom.com/wiki/Painting
+mc-paper:
+  name: Paper
+  position:
+  - 25
+  - 7
+  url: https://minecraft.fandom.com/wiki/Paper
+mc-pink-dye:
+  name: Pink Dye
+  position:
+  - 26
+  - 7
+  url: https://minecraft.fandom.com/wiki/Pink_Dye
+mc-piston:
+  name: Piston
+  position:
+  - 27
+  - 7
+  url: https://minecraft.fandom.com/wiki/Piston
+mc-piston-sticky:
+  name: Sticky Piston
+  position:
+  - 28
+  - 7
+  url: https://minecraft.fandom.com/wiki/Piston
+mc-podzol:
+  name: Podzol
+  position:
+  - 29
+  - 7
+  url: https://minecraft.fandom.com/wiki/Podzol
+mc-porkchop-cooked:
+  name: Cooked Porkchop
+  position:
+  - 30
+  - 7
+  url: https://minecraft.fandom.com/wiki/Cooked_Porkchop
+mc-porkchop-raw:
+  name: Raw Porkchop
+  position:
+  - 31
+  - 7
+  url: https://minecraft.fandom.com/wiki/Raw_Porkchop
+mc-potato:
+  name: Potato
+  position:
+  - 32
+  - 7
+  url: https://minecraft.fandom.com/wiki/Potato
+mc-potato-baked:
+  name: Baked Potato
+  position:
+  - 33
+  - 7
+  url: https://minecraft.fandom.com/wiki/Baked_Potato
+mc-potato-poisonous:
+  name: Poisonous Potato
+  position:
+  - 34
+  - 7
+  url: https://minecraft.fandom.com/wiki/Poisonous_Potato
+mc-powered-rail:
+  name: Powered Rail
+  position:
+  - 0
+  - 8
+  url: https://minecraft.fandom.com/wiki/Powered_Rail
+mc-pressure-plate-gold:
+  name: Weighted Pressure Plate (Light)
+  position:
+  - 1
+  - 8
+  url: https://minecraft.fandom.com/wiki/Pressure_Plate
+mc-pressure-plate-iron:
+  name: Weighted Pressure Plate (Heavy)
+  position:
+  - 2
+  - 8
+  url: https://minecraft.fandom.com/wiki/Pressure_Plate
+mc-pressure-plate-wood:
+  name: Wooden Pressure Plate
+  position:
+  - 3
+  - 8
+  url: https://minecraft.fandom.com/wiki/Pressure_Plate
+mc-prismarine-crystals:
+  name: Prismarine Crystals
+  position:
+  - 4
+  - 8
+  url: https://minecraft.fandom.com/wiki/Prismarine_Crystals
+mc-prismarine-shard:
+  name: Prismarine Shard
+  position:
+  - 5
+  - 8
+  url: https://minecraft.fandom.com/wiki/Prismarine_Shard
+mc-pumpkin:
+  name: Pumpkin
+  position:
+  - 6
+  - 8
+  url: https://minecraft.fandom.com/wiki/Pumpkin
+mc-pumpkin-seeds:
+  name: Pumpkin Seeds
+  position:
+  - 7
+  - 8
+  url: https://minecraft.fandom.com/wiki/Pumpkin_Seeds
+mc-purple-dye:
+  name: Purple Dye
+  position:
+  - 8
+  - 8
+  url: https://minecraft.fandom.com/wiki/Purple_Dye
+mc-rabbit-cooked:
+  name: Cooked Rabbit
+  position:
+  - 9
+  - 8
+  url: https://minecraft.fandom.com/wiki/Cooked_Rabbit
+mc-rabbit-raw:
+  name: Raw Rabbit
+  position:
+  - 10
+  - 8
+  url: https://minecraft.fandom.com/wiki/Raw_Rabbit
+mc-rail:
+  name: Rail
+  position:
+  - 11
+  - 8
+  url: https://minecraft.fandom.com/wiki/Rail
+mc-redstone:
+  name: Redstone
+  position:
+  - 12
+  - 8
+  url: https://minecraft.fandom.com/wiki/Redstone
+mc-redstone-lamp:
+  name: Redstone Lamp
+  position:
+  - 13
+  - 8
+  url: https://minecraft.fandom.com/wiki/Redstone_Lamp
+mc-redstone-torch:
+  name: Redstone Torch
+  position:
+  - 14
+  - 8
+  url: https://minecraft.fandom.com/wiki/Redstone_Torch
+mc-rose-red:
+  name: Rose Red
+  position:
+  - 15
+  - 8
+  url: https://minecraft.fandom.com/wiki/Rose_Red
+mc-rotten-flesh:
+  name: Rotten Flesh
+  position:
+  - 16
+  - 8
+  url: https://minecraft.fandom.com/wiki/Rotten_Flesh
+mc-saddle:
+  name: Saddle
+  position:
+  - 17
+  - 8
+  url: https://minecraft.fandom.com/wiki/Saddle
+mc-salmon-cooked:
+  name: Cooked Salmon
+  position:
+  - 18
+  - 8
+  url: https://minecraft.fandom.com/wiki/Cooked_Salmon
+mc-salmon-raw:
+  name: Raw Salmon
+  position:
+  - 19
+  - 8
+  url: https://minecraft.fandom.com/wiki/Raw_Salmon
+mc-sand:
+  name: Sand
+  position:
+  - 20
+  - 8
+  url: https://minecraft.fandom.com/wiki/Sand
+mc-sand-red:
+  name: Red Sand
+  position:
+  - 21
+  - 8
+  url: https://minecraft.fandom.com/wiki/Red_Sand
+mc-sandstone:
+  name: Sandstone
+  position:
+  - 22
+  - 8
+  url: https://minecraft.fandom.com/wiki/Sandstone
+mc-sandstone-chiseled:
+  name: Chiseled Sandstone
+  position:
+  - 23
+  - 8
+  url: https://minecraft.fandom.com/wiki/Sandstone
+mc-sandstone-red:
+  name: Red Sandstone
+  position:
+  - 24
+  - 8
+  url: https://minecraft.fandom.com/wiki/Red_Sandstone
+mc-sandstone-red-chiseled:
+  name: Chiseled Red Sandstone
+  position:
+  - 25
+  - 8
+  url: https://minecraft.fandom.com/wiki/Red_Sandstone
+mc-sandstone-red-slab:
+  name: Red Sandstone Slab
+  position:
+  - 26
+  - 8
+  url: https://minecraft.fandom.com/wiki/Red_Sandstone_Slab
+mc-sandstone-red-smooth:
+  name: Smooth Red Sandstone
+  position:
+  - 27
+  - 8
+  url: https://minecraft.fandom.com/wiki/Red_Sandstone
+mc-sandstone-red-stairs:
+  name: Red Sandstone Stairs
+  position:
+  - 28
+  - 8
+  url: https://minecraft.fandom.com/wiki/Red_Sandstone_Stairs
+mc-sandstone-slab:
+  name: Sandstone Slab
+  position:
+  - 29
+  - 8
+  url: https://minecraft.fandom.com/wiki/Sandstone_Slab
+mc-sandstone-smooth:
+  name: Smooth Sandstone
+  position:
+  - 30
+  - 8
+  url: https://minecraft.fandom.com/wiki/Sandstone
+mc-sandstone-stairs:
+  name: Sandstone Stairs
+  position:
+  - 31
+  - 8
+  url: https://minecraft.fandom.com/wiki/Sandstone_Stairs
+mc-sapling-acacia:
+  name: Acacia Sapling
+  position:
+  - 32
+  - 8
+  url: https://minecraft.fandom.com/wiki/Sapling
+mc-sapling-birch:
+  name: Birch Sapling
+  position:
+  - 33
+  - 8
+  url: https://minecraft.fandom.com/wiki/Sapling
+mc-sapling-dark-oak:
+  name: Dark Oak Sapling
+  position:
+  - 34
+  - 8
+  url: https://minecraft.fandom.com/wiki/Sapling
+mc-sapling-jungle:
+  name: Jungle Sapling
+  position:
+  - 0
+  - 9
+  url: https://minecraft.fandom.com/wiki/Sapling
+mc-sapling-oak:
+  name: Oak Sapling
+  position:
+  - 1
+  - 9
+  url: https://minecraft.fandom.com/wiki/Sapling
+mc-sapling-spruce:
+  name: Spruce Sapling
+  position:
+  - 2
+  - 9
+  url: https://minecraft.fandom.com/wiki/Sapling
+mc-seeds:
+  name: Seeds
+  position:
+  - 3
+  - 9
+  url: https://minecraft.fandom.com/wiki/Seeds
+mc-sign:
+  name: Sign
+  position:
+  - 4
+  - 9
+  url: https://minecraft.fandom.com/wiki/Sign
+mc-slimeball:
+  name: Slimeball
+  position:
+  - 5
+  - 9
+  url: https://minecraft.fandom.com/wiki/Slimeball
+mc-snow:
+  name: Snow
+  position:
+  - 6
+  - 9
+  url: https://minecraft.fandom.com/wiki/Snow_Block
+mc-snow-layer:
+  name: Snow (layer)
+  position:
+  - 7
+  - 9
+  url: https://minecraft.fandom.com/wiki/Snow_(layer)
+mc-snowball:
+  name: Snowball
+  position:
+  - 8
+  - 9
+  url: https://minecraft.fandom.com/wiki/Snowball
+mc-soul-sand:
+  name: Soul Sand
+  position:
+  - 9
+  - 9
+  url: https://minecraft.fandom.com/wiki/Soul_Sand
+mc-sponge:
+  name: Sponge
+  position:
+  - 10
+  - 9
+  url: https://minecraft.fandom.com/wiki/Sponge
+mc-sponge-wet:
+  name: Wet Sponge
+  position:
+  - 11
+  - 9
+  url: https://minecraft.fandom.com/wiki/Sponge
+mc-stick:
+  name: Stick
+  position:
+  - 12
+  - 9
+  url: https://minecraft.fandom.com/wiki/Stick
+mc-stone:
+  name: Stone
+  position:
+  - 13
+  - 9
+  url: https://minecraft.fandom.com/wiki/Stone
+mc-stone-bricks:
+  name: Stone Bricks
+  position:
+  - 14
+  - 9
+  url: https://minecraft.fandom.com/wiki/Stone_Bricks
+mc-stone-bricks-cracked:
+  name: Cracked Stone Bricks
+  position:
+  - 15
+  - 9
+  url: https://minecraft.fandom.com/wiki/Stone_Bricks
+mc-stone-bricks-mossy:
+  name: Mossy Stone Bricks
+  position:
+  - 16
+  - 9
+  url: https://minecraft.fandom.com/wiki/Stone_Bricks
+mc-storage-block-coal:
+  name: Block of Coal
+  position:
+  - 17
+  - 9
+  url: https://minecraft.fandom.com/wiki/Block_of_Coal
+mc-storage-block-gold:
+  name: Block of Gold
+  position:
+  - 18
+  - 9
+  url: https://minecraft.fandom.com/wiki/Block_of_Gold
+mc-storage-block-iron:
+  name: Block of Iron
+  position:
+  - 19
+  - 9
+  url: https://minecraft.fandom.com/wiki/Block_of_Iron
+mc-storage-block-lapis-lazuli:
+  name: Lapis Lazuli Block
+  position:
+  - 20
+  - 9
+  url: https://minecraft.fandom.com/wiki/Lapis_Lazuli_Block
+mc-storage-block-redstone:
+  name: Block of Redstone
+  position:
+  - 21
+  - 9
+  url: https://minecraft.fandom.com/wiki/Block_of_Redstone
+mc-string:
+  name: String
+  position:
+  - 22
+  - 9
+  url: https://minecraft.fandom.com/wiki/String
+mc-sugar:
+  name: Sugar
+  position:
+  - 23
+  - 9
+  url: https://minecraft.fandom.com/wiki/Sugar
+mc-sugar-canes:
+  name: Sugar Canes
+  position:
+  - 24
+  - 9
+  url: https://minecraft.fandom.com/wiki/Sugar_Canes
+mc-terracotta:
+  name: Terracotta
+  position:
+  - 25
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-black:
+  name: Black Terracotta
+  position:
+  - 26
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-blue:
+  name: Blue Terracotta
+  position:
+  - 27
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-brown:
+  name: Brown Terracotta
+  position:
+  - 28
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-cyan:
+  name: Cyan Terracotta
+  position:
+  - 29
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-gray:
+  name: Gray Terracotta
+  position:
+  - 30
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-green:
+  name: Green Terracotta
+  position:
+  - 31
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-light-blue:
+  name: Light Blue Terracotta
+  position:
+  - 32
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-light-gray:
+  name: Light Gray Terracotta
+  position:
+  - 33
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-lime:
+  name: Lime Terracotta
+  position:
+  - 34
+  - 9
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-magenta:
+  name: Magenta Terracotta
+  position:
+  - 0
+  - 10
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-orange:
+  name: Orange Terracotta
+  position:
+  - 1
+  - 10
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-pink:
+  name: Pink Terracotta
+  position:
+  - 2
+  - 10
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-purple:
+  name: Purple Terracotta
+  position:
+  - 3
+  - 10
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-red:
+  name: Red Terracotta
+  position:
+  - 4
+  - 10
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-white:
+  name: White Terracotta
+  position:
+  - 5
+  - 10
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-terracotta-yellow:
+  name: Yellow Terracotta
+  position:
+  - 6
+  - 10
+  url: https://minecraft.fandom.com/wiki/Terracotta
+mc-tool-axe-diamond:
+  name: Diamond Axe
+  position:
+  - 7
+  - 10
+  url: https://minecraft.fandom.com/wiki/Axe
+mc-tool-axe-gold:
+  name: Golden Axe
+  position:
+  - 8
+  - 10
+  url: https://minecraft.fandom.com/wiki/Axe
+mc-tool-axe-iron:
+  name: Iron Axe
+  position:
+  - 9
+  - 10
+  url: https://minecraft.fandom.com/wiki/Axe
+mc-tool-axe-wood:
+  name: Wooden Axe
+  position:
+  - 10
+  - 10
+  url: https://minecraft.fandom.com/wiki/Wooden_Axe
+mc-tool-fishing-rod:
+  name: Fishing Rod
+  position:
+  - 11
+  - 10
+  url: https://minecraft.fandom.com/wiki/Fishing_Rod
+mc-tool-hoe-diamond:
+  name: Diamond Hoe
+  position:
+  - 12
+  - 10
+  url: https://minecraft.fandom.com/wiki/Hoe
+mc-tool-hoe-gold:
+  name: Golden Hoe
+  position:
+  - 13
+  - 10
+  url: https://minecraft.fandom.com/wiki/Hoe
+mc-tool-hoe-iron:
+  name: Iron Hoe
+  position:
+  - 14
+  - 10
+  url: https://minecraft.fandom.com/wiki/Hoe
+mc-tool-hoe-wood:
+  name: Wooden Hoe
+  position:
+  - 15
+  - 10
+  url: https://minecraft.fandom.com/wiki/Wooden_Hoe
+mc-tool-pickaxe-diamond:
+  name: Diamond Pickaxe
+  position:
+  - 16
+  - 10
+  url: https://minecraft.fandom.com/wiki/Pickaxe
+mc-tool-pickaxe-gold:
+  name: Golden Pickaxe
+  position:
+  - 17
+  - 10
+  url: https://minecraft.fandom.com/wiki/Pickaxe
+mc-tool-pickaxe-iron:
+  name: Iron Pickaxe
+  position:
+  - 18
+  - 10
+  url: https://minecraft.fandom.com/wiki/Pickaxe
+mc-tool-pickaxe-wood:
+  name: Wooden Pickaxe
+  position:
+  - 19
+  - 10
+  url: https://minecraft.fandom.com/wiki/Wooden_Pickaxe
+mc-tool-shears:
+  name: Shears
+  position:
+  - 20
+  - 10
+  url: https://minecraft.fandom.com/wiki/Shears
+mc-tool-shovel-diamond:
+  name: Diamond Shovel
+  position:
+  - 21
+  - 10
+  url: https://minecraft.fandom.com/wiki/Shovel
+mc-tool-shovel-gold:
+  name: Golden Shovel
+  position:
+  - 22
+  - 10
+  url: https://minecraft.fandom.com/wiki/Shovel
+mc-tool-shovel-iron:
+  name: Iron Shovel
+  position:
+  - 23
+  - 10
+  url: https://minecraft.fandom.com/wiki/Shovel
+mc-tool-shovel-wood:
+  name: Wooden Shovel
+  position:
+  - 24
+  - 10
+  url: https://minecraft.fandom.com/wiki/Wooden_Shovel
+mc-torch:
+  name: Torch
+  position:
+  - 25
+  - 10
+  url: https://minecraft.fandom.com/wiki/Torch
+mc-trapdoor-iron:
+  name: Iron Trapdoor
+  position:
+  - 26
+  - 10
+  url: https://minecraft.fandom.com/wiki/Trapdoor
+mc-trapdoor-wood:
+  name: Wooden Trapdoor
+  position:
+  - 27
+  - 10
+  url: https://minecraft.fandom.com/wiki/Trapdoor
+mc-vines:
+  name: Vines
+  position:
+  - 28
+  - 10
+  url: https://minecraft.fandom.com/wiki/Vines
+mc-water:
+  name: Water
+  position:
+  - 29
+  - 10
+  url: https://minecraft.fandom.com/wiki/Water
+mc-weapon-shield:
+  name: Shield
+  position:
+  - 30
+  - 10
+  url: https://minecraft.fandom.com/wiki/Shield
+mc-weapon-sword-diamond:
+  name: Diamond Sword
+  position:
+  - 31
+  - 10
+  url: https://minecraft.fandom.com/wiki/Sword
+mc-weapon-sword-gold:
+  name: Golden Sword
+  position:
+  - 32
+  - 10
+  url: https://minecraft.fandom.com/wiki/Sword
+mc-weapon-sword-iron:
+  name: Iron Sword
+  position:
+  - 33
+  - 10
+  url: https://minecraft.fandom.com/wiki/Sword
+mc-weapon-sword-wood:
+  name: Wooden Sword
+  position:
+  - 34
+  - 10
+  url: https://minecraft.fandom.com/wiki/Wooden_Sword
+mc-wheat:
+  name: Wheat
+  position:
+  - 0
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wheat
+mc-wood-log-acacia:
+  name: Acacia Wood
+  position:
+  - 1
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood
+mc-wood-log-birch:
+  name: Birch Wood
+  position:
+  - 2
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood
+mc-wood-log-dark-oak:
+  name: Dark Oak Wood
+  position:
+  - 3
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood
+mc-wood-log-jungle:
+  name: Jungle Wood
+  position:
+  - 4
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood
+mc-wood-log-oak:
+  name: Oak Wood
+  position:
+  - 5
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood
+mc-wood-log-spruce:
+  name: Spruce Wood
+  position:
+  - 6
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood
+mc-wood-planks-acacia:
+  name: Acacia Wood Planks
+  position:
+  - 7
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Planks
+mc-wood-planks-birch:
+  name: Birch Wood Planks
+  position:
+  - 8
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Planks
+mc-wood-planks-dark-oak:
+  name: Dark Oak Wood Planks
+  position:
+  - 9
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Planks
+mc-wood-planks-jungle:
+  name: Jungle Wood Planks
+  position:
+  - 10
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Planks
+mc-wood-planks-oak:
+  name: Oak Wood Planks
+  position:
+  - 11
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Planks
+mc-wood-planks-spruce:
+  name: Spruce Wood Planks
+  position:
+  - 12
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Planks
+mc-wood-stairs-acacia:
+  name: Acacia Wood Stairs
+  position:
+  - 13
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Stairs
+mc-wood-stairs-birch:
+  name: Birch Wood Stairs
+  position:
+  - 14
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Stairs
+mc-wood-stairs-dark-oak:
+  name: Dark Oak Wood Stairs
+  position:
+  - 15
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Stairs
+mc-wood-stairs-jungle:
+  name: Jungle Wood Stairs
+  position:
+  - 16
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Stairs
+mc-wood-stairs-oak:
+  name: Oak Wood Stairs
+  position:
+  - 17
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Stairs
+mc-wood-stairs-spruce:
+  name: Spruce Wood Stairs
+  position:
+  - 18
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wood_Stairs
+mc-wool-black:
+  name: Black Wool
+  position:
+  - 19
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-blue:
+  name: Blue Wool
+  position:
+  - 20
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-brown:
+  name: Brown Wool
+  position:
+  - 21
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-cyan:
+  name: Cyan Wool
+  position:
+  - 22
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-gray:
+  name: Gray Wool
+  position:
+  - 23
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-green:
+  name: Green Wool
+  position:
+  - 24
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-light-blue:
+  name: Light Blue Wool
+  position:
+  - 25
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-light-gray:
+  name: Light Gray Wool
+  position:
+  - 26
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-lime:
+  name: Lime Wool
+  position:
+  - 27
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-magenta:
+  name: Magenta Wool
+  position:
+  - 28
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-orange:
+  name: Orange Wool
+  position:
+  - 29
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-pink:
+  name: Pink Wool
+  position:
+  - 30
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-purple:
+  name: Purple Wool
+  position:
+  - 31
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-red:
+  name: Red Wool
+  position:
+  - 32
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-white:
+  name: White Wool
+  position:
+  - 33
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+mc-wool-yellow:
+  name: Yellow Wool
+  position:
+  - 34
+  - 11
+  url: https://minecraft.fandom.com/wiki/Wool
+ra-1-12-armor-boots:
+  name: Flux-Infused Boots
+  position:
+  - 0
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-boots/
+ra-1-12-armor-chestplate:
+  name: Flux-Infused Chestplate
+  position:
+  - 1
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-chestplate/
+ra-1-12-armor-helmet:
+  name: Flux-Infused Helm
+  position:
+  - 2
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-helm/
+ra-1-12-armor-leggings:
+  name: Flux-Infused Leggings
+  position:
+  - 3
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-leggings/
+ra-1-12-dust-fluxed-electrum:
+  name: Fluxed Electrum Blend
+  position:
+  - 4
+  - 12
+  url: /docs/1.12/redstone-arsenal/fluxed-electrum-blend/
+ra-1-12-flux-crystal:
+  name: Flux Crystal
+  position:
+  - 5
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-crystal/
+ra-1-12-fluxed-armor-plating:
+  name: Fluxed Armor Plating
+  position:
+  - 6
+  - 12
+  url: /docs/1.12/redstone-arsenal/fluxed-armor-plating/
+ra-1-12-gear-fluxed-electrum:
+  name: Fluxed Electrum Gear
+  position:
+  - 7
+  - 12
+  url: /docs/1.12/redstone-arsenal/fluxed-electrum-gear/
+ra-1-12-ingot-fluxed-electrum:
+  name: Fluxed Electrum Ingot
+  position:
+  - 8
+  - 12
+  url: /docs/1.12/redstone-arsenal/fluxed-electrum-ingot/
+ra-1-12-nugget-fluxed-electrum:
+  name: Fluxed Electrum Nugget
+  position:
+  - 9
+  - 12
+  url: /docs/1.12/redstone-arsenal/fluxed-electrum-nugget/
+ra-1-12-obsidian-rod:
+  name: Obsidian Rod
+  position:
+  - 10
+  - 12
+  url: /docs/1.12/redstone-arsenal/obsidian-rod/
+ra-1-12-obsidian-rod-flux-infused:
+  name: Flux-Infused Obsidian Rod
+  position:
+  - 11
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-obsidian-rod/
+ra-1-12-plate-fluxed-electrum:
+  name: Fluxed Electrum Plate
+  position:
+  - 12
+  - 12
+  url: /docs/1.12/redstone-arsenal/fluxed-electrum-plate/
+ra-1-12-storage-block-flux-crystal:
+  name: Flux Crystal Block
+  position:
+  - 13
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-crystal-block/
+ra-1-12-storage-block-fluxed-electrum:
+  name: Fluxed Electrum Block
+  position:
+  - 14
+  - 12
+  url: /docs/1.12/redstone-arsenal/fluxed-electrum-block/
+ra-1-12-tool-axe:
+  name: Flux-Infused Axe
+  position:
+  - 15
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-axe/
+ra-1-12-tool-excavator:
+  name: Flux-Infused Excavator
+  position:
+  - 16
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-excavator/
+ra-1-12-tool-fishing-rod:
+  name: Flux-Infused Fishing Rod
+  position:
+  - 17
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-fishing-rod/
+ra-1-12-tool-hammer:
+  name: Flux-Infused Hammer
+  position:
+  - 18
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-hammer/
+ra-1-12-tool-pickaxe:
+  name: Flux-Infused Pickaxe
+  position:
+  - 19
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-pickaxe/
+ra-1-12-tool-shovel:
+  name: Flux-Infused Shovel
+  position:
+  - 20
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-shovel/
+ra-1-12-tool-sickle:
+  name: Flux-Infused Sickle
+  position:
+  - 21
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-sickle/
+ra-1-12-tool-wrench:
+  name: Flux-Infused OmniWrench
+  position:
+  - 22
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-omniwrench/
+ra-1-12-weapon-battlewrench:
+  name: Flux-Infused BattleWrench
+  position:
+  - 23
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-battlewrench/
+ra-1-12-weapon-bow:
+  name: Flux-Infused Bow
+  position:
+  - 24
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-bow/
+ra-1-12-weapon-quiver:
+  name: Flux-Infused Quiver
+  position:
+  - 25
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-quiver/
+ra-1-12-weapon-shield:
+  name: Flux-Infused Shield
+  position:
+  - 26
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-shield/
+ra-1-12-weapon-sword:
+  name: Flux-Infused Sword
+  position:
+  - 27
+  - 12
+  url: /docs/1.12/redstone-arsenal/flux-infused-sword/
+tc-1-12-watering-can-basic:
+  name: Watering Can (Basic)
+  position:
+  - 28
+  - 12
+  url: /docs/1.12/thermal-cultivation/watering-can/
+tc-1-12-watering-can-hardened:
+  name: Watering Can (Hardened)
+  position:
+  - 29
+  - 12
+  url: /docs/1.12/thermal-cultivation/watering-can/
+tc-1-12-watering-can-reinforced:
+  name: Watering Can (Reinforced)
+  position:
+  - 30
+  - 12
+  url: /docs/1.12/thermal-cultivation/watering-can/
+tc-1-12-watering-can-resonant:
+  name: Watering Can (Resonant)
+  position:
+  - 31
+  - 12
+  url: /docs/1.12/thermal-cultivation/watering-can/
+tc-1-12-watering-can-signalum:
+  name: Watering Can (Signalum)
+  position:
+  - 32
+  - 12
+  url: /docs/1.12/thermal-cultivation/watering-can/
+td-1-12-cover-mc-andesite-polished:
+  name: Polished Andesite Cover
+  position:
+  - 33
+  - 12
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-bricks:
+  name: Bricks Cover
+  position:
+  - 34
+  - 12
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-cobblestone:
+  name: Cobblestone Cover
+  position:
+  - 0
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-diorite-polished:
+  name: Polished Diorite Cover
+  position:
+  - 1
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-end-stone-bricks:
+  name: End Stone Bricks Cover
+  position:
+  - 2
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-granite-polished:
+  name: Polished Granite Cover
+  position:
+  - 3
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-moss-stone:
+  name: Moss Stone Cover
+  position:
+  - 4
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-nether-brick:
+  name: Nether Brick Cover
+  position:
+  - 5
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-obsidian:
+  name: Obsidian Cover
+  position:
+  - 6
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-sandstone:
+  name: Sandstone Cover
+  position:
+  - 7
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-stone:
+  name: Stone Cover
+  position:
+  - 8
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-wood-log-oak:
+  name: Oak Wood Cover
+  position:
+  - 9
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-cover-mc-wood-planks-oak:
+  name: Oak Wood Planks Cover
+  position:
+  - 10
+  - 13
+  url: /docs/1.12/thermal-dynamics/covers/
+td-1-12-filter-basic:
+  name: Filter
+  position:
+  - 11
+  - 13
+  url: /docs/1.12/thermal-dynamics/filters/
+td-1-12-filter-hardened:
+  name: Hardened Filter
+  position:
+  - 12
+  - 13
+  url: /docs/1.12/thermal-dynamics/filters/
+td-1-12-filter-reinforced:
+  name: Reinforced Filter
+  position:
+  - 13
+  - 13
+  url: /docs/1.12/thermal-dynamics/filters/
+td-1-12-filter-resonant:
+  name: Resonant Filter
+  position:
+  - 14
+  - 13
+  url: /docs/1.12/thermal-dynamics/filters/
+td-1-12-filter-signalum:
+  name: Signalum Filter
+  position:
+  - 15
+  - 13
+  url: /docs/1.12/thermal-dynamics/filters/
+td-1-12-fluiduct-basic:
+  name: Fluiduct
+  position:
+  - 16
+  - 13
+  url: /docs/1.12/thermal-dynamics/fluiduct/
+td-1-12-fluiduct-basic-opaque:
+  name: Fluiduct (Opaque)
+  position:
+  - 17
+  - 13
+  url: /docs/1.12/thermal-dynamics/fluiduct/
+td-1-12-fluiduct-energy:
+  name: Signalum-Plated Fluiduct
+  position:
+  - 18
+  - 13
+  url: /docs/1.12/thermal-dynamics/signalum-plated-fluiduct/
+td-1-12-fluiduct-energy-opaque:
+  name: Signalum-Plated Fluiduct (Opaque)
+  position:
+  - 19
+  - 13
+  url: /docs/1.12/thermal-dynamics/signalum-plated-fluiduct/
+td-1-12-fluiduct-hardened:
+  name: Hardened Fluiduct
+  position:
+  - 20
+  - 13
+  url: /docs/1.12/thermal-dynamics/hardened-fluiduct/
+td-1-12-fluiduct-hardened-opaque:
+  name: Hardened Fluiduct (Opaque)
+  position:
+  - 21
+  - 13
+  url: /docs/1.12/thermal-dynamics/hardened-fluiduct/
+td-1-12-fluiduct-super:
+  name: Super-Laminar Fluiduct
+  position:
+  - 22
+  - 13
+  url: /docs/1.12/thermal-dynamics/super-laminar-fluiduct/
+td-1-12-fluiduct-super-opaque:
+  name: Super-Laminar Fluiduct (Opaque)
+  position:
+  - 23
+  - 13
+  url: /docs/1.12/thermal-dynamics/super-laminar-fluiduct/
+td-1-12-fluxduct-basic:
+  name: Leadstone Fluxduct
+  position:
+  - 24
+  - 13
+  url: /docs/1.12/thermal-dynamics/leadstone-fluxduct/
+td-1-12-fluxduct-hardened:
+  name: Hardened Fluxduct
+  position:
+  - 25
+  - 13
+  url: /docs/1.12/thermal-dynamics/hardened-fluxduct/
+td-1-12-fluxduct-reinforced:
+  name: Redstone Energy Fluxduct
+  position:
+  - 26
+  - 13
+  url: /docs/1.12/thermal-dynamics/redstone-energy-fluxduct/
+td-1-12-fluxduct-reinforced-empty:
+  name: Redstone Energy Fluxduct (Empty)
+  position:
+  - 27
+  - 13
+  url: /docs/1.12/thermal-dynamics/redstone-energy-fluxduct/
+td-1-12-fluxduct-resonant:
+  name: Resonant Fluxduct
+  position:
+  - 28
+  - 13
+  url: /docs/1.12/thermal-dynamics/resonant-fluxduct/
+td-1-12-fluxduct-resonant-empty:
+  name: Resonant Fluxduct (Empty)
+  position:
+  - 29
+  - 13
+  url: /docs/1.12/thermal-dynamics/resonant-fluxduct/
+td-1-12-fluxduct-signalum:
+  name: Signalum Fluxduct
+  position:
+  - 30
+  - 13
+  url: /docs/1.12/thermal-dynamics/signalum-fluxduct/
+td-1-12-fluxduct-signalum-empty:
+  name: Signalum Fluxduct (Empty)
+  position:
+  - 31
+  - 13
+  url: /docs/1.12/thermal-dynamics/signalum-fluxduct/
+td-1-12-fluxduct-super:
+  name: Cryo-Stabilized Fluxduct
+  position:
+  - 32
+  - 13
+  url: /docs/1.12/thermal-dynamics/cryo-stabilized-fluxduct/
+td-1-12-fluxduct-super-empty:
+  name: Cryo-Stabilized Fluxduct (Empty)
+  position:
+  - 33
+  - 13
+  url: /docs/1.12/thermal-dynamics/cryo-stabilized-fluxduct/
+td-1-12-itemduct:
+  name: Itemduct
+  position:
+  - 34
+  - 13
+  url: /docs/1.12/thermal-dynamics/itemduct/
+td-1-12-itemduct-dense:
+  name: Dense Itemduct
+  position:
+  - 0
+  - 14
+  url: /docs/1.12/thermal-dynamics/itemduct/
+td-1-12-itemduct-energy:
+  name: Signalum-Plated Itemduct
+  position:
+  - 1
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-itemduct/
+td-1-12-itemduct-energy-dense:
+  name: Dense Signalum-Plated Itemduct
+  position:
+  - 2
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-itemduct/
+td-1-12-itemduct-energy-fast:
+  name: Signalum-Plated Impulse Itemduct
+  position:
+  - 3
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-impulse-itemduct/
+td-1-12-itemduct-energy-fast-dense:
+  name: Dense Signalum-Plated Impulse Itemduct
+  position:
+  - 4
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-impulse-itemduct/
+td-1-12-itemduct-energy-fast-opaque:
+  name: Signalum-Plated Impulse Itemduct (Opaque)
+  position:
+  - 5
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-impulse-itemduct/
+td-1-12-itemduct-energy-fast-opaque-dense:
+  name: Dense Signalum-Plated Impulse Itemduct (Opaque)
+  position:
+  - 6
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-impulse-itemduct/
+td-1-12-itemduct-energy-fast-opaque-vacuum:
+  name: Vacuum Signalum-Plated Impulse Itemduct (Opaque)
+  position:
+  - 7
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-impulse-itemduct/
+td-1-12-itemduct-energy-fast-vacuum:
+  name: Vacuum Signalum-Plated Impulse Itemduct
+  position:
+  - 8
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-impulse-itemduct/
+td-1-12-itemduct-energy-opaque:
+  name: Signalum-Plated Itemduct (Opaque)
+  position:
+  - 9
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-itemduct/
+td-1-12-itemduct-energy-opaque-dense:
+  name: Dense Signalum-Plated Itemduct (Opaque)
+  position:
+  - 10
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-itemduct/
+td-1-12-itemduct-energy-opaque-vacuum:
+  name: Vacuum Signalum-Plated Itemduct (Opaque)
+  position:
+  - 11
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-itemduct/
+td-1-12-itemduct-energy-vacuum:
+  name: Vacuum Signalum-Plated Itemduct
+  position:
+  - 12
+  - 14
+  url: /docs/1.12/thermal-dynamics/signalum-plated-itemduct/
+td-1-12-itemduct-fast:
+  name: Impulse Itemduct
+  position:
+  - 13
+  - 14
+  url: /docs/1.12/thermal-dynamics/impulse-itemduct/
+td-1-12-itemduct-fast-dense:
+  name: Dense Impulse Itemduct
+  position:
+  - 14
+  - 14
+  url: /docs/1.12/thermal-dynamics/impulse-itemduct/
+td-1-12-itemduct-fast-opaque:
+  name: Impulse Itemduct (Opaque)
+  position:
+  - 15
+  - 14
+  url: /docs/1.12/thermal-dynamics/impulse-itemduct/
+td-1-12-itemduct-fast-opaque-dense:
+  name: Dense Impulse Itemduct (Opaque)
+  position:
+  - 16
+  - 14
+  url: /docs/1.12/thermal-dynamics/impulse-itemduct/
+td-1-12-itemduct-fast-opaque-vacuum:
+  name: Vacuum Impulse Itemduct (Opaque)
+  position:
+  - 17
+  - 14
+  url: /docs/1.12/thermal-dynamics/impulse-itemduct/
+td-1-12-itemduct-fast-vacuum:
+  name: Vacuum Impulse Itemduct
+  position:
+  - 18
+  - 14
+  url: /docs/1.12/thermal-dynamics/impulse-itemduct/
+td-1-12-itemduct-opaque:
+  name: Itemduct (Opaque)
+  position:
+  - 19
+  - 14
+  url: /docs/1.12/thermal-dynamics/itemduct/
+td-1-12-itemduct-opaque-dense:
+  name: Dense Itemduct (Opaque)
+  position:
+  - 20
+  - 14
+  url: /docs/1.12/thermal-dynamics/itemduct/
+td-1-12-itemduct-opaque-vacuum:
+  name: Vacuum Itemduct (Opaque)
+  position:
+  - 21
+  - 14
+  url: /docs/1.12/thermal-dynamics/itemduct/
+td-1-12-itemduct-vacuum:
+  name: Vacuum Itemduct
+  position:
+  - 22
+  - 14
+  url: /docs/1.12/thermal-dynamics/itemduct/
+td-1-12-redstone-relay:
+  name: Redstone Relay
+  position:
+  - 23
+  - 14
+  url: /docs/1.12/thermal-dynamics/redstone-relay/
+td-1-12-retriever-basic:
+  name: Retriever
+  position:
+  - 24
+  - 14
+  url: /docs/1.12/thermal-dynamics/retrievers/
+td-1-12-retriever-hardened:
+  name: Hardened Retriever
+  position:
+  - 25
+  - 14
+  url: /docs/1.12/thermal-dynamics/retrievers/
+td-1-12-retriever-reinforced:
+  name: Reinforced Retriever
+  position:
+  - 26
+  - 14
+  url: /docs/1.12/thermal-dynamics/retrievers/
+td-1-12-retriever-resonant:
+  name: Resonant Retriever
+  position:
+  - 27
+  - 14
+  url: /docs/1.12/thermal-dynamics/retrievers/
+td-1-12-retriever-signalum:
+  name: Signalum Retriever
+  position:
+  - 28
+  - 14
+  url: /docs/1.12/thermal-dynamics/retrievers/
+td-1-12-servo-basic:
+  name: Servo
+  position:
+  - 29
+  - 14
+  url: /docs/1.12/thermal-dynamics/servos/
+td-1-12-servo-hardened:
+  name: Hardened Servo
+  position:
+  - 30
+  - 14
+  url: /docs/1.12/thermal-dynamics/servos/
+td-1-12-servo-reinforced:
+  name: Reinforced Servo
+  position:
+  - 31
+  - 14
+  url: /docs/1.12/thermal-dynamics/servos/
+td-1-12-servo-resonant:
+  name: Resonant Servo
+  position:
+  - 32
+  - 14
+  url: /docs/1.12/thermal-dynamics/servos/
+td-1-12-servo-signalum:
+  name: Signalum Servo
+  position:
+  - 33
+  - 14
+  url: /docs/1.12/thermal-dynamics/servos/
+td-1-12-structuralduct:
+  name: Structuralduct
+  position:
+  - 34
+  - 14
+  url: /docs/1.12/thermal-dynamics/structuralduct/
+td-1-12-viaduct:
+  name: Viaduct
+  position:
+  - 0
+  - 15
+  url: /docs/1.12/thermal-dynamics/viaduct/
+td-1-12-viaduct-frame:
+  name: Viaduct (Untreated)
+  position:
+  - 1
+  - 15
+  url: /docs/1.12/thermal-dynamics/viaduct/
+td-1-12-viaduct-long-range:
+  name: Long Range Viaduct
+  position:
+  - 2
+  - 15
+  url: /docs/1.12/thermal-dynamics/long-range-viaduct/
+td-1-12-viaduct-long-range-linking:
+  name: Long Range Linking Viaduct
+  position:
+  - 3
+  - 15
+  url: /docs/1.12/thermal-dynamics/long-range-linking-viaduct/
+te-1-12-augment-dynamo-boiler:
+  name: 'Augment: Boiler Conversion'
+  position:
+  - 4
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-boiler-conversion/
+te-1-12-augment-dynamo-coil-duct:
+  name: 'Augment: Transmission Coil Ducting'
+  position:
+  - 5
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-transmission-coil-ducting/
+te-1-12-augment-dynamo-compression-biofuel:
+  name: 'Augment: Agitative Manifold'
+  position:
+  - 6
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-agitative-manifold/
+te-1-12-augment-dynamo-compression-coolant:
+  name: 'Augment: Closed-Loop Cooling'
+  position:
+  - 7
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-closed-loop-cooling/
+te-1-12-augment-dynamo-compression-fuel:
+  name: 'Augment: Ignition Plugs'
+  position:
+  - 8
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-ignition-plugs/
+te-1-12-augment-dynamo-efficiency:
+  name: 'Augment: Fuel Catalyzer'
+  position:
+  - 9
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-fuel-catalyzer/
+te-1-12-augment-dynamo-enervation-enchant:
+  name: 'Augment: Disjunctive Extraction'
+  position:
+  - 10
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-disjunctive-extraction/
+te-1-12-augment-dynamo-magmatic-coolant:
+  name: 'Augment: Isentropic Reservoir'
+  position:
+  - 11
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-isentropic-reservoir/
+te-1-12-augment-dynamo-numismatic-gem:
+  name: 'Augment: Lapidary Calibration'
+  position:
+  - 12
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-lapidary-calibration/
+te-1-12-augment-dynamo-power:
+  name: 'Augment: Auxiliary Transmission Coil'
+  position:
+  - 13
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-auxiliary-transmission-coil/
+te-1-12-augment-dynamo-reactant-elemental:
+  name: 'Augment: Elemental Catalyzer'
+  position:
+  - 14
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-elemental-catalyzer/
+te-1-12-augment-dynamo-steam-turbine:
+  name: 'Augment: Turbine Conversion'
+  position:
+  - 15
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-turbine-conversion/
+te-1-12-augment-dynamo-throttle:
+  name: 'Augment: Excitation Field Limiter'
+  position:
+  - 16
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-excitation-field-limiter/
+te-1-12-augment-machine-brewer-reagent:
+  name: 'Augment: Reagent Recovery'
+  position:
+  - 17
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-reagent-recovery/
+te-1-12-augment-machine-centrifuge-mobs:
+  name: 'Augment: Enstabulation Apparatus'
+  position:
+  - 18
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-enstabulation-apparatus/
+te-1-12-augment-machine-charger-repair:
+  name: 'Augment: Flux Reconstruction'
+  position:
+  - 19
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-flux-reconstruction/
+te-1-12-augment-machine-charger-throughput:
+  name: 'Augment: Flux Linkage Concentrator'
+  position:
+  - 20
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-flux-linkage-concentrator/
+te-1-12-augment-machine-charger-wireless:
+  name: 'Augment: Parabolic Flux Coupling'
+  position:
+  - 21
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-parabolic-flux-coupling/
+te-1-12-augment-machine-compactor-coin:
+  name: 'Augment: Numismatic Press'
+  position:
+  - 22
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-numismatic-press/
+te-1-12-augment-machine-compactor-gear:
+  name: 'Augment: Gearworking Die'
+  position:
+  - 23
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-gearworking-die/
+te-1-12-augment-machine-crafter-input:
+  name: 'Augment: Pattern Validation'
+  position:
+  - 24
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-pattern-validation/
+te-1-12-augment-machine-crafter-tank:
+  name: 'Augment: Fluidic Fabrication'
+  position:
+  - 25
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-fluidic-fabrication/
+te-1-12-augment-machine-crucible-lava:
+  name: 'Augment: Pyroconvective Loop'
+  position:
+  - 26
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-pyroconvective-loop/
+te-1-12-augment-machine-extruder-no-water:
+  name: 'Augment: Pyroclastic Injection'
+  position:
+  - 27
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-pyroclastic-injection/
+te-1-12-augment-machine-extruder-sedimentary:
+  name: 'Augment: Clastic Deposition'
+  position:
+  - 28
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-clastic-deposition/
+te-1-12-augment-machine-furnace-food:
+  name: 'Augment: Trivection Chamber'
+  position:
+  - 29
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-trivection-chamber/
+te-1-12-augment-machine-furnace-ore:
+  name: 'Augment: Flux Anodizers'
+  position:
+  - 30
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-flux-anodizers/
+te-1-12-augment-machine-furnace-pyrolysis:
+  name: 'Augment: Pyrolytic Conversion'
+  position:
+  - 31
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-pyrolytic-conversion/
+te-1-12-augment-machine-insolator-fertilizer:
+  name: 'Augment: Nutrient Recovery'
+  position:
+  - 32
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-nutrient-recovery/
+te-1-12-augment-machine-insolator-monoculture:
+  name: 'Augment: Monoculture Cycle'
+  position:
+  - 33
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-monoculture-cycle/
+te-1-12-augment-machine-insolator-tree:
+  name: 'Augment: Sapling Infuser'
+  position:
+  - 34
+  - 15
+  url: /docs/1.12/thermal-expansion/augment-sapling-infuser/
+te-1-12-augment-machine-power:
+  name: 'Augment: Auxiliary Reception Coil'
+  position:
+  - 0
+  - 16
+  url: /docs/1.12/thermal-expansion/augment-auxiliary-reception-coil/
+te-1-12-augment-machine-pulverizer-petrotheum:
+  name: 'Augment: Tectonic Initiator'
+  position:
+  - 1
+  - 16
+  url: /docs/1.12/thermal-expansion/augment-tectonic-initiator/
+te-1-12-augment-machine-refinery-oil:
+  name: 'Augment: Reflux Column'
+  position:
+  - 2
+  - 16
+  url: /docs/1.12/thermal-expansion/augment-reflux-column/
+te-1-12-augment-machine-refinery-potion:
+  name: 'Augment: Alchemical Retort'
+  position:
+  - 3
+  - 16
+  url: /docs/1.12/thermal-expansion/augment-alchemical-retort/
+te-1-12-augment-machine-sawmill-tapper:
+  name: 'Augment: Resin Funnel'
+  position:
+  - 4
+  - 16
+  url: /docs/1.12/thermal-expansion/augment-resin-funnel/
+te-1-12-augment-machine-secondary:
+  name: 'Augment: Auxiliary Sieve'
+  position:
+  - 5
+  - 16
+  url: /docs/1.12/thermal-expansion/augment-auxiliary-sieve/
+te-1-12-augment-machine-secondary-null:
+  name: 'Augment: Nullification Chamber'
+  position:
+  - 6
+  - 16
+  url: /docs/1.12/thermal-expansion/augment-nullification-chamber/
+te-1-12-augment-machine-smelter-flux:
+  name: 'Augment: Metallurgical Recovery'
+  position:
+  - 7
+  - 16
+  url: /docs/1.12/thermal-expansion/augment-metallurgical-recovery/
+te-1-12-augment-machine-smelter-pyrotheum:
+  name: 'Augment: Pyro-Concentrator'
+  position:
+  - 8
+  - 16
+  url: /docs/1.12/thermal-expansion/augment-pyro-concentrator/
+te-1-12-cache-basic:
+  name: Cache (Basic)
+  position:
+  - 9
+  - 16
+  url: /docs/1.12/thermal-expansion/cache/
+te-1-12-device-diffuser:
+  name: Decoctive Diffuser
+  position:
+  - 10
+  - 16
+  url: /docs/1.12/thermal-expansion/decoctive-diffuser/
+te-1-12-device-factorizer:
+  name: Factorizer
+  position:
+  - 11
+  - 16
+  url: /docs/1.12/thermal-expansion/factorizer/
+te-1-12-device-fisher:
+  name: Aquatic Entangler
+  position:
+  - 12
+  - 16
+  url: /docs/1.12/thermal-expansion/aquatic-entangler/
+te-1-12-device-fluid-buffer:
+  name: Fluid Allocator
+  position:
+  - 13
+  - 16
+  url: /docs/1.12/thermal-expansion/fluid-allocator/
+te-1-12-device-heat-sink:
+  name: Thermal Mediator
+  position:
+  - 14
+  - 16
+  url: /docs/1.12/thermal-expansion/thermal-mediator/
+te-1-12-device-item-buffer:
+  name: Item Allocator
+  position:
+  - 15
+  - 16
+  url: /docs/1.12/thermal-expansion/item-allocator/
+te-1-12-device-item-collector:
+  name: Vacuumulator
+  position:
+  - 16
+  - 16
+  url: /docs/1.12/thermal-expansion/vacuumulator/
+te-1-12-device-lexicon:
+  name: Lexical Transmuter
+  position:
+  - 17
+  - 16
+  url: /docs/1.12/thermal-expansion/lexical-transmuter/
+te-1-12-device-mob-catcher:
+  name: Creature Encaptulator
+  position:
+  - 18
+  - 16
+  url: /docs/1.12/thermal-expansion/creature-encaptulator/
+te-1-12-device-nullifier:
+  name: Nullifier
+  position:
+  - 19
+  - 16
+  url: /docs/1.12/thermal-expansion/nullifier/
+te-1-12-device-tapper:
+  name: Arboreal Extractor
+  position:
+  - 20
+  - 16
+  url: /docs/1.12/thermal-expansion/arboreal-extractor/
+te-1-12-device-water-gen:
+  name: Aqueous Accumulator
+  position:
+  - 21
+  - 16
+  url: /docs/1.12/thermal-expansion/aqueous-accumulator/
+te-1-12-device-xp-collector:
+  name: Insightful Condenser
+  position:
+  - 22
+  - 16
+  url: /docs/1.12/thermal-expansion/insightful-condenser/
+te-1-12-dynamo-compression:
+  name: Compression Dynamo
+  position:
+  - 23
+  - 16
+  url: /docs/1.12/thermal-expansion/compression-dynamo/
+te-1-12-dynamo-enervation:
+  name: Enervation Dynamo
+  position:
+  - 24
+  - 16
+  url: /docs/1.12/thermal-expansion/enervation-dynamo/
+te-1-12-dynamo-magmatic:
+  name: Magmatic Dynamo
+  position:
+  - 25
+  - 16
+  url: /docs/1.12/thermal-expansion/magmatic-dynamo/
+te-1-12-dynamo-numismatic:
+  name: Numismatic Dynamo
+  position:
+  - 26
+  - 16
+  url: /docs/1.12/thermal-expansion/numismatic-dynamo/
+te-1-12-dynamo-reactant:
+  name: Reactant Dynamo
+  position:
+  - 27
+  - 16
+  url: /docs/1.12/thermal-expansion/reactant-dynamo/
+te-1-12-dynamo-steam:
+  name: Steam Dynamo
+  position:
+  - 28
+  - 16
+  url: /docs/1.12/thermal-expansion/steam-dynamo/
+te-1-12-energy-cell-basic:
+  name: Energy Cell (Basic)
+  position:
+  - 29
+  - 16
+  url: /docs/1.12/thermal-expansion/energy-cell/
+te-1-12-florb:
+  name: Florb (Empty)
+  position:
+  - 30
+  - 16
+  url: /docs/1.12/thermal-expansion/florb/
+te-1-12-florb-magmatic:
+  name: Magmatic Florb (Empty)
+  position:
+  - 31
+  - 16
+  url: /docs/1.12/thermal-expansion/magmatic-florb/
+te-1-12-flux-capacitor-basic:
+  name: Flux Capacitor (Basic)
+  position:
+  - 32
+  - 16
+  url: /docs/1.12/thermal-expansion/flux-capacitor/
+te-1-12-flux-capacitor-hardened:
+  name: Flux Capacitor (Hardened)
+  position:
+  - 33
+  - 16
+  url: /docs/1.12/thermal-expansion/flux-capacitor/
+te-1-12-flux-capacitor-reinforced:
+  name: Flux Capacitor (Reinforced)
+  position:
+  - 34
+  - 16
+  url: /docs/1.12/thermal-expansion/flux-capacitor/
+te-1-12-flux-capacitor-resonant:
+  name: Flux Capacitor (Resonant)
+  position:
+  - 0
+  - 17
+  url: /docs/1.12/thermal-expansion/flux-capacitor/
+te-1-12-flux-capacitor-signalum:
+  name: Flux Capacitor (Signalum)
+  position:
+  - 1
+  - 17
+  url: /docs/1.12/thermal-expansion/flux-capacitor/
+te-1-12-frame-device:
+  name: Device Frame
+  position:
+  - 2
+  - 17
+  url: /docs/1.12/thermal-expansion/devices/
+te-1-12-frame-energy-cell:
+  name: Energy Cell Frame
+  position:
+  - 3
+  - 17
+  url: /docs/1.12/thermal-expansion/energy-cell/
+te-1-12-frame-machine:
+  name: Machine Frame
+  position:
+  - 4
+  - 17
+  url: /docs/1.12/thermal-expansion/machines/
+te-1-12-machine-brewer:
+  name: Alchemical Imbuer
+  position:
+  - 5
+  - 17
+  url: /docs/1.12/thermal-expansion/alchemical-imbuer/
+te-1-12-machine-centrifuge:
+  name: Centrifugal Separator
+  position:
+  - 6
+  - 17
+  url: /docs/1.12/thermal-expansion/centrifugal-separator/
+te-1-12-machine-charger:
+  name: Energetic Infuser
+  position:
+  - 7
+  - 17
+  url: /docs/1.12/thermal-expansion/energetic-infuser/
+te-1-12-machine-compactor:
+  name: Compactor
+  position:
+  - 8
+  - 17
+  url: /docs/1.12/thermal-expansion/compactor/
+te-1-12-machine-crafter:
+  name: Sequential Fabricator
+  position:
+  - 9
+  - 17
+  url: /docs/1.12/thermal-expansion/sequential-fabricator/
+te-1-12-machine-crucible:
+  name: Magma Crucible
+  position:
+  - 10
+  - 17
+  url: /docs/1.12/thermal-expansion/magma-crucible/
+te-1-12-machine-enchanter:
+  name: Arcane Ensorcellator
+  position:
+  - 11
+  - 17
+  url: /docs/1.12/thermal-expansion/arcane-ensorcellator/
+te-1-12-machine-extruder:
+  name: Igneous Extruder
+  position:
+  - 12
+  - 17
+  url: /docs/1.12/thermal-expansion/igneous-extruder/
+te-1-12-machine-furnace:
+  name: Redstone Furnace
+  position:
+  - 13
+  - 17
+  url: /docs/1.12/thermal-expansion/redstone-furnace/
+te-1-12-machine-insolator:
+  name: Phytogenic Insolator
+  position:
+  - 14
+  - 17
+  url: /docs/1.12/thermal-expansion/phytogenic-insolator/
+te-1-12-machine-precipitator:
+  name: Glacial Precipitator
+  position:
+  - 15
+  - 17
+  url: /docs/1.12/thermal-expansion/glacial-precipitator/
+te-1-12-machine-pulverizer:
+  name: Pulverizer
+  position:
+  - 16
+  - 17
+  url: /docs/1.12/thermal-expansion/pulverizer/
+te-1-12-machine-refinery:
+  name: Fractionating Still
+  position:
+  - 17
+  - 17
+  url: /docs/1.12/thermal-expansion/fractionating-still/
+te-1-12-machine-sawmill:
+  name: Sawmill
+  position:
+  - 18
+  - 17
+  url: /docs/1.12/thermal-expansion/sawmill/
+te-1-12-machine-smelter:
+  name: Induction Smelter
+  position:
+  - 19
+  - 17
+  url: /docs/1.12/thermal-expansion/induction-smelter/
+te-1-12-machine-transposer:
+  name: Fluid Transposer
+  position:
+  - 20
+  - 17
+  url: /docs/1.12/thermal-expansion/fluid-transposer/
+te-1-12-morb:
+  name: Morb (Empty)
+  position:
+  - 21
+  - 17
+  url: /docs/1.12/thermal-expansion/morb/
+te-1-12-morb-reusable:
+  name: Reusable Morb (Empty)
+  position:
+  - 22
+  - 17
+  url: /docs/1.12/thermal-expansion/reusable-morb/
+te-1-12-portable-tank-basic:
+  name: Portable Tank (Basic)
+  position:
+  - 23
+  - 17
+  url: /docs/1.12/thermal-expansion/portable-tank/
+te-1-12-reservoir-basic:
+  name: Reservoir (Basic)
+  position:
+  - 24
+  - 17
+  url: /docs/1.12/thermal-expansion/reservoir/
+te-1-12-reservoir-hardened:
+  name: Reservoir (Hardened)
+  position:
+  - 25
+  - 17
+  url: /docs/1.12/thermal-expansion/reservoir/
+te-1-12-reservoir-reinforced:
+  name: Reservoir (Reinforced)
+  position:
+  - 26
+  - 17
+  url: /docs/1.12/thermal-expansion/reservoir/
+te-1-12-reservoir-resonant:
+  name: Reservoir (Resonant)
+  position:
+  - 27
+  - 17
+  url: /docs/1.12/thermal-expansion/reservoir/
+te-1-12-reservoir-signalum:
+  name: Reservoir (Signalum)
+  position:
+  - 28
+  - 17
+  url: /docs/1.12/thermal-expansion/reservoir/
+te-1-12-satchel-basic:
+  name: Satchel (Basic)
+  position:
+  - 29
+  - 17
+  url: /docs/1.12/thermal-expansion/satchel/
+te-1-12-satchel-hardened:
+  name: Satchel (Hardened)
+  position:
+  - 30
+  - 17
+  url: /docs/1.12/thermal-expansion/satchel/
+te-1-12-satchel-reinforced:
+  name: Satchel (Reinforced)
+  position:
+  - 31
+  - 17
+  url: /docs/1.12/thermal-expansion/satchel/
+te-1-12-satchel-resonant:
+  name: Satchel (Resonant)
+  position:
+  - 32
+  - 17
+  url: /docs/1.12/thermal-expansion/satchel/
+te-1-12-satchel-signalum:
+  name: Satchel (Signalum)
+  position:
+  - 33
+  - 17
+  url: /docs/1.12/thermal-expansion/satchel/
+te-1-12-satchel-void:
+  name: Satchel (Void)
+  position:
+  - 34
+  - 17
+  url: /docs/1.12/thermal-expansion/satchel/
+te-1-12-strongbox-basic:
+  name: Strongbox (Basic)
+  position:
+  - 0
+  - 18
+  url: /docs/1.12/thermal-expansion/strongbox/
+tf-1-12-aerotheum:
+  name: Zephyrean Aerotheum
+  position:
+  - 1
+  - 18
+  url: /docs/1.12/thermal-foundation/zephyrean-aerotheum/
+tf-1-12-aqua-chow:
+  name: Aqua-Chow
+  position:
+  - 2
+  - 18
+  url: /docs/1.12/thermal-foundation/aqua-chow/
+tf-1-12-aqua-chow-fluxed:
+  name: Fluxed Aqua-Chow
+  position:
+  - 3
+  - 18
+  url: /docs/1.12/thermal-foundation/fluxed-aqua-chow/
+tf-1-12-aqua-chow-rich:
+  name: Rich Aqua-Chow
+  position:
+  - 4
+  - 18
+  url: /docs/1.12/thermal-foundation/rich-aqua-chow/
+tf-1-12-armor-boots-aluminum:
+  name: Aluminum Boots
+  position:
+  - 5
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-bronze:
+  name: Bronze Boots
+  position:
+  - 6
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-constantan:
+  name: Constantan Boots
+  position:
+  - 7
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-copper:
+  name: Copper Boots
+  position:
+  - 8
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-electrum:
+  name: Electrum Boots
+  position:
+  - 9
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-invar:
+  name: Invar Boots
+  position:
+  - 10
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-lead:
+  name: Lead Boots
+  position:
+  - 11
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-nickel:
+  name: Nickel Boots
+  position:
+  - 12
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-platinum:
+  name: Platinum Boots
+  position:
+  - 13
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-silver:
+  name: Silver Boots
+  position:
+  - 14
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-steel:
+  name: Steel Boots
+  position:
+  - 15
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-boots-tin:
+  name: Tin Boots
+  position:
+  - 16
+  - 18
+  url: /docs/1.12/thermal-foundation/boots/
+tf-1-12-armor-chestplate-aluminum:
+  name: Aluminum Chestplate
+  position:
+  - 17
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-bronze:
+  name: Bronze Chestplate
+  position:
+  - 18
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-constantan:
+  name: Constantan Chestplate
+  position:
+  - 19
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-copper:
+  name: Copper Chestplate
+  position:
+  - 20
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-electrum:
+  name: Electrum Chestplate
+  position:
+  - 21
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-invar:
+  name: Invar Chestplate
+  position:
+  - 22
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-lead:
+  name: Lead Chestplate
+  position:
+  - 23
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-nickel:
+  name: Nickel Chestplate
+  position:
+  - 24
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-platinum:
+  name: Platinum Chestplate
+  position:
+  - 25
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-silver:
+  name: Silver Chestplate
+  position:
+  - 26
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-steel:
+  name: Steel Chestplate
+  position:
+  - 27
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-chestplate-tin:
+  name: Tin Chestplate
+  position:
+  - 28
+  - 18
+  url: /docs/1.12/thermal-foundation/chestplates/
+tf-1-12-armor-helmet-aluminum:
+  name: Aluminum Helmet
+  position:
+  - 29
+  - 18
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-bronze:
+  name: Bronze Helmet
+  position:
+  - 30
+  - 18
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-constantan:
+  name: Constantan Helmet
+  position:
+  - 31
+  - 18
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-copper:
+  name: Copper Helmet
+  position:
+  - 32
+  - 18
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-electrum:
+  name: Electrum Helmet
+  position:
+  - 33
+  - 18
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-invar:
+  name: Invar Helmet
+  position:
+  - 34
+  - 18
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-lead:
+  name: Lead Helmet
+  position:
+  - 0
+  - 19
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-nickel:
+  name: Nickel Helmet
+  position:
+  - 1
+  - 19
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-platinum:
+  name: Platinum Helmet
+  position:
+  - 2
+  - 19
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-silver:
+  name: Silver Helmet
+  position:
+  - 3
+  - 19
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-steel:
+  name: Steel Helmet
+  position:
+  - 4
+  - 19
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-helmet-tin:
+  name: Tin Helmet
+  position:
+  - 5
+  - 19
+  url: /docs/1.12/thermal-foundation/helmets/
+tf-1-12-armor-leggings-aluminum:
+  name: Aluminum Leggings
+  position:
+  - 6
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-bronze:
+  name: Bronze Leggings
+  position:
+  - 7
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-constantan:
+  name: Constantan Leggings
+  position:
+  - 8
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-copper:
+  name: Copper Leggings
+  position:
+  - 9
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-electrum:
+  name: Electrum Leggings
+  position:
+  - 10
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-invar:
+  name: Invar Leggings
+  position:
+  - 11
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-lead:
+  name: Lead Leggings
+  position:
+  - 12
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-nickel:
+  name: Nickel Leggings
+  position:
+  - 13
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-platinum:
+  name: Platinum Leggings
+  position:
+  - 14
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-silver:
+  name: Silver Leggings
+  position:
+  - 15
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-steel:
+  name: Steel Leggings
+  position:
+  - 16
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-armor-leggings-tin:
+  name: Tin Leggings
+  position:
+  - 17
+  - 19
+  url: /docs/1.12/thermal-foundation/leggings/
+tf-1-12-basalz:
+  name: Basalz
+  position:
+  - 8
+  - 35
+  url: /docs/1.12/thermal-foundation/basalz/
+tf-1-12-basalz-powder:
+  name: Basalz Powder
+  position:
+  - 18
+  - 19
+  url: /docs/1.12/thermal-foundation/basalz-powder/
+tf-1-12-basalz-rod:
+  name: Basalz Rod
+  position:
+  - 19
+  - 19
+  url: /docs/1.12/thermal-foundation/basalz-rod/
+tf-1-12-bioblend:
+  name: Pulped Bioblend
+  position:
+  - 20
+  - 19
+  url: /docs/1.12/thermal-foundation/pulped-bioblend/
+tf-1-12-bioblend-rich:
+  name: Rich Bioblend
+  position:
+  - 21
+  - 19
+  url: /docs/1.12/thermal-foundation/rich-bioblend/
+tf-1-12-biocrude:
+  name: Biocrude
+  position:
+  - 22
+  - 19
+  url: /docs/1.12/thermal-foundation/biocrude/
+tf-1-12-biomass:
+  name: Pulped Biomass
+  position:
+  - 23
+  - 19
+  url: /docs/1.12/thermal-foundation/pulped-biomass/
+tf-1-12-biomass-rich:
+  name: Rich Biomass
+  position:
+  - 24
+  - 19
+  url: /docs/1.12/thermal-foundation/rich-biomass/
+tf-1-12-bitumen:
+  name: Bitumen
+  position:
+  - 25
+  - 19
+  url: /docs/1.12/thermal-foundation/bitumen/
+tf-1-12-blitz:
+  name: Blitz
+  position:
+  - 9
+  - 35
+  url: /docs/1.12/thermal-foundation/blitz/
+tf-1-12-blitz-powder:
+  name: Blitz Powder
+  position:
+  - 26
+  - 19
+  url: /docs/1.12/thermal-foundation/blitz-powder/
+tf-1-12-blitz-rod:
+  name: Blitz Rod
+  position:
+  - 27
+  - 19
+  url: /docs/1.12/thermal-foundation/blitz-rod/
+tf-1-12-blizz:
+  name: Blizz
+  position:
+  - 10
+  - 35
+  url: /docs/1.12/thermal-foundation/blizz/
+tf-1-12-blizz-powder:
+  name: Blizz Powder
+  position:
+  - 28
+  - 19
+  url: /docs/1.12/thermal-foundation/blizz-powder/
+tf-1-12-blizz-rod:
+  name: Blizz Rod
+  position:
+  - 29
+  - 19
+  url: /docs/1.12/thermal-foundation/blizz-rod/
+tf-1-12-bucket-aerotheum:
+  name: Zephyrean Aerotheum Bucket
+  position:
+  - 30
+  - 19
+  url: /docs/1.12/thermal-foundation/zephyrean-aerotheum/
+tf-1-12-bucket-biocrude:
+  name: Biocrude Bucket
+  position:
+  - 31
+  - 19
+  url: /docs/1.12/thermal-foundation/biocrude/
+tf-1-12-bucket-coal:
+  name: Liquifacted Coal Bucket
+  position:
+  - 32
+  - 19
+  url: /docs/1.12/thermal-foundation/liquifacted-coal/
+tf-1-12-bucket-creosote-oil:
+  name: Creosote Oil Bucket
+  position:
+  - 33
+  - 19
+  url: /docs/1.12/thermal-foundation/creosote-oil/
+tf-1-12-bucket-crude-oil:
+  name: Crude Oil Bucket
+  position:
+  - 34
+  - 19
+  url: /docs/1.12/thermal-foundation/crude-oil/
+tf-1-12-bucket-cryotheum:
+  name: Gelid Cryotheum Bucket
+  position:
+  - 0
+  - 20
+  url: /docs/1.12/thermal-foundation/gelid-cryotheum/
+tf-1-12-bucket-ender:
+  name: Resonant Ender Bucket
+  position:
+  - 1
+  - 20
+  url: /docs/1.12/thermal-foundation/resonant-ender/
+tf-1-12-bucket-experience:
+  name: Essence of Knowledge Bucket
+  position:
+  - 2
+  - 20
+  url: /docs/1.12/thermal-foundation/essence-of-knowledge/
+tf-1-12-bucket-glowstone:
+  name: Energized Glowstone Bucket
+  position:
+  - 3
+  - 20
+  url: /docs/1.12/thermal-foundation/energized-glowstone/
+tf-1-12-bucket-grassoline:
+  name: Grassoline Bucket
+  position:
+  - 4
+  - 20
+  url: /docs/1.12/thermal-foundation/grassoline/
+tf-1-12-bucket-mana:
+  name: Primal Mana Bucket
+  position:
+  - 5
+  - 20
+  url: /docs/1.12/thermal-foundation/primal-mana/
+tf-1-12-bucket-mushroom-stew:
+  name: Mushroom Stew Bucket
+  position:
+  - 6
+  - 20
+  url: /docs/1.12/thermal-foundation/mushroom-stew/
+tf-1-12-bucket-naphtha:
+  name: Naphtha Bucket
+  position:
+  - 7
+  - 20
+  url: /docs/1.12/thermal-foundation/naphtha/
+tf-1-12-bucket-petrotheum:
+  name: Tectonic Petrotheum Bucket
+  position:
+  - 8
+  - 20
+  url: /docs/1.12/thermal-foundation/tectonic-petrotheum/
+tf-1-12-bucket-pyrotheum:
+  name: Blazing Pyrotheum Bucket
+  position:
+  - 9
+  - 20
+  url: /docs/1.12/thermal-foundation/blazing-pyrotheum/
+tf-1-12-bucket-redstone:
+  name: Destabilized Redstone Bucket
+  position:
+  - 10
+  - 20
+  url: /docs/1.12/thermal-foundation/destabilized-redstone/
+tf-1-12-bucket-refined-fuel:
+  name: Refined Fuel Bucket
+  position:
+  - 11
+  - 20
+  url: /docs/1.12/thermal-foundation/refined-fuel/
+tf-1-12-bucket-resin:
+  name: Resin Bucket
+  position:
+  - 12
+  - 20
+  url: /docs/1.12/thermal-foundation/resin/
+tf-1-12-bucket-sap:
+  name: Sap Bucket
+  position:
+  - 13
+  - 20
+  url: /docs/1.12/thermal-foundation/sap/
+tf-1-12-bucket-seed-oil:
+  name: Seed Oil Bucket
+  position:
+  - 14
+  - 20
+  url: /docs/1.12/thermal-foundation/seed-oil/
+tf-1-12-bucket-steam:
+  name: Steam Bucket
+  position:
+  - 15
+  - 20
+  url: /docs/1.12/thermal-foundation/steam/
+tf-1-12-bucket-syrup:
+  name: Syrup Bucket
+  position:
+  - 16
+  - 20
+  url: /docs/1.12/thermal-foundation/syrup/
+tf-1-12-bucket-tree-oil:
+  name: Tree Oil Bucket
+  position:
+  - 17
+  - 20
+  url: /docs/1.12/thermal-foundation/tree-oil/
+tf-1-12-cinnabar:
+  name: Cinnabar
+  position:
+  - 18
+  - 20
+  url: /docs/1.12/thermal-foundation/cinnabar/
+tf-1-12-clathrate-ender:
+  name: Resonant Clathrate
+  position:
+  - 19
+  - 20
+  url: /docs/1.12/thermal-foundation/resonant-clathrate/
+tf-1-12-clathrate-glowstone:
+  name: Energized Clathrate
+  position:
+  - 20
+  - 20
+  url: /docs/1.12/thermal-foundation/energized-clathrate/
+tf-1-12-clathrate-redstone:
+  name: Destabilized Clathrate
+  position:
+  - 21
+  - 20
+  url: /docs/1.12/thermal-foundation/destabilized-clathrate/
+tf-1-12-coal:
+  name: Liquifacted Coal
+  position:
+  - 22
+  - 20
+  url: /docs/1.12/thermal-foundation/liquifacted-coal/
+tf-1-12-coal-coke:
+  name: Coal Coke
+  position:
+  - 23
+  - 20
+  url: /docs/1.12/thermal-foundation/coal-coke/
+tf-1-12-coin-aluminum:
+  name: Aluminum Coin
+  position:
+  - 24
+  - 20
+  url: /docs/1.12/thermal-foundation/aluminum-coin/
+tf-1-12-coin-bronze:
+  name: Bronze Coin
+  position:
+  - 25
+  - 20
+  url: /docs/1.12/thermal-foundation/bronze-coin/
+tf-1-12-coin-constantan:
+  name: Constantan Coin
+  position:
+  - 26
+  - 20
+  url: /docs/1.12/thermal-foundation/constantan-coin/
+tf-1-12-coin-copper:
+  name: Copper Coin
+  position:
+  - 27
+  - 20
+  url: /docs/1.12/thermal-foundation/copper-coin/
+tf-1-12-coin-electrum:
+  name: Electrum Coin
+  position:
+  - 28
+  - 20
+  url: /docs/1.12/thermal-foundation/electrum-coin/
+tf-1-12-coin-enderium:
+  name: Enderium Coin
+  position:
+  - 29
+  - 20
+  url: /docs/1.12/thermal-foundation/enderium-coin/
+tf-1-12-coin-gold:
+  name: Gold Coin
+  position:
+  - 30
+  - 20
+  url: /docs/1.12/thermal-foundation/gold-coin/
+tf-1-12-coin-invar:
+  name: Invar Coin
+  position:
+  - 31
+  - 20
+  url: /docs/1.12/thermal-foundation/invar-coin/
+tf-1-12-coin-iridium:
+  name: Iridium Coin
+  position:
+  - 32
+  - 20
+  url: /docs/1.12/thermal-foundation/iridium-coin/
+tf-1-12-coin-iron:
+  name: Iron Coin
+  position:
+  - 33
+  - 20
+  url: /docs/1.12/thermal-foundation/iron-coin/
+tf-1-12-coin-lead:
+  name: Lead Coin
+  position:
+  - 34
+  - 20
+  url: /docs/1.12/thermal-foundation/lead-coin/
+tf-1-12-coin-lumium:
+  name: Lumium Coin
+  position:
+  - 0
+  - 21
+  url: /docs/1.12/thermal-foundation/lumium-coin/
+tf-1-12-coin-mithril:
+  name: Mana Infused Coin
+  position:
+  - 1
+  - 21
+  url: /docs/1.12/thermal-foundation/mana-infused-coin/
+tf-1-12-coin-nickel:
+  name: Nickel Coin
+  position:
+  - 2
+  - 21
+  url: /docs/1.12/thermal-foundation/nickel-coin/
+tf-1-12-coin-platinum:
+  name: Platinum Coin
+  position:
+  - 3
+  - 21
+  url: /docs/1.12/thermal-foundation/platinum-coin/
+tf-1-12-coin-signalum:
+  name: Signalum Coin
+  position:
+  - 4
+  - 21
+  url: /docs/1.12/thermal-foundation/signalum-coin/
+tf-1-12-coin-silver:
+  name: Silver Coin
+  position:
+  - 5
+  - 21
+  url: /docs/1.12/thermal-foundation/silver-coin/
+tf-1-12-coin-steel:
+  name: Steel Coin
+  position:
+  - 6
+  - 21
+  url: /docs/1.12/thermal-foundation/steel-coin/
+tf-1-12-coin-tin:
+  name: Tin Coin
+  position:
+  - 7
+  - 21
+  url: /docs/1.12/thermal-foundation/tin-coin/
+tf-1-12-conversion-kit-reinforced:
+  name: Reinforced Conversion Kit
+  position:
+  - 8
+  - 21
+  url: /docs/1.12/thermal-foundation/conversion-kits/
+tf-1-12-conversion-kit-resonant:
+  name: Resonant Conversion Kit
+  position:
+  - 9
+  - 21
+  url: /docs/1.12/thermal-foundation/conversion-kits/
+tf-1-12-conversion-kit-signalum:
+  name: Signalum Conversion Kit
+  position:
+  - 10
+  - 21
+  url: /docs/1.12/thermal-foundation/conversion-kits/
+tf-1-12-creosote-oil:
+  name: Creosote Oil
+  position:
+  - 11
+  - 21
+  url: /docs/1.12/thermal-foundation/creosote-oil/
+tf-1-12-crescent-hammer:
+  name: Crescent Hammer
+  position:
+  - 12
+  - 21
+  url: /docs/1.12/thermal-foundation/crescent-hammer/
+tf-1-12-crude-oil:
+  name: Crude Oil
+  position:
+  - 13
+  - 21
+  url: /docs/1.12/thermal-foundation/crude-oil/
+tf-1-12-cryotheum:
+  name: Gelid Cryotheum
+  position:
+  - 14
+  - 21
+  url: /docs/1.12/thermal-foundation/gelid-cryotheum/
+tf-1-12-drill-head:
+  name: Drill Head
+  position:
+  - 15
+  - 21
+  url: /docs/1.12/thermal-foundation/drill-head/
+tf-1-12-dust-aerotheum:
+  name: Aerotheum Dust
+  position:
+  - 16
+  - 21
+  url: /docs/1.12/thermal-foundation/aerotheum-dust/
+tf-1-12-dust-aluminum:
+  name: Pulverized Aluminum
+  position:
+  - 17
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-aluminum/
+tf-1-12-dust-bronze:
+  name: Bronze Blend
+  position:
+  - 18
+  - 21
+  url: /docs/1.12/thermal-foundation/bronze-blend/
+tf-1-12-dust-charcoal:
+  name: Pulverized Charcoal
+  position:
+  - 19
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-charcoal/
+tf-1-12-dust-coal:
+  name: Pulverized Coal
+  position:
+  - 20
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-coal/
+tf-1-12-dust-constantan:
+  name: Constantan Blend
+  position:
+  - 21
+  - 21
+  url: /docs/1.12/thermal-foundation/constantan-blend/
+tf-1-12-dust-copper:
+  name: Pulverized Copper
+  position:
+  - 22
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-copper/
+tf-1-12-dust-cryotheum:
+  name: Cryotheum Dust
+  position:
+  - 23
+  - 21
+  url: /docs/1.12/thermal-foundation/cryotheum-dust/
+tf-1-12-dust-electrum:
+  name: Electrum Blend
+  position:
+  - 24
+  - 21
+  url: /docs/1.12/thermal-foundation/electrum-blend/
+tf-1-12-dust-enderium:
+  name: Enderium Blend
+  position:
+  - 25
+  - 21
+  url: /docs/1.12/thermal-foundation/enderium-blend/
+tf-1-12-dust-gold:
+  name: Pulverized Gold
+  position:
+  - 26
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-gold/
+tf-1-12-dust-invar:
+  name: Invar Blend
+  position:
+  - 27
+  - 21
+  url: /docs/1.12/thermal-foundation/invar-blend/
+tf-1-12-dust-iridium:
+  name: Pulverized Iridium
+  position:
+  - 28
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-iridium/
+tf-1-12-dust-iron:
+  name: Pulverized Iron
+  position:
+  - 29
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-iron/
+tf-1-12-dust-lead:
+  name: Pulverized Lead
+  position:
+  - 30
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-lead/
+tf-1-12-dust-lumium:
+  name: Lumium Blend
+  position:
+  - 31
+  - 21
+  url: /docs/1.12/thermal-foundation/lumium-blend/
+tf-1-12-dust-mana:
+  name: Mana Dust
+  position:
+  - 32
+  - 21
+  url: /docs/1.12/thermal-foundation/mana-dust/
+tf-1-12-dust-mithril:
+  name: Pulverized Mana Infused Metal
+  position:
+  - 33
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-mana-infused-metal/
+tf-1-12-dust-nickel:
+  name: Pulverized Nickel
+  position:
+  - 34
+  - 21
+  url: /docs/1.12/thermal-foundation/pulverized-nickel/
+tf-1-12-dust-obsidian:
+  name: Pulverized Obsidian
+  position:
+  - 0
+  - 22
+  url: /docs/1.12/thermal-foundation/pulverized-obsidian/
+tf-1-12-dust-petrotheum:
+  name: Petrotheum Dust
+  position:
+  - 1
+  - 22
+  url: /docs/1.12/thermal-foundation/petrotheum-dust/
+tf-1-12-dust-platinum:
+  name: Pulverized Platinum
+  position:
+  - 2
+  - 22
+  url: /docs/1.12/thermal-foundation/pulverized-platinum/
+tf-1-12-dust-pyrotheum:
+  name: Pyrotheum Dust
+  position:
+  - 3
+  - 22
+  url: /docs/1.12/thermal-foundation/pyrotheum-dust/
+tf-1-12-dust-signalum:
+  name: Signalum Blend
+  position:
+  - 4
+  - 22
+  url: /docs/1.12/thermal-foundation/signalum-blend/
+tf-1-12-dust-silver:
+  name: Pulverized Silver
+  position:
+  - 5
+  - 22
+  url: /docs/1.12/thermal-foundation/pulverized-silver/
+tf-1-12-dust-steel:
+  name: Steel Blend
+  position:
+  - 6
+  - 22
+  url: /docs/1.12/thermal-foundation/steel-blend/
+tf-1-12-dust-tin:
+  name: Pulverized Tin
+  position:
+  - 7
+  - 22
+  url: /docs/1.12/thermal-foundation/pulverized-tin/
+tf-1-12-ender:
+  name: Resonant Ender
+  position:
+  - 8
+  - 22
+  url: /docs/1.12/thermal-foundation/resonant-ender/
+tf-1-12-experience:
+  name: Essence of Knowledge
+  position:
+  - 9
+  - 22
+  url: /docs/1.12/thermal-foundation/essence-of-knowledge/
+tf-1-12-forge-lexicon:
+  name: Forge Lexicon
+  position:
+  - 10
+  - 22
+  url: /docs/1.12/thermal-foundation/forge-lexicon/
+tf-1-12-gear-aluminum:
+  name: Aluminum Gear
+  position:
+  - 11
+  - 22
+  url: /docs/1.12/thermal-foundation/aluminum-gear/
+tf-1-12-gear-bronze:
+  name: Bronze Gear
+  position:
+  - 12
+  - 22
+  url: /docs/1.12/thermal-foundation/bronze-gear/
+tf-1-12-gear-constantan:
+  name: Constantan Gear
+  position:
+  - 13
+  - 22
+  url: /docs/1.12/thermal-foundation/constantan-gear/
+tf-1-12-gear-copper:
+  name: Copper Gear
+  position:
+  - 14
+  - 22
+  url: /docs/1.12/thermal-foundation/copper-gear/
+tf-1-12-gear-diamond:
+  name: Diamond Gear
+  position:
+  - 15
+  - 22
+  url: /docs/1.12/thermal-foundation/diamond-gear/
+tf-1-12-gear-electrum:
+  name: Electrum Gear
+  position:
+  - 16
+  - 22
+  url: /docs/1.12/thermal-foundation/electrum-gear/
+tf-1-12-gear-emerald:
+  name: Emerald Gear
+  position:
+  - 17
+  - 22
+  url: /docs/1.12/thermal-foundation/emerald-gear/
+tf-1-12-gear-enderium:
+  name: Enderium Gear
+  position:
+  - 18
+  - 22
+  url: /docs/1.12/thermal-foundation/enderium-gear/
+tf-1-12-gear-gold:
+  name: Gold Gear
+  position:
+  - 19
+  - 22
+  url: /docs/1.12/thermal-foundation/gold-gear/
+tf-1-12-gear-invar:
+  name: Invar Gear
+  position:
+  - 20
+  - 22
+  url: /docs/1.12/thermal-foundation/invar-gear/
+tf-1-12-gear-iridium:
+  name: Iridium Gear
+  position:
+  - 21
+  - 22
+  url: /docs/1.12/thermal-foundation/iridium-gear/
+tf-1-12-gear-iron:
+  name: Iron Gear
+  position:
+  - 22
+  - 22
+  url: /docs/1.12/thermal-foundation/iron-gear/
+tf-1-12-gear-lead:
+  name: Lead Gear
+  position:
+  - 23
+  - 22
+  url: /docs/1.12/thermal-foundation/lead-gear/
+tf-1-12-gear-lumium:
+  name: Lumium Gear
+  position:
+  - 24
+  - 22
+  url: /docs/1.12/thermal-foundation/lumium-gear/
+tf-1-12-gear-mithril:
+  name: Mana Infused Gear
+  position:
+  - 25
+  - 22
+  url: /docs/1.12/thermal-foundation/mana-infused-gear/
+tf-1-12-gear-nickel:
+  name: Nickel Gear
+  position:
+  - 26
+  - 22
+  url: /docs/1.12/thermal-foundation/nickel-gear/
+tf-1-12-gear-platinum:
+  name: Platinum Gear
+  position:
+  - 27
+  - 22
+  url: /docs/1.12/thermal-foundation/platinum-gear/
+tf-1-12-gear-signalum:
+  name: Signalum Gear
+  position:
+  - 28
+  - 22
+  url: /docs/1.12/thermal-foundation/signalum-gear/
+tf-1-12-gear-silver:
+  name: Silver Gear
+  position:
+  - 29
+  - 22
+  url: /docs/1.12/thermal-foundation/silver-gear/
+tf-1-12-gear-steel:
+  name: Steel Gear
+  position:
+  - 30
+  - 22
+  url: /docs/1.12/thermal-foundation/steel-gear/
+tf-1-12-gear-stone:
+  name: Stone Gear
+  position:
+  - 31
+  - 22
+  url: /docs/1.12/thermal-foundation/stone-gear/
+tf-1-12-gear-tin:
+  name: Tin Gear
+  position:
+  - 32
+  - 22
+  url: /docs/1.12/thermal-foundation/tin-gear/
+tf-1-12-gear-wood:
+  name: Wooden Gear
+  position:
+  - 33
+  - 22
+  url: /docs/1.12/thermal-foundation/wooden-gear/
+tf-1-12-geode:
+  name: Geode
+  position:
+  - 34
+  - 22
+  url: /docs/1.12/thermal-foundation/geode/
+tf-1-12-glowstone:
+  name: Energized Glowstone
+  position:
+  - 0
+  - 23
+  url: /docs/1.12/thermal-foundation/energized-glowstone/
+tf-1-12-grassoline:
+  name: Grassoline
+  position:
+  - 1
+  - 23
+  url: /docs/1.12/thermal-foundation/grassoline/
+tf-1-12-hardened-glass:
+  name: Hardened Glass
+  position:
+  - 2
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-aluminum:
+  name: Hardened Aluminum Glass
+  position:
+  - 3
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-bronze:
+  name: Hardened Bronze Glass
+  position:
+  - 4
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-constantan:
+  name: Hardened Constantan Glass
+  position:
+  - 5
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-copper:
+  name: Hardened Copper Glass
+  position:
+  - 6
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-electrum:
+  name: Hardened Electrum Glass
+  position:
+  - 7
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-enderium:
+  name: Hardened Enderium Glass
+  position:
+  - 8
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-invar:
+  name: Hardened Invar Glass
+  position:
+  - 9
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-iridium:
+  name: Hardened Iridium Glass
+  position:
+  - 10
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-lumium:
+  name: Hardened Lumium Glass
+  position:
+  - 11
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-mithril:
+  name: Hardened Mana Infused Glass
+  position:
+  - 12
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-nickel:
+  name: Hardened Nickel Glass
+  position:
+  - 13
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-platinum:
+  name: Hardened Platinum Glass
+  position:
+  - 14
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-signalum:
+  name: Hardened Signalum Glass
+  position:
+  - 15
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-silver:
+  name: Hardened Silver Glass
+  position:
+  - 16
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-steel:
+  name: Hardened Steel Glass
+  position:
+  - 17
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-hardened-glass-tin:
+  name: Hardened Tin Glass
+  position:
+  - 18
+  - 23
+  url: /docs/1.12/thermal-foundation/hardened-glass/
+tf-1-12-horse-armor-aluminum:
+  name: Aluminum Horse Armor
+  position:
+  - 19
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-bronze:
+  name: Bronze Horse Armor
+  position:
+  - 20
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-constantan:
+  name: Constantan Horse Armor
+  position:
+  - 21
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-copper:
+  name: Copper Horse Armor
+  position:
+  - 22
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-electrum:
+  name: Electrum Horse Armor
+  position:
+  - 23
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-invar:
+  name: Invar Horse Armor
+  position:
+  - 24
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-lead:
+  name: Lead Horse Armor
+  position:
+  - 25
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-nickel:
+  name: Nickel Horse Armor
+  position:
+  - 26
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-platinum:
+  name: Platinum Horse Armor
+  position:
+  - 27
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-silver:
+  name: Silver Horse Armor
+  position:
+  - 28
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-steel:
+  name: Steel Horse Armor
+  position:
+  - 29
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-horse-armor-tin:
+  name: Tin Horse Armor
+  position:
+  - 30
+  - 23
+  url: /docs/1.12/thermal-foundation/horse-armor/
+tf-1-12-ingot-aluminum:
+  name: Aluminum Ingot
+  position:
+  - 31
+  - 23
+  url: /docs/1.12/thermal-foundation/aluminum-ingot/
+tf-1-12-ingot-bronze:
+  name: Bronze Ingot
+  position:
+  - 32
+  - 23
+  url: /docs/1.12/thermal-foundation/bronze-ingot/
+tf-1-12-ingot-constantan:
+  name: Constantan Ingot
+  position:
+  - 33
+  - 23
+  url: /docs/1.12/thermal-foundation/constantan-ingot/
+tf-1-12-ingot-copper:
+  name: Copper Ingot
+  position:
+  - 34
+  - 23
+  url: /docs/1.12/thermal-foundation/copper-ingot/
+tf-1-12-ingot-electrum:
+  name: Electrum Ingot
+  position:
+  - 0
+  - 24
+  url: /docs/1.12/thermal-foundation/electrum-ingot/
+tf-1-12-ingot-enderium:
+  name: Enderium Ingot
+  position:
+  - 1
+  - 24
+  url: /docs/1.12/thermal-foundation/enderium-ingot/
+tf-1-12-ingot-invar:
+  name: Invar Ingot
+  position:
+  - 2
+  - 24
+  url: /docs/1.12/thermal-foundation/invar-ingot/
+tf-1-12-ingot-iridium:
+  name: Iridium Ingot
+  position:
+  - 3
+  - 24
+  url: /docs/1.12/thermal-foundation/iridium-ingot/
+tf-1-12-ingot-lead:
+  name: Lead Ingot
+  position:
+  - 4
+  - 24
+  url: /docs/1.12/thermal-foundation/lead-ingot/
+tf-1-12-ingot-lumium:
+  name: Lumium Ingot
+  position:
+  - 5
+  - 24
+  url: /docs/1.12/thermal-foundation/lumium-ingot/
+tf-1-12-ingot-mithril:
+  name: Mana Infused Ingot
+  position:
+  - 6
+  - 24
+  url: /docs/1.12/thermal-foundation/mana-infused-ingot/
+tf-1-12-ingot-nickel:
+  name: Nickel Ingot
+  position:
+  - 7
+  - 24
+  url: /docs/1.12/thermal-foundation/nickel-ingot/
+tf-1-12-ingot-platinum:
+  name: Platinum Ingot
+  position:
+  - 8
+  - 24
+  url: /docs/1.12/thermal-foundation/platinum-ingot/
+tf-1-12-ingot-signalum:
+  name: Signalum Ingot
+  position:
+  - 9
+  - 24
+  url: /docs/1.12/thermal-foundation/signalum-ingot/
+tf-1-12-ingot-silver:
+  name: Silver Ingot
+  position:
+  - 10
+  - 24
+  url: /docs/1.12/thermal-foundation/silver-ingot/
+tf-1-12-ingot-steel:
+  name: Steel Ingot
+  position:
+  - 11
+  - 24
+  url: /docs/1.12/thermal-foundation/steel-ingot/
+tf-1-12-ingot-tin:
+  name: Tin Ingot
+  position:
+  - 12
+  - 24
+  url: /docs/1.12/thermal-foundation/tin-ingot/
+tf-1-12-mana:
+  name: Primal Mana
+  position:
+  - 13
+  - 24
+  url: /docs/1.12/thermal-foundation/primal-mana/
+tf-1-12-multimeter:
+  name: Multimeter
+  position:
+  - 14
+  - 24
+  url: /docs/1.12/thermal-foundation/multimeter/
+tf-1-12-mushroom-stew:
+  name: Mushroom Stew
+  position:
+  - 15
+  - 24
+  url: /docs/1.12/thermal-foundation/mushroom-stew/
+tf-1-12-naphtha:
+  name: Naphtha
+  position:
+  - 16
+  - 24
+  url: /docs/1.12/thermal-foundation/naphtha/
+tf-1-12-niter:
+  name: Niter
+  position:
+  - 17
+  - 24
+  url: /docs/1.12/thermal-foundation/niter/
+tf-1-12-nugget-aluminum:
+  name: Aluminum Nugget
+  position:
+  - 18
+  - 24
+  url: /docs/1.12/thermal-foundation/aluminum-nugget/
+tf-1-12-nugget-bronze:
+  name: Bronze Nugget
+  position:
+  - 19
+  - 24
+  url: /docs/1.12/thermal-foundation/bronze-nugget/
+tf-1-12-nugget-constantan:
+  name: Constantan Nugget
+  position:
+  - 20
+  - 24
+  url: /docs/1.12/thermal-foundation/constantan-nugget/
+tf-1-12-nugget-copper:
+  name: Copper Nugget
+  position:
+  - 21
+  - 24
+  url: /docs/1.12/thermal-foundation/copper-nugget/
+tf-1-12-nugget-diamond:
+  name: Diamond Nugget
+  position:
+  - 22
+  - 24
+  url: /docs/1.12/thermal-foundation/diamond-nugget/
+tf-1-12-nugget-electrum:
+  name: Electrum Nugget
+  position:
+  - 23
+  - 24
+  url: /docs/1.12/thermal-foundation/electrum-nugget/
+tf-1-12-nugget-emerald:
+  name: Emerald Nugget
+  position:
+  - 24
+  - 24
+  url: /docs/1.12/thermal-foundation/emerald-nugget/
+tf-1-12-nugget-enderium:
+  name: Enderium Nugget
+  position:
+  - 25
+  - 24
+  url: /docs/1.12/thermal-foundation/enderium-nugget/
+tf-1-12-nugget-invar:
+  name: Invar Nugget
+  position:
+  - 26
+  - 24
+  url: /docs/1.12/thermal-foundation/invar-nugget/
+tf-1-12-nugget-iridium:
+  name: Iridium Nugget
+  position:
+  - 27
+  - 24
+  url: /docs/1.12/thermal-foundation/iridium-nugget/
+tf-1-12-nugget-lead:
+  name: Lead Nugget
+  position:
+  - 28
+  - 24
+  url: /docs/1.12/thermal-foundation/lead-nugget/
+tf-1-12-nugget-lumium:
+  name: Lumium Nugget
+  position:
+  - 29
+  - 24
+  url: /docs/1.12/thermal-foundation/lumium-nugget/
+tf-1-12-nugget-mithril:
+  name: Mana Infused Nugget
+  position:
+  - 30
+  - 24
+  url: /docs/1.12/thermal-foundation/mana-infused-nugget/
+tf-1-12-nugget-nickel:
+  name: Nickel Nugget
+  position:
+  - 31
+  - 24
+  url: /docs/1.12/thermal-foundation/nickel-nugget/
+tf-1-12-nugget-platinum:
+  name: Platinum Nugget
+  position:
+  - 32
+  - 24
+  url: /docs/1.12/thermal-foundation/platinum-nugget/
+tf-1-12-nugget-signalum:
+  name: Signalum Nugget
+  position:
+  - 33
+  - 24
+  url: /docs/1.12/thermal-foundation/signalum-nugget/
+tf-1-12-nugget-silver:
+  name: Silver Nugget
+  position:
+  - 34
+  - 24
+  url: /docs/1.12/thermal-foundation/silver-nugget/
+tf-1-12-nugget-steel:
+  name: Steel Nugget
+  position:
+  - 0
+  - 25
+  url: /docs/1.12/thermal-foundation/steel-nugget/
+tf-1-12-nugget-tin:
+  name: Tin Nugget
+  position:
+  - 1
+  - 25
+  url: /docs/1.12/thermal-foundation/tin-nugget/
+tf-1-12-oil-sand:
+  name: Oil Sand
+  position:
+  - 2
+  - 25
+  url: /docs/1.12/thermal-foundation/oil-sand/
+tf-1-12-oil-sand-red:
+  name: Oil Sand
+  position:
+  - 3
+  - 25
+  url: /docs/1.12/thermal-foundation/oil-sand/
+tf-1-12-oil-shale:
+  name: Oil Shale
+  position:
+  - 4
+  - 25
+  url: /docs/1.12/thermal-foundation/oil-shale/
+tf-1-12-ore-aluminum:
+  name: Aluminum Ore
+  position:
+  - 5
+  - 25
+  url: /docs/1.12/thermal-foundation/aluminum-ore/
+tf-1-12-ore-copper:
+  name: Copper Ore
+  position:
+  - 6
+  - 25
+  url: /docs/1.12/thermal-foundation/copper-ore/
+tf-1-12-ore-fluid-ender:
+  name: Resonant End Stone
+  position:
+  - 7
+  - 25
+  url: /docs/1.12/thermal-foundation/resonant-end-stone/
+tf-1-12-ore-fluid-glowstone:
+  name: Energized Netherrack
+  position:
+  - 8
+  - 25
+  url: /docs/1.12/thermal-foundation/energized-netherrack/
+tf-1-12-ore-fluid-redstone:
+  name: Destabilized Redstone Ore
+  position:
+  - 9
+  - 25
+  url: /docs/1.12/thermal-foundation/destabilized-redstone-ore/
+tf-1-12-ore-iridium:
+  name: Iridium Ore
+  position:
+  - 10
+  - 25
+  url: /docs/1.12/thermal-foundation/iridium-ore/
+tf-1-12-ore-lead:
+  name: Lead Ore
+  position:
+  - 11
+  - 25
+  url: /docs/1.12/thermal-foundation/lead-ore/
+tf-1-12-ore-mithril:
+  name: Mana Infused Ore
+  position:
+  - 12
+  - 25
+  url: /docs/1.12/thermal-foundation/mana-infused-ore/
+tf-1-12-ore-nickel:
+  name: Nickel Ore
+  position:
+  - 13
+  - 25
+  url: /docs/1.12/thermal-foundation/nickel-ore/
+tf-1-12-ore-platinum:
+  name: Platinum Ore
+  position:
+  - 14
+  - 25
+  url: /docs/1.12/thermal-foundation/platinum-ore/
+tf-1-12-ore-silver:
+  name: Silver Ore
+  position:
+  - 15
+  - 25
+  url: /docs/1.12/thermal-foundation/silver-ore/
+tf-1-12-ore-tin:
+  name: Tin Ore
+  position:
+  - 16
+  - 25
+  url: /docs/1.12/thermal-foundation/tin-ore/
+tf-1-12-petrotheum:
+  name: Tectonic Petrotheum
+  position:
+  - 17
+  - 25
+  url: /docs/1.12/thermal-foundation/tectonic-petrotheum/
+tf-1-12-phyto-gro:
+  name: Phyto-Gro
+  position:
+  - 18
+  - 25
+  url: /docs/1.12/thermal-foundation/phyto-gro/
+tf-1-12-phyto-gro-fluxed:
+  name: Fluxed Phyto-Gro
+  position:
+  - 19
+  - 25
+  url: /docs/1.12/thermal-foundation/fluxed-phyto-gro/
+tf-1-12-phyto-gro-rich:
+  name: Rich Phyto-Gro
+  position:
+  - 20
+  - 25
+  url: /docs/1.12/thermal-foundation/rich-phyto-gro/
+tf-1-12-pigment-black:
+  name: Black Pigment
+  position:
+  - 21
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-blue:
+  name: Blue Pigment
+  position:
+  - 22
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-brown:
+  name: Brown Pigment
+  position:
+  - 23
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-cyan:
+  name: Cyan Pigment
+  position:
+  - 24
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-gray:
+  name: Gray Pigment
+  position:
+  - 25
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-green:
+  name: Green Pigment
+  position:
+  - 26
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-light-blue:
+  name: Light Blue Pigment
+  position:
+  - 27
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-light-gray:
+  name: Light Gray Pigment
+  position:
+  - 28
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-lime:
+  name: Lime Pigment
+  position:
+  - 29
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-magenta:
+  name: Magenta Pigment
+  position:
+  - 30
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-orange:
+  name: Orange Pigment
+  position:
+  - 31
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-pink:
+  name: Pink Pigment
+  position:
+  - 32
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-purple:
+  name: Purple Pigment
+  position:
+  - 33
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-red:
+  name: Red Pigment
+  position:
+  - 34
+  - 25
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-white:
+  name: White Pigment
+  position:
+  - 0
+  - 26
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-pigment-yellow:
+  name: Yellow Pigment
+  position:
+  - 1
+  - 26
+  url: /docs/1.12/thermal-foundation/pigments/
+tf-1-12-plate-aluminum:
+  name: Aluminum Plate
+  position:
+  - 2
+  - 26
+  url: /docs/1.12/thermal-foundation/aluminum-plate/
+tf-1-12-plate-bronze:
+  name: Bronze Plate
+  position:
+  - 3
+  - 26
+  url: /docs/1.12/thermal-foundation/bronze-plate/
+tf-1-12-plate-constantan:
+  name: Constantan Plate
+  position:
+  - 4
+  - 26
+  url: /docs/1.12/thermal-foundation/constantan-plate/
+tf-1-12-plate-copper:
+  name: Copper Plate
+  position:
+  - 5
+  - 26
+  url: /docs/1.12/thermal-foundation/copper-plate/
+tf-1-12-plate-electrum:
+  name: Electrum Plate
+  position:
+  - 6
+  - 26
+  url: /docs/1.12/thermal-foundation/electrum-plate/
+tf-1-12-plate-enderium:
+  name: Enderium Plate
+  position:
+  - 7
+  - 26
+  url: /docs/1.12/thermal-foundation/enderium-plate/
+tf-1-12-plate-gold:
+  name: Gold Plate
+  position:
+  - 8
+  - 26
+  url: /docs/1.12/thermal-foundation/gold-plate/
+tf-1-12-plate-invar:
+  name: Invar Plate
+  position:
+  - 9
+  - 26
+  url: /docs/1.12/thermal-foundation/invar-plate/
+tf-1-12-plate-iridium:
+  name: Iridium Plate
+  position:
+  - 10
+  - 26
+  url: /docs/1.12/thermal-foundation/iridium-plate/
+tf-1-12-plate-iron:
+  name: Iron Plate
+  position:
+  - 11
+  - 26
+  url: /docs/1.12/thermal-foundation/iron-plate/
+tf-1-12-plate-lead:
+  name: Lead Plate
+  position:
+  - 12
+  - 26
+  url: /docs/1.12/thermal-foundation/lead-plate/
+tf-1-12-plate-lumium:
+  name: Lumium Plate
+  position:
+  - 13
+  - 26
+  url: /docs/1.12/thermal-foundation/lumium-plate/
+tf-1-12-plate-mithril:
+  name: Mana Infused Plate
+  position:
+  - 14
+  - 26
+  url: /docs/1.12/thermal-foundation/mana-infused-plate/
+tf-1-12-plate-nickel:
+  name: Nickel Plate
+  position:
+  - 15
+  - 26
+  url: /docs/1.12/thermal-foundation/nickel-plate/
+tf-1-12-plate-platinum:
+  name: Platinum Plate
+  position:
+  - 16
+  - 26
+  url: /docs/1.12/thermal-foundation/platinum-plate/
+tf-1-12-plate-signalum:
+  name: Signalum Plate
+  position:
+  - 17
+  - 26
+  url: /docs/1.12/thermal-foundation/signalum-plate/
+tf-1-12-plate-silver:
+  name: Silver Plate
+  position:
+  - 18
+  - 26
+  url: /docs/1.12/thermal-foundation/silver-plate/
+tf-1-12-plate-steel:
+  name: Steel Plate
+  position:
+  - 19
+  - 26
+  url: /docs/1.12/thermal-foundation/steel-plate/
+tf-1-12-plate-tin:
+  name: Tin Plate
+  position:
+  - 20
+  - 26
+  url: /docs/1.12/thermal-foundation/tin-plate/
+tf-1-12-potion:
+  name: Potion Fluid
+  position:
+  - 21
+  - 26
+  url: /docs/1.12/thermal-foundation/tectonic-petrotheum/
+tf-1-12-pyrotheum:
+  name: Blazing Pyrotheum
+  position:
+  - 22
+  - 26
+  url: /docs/1.12/thermal-foundation/blazing-pyrotheum/
+tf-1-12-redprint:
+  name: Redprint
+  position:
+  - 23
+  - 26
+  url: /docs/1.12/thermal-foundation/redprint/
+tf-1-12-redstone:
+  name: Destabilized Redstone
+  position:
+  - 24
+  - 26
+  url: /docs/1.12/thermal-foundation/destabilized-redstone/
+tf-1-12-redstone-coil-electrum:
+  name: Redstone Conductance Coil
+  position:
+  - 25
+  - 26
+  url: /docs/1.12/thermal-foundation/redstone-conductance-coil/
+tf-1-12-redstone-coil-gold:
+  name: Redstone Reception Coil
+  position:
+  - 26
+  - 26
+  url: /docs/1.12/thermal-foundation/redstone-reception-coil/
+tf-1-12-redstone-coil-silver:
+  name: Redstone Transmission Coil
+  position:
+  - 27
+  - 26
+  url: /docs/1.12/thermal-foundation/redstone-transmission-coil/
+tf-1-12-redstone-servo:
+  name: Redstone Servo
+  position:
+  - 28
+  - 26
+  url: /docs/1.12/thermal-foundation/redstone-servo/
+tf-1-12-refined-fuel:
+  name: Refined Fuel
+  position:
+  - 29
+  - 26
+  url: /docs/1.12/thermal-foundation/refined-fuel/
+tf-1-12-resin:
+  name: Resin
+  position:
+  - 30
+  - 26
+  url: /docs/1.12/thermal-foundation/resin/
+tf-1-12-rockwool-black:
+  name: Black Rockwool
+  position:
+  - 31
+  - 26
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-blue:
+  name: Blue Rockwool
+  position:
+  - 32
+  - 26
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-brown:
+  name: Brown Rockwool
+  position:
+  - 33
+  - 26
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-cyan:
+  name: Cyan Rockwool
+  position:
+  - 34
+  - 26
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-gray:
+  name: Gray Rockwool
+  position:
+  - 0
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-green:
+  name: Green Rockwool
+  position:
+  - 1
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-light-blue:
+  name: Light Blue Rockwool
+  position:
+  - 2
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-light-gray:
+  name: Light Gray Rockwool
+  position:
+  - 3
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-lime:
+  name: Lime Rockwool
+  position:
+  - 4
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-magenta:
+  name: Magenta Rockwool
+  position:
+  - 5
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-orange:
+  name: Orange Rockwool
+  position:
+  - 6
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-pink:
+  name: Pink Rockwool
+  position:
+  - 7
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-purple:
+  name: Purple Rockwool
+  position:
+  - 8
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-red:
+  name: Red Rockwool
+  position:
+  - 9
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-white:
+  name: White Rockwool
+  position:
+  - 10
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rockwool-yellow:
+  name: Yellow Rockwool
+  position:
+  - 11
+  - 27
+  url: /docs/1.12/thermal-foundation/rockwool/
+tf-1-12-rosin:
+  name: Rosin
+  position:
+  - 12
+  - 27
+  url: /docs/1.12/thermal-foundation/rosin/
+tf-1-12-sap:
+  name: Sap
+  position:
+  - 13
+  - 27
+  url: /docs/1.12/thermal-foundation/sap/
+tf-1-12-saw-blade:
+  name: Saw Blade
+  position:
+  - 14
+  - 27
+  url: /docs/1.12/thermal-foundation/saw-blade/
+tf-1-12-sawdust:
+  name: Sawdust
+  position:
+  - 15
+  - 27
+  url: /docs/1.12/thermal-foundation/sawdust/
+tf-1-12-sawdust-compressed:
+  name: Compressed Sawdust
+  position:
+  - 16
+  - 27
+  url: /docs/1.12/thermal-foundation/compressed-sawdust/
+tf-1-12-seed-oil:
+  name: Seed Oil
+  position:
+  - 17
+  - 27
+  url: /docs/1.12/thermal-foundation/seed-oil/
+tf-1-12-signalum-security-lock:
+  name: Signalum Security Lock
+  position:
+  - 18
+  - 27
+  url: /docs/1.12/thermal-foundation/signalum-security-lock/
+tf-1-12-slag:
+  name: Slag
+  position:
+  - 19
+  - 27
+  url: /docs/1.12/thermal-foundation/slag/
+tf-1-12-slag-rich:
+  name: Rich Slag
+  position:
+  - 20
+  - 27
+  url: /docs/1.12/thermal-foundation/rich-slag/
+tf-1-12-steam:
+  name: Steam
+  position:
+  - 21
+  - 27
+  url: /docs/1.12/thermal-foundation/steam/
+tf-1-12-storage-block-aluminum:
+  name: Block of Aluminum
+  position:
+  - 22
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-aluminum/
+tf-1-12-storage-block-bronze:
+  name: Block of Bronze
+  position:
+  - 23
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-bronze/
+tf-1-12-storage-block-charcoal:
+  name: Block of Charcoal
+  position:
+  - 24
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-charcoal/
+tf-1-12-storage-block-coal-coke:
+  name: Block of Coal Coke
+  position:
+  - 25
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-coal-coke/
+tf-1-12-storage-block-constantan:
+  name: Block of Constantan
+  position:
+  - 26
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-constantan/
+tf-1-12-storage-block-copper:
+  name: Block of Copper
+  position:
+  - 27
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-copper/
+tf-1-12-storage-block-electrum:
+  name: Block of Electrum
+  position:
+  - 28
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-electrum/
+tf-1-12-storage-block-enderium:
+  name: Block of Enderium
+  position:
+  - 29
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-enderium/
+tf-1-12-storage-block-invar:
+  name: Block of Invar
+  position:
+  - 30
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-invar/
+tf-1-12-storage-block-iridium:
+  name: Block of Iridium
+  position:
+  - 31
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-iridium/
+tf-1-12-storage-block-lead:
+  name: Block of Lead
+  position:
+  - 32
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-lead/
+tf-1-12-storage-block-lumium:
+  name: Block of Lumium
+  position:
+  - 33
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-lumium/
+tf-1-12-storage-block-mithril:
+  name: Block of Mana Infused Metal
+  position:
+  - 34
+  - 27
+  url: /docs/1.12/thermal-foundation/block-of-mana-infused-metal/
+tf-1-12-storage-block-nickel:
+  name: Block of Nickel
+  position:
+  - 0
+  - 28
+  url: /docs/1.12/thermal-foundation/block-of-nickel/
+tf-1-12-storage-block-platinum:
+  name: Block of Platinum
+  position:
+  - 1
+  - 28
+  url: /docs/1.12/thermal-foundation/block-of-platinum/
+tf-1-12-storage-block-signalum:
+  name: Block of Signalum
+  position:
+  - 2
+  - 28
+  url: /docs/1.12/thermal-foundation/block-of-signalum/
+tf-1-12-storage-block-silver:
+  name: Block of Silver
+  position:
+  - 3
+  - 28
+  url: /docs/1.12/thermal-foundation/block-of-silver/
+tf-1-12-storage-block-steel:
+  name: Block of Steel
+  position:
+  - 4
+  - 28
+  url: /docs/1.12/thermal-foundation/block-of-steel/
+tf-1-12-storage-block-tin:
+  name: Block of Tin
+  position:
+  - 5
+  - 28
+  url: /docs/1.12/thermal-foundation/block-of-tin/
+tf-1-12-sulfur:
+  name: Sulfur
+  position:
+  - 6
+  - 28
+  url: /docs/1.12/thermal-foundation/sulfur/
+tf-1-12-syrup:
+  name: Syrup
+  position:
+  - 7
+  - 28
+  url: /docs/1.12/thermal-foundation/syrup/
+tf-1-12-tar:
+  name: Tar
+  position:
+  - 8
+  - 28
+  url: /docs/1.12/thermal-foundation/tar/
+tf-1-12-tome-of-knowledge:
+  name: Tome of Knowledge
+  position:
+  - 9
+  - 28
+  url: /docs/1.12/thermal-foundation/tome-of-knowledge/
+tf-1-12-tool-axe-aluminum:
+  name: Aluminum Axe
+  position:
+  - 10
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-bronze:
+  name: Bronze Axe
+  position:
+  - 11
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-constantan:
+  name: Constantan Axe
+  position:
+  - 12
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-copper:
+  name: Copper Axe
+  position:
+  - 13
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-electrum:
+  name: Electrum Axe
+  position:
+  - 14
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-invar:
+  name: Invar Axe
+  position:
+  - 15
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-lead:
+  name: Lead Axe
+  position:
+  - 16
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-nickel:
+  name: Nickel Axe
+  position:
+  - 17
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-platinum:
+  name: Platinum Axe
+  position:
+  - 18
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-silver:
+  name: Silver Axe
+  position:
+  - 19
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-steel:
+  name: Steel Axe
+  position:
+  - 20
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-axe-tin:
+  name: Tin Axe
+  position:
+  - 21
+  - 28
+  url: /docs/1.12/thermal-foundation/axes/
+tf-1-12-tool-casing:
+  name: Tool Casing
+  position:
+  - 22
+  - 28
+  url: /docs/1.12/thermal-foundation/tool-casing/
+tf-1-12-tool-excavator-aluminum:
+  name: Aluminum Excavator
+  position:
+  - 23
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-bronze:
+  name: Bronze Excavator
+  position:
+  - 24
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-constantan:
+  name: Constantan Excavator
+  position:
+  - 25
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-copper:
+  name: Copper Excavator
+  position:
+  - 26
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-diamond:
+  name: Diamond Excavator
+  position:
+  - 27
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-electrum:
+  name: Electrum Excavator
+  position:
+  - 28
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-gold:
+  name: Gold Excavator
+  position:
+  - 29
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-invar:
+  name: Invar Excavator
+  position:
+  - 30
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-iron:
+  name: Iron Excavator
+  position:
+  - 31
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-lead:
+  name: Lead Excavator
+  position:
+  - 32
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-nickel:
+  name: Nickel Excavator
+  position:
+  - 33
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-platinum:
+  name: Platinum Excavator
+  position:
+  - 34
+  - 28
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-silver:
+  name: Silver Excavator
+  position:
+  - 0
+  - 29
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-steel:
+  name: Steel Excavator
+  position:
+  - 1
+  - 29
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-stone:
+  name: Stone Excavator
+  position:
+  - 2
+  - 29
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-tin:
+  name: Tin Excavator
+  position:
+  - 3
+  - 29
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-excavator-wood:
+  name: Wooden Excavator
+  position:
+  - 4
+  - 29
+  url: /docs/1.12/thermal-foundation/excavators/
+tf-1-12-tool-fishing-rod-aluminum:
+  name: Aluminum Fishing Rod
+  position:
+  - 5
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-bronze:
+  name: Bronze Fishing Rod
+  position:
+  - 6
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-constantan:
+  name: Constantan Fishing Rod
+  position:
+  - 7
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-copper:
+  name: Copper Fishing Rod
+  position:
+  - 8
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-diamond:
+  name: Diamond Fishing Rod
+  position:
+  - 9
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-electrum:
+  name: Electrum Fishing Rod
+  position:
+  - 10
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-gold:
+  name: Gold Fishing Rod
+  position:
+  - 11
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-invar:
+  name: Invar Fishing Rod
+  position:
+  - 12
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-iron:
+  name: Iron Fishing Rod
+  position:
+  - 13
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-lead:
+  name: Lead Fishing Rod
+  position:
+  - 14
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-nickel:
+  name: Nickel Fishing Rod
+  position:
+  - 15
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-platinum:
+  name: Platinum Fishing Rod
+  position:
+  - 16
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-silver:
+  name: Silver Fishing Rod
+  position:
+  - 17
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-steel:
+  name: Steel Fishing Rod
+  position:
+  - 18
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-stone:
+  name: Stone Fishing Rod
+  position:
+  - 19
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-fishing-rod-tin:
+  name: Tin Fishing Rod
+  position:
+  - 20
+  - 29
+  url: /docs/1.12/thermal-foundation/fishing-rods/
+tf-1-12-tool-hammer-aluminum:
+  name: Aluminum Hammer
+  position:
+  - 21
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-bronze:
+  name: Bronze Hammer
+  position:
+  - 22
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-constantan:
+  name: Constantan Hammer
+  position:
+  - 23
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-copper:
+  name: Copper Hammer
+  position:
+  - 24
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-diamond:
+  name: Diamond Hammer
+  position:
+  - 25
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-electrum:
+  name: Electrum Hammer
+  position:
+  - 26
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-gold:
+  name: Gold Hammer
+  position:
+  - 27
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-invar:
+  name: Invar Hammer
+  position:
+  - 28
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-iron:
+  name: Iron Hammer
+  position:
+  - 29
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-lead:
+  name: Lead Hammer
+  position:
+  - 30
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-nickel:
+  name: Nickel Hammer
+  position:
+  - 31
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-platinum:
+  name: Platinum Hammer
+  position:
+  - 32
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-silver:
+  name: Silver Hammer
+  position:
+  - 33
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-steel:
+  name: Steel Hammer
+  position:
+  - 34
+  - 29
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-stone:
+  name: Stone Hammer
+  position:
+  - 0
+  - 30
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-tin:
+  name: Tin Hammer
+  position:
+  - 1
+  - 30
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hammer-wood:
+  name: Wooden Hammer
+  position:
+  - 2
+  - 30
+  url: /docs/1.12/thermal-foundation/hammers/
+tf-1-12-tool-hoe-aluminum:
+  name: Aluminum Hoe
+  position:
+  - 3
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-bronze:
+  name: Bronze Hoe
+  position:
+  - 4
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-constantan:
+  name: Constantan Hoe
+  position:
+  - 5
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-copper:
+  name: Copper Hoe
+  position:
+  - 6
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-electrum:
+  name: Electrum Hoe
+  position:
+  - 7
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-invar:
+  name: Invar Hoe
+  position:
+  - 8
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-lead:
+  name: Lead Hoe
+  position:
+  - 9
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-nickel:
+  name: Nickel Hoe
+  position:
+  - 10
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-platinum:
+  name: Platinum Hoe
+  position:
+  - 11
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-silver:
+  name: Silver Hoe
+  position:
+  - 12
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-steel:
+  name: Steel Hoe
+  position:
+  - 13
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-hoe-tin:
+  name: Tin Hoe
+  position:
+  - 14
+  - 30
+  url: /docs/1.12/thermal-foundation/hoes/
+tf-1-12-tool-pickaxe-aluminum:
+  name: Aluminum Pickaxe
+  position:
+  - 15
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-bronze:
+  name: Bronze Pickaxe
+  position:
+  - 16
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-constantan:
+  name: Constantan Pickaxe
+  position:
+  - 17
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-copper:
+  name: Copper Pickaxe
+  position:
+  - 18
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-electrum:
+  name: Electrum Pickaxe
+  position:
+  - 19
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-invar:
+  name: Invar Pickaxe
+  position:
+  - 20
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-lead:
+  name: Lead Pickaxe
+  position:
+  - 21
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-nickel:
+  name: Nickel Pickaxe
+  position:
+  - 22
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-platinum:
+  name: Platinum Pickaxe
+  position:
+  - 23
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-silver:
+  name: Silver Pickaxe
+  position:
+  - 24
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-steel:
+  name: Steel Pickaxe
+  position:
+  - 25
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-pickaxe-tin:
+  name: Tin Pickaxe
+  position:
+  - 26
+  - 30
+  url: /docs/1.12/thermal-foundation/pickaxes/
+tf-1-12-tool-shears-aluminum:
+  name: Aluminum Shears
+  position:
+  - 27
+  - 30
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-bronze:
+  name: Bronze Shears
+  position:
+  - 28
+  - 30
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-constantan:
+  name: Constantan Shears
+  position:
+  - 29
+  - 30
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-copper:
+  name: Copper Shears
+  position:
+  - 30
+  - 30
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-diamond:
+  name: Diamond Shears
+  position:
+  - 31
+  - 30
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-electrum:
+  name: Electrum Shears
+  position:
+  - 32
+  - 30
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-gold:
+  name: Gold Shears
+  position:
+  - 33
+  - 30
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-invar:
+  name: Invar Shears
+  position:
+  - 34
+  - 30
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-lead:
+  name: Lead Shears
+  position:
+  - 0
+  - 31
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-nickel:
+  name: Nickel Shears
+  position:
+  - 1
+  - 31
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-platinum:
+  name: Platinum Shears
+  position:
+  - 2
+  - 31
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-silver:
+  name: Silver Shears
+  position:
+  - 3
+  - 31
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-steel:
+  name: Steel Shears
+  position:
+  - 4
+  - 31
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-stone:
+  name: Stone Shears
+  position:
+  - 5
+  - 31
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-tin:
+  name: Tin Shears
+  position:
+  - 6
+  - 31
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shears-wood:
+  name: Wooden Shears
+  position:
+  - 7
+  - 31
+  url: /docs/1.12/thermal-foundation/shears/
+tf-1-12-tool-shovel-aluminum:
+  name: Aluminum Shovel
+  position:
+  - 8
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-bronze:
+  name: Bronze Shovel
+  position:
+  - 9
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-constantan:
+  name: Constantan Shovel
+  position:
+  - 10
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-copper:
+  name: Copper Shovel
+  position:
+  - 11
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-electrum:
+  name: Electrum Shovel
+  position:
+  - 12
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-invar:
+  name: Invar Shovel
+  position:
+  - 13
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-lead:
+  name: Lead Shovel
+  position:
+  - 14
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-nickel:
+  name: Nickel Shovel
+  position:
+  - 15
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-platinum:
+  name: Platinum Shovel
+  position:
+  - 16
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-silver:
+  name: Silver Shovel
+  position:
+  - 17
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-steel:
+  name: Steel Shovel
+  position:
+  - 18
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-shovel-tin:
+  name: Tin Shovel
+  position:
+  - 19
+  - 31
+  url: /docs/1.12/thermal-foundation/shovels/
+tf-1-12-tool-sickle-aluminum:
+  name: Aluminum Sickle
+  position:
+  - 20
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-bronze:
+  name: Bronze Sickle
+  position:
+  - 21
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-constantan:
+  name: Constantan Sickle
+  position:
+  - 22
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-copper:
+  name: Copper Sickle
+  position:
+  - 23
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-diamond:
+  name: Diamond Sickle
+  position:
+  - 24
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-electrum:
+  name: Electrum Sickle
+  position:
+  - 25
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-gold:
+  name: Gold Sickle
+  position:
+  - 26
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-invar:
+  name: Invar Sickle
+  position:
+  - 27
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-iron:
+  name: Iron Sickle
+  position:
+  - 28
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-lead:
+  name: Lead Sickle
+  position:
+  - 29
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-nickel:
+  name: Nickel Sickle
+  position:
+  - 30
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-platinum:
+  name: Platinum Sickle
+  position:
+  - 31
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-silver:
+  name: Silver Sickle
+  position:
+  - 32
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-steel:
+  name: Steel Sickle
+  position:
+  - 33
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-stone:
+  name: Stone Sickle
+  position:
+  - 34
+  - 31
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-tin:
+  name: Tin Sickle
+  position:
+  - 0
+  - 32
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tool-sickle-wood:
+  name: Wooden Sickle
+  position:
+  - 1
+  - 32
+  url: /docs/1.12/thermal-foundation/sickles/
+tf-1-12-tree-oil:
+  name: Tree Oil
+  position:
+  - 2
+  - 32
+  url: /docs/1.12/thermal-foundation/tree-oil/
+tf-1-12-upgrade-kit-hardened:
+  name: Hardened Upgrade Kit
+  position:
+  - 3
+  - 32
+  url: /docs/1.12/thermal-foundation/upgrade-kits/
+tf-1-12-upgrade-kit-reinforced:
+  name: Reinforced Upgrade Kit
+  position:
+  - 4
+  - 32
+  url: /docs/1.12/thermal-foundation/upgrade-kits/
+tf-1-12-upgrade-kit-resonant:
+  name: Resonant Upgrade Kit
+  position:
+  - 5
+  - 32
+  url: /docs/1.12/thermal-foundation/upgrade-kits/
+tf-1-12-upgrade-kit-signalum:
+  name: Signalum Upgrade Kit
+  position:
+  - 6
+  - 32
+  url: /docs/1.12/thermal-foundation/upgrade-kits/
+tf-1-12-weapon-bow-aluminum:
+  name: Aluminum Reinforced Bow
+  position:
+  - 7
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-bronze:
+  name: Bronze Reinforced Bow
+  position:
+  - 8
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-constantan:
+  name: Constantan Reinforced Bow
+  position:
+  - 9
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-copper:
+  name: Copper Reinforced Bow
+  position:
+  - 10
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-diamond:
+  name: Diamond Reinforced Bow
+  position:
+  - 11
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-electrum:
+  name: Electrum Reinforced Bow
+  position:
+  - 12
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-gold:
+  name: Gold Reinforced Bow
+  position:
+  - 13
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-invar:
+  name: Invar Reinforced Bow
+  position:
+  - 14
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-iron:
+  name: Iron Reinforced Bow
+  position:
+  - 15
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-lead:
+  name: Lead Reinforced Bow
+  position:
+  - 16
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-nickel:
+  name: Nickel Reinforced Bow
+  position:
+  - 17
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-platinum:
+  name: Platinum Reinforced Bow
+  position:
+  - 18
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-silver:
+  name: Silver Reinforced Bow
+  position:
+  - 19
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-steel:
+  name: Steel Reinforced Bow
+  position:
+  - 20
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-stone:
+  name: Stone Reinforced Bow
+  position:
+  - 21
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-bow-tin:
+  name: Tin Reinforced Bow
+  position:
+  - 22
+  - 32
+  url: /docs/1.12/thermal-foundation/reinforced-bows/
+tf-1-12-weapon-shield-aluminum:
+  name: Aluminum Shield
+  position:
+  - 23
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-bronze:
+  name: Bronze Shield
+  position:
+  - 24
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-constantan:
+  name: Constantan Shield
+  position:
+  - 25
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-copper:
+  name: Copper Shield
+  position:
+  - 26
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-diamond:
+  name: Diamond Shield
+  position:
+  - 27
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-electrum:
+  name: Electrum Shield
+  position:
+  - 28
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-gold:
+  name: Gold Shield
+  position:
+  - 29
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-invar:
+  name: Invar Shield
+  position:
+  - 30
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-iron:
+  name: Iron Shield
+  position:
+  - 31
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-lead:
+  name: Lead Shield
+  position:
+  - 32
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-nickel:
+  name: Nickel Shield
+  position:
+  - 33
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-platinum:
+  name: Platinum Shield
+  position:
+  - 34
+  - 32
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-silver:
+  name: Silver Shield
+  position:
+  - 0
+  - 33
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-steel:
+  name: Steel Shield
+  position:
+  - 1
+  - 33
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-stone:
+  name: Stone Shield
+  position:
+  - 2
+  - 33
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-shield-tin:
+  name: Tin Shield
+  position:
+  - 3
+  - 33
+  url: /docs/1.12/thermal-foundation/shields/
+tf-1-12-weapon-sword-aluminum:
+  name: Aluminum Sword
+  position:
+  - 4
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-bronze:
+  name: Bronze Sword
+  position:
+  - 5
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-constantan:
+  name: Constantan Sword
+  position:
+  - 6
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-copper:
+  name: Copper Sword
+  position:
+  - 7
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-electrum:
+  name: Electrum Sword
+  position:
+  - 8
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-invar:
+  name: Invar Sword
+  position:
+  - 9
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-lead:
+  name: Lead Sword
+  position:
+  - 10
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-nickel:
+  name: Nickel Sword
+  position:
+  - 11
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-platinum:
+  name: Platinum Sword
+  position:
+  - 12
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-silver:
+  name: Silver Sword
+  position:
+  - 13
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-steel:
+  name: Steel Sword
+  position:
+  - 14
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+tf-1-12-weapon-sword-tin:
+  name: Tin Sword
+  position:
+  - 15
+  - 33
+  url: /docs/1.12/thermal-foundation/swords/
+ti-1-12-alchemical-quiver-basic:
+  name: Alchemical Quiver (Basic)
+  position:
+  - 16
+  - 33
+  url: /docs/1.12/thermal-innovation/alchemical-quiver/
+ti-1-12-alchemical-quiver-hardened:
+  name: Alchemical Quiver (Hardened)
+  position:
+  - 17
+  - 33
+  url: /docs/1.12/thermal-innovation/alchemical-quiver/
+ti-1-12-alchemical-quiver-reinforced:
+  name: Alchemical Quiver (Reinforced)
+  position:
+  - 18
+  - 33
+  url: /docs/1.12/thermal-innovation/alchemical-quiver/
+ti-1-12-alchemical-quiver-resonant:
+  name: Alchemical Quiver (Resonant)
+  position:
+  - 19
+  - 33
+  url: /docs/1.12/thermal-innovation/alchemical-quiver/
+ti-1-12-alchemical-quiver-signalum:
+  name: Alchemical Quiver (Signalum)
+  position:
+  - 20
+  - 33
+  url: /docs/1.12/thermal-innovation/alchemical-quiver/
+ti-1-12-fluxbore-basic:
+  name: Fluxbore (Basic)
+  position:
+  - 21
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxbore/
+ti-1-12-fluxbore-hardened:
+  name: Fluxbore (Hardened)
+  position:
+  - 22
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxbore/
+ti-1-12-fluxbore-reinforced:
+  name: Fluxbore (Reinforced)
+  position:
+  - 23
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxbore/
+ti-1-12-fluxbore-resonant:
+  name: Fluxbore (Resonant)
+  position:
+  - 24
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxbore/
+ti-1-12-fluxbore-signalum:
+  name: Fluxbore (Signalum)
+  position:
+  - 25
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxbore/
+ti-1-12-fluxomagnet-basic:
+  name: Fluxomagnet (Basic)
+  position:
+  - 26
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxomagnet/
+ti-1-12-fluxomagnet-hardened:
+  name: Fluxomagnet (Hardened)
+  position:
+  - 27
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxomagnet/
+ti-1-12-fluxomagnet-reinforced:
+  name: Fluxomagnet (Reinforced)
+  position:
+  - 28
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxomagnet/
+ti-1-12-fluxomagnet-resonant:
+  name: Fluxomagnet (Resonant)
+  position:
+  - 29
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxomagnet/
+ti-1-12-fluxomagnet-signalum:
+  name: Fluxomagnet (Signalum)
+  position:
+  - 30
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxomagnet/
+ti-1-12-fluxsaw-basic:
+  name: Fluxsaw (Basic)
+  position:
+  - 31
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxsaw/
+ti-1-12-fluxsaw-hardened:
+  name: Fluxsaw (Hardened)
+  position:
+  - 32
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxsaw/
+ti-1-12-fluxsaw-reinforced:
+  name: Fluxsaw (Reinforced)
+  position:
+  - 33
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxsaw/
+ti-1-12-fluxsaw-resonant:
+  name: Fluxsaw (Resonant)
+  position:
+  - 34
+  - 33
+  url: /docs/1.12/thermal-innovation/fluxsaw/
+ti-1-12-fluxsaw-signalum:
+  name: Fluxsaw (Signalum)
+  position:
+  - 0
+  - 34
+  url: /docs/1.12/thermal-innovation/fluxsaw/
+ti-1-12-hypoinfuser-basic:
+  name: Hypoinfuser (Basic)
+  position:
+  - 1
+  - 34
+  url: /docs/1.12/thermal-innovation/hypoinfuser/
+ti-1-12-hypoinfuser-hardened:
+  name: Hypoinfuser (Hardened)
+  position:
+  - 2
+  - 34
+  url: /docs/1.12/thermal-innovation/hypoinfuser/
+ti-1-12-hypoinfuser-reinforced:
+  name: Hypoinfuser (Reinforced)
+  position:
+  - 3
+  - 34
+  url: /docs/1.12/thermal-innovation/hypoinfuser/
+ti-1-12-hypoinfuser-resonant:
+  name: Hypoinfuser (Resonant)
+  position:
+  - 4
+  - 34
+  url: /docs/1.12/thermal-innovation/hypoinfuser/
+ti-1-12-hypoinfuser-signalum:
+  name: Hypoinfuser (Signalum)
+  position:
+  - 5
+  - 34
+  url: /docs/1.12/thermal-innovation/hypoinfuser/
+vps-1-12-satchel-basic:
+  name: Satchel
+  position:
+  - 6
+  - 34
+  url: /docs/1.12/vanilla-satchels/satchel/
+vps-1-12-satchel-diamond:
+  name: Diamond Satchel
+  position:
+  - 7
+  - 34
+  url: /docs/1.12/vanilla-satchels/satchel/
+vps-1-12-satchel-emerald:
+  name: Emerald Satchel
+  position:
+  - 8
+  - 34
+  url: /docs/1.12/vanilla-satchels/satchel/
+vps-1-12-satchel-gold:
+  name: Gold Satchel
+  position:
+  - 9
+  - 34
+  url: /docs/1.12/vanilla-satchels/satchel/
+vps-1-12-satchel-iron:
+  name: Iron Satchel
+  position:
+  - 10
+  - 34
+  url: /docs/1.12/vanilla-satchels/satchel/
+vps-1-12-satchel-void:
+  name: Satchel (Void)
+  position:
+  - 11
+  - 34
+  url: /docs/1.12/vanilla-satchels/satchel/
+vpt-1-12-tool-excavator-diamond:
+  name: Diamond Excavator
+  position:
+  - 12
+  - 34
+  url: /docs/1.12/vanilla-tools/excavators/
+vpt-1-12-tool-excavator-gold:
+  name: Gold Excavator
+  position:
+  - 13
+  - 34
+  url: /docs/1.12/vanilla-tools/excavators/
+vpt-1-12-tool-excavator-iron:
+  name: Iron Excavator
+  position:
+  - 14
+  - 34
+  url: /docs/1.12/vanilla-tools/excavators/
+vpt-1-12-tool-excavator-stone:
+  name: Stone Excavator
+  position:
+  - 15
+  - 34
+  url: /docs/1.12/vanilla-tools/excavators/
+vpt-1-12-tool-excavator-wood:
+  name: Wooden Excavator
+  position:
+  - 16
+  - 34
+  url: /docs/1.12/vanilla-tools/excavators/
+vpt-1-12-tool-fishing-rod-diamond:
+  name: Diamond Fishing Rod
+  position:
+  - 17
+  - 34
+  url: /docs/1.12/vanilla-tools/fishing-rods/
+vpt-1-12-tool-fishing-rod-gold:
+  name: Gold Fishing Rod
+  position:
+  - 18
+  - 34
+  url: /docs/1.12/vanilla-tools/fishing-rods/
+vpt-1-12-tool-fishing-rod-iron:
+  name: Iron Fishing Rod
+  position:
+  - 19
+  - 34
+  url: /docs/1.12/vanilla-tools/fishing-rods/
+vpt-1-12-tool-fishing-rod-stone:
+  name: Stone Fishing Rod
+  position:
+  - 20
+  - 34
+  url: /docs/1.12/vanilla-tools/fishing-rods/
+vpt-1-12-tool-hammer-diamond:
+  name: Diamond Hammer
+  position:
+  - 21
+  - 34
+  url: /docs/1.12/vanilla-tools/hammers/
+vpt-1-12-tool-hammer-gold:
+  name: Gold Hammer
+  position:
+  - 22
+  - 34
+  url: /docs/1.12/vanilla-tools/hammers/
+vpt-1-12-tool-hammer-iron:
+  name: Iron Hammer
+  position:
+  - 23
+  - 34
+  url: /docs/1.12/vanilla-tools/hammers/
+vpt-1-12-tool-hammer-stone:
+  name: Stone Hammer
+  position:
+  - 24
+  - 34
+  url: /docs/1.12/vanilla-tools/hammers/
+vpt-1-12-tool-hammer-wood:
+  name: Wooden Hammer
+  position:
+  - 25
+  - 34
+  url: /docs/1.12/vanilla-tools/hammers/
+vpt-1-12-tool-shears-diamond:
+  name: Diamond Shears
+  position:
+  - 26
+  - 34
+  url: /docs/1.12/vanilla-tools/shears/
+vpt-1-12-tool-shears-gold:
+  name: Gold Shears
+  position:
+  - 27
+  - 34
+  url: /docs/1.12/vanilla-tools/shears/
+vpt-1-12-tool-shears-stone:
+  name: Stone Shears
+  position:
+  - 28
+  - 34
+  url: /docs/1.12/vanilla-tools/shears/
+vpt-1-12-tool-shears-wood:
+  name: Wooden Shears
+  position:
+  - 29
+  - 34
+  url: /docs/1.12/vanilla-tools/shears/
+vpt-1-12-tool-sickle-diamond:
+  name: Diamond Sickle
+  position:
+  - 30
+  - 34
+  url: /docs/1.12/vanilla-tools/sickles/
+vpt-1-12-tool-sickle-gold:
+  name: Gold Sickle
+  position:
+  - 31
+  - 34
+  url: /docs/1.12/vanilla-tools/sickles/
+vpt-1-12-tool-sickle-iron:
+  name: Iron Sickle
+  position:
+  - 32
+  - 34
+  url: /docs/1.12/vanilla-tools/sickles/
+vpt-1-12-tool-sickle-stone:
+  name: Stone Sickle
+  position:
+  - 33
+  - 34
+  url: /docs/1.12/vanilla-tools/sickles/
+vpt-1-12-tool-sickle-wood:
+  name: Wooden Sickle
+  position:
+  - 34
+  - 34
+  url: /docs/1.12/vanilla-tools/sickles/
+vpt-1-12-weapon-bow-diamond:
+  name: Diamond Reinforced Bow
+  position:
+  - 0
+  - 35
+  url: /docs/1.12/vanilla-tools/reinforced-bows/
+vpt-1-12-weapon-bow-gold:
+  name: Gold Reinforced Bow
+  position:
+  - 1
+  - 35
+  url: /docs/1.12/vanilla-tools/reinforced-bows/
+vpt-1-12-weapon-bow-iron:
+  name: Iron Reinforced Bow
+  position:
+  - 2
+  - 35
+  url: /docs/1.12/vanilla-tools/reinforced-bows/
+vpt-1-12-weapon-bow-stone:
+  name: Stone Reinforced Bow
+  position:
+  - 3
+  - 35
+  url: /docs/1.12/vanilla-tools/reinforced-bows/
+vpt-1-12-weapon-shield-diamond:
+  name: Diamond Shield
+  position:
+  - 4
+  - 35
+  url: /docs/1.12/vanilla-tools/shields/
+vpt-1-12-weapon-shield-gold:
+  name: Gold Shield
+  position:
+  - 5
+  - 35
+  url: /docs/1.12/vanilla-tools/shields/
+vpt-1-12-weapon-shield-iron:
+  name: Iron Shield
+  position:
+  - 6
+  - 35
+  url: /docs/1.12/vanilla-tools/shields/
+vpt-1-12-weapon-shield-stone:
+  name: Stone Shield
+  position:
+  - 7
+  - 35
+  url: /docs/1.12/vanilla-tools/shields/

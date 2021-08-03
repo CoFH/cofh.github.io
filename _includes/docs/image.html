@@ -1,0 +1,19 @@
+{%- if page.version and page.show-image -%}
+  {%- if page.image -%}
+    {%- if page.image.size > 1 -%}<div class="docs-cycle">{%- endif -%}
+      {%- for image in page.image -%}
+        <img class="docs-main-picture docs-cycleable{% unless forloop.first %} hidden{% endunless %}" src="/assets/images/docs/{{page.version}}/{{image.file}}" alt="{{image.alt}}">
+      {%- endfor -%}
+    {%- if page.image.size > 1 -%}</div>{%- endif -%}
+  {%- elsif page.mod and page.subjects -%}
+    {%- unless ver -%}
+      {%- assign ver = page.version | replace: ".", "" -%}
+    {%- endunless -%}
+  
+    {%- if page.image.size > 1 -%}<div class="docs-cycle">{%- endif -%}
+      {%- for subject in page.subjects -%}
+        <img class="docs-main-picture docs-cycleable{% unless forloop.first %} hidden{% endunless %}" src="/assets/images/docs/{{page.version}}/{{page.mod | slugify}}/{{subject | slugify}}.png" alt="{{site.data.docs[ver].items-fluids[subject].name}}">
+      {%- endfor -%}
+    {%- if page.image.size > 1 -%}</div>{%- endif -%}
+  {%- endif -%}
+{%- endif -%}

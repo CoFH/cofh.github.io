@@ -1,0 +1,242 @@
+gear-aluminum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-aluminum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-aluminum
+gear-bronze:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-bronze
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-bronze
+gear-constantan:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-constantan
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-constantan
+gear-copper:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-copper
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-copper
+gear-diamond:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-diamond
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-diamond
+gear-electrum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-electrum
+gear-emerald:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-emerald
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-emerald
+gear-enderium:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-enderium
+gear-fluxed-electrum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - ra-1-12-ingot-fluxed-electrum
+  outputs:
+    item:
+    - id:
+      - ra-1-12-gear-fluxed-electrum
+gear-gold:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-ingot-gold
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-gold
+gear-invar:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-invar
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-invar
+gear-iridium:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-iridium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-iridium
+gear-iron:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - mc-ingot-iron
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-iron
+gear-lead:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-lead
+gear-lumium:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-lumium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-lumium
+gear-mithril:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-mithril
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-mithril
+gear-nickel:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-nickel
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-nickel
+gear-platinum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-platinum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-platinum
+gear-signalum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-signalum
+gear-silver:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-silver
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-silver
+gear-steel:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-steel
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-steel
+gear-tin:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-ingot-tin
+  outputs:
+    item:
+    - id:
+      - tf-1-12-gear-tin

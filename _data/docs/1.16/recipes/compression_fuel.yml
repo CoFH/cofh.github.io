@@ -1,0 +1,21 @@
+compression_creosote:
+  energy: 20000
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_creosote
+compression_refined_fuel:
+  energy: 1500000
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_refined_fuel
+compression_tree_oil:
+  energy: 100000
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_tree_oil

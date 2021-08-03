@@ -1,0 +1,154 @@
+crucible_cobblestone_to_lava:
+  energy: 200000
+  inputs:
+    item:
+    - id:
+      - cobblestone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_lava
+crucible_ender_pearl:
+  energy: 20000
+  inputs:
+    item:
+    - id:
+      - ender_pearl
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - fluid_ender
+crucible_glowstone_block:
+  energy: 80000
+  inputs:
+    item:
+    - id:
+      - glowstone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_glowstone
+crucible_glowstone_dust:
+  energy: 80000
+  inputs:
+    item:
+    - id:
+      - glowstone_dust
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - fluid_glowstone
+crucible_honey_block_to_honey:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - honey_block
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_honey
+crucible_ice_to_water:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - ice
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+crucible_magma_block_to_lava:
+  energy: 40000
+  inputs:
+    item:
+    - id:
+      - magma_block
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_lava
+crucible_netherrack_to_lava:
+  energy: 60000
+  inputs:
+    item:
+    - id:
+      - netherrack
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_lava
+crucible_obsidian_to_lava:
+  energy: 200000
+  inputs:
+    item:
+    - id:
+      - obsidian
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_lava
+crucible_redstone_block:
+  energy: 72000
+  inputs:
+    item:
+    - id:
+      - redstone_block
+  outputs:
+    fluid:
+    - amount: 900
+      id:
+      - fluid_redstone
+crucible_redstone_dust:
+  energy: 8000
+  inputs:
+    item:
+    - id:
+      - redstone
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - fluid_redstone
+crucible_snow_block_to_water:
+  energy: 800
+  inputs:
+    item:
+    - id:
+      - snow_block
+  outputs:
+    fluid:
+    - amount: 500
+      id:
+      - fluid_water
+crucible_snowball_to_water:
+  energy: 200
+  inputs:
+    item:
+    - id:
+      - snowball
+  outputs:
+    fluid:
+    - amount: 125
+      id:
+      - fluid_water
+crucible_stone_to_lava:
+  energy: 200000
+  inputs:
+    item:
+    - id:
+      - stone
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_lava

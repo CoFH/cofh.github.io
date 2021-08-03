@@ -1,0 +1,11 @@
+<div class="docs-item-slots-row docs-recipe-component">
+  {%- assign max = include.number | minus: 1 -%}
+  {%- for i in (0..max) -%}
+    {%- if include.slots and include.slots[i] -%}
+      {%- assign slot = include.slots[i] -%}
+      {% include docs/recipe/elements/item-slot.html slot=slot %}
+    {%- else -%}
+      {% include docs/recipe/elements/item-slot.html %}
+    {%- endif -%}
+  {%- endfor -%}
+</div>

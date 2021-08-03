@@ -1,0 +1,84 @@
+andesite:
+  energy: 800
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 1000
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-andesite
+cobblestone:
+  energy: 400
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 0
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-cobblestone
+diorite:
+  energy: 800
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 1000
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-diorite
+granite:
+  energy: 800
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 1000
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-granite
+obsidian:
+  energy: 1600
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-lava
+    - amount: 1000
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-obsidian
+stone:
+  energy: 800
+  inputs:
+    fluid:
+    - amount: 0
+      id:
+      - mc-lava
+    - amount: 1000
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-stone

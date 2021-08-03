@@ -1,0 +1,164 @@
+sawmill_acacia_logs:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - acacia_log
+      - acacia_wood
+      - stripped_acacia_log
+      - stripped_acacia_wood
+  outputs:
+    item:
+    - count: 6
+      id:
+      - acacia_planks
+    - chance: 1.25
+      id:
+      - sawdust
+sawmill_birch_logs:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - birch_log
+      - birch_wood
+      - stripped_birch_log
+      - stripped_birch_wood
+  outputs:
+    item:
+    - count: 6
+      id:
+      - birch_planks
+    - chance: 1.25
+      id:
+      - sawdust
+sawmill_crimson_stems:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - crimson_stem
+      - crimson_hyphae
+      - stripped_crimson_stem
+      - stripped_crimson_hyphae
+  outputs:
+    item:
+    - count: 6
+      id:
+      - crimson_planks
+    - chance: 1.25
+      id:
+      - sawdust
+sawmill_dark_oak_logs:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - dark_oak_log
+      - dark_oak_wood
+      - stripped_dark_oak_log
+      - stripped_dark_oak_wood
+  outputs:
+    item:
+    - count: 6
+      id:
+      - dark_oak_planks
+    - chance: 1.25
+      id:
+      - sawdust
+sawmill_frost_melon:
+  energy: 800
+  inputs:
+    item:
+    - id:
+      - frost_melon
+  outputs:
+    item:
+    - count: 8
+      id:
+      - frost_melon_slice
+    - chance: 0.25
+      id:
+      - frost_melon_seeds
+sawmill_jungle_logs:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - jungle_log
+      - jungle_wood
+      - stripped_jungle_log
+      - stripped_jungle_wood
+  outputs:
+    item:
+    - count: 6
+      id:
+      - jungle_planks
+    - chance: 1.25
+      id:
+      - sawdust
+sawmill_melon:
+  energy: 800
+  inputs:
+    item:
+    - id:
+      - melon
+  outputs:
+    item:
+    - count: 8
+      id:
+      - melon_slice
+    - chance: 0.25
+      id:
+      - melon_seeds
+sawmill_oak_logs:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - oak_log
+      - oak_wood
+      - stripped_oak_log
+      - stripped_oak_wood
+  outputs:
+    item:
+    - count: 6
+      id:
+      - oak_planks
+    - chance: 1.25
+      id:
+      - sawdust
+sawmill_spruce_logs:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - spruce_log
+      - spruce_wood
+      - stripped_spruce_log
+      - stripped_spruce_wood
+  outputs:
+    item:
+    - count: 6
+      id:
+      - spruce_planks
+    - chance: 1.25
+      id:
+      - sawdust
+sawmill_warped_stems:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - warped_stem
+      - warped_hyphae
+      - stripped_warped_stem
+      - stripped_warped_hyphae
+  outputs:
+    item:
+    - count: 6
+      id:
+      - warped_planks
+    - chance: 1.25
+      id:
+      - sawdust

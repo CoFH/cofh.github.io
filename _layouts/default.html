@@ -1,122 +1,53 @@
+---
+layout: null
+---
+
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        {% capture title %}{% if page.title %}{{ page.title }} - {% endif %}Team CoFH{% endcapture %}
-        {%- assign description = "The official site for news, downloads and documentation for the Team CoFH Minecraft mods: Redstone Flux, CoFH Core, CoFH World, Thermal Series (Thermal Expansion, Thermal Foundation, Thermal Dynamics, Thermal Cultivation, Thermal Innovation), Redstone Arsenal, Vanilla+ Series (Tools, Satchels)" -%}
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Team CoFH</title>
+    
+    <meta name="description" content="The official site for news, downloads and documentation for the Team CoFH Minecraft mods." />
+  
+    <!-- IE -->
+    <link href="/assets/images/logos/wrench.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- Other Browsers -->
+    <link href="/assets/images/logos/wrench.ico" rel="icon" type="image/x-icon" />
 
-        <title>{{ title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css{{cache_buster}}" />
+    <link rel="stylesheet" href="/assets/css/nav.css{{cache_buster}}" />
+    <link rel="stylesheet" href="/assets/css/docs.css{{cache_buster}}" />
+    <link rel="stylesheet" href="/assets/css/search.css{{cache_buster}}" />
+    <link rel="stylesheet" href="/assets/css/table.css{{cache_buster}}" />
 
-        <meta name="description" content="{{ description }}" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/a97821a17a.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/cofh.js" defer></script>
+    <script>
+      function setTheme(e) {
+        const isDark = e.target.checked;
+        document.documentElement.setAttribute("data-theme", isDark?"dark":"light");
+        localStorage.setItem("theme", isDark?"dark":"light");
+      }
+      
+      if (localStorage.getItem("theme") == null) 
+        localStorage.setItem("theme", "light");
+      
+      document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));
+    </script>
+  </head>
 
-        <meta property="og:title" content="{{ title }}" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="{{ site.url }}/assets/images/logo_share.png" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-        <meta property="og:description" content="{{ description }}" />
-
-        <meta property="twitter:card" content="summary" />
-        <meta property="twitter:site" content="@TeamCoFH" />
-
-        <!-- IE -->
-        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <!-- Other Browsers -->
-        <link href="/favicon.ico" rel="icon" type="image/x-icon" />
-
-        {%- capture cache_buster -%}?{{site.time | date: '%s'}}{%- endcapture -%}
-
-        <link rel="stylesheet" href="/assets/css/uikit/uikit.min.css" />
-        <link rel="stylesheet" href="/assets/css/uikit/components/accordion.min.css" />
-        <link rel="stylesheet" href="/assets/css/uikit/components/autocomplete.min.css" />
-        <link rel="stylesheet" href="/assets/css/uikit/components/progress.min.css" />
-        <link rel="stylesheet" href="/assets/css/uikit/components/tooltip.min.css" />
-        <link rel="stylesheet" href="/assets/css/cofh.css{{cache_buster}}" />
-
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/uikit/uikit.min.js"></script>
-        <script src="/assets/js/uikit/components/accordion.min.js"></script>
-        <script src="/assets/js/uikit/components/autocomplete.min.js"></script>
-        <script src="/assets/js/uikit/components/tooltip.min.js"></script>
-        <script src="/assets/js/cofh.js{{cache_buster}}"></script>
-    </head>
-
-    <body>
-        {%- if page.show_banner -%}
-        <div class="cofh-banner uk-hidden-small">
-            <div class="uk-container uk-container-center">
-                <a href="/"><img class="cofh-logo" src="/assets/images/logo.png" /></a>
-            </div>
-        </div>
-        {%- endif -%}
-
-        <nav class="uk-navbar uk-margin-bottom">
-            <div class="uk-container uk-container-center">
-                <a href="/" class="uk-navbar-brand uk-hidden-small {% if page.url == '/' %}uk-active{% endif %}">Team CoFH</a>
-
-                <a href="#cofh-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-                <a href="/" class="uk-navbar-brand uk-navbar-center uk-visible-small {% if page.url == '/' %}uk-active{% endif %}">Team CoFH</a>
-
-                <ul class="uk-navbar-nav uk-hidden-small">
-                    {% include navbarlinks.html %}
-                </ul>
-
-                {% include searchbar.html class='uk-navbar-content uk-navbar-flip uk-hidden-small' %}
-            </div>
-        </nav>
-
-        <div id="cofh-offcanvas" class="uk-offcanvas">
-            <div class="uk-offcanvas-bar">
-                {% include searchbar.html class='uk-panel' %}
-
-                <ul class="uk-nav uk-nav-offcanvas">
-                    <li{% if page.url == '/' %} class="uk-active"{% endif %}>
-                        <a href="/">Home</a>
-                    </li>
-                    {% include navbarlinks.html %}
-                    <li{% if page.url contains '/archive' %} class="uk-active"{% endif %}>
-                        <a href="/archive/">Archive</a>
-                    </li>
-                    <li class="uk-nav-divider"></li>
-                    {% include externallinks.html %}
-                </ul>
-            </div>
-        </div>
-
-        <div class="uk-container uk-container-center">
-            {{ content }}
-
-            <div class="uk-clearfix uk-margin-top uk-margin-bottom uk-text-small">
-                <hr />
-
-                <div class="uk-float-left">
-                    &copy; Copyright 2015-{{ site.time | date: '%Y' }} Team CoFH. Powered by <a href="https://pages.github.com">GitHub Pages</a>, <a href="http://jekyllrb.com">Jekyll</a>, <a href="http://getuikit.com">UIkit</a>.<br />
-                    Last updated: {{ site.time }}
-                </div>
-
-                <div class="uk-float-right">
-                    <ul class="uk-subnav uk-subnav-line">
-                        <li><a href="/sitemap.xml">Sitemap</a></li>
-                        <li><a href="/feed.xml">Feed</a></li>
-                        <li><a href="#" data-uk-smooth-scroll>Back to top</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <script type="text/javascript">
-            // Google Analytics
-            if (window.location.hostname.indexOf('localhost') < 0 && window.location.hostname.indexOf('127.0.0.1') < 0) {
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-                ga('create', 'UA-62994156-1', 'auto');
-                ga('send', 'pageview');
-            }
-        </script>
-    </body>
+  <body>
+    {% include elements/skip-nav-button.html %}
+    
+    {% include main/header.html %}
+    
+    {{ content }}
+    
+    {% include main/footer.html %}
+    
+    {% include elements/back-to-top.html %}
+  </body>
 </html>

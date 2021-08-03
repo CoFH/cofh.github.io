@@ -1,6 +1,5 @@
 _site
-Thumbs.db
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
-Gemfile.lock
-.env
-_modrepos
+vendor

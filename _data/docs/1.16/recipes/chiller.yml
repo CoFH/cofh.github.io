@@ -1,0 +1,85 @@
+chiller_ender_to_ender_pearl:
+  energy: 20000
+  inputs:
+    fluid:
+    - amount: 250
+      id:
+      - fluid_ender
+    item:
+    - id:
+      - chiller_ball_cast
+  outputs:
+    item:
+    - count: 1
+      id:
+      - ender_pearl
+chiller_glowstone_to_glowstone_block:
+  energy: 80000
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_glowstone
+  outputs:
+    item:
+    - id:
+      - glowstone
+chiller_honey_to_honey_block:
+  energy: 2000
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_honey
+  outputs:
+    item:
+    - id:
+      - honey_block
+chiller_lava_to_obsidian:
+  energy: 8000
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_lava
+  outputs:
+    item:
+    - id:
+      - obsidian
+chiller_redstone_to_redstone_block:
+  energy: 72000
+  inputs:
+    fluid:
+    - amount: 900
+      id:
+      - fluid_redstone
+  outputs:
+    item:
+    - id:
+      - redstone_block
+chiller_water_to_ice:
+  energy: 2000
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_water
+  outputs:
+    item:
+    - id:
+      - ice
+chiller_water_to_snowball:
+  energy: 1000
+  inputs:
+    fluid:
+    - amount: 500
+      id:
+      - fluid_water
+    item:
+    - id:
+      - chiller_ball_cast
+  outputs:
+    item:
+    - count: 4
+      id:
+      - snowball

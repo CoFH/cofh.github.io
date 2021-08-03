@@ -1,0 +1,6801 @@
+apatite_block:
+  inputs:
+    item:
+    - id:
+      - apatite
+    - id:
+      - apatite
+    - id:
+      - apatite
+    - id:
+      - apatite
+    - id:
+      - apatite
+    - id:
+      - apatite
+    - id:
+      - apatite
+    - id:
+      - apatite
+    - id:
+      - apatite
+  outputs:
+    item:
+    - id:
+      - apatite_block
+apple_block:
+  inputs:
+    item:
+    - id:
+      - apple
+    - id:
+      - apple
+    - id:
+      - apple
+    - id:
+      - apple
+    - id:
+      - apple
+    - id:
+      - apple
+    - id:
+      - apple
+    - id:
+      - apple
+    - id:
+      - apple
+  outputs:
+    item:
+    - id:
+      - apple_block
+area_radius_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - iron_gear
+    - null
+    - id:
+      - tin_ingot
+    - id:
+      - redstone_servo
+    - id:
+      - tin_ingot
+    - null
+    - id:
+      - iron_gear
+    - null
+  outputs:
+    item:
+    - id:
+      - area_radius_augment
+bamboo_block:
+  inputs:
+    item:
+    - id:
+      - bamboo
+    - id:
+      - bamboo
+    - id:
+      - bamboo
+    - id:
+      - bamboo
+    - id:
+      - bamboo
+    - id:
+      - bamboo
+    - id:
+      - bamboo
+    - id:
+      - bamboo
+    - id:
+      - bamboo
+  outputs:
+    item:
+    - id:
+      - bamboo_block
+barley_block:
+  inputs:
+    item:
+    - id:
+      - barley
+    - id:
+      - barley
+    - id:
+      - barley
+    - id:
+      - barley
+    - id:
+      - barley
+    - id:
+      - barley
+    - id:
+      - barley
+    - id:
+      - barley
+    - id:
+      - barley
+  outputs:
+    item:
+    - id:
+      - barley_block
+beekeeper_boots:
+  inputs:
+    item:
+    - id:
+      - beekeeper_fabric
+    - null
+    - id:
+      - beekeeper_fabric
+    - id:
+      - leather
+    - null
+    - id:
+      - leather
+  outputs:
+    item:
+    - id:
+      - beekeeper_boots
+beekeeper_chestplate:
+  inputs:
+    item:
+    - id:
+      - beekeeper_fabric
+    - null
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+  outputs:
+    item:
+    - id:
+      - beekeeper_chestplate
+beekeeper_fabric:
+  inputs:
+    item:
+    - null
+    - id:
+      - string
+    - null
+    - id:
+      - string
+    - id:
+      - honeycomb
+    - id:
+      - string
+    - null
+    - id:
+      - string
+    - null
+  outputs:
+    item:
+    - id:
+      - beekeeper_fabric
+beekeeper_helmet:
+  inputs:
+    item:
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - null
+    - id:
+      - beekeeper_fabric
+  outputs:
+    item:
+    - id:
+      - beekeeper_helmet
+beekeeper_leggings:
+  inputs:
+    item:
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - null
+    - id:
+      - beekeeper_fabric
+    - id:
+      - beekeeper_fabric
+    - null
+    - id:
+      - beekeeper_fabric
+  outputs:
+    item:
+    - id:
+      - beekeeper_leggings
+beetroot_block:
+  inputs:
+    item:
+    - id:
+      - beetroot
+    - id:
+      - beetroot
+    - id:
+      - beetroot
+    - id:
+      - beetroot
+    - id:
+      - beetroot
+    - id:
+      - beetroot
+    - id:
+      - beetroot
+    - id:
+      - beetroot
+    - id:
+      - beetroot
+  outputs:
+    item:
+    - id:
+      - beetroot_block
+bell_pepper_block:
+  inputs:
+    item:
+    - id:
+      - bell_pepper
+    - id:
+      - bell_pepper
+    - id:
+      - bell_pepper
+    - id:
+      - bell_pepper
+    - id:
+      - bell_pepper
+    - id:
+      - bell_pepper
+    - id:
+      - bell_pepper
+    - id:
+      - bell_pepper
+    - id:
+      - bell_pepper
+  outputs:
+    item:
+    - id:
+      - bell_pepper_block
+bitumen_block:
+  inputs:
+    item:
+    - id:
+      - bitumen
+    - id:
+      - bitumen
+    - id:
+      - bitumen
+    - id:
+      - bitumen
+    - id:
+      - bitumen
+    - id:
+      - bitumen
+    - id:
+      - bitumen
+    - id:
+      - bitumen
+    - id:
+      - bitumen
+  outputs:
+    item:
+    - id:
+      - bitumen_block
+blaze_arrow:
+  inputs:
+    item:
+    - null
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - id:
+      - blaze_powder
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - null
+  outputs:
+    item:
+    - count: 4
+      id:
+      - blaze_arrow
+bronze_block:
+  inputs:
+    item:
+    - id:
+      - bronze_ingot
+    - id:
+      - bronze_ingot
+    - id:
+      - bronze_ingot
+    - id:
+      - bronze_ingot
+    - id:
+      - bronze_ingot
+    - id:
+      - bronze_ingot
+    - id:
+      - bronze_ingot
+    - id:
+      - bronze_ingot
+    - id:
+      - bronze_ingot
+  outputs:
+    item:
+    - id:
+      - bronze_block
+bronze_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - bronze_ingot
+    - null
+    - id:
+      - bronze_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - bronze_ingot
+    - null
+    - id:
+      - bronze_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - bronze_gear
+bronze_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - bronze_nugget
+    - id:
+      - bronze_nugget
+    - id:
+      - bronze_nugget
+    - id:
+      - bronze_nugget
+    - id:
+      - bronze_nugget
+    - id:
+      - bronze_nugget
+    - id:
+      - bronze_nugget
+    - id:
+      - bronze_nugget
+    - id:
+      - bronze_nugget
+  outputs:
+    item:
+    - id:
+      - bronze_ingot
+carrot_block:
+  inputs:
+    item:
+    - id:
+      - carrot
+    - id:
+      - carrot
+    - id:
+      - carrot
+    - id:
+      - carrot
+    - id:
+      - carrot
+    - id:
+      - carrot
+    - id:
+      - carrot
+    - id:
+      - carrot
+    - id:
+      - carrot
+  outputs:
+    item:
+    - id:
+      - carrot_block
+challenge_arrow:
+  inputs:
+    item:
+    - id:
+      - emerald
+    - id:
+      - training_arrow
+    - id:
+      - lapis_lazuli
+    - id:
+      - training_arrow
+    - id:
+      - experience_bottle
+    - id:
+      - training_arrow
+    - id:
+      - lapis_lazuli
+    - id:
+      - training_arrow
+    - id:
+      - emerald
+  outputs:
+    item:
+    - count: 4
+      id:
+      - challenge_arrow
+charcoal_block:
+  inputs:
+    item:
+    - id:
+      - charcoal
+    - id:
+      - charcoal
+    - id:
+      - charcoal
+    - id:
+      - charcoal
+    - id:
+      - charcoal
+    - id:
+      - charcoal
+    - id:
+      - charcoal
+    - id:
+      - charcoal
+    - id:
+      - charcoal
+  outputs:
+    item:
+    - id:
+      - charcoal_block
+charge_bench:
+  inputs:
+    item:
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+    - id:
+      - rf_coil
+    - id:
+      - redstone_block
+    - id:
+      - rf_coil
+    - id:
+      - lead_ingot
+    - id:
+      - rf_coil
+    - id:
+      - lead_ingot
+  outputs:
+    item:
+    - id:
+      - charge_bench
+chiller_ball_cast:
+  inputs:
+    item:
+    - null
+    - id:
+      - bronze_plate
+    - null
+    - id:
+      - bronze_plate
+    - id:
+      - magma_cream
+    - id:
+      - bronze_plate
+    - null
+    - id:
+      - bronze_plate
+    - null
+  outputs:
+    item:
+    - id:
+      - chiller_ball_cast
+chiller_ingot_cast:
+  inputs:
+    item:
+    - null
+    - id:
+      - bronze_plate
+    - null
+    - id:
+      - bronze_plate
+    - id:
+      - nether_brick
+    - id:
+      - bronze_plate
+    - null
+    - id:
+      - bronze_plate
+    - null
+  outputs:
+    item:
+    - id:
+      - chiller_ingot_cast
+chiller_rod_cast:
+  inputs:
+    item:
+    - null
+    - id:
+      - bronze_plate
+    - null
+    - id:
+      - bronze_plate
+    - id:
+      - blaze_rod
+    - id:
+      - bronze_plate
+    - null
+    - id:
+      - bronze_plate
+    - null
+  outputs:
+    item:
+    - id:
+      - chiller_rod_cast
+chocolate_cake:
+  inputs:
+    item:
+    - id:
+      - milk_bucket
+    - id:
+      - strawberry
+    - id:
+      - milk_bucket
+    - id:
+      - cocoa_beans
+    - id:
+      - egg
+    - id:
+      - cocoa_beans
+    - id:
+      - wheat
+    - id:
+      - strawberry
+    - id:
+      - wheat
+  outputs:
+    item:
+    - id:
+      - chocolate_cake
+cinnabar_block:
+  inputs:
+    item:
+    - id:
+      - cinnabar
+    - id:
+      - cinnabar
+    - id:
+      - cinnabar
+    - id:
+      - cinnabar
+    - id:
+      - cinnabar
+    - id:
+      - cinnabar
+    - id:
+      - cinnabar
+    - id:
+      - cinnabar
+    - id:
+      - cinnabar
+  outputs:
+    item:
+    - id:
+      - cinnabar_block
+coal_coke_block:
+  inputs:
+    item:
+    - id:
+      - coal_coke
+    - id:
+      - coal_coke
+    - id:
+      - coal_coke
+    - id:
+      - coal_coke
+    - id:
+      - coal_coke
+    - id:
+      - coal_coke
+    - id:
+      - coal_coke
+    - id:
+      - coal_coke
+    - id:
+      - coal_coke
+  outputs:
+    item:
+    - id:
+      - coal_coke_block
+coffee_block:
+  inputs:
+    item:
+    - id:
+      - coffee
+    - id:
+      - coffee
+    - id:
+      - coffee
+    - id:
+      - coffee
+    - id:
+      - coffee
+    - id:
+      - coffee
+    - id:
+      - coffee
+    - id:
+      - coffee
+    - id:
+      - coffee
+  outputs:
+    item:
+    - id:
+      - coffee_block
+constantan_block:
+  inputs:
+    item:
+    - id:
+      - constantan_ingot
+    - id:
+      - constantan_ingot
+    - id:
+      - constantan_ingot
+    - id:
+      - constantan_ingot
+    - id:
+      - constantan_ingot
+    - id:
+      - constantan_ingot
+    - id:
+      - constantan_ingot
+    - id:
+      - constantan_ingot
+    - id:
+      - constantan_ingot
+  outputs:
+    item:
+    - id:
+      - constantan_block
+constantan_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - constantan_ingot
+    - null
+    - id:
+      - constantan_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - constantan_ingot
+    - null
+    - id:
+      - constantan_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - constantan_gear
+constantan_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - constantan_nugget
+    - id:
+      - constantan_nugget
+    - id:
+      - constantan_nugget
+    - id:
+      - constantan_nugget
+    - id:
+      - constantan_nugget
+    - id:
+      - constantan_nugget
+    - id:
+      - constantan_nugget
+    - id:
+      - constantan_nugget
+    - id:
+      - constantan_nugget
+  outputs:
+    item:
+    - id:
+      - constantan_ingot
+copper_block:
+  inputs:
+    item:
+    - id:
+      - copper_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - copper_ingot
+  outputs:
+    item:
+    - id:
+      - copper_block
+copper_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - copper_ingot
+    - null
+    - id:
+      - copper_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - copper_ingot
+    - null
+    - id:
+      - copper_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - copper_gear
+copper_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - copper_nugget
+    - id:
+      - copper_nugget
+    - id:
+      - copper_nugget
+    - id:
+      - copper_nugget
+    - id:
+      - copper_nugget
+    - id:
+      - copper_nugget
+    - id:
+      - copper_nugget
+    - id:
+      - copper_nugget
+    - id:
+      - copper_nugget
+  outputs:
+    item:
+    - id:
+      - copper_ingot
+corn_block:
+  inputs:
+    item:
+    - id:
+      - corn
+    - id:
+      - corn
+    - id:
+      - corn
+    - id:
+      - corn
+    - id:
+      - corn
+    - id:
+      - corn
+    - id:
+      - corn
+    - id:
+      - corn
+    - id:
+      - corn
+  outputs:
+    item:
+    - id:
+      - corn_block
+crossover_rail:
+  inputs:
+    item:
+    - id:
+      - rail
+    - id:
+      - stick
+    - id:
+      - stick
+    - id:
+      - rail
+  outputs:
+    item:
+    - id:
+      - crossover_rail
+cured_rubber_block:
+  inputs:
+    item:
+    - id:
+      - cured_rubber
+    - id:
+      - cured_rubber
+    - id:
+      - cured_rubber
+    - id:
+      - cured_rubber
+    - id:
+      - cured_rubber
+    - id:
+      - cured_rubber
+    - id:
+      - cured_rubber
+    - id:
+      - cured_rubber
+    - id:
+      - cured_rubber
+  outputs:
+    item:
+    - id:
+      - cured_rubber_block
+detonator:
+  inputs:
+    item:
+    - null
+    - id:
+      - silver_ingot
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - signalum_gear
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+  outputs:
+    item:
+    - id:
+      - detonator
+device_collector:
+  inputs:
+    item:
+    - id:
+      - tin_ingot
+    - id:
+      - ender_pearl
+    - id:
+      - tin_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - hopper
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - tin_ingot
+    - id:
+      - redstone_servo
+    - id:
+      - tin_ingot
+  outputs:
+    item:
+    - id:
+      - device_collector
+device_fisher:
+  inputs:
+    item:
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - copper_gear
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - fishing_rod
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - redstone_servo
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+  outputs:
+    item:
+    - id:
+      - device_fisher
+device_hive_extractor:
+  inputs:
+    item:
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - iron_gear
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - shears
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - redstone_servo
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+  outputs:
+    item:
+    - id:
+      - device_hive_extractor
+device_nullifier:
+  inputs:
+    item:
+    - id:
+      - tin_ingot
+    - id:
+      - redstone
+    - id:
+      - tin_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - lava_bucket
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - tin_ingot
+    - id:
+      - redstone_servo
+    - id:
+      - tin_ingot
+  outputs:
+    item:
+    - id:
+      - device_nullifier
+device_potion_diffuser:
+  inputs:
+    item:
+    - id:
+      - silver_ingot
+    - id:
+      - constantan_gear
+    - id:
+      - silver_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - glass_bottle
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - silver_ingot
+    - id:
+      - redstone_servo
+    - id:
+      - silver_ingot
+  outputs:
+    item:
+    - id:
+      - device_potion_diffuser
+device_rock_gen:
+  inputs:
+    item:
+    - id:
+      - invar_ingot
+    - id:
+      - constantan_gear
+    - id:
+      - invar_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - piston
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - invar_ingot
+    - id:
+      - redstone_servo
+    - id:
+      - invar_ingot
+  outputs:
+    item:
+    - id:
+      - device_rock_gen
+device_soil_infuser:
+  inputs:
+    item:
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - lumium_gear
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - phytogro
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - rf_coil
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+  outputs:
+    item:
+    - id:
+      - device_soil_infuser
+device_tree_extractor:
+  inputs:
+    item:
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - iron_gear
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - bucket
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - redstone_servo
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+  outputs:
+    item:
+    - id:
+      - device_tree_extractor
+device_water_gen:
+  inputs:
+    item:
+    - id:
+      - copper_ingot
+    - id:
+      - iron_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - bucket
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - copper_ingot
+    - id:
+      - redstone_servo
+    - id:
+      - copper_ingot
+  outputs:
+    item:
+    - id:
+      - device_water_gen
+diamond_arrow:
+  inputs:
+    item:
+    - id:
+      - diamond
+    - id:
+      - stick
+    - id:
+      - feather
+  outputs:
+    item:
+    - count: 4
+      id:
+      - diamond_arrow
+diamond_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - diamond
+    - null
+    - id:
+      - diamond
+    - id:
+      - iron_nugget
+    - id:
+      - diamond
+    - null
+    - id:
+      - diamond
+    - null
+  outputs:
+    item:
+    - id:
+      - diamond_gear
+displacement_arrow:
+  inputs:
+    item:
+    - null
+    - id:
+      - ender_arrow
+    - null
+    - id:
+      - ender_arrow
+    - id:
+      - gunpowder
+    - id:
+      - ender_arrow
+    - null
+    - id:
+      - ender_arrow
+    - null
+  outputs:
+    item:
+    - count: 4
+      id:
+      - displacement_arrow
+diving_boots:
+  inputs:
+    item:
+    - id:
+      - diving_fabric
+    - null
+    - id:
+      - diving_fabric
+    - id:
+      - leather
+    - id:
+      - gold_ingot
+    - id:
+      - leather
+  outputs:
+    item:
+    - id:
+      - diving_boots
+diving_chestplate:
+  inputs:
+    item:
+    - id:
+      - diving_fabric
+    - null
+    - id:
+      - diving_fabric
+    - id:
+      - gold_ingot
+    - id:
+      - diving_fabric
+    - id:
+      - gold_ingot
+    - id:
+      - diving_fabric
+    - id:
+      - diving_fabric
+    - id:
+      - diving_fabric
+  outputs:
+    item:
+    - id:
+      - diving_chestplate
+diving_fabric:
+  inputs:
+    item:
+    - null
+    - id:
+      - string
+    - null
+    - id:
+      - string
+    - id:
+      - prismarine_crystals
+    - id:
+      - string
+    - null
+    - id:
+      - string
+    - null
+  outputs:
+    item:
+    - id:
+      - diving_fabric
+diving_helmet:
+  inputs:
+    item:
+    - id:
+      - diving_fabric
+    - id:
+      - gold_ingot
+    - id:
+      - diving_fabric
+    - id:
+      - gold_ingot
+    - id:
+      - glass_pane
+      - red_stained_glass_pane
+      - blue_stained_glass_pane
+      - cyan_stained_glass_pane
+      - gray_stained_glass_pane
+      - lime_stained_glass_pane
+      - pink_stained_glass_pane
+      - black_stained_glass_pane
+      - brown_stained_glass_pane
+      - green_stained_glass_pane
+      - white_stained_glass_pane
+      - orange_stained_glass_pane
+      - purple_stained_glass_pane
+      - yellow_stained_glass_pane
+      - magenta_stained_glass_pane
+      - light_blue_stained_glass_pane
+      - light_gray_stained_glass_pane
+    - id:
+      - gold_ingot
+  outputs:
+    item:
+    - id:
+      - diving_helmet
+diving_leggings:
+  inputs:
+    item:
+    - id:
+      - diving_fabric
+    - id:
+      - diving_fabric
+    - id:
+      - diving_fabric
+    - id:
+      - gold_ingot
+    - null
+    - id:
+      - gold_ingot
+    - id:
+      - diving_fabric
+    - null
+    - id:
+      - diving_fabric
+  outputs:
+    item:
+    - id:
+      - diving_leggings
+drill_head:
+  inputs:
+    item:
+    - null
+    - id:
+      - iron_ingot
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+  outputs:
+    item:
+    - id:
+      - drill_head
+dynamo_compression:
+  inputs:
+    item:
+    - null
+    - id:
+      - rf_coil
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - bronze_gear
+    - id:
+      - iron_ingot
+    - id:
+      - bronze_ingot
+    - id:
+      - redstone
+    - id:
+      - bronze_ingot
+  outputs:
+    item:
+    - id:
+      - dynamo_compression
+dynamo_fuel_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - lead_gear
+    - null
+    - id:
+      - lumium_plate
+    - id:
+      - lumium_glass
+      - enderium_glass
+      - obsidian_glass
+      - signalum_glass
+    - id:
+      - lumium_plate
+    - null
+    - id:
+      - lead_gear
+    - null
+  outputs:
+    item:
+    - id:
+      - dynamo_fuel_augment
+dynamo_lapidary:
+  inputs:
+    item:
+    - null
+    - id:
+      - rf_coil
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - gold_gear
+    - id:
+      - iron_ingot
+    - id:
+      - lapis_lazuli
+    - id:
+      - redstone
+    - id:
+      - lapis_lazuli
+  outputs:
+    item:
+    - id:
+      - dynamo_lapidary
+dynamo_magmatic:
+  inputs:
+    item:
+    - null
+    - id:
+      - rf_coil
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - invar_gear
+    - id:
+      - iron_ingot
+    - id:
+      - invar_ingot
+    - id:
+      - redstone
+    - id:
+      - invar_ingot
+  outputs:
+    item:
+    - id:
+      - dynamo_magmatic
+dynamo_numismatic:
+  inputs:
+    item:
+    - null
+    - id:
+      - rf_coil
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - tin_gear
+    - id:
+      - iron_ingot
+    - id:
+      - constantan_ingot
+    - id:
+      - redstone
+    - id:
+      - constantan_ingot
+  outputs:
+    item:
+    - id:
+      - dynamo_numismatic
+dynamo_output_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - silver_gear
+    - null
+    - id:
+      - signalum_plate
+    - id:
+      - lumium_glass
+      - enderium_glass
+      - obsidian_glass
+      - signalum_glass
+    - id:
+      - signalum_plate
+    - null
+    - id:
+      - silver_gear
+    - null
+  outputs:
+    item:
+    - id:
+      - dynamo_output_augment
+dynamo_stirling:
+  inputs:
+    item:
+    - null
+    - id:
+      - rf_coil
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - iron_gear
+    - id:
+      - iron_ingot
+    - id:
+      - stone
+      - diorite
+      - granite
+      - andesite
+      - infested_stone
+      - polished_diorite
+      - polished_granite
+      - polished_andesite
+    - id:
+      - redstone
+    - id:
+      - stone
+      - diorite
+      - granite
+      - andesite
+      - infested_stone
+      - polished_diorite
+      - polished_granite
+      - polished_andesite
+  outputs:
+    item:
+    - id:
+      - dynamo_stirling
+earth_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - basalz_powder
+    - id:
+      - gunpowder
+    - id:
+      - basalz_powder
+    - id:
+      - iron_ingot
+    - id:
+      - basalz_powder
+    - id:
+      - gunpowder
+    - id:
+      - basalz_powder
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - earth_grenade
+earth_tnt:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - basalz_powder
+    - id:
+      - gunpowder
+    - id:
+      - basalz_powder
+    - id:
+      - gunpowder
+    - id:
+      - basalz_powder
+    - id:
+      - gunpowder
+    - id:
+      - basalz_powder
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - earth_tnt
+earth_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - earth_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - earth_tnt_minecart
+eggplant_block:
+  inputs:
+    item:
+    - id:
+      - eggplant
+    - id:
+      - eggplant
+    - id:
+      - eggplant
+    - id:
+      - eggplant
+    - id:
+      - eggplant
+    - id:
+      - eggplant
+    - id:
+      - eggplant
+    - id:
+      - eggplant
+    - id:
+      - eggplant
+  outputs:
+    item:
+    - id:
+      - eggplant_block
+electrum_block:
+  inputs:
+    item:
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+    - id:
+      - electrum_ingot
+  outputs:
+    item:
+    - id:
+      - electrum_block
+electrum_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - electrum_ingot
+    - null
+    - id:
+      - electrum_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - electrum_ingot
+    - null
+    - id:
+      - electrum_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - electrum_gear
+electrum_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - electrum_nugget
+    - id:
+      - electrum_nugget
+    - id:
+      - electrum_nugget
+    - id:
+      - electrum_nugget
+    - id:
+      - electrum_nugget
+    - id:
+      - electrum_nugget
+    - id:
+      - electrum_nugget
+    - id:
+      - electrum_nugget
+    - id:
+      - electrum_nugget
+  outputs:
+    item:
+    - id:
+      - electrum_ingot
+emerald_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - emerald
+    - null
+    - id:
+      - emerald
+    - id:
+      - iron_nugget
+    - id:
+      - emerald
+    - null
+    - id:
+      - emerald
+    - null
+  outputs:
+    item:
+    - id:
+      - emerald_gear
+ender_arrow:
+  inputs:
+    item:
+    - null
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - id:
+      - ender_pearl
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - null
+  outputs:
+    item:
+    - count: 4
+      id:
+      - ender_arrow
+ender_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - ender_pearl
+    - id:
+      - gunpowder
+    - id:
+      - ender_pearl
+    - id:
+      - iron_ingot
+    - id:
+      - ender_pearl
+    - id:
+      - gunpowder
+    - id:
+      - ender_pearl
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - ender_grenade
+ender_tnt:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - ender_pearl
+    - id:
+      - gunpowder
+    - id:
+      - ender_pearl
+    - id:
+      - gunpowder
+    - id:
+      - ender_pearl
+    - id:
+      - gunpowder
+    - id:
+      - ender_pearl
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - ender_tnt
+ender_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - ender_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - ender_tnt_minecart
+enderium_block:
+  inputs:
+    item:
+    - id:
+      - enderium_ingot
+    - id:
+      - enderium_ingot
+    - id:
+      - enderium_ingot
+    - id:
+      - enderium_ingot
+    - id:
+      - enderium_ingot
+    - id:
+      - enderium_ingot
+    - id:
+      - enderium_ingot
+    - id:
+      - enderium_ingot
+    - id:
+      - enderium_ingot
+  outputs:
+    item:
+    - id:
+      - enderium_block
+enderium_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - enderium_ingot
+    - null
+    - id:
+      - enderium_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - enderium_ingot
+    - null
+    - id:
+      - enderium_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - enderium_gear
+enderium_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - enderium_nugget
+    - id:
+      - enderium_nugget
+    - id:
+      - enderium_nugget
+    - id:
+      - enderium_nugget
+    - id:
+      - enderium_nugget
+    - id:
+      - enderium_nugget
+    - id:
+      - enderium_nugget
+    - id:
+      - enderium_nugget
+    - id:
+      - enderium_nugget
+  outputs:
+    item:
+    - id:
+      - enderium_ingot
+energy_cell:
+  inputs:
+    item:
+    - id:
+      - cured_rubber
+    - id:
+      - redstone_block
+    - id:
+      - cured_rubber
+    - id:
+      - iron_ingot
+    - id:
+      - energy_cell_frame
+    - id:
+      - iron_ingot
+    - id:
+      - cured_rubber
+    - id:
+      - rf_coil
+    - id:
+      - cured_rubber
+  outputs:
+    item:
+    - id:
+      - energy_cell
+energy_cell_frame:
+  inputs:
+    item:
+    - id:
+      - lead_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - lead_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - electrum_gear
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - lead_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - lead_ingot
+  outputs:
+    item:
+    - id:
+      - energy_cell_frame
+explosive_arrow:
+  inputs:
+    item:
+    - null
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - id:
+      - tnt
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - null
+  outputs:
+    item:
+    - count: 4
+      id:
+      - explosive_arrow
+explosive_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - gunpowder
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - iron_ingot
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - gunpowder
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - explosive_grenade
+fire_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - blaze_powder
+    - id:
+      - gunpowder
+    - id:
+      - blaze_powder
+    - id:
+      - iron_ingot
+    - id:
+      - blaze_powder
+    - id:
+      - gunpowder
+    - id:
+      - blaze_powder
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - fire_grenade
+fire_tnt:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - blaze_powder
+    - id:
+      - gunpowder
+    - id:
+      - blaze_powder
+    - id:
+      - gunpowder
+    - id:
+      - blaze_powder
+    - id:
+      - gunpowder
+    - id:
+      - blaze_powder
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - fire_tnt
+fire_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - fire_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - fire_tnt_minecart
+flax_block:
+  inputs:
+    item:
+    - id:
+      - flax
+    - id:
+      - flax
+    - id:
+      - flax
+    - id:
+      - flax
+    - id:
+      - flax
+    - id:
+      - flax
+    - id:
+      - flax
+    - id:
+      - flax
+    - id:
+      - flax
+  outputs:
+    item:
+    - id:
+      - flax_block
+fluid_cell:
+  inputs:
+    item:
+    - id:
+      - cured_rubber
+    - id:
+      - lumium_glass
+      - enderium_glass
+      - obsidian_glass
+      - signalum_glass
+    - id:
+      - cured_rubber
+    - id:
+      - iron_ingot
+    - id:
+      - fluid_cell_frame
+    - id:
+      - iron_ingot
+    - id:
+      - cured_rubber
+    - id:
+      - redstone_servo
+    - id:
+      - cured_rubber
+  outputs:
+    item:
+    - id:
+      - fluid_cell
+fluid_cell_frame:
+  inputs:
+    item:
+    - id:
+      - copper_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - copper_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - bronze_gear
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - copper_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - copper_ingot
+  outputs:
+    item:
+    - id:
+      - fluid_cell_frame
+fluid_tank_augment:
+  inputs:
+    item:
+    - id:
+      - cured_rubber
+    - id:
+      - iron_ingot
+    - id:
+      - cured_rubber
+    - id:
+      - iron_ingot
+    - id:
+      - lumium_glass
+      - enderium_glass
+      - obsidian_glass
+      - signalum_glass
+    - id:
+      - iron_ingot
+    - id:
+      - cured_rubber
+    - id:
+      - iron_ingot
+    - id:
+      - cured_rubber
+  outputs:
+    item:
+    - id:
+      - fluid_tank_augment
+flux_capacitor:
+  inputs:
+    item:
+    - id:
+      - redstone
+    - id:
+      - lead_ingot
+    - id:
+      - redstone
+    - id:
+      - lead_ingot
+    - id:
+      - rf_coil
+    - id:
+      - lead_ingot
+    - null
+    - id:
+      - redstone
+    - null
+  outputs:
+    item:
+    - id:
+      - flux_capacitor
+flux_drill:
+  inputs:
+    item:
+    - null
+    - id:
+      - drill_head
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - gold_gear
+    - id:
+      - iron_ingot
+    - id:
+      - tin_gear
+    - id:
+      - rf_coil
+    - id:
+      - tin_gear
+  outputs:
+    item:
+    - id:
+      - flux_drill
+flux_magnet:
+  inputs:
+    item:
+    - id:
+      - iron_ingot
+    - id:
+      - redstone
+    - id:
+      - iron_ingot
+    - id:
+      - lead_ingot
+    - id:
+      - iron_ingot
+    - id:
+      - lead_ingot
+    - null
+    - id:
+      - rf_coil
+    - null
+  outputs:
+    item:
+    - id:
+      - flux_magnet
+flux_saw:
+  inputs:
+    item:
+    - null
+    - id:
+      - saw_blade
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - gold_gear
+    - id:
+      - iron_ingot
+    - id:
+      - tin_gear
+    - id:
+      - rf_coil
+    - id:
+      - tin_gear
+  outputs:
+    item:
+    - id:
+      - flux_saw
+frost_arrow:
+  inputs:
+    item:
+    - null
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - id:
+      - packed_ice
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - null
+  outputs:
+    item:
+    - count: 4
+      id:
+      - frost_arrow
+frost_melon:
+  inputs:
+    item:
+    - id:
+      - frost_melon_slice
+    - id:
+      - frost_melon_slice
+    - id:
+      - frost_melon_slice
+    - id:
+      - frost_melon_slice
+    - id:
+      - frost_melon_slice
+    - id:
+      - frost_melon_slice
+    - id:
+      - frost_melon_slice
+    - id:
+      - frost_melon_slice
+    - id:
+      - frost_melon_slice
+  outputs:
+    item:
+    - id:
+      - frost_melon
+glowstone_arrow:
+  inputs:
+    item:
+    - null
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - id:
+      - glowstone_dust
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - null
+  outputs:
+    item:
+    - count: 4
+      id:
+      - glowstone_arrow
+glowstone_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - glowstone_dust
+    - id:
+      - gunpowder
+    - id:
+      - glowstone_dust
+    - id:
+      - iron_ingot
+    - id:
+      - glowstone_dust
+    - id:
+      - gunpowder
+    - id:
+      - glowstone_dust
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - glowstone_grenade
+glowstone_tnt:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - glowstone_dust
+    - id:
+      - gunpowder
+    - id:
+      - glowstone_dust
+    - id:
+      - gunpowder
+    - id:
+      - glowstone_dust
+    - id:
+      - gunpowder
+    - id:
+      - glowstone_dust
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - glowstone_tnt
+glowstone_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - glowstone_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - glowstone_tnt_minecart
+gold_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - gold_ingot
+    - null
+    - id:
+      - gold_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - gold_ingot
+    - null
+    - id:
+      - gold_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - gold_gear
+green_bean_block:
+  inputs:
+    item:
+    - id:
+      - green_bean
+    - id:
+      - green_bean
+    - id:
+      - green_bean
+    - id:
+      - green_bean
+    - id:
+      - green_bean
+    - id:
+      - green_bean
+    - id:
+      - green_bean
+    - id:
+      - green_bean
+    - id:
+      - green_bean
+  outputs:
+    item:
+    - id:
+      - green_bean_block
+gunpowder_block:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - gunpowder
+    - id:
+      - gunpowder
+    - id:
+      - gunpowder
+    - id:
+      - gunpowder
+    - id:
+      - gunpowder
+    - id:
+      - gunpowder
+    - id:
+      - gunpowder
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - gunpowder_block
+hazmat_boots:
+  inputs:
+    item:
+    - id:
+      - hazmat_fabric
+    - null
+    - id:
+      - hazmat_fabric
+    - id:
+      - leather
+    - id:
+      - cured_rubber
+    - id:
+      - leather
+  outputs:
+    item:
+    - id:
+      - hazmat_boots
+hazmat_chestplate:
+  inputs:
+    item:
+    - id:
+      - hazmat_fabric
+    - null
+    - id:
+      - hazmat_fabric
+    - id:
+      - iron_ingot
+    - id:
+      - hazmat_fabric
+    - id:
+      - iron_ingot
+    - id:
+      - hazmat_fabric
+    - id:
+      - hazmat_fabric
+    - id:
+      - hazmat_fabric
+  outputs:
+    item:
+    - id:
+      - hazmat_chestplate
+hazmat_fabric:
+  inputs:
+    item:
+    - null
+    - id:
+      - string
+    - null
+    - id:
+      - string
+    - id:
+      - cured_rubber
+    - id:
+      - string
+    - null
+    - id:
+      - string
+    - null
+  outputs:
+    item:
+    - id:
+      - hazmat_fabric
+hazmat_helmet:
+  inputs:
+    item:
+    - id:
+      - hazmat_fabric
+    - id:
+      - iron_ingot
+    - id:
+      - hazmat_fabric
+    - id:
+      - iron_ingot
+    - id:
+      - glass_pane
+      - red_stained_glass_pane
+      - blue_stained_glass_pane
+      - cyan_stained_glass_pane
+      - gray_stained_glass_pane
+      - lime_stained_glass_pane
+      - pink_stained_glass_pane
+      - black_stained_glass_pane
+      - brown_stained_glass_pane
+      - green_stained_glass_pane
+      - white_stained_glass_pane
+      - orange_stained_glass_pane
+      - purple_stained_glass_pane
+      - yellow_stained_glass_pane
+      - magenta_stained_glass_pane
+      - light_blue_stained_glass_pane
+      - light_gray_stained_glass_pane
+    - id:
+      - iron_ingot
+  outputs:
+    item:
+    - id:
+      - hazmat_helmet
+hazmat_leggings:
+  inputs:
+    item:
+    - id:
+      - hazmat_fabric
+    - id:
+      - hazmat_fabric
+    - id:
+      - hazmat_fabric
+    - id:
+      - iron_ingot
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - hazmat_fabric
+    - null
+    - id:
+      - hazmat_fabric
+  outputs:
+    item:
+    - id:
+      - hazmat_leggings
+hops_block:
+  inputs:
+    item:
+    - id:
+      - hops
+    - id:
+      - hops
+    - id:
+      - hops
+    - id:
+      - hops
+    - id:
+      - hops
+    - id:
+      - hops
+    - id:
+      - hops
+    - id:
+      - hops
+    - id:
+      - hops
+  outputs:
+    item:
+    - id:
+      - hops_block
+ice_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - blizz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blizz_powder
+    - id:
+      - iron_ingot
+    - id:
+      - blizz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blizz_powder
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - ice_grenade
+ice_tnt:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - blizz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blizz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blizz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blizz_powder
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - ice_tnt
+ice_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - ice_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - ice_tnt_minecart
+invar_block:
+  inputs:
+    item:
+    - id:
+      - invar_ingot
+    - id:
+      - invar_ingot
+    - id:
+      - invar_ingot
+    - id:
+      - invar_ingot
+    - id:
+      - invar_ingot
+    - id:
+      - invar_ingot
+    - id:
+      - invar_ingot
+    - id:
+      - invar_ingot
+    - id:
+      - invar_ingot
+  outputs:
+    item:
+    - id:
+      - invar_block
+invar_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - invar_ingot
+    - null
+    - id:
+      - invar_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - invar_ingot
+    - null
+    - id:
+      - invar_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - invar_gear
+invar_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - invar_nugget
+    - id:
+      - invar_nugget
+    - id:
+      - invar_nugget
+    - id:
+      - invar_nugget
+    - id:
+      - invar_nugget
+    - id:
+      - invar_nugget
+    - id:
+      - invar_nugget
+    - id:
+      - invar_nugget
+    - id:
+      - invar_nugget
+  outputs:
+    item:
+    - id:
+      - invar_ingot
+iron_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - iron_ingot
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - iron_ingot
+    - null
+    - id:
+      - iron_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - iron_gear
+item_filter_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - tin_nugget
+    - null
+    - id:
+      - tin_nugget
+    - id:
+      - signalum_ingot
+    - id:
+      - tin_nugget
+    - null
+    - id:
+      - tin_nugget
+    - null
+  outputs:
+    item:
+    - id:
+      - item_filter_augment
+jack_o_lantern_1:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_1
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_1
+jack_o_lantern_10:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_10
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_10
+jack_o_lantern_11:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_11
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_11
+jack_o_lantern_12:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_12
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_12
+jack_o_lantern_13:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_13
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_13
+jack_o_lantern_14:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_14
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_14
+jack_o_lantern_15:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_15
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_15
+jack_o_lantern_16:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_16
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_16
+jack_o_lantern_17:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_17
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_17
+jack_o_lantern_18:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_18
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_18
+jack_o_lantern_19:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_19
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_19
+jack_o_lantern_2:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_2
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_2
+jack_o_lantern_20:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_20
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_20
+jack_o_lantern_21:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_21
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_21
+jack_o_lantern_22:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_22
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_22
+jack_o_lantern_23:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_23
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_23
+jack_o_lantern_24:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_24
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_24
+jack_o_lantern_3:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_3
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_3
+jack_o_lantern_4:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_4
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_4
+jack_o_lantern_5:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_5
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_5
+jack_o_lantern_6:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_6
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_6
+jack_o_lantern_7:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_7
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_7
+jack_o_lantern_8:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_8
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_8
+jack_o_lantern_9:
+  inputs:
+    item:
+    - id:
+      - carved_pumpkin_9
+    - id:
+      - torch
+  outputs:
+    item:
+    - id:
+      - jack_o_lantern_9
+junk_net:
+  inputs:
+    item:
+    - id:
+      - iron_nugget
+    - id:
+      - string
+    - id:
+      - iron_nugget
+    - id:
+      - string
+    - id:
+      - stick
+    - id:
+      - string
+    - id:
+      - iron_nugget
+    - id:
+      - string
+    - id:
+      - iron_nugget
+  outputs:
+    item:
+    - id:
+      - junk_net
+lapis_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - lapis_lazuli
+    - null
+    - id:
+      - lapis_lazuli
+    - id:
+      - iron_nugget
+    - id:
+      - lapis_lazuli
+    - null
+    - id:
+      - lapis_lazuli
+    - null
+  outputs:
+    item:
+    - id:
+      - lapis_gear
+lead_block:
+  inputs:
+    item:
+    - id:
+      - lead_ingot
+    - id:
+      - lead_ingot
+    - id:
+      - lead_ingot
+    - id:
+      - lead_ingot
+    - id:
+      - lead_ingot
+    - id:
+      - lead_ingot
+    - id:
+      - lead_ingot
+    - id:
+      - lead_ingot
+    - id:
+      - lead_ingot
+  outputs:
+    item:
+    - id:
+      - lead_block
+lead_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - lead_ingot
+    - null
+    - id:
+      - lead_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - lead_ingot
+    - null
+    - id:
+      - lead_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - lead_gear
+lead_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - lead_nugget
+    - id:
+      - lead_nugget
+    - id:
+      - lead_nugget
+    - id:
+      - lead_nugget
+    - id:
+      - lead_nugget
+    - id:
+      - lead_nugget
+    - id:
+      - lead_nugget
+    - id:
+      - lead_nugget
+    - id:
+      - lead_nugget
+  outputs:
+    item:
+    - id:
+      - lead_ingot
+lightning_arrow:
+  inputs:
+    item:
+    - null
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - id:
+      - nether_star
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - null
+  outputs:
+    item:
+    - count: 4
+      id:
+      - lightning_arrow
+lightning_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - blitz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blitz_powder
+    - id:
+      - iron_ingot
+    - id:
+      - blitz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blitz_powder
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - lightning_grenade
+lightning_tnt:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - blitz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blitz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blitz_powder
+    - id:
+      - gunpowder
+    - id:
+      - blitz_powder
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - lightning_tnt
+lightning_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - lightning_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - lightning_tnt_minecart
+lock:
+  inputs:
+    item:
+    - null
+    - id:
+      - iron_nugget
+    - null
+    - id:
+      - iron_nugget
+    - id:
+      - signalum_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - iron_nugget
+    - id:
+      - iron_nugget
+    - id:
+      - iron_nugget
+  outputs:
+    item:
+    - id:
+      - lock
+lumium_activator_rail:
+  inputs:
+    item:
+    - id:
+      - activator_rail
+    - id:
+      - lumium_ingot
+    - id:
+      - activator_rail
+    - id:
+      - activator_rail
+    - id:
+      - lumium_ingot
+    - id:
+      - activator_rail
+    - id:
+      - activator_rail
+    - id:
+      - lumium_ingot
+    - id:
+      - activator_rail
+  outputs:
+    item:
+    - count: 6
+      id:
+      - lumium_activator_rail
+lumium_block:
+  inputs:
+    item:
+    - id:
+      - lumium_ingot
+    - id:
+      - lumium_ingot
+    - id:
+      - lumium_ingot
+    - id:
+      - lumium_ingot
+    - id:
+      - lumium_ingot
+    - id:
+      - lumium_ingot
+    - id:
+      - lumium_ingot
+    - id:
+      - lumium_ingot
+    - id:
+      - lumium_ingot
+  outputs:
+    item:
+    - id:
+      - lumium_block
+lumium_crossover_rail:
+  inputs:
+    item:
+    - id:
+      - lumium_rail
+    - id:
+      - stick
+    - id:
+      - stick
+    - id:
+      - lumium_rail
+  outputs:
+    item:
+    - id:
+      - lumium_crossover_rail
+lumium_detector_rail:
+  inputs:
+    item:
+    - id:
+      - detector_rail
+    - id:
+      - lumium_ingot
+    - id:
+      - detector_rail
+    - id:
+      - detector_rail
+    - id:
+      - lumium_ingot
+    - id:
+      - detector_rail
+    - id:
+      - detector_rail
+    - id:
+      - lumium_ingot
+    - id:
+      - detector_rail
+  outputs:
+    item:
+    - count: 6
+      id:
+      - lumium_detector_rail
+lumium_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - lumium_ingot
+    - null
+    - id:
+      - lumium_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - lumium_ingot
+    - null
+    - id:
+      - lumium_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - lumium_gear
+lumium_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - lumium_nugget
+    - id:
+      - lumium_nugget
+    - id:
+      - lumium_nugget
+    - id:
+      - lumium_nugget
+    - id:
+      - lumium_nugget
+    - id:
+      - lumium_nugget
+    - id:
+      - lumium_nugget
+    - id:
+      - lumium_nugget
+    - id:
+      - lumium_nugget
+  outputs:
+    item:
+    - id:
+      - lumium_ingot
+lumium_powered_rail:
+  inputs:
+    item:
+    - id:
+      - powered_rail
+    - id:
+      - lumium_ingot
+    - id:
+      - powered_rail
+    - id:
+      - powered_rail
+    - id:
+      - lumium_ingot
+    - id:
+      - powered_rail
+    - id:
+      - powered_rail
+    - id:
+      - lumium_ingot
+    - id:
+      - powered_rail
+  outputs:
+    item:
+    - count: 6
+      id:
+      - lumium_powered_rail
+lumium_rail:
+  inputs:
+    item:
+    - id:
+      - rail
+    - id:
+      - lumium_ingot
+    - id:
+      - rail
+    - id:
+      - rail
+    - id:
+      - lumium_ingot
+    - id:
+      - rail
+    - id:
+      - rail
+    - id:
+      - lumium_ingot
+    - id:
+      - rail
+  outputs:
+    item:
+    - count: 6
+      id:
+      - lumium_rail
+machine_bottler:
+  inputs:
+    item:
+    - null
+    - id:
+      - bucket
+    - null
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - machine_frame
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - copper_gear
+    - id:
+      - rf_coil
+    - id:
+      - copper_gear
+  outputs:
+    item:
+    - id:
+      - machine_bottler
+machine_brewer:
+  inputs:
+    item:
+    - null
+    - id:
+      - brewing_stand
+    - null
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - machine_frame
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - constantan_gear
+    - id:
+      - rf_coil
+    - id:
+      - constantan_gear
+  outputs:
+    item:
+    - id:
+      - machine_brewer
+machine_catalyst_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - constantan_gear
+    - null
+    - id:
+      - lead_plate
+    - id:
+      - redstone_servo
+    - id:
+      - lead_plate
+    - null
+    - id:
+      - constantan_gear
+    - null
+  outputs:
+    item:
+    - id:
+      - machine_catalyst_augment
+machine_centrifuge:
+  inputs:
+    item:
+    - null
+    - id:
+      - compass
+    - null
+    - id:
+      - tin_ingot
+    - id:
+      - machine_frame
+    - id:
+      - tin_ingot
+    - id:
+      - constantan_gear
+    - id:
+      - rf_coil
+    - id:
+      - constantan_gear
+  outputs:
+    item:
+    - id:
+      - machine_centrifuge
+machine_chiller:
+  inputs:
+    item:
+    - null
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - null
+    - id:
+      - packed_ice
+    - id:
+      - machine_frame
+    - id:
+      - packed_ice
+    - id:
+      - invar_gear
+    - id:
+      - rf_coil
+    - id:
+      - invar_gear
+  outputs:
+    item:
+    - id:
+      - machine_chiller
+machine_crafter:
+  inputs:
+    item:
+    - null
+    - id:
+      - crafting_table
+    - null
+    - id:
+      - tin_ingot
+    - id:
+      - machine_frame
+    - id:
+      - tin_ingot
+    - id:
+      - copper_gear
+    - id:
+      - rf_coil
+    - id:
+      - copper_gear
+  outputs:
+    item:
+    - id:
+      - machine_crafter
+machine_crucible:
+  inputs:
+    item:
+    - null
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - null
+    - id:
+      - nether_bricks
+    - id:
+      - machine_frame
+    - id:
+      - nether_bricks
+    - id:
+      - invar_gear
+    - id:
+      - rf_coil
+    - id:
+      - invar_gear
+  outputs:
+    item:
+    - id:
+      - machine_crucible
+machine_cycle_augment:
+  inputs:
+    item:
+    - id:
+      - silver_plate
+    - id:
+      - signalum_gear
+    - id:
+      - silver_plate
+    - id:
+      - constantan_plate
+    - id:
+      - redstone_servo
+    - id:
+      - constantan_plate
+    - id:
+      - silver_plate
+    - id:
+      - signalum_gear
+    - id:
+      - silver_plate
+  outputs:
+    item:
+    - id:
+      - machine_cycle_augment
+machine_efficiency_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - nickel_gear
+    - null
+    - id:
+      - lumium_plate
+    - id:
+      - rf_coil
+    - id:
+      - lumium_plate
+    - null
+    - id:
+      - nickel_gear
+    - null
+  outputs:
+    item:
+    - id:
+      - machine_efficiency_augment
+machine_frame:
+  inputs:
+    item:
+    - id:
+      - iron_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - iron_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - tin_gear
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - iron_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - iron_ingot
+  outputs:
+    item:
+    - id:
+      - machine_frame
+machine_furnace:
+  inputs:
+    item:
+    - null
+    - id:
+      - redstone
+    - null
+    - id:
+      - bricks
+    - id:
+      - machine_frame
+    - id:
+      - bricks
+    - id:
+      - copper_gear
+    - id:
+      - rf_coil
+    - id:
+      - copper_gear
+  outputs:
+    item:
+    - id:
+      - machine_furnace
+machine_insolator:
+  inputs:
+    item:
+    - null
+    - id:
+      - dirt
+    - null
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - machine_frame
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - lumium_gear
+    - id:
+      - rf_coil
+    - id:
+      - lumium_gear
+  outputs:
+    item:
+    - id:
+      - machine_insolator
+machine_output_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - bronze_gear
+    - null
+    - id:
+      - invar_plate
+    - id:
+      - redstone_servo
+    - id:
+      - invar_plate
+    - null
+    - id:
+      - bronze_gear
+    - null
+  outputs:
+    item:
+    - id:
+      - machine_output_augment
+machine_press:
+  inputs:
+    item:
+    - null
+    - id:
+      - iron_block
+    - null
+    - id:
+      - bronze_ingot
+    - id:
+      - machine_frame
+    - id:
+      - bronze_ingot
+    - id:
+      - constantan_gear
+    - id:
+      - rf_coil
+    - id:
+      - constantan_gear
+  outputs:
+    item:
+    - id:
+      - machine_press
+machine_pulverizer:
+  inputs:
+    item:
+    - null
+    - id:
+      - piston
+    - null
+    - id:
+      - flint
+    - id:
+      - machine_frame
+    - id:
+      - flint
+    - id:
+      - copper_gear
+    - id:
+      - rf_coil
+    - id:
+      - copper_gear
+  outputs:
+    item:
+    - id:
+      - machine_pulverizer
+machine_pyrolyzer:
+  inputs:
+    item:
+    - null
+    - id:
+      - blaze_rod
+    - null
+    - id:
+      - nether_bricks
+    - id:
+      - machine_frame
+    - id:
+      - nether_bricks
+    - id:
+      - constantan_gear
+    - id:
+      - rf_coil
+    - id:
+      - constantan_gear
+  outputs:
+    item:
+    - id:
+      - machine_pyrolyzer
+machine_refinery:
+  inputs:
+    item:
+    - null
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - null
+    - id:
+      - copper_ingot
+    - id:
+      - machine_frame
+    - id:
+      - copper_ingot
+    - id:
+      - invar_gear
+    - id:
+      - rf_coil
+    - id:
+      - invar_gear
+  outputs:
+    item:
+    - id:
+      - machine_refinery
+machine_sawmill:
+  inputs:
+    item:
+    - null
+    - id:
+      - saw_blade
+    - null
+    - id:
+      - stone
+      - diorite
+      - granite
+      - andesite
+      - infested_stone
+      - polished_diorite
+      - polished_granite
+      - polished_andesite
+    - id:
+      - machine_frame
+    - id:
+      - stone
+      - diorite
+      - granite
+      - andesite
+      - infested_stone
+      - polished_diorite
+      - polished_granite
+      - polished_andesite
+    - id:
+      - copper_gear
+    - id:
+      - rf_coil
+    - id:
+      - copper_gear
+  outputs:
+    item:
+    - id:
+      - machine_sawmill
+machine_smelter:
+  inputs:
+    item:
+    - null
+    - id:
+      - blast_furnace
+    - null
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - machine_frame
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - invar_gear
+    - id:
+      - rf_coil
+    - id:
+      - invar_gear
+  outputs:
+    item:
+    - id:
+      - machine_smelter
+machine_speed_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - lead_gear
+    - null
+    - id:
+      - electrum_plate
+    - id:
+      - rf_coil
+    - id:
+      - electrum_plate
+    - null
+    - id:
+      - lead_gear
+    - null
+  outputs:
+    item:
+    - id:
+      - machine_speed_augment
+nickel_block:
+  inputs:
+    item:
+    - id:
+      - nickel_ingot
+    - id:
+      - nickel_ingot
+    - id:
+      - nickel_ingot
+    - id:
+      - nickel_ingot
+    - id:
+      - nickel_ingot
+    - id:
+      - nickel_ingot
+    - id:
+      - nickel_ingot
+    - id:
+      - nickel_ingot
+    - id:
+      - nickel_ingot
+  outputs:
+    item:
+    - id:
+      - nickel_block
+nickel_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - nickel_ingot
+    - null
+    - id:
+      - nickel_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - nickel_ingot
+    - null
+    - id:
+      - nickel_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - nickel_gear
+nickel_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - nickel_nugget
+    - id:
+      - nickel_nugget
+    - id:
+      - nickel_nugget
+    - id:
+      - nickel_nugget
+    - id:
+      - nickel_nugget
+    - id:
+      - nickel_nugget
+    - id:
+      - nickel_nugget
+    - id:
+      - nickel_nugget
+    - id:
+      - nickel_nugget
+  outputs:
+    item:
+    - id:
+      - nickel_ingot
+niter_block:
+  inputs:
+    item:
+    - id:
+      - niter
+    - id:
+      - niter
+    - id:
+      - niter
+    - id:
+      - niter
+    - id:
+      - niter
+    - id:
+      - niter
+    - id:
+      - niter
+    - id:
+      - niter
+    - id:
+      - niter
+  outputs:
+    item:
+    - id:
+      - niter_block
+nuke_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - nuke_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - nuke_tnt_minecart
+onion_block:
+  inputs:
+    item:
+    - id:
+      - onion
+    - id:
+      - onion
+    - id:
+      - onion
+    - id:
+      - onion
+    - id:
+      - onion
+    - id:
+      - onion
+    - id:
+      - onion
+    - id:
+      - onion
+    - id:
+      - onion
+  outputs:
+    item:
+    - id:
+      - onion_block
+peanut_block:
+  inputs:
+    item:
+    - id:
+      - peanut
+    - id:
+      - peanut
+    - id:
+      - peanut
+    - id:
+      - peanut
+    - id:
+      - peanut
+    - id:
+      - peanut
+    - id:
+      - peanut
+    - id:
+      - peanut
+    - id:
+      - peanut
+  outputs:
+    item:
+    - id:
+      - peanut_block
+phantasmal_arrow:
+  inputs:
+    item:
+    - null
+    - id:
+      - ectoplasm
+    - null
+    - id:
+      - ectoplasm
+    - id:
+      - arrow
+    - id:
+      - ectoplasm
+    - null
+    - id:
+      - ectoplasm
+    - null
+  outputs:
+    item:
+    - count: 2
+      id:
+      - phantasmal_arrow
+phyto_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - phytogro
+    - id:
+      - gunpowder
+    - id:
+      - phytogro
+    - id:
+      - iron_ingot
+    - id:
+      - phytogro
+    - id:
+      - gunpowder
+    - id:
+      - phytogro
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - phyto_grenade
+phyto_tnt:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - phytogro
+    - id:
+      - gunpowder
+    - id:
+      - phytogro
+    - id:
+      - gunpowder
+    - id:
+      - phytogro
+    - id:
+      - gunpowder
+    - id:
+      - phytogro
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - phyto_tnt
+phyto_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - phyto_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - phyto_tnt_minecart
+phytosoil:
+  inputs:
+    item:
+    - id:
+      - charcoal
+    - id:
+      - phytogro
+    - id:
+      - charcoal
+    - id:
+      - phytogro
+    - id:
+      - dirt
+    - id:
+      - phytogro
+    - id:
+      - charcoal
+    - id:
+      - phytogro
+    - id:
+      - charcoal
+  outputs:
+    item:
+    - id:
+      - phytosoil
+potato_block:
+  inputs:
+    item:
+    - id:
+      - potato
+    - id:
+      - potato
+    - id:
+      - potato
+    - id:
+      - potato
+    - id:
+      - potato
+    - id:
+      - potato
+    - id:
+      - potato
+    - id:
+      - potato
+    - id:
+      - potato
+  outputs:
+    item:
+    - id:
+      - potato_block
+potion_amplifier_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - signalum_gear
+    - null
+    - id:
+      - copper_ingot
+    - id:
+      - lumium_glass
+      - enderium_glass
+      - obsidian_glass
+      - signalum_glass
+    - id:
+      - copper_ingot
+    - null
+    - id:
+      - signalum_gear
+    - null
+  outputs:
+    item:
+    - id:
+      - potion_amplifier_augment
+potion_duration_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - lumium_gear
+    - null
+    - id:
+      - copper_ingot
+    - id:
+      - lumium_glass
+      - enderium_glass
+      - obsidian_glass
+      - signalum_glass
+    - id:
+      - copper_ingot
+    - null
+    - id:
+      - lumium_gear
+    - null
+  outputs:
+    item:
+    - id:
+      - potion_duration_augment
+potion_infuser:
+  inputs:
+    item:
+    - id:
+      - cured_rubber
+    - id:
+      - glass_bottle
+    - id:
+      - cured_rubber
+    - id:
+      - copper_ingot
+    - id:
+      - silver_gear
+    - id:
+      - copper_ingot
+    - null
+    - id:
+      - copper_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - potion_infuser
+potion_quiver:
+  inputs:
+    item:
+    - id:
+      - copper_ingot
+    - null
+    - id:
+      - copper_ingot
+    - id:
+      - glass_bottle
+    - id:
+      - silver_gear
+    - id:
+      - string
+    - id:
+      - cured_rubber
+    - id:
+      - copper_ingot
+    - id:
+      - cured_rubber
+  outputs:
+    item:
+    - id:
+      - potion_quiver
+press_coin_die:
+  inputs:
+    item:
+    - null
+    - id:
+      - invar_plate
+    - null
+    - id:
+      - invar_plate
+    - id:
+      - emerald
+    - id:
+      - invar_plate
+    - null
+    - id:
+      - invar_plate
+    - null
+  outputs:
+    item:
+    - id:
+      - press_coin_die
+press_gear_die:
+  inputs:
+    item:
+    - null
+    - id:
+      - invar_plate
+    - null
+    - id:
+      - invar_plate
+    - id:
+      - diamond_gear
+    - id:
+      - invar_plate
+    - null
+    - id:
+      - invar_plate
+    - null
+  outputs:
+    item:
+    - id:
+      - press_gear_die
+press_packing_2x2_die:
+  inputs:
+    item:
+    - null
+    - id:
+      - constantan_plate
+    - null
+    - id:
+      - invar_plate
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - invar_plate
+    - null
+    - id:
+      - constantan_plate
+    - null
+  outputs:
+    item:
+    - id:
+      - press_packing_2x2_die
+press_packing_3x3_die:
+  inputs:
+    item:
+    - null
+    - id:
+      - invar_plate
+    - null
+    - id:
+      - constantan_plate
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - constantan_plate
+    - null
+    - id:
+      - invar_plate
+    - null
+  outputs:
+    item:
+    - id:
+      - press_packing_3x3_die
+press_unpacking_die:
+  inputs:
+    item:
+    - id:
+      - constantan_plate
+    - null
+    - id:
+      - invar_plate
+    - null
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - null
+    - id:
+      - invar_plate
+    - null
+    - id:
+      - constantan_plate
+  outputs:
+    item:
+    - id:
+      - press_unpacking_die
+prismarine_activator_rail:
+  inputs:
+    item:
+    - id:
+      - activator_rail
+    - id:
+      - prismarine_shard
+    - id:
+      - activator_rail
+    - id:
+      - activator_rail
+    - id:
+      - prismarine_crystals
+    - id:
+      - activator_rail
+    - id:
+      - activator_rail
+    - id:
+      - prismarine_shard
+    - id:
+      - activator_rail
+  outputs:
+    item:
+    - count: 6
+      id:
+      - prismarine_activator_rail
+prismarine_arrow:
+  inputs:
+    item:
+    - id:
+      - prismarine_crystals
+    - id:
+      - stick
+    - id:
+      - feather
+  outputs:
+    item:
+    - count: 4
+      id:
+      - prismarine_arrow
+prismarine_crossover_rail:
+  inputs:
+    item:
+    - id:
+      - prismarine_rail
+    - id:
+      - stick
+    - id:
+      - stick
+    - id:
+      - prismarine_rail
+  outputs:
+    item:
+    - id:
+      - prismarine_crossover_rail
+prismarine_detector_rail:
+  inputs:
+    item:
+    - id:
+      - detector_rail
+    - id:
+      - prismarine_shard
+    - id:
+      - detector_rail
+    - id:
+      - detector_rail
+    - id:
+      - prismarine_crystals
+    - id:
+      - detector_rail
+    - id:
+      - detector_rail
+    - id:
+      - prismarine_shard
+    - id:
+      - detector_rail
+  outputs:
+    item:
+    - count: 6
+      id:
+      - prismarine_detector_rail
+prismarine_powered_rail:
+  inputs:
+    item:
+    - id:
+      - powered_rail
+    - id:
+      - prismarine_shard
+    - id:
+      - powered_rail
+    - id:
+      - powered_rail
+    - id:
+      - prismarine_crystals
+    - id:
+      - powered_rail
+    - id:
+      - powered_rail
+    - id:
+      - prismarine_shard
+    - id:
+      - powered_rail
+  outputs:
+    item:
+    - count: 6
+      id:
+      - prismarine_powered_rail
+prismarine_rail:
+  inputs:
+    item:
+    - id:
+      - rail
+    - id:
+      - prismarine_shard
+    - id:
+      - rail
+    - id:
+      - rail
+    - id:
+      - prismarine_crystals
+    - id:
+      - rail
+    - id:
+      - rail
+    - id:
+      - prismarine_shard
+    - id:
+      - rail
+  outputs:
+    item:
+    - count: 6
+      id:
+      - prismarine_rail
+quartz_arrow:
+  inputs:
+    item:
+    - id:
+      - quartz
+    - id:
+      - stick
+    - id:
+      - feather
+  outputs:
+    item:
+    - count: 4
+      id:
+      - quartz_arrow
+quartz_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - quartz
+    - null
+    - id:
+      - quartz
+    - id:
+      - iron_nugget
+    - id:
+      - quartz
+    - null
+    - id:
+      - quartz
+    - null
+  outputs:
+    item:
+    - id:
+      - quartz_gear
+radish_block:
+  inputs:
+    item:
+    - id:
+      - radish
+    - id:
+      - radish
+    - id:
+      - radish
+    - id:
+      - radish
+    - id:
+      - radish
+    - id:
+      - radish
+    - id:
+      - radish
+    - id:
+      - radish
+    - id:
+      - radish
+  outputs:
+    item:
+    - id:
+      - radish_block
+redstone_arrow:
+  inputs:
+    item:
+    - null
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - id:
+      - redstone
+    - id:
+      - arrow
+    - null
+    - id:
+      - arrow
+    - null
+  outputs:
+    item:
+    - count: 4
+      id:
+      - redstone_arrow
+redstone_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - redstone
+    - id:
+      - gunpowder
+    - id:
+      - redstone
+    - id:
+      - iron_ingot
+    - id:
+      - redstone
+    - id:
+      - gunpowder
+    - id:
+      - redstone
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - redstone_grenade
+redstone_servo:
+  inputs:
+    item:
+    - null
+    - id:
+      - redstone
+    - null
+    - null
+    - id:
+      - iron_ingot
+    - null
+    - null
+    - id:
+      - redstone
+    - null
+  outputs:
+    item:
+    - id:
+      - redstone_servo
+redstone_tnt:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - redstone
+    - id:
+      - gunpowder
+    - id:
+      - redstone
+    - id:
+      - gunpowder
+    - id:
+      - redstone
+    - id:
+      - gunpowder
+    - id:
+      - redstone
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - redstone_tnt
+redstone_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - redstone_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - redstone_tnt_minecart
+rf_coil:
+  inputs:
+    item:
+    - null
+    - null
+    - id:
+      - redstone
+    - null
+    - id:
+      - gold_ingot
+    - null
+    - id:
+      - redstone
+    - null
+    - null
+  outputs:
+    item:
+    - id:
+      - rf_coil
+rf_coil_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - gold_ingot
+    - null
+    - id:
+      - silver_ingot
+    - id:
+      - rf_coil
+    - id:
+      - silver_ingot
+    - null
+    - id:
+      - gold_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - rf_coil_augment
+rf_coil_storage_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - silver_ingot
+    - null
+    - id:
+      - gold_ingot
+    - id:
+      - rf_coil
+    - id:
+      - gold_ingot
+    - null
+    - id:
+      - gold_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - rf_coil_storage_augment
+rf_coil_xfer_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - silver_ingot
+    - null
+    - id:
+      - silver_ingot
+    - id:
+      - rf_coil
+    - id:
+      - silver_ingot
+    - null
+    - id:
+      - gold_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - rf_coil_xfer_augment
+rf_potato:
+  inputs:
+    item:
+    - id:
+      - lead_nugget
+    - id:
+      - redstone
+    - id:
+      - lead_nugget
+    - id:
+      - cured_rubber
+    - id:
+      - potato
+    - id:
+      - cured_rubber
+    - id:
+      - redstone
+    - id:
+      - lead_nugget
+    - id:
+      - redstone
+  outputs:
+    item:
+    - id:
+      - rf_potato
+rice_block:
+  inputs:
+    item:
+    - id:
+      - rice
+    - id:
+      - rice
+    - id:
+      - rice
+    - id:
+      - rice
+    - id:
+      - rice
+    - id:
+      - rice
+    - id:
+      - rice
+    - id:
+      - rice
+    - id:
+      - rice
+  outputs:
+    item:
+    - id:
+      - rice_block
+rich_slag_block:
+  inputs:
+    item:
+    - id:
+      - rich_slag
+    - id:
+      - rich_slag
+    - id:
+      - rich_slag
+    - id:
+      - rich_slag
+    - id:
+      - rich_slag
+    - id:
+      - rich_slag
+    - id:
+      - rich_slag
+    - id:
+      - rich_slag
+    - id:
+      - rich_slag
+  outputs:
+    item:
+    - id:
+      - rich_slag_block
+rosin_block:
+  inputs:
+    item:
+    - id:
+      - rosin
+    - id:
+      - rosin
+    - id:
+      - rosin
+    - id:
+      - rosin
+    - id:
+      - rosin
+    - id:
+      - rosin
+    - id:
+      - rosin
+    - id:
+      - rosin
+    - id:
+      - rosin
+  outputs:
+    item:
+    - id:
+      - rosin_block
+rs_control_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - iron_nugget
+    - null
+    - id:
+      - iron_nugget
+    - id:
+      - redstone
+    - id:
+      - iron_nugget
+    - null
+    - id:
+      - iron_nugget
+    - null
+  outputs:
+    item:
+    - id:
+      - rs_control_augment
+rubber_block:
+  inputs:
+    item:
+    - id:
+      - rubber
+    - id:
+      - rubber
+    - id:
+      - rubber
+    - id:
+      - rubber
+    - id:
+      - rubber
+    - id:
+      - rubber
+    - id:
+      - rubber
+    - id:
+      - rubber
+    - id:
+      - rubber
+  outputs:
+    item:
+    - id:
+      - rubber_block
+rubber_from_dandelion:
+  inputs:
+    item:
+    - id:
+      - dandelion
+    - id:
+      - dandelion
+    - id:
+      - dandelion
+    - id:
+      - dandelion
+    - id:
+      - water_bucket
+    - id:
+      - dandelion
+    - id:
+      - dandelion
+    - id:
+      - dandelion
+    - id:
+      - dandelion
+  outputs:
+    item:
+    - id:
+      - rubber
+rubber_from_vine:
+  inputs:
+    item:
+    - id:
+      - vine
+    - id:
+      - vine
+    - id:
+      - vine
+    - id:
+      - vine
+    - id:
+      - water_bucket
+    - id:
+      - vine
+    - id:
+      - vine
+    - id:
+      - vine
+    - id:
+      - vine
+  outputs:
+    item:
+    - id:
+      - rubber
+sadiroot_block:
+  inputs:
+    item:
+    - id:
+      - sadiroot
+    - id:
+      - sadiroot
+    - id:
+      - sadiroot
+    - id:
+      - sadiroot
+    - id:
+      - sadiroot
+    - id:
+      - sadiroot
+    - id:
+      - sadiroot
+    - id:
+      - sadiroot
+    - id:
+      - sadiroot
+  outputs:
+    item:
+    - id:
+      - sadiroot_block
+saw_blade:
+  inputs:
+    item:
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - copper_ingot
+    - id:
+      - iron_ingot
+    - null
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+  outputs:
+    item:
+    - id:
+      - saw_blade
+sawdust_block:
+  inputs:
+    item:
+    - id:
+      - sawdust
+    - id:
+      - sawdust
+    - id:
+      - sawdust
+    - id:
+      - sawdust
+    - id:
+      - sawdust
+    - id:
+      - sawdust
+    - id:
+      - sawdust
+    - id:
+      - sawdust
+    - id:
+      - sawdust
+  outputs:
+    item:
+    - id:
+      - sawdust_block
+shulker_arrow:
+  inputs:
+    item:
+    - id:
+      - end_stone
+    - id:
+      - arrow
+    - id:
+      - popped_chorus_fruit
+    - id:
+      - arrow
+    - id:
+      - ender_eye
+    - id:
+      - arrow
+    - id:
+      - popped_chorus_fruit
+    - id:
+      - arrow
+    - id:
+      - end_stone
+  outputs:
+    item:
+    - count: 4
+      id:
+      - shulker_arrow
+side_config_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - tin_nugget
+    - null
+    - id:
+      - tin_nugget
+    - id:
+      - gold_ingot
+    - id:
+      - tin_nugget
+    - null
+    - id:
+      - tin_nugget
+    - null
+  outputs:
+    item:
+    - id:
+      - side_config_augment
+signalum_block:
+  inputs:
+    item:
+    - id:
+      - signalum_ingot
+    - id:
+      - signalum_ingot
+    - id:
+      - signalum_ingot
+    - id:
+      - signalum_ingot
+    - id:
+      - signalum_ingot
+    - id:
+      - signalum_ingot
+    - id:
+      - signalum_ingot
+    - id:
+      - signalum_ingot
+    - id:
+      - signalum_ingot
+  outputs:
+    item:
+    - id:
+      - signalum_block
+signalum_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - signalum_ingot
+    - null
+    - id:
+      - signalum_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - signalum_ingot
+    - null
+    - id:
+      - signalum_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - signalum_gear
+signalum_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - signalum_nugget
+    - id:
+      - signalum_nugget
+    - id:
+      - signalum_nugget
+    - id:
+      - signalum_nugget
+    - id:
+      - signalum_nugget
+    - id:
+      - signalum_nugget
+    - id:
+      - signalum_nugget
+    - id:
+      - signalum_nugget
+    - id:
+      - signalum_nugget
+  outputs:
+    item:
+    - id:
+      - signalum_ingot
+silver_block:
+  inputs:
+    item:
+    - id:
+      - silver_ingot
+    - id:
+      - silver_ingot
+    - id:
+      - silver_ingot
+    - id:
+      - silver_ingot
+    - id:
+      - silver_ingot
+    - id:
+      - silver_ingot
+    - id:
+      - silver_ingot
+    - id:
+      - silver_ingot
+    - id:
+      - silver_ingot
+  outputs:
+    item:
+    - id:
+      - silver_block
+silver_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - silver_ingot
+    - null
+    - id:
+      - silver_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - silver_ingot
+    - null
+    - id:
+      - silver_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - silver_gear
+silver_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - silver_nugget
+    - id:
+      - silver_nugget
+    - id:
+      - silver_nugget
+    - id:
+      - silver_nugget
+    - id:
+      - silver_nugget
+    - id:
+      - silver_nugget
+    - id:
+      - silver_nugget
+    - id:
+      - silver_nugget
+    - id:
+      - silver_nugget
+  outputs:
+    item:
+    - id:
+      - silver_ingot
+slag_block:
+  inputs:
+    item:
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - id:
+      - slag_block
+slime_arrow:
+  inputs:
+    item:
+    - id:
+      - slime_ball
+    - id:
+      - stick
+    - id:
+      - feather
+  outputs:
+    item:
+    - count: 4
+      id:
+      - slime_arrow
+slime_grenade_4:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - slime_ball
+    - id:
+      - gunpowder
+    - id:
+      - slime_ball
+    - id:
+      - iron_ingot
+    - id:
+      - slime_ball
+    - id:
+      - gunpowder
+    - id:
+      - slime_ball
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - slime_grenade
+slime_tnt:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - slime_ball
+    - id:
+      - gunpowder
+    - id:
+      - slime_ball
+    - id:
+      - gunpowder
+    - id:
+      - slime_ball
+    - id:
+      - gunpowder
+    - id:
+      - slime_ball
+    - id:
+      - gunpowder
+  outputs:
+    item:
+    - id:
+      - slime_tnt
+slime_tnt_minecart:
+  inputs:
+    item:
+    - id:
+      - slime_tnt
+    - id:
+      - minecart
+  outputs:
+    item:
+    - id:
+      - slime_tnt_minecart
+spice_cake:
+  inputs:
+    item:
+    - id:
+      - milk_bucket
+    - id:
+      - sadiroot
+    - id:
+      - milk_bucket
+    - id:
+      - honey_bottle
+    - id:
+      - egg
+    - id:
+      - honey_bottle
+    - id:
+      - wheat
+    - id:
+      - sadiroot
+    - id:
+      - wheat
+  outputs:
+    item:
+    - id:
+      - spice_cake
+spinach_block:
+  inputs:
+    item:
+    - id:
+      - spinach
+    - id:
+      - spinach
+    - id:
+      - spinach
+    - id:
+      - spinach
+    - id:
+      - spinach
+    - id:
+      - spinach
+    - id:
+      - spinach
+    - id:
+      - spinach
+    - id:
+      - spinach
+  outputs:
+    item:
+    - id:
+      - spinach_block
+spore_arrow:
+  inputs:
+    item:
+    - id:
+      - bone_meal
+    - id:
+      - arrow
+    - id:
+      - red_mushroom
+      - brown_mushroom
+    - id:
+      - arrow
+    - id:
+      - mycelium
+    - id:
+      - arrow
+    - id:
+      - red_mushroom
+      - brown_mushroom
+    - id:
+      - arrow
+    - id:
+      - bone_meal
+  outputs:
+    item:
+    - count: 4
+      id:
+      - spore_arrow
+strawberry_block:
+  inputs:
+    item:
+    - id:
+      - strawberry
+    - id:
+      - strawberry
+    - id:
+      - strawberry
+    - id:
+      - strawberry
+    - id:
+      - strawberry
+    - id:
+      - strawberry
+    - id:
+      - strawberry
+    - id:
+      - strawberry
+    - id:
+      - strawberry
+  outputs:
+    item:
+    - id:
+      - strawberry_block
+sugar_cane_block:
+  inputs:
+    item:
+    - id:
+      - sugar_cane
+    - id:
+      - sugar_cane
+    - id:
+      - sugar_cane
+    - id:
+      - sugar_cane
+    - id:
+      - sugar_cane
+    - id:
+      - sugar_cane
+    - id:
+      - sugar_cane
+    - id:
+      - sugar_cane
+    - id:
+      - sugar_cane
+  outputs:
+    item:
+    - id:
+      - sugar_cane_block
+sulfur_block:
+  inputs:
+    item:
+    - id:
+      - sulfur
+    - id:
+      - sulfur
+    - id:
+      - sulfur
+    - id:
+      - sulfur
+    - id:
+      - sulfur
+    - id:
+      - sulfur
+    - id:
+      - sulfur
+    - id:
+      - sulfur
+    - id:
+      - sulfur
+  outputs:
+    item:
+    - id:
+      - sulfur_block
+tar_block:
+  inputs:
+    item:
+    - id:
+      - tar
+    - id:
+      - tar
+    - id:
+      - tar
+    - id:
+      - tar
+    - id:
+      - tar
+    - id:
+      - tar
+    - id:
+      - tar
+    - id:
+      - tar
+    - id:
+      - tar
+  outputs:
+    item:
+    - id:
+      - tar_block
+tea_block:
+  inputs:
+    item:
+    - id:
+      - tea
+    - id:
+      - tea
+    - id:
+      - tea
+    - id:
+      - tea
+    - id:
+      - tea
+    - id:
+      - tea
+    - id:
+      - tea
+    - id:
+      - tea
+    - id:
+      - tea
+  outputs:
+    item:
+    - id:
+      - tea_block
+tin_block:
+  inputs:
+    item:
+    - id:
+      - tin_ingot
+    - id:
+      - tin_ingot
+    - id:
+      - tin_ingot
+    - id:
+      - tin_ingot
+    - id:
+      - tin_ingot
+    - id:
+      - tin_ingot
+    - id:
+      - tin_ingot
+    - id:
+      - tin_ingot
+    - id:
+      - tin_ingot
+  outputs:
+    item:
+    - id:
+      - tin_block
+tin_gear:
+  inputs:
+    item:
+    - null
+    - id:
+      - tin_ingot
+    - null
+    - id:
+      - tin_ingot
+    - id:
+      - iron_nugget
+    - id:
+      - tin_ingot
+    - null
+    - id:
+      - tin_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - tin_gear
+tin_ingot_from_nuggets:
+  inputs:
+    item:
+    - id:
+      - tin_nugget
+    - id:
+      - tin_nugget
+    - id:
+      - tin_nugget
+    - id:
+      - tin_nugget
+    - id:
+      - tin_nugget
+    - id:
+      - tin_nugget
+    - id:
+      - tin_nugget
+    - id:
+      - tin_nugget
+    - id:
+      - tin_nugget
+  outputs:
+    item:
+    - id:
+      - tin_ingot
+tinker_bench:
+  inputs:
+    item:
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+    - id:
+      - iron_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - crafting_table
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+    - id:
+      - rf_coil
+    - id:
+      - oak_planks
+      - birch_planks
+      - acacia_planks
+      - jungle_planks
+      - spruce_planks
+      - warped_planks
+      - crimson_planks
+      - dark_oak_planks
+  outputs:
+    item:
+    - id:
+      - tinker_bench
+tomato_block:
+  inputs:
+    item:
+    - id:
+      - tomato
+    - id:
+      - tomato
+    - id:
+      - tomato
+    - id:
+      - tomato
+    - id:
+      - tomato
+    - id:
+      - tomato
+    - id:
+      - tomato
+    - id:
+      - tomato
+    - id:
+      - tomato
+  outputs:
+    item:
+    - id:
+      - tomato_block
+training_arrow:
+  inputs:
+    item:
+    - id:
+      - rabbit_hide
+    - id:
+      - stick
+    - id:
+      - feather
+  outputs:
+    item:
+    - count: 4
+      id:
+      - training_arrow
+underwater_minecart:
+  inputs:
+    item:
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - minecart
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - prismarine
+    - id:
+      - prismarine
+    - id:
+      - prismarine
+  outputs:
+    item:
+    - id:
+      - underwater_minecart
+upgrade_augment_1:
+  inputs:
+    item:
+    - id:
+      - invar_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - invar_ingot
+    - id:
+      - redstone
+    - id:
+      - gold_gear
+    - id:
+      - redstone
+    - id:
+      - invar_ingot
+    - id:
+      - glass
+      - red_stained_glass
+      - blue_stained_glass
+      - cyan_stained_glass
+      - gray_stained_glass
+      - lime_stained_glass
+      - pink_stained_glass
+      - black_stained_glass
+      - brown_stained_glass
+      - green_stained_glass
+      - white_stained_glass
+      - orange_stained_glass
+      - purple_stained_glass
+      - yellow_stained_glass
+      - magenta_stained_glass
+      - light_blue_stained_glass
+      - light_gray_stained_glass
+    - id:
+      - invar_ingot
+  outputs:
+    item:
+    - id:
+      - upgrade_augment_1
+upgrade_augment_2:
+  inputs:
+    item:
+    - id:
+      - electrum_ingot
+    - id:
+      - quartz
+    - id:
+      - electrum_ingot
+    - id:
+      - signalum_gear
+    - id:
+      - upgrade_augment_1
+    - id:
+      - signalum_gear
+    - id:
+      - electrum_ingot
+    - id:
+      - quartz
+    - id:
+      - electrum_ingot
+  outputs:
+    item:
+    - id:
+      - upgrade_augment_2
+upgrade_augment_3:
+  inputs:
+    item:
+    - id:
+      - enderium_ingot
+    - id:
+      - lumium_glass
+      - enderium_glass
+      - obsidian_glass
+      - signalum_glass
+    - id:
+      - enderium_ingot
+    - id:
+      - lumium_gear
+    - id:
+      - upgrade_augment_2
+    - id:
+      - lumium_gear
+    - id:
+      - enderium_ingot
+    - id:
+      - lumium_glass
+      - enderium_glass
+      - obsidian_glass
+      - signalum_glass
+    - id:
+      - enderium_ingot
+  outputs:
+    item:
+    - id:
+      - upgrade_augment_3
+verdant_arrow:
+  inputs:
+    item:
+    - id:
+      - bone_meal
+    - id:
+      - arrow
+    - id:
+      - poppy
+      - allium
+      - dandelion
+      - red_tulip
+      - cornflower
+      - pink_tulip
+      - azure_bluet
+      - blue_orchid
+      - oxeye_daisy
+      - white_tulip
+      - wither_rose
+      - orange_tulip
+      - lily_of_the_valley
+    - id:
+      - arrow
+    - id:
+      - grass_block
+    - id:
+      - arrow
+    - id:
+      - poppy
+      - allium
+      - dandelion
+      - red_tulip
+      - cornflower
+      - pink_tulip
+      - azure_bluet
+      - blue_orchid
+      - oxeye_daisy
+      - white_tulip
+      - wither_rose
+      - orange_tulip
+      - lily_of_the_valley
+    - id:
+      - arrow
+    - id:
+      - bone_meal
+  outputs:
+    item:
+    - count: 4
+      id:
+      - verdant_arrow
+watering_can:
+  inputs:
+    item:
+    - id:
+      - copper_ingot
+    - null
+    - null
+    - id:
+      - copper_ingot
+    - id:
+      - bucket
+    - id:
+      - copper_ingot
+    - null
+    - id:
+      - copper_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - watering_can
+wrench:
+  inputs:
+    item:
+    - id:
+      - iron_ingot
+    - null
+    - id:
+      - iron_ingot
+    - null
+    - id:
+      - iron_gear
+    - null
+    - null
+    - id:
+      - iron_ingot
+    - null
+  outputs:
+    item:
+    - id:
+      - wrench
+xp_crystal:
+  inputs:
+    item:
+    - null
+    - id:
+      - lapis_lazuli
+    - null
+    - id:
+      - emerald
+    - id:
+      - experience_bottle
+    - id:
+      - emerald
+    - null
+    - id:
+      - lapis_lazuli
+    - null
+  outputs:
+    item:
+    - id:
+      - xp_crystal
+xp_stew:
+  inputs:
+    item:
+    - id:
+      - spinach
+    - id:
+      - eggplant
+    - id:
+      - spinach
+    - id:
+      - barley
+    - id:
+      - experience_bottle
+    - id:
+      - barley
+    - null
+    - id:
+      - bowl
+    - null
+  outputs:
+    item:
+    - id:
+      - xp_stew
+xp_storage_augment:
+  inputs:
+    item:
+    - null
+    - id:
+      - gold_nugget
+    - null
+    - id:
+      - gold_nugget
+    - id:
+      - xp_crystal
+    - id:
+      - gold_nugget
+    - null
+    - id:
+      - gold_nugget
+    - null
+  outputs:
+    item:
+    - id:
+      - xp_storage_augment

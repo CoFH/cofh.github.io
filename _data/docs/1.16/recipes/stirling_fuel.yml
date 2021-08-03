@@ -1,0 +1,30 @@
+stirling_blaze_powder:
+  energy: 12000
+  inputs:
+    item:
+    - id:
+      - blaze_powder
+stirling_coal:
+  energy: 24000
+  inputs:
+    item:
+    - id:
+      - coal
+stirling_coal_block:
+  energy: 240000
+  inputs:
+    item:
+    - id:
+      - coal_block
+stirling_coal_coke:
+  energy: 40000
+  inputs:
+    item:
+    - id:
+      - coal_coke
+stirling_coal_coke_block:
+  energy: 400000
+  inputs:
+    item:
+    - id:
+      - coal_coke_block

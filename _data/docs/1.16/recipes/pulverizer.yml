@@ -1,0 +1,807 @@
+pulverizer_andesite:
+  experience: 0.1
+  inputs:
+    item:
+    - count: 2
+      id:
+      - andesite
+      - polished_andesite
+  outputs:
+    item:
+    - count: 2
+      id:
+      - cobblestone
+    - id:
+      - quartz_dust
+pulverizer_apatite:
+  inputs:
+    item:
+    - id:
+      - apatite
+  outputs:
+    item:
+    - count: 1
+      id:
+      - apatite_dust
+pulverizer_apatite_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - apatite_ore
+  outputs:
+    item:
+    - chance: 12.5
+      id:
+      - apatite
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_basalz_rod:
+  inputs:
+    item:
+    - id:
+      - basalz_rod
+  outputs:
+    item:
+    - chance: 3.0
+      id:
+      - basalz_powder
+    - chance: 0.25
+      id:
+      - slag
+pulverizer_blaze_rod:
+  inputs:
+    item:
+    - id:
+      - blaze_rod
+  outputs:
+    item:
+    - chance: 3.0
+      id:
+      - blaze_powder
+    - chance: 0.25
+      id:
+      - sulfur
+pulverizer_blitz_rod:
+  inputs:
+    item:
+    - id:
+      - blitz_rod
+  outputs:
+    item:
+    - chance: 3.0
+      id:
+      - blitz_powder
+    - chance: 0.25
+      id:
+      - niter
+pulverizer_blizz_rod:
+  inputs:
+    item:
+    - id:
+      - blizz_rod
+  outputs:
+    item:
+    - chance: 3.0
+      id:
+      - blizz_powder
+    - chance: 0.25
+      id:
+      - snowball
+pulverizer_bone:
+  inputs:
+    item:
+    - id:
+      - bone
+  outputs:
+    item:
+    - chance: 4.5
+      id:
+      - bone_meal
+pulverizer_bronze_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - bronze_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - bronze_dust
+pulverizer_cinnabar:
+  inputs:
+    item:
+    - id:
+      - cinnabar
+  outputs:
+    item:
+    - count: 1
+      id:
+      - cinnabar_dust
+pulverizer_cinnabar_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - cinnabar_ore
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - cinnabar
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_coal_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - coal_ore
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - coal
+    - chance: 0.15
+      id:
+      - sulfur
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_cobblestone:
+  experience: 0.1
+  inputs:
+    item:
+    - id:
+      - cobblestone
+      - mossy_cobblestone
+      - infested_cobblestone
+  outputs:
+    item:
+    - id:
+      - gravel
+    - chance: 0.2
+      id:
+      - sand
+    - chance: 0.1
+      id:
+      - flint
+pulverizer_constantan_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - constantan_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - constantan_dust
+pulverizer_copper_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - copper_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - copper_dust
+pulverizer_copper_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - copper_ore
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - copper_dust
+    - chance: 0.1
+      id:
+      - gold_dust
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_diamond:
+  inputs:
+    item:
+    - id:
+      - diamond
+  outputs:
+    item:
+    - count: 1
+      id:
+      - diamond_dust
+pulverizer_diamond_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - diamond_ore
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - diamond
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_diorite:
+  experience: 0.1
+  inputs:
+    item:
+    - id:
+      - diorite
+      - polished_diorite
+  outputs:
+    item:
+    - id:
+      - cobblestone
+    - id:
+      - quartz_dust
+pulverizer_electrum_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - electrum_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - electrum_dust
+pulverizer_emerald:
+  inputs:
+    item:
+    - id:
+      - emerald
+  outputs:
+    item:
+    - count: 1
+      id:
+      - emerald_dust
+pulverizer_emerald_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - emerald_ore
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - emerald
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_ender_pearl:
+  inputs:
+    item:
+    - id:
+      - ender_pearl
+  outputs:
+    item:
+    - count: 1
+      id:
+      - ender_pearl_dust
+pulverizer_enderium_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - enderium_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - enderium_dust
+pulverizer_gilded_blackstone:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - gilded_blackstone
+  outputs:
+    item:
+    - chance: 7.5
+      id:
+      - gold_nugget
+pulverizer_glowstone_block:
+  inputs:
+    item:
+    - id:
+      - glowstone
+  outputs:
+    item:
+    - count: 4
+      id:
+      - glowstone_dust
+pulverizer_gold_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - gold_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - gold_dust
+pulverizer_gold_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - gold_ore
+      - nether_gold_ore
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - gold_dust
+    - count: 0.05
+      id:
+      - cinnabar
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_granite:
+  experience: 0.1
+  inputs:
+    item:
+    - id:
+      - granite
+      - polished_granite
+  outputs:
+    item:
+    - id:
+      - cobblestone
+    - count: 2
+      id:
+      - quartz_dust
+pulverizer_gravel:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - gravel
+  outputs:
+    item:
+    - id:
+      - sand
+    - chance: 0.2
+      id:
+      - flint
+pulverizer_invar_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - invar_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - invar_dust
+pulverizer_iron_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - iron_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - iron_dust
+pulverizer_iron_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - iron_ore
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - iron_dust
+    - chance: 0.1
+      id:
+      - nickel_dust
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_lapis:
+  inputs:
+    item:
+    - id:
+      - lapis_lazuli
+  outputs:
+    item:
+    - count: 1
+      id:
+      - lapis_dust
+pulverizer_lapis_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - lapis_ore
+  outputs:
+    item:
+    - chance: 12.5
+      id:
+      - lapis_lazuli
+    - chance: 0.25
+      id:
+      - sulfur
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_lead_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - lead_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - lead_dust
+pulverizer_lead_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - lead_ore
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - lead_dust
+    - chance: 0.1
+      id:
+      - silver_dust
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_logs:
+  energy: 1000
+  inputs:
+    item:
+    - id:
+      - warped_stem
+      - crimson_stem
+      - warped_hyphae
+      - crimson_hyphae
+      - stripped_warped_stem
+      - stripped_crimson_stem
+      - stripped_warped_hyphae
+      - stripped_crimson_hyphae
+  outputs:
+    item:
+    - count: 8
+      id:
+      - sawdust
+pulverizer_lumium_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - lumium_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - lumium_dust
+pulverizer_nickel_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - nickel_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - nickel_dust
+pulverizer_nickel_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - nickel_ore
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - nickel_dust
+    - chance: 0.1
+      id:
+      - copper_dust
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_niter:
+  inputs:
+    item:
+    - id:
+      - niter
+  outputs:
+    item:
+    - count: 1
+      id:
+      - niter_dust
+pulverizer_niter_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - niter_ore
+  outputs:
+    item:
+    - chance: 6.5
+      id:
+      - niter
+pulverizer_quartz:
+  inputs:
+    item:
+    - id:
+      - quartz
+  outputs:
+    item:
+    - count: 1
+      id:
+      - quartz_dust
+pulverizer_quartz_block:
+  inputs:
+    item:
+    - id:
+      - quartz_block
+  outputs:
+    item:
+    - count: 4
+      id:
+      - quartz
+pulverizer_quartz_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - nether_quartz_ore
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - quartz
+    - chance: 0.25
+      id:
+      - sulfur
+pulverizer_red_sandstone:
+  experience: 0.1
+  inputs:
+    item:
+    - id:
+      - red_sandstone
+      - chiseled_red_sandstone
+      - cut_red_sandstone
+      - smooth_red_sandstone
+      - red_sandstone_stairs
+      - smooth_red_sandstone_stairs
+  outputs:
+    item:
+    - count: 2
+      id:
+      - red_sand
+    - chance: 0.3
+      id:
+      - niter
+pulverizer_red_sandstone_slab:
+  experience: 0.1
+  inputs:
+    item:
+    - id:
+      - red_sandstone_slab
+      - cut_red_sandstone_slab
+      - smooth_red_sandstone_slab
+  outputs:
+    item:
+    - id:
+      - red_sand
+    - chance: 0.15
+      id:
+      - niter
+pulverizer_redstone_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - redstone_ore
+  outputs:
+    item:
+    - chance: 6.5
+      id:
+      - redstone
+    - count: 0.25
+      id:
+      - cinnabar
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_ruby:
+  inputs:
+    item:
+    - id:
+      - ruby
+  outputs:
+    item:
+    - count: 1
+      id:
+      - ruby_dust
+pulverizer_ruby_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - ruby_ore
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - ruby
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_sandstone:
+  experience: 0.1
+  inputs:
+    item:
+    - id:
+      - sandstone
+      - chiseled_sandstone
+      - cut_sandstone
+      - smooth_sandstone
+      - sandstone_stairs
+      - smooth_sandstone_stairs
+  outputs:
+    item:
+    - count: 2
+      id:
+      - sand
+    - chance: 0.3
+      id:
+      - niter
+pulverizer_sandstone_slab:
+  experience: 0.1
+  inputs:
+    item:
+    - id:
+      - sandstone_slab
+      - cut_sandstone_slab
+      - smooth_sandstone_slab
+  outputs:
+    item:
+    - id:
+      - sand
+    - chance: 0.15
+      id:
+      - niter
+pulverizer_sapphire:
+  inputs:
+    item:
+    - id:
+      - sapphire
+  outputs:
+    item:
+    - count: 1
+      id:
+      - sapphire_dust
+pulverizer_sapphire_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - sapphire_ore
+  outputs:
+    item:
+    - chance: 2.5
+      id:
+      - sapphire
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_signalum_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - signalum_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - signalum_dust
+pulverizer_silver_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - silver_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - silver_dust
+pulverizer_silver_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - silver_ore
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - silver_dust
+    - chance: 0.1
+      id:
+      - lead_dust
+    - chance: 0.2
+      id:
+      - gravel
+pulverizer_sulfur:
+  inputs:
+    item:
+    - id:
+      - sulfur
+  outputs:
+    item:
+    - count: 1
+      id:
+      - sulfur_dust
+pulverizer_sulfur_ore:
+  experience: 0.5
+  inputs:
+    item:
+    - id:
+      - sulfur_ore
+  outputs:
+    item:
+    - chance: 6.5
+      id:
+      - sulfur
+pulverizer_tin_ingot_to_dust:
+  energy_mod: 0.5
+  inputs:
+    item:
+    - id:
+      - tin_ingot
+  outputs:
+    item:
+    - count: 1
+      id:
+      - tin_dust
+pulverizer_tin_ore:
+  experience: 0.2
+  inputs:
+    item:
+    - id:
+      - tin_ore
+  outputs:
+    item:
+    - chance: 2.0
+      id:
+      - tin_dust
+    - chance: 0.5
+      id:
+      - apatite
+    - chance: 0.2
+      id:
+      - gravel

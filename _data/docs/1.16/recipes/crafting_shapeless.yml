@@ -1,0 +1,2048 @@
+apatite_dust_from_apatite:
+  inputs:
+    item:
+    - id:
+      - apatite
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - id:
+      - apatite_dust
+apatite_from_block:
+  inputs:
+    item:
+    - id:
+      - apatite_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - apatite
+apple_from_block:
+  inputs:
+    item:
+    - id:
+      - apple_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - apple
+aquachow_4:
+  inputs:
+    item:
+    - id:
+      - wheat
+    - id:
+      - wheat
+    - id:
+      - slime_ball
+  outputs:
+    item:
+    - count: 4
+      id:
+      - aquachow
+bamboo_from_block:
+  inputs:
+    item:
+    - id:
+      - bamboo_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - bamboo
+barley_from_block:
+  inputs:
+    item:
+    - id:
+      - barley_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - barley
+basalz_powder:
+  inputs:
+    item:
+    - id:
+      - basalz_rod
+  outputs:
+    item:
+    - count: 2
+      id:
+      - basalz_powder
+beetroot_from_block:
+  inputs:
+    item:
+    - id:
+      - beetroot_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - beetroot
+bell_pepper_from_block:
+  inputs:
+    item:
+    - id:
+      - bell_pepper_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - bell_pepper
+bitumen_from_block:
+  inputs:
+    item:
+    - id:
+      - bitumen_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - bitumen
+black_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - black_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - black_concrete_powder
+black_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - black_dye
+  outputs:
+    item:
+    - id:
+      - black_rockwool
+blitz_powder:
+  inputs:
+    item:
+    - id:
+      - blitz_rod
+  outputs:
+    item:
+    - count: 2
+      id:
+      - blitz_powder
+blizz_powder:
+  inputs:
+    item:
+    - id:
+      - blizz_rod
+  outputs:
+    item:
+    - count: 2
+      id:
+      - blizz_powder
+blue_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - blue_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - blue_concrete_powder
+blue_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - blue_dye
+  outputs:
+    item:
+    - id:
+      - blue_rockwool
+bronze_dust_4:
+  inputs:
+    item:
+    - id:
+      - copper_dust
+    - id:
+      - copper_dust
+    - id:
+      - copper_dust
+    - id:
+      - tin_dust
+  outputs:
+    item:
+    - count: 4
+      id:
+      - bronze_dust
+bronze_ingot_4:
+  inputs:
+    item:
+    - id:
+      - copper_dust
+      - copper_ingot
+    - id:
+      - copper_dust
+      - copper_ingot
+    - id:
+      - copper_dust
+      - copper_ingot
+    - id:
+      - tin_dust
+      - tin_ingot
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 4
+      id:
+      - bronze_ingot
+bronze_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - bronze_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - bronze_ingot
+bronze_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - bronze_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - bronze_nugget
+brown_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - brown_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - brown_concrete_powder
+brown_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - brown_dye
+  outputs:
+    item:
+    - id:
+      - brown_rockwool
+carrot_from_block:
+  inputs:
+    item:
+    - id:
+      - carrot_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - carrot
+charcoal_from_block:
+  inputs:
+    item:
+    - id:
+      - charcoal_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - charcoal
+cinnabar_dust_from_cinnabar:
+  inputs:
+    item:
+    - id:
+      - cinnabar
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - id:
+      - cinnabar_dust
+cinnabar_from_block:
+  inputs:
+    item:
+    - id:
+      - cinnabar_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - cinnabar
+coal_coke_from_block:
+  inputs:
+    item:
+    - id:
+      - coal_coke_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - coal_coke
+coffee_from_block:
+  inputs:
+    item:
+    - id:
+      - coffee_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - coffee
+constantan_dust_2:
+  inputs:
+    item:
+    - id:
+      - copper_dust
+    - id:
+      - nickel_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - constantan_dust
+constantan_ingot_2:
+  inputs:
+    item:
+    - id:
+      - copper_dust
+      - copper_ingot
+    - id:
+      - nickel_dust
+      - nickel_ingot
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 2
+      id:
+      - constantan_ingot
+constantan_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - constantan_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - constantan_ingot
+constantan_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - constantan_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - constantan_nugget
+copper_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - copper_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - copper_ingot
+copper_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - copper_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - copper_nugget
+corn_from_block:
+  inputs:
+    item:
+    - id:
+      - corn_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - corn
+cured_rubber_from_block:
+  inputs:
+    item:
+    - id:
+      - cured_rubber_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - cured_rubber
+cyan_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - cyan_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - cyan_concrete_powder
+cyan_dye_from_apatite:
+  inputs:
+    item:
+    - id:
+      - apatite
+  outputs:
+    item:
+    - id:
+      - cyan_dye
+cyan_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - cyan_dye
+  outputs:
+    item:
+    - id:
+      - cyan_rockwool
+deep_aquachow_4:
+  inputs:
+    item:
+    - id:
+      - wheat
+    - id:
+      - beetroot
+    - id:
+      - slime_ball
+    - id:
+      - lead_nugget
+  outputs:
+    item:
+    - count: 4
+      id:
+      - deep_aquachow
+diamond_dust_from_diamond:
+  inputs:
+    item:
+    - id:
+      - diamond
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - id:
+      - diamond_dust
+earth_charge_3:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - basalz_powder
+    - id:
+      - coal
+      - charcoal
+  outputs:
+    item:
+    - count: 3
+      id:
+      - earth_charge
+earth_charge_ender_pearl_dust_from_ender_pearl:
+  inputs:
+    item:
+    - id:
+      - ender_pearl
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - id:
+      - ender_pearl_dust
+ectoplasm:
+  inputs:
+    item:
+    - id:
+      - ghast_tear
+    - id:
+      - slime_ball
+  outputs:
+    item:
+    - id:
+      - ectoplasm
+eggplant_from_block:
+  inputs:
+    item:
+    - id:
+      - eggplant_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - eggplant
+electrum_dust_2:
+  inputs:
+    item:
+    - id:
+      - gold_dust
+    - id:
+      - silver_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - electrum_dust
+electrum_ingot_2:
+  inputs:
+    item:
+    - id:
+      - gold_dust
+      - gold_ingot
+    - id:
+      - silver_dust
+      - silver_ingot
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 2
+      id:
+      - electrum_ingot
+electrum_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - electrum_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - electrum_ingot
+electrum_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - electrum_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - electrum_nugget
+emerald_dust_from_emerald:
+  inputs:
+    item:
+    - id:
+      - emerald
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - id:
+      - emerald_dust
+enderium_dust_2:
+  inputs:
+    item:
+    - id:
+      - lead_dust
+    - id:
+      - lead_dust
+    - id:
+      - lead_dust
+    - id:
+      - diamond_dust
+    - id:
+      - ender_pearl
+      - ender_pearl_dust
+    - id:
+      - ender_pearl
+      - ender_pearl_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - enderium_dust
+enderium_glass_2:
+  inputs:
+    item:
+    - id:
+      - obsidian_glass
+    - id:
+      - obsidian_glass
+    - id:
+      - enderium_dust
+      - enderium_ingot
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 2
+      id:
+      - enderium_glass
+enderium_ingot_2:
+  inputs:
+    item:
+    - id:
+      - lead_dust
+      - lead_ingot
+    - id:
+      - lead_dust
+      - lead_ingot
+    - id:
+      - lead_dust
+      - lead_ingot
+    - id:
+      - diamond_dust
+    - id:
+      - ender_pearl
+      - ender_pearl_dust
+    - id:
+      - ender_pearl
+      - ender_pearl_dust
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 2
+      id:
+      - enderium_ingot
+enderium_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - enderium_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - enderium_ingot
+enderium_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - enderium_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - enderium_nugget
+flax_from_block:
+  inputs:
+    item:
+    - id:
+      - flax_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - flax
+frost_melon_seeds:
+  inputs:
+    item:
+    - id:
+      - frost_melon_slice
+  outputs:
+    item:
+    - id:
+      - frost_melon_seeds
+glowstone_mushroom_spores:
+  inputs:
+    item:
+    - id:
+      - red_mushroom
+    - id:
+      - glowstone_dust
+    - id:
+      - phytogro
+    - id:
+      - experience_bottle
+  outputs:
+    item:
+    - id:
+      - glowstone_mushroom_spores
+gray_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - gray_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - gray_concrete_powder
+gray_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - gray_dye
+  outputs:
+    item:
+    - id:
+      - gray_rockwool
+green_bean_from_block:
+  inputs:
+    item:
+    - id:
+      - green_bean_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - green_bean
+green_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - green_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - green_concrete_powder
+green_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - green_dye
+  outputs:
+    item:
+    - id:
+      - green_rockwool
+guidebook:
+  inputs:
+    item:
+    - id:
+      - book
+    - id:
+      - wrench
+  outputs:
+    item:
+    - id:
+      - guide_book
+      nbt: book":"thermal:guidebook"}
+gunpowder_4:
+  inputs:
+    item:
+    - id:
+      - charcoal
+    - id:
+      - niter
+      - niter_dust
+    - id:
+      - niter
+      - niter_dust
+    - id:
+      - sulfur
+      - sulfur_dust
+  outputs:
+    item:
+    - count: 4
+      id:
+      - gunpowder
+gunpowder_from_block:
+  inputs:
+    item:
+    - id:
+      - gunpowder_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - gunpowder
+gunpowder_mushroom_spores:
+  inputs:
+    item:
+    - id:
+      - brown_mushroom
+    - id:
+      - gunpowder
+    - id:
+      - phytogro
+    - id:
+      - experience_bottle
+  outputs:
+    item:
+    - id:
+      - gunpowder_mushroom_spores
+hops_from_block:
+  inputs:
+    item:
+    - id:
+      - hops_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - hops
+ice_charge_3:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - blizz_powder
+    - id:
+      - coal
+      - charcoal
+  outputs:
+    item:
+    - count: 3
+      id:
+      - ice_charge
+ice_from_water_bucket:
+  inputs:
+    item:
+    - id:
+      - water_bucket
+    - id:
+      - ice_charge
+  outputs:
+    item:
+    - id:
+      - ice
+invar_dust_3:
+  inputs:
+    item:
+    - id:
+      - iron_dust
+    - id:
+      - iron_dust
+    - id:
+      - nickel_dust
+  outputs:
+    item:
+    - count: 3
+      id:
+      - invar_dust
+invar_ingot_3:
+  inputs:
+    item:
+    - id:
+      - iron_dust
+      - iron_ingot
+    - id:
+      - iron_dust
+      - iron_ingot
+    - id:
+      - nickel_dust
+      - nickel_ingot
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 3
+      id:
+      - invar_ingot
+invar_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - invar_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - invar_ingot
+invar_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - invar_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - invar_nugget
+lapis_dust_from_lapis:
+  inputs:
+    item:
+    - id:
+      - lapis_lazuli
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - id:
+      - lapis_dust
+lead_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - lead_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - lead_ingot
+lead_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - lead_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - lead_nugget
+light_blue_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - light_blue_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - light_blue_concrete_powder
+light_blue_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - light_blue_dye
+  outputs:
+    item:
+    - id:
+      - light_blue_rockwool
+light_gray_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - light_gray_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - light_gray_concrete_powder
+light_gray_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - light_gray_dye
+  outputs:
+    item:
+    - id:
+      - light_gray_rockwool
+lightning_charge_3:
+  inputs:
+    item:
+    - id:
+      - gunpowder
+    - id:
+      - blitz_powder
+    - id:
+      - coal
+      - charcoal
+  outputs:
+    item:
+    - count: 3
+      id:
+      - lightning_charge
+lime_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - lime_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - lime_concrete_powder
+lime_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - lime_dye
+  outputs:
+    item:
+    - id:
+      - lime_rockwool
+lumium_dust_4:
+  inputs:
+    item:
+    - id:
+      - tin_dust
+    - id:
+      - tin_dust
+    - id:
+      - tin_dust
+    - id:
+      - silver_dust
+    - id:
+      - glowstone_dust
+    - id:
+      - glowstone_dust
+  outputs:
+    item:
+    - count: 4
+      id:
+      - lumium_dust
+lumium_glass_2:
+  inputs:
+    item:
+    - id:
+      - obsidian_glass
+    - id:
+      - obsidian_glass
+    - id:
+      - lumium_dust
+      - lumium_ingot
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 2
+      id:
+      - lumium_glass
+lumium_ingot_4:
+  inputs:
+    item:
+    - id:
+      - tin_dust
+      - tin_ingot
+    - id:
+      - tin_dust
+      - tin_ingot
+    - id:
+      - tin_dust
+      - tin_ingot
+    - id:
+      - silver_dust
+      - silver_ingot
+    - id:
+      - glowstone_dust
+    - id:
+      - glowstone_dust
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 4
+      id:
+      - lumium_ingot
+lumium_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - lumium_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - lumium_ingot
+lumium_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - lumium_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - lumium_nugget
+magenta_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - magenta_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - magenta_concrete_powder
+magenta_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - magenta_dye
+  outputs:
+    item:
+    - id:
+      - magenta_rockwool
+nickel_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - nickel_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - nickel_ingot
+nickel_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - nickel_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - nickel_nugget
+niter_dust_from_niter:
+  inputs:
+    item:
+    - id:
+      - niter
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - id:
+      - niter_dust
+niter_from_block:
+  inputs:
+    item:
+    - id:
+      - niter_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - niter
+obsidian_from_lava_bucket:
+  inputs:
+    item:
+    - id:
+      - lava_bucket
+    - id:
+      - ice_charge
+  outputs:
+    item:
+    - id:
+      - obsidian
+obsidian_glass_2:
+  inputs:
+    item:
+    - id:
+      - obsidian
+    - id:
+      - quartz_dust
+      - quartz
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 2
+      id:
+      - obsidian_glass
+onion_from_block:
+  inputs:
+    item:
+    - id:
+      - onion_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - onion
+orange_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - orange_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - orange_concrete_powder
+orange_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - orange_dye
+  outputs:
+    item:
+    - id:
+      - orange_rockwool
+peanut_from_block:
+  inputs:
+    item:
+    - id:
+      - peanut_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - peanut
+phytogro_2:
+  inputs:
+    item:
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - bone_meal
+    - id:
+      - rich_slag
+    - id:
+      - niter
+      - niter_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - phytogro
+phytogro_4:
+  inputs:
+    item:
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - bone_meal
+    - id:
+      - apatite
+      - apatite_dust
+    - id:
+      - niter
+      - niter_dust
+  outputs:
+    item:
+    - count: 4
+      id:
+      - phytogro
+phytogro_8:
+  inputs:
+    item:
+    - id:
+      - sand
+      - red_sand
+    - id:
+      - apatite
+      - apatite_dust
+    - id:
+      - apatite
+      - apatite_dust
+    - id:
+      - niter
+      - niter_dust
+  outputs:
+    item:
+    - count: 8
+      id:
+      - phytogro
+pink_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - pink_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - pink_concrete_powder
+pink_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - pink_dye
+  outputs:
+    item:
+    - id:
+      - pink_rockwool
+potato_from_block:
+  inputs:
+    item:
+    - id:
+      - potato_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - potato
+prismarine_shard_from_prismarine:
+  inputs:
+    item:
+    - id:
+      - prismarine
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - count: 4
+      id:
+      - prismarine_shard
+prismarine_shard_from_prismarine_bricks:
+  inputs:
+    item:
+    - id:
+      - prismarine_bricks
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - count: 9
+      id:
+      - prismarine_shard
+purple_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - purple_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - purple_concrete_powder
+purple_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - purple_dye
+  outputs:
+    item:
+    - id:
+      - purple_rockwool
+quartz_dust_from_quartz:
+  inputs:
+    item:
+    - id:
+      - quartz
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - id:
+      - quartz_dust
+quartz_from_quartz_block:
+  inputs:
+    item:
+    - id:
+      - quartz_block
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - count: 4
+      id:
+      - quartz
+radish_from_block:
+  inputs:
+    item:
+    - id:
+      - radish_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - radish
+red_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - red_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - red_concrete_powder
+red_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - red_dye
+  outputs:
+    item:
+    - id:
+      - red_rockwool
+redprint:
+  inputs:
+    item:
+    - id:
+      - paper
+    - id:
+      - paper
+    - id:
+      - redstone
+    - id:
+      - redstone
+  outputs:
+    item:
+    - id:
+      - redprint
+redstone_mushroom_spores:
+  inputs:
+    item:
+    - id:
+      - red_mushroom
+    - id:
+      - redstone
+    - id:
+      - phytogro
+    - id:
+      - experience_bottle
+  outputs:
+    item:
+    - id:
+      - redstone_mushroom_spores
+rice_from_block:
+  inputs:
+    item:
+    - id:
+      - rice_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - rice
+rich_slag_from_block:
+  inputs:
+    item:
+    - id:
+      - rich_slag_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - rich_slag
+rosin_from_block:
+  inputs:
+    item:
+    - id:
+      - rosin_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - rosin
+rubber_3:
+  inputs:
+    item:
+    - id:
+      - latex_bucket
+  outputs:
+    item:
+    - count: 3
+      id:
+      - rubber
+rubber_from_block:
+  inputs:
+    item:
+    - id:
+      - rubber_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - rubber
+sadiroot_from_block:
+  inputs:
+    item:
+    - id:
+      - sadiroot_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - sadiroot
+sawdust_from_block:
+  inputs:
+    item:
+    - id:
+      - sawdust_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - sawdust
+signalum_dust_4:
+  inputs:
+    item:
+    - id:
+      - copper_dust
+    - id:
+      - copper_dust
+    - id:
+      - copper_dust
+    - id:
+      - silver_dust
+    - id:
+      - redstone
+    - id:
+      - redstone
+    - id:
+      - redstone
+    - id:
+      - redstone
+  outputs:
+    item:
+    - count: 4
+      id:
+      - signalum_dust
+signalum_glass_2:
+  inputs:
+    item:
+    - id:
+      - obsidian_glass
+    - id:
+      - obsidian_glass
+    - id:
+      - signalum_dust
+      - signalum_ingot
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 2
+      id:
+      - signalum_glass
+signalum_ingot_4:
+  inputs:
+    item:
+    - id:
+      - copper_dust
+      - copper_ingot
+    - id:
+      - copper_dust
+      - copper_ingot
+    - id:
+      - copper_dust
+      - copper_ingot
+    - id:
+      - silver_dust
+      - silver_ingot
+    - id:
+      - redstone
+    - id:
+      - redstone
+    - id:
+      - redstone
+    - id:
+      - redstone
+    - id:
+      - fire_charge
+  outputs:
+    item:
+    - count: 4
+      id:
+      - signalum_ingot
+signalum_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - signalum_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - signalum_ingot
+signalum_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - signalum_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - signalum_nugget
+silver_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - silver_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - silver_ingot
+silver_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - silver_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - silver_nugget
+slag_from_block:
+  inputs:
+    item:
+    - id:
+      - slag_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - slag
+slime_mushroom_spores:
+  inputs:
+    item:
+    - id:
+      - brown_mushroom
+    - id:
+      - slime_ball
+    - id:
+      - phytogro
+    - id:
+      - experience_bottle
+  outputs:
+    item:
+    - id:
+      - slime_mushroom_spores
+spinach_from_block:
+  inputs:
+    item:
+    - id:
+      - spinach_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - spinach
+strawberry_from_block:
+  inputs:
+    item:
+    - id:
+      - strawberry_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - strawberry
+sugar_cane_from_block:
+  inputs:
+    item:
+    - id:
+      - sugar_cane_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - sugar_cane
+sulfur_dust_from_sulfur:
+  inputs:
+    item:
+    - id:
+      - sulfur
+    - id:
+      - earth_charge
+  outputs:
+    item:
+    - id:
+      - sulfur_dust
+sulfur_from_block:
+  inputs:
+    item:
+    - id:
+      - sulfur_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - sulfur
+tar_from_block:
+  inputs:
+    item:
+    - id:
+      - tar_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tar
+tea_from_block:
+  inputs:
+    item:
+    - id:
+      - tea_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tea
+tin_ingot_from_block:
+  inputs:
+    item:
+    - id:
+      - tin_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tin_ingot
+tin_nugget_from_ingot:
+  inputs:
+    item:
+    - id:
+      - tin_ingot
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tin_nugget
+tomato_from_block:
+  inputs:
+    item:
+    - id:
+      - tomato_block
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tomato
+white_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - white_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - white_concrete_powder
+witch_from_villager:
+  inputs:
+    item:
+    - id:
+      - villager_spawn_egg
+    - id:
+      - lightning_charge
+  outputs:
+    item:
+    - id:
+      - witch_spawn_egg
+yellow_concrete_powder_with_slag:
+  group: concrete_powder
+  inputs:
+    item:
+    - id:
+      - yellow_dye
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - sand
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+    - id:
+      - slag
+  outputs:
+    item:
+    - count: 8
+      id:
+      - yellow_concrete_powder
+yellow_rockwool_from_dye:
+  inputs:
+    item:
+    - id:
+      - white_rockwool
+    - id:
+      - yellow_dye
+  outputs:
+    item:
+    - id:
+      - yellow_rockwool
+zombified_piglin_from_pig:
+  inputs:
+    item:
+    - id:
+      - pig_spawn_egg
+    - id:
+      - lightning_charge
+  outputs:
+    item:
+    - id:
+      - zombified_piglin_spawn_egg

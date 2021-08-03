@@ -1,0 +1,22 @@
+fisher_boost_aquachow:
+  inputs:
+    item:
+    - id:
+      - aquachow
+  output_mod: 1.5
+  use_chance: 0.5
+fisher_boost_deep_aquachow:
+  inputs:
+    item:
+    - id:
+      - deep_aquachow
+  loot_table: gameplay/fishing/deep
+  output_mod: 1.75
+  use_chance: 0.4
+fisher_boost_junk_net:
+  inputs:
+    item:
+    - id:
+      - junk_net
+  loot_table: gameplay/fishing/junk
+  use_chance: 0.0

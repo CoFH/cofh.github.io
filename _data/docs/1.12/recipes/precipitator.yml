@@ -1,0 +1,57 @@
+ice:
+  energy: 1600
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-ice
+packed-ice:
+  energy: 1600
+  inputs:
+    fluid:
+    - amount: 2000
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-packed-ice
+snow:
+  energy: 800
+  inputs:
+    fluid:
+    - amount: 500
+      id:
+      - mc-water
+  outputs:
+    item:
+    - id:
+      - mc-snow
+snow-layer:
+  energy: 800
+  inputs:
+    fluid:
+    - amount: 500
+      id:
+      - mc-water
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-snow-layer
+snowball:
+  energy: 800
+  inputs:
+    fluid:
+    - amount: 500
+      id:
+      - mc-water
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-snowball

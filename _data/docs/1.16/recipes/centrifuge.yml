@@ -1,0 +1,326 @@
+centrifuge_allium:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - allium
+  outputs:
+    item:
+    - count: 3
+      id:
+      - magenta_dye
+centrifuge_azure_bluet:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - azure_bluet
+  outputs:
+    item:
+    - count: 3
+      id:
+      - light_gray_dye
+centrifuge_blue_orchid:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - blue_orchid
+  outputs:
+    item:
+    - count: 3
+      id:
+      - light_blue_dye
+centrifuge_bronze_dust:
+  energy: 4000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - bronze_dust
+  outputs:
+    item:
+    - count: 3
+      id:
+      - copper_dust
+    - id:
+      - tin_dust
+centrifuge_constantan_dust:
+  energy: 2000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - constantan_dust
+  outputs:
+    item:
+    - id:
+      - copper_dust
+    - id:
+      - nickel_dust
+centrifuge_cornflower:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - cornflower
+  outputs:
+    item:
+    - count: 3
+      id:
+      - blue_dye
+centrifuge_dandelion:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - dandelion
+  outputs:
+    item:
+    - count: 3
+      id:
+      - yellow_dye
+centrifuge_ectoplasm:
+  inputs:
+    item:
+    - id:
+      - ectoplasm
+  outputs:
+    item:
+    - id:
+      - slime_ball
+    - id:
+      - ghast_tear
+centrifuge_electrum_dust:
+  energy: 2000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - electrum_dust
+  outputs:
+    item:
+    - id:
+      - gold_dust
+    - id:
+      - silver_dust
+centrifuge_flax:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - flax
+  outputs:
+    item:
+    - count: 2
+      id:
+      - string
+centrifuge_honeycomb:
+  inputs:
+    item:
+    - id:
+      - honeycomb
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - fluid_honey
+centrifuge_invar_dust:
+  energy: 3000
+  inputs:
+    item:
+    - count: 3
+      id:
+      - invar_dust
+  outputs:
+    item:
+    - count: 2
+      id:
+      - iron_dust
+    - id:
+      - nickel_dust
+centrifuge_lilac:
+  energy: 3200
+  inputs:
+    item:
+    - id:
+      - lilac
+  outputs:
+    item:
+    - count: 6
+      id:
+      - magenta_dye
+centrifuge_lily_of_the_valley:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - lily_of_the_valley
+  outputs:
+    item:
+    - count: 3
+      id:
+      - white_dye
+centrifuge_magma_cream:
+  inputs:
+    item:
+    - id:
+      - magma_cream
+  outputs:
+    item:
+    - id:
+      - slime_ball
+    - id:
+      - blaze_powder
+centrifuge_oil_red_sand:
+  energy: 20000
+  inputs:
+    item:
+    - id:
+      - oil_red_sand
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - fluid_crude_oil
+    item:
+    - count: 0.75
+      id:
+      - red_sand
+    - chance: 1.5
+      id:
+      - bitumen
+    - chance: 1.0
+      id:
+      - tar
+centrifuge_oil_sand:
+  energy: 20000
+  inputs:
+    item:
+    - id:
+      - oil_sand
+  outputs:
+    fluid:
+    - amount: 100
+      id:
+      - fluid_crude_oil
+    item:
+    - count: 0.75
+      id:
+      - sand
+    - chance: 1.5
+      id:
+      - bitumen
+    - chance: 1.0
+      id:
+      - tar
+centrifuge_orange_tulip:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - orange_tulip
+  outputs:
+    item:
+    - count: 3
+      id:
+      - orange_dye
+centrifuge_oxeye_daisy:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - oxeye_daisy
+  outputs:
+    item:
+    - count: 3
+      id:
+      - light_gray_dye
+centrifuge_peony:
+  energy: 3200
+  inputs:
+    item:
+    - id:
+      - peony
+  outputs:
+    item:
+    - count: 6
+      id:
+      - pink_dye
+centrifuge_pink_tulip:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - pink_tulip
+  outputs:
+    item:
+    - count: 3
+      id:
+      - pink_dye
+centrifuge_poppy:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - poppy
+  outputs:
+    item:
+    - count: 3
+      id:
+      - red_dye
+centrifuge_red_tulip:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - red_tulip
+  outputs:
+    item:
+    - count: 3
+      id:
+      - red_dye
+centrifuge_rose_bush:
+  energy: 3200
+  inputs:
+    item:
+    - id:
+      - rose_bush
+  outputs:
+    item:
+    - count: 6
+      id:
+      - red_dye
+centrifuge_sunflower:
+  energy: 3200
+  inputs:
+    item:
+    - id:
+      - sunflower
+  outputs:
+    item:
+    - count: 6
+      id:
+      - yellow_dye
+centrifuge_white_tulip:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - white_tulip
+  outputs:
+    item:
+    - count: 3
+      id:
+      - light_gray_dye
+centrifuge_wither_rose:
+  energy: 1600
+  inputs:
+    item:
+    - id:
+      - wither_rose
+  outputs:
+    item:
+    - count: 3
+      id:
+      - black_dye

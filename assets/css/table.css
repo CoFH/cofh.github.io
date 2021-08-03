@@ -1,0 +1,129 @@
+---
+layout: null
+---
+/* General table properties */
+th, td {
+  padding: 5px 10px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table thead {
+  background-color: var(--bg-color-4);
+}
+
+table tbody tr:nth-child(even) {
+  background-color: var(--bg-color-3);
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: var(--bg-color-2);
+}
+
+table caption {
+  white-space: nowrap;
+}
+
+.tables-collapsed table :is(thead, tbody) {
+	display: none;
+}
+
+.tables-collapsed table caption::before {
+	content: "• ";
+}
+
+@media only screen and (max-width:600px) {
+  .docs-recipe-tables {
+    overflow-x: auto;
+  }
+}
+
+
+/* Info table - used for larger information, often containing pictures */
+.info-table {
+	margin: 10px 0;
+}
+
+.info-table thead td {
+	background-color: var(--bg-color-3);
+}
+
+.info-table tbody tr td {
+	background-color: var(--bg-color-1);
+  text-align: left;
+}
+
+.info-table :is(th, td) {
+	border: 1px solid var(--main-text-color);
+}
+
+/* Data table - used for smaller, entirely text/numeric data */
+
+/* Nav table - used for the navbox at the bottom of docs pages */
+.nav-table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  width: 100%;
+  border: 2px solid var(--bg-color-4);
+  background-color: var(--bg-color-1);
+  margin-top: 15px;
+}
+
+.nav-table :is(td, th) {
+  padding: 5px;
+}
+
+.nav-table tbody th {
+  background-color: var(--bg-color-2);
+}
+
+.nav-table tbody td {
+  background-color: var(--bg-color-1);
+  text-align: left;
+}
+
+.nav-table tbody th[colspan="2"] {
+  background-color: var(--bg-color-3);
+}
+
+/* Team members table - used for the about page */
+.team-table {
+  width: 100%
+}
+
+.team-table :is(th, td) {
+  padding: 0;
+}
+
+.team-table a {
+  font-size: 200%;
+  color: var(--main-text-color);
+}
+
+.team-table a:is(:hover, :focus) {
+  color: var(--link-text-color);
+}
+
+.team-table td:first-child {
+  line-height: 0;
+  width: 1px; 
+  white-space: nowrap;
+}
+
+.team-table td:last-child {
+  width: 1px; 
+  white-space: nowrap;
+}
+
+.team-table td img {
+  width: 64px;
+  height: 64px;
+  line-height: 0;
+}
+
+.team-table td {
+  padding: 7px;
+}

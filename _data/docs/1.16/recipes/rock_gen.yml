@@ -1,0 +1,20 @@
+rock_gen_basalt:
+  adjacent: blue_ice
+  below: soul_soil
+  outputs:
+    item:
+    - id:
+      - basalt
+rock_gen_cobblestone:
+  adjacent: water
+  outputs:
+    item:
+    - id:
+      - cobblestone
+rock_gen_stone:
+  adjacent: water
+  below: magma_block
+  outputs:
+    item:
+    - id:
+      - stone

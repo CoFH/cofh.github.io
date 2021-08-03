@@ -1,0 +1,38 @@
+{%- if include.ids -%}
+  {%- unless ver -%}
+    {%- assign ver = page.version | replace: ".", "" -%}
+  {%- endunless -%}
+  
+  {%- assign slot-links = '' | split: '' -%}
+  {%- for id in include.ids limit: 3 -%}
+    {%- for cache-id in cache-ids -%}
+      {%- if cache-id == id -%}
+        {%- assign slot-links = slot-links | push: cache-links[forloop.index0] -%}
+        {%- break -%}
+      {%- endif -%}
+      
+      {%- if forloop.last -%}
+        {%- assign cache-ids = cache-ids | push: id -%}
+        {%- capture link -%}{% include docs/get-link.html id=id %}{%- endcapture -%}
+        {%- assign cache-links = cache-links | push: link -%}
+        {%- assign slot-links = slot-links | push: link -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  
+  {%- for id in include.ids -%}
+    {%- assign link = slot-links[forloop.index0] -%}
+    {%- unless forloop.first or forloop.length <= 2 -%},{%- endunless -%}
+    {%- if forloop.index0 > 0 and forloop.last %} or{%- endif -%}
+    {%- if forloop.index0 > 0 and site.data.docs[ver].items-fluids[id].name.size >= 10 -%}<br>{%- endif -%}
+    
+    {%- if link == nil or link == "" %} {{site.data.docs[ver].items-fluids[id].name}}
+    {%- else %} <a href="{{link}}">{{site.data.docs[ver].items-fluids[id].name}}</a>
+    {%- endif -%}
+    
+    {%- if forloop.index0 >= 2 and forloop.last == false -%}
+      , etc.
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}

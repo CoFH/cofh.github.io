@@ -1,7 +1,6 @@
 ---
 title: About Team CoFH
-layout: simple_info
-redirect_from: /about.html
+layout: simple
 ---
 
 History
@@ -30,7 +29,7 @@ wasn't until the third iteration that the mod became fully independent.
 
 Since then, more people joined the team, Thermal Expansion got rewritten a bunch
 of times, new mods were made, some were abandoned again, and Minecraft Joules
-got replaced with the new [Redstone Flux](/docs/redstone-flux/). Team CoFH is
+got replaced with the new Redstone Flux. Team CoFH is
 still around today, with their various mods still alive and being worked on.
 
 

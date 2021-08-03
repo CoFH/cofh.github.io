@@ -1,0 +1,35 @@
+---
+category: Items
+recipes:
+  crafting-shaped:
+  - tf-1-12-crescent-hammer
+show-image: false
+subcategory: Utilities
+subjects:
+- tf-1-12-crescent-hammer
+title: Crescent Hammer
+---
+
+![Crescent hammer](/assets/images/docs/1.12/thermal-foundation/crescent-hammer.png){:style="height: 128px"}
+
+> Any tool is a hammer if you really need one.
+
+
+A **crescent hammer** is a type of [wrench](../../wrenches/) added by the
+Thermal Series.
+
+
+Obtaining
+---------
+
+### Crafting
+{% include docs/recipe/table/table.html recipe-type='crafting-shaped' recipe-ids=page.recipes.crafting-shaped no-result=true %}
+
+
+Usage
+-----
+
+A crescent hammer serves as a [wrench](../../wrenches/#usage).
+
+### Weapon
+When used as a weapon, a crescent hammer deals 2 damage.

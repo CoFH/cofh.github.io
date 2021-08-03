@@ -1,0 +1,34 @@
+---
+category: Materials
+recipes:
+  crafting-shapeless:
+  - tf-1-12-nugget-bronze
+show-image: false
+subcategory: Nuggets
+subjects:
+- tf-1-12-nugget-bronze
+title: Bronze Nugget
+usage-recipes:
+  crafting-shaped:
+  - tf-1-12-ingot-bronze-from-nuggets
+---
+
+![Bronze nugget](/assets/images/docs/1.12/thermal-foundation/nugget-bronze.png){:style="height: 128px"}
+
+
+**Bronze nuggets** are raw materials. They are the nugget form of
+[bronze](../bronze-ingot/).
+
+
+Obtaining
+---------
+
+### Crafting
+{% include docs/recipe/table/table.html recipe-type='crafting-shapeless' recipe-ids=page.recipes.crafting-shapeless no-result=true %}
+
+
+Usage
+-----
+
+### Crafting ingredient
+{% include docs/recipe/table/table.html recipe-type='crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped %}

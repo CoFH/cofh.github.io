@@ -1,0 +1,3784 @@
+ra-1-12-dust-fluxed-electrum-using-electrum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-electrum
+    - id:
+      - tf-1-12-dust-electrum
+    - id:
+      - tf-1-12-bucket-redstone
+  outputs:
+    item:
+    - count: 2
+      id:
+      - ra-1-12-dust-fluxed-electrum
+ra-1-12-dust-fluxed-electrum-using-gold-and-silver:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-gold
+    - id:
+      - tf-1-12-dust-silver
+    - id:
+      - tf-1-12-bucket-redstone
+  outputs:
+    item:
+    - count: 2
+      id:
+      - ra-1-12-dust-fluxed-electrum
+ra-1-12-flux-crystal:
+  inputs:
+    item:
+    - id:
+      - mc-diamond
+    - id:
+      - mc-diamond
+    - id:
+      - tf-1-12-bucket-redstone
+  outputs:
+    item:
+    - count: 2
+      id:
+      - ra-1-12-flux-crystal
+ra-1-12-flux-crystal-from-block:
+  inputs:
+    item:
+    - id:
+      - ra-1-12-storage-block-flux-crystal
+  outputs:
+    item:
+    - count: 9
+      id:
+      - ra-1-12-flux-crystal
+ra-1-12-ingot-fluxed-electrum-from-block:
+  inputs:
+    item:
+    - id:
+      - ra-1-12-storage-block-fluxed-electrum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - ra-1-12-ingot-fluxed-electrum
+ra-1-12-nugget-fluxed-electrum:
+  inputs:
+    item:
+    - id:
+      - ra-1-12-ingot-fluxed-electrum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - ra-1-12-nugget-fluxed-electrum
+td-1-12-covers:
+  inputs:
+    item:
+    - id:
+      - td-1-12-structuralduct
+    - id:
+      - mc-stone
+      - mc-cobblestone
+      - mc-wood-log-oak
+      - mc-wood-planks-oak
+      - mc-sandstone
+      - mc-nether-brick
+      - mc-obsidian
+      - mc-moss-stone
+      - mc-bricks
+      - mc-granite-polished
+      - mc-diorite-polished
+      - mc-andesite-polished
+      - mc-end-stone-bricks
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-cover-mc-stone
+      - td-1-12-cover-mc-cobblestone
+      - td-1-12-cover-mc-wood-log-oak
+      - td-1-12-cover-mc-wood-planks-oak
+      - td-1-12-cover-mc-sandstone
+      - td-1-12-cover-mc-nether-brick
+      - td-1-12-cover-mc-obsidian
+      - td-1-12-cover-mc-moss-stone
+      - td-1-12-cover-mc-bricks
+      - td-1-12-cover-mc-granite-polished
+      - td-1-12-cover-mc-diorite-polished
+      - td-1-12-cover-mc-andesite-polished
+      - td-1-12-cover-mc-end-stone-bricks
+td-1-12-filter-hardened-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-filter-basic
+    - id:
+      - tf-1-12-ingot-invar
+  outputs:
+    item:
+    - id:
+      - td-1-12-filter-hardened
+td-1-12-filter-reinforced-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-filter-basic
+      - td-1-12-filter-hardened
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - id:
+      - td-1-12-filter-reinforced
+td-1-12-filter-resonant-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-filter-basic
+      - td-1-12-filter-hardened
+      - td-1-12-filter-reinforced
+      - td-1-12-filter-signalum
+    - id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - id:
+      - td-1-12-filter-resonant
+td-1-12-filter-signalum-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-filter-basic
+      - td-1-12-filter-hardened
+      - td-1-12-filter-reinforced
+    - id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - id:
+      - td-1-12-filter-signalum
+td-1-12-fluiduct-basic-opaque-from-transparent:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-basic
+    - id:
+      - td-1-12-fluiduct-basic
+    - id:
+      - td-1-12-fluiduct-basic
+    - id:
+      - td-1-12-fluiduct-basic
+    - id:
+      - td-1-12-fluiduct-basic
+    - id:
+      - td-1-12-fluiduct-basic
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-fluiduct-basic-opaque
+td-1-12-fluiduct-basic-transparent-from-opaque:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-basic-opaque
+    - id:
+      - td-1-12-fluiduct-basic-opaque
+    - id:
+      - td-1-12-fluiduct-basic-opaque
+    - id:
+      - td-1-12-fluiduct-basic-opaque
+    - id:
+      - td-1-12-fluiduct-basic-opaque
+    - id:
+      - td-1-12-fluiduct-basic-opaque
+    - id:
+      - mc-glass
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-fluiduct-basic
+td-1-12-fluiduct-energy-one:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-hardened
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-electrum
+    - id:
+      - tf-1-12-nugget-electrum
+    - id:
+      - tf-1-12-nugget-electrum
+  outputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-energy
+      - td-1-12-fluiduct-energy-opaque
+td-1-12-fluiduct-energy-opaque-from-transparent:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-energy
+    - id:
+      - td-1-12-fluiduct-energy
+    - id:
+      - td-1-12-fluiduct-energy
+    - id:
+      - td-1-12-fluiduct-energy
+    - id:
+      - td-1-12-fluiduct-energy
+    - id:
+      - td-1-12-fluiduct-energy
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-fluiduct-energy-opaque
+td-1-12-fluiduct-energy-three:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-hardened
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - td-1-12-fluiduct-hardened
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - td-1-12-fluiduct-hardened
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - tf-1-12-ingot-signalum
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - count: 3
+      id:
+      - td-1-12-fluiduct-energy
+      - td-1-12-fluiduct-energy-opaque
+td-1-12-fluiduct-energy-transparent-from-opaque:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-energy-opaque
+    - id:
+      - td-1-12-fluiduct-energy-opaque
+    - id:
+      - td-1-12-fluiduct-energy-opaque
+    - id:
+      - td-1-12-fluiduct-energy-opaque
+    - id:
+      - td-1-12-fluiduct-energy-opaque
+    - id:
+      - td-1-12-fluiduct-energy-opaque
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-fluiduct-energy
+td-1-12-fluiduct-hardened-opaque-from-transparent:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-hardened
+    - id:
+      - td-1-12-fluiduct-hardened
+    - id:
+      - td-1-12-fluiduct-hardened
+    - id:
+      - td-1-12-fluiduct-hardened
+    - id:
+      - td-1-12-fluiduct-hardened
+    - id:
+      - td-1-12-fluiduct-hardened
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-fluiduct-hardened-opaque
+td-1-12-fluiduct-hardened-transparent-from-opaque:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - td-1-12-fluiduct-hardened-opaque
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-fluiduct-hardened
+td-1-12-fluiduct-super-opaque-from-transparent:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-super
+    - id:
+      - td-1-12-fluiduct-super
+    - id:
+      - td-1-12-fluiduct-super
+    - id:
+      - td-1-12-fluiduct-super
+    - id:
+      - td-1-12-fluiduct-super
+    - id:
+      - td-1-12-fluiduct-super
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-fluiduct-super-opaque
+td-1-12-fluiduct-super-transparent-from-opaque:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluiduct-super-opaque
+    - id:
+      - td-1-12-fluiduct-super-opaque
+    - id:
+      - td-1-12-fluiduct-super-opaque
+    - id:
+      - td-1-12-fluiduct-super-opaque
+    - id:
+      - td-1-12-fluiduct-super-opaque
+    - id:
+      - td-1-12-fluiduct-super-opaque
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-fluiduct-super
+td-1-12-fluxduct-hardened-one:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-basic
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-nugget-invar
+    - id:
+      - tf-1-12-nugget-invar
+    - id:
+      - tf-1-12-nugget-invar
+  outputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-hardened
+td-1-12-fluxduct-hardened-three:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-basic
+    - id:
+      - td-1-12-fluxduct-basic
+    - id:
+      - td-1-12-fluxduct-basic
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-ingot-invar
+  outputs:
+    item:
+    - count: 3
+      id:
+      - td-1-12-fluxduct-hardened
+td-1-12-fluxduct-resonant-empty-one:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-signalum-empty
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-nugget-enderium
+    - id:
+      - tf-1-12-nugget-enderium
+    - id:
+      - tf-1-12-nugget-enderium
+  outputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-resonant-empty
+td-1-12-fluxduct-resonant-empty-three:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-signalum-empty
+    - id:
+      - td-1-12-fluxduct-signalum-empty
+    - id:
+      - td-1-12-fluxduct-signalum-empty
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - count: 3
+      id:
+      - td-1-12-fluxduct-resonant-empty
+td-1-12-fluxduct-resonant-one:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-signalum
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-nugget-enderium
+    - id:
+      - tf-1-12-nugget-enderium
+    - id:
+      - tf-1-12-nugget-enderium
+  outputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-resonant
+td-1-12-fluxduct-resonant-three:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-signalum
+    - id:
+      - td-1-12-fluxduct-signalum
+    - id:
+      - td-1-12-fluxduct-signalum
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - count: 3
+      id:
+      - td-1-12-fluxduct-resonant
+td-1-12-fluxduct-signalum-empty-one:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-reinforced-empty
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+  outputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-signalum-empty
+td-1-12-fluxduct-signalum-empty-three:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-reinforced-empty
+    - id:
+      - td-1-12-fluxduct-reinforced-empty
+    - id:
+      - td-1-12-fluxduct-reinforced-empty
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - count: 3
+      id:
+      - td-1-12-fluxduct-signalum-empty
+td-1-12-fluxduct-signalum-one:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-reinforced
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+  outputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-signalum
+td-1-12-fluxduct-signalum-three:
+  inputs:
+    item:
+    - id:
+      - td-1-12-fluxduct-reinforced
+    - id:
+      - td-1-12-fluxduct-reinforced
+    - id:
+      - td-1-12-fluxduct-reinforced
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - count: 3
+      id:
+      - td-1-12-fluxduct-signalum
+td-1-12-itemduct-dense:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct
+      - td-1-12-itemduct-opaque
+    - id:
+      - tf-1-12-nugget-lead
+    - id:
+      - tf-1-12-nugget-lead
+    - id:
+      - tf-1-12-nugget-lead
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-dense
+      - td-1-12-itemduct-opaque-dense
+td-1-12-itemduct-energy-dense:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy
+      - td-1-12-itemduct-energy-opaque
+    - id:
+      - tf-1-12-nugget-lead
+    - id:
+      - tf-1-12-nugget-lead
+    - id:
+      - tf-1-12-nugget-lead
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-dense
+      - td-1-12-itemduct-energy-opaque-dense
+td-1-12-itemduct-energy-fast-dense:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-fast
+      - td-1-12-itemduct-energy-fast-opaque
+    - id:
+      - tf-1-12-nugget-lead
+    - id:
+      - tf-1-12-nugget-lead
+    - id:
+      - tf-1-12-nugget-lead
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-fast-dense
+      - td-1-12-itemduct-energy-fast-opaque-dense
+td-1-12-itemduct-energy-fast-one:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-fast
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-electrum
+    - id:
+      - tf-1-12-nugget-electrum
+    - id:
+      - tf-1-12-nugget-electrum
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-fast
+      - td-1-12-itemduct-energy-fast-opaque
+td-1-12-itemduct-energy-fast-opaque-from-transparent:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-fast
+    - id:
+      - td-1-12-itemduct-energy-fast
+    - id:
+      - td-1-12-itemduct-energy-fast
+    - id:
+      - td-1-12-itemduct-energy-fast
+    - id:
+      - td-1-12-itemduct-energy-fast
+    - id:
+      - td-1-12-itemduct-energy-fast
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-itemduct-energy-fast-opaque
+td-1-12-itemduct-energy-fast-three:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-fast
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - td-1-12-itemduct-fast
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - td-1-12-itemduct-fast
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - tf-1-12-ingot-signalum
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - count: 3
+      id:
+      - td-1-12-itemduct-energy-fast
+      - td-1-12-itemduct-energy-fast-opaque
+td-1-12-itemduct-energy-fast-transparent-from-opaque:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-fast-opaque
+    - id:
+      - td-1-12-itemduct-energy-fast-opaque
+    - id:
+      - td-1-12-itemduct-energy-fast-opaque
+    - id:
+      - td-1-12-itemduct-energy-fast-opaque
+    - id:
+      - td-1-12-itemduct-energy-fast-opaque
+    - id:
+      - td-1-12-itemduct-energy-fast-opaque
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-itemduct-energy-fast
+td-1-12-itemduct-energy-fast-vacuum:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-fast
+      - td-1-12-itemduct-energy-fast-opaque
+    - id:
+      - tf-1-12-nugget-silver
+    - id:
+      - tf-1-12-nugget-silver
+    - id:
+      - tf-1-12-nugget-silver
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-fast-vacuum
+      - td-1-12-itemduct-energy-fast-opaque-vacuum
+td-1-12-itemduct-energy-one:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct
+      - td-1-12-itemduct-opaque
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-electrum
+    - id:
+      - tf-1-12-nugget-electrum
+    - id:
+      - tf-1-12-nugget-electrum
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy
+      - td-1-12-itemduct-energy-opaque
+td-1-12-itemduct-energy-opaque-from-transparent:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy
+    - id:
+      - td-1-12-itemduct-energy
+    - id:
+      - td-1-12-itemduct-energy
+    - id:
+      - td-1-12-itemduct-energy
+    - id:
+      - td-1-12-itemduct-energy
+    - id:
+      - td-1-12-itemduct-energy
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-itemduct-energy-opaque
+td-1-12-itemduct-energy-three:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct
+      - td-1-12-itemduct-opaque
+    - id:
+      - td-1-12-itemduct
+      - td-1-12-itemduct-opaque
+    - id:
+      - td-1-12-itemduct
+      - td-1-12-itemduct-opaque
+    - id:
+      - tf-1-12-ingot-signalum
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - count: 3
+      id:
+      - td-1-12-itemduct-energy
+      - td-1-12-itemduct-energy-opaque
+td-1-12-itemduct-energy-transparent-from-opaque:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-opaque
+    - id:
+      - td-1-12-itemduct-energy-opaque
+    - id:
+      - td-1-12-itemduct-energy-opaque
+    - id:
+      - td-1-12-itemduct-energy-opaque
+    - id:
+      - td-1-12-itemduct-energy-opaque
+    - id:
+      - td-1-12-itemduct-energy-opaque
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-itemduct-energy
+td-1-12-itemduct-energy-vacuum:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy
+      - td-1-12-itemduct-energy-opaque
+    - id:
+      - tf-1-12-nugget-silver
+    - id:
+      - tf-1-12-nugget-silver
+    - id:
+      - tf-1-12-nugget-silver
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-energy-vacuum
+      - td-1-12-itemduct-energy-opaque-vacuum
+td-1-12-itemduct-fast-dense:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-fast
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - tf-1-12-nugget-lead
+    - id:
+      - tf-1-12-nugget-lead
+    - id:
+      - tf-1-12-nugget-lead
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-fast-dense
+      - td-1-12-itemduct-fast-opaque-dense
+td-1-12-itemduct-fast-opaque-from-transparent:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-fast
+    - id:
+      - td-1-12-itemduct-fast
+    - id:
+      - td-1-12-itemduct-fast
+    - id:
+      - td-1-12-itemduct-fast
+    - id:
+      - td-1-12-itemduct-fast
+    - id:
+      - td-1-12-itemduct-fast
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-itemduct-fast-opaque
+td-1-12-itemduct-fast-transparent-from-opaque:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-itemduct-fast
+td-1-12-itemduct-fast-vacuum:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-fast
+      - td-1-12-itemduct-fast-opaque
+    - id:
+      - tf-1-12-nugget-silver
+    - id:
+      - tf-1-12-nugget-silver
+    - id:
+      - tf-1-12-nugget-silver
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-fast-vacuum
+      - td-1-12-itemduct-fast-opaque-vacuum
+td-1-12-itemduct-opaque-from-transparent:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct
+    - id:
+      - td-1-12-itemduct
+    - id:
+      - td-1-12-itemduct
+    - id:
+      - td-1-12-itemduct
+    - id:
+      - td-1-12-itemduct
+    - id:
+      - td-1-12-itemduct
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-itemduct-opaque
+td-1-12-itemduct-transparent-from-opaque:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct-opaque
+    - id:
+      - td-1-12-itemduct-opaque
+    - id:
+      - td-1-12-itemduct-opaque
+    - id:
+      - td-1-12-itemduct-opaque
+    - id:
+      - td-1-12-itemduct-opaque
+    - id:
+      - td-1-12-itemduct-opaque
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+  outputs:
+    item:
+    - count: 6
+      id:
+      - td-1-12-itemduct
+td-1-12-itemduct-vacuum:
+  inputs:
+    item:
+    - id:
+      - td-1-12-itemduct
+      - td-1-12-itemduct-opaque
+    - id:
+      - tf-1-12-nugget-silver
+    - id:
+      - tf-1-12-nugget-silver
+    - id:
+      - tf-1-12-nugget-silver
+  outputs:
+    item:
+    - id:
+      - td-1-12-itemduct-vacuum
+      - td-1-12-itemduct-opaque-vacuum
+td-1-12-retriever-hardened-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-retriever-basic
+    - id:
+      - tf-1-12-ingot-invar
+  outputs:
+    item:
+    - id:
+      - td-1-12-retriever-hardened
+td-1-12-retriever-reinforced-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-retriever-basic
+      - td-1-12-retriever-hardened
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - id:
+      - td-1-12-retriever-reinforced
+td-1-12-retriever-resonant-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-retriever-basic
+      - td-1-12-retriever-hardened
+      - td-1-12-retriever-reinforced
+      - td-1-12-retriever-signalum
+    - id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - id:
+      - td-1-12-retriever-resonant
+td-1-12-retriever-signalum-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-retriever-basic
+      - td-1-12-retriever-hardened
+      - td-1-12-retriever-reinforced
+    - id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - id:
+      - td-1-12-retriever-signalum
+td-1-12-servo-hardened-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-servo-basic
+    - id:
+      - tf-1-12-ingot-invar
+  outputs:
+    item:
+    - id:
+      - td-1-12-servo-hardened
+td-1-12-servo-reinforced-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-servo-basic
+      - td-1-12-servo-hardened
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - id:
+      - td-1-12-servo-reinforced
+td-1-12-servo-resonant-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-servo-basic
+      - td-1-12-servo-hardened
+      - td-1-12-servo-reinforced
+      - td-1-12-servo-signalum
+    - id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - id:
+      - td-1-12-servo-resonant
+td-1-12-servo-signalum-upgrade:
+  inputs:
+    item:
+    - id:
+      - td-1-12-servo-basic
+      - td-1-12-servo-hardened
+      - td-1-12-servo-reinforced
+    - id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - id:
+      - td-1-12-servo-signalum
+te-1-12-florb-magmatic-using-magma-cream:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-slag
+    - id:
+      - mc-magma-cream
+  outputs:
+    item:
+    - count: 4
+      id:
+      - te-1-12-florb-magmatic
+te-1-12-florb-magmatic-using-rosin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-slag
+    - id:
+      - tf-1-12-rosin
+    - id:
+      - mc-blaze-powder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - te-1-12-florb-magmatic
+te-1-12-florb-magmatic-using-slime:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-slag
+    - id:
+      - mc-slimeball
+    - id:
+      - mc-blaze-powder
+  outputs:
+    item:
+    - count: 4
+      id:
+      - te-1-12-florb-magmatic
+te-1-12-florb-using-rosin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-slag
+    - id:
+      - tf-1-12-rosin
+  outputs:
+    item:
+    - count: 4
+      id:
+      - te-1-12-florb
+te-1-12-florb-using-slime:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-slag
+    - id:
+      - mc-slimeball
+  outputs:
+    item:
+    - count: 4
+      id:
+      - te-1-12-florb
+te-1-12-morb-reusable:
+  inputs:
+    item:
+    - id:
+      - te-1-12-morb
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+    - id:
+      - tf-1-12-nugget-signalum
+  outputs:
+    item:
+    - id:
+      - te-1-12-morb-reusable
+te-1-12-morb-using-rosin:
+  inputs:
+    item:
+    - id:
+      - mc-soul-sand
+    - id:
+      - tf-1-12-slag
+    - id:
+      - tf-1-12-rosin
+    - id:
+      - mc-ender-pearl
+  outputs:
+    item:
+    - count: 8
+      id:
+      - te-1-12-morb
+te-1-12-morb-using-slime:
+  inputs:
+    item:
+    - id:
+      - mc-soul-sand
+    - id:
+      - tf-1-12-slag
+    - id:
+      - mc-slimeball
+    - id:
+      - mc-ender-pearl
+  outputs:
+    item:
+    - count: 8
+      id:
+      - te-1-12-morb
+tf-1-12-aqua-chow-rich-using-rosin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-rosin
+    - id:
+      - mc-bread
+    - id:
+      - mc-nether-wart
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-aqua-chow-rich
+tf-1-12-aqua-chow-rich-using-slime:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - mc-slimeball
+    - id:
+      - mc-bread
+    - id:
+      - mc-nether-wart
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-aqua-chow-rich
+tf-1-12-aqua-chow-using-rosin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-rosin
+    - id:
+      - mc-bread
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-aqua-chow
+tf-1-12-aqua-chow-using-slime:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - mc-slimeball
+    - id:
+      - mc-bread
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-aqua-chow
+tf-1-12-basalz-powder:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-basalz-rod
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-basalz-powder
+tf-1-12-bioblend:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+    - id:
+      - tf-1-12-biomass
+    - id:
+      - tf-1-12-biomass
+    - id:
+      - tf-1-12-sawdust
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-bioblend
+tf-1-12-blitz-powder:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-blitz-rod
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-blitz-powder
+tf-1-12-blizz-powder:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-blizz-rod
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-blizz-powder
+tf-1-12-charcoal-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-charcoal
+  outputs:
+    item:
+    - count: 9
+      id:
+      - mc-charcoal
+tf-1-12-clay-using-slag:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-slag
+    - id:
+      - tf-1-12-slag
+    - id:
+      - mc-dirt
+    - id:
+      - mc-bucket-water
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-clay
+tf-1-12-coal-coke-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-coal-coke
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-coal-coke
+tf-1-12-conversion-kit-reinforced:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-upgrade-kit-hardened
+    - id:
+      - tf-1-12-upgrade-kit-reinforced
+  outputs:
+    item:
+    - id:
+      - tf-1-12-conversion-kit-reinforced
+tf-1-12-conversion-kit-resonant-1:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-upgrade-kit-hardened
+    - id:
+      - tf-1-12-upgrade-kit-reinforced
+    - id:
+      - tf-1-12-upgrade-kit-signalum
+    - id:
+      - tf-1-12-upgrade-kit-resonant
+  outputs:
+    item:
+    - id:
+      - tf-1-12-conversion-kit-resonant
+tf-1-12-conversion-kit-resonant-2:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-conversion-kit-reinforced
+    - id:
+      - tf-1-12-upgrade-kit-signalum
+    - id:
+      - tf-1-12-upgrade-kit-resonant
+  outputs:
+    item:
+    - id:
+      - tf-1-12-conversion-kit-resonant
+tf-1-12-conversion-kit-resonant-3:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-conversion-kit-signalum
+    - id:
+      - tf-1-12-upgrade-kit-resonant
+  outputs:
+    item:
+    - id:
+      - tf-1-12-conversion-kit-resonant
+tf-1-12-conversion-kit-signalum-1:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-upgrade-kit-hardened
+    - id:
+      - tf-1-12-upgrade-kit-reinforced
+    - id:
+      - tf-1-12-upgrade-kit-signalum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-conversion-kit-signalum
+tf-1-12-conversion-kit-signalum-2:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-conversion-kit-reinforced
+    - id:
+      - tf-1-12-upgrade-kit-signalum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-conversion-kit-signalum
+tf-1-12-dirt-using-biomass-and-slag:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-biomass
+    - id:
+      - tf-1-12-biomass
+    - id:
+      - tf-1-12-slag
+    - id:
+      - tf-1-12-slag
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-dirt
+tf-1-12-dust-aerotheum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-blitz-powder
+    - id:
+      - tf-1-12-blitz-powder
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-niter
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-aerotheum
+tf-1-12-dust-bronze:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-tin
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-dust-bronze
+tf-1-12-dust-constantan:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-nickel
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-constantan
+tf-1-12-dust-cryotheum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-blizz-powder
+    - id:
+      - tf-1-12-blizz-powder
+    - id:
+      - mc-redstone
+    - id:
+      - mc-snowball
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-cryotheum
+tf-1-12-dust-electrum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-gold
+    - id:
+      - tf-1-12-dust-silver
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-electrum
+tf-1-12-dust-enderium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-lead
+    - id:
+      - tf-1-12-dust-lead
+    - id:
+      - tf-1-12-dust-lead
+    - id:
+      - tf-1-12-dust-platinum
+    - id:
+      - tf-1-12-bucket-ender
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-dust-enderium
+tf-1-12-dust-invar:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-iron
+    - id:
+      - tf-1-12-dust-iron
+    - id:
+      - tf-1-12-dust-nickel
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-dust-invar
+tf-1-12-dust-lumium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-tin
+    - id:
+      - tf-1-12-dust-tin
+    - id:
+      - tf-1-12-dust-tin
+    - id:
+      - tf-1-12-dust-silver
+    - id:
+      - tf-1-12-bucket-glowstone
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-dust-lumium
+tf-1-12-dust-petrotheum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-basalz-powder
+    - id:
+      - tf-1-12-basalz-powder
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-dust-obsidian
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-petrotheum
+tf-1-12-dust-pyrotheum:
+  inputs:
+    item:
+    - id:
+      - mc-blaze-powder
+    - id:
+      - mc-blaze-powder
+    - id:
+      - mc-redstone
+    - id:
+      - tf-1-12-sulfur
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-pyrotheum
+tf-1-12-dust-signalum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-silver
+    - id:
+      - tf-1-12-bucket-redstone
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-dust-signalum
+tf-1-12-ender-pearl-from-clathrate:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-clathrate-ender
+    - id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    item:
+    - id:
+      - mc-ender-pearl
+tf-1-12-ender-pearl-from-fluid:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-ender
+    - id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-ender-pearl
+tf-1-12-glowstone-dust-from-clathrate:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-clathrate-glowstone
+    - id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    item:
+    - id:
+      - mc-glowstone-dust
+tf-1-12-glowstone-dust-from-fluid:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-glowstone
+    - id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    item:
+    - count: 4
+      id:
+      - mc-glowstone-dust
+tf-1-12-gunpowder-using-charcoal:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-charcoal
+    - id:
+      - tf-1-12-sulfur
+    - id:
+      - tf-1-12-niter
+    - id:
+      - tf-1-12-niter
+  outputs:
+    item:
+    - id:
+      - mc-gunpowder
+tf-1-12-gunpowder-using-coal:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-coal
+    - id:
+      - tf-1-12-sulfur
+    - id:
+      - tf-1-12-niter
+    - id:
+      - tf-1-12-niter
+  outputs:
+    item:
+    - id:
+      - mc-gunpowder
+tf-1-12-hardened-glass:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-lead
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass
+tf-1-12-hardened-glass-aluminum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-aluminum
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-aluminum
+tf-1-12-hardened-glass-bronze:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-bronze
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-bronze
+tf-1-12-hardened-glass-constantan:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-constantan
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-constantan
+tf-1-12-hardened-glass-copper:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-copper
+tf-1-12-hardened-glass-electrum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-electrum
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-electrum
+tf-1-12-hardened-glass-enderium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-enderium
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-enderium
+tf-1-12-hardened-glass-invar:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-invar
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-invar
+tf-1-12-hardened-glass-iridium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-iridium
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-iridium
+tf-1-12-hardened-glass-lead:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-lead
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass
+tf-1-12-hardened-glass-lumium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-lumium
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-lumium
+tf-1-12-hardened-glass-mithril:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-mithril
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-mithril
+tf-1-12-hardened-glass-nickel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-nickel
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-nickel
+tf-1-12-hardened-glass-platinum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-platinum
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-platinum
+tf-1-12-hardened-glass-signalum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-signalum
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-signalum
+tf-1-12-hardened-glass-silver:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-silver
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-silver
+tf-1-12-hardened-glass-steel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-steel
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-steel
+tf-1-12-hardened-glass-tin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-tin
+    - id:
+      - tf-1-12-hardened-glass
+      - tf-1-12-hardened-glass-copper
+      - tf-1-12-hardened-glass-tin
+      - tf-1-12-hardened-glass-silver
+      - tf-1-12-hardened-glass-aluminum
+      - tf-1-12-hardened-glass-nickel
+      - tf-1-12-hardened-glass-platinum
+      - tf-1-12-hardened-glass-iridium
+      - tf-1-12-hardened-glass-steel
+      - tf-1-12-hardened-glass-electrum
+      - tf-1-12-hardened-glass-invar
+      - tf-1-12-hardened-glass-bronze
+      - tf-1-12-hardened-glass-constantan
+      - tf-1-12-hardened-glass-signalum
+      - tf-1-12-hardened-glass-lumium
+      - tf-1-12-hardened-glass-enderium
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-hardened-glass-tin
+tf-1-12-ice-using-cryotheum:
+  inputs:
+    item:
+    - id:
+      - mc-bucket-water
+    - id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    item:
+    - id:
+      - mc-ice
+tf-1-12-ingot-aluminum-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-aluminum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-aluminum
+tf-1-12-ingot-bronze-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-bronze
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-bronze
+tf-1-12-ingot-constantan-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-constantan
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-constantan
+tf-1-12-ingot-copper-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-copper
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-copper
+tf-1-12-ingot-electrum-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-electrum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-electrum
+tf-1-12-ingot-enderium-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-enderium
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-enderium
+tf-1-12-ingot-invar-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-invar
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-invar
+tf-1-12-ingot-iridium-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-iridium
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-iridium
+tf-1-12-ingot-lead-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-lead
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-lead
+tf-1-12-ingot-lumium-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-lumium
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-lumium
+tf-1-12-ingot-mithril-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-mithril
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-mithril
+tf-1-12-ingot-nickel-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-nickel
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-nickel
+tf-1-12-ingot-platinum-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-platinum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-platinum
+tf-1-12-ingot-signalum-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-signalum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-signalum
+tf-1-12-ingot-silver-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-silver
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-silver
+tf-1-12-ingot-steel-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-steel
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-steel
+tf-1-12-ingot-tin-from-block:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-storage-block-tin
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-ingot-tin
+tf-1-12-mycelium-using-phyto-gro:
+  inputs:
+    item:
+    - id:
+      - mc-mushroom-brown
+    - id:
+      - mc-mushroom-red
+    - id:
+      - mc-dirt
+    - id:
+      - tf-1-12-phyto-gro-rich
+    - id:
+      - mc-bucket-water
+  outputs:
+    item:
+    - id:
+      - mc-mycelium
+tf-1-12-nugget-aluminum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-aluminum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-aluminum
+tf-1-12-nugget-bronze:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-bronze
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-bronze
+tf-1-12-nugget-constantan:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-constantan
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-constantan
+tf-1-12-nugget-copper:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-copper
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-copper
+tf-1-12-nugget-diamond:
+  inputs:
+    item:
+    - id:
+      - mc-diamond
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-diamond
+tf-1-12-nugget-electrum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-electrum
+tf-1-12-nugget-emerald:
+  inputs:
+    item:
+    - id:
+      - mc-emerald
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-emerald
+tf-1-12-nugget-enderium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-enderium
+tf-1-12-nugget-invar:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-invar
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-invar
+tf-1-12-nugget-iridium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-iridium
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-iridium
+tf-1-12-nugget-lead:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-lead
+tf-1-12-nugget-lumium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lumium
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-lumium
+tf-1-12-nugget-mithril:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-mithril
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-mithril
+tf-1-12-nugget-nickel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-nickel
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-nickel
+tf-1-12-nugget-platinum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-platinum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-platinum
+tf-1-12-nugget-signalum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-signalum
+tf-1-12-nugget-silver:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-silver
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-silver
+tf-1-12-nugget-steel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-steel
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-steel
+tf-1-12-nugget-tin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-tin
+  outputs:
+    item:
+    - count: 9
+      id:
+      - tf-1-12-nugget-tin
+tf-1-12-packed-ice-using-cryotheum:
+  inputs:
+    item:
+    - id:
+      - mc-ice
+    - id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    item:
+    - id:
+      - mc-packed-ice
+tf-1-12-paper-using-sawdust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - mc-bucket-water
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-paper
+tf-1-12-petrotheum-ingot-aluminum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-aluminum
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-aluminum
+tf-1-12-petrotheum-ingot-copper:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-copper
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-copper
+tf-1-12-petrotheum-ingot-gold:
+  inputs:
+    item:
+    - id:
+      - mc-ingot-gold
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-gold
+tf-1-12-petrotheum-ingot-iridium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-iridium
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-iridium
+tf-1-12-petrotheum-ingot-iron:
+  inputs:
+    item:
+    - id:
+      - mc-ingot-iron
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-iron
+tf-1-12-petrotheum-ingot-lead:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lead
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-lead
+tf-1-12-petrotheum-ingot-mithril:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-mithril
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-mithril
+tf-1-12-petrotheum-ingot-nickel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-nickel
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-nickel
+tf-1-12-petrotheum-ingot-ore-metal:
+  inputs:
+    item:
+    - id:
+      - mc-ingot-iron
+      - mc-ingot-gold
+      - tf-1-12-ingot-copper
+      - tf-1-12-ingot-tin
+      - tf-1-12-ingot-silver
+      - tf-1-12-ingot-lead
+      - tf-1-12-ingot-aluminum
+      - tf-1-12-ingot-nickel
+      - tf-1-12-ingot-platinum
+      - tf-1-12-ingot-iridium
+      - tf-1-12-ingot-mithril
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-iron
+      - tf-1-12-dust-gold
+      - tf-1-12-dust-copper
+      - tf-1-12-dust-tin
+      - tf-1-12-dust-silver
+      - tf-1-12-dust-lead
+      - tf-1-12-dust-aluminum
+      - tf-1-12-dust-nickel
+      - tf-1-12-dust-platinum
+      - tf-1-12-dust-iridium
+      - tf-1-12-dust-mithril
+tf-1-12-petrotheum-ingot-platinum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-platinum
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-platinum
+tf-1-12-petrotheum-ingot-silver:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-silver
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-silver
+tf-1-12-petrotheum-ingot-tin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-tin
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-tin
+tf-1-12-petrotheum-ore-aluminum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-aluminum
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-aluminum
+tf-1-12-petrotheum-ore-coal:
+  inputs:
+    item:
+    - id:
+      - mc-ore-coal
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-coal
+tf-1-12-petrotheum-ore-copper:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-copper
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-copper
+tf-1-12-petrotheum-ore-diamond:
+  inputs:
+    item:
+    - id:
+      - mc-ore-diamond
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-diamond
+tf-1-12-petrotheum-ore-emerald:
+  inputs:
+    item:
+    - id:
+      - mc-ore-emerald
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-emerald
+tf-1-12-petrotheum-ore-gold:
+  inputs:
+    item:
+    - id:
+      - mc-ore-gold
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-gold
+tf-1-12-petrotheum-ore-iridium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-iridium
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-iridium
+tf-1-12-petrotheum-ore-iron:
+  inputs:
+    item:
+    - id:
+      - mc-ore-iron
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-iron
+tf-1-12-petrotheum-ore-lapis-lazuli:
+  inputs:
+    item:
+    - id:
+      - mc-ore-lapis-lazuli
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-lapis-lazuli
+tf-1-12-petrotheum-ore-lead:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-lead
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-lead
+tf-1-12-petrotheum-ore-metal:
+  inputs:
+    item:
+    - id:
+      - mc-ore-iron
+      - mc-ore-gold
+      - tf-1-12-ore-copper
+      - tf-1-12-ore-tin
+      - tf-1-12-ore-silver
+      - tf-1-12-ore-lead
+      - tf-1-12-ore-aluminum
+      - tf-1-12-ore-nickel
+      - tf-1-12-ore-platinum
+      - tf-1-12-ore-iridium
+      - tf-1-12-ore-mithril
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-iron
+      - tf-1-12-dust-gold
+      - tf-1-12-dust-copper
+      - tf-1-12-dust-tin
+      - tf-1-12-dust-silver
+      - tf-1-12-dust-lead
+      - tf-1-12-dust-aluminum
+      - tf-1-12-dust-nickel
+      - tf-1-12-dust-platinum
+      - tf-1-12-dust-iridium
+      - tf-1-12-dust-mithril
+tf-1-12-petrotheum-ore-mithril:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-mithril
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-mithril
+tf-1-12-petrotheum-ore-nether-quartz:
+  inputs:
+    item:
+    - id:
+      - mc-ore-nether-quartz
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-nether-quartz
+tf-1-12-petrotheum-ore-nickel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-nickel
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-nickel
+tf-1-12-petrotheum-ore-platinum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-platinum
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-platinum
+tf-1-12-petrotheum-ore-redstone:
+  inputs:
+    item:
+    - id:
+      - mc-ore-redstone
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-redstone
+tf-1-12-petrotheum-ore-silver:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-silver
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-silver
+tf-1-12-petrotheum-ore-tin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-tin
+    - id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-tin
+tf-1-12-petrotheum-pyrotheum-ore-aluminum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-aluminum
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-ingot-aluminum
+tf-1-12-petrotheum-pyrotheum-ore-copper:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-copper
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-ingot-copper
+tf-1-12-petrotheum-pyrotheum-ore-gold:
+  inputs:
+    item:
+    - id:
+      - mc-ore-gold
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-ingot-gold
+tf-1-12-petrotheum-pyrotheum-ore-iridium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-iridium
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-ingot-iridium
+tf-1-12-petrotheum-pyrotheum-ore-iron:
+  inputs:
+    item:
+    - id:
+      - mc-ore-iron
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-ingot-iron
+tf-1-12-petrotheum-pyrotheum-ore-lead:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-lead
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-ingot-lead
+tf-1-12-petrotheum-pyrotheum-ore-metal:
+  inputs:
+    item:
+    - id:
+      - mc-ore-iron
+      - mc-ore-gold
+      - tf-1-12-ore-copper
+      - tf-1-12-ore-tin
+      - tf-1-12-ore-silver
+      - tf-1-12-ore-lead
+      - tf-1-12-ore-aluminum
+      - tf-1-12-ore-nickel
+      - tf-1-12-ore-platinum
+      - tf-1-12-ore-iridium
+      - tf-1-12-ore-mithril
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-ingot-iron
+      - mc-ingot-gold
+      - tf-1-12-ingot-copper
+      - tf-1-12-ingot-tin
+      - tf-1-12-ingot-silver
+      - tf-1-12-ingot-lead
+      - tf-1-12-ingot-aluminum
+      - tf-1-12-ingot-nickel
+      - tf-1-12-ingot-platinum
+      - tf-1-12-ingot-iridium
+      - tf-1-12-ingot-mithril
+tf-1-12-petrotheum-pyrotheum-ore-mithril:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-mithril
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-ingot-mithril
+tf-1-12-petrotheum-pyrotheum-ore-nickel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-nickel
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-ingot-nickel
+tf-1-12-petrotheum-pyrotheum-ore-platinum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-platinum
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-ingot-platinum
+tf-1-12-petrotheum-pyrotheum-ore-silver:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-silver
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-ingot-silver
+tf-1-12-petrotheum-pyrotheum-ore-tin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-tin
+    - id:
+      - tf-1-12-dust-petrotheum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-ingot-tin
+tf-1-12-phyto-gro-rich-using-charcoal:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-charcoal
+    - id:
+      - tf-1-12-niter
+    - id:
+      - tf-1-12-slag-rich
+  outputs:
+    item:
+    - count: 16
+      id:
+      - tf-1-12-phyto-gro-rich
+tf-1-12-phyto-gro-rich-using-sawdust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-niter
+    - id:
+      - tf-1-12-slag-rich
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-phyto-gro-rich
+tf-1-12-phyto-gro-using-charcoal:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-charcoal
+    - id:
+      - tf-1-12-niter
+    - id:
+      - tf-1-12-slag
+  outputs:
+    item:
+    - count: 16
+      id:
+      - tf-1-12-phyto-gro
+tf-1-12-phyto-gro-using-sawdust:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-sawdust
+    - id:
+      - tf-1-12-niter
+    - id:
+      - tf-1-12-slag
+  outputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-phyto-gro
+tf-1-12-podzol-using-phyto-gro:
+  inputs:
+    item:
+    - id:
+      - mc-leaves-oak
+      - mc-leaves-spruce
+      - mc-leaves-birch
+      - mc-leaves-jungle
+      - mc-leaves-acacia
+      - mc-leaves-dark-oak
+    - id:
+      - mc-leaves-oak
+      - mc-leaves-spruce
+      - mc-leaves-birch
+      - mc-leaves-jungle
+      - mc-leaves-acacia
+      - mc-leaves-dark-oak
+    - id:
+      - mc-dirt-coarse
+    - id:
+      - tf-1-12-phyto-gro-rich
+    - id:
+      - mc-bucket-water
+  outputs:
+    item:
+    - id:
+      - mc-podzol
+tf-1-12-pyrotheum-dust-aluminum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-aluminum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-aluminum
+tf-1-12-pyrotheum-dust-copper:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-copper
+tf-1-12-pyrotheum-dust-gold:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-gold
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - mc-ingot-gold
+tf-1-12-pyrotheum-dust-iridium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-iridium
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-iridium
+tf-1-12-pyrotheum-dust-iron:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-iron
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - mc-ingot-iron
+tf-1-12-pyrotheum-dust-lead:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-lead
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lead
+tf-1-12-pyrotheum-dust-mithril:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-mithril
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-mithril
+tf-1-12-pyrotheum-dust-nickel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-nickel
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-nickel
+tf-1-12-pyrotheum-dust-ore-metal:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-iron
+      - tf-1-12-dust-gold
+      - tf-1-12-dust-copper
+      - tf-1-12-dust-tin
+      - tf-1-12-dust-silver
+      - tf-1-12-dust-lead
+      - tf-1-12-dust-aluminum
+      - tf-1-12-dust-nickel
+      - tf-1-12-dust-platinum
+      - tf-1-12-dust-iridium
+      - tf-1-12-dust-mithril
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - mc-ingot-iron
+      - mc-ingot-gold
+      - tf-1-12-ingot-copper
+      - tf-1-12-ingot-tin
+      - tf-1-12-ingot-silver
+      - tf-1-12-ingot-lead
+      - tf-1-12-ingot-aluminum
+      - tf-1-12-ingot-nickel
+      - tf-1-12-ingot-platinum
+      - tf-1-12-ingot-iridium
+      - tf-1-12-ingot-mithril
+tf-1-12-pyrotheum-dust-platinum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-platinum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-platinum
+tf-1-12-pyrotheum-dust-silver:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-silver
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-silver
+tf-1-12-pyrotheum-dust-tin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-dust-tin
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-tin
+tf-1-12-pyrotheum-ore-aluminum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-aluminum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-aluminum
+tf-1-12-pyrotheum-ore-copper:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-copper
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-copper
+tf-1-12-pyrotheum-ore-gold:
+  inputs:
+    item:
+    - id:
+      - mc-ore-gold
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - mc-ingot-gold
+tf-1-12-pyrotheum-ore-iridium:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-iridium
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-iridium
+tf-1-12-pyrotheum-ore-iron:
+  inputs:
+    item:
+    - id:
+      - mc-ore-iron
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - mc-ingot-iron
+tf-1-12-pyrotheum-ore-lead:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-lead
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lead
+tf-1-12-pyrotheum-ore-metal:
+  inputs:
+    item:
+    - id:
+      - mc-ore-iron
+      - mc-ore-gold
+      - tf-1-12-ore-copper
+      - tf-1-12-ore-tin
+      - tf-1-12-ore-silver
+      - tf-1-12-ore-lead
+      - tf-1-12-ore-aluminum
+      - tf-1-12-ore-nickel
+      - tf-1-12-ore-platinum
+      - tf-1-12-ore-iridium
+      - tf-1-12-ore-mithril
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - mc-ingot-iron
+      - mc-ingot-gold
+      - tf-1-12-ingot-copper
+      - tf-1-12-ingot-tin
+      - tf-1-12-ingot-silver
+      - tf-1-12-ingot-lead
+      - tf-1-12-ingot-aluminum
+      - tf-1-12-ingot-nickel
+      - tf-1-12-ingot-platinum
+      - tf-1-12-ingot-iridium
+      - tf-1-12-ingot-mithril
+tf-1-12-pyrotheum-ore-mithril:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-mithril
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-mithril
+tf-1-12-pyrotheum-ore-nickel:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-nickel
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-nickel
+tf-1-12-pyrotheum-ore-platinum:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-platinum
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-platinum
+tf-1-12-pyrotheum-ore-silver:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-silver
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-silver
+tf-1-12-pyrotheum-ore-tin:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ore-tin
+    - id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-ingot-tin
+tf-1-12-redprint:
+  inputs:
+    item:
+    - id:
+      - mc-paper
+    - id:
+      - mc-paper
+    - id:
+      - mc-redstone
+  outputs:
+    item:
+    - id:
+      - tf-1-12-redprint
+tf-1-12-redstone-from-clathrate:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-clathrate-redstone
+    - id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-redstone
+tf-1-12-redstone-from-fluid:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-bucket-redstone
+    - id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    item:
+    - count: 10
+      id:
+      - mc-redstone
+tf-1-12-rockwool-dyeing:
+  inputs:
+    item:
+    - id:
+      - tf-1-12-rockwool-white
+      - tf-1-12-rockwool-orange
+      - tf-1-12-rockwool-magenta
+      - tf-1-12-rockwool-light-blue
+      - tf-1-12-rockwool-yellow
+      - tf-1-12-rockwool-lime
+      - tf-1-12-rockwool-pink
+      - tf-1-12-rockwool-gray
+      - tf-1-12-rockwool-light-gray
+      - tf-1-12-rockwool-cyan
+      - tf-1-12-rockwool-purple
+      - tf-1-12-rockwool-blue
+      - tf-1-12-rockwool-brown
+      - tf-1-12-rockwool-green
+      - tf-1-12-rockwool-red
+      - tf-1-12-rockwool-black
+    - id:
+      - mc-bone-meal
+      - mc-orange-dye
+      - mc-magenta-dye
+      - mc-light-blue-dye
+      - mc-dandelion-yellow
+      - mc-lime-dye
+      - mc-pink-dye
+      - mc-gray-dye
+      - mc-light-gray-dye
+      - mc-cyan-dye
+      - mc-purple-dye
+      - mc-lapis-lazuli
+      - mc-cocoa-beans
+      - mc-cactus-green
+      - mc-rose-red
+      - mc-ink-sac
+  outputs:
+    item:
+    - id:
+      - tf-1-12-rockwool-white
+      - tf-1-12-rockwool-orange
+      - tf-1-12-rockwool-magenta
+      - tf-1-12-rockwool-light-blue
+      - tf-1-12-rockwool-yellow
+      - tf-1-12-rockwool-lime
+      - tf-1-12-rockwool-pink
+      - tf-1-12-rockwool-gray
+      - tf-1-12-rockwool-light-gray
+      - tf-1-12-rockwool-cyan
+      - tf-1-12-rockwool-purple
+      - tf-1-12-rockwool-blue
+      - tf-1-12-rockwool-brown
+      - tf-1-12-rockwool-green
+      - tf-1-12-rockwool-red
+      - tf-1-12-rockwool-black

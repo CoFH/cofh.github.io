@@ -1,0 +1,176 @@
+crafting-shaped:
+  name: Shaped Crafting
+  display-type: crafting
+crafting-shapeless:
+  name: Shapeless Crafting
+  display-type: crafting
+crafting:
+  name: Crafting
+  display-type: crafting
+centrifuge:
+  name: Centrifugal Separator
+  url: /docs/1.12/thermal-expansion/centrifugal-separator/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 4
+    fluid: 1
+charger:
+  name: Energetic Infuser
+  url: /docs/1.12/thermal-expansion/energetic-infuser/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+compactor:
+  name: Compactor
+  url: /docs/1.12/thermal-expansion/compactor/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+compactor-coin:
+  name: Compactor - Numismatic
+  url: /docs/1.12/thermal-expansion/augment-numismatic-press/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+compactor-gear:
+  name: Compactor - Gearworking
+  url: /docs/1.12/thermal-expansion/augment-gearworking-die/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+crucible:
+  name: Magma Crucible
+  url: /docs/1.12/thermal-expansion/magma-crucible/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    fluid: 1
+extruder:
+  name: Igneous Extruder
+  url: /docs/1.12/thermal-expansion/igneous-extruder/
+  display-type: machine
+  inputs:
+    fluid: 2
+  outputs:
+    item: 1
+extruder-sedimentary:
+  name: Igneous Extruder - Sedimentary
+  url: /docs/1.12/thermal-expansion/augment-clastic-deposition/
+  display-type: machine
+  inputs:
+    fluid: 2
+  outputs:
+    item: 1
+furnace:
+  name: Redstone Furnace
+  url: /docs/1.12/thermal-expansion/redstone-furnace/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+furnace-pyrolysis:
+  name: Redstone Furnace - Pyrolysis
+  url: /docs/1.12/thermal-expansion/augment-pyrolytic-conversion/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+    fluid: 1
+insolator:
+  name: Phytogenic Insolator
+  url: /docs/1.12/thermal-expansion/phytogenic-insolator/
+  display-type: machine
+  inputs:
+    item: 2
+    fluid: 1
+  outputs:
+    item: 2
+insolator-tree:
+  name: Phytogenic Insolator - Trees
+  url: /docs/1.12/thermal-expansion/augment-sapling-infuser/
+  display-type: machine
+  inputs:
+    item: 2
+    fluid: 1
+  outputs:
+    item: 2
+precipitator:
+  name: Glacial Precipitator
+  url: /docs/1.12/thermal-expansion/glacial-precipitator/
+  display-type: machine
+  inputs:
+    fluid: 1
+  outputs:
+    item: 1
+pulverizer:
+  name: Pulverizer
+  url: /docs/1.12/thermal-expansion/pulverizer/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 2
+refinery:
+  name: Fractionating Still
+  url: /docs/1.12/thermal-expansion/fractionating-still/
+  display-type: machine
+  inputs:
+    fluid: 1
+  outputs:
+    item: 1
+    fluid: 1
+sawmill:
+  name: Sawmill
+  url: /docs/1.12/thermal-expansion/sawmill/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 2
+smelter:
+  name: Induction Smelter
+  url: /docs/1.12/thermal-expansion/induction-smelter/
+  display-type: machine
+  inputs:
+    item: 2
+  outputs:
+    item: 2
+smelting:
+  name: Smelting
+  url: https://minecraft.fandom.com/wiki/Smelting
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+transposer-empty:
+  name: Fluid Transposer - Empty
+  url: /docs/1.12/thermal-expansion/fluid-transposer/
+  display-type: machine
+  inputs:
+    item: 1
+  outputs:
+    item: 1
+    fluid: 1
+transposer-fill:
+  name: Fluid Transposer - Fill
+  url: /docs/1.12/thermal-expansion/fluid-transposer/
+  display-type: machine
+  inputs:
+    item: 1
+    fluid: 1
+  outputs:
+    item: 1

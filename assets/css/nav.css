@@ -1,0 +1,106 @@
+/* Basic Nav Components */
+nav {
+  position: relative;
+  display: block;
+  overflow: visible;
+  width: auto;
+  float: none;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 0;
+  display: inline-flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.horz.nav-list {
+  flex-direction: row;
+}
+
+.vert.nav-list {
+  flex-direction: column;
+  position: absolute;
+}
+
+.hidden-list {
+  top: -9999px;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px;
+  font-size: 110%;
+	background-color: var(--bg-color-4);
+	color: var(--main-text-color);
+}
+
+.nav-link:is(:hover, :focus) {
+	background-color: var(--bg-color-3);
+	color: var(--hover-text-color);
+  transition: none;
+  text-decoration: none;
+}
+
+.nav-link-selected {
+	background-color: var(--bg-color-1);
+	color: var(--link-text-color);
+}
+
+/* Main Navbar */
+.main-navbar-full {
+	background-color: var(--bg-color-4);
+  display: block;
+  overflow: visible;
+  z-index: 99;
+}
+
+.main-navbar {
+  margin: auto;
+  padding: 0 20px;
+  max-width: 1080px;
+  width: auto;
+  z-index: 2;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .main-navbar .nav-list {
+    display: none;
+  }
+  .navbar-menu {
+    display: table;
+    float: none;
+  }
+  .main-navbar .nav-list:is(:hover, :focus-within), .main-navbar .navbar-menu:is(:hover, :focus) + .nav-list {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+  }
+}
+
+/* Docs Navtab */
+.version-menu:is(:focus-within, :hover) .version-link {
+	background-color: var(--bg-color-3);
+	color: var(--hover-text-color);
+  transition: none;
+}
+
+.mod-list {
+  z-index: 1;
+}
+
+.mod-list:is(:hover, :focus-within), .version-link:is(:hover, :focus) + .mod-list {
+  top: auto;
+}
+
+.mod-logo {
+  height: 50px;
+  margin: auto;
+  display: block;
+}

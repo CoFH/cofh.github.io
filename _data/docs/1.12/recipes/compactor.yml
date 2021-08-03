@@ -1,0 +1,244 @@
+basalz-rod-from-powder:
+  energy: 4000
+  inputs:
+    item:
+    - count: 5
+      id:
+      - tf-1-12-basalz-powder
+  outputs:
+    item:
+    - id:
+      - tf-1-12-basalz-rod
+blaze-rod-from-powder:
+  energy: 4000
+  inputs:
+    item:
+    - count: 5
+      id:
+      - mc-blaze-powder
+  outputs:
+    item:
+    - id:
+      - mc-blaze-rod
+blitz-rod-from-powder:
+  energy: 4000
+  inputs:
+    item:
+    - count: 5
+      id:
+      - tf-1-12-blitz-powder
+  outputs:
+    item:
+    - id:
+      - tf-1-12-blitz-rod
+blizz-rod-from-powder:
+  energy: 4000
+  inputs:
+    item:
+    - count: 5
+      id:
+      - tf-1-12-blizz-powder
+  outputs:
+    item:
+    - id:
+      - tf-1-12-blizz-rod
+plate-aluminum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-aluminum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-aluminum
+plate-bronze:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-bronze
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-bronze
+plate-constantan:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-constantan
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-constantan
+plate-copper:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-copper
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-copper
+plate-electrum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-electrum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-electrum
+plate-enderium:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-enderium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-enderium
+plate-fluxed-electrum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - ra-1-12-ingot-fluxed-electrum
+  outputs:
+    item:
+    - id:
+      - ra-1-12-plate-fluxed-electrum
+plate-gold:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ingot-gold
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-gold
+plate-invar:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-invar
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-invar
+plate-iridium:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-iridium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-iridium
+plate-iron:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - mc-ingot-iron
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-iron
+plate-lead:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lead
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-lead
+plate-lumium:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-lumium
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-lumium
+plate-mithril:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-mithril
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-mithril
+plate-nickel:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-nickel
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-nickel
+plate-platinum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-platinum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-platinum
+plate-signalum:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-signalum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-signalum
+plate-silver:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-silver
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-silver
+plate-steel:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-steel
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-steel
+plate-tin:
+  energy: 4000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-ingot-tin
+  outputs:
+    item:
+    - id:
+      - tf-1-12-plate-tin

@@ -1,0 +1,20 @@
+aqua-chow-fluxed:
+  energy: 8000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-aqua-chow-rich
+  outputs:
+    item:
+    - id:
+      - tf-1-12-aqua-chow-fluxed
+phyto-gro-fluxed:
+  energy: 8000
+  inputs:
+    item:
+    - id:
+      - tf-1-12-phyto-gro-rich
+  outputs:
+    item:
+    - id:
+      - tf-1-12-phyto-gro-fluxed

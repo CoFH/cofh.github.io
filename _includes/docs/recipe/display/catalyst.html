@@ -1,0 +1,10 @@
+{%- if include.recipe and include.recipe-type -%}
+  {%- unless ver -%}
+    {%- assign ver = page.version | replace: ".", "" -%}
+  {%- endunless -%}
+  
+  {%- assign machine = include.recipe-type | replace: "_catalyst", "" -%}
+  {%- assign catalysts = include.recipe.inputs.item -%}
+  
+  {% include docs/recipe/display/machine.html catalysts=catalysts recipe-type=machine energy="placeholder" %}
+{%- endif -%}

@@ -1,0 +1,7 @@
+magmatic_lava:
+  energy: 100000
+  inputs:
+    fluid:
+    - amount: 1000
+      id:
+      - fluid_lava

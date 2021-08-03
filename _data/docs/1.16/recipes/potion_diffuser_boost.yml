@@ -1,0 +1,13 @@
+potion_diffuser_boost_glowstone_dust:
+  amplifier: 1
+  duration_mod: -0.25
+  inputs:
+    item:
+    - id:
+      - glowstone_dust
+potion_diffuser_boost_redstone_dust:
+  duration_mod: 1.0
+  inputs:
+    item:
+    - id:
+      - redstone

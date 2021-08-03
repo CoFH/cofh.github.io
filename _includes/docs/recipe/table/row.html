@@ -1,0 +1,85 @@
+{%- if include.display-type == "crafting" -%}
+  <td>
+    {%- assign ids = '' | split: '' -%}
+    {%- for slot in include.recipe.inputs.item -%}
+      {%- if slot -%}
+        {%- assign id-string = slot.id | join: " " -%}
+        {%- assign ids = ids | push: id-string -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign uniq-ids = ids | uniq -%}
+    {%- assign quantities = '' | split: '' -%}
+    {%- for id in uniq-ids -%}
+      {%- assign quantity = 0 -%}
+      {%- for id-string in ids -%}
+        {%- if id == id-string -%}
+          {%- assign quantity = quantity | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign quantities = quantities | push: quantity -%}
+    {%- endfor -%}
+    <ul class="list-no-style docs-quantity-list">
+      {%- for id-string in uniq-ids -%}
+        {%- assign id-array = id-string | split: " " -%}
+        <li>
+          {{quantities[forloop.index0]}} {% include docs/recipe/elements/name-link.html ids=id-array %}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </td>
+  <td>{% include docs/recipe/elements/quantities.html put=include.recipe.outputs %}</td>
+  <td class="docs-pausable">{% include docs/recipe/display/crafting.html recipe=include.recipe %}</td>
+
+{%- elsif include.display-type == "machine" -%}
+  {%- if include.recipe.energy -%}
+    {%- assign rf = include.recipe.energy -%}
+  {%- elsif site.data.docs[ver].recipe-types[include.recipe-type].energy -%}
+    {%- if include.recipe.energy_mod -%}
+      {%- assign energy_mod = include.recipe.energy_mod -%}
+    {%- else -%}
+      {%- assign energy_mod = 1 -%}
+    {%- endif -%}
+    {%- assign rf = energy_mod | times: site.data.docs[ver].recipe-types[include.recipe-type].energy | round -%}
+  {%- else -%}
+    {%- assign rf = nil -%}
+  {%- endif -%}
+  
+  {%- if site.data.docs[ver].recipe-types[include.recipe-type].water -%}
+    {%- if include.recipe.water_mod -%}
+      {%- assign water_mod = include.recipe.water_mod -%}
+    {%- else -%}
+      {%- assign water_mod = 1 -%}
+    {%- endif -%}
+    {%- assign water = water_mod | times: site.data.docs[ver].recipe-types[include.recipe-type].water | round -%}
+  {%- else -%}
+    {%- assign water = nil -%}
+  {%- endif -%}
+  
+  <td>{% include docs/recipe/elements/quantities.html put=include.recipe.inputs energy=rf water=water %}</td>
+  <td>{% include docs/recipe/elements/quantities.html put=include.recipe.outputs experience=include.recipe.experience %}</td>
+  <td class="docs-pausable">{% include docs/recipe/display/machine.html recipe=include.recipe recipe-type=include.recipe-type energy=rf experience=include.recipe.experience water=water %}</td>
+
+{%- elsif include.display-type == "dynamo" -%}
+  <td>{% include docs/recipe/elements/quantities.html put=include.recipe.inputs %}</td>
+  <td>{% include docs/recipe/elements/quantities.html energy=include.recipe.energy %}</td>
+  <td class="docs-pausable">{% include docs/recipe/display/dynamo.html recipe=include.recipe recipe-type=include.recipe-type %}</td>
+
+{%- elsif include.display-type == "catalyst" -%}
+  <td>
+    <ul class="list-no-style docs-quantity-list">
+      <li>
+        Primary Output: {{include.recipe.primary_mod}}x
+      </li>
+      <li>
+        Secondary Output: {{include.recipe.secondary_mod}}x
+      </li>
+      <li>
+        Energy: {{include.recipe.energy_mod}}x
+      </li>
+      <li>
+        Use Chance: {{include.recipe.use_chance | times: 100 | round}}%
+      </li>
+    </ul>
+  </td>
+  <td class="docs-pausable">{% include docs/recipe/display/catalyst.html recipe=include.recipe recipe-type=include.recipe-type %}</td>
+{%- endif -%}

@@ -1,11 +1,10 @@
-ruby '2.5.3'
+source "https://rubygems.org"
+gem "jekyll", "~> 4.2.0"
 
-source 'https://rubygems.org'
-
-gem 'jekyll', '= 3.8.5'
-gem 'jekyll-feed', '= 0.13.0'
+gem 'jekyll-feed', '= 0.15.1'
 gem 'jekyll-paginate', '= 1.1.0'
-gem 'jekyll-redirect-from', '= 0.15.0'
+gem 'jekyll-redirect-from', '= 0.16.0'
 gem 'jekyll-sitemap', '= 1.4.0'
 
-gem 'wdm', '~> 0.1.1' if Gem.win_platform?
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+

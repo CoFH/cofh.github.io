@@ -1,0 +1,12 @@
+furnace_rotten_flesh_to_leather:
+  energy_mod: 2.0
+  experience: 0.1
+  inputs:
+    item:
+    - count: 4
+      id:
+      - rotten_flesh
+  outputs:
+    item:
+    - id:
+      - leather

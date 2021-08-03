@@ -1,0 +1,245 @@
+concrete-powder:
+  energy: 2000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - mc-concrete-powder-white
+      - mc-concrete-powder-orange
+      - mc-concrete-powder-magenta
+      - mc-concrete-powder-light-blue
+      - mc-concrete-powder-yellow
+      - mc-concrete-powder-lime
+      - mc-concrete-powder-pink
+      - mc-concrete-powder-gray
+      - mc-concrete-powder-light-gray
+      - mc-concrete-powder-cyan
+      - mc-concrete-powder-purple
+      - mc-concrete-powder-blue
+      - mc-concrete-powder-brown
+      - mc-concrete-powder-green
+      - mc-concrete-powder-red
+      - mc-concrete-powder-black
+  outputs:
+    item:
+    - id:
+      - mc-gravel
+    - id:
+      - mc-sand
+    - chance: 0.1
+      id:
+      - tf-1-12-pigment-white
+      - tf-1-12-pigment-orange
+      - tf-1-12-pigment-magenta
+      - tf-1-12-pigment-light-blue
+      - tf-1-12-pigment-yellow
+      - tf-1-12-pigment-lime
+      - tf-1-12-pigment-pink
+      - tf-1-12-pigment-gray
+      - tf-1-12-pigment-light-gray
+      - tf-1-12-pigment-cyan
+      - tf-1-12-pigment-purple
+      - tf-1-12-pigment-blue
+      - tf-1-12-pigment-brown
+      - tf-1-12-pigment-green
+      - tf-1-12-pigment-red
+      - tf-1-12-pigment-black
+dust-aerotheum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-aerotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-blitz-powder
+    - id:
+      - tf-1-12-niter
+    - id:
+      - mc-redstone
+dust-bronze:
+  energy: 8000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-dust-bronze
+  outputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-tin
+dust-constantan:
+  energy: 4000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-constantan
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-nickel
+dust-cryotheum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-cryotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-blizz-powder
+    - id:
+      - mc-snowball
+    - id:
+      - mc-redstone
+dust-electrum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-electrum
+  outputs:
+    item:
+    - id:
+      - tf-1-12-dust-gold
+    - id:
+      - tf-1-12-dust-silver
+dust-enderium:
+  energy: 8000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-dust-enderium
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-ender
+    item:
+    - count: 3
+      id:
+      - tf-1-12-dust-lead
+    - id:
+      - tf-1-12-dust-platinum
+dust-invar:
+  energy: 6000
+  inputs:
+    item:
+    - count: 3
+      id:
+      - tf-1-12-dust-invar
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-iron
+    - id:
+      - tf-1-12-dust-nickel
+dust-lumium:
+  energy: 8000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-dust-lumium
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-glowstone
+    item:
+    - count: 3
+      id:
+      - tf-1-12-dust-tin
+    - id:
+      - tf-1-12-dust-silver
+dust-petrotheum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-petrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-basalz-powder
+    - id:
+      - tf-1-12-dust-obsidian
+    - id:
+      - mc-redstone
+dust-pyrotheum:
+  energy: 4000
+  inputs:
+    item:
+    - count: 2
+      id:
+      - tf-1-12-dust-pyrotheum
+  outputs:
+    item:
+    - count: 2
+      id:
+      - mc-blaze-powder
+    - id:
+      - tf-1-12-sulfur
+    - id:
+      - mc-redstone
+dust-signalum:
+  energy: 8000
+  inputs:
+    item:
+    - count: 4
+      id:
+      - tf-1-12-dust-signalum
+  outputs:
+    fluid:
+    - amount: 1000
+      id:
+      - tf-1-12-redstone
+    item:
+    - count: 3
+      id:
+      - tf-1-12-dust-copper
+    - id:
+      - tf-1-12-dust-silver
+magma-cream:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-magma-cream
+  outputs:
+    item:
+    - id:
+      - mc-slimeball
+    - id:
+      - mc-blaze-powder
+sugar-canes:
+  energy: 2000
+  inputs:
+    item:
+    - id:
+      - mc-sugar-canes
+  outputs:
+    fluid:
+    - amount: 250
+      id:
+      - mc-water
+    item:
+    - count: 2
+      id:
+      - mc-sugar
