@@ -1,6 +1,11 @@
 ---
 title: Green Bean
 icon: green_bean
+image:
+- alt: Green Bean
+  file: thermal-cultivation/green-bean.png
+- alt: Green Bean
+  file: thermal-cultivation/green-bean-seeds.png
 subjects: 
 - green_bean
 - green_bean_seeds

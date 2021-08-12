@@ -1,6 +1,9 @@
 ---
 title: Crude Oil
-subjects: [fluid_crude_oil]
+icon: crude_oil_bucket
+subjects: 
+- crusde_oil_bucket
+- fluid_crude_oil
 category: fluids
 subcategory: fossil
 ---

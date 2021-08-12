@@ -1,6 +1,11 @@
 ---
 title: Corn
 icon: corn
+image:
+- alt: Corn
+  file: thermal-cultivation/corn.png
+- alt: Corn
+  file: thermal-cultivation/corn-seeds.png
 subjects: 
 - corn
 - corn_seeds

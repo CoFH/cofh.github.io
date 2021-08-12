@@ -1,9 +1,14 @@
 ---
 title: Tea Leaf
-icon: tea_leaf
+icon: tea
+image:
+- alt: Tea
+  file: thermal-cultivation/tea.png
+- alt: Tea
+  file: thermal-cultivation/tea-seeds.png
 subjects: 
-- tea_leaf
-- tea_leaf_seeds
+- tea
+- tea_seeds
 category: food
 subcategory: crops
 ---

@@ -1,11 +1,11 @@
 ---
-title: Refined Fuel
-icon: refined_fuel_bucket
+title: Resonant Ender
+icon: ender_bucket
 subjects: 
-- refined_fuel_bucket
-- fluid_refined_fuel
+- ender_bucket
+- fluid_ender
 category: fluids
-subcategory: fossil
+subcategory: molten
 ---
 
 WIP

@@ -1,6 +1,11 @@
 ---
 title: Radish
 icon: radish
+image:
+- alt: Radish
+  file: thermal-cultivation/radish.png
+- alt: Radish
+  file: thermal-cultivation/radish-seeds.png
 subjects: 
 - radish
 - radish_seeds

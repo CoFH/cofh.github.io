@@ -1,6 +1,13 @@
 ---
 title: Frost Melon
 icon: frost_melon
+image:
+- alt: Frost Melon
+  file: thermal-cultivation/frost-melon.png
+- alt: Frost Melon
+  file: thermal-cultivation/frost-melon-slice.png
+- alt: Frost Melon
+  file: thermal-cultivation/frost-melon-seeds.png
 subjects: 
 - frost_melon
 - frost_melon_slice

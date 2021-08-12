@@ -1,11 +1,11 @@
 ---
-title: Refined Fuel
-icon: refined_fuel_bucket
+title: Energised Glowstone
+icon: glowstone_bucket
 subjects: 
-- refined_fuel_bucket
-- fluid_refined_fuel
+- glowstone_bucket
+- fluid_glowstone
 category: fluids
-subcategory: fossil
+subcategory: molten
 ---
 
 WIP

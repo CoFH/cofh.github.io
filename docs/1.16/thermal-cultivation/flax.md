@@ -1,11 +1,16 @@
 ---
-title: Refined Fuel
-icon: refined_fuel_bucket
+title: Flax
+icon: flax
+image:
+- alt: Flax
+  file: thermal-cultivation/flax.png
+- alt: Flax
+  file: thermal-cultivation/flax-seeds.png
 subjects: 
-- refined_fuel_bucket
-- fluid_refined_fuel
-category: fluids
-subcategory: fossil
+- flax
+- flax_seeds
+category: food
+subcategory: crops
 ---
 
 WIP

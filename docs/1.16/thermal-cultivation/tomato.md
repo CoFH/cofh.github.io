@@ -1,6 +1,11 @@
 ---
 title: Tomato
 icon: tomato
+image:
+- alt: Tomato
+  file: thermal-cultivation/tomato.png
+- alt: Tomato
+  file: thermal-cultivation/tomato-seeds.png
 subjects: 
 - tomato
 - tomato_seeds

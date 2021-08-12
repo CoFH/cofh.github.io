@@ -1,6 +1,11 @@
 ---
 title: Hops
 icon: hops
+image:
+- alt: Hops
+  file: thermal-cultivation/hops.png
+- alt: Hops
+  file: thermal-cultivation/hops-seeds.png
 subjects: 
 - hops
 - hops_seeds

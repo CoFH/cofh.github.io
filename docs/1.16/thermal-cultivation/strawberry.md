@@ -1,6 +1,11 @@
 ---
 title: Strawberry
 icon: strawberry
+image:
+- alt: Strawberry
+  file: thermal-cultivation/strawberry.png
+- alt: Strawberry
+  file: thermal-cultivation/strawberry-seeds.png
 subjects: 
 - strawberry
 - strawberry_seeds

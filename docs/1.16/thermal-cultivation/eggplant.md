@@ -1,6 +1,11 @@
 ---
 title: Eggplant
 icon: eggplant
+image:
+- alt: Eggplant
+  file: thermal-cultivation/eggplant.png
+- alt: Eggplant
+  file: thermal-cultivation/eggplant-seeds.png
 subjects: 
 - eggplant
 - eggplant_seeds

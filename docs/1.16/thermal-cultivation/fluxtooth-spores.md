@@ -1,11 +1,9 @@
 ---
-title: Refined Fuel
-icon: refined_fuel_bucket
-subjects: 
-- refined_fuel_bucket
-- fluid_refined_fuel
-category: fluids
-subcategory: fossil
+title: Fluxtooth Spores
+icon: redstone_mushroom_spores
+subjects: [redstone_mushroom_spores]
+category: food
+subcategory: mushrooms
 ---
 
 WIP

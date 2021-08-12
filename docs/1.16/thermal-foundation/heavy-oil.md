@@ -1,6 +1,9 @@
 ---
 title: Heavy Oil
-subjects: [fluid_heavy_oil]
+icon: heavy_oil_bucket
+subjects: 
+- heavy_oil_bucket
+- fluid_heavy_oil
 category: fluids
 subcategory: fossil
 ---

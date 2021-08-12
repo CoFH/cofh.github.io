@@ -1,10 +1,16 @@
 ---
 title: Bituminous Sand
+icon: oil_sand
+image:
+- alt: Oil sand
+  file: thermal-foundation/oil-sand.png
+- alt: Oil sand
+  file: thermal-foundation/oil-red-sand.png
 subjects: 
 - oil_sand
 - oil_red_sand
 category: world
-subcategory: fluid ores
+subcategory: ores
 ---
 
 **Bituminous sand** is a rare [ore](https://minecraft.fandom.com/wiki/Ore) that yields [tar](../tar/), [crude oil](../crude-oil-bucket), and small amounts of [bitumen](../bitumen).

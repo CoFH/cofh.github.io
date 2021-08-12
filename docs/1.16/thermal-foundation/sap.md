@@ -1,6 +1,9 @@
 ---
 title: Sap
-subjects: [fluid_sap]
+icon: sap_bucket
+subjects: 
+- sap_bucket
+- fluid_sap
 category: fluids
 subcategory: tree
 ---

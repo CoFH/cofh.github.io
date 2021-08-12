@@ -1,11 +1,9 @@
 ---
-title: Refined Fuel
-icon: refined_fuel_bucket
-subjects: 
-- refined_fuel_bucket
-- fluid_refined_fuel
-category: fluids
-subcategory: fossil
+title: Boomshroom Spores
+icon: gunpowder_mushroom_spores
+subjects: [gunpowder_mushroom_spores]
+category: food
+subcategory: mushrooms
 ---
 
 WIP

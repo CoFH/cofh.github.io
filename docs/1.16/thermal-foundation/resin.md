@@ -1,6 +1,9 @@
 ---
 title: Resin
-subjects: [fluid_resin]
+icon: resin_bucket
+subjects: 
+- resin_bucket
+- fluid_resin
 category: fluids
 subcategory: tree
 ---

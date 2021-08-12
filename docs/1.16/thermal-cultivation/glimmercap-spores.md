@@ -1,11 +1,9 @@
 ---
-title: Refined Fuel
-icon: refined_fuel_bucket
-subjects: 
-- refined_fuel_bucket
-- fluid_refined_fuel
-category: fluids
-subcategory: fossil
+title: Gimmercap Spores
+icon: glowstone_mushroom_spores
+subjects: [glowstone_mushroom_spores]
+category: food
+subcategory: mushrooms
 ---
 
 WIP

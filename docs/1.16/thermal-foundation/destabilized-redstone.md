@@ -1,11 +1,11 @@
 ---
-title: Refined Fuel
-icon: refined_fuel_bucket
+title: Destabilized Redstone
+icon: redstone_bucket
 subjects: 
-- refined_fuel_bucket
-- fluid_refined_fuel
+- redstone_bucket
+- fluid_redstone
 category: fluids
-subcategory: fossil
+subcategory: molten
 ---
 
 WIP

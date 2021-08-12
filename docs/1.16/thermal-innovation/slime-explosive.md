@@ -1,11 +1,8 @@
 ---
-title: Refined Fuel
-icon: refined_fuel_bucket
-subjects: 
-- refined_fuel_bucket
-- fluid_refined_fuel
-category: fluids
-subcategory: fossil
+title: Slime Explosive
+subjects: [slime_tnt]
+category: blocks
+subcategory: TNT
 ---
 
 WIP
