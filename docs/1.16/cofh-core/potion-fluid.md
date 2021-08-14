@@ -1,5 +1,5 @@
 ---
-title: Potion Fluid
+title: Potion (fluid)
 subjects: [fluid_potion]
 category: features
 subcategory: fluids
@@ -27,7 +27,7 @@ Potion fluid does not have a bucket form and cannot be placed as a block.
 An [alchemical imbuer](../../thermal-expansion/alchemical-imbuer/) can be used to further brew fluid potions using [brewing](https://minecraft.fandom.com/wiki/Brewing) ingredients.
 
 ### Fluid Encapsulator
-A [fluid transposer](../../thermal-expansion/fluid-transposer/) can fill [glass bottle](https://minecraft.fandom.com/wiki/Glass_Bottle) with fluid potions, producing regular potion items. This requires 400 RF of energy and 250 mB of fluid per potion.
+A [fluid encapsulator](../../thermal-expansion/fluid-encapsulator/) can fill [glass bottle](https://minecraft.fandom.com/wiki/Glass_Bottle) with fluid potions, producing regular potion items. This requires 400 RF of energy and 250 mB of fluid per potion.
 
 ### Decoctive Diffuser
 A [decoctive diffuser](../../thermal-innovation/decoctive-diffuser/) applies the effects of a fluid potion in an area. 
