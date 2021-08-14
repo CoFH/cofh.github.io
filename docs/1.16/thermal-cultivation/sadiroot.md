@@ -2,10 +2,8 @@
 title: Sadiroot
 icon: sadiroot
 image:
-- alt: Sadiroot
-  file: thermal-cultivation/sadiroot.png
-- alt: Sadiroot
-  file: thermal-cultivation/sadiroot-seeds.png
+- file: thermal-cultivation/sadiroot.png
+- file: thermal-cultivation/sadiroot-seeds.png
 subjects: 
 - sadiroot
 - sadiroot_seeds

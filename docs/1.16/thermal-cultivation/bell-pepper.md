@@ -2,10 +2,8 @@
 title: Bell Pepper
 icon: bell_pepper
 image:
-- alt: Bell Pepper
-  file: thermal-cultivation/bell-pepper.png
-- alt: Bell Pepper
-  file: thermal-cultivation/bell-pepper-seeds.png
+- file: thermal-cultivation/bell-pepper.png
+-file: thermal-cultivation/bell-pepper-seeds.png
 subjects: 
 - bell_pepper
 - bell_pepper_seeds

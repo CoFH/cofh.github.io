@@ -2,10 +2,8 @@
 title: Onion
 icon: onion
 image:
-- alt: Onion
-  file: thermal-cultivation/onion.png
-- alt: Onion
-  file: thermal-cultivation/onion-seeds.png
+- file: thermal-cultivation/onion.png
+- file: thermal-cultivation/onion-seeds.png
 subjects: 
 - onion
 - onion_seeds

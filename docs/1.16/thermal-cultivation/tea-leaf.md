@@ -2,10 +2,8 @@
 title: Tea Leaf
 icon: tea
 image:
-- alt: Tea
-  file: thermal-cultivation/tea.png
-- alt: Tea
-  file: thermal-cultivation/tea-seeds.png
+- file: thermal-cultivation/tea.png
+- file: thermal-cultivation/tea-seeds.png
 subjects: 
 - tea
 - tea_seeds

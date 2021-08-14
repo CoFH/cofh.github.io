@@ -1,9 +1,6 @@
 ---
 title: Tree Oil
-icon: tree_oil_bucket
-subjects: 
-- tree_oil_bucket
-- fluid_tree_oil
+subjects: [fluid_tree_oil]
 category: fluids
 subcategory: tree
 ---

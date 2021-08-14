@@ -1,9 +1,6 @@
 ---
 title: Syrup
-icon: syrup_bucket
-subjects: 
-- syrup_bucket
-- fluid_syrup
+subjects: [fluid_syrup]
 category: fluids
 subcategory: tree
 ---

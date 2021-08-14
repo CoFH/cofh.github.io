@@ -2,10 +2,8 @@
 title: Barley
 icon: barley
 image:
-- alt: Barley
-  file: thermal-cultivation/barley.png
-- alt: Barley
-  file: thermal-cultivation/barley-seeds.png
+- file: thermal-cultivation/barley.png
+- file: thermal-cultivation/barley-seeds.png
 subjects: 
 - barley
 - barley_seeds

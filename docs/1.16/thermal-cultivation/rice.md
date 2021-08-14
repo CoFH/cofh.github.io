@@ -2,10 +2,8 @@
 title: Rice
 icon: rice
 image:
-- alt: Rice
-  file: thermal-cultivation/rice.png
-- alt: Rice
-  file: thermal-cultivation/rice-seeds.png
+- file: thermal-cultivation/rice.png
+- file: thermal-cultivation/rice-seeds.png
 subjects: 
 - rice
 - rice_seeds

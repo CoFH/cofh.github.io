@@ -1,9 +1,6 @@
 ---
 title: Resonant Ender
-icon: ender_bucket
-subjects: 
-- ender_bucket
-- fluid_ender
+subjects: [fluid_ender]
 category: fluids
 subcategory: molten
 ---

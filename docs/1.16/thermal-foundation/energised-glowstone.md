@@ -1,9 +1,6 @@
 ---
 title: Energised Glowstone
-icon: glowstone_bucket
-subjects: 
-- glowstone_bucket
-- fluid_glowstone
+subjects: [fluid_glowstone]
 category: fluids
 subcategory: molten
 ---

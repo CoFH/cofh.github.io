@@ -1,9 +1,7 @@
 ---
 title: Creosote
-icon: creosote_bucket
-subjects: 
-- creosote_bucket
-- fluid_creosote
+icon: fluid_creosote
+subjects: [fluid_creosote]
 category: fluids
 subcategory: fossil
 ---

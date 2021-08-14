@@ -2,10 +2,8 @@
 title: Spinach
 icon: spinach
 image:
-- alt: Spinach
-  file: thermal-cultivation/spinach.png
-- alt: Spinach
-  file: thermal-cultivation/spinach-seeds.png
+- file: thermal-cultivation/spinach.png
+- file: thermal-cultivation/spinach-seeds.png
 subjects: 
 - spinach
 - spinach_seeds

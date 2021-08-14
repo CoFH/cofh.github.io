@@ -2,10 +2,8 @@
 title: Coffee Cherry
 icon: coffee
 image:
-- alt: Coffee
-  file: thermal-cultivation/coffee.png
-- alt: Coffee
-  file: thermal-cultivation/coffee-seeds.png
+- file: thermal-cultivation/coffee.png
+- file: thermal-cultivation/coffee-seeds.png
 subjects: 
 - coffee
 - coffee_seeds

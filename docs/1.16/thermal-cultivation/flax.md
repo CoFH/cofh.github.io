@@ -2,10 +2,8 @@
 title: Flax
 icon: flax
 image:
-- alt: Flax
-  file: thermal-cultivation/flax.png
-- alt: Flax
-  file: thermal-cultivation/flax-seeds.png
+- file: thermal-cultivation/flax.png
+- file: thermal-cultivation/flax-seeds.png
 subjects: 
 - flax
 - flax_seeds

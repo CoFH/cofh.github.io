@@ -1,9 +1,6 @@
 ---
 title: Destabilized Redstone
-icon: redstone_bucket
-subjects: 
-- redstone_bucket
-- fluid_redstone
+subjects: [fluid_redstone]
 category: fluids
 subcategory: molten
 ---

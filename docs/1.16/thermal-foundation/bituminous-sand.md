@@ -2,10 +2,8 @@
 title: Bituminous Sand
 icon: oil_sand
 image:
-- alt: Oil sand
-  file: thermal-foundation/oil-sand.png
-- alt: Oil sand
-  file: thermal-foundation/oil-red-sand.png
+- file: thermal-foundation/oil-sand.png
+- file: thermal-foundation/oil-red-sand.png
 subjects: 
 - oil_sand
 - oil_red_sand

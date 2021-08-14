@@ -1,9 +1,6 @@
 ---
 title: Latex
-icon: latex_bucket
-subjects: 
-- latex_bucket
-- fluid_latex
+subjects: [fluid_latex]
 category: fluids
 subcategory: tree
 ---

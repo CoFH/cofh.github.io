@@ -1,9 +1,6 @@
 ---
 title: Light Oil
-icon: light_oil_bucket
-subjects: 
-- light_oil_bucket
-- fluid_light_oil
+subjects: [fluid_light_oil]
 category: fluids
 subcategory: fossil
 ---

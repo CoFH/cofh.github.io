@@ -2,10 +2,8 @@
 title: Peanut
 icon: peanut
 image:
-- alt: Peanut
-  file: thermal-cultivation/peanut.png
-- alt: Peanut
-  file: thermal-cultivation/peanut-seeds.png
+- file: thermal-cultivation/peanut.png
+- file: thermal-cultivation/peanut-seeds.png
 subjects: 
 - peanut
 - peanut_seeds
