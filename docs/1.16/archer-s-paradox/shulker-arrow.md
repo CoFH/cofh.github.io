@@ -5,7 +5,8 @@ category: arrows
 ---
 > Up, up and away!
 
-**Shulker Arrows** home in on a target and apply the [leviation](https://minecraft.fandom.com/wiki/Levitation) status effect when they hit.
+**Shulker Arrows** home in on a target and apply the
+[leviation](https://minecraft.fandom.com/wiki/Levitation) status effect when they hit.
 
 Obtaining
 ---------

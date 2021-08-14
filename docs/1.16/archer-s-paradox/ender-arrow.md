@@ -5,7 +5,8 @@ category: arrows
 ---
 > The ol' switcheroo
 
-**Ender Arrows** will teleport you to the location they land; or will make you swap places with the target.
+**Ender Arrows** will teleport you to the location they land; or will make you
+swap places with the target.
 
 Obtaining
 ---------

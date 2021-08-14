@@ -6,9 +6,14 @@ title: Ensorcellation (Minecraft 1.16)
 
 I see you want to know more about the magic of Ensorcellation. 
 
-**Note:** These values are based off of an unchanged config for Ensorcellation. Things such as "obtained" may not be correct if the config has been changed in the pack you are playing or if you have changed the configs yourself. Configs can be found in the save folder, serverconfig, ensorcellation. These can then be applied to new worlds by moving it to the defaultconfigs folder. 
+**Note:** These values are based off of an unchanged config for Ensorcellation.
+Things such as "obtained" may not be correct if the config has been changed in
+the pack you are playing or if you have changed the configs yourself. Configs
+can be found in the save folder, serverconfig, ensorcellation. These can then be
+applied to new worlds by moving it to the defaultconfigs folder. 
 
-**Damage Enchants:** Damage enchants include, sharpness, ender disruption, bane of arthropods, smite, outlaw, vigilante, magic edge, instigating.
+**Damage Enchants:** Damage enchants include, sharpness, ender disruption, bane
+of arthropods, smite, outlaw, vigilante, magic edge, instigating.
 
 <table>
   <thead>

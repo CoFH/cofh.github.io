@@ -5,7 +5,8 @@ category: arrows
 ---
 > To infinity and beyond!
 
-**Phantasmal Arrows** fly through everything in their path, ignoring gravity and armor. They also glow, neat. 
+**Phantasmal Arrows** fly through everything in their path, ignoring gravity and
+armor. They also glow, neat. 
 
 Obtaining
 ---------

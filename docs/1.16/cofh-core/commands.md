@@ -39,9 +39,9 @@ Charges items in a player's inventory.
     /cofh charge [<player>]
 
 player
-: The player whose inventory to charge. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). Cannot target multiple players. 
-If unspecified,charges your own inventory.
+: The player whose inventory to charge. Must be a player name or a
+[target selector](https://minecraft.gamepedia.com/Target_selector). Cannot
+target multiple players. If unspecified,charges your own inventory.
 
 ---
 
@@ -51,21 +51,22 @@ Opens a player's [ender chest](https://minecraft.gamepedia.com/Ender_Chest).
     /cofh enderchest [<player>]
 
 player
-: The player whose ender chest to open. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). Cannot target multiple players.
-If unspecified, opens your own ender chest.
+: The player whose ender chest to open. Must be a player name or a
+[target selector](https://minecraft.gamepedia.com/Target_selector).
+Cannot target multiple players. If unspecified, opens your own ender chest.
 
 ---
 
 ### friend
-Allows management of the command user’s [friend list](../../cofh-core/friend-list). Add players to, remove players from, or clear your friends list.
+Allows management of the command user’s [friend list](../../cofh-core/friend-list).
+Add players to, remove players from, or clear your friends list.
 
     /cofh friend (add <player> | remove <player> | clear)
 
 targets
-: The player or players to ally with. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified,
-fails.
+: The player or players to ally with. Must be a player name or a
+[target selector](https://minecraft.gamepedia.com/Target_selector).
+If unspecified, fails.
 
 ---
 
@@ -76,9 +77,9 @@ removing negative status effects.
     /cofh heal [<targets>]
 
 targets
-: The player or players to heal. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified,
-heals yourself.
+: The player or players to heal. Must be a player name or a
+[target selector](https://minecraft.gamepedia.com/Target_selector).
+If unspecified, heals yourself.
 
 ---
 
@@ -88,13 +89,13 @@ Sets entities on fire.
     /cofh ignite [<targets>] [<duration>]
 
 targets
-: The entity or entities to set on fire. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified, sets
-yourself on fire.
+: The entity or entities to set on fire. Must be a player name or a
+[target selector](https://minecraft.gamepedia.com/Target_selector).
+If unspecified, sets yourself on fire.
 
 duration
-: How long to set the targets on fire for, in ticks. If unspecified, defaults to
-10 ticks.
+: How long to set the targets on fire for, in ticks. If unspecified, defaults
+to 10 ticks.
 
 ---
 
@@ -108,9 +109,9 @@ or
     /cofh invis [<flag>]
 
 targets
-: The player or players to make invisible. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified,
-makes yourself invisible.
+: The player or players to make invisible. Must be a player name or a
+[target selector](https://minecraft.gamepedia.com/Target_selector).
+If unspecified, makes yourself invisible.
 
 flag
 : Boolean that accepts true/false. If unspecified, defaults to true.
@@ -127,9 +128,9 @@ or
     /cofh invul [<flag>]
 
 targets
-: The player or players to make invulnerable. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified,
-makes yourself invulnerable.
+: The player or players to make invulnerable. Must be a player name or a
+[target selector](https://minecraft.gamepedia.com/Target_selector).
+If unspecified, makes yourself invulnerable.
 
 flag
 : Boolean that accepts true/false. If unspecified, defaults to true.
@@ -156,6 +157,6 @@ with a direct line of sight to the sky.
     /cofh zap [<targets>]
 
 targets
-: The entity or entities to zap. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified, zaps
-yourself.
+: The entity or entities to zap. Must be a player name or a
+[target selector](https://minecraft.gamepedia.com/Target_selector).
+If unspecified, zaps yourself.

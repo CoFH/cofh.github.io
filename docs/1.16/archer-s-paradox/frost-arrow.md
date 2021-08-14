@@ -5,7 +5,8 @@ category: arrows
 ---
 > Stay frosty
 
-**Frost Arrows** applise the [chilled](../../../1.15/cofh-core/status-effects) effect any targets they hit and freezes the area around where they land.
+**Frost Arrows** applise the [chilled](../../../1.15/cofh-core/status-effects)
+effect any targets they hit and freezes the area around where they land.
 
 Drops regular [arrows](https://minecraft.fandom.com/wiki/Arrow) when they hit a block.
 

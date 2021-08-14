@@ -9,7 +9,8 @@ subcategory: enchantments
 increases the storage capacity of certain items and blocks that store things.
 Its maximum level is **Holding IV**.
 
-Each level of **Holding** adds +50% capacity to the enchanted item, up to a max of +200% capacity at **Holding IV**.
+Each level of **Holding** adds +50% capacity to the enchanted item, up to a max
+of +200% capacity at **Holding IV**.
 
 Usage
 -----

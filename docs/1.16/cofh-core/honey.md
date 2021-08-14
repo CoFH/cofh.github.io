@@ -5,7 +5,8 @@ category: features
 subcategory: fluids
 ---
 
-**Honey** is a fluid added by [CoFH Core](../../cofh-core). It is the fluid form of [honey](https://minecraft.fandom.com/wiki/Honey_Bottle).
+**Honey** is a fluid added by [CoFH Core](../../cofh-core). It is the fluid form
+of [honey](https://minecraft.fandom.com/wiki/Honey_Bottle).
 
 
 Obtaining
