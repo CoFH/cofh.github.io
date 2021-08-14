@@ -15,7 +15,7 @@ Usage
 -----
 
 ### Thermal Foundation
-[Insightful Crystals](../../thermal-foundation/insightful-crystal/) can be
+[Insightful Crystal](../../thermal-foundation/insightful-crystal/) can be
 enchanted to hold more [experience](https://minecraft.fandom.com/wiki/Experience).
 
 [Capacitato](../../thermal-foundation/rf-potato) can be enchanted to hold more RF.
@@ -34,5 +34,5 @@ energy:
 hold more water.
 
 ### Thermal Innovation
-All equipment added by [Thermal Innovation](../../thermal-innovation/) can be
+All tools added by [Thermal Innovation](../../thermal-innovation/) can be
 enchanted to increase their capacity.

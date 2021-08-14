@@ -94,6 +94,14 @@ List of status effects
     </tr>
     <tr>
       <td style="width:48px; min-width:48px; line-height:0;">
+        <img src="/assets/images/docs/1.16/cofh-core/effect/slimed.png" alt="Slimed" style="width: 48px; height: 48px" />
+      </td>
+      <td>Slimed</td>
+      <td>Grants immunity to <a href="https://minecraft.fandom.com/wiki/Damage#Fall_damage">fall damage</a> and makes you bounce.</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td style="width:48px; min-width:48px; line-height:0;">
         <img src="/assets/images/docs/1.16/cofh-core/effect/sundered.png" alt="Sundered" style="width: 48px; height: 48px" />
       </td>
       <td>Sundered</td>
