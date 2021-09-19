@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{{ with .Title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
+    
+    <meta name="description" content="The official site for news, downloads and documentation for the Team CoFH Minecraft mods." />
+  
+    <!-- IE -->
+    <link href="/assets/images/logos/wrench.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- Other Browsers -->
+    <link href="/assets/images/logos/wrench.ico" rel="icon" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/nav.css" />
+    <link rel="stylesheet" href="/assets/css/docs.css" />
+    <link rel="stylesheet" href="/assets/css/search.css" />
+    <link rel="stylesheet" href="/assets/css/table.css" />
+
+    <script src="https://kit.fontawesome.com/a97821a17a.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/cofh.js" defer></script>
+    <script>
+      function setTheme(e) {
+        const isDark = e.target.checked;
+        document.documentElement.setAttribute("data-theme", isDark?"dark":"light");
+        localStorage.setItem("theme", isDark?"dark":"light");
+      }
+      
+      if (localStorage.getItem("theme") == null) 
+        localStorage.setItem("theme", "light");
+      
+      document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));
+    </script>
+  </head>
+
+  <body>
+    {{ partialCached "elements/skip-nav-button" . }}
+  
+    {{ partial "main/header" . }}
+    
+    {{ block "main" . }}
+    {{ end }}
+    
+    {{ partialCached "main/footer" . }}
+    
+    {{ partialCached "elements/back-to-top" . }}
+    
+  </body>
+</html>

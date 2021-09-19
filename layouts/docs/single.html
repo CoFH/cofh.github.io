@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="body">
+  {{ partialCached "docs/nav/navtabs" (dict "context" . "mod" .Params.mods "version" .Params.version) .Params.mods .Params.version }}
+  <main id="main-content" class="docs-content content">
+    {{ with .Title }}<h1>{{ title . }}</h1>{{ end }}
+    <div class="subtext">
+      {{- with .Params.mods -}}
+        {{- if reflect.IsSlice . -}}
+          {{- delimit (apply . "title" ".") ", " -}}
+        {{- else -}}
+          {{- title . -}}
+        {{- end -}}
+      {{- end -}}{{- with .Params.version }} {{ . -}}{{- end -}}
+    </div>
+    <hr>
+    {{ .TableOfContents }}
+    <article>
+      {{/* TODO %- include docs/image.html -%*/}}
+      
+      {{ .Content }}
+    </article>
+  </main>
+  
+  {{ partialCached "docs/nav/navbox" (dict "context" . "mod" .Params.mods "version" .Params.version) .Params.version .Params.mods }}
+  
+</div>
+<script src="/assets/js/cofh-docs.js"></script>
+{{ end }}
+

@@ -1,0 +1,14 @@
+{{- $grouped_docs := dict -}}
+{{- range where .Site.Pages "Section" "docs" -}}
+  {{- $doc := . -}}
+  {{- $version := string (default "" $doc.Params.version) -}}
+  
+  {{- if reflect.IsSlice $doc.Params.mods -}}
+    {{- range $doc.Params.mods -}}
+      {{- $grouped_docs = partial "util/map_array_append" (dict "data" $grouped_docs "keys" (slice $version (title .)) "value" $doc) -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $grouped_docs = partial "util/map_array_append" (dict "data" $grouped_docs "keys" (slice $version (title (default "" $doc.Params.mods))) "value" $doc) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $grouped_docs -}}

@@ -1,3 +1,0 @@
-{% assign words = include.string | split: ' ' %}
-{% capture uppercase %}{% for word in words %}{{ word | slice: 0 | capitalize }}{{ word | slice: 1, 999 }}{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}{% endcapture %}
-{{ uppercase }}

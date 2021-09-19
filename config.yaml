@@ -1,0 +1,19 @@
+baseURL: https://teamcofh.com
+disablePathToLower: true
+languageCode: en-us
+title: Team CoFH
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  mod: mods
+  version: version
+
+permalinks:
+  /: /:sections/:filename
+  docs: /:sections[0:3]/:filename
+  blog: /:sections/:year/:month/:day/:title/
+  

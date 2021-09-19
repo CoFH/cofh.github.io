@@ -1,5 +1,0 @@
----
-title: "Thermal Innovation!"
----
-
-WIP

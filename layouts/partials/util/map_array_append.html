@@ -1,0 +1,17 @@
+{{/* This partial "function" appends a value to an array in a (nested) map. */}}
+
+{{- $data := dict -}}
+{{- $array := slice .value -}}
+
+{{- if ne .key nil -}}
+  {{- if ne ($old_arr := partial "util/map_get" (dict "data" .data "key" .key)) nil -}}
+    {{- $array = $array | append $old_arr -}}
+  {{- end -}}
+  {{- $data = partial "util/map_set" (dict "data" .data "key" .key "value" $array) -}}
+{{- else if .keys -}}
+  {{- if ne ($old_arr := partial "util/map_get" (dict "data" .data "keys" .keys)) nil -}}
+    {{- $array = $array | append $old_arr -}}
+  {{- end -}}
+  {{- $data = partial "util/map_set" (dict "data" .data "keys" .keys "value" $array) -}}
+{{- end -}}
+{{- return $data -}}

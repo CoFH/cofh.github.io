@@ -1,0 +1,14 @@
+{{- $subject_map := dict -}}
+{{- range where .Site.Pages "Section" "docs" -}}
+  {{- $doc := . -}}
+  {{- $version := string (default "none" $doc.Params.version) -}}
+  
+  {{- if reflect.IsSlice $doc.Params.subjects -}}
+    {{- range $doc.Params.subjects -}}
+      {{- $subject_map = partial "util/map_array_append" (dict "data" $subject_map "keys" (slice $version (replace (anchorize .) "-" "_")) "value" $doc) -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $subject_map = partial "util/map_array_append" (dict "data" $subject_map "keys" (slice $version (replace (anchorize $doc.Params.subjects) "-" "_")) "value" $doc) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $subject_map -}}

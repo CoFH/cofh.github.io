@@ -1,0 +1,28 @@
+{{ $version := string (default "" .version) }}
+{{ $mod := title (default "" .mod) }}
+
+{{- $mod_docs := partial "util/map_get" (dict "data" (partialCached "docs/cache/mods_versions" .context) "keys" (slice $version $mod)) -}}
+{{- $main_docs := dict -}}
+{{- $grouped_docs := dict -}}
+{{- $default_mod_main := .context.Site.GetPage (printf "/docs/%v/%v/" $version $mod) -}}
+
+{{- range $mod_docs -}}
+  {{- if eq .Params.mod_main $mod -}}
+    {{- $main_docs = merge $main_docs (dict "" (dict "" .)) -}}
+  {{- else if (and .Params.category_main (len (default "" .Params.category))) -}}
+    {{- $main_docs = merge $main_docs (dict (title .Params.category) (dict "" .)) -}}
+  {{- else if (and .Params.subcategory_main (len (default "" .Params.subcategory))) -}}
+    {{- $main_docs = merge $main_docs (dict (title (default "" .Params.category)) (title (dict .Params.subcategory .))) -}}
+  {{- else if not (or .Params.navbox_hidden (eq . $default_mod_main)) -}}
+    {{- $grouped_docs = partial "util/map_array_append" (dict "data" $grouped_docs "keys" (slice (title (default "" .Params.category)) (title (default "" .Params.subcategory))) "value" .) -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* "Save" default main doc for later, then if there isn't already a main doc use the default. */}}
+{{- if partial "util/map_get" (dict "data" $main_docs "keys" (slice "" "")) -}}
+  {{- $grouped_docs = partial "util/map_array_append" (dict "data" $grouped_docs "keys" (slice (title (default "" $default_mod_main.Params.category)) (title (default "" $default_mod_main.Params.subcategory))) "value" $default_mod_main) -}}
+{{- else -}}
+  {{- $main_docs = partial "util/map_set" (dict "data" $main_docs "keys" (slice "" "") "value" $default_mod_main) -}}
+{{- end -}}
+
+{{- return (dict "main" $main_docs "grouped" $grouped_docs) -}}

@@ -1,0 +1,87 @@
+{{- $version := string (default "" .version) -}}
+{{- if reflect.IsSlice .mod -}}
+  {{- range .mod -}}
+    {{ partialCached "docs/nav/navbox" (dict "context" $.context "mod" . "version" $version) $version . }}
+  {{- end -}}
+{{- else -}}
+  {{- $mod := title (default "" .mod) -}}
+  
+  {{- $mod_docs := partialCached "docs/cache/categorized_docs" (dict "context" .context "mod" .mod "version" .version) .version .mod -}}
+  {{- $main_docs := index $mod_docs "main" -}}
+  {{- $grouped_docs := index $mod_docs "grouped" -}}
+  
+  <table class="nav-table">
+    <thead>
+      <tr>
+        <th colspan=2>
+          {{- $mod_main := partial "util/map_get" (dict "data" $main_docs "keys" (slice "" "")) -}}
+          {{- with $mod_main -}}<a href="{{.RelPermalink}}">{{- end -}}
+            {{- if or $mod $version -}}
+              {{- title $mod }} {{ $version -}}
+            {{- else -}}
+              {{- "General Docs" -}}
+            {{- end -}}
+          {{- with $mod_main -}}</a>{{- end -}}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- partial "navbox_category" (dict "category" "" "docs" (index $grouped_docs "") "main" (index $main_docs "")) -}}
+      {{- range $category, $docs := $grouped_docs -}}
+        {{- if $category -}}
+          {{ partial "navbox_category" (dict "category" $category "docs" $docs "main" (index $main_docs $category)) }}
+        {{- end -}}
+      {{- end -}}
+    </tbody>
+  </table>
+{{- end -}}
+
+{{- define "partials/navbox_category" -}}
+  {{- if .docs -}}
+    {{- if .category -}}
+      <tr>
+        <th colspan=2>
+          {{- with .main -}}
+            {{- if (index . "") -}}<a href="{{(index . ``).RelPermalink}}">{{- end -}}
+          {{- end -}}
+            {{- .category -}}
+          {{- with .main -}}
+            {{- if (index . "") -}}</a>{{- end -}}
+          {{- end -}}
+        </th>
+      </tr>
+    {{- end -}}
+    
+    {{- partial "navbox_subcategory" (dict "subcategory" "" "docs" (index .docs "") "main" nil "centered" (le (len .docs) 1)) -}}
+    {{- range $subcategory, $docs := .docs -}}
+      {{- if $subcategory -}}
+        {{- partial "navbox_subcategory" (dict "subcategory" $subcategory "docs" $docs "main" (index (default (dict) $.main) $subcategory)) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- define "partials/navbox_subcategory" -}}
+  {{- if .docs -}}
+    <tr>
+      {{- if .subcategory -}}
+        <th>
+          {{- with .main -}}<a href="{{.RelPermalink}}">{{- end -}}
+            {{ .subcategory }}
+          {{- with .main -}}</a>{{- end -}}
+        </th>
+      {{- end -}}
+      
+      <td {{ if not .subcategory }}colspan=2 {{ if .centered }}style="text-align:center;"{{ end }}{{ end }}>
+        {{- $first := true -}}
+        {{- range .docs -}}
+          {{- if not $first -}}&nbsp;• {{ end -}}
+          <a href="{{.RelPermalink}}" class="docs-navbox-link">
+            {{ partialCached "docs/doc_icon" . . }} {{.Title}}
+          </a>
+          {{- $first = false -}}
+        {{- end -}}
+      </td> 
+    </tr>
+  {{- end -}}
+{{- end -}}

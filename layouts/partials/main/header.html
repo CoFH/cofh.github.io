@@ -1,0 +1,22 @@
+<header id="banner">
+  <label id="theme-switch-label" tabindex=0>
+    <span class="fas fa-adjust" style="transition:none;" />
+    {{ partial "elements/switch" "theme-switch" }}
+  </label>
+  <div class="cofh-logo-container">
+    <a href="/"><img class="cofh-logo" src="/assets/images/logos/cofh.png" alt="Team CoFH Home"></a>
+  </div>
+  {{ partial "main/navbar" }}
+</header>
+
+<script>
+  const banner = document.getElementById("banner");
+  if (banner)
+    banner.setAttribute("style", "background-image:url('/assets/images/banners/banner" + Math.ceil(Math.random() * 7) + ".jpg');");
+  
+  const themeSwitch = document.getElementById("theme-switch");
+  themeSwitch.addEventListener("change", setTheme);
+  themeSwitch.checked = localStorage.getItem("theme") == "dark";
+  
+  document.getElementById("theme-switch-label").onkeyup = (e) => { if (e.keyCode === 13) themeSwitch.click(); };
+</script>

@@ -1,0 +1,12 @@
+<div class="main-navbar-full">
+  <nav class="main-navbar" role="navigation" aria-label="Main Navigation">
+    <a href="javascript:void(0);" class="navbar-menu nav-link popup" aria-label="Toggle Main Navigation Menu" aria-expanded="false"><i class="fa fa-bars"></i></a>
+    <ul class="horz nav-list">
+      <li><a href="/about" class="{{ if and (in .Page.RelPermalink `/about`) (not (in .Page.RelPermalink `/docs`)) }}nav-link-selected {{ end }}nav-link">About</a></li>
+      <li><a href="/blog" class="{{ if in .Page.RelPermalink `/blog` }}nav-link-selected {{ end }}nav-link">Blog</a></li>
+      <li><a href="/docs" class="{{ if in .Page.RelPermalink `/docs` }}nav-link-selected {{ end }}nav-link">Documentation</a></li>
+      <li><a href="/downloads" class="{{ if in .Page.RelPermalink `/downloads` }}nav-link-selected {{ end }}nav-link">Downloads</a></li>
+    </ul>
+    {{ partial "elements/searchbar" }}
+  </nav>
+</div>

@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="body">
+  {{ partialCached "docs/nav/navtabs" (dict "context" . "mod" .Params.mods "version" .Params.version) .Params.mods .Params.version }}
+  <main id="main-content" class="content">
+    {{ with .Title }}<h1>{{ title . }}</h1>{{ end }}
+    <div class="subtext">
+      {{- with .Params.mods -}}
+        {{- if reflect.IsSlice . -}}
+          {{- delimit (apply . "title" ".") ", " -}}
+        {{- else -}}
+          {{- title . -}}
+        {{- end -}}
+      {{- end -}}{{- with .Params.version }} {{ . -}}{{- end -}}
+    </div>
+    <hr />
+    
+    {{- with .Content -}}
+      {{ . }}
+      <hr />
+    {{- end -}}
+    
+    <ul>
+      {{ range .Pages }}
+        <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+      {{ end }}
+    </ul>
+  </main>
+</div>
+{{ end }}
+

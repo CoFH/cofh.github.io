@@ -1,0 +1,21 @@
+{{/* This partial "function" safely sets a value in a map. Input an array of keys for nested maps. Returns the new map. */}}
+
+{{- $data := dict -}}
+{{- if .key -}}
+  {{- $data = dict .key .value -}}
+{{- else if .keys -}}
+  {{- if le (len .keys) 1 -}}
+    {{- $data = dict (index .keys 0) .value -}}
+  {{- else -}}
+    {{- $data = dict (index .keys (sub (len .keys) 1)) .value -}}
+    {{- range (seq (sub (len .keys) 2) 0) -}}
+      {{- $data = dict (index $.keys .) $data -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and .data (reflect.IsMap .data) -}}
+  {{- $data = merge .data $data -}}
+{{- end -}}
+
+{{- return $data -}}

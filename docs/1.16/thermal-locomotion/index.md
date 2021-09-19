@@ -1,5 +1,0 @@
----
-title: "Thermal Locomotion!"
----
-
-WIP

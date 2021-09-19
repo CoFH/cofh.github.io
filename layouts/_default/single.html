@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="body">
+  <main id="main-content" class="content">
+    {{- with .Title -}}
+      <h1>{{ . }}</h1>
+      <hr />
+    {{- end -}}
+    {{ .Content }}
+  </main>
+</div>
+{{ end }}
+

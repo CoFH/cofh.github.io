@@ -1,0 +1,17 @@
+{{/* This partial "function" safely gets a value in a map. Input an array of keys for nested maps. Returns null if not found. */}}
+
+{{- $value := partialCached "util/nil" . -}}
+{{- if .data -}}
+  {{- if .key -}}
+    {{- $value = index .data .key -}}
+  {{- else if .keys -}}
+    {{- $data := .data -}}
+    {{- range .keys -}}
+      {{- if $data -}}
+        {{- $data = index $data . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $value = $data -}}
+  {{- end -}}
+{{- end -}}
+{{- return $value -}}
