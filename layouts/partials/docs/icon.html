@@ -7,7 +7,7 @@
   {{- end -}}
   
   {{- if le (len $ids) 1 -}}
-    {{- $coords := partial "util/map_get" (dict "data" .context.Site.Data.docs "keys" (slice .version "items-fluids" (index $ids 0) "position")) -}}
+    {{- $coords := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "items-fluids" (index $ids 0) "position")) -}}
     <div class="docs-icon docs-cycleable{{ with .hidden }} hidden{{ end }}" style="background-image:url('/assets/images/docs/{{.version}}/sprites.png'); background-position:-{{mul (index $coords 0) 33}}px -{{mul (index $coords 1) 33}}px;{{ with .margin }} margin:{{.}}px;{{ end }}"></div>    
   {{- else -}}
     <div class="docs-icon docs-cycle">

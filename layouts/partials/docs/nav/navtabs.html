@@ -1,4 +1,4 @@
-{{- $mods_versions := partialCached "docs/cache/mods_versions" .context -}}
+{{- $mods_versions := partialCached "docs/cache/mods_versions" .Page -}}
 {{- $sorted_versions := slice -}}
 {{- range $version, $mods := $mods_versions -}}
   {{- if $version -}}
@@ -11,7 +11,7 @@
   <ul class="horz nav-list">
     {{- range $version := $sorted_versions -}}
       <li class="version-menu">
-        <a href="javascript:void(0);" class="popup version-link nav-link{{ if eq (string $.context.Params.version) $version }} nav-link-selected{{ end }}" has-popup="true" aria-expanded="false">{{$version}}</a>
+        <a href="javascript:void(0);" class="popup version-link nav-link{{ if eq (string $.Page.Params.version) $version }} nav-link-selected{{ end }}" has-popup="true" aria-expanded="false">{{$version}}</a>
         <ul class="vert nav-list hidden-list mod-list" aria-label="{{$version}} Mods Navigation">
           {{- $sorted_mods := slice -}}
           {{- range $mod, $pages := index $mods_versions $version -}}
@@ -21,16 +21,16 @@
           {{- end -}}
           
           {{- range $mod := (sort $sorted_mods) -}}
-            {{- $mod_main := partial "util/map_get" (dict "data" (index (partialCached "docs/cache/categorized_docs" (dict "context" $.context "mod" $mod "version" $version) $version $mod) "main") "keys" (slice "" "")) -}}
+            {{- $mod_main := partial "util/map_get" (dict "data" (index (partialCached "docs/cache/categorized_docs" (dict "Page" $.Page "mod" $mod "version" $version) $version $mod) "main") "keys" (slice "" "")) -}}
             <li>
               {{- $same_mod := false -}}
-              {{- if reflect.IsSlice $.context.Params.mods -}}
-                {{- $same_mod = in (apply $.context.Params.mods "title" ".") $mod -}}
+              {{- if reflect.IsSlice $.Page.Params.mods -}}
+                {{- $same_mod = in (apply $.Page.Params.mods "title" ".") $mod -}}
               {{- else -}}
-                {{- $same_mod = eq (title $.context.Params.mods) $mod -}}
+                {{- $same_mod = eq (title $.Page.Params.mods) $mod -}}
               {{- end -}}
               
-              <a {{with $mod_main}}href="{{.RelPermalink}}" {{end}}class="mod-link nav-link{{ if and $same_mod (eq (string $.context.Params.version) $version) }} nav-link-selected{{ end }}">
+              <a {{with $mod_main}}href="{{.RelPermalink}}" {{end}}class="mod-link nav-link{{ if and $same_mod (eq (string $.Page.Params.version) $version) }} nav-link-selected{{ end }}">
                 <img class="mod-logo" src="/assets/images/logos/{{$version}}/{{ anchorize $mod }}.png" alt="{{$version}} {{$mod}}">
               </a>
             </li>

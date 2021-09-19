@@ -2,6 +2,9 @@
 
 {{- $data := dict -}}
 {{- $array := slice .value -}}
+{{- if reflect.IsSlice .values -}}
+  {{- $array = .values -}}
+{{- end -}}
 
 {{- if ne .key nil -}}
   {{- if ne ($old_arr := partial "util/map_get" (dict "data" .data "key" .key)) nil -}}

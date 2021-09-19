@@ -1,0 +1,9 @@
+<div class="docs-item-slots-row docs-recipe-component">
+  {{- range (seq 0 (sub .number 1)) -}}
+    {{- if reflect.IsSlice $.slots -}}
+      {{ partial "docs/recipe/elements/item_slot" (dict "Page" $.Page "slot" (index $.slots .) "version" $.version) }}
+    {{- else -}}
+      {{ partial "docs/recipe/elements/item_slot" (dict "Page" $.Page "version" $.version) }}
+    {{- end -}}
+  {{- end -}}
+</div>

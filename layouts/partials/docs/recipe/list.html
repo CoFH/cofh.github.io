@@ -1,0 +1,65 @@
+{{- $data := partial "util/map_get" (dict "data" .Page.Site.Data.docs "key" .version) -}}
+
+{{- $recipes := newScratch -}}
+{{- $types := default (partial "util/map_keys" $data.recipes) (partial "util/sanitize_ids" (default "none" .types)) -}}
+{{- $ids := partial "util/sanitize_ids" (default "none" .ids) -}}
+{{- $uses := partial "util/sanitize_ids" (default "none" .uses) -}}
+{{- $makes := partial "util/sanitize_ids" (default "none" .makes) -}}
+{{- $excluding := partial "util/sanitize_ids" (default "none" .excluding) -}}
+
+{{- if or (or $makes $uses) $ids -}}
+  {{- if $makes -}}
+    {{- range $makes -}}
+      {{- range $type, $recipe_ids := partial "util/map_get" (dict "data" $data "keys" (slice "items-fluids" . "outputs")) -}}
+        {{- if in $types $type -}}
+          {{- $recipes.Add $type $recipe_ids -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- if $uses -}}
+    {{- range $uses -}}
+      {{- range $type, $recipe_ids := partial "util/map_get" (dict "data" $data "keys" (slice "items-fluids" . "inputs")) -}}
+        {{- if in $types $type -}}
+          {{- $recipes.Add $type $recipe_ids -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- if $ids -}}
+    {{- range $type := $types -}}
+      {{- range $ids -}}
+        {{- if partial "util/map_get" (dict "data" $data.recipes "keys" (slice $type .)) -}}
+          {{- $recipes.Add $type . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- range $type, $recipe_map := $data.recipes -}}
+    {{- $recipes.Set $type (partial "util/map_keys" $recipe_map) -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* TODO: optimize? */}}
+{{- if $excluding -}}
+  {{- range $type, $recipe_ids := $recipes.Values -}}
+    {{- range $recipe_id := $recipe_ids -}}
+      {{- $recipe := partial "util/map_get" (dict "data" $data.recipes "keys" (slice $type $recipe_id)) -}}
+      {{- range $excluding -}}
+        {{- if partial "util/recursive_contains" (dict "data" $recipe "value" .) -}}
+          {{- $recipes.Set $type ($recipes.Get $type | complement (slice $recipe_id)) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="docs-recipe-tables {{ if .hidden }}tables-collapsed{{ end }}">
+  Recipes&nbsp;[<span class="tables-toggle-hidden link" tabindex=0>{{ if .hidden }}Show{{ else }}Hide{{ end }}</span>]
+  {{- range $type, $recs := $recipes.Values -}}
+    {{ partial "docs/recipe/table" (dict "Page" $.Page "version" $.version "type" $type "recipe_ids" $recs) }}
+  {{- end -}}
+</div>

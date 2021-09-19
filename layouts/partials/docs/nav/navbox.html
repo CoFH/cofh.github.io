@@ -1,12 +1,12 @@
 {{- $version := string (default "" .version) -}}
 {{- if reflect.IsSlice .mod -}}
   {{- range .mod -}}
-    {{ partialCached "docs/nav/navbox" (dict "context" $.context "mod" . "version" $version) $version . }}
+    {{ partialCached "docs/nav/navbox" (dict "Page" $.Page "mod" . "version" $version) $version . }}
   {{- end -}}
 {{- else -}}
   {{- $mod := title (default "" .mod) -}}
   
-  {{- $mod_docs := partialCached "docs/cache/categorized_docs" (dict "context" .context "mod" .mod "version" .version) .version .mod -}}
+  {{- $mod_docs := partialCached "docs/cache/categorized_docs" (dict "Page" .Page "mod" .mod "version" .version) .version .mod -}}
   {{- $main_docs := index $mod_docs "main" -}}
   {{- $grouped_docs := index $mod_docs "grouped" -}}
   

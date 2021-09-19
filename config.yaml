@@ -16,4 +16,7 @@ permalinks:
   /: /:sections/:filename
   docs: /:sections[0:3]/:filename
   blog: /:sections/:year/:month/:day/:title/
+
+params:
+  mc_wiki: https://minecraft.fandom.com/wiki/
   

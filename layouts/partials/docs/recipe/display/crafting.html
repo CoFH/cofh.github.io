@@ -1,0 +1,7 @@
+{{- if .recipe -}}
+  <div class="docs-recipe docs-pausable">
+    {{ partial "docs/recipe/elements/item_slots_grid" (dict "Page" .Page "version" .version "slots" .recipe.inputs.item "number" 9) }}
+    {{ partial "docs/recipe/elements/arrow" }}
+    {{ partial "docs/recipe/elements/item_slots_grid" (dict "Page" .Page "version" .version "slots" .recipe.outputs.item "number" 1) }}
+  </div>
+{{- end -}}

@@ -1,0 +1,1 @@
+{{ partial "docs/recipe/list" (dict "Page" .Page.Page "version" (string (default (.Get "version") .Page.Params.version)) "types" (.Get "types") "ids" (.Get "ids") "uses" (.Get "uses") "makes" (.Get "makes") "excluding" (.Get "excluding")) }}

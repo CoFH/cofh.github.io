@@ -1,0 +1,9 @@
+{{/* This partial "function" returns an array of a map's keys. */}}
+
+{{- $keys := slice -}}
+{{- if reflect.IsMap . -}}
+  {{- range $key, $value := . -}}
+    {{- $keys = $keys | append $key -}}
+  {{- end -}}
+{{- end -}}
+{{- return $keys -}}

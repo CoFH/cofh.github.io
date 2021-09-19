@@ -1,0 +1,136 @@
+{{- if and .type .recipe_ids -}}
+  <table class="info-table">
+    <caption>
+      {{ partialCached "table/caption" (dict "Page" .Page "version" .version "type" .type) .version .type }}
+    </caption>
+    <thead>
+      <tr>
+        {{- $display_type := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "recipe-types" .type "display_type")) -}}
+        {{ partialCached "table/head" (dict "Page" .Page "version" .version "display_type" $display_type) .version $display_type }}
+      </tr>
+    </thead>
+    <tbody>
+      {{- range .recipe_ids -}}
+        {{- $recipe := (partial "util/map_get" (dict "data" $.Page.Site.Data.docs "keys" (slice $.version "recipes" $.type .))) -}}
+        {{- if $recipe -}}
+          <tr>
+            {{ partialCached "table/row" (dict "Page" $.Page "version" $.version "type" $.type "recipe" $recipe) $.version $.type . }}
+          </tr>
+        {{- end -}}
+      {{- end -}}
+    </tbody>
+  </table>
+{{- end -}}
+
+
+{{- define "partials/table/caption" -}}
+  {{- $type_data := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "recipe-types" .type)) -}}
+
+  {{- if eq $type_data.display_type "crafting" -}}
+    <a href="https://minecraft.fandom.com/wiki/Crafting">{{$type_data.name}}</a>
+    
+  {{- else if eq $type_data.display_type "machine" -}}
+    {{- $link := $type_data.url -}}
+    {{- if not $link -}}
+      {{- if or (eq .type "smelting") (eq .type "blasting") -}}
+        {{- $link = "https://minecraft.fandom.com/wiki/Smelting" -}}
+      {{- else -}}
+        {{- $link = partial "docs/get_link" (dict "Page" .Page "version" .version "id" (printf "machine_%v" .type)) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $link }}
+      <a href="{{$link}}">{{ $type_data.name }}</a>
+    {{- else -}}
+      {{ $type_data.name }}
+    {{- end -}}
+    
+  {{- else if eq $type_data.display_type "dynamo" -}}
+    {{- $link := partial "docs/get_link" (dict "Page" .Page "version" .version "id" (printf "dynamo_%v" (replace .type "_fuel" ""))) -}}
+    {{- if $link }}
+      <a href="{{$link}}">{{ $type_data.name }}</a>
+    {{- else -}}
+      {{ $type_data.name }}
+    {{- end -}}
+    
+  {{- else if eq $type_data.display_type "catalyst" -}}
+    {{- $machine := printf "machine_%v" (replace .type "_catalyst" "") -}}
+    {{- $machine_link := partial "docs/get_link" (dict "Page" .Page "version" .version "id" $machine) -}}
+    {{- if $machine_link }}
+      <a href="{{$machine_link}}">{{ partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "items-fluids" $machine "name")) }}</a>
+    {{- else -}}
+      {{ $type_data.name }}
+    {{- end -}}
+    &nbsp;<a href="/docs/{{.version}}/catalysts">Catalyst</a> {{/* TODO: more generalized */}}
+  {{- end -}}
+{{- end -}}
+
+
+{{- define "partials/table/head" -}}
+  {{- if eq .display_type "crafting" -}}
+    <td>Ingredients</td>
+    <td>Results</td>
+    <td>Recipe</td>
+
+  {{- else if eq .display_type "machine" -}}
+    <td>Ingredients</td>
+    <td>Results</td>
+    <td>Recipe</td>
+
+  {{- else if eq .display_type "dynamo" -}}
+    <td>Fuel</td>
+    <td>Output</td>
+    <td>Recipe</td>
+
+  {{- else if eq .display_type "catalyst" -}}
+    <td>Modifiers</td>
+    <td>Recipe</td>
+  {{- end -}}
+{{- end -}}
+
+
+{{- define "partials/table/row" -}}
+  {{- $type_data := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "recipe-types" .type)) -}}
+
+  {{- if eq $type_data.display_type "crafting" -}}
+    <td>{{ partial "docs/recipe/elements/quantities" (dict "Page" .Page "version" .version "item" .recipe.inputs.item) }}</td>
+    <td>{{ partial "docs/recipe/elements/quantities" (dict "Page" .Page "version" .version "item" .recipe.outputs.item) }}</td>
+    <td class="docs-pausable">{{ partial "docs/recipe/display/crafting" (dict "Page" .Page "version" .version "recipe" .recipe) }}</td>
+
+  {{- else if eq $type_data.display_type "machine" -}}
+    {{- $energy := .recipe.energy -}}
+    {{- if and (not $energy) $type_data.energy -}}
+      {{- $energy = math.Round (mul (default 1 .recipe.energy_mod) $type_data.energy) -}}
+    {{- end -}}
+    {{- $inputs := .recipe.inputs -}}
+    {{- if $type_data.water -}}
+      {{- $inputs = merge $inputs (dict "fluid" (slice (dict "id" (slice "fluid_water") "amount" (math.Round (mul (default 1 .recipe.water_mod) $type_data.water))))) -}}
+    {{- end -}}
+    <td>{{ partial "docs/recipe/elements/quantities" (dict "Page" .Page "version" .version "item" $inputs.item "fluid" $inputs.fluid "energy" $energy) }}</td>
+    <td>{{ partial "docs/recipe/elements/quantities" (dict "Page" .Page "version" .version "item" .recipe.outputs.item "fluid" .recipe.outputs.fluid "experience" .experience) }}</td>
+    <td class="docs-pausable">{{ partial "docs/recipe/display/machine" (dict "Page" .Page "version" .version "recipe" .recipe "type" .type "energy" $energy "experience" .experience) }}</td>
+
+  {{- else if eq $type_data.display_type "dynamo" -}}
+    <td>{{ partial "docs/recipe/elements/quantities" (dict "Page" .Page "version" .version "item" .recipe.inputs.item "fluid" .recipe.inputs.fluid) }}</td>
+    <td>{{ partial "docs/recipe/elements/quantities" (dict "Page" .Page "version" .version "energy" .recipe.energy) }}</td>
+    <td class="docs-pausable">{{ partial "docs/recipe/display/dynamo" (dict "Page" .Page "version" .version "recipe" .recipe "type" .type) }}</td>
+
+  {{- else if eq $type_data.display_type "catalyst" -}}
+    <td>
+      <ul class="list-no-style docs-quantity-list">
+        <li>
+          Primary Output: {{.recipe.primary_mod}}x
+        </li>
+        <li>
+          Secondary Output: {{.recipe.secondary_mod}}x
+        </li>
+        <li>
+          Energy: {{.recipe.energy_mod}}x
+        </li>
+        <li>
+          Use Chance: {{math.Round (mul .recipe.use_chance 100)}}%
+        </li>
+      </ul>
+    </td>
+    <td class="docs-pausable">{{ partial "docs/recipe/display/catalyst" (dict "Page" .Page "version" .version "recipe" .recipe "type" .type) }}</td>
+  {{- end -}}
+{{- end -}}

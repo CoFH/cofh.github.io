@@ -1,0 +1,15 @@
+{{/* Takes a single item/fluid ID, its version, and .Page and returns the link for it. */}}
+
+{{- $link := partialCached "util/nil" . -}}
+{{- if and .id .version -}}
+  {{- $link = partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "items-fluids" .id "url")) -}}
+  
+  {{- if not $link -}}
+    {{- if eq (partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "items-fluids" .id "mod"))) "minecraft" -}}
+      {{ $link = printf "%v%v" .Page.Site.Params.mc_wiki (replace .id "fluid_" "") }}
+    {{- else -}}
+      {{- $link = (partial "util/map_get" (dict "data" (partialCached "docs/cache/subjects" .Page) "keys" (slice .version .id))).RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $link -}}

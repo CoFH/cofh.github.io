@@ -1,0 +1,47 @@
+<ul class="list-no-style docs-quantity-list">
+  {{- if .item -}}
+    {{- $totals := newScratch -}}
+    {{- range .item -}}
+      {{- if . -}}
+        {{- $totals.Add (printf "%v" .id) (default 1 (default .chance .count)) -}}
+      {{- end -}}
+    {{- end -}}
+    
+    {{- range .item -}}
+      {{- if . -}}
+        {{- $key := (printf "%v" .id) -}}
+        {{- if $totals.Get $key -}}
+          <li>
+            {{- if .chance -}}
+              {{math.Round (mul ($totals.Get $key) 100)}}% chance for
+            {{- else -}}
+              {{$totals.Get $key}}
+            {{- end }} {{ partial "docs/recipe/elements/name_link" (dict "Page" $.Page "version" $.version "ids" .id) -}}
+          </li>
+          {{- $totals.Delete $key -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+    
+  
+  {{- if .fluid -}}
+    {{- range .fluid -}}
+      <li>
+        {{ .amount | lang.FormatNumber 0 }}mB {{ partial "docs/recipe/elements/name_link" (dict "Page" $.Page "version" $.version "ids" .id) }}
+      </li>
+    {{- end -}}
+  {{- end -}}
+    
+  {{- if .experience -}}
+    <li>
+      {{.experience}} <a href="https://minecraft.fandom.com/wiki/Experience">XP</a>
+    </li>
+  {{- end -}}
+  
+  {{- if .energy -}}
+    <li>
+      {{ .energy | lang.FormatNumber 0 }} <a href="/docs/redstone-flux">RF</a>
+    </li>
+  {{- end -}}
+</ul>

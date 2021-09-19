@@ -1,0 +1,17 @@
+{{- if .id -}}
+  {{- $tooltip := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "items-fluids" .id "name")) -}}
+	{{- if .count -}}
+    {{- $tooltip = printf "%v\nCount: %v" $tooltip .count -}}
+  {{- else if .chance -}}
+    {{- $tooltip = printf "%v\nChance: %v%%" $tooltip (math.Round (mul .chance 100)) -}}
+  {{- end -}}
+  
+	{{- if .link -}}<a href="{{.link}}"{{- else -}}<div{{- end }} class="docs-item-icon docs-cycleable{{ if .hidden }} hidden{{ end }}">
+    {{- partialCached "docs/icon" (dict "Page" .Page "version" .version "ids" .id) .id .version -}}
+    <div class="docs-tooltip">{{$tooltip}}</div>
+  {{- if .link -}}</a>{{- else -}}</div>{{- end -}}
+{{- else -}}
+  <div class="docs-item-icon">
+    {{- partialCached "docs/icon" (dict "Page" .Page "version" .version) nil .version -}}
+  </div>
+{{- end -}}

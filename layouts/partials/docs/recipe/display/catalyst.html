@@ -1,0 +1,3 @@
+{{- if and .recipe .type -}}
+  {{ partial "docs/recipe/display/machine" (dict "Page" .Page "version" .version "catalysts" .recipe.inputs.item "type" (replace .type "_catalyst" "") "energy" 0) }}
+{{- end -}}

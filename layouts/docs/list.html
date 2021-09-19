@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="body">
-  {{ partialCached "docs/nav/navtabs" (dict "context" . "mod" .Params.mods "version" .Params.version) .Params.mods .Params.version }}
+  {{ partialCached "docs/nav/navtabs" (dict "Page" . "mod" .Params.mods "version" .Params.version) .Params.mods .Params.version }}
   <main id="main-content" class="content">
     {{ with .Title }}<h1>{{ title . }}</h1>{{ end }}
     <div class="subtext">

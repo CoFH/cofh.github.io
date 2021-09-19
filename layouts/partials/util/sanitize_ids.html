@@ -1,0 +1,10 @@
+{{/* Returns a sanitized array of IDs. Takes "none" as an exception because partials that return a value need a non-zero argument. */}}
+{{- $ids := slice -}}
+{{- if ne . "none" -}}
+  {{- if reflect.IsSlice . -}}
+    {{- $ids = . -}}
+  {{- else if . -}}
+    {{- $ids = split (default "" .) " " -}}
+  {{- end -}}
+{{- end -}}
+{{- return apply (apply $ids "anchorize" ".") "replace" "." "-" "_" -}}

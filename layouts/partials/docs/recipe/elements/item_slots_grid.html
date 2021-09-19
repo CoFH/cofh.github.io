@@ -1,0 +1,9 @@
+<div class="docs-item-slots-grid docs-recipe-component" style="grid-template-columns:repeat({{math.Ceil (math.Sqrt .number)}}, auto);">
+  {{- range (seq 0 (sub .number 1)) -}}
+    {{- if reflect.IsSlice $.slots -}}
+      {{ partial "docs/recipe/elements/item_slot" (dict "Page" $.Page "version" $.version "slot" (index $.slots .)) }}
+    {{- else -}}
+      {{ partial "docs/recipe/elements/item_slot" (dict "Page" $.Page "version" $.version) }}
+    {{- end -}}
+  {{- end -}}
+</div>

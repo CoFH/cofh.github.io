@@ -1,0 +1,40 @@
+{{- if .type -}}
+  <div class="docs-recipe docs-pausable">
+    {{- $type_data := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "recipe-types" .type)) -}}
+    {{- if ne .energy nil -}}
+      {{ partial "docs/recipe/elements/rf_bar" (dict "Page" .Page "version" .version "energy" .energy) }}
+    {{- end -}}
+    
+    {{- if $type_data.inputs -}}
+      {{- if $type_data.inputs.fluid -}}
+        {{ partial "docs/recipe/elements/fluid_slots_row" (dict "Page" .Page "version" .version "slots" .recipe.inputs.fluid "number" $type_data.inputs.fluid) }}
+      {{- end -}}
+      <div class="docs-machine-input">
+        {{- if $type_data.inputs.item -}}
+          {{ partial "docs/recipe/elements/item_slots_row" (dict "Page" .Page "version" .version "slots" .recipe.inputs.item "number" $type_data.inputs.item) }}
+        {{- end -}}
+        
+        {{/* If the number of recipe items exceeds the number of slots defined in recipe-types.yml, excess items will go into lower item slots. Yes, this is a little hacky, but that's the way it's done in-game too. Catalysts also go into lower item slots. */}}
+        {{- if $type_data.inputs.lower_item -}}
+          {{- $lower_slots := after $type_data.inputs.item (default (slice) .recipe.inputs.item)  -}}
+          {{- if .catalysts -}}
+            {{- $lower_slots = $lower_slots | append .catalysts -}}
+          {{- end -}}
+          {{ partial "docs/recipe/elements/item_slots_row" (dict "Page" .Page "version" .version "slots" $lower_slots "number" $type_data.inputs.lower_item) }}
+        {{- end -}}
+      </div>
+    {{- end -}}
+    
+    {{ partial "docs/recipe/elements/arrow" }}
+    
+    {{- if $type_data.outputs -}}
+      {{- if $type_data.outputs.item -}}
+        {{ partial "docs/recipe/elements/item_slots_grid" (dict "Page" .Page "version" .version  "slots" .recipe.outputs.item "number" $type_data.outputs.item) }}
+      {{- end -}}
+      
+      {{- if $type_data.outputs.fluid -}}
+        {{ partial "docs/recipe/elements/fluid_slots_row" (dict "Page" .Page "version" .version  "slots" .recipe.outputs.fluid "number" $type_data.outputs.fluid) }}
+      {{- end -}}
+    {{- end -}}
+  </div>
+{{- end -}}

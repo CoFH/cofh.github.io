@@ -1,10 +1,10 @@
 {{ $version := string (default "" .version) }}
 {{ $mod := title (default "" .mod) }}
 
-{{- $mod_docs := partial "util/map_get" (dict "data" (partialCached "docs/cache/mods_versions" .context) "keys" (slice $version $mod)) -}}
+{{- $mod_docs := partial "util/map_get" (dict "data" (partialCached "docs/cache/mods_versions" .Page) "keys" (slice $version $mod)) -}}
 {{- $main_docs := dict -}}
 {{- $grouped_docs := dict -}}
-{{- $default_mod_main := .context.Site.GetPage (printf "/docs/%v/%v/" $version $mod) -}}
+{{- $default_mod_main := .Page.Site.GetPage (printf "/docs/%v/%v/" $version $mod) -}}
 
 {{- range $mod_docs -}}
   {{- if eq .Params.mod_main $mod -}}

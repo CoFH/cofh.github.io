@@ -1,5 +1,5 @@
 {{/* Given a doc, displays the icon for it based on the icon or subject parameters. */}}
 
 {{- if $ids := (default .Params.subjects .Params.icon) -}}
-  {{- partialCached "docs/icon" (dict "context" . "ids" $ids "version" (string (default "" .Params.version))) . -}}
+  {{- partialCached "docs/icon" (dict "Page" . "ids" $ids "version" (string (default "" .Params.version))) $ids (string (default "" .Params.version)) -}}
 {{- end -}}

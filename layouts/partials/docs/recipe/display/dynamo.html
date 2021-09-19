@@ -1,0 +1,21 @@
+{{- if and .recipe .type -}}
+  <div class="docs-recipe docs-pausable">
+    {{- $type_data := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "recipe-types" .type)) -}}
+    
+    {{- if $type_data.inputs -}}
+      {{- if $type_data.inputs.fluid -}}
+        {{ partial "docs/recipe/elements/fluid_slots_row" (dict "Page" .Page "version" .version "slots" .recipe.inputs.fluid "number" $type_data.inputs.fluid) }}
+      {{- end -}}
+      
+      {{- if $type_data.inputs.item -}}
+        {{ partial "docs/recipe/elements/item_slots_row" (dict "Page" .Page "version" .version "slots" .recipe.inputs.item "number" $type_data.inputs.item) }}
+      {{- end -}}
+    {{- end -}}
+    
+    {{ partial "docs/recipe/elements/arrow" }}
+    
+    {{- if ne .recipe.energy nil -}}
+      {{ partial "docs/recipe/elements/rf_bar" (dict "Page" .Page "version" .version "energy" .recipe.energy) }}
+    {{- end -}}
+  </div>
+{{- end -}}

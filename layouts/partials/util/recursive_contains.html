@@ -1,0 +1,13 @@
+{{/* This partial "function" recursively searches data for a value. Returns true if found, false otherwise. */}}
+
+{{ $found := false }}
+{{- if eq .data .value -}}
+  {{ $found = true }}
+{{- else if or (reflect.IsMap .data) (reflect.IsSlice .data) -}}
+  {{- range .data -}}
+    {{- if partial "util/recursive_contains" (dict "data" . "value" $.value) -}}
+      {{ $found = true }}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $found -}}
