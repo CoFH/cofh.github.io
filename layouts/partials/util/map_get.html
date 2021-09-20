@@ -2,6 +2,7 @@
 
 {{- $value := partialCached "util/nil" . -}}
 {{- if .data -}}
+  {{- $value = .data -}}
   {{- if .key -}}
     {{- $value = index .data .key -}}
   {{- else if .keys -}}

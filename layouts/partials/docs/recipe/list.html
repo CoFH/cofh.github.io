@@ -1,3 +1,6 @@
+{{- if not .version -}}
+  {{- errorf "Page %v has no version specified, and should therefore not have any recipes!" .Page -}}
+{{- end -}}
 {{- $data := partial "util/map_get" (dict "data" .Page.Site.Data.docs "key" .version) -}}
 
 {{- $recipes := newScratch -}}
@@ -59,7 +62,7 @@
 
 <div class="docs-recipe-tables {{ if .hidden }}tables-collapsed{{ end }}">
   Recipes&nbsp;[<span class="tables-toggle-hidden link" tabindex=0>{{ if .hidden }}Show{{ else }}Hide{{ end }}</span>]
-  {{- range $type, $recs := $recipes.Values -}}
-    {{ partial "docs/recipe/table" (dict "Page" $.Page "version" $.version "type" $type "recipe_ids" $recs) }}
+  {{- range $type, $recipe_ids := $recipes.Values -}}
+    {{ partial "docs/recipe/table" (dict "Page" $.Page "version" $.version "type" $type "ids" (uniq $recipe_ids)) }}
   {{- end -}}
 </div>

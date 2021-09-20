@@ -1,1 +1,18 @@
-{{ partial "docs/recipe/list" (dict "Page" .Page.Page "version" (string (default (.Get "version") .Page.Params.version)) "types" (.Get "types") "ids" (.Get "ids") "uses" (.Get "uses") "makes" (.Get "makes") "excluding" (.Get "excluding")) }}
+{{- /* This is the main shortcode for displaying recipes. It takes 0-5 arguments:
+  types - Limits the recipe types to those passed in. Allows all types otherwise.
+  ids - Adds specific recipe IDs to the list.
+  uses - Adds all recipes that use at least one of the items/fluids passed in.
+  makes - Adds all recipes that make at least one of the items/fluids passed in.
+  excluding - Excludes any recipes that involve at least one of the items/fluids passed in.
+  
+  In order to pass in a value from .Page.Params, such as an array, you can pass a key to (argument + "_param").
+  For example, you can list all recipes that make your page's subjects:
+  {{<recipe_list makes_param="subjects">}}
+ */ -}}
+
+{{ partial "docs/recipe/list" (dict "Page" .Page "version" (string (default (.Get "version") .Page.Params.version)) 
+"types" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "types_param"))) (.Get "types")) 
+"ids" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "ids_param"))) (.Get "ids")) 
+"uses" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "uses_param"))) (.Get "uses")) 
+"makes" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "makes_param"))) (.Get "makes")) 
+"excluding" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "excluding_param"))) (.Get "excluding"))) }}

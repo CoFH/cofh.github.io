@@ -17,7 +17,11 @@
           {{- $mod_main := partial "util/map_get" (dict "data" $main_docs "keys" (slice "" "")) -}}
           {{- with $mod_main -}}<a href="{{.RelPermalink}}">{{- end -}}
             {{- if or $mod $version -}}
-              {{- title $mod }} {{ $version -}}
+              {{- if $mod -}}
+                {{- title $mod -}}
+              {{- else -}}
+                {{- "Minecraft" -}}
+              {{- end }} {{ $version -}}
             {{- else -}}
               {{- "General Docs" -}}
             {{- end -}}
@@ -63,25 +67,27 @@
 
 {{- define "partials/navbox_subcategory" -}}
   {{- if .docs -}}
-    <tr>
-      {{- if .subcategory -}}
-        <th>
-          {{- with .main -}}<a href="{{.RelPermalink}}">{{- end -}}
-            {{ .subcategory }}
-          {{- with .main -}}</a>{{- end -}}
-        </th>
-      {{- end -}}
-      
-      <td {{ if not .subcategory }}colspan=2 {{ if .centered }}style="text-align:center;"{{ end }}{{ end }}>
-        {{- $first := true -}}
-        {{- range .docs -}}
-          {{- if not $first -}}&nbsp;• {{ end -}}
-          <a href="{{.RelPermalink}}" class="docs-navbox-link">
-            {{ partialCached "docs/doc_icon" . . }} {{.Title}}
-          </a>
-          {{- $first = false -}}
+    {{- if index .docs 0 -}}
+      <tr>
+        {{- if .subcategory -}}
+          <th>
+            {{- with .main -}}<a href="{{.RelPermalink}}">{{- end -}}
+              {{ .subcategory }}
+            {{- with .main -}}</a>{{- end -}}
+          </th>
         {{- end -}}
-      </td> 
-    </tr>
+        
+        <td {{ if not .subcategory }}colspan=2 {{ if .centered }}style="text-align:center;"{{ end }}{{ end }}>
+          {{- $first := true -}}
+          {{- range .docs -}}
+            {{- if not $first -}}&nbsp;• {{ end -}}
+            <a href="{{.RelPermalink}}" class="docs-navbox-link">
+              {{ partialCached "docs/doc_icon" . . }} {{.Title}}
+            </a>
+            {{- $first = false -}}
+          {{- end -}}
+        </td> 
+      </tr>
+    {{- end -}}
   {{- end -}}
 {{- end -}}

@@ -1,0 +1,12 @@
+{{/* Takes a single item/fluid ID, its version, and any .Page and returns the Page object for the fluid/item's doc. */}}
+
+{{- $page := partialCached "util/nil" . -}}
+{{- if and .id .version -}}
+  
+  {{- if $link := (partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "items-fluids" .id "url"))) -}}
+    {{- $page = .Page.Site.GetPage $link -}}
+  {{- else -}}
+    {{- $page = partial "util/map_get" (dict "data" (partialCached "docs/cache/subjects" .Page) "keys" (slice .version .id)) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $page -}}

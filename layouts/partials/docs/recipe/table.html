@@ -1,4 +1,4 @@
-{{- if and .type .recipe_ids -}}
+{{- if and .type .ids -}}
   <table class="info-table">
     <caption>
       {{ partialCached "table/caption" (dict "Page" .Page "version" .version "type" .type) .version .type }}
@@ -10,7 +10,7 @@
       </tr>
     </thead>
     <tbody>
-      {{- range .recipe_ids -}}
+      {{- range .ids -}}
         {{- $recipe := (partial "util/map_get" (dict "data" $.Page.Site.Data.docs "keys" (slice $.version "recipes" $.type .))) -}}
         {{- if $recipe -}}
           <tr>
@@ -25,7 +25,7 @@
 
 {{- define "partials/table/caption" -}}
   {{- $type_data := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "recipe-types" .type)) -}}
-
+  
   {{- if eq $type_data.display_type "crafting" -}}
     <a href="https://minecraft.fandom.com/wiki/Crafting">{{$type_data.name}}</a>
     

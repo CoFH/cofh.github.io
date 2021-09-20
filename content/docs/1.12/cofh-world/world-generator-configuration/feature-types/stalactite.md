@@ -1,0 +1,145 @@
+---
+category: Configuration
+show_image: false
+subcategory: Feature types
+title: stalactite
+---
+
+**`stalactite`** is one of the [feature types](../) provided by [CoFH
+World](../../../). It generates downwards pointing spikes.
+
+Stalactites are only generated on ceilings or underground. They are never
+generated in midair.
+
+The value `material` of a [feature type
+configuration](../../feature-format/#feature-type-configuration) is only used to
+determine the position of stalactites. When generating the stalactites
+themselves, the option `gen-body` is used instead.
+
+
+Options
+-------
+
+When using this feature type, the following values must be added to the [feature
+type configuration](../../feature-format/#feature-type-configuration).
+
+<div class="uk-overflow-container">
+    <table class="uk-table uk-table-striped uk-text-small">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Default</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td markdown="span">`block`</td>
+                <td markdown="span">
+                    [Block ID](../../common-formats/block-id/)
+                    / array of block IDs
+                </td>
+                <td>-</td>
+                <td markdown="span">
+                    The type(s) of block that stalactites consist of. When
+                    specified as an array, a block type is selected randomly for
+                    each generated block.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`gen-body` (optional)</td>
+                <td markdown="span">
+                    [Block ID](../../common-formats/block-id/)
+                    / array of block IDs
+                </td>
+                <td markdown="span">Air</td>
+                <td markdown="span">
+                    The type(s) of block that may be replaced to generate
+                    stalactites.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`min-height` (optional)</td>
+                <td markdown="span">Number</td>
+                <td markdown="span">`7`</td>
+                <td markdown="span">
+                    The minimum height of a stalactite, in blocks.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`height-variance` (optional)</td>
+                <td markdown="span">Number</td>
+                <td markdown="span">`4`</td>
+                <td markdown="span">
+                    The maximum amount of blocks that may be randomly added to
+                    the minimum height of a stalactite.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`height-mod` (optional)</td>
+                <td markdown="span">Number</td>
+                <td markdown="span">`5`</td>
+                <td markdown="span">
+                    Used to calculate the minimum radius of the base of a
+                    stalactite dynamically. The radius is equal to the height of
+                    the stalactite divided by this value. Only used if
+                    `gen-size` is set to `0`.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`gen-size` (optional)</td>
+                <td markdown="span">Number</td>
+                <td markdown="span">`0`</td>
+                <td markdown="span">
+                    The minimum radius of the base of a stalactite, in blocks.
+                    If set to `0`, the radius is calculated dynamically based on
+                    the stalactite's height.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`size-variance` (optional)</td>
+                <td markdown="span">Number</td>
+                <td markdown="span">`2`</td>
+                <td markdown="span">
+                    The maximum amount of blocks that may be randomly added to
+                    the minimum radius of the base of a stalactite.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`smooth` (optional)</td>
+                <td markdown="span">Boolean</td>
+                <td markdown="span">`false`</td>
+                <td markdown="span">
+                    If `true`, stalactites have a smoother shape from top to
+                    bottom. If `false`, they are more narrow towards the bottom,
+                    making them more pointy.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`fat` (optional)</td>
+                <td markdown="span">Boolean</td>
+                <td markdown="span">`true`</td>
+                <td markdown="span">
+                    If `true`, stalactites are wider from top to bottom.
+                </td>
+            </tr>
+            <tr>
+                <td markdown="span">`alt-sinc` (optional)</td>
+                <td markdown="span">Boolean</td>
+                <td markdown="span">`false`</td>
+                <td markdown="span">
+                    If `true`, the sides of stalactites are shaped more
+                    unevenly, making them look more natural. This is more
+                    obvious when `smooth` is set to `true`.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+Examples
+--------
+
+Coming soon...

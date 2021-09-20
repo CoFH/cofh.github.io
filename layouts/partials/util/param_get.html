@@ -1,0 +1,7 @@
+{{/* Takes a page and a key for which parameter to get. Returns the param value. Useful for shortcodes. */}}
+
+{{ $value := partialCached "util/nil" . }}
+{{ if .param }}
+  {{ $value = (partial "util/map_get" (dict "data" .Page.Params "keys" (split .param "."))) }}
+{{ end }}
+{{ return $value }}

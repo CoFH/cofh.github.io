@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="body">
-  {{ partialCached "docs/nav/navtabs" (dict "Page" . "mod" .Params.mods "version" .Params.version) .Params.version .Params.mods }}
+  {{ $version := string (default "" .Params.version) }}
+  {{ partialCached "docs/nav/navtabs" (dict "Page" . "mod" .Params.mods "version" $version) $version .Params.mods }}
   <main id="main-content" class="docs-content content">
     {{ with .Title }}<h1>{{ title . }}</h1>{{ end }}
     <div class="subtext">
@@ -21,7 +22,7 @@
     </article>
   </main>
   
-  {{ partialCached "docs/nav/navbox" (dict "Page" . "mod" .Params.mods "version" (string .Params.version)) .Params.version .Params.mods }}
+  {{ partialCached "docs/nav/navbox" (dict "Page" . "mod" .Params.mods "version" $version) $version .Params.mods }}
   
 </div>
 <script src="/assets/js/cofh-docs.js"></script>

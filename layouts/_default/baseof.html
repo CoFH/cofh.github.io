@@ -38,7 +38,7 @@
   <body>
     {{ partialCached "elements/skip-nav-button" . }}
   
-    {{ partial "main/header" . }}
+    {{ partialCached "main/header" .Section .Section }}
     
     {{ block "main" . }}
     {{ end }}

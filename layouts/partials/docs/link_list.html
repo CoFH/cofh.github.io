@@ -1,0 +1,25 @@
+{{/* Given urls and/or ids, displays a list of links for their doc pages. */}}
+<ul>
+  {{- if .ids -}}
+    {{- range partial "util/sanitize_ids" .ids -}}
+      {{- $link := partial "docs/get_link" (dict "Page" $.Page "version" $.version "id" .) -}}
+      <li>
+        {{- if $link -}}<a href="{{$link}}"{{ else }}<div{{ end }} class="docs-navbox-link">
+          {{ partial "docs/icon" (dict "Page" $.Page "version" $.version "ids" .) }} {{partial "util/map_get" (dict "data" $.Page.Site.Data.docs "keys" (slice $.version "items-fluids" . "name"))}}
+        {{- if $link -}}</a>{{ else }}</div>{{ end }}
+      </li>
+    {{- end -}}
+  {{- end -}}
+  
+  {{- if .urls -}}
+    {{- range .urls -}}
+      {{- with $.Page.Site.GetPage . -}}
+        <li>
+          <a href="{{.RelPermalink}}" class="docs-navbox-link">
+            {{ partial "docs/doc_icon" . }} {{.Title}}
+          </a>
+        </li>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+</ul>

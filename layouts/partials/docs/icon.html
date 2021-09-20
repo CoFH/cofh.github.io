@@ -8,12 +8,12 @@
   
   {{- if le (len $ids) 1 -}}
     {{- $coords := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "items-fluids" (index $ids 0) "position")) -}}
-    <div class="docs-icon docs-cycleable{{ with .hidden }} hidden{{ end }}" style="background-image:url('/assets/images/docs/{{.version}}/sprites.png'); background-position:-{{mul (index $coords 0) 33}}px -{{mul (index $coords 1) 33}}px;{{ with .margin }} margin:{{.}}px;{{ end }}"></div>    
+    <div class="docs-icon docs-cycleable{{ with .hidden }} hidden{{ end }}" style="background-image:url('/assets/images/docs/{{.version}}/sprites.png');{{ with $coords }} background-position:-{{mul (index . 0) 33}}px -{{mul (index . 1) 33}}px;{{ end }}{{ with .margin }} margin:{{.}}px;{{ end }}"></div>    
   {{- else -}}
     <div class="docs-icon docs-cycle">
       {{- $hidden := false -}}
       {{- range $ids -}}
-        {{- partialCached "docs/icon" (dict "ids" . "version" $.version "margin" $.margin "hidden" $hidden) . $.margin $hidden -}}
+        {{- partialCached "docs/icon" (dict "Page" $.Page "ids" . "version" $.version "margin" $.margin "hidden" $hidden) . $.margin $hidden -}}
         {{- $hidden = true -}}
       {{- end -}}
     </div>

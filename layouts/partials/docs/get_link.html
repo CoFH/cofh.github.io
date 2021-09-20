@@ -1,4 +1,4 @@
-{{/* Takes a single item/fluid ID, its version, and .Page and returns the link for it. */}}
+{{/* Takes a single item/fluid ID, its version, and .Page and returns the link for the fluid/item. */}}
 
 {{- $link := partialCached "util/nil" . -}}
 {{- if and .id .version -}}

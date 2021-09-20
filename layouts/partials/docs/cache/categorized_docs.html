@@ -4,15 +4,15 @@
 {{- $mod_docs := partial "util/map_get" (dict "data" (partialCached "docs/cache/mods_versions" .Page) "keys" (slice $version $mod)) -}}
 {{- $main_docs := dict -}}
 {{- $grouped_docs := dict -}}
-{{- $default_mod_main := .Page.Site.GetPage (printf "/docs/%v/%v/" $version $mod) -}}
+{{- $default_mod_main := .Page.Site.GetPage (printf "/docs/%v/%v/" $version (urlize $mod)) -}}
 
 {{- range $mod_docs -}}
-  {{- if eq .Params.mod_main $mod -}}
+  {{- if eq (title .Params.mod_main) $mod -}}
     {{- $main_docs = merge $main_docs (dict "" (dict "" .)) -}}
   {{- else if (and .Params.category_main (len (default "" .Params.category))) -}}
     {{- $main_docs = merge $main_docs (dict (title .Params.category) (dict "" .)) -}}
   {{- else if (and .Params.subcategory_main (len (default "" .Params.subcategory))) -}}
-    {{- $main_docs = merge $main_docs (dict (title (default "" .Params.category)) (title (dict .Params.subcategory .))) -}}
+    {{- $main_docs = merge $main_docs (dict (title (default "" .Params.category)) (dict (title .Params.subcategory) .)) -}}
   {{- else if not (or .Params.navbox_hidden (eq . $default_mod_main)) -}}
     {{- $grouped_docs = partial "util/map_array_append" (dict "data" $grouped_docs "keys" (slice (title (default "" .Params.category)) (title (default "" .Params.subcategory))) "value" .) -}}
   {{- end -}}

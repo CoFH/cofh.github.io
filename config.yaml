@@ -13,8 +13,8 @@ taxonomies:
   version: version
 
 permalinks:
-  /: /:sections/:filename
-  docs: /:sections[0:3]/:filename
+  /: /:sections/:filename/
+  docs: /:sections/:filename/
   blog: /:sections/:year/:month/:day/:title/
 
 params:

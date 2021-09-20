@@ -7,4 +7,4 @@
     {{- $ids = split (default "" .) " " -}}
   {{- end -}}
 {{- end -}}
-{{- return apply (apply $ids "anchorize" ".") "replace" "." "-" "_" -}}
+{{- return apply $ids "anchorize" "." -}}

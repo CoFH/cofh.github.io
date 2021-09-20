@@ -1,12 +1,12 @@
 <header id="banner">
   <label id="theme-switch-label" tabindex=0>
     <span class="fas fa-adjust" style="transition:none;" />
-    {{ partial "elements/switch" "theme-switch" }}
+    {{ partialCached "elements/switch" "theme-switch" }}
   </label>
   <div class="cofh-logo-container">
     <a href="/"><img class="cofh-logo" src="/assets/images/logos/cofh.png" alt="Team CoFH Home"></a>
   </div>
-  {{ partial "main/navbar" }}
+  {{ partial "main/navbar" . }}
 </header>
 
 <script>
