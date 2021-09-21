@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-mithril
 ---
 
-![Mana infused plate](/assets/images/docs/1.12/thermal-foundation/plate-mithril.png){:style="height: 128px"}
+![Mana infused plate](/images/docs/1.12/thermal-foundation/plate-mithril.png){:style="height: 128px"}
 
 
 **Mana infused plates** are crafting materials made of [mana infused

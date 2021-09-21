@@ -14,7 +14,7 @@ usage-recipes:
   - phyto-gro-rich
 ---
 
-![Sap](/assets/images/docs/1.12/thermal-foundation/sap.gif){:style="height: 128px"}
+![Sap](/images/docs/1.12/thermal-foundation/sap.gif){:style="height: 128px"}
 
 
 **Sap** is a fluid obtained from oak and dark oak

@@ -124,7 +124,7 @@ subjects:
 title: Induction Smelter
 ---
 
-![Induction smelter](/assets/images/docs/1.12/thermal-expansion/induction-smelter.png){:style="height: 128px"}
+![Induction smelter](/images/docs/1.12/thermal-expansion/induction-smelter.png){:style="height: 128px"}
 
 > Will absolutely not cook food.
 

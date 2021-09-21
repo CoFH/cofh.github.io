@@ -53,7 +53,7 @@ subjects:
 title: Fluid Transposer
 ---
 
-![Fluid transposer](/assets/images/docs/1.12/thermal-expansion/fluid-transposer.png){:style="height: 128px"}
+![Fluid transposer](/images/docs/1.12/thermal-expansion/fluid-transposer.png){:style="height: 128px"}
 
 > Filling buckets by hand is hard work.
 

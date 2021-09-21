@@ -28,7 +28,7 @@ usage-recipes:
   - tf-1-12-ingot-lead-from-dust
 ---
 
-![Pulverized lead](/assets/images/docs/1.12/thermal-foundation/dust-lead.png){:style="height: 128px"}
+![Pulverized lead](/images/docs/1.12/thermal-foundation/dust-lead.png){:style="height: 128px"}
 
 
 **Pulverized lead** is a raw material. It is the dust form of

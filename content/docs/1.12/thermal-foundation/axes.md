@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-tool-axe-constantan
 ---
 
-![Axes](/assets/images/docs/1.12/thermal-foundation/axes.gif){:style="height: 128px"}
+![Axes](/images/docs/1.12/thermal-foundation/axes.gif){:style="height: 128px"}
 
 
 **[Axes](https://minecraft.gamepedia.com/Axe)** are tools in vanilla Minecraft.

@@ -17,7 +17,7 @@ usage-recipes:
   - bucket-coal
 ---
 
-![Liquifacted coal](/assets/images/docs/1.12/thermal-foundation/liquifacted-coal.gif){:style="height: 128px"}
+![Liquifacted coal](/images/docs/1.12/thermal-foundation/liquifacted-coal.gif){:style="height: 128px"}
 
 > Liquifaction is salvation!
 

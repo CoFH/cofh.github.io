@@ -43,7 +43,7 @@ usage-recipes:
   - recycling-weapon-bow-constantan
 ---
 
-![Reinforced Bows](/assets/images/docs/1.12/thermal-foundation/bows.gif){:style="height: 128px"}
+![Reinforced Bows](/images/docs/1.12/thermal-foundation/bows.gif){:style="height: 128px"}
 
 
 **[Bows](https://minecraft.gamepedia.com/Bow)** are weapons in vanilla

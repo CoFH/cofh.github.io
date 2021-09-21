@@ -7,7 +7,7 @@ subcategory: Mobs
 title: Basalz
 ---
 
-![Basalz](/assets/images/docs/1.12/thermal-foundation/basalz.png){:style="height: 192px"}
+![Basalz](/images/docs/1.12/thermal-foundation/basalz.png){:style="height: 192px"}
 
 
 **Basalzes** are hostile mobs found in mountainous and/or barren

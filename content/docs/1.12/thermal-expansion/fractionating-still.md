@@ -21,7 +21,7 @@ subjects:
 title: Fractionating Still
 ---
 
-![Fractionating still](/assets/images/docs/1.12/thermal-expansion/fractionating-still.png){:style="height: 128px"}
+![Fractionating still](/images/docs/1.12/thermal-expansion/fractionating-still.png){:style="height: 128px"}
 
 > Products may or may not be drinkable.
 

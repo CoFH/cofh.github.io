@@ -20,7 +20,7 @@ subjects:
 title: Igneous Extruder
 ---
 
-![Igneous extruder](/assets/images/docs/1.12/thermal-expansion/igneous-extruder.png){:style="height: 128px"}
+![Igneous extruder](/images/docs/1.12/thermal-expansion/igneous-extruder.png){:style="height: 128px"}
 
 > Minecraft physics are fun!
 

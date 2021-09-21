@@ -18,7 +18,7 @@ usage-recipes:
   - bucket-naphtha
 ---
 
-![Naphtha](/assets/images/docs/1.12/thermal-foundation/naphtha.gif){:style="height: 128px"}
+![Naphtha](/images/docs/1.12/thermal-foundation/naphtha.gif){:style="height: 128px"}
 
 
 **Naphtha** is a fluid obtained by processing [crude oil](../crude-oil/) or

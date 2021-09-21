@@ -24,7 +24,7 @@ usage-recipes:
   - td-1-12-viaduct-long-range-linking
 ---
 
-![Resonant ender](/assets/images/docs/1.12/thermal-foundation/resonant-ender.gif){:style="height: 128px"}
+![Resonant ender](/images/docs/1.12/thermal-foundation/resonant-ender.gif){:style="height: 128px"}
 
 > Wibbly-wobbly, timey-wimey... stuff.
 

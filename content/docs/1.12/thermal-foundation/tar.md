@@ -18,7 +18,7 @@ usage-recipes:
   - tf-1-12-lead-using-tar
 ---
 
-![Tar](/assets/images/docs/1.12/thermal-foundation/tar.png){:style="height: 128px"}
+![Tar](/images/docs/1.12/thermal-foundation/tar.png){:style="height: 128px"}
 
 
 **Tar** is a byproduct of processing [oil sand](../oil-sand/) in a

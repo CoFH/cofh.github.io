@@ -45,7 +45,7 @@ usage-recipes:
   - recycling-tool-sickle-constantan
 ---
 
-![Sickles](/assets/images/docs/1.12/thermal-foundation/sickles.gif){:style="height: 128px"}
+![Sickles](/images/docs/1.12/thermal-foundation/sickles.gif){:style="height: 128px"}
 
 
 **Sickles** are tools that can be used to break large amounts of plant-like

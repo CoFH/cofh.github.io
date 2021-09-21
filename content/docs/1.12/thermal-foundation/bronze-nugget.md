@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-ingot-bronze-from-nuggets
 ---
 
-![Bronze nugget](/assets/images/docs/1.12/thermal-foundation/nugget-bronze.png){:style="height: 128px"}
+![Bronze nugget](/images/docs/1.12/thermal-foundation/nugget-bronze.png){:style="height: 128px"}
 
 
 **Bronze nuggets** are raw materials. They are the nugget form of

@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-platinum
 ---
 
-![Platinum ore](/assets/images/docs/1.12/thermal-foundation/ore-platinum.png){:style="height: 128px"}
+![Platinum ore](/images/docs/1.12/thermal-foundation/ore-platinum.png){:style="height: 128px"}
 
 
 **Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields

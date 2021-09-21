@@ -19,7 +19,7 @@ usage-recipes:
   - bucket-crude-oil
 ---
 
-![Crude oil](/assets/images/docs/1.12/thermal-foundation/crude-oil.gif){:style="height: 128px"}
+![Crude oil](/images/docs/1.12/thermal-foundation/crude-oil.gif){:style="height: 128px"}
 
 
 **Crude oil** is a fluid obtained from [oil sand](../oil-sand/) and [oil

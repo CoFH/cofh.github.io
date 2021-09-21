@@ -21,7 +21,7 @@ usage-recipes:
   - bucket-creosote-oil
 ---
 
-![Creosote oil](/assets/images/docs/1.12/thermal-foundation/creosote-oil.gif){:style="height: 128px"}
+![Creosote oil](/images/docs/1.12/thermal-foundation/creosote-oil.gif){:style="height: 128px"}
 
 
 **Creosote oil** is a fluid that is most commonly obtained as a byproduct from

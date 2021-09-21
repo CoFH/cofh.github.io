@@ -11,7 +11,7 @@ subjects:
 title: Rich Aqua-Chow
 ---
 
-![Rich Aqua-Chow](/assets/images/docs/1.12/thermal-foundation/aqua-chow-rich.png){:style="height: 128px"}
+![Rich Aqua-Chow](/images/docs/1.12/thermal-foundation/aqua-chow-rich.png){:style="height: 128px"}
 
 
 **Rich Aqua-Chow** is a type of fish bait that can be used by [aquatic

@@ -26,7 +26,7 @@ usage-recipes:
   - td-1-12-itemduct-energy-fast
 ---
 
-![Energized glowstone](/assets/images/docs/1.12/thermal-foundation/energized-glowstone.gif){:style="height: 128px"}
+![Energized glowstone](/images/docs/1.12/thermal-foundation/energized-glowstone.gif){:style="height: 128px"}
 
 > So that's how those formations occur! It all makes nonsense now!
 

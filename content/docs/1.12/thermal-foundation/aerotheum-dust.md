@@ -20,7 +20,7 @@ usage-recipes:
   - aerotheum
 ---
 
-![Aerotheum dust](/assets/images/docs/1.12/thermal-foundation/dust-aerotheum.gif){:style="height: 128px"}
+![Aerotheum dust](/images/docs/1.12/thermal-foundation/dust-aerotheum.gif){:style="height: 128px"}
 
 
 **Aerotheum dust** is the air elemental dust. It is most commonly used to make

@@ -4,7 +4,7 @@
     {{ partialCached "elements/switch" "theme-switch" }}
   </label>
   <div class="cofh-logo-container">
-    <a href="/"><img class="cofh-logo" src="/assets/images/logos/cofh.png" alt="Team CoFH Home"></a>
+    <a href="/"><img class="cofh-logo" src="/images/logos/cofh.png" alt="Team CoFH Home"></a>
   </div>
   {{ partial "main/navbar" . }}
 </header>
@@ -12,7 +12,7 @@
 <script>
   const banner = document.getElementById("banner");
   if (banner)
-    banner.setAttribute("style", "background-image:url('/assets/images/banners/banner" + Math.ceil(Math.random() * 7) + ".jpg');");
+    banner.setAttribute("style", "background-image:url('/images/banners/banner" + Math.ceil(Math.random() * 7) + ".jpg');");
   
   const themeSwitch = document.getElementById("theme-switch");
   themeSwitch.addEventListener("change", setTheme);

@@ -14,7 +14,7 @@ usage-recipes:
   - crude-oil-from-bitumen
 ---
 
-![Bitumen](/assets/images/docs/1.12/thermal-foundation/bitumen.gif){:style="height: 128px"}
+![Bitumen](/images/docs/1.12/thermal-foundation/bitumen.gif){:style="height: 128px"}
 
 
 **Bitumen** is a material obtained from [oil sand](../oil-sand/) and [oil

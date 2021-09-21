@@ -22,7 +22,7 @@ usage-recipes:
   - tf-1-12-ingot-constantan-from-dust
 ---
 
-![Constantan blend](/assets/images/docs/1.12/thermal-foundation/dust-constantan.png){:style="height: 128px"}
+![Constantan blend](/images/docs/1.12/thermal-foundation/dust-constantan.png){:style="height: 128px"}
 
 
 **Constantan blend** is a raw material. It is the dust form of

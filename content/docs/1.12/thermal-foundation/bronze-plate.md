@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-plate-bronze
 ---
 
-![Bronze plate](/assets/images/docs/1.12/thermal-foundation/plate-bronze.png){:style="height: 128px"}
+![Bronze plate](/images/docs/1.12/thermal-foundation/plate-bronze.png){:style="height: 128px"}
 
 
 **Bronze plates** are crafting materials made of [bronze](../bronze-ingot/).

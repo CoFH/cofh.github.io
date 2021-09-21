@@ -15,7 +15,7 @@ usage-recipes:
   - basalz-powder
 ---
 
-![Basalz rod](/assets/images/docs/1.12/thermal-foundation/basalz-rod.png){:style="height: 128px"}
+![Basalz rod](/images/docs/1.12/thermal-foundation/basalz-rod.png){:style="height: 128px"}
 
 
 **Basalz rods** are materials that are dropped by [basalzes](../basalz/).

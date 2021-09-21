@@ -49,7 +49,11 @@ body {
   padding: 0 10px;
 }
 
-.content {
+main img {
+  max-width: 100%;
+}
+
+main {
 	background-color: var(--bg-color-1);
   padding: 20px;
   line-height: 1.6;
@@ -189,31 +193,32 @@ code {
   padding: 20px;
   margin: 0 0 20px 20px;
   counter-reset: section;
+  float: right;
 }
 
-.table-contents h2{
+.table-contents h2 {
   margin-top: 0;
   padding-top: 0;
 }
 
-.table-contents > ol {
+.table-contents nav > ol {
   list-style-type: none;
   margin: 0;
   padding-inline-start: 0;
 }
 
-.table-contents > ol ol {
+.table-contents nav > ol ol {
   list-style-type: none;
   padding-inline-start: 1.5em;
 }
 
-.table-contents > ol > li::before {
+.table-contents nav > ol > li::before {
   counter-reset: subsection;
   counter-increment: section;
   content: counter(section) " ";
 }
 
-.table-contents > ol > li > ol > li::before {
+.table-contents nav > ol ol > li::before {
   counter-increment: subsection;
   content: counter(section) "." counter(subsection) " ";
 }

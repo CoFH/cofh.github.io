@@ -9,18 +9,15 @@
     <meta name="description" content="The official site for news, downloads and documentation for the Team CoFH Minecraft mods." />
   
     <!-- IE -->
-    <link href="/assets/images/logos/wrench.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/images/logos/wrench.ico" rel="shortcut icon" type="image/x-icon" />
     <!-- Other Browsers -->
-    <link href="/assets/images/logos/wrench.ico" rel="icon" type="image/x-icon" />
-
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="stylesheet" href="/assets/css/nav.css" />
-    <link rel="stylesheet" href="/assets/css/docs.css" />
-    <link rel="stylesheet" href="/assets/css/search.css" />
-    <link rel="stylesheet" href="/assets/css/table.css" />
-
-    <script src="https://kit.fontawesome.com/a97821a17a.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/cofh.js" defer></script>
+    <link href="/images/logos/wrench.ico" rel="icon" type="image/x-icon" />
+    
+    {{ $css := (slice (resources.Get "css/main.css") (resources.Get "css/nav.css") (resources.Get "css/docs.css") (resources.Get "css/search.css") (resources.Get "css/table.css")) | resources.Concat "css/cofh.css" | resources.Minify }} 
+    <link rel="stylesheet" href="{{$css.Permalink}}" />
+    
+    <script src="https://kit.fontawesome.com/a97821a17a.js" crossorigin="anonymous" defer></script>
+    <script src="{{(resources.Get `/js/main.js` | resources.Minify).Permalink}}" defer></script>
     <script>
       function setTheme(e) {
         const isDark = e.target.checked;
@@ -40,12 +37,22 @@
   
     {{ partialCached "main/header" .Section .Section }}
     
-    {{ block "main" . }}
-    {{ end }}
+    <div class="body">
+      {{ block "pre" . }}
+      {{ end }}
+      <main>
+        {{ block "main" . }}
+        {{ end }}
+      </main>
+      {{ block "post" . }}
+      {{ end }}
+    </div>
     
     {{ partialCached "main/footer" . }}
     
     {{ partialCached "elements/back-to-top" . }}
     
+    {{ block "scripts" . }}
+    {{ end }}
   </body>
 </html>

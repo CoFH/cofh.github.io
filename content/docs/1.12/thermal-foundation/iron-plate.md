@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-iron
 ---
 
-![Iron plate](/assets/images/docs/1.12/thermal-foundation/plate-iron.png){:style="height: 128px"}
+![Iron plate](/images/docs/1.12/thermal-foundation/plate-iron.png){:style="height: 128px"}
 
 
 **Iron plates** are crafting materials made of

@@ -10,7 +10,7 @@ subjects:
 title: Lead Coin
 ---
 
-![Lead coin](/assets/images/docs/1.12/thermal-foundation/coin-lead.png){:style="height: 128px"}
+![Lead coin](/images/docs/1.12/thermal-foundation/coin-lead.png){:style="height: 128px"}
 
 
 **Lead coins** are materials made of [lead](../lead-ingot/) that can be used

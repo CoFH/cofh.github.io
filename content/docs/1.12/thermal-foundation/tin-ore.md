@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-tin
 ---
 
-![Tin ore](/assets/images/docs/1.12/thermal-foundation/ore-tin.png){:style="height: 128px"}
+![Tin ore](/images/docs/1.12/thermal-foundation/ore-tin.png){:style="height: 128px"}
 
 
 **Tin ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that yields

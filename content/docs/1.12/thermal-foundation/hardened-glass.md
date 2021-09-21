@@ -76,8 +76,8 @@ usage-recipes:
   - td-1-12-itemduct-energy-fast-transparent-from-opaque
 ---
 
-![Hardened glass](/assets/images/docs/1.12/thermal-foundation/hardened-glass.png){:style="height: 96px"}
-![Hardened glass variants](/assets/images/docs/1.12/thermal-foundation/hardened-glass-variants.gif){:style="height: 96px"}
+![Hardened glass](/images/docs/1.12/thermal-foundation/hardened-glass.png){:style="height: 96px"}
+![Hardened glass variants](/images/docs/1.12/thermal-foundation/hardened-glass-variants.gif){:style="height: 96px"}
 
 
 **Hardened glass** is a hard to break and explosion resistant version of

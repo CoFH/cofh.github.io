@@ -5,7 +5,7 @@ cascade:
   mods: thermal expansion
 ---
 
-![Thermal Expansion logo](/assets/images/logos/1.12/thermal-expansion.png){:.cofh-mod-page-logo}
+![Thermal Expansion logo](/images/logos/1.12/thermal-expansion.png){:.cofh-mod-page-logo}
 
 
 **Thermal Expansion** is a mod for Minecraft 1.12. It adds blocks for automating

@@ -4,6 +4,7 @@ subjects: [device_tree_extractor]
 types: [tree_extractor]
 category: blocks
 subcategory: devices
+mods: [thermal expansion, thermal cultivation]
 ---
 
 WIP

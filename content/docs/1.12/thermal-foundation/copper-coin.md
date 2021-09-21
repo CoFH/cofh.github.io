@@ -10,7 +10,7 @@ subjects:
 title: Copper Coin
 ---
 
-![Copper coin](/assets/images/docs/1.12/thermal-foundation/coin-copper.png){:style="height: 128px"}
+![Copper coin](/images/docs/1.12/thermal-foundation/coin-copper.png){:style="height: 128px"}
 
 
 **Copper coins** are materials made of [copper](../copper-ingot/) that can be

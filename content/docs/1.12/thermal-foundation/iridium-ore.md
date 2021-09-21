@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-iridium
 ---
 
-![Iridium ore](/assets/images/docs/1.12/thermal-foundation/ore-iridium.png){:style="height: 128px"}
+![Iridium ore](/images/docs/1.12/thermal-foundation/ore-iridium.png){:style="height: 128px"}
 
 
 **Iridium ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields

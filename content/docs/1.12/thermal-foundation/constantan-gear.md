@@ -21,7 +21,7 @@ usage-recipes:
   - recycling-gear-constantan
 ---
 
-![Constantan gear](/assets/images/docs/1.12/thermal-foundation/gear-constantan.png){:style="height: 128px"}
+![Constantan gear](/images/docs/1.12/thermal-foundation/gear-constantan.png){:style="height: 128px"}
 
 
 **Constantan gears** are crafting materials made of

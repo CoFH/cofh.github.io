@@ -30,7 +30,7 @@ usage-recipes:
   - tf-1-12-ingot-tin-from-dust
 ---
 
-![Pulverized tin](/assets/images/docs/1.12/thermal-foundation/dust-tin.png){:style="height: 128px"}
+![Pulverized tin](/images/docs/1.12/thermal-foundation/dust-tin.png){:style="height: 128px"}
 
 
 **Pulverized tin** is a raw material. It is the dust form of

@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-ingot-platinum-from-nuggets
 ---
 
-![Platinum nugget](/assets/images/docs/1.12/thermal-foundation/nugget-platinum.png){:style="height: 128px"}
+![Platinum nugget](/images/docs/1.12/thermal-foundation/nugget-platinum.png){:style="height: 128px"}
 
 
 **Platinum nuggets** are raw materials. They are the nugget form of

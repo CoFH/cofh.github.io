@@ -75,7 +75,7 @@ usage-recipes:
   - dust-bronze
 ---
 
-![Bronze ingot](/assets/images/docs/1.12/thermal-foundation/ingot-bronze.png){:style="height: 128px"}
+![Bronze ingot](/images/docs/1.12/thermal-foundation/ingot-bronze.png){:style="height: 128px"}
 
 
 **Bronze ingots** are raw materials made from [copper](../copper-ingot/) and

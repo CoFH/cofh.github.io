@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-silver
 ---
 
-![Silver ore](/assets/images/docs/1.12/thermal-foundation/ore-silver.png){:style="height: 128px"}
+![Silver ore](/images/docs/1.12/thermal-foundation/ore-silver.png){:style="height: 128px"}
 
 
 **Silver ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)

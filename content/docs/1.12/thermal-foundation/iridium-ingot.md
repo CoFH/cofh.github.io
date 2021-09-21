@@ -41,7 +41,7 @@ usage-recipes:
   - dust-iridium
 ---
 
-![Iridium ingot](/assets/images/docs/1.12/thermal-foundation/ingot-iridium.png){:style="height: 128px"}
+![Iridium ingot](/images/docs/1.12/thermal-foundation/ingot-iridium.png){:style="height: 128px"}
 
 
 **Iridium ingots** are raw materials obtained from [iridium

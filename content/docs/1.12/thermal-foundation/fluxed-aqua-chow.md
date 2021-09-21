@@ -10,7 +10,7 @@ subjects:
 title: Fluxed Aqua-Chow
 ---
 
-![Fluxed Aqua-Chow](/assets/images/docs/1.12/thermal-foundation/aqua-chow-fluxed.gif){:style="height: 128px"}
+![Fluxed Aqua-Chow](/images/docs/1.12/thermal-foundation/aqua-chow-fluxed.gif){:style="height: 128px"}
 
 
 **Fluxed Aqua-Chow** is a type of fish bait that can be used by [aquatic

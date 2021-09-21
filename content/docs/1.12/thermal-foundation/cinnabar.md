@@ -25,7 +25,7 @@ usage-recipes:
   - ore-processing-cinnabar-mithril
 ---
 
-![Cinnabar](/assets/images/docs/1.12/thermal-foundation/cinnabar.png){:style="height: 128px"}
+![Cinnabar](/images/docs/1.12/thermal-foundation/cinnabar.png){:style="height: 128px"}
 
 
 **Cinnabar** is a byproduct of processing certain ores in a

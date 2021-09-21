@@ -9,7 +9,7 @@ subjects:
 title: Item Allocator
 ---
 
-![Item allocator](/assets/images/docs/1.12/thermal-expansion/item-allocator.png){:style="height: 128px"}
+![Item allocator](/images/docs/1.12/thermal-expansion/item-allocator.png){:style="height: 128px"}
 
 > Better than a [hopper](https://minecraft.gamepedia.com/Hopper), really!
 

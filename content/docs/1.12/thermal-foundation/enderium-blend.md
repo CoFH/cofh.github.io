@@ -20,7 +20,7 @@ usage-recipes:
   - hardened-glass-enderium
 ---
 
-![Enderium blend](/assets/images/docs/1.12/thermal-foundation/dust-enderium.png){:style="height: 128px"}
+![Enderium blend](/images/docs/1.12/thermal-foundation/dust-enderium.png){:style="height: 128px"}
 
 
 **Enderium blend** is a raw material. It is the dust form of

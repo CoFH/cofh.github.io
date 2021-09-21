@@ -34,7 +34,7 @@ usage-recipes:
   - tf-1-12-ingot-copper-from-dust
 ---
 
-![Pulverized copper](/assets/images/docs/1.12/thermal-foundation/dust-copper.png){:style="height: 128px"}
+![Pulverized copper](/images/docs/1.12/thermal-foundation/dust-copper.png){:style="height: 128px"}
 
 
 **Pulverized copper** is a raw material. It is the dust form of

@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-lead
 ---
 
-![Lead ore](/assets/images/docs/1.12/thermal-foundation/ore-lead.png){:style="height: 128px"}
+![Lead ore](/images/docs/1.12/thermal-foundation/ore-lead.png){:style="height: 128px"}
 
 
 **Lead ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)

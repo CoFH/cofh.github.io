@@ -80,7 +80,7 @@ usage-recipes:
   - ingot-constantan-from-ingot-copper-and-ingot-nickel
 ---
 
-![Nickel ingot](/assets/images/docs/1.12/thermal-foundation/ingot-nickel.png){:style="height: 128px"}
+![Nickel ingot](/images/docs/1.12/thermal-foundation/ingot-nickel.png){:style="height: 128px"}
 
 
 **Nickel ingots** are raw materials obtained from [nickel

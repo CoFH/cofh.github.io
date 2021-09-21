@@ -20,7 +20,7 @@ usage-recipes:
   - recycling-gear-silver
 ---
 
-![Silver gear](/assets/images/docs/1.12/thermal-foundation/gear-silver.png){:style="height: 128px"}
+![Silver gear](/images/docs/1.12/thermal-foundation/gear-silver.png){:style="height: 128px"}
 
 
 **Silver gears** are crafting materials made of [silver](../silver-ingot/).

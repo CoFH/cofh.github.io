@@ -18,7 +18,7 @@ usage-recipes:
   - recycling-gear-nickel
 ---
 
-![Nickel gear](/assets/images/docs/1.12/thermal-foundation/gear-nickel.png){:style="height: 128px"}
+![Nickel gear](/images/docs/1.12/thermal-foundation/gear-nickel.png){:style="height: 128px"}
 
 
 **Nickel gears** are crafting materials made of [nickel](../nickel-ingot/).

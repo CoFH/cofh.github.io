@@ -10,7 +10,7 @@ subjects:
 title: Tin Coin
 ---
 
-![Tin coin](/assets/images/docs/1.12/thermal-foundation/coin-tin.png){:style="height: 128px"}
+![Tin coin](/images/docs/1.12/thermal-foundation/coin-tin.png){:style="height: 128px"}
 
 
 **Tin coins** are materials made of [tin](../tin-ingot/) that can be used as

@@ -25,7 +25,7 @@ usage-recipes:
   - ra-1-12-dust-fluxed-electrum
 ---
 
-![Electrum blend](/assets/images/docs/1.12/thermal-foundation/dust-electrum.png){:style="height: 128px"}
+![Electrum blend](/images/docs/1.12/thermal-foundation/dust-electrum.png){:style="height: 128px"}
 
 
 **Electrum blend** is a raw material. It is the dust form of

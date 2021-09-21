@@ -52,7 +52,7 @@ usage-recipes:
   - dust-signalum
 ---
 
-![Signalum ingot](/assets/images/docs/1.12/thermal-foundation/ingot-signalum.png){:style="height: 128px"}
+![Signalum ingot](/images/docs/1.12/thermal-foundation/ingot-signalum.png){:style="height: 128px"}
 
 
 **Signalum ingots** are raw materials made from [copper](../copper-ingot/),

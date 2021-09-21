@@ -30,7 +30,7 @@ usage-recipes:
   - blaze-powder
 ---
 
-![Sulfur](/assets/images/docs/1.12/thermal-foundation/sulfur.png){:style="height: 128px"}
+![Sulfur](/images/docs/1.12/thermal-foundation/sulfur.png){:style="height: 128px"}
 
 
 **Sulfur** is a byproduct of various different processes. It may also be dropped

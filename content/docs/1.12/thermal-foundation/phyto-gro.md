@@ -35,7 +35,7 @@ usage-recipes:
   - phyto-gro-rich
 ---
 
-![Phyto-Gro](/assets/images/docs/1.12/thermal-foundation/phyto-gro.png){:style="height: 128px"}
+![Phyto-Gro](/images/docs/1.12/thermal-foundation/phyto-gro.png){:style="height: 128px"}
 
 
 **Phyto-Gro** is a type of fertilizer. It is the weakest of its kind, being

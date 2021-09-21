@@ -10,7 +10,7 @@ subjects:
 title: Multimeter
 ---
 
-![Multimeter](/assets/images/docs/1.12/thermal-foundation/multimeter.png){:style="height: 128px"}
+![Multimeter](/images/docs/1.12/thermal-foundation/multimeter.png){:style="height: 128px"}
 
 > There are no accidents, only Flukes.
 

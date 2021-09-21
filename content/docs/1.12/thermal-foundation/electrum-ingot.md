@@ -95,7 +95,7 @@ usage-recipes:
   - dust-electrum
 ---
 
-![Electrum ingot](/assets/images/docs/1.12/thermal-foundation/ingot-electrum.png){:style="height: 128px"}
+![Electrum ingot](/images/docs/1.12/thermal-foundation/ingot-electrum.png){:style="height: 128px"}
 
 
 **Electrum ingots** are raw materials made from

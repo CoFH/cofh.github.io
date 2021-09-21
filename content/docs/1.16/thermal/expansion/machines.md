@@ -40,98 +40,98 @@ List of Machines
     <tbody>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-furnace.png" alt="Redstone Furnace" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-furnace.png" alt="Redstone Furnace" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/redstone-furnace/">Redstone Furnace</a></td>
             <td><a href="https://minecraft.fandom.com/wiki/Smelting">Smelts</a> items.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-sawmill.png" alt="Sawmill" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-sawmill.png" alt="Sawmill" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/sawmill/">Sawmill</a></td>
             <td>Cuts logs into planks and reprocesses wooden things.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-pulverizer.png" alt="Pulverizer" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-pulverizer.png" alt="Pulverizer" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/pulverizer/">Pulverizer</a></td>
             <td>Crushes items. Can be used to process ores.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-smelter.png" alt="Induction Smelter" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-smelter.png" alt="Induction Smelter" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/induction-smelter/">Induction Smelter</a></td>
             <td>Smelts things together at high temperatures. Can be used to process ores.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-insolator.png" alt="Phytogenic Insolator" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-insolator.png" alt="Phytogenic Insolator" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/phytogenic-insolator/">Phytogenic Insolator</a></td>
             <td>Grows and multiples plants.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-centrifuge.png" alt="Centrifugal Separator" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-centrifuge.png" alt="Centrifugal Separator" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/centrifugal-separator/">Centrifugal Separator</a></td>
             <td>Separates items into their components.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-press.png" alt="Multiservo Press" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-press.png" alt="Multiservo Press" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/multiservo-press/">Multiservo Press</a></td>
             <td>Compresses items into different forms using various <a href="/docs/1.16/thermal-expansion/dies/">dies</a>.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-crucible.png" alt="Magma Crucible" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-crucible.png" alt="Magma Crucible" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/magma-crucible/">Magma Crucible</a></td>
             <td>Melts items into fluids.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-chiller.png" alt="Blast Chiller" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-chiller.png" alt="Blast Chiller" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/blast-chiller/">Blast Chiller</a></td>
             <td>Freezes fluids into items.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-refinery.png" alt="Fractionating Still" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-refinery.png" alt="Fractionating Still" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/fractionating-still/">Frctionating Still</a></td>
             <td>Refines fluids.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-pyrolyzer.png" alt="Pyrolyzer" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-pyrolyzer.png" alt="Pyrolyzer" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/pyrolyzer/">Pyrolyzer</a></td>
             <td>Purifies fuels into higher quality fuels.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-bottler.png" alt="Fluid Encapsulator" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-bottler.png" alt="Fluid Encapsulator" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/fluid-encapsulator/">Fluid Encapsulator</a></td>
             <td>Fills things that hold fluids, like <a href="https://minecraft.fandom.com/wiki/Bucket">buckets</a>.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-brewer.png" alt="Alchemical Imbuer" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-brewer.png" alt="Alchemical Imbuer" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/alchemical-imbuer/">Alchemical Imbuer</a></td>
             <td>Brews <a href="https://minecraft.fandom.com/wiki/Potion">potions</a>.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-crafter.png" alt="Sequential Fabricator" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-crafter.png" alt="Sequential Fabricator" style="width: 48px; height: 48px" />
             </td>
             <td><a href="/docs/1.16/thermal-expansion/sequential-fabricator/">Sequential Fabricator</a></td>
             <td><a href="https://minecraft.fandom.com/wiki/Crafting">Crafts</a> items.</td>
@@ -176,35 +176,35 @@ The following table shows all possible configurations.
     <tbody>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-config-none.png" alt="None" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-config-none.png" alt="None" style="width: 48px; height: 48px" />
             </td>
             <td>None</td>
             <td>Default state. Does not allow input or output.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-config-input.png" alt="Input" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-config-input.png" alt="Input" style="width: 48px; height: 48px" />
             </td>
             <td>Input</td>
             <td>Allows input of items/fluids to any slots highlighted in blue. Supports auto-input.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-config-output.png" alt="Output" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-config-output.png" alt="Output" style="width: 48px; height: 48px" />
             </td>
             <td>Output</td>
             <td>Allows output of items/fluids from any slots highlighted in orange. Supports auto-output.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-config-both.png" alt="Both" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-config-both.png" alt="Both" style="width: 48px; height: 48px" />
             </td>
             <td>Both</td>
             <td>Allows input and output of items/fluids to any slots highlighted in blue and orange respectively. Supports auto-input and auto-output.</td>
         </tr>
         <tr>
             <td style="width:48px; min-width:48px; line-height:0;">
-            <img src="/assets/images/docs/1.16/thermal-expansion/machine-config-accessible.png" alt="Accessible" style="width: 48px; height: 48px" />
+            <img src="/images/docs/1.16/thermal-expansion/machine-config-accessible.png" alt="Accessible" style="width: 48px; height: 48px" />
             </td>
             <td>Accessible</td>
             <td>Allows input and output of items/fluids to any slots. Doesn't support auto-input or auto-output.</td>

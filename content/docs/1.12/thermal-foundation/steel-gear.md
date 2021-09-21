@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-gear-steel
 ---
 
-![Steel gear](/assets/images/docs/1.12/thermal-foundation/gear-steel.png){:style="height: 128px"}
+![Steel gear](/images/docs/1.12/thermal-foundation/gear-steel.png){:style="height: 128px"}
 
 
 **Steel gears** are crafting materials made of [steel](../steel-ingot/). They

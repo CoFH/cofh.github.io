@@ -17,7 +17,7 @@ usage-recipes:
   - redstone-from-clathrate
 ---
 
-![Destabilized clathrate](/assets/images/docs/1.12/thermal-foundation/clathrate-redstone.gif){:style="height: 128px"}
+![Destabilized clathrate](/images/docs/1.12/thermal-foundation/clathrate-redstone.gif){:style="height: 128px"}
 
 
 **Destabilized clathrate** is a material obtained from [destabilized redstone

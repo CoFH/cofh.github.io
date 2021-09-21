@@ -20,7 +20,7 @@ usage-recipes:
   - hardened-glass-lumium
 ---
 
-![Lumium blend](/assets/images/docs/1.12/thermal-foundation/dust-lumium.png){:style="height: 128px"}
+![Lumium blend](/images/docs/1.12/thermal-foundation/dust-lumium.png){:style="height: 128px"}
 
 
 **Lumium blend** is a raw material. It is the dust form of

@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-nickel
 ---
 
-![Nickel ore](/assets/images/docs/1.12/thermal-foundation/ore-nickel.png){:style="height: 128px"}
+![Nickel ore](/images/docs/1.12/thermal-foundation/ore-nickel.png){:style="height: 128px"}
 
 
 **Nickel ore** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that

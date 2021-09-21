@@ -17,7 +17,7 @@ usage-recipes:
   - recycling-gear-gold
 ---
 
-![Gold gear](/assets/images/docs/1.12/thermal-foundation/gear-gold.png){:style="height: 128px"}
+![Gold gear](/images/docs/1.12/thermal-foundation/gear-gold.png){:style="height: 128px"}
 
 
 **Gold gears** are crafting materials made of

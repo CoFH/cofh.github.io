@@ -26,7 +26,7 @@ usage-recipes:
   - td-1-12-itemduct-energy-fast-one
 ---
 
-![Signalum nugget](/assets/images/docs/1.12/thermal-foundation/nugget-signalum.png){:style="height: 128px"}
+![Signalum nugget](/images/docs/1.12/thermal-foundation/nugget-signalum.png){:style="height: 128px"}
 
 
 **Signalum nuggets** are raw materials. They are the nugget form of

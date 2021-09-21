@@ -10,7 +10,7 @@ subjects:
 title: Bronze Coin
 ---
 
-![Bronze coin](/assets/images/docs/1.12/thermal-foundation/coin-bronze.png){:style="height: 128px"}
+![Bronze coin](/images/docs/1.12/thermal-foundation/coin-bronze.png){:style="height: 128px"}
 
 
 **Bronze coins** are materials made of [bronze](../bronze-ingot/) that can be

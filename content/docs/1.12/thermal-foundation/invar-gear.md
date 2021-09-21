@@ -25,7 +25,7 @@ usage-recipes:
   - recycling-gear-invar
 ---
 
-![Invar gear](/assets/images/docs/1.12/thermal-foundation/gear-invar.png){:style="height: 128px"}
+![Invar gear](/images/docs/1.12/thermal-foundation/gear-invar.png){:style="height: 128px"}
 
 
 **Invar gears** are crafting materials made of [invar](../invar-ingot/).

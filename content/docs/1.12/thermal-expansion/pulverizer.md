@@ -127,7 +127,7 @@ subjects:
 title: Pulverizer
 ---
 
-![Pulverizer](/assets/images/docs/1.12/thermal-expansion/pulverizer.png){:style="height: 128px"}
+![Pulverizer](/images/docs/1.12/thermal-expansion/pulverizer.png){:style="height: 128px"}
 
 > MACHINE SMASH! Puny ore.
 

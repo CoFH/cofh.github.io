@@ -21,7 +21,7 @@ usage-recipes:
   - tf-1-12-dust-cryotheum
 ---
 
-![Blizz powder](/assets/images/docs/1.12/thermal-foundation/blizz-powder.gif){:style="height: 128px"}
+![Blizz powder](/images/docs/1.12/thermal-foundation/blizz-powder.gif){:style="height: 128px"}
 
 
 **Blizz powder** is a material that is most commonly obtained from [blizz

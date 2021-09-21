@@ -76,7 +76,7 @@ usage-recipes:
   - dust-platinum
 ---
 
-![Platinum ingot](/assets/images/docs/1.12/thermal-foundation/ingot-platinum.png){:style="height: 128px"}
+![Platinum ingot](/images/docs/1.12/thermal-foundation/ingot-platinum.png){:style="height: 128px"}
 
 
 **Platinum ingots** are raw materials obtained from [nickel

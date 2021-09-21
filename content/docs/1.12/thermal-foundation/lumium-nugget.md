@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-ingot-lumium-from-nuggets
 ---
 
-![Lumium nugget](/assets/images/docs/1.12/thermal-foundation/nugget-lumium.png){:style="height: 128px"}
+![Lumium nugget](/images/docs/1.12/thermal-foundation/nugget-lumium.png){:style="height: 128px"}
 
 
 **Lumium nuggets** are raw materials. They are the nugget form of

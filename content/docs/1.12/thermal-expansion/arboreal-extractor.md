@@ -9,7 +9,7 @@ subjects:
 title: Arboreal Extractor
 ---
 
-![Arboreal extractor](/assets/images/docs/1.12/thermal-expansion/arboreal-extractor.png){:style="height: 128px"}
+![Arboreal extractor](/images/docs/1.12/thermal-expansion/arboreal-extractor.png){:style="height: 128px"}
 
 > Put down the axe.
 

@@ -17,7 +17,7 @@ usage-recipes:
   - recycling-plate-silver
 ---
 
-![Silver plate](/assets/images/docs/1.12/thermal-foundation/plate-silver.png){:style="height: 128px"}
+![Silver plate](/images/docs/1.12/thermal-foundation/plate-silver.png){:style="height: 128px"}
 
 
 **Silver plates** are crafting materials made of [silver](../silver-ingot/).

@@ -70,7 +70,7 @@ usage-recipes:
   - dust-steel
 ---
 
-![Steel ingot](/assets/images/docs/1.12/thermal-foundation/ingot-steel.png){:style="height: 128px"}
+![Steel ingot](/images/docs/1.12/thermal-foundation/ingot-steel.png){:style="height: 128px"}
 
 
 **Steel ingots** are raw materials made from

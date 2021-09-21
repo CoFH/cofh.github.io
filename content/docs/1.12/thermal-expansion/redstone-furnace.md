@@ -21,7 +21,7 @@ subjects:
 title: Redstone Furnace
 ---
 
-![Redstone furnace](/assets/images/docs/1.12/thermal-expansion/redstone-furnace.png){:style="height: 128px"}
+![Redstone furnace](/images/docs/1.12/thermal-expansion/redstone-furnace.png){:style="height: 128px"}
 
 > Coal is for chumps!
 

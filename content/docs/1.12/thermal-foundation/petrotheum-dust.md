@@ -28,7 +28,7 @@ usage-recipes:
   - petrotheum
 ---
 
-![Petrotheum dust](/assets/images/docs/1.12/thermal-foundation/dust-petrotheum.gif){:style="height: 128px"}
+![Petrotheum dust](/images/docs/1.12/thermal-foundation/dust-petrotheum.gif){:style="height: 128px"}
 
 
 **Petrotheum dust** is the earth elemental dust. It is most commonly used to

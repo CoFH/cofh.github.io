@@ -20,7 +20,7 @@ usage-recipes:
   - recycling-gear-tin
 ---
 
-![Tin gear](/assets/images/docs/1.12/thermal-foundation/gear-tin.png){:style="height: 128px"}
+![Tin gear](/images/docs/1.12/thermal-foundation/gear-tin.png){:style="height: 128px"}
 
 
 **Tin gears** are crafting materials made of [tin](../tin-ingot/).

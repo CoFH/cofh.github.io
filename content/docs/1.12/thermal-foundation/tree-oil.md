@@ -15,7 +15,7 @@ usage-recipes:
   - bucket-tree-oil
 ---
 
-![Tree oil](/assets/images/docs/1.12/thermal-foundation/tree-oil.gif){:style="height: 128px"}
+![Tree oil](/images/docs/1.12/thermal-foundation/tree-oil.gif){:style="height: 128px"}
 
 
 **Tree oil** is a fluid obtained by processing [resin](../resin/) in a

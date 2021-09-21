@@ -74,7 +74,7 @@ usage-recipes:
   - dust-aluminum
 ---
 
-![Aluminum ingot](/assets/images/docs/1.12/thermal-foundation/ingot-aluminum.png){:style="height: 128px"}
+![Aluminum ingot](/images/docs/1.12/thermal-foundation/ingot-aluminum.png){:style="height: 128px"}
 
 
 **Aluminum ingots** are raw materials obtained from [aluminum

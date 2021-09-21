@@ -10,7 +10,7 @@ subjects:
 title: Gold Coin
 ---
 
-![Gold coin](/assets/images/docs/1.12/thermal-foundation/coin-gold.png){:style="height: 128px"}
+![Gold coin](/images/docs/1.12/thermal-foundation/coin-gold.png){:style="height: 128px"}
 
 
 **Gold coins** are materials made of

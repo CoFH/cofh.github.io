@@ -41,7 +41,6 @@ table caption {
   }
 }
 
-
 /* Info table - used for larger information, often containing pictures */
 .info-table {
 	margin: 10px 0;
@@ -58,6 +57,7 @@ table caption {
 
 .info-table :is(th, td) {
 	border: 1px solid var(--main-text-color);
+  padding: 5px;
 }
 
 /* Data table - used for smaller, entirely text/numeric data */

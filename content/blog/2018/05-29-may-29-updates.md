@@ -149,7 +149,7 @@ The documentation will be updated soon to match the new releases.
   and not all machines and recipe styles are supported yet. Documentation and
   examples will be added to the website sometime soon. For now, the [internal
   default
-  files](https://github.com/CoFH/ThermalExpansion/tree/1.12/src/main/resources/assets/thermalexpansion/content)
+  files](https://github.com/CoFH/ThermalExpansion/tree/1.12/src/main/resources/thermalexpansion/content)
   can be used as examples.
 
 #### Thermal Dynamics

@@ -17,7 +17,7 @@ usage-recipes:
   - ender-pearl-from-clathrate
 ---
 
-![Resonant clathrate](/assets/images/docs/1.12/thermal-foundation/clathrate-ender.gif){:style="height: 128px"}
+![Resonant clathrate](/images/docs/1.12/thermal-foundation/clathrate-ender.gif){:style="height: 128px"}
 
 
 **Resonant clathrate** is a material obtained from [resonant end

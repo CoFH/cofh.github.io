@@ -43,7 +43,7 @@ usage-recipes:
   - recycling-tool-fishing-rod-constantan
 ---
 
-![Fishing rods](/assets/images/docs/1.12/thermal-foundation/fishing-rods.gif){:style="height: 128px"}
+![Fishing rods](/images/docs/1.12/thermal-foundation/fishing-rods.gif){:style="height: 128px"}
 
 
 **[Fishing rods](https://minecraft.gamepedia.com/Fishing_Rod)** are tools in

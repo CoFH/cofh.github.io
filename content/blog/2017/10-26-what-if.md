@@ -16,7 +16,7 @@ the opportunity cost of no longer charging items. So mapping out that logic is
 fairly simple. If the augment is installed, allow for items to be repaired. And
 do not allow items to be charged.
 
-![Augment - Charger](/assets/images/posts/2017-10-26-what-if/augment_charger.png){:style="max-height: 512px"}
+![Augment - Charger](/images/posts/2017-10-26-what-if/augment_charger.png){:style="max-height: 512px"}
 
 But...what if...
 
@@ -55,7 +55,7 @@ where a player adds or removes an augment and then the machine somehow is left
 processing while the chunk unloads. But in theory, this can happen. And now it's
 dealt with. So the augment is done, and we're waiting on art.
 
-![NBT - Charger](/assets/images/posts/2017-10-26-what-if/nbt_read_charger.png){:style="max-height: 660px"}
+![NBT - Charger](/images/posts/2017-10-26-what-if/nbt_read_charger.png){:style="max-height: 660px"}
 
 So yeah. That's where I am. That's what goes into an augment. That's what I
 pondered and coded for at least part of a 2 hour flight. Now the next patch will

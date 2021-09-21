@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-ingot-constantan-from-nuggets
 ---
 
-![Constantan nugget](/assets/images/docs/1.12/thermal-foundation/nugget-constantan.png){:style="height: 128px"}
+![Constantan nugget](/images/docs/1.12/thermal-foundation/nugget-constantan.png){:style="height: 128px"}
 
 
 **Constantan nuggets** are raw materials. They are the nugget form of

@@ -45,7 +45,7 @@ usage-recipes:
   - recycling-tool-hammer-constantan
 ---
 
-![Hammers](/assets/images/docs/1.12/thermal-foundation/hammers.gif){:style="height: 128px"}
+![Hammers](/images/docs/1.12/thermal-foundation/hammers.gif){:style="height: 128px"}
 
 
 **Hammers** are [pickaxe](https://minecraft.gamepedia.com/Pickaxe)-like tools

@@ -21,7 +21,7 @@ usage-recipes:
   - td-1-12-itemduct-energy-fast-one
 ---
 
-![Electrum nugget](/assets/images/docs/1.12/thermal-foundation/nugget-electrum.png){:style="height: 128px"}
+![Electrum nugget](/images/docs/1.12/thermal-foundation/nugget-electrum.png){:style="height: 128px"}
 
 
 **Electrum nuggets** are raw materials. They are the nugget form of

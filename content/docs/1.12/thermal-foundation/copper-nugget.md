@@ -16,7 +16,7 @@ usage-recipes:
   - ti-1-12-alchemical-quiver-hardened
 ---
 
-![Copper nugget](/assets/images/docs/1.12/thermal-foundation/nugget-copper.png){:style="height: 128px"}
+![Copper nugget](/images/docs/1.12/thermal-foundation/nugget-copper.png){:style="height: 128px"}
 
 
 **Copper nuggets** are raw materials. They are the nugget form of

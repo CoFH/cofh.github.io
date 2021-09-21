@@ -42,7 +42,9 @@
   {{- end -}}
 {{- else -}}
   {{- range $type, $recipe_map := $data.recipes -}}
-    {{- $recipes.Set $type (partial "util/map_keys" $recipe_map) -}}
+    {{- if in $types $type -}}
+      {{- $recipes.Set $type (partial "util/map_keys" $recipe_map) -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 

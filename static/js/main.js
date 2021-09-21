@@ -1,7 +1,3 @@
----
-layout: null
----
-
 /* 
  *  ARIA-expanded support
  */
@@ -22,10 +18,10 @@ const MAX_RESULTS = 5;
 const input = document.getElementById("search-input");
 const list = document.getElementById("search-autocomplete-list");
 const pages = [
-    {%- for page in site.pages -%}{%- if page.title -%}{
-      title: "{{ page.title }}",
-      url: "{{ page.url }}"
-    }{%- unless forloop.last -%},{%- endunless -%}{%- endif -%}{%- endfor -%}
+    {{- range where .Pages "Section" "docs" -}}{{- if .Title -}}{
+      title: "{{ .Title }}",
+      url: "{{ .RelPermalink }}"
+    }{{- end -}}{{- end -}}
   ];
 
 // Starts/updates autocomplete whenever the input changes.

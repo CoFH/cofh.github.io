@@ -20,7 +20,7 @@ usage-recipes:
   - td-1-12-fluxduct-super
 ---
 
-![Gelid cryotheum](/assets/images/docs/1.12/thermal-foundation/gelid-cryotheum.gif){:style="height: 128px"}
+![Gelid cryotheum](/images/docs/1.12/thermal-foundation/gelid-cryotheum.gif){:style="height: 128px"}
 
 > This is also worse than lava, except cold. You yeti.
 

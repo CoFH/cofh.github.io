@@ -48,7 +48,7 @@ usage-recipes:
   - dust-enderium
 ---
 
-![Enderium ingot](/assets/images/docs/1.12/thermal-foundation/ingot-enderium.png){:style="height: 128px"}
+![Enderium ingot](/images/docs/1.12/thermal-foundation/ingot-enderium.png){:style="height: 128px"}
 
 
 **Enderium ingots** are raw materials made from [lead](../lead-ingot/),

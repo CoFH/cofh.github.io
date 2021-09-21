@@ -18,7 +18,7 @@ Documentation for the mods will be added to the website soon. For now, here's a
 quick overview:
 
 ### Vanilla+ Tools
-![Vanilla+ Tools overview](/assets/images/posts/2018-06-01-vanillaplus-tools-and-satchels/tools.png)
+![Vanilla+ Tools overview](/images/posts/2018-06-01-vanillaplus-tools-and-satchels/tools.png)
 
 Vanilla+ Tools adds additional tools and weapons made of wood, stone, iron, gold and
 diamond. They are the same types of additional tools and weapons that [Thermal
@@ -31,7 +31,7 @@ bows](/docs/1.12/vanillaplus-tools/reinforced-bows/) and
 [shields](/docs/1.12/vanillaplus-tools/shields/).
 
 ### Vanilla+ Satchels
-![Vanilla+ Satchels overview](/assets/images/posts/2018-06-01-vanillaplus-tools-and-satchels/satchels.png)
+![Vanilla+ Satchels overview](/images/posts/2018-06-01-vanillaplus-tools-and-satchels/satchels.png)
 
 Vanilla+ Satchels adds a set of [satchels](/docs/1.12/vanillaplus-satchels/satchel/),
 which are items that store other items, and are able to automatically store

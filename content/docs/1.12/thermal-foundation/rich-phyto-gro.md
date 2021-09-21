@@ -41,7 +41,7 @@ usage-recipes:
   - wood-rich
 ---
 
-![Rich Phyto-Gro](/assets/images/docs/1.12/thermal-foundation/phyto-gro-rich.png){:style="height: 128px"}
+![Rich Phyto-Gro](/images/docs/1.12/thermal-foundation/phyto-gro-rich.png){:style="height: 128px"}
 
 
 **Rich Phyto-Gro** is a type of fertilizer. It is stronger than the

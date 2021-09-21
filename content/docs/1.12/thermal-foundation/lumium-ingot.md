@@ -32,7 +32,7 @@ usage-recipes:
   - dust-lumium
 ---
 
-![Lumium ingot](/assets/images/docs/1.12/thermal-foundation/ingot-lumium.png){:style="height: 128px"}
+![Lumium ingot](/images/docs/1.12/thermal-foundation/ingot-lumium.png){:style="height: 128px"}
 
 
 **Lumium ingots** are raw materials made from [tin](../tin-ingot/),

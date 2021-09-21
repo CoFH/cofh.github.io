@@ -99,7 +99,7 @@ usage-recipes:
   - dust-lead
 ---
 
-![Lead ingot](/assets/images/docs/1.12/thermal-foundation/ingot-lead.png){:style="height: 128px"}
+![Lead ingot](/images/docs/1.12/thermal-foundation/ingot-lead.png){:style="height: 128px"}
 
 
 **Lead ingots** are raw materials obtained from [lead ore](../lead-ore/) and

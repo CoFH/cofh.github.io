@@ -94,7 +94,7 @@ usage-recipes:
   - dust-invar
 ---
 
-![Invar ingot](/assets/images/docs/1.12/thermal-foundation/ingot-invar.png){:style="height: 128px"}
+![Invar ingot](/images/docs/1.12/thermal-foundation/ingot-invar.png){:style="height: 128px"}
 
 
 **Invar ingots** are raw materials made from

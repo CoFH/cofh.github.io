@@ -17,7 +17,7 @@ usage-recipes:
   - recycling-plate-invar
 ---
 
-![Invar plate](/assets/images/docs/1.12/thermal-foundation/plate-invar.png){:style="height: 128px"}
+![Invar plate](/images/docs/1.12/thermal-foundation/plate-invar.png){:style="height: 128px"}
 
 
 **Invar plates** are crafting materials made of [invar](../invar-ingot/).

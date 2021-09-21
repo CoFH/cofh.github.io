@@ -93,7 +93,7 @@ usage-recipes:
   - ingot-bronze-from-ingot-copper-and-ingot-tin
 ---
 
-![Tin ingot](/assets/images/docs/1.12/thermal-foundation/ingot-tin.png){:style="height: 128px"}
+![Tin ingot](/images/docs/1.12/thermal-foundation/ingot-tin.png){:style="height: 128px"}
 
 
 **Tin ingots** are raw materials obtained from [tin ore](../tin-ore/).

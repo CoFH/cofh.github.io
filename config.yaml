@@ -3,6 +3,8 @@ disablePathToLower: true
 languageCode: en-us
 title: Team CoFH
 
+assetDir: /static
+
 markup:
   goldmark:
     renderer:
@@ -20,3 +22,6 @@ permalinks:
 params:
   mc_wiki: https://minecraft.fandom.com/wiki/
   
+markup:
+  tableOfContents:
+    ordered: true

@@ -20,7 +20,7 @@ usage-recipes:
   - hardened-glass-signalum
 ---
 
-![Signalum blend](/assets/images/docs/1.12/thermal-foundation/dust-signalum.png){:style="height: 128px"}
+![Signalum blend](/images/docs/1.12/thermal-foundation/dust-signalum.png){:style="height: 128px"}
 
 
 **Signalum blend** is a raw material. It is the dust form of

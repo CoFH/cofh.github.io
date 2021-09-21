@@ -28,7 +28,7 @@ usage-recipes:
   - tf-1-12-ingot-platinum-from-dust
 ---
 
-![Pulverized platinum](/assets/images/docs/1.12/thermal-foundation/dust-platinum.png){:style="height: 128px"}
+![Pulverized platinum](/images/docs/1.12/thermal-foundation/dust-platinum.png){:style="height: 128px"}
 
 
 **Pulverized platinum** is a raw material. It is the dust form of

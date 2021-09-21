@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-plate-lumium
 ---
 
-![Lumium plate](/assets/images/docs/1.12/thermal-foundation/plate-lumium.png){:style="height: 128px"}
+![Lumium plate](/images/docs/1.12/thermal-foundation/plate-lumium.png){:style="height: 128px"}
 
 
 **Lumium plates** are crafting materials made of [lumium](../lumium-ingot/).

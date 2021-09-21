@@ -18,7 +18,7 @@ usage-recipes:
   - recycling-gear-enderium
 ---
 
-![Enderium gear](/assets/images/docs/1.12/thermal-foundation/gear-enderium.png){:style="height: 128px"}
+![Enderium gear](/images/docs/1.12/thermal-foundation/gear-enderium.png){:style="height: 128px"}
 
 
 **Enderium gears** are crafting materials made of

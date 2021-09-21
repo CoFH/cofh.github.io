@@ -29,7 +29,7 @@ usage-recipes:
   - pyrotheum
 ---
 
-![Pyrotheum dust](/assets/images/docs/1.12/thermal-foundation/dust-pyrotheum.gif){:style="height: 128px"}
+![Pyrotheum dust](/images/docs/1.12/thermal-foundation/dust-pyrotheum.gif){:style="height: 128px"}
 
 
 **Pyrotheum dust** is the fire elemental dust. It is most commonly used to make

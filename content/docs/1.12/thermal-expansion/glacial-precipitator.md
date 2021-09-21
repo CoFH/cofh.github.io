@@ -17,7 +17,7 @@ subjects:
 title: Glacial Precipitator
 ---
 
-![Glacial precipitator](/assets/images/docs/1.12/thermal-expansion/glacial-precipitator.png){:style="height: 128px"}
+![Glacial precipitator](/images/docs/1.12/thermal-expansion/glacial-precipitator.png){:style="height: 128px"}
 
 > Have a snowball fight!
 

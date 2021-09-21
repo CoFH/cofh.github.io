@@ -23,7 +23,7 @@ usage-recipes:
   - tf-1-12-ingot-mithril-from-dust
 ---
 
-![Pulverized mana infused metal](/assets/images/docs/1.12/thermal-foundation/dust-mithril.png){:style="height: 128px"}
+![Pulverized mana infused metal](/images/docs/1.12/thermal-foundation/dust-mithril.png){:style="height: 128px"}
 
 
 **Pulverized mana infused metal** is a raw material. It is the dust form of

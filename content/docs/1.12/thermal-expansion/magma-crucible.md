@@ -50,7 +50,7 @@ subjects:
 title: Magma Crucible
 ---
 
-![Magma crucible](/assets/images/docs/1.12/thermal-expansion/magma-crucible.png){:style="height: 128px"}
+![Magma crucible](/images/docs/1.12/thermal-expansion/magma-crucible.png){:style="height: 128px"}
 
 > Yes, it can make lava. You monster.
 

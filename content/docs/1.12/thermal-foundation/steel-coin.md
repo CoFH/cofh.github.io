@@ -10,7 +10,7 @@ subjects:
 title: Steel Coin
 ---
 
-![Steel coin](/assets/images/docs/1.12/thermal-foundation/coin-steel.png){:style="height: 128px"}
+![Steel coin](/images/docs/1.12/thermal-foundation/coin-steel.png){:style="height: 128px"}
 
 
 **Steel coins** are materials made of [steel](../steel-ingot/) that can be

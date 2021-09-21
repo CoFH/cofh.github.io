@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-ingot-iridium-from-nuggets
 ---
 
-![Iridium nugget](/assets/images/docs/1.12/thermal-foundation/nugget-iridium.png){:style="height: 128px"}
+![Iridium nugget](/images/docs/1.12/thermal-foundation/nugget-iridium.png){:style="height: 128px"}
 
 
 **Iridium nuggets** are raw materials. They are the nugget form of

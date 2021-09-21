@@ -15,7 +15,7 @@ usage-recipes:
   - blitz-powder
 ---
 
-![Blitz rod](/assets/images/docs/1.12/thermal-foundation/blitz-rod.png){:style="height: 128px"}
+![Blitz rod](/images/docs/1.12/thermal-foundation/blitz-rod.png){:style="height: 128px"}
 
 
 **Blitz rods** are materials that are dropped by [blitzes](../blitz/). They

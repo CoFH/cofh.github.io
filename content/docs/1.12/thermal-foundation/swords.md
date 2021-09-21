@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-weapon-sword-constantan
 ---
 
-![Swords](/assets/images/docs/1.12/thermal-foundation/swords.gif){:style="height: 128px"}
+![Swords](/images/docs/1.12/thermal-foundation/swords.gif){:style="height: 128px"}
 
 
 **[Swords](https://minecraft.gamepedia.com/Sword)** are weapons in vanilla

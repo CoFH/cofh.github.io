@@ -21,7 +21,7 @@ usage-recipes:
   - ingot-steel-from-ingot-iron-and-dust-coal
 ---
 
-![Pulverized coal](/assets/images/docs/1.12/thermal-foundation/dust-coal.png){:style="height: 128px"}
+![Pulverized coal](/images/docs/1.12/thermal-foundation/dust-coal.png){:style="height: 128px"}
 
 
 **Pulverized coal** is a raw material. It is the dust form of

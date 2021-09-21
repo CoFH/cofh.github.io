@@ -23,7 +23,7 @@ When a [mob](https://minecraft.gamepedia.com/Mob) with a custom
 [name](https://minecraft.gamepedia.com/Name_Tag) dies, a death message is shown
 in the chat as if it were a player. This is enabled by default.
 
-![Example of a named mob death message](/assets/images/cofh-core-1-14/named-mob-death-message.png){:style="height: 15px"}
+![Example of a named mob death message](/images/cofh-core-1-14/named-mob-death-message.png){:style="height: 15px"}
 
 
 Color blind textures
@@ -32,7 +32,7 @@ Color blind textures
 If color blind textures are enabled, features that rely on color use different
 textures for people with color blindness.
 
-![Color blind textures comparison](/assets/images/cofh-core-1-14/color-blind-comparison.png){:style="height: 132px"}
+![Color blind textures comparison](/images/cofh-core-1-14/color-blind-comparison.png){:style="height: 132px"}
 
 
 Disabling particles

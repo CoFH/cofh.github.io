@@ -33,7 +33,7 @@ usage-recipes:
   - wood-fluxed
 ---
 
-![Fluxed Phyto-Gro](/assets/images/docs/1.12/thermal-foundation/phyto-gro-fluxed.gif){:style="height: 128px"}
+![Fluxed Phyto-Gro](/images/docs/1.12/thermal-foundation/phyto-gro-fluxed.gif){:style="height: 128px"}
 
 
 **Fluxed Phyto-Gro** is a type of fertilizer. It is the strongest of its kind,

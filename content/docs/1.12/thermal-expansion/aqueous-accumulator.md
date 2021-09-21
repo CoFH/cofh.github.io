@@ -9,7 +9,7 @@ subjects:
 title: Aqueous Accumulator
 ---
 
-![Aqueous accumulator](/assets/images/docs/1.12/thermal-expansion/aqueous-accumulator.png){:style="height: 128px"}
+![Aqueous accumulator](/images/docs/1.12/thermal-expansion/aqueous-accumulator.png){:style="height: 128px"}
 
 > No, it does not work with lava. You monster.
 

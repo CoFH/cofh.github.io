@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-diamond-from-nuggets
 ---
 
-![Diamond nugget](/assets/images/docs/1.12/thermal-foundation/nugget-diamond.png){:style="height: 128px"}
+![Diamond nugget](/images/docs/1.12/thermal-foundation/nugget-diamond.png){:style="height: 128px"}
 
 
 **Diamond nuggets** are raw materials. They are the nugget form of

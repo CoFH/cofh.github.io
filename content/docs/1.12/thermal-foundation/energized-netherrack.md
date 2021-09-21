@@ -12,7 +12,7 @@ usage-recipes:
   - fluid-ore-processing-glowstone
 ---
 
-![Energized netherrack](/assets/images/docs/1.12/thermal-foundation/ore-fluid-glowstone.png){:style="height: 128px"}
+![Energized netherrack](/images/docs/1.12/thermal-foundation/ore-fluid-glowstone.png){:style="height: 128px"}
 
 
 **Energized netherrack** is a rare [ore](https://minecraft.gamepedia.com/Ore)

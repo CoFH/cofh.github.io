@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-gear-mithril
 ---
 
-![Mana infused gear](/assets/images/docs/1.12/thermal-foundation/gear-mithril.png){:style="height: 128px"}
+![Mana infused gear](/images/docs/1.12/thermal-foundation/gear-mithril.png){:style="height: 128px"}
 
 
 **Mana infused gears** are crafting materials made of [mana infused

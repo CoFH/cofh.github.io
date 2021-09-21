@@ -16,7 +16,7 @@ usage-recipes:
   - hardened-glass-steel
 ---
 
-![Steel blend](/assets/images/docs/1.12/thermal-foundation/dust-steel.png){:style="height: 128px"}
+![Steel blend](/images/docs/1.12/thermal-foundation/dust-steel.png){:style="height: 128px"}
 
 
 **Steel blend** is a raw material. It is the dust form of

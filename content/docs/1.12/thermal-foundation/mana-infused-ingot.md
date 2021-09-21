@@ -40,7 +40,7 @@ usage-recipes:
   - dust-mithril
 ---
 
-![Mana infused ingot](/assets/images/docs/1.12/thermal-foundation/ingot-mithril.png){:style="height: 128px"}
+![Mana infused ingot](/images/docs/1.12/thermal-foundation/ingot-mithril.png){:style="height: 128px"}
 
 
 **Mana infused ingots** are raw materials obtained from [mana infused

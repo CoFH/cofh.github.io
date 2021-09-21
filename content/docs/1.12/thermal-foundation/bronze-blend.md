@@ -22,7 +22,7 @@ usage-recipes:
   - tf-1-12-ingot-bronze-from-dust
 ---
 
-![Bronze blend](/assets/images/docs/1.12/thermal-foundation/dust-bronze.png){:style="height: 128px"}
+![Bronze blend](/images/docs/1.12/thermal-foundation/dust-bronze.png){:style="height: 128px"}
 
 
 **Bronze blend** is a raw material. It is the dust form of

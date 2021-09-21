@@ -29,7 +29,7 @@ usage-recipes:
   - tf-1-12-ingot-gold-from-dust
 ---
 
-![Pulverized gold](/assets/images/docs/1.12/thermal-foundation/dust-gold.png){:style="height: 128px"}
+![Pulverized gold](/images/docs/1.12/thermal-foundation/dust-gold.png){:style="height: 128px"}
 
 
 **Pulverized gold** is a raw material. It is the dust form of

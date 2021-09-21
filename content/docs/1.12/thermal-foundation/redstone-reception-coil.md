@@ -29,7 +29,7 @@ usage-recipes:
   - te-1-12-augment-machine-power
 ---
 
-![Redstone reception coil](/assets/images/docs/1.12/thermal-foundation/redstone-coil-gold.png){:style="height: 128px"}
+![Redstone reception coil](/images/docs/1.12/thermal-foundation/redstone-coil-gold.png){:style="height: 128px"}
 
 
 **Redstone reception coils** are crafting materials made of

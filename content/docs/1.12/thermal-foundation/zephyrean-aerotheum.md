@@ -16,7 +16,7 @@ usage-recipes:
   - td-1-12-viaduct
 ---
 
-![Zephyrean aerotheum](/assets/images/docs/1.12/thermal-foundation/zephyrean-aerotheum.gif){:style="height: 128px"}
+![Zephyrean aerotheum](/images/docs/1.12/thermal-foundation/zephyrean-aerotheum.gif){:style="height: 128px"}
 
 
 **Zephyrean aerotheum** is the air elemental fluid. It is obtained by melting

@@ -43,7 +43,7 @@ usage-recipes:
   - recycling-tool-shears-constantan
 ---
 
-![Shears](/assets/images/docs/1.12/thermal-foundation/shears.gif){:style="height: 128px"}
+![Shears](/images/docs/1.12/thermal-foundation/shears.gif){:style="height: 128px"}
 
 
 **[Shears](https://minecraft.gamepedia.com/Shears)** are tools in vanilla

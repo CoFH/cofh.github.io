@@ -21,7 +21,7 @@ usage-recipes:
   - te-1-12-morb-using-rosin
 ---
 
-![Rosin](/assets/images/docs/1.12/thermal-foundation/rosin.png){:style="height: 128px"}
+![Rosin](/images/docs/1.12/thermal-foundation/rosin.png){:style="height: 128px"}
 
 
 **Rosin** is a byproduct of processing [resin](../resin/) in a [fractionating

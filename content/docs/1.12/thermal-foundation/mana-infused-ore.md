@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-mithril
 ---
 
-![Mana Infused ore](/assets/images/docs/1.12/thermal-foundation/ore-mithril.png){:style="height: 128px"}
+![Mana Infused ore](/images/docs/1.12/thermal-foundation/ore-mithril.png){:style="height: 128px"}
 
 
 **Mana infused ore** is an [ore](https://minecraft.gamepedia.com/Ore) that

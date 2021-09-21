@@ -5,7 +5,7 @@ cascade:
   mods: CoFH core
 ---
 
-![CoFH Core logo](/assets/images/logos/1.12/cofh-core.png){:.cofh-mod-page-logo}
+![CoFH Core logo](/images/logos/1.12/cofh-core.png){:.cofh-mod-page-logo}
 
 
 **CoFH Core** is a mod for Minecraft 1.12 that provides common functionality for

@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-ingot-aluminum-from-nuggets
 ---
 
-![Aluminum nugget](/assets/images/docs/1.12/thermal-foundation/nugget-aluminum.png){:style="height: 128px"}
+![Aluminum nugget](/images/docs/1.12/thermal-foundation/nugget-aluminum.png){:style="height: 128px"}
 
 
 **Aluminum nuggets** are raw materials. They are the nugget form of

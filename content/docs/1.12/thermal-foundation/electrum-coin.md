@@ -10,7 +10,7 @@ subjects:
 title: Electrum Coin
 ---
 
-![Electrum coin](/assets/images/docs/1.12/thermal-foundation/coin-electrum.png){:style="height: 128px"}
+![Electrum coin](/images/docs/1.12/thermal-foundation/coin-electrum.png){:style="height: 128px"}
 
 
 **Electrum coins** are materials made of [electrum](../electrum-ingot/) that

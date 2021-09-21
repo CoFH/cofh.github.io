@@ -31,7 +31,7 @@ usage-recipes:
   - tf-1-12-ingot-iron-from-dust
 ---
 
-![Pulverized iron](/assets/images/docs/1.12/thermal-foundation/dust-iron.png){:style="height: 128px"}
+![Pulverized iron](/images/docs/1.12/thermal-foundation/dust-iron.png){:style="height: 128px"}
 
 
 **Pulverized iron** is a raw material. It is the dust form of

@@ -17,7 +17,7 @@ usage-recipes:
   - glowstone-dust-from-clathrate
 ---
 
-![Energized clathrate](/assets/images/docs/1.12/thermal-foundation/clathrate-glowstone.gif){:style="height: 128px"}
+![Energized clathrate](/images/docs/1.12/thermal-foundation/clathrate-glowstone.gif){:style="height: 128px"}
 
 
 **Energized clathrate** is a material obtained from [energized

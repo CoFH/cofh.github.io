@@ -33,7 +33,7 @@ usage-recipes:
   - te-1-12-augment-dynamo-numismatic-gem
 ---
 
-![Redstone conductance coil](/assets/images/docs/1.12/thermal-foundation/redstone-coil-electrum.png){:style="height: 128px"}
+![Redstone conductance coil](/images/docs/1.12/thermal-foundation/redstone-coil-electrum.png){:style="height: 128px"}
 
 
 **Redstone conductance coils** are crafting materials made of

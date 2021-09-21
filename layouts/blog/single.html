@@ -1,23 +1,19 @@
 {{ define "main" }}
-<div class="body">
-  <main id="main-content" class="content">
-    <article>
-      {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+<article>
+  {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
 
-      {{- if or (isset .Params "author") (isset .Params "date") -}}
-      <p class="subtext">Written{{ with .Params.author }} by <strong>{{ . }}</strong>{{ end }}{{ with .Date }} on {{ . | time.Format ":date_full" }}{{ end }}</p>
-      {{- end -}}
-      <hr />
+  {{- if or (isset .Params "author") (isset .Params "date") -}}
+  <p class="subtext">Written{{ with .Params.author }} by <strong>{{ . }}</strong>{{ end }}{{ with .Date }} on {{ . | time.Format ":date_full" }}{{ end }}</p>
+  {{- end -}}
+  <hr />
 
-      {{ .Content }}
-      
-    </article>
+  {{ .Content }}
+  
+</article>
 
-    <div class="blog-nav" style="justify-content:space-between;">
-      {{- with .NextInSection -}}<a href="{{ .RelPermalink }}" class="link-button blog-button">&laquo; {{ .Title }}</a>{{- end -}}
-      {{- with .PrevInSection -}}<a href="{{ .RelPermalink }}" class="link-button blog-button">{{ .Title }} &raquo;</a>{{- end -}}
-    </div>
-  </main>
+<div class="blog-nav" style="justify-content:space-between;">
+  {{- with .NextInSection -}}<a href="{{ .RelPermalink }}" class="link-button blog-button">&laquo; {{ .Title }}</a>{{- end -}}
+  {{- with .PrevInSection -}}<a href="{{ .RelPermalink }}" class="link-button blog-button">{{ .Title }} &raquo;</a>{{- end -}}
 </div>
 {{ end }}
 

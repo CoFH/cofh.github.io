@@ -24,7 +24,7 @@ usage-recipes:
   - tf-1-12-ingot-iridium-from-dust
 ---
 
-![Pulverized iridium](/assets/images/docs/1.12/thermal-foundation/dust-iridium.png){:style="height: 128px"}
+![Pulverized iridium](/images/docs/1.12/thermal-foundation/dust-iridium.png){:style="height: 128px"}
 
 
 **Pulverized iridium** is a raw material. It is the dust form of

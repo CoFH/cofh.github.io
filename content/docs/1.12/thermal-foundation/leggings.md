@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-armor-leggings-constantan
 ---
 
-![Leggings](/assets/images/docs/1.12/thermal-foundation/leggings.gif){:style="height: 128px"}
+![Leggings](/images/docs/1.12/thermal-foundation/leggings.gif){:style="height: 128px"}
 
 
 **[Leggings](https://minecraft.gamepedia.com/Leggings)** are a type of

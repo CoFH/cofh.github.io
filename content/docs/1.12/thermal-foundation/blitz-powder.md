@@ -21,7 +21,7 @@ usage-recipes:
   - tf-1-12-dust-aerotheum
 ---
 
-![Blitz powder](/assets/images/docs/1.12/thermal-foundation/blitz-powder.gif){:style="height: 128px"}
+![Blitz powder](/images/docs/1.12/thermal-foundation/blitz-powder.gif){:style="height: 128px"}
 
 
 **Blitz powder** is a material that is most commonly obtained from [blitz

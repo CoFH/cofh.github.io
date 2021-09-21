@@ -68,7 +68,7 @@ subjects:
 title: Phytogenic Insolator
 ---
 
-![Phytogenic insolator](/assets/images/docs/1.12/thermal-expansion/phytogenic-insolator.png){:style="height: 128px"}
+![Phytogenic insolator](/images/docs/1.12/thermal-expansion/phytogenic-insolator.png){:style="height: 128px"}
 
 > Definitely not organic.
 

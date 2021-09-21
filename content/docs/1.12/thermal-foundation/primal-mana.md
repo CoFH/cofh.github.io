@@ -13,7 +13,7 @@ usage-recipes:
   - bucket-mana
 ---
 
-![Primal mana](/assets/images/docs/1.12/thermal-foundation/primal-mana.gif){:style="height: 128px"}
+![Primal mana](/images/docs/1.12/thermal-foundation/primal-mana.gif){:style="height: 128px"}
 
 
 **Primal mana** is a fluid that currently cannot be obtained.

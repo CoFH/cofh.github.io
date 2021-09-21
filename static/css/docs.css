@@ -3,14 +3,6 @@
   border-bottom: 1px solid var(--line-color);
 }
 
-.docs-content .table-contents {
-  float: right;
-}
-
-.docs-content .table-contents ul {
-  margin-bottom: 0;
-}
-
 .docs-icon {
   display: inline-block;
   vertical-align: middle;
@@ -84,7 +76,7 @@
 .docs-fluid-overlay {
   position: relative;
   display: inline-block;
-  background-image: url('/assets/images/docs/overlay-fluid-medium.png');
+  background-image: url('/images/docs/overlay-fluid-medium.png');
   height: 80px;
   width: 32px;
   background-size: cover;
@@ -95,7 +87,7 @@
   position: relative;
   border: 3px solid var(--bg-color-4);
   display: inline-block;
-  background-image: url('/assets/images/docs/rf-bar.png');
+  background-image: url('/images/docs/rf-bar.png');
   height: 80px;
   width: 24px;
   background-size: cover;

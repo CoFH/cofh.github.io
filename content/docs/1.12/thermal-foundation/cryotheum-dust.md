@@ -37,7 +37,7 @@ usage-recipes:
   - ender-pearl-from-fluid
 ---
 
-![Cryotheum dust](/assets/images/docs/1.12/thermal-foundation/dust-cryotheum.gif){:style="height: 128px"}
+![Cryotheum dust](/images/docs/1.12/thermal-foundation/dust-cryotheum.gif){:style="height: 128px"}
 
 
 **Cryotheum dust** is the ice elemental dust. It is most commonly used to make

@@ -53,22 +53,22 @@ progressively increases the potency of the effect, but lowers the duration.
 And there's JEI support, naturally.
 
 ### **Screenshots:**
-![JEI - Potion Brewing](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_brewer.png){:style="max-height: 512px"}
+![JEI - Potion Brewing](/images/posts/2017-10-20-low-hanging-fruit/jei_brewer.png){:style="max-height: 512px"}
 
-![JEI - Potion Refining](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_refinery_potion.png){:style="max-height: 512px"}
+![JEI - Potion Refining](/images/posts/2017-10-20-low-hanging-fruit/jei_refinery_potion.png){:style="max-height: 512px"}
 
-![JEI - Enchanting](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_enchanter.png){:style="max-height: 512px"}
+![JEI - Enchanting](/images/posts/2017-10-20-low-hanging-fruit/jei_enchanter.png){:style="max-height: 512px"}
 
-![Fluid Experience](/assets/images/posts/2017-10-20-low-hanging-fruit/fluid_experience.png){:style="max-height: 512px"}
+![Fluid Experience](/images/posts/2017-10-20-low-hanging-fruit/fluid_experience.png){:style="max-height: 512px"}
 
-![GUI - Fluid Buffer](/assets/images/posts/2017-10-20-low-hanging-fruit/gui_fluid_buffer.png){:style="max-height: 512px"}
+![GUI - Fluid Buffer](/images/posts/2017-10-20-low-hanging-fruit/gui_fluid_buffer.png){:style="max-height: 512px"}
 
-![GUI - Lexicon](/assets/images/posts/2017-10-20-low-hanging-fruit/gui_lexicon.png){:style="max-height: 512px"}
+![GUI - Lexicon](/images/posts/2017-10-20-low-hanging-fruit/gui_lexicon.png){:style="max-height: 512px"}
 
-![GUI - Potion Diffuser](/assets/images/posts/2017-10-20-low-hanging-fruit/gui_diffuser.png){:style="max-height: 512px"}
+![GUI - Potion Diffuser](/images/posts/2017-10-20-low-hanging-fruit/gui_diffuser.png){:style="max-height: 512px"}
 
-![Augment - Brewer](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_brewer.png){:style="max-height: 512px"}
+![Augment - Brewer](/images/posts/2017-10-20-low-hanging-fruit/augment_brewer.png){:style="max-height: 512px"}
 
-![Augment - Insolator](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_insolator.png){:style="max-height: 512px"}
+![Augment - Insolator](/images/posts/2017-10-20-low-hanging-fruit/augment_insolator.png){:style="max-height: 512px"}
 
-![Augment - Smelter](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_smelter.png){:style="max-height: 512px"}
+![Augment - Smelter](/images/posts/2017-10-20-low-hanging-fruit/augment_smelter.png){:style="max-height: 512px"}

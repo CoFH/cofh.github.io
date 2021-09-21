@@ -15,7 +15,7 @@ usage-recipes:
   - bucket-petrotheum
 ---
 
-![Tectonic petrotheum](/assets/images/docs/1.12/thermal-foundation/tectonic-petrotheum.gif){:style="height: 128px"}
+![Tectonic petrotheum](/images/docs/1.12/thermal-foundation/tectonic-petrotheum.gif){:style="height: 128px"}
 
 
 **Tectonic petrotheum** is the earth elemental fluid. It is obtained by melting

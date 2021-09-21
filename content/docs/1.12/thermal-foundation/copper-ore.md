@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-copper
 ---
 
-![Copper ore](/assets/images/docs/1.12/thermal-foundation/ore-copper.png){:style="height: 128px"}
+![Copper ore](/images/docs/1.12/thermal-foundation/ore-copper.png){:style="height: 128px"}
 
 
 **Copper ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that

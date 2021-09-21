@@ -31,7 +31,7 @@
               {{- end -}}
               
               <a {{with $mod_main}}href="{{.RelPermalink}}" {{end}}class="mod-link nav-link{{ if and $same_mod (eq (string $.Page.Params.version) $version) }} nav-link-selected{{ end }}">
-                <img class="mod-logo" src="/assets/images/logos/{{$version}}/{{ anchorize $mod }}.png" alt="{{$version}} {{$mod}}">
+                <img class="mod-logo" src="/images/logos/{{$version}}/{{ anchorize $mod }}.png" alt="{{$version}} {{$mod}}">
               </a>
             </li>
           {{- end -}}

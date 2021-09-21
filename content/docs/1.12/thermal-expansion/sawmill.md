@@ -37,7 +37,7 @@ subjects:
 title: Sawmill
 ---
 
-![Sawmill](/assets/images/docs/1.12/thermal-expansion/sawmill.png){:style="height: 128px"}
+![Sawmill](/images/docs/1.12/thermal-expansion/sawmill.png){:style="height: 128px"}
 
 > Better watch your hands...
 

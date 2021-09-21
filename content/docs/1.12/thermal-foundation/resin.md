@@ -15,7 +15,7 @@ usage-recipes:
   - bucket-resin
 ---
 
-![Resin](/assets/images/docs/1.12/thermal-foundation/resin.gif){:style="height: 128px"}
+![Resin](/images/docs/1.12/thermal-foundation/resin.gif){:style="height: 128px"}
 
 
 **Resin** is a fluid obtained from spruce, birch, jungle and acacia

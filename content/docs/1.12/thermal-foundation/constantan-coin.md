@@ -10,7 +10,7 @@ subjects:
 title: Constantan Coin
 ---
 
-![Constantan coin](/assets/images/docs/1.12/thermal-foundation/coin-constantan.png){:style="height: 128px"}
+![Constantan coin](/images/docs/1.12/thermal-foundation/coin-constantan.png){:style="height: 128px"}
 
 
 **Constantan coins** are materials made of [constantan](../constantan-ingot/)

@@ -1,20 +1,16 @@
 {{ define "main" }}
-<div class="body">
-  <main id="main-content" class="content">
-    {{- with .Title -}}
-      <h1>{{ . }}</h1>
-      <hr />
-    {{- end -}}
-    
-    {{- with .Content -}}
-      {{ . }}
-      <hr />
-    {{- end -}}
-    
-    {{ range .Pages }}
-      <a href="{{.RelPermalink}}">{{.Title}}</a><br>
-    {{ end }}
-  </main>
-</div>
+{{- with .Title -}}
+  <h1>{{ . }}</h1>
+  <hr />
+{{- end -}}
+
+{{- with .Content -}}
+  {{ . }}
+  <hr />
+{{- end -}}
+
+{{ range .Pages }}
+  <a href="{{.RelPermalink}}">{{.Title}}</a><br>
+{{ end }}
 {{ end }}
 

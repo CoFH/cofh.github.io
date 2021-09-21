@@ -17,7 +17,7 @@ subjects:
 title: Energetic Infuser
 ---
 
-![Energetic infuser](/assets/images/docs/1.12/thermal-expansion/energetic-infuser.png){:style="height: 128px"}
+![Energetic infuser](/images/docs/1.12/thermal-expansion/energetic-infuser.png){:style="height: 128px"}
 
 > Feel the hum.
 

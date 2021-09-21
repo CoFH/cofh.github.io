@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-aluminum
 ---
 
-![Aluminum ore](/assets/images/docs/1.12/thermal-foundation/ore-aluminum.png){:style="height: 128px"}
+![Aluminum ore](/images/docs/1.12/thermal-foundation/ore-aluminum.png){:style="height: 128px"}
 
 
 **Aluminum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields

@@ -10,7 +10,7 @@ subjects:
 title: Signalum Coin
 ---
 
-![Signalum coin](/assets/images/docs/1.12/thermal-foundation/coin-signalum.png){:style="height: 128px"}
+![Signalum coin](/images/docs/1.12/thermal-foundation/coin-signalum.png){:style="height: 128px"}
 
 
 **Signalum coins** are materials made of [signalum](../signalum-ingot/) that

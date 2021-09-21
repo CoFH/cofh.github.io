@@ -73,7 +73,7 @@ usage-recipes:
   - dust-constantan
 ---
 
-![Constantan ingot](/assets/images/docs/1.12/thermal-foundation/ingot-constantan.png){:style="height: 128px"}
+![Constantan ingot](/images/docs/1.12/thermal-foundation/ingot-constantan.png){:style="height: 128px"}
 
 
 **Constantan ingots** are raw materials made from [copper](../copper-ingot/)

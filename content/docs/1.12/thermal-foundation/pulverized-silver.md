@@ -34,7 +34,7 @@ usage-recipes:
   - tf-1-12-ingot-silver-from-dust
 ---
 
-![Pulverized silver](/assets/images/docs/1.12/thermal-foundation/dust-silver.png){:style="height: 128px"}
+![Pulverized silver](/images/docs/1.12/thermal-foundation/dust-silver.png){:style="height: 128px"}
 
 
 **Pulverized silver** is a raw material. It is the dust form of

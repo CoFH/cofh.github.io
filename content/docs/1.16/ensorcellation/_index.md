@@ -4,7 +4,7 @@ cascade:
   mods: ensorcellation
 ---
 
-![Ensorcellation Logo](/assets/images/logos/1.16/ensorcellation.png){:.cofh-mod-page-logo}
+![Ensorcellation Logo](/images/logos/1.16/ensorcellation.png){:.cofh-mod-page-logo}
 
 I see you want to know more about the magic of Ensorcellation. 
 

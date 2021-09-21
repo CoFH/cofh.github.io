@@ -84,7 +84,7 @@ usage-recipes:
   - ingot-electrum-from-ingot-gold-and-ingot-silver
 ---
 
-![Silver ingot](/assets/images/docs/1.12/thermal-foundation/ingot-silver.png){:style="height: 128px"}
+![Silver ingot](/images/docs/1.12/thermal-foundation/ingot-silver.png){:style="height: 128px"}
 
 
 **Silver ingots** are raw materials obtained from [silver

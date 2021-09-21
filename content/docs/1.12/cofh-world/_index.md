@@ -5,7 +5,7 @@ cascade:
   mods: CoFH world
 ---
 
-![CoFH World logo](/assets/images/logos/1.12/cofh-world.png){:.cofh-mod-page-logo}
+![CoFH World logo](/images/logos/1.12/cofh-world.png){:.cofh-mod-page-logo}
 
 
 **CoFH World** is a mod for Minecraft 1.12 that provides common world generation

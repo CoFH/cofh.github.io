@@ -20,7 +20,7 @@ subjects:
 title: Compactor
 ---
 
-![Compactor](/assets/images/docs/1.12/thermal-expansion/compactor.png){:style="height: 128px"}
+![Compactor](/images/docs/1.12/thermal-expansion/compactor.png){:style="height: 128px"}
 
 > More gentle than a pulverizer.
 

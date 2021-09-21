@@ -10,7 +10,7 @@ subjects:
 title: Silver Coin
 ---
 
-![Silver coin](/assets/images/docs/1.12/thermal-foundation/coin-silver.png){:style="height: 128px"}
+![Silver coin](/images/docs/1.12/thermal-foundation/coin-silver.png){:style="height: 128px"}
 
 
 **Silver coins** are materials made of [silver](../silver-ingot/) that can be

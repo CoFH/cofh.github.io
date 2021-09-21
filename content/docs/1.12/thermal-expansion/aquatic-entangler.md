@@ -9,7 +9,7 @@ subjects:
 title: Aquatic Entangler
 ---
 
-![Aquatic entangler](/assets/images/docs/1.12/thermal-expansion/aquatic-entangler.png){:style="height: 128px"}
+![Aquatic entangler](/images/docs/1.12/thermal-expansion/aquatic-entangler.png){:style="height: 128px"}
 
 > Hang up your fishing rod.
 

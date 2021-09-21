@@ -7,7 +7,7 @@ subcategory: Mobs
 title: Blitz
 ---
 
-![Blitz](/assets/images/docs/1.12/thermal-foundation/blitz.png){:style="height: 192px"}
+![Blitz](/images/docs/1.12/thermal-foundation/blitz.png){:style="height: 192px"}
 
 
 **Blitzes** are hostile mobs found in

@@ -19,7 +19,7 @@ usage-recipes:
   - recycling-gear-lead
 ---
 
-![Lead gear](/assets/images/docs/1.12/thermal-foundation/gear-lead.png){:style="height: 128px"}
+![Lead gear](/images/docs/1.12/thermal-foundation/gear-lead.png){:style="height: 128px"}
 
 
 **Lead gears** are crafting materials made of [lead](../lead-ingot/).

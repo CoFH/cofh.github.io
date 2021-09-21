@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ with .Title }}<h1>{{ title . }}</h1><hr />{{ end }}
+
+This page lists download links for all Team CoFH mods.
+<ul>
+  <li>Yes, you can use these in your modpack.</li>
+  <li>Before installing, <em>always back up your world!</em> Especially when it's a development build.</li>
+  <li>Report bugs, ask questions, and give feedback on the <a href="https://discord.gg/uRKrnbH">Discord server</a>! Or just join for a good chat.</li>
+</ul>
+
+{{- $sorted_versions := apply (sort (apply (apply (partial "util/map_keys" .Site.Data.downloads) "substr" "." 2) "int" ".") "value" "desc") "printf" "1.%v" "." -}}
+{{- range $version := $sorted_versions -}}
+  {{ $mods := index $.Site.Data.downloads $version }}
+  <div>
+    <ul class="download-list list-no-style">
+      <label for="{{$version}}-toggle">
+        Minecraft {{$version}}
+      </label>
+      <input type="checkbox" id="{{$version}}-toggle" class="switch-check">
+      {{- range $mod, $data := $mods -}}
+        <li class="download-item" id="{{title $mod}}-{{$version}}">
+          <img src="/images/logos/{{$version}}/{{anchorize $mod}}.png" alt="{{title $mod}}" loading="lazy">
+          <div class="download-desc" style="flex-grow:1;">
+            <h3>{{title $mod}}</h3>
+            {{- with $data.note -}}
+              <p>{{safeHTML .}}</p>
+            {{- end -}}
+          </div>
+          <div class="download-links">
+            {{- with $data.links.download -}}
+              <a href="{{.}}" target="_blank" rel="noopener noreferrer" class="link-button">
+                Download on CurseForge
+              </a>
+            {{- end -}}
+            {{- with $data.links.docs -}}
+              <a href="{{.}}" target="_blank" rel="noopener noreferrer" class="link-button">
+                Documentation
+              </a>
+            {{- end -}}
+            {{- with $data.links.source -}}
+              <a href="{{.}}" target="_blank" rel="noopener noreferrer" class="link-button">
+                Source code
+              </a>
+            {{- end -}}
+          </div>
+        </li>
+      {{- end -}}
+    </ul>
+  </div>
+{{- end -}}
+{{ end }}
+

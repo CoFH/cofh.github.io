@@ -29,7 +29,7 @@ subjects:
 title: Centrifugal Separator
 ---
 
-![Centrifugal separator](/assets/images/docs/1.12/thermal-expansion/centrifugal-separator.png){:style="height: 128px"}
+![Centrifugal separator](/images/docs/1.12/thermal-expansion/centrifugal-separator.png){:style="height: 128px"}
 
 > Spin to win!
 
