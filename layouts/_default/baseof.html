@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{$css.Permalink}}" />
     
     <script src="https://kit.fontawesome.com/a97821a17a.js" crossorigin="anonymous" defer></script>
-    <script src="{{(resources.Get `/js/main.js` | resources.Minify).Permalink}}" defer></script>
+    <script src="{{(resources.Get `/js/main.js` | resources.ExecuteAsTemplate `cofh.js` . | resources.Minify).Permalink}}" defer></script>
     <script>
       function setTheme(e) {
         const isDark = e.target.checked;

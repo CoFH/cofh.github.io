@@ -1,0 +1,8 @@
+{{/* This partial "function" reverses an array. */}}
+
+{{- $len := len . -}}
+{{- $reversed := slice -}}
+{{- range seq $len -}}
+  {{- $reversed = $reversed | append (index $ (sub $len .)) }}
+{{- end -}}
+{{- return $reversed -}}
