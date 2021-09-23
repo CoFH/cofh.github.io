@@ -1,51 +1,32 @@
-{{/* Given a 3D array, renders a multiblock structure.  */}}
+{{/* Given a multiblock pattern and mapping, renders a multiblock structure. */}}
 
-{{/* Per block horiz/vertical offsets in the order x-y-z. Change based on sprite size. TODO: dynamic */}}
-{{- $offset_map := slice (slice 14 0 -14) (slice 7 -17 7) -}}
+{{- $sprite_size := 32 -}}
+{{- $xz_horz := 0.4423 -}}
+{{- $xz_vert := 0.2210 -}}
+{{- $y_vert := -0.5414 -}}
 
-{{- if and .blocks (reflect.IsSlice .blocks) -}}
+{{/* Per block horiz/vertical offsets in the order x-y-z. */}}
+{{- $offset_map := slice (slice (mul (math.Round (mul $xz_horz $sprite_size)) -1) 0 (math.Round (mul $xz_horz $sprite_size))) 
+(slice (math.Round (mul $xz_vert $sprite_size)) (math.Round (mul $y_vert $sprite_size)) (math.Round (mul $xz_vert $sprite_size))) -}}
+
+{{- if and .mapping (reflect.IsMap .mapping) -}}
   {{- $dimensions := .dimensions -}}
   {{- if not (reflect.IsSlice $dimensions) -}}
-    {{- if and .x (and .y .z) -}}
-      {{- $dimensions = slice .x .y .z -}}
-    {{- else -}}
-      {{- $max_y := 0 -}}
-      {{- $max_z := 0 -}}
-      {{- range .blocks -}}
-        {{- if not (reflect.IsSlice .) -}}
-          {{- errorf "Improper multiblock input on page %v! X-plane is not array." $.Page -}}
-        {{- end -}}
-        
-        {{- if lt $max_y (len .) -}}
-          {{- $max_y = (len .) -}}
-        {{- end -}}
-        
-        {{- range . -}}
-          {{- if not (reflect.IsSlice .) -}}
-            {{- errorf "Improper multiblock input on page %v! Y-column is not array." $.Page -}}
-          {{- end -}}
-          
-          {{- if lt $max_z (len .) -}}
-            {{- $max_z = (len .) -}}
-          {{- end -}}
-        {{- end -}}
-      {{- end -}}
-      {{- $dimensions = slice (len .blocks) $max_y $max_z -}}
-    {{- end -}}
+    {{- $dimensions = partial "docs/multiblock/dimensions" (dict "Page" .Page "pattern" .pattern) -}}
   {{- end -}}
   
-  {{- $offset := slice (mul (mul (index (index $offset_map 0) 2) (index $dimensions 2)) -1)
+  {{- $offset := slice (mul (index (index $offset_map 0) 2) (index $dimensions 2))
     (mul (mul (index (index $offset_map 1) 1) (index $dimensions 1)) -1) -}}
   
   {{- $padding := 28 -}}
-  {{- $width := add $padding (add (index $offset 0) (mul (index (index $offset_map 0) 0) (index $dimensions 0))) -}}
+  {{- $width := add $padding (sub (index $offset 0) (mul (index (index $offset_map 0) 0) (index $dimensions 0))) -}}
   {{- $height := add (add $padding (index $offset 1)) (add (mul (index (index $offset_map 1) 0) (index $dimensions 0)) (mul (index (index $offset_map 1) 2) (index $dimensions 2))) -}}
   
-  <div class="multiblock" style="position:relative; width:{{$width}}px; height:{{$height}}px; border:1px solid black;">
-    {{- range $x := (seq 0 (sub (len .blocks) 1)) -}}
-      {{- range $y := (seq 0 (sub (len (index $.blocks $x)) 1)) -}}
-        {{- range $z := (seq 0 (sub (len (index (index $.blocks $x) $y)) 1)) -}}
-          {{- $ids := (index (index (index $.blocks $x) $y) $z) }}
+  <div class="multiblock-display" style="width:{{$width}}px; height:{{$height}}px;">
+    {{- range $x, $x_planes := .pattern -}}
+      {{- range $y, $z_rows := . -}}
+        {{- range $z, $key := split . "" -}}
+          {{- $ids := index $.mapping $key }}
           {{- if $ids -}}
             {{- $coords := slice $x $y $z -}}
             {{- $pos := slice -}}
@@ -58,12 +39,14 @@
               {{- $pos = $pos | append $pixels -}}
             {{- end -}}
             {{- $style := printf "position:absolute; left:%vpx; top:%vpx;" (index $pos 0) (index $pos 1) -}}
-            {{- partialCached "docs/icon" (dict "Page" $.Page "version" $.version "ids" $ids "style" $style) $ids $.version $style -}}
+            <div class="multiblock-block" data-layer={{$y}} style="{{safeCSS $style}}">
+              {{- partialCached "docs/icon" (dict "Page" $.Page "version" $.version "ids" $ids) $ids $.version -}}
+            </div>
           {{- end -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}
   </div>
 {{- else -}}
-  {{- errorf "Improper multiblock input on page %v! Array not supplied." .Page -}}
+  {{- errorf "Improper multiblock input on page %v! Check your mapping." .Page -}}
 {{- end -}}

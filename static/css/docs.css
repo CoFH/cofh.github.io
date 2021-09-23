@@ -136,3 +136,43 @@
   transform: translateX(-50%);
   z-index: 4;
 }
+
+/* Docs Multiblock */
+.multiblock-interactive {
+  background-color: var(--bg-color-2);
+  display: inline-grid;
+  grid-template-columns: auto min-content;
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+.multiblock-display {
+  background-color: var(--bg-color-1);
+  position: relative;
+}
+
+.multiblock-buttons {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 5px;
+}
+
+.multiblock-buttons button {
+  color: var(--contrast-bg-color);
+  cursor: pointer;
+  background-color: var(--bg-color-1);
+  border: 0px;
+  transition: none;
+}
+
+.multiblock-buttons button:focus {
+  outline: 1px solid var(--contrast-bg-color);
+}
+
+.multiblock-buttons button:is(.multiblock-button-active, :hover) {
+  background-color: var(--bg-color-3);
+}
+
+.multiblock-transparent {
+  opacity: 0.15;
+}

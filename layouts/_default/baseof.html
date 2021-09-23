@@ -13,11 +13,11 @@
     <!-- Other Browsers -->
     <link href="/images/logos/wrench.ico" rel="icon" type="image/x-icon" />
     
-    {{ $css := (slice (resources.Get "css/main.css") (resources.Get "css/nav.css") (resources.Get "css/docs.css") (resources.Get "css/search.css") (resources.Get "css/table.css")) | resources.Concat "css/cofh.css" | resources.Minify }} 
+    {{ $css := (slice (resources.Get "css/main.css") (resources.Get "css/nav.css") (resources.Get "css/docs.css") (resources.Get "css/search.css") (resources.Get "css/table.css")) | resources.Concat "css/cofh.css" | minify }} 
     <link rel="stylesheet" href="{{$css.Permalink}}" />
     
     <script src="https://kit.fontawesome.com/a97821a17a.js" crossorigin="anonymous" defer></script>
-    <script src="{{(resources.Get `/js/main.js` | resources.ExecuteAsTemplate `cofh.js` . | resources.Minify).Permalink}}" defer></script>
+    <script src="{{(resources.Get `/js/main.js` | resources.ExecuteAsTemplate `cofh.js` . | resources.Minify |fingerprint).Permalink}}" defer></script>
     <script>
       function setTheme(e) {
         const isDark = e.target.checked;

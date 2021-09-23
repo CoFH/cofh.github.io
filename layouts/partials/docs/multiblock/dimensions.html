@@ -1,0 +1,26 @@
+{{/* Given a pattern, returns the dimensions of the multiblock. */}}
+
+{{- $dimensions := partialCached "util/nil" . -}}
+{{- if and .pattern (reflect.IsSlice .pattern) -}}
+  {{- $max_y := 0 -}}
+  {{- $max_z := 0 -}}
+  {{- range .pattern -}}
+    {{- if not (reflect.IsSlice .) -}}
+      {{- errorf "Improper multiblock input on page %v! X-plane is not array." $.Page -}}
+    {{- end -}}
+    
+    {{- if lt $max_y (len .) -}}
+      {{- $max_y = (len .) -}}
+    {{- end -}}
+    
+    {{- range . -}}          
+      {{- if lt $max_z (len .) -}}
+        {{- $max_z = (len .) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $dimensions = slice (len .pattern) $max_y $max_z -}}
+{{- else -}}
+  {{- errorf "Improper multiblock input on page %v! Check your pattern." .Page -}}
+{{- end -}}
+{{- return $dimensions -}}

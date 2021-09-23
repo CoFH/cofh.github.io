@@ -1,69 +1,17 @@
-{{/* Given a 3D array, renders a multiblock structure.  */}}
-
-{{/* Per block horiz/vertical offsets in the order x-y-z. Change based on sprite size. TODO: dynamic */}}
-{{- $offset_map := slice (slice 14 0 -14) (slice 7 -17 7) -}}
-
-{{- if and .blocks (reflect.IsSlice .blocks) -}}
+{{/* Given a multiblock pattern and mapping, renders an interactive multiblock display.  */}}
+<div class="multiblock-interactive">
   {{- $dimensions := .dimensions -}}
   {{- if not (reflect.IsSlice $dimensions) -}}
     {{- if and .x (and .y .z) -}}
       {{- $dimensions = slice .x .y .z -}}
     {{- else -}}
-      {{- $max_y := 0 -}}
-      {{- $max_z := 0 -}}
-      {{- range .blocks -}}
-        {{- if not (reflect.IsSlice .) -}}
-          {{- errorf "Improper multiblock input on page %v! X-plane is not array." $.Page -}}
-        {{- end -}}
-        
-        {{- if lt $max_y (len .) -}}
-          {{- $max_y = (len .) -}}
-        {{- end -}}
-        
-        {{- range . -}}
-          {{- if not (reflect.IsSlice .) -}}
-            {{- errorf "Improper multiblock input on page %v! Y-column is not array." $.Page -}}
-          {{- end -}}
-          
-          {{- if lt $max_z (len .) -}}
-            {{- $max_z = (len .) -}}
-          {{- end -}}
-        {{- end -}}
-      {{- end -}}
-      {{- $dimensions = slice (len .blocks) $max_y $max_z -}}
+      {{- $dimensions = partial "docs/multiblock/dimensions" (dict "Page" .Page "pattern" .pattern) -}}
     {{- end -}}
   {{- end -}}
-  
-  {{- $offset := slice (mul (mul (index (index $offset_map 0) 2) (index $dimensions 2)) -1)
-    (mul (mul (index (index $offset_map 1) 1) (index $dimensions 1)) -1) -}}
-  
-  {{- $padding := 28 -}}
-  {{- $width := add $padding (add (index $offset 0) (mul (index (index $offset_map 0) 0) (index $dimensions 0))) -}}
-  {{- $height := add (add $padding (index $offset 1)) (add (mul (index (index $offset_map 1) 0) (index $dimensions 0)) (mul (index (index $offset_map 1) 2) (index $dimensions 2))) -}}
-  
-  <div class="multiblock" style="position:relative; width:{{$width}}px; height:{{$height}}px; border:1px solid black;">
-    {{- range $x := (seq 0 (sub (len .blocks) 1)) -}}
-      {{- range $y := (seq 0 (sub (len (index $.blocks $x)) 1)) -}}
-        {{- range $z := (seq 0 (sub (len (index (index $.blocks $x) $y)) 1)) -}}
-          {{- $ids := (index (index (index $.blocks $x) $y) $z) }}
-          {{- if $ids -}}
-            {{- $coords := slice $x $y $z -}}
-            {{- $pos := slice -}}
-            {{- range seq 0 1 -}}
-              {{- $multipliers := index $offset_map . -}}
-              {{- $pixels := index $offset . -}}
-              {{- range seq 0 2 -}}
-                {{- $pixels = add $pixels (mul (index $multipliers .) (index $coords .)) -}}
-              {{- end -}}
-              {{- $pos = $pos | append $pixels -}}
-            {{- end -}}
-            {{- $style := printf "position:absolute; left:%vpx; top:%vpx;" (index $pos 0) (index $pos 1) -}}
-            {{- partialCached "docs/icon" (dict "Page" $.Page "version" $.version "ids" $ids "style" $style) $ids $.version $style -}}
-          {{- end -}}
-        {{- end -}}
-      {{- end -}}
+  {{- partial "docs/multiblock/render" (dict "Page" .Page "version" .version "pattern" .pattern "mapping" .mapping "dimensions" $dimensions) -}}
+  <div class="multiblock-buttons">
+    {{- range seq (index $dimensions 1) 1 -}}
+      <button class="multiblock-layer-toggle" data-layer={{sub . 1}}>Layer&nbsp;{{.}}</button>
     {{- end -}}
   </div>
-{{- else -}}
-  {{- errorf "Improper multiblock input on page %v! Array not supplied." .Page -}}
-{{- end -}}
+</div>
