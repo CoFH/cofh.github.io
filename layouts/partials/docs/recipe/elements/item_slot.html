@@ -1,10 +1,14 @@
 {{- if .slot -}}
   <div class="docs-item-slot{{ if gt (len .slot.id) 1 }} docs-cycle{{ end }}">
-    {{- $hidden := false -}}
-    {{- range .slot.id -}}
-      {{- partial "docs/recipe/elements/item_icon" (dict "Page" $.Page "version" $.version "id" . "link" (partial "docs/get_link" (dict "Page" $.Page "version" $.version "id" .)) "count" $.slot.count "chance" $.slot.chance "hidden" $hidden) -}}
-      {{- $hidden = true -}}
+    {{- $tooltip := "" -}}
+    {{- if .slot.count -}}
+      {{- $tooltip = printf "%v\nCount: %v" $tooltip .slot.count -}}
+    {{- else if .slot.chance -}}
+      {{- $tooltip = printf "%v\nChance: %v%%" $tooltip (math.Round (mul .slot.chance 100)) -}}
     {{- end -}}
+    
+    {{- partialCached "docs/icon" (dict "Page" $.Page "version" $.version "ids" .slot.id "link" true "tooltip" $tooltip) $.version . $.link $.tooltip -}}
+    
     {{- if and (gt .slot.count 0) (ne .slot.count 1) -}}
       <div class="docs-item-count">{{ .slot.count }}</div>
     {{- else if .slot.chance -}}
@@ -13,6 +17,6 @@
   </div>
 {{- else -}}
   <div class="docs-item-slot">
-    {{- partial "docs/recipe/elements/item_icon" (dict "Page" $.Page "version" .version) -}}
+    {{- partialCached "docs/icon" (dict "Page" $.Page "version" $.version) $.version -}}
   </div>
 {{- end -}}

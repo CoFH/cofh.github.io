@@ -1,0 +1,11 @@
+{{/* Takes a page and a key for which parameter to get. Returns the param value. Useful for shortcodes. */}}
+
+{{ $value := partialCached "util/nil" . }}
+{{ if .path }}
+  {{ $keys := slice }}
+  {{ range split .path "." }}
+    {{ $keys = $keys | append (replace . "," ".") }}
+  {{ end }}
+  {{ $value = (partial "util/map_get" (dict "data" .Page "keys" $keys)) }}
+{{ end }}
+{{ return $value }}

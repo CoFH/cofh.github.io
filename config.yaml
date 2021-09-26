@@ -21,6 +21,8 @@ permalinks:
 
 params:
   mc_wiki: https://minecraft.fandom.com/wiki/
+  default_sprite_size: 32
+  multiblock_sprite_size: 46
   
 markup:
   tableOfContents:

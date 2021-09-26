@@ -5,9 +5,55 @@
 
 .docs-icon {
   display: inline-block;
+}
+
+.docs-sprite {
+  display: inline-block;
   vertical-align: middle;
-  width: 32px;
-  height: 32px;
+  height: var(--sprite-size);
+  width: var(--sprite-size);
+  font-size: 0;
+}
+
+.docs-icon-empty {
+  visibility: hidden;
+}
+
+.docs-tooltip {
+  display: none;
+  font-size: initial;
+  position: absolute;
+  background-color: var(--contrast-bg-color);
+  color: var(--bg-color-1);
+  padding: 8px;
+  border-radius: 3px;
+  bottom: calc(100% + 10px);
+  white-space: pre;
+  line-height: 1.1em;
+  z-index: 10;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+:is(:hover, :focus) + .docs-tooltip {
+  display: block;
+}
+
+:is(:hover, :focus) + .docs-tooltip::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  bottom: -7px;
+  border-top: 9px solid var(--contrast-bg-color);
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
 }
 
 .docs-navbox-link {
@@ -26,15 +72,12 @@
 .docs-recipe-component {
   padding: 5px;
   line-height: 0;
+  position: relative;
 }
 
 .docs-item-slot {
   position: relative;
   background-color: var(--bg-color-4);
-}
-
-.docs-item-icon {
-  display: inline-block;
   border: 3px solid var(--bg-color-4);
 }
 
@@ -101,47 +144,11 @@
   text-indent: -1.5ch;
 }
 
-.docs-tooltip {
-  display: none;
-  position: absolute;
-  background-color: var(--contrast-bg-color);
-  color: var(--bg-color-1);
-  padding: 8px;
-  border-radius: 3px;
-  bottom: calc(100% + 10px);
-  white-space: pre;
-  line-height: 1.1em;
-  z-index: 5;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-:hover > .docs-tooltip {
-  display: block;
-}
-
-:hover > .docs-tooltip::after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 0;
-  width: 0;
-  bottom: -7px;
-  border-top: 9px solid var(--contrast-bg-color);
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 4;
-}
-
 /* Docs Multiblock */
 .multiblock-interactive {
   background-color: var(--bg-color-2);
   display: inline-grid;
-  grid-template-columns: auto min-content;
+  grid-template-columns: auto auto;
   padding: 10px;
   grid-gap: 10px;
 }
@@ -149,6 +156,17 @@
 .multiblock-display {
   background-color: var(--bg-color-1);
   position: relative;
+}
+
+.multiblock-block:is(:hover, :focus) .docs-sprite {
+  filter: brightness(2);
+}
+
+.multiblock-slider {
+  writing-mode: bt-lr; /* IE */
+  -webkit-appearance: slider-vertical; /* WebKit */
+  width: 20px;
+  height: 100%;
 }
 
 .multiblock-buttons {

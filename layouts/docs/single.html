@@ -19,9 +19,7 @@
   <article>
     {{/* TODO %- include docs/image.html -%*/}}
     {{- $version := (string (default "" .Params.version)) -}}
-    {{ $map := (index .Site.Data.docs "1.16").multiblocks.test2.mapping }}
-    {{ $pattern := (index .Site.Data.docs "1.16").multiblocks.test2.pattern }}
-    {{partialCached "docs/multiblock/interactive" (dict "Page" . "version" $version "mapping" $map "pattern" $pattern) $version}}
+    
     {{ .Content }}
   </article>
 {{ end }}

@@ -1,23 +1,33 @@
-{{/* Given a list of ids, displays a cycling icon for them. */}}
+{{/* Given a list of IDs, displays a cycling icon for them. Can optionally take true/false to be a link, or a string for a tooltip. If nil or empty string for ID(s) is received, a blank icon will be inserted. */}}
+{{/* Cached variants should follow the order version-ids-link-tooltip-size-class-style-attributes */}}
 
-{{- if .ids -}}
-  {{- $ids := .ids -}}
-  {{- if not (reflect.IsSlice .ids) -}}
-    {{- $ids = split .ids " " -}}
-  {{- end -}}
-  
-  {{- if le (len $ids) 1 -}}
-    {{- $coords := partial "util/map_get" (dict "data" .Page.Site.Data.docs "keys" (slice .version "items-fluids" (index $ids 0) "position")) -}}
-    <div class="docs-icon docs-cycleable{{ with .hidden }} hidden{{ end }}" style="background-image:url('/images/docs/{{.version}}/sprites.png');{{ with $coords }} background-position:-{{mul (index . 0) 33}}px -{{mul (index . 1) 33}}px;{{ end }}{{ with .style }} {{.}}{{ end }}"></div>    
-  {{- else -}}
-    <div class="docs-icon docs-cycle">
-      {{- $hidden := false -}}
-      {{- range $ids -}}
-        {{- partialCached "docs/icon" (dict "Page" $.Page "ids" . "version" $.version "style" $.style "hidden" $hidden) $.version .  $.style $hidden -}}
-        {{- $hidden = true -}}
-      {{- end -}}
-    </div>
-  {{- end -}}
-{{- else -}}
-  <div class="docs-icon docs-cycleable"></div>
+{{- $ids := .ids -}}
+{{- if not (reflect.IsSlice .ids) -}}
+  {{- $ids = split .ids " " -}}
 {{- end -}}
+
+{{ $size := .size }}
+{{- if not .size -}}
+  {{ $size = .Page.Site.Params.default_sprite_size }}
+{{- end -}}
+
+<div class="docs-icon{{if gt (len $ids) 1}} docs-cycle{{end}}{{if not (index $ids 0)}} docs-icon-empty{{end}}{{with .class}} {{.}}{{end}}" {{with .style}}style="{{safeCSS .}}"{{end}} {{with .attributes}} {{safeHTMLAttr .}}{{end}}>
+  {{- range $index, $id := $ids -}}
+    {{- $hidden := cond (gt $index 0) " hidden" nil -}}
+    {{- if $id -}}
+      {{- $data := partial "util/map_get" (dict "data" $.Page.Site.Data.docs "keys" (slice $.version "items-fluids" $id)) -}}
+      {{- $link := partialCached "util/nil" . -}}
+      {{- if $.link -}}
+        {{- $link = partialCached "docs/get_link" (dict "Page" $.Page "version" $.version "id" $id) $.version $id -}}
+      {{- end -}}
+        
+      {{ if $link }}<a href="{{$link}}"{{else}}<div{{end}} class="docs-sprite docs-cycleable{{$hidden}}"
+      style="--sprite-size:{{$size}}px; background-image:url('/images/docs/{{$.version}}/sprites-{{$size}}.png'); 
+      {{with $data.position}} background-position:-{{mul (index . 0) (add $size 1)}}px -{{mul (index . 1) (add $size 1)}}px;{{end}}">
+      {{default $id $data.name}}{{ if $link }}</a>{{else}}</div>{{ end }}
+      {{ if ne $.tooltip nil }}<div class="docs-tooltip">{{printf "%v%v" (default $id $data.name) $.tooltip}}</div>{{ end }}
+    {{- else -}}
+      <div class="docs-sprite docs-sprite-empty docs-cycleable{{$hidden}}" style="--sprite-size:{{$size}}px;"></div>
+    {{- end -}}
+  {{- end -}}
+</div>

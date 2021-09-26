@@ -9,10 +9,9 @@
   For example, you can list all recipes that make your page's subjects:
   {{<recipe_list makes_param="subjects">}}
  */ -}}
-
 {{ partial "docs/recipe/list" (dict "Page" .Page "version" (string (default (.Get "version") .Page.Params.version)) 
-"types" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "types_param"))) (.Get "types")) 
-"ids" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "ids_param"))) (.Get "ids")) 
-"uses" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "uses_param"))) (.Get "uses")) 
-"makes" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "makes_param"))) (.Get "makes")) 
-"excluding" (default (partial "util/param_get" (dict "Page" .Page "param" (.Get "excluding_param"))) (.Get "excluding"))) }}
+"types" (default (partial "util/path_get" (dict "Page" .Page.Params "path" (.Get "types_param"))) (.Get "types")) 
+"ids" (default (partial "util/path_get" (dict "Page" .Page.Params "path" (.Get "ids_param"))) (.Get "ids")) 
+"uses" (default (partial "util/path_get" (dict "Page" .Page.Params "path" (.Get "uses_param"))) (.Get "uses")) 
+"makes" (default (partial "util/path_get" (dict "Page" .Page.Params "path" (.Get "makes_param"))) (.Get "makes")) 
+"excluding" (default (partial "util/path_get" (dict "Page" .Page.Params "path" (.Get "excluding_param"))) (.Get "excluding"))) }}

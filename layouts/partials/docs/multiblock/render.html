@@ -1,6 +1,6 @@
 {{/* Given a multiblock pattern and mapping, renders a multiblock structure. */}}
 
-{{- $sprite_size := 32 -}}
+{{- $sprite_size := .Page.Site.Params.multiblock_sprite_size -}}
 {{- $xz_horz := 0.4423 -}}
 {{- $xz_vert := 0.2210 -}}
 {{- $y_vert := -0.5414 -}}
@@ -18,7 +18,7 @@
   {{- $offset := slice (mul (index (index $offset_map 0) 2) (index $dimensions 2))
     (mul (mul (index (index $offset_map 1) 1) (index $dimensions 1)) -1) -}}
   
-  {{- $padding := 28 -}}
+  {{- $padding := mul (index (index $offset_map 0) 2) 2 -}}
   {{- $width := add $padding (sub (index $offset 0) (mul (index (index $offset_map 0) 0) (index $dimensions 0))) -}}
   {{- $height := add (add $padding (index $offset 1)) (add (mul (index (index $offset_map 1) 0) (index $dimensions 0)) (mul (index (index $offset_map 1) 2) (index $dimensions 2))) -}}
   
@@ -39,9 +39,8 @@
               {{- $pos = $pos | append $pixels -}}
             {{- end -}}
             {{- $style := printf "position:absolute; left:%vpx; top:%vpx;" (index $pos 0) (index $pos 1) -}}
-            <div class="multiblock-block" data-layer={{$y}} style="{{safeCSS $style}}">
-              {{- partialCached "docs/icon" (dict "Page" $.Page "version" $.version "ids" $ids) $ids $.version -}}
-            </div>
+            {{- $attributes := printf "data-layer=%v" $y -}}
+            {{- partialCached "docs/icon" (dict "Page" $.Page "version" $.version "ids" $ids "tooltip" "" "size" $sprite_size "class" "multiblock-block" "style" $style "attributes" $attributes) $.version . "" $sprite_size "multiblock-block" $style $attributes -}}
           {{- end -}}
         {{- end -}}
       {{- end -}}

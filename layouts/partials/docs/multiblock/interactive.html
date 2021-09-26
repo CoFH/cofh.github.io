@@ -1,5 +1,6 @@
 {{/* Given a multiblock pattern and mapping, renders an interactive multiblock display.  */}}
-<div class="multiblock-interactive">
+{{/* Optionally takes a title.  */}}
+<div class="multiblock-interactive docs-pausable">
   {{- $dimensions := .dimensions -}}
   {{- if not (reflect.IsSlice $dimensions) -}}
     {{- if and .x (and .y .z) -}}
@@ -8,10 +9,16 @@
       {{- $dimensions = partial "docs/multiblock/dimensions" (dict "Page" .Page "pattern" .pattern) -}}
     {{- end -}}
   {{- end -}}
-  {{- partial "docs/multiblock/render" (dict "Page" .Page "version" .version "pattern" .pattern "mapping" .mapping "dimensions" $dimensions) -}}
-  <div class="multiblock-buttons">
-    {{- range seq (index $dimensions 1) 1 -}}
-      <button class="multiblock-layer-toggle" data-layer={{sub . 1}}>Layer&nbsp;{{.}}</button>
-    {{- end -}}
+  <div>
+    {{- with .title -}}<div>{{.}}</div>{{- end -}}
+    {{- partial "docs/multiblock/render" (dict "Page" .Page "version" .version "pattern" .pattern "mapping" .mapping "dimensions" $dimensions) -}}
   </div>
+  {{ $layers := index $dimensions 1}}
+  <input class="multiblock-slider" type="range" autocomplete="off" min="0" max="{{$layers}}" value="0" step="1" aria-valuemin="0" aria-valuemax="{{$layers}}" aria-valuenow="0" aria-label="Multiblock Layer Slider" orient="vertical" list="multiblock-ticks-{{$layers}}">
+    <datalist id="multiblock-ticks-{{$layers}}">
+      {{- range seq 0 $layers -}}
+        <option>{{.}}</option>
+      {{- end -}}
+    </datalist>
+  </input>
 </div>

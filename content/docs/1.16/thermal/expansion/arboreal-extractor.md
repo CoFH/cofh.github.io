@@ -7,6 +7,8 @@ subcategory: devices
 mods: [thermal expansion, thermal cultivation]
 ---
 
+
+{{<multiblock data_path="docs.1,16.multiblocks.tree_extractor">}}
 WIP
 
 Obtaining
