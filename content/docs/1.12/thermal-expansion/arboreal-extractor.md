@@ -9,7 +9,7 @@ subjects:
 title: Arboreal Extractor
 ---
 
-![Arboreal extractor](/images/docs/1.12/thermal-expansion/arboreal-extractor.png){:style="height: 128px"}
+![Arboreal extractor](/images/docs/1.12/thermal-expansion/arboreal-extractor.png)
 
 > Put down the axe.
 
@@ -47,22 +47,22 @@ ticks (25 seconds). The amount of time increases when other arboreal extractors
 are extracting from the same tree.
 
 | Extractors | Cycle length per extractor |
-|---
+|---|---|
 | 1 | 500 ticks (25 seconds) |
 | 2 | 750 ticks (37.5 seconds) |
 | 3 or more | 1,000 ticks (50 seconds) |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 The amount of fluid an arboreal extractor produces per cycle can be increased by
 placing fertilizer items in its fertilizer slot. Fertilizer will boost the
 device's production for 8 cycles per item.
 
 | Fertilizer type | Production multiplier |
-|---
+|---|---|
 | [Phyto-Gro](../../thermal-foundation/phyto-gro/) | × 2 |
 | [Rich Phyto-Gro](../../thermal-foundation/rich-phyto-gro/) | × 3 |
 | [Fluxed Phyto-Gro](../../thermal-foundation/fluxed-phyto-gro/) | × 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 ### Input and output
 Items and fluids can enter and exit an arboreal extractor through its sides.
@@ -115,7 +115,7 @@ The fluid that an arboreal extractor produces and the amount of fluid that is
 produced per cycle depends on the type of tree.
 
 | Tree type | Extracted fluid | Fluid per cycle |
-|---
+|---|---|
 | Oak | [Sap](../../thermal-foundation/sap/) | 50 mB |
 | Spruce | [Resin](../../thermal-foundation/resin/) | 100 mB |
 | Birch | [Resin](../../thermal-foundation/resin/) | 50 mB |
@@ -124,4 +124,4 @@ produced per cycle depends on the type of tree.
 | Dark Oak | [Sap](../../thermal-foundation/sap/) | 100 mB |
 | Huge brown mushroom | [Mushroom Stew](../../thermal-foundation/mushroom-stew/) | 50 mB |
 | Huge red mushroom | [Mushroom Stew](../../thermal-foundation/mushroom-stew/) | 50 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

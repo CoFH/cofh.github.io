@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-plate-lumium
 ---
 
-![Lumium plate](/images/docs/1.12/thermal-foundation/plate-lumium.png){:style="height: 128px"}
+![Lumium plate](/images/docs/1.12/thermal-foundation/plate-lumium.png)
 
 
 **Lumium plates** are crafting materials made of [lumium](../lumium-ingot/).
@@ -32,7 +32,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

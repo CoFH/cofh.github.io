@@ -21,7 +21,7 @@ Constant
 A constant number provider provides the same value each time. It is equivalent
 to simply specifying a number. It is an object with the following value.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -42,7 +42,7 @@ to simply specifying a number. It is an object with the following value.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 
 Random (minimum/maximum)
@@ -52,7 +52,7 @@ This type of number provider generates random numbers between a minimum and a
 maximum value, where each possible result is equally likely. It is an object
 with the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -81,7 +81,7 @@ with the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 
 Random (variance)
@@ -95,7 +95,7 @@ to be generated.
 
 This number provider is an object with the following value.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -119,7 +119,7 @@ This number provider is an object with the following value.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 
 World value
@@ -128,7 +128,7 @@ World value
 A world value number provider returns values from the world that features are
 being generated in. It is an object with the following value.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -149,7 +149,7 @@ being generated in. It is an object with the following value.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 The following world values are available:
 
@@ -210,7 +210,7 @@ An operation number provider performs an operation using two given values. It
 can perform various types of operations such as addition and multiplication. It
 is an object with the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -247,7 +247,7 @@ is an object with the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 The following operation types are available:
 
@@ -280,7 +280,7 @@ A bounded number provider applies a minimum and maximum value to a given value,
 increasing it when it is too low and decreasing it when it is too high. It is an
 object with the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -317,7 +317,7 @@ object with the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 
 Examples

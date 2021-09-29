@@ -71,12 +71,12 @@ A cache can be enchanted with [Holding](../../cofh-core/holding/) to increase it
 capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 ### Redstone comparators
 When placed next to a cache, a [redstone
@@ -89,16 +89,15 @@ Tiers
 
 Caches come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Capacity | Note |
-|---
+|---|---|---|
 | Basic | 20,000 |
 | Hardened | 80,000 |
 | Reinforced | 180,000 |
 | Signalum | 320,000 |
 | Resonant | 500,000 |
 | Creative | N/A | Provides an unlimited amount of the item it stores. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+

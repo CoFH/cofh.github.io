@@ -13,7 +13,7 @@ usage-recipes:
   - bucket-syrup
 ---
 
-![Syrup](/images/docs/1.12/thermal-foundation/syrup.gif){:style="height: 128px"}
+![Syrup](/images/docs/1.12/thermal-foundation/syrup.gif)
 
 
 **Syrup** is a fluid that currently cannot be obtained and is not used for
@@ -33,4 +33,4 @@ Usage
 Syrup cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}

@@ -49,11 +49,11 @@ slot. Each item works for a certain amount of collected experience after being
 consumed.
 
 | Catalyst type | Production multiplier | Experience per unit |
-|---
+|---|---|---|
 | [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | × 1.5 | 50 XP |
 | [Lapis Lazuli](https://minecraft.gamepedia.com/Lapis_Lazuli) | × 2 | 100 XP |
 | [Mana Dust](../../thermal-foundation/mana-dust/) | × 2.5 | 200 XP |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 ### Input and output
 Items and fluids can enter and exit an insightful condenser through its sides.

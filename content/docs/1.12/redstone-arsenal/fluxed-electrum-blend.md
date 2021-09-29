@@ -40,4 +40,4 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

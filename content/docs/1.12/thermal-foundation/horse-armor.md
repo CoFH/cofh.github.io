@@ -75,10 +75,10 @@ Usage
 -----
 
 ### Comparison
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Armor |
-|---
+|---|---|
 | Iron | 5 |
 | Gold | 7 |
 | Diamond | 11 |
@@ -95,9 +95,9 @@ Usage
 | Invar | 9 |
 | Bronze | 8 |
 | Constantan | 8 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

@@ -21,7 +21,7 @@ subjects:
 title: Redstone Furnace
 ---
 
-![Redstone furnace](/images/docs/1.12/thermal-expansion/redstone-furnace.png){:style="height: 128px"}
+![Redstone furnace](/images/docs/1.12/thermal-expansion/redstone-furnace.png)
 
 > Coal is for chumps!
 
@@ -126,18 +126,18 @@ Tiers
 
 Redstone furnaces come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer |
-|---
+|---|---|---|---|---|
 | Basic | 20 RF/t | 0 | 16 | 1,000 mB |
 | Hardened | 30 RF/t | 1 | 16 | 1,000 mB |
 | Reinforced | 40 RF/t | 2 | 28 | 3,000 mB |
 | Signalum | 50 RF/t | 3 | 44 | 6,000 mB |
 | Resonant | 60 RF/t | 4 | 64 | 10,000 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -162,4 +162,4 @@ performed in a redstone furnace for 2,000 RF.
 Redstone furnaces have some recipes of their own, some of which replace regular
 smelting recipes. The following table lists these recipes.
 
-{{<recipe_table type="redstone-furnace' recipe-ids=page.recipe-list">}}
+{{<recipe_table type="redstone-furnace" ids_param="recipe-list">}}

@@ -15,7 +15,7 @@ Format
 
 A weighted string is an object with the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -46,7 +46,7 @@ A weighted string is an object with the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 A weighted string may also be specified as just a string. In that case, the
 string is given the default weight.

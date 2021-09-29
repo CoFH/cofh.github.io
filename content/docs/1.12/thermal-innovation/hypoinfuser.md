@@ -86,12 +86,12 @@ A hypoinfuser can be enchanted with [Holding](../../cofh-core/holding/) to incre
 capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Tiers
@@ -99,16 +99,16 @@ Tiers
 
 Hypoinfusers come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Capacity | (bottles) | Note |
-|---
+|---|---|---|---|
 | Basic | 2,000 mB | 8 |
 | Hardened | 6,000 mB | 24 |
 | Reinforced | 12,000 mB | 48 |
 | Signalum | 20,000 mB | 80 |
 | Resonant | 30,000 mB | 120 |
 | Creative | N/A | | Provides an unlimited amount of the potion it holds. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

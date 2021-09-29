@@ -44,7 +44,7 @@ Usage
 Biocrude cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Fractionating Still ingredient
-{{<recipe_table type="refinery' recipe-ids=page.usage-recipes.refinery">}}
+{{<recipe_table type="refinery" ids_param="usage-recipes.refinery">}}

@@ -95,12 +95,12 @@ A satchel can be enchanted with [Holding](../../cofh-core/holding/) to increase 
 capacity.
 
 | Holding level | Capacity increase (slots) |
-|---
+|---|---|
 | I | + 9 |
 | II | + 18 |
 | III | + 27 |
 | IV | + 36 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Types
@@ -109,10 +109,10 @@ Types
 There are seven different satchel types, most of which are
 [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Type | Capacity (slots) | Auto-collect filter slots | Note |
-|---
+|---|---|---|---|
 | Basic | 9 | 3 |
 | Hardened | 18 | 6 |
 | Reinforced | 27 | 9 |
@@ -120,6 +120,6 @@ There are seven different satchel types, most of which are
 | Resonant | 45 | 15 |
 | Void | 1 | 15 | Destroys any items it receives. |
 | Creative | 1 | N/A | Provides an unlimited amount of the item it stores. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

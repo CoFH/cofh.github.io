@@ -75,7 +75,7 @@ usage-recipes:
   - tf-1-12-rockwool
 ---
 
-![Slag](/images/docs/1.12/thermal-foundation/slag.png){:style="height: 128px"}
+![Slag](/images/docs/1.12/thermal-foundation/slag.png)
 
 
 **Slag** is a material obtained as a byproduct from [induction
@@ -93,7 +93,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Smelting ingredient
-{{<recipe_table type="smelting' recipe-ids=page.usage-recipes.smelting">}}
+{{<recipe_table type="smelting" ids_param="usage-recipes.smelting">}}

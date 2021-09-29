@@ -1,8 +1,5 @@
----
-layout: null
----
 /* General table properties */
-th, td {
+:is(th, td) {
   padding: 5px 10px;
 }
 
@@ -57,7 +54,6 @@ table caption {
 
 .info-table :is(th, td) {
 	border: 1px solid var(--main-text-color);
-  padding: 5px;
 }
 
 /* Data table - used for smaller, entirely text/numeric data */

@@ -11,7 +11,7 @@ subjects:
 title: Aqua-Chow
 ---
 
-![Aqua-Chow](/images/docs/1.12/thermal-foundation/aqua-chow.png){:style="height: 128px"}
+![Aqua-Chow](/images/docs/1.12/thermal-foundation/aqua-chow.png)
 
 
 **Aqua-Chow** is a type of fish bait that can be used by [aquatic

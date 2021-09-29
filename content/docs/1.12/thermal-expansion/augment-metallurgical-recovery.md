@@ -44,10 +44,8 @@ Metallurgical fluxes are items that are commonly used in smelter recipes:
 sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](../../thermal-foundation/rich-slag/)
 and [cinnabar](../../thermal-foundation/cinnabar/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Installed amount | Flux reuse chance | Energy increase |
-|---
+|---|---|---|
 | 1 | 15% | + 15% |
 | 2 | 30% | + 30% |
 | 3 | 45% | + 45% |
@@ -57,9 +55,7 @@ and [cinnabar](../../thermal-foundation/cinnabar/).
 | 7 | 95% | + 105% |
 | 8 | 95% | + 120% |
 | 9 | 95% | + 135% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
 
 If metallurgical recovery augments are installed together with other augments
 that increase the amount of energy required per operation, their energy increase

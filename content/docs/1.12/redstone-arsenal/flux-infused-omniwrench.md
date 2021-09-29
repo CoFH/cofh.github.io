@@ -59,19 +59,19 @@ flux-infused omniwrench has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 
 | Unbreaking level | No energy use chance |
-|---
+|---|---|
 | I | 33% |
 | II | 50% |
 | III | 60% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 A flux-infused omniwrench can also be enchanted with [Holding](../../cofh-core/holding/) to
 increase its energy capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

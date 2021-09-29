@@ -9,7 +9,7 @@ subjects:
 title: Thermal Mediator
 ---
 
-![Thermal mediator](/images/docs/1.12/thermal-expansion/thermal-mediator.png){:style="height: 128px"}
+![Thermal mediator](/images/docs/1.12/thermal-expansion/thermal-mediator.png)
 
 
 A **thermal mediator** (also known as a **heat sink**) is a

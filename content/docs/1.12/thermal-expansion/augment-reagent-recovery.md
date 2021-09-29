@@ -39,10 +39,8 @@ imbuer](../alchemical-imbuer/) to not consume a reagent
 operation. However, they also increase the amount of energy required per
 operation.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Installed amount | Reagent reuse chance | Energy increase |
-|---
+|---|---|---|
 | 1 | 15% | + 15% |
 | 2 | 30% | + 30% |
 | 3 | 45% | + 45% |
@@ -52,9 +50,7 @@ operation.
 | 7 | 95% | + 105% |
 | 8 | 95% | + 120% |
 | 9 | 95% | + 135% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
 
 If reagent recovery augments are installed together with other augments that
 increase the amount of energy required per operation, their energy increase

@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-tool-pickaxe-constantan
 ---
 
-![Pickaxes](/images/docs/1.12/thermal-foundation/pickaxes.gif){:style="height: 128px"}
+![Pickaxes](/images/docs/1.12/thermal-foundation/pickaxes.gif)
 
 
 **[Pickaxes](https://minecraft.gamepedia.com/Pickaxe)** are tools in vanilla
@@ -54,14 +54,14 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Mining speed | Harvest level | Attack speed | Attack damage | Enchantability |
-|---
+|---|---|---|---|---|---|---|
 | Wood | 59 | 2 | 0 | 1.2 | 2 | 15 |
 | Stone | 131 | 4 | 1 | 1.2 | 3 | 5 |
 | Iron | 250 | 6 | 2 | 1.2 | 4 | 14 |
@@ -80,9 +80,9 @@ uses = mat.maxUses
 | Invar | 425 | 6.5 | 2 | 1.2 | 5.5 | 12 |
 | Bronze | 325 | 6 | 2 | 1.2 | 5 | 10 |
 | Constantan | 275 | 6 | 2 | 1.2 | 4.5 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

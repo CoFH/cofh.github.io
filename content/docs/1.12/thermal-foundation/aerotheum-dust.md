@@ -20,7 +20,7 @@ usage-recipes:
   - aerotheum
 ---
 
-![Aerotheum dust](/images/docs/1.12/thermal-foundation/dust-aerotheum.gif){:style="height: 128px"}
+![Aerotheum dust](/images/docs/1.12/thermal-foundation/dust-aerotheum.gif)
 
 
 **Aerotheum dust** is the air elemental dust. It is most commonly used to make
@@ -38,13 +38,13 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{{<recipe_table type="crucible' recipe-ids=page.usage-recipes.crucible">}}
+{{<recipe_table type="crucible" ids_param="usage-recipes.crucible">}}
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Centrifugal Separator ingredient
-{{<recipe_table type="centrifuge' recipe-ids=page.usage-recipes.centrifuge">}}
+{{<recipe_table type="centrifuge" ids_param="usage-recipes.centrifuge">}}
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [tectonic petrotheum](../tectonic-petrotheum/)

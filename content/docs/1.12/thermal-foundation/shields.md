@@ -91,14 +91,14 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses + 275
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Enchantability |
-|---
+|---|---|---|
 | Wood (vanilla) | 336 | 15 |
 |
 | Stone | 406 | 5 |
@@ -118,12 +118,12 @@ uses = mat.maxUses + 275
 | Invar | 700 | 12 |
 | Bronze | 600 | 10 |
 | Constantan | 550 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}

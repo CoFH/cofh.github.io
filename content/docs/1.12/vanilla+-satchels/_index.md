@@ -5,7 +5,7 @@ cascade:
   mods: vanilla+ satchels
 ---
 
-![Vanilla+ Satchels logo](/images/logos/1.12/vanilla-satchels.png){:.cofh-mod-page-logo}
+![Vanilla+ Satchels logo](/images/logos/1.12/vanilla-satchels.png)
 
 
 **Vanilla+ Satchels** is a mod for Minecraft 1.12. It adds [satchels](satchel/):

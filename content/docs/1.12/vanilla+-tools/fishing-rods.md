@@ -41,22 +41,22 @@ The lure and luck modifiers of a fishing rod make it as powerful as a regular
 Sea](https://minecraft.gamepedia.com/Luck_of_the_Sea) at those levels,
 respectively.
 
-{% comment %}
+<!---
 uses = mat.maxUses + 5
 lureModifier = round(mat.efficiency / 3)
 luckModifier = round(mat.harvestLevel / 2)
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Lure modifier | Luck modifier | Enchantability |
-|---
+|---|---|---|---|---|
 | Wood (vanilla) | 65 | 0 | 0 | 1 |
 |
 | Stone | 136 | 1 | 1 | 5 |
 | Iron | 255 | 2 | 1 | 14 |
 | Gold | 37 | 4 | 0 | 22 |
 | Diamond | 1,566 | 3 | 2 | 10 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

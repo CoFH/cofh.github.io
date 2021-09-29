@@ -18,7 +18,7 @@ usage-recipes:
   - tf-1-12-lead-using-tar
 ---
 
-![Tar](/images/docs/1.12/thermal-foundation/tar.png){:style="height: 128px"}
+![Tar](/images/docs/1.12/thermal-foundation/tar.png)
 
 
 **Tar** is a byproduct of processing [oil sand](../oil-sand/) in a
@@ -43,7 +43,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one

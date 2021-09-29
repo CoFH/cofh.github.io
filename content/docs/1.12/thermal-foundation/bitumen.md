@@ -14,7 +14,7 @@ usage-recipes:
   - crude-oil-from-bitumen
 ---
 
-![Bitumen](/images/docs/1.12/thermal-foundation/bitumen.gif){:style="height: 128px"}
+![Bitumen](/images/docs/1.12/thermal-foundation/bitumen.gif)
 
 
 **Bitumen** is a material obtained from [oil sand](../oil-sand/) and [oil
@@ -38,7 +38,7 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{{<recipe_table type="crucible' recipe-ids=page.usage-recipes.crucible">}}
+{{<recipe_table type="crucible" ids_param="usage-recipes.crucible">}}
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one

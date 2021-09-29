@@ -24,7 +24,7 @@ usage-recipes:
   - td-1-12-viaduct-long-range-linking
 ---
 
-![Resonant ender](/images/docs/1.12/thermal-foundation/resonant-ender.gif){:style="height: 128px"}
+![Resonant ender](/images/docs/1.12/thermal-foundation/resonant-ender.gif)
 
 > Wibbly-wobbly, timey-wimey... stuff.
 
@@ -68,10 +68,10 @@ Any item that contains at least one
 [bucket](https://minecraft.gamepedia.com/Bucket) worth of resonant ender may be
 used in these recipes.
 
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 
 Trivia

@@ -15,7 +15,7 @@ Options
 When using this feature type, the following values must be added to the [feature
 type configuration](../../feature-format/#feature-type-configuration).
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -116,7 +116,7 @@ type configuration](../../feature-format/#feature-type-configuration).
             </tr>
         </tbody>
     </table>
-</div>
+
 
 
 Examples

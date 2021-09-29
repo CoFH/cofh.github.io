@@ -17,7 +17,7 @@ subjects:
 title: Energetic Infuser
 ---
 
-![Energetic infuser](/images/docs/1.12/thermal-expansion/energetic-infuser.png){:style="height: 128px"}
+![Energetic infuser](/images/docs/1.12/thermal-expansion/energetic-infuser.png)
 
 > Feel the hum.
 
@@ -132,18 +132,18 @@ Tiers
 
 Energetic infusers come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
+|---|---|---|---|
 | Basic | 40 RF/t | 0 | 16 |
 | Hardened | 60 RF/t | 1 | 16 |
 | Reinforced | 80 RF/t | 2 | 28 |
 | Signalum | 100 RF/t | 3 | 44 |
 | Resonant | 120 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -165,4 +165,4 @@ Recipes
 An energetic infuser can process the following items that do not hold [Redstone
 Flux](/docs/redstone-flux/) into different items.
 
-{{<recipe_table type="charger' recipe-ids=page.recipe-list">}}
+{{<recipe_table type="charger" ids_param="recipe-list">}}

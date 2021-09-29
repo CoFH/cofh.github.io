@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-armor-helmet-constantan
 ---
 
-![Helmets](/images/docs/1.12/thermal-foundation/helmets.gif){:style="height: 128px"}
+![Helmets](/images/docs/1.12/thermal-foundation/helmets.gif)
 
 
 **[Helmets](https://minecraft.gamepedia.com/Helmet)** are a type of
@@ -55,15 +55,15 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 durability = mat.durability * 11
 defense = mat.reductionAmounts[3]
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Durability | Defense | Toughness | Enchantability |
-|---
+|---|---|---|---|---|
 | Leather | 55 | 1 | | 15 |
 | Chain | 165 | 2 | | 12 |
 | Iron | 165 | 2 | | 9 |
@@ -82,9 +82,9 @@ defense = mat.reductionAmounts[3]
 | Invar | 231 | 2 | 1 | 12 |
 | Bronze | 198 | 2 | 1 | 10 |
 | Constantan | 143 | 2 | | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

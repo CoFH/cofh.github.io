@@ -50,16 +50,12 @@ An installed boiler conversion increases the maximum power output of a dynamo,
 and changes the amount of energy it would generate from each unit of fuel. This
 differs depending on the type of dynamo.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Dynamo | Max. power output modifier | Energy modifier | Note |
-|---
+|---|---|---|---|
 | [Steam Dynamo](../steam-dynamo/) | × 4 | + 15% |
 | [Magmatic Dynamo](../magmatic-dynamo/) | × 2 | - 40% |
 | [Compression Dynamo](../compression-dynamo/) | × 2 | - 40% | Coolant fuel efficiency bonus is removed. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
 
 If a boiler conversion is installed together with other augments that affect the
 amount of energy generated from each unit of fuel, their energy

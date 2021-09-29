@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-armor-boots-constantan
 ---
 
-![Boots](/images/docs/1.12/thermal-foundation/boots.gif){:style="height: 128px"}
+![Boots](/images/docs/1.12/thermal-foundation/boots.gif)
 
 
 **[Boots](https://minecraft.gamepedia.com/Boots)** are a type of
@@ -55,15 +55,15 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 durability = mat.durability * 13
 defense = mat.reductionAmounts[0]
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Durability | Defense | Toughness | Enchantability |
-|---
+|---|---|---|---|---|
 | Leather | 65 | 1 | | 15 |
 | Chain | 195 | 1 | | 12 |
 | Iron | 195 | 2 | | 9 |
@@ -82,9 +82,9 @@ defense = mat.reductionAmounts[0]
 | Invar | 273 | 2 | 1 | 12 |
 | Bronze | 234 | 2 | 1 | 10 |
 | Constantan | 169 | 2 | | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

@@ -29,7 +29,7 @@ subjects:
 title: Centrifugal Separator
 ---
 
-![Centrifugal separator](/images/docs/1.12/thermal-expansion/centrifugal-separator.png){:style="height: 128px"}
+![Centrifugal separator](/images/docs/1.12/thermal-expansion/centrifugal-separator.png)
 
 > Spin to win!
 
@@ -130,18 +130,18 @@ Tiers
 
 Centrifugal separators come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer |
-|---
+|---|---|---|---|---|
 | Basic | 20 RF/t | 0 | 16 | 1,000 mB |
 | Hardened | 30 RF/t | 1 | 16 | 1,000 mB |
 | Reinforced | 40 RF/t | 2 | 28 | 3,000 mB |
 | Signalum | 50 RF/t | 3 | 44 | 6,000 mB |
 | Resonant | 60 RF/t | 4 | 64 | 10,000 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -160,4 +160,4 @@ Augments can be installed in the Augmentation tab in a centrifuge's GUI.
 Recipes
 -------
 
-{{<recipe_table type="centrifuge' recipe-ids=page.recipe-list">}}
+{{<recipe_table type="centrifuge" ids_param="recipe-list">}}

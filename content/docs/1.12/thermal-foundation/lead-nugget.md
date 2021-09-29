@@ -20,7 +20,7 @@ usage-recipes:
   - td-1-12-itemduct-energy-fast-dense
 ---
 
-![Lead nugget](/images/docs/1.12/thermal-foundation/nugget-lead.png){:style="height: 128px"}
+![Lead nugget](/images/docs/1.12/thermal-foundation/nugget-lead.png)
 
 
 **Lead nuggets** are raw materials. They are the nugget form of
@@ -38,5 +38,5 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}

@@ -5,7 +5,7 @@ cascade:
   mods: thermal foundation
 ---
 
-![Thermal Foundation logo](/images/logos/1.12/thermal-foundation.png){:.cofh-mod-page-logo}
+![Thermal Foundation logo](/images/logos/1.12/thermal-foundation.png)
 
 
 **Thermal Foundation** is a mod for Minecraft 1.12. It adds basic materials and

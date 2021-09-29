@@ -35,10 +35,8 @@ effects.
 Installed fuel catalyzers increase the amount of energy a
 [dynamo](../dynamos/) generates from each unit of fuel.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Installed amount | Energy increase |
-|---
+|---|---|
 | 1 | + 15% |
 | 2 | + 30% |
 | 3 | + 45% |
@@ -48,9 +46,7 @@ Installed fuel catalyzers increase the amount of energy a
 | 7 | + 105% |
 | 8 | + 120% |
 | 9 | + 135% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
 
 If fuel catalyzers are installed together with other augments that affect the
 amount of energy generated from each unit of fuel, their energy

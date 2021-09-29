@@ -46,14 +46,10 @@ Refining a fluid potion requires 2,500 RF per operation. The amount of fluid
 consumed and produced per operation differs depending on the potency level of
 the potion that is being refined.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Level increase | Input amount | Output amount |
-|---
+|---|---|---|
 | II to III | 250 mB | 200 mB |
 | III to IV | 200 mB | 150 mB |
 | I to II (extended) | 250 mB | 200 mB |
 | II to III (extended) | 200 mB | 150 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+

@@ -15,7 +15,7 @@ Features
 
 Features are described as objects with the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -110,14 +110,14 @@ Features are described as objects with the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 ### Feature type configuration
 A feature type configuration specifies and configures the type of feature to
 generate. It is an object with the following values. The used [feature
 type](../feature-types/) may require additional values to be added.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -165,13 +165,13 @@ type](../feature-types/) may require additional values to be added.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 ### Biome restriction
 A biome restriction specifies the biomes in which a feature may or may not be
 generated. It is an object with the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -197,12 +197,12 @@ generated. It is an object with the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 A biome entry describes a way to match one or more biomes. It is an object with
 the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -272,7 +272,7 @@ the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 A biome entry may also be specified as a single string. In this case, it
 specifies a single biome by its ID.
@@ -281,7 +281,7 @@ specifies a single biome by its ID.
 A dimension restriction specifies the dimensions in which a feature may or may
 not be generated. It is an object with the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -311,7 +311,7 @@ not be generated. It is an object with the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 
 Examples

@@ -46,10 +46,8 @@ secondaryChance = 100 - amount * 15   (minimum is 5)
 multiplier = 100 / secondaryChance
 -->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Installed amount | Chance multiplier | Energy increase |
-|---
+|---|---|---|
 | 1 | × 1.18 | + 10% |
 | 2 | × 1.43 | + 20% |
 | 3 | × 1.82 | + 30% |
@@ -59,9 +57,6 @@ multiplier = 100 / secondaryChance
 | 7 | × 20 | + 70% |
 | 8 | × 20 | + 80% |
 | 9 | × 20 | + 90% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
 
 For example, if a machine is processing something that has a 35% chance of
 producing a secondary product, and two auxiliary sieves are installed, the

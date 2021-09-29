@@ -20,7 +20,7 @@ usage-recipes:
   - recycling-gear-tin
 ---
 
-![Tin gear](/images/docs/1.12/thermal-foundation/gear-tin.png){:style="height: 128px"}
+![Tin gear](/images/docs/1.12/thermal-foundation/gear-tin.png)
 
 
 **Tin gears** are crafting materials made of [tin](../tin-ingot/).
@@ -40,7 +40,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

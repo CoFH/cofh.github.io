@@ -45,7 +45,7 @@ usage-recipes:
   - ore-processing-rich-slag-mithril
 ---
 
-![Rich slag](/images/docs/1.12/thermal-foundation/slag-rich.png){:style="height: 128px"}
+![Rich slag](/images/docs/1.12/thermal-foundation/slag-rich.png)
 
 
 **Rich slag** is a material obtained as a byproduct from [induction
@@ -65,11 +65,11 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 
 Trivia

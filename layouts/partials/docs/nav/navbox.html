@@ -10,34 +10,36 @@
   {{- $main_docs := index $mod_docs "main" -}}
   {{- $grouped_docs := index $mod_docs "grouped" -}}
   
-  <table class="nav-table">
-    <thead>
-      <tr>
-        <th colspan=2>
-          {{- $mod_main := partial "util/map_get" (dict "data" $main_docs "keys" (slice "" "")) -}}
-          {{- with $mod_main -}}<a href="{{.RelPermalink}}">{{- end -}}
-            {{- if or $mod $version -}}
-              {{- if $mod -}}
-                {{- title $mod -}}
+  {{- if $grouped_docs -}}
+    <table class="nav-table">
+      <thead>
+        <tr>
+          <th colspan=2>
+            {{- $mod_main := partial "util/map_get" (dict "data" $main_docs "keys" (slice "" "")) -}}
+            {{- with $mod_main -}}<a href="{{.RelPermalink}}">{{- end -}}
+              {{- if or $mod $version -}}
+                {{- if $mod -}}
+                  {{- title $mod -}}
+                {{- else -}}
+                  {{- "Minecraft" -}}
+                {{- end }} {{ $version -}}
               {{- else -}}
-                {{- "Minecraft" -}}
-              {{- end }} {{ $version -}}
-            {{- else -}}
-              {{- "General Docs" -}}
-            {{- end -}}
-          {{- with $mod_main -}}</a>{{- end -}}
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      {{- partial "navbox_category" (dict "category" "" "docs" (index $grouped_docs "") "main" (index $main_docs "")) -}}
-      {{- range $category, $docs := $grouped_docs -}}
-        {{- if $category -}}
-          {{ partial "navbox_category" (dict "category" $category "docs" $docs "main" (index $main_docs $category)) }}
+                {{- "General Docs" -}}
+              {{- end -}}
+            {{- with $mod_main -}}</a>{{- end -}}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- partial "navbox_category" (dict "category" "" "docs" (index $grouped_docs "") "main" (index $main_docs "")) -}}
+        {{- range $category, $docs := $grouped_docs -}}
+          {{- if $category -}}
+            {{ partial "navbox_category" (dict "category" $category "docs" $docs "main" (index $main_docs $category)) }}
+          {{- end -}}
         {{- end -}}
-      {{- end -}}
-    </tbody>
-  </table>
+      </tbody>
+    </table>
+  {{- end -}}
 {{- end -}}
 
 {{- define "partials/navbox_category" -}}

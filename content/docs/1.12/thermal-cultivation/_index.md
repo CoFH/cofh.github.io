@@ -5,7 +5,7 @@ cascade:
   mods: thermal cultivation
 ---
 
-![Thermal Cultivation logo](/images/logos/1.12/thermal-cultivation.png){:.cofh-mod-page-logo}
+![Thermal Cultivation logo](/images/logos/1.12/thermal-cultivation.png)
 
 
 **Thermal Cultivation** is a mod for Minecraft 1.12. It adds tools that assist

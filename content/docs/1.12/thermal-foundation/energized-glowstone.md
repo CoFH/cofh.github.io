@@ -26,7 +26,7 @@ usage-recipes:
   - td-1-12-itemduct-energy-fast
 ---
 
-![Energized glowstone](/images/docs/1.12/thermal-foundation/energized-glowstone.gif){:style="height: 128px"}
+![Energized glowstone](/images/docs/1.12/thermal-foundation/energized-glowstone.gif)
 
 > So that's how those formations occur! It all makes nonsense now!
 
@@ -90,10 +90,10 @@ Any item that contains at least one
 [bucket](https://minecraft.gamepedia.com/Bucket) worth of energized glowstone
 may be used in these recipes.
 
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Reactant Dynamo fuel
 Energized glowstone can be used with

@@ -109,18 +109,18 @@ Tiers
 
 Enervation dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power output | Augment slots |
-|---
+|---|---|---|
 | Basic | 40 RF/t | 0 |
 | Hardened | 60 RF/t | 1 |
 | Reinforced | 80 RF/t | 2 |
 | Signalum | 100 RF/t | 3 |
 | Resonant / Creative | 120 RF/t | 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -143,7 +143,7 @@ The following items can be consumed by an enervation dynamo to generate varying
 amounts of energy.
 
 | Fuel | Energy per unit |
-|---
+|---|---|
 | [Redstone](https://minecraft.gamepedia.com/Redstone) | 64,000 RF |
 | [Block of Redstone](https://minecraft.gamepedia.com/Block_of_Redstone) | 640,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

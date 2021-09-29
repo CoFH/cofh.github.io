@@ -10,7 +10,7 @@ subjects:
 title: Enderium Coin
 ---
 
-![Enderium coin](/images/docs/1.12/thermal-foundation/coin-enderium.png){:style="height: 128px"}
+![Enderium coin](/images/docs/1.12/thermal-foundation/coin-enderium.png)
 
 
 **Enderium coins** are materials made of [enderium](../enderium-ingot/) that

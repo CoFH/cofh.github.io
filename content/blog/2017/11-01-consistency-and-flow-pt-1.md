@@ -41,7 +41,7 @@ Adding inheritance to the mix means that I can skip a LOT of effort duplicating.
 For example, an Induction Smelter and a Pulverizer actually have the *exact same
 tick process*. Here it is:
 
-![Update - Machine](/images/posts/2017-11-01-consistency-and-flow-pt-1/update_machine.png){:style="max-height: 620px"}
+![Update - Machine](/images/posts/2017-11-01-consistency-and-flow-pt-1/update_machine.png)
 
 In fact, everything in Thermal Expansion which is a "machine" works this way.
 What inheritance lets me do is add a twist or extra tiny bit of functionality
@@ -54,7 +54,7 @@ problems in smaller terms. Divide and conquer.
 
 With that rationale in mind, here's the update routine for the Fluid Transposer:
 
-![Update - Transposer](/images/posts/2017-11-01-consistency-and-flow-pt-1/update_transposer.png){:style="max-height: 210px"}
+![Update - Transposer](/images/posts/2017-11-01-consistency-and-flow-pt-1/update_transposer.png)
 
 And basically, that translates into, "If you have a bucket/tank or something of
 that nature, do X. If not, do Y." It just so happens that Y is the exact same
@@ -143,9 +143,9 @@ I call *Flow* in Part 2 next week. Consistency tends to be a prerequisite, but
 not always, and there can be a beautiful interplay between the two. In any case,
 thanks for reading. :)
 
-![Recipe - Brewer](/images/posts/2017-11-01-consistency-and-flow-pt-1/recipe_brewer.png){:style="max-height: 124px"}
+![Recipe - Brewer](/images/posts/2017-11-01-consistency-and-flow-pt-1/recipe_brewer.png)
 
-![Recipe - Enchanter](/images/posts/2017-11-01-consistency-and-flow-pt-1/recipe_enchanter.png){:style="max-height: 124px"}
+![Recipe - Enchanter](/images/posts/2017-11-01-consistency-and-flow-pt-1/recipe_enchanter.png)
 
 ---
 

@@ -49,10 +49,8 @@ modifiedChance = 100 - amount * 15 - 30   (minimum is 5)
 multiplier = 100 / modifiedChance
 -->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Installed auxiliary sieves | Chance multiplier |
-|---
+|---|---|
 | 0 | × 1.43 |
 | 1 | × 1.82 |
 | 2 | × 2.5 |
@@ -63,9 +61,7 @@ multiplier = 100 / modifiedChance
 | 7 | × 20 |
 | 8 | × 20 |
 | 9 | × 20 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
 
 If a pyro-concentrator is installed together with other augments that increase
 the amount of energy required per operation, their energy increase percentages

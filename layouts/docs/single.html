@@ -17,8 +17,8 @@
     </div>
   {{- end -}}
   <article>
-    {{/* TODO %- include docs/image.html -%*/}}
     {{- $version := (string (default "" .Params.version)) -}}
+    {{partial "docs/image" (dict "Page" . "version" $version)}}
     
     {{ .Content }}
   </article>

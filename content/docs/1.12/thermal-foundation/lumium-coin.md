@@ -10,7 +10,7 @@ subjects:
 title: Lumium Coin
 ---
 
-![Lumium coin](/images/docs/1.12/thermal-foundation/coin-lumium.png){:style="height: 128px"}
+![Lumium coin](/images/docs/1.12/thermal-foundation/coin-lumium.png)
 
 
 **Lumium coins** are materials made of [lumium](../lumium-ingot/) that can be

@@ -1,4 +1,5 @@
-{{/* Takes a page and a key for which parameter to get. Returns the param value. Useful for shortcodes. */}}
+{{/* Takes data and a path for which parameter to get. Returns the param value. Useful for shortcodes. */}}
+{{/* This is really just a wrapper for map_get, so I've tried merging them. This resulted in some weirdly cursed behavior that I couldn't debug, so here we are. */}}
 
 {{ $value := partialCached "util/nil" . }}
 {{ if .path }}
@@ -6,6 +7,6 @@
   {{ range split .path "." }}
     {{ $keys = $keys | append (replace . "," ".") }}
   {{ end }}
-  {{ $value = (partial "util/map_get" (dict "data" .Page "keys" $keys)) }}
+  {{ $value = (partial "util/map_get" (dict "data" .data "keys" $keys)) }}
 {{ end }}
 {{ return $value }}

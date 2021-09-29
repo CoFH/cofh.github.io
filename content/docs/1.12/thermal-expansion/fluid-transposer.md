@@ -53,7 +53,7 @@ subjects:
 title: Fluid Transposer
 ---
 
-![Fluid transposer](/images/docs/1.12/thermal-expansion/fluid-transposer.png){:style="height: 128px"}
+![Fluid transposer](/images/docs/1.12/thermal-expansion/fluid-transposer.png)
 
 > Filling buckets by hand is hard work.
 
@@ -159,18 +159,18 @@ Tiers
 
 Fluid transposers come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer |
-|---
+|---|---|---|---|---|
 | Basic | 20 RF/t | 0 | 16 | 1,000 mB |
 | Hardened | 30 RF/t | 1 | 16 | 1,000 mB |
 | Reinforced | 40 RF/t | 2 | 28 | 3,000 mB |
 | Signalum | 50 RF/t | 3 | 44 | 6,000 mB |
 | Resonant | 60 RF/t | 4 | 64 | 10,000 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -200,7 +200,7 @@ Recipes
   [lingering potion](https://minecraft.gamepedia.com/Lingering_Potion) for 400
   RF.
 
-{{<recipe_table type="transposer-fill' recipe-ids=page.recipe-list.fill">}}
+{{<recipe_table type="transposer-fill" ids_param="recipe-list.fill">}}
 
 ### Emptying
 * 1,000 mB of fluid can be drained from items that hold fluids such as filled
@@ -208,4 +208,4 @@ Recipes
 * 250 mB of a [fluid potion](../../thermal-foundation/potion-fluid/) can be drained from a
   [potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
 
-{{<recipe_table type="transposer-empty' recipe-ids=page.recipe-list.empty">}}
+{{<recipe_table type="transposer-empty" ids_param="recipe-list.empty">}}

@@ -110,15 +110,11 @@ Tiers
 
 Filters come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Tier | Filter slots | Item filter options | Max. total stored items limit |
-|---
+|---|---|---|---|
 | Basic | 3 | Blacklist/Whitelist | - |
 | Hardened | 6 | Blacklist/Whitelist, Metadata | - |
 | Reinforced | 9 | All | 64 |
 | Signalum | 12 | All | 128 |
 | Resonant | 15 | All | 320 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+

@@ -10,7 +10,7 @@ subjects:
 title: Iron Coin
 ---
 
-![Iron coin](/images/docs/1.12/thermal-foundation/coin-iron.png){:style="height: 128px"}
+![Iron coin](/images/docs/1.12/thermal-foundation/coin-iron.png)
 
 
 **Iron coins** are materials made of

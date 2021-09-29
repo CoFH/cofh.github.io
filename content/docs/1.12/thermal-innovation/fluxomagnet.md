@@ -98,12 +98,12 @@ A fluxomagnet can be enchanted with [Holding](../../cofh-core/holding/) to incre
 capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Tiers
@@ -111,16 +111,16 @@ Tiers
 
 Fluxomagnets come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Capacity | Max. charge rate | Radius | Filter slots | Note |
-|---
+|---|---|---|---|---|---|
 | Basic | 40,000 RF | 1,000 RF/t | 4 blocks | 3 |
 | Hardened | 120,000 RF | 4,000 RF/t | 5 blocks | 6 |
 | Reinforced | 240,000 RF | 9,000 RF/t | 6 blocks | 9 |
 | Signalum | 400,000 RF | 16,000 RF/t | 7 blocks | 12 |
 | Resonant | 600,000 RF | 25,000 RF/t | 8 blocks | 15 |
 | Creative | N/A | N/A | 8 blocks | 15 | Does not consume energy. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

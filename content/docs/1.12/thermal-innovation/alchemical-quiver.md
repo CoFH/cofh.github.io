@@ -87,12 +87,12 @@ An alchemical quiver can be enchanted with [Holding](../../cofh-core/holding/) t
 its arrow and potion capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Tiers
@@ -100,16 +100,16 @@ Tiers
 
 Alchemical quivers come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Arrow capacity | Potion capacity | (bottles) | Note |
-|---
+|---|---|---|---|---|
 | Basic | 40 | 2,000 mB | 8 |
 | Hardened | 120 | 6,000 mB | 24 |
 | Reinforced | 240 | 12,000 mB | 48 |
 | Signalum | 400 | 20,000 mB | 80 |
 | Resonant | 600 | 30,000 mB | 120 |
 | Creative | N/A | N/A | | Provides infinite arrows and an unlimited amount of the potion it holds. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small}
-</div>
-{::options parse_block_html="false" /}
+
+
+

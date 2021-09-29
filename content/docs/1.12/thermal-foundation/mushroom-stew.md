@@ -15,7 +15,7 @@ usage-recipes:
   - mushroom-stew
 ---
 
-![Mushroom stew](/images/docs/1.12/thermal-foundation/mushroom-stew.gif){:style="height: 128px"}
+![Mushroom stew](/images/docs/1.12/thermal-foundation/mushroom-stew.gif)
 
 
 **Mushroom stew** is the fluid form of the [item of the same
@@ -40,4 +40,4 @@ Usage
 Mushroom stew cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}

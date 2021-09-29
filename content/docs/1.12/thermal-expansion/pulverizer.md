@@ -127,7 +127,7 @@ subjects:
 title: Pulverizer
 ---
 
-![Pulverizer](/images/docs/1.12/thermal-expansion/pulverizer.png){:style="height: 128px"}
+![Pulverizer](/images/docs/1.12/thermal-expansion/pulverizer.png)
 
 > MACHINE SMASH! Puny ore.
 
@@ -232,18 +232,18 @@ Tiers
 
 Pulverizers come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
+|---|---|---|---|
 | Basic | 20 RF/t | 0 | 16 |
 | Hardened | 30 RF/t | 1 | 16 |
 | Reinforced | 40 RF/t | 2 | 28 |
 | Signalum | 50 RF/t | 3 | 44 |
 | Resonant | 60 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -263,16 +263,16 @@ Recipes
 -------
 
 ### Blocks
-{{<recipe_table type="pulverizer' recipe-ids=page.recipe-list.blocks">}}
+{{<recipe_table type="pulverizer" ids_param="recipe-list.blocks">}}
 
 ### Items
-{{<recipe_table type="pulverizer' recipe-ids=page.recipe-list.items">}}
+{{<recipe_table type="pulverizer" ids_param="recipe-list.items">}}
 
 ### Ore processing
-{{<recipe_table type="pulverizer' recipe-ids=page.recipe-list.ore-processing">}}
+{{<recipe_table type="pulverizer" ids_param="recipe-list.ore-processing">}}
 
 ### Flower processing
-{{<recipe_table type="pulverizer' recipe-ids=page.recipe-list.flower-processing">}}
+{{<recipe_table type="pulverizer" ids_param="recipe-list.flower-processing">}}
 
 ### Recycling
-{{<recipe_table type="pulverizer' recipe-ids=page.recipe-list.recycling">}}
+{{<recipe_table type="pulverizer" ids_param="recipe-list.recycling">}}

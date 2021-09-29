@@ -18,7 +18,7 @@ usage-recipes:
   - ingot-steel-from-ingot-iron-and-dust-charcoal
 ---
 
-![Pulverized charcoal](/images/docs/1.12/thermal-foundation/dust-charcoal.png){:style="height: 128px"}
+![Pulverized charcoal](/images/docs/1.12/thermal-foundation/dust-charcoal.png)
 
 
 **Pulverized charcoal** is a raw material. It is the dust form of
@@ -36,10 +36,10 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Steam Dynamo fuel
 When used as fuel in a [steam dynamo](../../thermal-expansion/steam-dynamo/),

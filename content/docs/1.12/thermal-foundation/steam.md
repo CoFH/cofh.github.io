@@ -13,7 +13,7 @@ usage-recipes:
   - bucket-steam
 ---
 
-![Steam](/images/docs/1.12/thermal-foundation/steam.gif){:style="height: 128px"}
+![Steam](/images/docs/1.12/thermal-foundation/steam.gif)
 
 
 **Steam** is a fluid used by [steam dynamos](../../thermal-expansion/steam-dynamo/) with a
@@ -41,7 +41,7 @@ Usage
 Steam cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Steam Dynamo with Turbine Conversion
 A [steam dynamo](../../thermal-expansion/steam-dynamo/) with a [turbine

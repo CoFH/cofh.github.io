@@ -168,29 +168,3 @@
   width: 20px;
   height: 100%;
 }
-
-.multiblock-buttons {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 5px;
-}
-
-.multiblock-buttons button {
-  color: var(--contrast-bg-color);
-  cursor: pointer;
-  background-color: var(--bg-color-1);
-  border: 0px;
-  transition: none;
-}
-
-.multiblock-buttons button:focus {
-  outline: 1px solid var(--contrast-bg-color);
-}
-
-.multiblock-buttons button:is(.multiblock-button-active, :hover) {
-  background-color: var(--bg-color-3);
-}
-
-.multiblock-transparent {
-  opacity: 0.15;
-}

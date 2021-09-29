@@ -101,14 +101,14 @@ possible. This can be temporarily disabled by sneaking.
 Excavators use 1 durability for every individual block broken.
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses * 2
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Mining speed | Attack speed | Attack damage | Enchantability |
-|---
+|---|---|---|---|---|---|
 | Wood | 118 | 2 | 1 | 2 | 15 |
 | Stone | 262 | 4 | 1 | 3 | 5 |
 | Iron | 500 | 6 | 1 | 4 | 14 |
@@ -127,16 +127,16 @@ uses = mat.maxUses * 2
 | Invar | 850 | 6.5 | 1 | 4.5 | 12 |
 | Bronze | 650 | 6 | 1 | 4 | 10 |
 | Constantan | 550 | 6 | 1 | 3.5 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Enchantments
 Excavators can receive the same enchantments that
 [shovels](https://minecraft.gamepedia.com/Shovel) can.
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}

@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-platinum
 ---
 
-![Platinum plate](/images/docs/1.12/thermal-foundation/plate-platinum.png){:style="height: 128px"}
+![Platinum plate](/images/docs/1.12/thermal-foundation/plate-platinum.png)
 
 
 **Platinum plates** are crafting materials made of
@@ -31,4 +31,4 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

@@ -45,7 +45,7 @@ usage-recipes:
   - recycling-tool-sickle-constantan
 ---
 
-![Sickles](/images/docs/1.12/thermal-foundation/sickles.gif){:style="height: 128px"}
+![Sickles](/images/docs/1.12/thermal-foundation/sickles.gif)
 
 
 **Sickles** are tools that can be used to break large amounts of plant-like
@@ -70,14 +70,14 @@ breaks only one block at a time.
 Sickles use 1 durability for every individual block broken.
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses * 4
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Attack speed | Attack damage | Enchantability |
-|---
+|---|---|---|---|---|
 | Wood | 236 | 1.4 | 3.5 | 15 |
 | Stone | 524 | 1.4 | 4.5 | 5 |
 | Iron | 1,000 | 1.4 | 5.5 | 14 |
@@ -96,9 +96,9 @@ uses = mat.maxUses * 4
 | Invar | 1,700 | 1.4 | 6 | 12 |
 | Bronze | 1,300 | 1.4 | 5.5 | 10 |
 | Constantan | 1,100 | 1.4 | 5 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Enchantments
 Sickles can be enchanted with the following
@@ -115,7 +115,7 @@ Sickles can be enchanted with the following
 * [Soulbound](../../cofh-core/soulbound/)
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}

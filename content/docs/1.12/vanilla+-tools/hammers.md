@@ -44,22 +44,22 @@ well if possible. This can be temporarily disabled by sneaking.
 Hammers use 1 durability for every individual block mined.
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses * 2
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Mining speed | Harvest level | Attack speed | Attack damage | Enchantability |
-|---
+|---|---|---|---|---|---|---|
 | Wood | 118 | 2 | 0 | 0.6 | 8 | 15 |
 | Stone | 262 | 4 | 1 | 0.6 | 11 | 5 |
 | Iron | 500 | 6 | 2 | 0.7 | 11 | 14 |
 | Gold | 64 | 12 | 0 | 0.8 | 8 | 22 |
 | Diamond | 3,122 | 8 | 3 | 0.8 | 11 | 10 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Enchantments
 Hammers can receive the same enchantments that

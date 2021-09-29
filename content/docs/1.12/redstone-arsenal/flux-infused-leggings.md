@@ -54,19 +54,19 @@ flux-infused leggings have a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when absorbing damage.
 
 | Unbreaking level | No energy use chance |
-|---
+|---|---|
 | I | 40% |
 | II | 50% |
 | III | 57% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 Flux-infused leggings can also be enchanted with [Holding](../../cofh-core/holding/) to
 increase their energy capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

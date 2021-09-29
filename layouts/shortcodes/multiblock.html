@@ -7,9 +7,9 @@
  
 {{- $data := dict -}}
 {{- if $path := (.Get "data_path") -}}
-  {{- $data = partial "util/path_get" (dict "Page" .Site.Data "path" $path) -}}
+  {{- $data = partial "util/path_get" (dict "data" .Site.Data "path" $path) -}}
 {{- else if $path := (.Get "data_param") -}}
-  {{- $data = partial "util/path_get" (dict "Page" .Page "path" $path) -}}
+  {{- $data = partial "util/path_get" (dict "data" .Page "path" $path) -}}
 {{- end -}}
 
 {{- $pattern := slice -}}
@@ -19,14 +19,14 @@
   {{- $mapping = index $data "mapping" -}}
 {{- else -}}
   {{- if $patt_path := (.Get "pattern_path") -}}
-    {{- $pattern = partial "util/path_get" (dict "Page" .Site.Data "path" $patt_path) -}}
+    {{- $pattern = partial "util/path_get" (dict "data" .Site.Data "path" $patt_path) -}}
   {{- else if $patt_path := (.Get "pattern_param") -}}
-    {{- $pattern = partial "util/path_get" (dict "Page" .Page "path" $patt_path) -}}
+    {{- $pattern = partial "util/path_get" (dict "data" .Page "path" $patt_path) -}}
   {{- end -}}
   {{- if $map_path := (.Get "mapping_path") -}}
-    {{- $mapping = partial "util/path_get" (dict "Page" .Site.Data "path" $map_path) -}}
+    {{- $mapping = partial "util/path_get" (dict "data" .Site.Data "path" $map_path) -}}
   {{- else if $map_path := (.Get "mapping_param") -}}
-    {{- $mapping = partial "util/path_get" (dict "Page" .Page "path" $map_path) -}}
+    {{- $mapping = partial "util/path_get" (dict "data" .Page "path" $map_path) -}}
   {{- end -}}
 {{- end -}}
 

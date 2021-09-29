@@ -18,7 +18,7 @@ usage-recipes:
   - recycling-plate-lead
 ---
 
-![Lead plate](/images/docs/1.12/thermal-foundation/plate-lead.png){:style="height: 128px"}
+![Lead plate](/images/docs/1.12/thermal-foundation/plate-lead.png)
 
 
 **Lead plates** are crafting materials made of [lead](../lead-ingot/).
@@ -35,7 +35,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

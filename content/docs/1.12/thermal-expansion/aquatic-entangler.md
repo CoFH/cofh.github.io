@@ -9,7 +9,7 @@ subjects:
 title: Aquatic Entangler
 ---
 
-![Aquatic entangler](/images/docs/1.12/thermal-expansion/aquatic-entangler.png){:style="height: 128px"}
+![Aquatic entangler](/images/docs/1.12/thermal-expansion/aquatic-entangler.png)
 
 > Hang up your fishing rod.
 
@@ -46,7 +46,7 @@ An active aquatic entangler catches one fish every 7,200 ticks (6 minutes) by
 default. This speed can be increased by various factors.
 
 | Factor | Speed multiplier |
-|---
+|---|---|
 | Placed in a [river](https://minecraft.gamepedia.com/River) | × 2 |
 | Placed in an [ocean](https://minecraft.gamepedia.com/Ocean) | × 3 |
 | Surrounded by 10-20 water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | × 2 |
@@ -54,18 +54,18 @@ default. This speed can be increased by various factors.
 | Surrounded by 20-30 water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | × 3 |
 | Surrounded by 30 or more water blocks | × 3 |
 | Surrounded by 30 or more water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | × 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 The amount of fish an aquatic entangler catches per cycle can be increased by
 placing bait items in its bait slot. Bait will boost the amount of fish caught
 for 8 cycles per item.
 
 | Bait type | Production multiplier |
-|---
+|---|---|
 | [Aqua-Chow](../../thermal-foundation/aqua-chow/) | × 2 |
 | [Rich Aqua-Chow](../../thermal-foundation/rich-aqua-chow/) | × 3 |
 | [Fluxed Aqua-Chow](../../thermal-foundation/fluxed-aqua-chow/) | × 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 ### Input and output
 Items can enter and exit an aquatic entangler through its sides. Every side of
@@ -119,9 +119,9 @@ An aquatic entangler can catch various kinds of
 weight are more likely to be caught.
 
 | Product | Weight |
-|---
+|---|---|
 | [Raw Fish](https://minecraft.gamepedia.com/Raw_Fish) | 120 |
 | [Raw Salmon](https://minecraft.gamepedia.com/Raw_Salmon) | 50 |
 | [Clownfish](https://minecraft.gamepedia.com/Clownfish) | 4 |
 | [Pufferfish](https://minecraft.gamepedia.com/Pufferfish) | 26 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

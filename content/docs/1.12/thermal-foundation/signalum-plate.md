@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-signalum
 ---
 
-![Signalum plate](/images/docs/1.12/thermal-foundation/plate-signalum.png){:style="height: 128px"}
+![Signalum plate](/images/docs/1.12/thermal-foundation/plate-signalum.png)
 
 
 **Signalum plates** are crafting materials made of
@@ -31,4 +31,4 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

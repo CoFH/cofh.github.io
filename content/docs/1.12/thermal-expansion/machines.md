@@ -48,10 +48,10 @@ Flux](/docs/redstone-flux/). They can be [upgraded](../../thermal-foundation/tie
 List of machines
 ----------------
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Machine | Description |
-|---
+|---|---|
 | [Redstone Furnace](../redstone-furnace/) | [Smelts](https://minecraft.gamepedia.com/Smelting) items, and cooks food very quickly. |
 | [Pulverizer](../pulverizer/) | Crushes items. Can be used to process ores. |
 | [Sawmill](../sawmill/) | Cuts logs into planks and reprocesses wooden things. |
@@ -68,9 +68,9 @@ List of machines
 | [Arcane Ensorcellator](../arcane-ensorcellator/) | Enchants [books](https://minecraft.gamepedia.com/Book) and other arcana. Can produce specific [enchanted books](https://minecraft.gamepedia.com/Enchanted_Book). |
 | [Glacial Precipitator](../glacial-precipitator/) | Freezes fluids into items. |
 | [Igneous Extruder](../igneous-extruder/) | Mixes hot and cold fluids to create items. |
-{:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Machine Frame
@@ -79,4 +79,4 @@ Machine Frame
 All machines are crafted from **machine frames**.
 
 ### Crafting
-{{<recipe_table type="crafting' recipe-ids=page.frame-recipes.crafting">}}
+{{<recipe_table type="crafting" ids_param="frame-recipes.crafting">}}

@@ -84,7 +84,7 @@ usage-recipes:
   - ingot-electrum-from-ingot-gold-and-ingot-silver
 ---
 
-![Silver ingot](/images/docs/1.12/thermal-foundation/ingot-silver.png){:style="height: 128px"}
+![Silver ingot](/images/docs/1.12/thermal-foundation/ingot-silver.png)
 
 
 **Silver ingots** are raw materials obtained from [silver
@@ -109,23 +109,23 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Compactor ingredient
-{{<recipe_table type="compactor' recipe-ids=page.usage-recipes.compactor">}}
+{{<recipe_table type="compactor" ids_param="usage-recipes.compactor">}}
 
 ### Compactor with Numismatic Press ingredient
-{{<recipe_table type="compactor-coin' recipe-ids=page.usage-recipes.compactor-coin">}}
+{{<recipe_table type="compactor-coin" ids_param="usage-recipes.compactor-coin">}}
 
 ### Compactor with Gearworking Die ingredient
-{{<recipe_table type="compactor-gear' recipe-ids=page.usage-recipes.compactor-gear">}}
+{{<recipe_table type="compactor-gear" ids_param="usage-recipes.compactor-gear">}}
 
 
 Trivia

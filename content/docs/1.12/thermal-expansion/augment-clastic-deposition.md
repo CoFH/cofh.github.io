@@ -48,4 +48,4 @@ recipe set consists of producing various types of sedimentary rock.
 Recipes
 -------
 
-{{<recipe_table type="extruder-sedimentary' recipe-ids=page.recipe-list">}}
+{{<recipe_table type="extruder-sedimentary" ids_param="recipe-list">}}

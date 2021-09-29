@@ -1,0 +1,29 @@
+{{- if .version -}}
+  {{- if .Page.Params.image -}}
+    {{- $images := (slice) | append .Page.Params.image -}}
+    
+    {{- if gt (len $images) 1 -}}<div class="docs-cycle">{{- end -}}
+      {{ $hidden := false }}
+      {{- range $images -}}
+        {{- $url := path.Join "/images/docs" $.version .file -}}
+        {{- if fileExists (path.Join "/static" $url) -}}
+          <img class="docs-main-picture docs-cycleable{{if $hidden}} hidden{{end}}" src="{{$url}}" alt="{{.alt}}">
+          {{ $hidden = true }}
+        {{- end -}}
+      {{- end -}}
+    {{- if gt (len $images) 1 -}}</div>{{- end -}}
+  {{- else if .Page.Params.subjects -}}
+    {{- $subjects := (slice) | append .Page.Params.subjects -}}
+    
+    {{- if gt (len $subjects) 1 -}}<div class="docs-cycle">{{- end -}}
+      {{ $hidden := false }}
+      {{- range $subjects -}}
+        {{- $url := path.Join "/images" $.Page.File.Dir (printf "%v.png" (urlize .)) -}}
+        {{- if fileExists (path.Join "/static" $url) -}}
+          <img class="docs-main-picture docs-cycleable{{if $hidden}} hidden{{end}}" src="{{$url}}" alt="{{partial `util/map_get` (dict `data` $.Page.Site.Data.docs `keys` (slice $.version `items-fluids` . `name`))}}">
+          {{ $hidden = true }}
+        {{- end -}}
+      {{- end -}}
+    {{- if gt (len $subjects) 1 -}}</div>{{- end -}}
+  {{- end -}}
+{{- end -}}

@@ -43,4 +43,4 @@ Flux](/docs/redstone-flux/) like a [fluxduct](../fluxducts/), at up to 4,000
 RF/t per connection.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}

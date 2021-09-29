@@ -5,7 +5,7 @@ cascade:
   mods: redstone arsenal
 ---
 
-![Redstone Arsenal logo](/images/logos/1.12/redstone-arsenal.png){:.cofh-mod-page-logo}
+![Redstone Arsenal logo](/images/logos/1.12/redstone-arsenal.png)
 
 
 **Redstone Arsenal** is a mod for Minecraft 1.12. It adds a set of powerful

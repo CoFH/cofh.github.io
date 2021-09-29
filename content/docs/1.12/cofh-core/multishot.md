@@ -19,12 +19,12 @@ Multishot. The amount of arrows a Multishot enchanted bow fires depends on the
 enchantment level.
 
 | Multishot level | Arrows fired |
-|---
+|---|---|
 | I | 2 |
 | II | 3 |
 | III | 4 |
 | IV | 5 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 Not all arrows fired in a single shot are fired quite as accurately as firing a
 single arrow. However, all of them can damage the same

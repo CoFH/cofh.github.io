@@ -15,7 +15,7 @@ usage-recipes:
   - tf-1-12-charcoal-from-sawdust
 ---
 
-![Compressed sawdust](/images/docs/1.12/thermal-foundation/sawdust-compressed.png){:style="height: 128px"}
+![Compressed sawdust](/images/docs/1.12/thermal-foundation/sawdust-compressed.png)
 
 
 **Compressed sawdust** is a material obtained by combining nine pieces of
@@ -34,7 +34,7 @@ Usage
 -----
 
 ### Smelting ingredient
-{{<recipe_table type="smelting' recipe-ids=page.usage-recipes.smelting">}}
+{{<recipe_table type="smelting" ids_param="usage-recipes.smelting">}}
 
 ### Redstone Furnace with Pyrolytic Conversion ingredient
-{{<recipe_table type="redstone-furnace-pyrolysis' recipe-ids=page.usage-recipes.redstone-furnace-pyrolysis">}}
+{{<recipe_table type="redstone-furnace-pyrolysis" ids_param="usage-recipes.redstone-furnace-pyrolysis">}}

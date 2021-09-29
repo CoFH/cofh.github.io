@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-plate-gold
 ---
 
-![Gold plate](/images/docs/1.12/thermal-foundation/plate-gold.png){:style="height: 128px"}
+![Gold plate](/images/docs/1.12/thermal-foundation/plate-gold.png)
 
 
 **Gold plates** are crafting materials made of
@@ -33,7 +33,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

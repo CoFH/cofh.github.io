@@ -39,4 +39,4 @@ Any connected side of a structuralduct can be disconnected and reconnected by
 using a [wrench](../../wrenches/) on it.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}

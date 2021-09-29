@@ -15,7 +15,7 @@ usage-recipes:
   - bucket-resin
 ---
 
-![Resin](/images/docs/1.12/thermal-foundation/resin.gif){:style="height: 128px"}
+![Resin](/images/docs/1.12/thermal-foundation/resin.gif)
 
 
 **Resin** is a fluid obtained from spruce, birch, jungle and acacia
@@ -48,7 +48,7 @@ Usage
 Resin cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Fractionating Still ingredient
-{{<recipe_table type="refinery' recipe-ids=page.usage-recipes.refinery">}}
+{{<recipe_table type="refinery" ids_param="usage-recipes.refinery">}}

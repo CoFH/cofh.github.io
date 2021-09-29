@@ -68,4 +68,4 @@ gears using a gearworking die.
 Recipes
 -------
 
-{{<recipe_table type="compactor-gear' recipe-ids=page.recipe-list">}}
+{{<recipe_table type="compactor-gear" ids_param="recipe-list">}}

@@ -110,18 +110,18 @@ Tiers
 
 Reactant dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power output | Augment slots |
-|---
+|---|---|---|
 | Basic | 40 RF/t | 0 |
 | Hardened | 60 RF/t | 1 |
 | Reinforced | 80 RF/t | 2 |
 | Signalum | 100 RF/t | 3 |
 | Resonant / Creative | 120 RF/t | 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -144,7 +144,7 @@ The following fluids and items can react with one another in a reactant dynamo
 to generate varying amounts of energy.
 
 | Fuel (100 mB) | Reactant | Energy |
-|---
+|---|---|---|
 | [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 80,000 RF |
 | [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 100,000 RF |
 | [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 100,000 RF |
@@ -159,4 +159,4 @@ to generate varying amounts of energy.
 | [Gelid Cryotheum](../../thermal-foundation/gelid-cryotheum/) | [Pyrotheum Dust](../../thermal-foundation/pyrotheum-dust/) | 400,000 RF |
 | [Zephyrean Aerotheum](../../thermal-foundation/zephyrean-aerotheum/) | [Petrotheum Dust](../../thermal-foundation/petrotheum-dust/) | 400,000 RF |
 | [Tectonic Petrotheum](../../thermal-foundation/tectonic-petrotheum/) | [Aerotheum Dust](../../thermal-foundation/aerotheum-dust/) | 400,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

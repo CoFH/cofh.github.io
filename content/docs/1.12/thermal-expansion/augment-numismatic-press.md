@@ -42,4 +42,4 @@ metal plates.
 Recipes
 -------
 
-{{<recipe_table type="compactor-coin' recipe-ids=page.recipe-list">}}
+{{<recipe_table type="compactor-coin" ids_param="recipe-list">}}

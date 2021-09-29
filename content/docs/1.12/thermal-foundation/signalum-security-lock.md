@@ -10,7 +10,7 @@ subjects:
 title: Signalum Security Lock
 ---
 
-![Signalum security lock](/images/docs/1.12/thermal-foundation/signalum-security-lock.png){:style="height: 128px"}
+![Signalum security lock](/images/docs/1.12/thermal-foundation/signalum-security-lock.png)
 
 
 **Signalum security locks** are items that can be installed on certain blocks

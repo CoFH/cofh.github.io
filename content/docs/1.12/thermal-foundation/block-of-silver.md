@@ -46,7 +46,7 @@ Blocks of silver can be used to build
 [beacon](https://minecraft.gamepedia.com/Beacon) pyramids.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Primal Mana
 When [primal mana](../primal-mana/) touches a block of silver, the block is

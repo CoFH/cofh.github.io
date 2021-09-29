@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-gear-mithril
 ---
 
-![Mana infused gear](/images/docs/1.12/thermal-foundation/gear-mithril.png){:style="height: 128px"}
+![Mana infused gear](/images/docs/1.12/thermal-foundation/gear-mithril.png)
 
 
 **Mana infused gears** are crafting materials made of [mana infused
@@ -36,4 +36,4 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

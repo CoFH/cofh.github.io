@@ -15,7 +15,7 @@ usage-recipes:
   - bucket-tree-oil
 ---
 
-![Tree oil](/images/docs/1.12/thermal-foundation/tree-oil.gif){:style="height: 128px"}
+![Tree oil](/images/docs/1.12/thermal-foundation/tree-oil.gif)
 
 
 **Tree oil** is a fluid obtained by processing [resin](../resin/) in a
@@ -39,7 +39,7 @@ Usage
 Tree oil cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression

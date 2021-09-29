@@ -45,4 +45,4 @@ An installed sapling infuser adds some extra [recipes](#recipes) to a
 Recipes
 -------
 
-{{<recipe_table type="insolator-tree' recipe-ids=page.recipe-list">}}
+{{<recipe_table type="insolator-tree" ids_param="recipe-list">}}

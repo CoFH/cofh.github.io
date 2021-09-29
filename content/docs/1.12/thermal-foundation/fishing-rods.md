@@ -43,7 +43,7 @@ usage-recipes:
   - recycling-tool-fishing-rod-constantan
 ---
 
-![Fishing rods](/images/docs/1.12/thermal-foundation/fishing-rods.gif){:style="height: 128px"}
+![Fishing rods](/images/docs/1.12/thermal-foundation/fishing-rods.gif)
 
 
 **[Fishing rods](https://minecraft.gamepedia.com/Fishing_Rod)** are tools in
@@ -68,16 +68,16 @@ The lure and luck modifiers of a fishing rod make it as powerful as a regular
 Sea](https://minecraft.gamepedia.com/Luck_of_the_Sea) at those levels,
 respectively.
 
-{% comment %}
+<!---
 uses = mat.maxUses + 5
 lureModifier = round(mat.efficiency / 3)
 luckModifier = round(mat.harvestLevel / 2)
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Lure modifier | Luck modifier | Enchantability |
-|---
+|---|---|---|---|---|
 | Wood (vanilla) | 65 | 0 | 0 | 1 |
 |
 | Stone | 136 | 1 | 1 | 5 |
@@ -97,12 +97,12 @@ luckModifier = round(mat.harvestLevel / 2)
 | Invar | 430 | 2 | 1 | 12 |
 | Bronze | 330 | 2 | 1 | 10 |
 | Constantan | 280 | 2 | 1 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}

@@ -57,7 +57,7 @@ Usage
 Essence of knowledge cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Tome of Knowledge
 A [tome of knowledge](../tome-of-knowledge/) can be filled with essence of

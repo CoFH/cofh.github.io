@@ -25,7 +25,7 @@ usage-recipes:
   - ra-1-12-dust-fluxed-electrum
 ---
 
-![Electrum blend](/images/docs/1.12/thermal-foundation/dust-electrum.png){:style="height: 128px"}
+![Electrum blend](/images/docs/1.12/thermal-foundation/dust-electrum.png)
 
 
 **Electrum blend** is a raw material. It is the dust form of
@@ -46,16 +46,16 @@ Usage
 -----
 
 ### Smelting ingredient
-{{<recipe_table type="smelting' recipe-ids=page.usage-recipes.smelting">}}
+{{<recipe_table type="smelting" ids_param="usage-recipes.smelting">}}
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Centrifugal Separator ingredient
-{{<recipe_table type="centrifuge' recipe-ids=page.usage-recipes.centrifuge">}}
+{{<recipe_table type="centrifuge" ids_param="usage-recipes.centrifuge">}}

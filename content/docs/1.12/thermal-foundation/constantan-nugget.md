@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-ingot-constantan-from-nuggets
 ---
 
-![Constantan nugget](/images/docs/1.12/thermal-foundation/nugget-constantan.png){:style="height: 128px"}
+![Constantan nugget](/images/docs/1.12/thermal-foundation/nugget-constantan.png)
 
 
 **Constantan nuggets** are raw materials. They are the nugget form of
@@ -31,4 +31,4 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}

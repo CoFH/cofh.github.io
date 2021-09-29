@@ -15,7 +15,7 @@ usage-recipes:
   - bucket-refined-fuel
 ---
 
-![Refined fuel](/images/docs/1.12/thermal-foundation/refined-fuel.gif){:style="height: 128px"}
+![Refined fuel](/images/docs/1.12/thermal-foundation/refined-fuel.gif)
 
 
 **Refined fuel** is a fluid obtained by processing [naphtha](../naphtha/) in
@@ -39,7 +39,7 @@ Usage
 Refined fuel cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression

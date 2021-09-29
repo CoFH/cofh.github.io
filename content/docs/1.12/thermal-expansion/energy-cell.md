@@ -109,12 +109,12 @@ An energy cell can be enchanted with [Holding](../../cofh-core/holding/) to incr
 capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 ### Redprints
 An energy cell's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to
@@ -135,16 +135,16 @@ Tiers
 
 Energy cells come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Capacity | Max. transfer rate | Note |
-|---
+|---|---|---|---|
 | Basic | 2,000,000 RF | 1,000 RF/t |
 | Hardened | 8,000,000 RF | 4,000 RF/t |
 | Reinforced | 18,000,000 RF | 9,000 RF/t |
 | Signalum | 32,000,000 RF | 16,000 RF/t |
 | Resonant | 50,000,000 RF | 25,000 RF/t |
 | Creative | N/A | 25,000 RF/t | Provides an unlimited amount of energy. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-mithril
 ---
 
-![Mana Infused ore](/images/docs/1.12/thermal-foundation/ore-mithril.png){:style="height: 128px"}
+![Mana Infused ore](/images/docs/1.12/thermal-foundation/ore-mithril.png)
 
 
 **Mana infused ore** is an [ore](https://minecraft.gamepedia.com/Ore) that
@@ -45,16 +45,16 @@ Usage
 -----
 
 ### Smelting
-{{<recipe_table type="smelting' recipe-ids=page.usage-recipes.smelting">}}
+{{<recipe_table type="smelting" ids_param="usage-recipes.smelting">}}
 
 ### Crafting
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Pulverizer
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}
 
 ### Induction Smelter
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Smashing
 When mana infused ore is broken using a [Smashing](../../cofh-core/smashing/)

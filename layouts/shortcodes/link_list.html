@@ -1,5 +1,5 @@
 {{- /* This shortcode helps with displaying lists of docs from ID and/or URL arrays. */ -}}
 
 {{ partial "docs/link_list" (dict "Page" .Page "version" (string (default (.Get "version") .Page.Params.version)) 
-"ids" (default (partial "util/path_get" (dict "Page" .Page.Params "path" (.Get "ids_param"))) (.Get "ids")) 
-"urls" (default (partial "util/path_get" (dict "Page" .Page.Params "path" (.Get "urls_param"))) (.Get "uses"))) }}
+"ids" (default (partial "util/path_get" (dict "data" .Page.Params "path" (.Get "ids_param"))) (.Get "ids")) 
+"urls" (default (partial "util/path_get" (dict "data" .Page.Params "path" (.Get "urls_param"))) (.Get "uses"))) }}

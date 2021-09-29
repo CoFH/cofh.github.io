@@ -101,12 +101,12 @@ A portable tank can be enchanted with [Holding](../../cofh-core/holding/) to inc
 capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 ### Redprints
 A portable tank's configuration can be saved on a [redprint](../../thermal-foundation/redprint/) to
@@ -128,16 +128,16 @@ Tiers
 
 Portable tanks come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Capacity | Note |
-|---
+|---|---|---|
 | Basic | 20,000 mB |
 | Hardened | 80,000 mB |
 | Reinforced | 180,000 mB |
 | Signalum | 320,000 mB |
 | Resonant | 500,000 mB |
 | Creative | N/A | Provides an unlimited amount of the fluid it stores. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

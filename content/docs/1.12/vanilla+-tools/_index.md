@@ -5,7 +5,7 @@ cascade:
   mods: vanilla+ tools
 ---
 
-![Vanilla+ Tools logo](/images/logos/1.12/vanilla-tools.png){:.cofh-mod-page-logo}
+![Vanilla+ Tools logo](/images/logos/1.12/vanilla-tools.png)
 
 
 **Vanilla+ Tools** is a mod for Minecraft 1.12. It adds additional tools and

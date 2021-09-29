@@ -43,7 +43,7 @@ usage-recipes:
   - recycling-tool-shears-constantan
 ---
 
-![Shears](/images/docs/1.12/thermal-foundation/shears.gif){:style="height: 128px"}
+![Shears](/images/docs/1.12/thermal-foundation/shears.gif)
 
 
 **[Shears](https://minecraft.gamepedia.com/Shears)** are tools in vanilla
@@ -62,14 +62,14 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses - 12
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses |
-|---
+|---|---|
 | Iron (vanilla) | 238 |
 |
 | Wood | 47 |
@@ -89,12 +89,12 @@ uses = mat.maxUses - 12
 | Invar | 413 |
 | Bronze | 313 |
 | Constantan | 263 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}

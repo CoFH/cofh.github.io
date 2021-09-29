@@ -15,7 +15,7 @@ Format
 
 A block ID is an object with the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -82,7 +82,7 @@ A block ID is an object with the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 A block ID may also be specified as a single string. In that case, it is read as
 the `name` value.

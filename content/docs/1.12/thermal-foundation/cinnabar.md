@@ -25,7 +25,7 @@ usage-recipes:
   - ore-processing-cinnabar-mithril
 ---
 
-![Cinnabar](/images/docs/1.12/thermal-foundation/cinnabar.png){:style="height: 128px"}
+![Cinnabar](/images/docs/1.12/thermal-foundation/cinnabar.png)
 
 
 **Cinnabar** is a byproduct of processing certain ores in a
@@ -50,7 +50,7 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 
 Trivia

@@ -18,7 +18,7 @@ usage-recipes:
   - ingot-steel-from-ingot-iron-and-coal-coke
 ---
 
-![Coal coke](/images/docs/1.12/thermal-foundation/coal-coke.png){:style="height: 128px"}
+![Coal coke](/images/docs/1.12/thermal-foundation/coal-coke.png)
 
 
 **Coal coke** is a material obtained by processing
@@ -47,7 +47,7 @@ piece of coal coke lasts 160 seconds, which is enough to smelt up to 16 items.
 It lasts twice as long as regular [coal](https://minecraft.gamepedia.com/Coal).
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

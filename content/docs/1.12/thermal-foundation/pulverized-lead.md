@@ -28,7 +28,7 @@ usage-recipes:
   - tf-1-12-ingot-lead-from-dust
 ---
 
-![Pulverized lead](/images/docs/1.12/thermal-foundation/dust-lead.png){:style="height: 128px"}
+![Pulverized lead](/images/docs/1.12/thermal-foundation/dust-lead.png)
 
 
 **Pulverized lead** is a raw material. It is the dust form of
@@ -58,10 +58,10 @@ Usage
 -----
 
 ### Smelting ingredient
-{{<recipe_table type="smelting' recipe-ids=page.usage-recipes.smelting">}}
+{{<recipe_table type="smelting" ids_param="usage-recipes.smelting">}}
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

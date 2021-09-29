@@ -7,7 +7,7 @@ subcategory: Mobs
 title: Blizz
 ---
 
-![Blizz](/images/docs/1.12/thermal-foundation/blizz.png){:style="height: 192px"}
+![Blizz](/images/docs/1.12/thermal-foundation/blizz.png)
 
 
 **Blizzes** are hostile mobs found in cold

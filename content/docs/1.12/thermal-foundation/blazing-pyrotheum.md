@@ -15,7 +15,7 @@ usage-recipes:
   - bucket-pyrotheum
 ---
 
-![Blazing pyrotheum](/images/docs/1.12/thermal-foundation/blazing-pyrotheum.gif){:style="height: 128px"}
+![Blazing pyrotheum](/images/docs/1.12/thermal-foundation/blazing-pyrotheum.gif)
 
 > This is actually worse than lava. You monster.
 
@@ -79,7 +79,7 @@ Blazing pyrotheum has the following effects on certain blocks and mobs:
 
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Pyro-Concentrator
 An [induction smelter](../../thermal-expansion/induction-smelter/) with a

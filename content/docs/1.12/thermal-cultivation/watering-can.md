@@ -59,13 +59,13 @@ When using a watering can, a certain amount of water is consumed every cycle.
 This amount depends on the size of the watering area.
 
 | Area | Water per cycle |
-|---
+|---|---|
 | 3x3 | 50 mB |
 | 5x5 | 150 mB |
 | 7x7 | 300 mB |
 | 9x9 | 500 mB |
 | 11x11 | 750 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 ### Dyeing
 A watering can can be dyed by combining it with a
@@ -77,12 +77,12 @@ A watering can can be enchanted with [Holding](../../cofh-core/holding/) to
 increase its capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Tiers
@@ -90,16 +90,12 @@ Tiers
 
 Watering cans come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Tier | Capacity | Plant growth chance | Max. watering area | Note |
-|---
+|---|---|---|---|---|
 | Basic | 4,000 mB | 40% | 3x3 |
 | Hardened | 12,000 mB | 50% | 5x5 |
 | Reinforced | 24,000 mB | 60% | 7x7 |
 | Signalum | 40,000 mB | 70% | 9x9 |
 | Resonant | 60,000 mB | 80% | 11x11 |
 | Creative | N/A | 100% | 11x11 | Holds an unlimited amount of [water](https://minecraft.gamepedia.com/Water). |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+

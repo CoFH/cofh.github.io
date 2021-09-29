@@ -12,10 +12,8 @@ Summary
 
 All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Command | Description | Permission level |
-|---
+|---|---|---|
 | [version](#version) | Displays the installed version of CoFH Core. | -1 |
 | [help](#help) | Displays information about CoFH Core's commands. | -1 |
 | [syntax](#syntax) | Displays the syntax of CoFH Core's commands. | -1 |
@@ -29,9 +27,6 @@ All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 | [countblocks](#countblocks) | Displays the amounts of blocks of certain types in an area. | 3 |
 | [replaceblocks](#replaceblocks) | Replaces blocks of certain types with another block type in an area. | 3 |
 | [unloadchunk](#unloadchunk) | Force-unloads the chunk that the command user is looking at. | 4 |
-{:.uk-table .uk-table-striped}
-</div>
-{::options parse_block_html="false" /}
 
 
 Details

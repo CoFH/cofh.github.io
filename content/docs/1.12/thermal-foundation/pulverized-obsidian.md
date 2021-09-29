@@ -24,7 +24,7 @@ usage-recipes:
   - basalz-powder
 ---
 
-![Pulverized obsidian](/images/docs/1.12/thermal-foundation/dust-obsidian.png){:style="height: 128px"}
+![Pulverized obsidian](/images/docs/1.12/thermal-foundation/dust-obsidian.png)
 
 
 **Pulverized obsidian** is a raw material that is most commonly obtained by
@@ -50,8 +50,8 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Brewing ingredient
 When [brewing](https://minecraft.gamepedia.com/Brewing), pulverized obsidian can
@@ -60,7 +60,7 @@ potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
 of resistance](../../cofh-core/potions/).
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}

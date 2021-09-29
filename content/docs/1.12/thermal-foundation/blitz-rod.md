@@ -15,7 +15,7 @@ usage-recipes:
   - blitz-powder
 ---
 
-![Blitz rod](/images/docs/1.12/thermal-foundation/blitz-rod.png){:style="height: 128px"}
+![Blitz rod](/images/docs/1.12/thermal-foundation/blitz-rod.png)
 
 
 **Blitz rods** are materials that are dropped by [blitzes](../blitz/). They
@@ -38,7 +38,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}

@@ -35,7 +35,7 @@ usage-recipes:
   - phyto-gro-rich
 ---
 
-![Phyto-Gro](/images/docs/1.12/thermal-foundation/phyto-gro.png){:style="height: 128px"}
+![Phyto-Gro](/images/docs/1.12/thermal-foundation/phyto-gro.png)
 
 
 **Phyto-Gro** is a type of fertilizer. It is the weakest of its kind, being
@@ -58,16 +58,16 @@ When used on blocks, Phyto-Gro grows plants like [bone
 meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 3x3 area.
 
 ### Phytogenic Insolator ingredient
-{{<recipe_table type="insolator' recipe-ids=page.usage-recipes.insolator">}}
+{{<recipe_table type="insolator" ids_param="usage-recipes.insolator">}}
 
 ### Phytogenic Insolator with Sapling Infuser ingredient
-{{<recipe_table type="insolator-tree' recipe-ids=page.usage-recipes.insolator-tree">}}
+{{<recipe_table type="insolator-tree" ids_param="usage-recipes.insolator-tree">}}
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Arboreal Extractor
 When Phyto-Gro is used in an [arboreal extractor](../../thermal-expansion/arboreal-extractor/), it

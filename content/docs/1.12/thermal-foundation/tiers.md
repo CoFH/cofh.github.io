@@ -35,19 +35,19 @@ The following blocks and items can be upgraded:
 List of tiers
 -------------
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Common materials | Description |
-|---
+|---|---|---|
 | Basic | Various materials | Newly crafted blocks and items are at this tier. |
 | Hardened | [Invar](../invar-ingot/) |
 | Reinforced | [Electrum](../electrum-ingot/), [hardened glass](../hardened-glass/) |
 | Signalum | [Signalum](../signalum-ingot/), [cryotheum dust](../cryotheum-dust/) |
 | Resonant | [Enderium](../enderium-ingot/), [pyrotheum dust](../pyrotheum-dust/) | The highest tier that can be legitimately obtained in survival mode. |
 | Creative | N/A | Only available in creative mode or using commands. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 Creative blocks and items are usually capable of things that are too powerful
 for survival mode, but can be useful for testing or experimenting. For instance,

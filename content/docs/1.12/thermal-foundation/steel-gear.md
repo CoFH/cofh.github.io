@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-gear-steel
 ---
 
-![Steel gear](/images/docs/1.12/thermal-foundation/gear-steel.png){:style="height: 128px"}
+![Steel gear](/images/docs/1.12/thermal-foundation/gear-steel.png)
 
 
 **Steel gears** are crafting materials made of [steel](../steel-ingot/). They
@@ -36,4 +36,4 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

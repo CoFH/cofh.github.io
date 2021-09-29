@@ -103,22 +103,22 @@ fluxsaw has a chance to not consume [Redstone Flux](/docs/redstone-flux/) when
 used.
 
 | Unbreaking level | No energy use chance |
-|---
+|---|---|
 | I | 33% |
 | II | 50% |
 | III | 60% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 A fluxsaw can also be enchanted with [Holding](../../cofh-core/holding/) to increase its
 energy capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Tiers
@@ -126,16 +126,16 @@ Tiers
 
 Fluxsaws come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Capacity | Max. charge rate | Breaking speed | Max. area breaking mode | Attack damage | Enchantability | Note |
-|---
+|---|---|---|---|---|---|---|---|
 | Basic | 40,000 RF | 1,000 RF/t | 6| Tunnel: 1x3 | 5 | 10 | Comparable to an iron axe. |
 | Hardened | 120,000 RF | 4,000 RF/t | 7.5| Area: 3x3 | 5.5 | 10 |
 | Reinforced | 240,000 RF | 9,000 RF/t | 9 | Area: 3x3 | 6 | 15 | Comparable to a diamond axe. |
 | Signalum | 400,000 RF | 16,000 RF/t | 10.5 | Area: 3x3x3 | 6.5 | 15 |
 | Resonant | 600,000 RF | 25,000 RF/t | 12 | Area: 5x5 | 7 | 20 |
 | Creative | N/A | N/A | 12 | Area: 5x5 | 7 | 20 | Does not consume energy. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small}
-</div>
-{::options parse_block_html="false" /}
+
+
+

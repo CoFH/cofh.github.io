@@ -43,4 +43,4 @@ A resonant fluxduct works the same way as most other
 [fluxducts](../fluxducts/). It transfers up to 25,000 RF/t per connection.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}

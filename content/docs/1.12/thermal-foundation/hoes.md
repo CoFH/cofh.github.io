@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-tool-hoe-constantan
 ---
 
-![Hoes](/images/docs/1.12/thermal-foundation/hoes.gif){:style="height: 128px"}
+![Hoes](/images/docs/1.12/thermal-foundation/hoes.gif)
 
 
 **[Hoes](https://minecraft.gamepedia.com/Hoe)** are tools in vanilla Minecraft.
@@ -54,14 +54,14 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses |
-|---
+|---|---|
 | Wood | 59 |
 | Stone | 131 |
 | Iron | 250 |
@@ -80,9 +80,9 @@ uses = mat.maxUses
 | Invar | 425 |
 | Bronze | 325 |
 | Constantan | 275 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

@@ -115,18 +115,18 @@ Tiers
 
 Steam dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power output | Augment slots |
-|---
+|---|---|---|
 | Basic | 40 RF/t | 0 |
 | Hardened | 60 RF/t | 1 |
 | Reinforced | 80 RF/t | 2 |
 | Signalum | 100 RF/t | 3 |
 | Resonant / Creative | 120 RF/t | 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -151,7 +151,7 @@ items in a furnace's fuel slot after being consumed, like [lava
 buckets](https://minecraft.gamepedia.com/Lava_Bucket).
 
 | Fuel | Energy per unit |
-|---
+|---|---|
 | [Coal](https://minecraft.gamepedia.com/Coal) | 24,000 RF |
 | [Block of Coal](https://minecraft.gamepedia.com/Block_of_Coal) | 240,000 RF |
 | [Pulverized Coal](../../thermal-foundation/pulverized-coal/) | 24,000 RF |
@@ -161,7 +161,7 @@ buckets](https://minecraft.gamepedia.com/Lava_Bucket).
 | [Coal Coke](../../thermal-foundation/coal-coke/) | 40,000 RF |
 | [Block of Coal Coke](../../thermal-foundation/block-of-coal-coke/) | 400,000 RF |
 | Any other [furnace](https://minecraft.gamepedia.com/Furnace) fuel* | (Burn time in ticks × 10) RF
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 *: Items with very short burn times (less than 300 ticks) cannot be used as
 fuel.

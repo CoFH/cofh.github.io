@@ -7,7 +7,7 @@ subjects:
 title: Geode
 ---
 
-![Geode](/images/docs/1.12/thermal-foundation/geode.png){:style="height: 128px"}
+![Geode](/images/docs/1.12/thermal-foundation/geode.png)
 
 
 **Geodes** are materials that currently cannot be obtained and are not used for

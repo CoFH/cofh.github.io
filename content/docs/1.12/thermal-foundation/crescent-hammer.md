@@ -10,7 +10,7 @@ subjects:
 title: Crescent Hammer
 ---
 
-![Crescent hammer](/images/docs/1.12/thermal-foundation/crescent-hammer.png){:style="height: 128px"}
+![Crescent hammer](/images/docs/1.12/thermal-foundation/crescent-hammer.png)
 
 > Any tool is a hammer if you really need one.
 

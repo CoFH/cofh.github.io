@@ -43,10 +43,10 @@ Flux](/docs/redstone-flux/), and cannot be [upgraded](../../thermal-foundation/t
 List of devices
 ---------------
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Device | Description |
-|---
+|---|---|
 | [Aqueous Accumulator](../aqueous-accumulator/) | Extracts [water](https://minecraft.gamepedia.com/Water) from its surroundings. |
 | [Nullifier](../nullifier/) | Destroys items and fluids. |
 | [Thermal Mediator](../thermal-mediator/) | Speeds up adjacent [machines](../machines/) and [dynamos](../dynamos/) using [coolants](../coolants/). |
@@ -60,9 +60,9 @@ List of devices
 | [Factorizer](../factorizer/) | Combines and splits various items. |
 | [Creature Encaptulator](../creature-encaptulator/) | Captures nearby mobs using [morbs](../morb/). |
 | [Vacuumulator](../vacuumulator/) | Collects nearby dropped items. |
-{:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Device Frame
@@ -71,4 +71,4 @@ Device Frame
 All devices are crafted from **device frames**.
 
 ### Crafting
-{{<recipe_table type="crafting' recipe-ids=page.frame-recipes.crafting">}}
+{{<recipe_table type="crafting" ids_param="frame-recipes.crafting">}}

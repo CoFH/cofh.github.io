@@ -25,7 +25,7 @@ usage-recipes:
   - recycling-gear-invar
 ---
 
-![Invar gear](/images/docs/1.12/thermal-foundation/gear-invar.png){:style="height: 128px"}
+![Invar gear](/images/docs/1.12/thermal-foundation/gear-invar.png)
 
 
 **Invar gears** are crafting materials made of [invar](../invar-ingot/).
@@ -45,7 +45,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

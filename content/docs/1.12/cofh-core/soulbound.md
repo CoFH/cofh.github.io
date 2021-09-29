@@ -21,8 +21,8 @@ enchantment may be removed if it is already at the lowest level. The chances of
 this happening depend on the enchantment level.
 
 | Soulbound level | Level decrease chance |
-|---
+|---|---|
 | I | 50% |
 | II | 33% |
 | III | 25% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

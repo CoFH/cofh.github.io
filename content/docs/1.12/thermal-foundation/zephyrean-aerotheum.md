@@ -16,7 +16,7 @@ usage-recipes:
   - td-1-12-viaduct
 ---
 
-![Zephyrean aerotheum](/images/docs/1.12/thermal-foundation/zephyrean-aerotheum.gif){:style="height: 128px"}
+![Zephyrean aerotheum](/images/docs/1.12/thermal-foundation/zephyrean-aerotheum.gif)
 
 
 **Zephyrean aerotheum** is the air elemental fluid. It is obtained by melting
@@ -59,7 +59,7 @@ Projectiles that come into contact with zephyrean aerotheum are sent flying in a
 random direction away from the fluid.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Reactant Dynamo fuel
 When used together with [petrotheum dust](../petrotheum-dust/) as fuel in a

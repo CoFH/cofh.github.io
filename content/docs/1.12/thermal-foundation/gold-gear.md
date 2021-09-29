@@ -17,7 +17,7 @@ usage-recipes:
   - recycling-gear-gold
 ---
 
-![Gold gear](/images/docs/1.12/thermal-foundation/gear-gold.png){:style="height: 128px"}
+![Gold gear](/images/docs/1.12/thermal-foundation/gear-gold.png)
 
 
 **Gold gears** are crafting materials made of
@@ -38,7 +38,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

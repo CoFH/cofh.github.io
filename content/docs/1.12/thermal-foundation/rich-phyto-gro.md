@@ -41,7 +41,7 @@ usage-recipes:
   - wood-rich
 ---
 
-![Rich Phyto-Gro](/images/docs/1.12/thermal-foundation/phyto-gro-rich.png){:style="height: 128px"}
+![Rich Phyto-Gro](/images/docs/1.12/thermal-foundation/phyto-gro-rich.png)
 
 
 **Rich Phyto-Gro** is a type of fertilizer. It is stronger than the
@@ -67,17 +67,17 @@ When used on blocks, rich Phyto-Gro grows plants like [bone
 meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 5x5 area.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Phytogenic Insolator ingredient
-{{<recipe_table type="insolator' recipe-ids=page.usage-recipes.insolator">}}
+{{<recipe_table type="insolator" ids_param="usage-recipes.insolator">}}
 
 ### Phytogenic Insolator with Sapling Infuser ingredient
-{{<recipe_table type="insolator-tree' recipe-ids=page.usage-recipes.insolator-tree">}}
+{{<recipe_table type="insolator-tree" ids_param="usage-recipes.insolator-tree">}}
 
 ### Energetic Infuser ingredient
-{{<recipe_table type="charger' recipe-ids=page.usage-recipes.charger">}}
+{{<recipe_table type="charger" ids_param="usage-recipes.charger">}}
 
 ### Arboreal Extractor
 When rich Phyto-Gro is used in an [arboreal

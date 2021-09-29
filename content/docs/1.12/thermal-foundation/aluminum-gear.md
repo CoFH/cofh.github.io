@@ -15,7 +15,7 @@ usage-recipes:
   - recycling-gear-aluminum
 ---
 
-![Aluminum gear](/images/docs/1.12/thermal-foundation/gear-aluminum.png){:style="height: 128px"}
+![Aluminum gear](/images/docs/1.12/thermal-foundation/gear-aluminum.png)
 
 
 **Aluminum gears** are crafting materials made of
@@ -36,4 +36,4 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

@@ -52,7 +52,7 @@ The following items can be consumed by a [numismatic
 dynamo](../numismatic-dynamo/) with a lapidary calibration augment installed.
 
 | Fuel | Energy per unit |
-|---
+|---|---|
 | [Nether Quartz](https://minecraft.gamepedia.com/Nether_Quartz) | 40,000 RF |
 | [Lapis Lazuli](https://minecraft.gamepedia.com/Lapis_Lazuli) | 80,000 RF |
 | [Prismarine Shard](https://minecraft.gamepedia.com/Prismarine_Shard) | 150,000 RF |
@@ -70,4 +70,4 @@ dynamo](../numismatic-dynamo/) with a lapidary calibration augment installed.
 | Apatite ([Forestry](https://forestryforminecraft.info/)) | 40,000 RF |
 | Red Garnet ([Tech Reborn](https://minecraft.curseforge.com/projects/techreborn)) | 200,000 RF |
 | Yellow Garnet ([Tech Reborn](https://minecraft.curseforge.com/projects/techreborn)) | 200,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

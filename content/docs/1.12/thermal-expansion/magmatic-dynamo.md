@@ -112,18 +112,18 @@ Tiers
 
 Magmatic dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power output | Augment slots |
-|---
+|---|---|---|
 | Basic | 40 RF/t | 0 |
 | Hardened | 60 RF/t | 1 |
 | Reinforced | 80 RF/t | 2 |
 | Signalum | 100 RF/t | 3 |
 | Resonant / Creative | 120 RF/t | 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -146,9 +146,9 @@ The following fluids can be consumed by a magmatic dynamo to generate varying
 amounts of energy.
 
 | Fuel | Energy per 1,000 mB |
-|---
+|---|---|
 | [Lava](https://minecraft.gamepedia.com/Lava) | 120,000 RF |
 | [Blazing Pyrotheum](../../thermal-foundation/blazing-pyrotheum/) | 2,000,000 RF |
 | Pahoehoe Lava ([IndustrialCraft²](https://www.industrial-craft.net/)) | 80,000 RF |
 | Hot Coolant ([IndustrialCraft²](https://www.industrial-craft.net/)) | 40,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

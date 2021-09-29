@@ -5,11 +5,6 @@ title: Team CoFH
 
 assetDir: /static
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
 taxonomies:
   mod: mods
   version: version

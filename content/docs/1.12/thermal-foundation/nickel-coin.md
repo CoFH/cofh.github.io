@@ -10,7 +10,7 @@ subjects:
 title: Nickel Coin
 ---
 
-![Nickel coin](/images/docs/1.12/thermal-foundation/coin-nickel.png){:style="height: 128px"}
+![Nickel coin](/images/docs/1.12/thermal-foundation/coin-nickel.png)
 
 
 **Nickel coins** are materials made of [nickel](../nickel-ingot/) that can be

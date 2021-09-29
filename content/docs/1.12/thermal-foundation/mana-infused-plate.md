@@ -13,7 +13,7 @@ usage-recipes:
   - recycling-plate-mithril
 ---
 
-![Mana infused plate](/images/docs/1.12/thermal-foundation/plate-mithril.png){:style="height: 128px"}
+![Mana infused plate](/images/docs/1.12/thermal-foundation/plate-mithril.png)
 
 
 **Mana infused plates** are crafting materials made of [mana infused
@@ -31,4 +31,4 @@ Usage
 -----
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

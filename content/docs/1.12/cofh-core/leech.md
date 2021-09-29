@@ -23,9 +23,9 @@ user's health is instantly restored. The amount of health restored depends on
 the enchantment level.
 
 | Leech level | Health restored |
-|---
+|---|---|
 | I | 1 (1/2 heart) |
 | II | 2 (1 heart) |
 | III | 3 (1 1/2 hearts) |
 | IV | 4 (2 hearts) |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

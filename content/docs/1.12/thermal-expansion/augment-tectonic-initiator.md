@@ -50,10 +50,8 @@ modifiedChance = 100 - amount * 15 - 25   (minimum is 5)
 multiplier = 100 / modifiedChance
 -->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Installed auxiliary sieves | Chance multiplier |
-|---
+|---|---|
 | 0 | × 1.33 |
 | 1 | × 1.67 |
 | 2 | × 2.22 |
@@ -63,9 +61,7 @@ multiplier = 100 / modifiedChance
 | 6 | × 20 |
 | 7 | × 20 |
 | 8 | × 20 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
 
 If a tectonic initiator is installed together with other augments that increase
 the amount of energy required per operation, their energy increase percentages

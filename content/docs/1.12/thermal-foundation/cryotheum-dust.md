@@ -37,7 +37,7 @@ usage-recipes:
   - ender-pearl-from-fluid
 ---
 
-![Cryotheum dust](/images/docs/1.12/thermal-foundation/dust-cryotheum.gif){:style="height: 128px"}
+![Cryotheum dust](/images/docs/1.12/thermal-foundation/dust-cryotheum.gif)
 
 
 **Cryotheum dust** is the ice elemental dust. It is most commonly used to make
@@ -56,17 +56,17 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{{<recipe_table type="crucible' recipe-ids=page.usage-recipes.crucible">}}
+{{<recipe_table type="crucible" ids_param="usage-recipes.crucible">}}
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Centrifugal Separator ingredient
-{{<recipe_table type="centrifuge' recipe-ids=page.usage-recipes.centrifuge">}}
+{{<recipe_table type="centrifuge" ids_param="usage-recipes.centrifuge">}}
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [blazing pyrotheum](../blazing-pyrotheum/)

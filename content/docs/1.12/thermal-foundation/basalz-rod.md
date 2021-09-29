@@ -15,7 +15,7 @@ usage-recipes:
   - basalz-powder
 ---
 
-![Basalz rod](/images/docs/1.12/thermal-foundation/basalz-rod.png){:style="height: 128px"}
+![Basalz rod](/images/docs/1.12/thermal-foundation/basalz-rod.png)
 
 
 **Basalz rods** are materials that are dropped by [basalzes](../basalz/).
@@ -38,7 +38,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}

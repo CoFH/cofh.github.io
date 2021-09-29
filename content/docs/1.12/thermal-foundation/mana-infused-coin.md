@@ -10,7 +10,7 @@ subjects:
 title: Mana Infused Coin
 ---
 
-![Mana infused coin](/images/docs/1.12/thermal-foundation/coin-mithril.png){:style="height: 128px"}
+![Mana infused coin](/images/docs/1.12/thermal-foundation/coin-mithril.png)
 
 
 **Mana infused coins** are materials made of [mana infused

@@ -76,8 +76,8 @@ usage-recipes:
   - td-1-12-itemduct-energy-fast-transparent-from-opaque
 ---
 
-![Hardened glass](/images/docs/1.12/thermal-foundation/hardened-glass.png){:style="height: 96px"}
-![Hardened glass variants](/images/docs/1.12/thermal-foundation/hardened-glass-variants.gif){:style="height: 96px"}
+![Hardened glass](/images/docs/1.12/thermal-foundation/hardened-glass.png)
+![Hardened glass variants](/images/docs/1.12/thermal-foundation/hardened-glass-variants.gif)
 
 
 **Hardened glass** is a hard to break and explosion resistant version of
@@ -116,8 +116,8 @@ glass blocks change the color of
 [beacon](https://minecraft.gamepedia.com/Beacon) beams that pass through them.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 
 Trivia

@@ -44,4 +44,4 @@ block of charcoal lasts 800 seconds, which is enough to smelt up to 80 items. It
 lasts slightly longer than 9 individual pieces of charcoal.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}

@@ -41,7 +41,7 @@ on, JSON terms will be used to describe the format of the data.
 Each world generation file consists of a single object with the following
 values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -107,13 +107,13 @@ values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 ### Forge mod entry
 A Forge mod entry describes a mod, optionally with a specific version or range
 of versions. It is an object with the following values.
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -150,7 +150,7 @@ of versions. It is an object with the following values.
             </tr>
         </tbody>
     </table>
-</div>
+
 
 A Forge mod entry may also be specified as a string. In that case, it is read as
 the `id` value.

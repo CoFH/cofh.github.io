@@ -124,7 +124,7 @@ subjects:
 title: Induction Smelter
 ---
 
-![Induction smelter](/images/docs/1.12/thermal-expansion/induction-smelter.png){:style="height: 128px"}
+![Induction smelter](/images/docs/1.12/thermal-expansion/induction-smelter.png)
 
 > Will absolutely not cook food.
 
@@ -239,18 +239,18 @@ Tiers
 
 Induction smelters come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
+|---|---|---|---|
 | Basic | 20 RF/t | 0 | 16 |
 | Hardened | 30 RF/t | 1 | 16 |
 | Reinforced | 40 RF/t | 2 | 28 |
 | Signalum | 50 RF/t | 3 | 44 |
 | Resonant | 60 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -270,19 +270,19 @@ Recipes
 -------
 
 ### General
-{{<recipe_table type="smelter' recipe-ids=page.recipe-list.general">}}
+{{<recipe_table type="smelter" ids_param="recipe-list.general">}}
 
 ### Ore processing
-{{<recipe_table type="smelter' recipe-ids=page.recipe-list.ore-processing">}}
+{{<recipe_table type="smelter" ids_param="recipe-list.ore-processing">}}
 
 ### Ore processing with rich slag
-{{<recipe_table type="smelter' recipe-ids=page.recipe-list.ore-processing-rich-slag">}}
+{{<recipe_table type="smelter" ids_param="recipe-list.ore-processing-rich-slag">}}
 
 ### Ore processing with cinnabar
-{{<recipe_table type="smelter' recipe-ids=page.recipe-list.ore-processing-cinnabar">}}
+{{<recipe_table type="smelter" ids_param="recipe-list.ore-processing-cinnabar">}}
 
 ### Alloying
-{{<recipe_table type="smelter' recipe-ids=page.recipe-list.alloying">}}
+{{<recipe_table type="smelter" ids_param="recipe-list.alloying">}}
 
 ### Recycling
-{{<recipe_table type="smelter' recipe-ids=page.recipe-list.recycling">}}
+{{<recipe_table type="smelter" ids_param="recipe-list.recycling">}}

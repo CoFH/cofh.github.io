@@ -9,7 +9,7 @@ subjects:
 title: Nullifier
 ---
 
-![Nullifier](/images/docs/1.12/thermal-expansion/nullifier.png){:style="height: 128px"}
+![Nullifier](/images/docs/1.12/thermal-expansion/nullifier.png)
 
 > Sends all the things to `/dev/null`!
 

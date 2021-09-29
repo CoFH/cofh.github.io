@@ -19,10 +19,12 @@
 {{- end -}}
 
 {{/* "Save" default main doc for later, then if there isn't already a main doc use the default. */}}
-{{- if partial "util/map_get" (dict "data" $main_docs "keys" (slice "" "")) -}}
-  {{- $grouped_docs = partial "util/map_array_append" (dict "data" $grouped_docs "keys" (slice (title (default "" $default_mod_main.Params.category)) (title (default "" $default_mod_main.Params.subcategory))) "value" $default_mod_main) -}}
-{{- else -}}
-  {{- $main_docs = partial "util/map_set" (dict "data" $main_docs "keys" (slice "" "") "value" $default_mod_main) -}}
+{{- if $default_mod_main -}}
+  {{- if partial "util/map_get" (dict "data" $main_docs "keys" (slice "" "")) -}}
+    {{- $grouped_docs = partial "util/map_array_append" (dict "data" $grouped_docs "keys" (slice (title (default "" $default_mod_main.Params.category)) (title (default "" $default_mod_main.Params.subcategory))) "value" $default_mod_main) -}}
+  {{- else -}}
+    {{- $main_docs = partial "util/map_set" (dict "data" $main_docs "keys" (slice "" "") "value" $default_mod_main) -}}
+  {{- end -}}
 {{- end -}}
 
 {{- return (dict "main" $main_docs "grouped" $grouped_docs) -}}

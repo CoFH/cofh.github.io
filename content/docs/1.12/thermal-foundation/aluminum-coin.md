@@ -10,7 +10,7 @@ subjects:
 title: Aluminum Coin
 ---
 
-![Aluminum coin](/images/docs/1.12/thermal-foundation/coin-aluminum.png){:style="height: 128px"}
+![Aluminum coin](/images/docs/1.12/thermal-foundation/coin-aluminum.png)
 
 
 **Aluminum coins** are materials made of [aluminum](../aluminum-ingot/) that

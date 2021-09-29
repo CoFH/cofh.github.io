@@ -7,7 +7,7 @@ subjects:
 title: Mana Dust
 ---
 
-![Mana dust](/images/docs/1.12/thermal-foundation/dust-mana.gif){:style="height: 128px"}
+![Mana dust](/images/docs/1.12/thermal-foundation/dust-mana.gif)
 
 
 **Mana dust** is a material that currently cannot be obtained.

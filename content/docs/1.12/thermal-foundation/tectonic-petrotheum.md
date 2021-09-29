@@ -15,7 +15,7 @@ usage-recipes:
   - bucket-petrotheum
 ---
 
-![Tectonic petrotheum](/images/docs/1.12/thermal-foundation/tectonic-petrotheum.gif){:style="height: 128px"}
+![Tectonic petrotheum](/images/docs/1.12/thermal-foundation/tectonic-petrotheum.gif)
 
 
 **Tectonic petrotheum** is the earth elemental fluid. It is obtained by melting
@@ -57,7 +57,7 @@ If enabled, tectonic petrotheum breaks any adjacent stone- or rock-like blocks.
 This is disabled by default.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Tectonic Initiator
 An [pulverizer](../../thermal-expansion/pulverizer/) with a [tectonic

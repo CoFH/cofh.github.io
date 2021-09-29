@@ -64,4 +64,4 @@ are added together before being applied to the amount of energy.
 Recipes
 -------
 
-{{<recipe_table type="redstone-furnace-pyrolysis' recipe-ids=page.recipe-list">}}
+{{<recipe_table type="redstone-furnace-pyrolysis" ids_param="recipe-list">}}

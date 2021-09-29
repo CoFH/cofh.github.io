@@ -36,7 +36,7 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-{{<recipe_table type="crucible' recipe-ids=page.usage-recipes.crucible">}}
+{{<recipe_table type="crucible" ids_param="usage-recipes.crucible">}}
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}

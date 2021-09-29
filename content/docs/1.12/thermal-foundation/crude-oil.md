@@ -19,7 +19,7 @@ usage-recipes:
   - bucket-crude-oil
 ---
 
-![Crude oil](/images/docs/1.12/thermal-foundation/crude-oil.gif){:style="height: 128px"}
+![Crude oil](/images/docs/1.12/thermal-foundation/crude-oil.gif)
 
 
 **Crude oil** is a fluid obtained from [oil sand](../oil-sand/) and [oil
@@ -50,10 +50,10 @@ Crude oil can be placed as a block using a
 flammable.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Fractionating Still ingredient
-{{<recipe_table type="refinery' recipe-ids=page.usage-recipes.refinery">}}
+{{<recipe_table type="refinery" ids_param="usage-recipes.refinery">}}
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/), a bucket

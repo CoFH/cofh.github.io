@@ -10,9 +10,8 @@ This page lists the available types of features that can be generated in the
 world using [CoFH World](../../). The feature types to use are specified when
 describing [features](../feature-format/).
 
-<div class="uk-overflow-container" markdown="block">
 | Feature type | Description |
-|---
+|---|---|
 | [`cluster`](../feature-types/cluster/) | A somewhat round deposit of blocks; often used for generating ores. |
 | [`sparse-cluster`](../feature-types/sparse-cluster/) | Like `cluster`, but generates more rarely with smaller sizes. |
 | [`large-vein`](../feature-types/large-vein/) | A deposit consisting of a group of branches that start from a center point; can get very large. |
@@ -29,5 +28,3 @@ describing [features](../feature-format/).
 | [`structure`](../feature-types/structure/) | A structure loaded from an NBT file. |
 | [`sequential`](../feature-types/sequential/) | Multiple features at the same location, one after the other. |
 | [`consecutive`](../feature-types/consecutive/) | Loops through a list of features, generating one at a time. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>

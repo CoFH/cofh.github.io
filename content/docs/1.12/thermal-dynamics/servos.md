@@ -153,15 +153,12 @@ Tiers
 
 Servos come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Tier | Item extraction rate | Max. item stack size | Item speed boost | Item filter options | Extracts from multiple slots | Configurable item routing | Fluid extraction rate | Filter slots |
-|---
+|---|---|---|---|---|---|---|---|---|
 | Basic | 3s | 8 | - | Blacklist/Whitelist | No | No | 50% | 3 |
 | Hardened | 2s | 16 | - | Blacklist/Whitelist, Metadata | No | No | 75% | 6 |
 | Reinforced | 1s | 32 | - | All | No | Yes | 100% | 9 |
 | Signalum | 0.5s | 64 | × 2 | All | Yes | Yes | 150% | 12 |
 | Resonant | 0.5s | 64 | × 3 | All | Yes | Yes | 200% | 15 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small}
-</div>
-{::options parse_block_html="false" /}
+
+

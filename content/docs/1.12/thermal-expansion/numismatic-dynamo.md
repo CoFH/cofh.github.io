@@ -112,18 +112,18 @@ Tiers
 
 Numismatic dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power output | Augment slots |
-|---
+|---|---|---|
 | Basic | 40 RF/t | 0 |
 | Hardened | 60 RF/t | 1 |
 | Reinforced | 80 RF/t | 2 |
 | Signalum | 100 RF/t | 3 |
 | Resonant / Creative | 120 RF/t | 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -146,7 +146,7 @@ The following items can be consumed by a numismatic dynamo to generate varying
 amounts of energy.
 
 | Fuel | Energy per unit |
-|---
+|---|---|
 | [Emerald](https://minecraft.gamepedia.com/Emerald) | 200,000 RF |
 | [Iron Coin](../../thermal-foundation/iron-coin/) | 30,000 RF |
 | [Gold Coin](../../thermal-foundation/gold-coin/) | 40,000 RF |
@@ -167,4 +167,4 @@ amounts of energy.
 | [Signalum Coin](../../thermal-foundation/signalum-coin/) | 100,000 RF |
 | [Lumium Coin](../../thermal-foundation/lumium-coin/) | 100,000 RF |
 | [Enderium Coin](../../thermal-foundation/enderium-coin/) | 150,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-emerald-from-nuggets
 ---
 
-![Emerald nugget](/images/docs/1.12/thermal-foundation/nugget-emerald.png){:style="height: 128px"}
+![Emerald nugget](/images/docs/1.12/thermal-foundation/nugget-emerald.png)
 
 
 **Emerald nuggets** are raw materials. They are the nugget form of
@@ -31,4 +31,4 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}

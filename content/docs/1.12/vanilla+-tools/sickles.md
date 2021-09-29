@@ -44,22 +44,22 @@ breaks only one block at a time.
 Sickles use 1 durability for every individual block broken.
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses * 4
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Attack speed | Attack damage | Enchantability |
-|---
+|---|---|---|---|---|
 | Wood | 236 | 1.4 | 3.5 | 15 |
 | Stone | 524 | 1.4 | 4.5 | 5 |
 | Iron | 1,000 | 1.4 | 5.5 | 14 |
 | Gold | 128 | 1.4 | 3.5 | 22 |
 | Diamond | 6,244 | 1.4 | 6.5 | 10 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Enchantments
 Sickles can be enchanted with the following

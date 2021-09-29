@@ -20,7 +20,7 @@ usage-recipes:
   - tf-1-12-ore-processing-platinum
 ---
 
-![Platinum ore](/images/docs/1.12/thermal-foundation/ore-platinum.png){:style="height: 128px"}
+![Platinum ore](/images/docs/1.12/thermal-foundation/ore-platinum.png)
 
 
 **Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
@@ -44,16 +44,16 @@ Usage
 -----
 
 ### Smelting
-{{<recipe_table type="smelting' recipe-ids=page.usage-recipes.smelting">}}
+{{<recipe_table type="smelting" ids_param="usage-recipes.smelting">}}
 
 ### Crafting
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Pulverizer
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}
 
 ### Induction Smelter
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Smashing
 When platinum ore is broken using a [Smashing](../../cofh-core/smashing/)

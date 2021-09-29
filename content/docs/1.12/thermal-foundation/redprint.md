@@ -10,7 +10,7 @@ subjects:
 title: Redprint
 ---
 
-![Redprint](/images/docs/1.12/thermal-foundation/redprint.png){:style="height: 128px"}
+![Redprint](/images/docs/1.12/thermal-foundation/redprint.png)
 
 
 **Redprints** are items that can copy the configuration of certain blocks to

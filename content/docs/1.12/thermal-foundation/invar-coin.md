@@ -10,7 +10,7 @@ subjects:
 title: Invar Coin
 ---
 
-![Invar coin](/images/docs/1.12/thermal-foundation/coin-invar.png){:style="height: 128px"}
+![Invar coin](/images/docs/1.12/thermal-foundation/coin-invar.png)
 
 
 **Invar coins** are materials made of [invar](../invar-ingot/) that can be

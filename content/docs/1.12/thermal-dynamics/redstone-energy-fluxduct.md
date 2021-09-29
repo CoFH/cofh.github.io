@@ -42,4 +42,4 @@ A redstone energy fluxduct works the same way as most other
 [fluxducts](../fluxducts/). It transfers up to 9,000 RF/t per connection.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}

@@ -29,7 +29,7 @@ usage-recipes:
   - blitz-powder
 ---
 
-![Niter](/images/docs/1.12/thermal-foundation/niter.png){:style="height: 128px"}
+![Niter](/images/docs/1.12/thermal-foundation/niter.png)
 
 
 **Niter** is a byproduct of processing
@@ -57,10 +57,10 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 
 Trivia

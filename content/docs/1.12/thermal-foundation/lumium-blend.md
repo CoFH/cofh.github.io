@@ -20,7 +20,7 @@ usage-recipes:
   - hardened-glass-lumium
 ---
 
-![Lumium blend](/images/docs/1.12/thermal-foundation/dust-lumium.png){:style="height: 128px"}
+![Lumium blend](/images/docs/1.12/thermal-foundation/dust-lumium.png)
 
 
 **Lumium blend** is a raw material. It is the dust form of
@@ -47,10 +47,10 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Centrifugal Separator ingredient
-{{<recipe_table type="centrifuge' recipe-ids=page.usage-recipes.centrifuge">}}
+{{<recipe_table type="centrifuge" ids_param="usage-recipes.centrifuge">}}

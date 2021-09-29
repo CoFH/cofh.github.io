@@ -12,7 +12,7 @@ usage-recipes:
   - fluid-ore-processing-ender
 ---
 
-![Resonant end stone](/images/docs/1.12/thermal-foundation/ore-fluid-ender.png){:style="height: 128px"}
+![Resonant end stone](/images/docs/1.12/thermal-foundation/ore-fluid-ender.png)
 
 
 **Resonant end stone** is a fairly common
@@ -45,10 +45,10 @@ Usage
 -----
 
 ### Pulverizer
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}
 
 ### Magma Crucible
-{{<recipe_table type="crucible' recipe-ids=page.usage-recipes.crucible">}}
+{{<recipe_table type="crucible" ids_param="usage-recipes.crucible">}}
 
 ### Light source
 Resonant end stone emits a light level of 3.

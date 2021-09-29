@@ -16,13 +16,13 @@ ingredients to [awkward
 potions](https://minecraft.gamepedia.com/Potion#Base_potions).
 
 | Potion | Ingredient |
-|---
+|---|---|
 | Potion of Haste | [Basalz Powder](../basalz-powder/) |
 | Potion of Resistance | [Pulverized Obsidian](../pulverized-obsidian/) |
 | Potion of Levitation | [Blitz Powder](../blitz-powder/) |
 | Potion of Absorption | [Blizz Powder](../blizz-powder/) |
 | Potion of Luck | [Emerald](https://minecraft.gamepedia.com/Emerald) |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 Potions of misfortune and decay can be brewed by adding [fermented spider
 eyes](https://minecraft.gamepedia.com/Fermented_Spider_Eye) to potions of luck

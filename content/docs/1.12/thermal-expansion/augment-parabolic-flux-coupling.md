@@ -45,15 +45,10 @@ capacitor at a time for each player.
 Parabolic flux coupling also greatly increases an energetic infuser's maximum
 charging rate.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Tier | Max. charging rate |
-|---
+|---|---|
 | Basic | 1,000 RF/t |
 | Hardened | 4,000 RF/t |
 | Reinforced | 9,000 RF/t |
 | Signalum | 16,000 RF/t |
 | Resonant / Creative | 25,000 RF/t |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}

@@ -37,10 +37,8 @@ Installed auxiliary reception coils increase a [machine](../machines/)'s
 maximum power usage, thereby increasing its processing speed. However, they also
 increase the amount of energy required per operation.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Installed amount | Max. power usage multiplier | Energy increase |
-|---
+|---|---|---|
 | 1 | × 2 | + 10% |
 | 2 | × 3 | + 20% |
 | 3 | × 4 | + 30% |
@@ -50,9 +48,7 @@ increase the amount of energy required per operation.
 | 7 | × 8 | + 70% |
 | 8 | × 9 | + 80% |
 | 9 | × 10 | + 90% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
 
 If auxiliary reception coils are installed together with other augments that
 increase the amount of energy required per operation, their energy increase

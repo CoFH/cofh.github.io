@@ -108,12 +108,12 @@ A satchel can be enchanted with [Holding](../../cofh-core/holding/) to increase
 its capacity.
 
 | Holding level | Capacity increase (slots) |
-|---
+|---|---|
 | I | + 9 |
 | II | + 18 |
 | III | + 27 |
 | IV | + 36 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Tiers
@@ -121,16 +121,16 @@ Tiers
 
 Satchels come in five tiers.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Type | Capacity (slots) | Auto-collect filter slots | Note |
-|---
+|---|---|---|---|
 | Basic | 9 | 3 |
 | Iron | 18 | 6 |
 | Gold | 27 | 9 |
 | Diamond | 36 | 12 |
 | Emerald | 45 | 15 |
 | Void | 1 | 15 | Destroys any items it receives. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

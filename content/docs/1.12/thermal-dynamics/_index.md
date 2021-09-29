@@ -5,7 +5,7 @@ cascade:
   mods: thermal dynamics
 ---
 
-![Thermal Dynamics logo](/images/logos/1.12/thermal-dynamics.png){:.cofh-mod-page-logo}
+![Thermal Dynamics logo](/images/logos/1.12/thermal-dynamics.png)
 
 
 **Thermal Dynamics** is a mod for Minecraft 1.12. It adds blocks that transfer

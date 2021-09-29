@@ -46,4 +46,4 @@ However, items inside it move at a speed of 2 blocks per second (10 ticks per
 block); four times as fast as they would in a regular itemduct.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}

@@ -9,7 +9,7 @@ subjects:
 title: Aqueous Accumulator
 ---
 
-![Aqueous accumulator](/images/docs/1.12/thermal-expansion/aqueous-accumulator.png){:style="height: 128px"}
+![Aqueous accumulator](/images/docs/1.12/thermal-expansion/aqueous-accumulator.png)
 
 > No, it does not work with lava. You monster.
 
@@ -43,13 +43,13 @@ source blocks, an aqueous accumulator will start producing water. The rate at
 which water is produced depends on the amount of adjacent water sources.
 
 | Adjacent water sources | Production rate |
-|---
+|---|---|
 | 2 | 100 mB/t |
 | 3 | 200 mB/t |
 | 4 | 300 mB/t |
 | 5 | 400 mB/t |
 | 6 | 500 mB/t |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 Water is not actually produced every tick, but in batches every 40 ticks (2
 seconds).

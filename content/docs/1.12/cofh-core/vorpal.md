@@ -26,11 +26,11 @@ Vorpal, there is a chance of them dropping their
 enchantment level.
 
 | Vorpal level | Increased damage chance | Head drop chance |
-|---
+|---|---|---|
 | I | 5% | 20% |
 | II | 10% | 40% |
 | III | 15% | 60% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Trivia

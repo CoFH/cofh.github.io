@@ -36,10 +36,8 @@ effects.
 Installed auxiliary transmission coils increase a [dynamo](../dynamos/)'s
 maximum power output, thereby increasing its energy production speed.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Installed amount | Max. power output multiplier |
-|---
+|---|---|
 | 1 | × 2 |
 | 2 | × 3 |
 | 3 | × 4 |
@@ -49,6 +47,3 @@ maximum power output, thereby increasing its energy production speed.
 | 7 | × 8 |
 | 8 | × 9 |
 | 9 | × 10 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}

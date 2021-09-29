@@ -118,18 +118,13 @@ Tiers
 
 Arcane ensorcellators come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
+|---|---|---|---|
 | Basic | 20 RF/t | 0 | 16 |
 | Hardened | 30 RF/t | 1 | 16 |
 | Reinforced | 40 RF/t | 2 | 28 |
 | Signalum | 50 RF/t | 3 | 44 |
 | Resonant | 60 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -155,10 +150,8 @@ books](https://minecraft.gamepedia.com/Enchanted_Book) with the following
 [books](https://minecraft.gamepedia.com/Books) with certain items and [essence
 of knowledge](../../thermal-foundation/essence-of-knowledge/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Enchantment | Item | Essence of Knowledge | Energy |
-|---
+|---|---|---|---|
 | [Unbreaking I](https://minecraft.gamepedia.com/Unbreaking) | [Obsidian](https://minecraft.gamepedia.com/Obsidian) | 1,500 mB | 12,000 RF |
 | [Mending](https://minecraft.gamepedia.com/Mending) | [Nether Star](https://minecraft.gamepedia.com/Nether_Star) | 5,000 mB | 40,000 RF |
 |
@@ -204,6 +197,4 @@ of knowledge](../../thermal-foundation/essence-of-knowledge/).
 | [Smashing](../../cofh-core/smashing/) | [Petrotheum Dust](../../thermal-foundation/petrotheum-dust/) | 3,000 mB | 24,000 RF |
 | [Smelting](../../cofh-core/smelting/) | [Pyrotheum Dust](../../thermal-foundation/pyrotheum-dust/) | 3,000 mB | 24,000 RF |
 | [Vorpal I](../../cofh-core/vorpal/) | [Wither Skeleton Skull](https://minecraft.gamepedia.com/Wither_Skeleton_Skull) | 5,000 mB | 40,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+

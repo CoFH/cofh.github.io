@@ -32,7 +32,7 @@ Options
 When using this distribution type, the following values may be added to the
 [feature entry](../../feature-format/#features).
 
-<div class="uk-overflow-container">
+
     <table class="uk-table uk-table-striped uk-text-small">
         <thead>
             <tr>
@@ -82,7 +82,7 @@ When using this distribution type, the following values may be added to the
             </tr>
         </tbody>
     </table>
-</div>
+
 
 
 Examples

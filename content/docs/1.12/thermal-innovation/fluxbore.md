@@ -103,22 +103,22 @@ fluxbore has a chance to not consume [Redstone Flux](/docs/redstone-flux/) when
 used.
 
 | Unbreaking level | No energy use chance |
-|---
+|---|---|
 | I | 33% |
 | II | 50% |
 | III | 60% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 A fluxbore can also be enchanted with [Holding](../../cofh-core/holding/) to increase its
 energy capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Tiers
@@ -126,16 +126,11 @@ Tiers
 
 Fluxbores come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Tier | Capacity | Max. charge rate | Mining speed | Harvest level | Max. area mining mode | Attack damage | Enchantability | Note |
-|---
+|---|---|---|---|---|---|---|---|---|
 | Basic | 40,000 RF | 1,000 RF/t | 6 | 2 | Tunnel: 1x2 | 4 | 10 | Comparable to iron tools. |
 | Hardened | 120,000 RF | 4,000 RF/t | 7.5 | 2 | Area: 3x3 | 4.5 | 10 |
 | Reinforced | 240,000 RF | 9,000 RF/t | 9 | 3 | Area: 3x3 | 5 | 15 | Comparable to diamond tools. |
 | Signalum | 400,000 RF | 16,000 RF/t | 10.5 | 3 | Area: 3x3x3 | 5.5 | 15 |
 | Resonant | 600,000 RF | 25,000 RF/t | 12 | 4 | Area: 5x5 | 6 | 20 |
 | Creative | N/A | N/A | 12 | 4 | Area: 5x5 | 6 | 20 | Does not consume energy. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small}
-</div>
-{::options parse_block_html="false" /}

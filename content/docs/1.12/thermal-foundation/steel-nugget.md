@@ -13,7 +13,7 @@ usage-recipes:
   - tf-1-12-ingot-steel-from-nuggets
 ---
 
-![Steel nugget](/images/docs/1.12/thermal-foundation/nugget-steel.png){:style="height: 128px"}
+![Steel nugget](/images/docs/1.12/thermal-foundation/nugget-steel.png)
 
 
 **Steel nuggets** are raw materials. They are the nugget form of
@@ -31,4 +31,4 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}

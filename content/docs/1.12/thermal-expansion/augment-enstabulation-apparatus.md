@@ -51,10 +51,8 @@ Recipes
 When an output is listed with an amount, up to that amount of the output may be
 produced at a time.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Captured mob | Output (chance) | Essence of Knowledge output |
-|---
+|---|---|---|
 | [Bat](https://minecraft.gamepedia.com/Bat) | [Leather](https://minecraft.gamepedia.com/Leather) (5%) | 0 mB |
 | [Chicken](https://minecraft.gamepedia.com/Chicken) | [Feather](https://minecraft.gamepedia.com/Feather) × 2 (50%), [Raw Chicken](https://minecraft.gamepedia.com/Raw_Chicken) (100%) | 40 mB |
 | [Cow](https://minecraft.gamepedia.com/Cow) | [Leather](https://minecraft.gamepedia.com/Leather) × 2 (50%), [Raw Beef](https://minecraft.gamepedia.com/Raw_Beef) × 3 (70%) | 40 mB |
@@ -102,6 +100,4 @@ produced at a time.
 | [Blizz](../../thermal-foundation/blizz/) | [Blizz Rod](../../thermal-foundation/blizz-rod/) (50%), [Snowball](https://minecraft.gamepedia.com/Snowball) × 4 (25%) | 200 mB |
 | [Blitz](../../thermal-foundation/blitz/) | [Blitz Rod](../../thermal-foundation/blitz-rod/) (50%), [Niter](../../thermal-foundation/niter/) × 2 (25%) | 200 mB |
 | [Basalz](../../thermal-foundation/basalz/) | [Basalz Rod](../../thermal-foundation/basalz-rod/) (50%), [Pulverized Obsidian](../../thermal-foundation/pulverized-obsidian/) × 2 (25%) | 200 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+

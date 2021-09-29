@@ -53,4 +53,4 @@ Upgrade kits can be combined into [conversion kits](../conversion-kits/),
 which fully upgrade blocks to a certain [tier](../tiers/) regardless of their
 current tier.
 
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}

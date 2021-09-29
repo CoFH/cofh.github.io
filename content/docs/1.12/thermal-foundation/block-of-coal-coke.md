@@ -48,4 +48,4 @@ block of coal coke lasts 1,600 seconds, which is enough to smelt up to 160
 items. It lasts slightly longer than 9 individual pieces of coal coke.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}

@@ -12,7 +12,7 @@ usage-recipes:
   - fluid-ore-processing-oil-shale
 ---
 
-![Oil shale](/images/docs/1.12/thermal-foundation/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
+![Oil shale](/images/docs/1.12/thermal-foundation/ore-fluid-crude-oil-gravel.png)
 
 
 **Oil shale** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
@@ -56,10 +56,10 @@ Usage
 -----
 
 ### Pulverizer
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}
 
 ### Magma Crucible
-{{<recipe_table type="crucible' recipe-ids=page.usage-recipes.crucible">}}
+{{<recipe_table type="crucible" ids_param="usage-recipes.crucible">}}
 
 
 Trivia

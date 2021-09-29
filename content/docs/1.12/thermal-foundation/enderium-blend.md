@@ -20,7 +20,7 @@ usage-recipes:
   - hardened-glass-enderium
 ---
 
-![Enderium blend](/images/docs/1.12/thermal-foundation/dust-enderium.png){:style="height: 128px"}
+![Enderium blend](/images/docs/1.12/thermal-foundation/dust-enderium.png)
 
 
 **Enderium blend** is a raw material. It is the dust form of
@@ -47,10 +47,10 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Centrifugal Separator ingredient
-{{<recipe_table type="centrifuge' recipe-ids=page.usage-recipes.centrifuge">}}
+{{<recipe_table type="centrifuge" ids_param="usage-recipes.centrifuge">}}

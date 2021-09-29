@@ -13,7 +13,7 @@ usage-recipes:
   - bucket-mana
 ---
 
-![Primal mana](/images/docs/1.12/thermal-foundation/primal-mana.gif){:style="height: 128px"}
+![Primal mana](/images/docs/1.12/thermal-foundation/primal-mana.gif)
 
 
 **Primal mana** is a fluid that currently cannot be obtained.
@@ -73,4 +73,4 @@ Primal mana has the following effects on certain blocks:
 
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}

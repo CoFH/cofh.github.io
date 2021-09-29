@@ -120,18 +120,13 @@ Tiers
 
 Alchemical imbuers come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Tier | Max. power usage | Augment slots | Max. fluid per auto-transfer | Max. items per auto-transfer |
-|---
+|---|---|---|---|---|
 | Basic | 20 RF/t | 0 | 1,000 mB | 16 |
 | Hardened | 30 RF/t | 1 | 1,000 mB | 16 |
 | Reinforced | 40 RF/t | 2 | 3,000 mB | 28 |
 | Signalum | 50 RF/t | 3 | 6,000 mB | 44 |
 | Resonant | 60 RF/t | 4 | 10,000 mB | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
 
 
 Augmentation

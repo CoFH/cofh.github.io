@@ -15,6 +15,7 @@ image:
 category: blocks
 subcategory: devices
 subcategory_main: true
+mods: [thermal expansion, thermal innovation, thermal cultivation]
 ---
 
 WIP
@@ -22,7 +23,7 @@ WIP
 List of Machines
 ---------
 
-{::options parse_block_html="true" /}
+
 <div class="uk-overflow-container">
 | Machine | Description |
 |---
@@ -37,9 +38,9 @@ List of Machines
 | [Hive Hopper](../../thermal-cultivation/hive-hopper/) | WIP. |
 | [Phyto Soil Infuser](../../thermal-cultivation/phyto-soil-infuser/) | WIP. |
 | [Aquatic Entangler](../../thermal-cultivation/aquatic-entangler/) | WIP. |
-{:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}
+
 </div>
-{::options parse_block_html="false" /}
+
 
 Usage
 -----

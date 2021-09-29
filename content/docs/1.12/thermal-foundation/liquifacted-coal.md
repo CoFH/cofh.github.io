@@ -17,7 +17,7 @@ usage-recipes:
   - bucket-coal
 ---
 
-![Liquifacted coal](/images/docs/1.12/thermal-foundation/liquifacted-coal.gif){:style="height: 128px"}
+![Liquifacted coal](/images/docs/1.12/thermal-foundation/liquifacted-coal.gif)
 
 > Liquifaction is salvation!
 
@@ -44,10 +44,10 @@ Usage
 Liquifacted coal cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Fractionating Still ingredient
-{{<recipe_table type="refinery' recipe-ids=page.usage-recipes.refinery">}}
+{{<recipe_table type="refinery" ids_param="usage-recipes.refinery">}}
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/), a bucket

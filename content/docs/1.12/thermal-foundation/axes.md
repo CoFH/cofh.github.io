@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-tool-axe-constantan
 ---
 
-![Axes](/images/docs/1.12/thermal-foundation/axes.gif){:style="height: 128px"}
+![Axes](/images/docs/1.12/thermal-foundation/axes.gif)
 
 
 **[Axes](https://minecraft.gamepedia.com/Axe)** are tools in vanilla Minecraft.
@@ -54,14 +54,14 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Mining speed | Attack speed | Attack damage | Enchantability |
-|---
+|---|---|---|---|---|---|
 | Wood | 59 | 2 | 0.8 | 7 | 15 |
 | Stone | 131 | 4 | 0.8 | 9 | 5 |
 | Iron | 250 | 6 | 0.9 | 9 | 14 |
@@ -80,9 +80,9 @@ uses = mat.maxUses
 | Invar | 425 | 6.5 | 0.9 | 9 | 12 |
 | Bronze | 325 | 6 | 0.9 | 9 | 10 |
 | Constantan | 275 | 6 | 0.9 | 9 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

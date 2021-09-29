@@ -39,7 +39,7 @@ A filled morb can be thrown to release the contained
 breaking after releasing the mob.
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Centrifugal Separator with Enstabulation Apparatus
 A [centrifugal separator](../centrifugal-separator/) with

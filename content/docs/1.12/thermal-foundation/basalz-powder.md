@@ -21,7 +21,7 @@ usage-recipes:
   - tf-1-12-dust-petrotheum
 ---
 
-![Basalz powder](/images/docs/1.12/thermal-foundation/basalz-powder.gif){:style="height: 128px"}
+![Basalz powder](/images/docs/1.12/thermal-foundation/basalz-powder.gif)
 
 
 **Basalz powder** is a material that is most commonly obtained from [basalz
@@ -50,7 +50,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Brewing ingredient
 When [brewing](https://minecraft.gamepedia.com/Brewing), basalz powder can be
@@ -59,4 +59,4 @@ potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
 of haste](../../cofh-core/potions/).
 
 ### Compactor ingredient
-{{<recipe_table type="compactor' recipe-ids=page.usage-recipes.compactor">}}
+{{<recipe_table type="compactor" ids_param="usage-recipes.compactor">}}

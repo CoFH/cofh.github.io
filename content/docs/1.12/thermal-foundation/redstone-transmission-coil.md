@@ -20,7 +20,7 @@ usage-recipes:
   - te-1-12-augment-dynamo-power
 ---
 
-![Redstone transmission coil](/images/docs/1.12/thermal-foundation/redstone-coil-silver.png){:style="height: 128px"}
+![Redstone transmission coil](/images/docs/1.12/thermal-foundation/redstone-coil-silver.png)
 
 
 **Redstone transmission coils** are crafting materials made of
@@ -40,4 +40,4 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}

@@ -10,7 +10,7 @@ subjects:
 title: Iridium Coin
 ---
 
-![Iridium coin](/images/docs/1.12/thermal-foundation/coin-iridium.png){:style="height: 128px"}
+![Iridium coin](/images/docs/1.12/thermal-foundation/coin-iridium.png)
 
 
 **Iridium coins** are materials made of [iridium](../iridium-ingot/) that can

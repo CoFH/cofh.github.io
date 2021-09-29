@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-armor-leggings-constantan
 ---
 
-![Leggings](/images/docs/1.12/thermal-foundation/leggings.gif){:style="height: 128px"}
+![Leggings](/images/docs/1.12/thermal-foundation/leggings.gif)
 
 
 **[Leggings](https://minecraft.gamepedia.com/Leggings)** are a type of
@@ -55,15 +55,15 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 durability = mat.durability * 15
 defense = mat.reductionAmounts[1]
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Durability | Defense | Toughness | Enchantability |
-|---
+|---|---|---|---|---|
 | Leather | 75 | 2 | | 15 |
 | Chain | 225 | 4 | | 12 |
 | Iron | 225 | 5 | | 9 |
@@ -82,9 +82,9 @@ defense = mat.reductionAmounts[1]
 | Invar | 315 | 5 | 1 | 12 |
 | Bronze | 270 | 6 | 1 | 10 |
 | Constantan | 195 | 4 | | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

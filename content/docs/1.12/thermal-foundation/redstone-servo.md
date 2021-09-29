@@ -43,7 +43,7 @@ usage-recipes:
   - te-1-12-augment-machine-extruder-no-water
 ---
 
-![Redstone servo](/images/docs/1.12/thermal-foundation/redstone-servo.png){:style="height: 128px"}
+![Redstone servo](/images/docs/1.12/thermal-foundation/redstone-servo.png)
 
 
 **Redstone servos** are crafting materials made of
@@ -64,4 +64,4 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}

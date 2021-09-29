@@ -45,7 +45,7 @@ usage-recipes:
   - recycling-tool-hammer-constantan
 ---
 
-![Hammers](/images/docs/1.12/thermal-foundation/hammers.gif){:style="height: 128px"}
+![Hammers](/images/docs/1.12/thermal-foundation/hammers.gif)
 
 
 **Hammers** are [pickaxe](https://minecraft.gamepedia.com/Pickaxe)-like tools
@@ -70,14 +70,14 @@ well if possible. This can be temporarily disabled by sneaking.
 Hammers use 1 durability for every individual block mined.
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses * 2
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Mining speed | Harvest level | Attack speed | Attack damage | Enchantability |
-|---
+|---|---|---|---|---|---|---|
 | Wood | 118 | 2 | 0 | 0.6 | 8 | 15 |
 | Stone | 262 | 4 | 1 | 0.6 | 11 | 5 |
 | Iron | 500 | 6 | 2 | 0.7 | 11 | 14 |
@@ -96,9 +96,9 @@ uses = mat.maxUses * 2
 | Invar | 850 | 6.5 | 2 | 0.7 | 11 | 12 |
 | Bronze | 650 | 6 | 2 | 0.7 | 11 | 10 |
 | Constantan | 550 | 6 | 2 | 0.7 | 11 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Enchantments
 Hammers can receive the same enchantments that
@@ -107,7 +107,7 @@ Touch](https://minecraft.gamepedia.com/Silk_Touch) and
 [Fortune](https://minecraft.gamepedia.com/Fortune).
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}

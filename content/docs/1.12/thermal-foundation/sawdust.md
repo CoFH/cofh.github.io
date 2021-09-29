@@ -50,7 +50,7 @@ usage-recipes:
   - te-1-12-florb-magmatic-using-rosin
 ---
 
-![Sawdust](/images/docs/1.12/thermal-foundation/sawdust.png){:style="height: 128px"}
+![Sawdust](/images/docs/1.12/thermal-foundation/sawdust.png)
 
 
 **Sawdust** is a material commonly obtained as a byproduct from
@@ -71,5 +71,5 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}

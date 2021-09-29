@@ -52,10 +52,10 @@ its reagent slot. Reagent will boost the device's effects for 15 cycles per
 item.
 
 | Reagent type | Effect |
-|---
+|---|---|
 | [Redstone](https://minecraft.gamepedia.com/Redstone) | Doubles the duration of the applied effect. |
 | [Glowstone Dust](https://minecraft.gamepedia.com/Glowstone_Dust) | Increases the potency of the applied effect by one level. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 Effects applied by decoctive diffusers are limited to durations up to 6 minutes
 and levels up to IV, regardless of the supplied potion or reagent.

@@ -12,7 +12,7 @@ Summary
 
 All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 
-{::options parse_block_html="true" /}
+
 <div class="uk-overflow-container">
 | Command | Description |
 |---
@@ -25,9 +25,9 @@ All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 | [invul](#invul) | Makes the target invulnerable. |
 | [repair](#repair) | Fully repairs the equipment of players. |
 | [zap](#zap) | Causes entities to be struck by [lightning](https://minecraft.gamepedia.com/Lightning). |
-{:.uk-table .uk-table-striped}
+
 </div>
-{::options parse_block_html="false" /}
+
 
 
 Details

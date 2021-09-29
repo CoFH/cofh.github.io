@@ -21,7 +21,7 @@ usage-recipes:
   - te-1-12-morb-using-rosin
 ---
 
-![Rosin](/images/docs/1.12/thermal-foundation/rosin.png){:style="height: 128px"}
+![Rosin](/images/docs/1.12/thermal-foundation/rosin.png)
 
 
 **Rosin** is a byproduct of processing [resin](../resin/) in a [fractionating
@@ -41,8 +41,8 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shaped' recipe-ids=page.usage-recipes.crafting-shaped">}}
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shaped" ids_param="usage-recipes.crafting-shaped">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one

@@ -50,7 +50,7 @@ subjects:
 title: Magma Crucible
 ---
 
-![Magma crucible](/images/docs/1.12/thermal-expansion/magma-crucible.png){:style="height: 128px"}
+![Magma crucible](/images/docs/1.12/thermal-expansion/magma-crucible.png)
 
 > Yes, it can make lava. You monster.
 
@@ -151,18 +151,18 @@ Tiers
 
 Magma crucibles come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer |
-|---
+|---|---|---|---|---|
 | Basic | 40 RF/t | 0 | 16 | 1,000 mB |
 | Hardened | 60 RF/t | 1 | 16 | 1,000 mB |
 | Reinforced | 80 RF/t | 2 | 28 | 3,000 mB |
 | Signalum | 100 RF/t | 3 | 44 | 6,000 mB |
 | Resonant | 120 RF/t | 4 | 64 | 10,000 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -181,4 +181,4 @@ Augments can be installed in the Augmentation tab in a crucible's GUI.
 Recipes
 -------
 
-{{<recipe_table type="crucible' recipe-ids=page.recipe-list">}}
+{{<recipe_table type="crucible" ids_param="recipe-list">}}

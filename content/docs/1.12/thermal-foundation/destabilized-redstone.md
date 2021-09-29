@@ -32,7 +32,7 @@ usage-recipes:
   - ra-1-12-flux-crystal
 ---
 
-![Destabilized redstone](/images/docs/1.12/thermal-foundation/destabilized-redstone.gif){:style="height: 128px"}
+![Destabilized redstone](/images/docs/1.12/thermal-foundation/destabilized-redstone.gif)
 
 > Behold, the Redstone Revolution!
 
@@ -78,10 +78,10 @@ Any item that contains at least one
 [bucket](https://minecraft.gamepedia.com/Bucket) worth of destabilized redstone
 may be used in these recipes.
 
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 ### Reactant Dynamo fuel
 Destabilized redstone can be used with

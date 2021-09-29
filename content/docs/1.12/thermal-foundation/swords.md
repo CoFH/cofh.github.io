@@ -35,7 +35,7 @@ usage-recipes:
   - recycling-weapon-sword-constantan
 ---
 
-![Swords](/images/docs/1.12/thermal-foundation/swords.gif){:style="height: 128px"}
+![Swords](/images/docs/1.12/thermal-foundation/swords.gif)
 
 
 **[Swords](https://minecraft.gamepedia.com/Sword)** are weapons in vanilla
@@ -54,14 +54,14 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Attack speed | Attack damage | Enchantability |
-|---
+|---|---|---|---|---|
 | Wood | 59 | 1.6 | 4 | 15 |
 | Stone | 131 | 1.6 | 5 | 5 |
 | Iron | 250 | 1.6 | 6 | 14 |
@@ -80,9 +80,9 @@ uses = mat.maxUses
 | Invar | 425 | 1.6 | 6.5 | 12 |
 | Bronze | 325 | 1.6 | 6 | 10 |
 | Constantan | 275 | 1.6 | 5.5 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 ### Induction Smelter ingredient
-{{<recipe_table type="smelter' recipe-ids=page.usage-recipes.smelter">}}
+{{<recipe_table type="smelter" ids_param="usage-recipes.smelter">}}

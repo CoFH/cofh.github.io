@@ -78,12 +78,12 @@ A flux capacitor can be enchanted with [Holding](../../cofh-core/holding/) to in
 capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Tiers
@@ -91,16 +91,16 @@ Tiers
 
 Flux capacitors come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Capacity | Max. charge rate | Max. discharge rate | Note |
-|---
+|---|---|---|---|---|
 | Basic | 1,000,000 RF | 2,000 RF/t | 1,000 RF/t |
 | Hardened | 4,000,000 RF | 8,000 RF/t | 4,000 RF/t |
 | Reinforced | 9,000,000 RF | 18,000 RF/t | 9,000 RF/t |
 | Signalum | 16,000,000 RF | 32,000 RF/t | 16,000 RF/t |
 | Resonant | 25,000,000 RF | 50,000 RF/t | 25,000 RF/t |
 | Creative | N/A | N/A | 250,000 RF/t | Provides an unlimited amount of energy. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

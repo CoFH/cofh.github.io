@@ -14,7 +14,7 @@ usage-recipes:
   - phyto-gro-rich
 ---
 
-![Sap](/images/docs/1.12/thermal-foundation/sap.gif){:style="height: 128px"}
+![Sap](/images/docs/1.12/thermal-foundation/sap.gif)
 
 
 **Sap** is a fluid obtained from oak and dark oak
@@ -48,4 +48,4 @@ Usage
 Sap cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}

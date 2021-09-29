@@ -35,20 +35,20 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses + 275
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses | Enchantability |
-|---
+|---|---|---|
 | Wood (vanilla) | 336 | 15 |
 |
 | Stone | 406 | 5 |
 | Iron | 525 | 14 |
 | Gold | 307 | 22 |
 | Diamond | 1,836 | 10 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

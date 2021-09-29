@@ -85,6 +85,7 @@ pulverizer:
 pyrolyzer:
   name: Pyrolyzer
   display_type: machine
+  energy: 2000
   inputs:
     item: 1
   outputs:

@@ -72,12 +72,12 @@ A strongbox can be enchanted with [Holding](../../cofh-core/holding/) to increas
 capacity.
 
 | Holding level | Capacity increase (slots) |
-|---
+|---|---|
 | I | +9 |
 | II | +18 |
 | III | +27 |
 | IV | +36 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 ### Redstone comparators
 When placed next to a strongbox with public access, a [redstone
@@ -90,16 +90,16 @@ Tiers
 
 Strongboxes come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Capacity (slots) | Note |
-|---
+|---|---|---|
 | Basic | 18 |
 | Hardened | 36 |
 | Reinforced | 54 |
 | Signalum | 72 |
 | Resonant | 90 |
 | Creative | 1 | Provides an unlimited amount of the item it stores. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

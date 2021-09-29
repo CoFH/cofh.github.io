@@ -75,12 +75,12 @@ A reservoir can be enchanted with [Holding](../../cofh-core/holding/) to increas
 capacity.
 
 | Holding level | Capacity multiplier |
-|---
+|---|---|
 | I | × 1.5 |
 | II | × 2 |
 | III | × 2.5 |
 | IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+
 
 
 Tiers
@@ -88,16 +88,16 @@ Tiers
 
 Reservoirs come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Capacity | Note |
-|---
+|---|---|---|
 | Basic | 10,000 mB |
 | Hardened | 40,000 mB |
 | Reinforced | 90,000 mB |
 | Signalum | 160,000 mB |
 | Resonant | 250,000 mB |
 | Creative | N/A | Provides an unlimited amount of the fluid it stores. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

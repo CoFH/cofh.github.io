@@ -35,20 +35,20 @@ Usage
 -----
 
 ### Comparison
-{% comment %}
+<!---
 uses = mat.maxUses - 12
-{% endcomment %}
+--->
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Material | Uses |
-|---
+|---|---|
 | Iron (vanilla) | 238 |
 |
 | Wood | 47 |
 | Stone | 119 |
 | Gold | 20 |
 | Diamond | 1,549 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+

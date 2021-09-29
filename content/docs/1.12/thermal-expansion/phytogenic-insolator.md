@@ -68,7 +68,7 @@ subjects:
 title: Phytogenic Insolator
 ---
 
-![Phytogenic insolator](/images/docs/1.12/thermal-expansion/phytogenic-insolator.png){:style="height: 128px"}
+![Phytogenic insolator](/images/docs/1.12/thermal-expansion/phytogenic-insolator.png)
 
 > Definitely not organic.
 
@@ -180,18 +180,18 @@ Tiers
 
 Phytogenic insolators come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
+|---|---|---|---|
 | Basic | 20 RF/t | 0 | 16 |
 | Hardened | 30 RF/t | 1 | 16 |
 | Reinforced | 40 RF/t | 2 | 28 |
 | Signalum | 50 RF/t | 3 | 44 |
 | Resonant | 60 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -216,10 +216,10 @@ once. The remainder of the chance (e.g. 25% for a 125% chance) becomes the
 chance of the secondary product being produced twice.
 
 ### Using Phyto-Gro
-{{<recipe_table type="insolator' recipe-ids=page.recipe-list.phyto-gro">}}
+{{<recipe_table type="insolator" ids_param="recipe-list.phyto-gro">}}
 
 ### Using rich Phyto-Gro
-{{<recipe_table type="insolator' recipe-ids=page.recipe-list.phyto-gro-rich">}}
+{{<recipe_table type="insolator" ids_param="recipe-list.phyto-gro-rich">}}
 
 ### Using fluxed Phyto-Gro
-{{<recipe_table type="insolator' recipe-ids=page.recipe-list.phyto-gro-fluxed">}}
+{{<recipe_table type="insolator" ids_param="recipe-list.phyto-gro-fluxed">}}

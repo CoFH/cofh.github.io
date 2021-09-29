@@ -61,16 +61,11 @@ Tiers
 
 Fluxducts come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Tier | Max. transfer per connection | Note |
-|---
+|---|---|---|
 | [Leadstone](../leadstone-fluxduct/) | 1,000 RF/t |
 | [Hardened](../hardened-fluxduct/) | 4,000 RF/t |
 | [Redstone Energy](../redstone-energy-fluxduct/) | 9,000 RF/t |
 | [Signalum](../signalum-fluxduct/) | 16,000 RF/t |
 | [Resonant](../resonant-fluxduct/) | 25,000 RF/t |
 | [Cryo-Stabilized](../cryo-stabilized-fluxduct/) | Unlimited |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}

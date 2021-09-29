@@ -17,10 +17,8 @@ corresponding potions in the base game. [Thermal
 Foundation](../../thermal-foundation/) adds [recipes](../../thermal-foundation/potion-recipes/)
 to obtain these potions.
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Potion | Effect | Has level II | Duration | (extended) | (level II) |
-|---
+|---|---|---|---|---|---|
 | Potion of Haste | [Haste](https://minecraft.gamepedia.com/Status_effect#Haste) | Yes | 3:00 | 8:00 | 1:30 |
 | Potion of Resistance | [Resistance](https://minecraft.gamepedia.com/Status_effect#Resistance) | Yes | 3:00 | 8:00 | 1:30 |
 | Potion of Levitation | [Levitation](https://minecraft.gamepedia.com/Status_effect#Levitation) | No | 3:00 | 8:00 | - |
@@ -28,9 +26,6 @@ to obtain these potions.
 | Potion of Luck | [Luck](https://minecraft.gamepedia.com/Status_effect#Luck) | Yes | 3:00 | 8:00 | 1:30 |
 | Potion of Misfortune | [Bad Luck](https://minecraft.gamepedia.com/Status_effect#Bad_Luck) | Yes | 1:30 | 4:00 | 0:45 |
 | Potion of Decay | [Wither](https://minecraft.gamepedia.com/Status_effect#Wither) | Yes | 0:45 | 1:30 | 0:22 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
 
 
 Stronger potions
@@ -43,10 +38,8 @@ II and III. When [Thermal Expansion](../../thermal-expansion/) is installed,
 these can be obtained using an [alchemical
 retort](../../thermal-expansion/augment-alchemical-retort/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
 | Potion | Duration (level III) | (level IV) | (extended level II) | (extended level III) |
-|---
+|---|---|---|---|---|
 | [Potion of Leaping](https://minecraft.gamepedia.com/Potion#Potion_of_Leaping) | 0:45 | 0:36 | 2:40 | 2:00 |
 | [Potion of Swiftness](https://minecraft.gamepedia.com/Potion#Potion_of_Swiftness) | 0:45 | 0:36 | 2:40 | 2:00 |
 | [Potion of Healing](https://minecraft.gamepedia.com/Potion#Potion_of_Healing) | - | - | - | - |
@@ -60,6 +53,4 @@ retort](../../thermal-expansion/augment-alchemical-retort/).
 | Potion of Luck | 0:45 | 0:36 | 2:40 | 2:00 |
 | Potion of Misfortune | 0:22 | 0:18 | 1:20 | 1:00 |
 | Potion of Decay | 0:11 | 0:09 | 0:30 | 0:22 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
-</div>
-{::options parse_block_html="false" /}
+

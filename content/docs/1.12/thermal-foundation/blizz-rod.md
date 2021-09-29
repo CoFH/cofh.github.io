@@ -15,7 +15,7 @@ usage-recipes:
   - blizz-powder
 ---
 
-![Blizz rod](/images/docs/1.12/thermal-foundation/blizz-rod.png){:style="height: 128px"}
+![Blizz rod](/images/docs/1.12/thermal-foundation/blizz-rod.png)
 
 
 **Blizz rods** are materials that are dropped by [blizzes](../blizz/). They
@@ -38,7 +38,7 @@ Usage
 -----
 
 ### Crafting ingredient
-{{<recipe_table type="crafting-shapeless' recipe-ids=page.usage-recipes.crafting-shapeless">}}
+{{<recipe_table type="crafting-shapeless" ids_param="usage-recipes.crafting-shapeless">}}
 
 ### Pulverizer ingredient
-{{<recipe_table type="pulverizer' recipe-ids=page.usage-recipes.pulverizer">}}
+{{<recipe_table type="pulverizer" ids_param="usage-recipes.pulverizer">}}

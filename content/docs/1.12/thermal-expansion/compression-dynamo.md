@@ -128,18 +128,18 @@ Tiers
 
 Compression dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
-<div class="uk-overflow-container">
+
+
 | Tier | Max. power output | Augment slots |
-|---
+|---|---|---|
 | Basic | 40 RF/t | 0 |
 | Hardened | 60 RF/t | 1 |
 | Reinforced | 80 RF/t | 2 |
 | Signalum | 100 RF/t | 3 |
 | Resonant / Creative | 120 RF/t | 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
-</div>
-{::options parse_block_html="false" /}
+
+
+
 
 
 Augmentation
@@ -162,7 +162,7 @@ The following fluids can be consumed by a compression dynamo to generate varying
 amounts of energy.
 
 | Fuel | Energy per 1,000 mB |
-|---
+|---|---|
 | [Creosote Oil](../../thermal-foundation/creosote-oil/) | 40,000 RF |
 | [Seed Oil](../../thermal-foundation/seed-oil/) | 80,000 RF |
 | [Liquifacted Coal](../../thermal-foundation/liquifacted-coal/) | 400,000 RF |
@@ -192,4 +192,4 @@ amounts of energy.
 | Diesel ([Immersive Petroleum](https://minecraft.curseforge.com/projects/immersive-petroleum)) | 800,000 RF |
 | Gasoline ([Immersive Petroleum](https://minecraft.curseforge.com/projects/immersive-petroleum)) | 1,200,000 RF |
 | Biogas ([IndustrialCraft²](https://www.industrial-craft.net/)) | 50,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+

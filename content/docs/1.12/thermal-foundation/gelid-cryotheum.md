@@ -20,7 +20,7 @@ usage-recipes:
   - td-1-12-fluxduct-super
 ---
 
-![Gelid cryotheum](/images/docs/1.12/thermal-foundation/gelid-cryotheum.gif){:style="height: 128px"}
+![Gelid cryotheum](/images/docs/1.12/thermal-foundation/gelid-cryotheum.gif)
 
 > This is also worse than lava, except cold. You yeti.
 
@@ -84,7 +84,7 @@ Gelid cryotheum has the following effects on certain blocks and mobs:
   I](https://minecraft.gamepedia.com/Status_effect#Regeneration) for 6 seconds.
 
 ### Fluid Transposer ingredient
-{{<recipe_table type="transposer-fill' recipe-ids=page.usage-recipes.transposer-fill">}}
+{{<recipe_table type="transposer-fill" ids_param="usage-recipes.transposer-fill">}}
 
 If another mod registers a cinnabar ore block, it can be processed into 2 pieces
 of [cinnabar](../cinnabar/) using 200 mB of gelid cryotheum and 2,000 RF.
