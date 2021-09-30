@@ -1,8 +1,7 @@
 ---
 title: Watering Can
 subjects: [watering_can]
-category: items
-subcategory: general
+category: equipment
 ---
 
 WIP

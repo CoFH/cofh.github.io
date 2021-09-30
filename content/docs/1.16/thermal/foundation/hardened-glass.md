@@ -7,7 +7,6 @@ subjects:
 - lumium_glass
 - enderium_glass
 category: blocks
-subcategory: other
 ---
 
 WIP

@@ -2,7 +2,7 @@
 title: Sawdust
 subjects: [sawdust]
 category: materials
-subcategory: other
+subcategory: plant
 ---
 
 WIP

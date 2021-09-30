@@ -2,7 +2,7 @@
 title: Sulfur
 subjects: [sulfur]
 category: materials
-subcategory: other
+subcategory: minerals
 ---
 
 WIP

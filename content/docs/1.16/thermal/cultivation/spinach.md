@@ -7,8 +7,8 @@ image:
 subjects: 
 - spinach
 - spinach_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: annual
 ---
 
 WIP

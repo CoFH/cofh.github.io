@@ -9,8 +9,8 @@ subjects:
 - frost_melon
 - frost_melon_slice
 - frost_melon_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: other
 ---
 
 WIP

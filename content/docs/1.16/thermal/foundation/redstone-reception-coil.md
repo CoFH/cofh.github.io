@@ -1,7 +1,7 @@
 ---
 title: Redstone Reception Coil
 subjects: [rf_coil]
-category: materials
+category: items
 subcategory: parts
 ---
 

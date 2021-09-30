@@ -7,8 +7,8 @@ image:
 subjects: 
 - eggplant
 - eggplant_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: perennial
 ---
 
 WIP

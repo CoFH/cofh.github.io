@@ -2,7 +2,7 @@
 title: Cured Rubber
 subjects: [cured_rubber]
 category: materials
-subcategory: other
+subcategory: plant
 ---
 
 WIP

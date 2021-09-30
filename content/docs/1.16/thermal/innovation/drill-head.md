@@ -2,7 +2,7 @@
 title: Drill Head
 subjects: [drill_head]
 category: items
-subcategory: general
+subcategory: components
 ---
 
 WIP

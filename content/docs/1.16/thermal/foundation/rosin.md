@@ -2,7 +2,7 @@
 title: Rosin
 subjects: [rosin]
 category: materials
-subcategory: other
+subcategory: plant
 ---
 
 WIP

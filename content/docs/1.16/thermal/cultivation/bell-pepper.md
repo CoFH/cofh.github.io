@@ -7,8 +7,8 @@ image:
 subjects: 
 - bell_pepper
 - bell_pepper_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: perennial
 ---
 
 WIP

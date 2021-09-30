@@ -1,8 +1,7 @@
 ---
 title: Phyto-Gronade
 subjects: [phyto_grenade]
-category: items
-subcategory: general
+category: equipment
 ---
 
 WIP

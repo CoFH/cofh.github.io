@@ -7,8 +7,8 @@ image:
 subjects: 
 - barley
 - barley_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: annual
 ---
 
 WIP

@@ -2,7 +2,7 @@
 title: Marine Fabric
 subjects: [diving_fabric]
 category: items
-subcategory: general
+subcategory: components
 ---
 
 WIP

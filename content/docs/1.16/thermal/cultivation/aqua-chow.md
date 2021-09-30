@@ -2,7 +2,7 @@
 title: Aqua-Chow
 subjects: [aquachow]
 category: items
-subcategory: general
+subcategory: bait
 ---
 
 WIP

@@ -2,7 +2,7 @@
 title: Protective Fabric
 subjects: [hazmat_fabric]
 category: items
-subcategory: general
+subcategory: components
 ---
 
 WIP

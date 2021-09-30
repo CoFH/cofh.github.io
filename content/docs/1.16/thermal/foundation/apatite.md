@@ -2,7 +2,7 @@
 title: Apatite
 subjects: [apatite]
 category: materials
-subcategory: other
+subcategory: minerals
 ---
 
 WIP

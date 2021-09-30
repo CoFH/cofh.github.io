@@ -2,7 +2,7 @@
 title: Benthic Aqua-Chow
 subjects: [deep_aquachow]
 category: items
-subcategory: general
+subcategory: bait
 ---
 
 WIP

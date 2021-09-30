@@ -7,8 +7,8 @@ image:
 subjects: 
 - coffee
 - coffee_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: brewable
 ---
 
 WIP

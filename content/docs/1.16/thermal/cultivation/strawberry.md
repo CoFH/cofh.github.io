@@ -7,8 +7,8 @@ image:
 subjects: 
 - strawberry
 - strawberry_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: perennial
 ---
 
 WIP

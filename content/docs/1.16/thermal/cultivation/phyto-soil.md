@@ -2,7 +2,7 @@
 title: Phyto-Soil
 subjects: [phytosoil]
 category: blocks
-subcategory: soil
+subcategory: other
 ---
 
 WIP

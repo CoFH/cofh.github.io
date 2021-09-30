@@ -2,7 +2,7 @@
 title: Cinnabar
 subjects: [cinnabar]
 category: materials
-subcategory: other
+subcategory: minerals
 ---
 
 WIP

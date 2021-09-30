@@ -2,7 +2,7 @@
 title: Saw Blade
 subjects: [saw_blade]
 category: items
-subcategory: general
+subcategory: components
 ---
 
 WIP

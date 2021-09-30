@@ -7,8 +7,8 @@ image:
 subjects: 
 - hops
 - hops_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: brewable
 ---
 
 WIP

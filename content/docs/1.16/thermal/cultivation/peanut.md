@@ -7,8 +7,8 @@ image:
 subjects: 
 - peanut
 - peanut_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: perennial
 ---
 
 WIP

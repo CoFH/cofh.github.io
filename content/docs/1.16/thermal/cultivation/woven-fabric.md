@@ -2,7 +2,7 @@
 title: Woven Fabric
 subjects: [beekeeper_fabric]
 category: items
-subcategory: general
+subcategory: materials
 ---
 
 WIP

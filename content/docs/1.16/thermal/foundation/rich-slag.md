@@ -2,7 +2,7 @@
 title: Rich Slag
 subjects: [rich_slag]
 category: materials
-subcategory: other
+subcategory: minerals
 ---
 
 WIP

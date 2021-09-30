@@ -2,7 +2,7 @@
 title: Coke
 subjects: [coal_coke]
 category: materials
-subcategory: other
+subcategory: fossil
 ---
 
 WIP

@@ -2,7 +2,7 @@
 title: Rubber
 subjects: [rubber]
 category: materials
-subcategory: other
+subcategory: plant
 ---
 
 WIP

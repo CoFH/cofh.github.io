@@ -2,7 +2,7 @@
 title: Slag
 subjects: [slag]
 category: materials
-subcategory: other
+subcategory: minerals
 ---
 
 WIP

@@ -19,7 +19,6 @@ subjects:
 - red_rockwool
 - black_rockwool
 category: blocks
-subcategory: other
 ---
 
 WIP

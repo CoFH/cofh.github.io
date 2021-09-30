@@ -2,7 +2,7 @@
 title: Bitumen
 subjects: [bitumen]
 category: materials
-subcategory: other
+subcategory: fossil
 ---
 
 WIP

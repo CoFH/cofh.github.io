@@ -2,7 +2,7 @@
 title: PNT
 subjects: [phyto_tnt]
 category: blocks
-subcategory: TNT
+subcategory: other
 ---
 
 WIP

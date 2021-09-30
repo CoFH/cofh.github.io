@@ -1,7 +1,7 @@
 ---
 title: Redstone Servo
 subjects: [redstone_servo]
-category: materials
+category: items
 subcategory: parts
 ---
 

@@ -7,8 +7,8 @@ image:
 subjects: 
 - rice
 - rice_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: annual
 ---
 
 WIP

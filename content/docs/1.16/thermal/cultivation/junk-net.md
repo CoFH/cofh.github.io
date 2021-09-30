@@ -2,7 +2,7 @@
 title: Junk Net
 subjects: [junk_net]
 category: items
-subcategory: general
+subcategory: bait
 ---
 
 WIP

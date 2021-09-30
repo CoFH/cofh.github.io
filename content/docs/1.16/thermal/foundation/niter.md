@@ -2,7 +2,7 @@
 title: Niter
 subjects: [niter]
 category: materials
-subcategory: other
+subcategory: minerals
 ---
 
 WIP

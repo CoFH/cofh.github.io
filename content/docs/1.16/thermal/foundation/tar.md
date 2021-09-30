@@ -2,7 +2,7 @@
 title: Tar
 subjects: [tar]
 category: materials
-subcategory: other
+subcategory: fossil
 ---
 
 WIP

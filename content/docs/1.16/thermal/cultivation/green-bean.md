@@ -7,8 +7,8 @@ image:
 subjects: 
 - green_bean
 - green_bean_seeds
-category: food
-subcategory: crops
+category: crops
+subcategory: perennial
 ---
 
 WIP
