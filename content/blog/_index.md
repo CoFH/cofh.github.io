@@ -1,4 +1,4 @@
 ---
-title: Blog Archive
+title: Blog
 ---
 

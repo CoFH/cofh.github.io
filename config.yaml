@@ -22,3 +22,5 @@ params:
 markup:
   tableOfContents:
     ordered: true
+
+paginate: 5

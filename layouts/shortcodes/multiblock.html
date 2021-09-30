@@ -4,31 +4,35 @@
   
   Alternatively, you can specify the pattern and mapping from different locations separately using pattern_path, mapping_path, pattern_param, and mapping_param. This could be useful if you wanted to e.g. use the same pattern data for multiple pages, but change the mapping to have different blocks.
  */ -}}
- 
-{{- $data := dict -}}
-{{- if $path := (.Get "data_path") -}}
-  {{- $data = partial "util/path_get" (dict "data" .Site.Data "path" $path) -}}
-{{- else if $path := (.Get "data_param") -}}
-  {{- $data = partial "util/path_get" (dict "data" .Page "path" $path) -}}
-{{- end -}}
 
-{{- $pattern := slice -}}
-{{- $mapping := dict -}}
-{{- if $data -}}
-  {{- $pattern = index $data "pattern" -}}
-  {{- $mapping = index $data "mapping" -}}
-{{- else -}}
-  {{- if $patt_path := (.Get "pattern_path") -}}
-    {{- $pattern = partial "util/path_get" (dict "data" .Site.Data "path" $patt_path) -}}
-  {{- else if $patt_path := (.Get "pattern_param") -}}
-    {{- $pattern = partial "util/path_get" (dict "data" .Page "path" $patt_path) -}}
+{{- if .IsNamedParams -}}
+  {{- $data := dict -}}
+  {{- if $path := (.Get "data_path") -}}
+    {{- $data = partial "util/path_get" (dict "data" .Site.Data "path" $path) -}}
+  {{- else if $path := (.Get "data_param") -}}
+    {{- $data = partial "util/path_get" (dict "data" .Page "path" $path) -}}
   {{- end -}}
-  {{- if $map_path := (.Get "mapping_path") -}}
-    {{- $mapping = partial "util/path_get" (dict "data" .Site.Data "path" $map_path) -}}
-  {{- else if $map_path := (.Get "mapping_param") -}}
-    {{- $mapping = partial "util/path_get" (dict "data" .Page "path" $map_path) -}}
-  {{- end -}}
-{{- end -}}
 
-{{ partial "docs/multiblock/interactive" (dict "Page" .Page "version" (string (default (.Get "version") .Page.Params.version)) 
+  {{- $pattern := slice -}}
+  {{- $mapping := dict -}}
+  {{- if $data -}}
+    {{- $pattern = index $data "pattern" -}}
+    {{- $mapping = index $data "mapping" -}}
+  {{- else -}}
+    {{- if $patt_path := (.Get "pattern_path") -}}
+      {{- $pattern = partial "util/path_get" (dict "data" .Site.Data "path" $patt_path) -}}
+    {{- else if $patt_path := (.Get "pattern_param") -}}
+      {{- $pattern = partial "util/path_get" (dict "data" .Page "path" $patt_path) -}}
+    {{- end -}}
+    {{- if $map_path := (.Get "mapping_path") -}}
+      {{- $mapping = partial "util/path_get" (dict "data" .Site.Data "path" $map_path) -}}
+    {{- else if $map_path := (.Get "mapping_param") -}}
+      {{- $mapping = partial "util/path_get" (dict "data" .Page "path" $map_path) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{ partial "docs/multiblock/interactive" (dict "Page" .Page "version" (string (default (.Get "version") .Page.Params.version)) 
 "pattern" $pattern "mapping" $mapping "title" (.Get "title")) }}
+{{- else -}}
+  {{- errorf "multiblock shortcode on page %v requires named parameters, not positional parameters!" .Page.RelPermalink -}}
+{{- end -}}

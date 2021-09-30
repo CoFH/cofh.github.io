@@ -107,7 +107,7 @@
     {{- end -}}
     <td>{{ partial "docs/recipe/elements/quantities" (dict "Page" .Page "version" .version "item" $inputs.item "fluid" $inputs.fluid "energy" $energy) }}</td>
     <td>{{ partial "docs/recipe/elements/quantities" (dict "Page" .Page "version" .version "item" .recipe.outputs.item "fluid" .recipe.outputs.fluid "experience" .experience) }}</td>
-    <td class="docs-pausable">{{ partial "docs/recipe/display/machine" (dict "Page" .Page "version" .version "recipe" .recipe "type" .type "energy" $energy "experience" .experience) }}</td>
+    <td class="docs-pausable">{{ partial "docs/recipe/display/machine" (dict "Page" .Page "version" .version "recipe" (merge .recipe (dict "inputs" $inputs)) "type" .type "energy" $energy "experience" .experience) }}</td>
 
   {{- else if eq $type_data.display_type "dynamo" -}}
     <td>{{ partial "docs/recipe/elements/quantities" (dict "Page" .Page "version" .version "item" .recipe.inputs.item "fluid" .recipe.inputs.fluid) }}</td>

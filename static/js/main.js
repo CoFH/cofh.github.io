@@ -18,10 +18,18 @@ const MAX_RESULTS = 5;
 const input = document.getElementById("search-input");
 const list = document.getElementById("search-autocomplete-list");
 const pages = [
-    {{- range where .Pages "Section" "docs" -}}{{- if .Title -}}{
-      title: "{{ .Title }}",
-      url: "{{ .RelPermalink }}"
-    }{{- end -}}{{- end -}}
+  {{- range where .Pages "Section" "docs" }}{{ if .Title }}
+    {title: "{{ .Title }}",
+     url: "{{ .RelPermalink }}",
+     {{ if or .Params.version .Params.mods -}}
+       {{- $mods := apply ((slice) | append .Params.mods) "title" "." -}}
+       {{- $sub := printf `%v %v` .Params.version (index $mods 0) -}}
+       {{- range after 1 $mods -}}
+        {{- $sub = printf `%v, %v` $sub . -}}
+       {{- end -}}
+     sub: "{{$sub}}"
+     {{- end }}},
+  {{ end -}}{{- end -}}
   ];
 
 // Starts/updates autocomplete whenever the input changes.
@@ -61,7 +69,7 @@ function autocomplete() {
       result.appendChild(link);
       
       const url = document.createElement("div");
-      url.innerHTML = page.url;
+      url.innerHTML = page.sub;
       url.setAttribute("class", "subtext");
       link.appendChild(url);
     }

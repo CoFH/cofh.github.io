@@ -1,3 +1,7 @@
 {{- /* This shortcode is mainly here for backwards compatibility. Use recipe_list instead! */ -}}
 
-{{ partial "docs/recipe/table" (dict "Page" .Page "version" (string (default (.Get "version") .Page.Params.version)) "type" (.Get "type") "ids" (default (partial "util/path_get" (dict "data" .Page.Params "path" (.Get "ids_param"))) (.Get "ids"))) }}
+{{- if .IsNamedParams -}}
+  {{ partial "docs/recipe/table" (dict "Page" .Page "version" (string (default (.Get "version") .Page.Params.version)) "type" (.Get "type") "ids" (default (partial "util/path_get" (dict "data" .Page.Params "path" (.Get "ids_param"))) (.Get "ids"))) }}
+{{- else -}}
+  {{- errorf "recipe_table shortcode on page %v requires named parameters, not positional parameters!" .Page.RelPermalink -}}
+{{- end -}}

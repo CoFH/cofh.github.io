@@ -503,46 +503,53 @@ footer >  * a:hover {
 	display: inline-block;
 }
 
-.blog-nav {
+.pagination {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 0;
 }
 
-.blog-nav-list a {
-  margin: 5px;
-  padding: 0;
-  display: inline-block;
+.pagination .page-item {
   text-align: center;
-  line-height: 30px;
-  height: 30px;
-  width: 30px;
+  margin: 10px;
+}
+
+.pagination .page-item .page-link {
+  display: inline-block;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
   font-size: 120%
+  text-align: center;
+	background-color: var(--bg-color-2);
+	color: var(--main-text-color);
+  text-decoration: none;
 }
 
-.blog-nav-list li {
-  float: left;
+.pagination .page-item:is(:hover, :focus) .page-link {
+	background-color: var(--bg-color-4);
+	color: var(--contrast-text-color);
+  transition: none;
 }
 
-.blog-nav-list .blog-nav-left-arrow {
-  margin-right: 20px;
+.pagination .page-item.active .page-link {
+	background-color: var(--link-text-color);
+	color: var(--bg-color-3);
+  transition: none;
 }
 
-.blog-nav-list .blog-nav-right-arrow {
-  margin-left: 20px;
+.pagination .page-item.disabled .page-link {
+	background-color: var(--bg-color-1);
+	color: var(--sub-text-color);
 }
 
-.blog-nav-list .blog-nav-disabled.blog-nav-disabled {
-  background-color: inherit;
-  color: var(--sub-text-color);
-  cursor: default;
-  user-select: none;
-}
-
-.blog-nav-list .blog-nav-selected {
-  background-color: var(--link-text-color);
-  color: var(--bg-color-1);
+.pagination .page-item.disabled:is(:hover, :focus) .page-link {
+	background-color: var(--bg-color-1);
 }
 
 /* Downloads */

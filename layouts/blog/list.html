@@ -1,23 +1,18 @@
 {{ define "main" }}
-{{- with .Title -}}
-  <h1>{{ . }}</h1>
-  <hr />
-{{- end -}}
+  {{- range .Paginator.Pages -}}
+  <article>
+    <h2>{{ .Title }}</h2>
 
-{{- with .Content -}}
-  {{ . }}
-  <hr />
-{{- end -}}
+    {{- if or (isset .Params "author") (isset .Params "date") -}}
+      <p class="subtext">Written{{ with .Params.author }} by <strong>{{ . }}</strong>{{ end }}{{ with .Date }} on {{ . | time.Format ":date_full" }}{{ end }}</p>
+    {{- end -}}
 
-{{ range .Pages.GroupByDate "2006" }}
-  <h2>{{.Key}}</h2>
-  <ul>
-    {{ range .Pages }}
-      <li>
-        {{ .Date.Format "02 Jan" }} - <a href="{{.RelPermalink}}">{{.Title}}</a>
-      </li>
-    {{ end }}
-  </ul>
-{{ end }}
+    {{ .Summary }}
+
+    <br><a class="link-button blog-button" href="{{ .RelPermalink }}">Read more &raquo;</a>
+  </article>
+  <hr />
+  {{- end -}}
+  {{ template "_internal/pagination.html" . }}
 {{ end }}
 
