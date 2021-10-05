@@ -1,21 +1,24 @@
 ---
 title: Creosote
-icon: fluid_creosote
-subjects: [fluid_creosote]
+icon: creosote_bucket
+subjects: [fluid_creosote, creosote_bucket]
 category: fluids
 subcategory: fossil
 ---
 
-WIP
+**Creosote oil** is a carbonaceous liquid with anti-rot properties.
 
 Obtaining
 ---------
 
-### Crafting
+Creosote is obtained as the result of [pyrolysis](../../expansion/pyrolyzer).
+
 {{<recipe_list makes_param="subjects">}}
+
 
 Usage
 -----
 
-### Crafting ingredient
+Creosote oil can be used as fuel in a [compression dynamo](../../expansion/compression-dynamo).
+
 {{<recipe_list uses_param="subjects">}}

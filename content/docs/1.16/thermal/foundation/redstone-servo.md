@@ -5,16 +5,15 @@ category: items
 subcategory: parts
 ---
 
-WIP
+**Redstone servos** are frequently-used crafting components. They are used to craft blocks and items that do not require RF to operate, such as [devices](../../devices) and [augments](../../augments).
 
 Obtaining
 ---------
 
-### Crafting
 {{<recipe_list makes_param="subjects">}}
+
 
 Usage
 -----
 
-### Crafting ingredient
 {{<recipe_list uses_param="subjects">}}

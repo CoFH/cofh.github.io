@@ -1,0 +1,138 @@
+rf_coil_augment: &rf-coil
+- tinker_bench
+- charge_bench
+- energy_cell
+- machine_bottler
+- machine_brewer
+- machine_centrifuge
+- machine_chiller
+- machine_crafter
+- machine_crucible
+- machine_furnace
+- machine_insolator
+- machine_press
+- machine_pulverizer
+- machine_pyrolyzer
+- machine_refinery
+- machine_sawmill
+- machine_smelter
+- device_soil_infuser
+- flux_drill
+- flux_saw
+- flux_capacitor
+- flux_magnet
+rf_coil_storage_augment: *rf-coil
+rf_coil_xfer_augment: *rf-coil
+
+fluid_tank_augment:
+- tinker_bench
+- fluid_cell
+- machine_bottler
+- machine_brewer
+- machine_centrifuge
+- machine_chiller
+- machine_crafter
+- machine_crucible
+- machine_insolator
+- machine_press
+- machine_pyrolyzer
+- machine_refinery
+- dynamo_magmatic
+- dynamo_compression
+- device_water_gen
+- device_potion_diffuser
+- device_hive_extractor
+- device_tree_extractor
+- potion_infuser
+- potion_quiver
+- watering_can
+
+machine_speed_augment: &machines
+- machine_bottler
+- machine_brewer
+- machine_centrifuge
+- machine_chiller
+- machine_crafter
+- machine_crucible
+- machine_furnace
+- machine_insolator
+- machine_press
+- machine_pulverizer
+- machine_pyrolyzer
+- machine_refinery
+- machine_sawmill
+- machine_smelter
+machine_efficiency_augment: *machines
+
+machine_catalyst_augment:
+- machine_insolator
+- machine_pulverizer
+- machine_smelter
+
+machine_output_augment:
+- machine_centrifuge
+- machine_insolator
+- machine_pulverizer
+- machine_pyrolyzer
+- machine_refinery
+- machine_sawmill
+- machine_smelter
+
+machine_cycle_augment:
+- machine_insolator
+
+potion_amplifier_augment: &potion-tools
+- potion_infuser
+- potion_quiver
+potion_duration_augment: *potion-tools
+
+xp_storage_augment:
+- device_collector
+- machine_furnace
+
+dynamo_fuel_augment: &dynamos
+- dynamo_magmatic
+- dynamo_compression
+- dynamo_lapidary
+- dynamo_stirling
+- dynamo_numismatic
+dynamo_output_augment: *dynamos
+
+area_radius_augment:
+- device_soil_infuser
+- device_fisher
+- device_collector
+- device_potion_diffuser
+- flux_drill
+- flux_saw
+- flux_magnet
+
+item_filter_augment:
+- tinker_bench
+- charge_bench
+- machine_bottler
+- machine_brewer
+- machine_centrifuge
+- machine_chiller
+- machine_crafter
+- machine_crucible
+- machine_furnace
+- machine_insolator
+- machine_press
+- machine_pulverizer
+- machine_pyrolyzer
+- machine_refinery
+- machine_sawmill
+- machine_smelter
+- dynamo_magmatic
+- dynamo_compression
+- dynamo_lapidary
+- dynamo_stirling
+- dynamo_numismatic
+- device_potion_diffuser
+- device_tree_extractor
+- device_nullifier
+- device_fisher
+- flux_magnet
+
+

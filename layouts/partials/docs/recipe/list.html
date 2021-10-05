@@ -15,6 +15,9 @@
     {{- range $makes -}}
       {{- range $type, $recipe_ids := partial "util/map_get" (dict "data" $data "keys" (slice "items-fluids" . "outputs")) -}}
         {{- if in $types $type -}}
+          {{- if not (reflect.IsSlice ($recipes.Get $type)) -}}
+            {{- $recipes.Set $type (slice) -}}
+          {{- end -}}
           {{- $recipes.Add $type $recipe_ids -}}
         {{- end -}}
       {{- end -}}
@@ -25,6 +28,9 @@
     {{- range $uses -}}
       {{- range $type, $recipe_ids := partial "util/map_get" (dict "data" $data "keys" (slice "items-fluids" . "inputs")) -}}
         {{- if in $types $type -}}
+          {{- if not (reflect.IsSlice ($recipes.Get $type)) -}}
+            {{- $recipes.Set $type (slice) -}}
+          {{- end -}}
           {{- $recipes.Add $type $recipe_ids -}}
         {{- end -}}
       {{- end -}}
@@ -35,6 +41,9 @@
     {{- range $type := $types -}}
       {{- range $ids -}}
         {{- if partial "util/map_get" (dict "data" $data.recipes "keys" (slice $type .)) -}}
+          {{- if not (reflect.IsSlice ($recipes.Get $type)) -}}
+            {{- $recipes.Set $type (slice) -}}
+          {{- end -}}
           {{- $recipes.Add $type . -}}
         {{- end -}}
       {{- end -}}

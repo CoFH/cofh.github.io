@@ -1,21 +1,30 @@
 ---
 title: Lead
-subjects: [lead_ingot]
+icon: lead_ingot
+subjects: [lead_ingot, lead_ore, lead_coin, lead_dust, lead_gear, lead_nugget, lead_plate, lead_block]
+forms: [lead_ingot, lead_coin, lead_dust, lead_gear, lead_nugget, lead_plate, lead_block]
 category: materials
 subcategory: metals
 ---
 
-WIP
+**Lead** is a soft, dull metal with high density.
 
 Obtaining
 ---------
+Lead is typically obtained from [lead ore](../ores). Lead may also be obtained as a byproduct from processing [silver ore](../ores).
 
-### Crafting
-{{<recipe_list makes_param="subjects">}}
+{{<recipe_list uses="lead_ore" ids="pulverizer_silver_ore smelter_silver_ore">}}
+
+
+Forms
+---------
+Like other metals, lead can be shaped into a variety of different forms such as gears, plates, blocks, etc.
+
+{{<recipe_list makes_param="forms" excluding="lead_ore silver_ore">}}
 
 
 Usage
 -----
+Lead is used in a variety of recipes.
 
-### Crafting ingredient
-{{<recipe_list uses_param="subjects">}}
+{{<recipe_list uses_param="forms">}}

@@ -21,13 +21,11 @@ subjects:
 category: blocks
 ---
 
-WIP
+**Rockwool** is a fibrous material created by spinning molten mineral materials, such as [slag](../slag), in a furnace. It is a flame-retardant, slightly more blast-resistant version of [normal wool](https://minecraft.fandom.com/wiki/Wool).
 
 Obtaining
 ---------
 
-### Crafting
-{{<recipe_list makes_param="subjects">}}
+[Slag](../slag) is used to make white rockwool, which can then be [dyed](https://minecraft.fandom.com/wiki/Dye) the other 15 colors.
 
-Usage
------
+{{<recipe_list makes_param="subjects">}}

@@ -1,20 +1,20 @@
 ---
 title: Lightning Charge
 subjects: [lightning_charge]
-category: materials
-subcategory: elemental
+category: items
+subcategory: charges
 ---
 
-WIP
+**Lightning charges** are concentrated balls of crackling energy, ready to be unleashed at a moment's notice.
 
 Obtaining
 ---------
 
-### Crafting
 {{<recipe_list makes_param="subjects">}}
 
 Usage
 -----
 
-### Crafting ingredient
-{{<recipe_list uses_param="subjects">}}
+When right clicked on a block, a lightning charge will be consumed to call down a single bolt of lightning at that location.
+
+Activating a dispenser with a lightning charge in it will fire a linear projectile that applies the [Shocked](../../../cofh-core/status-effects) effect to mobs hit.

@@ -4,6 +4,7 @@ types:
 - insolator_catalyst
 - pulverizer_catalyst
 - smelter_catalyst
+mods: [thermal expansion, thermal cultivation]
 category: items
 subcategory: general
 ---

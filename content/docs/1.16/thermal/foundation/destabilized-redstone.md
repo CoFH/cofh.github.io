@@ -1,20 +1,20 @@
 ---
 title: Destabilized Redstone
-subjects: [fluid_redstone]
+icon: redstone_bucket
+subjects: [fluid_redstone, redstone_bucket]
 category: fluids
 subcategory: molten
 ---
 
-WIP
+**Destabilized redstone** is the molten form of [redstone](https://minecraft.fandom.com/wiki/Redstone_Dust). 
 
 Obtaining
 ---------
 
-### Crafting
 {{<recipe_list makes_param="subjects">}}
+
 
 Usage
 -----
 
-### Crafting ingredient
-{{<recipe_list uses_param="subjects">}}
+Destabilized redstone is not currently used for anything. Additionally, it cannot be placed due to Forge limitations.

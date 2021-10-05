@@ -1,0 +1,9 @@
+{{- /* This shortcode helps with displaying compatible augments. */ -}}
+
+{{- if .IsNamedParams -}}
+  {{ partial "docs/augments" (dict "Page" .Page "version" (string (default (.Get "version") .Page.Params.version)) 
+"augments" (default (partial "util/path_get" (dict "data" .Page.Params "path" (.Get "augments_param"))) (.Get "augments")) 
+"augmentables" (default (partial "util/path_get" (dict "data" .Page.Params "path" (.Get "augmentables_param"))) (.Get "augmentables"))) }}
+{{- else -}}
+  {{- errorf "augments shortcode on page %v requires named parameters, not positional parameters!" .Page.RelPermalink -}}
+{{- end -}}

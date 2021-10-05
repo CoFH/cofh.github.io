@@ -1,9 +1,9 @@
 {{/* Given a list of IDs, displays a cycling icon for them. Can optionally take true/false to be a link, or a string for a tooltip. If nil or empty string for ID(s) is received, a blank icon will be inserted. */}}
 {{/* Cached variants should follow the order version-ids-link-tooltip-size-class-style-attributes */}}
 
-{{- $ids := .ids -}}
-{{- if not (reflect.IsSlice .ids) -}}
-  {{- $ids = split .ids " " -}}
+{{- $ids := partial "util/sanitize_ids" (default "none" .ids) -}}
+{{- if not $ids -}}
+  {{ $ids = slice "" }}
 {{- end -}}
 
 {{ $size := .size }}

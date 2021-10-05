@@ -1,20 +1,24 @@
 ---
 title: Refined Fuel
-subjects: [fluid_refined_fuel]
+icon: refined_fuel_bucket
+subjects: [fluid_refined_fuel, refined_fuel_bucket]
 category: fluids
 subcategory: fossil
 ---
 
-WIP
+**Refined fuel** is an extremely energy-dense fluid. 
 
 Obtaining
 ---------
 
-### Crafting
+Refined fuel is the product of refining [heavy and light oil](../oils).
+
 {{<recipe_list makes_param="subjects">}}
+
 
 Usage
 -----
 
-### Crafting ingredient
+Refined fuel can be used as fuel in a [compression dynamo](../../expansion/compression-dynamo).
+
 {{<recipe_list uses_param="subjects">}}

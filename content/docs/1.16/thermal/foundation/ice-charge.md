@@ -1,20 +1,21 @@
 ---
 title: Ice Charge
 subjects: [ice_charge]
-category: materials
-subcategory: elemental
+category: items
+subcategory: charges
 ---
 
-WIP
+**Ice charges** are concentrated balls of frigid energy, ready to be unleashed at a moment's notice.
 
 Obtaining
 ---------
 
-### Crafting
 {{<recipe_list makes_param="subjects">}}
+
 
 Usage
 -----
 
-### Crafting ingredient
-{{<recipe_list uses_param="subjects">}}
+When right clicked on a block, an ice charge will be consumed to freeze that block. Campfires/fires will be extinguished and water/lava/air blocks adjacent to the clicked block face will be converted into ice/obsidian/snow, respectively.
+
+Activating a dispenser with an ice charge in it will fire a linear projectile that applies the [Chilled](../../../cofh-core/status-effects) effect to mobs hit.

@@ -1,20 +1,24 @@
 ---
 title: Tree Oil
-subjects: [fluid_tree_oil]
+icon: tree_oil_bucket
+subjects: [fluid_tree_oil, tree_oil_bucket]
 category: fluids
 subcategory: tree
 ---
 
-WIP
+**Tree oil** is a fluid rich in terpenes. 
 
 Obtaining
 ---------
 
-### Crafting
+Tree oil is a product of distilling [resin](../resin).
+
 {{<recipe_list makes_param="subjects">}}
+
 
 Usage
 -----
 
-### Crafting ingredient
+Tree oil can be used as fuel in a [compression dynamo](../../expansion/compression-dynamo).
+
 {{<recipe_list uses_param="subjects">}}

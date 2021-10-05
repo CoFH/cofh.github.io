@@ -1,5 +1,5 @@
 ---
-title: Boomshroom Spores
+title: Boomshroom
 icon: gunpowder_mushroom_spores
 subjects: [gunpowder_mushroom_spores]
 category: crops

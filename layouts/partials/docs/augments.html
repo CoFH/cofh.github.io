@@ -1,0 +1,25 @@
+{{/* Given the IDs of augments or augmentables, returns a list of compatible augmentables or augments, respectively. */}}
+
+{{- $compat_data := partial "util/map_get" (dict "data" $.Page.Site.Data.docs "keys" (slice $.version "augment-compat")) -}}
+
+{{- if .augments -}}
+  {{- $augmentables := slice -}}
+  {{- range partial "util/sanitize_ids" (default "none" .augments) -}}
+    {{- with index $compat_data . -}}
+      {{- $augmentables = $augmentables | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{ partial "docs/link_list" (dict "Page" .Page "version" .version "ids" (uniq $augmentables)) }}
+{{- end -}}
+
+{{- if .augmentables -}}
+  {{- $augments := slice -}}
+  {{- range $augmentable := (partial "util/sanitize_ids" (default "none" .augmentables)) -}}
+    {{- range $augment, $compatible := $compat_data -}}
+      {{- if in $compatible $augmentable -}}
+        {{- $augments = $augments | append $augment -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{ partial "docs/link_list" (dict "Page" .Page "version" .version "ids" (uniq $augments)) }}
+{{- end -}}

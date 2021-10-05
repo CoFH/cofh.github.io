@@ -1,21 +1,26 @@
 ---
 title: Rosin
-subjects: [rosin]
+icon: rosin
+subjects: [rosin, rosin_block]
 category: materials
 subcategory: plant
 ---
 
-WIP
+**Rosin** is the solid, refined form of [resin](../resin).
 
 Obtaining
 ---------
 
-### Crafting
+Rosin is a product of refining [resin](../resin).
+
 {{<recipe_list makes_param="subjects">}}
 
 
 Usage
 -----
 
-### Crafting ingredient
+Coke can be directly used in a [furnace](https://minecraft.fandom.com/wiki/Furnace), [blast furnace](https://minecraft.fandom.com/wiki/Blast_Furnace), or [stirling dynamo](../../expansion/stirling-dynamo) as fuel. It smelts 4 items in an ordinary furnace.
+
+It can also be crafted into blocks for decoration or storage.
+
 {{<recipe_list uses_param="subjects">}}
