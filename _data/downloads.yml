@@ -7,7 +7,7 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/cofh-core
      # docs: /docs/1.16/cofh-core/
-      source: https://github.com/KingLemming/1.16
+      source: https://github.com/CoFH/CoFHCore
   - id: archers-paradox-1-16
     logo: archers-paradox
     title: Archer's Paradox
@@ -16,7 +16,7 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/archers-paradox
       docs: /docs/1.16/archers-paradox/
-      source: https://github.com/KingLemming/1.16
+      source: https://github.com/CoFH/ArchersParadox
   - id: ensorcellation-1-16
     logo: ensorcellation
     title: Ensorcellation
@@ -25,7 +25,15 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/ensorcellation
       docs: /docs/1.16/ensorcellation/
-      source: https://github.com/KingLemming/1.16
+      source: https://github.com/CoFH/Ensorcellation
+  - id: no-night-vision-flashing-1-16
+    logo: new-no-night-vision-flashing
+    title: No Night Vision Flashing
+    note: >
+      Removes the flashing effect when Night Vision is wearing off.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/no-night-vision-flashing
+      source: https://github.com/CoFH/NoNVFlash
   - id: omgourd-1-16
     logo: omgourd
     title: Oh My Gourd
@@ -34,7 +42,23 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd
       # docs: /docs/1.15/oh-my-gourd/
-      source: https://github.com/KingLemming/1.16
+      source: https://github.com/CoFH/OMGourd
+  - id: right-click-get-crops-1-16
+    logo: right-click-get-crops
+    title: Right Click, Get Crops
+    note: >
+      Does basically what it says. Smarter than most others.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/right-click-get-crops
+      source: https://github.com/CoFH/RightClickGetCrops
+  - id: tools-complement-1-16
+    logo: tools-complement
+    title: Tool's Complement
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/tools-complement
+      source: https://github.com/CoFH/ToolsComplement
   - id: thermal-foundation-1-16
     logo: new-thermal-foundation
     title: Thermal Foundation
@@ -43,7 +67,7 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-foundation
       docs: /docs/1.16/thermal-series
-      source: https://github.com/KingLemming/1.16     
+      source: https://github.com/CoFH/ThermalFoundation
   - id: thermal-cultivation-1-16
     logo: new-thermal-cultivation
     title: Thermal Cultivation
@@ -52,7 +76,7 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation
       docs: /docs/1.16/thermal-series
-      source: https://github.com/KingLemming/1.16     
+      source: https://github.com/CoFH/ThermalCultivation
   - id: thermal-expansion-1-16
     logo: new-thermal-expansion
     title: Thermal Expansion
@@ -61,7 +85,7 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-expansion
       docs: /docs/1.16/thermal-series
-      source: https://github.com/KingLemming/1.16   
+      source: https://github.com/CoFH/ThermalExpansion
   - id: thermal-innovation-1-16
     logo: new-thermal-innovation
     title: Thermal Innovation
@@ -70,8 +94,8 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-innovation
       docs: /docs/1.16/thermal-series
-      source: https://github.com/KingLemming/1.16
-  - id: thermal-locmotion-1-16
+      source: https://github.com/CoFH/ThermalInnovation
+  - id: thermal-locomotion-1-16
     logo: new-thermal-locomotion
     title: Thermal Locomotion
     note: >
@@ -79,7 +103,7 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion
       docs: /docs/1.16/thermal-series
-      source: https://github.com/KingLemming/1.16      
+      source: https://github.com/CoFH/ThermalLocomotion
       
 "1.15":
   - id: cofh-core-1-15
