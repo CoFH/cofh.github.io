@@ -1,2 +1,5 @@
 .sass-cache
 vendor
+/.hugo_build.lock
+/hugo.exe
+/resources

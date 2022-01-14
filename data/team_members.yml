@@ -9,6 +9,9 @@
       url: https://github.com/KingLemming
     - icon: reddit
       url: https://www.reddit.com/user/KingLemming
+    - icon: github
+      url: https://ko-fi.com/kinglemming
+    
 
 - name: Cynycal
   image: https://pbs.twimg.com/profile_images/1300753730619334656/blEHxTcJ_400x400.png
@@ -20,6 +23,7 @@
 - name: covers1624
   image: https://pbs.twimg.com/profile_images/695636359415894017/fCtyS90H_400x400.png
   description: Developer
+  quote: Smooth brained koalas
   links:
     - icon: twitter
       url: https://twitter.com/covers1624
@@ -74,7 +78,7 @@
       url: https://www.reddit.com/user/ZeldoKavira
 
 - name: FloofHips
-  image: https://pbs.twimg.com/profile_images/1322970969049309191/qBK7v2mJ_400x400.jpg
+  image: https://pbs.twimg.com/profile_images/1459698196540710916/KxwPqkLj_400x400.png
   description: Artist, developer (Dyenamics)
   quote: aawagga
   links:
@@ -82,3 +86,5 @@
       url: https://twitter.com/FloofHips
     - icon: github
       url: https://github.com/FloofHips
+    - icon: twitter
+      url: https://ko-fi.com/floofhips

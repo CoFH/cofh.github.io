@@ -26,9 +26,15 @@
       download: https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd
       # docs: /docs/1.15/oh-my-gourd/
       source: https://github.com/KingLemming/1.16
+  Dyenamics:
+    note: >
+      Does not require CoFH Core
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/dyenamics
+      source: https://github.com/Hekera/Dyenamics    
   Thermal Foundation:
     note: >
-      Requires <a href="#cofh-core-1-16">CoFH Core</a>.
+      Requires <a href="#cofh-core-1-16">CoFH Core</a>. Suggested <a href=https://www.curseforge.com/minecraft/mc-mods/patchouli>Patchouli</a>
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-foundation
       docs: /docs/1.16/thermal-series

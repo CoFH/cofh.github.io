@@ -157,7 +157,7 @@ level
 
 ### killall
 Removes all loaded entities of a certain type from the server, excluding
-players.
+players. Note: Does not remove entities from unloaded chunks.
 
     /cofh killall [type]
 
