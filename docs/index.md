@@ -19,6 +19,7 @@ Index
 * [Archer's Paradox](1.16/archers-paradox/) - <span class="uk-text-small uk-text-success">up tp date (1.2.0) </span>
 * [Ensorcellation](1.16/ensorcellation/) - <span class="uk-text-small uk-text-success">up to date (1.2.0) </span>
 * [Thermal Series](1.16/thermal-series/) - <span class="uk-text-small uk-text-success">Temporary website pages </span>
+* [Redstone Arsenal](1.16/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (0.8.0b) </span>
 
 
 ### Minecraft 1.15
