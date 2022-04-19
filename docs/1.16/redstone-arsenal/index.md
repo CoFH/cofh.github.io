@@ -30,8 +30,8 @@ This is a brief summary of the special abilities of all equipment in Redstone Ar
       </tr>
       <tr>
          <td>Crossbow</td>
-         <td>---</td>
-         <td>After a short charge up period, repeatedly fires up to 20 shots. Once the crossbow is released, it enters a cooldown period.</td>
+         <td>The crossbow can be reloaded with up to 3 shots. Left click to fire.</td>
+         <td>Fires all 3 shots at once, vertically offset from each other.</td>
       </tr>
       <tr>
          <td>Quiver</td>
