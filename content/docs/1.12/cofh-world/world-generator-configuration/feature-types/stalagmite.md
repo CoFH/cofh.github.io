@@ -25,118 +25,18 @@ When using this feature type, the following values must be added to the [feature
 type configuration](../../feature-format/#feature-type-configuration).
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`block`</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td>-</td>
-                <td markdown="span">
-                    The type(s) of block that stalagmites consist of. When
-                    specified as an array, a block type is selected randomly for
-                    each generated block.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`gen-body` (optional)</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td markdown="span">Air</td>
-                <td markdown="span">
-                    The type(s) of block that may be replaced to generate
-                    stalagmites.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`min-height` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`7`</td>
-                <td markdown="span">
-                    The minimum height of a stalagmite, in blocks.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`height-variance` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`4`</td>
-                <td markdown="span">
-                    The maximum amount of blocks that may be randomly added to
-                    the minimum height of a stalagmite.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`height-mod` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`5`</td>
-                <td markdown="span">
-                    Used to calculate the minimum radius of the base of a
-                    stalagmite dynamically. The radius is equal to the height of
-                    the stalagmite divided by this value. Only used if
-                    `gen-size` is set to `0`.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`gen-size` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`0`</td>
-                <td markdown="span">
-                    The minimum radius of the base of a stalagmite, in blocks.
-                    If set to `0`, the radius is calculated dynamically based on
-                    the stalagmite's height.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`size-variance` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`2`</td>
-                <td markdown="span">
-                    The maximum amount of blocks that may be randomly added to
-                    the minimum radius of the base of a stalagmite.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`smooth` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `true`, stalagmites have a smoother shape from bottom to
-                    top. If `false`, they are more narrow towards the top,
-                    making them more pointy.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`fat` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`true`</td>
-                <td markdown="span">
-                    If `true`, stalagmites are wider from bottom to top.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`alt-sinc` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `true`, the sides of stalagmites are shaped more
-                    unevenly, making them look more natural. This is more
-                    obvious when `smooth` is set to `true`.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`block`|[Block ID](../../common-formats/block-id/) / array of block IDs|-|The type(s) of block that stalagmites consist of. When specified as an array, a block type is selected randomly for each generated block.|
+|`gen-body` (optional)|[Block ID](../../common-formats/block-id/) / array of block IDs|Air|The type(s) of block that may be replaced to generate stalagmites.|
+|`min-height` (optional)|Number|`7`|The minimum height of a stalagmite, in blocks.|
+|`height-variance` (optional)|Number|`4`|The maximum amount of blocks that may be randomly added to the minimum height of a stalagmite.|
+|`height-mod` (optional)|Number|`5`|Used to calculate the minimum radius of the base of a stalagmite dynamically. The radius is equal to the height of the stalagmite divided by this value. Only used if `gen-size` is set to `0`.|
+|`gen-size` (optional)|Number|`0`|The minimum radius of the base of a stalagmite, in blocks. If set to `0`, the radius is calculated dynamically based on the stalagmite's height.|
+|`size-variance` (optional)|Number|`2`|The maximum amount of blocks that may be randomly added to the minimum radius of the base of a stalagmite.|
+|`smooth` (optional)|Boolean|`false`|If `true`, stalagmites have a smoother shape from bottom to top. If `false`, they are more narrow towards the top, making them more pointy.|
+|`fat` (optional)|Boolean|`true`|If `true`, stalagmites are wider from bottom to top.|
+|`alt-sinc` (optional)|Boolean|`false`|If `true`, the sides of stalagmites are shaped more unevenly, making them look more natural. This is more obvious when `smooth` is set to `true`.|
 
 
 

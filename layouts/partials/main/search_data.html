@@ -1,0 +1,52 @@
+{{ $pages := slice }}
+{{ range $page := (where .Pages "Section" "docs") }}
+  {{ $pdata := newScratch }}
+  {{ $pdata.Set "url" .RelPermalink }}
+  {{ $keywords := "" }}
+  
+  {{ if .Title }}
+    {{ $pdata.Set "title" .Title }}
+    {{ $keywords = .Title }}
+  {{ end -}}
+  
+  {{ if .Params.version }}
+    {{ $version := string (default "" .Params.version) }}
+    {{ $pdata.Set "version" $version }}
+    {{ $keywords = printf "%v %v" $keywords $version }}
+  
+    {{ range (partial "util/sanitize_ids" (default "none" .Params.subjects)) }}
+      {{ $keywords = printf "%v %v" $keywords (default . (partial "util/map_get" (dict "data" $page.Site.Data.docs "keys" (slice $version "items-fluids" . "name")))) }}
+    {{ end }}
+  {{ else }}
+    {{ $keywords = printf "%v %v" $keywords (delimit (partial "util/sanitize_ids" (default "none" .Params.subjects)) " ") }}
+  {{ end }}
+  
+  {{ if .Params.mods -}}
+    {{ $mods := apply ((slice) | append .Params.mods) "title" "." }}
+    {{ $pdata.Set "mods" $mods }}
+    {{ $keywords = printf "%v %v" $keywords (delimit $mods " ") }}
+  {{ end }}
+  
+  {{ $pdata.Set "keywords" (uniq (split (lower $keywords) " ")) }}
+  
+  {{ $pages = $pages | append $pdata.Values }}
+{{ end }}
+
+{{ $data := newScratch }}
+{{ range $index, $page := $pages }}
+  {{ range index $page "keywords" }}
+    {{ if . }}
+      {{ $start := . | truncate 3 "" | string }}
+      {{ if not (reflect.IsSlice ($data.Get $start)) }}
+        {{ $data.Set $start (slice) }}
+      {{ end }}
+      {{ $data.Add $start $index }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ range $key, $value := $data.Values }}
+  {{ $data.Set $key (uniq ($data.Get $key)) }}
+{{ end }}
+
+{{ jsonify (dict "mapping" $data.Values "pages" $pages) }}

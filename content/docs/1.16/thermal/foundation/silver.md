@@ -1,8 +1,7 @@
 ---
 title: Silver
 icon: silver_ingot
-subjects: [silver_ingot, silver_ore, silver_coin, silver_dust, silver_gear, silver_nugget, silver_plate, silver_block]
-forms: [silver_ingot, silver_coin, silver_dust, silver_gear, silver_nugget, silver_plate, silver_block]
+subjects: [silver_ingot, silver_coin, silver_dust, silver_gear, silver_nugget, silver_plate, silver_block]
 category: materials
 subcategory: metals
 ---
@@ -20,11 +19,12 @@ Forms
 ---------
 Like other metals, silver can be shaped into a variety of different forms such as gears, plates, blocks, etc.
 
-{{<recipe_list makes_param="forms" excluding="lead_ore silver_ore">}}
+{{<recipe_list makes_param="subjects" excluding="lead_ore silver_ore">}}
 
 
 Usage
 -----
+
 Silver is used in a variety of recipes.
 
-{{<recipe_list uses_param="forms">}}
+{{<recipe_list uses_param="subjects">}}

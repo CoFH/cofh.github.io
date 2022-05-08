@@ -30,38 +30,10 @@ When using this distribution type, the following values may be added to the
 [feature entry](../../feature-format/#features).
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`ceiling` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `false`, features are distributed in floors of caves. If
-                    `true`, they are distributed in ceilings.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`ground-level` (optional)</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">(Taken from world)</td>
-                <td markdown="span">
-                    The altitude below which to look for caves to distribute
-                    features in. Evaluated once per feature.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`ceiling` (optional)|Boolean|`false`|If `false`, features are distributed in floors of caves. If `true`, they are distributed in ceilings.|
+|`ground-level` (optional)|Number / [number provider](../../common-formats/number-provider/)|(Taken from world)|The altitude below which to look for caves to distribute features in. Evaluated once per feature.|
 
 
 

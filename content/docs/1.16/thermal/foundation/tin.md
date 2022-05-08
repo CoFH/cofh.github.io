@@ -1,8 +1,7 @@
 ---
 title: Tin
 icon: tin_ingot
-subjects: [tin_ingot, tin_ore, tin_coin, tin_dust, tin_gear, tin_nugget, tin_plate, tin_block]
-forms: [tin_ingot, tin_coin, tin_dust, tin_gear, tin_nugget, tin_plate, tin_block]
+subjects: [tin_ingot, tin_coin, tin_dust, tin_gear, tin_nugget, tin_plate, tin_block]
 category: materials
 subcategory: metals
 ---
@@ -20,11 +19,11 @@ Forms
 ---------
 Like other metals, tin can be shaped into a variety of different forms such as gears, plates, blocks, etc.
 
-{{<recipe_list makes_param="forms" excluding="tin_ore">}}
+{{<recipe_list makes_param="subjects" excluding="tin_ore">}}
 
 
 Usage
 -----
 Tin is used in a variety of recipes.
 
-{{<recipe_list uses_param="forms">}}
+{{<recipe_list uses_param="subjects">}}

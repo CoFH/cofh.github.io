@@ -28,77 +28,13 @@ When using this distribution type, the following values must be added to the
 [feature entry](../../feature-format/#features).
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`min-height`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The altitude of the bottom of the area to distribute a
-                    chunk's features in. Evaluated once per chunk.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`vein-height`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The height of the area to distribute a chunk's features in,
-                    in blocks. Evaluated once per chunk.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`vein-diameter`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The width of the area to distribute a chunk's features in,
-                    in blocks along the X and Z axes. Evaulated once per chunk.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`vertical-density`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    Determines how close together features should be vertically
-                    in the area to distribute a chunk's features in. May be any
-                    value between `0` and `100`. Evaluated once per chunk.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`horizontal-density`</td>
-                <td markdown="span">
-                    Number /
-                    [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    Determines how close together features should be
-                    horizontally (along the X and Z axes) in the area to
-                    distribute a chunk's features in. May be any value between
-                    `0` and `100`. Evaluated once per chunk.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`min-height`|Number / [number provider](../../common-formats/number-provider/)|-|The altitude of the bottom of the area to distribute a chunk's features in. Evaluated once per chunk.|
+|`vein-height`|Number / [number provider](../../common-formats/number-provider/)|-|The height of the area to distribute a chunk's features in, in blocks. Evaluated once per chunk.|
+|`vein-diameter`|Number / [number provider](../../common-formats/number-provider/)|-|The width of the area to distribute a chunk's features in, in blocks along the X and Z axes. Evaulated once per chunk.|
+|`vertical-density`|Number / [number provider](../../common-formats/number-provider/)|-|Determines how close together features should be vertically in the area to distribute a chunk's features in. May be any value between `0` and `100`. Evaluated once per chunk.|
+|`horizontal-density`|Number / [number provider](../../common-formats/number-provider/)|-|Determines how close together features should be horizontally (along the X and Z axes) in the area to distribute a chunk's features in. May be any value between `0` and `100`. Evaluated once per chunk.|
 
 
 

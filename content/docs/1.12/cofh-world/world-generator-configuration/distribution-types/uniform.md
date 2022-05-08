@@ -25,40 +25,10 @@ When using this distribution type, the following values must be added to the
 [feature entry](../../feature-format/#features).
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`min-height`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The minimum altitude to place features at. Evaluated once
-                    per chunk.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`max-height`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The maximum altitude to place features at. Evaulated once
-                    per chunk.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`min-height`|Number / [number provider](../../common-formats/number-provider/)|-|The minimum altitude to place features at. Evaluated once per chunk.|
+|`max-height`|Number / [number provider](../../common-formats/number-provider/)|-|The maximum altitude to place features at. Evaulated once per chunk.|
 
 
 

@@ -22,6 +22,6 @@ When right clicked on earth-type blocks, such as stone and dirt, an earth charge
 
 Activating a dispenser with an earth charge in it will fire a linear projectile that applies the [Sundered](../../../cofh-core/status-effects) effect to mobs hit and greatly knocks them back.
 
-Earth charges may be used to grind various metals and minerals into their dust forms and break certain storage blocks down, such as a [quartz block](https://minecraft.fandom.com/wiki/Block_of_Quartz) into four [quartz](https://minecraft.fandom.com/wiki/Nether_Quartz).
+Earth charges may be used in the crafting bench to grind various metals and minerals into their dust forms and break certain storage blocks down, such as a [quartz block](https://minecraft.fandom.com/wiki/Block_of_Quartz) into four [quartz](https://minecraft.fandom.com/wiki/Nether_Quartz).
 
 {{<recipe_list uses_param="subjects">}}

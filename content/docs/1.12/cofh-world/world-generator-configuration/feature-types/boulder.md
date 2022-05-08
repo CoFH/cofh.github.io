@@ -26,99 +26,16 @@ Options
 When using this feature type, the following values must be added to the [feature
 type configuration](../../feature-format/#feature-type-configuration).
 
-
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`block`</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td>-</td>
-                <td markdown="span">
-                    The type(s) of block that boulders consist of. When
-                    specified as an array, a block type is selected randomly for
-                    each generated block.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`diameter`</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The minimum radius of a boulder, in blocks.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`size-variance` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`2`</td>
-                <td markdown="span">
-                    The maximum amount of blocks that may be randomly added to
-                    the minimum radius of a boulder.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`count` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`3`</td>
-                <td markdown="span">
-                    The amount of boulders that a group of boulders may consist
-                    of.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`count-variance` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`0`</td>
-                <td markdown="span">
-                    The maximum amount that may be randomly added to the number
-                    of boulders in a group.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`hollow` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `true`, boulders are hollowed out with air blocks on the
-                    inside.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`hollow-size` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`0.1665`</td>
-                <td markdown="span">
-                    The size of the hollow part of a hollow boulder. Some
-                    experimenting will be needed for the desired result. Note
-                    that higher values will make the hollow part larger than the
-                    boulder itself.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`hollow-variance` (optional)</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">`0`</td>
-                <td markdown="span">
-                    How much the size of the hollow part of hollow boulders may
-                    differ per boulder. May be any value between `0` and `1`.
-                    Applied to `hollow-size` as follows:
-                    `[hollow-size] * (1 - [random 0.0-1.0] * [hollow-variance])`.
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`block`|[Block ID](../../common-formats/block-id/) / array of block IDs|-|The type(s) of block that boulders consist of. When specified as an array, a block type is selected randomly for each generated block.|
+|`diameter`|Number|-|The minimum radius of a boulder, in blocks.|
+|`size-variance` (optional)|Number|`2`|The maximum amount of blocks that may be randomly added to the minimum radius of a boulder.|
+|`count` (optional)|Number|`3`|The amount of boulders that a group of boulders may consist of.|
+|`count-variance` (optional)|Number|`0`|The maximum amount that may be randomly added to the number of boulders in a group.|
+|`hollow` (optional)|Boolean|`false`|If `true`, boulders are hollowed out with air blocks on the inside.|
+|`hollow-size` (optional)|Number|`0.1665`|The size of the hollow part of a hollow boulder. Some experimenting will be needed for the desired result. Note that higher values will make the hollow part larger than the boulder itself.|
+|`hollow-variance` (optional)|Number|`0`|How much the size of the hollow part of hollow boulders may differ per boulder. May be any value between `0` and `1`. Applied to `hollow-size` as follows: `[hollow-size] * (1 - [random 0.0-1.0] * [hollow-variance])`.|
 
 
 Examples

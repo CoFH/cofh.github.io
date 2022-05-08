@@ -24,51 +24,11 @@ When using this distribution type, the following values must be added to the
 [feature entry](../../feature-format/#features).
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`x-offset`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The X coordinate at which to place features, relative to the
-                    center of each chunk. Evaluated once per feature.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`y-offset`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The Y coordinate at which to place features. Evaluated once
-                    per feature.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`z-offset`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The Z coordinate at which to place features, relative to the
-                    center of each chunk. Evaluated once per feature.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`x-offset`|Number / [number provider](../../common-formats/number-provider/)|-|The X coordinate at which to place features, relative to the center of each chunk. Evaluated once per feature.|
+|`y-offset`|Number / [number provider](../../common-formats/number-provider/)|-|The Y coordinate at which to place features. Evaluated once per feature.|
+|`z-offset`|Number / [number provider](../../common-formats/number-provider/)|-|The Z coordinate at which to place features, relative to the center of each chunk. Evaluated once per feature.|
 
 
 

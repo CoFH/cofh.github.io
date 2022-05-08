@@ -22,90 +22,14 @@ When using this feature type, the following values must be added to the [feature
 type configuration](../../feature-format/#feature-type-configuration).
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`block`</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td>-</td>
-                <td markdown="span">
-                    The block(s) used to generate the 'liquid' part of lakes.
-                    Note that this doesn't strictly have to be a liquid block.
-                    When specified as an array, a block type is selected
-                    randomly for each generated block.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`use-material` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    When `false`, any block may be replaced to generate lakes,
-                    ignoring the `material` option in the feature type
-                    configuration.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`outline-block` (optional)</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td markdown="span">(None)</td>
-                <td markdown="span">
-                    The block(s) to surround lakes with, like
-                    [stone](https://minecraft.gamepedia.com/Stone) around
-                    [lava](https://minecraft.gamepedia.com/Lava) lakes. By
-                    default, about half of the blocks in the outline are
-                    actually generated, and the outline only replaces existing
-                    blocks in the world. When specified as an array, a block
-                    type is selected randomly for each generated block.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`solid-outline` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `true`, every block in the outline of a lake is
-                    generated, instead of only about half of them.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`total-outline` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `true`, the outline of a lake completely surrounds it,
-                    even where it doesn't replace existing blocks in the world.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`gap-block` (optional)</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td markdown="span">Air</td>
-                <td markdown="span">
-                    The block(s) to place above lakes to carve out space. When
-                    specified as an array, a block type is selected randomly for
-                    each generated block.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`block`|[Block ID](../../common-formats/block-id/) / array of block IDs|-|The block(s) used to generate the 'liquid' part of lakes. Note that this doesn't strictly have to be a liquid block. When specified as an array, a block type is selected randomly for each generated block.|
+|`use-material` (optional)|Boolean|`false`|When `false`, any block may be replaced to generate lakes, ignoring the `material` option in the feature type configuration.|
+|`outline-block` (optional)|[Block ID](../../common-formats/block-id/) / array of block IDs|(None)|The block(s) to surround lakes with, like [stone](https://minecraft.gamepedia.com/Stone) around [lava](https://minecraft.gamepedia.com/Lava) lakes. By default, about half of the blocks in the outline are actually generated, and the outline only replaces existing blocks in the world. When specified as an array, a block type is selected randomly for each generated block.|
+|`solid-outline` (optional)|Boolean|`false`|If `true`, every block in the outline of a lake is generated, instead of only about half of them.|
+|`total-outline` (optional)|Boolean|`false`|If `true`, the outline of a lake completely surrounds it, even where it doesn't replace existing blocks in the world.|
+|`gap-block` (optional)|[Block ID](../../common-formats/block-id/) / array of block IDs|Air|The block(s) to place above lakes to carve out space. When specified as an array, a block type is selected randomly for each generated block.|
 
 
 

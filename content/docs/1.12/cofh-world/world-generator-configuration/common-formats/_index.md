@@ -1,0 +1,3 @@
+---
+navbox_hidden: true
+---

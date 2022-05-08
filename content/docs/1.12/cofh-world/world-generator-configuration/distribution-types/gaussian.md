@@ -26,55 +26,11 @@ When using this distribution type, the following values must be added to the
 [feature entry](../../feature-format/#features).
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`center-height`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The altitude to place features around. Evaluated once per
-                    feature.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`spread`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The maximum distance from the center altitude at which
-                    features may be placed, in blocks. Evaluated once per
-                    feature.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`smoothness` (optional)</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">`2`</td>
-                <td markdown="span">
-                    Determines how smoothly the amount of features declines when
-                    further from the center altitude. Must be greater than zero.
-                    The default value makes the decline roughly linear. Higher
-                    values may cause small amounts of features to be placed
-                    beyond the configured altitudes. Evaluated once per feature.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`center-height`|Number / [number provider](../../common-formats/number-provider/)|-|The altitude to place features around. Evaluated once per feature.|
+|`spread`|Number / [number provider](../../common-formats/number-provider/)|-|The maximum distance from the center altitude at which features may be placed, in blocks. Evaluated once per feature.|
+|`smoothness` (optional)|Number / [number provider](../../common-formats/number-provider/)|`2`|Determines how smoothly the amount of features declines when further from the center altitude. Must be greater than zero. The default value makes the decline roughly linear. Higher values may cause small amounts of features to be placed beyond the configured altitudes. Evaluated once per feature.|
 
 
 

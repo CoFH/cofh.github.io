@@ -8,7 +8,7 @@ if (icons.length > 0)
 
 function cycle() {
   icons.forEach((cyclables) => {
-    if (!isPaused(cyclables[0])) {
+    if (!cyclables[0].closest(".docs-paused")) {
       //children[cycleCount % children.length].classList.add("hidden");
       cyclables.forEach((elem) => elem.classList.add("hidden"));
       var active = cyclables[cycleCount % cyclables.length];
@@ -22,17 +22,6 @@ function cycle() {
     }
   });
   cycleCount++;
-}
-
-function isPaused(elem) {
-  while (elem) {
-    if (elem.tagName == "BODY")
-      break;
-    if (elem.classList.contains("docs-paused"))
-      return true;
-    elem = elem.parentElement;
-  }
-  return false;
 }
 
 document.querySelectorAll(".docs-pausable").forEach((elem) => {

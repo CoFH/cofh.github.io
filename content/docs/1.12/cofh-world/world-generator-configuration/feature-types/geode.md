@@ -18,67 +18,12 @@ When using this feature type, the following values must be added to the [feature
 type configuration](../../feature-format/#feature-type-configuration).
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`block`</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td>-</td>
-                <td markdown="span">
-                    The block(s) used to generate the content of geodes. When
-                    specified as an array, a block type is selected randomly for
-                    each generated block.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`crust` (optional)</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td markdown="span">Stone</td>
-                <td markdown="span">
-                    The block(s) used to generate the outermost layer of geodes.
-                    When specified as an array, a block type is selected
-                    randomly for each generated block.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`hollow` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `true`, allows a core of different blocks to be
-                    generated using `filler`.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`filler` (optional)</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
-                <td markdown="span">(None)</td>
-                <td markdown="span">
-                    The blocks(s) used to generate a core of different blocks
-                    at the center of geodes. This only works if `hollow` is set
-                    to `true`. When specified as an array, a block type is
-                    selected randomly for each generated block.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`block`|[Block ID](../../common-formats/block-id/) / array of block IDs|-|The block(s) used to generate the content of geodes. When specified as an array, a block type is selected randomly for each generated block.|
+|`crust` (optional)|[Block ID](../../common-formats/block-id/) / array of block IDs|Stone|The block(s) used to generate the outermost layer of geodes. When specified as an array, a block type is selected randomly for each generated block.|
+|`hollow` (optional)|Boolean|`false`|If `true`, allows a core of different blocks to be generated using `filler`.|
+|`filler` (optional)|[Block ID](../../common-formats/block-id/) / array of block IDs|(None)|The blocks(s) used to generate a core of different blocks at the center of geodes. This only works if `hollow` is set to `true`. When specified as an array, a block type is selected randomly for each generated block.|
 
 
 

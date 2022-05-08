@@ -41,115 +41,24 @@ on, JSON terms will be used to describe the format of the data.
 Each world generation file consists of a single object with the following
 values.
 
-
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`populate`</td>
-                <td>Object</td>
-                <td>-</td>
-                <td markdown="span">
-                    An object whose values each describe a feature to generate
-                    in the world (or: to 'populate' the world with). The page
-                    [Feature format](../feature-format/)
-                    describes how to specify a feature.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`dependencies` (optional)</td>
-                <td markdown="span">
-                    [Forge mod entry](#forge-mod-entry) / array of Forge mod
-                    entries
-                </td>
-                <td>(None)</td>
-                <td markdown="span">
-                    The mod or mods that must be loaded in order for the file to
-                    be read. If any of the specified mods are not loaded, the
-                    entire file is skipped.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`enabled` (optional)</td>
-                <td>Boolean</td>
-                <td markdown="span">`true`</td>
-                <td markdown="span">
-                    Whether the file should be read at all. If set to `false`,
-                    the entire file is skipped.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`priority` (optional)</td>
-                <td>Number</td>
-                <td markdown="span">`0`</td>
-                <td>
-                    The loading priority of the file. Files with a higher
-                    priority are read first.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`namespace` (optional)</td>
-                <td>String</td>
-                <td markdown="span">(None)</td>
-                <td markdown="span">
-                    When specified, this string is prepended to the names of the
-                    features described in `populate`. This can be used to
-                    prevent name conflicts with features described in other
-                    files.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`populate`|Object|-|An object whose values each describe a feature to generate in the world (or: to 'populate' the world with). The page [Feature format](../feature-format/) describes how to specify a feature.|
+|`dependencies` (optional)|[Forge mod entry](#forge-mod-entry) / array of Forge mod entries|(None)|The mod or mods that must be loaded in order for the file to be read. If any of the specified mods are not loaded, the entire file is skipped.|
+|`enabled` (optional)|Boolean|`true`|Whether the file should be read at all. If set to `false`, the entire file is skipped.|
+|`priority` (optional)|Number|`0`|The loading priority of the file. Files with a higher priority are read first.|
+|`namespace` (optional)|String|(None)|When specified, this string is prepended to the names of the features described in `populate`. This can be used to prevent name conflicts with features described in other files.|
 
 
 ### Forge mod entry
 A Forge mod entry describes a mod, optionally with a specific version or range
 of versions. It is an object with the following values.
 
-
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Value</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`id`</td>
-                <td>String</td>
-                <td>-</td>
-                <td>The internal mod ID that the mod registers itself with.</td>
-            </tr>
-            <tr>
-                <td markdown="span">`version` (optional)</td>
-                <td>String</td>
-                <td>(Any version)</td>
-                <td markdown="span">
-                    The version of the mod. May be a specific version, or a
-                    [Maven-compatible version range](http://maven.apache.org/enforcer/enforcer-rules/versionRanges.html).
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`exclude` (optional)</td>
-                <td>Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `true`, the file will only be read if the specified mod
-                    is *not* installed.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Value|Type|Default|Description|
+|--- |--- |--- |--- |
+|`id`|String|-|The internal mod ID that the mod registers itself with.|
+|`version` (optional)|String|(Any version)|The version of the mod. May be a specific version, or a [Maven-compatible version range](http://maven.apache.org/enforcer/enforcer-rules/versionRanges.html).|
+|`exclude` (optional)|Boolean|`false`|If `true`, the file will only be read if the specified mod is *not* installed.|
 
 
 A Forge mod entry may also be specified as a string. In that case, it is read as

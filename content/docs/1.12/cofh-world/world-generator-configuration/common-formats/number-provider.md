@@ -22,27 +22,9 @@ A constant number provider provides the same value each time. It is equivalent
 to simply specifying a number. It is an object with the following value.
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`value`</td>
-                <td markdown="span">Number</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The number to provide.
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`value`|Number|-|The number to provide.|
 
 
 Random (minimum/maximum)
@@ -53,34 +35,10 @@ maximum value, where each possible result is equally likely. It is an object
 with the following values.
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`min`</td>
-                <td markdown="span">Number / number provider</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The lower limit of the randomly generated numbers.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`max`</td>
-                <td markdown="span">Number / number provider</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The upper limit of the randomly generated numbers.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`min`|Number / number provider|-|The lower limit of the randomly generated numbers.|
+|`max`|Number / number provider|-|The upper limit of the randomly generated numbers.|
 
 
 
@@ -96,29 +54,9 @@ to be generated.
 This number provider is an object with the following value.
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`variance`</td>
-                <td markdown="span">Number / number provider</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    Used as both the upper and lower limit of the randomly
-                    generated numbers. For example, when set to `3`, numbers
-                    between `-3` and `3` (not including those two) may be
-                    generated.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`variance`|Number / number provider|-|Used as both the upper and lower limit of the randomly generated numbers. For example, when set to `3`, numbers between `-3` and `3` (not including those two) may be generated.|
 
 
 
@@ -129,26 +67,9 @@ A world value number provider returns values from the world that features are
 being generated in. It is an object with the following value.
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`world-data`</td>
-                <td markdown="span">String</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The name of the world value to provide.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`world-data`|String|-|The name of the world value to provide.|
 
 
 The following world values are available:
@@ -211,42 +132,11 @@ can perform various types of operations such as addition and multiplication. It
 is an object with the following values.
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`value-a`</td>
-                <td markdown="span">Number / number provider</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The first value in the operation.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`value-b`</td>
-                <td markdown="span">Number / number provider</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The second value in the operation.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`operation`</td>
-                <td markdown="span">String</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The type of operation to perform.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`value-a`|Number / number provider|-|The first value in the operation.|
+|`value-b`|Number / number provider|-|The second value in the operation.|
+|`operation`|String|-|The type of operation to perform.|
 
 
 The following operation types are available:
@@ -281,42 +171,11 @@ increasing it when it is too low and decreasing it when it is too high. It is an
 object with the following values.
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`value`</td>
-                <td markdown="span">Number / number provider</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The value to apply a minimum and maximum value to.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`min`</td>
-                <td markdown="span">Number / number provider</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The minimum value.
-                </td>
-            </tr>
-            <tr>
-                <td markdown="span">`max`</td>
-                <td markdown="span">Number / number provider</td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The maximum value.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`value`|Number / number provider|-|The value to apply a minimum and maximum value to.|
+|`min`|Number / number provider|-|The minimum value.|
+|`max`|Number / number provider|-|The maximum value.|
 
 
 

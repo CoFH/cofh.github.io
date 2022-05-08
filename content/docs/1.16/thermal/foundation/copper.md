@@ -1,8 +1,7 @@
 ---
 title: Copper
 icon: copper_ingot
-subjects: [copper_ingot, copper_ore, copper_coin, copper_dust, copper_gear, copper_nugget, copper_plate, copper_block]
-forms: [copper_ingot, copper_coin, copper_dust, copper_gear, copper_nugget, copper_plate, copper_block]
+subjects: [copper_ingot, copper_coin, copper_dust, copper_gear, copper_nugget, copper_plate, copper_block]
 category: materials
 subcategory: metals
 ---
@@ -22,7 +21,7 @@ Forms
 
 Like other metals, copper can be shaped into a variety of different forms such as gears, plates, blocks, etc.
 
-{{<recipe_list makes_param="forms" excluding="copper_ore nickel_ore">}}
+{{<recipe_list makes_param="subjects" excluding="copper_ore nickel_ore">}}
 
 
 Usage
@@ -30,4 +29,4 @@ Usage
 
 Copper is used in a variety of recipes.
 
-{{<recipe_list uses_param="forms">}}
+{{<recipe_list uses_param="subjects">}}

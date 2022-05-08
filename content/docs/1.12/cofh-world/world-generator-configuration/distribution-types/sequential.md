@@ -17,33 +17,9 @@ When using this distribution type, the following value must be added to the
 [feature entry](../../feature-format/#features).
 
 
-    <table class="uk-table uk-table-striped uk-text-small">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td markdown="span">`features`</td>
-                <td markdown="span">
-                    Array of [feature entry](../../feature-format/#features)-like
-                    objects
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The distributions to distribute features with in sequence.
-                    The objects in the array are mostly equal to
-                    [feature entries](../../feature-format/#features),
-                    except the values `generator` and `enabled` cannot be
-                    specified. These can only be set in the base feature entry.
-                </td>
-            </tr>
-        </tbody>
-    </table>
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|`features`|Array of [feature entry](../../feature-format/#features)-like objects|-|The distributions to distribute features with in sequence. The objects in the array are mostly equal to [feature entries](../../feature-format/#features), except the values `generator` and `enabled` cannot be specified. These can only be set in the base feature entry.|
 
 
 
