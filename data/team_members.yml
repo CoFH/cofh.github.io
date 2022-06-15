@@ -9,10 +9,9 @@
       url: https://github.com/KingLemming
     - icon: reddit
       url: https://www.reddit.com/user/KingLemming
-    - icon: github
+    - icon: mug-hot
       url: https://ko-fi.com/kinglemming
-    
-
+      
 - name: Cynycal
   image: https://pbs.twimg.com/profile_images/1300753730619334656/blEHxTcJ_400x400.png
   description: Co-founder and artist
@@ -86,5 +85,14 @@
       url: https://twitter.com/FloofHips
     - icon: github
       url: https://github.com/FloofHips
-    - icon: twitter
+    - icon: mug-hot
       url: https://ko-fi.com/floofhips
+- name: Hekera
+  image: https://cdn.discordapp.com/attachments/757654335101468784/933051373661065216/mana_herb_large.png
+  description: Scrooge, Developer, Web Developer
+  quote: I have realized I don't care about your opinions.
+  links:
+    - icon: github
+      url: https://github.com/Hekera
+    - icon: fan
+      url: https://cdn.discordapp.com/attachments/706900788903018517/742559506663211078/6qb8wcpkczc51.jpg

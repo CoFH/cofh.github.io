@@ -298,13 +298,14 @@ code {
 .cofh-logo-container {
   max-width: 1080px;
   margin: auto;
-  padding: 20px 0;
+  padding: 130px 0;
 }
 
 .cofh-logo {
 	position: relative;
-  top: 20px;
-  height: 145px;
+  top: 100px;
+  height: 120px;
+  z-index: 20;
 }
 
 #theme-switch-label {
@@ -318,12 +319,12 @@ code {
 }
 
 #banner-image {
-  position: absolute;
+  position: relative;
   z-index: -1;
   min-width: 800px;
   left: 0;
   bottom: 0;
-  width: 100vw;
+  width: 1000vw;
 }
 
 /* Footer */

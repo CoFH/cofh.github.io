@@ -31,4 +31,4 @@ of times, new mods were made, some were abandoned again, and Minecraft Joules
 got replaced with the new Redstone Flux. Team CoFH is
 still around today, with their various mods still alive and being worked on.
 
-Within recent years, King Lemming added a 9th member to the team. Now when LAN parties are hosted one member must always be left behind.
+Within recent years, King Lemming added more members to the team. Now when LAN parties are hosted some members must be left behind.

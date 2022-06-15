@@ -12,6 +12,30 @@
       download: https://www.curseforge.com/minecraft/mc-mods/archers-paradox
       docs: /docs/1.16/archers-paradox/
       source: https://github.com/KingLemming/1.16
+  Right Click Get Crops:
+    note: >
+      Does not require CoFH Core
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/right-click-get-crops
+      source: https://github.com/CoFH/RightClickGetCrops
+  Redstone Arsenal:
+    note: >
+      Requires <a href="#cofh-core-1-16">CoFH Core</a>.
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal
+      
+  NoNVFlash:
+    note: >
+      Does not require CoFH Core
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/no-nv-flash
+      source: https://github.com/CoFH/NoNVFlash      
+  Dyenamics:
+    note: >
+      Does not require CoFH Core
+    links:
+      download: https://www.curseforge.com/minecraft/mc-mods/dyenamics
+      source: https://github.com/Hekera/Dyenamics      
   Ensorcellation:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a>.
@@ -25,47 +49,47 @@
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd
       # docs: /docs/1.15/oh-my-gourd/
-      source: https://github.com/KingLemming/1.16
-  Dyenamics:
+      source: https://github.com/KingLemming/1.16  
+  Tool's Complement:
     note: >
-      Does not require CoFH Core
+      Requires <a href="#cofh-core-1-16">CoFH Core</a>.
     links:
-      download: https://www.curseforge.com/minecraft/mc-mods/dyenamics
-      source: https://github.com/Hekera/Dyenamics    
+      download: https://www.curseforge.com/minecraft/mc-mods/tools-complement
+      source: https://github.com/CoFH/ToolsComplement    
   Thermal Foundation:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a>. Suggested <a href=https://www.curseforge.com/minecraft/mc-mods/patchouli>Patchouli</a>
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-foundation
-      docs: /docs/1.16/thermal-series
+      docs: /docs/1.16/thermal/foundation
       source: https://github.com/KingLemming/1.16     
   Thermal Cultivation:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation
-      docs: /docs/1.16/thermal-series
+      docs: /docs/1.16/thermal/cultivation
       source: https://github.com/KingLemming/1.16     
   Thermal Expansion:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-expansion
-      docs: /docs/1.16/thermal-series
+      docs: /docs/1.16/thermal/expansion
       source: https://github.com/KingLemming/1.16   
   Thermal Innovation:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-innovation
-      docs: /docs/1.16/thermal-series
+      docs: /docs/1.16/thermal/innovation
       source: https://github.com/KingLemming/1.16
   Thermal Locomotion:
     note: >
       Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.
     links:
       download: https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion
-      docs: /docs/1.16/thermal-series
+      docs: /docs/1.16/thermal/locomotion
       source: https://github.com/KingLemming/1.16      
       
 "1.15":
