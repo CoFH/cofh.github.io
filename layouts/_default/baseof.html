@@ -13,7 +13,7 @@
     <!-- Other Browsers -->
     <link href="/images/logos/wrench.ico" rel="icon" type="image/x-icon" />
     
-    {{ $css := (slice (resources.Get "css/main.css") (resources.Get "css/nav.css") (resources.Get "css/docs.css") (resources.Get "css/search.css") (resources.Get "css/table.css")) | resources.Concat "css/cofh.css" | minify }} 
+    {{ $css := (slice (resources.Get "css/main.css") (resources.Get "css/nav.css") (resources.Get "css/docs.css") (resources.Get "css/search.css") (resources.Get "css/table.css")) | resources.Concat "css/cofh.css" | minify | resources.Fingerprint }} 
     <link rel="stylesheet" href="{{$css.Permalink}}" />
     
     <script src="https://kit.fontawesome.com/a97821a17a.js" crossorigin="anonymous" defer></script>

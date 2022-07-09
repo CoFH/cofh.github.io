@@ -25,7 +25,7 @@
 
 {{ define "pre" }}
   {{ $version := string (default "" .Params.version) }}
-  {{ partialCached "docs/nav/navtabs" (dict "Page" . "mod" .Params.mods "version" $version) $version .Params.mods }}
+  {{ partialCached "docs/nav/dropdown" (dict "Page" . "mod" .Params.mods "version" $version) $version .Params.mods }}
 {{ end }}
 
 {{ define "post" }}

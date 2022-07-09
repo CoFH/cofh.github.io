@@ -84,23 +84,61 @@ nav {
   }
 }
 
-/* Docs Navtab */
-.version-menu:is(:focus-within, :hover) .version-link {
-	background-color: var(--bg-color-3);
-	color: var(--hover-text-color);
+/* Docs Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 10px;
+  background-color: transparent;
+  font-size: inherit;
+  color: var(--main-text-color);
+  border-bottom: 2px solid var(--main-text-color);
+}
+
+.dropdown:is(:hover, :focus-within) {
+  background-color: var(--bg-color-4);
   transition: none;
 }
 
-.mod-list {
-  z-index: 1;
+.dropdown span {
+  font-size: 1.1em;
+  padding: 8px;
+  display: inline-block;
 }
 
-.mod-list:is(:hover, :focus-within), .version-link:is(:hover, :focus) + .mod-list {
-  top: auto;
+.dropdown span::after {
+  content: " ▼";
+  font-size: 0.75em;
 }
 
-.mod-logo {
-  height: 50px;
-  margin: auto;
+.dropdown ol {
+  position: absolute;
+  top: calc(100% + 2px);
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: none;
+  background-color: var(--bg-color-3);
+  z-index: 5;
+}
+
+.dropdown ol li a {
+  font-size: 1.1em;
+  padding: 8px 12px;
+  text-decoration: none;
   display: block;
+  white-space: nowrap;
+}
+
+.dropdown:focus-within ol {
+  display: block;
+}
+
+.dropdown ol li:is(:hover, :focus-within) {
+  background-color: var(--bg-color-3);
 }
