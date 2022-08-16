@@ -13,6 +13,8 @@ Index
 * [Redstone Flux](redstone-flux/)
 
 <!-- Arrow symbol: → -->
+### Minecraft 1.18
+* [Redstone Arsenal](1.18/redstone-arsenal/) - <span class="uk-text-small uk-text-success">up to date (0.9.2b) </span>
 
 ### Minecraft 1.16
 * <a class="uk-text-danger">CoFH Core</a>
