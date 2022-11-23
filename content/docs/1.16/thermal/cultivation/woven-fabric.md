@@ -5,7 +5,7 @@ category: items
 subcategory: materials
 ---
 
-WIP
+
 
 Obtaining
 ---------
@@ -15,6 +15,8 @@ Obtaining
 
 Usage
 -----
+
+Woven fabric is used to craft the beekeeper suit.
 
 ### Crafting ingredient
 {{<recipe_list uses_param="subjects">}}

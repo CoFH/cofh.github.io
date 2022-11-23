@@ -1,11 +1,11 @@
 ---
 title: PNT
-subjects: [phyto_tnt]
+subjects: [phyto_tnt,phyto_grenade,phyto_tnt_minecart]
 category: blocks
 subcategory: other
 ---
 
-WIP
+Plant this.
 
 Obtaining
 ---------
@@ -16,5 +16,5 @@ Obtaining
 Usage
 -----
 
-### Crafting ingredient
-{{<recipe_list uses_param="subjects">}}
+Phyto explosives will instantly apply a bonemeal effect to all crops and grass in an area.
+Explosive blocks have a radius of 9, and grenades 5.

@@ -5,7 +5,7 @@ category: items
 subcategory: dies
 ---
 
-WIP
+> An assassian's best friend
 
 Obtaining
 ---------

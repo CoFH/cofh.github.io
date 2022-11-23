@@ -5,7 +5,7 @@ category: rails
 subcategory: prismarine
 ---
 
-WIP
+
 
 Obtaining
 ---------
@@ -15,6 +15,8 @@ Obtaining
 
 Usage
 -----
+
+Works like a normal rail except can be placed under water.
 
 ### Crafting ingredient
 {{<recipe_list uses_param="subjects">}}

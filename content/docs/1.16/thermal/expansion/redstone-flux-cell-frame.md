@@ -5,7 +5,7 @@ category: blocks
 subcategory: frames
 ---
 
-WIP
+Used to craft the redstone flux cell.
 
 Obtaining
 ---------

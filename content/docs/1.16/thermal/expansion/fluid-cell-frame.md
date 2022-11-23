@@ -5,7 +5,7 @@ category: blocks
 subcategory: frames
 ---
 
-WIP
+Used to craft the fluid cell.
 
 Obtaining
 ---------

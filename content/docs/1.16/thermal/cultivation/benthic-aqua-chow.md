@@ -5,7 +5,7 @@ category: items
 subcategory: bait
 ---
 
-WIP
+Deeply chewy
 
 Obtaining
 ---------
@@ -15,3 +15,5 @@ Obtaining
 
 Usage
 -----
+
+Benthic Aqua-chow is a type of bait used in the [Aquatic-entagler](../../cultivation/aquatic-entagler) that will boost the rate of catching deeper objects such as pufferfish, kelp, prismarine, inc sacs, sponges, and occasionally even tridents.

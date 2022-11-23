@@ -11,8 +11,6 @@ category: crops
 subcategory: brewable
 ---
 
-WIP
-
 Obtaining
 ---------
 

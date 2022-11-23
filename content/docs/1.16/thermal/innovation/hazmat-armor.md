@@ -6,7 +6,7 @@ category: equipment
 subcategory: armor
 ---
 
-WIP
+The **hazmat armor** protects from environmental effects.
 
 Obtaining
 ---------
@@ -16,3 +16,6 @@ Obtaining
 
 Usage
 -----
+
+While wearing the full suit, will protect against fire damage, fall damage, and status effects. 
+Protecting against these things will consume durability.

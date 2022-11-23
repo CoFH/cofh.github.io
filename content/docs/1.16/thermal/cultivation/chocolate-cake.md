@@ -5,7 +5,7 @@ category: food
 subcategory: cake
 ---
 
-WIP
+The cake is a lie.
 
 Obtaining
 ---------

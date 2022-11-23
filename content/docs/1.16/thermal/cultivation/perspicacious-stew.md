@@ -5,7 +5,7 @@ category: food
 subcategory: stews
 ---
 
-WIP
+Stewy
 
 Obtaining
 ---------
@@ -15,3 +15,5 @@ Obtaining
 
 Usage
 -----
+
+Boosts XP gain when consumed

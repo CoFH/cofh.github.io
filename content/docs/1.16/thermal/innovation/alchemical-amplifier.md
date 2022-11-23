@@ -5,7 +5,8 @@ category: items
 subcategory: augments
 ---
 
-WIP
+The **alchemical amplifier** increases the effect of the stored potion by 1 level but decreases its duration by 25%.
+Stacking 4 results in no potion duration.
 
 Obtaining
 ---------
@@ -15,3 +16,10 @@ Obtaining
 
 Usage
 -----
+
+|Augment Amount|Duration|Potion Level|
+|---|---|---|
+|1|75%|+1|
+|2|50%|+2|
+|3|25%|+3|
+|4|0%|+4|

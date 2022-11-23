@@ -5,7 +5,7 @@ category: blocks
 subcategory: devices
 ---
 
-WIP
+The **Aqueous Accumulator** is a device that will generate infinite water for your needs.
 
 Obtaining
 ---------
@@ -15,3 +15,11 @@ Obtaining
 
 Usage
 -----
+
+In order for it to produce water there must be at least two source blocks adjacent to the sides of the device. 
+Source blocks above or below the device will not count.
+
+### Augmentation
+A fluxbore can have augments installed to improve certain properties.
+It can have a max of 3 augments installed.
+{% include docs/id-link-list.html ids=page.augments %}

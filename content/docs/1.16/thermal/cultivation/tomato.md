@@ -11,7 +11,7 @@ category: crops
 subcategory: perennial
 ---
 
-WIP
+
 
 Obtaining
 ---------

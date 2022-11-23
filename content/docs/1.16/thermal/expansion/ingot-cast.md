@@ -5,7 +5,7 @@ category: items
 subcategory: casts
 ---
 
-WIP
+> Drop me some bars
 
 Obtaining
 ---------
@@ -15,3 +15,5 @@ Obtaining
 
 Usage
 -----
+
+Used in the [blast chiller](../../thermal-expansion/blast-chiller/) to create ingots from molten metals from mods such as [Tinkers' Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)

@@ -6,7 +6,7 @@ category: equipment
 subcategory: armor
 ---
 
-WIP
+The **diving suit** will allow you to explore underwater deapths with ease.
 
 Obtaining
 ---------
@@ -16,3 +16,5 @@ Obtaining
 
 Usage
 -----
+
+The suit increases your breathing time, swim speed, and underwater mining speed.

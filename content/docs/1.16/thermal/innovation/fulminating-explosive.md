@@ -1,11 +1,11 @@
 ---
 title: Fulminating Explosive
-subjects: [lightning_tnt]
+subjects: [lightning_tnt,lightning_grenade,lightning_tnt_minecart]
 category: blocks
 subcategory: TNT
 ---
 
-WIP
+**Fulminating explosives** summon the power of Zeus 
 
 Obtaining
 ---------
@@ -16,5 +16,5 @@ Obtaining
 Usage
 -----
 
-### Crafting ingredient
-{{<recipe_list uses_param="subjects">}}
+Exploding a fulminating explosive will summon lightning in an area and grant mobs caught in it's radius the Shocked II effect
+The explosive block has a radius of 9 and the grenade 5

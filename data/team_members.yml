@@ -11,6 +11,8 @@
       url: https://www.reddit.com/user/KingLemming
     - icon: mug-hot
       url: https://ko-fi.com/kinglemming
+    - icon: empire
+      url: https://mastodon.social/@kinglemming 
       
 - name: Cynycal
   image: https://pbs.twimg.com/profile_images/1300753730619334656/blEHxTcJ_400x400.png
@@ -87,6 +89,12 @@
       url: https://github.com/FloofHips
     - icon: mug-hot
       url: https://ko-fi.com/floofhips
+      
+- name: catcatcatcaty
+  image: https://cdn.discordapp.com/attachments/868549441756471347/996186583462072340/75a9f11be347b3fb4f122ddab9318b1c.png
+  description: Developer
+  quote: We did ask for a quote to put here but all we got was crazed eldritch ranting
+  
 - name: Hekera
   image: https://cdn.discordapp.com/attachments/757654335101468784/933051373661065216/mana_herb_large.png
   description: Scrooge, Developer, Web Developer

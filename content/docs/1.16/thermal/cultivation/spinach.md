@@ -11,8 +11,6 @@ category: crops
 subcategory: annual
 ---
 
-WIP
-
 Obtaining
 ---------
 

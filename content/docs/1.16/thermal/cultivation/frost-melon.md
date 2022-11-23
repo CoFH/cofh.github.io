@@ -13,7 +13,6 @@ category: crops
 subcategory: other
 ---
 
-WIP
 
 Obtaining
 ---------

@@ -6,7 +6,6 @@ category: blocks
 subcategory: other
 ---
 
-WIP
 
 Obtaining
 ---------

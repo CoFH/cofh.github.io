@@ -5,7 +5,6 @@ category: rails
 subcategory: lumium
 ---
 
-WIP
 
 Obtaining
 ---------
@@ -15,3 +14,5 @@ Obtaining
 
 Usage
 -----
+
+Works like a normal powered rail except emits a light source of 15.

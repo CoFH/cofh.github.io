@@ -5,7 +5,7 @@ category: items
 subcategory: bait
 ---
 
-WIP
+Chewy
 
 Obtaining
 ---------
@@ -15,3 +15,5 @@ Obtaining
 
 Usage
 -----
+
+Aqua-chow is a type of bait used in the [Aquatic-entagler](../../cultivation/aquatic-entagler) that will boost the fish catching rate.

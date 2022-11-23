@@ -5,7 +5,7 @@ category: rails
 subcategory: lumium
 ---
 
-WIP
+
 
 Obtaining
 ---------
@@ -15,6 +15,8 @@ Obtaining
 
 Usage
 -----
+
+Works like a normal rail except produces a light source of 15.
 
 ### Crafting ingredient
 {{<recipe_list uses_param="subjects">}}

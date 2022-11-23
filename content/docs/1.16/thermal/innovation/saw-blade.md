@@ -5,7 +5,7 @@ category: items
 subcategory: components
 ---
 
-WIP
+The **saw blade** is a crafting component used in making the FluxSaw
 
 Obtaining
 ---------

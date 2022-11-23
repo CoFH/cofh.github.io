@@ -5,7 +5,7 @@ category: items
 subcategory: components
 ---
 
-WIP
+The **drill head** is a crafting component used in making the FluxBore
 
 Obtaining
 ---------

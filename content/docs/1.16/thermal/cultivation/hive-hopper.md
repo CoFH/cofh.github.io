@@ -5,7 +5,7 @@ category: blocks
 subcategory: devices
 ---
 
-WIP
+Hop
 
 Obtaining
 ---------
@@ -15,3 +15,5 @@ Obtaining
 
 Usage
 -----
+
+The hive hopper is a device that can extract honeycombs and liquid honey when placed under a beehive.

@@ -5,7 +5,7 @@ category: items
 subcategory: components
 ---
 
-WIP
+The **protective fabric** is used to craft the hazmat suit.
 
 Obtaining
 ---------

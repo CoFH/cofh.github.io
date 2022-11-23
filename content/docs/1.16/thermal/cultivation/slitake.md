@@ -6,7 +6,6 @@ category: crops
 subcategory: mushrooms
 ---
 
-WIP
 
 Obtaining
 ---------

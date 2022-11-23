@@ -5,7 +5,7 @@ category: rails
 subcategory: prismarine
 ---
 
-WIP
+
 
 Obtaining
 ---------
@@ -15,3 +15,5 @@ Obtaining
 
 Usage
 -----
+
+Works like a normal activator rail except can be placed under water.

@@ -5,7 +5,7 @@ category: items
 subcategory: casts
 ---
 
-WIP
+> Straight Ballin
 
 Obtaining
 ---------
@@ -15,3 +15,5 @@ Obtaining
 
 Usage
 -----
+
+Used in the [blast chiller](../../thermal-expansion/blast-chiller/) to create ball like objects such as snowballs and ender pearls.

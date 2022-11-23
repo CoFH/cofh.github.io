@@ -5,7 +5,7 @@ subjects: [beekeeper_helmet, beekeeper_chestplate, beekeeper_leggings, beekeeper
 category: equipment
 ---
 
-WIP
+Bee butts
 
 Obtaining
 ---------
@@ -15,3 +15,4 @@ Obtaining
 
 Usage
 -----
+The beekeeper suit protects you from stings such as cactus, and bee stingers. The full suit is required for full protection.
