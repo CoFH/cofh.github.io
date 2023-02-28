@@ -1,6 +1,6 @@
 ---
 title: Glacial Explosive
-subjects: [ice_tnt,ice_grenade,_ice_tnt_minecart]
+subjects: [ice_tnt,ice_grenade, ice_tnt_minecart]
 category: blocks
 subcategory: TNT
 ---

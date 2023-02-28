@@ -6,6 +6,7 @@ forms: [constantan_coin, constantan_dust, constantan_gear, constantan_nugget, co
 category: materials
 subcategory: metals
 ---
+> Constantantantantan... it's fun to add more tans...
 
 Constantan is an alloy of copper and nickel known for its low resistivity change in different temperatures.
 

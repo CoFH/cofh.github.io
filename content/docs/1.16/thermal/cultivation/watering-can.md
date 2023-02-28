@@ -2,6 +2,7 @@
 title: Watering Can
 subjects: [watering_can]
 category: equipment
+subcategory: tools
 ---
 
 Water you doing with this?
