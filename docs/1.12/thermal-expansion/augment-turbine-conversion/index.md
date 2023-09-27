@@ -36,7 +36,7 @@ installed together with other specialization augments.
 ### Effects
 A [steam dynamo](../steam-dynamo/) with a turbine conversion installed
 generates [Redstone Flux](/docs/redstone-flux/) using [steam](../../thermal-foundation/steam/)
-instead of [water](https://minecraft.gamepedia.com/Water) and solid fuel. It
+instead of [water](https://minecraft.wiki/w/Water) and solid fuel. It
 generates 2 RF of energy per mB of steam, regardless of other installed
 [augments](../augments/).
 

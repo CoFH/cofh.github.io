@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 [CoFH Core](../) adds various
-**[commands](https://minecraft.gamepedia.com/Commands)** to the game.
+**[commands](https://minecraft.wiki/w/Commands)** to the game.
 
 
 Summary
@@ -159,7 +159,7 @@ the command user will be the target.
 
 enchantmentID
 : The ID of the enchantment to apply. A list of vanilla enchantment IDs can be
-found [here](http://minecraft.gamepedia.com/Data_values#Enchantment_IDs).
+found [here](http://minecraft.wiki/w/Data_values#Enchantment_IDs).
 
 level
 : The level of the enchantment to apply.
@@ -178,7 +178,7 @@ unspecified, all hostile mobs will be removed. Can be set to `*` to remove *all*
 loaded entities.
 
 When the given `type` is `item`, only [item
-entities](https://minecraft.gamepedia.com/Item_(entity)) are removed, even if
+entities](https://minecraft.wiki/w/Item_(entity)) are removed, even if
 there are other entities whose type contains `item`.
 
 ---

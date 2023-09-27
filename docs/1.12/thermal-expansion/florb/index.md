@@ -33,12 +33,12 @@ Usage
 
 ### Filling
 An empty florb can be filled with a
-[bucket](https://minecraft.gamepedia.com/Bucket) worth of fluid using a [fluid
+[bucket](https://minecraft.wiki/w/Bucket) worth of fluid using a [fluid
 transposer](../fluid-transposer/) or similar. Florbs can only hold fluids
 that can be placed as blocks using buckets.
 
 A florb cannot hold hot fluids like
-[lava](https://minecraft.gamepedia.com/Lava). These fluids can only be put into
+[lava](https://minecraft.wiki/w/Lava). These fluids can only be put into
 [magmatic florbs](../magmatic-florb/).
 
 ### Throwing

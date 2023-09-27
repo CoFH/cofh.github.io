@@ -32,4 +32,4 @@ Usage
 ### Aquatic Entangler
 When fluxed Aqua-Chow is used in an [aquatic
 entangler](../../thermal-expansion/aquatic-entangler/), it produces four times as much
-[fish](https://minecraft.gamepedia.com/Fish).
+[fish](https://minecraft.wiki/w/Fish).

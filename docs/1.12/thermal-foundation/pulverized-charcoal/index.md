@@ -23,7 +23,7 @@ usage-recipes:
 
 
 **Pulverized charcoal** is a raw material. It is the dust form of
-[charcoal](https://minecraft.gamepedia.com/Charcoal).
+[charcoal](https://minecraft.wiki/w/Charcoal).
 
 
 Obtaining
@@ -46,4 +46,4 @@ Usage
 When used as fuel in a [steam dynamo](../../thermal-expansion/steam-dynamo/),
 pulverized charcoal yields 16,000 RF per piece. Unlike most steam dynamo fuels,
 pulverized charcoal cannot also be used as
-[furnace](https://minecraft.gamepedia.com/Furnace) fuel.
+[furnace](https://minecraft.wiki/w/Furnace) fuel.

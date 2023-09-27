@@ -37,7 +37,7 @@ Obtaining
 A placed energy cell can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its stored energy and configuration are preserved in
 the item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
+[pickaxe](https://minecraft.wiki/w/Pickaxe), though this can be much
 slower.
 
 ### Crafting
@@ -88,7 +88,7 @@ inventory.
 
 ### Redstone control
 A placed energy cell may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -131,7 +131,7 @@ a light level of between 1 and 8, depending on how full it is.
 
 ### Redstone comparators
 When placed next to an energy cell, a [redstone
-comparator](https://minecraft.gamepedia.com/Redstone_Comparator) emits a signal
+comparator](https://minecraft.wiki/w/Redstone_Comparator) emits a signal
 strength of between 0 and 15, depending on how full the energy cell is.
 
 

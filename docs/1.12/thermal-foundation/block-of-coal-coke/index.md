@@ -25,7 +25,7 @@ Obtaining
 ---------
 
 Blocks of coal coke can only be mined with a [wooden
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better.
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -44,7 +44,7 @@ Blocks of coal coke can be used to store [coal coke](../coal-coke/) in a
 compact way.
 
 ### Fuel
-When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
+When used as fuel in a [furnace](https://minecraft.wiki/w/Furnace), one
 block of coal coke lasts 1,600 seconds, which is enough to smelt up to 160
 items. It lasts slightly longer than 9 individual pieces of coal coke.
 

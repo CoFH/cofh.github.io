@@ -63,7 +63,7 @@ recipe-list:
 
 A **fluid transposer**, or **transposer** for short, is a
 [machine](../machines/) that fills and empties items that hold fluids, like
-[buckets](https://minecraft.gamepedia.com/Bucket).
+[buckets](https://minecraft.wiki/w/Bucket).
 
 
 Obtaining
@@ -71,7 +71,7 @@ Obtaining
 
 A placed fluid transposer can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -133,7 +133,7 @@ machine's GUI.
 
 ### Redstone control
 A fluid transposer may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -194,21 +194,21 @@ Recipes
 
 ### Filling
 * Items that can hold fluids such as
-  [buckets](https://minecraft.gamepedia.com/Bucket) can be filled with 1,000 mB
+  [buckets](https://minecraft.wiki/w/Bucket) can be filled with 1,000 mB
   of fluid for 400 RF.
-* [Glass bottles](https://minecraft.gamepedia.com/Glass_Bottle) can be filled
+* [Glass bottles](https://minecraft.wiki/w/Glass_Bottle) can be filled
   with [fluid potions](../../thermal-foundation/potion-fluid/) (250 mB each) for 800 RF.
-* [Tipped arrows](https://minecraft.gamepedia.com/Tipped_arrows) can be made by
-  infusing [arrows](https://minecraft.gamepedia.com/Arrow) with 25 mB of a fluid
-  [lingering potion](https://minecraft.gamepedia.com/Lingering_Potion) for 400
+* [Tipped arrows](https://minecraft.wiki/w/Tipped_arrows) can be made by
+  infusing [arrows](https://minecraft.wiki/w/Arrow) with 25 mB of a fluid
+  [lingering potion](https://minecraft.wiki/w/Lingering_Potion) for 400
   RF.
 
 {% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipe-list.fill %}
 
 ### Emptying
 * 1,000 mB of fluid can be drained from items that hold fluids such as filled
-  [buckets](https://minecraft.gamepedia.com/Bucket) for 400 RF.
+  [buckets](https://minecraft.wiki/w/Bucket) for 400 RF.
 * 250 mB of a [fluid potion](../../thermal-foundation/potion-fluid/) can be drained from a
-  [potion](https://minecraft.gamepedia.com/Potion) for 800 RF.
+  [potion](https://minecraft.wiki/w/Potion) for 800 RF.
 
 {% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipe-list.empty %}

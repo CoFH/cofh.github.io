@@ -49,7 +49,7 @@ usage-recipes:
 ![Fishing rods](/assets/images/thermal-foundation-2/fishing-rods.gif){:style="height: 128px"}
 
 
-**[Fishing rods](https://minecraft.gamepedia.com/Fishing_Rod)** are tools in
+**[Fishing rods](https://minecraft.wiki/w/Fishing_Rod)** are tools in
 vanilla Minecraft. [Thermal Foundation](../) adds a set of
 fishing rods made of various materials.
 
@@ -66,9 +66,9 @@ Usage
 
 ### Comparison
 The lure and luck modifiers of a fishing rod make it as powerful as a regular
-[fishing rod](https://minecraft.gamepedia.com/Fishing_Rod) enchanted with
-[Lure](https://minecraft.gamepedia.com/Lure) and [Luck of the
-Sea](https://minecraft.gamepedia.com/Luck_of_the_Sea) at those levels,
+[fishing rod](https://minecraft.wiki/w/Fishing_Rod) enchanted with
+[Lure](https://minecraft.wiki/w/Lure) and [Luck of the
+Sea](https://minecraft.wiki/w/Luck_of_the_Sea) at those levels,
 respectively.
 
 {% comment %}

@@ -26,7 +26,7 @@ Obtaining
 
 A placed nullifier can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -45,13 +45,13 @@ and fluids can be supplied to a nullifier manually or automatically.
 
 ### Input
 Items and fluids can enter a nullifier through the front, which displays
-[lava](https://minecraft.gamepedia.com/Lava) when the device is active. Other
+[lava](https://minecraft.wiki/w/Lava) when the device is active. Other
 sides of a nullifier can also be configured to accept items and fluids using the
 Configuration tab in the device's GUI.
 
 ### Redstone control
 A nullifier may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

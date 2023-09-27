@@ -16,7 +16,7 @@ recipes:
 ---
 
 A **flux-infused helm** is a powerful
-[helmet](https://minecraft.gamepedia.com/Helmet) powered by [Redstone
+[helmet](https://minecraft.wiki/w/Helmet) powered by [Redstone
 Flux](/docs/redstone-flux/).
 
 
@@ -40,7 +40,7 @@ to 4,000 RF/t.
 
 ### Defense
 A charged flux-infused helm offers the same protection as a [diamond
-helmet](https://minecraft.gamepedia.com/Diamond_Helmet). Instead of taking
+helmet](https://minecraft.wiki/w/Diamond_Helmet). Instead of taking
 damage, a flux-infused helm consumes 200 RF per damage point per hit.
 
 When hit with flux damage (a special type of damage dealt by flux-infused
@@ -48,12 +48,12 @@ weapons), a flux-infused helm is charged with energy instead of consuming it.
 
 ### Enchantments
 A flux-infused helm has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 20, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 20, which is
 slightly lower than that of a [golden
-helmet](https://minecraft.gamepedia.com/Golden_Helmet). It can receive all the
+helmet](https://minecraft.wiki/w/Golden_Helmet). It can receive all the
 enchantments that other helmets can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused helm has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when absorbing damage.
 

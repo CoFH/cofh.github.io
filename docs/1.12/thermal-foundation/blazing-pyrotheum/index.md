@@ -42,43 +42,43 @@ Usage
 -----
 
 Blazing pyrotheum can be placed as a block using a
-[bucket](https://minecraft.gamepedia.com/Bucket).
+[bucket](https://minecraft.wiki/w/Bucket).
 
 ### Light source
 Blazing pyrotheum blocks emit a light level of 15.
 
 ### Flow
 The way blazing pyrotheum flows is similar to
-[lava](https://minecraft.gamepedia.com/Lava). Pyrotheum source blocks will also
+[lava](https://minecraft.wiki/w/Lava). Pyrotheum source blocks will also
 gradually fall downwards if there are no blocks below them.
 
 ### Effects
-Most [entities](https://minecraft.gamepedia.com/Entity) that touch blazing
+Most [entities](https://minecraft.wiki/w/Entity) that touch blazing
 pyrotheum take 2 damage every half-second.
 
-Like [lava](https://minecraft.gamepedia.com/Lava), blazing pyrotheum starts
+Like [lava](https://minecraft.wiki/w/Lava), blazing pyrotheum starts
 fires. However, pyrotheum does so much more aggressively, instantly starting
 fires on top of every adjacent block.
 
 Blazing pyrotheum has the following effects on certain blocks and mobs:
 
 * flammable blocks are instantly destroyed;
-* [cobblestone](https://minecraft.gamepedia.com/Cobblestone) is smelted into
-  [stone](https://minecraft.gamepedia.com/Stone);
-* [grass blocks](https://minecraft.gamepedia.com/Grass_Block) are turned into
-  [dirt](https://minecraft.gamepedia.com/Dirt);
-* [sand](https://minecraft.gamepedia.com/Sand) is smelted into
-  [glass](https://minecraft.gamepedia.com/Glass);
-* [water](https://minecraft.gamepedia.com/Water) and
-  [ice](https://minecraft.gamepedia.com/Ice) is turned into
-  [stone](https://minecraft.gamepedia.com/Stone);
-* [clay](https://minecraft.gamepedia.com/Clay_(block)) is smelted into
-  [terracotta](https://minecraft.gamepedia.com/Terracotta);
-* [snow](https://minecraft.gamepedia.com/Snow_Block) and [snow
-  layers](https://minecraft.gamepedia.com/Slow_(layer)) are evaporated;
-* [cobblestone stairs](https://minecraft.gamepedia.com/Stairs) are smelted into
-  [stone brick stairs](https://minecraft.gamepedia.com/Stairs);
-* [creepers](https://minecraft.gamepedia.com/Creeper) instantly explode.
+* [cobblestone](https://minecraft.wiki/w/Cobblestone) is smelted into
+  [stone](https://minecraft.wiki/w/Stone);
+* [grass blocks](https://minecraft.wiki/w/Grass_Block) are turned into
+  [dirt](https://minecraft.wiki/w/Dirt);
+* [sand](https://minecraft.wiki/w/Sand) is smelted into
+  [glass](https://minecraft.wiki/w/Glass);
+* [water](https://minecraft.wiki/w/Water) and
+  [ice](https://minecraft.wiki/w/Ice) is turned into
+  [stone](https://minecraft.wiki/w/Stone);
+* [clay](https://minecraft.wiki/w/Clay_(block)) is smelted into
+  [terracotta](https://minecraft.wiki/w/Terracotta);
+* [snow](https://minecraft.wiki/w/Snow_Block) and [snow
+  layers](https://minecraft.wiki/w/Slow_(layer)) are evaporated;
+* [cobblestone stairs](https://minecraft.wiki/w/Stairs) are smelted into
+  [stone brick stairs](https://minecraft.wiki/w/Stairs);
+* [creepers](https://minecraft.wiki/w/Creeper) instantly explode.
 
 
 ### Fluid Transposer ingredient

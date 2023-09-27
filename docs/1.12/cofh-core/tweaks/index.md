@@ -14,17 +14,17 @@ and can be disabled.
 Infinity bows without arrows
 ----------------------------
 
-[Bows](https://minecraft.gamepedia.com/Bow) enchanted with
-[Infinity](https://minecraft.gamepedia.com/Enchanting#Infinity) work even if
-there are no [arrows](https://minecraft.gamepedia.com/Arrow) in the user's
+[Bows](https://minecraft.wiki/w/Bow) enchanted with
+[Infinity](https://minecraft.wiki/w/Infinity) work even if
+there are no [arrows](https://minecraft.wiki/w/Arrow) in the user's
 inventory.
 
 
 Named mob death messages
 ------------------------
 
-When a [mob](https://minecraft.gamepedia.com/Mob) with a custom
-[name](https://minecraft.gamepedia.com/Name_Tag) dies, a death message is shown
+When a [mob](https://minecraft.wiki/w/Mob) with a custom
+[name](https://minecraft.wiki/w/Name_Tag) dies, a death message is shown
 in the chat as if it were a player. This is enabled by default.
 
 ![Example of a named mob death message](/assets/images/cofh-core-1-14/named-mob-death-message.png){:style="height: 15px"}
@@ -43,6 +43,6 @@ Disabling particles
 -------------------
 
 A configuration option is provided to completely disable all
-[particles](https://minecraft.gamepedia.com/Particles), even those that still
+[particles](https://minecraft.wiki/w/Particles), even those that still
 appear when the 'Particles' setting is set to 'Minimal'. This option is provided
 to increase performance on starch-based platforms.

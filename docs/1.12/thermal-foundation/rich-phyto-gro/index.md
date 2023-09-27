@@ -64,7 +64,7 @@ Usage
 
 ### Fertilizer
 When used on blocks, rich Phyto-Gro grows plants like [bone
-meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 5x5 area.
+meal](https://minecraft.wiki/w/Bone_Meal), but in a 5x5 area.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

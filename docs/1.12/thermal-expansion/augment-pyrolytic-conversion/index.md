@@ -23,8 +23,8 @@ recipe-list:
 
 A **pyrolytic conversion** [augment](../augments/) allows for a [redstone
 furnace](../redstone-furnace/) to process various plant-based materials into
-[charcoal](https://minecraft.gamepedia.com/Charcoal), and
-[coal](https://minecraft.gamepedia.com/Coal) into [coal coke](../../thermal-foundation/coal-coke/),
+[charcoal](https://minecraft.wiki/w/Charcoal), and
+[coal](https://minecraft.wiki/w/Coal) into [coal coke](../../thermal-foundation/coal-coke/),
 with [creosote oil](../../thermal-foundation/creosote-oil/) as a byproduct.
 
 
@@ -47,8 +47,8 @@ cannot be installed together with other specialization augments.
 An installed pyrolytic conversion augment replaces a [redstone
 furnace](../redstone-furnace/)'s recipe set with [its own](#recipes). This
 recipe set consists of processing various plant-based materials into
-[charcoal](https://minecraft.gamepedia.com/Charcoal), and
-[coal](https://minecraft.gamepedia.com/Coal) into [coal coke](../../thermal-foundation/coal-coke/).
+[charcoal](https://minecraft.wiki/w/Charcoal), and
+[coal](https://minecraft.wiki/w/Coal) into [coal coke](../../thermal-foundation/coal-coke/).
 The redstone furnace also gains the ability to produce [creosote
 oil](../../thermal-foundation/creosote-oil/) as a byproduct.
 

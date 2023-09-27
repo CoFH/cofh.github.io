@@ -34,7 +34,7 @@ Obtaining
 A placed portable tank can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its stored fluid and configuration are preserved in
 the item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
+[pickaxe](https://minecraft.wiki/w/Pickaxe), though this can be much
 slower.
 
 ### Crafting
@@ -51,7 +51,7 @@ Usage
 
 ### Manual usage
 Fluids can be put in and taken out of a portable tank using
-[buckets](https://minecraft.gamepedia.com/Buckets) or other items that can hold
+[buckets](https://minecraft.wiki/w/Buckets) or other items that can hold
 fluids.
 
 ### Configuration
@@ -79,7 +79,7 @@ require fluids to craft, like [signalum blend](../../thermal-foundation/signalum
 
 ### Redstone control
 A placed portable tank may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -118,12 +118,12 @@ be copied to other portable tanks.
 
 ### Light source
 A portable tank will emit light when it contains a fluid that emits light, like
-[lava](https://minecraft.gamepedia.com/Lava) or [energized
+[lava](https://minecraft.wiki/w/Lava) or [energized
 glowstone](../../thermal-foundation/energized-glowstone/).
 
 ### Redstone comparators
 When placed next to a portable tank, a [redstone
-comparator](https://minecraft.gamepedia.com/Redstone_Comparator) emits a signal
+comparator](https://minecraft.wiki/w/Redstone_Comparator) emits a signal
 strength of between 0 and 15, depending on how full the tank is.
 
 

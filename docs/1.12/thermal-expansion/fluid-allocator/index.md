@@ -13,7 +13,7 @@ recipes:
   - te-1-12-device-fluid-buffer
 ---
 
-> It's like a [hopper](https://minecraft.gamepedia.com/Hopper), for fluids!
+> It's like a [hopper](https://minecraft.wiki/w/Hopper), for fluids!
 
 
 A **fluid allocator** (also known as a **fluid buffer**) is a
@@ -26,7 +26,7 @@ Obtaining
 
 A placed fluid allocator can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -60,7 +60,7 @@ device's GUI.
 
 ### Redstone control
 A fluid allocator may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

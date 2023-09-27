@@ -10,7 +10,7 @@ redirect_from:
 - /docs/1.12/cofh-core-4/holding/
 ---
 
-**Holding** is an [enchantment](https://minecraft.gamepedia.com/Enchanting) that
+**Holding** is an [enchantment](https://minecraft.wiki/w/Enchanting) that
 increases the storage capacity of certain items and blocks that store things.
 Its maximum level is IV.
 
@@ -20,7 +20,7 @@ Usage
 
 ### Thermal Foundation
 [Tomes of knowledge](../../thermal-foundation/tome-of-knowledge/) can be
-enchanted to hold more [experience](https://minecraft.gamepedia.com/Experience).
+enchanted to hold more [experience](https://minecraft.wiki/w/Experience).
 
 ### Thermal Expansion
 The following blocks and items can be enchanted to hold more items, fluids or

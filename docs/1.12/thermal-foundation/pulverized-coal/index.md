@@ -26,7 +26,7 @@ usage-recipes:
 
 
 **Pulverized coal** is a raw material. It is the dust form of
-[coal](https://minecraft.gamepedia.com/Coal).
+[coal](https://minecraft.wiki/w/Coal).
 
 
 Obtaining
@@ -55,4 +55,4 @@ Usage
 When used as fuel in a [steam dynamo](../../thermal-expansion/steam-dynamo/),
 pulverized coal yields 24,000 RF per piece. Unlike most steam dynamo fuels,
 pulverized coal cannot also be used as
-[furnace](https://minecraft.gamepedia.com/Furnace) fuel.
+[furnace](https://minecraft.wiki/w/Furnace) fuel.

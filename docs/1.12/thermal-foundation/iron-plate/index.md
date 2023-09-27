@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Iron plates** are crafting materials made of
-[iron](https://minecraft.gamepedia.com/Iron_Ingot). They are currently not used
+[iron](https://minecraft.wiki/w/Iron_Ingot). They are currently not used
 for anything.
 
 

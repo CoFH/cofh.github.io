@@ -50,15 +50,15 @@ List of devices
 <div class="uk-overflow-container">
 | Device | Description |
 |---
-| [Aqueous Accumulator](../aqueous-accumulator/) | Extracts [water](https://minecraft.gamepedia.com/Water) from its surroundings. |
+| [Aqueous Accumulator](../aqueous-accumulator/) | Extracts [water](https://minecraft.wiki/w/Water) from its surroundings. |
 | [Nullifier](../nullifier/) | Destroys items and fluids. |
 | [Thermal Mediator](../thermal-mediator/) | Speeds up adjacent [machines](../machines/) and [dynamos](../dynamos/) using [coolants](../coolants/). |
-| [Arboreal Extractor](../arboreal-extractor/) | Extracts a fluid from an adjacent [tree](https://minecraft.gamepedia.com/Tree). |
-| [Aquatic Entangler](../aquatic-entangler/) | Catches [fish](https://minecraft.gamepedia.com/Fish). |
+| [Arboreal Extractor](../arboreal-extractor/) | Extracts a fluid from an adjacent [tree](https://minecraft.wiki/w/Tree). |
+| [Aquatic Entangler](../aquatic-entangler/) | Catches [fish](https://minecraft.wiki/w/Fish). |
 | [Item Allocator](../item-allocator/) | Stores and transfers items. |
 | [Fluid Allocator](../fluid-allocator/) | Stores and transfers fluids. |
 | [Lexical Transmuter](../lexical-transmuter/) | Converts items into preferred equivalents. |
-| [Insightful Condenser](../insightful-condenser/) | Collects [experience](https://minecraft.gamepedia.com/Experience) in an area. |
+| [Insightful Condenser](../insightful-condenser/) | Collects [experience](https://minecraft.wiki/w/Experience) in an area. |
 | [Decoctive Diffuser](../decoctive-diffuser/) | Spreads the effects of [fluid potions](../../thermal-foundation/potion-fluid/) in an area. |
 | [Factorizer](../factorizer/) | Combines and splits various items. |
 | [Creature Encaptulator](../creature-encaptulator/) | Captures nearby mobs using [morbs](../morb/). |

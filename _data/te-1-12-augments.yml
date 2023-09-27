@@ -32,7 +32,7 @@ machine-furnace-food:
   installed-in: '<a href="/docs/1.12/thermal-expansion/redstone-furnace/">Redstone Furnace</a>'
   description: >
     A specialization that increases the amount of cooked <a
-    href="https://minecraft.gamepedia.com/Food">food</a> a redstone furnace
+    href="https://minecraft.wiki/w/Food">food</a> a redstone furnace
     produces when processing raw food. However, a redstone furnace can only
     process food when installed.
 machine-furnace-ore:
@@ -50,8 +50,8 @@ machine-furnace-pyrolysis:
   description: >
     A specialization that allows for a redstone furnace to process various
     plant-based materials into <a
-    href="https://minecraft.gamepedia.com/Charcoal">charcoal</a>, and <a
-    href="https://minecraft.gamepedia.com/Coal">coal</a> into <a
+    href="https://minecraft.wiki/w/Charcoal">charcoal</a>, and <a
+    href="https://minecraft.wiki/w/Coal">coal</a> into <a
     href="/docs/1.12/thermal-foundation/coal-coke/">coal coke</a>. It also produces
     <a href="/docs/1.12/thermal-foundation/creosote-oil/">creosote oil</a> as a
     byproduct when installed. However, when installed, a redstone furnace can
@@ -74,7 +74,7 @@ machine-sawmill-tapper:
   installed-in: '<a href="/docs/1.12/thermal-expansion/sawmill/">Sawmill</a>'
   description: >
     A specialization that allows for a sawmill to extract fluids from <a
-    href="https://minecraft.gamepedia.com/Wood">wood</a> while processing it,
+    href="https://minecraft.wiki/w/Wood">wood</a> while processing it,
     like <a href="/docs/1.12/thermal-foundation/resin/">resin</a> and <a
     href="/docs/1.12/thermal-foundation/sap/">sap</a>.
 machine-smelter-flux:
@@ -83,7 +83,7 @@ machine-smelter-flux:
   installed-in: '<a href="/docs/1.12/thermal-expansion/induction-smelter/">Induction Smelter</a>'
   description: >
     Provides a chance for an induction smelter to not consume metallurgical
-    fluxes (such as <a href="https://minecraft.gamepedia.com/Sand">sand</a> and
+    fluxes (such as <a href="https://minecraft.wiki/w/Sand">sand</a> and
     <a href="/docs/1.12/thermal-foundation/rich-slag/">rich slag</a>). However, also
     increases the amount of energy required per operation. Can be installed
     multiple times.
@@ -111,7 +111,7 @@ machine-insolator-tree:
   installed-in: '<a href="/docs/1.12/thermal-expansion/phytogenic-insolator/">Phytogenic Insolator</a>'
   description: >
     Allows for a phytogenic insolator to grow <a
-    href="https://minecraft.gamepedia.com/Tree">trees</a>.
+    href="https://minecraft.wiki/w/Tree">trees</a>.
 machine-insolator-monoculture:
   name: Monoculture Cycle
   url: augment-monoculture-cycle/
@@ -144,7 +144,7 @@ machine-crucible-lava:
   description: >
     A specialization that increases a magma crucible's maximum power usage
     (speed) by a factor of 10. However, a crucible can only produce <a
-    href="https://minecraft.gamepedia.com/Lava">lava</a> when installed.
+    href="https://minecraft.wiki/w/Lava">lava</a> when installed.
 machine-refinery-oil:
   name: Reflux Column
   url: augment-reflux-column/
@@ -196,7 +196,7 @@ machine-centrifuge-mobs:
   description: >
     A specialization that allows for a centrifugal separator to process filled
     <a href="/docs/1.12/thermal-expansion/morb/">morbs</a> for <a
-    href="https://minecraft.gamepedia.com/Mob">mob</a> drops and <a
+    href="https://minecraft.wiki/w/Mob">mob</a> drops and <a
     href="/docs/1.12/thermal-foundation/essence-of-knowledge/">essence of
     knowledge</a>. However, a centrifugal separator can only process morbs when
     installed.
@@ -216,7 +216,7 @@ machine-crafter-tank:
   description: >
     Allows for a sequential fabricator to craft recipes that include a fluid
     container item (such as a filled <a
-    href="https://minecraft.gamepedia.com/Bucket">bucket</a>) using fluids from
+    href="https://minecraft.wiki/w/Bucket">bucket</a>) using fluids from
     an added input tank.
 machine-brewer-reagent:
   name: Reagent Recovery
@@ -224,7 +224,7 @@ machine-brewer-reagent:
   installed-in: '<a href="/docs/1.12/thermal-expansion/alchemical-imbuer/">Alchemical Imbuer</a>'
   description: >
     Provides a chance for an alchemical imbuer to not consume reagents (<a
-    href="https://minecraft.gamepedia.com/Brewing">brewing</a> ingredients).
+    href="https://minecraft.wiki/w/Brewing">brewing</a> ingredients).
     However, also increases the amount of energy required per operation. Can be
     installed multiple times.
 machine-extruder-no-water:
@@ -234,8 +234,8 @@ machine-extruder-no-water:
   installed-in: '<a href="/docs/1.12/thermal-expansion/igneous-extruder/">Igneous Extruder</a>'
   description: >
     A specialization that allows for an igneous extruder to work without cold
-    fluids (<a href="https://minecraft.gamepedia.com/Water">water</a>), so that
-    only hot fluids (<a href="https://minecraft.gamepedia.com/Lava">lava</a>)
+    fluids (<a href="https://minecraft.wiki/w/Water">water</a>), so that
+    only hot fluids (<a href="https://minecraft.wiki/w/Lava">lava</a>)
     are required.
 machine-extruder-sedimentary:
   name: Clastic Deposition
@@ -244,8 +244,8 @@ machine-extruder-sedimentary:
   installed-in: '<a href="/docs/1.12/thermal-expansion/igneous-extruder/">Igneous Extruder</a>'
   description: >
     A specialization that allows for an igneous extruder to produce sedimentary
-    rock, such as <a href="https://minecraft.gamepedia.com/Sand">sand</a> or <a
-    href="https://minecraft.gamepedia.com/Gravel">gravel</a>. However, an
+    rock, such as <a href="https://minecraft.wiki/w/Sand">sand</a> or <a
+    href="https://minecraft.wiki/w/Gravel">gravel</a>. However, an
     igneous extruder can only produce sedimentary rock when installed.
 dynamo-power:
   name: Auxiliary Transmission Coil
@@ -286,7 +286,7 @@ dynamo-boiler:
     <a href="/docs/1.12/thermal-expansion/compression-dynamo/">Compression Dynamo</a>
   description: >
     A specialization that changes an applicable dynamo to convert <a
-    href="https://minecraft.gamepedia.com/Water">water</a> into <a
+    href="https://minecraft.wiki/w/Water">water</a> into <a
     href="/docs/1.12/thermal-foundation/steam/">steam</a> instead of generating <a
     href="/docs/redstone-flux/">Redstone Flux</a>. This increases fuel
     efficiency.
@@ -350,7 +350,7 @@ dynamo-enervation-enchant:
   installed-in: '<a href="/docs/1.12/thermal-expansion/enervation-dynamo/">Enervation Dynamo</a>'
   description: >
     A specialization that allows for an enervation dynamo to use <a
-    href="https://minecraft.gamepedia.com/Enchanting">enchanted</a> items as
+    href="https://minecraft.wiki/w/Enchanting">enchanted</a> items as
     fuel, and greatly increases its maximum power output. However, the dynamo
     can only generate energy using enchanted items.
 dynamo-numismatic-gem:

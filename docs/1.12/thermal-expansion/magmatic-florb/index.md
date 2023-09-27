@@ -17,7 +17,7 @@ recipes:
 ---
 
 A **magmatic florb** is a [florb](../florb/) that can hold hot fluids like
-[lava](https://minecraft.gamepedia.com/Lava).
+[lava](https://minecraft.wiki/w/Lava).
 
 
 Obtaining
@@ -31,5 +31,5 @@ Usage
 -----
 
 A magmatic florb works like a regular [florb](../florb/), except it can hold
-hot fluids like [lava](https://minecraft.gamepedia.com/Lava) and [blazing
+hot fluids like [lava](https://minecraft.wiki/w/Lava) and [blazing
 pyrotheum](../../thermal-foundation/blazing-pyrotheum/).

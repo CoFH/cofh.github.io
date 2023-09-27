@@ -6,7 +6,7 @@ redirect_from:
 
 **`plate`** is one of the [feature types](../) provided by [CoFH
 World](../../../). It generates vertical cylinders, similar to
-[clay](https://minecraft.gamepedia.com/Clay_(block)) deposits.
+[clay](https://minecraft.wiki/w/Clay_(block)) deposits.
 
 
 Options

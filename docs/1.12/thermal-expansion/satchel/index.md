@@ -50,7 +50,7 @@ Usage
 
 ### Item storage
 A satchel can be opened by using it. When opened, items can be put in or taken
-out, like with [chests](https://minecraft.gamepedia.com/Chest).
+out, like with [chests](https://minecraft.wiki/w/Chest).
 
 Satchels cannot store certain items that can themselves store items, such as
 other satchels or [strongboxes](../strongbox/).
@@ -85,7 +85,7 @@ NBT
 
 ### Dyeing
 The body and flap of a satchel can be dyed by combining the satchel with
-[dyes](https://minecraft.gamepedia.com/Dye) in a crafting grid. The body and/or
+[dyes](https://minecraft.wiki/w/Dye) in a crafting grid. The body and/or
 flap are dyed depending on the dyes' positions around the satchel in the
 crafting grid. The dyes can be removed by placing the satchel in a crafting
 grid.

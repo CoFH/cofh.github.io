@@ -7,9 +7,9 @@ redirect_from:
 - /docs/1.12/cofh-core-4/leech/
 ---
 
-**Leech** is an [enchantment](https://minecraft.gamepedia.com/Enchanting) that
-makes [swords](https://minecraft.gamepedia.com/Sword),
-[axes](https://minecraft.gamepedia.com/Axe) and
+**Leech** is an [enchantment](https://minecraft.wiki/w/Enchanting) that
+makes [swords](https://minecraft.wiki/w/Sword),
+[axes](https://minecraft.wiki/w/Axe) and
 [sickles](../../thermal-foundation/sickles/) heal their users when used to kill
 a mob or player. Its maximum level is IV.
 
@@ -17,8 +17,8 @@ a mob or player. Its maximum level is IV.
 Usage
 -----
 
-Leech can be applied to [swords](https://minecraft.gamepedia.com/Sword),
-[axes](https://minecraft.gamepedia.com/Axe) and
+Leech can be applied to [swords](https://minecraft.wiki/w/Sword),
+[axes](https://minecraft.wiki/w/Axe) and
 [sickles](../../thermal-foundation/sickles/).
 
 When a mob or player is killed using a Leech enchanted weapon, some of the

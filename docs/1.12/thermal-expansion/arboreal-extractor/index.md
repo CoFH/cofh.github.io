@@ -17,7 +17,7 @@ recipes:
 
 An **arboreal extractor** (also known as a **tapper**) is a
 [device](../devices/) that extracts a fluid from an adjacent
-[tree](https://minecraft.gamepedia.com/Tree).
+[tree](https://minecraft.wiki/w/Tree).
 
 
 Obtaining
@@ -25,7 +25,7 @@ Obtaining
 
 A placed arboreal extractor can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -39,8 +39,8 @@ When placed, an arboreal extractor faces the player. It can face any of the four
 cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
-When placed next to the bottom of a [tree](https://minecraft.gamepedia.com/Tree)
-(or [huge mushroom](https://minecraft.gamepedia.com/Huge_mushroom)), an arboreal
+When placed next to the bottom of a [tree](https://minecraft.wiki/w/Tree)
+(or [huge mushroom](https://minecraft.wiki/w/Huge_mushroom)), an arboreal
 extractor will start extracting a [fluid](#products).
 
 An active arboreal extractor produces a certain amount of a fluid every 500
@@ -84,7 +84,7 @@ device's GUI.
 
 ### Redstone control
 An arboreal extractor may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

@@ -21,7 +21,7 @@ augments:
 
 An **alchemical imbuer**, also known as a **brewer**, is a
 [machine](../machines/) that brews
-[potions](https://minecraft.gamepedia.com/Potion). It works with potions in
+[potions](https://minecraft.wiki/w/Potion). It works with potions in
 their [fluid forms](../../thermal-foundation/potion-fluid/).
 
 
@@ -30,7 +30,7 @@ Obtaining
 
 A placed alchemical imbuer can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -51,12 +51,12 @@ cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 When an alchemical imbuer's input tank is filled with
-[water](https://minecraft.gamepedia.com/Water) or a [fluid
+[water](https://minecraft.wiki/w/Water) or a [fluid
 potion](../../thermal-foundation/potion-fluid/) and a reagent
-([brewing](https://minecraft.gamepedia.com/Brewing) ingredient) is placed in its
+([brewing](https://minecraft.wiki/w/Brewing) ingredient) is placed in its
 input slot, the machine will start consuming [Redstone
 Flux](/docs/redstone-flux/) to brew the corresponding potion. Potions are brewed
-in batches of 500 mB (2 [bottles](https://minecraft.gamepedia.com/Glass_Bottles)
+in batches of 500 mB (2 [bottles](https://minecraft.wiki/w/Glass_Bottles)
 worth), with each batch costing 4,800 RF. When enough energy has been consumed
 for a batch, the input is consumed and the resulting fluid potion is placed in
 the output tank.
@@ -90,7 +90,7 @@ machine's GUI.
 
 ### Redstone control
 An alchemical imbuer may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

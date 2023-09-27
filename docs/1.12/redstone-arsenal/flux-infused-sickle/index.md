@@ -57,11 +57,11 @@ and its flux damage is raised to 6.
 
 ### Enchantments
 A flux-infused sickle has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 25, which is
 slightly higher than that of a [golden sickle](../../thermal-foundation/sickles/). It can
 receive all the enchantments that other sickles can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused sickle has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

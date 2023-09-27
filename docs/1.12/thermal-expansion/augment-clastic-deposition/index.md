@@ -21,8 +21,8 @@ recipe-list:
 
 A **clastic deposition** [augment](../augments/) allows for an [igneous
 extruder](../igneous-extruder/) to produce sedimentary rock, such as
-[sand](https://minecraft.gamepedia.com/Sand) or
-[gravel](https://minecraft.gamepedia.com/Gravel).
+[sand](https://minecraft.wiki/w/Sand) or
+[gravel](https://minecraft.wiki/w/Gravel).
 
 
 Obtaining

@@ -323,5 +323,5 @@ Coming soon...
 Links
 -----
 
-* [IDs of biomes in vanilla Minecraft](http://minecraft.gamepedia.com/Data_values#Biome_IDs)
+* [IDs of biomes in vanilla Minecraft](http://minecraft.wiki/w/Data_values#Biome_IDs)
 * [Forge biome tags](https://pastebin.com/0NH383ps)

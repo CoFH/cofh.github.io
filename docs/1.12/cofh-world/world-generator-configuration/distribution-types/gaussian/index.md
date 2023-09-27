@@ -8,13 +8,13 @@ redirect_from:
 World](../../../). It distributes features spread around a certain altitude. The
 features are the most common at that altitude and gradually become less common
 further away from it. [Lapis lazuli
-ore](https://minecraft.gamepedia.com/Lapis_Lazuli_Ore) is distributed like this.
+ore](https://minecraft.wiki/w/Lapis_Lazuli_Ore) is distributed like this.
 
 When using this distribution type, the feature type
 [`cluster`](../../feature-types/cluster/) is used by default, and the value
 `material` of [feature type
 configurations](../../feature-format/#feature-type-configuration) is set to
-[stone](https://minecraft.gamepedia.com/Stone) (and all of its variations) by
+[stone](https://minecraft.wiki/w/Stone) (and all of its variations) by
 default.
 
 

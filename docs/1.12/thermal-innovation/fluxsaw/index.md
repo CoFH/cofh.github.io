@@ -27,8 +27,8 @@ recipes:
 
 A **fluxsaw**, or **saw** for short, is a tool that cuts blocks using [Redstone
 Flux](/docs/redstone-flux/). It functions as an
-[axe](https://minecraft.gamepedia.com/Axe) and
-[shears](https://minecraft.gamepedia.com/Shears).
+[axe](https://minecraft.wiki/w/Axe) and
+[shears](https://minecraft.wiki/w/Shears).
 
 
 Obtaining
@@ -53,11 +53,11 @@ An uncharged fluxsaw is still usable and will not break when used, but it is
 very weak.
 
 ### Chopping wood
-A fluxsaw can be used as an [axe](https://minecraft.gamepedia.com/Axe) to break
+A fluxsaw can be used as an [axe](https://minecraft.wiki/w/Axe) to break
 wooden blocks quickly. It consumes 200 RF for each broken block.
 
 A charged basic fluxsaw is comparable to an [iron
-axe](https://minecraft.gamepedia.com/Iron_Axe). It becomes more powerful when
+axe](https://minecraft.wiki/w/Iron_Axe). It becomes more powerful when
 upgraded to a higher [tier](#tiers).
 
 A charged fluxsaw can be configured to break multiple blocks at once in a
@@ -75,7 +75,7 @@ When sneaking, a fluxsaw always breaks only one block at a time.
 
 ### Shearing
 A charged fluxsaw can be used as
-[shears](https://minecraft.gamepedia.com/Shears). When shearing, it consumes 200
+[shears](https://minecraft.wiki/w/Shears). When shearing, it consumes 200
 RF per use. However, it also deals 1 damage per use.
 
 ### Weapon
@@ -88,18 +88,18 @@ A charged fluxsaw consumes 400 RF per hit.
 
 ### Dyeing
 A fluxsaw can be dyed by combining it with a
-[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+[dye](https://minecraft.wiki/w/Dye) in a crafting grid. The dye can be
 removed by placing the fluxsaw in a crafting grid.
 
 ### Enchantments
 A fluxsaw can receive all the enchantments that
-[axes](https://minecraft.gamepedia.com/Axe) can receive.
+[axes](https://minecraft.wiki/w/Axe) can receive.
 
 A basic fluxsaw has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 10. This can
+[enchantability](https://minecraft.wiki/w/Enchantability) of 10. This can
 be increased by upgrading the fluxsaw to a higher [tier](#tiers).
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 fluxsaw has a chance to not consume [Redstone Flux](/docs/redstone-flux/) when
 used.
 

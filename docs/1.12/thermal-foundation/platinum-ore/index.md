@@ -25,7 +25,7 @@ usage-recipes:
 ![Platinum ore](/assets/images/thermal-foundation-2/ore-platinum.png){:style="height: 128px"}
 
 
-**Platinum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
+**Platinum ore** is an [ore](https://minecraft.wiki/w/Ore) that yields
 [platinum](../platinum-ingot/) and small amounts of
 [iridium](../iridium-ingot/). It is unobtainable by default.
 
@@ -38,7 +38,7 @@ legitimately obtained. However, it may be configured to generate in the world in
 modpacks.
 
 Platinum ore must be mined with a [diamond
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better. If it is mined, it
 drops itself as an item.
 
 
@@ -59,7 +59,7 @@ Usage
 
 ### Smashing
 When platinum ore is broken using a [Smashing](../../cofh-core/smashing/)
-enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
+enchanted [pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool,
 two piles of [pulverized
 platinum](../pulverized-platinum/) are dropped instead of
 the ore.

@@ -36,7 +36,7 @@ usage-recipes:
 
 **Sulfur** is a byproduct of various different processes. It may also be dropped
 by mobs that are immune to fire. It can be used to craft
-[gunpowder](https://minecraft.gamepedia.com/Gunpowder), [pyrotheum
+[gunpowder](https://minecraft.wiki/w/Gunpowder), [pyrotheum
 dust](../pyrotheum-dust/) and [flux capacitors](../../thermal-expansion/flux-capacitor/).
 
 
@@ -54,7 +54,7 @@ Obtaining
 
 ### Mobs
 Mobs that are immune to fire have a chance to drop sulfur on death. This mostly
-includes mobs from the [Nether](https://minecraft.gamepedia.com/The_Nether).
+includes mobs from the [Nether](https://minecraft.wiki/w/The_Nether).
 
 ### Centrifugal Separator
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}

@@ -34,7 +34,7 @@ usage-recipes:
 
 
 **Pulverized gold** is a raw material. It is the dust form of
-[gold](https://minecraft.gamepedia.com/Gold_Ingot).
+[gold](https://minecraft.wiki/w/Gold_Ingot).
 
 
 Obtaining
@@ -50,9 +50,9 @@ Obtaining
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
-When [gold ore](https://minecraft.gamepedia.com/Gold_Ore) is broken using a
+When [gold ore](https://minecraft.wiki/w/Gold_Ore) is broken using a
 [Smashing](../../cofh-core/smashing/) enchanted
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+[pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool, two piles of
 pulverized gold are dropped instead of the ore.
 
 

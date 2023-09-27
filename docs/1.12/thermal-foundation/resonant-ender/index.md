@@ -33,7 +33,7 @@ usage-recipes:
 
 
 **Resonant ender** is a fluid obtained by melting [ender
-pearls](https://minecraft.gamepedia.com/Ender_Pearl) in a [magma
+pearls](https://minecraft.wiki/w/Ender_Pearl) in a [magma
 crucible](../../thermal-expansion/magma-crucible/).
 
 
@@ -54,21 +54,21 @@ Usage
 -----
 
 Resonant ender can be placed as a block using a
-[bucket](https://minecraft.gamepedia.com/Bucket).
+[bucket](https://minecraft.wiki/w/Bucket).
 
 ### Light source
 Resonant ender blocks emit a light level of 3.
 
 ### Effects
-[Entities](https://minecraft.gamepedia.com/Entity) that come into contact with
+[Entities](https://minecraft.wiki/w/Entity) that come into contact with
 resonant ender are teleported to a random destination in a radius of 8 blocks.
 This does not happen to [dropped
-items](https://minecraft.gamepedia.com/Item_(entity)) or [experience
-orbs](https://minecraft.gamepedia.com/Experience).
+items](https://minecraft.wiki/w/Item_(entity)) or [experience
+orbs](https://minecraft.wiki/w/Experience).
 
 ### Crafting ingredient
 Any item that contains at least one
-[bucket](https://minecraft.gamepedia.com/Bucket) worth of resonant ender may be
+[bucket](https://minecraft.wiki/w/Bucket) worth of resonant ender may be
 used in these recipes.
 
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

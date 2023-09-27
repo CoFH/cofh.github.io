@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Diamond nuggets** are raw materials. They are the nugget form of
-[diamonds](https://minecraft.gamepedia.com/Diamond).
+[diamonds](https://minecraft.wiki/w/Diamond).
 
 
 Obtaining

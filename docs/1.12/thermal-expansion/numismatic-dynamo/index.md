@@ -24,7 +24,7 @@ augments:
 
 
 A **numismatic dynamo** is a [dynamo](../dynamos/) fueled by currency, like
-[emeralds](https://minecraft.gamepedia.com/Emerald) and metal coins.
+[emeralds](https://minecraft.wiki/w/Emerald) and metal coins.
 
 
 Obtaining
@@ -32,7 +32,7 @@ Obtaining
 
 A placed numismatic dynamo can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -78,7 +78,7 @@ ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 A numismatic dynamo may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -149,7 +149,7 @@ amounts of energy.
 
 | Fuel | Energy per unit |
 |---
-| [Emerald](https://minecraft.gamepedia.com/Emerald) | 200,000 RF |
+| [Emerald](https://minecraft.wiki/w/Emerald) | 200,000 RF |
 | [Iron Coin](../../thermal-foundation/iron-coin/) | 30,000 RF |
 | [Gold Coin](../../thermal-foundation/gold-coin/) | 40,000 RF |
 | [Copper Coin](../../thermal-foundation/copper-coin/) | 30,000 RF |

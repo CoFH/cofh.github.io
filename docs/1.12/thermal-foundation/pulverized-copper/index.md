@@ -57,7 +57,7 @@ Obtaining
 ### Smashing
 When [copper ore](../copper-ore/) is broken using a
 [Smashing](../../cofh-core/smashing/) enchanted
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+[pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool, two piles of
 pulverized copper are dropped instead of the ore.
 
 
