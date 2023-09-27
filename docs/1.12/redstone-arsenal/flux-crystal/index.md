@@ -25,7 +25,7 @@ usage-recipes:
 ---
 
 **Flux crystals** are raw materials made from
-[diamonds](https://minecraft.gamepedia.com/Diamond) and [destabilized
+[diamonds](https://minecraft.wiki/w/Diamond) and [destabilized
 redstone](../../thermal-foundation/destabilized-redstone/).
 
 

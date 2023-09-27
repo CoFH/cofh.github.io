@@ -17,11 +17,11 @@ usage-recipes:
 ![Energized netherrack](/assets/images/thermal-foundation-2/ore-fluid-glowstone.png){:style="height: 128px"}
 
 
-**Energized netherrack** is a rare [ore](https://minecraft.gamepedia.com/Ore)
+**Energized netherrack** is a rare [ore](https://minecraft.wiki/w/Ore)
 that yields [energized clathrate](../energized-clathrate/) ([energized
 glowstone](../energized-glowstone/)) and small amounts of
 [sulfur](../sulfur/). It can be found in the
-[Nether](https://minecraft.gamepedia.com/The_Nether).
+[Nether](https://minecraft.wiki/w/The_Nether).
 
 
 Obtaining
@@ -29,15 +29,15 @@ Obtaining
 
 Energized netherrack occurs rarely in the lower levels of the Nether (layers
 10-40). It occurs in fairly large deposits, about as large as deposits of [coal
-ore](https://minecraft.gamepedia.com/Coal_Ore). Deposits of energized netherrack
+ore](https://minecraft.wiki/w/Coal_Ore). Deposits of energized netherrack
 may also contain some [energized glowstone](../energized-glowstone/).
 
 Energized netherrack must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. It drops one piece
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better. It drops one piece
 of [energized clathrate](../energized-clathrate/) when mined. More clathrate
-is dropped if a [Fortune](https://minecraft.gamepedia.com/Fortune) enchanted
+is dropped if a [Fortune](https://minecraft.wiki/w/Fortune) enchanted
 pickaxe is used. The ore block itself can be obtained by mining it with a [Silk
-Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
+Touch](https://minecraft.wiki/w/Silk_Touch) enchanted pickaxe.
 
 When energized netherrack is broken, some [energized
 glowstone](../energized-glowstone/) comes flowing out. This fluid cannot be

@@ -5,7 +5,7 @@
 	},
 	"CoFH: Minecraft Wiki link": {
 		"prefix": "clmc",
-		"body": "[$1](https://minecraft.gamepedia.com/$2)$0"
+		"body": "[$1](https://minecraft.wiki/w/$2)$0"
 	},
 	"CoFH: TF link": {
 		"prefix": "cltf",

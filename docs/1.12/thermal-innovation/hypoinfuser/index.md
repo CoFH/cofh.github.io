@@ -41,7 +41,7 @@ Usage
 
 ### Filling and draining
 A hypoinfuser can hold the [fluid form](../../thermal-foundation/potion-fluid/) or any regular
-[potion](https://minecraft.gamepedia.com/Potion). It can be filled and drained
+[potion](https://minecraft.wiki/w/Potion). It can be filled and drained
 manually by using it on a block that can hold fluid potions, or automatically
 using a [fluid transposer](../../thermal-expansion/fluid-transposer/) or similar. It can also be
 filled by combining it with a potion in a crafting grid.
@@ -50,8 +50,8 @@ A basic hypoinfuser can store up to 8 bottles worth of a potion (2,000 mB). This
 can be increased by upgrading the hypoinfuser to a higher [tier](#tiers).
 
 A hypoinfuser only works with regular potions; it does not work with [splash
-potions](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
-potions](https://minecraft.gamepedia.com/Lingering_Potion).
+potions](https://minecraft.wiki/w/Splash_Potion) or [lingering
+potions](https://minecraft.wiki/w/Lingering_Potion).
 
 ### Potion injection
 When used while sneaking, a filled hypoinfuser infuses the wielder with the
@@ -69,7 +69,7 @@ the applied effect is one fourth of the contained potion's duration. Potions
 with instant effects are applied at half the power.
 
 A filled hypoinfuser can be used on other players or
-[mobs](https://minecraft.gamepedia.com/Mob) to forcibly inject the potion into
+[mobs](https://minecraft.wiki/w/Mob) to forcibly inject the potion into
 them. When used in this way, it infuses 250 mB of the potion at a time. The
 duration of the applied effect is half of the contained potion's duration.
 Potions with instant effects are applied at half the power.
@@ -79,7 +79,7 @@ hypoinfusers can be equipped as baubles in any slot.
 
 ### Dyeing
 A hypoinfuser can be dyed by combining it with a
-[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+[dye](https://minecraft.wiki/w/Dye) in a crafting grid. The dye can be
 removed by placing the hypoinfuser in a crafting grid.
 
 ### Enchantments

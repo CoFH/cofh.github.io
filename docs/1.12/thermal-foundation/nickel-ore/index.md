@@ -25,7 +25,7 @@ usage-recipes:
 ![Nickel ore](/assets/images/thermal-foundation-2/ore-nickel.png){:style="height: 128px"}
 
 
-**Nickel ore** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
+**Nickel ore** is an uncommon [ore](https://minecraft.wiki/w/Ore) that
 yields [nickel](../nickel-ingot/) and small amounts of
 [platinum](../platinum-ingot/).
 
@@ -34,11 +34,11 @@ Obtaining
 ---------
 
 Nickel ore is about as common as [gold
-ore](https://minecraft.gamepedia.com/Gold_Ore), but it occurs at fewer levels
+ore](https://minecraft.wiki/w/Gold_Ore), but it occurs at fewer levels
 (layers 5-20). Veins of nickel ore are also relatively small.
 
 Nickel ore must be mined with an [iron
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better. If it is mined, it
 drops itself as an item.
 
 
@@ -59,7 +59,7 @@ Usage
 
 ### Smashing
 When nickel ore is broken using a [Smashing](../../cofh-core/smashing/)
-enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
+enchanted [pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool,
 two piles of [pulverized nickel](../pulverized-nickel/)
 are dropped instead of the ore.
 

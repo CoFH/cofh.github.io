@@ -15,7 +15,7 @@ redirect_from:
 ---
 
 **Diamond gears** are crafting materials made of
-[diamonds](https://minecraft.gamepedia.com/Diamond). They are currently not used
+[diamonds](https://minecraft.wiki/w/Diamond). They are currently not used
 for anything.
 
 

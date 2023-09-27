@@ -15,9 +15,9 @@ recipes:
 
 A **resin funnel** is an [augment](../augments/) that allows for a
 [sawmill](../sawmill/) to extract fluids from
-[wood](https://minecraft.gamepedia.com/Wood), like an [arboreal
+[wood](https://minecraft.wiki/w/Wood), like an [arboreal
 extractor](../arboreal-extractor/) does with
-[trees](https://minecraft.gamepedia.com/Tree).
+[trees](https://minecraft.wiki/w/Tree).
 
 
 Obtaining
@@ -37,10 +37,10 @@ together with other specialization augments.
 
 ### Effects
 A [sawmill](../sawmill/) with a resin funnel installed produces a fluid
-byproduct when processing [wood](https://minecraft.gamepedia.com/Wood). It
+byproduct when processing [wood](https://minecraft.wiki/w/Wood). It
 produces the same [fluids](../arboreal-extractor/#products) that an [arboreal
 extractor](../arboreal-extractor/) extracts from the corresponding types of
-[trees](https://minecraft.gamepedia.com/Tree). The amount of fluid produced per
+[trees](https://minecraft.wiki/w/Tree). The amount of fluid produced per
 unit of wood is equal to the amount of fluid an arboreal extractor produces per
 cycle divided by 5.
 

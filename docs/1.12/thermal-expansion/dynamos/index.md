@@ -32,12 +32,12 @@ List of dynamos
 <div class="uk-overflow-container">
 | Dynamo | Fuel type |
 |---
-| [Steam Dynamo](../steam-dynamo/) | [Water](https://minecraft.gamepedia.com/Water) and solid fuel |
+| [Steam Dynamo](../steam-dynamo/) | [Water](https://minecraft.wiki/w/Water) and solid fuel |
 | [Magmatic Dynamo](../magmatic-dynamo/) | Hot fluids |
 | [Compression Dynamo](../compression-dynamo/) | Fluid fuel and [coolant](../coolants/) |
 | [Reactant Dynamo](../reactant-dynamo/) | Fluid fuel and solid reactant |
 | [Enervation Dynamo](/docs/redstone-flux/) |
-| [Numismatic Dynamo](../numismatic-dynamo/) | Currency ([emeralds](https://minecraft.gamepedia.com/Emerald) and metal coins) |
+| [Numismatic Dynamo](../numismatic-dynamo/) | Currency ([emeralds](https://minecraft.wiki/w/Emerald) and metal coins) |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-compress .uk-text-small}
 </div>
 {::options parse_block_html="false" /}

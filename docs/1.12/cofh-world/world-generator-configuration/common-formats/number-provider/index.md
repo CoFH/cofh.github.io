@@ -176,7 +176,7 @@ world generator, ignoring plants and trees.
 `HEIGHT_MAP`
 : The altitude of the highest block at the current X and Z coordinates of the
 world generator, according to the chunk's [height
-map](https://minecraft.gamepedia.com/Chunk_format) which is used for calculating
+map](https://minecraft.wiki/w/Chunk_format) which is used for calculating
 light.
 
 `LOWEST_CHUNK_HORIZON`

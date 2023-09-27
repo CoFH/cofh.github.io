@@ -62,7 +62,7 @@ An installed gearworking die allows for a
 gems. This replaces the machine's ability to produce plates.
 
 Unlike with manual crafting, no additional ingots (usually
-[iron](https://minecraft.gamepedia.com/Iron_Ingot)) are required to produce
+[iron](https://minecraft.wiki/w/Iron_Ingot)) are required to produce
 gears using a gearworking die.
 
 

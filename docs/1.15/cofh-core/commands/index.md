@@ -3,7 +3,7 @@ title: Commands
 ---
 
 [CoFH Core](../) adds various
-**[commands](https://minecraft.gamepedia.com/Commands)** to the game.
+**[commands](https://minecraft.wiki/w/Commands)** to the game.
 
 
 Summary
@@ -15,11 +15,11 @@ All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 <div class="uk-overflow-container">
 | Command | Description |
 |---
-| [enderchest](#enderchest) | Opens a player's [ender chest](https://minecraft.gamepedia.com/Ender_Chest). |
+| [enderchest](#enderchest) | Opens a player's [ender chest](https://minecraft.wiki/w/Ender_Chest). |
 | [heal](#heal) | Fully heals players. |
 | [ignite](#ignite) | Sets entities on fire. |
 | [repair](#repair) | Fully repairs the equipment of players. |
-| [zap](#zap) | Causes entities to be struck by [lightning](https://minecraft.gamepedia.com/Lightning). |
+| [zap](#zap) | Causes entities to be struck by [lightning](https://minecraft.wiki/w/Lightning). |
 {:.uk-table .uk-table-striped}
 </div>
 {::options parse_block_html="false" /}
@@ -29,13 +29,13 @@ Details
 -------
 
 ### enderchest
-Opens a player's [ender chest](https://minecraft.gamepedia.com/Ender_Chest).
+Opens a player's [ender chest](https://minecraft.wiki/w/Ender_Chest).
 
     /cofh enderchest [<player>]
 
 player
 : The player whose ender chest to open. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified,
+selector](https://minecraft.wiki/w/Target_selector). If unspecified,
 opens your own ender chest.
 
 ---
@@ -48,7 +48,7 @@ removing negative status effects.
 
 targets
 : The player or players to heal. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified,
+selector](https://minecraft.wiki/w/Target_selector). If unspecified,
 heals yourself.
 
 ---
@@ -60,7 +60,7 @@ Sets entities on fire.
 
 targets
 : The entity or entities to set on fire. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified, sets
+selector](https://minecraft.wiki/w/Target_selector). If unspecified, sets
 yourself on fire.
 
 duration
@@ -76,19 +76,19 @@ Fully repairs the equipment (held items and worn armor) of players.
 
 targets
 : The player or players whose equipment to repair. Must be a player name or a
-[target selector](https://minecraft.gamepedia.com/Target_selector). If
+[target selector](https://minecraft.wiki/w/Target_selector). If
 unspecified, repairs your own equipment.
 
 ---
 
 ### zap
 Causes entities to be struck by
-[lightning](https://minecraft.gamepedia.com/Lightning). Only works on entities
+[lightning](https://minecraft.wiki/w/Lightning). Only works on entities
 with a direct line of sight to the sky.
 
     /cofh zap [<targets>]
 
 targets
 : The entity or entities to zap. Must be a player name or a [target
-selector](https://minecraft.gamepedia.com/Target_selector). If unspecified, zaps
+selector](https://minecraft.wiki/w/Target_selector). If unspecified, zaps
 yourself.

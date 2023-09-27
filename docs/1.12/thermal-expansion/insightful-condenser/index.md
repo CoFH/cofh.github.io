@@ -14,7 +14,7 @@ recipes:
 ---
 
 An **insightful condenser** is a [device](../devices/) that collects nearby
-[experience orbs](https://minecraft.gamepedia.com/Experience) and converts them
+[experience orbs](https://minecraft.wiki/w/Experience) and converts them
 into [essence of knowledge](../../thermal-foundation/essence-of-knowledge/).
 
 
@@ -23,7 +23,7 @@ Obtaining
 
 A placed insightful condenser can be instantly picked up by dismantling it with
 a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -38,7 +38,7 @@ four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
 An active insightful condenser collects any [experience
-orbs](https://minecraft.gamepedia.com/Experience) in a 5x5x5 area centered on
+orbs](https://minecraft.wiki/w/Experience) in a 5x5x5 area centered on
 the device. The experience it collects is converted into [essence of
 knowledge](../../thermal-foundation/essence-of-knowledge/) (20 mB per experience
 point) and stored in the device's output tank. The device attempts to collect
@@ -52,8 +52,8 @@ consumed.
 
 | Catalyst type | Production multiplier | Experience per unit |
 |---
-| [Soul Sand](https://minecraft.gamepedia.com/Soul_Sand) | × 1.5 | 50 XP |
-| [Lapis Lazuli](https://minecraft.gamepedia.com/Lapis_Lazuli) | × 2 | 100 XP |
+| [Soul Sand](https://minecraft.wiki/w/Soul_Sand) | × 1.5 | 50 XP |
+| [Lapis Lazuli](https://minecraft.wiki/w/Lapis_Lazuli) | × 2 | 100 XP |
 | [Mana Dust](../../thermal-foundation/mana-dust/) | × 2.5 | 200 XP |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
@@ -74,7 +74,7 @@ device's GUI.
 
 ### Redstone control
 An insightful condenser may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

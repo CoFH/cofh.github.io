@@ -50,7 +50,7 @@ usage-recipes:
 ![Reinforced Bows](/assets/images/thermal-foundation-2/bows.gif){:style="height: 128px"}
 
 
-**[Bows](https://minecraft.gamepedia.com/Bow)** are weapons in vanilla
+**[Bows](https://minecraft.wiki/w/Bow)** are weapons in vanilla
 Minecraft. [Thermal Foundation](../) adds a set of
 **reinforced bows**, which are bows made with various materials.
 

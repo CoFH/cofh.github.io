@@ -53,7 +53,7 @@ Obtaining
 ### Smashing
 When [tin ore](../tin-ore/) is broken using a
 [Smashing](../../cofh-core/smashing/) enchanted
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+[pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool, two piles of
 pulverized tin are dropped instead of the ore.
 
 

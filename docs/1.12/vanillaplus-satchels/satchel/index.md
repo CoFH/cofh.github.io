@@ -41,7 +41,7 @@ Usage
 
 ### Item storage
 A satchel can be opened by using it. When opened, items can be put in or taken
-out, like with [chests](https://minecraft.gamepedia.com/Chest).
+out, like with [chests](https://minecraft.wiki/w/Chest).
 
 Satchels cannot store certain items that can themselves store items, such as
 other satchels.
@@ -76,14 +76,14 @@ NBT
 
 ### Dyeing
 The body and flap of a satchel can be dyed by combining the satchel with
-[dyes](https://minecraft.gamepedia.com/Dye) in a crafting grid. The body and/or
+[dyes](https://minecraft.wiki/w/Dye) in a crafting grid. The body and/or
 flap are dyed depending on the dyes' positions around the satchel in the
 crafting grid. The dyes can be removed by placing the satchel in a crafting
 grid.
 
 ### Security
 A satchel can be secured to restrict who can access it. This is done by
-combining the satchel with [obsidian](https://minecraft.gamepedia.com/Obsidian)
+combining the satchel with [obsidian](https://minecraft.wiki/w/Obsidian)
 in a crafting grid. A secured satchel can be in one of three modes:
 
 Public Access
@@ -99,8 +99,8 @@ Owner Only
 The current mode can be set using the Security tab in the satchel's GUI.
 
 When dropped, a secured satchel cannot be destroyed by things like
-[lava](https://minecraft.gamepedia.com/Lava) and
-[cacti](https://minecraft.gamepedia.com/Cactus). However, it still despawns
+[lava](https://minecraft.wiki/w/Lava) and
+[cacti](https://minecraft.wiki/w/Cactus). However, it still despawns
 after a while.
 
 ### Enchantments

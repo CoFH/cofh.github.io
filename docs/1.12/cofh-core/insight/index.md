@@ -7,22 +7,22 @@ redirect_from:
 - /docs/1.12/cofh-core-4/insight/
 ---
 
-**Insight** is an [enchantment](https://minecraft.gamepedia.com/Enchanting) that
-increases the amount of [experience](https://minecraft.gamepedia.com/Experience)
-gained when using a [tool](https://minecraft.gamepedia.com/Tools),
-[sword](https://minecraft.gamepedia.com/Sword) or
-[bow](https://minecraft.gamepedia.com/Bow). Its maximum level is III.
+**Insight** is an [enchantment](https://minecraft.wiki/w/Enchanting) that
+increases the amount of [experience](https://minecraft.wiki/w/Experience)
+gained when using a [tool](https://minecraft.wiki/w/Tools),
+[sword](https://minecraft.wiki/w/Sword) or
+[bow](https://minecraft.wiki/w/Bow). Its maximum level is III.
 
 
 Usage
 -----
 
-When an Insight enchanted [sword](https://minecraft.gamepedia.com/Sword) or
-[bow](https://minecraft.gamepedia.com/Bow) is used to kill a mob or player, or
-an Insight enchanted [tool](https://minecraft.gamepedia.com/Tools) is used to
+When an Insight enchanted [sword](https://minecraft.wiki/w/Sword) or
+[bow](https://minecraft.wiki/w/Bow) is used to kill a mob or player, or
+an Insight enchanted [tool](https://minecraft.wiki/w/Tools) is used to
 break a block, the amount of dropped
-[experience](https://minecraft.gamepedia.com/Experience) is increased. It
+[experience](https://minecraft.wiki/w/Experience) is increased. It
 increases further at higher levels of Insight.
 
-Insight and [Silk Touch](https://minecraft.gamepedia.com/Enchanting#Silk_Touch)
+Insight and [Silk Touch](https://minecraft.wiki/w/Silk_Touch)
 cannot be applied on a tool at the same time.

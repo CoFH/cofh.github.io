@@ -16,7 +16,7 @@ recipes:
 ---
 
 A **flux-infused pickaxe** is a powerful
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) powered by [Redstone
+[pickaxe](https://minecraft.wiki/w/Pickaxe) powered by [Redstone
 Flux](/docs/redstone-flux/).
 
 
@@ -47,19 +47,19 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Mining
 An uncharged flux-infused pickaxe has a very low mining speed: half the speed of
-a [wooden pickaxe](https://minecraft.gamepedia.com/Wooden_Pickaxe). When
+a [wooden pickaxe](https://minecraft.wiki/w/Wooden_Pickaxe). When
 charged, it has the same mining speed as a [diamond
-pickaxe](https://minecraft.gamepedia.com/Diamond_Pickaxe), and consumes 200 RF
+pickaxe](https://minecraft.wiki/w/Pickaxe), and consumes 200 RF
 per use. When empowered, it is 1.5 times as fast as a diamond pickaxe, and
 consumes 800 RF per use.
 
 A flux-infused pickaxe can harvest any block that a [diamond
-pickaxe](https://minecraft.gamepedia.com/Diamond_Pickaxe) can harvest. It is
+pickaxe](https://minecraft.wiki/w/Pickaxe) can harvest. It is
 technically one harvest level more powerful than a diamond pickaxe, but there
 are no blocks that require such a powerful pickaxe to harvest in the base game.
 
 When empowered, a flux-infused pickaxe also serves as a
-[shovel](https://minecraft.gamepedia.com/Shovel).
+[shovel](https://minecraft.wiki/w/Shovel).
 
 When a block is broken using an empowered flux-infused pickaxe, two adjacent
 blocks are also broken if possible. When mining horizontally, these are the
@@ -74,12 +74,12 @@ of damage that bypasses armor). When empowered, its attack speed is raised to
 
 ### Enchantments
 A flux-infused pickaxe has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 25, which is
 slightly higher than that of a [golden
-pickaxe](https://minecraft.gamepedia.com/Golden_Pickaxe). It can receive all the
+pickaxe](https://minecraft.wiki/w/Golden_Pickaxe). It can receive all the
 enchantments that other pickaxes can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused pickaxe has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

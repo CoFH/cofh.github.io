@@ -23,7 +23,7 @@ Obtaining
 
 A placed decoctive diffuser can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -39,11 +39,11 @@ cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 ### Operation
 When a [fluid potion](../../thermal-foundation/potion-fluid/) is supplied to a
 decoctive diffuser, it will begin applying the potion's
-[effect](https://minecraft.gamepedia.com/Status_effect) to nearby entities in a
-certain area (9x9x9 for [potions](https://minecraft.gamepedia.com/Potion),
-13x13x13 for [splash potions](https://minecraft.gamepedia.com/Splash_Potion) and
+[effect](https://minecraft.wiki/w/Status_effect) to nearby entities in a
+certain area (9x9x9 for [potions](https://minecraft.wiki/w/Potion),
+13x13x13 for [splash potions](https://minecraft.wiki/w/Splash_Potion) and
 17x17x17 for [lingering
-potions](https://minecraft.gamepedia.com/Lingering_Potion)) centered on the
+potions](https://minecraft.wiki/w/Lingering_Potion)) centered on the
 device. The duration of the applied effect is one fourth of the duration of the
 potion itself. The device spreads potion effects every 60 ticks (3 seconds), or
 directly after it is activated by a [redstone signal](#redstone-control). It
@@ -55,8 +55,8 @@ item.
 
 | Reagent type | Effect |
 |---
-| [Redstone](https://minecraft.gamepedia.com/Redstone) | Doubles the duration of the applied effect. |
-| [Glowstone Dust](https://minecraft.gamepedia.com/Glowstone_Dust) | Increases the potency of the applied effect by one level. |
+| [Redstone](https://minecraft.wiki/w/Redstone) | Doubles the duration of the applied effect. |
+| [Glowstone Dust](https://minecraft.wiki/w/Glowstone_Dust) | Increases the potency of the applied effect by one level. |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 Effects applied by decoctive diffusers are limited to durations up to 6 minutes
@@ -76,7 +76,7 @@ can be configured using the Configuration tab in the device's GUI.
 
 ### Redstone control
 A decoctive diffuser may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

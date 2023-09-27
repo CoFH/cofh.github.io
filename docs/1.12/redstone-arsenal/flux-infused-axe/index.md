@@ -15,7 +15,7 @@ recipes:
   - ra-1-12-tool-axe
 ---
 
-A **flux-infused axe** is a powerful [axe](https://minecraft.gamepedia.com/Axe)
+A **flux-infused axe** is a powerful [axe](https://minecraft.wiki/w/Axe)
 powered by [Redstone Flux](/docs/redstone-flux/).
 
 
@@ -47,9 +47,9 @@ toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Chopping wood
 An uncharged flux-infused axe has a very low chopping speed: half the speed of a
-[wooden axe](https://minecraft.gamepedia.com/Wooden_Axe). When charged, it has
+[wooden axe](https://minecraft.wiki/w/Wooden_Axe). When charged, it has
 the same chopping speed as a [diamond
-axe](https://minecraft.gamepedia.com/Diamond_Axe), and consumes 200 RF per use.
+axe](https://minecraft.wiki/w/Axe), and consumes 200 RF per use.
 When empowered, it is 1.5 times as fast as a diamond axe, and consumes 1,600 RF
 per use.
 
@@ -64,12 +64,12 @@ and its flux damage is raised to 6.
 
 ### Enchantments
 A flux-infused axe has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 25, which is
 slightly higher than that of a [golden
-axe](https://minecraft.gamepedia.com/Golden_Axe). It can receive all the
+axe](https://minecraft.wiki/w/Golden_Axe). It can receive all the
 enchantments that other axes can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused axe has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

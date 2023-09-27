@@ -83,7 +83,7 @@ usage-recipes:
 
 
 **Hardened glass** is a hard to break and explosion resistant version of
-[glass](https://minecraft.gamepedia.com/Glass). Variants of hardened glass exist
+[glass](https://minecraft.wiki/w/Glass). Variants of hardened glass exist
 for every type of metal that Thermal Foundation provides.
 
 
@@ -92,7 +92,7 @@ Obtaining
 
 Hardened glass can only be harvested by dismantling it with a
 [wrench](../../wrenches/) or by breaking it with a [Silk
-Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted pickaxe.
+Touch](https://minecraft.wiki/w/Silk_Touch) enchanted pickaxe.
 
 ### Induction Smelter
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.recipes.smelter %}
@@ -110,12 +110,12 @@ type of metal, like [lumium](../lumium-ingot/).
 
 ### Wither proofing
 Hardened glass blocks cannot be broken by
-[withers](https://minecraft.gamepedia.com/Wither).
+[withers](https://minecraft.wiki/w/Wither).
 
 ### Beacons
-Like [stained glass](https://minecraft.gamepedia.com/Stained_Glass), hardened
+Like [stained glass](https://minecraft.wiki/w/Stained_Glass), hardened
 glass blocks change the color of
-[beacon](https://minecraft.gamepedia.com/Beacon) beams that pass through them.
+[beacon](https://minecraft.wiki/w/Beacon) beams that pass through them.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

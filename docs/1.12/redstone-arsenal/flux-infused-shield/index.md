@@ -16,7 +16,7 @@ recipes:
 ---
 
 A **flux-infused shield** is a powerful
-[shield](https://minecraft.gamepedia.com/Shield) powered by [Redstone
+[shield](https://minecraft.wiki/w/Shield) powered by [Redstone
 Flux](/docs/redstone-flux/).
 
 
@@ -47,7 +47,7 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Defense
 When a flux-infused shield is used to
-[block](https://minecraft.gamepedia.com/Blocking) an incoming attack, the shield
+[block](https://minecraft.wiki/w/Blocking) an incoming attack, the shield
 deals 1 flux damage (a special type of damage that bypasses armor) to the
 attacker. It consumes 200 RF per blocked attack. When empowered, it deals 6 flux
 damage and consumes 800 RF per blocked attack.
@@ -59,11 +59,11 @@ hit.
 
 ### Enchantments
 A flux-infused shield has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25. It can
+[enchantability](https://minecraft.wiki/w/Enchantability) of 25. It can
 receive all the enchantments that a regular
-[shield](https://minecraft.gamepedia.com/Shield) can receive.
+[shield](https://minecraft.wiki/w/Shield) can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused shield has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

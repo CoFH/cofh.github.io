@@ -19,7 +19,7 @@ redirect_from:
 - /docs/vanillaplus-tools/fishing-rods/
 ---
 
-**[Fishing rods](https://minecraft.gamepedia.com/Fishing_Rod)** are tools in
+**[Fishing rods](https://minecraft.wiki/w/Fishing_Rod)** are tools in
 vanilla Minecraft. [Vanilla+ Tools](../) adds a set of
 fishing rods made of materials other than wood.
 
@@ -36,9 +36,9 @@ Usage
 
 ### Comparison
 The lure and luck modifiers of a fishing rod make it as powerful as a regular
-[fishing rod](https://minecraft.gamepedia.com/Fishing_Rod) enchanted with
-[Lure](https://minecraft.gamepedia.com/Lure) and [Luck of the
-Sea](https://minecraft.gamepedia.com/Luck_of_the_Sea) at those levels,
+[fishing rod](https://minecraft.wiki/w/Fishing_Rod) enchanted with
+[Lure](https://minecraft.wiki/w/Lure) and [Luck of the
+Sea](https://minecraft.wiki/w/Luck_of_the_Sea) at those levels,
 respectively.
 
 {% comment %}

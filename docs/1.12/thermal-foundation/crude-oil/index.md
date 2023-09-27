@@ -40,14 +40,14 @@ Obtaining
 ### Natural generation
 Crude oil can rarely be found underground inside large deposits of [oil
 sand](../oil-sand/) or [oil shale](../oil-shale/). It can be picked up
-using a [bucket](https://minecraft.gamepedia.com/Bucket).
+using a [bucket](https://minecraft.wiki/w/Bucket).
 
 
 Usage
 -----
 
 Crude oil can be placed as a block using a
-[bucket](https://minecraft.gamepedia.com/Bucket). Crude oil blocks are
+[bucket](https://minecraft.wiki/w/Bucket). Crude oil blocks are
 flammable.
 
 ### Fluid Transposer ingredient

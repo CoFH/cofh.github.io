@@ -40,8 +40,8 @@ usage-recipes:
 ![Boots](/assets/images/thermal-foundation-2/boots.gif){:style="height: 128px"}
 
 
-**[Boots](https://minecraft.gamepedia.com/Boots)** are a type of
-[armor](https://minecraft.gamepedia.com/Armor) in vanilla Minecraft. [Thermal
+**[Boots](https://minecraft.wiki/w/Boots)** are a type of
+[armor](https://minecraft.wiki/w/Armor) in vanilla Minecraft. [Thermal
 Foundation](../) adds a set of boots made of various
 metals.
 

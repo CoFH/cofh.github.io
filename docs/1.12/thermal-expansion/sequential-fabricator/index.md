@@ -22,7 +22,7 @@ augments:
 
 A **sequential fabricator** (also known as a **crafter**) is a
 [machine](../machines/) that
-[crafts](https://minecraft.gamepedia.com/Crafting) items.
+[crafts](https://minecraft.wiki/w/Crafting) items.
 
 
 Obtaining
@@ -30,7 +30,7 @@ Obtaining
 
 A placed sequential fabricator can be instantly picked up by dismantling it with
 a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -51,7 +51,7 @@ four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Processing
 A sequential fabricator must be configured to perform a specific
-[crafting](https://minecraft.gamepedia.com/Crafting) recipe in order to
+[crafting](https://minecraft.wiki/w/Crafting) recipe in order to
 function.
 
 When the required items for the configured recipe are placed in a sequential
@@ -94,7 +94,7 @@ machine's GUI.
 
 ### Redstone control
 A sequential fabricator may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

@@ -41,7 +41,7 @@ usage-recipes:
 ![Axes](/assets/images/thermal-foundation-2/axes.gif){:style="height: 128px"}
 
 
-**[Axes](https://minecraft.gamepedia.com/Axe)** are tools in vanilla Minecraft.
+**[Axes](https://minecraft.wiki/w/Axe)** are tools in vanilla Minecraft.
 [Thermal Foundation](../) adds a set of axes made of
 various metals.
 

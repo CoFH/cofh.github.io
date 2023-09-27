@@ -18,8 +18,8 @@ When using this distribution type, the feature type
 [`plate`](../../feature-types/plate/) is used by default, and the value
 `material` of [feature type
 configurations](../../feature-format/#feature-type-configuration) is set to
-[dirt](https://minecraft.gamepedia.com/Dirt) and [grass
-blocks](https://minecraft.gamepedia.com/Grass_Block) (and all variations of
+[dirt](https://minecraft.wiki/w/Dirt) and [grass
+blocks](https://minecraft.wiki/w/Grass_Block) (and all variations of
 these blocks) by default.
 
 

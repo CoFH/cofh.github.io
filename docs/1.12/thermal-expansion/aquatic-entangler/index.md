@@ -17,7 +17,7 @@ recipes:
 
 An **aquatic entangler** (also known as a **fisher**) is a
 [device](../devices/) that catches
-[fish](https://minecraft.gamepedia.com/Fish).
+[fish](https://minecraft.wiki/w/Fish).
 
 
 Obtaining
@@ -25,7 +25,7 @@ Obtaining
 
 A placed aquatic entangler can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -39,7 +39,7 @@ When placed, an aquatic entangler faces the player. It can face any of the four
 cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
-When placed in a body of [water](https://minecraft.gamepedia.com/Water), an
+When placed in a body of [water](https://minecraft.wiki/w/Water), an
 aquatic entangler will start catching fish. It must be surrounded by at least 10
 water blocks in a 5x5x2 area (the device being at the top of the area).
 
@@ -48,13 +48,13 @@ default. This speed can be increased by various factors.
 
 | Factor | Speed multiplier |
 |---
-| Placed in a [river](https://minecraft.gamepedia.com/River) | × 2 |
-| Placed in an [ocean](https://minecraft.gamepedia.com/Ocean) | × 3 |
-| Surrounded by 10-20 water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | × 2 |
+| Placed in a [river](https://minecraft.wiki/w/River) | × 2 |
+| Placed in an [ocean](https://minecraft.wiki/w/Ocean) | × 3 |
+| Surrounded by 10-20 water blocks ([raining](https://minecraft.wiki/w/Rain)) | × 2 |
 | Surrounded by 20-30 water blocks | × 2 |
-| Surrounded by 20-30 water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | × 3 |
+| Surrounded by 20-30 water blocks ([raining](https://minecraft.wiki/w/Rain)) | × 3 |
 | Surrounded by 30 or more water blocks | × 3 |
-| Surrounded by 30 or more water blocks ([raining](https://minecraft.gamepedia.com/Rain)) | × 4 |
+| Surrounded by 30 or more water blocks ([raining](https://minecraft.wiki/w/Rain)) | × 4 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 The amount of fish an aquatic entangler catches per cycle can be increased by
@@ -86,7 +86,7 @@ enabled can be configured using the Configuration tab in the device's GUI.
 
 ### Redstone control
 An aquatic entangler may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -115,14 +115,14 @@ Products
 --------
 
 An aquatic entangler can catch various kinds of
-[fish](https://minecraft.gamepedia.com/Fish). Every kind of fish has a certain
+[fish](https://minecraft.wiki/w/Fish). Every kind of fish has a certain
 'weight', which specifies the chance of it being caught. Products with a greater
 weight are more likely to be caught.
 
 | Product | Weight |
 |---
-| [Raw Fish](https://minecraft.gamepedia.com/Raw_Fish) | 120 |
-| [Raw Salmon](https://minecraft.gamepedia.com/Raw_Salmon) | 50 |
-| [Clownfish](https://minecraft.gamepedia.com/Clownfish) | 4 |
-| [Pufferfish](https://minecraft.gamepedia.com/Pufferfish) | 26 |
+| [Raw Fish](https://minecraft.wiki/w/Raw_Fish) | 120 |
+| [Raw Salmon](https://minecraft.wiki/w/Raw_Salmon) | 50 |
+| [Clownfish](https://minecraft.wiki/w/Clownfish) | 4 |
+| [Pufferfish](https://minecraft.wiki/w/Pufferfish) | 26 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

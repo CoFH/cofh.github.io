@@ -14,7 +14,7 @@ recipes:
 ---
 
 A **flux-infused chestplate** is a powerful
-[chestplate](https://minecraft.gamepedia.com/Chestplate) powered by [Redstone
+[chestplate](https://minecraft.wiki/w/Chestplate) powered by [Redstone
 Flux](/docs/redstone-flux/).
 
 
@@ -39,7 +39,7 @@ at rates up to 4,000 RF/t.
 
 ### Defense
 A charged flux-infused chestplate offers the same protection as a [diamond
-chestplate](https://minecraft.gamepedia.com/Diamond_Chestplate). Instead of
+chestplate](https://minecraft.wiki/w/Chestplate). Instead of
 taking damage, a flux-infused chestplate consumes 200 RF per damage point per
 hit.
 
@@ -49,12 +49,12 @@ it.
 
 ### Enchantments
 A flux-infused chestplate has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 20, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 20, which is
 slightly lower than that of a [golden
-chestplate](https://minecraft.gamepedia.com/Golden_Chestplate). It can receive
+chestplate](https://minecraft.wiki/w/Golden_Chestplate). It can receive
 all the enchantments that other chestplates can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused chestplate has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when absorbing damage.
 

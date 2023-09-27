@@ -26,21 +26,21 @@ usage-recipes:
 ![Copper ore](/assets/images/thermal-foundation-2/ore-copper.png){:style="height: 128px"}
 
 
-**Copper ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that
+**Copper ore** is a common [ore](https://minecraft.wiki/w/Ore) that
 yields [copper](../copper-ingot/) and small amounts of
-[gold](https://minecraft.gamepedia.com/Gold_Ingot).
+[gold](https://minecraft.wiki/w/Gold_Ingot).
 
 
 Obtaining
 ---------
 
 Copper ore is slightly more common than [iron
-ore](https://minecraft.gamepedia.com/Iron_Ore), but it occurs at higher levels
+ore](https://minecraft.wiki/w/Iron_Ore), but it occurs at higher levels
 (layers 40-96). Veins of copper ore are also slightly smaller. Below oceans,
 copper ore less commonly occurs at deeper levels (layers 20-55).
 
 Copper ore must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better. If it is mined, it
 drops itself as an item.
 
 
@@ -61,7 +61,7 @@ Usage
 
 ### Smashing
 When copper ore is broken using a [Smashing](../../cofh-core/smashing/)
-enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
+enchanted [pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool,
 two piles of [pulverized copper](../pulverized-copper/)
 are dropped instead of the ore.
 

@@ -6,7 +6,7 @@ redirect_from:
 
 A **block ID** is a format used while describing
 [features](../../feature-format/) to specify a type of
-[block](https://minecraft.gamepedia.com/Block) in the world.
+[block](https://minecraft.wiki/w/Block) in the world.
 
 
 Format
@@ -33,7 +33,7 @@ A block ID is an object with the following values.
                     The internal name (ID) of the block, such as
                     `minecraft:stone`. The ID of a block in the world can be
                     seen ingame by looking at it while the
-                    [debug screen](https://minecraft.gamepedia.com/Debug_screen)
+                    [debug screen](https://minecraft.wiki/w/Debug_screen)
                     is active. If the block is from the base game, the
                     `minecraft:` prefix is not required.
                 </td>
@@ -44,11 +44,11 @@ A block ID is an object with the following values.
                 <td markdown="span">(See description)</td>
                 <td markdown="span">
                     The
-                    [block states](https://minecraft.gamepedia.com/block_states)
+                    [block states](https://minecraft.wiki/w/block_states)
                     of the block, specified as an object in which the keys are
                     the names of the block states. The block states of a block
                     in the world can be seen ingame by looking at it while the
-                    [debug screen](https://minecraft.gamepedia.com/Debug_screen)
+                    [debug screen](https://minecraft.wiki/w/Debug_screen)
                     is active.<br />
                     <br />
                     If `properties` is not specified and the block ID is used to
@@ -62,10 +62,10 @@ A block ID is an object with the following values.
                 <td markdown="span">Object</td>
                 <td markdown="span">`null`</td>
                 <td markdown="span">
-                    The [NBT data](https://minecraft.gamepedia.com/NBT_format)
+                    The [NBT data](https://minecraft.wiki/w/NBT_format)
                     of the block, specified as JSON. Only used for blocks that
                     have
-                    [block entities](https://minecraft.gamepedia.com/Chunk_format#Block_entity_format).
+                    [block entities](https://minecraft.wiki/w/Chunk_format#Block_entity_format).
                 </td>
             </tr>
             <tr>

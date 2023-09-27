@@ -22,7 +22,7 @@ usage-recipes:
 
 **Basalz rods** are materials that are dropped by [basalzes](../basalz/).
 They are the earth elemental versions of [blaze
-rods](https://minecraft.gamepedia.com/Blaze_Rod). Their only use is to be
+rods](https://minecraft.wiki/w/Blaze_Rod). Their only use is to be
 processed into [basalz powder](../basalz-powder/).
 
 

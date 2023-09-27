@@ -42,7 +42,7 @@ usage-recipes:
 ![Pickaxes](/assets/images/thermal-foundation-2/pickaxes.gif){:style="height: 128px"}
 
 
-**[Pickaxes](https://minecraft.gamepedia.com/Pickaxe)** are tools in vanilla
+**[Pickaxes](https://minecraft.wiki/w/Pickaxe)** are tools in vanilla
 Minecraft. [Thermal Foundation](../) adds a set of
 pickaxes made of various metals.
 

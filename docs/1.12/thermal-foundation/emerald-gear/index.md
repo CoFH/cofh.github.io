@@ -15,7 +15,7 @@ redirect_from:
 ---
 
 **Emerald gears** are crafting materials made of
-[emeralds](https://minecraft.gamepedia.com/Emerald). They are currently not used
+[emeralds](https://minecraft.wiki/w/Emerald). They are currently not used
 for anything.
 
 

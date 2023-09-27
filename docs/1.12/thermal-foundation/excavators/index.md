@@ -79,7 +79,7 @@ redirect_from:
 - /docs/1.12/thermal-foundation-2/excavators/
 ---
 
-**Excavators** are [shovel](https://minecraft.gamepedia.com/Shovel)-like tools
+**Excavators** are [shovel](https://minecraft.wiki/w/Shovel)-like tools
 that can dig 9 blocks at once.
 
 
@@ -94,7 +94,7 @@ Usage
 -----
 
 Excavators can be used to dig the same blocks as with
-[shovels](https://minecraft.gamepedia.com/Shovels). When a block is broken using
+[shovels](https://minecraft.wiki/w/Shovels). When a block is broken using
 an excavator, any blocks surrounding it in a 3x3 area will be broken as well if
 possible. This can be temporarily disabled by sneaking.
 
@@ -133,7 +133,7 @@ uses = mat.maxUses * 2
 
 ### Enchantments
 Excavators can receive the same enchantments that
-[shovels](https://minecraft.gamepedia.com/Shovel) can.
+[shovels](https://minecraft.wiki/w/Shovel) can.
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

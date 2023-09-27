@@ -56,7 +56,7 @@ List of machines
 <div class="uk-overflow-container">
 | Machine | Description |
 |---
-| [Redstone Furnace](../redstone-furnace/) | [Smelts](https://minecraft.gamepedia.com/Smelting) items, and cooks food very quickly. |
+| [Redstone Furnace](../redstone-furnace/) | [Smelts](https://minecraft.wiki/w/Smelting) items, and cooks food very quickly. |
 | [Pulverizer](../pulverizer/) | Crushes items. Can be used to process ores. |
 | [Sawmill](../sawmill/) | Cuts logs into planks and reprocesses wooden things. |
 | [Induction Smelter](../induction-smelter/) | Smelts things together at high temperatures. Can be used to process ores. |
@@ -64,12 +64,12 @@ List of machines
 | [Compactor](../compactor/) | Compresses items into different forms. |
 | [Magma Crucible](../magma-crucible/) | Melts items into fluids. |
 | [Fractionating Still](../fractionating-still/) | Refines fluids. |
-| [Fluid Transposer](../fluid-transposer/) | Fills or empties things that hold fluids, like [buckets](https://minecraft.gamepedia.com/Bucket). |
+| [Fluid Transposer](../fluid-transposer/) | Fills or empties things that hold fluids, like [buckets](https://minecraft.wiki/w/Bucket). |
 | [Energetic Infuser](../energetic-infuser/) | Charges items. |
 | [Centrifugal Separator](../centrifugal-separator/) | Separates items into their components. |
-| [Sequential Fabricator](../sequential-fabricator/) | [Crafts](https://minecraft.gamepedia.com/Crafting) items. |
-| [Alchemical Imbuer](../alchemical-imbuer/) | Brews [potions](https://minecraft.gamepedia.com/Potion). |
-| [Arcane Ensorcellator](../arcane-ensorcellator/) | Enchants [books](https://minecraft.gamepedia.com/Book) and other arcana. Can produce specific [enchanted books](https://minecraft.gamepedia.com/Enchanted_Book). |
+| [Sequential Fabricator](../sequential-fabricator/) | [Crafts](https://minecraft.wiki/w/Crafting) items. |
+| [Alchemical Imbuer](../alchemical-imbuer/) | Brews [potions](https://minecraft.wiki/w/Potion). |
+| [Arcane Ensorcellator](../arcane-ensorcellator/) | Enchants [books](https://minecraft.wiki/w/Book) and other arcana. Can produce specific [enchanted books](https://minecraft.wiki/w/Enchanted_Book). |
 | [Glacial Precipitator](../glacial-precipitator/) | Freezes fluids into items. |
 | [Igneous Extruder](../igneous-extruder/) | Mixes hot and cold fluids to create items. |
 {:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-semi-compress .uk-text-small}

@@ -22,9 +22,9 @@ usage-recipes:
 ---
 
 **Essence of knowledge** is a fluid form of
-[experience](https://minecraft.gamepedia.com/Experience).
+[experience](https://minecraft.wiki/w/Experience).
 
-One [experience point](https://minecraft.gamepedia.com/Experience) is worth 20
+One [experience point](https://minecraft.wiki/w/Experience) is worth 20
 mB of essence of knowledge.
 
 
@@ -34,13 +34,13 @@ Obtaining
 ### Tome of Knowledge
 Essence of knowledge can be drained from a [tome of
 knowledge](../tome-of-knowledge/) that is holding
-[experience](https://minecraft.gamepedia.com/Experience). This can be done
+[experience](https://minecraft.wiki/w/Experience). This can be done
 manually by using the item on blocks that store fluids, or automatically using
 [fluid transposers](../../thermal-expansion/fluid-transposer/) or similar.
 
 ### Insightful Condenser
 An [insightful condenser](../../thermal-expansion/insightful-condenser/) collects nearby
-[experience orbs](https://minecraft.gamepedia.com/Experience) and converts them
+[experience orbs](https://minecraft.wiki/w/Experience) and converts them
 into essence of knowledge.
 
 ### Centrifugal Separator with Enstabulation Apparatus
@@ -63,14 +63,14 @@ Essence of knowledge cannot be placed as a block.
 ### Tome of Knowledge
 A [tome of knowledge](../tome-of-knowledge/) can be filled with essence of
 knowledge, converting it into [experience
-points](https://minecraft.gamepedia.com/Experience). This can be done manually
+points](https://minecraft.wiki/w/Experience). This can be done manually
 by using it on blocks that store fluids, or automatically using [fluid
 transposers](../../thermal-expansion/fluid-transposer/) or similar.
 
 ### Arcane Ensorcellator
 An [arcane ensorcellator](../../thermal-expansion/arcane-ensorcellator/) uses essence of knowledge
 to produce specific [enchanted
-books](https://minecraft.gamepedia.com/Enchanted_Book).
+books](https://minecraft.wiki/w/Enchanted_Book).
 
 ### Energetic Infuser with Flux Reconstruction
 An [energetic infuser](../../thermal-expansion/energetic-infuser/) with [flux

@@ -16,9 +16,9 @@ recipes:
 ---
 
 A **flux-infused shovel** is a powerful
-[shovel](https://minecraft.gamepedia.com/Shovel) powered by [Redstone
+[shovel](https://minecraft.wiki/w/Shovel) powered by [Redstone
 Flux](/docs/redstone-flux/). It also serves as a
-[hoe](https://minecraft.gamepedia.com/Hoe).
+[hoe](https://minecraft.wiki/w/Hoe).
 
 
 Obtaining
@@ -48,9 +48,9 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Digging
 An uncharged flux-infused shovel has a very low digging speed: half the speed of
-a [wooden shovel](https://minecraft.gamepedia.com/Wooden_Shovel). When charged,
+a [wooden shovel](https://minecraft.wiki/w/Wooden_Shovel). When charged,
 it has the same digging speed as a [diamond
-shovel](https://minecraft.gamepedia.com/Diamond_Shovel), and consumes 200 RF per
+shovel](https://minecraft.wiki/w/Shovel), and consumes 200 RF per
 use. When empowered, it is 1.5 times as fast as a diamond shovel, and consumes
 800 RF per use.
 
@@ -58,16 +58,16 @@ When a block is broken using an empowered flux-infused shovel, up to 4 blocks in
 a row behind the broken block are also broken if possible.
 
 ### Grass paths
-Like a regular [shovel](https://minecraft.gamepedia.com/Shovel), a charged
+Like a regular [shovel](https://minecraft.wiki/w/Shovel), a charged
 flux-infused shovel can be used to create [grass
-paths](https://minecraft.gamepedia.com/Grass_Path).
+paths](https://minecraft.wiki/w/Grass_Path).
 
 When a grass path is created using an empowered flux-infused shovel, up to 4
 more grass paths are created in a row behind the created path if possible.
 
 ### Tilling
 A charged flux-infused shovel can serve as a
-[hoe](https://minecraft.gamepedia.com/Hoe) by using it while sneaking.
+[hoe](https://minecraft.wiki/w/Hoe) by using it while sneaking.
 
 When a block is tilled using an empowered flux-infused shovel, up to 4 blocks in
 a row behind the tilled block are also tilled if possible.
@@ -80,12 +80,12 @@ and its flux damage is raised to 4.
 
 ### Enchantments
 A flux-infused shovel has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 25, which is
 slightly higher than that of a [golden
-shovel](https://minecraft.gamepedia.com/Golden_Shovel). It can receive all the
+shovel](https://minecraft.wiki/w/Golden_Shovel). It can receive all the
 enchantments that other shovels can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused shovel has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

@@ -41,7 +41,7 @@ usage-recipes:
 
 
 **Iron gears** are crafting materials made of
-[iron](https://minecraft.gamepedia.com/Iron_Ingot).
+[iron](https://minecraft.wiki/w/Iron_Ingot).
 
 
 Obtaining

@@ -54,7 +54,7 @@ Usage
 
 ### Fertilizer
 When used on blocks, fluxed Phyto-Gro grows plants like [bone
-meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 7x7 area.
+meal](https://minecraft.wiki/w/Bone_Meal), but in a 7x7 area.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

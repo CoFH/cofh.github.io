@@ -19,7 +19,7 @@ redirect_from:
 - /docs/vanillaplus-tools/shields/
 ---
 
-**[Shields](https://minecraft.gamepedia.com/Shield)** are weapons in vanilla
+**[Shields](https://minecraft.wiki/w/Shield)** are weapons in vanilla
 Minecraft. [Vanilla+ Tools](../) adds a set of shields made
 of materials other than wood.
 

@@ -42,8 +42,8 @@ usage-recipes:
 ![Helmets](/assets/images/thermal-foundation-2/helmets.gif){:style="height: 128px"}
 
 
-**[Helmets](https://minecraft.gamepedia.com/Helmet)** are a type of
-[armor](https://minecraft.gamepedia.com/Armor) in vanilla Minecraft. [Thermal
+**[Helmets](https://minecraft.wiki/w/Helmet)** are a type of
+[armor](https://minecraft.wiki/w/Armor) in vanilla Minecraft. [Thermal
 Foundation](../) adds a set of helmets made of various
 metals.
 

@@ -26,7 +26,7 @@ Obtaining
 ---------
 
 Blocks of mana infused metal can only be mined with a [diamond
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better.
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -52,7 +52,7 @@ Mobs will not spawn on top of blocks of mana infused metal.
 
 ### Beacons
 Blocks of mana infused metal can be used to build
-[beacon](https://minecraft.gamepedia.com/Beacon) pyramids.
+[beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

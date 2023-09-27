@@ -35,7 +35,7 @@ usage-recipes:
 
 
 **Energized glowstone** is a fluid obtained by melting
-[glowstone](https://minecraft.gamepedia.com/Glowstone) in a [magma
+[glowstone](https://minecraft.wiki/w/Glowstone) in a [magma
 crucible](../../thermal-expansion/magma-crucible/). It is lighter than air and vertically flows up
 instead of down.
 
@@ -55,14 +55,14 @@ Obtaining
 ### Natural generation
 Deposits of [energized netherrack](../energized-netherrack/) may contain some
 energized glowstone, which can be picked up using a
-[bucket](https://minecraft.gamepedia.com/Bucket).
+[bucket](https://minecraft.wiki/w/Bucket).
 
 
 Usage
 -----
 
 Energized glowstone can be placed as a block using a
-[bucket](https://minecraft.gamepedia.com/Bucket).
+[bucket](https://minecraft.wiki/w/Bucket).
 
 ### Light source
 Energized glowstone blocks emit a light level of 15.
@@ -74,23 +74,23 @@ instead of down.
 Energized glowstone source blocks will gradually float upwards if there are no
 blocks above them. If they float at high levels (layers 120 and above by
 default) they will condense back into solid
-[glowstone](https://minecraft.gamepedia.com/Glowstone). They will also condense
+[glowstone](https://minecraft.wiki/w/Glowstone). They will also condense
 at 80% of this height if the fluid has no space to flow.
 
 ### Effects
 When touched by players and mobs, energized glowstone applies the effects [Speed
-I](https://minecraft.gamepedia.com/Status_effect#Speed) and [Jump Boost
-I](https://minecraft.gamepedia.com/Status_effect#Jump_Boost) to them for 6
+I](https://minecraft.wiki/w/Speed) and [Jump Boost
+I](https://minecraft.wiki/w/Jump_Boost) to them for 6
 seconds, as well as
-[Glowing](https://minecraft.gamepedia.com/Status_effect#Glowing) for 30 seconds.
+[Glowing](https://minecraft.wiki/w/Glowing) for 30 seconds.
 
 When an energized glowstone source block comes into contact with [gelid
 cryotheum](../gelid-cryotheum/), the source block instantly condenses back
-into solid [glowstone](https://minecraft.gamepedia.com/Glowstone).
+into solid [glowstone](https://minecraft.wiki/w/Glowstone).
 
 ### Crafting ingredient
 Any item that contains at least one
-[bucket](https://minecraft.gamepedia.com/Bucket) worth of energized glowstone
+[bucket](https://minecraft.wiki/w/Bucket) worth of energized glowstone
 may be used in these recipes.
 
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
@@ -100,11 +100,11 @@ may be used in these recipes.
 
 ### Reactant Dynamo fuel
 Energized glowstone can be used with
-[sugar](https://minecraft.gamepedia.com/Sugar), [nether
-wart](https://minecraft.gamepedia.com/Nether_Wart),
-[gunpowder](https://minecraft.gamepedia.com/Gunpowder), [blaze
-powder](https://minecraft.gamepedia.com/Blaze_Powder) or [ghast
-tears](https://minecraft.gamepedia.com/Ghast_Tear) in a [reactant
+[sugar](https://minecraft.wiki/w/Sugar), [nether
+wart](https://minecraft.wiki/w/Nether_Wart),
+[gunpowder](https://minecraft.wiki/w/Gunpowder), [blaze
+powder](https://minecraft.wiki/w/Blaze_Powder) or [ghast
+tears](https://minecraft.wiki/w/Ghast_Tear) in a [reactant
 dynamo](../../thermal-expansion/reactant-dynamo/) to generate varying amounts of energy.
 
 

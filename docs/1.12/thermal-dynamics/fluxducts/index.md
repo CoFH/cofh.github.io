@@ -33,7 +33,7 @@ Fluxducts come in six [tiers](#tiers), each with their own recipes.
 
 A placed fluxduct can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+[pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 
 Usage
@@ -55,7 +55,7 @@ connection. However, there is no limit on how much power can travel through a
 fluxduct itself.
 
 A network of fluxducts can store a certain amount of energy, so that unloaded
-[chunks](https://minecraft.gamepedia.com/Chunk) do not immediately cause it to
+[chunks](https://minecraft.wiki/w/Chunk) do not immediately cause it to
 stop supplying energy. The energy capacity of a network is proportional to the
 amount of blocks connected to it.
 

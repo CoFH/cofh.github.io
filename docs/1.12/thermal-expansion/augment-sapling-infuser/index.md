@@ -19,7 +19,7 @@ recipe-list:
 
 A **sapling infuser** is an [augment](../augments/) that allows for a
 [phytogenic insolator](../phytogenic-insolator/) to grow
-[trees](https://minecraft.gamepedia.com/Tree).
+[trees](https://minecraft.wiki/w/Tree).
 
 
 Obtaining
@@ -39,8 +39,8 @@ insolator](../phytogenic-insolator/)'s GUI.
 ### Effects
 An installed sapling infuser adds some extra [recipes](#recipes) to a
 [phytogenic insolator](../phytogenic-insolator/). These recipes allow for
-[wood](https://minecraft.gamepedia.com/Wood) to be produced from
-[saplings](https://minecraft.gamepedia.com/Sapling).
+[wood](https://minecraft.wiki/w/Wood) to be produced from
+[saplings](https://minecraft.wiki/w/Sapling).
 
 
 Recipes

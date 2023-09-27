@@ -29,7 +29,7 @@ Obtaining
 ### Mining
 [Oil sand](../oil-sand/) and [oil shale](../oil-shale/) will drop one
 piece of bitumen when mined with a pickaxe. More bitumen is dropped if a
-[Fortune](https://minecraft.gamepedia.com/Fortune) enchanted pickaxe is used.
+[Fortune](https://minecraft.wiki/w/Fortune) enchanted pickaxe is used.
 
 ### Pulverizer
 {% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
@@ -42,5 +42,5 @@ Usage
 {% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
 
 ### Fuel
-When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
+When used as fuel in a [furnace](https://minecraft.wiki/w/Furnace), one
 piece of bitumen lasts 160 seconds, which is enough to smelt up to 16 items.

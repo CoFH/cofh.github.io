@@ -13,7 +13,7 @@ redirect_from:
 ---
 
 **Stone gears** are crafting materials made of
-[stone](https://minecraft.gamepedia.com/Stone). They are currently not used for
+[stone](https://minecraft.wiki/w/Stone). They are currently not used for
 anything.
 
 

@@ -16,7 +16,7 @@ recipes:
 A **redstone relay** is an item that can be installed on
 [fluxducts](../fluxducts/), [fluiducts](../fluiduct/),
 [itemducts](../itemduct/) and [structuralducts](../structuralduct/). It
-transmits [redstone](https://minecraft.gamepedia.com/Redstone) signals through a
+transmits [redstone](https://minecraft.wiki/w/Redstone) signals through a
 duct network.
 
 
@@ -55,7 +55,7 @@ adjacent block.
 
 Comparator Input
 : The relay measures the adjacent block like a [redstone
-comparator](https://minecraft.gamepedia.com/Redstone_Comparator) and transfers
+comparator](https://minecraft.wiki/w/Redstone_Comparator) and transfers
 the resulting signal strength through the duct network.
 
 ### Signal modes
