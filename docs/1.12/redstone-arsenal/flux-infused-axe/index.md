@@ -49,7 +49,7 @@ toggled by pressing "Cycle Item Mode" (V by default).
 An uncharged flux-infused axe has a very low chopping speed: half the speed of a
 [wooden axe](https://minecraft.wiki/w/Wooden_Axe). When charged, it has
 the same chopping speed as a [diamond
-axe](https://minecraft.wiki/w/Diamond_Axe), and consumes 200 RF per use.
+axe](https://minecraft.wiki/w/Axe), and consumes 200 RF per use.
 When empowered, it is 1.5 times as fast as a diamond axe, and consumes 1,600 RF
 per use.
 

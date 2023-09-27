@@ -83,8 +83,8 @@ Gelid cryotheum has the following effects on certain blocks and mobs:
 * [blazes](https://minecraft.wiki/w/Blaze) take 10 damage instead of 2;
 * [snow golems](https://minecraft.wiki/w/Snow_Golem) and
   [blizzes](../blizz/) are given the effects [Speed
-  I](https://minecraft.wiki/w/Status_effect#Speed) and [Regeneration
-  I](https://minecraft.wiki/w/Status_effect#Regeneration) for 6 seconds.
+  I](https://minecraft.wiki/w/Speed) and [Regeneration
+  I](https://minecraft.wiki/w/Regeneration) for 6 seconds.
 
 ### Fluid Transposer ingredient
 {% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}

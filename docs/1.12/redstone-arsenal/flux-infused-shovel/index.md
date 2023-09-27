@@ -50,7 +50,7 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 An uncharged flux-infused shovel has a very low digging speed: half the speed of
 a [wooden shovel](https://minecraft.wiki/w/Wooden_Shovel). When charged,
 it has the same digging speed as a [diamond
-shovel](https://minecraft.wiki/w/Diamond_Shovel), and consumes 200 RF per
+shovel](https://minecraft.wiki/w/Shovel), and consumes 200 RF per
 use. When empowered, it is 1.5 times as fast as a diamond shovel, and consumes
 800 RF per use.
 

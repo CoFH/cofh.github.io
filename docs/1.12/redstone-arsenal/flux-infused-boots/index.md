@@ -39,7 +39,7 @@ charged at rates up to 4,000 RF/t.
 
 ### Defense
 Charged flux-infused boots offer the same protection as [diamond
-boots](https://minecraft.wiki/w/Diamond_Boots). Instead of taking damage,
+boots](https://minecraft.wiki/w/Boots). Instead of taking damage,
 flux-infused boots consume 200 RF per damage point per hit.
 
 When hit with flux damage (a special type of damage dealt by flux-infused

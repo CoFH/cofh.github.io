@@ -47,7 +47,7 @@ gradually fall downwards if there are no blocks below them.
 
 ### Effects
 When touched by players and mobs, tectonic petrotheum applies the effect [Haste
-I](https://minecraft.wiki/w/Status_effect#Haste) to them for 6 seconds.
+I](https://minecraft.wiki/w/Haste) to them for 6 seconds.
 
 When tectonic petrotheum touches [stone](https://minecraft.wiki/w/Stone),
 [cobblestone](https://minecraft.wiki/w/Cobblestone), [stone

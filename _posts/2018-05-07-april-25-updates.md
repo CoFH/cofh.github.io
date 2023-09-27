@@ -20,9 +20,9 @@ before the docs are updated.
 #### CoFH Core
 * New [potion types](/docs/1.12/cofh-core/potions/)
   * Potion of Luck (applies
-    [Luck](https://minecraft.wiki/w/Status_effect#Luck))
+    [Luck](https://minecraft.wiki/w/Luck))
   * Potion of Misfortune (applies [Bad
-    Luck](https://minecraft.wiki/w/Status_effect#Bad_Luck))
+    Luck](https://minecraft.wiki/w/Bad_Luck))
 * [Insight](/docs/1.12/cofh-core/insight/) can be applied to
   [bows](https://minecraft.wiki/w/Bow).
 * [Infinity](https://minecraft.wiki/w/Infinity) enchanted
@@ -37,7 +37,7 @@ before the docs are updated.
 * Added [recipes](/docs/1.12/thermal-foundation/potion-recipes/) for [potions of Luck
   and Misfortune](/docs/1.12/cofh-core/potions/).
 * [Tectonic petrotheum](/docs/1.12/thermal-foundation/tectonic-petrotheum/) no longer applies [Night
-  Vision](https://minecraft.wiki/w/Status_effect#Night_Vision) when
+  Vision](https://minecraft.wiki/w/Night_Vision) when
   touched.
 * Elemental dusts ([pyrotheum](/docs/1.12/thermal-foundation/pyrotheum-dust/),
   [cryotheum](/docs/1.12/thermal-foundation/cryotheum-dust/), [aerotheum](/docs/1.12/thermal-foundation/aerotheum-dust/) and

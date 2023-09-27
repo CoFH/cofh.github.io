@@ -54,7 +54,7 @@ this height if the fluid has no space to flow.
 
 ### Effects
 When touched by players and mobs, zephyrean aerotheum applies the effect
-[Levitation I](https://minecraft.wiki/w/Status_effect#Levitation) to them
+[Levitation I](https://minecraft.wiki/w/Levitation) to them
 for 6 seconds.
 
 Projectiles that come into contact with zephyrean aerotheum are sent flying in a

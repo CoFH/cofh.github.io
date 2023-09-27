@@ -49,12 +49,12 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 An uncharged flux-infused pickaxe has a very low mining speed: half the speed of
 a [wooden pickaxe](https://minecraft.wiki/w/Wooden_Pickaxe). When
 charged, it has the same mining speed as a [diamond
-pickaxe](https://minecraft.wiki/w/Diamond_Pickaxe), and consumes 200 RF
+pickaxe](https://minecraft.wiki/w/Pickaxe), and consumes 200 RF
 per use. When empowered, it is 1.5 times as fast as a diamond pickaxe, and
 consumes 800 RF per use.
 
 A flux-infused pickaxe can harvest any block that a [diamond
-pickaxe](https://minecraft.wiki/w/Diamond_Pickaxe) can harvest. It is
+pickaxe](https://minecraft.wiki/w/Pickaxe) can harvest. It is
 technically one harvest level more powerful than a diamond pickaxe, but there
 are no blocks that require such a powerful pickaxe to harvest in the base game.
 

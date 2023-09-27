@@ -25,13 +25,13 @@ to obtain these potions.
 <div class="uk-overflow-container">
 | Potion | Effect | Has level II | Duration | (extended) | (level II) |
 |---
-| Potion of Haste | [Haste](https://minecraft.wiki/w/Status_effect#Haste) | Yes | 3:00 | 8:00 | 1:30 |
-| Potion of Resistance | [Resistance](https://minecraft.wiki/w/Status_effect#Resistance) | Yes | 3:00 | 8:00 | 1:30 |
-| Potion of Levitation | [Levitation](https://minecraft.wiki/w/Status_effect#Levitation) | No | 3:00 | 8:00 | - |
-| Potion of Absorption | [Absorption](https://minecraft.wiki/w/Status_effect#Absorption) | Yes | 3:00 | 8:00 | 1:30 |
-| Potion of Luck | [Luck](https://minecraft.wiki/w/Status_effect#Luck) | Yes | 3:00 | 8:00 | 1:30 |
-| Potion of Misfortune | [Bad Luck](https://minecraft.wiki/w/Status_effect#Bad_Luck) | Yes | 1:30 | 4:00 | 0:45 |
-| Potion of Decay | [Wither](https://minecraft.wiki/w/Status_effect#Wither) | Yes | 0:45 | 1:30 | 0:22 |
+| Potion of Haste | [Haste](https://minecraft.wiki/w/Haste) | Yes | 3:00 | 8:00 | 1:30 |
+| Potion of Resistance | [Resistance](https://minecraft.wiki/w/Resistance) | Yes | 3:00 | 8:00 | 1:30 |
+| Potion of Levitation | [Levitation](https://minecraft.wiki/w/Levitation) | No | 3:00 | 8:00 | - |
+| Potion of Absorption | [Absorption](https://minecraft.wiki/w/Absorption) | Yes | 3:00 | 8:00 | 1:30 |
+| Potion of Luck | [Luck](https://minecraft.wiki/w/Luck) | Yes | 3:00 | 8:00 | 1:30 |
+| Potion of Misfortune | [Bad Luck](https://minecraft.wiki/w/Bad_Luck) | Yes | 1:30 | 4:00 | 0:45 |
+| Potion of Decay | [Wither](https://minecraft.wiki/w/Wither) | Yes | 0:45 | 1:30 | 0:22 |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}
