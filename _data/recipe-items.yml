@@ -1557,7 +1557,7 @@ mc-nether-brick-item:
   name: Nether Brick
   sprite: [2, 45]
   site: mc-wiki
-  url: Nether_Brick_(item)
+  url: Nether_Brick
 mc-nether-quartz:
   name: Nether Quartz
   sprite: [5, 45]

@@ -13,7 +13,7 @@ recipes:
 
 ![Item allocator](/assets/images/thermal-expansion-5/item-allocator.png){:style="height: 128px"}
 
-> Better than a [hopper](https://minecraft.gamepedia.com/Hopper), really!
+> Better than a [hopper](https://minecraft.wiki/w/Hopper), really!
 
 
 An **item allocator** (also known as an **item buffer**) is a
@@ -26,7 +26,7 @@ Obtaining
 
 A placed item allocator can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -80,7 +80,7 @@ NBT
 
 ### Redstone control
 An item allocator may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -108,6 +108,6 @@ When an item allocator is active, it emits a light level of 5.
 
 ### Redstone comparators
 When placed next to an item allocator, a [redstone
-comparator](https://minecraft.gamepedia.com/Redstone_Comparator) emits a signal
+comparator](https://minecraft.wiki/w/Redstone_Comparator) emits a signal
 strength of between 0 and 15, depending on how full the item allocator's buffer
 slots are.

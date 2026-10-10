@@ -29,7 +29,7 @@ Obtaining
 
 A placed enervation dynamo can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -76,7 +76,7 @@ ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 An enervation dynamo may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -147,6 +147,6 @@ amounts of energy.
 
 | Fuel | Energy per unit |
 |---
-| [Redstone](https://minecraft.gamepedia.com/Redstone) | 64,000 RF |
-| [Block of Redstone](https://minecraft.gamepedia.com/Block_of_Redstone) | 640,000 RF |
+| [Redstone](https://minecraft.wiki/w/Redstone) | 64,000 RF |
+| [Block of Redstone](https://minecraft.wiki/w/Block_of_Redstone) | 640,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

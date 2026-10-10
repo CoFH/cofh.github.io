@@ -58,6 +58,6 @@ The current mode can be set using the Security tab in the GUI of the block or
 item.
 
 When dropped, a secured block or item cannot be destroyed by things like
-[lava](https://minecraft.gamepedia.com/Lava) and
-[cacti](https://minecraft.gamepedia.com/Cactus). However, it still despawns
+[lava](https://minecraft.wiki/w/Lava) and
+[cacti](https://minecraft.wiki/w/Cactus). However, it still despawns
 after a while.

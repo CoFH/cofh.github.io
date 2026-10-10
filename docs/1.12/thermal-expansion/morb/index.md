@@ -18,7 +18,7 @@ usage-recipes:
 ---
 
 A **morb** ('mob orb') is a throwable item that can be used to capture
-[mobs](https://minecraft.gamepedia.com/Mob).
+[mobs](https://minecraft.wiki/w/Mob).
 
 
 Obtaining
@@ -32,12 +32,12 @@ Usage
 -----
 
 ### Capturing mobs
-When a morb is thrown at a [mob](https://minecraft.gamepedia.com/Mob), the mob
+When a morb is thrown at a [mob](https://minecraft.wiki/w/Mob), the mob
 is captured and stored inside the morb.
 
 ### Releasing mobs
 A filled morb can be thrown to release the contained
-[mob](https://minecraft.gamepedia.com/Mob). The morb has a 75% chance of
+[mob](https://minecraft.wiki/w/Mob). The morb has a 75% chance of
 breaking after releasing the mob.
 
 ### Crafting ingredient
@@ -47,11 +47,11 @@ breaking after releasing the mob.
 A [centrifugal separator](../centrifugal-separator/) with
 an [enstabulation
 apparatus](../augment-enstabulation-apparatus/) installed
-processes filled morbs into [mob](https://minecraft.gamepedia.com/Mob) drops and
+processes filled morbs into [mob](https://minecraft.wiki/w/Mob) drops and
 [essence of knowledge](../../thermal-foundation/essence-of-knowledge/). When
 processing morbs, there is a 25% chance that an empty morb is returned as an
 output.
 
 ### Creature Encaptulator
 A [creature encaptulator](../creature-encaptulator/) uses morbs to
-automatically capture [mobs](https://minecraft.gamepedia.com/Mob) in an area.
+automatically capture [mobs](https://minecraft.wiki/w/Mob) in an area.

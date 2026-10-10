@@ -26,7 +26,7 @@ recipes:
 ---
 
 An **alchemical quiver** is an item that stores
-[arrows](https://minecraft.gamepedia.com/Arrows) and can automatically imbue
+[arrows](https://minecraft.wiki/w/Arrows) and can automatically imbue
 them with [fluid potions](../../thermal-foundation/potion-fluid/).
 
 
@@ -42,9 +42,9 @@ Usage
 
 ### Arrow storage
 When an alchemical quiver is used,
-[arrows](https://minecraft.gamepedia.com/Arrow) in the user's inventory are
+[arrows](https://minecraft.wiki/w/Arrow) in the user's inventory are
 stored in it. The quiver can then be used as ammunition for
-[bows](https://minecraft.gamepedia.com/Bow). When the quiver is used while
+[bows](https://minecraft.wiki/w/Bow). When the quiver is used while
 sneaking, stored arrows are removed from it.
 
 A basic alchemical quiver can store up to 40 arrows. This can be increased by
@@ -52,7 +52,7 @@ upgrading the quiver to a higher [tier](#tiers).
 
 ### Filling and draining
 An alchemical quiver can hold the [fluid form](../../thermal-foundation/potion-fluid/) or any
-regular [potion](https://minecraft.gamepedia.com/Potion). It can be filled and
+regular [potion](https://minecraft.wiki/w/Potion). It can be filled and
 drained manually by using it on a block that can hold fluid potions, or
 automatically using a [fluid transposer](../../thermal-expansion/fluid-transposer/) or similar. It
 can also be filled by combining it with a potion in a crafting grid.
@@ -62,23 +62,23 @@ mB). This can be increased by upgrading the alchemical quiver to a higher
 [tier](#tiers).
 
 An alchemical quiver only works with regular potions; it does not work with
-[splash potions](https://minecraft.gamepedia.com/Splash_Potion) or [lingering
-potions](https://minecraft.gamepedia.com/Lingering_Potion).
+[splash potions](https://minecraft.wiki/w/Splash_Potion) or [lingering
+potions](https://minecraft.wiki/w/Lingering_Potion).
 
 ### Imbuing arrows
 A filled alchemical quiver is capable of automatically imbuing
-[arrows](https://minecraft.gamepedia.com/Arrow) with the contained potion. This
+[arrows](https://minecraft.wiki/w/Arrow) with the contained potion. This
 can be enabled and disabled by pressing "Cycle Item Mode" (V by default) while
 holding the quiver.
 
-When used as ammunition for a [bow](https://minecraft.gamepedia.com/Bow), an
+When used as ammunition for a [bow](https://minecraft.wiki/w/Bow), an
 active alchemical quiver imbues a stored arrow with 50 mB of the contained
 potion, turning the arrow into a [tipped
-arrow](https://minecraft.gamepedia.com/Tipped_Arrow) before it is fired.
+arrow](https://minecraft.wiki/w/Tipped_Arrow) before it is fired.
 
 ### Dyeing
 The top and bottom parts of an alchemical quiver can be dyed by combining the
-quiver with [dyes](https://minecraft.gamepedia.com/Dye) in a crafting grid. The
+quiver with [dyes](https://minecraft.wiki/w/Dye) in a crafting grid. The
 top and/or bottom parts are dyed depending on the dyes' positions around the
 quiver in the crafting grid. The dyes can be removed by placing the quiver in a
 crafting grid.

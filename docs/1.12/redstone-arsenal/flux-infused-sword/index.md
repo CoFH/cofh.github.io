@@ -16,7 +16,7 @@ recipes:
 ---
 
 A **flux-infused sword** is a powerful
-[sword](https://minecraft.gamepedia.com/Sword) powered by [Redstone
+[sword](https://minecraft.wiki/w/Sword) powered by [Redstone
 Flux](/docs/redstone-flux/).
 
 
@@ -54,12 +54,12 @@ attack speed is raised to 2, its flux damage is raised to 10, and it consumes
 
 ### Enchantments
 A flux-infused sword has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 25, which is
 slightly higher than that of a [golden
-sword](https://minecraft.gamepedia.com/Golden_Sword). It can receive all the
+sword](https://minecraft.wiki/w/Golden_Sword). It can receive all the
 enchantments that other swords can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused sword has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

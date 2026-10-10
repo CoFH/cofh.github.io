@@ -27,8 +27,8 @@ recipes:
 ---
 
 A **watering can** is a tool that uses
-[water](https://minecraft.gamepedia.com/Water) to irrigate
-[farmland](https://minecraft.gamepedia.com/Farmland) and speed up plant growth.
+[water](https://minecraft.wiki/w/Water) to irrigate
+[farmland](https://minecraft.wiki/w/Farmland) and speed up plant growth.
 
 
 Obtaining
@@ -42,12 +42,12 @@ Usage
 -----
 
 ### Watering
-A watering can can be filled with [water](https://minecraft.gamepedia.com/Water)
+A watering can can be filled with [water](https://minecraft.wiki/w/Water)
 by using it on blocks of water while sneaking. This removes the blocks and adds
 1,000 mB of water per block to the watering can.
 
 When used, a filled watering can irrigates
-[farmland](https://minecraft.gamepedia.com/Farmland) and speeds up plant growth
+[farmland](https://minecraft.wiki/w/Farmland) and speeds up plant growth
 in an area, in cycles of 4 ticks (5 times per second). Every cycle, each
 plant-like block in the area has a chance to be forced to update, which may
 cause it to grow. This chance increases with the watering can's [tier](#tiers).
@@ -71,7 +71,7 @@ This amount depends on the size of the watering area.
 
 ### Dyeing
 A watering can can be dyed by combining it with a
-[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+[dye](https://minecraft.wiki/w/Dye) in a crafting grid. The dye can be
 removed by placing the watering can in a crafting grid.
 
 ### Enchantments
@@ -101,7 +101,7 @@ Watering cans come in six [tiers](../../thermal-foundation/tiers/).
 | Reinforced | 24,000 mB | 60% | 7x7 |
 | Signalum | 40,000 mB | 70% | 9x9 |
 | Resonant | 60,000 mB | 80% | 11x11 |
-| Creative | N/A | 100% | 11x11 | Holds an unlimited amount of [water](https://minecraft.gamepedia.com/Water). |
+| Creative | N/A | 100% | 11x11 | Holds an unlimited amount of [water](https://minecraft.wiki/w/Water). |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
 </div>
 {::options parse_block_html="false" /}

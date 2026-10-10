@@ -15,7 +15,7 @@ recipes:
 
 
 **Gold coins** are materials made of
-[gold](https://minecraft.gamepedia.com/Gold_Ingot) that can be used as fuel in a
+[gold](https://minecraft.wiki/w/Gold_Ingot) that can be used as fuel in a
 [numismatic dynamo](../../thermal-expansion/numismatic-dynamo/).
 
 

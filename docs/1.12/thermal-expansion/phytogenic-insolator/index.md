@@ -80,7 +80,7 @@ recipe-list:
 
 A **phytogenic insolator**, or **insolator** for short, is a
 [machine](../machines/) that grows and multiplies plants using
-[water](https://minecraft.gamepedia.com/Water), [fertilizer](../../thermal-foundation/phyto-gro/)
+[water](https://minecraft.wiki/w/Water), [fertilizer](../../thermal-foundation/phyto-gro/)
 and simulated sunlight.
 
 
@@ -89,7 +89,7 @@ Obtaining
 
 A placed phytogenic insolator can be instantly picked up by dismantling it with
 a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -111,7 +111,7 @@ four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 ### Processing
 A phytogenic insolator has two input slots and an input tank. When combinations
 of items are placed in these slots and the tank is filled with
-[water](https://minecraft.gamepedia.com/Water), the machine will start consuming
+[water](https://minecraft.wiki/w/Water), the machine will start consuming
 [Redstone Flux](/docs/redstone-flux/) to process the items. Every item
 combination requires a certain amount of energy to process. When enough energy
 has been consumed for an item combination, the input is consumed and the output
@@ -148,12 +148,12 @@ machine's GUI.
 One of a phytogenic insolator's input slots can be locked to only accept
 fertilizer items. It is locked by default.
 
-[Water](https://minecraft.gamepedia.com/Water) can enter a phytogenic insolator
+[Water](https://minecraft.wiki/w/Water) can enter a phytogenic insolator
 through any side, regardless of configuration.
 
 ### Redstone control
 A phytogenic insolator may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

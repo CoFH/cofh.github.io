@@ -25,20 +25,20 @@ usage-recipes:
 ![Tin ore](/assets/images/thermal-foundation-2/ore-tin.png){:style="height: 128px"}
 
 
-**Tin ore** is a common [ore](https://minecraft.gamepedia.com/Ore) that yields
+**Tin ore** is a common [ore](https://minecraft.wiki/w/Ore) that yields
 [tin](../tin-ingot/) and small amounts of
-[iron](https://minecraft.gamepedia.com/Iron_Ingot).
+[iron](https://minecraft.wiki/w/Iron_Ingot).
 
 
 Obtaining
 ---------
 
 Tin ore is about as common as [iron
-ore](https://minecraft.gamepedia.com/Iron_Ore), but it occurs at fewer levels
+ore](https://minecraft.wiki/w/Iron_Ore), but it occurs at fewer levels
 (layers 20-55). Veins of tin ore are also slightly smaller.
 
 Tin ore must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better. If it is mined, it
 drops itself as an item.
 
 
@@ -59,7 +59,7 @@ Usage
 
 ### Smashing
 When tin ore is broken using a [Smashing](../../cofh-core/smashing/) enchanted
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+[pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool, two piles of
 [pulverized tin](../pulverized-tin/) are dropped instead
 of the ore.
 

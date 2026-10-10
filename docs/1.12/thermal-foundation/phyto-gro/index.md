@@ -58,7 +58,7 @@ Usage
 
 ### Fertilizer
 When used on blocks, Phyto-Gro grows plants like [bone
-meal](https://minecraft.gamepedia.com/Bone_Meal), but in a 3x3 area.
+meal](https://minecraft.wiki/w/Bone_Meal), but in a 3x3 area.
 
 ### Phytogenic Insolator ingredient
 {% include recipe-table.html type='te-1-12-insolator' recipes=page.usage-recipes.insolator %}

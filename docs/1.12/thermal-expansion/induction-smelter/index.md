@@ -135,7 +135,7 @@ recipe-list:
 An **induction smelter**, or **smelter** for short, is a
 [machine](../machines/) that smelts items together at high temperatures.
 Despite the name, the machine cannot be used for
-[smelting](https://minecraft.gamepedia.com/Smelting).
+[smelting](https://minecraft.wiki/w/Smelting).
 
 
 Obtaining
@@ -143,7 +143,7 @@ Obtaining
 
 A placed induction smelter can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -203,14 +203,14 @@ auto-input are enabled can be configured using the Configuration tab in the
 machine's GUI.
 
 One of an induction smelter's input slots can be locked to only accept
-metallurgical fluxes: [sand](https://minecraft.gamepedia.com/Sand), [soul
-sand](https://minecraft.gamepedia.com/Soul_Sand), [rich slag](../../thermal-foundation/rich-slag/)
+metallurgical fluxes: [sand](https://minecraft.wiki/w/Sand), [soul
+sand](https://minecraft.wiki/w/Soul_Sand), [rich slag](../../thermal-foundation/rich-slag/)
 and [cinnabar](../../thermal-foundation/cinnabar/). These items are commonly used in smelter
 recipes. The slot is locked by default.
 
 ### Redstone control
 An induction smelter may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

@@ -41,7 +41,7 @@ usage-recipes:
 ![Shovels](/assets/images/thermal-foundation-2/shovels.gif){:style="height: 128px"}
 
 
-**[Shovels](https://minecraft.gamepedia.com/Shovel)** are tools in vanilla
+**[Shovels](https://minecraft.wiki/w/Shovel)** are tools in vanilla
 Minecraft. [Thermal Foundation](../) adds a set of shovels
 made of various metals.
 

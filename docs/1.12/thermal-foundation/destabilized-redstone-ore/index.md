@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Destabilized redstone ore** is a rare
-[ore](https://minecraft.gamepedia.com/Ore) that yields [destabilized
+[ore](https://minecraft.wiki/w/Ore) that yields [destabilized
 clathrate](../destabilized-clathrate/) ([destabilized
 redstone](../destabilized-redstone/)) and small amounts of
 [cinnabar](../cinnabar/).
@@ -28,18 +28,18 @@ Obtaining
 ---------
 
 Destabilized redstone ore is relatively rare. It occurs underground at around
-the same levels as [redstone ore](https://minecraft.gamepedia.com/Redstone_Ore)
+the same levels as [redstone ore](https://minecraft.wiki/w/Redstone_Ore)
 (layers 0-20). It occurs in fairly large deposits, almost as large as deposits
-of [coal ore](https://minecraft.gamepedia.com/Coal_Ore). Deposits of
+of [coal ore](https://minecraft.wiki/w/Coal_Ore). Deposits of
 destabilized redstone ore may also contain some [destabilized
 redstone](../destabilized-redstone/).
 
 Destabilized redstone ore must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. It drops one piece
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better. It drops one piece
 of [destabilized clathrate](../destabilized-clathrate/) when mined. More
-clathrate is dropped if a [Fortune](https://minecraft.gamepedia.com/Fortune)
+clathrate is dropped if a [Fortune](https://minecraft.wiki/w/Fortune)
 enchanted pickaxe is used. The ore block itself can be obtained by mining it
-with a [Silk Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted
+with a [Silk Touch](https://minecraft.wiki/w/Silk_Touch) enchanted
 pickaxe.
 
 When destabilized redstone ore is broken, some [destabilized

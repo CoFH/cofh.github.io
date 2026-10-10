@@ -30,7 +30,7 @@ Obtaining
 A [steam](../../thermal-expansion/steam-dynamo/), [magmatic](../../thermal-expansion/magmatic-dynamo/) or
 [compression dynamo](../../thermal-expansion/compression-dynamo/) with a [boiler
 conversion](../../thermal-expansion/augment-boiler-conversion/) installed converts
-[water](https://minecraft.gamepedia.com/Water) into steam instead of generating
+[water](https://minecraft.wiki/w/Water) into steam instead of generating
 [Redstone Flux](/docs/redstone-flux/).
 
 ### Fluid Transposer

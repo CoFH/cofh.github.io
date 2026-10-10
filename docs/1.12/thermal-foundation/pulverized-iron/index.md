@@ -37,7 +37,7 @@ usage-recipes:
 
 
 **Pulverized iron** is a raw material. It is the dust form of
-[iron](https://minecraft.gamepedia.com/Iron_Ingot).
+[iron](https://minecraft.wiki/w/Iron_Ingot).
 
 
 Obtaining
@@ -53,9 +53,9 @@ Obtaining
 {% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
 
 ### Smashing
-When [iron ore](https://minecraft.gamepedia.com/Iron_Ore) is broken using a
+When [iron ore](https://minecraft.wiki/w/Iron_Ore) is broken using a
 [Smashing](../../cofh-core/smashing/) enchanted
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+[pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool, two piles of
 pulverized iron are dropped instead of the ore.
 
 

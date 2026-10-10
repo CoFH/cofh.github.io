@@ -14,7 +14,7 @@ recipes:
 ---
 
 **Flux-infused boots** are powerful
-[boots](https://minecraft.gamepedia.com/Boots) powered by [Redstone
+[boots](https://minecraft.wiki/w/Boots) powered by [Redstone
 Flux](/docs/redstone-flux/).
 
 
@@ -39,7 +39,7 @@ charged at rates up to 4,000 RF/t.
 
 ### Defense
 Charged flux-infused boots offer the same protection as [diamond
-boots](https://minecraft.gamepedia.com/Diamond_Boots). Instead of taking damage,
+boots](https://minecraft.wiki/w/Diamond_Boots). Instead of taking damage,
 flux-infused boots consume 200 RF per damage point per hit.
 
 When hit with flux damage (a special type of damage dealt by flux-infused
@@ -47,12 +47,12 @@ weapons), flux-infused boots are charged with energy instead of consuming it.
 
 ### Enchantments
 Flux-infused boots have an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 20, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 20, which is
 slightly lower than that of [golden
-boots](https://minecraft.gamepedia.com/Golden_Boots). They can receive all the
+boots](https://minecraft.wiki/w/Golden_Boots). They can receive all the
 enchantments that other boots can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking),
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking),
 flux-infused boots have a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when absorbing damage.
 

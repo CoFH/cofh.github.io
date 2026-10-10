@@ -23,7 +23,7 @@ usage-recipes:
 
 
 **Coal coke** is a material obtained by processing
-[coal](https://minecraft.gamepedia.com/Coal) in a [redstone
+[coal](https://minecraft.wiki/w/Coal) in a [redstone
 furnace](../../thermal-expansion/redstone-furnace/) with [pyrolytic
 conversion](../../thermal-expansion/augment-pyrolytic-conversion/) installed. It can be used as
 fuel, or as an ingredient to produce [steel](../steel-ingot/).
@@ -43,9 +43,9 @@ Usage
 -----
 
 ### Fuel
-When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
+When used as fuel in a [furnace](https://minecraft.wiki/w/Furnace), one
 piece of coal coke lasts 160 seconds, which is enough to smelt up to 16 items.
-It lasts twice as long as regular [coal](https://minecraft.gamepedia.com/Coal).
+It lasts twice as long as regular [coal](https://minecraft.wiki/w/Coal).
 
 ### Crafting ingredient
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}

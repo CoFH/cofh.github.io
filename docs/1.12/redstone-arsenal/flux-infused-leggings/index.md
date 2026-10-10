@@ -14,7 +14,7 @@ recipes:
 ---
 
 **Flux-infused leggings** are powerful
-[leggings](https://minecraft.gamepedia.com/Leggings) powered by [Redstone
+[leggings](https://minecraft.wiki/w/Leggings) powered by [Redstone
 Flux](/docs/redstone-flux/).
 
 
@@ -38,7 +38,7 @@ at rates up to 4,000 RF/t.
 
 ### Defense
 Charged flux-infused leggings offer the same protection as [diamond
-leggings](https://minecraft.gamepedia.com/Diamond_Leggings). Instead of taking
+leggings](https://minecraft.wiki/w/Diamond_Leggings). Instead of taking
 damage, flux-infused leggings consume 200 RF per damage point per hit.
 
 When hit with flux damage (a special type of damage dealt by flux-infused
@@ -46,12 +46,12 @@ weapons), flux-infused leggings are charged with energy instead of consuming it.
 
 ### Enchantments
 Flux-infused leggings have an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 20, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 20, which is
 slightly lower than that of [golden
-leggings](https://minecraft.gamepedia.com/Golden_Leggings). They can receive all
+leggings](https://minecraft.wiki/w/Golden_Leggings). They can receive all
 the enchantments that other leggings can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking),
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking),
 flux-infused leggings have a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when absorbing damage.
 

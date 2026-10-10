@@ -68,7 +68,7 @@ copied to other servos, [filters](../filters/) or
 
 ### Redstone control
 By default, a servo is only active when powered with
-[redstone](https://minecraft.gamepedia.com/Redstone). However, this is
+[redstone](https://minecraft.wiki/w/Redstone). However, this is
 configurable. A servo can be in one of three modes:
 
 Ignored

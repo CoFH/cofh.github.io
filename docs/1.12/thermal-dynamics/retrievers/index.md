@@ -65,7 +65,7 @@ copied to other retrievers, [servos](../servos/) or
 
 ### Redstone control
 By default, a retriever is only active when powered with
-[redstone](https://minecraft.gamepedia.com/Redstone). However, this is
+[redstone](https://minecraft.wiki/w/Redstone). However, this is
 configurable. A retriever can be in one of three modes:
 
 Ignored

@@ -13,14 +13,14 @@ When using this distribution type, the feature type
 [`cluster`](../../feature-types/cluster/) is used by default, and the value
 `material` of [feature type
 configurations](../../feature-format/#feature-type-configuration) is set to
-[stone](https://minecraft.gamepedia.com/Stone),
-[dirt](https://minecraft.gamepedia.com/Dirt), [grass
-blocks](https://minecraft.gamepedia.com/Grass_Block),
-[sand](https://minecraft.gamepedia.com/Sand),
-[gravel](https://minecraft.gamepedia.com/Gravel),
-[snow](https://minecraft.gamepedia.com/Snow_Block),
-[air](https://minecraft.gamepedia.com/Air) and
-[water](https://minecraft.gamepedia.com/Water) (and all variations of these
+[stone](https://minecraft.wiki/w/Stone),
+[dirt](https://minecraft.wiki/w/Dirt), [grass
+blocks](https://minecraft.wiki/w/Grass_Block),
+[sand](https://minecraft.wiki/w/Sand),
+[gravel](https://minecraft.wiki/w/Gravel),
+[snow](https://minecraft.wiki/w/Snow_Block),
+[air](https://minecraft.wiki/w/Air) and
+[water](https://minecraft.wiki/w/Water) (and all variations of these
 blocks) by default. Note that air is included because air blocks must be
 replaced when generating features on the surface.
 

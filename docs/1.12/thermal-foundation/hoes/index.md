@@ -40,7 +40,7 @@ usage-recipes:
 ![Hoes](/assets/images/thermal-foundation-2/hoes.gif){:style="height: 128px"}
 
 
-**[Hoes](https://minecraft.gamepedia.com/Hoe)** are tools in vanilla Minecraft.
+**[Hoes](https://minecraft.wiki/w/Hoe)** are tools in vanilla Minecraft.
 [Thermal Foundation](../) adds a set of hoes made of
 various metals.
 

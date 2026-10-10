@@ -32,4 +32,4 @@ Usage
 
 ### Aquatic Entangler
 When Aqua-Chow is used in an [aquatic entangler](../../thermal-expansion/aquatic-entangler/), it
-produces twice as much [fish](https://minecraft.gamepedia.com/Fish).
+produces twice as much [fish](https://minecraft.wiki/w/Fish).

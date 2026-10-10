@@ -29,7 +29,7 @@ Obtaining
 
 A placed reactant dynamo can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -77,7 +77,7 @@ ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 A reactant dynamo may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -148,16 +148,16 @@ to generate varying amounts of energy.
 
 | Fuel (100 mB) | Reactant | Energy |
 |---
-| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 80,000 RF |
-| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 100,000 RF |
-| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 100,000 RF |
-| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 150,000 RF |
-| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 150,000 RF |
-| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Sugar](https://minecraft.gamepedia.com/Sugar) | 100,000 RF |
-| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Nether Wart](https://minecraft.gamepedia.com/Nether_Wart) | 125,000 RF |
-| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Gunpowder](https://minecraft.gamepedia.com/Gunpowder) | 125,000 RF |
-| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Blaze Powder](https://minecraft.gamepedia.com/Blaze_Powder) | 200,000 RF |
-| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Ghast Tear](https://minecraft.gamepedia.com/Ghast_Tear) | 200,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Sugar](https://minecraft.wiki/w/Sugar) | 80,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Nether Wart](https://minecraft.wiki/w/Nether_Wart) | 100,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Gunpowder](https://minecraft.wiki/w/Gunpowder) | 100,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Blaze Powder](https://minecraft.wiki/w/Blaze_Powder) | 150,000 RF |
+| [Destabilized Redstone](../../thermal-foundation/destabilized-redstone/) | [Ghast Tear](https://minecraft.wiki/w/Ghast_Tear) | 150,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Sugar](https://minecraft.wiki/w/Sugar) | 100,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Nether Wart](https://minecraft.wiki/w/Nether_Wart) | 125,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Gunpowder](https://minecraft.wiki/w/Gunpowder) | 125,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Blaze Powder](https://minecraft.wiki/w/Blaze_Powder) | 200,000 RF |
+| [Energized Glowstone](../../thermal-foundation/energized-glowstone/) | [Ghast Tear](https://minecraft.wiki/w/Ghast_Tear) | 200,000 RF |
 | [Blazing Pyrotheum](../../thermal-foundation/blazing-pyrotheum/) | [Cryotheum Dust](../../thermal-foundation/cryotheum-dust/) | 400,000 RF |
 | [Gelid Cryotheum](../../thermal-foundation/gelid-cryotheum/) | [Pyrotheum Dust](../../thermal-foundation/pyrotheum-dust/) | 400,000 RF |
 | [Zephyrean Aerotheum](../../thermal-foundation/zephyrean-aerotheum/) | [Petrotheum Dust](../../thermal-foundation/petrotheum-dust/) | 400,000 RF |

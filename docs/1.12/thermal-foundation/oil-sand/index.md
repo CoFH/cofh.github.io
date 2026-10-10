@@ -19,34 +19,34 @@ usage-recipes:
   - fluid-ore-processing-oil-sand
 ---
 
-**Oil sand** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
+**Oil sand** is an uncommon [ore](https://minecraft.wiki/w/Ore) that
 yields [bitumen](../bitumen/) ([crude oil](../crude-oil/)) and small
 amounts of [tar](../tar/). It comes in regular
-[sand](https://minecraft.gamepedia.com/Sand) and [red
-sand](https://minecraft.gamepedia.com/Red_Sand) variants.
+[sand](https://minecraft.wiki/w/Sand) and [red
+sand](https://minecraft.wiki/w/Red_Sand) variants.
 
 
 Obtaining
 ---------
 
 Oil sand occurs fairly uncommonly in
-[deserts](https://minecraft.gamepedia.com/Desert) and similar biomes, in veins
-between [sand](https://minecraft.gamepedia.com/Sand),
-[sandstone](https://minecraft.gamepedia.com/Sandstone) and
-[stone](https://minecraft.gamepedia.com/Stone) blocks. It is found at almost any
+[deserts](https://minecraft.wiki/w/Desert) and similar biomes, in veins
+between [sand](https://minecraft.wiki/w/Sand),
+[sandstone](https://minecraft.wiki/w/Sandstone) and
+[stone](https://minecraft.wiki/w/Stone) blocks. It is found at almost any
 altitude (layers 10-80). It occurs in fairly large deposits, almost as large as
-deposits of [coal ore](https://minecraft.gamepedia.com/Coal_Ore).
+deposits of [coal ore](https://minecraft.wiki/w/Coal_Ore).
 
 Oil sand also more rarely occurs in much larger deposits underground (layers
 30-60), surrounding a small amount of [crude oil](../crude-oil/).
 
 Oil sand must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Stone_Pickaxe) or
-[shovel](https://minecraft.gamepedia.com/Stone_Shovel) or better. It drops one
+pickaxe](https://minecraft.wiki/w/Stone_Pickaxe) or
+[shovel](https://minecraft.wiki/w/Stone_Shovel) or better. It drops one
 piece of [bitumen](../bitumen/) when mined. More bitumen is dropped if a
-[Fortune](https://minecraft.gamepedia.com/Fortune) enchanted tool is used. Oil
+[Fortune](https://minecraft.wiki/w/Fortune) enchanted tool is used. Oil
 sand itself can be obtained by mining it with a [Silk
-Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted tool.
+Touch](https://minecraft.wiki/w/Silk_Touch) enchanted tool.
 
 When oil sand is broken, some [crude oil](../crude-oil/) comes flowing out.
 This oil cannot be picked up and eventually disappears. If a Silk Touch

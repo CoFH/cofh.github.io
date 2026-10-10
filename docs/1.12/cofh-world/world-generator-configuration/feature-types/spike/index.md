@@ -6,7 +6,7 @@ redirect_from:
 
 **`spike`** is one of the [feature types](../) provided by [CoFH
 World](../../../). It generates upwards pointing spikes, like the ones found in
-[ice plains spikes biomes](https://minecraft.gamepedia.com/Ice_Plains_Spikes).
+[ice plains spikes biomes](https://minecraft.wiki/w/Ice_Plains_Spikes).
 
 Spikes are only generated on top of a surface; they are never generated in
 midair.

@@ -23,7 +23,7 @@ Obtaining
 
 A placed thermal mediator can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -52,7 +52,7 @@ accept fluids may be configured using the Configuration tab in the device's GUI.
 
 ### Redstone control
 A thermal mediator may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

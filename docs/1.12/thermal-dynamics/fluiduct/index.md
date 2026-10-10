@@ -29,7 +29,7 @@ Obtaining
 
 A placed fluiduct can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+[pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
@@ -53,7 +53,7 @@ connection. However, there is no limit on how much fluid can travel through a
 fluiduct itself.
 
 A network of fluiducts can store a certain amount of fluid, so that unloaded
-[chunks](https://minecraft.gamepedia.com/Chunk) do not immediately cause it to
+[chunks](https://minecraft.wiki/w/Chunk) do not immediately cause it to
 stop supplying the fluid to blocks. The fluid capacity of a network is
 proportional to the amount of blocks connected to it.
 
@@ -65,7 +65,7 @@ pressurized fluiduct network uses the maximum throughput per connection, while a
 nearly empty fluiduct network uses only half of this.
 
 A fluiduct will break if it contains an extremely hot or cold fluid like
-[lava](https://minecraft.gamepedia.com/Lava) or [gelid
+[lava](https://minecraft.wiki/w/Lava) or [gelid
 cryotheum](../../thermal-foundation/gelid-cryotheum/). To transfer these fluids,
 a [hardened fluiduct](../hardened-fluiduct/) must be used.
 
@@ -78,5 +78,5 @@ themselves from other blocks connected to the network.
 
 ### Light source
 A transparent fluiduct will emit light when it contains a fluid that emits
-light, like [lava](https://minecraft.gamepedia.com/Lava) or [energized
+light, like [lava](https://minecraft.wiki/w/Lava) or [energized
 glowstone](../../thermal-foundation/energized-glowstone/).

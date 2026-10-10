@@ -17,7 +17,7 @@ recipes:
 
 A **flux-infused quiver** is a [Redstone Flux](/docs/redstone-flux/)-powered
 item that provides powerful ammunition for
-[bows](https://minecraft.gamepedia.com/Bow) when charged.
+[bows](https://minecraft.wiki/w/Bow) when charged.
 
 
 Obtaining
@@ -44,22 +44,22 @@ be toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Ammunition
 A charged flux-infused quiver serves as ammunition for
-[bows](https://minecraft.gamepedia.com/Bows). It makes bows shoot arrows that
+[bows](https://minecraft.wiki/w/Bows). It makes bows shoot arrows that
 are unaffected by gravity and disappear on impact (or after travelling for too
 long).
 
 Arrows from a flux-infused quiver deal the same amount of damage as regular
-[arrows](https://minecraft.gamepedia.com/Arrows). They deal flux damage, a
+[arrows](https://minecraft.wiki/w/Arrows). They deal flux damage, a
 special type of damage that bypasses armor. Each arrow costs 800 RF to fire.
 
 When a flux-infused quiver is empowered, its arrows deal twice as much damage.
 They also cause an explosion (that doesn't destroy blocks) on impact. Most
-[mobs](https://minecraft.gamepedia.com/Mob) can be killed with a single
+[mobs](https://minecraft.wiki/w/Mob) can be killed with a single
 empowered arrow. Each empowered arrow costs 6,400 RF to fire.
 
 ### Enchantments
 A flux-infused quiver has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 10. It can
+[enchantability](https://minecraft.wiki/w/Enchantability) of 10. It can
 be enchanted with [Holding](../../cofh-core/holding/) to increase its energy capacity.
 
 | Holding level | Capacity multiplier |

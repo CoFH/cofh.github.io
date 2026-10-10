@@ -24,7 +24,7 @@ usage-recipes:
 
 
 **Rockwool** is a fireproof and slightly more explosion resistant version of
-[wool](https://minecraft.gamepedia.com/Wool).
+[wool](https://minecraft.wiki/w/Wool).
 
 
 Obtaining

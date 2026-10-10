@@ -25,7 +25,7 @@ usage-recipes:
 ![Lead ore](/assets/images/thermal-foundation-2/ore-lead.png){:style="height: 128px"}
 
 
-**Lead ore** is a somewhat uncommon [ore](https://minecraft.gamepedia.com/Ore)
+**Lead ore** is a somewhat uncommon [ore](https://minecraft.wiki/w/Ore)
 that yields [lead](../lead-ingot/) and small amounts of
 [silver](../silver-ingot/).
 
@@ -34,15 +34,15 @@ Obtaining
 ---------
 
 Lead ore is less common than [iron
-ore](https://minecraft.gamepedia.com/Iron_Ore), but more common than [gold
-ore](https://minecraft.gamepedia.com/Gold_Ore). It occurs at relatively low
+ore](https://minecraft.wiki/w/Iron_Ore), but more common than [gold
+ore](https://minecraft.wiki/w/Gold_Ore). It occurs at relatively low
 levels in the world (layers 15-35). Lead ore veins are slightly smaller than
 iron ore veins, and may contain one or two blocks of [silver
 ore](../silver-ore/) as well. Similarly, silver ore veins may contain one or
 two blocks of lead ore.
 
 Lead ore must be mined with an [iron
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better. If it is mined, it
 drops itself as an item.
 
 
@@ -63,7 +63,7 @@ Usage
 
 ### Smashing
 When lead ore is broken using a [Smashing](../../cofh-core/smashing/) enchanted
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+[pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool, two piles of
 [pulverized lead](../pulverized-lead/) are dropped instead
 of the ore.
 

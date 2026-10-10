@@ -15,7 +15,7 @@ recipes:
   - ra-1-12-weapon-bow
 ---
 
-A **flux-infused bow** is a powerful [bow](https://minecraft.gamepedia.com/Bow)
+A **flux-infused bow** is a powerful [bow](https://minecraft.wiki/w/Bow)
 powered by [Redstone Flux](/docs/redstone-flux/).
 
 
@@ -43,18 +43,18 @@ A charged flux-infused bow can be empowered, increasing its power. This can be
 toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Weapon
-Like a regular [bow](https://minecraft.gamepedia.com/Bow), a flux-infused bow
-can be used to fire [arrows](https://minecraft.gamepedia.com/Arrow). It has an
+Like a regular [bow](https://minecraft.wiki/w/Bow), a flux-infused bow
+can be used to fire [arrows](https://minecraft.wiki/w/Arrow). It has an
 arrow damage multiplier of 0.5, an arrow speed multiplier of 1.5, and consumes
 200 RF per use. When empowered, it has an arrow damage multiplier of 1.25, an
 arrow speed multiplier of 1.6, and consumes 800 RF per use.
 
 ### Enchantments
 A flux-infused bow has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
-much higher than that of a regular [bow](https://minecraft.gamepedia.com/Bow).
+[enchantability](https://minecraft.wiki/w/Enchantability) of 25, which is
+much higher than that of a regular [bow](https://minecraft.wiki/w/Bow).
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused bow has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

@@ -15,7 +15,7 @@ recipes:
 ---
 
 A **trivection chamber** is an [augment](../augments/) that increases the
-amount of cooked [food](https://minecraft.gamepedia.com/Food) a [redstone
+amount of cooked [food](https://minecraft.wiki/w/Food) a [redstone
 furnace](../redstone-furnace/) produces when processing raw food.
 
 
@@ -37,7 +37,7 @@ installed together with other specialization augments.
 ### Effects
 A [redstone furnace](../redstone-furnace/) with a trivection chamber
 installed produces 1.5 times as much cooked
-[food](https://minecraft.gamepedia.com/Food) when processing raw food. The
+[food](https://minecraft.wiki/w/Food) when processing raw food. The
 output amount is rounded down when necessary, but is always at least 2, which
 usually means that a single unit of raw food is processed into two units of
 cooked food.

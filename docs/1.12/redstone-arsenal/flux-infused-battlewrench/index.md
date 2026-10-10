@@ -47,7 +47,7 @@ can be toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Weapon
 A flux-infused battlewrench can be used as a
-[sword](https://minecraft.gamepedia.com/Sword).
+[sword](https://minecraft.wiki/w/Sword).
 
 An uncharged flux-infused battlewrench has an attack speed of 1.6, and deals 2
 damage. When charged, it deals 6 damage as well as 1 flux damage (a special type
@@ -64,11 +64,11 @@ It consumes 200 RF per use, or 800 RF when empowered.
 
 ### Enchantments
 A flux-infused battlewrench has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25. It can
+[enchantability](https://minecraft.wiki/w/Enchantability) of 25. It can
 receive all the enchantments that
-[swords](https://minecraft.gamepedia.com/Sword) can receive.
+[swords](https://minecraft.wiki/w/Sword) can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused battlewrench has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

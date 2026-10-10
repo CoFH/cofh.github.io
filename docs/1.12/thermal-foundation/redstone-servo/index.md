@@ -50,8 +50,8 @@ usage-recipes:
 
 
 **Redstone servos** are crafting materials made of
-[iron](https://minecraft.gamepedia.com/Iron_Ingot) and
-[redstone](https://minecraft.gamepedia.com/Redstone). They are used to craft
+[iron](https://minecraft.wiki/w/Iron_Ingot) and
+[redstone](https://minecraft.wiki/w/Redstone). They are used to craft
 things that do not need [Redstone Flux](/docs/redstone-flux/) to operate,
 notably [devices](../../thermal-expansion/devices/).
 

@@ -6,7 +6,7 @@ redirect_from:
 
 **`structure`** is one of the [feature types](../) provided by [CoFH
 World](../../../). It generates structures loaded from NBT files; the same files
-that [structure blocks](https://minecraft.gamepedia.com/Structure_Block) use.
+that [structure blocks](https://minecraft.wiki/w/Structure_Block) use.
 One structure is generated per chunk.
 
 

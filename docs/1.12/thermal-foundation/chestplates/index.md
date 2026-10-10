@@ -40,8 +40,8 @@ usage-recipes:
 ![Chestplates](/assets/images/thermal-foundation-2/chestplates.gif){:style="height: 128px"}
 
 
-**[Chestplates](https://minecraft.gamepedia.com/Chestplate)** are a type of
-[armor](https://minecraft.gamepedia.com/Armor) in vanilla Minecraft. [Thermal
+**[Chestplates](https://minecraft.wiki/w/Chestplate)** are a type of
+[armor](https://minecraft.wiki/w/Armor) in vanilla Minecraft. [Thermal
 Foundation](../) adds a set of chestplates made of various
 metals.
 

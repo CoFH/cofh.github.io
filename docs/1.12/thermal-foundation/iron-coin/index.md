@@ -15,7 +15,7 @@ recipes:
 
 
 **Iron coins** are materials made of
-[iron](https://minecraft.gamepedia.com/Iron_Ingot) that can be used as fuel in a
+[iron](https://minecraft.wiki/w/Iron_Ingot) that can be used as fuel in a
 [numismatic dynamo](../../thermal-expansion/numismatic-dynamo/).
 
 

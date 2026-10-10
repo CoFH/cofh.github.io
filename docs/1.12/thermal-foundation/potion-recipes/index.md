@@ -15,9 +15,9 @@ Brewing
 -------
 
 Most [potions](../../cofh-core/potions/) added by [CoFH Core](../../cofh-core/)
-can be [brewed](https://minecraft.gamepedia.com/Brewing) by adding certain
+can be [brewed](https://minecraft.wiki/w/Brewing) by adding certain
 ingredients to [awkward
-potions](https://minecraft.gamepedia.com/Potion#Base_potions).
+potions](https://minecraft.wiki/w/Potion#Base_potions).
 
 | Potion | Ingredient |
 |---
@@ -25,13 +25,13 @@ potions](https://minecraft.gamepedia.com/Potion#Base_potions).
 | Potion of Resistance | [Pulverized Obsidian](../pulverized-obsidian/) |
 | Potion of Levitation | [Blitz Powder](../blitz-powder/) |
 | Potion of Absorption | [Blizz Powder](../blizz-powder/) |
-| Potion of Luck | [Emerald](https://minecraft.gamepedia.com/Emerald) |
+| Potion of Luck | [Emerald](https://minecraft.wiki/w/Emerald) |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 Potions of misfortune and decay can be brewed by adding [fermented spider
-eyes](https://minecraft.gamepedia.com/Fermented_Spider_Eye) to potions of luck
+eyes](https://minecraft.wiki/w/Fermented_Spider_Eye) to potions of luck
 and regeneration, respectively.
 
-Like with other potions, [redstone](https://minecraft.gamepedia.com/Redstone)
-and [glowstone dust](https://minecraft.gamepedia.com/Glowstone_Dust) can be used
+Like with other potions, [redstone](https://minecraft.wiki/w/Redstone)
+and [glowstone dust](https://minecraft.wiki/w/Glowstone_Dust) can be used
 to extend the duration and increase the strength of these potions.

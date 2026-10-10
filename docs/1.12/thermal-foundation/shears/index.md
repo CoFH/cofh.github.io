@@ -49,7 +49,7 @@ usage-recipes:
 ![Shears](/assets/images/thermal-foundation-2/shears.gif){:style="height: 128px"}
 
 
-**[Shears](https://minecraft.gamepedia.com/Shears)** are tools in vanilla
+**[Shears](https://minecraft.wiki/w/Shears)** are tools in vanilla
 Minecraft. [Thermal Foundation](../) adds a set of shears
 made of various materials.
 

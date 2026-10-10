@@ -7,7 +7,7 @@ redirect_from:
 - /docs/1.12/cofh-core-4/soulbound/
 ---
 
-**Soulbound** is an [enchantment](https://minecraft.gamepedia.com/Enchanting)
+**Soulbound** is an [enchantment](https://minecraft.wiki/w/Enchanting)
 that prevents items from being dropped when a player dies. Its maximum level is
 III.
 

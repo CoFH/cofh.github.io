@@ -23,7 +23,7 @@ usage-recipes:
 
 **Blizz rods** are materials that are dropped by [blizzes](../blizz/). They
 are the ice elemental versions of [blaze
-rods](https://minecraft.gamepedia.com/Blaze_Rod). Their only use is to be
+rods](https://minecraft.wiki/w/Blaze_Rod). Their only use is to be
 processed into [blizz powder](../blizz-powder/).
 
 

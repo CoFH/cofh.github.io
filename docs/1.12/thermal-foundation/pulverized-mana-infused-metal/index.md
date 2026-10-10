@@ -43,7 +43,7 @@ Obtaining
 ### Smashing
 When [mana infused ore](../mana-infused-ore/) is broken
 using a [Smashing](../../cofh-core/smashing/) enchanted
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool, two piles of
+[pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool, two piles of
 pulverized mana infused metal are dropped instead of the ore.
 
 

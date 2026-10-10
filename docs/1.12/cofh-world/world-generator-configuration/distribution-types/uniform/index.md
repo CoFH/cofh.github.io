@@ -6,14 +6,14 @@ redirect_from:
 
 **`uniform`** is one of the [distribution types](../) provided by [CoFH
 World](../../../). It distributes features evenly between a minimum and maximum
-altitude. Most [ores](https://minecraft.gamepedia.com/Ore) are distributed like
+altitude. Most [ores](https://minecraft.wiki/w/Ore) are distributed like
 this.
 
 When using this distribution type, the feature type
 [`cluster`](../../feature-types/cluster/) is used by default, and the value
 `material` of [feature type
 configurations](../../feature-format/#feature-type-configuration) is set to
-[stone](https://minecraft.gamepedia.com/Stone) (and all of its variations) by
+[stone](https://minecraft.wiki/w/Stone) (and all of its variations) by
 default.
 
 

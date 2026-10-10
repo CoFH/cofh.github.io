@@ -17,7 +17,7 @@ usage-recipes:
 ---
 
 A **tome of knowledge** is an item that stores
-[experience](https://minecraft.gamepedia.com/Experience).
+[experience](https://minecraft.wiki/w/Experience).
 
 
 Obtaining
@@ -32,7 +32,7 @@ Usage
 
 ### Experience storage
 A tome of knowledge can hold up to 10,000 [experience
-points](https://minecraft.gamepedia.com/Experience).
+points](https://minecraft.wiki/w/Experience).
 
 When used, a tome of knowledge takes one level worth of experience from the user
 and stores it. When used while sneaking, it returns one level worth of stored
@@ -44,7 +44,7 @@ default).
 
 ### Essence of Knowledge
 A tome of knowledge converts [experience
-points](https://minecraft.gamepedia.com/Experience) into [essence of
+points](https://minecraft.wiki/w/Experience) into [essence of
 knowledge](../essence-of-knowledge/) and vice versa. Each experience point is
 worth 20 mB of essence of knowledge.
 

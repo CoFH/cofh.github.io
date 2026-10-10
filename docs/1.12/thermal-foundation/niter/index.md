@@ -35,9 +35,9 @@ usage-recipes:
 
 
 **Niter** is a byproduct of processing
-[sandstone](https://minecraft.gamepedia.com/Sandstone) or [blitz
+[sandstone](https://minecraft.wiki/w/Sandstone) or [blitz
 rods](../blitz-rod/) in a [pulverizer](../../thermal-expansion/pulverizer/). It can be used to
-craft [gunpowder](https://minecraft.gamepedia.com/Gunpowder), [aerotheum
+craft [gunpowder](https://minecraft.wiki/w/Gunpowder), [aerotheum
 dust](../aerotheum-dust/) and [Phyto-Gro](../phyto-gro/).
 
 

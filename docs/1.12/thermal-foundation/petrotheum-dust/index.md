@@ -59,11 +59,11 @@ Usage
 
 ### Arcane Ensorcellator ingredient
 Petrotheum dust can be combined with
-[books](https://minecraft.gamepedia.com/Book) and [essence of
+[books](https://minecraft.wiki/w/Book) and [essence of
 knowledge](../essence-of-knowledge/) in an [arcane
 ensorcellator](../../thermal-expansion/arcane-ensorcellator/) to produce
 [Smashing](../../cofh-core/smashing/) [enchanted
-books](https://minecraft.gamepedia.com/Enchanted_Book).
+books](https://minecraft.wiki/w/Enchanted_Book).
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [zephyrean

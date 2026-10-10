@@ -28,7 +28,7 @@ improvements.
   gears](/docs/1.12/thermal-foundation/wooden-gear/) and [stone
   gears](/docs/1.12/thermal-foundation/stone-gear/).
 * Added a configuration option to make the other gears require an additional
-  [iron ingot](https://minecraft.gamepedia.com/Iron_Ingot) to craft.
+  [iron ingot](https://minecraft.wiki/w/Iron_Ingot) to craft.
 
 #### Thermal Expansion
 * Added a configuration option for the ore to dust ratio of

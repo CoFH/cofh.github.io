@@ -18,4 +18,4 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Trading
-Can be bought from Apprentice level [Fletcher](https://minecraft.fandom.com/wiki/Trading#Fletcher) villagers.
+Can be bought from Apprentice level [Fletcher](https://minecraft.wiki/w/Trading#Fletcher) villagers.

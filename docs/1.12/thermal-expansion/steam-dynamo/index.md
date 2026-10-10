@@ -24,7 +24,7 @@ augments:
 ---
 
 A **steam dynamo** is a [dynamo](../dynamos/) fueled by
-[water](https://minecraft.gamepedia.com/Water) and solid fuel.
+[water](https://minecraft.wiki/w/Water) and solid fuel.
 
 
 Obtaining
@@ -32,7 +32,7 @@ Obtaining
 
 A placed steam dynamo can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -54,7 +54,7 @@ a [wrench](../../wrenches/).
 
 ### Energy generation
 A steam dynamo has a fuel slot and a
-[water](https://minecraft.gamepedia.com/Water) tank. When [fuel](#fuels) is
+[water](https://minecraft.wiki/w/Water) tank. When [fuel](#fuels) is
 placed in its fuel slot and the tank is filled with water, the dynamo will start
 consuming both to generate [Redstone Flux](/docs/redstone-flux/). Every unit of
 fuel yields a certain amount of energy when consumed. Water is consumed in
@@ -81,7 +81,7 @@ ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 A steam dynamo may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -149,21 +149,21 @@ Fuels
 -----
 
 A steam dynamo accepts all items that can be used as fuel in a
-[furnace](https://minecraft.gamepedia.com/Furnace), except for those that leave
+[furnace](https://minecraft.wiki/w/Furnace), except for those that leave
 items in a furnace's fuel slot after being consumed, like [lava
-buckets](https://minecraft.gamepedia.com/Lava_Bucket).
+buckets](https://minecraft.wiki/w/Lava_Bucket).
 
 | Fuel | Energy per unit |
 |---
-| [Coal](https://minecraft.gamepedia.com/Coal) | 24,000 RF |
-| [Block of Coal](https://minecraft.gamepedia.com/Block_of_Coal) | 240,000 RF |
+| [Coal](https://minecraft.wiki/w/Coal) | 24,000 RF |
+| [Block of Coal](https://minecraft.wiki/w/Block_of_Coal) | 240,000 RF |
 | [Pulverized Coal](../../thermal-foundation/pulverized-coal/) | 24,000 RF |
-| [Charcoal](https://minecraft.gamepedia.com/Charcoal) | 16,000 RF |
+| [Charcoal](https://minecraft.wiki/w/Charcoal) | 16,000 RF |
 | [Block of Charcoal](../../thermal-foundation/block-of-charcoal/) | 160,000 RF |
 | [Pulverized Charcoal](../../thermal-foundation/pulverized-charcoal/) | 16,000 RF |
 | [Coal Coke](../../thermal-foundation/coal-coke/) | 40,000 RF |
 | [Block of Coal Coke](../../thermal-foundation/block-of-coal-coke/) | 400,000 RF |
-| Any other [furnace](https://minecraft.gamepedia.com/Furnace) fuel* | (Burn time in ticks × 10) RF
+| Any other [furnace](https://minecraft.wiki/w/Furnace) fuel* | (Burn time in ticks × 10) RF
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
 
 *: Items with very short burn times (less than 300 ticks) cannot be used as

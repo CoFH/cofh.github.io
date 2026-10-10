@@ -27,7 +27,7 @@ recipes:
 ---
 
 A **strongbox** is a block that stores items. It is functionally similar to a
-[chest](https://minecraft.gamepedia.com/Chest), but can be moved and
+[chest](https://minecraft.wiki/w/Chest), but can be moved and
 [secured](../../thermal-foundation/signalum-security-lock/). At higher [tiers](#tiers), it also
 stores more items.
 
@@ -38,7 +38,7 @@ Obtaining
 A placed strongbox can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its stored items and configuration are preserved in
 the item. It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe), though this can be much
+[pickaxe](https://minecraft.wiki/w/Pickaxe), though this can be much
 slower.
 
 ### Crafting
@@ -59,7 +59,7 @@ directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Manual usage
 A placed strongbox is functionally similar to a
-[chest](https://minecraft.gamepedia.com/Chest). When used, it is opened so that
+[chest](https://minecraft.wiki/w/Chest). When used, it is opened so that
 items can be manually put in or taken out.
 
 Strongboxes cannot store certain items that can themselves store items, like
@@ -86,7 +86,7 @@ capacity.
 
 ### Redstone comparators
 When placed next to a strongbox with public access, a [redstone
-comparator](https://minecraft.gamepedia.com/Redstone_Comparator) emits a signal
+comparator](https://minecraft.wiki/w/Redstone_Comparator) emits a signal
 strength of between 0 and 15, depending on how full the strongbox is.
 
 

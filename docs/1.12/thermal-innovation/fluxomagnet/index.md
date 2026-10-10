@@ -91,7 +91,7 @@ NBT
 
 ### Dyeing
 A fluxomagnet can be dyed by combining it with a
-[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+[dye](https://minecraft.wiki/w/Dye) in a crafting grid. The dye can be
 removed by placing the fluxomagnet in a crafting grid.
 
 ### Enchantments

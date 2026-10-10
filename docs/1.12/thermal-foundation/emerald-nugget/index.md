@@ -18,7 +18,7 @@ usage-recipes:
 
 
 **Emerald nuggets** are raw materials. They are the nugget form of
-[emeralds](https://minecraft.gamepedia.com/Emerald).
+[emeralds](https://minecraft.wiki/w/Emerald).
 
 
 Obtaining

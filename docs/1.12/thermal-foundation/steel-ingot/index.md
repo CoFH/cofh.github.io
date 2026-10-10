@@ -73,8 +73,8 @@ usage-recipes:
 
 
 **Steel ingots** are raw materials made from
-[iron](https://minecraft.gamepedia.com/Iron_Ingot) and
-[coal](https://minecraft.gamepedia.com/Coal).
+[iron](https://minecraft.wiki/w/Iron_Ingot) and
+[coal](https://minecraft.wiki/w/Coal).
 
 
 Obtaining

@@ -11,7 +11,7 @@ recipes:
 
 **Lightning Arrows** call down a lightning bolt where they land, as long as its outside.
 
-Drops regular [arrows](https://minecraft.fandom.com/wiki/Arrow) when they hit a block.
+Drops regular [arrows](https://minecraft.wiki/w/Arrow) when they hit a block.
 
 Obtaining
 ---------
@@ -20,4 +20,4 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 ### Trading
-Can be bought from Journeyman level [Fletcher](https://minecraft.fandom.com/wiki/Trading#Fletcher) villagers.
+Can be bought from Journeyman level [Fletcher](https://minecraft.wiki/w/Trading#Fletcher) villagers.

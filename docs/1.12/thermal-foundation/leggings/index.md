@@ -40,8 +40,8 @@ usage-recipes:
 ![Leggings](/assets/images/thermal-foundation-2/leggings.gif){:style="height: 128px"}
 
 
-**[Leggings](https://minecraft.gamepedia.com/Leggings)** are a type of
-[armor](https://minecraft.gamepedia.com/Armor) in vanilla Minecraft. [Thermal
+**[Leggings](https://minecraft.wiki/w/Leggings)** are a type of
+[armor](https://minecraft.wiki/w/Armor) in vanilla Minecraft. [Thermal
 Foundation](../) adds a set of leggings made of various
 metals.
 

@@ -11,7 +11,7 @@ recipes:
 
 **Displacement Arrows** create a temporary area where they land which teleports things away.
 
-Drops regular [arrows](https://minecraft.fandom.com/wiki/Arrow) when they hit a block.
+Drops regular [arrows](https://minecraft.wiki/w/Arrow) when they hit a block.
 
 Obtaining
 ---------

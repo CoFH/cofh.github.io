@@ -20,7 +20,7 @@ usage-recipes:
 
 
 **Gold plates** are crafting materials made of
-[gold](https://minecraft.gamepedia.com/Gold_Ingot).
+[gold](https://minecraft.wiki/w/Gold_Ingot).
 
 
 Obtaining

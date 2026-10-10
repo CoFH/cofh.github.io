@@ -26,7 +26,7 @@ Obtaining
 
 A placed structuralduct can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). It can also be mined using a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+[pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}

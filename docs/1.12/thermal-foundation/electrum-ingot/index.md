@@ -100,7 +100,7 @@ usage-recipes:
 
 
 **Electrum ingots** are raw materials made from
-[gold](https://minecraft.gamepedia.com/Gold_Ingot) and
+[gold](https://minecraft.wiki/w/Gold_Ingot) and
 [silver](../silver-ingot/).
 
 
@@ -108,7 +108,7 @@ Obtaining
 ---------
 
 Electrum can be obtained by combining
-[gold](https://minecraft.gamepedia.com/Gold_Ingot) and
+[gold](https://minecraft.wiki/w/Gold_Ingot) and
 [silver](../silver-ingot/), either by crafting [electrum
 blend](../electrum-blend/) or by using an [induction
 smelter](../../thermal-expansion/induction-smelter/).

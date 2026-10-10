@@ -26,7 +26,7 @@ which specifies how effective it is.
 
 | Fluid | Thermal capacity (1,000 mB) | Coolant factor |
 |---
-| [Water](https://minecraft.gamepedia.com/Water) | 250,000 TC | 20% |
+| [Water](https://minecraft.wiki/w/Water) | 250,000 TC | 20% |
 | [Gelid Cryotheum](../../thermal-foundation/gelid-cryotheum/) | 3,000,000 TC | 60% |
 | Crushed Ice ([Forestry](https://forestryforminecraft.info/)) | 1,500,000 TC | 40% |
 | Distilled Water ([IndustrialCraft²](https://www.industrial-craft.net/)) | 300,000 TC | 30% |

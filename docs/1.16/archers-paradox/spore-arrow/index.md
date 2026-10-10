@@ -11,7 +11,7 @@ recipes:
 
 **Spore Arrows** convert grass and dirt in the area around where they land to mycelium. 
 
-Drops regular [arrows](https://minecraft.fandom.com/wiki/Arrow) when they hit a block.
+Drops regular [arrows](https://minecraft.wiki/w/Arrow) when they hit a block.
 
 Obtaining
 ---------

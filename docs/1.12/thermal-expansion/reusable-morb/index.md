@@ -28,7 +28,7 @@ Usage
 -----
 
 A reusable morb works like a regular [morb](../morb/), except it doesn't
-break after releasing a contained [mob](https://minecraft.gamepedia.com/Mob).
+break after releasing a contained [mob](https://minecraft.wiki/w/Mob).
 
 ### Centrifugal Separator with Enstabulation Apparatus
 When processing filled reusable morbs using a [centrifugal

@@ -18,7 +18,7 @@ recipes:
 
 A **creature encaptulator** (also known as a **mob catcher**) is a
 [device](../devices/) that captures nearby
-[mobs](https://minecraft.gamepedia.com/Mob) using [morbs](../morb/).
+[mobs](https://minecraft.wiki/w/Mob) using [morbs](../morb/).
 
 
 Obtaining
@@ -26,7 +26,7 @@ Obtaining
 
 A placed creature encaptulator can be instantly picked up by dismantling it with
 a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -42,7 +42,7 @@ four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 ### Operation
 When empty [morbs](../morb/) are supplied to a creature
 encaptulator, it will begin using them to capture
-[mobs](https://minecraft.gamepedia.com/Mob) in a 11x11x11 area. The device
+[mobs](https://minecraft.wiki/w/Mob) in a 11x11x11 area. The device
 attempts to capture mobs every 32 ticks (1.6 seconds), or directly after it is
 activated by a [redstone signal](#redstone-control). It captures up to 4 mobs at
 a time.
@@ -68,7 +68,7 @@ enabled can be configured using the Configuration tab in the device's GUI.
 
 ### Redstone control
 A creature encaptulator may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored

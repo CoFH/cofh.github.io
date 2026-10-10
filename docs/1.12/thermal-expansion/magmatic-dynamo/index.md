@@ -24,7 +24,7 @@ augments:
 ---
 
 A **magmatic dynamo** is a [dynamo](../dynamos/) fueled by hot fluids like
-[lava](https://minecraft.gamepedia.com/Lava).
+[lava](https://minecraft.wiki/w/Lava).
 
 
 Obtaining
@@ -32,7 +32,7 @@ Obtaining
 
 A placed magmatic dynamo can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe), though
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
@@ -79,7 +79,7 @@ ducting](../augment-transmission-coil-ducting/) is installed.
 
 ### Redstone control
 A magmatic dynamo may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -150,7 +150,7 @@ amounts of energy.
 
 | Fuel | Energy per 1,000 mB |
 |---
-| [Lava](https://minecraft.gamepedia.com/Lava) | 120,000 RF |
+| [Lava](https://minecraft.wiki/w/Lava) | 120,000 RF |
 | [Blazing Pyrotheum](../../thermal-foundation/blazing-pyrotheum/) | 2,000,000 RF |
 | Pahoehoe Lava ([IndustrialCraft²](https://www.industrial-craft.net/)) | 80,000 RF |
 | Hot Coolant ([IndustrialCraft²](https://www.industrial-craft.net/)) | 40,000 RF |

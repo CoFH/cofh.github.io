@@ -41,7 +41,7 @@ usage-recipes:
 
 
 **Destabilized redstone** is a fluid obtained by melting
-[redstone](https://minecraft.gamepedia.com/Redstone) in a [magma
+[redstone](https://minecraft.wiki/w/Redstone) in a [magma
 crucible](../../thermal-expansion/magma-crucible/).
 
 
@@ -60,14 +60,14 @@ Obtaining
 ### Natural generation
 Deposits of [destabilized redstone ore](../destabilized-redstone-ore/) may
 contain some destabilized redstone, which can be picked up using a
-[bucket](https://minecraft.gamepedia.com/Bucket).
+[bucket](https://minecraft.wiki/w/Bucket).
 
 
 Usage
 -----
 
 Destabilized redstone can be placed as a block using a
-[bucket](https://minecraft.gamepedia.com/Bucket).
+[bucket](https://minecraft.wiki/w/Bucket).
 
 ### Light source
 Destabilized redstone blocks emit a light level of 7.
@@ -78,7 +78,7 @@ blocks is proportional to how they are from the source block.
 
 ### Crafting ingredient
 Any item that contains at least one
-[bucket](https://minecraft.gamepedia.com/Bucket) worth of destabilized redstone
+[bucket](https://minecraft.wiki/w/Bucket) worth of destabilized redstone
 may be used in these recipes.
 
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
@@ -88,11 +88,11 @@ may be used in these recipes.
 
 ### Reactant Dynamo fuel
 Destabilized redstone can be used with
-[sugar](https://minecraft.gamepedia.com/Sugar), [nether
-wart](https://minecraft.gamepedia.com/Nether_Wart),
-[gunpowder](https://minecraft.gamepedia.com/Gunpowder), [blaze
-powder](https://minecraft.gamepedia.com/Blaze_Powder) or [ghast
-tears](https://minecraft.gamepedia.com/Ghast_Tear) in a [reactant
+[sugar](https://minecraft.wiki/w/Sugar), [nether
+wart](https://minecraft.wiki/w/Nether_Wart),
+[gunpowder](https://minecraft.wiki/w/Gunpowder), [blaze
+powder](https://minecraft.wiki/w/Blaze_Powder) or [ghast
+tears](https://minecraft.wiki/w/Ghast_Tear) in a [reactant
 dynamo](../../thermal-expansion/reactant-dynamo/) to generate varying amounts of energy.
 
 

@@ -17,7 +17,7 @@ recipes:
 
 A **flux-infused omniwrench** is a [wrench](../../wrenches/) powered by
 [Redstone Flux](/docs/redstone-flux/). It also serves as
-[shears](https://minecraft.gamepedia.com/Shears).
+[shears](https://minecraft.wiki/w/Shears).
 
 
 Obtaining
@@ -47,7 +47,7 @@ A flux-infused omniwrench can also be used on players and mobs to rotate them by
 
 ### Shearing
 A charged flux-infused omniwrench can be used as
-[shears](https://minecraft.gamepedia.com/Shears). When shearing, it consumes 200
+[shears](https://minecraft.wiki/w/Shears). When shearing, it consumes 200
 RF per use.
 
 ### Weapon
@@ -56,9 +56,9 @@ that are hit with a flux-infused omniwrench are also rotated by 90 degrees.
 
 ### Enchantments
 A flux-infused omniwrench can receive all the enchantments that
-[shears](https://minecraft.gamepedia.com/Shears) can receive.
+[shears](https://minecraft.wiki/w/Shears) can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused omniwrench has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

@@ -36,7 +36,7 @@ I see you want to know more about the magic of Ensorcellation.
 				<td markdown="span">Angler's Bounty</td>
 				<td markdown="span">I-II</td>
 				<td markdown="span">Increases items caught when fishing</td>
-				<td markdown="span">[Treasure](https://minecraft.fandom.com/wiki/Enchanting_mechanics#Treasure)</td>
+				<td markdown="span">[Treasure](https://minecraft.wiki/w/Enchantment#Treasure)</td>
 				<td markdown="span">None</td>
 				<td markdown="span">Fishing Rods</td>
 			</tr>
@@ -100,7 +100,7 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">Excavating</td>
                 <td markdown="span">I-II</td>
                 <td markdown="span">Harvests additional blocks in radius</td>
-                <td markdown="span">[Treasure](https://minecraft.fandom.com/wiki/Enchanting_mechanics#Treasure)</td>
+                <td markdown="span">[Treasure](https://minecraft.wiki/w/Enchantment#Treasure)</td>
                 <td markdown="span">None</td>
                 <td markdown="span">Pickaxes, Shovels</td>
             </tr>
@@ -140,7 +140,7 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">Hunter's Bounty</td>
                 <td markdown="span">I-II</td>
                 <td markdown="span">Provides a chance of additional drops from slain animals</td>
-                <td markdown="span">[Treasure](https://minecraft.fandom.com/wiki/Enchanting_mechanics#Treasure)</td>
+                <td markdown="span">[Treasure](https://minecraft.wiki/w/Enchantment#Treasure)</td>
                 <td markdown="span">None</td>
                 <td markdown="span">Bows</td>
             </tr>
@@ -172,7 +172,7 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">Magic Edge</td>
                 <td markdown="span">I-III</td>
                 <td markdown="span">Slightly increases damage dealt and converts it to magic damage</td>
-                <td markdown="span">[Treasure](https://minecraft.fandom.com/wiki/Enchanting_mechanics#Treasure)</td>
+                <td markdown="span">[Treasure](https://minecraft.wiki/w/Enchantment#Treasure)</td>
                 <td markdown="span">Damage Enchants</td>
                 <td markdown="span">Weapons</td>
             </tr>
@@ -204,7 +204,7 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">Pilfering</td>
                 <td markdown="span">I</td>
                 <td markdown="span">May steal a piece of armor from hooked targets</td>
-                <td markdown="span">[Treasure](https://minecraft.fandom.com/wiki/Enchanting_mechanics#Treasure)</td>
+                <td markdown="span">[Treasure](https://minecraft.wiki/w/Enchantment#Treasure)</td>
                 <td markdown="span">None</td>
                 <td markdown="span">Fishing Rods</td>
             </tr>
@@ -236,7 +236,7 @@ I see you want to know more about the magic of Ensorcellation.
                 <td markdown="span">Tilling</td>
                 <td markdown="span">I-IV</td>
                 <td markdown="span">Tills additional blocks in a radius</td>
-                <td markdown="span">[Treasure](https://minecraft.fandom.com/wiki/Enchanting_mechanics#Treasure)</td>
+                <td markdown="span">[Treasure](https://minecraft.wiki/w/Enchantment#Treasure)</td>
                 <td markdown="span">Furrowing</td>
                 <td markdown="span">Hoes</td>
             </tr>

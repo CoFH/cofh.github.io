@@ -26,8 +26,8 @@ usage-recipes:
 
 **Rosin** is a byproduct of processing [resin](../resin/) in a [fractionating
 still](../../thermal-expansion/fractionating-still/). It can be used to craft
-[torches](https://minecraft.gamepedia.com/Torches), and can replace
-[slimeballs](https://minecraft.gamepedia.com/Slimeball) in some recipes.
+[torches](https://minecraft.wiki/w/Torches), and can replace
+[slimeballs](https://minecraft.wiki/w/Slimeball) in some recipes.
 
 
 Obtaining
@@ -44,5 +44,5 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Fuel
-When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
+When used as fuel in a [furnace](https://minecraft.wiki/w/Furnace), one
 piece of rosin lasts 40 seconds, which is enough to smelt up to 4 items.

@@ -20,7 +20,7 @@ usage-recipes:
 
 
 **Mushroom stew** is the fluid form of the [item of the same
-name](https://minecraft.gamepedia.com/Mushroom_Stew).
+name](https://minecraft.wiki/w/Mushroom_Stew).
 
 
 Obtaining
@@ -32,7 +32,7 @@ Obtaining
 ### Arboreal Extractor
 An [arboreal extractor](../../thermal-expansion/arboreal-extractor/) will produce mushroom stew
 when placed next to a [huge
-mushroom](https://minecraft.gamepedia.com/Huge_mushroom).
+mushroom](https://minecraft.wiki/w/Huge_mushroom).
 
 
 Usage

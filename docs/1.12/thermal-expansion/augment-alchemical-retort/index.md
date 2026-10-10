@@ -16,7 +16,7 @@ recipes:
 An **alchemical retort** is an [augment](../augments/) that allows for a
 [fractionating still](../fractionating-still/) to refine [fluid
 potions](../../thermal-foundation/potion-fluid/), increasing their potency to levels that cannot be
-obtained through [brewing](https://minecraft.gamepedia.com/Brewing).
+obtained through [brewing](https://minecraft.wiki/w/Brewing).
 
 
 Obtaining
@@ -39,7 +39,7 @@ A [fractionating still](../fractionating-still/) with an alchemical retort
 installed can refine level II [fluid potions](../../thermal-foundation/potion-fluid/) to increase
 their potency to [levels up to IV](../../cofh-core/potions/#stronger-potions).
 It can also refine the extended versions of potions (brewed using
-[redstone](https://minecraft.gamepedia.com/Redstone)) to increase their potency
+[redstone](https://minecraft.wiki/w/Redstone)) to increase their potency
 to [levels up to III](../../cofh-core/potions/#stronger-potions). However, the
 machine cannot process anything other than potions.
 

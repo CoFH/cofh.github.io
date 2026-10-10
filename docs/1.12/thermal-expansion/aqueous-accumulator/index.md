@@ -18,7 +18,7 @@ recipes:
 
 
 An **aqueous accumulator** is a [device](../devices/) that generates
-[water](https://minecraft.gamepedia.com/Water) by extracting it from the
+[water](https://minecraft.wiki/w/Water) by extracting it from the
 device's surroundings.
 
 
@@ -27,7 +27,7 @@ Obtaining
 
 A placed aqueous accumulator can be instantly picked up by dismantling it with a
 [wrench](../../wrenches/). Its configuration is preserved in the item. It can
-also be mined using a [pickaxe](https://minecraft.gamepedia.com/Pickaxe).
+also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
@@ -41,7 +41,7 @@ When placed, an aqueous accumulator faces the player. It can face any of the
 four cardinal directions, and can be rotated using a [wrench](../../wrenches/).
 
 ### Operation
-When placed between at least two [water](https://minecraft.gamepedia.com/Water)
+When placed between at least two [water](https://minecraft.wiki/w/Water)
 source blocks, an aqueous accumulator will start producing water. The rate at
 which water is produced depends on the amount of adjacent water sources.
 
@@ -58,7 +58,7 @@ Water is not actually produced every tick, but in batches every 40 ticks (2
 seconds).
 
 An aqueous accumulator will also produce water when it
-[rains](https://minecraft.gamepedia.com/Rain) on top of it. In this case, water
+[rains](https://minecraft.wiki/w/Rain) on top of it. In this case, water
 is produced at a rate of 100 mB/t.
 
 If enabled, an aqueous accumulator will also produce water without adjacent
@@ -66,10 +66,10 @@ water sources or rain. In this case, water is produced at a rate of 2 mB/t. This
 is disabled by default.
 
 Aqueous accumulators do not work in the
-[Nether](https://minecraft.gamepedia.com/The_Nether).
+[Nether](https://minecraft.wiki/w/The_Nether).
 
 ### Output
-[Water](https://minecraft.gamepedia.com/Water) can exit an aqueous accumulator
+[Water](https://minecraft.wiki/w/Water) can exit an aqueous accumulator
 through its sides. Every side of an aqueous accumulator may be configured to be
 able to output water.
 
@@ -82,7 +82,7 @@ configured using the Configuration tab in the device's GUI.
 
 ### Redstone control
 An aqueous accumulator may be configured to respond to
-[redstone](https://minecraft.gamepedia.com/Redstone) signals. It can be in one
+[redstone](https://minecraft.wiki/w/Redstone) signals. It can be in one
 of three modes:
 
 Ignored
@@ -111,6 +111,6 @@ Trivia
 ------
 
 * Aqueous accumulators take advantage of the fact that two
-  [water](https://minecraft.gamepedia.com/Water) source blocks will fill an
+  [water](https://minecraft.wiki/w/Water) source blocks will fill an
   empty space between them by creating another water source, which makes it
   possible to obtain infinite water.

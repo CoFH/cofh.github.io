@@ -25,9 +25,9 @@ usage-recipes:
 ![Aluminum ore](/assets/images/thermal-foundation-2/ore-aluminum.png){:style="height: 128px"}
 
 
-**Aluminum ore** is an [ore](https://minecraft.gamepedia.com/Ore) that yields
+**Aluminum ore** is an [ore](https://minecraft.wiki/w/Ore) that yields
 [aluminum](../aluminum-ingot/) and small amounts of
-[iron](https://minecraft.gamepedia.com/Iron_Ingot). It is unobtainable by
+[iron](https://minecraft.wiki/w/Iron_Ingot). It is unobtainable by
 default.
 
 
@@ -39,7 +39,7 @@ legitimately obtained. However, it may be configured to generate in the world in
 modpacks.
 
 Aluminum ore must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better. If it is mined, it
 drops itself as an item.
 
 
@@ -60,7 +60,7 @@ Usage
 
 ### Smashing
 When aluminum ore is broken using a [Smashing](../../cofh-core/smashing/)
-enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
+enchanted [pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool,
 two piles of [pulverized
 aluminum](../pulverized-aluminum/) are dropped instead of
 the ore.

@@ -28,7 +28,7 @@ recipes:
 ---
 
 A **reservoir** is an item that stores fluids. It is functionally similar to a
-[bucket](https://minecraft.gamepedia.com/Bucket). It can also automatically
+[bucket](https://minecraft.wiki/w/Bucket). It can also automatically
 refill a player's equipment.
 
 
@@ -46,7 +46,7 @@ Usage
 A reservoir can be filled and drained by hand, or automatically using a [fluid
 transposer](../fluid-transposer/) or similar. It can be filled and drained at
 rates up to 1,000 mB/t. A basic reservoir can store up to 10
-[buckets](https://minecraft.gamepedia.com/Bucket) worth of fluid (10,000 mB).
+[buckets](https://minecraft.wiki/w/Bucket) worth of fluid (10,000 mB).
 This can be increased by upgrading the reservoir to a higher [tier](#tiers).
 
 A reservoir can be in one of two usage modes: Fill and Empty. The current usage
@@ -69,7 +69,7 @@ reservoirs can be equipped as baubles in any slot.
 
 ### Dyeing
 A reservoir can be dyed by combining it with a
-[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+[dye](https://minecraft.wiki/w/Dye) in a crafting grid. The dye can be
 removed by placing the reservoir in a crafting grid.
 
 ### Enchantments

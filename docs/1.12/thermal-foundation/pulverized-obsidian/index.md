@@ -28,7 +28,7 @@ usage-recipes:
 
 
 **Pulverized obsidian** is a raw material that is most commonly obtained by
-processing [obsidian](https://minecraft.gamepedia.com/Obsidian) in a
+processing [obsidian](https://minecraft.wiki/w/Obsidian) in a
 [pulverizer](../../thermal-expansion/pulverizer/).
 
 
@@ -53,9 +53,9 @@ Usage
 {% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
 
 ### Brewing ingredient
-When [brewing](https://minecraft.gamepedia.com/Brewing), pulverized obsidian can
+When [brewing](https://minecraft.wiki/w/Brewing), pulverized obsidian can
 be added to an [awkward
-potion](https://minecraft.gamepedia.com/Potion#Base_potions) to make a [potion
+potion](https://minecraft.wiki/w/Potion#Base_potions) to make a [potion
 of resistance](../../cofh-core/potions/).
 
 ### Induction Smelter ingredient

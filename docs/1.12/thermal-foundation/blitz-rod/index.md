@@ -22,7 +22,7 @@ usage-recipes:
 
 **Blitz rods** are materials that are dropped by [blitzes](../blitz/). They
 are the air elemental versions of [blaze
-rods](https://minecraft.gamepedia.com/Blaze_Rod). Their only use is to be
+rods](https://minecraft.wiki/w/Blaze_Rod). Their only use is to be
 processed into [blitz powder](../blitz-powder/).
 
 

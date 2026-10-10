@@ -17,24 +17,24 @@ usage-recipes:
 ![Oil shale](/assets/images/thermal-foundation-2/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
 
 
-**Oil shale** is an uncommon [ore](https://minecraft.gamepedia.com/Ore) that
+**Oil shale** is an uncommon [ore](https://minecraft.wiki/w/Ore) that
 yields [bitumen](../bitumen/) ([crude oil](../crude-oil/)) and small
-amounts of [flint](https://minecraft.gamepedia.com/Flint).
+amounts of [flint](https://minecraft.wiki/w/Flint).
 
 
 Obtaining
 ---------
 
 Oil shale occurs fairly uncommonly in
-[mesas](https://minecraft.gamepedia.com/Mesa),
-[oceans](https://minecraft.gamepedia.com/Ocean),
-[swamplands](https://minecraft.gamepedia.com/Swampland), and snowy
-[biomes](https://minecraft.gamepedia.com/Biome) in veins between
-[gravel](https://minecraft.gamepedia.com/Gravel),
-[dirt](https://minecraft.gamepedia.com/Dirt) and
-[stone](https://minecraft.gamepedia.com/Stone) blocks. It is found at almost any
+[mesas](https://minecraft.wiki/w/Mesa),
+[oceans](https://minecraft.wiki/w/Ocean),
+[swamplands](https://minecraft.wiki/w/Swampland), and snowy
+[biomes](https://minecraft.wiki/w/Biome) in veins between
+[gravel](https://minecraft.wiki/w/Gravel),
+[dirt](https://minecraft.wiki/w/Dirt) and
+[stone](https://minecraft.wiki/w/Stone) blocks. It is found at almost any
 altitude (layers 10-80). It occurs in fairly large deposits, almost as large as
-deposits of [coal ore](https://minecraft.gamepedia.com/Coal_Ore). Deposits of
+deposits of [coal ore](https://minecraft.wiki/w/Coal_Ore). Deposits of
 oil shale may also contain some coal ore.
 
 Oil shale also more rarely occurs in much larger deposits underground (layers
@@ -42,12 +42,12 @@ Oil shale also more rarely occurs in much larger deposits underground (layers
 oil](../crude-oil/).
 
 Oil shale must be mined with a [stone
-pickaxe](https://minecraft.gamepedia.com/Stone_Pickaxe) or
-[shovel](https://minecraft.gamepedia.com/Stone_Shovel) or better. It drops one
+pickaxe](https://minecraft.wiki/w/Stone_Pickaxe) or
+[shovel](https://minecraft.wiki/w/Stone_Shovel) or better. It drops one
 piece of [bitumen](../bitumen/) when mined. More bitumen is dropped if a
-[Fortune](https://minecraft.gamepedia.com/Fortune) enchanted tool is used. Oil
+[Fortune](https://minecraft.wiki/w/Fortune) enchanted tool is used. Oil
 shale itself can be obtained by mining it with a [Silk
-Touch](https://minecraft.gamepedia.com/Silk_Touch) enchanted tool.
+Touch](https://minecraft.wiki/w/Silk_Touch) enchanted tool.
 
 When oil shale is broken, some [crude oil](../crude-oil/) comes flowing out.
 This oil cannot be picked up and eventually disappears. If a Silk Touch

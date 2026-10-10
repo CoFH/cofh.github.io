@@ -50,7 +50,7 @@ usage-recipes:
 ![Hammers](/assets/images/thermal-foundation-2/hammers.gif){:style="height: 128px"}
 
 
-**Hammers** are [pickaxe](https://minecraft.gamepedia.com/Pickaxe)-like tools
+**Hammers** are [pickaxe](https://minecraft.wiki/w/Pickaxe)-like tools
 that can mine 9 blocks at once.
 
 
@@ -65,7 +65,7 @@ Usage
 -----
 
 Hammers can be used to mine the same blocks
-[pickaxes](https://minecraft.gamepedia.com/Pickaxe) can mine. When a block is
+[pickaxes](https://minecraft.wiki/w/Pickaxe) can mine. When a block is
 mined using a hammer, any blocks surrounding it in a 3x3 area will be mined as
 well if possible. This can be temporarily disabled by sneaking.
 
@@ -104,9 +104,9 @@ uses = mat.maxUses * 2
 
 ### Enchantments
 Hammers can receive the same enchantments that
-[pickaxes](https://minecraft.gamepedia.com/Pickaxe) can, including [Silk
-Touch](https://minecraft.gamepedia.com/Silk_Touch) and
-[Fortune](https://minecraft.gamepedia.com/Fortune).
+[pickaxes](https://minecraft.wiki/w/Pickaxe) can, including [Silk
+Touch](https://minecraft.wiki/w/Silk_Touch) and
+[Fortune](https://minecraft.wiki/w/Fortune).
 
 ### Induction Smelter ingredient
 {% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}

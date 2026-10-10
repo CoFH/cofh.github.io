@@ -6,7 +6,7 @@ redirect_from:
 ---
 
 [CoFH World](../) adds a couple of
-**[commands](https://minecraft.gamepedia.com/Commands)** to the game.
+**[commands](https://minecraft.wiki/w/Commands)** to the game.
 
 
 Summary

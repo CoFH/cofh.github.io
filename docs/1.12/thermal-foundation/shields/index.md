@@ -78,7 +78,7 @@ usage-recipes:
   - recycling-weapon-shield-diamond
 ---
 
-**[Shields](https://minecraft.gamepedia.com/Shield)** are weapons in vanilla
+**[Shields](https://minecraft.wiki/w/Shield)** are weapons in vanilla
 Minecraft. [Thermal Foundation](../) adds a set of shields
 made of various materials.
 

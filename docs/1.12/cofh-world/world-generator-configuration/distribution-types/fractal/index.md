@@ -16,7 +16,7 @@ When using this distribution type, the feature type
 [`large-vein`](../../feature-types/large-vein/) is used by default, and the
 value `material` of [feature type
 configurations](../../feature-format/#feature-type-configuration) is set to
-[stone](https://minecraft.gamepedia.com/Stone) (and all of its variations) by
+[stone](https://minecraft.wiki/w/Stone) (and all of its variations) by
 default.
 
 

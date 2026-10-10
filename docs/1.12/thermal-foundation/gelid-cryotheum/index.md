@@ -47,44 +47,44 @@ Usage
 -----
 
 Gelid cryotheum can be placed as a block using a
-[bucket](https://minecraft.gamepedia.com/Bucket).
+[bucket](https://minecraft.wiki/w/Bucket).
 
 ### Flow
 The way gelid cryotheum flows is similar to
-[lava](https://minecraft.gamepedia.com/Lava). Cryotheum source blocks will also
+[lava](https://minecraft.wiki/w/Lava). Cryotheum source blocks will also
 gradually fall downwards if there are no blocks below them.
 
 ### Effects
-Most [entities](https://minecraft.gamepedia.com/Entity) that touch gelid
+Most [entities](https://minecraft.wiki/w/Entity) that touch gelid
 cryotheum take 2 damage every half-second.
 
 Gelid cryotheum has the following effects on certain blocks and mobs:
 
 * adjacent blocks are covered with [snow
-  layers](https://minecraft.gamepedia.com/Snow_(layer));
-* [grass blocks](https://minecraft.gamepedia.com/Grass_Block) are turned into
-  [dirt](https://minecraft.gamepedia.com/Dirt);
-* [water](https://minecraft.gamepedia.com/Water) source blocks are turned into
-  [ice](https://minecraft.gamepedia.com/Ice);
-* flowing [water](https://minecraft.gamepedia.com/Water) is turned into
-  [snow](https://minecraft.gamepedia.com/Snow_Block);
-* [lava](https://minecraft.gamepedia.com/Lava) source blocks are turned into
-  [obsidian](https://minecraft.gamepedia.com/Obsidian);
-* flowing [lava](https://minecraft.gamepedia.com/Lava) is turned into
-  [stone](https://minecraft.gamepedia.com/Stone);
-* [grass](https://minecraft.gamepedia.com/Grass) and
-  [leaves](https://minecraft.gamepedia.com/Leaves) are instantly destroyed;
-* [fire](https://minecraft.gamepedia.com/Fire) is extinguished;
+  layers](https://minecraft.wiki/w/Snow_(layer));
+* [grass blocks](https://minecraft.wiki/w/Grass_Block) are turned into
+  [dirt](https://minecraft.wiki/w/Dirt);
+* [water](https://minecraft.wiki/w/Water) source blocks are turned into
+  [ice](https://minecraft.wiki/w/Ice);
+* flowing [water](https://minecraft.wiki/w/Water) is turned into
+  [snow](https://minecraft.wiki/w/Snow_Block);
+* [lava](https://minecraft.wiki/w/Lava) source blocks are turned into
+  [obsidian](https://minecraft.wiki/w/Obsidian);
+* flowing [lava](https://minecraft.wiki/w/Lava) is turned into
+  [stone](https://minecraft.wiki/w/Stone);
+* [grass](https://minecraft.wiki/w/Grass) and
+  [leaves](https://minecraft.wiki/w/Leaves) are instantly destroyed;
+* [fire](https://minecraft.wiki/w/Fire) is extinguished;
 * [energized glowstone](../energized-glowstone/) source blocks are turned
-  into [glowstone](https://minecraft.gamepedia.com/Glowstone);
-* [zombies](https://minecraft.gamepedia.com/Zombie) and
-  [creepers](https://minecraft.gamepedia.com/Creeper) are turned into [snow
-  golems](https://minecraft.gamepedia.com/Snow_Golem);
-* [blazes](https://minecraft.gamepedia.com/Blaze) take 10 damage instead of 2;
-* [snow golems](https://minecraft.gamepedia.com/Snow_Golem) and
+  into [glowstone](https://minecraft.wiki/w/Glowstone);
+* [zombies](https://minecraft.wiki/w/Zombie) and
+  [creepers](https://minecraft.wiki/w/Creeper) are turned into [snow
+  golems](https://minecraft.wiki/w/Snow_Golem);
+* [blazes](https://minecraft.wiki/w/Blaze) take 10 damage instead of 2;
+* [snow golems](https://minecraft.wiki/w/Snow_Golem) and
   [blizzes](../blizz/) are given the effects [Speed
-  I](https://minecraft.gamepedia.com/Status_effect#Speed) and [Regeneration
-  I](https://minecraft.gamepedia.com/Status_effect#Regeneration) for 6 seconds.
+  I](https://minecraft.wiki/w/Speed) and [Regeneration
+  I](https://minecraft.wiki/w/Regeneration) for 6 seconds.
 
 ### Fluid Transposer ingredient
 {% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
@@ -101,4 +101,4 @@ catalyzer](../../thermal-expansion/augment-elemental-catalyzer/) is installed.
 ### Coolant
 Gelid cryotheum is a very effective [coolant](../../thermal-expansion/coolants/). It is 3 times as
 effective and lasts 12 times as long as
-[water](https://minecraft.gamepedia.com/Water).
+[water](https://minecraft.wiki/w/Water).

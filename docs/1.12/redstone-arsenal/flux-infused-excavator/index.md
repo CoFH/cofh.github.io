@@ -45,7 +45,7 @@ can be toggled by pressing "Cycle Item Mode" (V by default).
 
 ### Mining
 An uncharged flux-infused excavator has a very low digging speed (even slower
-than a [wooden shovel](https://minecraft.gamepedia.com/Wooden_Shovel)) and can
+than a [wooden shovel](https://minecraft.wiki/w/Wooden_Shovel)) and can
 only break one block at a time. When charged, it has the same digging speed as a
 [diamond excavator](../../thermal-foundation/excavators/), breaks up to 9 blocks
 at a time in a 3x3 area, and consumes 200 RF per use. When empowered, it is 1.5
@@ -62,12 +62,12 @@ of damage that bypasses armor). When empowered, its attack speed is raised to
 
 ### Enchantments
 A flux-infused excavator has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 25, which is
+[enchantability](https://minecraft.wiki/w/Enchantability) of 25, which is
 slightly higher than that of a [golden
 excavator](../../thermal-foundation/excavators/). It can receive all the
 enchantments that other excavators can receive.
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused excavator has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 

@@ -29,7 +29,7 @@ recipes:
     results:
       - html: 'Metal Ingot'
     ingredients:
-      - html: '<a href="https://minecraft.gamepedia.com/Smelting">Smeltable</a> Metal Dust'
+      - html: '<a href="https://minecraft.wiki/w/Smelting">Smeltable</a> Metal Dust'
     energy: "1,500"
     data:
       input:

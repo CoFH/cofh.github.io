@@ -25,9 +25,9 @@ usage-recipes:
 ![Mana Infused ore](/assets/images/thermal-foundation-2/ore-mithril.png){:style="height: 128px"}
 
 
-**Mana infused ore** is an [ore](https://minecraft.gamepedia.com/Ore) that
+**Mana infused ore** is an [ore](https://minecraft.wiki/w/Ore) that
 yields [mana infused metal](../mana-infused-ingot/) and small amounts of
-[gold](https://minecraft.gamepedia.com/Gold_Ingot). It is unobtainable by
+[gold](https://minecraft.wiki/w/Gold_Ingot). It is unobtainable by
 default.
 
 
@@ -39,7 +39,7 @@ legitimately obtained. However, it may be configured to generate in the world in
 modpacks.
 
 Mana infused ore must be mined with a [diamond
-pickaxe](https://minecraft.gamepedia.com/Pickaxe) or better. If it is mined, it
+pickaxe](https://minecraft.wiki/w/Pickaxe) or better. If it is mined, it
 drops itself as an item.
 
 
@@ -60,7 +60,7 @@ Usage
 
 ### Smashing
 When mana infused ore is broken using a [Smashing](../../cofh-core/smashing/)
-enchanted [pickaxe](https://minecraft.gamepedia.com/Pickaxe) or similar tool,
+enchanted [pickaxe](https://minecraft.wiki/w/Pickaxe) or similar tool,
 two piles of [pulverized mana infused
 metal](../pulverized-mana-infused-metal/) are dropped
 instead of the ore.

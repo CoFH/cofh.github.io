@@ -27,8 +27,8 @@ recipes:
 
 A **fluxbore** (also known as a **drill**) is a tool that mines blocks using
 [Redstone Flux](/docs/redstone-flux/). It functions as both a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) and a
-[shovel](https://minecraft.gamepedia.com/Shovel).
+[pickaxe](https://minecraft.wiki/w/Pickaxe) and a
+[shovel](https://minecraft.wiki/w/Shovel).
 
 
 Obtaining
@@ -55,13 +55,13 @@ very weak.
 
 ### Mining
 A fluxbore can be used as both a
-[pickaxe](https://minecraft.gamepedia.com/Pickaxe) and a
-[shovel](https://minecraft.gamepedia.com/Shovel). It consumes 200 RF for each
+[pickaxe](https://minecraft.wiki/w/Pickaxe) and a
+[shovel](https://minecraft.wiki/w/Shovel). It consumes 200 RF for each
 mined block.
 
 A charged basic fluxbore is comparable to an [iron
-pickaxe](https://minecraft.gamepedia.com/Iron_Pickaxe) or
-[shovel](https://minecraft.gamepedia.com/Iron_Shovel). It becomes more powerful
+pickaxe](https://minecraft.wiki/w/Iron_Pickaxe) or
+[shovel](https://minecraft.wiki/w/Iron_Shovel). It becomes more powerful
 when upgraded to a higher [tier](#tiers).
 
 A charged fluxbore can be configured to mine multiple blocks at once in a
@@ -87,19 +87,19 @@ A charged fluxbore consumes 400 RF per hit.
 
 ### Dyeing
 A fluxbore can be dyed by combining it with a
-[dye](https://minecraft.gamepedia.com/Dye) in a crafting grid. The dye can be
+[dye](https://minecraft.wiki/w/Dye) in a crafting grid. The dye can be
 removed by placing the fluxbore in a crafting grid.
 
 ### Enchantments
 A fluxbore can receive all the enchantments that
-[pickaxes](https://minecraft.gamepedia.com/Pickaxe) and
-[shovels](https://minecraft.gamepedia.com/Shovel) can receive.
+[pickaxes](https://minecraft.wiki/w/Pickaxe) and
+[shovels](https://minecraft.wiki/w/Shovel) can receive.
 
 A basic fluxbore has an
-[enchantability](https://minecraft.gamepedia.com/Enchantability) of 10. This can
+[enchantability](https://minecraft.wiki/w/Enchantability) of 10. This can
 be increased by upgrading the fluxbore to a higher [tier](#tiers).
 
-When enchanted with [Unbreaking](https://minecraft.gamepedia.com/Unbreaking), a
+When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 fluxbore has a chance to not consume [Redstone Flux](/docs/redstone-flux/) when
 used.
 

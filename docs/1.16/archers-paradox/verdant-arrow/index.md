@@ -11,7 +11,7 @@ recipes:
 
 **Verdant Arrows** convert dirt in the area around where they land to grass blocks. They also act like bonemeal, growing crops/plants in the area.
 
-Drops regular [arrows](https://minecraft.fandom.com/wiki/Arrow) when they hit a block.
+Drops regular [arrows](https://minecraft.wiki/w/Arrow) when they hit a block.
 
 Obtaining
 ---------

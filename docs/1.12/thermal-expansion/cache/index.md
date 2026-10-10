@@ -85,7 +85,7 @@ capacity.
 
 ### Redstone comparators
 When placed next to a cache, a [redstone
-comparator](https://minecraft.gamepedia.com/Redstone_Comparator) emits a signal
+comparator](https://minecraft.wiki/w/Redstone_Comparator) emits a signal
 strength of between 0 and 15, depending on how full the cache is.
 
 

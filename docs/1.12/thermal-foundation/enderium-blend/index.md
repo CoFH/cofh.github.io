@@ -35,7 +35,7 @@ Obtaining
 {% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
 
 Any item that contains at least one
-[bucket](https://minecraft.gamepedia.com/Bucket) worth of [resonant
+[bucket](https://minecraft.wiki/w/Bucket) worth of [resonant
 ender](../resonant-ender/) may be used. Using a [portable
 tank](../../thermal-expansion/portable-tank/) can make it easier to craft large amounts of
 enderium blend.

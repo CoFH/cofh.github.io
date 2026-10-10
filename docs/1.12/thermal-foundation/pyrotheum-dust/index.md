@@ -61,17 +61,17 @@ Usage
 
 ### Arcane Ensorcellator ingredient
 Pyrotheum dust can be combined with
-[books](https://minecraft.gamepedia.com/Book) and [essence of
+[books](https://minecraft.wiki/w/Book) and [essence of
 knowledge](../essence-of-knowledge/) in an [arcane
 ensorcellator](../../thermal-expansion/arcane-ensorcellator/) to produce
 [Smelting](../../cofh-core/smelting/) [enchanted
-books](https://minecraft.gamepedia.com/Enchanted_Book).
+books](https://minecraft.wiki/w/Enchanted_Book).
 
 ### Fuel
-When used as fuel in a [furnace](https://minecraft.gamepedia.com/Furnace), one
+When used as fuel in a [furnace](https://minecraft.wiki/w/Furnace), one
 piece of pyrotheum dust lasts 1,200 seconds, which is enough to smelt up to 120
 items. It lasts just as long as [blaze
-rods](https://minecraft.gamepedia.com/Blaze_Rod).
+rods](https://minecraft.wiki/w/Blaze_Rod).
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [gelid cryotheum](../gelid-cryotheum/) as

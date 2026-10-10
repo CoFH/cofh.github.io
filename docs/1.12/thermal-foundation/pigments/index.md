@@ -45,7 +45,7 @@ recipes:
   - concrete-powder
 ---
 
-**Pigments** are types of [dye](https://minecraft.gamepedia.com/Dye) that can
+**Pigments** are types of [dye](https://minecraft.wiki/w/Dye) that can
 only be used for dyeing.
 
 
@@ -64,7 +64,7 @@ Usage
 
 ### Dyeing
 Pigments are mostly interchangeable with regular
-[dyes](https://minecraft.gamepedia.com/Dye). However, unlike certain regular
-dyes like [bone meal](https://minecraft.gamepedia.com/Bone_Meal) and [lapis
-lazuli](https://minecraft.gamepedia.com/Lapis_Lazuli), pigments can only be used
+[dyes](https://minecraft.wiki/w/Dye). However, unlike certain regular
+dyes like [bone meal](https://minecraft.wiki/w/Bone_Meal) and [lapis
+lazuli](https://minecraft.wiki/w/Lapis_Lazuli), pigments can only be used
 for dyeing.

@@ -32,7 +32,7 @@ Obtaining
 ### Mining
 [Destabilized redstone ore](../destabilized-redstone-ore/) will drop one
 piece of destabilized clathrate when mined with a pickaxe. More clathrate is
-dropped if a [Fortune](https://minecraft.gamepedia.com/Fortune) enchanted
+dropped if a [Fortune](https://minecraft.wiki/w/Fortune) enchanted
 pickaxe is used.
 
 ### Pulverizer

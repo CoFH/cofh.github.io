@@ -15,7 +15,7 @@ recipes:
 
 A **reagent recovery** [augment](../augments/) provides a chance for an
 [alchemical imbuer](../alchemical-imbuer/) to not consume reagents
-([brewing](https://minecraft.gamepedia.com/Brewing) ingredients).
+([brewing](https://minecraft.wiki/w/Brewing) ingredients).
 
 
 Obtaining
@@ -36,7 +36,7 @@ multiple times, stacking its effects.
 ### Effects
 Installed reagent recovery augments provide a chance for a [alchemical
 imbuer](../alchemical-imbuer/) to not consume a reagent
-([brewing](https://minecraft.gamepedia.com/Brewing) ingredient) after an
+([brewing](https://minecraft.wiki/w/Brewing) ingredient) after an
 operation. However, they also increase the amount of energy required per
 operation.
 

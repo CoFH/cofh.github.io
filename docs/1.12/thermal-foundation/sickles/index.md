@@ -67,7 +67,7 @@ Usage
 
 When a plant-like block is broken with a sickle, up to 49 plant-like blocks in a
 7x7 area around it are broken as well. This also works on
-[cobwebs](https://minecraft.gamepedia.com/Cobweb). When sneaking, a sickle
+[cobwebs](https://minecraft.wiki/w/Cobweb). When sneaking, a sickle
 breaks only one block at a time.
 
 Sickles use 1 durability for every individual block broken.
@@ -105,14 +105,14 @@ uses = mat.maxUses * 4
 
 ### Enchantments
 Sickles can be enchanted with the following
-[enchantments](https://minecraft.gamepedia.com/Enchanting):
+[enchantments](https://minecraft.wiki/w/Enchanting):
 
-* [Curse of Vanishing](https://minecraft.gamepedia.com/Enchanting#Curse_of_Vanishing)
-* [Efficiency](https://minecraft.gamepedia.com/Enchanting#Efficiency)
-* [Fortune](https://minecraft.gamepedia.com/Enchanting#Fortune)
-* [Mending](https://minecraft.gamepedia.com/Enchanting#Mending)
-* [Silk Touch](https://minecraft.gamepedia.com/Enchanting#Silk_Touch)
-* [Unbreaking](https://minecraft.gamepedia.com/Enchanting#Unbreaking)
+* [Curse of Vanishing](https://minecraft.wiki/w/Curse_of_Vanishing)
+* [Efficiency](https://minecraft.wiki/w/Efficiency)
+* [Fortune](https://minecraft.wiki/w/Fortune)
+* [Mending](https://minecraft.wiki/w/Mending)
+* [Silk Touch](https://minecraft.wiki/w/Silk_Touch)
+* [Unbreaking](https://minecraft.wiki/w/Unbreaking)
 * [Leech](../../cofh-core/leech/)
 * [Vorpal](../../cofh-core/vorpal/)
 * [Soulbound](../../cofh-core/soulbound/)
