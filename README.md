@@ -7,16 +7,15 @@ https://teamcofh.com/
 Development
 -----------
 
-GitHub automatically builds the site whenever commits are pushed to the `master`
-branch. You don't need to build and run the site locally, but it's useful when
-developing large portions of the site.
+The [Pages workflow](.github/workflows/pages.yml) builds and deploys the site
+whenever commits are pushed to the `master` branch. You don't need to build and
+run the site locally, but it's useful when developing large portions of the
+site.
 
 ### Setting up
-1. Install [Bundler](https://bundler.io/).
+1. Install [Ruby](https://www.ruby-lang.org/) 3.3, the version GitHub Pages
+   uses.
 2. Run `bundle install` to install Jekyll and its plugins locally.
-
-Run `bundle update` to update the local environent when needed (usually when the
-`Gemfile` is updated).
 
 ### Running locally
 Run `bundle exec jekyll serve --incremental` in the repository folder to start a
@@ -35,5 +34,5 @@ they should look like.
 See also
 --------
 
-- [Jekyll](http://jekyllrb.com/)
+- [Jekyll](https://jekyllrb.com/)
 - [UIkit](https://getuikit.com/v2/)
