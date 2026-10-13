@@ -19,6 +19,15 @@ $(function() {
         $banner.css('background-image', 'url(' + bannerImage + ')');
     }
 
+    // Mark the current page in docs navboxes (done client-side to speed up Jekyll build)
+    var currentPath = window.location.pathname.replace(/index\.html$/, '');
+    $('a.cofh-navbox-link[href]').each(function() {
+        var $link = $(this);
+        if ($link.attr('href').replace(/index\.html$/, '') !== currentPath) return;
+
+        $link.replaceWith($('<span class="uk-text-bold cofh-nowrap"></span>').append($link.contents()));
+    });
+
     // Header permalink and back to top links
     $(':header').each(function() {
         var id = $(this).attr('id');

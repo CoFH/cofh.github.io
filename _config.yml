@@ -90,6 +90,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-include-cache
 
 permalink: '/posts/:year/:month/:day/:title/'
 paginate: 5

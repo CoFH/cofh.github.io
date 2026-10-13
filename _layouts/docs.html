@@ -22,7 +22,7 @@ layout: default
 
     {%- if page.nav -%}
         <div class="uk-width-1-1 uk-width-medium-5-6 uk-container-center" style="margin-top: 65px">
-            {% include navbox.html nav=page.nav %}
+            {% include_cached navbox.html nav=page.nav %}
         </div>
     {%- endif -%}
 </div>

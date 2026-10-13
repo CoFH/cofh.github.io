@@ -1,13 +1,12 @@
 {%- assign nav = site.data.docnav[include.nav] -%}
 {%- assign url_prefix = nav.url -%}
-{%- capture page_url -%}{{ page.url }}{%- if page.url contains ".html" -%}{%- else -%}index.html{%- endif -%}{%- endcapture -%}
 
 <div class="cofh-navbox-container">
     <table class="uk-table cofh-navbox-table">
         <tbody>
             <tr>
                 <th colspan="2" class="cofh-navbox-title">
-                    {% include navbox-link.html page_url=page_url link_url=nav.url text=nav.title %}
+                    {% include navbox-link.html link_url=nav.url text=nav.title %}
                 </th>
             </tr>
 
@@ -16,7 +15,7 @@
                     <tr>
                         <td colspan="2" class="cofh-navbox-section-title">
                             {%- if section.url -%}
-                                {% include navbox-link.html page_url=page_url link_url=section.url text=section.title %}
+                                {% include navbox-link.html link_url=section.url text=section.title %}
                             {%- else -%}
                                 {{ section.title }}
                             {%- endif -%}
@@ -25,7 +24,7 @@
                 {%- endif -%}
 
                 {%- for group in section.groups -%}
-                    {% include navbox-group.html group=group url_prefix=url_prefix page_url=page_url %}
+                    {% include navbox-group.html group=group url_prefix=url_prefix %}
                 {%- endfor -%}
             {%- endfor -%}
         </tbody>

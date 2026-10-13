@@ -6,8 +6,7 @@
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
-        "_site": true,
-        "assets/images": true
+        "_site": true
     },
     "[markdown]": {
         "editor.rulers": [

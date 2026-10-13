@@ -9,13 +9,13 @@
         {{ include.item.title }}
     </span>
 {%- else -%}
-    {% include navbox-link.html page_url=include.page_url link_url=item_url text=include.item.title icon=include.item.icon %}
+    {% include navbox-link.html link_url=item_url text=include.item.title icon=include.item.icon %}
 {%- endif -%}
 
 {%- if include.item.subitems -%}
     {%- capture subitems -%}
         {%- for subitem in include.item.subitems -%}
-            {% include navbox-item.html page_url=include.page_url url_prefix=include.url_prefix item=subitem last=forloop.last %}
+            {% include navbox-item.html url_prefix=include.url_prefix item=subitem last=forloop.last %}
         {%- endfor -%}
     {%- endcapture -%}
 
