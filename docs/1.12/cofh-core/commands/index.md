@@ -101,8 +101,7 @@ displayed about the item in their main hand.
 
 player
 : The username of the player to show information of their held item for. If
-unspecified, the information of the command user's held item is displayed. nice
-nice
+unspecified, the information of the command user's held item is displayed.
 
 infoType
 : The type(s) of information to display about the item. If unspecified, only the
