@@ -7,7 +7,7 @@ published: true
 ---
 
 On December 24, new updates were released for [CoFH Core](/docs/1.12/cofh-core/),
-[CoFH World](/docs/1.12/cofh-world/), the [Thermal Series](/docs/#thermal-series) and
+[CoFH World](/docs/1.12/cofh-world/), the [Thermal Series](/docs/#minecraft-112) and
 [Redstone Arsenal](/docs/1.12/redstone-arsenal/).
 
 #### General

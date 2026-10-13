@@ -143,7 +143,7 @@ Trivia
 ------
 
 * If [Tinkers'
-  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct) is
   installed, molten lead can be mixed with molten
   [platinum](../platinum-ingot/) and [resonant ender](../resonant-ender/)
   to make molten [enderium](../enderium-ingot/).

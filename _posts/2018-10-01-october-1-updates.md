@@ -7,8 +7,8 @@ published: true
 
 On October 1, new updates were released for [Redstone
 Flux](/docs/redstone-flux/), [CoFH Core](/docs/1.12/cofh-core/), [CoFH
-World](/docs/1.12/cofh-world/), the [Thermal Series](/docs/#thermal-series), the
-[Vanilla+ Series](/docs/#vanilla-series) and [Redstone
+World](/docs/1.12/cofh-world/), the [Thermal Series](/docs/#minecraft-112), the
+[Vanilla+ Series](/docs/#minecraft-112) and [Redstone
 Arsenal](/docs/1.12/redstone-arsenal/).
 
 [Changelogs on GitHub](https://github.com/CoFH/Version)

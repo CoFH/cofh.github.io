@@ -60,15 +60,15 @@ dynamo](../numismatic-dynamo/) with a lapidary calibration augment installed.
 | [Emerald](https://minecraft.wiki/w/Emerald) | 200,000 RF |
 | [Diamond](https://minecraft.wiki/w/Diamond) | 1,200,000 RF |
 | [Flux Crystal](../../redstone-arsenal/flux-crystal/) | 1,500,000 RF |
-| Amethyst ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
-| Ruby ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
-| Peridot ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
-| Topaz ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
-| Tanzanite ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
-| Malachite ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
-| Sapphire ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
-| Amber ([Biomes O' Plenty](https://minecraft.curseforge.com/projects/biomes-o-plenty)) | 200,000 RF |
-| Apatite ([Forestry](https://forestryforminecraft.info/)) | 40,000 RF |
-| Red Garnet ([Tech Reborn](https://minecraft.curseforge.com/projects/techreborn)) | 200,000 RF |
-| Yellow Garnet ([Tech Reborn](https://minecraft.curseforge.com/projects/techreborn)) | 200,000 RF |
+| Amethyst ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
+| Ruby ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
+| Peridot ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
+| Topaz ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
+| Tanzanite ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
+| Malachite ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
+| Sapphire ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
+| Amber ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
+| Apatite ([Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry)) | 40,000 RF |
+| Red Garnet ([Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn)) | 200,000 RF |
+| Yellow Garnet ([Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn)) | 200,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

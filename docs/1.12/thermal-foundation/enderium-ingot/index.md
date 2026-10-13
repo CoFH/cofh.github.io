@@ -93,7 +93,7 @@ Trivia
 ------
 
 * If [Tinkers'
-  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct) is
   installed, enderium can be molten down in a smeltery. Molten enderium can also
   be made by mixing molten [lead](../lead-ingot/), molten
   [platinum](../platinum-ingot/) and [resonant ender](../resonant-ender/).

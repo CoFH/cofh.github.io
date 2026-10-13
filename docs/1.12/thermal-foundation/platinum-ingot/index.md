@@ -128,7 +128,7 @@ Trivia
 ------
 
 * If [Tinkers'
-  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct) is
   installed, platinum can be molten down in a smeltery. Molten platinum can also
   be mixed with molten [lead](../lead-ingot/) and [resonant
   ender](../resonant-ender/) to make molten

@@ -6,7 +6,7 @@ published: true
 ---
 
 On April 25, new updates were released for [CoFH Core](/docs/1.12/cofh-core/), the
-[Thermal Series](/docs/#thermal-series) and [Redstone
+[Thermal Series](/docs/#minecraft-112) and [Redstone
 Arsenal](/docs/1.12/redstone-arsenal/).
 
 It took a while to update the documentation for these updates, which is why this

@@ -130,7 +130,7 @@ Trivia
 ------
 
 * If [Tinkers'
-  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct) is
   installed, molten nickel can be mixed with molten
   [iron](https://minecraft.wiki/w/Iron_Ingot) to make molten
   [invar](../invar-ingot/), or with molten [copper](../copper-ingot/) to

@@ -79,7 +79,7 @@ Trivia
 ------
 
 * If [Tinkers'
-  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct) is
   installed, lumium can be molten down in a smeltery. Molten lumium can also be
   made by mixing molten [tin](../tin-ingot/), molten
   [silver](../silver-ingot/) and [energized

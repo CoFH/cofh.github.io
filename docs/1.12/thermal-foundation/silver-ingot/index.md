@@ -131,7 +131,7 @@ Trivia
 ------
 
 * If [Tinkers'
-  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct) is
   installed, molten silver can be mixed with molten
   [copper](../copper-ingot/) and [destabilized
   redstone](../destabilized-redstone/) to make molten

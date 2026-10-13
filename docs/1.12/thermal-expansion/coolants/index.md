@@ -28,7 +28,7 @@ which specifies how effective it is.
 |---
 | [Water](https://minecraft.wiki/w/Water) | 250,000 TC | 20% |
 | [Gelid Cryotheum](../../thermal-foundation/gelid-cryotheum/) | 3,000,000 TC | 60% |
-| Crushed Ice ([Forestry](https://forestryforminecraft.info/)) | 1,500,000 TC | 40% |
+| Crushed Ice ([Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry)) | 1,500,000 TC | 40% |
 | Distilled Water ([IndustrialCraft²](https://www.industrial-craft.net/)) | 300,000 TC | 30% |
 | Coolant ([IndustrialCraft²](https://www.industrial-craft.net/)) | 2,000,000 TC | 50% |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}

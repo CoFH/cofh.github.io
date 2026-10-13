@@ -182,17 +182,17 @@ amounts of energy.
 | Heavy Oil ([BuildCraft](https://www.mod-buildcraft.com/)) | 1,000,000 RF |
 | Dense Oil ([BuildCraft](https://www.mod-buildcraft.com/)) | 1,600,000 RF |
 | Dense Fuel ([BuildCraft](https://www.mod-buildcraft.com/)) | 2,400,000 RF |
-| Canola Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 80,000 RF |
-| Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 200,000 RF |
-| Crystallized Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 400,000 RF |
-| Empowered Oil ([Actually Additions](https://minecraft.curseforge.com/projects/actually-additions)) | 700,000 RF |
+| Canola Oil ([Actually Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions)) | 80,000 RF |
+| Oil ([Actually Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions)) | 200,000 RF |
+| Crystallized Oil ([Actually Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions)) | 400,000 RF |
+| Empowered Oil ([Actually Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions)) | 700,000 RF |
 | Hootch ([Ender IO](http://enderio.com/)) | 300,000 RF |
 | Fire Water ([Ender IO](http://enderio.com/)) | 750,000 RF |
 | Rocket Fuel ([Ender IO](http://enderio.com/)) | 1,000,000 RF |
-| Ethanol ([Forestry](https://forestryforminecraft.info/)) | 500,000 RF |
-| Biodiesel ([Immersive Engineering](https://mods.curse.com/mc-mods/minecraft/231951-immersive-engineering)) | 500,000 RF |
-| Crude Oil ([Immersive Petroleum](https://minecraft.curseforge.com/projects/immersive-petroleum)) | 400,000 RF |
-| Diesel ([Immersive Petroleum](https://minecraft.curseforge.com/projects/immersive-petroleum)) | 800,000 RF |
-| Gasoline ([Immersive Petroleum](https://minecraft.curseforge.com/projects/immersive-petroleum)) | 1,200,000 RF |
+| Ethanol ([Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry)) | 500,000 RF |
+| Biodiesel ([Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)) | 500,000 RF |
+| Crude Oil ([Immersive Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum)) | 400,000 RF |
+| Diesel ([Immersive Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum)) | 800,000 RF |
+| Gasoline ([Immersive Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum)) | 1,200,000 RF |
 | Biogas ([IndustrialCraft²](https://www.industrial-craft.net/)) | 50,000 RF |
 {:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}

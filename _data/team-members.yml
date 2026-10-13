@@ -1,5 +1,5 @@
 - name: King Lemming
-  image: https://pbs.twimg.com/profile_images/378800000754277281/af3e85cba6b7b841161ac113b1169f9e_400x400.png
+  image: /assets/images/team/king-lemming.png
   description: Founder and lead developer
   links:
     - icon: twitter
@@ -10,14 +10,14 @@
       url: https://www.reddit.com/user/KingLemming
 
 - name: Cynycal
-  image: https://pbs.twimg.com/profile_images/1300753730619334656/blEHxTcJ_400x400.png
+  image: /assets/images/team/cynycal.jpg
   description: Co-founder and artist
   links:
     - icon: twitter
       url: https://twitter.com/ThisNameKills
 
 - name: covers1624
-  image: https://pbs.twimg.com/profile_images/695636359415894017/fCtyS90H_400x400.png
+  image: /assets/images/team/covers1624.png
   description: Developer
   links:
     - icon: twitter
@@ -28,7 +28,7 @@
       url: https://www.reddit.com/user/covers1624
 
 - name: skyboy026
-  image: https://pbs.twimg.com/profile_images/1269067500496576513/EwuenOjE_400x400.jpg
+  image: /assets/images/team/skyboy026.jpg
   description: Developer (MineFactory Reloaded, CoFH World)
   links:
     - icon: twitter
@@ -39,7 +39,7 @@
       url: https://www.reddit.com/user/skyboy026
 
 - name: Tonius
-  image: https://pbs.twimg.com/profile_images/901804867500613632/_G57XEr5_400x400.jpg
+  image: /assets/images/team/tonius.jpg
   description: Web developer
   links:
     - icon: twitter
@@ -50,7 +50,7 @@
       url: https://www.reddit.com/user/tonius11
 
 - name: RWTema
-  image: https://pbs.twimg.com/profile_images/1253340841940140038/FLpmpYEy_400x400.jpg
+  image: /assets/images/team/rwtema.jpg
   description: Developer (Thermal Dynamics)
   links:
     - icon: twitter
@@ -61,7 +61,7 @@
       url: https://www.reddit.com/user/RWTema
 
 - name: Zeldo Kavira
-  image: https://pbs.twimg.com/profile_images/728264022932381696/i9noJ0A1_400x400.jpg
+  image: /assets/images/team/zeldo-kavira.jpg
   description: Developer
   links:
     - icon: twitter

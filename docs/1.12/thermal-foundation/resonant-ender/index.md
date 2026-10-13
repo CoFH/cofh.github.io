@@ -81,7 +81,7 @@ Trivia
 ------
 
 * If [Tinkers'
-  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct) is
   installed, resonant ender can be mixed with molten [lead](../lead-ingot/)
   and molten [platinum](../platinum-ingot/) in a smeltery to make molten
   [enderium](../enderium-ingot/).

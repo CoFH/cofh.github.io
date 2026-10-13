@@ -100,7 +100,7 @@ Trivia
 ------
 
 * If [Tinkers'
-  Construct](https://minecraft.curseforge.com/projects/tinkers-construct) is
+  Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct) is
   installed, destabilized redstone can be mixed with molten
   [copper](../copper-ingot/) and molten [silver](../silver-ingot/) in a
   smeltery to make molten [signalum](../signalum-ingot/).

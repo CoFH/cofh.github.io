@@ -124,5 +124,5 @@ glass blocks change the color of
 Trivia
 ------
 
-* If [ConnectedTexturesMod](https://minecraft.curseforge.com/projects/ctm) is
+* If [ConnectedTexturesMod](https://www.curseforge.com/minecraft/mc-mods/ctm) is
   installed, placed hardened glass blocks have connected textures.

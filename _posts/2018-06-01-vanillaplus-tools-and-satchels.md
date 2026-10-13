@@ -6,9 +6,9 @@ published: true
 ---
 
 Two new CoFH mods have just been released: [Vanilla+
-Tools](https://minecraft.curseforge.com/projects/cofh-vanilla-tools) and
+Tools](https://www.curseforge.com/minecraft/mc-mods/cofh-vanilla-tools) and
 [Vanilla+
-Satchels](https://minecraft.curseforge.com/projects/cofh-vanilla-satchels). They
+Satchels](https://www.curseforge.com/minecraft/mc-mods/cofh-vanilla-satchels). They
 are part of the new "Vanilla+" series, a group of lightweight mods intended for use
 in lightly modded or low-technology modpacks. Both mods require [CoFH
 Core](/docs/1.12/cofh-core/) to run.
