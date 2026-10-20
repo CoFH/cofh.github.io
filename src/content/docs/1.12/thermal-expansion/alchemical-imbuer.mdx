@@ -1,20 +1,14 @@
 ---
 title: Alchemical Imbuer
-image:
-- alt: Alchemical imbuer
-  file: thermal-expansion-5/alchemical-imbuer.png
-redirect_from:
-- /docs/alchemical-imbuer/
-- /docs/thermal-expansion/alchemical-imbuer/
-- /docs/thermal-expansion-5/alchemical-imbuer/
-- /docs/1.12/thermal-expansion-5/alchemical-imbuer/
-recipes:
-  crafting:
-  - te-1-12-machine-brewer
-augments:
-- machine-power
-- machine-brewer-reagent
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/alchemical-imbuer.png', alt: 'Alchemical imbuer' }]}
+/>
 
 > Bottles not included.
 
@@ -34,7 +28,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-machine-brewer']}
+  noResult
+/>
 
 ### Upgrading
 An alchemical imbuer is initially at the lowest [tier](#tiers) (basic). It can
@@ -122,18 +120,56 @@ Tiers
 
 Alchemical imbuers come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. fluid per auto-transfer | Max. items per auto-transfer |
-|---
-| Basic | 20 RF/t | 0 | 1,000 mB | 16 |
-| Hardened | 30 RF/t | 1 | 1,000 mB | 16 |
-| Reinforced | 40 RF/t | 2 | 3,000 mB | 28 |
-| Signalum | 50 RF/t | 3 | 6,000 mB | 44 |
-| Resonant | 60 RF/t | 4 | 10,000 mB | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Max. power usage</th>
+        <th>Augment slots</th>
+        <th>Max. fluid per auto-transfer</th>
+        <th>Max. items per auto-transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>20 RF/t</td>
+        <td>0</td>
+        <td>1,000 mB</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>30 RF/t</td>
+        <td>1</td>
+        <td>1,000 mB</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>40 RF/t</td>
+        <td>2</td>
+        <td>3,000 mB</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>50 RF/t</td>
+        <td>3</td>
+        <td>6,000 mB</td>
+        <td>44</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>60 RF/t</td>
+        <td>4</td>
+        <td>10,000 mB</td>
+        <td>64</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -146,4 +182,9 @@ cannot be augmented.
 
 Augments can be installed in the Augmentation tab in an alchemical imbuer's GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={[
+    'machine-power',
+    'machine-brewer-reagent',
+  ]}
+/>

@@ -1,21 +1,13 @@
 ---
 title: Sap
-redirect_from:
-- /docs/thermal-foundation/fluids/tree/sap/
-- /docs/sap/
-- /docs/thermal-foundation/sap/
-- /docs/thermal-foundation-2/sap/
-- /docs/1.12/thermal-foundation-2/sap/
-recipes:
-  transposer-empty:
-  - bucket-sap
-usage-recipes:
-  transposer-fill:
-  - bucket-sap
-  - phyto-gro-rich
 ---
 
-![Sap](/assets/images/thermal-foundation-2/sap.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/sap.gif', alt: 'Sap' }]}
+/>
 
 
 **Sap** is a fluid obtained from oak and dark oak
@@ -40,7 +32,10 @@ a byproduct when processing oak or dark oak
 sap as oak wood.
 
 ### Fluid Transposer
-{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-empty"
+  recipes={['bucket-sap']}
+/>
 
 
 Usage
@@ -49,4 +44,10 @@ Usage
 Sap cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-fill"
+  recipes={[
+    'bucket-sap',
+    'phyto-gro-rich',
+  ]}
+/>

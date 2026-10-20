@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Isentropic Reservoir'
-image:
-- alt: Isentropic reservoir augment
-  file: thermal-expansion-5/augment-dynamo-magmatic-coolant.png
-redirect_from:
-- /docs/augment-isentropic-reservoir/
-- /docs/thermal-expansion/augment-isentropic-reservoir/
-- /docs/thermal-expansion-5/augment-isentropic-reservoir/
-- /docs/1.12/thermal-expansion-5/augment-isentropic-reservoir/
-recipes:
-  crafting:
-  - te-1-12-augment-dynamo-magmatic-coolant
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-dynamo-magmatic-coolant.png',
+      alt: 'Isentropic reservoir augment',
+    },
+  ]}
+/>
 
 An **isentropic reservoir** is an [augment](../augments/) that increases the
 amount of [Redstone Flux](/docs/redstone-flux/) a [magmatic
@@ -23,7 +24,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-dynamo-magmatic-coolant']}
+  noResult
+/>
 
 
 Usage

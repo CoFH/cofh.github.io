@@ -1,20 +1,13 @@
 ---
 title: Constantan Nugget
-redirect_from:
-- /docs/thermal-foundation/items/materials/nuggets/constantan-nugget/
-- /docs/constantan-nugget/
-- /docs/thermal-foundation/constantan-nugget/
-- /docs/thermal-foundation-2/constantan-nugget/
-- /docs/1.12/thermal-foundation-2/constantan-nugget/
-recipes:
-  crafting:
-  - tf-1-12-nugget-constantan
-usage-recipes:
-  crafting:
-  - tf-1-12-ingot-constantan-from-nuggets
 ---
 
-![Constantan nugget](/assets/images/thermal-foundation-2/nugget-constantan.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/nugget-constantan.png', alt: 'Constantan nugget' }]}
+/>
 
 
 **Constantan nuggets** are raw materials. They are the nugget form of
@@ -25,11 +18,18 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-nugget-constantan']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-ingot-constantan-from-nuggets']}
+/>

@@ -1,8 +1,6 @@
 ---
 title: So GitHub exploded.
 author: King Lemming
-author_url: http://www.twitter.com/KingLemmingCoFH
-published: true
 ---
 
 Or so anyone following our repos might think.

@@ -1,19 +1,13 @@
 ---
 title: Crescent Hammer
-redirect_from:
-- /docs/thermal-expansion/tools/crescent-hammer/
-- /docs/thermal-foundation/items/crescent-hammer/
-- /docs/thermal-foundation/items/tools/crescent-hammer/
-- /docs/crescent-hammer/
-- /docs/thermal-foundation/crescent-hammer/
-- /docs/thermal-foundation-2/crescent-hammer/
-- /docs/1.12/thermal-foundation-2/crescent-hammer/
-recipes:
-  crafting:
-  - tf-1-12-crescent-hammer
 ---
 
-![Crescent hammer](/assets/images/thermal-foundation-2/crescent-hammer.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/crescent-hammer.png', alt: 'Crescent hammer' }]}
+/>
 
 > Any tool is a hammer if you really need one.
 
@@ -26,7 +20,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-crescent-hammer']}
+  noResult
+/>
 
 
 Usage

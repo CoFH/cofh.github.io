@@ -1,16 +1,13 @@
 ---
 title: Stone Gear
-image:
-- alt: Stone gear
-  file: thermal-foundation-2/gear-stone.png
-recipes:
-  crafting:
-  - tf-1-12-gear-stone
-redirect_from:
-- /docs/thermal-foundation/stone-gear/
-- /docs/thermal-foundation-2/stone-gear/
-- /docs/1.12/thermal-foundation-2/stone-gear/
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/gear-stone.png', alt: 'Stone gear' }]}
+/>
 
 **Stone gears** are crafting materials made of
 [stone](https://minecraft.wiki/w/Stone). They are currently not used for
@@ -21,4 +18,8 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-gear-stone']}
+  noResult
+/>

@@ -1,17 +1,13 @@
 ---
 title: Factorizer
-redirect_from:
-- /docs/factorizer/
-- /docs/thermal-expansion/factorizer/
-- /docs/thermal-expansion-5/factorizer/
-- /docs/1.12/thermal-expansion-5/factorizer/
-image:
-- alt: Factorizer
-  file: thermal-expansion-5/factorizer.png
-recipes:
-  crafting:
-  - te-1-12-device-factorizer
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/factorizer.png', alt: 'Factorizer' }]}
+/>
 
 > Refactor your storage!
 
@@ -28,7 +24,11 @@ A placed factorizer can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-device-factorizer']}
+  noResult
+/>
 
 
 Usage

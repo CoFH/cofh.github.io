@@ -1,25 +1,16 @@
 ---
 title: Fluiduct
-image:
-- alt: Fluiduct
-  file: thermal-dynamics-2/fluiduct.png
-- alt: Fluiduct (opaque)
-  file: thermal-dynamics-2/fluiduct-opaque.png
-redirect_from:
-- /thermal-expansion/fluids/fluiducts/
-- /docs/thermal-dynamics/ducts/fluiducts/
-- /docs/fluiducts/
-- /docs/fluiduct/
-- /docs/thermal-dynamics/fluiduct/
-- /docs/thermal-dynamics-2/fluiduct/
-- /docs/1.12/thermal-dynamics-2/fluiduct/
-recipes:
-  crafting:
-  - td-1-12-fluiduct-basic
-  - td-1-12-fluiduct-basic-opaque
-  - td-1-12-fluiduct-basic-opaque-from-transparent
-  - td-1-12-fluiduct-basic-transparent-from-opaque
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-dynamics-2/fluiduct.png', alt: 'Fluiduct' },
+    { file: 'thermal-dynamics-2/fluiduct-opaque.png', alt: 'Fluiduct (opaque)' },
+  ]}
+/>
 
 A **fluiduct** is a block that transfers fluids between blocks.
 
@@ -32,7 +23,15 @@ A placed fluiduct can be instantly picked up by dismantling it with a
 [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'td-1-12-fluiduct-basic',
+    'td-1-12-fluiduct-basic-opaque',
+    'td-1-12-fluiduct-basic-opaque-from-transparent',
+    'td-1-12-fluiduct-basic-transparent-from-opaque',
+  ]}
+/>
 
 
 Usage

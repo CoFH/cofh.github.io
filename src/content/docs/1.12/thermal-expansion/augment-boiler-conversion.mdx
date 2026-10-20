@@ -1,17 +1,15 @@
 ---
 title: 'Augment: Boiler Conversion'
-image:
-- alt: Boiler conversion augment
-  file: thermal-expansion-5/augment-dynamo-boiler.gif
-redirect_from:
-- /docs/augment-boiler-conversion/
-- /docs/thermal-expansion/augment-boiler-conversion/
-- /docs/thermal-expansion-5/augment-boiler-conversion/
-- /docs/1.12/thermal-expansion-5/augment-boiler-conversion/
-recipes:
-  crafting:
-  - te-1-12-augment-dynamo-boiler
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/augment-dynamo-boiler.gif', alt: 'Boiler conversion augment' },
+  ]}
+/>
 
 A **boiler conversion** is an [augment](../augments/) that converts a
 [steam](../steam-dynamo/), [magmatic](../magmatic-dynamo/) or [compression
@@ -22,7 +20,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-dynamo-boiler']}
+  noResult
+/>
 
 
 Usage
@@ -51,16 +53,38 @@ An installed boiler conversion increases the maximum power output of a dynamo,
 and changes the amount of energy it would generate from each unit of fuel. This
 differs depending on the type of dynamo.
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Dynamo | Max. power output modifier | Energy modifier | Note |
-|---
-| [Steam Dynamo](../steam-dynamo/) | × 4 | + 15% |
-| [Magmatic Dynamo](../magmatic-dynamo/) | × 2 | - 40% |
-| [Compression Dynamo](../compression-dynamo/) | × 2 | - 40% | Coolant fuel efficiency bonus is removed. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Dynamo</th>
+        <th>Max. power output modifier</th>
+        <th>Energy modifier</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[Steam Dynamo](../steam-dynamo/)</td>
+        <td>× 4</td>
+        <td>+ 15%</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>[Magmatic Dynamo](../magmatic-dynamo/)</td>
+        <td>× 2</td>
+        <td>- 40%</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>[Compression Dynamo](../compression-dynamo/)</td>
+        <td>× 2</td>
+        <td>- 40%</td>
+        <td>Coolant fuel efficiency bonus is removed.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 If a boiler conversion is installed together with other augments that affect the
 amount of energy generated from each unit of fuel, their energy

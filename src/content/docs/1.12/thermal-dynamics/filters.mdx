@@ -1,35 +1,19 @@
 ---
 title: Filters
-image:
-- alt: Filter
-  file: thermal-dynamics-2/filter-basic.png
-- alt: Hardened filter
-  file: thermal-dynamics-2/filter-hardened.png
-- alt: Reinforced filter
-  file: thermal-dynamics-2/filter-reinforced.png
-- alt: Signalum filter
-  file: thermal-dynamics-2/filter-signalum.png
-- alt: Resonant filter
-  file: thermal-dynamics-2/filter-resonant.png
-redirect_from:
-- /docs/thermal-dynamics/attachments/filters/
-- /docs/filters/
-- /docs/thermal-dynamics/filters/
-- /docs/thermal-dynamics-2/filters/
-- /docs/1.12/thermal-dynamics-2/filters/
-recipes:
-  crafting:
-  - td-1-12-filter-basic
-  - td-1-12-filter-hardened
-  - td-1-12-filter-reinforced
-  - td-1-12-filter-signalum
-  - td-1-12-filter-resonant
-  crafting-upgrading:
-  - td-1-12-filter-hardened-upgrade
-  - td-1-12-filter-reinforced-upgrade
-  - td-1-12-filter-signalum-upgrade
-  - td-1-12-filter-resonant-upgrade
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-dynamics-2/filter-basic.png', alt: 'Filter' },
+    { file: 'thermal-dynamics-2/filter-hardened.png', alt: 'Hardened filter' },
+    { file: 'thermal-dynamics-2/filter-reinforced.png', alt: 'Reinforced filter' },
+    { file: 'thermal-dynamics-2/filter-signalum.png', alt: 'Signalum filter' },
+    { file: 'thermal-dynamics-2/filter-resonant.png', alt: 'Resonant filter' },
+  ]}
+/>
 
 **Filters** are items that can be installed on [itemduct](../itemduct/) and
 [fluiduct](../fluiduct/) connections. They restrict which items or fluids may
@@ -40,10 +24,27 @@ Obtaining
 --------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'td-1-12-filter-basic',
+    'td-1-12-filter-hardened',
+    'td-1-12-filter-reinforced',
+    'td-1-12-filter-signalum',
+    'td-1-12-filter-resonant',
+  ]}
+/>
 
 ### Upgrading
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting-upgrading %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'td-1-12-filter-hardened-upgrade',
+    'td-1-12-filter-reinforced-upgrade',
+    'td-1-12-filter-signalum-upgrade',
+    'td-1-12-filter-resonant-upgrade',
+  ]}
+/>
 
 
 Usage
@@ -114,15 +115,47 @@ Tiers
 
 Filters come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Filter slots | Item filter options | Max. total stored items limit |
-|---
-| Basic | 3 | Blacklist/Whitelist | - |
-| Hardened | 6 | Blacklist/Whitelist, Metadata | - |
-| Reinforced | 9 | All | 64 |
-| Signalum | 12 | All | 128 |
-| Resonant | 15 | All | 320 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Filter slots</th>
+        <th>Item filter options</th>
+        <th>Max. total stored items limit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>3</td>
+        <td>Blacklist/Whitelist</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>6</td>
+        <td>Blacklist/Whitelist, Metadata</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>9</td>
+        <td>All</td>
+        <td>64</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>12</td>
+        <td>All</td>
+        <td>128</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>15</td>
+        <td>All</td>
+        <td>320</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

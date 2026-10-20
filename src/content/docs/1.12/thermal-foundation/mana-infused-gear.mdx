@@ -1,22 +1,13 @@
 ---
 title: Mana Infused Gear
-redirect_from:
-- /docs/thermal-foundation/items/materials/gears/mana-infused-gear/
-- /docs/mana-infused-gear/
-- /docs/thermal-foundation/mana-infused-gear/
-- /docs/thermal-foundation-2/mana-infused-gear/
-- /docs/1.12/thermal-foundation-2/mana-infused-gear/
-recipes:
-  crafting:
-  - tf-1-12-gear-mithril
-  compactor-gear:
-  - gear-mithril
-usage-recipes:
-  smelter:
-  - recycling-gear-mithril
 ---
 
-![Mana infused gear](/assets/images/thermal-foundation-2/gear-mithril.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/gear-mithril.png', alt: 'Mana infused gear' }]}
+/>
 
 
 **Mana infused gears** are crafting materials made of [mana infused
@@ -27,14 +18,25 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-gear-mithril']}
+  noResult
+/>
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/compactor-gear"
+  recipes={['gear-mithril']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={['recycling-gear-mithril']}
+/>

@@ -1,0 +1,110 @@
+---
+import {
+  formatPostDate,
+  type Post,
+  getPostDate,
+  getPostExcerpt,
+  getPostURL,
+} from '../../lib/posts.ts';
+
+interface Props {
+  posts: Post[];
+  currentPage: number;
+  lastPage: number;
+}
+
+const { posts, currentPage, lastPage } = Astro.props;
+
+const start = Math.min(Math.max(currentPage - 2, 1), Math.max(lastPage - 4, 1));
+const end = Math.min(start + 4, lastPage);
+
+const pages: number[] = [];
+
+for (let page = start; page <= end; page++) {
+  pages.push(page);
+}
+
+const pageUrl = (page: number) => (page === 1 ? '/' : `/posts/page-${page}/`);
+---
+
+<div class="uk-container-center uk-width-1-1 uk-width-medium-3-4">
+  {posts.map((post) => (
+    <>
+      <article class="uk-article">
+        <h2 class="uk-text-bold">{post.data.title}</h2>
+
+        <p class="uk-article-meta">
+          Written by <strong>{post.data.author}</strong> on {formatPostDate(getPostDate(post))}
+        </p>
+
+        <Fragment set:html={getPostExcerpt(post)} />
+
+        <a class="uk-button uk-button-mini uk-button-primary" href={getPostURL(post)}>
+          Read more &raquo;
+        </a>
+      </article>
+
+      <hr class="uk-article-divider" />
+    </>
+  ))}
+
+  <ul class="uk-pagination">
+    <li>
+      {currentPage > 1 ? (
+        <a href="/" aria-label="Newest posts">
+          <i class="uk-icon-angle-double-left" />
+        </a>
+      ) : (
+        <span>
+          <i class="uk-icon-angle-double-left" />
+        </span>
+      )}
+    </li>
+
+    <li>
+      {currentPage > 1 ? (
+        <a href={pageUrl(currentPage - 1)} aria-label="Newer posts">
+          <i class="uk-icon-angle-left" />
+        </a>
+      ) : (
+        <span>
+          <i class="uk-icon-angle-left" />
+        </span>
+      )}
+    </li>
+
+    <li></li>
+
+    {pages.map((page) => (
+      <li class:list={{ 'uk-active': page === currentPage }}>
+        {page === currentPage ? <span>{page}</span> : <a href={pageUrl(page)}>{page}</a>}
+      </li>
+    ))}
+
+    <li></li>
+
+    <li>
+      {currentPage < lastPage ? (
+        <a href={pageUrl(currentPage + 1)} aria-label="Older posts">
+          <i class="uk-icon-angle-right" />
+        </a>
+      ) : (
+        <span>
+          <i class="uk-icon-angle-right" />
+        </span>
+      )}
+    </li>
+
+    <li>
+      {currentPage < lastPage ? (
+        <a href={pageUrl(lastPage)} aria-label="Oldest posts">
+          <i class="uk-icon-angle-double-right" />
+        </a>
+      ) : (
+        <span>
+          <i class="uk-icon-angle-double-right" />
+        </span>
+      )}
+    </li>
+  </ul>
+</div>

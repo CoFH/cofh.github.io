@@ -1,21 +1,13 @@
 ---
 title: Morb
-redirect_from:
-- /docs/morb/
-- /docs/thermal-expansion/morb/
-- /docs/thermal-expansion-5/morb/
-- /docs/1.12/thermal-expansion-5/morb/
-image:
-- alt: Morb
-  file: thermal-expansion-5/morb.png
-recipes:
-  crafting:
-  - te-1-12-morb-using-slime
-  - te-1-12-morb-using-rosin
-usage-recipes:
-  crafting:
-  - te-1-12-morb-reusable
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/morb.png', alt: 'Morb' }]}
+/>
 
 A **morb** ('mob orb') is a throwable item that can be used to capture
 [mobs](https://minecraft.wiki/w/Mob).
@@ -25,7 +17,14 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'te-1-12-morb-using-slime',
+    'te-1-12-morb-using-rosin',
+  ]}
+  noResult
+/>
 
 
 Usage
@@ -41,7 +40,10 @@ A filled morb can be thrown to release the contained
 breaking after releasing the mob.
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-morb-reusable']}
+/>
 
 ### Centrifugal Separator with Enstabulation Apparatus
 A [centrifugal separator](../centrifugal-separator/) with

@@ -1,8 +1,6 @@
 ---
 title: Consistency and Flow, Part 1
 author: King Lemming
-author_url: http://www.twitter.com/KingLemmingCoFH
-published: true
 ---
 
 Let's talk about systems and why they're awesome.
@@ -15,12 +13,12 @@ understanding of what constitutes good mod design has changed somewhat over the
 years.
 
 So with that in mind, I'd like to take a couple of these posts and talk about
-some mod design concepts that I try to apply to all my work - *Consistency* and
-*Flow*. For this post, I want to focus on consistency.
+some mod design concepts that I try to apply to all my work - _Consistency_ and
+_Flow_. For this post, I want to focus on consistency.
 
 If you look up consistency on Google, I'm referring here to, "conformity of the
 application of something," meaning the creation of systems of rules and
-standards and then *typically* sticking to them. In my view, this benefits both
+standards and then _typically_ sticking to them. In my view, this benefits both
 the player and the modder. I'll try and touch on both viewpoints, but they do
 dovetail nicely, because with the exception of McJty, players and modders alike
 are human.
@@ -30,17 +28,17 @@ way. I don't want to get into the details of Java programming in this post, as
 it could easily be a series on its own. Don't worry, I'll probably end up doing
 that at some point. What's important to understand right now is that on a high
 level, something you should know is that it's an Object-Oriented framework and
-that there is a feature called *Inheritance*.
+that there is a feature called _Inheritance_.
 
 The framework means that I can code in such a way that I think about any given
 machine in the world as a discrete object and tell it to do a particular thing.
 For example, "Hey you - Pulverizer in the corner - do your update routine."
 
 Adding inheritance to the mix means that I can skip a LOT of effort duplicating.
-For example, an Induction Smelter and a Pulverizer actually have the *exact same
-tick process*. Here it is:
+For example, an Induction Smelter and a Pulverizer actually have the _exact same
+tick process_. Here it is:
 
-![Update - Machine](/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/update_machine.png){:style="max-height: 620px"}
+<p><img src="/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/update_machine.png" alt="Update - Machine" style="max-height: 620px" /></p>
 
 In fact, everything in Thermal Expansion which is a "machine" works this way.
 What inheritance lets me do is add a twist or extra tiny bit of functionality
@@ -53,7 +51,7 @@ problems in smaller terms. Divide and conquer.
 
 With that rationale in mind, here's the update routine for the Fluid Transposer:
 
-![Update - Transposer](/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/update_transposer.png){:style="max-height: 210px"}
+<p><img src="/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/update_transposer.png" alt="Update - Transposer" style="max-height: 210px" /></p>
 
 And basically, that translates into, "If you have a bucket/tank or something of
 that nature, do X. If not, do Y." It just so happens that Y is the exact same
@@ -83,6 +81,7 @@ seasoned players to guess the components in the unreleased machines that I wrote
 about a couple of weeks ago, you would come up with lists like this:
 
 ### Brewer (Alchemical Imbuer):
+
 - Machine Frame in the center.
 - Redstone Reception Coil on the bottom.
 - Two (2) gears of some type, on either side of the Coil.
@@ -124,27 +123,26 @@ I should mention at this point that if you've played Thermal Expansion 5+ for
 any length of time, you already know what I mean when I write "device." It's a
 block. You can reconfigure the sides. It can auto-input or auto-output if
 appropriate. No upgrades, no augments, and it doesn't require RF. It might
-interact with the world, and it's going to require Copper and Iron to build
-the frame, and a Redstone Servo instead of a Reception Coil. Consistency. And
-I didn't have to write a manual to teach you that[^2]. A few minutes in
-Creative mode combined with some curiosity, tooltips, and JEI, and you're
-good.
+interact with the world, and it's going to require Copper and Iron to build the
+frame, and a Redstone Servo instead of a Reception Coil. Consistency. And I
+didn't have to write a manual to teach you that[^2]. A few minutes in Creative
+mode combined with some curiosity, tooltips, and JEI, and you're good.
 
 So, to summarize - I write code to make systems. Those systems happen to govern
 the behavior of blocks, materials, and gameplay. That makes things easier for me
 and allows me to add twists and new features to existing gameplay with a bit
-less effort. For players, *Consistency* makes it easier to learn and remember
+less effort. For players, _Consistency_ makes it easier to learn and remember
 facets of the mod, and provides a framework where a new player has a much easier
 learning curve.
 
 Of course, this isn't the only tool in the modder toolbox. I'll write about what
-I call *Flow* in Part 2 next week. Consistency tends to be a prerequisite, but
+I call _Flow_ in Part 2 next week. Consistency tends to be a prerequisite, but
 not always, and there can be a beautiful interplay between the two. In any case,
 thanks for reading. :)
 
-![Recipe - Brewer](/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/recipe_brewer.png){:style="max-height: 124px"}
+<p><img src="/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/recipe_brewer.png" alt="Recipe - Brewer" style="max-height: 124px" /></p>
 
-![Recipe - Enchanter](/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/recipe_enchanter.png){:style="max-height: 124px"}
+<p><img src="/assets/images/posts/2017-11-01-consistency-and-flow-pt-1/recipe_enchanter.png" alt="Recipe - Enchanter" style="max-height: 124px" /></p>
 
 ---
 

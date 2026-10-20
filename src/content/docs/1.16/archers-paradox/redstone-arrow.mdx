@@ -1,12 +1,14 @@
 ---
 title: Redstone Arrow
-image: 
-- alt: Redstone Arrow
-  file: archers-paradox-1-16/redstone-arrow.png
-recipes:
-  crafting:
-  - ap-1-16-redstone-arrow
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'archers-paradox-1-16/redstone-arrow.png', alt: 'Redstone Arrow' }]}
+/>
+
 > Powered up!
 
 **Redstone Arrows** generate a redstone signal in a large area around them for 10 seconds.
@@ -17,4 +19,8 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ap-1-16-redstone-arrow']}
+  noResult
+/>

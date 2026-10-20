@@ -1,0 +1,61 @@
+---
+import fluids from '../../data/recipe-fluids.ts';
+import itemGroups from '../../data/recipe-item-groups.ts';
+import items from '../../data/recipe-items.ts';
+import { getRecipeSiteUrl } from '../../data/recipe-sites.ts';
+import type { RecipeEntry, RecipeItem, RecipeItemGroup } from '../../data/types.ts';
+
+interface Props {
+  entry: RecipeEntry;
+  role: 'result' | 'ingredient';
+  first: boolean;
+}
+
+const { entry, role, first } = Astro.props;
+
+let item: RecipeItem | undefined;
+
+if (entry.item !== undefined) {
+  item = items[entry.item];
+}
+
+const group: RecipeItemGroup | undefined =
+  entry.itemGroup !== undefined ? itemGroups[entry.itemGroup] : undefined;
+
+const groupPrefix = role === 'ingredient' ? group?.prefix : undefined;
+
+const capitalize = (text: string) =>
+  `${text.charAt(0).toUpperCase()}${text.slice(1).toLowerCase()}`;
+
+const fluid =
+  entry.fluid !== undefined ? { ...fluids[entry.fluid], amount: entry.fluidAmount } : undefined;
+---
+
+{entry.html !== undefined && <Fragment set:html={entry.html} />}
+
+{item !== undefined &&
+  (item.url === undefined ? (
+    item.name
+  ) : (
+    <a href={getRecipeSiteUrl(item.site, item.url)}>{item.name}</a>
+  ))}
+
+{group !== undefined && (
+  <>
+    {groupPrefix !== undefined && <>{first ? capitalize(groupPrefix) : groupPrefix}&nbsp;</>}
+    {group.url !== undefined ? (
+      <a href={getRecipeSiteUrl(group.site, group.url)}>{group.name}</a>
+    ) : (
+      group.name
+    )}
+  </>
+)}
+
+{fluid !== undefined && (
+  <>
+    <a href={getRecipeSiteUrl(fluid.site, fluid.url)}>{fluid.name}</a>
+    &nbsp;({fluid.amount.toLocaleString('en-US')}&nbsp;mB)
+  </>
+)}
+
+{entry.suffix !== undefined && <>&nbsp;{entry.suffix}</>}

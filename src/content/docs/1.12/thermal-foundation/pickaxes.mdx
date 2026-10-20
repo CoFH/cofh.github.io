@@ -1,45 +1,26 @@
 ---
 title: Pickaxes
-redirect_from:
-- /thermal-expansion/tools/invar-tools/
-- /docs/thermal-foundation/equipment/pickaxes/
-- /docs/thermal-foundation/equipment/tools/pickaxes/
-- /docs/pickaxes/
-- /docs/tf-pickaxes/
-- /docs/thermal-foundation/pickaxes/
-- /docs/thermal-foundation-2/pickaxes/
-- /docs/1.12/thermal-foundation-2/pickaxes/
-recipes:
-  crafting:
-  - tf-1-12-tool-pickaxe-copper
-  - tf-1-12-tool-pickaxe-tin
-  - tf-1-12-tool-pickaxe-silver
-  - tf-1-12-tool-pickaxe-lead
-  - tf-1-12-tool-pickaxe-aluminum
-  - tf-1-12-tool-pickaxe-nickel
-  - tf-1-12-tool-pickaxe-platinum
-  - tf-1-12-tool-pickaxe-steel
-  - tf-1-12-tool-pickaxe-electrum
-  - tf-1-12-tool-pickaxe-invar
-  - tf-1-12-tool-pickaxe-bronze
-  - tf-1-12-tool-pickaxe-constantan
-usage-recipes:
-  smelter:
-  - recycling-tool-pickaxe-copper
-  - recycling-tool-pickaxe-tin
-  - recycling-tool-pickaxe-silver
-  - recycling-tool-pickaxe-lead
-  - recycling-tool-pickaxe-aluminum
-  - recycling-tool-pickaxe-nickel
-  - recycling-tool-pickaxe-platinum
-  - recycling-tool-pickaxe-steel
-  - recycling-tool-pickaxe-electrum
-  - recycling-tool-pickaxe-invar
-  - recycling-tool-pickaxe-bronze
-  - recycling-tool-pickaxe-constantan
 ---
 
-![Pickaxes](/assets/images/thermal-foundation-2/pickaxes.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-foundation-2/pickaxe-copper.png', alt: 'Copper pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-tin.png', alt: 'Tin pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-silver.png', alt: 'Silver pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-lead.png', alt: 'Lead pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-aluminum.png', alt: 'Aluminum pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-nickel.png', alt: 'Nickel pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-platinum.png', alt: 'Platinum pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-steel.png', alt: 'Steel pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-electrum.png', alt: 'Electrum pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-invar.png', alt: 'Invar pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-bronze.png', alt: 'Bronze pickaxe' },
+    { file: 'thermal-foundation-2/pickaxe-constantan.png', alt: 'Constantan pickaxe' },
+  ]}
+/>
 
 
 **[Pickaxes](https://minecraft.wiki/w/Pickaxe)** are tools in vanilla
@@ -51,42 +32,220 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-tool-pickaxe-copper',
+    'tf-1-12-tool-pickaxe-tin',
+    'tf-1-12-tool-pickaxe-silver',
+    'tf-1-12-tool-pickaxe-lead',
+    'tf-1-12-tool-pickaxe-aluminum',
+    'tf-1-12-tool-pickaxe-nickel',
+    'tf-1-12-tool-pickaxe-platinum',
+    'tf-1-12-tool-pickaxe-steel',
+    'tf-1-12-tool-pickaxe-electrum',
+    'tf-1-12-tool-pickaxe-invar',
+    'tf-1-12-tool-pickaxe-bronze',
+    'tf-1-12-tool-pickaxe-constantan',
+  ]}
+/>
 
 
 Usage
 -----
 
 ### Comparison
-{% comment %}
+{/*
 uses = mat.maxUses
-{% endcomment %}
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Uses | Mining speed | Harvest level | Attack speed | Attack damage | Enchantability |
-|---
-| Wood | 59 | 2 | 0 | 1.2 | 2 | 15 |
-| Stone | 131 | 4 | 1 | 1.2 | 3 | 5 |
-| Iron | 250 | 6 | 2 | 1.2 | 4 | 14 |
-| Gold | 32 | 12 | 0 | 1.2 | 2 | 22 |
-| Diamond | 1,561 | 8 | 3 | 1.2 | 5 | 10 |
-|
-| Copper | 175 | 4 | 1 | 1.2 | 4 | 7 |
-| Tin | 150 | 4.5 | 1 | 1.2 | 4 | 7 |
-| Silver | 75 | 6 | 1 | 1.2 | 4 | 25 |
-| Lead | 100 | 5 | 1 | 1.2 | 4 | 9 |
-| Aluminum | 225 | 10 | 1 | 1.2 | 4 | 14 |
-| Nickel | 300 | 6.5 | 2 | 1.2 | 5.5 | 18 |
-| Platinum | 1,400 | 9 | 4 | 1.2 | 6.5 | 16 |
-| Steel | 400 | 6.5 | 2 | 1.2 | 5.5 | 10 |
-| Electrum | 100 | 14 | 0 | 1.2 | 3.5 | 30 |
-| Invar | 425 | 6.5 | 2 | 1.2 | 5.5 | 12 |
-| Bronze | 325 | 6 | 2 | 1.2 | 5 | 10 |
-| Constantan | 275 | 6 | 2 | 1.2 | 4.5 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Material</th>
+        <th>Uses</th>
+        <th>Mining speed</th>
+        <th>Harvest level</th>
+        <th>Attack speed</th>
+        <th>Attack damage</th>
+        <th>Enchantability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Wood</td>
+        <td>59</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.2</td>
+        <td>2</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Stone</td>
+        <td>131</td>
+        <td>4</td>
+        <td>1</td>
+        <td>1.2</td>
+        <td>3</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Iron</td>
+        <td>250</td>
+        <td>6</td>
+        <td>2</td>
+        <td>1.2</td>
+        <td>4</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Gold</td>
+        <td>32</td>
+        <td>12</td>
+        <td>0</td>
+        <td>1.2</td>
+        <td>2</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Diamond</td>
+        <td>1,561</td>
+        <td>8</td>
+        <td>3</td>
+        <td>1.2</td>
+        <td>5</td>
+        <td>10</td>
+      </tr>
+      <tr><td colspan="7">&nbsp;</td></tr>
+      <tr>
+        <td>Copper</td>
+        <td>175</td>
+        <td>4</td>
+        <td>1</td>
+        <td>1.2</td>
+        <td>4</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Tin</td>
+        <td>150</td>
+        <td>4.5</td>
+        <td>1</td>
+        <td>1.2</td>
+        <td>4</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Silver</td>
+        <td>75</td>
+        <td>6</td>
+        <td>1</td>
+        <td>1.2</td>
+        <td>4</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Lead</td>
+        <td>100</td>
+        <td>5</td>
+        <td>1</td>
+        <td>1.2</td>
+        <td>4</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Aluminum</td>
+        <td>225</td>
+        <td>10</td>
+        <td>1</td>
+        <td>1.2</td>
+        <td>4</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Nickel</td>
+        <td>300</td>
+        <td>6.5</td>
+        <td>2</td>
+        <td>1.2</td>
+        <td>5.5</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>Platinum</td>
+        <td>1,400</td>
+        <td>9</td>
+        <td>4</td>
+        <td>1.2</td>
+        <td>6.5</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Steel</td>
+        <td>400</td>
+        <td>6.5</td>
+        <td>2</td>
+        <td>1.2</td>
+        <td>5.5</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Electrum</td>
+        <td>100</td>
+        <td>14</td>
+        <td>0</td>
+        <td>1.2</td>
+        <td>3.5</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Invar</td>
+        <td>425</td>
+        <td>6.5</td>
+        <td>2</td>
+        <td>1.2</td>
+        <td>5.5</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Bronze</td>
+        <td>325</td>
+        <td>6</td>
+        <td>2</td>
+        <td>1.2</td>
+        <td>5</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Constantan</td>
+        <td>275</td>
+        <td>6</td>
+        <td>2</td>
+        <td>1.2</td>
+        <td>4.5</td>
+        <td>12</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'recycling-tool-pickaxe-copper',
+    'recycling-tool-pickaxe-tin',
+    'recycling-tool-pickaxe-silver',
+    'recycling-tool-pickaxe-lead',
+    'recycling-tool-pickaxe-aluminum',
+    'recycling-tool-pickaxe-nickel',
+    'recycling-tool-pickaxe-platinum',
+    'recycling-tool-pickaxe-steel',
+    'recycling-tool-pickaxe-electrum',
+    'recycling-tool-pickaxe-invar',
+    'recycling-tool-pickaxe-bronze',
+    'recycling-tool-pickaxe-constantan',
+  ]}
+/>

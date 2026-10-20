@@ -1,17 +1,15 @@
 ---
 title: 'Augment: Reflux Column'
-image:
-- alt: Reflux column augment
-  file: thermal-expansion-5/augment-machine-refinery-oil.png
-redirect_from:
-- /docs/augment-reflux-column/
-- /docs/thermal-expansion/augment-reflux-column/
-- /docs/thermal-expansion-5/augment-reflux-column/
-- /docs/1.12/thermal-expansion-5/augment-reflux-column/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-refinery-oil
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/augment-machine-refinery-oil.png', alt: 'Reflux column augment' },
+  ]}
+/>
 
 A **reflux column** is an [augment](../augments/) that increases the
 conversion efficiency of a [fractionating still](../fractionating-still/)
@@ -22,7 +20,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-refinery-oil']}
+  noResult
+/>
 
 
 Usage

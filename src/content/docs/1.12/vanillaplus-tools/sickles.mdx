@@ -1,26 +1,19 @@
 ---
 title: Sickles
-image:
-- alt: Iron sickle
-  file: vanillaplus-tools/sickle-iron.png
-- alt: Gold sickle
-  file: vanillaplus-tools/sickle-gold.png
-- alt: Diamond sickle
-  file: vanillaplus-tools/sickle-diamond.png
-- alt: Wooden sickle
-  file: vanillaplus-tools/sickle-wood.png
-- alt: Stone sickle
-  file: vanillaplus-tools/sickle-stone.png
-recipes:
-  crafting:
-  - vpt-1-12-tool-sickle-wood
-  - vpt-1-12-tool-sickle-stone
-  - vpt-1-12-tool-sickle-iron
-  - vpt-1-12-tool-sickle-gold
-  - vpt-1-12-tool-sickle-diamond
-redirect_from:
-- /docs/vanillaplus-tools/sickles/
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'vanillaplus-tools/sickle-iron.png', alt: 'Iron sickle' },
+    { file: 'vanillaplus-tools/sickle-gold.png', alt: 'Gold sickle' },
+    { file: 'vanillaplus-tools/sickle-diamond.png', alt: 'Diamond sickle' },
+    { file: 'vanillaplus-tools/sickle-wood.png', alt: 'Wooden sickle' },
+    { file: 'vanillaplus-tools/sickle-stone.png', alt: 'Stone sickle' },
+  ]}
+/>
 
 **Sickles** are tools that can be used to break large amounts of plant-like
 blocks at once. They are especially useful for harvesting crops quickly.
@@ -30,7 +23,16 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting with-note=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'vpt-1-12-tool-sickle-wood',
+    'vpt-1-12-tool-sickle-stone',
+    'vpt-1-12-tool-sickle-iron',
+    'vpt-1-12-tool-sickle-gold',
+    'vpt-1-12-tool-sickle-diamond',
+  ]}
+/>
 
 
 Usage
@@ -44,22 +46,60 @@ breaks only one block at a time.
 Sickles use 1 durability for every individual block broken.
 
 ### Comparison
-{% comment %}
+{/*
 uses = mat.maxUses * 4
-{% endcomment %}
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Uses | Attack speed | Attack damage | Enchantability |
-|---
-| Wood | 236 | 1.4 | 3.5 | 15 |
-| Stone | 524 | 1.4 | 4.5 | 5 |
-| Iron | 1,000 | 1.4 | 5.5 | 14 |
-| Gold | 128 | 1.4 | 3.5 | 22 |
-| Diamond | 6,244 | 1.4 | 6.5 | 10 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Material</th>
+        <th>Uses</th>
+        <th>Attack speed</th>
+        <th>Attack damage</th>
+        <th>Enchantability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Wood</td>
+        <td>236</td>
+        <td>1.4</td>
+        <td>3.5</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Stone</td>
+        <td>524</td>
+        <td>1.4</td>
+        <td>4.5</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Iron</td>
+        <td>1,000</td>
+        <td>1.4</td>
+        <td>5.5</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Gold</td>
+        <td>128</td>
+        <td>1.4</td>
+        <td>3.5</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Diamond</td>
+        <td>6,244</td>
+        <td>1.4</td>
+        <td>6.5</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 ### Enchantments
 Sickles can be enchanted with the following

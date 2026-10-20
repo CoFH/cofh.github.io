@@ -1,19 +1,13 @@
 ---
 title: Flux-Infused Quiver
-image:
-- alt: Flux-infused quiver
-  file: redstone-arsenal-2/flux-infused-quiver.png
-redirect_from:
-- /docs/redstone-arsenal/equipment/flux-infused-quiver/
-- /docs/redstone-arsenal/weapons/flux-infused-quiver/
-- /docs/flux-infused-quiver/
-- /docs/redstone-arsenal/flux-infused-quiver/
-- /docs/redstone-arsenal-2/flux-infused-quiver/
-- /docs/1.12/redstone-arsenal-2/flux-infused-quiver/
-recipes:
-  crafting:
-  - ra-1-12-weapon-quiver
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'redstone-arsenal-2/flux-infused-quiver.png', alt: 'Flux-infused quiver' }]}
+/>
 
 A **flux-infused quiver** is a [Redstone Flux](/docs/redstone-flux/)-powered
 item that provides powerful ammunition for
@@ -24,7 +18,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ra-1-12-weapon-quiver']}
+  noResult
+/>
 
 
 Usage
@@ -35,7 +33,7 @@ A flux-infused quiver can hold up to 320,000 [RF](/docs/redstone-flux/). It can
 be charged using an [energetic infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be charged by touching
 a [fluxed electrum block](../fluxed-electrum-block/) or [flux crystal
-block](../flux-crystal-block) while holding it. It can be charged at rates up
+block](../flux-crystal-block/) while holding it. It can be charged at rates up
 to 4,000 RF/t.
 
 ### Empowering
@@ -62,10 +60,14 @@ A flux-infused quiver has an
 [enchantability](https://minecraft.wiki/w/Enchantability) of 10. It can
 be enchanted with [Holding](../../cofh-core/holding/) to increase its energy capacity.
 
-| Holding level | Capacity multiplier |
-|---
-| I | × 1.5 |
-| II | × 2 |
-| III | × 2.5 |
-| IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity multiplier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>× 1.5</td></tr>
+    <tr><td>II</td><td>× 2</td></tr>
+    <tr><td>III</td><td>× 2.5</td></tr>
+    <tr><td>IV</td><td>× 3</td></tr>
+  </tbody>
+</table>

@@ -1,11 +1,9 @@
 ---
 title: Downloads
-layout: simple_info
-redirect_from:
-  - /downloads.html
-  - /license/
-  - /permissions.html
+layout: ../layouts/SimpleInfo.astro
 ---
+
+import DownloadItems from '@/components/downloads/DownloadItems.astro';
 
 This page lists download links for all Team CoFH mods.
 
@@ -18,56 +16,56 @@ This page lists download links for all Team CoFH mods.
 <div class="uk-accordion" data-uk-accordion="{showfirst: true, collapse: true}">
     <h2 class="uk-accordion-title">Minecraft 1.20</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.20" %}
+        <DownloadItems minecraft="1.20" />
     </div>
 
     <h2 class="uk-accordion-title">Minecraft 1.19</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.19" %}
+        <DownloadItems minecraft="1.19" />
     </div>
 
     <h2 class="uk-accordion-title">Minecraft 1.18</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.18" %}
+        <DownloadItems minecraft="1.18" />
     </div>
 
     <h2 class="uk-accordion-title">Minecraft 1.16</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.16" %}
+        <DownloadItems minecraft="1.16" />
     </div>
 	
     <h2 class="uk-accordion-title">Minecraft 1.15</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.15" %}
+        <DownloadItems minecraft="1.15" />
     </div>
 
     <h2 class="uk-accordion-title">Minecraft 1.14</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.14" %}
+        <DownloadItems minecraft="1.14" />
     </div>
 
     <h2 class="uk-accordion-title">Minecraft 1.12</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.12" %}
+        <DownloadItems minecraft="1.12" />
     </div>
 
     <h2 class="uk-accordion-title">Minecraft 1.11</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.11" %}
+        <DownloadItems minecraft="1.11" />
     </div>
 
     <h2 class="uk-accordion-title">Minecraft 1.10</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.10" %}
+        <DownloadItems minecraft="1.10" />
     </div>
 
     <h2 class="uk-accordion-title">Minecraft 1.7</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.7" %}
+        <DownloadItems minecraft="1.7" />
     </div>
 
     <h2 class="uk-accordion-title">Minecraft 1.6</h2>
     <div class="uk-accordion-content">
-        {% include download-items.html minecraft="1.6" %}
+        <DownloadItems minecraft="1.6" />
     </div>
 </div>

@@ -1,0 +1,76 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { render } from 'astro:content';
+
+import Blog from '../../layouts/Blog.astro';
+import { formatPostDate, getPostDate, getPosts, getPostURL } from '../../lib/posts.ts';
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts();
+
+  return posts.map((post, index) => ({
+    params: { path: getPostURL(post).slice('/posts/'.length, -1) },
+    props: { post, newer: posts[index - 1], older: posts[index + 1] },
+  }));
+}) satisfies GetStaticPaths;
+
+const { post, newer, older } = Astro.props;
+const { title, author } = post.data;
+const { Content } = await render(post);
+---
+
+<Blog title={title} showBanner={false}>
+  <div
+    id="cofh-post-content"
+    class="uk-container-center uk-width-1-1 uk-width-medium-3-4"
+    data-pagefind-body
+  >
+    <article class="uk-article">
+      <h1 class="uk-article-title">{title}</h1>
+
+      <p class="uk-article-meta">
+        Written by <strong>{author}</strong> on {formatPostDate(getPostDate(post))}
+      </p>
+
+      <hr />
+
+      <Content />
+    </article>
+
+    <div class="uk-clearfix uk-margin-large-top" data-pagefind-ignore="all">
+      {newer && (
+        <a href={getPostURL(newer)} class="uk-float-left uk-button uk-button-mini">
+          &laquo; {newer.data.title}
+        </a>
+      )}
+
+      {older && (
+        <a href={getPostURL(older)} class="uk-float-right uk-button uk-button-mini">
+          {older.data.title} &raquo;
+        </a>
+      )}
+    </div>
+  </div>
+</Blog>
+
+<style is:global>
+  #cofh-post-content code {
+    color: #444444;
+  }
+
+  #cofh-post-content .uk-text-small code {
+    font-size: 10.5px;
+  }
+
+  #cofh-post-content .uk-text-danger code {
+    color: #d85030 !important;
+  }
+
+  #cofh-post-content a code {
+    color: #0077dd;
+  }
+
+  #cofh-post-content a:hover code {
+    color: #005599;
+  }
+</style>

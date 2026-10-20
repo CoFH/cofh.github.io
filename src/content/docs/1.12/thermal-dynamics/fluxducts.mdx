@@ -1,26 +1,19 @@
 ---
 title: Fluxducts
-image:
-- alt: Leadstone fluxduct
-  file: thermal-dynamics-2/fluxduct-leadstone.png
-- alt: Hardened fluxduct
-  file: thermal-dynamics-2/fluxduct-hardened.png
-- alt: Redstone energy fluxduct
-  file: thermal-dynamics-2/fluxduct-redstone-energy.png
-- alt: Signalum fluxduct
-  file: thermal-dynamics-2/fluxduct-signalum.png
-- alt: Resonant fluxduct
-  file: thermal-dynamics-2/fluxduct-resonant.png
-- alt: Cryo-stabilized fluxduct
-  file: thermal-dynamics-2/fluxduct-cryo-stabilized.png
-redirect_from:
-- /thermal-expansion/energy/energy-conduits/
-- /docs/thermal-dynamics/ducts/fluxducts/
-- /docs/fluxducts/
-- /docs/thermal-dynamics/fluxducts/
-- /docs/thermal-dynamics-2/fluxducts/
-- /docs/1.12/thermal-dynamics-2/fluxducts/
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-dynamics-2/fluxduct-leadstone.png', alt: 'Leadstone fluxduct' },
+    { file: 'thermal-dynamics-2/fluxduct-hardened.png', alt: 'Hardened fluxduct' },
+    { file: 'thermal-dynamics-2/fluxduct-redstone-energy.png', alt: 'Redstone energy fluxduct' },
+    { file: 'thermal-dynamics-2/fluxduct-signalum.png', alt: 'Signalum fluxduct' },
+    { file: 'thermal-dynamics-2/fluxduct-resonant.png', alt: 'Resonant fluxduct' },
+    { file: 'thermal-dynamics-2/fluxduct-cryo-stabilized.png', alt: 'Cryo-stabilized fluxduct' },
+  ]}
+/>
 
 **Fluxducts** are blocks that transfer [Redstone Flux](/docs/redstone-flux/)
 between blocks.
@@ -65,16 +58,46 @@ Tiers
 
 Fluxducts come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. transfer per connection | Note |
-|---
-| [Leadstone](../leadstone-fluxduct/) | 1,000 RF/t |
-| [Hardened](../hardened-fluxduct/) | 4,000 RF/t |
-| [Redstone Energy](../redstone-energy-fluxduct/) | 9,000 RF/t |
-| [Signalum](../signalum-fluxduct/) | 16,000 RF/t |
-| [Resonant](../resonant-fluxduct/) | 25,000 RF/t |
-| [Cryo-Stabilized](../cryo-stabilized-fluxduct/) | N/A | No transfer limit; does not store energy. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Max. transfer per connection</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[Leadstone](../leadstone-fluxduct/)</td>
+        <td>1,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>[Hardened](../hardened-fluxduct/)</td>
+        <td>4,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>[Redstone Energy](../redstone-energy-fluxduct/)</td>
+        <td>9,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>[Signalum](../signalum-fluxduct/)</td>
+        <td>16,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>[Resonant](../resonant-fluxduct/)</td>
+        <td>25,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>[Cryo-Stabilized](../cryo-stabilized-fluxduct/)</td>
+        <td>N/A</td>
+        <td>No transfer limit; does not store energy.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

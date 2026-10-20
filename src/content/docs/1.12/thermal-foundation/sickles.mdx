@@ -1,54 +1,31 @@
 ---
 title: Sickles
-redirect_from:
-- /docs/thermal-foundation/equipment/sickles/
-- /docs/thermal-foundation/equipment/tools/sickles/
-- /docs/sickles/
-- /docs/tf-sickles/
-- /docs/thermal-foundation/sickles/
-- /docs/thermal-foundation-2/sickles/
-- /docs/1.12/thermal-foundation-2/sickles/
-recipes:
-  crafting:
-  - tf-1-12-tool-sickle-wood
-  - tf-1-12-tool-sickle-stone
-  - tf-1-12-tool-sickle-iron
-  - tf-1-12-tool-sickle-gold
-  - tf-1-12-tool-sickle-diamond
-  - tf-1-12-tool-sickle-copper
-  - tf-1-12-tool-sickle-tin
-  - tf-1-12-tool-sickle-silver
-  - tf-1-12-tool-sickle-lead
-  - tf-1-12-tool-sickle-aluminum
-  - tf-1-12-tool-sickle-nickel
-  - tf-1-12-tool-sickle-platinum
-  - tf-1-12-tool-sickle-steel
-  - tf-1-12-tool-sickle-electrum
-  - tf-1-12-tool-sickle-invar
-  - tf-1-12-tool-sickle-bronze
-  - tf-1-12-tool-sickle-constantan
-usage-recipes:
-  smelter:
-  - recycling-tool-sickle-iron
-  - recycling-tool-sickle-gold
-  - recycling-tool-sickle-copper
-  - recycling-tool-sickle-tin
-  - recycling-tool-sickle-silver
-  - recycling-tool-sickle-lead
-  - recycling-tool-sickle-aluminum
-  - recycling-tool-sickle-nickel
-  - recycling-tool-sickle-platinum
-  - recycling-tool-sickle-steel
-  - recycling-tool-sickle-electrum
-  - recycling-tool-sickle-invar
-  - recycling-tool-sickle-bronze
-  - recycling-tool-sickle-constantan
-  pulverizer:
-  - recycling-tool-sickle-wood
-  - recycling-tool-sickle-diamond
 ---
 
-![Sickles](/assets/images/thermal-foundation-2/sickles.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'vanillaplus-tools/sickle-iron.png', alt: 'Iron sickle' },
+    { file: 'vanillaplus-tools/sickle-gold.png', alt: 'Gold sickle' },
+    { file: 'vanillaplus-tools/sickle-diamond.png', alt: 'Diamond sickle' },
+    { file: 'thermal-foundation-2/sickle-copper.png', alt: 'Copper sickle' },
+    { file: 'thermal-foundation-2/sickle-tin.png', alt: 'Tin sickle' },
+    { file: 'thermal-foundation-2/sickle-silver.png', alt: 'Silver sickle' },
+    { file: 'thermal-foundation-2/sickle-lead.png', alt: 'Lead sickle' },
+    { file: 'thermal-foundation-2/sickle-aluminum.png', alt: 'Aluminum sickle' },
+    { file: 'thermal-foundation-2/sickle-nickel.png', alt: 'Nickel sickle' },
+    { file: 'thermal-foundation-2/sickle-platinum.png', alt: 'Platinum sickle' },
+    { file: 'thermal-foundation-2/sickle-steel.png', alt: 'Steel sickle' },
+    { file: 'thermal-foundation-2/sickle-electrum.png', alt: 'Electrum sickle' },
+    { file: 'thermal-foundation-2/sickle-invar.png', alt: 'Invar sickle' },
+    { file: 'thermal-foundation-2/sickle-bronze.png', alt: 'Bronze sickle' },
+    { file: 'thermal-foundation-2/sickle-constantan.png', alt: 'Constantan sickle' },
+    { file: 'vanillaplus-tools/sickle-stone.png', alt: 'Stone sickle' },
+    { file: 'vanillaplus-tools/sickle-wood.png', alt: 'Wooden sickle' },
+  ]}
+/>
 
 
 **Sickles** are tools that can be used to break large amounts of plant-like
@@ -59,7 +36,28 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting with-note=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-tool-sickle-wood',
+    'tf-1-12-tool-sickle-stone',
+    'tf-1-12-tool-sickle-iron',
+    'tf-1-12-tool-sickle-gold',
+    'tf-1-12-tool-sickle-diamond',
+    'tf-1-12-tool-sickle-copper',
+    'tf-1-12-tool-sickle-tin',
+    'tf-1-12-tool-sickle-silver',
+    'tf-1-12-tool-sickle-lead',
+    'tf-1-12-tool-sickle-aluminum',
+    'tf-1-12-tool-sickle-nickel',
+    'tf-1-12-tool-sickle-platinum',
+    'tf-1-12-tool-sickle-steel',
+    'tf-1-12-tool-sickle-electrum',
+    'tf-1-12-tool-sickle-invar',
+    'tf-1-12-tool-sickle-bronze',
+    'tf-1-12-tool-sickle-constantan',
+  ]}
+/>
 
 
 Usage
@@ -73,35 +71,145 @@ breaks only one block at a time.
 Sickles use 1 durability for every individual block broken.
 
 ### Comparison
-{% comment %}
+{/*
 uses = mat.maxUses * 4
-{% endcomment %}
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Uses | Attack speed | Attack damage | Enchantability |
-|---
-| Wood | 236 | 1.4 | 3.5 | 15 |
-| Stone | 524 | 1.4 | 4.5 | 5 |
-| Iron | 1,000 | 1.4 | 5.5 | 14 |
-| Gold | 128 | 1.4 | 3.5 | 22 |
-| Diamond | 6,244 | 1.4 | 6.5 | 10 |
-|
-| Copper | 700 | 1.4 | 4.5 | 7 |
-| Tin | 600 | 1.4 | 4.5 | 7 |
-| Silver | 300 | 1.4 | 4.5 | 25 |
-| Lead | 400 | 1.4 | 4.5 | 9 |
-| Aluminum | 900 | 1.4 | 4.5 | 14 |
-| Nickel | 1,200 | 1.4 | 6 | 18 |
-| Platinum | 5,600 | 1.4 | 7 | 16 |
-| Steel | 1,600 | 1.4 | 6 | 10 |
-| Electrum | 400 | 1.4 | 4 | 30 |
-| Invar | 1,700 | 1.4 | 6 | 12 |
-| Bronze | 1,300 | 1.4 | 5.5 | 10 |
-| Constantan | 1,100 | 1.4 | 5 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Material</th>
+        <th>Uses</th>
+        <th>Attack speed</th>
+        <th>Attack damage</th>
+        <th>Enchantability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Wood</td>
+        <td>236</td>
+        <td>1.4</td>
+        <td>3.5</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Stone</td>
+        <td>524</td>
+        <td>1.4</td>
+        <td>4.5</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Iron</td>
+        <td>1,000</td>
+        <td>1.4</td>
+        <td>5.5</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Gold</td>
+        <td>128</td>
+        <td>1.4</td>
+        <td>3.5</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Diamond</td>
+        <td>6,244</td>
+        <td>1.4</td>
+        <td>6.5</td>
+        <td>10</td>
+      </tr>
+      <tr><td colspan="5">&nbsp;</td></tr>
+      <tr>
+        <td>Copper</td>
+        <td>700</td>
+        <td>1.4</td>
+        <td>4.5</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Tin</td>
+        <td>600</td>
+        <td>1.4</td>
+        <td>4.5</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Silver</td>
+        <td>300</td>
+        <td>1.4</td>
+        <td>4.5</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Lead</td>
+        <td>400</td>
+        <td>1.4</td>
+        <td>4.5</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Aluminum</td>
+        <td>900</td>
+        <td>1.4</td>
+        <td>4.5</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Nickel</td>
+        <td>1,200</td>
+        <td>1.4</td>
+        <td>6</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>Platinum</td>
+        <td>5,600</td>
+        <td>1.4</td>
+        <td>7</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Steel</td>
+        <td>1,600</td>
+        <td>1.4</td>
+        <td>6</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Electrum</td>
+        <td>400</td>
+        <td>1.4</td>
+        <td>4</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Invar</td>
+        <td>1,700</td>
+        <td>1.4</td>
+        <td>6</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Bronze</td>
+        <td>1,300</td>
+        <td>1.4</td>
+        <td>5.5</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Constantan</td>
+        <td>1,100</td>
+        <td>1.4</td>
+        <td>5</td>
+        <td>12</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 ### Enchantments
 Sickles can be enchanted with the following
@@ -118,7 +226,31 @@ Sickles can be enchanted with the following
 * [Soulbound](../../cofh-core/soulbound/)
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'recycling-tool-sickle-iron',
+    'recycling-tool-sickle-gold',
+    'recycling-tool-sickle-copper',
+    'recycling-tool-sickle-tin',
+    'recycling-tool-sickle-silver',
+    'recycling-tool-sickle-lead',
+    'recycling-tool-sickle-aluminum',
+    'recycling-tool-sickle-nickel',
+    'recycling-tool-sickle-platinum',
+    'recycling-tool-sickle-steel',
+    'recycling-tool-sickle-electrum',
+    'recycling-tool-sickle-invar',
+    'recycling-tool-sickle-bronze',
+    'recycling-tool-sickle-constantan',
+  ]}
+/>
 
 ### Pulverizer ingredient
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={[
+    'recycling-tool-sickle-wood',
+    'recycling-tool-sickle-diamond',
+  ]}
+/>

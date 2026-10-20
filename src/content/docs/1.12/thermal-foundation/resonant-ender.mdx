@@ -1,33 +1,13 @@
 ---
 title: Resonant Ender
-redirect_from:
-- /thermal-expansion/fluids/resonant-ender/
-- /docs/thermal-foundation/fluids/resonant-ender/
-- /docs/thermal-foundation/fluids/molten/resonant-ender/
-- /docs/resonant-ender/
-- /docs/thermal-foundation/resonant-ender/
-- /docs/thermal-foundation-2/resonant-ender/
-- /docs/1.12/thermal-foundation-2/resonant-ender/
-recipes:
-  crucible:
-  - ender
-  - ender-from-clathrate
-  - fluid-ore-processing-ender
-  transposer-empty:
-  - bucket-ender
-  centrifuge:
-  - dust-enderium
-usage-recipes:
-  crafting:
-  - tf-1-12-ender-pearl-from-fluid
-  - tf-1-12-dust-enderium
-  transposer-fill:
-  - bucket-ender
-  - ender-pearl-from-fluid
-  - td-1-12-viaduct-long-range-linking
 ---
 
-![Resonant ender](/assets/images/thermal-foundation-2/resonant-ender.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/resonant-ender.gif', alt: 'Resonant ender' }]}
+/>
 
 > Wibbly-wobbly, timey-wimey... stuff.
 
@@ -41,13 +21,26 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='te-1-12-crucible' recipes=page.recipes.crucible %}
+<RecipeTable
+  type="1.12/thermal-expansion/crucible"
+  recipes={[
+    'ender',
+    'ender-from-clathrate',
+    'fluid-ore-processing-ender',
+  ]}
+/>
 
 ### Fluid Transposer
-{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-empty"
+  recipes={['bucket-ender']}
+/>
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge %}
+<RecipeTable
+  type="1.12/thermal-expansion/centrifuge"
+  recipes={['dust-enderium']}
+/>
 
 
 Usage
@@ -71,10 +64,23 @@ Any item that contains at least one
 [bucket](https://minecraft.wiki/w/Bucket) worth of resonant ender may be
 used in these recipes.
 
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-ender-pearl-from-fluid',
+    'tf-1-12-dust-enderium',
+  ]}
+/>
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-fill"
+  recipes={[
+    'bucket-ender',
+    'ender-pearl-from-fluid',
+    'td-1-12-viaduct-long-range-linking',
+  ]}
+/>
 
 
 Trivia

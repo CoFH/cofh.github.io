@@ -1,22 +1,13 @@
 ---
 title: Block of Coal Coke
-redirect_from:
-- /docs/block-of-coal-coke/
-- /docs/thermal-foundation/block-of-coal-coke/
-- /docs/thermal-foundation-2/block-of-coal-coke/
-- /docs/1.12/thermal-foundation-2/block-of-coal-coke/
-image:
-- alt: Block of coal coke
-  file: thermal-foundation-2/storage-block-coal-coke.png
-recipes:
-  crafting:
-  - tf-1-12-storage-block-coal-coke
-  redstone-furnace-pyrolysis:
-  - storage-block-coal-coke
-usage-recipes:
-  crafting:
-  - tf-1-12-coal-coke-from-block
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/storage-block-coal-coke.png', alt: 'Block of coal coke' }]}
+/>
 
 **Blocks of coal coke** are blocks made from [coal coke](../coal-coke/).
 
@@ -28,10 +19,18 @@ Blocks of coal coke can only be mined with a [wooden
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-storage-block-coal-coke']}
+  noResult
+/>
 
 ### Redstone Furnace with Pyrolytic Conversion
-{% include recipe-table.html type='te-1-12-redstone-furnace-pyrolysis' recipes=page.recipes.redstone-furnace-pyrolysis no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/redstone-furnace-pyrolysis"
+  recipes={['storage-block-coal-coke']}
+  noResult
+/>
 
 
 Usage
@@ -49,4 +48,7 @@ block of coal coke lasts 1,600 seconds, which is enough to smelt up to 160
 items. It lasts slightly longer than 9 individual pieces of coal coke.
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-coal-coke-from-block']}
+/>

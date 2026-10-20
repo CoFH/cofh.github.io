@@ -1,0 +1,38 @@
+---
+interface Props {
+  url: string | undefined;
+  text: string;
+  icon: [number, number] | undefined;
+}
+
+const { url, text, icon } = Astro.props;
+
+const href = url !== undefined ? `/docs/${url}` : undefined;
+const isCurrent = href === Astro.url.pathname.replace(/\/?$/, '/');
+---
+
+{isCurrent ? (
+  <span class="uk-text-bold cofh-nowrap">
+    {icon && (
+      <div
+        class="cofh-navbox-icon"
+        style={{
+          backgroundPosition: `-${icon[0] * 16}px -${icon[1] * 16}px`,
+        }}
+      />
+    )}{' '}
+    <span>{text}</span>
+  </span>
+) : (
+  <a href={href} class:list={['cofh-navbox-link', { 'uk-text-danger': href === undefined }]}>
+    {icon && (
+      <div
+        class="cofh-navbox-icon"
+        style={{
+          backgroundPosition: `-${icon[0] * 16}px -${icon[1] * 16}px`,
+        }}
+      />
+    )}{' '}
+    <span>{text}</span>
+  </a>
+)}

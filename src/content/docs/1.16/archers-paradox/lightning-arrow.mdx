@@ -1,12 +1,14 @@
 ---
 title: Lightning Arrow
-image: 
-- alt: Lightning Arrow
-  file: archers-paradox-1-16/lightning-arrow.png
-recipes:
-  crafting:
-  - ap-1-16-lightning-arrow
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'archers-paradox-1-16/lightning-arrow.png', alt: 'Lightning Arrow' }]}
+/>
+
 > Calling down the thunder
 
 **Lightning Arrows** call down a lightning bolt where they land, as long as its outside.
@@ -17,7 +19,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ap-1-16-lightning-arrow']}
+  noResult
+/>
 
 ### Trading
 Can be bought from Journeyman level [Fletcher](https://minecraft.wiki/w/Trading#Fletcher) villagers.

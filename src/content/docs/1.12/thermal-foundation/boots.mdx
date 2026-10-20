@@ -1,43 +1,26 @@
 ---
 title: Boots
-redirect_from:
-- /docs/thermal-foundation/equipment/armor/boots/
-- /docs/boots/
-- /docs/tf-boots/
-- /docs/thermal-foundation/boots/
-- /docs/thermal-foundation-2/boots/
-- /docs/1.12/thermal-foundation-2/boots/
-recipes:
-  crafting:
-  - tf-1-12-armor-boots-copper
-  - tf-1-12-armor-boots-tin
-  - tf-1-12-armor-boots-silver
-  - tf-1-12-armor-boots-lead
-  - tf-1-12-armor-boots-aluminum
-  - tf-1-12-armor-boots-nickel
-  - tf-1-12-armor-boots-platinum
-  - tf-1-12-armor-boots-steel
-  - tf-1-12-armor-boots-electrum
-  - tf-1-12-armor-boots-invar
-  - tf-1-12-armor-boots-bronze
-  - tf-1-12-armor-boots-constantan
-usage-recipes:
-  smelter:
-  - recycling-armor-boots-copper
-  - recycling-armor-boots-tin
-  - recycling-armor-boots-silver
-  - recycling-armor-boots-lead
-  - recycling-armor-boots-aluminum
-  - recycling-armor-boots-nickel
-  - recycling-armor-boots-platinum
-  - recycling-armor-boots-steel
-  - recycling-armor-boots-electrum
-  - recycling-armor-boots-invar
-  - recycling-armor-boots-bronze
-  - recycling-armor-boots-constantan
 ---
 
-![Boots](/assets/images/thermal-foundation-2/boots.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-foundation-2/boots-copper.png', alt: 'Copper boots' },
+    { file: 'thermal-foundation-2/boots-tin.png', alt: 'Tin boots' },
+    { file: 'thermal-foundation-2/boots-silver.png', alt: 'Silver boots' },
+    { file: 'thermal-foundation-2/boots-lead.png', alt: 'Lead boots' },
+    { file: 'thermal-foundation-2/boots-aluminum.png', alt: 'Aluminum boots' },
+    { file: 'thermal-foundation-2/boots-nickel.png', alt: 'Nickel boots' },
+    { file: 'thermal-foundation-2/boots-platinum.png', alt: 'Platinum boots' },
+    { file: 'thermal-foundation-2/boots-steel.png', alt: 'Steel boots' },
+    { file: 'thermal-foundation-2/boots-electrum.png', alt: 'Electrum boots' },
+    { file: 'thermal-foundation-2/boots-invar.png', alt: 'Invar boots' },
+    { file: 'thermal-foundation-2/boots-bronze.png', alt: 'Bronze boots' },
+    { file: 'thermal-foundation-2/boots-constantan.png', alt: 'Constantan boots' },
+  ]}
+/>
 
 
 **[Boots](https://minecraft.wiki/w/Boots)** are a type of
@@ -50,43 +33,185 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-armor-boots-copper',
+    'tf-1-12-armor-boots-tin',
+    'tf-1-12-armor-boots-silver',
+    'tf-1-12-armor-boots-lead',
+    'tf-1-12-armor-boots-aluminum',
+    'tf-1-12-armor-boots-nickel',
+    'tf-1-12-armor-boots-platinum',
+    'tf-1-12-armor-boots-steel',
+    'tf-1-12-armor-boots-electrum',
+    'tf-1-12-armor-boots-invar',
+    'tf-1-12-armor-boots-bronze',
+    'tf-1-12-armor-boots-constantan',
+  ]}
+/>
 
 
 Usage
 -----
 
 ### Comparison
-{% comment %}
+{/*
 durability = mat.durability * 13
 defense = mat.reductionAmounts[0]
-{% endcomment %}
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Durability | Defense | Toughness | Enchantability |
-|---
-| Leather | 65 | 1 | | 15 |
-| Chain | 195 | 1 | | 12 |
-| Iron | 195 | 2 | | 9 |
-| Gold | 91 | 1 | | 25 |
-| Diamond | 429 | 3 | 2 | 10 |
-|
-| Copper | 130 | 1 | | 8 |
-| Tin | 104 | 1 | | 9 |
-| Silver | 104 | 2 | | 25 |
-| Lead | 156 | 2 | | 9 |
-| Aluminum | 156 | 1 | | 14 |
-| Nickel | 195 | 2 | | 18 |
-| Platinum | 455 | 3 | 2 | 16 |
-| Steel | 286 | 2 | 1 | 10 |
-| Electrum | 104 | 2 | | 30 |
-| Invar | 273 | 2 | 1 | 12 |
-| Bronze | 234 | 2 | 1 | 10 |
-| Constantan | 169 | 2 | | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Material</th>
+        <th>Durability</th>
+        <th>Defense</th>
+        <th>Toughness</th>
+        <th>Enchantability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Leather</td>
+        <td>65</td>
+        <td>1</td>
+        <td></td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Chain</td>
+        <td>195</td>
+        <td>1</td>
+        <td></td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Iron</td>
+        <td>195</td>
+        <td>2</td>
+        <td></td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Gold</td>
+        <td>91</td>
+        <td>1</td>
+        <td></td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Diamond</td>
+        <td>429</td>
+        <td>3</td>
+        <td>2</td>
+        <td>10</td>
+      </tr>
+      <tr><td colspan="5">&nbsp;</td></tr>
+      <tr>
+        <td>Copper</td>
+        <td>130</td>
+        <td>1</td>
+        <td></td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Tin</td>
+        <td>104</td>
+        <td>1</td>
+        <td></td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Silver</td>
+        <td>104</td>
+        <td>2</td>
+        <td></td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Lead</td>
+        <td>156</td>
+        <td>2</td>
+        <td></td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Aluminum</td>
+        <td>156</td>
+        <td>1</td>
+        <td></td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Nickel</td>
+        <td>195</td>
+        <td>2</td>
+        <td></td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>Platinum</td>
+        <td>455</td>
+        <td>3</td>
+        <td>2</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Steel</td>
+        <td>286</td>
+        <td>2</td>
+        <td>1</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Electrum</td>
+        <td>104</td>
+        <td>2</td>
+        <td></td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Invar</td>
+        <td>273</td>
+        <td>2</td>
+        <td>1</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Bronze</td>
+        <td>234</td>
+        <td>2</td>
+        <td>1</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Constantan</td>
+        <td>169</td>
+        <td>2</td>
+        <td></td>
+        <td>12</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'recycling-armor-boots-copper',
+    'recycling-armor-boots-tin',
+    'recycling-armor-boots-silver',
+    'recycling-armor-boots-lead',
+    'recycling-armor-boots-aluminum',
+    'recycling-armor-boots-nickel',
+    'recycling-armor-boots-platinum',
+    'recycling-armor-boots-steel',
+    'recycling-armor-boots-electrum',
+    'recycling-armor-boots-invar',
+    'recycling-armor-boots-bronze',
+    'recycling-armor-boots-constantan',
+  ]}
+/>

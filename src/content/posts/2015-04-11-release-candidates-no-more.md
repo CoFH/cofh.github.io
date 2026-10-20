@@ -1,8 +1,6 @@
 ---
 title: Release Candidates No More
 author: King Lemming
-author_url: http://www.twitter.com/KingLemmingCoFH
-published: true
 ---
 
 And we're released!

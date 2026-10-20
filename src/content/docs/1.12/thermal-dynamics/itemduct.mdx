@@ -1,34 +1,16 @@
 ---
 title: Itemduct
-image:
-- alt: Itemduct
-  file: thermal-dynamics-2/itemduct.png
-- alt: Itemduct (opaque)
-  file: thermal-dynamics-2/itemduct-opaque.png
-redirect_from:
-- /thermal-expansion/items/itemducts/
-- /thermal-expansion/transportation/itemducts/
-- /docs/thermal-dynamics/ducts/itemducts/
-- /docs/itemducts/
-- /docs/itemduct/
-- /docs/thermal-dynamics/itemduct/
-- /docs/thermal-dynamics-2/itemduct/
-- /docs/1.12/thermal-dynamics-2/itemduct/
-recipes:
-  crafting:
-  - td-1-12-itemduct
-  - td-1-12-itemduct-opaque
-  - td-1-12-itemduct-opaque-from-transparent
-  - td-1-12-itemduct-transparent-from-opaque
-  - td-1-12-itemduct-dense
-  - td-1-12-itemduct-vacuum
-usage-recipes:
-  transposer-fill:
-  - td-1-12-itemduct-fast
-  crafting:
-  - td-1-12-itemduct-energy-one
-  - td-1-12-itemduct-energy-three
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-dynamics-2/itemduct.png', alt: 'Itemduct' },
+    { file: 'thermal-dynamics-2/itemduct-opaque.png', alt: 'Itemduct (opaque)' },
+  ]}
+/>
 
 An **itemduct** is a block that transfers items between blocks.
 
@@ -41,7 +23,17 @@ A placed itemduct can be instantly picked up by dismantling it with a
 [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'td-1-12-itemduct',
+    'td-1-12-itemduct-opaque',
+    'td-1-12-itemduct-opaque-from-transparent',
+    'td-1-12-itemduct-transparent-from-opaque',
+    'td-1-12-itemduct-dense',
+    'td-1-12-itemduct-vacuum',
+  ]}
+/>
 
 
 Usage
@@ -77,7 +69,16 @@ through, and [retrievers](../retrievers/) allow them to pull items towards
 themselves from other blocks connected to the network.
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-fill"
+  recipes={['td-1-12-itemduct-fast']}
+/>
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'td-1-12-itemduct-energy-one',
+    'td-1-12-itemduct-energy-three',
+  ]}
+/>

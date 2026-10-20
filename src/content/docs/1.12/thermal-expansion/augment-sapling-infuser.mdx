@@ -1,21 +1,18 @@
 ---
 title: 'Augment: Sapling Infuser'
-image:
-- alt: Sapling infuser augment
-  file: thermal-expansion-5/augment-machine-insolator-tree.png
-redirect_from:
-- /docs/augment-sapling-infuser/
-- /docs/thermal-expansion/augment-sapling-infuser/
-- /docs/thermal-expansion-5/augment-sapling-infuser/
-- /docs/1.12/thermal-expansion-5/augment-sapling-infuser/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-insolator-tree
-recipe-list:
-- wood
-- wood-rich
-- wood-fluxed
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-insolator-tree.png',
+      alt: 'Sapling infuser augment',
+    },
+  ]}
+/>
 
 A **sapling infuser** is an [augment](../augments/) that allows for a
 [phytogenic insolator](../phytogenic-insolator/) to grow
@@ -26,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-insolator-tree']}
+  noResult
+/>
 
 
 Usage
@@ -46,4 +47,11 @@ An installed sapling infuser adds some extra [recipes](#recipes) to a
 Recipes
 -------
 
-{% include recipe-table.html type='te-1-12-insolator-tree' recipes=page.recipe-list %}
+<RecipeTable
+  type="1.12/thermal-expansion/insolator-tree"
+  recipes={[
+    'wood',
+    'wood-rich',
+    'wood-fluxed',
+  ]}
+/>

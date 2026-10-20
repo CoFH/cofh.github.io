@@ -1,18 +1,13 @@
 ---
 title: Nullifier
-redirect_from:
-- /thermal-expansion/devices/nullifier/
-- /docs/thermal-expansion/devices/nullifier/
-- /docs/nullifier/
-- /docs/thermal-expansion/nullifier/
-- /docs/thermal-expansion-5/nullifier/
-- /docs/1.12/thermal-expansion-5/nullifier/
-recipes:
-  crafting:
-  - te-1-12-device-nullifier
 ---
 
-![Nullifier](/assets/images/thermal-expansion-5/nullifier.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/nullifier.png', alt: 'Nullifier' }]}
+/>
 
 > Sends all the things to `/dev/null`!
 
@@ -29,7 +24,11 @@ A placed nullifier can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-device-nullifier']}
+  noResult
+/>
 
 
 Usage

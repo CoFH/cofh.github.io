@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Pyroclastic Injection'
-image:
-- alt: Pyroclastic injection augment
-  file: thermal-expansion-5/augment-machine-extruder-no-water.gif
-redirect_from:
-- /docs/augment-pyroclastic-injection/
-- /docs/thermal-expansion/augment-pyroclastic-injection/
-- /docs/thermal-expansion-5/augment-pyroclastic-injection/
-- /docs/1.12/thermal-expansion-5/augment-pyroclastic-injection/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-extruder-no-water
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-extruder-no-water.gif',
+      alt: 'Pyroclastic injection augment',
+    },
+  ]}
+/>
 
 A **pyroclastic injection** [augment](../augments/) allows for an [igneous
 extruder](../igneous-extruder/) to work without cold fluids
@@ -22,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-extruder-no-water']}
+  noResult
+/>
 
 
 Usage

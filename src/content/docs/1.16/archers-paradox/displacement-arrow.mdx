@@ -1,12 +1,14 @@
 ---
 title: Displacement Arrow
-image: 
-- alt: Displacement Arrow
-  file: archers-paradox-1-16/displacement-arrow.png
-recipes:
-  crafting:
-  - ap-1-16-displacement-arrow
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'archers-paradox-1-16/displacement-arrow.png', alt: 'Displacement Arrow' }]}
+/>
+
 > Where did you go?
 
 **Displacement Arrows** create a temporary area where they land which teleports things away.
@@ -17,4 +19,8 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ap-1-16-displacement-arrow']}
+  noResult
+/>

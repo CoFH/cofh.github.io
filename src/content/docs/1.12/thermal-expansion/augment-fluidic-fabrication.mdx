@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Fluidic Fabrication'
-image:
-- alt: Fluidic fabrication augment
-  file: thermal-expansion-5/augment-machine-crafter-tank.png
-redirect_from:
-- /docs/augment-fluidic-fabrication/
-- /docs/thermal-expansion/augment-fluidic-fabrication/
-- /docs/thermal-expansion-5/augment-fluidic-fabrication/
-- /docs/1.12/thermal-expansion-5/augment-fluidic-fabrication/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-crafter-tank
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-crafter-tank.png',
+      alt: 'Fluidic fabrication augment',
+    },
+  ]}
+/>
 
 A **fluidic fabrication** [augment](../augments/) allows for a [sequential
 fabricator](../sequential-fabricator/) to craft recipes that include a fluid
@@ -24,7 +25,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-crafter-tank']}
+  noResult
+/>
 
 
 Usage

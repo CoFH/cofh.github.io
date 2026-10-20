@@ -1,17 +1,13 @@
 ---
 title: Decoctive Diffuser
-redirect_from:
-- /docs/decoctive-diffuser/
-- /docs/thermal-expansion/decoctive-diffuser/
-- /docs/thermal-expansion-5/decoctive-diffuser/
-- /docs/1.12/thermal-expansion-5/decoctive-diffuser/
-image:
-- alt: Decoctive diffuser
-  file: thermal-expansion-5/decoctive-diffuser.png
-recipes:
-  crafting:
-  - te-1-12-device-diffuser
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/decoctive-diffuser.png', alt: 'Decoctive diffuser' }]}
+/>
 
 A **decoctive diffuser**, or **diffuser** for short, is a
 [device](../devices/) that spreads the effects of [fluid
@@ -26,7 +22,11 @@ A placed decoctive diffuser can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-device-diffuser']}
+  noResult
+/>
 
 
 Usage
@@ -53,11 +53,24 @@ The effects of a decoctive diffuser can be boosted by placing reagent items in
 its reagent slot. Reagent will boost the device's effects for 15 cycles per
 item.
 
-| Reagent type | Effect |
-|---
-| [Redstone](https://minecraft.wiki/w/Redstone) | Doubles the duration of the applied effect. |
-| [Glowstone Dust](https://minecraft.wiki/w/Glowstone_Dust) | Increases the potency of the applied effect by one level. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr>
+      <th>Reagent type</th>
+      <th>Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[Redstone](https://minecraft.wiki/w/Redstone)</td>
+      <td>Doubles the duration of the applied effect.</td>
+    </tr>
+    <tr>
+      <td>[Glowstone Dust](https://minecraft.wiki/w/Glowstone_Dust)</td>
+      <td>Increases the potency of the applied effect by one level.</td>
+    </tr>
+  </tbody>
+</table>
 
 Effects applied by decoctive diffusers are limited to durations up to 6 minutes
 and levels up to IV, regardless of the supplied potion or reagent.

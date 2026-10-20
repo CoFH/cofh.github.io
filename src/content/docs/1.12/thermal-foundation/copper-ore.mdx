@@ -1,29 +1,13 @@
 ---
 title: Copper Ore
-redirect_from:
-- /docs/thermal-foundation/world-generation/ores/
-- /docs/thermal-foundation/ores/copper-ore/
-- /docs/thermal-foundation/world/ores/copper-ore/
-- /docs/copper-ore/
-- /docs/thermal-foundation/copper-ore/
-- /docs/thermal-foundation-2/copper-ore/
-- /docs/1.12/thermal-foundation-2/copper-ore/
-usage-recipes:
-  smelting:
-  - tf-1-12-ore-processing-copper
-  crafting:
-  - tf-1-12-pyrotheum-ore-copper
-  - tf-1-12-petrotheum-ore-copper
-  - tf-1-12-petrotheum-pyrotheum-ore-copper
-  pulverizer:
-  - ore-processing-copper
-  smelter:
-  - ore-processing-sand-copper
-  - ore-processing-rich-slag-copper
-  - ore-processing-cinnabar-copper
 ---
 
-![Copper ore](/assets/images/thermal-foundation-2/ore-copper.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/ore-copper.png', alt: 'Copper ore' }]}
+/>
 
 
 **Copper ore** is a common [ore](https://minecraft.wiki/w/Ore) that
@@ -48,16 +32,36 @@ Usage
 -----
 
 ### Smelting
-{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+<RecipeTable
+  type="smelting"
+  recipes={['tf-1-12-ore-processing-copper']}
+/>
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-pyrotheum-ore-copper',
+    'tf-1-12-petrotheum-ore-copper',
+    'tf-1-12-petrotheum-pyrotheum-ore-copper',
+  ]}
+/>
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['ore-processing-copper']}
+/>
 
 ### Induction Smelter
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ore-processing-sand-copper',
+    'ore-processing-rich-slag-copper',
+    'ore-processing-cinnabar-copper',
+  ]}
+/>
 
 ### Smashing
 When copper ore is broken using a [Smashing](../../cofh-core/smashing/)

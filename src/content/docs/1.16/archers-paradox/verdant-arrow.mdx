@@ -1,12 +1,14 @@
 ---
 title: Verdant Arrow
-image: 
-- alt: Verdant Arrow
-  file: archers-paradox-1-16/verdant-arrow.png
-recipes:
-  crafting:
-  - ap-1-16-verdant-arrow
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'archers-paradox-1-16/verdant-arrow.png', alt: 'Verdant Arrow' }]}
+/>
+
 > The grass is always greener on the other side of the arrow
 
 **Verdant Arrows** convert dirt in the area around where they land to grass blocks. They also act like bonemeal, growing crops/plants in the area.
@@ -17,4 +19,8 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ap-1-16-verdant-arrow']}
+  noResult
+/>

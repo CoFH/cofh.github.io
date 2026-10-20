@@ -1,0 +1,62 @@
+---
+import type { DocNavGroup } from '../../data/types.ts';
+import NavboxItem from './NavboxItem.astro';
+import NavboxLink from './NavboxLink.astro';
+
+interface Props {
+  group: DocNavGroup;
+  urlPrefix: string;
+}
+
+const { group, urlPrefix } = Astro.props;
+const subgroups = group.groups ?? [];
+const items = group.items ?? [];
+---
+
+<tr>
+  {group.title !== undefined && (
+    <th class="cofh-navbox-group-title">
+      {group.url !== undefined ? (
+        <NavboxLink url={`${urlPrefix}${group.url}`} text={group.title} icon={undefined} />
+      ) : (
+        group.title
+      )}
+    </th>
+  )}
+
+  <td
+    colspan={group.title === undefined ? 2 : undefined}
+    class:list={[
+      group.title !== undefined && subgroups.length > 0
+        ? 'cofh-navbox-group-subgroups-container'
+        : 'cofh-navbox-group-items',
+      { 'uk-text-center': group.title === undefined },
+    ]}
+  >
+    {items.length > 0 && (
+      <div style={subgroups.length > 0 ? 'padding: 2px' : undefined}>
+        {items.map((item, index) => (
+          <>
+            {index > 0 && (
+              <>
+                {' '}
+                <span class="uk-text-bold">&#8729;</span>{' '}
+              </>
+            )}
+            <NavboxItem item={item} urlPrefix={urlPrefix} />
+          </>
+        ))}
+      </div>
+    )}
+
+    {subgroups.length > 0 && (
+      <table class="uk-table cofh-navbox-table cofh-navbox-subgroups-table">
+        <tbody>
+          {subgroups.map((subgroup) => (
+            <Astro.self group={subgroup} urlPrefix={urlPrefix} />
+          ))}
+        </tbody>
+      </table>
+    )}
+  </td>
+</tr>

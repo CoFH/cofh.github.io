@@ -1,30 +1,20 @@
 ---
 title: Cache
-image:
-- alt: Cache (Basic)
-  file: thermal-expansion-5/cache-basic.png
-- alt: Cache (Hardened)
-  file: thermal-expansion-5/cache-hardened.png
-- alt: Cache (Reinforced)
-  file: thermal-expansion-5/cache-reinforced.png
-- alt: Cache (Signalum)
-  file: thermal-expansion-5/cache-signalum.png
-- alt: Cache (Resonant)
-  file: thermal-expansion-5/cache-resonant.png
-- alt: Cache (Creative)
-  file: thermal-expansion-5/cache-creative.png
-redirect_from:
-- /docs/thermal-expansion/storage/caches/
-- /thermal-expansion/items/cache-2/
-- /docs/thermal-expansion/storage/cache/
-- /docs/cache/
-- /docs/thermal-expansion/cache/
-- /docs/thermal-expansion-5/cache/
-- /docs/1.12/thermal-expansion-5/cache/
-recipes:
-  crafting:
-  - te-1-12-cache-basic
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/cache-basic.png', alt: 'Cache (Basic)' },
+    { file: 'thermal-expansion-5/cache-hardened.png', alt: 'Cache (Hardened)' },
+    { file: 'thermal-expansion-5/cache-reinforced.png', alt: 'Cache (Reinforced)' },
+    { file: 'thermal-expansion-5/cache-signalum.png', alt: 'Cache (Signalum)' },
+    { file: 'thermal-expansion-5/cache-resonant.png', alt: 'Cache (Resonant)' },
+    { file: 'thermal-expansion-5/cache-creative.png', alt: 'Cache (Creative)' },
+  ]}
+/>
 
 A **cache** is a block that stores a large amount of a single item.
 
@@ -37,7 +27,11 @@ A placed cache can be instantly picked up by dismantling it with a
 the item.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-cache-basic']}
+  noResult
+/>
 
 ### Upgrading
 A cache is initially at the lowest [tier](#tiers) (basic). It can be upgraded to
@@ -75,13 +69,17 @@ becomes empty. This can be toggled by using the cache while sneaking.
 A cache can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
-| Holding level | Capacity multiplier |
-|---
-| I | × 1.5 |
-| II | × 2 |
-| III | × 2.5 |
-| IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity multiplier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>× 1.5</td></tr>
+    <tr><td>II</td><td>× 2</td></tr>
+    <tr><td>III</td><td>× 2.5</td></tr>
+    <tr><td>IV</td><td>× 3</td></tr>
+  </tbody>
+</table>
 
 ### Redstone comparators
 When placed next to a cache, a [redstone
@@ -94,16 +92,46 @@ Tiers
 
 Caches come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Capacity | Note |
-|---
-| Basic | 20,000 |
-| Hardened | 80,000 |
-| Reinforced | 180,000 |
-| Signalum | 320,000 |
-| Resonant | 500,000 |
-| Creative | N/A | Provides an unlimited amount of the item it stores. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Capacity</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>20,000</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>80,000</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>180,000</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>320,000</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>500,000</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Creative</td>
+        <td>N/A</td>
+        <td>Provides an unlimited amount of the item it stores.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

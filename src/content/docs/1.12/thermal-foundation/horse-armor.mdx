@@ -1,63 +1,26 @@
 ---
 title: Horse Armor
-image:
-- alt: Copper horse armor
-  file: thermal-foundation-2/horse-armor-copper.png
-- alt: Tin horse armor
-  file: thermal-foundation-2/horse-armor-tin.png
-- alt: Silver horse armor
-  file: thermal-foundation-2/horse-armor-silver.png
-- alt: Lead horse armor
-  file: thermal-foundation-2/horse-armor-lead.png
-- alt: Aluminum horse armor
-  file: thermal-foundation-2/horse-armor-aluminum.png
-- alt: Nickel horse armor
-  file: thermal-foundation-2/horse-armor-nickel.png
-- alt: Platinum horse armor
-  file: thermal-foundation-2/horse-armor-platinum.png
-- alt: Steel horse armor
-  file: thermal-foundation-2/horse-armor-steel.png
-- alt: Electrum horse armor
-  file: thermal-foundation-2/horse-armor-electrum.png
-- alt: Invar horse armor
-  file: thermal-foundation-2/horse-armor-invar.png
-- alt: Bronze horse armor
-  file: thermal-foundation-2/horse-armor-bronze.png
-- alt: Constantan horse armor
-  file: thermal-foundation-2/horse-armor-constantan.png
-recipes:
-  crafting:
-  - tf-1-12-horse-armor-copper
-  - tf-1-12-horse-armor-tin
-  - tf-1-12-horse-armor-silver
-  - tf-1-12-horse-armor-lead
-  - tf-1-12-horse-armor-aluminum
-  - tf-1-12-horse-armor-nickel
-  - tf-1-12-horse-armor-platinum
-  - tf-1-12-horse-armor-steel
-  - tf-1-12-horse-armor-electrum
-  - tf-1-12-horse-armor-invar
-  - tf-1-12-horse-armor-bronze
-  - tf-1-12-horse-armor-constantan
-usage-recipes:
-  smelter:
-  - recycling-horse-armor-copper
-  - recycling-horse-armor-tin
-  - recycling-horse-armor-silver
-  - recycling-horse-armor-lead
-  - recycling-horse-armor-aluminum
-  - recycling-horse-armor-nickel
-  - recycling-horse-armor-platinum
-  - recycling-horse-armor-steel
-  - recycling-horse-armor-electrum
-  - recycling-horse-armor-invar
-  - recycling-horse-armor-bronze
-  - recycling-horse-armor-constantan
-redirect_from:
-- /docs/thermal-foundation/horse-armor/
-- /docs/thermal-foundation-2/horse-armor/
-- /docs/1.12/thermal-foundation-2/horse-armor/
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-foundation-2/horse-armor-copper.png', alt: 'Copper horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-tin.png', alt: 'Tin horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-silver.png', alt: 'Silver horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-lead.png', alt: 'Lead horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-aluminum.png', alt: 'Aluminum horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-nickel.png', alt: 'Nickel horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-platinum.png', alt: 'Platinum horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-steel.png', alt: 'Steel horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-electrum.png', alt: 'Electrum horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-invar.png', alt: 'Invar horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-bronze.png', alt: 'Bronze horse armor' },
+    { file: 'thermal-foundation-2/horse-armor-constantan.png', alt: 'Constantan horse armor' },
+  ]}
+/>
 
 **[Horse armor](https://minecraft.wiki/w/Horse_Armor)** is a type of item
 in vanilla Minecraft. [Thermal Foundation](../) adds a set
@@ -68,36 +31,70 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-horse-armor-copper',
+    'tf-1-12-horse-armor-tin',
+    'tf-1-12-horse-armor-silver',
+    'tf-1-12-horse-armor-lead',
+    'tf-1-12-horse-armor-aluminum',
+    'tf-1-12-horse-armor-nickel',
+    'tf-1-12-horse-armor-platinum',
+    'tf-1-12-horse-armor-steel',
+    'tf-1-12-horse-armor-electrum',
+    'tf-1-12-horse-armor-invar',
+    'tf-1-12-horse-armor-bronze',
+    'tf-1-12-horse-armor-constantan',
+  ]}
+/>
 
 
 Usage
 -----
 
 ### Comparison
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Armor |
-|---
-| Iron | 5 |
-| Gold | 7 |
-| Diamond | 11 |
-|
-| Copper | 4 |
-| Tin | 4 |
-| Silver | 8 |
-| Lead | 5 |
-| Aluminum | 5 |
-| Nickel | 9 |
-| Platinum | 12 |
-| Steel | 9 |
-| Electrum | 8 |
-| Invar | 9 |
-| Bronze | 8 |
-| Constantan | 8 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Material</th><th>Armor</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Iron</td><td>5</td></tr>
+      <tr><td>Gold</td><td>7</td></tr>
+      <tr><td>Diamond</td><td>11</td></tr>
+      <tr><td colspan="2">&nbsp;</td></tr>
+      <tr><td>Copper</td><td>4</td></tr>
+      <tr><td>Tin</td><td>4</td></tr>
+      <tr><td>Silver</td><td>8</td></tr>
+      <tr><td>Lead</td><td>5</td></tr>
+      <tr><td>Aluminum</td><td>5</td></tr>
+      <tr><td>Nickel</td><td>9</td></tr>
+      <tr><td>Platinum</td><td>12</td></tr>
+      <tr><td>Steel</td><td>9</td></tr>
+      <tr><td>Electrum</td><td>8</td></tr>
+      <tr><td>Invar</td><td>9</td></tr>
+      <tr><td>Bronze</td><td>8</td></tr>
+      <tr><td>Constantan</td><td>8</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'recycling-horse-armor-copper',
+    'recycling-horse-armor-tin',
+    'recycling-horse-armor-silver',
+    'recycling-horse-armor-lead',
+    'recycling-horse-armor-aluminum',
+    'recycling-horse-armor-nickel',
+    'recycling-horse-armor-platinum',
+    'recycling-horse-armor-steel',
+    'recycling-horse-armor-electrum',
+    'recycling-horse-armor-invar',
+    'recycling-horse-armor-bronze',
+    'recycling-horse-armor-constantan',
+  ]}
+/>

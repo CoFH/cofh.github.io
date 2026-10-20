@@ -1,33 +1,23 @@
 ---
 title: Flux Capacitor
-image:
-- alt: Flux capacitor (Basic)
-  file: thermal-expansion-5/flux-capacitor-basic.png
-- alt: Flux capacitor (Hardened)
-  file: thermal-expansion-5/flux-capacitor-hardened.png
-- alt: Flux capacitor (Reinforced)
-  file: thermal-expansion-5/flux-capacitor-reinforced.png
-- alt: Flux capacitor (Signalum)
-  file: thermal-expansion-5/flux-capacitor-signalum.png
-- alt: Flux capacitor (Resonant)
-  file: thermal-expansion-5/flux-capacitor-resonant.png
-- alt: Flux capacitor (Creative)
-  file: thermal-expansion-5/flux-capacitor-creative.png
-redirect_from:
-- /docs/thermal-expansion/storage/flux-capacitors/
-- /docs/thermal-expansion/storage/flux-capacitor/
-- /docs/flux-capacitor/
-- /docs/thermal-expansion/flux-capacitor/
-- /docs/thermal-expansion-5/flux-capacitor/
-- /docs/1.12/thermal-expansion-5/flux-capacitor/
-recipes:
-  crafting:
-  - te-1-12-flux-capacitor-basic
-  - te-1-12-flux-capacitor-hardened
-  - te-1-12-flux-capacitor-reinforced
-  - te-1-12-flux-capacitor-signalum
-  - te-1-12-flux-capacitor-resonant
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/flux-capacitor-basic.png', alt: 'Flux capacitor (Basic)' },
+    { file: 'thermal-expansion-5/flux-capacitor-hardened.png', alt: 'Flux capacitor (Hardened)' },
+    {
+      file: 'thermal-expansion-5/flux-capacitor-reinforced.png',
+      alt: 'Flux capacitor (Reinforced)',
+    },
+    { file: 'thermal-expansion-5/flux-capacitor-signalum.png', alt: 'Flux capacitor (Signalum)' },
+    { file: 'thermal-expansion-5/flux-capacitor-resonant.png', alt: 'Flux capacitor (Resonant)' },
+    { file: 'thermal-expansion-5/flux-capacitor-creative.png', alt: 'Flux capacitor (Creative)' },
+  ]}
+/>
 
 A **flux capacitor** is an item that stores [Redstone
 Flux](/docs/redstone-flux/) and can use it to charge items in a player's
@@ -38,7 +28,16 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'te-1-12-flux-capacitor-basic',
+    'te-1-12-flux-capacitor-hardened',
+    'te-1-12-flux-capacitor-reinforced',
+    'te-1-12-flux-capacitor-signalum',
+    'te-1-12-flux-capacitor-resonant',
+  ]}
+/>
 
 
 Usage
@@ -81,13 +80,17 @@ removed by placing the flux capacitor in a crafting grid.
 A flux capacitor can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
-| Holding level | Capacity multiplier |
-|---
-| I | × 1.5 |
-| II | × 2 |
-| III | × 2.5 |
-| IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity multiplier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>× 1.5</td></tr>
+    <tr><td>II</td><td>× 2</td></tr>
+    <tr><td>III</td><td>× 2.5</td></tr>
+    <tr><td>IV</td><td>× 3</td></tr>
+  </tbody>
+</table>
 
 
 Tiers
@@ -95,16 +98,60 @@ Tiers
 
 Flux capacitors come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Capacity | Max. charge rate | Max. discharge rate | Note |
-|---
-| Basic | 1,000,000 RF | 2,000 RF/t | 1,000 RF/t |
-| Hardened | 4,000,000 RF | 8,000 RF/t | 4,000 RF/t |
-| Reinforced | 9,000,000 RF | 18,000 RF/t | 9,000 RF/t |
-| Signalum | 16,000,000 RF | 32,000 RF/t | 16,000 RF/t |
-| Resonant | 25,000,000 RF | 50,000 RF/t | 25,000 RF/t |
-| Creative | N/A | N/A | 250,000 RF/t | Provides an unlimited amount of energy. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Capacity</th>
+        <th>Max. charge rate</th>
+        <th>Max. discharge rate</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>1,000,000 RF</td>
+        <td>2,000 RF/t</td>
+        <td>1,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>4,000,000 RF</td>
+        <td>8,000 RF/t</td>
+        <td>4,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>9,000,000 RF</td>
+        <td>18,000 RF/t</td>
+        <td>9,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>16,000,000 RF</td>
+        <td>32,000 RF/t</td>
+        <td>16,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>25,000,000 RF</td>
+        <td>50,000 RF/t</td>
+        <td>25,000 RF/t</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Creative</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>250,000 RF/t</td>
+        <td>Provides an unlimited amount of energy.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

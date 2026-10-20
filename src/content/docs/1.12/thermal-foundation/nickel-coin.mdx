@@ -1,17 +1,13 @@
 ---
 title: Nickel Coin
-redirect_from:
-- /docs/thermal-foundation/items/materials/coins/nickel-coin/
-- /docs/nickel-coin/
-- /docs/thermal-foundation/nickel-coin/
-- /docs/thermal-foundation-2/nickel-coin/
-- /docs/1.12/thermal-foundation-2/nickel-coin/
-recipes:
-  compactor-coin:
-  - coin-nickel
 ---
 
-![Nickel coin](/assets/images/thermal-foundation-2/coin-nickel.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/coin-nickel.png', alt: 'Nickel coin' }]}
+/>
 
 
 **Nickel coins** are materials made of [nickel](../nickel-ingot/) that can be
@@ -22,7 +18,11 @@ Obtaining
 ---------
 
 ### Compactor with Numismatic Press
-{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.recipes.compactor-coin no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/compactor-coin"
+  recipes={['coin-nickel']}
+  noResult
+/>
 
 
 Usage

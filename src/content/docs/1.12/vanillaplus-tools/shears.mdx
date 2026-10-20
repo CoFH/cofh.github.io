@@ -1,23 +1,18 @@
 ---
 title: Shears
-image:
-- alt: Gold shears
-  file: vanillaplus-tools/shears-gold.png
-- alt: Diamond shears
-  file: vanillaplus-tools/shears-diamond.png
-- alt: Wooden shears
-  file: vanillaplus-tools/shears-wood.png
-- alt: Stone shears
-  file: vanillaplus-tools/shears-stone.png
-recipes:
-  crafting:
-  - vpt-1-12-tool-shears-wood
-  - vpt-1-12-tool-shears-stone
-  - vpt-1-12-tool-shears-gold
-  - vpt-1-12-tool-shears-diamond
-redirect_from:
-- /docs/vanillaplus-tools/shears/
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'vanillaplus-tools/shears-gold.png', alt: 'Gold shears' },
+    { file: 'vanillaplus-tools/shears-diamond.png', alt: 'Diamond shears' },
+    { file: 'vanillaplus-tools/shears-wood.png', alt: 'Wooden shears' },
+    { file: 'vanillaplus-tools/shears-stone.png', alt: 'Stone shears' },
+  ]}
+/>
 
 **[Shears](https://minecraft.wiki/w/Shears)** are tools in vanilla
 Minecraft. [Vanilla+ Tools](../) adds a set of shears made
@@ -28,27 +23,37 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting with-note=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'vpt-1-12-tool-shears-wood',
+    'vpt-1-12-tool-shears-stone',
+    'vpt-1-12-tool-shears-gold',
+    'vpt-1-12-tool-shears-diamond',
+  ]}
+/>
 
 
 Usage
 -----
 
 ### Comparison
-{% comment %}
+{/*
 uses = mat.maxUses - 12
-{% endcomment %}
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Uses |
-|---
-| Iron (vanilla) | 238 |
-|
-| Wood | 47 |
-| Stone | 119 |
-| Gold | 20 |
-| Diamond | 1,549 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Material</th><th>Uses</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Iron (vanilla)</td><td>238</td></tr>
+      <tr><td colspan="2">&nbsp;</td></tr>
+      <tr><td>Wood</td><td>47</td></tr>
+      <tr><td>Stone</td><td>119</td></tr>
+      <tr><td>Gold</td><td>20</td></tr>
+      <tr><td>Diamond</td><td>1,549</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

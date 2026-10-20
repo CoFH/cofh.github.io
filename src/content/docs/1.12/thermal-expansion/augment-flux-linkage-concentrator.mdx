@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Flux Linkage Concentrator'
-image:
-- alt: Flux linkage concentrator augment
-  file: thermal-expansion-5/augment-machine-charger-throughput.png
-redirect_from:
-- /docs/augment-flux-linkage-concentrator/
-- /docs/thermal-expansion/augment-flux-linkage-concentrator/
-- /docs/thermal-expansion-5/augment-flux-linkage-concentrator/
-- /docs/1.12/thermal-expansion-5/augment-flux-linkage-concentrator/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-charger-throughput
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-charger-throughput.png',
+      alt: 'Flux linkage concentrator augment',
+    },
+  ]}
+/>
 
 A **flux linkage concentrator** is an [augment](../augments/) that greatly
 increases the charging speed of an [energetic infuser](../energetic-infuser/)
@@ -22,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-charger-throughput']}
+  noResult
+/>
 
 
 Usage
@@ -40,18 +45,20 @@ that hold [Redstone Flux](/docs/redstone-flux/), thereby greatly increasing its
 charging speed. The increased maximum power usage depends on the machine's
 [tier](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. charging rate |
-|---
-| Basic | 2,000 RF/t |
-| Hardened | 8,000 RF/t |
-| Reinforced | 18,000 RF/t |
-| Signalum | 32,000 RF/t |
-| Resonant / Creative | 50,000 RF/t |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Tier</th><th>Max. charging rate</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Basic</td><td>2,000 RF/t</td></tr>
+      <tr><td>Hardened</td><td>8,000 RF/t</td></tr>
+      <tr><td>Reinforced</td><td>18,000 RF/t</td></tr>
+      <tr><td>Signalum</td><td>32,000 RF/t</td></tr>
+      <tr><td>Resonant / Creative</td><td>50,000 RF/t</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 An energetic infuser with a flux linkage concentrator installed will still be
 limited by the maximum charging rate of items it charges.

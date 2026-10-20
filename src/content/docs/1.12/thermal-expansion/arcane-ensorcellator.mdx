@@ -1,19 +1,14 @@
 ---
 title: Arcane Ensorcellator
-image:
-- alt: Arcane ensorcellator
-  file: thermal-expansion-5/arcane-ensorcellator.png
-redirect_from:
-- /docs/arcane-ensorcellator/
-- /docs/thermal-expansion/arcane-ensorcellator/
-- /docs/thermal-expansion-5/arcane-ensorcellator/
-- /docs/1.12/thermal-expansion-5/arcane-ensorcellator/
-recipes:
-  crafting:
-  - te-1-12-machine-enchanter
-augments:
-- machine-power
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/arcane-ensorcellator.png', alt: 'Arcane ensorcellator' }]}
+/>
 
 > Behold, magitech!
 
@@ -34,7 +29,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-machine-enchanter']}
+  noResult
+/>
 
 ### Upgrading
 An arcane ensorcellator is initially at the lowest [tier](#tiers) (basic). It
@@ -120,18 +119,50 @@ Tiers
 
 Arcane ensorcellators come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
-| Basic | 20 RF/t | 0 | 16 |
-| Hardened | 30 RF/t | 1 | 16 |
-| Reinforced | 40 RF/t | 2 | 28 |
-| Signalum | 50 RF/t | 3 | 44 |
-| Resonant | 60 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Max. power usage</th>
+        <th>Augment slots</th>
+        <th>Max. items per auto-transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>20 RF/t</td>
+        <td>0</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>30 RF/t</td>
+        <td>1</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>40 RF/t</td>
+        <td>2</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>50 RF/t</td>
+        <td>3</td>
+        <td>44</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>60 RF/t</td>
+        <td>4</td>
+        <td>64</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -145,7 +176,9 @@ ensorcellator cannot be augmented.
 Augments can be installed in the Augmentation tab in an arcane ensorcellator's
 GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={['machine-power']}
+/>
 
 
 Recipes
@@ -157,55 +190,252 @@ books](https://minecraft.wiki/w/Enchanted_Book) with the following
 [books](https://minecraft.wiki/w/Books) with certain items and [essence
 of knowledge](../../thermal-foundation/essence-of-knowledge/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Enchantment | Item | Essence of Knowledge | Energy |
-|---
-| [Unbreaking I](https://minecraft.wiki/w/Unbreaking) | [Obsidian](https://minecraft.wiki/w/Obsidian) | 1,500 mB | 12,000 RF |
-| [Mending](https://minecraft.wiki/w/Mending) | [Nether Star](https://minecraft.wiki/w/Nether_Star) | 5,000 mB | 40,000 RF |
-|
-| [Protection I](https://minecraft.wiki/w/Protection) | [Iron Ingot](https://minecraft.wiki/w/Iron_Ingot) | 500 mB | 4,000 RF |
-| [Fire Protection I](https://minecraft.wiki/w/Fire_Protection) | [Magma Cream](https://minecraft.wiki/w/Magma_Cream) | 1,500 mB | 12,000 RF |
-| [Feather Falling I](https://minecraft.wiki/w/Feather_Falling) | [Feather](https://minecraft.wiki/w/Feather) | 1,500 mB | 12,000 RF |
-| [Blast Protection I](https://minecraft.wiki/w/Blast_Protection) | [Gunpowder](https://minecraft.wiki/w/Gunpowder) | 1,500 mB | 12,000 RF |
-| [Projectile Protection I](https://minecraft.wiki/w/Projectile_Protection) | [Shield](https://minecraft.wiki/w/Shield) | 1,500 mB | 12,000 RF |
-| [Respiration I](https://minecraft.wiki/w/Respiration) | [Pufferfish](https://minecraft.wiki/w/Pufferfish) | 3,000 mB | 24,000 RF |
-| [Aqua Affinity](https://minecraft.wiki/w/Aqua_Affinity) | [Prismarine Crystals](https://minecraft.wiki/w/Prismarine_Crystals) | 3,000 mB | 24,000 RF |
-| [Depth Strider I](https://minecraft.wiki/w/Depth_Strider) | [Prismarine Shard](https://minecraft.wiki/w/Prismarine_Shard) | 3,000 mB | 24,000 RF |
-| [Thorns I](https://minecraft.wiki/w/Thorns) | [Rose Bush](https://minecraft.wiki/w/Rose_Bush) | 5,000 mB | 40,000 RF |
-| [Frost Walker I](https://minecraft.wiki/w/Frost_Walker) | [Ice](https://minecraft.wiki/w/Ice) | 5,000 mB | 40,000 RF |
-|
-| [Sharpness I](https://minecraft.wiki/w/Sharpness) | [Nether Quartz](https://minecraft.wiki/w/Nether_Quartz) | 500 mB | 4,000 RF |
-| [Smite I](https://minecraft.wiki/w/Smite) | [Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) | 1,500 mB | 12,000 RF |
-| [Bane of Arthropods I](https://minecraft.wiki/w/Bane_of_Arthropods) | [Spider Eye](https://minecraft.wiki/w/Spider_Eye) | 1,500 mB | 12,000 RF |
-| [Knockback I](https://minecraft.wiki/w/Knockback) | [Piston](https://minecraft.wiki/w/Piston) | 1,500 mB | 12,000 RF |
-| [Fire Aspect I](https://minecraft.wiki/w/Fire_Aspect) | [Blaze Rod](https://minecraft.wiki/w/Blaze_Rod) | 3,000 mB | 24,000 RF |
-| [Looting I](https://minecraft.wiki/w/Looting) | [Gold Ingot](https://minecraft.wiki/w/Gold_Ingot) | 3,000 mB | 24,000 RF |
-| [Sweeping Edge I](https://minecraft.wiki/w/Sweeping_Edge) | [Sugar Canes](https://minecraft.wiki/w/Sugar_Canes) | 3,000 mB | 24,000 RF |
-|
-| [Efficiency I](https://minecraft.wiki/w/Efficiency) | [Redstone](https://minecraft.wiki/w/Redstone) | 500 mB | 4,000 RF |
-| [Fortune I](https://minecraft.wiki/w/Fortune) | [Emerald](https://minecraft.wiki/w/Emerald) | 3,000 mB | 24,000 RF |
-| [Silk Touch](https://minecraft.wiki/w/Silk_Touch) | [Glowstone Dust](https://minecraft.wiki/w/Glowstone_Dust) | 5,000 mB | 40,000 RF |
-|
-| [Power I](https://minecraft.wiki/w/Power) | [Flint](https://minecraft.wiki/w/Flint) | 500 mB | 4,000 RF |
-| [Punch I](https://minecraft.wiki/w/Punch) | [String](https://minecraft.wiki/w/String) | 3,000 mB | 24,000 RF |
-| [Flame](https://minecraft.wiki/w/Flame) | [Blaze Powder](https://minecraft.wiki/w/Blaze_Powder) | 3,000 mB | 24,000 RF |
-| [Infinity](https://minecraft.wiki/w/Infinity) | [Eye of Ender](https://minecraft.wiki/w/Eye_of_Ender) | 5,000 mB | 40,000 RF |
-|
-| [Luck of the Sea I](https://minecraft.wiki/w/Luck_of_the_Sea) | [Clownfish](https://minecraft.wiki/w/Clownfish) | 3,000 mB | 24,000 RF |
-| [Lure I](https://minecraft.wiki/w/Lure) | [Carrot on a Stick](https://minecraft.wiki/w/Carrot_on_a_Stick) | 3,000 mB | 24,000 RF |
-|
-| [Curse of Binding](https://minecraft.wiki/w/Curse_of_Binding) | [Popped Chorus Fruit](https://minecraft.wiki/w/Popped_Chorus_Fruit) | 5,000 mB | 40,000 RF |
-| [Curse of Vanishing](https://minecraft.wiki/w/Curse_of_Vanishing) | [Ghast Tear](https://minecraft.wiki/w/Ghast_Tear) | 5,000 mB | 40,000 RF |
-|
-| [Holding I](../../cofh-core/holding/) | [Chest](https://minecraft.wiki/w/Chest) | 1,500 mB | 500 RF |
-| [Insight I](../../cofh-core/insight/) | [Bottle o' Enchanting](https://minecraft.wiki/w/Bottle_o%27_Enchanting) | 1,500 mB | 12,000 RF |
-| [Leech I](../../cofh-core/leech/) | [Nether Wart](https://minecraft.wiki/w/Nether_Wart) | 1,500 mB | 12,000 RF |
-| [Soulbound I](../../cofh-core/soulbound/) | [Soul Sand](https://minecraft.wiki/w/Soul_Sand) | 1,500 mB | 12,000 RF |
-| [Multishot I](../../cofh-core/multishot/) | [Arrow](https://minecraft.wiki/w/Arrow) | 3,000 mB | 24,000 RF |
-| [Smashing](../../cofh-core/smashing/) | [Petrotheum Dust](../../thermal-foundation/petrotheum-dust/) | 3,000 mB | 24,000 RF |
-| [Smelting](../../cofh-core/smelting/) | [Pyrotheum Dust](../../thermal-foundation/pyrotheum-dust/) | 3,000 mB | 24,000 RF |
-| [Vorpal I](../../cofh-core/vorpal/) | [Wither Skeleton Skull](https://minecraft.wiki/w/Wither_Skeleton_Skull) | 5,000 mB | 40,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Enchantment</th>
+        <th>Item</th>
+        <th>Essence of Knowledge</th>
+        <th>Energy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[Unbreaking I](https://minecraft.wiki/w/Unbreaking)</td>
+        <td>[Obsidian](https://minecraft.wiki/w/Obsidian)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Mending](https://minecraft.wiki/w/Mending)</td>
+        <td>[Nether Star](https://minecraft.wiki/w/Nether_Star)</td>
+        <td>5,000 mB</td>
+        <td>40,000 RF</td>
+      </tr>
+      <tr><td colspan="4">&nbsp;</td></tr>
+      <tr>
+        <td>[Protection I](https://minecraft.wiki/w/Protection)</td>
+        <td>[Iron Ingot](https://minecraft.wiki/w/Iron_Ingot)</td>
+        <td>500 mB</td>
+        <td>4,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Fire Protection I](https://minecraft.wiki/w/Fire_Protection)</td>
+        <td>[Magma Cream](https://minecraft.wiki/w/Magma_Cream)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Feather Falling I](https://minecraft.wiki/w/Feather_Falling)</td>
+        <td>[Feather](https://minecraft.wiki/w/Feather)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Blast Protection I](https://minecraft.wiki/w/Blast_Protection)</td>
+        <td>[Gunpowder](https://minecraft.wiki/w/Gunpowder)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Projectile Protection I](https://minecraft.wiki/w/Projectile_Protection)</td>
+        <td>[Shield](https://minecraft.wiki/w/Shield)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Respiration I](https://minecraft.wiki/w/Respiration)</td>
+        <td>[Pufferfish](https://minecraft.wiki/w/Pufferfish)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Aqua Affinity](https://minecraft.wiki/w/Aqua_Affinity)</td>
+        <td>[Prismarine Crystals](https://minecraft.wiki/w/Prismarine_Crystals)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Depth Strider I](https://minecraft.wiki/w/Depth_Strider)</td>
+        <td>[Prismarine Shard](https://minecraft.wiki/w/Prismarine_Shard)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Thorns I](https://minecraft.wiki/w/Thorns)</td>
+        <td>[Rose Bush](https://minecraft.wiki/w/Rose_Bush)</td>
+        <td>5,000 mB</td>
+        <td>40,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Frost Walker I](https://minecraft.wiki/w/Frost_Walker)</td>
+        <td>[Ice](https://minecraft.wiki/w/Ice)</td>
+        <td>5,000 mB</td>
+        <td>40,000 RF</td>
+      </tr>
+      <tr><td colspan="4">&nbsp;</td></tr>
+      <tr>
+        <td>[Sharpness I](https://minecraft.wiki/w/Sharpness)</td>
+        <td>[Nether Quartz](https://minecraft.wiki/w/Nether_Quartz)</td>
+        <td>500 mB</td>
+        <td>4,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Smite I](https://minecraft.wiki/w/Smite)</td>
+        <td>[Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Bane of Arthropods I](https://minecraft.wiki/w/Bane_of_Arthropods)</td>
+        <td>[Spider Eye](https://minecraft.wiki/w/Spider_Eye)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Knockback I](https://minecraft.wiki/w/Knockback)</td>
+        <td>[Piston](https://minecraft.wiki/w/Piston)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Fire Aspect I](https://minecraft.wiki/w/Fire_Aspect)</td>
+        <td>[Blaze Rod](https://minecraft.wiki/w/Blaze_Rod)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Looting I](https://minecraft.wiki/w/Looting)</td>
+        <td>[Gold Ingot](https://minecraft.wiki/w/Gold_Ingot)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Sweeping Edge I](https://minecraft.wiki/w/Sweeping_Edge)</td>
+        <td>[Sugar Canes](https://minecraft.wiki/w/Sugar_Canes)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr><td colspan="4">&nbsp;</td></tr>
+      <tr>
+        <td>[Efficiency I](https://minecraft.wiki/w/Efficiency)</td>
+        <td>[Redstone](https://minecraft.wiki/w/Redstone)</td>
+        <td>500 mB</td>
+        <td>4,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Fortune I](https://minecraft.wiki/w/Fortune)</td>
+        <td>[Emerald](https://minecraft.wiki/w/Emerald)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Silk Touch](https://minecraft.wiki/w/Silk_Touch)</td>
+        <td>[Glowstone Dust](https://minecraft.wiki/w/Glowstone_Dust)</td>
+        <td>5,000 mB</td>
+        <td>40,000 RF</td>
+      </tr>
+      <tr><td colspan="4">&nbsp;</td></tr>
+      <tr>
+        <td>[Power I](https://minecraft.wiki/w/Power)</td>
+        <td>[Flint](https://minecraft.wiki/w/Flint)</td>
+        <td>500 mB</td>
+        <td>4,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Punch I](https://minecraft.wiki/w/Punch)</td>
+        <td>[String](https://minecraft.wiki/w/String)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Flame](https://minecraft.wiki/w/Flame)</td>
+        <td>[Blaze Powder](https://minecraft.wiki/w/Blaze_Powder)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Infinity](https://minecraft.wiki/w/Infinity)</td>
+        <td>[Eye of Ender](https://minecraft.wiki/w/Eye_of_Ender)</td>
+        <td>5,000 mB</td>
+        <td>40,000 RF</td>
+      </tr>
+      <tr><td colspan="4">&nbsp;</td></tr>
+      <tr>
+        <td>[Luck of the Sea I](https://minecraft.wiki/w/Luck_of_the_Sea)</td>
+        <td>[Clownfish](https://minecraft.wiki/w/Clownfish)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Lure I](https://minecraft.wiki/w/Lure)</td>
+        <td>[Carrot on a Stick](https://minecraft.wiki/w/Carrot_on_a_Stick)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr><td colspan="4">&nbsp;</td></tr>
+      <tr>
+        <td>[Curse of Binding](https://minecraft.wiki/w/Curse_of_Binding)</td>
+        <td>[Popped Chorus Fruit](https://minecraft.wiki/w/Popped_Chorus_Fruit)</td>
+        <td>5,000 mB</td>
+        <td>40,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Curse of Vanishing](https://minecraft.wiki/w/Curse_of_Vanishing)</td>
+        <td>[Ghast Tear](https://minecraft.wiki/w/Ghast_Tear)</td>
+        <td>5,000 mB</td>
+        <td>40,000 RF</td>
+      </tr>
+      <tr><td colspan="4">&nbsp;</td></tr>
+      <tr>
+        <td>[Holding I](../../cofh-core/holding/)</td>
+        <td>[Chest](https://minecraft.wiki/w/Chest)</td>
+        <td>1,500 mB</td>
+        <td>500 RF</td>
+      </tr>
+      <tr>
+        <td>[Insight I](../../cofh-core/insight/)</td>
+        <td>[Bottle o' Enchanting](https://minecraft.wiki/w/Bottle_o%27_Enchanting)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Leech I](../../cofh-core/leech/)</td>
+        <td>[Nether Wart](https://minecraft.wiki/w/Nether_Wart)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Soulbound I](../../cofh-core/soulbound/)</td>
+        <td>[Soul Sand](https://minecraft.wiki/w/Soul_Sand)</td>
+        <td>1,500 mB</td>
+        <td>12,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Multishot I](../../cofh-core/multishot/)</td>
+        <td>[Arrow](https://minecraft.wiki/w/Arrow)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Smashing](../../cofh-core/smashing/)</td>
+        <td>[Petrotheum Dust](../../thermal-foundation/petrotheum-dust/)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Smelting](../../cofh-core/smelting/)</td>
+        <td>[Pyrotheum Dust](../../thermal-foundation/pyrotheum-dust/)</td>
+        <td>3,000 mB</td>
+        <td>24,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Vorpal I](../../cofh-core/vorpal/)</td>
+        <td>[Wither Skeleton Skull](https://minecraft.wiki/w/Wither_Skeleton_Skull)</td>
+        <td>5,000 mB</td>
+        <td>40,000 RF</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Pattern Validation'
-image:
-- alt: Pattern validation augment
-  file: thermal-expansion-5/augment-machine-crafter-input.gif
-redirect_from:
-- /docs/augment-pattern-validation/
-- /docs/thermal-expansion/augment-pattern-validation/
-- /docs/thermal-expansion-5/augment-pattern-validation/
-- /docs/1.12/thermal-expansion-5/augment-pattern-validation/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-crafter-input
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-crafter-input.gif',
+      alt: 'Pattern validation augment',
+    },
+  ]}
+/>
 
 A **pattern validation** [augment](../augments/) allows for a [sequential
 fabricator](../sequential-fabricator/) to handle item input more
@@ -22,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-crafter-input']}
+  noResult
+/>
 
 
 Usage

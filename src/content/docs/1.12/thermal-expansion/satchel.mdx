@@ -1,38 +1,21 @@
 ---
 title: Satchel
-image:
-- alt: Satchel (Basic)
-  file: thermal-expansion-5/satchel-basic.png
-- alt: Satchel (Hardened)
-  file: thermal-expansion-5/satchel-hardened.png
-- alt: Satchel (Reinforced)
-  file: thermal-expansion-5/satchel-reinforced.png
-- alt: Satchel (Signalum)
-  file: thermal-expansion-5/satchel-signalum.png
-- alt: Satchel (Resonant)
-  file: thermal-expansion-5/satchel-resonant.png
-- alt: Satchel (Void)
-  file: thermal-expansion-5/satchel-void.gif
-- alt: Satchel (Creative)
-  file: thermal-expansion-5/satchel-creative.png
-redirect_from:
-- /docs/thermal-expansion/storage/satchels/
-- /docs/thermal-expansion/storage/satchel/
-- /docs/satchel/
-- /docs/thermal-expansion/satchel/
-- /docs/thermal-expansion-5/satchel/
-- /docs/1.12/thermal-expansion-5/satchel/
-recipes:
-  crafting:
-  - te-1-12-satchel-basic-using-leather
-  - te-1-12-satchel-basic-using-rockwool
-  - te-1-12-satchel-hardened
-  - te-1-12-satchel-reinforced
-  - te-1-12-satchel-signalum
-  - te-1-12-satchel-resonant
-  - te-1-12-satchel-void-using-leather
-  - te-1-12-satchel-void-using-rockwool
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/satchel-basic.png', alt: 'Satchel (Basic)' },
+    { file: 'thermal-expansion-5/satchel-hardened.png', alt: 'Satchel (Hardened)' },
+    { file: 'thermal-expansion-5/satchel-reinforced.png', alt: 'Satchel (Reinforced)' },
+    { file: 'thermal-expansion-5/satchel-signalum.png', alt: 'Satchel (Signalum)' },
+    { file: 'thermal-expansion-5/satchel-resonant.png', alt: 'Satchel (Resonant)' },
+    { file: 'thermal-expansion-5/satchel-void.gif', alt: 'Satchel (Void)' },
+    { file: 'thermal-expansion-5/satchel-creative.png', alt: 'Satchel (Creative)' },
+  ]}
+/>
 
 A **satchel** is an item that stores other items. It is able to automatically
 store picked up items.
@@ -42,7 +25,19 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'te-1-12-satchel-basic-using-leather',
+    'te-1-12-satchel-basic-using-rockwool',
+    'te-1-12-satchel-hardened',
+    'te-1-12-satchel-reinforced',
+    'te-1-12-satchel-signalum',
+    'te-1-12-satchel-resonant',
+    'te-1-12-satchel-void-using-leather',
+    'te-1-12-satchel-void-using-rockwool',
+  ]}
+/>
 
 
 Usage
@@ -98,13 +93,17 @@ installed to restrict who can access it.
 A satchel can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
-| Holding level | Capacity increase (slots) |
-|---
-| I | + 9 |
-| II | + 18 |
-| III | + 27 |
-| IV | + 36 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity increase (slots)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>+ 9</td></tr>
+    <tr><td>II</td><td>+ 18</td></tr>
+    <tr><td>III</td><td>+ 27</td></tr>
+    <tr><td>IV</td><td>+ 36</td></tr>
+  </tbody>
+</table>
 
 
 Types
@@ -113,17 +112,59 @@ Types
 There are seven different satchel types, most of which are
 [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Type | Capacity (slots) | Auto-collect filter slots | Note |
-|---
-| Basic | 9 | 3 |
-| Hardened | 18 | 6 |
-| Reinforced | 27 | 9 |
-| Signalum | 36 | 12 |
-| Resonant | 45 | 15 |
-| Void | 1 | 15 | Destroys any items it receives. |
-| Creative | 1 | N/A | Provides an unlimited amount of the item it stores. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Capacity (slots)</th>
+        <th>Auto-collect filter slots</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>9</td>
+        <td>3</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>18</td>
+        <td>6</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>27</td>
+        <td>9</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>36</td>
+        <td>12</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>45</td>
+        <td>15</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Void</td>
+        <td>1</td>
+        <td>15</td>
+        <td>Destroys any items it receives.</td>
+      </tr>
+      <tr>
+        <td>Creative</td>
+        <td>1</td>
+        <td>N/A</td>
+        <td>Provides an unlimited amount of the item it stores.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

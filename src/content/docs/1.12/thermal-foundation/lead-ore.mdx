@@ -1,28 +1,13 @@
 ---
 title: Lead Ore
-redirect_from:
-- /docs/thermal-foundation/ores/lead-ore/
-- /docs/thermal-foundation/world/ores/lead-ore/
-- /docs/lead-ore/
-- /docs/thermal-foundation/lead-ore/
-- /docs/thermal-foundation-2/lead-ore/
-- /docs/1.12/thermal-foundation-2/lead-ore/
-usage-recipes:
-  smelting:
-  - tf-1-12-ore-processing-lead
-  crafting:
-  - tf-1-12-pyrotheum-ore-lead
-  - tf-1-12-petrotheum-ore-lead
-  - tf-1-12-petrotheum-pyrotheum-ore-lead
-  pulverizer:
-  - ore-processing-lead
-  smelter:
-  - ore-processing-sand-lead
-  - ore-processing-rich-slag-lead
-  - ore-processing-cinnabar-lead
 ---
 
-![Lead ore](/assets/images/thermal-foundation-2/ore-lead.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/ore-lead.png', alt: 'Lead ore' }]}
+/>
 
 
 **Lead ore** is a somewhat uncommon [ore](https://minecraft.wiki/w/Ore)
@@ -50,16 +35,36 @@ Usage
 -----
 
 ### Smelting
-{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+<RecipeTable
+  type="smelting"
+  recipes={['tf-1-12-ore-processing-lead']}
+/>
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-pyrotheum-ore-lead',
+    'tf-1-12-petrotheum-ore-lead',
+    'tf-1-12-petrotheum-pyrotheum-ore-lead',
+  ]}
+/>
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['ore-processing-lead']}
+/>
 
 ### Induction Smelter
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ore-processing-sand-lead',
+    'ore-processing-rich-slag-lead',
+    'ore-processing-cinnabar-lead',
+  ]}
+/>
 
 ### Smashing
 When lead ore is broken using a [Smashing](../../cofh-core/smashing/) enchanted

@@ -1,0 +1,56 @@
+---
+import { Image } from 'astro:assets';
+
+import augments from '../../../../data/1.12/thermal-expansion/augments.ts';
+import type { Augment } from '../../../../data/types.ts';
+import { image } from '../../../../lib/images.ts';
+
+interface Props {
+  augments: (keyof typeof augments)[];
+}
+
+const rows = Astro.props.augments.map((id) => {
+  const augment: Augment = augments[id];
+
+  return { id, augment, url: `/docs/1.12/thermal-expansion/${augment.url}` };
+});
+---
+
+<div class="uk-overflow-container">
+  <table class="uk-table uk-table-striped uk-text-small cofh-info-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Augment</th>
+        <th class="cofh-nowrap">Installable in</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {rows.map(({ id, augment, url }) => (
+        <tr>
+          <td style="width: 48px; min-width: 48px">
+            <a href={url}>
+              <Image
+                src={image(`thermal-expansion-5/augment-${id}.${augment.animated ? 'gif' : 'png'}`)}
+                alt={augment.name}
+                style="width: 48px; height: 48px"
+              />
+            </a>
+          </td>
+
+          <td class="cofh-nowrap">
+            <strong>
+              <a href={url}>{augment.name}</a>
+            </strong>
+          </td>
+
+          <td class="cofh-nowrap" set:html={augment.installedIn} />
+
+          <td style="min-width: 200px" set:html={augment.description} />
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

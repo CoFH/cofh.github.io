@@ -1,18 +1,15 @@
 ---
 title: 'Augment: Auxiliary Sieve'
-image:
-- alt: Auxiliary sieve augment
-  file: thermal-expansion-5/augment-machine-secondary.png
-redirect_from:
-- /docs/thermal-expansion/augments/machine-secondary-output/
-- /docs/augment-auxiliary-sieve/
-- /docs/thermal-expansion/augment-auxiliary-sieve/
-- /docs/thermal-expansion-5/augment-auxiliary-sieve/
-- /docs/1.12/thermal-expansion-5/augment-auxiliary-sieve/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-secondary
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/augment-machine-secondary.png', alt: 'Auxiliary sieve augment' },
+  ]}
+/>
 
 An **auxiliary sieve** is an [augment](../augments/) that increases the
 chances of an applicable [machine](../machines/) producing a secondary
@@ -23,7 +20,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-secondary']}
+  noResult
+/>
 
 
 Usage
@@ -43,27 +44,29 @@ Installed auxiliary sieves increase the chances of a [machine](../machines/)
 producing a secondary product. However, they also increase the amount of energy
 required per operation.
 
-<!--
+{/*
 secondaryChance = 100 - amount * 15   (minimum is 5)
 multiplier = 100 / secondaryChance
--->
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed amount | Chance multiplier | Energy increase |
-|---
-| 1 | × 1.18 | + 10% |
-| 2 | × 1.43 | + 20% |
-| 3 | × 1.82 | + 30% |
-| 4 | × 2.5 | + 40% |
-| 5 | × 4 | + 50% |
-| 6 | × 10 | + 60% |
-| 7 | × 20 | + 70% |
-| 8 | × 20 | + 80% |
-| 9 | × 20 | + 90% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Installed amount</th><th>Chance multiplier</th><th>Energy increase</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>× 1.18</td><td>+ 10%</td></tr>
+      <tr><td>2</td><td>× 1.43</td><td>+ 20%</td></tr>
+      <tr><td>3</td><td>× 1.82</td><td>+ 30%</td></tr>
+      <tr><td>4</td><td>× 2.5</td><td>+ 40%</td></tr>
+      <tr><td>5</td><td>× 4</td><td>+ 50%</td></tr>
+      <tr><td>6</td><td>× 10</td><td>+ 60%</td></tr>
+      <tr><td>7</td><td>× 20</td><td>+ 70%</td></tr>
+      <tr><td>8</td><td>× 20</td><td>+ 80%</td></tr>
+      <tr><td>9</td><td>× 20</td><td>+ 90%</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 For example, if a machine is processing something that has a 35% chance of
 producing a secondary product, and two auxiliary sieves are installed, the

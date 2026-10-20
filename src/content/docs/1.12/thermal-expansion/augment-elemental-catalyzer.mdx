@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Elemental Catalyzer'
-image:
-- alt: Elemental catalyzer augment
-  file: thermal-expansion-5/augment-dynamo-reactant-elemental.png
-redirect_from:
-- /docs/augment-elemental-catalyzer/
-- /docs/thermal-expansion/augment-elemental-catalyzer/
-- /docs/thermal-expansion-5/augment-elemental-catalyzer/
-- /docs/1.12/thermal-expansion-5/augment-elemental-catalyzer/
-recipes:
-  crafting:
-  - te-1-12-augment-dynamo-reactant-elemental
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-dynamo-reactant-elemental.png',
+      alt: 'Elemental catalyzer augment',
+    },
+  ]}
+/>
 
 An **elemental catalyzer** is an [augment](../augments/) that increases the
 amount of [Redstone Flux](/docs/redstone-flux/) a [reactant
@@ -24,7 +25,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-dynamo-reactant-elemental']}
+  noResult
+/>
 
 
 Usage

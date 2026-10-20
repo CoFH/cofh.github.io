@@ -1,19 +1,13 @@
 ---
 title: Flux-Infused Axe
-image:
-- alt: Flux-infused axe
-  file: redstone-arsenal-2/flux-infused-axe.png
-redirect_from:
-- /docs/redstone-arsenal/equipment/flux-infused-axe/
-- /docs/redstone-arsenal/tools/flux-infused-axe/
-- /docs/flux-infused-axe/
-- /docs/redstone-arsenal/flux-infused-axe/
-- /docs/redstone-arsenal-2/flux-infused-axe/
-- /docs/1.12/redstone-arsenal-2/flux-infused-axe/
-recipes:
-  crafting:
-  - ra-1-12-tool-axe
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'redstone-arsenal-2/flux-infused-axe.png', alt: 'Flux-infused axe' }]}
+/>
 
 A **flux-infused axe** is a powerful [axe](https://minecraft.wiki/w/Axe)
 powered by [Redstone Flux](/docs/redstone-flux/).
@@ -23,7 +17,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ra-1-12-tool-axe']}
+  noResult
+/>
 
 
 Usage
@@ -35,7 +33,7 @@ be charged using an [energetic
 infuser](../../thermal-expansion/energetic-infuser/), a [flux
 capacitor](../../thermal-expansion/flux-capacitor/) or similar. It can also be
 charged by touching a [fluxed electrum block](../fluxed-electrum-block/) or
-[flux crystal block](../flux-crystal-block) while holding it. It can be charged
+[flux crystal block](../flux-crystal-block/) while holding it. It can be charged
 at rates up to 4,000 RF/t.
 
 An uncharged flux-infused axe is still usable and will not break when used, but
@@ -73,20 +71,28 @@ When enchanted with [Unbreaking](https://minecraft.wiki/w/Unbreaking), a
 flux-infused axe has a chance to not consume [Redstone
 Flux](/docs/redstone-flux/) when used.
 
-| Unbreaking level | No energy use chance |
-|---
-| I | 33% |
-| II | 50% |
-| III | 60% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Unbreaking level</th><th>No energy use chance</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>33%</td></tr>
+    <tr><td>II</td><td>50%</td></tr>
+    <tr><td>III</td><td>60%</td></tr>
+  </tbody>
+</table>
 
 A flux-infused axe can also be enchanted with
 [Holding](../../cofh-core/holding/) to increase its energy capacity.
 
-| Holding level | Capacity multiplier |
-|---
-| I | × 1.5 |
-| II | × 2 |
-| III | × 2.5 |
-| IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity multiplier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>× 1.5</td></tr>
+    <tr><td>II</td><td>× 2</td></tr>
+    <tr><td>III</td><td>× 2.5</td></tr>
+    <tr><td>IV</td><td>× 3</td></tr>
+  </tbody>
+</table>

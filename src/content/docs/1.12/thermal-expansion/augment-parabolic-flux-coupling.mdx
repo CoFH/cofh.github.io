@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Parabolic Flux Coupling'
-image:
-- alt: Parabolic flux coupling augment
-  file: thermal-expansion-5/augment-machine-charger-wireless.png
-redirect_from:
-- /docs/augment-parabolic-flux-coupling/
-- /docs/thermal-expansion/augment-parabolic-flux-coupling/
-- /docs/thermal-expansion-5/augment-parabolic-flux-coupling/
-- /docs/1.12/thermal-expansion-5/augment-parabolic-flux-coupling/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-charger-wireless
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-charger-wireless.png',
+      alt: 'Parabolic flux coupling augment',
+    },
+  ]}
+/>
 
 A **parabolic flux coupling** [augment](../augments/) allows for an
 [energetic infuser](../energetic-infuser/) to wirelessly recharge [flux
@@ -22,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-charger-wireless']}
+  noResult
+/>
 
 
 Usage
@@ -46,15 +51,17 @@ capacitor at a time for each player.
 Parabolic flux coupling also greatly increases an energetic infuser's maximum
 charging rate.
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. charging rate |
-|---
-| Basic | 1,000 RF/t |
-| Hardened | 4,000 RF/t |
-| Reinforced | 9,000 RF/t |
-| Signalum | 16,000 RF/t |
-| Resonant / Creative | 25,000 RF/t |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Tier</th><th>Max. charging rate</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Basic</td><td>1,000 RF/t</td></tr>
+      <tr><td>Hardened</td><td>4,000 RF/t</td></tr>
+      <tr><td>Reinforced</td><td>9,000 RF/t</td></tr>
+      <tr><td>Signalum</td><td>16,000 RF/t</td></tr>
+      <tr><td>Resonant / Creative</td><td>25,000 RF/t</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

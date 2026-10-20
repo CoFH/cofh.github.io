@@ -1,28 +1,13 @@
 ---
 title: Iridium Ore
-redirect_from:
-- /docs/thermal-foundation/ores/iridium-ore/
-- /docs/thermal-foundation/world/ores/iridium-ore/
-- /docs/iridium-ore/
-- /docs/thermal-foundation/iridium-ore/
-- /docs/thermal-foundation-2/iridium-ore/
-- /docs/1.12/thermal-foundation-2/iridium-ore/
-usage-recipes:
-  smelting:
-  - tf-1-12-ore-processing-iridium
-  crafting:
-  - tf-1-12-pyrotheum-ore-iridium
-  - tf-1-12-petrotheum-ore-iridium
-  - tf-1-12-petrotheum-pyrotheum-ore-iridium
-  pulverizer:
-  - ore-processing-iridium
-  smelter:
-  - ore-processing-sand-iridium
-  - ore-processing-rich-slag-iridium
-  - ore-processing-cinnabar-iridium
 ---
 
-![Iridium ore](/assets/images/thermal-foundation-2/ore-iridium.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/ore-iridium.png', alt: 'Iridium ore' }]}
+/>
 
 
 **Iridium ore** is an [ore](https://minecraft.wiki/w/Ore) that yields
@@ -46,16 +31,36 @@ Usage
 -----
 
 ### Smelting
-{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+<RecipeTable
+  type="smelting"
+  recipes={['tf-1-12-ore-processing-iridium']}
+/>
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-pyrotheum-ore-iridium',
+    'tf-1-12-petrotheum-ore-iridium',
+    'tf-1-12-petrotheum-pyrotheum-ore-iridium',
+  ]}
+/>
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['ore-processing-iridium']}
+/>
 
 ### Induction Smelter
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ore-processing-sand-iridium',
+    'ore-processing-rich-slag-iridium',
+    'ore-processing-cinnabar-iridium',
+  ]}
+/>
 
 ### Smashing
 When iridium ore is broken using a [Smashing](../../cofh-core/smashing/)

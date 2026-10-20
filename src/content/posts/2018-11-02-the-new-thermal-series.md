@@ -1,8 +1,6 @@
 ---
 title: The New Thermal Series
 author: King Lemming
-author_url: http://www.twitter.com/KingLemmingCoFH
-published: true
 ---
 
 Okay, so I've been working on a branch that I unofficially call "1.13-pre" for a
@@ -17,7 +15,7 @@ really not super happy with it. So I'm rewriting it mostly from scratch.
 
 Let's get the big one out of the way - totally revamped dependency structure. I
 don't want to make grand promises as far as external libraries, but at least on
-the surface, the *required* dependency structure will be this, as long as FML
+the surface, the _required_ dependency structure will be this, as long as FML
 allows for it:
 
 CoFH Core -> Everything Else
@@ -25,7 +23,7 @@ CoFH Core -> Everything Else
 That's it. The Thermal mods are being broken down and put back together in some
 different ways, and they'll all be able to run independently of one another.
 I'll go over the details of that in a bit. To make this work, however, there's a
-little bit of trickery under the hood. CoFH Core is going to be *very* crucial
+little bit of trickery under the hood. CoFH Core is going to be _very_ crucial
 to this process and almost without question when you update any Thermal mod
 moving forward, you'll have to update CoFH Core. The reason for this is sort of
 a "Thermal Core" mod which - again, Forge allowing - will ship inside the CoFH
@@ -38,6 +36,7 @@ is drawing board stages and the code is either splayed out on the cutting room
 floor at this time or just doesn't exist yet:
 
 ### General Design / Notes:
+
 - All content mods have a global config option to disable ALL of their recipes.
 - Mods not requiring CoFH Core will ship with some internals (CoFH Lib).
 - CoFHLib is not an official mod, just a bunch of shared code that won't require
@@ -50,15 +49,17 @@ floor at this time or just doesn't exist yet:
 - There are plans for a couple more Thermal mods but I'm not doing to really get
   into them just yet, sorry.
 - Vazkii's amazing new Book API - Patchouli - will be used to provide a manual
-  for everything. It will be a *soft dependency.*
+  for everything. It will be a _soft dependency._
 
 #### CoFH Core:
+
 - Increased focus on "library" style code.
-- Removal of Enchantments (Moved to *Ensorcellment*).
+- Removal of Enchantments (Moved to _Ensorcellment_).
 - Removal of Potion Effects (Handled in Thermal Series).
 - Tentatively includes resources for all CoFH mods.
 
 #### Thermal Series / Core
+
 - Ships inside CoFH Core; not a "child" mod.
 - Includes basic tools and items (Crescent Hammer, Tome of Knowledge).
 - Adds core Thermal fluids and alloys (Redstone, Glowstone, Ender).
@@ -66,8 +67,9 @@ floor at this time or just doesn't exist yet:
   - Working on a way to allow modpack makers to configure / add tiers.
 
 #### Thermal Foundation
+
 - Focus will be on world generation; biomes, mobs, villages, etc.
-- Removal of Tools and Armor (Moved to *Quartermastery*).
+- Removal of Tools and Armor (Moved to _Quartermastery_).
 - Adds lots of different metals - ores, blocks, and items.
   - Gems and plants TBD.
 - Will ship with some default world generation which can be easily disabled.
@@ -75,6 +77,7 @@ floor at this time or just doesn't exist yet:
     present.
 
 #### Thermal Expansion
+
 - Renewed focus on being a core processing mod - Machines / Dynamos ONLY.
   - Intent is to unify Machines + Devices
 - Machines are being Streamlined / redone:
@@ -89,6 +92,7 @@ floor at this time or just doesn't exist yet:
 - Tanks and Caches are becoming Fluid and Item "Cells" - name and mod TBD.
 
 #### Thermal Dynamics
+
 - Focus still only on moving things from A -> B.
 - Idea is to provide more progress in not only Ducts but types of transport:
   - Conveyor Belts
@@ -98,6 +102,7 @@ floor at this time or just doesn't exist yet:
 - That's the rough idea at this time, anyways.
 
 #### Thermal Innovation
+
 - Acquiring all of the tools from Thermal Expansion.
 - Tool progress intended to be more freeform - TBD on that though.
   - Modular Tools might happen, if it makes sense.
@@ -105,36 +110,43 @@ floor at this time or just doesn't exist yet:
 - If armor ends up being made, it will go here.
 
 #### Thermal Cultivation
+
 - Watering Cans probably going to stay here.
 - New Crops, probably five or so initially.
   - Artwork is limiting factor here, when it comes down to it.
 - Brewing and Baking systems.
 
 #### Redstone Arsenal
+
 - This one is staying mostly the same.
 - There will be a couple of new items.
 
 ### New Mods
+
 - Some things are being moved for better Vanilla+ style play.
 
 #### Ensorcellment
+
 - Adds all of the enchantments from CoFH Core, and some more.
 - Shield and Horse Armor Enchants. :)
 - Capability-based Enchantment compatibility (part of CoFHLib).
 
 #### Enstoragement
+
 - Strongboxes.
 - Satchels.
 - Ideally, a bit more customization and power for both of these things.
 - Will effectively replace Vanilla+ Satchels and provide Thermal compat.
 
 #### Orbulation
+
 - Florbs.
 - Morbs.
-- That's it for now. Blocks dealing with these *might* be added, if it feels
+- That's it for now. Blocks dealing with these _might_ be added, if it feels
   thematically appropriate.
 
 #### Quartermastery
+
 - General Tool / Armor mod.
 - Will enable vanilla-style tools and armor depending on what materials are
   present.
@@ -153,10 +165,10 @@ general plan is this:
   - Combined Everything Else jar.
 
 So again, CoFH Core will be required as a base. It just isn't really super
-feasible to bundle it *inside* those jars because it would end up duplicated and
+feasible to bundle it _inside_ those jars because it would end up duplicated and
 Forge will throw a tantrum.
 
-Unfortunately, if there's something in those jars that you *don't* like, you'll
+Unfortunately, if there's something in those jars that you _don't_ like, you'll
 have to do individual downloads or specifically disable mods in-game. On our
 end, there's just a balancing act of being accommodating and also the number of
 projects we have to manage.
@@ -165,4 +177,5 @@ Whew, that was long. Again, please understand that this is a statement of
 intent, and while there's a lot of code laid down, almost all of it is certainly
 subject to change.
 
-If you're interested in knowing more, please drop by our [Discord](https://discordapp.com/invite/uRKrnbH).
+If you're interested in knowing more, please drop by our
+[Discord](https://discordapp.com/invite/uRKrnbH).

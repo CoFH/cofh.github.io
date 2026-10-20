@@ -1,20 +1,13 @@
 ---
 title: Redprint
-redirect_from:
-- /docs/thermal-expansion/storage/redprint/
-- /docs/thermal-expansion/tools/redprint/
-- /docs/thermal-foundation/items/redprint/
-- /docs/thermal-foundation/items/tools/redprint/
-- /docs/redprint/
-- /docs/thermal-foundation/redprint/
-- /docs/thermal-foundation-2/redprint/
-- /docs/1.12/thermal-foundation-2/redprint/
-recipes:
-  crafting:
-  - tf-1-12-redprint
 ---
 
-![Redprint](/assets/images/thermal-foundation-2/redprint.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/redprint.png', alt: 'Redprint' }]}
+/>
 
 
 **Redprints** are items that can copy the configuration of certain blocks to
@@ -25,7 +18,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-redprint']}
+  noResult
+/>
 
 
 Usage

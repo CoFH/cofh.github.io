@@ -1,30 +1,14 @@
 ---
 title: Redstone Furnace
-redirect_from:
-- /thermal-expansion/machines/redstone-furnace/
-- /docs/thermal-expansion/machines/redstone-furnace/
-- /docs/redstone-furnace/
-- /docs/thermal-expansion/redstone-furnace/
-- /docs/thermal-expansion-5/redstone-furnace/
-- /docs/1.12/thermal-expansion-5/redstone-furnace/
-recipes:
-  crafting:
-  - te-1-12-machine-furnace
-augments:
-- machine-power
-- machine-furnace-food
-- machine-furnace-ore
-- machine-furnace-pyrolysis
-recipe-list:
-- ingot-from-dust
-- food
-- cactus-green
-- ore-processing-lapis-lazuli
-- ore-processing-redstone
-- leather
 ---
 
-![Redstone furnace](/assets/images/thermal-expansion-5/redstone-furnace.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/redstone-furnace.png', alt: 'Redstone furnace' }]}
+/>
 
 > Coal is for chumps!
 
@@ -42,7 +26,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-machine-furnace']}
+  noResult
+/>
 
 ### Upgrading
 A redstone furnace is initially at the lowest [tier](#tiers) (basic). It can be
@@ -129,18 +117,56 @@ Tiers
 
 Redstone furnaces come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer |
-|---
-| Basic | 20 RF/t | 0 | 16 | 1,000 mB |
-| Hardened | 30 RF/t | 1 | 16 | 1,000 mB |
-| Reinforced | 40 RF/t | 2 | 28 | 3,000 mB |
-| Signalum | 50 RF/t | 3 | 44 | 6,000 mB |
-| Resonant | 60 RF/t | 4 | 64 | 10,000 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Max. power usage</th>
+        <th>Augment slots</th>
+        <th>Max. items per auto-transfer</th>
+        <th>Max. fluid per auto-transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>20 RF/t</td>
+        <td>0</td>
+        <td>16</td>
+        <td>1,000 mB</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>30 RF/t</td>
+        <td>1</td>
+        <td>16</td>
+        <td>1,000 mB</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>40 RF/t</td>
+        <td>2</td>
+        <td>28</td>
+        <td>3,000 mB</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>50 RF/t</td>
+        <td>3</td>
+        <td>44</td>
+        <td>6,000 mB</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>60 RF/t</td>
+        <td>4</td>
+        <td>64</td>
+        <td>10,000 mB</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -153,7 +179,14 @@ cannot be augmented.
 
 Augments can be installed in the Augmentation tab in a redstone furnace's GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={[
+    'machine-power',
+    'machine-furnace-food',
+    'machine-furnace-ore',
+    'machine-furnace-pyrolysis',
+  ]}
+/>
 
 
 Recipes
@@ -165,4 +198,14 @@ performed in a redstone furnace for 2,000 RF.
 Redstone furnaces have some recipes of their own, some of which replace regular
 smelting recipes. The following table lists these recipes.
 
-{% include recipe-table.html type='te-1-12-redstone-furnace' recipes=page.recipe-list %}
+<RecipeTable
+  type="1.12/thermal-expansion/redstone-furnace"
+  recipes={[
+    'ingot-from-dust',
+    'food',
+    'cactus-green',
+    'ore-processing-lapis-lazuli',
+    'ore-processing-redstone',
+    'leather',
+  ]}
+/>

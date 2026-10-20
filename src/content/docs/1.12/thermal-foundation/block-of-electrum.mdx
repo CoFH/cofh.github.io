@@ -1,22 +1,13 @@
 ---
 title: Block of Electrum
-image:
-- alt: Block of electrum
-  file: thermal-foundation-2/storage-block-electrum.png
-redirect_from:
-- /docs/thermal-foundation/blocks/metal/electrum-block/
-- /docs/electrum-block/
-- /docs/block-of-electrum/
-- /docs/thermal-foundation/block-of-electrum/
-- /docs/thermal-foundation-2/block-of-electrum/
-- /docs/1.12/thermal-foundation-2/block-of-electrum/
-recipes:
-  crafting:
-  - tf-1-12-storage-block-electrum
-usage-recipes:
-  crafting:
-  - tf-1-12-ingot-electrum-from-block
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/storage-block-electrum.png', alt: 'Block of electrum' }]}
+/>
 
 **Blocks of electrum** are blocks made from [electrum
 ingots](../electrum-ingot/).
@@ -29,7 +20,11 @@ Blocks of electrum can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-storage-block-electrum']}
+  noResult
+/>
 
 
 Usage
@@ -47,4 +42,7 @@ Blocks of electrum can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-ingot-electrum-from-block']}
+/>

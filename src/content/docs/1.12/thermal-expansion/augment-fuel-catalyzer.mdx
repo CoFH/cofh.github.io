@@ -1,18 +1,15 @@
 ---
 title: 'Augment: Fuel Catalyzer'
-image:
-- alt: Fuel catalyzer augment
-  file: thermal-expansion-5/augment-dynamo-efficiency.gif
-redirect_from:
-- /docs/thermal-expansion/augments/dynamo-fuel-efficiency/
-- /docs/augment-fuel-catalyzer/
-- /docs/thermal-expansion/augment-fuel-catalyzer/
-- /docs/thermal-expansion-5/augment-fuel-catalyzer/
-- /docs/1.12/thermal-expansion-5/augment-fuel-catalyzer/
-recipes:
-  crafting:
-  - te-1-12-augment-dynamo-efficiency
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/augment-dynamo-efficiency.gif', alt: 'Fuel catalyzer augment' },
+  ]}
+/>
 
 A **fuel catalyzer** is an [augment](../augments/) that increases the amount
 of energy a [dynamo](../dynamos/) generates from each unit of fuel.
@@ -22,7 +19,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-dynamo-efficiency']}
+  noResult
+/>
 
 
 Usage
@@ -37,22 +38,24 @@ effects.
 Installed fuel catalyzers increase the amount of energy a
 [dynamo](../dynamos/) generates from each unit of fuel.
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed amount | Energy increase |
-|---
-| 1 | + 15% |
-| 2 | + 30% |
-| 3 | + 45% |
-| 4 | + 60% |
-| 5 | + 75% |
-| 6 | + 90% |
-| 7 | + 105% |
-| 8 | + 120% |
-| 9 | + 135% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Installed amount</th><th>Energy increase</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>+ 15%</td></tr>
+      <tr><td>2</td><td>+ 30%</td></tr>
+      <tr><td>3</td><td>+ 45%</td></tr>
+      <tr><td>4</td><td>+ 60%</td></tr>
+      <tr><td>5</td><td>+ 75%</td></tr>
+      <tr><td>6</td><td>+ 90%</td></tr>
+      <tr><td>7</td><td>+ 105%</td></tr>
+      <tr><td>8</td><td>+ 120%</td></tr>
+      <tr><td>9</td><td>+ 135%</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 If fuel catalyzers are installed together with other augments that affect the
 amount of energy generated from each unit of fuel, their energy

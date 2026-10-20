@@ -1,16 +1,13 @@
 ---
 title: Arboreal Extractor
-redirect_from:
-- /docs/arboreal-extractor/
-- /docs/thermal-expansion/arboreal-extractor/
-- /docs/thermal-expansion-5/arboreal-extractor/
-- /docs/1.12/thermal-expansion-5/arboreal-extractor/
-recipes:
-  crafting:
-  - te-1-12-device-tapper
 ---
 
-![Arboreal extractor](/assets/images/thermal-expansion-5/arboreal-extractor.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/arboreal-extractor.png', alt: 'Arboreal extractor' }]}
+/>
 
 > Put down the axe.
 
@@ -28,7 +25,11 @@ A placed arboreal extractor can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-device-tapper']}
+  noResult
+/>
 
 
 Usage
@@ -47,23 +48,31 @@ An active arboreal extractor produces a certain amount of a fluid every 500
 ticks (25 seconds). The amount of time increases when other arboreal extractors
 are extracting from the same tree.
 
-| Extractors | Cycle length per extractor |
-|---
-| 1 | 500 ticks (25 seconds) |
-| 2 | 750 ticks (37.5 seconds) |
-| 3 or more | 1,000 ticks (50 seconds) |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Extractors</th><th>Cycle length per extractor</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>500 ticks (25 seconds)</td></tr>
+    <tr><td>2</td><td>750 ticks (37.5 seconds)</td></tr>
+    <tr><td>3 or more</td><td>1,000 ticks (50 seconds)</td></tr>
+  </tbody>
+</table>
 
 The amount of fluid an arboreal extractor produces per cycle can be increased by
 placing fertilizer items in its fertilizer slot. Fertilizer will boost the
 device's production for 8 cycles per item.
 
-| Fertilizer type | Production multiplier |
-|---
-| [Phyto-Gro](../../thermal-foundation/phyto-gro/) | × 2 |
-| [Rich Phyto-Gro](../../thermal-foundation/rich-phyto-gro/) | × 3 |
-| [Fluxed Phyto-Gro](../../thermal-foundation/fluxed-phyto-gro/) | × 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Fertilizer type</th><th>Production multiplier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>[Phyto-Gro](../../thermal-foundation/phyto-gro/)</td><td>× 2</td></tr>
+    <tr><td>[Rich Phyto-Gro](../../thermal-foundation/rich-phyto-gro/)</td><td>× 3</td></tr>
+    <tr><td>[Fluxed Phyto-Gro](../../thermal-foundation/fluxed-phyto-gro/)</td><td>× 4</td></tr>
+  </tbody>
+</table>
 
 ### Input and output
 Items and fluids can enter and exit an arboreal extractor through its sides.
@@ -115,14 +124,54 @@ Products
 The fluid that an arboreal extractor produces and the amount of fluid that is
 produced per cycle depends on the type of tree.
 
-| Tree type | Extracted fluid | Fluid per cycle |
-|---
-| Oak | [Sap](../../thermal-foundation/sap/) | 50 mB |
-| Spruce | [Resin](../../thermal-foundation/resin/) | 100 mB |
-| Birch | [Resin](../../thermal-foundation/resin/) | 50 mB |
-| Jungle | [Resin](../../thermal-foundation/resin/) | 50 mB |
-| Acacia | [Resin](../../thermal-foundation/resin/) | 50 mB |
-| Dark Oak | [Sap](../../thermal-foundation/sap/) | 100 mB |
-| Huge brown mushroom | [Mushroom Stew](../../thermal-foundation/mushroom-stew/) | 50 mB |
-| Huge red mushroom | [Mushroom Stew](../../thermal-foundation/mushroom-stew/) | 50 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr>
+      <th>Tree type</th>
+      <th>Extracted fluid</th>
+      <th>Fluid per cycle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Oak</td>
+      <td>[Sap](../../thermal-foundation/sap/)</td>
+      <td>50 mB</td>
+    </tr>
+    <tr>
+      <td>Spruce</td>
+      <td>[Resin](../../thermal-foundation/resin/)</td>
+      <td>100 mB</td>
+    </tr>
+    <tr>
+      <td>Birch</td>
+      <td>[Resin](../../thermal-foundation/resin/)</td>
+      <td>50 mB</td>
+    </tr>
+    <tr>
+      <td>Jungle</td>
+      <td>[Resin](../../thermal-foundation/resin/)</td>
+      <td>50 mB</td>
+    </tr>
+    <tr>
+      <td>Acacia</td>
+      <td>[Resin](../../thermal-foundation/resin/)</td>
+      <td>50 mB</td>
+    </tr>
+    <tr>
+      <td>Dark Oak</td>
+      <td>[Sap](../../thermal-foundation/sap/)</td>
+      <td>100 mB</td>
+    </tr>
+    <tr>
+      <td>Huge brown mushroom</td>
+      <td>[Mushroom Stew](../../thermal-foundation/mushroom-stew/)</td>
+      <td>50 mB</td>
+    </tr>
+    <tr>
+      <td>Huge red mushroom</td>
+      <td>[Mushroom Stew](../../thermal-foundation/mushroom-stew/)</td>
+      <td>50 mB</td>
+    </tr>
+  </tbody>
+</table>

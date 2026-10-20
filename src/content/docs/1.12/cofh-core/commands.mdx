@@ -1,12 +1,5 @@
 ---
 title: Commands
-redirect_from:
-- /mods/cofh-core/commands.html
-- /docs/cofh-core/features/commands/
-- /docs/cofh-core-commands/
-- /docs/cofh-core/commands/
-- /docs/cofh-core-4/commands/
-- /docs/1.12/cofh-core-4/commands/
 ---
 
 [CoFH Core](../) adds various
@@ -18,26 +11,84 @@ Summary
 
 All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Command | Description | Permission level |
-|---
-| [version](#version) | Displays the installed version of CoFH Core. | -1 |
-| [help](#help) | Displays information about CoFH Core's commands. | -1 |
-| [syntax](#syntax) | Displays the syntax of CoFH Core's commands. | -1 |
-| [friend](#friend) | Allows management of a player's [friend list](../friend-list/). | -1 |
-| [hand](#hand) | Displays information about held items. | 0 |
-| [tps](#tps) | Displays the server TPS (ticks per second). | 0 |
-| [enchant](#enchant) | Applies enchantments to held items. | 2 |
-| [killall](#killall) | Removes all loaded entities of a certain type from the server. | 2 |
-| [tpx](#tpx) | Advanced teleport command that allows teleporting to other dimensions. | 2 |
-| [clearblocks](#clearblocks) | Removes blocks of certain types in an area. | 3 |
-| [countblocks](#countblocks) | Displays the amounts of blocks of certain types in an area. | 3 |
-| [replaceblocks](#replaceblocks) | Replaces blocks of certain types with another block type in an area. | 3 |
-| [unloadchunk](#unloadchunk) | Force-unloads the chunk that the command user is looking at. | 4 |
-{:.uk-table .uk-table-striped}
+  <table class="uk-table uk-table-striped">
+    <thead>
+      <tr>
+        <th>Command</th>
+        <th>Description</th>
+        <th>Permission level</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[version](#version)</td>
+        <td>Displays the installed version of CoFH Core.</td>
+        <td>-1</td>
+      </tr>
+      <tr>
+        <td>[help](#help)</td>
+        <td>Displays information about CoFH Core's commands.</td>
+        <td>-1</td>
+      </tr>
+      <tr>
+        <td>[syntax](#syntax)</td>
+        <td>Displays the syntax of CoFH Core's commands.</td>
+        <td>-1</td>
+      </tr>
+      <tr>
+        <td>[friend](#friend)</td>
+        <td>Allows management of a player's [friend list](../friend-list/).</td>
+        <td>-1</td>
+      </tr>
+      <tr>
+        <td>[hand](#hand)</td>
+        <td>Displays information about held items.</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>[tps](#tps)</td>
+        <td>Displays the server TPS (ticks per second).</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>[enchant](#enchant)</td>
+        <td>Applies enchantments to held items.</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>[killall](#killall)</td>
+        <td>Removes all loaded entities of a certain type from the server.</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>[tpx](#tpx)</td>
+        <td>Advanced teleport command that allows teleporting to other dimensions.</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>[clearblocks](#clearblocks)</td>
+        <td>Removes blocks of certain types in an area.</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>[countblocks](#countblocks)</td>
+        <td>Displays the amounts of blocks of certain types in an area.</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>[replaceblocks](#replaceblocks)</td>
+        <td>Replaces blocks of certain types with another block type in an area.</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>[unloadchunk](#unloadchunk)</td>
+        <td>Force-unloads the chunk that the command user is looking at.</td>
+        <td>4</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Details
@@ -46,14 +97,18 @@ Details
 ### version
 Displays the installed version of CoFH Core.
 
-    /cofh version
+```
+/cofh version
+```
 
 ---
 
 ### help
 Displays information about a CoFH Core command.
 
-    /cofh help [command | page]
+```
+/cofh help [command | page]
+```
 
 command
 : The name of the command to display information about. If unspecified, displays
@@ -68,7 +123,9 @@ commands
 ### syntax
 Displays the syntax of a CoFH Core command.
 
-    /cofh syntax [command | page]
+```
+/cofh syntax [command | page]
+```
 
 command
 : The name of the command to display the syntax of. If unspecified, displays a
@@ -85,7 +142,9 @@ Allows management of the command user's [friend list](../friend-list/). Can be
 done by either opening the friend list GUI or by adding/removing friends
 directly.
 
-    /cofh friend {gui | list | add <player> | remove <player>}
+```
+/cofh friend {gui | list | add <player> | remove <player>}
+```
 
 player
 : The username of the player to add to or remove from the friend list.
@@ -97,7 +156,9 @@ Displays various kinds of information about a player's held item. If the player
 is holding items in both their main hand and their off-hand, information is
 displayed about the item in their main hand.
 
-    /cofh hand [player] [infoType] [infoType] ...
+```
+/cofh hand [player] [infoType] [infoType] ...
+```
 
 player
 : The username of the player to show information of their held item for. If
@@ -132,7 +193,9 @@ Displays the server's TPS (ticks per second). This is commonly used to measure
 how smoothly the server is running, or if the server is suffering from heavy
 load. The optimal rate is 20 ticks per second.
 
-    /cofh tps {o | a | <dimension>}
+```
+/cofh tps {o | a | <dimension>}
+```
 
 dimension
 : The ID of the dimension to display the TPS rate for.
@@ -150,7 +213,9 @@ Applies enchantments to held items. If the player is holding items in both their
 main hand and their off-hand, enchantments are applied to the item in their main
 hand.
 
-    /cofh enchant [player] <enchantmentID> [level]
+```
+/cofh enchant [player] <enchantmentID> [level]
+```
 
 player
 : The username of the player whose held item is to be enchanted. If unspecified,
@@ -169,7 +234,9 @@ level
 Removes all loaded entities of a certain type from the server, excluding
 players.
 
-    /cofh killall [type]
+```
+/cofh killall [type]
+```
 
 type
 : The name or part of the name of the entity type to remove from the server. If
@@ -185,7 +252,9 @@ there are other entities whose type contains `item`.
 ### tpx
 An advanced teleportation command that allows teleporting to other dimensions.
 
-    {% raw %}/cofh tpx [player] {{<playerTo> | <dimension>} | <x> <y> <z> [dimension]}{% endraw %}
+```
+/cofh tpx [player] {{<playerTo> | <dimension>} | <x> <y> <z> [dimension]}
+```
 
 player
 : The username of the player to teleport. If unspecified, the command user will
@@ -209,7 +278,9 @@ teleported to the dimension's spawn point.
 ### clearblocks
 Removes blocks of certain types in an area.
 
-    /cofh clearblocks {<player> <xRadius> <yRadius> <zRadius> | <xStart> <yStart> <zStart> <xEnd> <yEnd> <zEnd>} [block[#meta]] [block[#meta]] ...
+```
+/cofh clearblocks {<player> <xRadius> <yRadius> <zRadius> | <xStart> <yStart> <zStart> <xEnd> <yEnd> <zEnd>} [block[#meta]] [block[#meta]] ...
+```
 
 player
 : The username of the player to use as an origin of the area to remove blocks
@@ -251,7 +322,9 @@ It is also possible to match blocks using more generic terms:
 Displays the amounts of blocks of certain types in an area. Syntax is very
 similar to `clearblocks`.
 
-    /cofh countblocks {<player> <xRadius> <yRadius> <zRadius> | <xStart> <yStart> <zStart> <xEnd> <yEnd> <zEnd>} [block[#meta]] [block[#meta]] ...
+```
+/cofh countblocks {<player> <xRadius> <yRadius> <zRadius> | <xStart> <yStart> <zStart> <xEnd> <yEnd> <zEnd>} [block[#meta]] [block[#meta]] ...
+```
 
 All arguments are the same as the ones `clearblocks` has.
 
@@ -261,7 +334,9 @@ All arguments are the same as the ones `clearblocks` has.
 Replaces blocks of certain types with another block type in an area. Very
 similar to `clearblocks`.
 
-    /cofh replaceblocks {<player> <xRadius> <yRadius> <zRadius> | <xStart> <yStart> <zStart> <xEnd> <yEnd> <zEnd>} <replaceBlock[#meta]> [block[#meta]] [block[#meta]] ...
+```
+/cofh replaceblocks {<player> <xRadius> <yRadius> <zRadius> | <xStart> <yStart> <zStart> <xEnd> <yEnd> <zEnd>} <replaceBlock[#meta]> [block[#meta]] [block[#meta]] ...
+```
 
 replaceBlock
 : The internal name (ID) of the block to replace blocks with.
@@ -273,4 +348,6 @@ All other arguments are the same as the ones `clearblocks` has.
 ### unloadchunk
 Force-unloads the chunk that the command user is looking at.
 
-    /cofh unloadchunk
+```
+/cofh unloadchunk
+```

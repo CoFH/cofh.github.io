@@ -1,20 +1,13 @@
 ---
 title: Tome of Knowledge
-redirect_from:
-- /docs/tome-of-knowledge/
-- /docs/thermal-foundation/tome-of-knowledge/
-- /docs/thermal-foundation-2/tome-of-knowledge/
-- /docs/1.12/thermal-foundation-2/tome-of-knowledge/
-image:
-- alt: Tome of knowledge
-  file: thermal-foundation-2/tome-of-knowledge.png
-recipes:
-  crafting:
-  - tf-1-12-tome-of-knowledge
-usage-recipes:
-  crafting:
-  - te-1-12-device-xp-collector
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/tome-of-knowledge.png', alt: 'Tome of knowledge' }]}
+/>
 
 A **tome of knowledge** is an item that stores
 [experience](https://minecraft.wiki/w/Experience).
@@ -24,7 +17,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-tome-of-knowledge']}
+  noResult
+/>
 
 
 Usage
@@ -63,13 +60,20 @@ essence (`essence`) [OpenBlocks](https://www.openmods.info/)'s liquid XP
 A tome of knowledge can be enchanted with [Holding](../../cofh-core/holding/) to increase
 its capacity.
 
-| Holding level | Capacity multiplier |
-|---
-| I | × 1.5 |
-| II | × 2 |
-| III | × 2.5 |
-| IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity multiplier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>× 1.5</td></tr>
+    <tr><td>II</td><td>× 2</td></tr>
+    <tr><td>III</td><td>× 2.5</td></tr>
+    <tr><td>IV</td><td>× 3</td></tr>
+  </tbody>
+</table>
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-device-xp-collector']}
+/>

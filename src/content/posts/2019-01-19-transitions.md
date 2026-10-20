@@ -1,8 +1,6 @@
 ---
 title: Transitions
 author: King Lemming
-author_url: http://www.twitter.com/KingLemmingCoFH
-published: true
 ---
 
 So the title of this one has a couple of meanings, and it's mostly going to be
@@ -54,7 +52,7 @@ Twitch, and will probably be version 5.9.x or something like that. Ideally,
 these will be sort of a halfway point between the current mods and the new Core
 framework and supporting mods. I hope to release Ensorcellment, Enstoragement
 (yes really), and Quartermastery along with these, while stripping the duplicate
-parts from other mods. I *might* be able to do a combo jar here but these really
+parts from other mods. I _might_ be able to do a combo jar here but these really
 aren't built for it, so no promises. Essentially if you're starting a new world
 in 1.12.2, then you'll be able to use these for a full experience. Upgrading
 from existing worlds will be very much not recommended.
@@ -78,6 +76,7 @@ modded version, and 1.13 will end up like 1.11 - a stepping stone of sorts.
 Here's the TL;DR version of all that.
 
 #### The Plan:
+
 - QoL / bugfix 1.12.2 mods (release).
 - Create transition ("new world safe") 1.12.2 mods (beta)
 - Develop 1.13-pre "backport" for 1.12.2 (alpha)

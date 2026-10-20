@@ -1,8 +1,6 @@
 ---
 title: 1st Milestone!
 author: King Lemming
-author_url: http://www.twitter.com/KingLemmingCoFH
-published: true
 ---
 
 So, we've just crossed the first Patreon milestone. I don't even know what to

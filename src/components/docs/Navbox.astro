@@ -1,0 +1,110 @@
+---
+import type { DocNav } from '../../data/types.ts';
+import NavboxGroup from './NavboxGroup.astro';
+import NavboxLink from './NavboxLink.astro';
+
+interface Props {
+  nav: DocNav;
+}
+
+const { nav } = Astro.props;
+---
+
+<div class="cofh-navbox-container">
+  <table class="uk-table cofh-navbox-table">
+    <tbody>
+      <tr>
+        <th colspan="2" class="cofh-navbox-title">
+          <NavboxLink url={nav.url} text={nav.title} icon={undefined} />
+        </th>
+      </tr>
+
+      {nav.sections.map((section) => (
+        <>
+          {section.title !== undefined && (
+            <tr>
+              <td colspan="2" class="cofh-navbox-section-title">
+                {section.title}
+              </td>
+            </tr>
+          )}
+
+          {section.groups.map((group) => (
+            <NavboxGroup group={group} urlPrefix={nav.url} />
+          ))}
+        </>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style is:global>
+  div.cofh-navbox-container {
+    border: 1px solid #dadada;
+    font-size: 11.5px;
+    line-height: 18px;
+  }
+
+  table.cofh-navbox-table {
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 2px;
+  }
+
+  table.cofh-navbox-table.cofh-navbox-subgroups-table {
+    margin: -2px;
+  }
+
+  table.cofh-navbox-table th.cofh-navbox-title {
+    background: #ddd;
+    padding: 3px 6px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  table.cofh-navbox-table td.cofh-navbox-section-title {
+    background: #eee;
+    padding: 3px 6px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  table.cofh-navbox-table th.cofh-navbox-group-title {
+    background: #eee;
+    padding: 3px 6px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  table.cofh-navbox-table td.cofh-navbox-group-items {
+    padding: 3px 6px;
+  }
+
+  table.cofh-navbox-table td.cofh-navbox-group-subgroups-container {
+    padding: 0;
+  }
+
+  .cofh-navbox-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: var(--cofh-navbox-icon-sheet);
+    position: relative;
+    top: 3px;
+  }
+
+  a.cofh-navbox-link {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  a.cofh-navbox-link,
+  a.cofh-navbox-link:hover {
+    text-decoration: none;
+  }
+
+  a.cofh-navbox-link:hover > span {
+    text-decoration: underline;
+  }
+</style>

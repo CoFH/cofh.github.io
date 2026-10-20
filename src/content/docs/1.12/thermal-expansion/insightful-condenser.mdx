@@ -1,17 +1,13 @@
 ---
 title: Insightful Condenser
-redirect_from:
-- /docs/insightful-condenser/
-- /docs/thermal-expansion/insightful-condenser/
-- /docs/thermal-expansion-5/insightful-condenser/
-- /docs/1.12/thermal-expansion-5/insightful-condenser/
-image:
-- alt: Insightful condenser
-  file: thermal-expansion-5/insightful-condenser.png
-recipes:
-  crafting:
-  - te-1-12-device-xp-collector
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/insightful-condenser.png', alt: 'Insightful condenser' }]}
+/>
 
 An **insightful condenser** is a [device](../devices/) that collects nearby
 [experience orbs](https://minecraft.wiki/w/Experience) and converts them
@@ -26,7 +22,11 @@ a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-device-xp-collector']}
+  noResult
+/>
 
 
 Usage
@@ -50,12 +50,32 @@ experience point can be increased by placing catalyst items in its catalyst
 slot. Each item works for a certain amount of collected experience after being
 consumed.
 
-| Catalyst type | Production multiplier | Experience per unit |
-|---
-| [Soul Sand](https://minecraft.wiki/w/Soul_Sand) | × 1.5 | 50 XP |
-| [Lapis Lazuli](https://minecraft.wiki/w/Lapis_Lazuli) | × 2 | 100 XP |
-| [Mana Dust](../../thermal-foundation/mana-dust/) | × 2.5 | 200 XP |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr>
+      <th>Catalyst type</th>
+      <th>Production multiplier</th>
+      <th>Experience per unit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[Soul Sand](https://minecraft.wiki/w/Soul_Sand)</td>
+      <td>× 1.5</td>
+      <td>50 XP</td>
+    </tr>
+    <tr>
+      <td>[Lapis Lazuli](https://minecraft.wiki/w/Lapis_Lazuli)</td>
+      <td>× 2</td>
+      <td>100 XP</td>
+    </tr>
+    <tr>
+      <td>[Mana Dust](../../thermal-foundation/mana-dust/)</td>
+      <td>× 2.5</td>
+      <td>200 XP</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Input and output
 Items and fluids can enter and exit an insightful condenser through its sides.

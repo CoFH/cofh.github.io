@@ -1,22 +1,15 @@
 ---
 title: Fluxed Electrum Block
-image:
-- alt: Fluxed electrum block
-  file: redstone-arsenal-2/storage-block-fluxed-electrum.png
-redirect_from:
-- /redstone-arsenal/block/
-- /docs/redstone-arsenal/materials/fluxed-electrum-block/
-- /docs/fluxed-electrum-block/
-- /docs/redstone-arsenal/fluxed-electrum-block/
-- /docs/redstone-arsenal-2/fluxed-electrum-block/
-- /docs/1.12/redstone-arsenal-2/fluxed-electrum-block/
-recipes:
-  crafting:
-  - ra-1-12-storage-block-fluxed-electrum
-usage-recipes:
-  crafting:
-  - ra-1-12-ingot-fluxed-electrum-from-block
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'redstone-arsenal-2/storage-block-fluxed-electrum.png', alt: 'Fluxed electrum block' },
+  ]}
+/>
 
 **Fluxed electrum blocks** are blocks made from [fluxed electrum
 ingots](../fluxed-electrum-ingot/).
@@ -29,7 +22,11 @@ Fluxed electrum blocks can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ra-1-12-storage-block-fluxed-electrum']}
+  noResult
+/>
 
 
 Usage
@@ -59,4 +56,7 @@ Fluxed electrum blocks can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['ra-1-12-ingot-fluxed-electrum-from-block']}
+/>

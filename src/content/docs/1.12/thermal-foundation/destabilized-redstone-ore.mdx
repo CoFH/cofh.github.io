@@ -1,20 +1,15 @@
 ---
 title: Destabilized Redstone Ore
-redirect_from:
-- /docs/thermal-foundation/ores/destabilized-redstone-ore/
-- /docs/thermal-foundation/world/fluid-ores/destabilized-redstone-ore/
-- /docs/destabilized-redstone-ore/
-- /docs/thermal-foundation/destabilized-redstone-ore/
-- /docs/thermal-foundation-2/destabilized-redstone-ore/
-- /docs/1.12/thermal-foundation-2/destabilized-redstone-ore/
-usage-recipes:
-  pulverizer:
-  - fluid-ore-processing-redstone
-  crucible:
-  - fluid-ore-processing-redstone
 ---
 
-![Destabilized redstone ore](/assets/images/thermal-foundation-2/ore-fluid-redstone.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-foundation-2/ore-fluid-redstone.png', alt: 'Destabilized redstone ore' },
+  ]}
+/>
 
 
 **Destabilized redstone ore** is a rare
@@ -52,10 +47,16 @@ Usage
 -----
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['fluid-ore-processing-redstone']}
+/>
 
 ### Magma Crucible
-{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
+<RecipeTable
+  type="1.12/thermal-expansion/crucible"
+  recipes={['fluid-ore-processing-redstone']}
+/>
 
 ### Light source
 Destabilized redstone ore emits a light level of 7.

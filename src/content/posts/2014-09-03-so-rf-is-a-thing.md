@@ -1,8 +1,6 @@
 ---
 title: So, RF is a thing...
 author: King Lemming
-author_url: http://www.twitter.com/KingLemmingCoFH
-published: true
 ---
 
 MC 1.8 has dropped...yay...no mods for that for the foreseeable future. But

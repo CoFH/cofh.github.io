@@ -1,62 +1,14 @@
 ---
 title: Fluid Transposer
-redirect_from:
-- /thermal-expansion/machines/fluid-transposer/
-- /docs/thermal-expansion/machines/fluid-transposer/
-- /docs/fluid-transposer/
-- /docs/thermal-expansion/fluid-transposer/
-- /docs/thermal-expansion-5/fluid-transposer/
-- /docs/1.12/thermal-expansion-5/fluid-transposer/
-recipes:
-  crafting:
-  - te-1-12-machine-transposer
-augments:
-- machine-power
-- machine-secondary
-recipe-list:
-  fill:
-  - moss-stone
-  - stone-bricks-mossy
-  - concrete
-  - sponge-wet
-  - ice
-  - packed-ice
-  - mushroom-stew
-  - blaze-powder
-  - blizz-powder
-  - blitz-powder
-  - basalz-powder
-  - phyto-gro-rich
-  - biomass-rich
-  - bioblend-rich
-  - redstone-from-fluid
-  - glowstone-dust-from-fluid
-  - ender-pearl-from-fluid
-  - redstone-from-clathrate
-  - glowstone-dust-from-clathrate
-  - ender-pearl-from-clathrate
-  - bottle-o-enchanting
-  - td-1-12-fluxduct-reinforced
-  - td-1-12-fluxduct-signalum
-  - td-1-12-fluxduct-resonant
-  - td-1-12-fluxduct-super
-  - td-1-12-itemduct-fast
-  - td-1-12-itemduct-energy-fast
-  - td-1-12-viaduct
-  - td-1-12-viaduct-long-range-linking
-  - ra-1-12-dust-fluxed-electrum
-  - ra-1-12-flux-crystal
-  empty:
-  - water-from-cactus
-  - water-from-sponge
-  - seed-oil-from-seeds
-  - seed-oil-from-beetroot-seeds
-  - seed-oil-from-pumpkin-seeds
-  - seed-oil-from-melon-seeds
-  - mushroom-stew
 ---
 
-![Fluid transposer](/assets/images/thermal-expansion-5/fluid-transposer.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/fluid-transposer.png', alt: 'Fluid transposer' }]}
+/>
 
 > Filling buckets by hand is hard work.
 
@@ -75,7 +27,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-machine-transposer']}
+  noResult
+/>
 
 ### Upgrading
 A fluid transposer is initially at the lowest [tier](#tiers) (basic). It can be
@@ -162,18 +118,56 @@ Tiers
 
 Fluid transposers come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer | Max. fluid per auto-transfer |
-|---
-| Basic | 20 RF/t | 0 | 16 | 1,000 mB |
-| Hardened | 30 RF/t | 1 | 16 | 1,000 mB |
-| Reinforced | 40 RF/t | 2 | 28 | 3,000 mB |
-| Signalum | 50 RF/t | 3 | 44 | 6,000 mB |
-| Resonant | 60 RF/t | 4 | 64 | 10,000 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Max. power usage</th>
+        <th>Augment slots</th>
+        <th>Max. items per auto-transfer</th>
+        <th>Max. fluid per auto-transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>20 RF/t</td>
+        <td>0</td>
+        <td>16</td>
+        <td>1,000 mB</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>30 RF/t</td>
+        <td>1</td>
+        <td>16</td>
+        <td>1,000 mB</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>40 RF/t</td>
+        <td>2</td>
+        <td>28</td>
+        <td>3,000 mB</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>50 RF/t</td>
+        <td>3</td>
+        <td>44</td>
+        <td>6,000 mB</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>60 RF/t</td>
+        <td>4</td>
+        <td>64</td>
+        <td>10,000 mB</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -186,7 +180,12 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a transposer's GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={[
+    'machine-power',
+    'machine-secondary',
+  ]}
+/>
 
 
 Recipes
@@ -203,7 +202,42 @@ Recipes
   [lingering potion](https://minecraft.wiki/w/Lingering_Potion) for 400
   RF.
 
-{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipe-list.fill %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-fill"
+  recipes={[
+    'moss-stone',
+    'stone-bricks-mossy',
+    'concrete',
+    'sponge-wet',
+    'ice',
+    'packed-ice',
+    'mushroom-stew',
+    'blaze-powder',
+    'blizz-powder',
+    'blitz-powder',
+    'basalz-powder',
+    'phyto-gro-rich',
+    'biomass-rich',
+    'bioblend-rich',
+    'redstone-from-fluid',
+    'glowstone-dust-from-fluid',
+    'ender-pearl-from-fluid',
+    'redstone-from-clathrate',
+    'glowstone-dust-from-clathrate',
+    'ender-pearl-from-clathrate',
+    'bottle-o-enchanting',
+    'td-1-12-fluxduct-reinforced',
+    'td-1-12-fluxduct-signalum',
+    'td-1-12-fluxduct-resonant',
+    'td-1-12-fluxduct-super',
+    'td-1-12-itemduct-fast',
+    'td-1-12-itemduct-energy-fast',
+    'td-1-12-viaduct',
+    'td-1-12-viaduct-long-range-linking',
+    'ra-1-12-dust-fluxed-electrum',
+    'ra-1-12-flux-crystal',
+  ]}
+/>
 
 ### Emptying
 * 1,000 mB of fluid can be drained from items that hold fluids such as filled
@@ -211,4 +245,15 @@ Recipes
 * 250 mB of a [fluid potion](../../thermal-foundation/potion-fluid/) can be drained from a
   [potion](https://minecraft.wiki/w/Potion) for 800 RF.
 
-{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipe-list.empty %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-empty"
+  recipes={[
+    'water-from-cactus',
+    'water-from-sponge',
+    'seed-oil-from-seeds',
+    'seed-oil-from-beetroot-seeds',
+    'seed-oil-from-pumpkin-seeds',
+    'seed-oil-from-melon-seeds',
+    'mushroom-stew',
+  ]}
+/>

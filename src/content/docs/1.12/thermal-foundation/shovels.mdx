@@ -1,44 +1,26 @@
 ---
 title: Shovels
-redirect_from:
-- /docs/thermal-foundation/equipment/shovels/
-- /docs/thermal-foundation/equipment/tools/shovels/
-- /docs/shovels/
-- /docs/tf-shovels/
-- /docs/thermal-foundation/shovels/
-- /docs/thermal-foundation-2/shovels/
-- /docs/1.12/thermal-foundation-2/shovels/
-recipes:
-  crafting:
-  - tf-1-12-tool-shovel-copper
-  - tf-1-12-tool-shovel-tin
-  - tf-1-12-tool-shovel-silver
-  - tf-1-12-tool-shovel-lead
-  - tf-1-12-tool-shovel-aluminum
-  - tf-1-12-tool-shovel-nickel
-  - tf-1-12-tool-shovel-platinum
-  - tf-1-12-tool-shovel-steel
-  - tf-1-12-tool-shovel-electrum
-  - tf-1-12-tool-shovel-invar
-  - tf-1-12-tool-shovel-bronze
-  - tf-1-12-tool-shovel-constantan
-usage-recipes:
-  smelter:
-  - recycling-tool-shovel-copper
-  - recycling-tool-shovel-tin
-  - recycling-tool-shovel-silver
-  - recycling-tool-shovel-lead
-  - recycling-tool-shovel-aluminum
-  - recycling-tool-shovel-nickel
-  - recycling-tool-shovel-platinum
-  - recycling-tool-shovel-steel
-  - recycling-tool-shovel-electrum
-  - recycling-tool-shovel-invar
-  - recycling-tool-shovel-bronze
-  - recycling-tool-shovel-constantan
 ---
 
-![Shovels](/assets/images/thermal-foundation-2/shovels.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-foundation-2/shovel-copper.png', alt: 'Copper shovel' },
+    { file: 'thermal-foundation-2/shovel-tin.png', alt: 'Tin shovel' },
+    { file: 'thermal-foundation-2/shovel-silver.png', alt: 'Silver shovel' },
+    { file: 'thermal-foundation-2/shovel-lead.png', alt: 'Lead shovel' },
+    { file: 'thermal-foundation-2/shovel-aluminum.png', alt: 'Aluminum shovel' },
+    { file: 'thermal-foundation-2/shovel-nickel.png', alt: 'Nickel shovel' },
+    { file: 'thermal-foundation-2/shovel-platinum.png', alt: 'Platinum shovel' },
+    { file: 'thermal-foundation-2/shovel-steel.png', alt: 'Steel shovel' },
+    { file: 'thermal-foundation-2/shovel-electrum.png', alt: 'Electrum shovel' },
+    { file: 'thermal-foundation-2/shovel-invar.png', alt: 'Invar shovel' },
+    { file: 'thermal-foundation-2/shovel-bronze.png', alt: 'Bronze shovel' },
+    { file: 'thermal-foundation-2/shovel-constantan.png', alt: 'Constantan shovel' },
+  ]}
+/>
 
 
 **[Shovels](https://minecraft.wiki/w/Shovel)** are tools in vanilla
@@ -50,42 +32,202 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-tool-shovel-copper',
+    'tf-1-12-tool-shovel-tin',
+    'tf-1-12-tool-shovel-silver',
+    'tf-1-12-tool-shovel-lead',
+    'tf-1-12-tool-shovel-aluminum',
+    'tf-1-12-tool-shovel-nickel',
+    'tf-1-12-tool-shovel-platinum',
+    'tf-1-12-tool-shovel-steel',
+    'tf-1-12-tool-shovel-electrum',
+    'tf-1-12-tool-shovel-invar',
+    'tf-1-12-tool-shovel-bronze',
+    'tf-1-12-tool-shovel-constantan',
+  ]}
+/>
 
 
 Usage
 -----
 
 ### Comparison
-{% comment %}
+{/*
 uses = mat.maxUses
-{% endcomment %}
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Uses | Mining speed | Attack speed | Attack damage | Enchantability |
-|---
-| Wood | 59 | 2 | 1 | 2.5 | 15 |
-| Stone | 131 | 4 | 1 | 3.5 | 5 |
-| Iron | 250 | 6 | 1 | 4.5 | 14 |
-| Gold | 32 | 12 | 1 | 2.5 | 22 |
-| Diamond | 1,561 | 8 | 1 | 5.5 | 10 |
-|
-| Copper | 175 | 4 | 1 | 3 | 7 |
-| Tin | 150 | 4.5 | 1 | 3 | 7 |
-| Silver | 75 | 6 | 1 | 3 | 25 |
-| Lead | 100 | 5 | 1 | 3 | 9 |
-| Aluminum | 225 | 10 | 1 | 3 | 14 |
-| Nickel | 300 | 6.5 | 1 | 4.5 | 18 |
-| Platinum | 1,400 | 9 | 1 | 5.5 | 16 |
-| Steel | 400 | 6.5 | 1 | 4.5 | 10 |
-| Electrum | 100 | 14 | 1 | 2.5 | 30 |
-| Invar | 425 | 6.5 | 1 | 4.5 | 12 |
-| Bronze | 325 | 6 | 1 | 4 | 10 |
-| Constantan | 275 | 6 | 1 | 3.5 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Material</th>
+        <th>Uses</th>
+        <th>Mining speed</th>
+        <th>Attack speed</th>
+        <th>Attack damage</th>
+        <th>Enchantability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Wood</td>
+        <td>59</td>
+        <td>2</td>
+        <td>1</td>
+        <td>2.5</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Stone</td>
+        <td>131</td>
+        <td>4</td>
+        <td>1</td>
+        <td>3.5</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Iron</td>
+        <td>250</td>
+        <td>6</td>
+        <td>1</td>
+        <td>4.5</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Gold</td>
+        <td>32</td>
+        <td>12</td>
+        <td>1</td>
+        <td>2.5</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Diamond</td>
+        <td>1,561</td>
+        <td>8</td>
+        <td>1</td>
+        <td>5.5</td>
+        <td>10</td>
+      </tr>
+      <tr><td colspan="6">&nbsp;</td></tr>
+      <tr>
+        <td>Copper</td>
+        <td>175</td>
+        <td>4</td>
+        <td>1</td>
+        <td>3</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Tin</td>
+        <td>150</td>
+        <td>4.5</td>
+        <td>1</td>
+        <td>3</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Silver</td>
+        <td>75</td>
+        <td>6</td>
+        <td>1</td>
+        <td>3</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Lead</td>
+        <td>100</td>
+        <td>5</td>
+        <td>1</td>
+        <td>3</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Aluminum</td>
+        <td>225</td>
+        <td>10</td>
+        <td>1</td>
+        <td>3</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Nickel</td>
+        <td>300</td>
+        <td>6.5</td>
+        <td>1</td>
+        <td>4.5</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>Platinum</td>
+        <td>1,400</td>
+        <td>9</td>
+        <td>1</td>
+        <td>5.5</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Steel</td>
+        <td>400</td>
+        <td>6.5</td>
+        <td>1</td>
+        <td>4.5</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Electrum</td>
+        <td>100</td>
+        <td>14</td>
+        <td>1</td>
+        <td>2.5</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Invar</td>
+        <td>425</td>
+        <td>6.5</td>
+        <td>1</td>
+        <td>4.5</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Bronze</td>
+        <td>325</td>
+        <td>6</td>
+        <td>1</td>
+        <td>4</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Constantan</td>
+        <td>275</td>
+        <td>6</td>
+        <td>1</td>
+        <td>3.5</td>
+        <td>12</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'recycling-tool-shovel-copper',
+    'recycling-tool-shovel-tin',
+    'recycling-tool-shovel-silver',
+    'recycling-tool-shovel-lead',
+    'recycling-tool-shovel-aluminum',
+    'recycling-tool-shovel-nickel',
+    'recycling-tool-shovel-platinum',
+    'recycling-tool-shovel-steel',
+    'recycling-tool-shovel-electrum',
+    'recycling-tool-shovel-invar',
+    'recycling-tool-shovel-bronze',
+    'recycling-tool-shovel-constantan',
+  ]}
+/>

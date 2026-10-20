@@ -1,13 +1,7 @@
 ---
-title: "Redstone Flux: A Primer"
-redirect_from:
-  - /redstone-flux/a-primer.html
-  - /docs/redstone-flux/a-primer/
-  - /docs/redstone-flux/about/redstone-flux-a-primer/
-  - /docs/redstone-flux-a-primer/
+title: 'Redstone Flux: A Primer'
+author: King Lemming
 ---
-
-By King Lemming, Ph.D.
 
 Redstone - the mysterious substance found deep underground - is the source of
 limitless potential in this new age of industrialization. In its native ore
@@ -67,11 +61,10 @@ and copper allows for the flow of electrons.
 
 **Silver:** This precious metal, when combined with redstone dust, is able to
 convert heat or electricity into Redstone Flux. Engineering advances have shown
-that a coil-type geometry can be used to
-optimize the production and transmission of this Redstone Flux. Essentially,
-silver is most used in the generation of Redstone Flux. The engineering mnemonic
-for this is derived from the chemical abbreviation of silver - Ag - or "A
-Generator."
+that a coil-type geometry can be used to optimize the production and
+transmission of this Redstone Flux. Essentially, silver is most used in the
+generation of Redstone Flux. The engineering mnemonic for this is derived from
+the chemical abbreviation of silver - Ag - or "A Generator."
 
 **Gold:** This precious metal, when combined with redstone dust, is able to
 convert Redstone Flux into heat or magnetism. Engineering advances have shown

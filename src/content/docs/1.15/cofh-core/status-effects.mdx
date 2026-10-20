@@ -1,55 +1,9 @@
 ---
 title: Status effects
-effects:
-  - id: blast-resistance
-    name: Blast Resistance
-    type: Positive
-    description: >
-      Grants immunity to
-      <a href="https://minecraft.wiki/w/Explosion">explosion</a> damage.
-  - id: chilled
-    name: Chilled
-    type: Negative
-    description: >
-      Reduces movement speed and attack damage.
-  - id: clarity
-    name: Clarity
-    type: Positive
-    description: >
-      When gaining
-      <a href="https://minecraft.wiki/w/Experience">experience</a>,
-      increases the amount by <code>40 * level</code> percent.
-  - id: enderference
-    name: Enderference
-    type: Neutral
-    description: >
-      Makes <a href="https://minecraft.wiki/w/Enderman">endermen</a>
-      unable to teleport, and makes players unable to teleport using
-      <a href="https://minecraft.wiki/w/Ender_Pearl">ender pearls</a>.
-  - id: love
-    name: Love
-    type: Positive
-    description: >
-      Causes animals to enter
-      <a href="https://minecraft.wiki/w/Breeding">love mode</a>.
-  - id: magic-resistance
-    name: Magic Resistance
-    type: Positive
-    description: >
-      Grants immunity to magic damage (such as instant damage potions).
-  - id: panacea
-    name: Panacea
-    type: Positive
-    description: >
-      Grants immunity to negative status effects.
-  - id: shock-resistance
-    name: Shock Resistance
-    type: Positive
-    description: >
-      Grants immunity to
-      <a href="https://minecraft.wiki/w/Lightning">lightning</a> strike
-      damage.
 ---
+
+import { Image } from 'astro:assets';
+import { image } from '@/lib/images.ts';
 
 [CoFH Core](../) adds a group of **[status
 effects](https://minecraft.wiki/w/Status_effect)** to the game. These are
@@ -59,4 +13,116 @@ not used by CoFH Core itself; they are just made available for the other mods.
 List of status effects
 ----------------------
 
-{% include core-1-15-effect-table.html effects=page.effects %}
+<div class="uk-overflow-container">
+  <table class="uk-table uk-table-striped uk-text-small cofh-info-table">
+    <thead>
+      <tr>
+        <th style="width: 48px; min-width: 48px"></th>
+        <th>Name</th>
+        <th style="min-width: 200px">Description</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <Image
+            src={image('cofh-core-1-15/effect/blast-resistance.png')}
+            alt="Blast Resistance"
+            style="width: 48px; height: 48px"
+          />
+        </td>
+        <td class="cofh-nowrap"><strong>Blast Resistance</strong></td>
+        <td>Grants immunity to [explosion](https://minecraft.wiki/w/Explosion) damage.</td>
+        <td class="cofh-nowrap">Positive</td>
+      </tr>
+      <tr>
+        <td>
+          <Image
+            src={image('cofh-core-1-15/effect/chilled.png')}
+            alt="Chilled"
+            style="width: 48px; height: 48px"
+          />
+        </td>
+        <td class="cofh-nowrap"><strong>Chilled</strong></td>
+        <td>Reduces movement speed and attack damage.</td>
+        <td class="cofh-nowrap">Negative</td>
+      </tr>
+      <tr>
+        <td>
+          <Image
+            src={image('cofh-core-1-15/effect/clarity.png')}
+            alt="Clarity"
+            style="width: 48px; height: 48px"
+          />
+        </td>
+        <td class="cofh-nowrap"><strong>Clarity</strong></td>
+        <td>When gaining [experience](https://minecraft.wiki/w/Experience), increases the amount by
+          <code>40 * level</code> percent.</td>
+        <td class="cofh-nowrap">Positive</td>
+      </tr>
+      <tr>
+        <td>
+          <Image
+            src={image('cofh-core-1-15/effect/enderference.png')}
+            alt="Enderference"
+            style="width: 48px; height: 48px"
+          />
+        </td>
+        <td class="cofh-nowrap"><strong>Enderference</strong></td>
+        <td>Makes [endermen](https://minecraft.wiki/w/Enderman) unable to teleport, and makes
+          players unable to teleport using [ender
+          pearls](https://minecraft.wiki/w/Ender_Pearl).</td>
+        <td class="cofh-nowrap">Neutral</td>
+      </tr>
+      <tr>
+        <td>
+          <Image
+            src={image('cofh-core-1-15/effect/love.png')}
+            alt="Love"
+            style="width: 48px; height: 48px"
+          />
+        </td>
+        <td class="cofh-nowrap"><strong>Love</strong></td>
+        <td>Causes animals to enter [love mode](https://minecraft.wiki/w/Breeding).</td>
+        <td class="cofh-nowrap">Positive</td>
+      </tr>
+      <tr>
+        <td>
+          <Image
+            src={image('cofh-core-1-15/effect/magic-resistance.png')}
+            alt="Magic Resistance"
+            style="width: 48px; height: 48px"
+          />
+        </td>
+        <td class="cofh-nowrap"><strong>Magic Resistance</strong></td>
+        <td>Grants immunity to magic damage (such as instant damage potions).</td>
+        <td class="cofh-nowrap">Positive</td>
+      </tr>
+      <tr>
+        <td>
+          <Image
+            src={image('cofh-core-1-15/effect/panacea.png')}
+            alt="Panacea"
+            style="width: 48px; height: 48px"
+          />
+        </td>
+        <td class="cofh-nowrap"><strong>Panacea</strong></td>
+        <td>Grants immunity to negative status effects.</td>
+        <td class="cofh-nowrap">Positive</td>
+      </tr>
+      <tr>
+        <td>
+          <Image
+            src={image('cofh-core-1-15/effect/shock-resistance.png')}
+            alt="Shock Resistance"
+            style="width: 48px; height: 48px"
+          />
+        </td>
+        <td class="cofh-nowrap"><strong>Shock Resistance</strong></td>
+        <td>Grants immunity to [lightning](https://minecraft.wiki/w/Lightning) strike damage.</td>
+        <td class="cofh-nowrap">Positive</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

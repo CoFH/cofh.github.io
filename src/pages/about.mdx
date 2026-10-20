@@ -1,8 +1,9 @@
 ---
 title: About Team CoFH
-layout: simple_info
-redirect_from: /about.html
+layout: ../layouts/SimpleInfo.astro
 ---
+
+import TeamMember from '@/components/about/TeamMember.astro';
 
 History
 -------
@@ -37,4 +38,83 @@ still around today, with their various mods still alive and being worked on.
 Members
 -------
 
-{% include team-members.html %}
+<div class="uk-overflow-container">
+  <table class="uk-table uk-table-striped cofh-info-table" style="width: 100%">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Links</th>
+      </tr>
+    </thead>
+    <tbody>
+      <TeamMember
+        name="King Lemming"
+        avatar="team/king-lemming.png"
+        description="Founder and lead developer"
+        links={[
+          { icon: 'twitter', url: 'https://twitter.com/KingLemmingCoFH' },
+          { icon: 'github', url: 'https://github.com/KingLemming' },
+          { icon: 'reddit', url: 'https://www.reddit.com/user/KingLemming' },
+        ]}
+      />
+      <TeamMember
+        name="Cynycal"
+        avatar="team/cynycal.jpg"
+        description="Co-founder and artist"
+        links={[{ icon: 'twitter', url: 'https://twitter.com/ThisNameKills' }]}
+      />
+      <TeamMember
+        name="covers1624"
+        avatar="team/covers1624.png"
+        description="Developer"
+        links={[
+          { icon: 'twitter', url: 'https://twitter.com/covers1624' },
+          { icon: 'github', url: 'https://github.com/covers1624' },
+          { icon: 'reddit', url: 'https://www.reddit.com/user/covers1624' },
+        ]}
+      />
+      <TeamMember
+        name="skyboy026"
+        avatar="team/skyboy026.jpg"
+        description="Developer (MineFactory Reloaded, CoFH World)"
+        links={[
+          { icon: 'twitter', url: 'https://twitter.com/skyboy026' },
+          { icon: 'github', url: 'https://github.com/skyboy' },
+          { icon: 'reddit', url: 'https://www.reddit.com/user/skyboy026' },
+        ]}
+      />
+      <TeamMember
+        name="Tonius"
+        avatar="team/tonius.jpg"
+        description="Web developer"
+        links={[
+          { icon: 'twitter', url: 'https://twitter.com/ToniusMods' },
+          { icon: 'github', url: 'https://github.com/Tonius' },
+          { icon: 'reddit', url: 'https://www.reddit.com/user/tonius11' },
+        ]}
+      />
+      <TeamMember
+        name="RWTema"
+        avatar="team/rwtema.jpg"
+        description="Developer (Thermal Dynamics)"
+        links={[
+          { icon: 'twitter', url: 'https://twitter.com/RWTema' },
+          { icon: 'github', url: 'https://github.com/RWTema' },
+          { icon: 'reddit', url: 'https://www.reddit.com/user/RWTema' },
+        ]}
+      />
+      <TeamMember
+        name="Zeldo Kavira"
+        avatar="team/zeldo-kavira.jpg"
+        description="Developer"
+        links={[
+          { icon: 'twitter', url: 'https://twitter.com/ZeldoKavira' },
+          { icon: 'github', url: 'https://github.com/ZeldoKavira' },
+          { icon: 'reddit', url: 'https://www.reddit.com/user/ZeldoKavira' },
+        ]}
+      />
+    </tbody>
+  </table>
+</div>

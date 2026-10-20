@@ -1,29 +1,35 @@
 ---
 title: Alchemical Quiver
-redirect_from:
-- /docs/alchemical-quiver/
-- /docs/thermal-innovation/alchemical-quiver/
-image:
-- alt: Alchemical quiver (Basic)
-  file: thermal-innovation/alchemical-quiver-basic.png
-- alt: Alchemical quiver (Hardened)
-  file: thermal-innovation/alchemical-quiver-hardened.png
-- alt: Alchemical quiver (Reinforced)
-  file: thermal-innovation/alchemical-quiver-reinforced.png
-- alt: Alchemical quiver (Signalum)
-  file: thermal-innovation/alchemical-quiver-signalum.png
-- alt: Alchemical quiver (Resonant)
-  file: thermal-innovation/alchemical-quiver-resonant.png
-- alt: Alchemical quiver (Creative)
-  file: thermal-innovation/alchemical-quiver-creative.png
-recipes:
-  crafting:
-  - ti-1-12-alchemical-quiver-basic
-  - ti-1-12-alchemical-quiver-hardened
-  - ti-1-12-alchemical-quiver-reinforced
-  - ti-1-12-alchemical-quiver-signalum
-  - ti-1-12-alchemical-quiver-resonant
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-innovation/alchemical-quiver-basic.png', alt: 'Alchemical quiver (Basic)' },
+    {
+      file: 'thermal-innovation/alchemical-quiver-hardened.png',
+      alt: 'Alchemical quiver (Hardened)',
+    },
+    {
+      file: 'thermal-innovation/alchemical-quiver-reinforced.png',
+      alt: 'Alchemical quiver (Reinforced)',
+    },
+    {
+      file: 'thermal-innovation/alchemical-quiver-signalum.png',
+      alt: 'Alchemical quiver (Signalum)',
+    },
+    {
+      file: 'thermal-innovation/alchemical-quiver-resonant.png',
+      alt: 'Alchemical quiver (Resonant)',
+    },
+    {
+      file: 'thermal-innovation/alchemical-quiver-creative.png',
+      alt: 'Alchemical quiver (Creative)',
+    },
+  ]}
+/>
 
 An **alchemical quiver** is an item that stores
 [arrows](https://minecraft.wiki/w/Arrows) and can automatically imbue
@@ -34,7 +40,16 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'ti-1-12-alchemical-quiver-basic',
+    'ti-1-12-alchemical-quiver-hardened',
+    'ti-1-12-alchemical-quiver-reinforced',
+    'ti-1-12-alchemical-quiver-signalum',
+    'ti-1-12-alchemical-quiver-resonant',
+  ]}
+/>
 
 
 Usage
@@ -87,13 +102,17 @@ crafting grid.
 An alchemical quiver can be enchanted with [Holding](../../cofh-core/holding/) to increase
 its arrow and potion capacity.
 
-| Holding level | Capacity multiplier |
-|---
-| I | × 1.5 |
-| II | × 2 |
-| III | × 2.5 |
-| IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity multiplier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>× 1.5</td></tr>
+    <tr><td>II</td><td>× 2</td></tr>
+    <tr><td>III</td><td>× 2.5</td></tr>
+    <tr><td>IV</td><td>× 3</td></tr>
+  </tbody>
+</table>
 
 
 Tiers
@@ -101,16 +120,60 @@ Tiers
 
 Alchemical quivers come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Arrow capacity | Potion capacity | (bottles) | Note |
-|---
-| Basic | 40 | 2,000 mB | 8 |
-| Hardened | 120 | 6,000 mB | 24 |
-| Reinforced | 240 | 12,000 mB | 48 |
-| Signalum | 400 | 20,000 mB | 80 |
-| Resonant | 600 | 30,000 mB | 120 |
-| Creative | N/A | N/A | | Provides infinite arrows and an unlimited amount of the potion it holds. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Arrow capacity</th>
+        <th>Potion capacity</th>
+        <th>(bottles)</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>40</td>
+        <td>2,000 mB</td>
+        <td>8</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>120</td>
+        <td>6,000 mB</td>
+        <td>24</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>240</td>
+        <td>12,000 mB</td>
+        <td>48</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>400</td>
+        <td>20,000 mB</td>
+        <td>80</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>600</td>
+        <td>30,000 mB</td>
+        <td>120</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Creative</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td></td>
+        <td>Provides infinite arrows and an unlimited amount of the potion it holds.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

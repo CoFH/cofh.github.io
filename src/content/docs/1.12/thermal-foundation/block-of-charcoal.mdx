@@ -1,20 +1,13 @@
 ---
 title: Block of Charcoal
-redirect_from:
-- /docs/block-of-charcoal/
-- /docs/thermal-foundation/block-of-charcoal/
-- /docs/thermal-foundation-2/block-of-charcoal/
-- /docs/1.12/thermal-foundation-2/block-of-charcoal/
-image:
-- alt: Block of charcoal
-  file: thermal-foundation-2/storage-block-charcoal.png
-recipes:
-  crafting:
-  - tf-1-12-storage-block-charcoal
-usage-recipes:
-  crafting:
-  - tf-1-12-charcoal-from-block
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/storage-block-charcoal.png', alt: 'Block of charcoal' }]}
+/>
 
 **Blocks of charcoal** are blocks made from
 [charcoal](https://minecraft.wiki/w/Charcoal).
@@ -27,7 +20,11 @@ Blocks of charcoal can only be mined with a [wooden
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-storage-block-charcoal']}
+  noResult
+/>
 
 
 Usage
@@ -45,4 +42,7 @@ block of charcoal lasts 800 seconds, which is enough to smelt up to 80 items. It
 lasts slightly longer than 9 individual pieces of charcoal.
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-charcoal-from-block']}
+/>

@@ -1,20 +1,13 @@
 ---
 title: Magmatic Florb
-image:
-- alt: Magmatic florb
-  file: thermal-expansion-5/florb-magmatic.png
-redirect_from:
-- /docs/thermal-expansion/items/magmatic-florb/
-- /docs/magmatic-florb/
-- /docs/thermal-expansion/magmatic-florb/
-- /docs/thermal-expansion-5/magmatic-florb/
-- /docs/1.12/thermal-expansion-5/magmatic-florb/
-recipes:
-  crafting:
-  - te-1-12-florb-magmatic-using-magma-cream
-  - te-1-12-florb-magmatic-using-slime
-  - te-1-12-florb-magmatic-using-rosin
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/florb-magmatic.png', alt: 'Magmatic florb' }]}
+/>
 
 A **magmatic florb** is a [florb](../florb/) that can hold hot fluids like
 [lava](https://minecraft.wiki/w/Lava).
@@ -24,7 +17,15 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'te-1-12-florb-magmatic-using-magma-cream',
+    'te-1-12-florb-magmatic-using-slime',
+    'te-1-12-florb-magmatic-using-rosin',
+  ]}
+  noResult
+/>
 
 
 Usage

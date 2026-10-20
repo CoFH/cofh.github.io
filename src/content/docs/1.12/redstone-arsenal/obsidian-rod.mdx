@@ -1,21 +1,13 @@
 ---
 title: Obsidian Rod
-image:
-- alt: Obsidian rod
-  file: redstone-arsenal-2/obsidian-rod.png
-redirect_from:
-- /docs/redstone-arsenal/materials/obsidian-rod/
-- /docs/obsidian-rod/
-- /docs/redstone-arsenal/obsidian-rod/
-- /docs/redstone-arsenal-2/obsidian-rod/
-- /docs/1.12/redstone-arsenal-2/obsidian-rod/
-recipes:
-  crafting:
-  - ra-1-12-obsidian-rod
-usage-recipes:
-  crafting:
-  - ra-1-12-obsidian-rod-flux-infused
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'redstone-arsenal-2/obsidian-rod.png', alt: 'Obsidian rod' }]}
+/>
 
 **Obsidian rods** are crafting materials used to make flux-infused tools and
 weapons.
@@ -25,11 +17,18 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ra-1-12-obsidian-rod']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['ra-1-12-obsidian-rod-flux-infused']}
+/>

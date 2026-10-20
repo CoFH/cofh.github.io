@@ -1,29 +1,20 @@
 ---
 title: Fluxomagnet
-redirect_from:
-- /docs/fluxomagnet/
-- /docs/thermal-innovation/fluxomagnet/
-image:
-- alt: Fluxomagnet (Basic)
-  file: thermal-innovation/fluxomagnet-basic.png
-- alt: Fluxomagnet (Hardened)
-  file: thermal-innovation/fluxomagnet-hardened.png
-- alt: Fluxomagnet (Reinforced)
-  file: thermal-innovation/fluxomagnet-reinforced.png
-- alt: Fluxomagnet (Signalum)
-  file: thermal-innovation/fluxomagnet-signalum.png
-- alt: Fluxomagnet (Resonant)
-  file: thermal-innovation/fluxomagnet-resonant.png
-- alt: Fluxomagnet (Creative)
-  file: thermal-innovation/fluxomagnet-creative.png
-recipes:
-  crafting:
-  - ti-1-12-fluxomagnet-basic
-  - ti-1-12-fluxomagnet-hardened
-  - ti-1-12-fluxomagnet-reinforced
-  - ti-1-12-fluxomagnet-signalum
-  - ti-1-12-fluxomagnet-resonant
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-innovation/fluxomagnet-basic.png', alt: 'Fluxomagnet (Basic)' },
+    { file: 'thermal-innovation/fluxomagnet-hardened.png', alt: 'Fluxomagnet (Hardened)' },
+    { file: 'thermal-innovation/fluxomagnet-reinforced.png', alt: 'Fluxomagnet (Reinforced)' },
+    { file: 'thermal-innovation/fluxomagnet-signalum.png', alt: 'Fluxomagnet (Signalum)' },
+    { file: 'thermal-innovation/fluxomagnet-resonant.png', alt: 'Fluxomagnet (Resonant)' },
+    { file: 'thermal-innovation/fluxomagnet-creative.png', alt: 'Fluxomagnet (Creative)' },
+  ]}
+/>
 
 A **fluxomagnet**, or **magnet** for short, is a tool that attracts dropped
 items using [Redstone Flux](/docs/redstone-flux/).
@@ -33,7 +24,16 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'ti-1-12-fluxomagnet-basic',
+    'ti-1-12-fluxomagnet-hardened',
+    'ti-1-12-fluxomagnet-reinforced',
+    'ti-1-12-fluxomagnet-signalum',
+    'ti-1-12-fluxomagnet-resonant',
+  ]}
+/>
 
 
 Usage
@@ -98,13 +98,17 @@ removed by placing the fluxomagnet in a crafting grid.
 A fluxomagnet can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
-| Holding level | Capacity multiplier |
-|---
-| I | × 1.5 |
-| II | × 2 |
-| III | × 2.5 |
-| IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity multiplier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>× 1.5</td></tr>
+    <tr><td>II</td><td>× 2</td></tr>
+    <tr><td>III</td><td>× 2.5</td></tr>
+    <tr><td>IV</td><td>× 3</td></tr>
+  </tbody>
+</table>
 
 
 Tiers
@@ -112,16 +116,67 @@ Tiers
 
 Fluxomagnets come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Capacity | Max. charge rate | Radius | Filter slots | Note |
-|---
-| Basic | 40,000 RF | 1,000 RF/t | 4 blocks | 3 |
-| Hardened | 120,000 RF | 4,000 RF/t | 5 blocks | 6 |
-| Reinforced | 240,000 RF | 9,000 RF/t | 6 blocks | 9 |
-| Signalum | 400,000 RF | 16,000 RF/t | 7 blocks | 12 |
-| Resonant | 600,000 RF | 25,000 RF/t | 8 blocks | 15 |
-| Creative | N/A | N/A | 8 blocks | 15 | Does not consume energy. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Capacity</th>
+        <th>Max. charge rate</th>
+        <th>Radius</th>
+        <th>Filter slots</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>40,000 RF</td>
+        <td>1,000 RF/t</td>
+        <td>4 blocks</td>
+        <td>3</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>120,000 RF</td>
+        <td>4,000 RF/t</td>
+        <td>5 blocks</td>
+        <td>6</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>240,000 RF</td>
+        <td>9,000 RF/t</td>
+        <td>6 blocks</td>
+        <td>9</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>400,000 RF</td>
+        <td>16,000 RF/t</td>
+        <td>7 blocks</td>
+        <td>12</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>600,000 RF</td>
+        <td>25,000 RF/t</td>
+        <td>8 blocks</td>
+        <td>15</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Creative</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>8 blocks</td>
+        <td>15</td>
+        <td>Does not consume energy.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

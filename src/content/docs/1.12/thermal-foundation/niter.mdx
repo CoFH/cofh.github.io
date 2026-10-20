@@ -1,37 +1,13 @@
 ---
 title: Niter
-redirect_from:
-- /docs/thermal-foundation/materials/niter/
-- /docs/thermal-foundation/items/materials/other/niter/
-- /docs/niter/
-- /docs/thermal-foundation/niter/
-- /docs/thermal-foundation-2/niter/
-- /docs/1.12/thermal-foundation-2/niter/
-recipes:
-  pulverizer:
-  - recycling-sandstone
-  - recycling-sandstone-slab
-  - recycling-sandstone-stairs
-  - recycling-sandstone-red
-  - recycling-sandstone-red-slab
-  - recycling-sandstone-red-stairs
-  - blitz-powder
-  centrifuge:
-  - dust-aerotheum
-usage-recipes:
-  crafting:
-  - tf-1-12-gunpowder-using-coal
-  - tf-1-12-gunpowder-using-charcoal
-  - tf-1-12-dust-aerotheum
-  - tf-1-12-phyto-gro-using-sawdust
-  - tf-1-12-phyto-gro-using-charcoal
-  - tf-1-12-phyto-gro-rich-using-sawdust
-  - tf-1-12-phyto-gro-rich-using-charcoal
-  transposer-fill:
-  - blitz-powder
 ---
 
-![Niter](/assets/images/thermal-foundation-2/niter.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/niter.png', alt: 'Niter' }]}
+/>
 
 
 **Niter** is a byproduct of processing
@@ -45,24 +21,54 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={[
+    'recycling-sandstone',
+    'recycling-sandstone-slab',
+    'recycling-sandstone-stairs',
+    'recycling-sandstone-red',
+    'recycling-sandstone-red-slab',
+    'recycling-sandstone-red-stairs',
+    'blitz-powder',
+  ]}
+  noResult
+/>
 
 ### Blitzes
 A [blitz](../blitz/) may drop up to two pieces of niter when killed by a
 player.
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/centrifuge"
+  recipes={['dust-aerotheum']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-gunpowder-using-coal',
+    'tf-1-12-gunpowder-using-charcoal',
+    'tf-1-12-dust-aerotheum',
+    'tf-1-12-phyto-gro-using-sawdust',
+    'tf-1-12-phyto-gro-using-charcoal',
+    'tf-1-12-phyto-gro-rich-using-sawdust',
+    'tf-1-12-phyto-gro-rich-using-charcoal',
+  ]}
+/>
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-fill"
+  recipes={['blitz-powder']}
+/>
 
 
 Trivia

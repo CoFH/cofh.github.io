@@ -1,17 +1,13 @@
 ---
 title: Constantan Coin
-redirect_from:
-- /docs/thermal-foundation/items/materials/coins/constantan-coin/
-- /docs/constantan-coin/
-- /docs/thermal-foundation/constantan-coin/
-- /docs/thermal-foundation-2/constantan-coin/
-- /docs/1.12/thermal-foundation-2/constantan-coin/
-recipes:
-  compactor-coin:
-  - coin-constantan
 ---
 
-![Constantan coin](/assets/images/thermal-foundation-2/coin-constantan.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/coin-constantan.png', alt: 'Constantan coin' }]}
+/>
 
 
 **Constantan coins** are materials made of [constantan](../constantan-ingot/)
@@ -22,7 +18,11 @@ Obtaining
 ---------
 
 ### Compactor with Numismatic Press
-{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.recipes.compactor-coin no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/compactor-coin"
+  recipes={['coin-constantan']}
+  noResult
+/>
 
 
 Usage

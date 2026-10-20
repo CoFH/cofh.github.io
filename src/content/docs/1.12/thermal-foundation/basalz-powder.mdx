@@ -1,29 +1,13 @@
 ---
 title: Basalz Powder
-redirect_from:
-- /docs/thermal-foundation/elemental-materials/basalz-powder/
-- /docs/thermal-foundation/items/materials/elemental/basalz-powder/
-- /docs/basalz-powder/
-- /docs/thermal-foundation/basalz-powder/
-- /docs/thermal-foundation-2/basalz-powder/
-- /docs/1.12/thermal-foundation-2/basalz-powder/
-recipes:
-  crafting:
-  - tf-1-12-basalz-powder
-  pulverizer:
-  - basalz-powder
-  transposer-fill:
-  - basalz-powder
-  centrifuge:
-  - dust-petrotheum
-usage-recipes:
-  crafting:
-  - tf-1-12-dust-petrotheum
-  compactor:
-  - basalz-rod-from-powder
 ---
 
-![Basalz powder](/assets/images/thermal-foundation-2/basalz-powder.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/basalz-powder.gif', alt: 'Basalz powder' }]}
+/>
 
 
 **Basalz powder** is a material that is most commonly obtained from [basalz
@@ -36,23 +20,42 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-basalz-powder']}
+  noResult
+/>
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['basalz-powder']}
+  noResult
+/>
 
 ### Fluid Transposer
-{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.recipes.transposer-fill no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-fill"
+  recipes={['basalz-powder']}
+  noResult
+/>
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/centrifuge"
+  recipes={['dust-petrotheum']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-dust-petrotheum']}
+/>
 
 ### Brewing ingredient
 When [brewing](https://minecraft.wiki/w/Brewing), basalz powder can be
@@ -61,4 +64,7 @@ potion](https://minecraft.wiki/w/Potion#Base_potions) to make a [potion
 of haste](../../cofh-core/potions/).
 
 ### Compactor ingredient
-{% include recipe-table.html type='te-1-12-compactor' recipes=page.usage-recipes.compactor %}
+<RecipeTable
+  type="1.12/thermal-expansion/compactor"
+  recipes={['basalz-rod-from-powder']}
+/>

@@ -1,19 +1,13 @@
 ---
 title: Multimeter
-redirect_from:
-- /docs/thermal-expansion/tools/multimeter/
-- /docs/thermal-foundation/items/multimeter/
-- /docs/thermal-foundation/items/tools/multimeter/
-- /docs/multimeter/
-- /docs/thermal-foundation/multimeter/
-- /docs/thermal-foundation-2/multimeter/
-- /docs/1.12/thermal-foundation-2/multimeter/
-recipes:
-  crafting:
-  - tf-1-12-multimeter
 ---
 
-![Multimeter](/assets/images/thermal-foundation-2/multimeter.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/multimeter.png', alt: 'Multimeter' }]}
+/>
 
 > There are no accidents, only Flukes.
 
@@ -25,7 +19,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-multimeter']}
+  noResult
+/>
 
 
 Usage

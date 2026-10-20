@@ -1,28 +1,13 @@
 ---
 title: Tin Ore
-redirect_from:
-- /docs/thermal-foundation/ores/tin-ore/
-- /docs/thermal-foundation/world/ores/tin-ore/
-- /docs/tin-ore/
-- /docs/thermal-foundation/tin-ore/
-- /docs/thermal-foundation-2/tin-ore/
-- /docs/1.12/thermal-foundation-2/tin-ore/
-usage-recipes:
-  smelting:
-  - tf-1-12-ore-processing-tin
-  crafting:
-  - tf-1-12-pyrotheum-ore-tin
-  - tf-1-12-petrotheum-ore-tin
-  - tf-1-12-petrotheum-pyrotheum-ore-tin
-  pulverizer:
-  - ore-processing-tin
-  smelter:
-  - ore-processing-sand-tin
-  - ore-processing-rich-slag-tin
-  - ore-processing-cinnabar-tin
 ---
 
-![Tin ore](/assets/images/thermal-foundation-2/ore-tin.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/ore-tin.png', alt: 'Tin ore' }]}
+/>
 
 
 **Tin ore** is a common [ore](https://minecraft.wiki/w/Ore) that yields
@@ -46,16 +31,36 @@ Usage
 -----
 
 ### Smelting
-{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+<RecipeTable
+  type="smelting"
+  recipes={['tf-1-12-ore-processing-tin']}
+/>
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-pyrotheum-ore-tin',
+    'tf-1-12-petrotheum-ore-tin',
+    'tf-1-12-petrotheum-pyrotheum-ore-tin',
+  ]}
+/>
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['ore-processing-tin']}
+/>
 
 ### Induction Smelter
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ore-processing-sand-tin',
+    'ore-processing-rich-slag-tin',
+    'ore-processing-cinnabar-tin',
+  ]}
+/>
 
 ### Smashing
 When tin ore is broken using a [Smashing](../../cofh-core/smashing/) enchanted

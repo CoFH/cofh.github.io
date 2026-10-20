@@ -1,18 +1,18 @@
 ---
 title: 'Augment: Nullification Chamber'
-image:
-- alt: Nullification chamber augment
-  file: thermal-expansion-5/augment-machine-secondary-null.gif
-redirect_from:
-- /docs/thermal-expansion/augments/machine-secondary-nullifier/
-- /docs/augment-nullification-chamber/
-- /docs/thermal-expansion/augment-nullification-chamber/
-- /docs/thermal-expansion-5/augment-nullification-chamber/
-- /docs/1.12/thermal-expansion-5/augment-nullification-chamber/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-secondary-null
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-secondary-null.gif',
+      alt: 'Nullification chamber augment',
+    },
+  ]}
+/>
 
 A **nullification chamber** is an [augment](../augments/) that destroys
 excess secondary products when an applicable [machine](../machines/)'s
@@ -23,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-secondary-null']}
+  noResult
+/>
 
 
 Usage

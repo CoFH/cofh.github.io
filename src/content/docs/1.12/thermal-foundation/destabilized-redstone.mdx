@@ -1,41 +1,15 @@
 ---
 title: Destabilized Redstone
-redirect_from:
-- /thermal-expansion/fluids/destabilized-redstone/
-- /docs/thermal-foundation/fluids/destabilized-redstone/
-- /docs/thermal-foundation/fluids/molten/destabilized-redstone/
-- /docs/destabilized-redstone/
-- /docs/thermal-foundation/destabilized-redstone/
-- /docs/thermal-foundation-2/destabilized-redstone/
-- /docs/1.12/thermal-foundation-2/destabilized-redstone/
-recipes:
-  crucible:
-  - redstone
-  - redstone-from-block
-  - redstone-from-clathrate
-  - fluid-ore-processing-redstone
-  transposer-empty:
-  - bucket-redstone
-  centrifuge:
-  - dust-signalum
-usage-recipes:
-  crafting:
-  - tf-1-12-redstone-from-fluid
-  - tf-1-12-dust-signalum
-  - ra-1-12-dust-fluxed-electrum-using-electrum
-  - ra-1-12-dust-fluxed-electrum-using-gold-and-silver
-  - ra-1-12-flux-crystal
-  transposer-fill:
-  - bucket-redstone
-  - redstone-from-fluid
-  - td-1-12-fluxduct-reinforced
-  - td-1-12-fluxduct-signalum
-  - td-1-12-fluxduct-resonant
-  - ra-1-12-dust-fluxed-electrum
-  - ra-1-12-flux-crystal
 ---
 
-![Destabilized redstone](/assets/images/thermal-foundation-2/destabilized-redstone.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-foundation-2/destabilized-redstone.gif', alt: 'Destabilized redstone' },
+  ]}
+/>
 
 > Behold, the Redstone Revolution!
 
@@ -49,13 +23,27 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='te-1-12-crucible' recipes=page.recipes.crucible %}
+<RecipeTable
+  type="1.12/thermal-expansion/crucible"
+  recipes={[
+    'redstone',
+    'redstone-from-block',
+    'redstone-from-clathrate',
+    'fluid-ore-processing-redstone',
+  ]}
+/>
 
 ### Fluid Transposer
-{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-empty"
+  recipes={['bucket-redstone']}
+/>
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge %}
+<RecipeTable
+  type="1.12/thermal-expansion/centrifuge"
+  recipes={['dust-signalum']}
+/>
 
 ### Natural generation
 Deposits of [destabilized redstone ore](../destabilized-redstone-ore/) may
@@ -81,10 +69,30 @@ Any item that contains at least one
 [bucket](https://minecraft.wiki/w/Bucket) worth of destabilized redstone
 may be used in these recipes.
 
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-redstone-from-fluid',
+    'tf-1-12-dust-signalum',
+    'ra-1-12-dust-fluxed-electrum-using-electrum',
+    'ra-1-12-dust-fluxed-electrum-using-gold-and-silver',
+    'ra-1-12-flux-crystal',
+  ]}
+/>
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-fill"
+  recipes={[
+    'bucket-redstone',
+    'redstone-from-fluid',
+    'td-1-12-fluxduct-reinforced',
+    'td-1-12-fluxduct-signalum',
+    'td-1-12-fluxduct-resonant',
+    'ra-1-12-dust-fluxed-electrum',
+    'ra-1-12-flux-crystal',
+  ]}
+/>
 
 ### Reactant Dynamo fuel
 Destabilized redstone can be used with

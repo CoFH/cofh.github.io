@@ -1,23 +1,13 @@
 ---
 title: Block of Copper
-image:
-- alt: Block of copper
-  file: thermal-foundation-2/storage-block-copper.png
-redirect_from:
-- /docs/thermal-foundation/materials/storage-blocks/
-- /docs/thermal-foundation/blocks/metal/copper-block/
-- /docs/copper-block/
-- /docs/block-of-copper/
-- /docs/thermal-foundation/block-of-copper/
-- /docs/thermal-foundation-2/block-of-copper/
-- /docs/1.12/thermal-foundation-2/block-of-copper/
-recipes:
-  crafting:
-  - tf-1-12-storage-block-copper
-usage-recipes:
-  crafting:
-  - tf-1-12-ingot-copper-from-block
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/storage-block-copper.png', alt: 'Block of copper' }]}
+/>
 
 **Blocks of copper** are blocks made from [copper ingots](../copper-ingot/).
 
@@ -29,7 +19,11 @@ Blocks of copper can only be mined with a [stone
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-storage-block-copper']}
+  noResult
+/>
 
 
 Usage
@@ -47,4 +41,7 @@ Blocks of copper can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-ingot-copper-from-block']}
+/>

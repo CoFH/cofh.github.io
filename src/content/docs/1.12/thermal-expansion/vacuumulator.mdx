@@ -1,16 +1,13 @@
 ---
 title: Vacuumulator
-image:
-- alt: Vacuumulator
-  file: thermal-expansion-5/vacuumulator.png
-recipes:
-  crafting:
-  - te-1-12-device-item-collector
-redirect_from:
-- /docs/thermal-expansion/vacuumulator/
-- /docs/thermal-expansion-5/vacuumulator/
-- /docs/1.12/thermal-expansion-5/vacuumulator/
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/vacuumulator.png', alt: 'Vacuumulator' }]}
+/>
 
 > Yes, this block sucks.
 
@@ -27,7 +24,11 @@ A placed vacuumulator can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-device-item-collector']}
+  noResult
+/>
 
 
 Usage

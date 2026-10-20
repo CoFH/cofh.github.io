@@ -1,7 +1,5 @@
 ---
 title: spout
-redirect_from:
-- /docs/cofh-world/world-generator-configuration/feature-types/spout/
 ---
 
 **`spout`** is one of the [feature types](../) provided by [CoFH
@@ -29,48 +27,32 @@ type configuration](../../feature-format/#feature-type-configuration).
         </thead>
         <tbody>
             <tr>
-                <td markdown="span">`block`</td>
-                <td markdown="span">
-                    [Block ID](../../common-formats/block-id/)
-                    / array of block IDs
-                </td>
+                <td>`block`</td>
+                <td>[Block ID](../../common-formats/block-id/) / array of block IDs</td>
                 <td>-</td>
-                <td markdown="span">
-                    The type(s) of block that the spouts consist of. When
-                    specified as an array, a block type is selected randomly for
-                    each generated block.
-                </td>
+                <td>The type(s) of block that the spouts consist of. When specified as an array, a
+                  block type is selected randomly for each generated block.</td>
             </tr>
             <tr>
-                <td markdown="span">`radius`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The radius of a spout, in blocks. A radius of `0` will cause
-                    spouts of one block wide to be generated. May contain values
-                    up to 8. Evaluated once per layer in each spout.
-                </td>
+                <td>`radius`</td>
+                <td>Number / [number provider](../../common-formats/number-provider/)</td>
+                <td>-</td>
+                <td>The radius of a spout, in blocks. A radius of `0` will cause spouts of one block
+                  wide to be generated. May contain values up to 8. Evaluated once per layer in each
+                  spout.</td>
             </tr>
             <tr>
-                <td markdown="span">`height`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The height of a spout, in blocks. Evaluated once per spout.
-                </td>
+                <td>`height`</td>
+                <td>Number / [number provider](../../common-formats/number-provider/)</td>
+                <td>-</td>
+                <td>The height of a spout, in blocks. Evaluated once per spout.</td>
             </tr>
             <tr>
-                <td markdown="span">`shape` (optional)</td>
-                <td markdown="span">String</td>
-                <td markdown="span">`"CIRCLE"`</td>
-                <td markdown="span">
-                    The shape of spouts as seen from above. Possible values are
-                    `"CIRCLE"` and `"SQUARE"`.
-                </td>
+                <td>`shape` (optional)</td>
+                <td>String</td>
+                <td>`"CIRCLE"`</td>
+                <td>The shape of spouts as seen from above. Possible values are `"CIRCLE"` and
+                  `"SQUARE"`.</td>
             </tr>
         </tbody>
     </table>

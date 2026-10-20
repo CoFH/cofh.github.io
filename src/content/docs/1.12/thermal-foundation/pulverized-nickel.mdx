@@ -1,40 +1,13 @@
 ---
 title: Pulverized Nickel
-redirect_from:
-- /docs/thermal-foundation/items/materials/dusts/pulverized-nickel/
-- /docs/pulverized-nickel/
-- /docs/thermal-foundation/pulverized-nickel/
-- /docs/thermal-foundation-2/pulverized-nickel/
-- /docs/1.12/thermal-foundation-2/pulverized-nickel/
-recipes:
-  crafting:
-  - tf-1-12-petrotheum-ingot-nickel
-  - tf-1-12-petrotheum-ore-nickel
-  pulverizer:
-  - dust-nickel
-  - ore-processing-nickel
-  - ore-processing-iron
-  centrifuge:
-  - dust-invar
-  - dust-constantan
-usage-recipes:
-  crafting:
-  - tf-1-12-pyrotheum-dust-nickel
-  - tf-1-12-dust-invar
-  - tf-1-12-dust-constantan
-  - tf-1-12-hardened-glass-nickel
-  smelting:
-  - tf-1-12-ingot-nickel-from-dust
-  smelter:
-  - dust-smelting-nickel
-  - ingot-invar-from-dust-iron-and-dust-nickel
-  - ingot-invar-from-ingot-iron-and-dust-nickel
-  - ingot-constantan-from-dust-copper-and-dust-nickel
-  - ingot-constantan-from-ingot-copper-and-dust-nickel
-  - hardened-glass-nickel
 ---
 
-![Pulverized nickel](/assets/images/thermal-foundation-2/dust-nickel.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/dust-nickel.png', alt: 'Pulverized nickel' }]}
+/>
 
 
 **Pulverized nickel** is a raw material. It is the dust form of
@@ -45,13 +18,35 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={[
+    'dust-nickel',
+    'ore-processing-nickel',
+    'ore-processing-iron',
+  ]}
+  noResult
+/>
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-petrotheum-ingot-nickel',
+    'tf-1-12-petrotheum-ore-nickel',
+  ]}
+  noResult
+/>
 
 ### Centrifugal Separator
-{% include recipe-table.html type='te-1-12-centrifuge' recipes=page.recipes.centrifuge no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/centrifuge"
+  recipes={[
+    'dust-invar',
+    'dust-constantan',
+  ]}
+  noResult
+/>
 
 ### Smashing
 When [nickel ore](../nickel-ore/) is broken using a
@@ -64,10 +59,31 @@ Usage
 -----
 
 ### Smelting ingredient
-{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+<RecipeTable
+  type="smelting"
+  recipes={['tf-1-12-ingot-nickel-from-dust']}
+/>
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-pyrotheum-dust-nickel',
+    'tf-1-12-dust-invar',
+    'tf-1-12-dust-constantan',
+    'tf-1-12-hardened-glass-nickel',
+  ]}
+/>
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'dust-smelting-nickel',
+    'ingot-invar-from-dust-iron-and-dust-nickel',
+    'ingot-invar-from-ingot-iron-and-dust-nickel',
+    'ingot-constantan-from-dust-copper-and-dust-nickel',
+    'ingot-constantan-from-ingot-copper-and-dust-nickel',
+    'hardened-glass-nickel',
+  ]}
+/>

@@ -1,20 +1,13 @@
 ---
 title: Oil Shale
-redirect_from:
-- /docs/thermal-foundation/ores/oil-shale/
-- /docs/thermal-foundation/world/fluid-ores/oil-shale/
-- /docs/oil-shale/
-- /docs/thermal-foundation/oil-shale/
-- /docs/thermal-foundation-2/oil-shale/
-- /docs/1.12/thermal-foundation-2/oil-shale/
-usage-recipes:
-  pulverizer:
-  - fluid-ore-processing-oil-shale
-  crucible:
-  - fluid-ore-processing-oil-shale
 ---
 
-![Oil shale](/assets/images/thermal-foundation-2/ore-fluid-crude-oil-gravel.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/ore-fluid-crude-oil-gravel.png', alt: 'Oil shale' }]}
+/>
 
 
 **Oil shale** is an uncommon [ore](https://minecraft.wiki/w/Ore) that
@@ -58,10 +51,16 @@ Usage
 -----
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['fluid-ore-processing-oil-shale']}
+/>
 
 ### Magma Crucible
-{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
+<RecipeTable
+  type="1.12/thermal-expansion/crucible"
+  recipes={['fluid-ore-processing-oil-shale']}
+/>
 
 
 Trivia

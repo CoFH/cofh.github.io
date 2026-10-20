@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Alchemical Retort'
-image:
-- alt: Alchemical retort augment
-  file: thermal-expansion-5/augment-machine-refinery-potion.png
-redirect_from:
-- /docs/augment-alchemical-retort/
-- /docs/thermal-expansion/augment-alchemical-retort/
-- /docs/thermal-expansion-5/augment-alchemical-retort/
-- /docs/1.12/thermal-expansion-5/augment-alchemical-retort/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-refinery-potion
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-refinery-potion.png',
+      alt: 'Alchemical retort augment',
+    },
+  ]}
+/>
 
 An **alchemical retort** is an [augment](../augments/) that allows for a
 [fractionating still](../fractionating-still/) to refine [fluid
@@ -23,7 +24,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-refinery-potion']}
+  noResult
+/>
 
 
 Usage
@@ -47,14 +52,16 @@ Refining a fluid potion requires 2,500 RF per operation. The amount of fluid
 consumed and produced per operation differs depending on the potency level of
 the potion that is being refined.
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Level increase | Input amount | Output amount |
-|---
-| II to III | 250 mB | 200 mB |
-| III to IV | 200 mB | 150 mB |
-| I to II (extended) | 250 mB | 200 mB |
-| II to III (extended) | 200 mB | 150 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Level increase</th><th>Input amount</th><th>Output amount</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>II to III</td><td>250 mB</td><td>200 mB</td></tr>
+      <tr><td>III to IV</td><td>200 mB</td><td>150 mB</td></tr>
+      <tr><td>I to II (extended)</td><td>250 mB</td><td>200 mB</td></tr>
+      <tr><td>II to III (extended)</td><td>200 mB</td><td>150 mB</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

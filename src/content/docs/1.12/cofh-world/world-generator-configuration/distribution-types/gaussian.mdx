@@ -1,7 +1,5 @@
 ---
 title: gaussian
-redirect_from:
-- /docs/cofh-world/world-generator-configuration/distribution-types/gaussian/
 ---
 
 **`gaussian`** is one of the [distribution types](../) provided by [CoFH
@@ -36,41 +34,26 @@ When using this distribution type, the following values must be added to the
         </thead>
         <tbody>
             <tr>
-                <td markdown="span">`center-height`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The altitude to place features around. Evaluated once per
-                    feature.
-                </td>
+                <td>`center-height`</td>
+                <td>Number / [number provider](../../common-formats/number-provider/)</td>
+                <td>-</td>
+                <td>The altitude to place features around. Evaluated once per feature.</td>
             </tr>
             <tr>
-                <td markdown="span">`spread`</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">-</td>
-                <td markdown="span">
-                    The maximum distance from the center altitude at which
-                    features may be placed, in blocks. Evaluated once per
-                    feature.
-                </td>
+                <td>`spread`</td>
+                <td>Number / [number provider](../../common-formats/number-provider/)</td>
+                <td>-</td>
+                <td>The maximum distance from the center altitude at which features may be placed,
+                  in blocks. Evaluated once per feature.</td>
             </tr>
             <tr>
-                <td markdown="span">`smoothness` (optional)</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">`2`</td>
-                <td markdown="span">
-                    Determines how smoothly the amount of features declines when
-                    further from the center altitude. Must be greater than zero.
-                    The default value makes the decline roughly linear. Higher
-                    values may cause small amounts of features to be placed
-                    beyond the configured altitudes. Evaluated once per feature.
-                </td>
+                <td>`smoothness` (optional)</td>
+                <td>Number / [number provider](../../common-formats/number-provider/)</td>
+                <td>`2`</td>
+                <td>Determines how smoothly the amount of features declines when further from the
+                  center altitude. Must be greater than zero. The default value makes the decline
+                  roughly linear. Higher values may cause small amounts of features to be placed
+                  beyond the configured altitudes. Evaluated once per feature.</td>
             </tr>
         </tbody>
     </table>

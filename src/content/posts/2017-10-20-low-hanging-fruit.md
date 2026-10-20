@@ -1,8 +1,6 @@
 ---
 title: Low Hanging Fruit
 author: King Lemming
-author_url: http://www.twitter.com/KingLemmingCoFH
-published: true
 ---
 
 So for the past week or so, I've decided to focus on some "low hanging fruit,"
@@ -23,19 +21,20 @@ of my head, it will contain:
 ### **New Machines:**
 
 - Alchemical Imbuer
-    - This brews potions, in fluid form. You can chain a bunch of them together.
+  - This brews potions, in fluid form. You can chain a bunch of them together.
 - Arcane Ensorcellator
-    - An enchanter, requires a book, item, and Essence of Knowledge (fluid XP).
+  - An enchanter, requires a book, item, and Essence of Knowledge (fluid XP).
 
 ### **New Devices:**
+
 - Fluid Allocator
-    - Like the Item Allocator, except with fluids. Three tanks, all lockable.
+  - Like the Item Allocator, except with fluids. Three tanks, all lockable.
 - Lexical Transmuter
-    - Forge Lexicon in Block form. Remembers up to 9 distinct items.
+  - Forge Lexicon in Block form. Remembers up to 9 distinct items.
 - Insightful Condenser
-    - An XP collecting block which can provide bonus XP if fed lapis or soul sand.
+  - An XP collecting block which can provide bonus XP if fed lapis or soul sand.
 - Decoctive Diffuser
-    - A block which spreads a potion effect over a small area. Uses fluid potions.
+  - A block which spreads a potion effect over a small area. Uses fluid potions.
 
 Along with all this, there are new Augments coming. Seven (7) of them at the
 moment, but if I get more coded before release, then who knows.
@@ -52,22 +51,23 @@ progressively increases the potency of the effect, but lowers the duration.
 And there's JEI support, naturally.
 
 ### **Screenshots:**
-![JEI - Potion Brewing](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_brewer.png){:style="max-height: 512px"}
 
-![JEI - Potion Refining](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_refinery_potion.png){:style="max-height: 512px"}
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/jei_brewer.png" alt="JEI - Potion Brewing" style="max-height: 512px" /></p>
 
-![JEI - Enchanting](/assets/images/posts/2017-10-20-low-hanging-fruit/jei_enchanter.png){:style="max-height: 512px"}
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/jei_refinery_potion.png" alt="JEI - Potion Refining" style="max-height: 512px" /></p>
 
-![Fluid Experience](/assets/images/posts/2017-10-20-low-hanging-fruit/fluid_experience.png){:style="max-height: 512px"}
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/jei_enchanter.png" alt="JEI - Enchanting" style="max-height: 512px" /></p>
 
-![GUI - Fluid Buffer](/assets/images/posts/2017-10-20-low-hanging-fruit/gui_fluid_buffer.png){:style="max-height: 512px"}
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/fluid_experience.png" alt="Fluid Experience" style="max-height: 512px" /></p>
 
-![GUI - Lexicon](/assets/images/posts/2017-10-20-low-hanging-fruit/gui_lexicon.png){:style="max-height: 512px"}
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/gui_fluid_buffer.png" alt="GUI - Fluid Buffer" style="max-height: 512px" /></p>
 
-![GUI - Potion Diffuser](/assets/images/posts/2017-10-20-low-hanging-fruit/gui_diffuser.png){:style="max-height: 512px"}
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/gui_lexicon.png" alt="GUI - Lexicon" style="max-height: 512px" /></p>
 
-![Augment - Brewer](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_brewer.png){:style="max-height: 512px"}
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/gui_diffuser.png" alt="GUI - Potion Diffuser" style="max-height: 512px" /></p>
 
-![Augment - Insolator](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_insolator.png){:style="max-height: 512px"}
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/augment_brewer.png" alt="Augment - Brewer" style="max-height: 512px" /></p>
 
-![Augment - Smelter](/assets/images/posts/2017-10-20-low-hanging-fruit/augment_smelter.png){:style="max-height: 512px"}
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/augment_insolator.png" alt="Augment - Insolator" style="max-height: 512px" /></p>
+
+<p><img src="/assets/images/posts/2017-10-20-low-hanging-fruit/augment_smelter.png" alt="Augment - Smelter" style="max-height: 512px" /></p>

@@ -1,17 +1,13 @@
 ---
 title: Silver Coin
-redirect_from:
-- /docs/thermal-foundation/items/materials/coins/silver-coin/
-- /docs/silver-coin/
-- /docs/thermal-foundation/silver-coin/
-- /docs/thermal-foundation-2/silver-coin/
-- /docs/1.12/thermal-foundation-2/silver-coin/
-recipes:
-  compactor-coin:
-  - coin-silver
 ---
 
-![Silver coin](/assets/images/thermal-foundation-2/coin-silver.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/coin-silver.png', alt: 'Silver coin' }]}
+/>
 
 
 **Silver coins** are materials made of [silver](../silver-ingot/) that can be
@@ -22,7 +18,11 @@ Obtaining
 ---------
 
 ### Compactor with Numismatic Press
-{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.recipes.compactor-coin no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/compactor-coin"
+  recipes={['coin-silver']}
+  noResult
+/>
 
 
 Usage

@@ -1,24 +1,13 @@
 ---
 title: Blazing Pyrotheum
-redirect_from:
-- /thermal-expansion/fluids/blazing-pyrotheum/
-- /docs/thermal-foundation/fluids/blazing-pyrotheum/
-- /docs/thermal-foundation/fluids/elemental/blazing-pyrotheum/
-- /docs/blazing-pyrotheum/
-- /docs/thermal-foundation/blazing-pyrotheum/
-- /docs/thermal-foundation-2/blazing-pyrotheum/
-- /docs/1.12/thermal-foundation-2/blazing-pyrotheum/
-recipes:
-  crucible:
-  - pyrotheum
-  transposer-empty:
-  - bucket-pyrotheum
-usage-recipes:
-  transposer-fill:
-  - bucket-pyrotheum
 ---
 
-![Blazing pyrotheum](/assets/images/thermal-foundation-2/blazing-pyrotheum.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/blazing-pyrotheum.gif', alt: 'Blazing pyrotheum' }]}
+/>
 
 > This is actually worse than lava. You monster.
 
@@ -32,10 +21,16 @@ Obtaining
 ---------
 
 ### Magma Crucible
-{% include recipe-table.html type='te-1-12-crucible' recipes=page.recipes.crucible %}
+<RecipeTable
+  type="1.12/thermal-expansion/crucible"
+  recipes={['pyrotheum']}
+/>
 
 ### Fluid Transposer
-{% include recipe-table.html type='te-1-12-transposer-empty' recipes=page.recipes.transposer-empty %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-empty"
+  recipes={['bucket-pyrotheum']}
+/>
 
 
 Usage
@@ -82,7 +77,10 @@ Blazing pyrotheum has the following effects on certain blocks and mobs:
 
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-fill"
+  recipes={['bucket-pyrotheum']}
+/>
 
 ### Pyro-Concentrator
 An [induction smelter](../../thermal-expansion/induction-smelter/) with a

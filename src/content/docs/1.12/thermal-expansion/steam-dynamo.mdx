@@ -1,27 +1,20 @@
 ---
 title: Steam Dynamo
-image:
-- alt: Steam dynamo
-  file: thermal-expansion-5/dynamo-steam-rf.png
-- alt: Steam dynamo with boiler conversion
-  file: thermal-expansion-5/dynamo-steam-steam.png
-redirect_from:
-- /docs/thermal-expansion/dynamos/steam-dynamo/
-- /docs/steam-dynamo/
-- /docs/thermal-expansion/steam-dynamo/
-- /docs/thermal-expansion-5/steam-dynamo/
-- /docs/1.12/thermal-expansion-5/steam-dynamo/
-recipes:
-  crafting:
-  - te-1-12-dynamo-steam
-augments:
-- dynamo-power
-- dynamo-efficiency
-- dynamo-coil-duct
-- dynamo-throttle
-- dynamo-boiler
-- dynamo-steam-turbine
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/dynamo-steam-rf.png', alt: 'Steam dynamo' },
+    {
+      file: 'thermal-expansion-5/dynamo-steam-steam.png',
+      alt: 'Steam dynamo with boiler conversion',
+    },
+  ]}
+/>
 
 A **steam dynamo** is a [dynamo](../dynamos/) fueled by
 [water](https://minecraft.wiki/w/Water) and solid fuel.
@@ -36,7 +29,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-dynamo-steam']}
+  noResult
+/>
 
 ### Upgrading
 A steam dynamo is initially at the lowest [tier](#tiers) (basic). It can be
@@ -118,18 +115,20 @@ Tiers
 
 Steam dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power output | Augment slots |
-|---
-| Basic | 40 RF/t | 0 |
-| Hardened | 60 RF/t | 1 |
-| Reinforced | 80 RF/t | 2 |
-| Signalum | 100 RF/t | 3 |
-| Resonant / Creative | 120 RF/t | 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Tier</th><th>Max. power output</th><th>Augment slots</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Basic</td><td>40 RF/t</td><td>0</td></tr>
+      <tr><td>Hardened</td><td>60 RF/t</td><td>1</td></tr>
+      <tr><td>Reinforced</td><td>80 RF/t</td><td>2</td></tr>
+      <tr><td>Signalum</td><td>100 RF/t</td><td>3</td></tr>
+      <tr><td>Resonant / Creative</td><td>120 RF/t</td><td>4</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -142,7 +141,16 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a steam dynamo's GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={[
+    'dynamo-power',
+    'dynamo-efficiency',
+    'dynamo-coil-duct',
+    'dynamo-throttle',
+    'dynamo-boiler',
+    'dynamo-steam-turbine',
+  ]}
+/>
 
 
 Fuels
@@ -153,18 +161,52 @@ A steam dynamo accepts all items that can be used as fuel in a
 items in a furnace's fuel slot after being consumed, like [lava
 buckets](https://minecraft.wiki/w/Lava_Bucket).
 
-| Fuel | Energy per unit |
-|---
-| [Coal](https://minecraft.wiki/w/Coal) | 24,000 RF |
-| [Block of Coal](https://minecraft.wiki/w/Block_of_Coal) | 240,000 RF |
-| [Pulverized Coal](../../thermal-foundation/pulverized-coal/) | 24,000 RF |
-| [Charcoal](https://minecraft.wiki/w/Charcoal) | 16,000 RF |
-| [Block of Charcoal](../../thermal-foundation/block-of-charcoal/) | 160,000 RF |
-| [Pulverized Charcoal](../../thermal-foundation/pulverized-charcoal/) | 16,000 RF |
-| [Coal Coke](../../thermal-foundation/coal-coke/) | 40,000 RF |
-| [Block of Coal Coke](../../thermal-foundation/block-of-coal-coke/) | 400,000 RF |
-| Any other [furnace](https://minecraft.wiki/w/Furnace) fuel* | (Burn time in ticks × 10) RF
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr>
+      <th>Fuel</th>
+      <th>Energy per unit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[Coal](https://minecraft.wiki/w/Coal)</td>
+      <td>24,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Block of Coal](https://minecraft.wiki/w/Block_of_Coal)</td>
+      <td>240,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Pulverized Coal](../../thermal-foundation/pulverized-coal/)</td>
+      <td>24,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Charcoal](https://minecraft.wiki/w/Charcoal)</td>
+      <td>16,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Block of Charcoal](../../thermal-foundation/block-of-charcoal/)</td>
+      <td>160,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Pulverized Charcoal](../../thermal-foundation/pulverized-charcoal/)</td>
+      <td>16,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Coal Coke](../../thermal-foundation/coal-coke/)</td>
+      <td>40,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Block of Coal Coke](../../thermal-foundation/block-of-coal-coke/)</td>
+      <td>400,000 RF</td>
+    </tr>
+    <tr>
+      <td>Any other [furnace](https://minecraft.wiki/w/Furnace) fuel*</td>
+      <td>(Burn time in ticks × 10) RF</td>
+    </tr>
+  </tbody>
+</table>
 
 *: Items with very short burn times (less than 300 ticks) cannot be used as
 fuel.

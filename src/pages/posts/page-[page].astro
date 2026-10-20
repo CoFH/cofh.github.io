@@ -1,0 +1,20 @@
+---
+import type { GetStaticPaths } from 'astro';
+
+import PostList from '../../components/posts/PostList.astro';
+import Blog from '../../layouts/Blog.astro';
+import { getPosts, POSTS_PER_PAGE } from '../../lib/posts.ts';
+
+// Page 1 is the home page, so its `/posts/page-1/` copy is left out.
+export const getStaticPaths = (async ({ paginate }) => {
+  const posts = await getPosts();
+
+  return paginate(posts, { pageSize: POSTS_PER_PAGE }).slice(1);
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+
+<Blog title={undefined} showBanner>
+  <PostList posts={page.data} currentPage={page.currentPage} lastPage={page.lastPage} />
+</Blog>

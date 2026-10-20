@@ -1,28 +1,13 @@
 ---
 title: Aluminum Ore
-redirect_from:
-- /docs/thermal-foundation/ores/aluminum-ore/
-- /docs/thermal-foundation/world/ores/aluminum-ore/
-- /docs/aluminum-ore/
-- /docs/thermal-foundation/aluminum-ore/
-- /docs/thermal-foundation-2/aluminum-ore/
-- /docs/1.12/thermal-foundation-2/aluminum-ore/
-usage-recipes:
-  smelting:
-  - tf-1-12-ore-processing-aluminum
-  crafting:
-  - tf-1-12-pyrotheum-ore-aluminum
-  - tf-1-12-petrotheum-ore-aluminum
-  - tf-1-12-petrotheum-pyrotheum-ore-aluminum
-  pulverizer:
-  - ore-processing-aluminum
-  smelter:
-  - ore-processing-sand-aluminum
-  - ore-processing-rich-slag-aluminum
-  - ore-processing-cinnabar-aluminum
 ---
 
-![Aluminum ore](/assets/images/thermal-foundation-2/ore-aluminum.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/ore-aluminum.png', alt: 'Aluminum ore' }]}
+/>
 
 
 **Aluminum ore** is an [ore](https://minecraft.wiki/w/Ore) that yields
@@ -47,16 +32,36 @@ Usage
 -----
 
 ### Smelting
-{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+<RecipeTable
+  type="smelting"
+  recipes={['tf-1-12-ore-processing-aluminum']}
+/>
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-pyrotheum-ore-aluminum',
+    'tf-1-12-petrotheum-ore-aluminum',
+    'tf-1-12-petrotheum-pyrotheum-ore-aluminum',
+  ]}
+/>
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['ore-processing-aluminum']}
+/>
 
 ### Induction Smelter
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ore-processing-sand-aluminum',
+    'ore-processing-rich-slag-aluminum',
+    'ore-processing-cinnabar-aluminum',
+  ]}
+/>
 
 ### Smashing
 When aluminum ore is broken using a [Smashing](../../cofh-core/smashing/)

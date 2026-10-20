@@ -1,17 +1,13 @@
 ---
 title: Lexical Transmuter
-redirect_from:
-- /docs/lexical-transmuter/
-- /docs/thermal-expansion/lexical-transmuter/
-- /docs/thermal-expansion-5/lexical-transmuter/
-- /docs/1.12/thermal-expansion-5/lexical-transmuter/
-image:
-- alt: Lexical transmuter
-  file: thermal-expansion-5/lexical-transmuter.png
-recipes:
-  crafting:
-  - te-1-12-device-lexicon
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/lexical-transmuter.png', alt: 'Lexical transmuter' }]}
+/>
 
 A **lexical transmuter** is a [device](../devices/) that converts items into
 other items that are considered equivalent. Examples of equivalent items are the
@@ -29,7 +25,11 @@ A placed lexical transmuter can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-device-lexicon']}
+  noResult
+/>
 
 
 Usage

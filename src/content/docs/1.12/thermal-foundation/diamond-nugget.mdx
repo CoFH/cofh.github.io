@@ -1,20 +1,13 @@
 ---
 title: Diamond Nugget
-redirect_from:
-- /docs/thermal-foundation/items/materials/nuggets/diamond-nugget/
-- /docs/diamond-nugget/
-- /docs/thermal-foundation/diamond-nugget/
-- /docs/thermal-foundation-2/diamond-nugget/
-- /docs/1.12/thermal-foundation-2/diamond-nugget/
-recipes:
-  crafting:
-  - tf-1-12-nugget-diamond
-usage-recipes:
-  crafting:
-  - tf-1-12-diamond-from-nuggets
 ---
 
-![Diamond nugget](/assets/images/thermal-foundation-2/nugget-diamond.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/nugget-diamond.png', alt: 'Diamond nugget' }]}
+/>
 
 
 **Diamond nuggets** are raw materials. They are the nugget form of
@@ -25,11 +18,18 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-nugget-diamond']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-diamond-from-nuggets']}
+/>

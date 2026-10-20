@@ -1,7 +1,3 @@
-assets/css/uikit/* linguist-vendored=true
-assets/css/fonts/* linguist-vendored=true
-assets/js/uikit/* linguist-vendored=true
-assets/js/jquery.min.js linguist-vendored=true
-docs/* linguist-documentation=false
+src/content/docs/** linguist-documentation=false
 *.md linguist-detectable=true
-*.yml linguist-detectable=true
+*.mdx linguist-detectable=true

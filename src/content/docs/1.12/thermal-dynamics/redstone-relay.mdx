@@ -1,17 +1,13 @@
 ---
 title: Redstone Relay
-image:
-- alt: Redstone relay
-  file: thermal-dynamics-2/redstone-relay.png
-redirect_from:
-- /docs/redstone-relay/
-- /docs/thermal-dynamics/redstone-relay/
-- /docs/thermal-dynamics-2/redstone-relay/
-- /docs/1.12/thermal-dynamics-2/redstone-relay/
-recipes:
-  crafting:
-  - td-1-12-redstone-relay
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-dynamics-2/redstone-relay.png', alt: 'Redstone relay' }]}
+/>
 
 A **redstone relay** is an item that can be installed on
 [fluxducts](../fluxducts/), [fluiducts](../fluiduct/),
@@ -24,7 +20,11 @@ Obtaining
 --------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['td-1-12-redstone-relay']}
+  noResult
+/>
 
 
 Usage

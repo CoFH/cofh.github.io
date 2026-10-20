@@ -1,31 +1,13 @@
 ---
 title: Pulverized Iridium
-redirect_from:
-- /docs/thermal-foundation/items/materials/dusts/pulverized-iridium/
-- /docs/pulverized-iridium/
-- /docs/thermal-foundation/pulverized-iridium/
-- /docs/thermal-foundation-2/pulverized-iridium/
-- /docs/1.12/thermal-foundation-2/pulverized-iridium/
-recipes:
-  crafting:
-  - tf-1-12-petrotheum-ingot-iridium
-  - tf-1-12-petrotheum-ore-iridium
-  pulverizer:
-  - dust-iridium
-  - ore-processing-iridium
-  - ore-processing-platinum
-usage-recipes:
-  crafting:
-  - tf-1-12-pyrotheum-dust-iridium
-  - tf-1-12-hardened-glass-iridium
-  smelting:
-  - tf-1-12-ingot-iridium-from-dust
-  smelter:
-  - dust-smelting-iridium
-  - hardened-glass-iridium
 ---
 
-![Pulverized iridium](/assets/images/thermal-foundation-2/dust-iridium.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/dust-iridium.png', alt: 'Pulverized iridium' }]}
+/>
 
 
 **Pulverized iridium** is a raw material. It is the dust form of
@@ -36,10 +18,25 @@ Obtaining
 ---------
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={[
+    'dust-iridium',
+    'ore-processing-iridium',
+    'ore-processing-platinum',
+  ]}
+  noResult
+/>
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-petrotheum-ingot-iridium',
+    'tf-1-12-petrotheum-ore-iridium',
+  ]}
+  noResult
+/>
 
 ### Smashing
 When [iridium ore](../iridium-ore/) is broken using a
@@ -52,10 +49,25 @@ Usage
 -----
 
 ### Smelting ingredient
-{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+<RecipeTable
+  type="smelting"
+  recipes={['tf-1-12-ingot-iridium-from-dust']}
+/>
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-pyrotheum-dust-iridium',
+    'tf-1-12-hardened-glass-iridium',
+  ]}
+/>
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'dust-smelting-iridium',
+    'hardened-glass-iridium',
+  ]}
+/>

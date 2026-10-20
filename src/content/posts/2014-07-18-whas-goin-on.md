@@ -1,8 +1,6 @@
 ---
 title: Whas goin' on
 author: King Lemming
-author_url: http://www.twitter.com/KingLemmingCoFH
-published: true
 ---
 
 I'll try and do one of these every week or so, just so people know stuff is

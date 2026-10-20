@@ -1,22 +1,13 @@
 ---
 title: Aluminum Gear
-redirect_from:
-- /docs/thermal-foundation/items/materials/gears/aluminum-gear/
-- /docs/aluminum-gear/
-- /docs/thermal-foundation/aluminum-gear/
-- /docs/thermal-foundation-2/aluminum-gear/
-- /docs/1.12/thermal-foundation-2/aluminum-gear/
-recipes:
-  crafting:
-  - tf-1-12-gear-aluminum
-  compactor-gear:
-  - gear-aluminum
-usage-recipes:
-  smelter:
-  - recycling-gear-aluminum
 ---
 
-![Aluminum gear](/assets/images/thermal-foundation-2/gear-aluminum.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/gear-aluminum.png', alt: 'Aluminum gear' }]}
+/>
 
 
 **Aluminum gears** are crafting materials made of
@@ -27,14 +18,25 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-gear-aluminum']}
+  noResult
+/>
 
 ### Compactor with Gearworking Die
-{% include recipe-table.html type='te-1-12-compactor-gear' recipes=page.recipes.compactor-gear no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/compactor-gear"
+  recipes={['gear-aluminum']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={['recycling-gear-aluminum']}
+/>

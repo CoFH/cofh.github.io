@@ -1,18 +1,18 @@
 ---
 title: 'Augment: Auxiliary Transmission Coil'
-image:
-- alt: Auxiliary transmission coil augment
-  file: thermal-expansion-5/augment-dynamo-power.png
-redirect_from:
-- /docs/thermal-expansion/augments/dynamo-power-output/
-- /docs/augment-auxiliary-transmission-coil/
-- /docs/thermal-expansion/augment-auxiliary-transmission-coil/
-- /docs/thermal-expansion-5/augment-auxiliary-transmission-coil/
-- /docs/1.12/thermal-expansion-5/augment-auxiliary-transmission-coil/
-recipes:
-  crafting:
-  - te-1-12-augment-dynamo-power
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-dynamo-power.png',
+      alt: 'Auxiliary transmission coil augment',
+    },
+  ]}
+/>
 
 An **auxiliary transmission coil** is an [augment](../augments/) that
 increases the maximum power output of a [dynamo](../dynamos/), thereby
@@ -23,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-dynamo-power']}
+  noResult
+/>
 
 
 Usage
@@ -38,19 +42,21 @@ effects.
 Installed auxiliary transmission coils increase a [dynamo](../dynamos/)'s
 maximum power output, thereby increasing its energy production speed.
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed amount | Max. power output multiplier |
-|---
-| 1 | × 2 |
-| 2 | × 3 |
-| 3 | × 4 |
-| 4 | × 5 |
-| 5 | × 6 |
-| 6 | × 7 |
-| 7 | × 8 |
-| 8 | × 9 |
-| 9 | × 10 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Installed amount</th><th>Max. power output multiplier</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>× 2</td></tr>
+      <tr><td>2</td><td>× 3</td></tr>
+      <tr><td>3</td><td>× 4</td></tr>
+      <tr><td>4</td><td>× 5</td></tr>
+      <tr><td>5</td><td>× 6</td></tr>
+      <tr><td>6</td><td>× 7</td></tr>
+      <tr><td>7</td><td>× 8</td></tr>
+      <tr><td>8</td><td>× 9</td></tr>
+      <tr><td>9</td><td>× 10</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

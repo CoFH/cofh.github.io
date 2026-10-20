@@ -1,17 +1,13 @@
 ---
 title: Aluminum Coin
-redirect_from:
-- /docs/thermal-foundation/items/materials/coins/aluminum-coin/
-- /docs/aluminum-coin/
-- /docs/thermal-foundation/aluminum-coin/
-- /docs/thermal-foundation-2/aluminum-coin/
-- /docs/1.12/thermal-foundation-2/aluminum-coin/
-recipes:
-  compactor-coin:
-  - coin-aluminum
 ---
 
-![Aluminum coin](/assets/images/thermal-foundation-2/coin-aluminum.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/coin-aluminum.png', alt: 'Aluminum coin' }]}
+/>
 
 
 **Aluminum coins** are materials made of [aluminum](../aluminum-ingot/) that
@@ -22,7 +18,11 @@ Obtaining
 ---------
 
 ### Compactor with Numismatic Press
-{% include recipe-table.html type='te-1-12-compactor-coin' recipes=page.recipes.compactor-coin no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/compactor-coin"
+  recipes={['coin-aluminum']}
+  noResult
+/>
 
 
 Usage

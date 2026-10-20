@@ -1,29 +1,20 @@
 ---
 title: Hypoinfuser
-redirect_from:
-- /docs/hypoinfuser/
-- /docs/thermal-innovation/hypoinfuser/
-image:
-- alt: Hypoinfuser (Basic)
-  file: thermal-innovation/hypoinfuser-basic.png
-- alt: Hypoinfuser (Hardened)
-  file: thermal-innovation/hypoinfuser-hardened.png
-- alt: Hypoinfuser (Reinforced)
-  file: thermal-innovation/hypoinfuser-reinforced.png
-- alt: Hypoinfuser (Signalum)
-  file: thermal-innovation/hypoinfuser-signalum.png
-- alt: Hypoinfuser (Resonant)
-  file: thermal-innovation/hypoinfuser-resonant.png
-- alt: Hypoinfuser (Creative)
-  file: thermal-innovation/hypoinfuser-creative.png
-recipes:
-  crafting:
-  - ti-1-12-hypoinfuser-basic
-  - ti-1-12-hypoinfuser-hardened
-  - ti-1-12-hypoinfuser-reinforced
-  - ti-1-12-hypoinfuser-signalum
-  - ti-1-12-hypoinfuser-resonant
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-innovation/hypoinfuser-basic.png', alt: 'Hypoinfuser (Basic)' },
+    { file: 'thermal-innovation/hypoinfuser-hardened.png', alt: 'Hypoinfuser (Hardened)' },
+    { file: 'thermal-innovation/hypoinfuser-reinforced.png', alt: 'Hypoinfuser (Reinforced)' },
+    { file: 'thermal-innovation/hypoinfuser-signalum.png', alt: 'Hypoinfuser (Signalum)' },
+    { file: 'thermal-innovation/hypoinfuser-resonant.png', alt: 'Hypoinfuser (Resonant)' },
+    { file: 'thermal-innovation/hypoinfuser-creative.png', alt: 'Hypoinfuser (Creative)' },
+  ]}
+/>
 
 A **hypoinfuser** (also known as an **injector**) is a tool that stores and
 injects [fluid potions](../../thermal-foundation/potion-fluid/).
@@ -33,7 +24,16 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'ti-1-12-hypoinfuser-basic',
+    'ti-1-12-hypoinfuser-hardened',
+    'ti-1-12-hypoinfuser-reinforced',
+    'ti-1-12-hypoinfuser-signalum',
+    'ti-1-12-hypoinfuser-resonant',
+  ]}
+/>
 
 
 Usage
@@ -86,13 +86,17 @@ removed by placing the hypoinfuser in a crafting grid.
 A hypoinfuser can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
-| Holding level | Capacity multiplier |
-|---
-| I | × 1.5 |
-| II | × 2 |
-| III | × 2.5 |
-| IV | × 3 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity multiplier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>× 1.5</td></tr>
+    <tr><td>II</td><td>× 2</td></tr>
+    <tr><td>III</td><td>× 2.5</td></tr>
+    <tr><td>IV</td><td>× 3</td></tr>
+  </tbody>
+</table>
 
 
 Tiers
@@ -100,16 +104,53 @@ Tiers
 
 Hypoinfusers come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Capacity | (bottles) | Note |
-|---
-| Basic | 2,000 mB | 8 |
-| Hardened | 6,000 mB | 24 |
-| Reinforced | 12,000 mB | 48 |
-| Signalum | 20,000 mB | 80 |
-| Resonant | 30,000 mB | 120 |
-| Creative | N/A | | Provides an unlimited amount of the potion it holds. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Capacity</th>
+        <th>(bottles)</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>2,000 mB</td>
+        <td>8</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>6,000 mB</td>
+        <td>24</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>12,000 mB</td>
+        <td>48</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>20,000 mB</td>
+        <td>80</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>30,000 mB</td>
+        <td>120</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Creative</td>
+        <td>N/A</td>
+        <td></td>
+        <td>Provides an unlimited amount of the potion it holds.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

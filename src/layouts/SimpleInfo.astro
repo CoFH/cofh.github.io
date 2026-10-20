@@ -1,0 +1,16 @@
+---
+import Base from './Base.astro';
+
+interface Props {
+  frontmatter: { title: string };
+}
+---
+
+<Base title={Astro.props.frontmatter.title} showBanner={false}>
+  <div class="uk-width-1-1 uk-width-medium-3-4 uk-container-center" data-pagefind-body>
+    <h1>{Astro.props.frontmatter.title}</h1>
+    <hr />
+
+    <slot />
+  </div>
+</Base>

@@ -1,0 +1,42 @@
+---
+import { Image } from 'astro:assets';
+
+import { image } from '../../lib/images.ts';
+
+const siteNames = {
+  twitter: 'Twitter',
+  github: 'GitHub',
+  reddit: 'Reddit',
+};
+
+interface Props {
+  name: string;
+  avatar: string;
+  description: string;
+  links: { icon: keyof typeof siteNames; url: string }[];
+}
+---
+
+<tr>
+  <td style="width: 64px; min-width: 64px">
+    <Image
+      src={image(Astro.props.avatar)}
+      alt={Astro.props.name}
+      style="width: 64px; height: 64px"
+    />
+  </td>
+
+  <td class="cofh-nowrap">{Astro.props.name}</td>
+
+  <td>{Astro.props.description}</td>
+
+  <td class="uk-text-center cofh-nowrap" style="width: 1px">
+    {Astro.props.links.map((link) => (
+      <a
+        class={`uk-icon-button uk-icon-${link.icon}`}
+        href={link.url}
+        aria-label={`${Astro.props.name} on ${siteNames[link.icon]}`}
+      />
+    ))}
+  </td>
+</tr>

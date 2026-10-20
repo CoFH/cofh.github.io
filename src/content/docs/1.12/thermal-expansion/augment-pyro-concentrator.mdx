@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Pyro-Concentrator'
-image:
-- alt: Pyro-concentrator augment
-  file: thermal-expansion-5/augment-machine-smelter-pyrotheum.gif
-redirect_from:
-- /docs/augment-pyro-concentrator/
-- /docs/thermal-expansion/augment-pyro-concentrator/
-- /docs/thermal-expansion-5/augment-pyro-concentrator/
-- /docs/1.12/thermal-expansion-5/augment-pyro-concentrator/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-smelter-pyrotheum
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-smelter-pyrotheum.gif',
+      alt: 'Pyro-concentrator augment',
+    },
+  ]}
+/>
 
 A **pyro-concentrator** is an [augment](../augments/) that allows for an
 [induction smelter](../induction-smelter/) to process
@@ -23,7 +24,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-smelter-pyrotheum']}
+  noResult
+/>
 
 
 Usage
@@ -45,28 +50,30 @@ An installed pyro-concentrator also increases the chances of an induction
 smelter producing a secondary product. This effect stacks with those of any
 installed [auxiliary sieves](../augment-auxiliary-sieve/).
 
-<!--
+{/*
 modifiedChance = 100 - amount * 15 - 30   (minimum is 5)
 multiplier = 100 / modifiedChance
--->
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed auxiliary sieves | Chance multiplier |
-|---
-| 0 | × 1.43 |
-| 1 | × 1.82 |
-| 2 | × 2.5 |
-| 3 | × 4 |
-| 4 | × 10 |
-| 5 | × 20 |
-| 6 | × 20 |
-| 7 | × 20 |
-| 8 | × 20 |
-| 9 | × 20 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Installed auxiliary sieves</th><th>Chance multiplier</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>0</td><td>× 1.43</td></tr>
+      <tr><td>1</td><td>× 1.82</td></tr>
+      <tr><td>2</td><td>× 2.5</td></tr>
+      <tr><td>3</td><td>× 4</td></tr>
+      <tr><td>4</td><td>× 10</td></tr>
+      <tr><td>5</td><td>× 20</td></tr>
+      <tr><td>6</td><td>× 20</td></tr>
+      <tr><td>7</td><td>× 20</td></tr>
+      <tr><td>8</td><td>× 20</td></tr>
+      <tr><td>9</td><td>× 20</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 If a pyro-concentrator is installed together with other augments that increase
 the amount of energy required per operation, their energy increase percentages

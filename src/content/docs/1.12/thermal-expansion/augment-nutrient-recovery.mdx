@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Nutrient Recovery'
-image:
-- alt: Nutrient recovery augment
-  file: thermal-expansion-5/augment-machine-insolator-fertilizer.png
-redirect_from:
-- /docs/augment-nutrient-recovery/
-- /docs/thermal-expansion/augment-nutrient-recovery/
-- /docs/thermal-expansion-5/augment-nutrient-recovery/
-- /docs/1.12/thermal-expansion-5/augment-nutrient-recovery/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-insolator-fertilizer
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-insolator-fertilizer.png',
+      alt: 'Nutrient recovery augment',
+    },
+  ]}
+/>
 
 A **nutrient recovery** [augment](../augments/) provides a chance for a
 [phytogenic insolator](../phytogenic-insolator/) to not consume fertilizer
@@ -22,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-insolator-fertilizer']}
+  noResult
+/>
 
 
 Usage
@@ -39,22 +44,24 @@ insolator](../phytogenic-insolator/) to not consume a fertilizer item after
 an operation. However, they also increase the amount of energy required per
 operation.
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed amount | Fertilizer reuse chance | Energy increase |
-|---
-| 1 | 20% | + 15% |
-| 2 | 40% | + 30% |
-| 3 | 60% | + 45% |
-| 4 | 80% | + 60% |
-| 5 | 95% | + 75% |
-| 6 | 95% | + 90% |
-| 7 | 95% | + 105% |
-| 8 | 95% | + 120% |
-| 9 | 95% | + 135% |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Installed amount</th><th>Fertilizer reuse chance</th><th>Energy increase</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>20%</td><td>+ 15%</td></tr>
+      <tr><td>2</td><td>40%</td><td>+ 30%</td></tr>
+      <tr><td>3</td><td>60%</td><td>+ 45%</td></tr>
+      <tr><td>4</td><td>80%</td><td>+ 60%</td></tr>
+      <tr><td>5</td><td>95%</td><td>+ 75%</td></tr>
+      <tr><td>6</td><td>95%</td><td>+ 90%</td></tr>
+      <tr><td>7</td><td>95%</td><td>+ 105%</td></tr>
+      <tr><td>8</td><td>95%</td><td>+ 120%</td></tr>
+      <tr><td>9</td><td>95%</td><td>+ 135%</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 If nutrient recovery augments are installed together with other augments that
 increase the amount of energy required per operation, their energy increase

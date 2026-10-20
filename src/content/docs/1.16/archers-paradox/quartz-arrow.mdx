@@ -1,12 +1,14 @@
 ---
 title: Quartz Arrow
-image: 
-- alt: Quartz Arrow
-  file: archers-paradox-1-16/quartz-arrow.png
-recipes:
-  crafting:
-  - ap-1-16-quartz-arrow
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'archers-paradox-1-16/quartz-arrow.png', alt: 'Quartz Arrow' }]}
+/>
+
 > Interested? Of quartz you are!
 
 **Quartz Arrows** do 1.25x the damage of normal arrows, and also have increased knockback.
@@ -15,7 +17,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ap-1-16-quartz-arrow']}
+  noResult
+/>
 
 ### Trading
 Can be bought from Apprentice level [Fletcher](https://minecraft.wiki/w/Trading#Fletcher) villagers.

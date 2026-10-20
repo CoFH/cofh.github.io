@@ -1,18 +1,13 @@
 ---
 title: Reusable Morb
-redirect_from:
-- /docs/stasis-morb/
-- /docs/reusable-morb/
-- /docs/thermal-expansion/reusable-morb/
-- /docs/thermal-expansion-5/reusable-morb/
-- /docs/1.12/thermal-expansion-5/reusable-morb/
-image:
-- alt: Reusable morb
-  file: thermal-expansion-5/morb-reusable.png
-recipes:
-  crafting:
-  - te-1-12-morb-reusable
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/morb-reusable.png', alt: 'Reusable morb' }]}
+/>
 
 A **reusable morb** is a [morb](../morb/) that never breaks.
 
@@ -21,7 +16,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-morb-reusable']}
+  noResult
+/>
 
 
 Usage

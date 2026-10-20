@@ -1,18 +1,13 @@
 ---
 title: Hardened Fluxduct
-image:
-- alt: Hardened fluxduct
-  file: thermal-dynamics-2/fluxduct-hardened.png
-redirect_from:
-- /docs/hardened-fluxduct/
-- /docs/thermal-dynamics/hardened-fluxduct/
-- /docs/thermal-dynamics-2/hardened-fluxduct/
-- /docs/1.12/thermal-dynamics-2/hardened-fluxduct/
-recipes:
-  crafting:
-  - td-1-12-fluxduct-hardened-one
-  - td-1-12-fluxduct-hardened-three
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-dynamics-2/fluxduct-hardened.png', alt: 'Hardened fluxduct' }]}
+/>
 
 A **hardened fluxduct** is a [fluxduct](../fluxducts/) of the second tier.
 
@@ -21,7 +16,14 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'td-1-12-fluxduct-hardened-one',
+    'td-1-12-fluxduct-hardened-three',
+  ]}
+  noResult
+/>
 
 
 Usage

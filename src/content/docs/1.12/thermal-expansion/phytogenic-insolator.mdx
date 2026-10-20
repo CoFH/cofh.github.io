@@ -1,79 +1,14 @@
 ---
 title: Phytogenic Insolator
-redirect_from:
-- /docs/thermal-expansion/machines/phytogenic-insolator/
-- /docs/augment-mycelium-substrate/
-- /docs/augment-nether-substrate/
-- /docs/augment-ender-substrate/
-- /docs/phytogenic-insolator/
-- /docs/thermal-expansion/phytogenic-insolator/
-- /docs/thermal-expansion-5/phytogenic-insolator/
-- /docs/1.12/thermal-expansion-5/phytogenic-insolator/
-recipes:
-  crafting:
-  - te-1-12-machine-insolator
-augments:
-- machine-power
-- machine-secondary
-- machine-secondary-null
-- machine-insolator-fertilizer
-- machine-insolator-tree
-- machine-insolator-monoculture
-recipe-list:
-  phyto-gro:
-  - wheat
-  - potato
-  - carrot
-  - beetroot
-  - cactus
-  - sugar-canes
-  - pumpkin
-  - melon
-  - cocoa-beans
-  - flower
-  - tall-flower
-  - lily-pad
-  - vines
-  - mushroom
-  - nether-wart
-  - chorus-fruit
-  phyto-gro-rich:
-  - wheat-rich
-  - potato-rich
-  - carrot-rich
-  - beetroot-rich
-  - cactus-rich
-  - sugar-canes-rich
-  - pumpkin-rich
-  - melon-rich
-  - cocoa-beans-rich
-  - flower-rich
-  - tall-flower-rich
-  - lily-pad-rich
-  - vines-rich
-  - mushroom-rich
-  - nether-wart-rich
-  - chorus-fruit-rich
-  phyto-gro-fluxed:
-  - wheat-fluxed
-  - potato-fluxed
-  - carrot-fluxed
-  - beetroot-fluxed
-  - cactus-fluxed
-  - sugar-canes-fluxed
-  - pumpkin-fluxed
-  - melon-fluxed
-  - cocoa-beans-fluxed
-  - flower-fluxed
-  - tall-flower-fluxed
-  - lily-pad-fluxed
-  - vines-fluxed
-  - mushroom-fluxed
-  - nether-wart-fluxed
-  - chorus-fruit-fluxed
 ---
 
-![Phytogenic insolator](/assets/images/thermal-expansion-5/phytogenic-insolator.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/phytogenic-insolator.png', alt: 'Phytogenic insolator' }]}
+/>
 
 > Definitely not organic.
 
@@ -93,7 +28,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-machine-insolator']}
+  noResult
+/>
 
 ### Upgrading
 A phytogenic insolator is initially at the lowest [tier](#tiers) (basic). It can
@@ -185,18 +124,50 @@ Tiers
 
 Phytogenic insolators come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
-| Basic | 20 RF/t | 0 | 16 |
-| Hardened | 30 RF/t | 1 | 16 |
-| Reinforced | 40 RF/t | 2 | 28 |
-| Signalum | 50 RF/t | 3 | 44 |
-| Resonant | 60 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Max. power usage</th>
+        <th>Augment slots</th>
+        <th>Max. items per auto-transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>20 RF/t</td>
+        <td>0</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>30 RF/t</td>
+        <td>1</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>40 RF/t</td>
+        <td>2</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>50 RF/t</td>
+        <td>3</td>
+        <td>44</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>60 RF/t</td>
+        <td>4</td>
+        <td>64</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -209,7 +180,16 @@ augmented.
 
 Augments can be installed in the Augmentation tab in an insolator's GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={[
+    'machine-power',
+    'machine-secondary',
+    'machine-secondary-null',
+    'machine-insolator-fertilizer',
+    'machine-insolator-tree',
+    'machine-insolator-monoculture',
+  ]}
+/>
 
 
 Recipes
@@ -221,10 +201,70 @@ once. The remainder of the chance (e.g. 25% for a 125% chance) becomes the
 chance of the secondary product being produced twice.
 
 ### Using Phyto-Gro
-{% include recipe-table.html type='te-1-12-insolator' recipes=page.recipe-list.phyto-gro %}
+<RecipeTable
+  type="1.12/thermal-expansion/insolator"
+  recipes={[
+    'wheat',
+    'potato',
+    'carrot',
+    'beetroot',
+    'cactus',
+    'sugar-canes',
+    'pumpkin',
+    'melon',
+    'cocoa-beans',
+    'flower',
+    'tall-flower',
+    'lily-pad',
+    'vines',
+    'mushroom',
+    'nether-wart',
+    'chorus-fruit',
+  ]}
+/>
 
 ### Using rich Phyto-Gro
-{% include recipe-table.html type='te-1-12-insolator' recipes=page.recipe-list.phyto-gro-rich %}
+<RecipeTable
+  type="1.12/thermal-expansion/insolator"
+  recipes={[
+    'wheat-rich',
+    'potato-rich',
+    'carrot-rich',
+    'beetroot-rich',
+    'cactus-rich',
+    'sugar-canes-rich',
+    'pumpkin-rich',
+    'melon-rich',
+    'cocoa-beans-rich',
+    'flower-rich',
+    'tall-flower-rich',
+    'lily-pad-rich',
+    'vines-rich',
+    'mushroom-rich',
+    'nether-wart-rich',
+    'chorus-fruit-rich',
+  ]}
+/>
 
 ### Using fluxed Phyto-Gro
-{% include recipe-table.html type='te-1-12-insolator' recipes=page.recipe-list.phyto-gro-fluxed %}
+<RecipeTable
+  type="1.12/thermal-expansion/insolator"
+  recipes={[
+    'wheat-fluxed',
+    'potato-fluxed',
+    'carrot-fluxed',
+    'beetroot-fluxed',
+    'cactus-fluxed',
+    'sugar-canes-fluxed',
+    'pumpkin-fluxed',
+    'melon-fluxed',
+    'cocoa-beans-fluxed',
+    'flower-fluxed',
+    'tall-flower-fluxed',
+    'lily-pad-fluxed',
+    'vines-fluxed',
+    'mushroom-fluxed',
+    'nether-wart-fluxed',
+    'chorus-fruit-fluxed',
+  ]}
+/>

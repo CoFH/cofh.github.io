@@ -1,15 +1,17 @@
 ---
 title: Frost Arrow
-image: 
-- alt: Frost Arrow
-  file: archers-paradox-1-16/frost-arrow.png
-recipes:
-  crafting:
-  - ap-1-16-frost-arrow
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'archers-paradox-1-16/frost-arrow.png', alt: 'Frost Arrow' }]}
+/>
+
 > Stay frosty
 
-**Frost Arrows** applise the [chilled](../../../1.15/cofh-core/status-effects) effect any targets they hit and freezes the area around where they land.
+**Frost Arrows** applise the [chilled](../../../1.15/cofh-core/status-effects/) effect any targets they hit and freezes the area around where they land.
 
 Drops regular [arrows](https://minecraft.wiki/w/Arrow) when they hit a block.
 
@@ -17,7 +19,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['ap-1-16-frost-arrow']}
+  noResult
+/>
 
 ### Trading
 Can be bought from Journeyman level [Fletcher](https://minecraft.wiki/w/Trading#Fletcher) villagers.

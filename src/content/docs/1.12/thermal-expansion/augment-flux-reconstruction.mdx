@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Flux Reconstruction'
-image:
-- alt: Flux reconstruction augment
-  file: thermal-expansion-5/augment-machine-charger-repair.png
-redirect_from:
-- /docs/augment-flux-reconstruction/
-- /docs/thermal-expansion/augment-flux-reconstruction/
-- /docs/thermal-expansion-5/augment-flux-reconstruction/
-- /docs/1.12/thermal-expansion-5/augment-flux-reconstruction/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-charger-repair
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-charger-repair.png',
+      alt: 'Flux reconstruction augment',
+    },
+  ]}
+/>
 
 A **flux reconstruction** [augment](../augments/) allows for an [energetic
 infuser](../energetic-infuser/) to repair damaged items using [essence of
@@ -22,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-charger-repair']}
+  noResult
+/>
 
 
 Usage

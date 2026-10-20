@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Monoculture Cycle'
-image:
-- alt: Monoculture cycle augment
-  file: thermal-expansion-5/augment-machine-insolator-monoculture.gif
-redirect_from:
-- /docs/augment-monoculture-cycle/
-- /docs/thermal-expansion/augment-monoculture-cycle/
-- /docs/thermal-expansion-5/augment-monoculture-cycle/
-- /docs/1.12/thermal-expansion-5/augment-monoculture-cycle/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-insolator-monoculture
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-insolator-monoculture.gif',
+      alt: 'Monoculture cycle augment',
+    },
+  ]}
+/>
 
 A **monoculture cycle** [augment](../augments/) changes a [phytogenic
 insolator](../phytogenic-insolator/) to not consume non-fertilizer inputs,
@@ -22,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-insolator-monoculture']}
+  noResult
+/>
 
 
 Usage

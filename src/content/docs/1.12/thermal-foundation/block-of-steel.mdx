@@ -1,22 +1,13 @@
 ---
 title: Block of Steel
-image:
-- alt: Block of steel
-  file: thermal-foundation-2/storage-block-steel.png
-redirect_from:
-- /docs/thermal-foundation/blocks/metal/steel-block/
-- /docs/steel-block/
-- /docs/block-of-steel/
-- /docs/thermal-foundation/block-of-steel/
-- /docs/thermal-foundation-2/block-of-steel/
-- /docs/1.12/thermal-foundation-2/block-of-steel/
-recipes:
-  crafting:
-  - tf-1-12-storage-block-steel
-usage-recipes:
-  crafting:
-  - tf-1-12-ingot-steel-from-block
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/storage-block-steel.png', alt: 'Block of steel' }]}
+/>
 
 **Blocks of steel** are blocks made from [steel ingots](../steel-ingot/).
 
@@ -28,7 +19,11 @@ Blocks of steel can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-storage-block-steel']}
+  noResult
+/>
 
 
 Usage
@@ -46,4 +41,7 @@ Blocks of steel can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-ingot-steel-from-block']}
+/>

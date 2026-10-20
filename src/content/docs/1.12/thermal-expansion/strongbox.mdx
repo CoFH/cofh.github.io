@@ -1,30 +1,20 @@
 ---
 title: Strongbox
-image:
-- alt: Strongbox (Basic)
-  file: thermal-expansion-5/strongbox-basic.png
-- alt: Strongbox (Hardened)
-  file: thermal-expansion-5/strongbox-hardened.png
-- alt: Strongbox (Reinforced)
-  file: thermal-expansion-5/strongbox-reinforced.png
-- alt: Strongbox (Signalum)
-  file: thermal-expansion-5/strongbox-signalum.png
-- alt: Strongbox (Resonant)
-  file: thermal-expansion-5/strongbox-resonant.png
-- alt: Strongbox (Creative)
-  file: thermal-expansion-5/strongbox-creative.png
-redirect_from:
-- /thermal-expansion/items/strongbox/
-- /docs/thermal-expansion/storage/strongboxes/
-- /docs/thermal-expansion/storage/strongbox/
-- /docs/strongbox/
-- /docs/thermal-expansion/strongbox/
-- /docs/thermal-expansion-5/strongbox/
-- /docs/1.12/thermal-expansion-5/strongbox/
-recipes:
-  crafting:
-  - te-1-12-strongbox-basic
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/strongbox-basic.png', alt: 'Strongbox (Basic)' },
+    { file: 'thermal-expansion-5/strongbox-hardened.png', alt: 'Strongbox (Hardened)' },
+    { file: 'thermal-expansion-5/strongbox-reinforced.png', alt: 'Strongbox (Reinforced)' },
+    { file: 'thermal-expansion-5/strongbox-signalum.png', alt: 'Strongbox (Signalum)' },
+    { file: 'thermal-expansion-5/strongbox-resonant.png', alt: 'Strongbox (Resonant)' },
+    { file: 'thermal-expansion-5/strongbox-creative.png', alt: 'Strongbox (Creative)' },
+  ]}
+/>
 
 A **strongbox** is a block that stores items. It is functionally similar to a
 [chest](https://minecraft.wiki/w/Chest), but can be moved and
@@ -42,7 +32,11 @@ the item. It can also be mined using a
 slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-strongbox-basic']}
+  noResult
+/>
 
 ### Upgrading
 A strongbox is initially at the lowest [tier](#tiers) (basic). It can be
@@ -76,13 +70,17 @@ installed to restrict who can access it.
 A strongbox can be enchanted with [Holding](../../cofh-core/holding/) to increase its
 capacity.
 
-| Holding level | Capacity increase (slots) |
-|---
-| I | +9 |
-| II | +18 |
-| III | +27 |
-| IV | +36 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr><th>Holding level</th><th>Capacity increase (slots)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I</td><td>+9</td></tr>
+    <tr><td>II</td><td>+18</td></tr>
+    <tr><td>III</td><td>+27</td></tr>
+    <tr><td>IV</td><td>+36</td></tr>
+  </tbody>
+</table>
 
 ### Redstone comparators
 When placed next to a strongbox with public access, a [redstone
@@ -95,16 +93,46 @@ Tiers
 
 Strongboxes come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Capacity (slots) | Note |
-|---
-| Basic | 18 |
-| Hardened | 36 |
-| Reinforced | 54 |
-| Signalum | 72 |
-| Resonant | 90 |
-| Creative | 1 | Provides an unlimited amount of the item it stores. |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Capacity (slots)</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>18</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>36</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>54</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>72</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>90</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Creative</td>
+        <td>1</td>
+        <td>Provides an unlimited amount of the item it stores.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

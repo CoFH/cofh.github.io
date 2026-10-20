@@ -1,32 +1,14 @@
 ---
 title: Igneous Extruder
-redirect_from:
-- /thermal-expansion/machines/igneous-extruder/
-- /docs/thermal-expansion/machines/igneous-extruder/
-- /docs/augment-granitic-subduction/
-- /docs/augment-dioritic-subduction/
-- /docs/augment-andesitic-subduction/
-- /docs/igneous-extruder/
-- /docs/thermal-expansion/igneous-extruder/
-- /docs/thermal-expansion-5/igneous-extruder/
-- /docs/1.12/thermal-expansion-5/igneous-extruder/
-recipes:
-  crafting:
-  - te-1-12-machine-extruder
-augments:
-- machine-power
-- machine-extruder-no-water
-- machine-extruder-sedimentary
-recipe-list:
-- cobblestone
-- stone
-- obsidian
-- granite
-- diorite
-- andesite
 ---
 
-![Igneous extruder](/assets/images/thermal-expansion-5/igneous-extruder.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/igneous-extruder.png', alt: 'Igneous extruder' }]}
+/>
 
 > Minecraft physics are fun!
 
@@ -44,7 +26,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-machine-extruder']}
+  noResult
+/>
 
 ### Upgrading
 An igneous extruder is initially at the lowest [tier](#tiers) (basic). It can be
@@ -126,18 +112,50 @@ Tiers
 
 Igneous extruders come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
-| Basic | 20 RF/t | 0 | 16 |
-| Hardened | 30 RF/t | 1 | 16 |
-| Reinforced | 40 RF/t | 2 | 28 |
-| Signalum | 50 RF/t | 3 | 44 |
-| Resonant | 60 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Max. power usage</th>
+        <th>Augment slots</th>
+        <th>Max. items per auto-transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>20 RF/t</td>
+        <td>0</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>30 RF/t</td>
+        <td>1</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>40 RF/t</td>
+        <td>2</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>50 RF/t</td>
+        <td>3</td>
+        <td>44</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>60 RF/t</td>
+        <td>4</td>
+        <td>64</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -150,7 +168,13 @@ augmented.
 
 Augments can be installed in the Augmentation tab in an extruder's GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={[
+    'machine-power',
+    'machine-extruder-no-water',
+    'machine-extruder-sedimentary',
+  ]}
+/>
 
 
 Recipes
@@ -159,4 +183,14 @@ Recipes
 When a fluid's input amount is listed as 0 mB, it is not consumed; it only needs
 to be inside the corresponding input tank.
 
-{% include recipe-table.html type='te-1-12-extruder' recipes=page.recipe-list %}
+<RecipeTable
+  type="1.12/thermal-expansion/extruder"
+  recipes={[
+    'cobblestone',
+    'stone',
+    'obsidian',
+    'granite',
+    'diorite',
+    'andesite',
+  ]}
+/>

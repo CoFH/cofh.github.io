@@ -1,24 +1,13 @@
 ---
 title: Destabilized Clathrate
-redirect_from:
-- /docs/thermal-foundation/items/materials/other/destabilized-clathrate/
-- /docs/destabilized-clathrate/
-- /docs/thermal-foundation/destabilized-clathrate/
-- /docs/thermal-foundation-2/destabilized-clathrate/
-- /docs/1.12/thermal-foundation-2/destabilized-clathrate/
-recipes:
-  pulverizer:
-  - fluid-ore-processing-redstone
-usage-recipes:
-  crafting:
-  - tf-1-12-redstone-from-clathrate
-  crucible:
-  - redstone-from-clathrate
-  transposer-fill:
-  - redstone-from-clathrate
 ---
 
-![Destabilized clathrate](/assets/images/thermal-foundation-2/clathrate-redstone.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/clathrate-redstone.gif', alt: 'Destabilized clathrate' }]}
+/>
 
 
 **Destabilized clathrate** is a material obtained from [destabilized redstone
@@ -36,17 +25,30 @@ dropped if a [Fortune](https://minecraft.wiki/w/Fortune) enchanted
 pickaxe is used.
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.recipes.pulverizer no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['fluid-ore-processing-redstone']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Magma Crucible ingredient
-{% include recipe-table.html type='te-1-12-crucible' recipes=page.usage-recipes.crucible %}
+<RecipeTable
+  type="1.12/thermal-expansion/crucible"
+  recipes={['redstone-from-clathrate']}
+/>
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-redstone-from-clathrate']}
+/>
 
 ### Fluid Transposer ingredient
-{% include recipe-table.html type='te-1-12-transposer-fill' recipes=page.usage-recipes.transposer-fill %}
+<RecipeTable
+  type="1.12/thermal-expansion/transposer-fill"
+  recipes={['redstone-from-clathrate']}
+/>

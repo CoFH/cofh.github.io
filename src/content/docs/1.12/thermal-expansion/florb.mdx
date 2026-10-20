@@ -1,22 +1,13 @@
 ---
 title: Florb
-image:
-- alt: Florb
-  file: thermal-expansion-5/florb.png
-redirect_from:
-- /docs/thermal-expansion/items/florbs/
-- /docs/thermal-expansion/tools/florbs/
-- /docs/thermal-expansion/items/florb/
-- /docs/florbs/
-- /docs/florb/
-- /docs/thermal-expansion/florb/
-- /docs/thermal-expansion-5/florb/
-- /docs/1.12/thermal-expansion-5/florb/
-recipes:
-  crafting:
-  - te-1-12-florb-using-slime
-  - te-1-12-florb-using-rosin
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/florb.png', alt: 'Florb' }]}
+/>
 
 A **florb** ('fluid orb') is a throwable item that contains a fluid.
 
@@ -25,7 +16,14 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'te-1-12-florb-using-slime',
+    'te-1-12-florb-using-rosin',
+  ]}
+  noResult
+/>
 
 
 Usage

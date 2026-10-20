@@ -1,23 +1,18 @@
 ---
 title: Reinforced Bows
-image:
-- alt: Iron reinforced bow
-  file: vanillaplus-tools/bow-iron.png
-- alt: Gold reinforced bow
-  file: vanillaplus-tools/bow-gold.png
-- alt: Diamond reinforced bow
-  file: vanillaplus-tools/bow-diamond.png
-- alt: Stone reinforced bow
-  file: vanillaplus-tools/bow-stone.png
-recipes:
-  crafting:
-  - vpt-1-12-weapon-bow-stone
-  - vpt-1-12-weapon-bow-iron
-  - vpt-1-12-weapon-bow-gold
-  - vpt-1-12-weapon-bow-diamond
-redirect_from:
-- /docs/vanillaplus-tools/reinforced-bows/
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'vanillaplus-tools/bow-iron.png', alt: 'Iron reinforced bow' },
+    { file: 'vanillaplus-tools/bow-gold.png', alt: 'Gold reinforced bow' },
+    { file: 'vanillaplus-tools/bow-diamond.png', alt: 'Diamond reinforced bow' },
+    { file: 'vanillaplus-tools/bow-stone.png', alt: 'Stone reinforced bow' },
+  ]}
+/>
 
 **[Bows](https://minecraft.wiki/w/Bow)** are weapons in vanilla
 Minecraft. [Vanilla+ Tools](../) adds a set of
@@ -28,29 +23,75 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting with-note=true %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'vpt-1-12-weapon-bow-stone',
+    'vpt-1-12-weapon-bow-iron',
+    'vpt-1-12-weapon-bow-gold',
+    'vpt-1-12-weapon-bow-diamond',
+  ]}
+/>
 
 
 Usage
 -----
 
 ### Comparison
-{% comment %}
+{/*
 uses = mat.maxUses + 325
 arrowDamage = 1 + (mat.attackDamage / 4)
 arrowSpeed = 1 + (mat.efficiency / 20)
-{% endcomment %}
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Uses | Arrow damage multiplier | Arrow speed multiplier | Enchantability |
-|---
-| Wood (vanilla) | 384 | × 1 | × 1 | 15 |
-|
-| Stone | 456 | × 1.25 | × 1.2 | 5 |
-| Iron | 575 | × 1.5 | × 1.3 | 14 |
-| Gold | 357 | × 1 | × 1.6 | 22 |
-| Diamond | 1,886 | × 1.75 | × 1.4 | 10 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Material</th>
+        <th>Uses</th>
+        <th>Arrow damage multiplier</th>
+        <th>Arrow speed multiplier</th>
+        <th>Enchantability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Wood (vanilla)</td>
+        <td>384</td>
+        <td>× 1</td>
+        <td>× 1</td>
+        <td>15</td>
+      </tr>
+      <tr><td colspan="5">&nbsp;</td></tr>
+      <tr>
+        <td>Stone</td>
+        <td>456</td>
+        <td>× 1.25</td>
+        <td>× 1.2</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Iron</td>
+        <td>575</td>
+        <td>× 1.5</td>
+        <td>× 1.3</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Gold</td>
+        <td>357</td>
+        <td>× 1</td>
+        <td>× 1.6</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Diamond</td>
+        <td>1,886</td>
+        <td>× 1.75</td>
+        <td>× 1.4</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

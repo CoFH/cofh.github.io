@@ -1,24 +1,19 @@
 ---
 title: Dynamos
-redirect_from:
-- /docs/dynamos/
-- /docs/thermal-expansion/dynamos/
-- /docs/thermal-expansion-5/dynamos/
-- /docs/1.12/thermal-expansion-5/dynamos/
-image:
-- alt: Steam dynamo
-  file: thermal-expansion-5/dynamo-steam-rf.png
-- alt: Magmatic dynamo
-  file: thermal-expansion-5/dynamo-magmatic-rf.png
-- alt: Compression dynamo
-  file: thermal-expansion-5/dynamo-compression-rf.png
-- alt: Reactant dynamo
-  file: thermal-expansion-5/dynamo-reactant-rf.png
-- alt: Enervation dynamo
-  file: thermal-expansion-5/dynamo-enervation-rf.png
-- alt: Numismatic dynamo
-  file: thermal-expansion-5/dynamo-numismatic-rf.png
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/dynamo-steam-rf.png', alt: 'Steam dynamo' },
+    { file: 'thermal-expansion-5/dynamo-magmatic-rf.png', alt: 'Magmatic dynamo' },
+    { file: 'thermal-expansion-5/dynamo-compression-rf.png', alt: 'Compression dynamo' },
+    { file: 'thermal-expansion-5/dynamo-reactant-rf.png', alt: 'Reactant dynamo' },
+    { file: 'thermal-expansion-5/dynamo-enervation-rf.png', alt: 'Enervation dynamo' },
+    { file: 'thermal-expansion-5/dynamo-numismatic-rf.png', alt: 'Numismatic dynamo' },
+  ]}
+/>
 
 **Dynamos** are blocks that generate [Redstone Flux](/docs/redstone-flux/) by
 consuming various kinds of fuel. They can be [upgraded](../../thermal-foundation/tiers/) and
@@ -28,16 +23,39 @@ consuming various kinds of fuel. They can be [upgraded](../../thermal-foundation
 List of dynamos
 ---------------
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Dynamo | Fuel type |
-|---
-| [Steam Dynamo](../steam-dynamo/) | [Water](https://minecraft.wiki/w/Water) and solid fuel |
-| [Magmatic Dynamo](../magmatic-dynamo/) | Hot fluids |
-| [Compression Dynamo](../compression-dynamo/) | Fluid fuel and [coolant](../coolants/) |
-| [Reactant Dynamo](../reactant-dynamo/) | Fluid fuel and solid reactant |
-| [Enervation Dynamo](/docs/redstone-flux/) |
-| [Numismatic Dynamo](../numismatic-dynamo/) | Currency ([emeralds](https://minecraft.wiki/w/Emerald) and metal coins) |
-{:.uk-table .uk-table-striped .uk-table-condensed .cofh-table-compress .uk-text-small}
+  <table class="uk-table uk-table-striped uk-table-condensed cofh-table-compress uk-text-small">
+    <thead>
+      <tr>
+        <th>Dynamo</th>
+        <th>Fuel type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[Steam Dynamo](../steam-dynamo/)</td>
+        <td>[Water](https://minecraft.wiki/w/Water) and solid fuel</td>
+      </tr>
+      <tr>
+        <td>[Magmatic Dynamo](../magmatic-dynamo/)</td>
+        <td>Hot fluids</td>
+      </tr>
+      <tr>
+        <td>[Compression Dynamo](../compression-dynamo/)</td>
+        <td>Fluid fuel and [coolant](../coolants/)</td>
+      </tr>
+      <tr>
+        <td>[Reactant Dynamo](../reactant-dynamo/)</td>
+        <td>Fluid fuel and solid reactant</td>
+      </tr>
+      <tr>
+        <td>[Enervation Dynamo](/docs/redstone-flux/)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>[Numismatic Dynamo](../numismatic-dynamo/)</td>
+        <td>Currency ([emeralds](https://minecraft.wiki/w/Emerald) and metal coins)</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

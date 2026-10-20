@@ -1,6 +1,4 @@
-_site
+dist
+.astro
+node_modules
 Thumbs.db
-.jekyll-metadata
-Gemfile.lock
-.env
-_modrepos

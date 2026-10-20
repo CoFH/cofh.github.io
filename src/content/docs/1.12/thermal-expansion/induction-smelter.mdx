@@ -1,133 +1,14 @@
 ---
 title: Induction Smelter
-redirect_from:
-- /thermal-expansion/machines/induction-smelter/
-- /docs/thermal-expansion/machines/induction-smelter/
-- /docs/induction-smelter/
-- /docs/thermal-expansion/induction-smelter/
-- /docs/thermal-expansion-5/induction-smelter/
-- /docs/1.12/thermal-expansion-5/induction-smelter/
-recipes:
-  crafting:
-  - te-1-12-machine-smelter
-augments:
-- machine-power
-- machine-secondary
-- machine-secondary-null
-- machine-smelter-flux
-- machine-smelter-pyrotheum
-recipe-list:
-  general:
-  - dust-smelting
-  - ra-1-12-dust-smelting-fluxed-electrum
-  - stone-bricks
-  - nether-brick
-  - hardened-glass
-  - hardened-glass-metal
-  ore-processing:
-  - ore-processing-sand-iron
-  - ore-processing-sand-gold
-  - ore-processing-sand-copper
-  - ore-processing-sand-tin
-  - ore-processing-sand-silver
-  - ore-processing-sand-lead
-  - ore-processing-sand-aluminum
-  - ore-processing-sand-nickel
-  - ore-processing-sand-platinum
-  - ore-processing-sand-iridium
-  - ore-processing-sand-mithril
-  - ore-processing-lapis-lazuli
-  - ore-processing-redstone
-  - ore-processing-nether-quartz
-  ore-processing-rich-slag:
-  - ore-processing-rich-slag-iron
-  - ore-processing-rich-slag-gold
-  - ore-processing-rich-slag-copper
-  - ore-processing-rich-slag-tin
-  - ore-processing-rich-slag-silver
-  - ore-processing-rich-slag-lead
-  - ore-processing-rich-slag-aluminum
-  - ore-processing-rich-slag-nickel
-  - ore-processing-rich-slag-platinum
-  - ore-processing-rich-slag-iridium
-  - ore-processing-rich-slag-mithril
-  ore-processing-cinnabar:
-  - ore-processing-cinnabar-iron
-  - ore-processing-cinnabar-gold
-  - ore-processing-cinnabar-copper
-  - ore-processing-cinnabar-tin
-  - ore-processing-cinnabar-silver
-  - ore-processing-cinnabar-lead
-  - ore-processing-cinnabar-aluminum
-  - ore-processing-cinnabar-nickel
-  - ore-processing-cinnabar-platinum
-  - ore-processing-cinnabar-iridium
-  - ore-processing-cinnabar-mithril
-  alloying:
-  - ingot-steel-from-dust-iron-and-coal-coke
-  - ingot-steel-from-ingot-iron-and-coal-coke
-  - ingot-steel-from-dust-iron-and-dust-coal
-  - ingot-steel-from-ingot-iron-and-dust-coal
-  - ingot-steel-from-dust-iron-and-dust-charcoal
-  - ingot-steel-from-ingot-iron-and-dust-charcoal
-  - ingot-electrum-from-dust-gold-and-dust-silver
-  - ingot-electrum-from-ingot-gold-and-dust-silver
-  - ingot-electrum-from-dust-gold-and-ingot-silver
-  - ingot-electrum-from-ingot-gold-and-ingot-silver
-  - ingot-invar-from-dust-iron-and-dust-nickel
-  - ingot-invar-from-ingot-iron-and-dust-nickel
-  - ingot-invar-from-dust-iron-and-ingot-nickel
-  - ingot-invar-from-ingot-iron-and-ingot-nickel
-  - ingot-bronze-from-dust-copper-and-dust-tin
-  - ingot-bronze-from-ingot-copper-and-dust-tin
-  - ingot-bronze-from-dust-copper-and-ingot-tin
-  - ingot-bronze-from-ingot-copper-and-ingot-tin
-  - ingot-constantan-from-dust-copper-and-dust-nickel
-  - ingot-constantan-from-ingot-copper-and-dust-nickel
-  - ingot-constantan-from-dust-copper-and-ingot-nickel
-  - ingot-constantan-from-ingot-copper-and-ingot-nickel
-  recycling:
-  - recycling-gear
-  - recycling-plate
-  - recycling-anvil
-  - recycling-anvil-slightly-damaged
-  - recycling-anvil-very-damaged
-  - recycling-pressure-plate-iron
-  - recycling-pressure-plate-gold
-  - recycling-bucket
-  - recycling-cauldron
-  - recycling-clock
-  - recycling-compass
-  - recycling-door-iron
-  - recycling-hopper
-  - recycling-iron-bars
-  - recycling-iron-trapdoor
-  - recycling-minecart
-  - recycling-minecart-with-chest
-  - recycling-minecart-with-furnace
-  - recycling-minecart-with-hopper
-  - recycling-rail
-  - recycling-powered-rail
-  - recycling-tool-pickaxe
-  - recycling-tool-shovel
-  - recycling-tool-axe
-  - recycling-tool-hoe
-  - recycling-tool-fishing-rod-metal
-  - recycling-tool-shears-metal
-  - recycling-tool-hammer
-  - recycling-tool-excavator
-  - recycling-tool-sickle
-  - recycling-weapon-sword
-  - recycling-weapon-bow-metal
-  - recycling-weapon-shield-metal
-  - recycling-armor-helmet
-  - recycling-armor-chestplate
-  - recycling-armor-leggings
-  - recycling-armor-boots
-  - recycling-horse-armor-metal
 ---
 
-![Induction smelter](/assets/images/thermal-expansion-5/induction-smelter.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/induction-smelter.png', alt: 'Induction smelter' }]}
+/>
 
 > Will absolutely not cook food.
 
@@ -147,7 +28,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-machine-smelter']}
+  noResult
+/>
 
 ### Upgrading
 An induction smelter is initially at the lowest [tier](#tiers) (basic). It can
@@ -242,18 +127,50 @@ Tiers
 
 Induction smelters come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
-| Basic | 20 RF/t | 0 | 16 |
-| Hardened | 30 RF/t | 1 | 16 |
-| Reinforced | 40 RF/t | 2 | 28 |
-| Signalum | 50 RF/t | 3 | 44 |
-| Resonant | 60 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Max. power usage</th>
+        <th>Augment slots</th>
+        <th>Max. items per auto-transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>20 RF/t</td>
+        <td>0</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>30 RF/t</td>
+        <td>1</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>40 RF/t</td>
+        <td>2</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>50 RF/t</td>
+        <td>3</td>
+        <td>44</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>60 RF/t</td>
+        <td>4</td>
+        <td>64</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -266,26 +183,160 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a smelter's GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={[
+    'machine-power',
+    'machine-secondary',
+    'machine-secondary-null',
+    'machine-smelter-flux',
+    'machine-smelter-pyrotheum',
+  ]}
+/>
 
 
 Recipes
 -------
 
 ### General
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.general %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'dust-smelting',
+    'ra-1-12-dust-smelting-fluxed-electrum',
+    'stone-bricks',
+    'nether-brick',
+    'hardened-glass',
+    'hardened-glass-metal',
+  ]}
+/>
 
 ### Ore processing
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.ore-processing %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ore-processing-sand-iron',
+    'ore-processing-sand-gold',
+    'ore-processing-sand-copper',
+    'ore-processing-sand-tin',
+    'ore-processing-sand-silver',
+    'ore-processing-sand-lead',
+    'ore-processing-sand-aluminum',
+    'ore-processing-sand-nickel',
+    'ore-processing-sand-platinum',
+    'ore-processing-sand-iridium',
+    'ore-processing-sand-mithril',
+    'ore-processing-lapis-lazuli',
+    'ore-processing-redstone',
+    'ore-processing-nether-quartz',
+  ]}
+/>
 
 ### Ore processing with rich slag
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.ore-processing-rich-slag %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ore-processing-rich-slag-iron',
+    'ore-processing-rich-slag-gold',
+    'ore-processing-rich-slag-copper',
+    'ore-processing-rich-slag-tin',
+    'ore-processing-rich-slag-silver',
+    'ore-processing-rich-slag-lead',
+    'ore-processing-rich-slag-aluminum',
+    'ore-processing-rich-slag-nickel',
+    'ore-processing-rich-slag-platinum',
+    'ore-processing-rich-slag-iridium',
+    'ore-processing-rich-slag-mithril',
+  ]}
+/>
 
 ### Ore processing with cinnabar
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.ore-processing-cinnabar %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ore-processing-cinnabar-iron',
+    'ore-processing-cinnabar-gold',
+    'ore-processing-cinnabar-copper',
+    'ore-processing-cinnabar-tin',
+    'ore-processing-cinnabar-silver',
+    'ore-processing-cinnabar-lead',
+    'ore-processing-cinnabar-aluminum',
+    'ore-processing-cinnabar-nickel',
+    'ore-processing-cinnabar-platinum',
+    'ore-processing-cinnabar-iridium',
+    'ore-processing-cinnabar-mithril',
+  ]}
+/>
 
 ### Alloying
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.alloying %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ingot-steel-from-dust-iron-and-coal-coke',
+    'ingot-steel-from-ingot-iron-and-coal-coke',
+    'ingot-steel-from-dust-iron-and-dust-coal',
+    'ingot-steel-from-ingot-iron-and-dust-coal',
+    'ingot-steel-from-dust-iron-and-dust-charcoal',
+    'ingot-steel-from-ingot-iron-and-dust-charcoal',
+    'ingot-electrum-from-dust-gold-and-dust-silver',
+    'ingot-electrum-from-ingot-gold-and-dust-silver',
+    'ingot-electrum-from-dust-gold-and-ingot-silver',
+    'ingot-electrum-from-ingot-gold-and-ingot-silver',
+    'ingot-invar-from-dust-iron-and-dust-nickel',
+    'ingot-invar-from-ingot-iron-and-dust-nickel',
+    'ingot-invar-from-dust-iron-and-ingot-nickel',
+    'ingot-invar-from-ingot-iron-and-ingot-nickel',
+    'ingot-bronze-from-dust-copper-and-dust-tin',
+    'ingot-bronze-from-ingot-copper-and-dust-tin',
+    'ingot-bronze-from-dust-copper-and-ingot-tin',
+    'ingot-bronze-from-ingot-copper-and-ingot-tin',
+    'ingot-constantan-from-dust-copper-and-dust-nickel',
+    'ingot-constantan-from-ingot-copper-and-dust-nickel',
+    'ingot-constantan-from-dust-copper-and-ingot-nickel',
+    'ingot-constantan-from-ingot-copper-and-ingot-nickel',
+  ]}
+/>
 
 ### Recycling
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.recipe-list.recycling %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'recycling-gear',
+    'recycling-plate',
+    'recycling-anvil',
+    'recycling-anvil-slightly-damaged',
+    'recycling-anvil-very-damaged',
+    'recycling-pressure-plate-iron',
+    'recycling-pressure-plate-gold',
+    'recycling-bucket',
+    'recycling-cauldron',
+    'recycling-clock',
+    'recycling-compass',
+    'recycling-door-iron',
+    'recycling-hopper',
+    'recycling-iron-bars',
+    'recycling-iron-trapdoor',
+    'recycling-minecart',
+    'recycling-minecart-with-chest',
+    'recycling-minecart-with-furnace',
+    'recycling-minecart-with-hopper',
+    'recycling-rail',
+    'recycling-powered-rail',
+    'recycling-tool-pickaxe',
+    'recycling-tool-shovel',
+    'recycling-tool-axe',
+    'recycling-tool-hoe',
+    'recycling-tool-fishing-rod-metal',
+    'recycling-tool-shears-metal',
+    'recycling-tool-hammer',
+    'recycling-tool-excavator',
+    'recycling-tool-sickle',
+    'recycling-weapon-sword',
+    'recycling-weapon-bow-metal',
+    'recycling-weapon-shield-metal',
+    'recycling-armor-helmet',
+    'recycling-armor-chestplate',
+    'recycling-armor-leggings',
+    'recycling-armor-boots',
+    'recycling-horse-armor-metal',
+  ]}
+/>

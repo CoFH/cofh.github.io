@@ -1,0 +1,37 @@
+---
+import { EXTERNAL_LINKS } from '../lib/external-links.ts';
+import Base from './Base.astro';
+
+interface Props {
+  title: string | undefined;
+  showBanner: boolean;
+}
+---
+
+<Base title={Astro.props.title} showBanner={Astro.props.showBanner}>
+  <div class="uk-grid" data-uk-grid-margin>
+    <div class="uk-width-1-1 uk-width-medium-3-4 uk-margin-top">
+      <slot />
+    </div>
+
+    <div class="uk-width-1-1 uk-width-medium-1-4 uk-hidden-small">
+      <div class="uk-panel uk-panel-box">
+        <ul class="uk-nav uk-nav-side">
+          {EXTERNAL_LINKS.map((link) => (
+            <li>
+              <a href={link.url}>
+                <i class={link.icon} /> {link.title}
+              </a>
+            </li>
+          ))}
+          <li class="uk-nav-divider"></li>
+          <li class:list={{ 'uk-active': Astro.url.pathname.startsWith('/archive/') }}>
+            <a href="/archive/">
+              <i class="uk-icon-clock-o"></i> Archive
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</Base>

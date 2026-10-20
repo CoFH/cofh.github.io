@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Lapidary Calibration'
-image:
-- alt: Lapidary calibration augment
-  file: thermal-expansion-5/augment-dynamo-numismatic-gem.png
-redirect_from:
-- /docs/augment-lapidary-calibration/
-- /docs/thermal-expansion/augment-lapidary-calibration/
-- /docs/thermal-expansion-5/augment-lapidary-calibration/
-- /docs/1.12/thermal-expansion-5/augment-lapidary-calibration/
-recipes:
-  crafting:
-  - te-1-12-augment-dynamo-numismatic-gem
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-dynamo-numismatic-gem.png',
+      alt: 'Lapidary calibration augment',
+    },
+  ]}
+/>
 
 A **lapidary calibration** [augment](../augments/) allows for a [numismatic
 dynamo](../numismatic-dynamo/) to use various [gemstones](#fuels) as fuel,
@@ -22,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-dynamo-numismatic-gem']}
+  noResult
+/>
 
 
 Usage
@@ -52,23 +57,90 @@ Fuels
 The following items can be consumed by a [numismatic
 dynamo](../numismatic-dynamo/) with a lapidary calibration augment installed.
 
-| Fuel | Energy per unit |
-|---
-| [Nether Quartz](https://minecraft.wiki/w/Nether_Quartz) | 40,000 RF |
-| [Lapis Lazuli](https://minecraft.wiki/w/Lapis_Lazuli) | 80,000 RF |
-| [Prismarine Shard](https://minecraft.wiki/w/Prismarine_Shard) | 150,000 RF |
-| [Emerald](https://minecraft.wiki/w/Emerald) | 200,000 RF |
-| [Diamond](https://minecraft.wiki/w/Diamond) | 1,200,000 RF |
-| [Flux Crystal](../../redstone-arsenal/flux-crystal/) | 1,500,000 RF |
-| Amethyst ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
-| Ruby ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
-| Peridot ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
-| Topaz ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
-| Tanzanite ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
-| Malachite ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
-| Sapphire ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
-| Amber ([Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)) | 200,000 RF |
-| Apatite ([Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry)) | 40,000 RF |
-| Red Garnet ([Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn)) | 200,000 RF |
-| Yellow Garnet ([Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn)) | 200,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr>
+      <th>Fuel</th>
+      <th>Energy per unit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[Nether Quartz](https://minecraft.wiki/w/Nether_Quartz)</td>
+      <td>40,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Lapis Lazuli](https://minecraft.wiki/w/Lapis_Lazuli)</td>
+      <td>80,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Prismarine Shard](https://minecraft.wiki/w/Prismarine_Shard)</td>
+      <td>150,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Emerald](https://minecraft.wiki/w/Emerald)</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Diamond](https://minecraft.wiki/w/Diamond)</td>
+      <td>1,200,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Flux Crystal](../../redstone-arsenal/flux-crystal/)</td>
+      <td>1,500,000 RF</td>
+    </tr>
+    <tr>
+      <td>Amethyst ([Biomes O'
+        Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty))</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>Ruby ([Biomes O'
+        Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty))</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>Peridot ([Biomes O'
+        Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty))</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>Topaz ([Biomes O'
+        Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty))</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>Tanzanite ([Biomes O'
+        Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty))</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>Malachite ([Biomes O'
+        Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty))</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>Sapphire ([Biomes O'
+        Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty))</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>Amber ([Biomes O'
+        Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty))</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>Apatite ([Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry))</td>
+      <td>40,000 RF</td>
+    </tr>
+    <tr>
+      <td>Red Garnet ([Tech Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn))</td>
+      <td>200,000 RF</td>
+    </tr>
+    <tr>
+      <td>Yellow Garnet ([Tech
+        Reborn](https://www.curseforge.com/minecraft/mc-mods/techreborn))</td>
+      <td>200,000 RF</td>
+    </tr>
+  </tbody>
+</table>

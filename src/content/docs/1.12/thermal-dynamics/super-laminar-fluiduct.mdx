@@ -1,21 +1,19 @@
 ---
 title: Super-Laminar Fluiduct
-image:
-- alt: Super-laminar fluiduct
-  file: thermal-dynamics-2/fluiduct-super-laminar.png
-- alt: Super-laminar fluiduct (opaque)
-  file: thermal-dynamics-2/fluiduct-super-laminar-opaque.png
-redirect_from:
-- /docs/super-laminar-fluiduct/
-- /docs/thermal-dynamics/super-laminar-fluiduct/
-- /docs/thermal-dynamics-2/super-laminar-fluiduct/
-- /docs/1.12/thermal-dynamics-2/super-laminar-fluiduct/
-recipes:
-  crafting:
-  - td-1-12-fluiduct-super
-  - td-1-12-fluiduct-super-opaque-from-transparent
-  - td-1-12-fluiduct-super-transparent-from-opaque
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-dynamics-2/fluiduct-super-laminar.png', alt: 'Super-laminar fluiduct' },
+    {
+      file: 'thermal-dynamics-2/fluiduct-super-laminar-opaque.png',
+      alt: 'Super-laminar fluiduct (opaque)',
+    },
+  ]}
+/>
 
 A **super-laminar fluiduct** is a type of [fluiduct](../fluiduct/) that can
 transfer any amount of fluid.
@@ -25,7 +23,14 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'td-1-12-fluiduct-super',
+    'td-1-12-fluiduct-super-opaque-from-transparent',
+    'td-1-12-fluiduct-super-transparent-from-opaque',
+  ]}
+/>
 
 
 Usage

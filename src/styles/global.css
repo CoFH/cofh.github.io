@@ -1,0 +1,78 @@
+html {
+  overflow-y: scroll;
+}
+
+* + h2 {
+  margin-top: 45px;
+}
+
+:target {
+  background-color: rgba(255, 255, 0, 0.28);
+}
+
+.uk-table-striped tbody tr:nth-of-type(odd) {
+  background: #f8f8f8;
+}
+
+.uk-table-striped tbody tr:nth-of-type(even) {
+  background: #fdfdfd;
+}
+
+@media (min-width: 768px) {
+  .uk-table.cofh-table-compress {
+    width: 50%;
+  }
+
+  .uk-table.cofh-table-semi-compress {
+    width: 75%;
+  }
+}
+
+table.uk-table.cofh-info-table {
+  width: initial;
+  max-width: 100%;
+}
+
+table.uk-table.cofh-info-table,
+table.uk-table.cofh-info-table tr,
+table.uk-table.cofh-info-table td,
+table.uk-table.cofh-info-table th {
+  border: 1px solid #dadada;
+  border-collapse: collapse;
+}
+
+table.uk-table.cofh-info-table td {
+  vertical-align: middle;
+}
+
+table.uk-table.cofh-info-table th {
+  text-align: center;
+}
+
+.cofh-nowrap {
+  white-space: nowrap;
+}
+
+.cofh-cycle .hidden {
+  display: none;
+}
+
+.cofh-clickable-icon {
+  display: none;
+}
+
+:hover > .cofh-clickable-icon {
+  display: inline;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

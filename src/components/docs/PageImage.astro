@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets';
+
+import { image } from '../../lib/images.ts';
+
+interface Props {
+  images: { file: string; alt: string }[];
+  height?: number;
+}
+
+const { images, height } = Astro.props;
+
+const style = height !== undefined ? `height: ${height}px` : undefined;
+---
+
+{images.length > 1 ? (
+  <div class="cofh-cycle">
+    {images.map((entry, index) => (
+      <Image
+        src={image(entry.file)}
+        alt={entry.alt}
+        class:list={['cofh-page-image', { hidden: index > 0 }]}
+        style={style}
+        loading="eager"
+      />
+    ))}
+  </div>
+) : (
+  <Image
+    src={image(images[0].file)}
+    alt={images[0].alt}
+    class="cofh-page-image"
+    style={style}
+    loading="eager"
+  />
+)}
+
+<style>
+  .cofh-page-image {
+    width: auto;
+    height: 128px;
+  }
+</style>
+
+<script>
+  import '../../scripts/cycle.ts';
+</script>

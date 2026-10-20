@@ -1,0 +1,97 @@
+---
+import { Image } from 'astro:assets';
+
+import downloads from '../../data/downloads.ts';
+import type { DownloadItem } from '../../data/types.ts';
+import { image } from '../../lib/images.ts';
+
+interface Props {
+  minecraft: keyof typeof downloads;
+}
+
+const items: DownloadItem[] = downloads[Astro.props.minecraft];
+---
+
+<div>
+  {items.map((item, index) => (
+    <div
+      class:list={['uk-panel', 'uk-panel-box', { 'uk-margin-bottom': index < items.length - 1 }]}
+    >
+      <div class="uk-grid" data-uk-grid-margin>
+        <div class="uk-width-1-1 uk-width-medium-2-10">
+          {item.logo !== undefined ? (
+            <Image
+              src={image(`modlogos/${item.logo}.png`)}
+              alt={item.title}
+              class="cofh-download-logo"
+            />
+          ) : (
+            <div class="cofh-download-logo cofh-download-logo-missing" />
+          )}
+        </div>
+
+        <div class="uk-width-1-1 uk-width-medium-5-10">
+          <h3 id={item.id}>{item.title}</h3>
+          <p set:html={item.note} />
+        </div>
+
+        <div class="uk-width-1-1 uk-width-medium-3-10" data-uk-margin>
+          {item.links.curseforge !== undefined && (
+            <a
+              href={item.links.curseforge}
+              class="uk-button uk-button-small uk-button-success uk-text-bold uk-width-1-1"
+            >
+              Download on CurseForge
+            </a>
+          )}
+
+          {item.links.modrinth !== undefined && (
+            <a
+              href={item.links.modrinth}
+              class="uk-button uk-button-small uk-button-success uk-text-bold uk-width-1-1"
+            >
+              Download on Modrinth
+            </a>
+          )}
+
+          {item.links.docs !== undefined && (
+            <a href={item.links.docs} class="uk-button uk-button-small uk-width-1-1">
+              Documentation
+            </a>
+          )}
+
+          {item.links.changelog !== undefined && (
+            <a href={item.links.changelog} class="uk-button uk-button-small uk-width-1-1">
+              Changelog
+            </a>
+          )}
+
+          {item.links.source !== undefined && (
+            <a href={item.links.source} class="uk-button uk-button-small uk-width-1-1">
+              Source code
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
+<style>
+  .cofh-download-logo {
+    display: block;
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+  }
+
+  .cofh-download-logo-missing {
+    background-color: #dedede;
+  }
+
+  @media (min-width: 768px) {
+    .cofh-download-logo {
+      height: 115px;
+    }
+  }
+</style>

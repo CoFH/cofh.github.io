@@ -1,20 +1,13 @@
 ---
 title: Signalum Plate
-redirect_from:
-- /docs/thermal-foundation/items/materials/plates/signalum-plate/
-- /docs/signalum-plate/
-- /docs/thermal-foundation/signalum-plate/
-- /docs/thermal-foundation-2/signalum-plate/
-- /docs/1.12/thermal-foundation-2/signalum-plate/
-recipes:
-  compactor:
-  - plate-signalum
-usage-recipes:
-  smelter:
-  - recycling-plate-signalum
 ---
 
-![Signalum plate](/assets/images/thermal-foundation-2/plate-signalum.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/plate-signalum.png', alt: 'Signalum plate' }]}
+/>
 
 
 **Signalum plates** are crafting materials made of
@@ -25,11 +18,18 @@ Obtaining
 ---------
 
 ### Compactor
-{% include recipe-table.html type='te-1-12-compactor' recipes=page.recipes.compactor no-result=true %}
+<RecipeTable
+  type="1.12/thermal-expansion/compactor"
+  recipes={['plate-signalum']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={['recycling-plate-signalum']}
+/>

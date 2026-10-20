@@ -1,23 +1,18 @@
 ---
 title: 'Augment: Clastic Deposition'
-image:
-- alt: Clastic deposition augment
-  file: thermal-expansion-5/augment-machine-extruder-sedimentary.gif
-redirect_from:
-- /docs/augment-clastic-deposition/
-- /docs/thermal-expansion/augment-clastic-deposition/
-- /docs/thermal-expansion-5/augment-clastic-deposition/
-- /docs/1.12/thermal-expansion-5/augment-clastic-deposition/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-extruder-sedimentary
-recipe-list:
-- gravel
-- sand
-- sand-red
-- sandstone
-- sandstone-red
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-extruder-sedimentary.gif',
+      alt: 'Clastic deposition augment',
+    },
+  ]}
+/>
 
 A **clastic deposition** [augment](../augments/) allows for an [igneous
 extruder](../igneous-extruder/) to produce sedimentary rock, such as
@@ -29,7 +24,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-extruder-sedimentary']}
+  noResult
+/>
 
 
 Usage
@@ -49,4 +48,13 @@ recipe set consists of producing various types of sedimentary rock.
 Recipes
 -------
 
-{% include recipe-table.html type='te-1-12-extruder-sedimentary' recipes=page.recipe-list %}
+<RecipeTable
+  type="1.12/thermal-expansion/extruder-sedimentary"
+  recipes={[
+    'gravel',
+    'sand',
+    'sand-red',
+    'sandstone',
+    'sandstone-red',
+  ]}
+/>

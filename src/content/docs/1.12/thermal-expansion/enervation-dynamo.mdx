@@ -1,24 +1,14 @@
 ---
 title: Enervation Dynamo
-image:
-- alt: Enervation dynamo
-  file: thermal-expansion-5/dynamo-enervation-rf.png
-redirect_from:
-- /docs/thermal-expansion/dynamos/enervation-dynamo/
-- /docs/enervation-dynamo/
-- /docs/thermal-expansion/enervation-dynamo/
-- /docs/thermal-expansion-5/enervation-dynamo/
-- /docs/1.12/thermal-expansion-5/enervation-dynamo/
-recipes:
-  crafting:
-  - te-1-12-dynamo-enervation
-augments:
-- dynamo-power
-- dynamo-efficiency
-- dynamo-coil-duct
-- dynamo-throttle
-- dynamo-enervation-enchant
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/dynamo-enervation-rf.png', alt: 'Enervation dynamo' }]}
+/>
 
 An **enervation dynamo** is a [dynamo](../dynamos/) that extracts [Redstone
 Flux](/docs/redstone-flux/) from natural sources and from items that store it.
@@ -33,7 +23,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-dynamo-enervation']}
+  noResult
+/>
 
 ### Upgrading
 An enervation dynamo is initially at the lowest [tier](#tiers) (basic). It can
@@ -112,18 +106,20 @@ Tiers
 
 Enervation dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power output | Augment slots |
-|---
-| Basic | 40 RF/t | 0 |
-| Hardened | 60 RF/t | 1 |
-| Reinforced | 80 RF/t | 2 |
-| Signalum | 100 RF/t | 3 |
-| Resonant / Creative | 120 RF/t | 4 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Tier</th><th>Max. power output</th><th>Augment slots</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Basic</td><td>40 RF/t</td><td>0</td></tr>
+      <tr><td>Hardened</td><td>60 RF/t</td><td>1</td></tr>
+      <tr><td>Reinforced</td><td>80 RF/t</td><td>2</td></tr>
+      <tr><td>Signalum</td><td>100 RF/t</td><td>3</td></tr>
+      <tr><td>Resonant / Creative</td><td>120 RF/t</td><td>4</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -136,7 +132,15 @@ cannot be augmented.
 
 Augments can be installed in the Augmentation tab in an enervation dynamo's GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={[
+    'dynamo-power',
+    'dynamo-efficiency',
+    'dynamo-coil-duct',
+    'dynamo-throttle',
+    'dynamo-enervation-enchant',
+  ]}
+/>
 
 
 Fuels
@@ -145,8 +149,21 @@ Fuels
 The following items can be consumed by an enervation dynamo to generate varying
 amounts of energy.
 
-| Fuel | Energy per unit |
-|---
-| [Redstone](https://minecraft.wiki/w/Redstone) | 64,000 RF |
-| [Block of Redstone](https://minecraft.wiki/w/Block_of_Redstone) | 640,000 RF |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+  <thead>
+    <tr>
+      <th>Fuel</th>
+      <th>Energy per unit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[Redstone](https://minecraft.wiki/w/Redstone)</td>
+      <td>64,000 RF</td>
+    </tr>
+    <tr>
+      <td>[Block of Redstone](https://minecraft.wiki/w/Block_of_Redstone)</td>
+      <td>640,000 RF</td>
+    </tr>
+  </tbody>
+</table>

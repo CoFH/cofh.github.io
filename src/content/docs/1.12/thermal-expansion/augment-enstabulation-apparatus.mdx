@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Enstabulation Apparatus'
-image:
-- alt: Enstabulation apparatus augment
-  file: thermal-expansion-5/augment-machine-centrifuge-mobs.png
-redirect_from:
-- /docs/augment-enstabulation-apparatus/
-- /docs/thermal-expansion/augment-enstabulation-apparatus/
-- /docs/thermal-expansion-5/augment-enstabulation-apparatus/
-- /docs/1.12/thermal-expansion-5/augment-enstabulation-apparatus/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-centrifuge-mobs
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-centrifuge-mobs.png',
+      alt: 'Enstabulation apparatus augment',
+    },
+  ]}
+/>
 
 An **enstabulation apparatus** is an [augment](../augments/) that allows for
 a [centrifugal separator](../centrifugal-separator/) to process filled
@@ -22,7 +23,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-centrifuge-mobs']}
+  noResult
+/>
 
 
 Usage
@@ -52,57 +57,273 @@ Recipes
 When an output is listed with an amount, up to that amount of the output may be
 produced at a time.
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Captured mob | Output (chance) | Essence of Knowledge output |
-|---
-| [Bat](https://minecraft.wiki/w/Bat) | [Leather](https://minecraft.wiki/w/Leather) (5%) | 0 mB |
-| [Chicken](https://minecraft.wiki/w/Chicken) | [Feather](https://minecraft.wiki/w/Feather) × 2 (50%), [Raw Chicken](https://minecraft.wiki/w/Raw_Chicken) (100%) | 40 mB |
-| [Cow](https://minecraft.wiki/w/Cow) | [Leather](https://minecraft.wiki/w/Leather) × 2 (50%), [Raw Beef](https://minecraft.wiki/w/Raw_Beef) × 3 (70%) | 40 mB |
-| [Donkey](https://minecraft.wiki/w/Donkey) | [Leather](https://minecraft.wiki/w/Leather) × 2 (50%) | 40 mB |
-| [Horse](https://minecraft.wiki/w/Horse) | [Leather](https://minecraft.wiki/w/Leather) × 2 (50%) | 40 mB |
-| [Llama](https://minecraft.wiki/w/Llama) | [Leather](https://minecraft.wiki/w/Leather) × 2 (50%) | 40 mB |
-| [Mooshroom](https://minecraft.wiki/w/Mooshroom) | [Leather](https://minecraft.wiki/w/Leather) × 2 (50%), [Raw Beef](https://minecraft.wiki/w/Raw_Beef) × 3 (70%) | 40 mB |
-| [Ocelot](https://minecraft.wiki/w/Ocelot) | - | 40 mB |
-| [Parrot](https://minecraft.wiki/w/Parrot) | [Feather](https://minecraft.wiki/w/Feather) × 2 (80%) | 40 mB |
-| [Pig](https://minecraft.wiki/w/Pig) | [Raw Porkchop](https://minecraft.wiki/w/Raw_Porkchop) × 3 (70%) | 40 mB |
-| [Polar Bear](https://minecraft.wiki/w/Polar_Bear) | [Raw Fish](https://minecraft.wiki/w/Raw_Fish) × 2 (80%), [Raw Salmon](https://minecraft.wiki/w/Raw_Salmon) × 2 (50%) | 40 mB |
-| [Rabbit](https://minecraft.wiki/w/Rabbit) | [Rabbit Hide](https://minecraft.wiki/w/Rabbit_Hide) (50%), [Raw Rabbit](https://minecraft.wiki/w/Raw_Rabbit) (50%), [Rabbit's Foot](https://minecraft.wiki/w/Rabbit%27s_Foot) (10%) | 40 mB |
-| [Sheep](https://minecraft.wiki/w/Sheep) | [Raw Mutton](https://minecraft.wiki/w/Raw_Mutton) × 2 (80%) | 40 mB |
-| [Skeleton Horse](https://minecraft.wiki/w/Skeleton_Horse) | [Bone Meal](https://minecraft.wiki/w/Bone_Meal) (50%) | 40 mB |
-| [Squid](https://minecraft.wiki/w/Squid) | [Ink Sac](https://minecraft.wiki/w/Ink_Sac) × 3 (70%) | 40 mB |
-| [Wolf](https://minecraft.wiki/w/Wolf) | - | 40 mB |
-| [Zombie Horse](https://minecraft.wiki/w/Zombie_Horse) | [Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) × 2 (50%) | 40 mB |
-|
-| [Blaze](https://minecraft.wiki/w/Blaze) | [Blaze Rod](https://minecraft.wiki/w/Blaze_Rod) (50%), [Sulfur](../../thermal-foundation/sulfur/) (25%) | 200 mB |
-| [Cave Spider](https://minecraft.wiki/w/Cave_Spider) | [String](https://minecraft.wiki/w/String) × 2 (50%), [Spider Eye](https://minecraft.wiki/w/Spider_Eye) (25%) | 100 mB |
-| [Creeper](https://minecraft.wiki/w/Creeper) | [Gunpowder](https://minecraft.wiki/w/Gunpowder) × 2 (50%) | 100 mB |
-| [Elder Guardian](https://minecraft.wiki/w/Elder_Guardian) | [Prismarine Shard](https://minecraft.wiki/w/Prismarine_Shard) × 2 (50%), [Prismarine Crystals](https://minecraft.wiki/w/Prismarine_Crystals) (50%) | 200 mB |
-| [Enderman](https://minecraft.wiki/w/Enderman) | [Ender Pearl](https://minecraft.wiki/w/Ender_Pearl) (50%) | 100 mB |
-| [Endermite](https://minecraft.wiki/w/Endermite) | - | 100 mB |
-| [Evoker](https://minecraft.wiki/w/Evoker) | [Totem of Undying](https://minecraft.wiki/w/Totem_of_Undying) (100%), [Emerald](https://minecraft.wiki/w/Emerald) (50%) | 200 mB |
-| [Ghast](https://minecraft.wiki/w/Ghast) | [Ghast Tear](https://minecraft.wiki/w/Ghast_Tear) (50%), [Gunpowder](https://minecraft.wiki/w/Gunpowder) (50%) | 100 mB |
-| [Guardian](https://minecraft.wiki/w/Guardian) | [Prismarine Shard](https://minecraft.wiki/w/Prismarine_Shard) × 2 (50%), [Prismarine Crystals](https://minecraft.wiki/w/Prismarine_Crystals) (50%) | 200 mB |
-| [Husk](https://minecraft.wiki/w/Husk) | [Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) × 2 (50%), [Iron Ingot](https://minecraft.wiki/w/Iron_Ingot) (2%), [Potato](https://minecraft.wiki/w/Potato) (2%) | 100 mB |
-| [Magma Cube](https://minecraft.wiki/w/Magma_Cube) | [Magma Cream](https://minecraft.wiki/w/Magma_Cream) (50%), [Sulfur](../../thermal-foundation/sulfur/) (25%) | 40 mB |
-| [Shulker](https://minecraft.wiki/w/Shulker) | [Shulker Shell](https://minecraft.wiki/w/Shulker_Shell) (50%) | 100 mB |
-| [Silverfish](https://minecraft.wiki/w/Silverfish) | - | 100 mB |
-| [Skeleton](https://minecraft.wiki/w/Skeleton) | [Arrow](https://minecraft.wiki/w/Arrow) × 2 (50%), [Bone](https://minecraft.wiki/w/Bone) × 2 (50%) | 100 mB |
-| [Slime](https://minecraft.wiki/w/Slime) | [Slimeball](https://minecraft.wiki/w/Slimeball) × 2 (50%) | 40 mB |
-| [Spider](https://minecraft.wiki/w/Spider) | [String](https://minecraft.wiki/w/String) × 2 (50%), [Spider Eye](https://minecraft.wiki/w/Spider_Eye) (25%) | 100 mB |
-| [Stray](https://minecraft.wiki/w/Stray) | [Arrow](https://minecraft.wiki/w/Arrow) × 2 (50%), [Bone](https://minecraft.wiki/w/Bone) × 2 (50%) | 100 mB |
-| [Vex](https://minecraft.wiki/w/Vex) | - | 60 mB |
-| [Villager](https://minecraft.wiki/w/Villager) | [Emerald](https://minecraft.wiki/w/Emerald) (2%) | 0 mB |
-| [Vindicator](https://minecraft.wiki/w/Vindicator) | [Emerald](https://minecraft.wiki/w/Emerald) (50%) | 100 mB |
-| [Witch](https://minecraft.wiki/w/Witch) | [Glowstone Dust](https://minecraft.wiki/w/Glowstone_Dust) × 2 (40%), [Gunpowder](https://minecraft.wiki/w/Gunpowder) × 2 (40%), [Redstone](https://minecraft.wiki/w/Redstone) × 2 (40%) | 100 mB |
-| [Wither Skeleton](https://minecraft.wiki/w/Wither_Skeleton) | [Coal](https://minecraft.wiki/w/Coal) (25%), [Bone](https://minecraft.wiki/w/Bone) × 2 (50%), [Wither Skeleton Skull](https://minecraft.wiki/w/Wither_Skeleton_Skull) (2%) | 100 mB |
-| [Zombie](https://minecraft.wiki/w/Zombie) | [Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) × 2 (50%), [Iron Ingot](https://minecraft.wiki/w/Iron_Ingot) (2%), [Potato](https://minecraft.wiki/w/Potato) (2%) | 100 mB |
-| [Zombie Pigman](https://minecraft.wiki/w/Zombie_Pigman) | [Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) (50%), [Gold Nugget](https://minecraft.wiki/w/Gold_Nugget) (50%), [Gold Ingot](https://minecraft.wiki/w/Gold_Ingot) (2%) | 100 mB |
-| [Zombie Villager](https://minecraft.wiki/w/Zombie_Villager) | [Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) × 2 (50%), [Iron Ingot](https://minecraft.wiki/w/Iron_Ingot) (2%), [Potato](https://minecraft.wiki/w/Potato) (2%) | 100 mB |
-|
-| [Blizz](../../thermal-foundation/blizz/) | [Blizz Rod](../../thermal-foundation/blizz-rod/) (50%), [Snowball](https://minecraft.wiki/w/Snowball) × 4 (25%) | 200 mB |
-| [Blitz](../../thermal-foundation/blitz/) | [Blitz Rod](../../thermal-foundation/blitz-rod/) (50%), [Niter](../../thermal-foundation/niter/) × 2 (25%) | 200 mB |
-| [Basalz](../../thermal-foundation/basalz/) | [Basalz Rod](../../thermal-foundation/basalz-rod/) (50%), [Pulverized Obsidian](../../thermal-foundation/pulverized-obsidian/) × 2 (25%) | 200 mB |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-semi-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-semi-compress">
+    <thead>
+      <tr>
+        <th>Captured mob</th>
+        <th>Output (chance)</th>
+        <th>Essence of Knowledge output</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[Bat](https://minecraft.wiki/w/Bat)</td>
+        <td>[Leather](https://minecraft.wiki/w/Leather) (5%)</td>
+        <td>0 mB</td>
+      </tr>
+      <tr>
+        <td>[Chicken](https://minecraft.wiki/w/Chicken)</td>
+        <td>[Feather](https://minecraft.wiki/w/Feather) × 2 (50%), [Raw
+          Chicken](https://minecraft.wiki/w/Raw_Chicken) (100%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Cow](https://minecraft.wiki/w/Cow)</td>
+        <td>[Leather](https://minecraft.wiki/w/Leather) × 2 (50%), [Raw
+          Beef](https://minecraft.wiki/w/Raw_Beef) × 3 (70%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Donkey](https://minecraft.wiki/w/Donkey)</td>
+        <td>[Leather](https://minecraft.wiki/w/Leather) × 2 (50%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Horse](https://minecraft.wiki/w/Horse)</td>
+        <td>[Leather](https://minecraft.wiki/w/Leather) × 2 (50%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Llama](https://minecraft.wiki/w/Llama)</td>
+        <td>[Leather](https://minecraft.wiki/w/Leather) × 2 (50%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Mooshroom](https://minecraft.wiki/w/Mooshroom)</td>
+        <td>[Leather](https://minecraft.wiki/w/Leather) × 2 (50%), [Raw
+          Beef](https://minecraft.wiki/w/Raw_Beef) × 3 (70%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Ocelot](https://minecraft.wiki/w/Ocelot)</td>
+        <td>-</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Parrot](https://minecraft.wiki/w/Parrot)</td>
+        <td>[Feather](https://minecraft.wiki/w/Feather) × 2 (80%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Pig](https://minecraft.wiki/w/Pig)</td>
+        <td>[Raw Porkchop](https://minecraft.wiki/w/Raw_Porkchop) × 3 (70%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Polar Bear](https://minecraft.wiki/w/Polar_Bear)</td>
+        <td>[Raw Fish](https://minecraft.wiki/w/Raw_Fish) × 2 (80%), [Raw
+          Salmon](https://minecraft.wiki/w/Raw_Salmon) × 2 (50%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Rabbit](https://minecraft.wiki/w/Rabbit)</td>
+        <td>[Rabbit Hide](https://minecraft.wiki/w/Rabbit_Hide) (50%), [Raw
+          Rabbit](https://minecraft.wiki/w/Raw_Rabbit) (50%), [Rabbit's
+          Foot](https://minecraft.wiki/w/Rabbit%27s_Foot) (10%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Sheep](https://minecraft.wiki/w/Sheep)</td>
+        <td>[Raw Mutton](https://minecraft.wiki/w/Raw_Mutton) × 2 (80%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Skeleton Horse](https://minecraft.wiki/w/Skeleton_Horse)</td>
+        <td>[Bone Meal](https://minecraft.wiki/w/Bone_Meal) (50%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Squid](https://minecraft.wiki/w/Squid)</td>
+        <td>[Ink Sac](https://minecraft.wiki/w/Ink_Sac) × 3 (70%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Wolf](https://minecraft.wiki/w/Wolf)</td>
+        <td>-</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Zombie Horse](https://minecraft.wiki/w/Zombie_Horse)</td>
+        <td>[Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) × 2 (50%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr><td colspan="3">&nbsp;</td></tr>
+      <tr>
+        <td>[Blaze](https://minecraft.wiki/w/Blaze)</td>
+        <td>[Blaze Rod](https://minecraft.wiki/w/Blaze_Rod) (50%),
+          [Sulfur](../../thermal-foundation/sulfur/) (25%)</td>
+        <td>200 mB</td>
+      </tr>
+      <tr>
+        <td>[Cave Spider](https://minecraft.wiki/w/Cave_Spider)</td>
+        <td>[String](https://minecraft.wiki/w/String) × 2 (50%), [Spider
+          Eye](https://minecraft.wiki/w/Spider_Eye) (25%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Creeper](https://minecraft.wiki/w/Creeper)</td>
+        <td>[Gunpowder](https://minecraft.wiki/w/Gunpowder) × 2 (50%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Elder Guardian](https://minecraft.wiki/w/Elder_Guardian)</td>
+        <td>[Prismarine Shard](https://minecraft.wiki/w/Prismarine_Shard) × 2 (50%), [Prismarine
+          Crystals](https://minecraft.wiki/w/Prismarine_Crystals) (50%)</td>
+        <td>200 mB</td>
+      </tr>
+      <tr>
+        <td>[Enderman](https://minecraft.wiki/w/Enderman)</td>
+        <td>[Ender Pearl](https://minecraft.wiki/w/Ender_Pearl) (50%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Endermite](https://minecraft.wiki/w/Endermite)</td>
+        <td>-</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Evoker](https://minecraft.wiki/w/Evoker)</td>
+        <td>[Totem of Undying](https://minecraft.wiki/w/Totem_of_Undying) (100%),
+          [Emerald](https://minecraft.wiki/w/Emerald) (50%)</td>
+        <td>200 mB</td>
+      </tr>
+      <tr>
+        <td>[Ghast](https://minecraft.wiki/w/Ghast)</td>
+        <td>[Ghast Tear](https://minecraft.wiki/w/Ghast_Tear) (50%),
+          [Gunpowder](https://minecraft.wiki/w/Gunpowder) (50%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Guardian](https://minecraft.wiki/w/Guardian)</td>
+        <td>[Prismarine Shard](https://minecraft.wiki/w/Prismarine_Shard) × 2 (50%), [Prismarine
+          Crystals](https://minecraft.wiki/w/Prismarine_Crystals) (50%)</td>
+        <td>200 mB</td>
+      </tr>
+      <tr>
+        <td>[Husk](https://minecraft.wiki/w/Husk)</td>
+        <td>[Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) × 2 (50%), [Iron
+          Ingot](https://minecraft.wiki/w/Iron_Ingot) (2%),
+          [Potato](https://minecraft.wiki/w/Potato) (2%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Magma Cube](https://minecraft.wiki/w/Magma_Cube)</td>
+        <td>[Magma Cream](https://minecraft.wiki/w/Magma_Cream) (50%),
+          [Sulfur](../../thermal-foundation/sulfur/) (25%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Shulker](https://minecraft.wiki/w/Shulker)</td>
+        <td>[Shulker Shell](https://minecraft.wiki/w/Shulker_Shell) (50%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Silverfish](https://minecraft.wiki/w/Silverfish)</td>
+        <td>-</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Skeleton](https://minecraft.wiki/w/Skeleton)</td>
+        <td>[Arrow](https://minecraft.wiki/w/Arrow) × 2 (50%), [Bone](https://minecraft.wiki/w/Bone)
+          × 2 (50%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Slime](https://minecraft.wiki/w/Slime)</td>
+        <td>[Slimeball](https://minecraft.wiki/w/Slimeball) × 2 (50%)</td>
+        <td>40 mB</td>
+      </tr>
+      <tr>
+        <td>[Spider](https://minecraft.wiki/w/Spider)</td>
+        <td>[String](https://minecraft.wiki/w/String) × 2 (50%), [Spider
+          Eye](https://minecraft.wiki/w/Spider_Eye) (25%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Stray](https://minecraft.wiki/w/Stray)</td>
+        <td>[Arrow](https://minecraft.wiki/w/Arrow) × 2 (50%), [Bone](https://minecraft.wiki/w/Bone)
+          × 2 (50%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Vex](https://minecraft.wiki/w/Vex)</td>
+        <td>-</td>
+        <td>60 mB</td>
+      </tr>
+      <tr>
+        <td>[Villager](https://minecraft.wiki/w/Villager)</td>
+        <td>[Emerald](https://minecraft.wiki/w/Emerald) (2%)</td>
+        <td>0 mB</td>
+      </tr>
+      <tr>
+        <td>[Vindicator](https://minecraft.wiki/w/Vindicator)</td>
+        <td>[Emerald](https://minecraft.wiki/w/Emerald) (50%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Witch](https://minecraft.wiki/w/Witch)</td>
+        <td>[Glowstone Dust](https://minecraft.wiki/w/Glowstone_Dust) × 2 (40%),
+          [Gunpowder](https://minecraft.wiki/w/Gunpowder) × 2 (40%),
+          [Redstone](https://minecraft.wiki/w/Redstone) × 2 (40%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Wither Skeleton](https://minecraft.wiki/w/Wither_Skeleton)</td>
+        <td>[Coal](https://minecraft.wiki/w/Coal) (25%), [Bone](https://minecraft.wiki/w/Bone) × 2
+          (50%), [Wither Skeleton Skull](https://minecraft.wiki/w/Wither_Skeleton_Skull) (2%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Zombie](https://minecraft.wiki/w/Zombie)</td>
+        <td>[Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) × 2 (50%), [Iron
+          Ingot](https://minecraft.wiki/w/Iron_Ingot) (2%),
+          [Potato](https://minecraft.wiki/w/Potato) (2%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Zombie Pigman](https://minecraft.wiki/w/Zombie_Pigman)</td>
+        <td>[Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) (50%), [Gold
+          Nugget](https://minecraft.wiki/w/Gold_Nugget) (50%), [Gold
+          Ingot](https://minecraft.wiki/w/Gold_Ingot) (2%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr>
+        <td>[Zombie Villager](https://minecraft.wiki/w/Zombie_Villager)</td>
+        <td>[Rotten Flesh](https://minecraft.wiki/w/Rotten_Flesh) × 2 (50%), [Iron
+          Ingot](https://minecraft.wiki/w/Iron_Ingot) (2%),
+          [Potato](https://minecraft.wiki/w/Potato) (2%)</td>
+        <td>100 mB</td>
+      </tr>
+      <tr><td colspan="3">&nbsp;</td></tr>
+      <tr>
+        <td>[Blizz](../../thermal-foundation/blizz/)</td>
+        <td>[Blizz Rod](../../thermal-foundation/blizz-rod/) (50%),
+          [Snowball](https://minecraft.wiki/w/Snowball) × 4 (25%)</td>
+        <td>200 mB</td>
+      </tr>
+      <tr>
+        <td>[Blitz](../../thermal-foundation/blitz/)</td>
+        <td>[Blitz Rod](../../thermal-foundation/blitz-rod/) (50%),
+          [Niter](../../thermal-foundation/niter/) × 2 (25%)</td>
+        <td>200 mB</td>
+      </tr>
+      <tr>
+        <td>[Basalz](../../thermal-foundation/basalz/)</td>
+        <td>[Basalz Rod](../../thermal-foundation/basalz-rod/) (50%), [Pulverized
+          Obsidian](../../thermal-foundation/pulverized-obsidian/) × 2 (25%)</td>
+        <td>200 mB</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}

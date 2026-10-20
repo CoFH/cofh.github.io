@@ -1,0 +1,6 @@
+dist
+.astro
+pnpm-lock.yaml
+
+# Prettier's parser does not yet support the latest version of MDX
+**/*.mdx

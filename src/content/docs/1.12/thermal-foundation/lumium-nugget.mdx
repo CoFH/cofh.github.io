@@ -1,20 +1,13 @@
 ---
 title: Lumium Nugget
-redirect_from:
-- /docs/thermal-foundation/items/materials/nuggets/lumium-nugget/
-- /docs/lumium-nugget/
-- /docs/thermal-foundation/lumium-nugget/
-- /docs/thermal-foundation-2/lumium-nugget/
-- /docs/1.12/thermal-foundation-2/lumium-nugget/
-recipes:
-  crafting:
-  - tf-1-12-nugget-lumium
-usage-recipes:
-  crafting:
-  - tf-1-12-ingot-lumium-from-nuggets
 ---
 
-![Lumium nugget](/assets/images/thermal-foundation-2/nugget-lumium.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/nugget-lumium.png', alt: 'Lumium nugget' }]}
+/>
 
 
 **Lumium nuggets** are raw materials. They are the nugget form of
@@ -25,11 +18,18 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-nugget-lumium']}
+  noResult
+/>
 
 
 Usage
 -----
 
 ### Crafting ingredient
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={['tf-1-12-ingot-lumium-from-nuggets']}
+/>

@@ -11,18 +11,38 @@ Summary
 
 All of CoFH Core's commands must be prefixed with `/cofh` and a space.
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Command | Description |
-|---
-| [enderchest](#enderchest) | Opens a player's [ender chest](https://minecraft.wiki/w/Ender_Chest). |
-| [heal](#heal) | Fully heals players. |
-| [ignite](#ignite) | Sets entities on fire. |
-| [repair](#repair) | Fully repairs the equipment of players. |
-| [zap](#zap) | Causes entities to be struck by [lightning](https://minecraft.wiki/w/Lightning). |
-{:.uk-table .uk-table-striped}
+  <table class="uk-table uk-table-striped">
+    <thead>
+      <tr>
+        <th>Command</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[enderchest](#enderchest)</td>
+        <td>Opens a player's [ender chest](https://minecraft.wiki/w/Ender_Chest).</td>
+      </tr>
+      <tr>
+        <td>[heal](#heal)</td>
+        <td>Fully heals players.</td>
+      </tr>
+      <tr>
+        <td>[ignite](#ignite)</td>
+        <td>Sets entities on fire.</td>
+      </tr>
+      <tr>
+        <td>[repair](#repair)</td>
+        <td>Fully repairs the equipment of players.</td>
+      </tr>
+      <tr>
+        <td>[zap](#zap)</td>
+        <td>Causes entities to be struck by [lightning](https://minecraft.wiki/w/Lightning).</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Details
@@ -31,7 +51,9 @@ Details
 ### enderchest
 Opens a player's [ender chest](https://minecraft.wiki/w/Ender_Chest).
 
-    /cofh enderchest [<player>]
+```
+/cofh enderchest [<player>]
+```
 
 player
 : The player whose ender chest to open. Must be a player name or a [target
@@ -44,7 +66,9 @@ opens your own ender chest.
 Fully heals players, restoring health, food and air, extinguishing fire and
 removing negative status effects.
 
-    /cofh heal [<targets>]
+```
+/cofh heal [<targets>]
+```
 
 targets
 : The player or players to heal. Must be a player name or a [target
@@ -56,7 +80,9 @@ heals yourself.
 ### ignite
 Sets entities on fire.
 
-    /cofh ignite [<targets>] [<duration>]
+```
+/cofh ignite [<targets>] [<duration>]
+```
 
 targets
 : The entity or entities to set on fire. Must be a player name or a [target
@@ -72,7 +98,9 @@ duration
 ### repair
 Fully repairs the equipment (held items and worn armor) of players.
 
-    /cofh repair [<targets>]
+```
+/cofh repair [<targets>]
+```
 
 targets
 : The player or players whose equipment to repair. Must be a player name or a
@@ -86,7 +114,9 @@ Causes entities to be struck by
 [lightning](https://minecraft.wiki/w/Lightning). Only works on entities
 with a direct line of sight to the sky.
 
-    /cofh zap [<targets>]
+```
+/cofh zap [<targets>]
+```
 
 targets
 : The entity or entities to zap. Must be a player name or a [target

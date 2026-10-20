@@ -1,28 +1,13 @@
 ---
 title: Mana Infused Ore
-redirect_from:
-- /docs/thermal-foundation/ores/mana-infused-ore/
-- /docs/thermal-foundation/world/ores/mana-infused-ore/
-- /docs/mana-infused-ore/
-- /docs/thermal-foundation/mana-infused-ore/
-- /docs/thermal-foundation-2/mana-infused-ore/
-- /docs/1.12/thermal-foundation-2/mana-infused-ore/
-usage-recipes:
-  smelting:
-  - tf-1-12-ore-processing-mithril
-  crafting:
-  - tf-1-12-pyrotheum-ore-mithril
-  - tf-1-12-petrotheum-ore-mithril
-  - tf-1-12-petrotheum-pyrotheum-ore-mithril
-  pulverizer:
-  - ore-processing-mithril
-  smelter:
-  - ore-processing-sand-mithril
-  - ore-processing-rich-slag-mithril
-  - ore-processing-cinnabar-mithril
 ---
 
-![Mana Infused ore](/assets/images/thermal-foundation-2/ore-mithril.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-foundation-2/ore-mithril.png', alt: 'Mana Infused ore' }]}
+/>
 
 
 **Mana infused ore** is an [ore](https://minecraft.wiki/w/Ore) that
@@ -47,16 +32,36 @@ Usage
 -----
 
 ### Smelting
-{% include recipe-table.html type='smelting' recipes=page.usage-recipes.smelting %}
+<RecipeTable
+  type="smelting"
+  recipes={['tf-1-12-ore-processing-mithril']}
+/>
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.usage-recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-pyrotheum-ore-mithril',
+    'tf-1-12-petrotheum-ore-mithril',
+    'tf-1-12-petrotheum-pyrotheum-ore-mithril',
+  ]}
+/>
 
 ### Pulverizer
-{% include recipe-table.html type='te-1-12-pulverizer' recipes=page.usage-recipes.pulverizer %}
+<RecipeTable
+  type="1.12/thermal-expansion/pulverizer"
+  recipes={['ore-processing-mithril']}
+/>
 
 ### Induction Smelter
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'ore-processing-sand-mithril',
+    'ore-processing-rich-slag-mithril',
+    'ore-processing-cinnabar-mithril',
+  ]}
+/>
 
 ### Smashing
 When mana infused ore is broken using a [Smashing](../../cofh-core/smashing/)

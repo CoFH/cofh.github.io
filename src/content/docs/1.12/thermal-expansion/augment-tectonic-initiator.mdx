@@ -1,17 +1,18 @@
 ---
 title: 'Augment: Tectonic Initiator'
-image:
-- alt: Tectonic initiator augment
-  file: thermal-expansion-5/augment-machine-pulverizer-petrotheum.gif
-redirect_from:
-- /docs/augment-tectonic-initiator/
-- /docs/thermal-expansion/augment-tectonic-initiator/
-- /docs/thermal-expansion-5/augment-tectonic-initiator/
-- /docs/1.12/thermal-expansion-5/augment-tectonic-initiator/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-pulverizer-petrotheum
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    {
+      file: 'thermal-expansion-5/augment-machine-pulverizer-petrotheum.gif',
+      alt: 'Tectonic initiator augment',
+    },
+  ]}
+/>
 
 A **tectonic initiator** is an [augment](../augments/) that allows for a
 [pulverizer](../pulverizer/) to process
@@ -23,7 +24,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-pulverizer-petrotheum']}
+  noResult
+/>
 
 
 Usage
@@ -46,27 +51,29 @@ An installed tectonic initiator also increases the chances of a pulverizer
 producing a secondary product. This effect stacks with those of any installed
 [auxiliary sieves](../augment-auxiliary-sieve/).
 
-<!--
+{/*
 modifiedChance = 100 - amount * 15 - 25   (minimum is 5)
 multiplier = 100 / modifiedChance
--->
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Installed auxiliary sieves | Chance multiplier |
-|---
-| 0 | × 1.33 |
-| 1 | × 1.67 |
-| 2 | × 2.22 |
-| 3 | × 3.33 |
-| 4 | × 6.67 |
-| 5 | × 20 |
-| 6 | × 20 |
-| 7 | × 20 |
-| 8 | × 20 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr><th>Installed auxiliary sieves</th><th>Chance multiplier</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>0</td><td>× 1.33</td></tr>
+      <tr><td>1</td><td>× 1.67</td></tr>
+      <tr><td>2</td><td>× 2.22</td></tr>
+      <tr><td>3</td><td>× 3.33</td></tr>
+      <tr><td>4</td><td>× 6.67</td></tr>
+      <tr><td>5</td><td>× 20</td></tr>
+      <tr><td>6</td><td>× 20</td></tr>
+      <tr><td>7</td><td>× 20</td></tr>
+      <tr><td>8</td><td>× 20</td></tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 If a tectonic initiator is installed together with other augments that increase
 the amount of energy required per operation, their energy increase percentages

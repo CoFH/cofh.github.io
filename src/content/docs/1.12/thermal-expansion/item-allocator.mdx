@@ -1,17 +1,13 @@
 ---
 title: Item Allocator
-redirect_from:
-- /docs/thermal-expansion/devices/item-allocator/
-- /docs/item-allocator/
-- /docs/thermal-expansion/item-allocator/
-- /docs/thermal-expansion-5/item-allocator/
-- /docs/1.12/thermal-expansion-5/item-allocator/
-recipes:
-  crafting:
-  - te-1-12-device-item-buffer
 ---
 
-![Item allocator](/assets/images/thermal-expansion-5/item-allocator.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/item-allocator.png', alt: 'Item allocator' }]}
+/>
 
 > Better than a [hopper](https://minecraft.wiki/w/Hopper), really!
 
@@ -29,7 +25,11 @@ A placed item allocator can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-device-item-buffer']}
+  noResult
+/>
 
 
 Usage

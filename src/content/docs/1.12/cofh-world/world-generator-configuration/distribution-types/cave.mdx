@@ -1,7 +1,5 @@
 ---
 title: cave
-redirect_from:
-- /docs/cofh-world/world-generator-configuration/distribution-types/cave/
 ---
 
 **`cave`** is one of the [distribution types](../) provided by [CoFH
@@ -40,24 +38,18 @@ When using this distribution type, the following values may be added to the
         </thead>
         <tbody>
             <tr>
-                <td markdown="span">`ceiling` (optional)</td>
-                <td markdown="span">Boolean</td>
-                <td markdown="span">`false`</td>
-                <td markdown="span">
-                    If `false`, features are distributed in floors of caves. If
-                    `true`, they are distributed in ceilings.
-                </td>
+                <td>`ceiling` (optional)</td>
+                <td>Boolean</td>
+                <td>`false`</td>
+                <td>If `false`, features are distributed in floors of caves. If `true`, they are
+                  distributed in ceilings.</td>
             </tr>
             <tr>
-                <td markdown="span">`ground-level` (optional)</td>
-                <td markdown="span">
-                    Number / [number provider](../../common-formats/number-provider/)
-                </td>
-                <td markdown="span">(Taken from world)</td>
-                <td markdown="span">
-                    The altitude below which to look for caves to distribute
-                    features in. Evaluated once per feature.
-                </td>
+                <td>`ground-level` (optional)</td>
+                <td>Number / [number provider](../../common-formats/number-provider/)</td>
+                <td>(Taken from world)</td>
+                <td>The altitude below which to look for caves to distribute features in. Evaluated
+                  once per feature.</td>
             </tr>
         </tbody>
     </table>

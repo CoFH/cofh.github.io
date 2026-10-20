@@ -1,28 +1,14 @@
 ---
 title: Glacial Precipitator
-redirect_from:
-- /thermal-expansion/machines/glacial-precipitator/
-- /docs/thermal-expansion/machines/glacial-precipitator/
-- /docs/augment-flurry-stratum/
-- /docs/augment-permafrost-compressor/
-- /docs/glacial-precipitator/
-- /docs/thermal-expansion/glacial-precipitator/
-- /docs/thermal-expansion-5/glacial-precipitator/
-- /docs/1.12/thermal-expansion-5/glacial-precipitator/
-recipes:
-  crafting:
-  - te-1-12-machine-precipitator
-augments:
-- machine-power
-recipe-list:
-- snowball
-- snow
-- ice
-- snow-layer
-- packed-ice
 ---
 
-![Glacial precipitator](/assets/images/thermal-expansion-5/glacial-precipitator.png){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+import * as MC1_12 from '@/components/docs/1.12/index.ts';
+
+<PageImage
+  images={[{ file: 'thermal-expansion-5/glacial-precipitator.png', alt: 'Glacial precipitator' }]}
+/>
 
 > Have a snowball fight!
 
@@ -40,7 +26,11 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-machine-precipitator']}
+  noResult
+/>
 
 ### Upgrading
 A glacial precipitator is initially at the lowest [tier](#tiers) (basic). It can
@@ -120,18 +110,50 @@ Tiers
 
 Glacial precipitators come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Max. power usage | Augment slots | Max. items per auto-transfer |
-|---
-| Basic | 20 RF/t | 0 | 16 |
-| Hardened | 30 RF/t | 1 | 16 |
-| Reinforced | 40 RF/t | 2 | 28 |
-| Signalum | 50 RF/t | 3 | 44 |
-| Resonant | 60 RF/t | 4 | 64 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Max. power usage</th>
+        <th>Augment slots</th>
+        <th>Max. items per auto-transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>20 RF/t</td>
+        <td>0</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>30 RF/t</td>
+        <td>1</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>40 RF/t</td>
+        <td>2</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>50 RF/t</td>
+        <td>3</td>
+        <td>44</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>60 RF/t</td>
+        <td>4</td>
+        <td>64</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 
 Augmentation
@@ -144,10 +166,21 @@ be augmented.
 
 Augments can be installed in the Augmentation tab in a precipitator's GUI.
 
-{% include te-1-12-augment-table.html augments=page.augments %}
+<MC1_12.ThermalExpansion.AugmentTable
+  augments={['machine-power']}
+/>
 
 
 Recipes
 -------
 
-{% include recipe-table.html type='te-1-12-precipitator' recipes=page.recipe-list %}
+<RecipeTable
+  type="1.12/thermal-expansion/precipitator"
+  recipes={[
+    'snowball',
+    'snow',
+    'ice',
+    'snow-layer',
+    'packed-ice',
+  ]}
+/>

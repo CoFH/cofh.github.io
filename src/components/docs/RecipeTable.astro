@@ -1,0 +1,160 @@
+---
+import { getRecipeSiteUrl } from '../../data/recipe-sites.ts';
+import type { CraftingRecipeData, MachineRecipeLayout, RecipeType } from '../../data/types.ts';
+import CraftingRecipe from './recipe/CraftingRecipe.astro';
+import MachineRecipe from './recipe/MachineRecipe.astro';
+import RecipeTableItem from './RecipeTableItem.astro';
+
+interface Props {
+  type: string;
+  recipes: string[];
+  noResult?: boolean;
+}
+
+type RecipeModule =
+  | { default: RecipeType<CraftingRecipeData>; layout?: undefined }
+  | { default: RecipeType; layout: MachineRecipeLayout };
+
+const modules = import.meta.glob<RecipeModule>('../../data/recipes/**/*.ts', {
+  eager: true,
+});
+
+const recipeModule = modules[`../../data/recipes/${Astro.props.type}.ts`];
+
+if (recipeModule === undefined) {
+  throw new Error(`Unknown recipe type "${Astro.props.type}"`);
+}
+
+const recipeType = recipeModule.default;
+
+const rows = Astro.props.recipes.map((id) => {
+  const recipe = recipeType.recipes[id];
+
+  if (recipe === undefined) {
+    throw new Error(`Unknown ${Astro.props.type} recipe "${id}"`);
+  }
+
+  return { id, recipe };
+});
+
+const withNote = rows.some(({ recipe }) => recipe.note !== undefined);
+---
+
+<div class="uk-overflow-container">
+  <table class="uk-table uk-table-striped cofh-info-table">
+    <thead data-pagefind-ignore="all">
+      <tr>
+        {!Astro.props.noResult && <th>Result(s)</th>}
+        <th>Ingredients</th>
+        {recipeType.withEnergy && <th>Energy</th>}
+        <th>
+          <a href={getRecipeSiteUrl(recipeType.site, recipeType.url)}>{recipeType.name}</a> recipe
+        </th>
+        {withNote && <th>Note</th>}
+      </tr>
+    </thead>
+
+    <tbody>
+      {rows.map(({ id, recipe }) => (
+        <tr>
+          {!Astro.props.noResult && (
+            <td class="uk-text-center cofh-nowrap">
+              {recipe.results.map((result, index) => {
+                const Emphasis = recipeType.allResultsBold || index === 0 ? 'strong' : Fragment;
+
+                return (
+                  <>
+                    <Emphasis>
+                      <RecipeTableItem entry={result} role="result" first={index === 0} />
+                    </Emphasis>
+                    <br />
+                  </>
+                );
+              })}
+            </td>
+          )}
+
+          <td>
+            {recipe.ingredients.map((ingredient, index) => (
+              <>
+                <RecipeTableItem entry={ingredient} role="ingredient" first={index === 0} />
+                {index < recipe.ingredients.length - 1 && <>&nbsp;+</>}
+                <br />
+              </>
+            ))}
+          </td>
+
+          {recipeType.withEnergy && (
+            <td class="cofh-nowrap uk-text-right">{recipe.energy?.toLocaleString('en-US')} RF</td>
+          )}
+
+          <td style="padding: 2px; text-align: center">
+            <div class="cofh-recipe">
+              {recipeModule.layout === undefined ? (
+                <CraftingRecipe data={recipeModule.default.recipes[id].data} />
+              ) : (
+                <MachineRecipe
+                  layout={recipeModule.layout}
+                  data={recipeModule.default.recipes[id].data}
+                />
+              )}
+            </div>
+          </td>
+
+          {withNote && <td>{recipe.note}</td>}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style is:global>
+  .cofh-recipe {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 16px;
+    vertical-align: top;
+  }
+
+  .cofh-recipe-slot-amount {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #444444 2px 2px 1px;
+    pointer-events: none;
+  }
+
+  .cofh-recipe-item-sprite,
+  .cofh-recipe-item-sheet-sprite {
+    width: 32px;
+    height: 32px;
+  }
+
+  .cofh-recipe-item-sheet-sprite {
+    background-image: var(--cofh-item-sprite-sheet);
+  }
+
+  .cofh-recipe-floating-text {
+    position: absolute;
+    min-width: 100px;
+    color: #6f6f6f;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+</style>
+
+<script>
+  for (const recipe of document.querySelectorAll('.cofh-recipe')) {
+    recipe.addEventListener('mouseenter', () => {
+      recipe.querySelectorAll('.cofh-cycle').forEach((cycle) => cycle.classList.add('paused'));
+    });
+
+    recipe.addEventListener('mouseleave', () => {
+      recipe.querySelectorAll('.cofh-cycle').forEach((cycle) => cycle.classList.remove('paused'));
+    });
+  }
+</script>

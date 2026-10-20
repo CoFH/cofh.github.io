@@ -1,44 +1,26 @@
 ---
 title: Swords
-redirect_from:
-- /docs/thermal-foundation/equipment/swords/
-- /docs/thermal-foundation/equipment/weapons/swords/
-- /docs/swords/
-- /docs/tf-swords/
-- /docs/thermal-foundation/swords/
-- /docs/thermal-foundation-2/swords/
-- /docs/1.12/thermal-foundation-2/swords/
-recipes:
-  crafting:
-  - tf-1-12-weapon-sword-copper
-  - tf-1-12-weapon-sword-tin
-  - tf-1-12-weapon-sword-silver
-  - tf-1-12-weapon-sword-lead
-  - tf-1-12-weapon-sword-aluminum
-  - tf-1-12-weapon-sword-nickel
-  - tf-1-12-weapon-sword-platinum
-  - tf-1-12-weapon-sword-steel
-  - tf-1-12-weapon-sword-electrum
-  - tf-1-12-weapon-sword-invar
-  - tf-1-12-weapon-sword-bronze
-  - tf-1-12-weapon-sword-constantan
-usage-recipes:
-  smelter:
-  - recycling-weapon-sword-copper
-  - recycling-weapon-sword-tin
-  - recycling-weapon-sword-silver
-  - recycling-weapon-sword-lead
-  - recycling-weapon-sword-aluminum
-  - recycling-weapon-sword-nickel
-  - recycling-weapon-sword-platinum
-  - recycling-weapon-sword-steel
-  - recycling-weapon-sword-electrum
-  - recycling-weapon-sword-invar
-  - recycling-weapon-sword-bronze
-  - recycling-weapon-sword-constantan
 ---
 
-![Swords](/assets/images/thermal-foundation-2/swords.gif){:style="height: 128px"}
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-foundation-2/sword-copper.png', alt: 'Copper sword' },
+    { file: 'thermal-foundation-2/sword-tin.png', alt: 'Tin sword' },
+    { file: 'thermal-foundation-2/sword-silver.png', alt: 'Silver sword' },
+    { file: 'thermal-foundation-2/sword-lead.png', alt: 'Lead sword' },
+    { file: 'thermal-foundation-2/sword-aluminum.png', alt: 'Aluminum sword' },
+    { file: 'thermal-foundation-2/sword-nickel.png', alt: 'Nickel sword' },
+    { file: 'thermal-foundation-2/sword-platinum.png', alt: 'Platinum sword' },
+    { file: 'thermal-foundation-2/sword-steel.png', alt: 'Steel sword' },
+    { file: 'thermal-foundation-2/sword-electrum.png', alt: 'Electrum sword' },
+    { file: 'thermal-foundation-2/sword-invar.png', alt: 'Invar sword' },
+    { file: 'thermal-foundation-2/sword-bronze.png', alt: 'Bronze sword' },
+    { file: 'thermal-foundation-2/sword-constantan.png', alt: 'Constantan sword' },
+  ]}
+/>
 
 
 **[Swords](https://minecraft.wiki/w/Sword)** are weapons in vanilla
@@ -50,42 +32,184 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'tf-1-12-weapon-sword-copper',
+    'tf-1-12-weapon-sword-tin',
+    'tf-1-12-weapon-sword-silver',
+    'tf-1-12-weapon-sword-lead',
+    'tf-1-12-weapon-sword-aluminum',
+    'tf-1-12-weapon-sword-nickel',
+    'tf-1-12-weapon-sword-platinum',
+    'tf-1-12-weapon-sword-steel',
+    'tf-1-12-weapon-sword-electrum',
+    'tf-1-12-weapon-sword-invar',
+    'tf-1-12-weapon-sword-bronze',
+    'tf-1-12-weapon-sword-constantan',
+  ]}
+/>
 
 
 Usage
 -----
 
 ### Comparison
-{% comment %}
+{/*
 uses = mat.maxUses
-{% endcomment %}
+*/}
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Material | Uses | Attack speed | Attack damage | Enchantability |
-|---
-| Wood | 59 | 1.6 | 4 | 15 |
-| Stone | 131 | 1.6 | 5 | 5 |
-| Iron | 250 | 1.6 | 6 | 14 |
-| Gold | 32 | 1.6 | 4 | 22 |
-| Diamond | 1,561 | 1.6 | 7 | 10 |
-|
-| Copper | 175 | 1.6 | 5 | 7 |
-| Tin | 150 | 1.6 | 5 | 7 |
-| Silver | 75 | 1.6 | 5 | 25 |
-| Lead | 100 | 1.6 | 5 | 9 |
-| Aluminum | 225 | 1.6 | 5 | 14 |
-| Nickel | 300 | 1.6 | 6.5 | 18 |
-| Platinum | 1,400 | 1.6 | 7.5 | 16 |
-| Steel | 400 | 1.6 | 6.5 | 10 |
-| Electrum | 100 | 1.6 | 4.5 | 30 |
-| Invar | 425 | 1.6 | 6.5 | 12 |
-| Bronze | 325 | 1.6 | 6 | 10 |
-| Constantan | 275 | 1.6 | 5.5 | 12 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small .cofh-table-compress}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+    <thead>
+      <tr>
+        <th>Material</th>
+        <th>Uses</th>
+        <th>Attack speed</th>
+        <th>Attack damage</th>
+        <th>Enchantability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Wood</td>
+        <td>59</td>
+        <td>1.6</td>
+        <td>4</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Stone</td>
+        <td>131</td>
+        <td>1.6</td>
+        <td>5</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Iron</td>
+        <td>250</td>
+        <td>1.6</td>
+        <td>6</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Gold</td>
+        <td>32</td>
+        <td>1.6</td>
+        <td>4</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Diamond</td>
+        <td>1,561</td>
+        <td>1.6</td>
+        <td>7</td>
+        <td>10</td>
+      </tr>
+      <tr><td colspan="5">&nbsp;</td></tr>
+      <tr>
+        <td>Copper</td>
+        <td>175</td>
+        <td>1.6</td>
+        <td>5</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Tin</td>
+        <td>150</td>
+        <td>1.6</td>
+        <td>5</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Silver</td>
+        <td>75</td>
+        <td>1.6</td>
+        <td>5</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Lead</td>
+        <td>100</td>
+        <td>1.6</td>
+        <td>5</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Aluminum</td>
+        <td>225</td>
+        <td>1.6</td>
+        <td>5</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Nickel</td>
+        <td>300</td>
+        <td>1.6</td>
+        <td>6.5</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>Platinum</td>
+        <td>1,400</td>
+        <td>1.6</td>
+        <td>7.5</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Steel</td>
+        <td>400</td>
+        <td>1.6</td>
+        <td>6.5</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Electrum</td>
+        <td>100</td>
+        <td>1.6</td>
+        <td>4.5</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Invar</td>
+        <td>425</td>
+        <td>1.6</td>
+        <td>6.5</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Bronze</td>
+        <td>325</td>
+        <td>1.6</td>
+        <td>6</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Constantan</td>
+        <td>275</td>
+        <td>1.6</td>
+        <td>5.5</td>
+        <td>12</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
 
 ### Induction Smelter ingredient
-{% include recipe-table.html type='te-1-12-smelter' recipes=page.usage-recipes.smelter %}
+<RecipeTable
+  type="1.12/thermal-expansion/smelter"
+  recipes={[
+    'recycling-weapon-sword-copper',
+    'recycling-weapon-sword-tin',
+    'recycling-weapon-sword-silver',
+    'recycling-weapon-sword-lead',
+    'recycling-weapon-sword-aluminum',
+    'recycling-weapon-sword-nickel',
+    'recycling-weapon-sword-platinum',
+    'recycling-weapon-sword-steel',
+    'recycling-weapon-sword-electrum',
+    'recycling-weapon-sword-invar',
+    'recycling-weapon-sword-bronze',
+    'recycling-weapon-sword-constantan',
+  ]}
+/>

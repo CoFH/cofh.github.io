@@ -1,0 +1,50 @@
+---
+import type { DocNavItem } from '../../data/types.ts';
+import NavboxLink from './NavboxLink.astro';
+
+interface Props {
+  item: DocNavItem;
+  urlPrefix: string;
+}
+
+const { item, urlPrefix } = Astro.props;
+const subitems = item.subitems ?? [];
+const url = item.url !== undefined ? `${urlPrefix}${item.url}` : undefined;
+---
+
+{subitems.length > 0 && url === undefined ? (
+  <span class="cofh-nowrap">
+    {item.icon && (
+      <div
+        class="cofh-navbox-icon"
+        style={{
+          backgroundPosition: `-${item.icon[0] * 16}px -${item.icon[1] * 16}px`,
+        }}
+      />
+    )}{' '}
+    {item.title}
+  </span>
+) : (
+  <NavboxLink url={url} text={item.title} icon={item.icon} />
+)}
+
+{subitems.length > 0 && (
+  <>
+    {' '}
+    <span>
+      (
+      {subitems.map((subitem, index) => (
+        <>
+          {index > 0 && (
+            <>
+              {' '}
+              <span class="uk-text-bold">&#8729;</span>{' '}
+            </>
+          )}
+          <Astro.self item={subitem} urlPrefix={urlPrefix} />
+        </>
+      ))}
+      )
+    </span>
+  </>
+)}

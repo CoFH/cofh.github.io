@@ -1,0 +1,55 @@
+---
+interface Props {
+  class: string;
+  instance: string;
+  hideShortcut?: boolean;
+}
+---
+
+<div class:list={[Astro.props.class, 'cofh-search']}>
+  <pagefind-modal-trigger
+    instance={Astro.props.instance}
+    placeholder="Search..."
+    hide-shortcut={Astro.props.hideShortcut ? true : undefined}
+  />
+
+  <pagefind-modal instance={Astro.props.instance} />
+</div>
+
+<script>
+  import '@pagefind/component-ui';
+  import '@pagefind/component-ui/css/pagefind-component-ui.css';
+</script>
+
+<style>
+  .cofh-search {
+    --pf-font: inherit;
+    --pf-input-height: 30px;
+    --pf-input-font-size: 14px;
+    --pf-border-radius: 4px;
+    --pf-border: #dddddd;
+    --pf-border-focus: #99baca;
+    --pf-text: #444444;
+    --pf-text-muted: #999999;
+    --pf-background: #ffffff;
+    --pf-hover: #f5f5f5;
+    --pf-searchbox-max-width: 220px;
+    --pf-dropdown-z-index: 1100;
+    width: 220px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .cofh-search::before {
+    display: none;
+  }
+
+  pagefind-modal-trigger {
+    flex: 1;
+  }
+
+  :global(.uk-offcanvas) .cofh-search {
+    width: auto;
+  }
+</style>

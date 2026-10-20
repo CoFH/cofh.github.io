@@ -1,17 +1,15 @@
 ---
 title: 'Augment: Flux Anodizers'
-image:
-- alt: Flux anodizers augment
-  file: thermal-expansion-5/augment-machine-furnace-ore.png
-redirect_from:
-- /docs/augment-flux-anodizers/
-- /docs/thermal-expansion/augment-flux-anodizers/
-- /docs/thermal-expansion-5/augment-flux-anodizers/
-- /docs/1.12/thermal-expansion-5/augment-flux-anodizers/
-recipes:
-  crafting:
-  - te-1-12-augment-machine-furnace-ore
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-expansion-5/augment-machine-furnace-ore.png', alt: 'Flux anodizers augment' },
+  ]}
+/>
 
 A **flux anodizers** [augment](../augments/) allows for a [redstone
 furnace](../redstone-furnace/) to process ores more efficiently.
@@ -21,7 +19,11 @@ Obtaining
 ---------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting no-result=true %}
+<RecipeTable
+  type="crafting"
+  recipes={['te-1-12-augment-machine-furnace-ore']}
+  noResult
+/>
 
 
 Usage

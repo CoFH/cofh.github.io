@@ -1,35 +1,19 @@
 ---
 title: Servos
-image:
-- alt: Servo
-  file: thermal-dynamics-2/servo-basic.png
-- alt: Hardened servo
-  file: thermal-dynamics-2/servo-hardened.png
-- alt: Reinforced servo
-  file: thermal-dynamics-2/servo-reinforced.png
-- alt: Signalum servo
-  file: thermal-dynamics-2/servo-signalum.png
-- alt: Resonant servo
-  file: thermal-dynamics-2/servo-resonant.png
-redirect_from:
-- /docs/thermal-dynamics/attachments/servos/
-- /docs/servos/
-- /docs/thermal-dynamics/servos/
-- /docs/thermal-dynamics-2/servos/
-- /docs/1.12/thermal-dynamics-2/servos/
-recipes:
-  crafting:
-  - td-1-12-servo-basic
-  - td-1-12-servo-hardened
-  - td-1-12-servo-reinforced
-  - td-1-12-servo-signalum
-  - td-1-12-servo-resonant
-  crafting-upgrading:
-  - td-1-12-servo-hardened-upgrade
-  - td-1-12-servo-reinforced-upgrade
-  - td-1-12-servo-signalum-upgrade
-  - td-1-12-servo-resonant-upgrade
 ---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/RecipeTable.astro';
+
+<PageImage
+  images={[
+    { file: 'thermal-dynamics-2/servo-basic.png', alt: 'Servo' },
+    { file: 'thermal-dynamics-2/servo-hardened.png', alt: 'Hardened servo' },
+    { file: 'thermal-dynamics-2/servo-reinforced.png', alt: 'Reinforced servo' },
+    { file: 'thermal-dynamics-2/servo-signalum.png', alt: 'Signalum servo' },
+    { file: 'thermal-dynamics-2/servo-resonant.png', alt: 'Resonant servo' },
+  ]}
+/>
 
 **Servos** are items that can be installed on [itemduct](../itemduct/) and
 [fluiduct](../fluiduct/) connections. They extract items or fluids from
@@ -40,10 +24,27 @@ Obtaining
 --------
 
 ### Crafting
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'td-1-12-servo-basic',
+    'td-1-12-servo-hardened',
+    'td-1-12-servo-reinforced',
+    'td-1-12-servo-signalum',
+    'td-1-12-servo-resonant',
+  ]}
+/>
 
 ### Upgrading
-{% include recipe-table.html type='crafting' recipes=page.recipes.crafting-upgrading %}
+<RecipeTable
+  type="crafting"
+  recipes={[
+    'td-1-12-servo-hardened-upgrade',
+    'td-1-12-servo-reinforced-upgrade',
+    'td-1-12-servo-signalum-upgrade',
+    'td-1-12-servo-resonant-upgrade',
+  ]}
+/>
 
 
 Usage
@@ -157,15 +158,77 @@ Tiers
 
 Servos come in five [tiers](../../thermal-foundation/tiers/).
 
-{::options parse_block_html="true" /}
 <div class="uk-overflow-container">
-| Tier | Item extraction rate | Max. item stack size | Item speed boost | Item filter options | Extracts from multiple slots | Configurable item routing | Fluid extraction rate | Filter slots |
-|---
-| Basic | 3s | 8 | - | Blacklist/Whitelist | No | No | 50% | 3 |
-| Hardened | 2s | 16 | - | Blacklist/Whitelist, Metadata | No | No | 75% | 6 |
-| Reinforced | 1s | 32 | - | All | No | Yes | 100% | 9 |
-| Signalum | 0.5s | 64 | × 2 | All | Yes | Yes | 150% | 12 |
-| Resonant | 0.5s | 64 | × 3 | All | Yes | Yes | 200% | 15 |
-{:.uk-table .uk-table-striped .uk-table-condensed .uk-text-small}
+  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Item extraction rate</th>
+        <th>Max. item stack size</th>
+        <th>Item speed boost</th>
+        <th>Item filter options</th>
+        <th>Extracts from multiple slots</th>
+        <th>Configurable item routing</th>
+        <th>Fluid extraction rate</th>
+        <th>Filter slots</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Basic</td>
+        <td>3s</td>
+        <td>8</td>
+        <td>-</td>
+        <td>Blacklist/Whitelist</td>
+        <td>No</td>
+        <td>No</td>
+        <td>50%</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Hardened</td>
+        <td>2s</td>
+        <td>16</td>
+        <td>-</td>
+        <td>Blacklist/Whitelist, Metadata</td>
+        <td>No</td>
+        <td>No</td>
+        <td>75%</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Reinforced</td>
+        <td>1s</td>
+        <td>32</td>
+        <td>-</td>
+        <td>All</td>
+        <td>No</td>
+        <td>Yes</td>
+        <td>100%</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Signalum</td>
+        <td>0.5s</td>
+        <td>64</td>
+        <td>× 2</td>
+        <td>All</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>150%</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Resonant</td>
+        <td>0.5s</td>
+        <td>64</td>
+        <td>× 3</td>
+        <td>All</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>200%</td>
+        <td>15</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{::options parse_block_html="false" /}
