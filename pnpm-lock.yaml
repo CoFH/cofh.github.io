@@ -188,8 +188,8 @@ importers:
         specifier: 2.0.1
         version: 2.0.1(astro@7.4.0(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))
       jquery:
-        specifier: 3.2.1
-        version: 3.2.1
+        specifier: 3.5.0
+        version: 3.5.0
       pagefind:
         specifier: 1.5.2
         version: 1.5.2
@@ -1798,9 +1798,8 @@ packages:
     resolution: {integrity: sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==}
     hasBin: true
 
-  jquery@3.2.1:
-    resolution: {integrity: sha512-iQUctXqe/nSa7hshPkQnJaJEUfxM139//hg2nJj+wsqVvd/YgXALR3jTNGh7BylgsyfcC8r4i2cJrClGBkDu5Q==}
-    deprecated: This version is deprecated. Please upgrade to the latest version or find support at https://www.herodevs.com/support/jquery-nes or https://tuxcare.com/lp/click-jquery-support/.
+  jquery@3.5.0:
+    resolution: {integrity: sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -4542,7 +4541,7 @@ snapshots:
 
   jiti@2.7.0: {}
 
-  jquery@3.2.1: {}
+  jquery@3.5.0: {}
 
   js-tokens@4.0.0: {}
 

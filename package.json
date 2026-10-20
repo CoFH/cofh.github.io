@@ -22,7 +22,7 @@
     "@pagefind/component-ui": "1.5.2",
     "astro": "7.4.0",
     "astro-pagefind": "2.0.1",
-    "jquery": "3.2.1",
+    "jquery": "3.5.0",
     "pagefind": "1.5.2",
     "uikit": "2.23.0"
   },
