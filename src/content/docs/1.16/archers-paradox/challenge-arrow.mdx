@@ -4,10 +4,10 @@ title: Challenge Arrow
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ap from '@/data/1.16/archers-paradox/items.ts';
+import apCrafting from '@/data/1.16/archers-paradox/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'archers-paradox-1-16/challenge-arrow.png', alt: 'Challenge Arrow' }]}
-/>
+<PageImage images={[{ item: ap.challengeArrow }]} />
 
 > Up for the challenge?
 
@@ -19,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ap-1-16-challenge-arrow']}
-  noResult
-/>
+<RecipeTable recipes={[apCrafting.challengeArrow]} noResult />
 
 ### Trading
 Can be bought from Expert level [Fletcher](https://minecraft.wiki/w/Trading#Fletcher) villagers.

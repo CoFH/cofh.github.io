@@ -4,10 +4,20 @@ title: Invar Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tcCrafting from '@/data/1.12/thermal-cultivation/recipes/crafting.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-invar.png', alt: 'Invar ingot' }]}
-/>
+<PageImage images={[{ item: tf.invarIngot }]} />
 
 
 **Invar ingots** are raw materials made from
@@ -25,50 +35,38 @@ blend](../invar-blend/) or by using an [induction
 smelter](../../thermal-expansion/induction-smelter/).
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-invar-from-dust']}
-  noResult
-/>
+<RecipeTable recipes={[tfSmelting.invarIngotFromDust]} noResult />
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-ingot-invar-from-nuggets',
-    'tf-1-12-ingot-invar-from-block',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.invarIngot.nuggets, tfCrafting.invarIngot.block]} noResult />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting-invar',
-    'ingot-invar-from-dust-iron-and-dust-nickel',
-    'ingot-invar-from-dust-iron-and-ingot-nickel',
-    'ingot-invar-from-ingot-iron-and-dust-nickel',
-    'ingot-invar-from-ingot-iron-and-ingot-nickel',
-    'recycling-gear-invar',
-    'recycling-plate-invar',
-    'recycling-tool-pickaxe-invar',
-    'recycling-tool-shovel-invar',
-    'recycling-tool-axe-invar',
-    'recycling-tool-hoe-invar',
-    'recycling-tool-fishing-rod-invar',
-    'recycling-tool-shears-invar',
-    'recycling-tool-hammer-invar',
-    'recycling-tool-excavator-invar',
-    'recycling-tool-sickle-invar',
-    'recycling-weapon-sword-invar',
-    'recycling-weapon-bow-invar',
-    'recycling-weapon-shield-invar',
-    'recycling-armor-helmet-invar',
-    'recycling-armor-chestplate-invar',
-    'recycling-armor-leggings-invar',
-    'recycling-armor-boots-invar',
-    'recycling-horse-armor-invar',
+    teSmelter.dustSmelting.invar,
+    teSmelter.invarIngot.pulverizedIronAndPulverizedNickel,
+    teSmelter.invarIngot.pulverizedIronAndNickelIngot,
+    teSmelter.invarIngot.ironIngotAndPulverizedNickel,
+    teSmelter.invarIngot.ironIngotAndNickelIngot,
+    teSmelter.recycling.invarGear,
+    teSmelter.recycling.invarPlate,
+    teSmelter.recycling.invarPickaxe,
+    teSmelter.recycling.invarShovel,
+    teSmelter.recycling.invarAxe,
+    teSmelter.recycling.invarHoe,
+    teSmelter.recycling.invarFishingRod,
+    teSmelter.recycling.invarShears,
+    teSmelter.recycling.invarHammer,
+    teSmelter.recycling.invarExcavator,
+    teSmelter.recycling.invarSickle,
+    teSmelter.recycling.invarSword,
+    teSmelter.recycling.invarReinforcedBow,
+    teSmelter.recycling.invarShield,
+    teSmelter.recycling.invarHelmet,
+    teSmelter.recycling.invarChestplate,
+    teSmelter.recycling.invarLeggings,
+    teSmelter.recycling.invarBoots,
+    teSmelter.recycling.invarHorseArmor,
   ]}
   noResult
 />
@@ -79,78 +77,65 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-nugget-invar',
-    'tf-1-12-gear-invar',
-    'tf-1-12-storage-block-invar',
-    'tf-1-12-upgrade-kit-hardened',
-    'te-1-12-machine-precipitator',
-    'te-1-12-machine-extruder',
-    'te-1-12-device-heat-sink',
-    'te-1-12-dynamo-magmatic',
-    'te-1-12-flux-capacitor-hardened',
-    'te-1-12-reservoir-hardened',
-    'te-1-12-reservoir-reinforced',
-    'te-1-12-satchel-hardened',
-    'td-1-12-fluxduct-hardened-three',
-    'td-1-12-fluiduct-hardened',
-    'td-1-12-fluiduct-hardened-opaque',
-    'td-1-12-servo-hardened',
-    'td-1-12-servo-hardened-upgrade',
-    'td-1-12-filter-hardened',
-    'td-1-12-filter-hardened-upgrade',
-    'td-1-12-retriever-hardened',
-    'td-1-12-retriever-hardened-upgrade',
-    'tc-1-12-watering-can-hardened',
-    'ti-1-12-fluxbore-hardened',
-    'ti-1-12-fluxsaw-hardened',
-    'ti-1-12-fluxomagnet-hardened',
-    'ti-1-12-hypoinfuser-hardened',
-    'ti-1-12-alchemical-quiver-hardened',
-    'tf-1-12-tool-pickaxe-invar',
-    'tf-1-12-tool-shovel-invar',
-    'tf-1-12-tool-axe-invar',
-    'tf-1-12-tool-hoe-invar',
-    'tf-1-12-tool-fishing-rod-invar',
-    'tf-1-12-tool-shears-invar',
-    'tf-1-12-tool-hammer-invar',
-    'tf-1-12-tool-excavator-invar',
-    'tf-1-12-tool-sickle-invar',
-    'tf-1-12-weapon-sword-invar',
-    'tf-1-12-weapon-bow-invar',
-    'tf-1-12-weapon-shield-invar',
-    'tf-1-12-armor-helmet-invar',
-    'tf-1-12-armor-chestplate-invar',
-    'tf-1-12-armor-leggings-invar',
-    'tf-1-12-armor-boots-invar',
-    'tf-1-12-horse-armor-invar',
+    tfCrafting.invarNugget,
+    tfCrafting.invarGear,
+    tfCrafting.blockOfInvar,
+    tfCrafting.upgradeKit1,
+    teCrafting.glacialPrecipitator,
+    teCrafting.igneousExtruder,
+    teCrafting.thermalMediator,
+    teCrafting.magmaticDynamo,
+    teCrafting.fluxCapacitor1,
+    teCrafting.reservoir1,
+    teCrafting.reservoir2,
+    teCrafting.satchel1,
+    tdCrafting.hardenedFluxductThree,
+    tdCrafting.hardenedFluiduct,
+    tdCrafting.hardenedFluiductOpaque,
+    tdCrafting.servo1,
+    tdCrafting.servo1Upgrade,
+    tdCrafting.filter1,
+    tdCrafting.filter1Upgrade,
+    tdCrafting.retriever1,
+    tdCrafting.retriever1Upgrade,
+    tcCrafting.wateringCan1,
+    tiCrafting.fluxbore1,
+    tiCrafting.fluxsaw1,
+    tiCrafting.fluxomagnet1,
+    tiCrafting.hypoinfuser1,
+    tiCrafting.alchemicalQuiver1,
+    tfCrafting.invarPickaxe,
+    tfCrafting.invarShovel,
+    tfCrafting.invarAxe,
+    tfCrafting.invarHoe,
+    tfCrafting.invarFishingRod,
+    tfCrafting.invarShears,
+    tfCrafting.invarHammer,
+    tfCrafting.invarExcavator,
+    tfCrafting.invarSickle,
+    tfCrafting.invarSword,
+    tfCrafting.invarReinforcedBow,
+    tfCrafting.invarShield,
+    tfCrafting.invarHelmet,
+    tfCrafting.invarChestplate,
+    tfCrafting.invarLeggings,
+    tfCrafting.invarBoots,
+    tfCrafting.invarHorseArmor,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-invar']}
-/>
+<RecipeTable recipes={[tePulverizer.invarBlend]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-invar']}
-/>
+<RecipeTable recipes={[teCompactor.invarPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-invar']}
-/>
+<RecipeTable recipes={[teCompactorCoin.invarCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-invar']}
-/>
+<RecipeTable recipes={[teCompactorGear.invarGear]} />
 
 
 Trivia

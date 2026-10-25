@@ -4,10 +4,13 @@ title: Copper Ore
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ore-copper.png', alt: 'Copper ore' }]}
-/>
+<PageImage images={[{ item: tf.copperOre }]} />
 
 
 **Copper ore** is a common [ore](https://minecraft.wiki/w/Ore) that
@@ -32,34 +35,26 @@ Usage
 -----
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ore-processing-copper']}
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.copper]} />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-copper',
-    'tf-1-12-petrotheum-ore-copper',
-    'tf-1-12-petrotheum-pyrotheum-ore-copper',
+    tfCrafting.pyrotheum.copperOre,
+    tfCrafting.petrotheum.copperOre,
+    tfCrafting.petrotheumPyrotheum.copperOre,
   ]}
 />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['ore-processing-copper']}
-/>
+<RecipeTable recipes={[tePulverizer.oreProcessing.copper]} />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-copper',
-    'ore-processing-rich-slag-copper',
-    'ore-processing-cinnabar-copper',
+    teSmelter.oreProcessing.copper,
+    teSmelter.oreProcessingRichSlag.copper,
+    teSmelter.oreProcessingCinnabar.copper,
   ]}
 />
 

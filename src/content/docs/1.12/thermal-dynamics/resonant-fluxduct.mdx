@@ -4,10 +4,11 @@ title: Resonant Fluxduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
 
-<PageImage
-  images={[{ file: 'thermal-dynamics-2/fluxduct-resonant.png', alt: 'Resonant fluxduct' }]}
-/>
+<PageImage images={[{ item: td.resonantFluxduct }]} />
 
 A **resonant fluxduct** is a [fluxduct](../fluxducts/) of the fifth tier. It
 could be considered the highest 'regular' tier, due to the different behavior of
@@ -19,20 +20,16 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-fluxduct-resonant-empty-one',
-    'td-1-12-fluxduct-resonant-empty-three',
-    'td-1-12-fluxduct-resonant-one',
-    'td-1-12-fluxduct-resonant-three',
+    tdCrafting.resonantFluxductEmptyOne,
+    tdCrafting.resonantFluxductEmptyThree,
+    tdCrafting.resonantFluxductOne,
+    tdCrafting.resonantFluxductThree,
   ]}
 />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['td-1-12-fluxduct-resonant']}
-/>
+<RecipeTable recipes={[tdTransposerFill.resonantFluxduct]} />
 
 
 Usage
@@ -43,7 +40,4 @@ A resonant fluxduct works the same way as most other
 [fluxducts](../fluxducts/). It transfers up to 25,000 RF/t per connection.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['td-1-12-fluxduct-super-empty']}
-/>
+<RecipeTable recipes={[tdCrafting.cryoStabilizedFluxductEmpty]} />

@@ -4,10 +4,15 @@ title: Pulverized Gold
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-gold.png', alt: 'Pulverized gold' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedGold }]} />
 
 
 **Pulverized gold** is a raw material. It is the dust form of
@@ -19,32 +24,20 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-gold',
-    'ore-processing-gold',
-    'ore-processing-copper',
-    'ore-processing-mithril',
+    tePulverizer.pulverizedGold,
+    tePulverizer.oreProcessing.gold,
+    tePulverizer.oreProcessing.copper,
+    tePulverizer.oreProcessing.mithril,
   ]}
   noResult
 />
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-petrotheum-ingot-gold',
-    'tf-1-12-petrotheum-ore-gold',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.petrotheum.goldIngot, tfCrafting.petrotheum.goldOre]} noResult />
 
 ### Centrifugal Separator
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-electrum']}
-  noResult
-/>
+<RecipeTable recipes={[teCentrifuge.electrumBlend]} noResult />
 
 ### Smashing
 When [gold ore](https://minecraft.wiki/w/Gold_Ore) is broken using a
@@ -57,27 +50,22 @@ Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-gold-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.goldIngotFromDust]} />
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-dust-gold',
-    'tf-1-12-dust-electrum',
-    'ra-1-12-dust-fluxed-electrum-using-gold-and-silver',
+    tfCrafting.pyrotheum.pulverizedGold,
+    tfCrafting.electrumBlend,
+    raCrafting.fluxedElectrumBlendUsingGoldAndSilver,
   ]}
 />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting-gold',
-    'ingot-electrum-from-dust-gold-and-dust-silver',
-    'ingot-electrum-from-dust-gold-and-ingot-silver',
+    teSmelter.dustSmelting.gold,
+    teSmelter.electrumIngot.pulverizedGoldAndPulverizedSilver,
+    teSmelter.electrumIngot.pulverizedGoldAndSilverIngot,
   ]}
 />

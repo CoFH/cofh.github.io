@@ -4,15 +4,10 @@ title: 'Augment: Alchemical Retort'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-refinery-potion.png',
-      alt: 'Alchemical retort augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentAlchemicalRetort }]} />
 
 An **alchemical retort** is an [augment](../augments/) that allows for a
 [fractionating still](../fractionating-still/) to refine [fluid
@@ -24,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-refinery-potion']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentAlchemicalRetort]} noResult />
 
 
 Usage

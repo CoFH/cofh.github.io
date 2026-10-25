@@ -4,10 +4,14 @@ title: Invar Blend
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-invar.png', alt: 'Invar blend' }]}
-/>
+<PageImage images={[{ item: tf.invarBlend }]} />
 
 
 **Invar blend** is a raw material. It is the dust form of
@@ -18,46 +22,23 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-dust-invar']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.invarBlend]} noResult />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-invar']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.invarBlend]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-hardened-glass-invar']}
-/>
+<RecipeTable recipes={[tfCrafting.hardenedInvarGlass]} />
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-invar-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.invarIngotFromDust]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-invar',
-    'hardened-glass-invar',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.invar, teSmelter.hardenedInvarGlass]} />
 
 ### Centrifugal Separator ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-invar']}
-/>
+<RecipeTable recipes={[teCentrifuge.invarBlend]} />

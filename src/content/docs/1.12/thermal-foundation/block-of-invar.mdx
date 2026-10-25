@@ -4,10 +4,10 @@ title: Block of Invar
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/storage-block-invar.png', alt: 'Block of invar' }]}
-/>
+<PageImage images={[{ item: tf.blockOfInvar }]} />
 
 **Blocks of invar** are blocks made from [invar ingots](../invar-ingot/).
 
@@ -19,11 +19,7 @@ Blocks of invar can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-storage-block-invar']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.blockOfInvar]} noResult />
 
 
 Usage
@@ -41,7 +37,4 @@ Blocks of invar can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-ingot-invar-from-block']}
-/>
+<RecipeTable recipes={[tfCrafting.invarIngot.block]} />

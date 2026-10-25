@@ -4,10 +4,10 @@ title: Shulker Arrow
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ap from '@/data/1.16/archers-paradox/items.ts';
+import apCrafting from '@/data/1.16/archers-paradox/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'archers-paradox-1-16/shulker-arrow.png', alt: 'Shulker Arrow' }]}
-/>
+<PageImage images={[{ item: ap.shulkerArrow }]} />
 
 > Up, up and away!
 
@@ -17,8 +17,4 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ap-1-16-shulker-arrow']}
-  noResult
-/>
+<RecipeTable recipes={[apCrafting.shulkerArrow]} noResult />

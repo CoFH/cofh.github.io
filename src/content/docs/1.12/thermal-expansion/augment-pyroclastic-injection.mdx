@@ -4,15 +4,10 @@ title: 'Augment: Pyroclastic Injection'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-extruder-no-water.gif',
-      alt: 'Pyroclastic injection augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentPyroclasticInjection }]} />
 
 A **pyroclastic injection** [augment](../augments/) allows for an [igneous
 extruder](../igneous-extruder/) to work without cold fluids
@@ -23,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-extruder-no-water']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentPyroclasticInjection]} noResult />
 
 
 Usage

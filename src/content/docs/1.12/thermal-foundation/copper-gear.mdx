@@ -4,10 +4,13 @@ title: Copper Gear
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/gear-copper.png', alt: 'Copper gear' }]}
-/>
+<PageImage images={[{ item: tf.copperGear }]} />
 
 
 **Copper gears** are crafting materials made of [copper](../copper-ingot/).
@@ -17,18 +20,10 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-gear-copper']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.copperGear]} noResult />
 
 ### Compactor with Gearworking Die
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-copper']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorGear.copperGear]} noResult />
 
 
 Usage
@@ -36,30 +31,26 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'te-1-12-machine-furnace',
-    'te-1-12-machine-pulverizer',
-    'te-1-12-machine-sawmill',
-    'te-1-12-machine-smelter',
-    'te-1-12-machine-insolator',
-    'te-1-12-machine-compactor',
-    'te-1-12-machine-crucible',
-    'te-1-12-machine-transposer',
-    'te-1-12-machine-charger',
-    'te-1-12-machine-centrifuge',
-    'te-1-12-machine-crafter',
-    'te-1-12-machine-precipitator',
-    'te-1-12-machine-extruder',
-    'te-1-12-frame-device',
-    'te-1-12-dynamo-steam',
-    'te-1-12-augment-machine-furnace-food',
-    'te-1-12-augment-machine-extruder-no-water',
+    teCrafting.redstoneFurnace,
+    teCrafting.pulverizer,
+    teCrafting.sawmill,
+    teCrafting.inductionSmelter,
+    teCrafting.phytogenicInsolator,
+    teCrafting.compactor,
+    teCrafting.magmaCrucible,
+    teCrafting.fluidTransposer,
+    teCrafting.energeticInfuser,
+    teCrafting.centrifugalSeparator,
+    teCrafting.sequentialFabricator,
+    teCrafting.glacialPrecipitator,
+    teCrafting.igneousExtruder,
+    teCrafting.deviceFrame,
+    teCrafting.steamDynamo,
+    teCrafting.augmentTrivectionChamber,
+    teCrafting.augmentPyroclasticInjection,
   ]}
 />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-gear-copper']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.copperGear]} />

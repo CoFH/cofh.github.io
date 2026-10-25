@@ -4,10 +4,14 @@ title: Bronze Blend
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-bronze.png', alt: 'Bronze blend' }]}
-/>
+<PageImage images={[{ item: tf.bronzeBlend }]} />
 
 
 **Bronze blend** is a raw material. It is the dust form of
@@ -18,46 +22,23 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-dust-bronze']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.bronzeBlend]} noResult />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-bronze']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.bronzeBlend]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-hardened-glass-bronze']}
-/>
+<RecipeTable recipes={[tfCrafting.hardenedBronzeGlass]} />
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-bronze-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.bronzeIngotFromDust]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-bronze',
-    'hardened-glass-bronze',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.bronze, teSmelter.hardenedBronzeGlass]} />
 
 ### Centrifugal Separator ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-bronze']}
-/>
+<RecipeTable recipes={[teCentrifuge.bronzeBlend]} />

@@ -4,12 +4,10 @@ title: Flux-Infused Excavator
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'redstone-arsenal-2/flux-infused-excavator.png', alt: 'Flux-infused excavator' },
-  ]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedExcavator }]} />
 
 A **flux-infused excavator** is a powerful
 [excavator](../../thermal-foundation/excavators/) powered by [Redstone
@@ -20,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-tool-excavator']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedExcavator]} noResult />
 
 
 Usage

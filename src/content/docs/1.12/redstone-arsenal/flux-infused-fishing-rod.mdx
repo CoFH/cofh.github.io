@@ -4,12 +4,10 @@ title: Flux-Infused Fishing Rod
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'redstone-arsenal-2/flux-infused-fishing-rod.png', alt: 'Flux-infused fishing rod' },
-  ]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedFishingRod }]} />
 
 A **flux-infused fishing rod** is a powerful [fishing
 rod](https://minecraft.wiki/w/Fishing_Rod) powered by [Redstone
@@ -20,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-tool-fishing-rod']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedFishingRod]} noResult />
 
 
 Usage

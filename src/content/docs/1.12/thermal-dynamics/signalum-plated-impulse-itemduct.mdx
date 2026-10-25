@@ -4,17 +4,14 @@ title: Signalum-Plated Impulse Itemduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
 
 <PageImage
   images={[
-    {
-      file: 'thermal-dynamics-2/itemduct-signalum-plated-impulse.png',
-      alt: 'Signalum-plated impulse itemduct',
-    },
-    {
-      file: 'thermal-dynamics-2/itemduct-signalum-plated-impulse-opaque.png',
-      alt: 'Signalum-plated impulse itemduct (opaque)',
-    },
+    { item: td.signalumPlatedImpulseItemduct },
+    { item: td.signalumPlatedImpulseItemductOpaque },
   ]}
 />
 
@@ -28,22 +25,18 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-itemduct-energy-fast-one',
-    'td-1-12-itemduct-energy-fast-three',
-    'td-1-12-itemduct-energy-fast-opaque-from-transparent',
-    'td-1-12-itemduct-energy-fast-transparent-from-opaque',
-    'td-1-12-itemduct-energy-fast-dense',
-    'td-1-12-itemduct-energy-fast-vacuum',
+    tdCrafting.signalumPlatedImpulseItemductOne,
+    tdCrafting.signalumPlatedImpulseItemductThree,
+    tdCrafting.signalumPlatedImpulseItemductOpaqueFromTransparent,
+    tdCrafting.signalumPlatedImpulseItemductTransparentFromOpaque,
+    tdCrafting.denseSignalumPlatedImpulseItemduct,
+    tdCrafting.vacuumSignalumPlatedImpulseItemduct,
   ]}
 />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['td-1-12-itemduct-energy-fast']}
-/>
+<RecipeTable recipes={[tdTransposerFill.signalumPlatedImpulseItemduct]} />
 
 
 Usage

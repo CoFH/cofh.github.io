@@ -4,15 +4,17 @@ title: Strongbox
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-expansion-5/strongbox-basic.png', alt: 'Strongbox (Basic)' },
-    { file: 'thermal-expansion-5/strongbox-hardened.png', alt: 'Strongbox (Hardened)' },
-    { file: 'thermal-expansion-5/strongbox-reinforced.png', alt: 'Strongbox (Reinforced)' },
-    { file: 'thermal-expansion-5/strongbox-signalum.png', alt: 'Strongbox (Signalum)' },
-    { file: 'thermal-expansion-5/strongbox-resonant.png', alt: 'Strongbox (Resonant)' },
-    { file: 'thermal-expansion-5/strongbox-creative.png', alt: 'Strongbox (Creative)' },
+    { item: te.strongbox0 },
+    { item: te.strongbox1 },
+    { item: te.strongbox2 },
+    { item: te.strongbox3 },
+    { item: te.strongbox4 },
+    { item: te.strongboxCreative },
   ]}
 />
 
@@ -32,11 +34,7 @@ the item. It can also be mined using a
 slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-strongbox-basic']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.strongbox0]} noResult />
 
 ### Upgrading
 A strongbox is initially at the lowest [tier](#tiers) (basic). It can be

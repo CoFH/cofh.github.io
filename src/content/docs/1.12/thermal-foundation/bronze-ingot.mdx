@@ -4,10 +4,18 @@ title: Bronze Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-bronze.png', alt: 'Bronze ingot' }]}
-/>
+<PageImage images={[{ item: tf.bronzeIngot }]} />
 
 
 **Bronze ingots** are raw materials made from [copper](../copper-ingot/) and
@@ -22,50 +30,38 @@ Bronze can be obtained by combining [copper](../copper-ingot/) and
 or by using an [induction smelter](../../thermal-expansion/induction-smelter/).
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-bronze-from-dust']}
-  noResult
-/>
+<RecipeTable recipes={[tfSmelting.bronzeIngotFromDust]} noResult />
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-ingot-bronze-from-nuggets',
-    'tf-1-12-ingot-bronze-from-block',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.bronzeIngot.nuggets, tfCrafting.bronzeIngot.block]} noResult />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting-bronze',
-    'ingot-bronze-from-dust-copper-and-dust-tin',
-    'ingot-bronze-from-dust-copper-and-ingot-tin',
-    'ingot-bronze-from-ingot-copper-and-dust-tin',
-    'ingot-bronze-from-ingot-copper-and-ingot-tin',
-    'recycling-gear-bronze',
-    'recycling-plate-bronze',
-    'recycling-tool-pickaxe-bronze',
-    'recycling-tool-shovel-bronze',
-    'recycling-tool-axe-bronze',
-    'recycling-tool-hoe-bronze',
-    'recycling-tool-fishing-rod-bronze',
-    'recycling-tool-shears-bronze',
-    'recycling-tool-hammer-bronze',
-    'recycling-tool-excavator-bronze',
-    'recycling-tool-sickle-bronze',
-    'recycling-weapon-sword-bronze',
-    'recycling-weapon-bow-bronze',
-    'recycling-weapon-shield-bronze',
-    'recycling-armor-helmet-bronze',
-    'recycling-armor-chestplate-bronze',
-    'recycling-armor-leggings-bronze',
-    'recycling-armor-boots-bronze',
-    'recycling-horse-armor-bronze',
+    teSmelter.dustSmelting.bronze,
+    teSmelter.bronzeIngot.pulverizedCopperAndPulverizedTin,
+    teSmelter.bronzeIngot.pulverizedCopperAndTinIngot,
+    teSmelter.bronzeIngot.copperIngotAndPulverizedTin,
+    teSmelter.bronzeIngot.copperIngotAndTinIngot,
+    teSmelter.recycling.bronzeGear,
+    teSmelter.recycling.bronzePlate,
+    teSmelter.recycling.bronzePickaxe,
+    teSmelter.recycling.bronzeShovel,
+    teSmelter.recycling.bronzeAxe,
+    teSmelter.recycling.bronzeHoe,
+    teSmelter.recycling.bronzeFishingRod,
+    teSmelter.recycling.bronzeShears,
+    teSmelter.recycling.bronzeHammer,
+    teSmelter.recycling.bronzeExcavator,
+    teSmelter.recycling.bronzeSickle,
+    teSmelter.recycling.bronzeSword,
+    teSmelter.recycling.bronzeReinforcedBow,
+    teSmelter.recycling.bronzeShield,
+    teSmelter.recycling.bronzeHelmet,
+    teSmelter.recycling.bronzeChestplate,
+    teSmelter.recycling.bronzeLeggings,
+    teSmelter.recycling.bronzeBoots,
+    teSmelter.recycling.bronzeHorseArmor,
   ]}
   noResult
 />
@@ -76,56 +72,43 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-nugget-bronze',
-    'tf-1-12-gear-bronze',
-    'tf-1-12-storage-block-bronze',
-    'tf-1-12-signalum-security-lock',
-    'te-1-12-machine-compactor',
-    'te-1-12-augment-machine-secondary',
-    'td-1-12-fluiduct-super',
-    'td-1-12-viaduct-frame',
-    'tf-1-12-tool-pickaxe-bronze',
-    'tf-1-12-tool-shovel-bronze',
-    'tf-1-12-tool-axe-bronze',
-    'tf-1-12-tool-hoe-bronze',
-    'tf-1-12-tool-fishing-rod-bronze',
-    'tf-1-12-tool-shears-bronze',
-    'tf-1-12-tool-hammer-bronze',
-    'tf-1-12-tool-excavator-bronze',
-    'tf-1-12-tool-sickle-bronze',
-    'tf-1-12-weapon-sword-bronze',
-    'tf-1-12-weapon-bow-bronze',
-    'tf-1-12-weapon-shield-bronze',
-    'tf-1-12-armor-helmet-bronze',
-    'tf-1-12-armor-chestplate-bronze',
-    'tf-1-12-armor-leggings-bronze',
-    'tf-1-12-armor-boots-bronze',
-    'tf-1-12-horse-armor-bronze',
+    tfCrafting.bronzeNugget,
+    tfCrafting.bronzeGear,
+    tfCrafting.blockOfBronze,
+    tfCrafting.signalumSecurityLock,
+    teCrafting.compactor,
+    teCrafting.augmentAuxiliarySieve,
+    tdCrafting.superLaminarFluiduct,
+    tdCrafting.viaductUntreated,
+    tfCrafting.bronzePickaxe,
+    tfCrafting.bronzeShovel,
+    tfCrafting.bronzeAxe,
+    tfCrafting.bronzeHoe,
+    tfCrafting.bronzeFishingRod,
+    tfCrafting.bronzeShears,
+    tfCrafting.bronzeHammer,
+    tfCrafting.bronzeExcavator,
+    tfCrafting.bronzeSickle,
+    tfCrafting.bronzeSword,
+    tfCrafting.bronzeReinforcedBow,
+    tfCrafting.bronzeShield,
+    tfCrafting.bronzeHelmet,
+    tfCrafting.bronzeChestplate,
+    tfCrafting.bronzeLeggings,
+    tfCrafting.bronzeBoots,
+    tfCrafting.bronzeHorseArmor,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-bronze']}
-/>
+<RecipeTable recipes={[tePulverizer.bronzeBlend]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-bronze']}
-/>
+<RecipeTable recipes={[teCompactor.bronzePlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-bronze']}
-/>
+<RecipeTable recipes={[teCompactorCoin.bronzeCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-bronze']}
-/>
+<RecipeTable recipes={[teCompactorGear.bronzeGear]} />

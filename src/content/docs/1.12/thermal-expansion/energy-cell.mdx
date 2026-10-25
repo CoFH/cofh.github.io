@@ -4,15 +4,17 @@ title: Energy Cell
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-expansion-5/energy-cell-basic.png', alt: 'Energy cell (Basic)' },
-    { file: 'thermal-expansion-5/energy-cell-hardened.png', alt: 'Energy cell (Hardened)' },
-    { file: 'thermal-expansion-5/energy-cell-reinforced.png', alt: 'Energy cell (Reinforced)' },
-    { file: 'thermal-expansion-5/energy-cell-signalum.png', alt: 'Energy cell (Signalum)' },
-    { file: 'thermal-expansion-5/energy-cell-resonant.png', alt: 'Energy cell (Resonant)' },
-    { file: 'thermal-expansion-5/energy-cell-creative.png', alt: 'Energy cell (Creative)' },
+    { item: te.energyCell0 },
+    { item: te.energyCell1 },
+    { item: te.energyCell2 },
+    { item: te.energyCell3 },
+    { item: te.energyCell4 },
+    { item: te.energyCellCreative },
   ]}
 />
 
@@ -30,13 +32,7 @@ the item. It can also be mined using a
 slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'te-1-12-frame-energy-cell',
-    'te-1-12-energy-cell-basic',
-  ]}
-/>
+<RecipeTable recipes={[teCrafting.energyCellFrame, teCrafting.energyCell0]} />
 
 ### Upgrading
 An energy cell is initially at the lowest [tier](#tiers) (basic). It can be

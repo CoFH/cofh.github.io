@@ -4,10 +4,10 @@ title: Training Arrow
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ap from '@/data/1.16/archers-paradox/items.ts';
+import apCrafting from '@/data/1.16/archers-paradox/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'archers-paradox-1-16/training-arrow.png', alt: 'Training Arrow' }]}
-/>
+<PageImage images={[{ item: ap.trainingArrow }]} />
 
 > Choo choo! Wait wrong kind of train
 
@@ -19,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ap-1-16-training-arrow']}
-  noResult
-/>
+<RecipeTable recipes={[apCrafting.trainingArrow]} noResult />
 
 ### Trading
 Can be bought from Novice level [Fletcher](https://minecraft.wiki/w/Trading#Fletcher) villagers.

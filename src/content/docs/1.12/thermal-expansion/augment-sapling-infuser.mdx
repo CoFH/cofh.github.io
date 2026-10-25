@@ -4,15 +4,11 @@ title: 'Augment: Sapling Infuser'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teInsolatorTree from '@/data/1.12/thermal-expansion/recipes/insolator-tree.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-insolator-tree.png',
-      alt: 'Sapling infuser augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentSaplingInfuser }]} />
 
 A **sapling infuser** is an [augment](../augments/) that allows for a
 [phytogenic insolator](../phytogenic-insolator/) to grow
@@ -23,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-insolator-tree']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentSaplingInfuser]} noResult />
 
 
 Usage
@@ -48,10 +40,9 @@ Recipes
 -------
 
 <RecipeTable
-  type="1.12/thermal-expansion/insolator-tree"
   recipes={[
-    'wood',
-    'wood-rich',
-    'wood-fluxed',
+    teInsolatorTree.wood,
+    teInsolatorTree.woodRich,
+    teInsolatorTree.woodFluxed,
   ]}
 />

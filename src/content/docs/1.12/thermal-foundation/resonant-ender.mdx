@@ -4,10 +4,15 @@ title: Resonant Ender
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/resonant-ender.gif', alt: 'Resonant ender' }]}
-/>
+<PageImage images={[{ item: tfFluids.resonantEnder }]} />
 
 > Wibbly-wobbly, timey-wimey... stuff.
 
@@ -22,25 +27,18 @@ Obtaining
 
 ### Magma Crucible
 <RecipeTable
-  type="1.12/thermal-expansion/crucible"
   recipes={[
-    'ender',
-    'ender-from-clathrate',
-    'fluid-ore-processing-ender',
+    teCrucible.resonantEnder,
+    teCrucible.resonantEnderFromClathrate,
+    teCrucible.fluidOreProcessing.resonantEndStone,
   ]}
 />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-ender']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.resonantEnderBucket]} />
 
 ### Centrifugal Separator
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-enderium']}
-/>
+<RecipeTable recipes={[teCentrifuge.enderiumBlend]} />
 
 
 Usage
@@ -64,21 +62,14 @@ Any item that contains at least one
 [bucket](https://minecraft.wiki/w/Bucket) worth of resonant ender may be
 used in these recipes.
 
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-ender-pearl-from-fluid',
-    'tf-1-12-dust-enderium',
-  ]}
-/>
+<RecipeTable recipes={[tfCrafting.enderPearl.fluid, tfCrafting.enderiumBlend]} />
 
 ### Fluid Transposer ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
   recipes={[
-    'bucket-ender',
-    'ender-pearl-from-fluid',
-    'td-1-12-viaduct-long-range-linking',
+    teTransposerFill.resonantEnderBucket,
+    teTransposerFill.enderPearl.fluid,
+    tdTransposerFill.longRangeLinkingViaduct,
   ]}
 />
 

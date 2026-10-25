@@ -4,21 +4,24 @@ title: Hoes
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/hoe-copper.png', alt: 'Copper hoe' },
-    { file: 'thermal-foundation-2/hoe-tin.png', alt: 'Tin hoe' },
-    { file: 'thermal-foundation-2/hoe-silver.png', alt: 'Silver hoe' },
-    { file: 'thermal-foundation-2/hoe-lead.png', alt: 'Lead hoe' },
-    { file: 'thermal-foundation-2/hoe-aluminum.png', alt: 'Aluminum hoe' },
-    { file: 'thermal-foundation-2/hoe-nickel.png', alt: 'Nickel hoe' },
-    { file: 'thermal-foundation-2/hoe-platinum.png', alt: 'Platinum hoe' },
-    { file: 'thermal-foundation-2/hoe-steel.png', alt: 'Steel hoe' },
-    { file: 'thermal-foundation-2/hoe-electrum.png', alt: 'Electrum hoe' },
-    { file: 'thermal-foundation-2/hoe-invar.png', alt: 'Invar hoe' },
-    { file: 'thermal-foundation-2/hoe-bronze.png', alt: 'Bronze hoe' },
-    { file: 'thermal-foundation-2/hoe-constantan.png', alt: 'Constantan hoe' },
+    { item: tf.copperHoe },
+    { item: tf.tinHoe },
+    { item: tf.silverHoe },
+    { item: tf.leadHoe },
+    { item: tf.aluminumHoe },
+    { item: tf.nickelHoe },
+    { item: tf.platinumHoe },
+    { item: tf.steelHoe },
+    { item: tf.electrumHoe },
+    { item: tf.invarHoe },
+    { item: tf.bronzeHoe },
+    { item: tf.constantanHoe },
   ]}
 />
 
@@ -33,20 +36,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-tool-hoe-copper',
-    'tf-1-12-tool-hoe-tin',
-    'tf-1-12-tool-hoe-silver',
-    'tf-1-12-tool-hoe-lead',
-    'tf-1-12-tool-hoe-aluminum',
-    'tf-1-12-tool-hoe-nickel',
-    'tf-1-12-tool-hoe-platinum',
-    'tf-1-12-tool-hoe-steel',
-    'tf-1-12-tool-hoe-electrum',
-    'tf-1-12-tool-hoe-invar',
-    'tf-1-12-tool-hoe-bronze',
-    'tf-1-12-tool-hoe-constantan',
+    tfCrafting.copperHoe,
+    tfCrafting.tinHoe,
+    tfCrafting.silverHoe,
+    tfCrafting.leadHoe,
+    tfCrafting.aluminumHoe,
+    tfCrafting.nickelHoe,
+    tfCrafting.platinumHoe,
+    tfCrafting.steelHoe,
+    tfCrafting.electrumHoe,
+    tfCrafting.invarHoe,
+    tfCrafting.bronzeHoe,
+    tfCrafting.constantanHoe,
   ]}
 />
 
@@ -89,19 +91,18 @@ uses = mat.maxUses
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-tool-hoe-copper',
-    'recycling-tool-hoe-tin',
-    'recycling-tool-hoe-silver',
-    'recycling-tool-hoe-lead',
-    'recycling-tool-hoe-aluminum',
-    'recycling-tool-hoe-nickel',
-    'recycling-tool-hoe-platinum',
-    'recycling-tool-hoe-steel',
-    'recycling-tool-hoe-electrum',
-    'recycling-tool-hoe-invar',
-    'recycling-tool-hoe-bronze',
-    'recycling-tool-hoe-constantan',
+    teSmelter.recycling.copperHoe,
+    teSmelter.recycling.tinHoe,
+    teSmelter.recycling.silverHoe,
+    teSmelter.recycling.leadHoe,
+    teSmelter.recycling.aluminumHoe,
+    teSmelter.recycling.nickelHoe,
+    teSmelter.recycling.platinumHoe,
+    teSmelter.recycling.steelHoe,
+    teSmelter.recycling.electrumHoe,
+    teSmelter.recycling.invarHoe,
+    teSmelter.recycling.bronzeHoe,
+    teSmelter.recycling.constantanHoe,
   ]}
 />

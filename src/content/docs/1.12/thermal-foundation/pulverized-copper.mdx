@@ -4,10 +4,14 @@ title: Pulverized Copper
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-copper.png', alt: 'Pulverized copper' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedCopper }]} />
 
 
 **Pulverized copper** is a raw material. It is the dust form of
@@ -19,31 +23,28 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-copper',
-    'ore-processing-copper',
+    tePulverizer.pulverizedCopper,
+    tePulverizer.oreProcessing.copper,
   ]}
   noResult
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-copper',
-    'tf-1-12-petrotheum-ore-copper',
+    tfCrafting.petrotheum.copperIngot,
+    tfCrafting.petrotheum.copperOre,
   ]}
   noResult
 />
 
 ### Centrifugal Separator
 <RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
   recipes={[
-    'dust-bronze',
-    'dust-constantan',
-    'dust-signalum',
+    teCentrifuge.bronzeBlend,
+    teCentrifuge.constantanBlend,
+    teCentrifuge.signalumBlend,
   ]}
   noResult
 />
@@ -59,32 +60,27 @@ Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-copper-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.copperIngotFromDust]} />
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-dust-copper',
-    'tf-1-12-dust-bronze',
-    'tf-1-12-dust-constantan',
-    'tf-1-12-dust-signalum',
-    'tf-1-12-hardened-glass-copper',
+    tfCrafting.pyrotheum.pulverizedCopper,
+    tfCrafting.bronzeBlend,
+    tfCrafting.constantanBlend,
+    tfCrafting.signalumBlend,
+    tfCrafting.hardenedCopperGlass,
   ]}
 />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting-copper',
-    'ingot-bronze-from-dust-copper-and-dust-tin',
-    'ingot-bronze-from-dust-copper-and-ingot-tin',
-    'ingot-constantan-from-dust-copper-and-dust-nickel',
-    'ingot-constantan-from-dust-copper-and-ingot-nickel',
-    'hardened-glass-copper',
+    teSmelter.dustSmelting.copper,
+    teSmelter.bronzeIngot.pulverizedCopperAndPulverizedTin,
+    teSmelter.bronzeIngot.pulverizedCopperAndTinIngot,
+    teSmelter.constantanIngot.pulverizedCopperAndPulverizedNickel,
+    teSmelter.constantanIngot.pulverizedCopperAndNickelIngot,
+    teSmelter.hardenedCopperGlass,
   ]}
 />

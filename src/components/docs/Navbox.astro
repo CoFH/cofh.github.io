@@ -5,9 +5,10 @@ import NavboxLink from './NavboxLink.astro';
 
 interface Props {
   nav: DocNav;
+  path: string;
 }
 
-const { nav } = Astro.props;
+const { nav, path } = Astro.props;
 ---
 
 <div class="cofh-navbox-container">
@@ -15,7 +16,7 @@ const { nav } = Astro.props;
     <tbody>
       <tr>
         <th colspan="2" class="cofh-navbox-title">
-          <NavboxLink url={nav.url} text={nav.title} icon={undefined} />
+          <NavboxLink href={`/docs/${path}/`} text={nav.title} icon={undefined} />
         </th>
       </tr>
 
@@ -30,7 +31,7 @@ const { nav } = Astro.props;
           )}
 
           {section.groups.map((group) => (
-            <NavboxGroup group={group} urlPrefix={nav.url} />
+            <NavboxGroup group={group} path={path} />
           ))}
         </>
       ))}
@@ -86,10 +87,7 @@ const { nav } = Astro.props;
   }
 
   .cofh-navbox-icon {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-image: var(--cofh-navbox-icon-sheet);
+    vertical-align: baseline;
     position: relative;
     top: 3px;
   }

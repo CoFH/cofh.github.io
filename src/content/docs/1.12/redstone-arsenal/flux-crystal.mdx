@@ -4,10 +4,11 @@ title: Flux Crystal
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
+import raTransposerFill from '@/data/1.12/redstone-arsenal/recipes/transposer-fill.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-crystal.gif', alt: 'Flux crystal' }]}
-/>
+<PageImage images={[{ item: ra.fluxCrystal }]} />
 
 **Flux crystals** are raw materials made from
 [diamonds](https://minecraft.wiki/w/Diamond) and [destabilized
@@ -18,21 +19,10 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'ra-1-12-flux-crystal',
-    'ra-1-12-flux-crystal-from-block',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxCrystal, raCrafting.fluxCrystalFromBlock]} noResult />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['ra-1-12-flux-crystal']}
-  noResult
-/>
+<RecipeTable recipes={[raTransposerFill.fluxCrystal]} noResult />
 
 
 Usage
@@ -40,13 +30,12 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ra-1-12-storage-block-flux-crystal',
-    'ra-1-12-obsidian-rod-flux-infused',
-    'ra-1-12-fluxed-armor-plating',
-    'ra-1-12-weapon-quiver',
-    'ra-1-12-weapon-shield',
+    raCrafting.fluxCrystalBlock,
+    raCrafting.fluxInfusedObsidianRod,
+    raCrafting.fluxedArmorPlating,
+    raCrafting.fluxInfusedQuiver,
+    raCrafting.fluxInfusedShield,
   ]}
 />
 

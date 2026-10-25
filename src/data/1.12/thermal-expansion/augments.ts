@@ -1,8 +1,10 @@
 import type { Augment } from '../../types.ts';
+import te from './items.ts';
 
 export default {
   'machine-power': {
     name: 'Auxiliary Reception Coil',
+    item: te.augmentAuxiliaryReceptionCoil,
     url: 'augment-auxiliary-reception-coil/',
     installedIn: 'Any <a href="/docs/1.12/thermal-expansion/machines/">machine</a>',
     description:
@@ -10,6 +12,7 @@ export default {
   },
   'machine-secondary': {
     name: 'Auxiliary Sieve',
+    item: te.augmentAuxiliarySieve,
     url: 'augment-auxiliary-sieve/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/machines/">Machines</a> with<br /> secondary products',
@@ -18,8 +21,8 @@ export default {
   },
   'machine-secondary-null': {
     name: 'Nullification Chamber',
+    item: te.augmentNullificationChamber,
     url: 'augment-nullification-chamber/',
-    animated: true,
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/machines/">Machines</a> with<br /> secondary products',
     description:
@@ -27,6 +30,7 @@ export default {
   },
   'machine-furnace-food': {
     name: 'Trivection Chamber',
+    item: te.augmentTrivectionChamber,
     url: 'augment-trivection-chamber/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/redstone-furnace/">Redstone Furnace</a>',
     description:
@@ -34,6 +38,7 @@ export default {
   },
   'machine-furnace-ore': {
     name: 'Flux Anodizers',
+    item: te.augmentFluxAnodizers,
     url: 'augment-flux-anodizers/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/redstone-furnace/">Redstone Furnace</a>',
     description:
@@ -41,6 +46,7 @@ export default {
   },
   'machine-furnace-pyrolysis': {
     name: 'Pyrolytic Conversion',
+    item: te.augmentPyrolyticConversion,
     url: 'augment-pyrolytic-conversion/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/redstone-furnace/">Redstone Furnace</a>',
     description:
@@ -48,22 +54,23 @@ export default {
   },
   'machine-pulverizer-petrotheum': {
     name: 'Tectonic Initiator',
+    item: te.augmentTectonicInitiator,
     url: 'augment-tectonic-initiator/',
-    animated: true,
     installedIn: '<a href="/docs/1.12/thermal-expansion/pulverizer/">Pulverizer</a>',
     description:
       'A specialization that allows for a pulverizer to process ores more efficiently using <a href="/docs/1.12/thermal-foundation/tectonic-petrotheum/">tectonic petrotheum</a>. 100 mB of petrotheum is consumed per ore.',
   },
   'machine-sawmill-tapper': {
     name: 'Resin Funnel',
+    item: te.augmentResinFunnel,
     url: 'augment-resin-funnel/',
-    animated: true,
     installedIn: '<a href="/docs/1.12/thermal-expansion/sawmill/">Sawmill</a>',
     description:
       'A specialization that allows for a sawmill to extract fluids from <a href="https://minecraft.wiki/w/Wood">wood</a> while processing it, like <a href="/docs/1.12/thermal-foundation/resin/">resin</a> and <a href="/docs/1.12/thermal-foundation/sap/">sap</a>.',
   },
   'machine-smelter-flux': {
     name: 'Metallurgical Recovery',
+    item: te.augmentMetallurgicalRecovery,
     url: 'augment-metallurgical-recovery/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/induction-smelter/">Induction Smelter</a>',
     description:
@@ -71,14 +78,15 @@ export default {
   },
   'machine-smelter-pyrotheum': {
     name: 'Pyro-Concentrator',
+    item: te.augmentPyroConcentrator,
     url: 'augment-pyro-concentrator/',
-    animated: true,
     installedIn: '<a href="/docs/1.12/thermal-expansion/induction-smelter/">Induction Smelter</a>',
     description:
       'A specialization that allows for an induction smelter to process ores more efficiently using <a href="/docs/1.12/thermal-foundation/blazing-pyrotheum/">blazing pyrotheum</a>. 100 mB of pyrotheum is consumed per ore.',
   },
   'machine-insolator-fertilizer': {
     name: 'Nutrient Recovery',
+    item: te.augmentNutrientRecovery,
     url: 'augment-nutrient-recovery/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/phytogenic-insolator/">Phytogenic Insolator</a>',
@@ -87,6 +95,7 @@ export default {
   },
   'machine-insolator-tree': {
     name: 'Sapling Infuser',
+    item: te.augmentSaplingInfuser,
     url: 'augment-sapling-infuser/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/phytogenic-insolator/">Phytogenic Insolator</a>',
@@ -95,8 +104,8 @@ export default {
   },
   'machine-insolator-monoculture': {
     name: 'Monoculture Cycle',
+    item: te.augmentMonocultureCycle,
     url: 'augment-monoculture-cycle/',
-    animated: true,
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/phytogenic-insolator/">Phytogenic Insolator</a>',
     description:
@@ -104,6 +113,7 @@ export default {
   },
   'machine-compactor-coin': {
     name: 'Numismatic Press',
+    item: te.augmentNumismaticPress,
     url: 'augment-numismatic-press/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/compactor/">Compactor</a>',
     description:
@@ -111,20 +121,22 @@ export default {
   },
   'machine-compactor-gear': {
     name: 'Gearworking Die',
+    item: te.augmentGearworkingDie,
     url: 'augment-gearworking-die/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/compactor/">Compactor</a>',
     description: 'A specialization that allows for a compactor to produce gears instead of plates.',
   },
   'machine-crucible-lava': {
     name: 'Pyroconvective Loop',
+    item: te.augmentPyroconvectiveLoop,
     url: 'augment-pyroconvective-loop/',
-    animated: true,
     installedIn: '<a href="/docs/1.12/thermal-expansion/magma-crucible/">Magma Crucible</a>',
     description:
       'A specialization that increases a magma crucible\'s maximum power usage (speed) by a factor of 10. However, a crucible can only produce <a href="https://minecraft.wiki/w/Lava">lava</a> when installed.',
   },
   'machine-refinery-oil': {
     name: 'Reflux Column',
+    item: te.augmentRefluxColumn,
     url: 'augment-reflux-column/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/fractionating-still/">Fractionating Still</a>',
@@ -133,6 +145,7 @@ export default {
   },
   'machine-refinery-potion': {
     name: 'Alchemical Retort',
+    item: te.augmentAlchemicalRetort,
     url: 'augment-alchemical-retort/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/fractionating-still/">Fractionating Still</a>',
@@ -141,6 +154,7 @@ export default {
   },
   'machine-charger-throughput': {
     name: 'Flux Linkage Concentrator',
+    item: te.augmentFluxLinkageConcentrator,
     url: 'augment-flux-linkage-concentrator/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/energetic-infuser/">Energetic Infuser</a>',
     description:
@@ -148,6 +162,7 @@ export default {
   },
   'machine-charger-repair': {
     name: 'Flux Reconstruction',
+    item: te.augmentFluxReconstruction,
     url: 'augment-flux-reconstruction/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/energetic-infuser/">Energetic Infuser</a>',
     description:
@@ -155,6 +170,7 @@ export default {
   },
   'machine-charger-wireless': {
     name: 'Parabolic Flux Coupling',
+    item: te.augmentParabolicFluxCoupling,
     url: 'augment-parabolic-flux-coupling/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/energetic-infuser/">Energetic Infuser</a>',
     description:
@@ -162,6 +178,7 @@ export default {
   },
   'machine-centrifuge-mobs': {
     name: 'Enstabulation Apparatus',
+    item: te.augmentEnstabulationApparatus,
     url: 'augment-enstabulation-apparatus/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/centrifugal-separator/">Centrifugal Separator</a>',
@@ -170,8 +187,8 @@ export default {
   },
   'machine-crafter-input': {
     name: 'Pattern Validation',
+    item: te.augmentPatternValidation,
     url: 'augment-pattern-validation/',
-    animated: true,
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/sequential-fabricator/">Sequential Fabricator</a>',
     description:
@@ -179,6 +196,7 @@ export default {
   },
   'machine-crafter-tank': {
     name: 'Fluidic Fabrication',
+    item: te.augmentFluidicFabrication,
     url: 'augment-fluidic-fabrication/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/sequential-fabricator/">Sequential Fabricator</a>',
@@ -187,6 +205,7 @@ export default {
   },
   'machine-brewer-reagent': {
     name: 'Reagent Recovery',
+    item: te.augmentReagentRecovery,
     url: 'augment-reagent-recovery/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/alchemical-imbuer/">Alchemical Imbuer</a>',
     description:
@@ -194,22 +213,23 @@ export default {
   },
   'machine-extruder-no-water': {
     name: 'Pyroclastic Injection',
+    item: te.augmentPyroclasticInjection,
     url: 'augment-pyroclastic-injection/',
-    animated: true,
     installedIn: '<a href="/docs/1.12/thermal-expansion/igneous-extruder/">Igneous Extruder</a>',
     description:
       'A specialization that allows for an igneous extruder to work without cold fluids (<a href="https://minecraft.wiki/w/Water">water</a>), so that only hot fluids (<a href="https://minecraft.wiki/w/Lava">lava</a>) are required.',
   },
   'machine-extruder-sedimentary': {
     name: 'Clastic Deposition',
+    item: te.augmentClasticDeposition,
     url: 'augment-clastic-deposition/',
-    animated: true,
     installedIn: '<a href="/docs/1.12/thermal-expansion/igneous-extruder/">Igneous Extruder</a>',
     description:
       'A specialization that allows for an igneous extruder to produce sedimentary rock, such as <a href="https://minecraft.wiki/w/Sand">sand</a> or <a href="https://minecraft.wiki/w/Gravel">gravel</a>. However, an igneous extruder can only produce sedimentary rock when installed.',
   },
   'dynamo-power': {
     name: 'Auxiliary Transmission Coil',
+    item: te.augmentAuxiliaryTransmissionCoil,
     url: 'augment-auxiliary-transmission-coil/',
     installedIn: 'Any <a href="/docs/1.12/thermal-expansion/dynamos/">dynamo</a>',
     description:
@@ -217,14 +237,15 @@ export default {
   },
   'dynamo-efficiency': {
     name: 'Fuel Catalyzer',
+    item: te.augmentFuelCatalyzer,
     url: 'augment-fuel-catalyzer/',
-    animated: true,
     installedIn: 'Any <a href="/docs/1.12/thermal-expansion/dynamos/">dynamo</a>',
     description:
       'Increases the amount of energy a dynamo generates from each unit of fuel. Can be installed multiple times.',
   },
   'dynamo-coil-duct': {
     name: 'Transmission Coil Ducting',
+    item: te.augmentTransmissionCoilDucting,
     url: 'augment-transmission-coil-ducting/',
     installedIn: 'Any <a href="/docs/1.12/thermal-expansion/dynamos/">dynamo</a>',
     description:
@@ -232,6 +253,7 @@ export default {
   },
   'dynamo-throttle': {
     name: 'Excitation Field Limiter',
+    item: te.augmentExcitationFieldLimiter,
     url: 'augment-excitation-field-limiter/',
     installedIn: 'Any <a href="/docs/1.12/thermal-expansion/dynamos/">dynamo</a>',
     description:
@@ -239,8 +261,8 @@ export default {
   },
   'dynamo-boiler': {
     name: 'Boiler Conversion',
+    item: te.augmentBoilerConversion,
     url: 'augment-boiler-conversion/',
-    animated: true,
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/steam-dynamo/">Steam Dynamo</a> or<br /> <a href="/docs/1.12/thermal-expansion/magmatic-dynamo/">Magmatic Dynamo</a> or<br /> <a href="/docs/1.12/thermal-expansion/compression-dynamo/">Compression Dynamo</a>',
     description:
@@ -248,6 +270,7 @@ export default {
   },
   'dynamo-steam-turbine': {
     name: 'Turbine Conversion',
+    item: te.augmentTurbineConversion,
     url: 'augment-turbine-conversion/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/steam-dynamo/">Steam Dynamo</a>',
     description:
@@ -255,6 +278,7 @@ export default {
   },
   'dynamo-magmatic-coolant': {
     name: 'Isentropic Reservoir',
+    item: te.augmentIsentropicReservoir,
     url: 'augment-isentropic-reservoir/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/magmatic-dynamo/">Magmatic Dynamo</a>',
     description:
@@ -262,6 +286,7 @@ export default {
   },
   'dynamo-compression-coolant': {
     name: 'Closed-Loop Cooling',
+    item: te.augmentClosedLoopCooling,
     url: 'augment-closed-loop-cooling/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/compression-dynamo/">Compression Dynamo</a>',
@@ -270,6 +295,7 @@ export default {
   },
   'dynamo-compression-fuel': {
     name: 'Ignition Plugs',
+    item: te.augmentIgnitionPlugs,
     url: 'augment-ignition-plugs/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/compression-dynamo/">Compression Dynamo</a>',
@@ -278,6 +304,7 @@ export default {
   },
   'dynamo-compression-biofuel': {
     name: 'Agitative Manifold',
+    item: te.augmentAgitativeManifold,
     url: 'augment-agitative-manifold/',
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/compression-dynamo/">Compression Dynamo</a>',
@@ -286,6 +313,7 @@ export default {
   },
   'dynamo-reactant-elemental': {
     name: 'Elemental Catalyzer',
+    item: te.augmentElementalCatalyzer,
     url: 'augment-elemental-catalyzer/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/reactant-dynamo/">Reactant Dynamo</a>',
     description:
@@ -293,6 +321,7 @@ export default {
   },
   'dynamo-enervation-enchant': {
     name: 'Disjunctive Extraction',
+    item: te.augmentDisjunctiveExtraction,
     url: 'augment-disjunctive-extraction/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/enervation-dynamo/">Enervation Dynamo</a>',
     description:
@@ -300,6 +329,7 @@ export default {
   },
   'dynamo-numismatic-gem': {
     name: 'Lapidary Calibration',
+    item: te.augmentLapidaryCalibration,
     url: 'augment-lapidary-calibration/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/numismatic-dynamo/">Numismatic Dynamo</a>',
     description:

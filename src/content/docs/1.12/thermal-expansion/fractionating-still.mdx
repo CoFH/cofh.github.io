@@ -5,10 +5,11 @@ title: Fractionating Still
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teRefinery from '@/data/1.12/thermal-expansion/recipes/refinery.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/fractionating-still.png', alt: 'Fractionating still' }]}
-/>
+<PageImage images={[{ item: te.fractionatingStill }]} />
 
 > Products may or may not be drinkable.
 
@@ -26,11 +27,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-refinery']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.fractionatingStill]} noResult />
 
 ### Upgrading
 A fractionating still is initially at the lowest [tier](#tiers) (basic). It can
@@ -184,12 +181,11 @@ Recipes
 -------
 
 <RecipeTable
-  type="1.12/thermal-expansion/refinery"
   recipes={[
-    'naphtha-from-coal',
-    'naphtha-from-crude-oil',
-    'refined-fuel',
-    'tree-oil',
-    'grassoline',
+    teRefinery.naphtha.liquifactedCoal,
+    teRefinery.naphtha.crudeOil,
+    teRefinery.refinedFuel,
+    teRefinery.treeOil,
+    teRefinery.grassoline,
   ]}
 />

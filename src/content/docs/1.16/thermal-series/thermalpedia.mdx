@@ -4,10 +4,10 @@ title: Thermalpedia
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ts from '@/data/1.16/thermal-series/items.ts';
+import tsCrafting from '@/data/1.16/thermal-series/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-1-16/thermalpedia.png', alt: 'Thermalpedia' }]}
-/>
+<PageImage images={[{ item: ts.thermalpedia }]} />
 
 The **Thermalpedia** is an item that can be obtained in game provided you have [Patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli) installed. This guidebook tells you about all the new features of 1.16!
 **:•)**
@@ -17,9 +17,5 @@ Obtaining
 
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ts-1-16-thermalpedia']}
-  noResult
-/>
+<RecipeTable recipes={[tsCrafting.thermalpedia]} noResult />
 

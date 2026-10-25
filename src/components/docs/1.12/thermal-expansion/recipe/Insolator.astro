@@ -1,0 +1,24 @@
+---
+import type { Recipe } from '../../../../../data/types.ts';
+import Chance from '../../../recipe/Chance.astro';
+import { asSlot, asTank } from '../../../recipe/narrow.ts';
+import RecipeFrame from '../../../recipe/RecipeFrame.astro';
+import Slot from '../../../recipe/Slot.astro';
+import Tank from '../../../recipe/Tank.astro';
+import background from './insolator.png';
+
+interface Props {
+  recipe: Recipe;
+}
+
+const { recipe } = Astro.props;
+---
+
+<RecipeFrame background={background}>
+  <Slot data={asSlot(recipe.inputs[0])} top={32} left={10} />
+  <Slot data={asSlot(recipe.inputs[1])} top={32} left={54} />
+  <Tank data={asTank(recipe.inputs[2])} top={10} left={210} size={10000} />
+  <Slot data={asSlot(recipe.outputs[0])} top={34} left={158} />
+  <Slot data={asSlot(recipe.outputs[1])} top={86} left={158} />
+  <Chance value={asSlot(recipe.outputs[1])?.chance} top={96} right={100} align="right" />
+</RecipeFrame>

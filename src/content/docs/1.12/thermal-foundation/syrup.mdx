@@ -4,10 +4,11 @@ title: Syrup
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/syrup.gif', alt: 'Syrup' }]}
-/>
+<PageImage images={[{ item: tfFluids.syrup }]} />
 
 
 **Syrup** is a fluid that currently cannot be obtained and is not used for
@@ -18,10 +19,7 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-syrup']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.syrupBucket]} />
 
 
 Usage
@@ -30,7 +28,4 @@ Usage
 Syrup cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-syrup']}
-/>
+<RecipeTable recipes={[teTransposerFill.syrupBucket]} />

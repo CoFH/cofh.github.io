@@ -4,18 +4,17 @@ title: Flux Capacitor
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-expansion-5/flux-capacitor-basic.png', alt: 'Flux capacitor (Basic)' },
-    { file: 'thermal-expansion-5/flux-capacitor-hardened.png', alt: 'Flux capacitor (Hardened)' },
-    {
-      file: 'thermal-expansion-5/flux-capacitor-reinforced.png',
-      alt: 'Flux capacitor (Reinforced)',
-    },
-    { file: 'thermal-expansion-5/flux-capacitor-signalum.png', alt: 'Flux capacitor (Signalum)' },
-    { file: 'thermal-expansion-5/flux-capacitor-resonant.png', alt: 'Flux capacitor (Resonant)' },
-    { file: 'thermal-expansion-5/flux-capacitor-creative.png', alt: 'Flux capacitor (Creative)' },
+    { item: te.fluxCapacitor0 },
+    { item: te.fluxCapacitor1 },
+    { item: te.fluxCapacitor2 },
+    { item: te.fluxCapacitor3 },
+    { item: te.fluxCapacitor4 },
+    { item: te.fluxCapacitorCreative },
   ]}
 />
 
@@ -29,13 +28,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'te-1-12-flux-capacitor-basic',
-    'te-1-12-flux-capacitor-hardened',
-    'te-1-12-flux-capacitor-reinforced',
-    'te-1-12-flux-capacitor-signalum',
-    'te-1-12-flux-capacitor-resonant',
+    teCrafting.fluxCapacitor0,
+    teCrafting.fluxCapacitor1,
+    teCrafting.fluxCapacitor2,
+    teCrafting.fluxCapacitor3,
+    teCrafting.fluxCapacitor4,
   ]}
 />
 

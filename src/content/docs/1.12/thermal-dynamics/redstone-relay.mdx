@@ -4,10 +4,10 @@ title: Redstone Relay
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-dynamics-2/redstone-relay.png', alt: 'Redstone relay' }]}
-/>
+<PageImage images={[{ item: td.redstoneRelay }]} />
 
 A **redstone relay** is an item that can be installed on
 [fluxducts](../fluxducts/), [fluiducts](../fluiduct/),
@@ -20,11 +20,7 @@ Obtaining
 --------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['td-1-12-redstone-relay']}
-  noResult
-/>
+<RecipeTable recipes={[tdCrafting.redstoneRelay]} noResult />
 
 
 Usage

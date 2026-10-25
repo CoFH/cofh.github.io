@@ -4,12 +4,10 @@ title: 'Augment: Reflux Column'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-expansion-5/augment-machine-refinery-oil.png', alt: 'Reflux column augment' },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentRefluxColumn }]} />
 
 A **reflux column** is an [augment](../augments/) that increases the
 conversion efficiency of a [fractionating still](../fractionating-still/)
@@ -20,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-refinery-oil']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentRefluxColumn]} noResult />
 
 
 Usage

@@ -4,16 +4,10 @@ title: Super-Laminar Fluiduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-dynamics-2/fluiduct-super-laminar.png', alt: 'Super-laminar fluiduct' },
-    {
-      file: 'thermal-dynamics-2/fluiduct-super-laminar-opaque.png',
-      alt: 'Super-laminar fluiduct (opaque)',
-    },
-  ]}
-/>
+<PageImage images={[{ item: td.superLaminarFluiduct }, { item: td.superLaminarFluiductOpaque }]} />
 
 A **super-laminar fluiduct** is a type of [fluiduct](../fluiduct/) that can
 transfer any amount of fluid.
@@ -24,11 +18,10 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-fluiduct-super',
-    'td-1-12-fluiduct-super-opaque-from-transparent',
-    'td-1-12-fluiduct-super-transparent-from-opaque',
+    tdCrafting.superLaminarFluiduct,
+    tdCrafting.superLaminarFluiductOpaqueFromTransparent,
+    tdCrafting.superLaminarFluiductTransparentFromOpaque,
   ]}
 />
 

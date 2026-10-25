@@ -4,10 +4,11 @@ title: Platinum Plate
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/plate-platinum.png', alt: 'Platinum plate' }]}
-/>
+<PageImage images={[{ item: tf.platinumPlate }]} />
 
 
 **Platinum plates** are crafting materials made of
@@ -18,18 +19,11 @@ Obtaining
 ---------
 
 ### Compactor
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-platinum']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactor.platinumPlate]} noResult />
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-plate-platinum']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.platinumPlate]} />

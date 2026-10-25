@@ -4,10 +4,16 @@ title: Aluminum Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-aluminum.png', alt: 'Aluminum ingot' }]}
-/>
+<PageImage images={[{ item: tf.aluminumIngot }]} />
 
 
 **Aluminum ingots** are raw materials obtained from [aluminum
@@ -20,54 +26,51 @@ Obtaining
 
 ### Smelting
 <RecipeTable
-  type="smelting"
   recipes={[
-    'tf-1-12-ore-processing-aluminum',
-    'tf-1-12-ingot-aluminum-from-dust',
+    tfSmelting.oreProcessing.aluminum,
+    tfSmelting.aluminumIngotFromDust,
   ]}
   noResult
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-aluminum',
-    'tf-1-12-petrotheum-pyrotheum-ore-aluminum',
-    'tf-1-12-pyrotheum-dust-aluminum',
-    'tf-1-12-ingot-aluminum-from-nuggets',
-    'tf-1-12-ingot-aluminum-from-block',
+    tfCrafting.pyrotheum.aluminumOre,
+    tfCrafting.petrotheumPyrotheum.aluminumOre,
+    tfCrafting.pyrotheum.pulverizedAluminum,
+    tfCrafting.aluminumIngot.nuggets,
+    tfCrafting.aluminumIngot.block,
   ]}
   noResult
 />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-aluminum',
-    'ore-processing-rich-slag-aluminum',
-    'ore-processing-cinnabar-aluminum',
-    'dust-smelting-aluminum',
-    'recycling-gear-aluminum',
-    'recycling-plate-aluminum',
-    'recycling-tool-pickaxe-aluminum',
-    'recycling-tool-shovel-aluminum',
-    'recycling-tool-axe-aluminum',
-    'recycling-tool-hoe-aluminum',
-    'recycling-tool-fishing-rod-aluminum',
-    'recycling-tool-shears-aluminum',
-    'recycling-tool-hammer-aluminum',
-    'recycling-tool-excavator-aluminum',
-    'recycling-tool-sickle-aluminum',
-    'recycling-weapon-sword-aluminum',
-    'recycling-weapon-bow-aluminum',
-    'recycling-weapon-shield-aluminum',
-    'recycling-armor-helmet-aluminum',
-    'recycling-armor-chestplate-aluminum',
-    'recycling-armor-leggings-aluminum',
-    'recycling-armor-boots-aluminum',
-    'recycling-horse-armor-aluminum',
+    teSmelter.oreProcessing.aluminum,
+    teSmelter.oreProcessingRichSlag.aluminum,
+    teSmelter.oreProcessingCinnabar.aluminum,
+    teSmelter.dustSmelting.aluminum,
+    teSmelter.recycling.aluminumGear,
+    teSmelter.recycling.aluminumPlate,
+    teSmelter.recycling.aluminumPickaxe,
+    teSmelter.recycling.aluminumShovel,
+    teSmelter.recycling.aluminumAxe,
+    teSmelter.recycling.aluminumHoe,
+    teSmelter.recycling.aluminumFishingRod,
+    teSmelter.recycling.aluminumShears,
+    teSmelter.recycling.aluminumHammer,
+    teSmelter.recycling.aluminumExcavator,
+    teSmelter.recycling.aluminumSickle,
+    teSmelter.recycling.aluminumSword,
+    teSmelter.recycling.aluminumReinforcedBow,
+    teSmelter.recycling.aluminumShield,
+    teSmelter.recycling.aluminumHelmet,
+    teSmelter.recycling.aluminumChestplate,
+    teSmelter.recycling.aluminumLeggings,
+    teSmelter.recycling.aluminumBoots,
+    teSmelter.recycling.aluminumHorseArmor,
   ]}
   noResult
 />
@@ -78,52 +81,39 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-aluminum',
-    'tf-1-12-nugget-aluminum',
-    'tf-1-12-gear-aluminum',
-    'tf-1-12-storage-block-aluminum',
-    'tf-1-12-tool-pickaxe-aluminum',
-    'tf-1-12-tool-shovel-aluminum',
-    'tf-1-12-tool-axe-aluminum',
-    'tf-1-12-tool-hoe-aluminum',
-    'tf-1-12-tool-fishing-rod-aluminum',
-    'tf-1-12-tool-shears-aluminum',
-    'tf-1-12-tool-hammer-aluminum',
-    'tf-1-12-tool-excavator-aluminum',
-    'tf-1-12-tool-sickle-aluminum',
-    'tf-1-12-weapon-sword-aluminum',
-    'tf-1-12-weapon-bow-aluminum',
-    'tf-1-12-weapon-shield-aluminum',
-    'tf-1-12-armor-helmet-aluminum',
-    'tf-1-12-armor-chestplate-aluminum',
-    'tf-1-12-armor-leggings-aluminum',
-    'tf-1-12-armor-boots-aluminum',
-    'tf-1-12-horse-armor-aluminum',
+    tfCrafting.petrotheum.aluminumIngot,
+    tfCrafting.aluminumNugget,
+    tfCrafting.aluminumGear,
+    tfCrafting.blockOfAluminum,
+    tfCrafting.aluminumPickaxe,
+    tfCrafting.aluminumShovel,
+    tfCrafting.aluminumAxe,
+    tfCrafting.aluminumHoe,
+    tfCrafting.aluminumFishingRod,
+    tfCrafting.aluminumShears,
+    tfCrafting.aluminumHammer,
+    tfCrafting.aluminumExcavator,
+    tfCrafting.aluminumSickle,
+    tfCrafting.aluminumSword,
+    tfCrafting.aluminumReinforcedBow,
+    tfCrafting.aluminumShield,
+    tfCrafting.aluminumHelmet,
+    tfCrafting.aluminumChestplate,
+    tfCrafting.aluminumLeggings,
+    tfCrafting.aluminumBoots,
+    tfCrafting.aluminumHorseArmor,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-aluminum']}
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedAluminum]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-aluminum']}
-/>
+<RecipeTable recipes={[teCompactor.aluminumPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-aluminum']}
-/>
+<RecipeTable recipes={[teCompactorCoin.aluminumCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-aluminum']}
-/>
+<RecipeTable recipes={[teCompactorGear.aluminumGear]} />

@@ -4,10 +4,13 @@ title: Zephyrean Aerotheum
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/zephyrean-aerotheum.gif', alt: 'Zephyrean aerotheum' }]}
-/>
+<PageImage images={[{ item: tfFluids.zephyreanAerotheum }]} />
 
 
 **Zephyrean aerotheum** is the air elemental fluid. It is obtained by melting
@@ -20,16 +23,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['aerotheum']}
-/>
+<RecipeTable recipes={[teCrucible.zephyreanAerotheum]} />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-aerotheum']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.zephyreanAerotheumBucket]} />
 
 
 Usage
@@ -56,13 +53,7 @@ Projectiles that come into contact with zephyrean aerotheum are sent flying in a
 random direction away from the fluid.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={[
-    'bucket-aerotheum',
-    'td-1-12-viaduct',
-  ]}
-/>
+<RecipeTable recipes={[teTransposerFill.zephyreanAerotheumBucket, tdTransposerFill.viaduct]} />
 
 ### Reactant Dynamo fuel
 When used together with [petrotheum dust](../petrotheum-dust/) as fuel in a

@@ -4,10 +4,19 @@ title: Signalum Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tcCrafting from '@/data/1.12/thermal-cultivation/recipes/crafting.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-signalum.png', alt: 'Signalum ingot' }]}
-/>
+<PageImage images={[{ item: tf.signalumIngot }]} />
 
 
 **Signalum ingots** are raw materials made from [copper](../copper-ingot/),
@@ -24,21 +33,19 @@ blend](../signalum-blend/). The blend can only be smelted into ingots in an
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-ingot-signalum-from-nuggets',
-    'tf-1-12-ingot-signalum-from-block',
+    tfCrafting.signalumIngot.nuggets,
+    tfCrafting.signalumIngot.block,
   ]}
   noResult
 />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting-signalum',
-    'recycling-gear-signalum',
-    'recycling-plate-signalum',
+    teSmelter.dustSmelting.signalum,
+    teSmelter.recycling.signalumGear,
+    teSmelter.recycling.signalumPlate,
   ]}
   noResult
 />
@@ -49,59 +56,46 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-nugget-signalum',
-    'tf-1-12-gear-signalum',
-    'tf-1-12-storage-block-signalum',
-    'tf-1-12-upgrade-kit-signalum',
-    'te-1-12-flux-capacitor-signalum',
-    'te-1-12-reservoir-signalum',
-    'te-1-12-reservoir-resonant',
-    'te-1-12-satchel-signalum',
-    'td-1-12-fluxduct-signalum-empty-three',
-    'td-1-12-fluxduct-signalum-three',
-    'td-1-12-fluiduct-energy-three',
-    'td-1-12-itemduct-energy-three',
-    'td-1-12-itemduct-energy-fast-three',
-    'td-1-12-servo-signalum',
-    'td-1-12-servo-signalum-upgrade',
-    'td-1-12-filter-signalum',
-    'td-1-12-filter-signalum-upgrade',
-    'td-1-12-retriever-signalum',
-    'td-1-12-retriever-signalum-upgrade',
-    'tc-1-12-watering-can-signalum',
-    'ti-1-12-fluxbore-signalum',
-    'ti-1-12-fluxsaw-signalum',
-    'ti-1-12-fluxomagnet-signalum',
-    'ti-1-12-hypoinfuser-signalum',
-    'ti-1-12-alchemical-quiver-signalum',
+    tfCrafting.signalumNugget,
+    tfCrafting.signalumGear,
+    tfCrafting.blockOfSignalum,
+    tfCrafting.upgradeKit3,
+    teCrafting.fluxCapacitor3,
+    teCrafting.reservoir3,
+    teCrafting.reservoir4,
+    teCrafting.satchel3,
+    tdCrafting.signalumFluxductEmptyThree,
+    tdCrafting.signalumFluxductThree,
+    tdCrafting.signalumPlatedFluiductThree,
+    tdCrafting.signalumPlatedItemductThree,
+    tdCrafting.signalumPlatedImpulseItemductThree,
+    tdCrafting.servo3,
+    tdCrafting.servo3Upgrade,
+    tdCrafting.filter3,
+    tdCrafting.filter3Upgrade,
+    tdCrafting.retriever3,
+    tdCrafting.retriever3Upgrade,
+    tcCrafting.wateringCan3,
+    tiCrafting.fluxbore3,
+    tiCrafting.fluxsaw3,
+    tiCrafting.fluxomagnet3,
+    tiCrafting.hypoinfuser3,
+    tiCrafting.alchemicalQuiver3,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-signalum']}
-/>
+<RecipeTable recipes={[tePulverizer.signalumBlend]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-signalum']}
-/>
+<RecipeTable recipes={[teCompactor.signalumPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-signalum']}
-/>
+<RecipeTable recipes={[teCompactorCoin.signalumCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-signalum']}
-/>
+<RecipeTable recipes={[teCompactorGear.signalumGear]} />
 
 
 Trivia

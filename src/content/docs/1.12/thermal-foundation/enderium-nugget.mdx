@@ -4,10 +4,11 @@ title: Enderium Nugget
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/nugget-enderium.png', alt: 'Enderium nugget' }]}
-/>
+<PageImage images={[{ item: tf.enderiumNugget }]} />
 
 
 **Enderium nuggets** are raw materials. They are the nugget form of
@@ -18,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-nugget-enderium']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.enderiumNugget]} noResult />
 
 
 Usage
@@ -30,10 +27,9 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-ingot-enderium-from-nuggets',
-    'td-1-12-fluxduct-resonant-empty-one',
-    'td-1-12-fluxduct-resonant-one',
+    tfCrafting.enderiumIngot.nuggets,
+    tdCrafting.resonantFluxductEmptyOne,
+    tdCrafting.resonantFluxductOne,
   ]}
 />

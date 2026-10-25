@@ -5,10 +5,11 @@ title: Phytogenic Insolator
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teInsolator from '@/data/1.12/thermal-expansion/recipes/insolator.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/phytogenic-insolator.png', alt: 'Phytogenic insolator' }]}
-/>
+<PageImage images={[{ item: te.phytogenicInsolator }]} />
 
 > Definitely not organic.
 
@@ -28,11 +29,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-insolator']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.phytogenicInsolator]} noResult />
 
 ### Upgrading
 A phytogenic insolator is initially at the lowest [tier](#tiers) (basic). It can
@@ -202,69 +199,66 @@ chance of the secondary product being produced twice.
 
 ### Using Phyto-Gro
 <RecipeTable
-  type="1.12/thermal-expansion/insolator"
   recipes={[
-    'wheat',
-    'potato',
-    'carrot',
-    'beetroot',
-    'cactus',
-    'sugar-canes',
-    'pumpkin',
-    'melon',
-    'cocoa-beans',
-    'flower',
-    'tall-flower',
-    'lily-pad',
-    'vines',
-    'mushroom',
-    'nether-wart',
-    'chorus-fruit',
+    teInsolator.wheat,
+    teInsolator.potato,
+    teInsolator.carrot,
+    teInsolator.beetroot,
+    teInsolator.cactus,
+    teInsolator.sugarCanes,
+    teInsolator.pumpkin,
+    teInsolator.melon,
+    teInsolator.cocoaBeans,
+    teInsolator.flower,
+    teInsolator.tallFlower,
+    teInsolator.lilyPad,
+    teInsolator.vines,
+    teInsolator.mushroom,
+    teInsolator.netherWart,
+    teInsolator.chorusFruit,
   ]}
 />
 
 ### Using rich Phyto-Gro
 <RecipeTable
-  type="1.12/thermal-expansion/insolator"
   recipes={[
-    'wheat-rich',
-    'potato-rich',
-    'carrot-rich',
-    'beetroot-rich',
-    'cactus-rich',
-    'sugar-canes-rich',
-    'pumpkin-rich',
-    'melon-rich',
-    'cocoa-beans-rich',
-    'flower-rich',
-    'tall-flower-rich',
-    'lily-pad-rich',
-    'vines-rich',
-    'mushroom-rich',
-    'nether-wart-rich',
-    'chorus-fruit-rich',
+    teInsolator.wheatRich,
+    teInsolator.potatoRich,
+    teInsolator.carrotRich,
+    teInsolator.beetrootRich,
+    teInsolator.cactusRich,
+    teInsolator.sugarCanesRich,
+    teInsolator.pumpkinRich,
+    teInsolator.melonRich,
+    teInsolator.cocoaBeansRich,
+    teInsolator.flowerRich,
+    teInsolator.tallFlowerRich,
+    teInsolator.lilyPadRich,
+    teInsolator.vinesRich,
+    teInsolator.mushroomRich,
+    teInsolator.netherWartRich,
+    teInsolator.chorusFruitRich,
   ]}
 />
 
 ### Using fluxed Phyto-Gro
 <RecipeTable
-  type="1.12/thermal-expansion/insolator"
   recipes={[
-    'wheat-fluxed',
-    'potato-fluxed',
-    'carrot-fluxed',
-    'beetroot-fluxed',
-    'cactus-fluxed',
-    'sugar-canes-fluxed',
-    'pumpkin-fluxed',
-    'melon-fluxed',
-    'cocoa-beans-fluxed',
-    'flower-fluxed',
-    'tall-flower-fluxed',
-    'lily-pad-fluxed',
-    'vines-fluxed',
-    'mushroom-fluxed',
-    'nether-wart-fluxed',
-    'chorus-fruit-fluxed',
+    teInsolator.wheatFluxed,
+    teInsolator.potatoFluxed,
+    teInsolator.carrotFluxed,
+    teInsolator.beetrootFluxed,
+    teInsolator.cactusFluxed,
+    teInsolator.sugarCanesFluxed,
+    teInsolator.pumpkinFluxed,
+    teInsolator.melonFluxed,
+    teInsolator.cocoaBeansFluxed,
+    teInsolator.flowerFluxed,
+    teInsolator.tallFlowerFluxed,
+    teInsolator.lilyPadFluxed,
+    teInsolator.vinesFluxed,
+    teInsolator.mushroomFluxed,
+    teInsolator.netherWartFluxed,
+    teInsolator.chorusFruitFluxed,
   ]}
 />

@@ -4,10 +4,11 @@ title: Copper Nugget
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/nugget-copper.png', alt: 'Copper nugget' }]}
-/>
+<PageImage images={[{ item: tf.copperNugget }]} />
 
 
 **Copper nuggets** are raw materials. They are the nugget form of
@@ -18,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-nugget-copper']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.copperNugget]} noResult />
 
 
 Usage
@@ -30,11 +27,10 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-ingot-copper-from-nuggets',
-    'ti-1-12-fluxomagnet-hardened',
-    'ti-1-12-hypoinfuser-hardened',
-    'ti-1-12-alchemical-quiver-hardened',
+    tfCrafting.copperIngot.nuggets,
+    tiCrafting.fluxomagnet1,
+    tiCrafting.hypoinfuser1,
+    tiCrafting.alchemicalQuiver1,
   ]}
 />

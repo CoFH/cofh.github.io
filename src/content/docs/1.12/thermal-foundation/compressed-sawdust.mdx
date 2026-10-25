@@ -4,10 +4,12 @@ title: Compressed Sawdust
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teRedstoneFurnacePyrolysis from '@/data/1.12/thermal-expansion/recipes/redstone-furnace-pyrolysis.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/sawdust-compressed.png', alt: 'Compressed sawdust' }]}
-/>
+<PageImage images={[{ item: tf.compressedSawdust }]} />
 
 
 **Compressed sawdust** is a material obtained by combining nine pieces of
@@ -19,24 +21,14 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-sawdust-compressed']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.compressedSawdust]} noResult />
 
 
 Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-charcoal-from-sawdust']}
-/>
+<RecipeTable recipes={[tfSmelting.charcoalFromSawdust]} />
 
 ### Redstone Furnace with Pyrolytic Conversion ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/redstone-furnace-pyrolysis"
-  recipes={['charcoal-from-sawdust']}
-/>
+<RecipeTable recipes={[teRedstoneFurnacePyrolysis.charcoal.sawdust]} />

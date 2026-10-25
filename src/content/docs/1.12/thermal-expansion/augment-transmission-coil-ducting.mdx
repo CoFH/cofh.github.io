@@ -4,15 +4,10 @@ title: 'Augment: Transmission Coil Ducting'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-dynamo-coil-duct.png',
-      alt: 'Transmission coil ducting augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentTransmissionCoilDucting }]} />
 
 **Transmission coil ducting** is an [augment](../augments/) that allows items
 and fluids to enter a [dynamo](../dynamos/) through its coil, which can
@@ -23,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-dynamo-coil-duct']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentTransmissionCoilDucting]} noResult />
 
 
 Usage

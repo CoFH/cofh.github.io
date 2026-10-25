@@ -4,15 +4,17 @@ title: Portable Tank
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-expansion-5/portable-tank-basic.png', alt: 'Portable tank (Basic)' },
-    { file: 'thermal-expansion-5/portable-tank-hardened.png', alt: 'Portable tank (Hardened)' },
-    { file: 'thermal-expansion-5/portable-tank-reinforced.png', alt: 'Portable tank (Reinforced)' },
-    { file: 'thermal-expansion-5/portable-tank-signalum.png', alt: 'Portable tank (Signalum)' },
-    { file: 'thermal-expansion-5/portable-tank-resonant.png', alt: 'Portable tank (Resonant)' },
-    { file: 'thermal-expansion-5/portable-tank-creative.png', alt: 'Portable tank (Creative)' },
+    { item: te.portableTank0 },
+    { item: te.portableTank1 },
+    { item: te.portableTank2 },
+    { item: te.portableTank3 },
+    { item: te.portableTank4 },
+    { item: te.portableTankCreative },
   ]}
 />
 
@@ -29,11 +31,7 @@ the item. It can also be mined using a
 slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-portable-tank-basic']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.portableTank0]} noResult />
 
 ### Upgrading
 A portable tank is initially at the lowest [tier](#tiers) (basic). It can be

@@ -4,25 +4,28 @@ title: Pigments
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/pigment-white.png', alt: 'White pigment' },
-    { file: 'thermal-foundation-2/pigment-orange.png', alt: 'Orange pigment' },
-    { file: 'thermal-foundation-2/pigment-magenta.png', alt: 'Magenta pigment' },
-    { file: 'thermal-foundation-2/pigment-light-blue.png', alt: 'Light blue pigment' },
-    { file: 'thermal-foundation-2/pigment-yellow.png', alt: 'Yellow pigment' },
-    { file: 'thermal-foundation-2/pigment-lime.png', alt: 'Lime pigment' },
-    { file: 'thermal-foundation-2/pigment-pink.png', alt: 'Pink pigment' },
-    { file: 'thermal-foundation-2/pigment-gray.png', alt: 'Gray pigment' },
-    { file: 'thermal-foundation-2/pigment-light-gray.png', alt: 'Light gray pigment' },
-    { file: 'thermal-foundation-2/pigment-cyan.png', alt: 'Cyan pigment' },
-    { file: 'thermal-foundation-2/pigment-purple.png', alt: 'Purple pigment' },
-    { file: 'thermal-foundation-2/pigment-blue.png', alt: 'Blue pigment' },
-    { file: 'thermal-foundation-2/pigment-brown.png', alt: 'Brown pigment' },
-    { file: 'thermal-foundation-2/pigment-green.png', alt: 'Green pigment' },
-    { file: 'thermal-foundation-2/pigment-red.png', alt: 'Red pigment' },
-    { file: 'thermal-foundation-2/pigment-black.png', alt: 'Black pigment' },
+    { item: tf.whitePigment },
+    { item: tf.orangePigment },
+    { item: tf.magentaPigment },
+    { item: tf.lightBluePigment },
+    { item: tf.yellowPigment },
+    { item: tf.limePigment },
+    { item: tf.pinkPigment },
+    { item: tf.grayPigment },
+    { item: tf.lightGrayPigment },
+    { item: tf.cyanPigment },
+    { item: tf.purplePigment },
+    { item: tf.bluePigment },
+    { item: tf.brownPigment },
+    { item: tf.greenPigment },
+    { item: tf.redPigment },
+    { item: tf.blackPigment },
   ]}
 />
 
@@ -34,17 +37,10 @@ Obtaining
 ---------
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['recycling-wool']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.recycling.wool]} noResult />
 
 ### Centrifugal Separator
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['concrete-powder']}
-/>
+<RecipeTable recipes={[teCentrifuge.concretePowder]} />
 
 
 Usage

@@ -4,15 +4,17 @@ title: Satchel
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import vps from '@/data/1.12/vanillaplus-satchels/items.ts';
+import vpsCrafting from '@/data/1.12/vanillaplus-satchels/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-satchels/satchel-basic.png', alt: 'Satchel' },
-    { file: 'vanillaplus-satchels/satchel-iron.png', alt: 'Iron satchel' },
-    { file: 'vanillaplus-satchels/satchel-gold.png', alt: 'Gold satchel' },
-    { file: 'vanillaplus-satchels/satchel-diamond.png', alt: 'Diamond satchel' },
-    { file: 'vanillaplus-satchels/satchel-emerald.png', alt: 'Emerald satchel' },
-    { file: 'vanillaplus-satchels/satchel-void.gif', alt: 'Satchel (Void)' },
+    { item: vps.satchel },
+    { item: vps.ironSatchel },
+    { item: vps.goldSatchel },
+    { item: vps.diamondSatchel },
+    { item: vps.emeraldSatchel },
+    { item: vps.satchelVoid },
   ]}
 />
 
@@ -25,14 +27,13 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'vps-1-12-satchel-basic',
-    'vps-1-12-satchel-iron',
-    'vps-1-12-satchel-gold',
-    'vps-1-12-satchel-diamond',
-    'vps-1-12-satchel-emerald',
-    'vps-1-12-satchel-void',
+    vpsCrafting.satchel,
+    vpsCrafting.ironSatchel,
+    vpsCrafting.goldSatchel,
+    vpsCrafting.diamondSatchel,
+    vpsCrafting.emeraldSatchel,
+    vpsCrafting.satchelVoid,
   ]}
 />
 

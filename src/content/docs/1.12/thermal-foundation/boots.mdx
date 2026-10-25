@@ -4,21 +4,24 @@ title: Boots
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/boots-copper.png', alt: 'Copper boots' },
-    { file: 'thermal-foundation-2/boots-tin.png', alt: 'Tin boots' },
-    { file: 'thermal-foundation-2/boots-silver.png', alt: 'Silver boots' },
-    { file: 'thermal-foundation-2/boots-lead.png', alt: 'Lead boots' },
-    { file: 'thermal-foundation-2/boots-aluminum.png', alt: 'Aluminum boots' },
-    { file: 'thermal-foundation-2/boots-nickel.png', alt: 'Nickel boots' },
-    { file: 'thermal-foundation-2/boots-platinum.png', alt: 'Platinum boots' },
-    { file: 'thermal-foundation-2/boots-steel.png', alt: 'Steel boots' },
-    { file: 'thermal-foundation-2/boots-electrum.png', alt: 'Electrum boots' },
-    { file: 'thermal-foundation-2/boots-invar.png', alt: 'Invar boots' },
-    { file: 'thermal-foundation-2/boots-bronze.png', alt: 'Bronze boots' },
-    { file: 'thermal-foundation-2/boots-constantan.png', alt: 'Constantan boots' },
+    { item: tf.copperBoots },
+    { item: tf.tinBoots },
+    { item: tf.silverBoots },
+    { item: tf.leadBoots },
+    { item: tf.aluminumBoots },
+    { item: tf.nickelBoots },
+    { item: tf.platinumBoots },
+    { item: tf.steelBoots },
+    { item: tf.electrumBoots },
+    { item: tf.invarBoots },
+    { item: tf.bronzeBoots },
+    { item: tf.constantanBoots },
   ]}
 />
 
@@ -34,20 +37,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-armor-boots-copper',
-    'tf-1-12-armor-boots-tin',
-    'tf-1-12-armor-boots-silver',
-    'tf-1-12-armor-boots-lead',
-    'tf-1-12-armor-boots-aluminum',
-    'tf-1-12-armor-boots-nickel',
-    'tf-1-12-armor-boots-platinum',
-    'tf-1-12-armor-boots-steel',
-    'tf-1-12-armor-boots-electrum',
-    'tf-1-12-armor-boots-invar',
-    'tf-1-12-armor-boots-bronze',
-    'tf-1-12-armor-boots-constantan',
+    tfCrafting.copperBoots,
+    tfCrafting.tinBoots,
+    tfCrafting.silverBoots,
+    tfCrafting.leadBoots,
+    tfCrafting.aluminumBoots,
+    tfCrafting.nickelBoots,
+    tfCrafting.platinumBoots,
+    tfCrafting.steelBoots,
+    tfCrafting.electrumBoots,
+    tfCrafting.invarBoots,
+    tfCrafting.bronzeBoots,
+    tfCrafting.constantanBoots,
   ]}
 />
 
@@ -199,19 +201,18 @@ defense = mat.reductionAmounts[0]
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-armor-boots-copper',
-    'recycling-armor-boots-tin',
-    'recycling-armor-boots-silver',
-    'recycling-armor-boots-lead',
-    'recycling-armor-boots-aluminum',
-    'recycling-armor-boots-nickel',
-    'recycling-armor-boots-platinum',
-    'recycling-armor-boots-steel',
-    'recycling-armor-boots-electrum',
-    'recycling-armor-boots-invar',
-    'recycling-armor-boots-bronze',
-    'recycling-armor-boots-constantan',
+    teSmelter.recycling.copperBoots,
+    teSmelter.recycling.tinBoots,
+    teSmelter.recycling.silverBoots,
+    teSmelter.recycling.leadBoots,
+    teSmelter.recycling.aluminumBoots,
+    teSmelter.recycling.nickelBoots,
+    teSmelter.recycling.platinumBoots,
+    teSmelter.recycling.steelBoots,
+    teSmelter.recycling.electrumBoots,
+    teSmelter.recycling.invarBoots,
+    teSmelter.recycling.bronzeBoots,
+    teSmelter.recycling.constantanBoots,
   ]}
 />

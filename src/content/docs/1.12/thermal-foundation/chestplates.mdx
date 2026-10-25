@@ -4,21 +4,24 @@ title: Chestplates
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/chestplate-copper.png', alt: 'Copper chestplate' },
-    { file: 'thermal-foundation-2/chestplate-tin.png', alt: 'Tin chestplate' },
-    { file: 'thermal-foundation-2/chestplate-silver.png', alt: 'Silver chestplate' },
-    { file: 'thermal-foundation-2/chestplate-lead.png', alt: 'Lead chestplate' },
-    { file: 'thermal-foundation-2/chestplate-aluminum.png', alt: 'Aluminum chestplate' },
-    { file: 'thermal-foundation-2/chestplate-nickel.png', alt: 'Nickel chestplate' },
-    { file: 'thermal-foundation-2/chestplate-platinum.png', alt: 'Platinum chestplate' },
-    { file: 'thermal-foundation-2/chestplate-steel.png', alt: 'Steel chestplate' },
-    { file: 'thermal-foundation-2/chestplate-electrum.png', alt: 'Electrum chestplate' },
-    { file: 'thermal-foundation-2/chestplate-invar.png', alt: 'Invar chestplate' },
-    { file: 'thermal-foundation-2/chestplate-bronze.png', alt: 'Bronze chestplate' },
-    { file: 'thermal-foundation-2/chestplate-constantan.png', alt: 'Constantan chestplate' },
+    { item: tf.copperChestplate },
+    { item: tf.tinChestplate },
+    { item: tf.silverChestplate },
+    { item: tf.leadChestplate },
+    { item: tf.aluminumChestplate },
+    { item: tf.nickelChestplate },
+    { item: tf.platinumChestplate },
+    { item: tf.steelChestplate },
+    { item: tf.electrumChestplate },
+    { item: tf.invarChestplate },
+    { item: tf.bronzeChestplate },
+    { item: tf.constantanChestplate },
   ]}
 />
 
@@ -34,20 +37,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-armor-chestplate-copper',
-    'tf-1-12-armor-chestplate-tin',
-    'tf-1-12-armor-chestplate-silver',
-    'tf-1-12-armor-chestplate-lead',
-    'tf-1-12-armor-chestplate-aluminum',
-    'tf-1-12-armor-chestplate-nickel',
-    'tf-1-12-armor-chestplate-platinum',
-    'tf-1-12-armor-chestplate-steel',
-    'tf-1-12-armor-chestplate-electrum',
-    'tf-1-12-armor-chestplate-invar',
-    'tf-1-12-armor-chestplate-bronze',
-    'tf-1-12-armor-chestplate-constantan',
+    tfCrafting.copperChestplate,
+    tfCrafting.tinChestplate,
+    tfCrafting.silverChestplate,
+    tfCrafting.leadChestplate,
+    tfCrafting.aluminumChestplate,
+    tfCrafting.nickelChestplate,
+    tfCrafting.platinumChestplate,
+    tfCrafting.steelChestplate,
+    tfCrafting.electrumChestplate,
+    tfCrafting.invarChestplate,
+    tfCrafting.bronzeChestplate,
+    tfCrafting.constantanChestplate,
   ]}
 />
 
@@ -199,19 +201,18 @@ defense = mat.reductionAmounts[2]
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-armor-chestplate-copper',
-    'recycling-armor-chestplate-tin',
-    'recycling-armor-chestplate-silver',
-    'recycling-armor-chestplate-lead',
-    'recycling-armor-chestplate-aluminum',
-    'recycling-armor-chestplate-nickel',
-    'recycling-armor-chestplate-platinum',
-    'recycling-armor-chestplate-steel',
-    'recycling-armor-chestplate-electrum',
-    'recycling-armor-chestplate-invar',
-    'recycling-armor-chestplate-bronze',
-    'recycling-armor-chestplate-constantan',
+    teSmelter.recycling.copperChestplate,
+    teSmelter.recycling.tinChestplate,
+    teSmelter.recycling.silverChestplate,
+    teSmelter.recycling.leadChestplate,
+    teSmelter.recycling.aluminumChestplate,
+    teSmelter.recycling.nickelChestplate,
+    teSmelter.recycling.platinumChestplate,
+    teSmelter.recycling.steelChestplate,
+    teSmelter.recycling.electrumChestplate,
+    teSmelter.recycling.invarChestplate,
+    teSmelter.recycling.bronzeChestplate,
+    teSmelter.recycling.constantanChestplate,
   ]}
 />

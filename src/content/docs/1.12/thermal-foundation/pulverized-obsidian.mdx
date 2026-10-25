@@ -4,10 +4,15 @@ title: Pulverized Obsidian
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-obsidian.png', alt: 'Pulverized obsidian' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedObsidian }]} />
 
 
 **Pulverized obsidian** is a raw material that is most commonly obtained by
@@ -19,25 +24,14 @@ Obtaining
 ---------
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={[
-    'dust-obsidian',
-    'basalz-powder',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedObsidian, tePulverizer.basalzPowder]} noResult />
 
 ### Basalzes
 A [basalz](../basalz/) may drop up to two pieces of pulverized obsidian when
 killed by a player.
 
 ### Centrifugal Separator
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-petrotheum']}
-  noResult
-/>
+<RecipeTable recipes={[teCentrifuge.petrotheumDust]} noResult />
 
 
 Usage
@@ -45,12 +39,11 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-dust-petrotheum',
-    'tf-1-12-hardened-glass',
-    'tf-1-12-hardened-glass-metal',
-    'ra-1-12-obsidian-rod',
+    tfCrafting.petrotheumDust,
+    tfCrafting.hardenedGlass,
+    tfCrafting.hardenedGlassMetal,
+    raCrafting.obsidianRod,
   ]}
 />
 
@@ -61,13 +54,7 @@ potion](https://minecraft.wiki/w/Potion#Base_potions) to make a [potion
 of resistance](../../cofh-core/potions/).
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['hardened-glass']}
-/>
+<RecipeTable recipes={[teSmelter.hardenedGlass]} />
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['basalz-powder']}
-/>
+<RecipeTable recipes={[teTransposerFill.basalzPowder]} />

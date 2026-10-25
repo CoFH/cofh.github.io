@@ -4,12 +4,10 @@ title: Signalum Security Lock
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-foundation-2/signalum-security-lock.png', alt: 'Signalum security lock' },
-  ]}
-/>
+<PageImage images={[{ item: tf.signalumSecurityLock }]} />
 
 
 **Signalum security locks** are items that can be installed on certain blocks
@@ -20,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-signalum-security-lock']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.signalumSecurityLock]} noResult />
 
 
 Usage

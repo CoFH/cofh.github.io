@@ -4,25 +4,30 @@ title: Fishing Rods
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import vpt from '@/data/1.12/vanillaplus-tools/items.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-tools/fishing-rod-stone.png', alt: 'Stone fishing rod' },
-    { file: 'vanillaplus-tools/fishing-rod-iron.png', alt: 'Iron fishing rod' },
-    { file: 'vanillaplus-tools/fishing-rod-gold.png', alt: 'Gold fishing rod' },
-    { file: 'vanillaplus-tools/fishing-rod-diamond.png', alt: 'Diamond fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-copper.png', alt: 'Copper fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-tin.png', alt: 'Tin fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-silver.png', alt: 'Silver fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-lead.png', alt: 'Lead fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-aluminum.png', alt: 'Aluminum fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-nickel.png', alt: 'Nickel fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-platinum.png', alt: 'Platinum fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-steel.png', alt: 'Steel fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-electrum.png', alt: 'Electrum fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-invar.png', alt: 'Invar fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-bronze.png', alt: 'Bronze fishing rod' },
-    { file: 'thermal-foundation-2/fishing-rod-constantan.png', alt: 'Constantan fishing rod' },
+    { item: vpt.stoneFishingRod },
+    { item: vpt.ironFishingRod },
+    { item: vpt.goldFishingRod },
+    { item: vpt.diamondFishingRod },
+    { item: tf.copperFishingRod },
+    { item: tf.tinFishingRod },
+    { item: tf.silverFishingRod },
+    { item: tf.leadFishingRod },
+    { item: tf.aluminumFishingRod },
+    { item: tf.nickelFishingRod },
+    { item: tf.platinumFishingRod },
+    { item: tf.steelFishingRod },
+    { item: tf.electrumFishingRod },
+    { item: tf.invarFishingRod },
+    { item: tf.bronzeFishingRod },
+    { item: tf.constantanFishingRod },
   ]}
 />
 
@@ -37,24 +42,23 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-tool-fishing-rod-stone',
-    'tf-1-12-tool-fishing-rod-iron',
-    'tf-1-12-tool-fishing-rod-gold',
-    'tf-1-12-tool-fishing-rod-diamond',
-    'tf-1-12-tool-fishing-rod-copper',
-    'tf-1-12-tool-fishing-rod-tin',
-    'tf-1-12-tool-fishing-rod-silver',
-    'tf-1-12-tool-fishing-rod-lead',
-    'tf-1-12-tool-fishing-rod-aluminum',
-    'tf-1-12-tool-fishing-rod-nickel',
-    'tf-1-12-tool-fishing-rod-platinum',
-    'tf-1-12-tool-fishing-rod-steel',
-    'tf-1-12-tool-fishing-rod-electrum',
-    'tf-1-12-tool-fishing-rod-invar',
-    'tf-1-12-tool-fishing-rod-bronze',
-    'tf-1-12-tool-fishing-rod-constantan',
+    tfCrafting.stoneFishingRod,
+    tfCrafting.ironFishingRod,
+    tfCrafting.goldFishingRod,
+    tfCrafting.diamondFishingRod,
+    tfCrafting.copperFishingRod,
+    tfCrafting.tinFishingRod,
+    tfCrafting.silverFishingRod,
+    tfCrafting.leadFishingRod,
+    tfCrafting.aluminumFishingRod,
+    tfCrafting.nickelFishingRod,
+    tfCrafting.platinumFishingRod,
+    tfCrafting.steelFishingRod,
+    tfCrafting.electrumFishingRod,
+    tfCrafting.invarFishingRod,
+    tfCrafting.bronzeFishingRod,
+    tfCrafting.constantanFishingRod,
   ]}
 />
 
@@ -214,27 +218,23 @@ luckModifier = round(mat.harvestLevel / 2)
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-tool-fishing-rod-iron',
-    'recycling-tool-fishing-rod-gold',
-    'recycling-tool-fishing-rod-copper',
-    'recycling-tool-fishing-rod-tin',
-    'recycling-tool-fishing-rod-silver',
-    'recycling-tool-fishing-rod-lead',
-    'recycling-tool-fishing-rod-aluminum',
-    'recycling-tool-fishing-rod-nickel',
-    'recycling-tool-fishing-rod-platinum',
-    'recycling-tool-fishing-rod-steel',
-    'recycling-tool-fishing-rod-electrum',
-    'recycling-tool-fishing-rod-invar',
-    'recycling-tool-fishing-rod-bronze',
-    'recycling-tool-fishing-rod-constantan',
+    teSmelter.recycling.ironFishingRod,
+    teSmelter.recycling.goldFishingRod,
+    teSmelter.recycling.copperFishingRod,
+    teSmelter.recycling.tinFishingRod,
+    teSmelter.recycling.silverFishingRod,
+    teSmelter.recycling.leadFishingRod,
+    teSmelter.recycling.aluminumFishingRod,
+    teSmelter.recycling.nickelFishingRod,
+    teSmelter.recycling.platinumFishingRod,
+    teSmelter.recycling.steelFishingRod,
+    teSmelter.recycling.electrumFishingRod,
+    teSmelter.recycling.invarFishingRod,
+    teSmelter.recycling.bronzeFishingRod,
+    teSmelter.recycling.constantanFishingRod,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['recycling-tool-fishing-rod-diamond']}
-/>
+<RecipeTable recipes={[tePulverizer.recycling.diamondFishingRod]} />

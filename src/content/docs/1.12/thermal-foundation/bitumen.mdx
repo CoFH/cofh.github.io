@@ -4,10 +4,11 @@ title: Bitumen
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/bitumen.gif', alt: 'Bitumen' }]}
-/>
+<PageImage images={[{ item: tf.bitumen }]} />
 
 
 **Bitumen** is a material obtained from [oil sand](../oil-sand/) and [oil
@@ -25,10 +26,9 @@ piece of bitumen when mined with a pickaxe. More bitumen is dropped if a
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'fluid-ore-processing-oil-sand',
-    'fluid-ore-processing-oil-shale',
+    tePulverizer.fluidOreProcessing.oilSand,
+    tePulverizer.fluidOreProcessing.oilShale,
   ]}
   noResult
 />
@@ -38,10 +38,7 @@ Usage
 -----
 
 ### Magma Crucible ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['crude-oil-from-bitumen']}
-/>
+<RecipeTable recipes={[teCrucible.crudeOilFromBitumen]} />
 
 ### Fuel
 When used as fuel in a [furnace](https://minecraft.wiki/w/Furnace), one

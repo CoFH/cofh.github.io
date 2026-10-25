@@ -4,10 +4,13 @@ title: Pulverized Mana Infused Metal
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-mithril.png', alt: 'Pulverized mana infused metal' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedManaInfusedMetal }]} />
 
 
 **Pulverized mana infused metal** is a raw material. It is the dust form of
@@ -19,20 +22,18 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-mithril',
-    'ore-processing-mithril',
+    tePulverizer.pulverizedManaInfusedMetal,
+    tePulverizer.oreProcessing.mithril,
   ]}
   noResult
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-mithril',
-    'tf-1-12-petrotheum-ore-mithril',
+    tfCrafting.petrotheum.manaInfusedIngot,
+    tfCrafting.petrotheum.manaInfusedOre,
   ]}
   noResult
 />
@@ -48,25 +49,15 @@ Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-mithril-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.manaInfusedIngotFromDust]} />
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-dust-mithril',
-    'tf-1-12-hardened-glass-mithril',
+    tfCrafting.pyrotheum.pulverizedManaInfusedMetal,
+    tfCrafting.hardenedManaInfusedGlass,
   ]}
 />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-mithril',
-    'hardened-glass-mithril',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.mithril, teSmelter.hardenedManaInfusedGlass]} />

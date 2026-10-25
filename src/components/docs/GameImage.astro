@@ -1,0 +1,37 @@
+---
+import type { ImageMetadata } from 'astro';
+import { getImage } from 'astro:assets';
+
+interface Props {
+  image: ImageMetadata;
+  height: number;
+  alt: string;
+  class?: string;
+  loading?: 'eager' | 'lazy';
+}
+
+const { image, height, alt, class: className, loading = 'lazy' } = Astro.props;
+
+const pixelated = image.height <= 32 || height <= 32;
+
+const servedImage = await getImage(
+  image.height > height && !pixelated
+    ? {
+        src: image,
+        height,
+        densities: [1, 2],
+      }
+    : { src: image },
+);
+---
+
+<img
+  src={servedImage.src}
+  srcset={servedImage.srcSet.attribute || undefined}
+  width={Math.round((image.width * height) / image.height)}
+  height={height}
+  alt={alt}
+  class={className}
+  style={pixelated ? 'image-rendering: pixelated' : undefined}
+  loading={loading}
+/>

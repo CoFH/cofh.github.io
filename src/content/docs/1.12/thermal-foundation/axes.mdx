@@ -4,21 +4,24 @@ title: Axes
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/axe-copper.png', alt: 'Copper axe' },
-    { file: 'thermal-foundation-2/axe-tin.png', alt: 'Tin axe' },
-    { file: 'thermal-foundation-2/axe-silver.png', alt: 'Silver axe' },
-    { file: 'thermal-foundation-2/axe-lead.png', alt: 'Lead axe' },
-    { file: 'thermal-foundation-2/axe-aluminum.png', alt: 'Aluminum axe' },
-    { file: 'thermal-foundation-2/axe-nickel.png', alt: 'Nickel axe' },
-    { file: 'thermal-foundation-2/axe-platinum.png', alt: 'Platinum axe' },
-    { file: 'thermal-foundation-2/axe-steel.png', alt: 'Steel axe' },
-    { file: 'thermal-foundation-2/axe-electrum.png', alt: 'Electrum axe' },
-    { file: 'thermal-foundation-2/axe-invar.png', alt: 'Invar axe' },
-    { file: 'thermal-foundation-2/axe-bronze.png', alt: 'Bronze axe' },
-    { file: 'thermal-foundation-2/axe-constantan.png', alt: 'Constantan axe' },
+    { item: tf.copperAxe },
+    { item: tf.tinAxe },
+    { item: tf.silverAxe },
+    { item: tf.leadAxe },
+    { item: tf.aluminumAxe },
+    { item: tf.nickelAxe },
+    { item: tf.platinumAxe },
+    { item: tf.steelAxe },
+    { item: tf.electrumAxe },
+    { item: tf.invarAxe },
+    { item: tf.bronzeAxe },
+    { item: tf.constantanAxe },
   ]}
 />
 
@@ -33,20 +36,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-tool-axe-copper',
-    'tf-1-12-tool-axe-tin',
-    'tf-1-12-tool-axe-silver',
-    'tf-1-12-tool-axe-lead',
-    'tf-1-12-tool-axe-aluminum',
-    'tf-1-12-tool-axe-nickel',
-    'tf-1-12-tool-axe-platinum',
-    'tf-1-12-tool-axe-steel',
-    'tf-1-12-tool-axe-electrum',
-    'tf-1-12-tool-axe-invar',
-    'tf-1-12-tool-axe-bronze',
-    'tf-1-12-tool-axe-constantan',
+    tfCrafting.copperAxe,
+    tfCrafting.tinAxe,
+    tfCrafting.silverAxe,
+    tfCrafting.leadAxe,
+    tfCrafting.aluminumAxe,
+    tfCrafting.nickelAxe,
+    tfCrafting.platinumAxe,
+    tfCrafting.steelAxe,
+    tfCrafting.electrumAxe,
+    tfCrafting.invarAxe,
+    tfCrafting.bronzeAxe,
+    tfCrafting.constantanAxe,
   ]}
 />
 
@@ -215,19 +217,18 @@ uses = mat.maxUses
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-tool-axe-copper',
-    'recycling-tool-axe-tin',
-    'recycling-tool-axe-silver',
-    'recycling-tool-axe-lead',
-    'recycling-tool-axe-aluminum',
-    'recycling-tool-axe-nickel',
-    'recycling-tool-axe-platinum',
-    'recycling-tool-axe-steel',
-    'recycling-tool-axe-electrum',
-    'recycling-tool-axe-invar',
-    'recycling-tool-axe-bronze',
-    'recycling-tool-axe-constantan',
+    teSmelter.recycling.copperAxe,
+    teSmelter.recycling.tinAxe,
+    teSmelter.recycling.silverAxe,
+    teSmelter.recycling.leadAxe,
+    teSmelter.recycling.aluminumAxe,
+    teSmelter.recycling.nickelAxe,
+    teSmelter.recycling.platinumAxe,
+    teSmelter.recycling.steelAxe,
+    teSmelter.recycling.electrumAxe,
+    teSmelter.recycling.invarAxe,
+    teSmelter.recycling.bronzeAxe,
+    teSmelter.recycling.constantanAxe,
   ]}
 />

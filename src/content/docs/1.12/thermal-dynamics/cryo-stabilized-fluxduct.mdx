@@ -4,12 +4,11 @@ title: Cryo-Stabilized Fluxduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-dynamics-2/fluxduct-cryo-stabilized.png', alt: 'Cryo-stabilized fluxduct' },
-  ]}
-/>
+<PageImage images={[{ item: td.cryoStabilizedFluxduct }]} />
 
 A **cryo-stabilized fluxduct** is a [fluxduct](../fluxducts/) of the sixth and
 highest tier. It can transfer any amount of power.
@@ -19,16 +18,10 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['td-1-12-fluxduct-super-empty']}
-/>
+<RecipeTable recipes={[tdCrafting.cryoStabilizedFluxductEmpty]} />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['td-1-12-fluxduct-super']}
-/>
+<RecipeTable recipes={[tdTransposerFill.cryoStabilizedFluxduct]} />
 
 
 Usage

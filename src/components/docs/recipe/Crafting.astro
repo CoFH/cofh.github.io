@@ -1,0 +1,29 @@
+---
+import type { Recipe } from '../../../data/types.ts';
+import background from './crafting.png';
+import { asSlot } from './narrow.ts';
+import RecipeFrame from './RecipeFrame.astro';
+import Slot from './Slot.astro';
+
+interface Props {
+  recipe: Recipe;
+}
+
+const { recipe } = Astro.props;
+
+const position = (index: number) => index * 36 + 10;
+---
+
+<RecipeFrame background={background}>
+  {recipe.inputs.map((input, index) => (
+    <Slot data={asSlot(input)} top={position(Math.floor(index / 3))} left={position(index % 3)} />
+  ))}
+
+  <Slot data={asSlot(recipe.outputs[0])} top={46} left={186} />
+
+  {recipe.shapeless && (
+    <div class="cofh-recipe-floating-text" style="top: 8px; right: 8px; text-align: right">
+      Shapeless
+    </div>
+  )}
+</RecipeFrame>

@@ -3,8 +3,7 @@ import type { DownloadItem } from './types.ts';
 export default {
   '1.20': [
     {
-      id: 'cofh-core-1-20',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for most Team CoFH mods.',
       links: {
@@ -15,8 +14,7 @@ export default {
       },
     },
     {
-      id: 'thermal-foundation-1-20',
-      logo: 'new-thermal-foundation',
+      slug: 'thermal-foundation',
       title: 'Thermal Foundation',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a>.',
       links: {
@@ -27,8 +25,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-20',
-      logo: 'new-thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a> and <a href="#thermal-foundation-1-20">Thermal Foundation</a>.',
       links: {
@@ -39,8 +36,7 @@ export default {
       },
     },
     {
-      id: 'thermal-dynamics-1-20',
-      logo: 'new-thermal-dynamics',
+      slug: 'thermal-dynamics',
       title: 'Thermal Dynamics',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a> and <a href="#thermal-foundation-1-20">Thermal Foundation</a>.',
       links: {
@@ -51,8 +47,7 @@ export default {
       },
     },
     {
-      id: 'thermal-cultivation-1-20',
-      logo: 'new-thermal-cultivation',
+      slug: 'thermal-cultivation',
       title: 'Thermal Cultivation',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a> and <a href="#thermal-foundation-1-20">Thermal Foundation</a>.',
       links: {
@@ -63,8 +58,7 @@ export default {
       },
     },
     {
-      id: 'thermal-innovation-1-20',
-      logo: 'new-thermal-innovation',
+      slug: 'thermal-innovation',
       title: 'Thermal Innovation',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a> and <a href="#thermal-foundation-1-20">Thermal Foundation</a>.',
       links: {
@@ -75,8 +69,7 @@ export default {
       },
     },
     {
-      id: 'thermal-locomotion-1-20',
-      logo: 'new-thermal-locomotion',
+      slug: 'thermal-locomotion',
       title: 'Thermal Locomotion',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a> and <a href="#thermal-foundation-1-20">Thermal Foundation</a>.',
       links: {
@@ -87,8 +80,7 @@ export default {
       },
     },
     {
-      id: 'thermal-integration-1-20',
-      logo: 'thermal-integration',
+      slug: 'thermal-integration',
       title: 'Thermal Integration',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a> and <a href="#thermal-foundation-1-20">Thermal Foundation</a>.',
       links: {
@@ -99,8 +91,7 @@ export default {
       },
     },
     {
-      id: 'redstone-arsenal-1-20',
-      logo: 'redstone-arsenal',
+      slug: 'redstone-arsenal',
       title: 'Redstone Arsenal',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a>.',
       links: {
@@ -110,8 +101,7 @@ export default {
       },
     },
     {
-      id: 'archers-paradox-1-20',
-      logo: 'archers-paradox',
+      slug: 'archers-paradox',
       title: "Archer's Paradox",
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a>.',
       links: {
@@ -122,8 +112,7 @@ export default {
       },
     },
     {
-      id: 'capable-cauldrons-1-20',
-      logo: 'capable-cauldrons',
+      slug: 'capable-cauldrons',
       title: 'Capable Cauldrons',
       note: 'Adds Forge capabilities to cauldrons.',
       links: {
@@ -133,8 +122,7 @@ export default {
       },
     },
     {
-      id: 'capable-composters-1-20',
-      logo: 'capable-composters',
+      slug: 'capable-composters',
       title: 'Capable Composters',
       note: 'Adds Forge capabilities to composters.',
       links: {
@@ -144,8 +132,7 @@ export default {
       },
     },
     {
-      id: 'ensorcellation-1-20',
-      logo: 'ensorcellation',
+      slug: 'ensorcellation',
       title: 'Ensorcellation',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a>.',
       links: {
@@ -156,8 +143,7 @@ export default {
       },
     },
     {
-      id: 'no-night-vision-flashing-1-20',
-      logo: 'new-no-night-vision-flashing',
+      slug: 'no-night-vision-flashing',
       title: 'No Night Vision Flashing',
       note: 'Removes the flashing effect when Night Vision is wearing off.',
       links: {
@@ -167,8 +153,7 @@ export default {
       },
     },
     {
-      id: 'omgourd-1-20',
-      logo: 'omgourd',
+      slug: 'omgourd',
       title: 'Oh My Gourd',
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a>.',
       links: {
@@ -178,8 +163,7 @@ export default {
       },
     },
     {
-      id: 'right-click-get-crops-1-20',
-      logo: 'right-click-get-crops',
+      slug: 'right-click-get-crops',
       title: 'Right Click, Get Crops',
       note: 'Does basically what it says. Smarter than most others.',
       links: {
@@ -189,8 +173,7 @@ export default {
       },
     },
     {
-      id: 'tools-complement-1-20',
-      logo: 'tools-complement',
+      slug: 'tools-complement',
       title: "Tool's Complement",
       note: 'Requires <a href="#cofh-core-1-20">CoFH Core</a>.',
       links: {
@@ -200,8 +183,7 @@ export default {
       },
     },
     {
-      id: 'uneffectual-1-20',
-      logo: 'uneffectual',
+      slug: 'uneffectual',
       title: 'Uneffectual',
       note: "Hides the status effect icons you don't want to see.",
       links: {
@@ -213,8 +195,7 @@ export default {
   ],
   '1.19': [
     {
-      id: 'cofh-core-1-19',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for most Team CoFH mods.',
       links: {
@@ -225,8 +206,7 @@ export default {
       },
     },
     {
-      id: 'thermal-foundation-1-19',
-      logo: 'new-thermal-foundation',
+      slug: 'thermal-foundation',
       title: 'Thermal Foundation',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a>.',
       links: {
@@ -237,8 +217,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-19',
-      logo: 'new-thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a> and <a href="#thermal-foundation-1-19">Thermal Foundation</a>.',
       links: {
@@ -249,8 +228,7 @@ export default {
       },
     },
     {
-      id: 'thermal-dynamics-1-19',
-      logo: 'new-thermal-dynamics',
+      slug: 'thermal-dynamics',
       title: 'Thermal Dynamics',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a> and <a href="#thermal-foundation-1-19">Thermal Foundation</a>.',
       links: {
@@ -261,8 +239,7 @@ export default {
       },
     },
     {
-      id: 'thermal-cultivation-1-19',
-      logo: 'new-thermal-cultivation',
+      slug: 'thermal-cultivation',
       title: 'Thermal Cultivation',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a> and <a href="#thermal-foundation-1-19">Thermal Foundation</a>.',
       links: {
@@ -273,8 +250,7 @@ export default {
       },
     },
     {
-      id: 'thermal-innovation-1-19',
-      logo: 'new-thermal-innovation',
+      slug: 'thermal-innovation',
       title: 'Thermal Innovation',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a> and <a href="#thermal-foundation-1-19">Thermal Foundation</a>.',
       links: {
@@ -285,8 +261,7 @@ export default {
       },
     },
     {
-      id: 'thermal-locomotion-1-19',
-      logo: 'new-thermal-locomotion',
+      slug: 'thermal-locomotion',
       title: 'Thermal Locomotion',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a> and <a href="#thermal-foundation-1-19">Thermal Foundation</a>.',
       links: {
@@ -297,8 +272,7 @@ export default {
       },
     },
     {
-      id: 'thermal-integration-1-19',
-      logo: 'thermal-integration',
+      slug: 'thermal-integration',
       title: 'Thermal Integration',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a> and <a href="#thermal-foundation-1-19">Thermal Foundation</a>.',
       links: {
@@ -309,8 +283,7 @@ export default {
       },
     },
     {
-      id: 'redstone-arsenal-1-19',
-      logo: 'redstone-arsenal',
+      slug: 'redstone-arsenal',
       title: 'Redstone Arsenal',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a>.',
       links: {
@@ -320,8 +293,7 @@ export default {
       },
     },
     {
-      id: 'archers-paradox-1-19',
-      logo: 'archers-paradox',
+      slug: 'archers-paradox',
       title: "Archer's Paradox",
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a>.',
       links: {
@@ -332,8 +304,7 @@ export default {
       },
     },
     {
-      id: 'capable-cauldrons-1-19',
-      logo: 'capable-cauldrons',
+      slug: 'capable-cauldrons',
       title: 'Capable Cauldrons',
       note: 'Adds Forge capabilities to cauldrons.',
       links: {
@@ -343,8 +314,7 @@ export default {
       },
     },
     {
-      id: 'capable-composters-1-19',
-      logo: 'capable-composters',
+      slug: 'capable-composters',
       title: 'Capable Composters',
       note: 'Adds Forge capabilities to composters.',
       links: {
@@ -354,8 +324,7 @@ export default {
       },
     },
     {
-      id: 'ensorcellation-1-19',
-      logo: 'ensorcellation',
+      slug: 'ensorcellation',
       title: 'Ensorcellation',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a>.',
       links: {
@@ -366,8 +335,7 @@ export default {
       },
     },
     {
-      id: 'no-night-vision-flashing-1-19',
-      logo: 'new-no-night-vision-flashing',
+      slug: 'no-night-vision-flashing',
       title: 'No Night Vision Flashing',
       note: 'Removes the flashing effect when Night Vision is wearing off.',
       links: {
@@ -377,8 +345,7 @@ export default {
       },
     },
     {
-      id: 'omgourd-1-19',
-      logo: 'omgourd',
+      slug: 'omgourd',
       title: 'Oh My Gourd',
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a>.',
       links: {
@@ -388,8 +355,7 @@ export default {
       },
     },
     {
-      id: 'right-click-get-crops-1-19',
-      logo: 'right-click-get-crops',
+      slug: 'right-click-get-crops',
       title: 'Right Click, Get Crops',
       note: 'Does basically what it says. Smarter than most others.',
       links: {
@@ -399,8 +365,7 @@ export default {
       },
     },
     {
-      id: 'tools-complement-1-19',
-      logo: 'tools-complement',
+      slug: 'tools-complement',
       title: "Tool's Complement",
       note: 'Requires <a href="#cofh-core-1-19">CoFH Core</a>.',
       links: {
@@ -410,8 +375,7 @@ export default {
       },
     },
     {
-      id: 'uneffectual-1-19',
-      logo: 'uneffectual',
+      slug: 'uneffectual',
       title: 'Uneffectual',
       note: "Hides the status effect icons you don't want to see.",
       links: {
@@ -423,8 +387,7 @@ export default {
   ],
   '1.18': [
     {
-      id: 'cofh-core-1-18',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for most Team CoFH mods.',
       links: {
@@ -435,8 +398,7 @@ export default {
       },
     },
     {
-      id: 'thermal-foundation-1-18',
-      logo: 'new-thermal-foundation',
+      slug: 'thermal-foundation',
       title: 'Thermal Foundation',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a>.',
       links: {
@@ -447,8 +409,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-18',
-      logo: 'new-thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a> and <a href="#thermal-foundation-1-18">Thermal Foundation</a>.',
       links: {
@@ -459,8 +420,7 @@ export default {
       },
     },
     {
-      id: 'thermal-dynamics-1-18',
-      logo: 'new-thermal-dynamics',
+      slug: 'thermal-dynamics',
       title: 'Thermal Dynamics',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a> and <a href="#thermal-foundation-1-18">Thermal Foundation</a>.',
       links: {
@@ -471,8 +431,7 @@ export default {
       },
     },
     {
-      id: 'thermal-cultivation-1-18',
-      logo: 'new-thermal-cultivation',
+      slug: 'thermal-cultivation',
       title: 'Thermal Cultivation',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a> and <a href="#thermal-foundation-1-18">Thermal Foundation</a>.',
       links: {
@@ -483,8 +442,7 @@ export default {
       },
     },
     {
-      id: 'thermal-innovation-1-18',
-      logo: 'new-thermal-innovation',
+      slug: 'thermal-innovation',
       title: 'Thermal Innovation',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a> and <a href="#thermal-foundation-1-18">Thermal Foundation</a>.',
       links: {
@@ -495,8 +453,7 @@ export default {
       },
     },
     {
-      id: 'thermal-locomotion-1-18',
-      logo: 'new-thermal-locomotion',
+      slug: 'thermal-locomotion',
       title: 'Thermal Locomotion',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a> and <a href="#thermal-foundation-1-18">Thermal Foundation</a>.',
       links: {
@@ -507,8 +464,7 @@ export default {
       },
     },
     {
-      id: 'thermal-integration-1-18',
-      logo: 'thermal-integration',
+      slug: 'thermal-integration',
       title: 'Thermal Integration',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a> and <a href="#thermal-foundation-1-18">Thermal Foundation</a>.',
       links: {
@@ -519,8 +475,7 @@ export default {
       },
     },
     {
-      id: 'redstone-arsenal-1-18',
-      logo: 'redstone-arsenal',
+      slug: 'redstone-arsenal',
       title: 'Redstone Arsenal',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a>.',
       links: {
@@ -532,8 +487,7 @@ export default {
       },
     },
     {
-      id: 'archers-paradox-1-18',
-      logo: 'archers-paradox',
+      slug: 'archers-paradox',
       title: "Archer's Paradox",
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a>.',
       links: {
@@ -544,8 +498,7 @@ export default {
       },
     },
     {
-      id: 'capable-cauldrons-1-18',
-      logo: 'capable-cauldrons',
+      slug: 'capable-cauldrons',
       title: 'Capable Cauldrons',
       note: 'Adds Forge capabilities to cauldrons.',
       links: {
@@ -555,8 +508,7 @@ export default {
       },
     },
     {
-      id: 'capable-composters-1-18',
-      logo: 'capable-composters',
+      slug: 'capable-composters',
       title: 'Capable Composters',
       note: 'Adds Forge capabilities to composters.',
       links: {
@@ -566,8 +518,7 @@ export default {
       },
     },
     {
-      id: 'ensorcellation-1-18',
-      logo: 'ensorcellation',
+      slug: 'ensorcellation',
       title: 'Ensorcellation',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a>.',
       links: {
@@ -578,8 +529,7 @@ export default {
       },
     },
     {
-      id: 'no-night-vision-flashing-1-18',
-      logo: 'new-no-night-vision-flashing',
+      slug: 'no-night-vision-flashing',
       title: 'No Night Vision Flashing',
       note: 'Removes the flashing effect when Night Vision is wearing off.',
       links: {
@@ -589,8 +539,7 @@ export default {
       },
     },
     {
-      id: 'omgourd-1-18',
-      logo: 'omgourd',
+      slug: 'omgourd',
       title: 'Oh My Gourd',
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a>.',
       links: {
@@ -601,8 +550,7 @@ export default {
       },
     },
     {
-      id: 'right-click-get-crops-1-18',
-      logo: 'right-click-get-crops',
+      slug: 'right-click-get-crops',
       title: 'Right Click, Get Crops',
       note: 'Does basically what it says. Smarter than most others.',
       links: {
@@ -613,8 +561,7 @@ export default {
       },
     },
     {
-      id: 'tools-complement-1-18',
-      logo: 'tools-complement',
+      slug: 'tools-complement',
       title: "Tool's Complement",
       note: 'Requires <a href="#cofh-core-1-18">CoFH Core</a>.',
       links: {
@@ -625,8 +572,7 @@ export default {
       },
     },
     {
-      id: 'uneffectual-1-18',
-      logo: 'uneffectual',
+      slug: 'uneffectual',
       title: 'Uneffectual',
       note: "Hides the status effect icons you don't want to see.",
       links: {
@@ -638,8 +584,7 @@ export default {
   ],
   '1.16': [
     {
-      id: 'cofh-core-1-16',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for all Team CoFH mods.',
       links: {
@@ -649,8 +594,7 @@ export default {
       },
     },
     {
-      id: 'thermal-foundation-1-16',
-      logo: 'new-thermal-foundation',
+      slug: 'thermal-foundation',
       title: 'Thermal Foundation',
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a>.',
       links: {
@@ -662,8 +606,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-16',
-      logo: 'new-thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.',
       links: {
@@ -675,8 +618,7 @@ export default {
       },
     },
     {
-      id: 'thermal-cultivation-1-16',
-      logo: 'new-thermal-cultivation',
+      slug: 'thermal-cultivation',
       title: 'Thermal Cultivation',
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.',
       links: {
@@ -688,8 +630,7 @@ export default {
       },
     },
     {
-      id: 'thermal-innovation-1-16',
-      logo: 'new-thermal-innovation',
+      slug: 'thermal-innovation',
       title: 'Thermal Innovation',
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.',
       links: {
@@ -701,8 +642,7 @@ export default {
       },
     },
     {
-      id: 'thermal-locomotion-1-16',
-      logo: 'new-thermal-locomotion',
+      slug: 'thermal-locomotion',
       title: 'Thermal Locomotion',
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a> and <a href="#thermal-foundation-1-16">Thermal Foundation</a>.',
       links: {
@@ -714,8 +654,7 @@ export default {
       },
     },
     {
-      id: 'redstone-arsenal-1-16',
-      logo: 'redstone-arsenal',
+      slug: 'redstone-arsenal',
       title: 'Redstone Arsenal',
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a>.',
       links: {
@@ -726,8 +665,7 @@ export default {
       },
     },
     {
-      id: 'archers-paradox-1-16',
-      logo: 'archers-paradox',
+      slug: 'archers-paradox',
       title: "Archer's Paradox",
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a>.',
       links: {
@@ -738,8 +676,7 @@ export default {
       },
     },
     {
-      id: 'ensorcellation-1-16',
-      logo: 'ensorcellation',
+      slug: 'ensorcellation',
       title: 'Ensorcellation',
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a>.',
       links: {
@@ -750,8 +687,7 @@ export default {
       },
     },
     {
-      id: 'no-night-vision-flashing-1-16',
-      logo: 'new-no-night-vision-flashing',
+      slug: 'no-night-vision-flashing',
       title: 'No Night Vision Flashing',
       note: 'Removes the flashing effect when Night Vision is wearing off.',
       links: {
@@ -761,8 +697,7 @@ export default {
       },
     },
     {
-      id: 'omgourd-1-16',
-      logo: 'omgourd',
+      slug: 'omgourd',
       title: 'Oh My Gourd',
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a>.',
       links: {
@@ -772,8 +707,7 @@ export default {
       },
     },
     {
-      id: 'right-click-get-crops-1-16',
-      logo: 'right-click-get-crops',
+      slug: 'right-click-get-crops',
       title: 'Right Click, Get Crops',
       note: 'Does basically what it says. Smarter than most others.',
       links: {
@@ -783,8 +717,7 @@ export default {
       },
     },
     {
-      id: 'tools-complement-1-16',
-      logo: 'tools-complement',
+      slug: 'tools-complement',
       title: "Tool's Complement",
       note: 'Requires <a href="#cofh-core-1-16">CoFH Core</a>.',
       links: {
@@ -796,8 +729,7 @@ export default {
   ],
   '1.15': [
     {
-      id: 'cofh-core-1-15',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for all Team CoFH mods.',
       links: {
@@ -806,8 +738,7 @@ export default {
       },
     },
     {
-      id: 'thermal-foundation-1-15',
-      logo: 'new-thermal-foundation',
+      slug: 'thermal-foundation',
       title: 'Thermal Foundation',
       note: 'Requires <a href="#cofh-core-1-15">CoFH Core</a>.',
       links: {
@@ -816,8 +747,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-15',
-      logo: 'new-thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#cofh-core-1-15">CoFH Core</a> and <a href="#thermal-foundation-1-15">Thermal Foundation</a>.',
       links: {
@@ -826,8 +756,7 @@ export default {
       },
     },
     {
-      id: 'thermal-cultivation-1-15',
-      logo: 'new-thermal-cultivation',
+      slug: 'thermal-cultivation',
       title: 'Thermal Cultivation',
       note: 'Requires <a href="#cofh-core-1-15">CoFH Core</a> and <a href="#thermal-foundation-1-15">Thermal Foundation</a>.',
       links: {
@@ -836,8 +765,7 @@ export default {
       },
     },
     {
-      id: 'thermal-innovation-1-15',
-      logo: 'new-thermal-innovation',
+      slug: 'thermal-innovation',
       title: 'Thermal Innovation',
       note: 'Requires <a href="#cofh-core-1-15">CoFH Core</a> and <a href="#thermal-foundation-1-15">Thermal Foundation</a>.',
       links: {
@@ -846,8 +774,7 @@ export default {
       },
     },
     {
-      id: 'thermal-locomotion-1-15',
-      logo: 'new-thermal-locomotion',
+      slug: 'thermal-locomotion',
       title: 'Thermal Locomotion',
       note: 'Requires <a href="#cofh-core-1-15">CoFH Core</a> and <a href="#thermal-foundation-1-15">Thermal Foundation</a>.',
       links: {
@@ -856,8 +783,7 @@ export default {
       },
     },
     {
-      id: 'archers-paradox-1-15',
-      logo: 'archers-paradox',
+      slug: 'archers-paradox',
       title: "Archer's Paradox",
       note: 'Requires <a href="#cofh-core-1-15">CoFH Core</a>.',
       links: {
@@ -865,8 +791,7 @@ export default {
       },
     },
     {
-      id: 'ensorcellation-1-15',
-      logo: 'ensorcellation',
+      slug: 'ensorcellation',
       title: 'Ensorcellation',
       note: 'Requires <a href="#cofh-core-1-15">CoFH Core</a>.',
       links: {
@@ -874,8 +799,7 @@ export default {
       },
     },
     {
-      id: 'omgourd-1-15',
-      logo: 'omgourd',
+      slug: 'omgourd',
       title: 'Oh My Gourd',
       note: 'Requires <a href="#cofh-core-1-15">CoFH Core</a>.',
       links: {
@@ -885,8 +809,7 @@ export default {
   ],
   '1.14': [
     {
-      id: 'cofh-core-1-14',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for all Team CoFH mods.',
       links: {
@@ -894,8 +817,7 @@ export default {
       },
     },
     {
-      id: 'ensorcellation-1-14',
-      logo: 'ensorcellation',
+      slug: 'ensorcellation',
       title: 'Ensorcellation',
       note: 'Requires <a href="#cofh-core-1-14">CoFH Core</a>.',
       links: {
@@ -905,8 +827,7 @@ export default {
   ],
   '1.12': [
     {
-      id: 'redstone-flux-1-12',
-      logo: 'redstone-flux',
+      slug: 'redstone-flux',
       title: 'Redstone Flux',
       note: 'Provides the Redstone Flux energy system.',
       links: {
@@ -916,8 +837,7 @@ export default {
       },
     },
     {
-      id: 'cofh-core-1-12',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for most Team CoFH mods. Requires <a href="#redstone-flux-1-12">Redstone Flux</a>.',
       links: {
@@ -928,8 +848,7 @@ export default {
       },
     },
     {
-      id: 'cofh-world-1-12',
-      logo: 'cofh-world',
+      slug: 'cofh-world',
       title: 'CoFH World',
       note: 'Handles world generation.',
       links: {
@@ -939,8 +858,7 @@ export default {
       },
     },
     {
-      id: 'thermal-foundation-1-12',
-      logo: 'thermal-foundation',
+      slug: 'thermal-foundation',
       title: 'Thermal Foundation',
       note: 'Requires <a href="#cofh-core-1-12">CoFH Core</a> and <a href="#cofh-world-1-12">CoFH World</a>.',
       links: {
@@ -951,8 +869,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-12',
-      logo: 'thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#thermal-foundation-1-12">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.',
       links: {
@@ -963,8 +880,7 @@ export default {
       },
     },
     {
-      id: 'thermal-dynamics-1-12',
-      logo: 'thermal-dynamics',
+      slug: 'thermal-dynamics',
       title: 'Thermal Dynamics',
       note: 'Requires <a href="#thermal-foundation-1-12">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.',
       links: {
@@ -975,8 +891,7 @@ export default {
       },
     },
     {
-      id: 'thermal-cultivation-1-12',
-      logo: 'thermal-cultivation',
+      slug: 'thermal-cultivation',
       title: 'Thermal Cultivation',
       note: 'Requires <a href="#thermal-foundation-1-12">Thermal Foundation</a>.',
       links: {
@@ -987,8 +902,7 @@ export default {
       },
     },
     {
-      id: 'thermal-innovation-1-12',
-      logo: 'thermal-innovation',
+      slug: 'thermal-innovation',
       title: 'Thermal Innovation',
       note: 'Requires <a href="#thermal-foundation-1-12">Thermal Foundation</a>.',
       links: {
@@ -999,8 +913,7 @@ export default {
       },
     },
     {
-      id: 'redstone-arsenal-1-12',
-      logo: 'redstone-arsenal',
+      slug: 'redstone-arsenal',
       title: 'Redstone Arsenal',
       note: 'Requires <a href="#cofh-core-1-12">CoFH Core</a>.',
       links: {
@@ -1011,8 +924,7 @@ export default {
       },
     },
     {
-      id: 'vanillaplus-tools-1-12',
-      logo: 'vanillaplus-tools',
+      slug: 'vanillaplus-tools',
       title: 'Vanilla+ Tools',
       note: 'Requires <a href="#cofh-core-1-12">CoFH Core</a>.',
       links: {
@@ -1022,8 +934,7 @@ export default {
       },
     },
     {
-      id: 'vanillaplus-satchels-1-12',
-      logo: 'vanillaplus-satchels',
+      slug: 'vanillaplus-satchels',
       title: 'Vanilla+ Satchels',
       note: 'Requires <a href="#cofh-core-1-12">CoFH Core</a>.',
       links: {
@@ -1033,8 +944,7 @@ export default {
       },
     },
     {
-      id: 'no-night-vision-flashing-1-12',
-      logo: 'no-night-vision-flashing',
+      slug: 'no-night-vision-flashing',
       title: 'No Night Vision Flashing',
       note: 'Removes the flashing effect when Night Vision is wearing off.',
       links: {
@@ -1045,8 +955,7 @@ export default {
   ],
   '1.11': [
     {
-      id: 'cofh-core-1-11',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for most Team CoFH mods.',
       links: {
@@ -1056,8 +965,7 @@ export default {
       },
     },
     {
-      id: 'thermal-foundation-1-11',
-      logo: 'thermal-foundation',
+      slug: 'thermal-foundation',
       title: 'Thermal Foundation',
       note: 'Requires <a href="#cofh-core-1-11">CoFH Core</a>.',
       links: {
@@ -1067,8 +975,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-11',
-      logo: 'thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#thermal-foundation-1-11">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.',
       links: {
@@ -1078,8 +985,7 @@ export default {
       },
     },
     {
-      id: 'thermal-dynamics-1-11',
-      logo: 'thermal-dynamics',
+      slug: 'thermal-dynamics',
       title: 'Thermal Dynamics',
       note: 'Requires <a href="#thermal-foundation-1-11">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.',
       links: {
@@ -1089,8 +995,7 @@ export default {
       },
     },
     {
-      id: 'redstone-arsenal-1-11',
-      logo: 'redstone-arsenal',
+      slug: 'redstone-arsenal',
       title: 'Redstone Arsenal',
       note: 'Requires <a href="#cofh-core-1-11">CoFH Core</a>.',
       links: {
@@ -1102,8 +1007,7 @@ export default {
   ],
   '1.10': [
     {
-      id: 'cofh-core-1-10',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for most Team CoFH mods.',
       links: {
@@ -1113,8 +1017,7 @@ export default {
       },
     },
     {
-      id: 'thermal-foundation-1-10',
-      logo: 'thermal-foundation',
+      slug: 'thermal-foundation',
       title: 'Thermal Foundation',
       note: 'Requires <a href="#cofh-core-1-10">CoFH Core</a>.',
       links: {
@@ -1124,8 +1027,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-10',
-      logo: 'thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#thermal-foundation-1-10">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.',
       links: {
@@ -1135,8 +1037,7 @@ export default {
       },
     },
     {
-      id: 'thermal-dynamics-1-10',
-      logo: 'thermal-dynamics',
+      slug: 'thermal-dynamics',
       title: 'Thermal Dynamics',
       note: 'Requires <a href="#thermal-foundation-1-10">Thermal Foundation</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.',
       links: {
@@ -1146,8 +1047,7 @@ export default {
       },
     },
     {
-      id: 'redstone-arsenal-1-10',
-      logo: 'redstone-arsenal',
+      slug: 'redstone-arsenal',
       title: 'Redstone Arsenal',
       note: 'Requires <a href="#cofh-core-1-10">CoFH Core</a>.',
       links: {
@@ -1157,8 +1057,7 @@ export default {
       },
     },
     {
-      id: 'minefactory-reloaded-1-10',
-      logo: 'minefactory-reloaded',
+      slug: 'minefactory-reloaded',
       title: 'MineFactory Reloaded',
       note: 'Requires <a href="#cofh-core-1-10">CoFH Core</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib</a>.',
       links: {
@@ -1169,8 +1068,7 @@ export default {
   ],
   '1.7': [
     {
-      id: 'cofh-core-1-7',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for most Team CoFH mods.',
       links: {
@@ -1180,7 +1078,7 @@ export default {
       },
     },
     {
-      id: 'cofh-lib-1-7',
+      slug: 'cofh-lib',
       title: 'CoFH Lib',
       note: 'Library and API used by CoFH mods, also meant as a resource for other modders.',
       links: {
@@ -1189,8 +1087,7 @@ export default {
       },
     },
     {
-      id: 'cofh-tweaks-1-7',
-      logo: 'cofh-tweaks',
+      slug: 'cofh-tweaks',
       title: 'CoFHTweaks',
       note: 'Various performance improvements.',
       links: {
@@ -1199,8 +1096,7 @@ export default {
       },
     },
     {
-      id: 'thermal-foundation-1-7',
-      logo: 'thermal-foundation',
+      slug: 'thermal-foundation',
       title: 'Thermal Foundation',
       note: 'Requires <a href="#cofh-core-1-7">CoFH Core</a>.',
       links: {
@@ -1210,8 +1106,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-7',
-      logo: 'thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#thermal-foundation-1-7">Thermal Foundation</a>.',
       links: {
@@ -1221,8 +1116,7 @@ export default {
       },
     },
     {
-      id: 'thermal-dynamics-1-7',
-      logo: 'thermal-dynamics',
+      slug: 'thermal-dynamics',
       title: 'Thermal Dynamics',
       note: 'Requires <a href="#thermal-foundation-1-7">Thermal Foundation</a>.',
       links: {
@@ -1232,8 +1126,7 @@ export default {
       },
     },
     {
-      id: 'redstone-arsenal-1-7',
-      logo: 'redstone-arsenal',
+      slug: 'redstone-arsenal',
       title: 'Redstone Arsenal',
       note: 'Requires <a href="#cofh-core-1-7">CoFH Core</a>.',
       links: {
@@ -1243,8 +1136,7 @@ export default {
       },
     },
     {
-      id: 'minefactory-reloaded-1-7',
-      logo: 'minefactory-reloaded',
+      slug: 'minefactory-reloaded',
       title: 'MineFactory Reloaded',
       note: 'Requires <a href="#cofh-core-1-7">CoFH Core</a>.',
       links: {
@@ -1253,8 +1145,7 @@ export default {
       },
     },
     {
-      id: 'nether-ores-1-7',
-      logo: 'nether-ores',
+      slug: 'nether-ores',
       title: 'NetherOres',
       note: 'Requires <a href="#cofh-core-1-7">CoFH Core</a>.',
       links: {
@@ -1263,8 +1154,7 @@ export default {
       },
     },
     {
-      id: 'tabula-rasa-1-7',
-      logo: 'tabula-rasa',
+      slug: 'tabula-rasa',
       title: 'Tabula Rasa',
       note: 'Allows adding new blocks and items using configuration files.',
       links: {
@@ -1273,8 +1163,7 @@ export default {
       },
     },
     {
-      id: 'cobblehaters-1-7',
-      logo: 'cobblehaters',
+      slug: 'cobblehaters',
       title: 'CobbleHaters',
       note: 'Makes cobblestone impossible to get. May be used for challenge runs.',
       links: {
@@ -1283,8 +1172,7 @@ export default {
       },
     },
     {
-      id: 'alternate-scoring-1-7',
-      logo: 'alternate-scoring',
+      slug: 'alternate-scoring',
       title: 'Alternate Scoring',
       note: 'Provides alternate methods of scoring. May be used for challenge runs.',
       links: {
@@ -1295,8 +1183,7 @@ export default {
   ],
   '1.6': [
     {
-      id: 'cofh-core-1-6',
-      logo: 'cofh-core',
+      slug: 'cofh-core',
       title: 'CoFH Core',
       note: 'Required for most Team CoFH mods.',
       links: {
@@ -1304,8 +1191,7 @@ export default {
       },
     },
     {
-      id: 'thermal-expansion-1-6',
-      logo: 'thermal-expansion',
+      slug: 'thermal-expansion',
       title: 'Thermal Expansion',
       note: 'Requires <a href="#cofh-core-1-6">CoFH Core</a>.',
       links: {
@@ -1313,8 +1199,7 @@ export default {
       },
     },
     {
-      id: 'redstone-arsenal-1-6',
-      logo: 'redstone-arsenal',
+      slug: 'redstone-arsenal',
       title: 'Redstone Arsenal',
       note: 'Requires <a href="#cofh-core-1-6">CoFH Core</a>.',
       links: {
@@ -1323,7 +1208,7 @@ export default {
       },
     },
     {
-      id: 'powercrystalscore-1-6',
+      slug: 'powercrystalscore',
       title: 'PowerCrystalsCore',
       note: 'Required by MineFactory Reloaded and NetherOres.',
       links: {
@@ -1332,8 +1217,7 @@ export default {
       },
     },
     {
-      id: 'minefactory-reloaded-1-6',
-      logo: 'minefactory-reloaded',
+      slug: 'minefactory-reloaded',
       title: 'MineFactory Reloaded',
       note: 'Requires <a href="#powercrystalscore-1-6">PowerCrystalsCore</a>.',
       links: {
@@ -1342,8 +1226,7 @@ export default {
       },
     },
     {
-      id: 'nether-ores-1-6',
-      logo: 'nether-ores',
+      slug: 'nether-ores',
       title: 'NetherOres',
       note: 'Requires <a href="#powercrystalscore-1-6">PowerCrystalsCore</a>.',
       links: {

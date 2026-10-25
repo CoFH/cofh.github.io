@@ -4,10 +4,10 @@ title: Fluid Allocator
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/fluid-allocator.png', alt: 'Fluid allocator' }]}
-/>
+<PageImage images={[{ item: te.fluidAllocator }]} />
 
 > It's like a [hopper](https://minecraft.wiki/w/Hopper), for fluids!
 
@@ -25,11 +25,7 @@ A placed fluid allocator can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-device-fluid-buffer']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.fluidAllocator]} noResult />
 
 
 Usage

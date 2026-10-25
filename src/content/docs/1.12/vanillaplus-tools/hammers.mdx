@@ -4,14 +4,16 @@ title: Hammers
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import vpt from '@/data/1.12/vanillaplus-tools/items.ts';
+import vptCrafting from '@/data/1.12/vanillaplus-tools/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-tools/hammer-iron.png', alt: 'Iron hammer' },
-    { file: 'vanillaplus-tools/hammer-gold.png', alt: 'Gold hammer' },
-    { file: 'vanillaplus-tools/hammer-diamond.png', alt: 'Diamond hammer' },
-    { file: 'vanillaplus-tools/hammer-wood.png', alt: 'Wooden hammer' },
-    { file: 'vanillaplus-tools/hammer-stone.png', alt: 'Stone hammer' },
+    { item: vpt.ironHammer },
+    { item: vpt.goldHammer },
+    { item: vpt.diamondHammer },
+    { item: vpt.woodenHammer },
+    { item: vpt.stoneHammer },
   ]}
 />
 
@@ -24,13 +26,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'vpt-1-12-tool-hammer-wood',
-    'vpt-1-12-tool-hammer-stone',
-    'vpt-1-12-tool-hammer-iron',
-    'vpt-1-12-tool-hammer-gold',
-    'vpt-1-12-tool-hammer-diamond',
+    vptCrafting.woodenHammer,
+    vptCrafting.stoneHammer,
+    vptCrafting.ironHammer,
+    vptCrafting.goldHammer,
+    vptCrafting.diamondHammer,
   ]}
 />
 

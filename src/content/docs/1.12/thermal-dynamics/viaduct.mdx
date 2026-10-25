@@ -4,10 +4,11 @@ title: Viaduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
 
-<PageImage
-  images={[{ file: 'thermal-dynamics-2/viaduct.png', alt: 'Viaduct' }]}
-/>
+<PageImage images={[{ item: td.viaduct }]} />
 
 > Whoosh!
 
@@ -23,16 +24,10 @@ A placed viaduct can be instantly picked up by dismantling it with a
 [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['td-1-12-viaduct-frame']}
-/>
+<RecipeTable recipes={[tdCrafting.viaductUntreated]} />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['td-1-12-viaduct']}
-/>
+<RecipeTable recipes={[tdTransposerFill.viaduct]} />
 
 
 Usage
@@ -60,7 +55,4 @@ viaducts](../long-range-viaduct/).
 
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['td-1-12-viaduct-long-range-linking']}
-/>
+<RecipeTable recipes={[tdTransposerFill.longRangeLinkingViaduct]} />

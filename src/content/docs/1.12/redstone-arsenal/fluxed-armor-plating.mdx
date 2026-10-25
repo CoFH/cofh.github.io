@@ -4,10 +4,10 @@ title: Fluxed Armor Plating
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/fluxed-armor-plating.png', alt: 'Fluxed armor plating' }]}
-/>
+<PageImage images={[{ item: ra.fluxedArmorPlating }]} />
 
 **Fluxed armor plating** is a crafting material used to make flux-infused armor.
 
@@ -16,11 +16,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-fluxed-armor-plating']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxedArmorPlating]} noResult />
 
 
 Usage
@@ -28,11 +24,10 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ra-1-12-armor-helmet',
-    'ra-1-12-armor-chestplate',
-    'ra-1-12-armor-leggings',
-    'ra-1-12-armor-boots',
+    raCrafting.fluxInfusedHelm,
+    raCrafting.fluxInfusedChestplate,
+    raCrafting.fluxInfusedLeggings,
+    raCrafting.fluxInfusedBoots,
   ]}
 />

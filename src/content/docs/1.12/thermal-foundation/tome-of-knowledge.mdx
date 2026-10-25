@@ -4,10 +4,11 @@ title: Tome of Knowledge
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/tome-of-knowledge.png', alt: 'Tome of knowledge' }]}
-/>
+<PageImage images={[{ item: tf.tomeOfKnowledge }]} />
 
 A **tome of knowledge** is an item that stores
 [experience](https://minecraft.wiki/w/Experience).
@@ -17,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-tome-of-knowledge']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.tomeOfKnowledge]} noResult />
 
 
 Usage
@@ -73,7 +70,4 @@ its capacity.
 </table>
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-device-xp-collector']}
-/>
+<RecipeTable recipes={[teCrafting.insightfulCondenser]} />

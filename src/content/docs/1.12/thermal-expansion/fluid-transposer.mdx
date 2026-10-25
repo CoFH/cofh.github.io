@@ -5,10 +5,14 @@ title: Fluid Transposer
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import raTransposerFill from '@/data/1.12/redstone-arsenal/recipes/transposer-fill.ts';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/fluid-transposer.png', alt: 'Fluid transposer' }]}
-/>
+<PageImage images={[{ item: te.fluidTransposer }]} />
 
 > Filling buckets by hand is hard work.
 
@@ -27,11 +31,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-transposer']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.fluidTransposer]} noResult />
 
 ### Upgrading
 A fluid transposer is initially at the lowest [tier](#tiers) (basic). It can be
@@ -203,39 +203,38 @@ Recipes
   RF.
 
 <RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
   recipes={[
-    'moss-stone',
-    'stone-bricks-mossy',
-    'concrete',
-    'sponge-wet',
-    'ice',
-    'packed-ice',
-    'mushroom-stew',
-    'blaze-powder',
-    'blizz-powder',
-    'blitz-powder',
-    'basalz-powder',
-    'phyto-gro-rich',
-    'biomass-rich',
-    'bioblend-rich',
-    'redstone-from-fluid',
-    'glowstone-dust-from-fluid',
-    'ender-pearl-from-fluid',
-    'redstone-from-clathrate',
-    'glowstone-dust-from-clathrate',
-    'ender-pearl-from-clathrate',
-    'bottle-o-enchanting',
-    'td-1-12-fluxduct-reinforced',
-    'td-1-12-fluxduct-signalum',
-    'td-1-12-fluxduct-resonant',
-    'td-1-12-fluxduct-super',
-    'td-1-12-itemduct-fast',
-    'td-1-12-itemduct-energy-fast',
-    'td-1-12-viaduct',
-    'td-1-12-viaduct-long-range-linking',
-    'ra-1-12-dust-fluxed-electrum',
-    'ra-1-12-flux-crystal',
+    teTransposerFill.mossStone,
+    teTransposerFill.mossyStoneBricks,
+    teTransposerFill.concrete,
+    teTransposerFill.wetSponge,
+    teTransposerFill.ice,
+    teTransposerFill.packedIce,
+    teTransposerFill.mushroomStew,
+    teTransposerFill.blazePowder,
+    teTransposerFill.blizzPowder,
+    teTransposerFill.blitzPowder,
+    teTransposerFill.basalzPowder,
+    teTransposerFill.richPhytoGro,
+    teTransposerFill.richBiomass,
+    teTransposerFill.richBioblend,
+    teTransposerFill.redstone.fluid,
+    teTransposerFill.glowstoneDust.fluid,
+    teTransposerFill.enderPearl.fluid,
+    teTransposerFill.redstone.clathrate,
+    teTransposerFill.glowstoneDust.clathrate,
+    teTransposerFill.enderPearl.clathrate,
+    teTransposerFill.bottleOEnchanting,
+    tdTransposerFill.redstoneEnergyFluxduct,
+    tdTransposerFill.signalumFluxduct,
+    tdTransposerFill.resonantFluxduct,
+    tdTransposerFill.cryoStabilizedFluxduct,
+    tdTransposerFill.impulseItemduct,
+    tdTransposerFill.signalumPlatedImpulseItemduct,
+    tdTransposerFill.viaduct,
+    tdTransposerFill.longRangeLinkingViaduct,
+    raTransposerFill.fluxedElectrumBlend,
+    raTransposerFill.fluxCrystal,
   ]}
 />
 
@@ -246,14 +245,13 @@ Recipes
   [potion](https://minecraft.wiki/w/Potion) for 800 RF.
 
 <RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
   recipes={[
-    'water-from-cactus',
-    'water-from-sponge',
-    'seed-oil-from-seeds',
-    'seed-oil-from-beetroot-seeds',
-    'seed-oil-from-pumpkin-seeds',
-    'seed-oil-from-melon-seeds',
-    'mushroom-stew',
+    teTransposerEmpty.water.cactus,
+    teTransposerEmpty.water.sponge,
+    teTransposerEmpty.seedOil.seeds,
+    teTransposerEmpty.seedOil.beetrootSeeds,
+    teTransposerEmpty.seedOil.pumpkinSeeds,
+    teTransposerEmpty.seedOil.melonSeeds,
+    teTransposerEmpty.mushroomStew,
   ]}
 />

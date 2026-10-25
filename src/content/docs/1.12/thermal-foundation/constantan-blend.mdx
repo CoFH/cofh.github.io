@@ -4,10 +4,14 @@ title: Constantan Blend
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-constantan.png', alt: 'Constantan blend' }]}
-/>
+<PageImage images={[{ item: tf.constantanBlend }]} />
 
 
 **Constantan blend** is a raw material. It is the dust form of
@@ -18,46 +22,23 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-dust-constantan']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.constantanBlend]} noResult />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-constantan']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.constantanBlend]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-hardened-glass-constantan']}
-/>
+<RecipeTable recipes={[tfCrafting.hardenedConstantanGlass]} />
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-constantan-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.constantanIngotFromDust]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-constantan',
-    'hardened-glass-constantan',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.constantan, teSmelter.hardenedConstantanGlass]} />
 
 ### Centrifugal Separator ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-constantan']}
-/>
+<RecipeTable recipes={[teCentrifuge.constantanBlend]} />

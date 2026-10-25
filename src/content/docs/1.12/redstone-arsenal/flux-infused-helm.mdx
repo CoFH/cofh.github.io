@@ -4,10 +4,10 @@ title: Flux-Infused Helm
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-helm.png', alt: 'Flux-infused helm' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedHelm }]} />
 
 A **flux-infused helm** is a powerful
 [helmet](https://minecraft.wiki/w/Helmet) powered by [Redstone
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-armor-helmet']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedHelm]} noResult />
 
 
 Usage

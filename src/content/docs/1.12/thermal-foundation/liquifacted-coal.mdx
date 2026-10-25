@@ -4,10 +4,13 @@ title: Liquifacted Coal
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teRefinery from '@/data/1.12/thermal-expansion/recipes/refinery.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/liquifacted-coal.gif', alt: 'Liquifacted coal' }]}
-/>
+<PageImage images={[{ item: tfFluids.liquifactedCoal }]} />
 
 > Liquifaction is salvation!
 
@@ -22,16 +25,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['coal']}
-/>
+<RecipeTable recipes={[teCrucible.liquifactedCoal]} />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-coal']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.liquifactedCoalBucket]} />
 
 
 Usage
@@ -40,16 +37,10 @@ Usage
 Liquifacted coal cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-coal']}
-/>
+<RecipeTable recipes={[teTransposerFill.liquifactedCoalBucket]} />
 
 ### Fractionating Still ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/refinery"
-  recipes={['naphtha-from-coal']}
-/>
+<RecipeTable recipes={[teRefinery.naphtha.liquifactedCoal]} />
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/), a bucket

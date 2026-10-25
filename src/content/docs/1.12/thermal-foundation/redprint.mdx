@@ -4,10 +4,10 @@ title: Redprint
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/redprint.png', alt: 'Redprint' }]}
-/>
+<PageImage images={[{ item: tf.redprint }]} />
 
 
 **Redprints** are items that can copy the configuration of certain blocks to
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-redprint']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.redprint]} noResult />
 
 
 Usage

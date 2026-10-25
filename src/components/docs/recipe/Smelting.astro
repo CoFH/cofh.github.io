@@ -1,0 +1,18 @@
+---
+import type { Recipe } from '../../../data/types.ts';
+import { asSlot } from './narrow.ts';
+import RecipeFrame from './RecipeFrame.astro';
+import Slot from './Slot.astro';
+import background from './smelting.png';
+
+interface Props {
+  recipe: Recipe;
+}
+
+const { recipe } = Astro.props;
+---
+
+<RecipeFrame background={background}>
+  <Slot data={asSlot(recipe.inputs[0])} top={10} left={10} />
+  <Slot data={asSlot(recipe.outputs[0])} top={46} left={114} />
+</RecipeFrame>

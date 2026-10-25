@@ -4,10 +4,14 @@ title: Petrotheum Dust
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-petrotheum.gif', alt: 'Petrotheum dust' }]}
-/>
+<PageImage images={[{ item: tf.petrotheumDust }]} />
 
 
 **Petrotheum dust** is the earth elemental dust. It is most commonly used to
@@ -19,45 +23,34 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-dust-petrotheum']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.petrotheumDust]} noResult />
 
 
 Usage
 -----
 
 ### Magma Crucible ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['petrotheum']}
-/>
+<RecipeTable recipes={[teCrucible.tectonicPetrotheum]} />
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ore-metal',
-    'tf-1-12-petrotheum-pyrotheum-ore-metal',
-    'tf-1-12-petrotheum-ingot-ore-metal',
-    'tf-1-12-petrotheum-ore-coal',
-    'tf-1-12-petrotheum-ore-redstone',
-    'tf-1-12-petrotheum-ore-lapis-lazuli',
-    'tf-1-12-petrotheum-ore-diamond',
-    'tf-1-12-petrotheum-ore-emerald',
-    'tf-1-12-petrotheum-ore-nether-quartz',
-    'te-1-12-augment-machine-pulverizer-petrotheum',
-    'ti-1-12-fluxbore-signalum',
+    tfCrafting.petrotheum.oreMetal,
+    tfCrafting.petrotheumPyrotheum.oreMetal,
+    tfCrafting.petrotheum.ingotOreMetal,
+    tfCrafting.petrotheum.coalOre,
+    tfCrafting.petrotheum.redstoneOre,
+    tfCrafting.petrotheum.lapisLazuliOre,
+    tfCrafting.petrotheum.diamondOre,
+    tfCrafting.petrotheum.emeraldOre,
+    tfCrafting.petrotheum.netherQuartzOre,
+    teCrafting.augmentTectonicInitiator,
+    tiCrafting.fluxbore3,
   ]}
 />
 
 ### Centrifugal Separator ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-petrotheum']}
-/>
+<RecipeTable recipes={[teCentrifuge.petrotheumDust]} />
 
 ### Arcane Ensorcellator ingredient
 Petrotheum dust can be combined with

@@ -4,10 +4,13 @@ title: Iridium Ore
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ore-iridium.png', alt: 'Iridium ore' }]}
-/>
+<PageImage images={[{ item: tf.iridiumOre }]} />
 
 
 **Iridium ore** is an [ore](https://minecraft.wiki/w/Ore) that yields
@@ -31,34 +34,26 @@ Usage
 -----
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ore-processing-iridium']}
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.iridium]} />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-iridium',
-    'tf-1-12-petrotheum-ore-iridium',
-    'tf-1-12-petrotheum-pyrotheum-ore-iridium',
+    tfCrafting.pyrotheum.iridiumOre,
+    tfCrafting.petrotheum.iridiumOre,
+    tfCrafting.petrotheumPyrotheum.iridiumOre,
   ]}
 />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['ore-processing-iridium']}
-/>
+<RecipeTable recipes={[tePulverizer.oreProcessing.iridium]} />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-iridium',
-    'ore-processing-rich-slag-iridium',
-    'ore-processing-cinnabar-iridium',
+    teSmelter.oreProcessing.iridium,
+    teSmelter.oreProcessingRichSlag.iridium,
+    teSmelter.oreProcessingCinnabar.iridium,
   ]}
 />
 

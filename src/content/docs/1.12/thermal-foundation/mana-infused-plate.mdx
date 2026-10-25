@@ -4,10 +4,11 @@ title: Mana Infused Plate
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/plate-mithril.png', alt: 'Mana infused plate' }]}
-/>
+<PageImage images={[{ item: tf.manaInfusedPlate }]} />
 
 
 **Mana infused plates** are crafting materials made of [mana infused
@@ -18,18 +19,11 @@ Obtaining
 ---------
 
 ### Compactor
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-mithril']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactor.manaInfusedPlate]} noResult />
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-plate-mithril']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.manaInfusedPlate]} />

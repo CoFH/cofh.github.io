@@ -4,10 +4,12 @@ title: Platinum Gear
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/gear-platinum.png', alt: 'Platinum gear' }]}
-/>
+<PageImage images={[{ item: tf.platinumGear }]} />
 
 
 **Platinum gears** are crafting materials made of
@@ -18,25 +20,14 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-gear-platinum']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.platinumGear]} noResult />
 
 ### Compactor with Gearworking Die
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-platinum']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorGear.platinumGear]} noResult />
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-gear-platinum']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.platinumGear]} />

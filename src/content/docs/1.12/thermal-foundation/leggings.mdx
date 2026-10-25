@@ -4,21 +4,24 @@ title: Leggings
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/leggings-copper.png', alt: 'Copper leggings' },
-    { file: 'thermal-foundation-2/leggings-tin.png', alt: 'Tin leggings' },
-    { file: 'thermal-foundation-2/leggings-silver.png', alt: 'Silver leggings' },
-    { file: 'thermal-foundation-2/leggings-lead.png', alt: 'Lead leggings' },
-    { file: 'thermal-foundation-2/leggings-aluminum.png', alt: 'Aluminum leggings' },
-    { file: 'thermal-foundation-2/leggings-nickel.png', alt: 'Nickel leggings' },
-    { file: 'thermal-foundation-2/leggings-platinum.png', alt: 'Platinum leggings' },
-    { file: 'thermal-foundation-2/leggings-steel.png', alt: 'Steel leggings' },
-    { file: 'thermal-foundation-2/leggings-electrum.png', alt: 'Electrum leggings' },
-    { file: 'thermal-foundation-2/leggings-invar.png', alt: 'Invar leggings' },
-    { file: 'thermal-foundation-2/leggings-bronze.png', alt: 'Bronze leggings' },
-    { file: 'thermal-foundation-2/leggings-constantan.png', alt: 'Constantan leggings' },
+    { item: tf.copperLeggings },
+    { item: tf.tinLeggings },
+    { item: tf.silverLeggings },
+    { item: tf.leadLeggings },
+    { item: tf.aluminumLeggings },
+    { item: tf.nickelLeggings },
+    { item: tf.platinumLeggings },
+    { item: tf.steelLeggings },
+    { item: tf.electrumLeggings },
+    { item: tf.invarLeggings },
+    { item: tf.bronzeLeggings },
+    { item: tf.constantanLeggings },
   ]}
 />
 
@@ -34,20 +37,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-armor-leggings-copper',
-    'tf-1-12-armor-leggings-tin',
-    'tf-1-12-armor-leggings-silver',
-    'tf-1-12-armor-leggings-lead',
-    'tf-1-12-armor-leggings-aluminum',
-    'tf-1-12-armor-leggings-nickel',
-    'tf-1-12-armor-leggings-platinum',
-    'tf-1-12-armor-leggings-steel',
-    'tf-1-12-armor-leggings-electrum',
-    'tf-1-12-armor-leggings-invar',
-    'tf-1-12-armor-leggings-bronze',
-    'tf-1-12-armor-leggings-constantan',
+    tfCrafting.copperLeggings,
+    tfCrafting.tinLeggings,
+    tfCrafting.silverLeggings,
+    tfCrafting.leadLeggings,
+    tfCrafting.aluminumLeggings,
+    tfCrafting.nickelLeggings,
+    tfCrafting.platinumLeggings,
+    tfCrafting.steelLeggings,
+    tfCrafting.electrumLeggings,
+    tfCrafting.invarLeggings,
+    tfCrafting.bronzeLeggings,
+    tfCrafting.constantanLeggings,
   ]}
 />
 
@@ -199,19 +201,18 @@ defense = mat.reductionAmounts[1]
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-armor-leggings-copper',
-    'recycling-armor-leggings-tin',
-    'recycling-armor-leggings-silver',
-    'recycling-armor-leggings-lead',
-    'recycling-armor-leggings-aluminum',
-    'recycling-armor-leggings-nickel',
-    'recycling-armor-leggings-platinum',
-    'recycling-armor-leggings-steel',
-    'recycling-armor-leggings-electrum',
-    'recycling-armor-leggings-invar',
-    'recycling-armor-leggings-bronze',
-    'recycling-armor-leggings-constantan',
+    teSmelter.recycling.copperLeggings,
+    teSmelter.recycling.tinLeggings,
+    teSmelter.recycling.silverLeggings,
+    teSmelter.recycling.leadLeggings,
+    teSmelter.recycling.aluminumLeggings,
+    teSmelter.recycling.nickelLeggings,
+    teSmelter.recycling.platinumLeggings,
+    teSmelter.recycling.steelLeggings,
+    teSmelter.recycling.electrumLeggings,
+    teSmelter.recycling.invarLeggings,
+    teSmelter.recycling.bronzeLeggings,
+    teSmelter.recycling.constantanLeggings,
   ]}
 />

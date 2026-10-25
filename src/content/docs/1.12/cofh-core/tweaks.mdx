@@ -3,7 +3,8 @@ title: Tweaks
 ---
 
 import { Image } from 'astro:assets';
-import { image } from '@/lib/images.ts';
+import colorBlindComparisonImage from '@/data/1.12/cofh-core/images/color-blind-comparison.png';
+import namedMobDeathMessageImage from '@/data/1.12/cofh-core/images/named-mob-death-message.png';
 
 [CoFH Core](../) adds several **tweaks** to the game. Most of these are optional
 and can be disabled.
@@ -25,7 +26,7 @@ When a [mob](https://minecraft.wiki/w/Mob) with a custom
 [name](https://minecraft.wiki/w/Name_Tag) dies, a death message is shown
 in the chat as if it were a player. This is enabled by default.
 
-<p><Image src={image('cofh-core-1-14/named-mob-death-message.png')} alt="Example of a named mob death message" style="height: 15px; width: auto" /></p>
+<p><Image src={namedMobDeathMessageImage} alt="Example of a named mob death message" style="height: 15px; width: auto" /></p>
 
 
 Color blind textures
@@ -34,7 +35,7 @@ Color blind textures
 If color blind textures are enabled, features that rely on color use different
 textures for people with color blindness.
 
-<p><Image src={image('cofh-core-1-14/color-blind-comparison.png')} alt="Color blind textures comparison" style="height: 132px; width: auto" /></p>
+<p><Image src={colorBlindComparisonImage} alt="Color blind textures comparison" style="height: 132px; width: auto" /></p>
 
 
 Disabling particles

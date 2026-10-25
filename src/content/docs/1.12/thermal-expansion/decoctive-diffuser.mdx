@@ -4,10 +4,10 @@ title: Decoctive Diffuser
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/decoctive-diffuser.png', alt: 'Decoctive diffuser' }]}
-/>
+<PageImage images={[{ item: te.decoctiveDiffuser }]} />
 
 A **decoctive diffuser**, or **diffuser** for short, is a
 [device](../devices/) that spreads the effects of [fluid
@@ -22,11 +22,7 @@ A placed decoctive diffuser can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-device-diffuser']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.decoctiveDiffuser]} noResult />
 
 
 Usage

@@ -4,10 +4,13 @@ title: Nickel Ore
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ore-nickel.png', alt: 'Nickel ore' }]}
-/>
+<PageImage images={[{ item: tf.nickelOre }]} />
 
 
 **Nickel ore** is an uncommon [ore](https://minecraft.wiki/w/Ore) that
@@ -31,34 +34,26 @@ Usage
 -----
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ore-processing-nickel']}
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.nickel]} />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-nickel',
-    'tf-1-12-petrotheum-ore-nickel',
-    'tf-1-12-petrotheum-pyrotheum-ore-nickel',
+    tfCrafting.pyrotheum.nickelOre,
+    tfCrafting.petrotheum.nickelOre,
+    tfCrafting.petrotheumPyrotheum.nickelOre,
   ]}
 />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['ore-processing-nickel']}
-/>
+<RecipeTable recipes={[tePulverizer.oreProcessing.nickel]} />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-nickel',
-    'ore-processing-rich-slag-nickel',
-    'ore-processing-cinnabar-nickel',
+    teSmelter.oreProcessing.nickel,
+    teSmelter.oreProcessingRichSlag.nickel,
+    teSmelter.oreProcessingCinnabar.nickel,
   ]}
 />
 

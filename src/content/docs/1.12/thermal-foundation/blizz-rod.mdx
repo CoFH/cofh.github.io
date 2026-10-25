@@ -4,10 +4,12 @@ title: Blizz Rod
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/blizz-rod.png', alt: 'Blizz rod' }]}
-/>
+<PageImage images={[{ item: tf.blizzRod }]} />
 
 
 **Blizz rods** are materials that are dropped by [blizzes](../blizz/). They
@@ -23,24 +25,14 @@ Obtaining
 A [blizz](../blizz/) may drop a blizz rod when killed by a player.
 
 ### Compactor
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['blizz-rod-from-powder']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactor.blizzRodFromPowder]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-blizz-powder']}
-/>
+<RecipeTable recipes={[tfCrafting.blizzPowder]} />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['blizz-powder']}
-/>
+<RecipeTable recipes={[tePulverizer.blizzPowder]} />

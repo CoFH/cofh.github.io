@@ -4,10 +4,10 @@ title: Flux-Infused Sickle
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-sickle.png', alt: 'Flux-infused sickle' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedSickle }]} />
 
 A **flux-infused sickle** is a powerful [sickle](../../thermal-foundation/sickles/) powered by
 [Redstone Flux](/docs/redstone-flux/).
@@ -17,11 +17,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-tool-sickle']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedSickle]} noResult />
 
 
 Usage

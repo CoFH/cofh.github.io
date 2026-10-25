@@ -5,10 +5,11 @@ title: Igneous Extruder
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teExtruder from '@/data/1.12/thermal-expansion/recipes/extruder.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/igneous-extruder.png', alt: 'Igneous extruder' }]}
-/>
+<PageImage images={[{ item: te.igneousExtruder }]} />
 
 > Minecraft physics are fun!
 
@@ -26,11 +27,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-extruder']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.igneousExtruder]} noResult />
 
 ### Upgrading
 An igneous extruder is initially at the lowest [tier](#tiers) (basic). It can be
@@ -184,13 +181,12 @@ When a fluid's input amount is listed as 0 mB, it is not consumed; it only needs
 to be inside the corresponding input tank.
 
 <RecipeTable
-  type="1.12/thermal-expansion/extruder"
   recipes={[
-    'cobblestone',
-    'stone',
-    'obsidian',
-    'granite',
-    'diorite',
-    'andesite',
+    teExtruder.cobblestone,
+    teExtruder.stone,
+    teExtruder.obsidian,
+    teExtruder.granite,
+    teExtruder.diorite,
+    teExtruder.andesite,
   ]}
 />

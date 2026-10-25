@@ -4,10 +4,10 @@ title: Multimeter
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/multimeter.png', alt: 'Multimeter' }]}
-/>
+<PageImage images={[{ item: tf.multimeter }]} />
 
 > There are no accidents, only Flukes.
 
@@ -19,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-multimeter']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.multimeter]} noResult />
 
 
 Usage

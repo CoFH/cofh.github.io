@@ -5,10 +5,10 @@ import NavboxLink from './NavboxLink.astro';
 
 interface Props {
   group: DocNavGroup;
-  urlPrefix: string;
+  path: string;
 }
 
-const { group, urlPrefix } = Astro.props;
+const { group, path } = Astro.props;
 const subgroups = group.groups ?? [];
 const items = group.items ?? [];
 ---
@@ -17,7 +17,7 @@ const items = group.items ?? [];
   {group.title !== undefined && (
     <th class="cofh-navbox-group-title">
       {group.url !== undefined ? (
-        <NavboxLink url={`${urlPrefix}${group.url}`} text={group.title} icon={undefined} />
+        <NavboxLink href={`/docs/${path}/${group.url}`} text={group.title} icon={undefined} />
       ) : (
         group.title
       )}
@@ -43,7 +43,7 @@ const items = group.items ?? [];
                 <span class="uk-text-bold">&#8729;</span>{' '}
               </>
             )}
-            <NavboxItem item={item} urlPrefix={urlPrefix} />
+            <NavboxItem item={item} path={path} />
           </>
         ))}
       </div>
@@ -53,7 +53,7 @@ const items = group.items ?? [];
       <table class="uk-table cofh-navbox-table cofh-navbox-subgroups-table">
         <tbody>
           {subgroups.map((subgroup) => (
-            <Astro.self group={subgroup} urlPrefix={urlPrefix} />
+            <Astro.self group={subgroup} path={path} />
           ))}
         </tbody>
       </table>

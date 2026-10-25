@@ -4,10 +4,10 @@ title: Flux-Infused Boots
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-boots.png', alt: 'Flux-infused boots' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedBoots }]} />
 
 **Flux-infused boots** are powerful
 [boots](https://minecraft.wiki/w/Boots) powered by [Redstone
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-armor-boots']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedBoots]} noResult />
 
 
 Usage

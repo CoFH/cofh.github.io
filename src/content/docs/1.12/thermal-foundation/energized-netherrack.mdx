@@ -4,10 +4,11 @@ title: Energized Netherrack
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ore-fluid-glowstone.png', alt: 'Energized netherrack' }]}
-/>
+<PageImage images={[{ item: tf.energizedNetherrack }]} />
 
 
 **Energized netherrack** is a rare [ore](https://minecraft.wiki/w/Ore)
@@ -42,16 +43,10 @@ Usage
 -----
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['fluid-ore-processing-glowstone']}
-/>
+<RecipeTable recipes={[tePulverizer.fluidOreProcessing.energizedNetherrack]} />
 
 ### Magma Crucible
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['fluid-ore-processing-glowstone']}
-/>
+<RecipeTable recipes={[teCrucible.fluidOreProcessing.energizedNetherrack]} />
 
 ### Light source
 Energized netherrack emits a light level of 15.

@@ -5,10 +5,11 @@ title: Magma Crucible
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/magma-crucible.png', alt: 'Magma crucible' }]}
-/>
+<PageImage images={[{ item: te.magmaCrucible }]} />
 
 > Yes, it can make lava. You monster.
 
@@ -26,11 +27,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-crucible']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.magmaCrucible]} noResult />
 
 ### Upgrading
 A magma crucible is initially at the lowest [tier](#tiers) (basic). It can be
@@ -187,44 +184,43 @@ Recipes
 -------
 
 <RecipeTable
-  type="1.12/thermal-expansion/crucible"
   recipes={[
-    'lava-from-cobblestone',
-    'lava-from-stone',
-    'lava-from-granite',
-    'lava-from-granite-polished',
-    'lava-from-diorite',
-    'lava-from-diorite-polished',
-    'lava-from-andesite',
-    'lava-from-andesite-polished',
-    'lava-from-obsidian',
-    'lava-from-netherrack',
-    'lava-from-magma-block',
-    'water-from-snowball',
-    'water-from-snow',
-    'water-from-ice',
-    'redstone',
-    'redstone-from-block',
-    'redstone-from-clathrate',
-    'fluid-ore-processing-redstone',
-    'glowstone',
-    'glowstone-from-block',
-    'glowstone-from-clathrate',
-    'fluid-ore-processing-glowstone',
-    'ender',
-    'ender-from-clathrate',
-    'fluid-ore-processing-ender',
-    'pyrotheum',
-    'cryotheum',
-    'aerotheum',
-    'petrotheum',
-    'coal',
-    'crude-oil-from-bitumen',
-    'fluid-ore-processing-oil-sand',
-    'fluid-ore-processing-oil-shale',
-    'biocrude-from-biomass',
-    'biocrude-from-biomass-rich',
-    'biocrude-from-bioblend',
-    'biocrude-from-bioblend-rich',
+    teCrucible.lava.cobblestone,
+    teCrucible.lava.stone,
+    teCrucible.lava.granite,
+    teCrucible.lava.polishedGranite,
+    teCrucible.lava.diorite,
+    teCrucible.lava.polishedDiorite,
+    teCrucible.lava.andesite,
+    teCrucible.lava.polishedAndesite,
+    teCrucible.lava.obsidian,
+    teCrucible.lava.netherrack,
+    teCrucible.lava.magmaBlock,
+    teCrucible.water.snowball,
+    teCrucible.water.snow,
+    teCrucible.water.ice,
+    teCrucible.destabilizedRedstone.redstone,
+    teCrucible.destabilizedRedstone.block,
+    teCrucible.destabilizedRedstone.clathrate,
+    teCrucible.fluidOreProcessing.destabilizedRedstoneOre,
+    teCrucible.energizedGlowstone.glowstoneDust,
+    teCrucible.energizedGlowstone.block,
+    teCrucible.energizedGlowstone.clathrate,
+    teCrucible.fluidOreProcessing.energizedNetherrack,
+    teCrucible.resonantEnder,
+    teCrucible.resonantEnderFromClathrate,
+    teCrucible.fluidOreProcessing.resonantEndStone,
+    teCrucible.blazingPyrotheum,
+    teCrucible.gelidCryotheum,
+    teCrucible.zephyreanAerotheum,
+    teCrucible.tectonicPetrotheum,
+    teCrucible.liquifactedCoal,
+    teCrucible.crudeOilFromBitumen,
+    teCrucible.fluidOreProcessing.oilSand,
+    teCrucible.fluidOreProcessing.oilShale,
+    teCrucible.biocrude.pulpedBiomass,
+    teCrucible.biocrude.richBiomass,
+    teCrucible.biocrude.pulpedBioblend,
+    teCrucible.biocrude.richBioblend,
   ]}
 />

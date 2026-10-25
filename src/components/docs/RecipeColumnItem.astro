@@ -1,0 +1,40 @@
+---
+import type { RecipeColumnItemData } from '../../data/types.ts';
+
+interface Props {
+  data: RecipeColumnItemData;
+  role: 'result' | 'ingredient';
+  first: boolean;
+}
+
+const { data, role, first } = Astro.props;
+
+const capitalize = (text: string) => `${text.charAt(0).toUpperCase()}${text.slice(1)}`;
+---
+
+{data.html !== undefined && <Fragment set:html={data.html} />}
+
+{data.item !== undefined &&
+  (data.item.href === undefined ? data.item.name : <a href={data.item.href}>{data.item.name}</a>)}
+
+{data.itemGroup !== undefined && (
+  <>
+    {role === 'ingredient' && data.itemGroup.prefix !== undefined && (
+      <>{first ? capitalize(data.itemGroup.prefix) : data.itemGroup.prefix}&nbsp;</>
+    )}
+    {data.itemGroup.href !== undefined ? (
+      <a href={data.itemGroup.href}>{data.itemGroup.name}</a>
+    ) : (
+      data.itemGroup.name
+    )}
+  </>
+)}
+
+{data.fluid !== undefined && (
+  <>
+    <a href={data.fluid.href}>{data.fluid.name}</a>
+    &nbsp;({data.fluidAmount.toLocaleString('en-US')}&nbsp;mB)
+  </>
+)}
+
+{data.suffix !== undefined && <>&nbsp;{data.suffix}</>}

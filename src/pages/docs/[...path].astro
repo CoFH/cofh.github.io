@@ -1,12 +1,10 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { getImage } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 
 import Navbox from '../../components/docs/Navbox.astro';
-import docnav from '../../data/docnav.ts';
+import type { DocNav } from '../../data/types.ts';
 import Base from '../../layouts/Base.astro';
-import { image } from '../../lib/images.ts';
 
 export const getStaticPaths = (async () => {
   const entries = await getCollection('docs');
@@ -20,38 +18,19 @@ export const getStaticPaths = (async () => {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 
-const itemSpriteSheet = await getImage({ src: image('recipe/item-sprites/sheet.png') });
-const navboxIconSheet = await getImage({ src: image('navbox-icon-sheet.png') });
+const navs = import.meta.glob<DocNav>('../../data/*/*/navbox.ts', {
+  eager: true,
+  import: 'default',
+});
 
-const navScopes: Record<string, keyof typeof docnav> = {
-  '1.16/thermal-series': 'thermal-series',
-  '1.16/archers-paradox': 'archers-paradox',
-  '1.15/cofh-core': 'cofh-core-1.15',
-  '1.12/cofh-core': 'cofh-core-1.12',
-  '1.12/cofh-world': 'cofh-world-1.12',
-  '1.12/thermal-foundation': 'thermal-foundation-1.12',
-  '1.12/thermal-expansion': 'thermal-expansion-1.12',
-  '1.12/thermal-dynamics': 'thermal-dynamics-1.12',
-  '1.12/thermal-cultivation': 'thermal-cultivation-1.12',
-  '1.12/thermal-innovation': 'thermal-innovation-1.12',
-  '1.12/redstone-arsenal': 'redstone-arsenal-1.12',
-  '1.12/vanillaplus-tools': 'vanillaplus-tools-1.12',
-  '1.12/vanillaplus-satchels': 'vanillaplus-satchels-1.12',
-};
-
-const nav = Object.entries(navScopes).find(
-  ([scope]) => entry.id === scope || entry.id.startsWith(`${scope}/`),
-)?.[1];
+const navPath = entry.id.split('/').slice(0, 2).join('/');
+const nav = navs[`../../data/${navPath}/navbox.ts`];
 ---
 
 <Base title={entry.data.title} showBanner={false}>
   <div
     id="cofh-docs-content"
     class="uk-width-1-1 uk-width-medium-3-4 uk-container-center"
-    style={{
-      '--cofh-item-sprite-sheet': `url(${itemSpriteSheet.src})`,
-      '--cofh-navbox-icon-sheet': `url(${navboxIconSheet.src})`,
-    }}
     data-pagefind-body
   >
     <h1>{entry.data.title}</h1>
@@ -65,7 +44,7 @@ const nav = Object.entries(navScopes).find(
         style="margin-top: 65px"
         data-pagefind-ignore="all"
       >
-        <Navbox nav={docnav[nav]} />
+        <Navbox nav={nav} path={navPath} />
       </div>
     )}
   </div>

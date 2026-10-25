@@ -4,13 +4,10 @@ title: Hardened Fluiduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-dynamics-2/fluiduct-hardened.png', alt: 'Hardened fluiduct' },
-    { file: 'thermal-dynamics-2/fluiduct-hardened-opaque.png', alt: 'Hardened fluiduct (opaque)' },
-  ]}
-/>
+<PageImage images={[{ item: td.hardenedFluiduct }, { item: td.hardenedFluiductOpaque }]} />
 
 A **hardened fluiduct** is a type of [fluiduct](../fluiduct/) that can transfer
 fluids with any temperature.
@@ -21,12 +18,11 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-fluiduct-hardened',
-    'td-1-12-fluiduct-hardened-opaque',
-    'td-1-12-fluiduct-hardened-opaque-from-transparent',
-    'td-1-12-fluiduct-hardened-transparent-from-opaque',
+    tdCrafting.hardenedFluiduct,
+    tdCrafting.hardenedFluiductOpaque,
+    tdCrafting.hardenedFluiductOpaqueFromTransparent,
+    tdCrafting.hardenedFluiductTransparentFromOpaque,
   ]}
 />
 
@@ -42,10 +38,9 @@ cryotheum](../../thermal-foundation/gelid-cryotheum/).
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-fluiduct-energy-one',
-    'td-1-12-fluiduct-energy-three',
-    'td-1-12-fluiduct-super',
+    tdCrafting.signalumPlatedFluiductOne,
+    tdCrafting.signalumPlatedFluiductThree,
+    tdCrafting.superLaminarFluiduct,
   ]}
 />

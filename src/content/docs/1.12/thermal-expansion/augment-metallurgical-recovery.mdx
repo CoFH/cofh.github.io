@@ -4,15 +4,10 @@ title: 'Augment: Metallurgical Recovery'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-smelter-flux.png',
-      alt: 'Metallurgical recovery augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentMetallurgicalRecovery }]} />
 
 A **metallurgical recovery** [augment](../augments/) provides a chance for an
 [induction smelter](../induction-smelter/) to not consume metallurgical
@@ -24,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-smelter-flux']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentMetallurgicalRecovery]} noResult />
 
 
 Usage

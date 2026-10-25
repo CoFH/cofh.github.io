@@ -4,10 +4,10 @@ title: Rich Aqua-Chow
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/aqua-chow-rich.png', alt: 'Rich Aqua-Chow' }]}
-/>
+<PageImage images={[{ item: tf.richAquaChow }]} />
 
 
 **Rich Aqua-Chow** is a type of fish bait that can be used by [aquatic
@@ -21,10 +21,9 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-aqua-chow-rich-using-slime',
-    'tf-1-12-aqua-chow-rich-using-rosin',
+    tfCrafting.richAquaChowUsingSlime,
+    tfCrafting.richAquaChowUsingRosin,
   ]}
   noResult
 />

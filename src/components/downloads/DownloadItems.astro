@@ -1,37 +1,44 @@
 ---
+import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 
 import downloads from '../../data/downloads.ts';
 import type { DownloadItem } from '../../data/types.ts';
-import { image } from '../../lib/images.ts';
 
 interface Props {
   minecraft: keyof typeof downloads;
 }
 
 const items: DownloadItem[] = downloads[Astro.props.minecraft];
+
+const logos = import.meta.glob<ImageMetadata>('../../data/*/*/images/logo.png', {
+  eager: true,
+  import: 'default',
+});
+
+const entries = items.map((item) => ({
+  item,
+  id: `${item.slug}-${Astro.props.minecraft.replace('.', '-')}`,
+  logo: logos[`../../data/${Astro.props.minecraft}/${item.slug}/images/logo.png`],
+}));
 ---
 
 <div>
-  {items.map((item, index) => (
+  {entries.map(({ item, id, logo }, index) => (
     <div
-      class:list={['uk-panel', 'uk-panel-box', { 'uk-margin-bottom': index < items.length - 1 }]}
+      class:list={['uk-panel', 'uk-panel-box', { 'uk-margin-bottom': index < entries.length - 1 }]}
     >
       <div class="uk-grid" data-uk-grid-margin>
         <div class="uk-width-1-1 uk-width-medium-2-10">
-          {item.logo !== undefined ? (
-            <Image
-              src={image(`modlogos/${item.logo}.png`)}
-              alt={item.title}
-              class="cofh-download-logo"
-            />
+          {logo !== undefined ? (
+            <Image src={logo} alt={item.title} class="cofh-download-logo" />
           ) : (
             <div class="cofh-download-logo cofh-download-logo-missing" />
           )}
         </div>
 
         <div class="uk-width-1-1 uk-width-medium-5-10">
-          <h3 id={item.id}>{item.title}</h3>
+          <h3 id={id}>{item.title}</h3>
           <p set:html={item.note} />
         </div>
 

@@ -4,12 +4,11 @@ title: Redstone Energy Fluxduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-dynamics-2/fluxduct-redstone-energy.png', alt: 'Redstone energy fluxduct' },
-  ]}
-/>
+<PageImage images={[{ item: td.redstoneEnergyFluxduct }]} />
 
 A **redstone energy fluxduct** is a [fluxduct](../fluxducts/) of the third
 tier.
@@ -19,16 +18,10 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['td-1-12-fluxduct-reinforced-empty']}
-/>
+<RecipeTable recipes={[tdCrafting.redstoneEnergyFluxductEmpty]} />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['td-1-12-fluxduct-reinforced']}
-/>
+<RecipeTable recipes={[tdTransposerFill.redstoneEnergyFluxduct]} />
 
 
 Usage
@@ -40,11 +33,10 @@ A redstone energy fluxduct works the same way as most other
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-fluxduct-signalum-empty-one',
-    'td-1-12-fluxduct-signalum-empty-three',
-    'td-1-12-fluxduct-signalum-one',
-    'td-1-12-fluxduct-signalum-three',
+    tdCrafting.signalumFluxductEmptyOne,
+    tdCrafting.signalumFluxductEmptyThree,
+    tdCrafting.signalumFluxductOne,
+    tdCrafting.signalumFluxductThree,
   ]}
 />

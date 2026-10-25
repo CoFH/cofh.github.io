@@ -4,21 +4,24 @@ title: Swords
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/sword-copper.png', alt: 'Copper sword' },
-    { file: 'thermal-foundation-2/sword-tin.png', alt: 'Tin sword' },
-    { file: 'thermal-foundation-2/sword-silver.png', alt: 'Silver sword' },
-    { file: 'thermal-foundation-2/sword-lead.png', alt: 'Lead sword' },
-    { file: 'thermal-foundation-2/sword-aluminum.png', alt: 'Aluminum sword' },
-    { file: 'thermal-foundation-2/sword-nickel.png', alt: 'Nickel sword' },
-    { file: 'thermal-foundation-2/sword-platinum.png', alt: 'Platinum sword' },
-    { file: 'thermal-foundation-2/sword-steel.png', alt: 'Steel sword' },
-    { file: 'thermal-foundation-2/sword-electrum.png', alt: 'Electrum sword' },
-    { file: 'thermal-foundation-2/sword-invar.png', alt: 'Invar sword' },
-    { file: 'thermal-foundation-2/sword-bronze.png', alt: 'Bronze sword' },
-    { file: 'thermal-foundation-2/sword-constantan.png', alt: 'Constantan sword' },
+    { item: tf.copperSword },
+    { item: tf.tinSword },
+    { item: tf.silverSword },
+    { item: tf.leadSword },
+    { item: tf.aluminumSword },
+    { item: tf.nickelSword },
+    { item: tf.platinumSword },
+    { item: tf.steelSword },
+    { item: tf.electrumSword },
+    { item: tf.invarSword },
+    { item: tf.bronzeSword },
+    { item: tf.constantanSword },
   ]}
 />
 
@@ -33,20 +36,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-weapon-sword-copper',
-    'tf-1-12-weapon-sword-tin',
-    'tf-1-12-weapon-sword-silver',
-    'tf-1-12-weapon-sword-lead',
-    'tf-1-12-weapon-sword-aluminum',
-    'tf-1-12-weapon-sword-nickel',
-    'tf-1-12-weapon-sword-platinum',
-    'tf-1-12-weapon-sword-steel',
-    'tf-1-12-weapon-sword-electrum',
-    'tf-1-12-weapon-sword-invar',
-    'tf-1-12-weapon-sword-bronze',
-    'tf-1-12-weapon-sword-constantan',
+    tfCrafting.copperSword,
+    tfCrafting.tinSword,
+    tfCrafting.silverSword,
+    tfCrafting.leadSword,
+    tfCrafting.aluminumSword,
+    tfCrafting.nickelSword,
+    tfCrafting.platinumSword,
+    tfCrafting.steelSword,
+    tfCrafting.electrumSword,
+    tfCrafting.invarSword,
+    tfCrafting.bronzeSword,
+    tfCrafting.constantanSword,
   ]}
 />
 
@@ -197,19 +199,18 @@ uses = mat.maxUses
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-weapon-sword-copper',
-    'recycling-weapon-sword-tin',
-    'recycling-weapon-sword-silver',
-    'recycling-weapon-sword-lead',
-    'recycling-weapon-sword-aluminum',
-    'recycling-weapon-sword-nickel',
-    'recycling-weapon-sword-platinum',
-    'recycling-weapon-sword-steel',
-    'recycling-weapon-sword-electrum',
-    'recycling-weapon-sword-invar',
-    'recycling-weapon-sword-bronze',
-    'recycling-weapon-sword-constantan',
+    teSmelter.recycling.copperSword,
+    teSmelter.recycling.tinSword,
+    teSmelter.recycling.silverSword,
+    teSmelter.recycling.leadSword,
+    teSmelter.recycling.aluminumSword,
+    teSmelter.recycling.nickelSword,
+    teSmelter.recycling.platinumSword,
+    teSmelter.recycling.steelSword,
+    teSmelter.recycling.electrumSword,
+    teSmelter.recycling.invarSword,
+    teSmelter.recycling.bronzeSword,
+    teSmelter.recycling.constantanSword,
   ]}
 />

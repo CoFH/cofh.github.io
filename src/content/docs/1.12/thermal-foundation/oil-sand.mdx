@@ -4,13 +4,11 @@ title: Oil Sand
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-foundation-2/ore-fluid-crude-oil-sand.png', alt: 'Oil sand' },
-    { file: 'thermal-foundation-2/ore-fluid-crude-oil-red-sand.png', alt: 'Oil sand' },
-  ]}
-/>
+<PageImage images={[{ item: tf.oilSand }, { item: tf.redOilSand }]} />
 
 **Oil sand** is an uncommon [ore](https://minecraft.wiki/w/Ore) that
 yields [bitumen](../bitumen/) ([crude oil](../crude-oil/)) and small
@@ -50,16 +48,10 @@ Usage
 -----
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['fluid-ore-processing-oil-sand']}
-/>
+<RecipeTable recipes={[tePulverizer.fluidOreProcessing.oilSand]} />
 
 ### Magma Crucible
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['fluid-ore-processing-oil-sand']}
-/>
+<RecipeTable recipes={[teCrucible.fluidOreProcessing.oilSand]} />
 
 
 Trivia

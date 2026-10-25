@@ -3,15 +3,16 @@ title: Fluxducts
 ---
 
 import PageImage from '@/components/docs/PageImage.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-dynamics-2/fluxduct-leadstone.png', alt: 'Leadstone fluxduct' },
-    { file: 'thermal-dynamics-2/fluxduct-hardened.png', alt: 'Hardened fluxduct' },
-    { file: 'thermal-dynamics-2/fluxduct-redstone-energy.png', alt: 'Redstone energy fluxduct' },
-    { file: 'thermal-dynamics-2/fluxduct-signalum.png', alt: 'Signalum fluxduct' },
-    { file: 'thermal-dynamics-2/fluxduct-resonant.png', alt: 'Resonant fluxduct' },
-    { file: 'thermal-dynamics-2/fluxduct-cryo-stabilized.png', alt: 'Cryo-stabilized fluxduct' },
+    { item: td.leadstoneFluxduct },
+    { item: td.hardenedFluxduct },
+    { item: td.redstoneEnergyFluxduct },
+    { item: td.signalumFluxduct },
+    { item: td.resonantFluxduct },
+    { item: td.cryoStabilizedFluxduct },
   ]}
 />
 

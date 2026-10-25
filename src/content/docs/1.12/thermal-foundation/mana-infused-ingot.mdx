@@ -4,10 +4,16 @@ title: Mana Infused Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-mithril.png', alt: 'Mana infused ingot' }]}
-/>
+<PageImage images={[{ item: tf.manaInfusedIngot }]} />
 
 
 **Mana infused ingots** are raw materials obtained from [mana infused
@@ -20,37 +26,34 @@ Obtaining
 
 ### Smelting
 <RecipeTable
-  type="smelting"
   recipes={[
-    'tf-1-12-ore-processing-mithril',
-    'tf-1-12-ingot-mithril-from-dust',
+    tfSmelting.oreProcessing.mithril,
+    tfSmelting.manaInfusedIngotFromDust,
   ]}
   noResult
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-mithril',
-    'tf-1-12-petrotheum-pyrotheum-ore-mithril',
-    'tf-1-12-pyrotheum-dust-mithril',
-    'tf-1-12-ingot-mithril-from-nuggets',
-    'tf-1-12-ingot-mithril-from-block',
+    tfCrafting.pyrotheum.manaInfusedOre,
+    tfCrafting.petrotheumPyrotheum.manaInfusedOre,
+    tfCrafting.pyrotheum.pulverizedManaInfusedMetal,
+    tfCrafting.manaInfusedIngot.nuggets,
+    tfCrafting.manaInfusedIngot.block,
   ]}
   noResult
 />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-mithril',
-    'ore-processing-rich-slag-mithril',
-    'ore-processing-cinnabar-mithril',
-    'dust-smelting-mithril',
-    'recycling-gear-mithril',
-    'recycling-plate-mithril',
+    teSmelter.oreProcessing.mithril,
+    teSmelter.oreProcessingRichSlag.mithril,
+    teSmelter.oreProcessingCinnabar.mithril,
+    teSmelter.dustSmelting.mithril,
+    teSmelter.recycling.manaInfusedGear,
+    teSmelter.recycling.manaInfusedPlate,
   ]}
   noResult
 />
@@ -61,38 +64,25 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-mithril',
-    'tf-1-12-nugget-mithril',
-    'tf-1-12-gear-mithril',
-    'tf-1-12-storage-block-mithril',
+    tfCrafting.petrotheum.manaInfusedIngot,
+    tfCrafting.manaInfusedNugget,
+    tfCrafting.manaInfusedGear,
+    tfCrafting.blockOfManaInfusedMetal,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-mithril']}
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedManaInfusedMetal]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-mithril']}
-/>
+<RecipeTable recipes={[teCompactor.manaInfusedPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-mithril']}
-/>
+<RecipeTable recipes={[teCompactorCoin.manaInfusedCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-mithril']}
-/>
+<RecipeTable recipes={[teCompactorGear.manaInfusedGear]} />
 
 
 Trivia

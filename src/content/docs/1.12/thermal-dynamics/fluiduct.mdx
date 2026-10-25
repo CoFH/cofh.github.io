@@ -4,13 +4,10 @@ title: Fluiduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-dynamics-2/fluiduct.png', alt: 'Fluiduct' },
-    { file: 'thermal-dynamics-2/fluiduct-opaque.png', alt: 'Fluiduct (opaque)' },
-  ]}
-/>
+<PageImage images={[{ item: td.fluiduct }, { item: td.fluiductOpaque }]} />
 
 A **fluiduct** is a block that transfers fluids between blocks.
 
@@ -24,12 +21,11 @@ A placed fluiduct can be instantly picked up by dismantling it with a
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-fluiduct-basic',
-    'td-1-12-fluiduct-basic-opaque',
-    'td-1-12-fluiduct-basic-opaque-from-transparent',
-    'td-1-12-fluiduct-basic-transparent-from-opaque',
+    tdCrafting.fluiduct,
+    tdCrafting.fluiductOpaque,
+    tdCrafting.fluiductOpaqueFromTransparent,
+    tdCrafting.fluiductTransparentFromOpaque,
   ]}
 />
 

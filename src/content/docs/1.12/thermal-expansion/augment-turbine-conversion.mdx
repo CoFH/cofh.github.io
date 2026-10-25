@@ -4,15 +4,10 @@ title: 'Augment: Turbine Conversion'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-dynamo-steam-turbine.png',
-      alt: 'Turbine conversion augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentTurbineConversion }]} />
 
 A **turbine conversion** is an [augment](../augments/) that changes a [steam
 dynamo](../steam-dynamo/) to work on [steam](../../thermal-foundation/steam/) supplied from an
@@ -23,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-dynamo-steam-turbine']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentTurbineConversion]} noResult />
 
 
 Usage

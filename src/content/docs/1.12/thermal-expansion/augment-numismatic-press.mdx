@@ -4,15 +4,11 @@ title: 'Augment: Numismatic Press'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-compactor-coin.png',
-      alt: 'Numismatic press augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentNumismaticPress }]} />
 
 A **numismatic press** is an [augment](../augments/) that allows for a
 [compactor](../compactor/) to produce metal coins instead of plates.
@@ -22,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-compactor-coin']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentNumismaticPress]} noResult />
 
 
 Usage
@@ -46,7 +38,4 @@ metal plates.
 Recipes
 -------
 
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin']}
-/>
+<RecipeTable recipes={[teCompactorCoin.coin]} />

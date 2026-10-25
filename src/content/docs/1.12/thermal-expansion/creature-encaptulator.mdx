@@ -4,10 +4,10 @@ title: Creature Encaptulator
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/creature-encaptulator.png', alt: 'Creature encaptulator' }]}
-/>
+<PageImage images={[{ item: te.creatureEncaptulator }]} />
 
 > Gotta catch 'em all!
 
@@ -25,11 +25,7 @@ a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-device-mob-catcher']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.creatureEncaptulator]} noResult />
 
 
 Usage

@@ -4,16 +4,18 @@ title: Satchel
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-expansion-5/satchel-basic.png', alt: 'Satchel (Basic)' },
-    { file: 'thermal-expansion-5/satchel-hardened.png', alt: 'Satchel (Hardened)' },
-    { file: 'thermal-expansion-5/satchel-reinforced.png', alt: 'Satchel (Reinforced)' },
-    { file: 'thermal-expansion-5/satchel-signalum.png', alt: 'Satchel (Signalum)' },
-    { file: 'thermal-expansion-5/satchel-resonant.png', alt: 'Satchel (Resonant)' },
-    { file: 'thermal-expansion-5/satchel-void.gif', alt: 'Satchel (Void)' },
-    { file: 'thermal-expansion-5/satchel-creative.png', alt: 'Satchel (Creative)' },
+    { item: te.satchel0 },
+    { item: te.satchel1 },
+    { item: te.satchel2 },
+    { item: te.satchel3 },
+    { item: te.satchel4 },
+    { item: te.satchelVoid },
+    { item: te.satchelCreative },
   ]}
 />
 
@@ -26,16 +28,15 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'te-1-12-satchel-basic-using-leather',
-    'te-1-12-satchel-basic-using-rockwool',
-    'te-1-12-satchel-hardened',
-    'te-1-12-satchel-reinforced',
-    'te-1-12-satchel-signalum',
-    'te-1-12-satchel-resonant',
-    'te-1-12-satchel-void-using-leather',
-    'te-1-12-satchel-void-using-rockwool',
+    teCrafting.satchel0UsingLeather,
+    teCrafting.satchel0UsingRockwool,
+    teCrafting.satchel1,
+    teCrafting.satchel2,
+    teCrafting.satchel3,
+    teCrafting.satchel4,
+    teCrafting.satchelVoidUsingLeather,
+    teCrafting.satchelVoidUsingRockwool,
   ]}
 />
 

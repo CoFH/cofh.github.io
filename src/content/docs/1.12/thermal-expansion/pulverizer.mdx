@@ -5,10 +5,11 @@ title: Pulverizer
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/pulverizer.png', alt: 'Pulverizer' }]}
-/>
+<PageImage images={[{ item: te.pulverizer }]} />
 
 > MACHINE SMASH! Puny ore.
 
@@ -27,11 +28,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-pulverizer']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.pulverizer]} noResult />
 
 ### Upgrading
 A pulverizer is initially at the lowest [tier](#tiers) (basic). It can be
@@ -188,142 +185,137 @@ Recipes
 
 ### Blocks
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'cobblestone-from-stone',
-    'gravel-from-cobblestone',
-    'gravel-from-netherrack',
-    'sand-from-gravel',
-    'recycling-sandstone',
-    'recycling-sandstone-red',
+    tePulverizer.cobblestoneFromStone,
+    tePulverizer.gravel.cobblestone,
+    tePulverizer.gravel.netherrack,
+    tePulverizer.sandFromGravel,
+    tePulverizer.recycling.sandstone,
+    tePulverizer.recycling.redSandstone,
   ]}
 />
 
 ### Items
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-metal-from-ingot',
-    'dust-fluxed-electrum',
-    'dust-coal',
-    'dust-charcoal',
-    'dust-obsidian',
-    'bone-meal',
-    'glowstone-dust-from-glowstone',
-    'magma-cream-from-block',
-    'prismarine-crystals-from-shard',
-    'blaze-powder',
-    'blizz-powder',
-    'blitz-powder',
-    'basalz-powder',
-    'sawdust-from-wood-log',
-    'sawdust-from-wood-planks',
+    tePulverizer.metalDustFromIngot,
+    tePulverizer.fluxedElectrumBlend,
+    tePulverizer.pulverizedCoal,
+    tePulverizer.pulverizedCharcoal,
+    tePulverizer.pulverizedObsidian,
+    tePulverizer.boneMeal,
+    tePulverizer.glowstoneDustFromGlowstone,
+    tePulverizer.magmaCreamFromBlock,
+    tePulverizer.prismarineCrystalsFromShard,
+    tePulverizer.blazePowder,
+    tePulverizer.blizzPowder,
+    tePulverizer.blitzPowder,
+    tePulverizer.basalzPowder,
+    tePulverizer.sawdust.wood,
+    tePulverizer.sawdust.woodPlanks,
   ]}
 />
 
 ### Ore processing
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'ore-processing-iron',
-    'ore-processing-gold',
-    'ore-processing-copper',
-    'ore-processing-tin',
-    'ore-processing-silver',
-    'ore-processing-lead',
-    'ore-processing-aluminum',
-    'ore-processing-nickel',
-    'ore-processing-platinum',
-    'ore-processing-mithril',
-    'ore-processing-iridium',
-    'ore-processing-coal',
-    'ore-processing-lapis-lazuli',
-    'ore-processing-redstone',
-    'ore-processing-diamond',
-    'ore-processing-emerald',
-    'ore-processing-nether-quartz',
-    'fluid-ore-processing-oil-sand',
-    'fluid-ore-processing-oil-shale',
-    'fluid-ore-processing-redstone',
-    'fluid-ore-processing-glowstone',
-    'fluid-ore-processing-ender',
+    tePulverizer.oreProcessing.iron,
+    tePulverizer.oreProcessing.gold,
+    tePulverizer.oreProcessing.copper,
+    tePulverizer.oreProcessing.tin,
+    tePulverizer.oreProcessing.silver,
+    tePulverizer.oreProcessing.lead,
+    tePulverizer.oreProcessing.aluminum,
+    tePulverizer.oreProcessing.nickel,
+    tePulverizer.oreProcessing.platinum,
+    tePulverizer.oreProcessing.mithril,
+    tePulverizer.oreProcessing.iridium,
+    tePulverizer.oreProcessing.coal,
+    tePulverizer.oreProcessing.lapisLazuli,
+    tePulverizer.oreProcessing.redstone,
+    tePulverizer.oreProcessing.diamond,
+    tePulverizer.oreProcessing.emerald,
+    tePulverizer.oreProcessing.netherQuartz,
+    tePulverizer.fluidOreProcessing.oilSand,
+    tePulverizer.fluidOreProcessing.oilShale,
+    tePulverizer.fluidOreProcessing.destabilizedRedstoneOre,
+    tePulverizer.fluidOreProcessing.energizedNetherrack,
+    tePulverizer.fluidOreProcessing.resonantEndStone,
   ]}
 />
 
 ### Flower processing
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'flower-processing-yellow-dandelion',
-    'flower-processing-red-poppy',
-    'flower-processing-light-blue-orchid',
-    'flower-processing-magenta-allium',
-    'flower-processing-light-gray-azure-bluet',
-    'flower-processing-red-tulip',
-    'flower-processing-orange-tulip',
-    'flower-processing-light-gray-tulip',
-    'flower-processing-pink-tulip',
-    'flower-processing-light-gray-oxeye-daisy',
-    'flower-processing-yellow-sunflower',
-    'flower-processing-magenta-lilac',
-    'flower-processing-red-rose-bush',
-    'flower-processing-pink-peony',
+    tePulverizer.flowerProcessing.yellowDandelion,
+    tePulverizer.flowerProcessing.redPoppy,
+    tePulverizer.flowerProcessing.lightBlueOrchid,
+    tePulverizer.flowerProcessing.magentaAllium,
+    tePulverizer.flowerProcessing.lightGrayAzureBluet,
+    tePulverizer.flowerProcessing.redTulip,
+    tePulverizer.flowerProcessing.orangeTulip,
+    tePulverizer.flowerProcessing.lightGrayTulip,
+    tePulverizer.flowerProcessing.pinkTulip,
+    tePulverizer.flowerProcessing.lightGrayOxeyeDaisy,
+    tePulverizer.flowerProcessing.yellowSunflower,
+    tePulverizer.flowerProcessing.magentaLilac,
+    tePulverizer.flowerProcessing.redRoseBush,
+    tePulverizer.flowerProcessing.pinkPeony,
   ]}
 />
 
 ### Recycling
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'recycling-wool',
-    'recycling-concrete',
-    'recycling-clay-block',
-    'recycling-terracotta',
-    'recycling-bricks',
-    'recycling-bricks-slab',
-    'recycling-brick-stairs',
-    'recycling-flower-pot',
-    'recycling-glass',
-    'recycling-glass-stained',
-    'recycling-glass-bottle',
-    'recycling-nether-brick',
-    'recycling-nether-brick-slab',
-    'recycling-nether-brick-stairs',
-    'recycling-nether-quartz-block',
-    'recycling-nether-quartz-slab',
-    'recycling-nether-quartz-stairs',
-    'recycling-note-block',
-    'recycling-jukebox',
-    'recycling-sandstone-slab',
-    'recycling-sandstone-stairs',
-    'recycling-sandstone-red-slab',
-    'recycling-sandstone-red-stairs',
-    'recycling-tool-pickaxe-wood',
-    'recycling-tool-shovel-wood',
-    'recycling-tool-axe-wood',
-    'recycling-tool-hoe-wood',
-    'recycling-tool-fishing-rod',
-    'recycling-tool-shears-wood',
-    'recycling-tool-hammer-wood',
-    'recycling-tool-sickle-wood',
-    'recycling-weapon-sword-wood',
-    'recycling-weapon-bow',
-    'recycling-weapon-shield',
-    'recycling-tool-pickaxe-diamond',
-    'recycling-tool-shovel-diamond',
-    'recycling-tool-axe-diamond',
-    'recycling-tool-hoe-diamond',
-    'recycling-tool-fishing-rod-diamond',
-    'recycling-tool-shears-diamond',
-    'recycling-tool-hammer-diamond',
-    'recycling-tool-sickle-diamond',
-    'recycling-weapon-sword-diamond',
-    'recycling-weapon-bow-diamond',
-    'recycling-weapon-shield-diamond',
-    'recycling-armor-helmet-diamond',
-    'recycling-armor-chestplate-diamond',
-    'recycling-armor-leggings-diamond',
-    'recycling-armor-boots-diamond',
-    'recycling-horse-armor-diamond',
+    tePulverizer.recycling.wool,
+    tePulverizer.recycling.concrete,
+    tePulverizer.recycling.clayBlock,
+    tePulverizer.recycling.terracotta,
+    tePulverizer.recycling.bricks,
+    tePulverizer.recycling.bricksSlab,
+    tePulverizer.recycling.brickStairs,
+    tePulverizer.recycling.flowerPot,
+    tePulverizer.recycling.glass,
+    tePulverizer.recycling.stainedGlass,
+    tePulverizer.recycling.glassBottle,
+    tePulverizer.recycling.netherBricks,
+    tePulverizer.recycling.netherBrickSlab,
+    tePulverizer.recycling.netherBrickStairs,
+    tePulverizer.recycling.blockOfQuartz,
+    tePulverizer.recycling.quartzSlab,
+    tePulverizer.recycling.quartzStairs,
+    tePulverizer.recycling.noteBlock,
+    tePulverizer.recycling.jukebox,
+    tePulverizer.recycling.sandstoneSlab,
+    tePulverizer.recycling.sandstoneStairs,
+    tePulverizer.recycling.redSandstoneSlab,
+    tePulverizer.recycling.redSandstoneStairs,
+    tePulverizer.recycling.woodenPickaxe,
+    tePulverizer.recycling.woodenShovel,
+    tePulverizer.recycling.woodenAxe,
+    tePulverizer.recycling.woodenHoe,
+    tePulverizer.recycling.fishingRod,
+    tePulverizer.recycling.woodenShears,
+    tePulverizer.recycling.woodenHammer,
+    tePulverizer.recycling.woodenSickle,
+    tePulverizer.recycling.woodenSword,
+    tePulverizer.recycling.fluxInfusedBow,
+    tePulverizer.recycling.shield,
+    tePulverizer.recycling.diamondPickaxe,
+    tePulverizer.recycling.diamondShovel,
+    tePulverizer.recycling.diamondAxe,
+    tePulverizer.recycling.diamondHoe,
+    tePulverizer.recycling.diamondFishingRod,
+    tePulverizer.recycling.diamondShears,
+    tePulverizer.recycling.diamondHammer,
+    tePulverizer.recycling.diamondSickle,
+    tePulverizer.recycling.diamondSword,
+    tePulverizer.recycling.diamondReinforcedBow,
+    tePulverizer.recycling.diamondShield,
+    tePulverizer.recycling.diamondHelmet,
+    tePulverizer.recycling.diamondChestplate,
+    tePulverizer.recycling.diamondLeggings,
+    tePulverizer.recycling.diamondBoots,
+    tePulverizer.recycling.diamondHorseArmor,
   ]}
 />

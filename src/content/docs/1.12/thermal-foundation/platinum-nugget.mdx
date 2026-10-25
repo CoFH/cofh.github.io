@@ -4,10 +4,10 @@ title: Platinum Nugget
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/nugget-platinum.png', alt: 'Platinum nugget' }]}
-/>
+<PageImage images={[{ item: tf.platinumNugget }]} />
 
 
 **Platinum nuggets** are raw materials. They are the nugget form of
@@ -18,18 +18,11 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-nugget-platinum']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.platinumNugget]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-ingot-platinum-from-nuggets']}
-/>
+<RecipeTable recipes={[tfCrafting.platinumIngot.nuggets]} />

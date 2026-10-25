@@ -4,10 +4,10 @@ title: Platinum Coin
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/coin-platinum.png', alt: 'Platinum coin' }]}
-/>
+<PageImage images={[{ item: tf.platinumCoin }]} />
 
 
 **Platinum coins** are materials made of [platinum](../platinum-ingot/) that
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Compactor with Numismatic Press
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-platinum']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorCoin.platinumCoin]} noResult />
 
 
 Usage

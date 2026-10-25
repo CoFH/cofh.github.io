@@ -4,12 +4,11 @@ title: Redstone Transmission Coil
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-foundation-2/redstone-coil-silver.png', alt: 'Redstone transmission coil' },
-  ]}
-/>
+<PageImage images={[{ item: tf.redstoneTransmissionCoil }]} />
 
 
 **Redstone transmission coils** are crafting materials made of
@@ -22,11 +21,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-redstone-coil-silver']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.redstoneTransmissionCoil]} noResult />
 
 
 Usage
@@ -34,15 +29,14 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'te-1-12-dynamo-steam',
-    'te-1-12-dynamo-magmatic',
-    'te-1-12-dynamo-compression',
-    'te-1-12-dynamo-reactant',
-    'te-1-12-dynamo-enervation',
-    'te-1-12-dynamo-numismatic',
-    'te-1-12-machine-charger',
-    'te-1-12-augment-dynamo-power',
+    teCrafting.steamDynamo,
+    teCrafting.magmaticDynamo,
+    teCrafting.compressionDynamo,
+    teCrafting.reactantDynamo,
+    teCrafting.enervationDynamo,
+    teCrafting.numismaticDynamo,
+    teCrafting.energeticInfuser,
+    teCrafting.augmentAuxiliaryTransmissionCoil,
   ]}
 />

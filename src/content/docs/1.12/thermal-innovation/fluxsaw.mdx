@@ -4,15 +4,17 @@ title: Fluxsaw
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ti from '@/data/1.12/thermal-innovation/items.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-innovation/fluxsaw-basic.png', alt: 'Fluxsaw (Basic)' },
-    { file: 'thermal-innovation/fluxsaw-hardened.png', alt: 'Fluxsaw (Hardened)' },
-    { file: 'thermal-innovation/fluxsaw-reinforced.png', alt: 'Fluxsaw (Reinforced)' },
-    { file: 'thermal-innovation/fluxsaw-signalum.png', alt: 'Fluxsaw (Signalum)' },
-    { file: 'thermal-innovation/fluxsaw-resonant.png', alt: 'Fluxsaw (Resonant)' },
-    { file: 'thermal-innovation/fluxsaw-creative.png', alt: 'Fluxsaw (Creative)' },
+    { item: ti.fluxsaw0 },
+    { item: ti.fluxsaw1 },
+    { item: ti.fluxsaw2 },
+    { item: ti.fluxsaw3 },
+    { item: ti.fluxsaw4 },
+    { item: ti.fluxsawCreative },
   ]}
 />
 
@@ -27,13 +29,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ti-1-12-fluxsaw-basic',
-    'ti-1-12-fluxsaw-hardened',
-    'ti-1-12-fluxsaw-reinforced',
-    'ti-1-12-fluxsaw-signalum',
-    'ti-1-12-fluxsaw-resonant',
+    tiCrafting.fluxsaw0,
+    tiCrafting.fluxsaw1,
+    tiCrafting.fluxsaw2,
+    tiCrafting.fluxsaw3,
+    tiCrafting.fluxsaw4,
   ]}
 />
 

@@ -5,10 +5,10 @@ title: Enervation Dynamo
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/dynamo-enervation-rf.png', alt: 'Enervation dynamo' }]}
-/>
+<PageImage images={[{ item: te.enervationDynamo }]} />
 
 An **enervation dynamo** is a [dynamo](../dynamos/) that extracts [Redstone
 Flux](/docs/redstone-flux/) from natural sources and from items that store it.
@@ -23,11 +23,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-dynamo-enervation']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.enervationDynamo]} noResult />
 
 ### Upgrading
 An enervation dynamo is initially at the lowest [tier](#tiers) (basic). It can

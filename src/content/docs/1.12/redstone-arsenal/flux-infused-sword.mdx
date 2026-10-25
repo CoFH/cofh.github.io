@@ -4,10 +4,10 @@ title: Flux-Infused Sword
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-sword.png', alt: 'Flux-infused sword' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedSword }]} />
 
 A **flux-infused sword** is a powerful
 [sword](https://minecraft.wiki/w/Sword) powered by [Redstone
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-weapon-sword']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedSword]} noResult />
 
 
 Usage

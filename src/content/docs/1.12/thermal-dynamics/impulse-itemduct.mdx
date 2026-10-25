@@ -4,13 +4,11 @@ title: Impulse Itemduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-dynamics-2/itemduct-impulse.png', alt: 'Impulse itemduct' },
-    { file: 'thermal-dynamics-2/itemduct-impulse-opaque.png', alt: 'Impulse itemduct (opaque)' },
-  ]}
-/>
+<PageImage images={[{ item: td.impulseItemduct }, { item: td.impulseItemductOpaque }]} />
 
 An **impulse itemduct** is a type of [itemduct](../itemduct/) that transfers
 items at a greater speed.
@@ -20,19 +18,15 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['td-1-12-itemduct-fast']}
-/>
+<RecipeTable recipes={[tdTransposerFill.impulseItemduct]} />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-itemduct-fast-opaque-from-transparent',
-    'td-1-12-itemduct-fast-transparent-from-opaque',
-    'td-1-12-itemduct-fast-dense',
-    'td-1-12-itemduct-fast-vacuum',
+    tdCrafting.impulseItemductOpaqueFromTransparent,
+    tdCrafting.impulseItemductTransparentFromOpaque,
+    tdCrafting.denseImpulseItemduct,
+    tdCrafting.vacuumImpulseItemduct,
   ]}
 />
 
@@ -47,9 +41,8 @@ block); four times as fast as they would in a regular itemduct.
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-itemduct-energy-fast-one',
-    'td-1-12-itemduct-energy-fast-three',
+    tdCrafting.signalumPlatedImpulseItemductOne,
+    tdCrafting.signalumPlatedImpulseItemductThree,
   ]}
 />

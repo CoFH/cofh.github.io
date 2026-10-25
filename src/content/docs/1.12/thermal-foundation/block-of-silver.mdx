@@ -4,10 +4,10 @@ title: Block of Silver
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/storage-block-silver.png', alt: 'Block of silver' }]}
-/>
+<PageImage images={[{ item: tf.blockOfSilver }]} />
 
 **Blocks of silver** are blocks made from [silver ingots](../silver-ingot/).
 
@@ -19,11 +19,7 @@ Blocks of silver can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-storage-block-silver']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.blockOfSilver]} noResult />
 
 
 Usage
@@ -44,10 +40,7 @@ Blocks of silver can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-ingot-silver-from-block']}
-/>
+<RecipeTable recipes={[tfCrafting.silverIngot.block]} />
 
 ### Primal Mana
 When [primal mana](../primal-mana/) touches a block of silver, the block is

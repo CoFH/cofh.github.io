@@ -4,10 +4,10 @@ title: Reusable Morb
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/morb-reusable.png', alt: 'Reusable morb' }]}
-/>
+<PageImage images={[{ item: te.reusableMorb }]} />
 
 A **reusable morb** is a [morb](../morb/) that never breaks.
 
@@ -16,11 +16,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-morb-reusable']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.reusableMorb]} noResult />
 
 
 Usage

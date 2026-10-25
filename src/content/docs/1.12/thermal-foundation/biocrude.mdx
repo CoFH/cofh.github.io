@@ -4,10 +4,13 @@ title: Biocrude
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teRefinery from '@/data/1.12/thermal-expansion/recipes/refinery.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/biocrude.gif', alt: 'Biocrude' }]}
-/>
+<PageImage images={[{ item: tfFluids.biocrude }]} />
 
 **Biocrude** is a fluid obtained by melting down
 [biomass](../pulped-biomass/) or
@@ -20,20 +23,16 @@ Obtaining
 
 ### Magma Crucible
 <RecipeTable
-  type="1.12/thermal-expansion/crucible"
   recipes={[
-    'biocrude-from-biomass',
-    'biocrude-from-biomass-rich',
-    'biocrude-from-bioblend',
-    'biocrude-from-bioblend-rich',
+    teCrucible.biocrude.pulpedBiomass,
+    teCrucible.biocrude.richBiomass,
+    teCrucible.biocrude.pulpedBioblend,
+    teCrucible.biocrude.richBioblend,
   ]}
 />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-biocrude']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.biocrudeBucket]} />
 
 
 Usage
@@ -42,13 +41,7 @@ Usage
 Biocrude cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-biocrude']}
-/>
+<RecipeTable recipes={[teTransposerFill.biocrudeBucket]} />
 
 ### Fractionating Still ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/refinery"
-  recipes={['grassoline']}
-/>
+<RecipeTable recipes={[teRefinery.grassoline]} />

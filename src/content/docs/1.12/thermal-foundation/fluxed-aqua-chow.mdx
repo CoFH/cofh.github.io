@@ -4,10 +4,10 @@ title: Fluxed Aqua-Chow
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCharger from '@/data/1.12/thermal-expansion/recipes/charger.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/aqua-chow-fluxed.gif', alt: 'Fluxed Aqua-Chow' }]}
-/>
+<PageImage images={[{ item: tf.fluxedAquaChow }]} />
 
 
 **Fluxed Aqua-Chow** is a type of fish bait that can be used by [aquatic
@@ -20,11 +20,7 @@ Obtaining
 ---------
 
 ### Energetic Infuser
-<RecipeTable
-  type="1.12/thermal-expansion/charger"
-  recipes={['aqua-chow-fluxed']}
-  noResult
-/>
+<RecipeTable recipes={[teCharger.fluxedAquaChow]} noResult />
 
 
 Usage

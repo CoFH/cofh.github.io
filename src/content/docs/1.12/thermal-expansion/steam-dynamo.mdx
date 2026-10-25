@@ -5,16 +5,10 @@ title: Steam Dynamo
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-expansion-5/dynamo-steam-rf.png', alt: 'Steam dynamo' },
-    {
-      file: 'thermal-expansion-5/dynamo-steam-steam.png',
-      alt: 'Steam dynamo with boiler conversion',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.steamDynamo }, { item: te.steamDynamoBoilerConversion }]} />
 
 A **steam dynamo** is a [dynamo](../dynamos/) fueled by
 [water](https://minecraft.wiki/w/Water) and solid fuel.
@@ -29,11 +23,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-dynamo-steam']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.steamDynamo]} noResult />
 
 ### Upgrading
 A steam dynamo is initially at the lowest [tier](#tiers) (basic). It can be

@@ -1,0 +1,23 @@
+---
+import type { ImageMetadata } from 'astro';
+import { getImage } from 'astro:assets';
+
+interface Props {
+  background: ImageMetadata;
+}
+
+const { background } = Astro.props;
+
+const backgroundImage = await getImage({ src: background });
+---
+
+<div
+  style={{
+    position: 'relative',
+    width: `${background.width}px`,
+    height: `${background.height}px`,
+    background: `url('${backgroundImage.src}')`,
+  }}
+>
+  <slot />
+</div>

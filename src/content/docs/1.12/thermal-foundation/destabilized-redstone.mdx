@@ -4,12 +4,17 @@ title: Destabilized Redstone
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
+import raTransposerFill from '@/data/1.12/redstone-arsenal/recipes/transposer-fill.ts';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-foundation-2/destabilized-redstone.gif', alt: 'Destabilized redstone' },
-  ]}
-/>
+<PageImage images={[{ item: tfFluids.destabilizedRedstone }]} />
 
 > Behold, the Redstone Revolution!
 
@@ -24,26 +29,19 @@ Obtaining
 
 ### Magma Crucible
 <RecipeTable
-  type="1.12/thermal-expansion/crucible"
   recipes={[
-    'redstone',
-    'redstone-from-block',
-    'redstone-from-clathrate',
-    'fluid-ore-processing-redstone',
+    teCrucible.destabilizedRedstone.redstone,
+    teCrucible.destabilizedRedstone.block,
+    teCrucible.destabilizedRedstone.clathrate,
+    teCrucible.fluidOreProcessing.destabilizedRedstoneOre,
   ]}
 />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-redstone']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.destabilizedRedstoneBucket]} />
 
 ### Centrifugal Separator
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-signalum']}
-/>
+<RecipeTable recipes={[teCentrifuge.signalumBlend]} />
 
 ### Natural generation
 Deposits of [destabilized redstone ore](../destabilized-redstone-ore/) may
@@ -70,27 +68,25 @@ Any item that contains at least one
 may be used in these recipes.
 
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-redstone-from-fluid',
-    'tf-1-12-dust-signalum',
-    'ra-1-12-dust-fluxed-electrum-using-electrum',
-    'ra-1-12-dust-fluxed-electrum-using-gold-and-silver',
-    'ra-1-12-flux-crystal',
+    tfCrafting.redstone.fluid,
+    tfCrafting.signalumBlend,
+    raCrafting.fluxedElectrumBlendUsingElectrum,
+    raCrafting.fluxedElectrumBlendUsingGoldAndSilver,
+    raCrafting.fluxCrystal,
   ]}
 />
 
 ### Fluid Transposer ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
   recipes={[
-    'bucket-redstone',
-    'redstone-from-fluid',
-    'td-1-12-fluxduct-reinforced',
-    'td-1-12-fluxduct-signalum',
-    'td-1-12-fluxduct-resonant',
-    'ra-1-12-dust-fluxed-electrum',
-    'ra-1-12-flux-crystal',
+    teTransposerFill.destabilizedRedstoneBucket,
+    teTransposerFill.redstone.fluid,
+    tdTransposerFill.redstoneEnergyFluxduct,
+    tdTransposerFill.signalumFluxduct,
+    tdTransposerFill.resonantFluxduct,
+    raTransposerFill.fluxedElectrumBlend,
+    raTransposerFill.fluxCrystal,
   ]}
 />
 

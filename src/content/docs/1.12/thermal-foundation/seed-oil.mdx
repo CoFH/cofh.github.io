@@ -4,10 +4,11 @@ title: Seed Oil
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/seed-oil.gif', alt: 'Seed oil' }]}
-/>
+<PageImage images={[{ item: tfFluids.seedOil }]} />
 
 **Seed oil** is a fluid obtained from various kinds of seeds. It can be used to
 turn [pulped biomass](../pulped-biomass/) into [rich
@@ -22,13 +23,12 @@ Obtaining
 
 ### Fluid Transposer
 <RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
   recipes={[
-    'seed-oil-from-seeds',
-    'seed-oil-from-beetroot-seeds',
-    'seed-oil-from-pumpkin-seeds',
-    'seed-oil-from-melon-seeds',
-    'bucket-seed-oil',
+    teTransposerEmpty.seedOil.seeds,
+    teTransposerEmpty.seedOil.beetrootSeeds,
+    teTransposerEmpty.seedOil.pumpkinSeeds,
+    teTransposerEmpty.seedOil.melonSeeds,
+    teTransposerEmpty.seedOilBucket,
   ]}
 />
 
@@ -40,11 +40,10 @@ Seed oil cannot be placed as a block.
 
 ### Fluid Transposer ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
   recipes={[
-    'bucket-seed-oil',
-    'biomass-rich',
-    'bioblend-rich',
+    teTransposerFill.seedOilBucket,
+    teTransposerFill.richBiomass,
+    teTransposerFill.richBioblend,
   ]}
 />
 

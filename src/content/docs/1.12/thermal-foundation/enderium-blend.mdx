@@ -4,10 +4,13 @@ title: Enderium Blend
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-enderium.png', alt: 'Enderium blend' }]}
-/>
+<PageImage images={[{ item: tf.enderiumBlend }]} />
 
 
 **Enderium blend** is a raw material. It is the dust form of
@@ -18,11 +21,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-dust-enderium']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.enderiumBlend]} noResult />
 
 Any item that contains at least one
 [bucket](https://minecraft.wiki/w/Bucket) worth of [resonant
@@ -31,33 +30,17 @@ tank](../../thermal-expansion/portable-tank/) can make it easier to craft large 
 enderium blend.
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-enderium']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.enderiumBlend]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-hardened-glass-enderium']}
-/>
+<RecipeTable recipes={[tfCrafting.hardenedEnderiumGlass]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-enderium',
-    'hardened-glass-enderium',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.enderium, teSmelter.hardenedEnderiumGlass]} />
 
 ### Centrifugal Separator ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-enderium']}
-/>
+<RecipeTable recipes={[teCentrifuge.enderiumBlend]} />

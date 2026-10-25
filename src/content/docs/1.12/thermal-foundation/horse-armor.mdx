@@ -4,21 +4,24 @@ title: Horse Armor
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/horse-armor-copper.png', alt: 'Copper horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-tin.png', alt: 'Tin horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-silver.png', alt: 'Silver horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-lead.png', alt: 'Lead horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-aluminum.png', alt: 'Aluminum horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-nickel.png', alt: 'Nickel horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-platinum.png', alt: 'Platinum horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-steel.png', alt: 'Steel horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-electrum.png', alt: 'Electrum horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-invar.png', alt: 'Invar horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-bronze.png', alt: 'Bronze horse armor' },
-    { file: 'thermal-foundation-2/horse-armor-constantan.png', alt: 'Constantan horse armor' },
+    { item: tf.copperHorseArmor },
+    { item: tf.tinHorseArmor },
+    { item: tf.silverHorseArmor },
+    { item: tf.leadHorseArmor },
+    { item: tf.aluminumHorseArmor },
+    { item: tf.nickelHorseArmor },
+    { item: tf.platinumHorseArmor },
+    { item: tf.steelHorseArmor },
+    { item: tf.electrumHorseArmor },
+    { item: tf.invarHorseArmor },
+    { item: tf.bronzeHorseArmor },
+    { item: tf.constantanHorseArmor },
   ]}
 />
 
@@ -32,20 +35,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-horse-armor-copper',
-    'tf-1-12-horse-armor-tin',
-    'tf-1-12-horse-armor-silver',
-    'tf-1-12-horse-armor-lead',
-    'tf-1-12-horse-armor-aluminum',
-    'tf-1-12-horse-armor-nickel',
-    'tf-1-12-horse-armor-platinum',
-    'tf-1-12-horse-armor-steel',
-    'tf-1-12-horse-armor-electrum',
-    'tf-1-12-horse-armor-invar',
-    'tf-1-12-horse-armor-bronze',
-    'tf-1-12-horse-armor-constantan',
+    tfCrafting.copperHorseArmor,
+    tfCrafting.tinHorseArmor,
+    tfCrafting.silverHorseArmor,
+    tfCrafting.leadHorseArmor,
+    tfCrafting.aluminumHorseArmor,
+    tfCrafting.nickelHorseArmor,
+    tfCrafting.platinumHorseArmor,
+    tfCrafting.steelHorseArmor,
+    tfCrafting.electrumHorseArmor,
+    tfCrafting.invarHorseArmor,
+    tfCrafting.bronzeHorseArmor,
+    tfCrafting.constantanHorseArmor,
   ]}
 />
 
@@ -82,19 +84,18 @@ Usage
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-horse-armor-copper',
-    'recycling-horse-armor-tin',
-    'recycling-horse-armor-silver',
-    'recycling-horse-armor-lead',
-    'recycling-horse-armor-aluminum',
-    'recycling-horse-armor-nickel',
-    'recycling-horse-armor-platinum',
-    'recycling-horse-armor-steel',
-    'recycling-horse-armor-electrum',
-    'recycling-horse-armor-invar',
-    'recycling-horse-armor-bronze',
-    'recycling-horse-armor-constantan',
+    teSmelter.recycling.copperHorseArmor,
+    teSmelter.recycling.tinHorseArmor,
+    teSmelter.recycling.silverHorseArmor,
+    teSmelter.recycling.leadHorseArmor,
+    teSmelter.recycling.aluminumHorseArmor,
+    teSmelter.recycling.nickelHorseArmor,
+    teSmelter.recycling.platinumHorseArmor,
+    teSmelter.recycling.steelHorseArmor,
+    teSmelter.recycling.electrumHorseArmor,
+    teSmelter.recycling.invarHorseArmor,
+    teSmelter.recycling.bronzeHorseArmor,
+    teSmelter.recycling.constantanHorseArmor,
   ]}
 />

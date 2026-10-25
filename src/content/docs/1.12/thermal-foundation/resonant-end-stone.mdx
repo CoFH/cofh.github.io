@@ -4,10 +4,11 @@ title: Resonant End Stone
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ore-fluid-ender.png', alt: 'Resonant end stone' }]}
-/>
+<PageImage images={[{ item: tf.resonantEndStone }]} />
 
 
 **Resonant end stone** is a fairly common
@@ -40,16 +41,10 @@ Usage
 -----
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['fluid-ore-processing-ender']}
-/>
+<RecipeTable recipes={[tePulverizer.fluidOreProcessing.resonantEndStone]} />
 
 ### Magma Crucible
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['fluid-ore-processing-ender']}
-/>
+<RecipeTable recipes={[teCrucible.fluidOreProcessing.resonantEndStone]} />
 
 ### Light source
 Resonant end stone emits a light level of 3.

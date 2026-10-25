@@ -4,15 +4,10 @@ title: 'Augment: Pyroconvective Loop'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-crucible-lava.gif',
-      alt: 'Pyroconvective loop augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentPyroconvectiveLoop }]} />
 
 A **pyroconvective loop** is an [augment](../augments/) that greatly
 increases the processing speed of a [magma crucible](../magma-crucible/) that
@@ -23,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-crucible-lava']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentPyroconvectiveLoop]} noResult />
 
 
 Usage

@@ -4,32 +4,32 @@ title: Hardened Glass
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tcCrafting from '@/data/1.12/thermal-cultivation/recipes/crafting.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/hardened-glass.png', alt: 'Hardened glass' },
-    { file: 'thermal-foundation-2/hardened-copper-glass.png', alt: 'Hardened copper glass' },
-    { file: 'thermal-foundation-2/hardened-tin-glass.png', alt: 'Hardened tin glass' },
-    { file: 'thermal-foundation-2/hardened-silver-glass.png', alt: 'Hardened silver glass' },
-    { file: 'thermal-foundation-2/hardened-aluminum-glass.png', alt: 'Hardened aluminum glass' },
-    { file: 'thermal-foundation-2/hardened-nickel-glass.png', alt: 'Hardened nickel glass' },
-    { file: 'thermal-foundation-2/hardened-platinum-glass.png', alt: 'Hardened platinum glass' },
-    { file: 'thermal-foundation-2/hardened-iridium-glass.png', alt: 'Hardened iridium glass' },
-    {
-      file: 'thermal-foundation-2/hardened-mana-infused-glass.png',
-      alt: 'Hardened Mana Infused Glass',
-    },
-    { file: 'thermal-foundation-2/hardened-steel-glass.png', alt: 'Hardened steel glass' },
-    { file: 'thermal-foundation-2/hardened-electrum-glass.png', alt: 'Hardened electrum glass' },
-    { file: 'thermal-foundation-2/hardened-invar-glass.png', alt: 'Hardened invar glass' },
-    { file: 'thermal-foundation-2/hardened-bronze-glass.png', alt: 'Hardened bronze glass' },
-    {
-      file: 'thermal-foundation-2/hardened-constantan-glass.png',
-      alt: 'Hardened Constantan Glass',
-    },
-    { file: 'thermal-foundation-2/hardened-signalum-glass.png', alt: 'Hardened signalum glass' },
-    { file: 'thermal-foundation-2/hardened-lumium-glass.png', alt: 'Hardened lumium glass' },
-    { file: 'thermal-foundation-2/hardened-enderium-glass.png', alt: 'Hardened enderium glass' },
+    { item: tf.hardenedGlass },
+    { item: tf.hardenedCopperGlass },
+    { item: tf.hardenedTinGlass },
+    { item: tf.hardenedSilverGlass },
+    { item: tf.hardenedAluminumGlass },
+    { item: tf.hardenedNickelGlass },
+    { item: tf.hardenedPlatinumGlass },
+    { item: tf.hardenedIridiumGlass },
+    { item: tf.hardenedManaInfusedGlass },
+    { item: tf.hardenedSteelGlass },
+    { item: tf.hardenedElectrumGlass },
+    { item: tf.hardenedInvarGlass },
+    { item: tf.hardenedBronzeGlass },
+    { item: tf.hardenedConstantanGlass },
+    { item: tf.hardenedSignalumGlass },
+    { item: tf.hardenedLumiumGlass },
+    { item: tf.hardenedEnderiumGlass },
   ]}
 />
 
@@ -48,51 +48,49 @@ Touch](https://minecraft.wiki/w/Silk_Touch) enchanted pickaxe.
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'hardened-glass',
-    'hardened-glass-copper',
-    'hardened-glass-tin',
-    'hardened-glass-silver',
-    'hardened-glass-lead',
-    'hardened-glass-aluminum',
-    'hardened-glass-nickel',
-    'hardened-glass-platinum',
-    'hardened-glass-iridium',
-    'hardened-glass-mithril',
-    'hardened-glass-steel',
-    'hardened-glass-electrum',
-    'hardened-glass-invar',
-    'hardened-glass-bronze',
-    'hardened-glass-constantan',
-    'hardened-glass-signalum',
-    'hardened-glass-lumium',
-    'hardened-glass-enderium',
+    teSmelter.hardenedGlass,
+    teSmelter.hardenedCopperGlass,
+    teSmelter.hardenedTinGlass,
+    teSmelter.hardenedSilverGlass,
+    teSmelter.hardenedGlassLead,
+    teSmelter.hardenedAluminumGlass,
+    teSmelter.hardenedNickelGlass,
+    teSmelter.hardenedPlatinumGlass,
+    teSmelter.hardenedIridiumGlass,
+    teSmelter.hardenedManaInfusedGlass,
+    teSmelter.hardenedSteelGlass,
+    teSmelter.hardenedElectrumGlass,
+    teSmelter.hardenedInvarGlass,
+    teSmelter.hardenedBronzeGlass,
+    teSmelter.hardenedConstantanGlass,
+    teSmelter.hardenedSignalumGlass,
+    teSmelter.hardenedLumiumGlass,
+    teSmelter.hardenedEnderiumGlass,
   ]}
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-hardened-glass',
-    'tf-1-12-hardened-glass-copper',
-    'tf-1-12-hardened-glass-tin',
-    'tf-1-12-hardened-glass-silver',
-    'tf-1-12-hardened-glass-lead',
-    'tf-1-12-hardened-glass-aluminum',
-    'tf-1-12-hardened-glass-nickel',
-    'tf-1-12-hardened-glass-platinum',
-    'tf-1-12-hardened-glass-iridium',
-    'tf-1-12-hardened-glass-mithril',
-    'tf-1-12-hardened-glass-steel',
-    'tf-1-12-hardened-glass-electrum',
-    'tf-1-12-hardened-glass-invar',
-    'tf-1-12-hardened-glass-bronze',
-    'tf-1-12-hardened-glass-constantan',
-    'tf-1-12-hardened-glass-signalum',
-    'tf-1-12-hardened-glass-lumium',
-    'tf-1-12-hardened-glass-enderium',
+    tfCrafting.hardenedGlass,
+    tfCrafting.hardenedCopperGlass,
+    tfCrafting.hardenedTinGlass,
+    tfCrafting.hardenedSilverGlass,
+    tfCrafting.hardenedGlassLead,
+    tfCrafting.hardenedAluminumGlass,
+    tfCrafting.hardenedNickelGlass,
+    tfCrafting.hardenedPlatinumGlass,
+    tfCrafting.hardenedIridiumGlass,
+    tfCrafting.hardenedManaInfusedGlass,
+    tfCrafting.hardenedSteelGlass,
+    tfCrafting.hardenedElectrumGlass,
+    tfCrafting.hardenedInvarGlass,
+    tfCrafting.hardenedBronzeGlass,
+    tfCrafting.hardenedConstantanGlass,
+    tfCrafting.hardenedSignalumGlass,
+    tfCrafting.hardenedLumiumGlass,
+    tfCrafting.hardenedEnderiumGlass,
   ]}
 />
 
@@ -115,35 +113,34 @@ glass blocks change the color of
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-upgrade-kit-reinforced',
-    'te-1-12-machine-crucible',
-    'te-1-12-machine-brewer',
-    'te-1-12-device-diffuser',
-    'te-1-12-flux-capacitor-reinforced',
-    'te-1-12-reservoir-reinforced',
-    'te-1-12-augment-machine-smelter-flux',
-    'te-1-12-augment-machine-insolator-fertilizer',
-    'te-1-12-augment-machine-refinery-oil',
-    'te-1-12-augment-machine-charger-repair',
-    'te-1-12-augment-machine-charger-wireless',
-    'te-1-12-augment-dynamo-boiler',
-    'td-1-12-fluxduct-reinforced-empty',
-    'td-1-12-fluxduct-super-empty',
-    'td-1-12-fluiduct-hardened',
-    'td-1-12-fluiduct-hardened-transparent-from-opaque',
-    'td-1-12-fluiduct-energy-transparent-from-opaque',
-    'td-1-12-fluiduct-super',
-    'td-1-12-fluiduct-super-transparent-from-opaque',
-    'td-1-12-itemduct',
-    'td-1-12-itemduct-transparent-from-opaque',
-    'td-1-12-itemduct-fast-transparent-from-opaque',
-    'td-1-12-itemduct-energy-transparent-from-opaque',
-    'td-1-12-itemduct-energy-fast-transparent-from-opaque',
-    'td-1-12-viaduct-frame',
-    'td-1-12-viaduct-long-range',
-    'tc-1-12-watering-can-reinforced',
+    tfCrafting.upgradeKit2,
+    teCrafting.magmaCrucible,
+    teCrafting.alchemicalImbuer,
+    teCrafting.decoctiveDiffuser,
+    teCrafting.fluxCapacitor2,
+    teCrafting.reservoir2,
+    teCrafting.augmentMetallurgicalRecovery,
+    teCrafting.augmentNutrientRecovery,
+    teCrafting.augmentRefluxColumn,
+    teCrafting.augmentFluxReconstruction,
+    teCrafting.augmentParabolicFluxCoupling,
+    teCrafting.augmentBoilerConversion,
+    tdCrafting.redstoneEnergyFluxductEmpty,
+    tdCrafting.cryoStabilizedFluxductEmpty,
+    tdCrafting.hardenedFluiduct,
+    tdCrafting.hardenedFluiductTransparentFromOpaque,
+    tdCrafting.signalumPlatedFluiductTransparentFromOpaque,
+    tdCrafting.superLaminarFluiduct,
+    tdCrafting.superLaminarFluiductTransparentFromOpaque,
+    tdCrafting.itemduct,
+    tdCrafting.itemductTransparentFromOpaque,
+    tdCrafting.impulseItemductTransparentFromOpaque,
+    tdCrafting.signalumPlatedItemductTransparentFromOpaque,
+    tdCrafting.signalumPlatedImpulseItemductTransparentFromOpaque,
+    tdCrafting.viaductUntreated,
+    tdCrafting.longRangeViaduct,
+    tcCrafting.wateringCan2,
   ]}
 />
 

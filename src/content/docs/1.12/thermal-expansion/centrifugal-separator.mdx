@@ -5,10 +5,11 @@ title: Centrifugal Separator
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/centrifugal-separator.png', alt: 'Centrifugal separator' }]}
-/>
+<PageImage images={[{ item: te.centrifugalSeparator }]} />
 
 > Spin to win!
 
@@ -26,11 +27,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-centrifuge']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.centrifugalSeparator]} noResult />
 
 ### Upgrading
 A centrifugal separator is initially at the lowest [tier](#tiers) (basic). It
@@ -189,21 +186,20 @@ Recipes
 -------
 
 <RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
   recipes={[
-    'magma-cream',
-    'sugar-canes',
-    'concrete-powder',
-    'dust-electrum',
-    'dust-invar',
-    'dust-bronze',
-    'dust-constantan',
-    'dust-signalum',
-    'dust-lumium',
-    'dust-enderium',
-    'dust-pyrotheum',
-    'dust-cryotheum',
-    'dust-aerotheum',
-    'dust-petrotheum',
+    teCentrifuge.magmaCream,
+    teCentrifuge.sugarCanes,
+    teCentrifuge.concretePowder,
+    teCentrifuge.electrumBlend,
+    teCentrifuge.invarBlend,
+    teCentrifuge.bronzeBlend,
+    teCentrifuge.constantanBlend,
+    teCentrifuge.signalumBlend,
+    teCentrifuge.lumiumBlend,
+    teCentrifuge.enderiumBlend,
+    teCentrifuge.pyrotheumDust,
+    teCentrifuge.cryotheumDust,
+    teCentrifuge.aerotheumDust,
+    teCentrifuge.petrotheumDust,
   ]}
 />

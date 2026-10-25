@@ -4,15 +4,17 @@ title: Fluxbore
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ti from '@/data/1.12/thermal-innovation/items.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-innovation/fluxbore-basic.png', alt: 'Fluxbore (Basic)' },
-    { file: 'thermal-innovation/fluxbore-hardened.png', alt: 'Fluxbore (Hardened)' },
-    { file: 'thermal-innovation/fluxbore-reinforced.png', alt: 'Fluxbore (Reinforced)' },
-    { file: 'thermal-innovation/fluxbore-signalum.png', alt: 'Fluxbore (Signalum)' },
-    { file: 'thermal-innovation/fluxbore-resonant.png', alt: 'Fluxbore (Resonant)' },
-    { file: 'thermal-innovation/fluxbore-creative.png', alt: 'Fluxbore (Creative)' },
+    { item: ti.fluxbore0 },
+    { item: ti.fluxbore1 },
+    { item: ti.fluxbore2 },
+    { item: ti.fluxbore3 },
+    { item: ti.fluxbore4 },
+    { item: ti.fluxboreCreative },
   ]}
 />
 
@@ -27,13 +29,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ti-1-12-fluxbore-basic',
-    'ti-1-12-fluxbore-hardened',
-    'ti-1-12-fluxbore-reinforced',
-    'ti-1-12-fluxbore-signalum',
-    'ti-1-12-fluxbore-resonant',
+    tiCrafting.fluxbore0,
+    tiCrafting.fluxbore1,
+    tiCrafting.fluxbore2,
+    tiCrafting.fluxbore3,
+    tiCrafting.fluxbore4,
   ]}
 />
 

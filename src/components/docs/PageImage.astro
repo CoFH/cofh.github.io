@@ -1,46 +1,49 @@
 ---
-import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 
-import { image } from '../../lib/images.ts';
+import type { Fluid, Item } from '../../data/types.ts';
+import GameImage from './GameImage.astro';
 
 interface Props {
-  images: { file: string; alt: string }[];
+  images: PageImageEntry[];
   height?: number;
 }
 
-const { images, height } = Astro.props;
+type PageImageEntry =
+  | {
+      item: Item | Fluid;
+      image?: never;
+      alt?: never;
+    }
+  | {
+      image: ImageMetadata;
+      alt: string;
+      item?: never;
+    };
 
-const style = height !== undefined ? `height: ${height}px` : undefined;
+const { images, height = 128 } = Astro.props;
+
+const imageOf = (entry: PageImageEntry) =>
+  entry.item !== undefined ? entry.item.image : entry.image;
+
+const altOf = (entry: PageImageEntry) => (entry.item !== undefined ? entry.item.name : entry.alt);
 ---
 
 {images.length > 1 ? (
   <div class="cofh-cycle">
     {images.map((entry, index) => (
-      <Image
-        src={image(entry.file)}
-        alt={entry.alt}
-        class:list={['cofh-page-image', { hidden: index > 0 }]}
-        style={style}
+      <GameImage
+        image={imageOf(entry)}
+        height={height}
+        alt={altOf(entry)}
+        class:list={{ hidden: index > 0 }}
         loading="eager"
       />
     ))}
   </div>
 ) : (
-  <Image
-    src={image(images[0].file)}
-    alt={images[0].alt}
-    class="cofh-page-image"
-    style={style}
-    loading="eager"
-  />
+  <GameImage image={imageOf(images[0])} height={height} alt={altOf(images[0])} loading="eager" />
 )}
-
-<style>
-  .cofh-page-image {
-    width: auto;
-    height: 128px;
-  }
-</style>
 
 <script>
   import '../../scripts/cycle.ts';

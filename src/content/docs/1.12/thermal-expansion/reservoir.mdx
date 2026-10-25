@@ -4,15 +4,17 @@ title: Reservoir
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-expansion-5/reservoir-basic.png', alt: 'Reservoir (Basic)' },
-    { file: 'thermal-expansion-5/reservoir-hardened.png', alt: 'Reservoir (Hardened)' },
-    { file: 'thermal-expansion-5/reservoir-reinforced.png', alt: 'Reservoir (Reinforced)' },
-    { file: 'thermal-expansion-5/reservoir-signalum.png', alt: 'Reservoir (Signalum)' },
-    { file: 'thermal-expansion-5/reservoir-resonant.png', alt: 'Reservoir (Resonant)' },
-    { file: 'thermal-expansion-5/reservoir-creative.png', alt: 'Reservoir (Creative)' },
+    { item: te.reservoir0 },
+    { item: te.reservoir1 },
+    { item: te.reservoir2 },
+    { item: te.reservoir3 },
+    { item: te.reservoir4 },
+    { item: te.reservoirCreative },
   ]}
 />
 
@@ -26,13 +28,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'te-1-12-reservoir-basic',
-    'te-1-12-reservoir-hardened',
-    'te-1-12-reservoir-reinforced',
-    'te-1-12-reservoir-signalum',
-    'te-1-12-reservoir-resonant',
+    teCrafting.reservoir0,
+    teCrafting.reservoir1,
+    teCrafting.reservoir2,
+    teCrafting.reservoir3,
+    teCrafting.reservoir4,
   ]}
 />
 

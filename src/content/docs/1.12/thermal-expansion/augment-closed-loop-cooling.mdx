@@ -4,15 +4,10 @@ title: 'Augment: Closed-Loop Cooling'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-dynamo-compression-coolant.png',
-      alt: 'Closed-loop cooling augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentClosedLoopCooling }]} />
 
 A **closed-loop cooling** [augment](../augments/) allows for a [compression
 dynamo](../compression-dynamo/) to work without consuming the
@@ -23,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-dynamo-compression-coolant']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentClosedLoopCooling]} noResult />
 
 
 Usage

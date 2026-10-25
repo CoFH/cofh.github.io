@@ -4,15 +4,17 @@ title: Fluxomagnet
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ti from '@/data/1.12/thermal-innovation/items.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-innovation/fluxomagnet-basic.png', alt: 'Fluxomagnet (Basic)' },
-    { file: 'thermal-innovation/fluxomagnet-hardened.png', alt: 'Fluxomagnet (Hardened)' },
-    { file: 'thermal-innovation/fluxomagnet-reinforced.png', alt: 'Fluxomagnet (Reinforced)' },
-    { file: 'thermal-innovation/fluxomagnet-signalum.png', alt: 'Fluxomagnet (Signalum)' },
-    { file: 'thermal-innovation/fluxomagnet-resonant.png', alt: 'Fluxomagnet (Resonant)' },
-    { file: 'thermal-innovation/fluxomagnet-creative.png', alt: 'Fluxomagnet (Creative)' },
+    { item: ti.fluxomagnet0 },
+    { item: ti.fluxomagnet1 },
+    { item: ti.fluxomagnet2 },
+    { item: ti.fluxomagnet3 },
+    { item: ti.fluxomagnet4 },
+    { item: ti.fluxomagnetCreative },
   ]}
 />
 
@@ -25,13 +27,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ti-1-12-fluxomagnet-basic',
-    'ti-1-12-fluxomagnet-hardened',
-    'ti-1-12-fluxomagnet-reinforced',
-    'ti-1-12-fluxomagnet-signalum',
-    'ti-1-12-fluxomagnet-resonant',
+    tiCrafting.fluxomagnet0,
+    tiCrafting.fluxomagnet1,
+    tiCrafting.fluxomagnet2,
+    tiCrafting.fluxomagnet3,
+    tiCrafting.fluxomagnet4,
   ]}
 />
 

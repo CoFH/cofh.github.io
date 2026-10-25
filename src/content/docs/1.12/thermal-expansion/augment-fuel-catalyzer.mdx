@@ -4,12 +4,10 @@ title: 'Augment: Fuel Catalyzer'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-expansion-5/augment-dynamo-efficiency.gif', alt: 'Fuel catalyzer augment' },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentFuelCatalyzer }]} />
 
 A **fuel catalyzer** is an [augment](../augments/) that increases the amount
 of energy a [dynamo](../dynamos/) generates from each unit of fuel.
@@ -19,11 +17,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-dynamo-efficiency']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentFuelCatalyzer]} noResult />
 
 
 Usage

@@ -4,12 +4,10 @@ title: Flux-Infused Chestplate
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'redstone-arsenal-2/flux-infused-chestplate.png', alt: 'Flux-infused chestplate' },
-  ]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedChestplate }]} />
 
 A **flux-infused chestplate** is a powerful
 [chestplate](https://minecraft.wiki/w/Chestplate) powered by [Redstone
@@ -20,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-armor-chestplate']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedChestplate]} noResult />
 
 
 Usage

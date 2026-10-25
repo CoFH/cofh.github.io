@@ -4,10 +4,10 @@ title: Wooden Gear
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/gear-wood.png', alt: 'Wooden gear' }]}
-/>
+<PageImage images={[{ item: tf.woodenGear }]} />
 
 **Wooden gears** are crafting materials made of wood.
 
@@ -16,18 +16,11 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-gear-wood']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.woodenGear]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-gear-stone']}
-/>
+<RecipeTable recipes={[tfCrafting.stoneGear]} />

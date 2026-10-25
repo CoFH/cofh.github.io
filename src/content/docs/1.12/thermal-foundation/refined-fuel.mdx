@@ -4,10 +4,12 @@ title: Refined Fuel
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teRefinery from '@/data/1.12/thermal-expansion/recipes/refinery.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/refined-fuel.gif', alt: 'Refined fuel' }]}
-/>
+<PageImage images={[{ item: tfFluids.refinedFuel }]} />
 
 
 **Refined fuel** is a fluid obtained by processing [naphtha](../naphtha/) in
@@ -19,16 +21,10 @@ Obtaining
 ---------
 
 ### Fractionating Still
-<RecipeTable
-  type="1.12/thermal-expansion/refinery"
-  recipes={['refined-fuel']}
-/>
+<RecipeTable recipes={[teRefinery.refinedFuel]} />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-refined-fuel']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.refinedFuelBucket]} />
 
 
 Usage
@@ -37,10 +33,7 @@ Usage
 Refined fuel cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-refined-fuel']}
-/>
+<RecipeTable recipes={[teTransposerFill.refinedFuelBucket]} />
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression

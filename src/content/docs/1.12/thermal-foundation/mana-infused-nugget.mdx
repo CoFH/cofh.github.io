@@ -4,10 +4,10 @@ title: Mana Infused Nugget
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/nugget-mithril.png', alt: 'Mana infused nugget' }]}
-/>
+<PageImage images={[{ item: tf.manaInfusedNugget }]} />
 
 
 **Mana infused nuggets** are raw materials. They are the nugget form of [mana
@@ -18,18 +18,11 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-nugget-mithril']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.manaInfusedNugget]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-ingot-mithril-from-nuggets']}
-/>
+<RecipeTable recipes={[tfCrafting.manaInfusedIngot.nuggets]} />

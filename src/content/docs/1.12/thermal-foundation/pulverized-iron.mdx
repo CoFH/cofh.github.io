@@ -4,10 +4,14 @@ title: Pulverized Iron
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-iron.png', alt: 'Pulverized iron' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedIron }]} />
 
 
 **Pulverized iron** is a raw material. It is the dust form of
@@ -19,32 +23,20 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-iron',
-    'ore-processing-iron',
-    'ore-processing-tin',
-    'ore-processing-aluminum',
+    tePulverizer.pulverizedIron,
+    tePulverizer.oreProcessing.iron,
+    tePulverizer.oreProcessing.tin,
+    tePulverizer.oreProcessing.aluminum,
   ]}
   noResult
 />
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-petrotheum-ingot-iron',
-    'tf-1-12-petrotheum-ore-iron',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.petrotheum.ironIngot, tfCrafting.petrotheum.ironOre]} noResult />
 
 ### Centrifugal Separator
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-invar']}
-  noResult
-/>
+<RecipeTable recipes={[teCentrifuge.invarBlend]} noResult />
 
 ### Smashing
 When [iron ore](https://minecraft.wiki/w/Iron_Ore) is broken using a
@@ -57,29 +49,19 @@ Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-iron-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.ironIngotFromDust]} />
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-pyrotheum-dust-iron',
-    'tf-1-12-dust-invar',
-  ]}
-/>
+<RecipeTable recipes={[tfCrafting.pyrotheum.pulverizedIron, tfCrafting.invarBlend]} />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting-iron',
-    'ingot-steel-from-dust-iron-and-coal-coke',
-    'ingot-steel-from-dust-iron-and-dust-coal',
-    'ingot-steel-from-dust-iron-and-dust-charcoal',
-    'ingot-invar-from-dust-iron-and-dust-nickel',
-    'ingot-invar-from-dust-iron-and-ingot-nickel',
+    teSmelter.dustSmelting.iron,
+    teSmelter.steelIngot.pulverizedIronAndCoalCoke,
+    teSmelter.steelIngot.pulverizedIronAndPulverizedCoal,
+    teSmelter.steelIngot.pulverizedIronAndPulverizedCharcoal,
+    teSmelter.invarIngot.pulverizedIronAndPulverizedNickel,
+    teSmelter.invarIngot.pulverizedIronAndNickelIngot,
   ]}
 />

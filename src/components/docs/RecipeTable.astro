@@ -1,43 +1,89 @@
 ---
-import { getRecipeSiteUrl } from '../../data/recipe-sites.ts';
-import type { CraftingRecipeData, MachineRecipeLayout, RecipeType } from '../../data/types.ts';
-import CraftingRecipe from './recipe/CraftingRecipe.astro';
-import MachineRecipe from './recipe/MachineRecipe.astro';
-import RecipeTableItem from './RecipeTableItem.astro';
+import type {
+  Recipe,
+  RecipeColumnItemData,
+  RecipeSlotData,
+  RecipeTankData,
+} from '../../data/types.ts';
+import RecipeColumnItem from './RecipeColumnItem.astro';
 
 interface Props {
-  type: string;
-  recipes: string[];
+  recipes: Recipe[];
   noResult?: boolean;
 }
 
-type RecipeModule =
-  | { default: RecipeType<CraftingRecipeData>; layout?: undefined }
-  | { default: RecipeType; layout: MachineRecipeLayout };
+const type = Astro.props.recipes[0].type;
 
-const modules = import.meta.glob<RecipeModule>('../../data/recipes/**/*.ts', {
-  eager: true,
-});
+if (Astro.props.recipes.some((recipe) => recipe.type !== type)) {
+  const types = new Set(Astro.props.recipes.map((recipe) => recipe.type.name));
 
-const recipeModule = modules[`../../data/recipes/${Astro.props.type}.ts`];
-
-if (recipeModule === undefined) {
-  throw new Error(`Unknown recipe type "${Astro.props.type}"`);
+  throw new Error(
+    `RecipeTable only supports one recipe type at a time, but got ${types.size}: ${[...types].join(', ')}.`,
+  );
 }
 
-const recipeType = recipeModule.default;
+const withNote = Astro.props.recipes.some((recipe) => recipe.note !== undefined);
 
-const rows = Astro.props.recipes.map((id) => {
-  const recipe = recipeType.recipes[id];
-
-  if (recipe === undefined) {
-    throw new Error(`Unknown ${Astro.props.type} recipe "${id}"`);
+function asColumnItem(input: RecipeSlotData | RecipeTankData): RecipeColumnItemData {
+  if ('fluid' in input) {
+    return { fluid: input.fluid, fluidAmount: input.amount };
   }
 
-  return { id, recipe };
-});
+  if (input.itemGroup !== undefined) {
+    return { itemGroup: input.itemGroup };
+  }
 
-const withNote = rows.some(({ recipe }) => recipe.note !== undefined);
+  return { item: Array.isArray(input.item) ? input.item[0] : input.item };
+}
+
+function getResultsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
+  if (recipe.results !== undefined) {
+    return recipe.results;
+  }
+
+  const columnItems: RecipeColumnItemData[] = [];
+
+  for (const output of recipe.outputs) {
+    if (output === null) {
+      continue;
+    }
+
+    const columnItem = asColumnItem(output);
+
+    if (recipe.amountSuffix && !('fluid' in output) && (output.amount ?? 1) > 1) {
+      columnItem.suffix = `x${output.amount}`;
+    }
+
+    columnItems.push(columnItem);
+  }
+
+  return columnItems;
+}
+
+function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
+  if (recipe.ingredients !== undefined) {
+    return recipe.ingredients;
+  }
+
+  const seen = new Set();
+  const columnItems: RecipeColumnItemData[] = [];
+
+  for (const input of recipe.inputs) {
+    if (input === null) {
+      continue;
+    }
+
+    const columnItem = asColumnItem(input);
+    const target = columnItem.item ?? columnItem.itemGroup ?? columnItem.fluid;
+
+    if (!seen.has(target)) {
+      seen.add(target);
+      columnItems.push(columnItem);
+    }
+  }
+
+  return columnItems;
+}
 ---
 
 <div class="uk-overflow-container">
@@ -46,64 +92,61 @@ const withNote = rows.some(({ recipe }) => recipe.note !== undefined);
       <tr>
         {!Astro.props.noResult && <th>Result(s)</th>}
         <th>Ingredients</th>
-        {recipeType.withEnergy && <th>Energy</th>}
+        {type.withEnergy && <th>Energy</th>}
         <th>
-          <a href={getRecipeSiteUrl(recipeType.site, recipeType.url)}>{recipeType.name}</a> recipe
+          <a href={type.href}>{type.name}</a> recipe
         </th>
         {withNote && <th>Note</th>}
       </tr>
     </thead>
 
     <tbody>
-      {rows.map(({ id, recipe }) => (
-        <tr>
-          {!Astro.props.noResult && (
-            <td class="uk-text-center cofh-nowrap">
-              {recipe.results.map((result, index) => {
-                const Emphasis = recipeType.allResultsBold || index === 0 ? 'strong' : Fragment;
+      {Astro.props.recipes.map((recipe) => {
+        const ingredients = getIngredientsColumnItems(recipe);
 
-                return (
-                  <>
-                    <Emphasis>
-                      <RecipeTableItem entry={result} role="result" first={index === 0} />
-                    </Emphasis>
-                    <br />
-                  </>
-                );
-              })}
+        return (
+          <tr>
+            {!Astro.props.noResult && (
+              <td class="uk-text-center cofh-nowrap">
+                {getResultsColumnItems(recipe).map((result, index) => {
+                  const Emphasis = type.allResultsBold || index === 0 ? 'strong' : Fragment;
+
+                  return (
+                    <>
+                      <Emphasis>
+                        <RecipeColumnItem data={result} role="result" first={index === 0} />
+                      </Emphasis>
+                      <br />
+                    </>
+                  );
+                })}
+              </td>
+            )}
+
+            <td>
+              {ingredients.map((ingredient, index) => (
+                <>
+                  <RecipeColumnItem data={ingredient} role="ingredient" first={index === 0} />
+                  {index < ingredients.length - 1 && <>&nbsp;+</>}
+                  <br />
+                </>
+              ))}
             </td>
-          )}
 
-          <td>
-            {recipe.ingredients.map((ingredient, index) => (
-              <>
-                <RecipeTableItem entry={ingredient} role="ingredient" first={index === 0} />
-                {index < recipe.ingredients.length - 1 && <>&nbsp;+</>}
-                <br />
-              </>
-            ))}
-          </td>
+            {type.withEnergy && (
+              <td class="cofh-nowrap uk-text-right">{recipe.energy?.toLocaleString('en-US')} RF</td>
+            )}
 
-          {recipeType.withEnergy && (
-            <td class="cofh-nowrap uk-text-right">{recipe.energy?.toLocaleString('en-US')} RF</td>
-          )}
+            <td style="padding: 2px; text-align: center">
+              <div class="cofh-recipe">
+                <type.component recipe={recipe} />
+              </div>
+            </td>
 
-          <td style="padding: 2px; text-align: center">
-            <div class="cofh-recipe">
-              {recipeModule.layout === undefined ? (
-                <CraftingRecipe data={recipeModule.default.recipes[id].data} />
-              ) : (
-                <MachineRecipe
-                  layout={recipeModule.layout}
-                  data={recipeModule.default.recipes[id].data}
-                />
-              )}
-            </div>
-          </td>
-
-          {withNote && <td>{recipe.note}</td>}
-        </tr>
-      ))}
+            {withNote && <td>{recipe.note}</td>}
+          </tr>
+        );
+      })}
     </tbody>
   </table>
 </div>
@@ -126,16 +169,6 @@ const withNote = rows.some(({ recipe }) => recipe.note !== undefined);
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: #444444 2px 2px 1px;
     pointer-events: none;
-  }
-
-  .cofh-recipe-item-sprite,
-  .cofh-recipe-item-sheet-sprite {
-    width: 32px;
-    height: 32px;
-  }
-
-  .cofh-recipe-item-sheet-sprite {
-    background-image: var(--cofh-item-sprite-sheet);
   }
 
   .cofh-recipe-floating-text {

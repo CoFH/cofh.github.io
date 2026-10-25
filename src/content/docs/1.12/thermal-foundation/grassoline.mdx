@@ -4,10 +4,12 @@ title: Grassoline
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teRefinery from '@/data/1.12/thermal-expansion/recipes/refinery.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/grassoline.gif', alt: 'Grassoline' }]}
-/>
+<PageImage images={[{ item: tfFluids.grassoline }]} />
 
 **Grassoline** is a fluid obtained by processing
 [biocrude](../biocrude/) in a [fractionating
@@ -19,16 +21,10 @@ Obtaining
 ---------
 
 ### Fractionating Still
-<RecipeTable
-  type="1.12/thermal-expansion/refinery"
-  recipes={['grassoline']}
-/>
+<RecipeTable recipes={[teRefinery.grassoline]} />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-grassoline']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.grassolineBucket]} />
 
 
 Usage
@@ -37,10 +33,7 @@ Usage
 Grassoline cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-grassoline']}
-/>
+<RecipeTable recipes={[teTransposerFill.grassolineBucket]} />
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression

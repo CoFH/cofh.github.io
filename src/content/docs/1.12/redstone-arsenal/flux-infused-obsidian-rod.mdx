@@ -4,12 +4,10 @@ title: Flux-Infused Obsidian Rod
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'redstone-arsenal-2/obsidian-rod-flux-infused.png', alt: 'Flux-infused obsidian rod' },
-  ]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedObsidianRod }]} />
 
 **Flux-infused obsidian rods** are crafting materials used to make flux-infused
 tools and weapons.
@@ -19,11 +17,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-obsidian-rod-flux-infused']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedObsidianRod]} noResult />
 
 
 Usage
@@ -31,18 +25,17 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ra-1-12-tool-pickaxe',
-    'ra-1-12-tool-shovel',
-    'ra-1-12-tool-axe',
-    'ra-1-12-tool-fishing-rod',
-    'ra-1-12-tool-hammer',
-    'ra-1-12-tool-excavator',
-    'ra-1-12-tool-sickle',
-    'ra-1-12-tool-wrench',
-    'ra-1-12-weapon-sword',
-    'ra-1-12-weapon-bow',
-    'ra-1-12-weapon-battlewrench',
+    raCrafting.fluxInfusedPickaxe,
+    raCrafting.fluxInfusedShovel,
+    raCrafting.fluxInfusedAxe,
+    raCrafting.fluxInfusedFishingRod,
+    raCrafting.fluxInfusedHammer,
+    raCrafting.fluxInfusedExcavator,
+    raCrafting.fluxInfusedSickle,
+    raCrafting.fluxInfusedOmniwrench,
+    raCrafting.fluxInfusedSword,
+    raCrafting.fluxInfusedBow,
+    raCrafting.fluxInfusedBattlewrench,
   ]}
 />

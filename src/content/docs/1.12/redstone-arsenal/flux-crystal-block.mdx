@@ -4,12 +4,10 @@ title: Flux Crystal Block
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'redstone-arsenal-2/storage-block-flux-crystal.png', alt: 'Flux crystal block' },
-  ]}
-/>
+<PageImage images={[{ item: ra.fluxCrystalBlock }]} />
 
 **Flux crystal blocks** are blocks made from [flux crystals](../flux-crystal/).
 
@@ -21,11 +19,7 @@ Flux crystal blocks can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-storage-block-flux-crystal']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxCrystalBlock]} noResult />
 
 
 Usage
@@ -55,7 +49,4 @@ Flux crystal blocks can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-flux-crystal-from-block']}
-/>
+<RecipeTable recipes={[raCrafting.fluxCrystalFromBlock]} />

@@ -4,10 +4,13 @@ title: Mana Infused Ore
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ore-mithril.png', alt: 'Mana Infused ore' }]}
-/>
+<PageImage images={[{ item: tf.manaInfusedOre }]} />
 
 
 **Mana infused ore** is an [ore](https://minecraft.wiki/w/Ore) that
@@ -32,34 +35,26 @@ Usage
 -----
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ore-processing-mithril']}
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.mithril]} />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-mithril',
-    'tf-1-12-petrotheum-ore-mithril',
-    'tf-1-12-petrotheum-pyrotheum-ore-mithril',
+    tfCrafting.pyrotheum.manaInfusedOre,
+    tfCrafting.petrotheum.manaInfusedOre,
+    tfCrafting.petrotheumPyrotheum.manaInfusedOre,
   ]}
 />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['ore-processing-mithril']}
-/>
+<RecipeTable recipes={[tePulverizer.oreProcessing.mithril]} />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-mithril',
-    'ore-processing-rich-slag-mithril',
-    'ore-processing-cinnabar-mithril',
+    teSmelter.oreProcessing.mithril,
+    teSmelter.oreProcessingRichSlag.mithril,
+    teSmelter.oreProcessingCinnabar.mithril,
   ]}
 />
 

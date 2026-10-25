@@ -4,10 +4,16 @@ title: Nickel Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-nickel.png', alt: 'Nickel ingot' }]}
-/>
+<PageImage images={[{ item: tf.nickelIngot }]} />
 
 
 **Nickel ingots** are raw materials obtained from [nickel
@@ -19,56 +25,47 @@ Obtaining
 ---------
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={[
-    'tf-1-12-ore-processing-nickel',
-    'tf-1-12-ingot-nickel-from-dust',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.nickel, tfSmelting.nickelIngotFromDust]} noResult />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-nickel',
-    'tf-1-12-petrotheum-pyrotheum-ore-nickel',
-    'tf-1-12-pyrotheum-dust-nickel',
-    'tf-1-12-ingot-nickel-from-nuggets',
-    'tf-1-12-ingot-nickel-from-block',
+    tfCrafting.pyrotheum.nickelOre,
+    tfCrafting.petrotheumPyrotheum.nickelOre,
+    tfCrafting.pyrotheum.pulverizedNickel,
+    tfCrafting.nickelIngot.nuggets,
+    tfCrafting.nickelIngot.block,
   ]}
   noResult
 />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-nickel',
-    'ore-processing-rich-slag-nickel',
-    'ore-processing-cinnabar-nickel',
-    'ore-processing-cinnabar-iron',
-    'dust-smelting-nickel',
-    'recycling-gear-nickel',
-    'recycling-plate-nickel',
-    'recycling-tool-pickaxe-nickel',
-    'recycling-tool-shovel-nickel',
-    'recycling-tool-axe-nickel',
-    'recycling-tool-hoe-nickel',
-    'recycling-tool-fishing-rod-nickel',
-    'recycling-tool-shears-nickel',
-    'recycling-tool-hammer-nickel',
-    'recycling-tool-excavator-nickel',
-    'recycling-tool-sickle-nickel',
-    'recycling-weapon-sword-nickel',
-    'recycling-weapon-bow-nickel',
-    'recycling-weapon-shield-nickel',
-    'recycling-armor-helmet-nickel',
-    'recycling-armor-chestplate-nickel',
-    'recycling-armor-leggings-nickel',
-    'recycling-armor-boots-nickel',
-    'recycling-horse-armor-nickel',
+    teSmelter.oreProcessing.nickel,
+    teSmelter.oreProcessingRichSlag.nickel,
+    teSmelter.oreProcessingCinnabar.nickel,
+    teSmelter.oreProcessingCinnabar.iron,
+    teSmelter.dustSmelting.nickel,
+    teSmelter.recycling.nickelGear,
+    teSmelter.recycling.nickelPlate,
+    teSmelter.recycling.nickelPickaxe,
+    teSmelter.recycling.nickelShovel,
+    teSmelter.recycling.nickelAxe,
+    teSmelter.recycling.nickelHoe,
+    teSmelter.recycling.nickelFishingRod,
+    teSmelter.recycling.nickelShears,
+    teSmelter.recycling.nickelHammer,
+    teSmelter.recycling.nickelExcavator,
+    teSmelter.recycling.nickelSickle,
+    teSmelter.recycling.nickelSword,
+    teSmelter.recycling.nickelReinforcedBow,
+    teSmelter.recycling.nickelShield,
+    teSmelter.recycling.nickelHelmet,
+    teSmelter.recycling.nickelChestplate,
+    teSmelter.recycling.nickelLeggings,
+    teSmelter.recycling.nickelBoots,
+    teSmelter.recycling.nickelHorseArmor,
   ]}
   noResult
 />
@@ -79,66 +76,52 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-nickel',
-    'tf-1-12-nugget-nickel',
-    'tf-1-12-gear-nickel',
-    'tf-1-12-storage-block-nickel',
-    'tf-1-12-tool-pickaxe-nickel',
-    'tf-1-12-tool-shovel-nickel',
-    'tf-1-12-tool-axe-nickel',
-    'tf-1-12-tool-hoe-nickel',
-    'tf-1-12-tool-fishing-rod-nickel',
-    'tf-1-12-tool-shears-nickel',
-    'tf-1-12-tool-hammer-nickel',
-    'tf-1-12-tool-excavator-nickel',
-    'tf-1-12-tool-sickle-nickel',
-    'tf-1-12-weapon-sword-nickel',
-    'tf-1-12-weapon-bow-nickel',
-    'tf-1-12-weapon-shield-nickel',
-    'tf-1-12-armor-helmet-nickel',
-    'tf-1-12-armor-chestplate-nickel',
-    'tf-1-12-armor-leggings-nickel',
-    'tf-1-12-armor-boots-nickel',
-    'tf-1-12-horse-armor-nickel',
+    tfCrafting.petrotheum.nickelIngot,
+    tfCrafting.nickelNugget,
+    tfCrafting.nickelGear,
+    tfCrafting.blockOfNickel,
+    tfCrafting.nickelPickaxe,
+    tfCrafting.nickelShovel,
+    tfCrafting.nickelAxe,
+    tfCrafting.nickelHoe,
+    tfCrafting.nickelFishingRod,
+    tfCrafting.nickelShears,
+    tfCrafting.nickelHammer,
+    tfCrafting.nickelExcavator,
+    tfCrafting.nickelSickle,
+    tfCrafting.nickelSword,
+    tfCrafting.nickelReinforcedBow,
+    tfCrafting.nickelShield,
+    tfCrafting.nickelHelmet,
+    tfCrafting.nickelChestplate,
+    tfCrafting.nickelLeggings,
+    tfCrafting.nickelBoots,
+    tfCrafting.nickelHorseArmor,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-nickel']}
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedNickel]} />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ingot-invar-from-dust-iron-and-ingot-nickel',
-    'ingot-invar-from-ingot-iron-and-ingot-nickel',
-    'ingot-constantan-from-dust-copper-and-ingot-nickel',
-    'ingot-constantan-from-ingot-copper-and-ingot-nickel',
+    teSmelter.invarIngot.pulverizedIronAndNickelIngot,
+    teSmelter.invarIngot.ironIngotAndNickelIngot,
+    teSmelter.constantanIngot.pulverizedCopperAndNickelIngot,
+    teSmelter.constantanIngot.copperIngotAndNickelIngot,
   ]}
 />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-nickel']}
-/>
+<RecipeTable recipes={[teCompactor.nickelPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-nickel']}
-/>
+<RecipeTable recipes={[teCompactorCoin.nickelCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-nickel']}
-/>
+<RecipeTable recipes={[teCompactorGear.nickelGear]} />
 
 
 Trivia

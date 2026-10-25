@@ -4,10 +4,13 @@ title: Lead Ore
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ore-lead.png', alt: 'Lead ore' }]}
-/>
+<PageImage images={[{ item: tf.leadOre }]} />
 
 
 **Lead ore** is a somewhat uncommon [ore](https://minecraft.wiki/w/Ore)
@@ -35,34 +38,26 @@ Usage
 -----
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ore-processing-lead']}
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.lead]} />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-lead',
-    'tf-1-12-petrotheum-ore-lead',
-    'tf-1-12-petrotheum-pyrotheum-ore-lead',
+    tfCrafting.pyrotheum.leadOre,
+    tfCrafting.petrotheum.leadOre,
+    tfCrafting.petrotheumPyrotheum.leadOre,
   ]}
 />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['ore-processing-lead']}
-/>
+<RecipeTable recipes={[tePulverizer.oreProcessing.lead]} />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-lead',
-    'ore-processing-rich-slag-lead',
-    'ore-processing-cinnabar-lead',
+    teSmelter.oreProcessing.lead,
+    teSmelter.oreProcessingRichSlag.lead,
+    teSmelter.oreProcessingCinnabar.lead,
   ]}
 />
 

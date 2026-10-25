@@ -1,74 +1,57 @@
 ---
-import { Image } from 'astro:assets';
-
-import { image } from '../../../lib/images.ts';
-import itemGroups from '../../../data/recipe-item-groups.ts';
-import items from '../../../data/recipe-items.ts';
-import { getRecipeSiteUrl } from '../../../data/recipe-sites.ts';
-import type { RecipeItemId, RecipeItem, RecipeSlotData } from '../../../data/types.ts';
+import type { Item, RecipeSlotData } from '../../../data/types.ts';
+import GameImage from '../GameImage.astro';
 
 interface Props {
-  data: RecipeSlotData;
+  data: RecipeSlotData | undefined;
   top: number;
   left: number;
 }
 
 const { data, top, left } = Astro.props;
 
-const itemIds: RecipeItemId[] =
-  data.itemGroup === undefined ? data.item : itemGroups[data.itemGroup].items;
+let items: Item[] = [];
 
-const amount = data.amount ?? 1;
+if (data !== undefined) {
+  if (data.itemGroup !== undefined) {
+    items = data.itemGroup.items;
+  } else {
+    items = Array.isArray(data.item) ? data.item : [data.item];
+  }
+}
+
+const amount = data?.amount ?? 1;
 ---
 
-<div
-  style={{
-    position: 'absolute',
-    top: `${top}px`,
-    left: `${left}px`,
-    width: '32px',
-    height: '32px',
-  }}
->
-  <div class:list={['cofh-cycle', { random: data.randomCycle }]}>
-    {itemIds.map((id, index) => {
-      const item: RecipeItem = items[id];
-      const Link = item.url === undefined ? 'span' : 'a';
+{data !== undefined && (
+  <div
+    style={{
+      position: 'absolute',
+      top: `${top}px`,
+      left: `${left}px`,
+      width: '32px',
+      height: '32px',
+    }}
+  >
+    <div class:list={['cofh-cycle', { random: data.randomCycle }]}>
+      {items.map((item, index) => {
+        const Link = item.href === undefined ? 'span' : 'a';
 
-      return (
-        <div class:list={{ hidden: index > 0 }}>
-          <Link
-            href={item.url !== undefined ? getRecipeSiteUrl(item.site, item.url) : undefined}
-            aria-label={item.url !== undefined ? item.name : undefined}
-          >
-            <div
-              class="cofh-recipe-item-sprite"
-              title={item.name}
-              data-uk-tooltip="{pos: 'top', offset: 4}"
-            >
-              {item.animated ? (
-                <Image
-                  src={image(`recipe/item-sprites/${id}.gif`)}
-                  alt={item.name}
-                  class="cofh-recipe-item-sprite"
-                />
-              ) : (
-                <div
-                  class="cofh-recipe-item-sheet-sprite"
-                  style={{
-                    backgroundPosition: `-${item.sprite[0] * 32}px -${item.sprite[1] * 32}px`,
-                  }}
-                />
-              )}
-            </div>
-          </Link>
-        </div>
-      );
-    })}
+        return (
+          <div class:list={{ hidden: index > 0 }}>
+            <Link href={item.href} aria-label={item.href !== undefined ? item.name : undefined}>
+              <div title={item.name} data-uk-tooltip="{pos: 'top', offset: 4}">
+                <GameImage image={item.slotImage ?? item.image} height={32} alt={item.name} />
+              </div>
+            </Link>
+          </div>
+        );
+      })}
+    </div>
+
+    {amount > 1 && <span class="cofh-recipe-slot-amount">{amount.toLocaleString('en-US')}</span>}
   </div>
-
-  {amount > 1 && <span class="cofh-recipe-slot-amount">{amount.toLocaleString('en-US')}</span>}
-</div>
+)}
 
 <script>
   import '../../../scripts/cycle.ts';

@@ -4,10 +4,11 @@ title: Essence of Knowledge
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/essence-of-knowledge.gif', alt: 'Essence of knowledge' }]}
-/>
+<PageImage images={[{ item: tfFluids.essenceOfKnowledge }]} />
 
 **Essence of knowledge** is a fluid form of
 [experience](https://minecraft.wiki/w/Experience).
@@ -37,10 +38,7 @@ apparatus](../../thermal-expansion/augment-enstabulation-apparatus/) installed p
 knowledge when processing filled [morbs](../../thermal-expansion/morb/).
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-experience']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.essenceOfKnowledgeBucket]} />
 
 
 Usage
@@ -50,14 +48,13 @@ Essence of knowledge cannot be placed as a block.
 
 ### Fluid Transposer ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
   recipes={[
-    'bucket-experience',
-    'bottle-o-enchanting',
-    'blaze-powder',
-    'blizz-powder',
-    'blitz-powder',
-    'basalz-powder',
+    teTransposerFill.essenceOfKnowledgeBucket,
+    teTransposerFill.bottleOEnchanting,
+    teTransposerFill.blazePowder,
+    teTransposerFill.blizzPowder,
+    teTransposerFill.blitzPowder,
+    teTransposerFill.basalzPowder,
   ]}
 />
 

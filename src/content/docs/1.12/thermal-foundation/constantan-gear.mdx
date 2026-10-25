@@ -4,10 +4,13 @@ title: Constantan Gear
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/gear-constantan.png', alt: 'Constantan gear' }]}
-/>
+<PageImage images={[{ item: tf.constantanGear }]} />
 
 
 **Constantan gears** are crafting materials made of
@@ -18,18 +21,10 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-gear-constantan']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.constantanGear]} noResult />
 
 ### Compactor with Gearworking Die
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-constantan']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorGear.constantanGear]} noResult />
 
 
 Usage
@@ -37,18 +32,14 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'te-1-12-machine-refinery',
-    'te-1-12-machine-brewer',
-    'te-1-12-machine-enchanter',
-    'te-1-12-dynamo-numismatic',
-    'te-1-12-augment-machine-refinery-oil',
+    teCrafting.fractionatingStill,
+    teCrafting.alchemicalImbuer,
+    teCrafting.arcaneEnsorcellator,
+    teCrafting.numismaticDynamo,
+    teCrafting.augmentRefluxColumn,
   ]}
 />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-gear-constantan']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.constantanGear]} />

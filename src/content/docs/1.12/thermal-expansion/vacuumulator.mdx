@@ -4,10 +4,10 @@ title: Vacuumulator
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/vacuumulator.png', alt: 'Vacuumulator' }]}
-/>
+<PageImage images={[{ item: te.vacuumulator }]} />
 
 > Yes, this block sucks.
 
@@ -24,11 +24,7 @@ A placed vacuumulator can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-device-item-collector']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.vacuumulator]} noResult />
 
 
 Usage

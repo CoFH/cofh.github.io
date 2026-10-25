@@ -4,21 +4,24 @@ title: Helmets
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/helmet-copper.png', alt: 'Copper helmet' },
-    { file: 'thermal-foundation-2/helmet-tin.png', alt: 'Tin helmet' },
-    { file: 'thermal-foundation-2/helmet-silver.png', alt: 'Silver helmet' },
-    { file: 'thermal-foundation-2/helmet-lead.png', alt: 'Lead helmet' },
-    { file: 'thermal-foundation-2/helmet-aluminum.png', alt: 'Aluminum helmet' },
-    { file: 'thermal-foundation-2/helmet-nickel.png', alt: 'Nickel helmet' },
-    { file: 'thermal-foundation-2/helmet-platinum.png', alt: 'Platinum helmet' },
-    { file: 'thermal-foundation-2/helmet-steel.png', alt: 'Steel helmet' },
-    { file: 'thermal-foundation-2/helmet-electrum.png', alt: 'Electrum helmet' },
-    { file: 'thermal-foundation-2/helmet-invar.png', alt: 'Invar helmet' },
-    { file: 'thermal-foundation-2/helmet-bronze.png', alt: 'Bronze helmet' },
-    { file: 'thermal-foundation-2/helmet-constantan.png', alt: 'Constantan helmet' },
+    { item: tf.copperHelmet },
+    { item: tf.tinHelmet },
+    { item: tf.silverHelmet },
+    { item: tf.leadHelmet },
+    { item: tf.aluminumHelmet },
+    { item: tf.nickelHelmet },
+    { item: tf.platinumHelmet },
+    { item: tf.steelHelmet },
+    { item: tf.electrumHelmet },
+    { item: tf.invarHelmet },
+    { item: tf.bronzeHelmet },
+    { item: tf.constantanHelmet },
   ]}
 />
 
@@ -34,20 +37,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-armor-helmet-copper',
-    'tf-1-12-armor-helmet-tin',
-    'tf-1-12-armor-helmet-silver',
-    'tf-1-12-armor-helmet-lead',
-    'tf-1-12-armor-helmet-aluminum',
-    'tf-1-12-armor-helmet-nickel',
-    'tf-1-12-armor-helmet-platinum',
-    'tf-1-12-armor-helmet-steel',
-    'tf-1-12-armor-helmet-electrum',
-    'tf-1-12-armor-helmet-invar',
-    'tf-1-12-armor-helmet-bronze',
-    'tf-1-12-armor-helmet-constantan',
+    tfCrafting.copperHelmet,
+    tfCrafting.tinHelmet,
+    tfCrafting.silverHelmet,
+    tfCrafting.leadHelmet,
+    tfCrafting.aluminumHelmet,
+    tfCrafting.nickelHelmet,
+    tfCrafting.platinumHelmet,
+    tfCrafting.steelHelmet,
+    tfCrafting.electrumHelmet,
+    tfCrafting.invarHelmet,
+    tfCrafting.bronzeHelmet,
+    tfCrafting.constantanHelmet,
   ]}
 />
 
@@ -199,19 +201,18 @@ defense = mat.reductionAmounts[3]
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-armor-helmet-copper',
-    'recycling-armor-helmet-tin',
-    'recycling-armor-helmet-silver',
-    'recycling-armor-helmet-lead',
-    'recycling-armor-helmet-aluminum',
-    'recycling-armor-helmet-nickel',
-    'recycling-armor-helmet-platinum',
-    'recycling-armor-helmet-steel',
-    'recycling-armor-helmet-electrum',
-    'recycling-armor-helmet-invar',
-    'recycling-armor-helmet-bronze',
-    'recycling-armor-helmet-constantan',
+    teSmelter.recycling.copperHelmet,
+    teSmelter.recycling.tinHelmet,
+    teSmelter.recycling.silverHelmet,
+    teSmelter.recycling.leadHelmet,
+    teSmelter.recycling.aluminumHelmet,
+    teSmelter.recycling.nickelHelmet,
+    teSmelter.recycling.platinumHelmet,
+    teSmelter.recycling.steelHelmet,
+    teSmelter.recycling.electrumHelmet,
+    teSmelter.recycling.invarHelmet,
+    teSmelter.recycling.bronzeHelmet,
+    teSmelter.recycling.constantanHelmet,
   ]}
 />

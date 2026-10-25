@@ -4,10 +4,15 @@ title: Pulverized Silver
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-silver.png', alt: 'Pulverized silver' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedSilver }]} />
 
 
 **Pulverized silver** is a raw material. It is the dust form of
@@ -19,32 +24,29 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-silver',
-    'ore-processing-silver',
-    'ore-processing-lead',
+    tePulverizer.pulverizedSilver,
+    tePulverizer.oreProcessing.silver,
+    tePulverizer.oreProcessing.lead,
   ]}
   noResult
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-silver',
-    'tf-1-12-petrotheum-ore-silver',
+    tfCrafting.petrotheum.silverIngot,
+    tfCrafting.petrotheum.silverOre,
   ]}
   noResult
 />
 
 ### Centrifugal Separator
 <RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
   recipes={[
-    'dust-electrum',
-    'dust-signalum',
-    'dust-lumium',
+    teCentrifuge.electrumBlend,
+    teCentrifuge.signalumBlend,
+    teCentrifuge.lumiumBlend,
   ]}
   noResult
 />
@@ -60,31 +62,26 @@ Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-silver-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.silverIngotFromDust]} />
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-dust-silver',
-    'tf-1-12-dust-electrum',
-    'tf-1-12-dust-signalum',
-    'tf-1-12-dust-lumium',
-    'tf-1-12-hardened-glass-silver',
-    'ra-1-12-dust-fluxed-electrum-using-gold-and-silver',
+    tfCrafting.pyrotheum.pulverizedSilver,
+    tfCrafting.electrumBlend,
+    tfCrafting.signalumBlend,
+    tfCrafting.lumiumBlend,
+    tfCrafting.hardenedSilverGlass,
+    raCrafting.fluxedElectrumBlendUsingGoldAndSilver,
   ]}
 />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting-silver',
-    'ingot-electrum-from-dust-gold-and-dust-silver',
-    'ingot-electrum-from-ingot-gold-and-dust-silver',
-    'hardened-glass-silver',
+    teSmelter.dustSmelting.silver,
+    teSmelter.electrumIngot.pulverizedGoldAndPulverizedSilver,
+    teSmelter.electrumIngot.goldIngotAndPulverizedSilver,
+    teSmelter.hardenedSilverGlass,
   ]}
 />

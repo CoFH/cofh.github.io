@@ -4,13 +4,15 @@ title: Shears
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import vpt from '@/data/1.12/vanillaplus-tools/items.ts';
+import vptCrafting from '@/data/1.12/vanillaplus-tools/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-tools/shears-gold.png', alt: 'Gold shears' },
-    { file: 'vanillaplus-tools/shears-diamond.png', alt: 'Diamond shears' },
-    { file: 'vanillaplus-tools/shears-wood.png', alt: 'Wooden shears' },
-    { file: 'vanillaplus-tools/shears-stone.png', alt: 'Stone shears' },
+    { item: vpt.goldShears },
+    { item: vpt.diamondShears },
+    { item: vpt.woodenShears },
+    { item: vpt.stoneShears },
   ]}
 />
 
@@ -24,12 +26,11 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'vpt-1-12-tool-shears-wood',
-    'vpt-1-12-tool-shears-stone',
-    'vpt-1-12-tool-shears-gold',
-    'vpt-1-12-tool-shears-diamond',
+    vptCrafting.woodenShears,
+    vptCrafting.stoneShears,
+    vptCrafting.goldShears,
+    vptCrafting.diamondShears,
   ]}
 />
 

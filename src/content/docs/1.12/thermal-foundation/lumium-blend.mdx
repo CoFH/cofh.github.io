@@ -4,10 +4,13 @@ title: Lumium Blend
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-lumium.png', alt: 'Lumium blend' }]}
-/>
+<PageImage images={[{ item: tf.lumiumBlend }]} />
 
 
 **Lumium blend** is a raw material. It is the dust form of
@@ -18,11 +21,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-dust-lumium']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.lumiumBlend]} noResult />
 
 Any item that contains at least one
 [bucket](https://minecraft.wiki/w/Bucket) worth of [energized
@@ -31,33 +30,17 @@ tank](../../thermal-expansion/portable-tank/) can make it easier to craft large 
 blend.
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-lumium']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.lumiumBlend]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-hardened-glass-lumium']}
-/>
+<RecipeTable recipes={[tfCrafting.hardenedLumiumGlass]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-lumium',
-    'hardened-glass-lumium',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.lumium, teSmelter.hardenedLumiumGlass]} />
 
 ### Centrifugal Separator ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-lumium']}
-/>
+<RecipeTable recipes={[teCentrifuge.lumiumBlend]} />

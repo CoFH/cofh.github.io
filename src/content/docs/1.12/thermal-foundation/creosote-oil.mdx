@@ -4,10 +4,12 @@ title: Creosote Oil
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teRedstoneFurnacePyrolysis from '@/data/1.12/thermal-expansion/recipes/redstone-furnace-pyrolysis.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/creosote-oil.gif', alt: 'Creosote oil' }]}
-/>
+<PageImage images={[{ item: tfFluids.creosoteOil }]} />
 
 
 **Creosote oil** is a fluid that is most commonly obtained as a byproduct from
@@ -21,23 +23,19 @@ Obtaining
 
 ### Redstone Furnace with Pyrolytic Conversion
 <RecipeTable
-  type="1.12/thermal-expansion/redstone-furnace-pyrolysis"
   recipes={[
-    'coal-coke',
-    'storage-block-coal-coke',
-    'charcoal-from-wood-log',
-    'charcoal-from-hay-bale',
-    'charcoal-from-cactus',
-    'charcoal-from-sugar-canes',
-    'charcoal-from-sawdust',
+    teRedstoneFurnacePyrolysis.coalCoke,
+    teRedstoneFurnacePyrolysis.blockOfCoalCoke,
+    teRedstoneFurnacePyrolysis.charcoal.wood,
+    teRedstoneFurnacePyrolysis.charcoal.hayBale,
+    teRedstoneFurnacePyrolysis.charcoal.cactus,
+    teRedstoneFurnacePyrolysis.charcoal.sugarCanes,
+    teRedstoneFurnacePyrolysis.charcoal.sawdust,
   ]}
 />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-creosote-oil']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.creosoteOilBucket]} />
 
 
 Usage
@@ -46,10 +44,7 @@ Usage
 Creosote oil cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-creosote-oil']}
-/>
+<RecipeTable recipes={[teTransposerFill.creosoteOilBucket]} />
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/), a bucket

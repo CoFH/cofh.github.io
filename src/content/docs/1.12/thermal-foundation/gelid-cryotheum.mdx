@@ -4,10 +4,13 @@ title: Gelid Cryotheum
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/gelid-cryotheum.gif', alt: 'Gelid cryotheum' }]}
-/>
+<PageImage images={[{ item: tfFluids.gelidCryotheum }]} />
 
 > This is also worse than lava, except cold. You yeti.
 
@@ -21,16 +24,10 @@ Obtaining
 ---------
 
 ### Magma Crucible
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['cryotheum']}
-/>
+<RecipeTable recipes={[teCrucible.gelidCryotheum]} />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-cryotheum']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.gelidCryotheumBucket]} />
 
 
 Usage
@@ -78,14 +75,13 @@ Gelid cryotheum has the following effects on certain blocks and mobs:
 
 ### Fluid Transposer ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
   recipes={[
-    'bucket-cryotheum',
-    'packed-ice',
-    'redstone-from-clathrate',
-    'glowstone-dust-from-clathrate',
-    'ender-pearl-from-clathrate',
-    'td-1-12-fluxduct-super',
+    teTransposerFill.gelidCryotheumBucket,
+    teTransposerFill.packedIce,
+    teTransposerFill.redstone.clathrate,
+    teTransposerFill.glowstoneDust.clathrate,
+    teTransposerFill.enderPearl.clathrate,
+    tdTransposerFill.cryoStabilizedFluxduct,
   ]}
 />
 

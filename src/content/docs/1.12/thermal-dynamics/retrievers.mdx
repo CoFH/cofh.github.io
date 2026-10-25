@@ -4,14 +4,16 @@ title: Retrievers
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-dynamics-2/retriever-basic.png', alt: 'Retriever' },
-    { file: 'thermal-dynamics-2/retriever-hardened.png', alt: 'Hardened retriever' },
-    { file: 'thermal-dynamics-2/retriever-reinforced.png', alt: 'Reinforced retriever' },
-    { file: 'thermal-dynamics-2/retriever-signalum.png', alt: 'Signalum retriever' },
-    { file: 'thermal-dynamics-2/retriever-resonant.png', alt: 'Resonant retriever' },
+    { item: td.retriever0 },
+    { item: td.retriever1 },
+    { item: td.retriever2 },
+    { item: td.retriever3 },
+    { item: td.retriever4 },
   ]}
 />
 
@@ -25,24 +27,22 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-retriever-basic',
-    'td-1-12-retriever-hardened',
-    'td-1-12-retriever-reinforced',
-    'td-1-12-retriever-signalum',
-    'td-1-12-retriever-resonant',
+    tdCrafting.retriever0,
+    tdCrafting.retriever1,
+    tdCrafting.retriever2,
+    tdCrafting.retriever3,
+    tdCrafting.retriever4,
   ]}
 />
 
 ### Upgrading
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-retriever-hardened-upgrade',
-    'td-1-12-retriever-reinforced-upgrade',
-    'td-1-12-retriever-signalum-upgrade',
-    'td-1-12-retriever-resonant-upgrade',
+    tdCrafting.retriever1Upgrade,
+    tdCrafting.retriever2Upgrade,
+    tdCrafting.retriever3Upgrade,
+    tdCrafting.retriever4Upgrade,
   ]}
 />
 

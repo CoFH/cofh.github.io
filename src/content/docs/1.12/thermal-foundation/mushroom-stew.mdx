@@ -4,10 +4,11 @@ title: Mushroom Stew
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/mushroom-stew.gif', alt: 'Mushroom stew' }]}
-/>
+<PageImage images={[{ item: tfFluids.mushroomStew }]} />
 
 
 **Mushroom stew** is the fluid form of the [item of the same
@@ -18,13 +19,7 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={[
-    'mushroom-stew',
-    'bucket-mushroom-stew',
-  ]}
-/>
+<RecipeTable recipes={[teTransposerEmpty.mushroomStew, teTransposerEmpty.mushroomStewBucket]} />
 
 ### Arboreal Extractor
 An [arboreal extractor](../../thermal-expansion/arboreal-extractor/) will produce mushroom stew
@@ -38,10 +33,4 @@ Usage
 Mushroom stew cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={[
-    'bucket-mushroom-stew',
-    'mushroom-stew',
-  ]}
-/>
+<RecipeTable recipes={[teTransposerFill.mushroomStewBucket, teTransposerFill.mushroomStew]} />

@@ -4,10 +4,10 @@ title: Florb
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/florb.png', alt: 'Florb' }]}
-/>
+<PageImage images={[{ item: te.florb }]} />
 
 A **florb** ('fluid orb') is a throwable item that contains a fluid.
 
@@ -16,14 +16,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'te-1-12-florb-using-slime',
-    'te-1-12-florb-using-rosin',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.florbUsingSlime, teCrafting.florbUsingRosin]} noResult />
 
 
 Usage

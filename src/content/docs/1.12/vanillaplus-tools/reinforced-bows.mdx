@@ -4,13 +4,15 @@ title: Reinforced Bows
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import vpt from '@/data/1.12/vanillaplus-tools/items.ts';
+import vptCrafting from '@/data/1.12/vanillaplus-tools/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-tools/bow-iron.png', alt: 'Iron reinforced bow' },
-    { file: 'vanillaplus-tools/bow-gold.png', alt: 'Gold reinforced bow' },
-    { file: 'vanillaplus-tools/bow-diamond.png', alt: 'Diamond reinforced bow' },
-    { file: 'vanillaplus-tools/bow-stone.png', alt: 'Stone reinforced bow' },
+    { item: vpt.ironReinforcedBow },
+    { item: vpt.goldReinforcedBow },
+    { item: vpt.diamondReinforcedBow },
+    { item: vpt.stoneReinforcedBow },
   ]}
 />
 
@@ -24,12 +26,11 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'vpt-1-12-weapon-bow-stone',
-    'vpt-1-12-weapon-bow-iron',
-    'vpt-1-12-weapon-bow-gold',
-    'vpt-1-12-weapon-bow-diamond',
+    vptCrafting.stoneReinforcedBow,
+    vptCrafting.ironReinforcedBow,
+    vptCrafting.goldReinforcedBow,
+    vptCrafting.diamondReinforcedBow,
   ]}
 />
 

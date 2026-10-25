@@ -1,72 +1,76 @@
 ---
 import { getImage } from 'astro:assets';
 
-import fluids from '../../../data/recipe-fluids.ts';
-import { getRecipeSiteUrl } from '../../../data/recipe-sites.ts';
-import type { MachineRecipeElement, RecipeTankData } from '../../../data/types.ts';
-import { image } from '../../../lib/images.ts';
+import type { RecipeTankData } from '../../../data/types.ts';
+import tankGaugeShort from './tank-gauge-short.png';
+import tankGauge from './tank-gauge.png';
 
 interface Props {
-  data: RecipeTankData;
-  element: Extract<MachineRecipeElement, { tank: string }>;
-  background: string;
+  data: RecipeTankData | undefined;
+  top: number;
+  left: number;
+  short?: boolean;
+  size: number;
 }
 
-const { data, element, background } = Astro.props;
+const { data, top, left, short = false, size } = Astro.props;
 
-const fluid = fluids[data.fluid];
+const height = short ? 60 : 120;
 
-const height = element.height ?? 120;
+const gaugeImage = await getImage({ src: short ? tankGaugeShort : tankGauge });
 
-const amount = `${data.amount.toLocaleString('en-US')}\u00a0mB`;
+const amount = data !== undefined ? `${data.amount.toLocaleString('en-US')}\u00a0mB` : '';
 
-const fill = data.amount === 0 ? 25 : Math.floor((data.amount * 100) / element.size);
-
-const fluidSprite = await getImage({ src: image(`recipe/fluid-sprites/${data.fluid}.gif`) });
+const fill = data === undefined || data.amount === 0 ? 25 : Math.floor((data.amount * 100) / size);
 ---
 
-<div
-  style={{
-    position: 'absolute',
-    top: `${element.top}px`,
-    left: `${element.left}px`,
-    width: '32px',
-    height: `${height}px`,
-  }}
->
-  <a href={getRecipeSiteUrl(fluid.site, fluid.url)} aria-label={`${fluid.name}, ${amount}`}>
+{data !== undefined && (
+  <>
     <div
       style={{
-        position: 'relative',
+        position: 'absolute',
+        top: `${top}px`,
+        left: `${left}px`,
         width: '32px',
         height: `${height}px`,
       }}
-      title={`${fluid.name}<br />${amount}`}
-      data-uk-tooltip="{pos: 'top', offset: 4}"
     >
-      <div
-        style={{
-          position: 'absolute',
-          bottom: '0',
-          width: '32px',
-          height: `${fill}%`,
-          minHeight: '2px',
-          backgroundImage: `url('${fluidSprite.src}')`,
-        }}
-      ></div>
+      <a href={data.fluid.href} aria-label={`${data.fluid.name}, ${amount}`}>
+        <div
+          style={{
+            position: 'relative',
+            width: '32px',
+            height: `${height}px`,
+          }}
+          title={`${data.fluid.name}<br />${amount}`}
+          data-uk-tooltip="{pos: 'top', offset: 4}"
+        >
+          <div
+            style={{
+              position: 'absolute',
+              bottom: '0',
+              width: '32px',
+              height: `${fill}%`,
+              minHeight: '2px',
+              backgroundImage: `url('${data.fluid.image.src}')`,
+              backgroundSize: '32px',
+              imageRendering: 'pixelated',
+            }}
+          ></div>
+        </div>
+      </a>
     </div>
-  </a>
-</div>
 
-<div
-  style={{
-    position: 'absolute',
-    top: `${element.top}px`,
-    left: `${element.left}px`,
-    width: '32px',
-    height: `${height}px`,
-    background: `url('${background}')`,
-    backgroundPosition: `-${element.gauge}px -0px`,
-    pointerEvents: 'none',
-  }}
-></div>
+    <div
+      style={{
+        position: 'absolute',
+        top: `${top}px`,
+        left: `${left}px`,
+        width: '32px',
+        height: `${height}px`,
+        background: `url('${gaugeImage.src}')`,
+        pointerEvents: 'none',
+      }}
+    ></div>
+  </>
+)}

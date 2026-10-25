@@ -4,15 +4,10 @@ title: 'Augment: Trivection Chamber'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-furnace-food.png',
-      alt: 'Trivection chamber augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentTrivectionChamber }]} />
 
 A **trivection chamber** is an [augment](../augments/) that increases the
 amount of cooked [food](https://minecraft.wiki/w/Food) a [redstone
@@ -23,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-furnace-food']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentTrivectionChamber]} noResult />
 
 
 Usage

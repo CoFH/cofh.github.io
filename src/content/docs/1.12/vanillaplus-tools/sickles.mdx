@@ -4,14 +4,16 @@ title: Sickles
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import vpt from '@/data/1.12/vanillaplus-tools/items.ts';
+import vptCrafting from '@/data/1.12/vanillaplus-tools/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-tools/sickle-iron.png', alt: 'Iron sickle' },
-    { file: 'vanillaplus-tools/sickle-gold.png', alt: 'Gold sickle' },
-    { file: 'vanillaplus-tools/sickle-diamond.png', alt: 'Diamond sickle' },
-    { file: 'vanillaplus-tools/sickle-wood.png', alt: 'Wooden sickle' },
-    { file: 'vanillaplus-tools/sickle-stone.png', alt: 'Stone sickle' },
+    { item: vpt.ironSickle },
+    { item: vpt.goldSickle },
+    { item: vpt.diamondSickle },
+    { item: vpt.woodenSickle },
+    { item: vpt.stoneSickle },
   ]}
 />
 
@@ -24,13 +26,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'vpt-1-12-tool-sickle-wood',
-    'vpt-1-12-tool-sickle-stone',
-    'vpt-1-12-tool-sickle-iron',
-    'vpt-1-12-tool-sickle-gold',
-    'vpt-1-12-tool-sickle-diamond',
+    vptCrafting.woodenSickle,
+    vptCrafting.stoneSickle,
+    vptCrafting.ironSickle,
+    vptCrafting.goldSickle,
+    vptCrafting.diamondSickle,
   ]}
 />
 

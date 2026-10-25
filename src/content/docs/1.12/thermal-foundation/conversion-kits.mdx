@@ -4,16 +4,15 @@ title: Conversion Kits
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    {
-      file: 'thermal-foundation-2/conversion-kit-reinforced.png',
-      alt: 'Reinforced conversion kit',
-    },
-    { file: 'thermal-foundation-2/conversion-kit-signalum.png', alt: 'Signalum conversion kit' },
-    { file: 'thermal-foundation-2/conversion-kit-resonant.png', alt: 'Resonant conversion kit' },
-    { file: 'thermal-foundation-2/conversion-kit-creative.png', alt: 'Creative conversion kit' },
+    { item: tf.conversionKit2 },
+    { item: tf.conversionKit3 },
+    { item: tf.conversionKit4 },
+    { item: tf.conversionKitCreative },
   ]}
 />
 
@@ -31,14 +30,13 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-conversion-kit-reinforced',
-    'tf-1-12-conversion-kit-signalum-1',
-    'tf-1-12-conversion-kit-signalum-2',
-    'tf-1-12-conversion-kit-resonant-1',
-    'tf-1-12-conversion-kit-resonant-2',
-    'tf-1-12-conversion-kit-resonant-3',
+    tfCrafting.conversionKit2,
+    tfCrafting.conversionKit3.upgradeKits,
+    tfCrafting.conversionKit3.conversionKit2,
+    tfCrafting.conversionKit4.upgradeKits,
+    tfCrafting.conversionKit4.conversionKit2,
+    tfCrafting.conversionKit4.conversionKit3,
   ]}
 />
 

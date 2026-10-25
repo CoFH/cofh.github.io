@@ -4,15 +4,17 @@ title: Watering Can
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tc from '@/data/1.12/thermal-cultivation/items.ts';
+import tcCrafting from '@/data/1.12/thermal-cultivation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-cultivation/watering-can-basic.png', alt: 'Watering can (Basic)' },
-    { file: 'thermal-cultivation/watering-can-hardened.png', alt: 'Watering can (Hardened)' },
-    { file: 'thermal-cultivation/watering-can-reinforced.png', alt: 'Watering can (Reinforced)' },
-    { file: 'thermal-cultivation/watering-can-signalum.png', alt: 'Watering can (Signalum)' },
-    { file: 'thermal-cultivation/watering-can-resonant.png', alt: 'Watering can (Resonant)' },
-    { file: 'thermal-cultivation/watering-can-creative.png', alt: 'Watering can (Creative)' },
+    { item: tc.wateringCan0 },
+    { item: tc.wateringCan1 },
+    { item: tc.wateringCan2 },
+    { item: tc.wateringCan3 },
+    { item: tc.wateringCan4 },
+    { item: tc.wateringCanCreative },
   ]}
 />
 
@@ -26,13 +28,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tc-1-12-watering-can-basic',
-    'tc-1-12-watering-can-hardened',
-    'tc-1-12-watering-can-reinforced',
-    'tc-1-12-watering-can-signalum',
-    'tc-1-12-watering-can-resonant',
+    tcCrafting.wateringCan0,
+    tcCrafting.wateringCan1,
+    tcCrafting.wateringCan2,
+    tcCrafting.wateringCan3,
+    tcCrafting.wateringCan4,
   ]}
 />
 

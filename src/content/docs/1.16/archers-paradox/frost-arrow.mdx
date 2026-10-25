@@ -4,10 +4,10 @@ title: Frost Arrow
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ap from '@/data/1.16/archers-paradox/items.ts';
+import apCrafting from '@/data/1.16/archers-paradox/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'archers-paradox-1-16/frost-arrow.png', alt: 'Frost Arrow' }]}
-/>
+<PageImage images={[{ item: ap.frostArrow }]} />
 
 > Stay frosty
 
@@ -19,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ap-1-16-frost-arrow']}
-  noResult
-/>
+<RecipeTable recipes={[apCrafting.frostArrow]} noResult />
 
 ### Trading
 Can be bought from Journeyman level [Fletcher](https://minecraft.wiki/w/Trading#Fletcher) villagers.

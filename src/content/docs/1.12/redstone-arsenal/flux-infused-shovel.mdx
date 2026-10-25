@@ -4,10 +4,10 @@ title: Flux-Infused Shovel
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-shovel.png', alt: 'Flux-infused shovel' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedShovel }]} />
 
 A **flux-infused shovel** is a powerful
 [shovel](https://minecraft.wiki/w/Shovel) powered by [Redstone
@@ -19,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-tool-shovel']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedShovel]} noResult />
 
 
 Usage

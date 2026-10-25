@@ -1,0 +1,23 @@
+---
+interface Props {
+  value: number | undefined;
+  top: number;
+  right: number;
+  align: 'left' | 'center' | 'right';
+}
+
+const { value, top, right, align } = Astro.props;
+---
+
+{value !== undefined && (
+  <div
+    class="cofh-recipe-floating-text"
+    style={{
+      top: `${top}px`,
+      right: `${right}px`,
+      textAlign: align,
+    }}
+  >
+    {value}%
+  </div>
+)}

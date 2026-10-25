@@ -4,10 +4,10 @@ title: Flux-Infused Shield
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-shield.png', alt: 'Flux-infused shield' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedShield }]} />
 
 A **flux-infused shield** is a powerful
 [shield](https://minecraft.wiki/w/Shield) powered by [Redstone
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-weapon-shield']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedShield]} noResult />
 
 
 Usage

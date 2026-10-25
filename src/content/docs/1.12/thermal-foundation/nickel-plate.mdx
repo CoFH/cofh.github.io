@@ -4,10 +4,12 @@ title: Nickel Plate
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/plate-nickel.png', alt: 'Nickel plate' }]}
-/>
+<PageImage images={[{ item: tf.nickelPlate }]} />
 
 
 **Nickel plates** are crafting materials made of [nickel](../nickel-ingot/).
@@ -17,27 +19,14 @@ Obtaining
 ---------
 
 ### Compactor
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-nickel']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactor.nickelPlate]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'te-1-12-augment-machine-smelter-pyrotheum',
-    'te-1-12-augment-machine-insolator-monoculture',
-  ]}
-/>
+<RecipeTable recipes={[teCrafting.augmentPyroConcentrator, teCrafting.augmentMonocultureCycle]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-plate-nickel']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.nickelPlate]} />

@@ -4,15 +4,10 @@ title: 'Augment: Disjunctive Extraction'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-dynamo-enervation-enchant.png',
-      alt: 'Disjunctive extraction augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentDisjunctiveExtraction }]} />
 
 A **disjunctive extraction** [augment](../augments/) allows for an
 [enervation dynamo](../enervation-dynamo/) to use
@@ -23,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-dynamo-enervation-enchant']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentDisjunctiveExtraction]} noResult />
 
 
 Usage

@@ -4,10 +4,14 @@ title: Pulverized Lead
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-lead.png', alt: 'Pulverized lead' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedLead }]} />
 
 
 **Pulverized lead** is a raw material. It is the dust form of
@@ -19,31 +23,19 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-lead',
-    'ore-processing-lead',
-    'ore-processing-silver',
+    tePulverizer.pulverizedLead,
+    tePulverizer.oreProcessing.lead,
+    tePulverizer.oreProcessing.silver,
   ]}
   noResult
 />
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-petrotheum-ingot-lead',
-    'tf-1-12-petrotheum-ore-lead',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.petrotheum.leadIngot, tfCrafting.petrotheum.leadOre]} noResult />
 
 ### Centrifugal Separator
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-enderium']}
-  noResult
-/>
+<RecipeTable recipes={[teCentrifuge.enderiumBlend]} noResult />
 
 ### Smashing
 When [lead ore](../lead-ore/) is broken using a
@@ -56,27 +48,17 @@ Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-lead-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.leadIngotFromDust]} />
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-dust-lead',
-    'tf-1-12-dust-enderium',
-    'tf-1-12-hardened-glass',
-    'tf-1-12-hardened-glass-lead',
+    tfCrafting.pyrotheum.pulverizedLead,
+    tfCrafting.enderiumBlend,
+    tfCrafting.hardenedGlass,
+    tfCrafting.hardenedGlassLead,
   ]}
 />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-lead',
-    'hardened-glass',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.lead, teSmelter.hardenedGlass]} />

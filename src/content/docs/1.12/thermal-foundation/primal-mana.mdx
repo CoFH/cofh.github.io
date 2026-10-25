@@ -4,10 +4,11 @@ title: Primal Mana
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/primal-mana.gif', alt: 'Primal mana' }]}
-/>
+<PageImage images={[{ item: tfFluids.primalMana }]} />
 
 
 **Primal mana** is a fluid that currently cannot be obtained.
@@ -17,10 +18,7 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-mana']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.primalManaBucket]} />
 
 
 Usage
@@ -70,7 +68,4 @@ Primal mana has the following effects on certain blocks:
 
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-mana']}
-/>
+<RecipeTable recipes={[teTransposerFill.primalManaBucket]} />

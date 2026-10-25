@@ -4,10 +4,13 @@ title: Fluxed Electrum Blend
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
+import raSmelter from '@/data/1.12/redstone-arsenal/recipes/smelter.ts';
+import raTransposerFill from '@/data/1.12/redstone-arsenal/recipes/transposer-fill.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/dust-fluxed-electrum.gif', alt: 'Fluxed electrum blend' }]}
-/>
+<PageImage images={[{ item: ra.fluxedElectrumBlend }]} />
 
 **Fluxed electrum blend** is a raw material. It is the dust form of [fluxed
 electrum](../fluxed-electrum-ingot/).
@@ -18,34 +21,22 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ra-1-12-dust-fluxed-electrum-using-electrum',
-    'ra-1-12-dust-fluxed-electrum-using-gold-and-silver',
+    raCrafting.fluxedElectrumBlendUsingElectrum,
+    raCrafting.fluxedElectrumBlendUsingGoldAndSilver,
   ]}
   noResult
 />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['ra-1-12-dust-fluxed-electrum']}
-  noResult
-/>
+<RecipeTable recipes={[raTransposerFill.fluxedElectrumBlend]} noResult />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-fluxed-electrum']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.fluxedElectrumBlend]} noResult />
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['ra-1-12-dust-smelting-fluxed-electrum']}
-/>
+<RecipeTable recipes={[raSmelter.dustSmeltingFluxedElectrum]} />

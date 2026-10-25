@@ -5,10 +5,11 @@ title: Redstone Furnace
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teRedstoneFurnace from '@/data/1.12/thermal-expansion/recipes/redstone-furnace.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/redstone-furnace.png', alt: 'Redstone furnace' }]}
-/>
+<PageImage images={[{ item: te.redstoneFurnace }]} />
 
 > Coal is for chumps!
 
@@ -26,11 +27,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-furnace']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.redstoneFurnace]} noResult />
 
 ### Upgrading
 A redstone furnace is initially at the lowest [tier](#tiers) (basic). It can be
@@ -199,13 +196,12 @@ Redstone furnaces have some recipes of their own, some of which replace regular
 smelting recipes. The following table lists these recipes.
 
 <RecipeTable
-  type="1.12/thermal-expansion/redstone-furnace"
   recipes={[
-    'ingot-from-dust',
-    'food',
-    'cactus-green',
-    'ore-processing-lapis-lazuli',
-    'ore-processing-redstone',
-    'leather',
+    teRedstoneFurnace.ingotFromDust,
+    teRedstoneFurnace.food,
+    teRedstoneFurnace.cactusGreen,
+    teRedstoneFurnace.oreProcessingLapisLazuli,
+    teRedstoneFurnace.oreProcessingRedstone,
+    teRedstoneFurnace.leather,
   ]}
 />

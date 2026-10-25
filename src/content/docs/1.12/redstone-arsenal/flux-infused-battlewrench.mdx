@@ -4,12 +4,10 @@ title: Flux-Infused BattleWrench
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'redstone-arsenal-2/flux-infused-battlewrench.png', alt: 'Flux-infused battlewrench' },
-  ]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedBattlewrench }]} />
 
 A **flux-infused battlewrench** is a powerful weapon powered by [Redstone
 Flux](/docs/redstone-flux/) that also serves as a [wrench](../../wrenches/).
@@ -19,11 +17,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-weapon-battlewrench']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedBattlewrench]} noResult />
 
 
 Usage

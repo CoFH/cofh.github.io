@@ -5,11 +5,13 @@ title: Forge Lexicon
 import { Image } from 'astro:assets';
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
-import { image } from '@/lib/images.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import forgeLexiconGuiKnowledgeImage from '@/data/1.12/thermal-foundation/images/forge-lexicon-gui-knowledge.png';
+import forgeLexiconGuiTransmutationImage from '@/data/1.12/thermal-foundation/images/forge-lexicon-gui-transmutation.png';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/forge-lexicon.png', alt: 'Forge Lexicon' }]}
-/>
+<PageImage images={[{ item: tf.forgeLexicon }]} />
 
 > Also known as a Thesoreus.
 
@@ -23,11 +25,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-forge-lexicon']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.forgeLexicon]} noResult />
 
 
 Usage
@@ -44,7 +42,7 @@ that allows the user to study the available groups of equivalent items, and to
 set which items in these groups they prefer. These preferences are used when the
 Lexicon is in transmutation mode.
 
-<p><Image src={image('thermal-foundation-2/forge-lexicon-gui-knowledge.png')} alt="Forge Lexicon Knowledge GUI" style="height: 250px; width: auto" /></p>
+<p><Image src={forgeLexiconGuiKnowledgeImage} alt="Forge Lexicon Knowledge GUI" style="height: 250px; width: auto" /></p>
 
 ### Transmutation
 A Forge Lexicon in transmutation mode in a user's inventory converts any
@@ -55,13 +53,10 @@ the first of its available equivalents.
 When a Forge Lexicon is used while in transmutation mode, an interface is opened
 that allows the user to convert items into their equivalents by hand.
 
-<p><Image src={image('thermal-foundation-2/forge-lexicon-gui-transmutation.png')} alt="Forge Lexicon Transmutation GUI" style="height: 250px; width: auto" /></p>
+<p><Image src={forgeLexiconGuiTransmutationImage} alt="Forge Lexicon Transmutation GUI" style="height: 250px; width: auto" /></p>
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-device-lexicon']}
-/>
+<RecipeTable recipes={[teCrafting.lexicalTransmuter]} />
 
 
 Trivia

@@ -4,10 +4,13 @@ title: Pulverized Iridium
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-iridium.png', alt: 'Pulverized iridium' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedIridium }]} />
 
 
 **Pulverized iridium** is a raw material. It is the dust form of
@@ -19,21 +22,19 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-iridium',
-    'ore-processing-iridium',
-    'ore-processing-platinum',
+    tePulverizer.pulverizedIridium,
+    tePulverizer.oreProcessing.iridium,
+    tePulverizer.oreProcessing.platinum,
   ]}
   noResult
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-iridium',
-    'tf-1-12-petrotheum-ore-iridium',
+    tfCrafting.petrotheum.iridiumIngot,
+    tfCrafting.petrotheum.iridiumOre,
   ]}
   noResult
 />
@@ -49,25 +50,10 @@ Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-iridium-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.iridiumIngotFromDust]} />
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-pyrotheum-dust-iridium',
-    'tf-1-12-hardened-glass-iridium',
-  ]}
-/>
+<RecipeTable recipes={[tfCrafting.pyrotheum.pulverizedIridium, tfCrafting.hardenedIridiumGlass]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-iridium',
-    'hardened-glass-iridium',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.iridium, teSmelter.hardenedIridiumGlass]} />

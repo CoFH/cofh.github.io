@@ -4,10 +4,18 @@ title: Silver Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-silver.png', alt: 'Silver ingot' }]}
-/>
+<PageImage images={[{ item: tf.silverIngot }]} />
 
 
 **Silver ingots** are raw materials obtained from [silver
@@ -18,56 +26,47 @@ Obtaining
 ---------
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={[
-    'tf-1-12-ore-processing-silver',
-    'tf-1-12-ingot-silver-from-dust',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.silver, tfSmelting.silverIngotFromDust]} noResult />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-silver',
-    'tf-1-12-petrotheum-pyrotheum-ore-silver',
-    'tf-1-12-pyrotheum-dust-silver',
-    'tf-1-12-ingot-silver-from-nuggets',
-    'tf-1-12-ingot-silver-from-block',
+    tfCrafting.pyrotheum.silverOre,
+    tfCrafting.petrotheumPyrotheum.silverOre,
+    tfCrafting.pyrotheum.pulverizedSilver,
+    tfCrafting.silverIngot.nuggets,
+    tfCrafting.silverIngot.block,
   ]}
   noResult
 />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-silver',
-    'ore-processing-rich-slag-silver',
-    'ore-processing-cinnabar-silver',
-    'ore-processing-cinnabar-lead',
-    'dust-smelting-silver',
-    'recycling-gear-silver',
-    'recycling-plate-silver',
-    'recycling-tool-pickaxe-silver',
-    'recycling-tool-shovel-silver',
-    'recycling-tool-axe-silver',
-    'recycling-tool-hoe-silver',
-    'recycling-tool-fishing-rod-silver',
-    'recycling-tool-shears-silver',
-    'recycling-tool-hammer-silver',
-    'recycling-tool-excavator-silver',
-    'recycling-tool-sickle-silver',
-    'recycling-weapon-sword-silver',
-    'recycling-weapon-bow-silver',
-    'recycling-weapon-shield-silver',
-    'recycling-armor-helmet-silver',
-    'recycling-armor-chestplate-silver',
-    'recycling-armor-leggings-silver',
-    'recycling-armor-boots-silver',
-    'recycling-horse-armor-silver',
+    teSmelter.oreProcessing.silver,
+    teSmelter.oreProcessingRichSlag.silver,
+    teSmelter.oreProcessingCinnabar.silver,
+    teSmelter.oreProcessingCinnabar.lead,
+    teSmelter.dustSmelting.silver,
+    teSmelter.recycling.silverGear,
+    teSmelter.recycling.silverPlate,
+    teSmelter.recycling.silverPickaxe,
+    teSmelter.recycling.silverShovel,
+    teSmelter.recycling.silverAxe,
+    teSmelter.recycling.silverHoe,
+    teSmelter.recycling.silverFishingRod,
+    teSmelter.recycling.silverShears,
+    teSmelter.recycling.silverHammer,
+    teSmelter.recycling.silverExcavator,
+    teSmelter.recycling.silverSickle,
+    teSmelter.recycling.silverSword,
+    teSmelter.recycling.silverReinforcedBow,
+    teSmelter.recycling.silverShield,
+    teSmelter.recycling.silverHelmet,
+    teSmelter.recycling.silverChestplate,
+    teSmelter.recycling.silverLeggings,
+    teSmelter.recycling.silverBoots,
+    teSmelter.recycling.silverHorseArmor,
   ]}
   noResult
 />
@@ -78,70 +77,56 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-silver',
-    'tf-1-12-nugget-silver',
-    'tf-1-12-gear-silver',
-    'tf-1-12-storage-block-silver',
-    'tf-1-12-redstone-coil-silver',
-    'te-1-12-device-diffuser',
-    'te-1-12-augment-dynamo-power',
-    'ti-1-12-fluxbore-basic',
-    'ti-1-12-fluxsaw-basic',
-    'ti-1-12-hypoinfuser-basic',
-    'tf-1-12-tool-pickaxe-silver',
-    'tf-1-12-tool-shovel-silver',
-    'tf-1-12-tool-axe-silver',
-    'tf-1-12-tool-hoe-silver',
-    'tf-1-12-tool-fishing-rod-silver',
-    'tf-1-12-tool-shears-silver',
-    'tf-1-12-tool-hammer-silver',
-    'tf-1-12-tool-excavator-silver',
-    'tf-1-12-tool-sickle-silver',
-    'tf-1-12-weapon-sword-silver',
-    'tf-1-12-weapon-bow-silver',
-    'tf-1-12-weapon-shield-silver',
-    'tf-1-12-armor-helmet-silver',
-    'tf-1-12-armor-chestplate-silver',
-    'tf-1-12-armor-leggings-silver',
-    'tf-1-12-armor-boots-silver',
-    'tf-1-12-horse-armor-silver',
+    tfCrafting.petrotheum.silverIngot,
+    tfCrafting.silverNugget,
+    tfCrafting.silverGear,
+    tfCrafting.blockOfSilver,
+    tfCrafting.redstoneTransmissionCoil,
+    teCrafting.decoctiveDiffuser,
+    teCrafting.augmentAuxiliaryTransmissionCoil,
+    tiCrafting.fluxbore0,
+    tiCrafting.fluxsaw0,
+    tiCrafting.hypoinfuser0,
+    tfCrafting.silverPickaxe,
+    tfCrafting.silverShovel,
+    tfCrafting.silverAxe,
+    tfCrafting.silverHoe,
+    tfCrafting.silverFishingRod,
+    tfCrafting.silverShears,
+    tfCrafting.silverHammer,
+    tfCrafting.silverExcavator,
+    tfCrafting.silverSickle,
+    tfCrafting.silverSword,
+    tfCrafting.silverReinforcedBow,
+    tfCrafting.silverShield,
+    tfCrafting.silverHelmet,
+    tfCrafting.silverChestplate,
+    tfCrafting.silverLeggings,
+    tfCrafting.silverBoots,
+    tfCrafting.silverHorseArmor,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-silver']}
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedSilver]} />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ingot-electrum-from-dust-gold-and-ingot-silver',
-    'ingot-electrum-from-ingot-gold-and-ingot-silver',
+    teSmelter.electrumIngot.pulverizedGoldAndSilverIngot,
+    teSmelter.electrumIngot.goldIngotAndSilverIngot,
   ]}
 />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-silver']}
-/>
+<RecipeTable recipes={[teCompactor.silverPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-silver']}
-/>
+<RecipeTable recipes={[teCompactorCoin.silverCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-silver']}
-/>
+<RecipeTable recipes={[teCompactorGear.silverGear]} />
 
 
 Trivia

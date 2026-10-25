@@ -4,10 +4,10 @@ title: Steel Nugget
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/nugget-steel.png', alt: 'Steel nugget' }]}
-/>
+<PageImage images={[{ item: tf.steelNugget }]} />
 
 
 **Steel nuggets** are raw materials. They are the nugget form of
@@ -18,18 +18,11 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-nugget-steel']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.steelNugget]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-ingot-steel-from-nuggets']}
-/>
+<RecipeTable recipes={[tfCrafting.steelIngot.nuggets]} />

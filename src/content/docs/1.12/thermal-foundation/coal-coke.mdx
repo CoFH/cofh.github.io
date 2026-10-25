@@ -4,10 +4,12 @@ title: Coal Coke
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teRedstoneFurnacePyrolysis from '@/data/1.12/thermal-expansion/recipes/redstone-furnace-pyrolysis.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/coal-coke.png', alt: 'Coal coke' }]}
-/>
+<PageImage images={[{ item: tf.coalCoke }]} />
 
 
 **Coal coke** is a material obtained by processing
@@ -21,18 +23,10 @@ Obtaining
 ---------
 
 ### Redstone Furnace with Pyrolytic Conversion
-<RecipeTable
-  type="1.12/thermal-expansion/redstone-furnace-pyrolysis"
-  recipes={['coal-coke']}
-  noResult
-/>
+<RecipeTable recipes={[teRedstoneFurnacePyrolysis.coalCoke]} noResult />
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-coal-coke-from-block']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.coalCokeFromBlock]} noResult />
 
 
 Usage
@@ -44,16 +38,12 @@ piece of coal coke lasts 160 seconds, which is enough to smelt up to 16 items.
 It lasts twice as long as regular [coal](https://minecraft.wiki/w/Coal).
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-storage-block-coal-coke']}
-/>
+<RecipeTable recipes={[tfCrafting.blockOfCoalCoke]} />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ingot-steel-from-dust-iron-and-coal-coke',
-    'ingot-steel-from-ingot-iron-and-coal-coke',
+    teSmelter.steelIngot.pulverizedIronAndCoalCoke,
+    teSmelter.steelIngot.ironIngotAndCoalCoke,
   ]}
 />

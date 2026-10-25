@@ -4,10 +4,10 @@ title: Flux-Infused Quiver
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-quiver.png', alt: 'Flux-infused quiver' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedQuiver }]} />
 
 A **flux-infused quiver** is a [Redstone Flux](/docs/redstone-flux/)-powered
 item that provides powerful ammunition for
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-weapon-quiver']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedQuiver]} noResult />
 
 
 Usage

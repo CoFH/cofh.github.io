@@ -4,12 +4,10 @@ title: Flux-Infused OmniWrench
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'redstone-arsenal-2/flux-infused-omniwrench.png', alt: 'Flux-infused omniwrench' },
-  ]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedOmniwrench }]} />
 
 A **flux-infused omniwrench** is a [wrench](../../wrenches/) powered by
 [Redstone Flux](/docs/redstone-flux/). It also serves as
@@ -20,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-tool-wrench']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedOmniwrench]} noResult />
 
 
 Usage

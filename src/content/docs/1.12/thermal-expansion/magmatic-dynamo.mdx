@@ -5,16 +5,10 @@ title: Magmatic Dynamo
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-expansion-5/dynamo-magmatic-rf.png', alt: 'Magmatic dynamo' },
-    {
-      file: 'thermal-expansion-5/dynamo-magmatic-steam.png',
-      alt: 'Magmatic dynamo with boiler conversion',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.magmaticDynamo }, { item: te.magmaticDynamoBoilerConversion }]} />
 
 A **magmatic dynamo** is a [dynamo](../dynamos/) fueled by hot fluids like
 [lava](https://minecraft.wiki/w/Lava).
@@ -29,11 +23,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-dynamo-magmatic']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.magmaticDynamo]} noResult />
 
 ### Upgrading
 A magmatic dynamo is initially at the lowest [tier](#tiers) (basic). It can be

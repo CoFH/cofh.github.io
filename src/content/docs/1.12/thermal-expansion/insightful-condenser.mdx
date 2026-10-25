@@ -4,10 +4,10 @@ title: Insightful Condenser
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/insightful-condenser.png', alt: 'Insightful condenser' }]}
-/>
+<PageImage images={[{ item: te.insightfulCondenser }]} />
 
 An **insightful condenser** is a [device](../devices/) that collects nearby
 [experience orbs](https://minecraft.wiki/w/Experience) and converts them
@@ -22,11 +22,7 @@ a [wrench](../../wrenches/). Its configuration is preserved in the item. It can
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-device-xp-collector']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.insightfulCondenser]} noResult />
 
 
 Usage

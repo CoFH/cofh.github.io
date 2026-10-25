@@ -4,21 +4,24 @@ title: Pickaxes
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/pickaxe-copper.png', alt: 'Copper pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-tin.png', alt: 'Tin pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-silver.png', alt: 'Silver pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-lead.png', alt: 'Lead pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-aluminum.png', alt: 'Aluminum pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-nickel.png', alt: 'Nickel pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-platinum.png', alt: 'Platinum pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-steel.png', alt: 'Steel pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-electrum.png', alt: 'Electrum pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-invar.png', alt: 'Invar pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-bronze.png', alt: 'Bronze pickaxe' },
-    { file: 'thermal-foundation-2/pickaxe-constantan.png', alt: 'Constantan pickaxe' },
+    { item: tf.copperPickaxe },
+    { item: tf.tinPickaxe },
+    { item: tf.silverPickaxe },
+    { item: tf.leadPickaxe },
+    { item: tf.aluminumPickaxe },
+    { item: tf.nickelPickaxe },
+    { item: tf.platinumPickaxe },
+    { item: tf.steelPickaxe },
+    { item: tf.electrumPickaxe },
+    { item: tf.invarPickaxe },
+    { item: tf.bronzePickaxe },
+    { item: tf.constantanPickaxe },
   ]}
 />
 
@@ -33,20 +36,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-tool-pickaxe-copper',
-    'tf-1-12-tool-pickaxe-tin',
-    'tf-1-12-tool-pickaxe-silver',
-    'tf-1-12-tool-pickaxe-lead',
-    'tf-1-12-tool-pickaxe-aluminum',
-    'tf-1-12-tool-pickaxe-nickel',
-    'tf-1-12-tool-pickaxe-platinum',
-    'tf-1-12-tool-pickaxe-steel',
-    'tf-1-12-tool-pickaxe-electrum',
-    'tf-1-12-tool-pickaxe-invar',
-    'tf-1-12-tool-pickaxe-bronze',
-    'tf-1-12-tool-pickaxe-constantan',
+    tfCrafting.copperPickaxe,
+    tfCrafting.tinPickaxe,
+    tfCrafting.silverPickaxe,
+    tfCrafting.leadPickaxe,
+    tfCrafting.aluminumPickaxe,
+    tfCrafting.nickelPickaxe,
+    tfCrafting.platinumPickaxe,
+    tfCrafting.steelPickaxe,
+    tfCrafting.electrumPickaxe,
+    tfCrafting.invarPickaxe,
+    tfCrafting.bronzePickaxe,
+    tfCrafting.constantanPickaxe,
   ]}
 />
 
@@ -233,19 +235,18 @@ uses = mat.maxUses
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-tool-pickaxe-copper',
-    'recycling-tool-pickaxe-tin',
-    'recycling-tool-pickaxe-silver',
-    'recycling-tool-pickaxe-lead',
-    'recycling-tool-pickaxe-aluminum',
-    'recycling-tool-pickaxe-nickel',
-    'recycling-tool-pickaxe-platinum',
-    'recycling-tool-pickaxe-steel',
-    'recycling-tool-pickaxe-electrum',
-    'recycling-tool-pickaxe-invar',
-    'recycling-tool-pickaxe-bronze',
-    'recycling-tool-pickaxe-constantan',
+    teSmelter.recycling.copperPickaxe,
+    teSmelter.recycling.tinPickaxe,
+    teSmelter.recycling.silverPickaxe,
+    teSmelter.recycling.leadPickaxe,
+    teSmelter.recycling.aluminumPickaxe,
+    teSmelter.recycling.nickelPickaxe,
+    teSmelter.recycling.platinumPickaxe,
+    teSmelter.recycling.steelPickaxe,
+    teSmelter.recycling.electrumPickaxe,
+    teSmelter.recycling.invarPickaxe,
+    teSmelter.recycling.bronzePickaxe,
+    teSmelter.recycling.constantanPickaxe,
   ]}
 />

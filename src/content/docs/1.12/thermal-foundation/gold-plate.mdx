@@ -4,10 +4,12 @@ title: Gold Plate
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/plate-gold.png', alt: 'Gold plate' }]}
-/>
+<PageImage images={[{ item: tf.goldPlate }]} />
 
 
 **Gold plates** are crafting materials made of
@@ -18,24 +20,14 @@ Obtaining
 ---------
 
 ### Compactor
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-gold']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactor.goldPlate]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-dynamo-enervation-enchant']}
-/>
+<RecipeTable recipes={[teCrafting.augmentDisjunctiveExtraction]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-plate-gold']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.goldPlate]} />

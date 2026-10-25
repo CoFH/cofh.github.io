@@ -4,13 +4,15 @@ title: Shields
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import vpt from '@/data/1.12/vanillaplus-tools/items.ts';
+import vptCrafting from '@/data/1.12/vanillaplus-tools/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-tools/shield-iron.png', alt: 'Iron shield' },
-    { file: 'vanillaplus-tools/shield-gold.png', alt: 'Gold shield' },
-    { file: 'vanillaplus-tools/shield-diamond.png', alt: 'Diamond shield' },
-    { file: 'vanillaplus-tools/shield-stone.png', alt: 'Stone shield' },
+    { item: vpt.ironShield },
+    { item: vpt.goldShield },
+    { item: vpt.diamondShield },
+    { item: vpt.stoneShield },
   ]}
 />
 
@@ -24,12 +26,11 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'vpt-1-12-weapon-shield-stone',
-    'vpt-1-12-weapon-shield-iron',
-    'vpt-1-12-weapon-shield-gold',
-    'vpt-1-12-weapon-shield-diamond',
+    vptCrafting.stoneShield,
+    vptCrafting.ironShield,
+    vptCrafting.goldShield,
+    vptCrafting.diamondShield,
   ]}
 />
 

@@ -4,10 +4,12 @@ title: Resin
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teRefinery from '@/data/1.12/thermal-expansion/recipes/refinery.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/resin.gif', alt: 'Resin' }]}
-/>
+<PageImage images={[{ item: tfFluids.resin }]} />
 
 
 **Resin** is a fluid obtained from spruce, birch, jungle and acacia
@@ -31,10 +33,7 @@ acacia [wood](https://minecraft.wiki/w/Wood). Spruce wood yields twice as
 much resin as other types of wood.
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-resin']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.resinBucket]} />
 
 
 Usage
@@ -43,13 +42,7 @@ Usage
 Resin cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-resin']}
-/>
+<RecipeTable recipes={[teTransposerFill.resinBucket]} />
 
 ### Fractionating Still ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/refinery"
-  recipes={['tree-oil']}
-/>
+<RecipeTable recipes={[teRefinery.treeOil]} />

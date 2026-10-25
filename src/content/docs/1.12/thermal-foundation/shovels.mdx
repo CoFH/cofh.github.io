@@ -4,21 +4,24 @@ title: Shovels
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/shovel-copper.png', alt: 'Copper shovel' },
-    { file: 'thermal-foundation-2/shovel-tin.png', alt: 'Tin shovel' },
-    { file: 'thermal-foundation-2/shovel-silver.png', alt: 'Silver shovel' },
-    { file: 'thermal-foundation-2/shovel-lead.png', alt: 'Lead shovel' },
-    { file: 'thermal-foundation-2/shovel-aluminum.png', alt: 'Aluminum shovel' },
-    { file: 'thermal-foundation-2/shovel-nickel.png', alt: 'Nickel shovel' },
-    { file: 'thermal-foundation-2/shovel-platinum.png', alt: 'Platinum shovel' },
-    { file: 'thermal-foundation-2/shovel-steel.png', alt: 'Steel shovel' },
-    { file: 'thermal-foundation-2/shovel-electrum.png', alt: 'Electrum shovel' },
-    { file: 'thermal-foundation-2/shovel-invar.png', alt: 'Invar shovel' },
-    { file: 'thermal-foundation-2/shovel-bronze.png', alt: 'Bronze shovel' },
-    { file: 'thermal-foundation-2/shovel-constantan.png', alt: 'Constantan shovel' },
+    { item: tf.copperShovel },
+    { item: tf.tinShovel },
+    { item: tf.silverShovel },
+    { item: tf.leadShovel },
+    { item: tf.aluminumShovel },
+    { item: tf.nickelShovel },
+    { item: tf.platinumShovel },
+    { item: tf.steelShovel },
+    { item: tf.electrumShovel },
+    { item: tf.invarShovel },
+    { item: tf.bronzeShovel },
+    { item: tf.constantanShovel },
   ]}
 />
 
@@ -33,20 +36,19 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-tool-shovel-copper',
-    'tf-1-12-tool-shovel-tin',
-    'tf-1-12-tool-shovel-silver',
-    'tf-1-12-tool-shovel-lead',
-    'tf-1-12-tool-shovel-aluminum',
-    'tf-1-12-tool-shovel-nickel',
-    'tf-1-12-tool-shovel-platinum',
-    'tf-1-12-tool-shovel-steel',
-    'tf-1-12-tool-shovel-electrum',
-    'tf-1-12-tool-shovel-invar',
-    'tf-1-12-tool-shovel-bronze',
-    'tf-1-12-tool-shovel-constantan',
+    tfCrafting.copperShovel,
+    tfCrafting.tinShovel,
+    tfCrafting.silverShovel,
+    tfCrafting.leadShovel,
+    tfCrafting.aluminumShovel,
+    tfCrafting.nickelShovel,
+    tfCrafting.platinumShovel,
+    tfCrafting.steelShovel,
+    tfCrafting.electrumShovel,
+    tfCrafting.invarShovel,
+    tfCrafting.bronzeShovel,
+    tfCrafting.constantanShovel,
   ]}
 />
 
@@ -215,19 +217,18 @@ uses = mat.maxUses
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-tool-shovel-copper',
-    'recycling-tool-shovel-tin',
-    'recycling-tool-shovel-silver',
-    'recycling-tool-shovel-lead',
-    'recycling-tool-shovel-aluminum',
-    'recycling-tool-shovel-nickel',
-    'recycling-tool-shovel-platinum',
-    'recycling-tool-shovel-steel',
-    'recycling-tool-shovel-electrum',
-    'recycling-tool-shovel-invar',
-    'recycling-tool-shovel-bronze',
-    'recycling-tool-shovel-constantan',
+    teSmelter.recycling.copperShovel,
+    teSmelter.recycling.tinShovel,
+    teSmelter.recycling.silverShovel,
+    teSmelter.recycling.leadShovel,
+    teSmelter.recycling.aluminumShovel,
+    teSmelter.recycling.nickelShovel,
+    teSmelter.recycling.platinumShovel,
+    teSmelter.recycling.steelShovel,
+    teSmelter.recycling.electrumShovel,
+    teSmelter.recycling.invarShovel,
+    teSmelter.recycling.bronzeShovel,
+    teSmelter.recycling.constantanShovel,
   ]}
 />

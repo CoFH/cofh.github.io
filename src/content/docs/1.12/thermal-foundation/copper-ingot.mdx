@@ -4,10 +4,20 @@ title: Copper Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tcCrafting from '@/data/1.12/thermal-cultivation/recipes/crafting.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-copper.png', alt: 'Copper ingot' }]}
-/>
+<PageImage images={[{ item: tf.copperIngot }]} />
 
 
 **Copper ingots** are raw materials obtained from [copper
@@ -18,55 +28,46 @@ Obtaining
 ---------
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={[
-    'tf-1-12-ore-processing-copper',
-    'tf-1-12-ingot-copper-from-dust',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.copper, tfSmelting.copperIngotFromDust]} noResult />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-copper',
-    'tf-1-12-petrotheum-pyrotheum-ore-copper',
-    'tf-1-12-pyrotheum-dust-copper',
-    'tf-1-12-ingot-copper-from-nuggets',
-    'tf-1-12-ingot-copper-from-block',
+    tfCrafting.pyrotheum.copperOre,
+    tfCrafting.petrotheumPyrotheum.copperOre,
+    tfCrafting.pyrotheum.pulverizedCopper,
+    tfCrafting.copperIngot.nuggets,
+    tfCrafting.copperIngot.block,
   ]}
   noResult
 />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-copper',
-    'ore-processing-rich-slag-copper',
-    'ore-processing-cinnabar-copper',
-    'dust-smelting-copper',
-    'recycling-gear-copper',
-    'recycling-plate-copper',
-    'recycling-tool-pickaxe-copper',
-    'recycling-tool-shovel-copper',
-    'recycling-tool-axe-copper',
-    'recycling-tool-hoe-copper',
-    'recycling-tool-fishing-rod-copper',
-    'recycling-tool-shears-copper',
-    'recycling-tool-hammer-copper',
-    'recycling-tool-excavator-copper',
-    'recycling-tool-sickle-copper',
-    'recycling-weapon-sword-copper',
-    'recycling-weapon-bow-copper',
-    'recycling-weapon-shield-copper',
-    'recycling-armor-helmet-copper',
-    'recycling-armor-chestplate-copper',
-    'recycling-armor-leggings-copper',
-    'recycling-armor-boots-copper',
-    'recycling-horse-armor-copper',
+    teSmelter.oreProcessing.copper,
+    teSmelter.oreProcessingRichSlag.copper,
+    teSmelter.oreProcessingCinnabar.copper,
+    teSmelter.dustSmelting.copper,
+    teSmelter.recycling.copperGear,
+    teSmelter.recycling.copperPlate,
+    teSmelter.recycling.copperPickaxe,
+    teSmelter.recycling.copperShovel,
+    teSmelter.recycling.copperAxe,
+    teSmelter.recycling.copperHoe,
+    teSmelter.recycling.copperFishingRod,
+    teSmelter.recycling.copperShears,
+    teSmelter.recycling.copperHammer,
+    teSmelter.recycling.copperExcavator,
+    teSmelter.recycling.copperSickle,
+    teSmelter.recycling.copperSword,
+    teSmelter.recycling.copperReinforcedBow,
+    teSmelter.recycling.copperShield,
+    teSmelter.recycling.copperHelmet,
+    teSmelter.recycling.copperChestplate,
+    teSmelter.recycling.copperLeggings,
+    teSmelter.recycling.copperBoots,
+    teSmelter.recycling.copperHorseArmor,
   ]}
   noResult
 />
@@ -77,86 +78,72 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-copper',
-    'tf-1-12-nugget-copper',
-    'tf-1-12-gear-copper',
-    'tf-1-12-drill-head',
-    'tf-1-12-saw-blade',
-    'tf-1-12-storage-block-copper',
-    'tf-1-12-multimeter',
-    'te-1-12-device-heat-sink',
-    'te-1-12-device-tapper',
-    'te-1-12-device-fluid-buffer',
-    'te-1-12-dynamo-steam',
-    'te-1-12-flux-capacitor-basic',
-    'te-1-12-portable-tank-basic',
-    'te-1-12-reservoir-basic',
-    'te-1-12-reservoir-hardened',
-    'te-1-12-augment-machine-crafter-tank',
-    'te-1-12-augment-dynamo-coil-duct',
-    'td-1-12-fluiduct-basic',
-    'td-1-12-fluiduct-basic-opaque',
-    'tc-1-12-watering-can-basic',
-    'ti-1-12-fluxbore-hardened',
-    'ti-1-12-fluxsaw-hardened',
-    'ti-1-12-hypoinfuser-basic',
-    'ti-1-12-alchemical-quiver-basic',
-    'tf-1-12-tool-pickaxe-copper',
-    'tf-1-12-tool-shovel-copper',
-    'tf-1-12-tool-axe-copper',
-    'tf-1-12-tool-hoe-copper',
-    'tf-1-12-tool-fishing-rod-copper',
-    'tf-1-12-tool-shears-copper',
-    'tf-1-12-tool-hammer-copper',
-    'tf-1-12-tool-excavator-copper',
-    'tf-1-12-tool-sickle-copper',
-    'tf-1-12-weapon-sword-copper',
-    'tf-1-12-weapon-bow-copper',
-    'tf-1-12-weapon-shield-copper',
-    'tf-1-12-armor-helmet-copper',
-    'tf-1-12-armor-chestplate-copper',
-    'tf-1-12-armor-leggings-copper',
-    'tf-1-12-armor-boots-copper',
-    'tf-1-12-horse-armor-copper',
+    tfCrafting.petrotheum.copperIngot,
+    tfCrafting.copperNugget,
+    tfCrafting.copperGear,
+    tfCrafting.drillHead,
+    tfCrafting.sawBlade,
+    tfCrafting.blockOfCopper,
+    tfCrafting.multimeter,
+    teCrafting.thermalMediator,
+    teCrafting.arborealExtractor,
+    teCrafting.fluidAllocator,
+    teCrafting.steamDynamo,
+    teCrafting.fluxCapacitor0,
+    teCrafting.portableTank0,
+    teCrafting.reservoir0,
+    teCrafting.reservoir1,
+    teCrafting.augmentFluidicFabrication,
+    teCrafting.augmentTransmissionCoilDucting,
+    tdCrafting.fluiduct,
+    tdCrafting.fluiductOpaque,
+    tcCrafting.wateringCan0,
+    tiCrafting.fluxbore1,
+    tiCrafting.fluxsaw1,
+    tiCrafting.hypoinfuser0,
+    tiCrafting.alchemicalQuiver0,
+    tfCrafting.copperPickaxe,
+    tfCrafting.copperShovel,
+    tfCrafting.copperAxe,
+    tfCrafting.copperHoe,
+    tfCrafting.copperFishingRod,
+    tfCrafting.copperShears,
+    tfCrafting.copperHammer,
+    tfCrafting.copperExcavator,
+    tfCrafting.copperSickle,
+    tfCrafting.copperSword,
+    tfCrafting.copperReinforcedBow,
+    tfCrafting.copperShield,
+    tfCrafting.copperHelmet,
+    tfCrafting.copperChestplate,
+    tfCrafting.copperLeggings,
+    tfCrafting.copperBoots,
+    tfCrafting.copperHorseArmor,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-copper']}
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedCopper]} />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ingot-bronze-from-ingot-copper-and-dust-tin',
-    'ingot-bronze-from-ingot-copper-and-ingot-tin',
-    'ingot-constantan-from-ingot-copper-and-dust-nickel',
-    'ingot-constantan-from-ingot-copper-and-ingot-nickel',
+    teSmelter.bronzeIngot.copperIngotAndPulverizedTin,
+    teSmelter.bronzeIngot.copperIngotAndTinIngot,
+    teSmelter.constantanIngot.copperIngotAndPulverizedNickel,
+    teSmelter.constantanIngot.copperIngotAndNickelIngot,
   ]}
 />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-copper']}
-/>
+<RecipeTable recipes={[teCompactor.copperPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-copper']}
-/>
+<RecipeTable recipes={[teCompactorCoin.copperCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-copper']}
-/>
+<RecipeTable recipes={[teCompactorGear.copperGear]} />
 
 
 Trivia

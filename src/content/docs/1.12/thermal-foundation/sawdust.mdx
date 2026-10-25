@@ -4,10 +4,13 @@ title: Sawdust
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSawmill from '@/data/1.12/thermal-expansion/recipes/sawmill.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/sawdust.png', alt: 'Sawdust' }]}
-/>
+<PageImage images={[{ item: tf.sawdust }]} />
 
 
 **Sawdust** is a material commonly obtained as a byproduct from
@@ -19,39 +22,37 @@ Obtaining
 
 ### Sawmill
 <RecipeTable
-  type="1.12/thermal-expansion/sawmill"
   recipes={[
-    'wood-processing',
-    'biomass-from-sapling',
-    'recycling-wood-stairs',
-    'recycling-fence',
-    'recycling-fence-gate',
-    'recycling-boat',
-    'recycling-door',
+    teSawmill.woodProcessing,
+    teSawmill.pulpedBiomass.sapling,
+    teSawmill.recycling.woodStairs,
+    teSawmill.recycling.fence,
+    teSawmill.recycling.fenceGate,
+    teSawmill.recycling.boat,
+    teSawmill.recycling.door,
   ]}
   noResult
 />
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'sawdust-from-wood-log',
-    'sawdust-from-wood-planks',
-    'recycling-note-block',
-    'recycling-jukebox',
-    'recycling-tool-pickaxe-wood',
-    'recycling-tool-shovel-wood',
-    'recycling-tool-axe-wood',
-    'recycling-tool-hoe-wood',
-    'recycling-tool-fishing-rod',
-    'recycling-tool-shears-wood',
-    'recycling-tool-hammer-wood',
-    'recycling-tool-excavator-wood',
-    'recycling-tool-sickle-wood',
-    'recycling-weapon-sword-wood',
-    'recycling-weapon-bow',
-    'recycling-weapon-shield',
+    tePulverizer.sawdust.wood,
+    tePulverizer.sawdust.woodPlanks,
+    tePulverizer.recycling.noteBlock,
+    tePulverizer.recycling.jukebox,
+    tePulverizer.recycling.woodenPickaxe,
+    tePulverizer.recycling.woodenShovel,
+    tePulverizer.recycling.woodenAxe,
+    tePulverizer.recycling.woodenHoe,
+    tePulverizer.recycling.fishingRod,
+    tePulverizer.recycling.woodenShears,
+    tePulverizer.recycling.woodenHammer,
+    tePulverizer.recycling.woodenExcavator,
+    tePulverizer.recycling.woodenSickle,
+    tePulverizer.recycling.woodenSword,
+    tePulverizer.recycling.fluxInfusedBow,
+    tePulverizer.recycling.shield,
   ]}
   noResult
 />
@@ -62,21 +63,20 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-sawdust-compressed',
-    'tf-1-12-paper-using-sawdust',
-    'tf-1-12-bioblend',
-    'tf-1-12-phyto-gro-using-sawdust',
-    'tf-1-12-phyto-gro-rich-using-sawdust',
-    'tf-1-12-aqua-chow-using-slime',
-    'tf-1-12-aqua-chow-using-rosin',
-    'tf-1-12-aqua-chow-rich-using-slime',
-    'tf-1-12-aqua-chow-rich-using-rosin',
-    'te-1-12-florb-using-slime',
-    'te-1-12-florb-using-rosin',
-    'te-1-12-florb-magmatic-using-magma-cream',
-    'te-1-12-florb-magmatic-using-slime',
-    'te-1-12-florb-magmatic-using-rosin',
+    tfCrafting.compressedSawdust,
+    tfCrafting.paperUsingSawdust,
+    tfCrafting.pulpedBioblend,
+    tfCrafting.phytoGroUsingSawdust,
+    tfCrafting.richPhytoGroUsingSawdust,
+    tfCrafting.aquaChowUsingSlime,
+    tfCrafting.aquaChowUsingRosin,
+    tfCrafting.richAquaChowUsingSlime,
+    tfCrafting.richAquaChowUsingRosin,
+    teCrafting.florbUsingSlime,
+    teCrafting.florbUsingRosin,
+    teCrafting.magmaticFlorbUsingMagmaCream,
+    teCrafting.magmaticFlorbUsingSlime,
+    teCrafting.magmaticFlorbUsingRosin,
   ]}
 />

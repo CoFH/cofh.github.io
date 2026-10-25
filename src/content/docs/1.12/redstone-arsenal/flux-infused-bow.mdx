@@ -4,10 +4,10 @@ title: Flux-Infused Bow
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-bow.png', alt: 'Flux-infused bow' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedBow }]} />
 
 A **flux-infused bow** is a powerful [bow](https://minecraft.wiki/w/Bow)
 powered by [Redstone Flux](/docs/redstone-flux/).
@@ -17,11 +17,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-weapon-bow']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedBow]} noResult />
 
 
 Usage

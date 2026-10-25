@@ -4,10 +4,10 @@ title: Block of Bronze
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/storage-block-bronze.png', alt: 'Block of bronze' }]}
-/>
+<PageImage images={[{ item: tf.blockOfBronze }]} />
 
 **Blocks of bronze** are blocks made from [bronze ingots](../bronze-ingot/).
 
@@ -19,11 +19,7 @@ Blocks of bronze can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-storage-block-bronze']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.blockOfBronze]} noResult />
 
 
 Usage
@@ -41,7 +37,4 @@ Blocks of bronze can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-ingot-bronze-from-block']}
-/>
+<RecipeTable recipes={[tfCrafting.bronzeIngot.block]} />

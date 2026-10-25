@@ -4,10 +4,15 @@ title: Steel Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-steel.png', alt: 'Steel ingot' }]}
-/>
+<PageImage images={[{ item: tf.steelIngot }]} />
 
 
 **Steel ingots** are raw materials made from
@@ -19,45 +24,37 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-ingot-steel-from-nuggets',
-    'tf-1-12-ingot-steel-from-block',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.steelIngot.nuggets, tfCrafting.steelIngot.block]} noResult />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ingot-steel-from-dust-iron-and-coal-coke',
-    'ingot-steel-from-dust-iron-and-dust-coal',
-    'ingot-steel-from-dust-iron-and-dust-charcoal',
-    'ingot-steel-from-ingot-iron-and-coal-coke',
-    'ingot-steel-from-ingot-iron-and-dust-coal',
-    'ingot-steel-from-ingot-iron-and-dust-charcoal',
-    'dust-smelting-steel',
-    'recycling-gear-steel',
-    'recycling-plate-steel',
-    'recycling-tool-pickaxe-steel',
-    'recycling-tool-shovel-steel',
-    'recycling-tool-axe-steel',
-    'recycling-tool-hoe-steel',
-    'recycling-tool-fishing-rod-steel',
-    'recycling-tool-shears-steel',
-    'recycling-tool-hammer-steel',
-    'recycling-tool-excavator-steel',
-    'recycling-tool-sickle-steel',
-    'recycling-weapon-sword-steel',
-    'recycling-weapon-bow-steel',
-    'recycling-weapon-shield-steel',
-    'recycling-armor-helmet-steel',
-    'recycling-armor-chestplate-steel',
-    'recycling-armor-leggings-steel',
-    'recycling-armor-boots-steel',
-    'recycling-horse-armor-steel',
+    teSmelter.steelIngot.pulverizedIronAndCoalCoke,
+    teSmelter.steelIngot.pulverizedIronAndPulverizedCoal,
+    teSmelter.steelIngot.pulverizedIronAndPulverizedCharcoal,
+    teSmelter.steelIngot.ironIngotAndCoalCoke,
+    teSmelter.steelIngot.ironIngotAndPulverizedCoal,
+    teSmelter.steelIngot.ironIngotAndPulverizedCharcoal,
+    teSmelter.dustSmelting.steel,
+    teSmelter.recycling.steelGear,
+    teSmelter.recycling.steelPlate,
+    teSmelter.recycling.steelPickaxe,
+    teSmelter.recycling.steelShovel,
+    teSmelter.recycling.steelAxe,
+    teSmelter.recycling.steelHoe,
+    teSmelter.recycling.steelFishingRod,
+    teSmelter.recycling.steelShears,
+    teSmelter.recycling.steelHammer,
+    teSmelter.recycling.steelExcavator,
+    teSmelter.recycling.steelSickle,
+    teSmelter.recycling.steelSword,
+    teSmelter.recycling.steelReinforcedBow,
+    teSmelter.recycling.steelShield,
+    teSmelter.recycling.steelHelmet,
+    teSmelter.recycling.steelChestplate,
+    teSmelter.recycling.steelLeggings,
+    teSmelter.recycling.steelBoots,
+    teSmelter.recycling.steelHorseArmor,
   ]}
   noResult
 />
@@ -68,51 +65,38 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-nugget-steel',
-    'tf-1-12-gear-steel',
-    'tf-1-12-storage-block-steel',
-    'tf-1-12-tool-pickaxe-steel',
-    'tf-1-12-tool-shovel-steel',
-    'tf-1-12-tool-axe-steel',
-    'tf-1-12-tool-hoe-steel',
-    'tf-1-12-tool-fishing-rod-steel',
-    'tf-1-12-tool-shears-steel',
-    'tf-1-12-tool-hammer-steel',
-    'tf-1-12-tool-excavator-steel',
-    'tf-1-12-tool-sickle-steel',
-    'tf-1-12-weapon-sword-steel',
-    'tf-1-12-weapon-bow-steel',
-    'tf-1-12-weapon-shield-steel',
-    'tf-1-12-armor-helmet-steel',
-    'tf-1-12-armor-chestplate-steel',
-    'tf-1-12-armor-leggings-steel',
-    'tf-1-12-armor-boots-steel',
-    'tf-1-12-horse-armor-steel',
+    tfCrafting.steelNugget,
+    tfCrafting.steelGear,
+    tfCrafting.blockOfSteel,
+    tfCrafting.steelPickaxe,
+    tfCrafting.steelShovel,
+    tfCrafting.steelAxe,
+    tfCrafting.steelHoe,
+    tfCrafting.steelFishingRod,
+    tfCrafting.steelShears,
+    tfCrafting.steelHammer,
+    tfCrafting.steelExcavator,
+    tfCrafting.steelSickle,
+    tfCrafting.steelSword,
+    tfCrafting.steelReinforcedBow,
+    tfCrafting.steelShield,
+    tfCrafting.steelHelmet,
+    tfCrafting.steelChestplate,
+    tfCrafting.steelLeggings,
+    tfCrafting.steelBoots,
+    tfCrafting.steelHorseArmor,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-steel']}
-/>
+<RecipeTable recipes={[tePulverizer.steelBlend]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-steel']}
-/>
+<RecipeTable recipes={[teCompactor.steelPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-steel']}
-/>
+<RecipeTable recipes={[teCompactorCoin.steelCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-steel']}
-/>
+<RecipeTable recipes={[teCompactorGear.steelGear]} />

@@ -4,15 +4,11 @@ title: 'Augment: Gearworking Die'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-compactor-gear.png',
-      alt: 'Gearworking Die augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentGearworkingDie }]} />
 
 A **gearworking die** is an [augment](../augments/) that
 allows for a [compactor](../compactor/) to produce gears
@@ -23,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-compactor-gear']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentGearworkingDie]} noResult />
 
 
 Usage
@@ -52,29 +44,28 @@ Recipes
 -------
 
 <RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
   recipes={[
-    'gear-iron',
-    'gear-gold',
-    'gear-copper',
-    'gear-tin',
-    'gear-silver',
-    'gear-lead',
-    'gear-aluminum',
-    'gear-nickel',
-    'gear-platinum',
-    'gear-iridium',
-    'gear-mithril',
-    'gear-steel',
-    'gear-electrum',
-    'gear-invar',
-    'gear-bronze',
-    'gear-constantan',
-    'gear-signalum',
-    'gear-lumium',
-    'gear-enderium',
-    'gear-diamond',
-    'gear-emerald',
-    'gear-fluxed-electrum',
+    teCompactorGear.ironGear,
+    teCompactorGear.goldGear,
+    teCompactorGear.copperGear,
+    teCompactorGear.tinGear,
+    teCompactorGear.silverGear,
+    teCompactorGear.leadGear,
+    teCompactorGear.aluminumGear,
+    teCompactorGear.nickelGear,
+    teCompactorGear.platinumGear,
+    teCompactorGear.iridiumGear,
+    teCompactorGear.manaInfusedGear,
+    teCompactorGear.steelGear,
+    teCompactorGear.electrumGear,
+    teCompactorGear.invarGear,
+    teCompactorGear.bronzeGear,
+    teCompactorGear.constantanGear,
+    teCompactorGear.signalumGear,
+    teCompactorGear.lumiumGear,
+    teCompactorGear.enderiumGear,
+    teCompactorGear.diamondGear,
+    teCompactorGear.emeraldGear,
+    teCompactorGear.fluxedElectrumGear,
   ]}
 />

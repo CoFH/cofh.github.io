@@ -4,10 +4,10 @@ title: Aluminum Coin
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/coin-aluminum.png', alt: 'Aluminum coin' }]}
-/>
+<PageImage images={[{ item: tf.aluminumCoin }]} />
 
 
 **Aluminum coins** are materials made of [aluminum](../aluminum-ingot/) that
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Compactor with Numismatic Press
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-aluminum']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorCoin.aluminumCoin]} noResult />
 
 
 Usage

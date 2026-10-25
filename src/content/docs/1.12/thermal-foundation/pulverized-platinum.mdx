@@ -4,10 +4,14 @@ title: Pulverized Platinum
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-platinum.png', alt: 'Pulverized platinum' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedPlatinum }]} />
 
 
 **Pulverized platinum** is a raw material. It is the dust form of
@@ -19,32 +23,26 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-platinum',
-    'ore-processing-nickel',
-    'ore-processing-platinum',
-    'ore-processing-iridium',
+    tePulverizer.pulverizedPlatinum,
+    tePulverizer.oreProcessing.nickel,
+    tePulverizer.oreProcessing.platinum,
+    tePulverizer.oreProcessing.iridium,
   ]}
   noResult
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-platinum',
-    'tf-1-12-petrotheum-ore-platinum',
+    tfCrafting.petrotheum.platinumIngot,
+    tfCrafting.petrotheum.platinumOre,
   ]}
   noResult
 />
 
 ### Centrifugal Separator
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-enderium']}
-  noResult
-/>
+<RecipeTable recipes={[teCentrifuge.enderiumBlend]} noResult />
 
 ### Smashing
 When [platinum ore](../platinum-ore/) is broken using a
@@ -57,26 +55,16 @@ Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-platinum-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.platinumIngotFromDust]} />
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-dust-platinum',
-    'tf-1-12-dust-enderium',
-    'tf-1-12-hardened-glass-platinum',
+    tfCrafting.pyrotheum.pulverizedPlatinum,
+    tfCrafting.enderiumBlend,
+    tfCrafting.hardenedPlatinumGlass,
   ]}
 />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-platinum',
-    'hardened-glass-platinum',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.platinum, teSmelter.hardenedPlatinumGlass]} />

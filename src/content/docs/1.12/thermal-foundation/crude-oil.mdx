@@ -4,10 +4,13 @@ title: Crude Oil
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teRefinery from '@/data/1.12/thermal-expansion/recipes/refinery.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/crude-oil.gif', alt: 'Crude oil' }]}
-/>
+<PageImage images={[{ item: tfFluids.crudeOil }]} />
 
 
 **Crude oil** is a fluid obtained from [oil sand](../oil-sand/) and [oil
@@ -20,19 +23,15 @@ Obtaining
 
 ### Magma Crucible
 <RecipeTable
-  type="1.12/thermal-expansion/crucible"
   recipes={[
-    'crude-oil-from-bitumen',
-    'fluid-ore-processing-oil-sand',
-    'fluid-ore-processing-oil-shale',
+    teCrucible.crudeOilFromBitumen,
+    teCrucible.fluidOreProcessing.oilSand,
+    teCrucible.fluidOreProcessing.oilShale,
   ]}
 />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-crude-oil']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.crudeOilBucket]} />
 
 ### Natural generation
 Crude oil can rarely be found underground inside large deposits of [oil
@@ -48,16 +47,10 @@ Crude oil can be placed as a block using a
 flammable.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-crude-oil']}
-/>
+<RecipeTable recipes={[teTransposerFill.crudeOilBucket]} />
 
 ### Fractionating Still ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/refinery"
-  recipes={['naphtha-from-crude-oil']}
-/>
+<RecipeTable recipes={[teRefinery.naphtha.crudeOil]} />
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression dynamo](../../thermal-expansion/compression-dynamo/), a bucket

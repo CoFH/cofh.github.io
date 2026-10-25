@@ -4,12 +4,10 @@ title: 'Augment: Boiler Conversion'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-expansion-5/augment-dynamo-boiler.gif', alt: 'Boiler conversion augment' },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentBoilerConversion }]} />
 
 A **boiler conversion** is an [augment](../augments/) that converts a
 [steam](../steam-dynamo/), [magmatic](../magmatic-dynamo/) or [compression
@@ -20,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-dynamo-boiler']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentBoilerConversion]} noResult />
 
 
 Usage

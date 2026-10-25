@@ -4,10 +4,10 @@ title: Flux-Infused Leggings
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-leggings.png', alt: 'Flux-infused leggings' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedLeggings }]} />
 
 **Flux-infused leggings** are powerful
 [leggings](https://minecraft.wiki/w/Leggings) powered by [Redstone
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-armor-leggings']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedLeggings]} noResult />
 
 
 Usage

@@ -1,31 +1,36 @@
 ---
+import { findImage } from '../../data/define.ts';
 import type { DocNavItem } from '../../data/types.ts';
+import NavboxIcon from './NavboxIcon.astro';
 import NavboxLink from './NavboxLink.astro';
 
 interface Props {
   item: DocNavItem;
-  urlPrefix: string;
+  path: string;
 }
 
-const { item, urlPrefix } = Astro.props;
+const { item, path } = Astro.props;
+
 const subitems = item.subitems ?? [];
-const url = item.url !== undefined ? `${urlPrefix}${item.url}` : undefined;
+
+const title = item.title ?? item.item?.name ?? '';
+
+const href = item.url !== undefined ? `/docs/${path}/${item.url}` : item.item?.href;
+
+const icon =
+  item.item !== undefined
+    ? (item.item.iconImage ?? item.item.image)
+    : item.url !== undefined
+      ? findImage(path, item.url.replace(/\/$/, '').replace(/^.*\//, ''), 'icon')
+      : undefined;
 ---
 
-{subitems.length > 0 && url === undefined ? (
+{subitems.length > 0 && item.url === undefined && item.item === undefined ? (
   <span class="cofh-nowrap">
-    {item.icon && (
-      <div
-        class="cofh-navbox-icon"
-        style={{
-          backgroundPosition: `-${item.icon[0] * 16}px -${item.icon[1] * 16}px`,
-        }}
-      />
-    )}{' '}
-    {item.title}
+    <NavboxIcon icon={icon} /> {title}
   </span>
 ) : (
-  <NavboxLink url={url} text={item.title} icon={item.icon} />
+  <NavboxLink href={href} text={title} icon={icon} />
 )}
 
 {subitems.length > 0 && (
@@ -41,7 +46,7 @@ const url = item.url !== undefined ? `${urlPrefix}${item.url}` : undefined;
               <span class="uk-text-bold">&#8729;</span>{' '}
             </>
           )}
-          <Astro.self item={subitem} urlPrefix={urlPrefix} />
+          <Astro.self item={subitem} path={path} />
         </>
       ))}
       )

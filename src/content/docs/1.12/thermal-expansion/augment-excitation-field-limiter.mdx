@@ -4,15 +4,10 @@ title: 'Augment: Excitation Field Limiter'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-dynamo-throttle.png',
-      alt: 'Excitation field limiter augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentExcitationFieldLimiter }]} />
 
 An **excitation field limiter** is an [augment](../augments/) that prevents a
 [dynamo](../dynamos/) from wasting generated [Redstone
@@ -23,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-dynamo-throttle']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentExcitationFieldLimiter]} noResult />
 
 
 Usage

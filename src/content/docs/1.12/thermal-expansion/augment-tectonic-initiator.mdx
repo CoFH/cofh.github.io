@@ -4,15 +4,10 @@ title: 'Augment: Tectonic Initiator'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-pulverizer-petrotheum.gif',
-      alt: 'Tectonic initiator augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentTectonicInitiator }]} />
 
 A **tectonic initiator** is an [augment](../augments/) that allows for a
 [pulverizer](../pulverizer/) to process
@@ -24,11 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-pulverizer-petrotheum']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentTectonicInitiator]} noResult />
 
 
 Usage

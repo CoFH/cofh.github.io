@@ -4,14 +4,13 @@ title: Signalum-Plated Fluiduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-dynamics-2/fluiduct-signalum-plated.png', alt: 'Signalum-plated fluiduct' },
-    {
-      file: 'thermal-dynamics-2/fluiduct-signalum-plated-opaque.png',
-      alt: 'Signalum-plated fluiduct (opaque)',
-    },
+    { item: td.signalumPlatedFluiduct },
+    { item: td.signalumPlatedFluiductOpaque },
   ]}
 />
 
@@ -24,12 +23,11 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-fluiduct-energy-one',
-    'td-1-12-fluiduct-energy-three',
-    'td-1-12-fluiduct-energy-opaque-from-transparent',
-    'td-1-12-fluiduct-energy-transparent-from-opaque',
+    tdCrafting.signalumPlatedFluiductOne,
+    tdCrafting.signalumPlatedFluiductThree,
+    tdCrafting.signalumPlatedFluiductOpaqueFromTransparent,
+    tdCrafting.signalumPlatedFluiductTransparentFromOpaque,
   ]}
 />
 

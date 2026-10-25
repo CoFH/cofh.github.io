@@ -4,10 +4,14 @@ title: Fluxed Electrum Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
+import raSmelter from '@/data/1.12/redstone-arsenal/recipes/smelter.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/ingot-fluxed-electrum.gif', alt: 'Fluxed electrum ingot' }]}
-/>
+<PageImage images={[{ item: ra.fluxedElectrumIngot }]} />
 
 **Fluxed electrum ingots** are raw materials made from
 [electrum](../../thermal-foundation/electrum-ingot/) and [destabilized
@@ -22,18 +26,13 @@ electrum blend](../fluxed-electrum-blend/). The blend can only be smelted
 into ingots in an [induction smelter](../../thermal-expansion/induction-smelter/).
 
 ### Induction Smelter
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['ra-1-12-dust-smelting-fluxed-electrum']}
-  noResult
-/>
+<RecipeTable recipes={[raSmelter.dustSmeltingFluxedElectrum]} noResult />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ra-1-12-ingot-fluxed-electrum-from-nuggets',
-    'ra-1-12-ingot-fluxed-electrum-from-block',
+    raCrafting.fluxedElectrumIngot.nuggets,
+    raCrafting.fluxedElectrumIngot.block,
   ]}
   noResult
 />
@@ -44,41 +43,31 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ra-1-12-nugget-fluxed-electrum',
-    'ra-1-12-gear-fluxed-electrum',
-    'ra-1-12-storage-block-fluxed-electrum',
-    'ra-1-12-tool-pickaxe',
-    'ra-1-12-tool-shovel',
-    'ra-1-12-tool-axe',
-    'ra-1-12-tool-fishing-rod',
-    'ra-1-12-tool-hammer',
-    'ra-1-12-tool-excavator',
-    'ra-1-12-tool-sickle',
-    'ra-1-12-tool-wrench',
-    'ra-1-12-weapon-sword',
-    'ra-1-12-weapon-bow',
-    'ra-1-12-weapon-quiver',
-    'ra-1-12-weapon-shield',
-    'ra-1-12-weapon-battlewrench',
+    raCrafting.fluxedElectrumNugget,
+    raCrafting.fluxedElectrumGear,
+    raCrafting.fluxedElectrumBlock,
+    raCrafting.fluxInfusedPickaxe,
+    raCrafting.fluxInfusedShovel,
+    raCrafting.fluxInfusedAxe,
+    raCrafting.fluxInfusedFishingRod,
+    raCrafting.fluxInfusedHammer,
+    raCrafting.fluxInfusedExcavator,
+    raCrafting.fluxInfusedSickle,
+    raCrafting.fluxInfusedOmniwrench,
+    raCrafting.fluxInfusedSword,
+    raCrafting.fluxInfusedBow,
+    raCrafting.fluxInfusedQuiver,
+    raCrafting.fluxInfusedShield,
+    raCrafting.fluxInfusedBattlewrench,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-fluxed-electrum']}
-/>
+<RecipeTable recipes={[tePulverizer.fluxedElectrumBlend]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-fluxed-electrum']}
-/>
+<RecipeTable recipes={[teCompactor.fluxedElectrumPlate]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-fluxed-electrum']}
-/>
+<RecipeTable recipes={[teCompactorGear.fluxedElectrumGear]} />

@@ -3,12 +3,14 @@ title: Wrenches (Minecraft 1.12)
 ---
 
 import PageImage from '@/components/docs/PageImage.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/crescent-hammer.png', alt: 'Crescent hammer' },
-    { file: 'redstone-arsenal-2/flux-infused-omniwrench.png', alt: 'Flux-infused omniwrench' },
-    { file: 'redstone-arsenal-2/flux-infused-battlewrench.png', alt: 'Flux-infused battlewrench' },
+    { item: tf.crescentHammer },
+    { item: ra.fluxInfusedOmniwrench },
+    { item: ra.fluxInfusedBattlewrench },
   ]}
 />
 
@@ -23,11 +25,11 @@ These are the wrenches added by the CoFH mods. Many mods add a type of wrench or
 a similar item, some of which are compatible with the CoFH mods.
 
 ### Thermal Series
-* [Crescent Hammer](../thermal-foundation/crescent-hammer/)
+* [Crescent Hammer](thermal-foundation/crescent-hammer/)
 
 ### Redstone Arsenal
-* [Flux-Infused OmniWrench](../redstone-arsenal/flux-infused-omniwrench/)
-* [Flux-Infused BattleWrench](../redstone-arsenal/flux-infused-battlewrench/)
+* [Flux-Infused OmniWrench](redstone-arsenal/flux-infused-omniwrench/)
+* [Flux-Infused BattleWrench](redstone-arsenal/flux-infused-battlewrench/)
 
 
 Usage

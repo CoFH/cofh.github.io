@@ -5,10 +5,12 @@ title: Induction Smelter
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import raSmelter from '@/data/1.12/redstone-arsenal/recipes/smelter.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/induction-smelter.png', alt: 'Induction smelter' }]}
-/>
+<PageImage images={[{ item: te.inductionSmelter }]} />
 
 > Will absolutely not cook food.
 
@@ -28,11 +30,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-smelter']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.inductionSmelter]} noResult />
 
 ### Upgrading
 An induction smelter is initially at the lowest [tier](#tiers) (basic). It can
@@ -199,144 +197,138 @@ Recipes
 
 ### General
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting',
-    'ra-1-12-dust-smelting-fluxed-electrum',
-    'stone-bricks',
-    'nether-brick',
-    'hardened-glass',
-    'hardened-glass-metal',
+    teSmelter.dustSmelting.metal,
+    raSmelter.dustSmeltingFluxedElectrum,
+    teSmelter.stoneBricks,
+    teSmelter.netherBricks,
+    teSmelter.hardenedGlass,
+    teSmelter.hardenedGlassMetal,
   ]}
 />
 
 ### Ore processing
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-iron',
-    'ore-processing-sand-gold',
-    'ore-processing-sand-copper',
-    'ore-processing-sand-tin',
-    'ore-processing-sand-silver',
-    'ore-processing-sand-lead',
-    'ore-processing-sand-aluminum',
-    'ore-processing-sand-nickel',
-    'ore-processing-sand-platinum',
-    'ore-processing-sand-iridium',
-    'ore-processing-sand-mithril',
-    'ore-processing-lapis-lazuli',
-    'ore-processing-redstone',
-    'ore-processing-nether-quartz',
+    teSmelter.oreProcessing.iron,
+    teSmelter.oreProcessing.gold,
+    teSmelter.oreProcessing.copper,
+    teSmelter.oreProcessing.tin,
+    teSmelter.oreProcessing.silver,
+    teSmelter.oreProcessing.lead,
+    teSmelter.oreProcessing.aluminum,
+    teSmelter.oreProcessing.nickel,
+    teSmelter.oreProcessing.platinum,
+    teSmelter.oreProcessing.iridium,
+    teSmelter.oreProcessing.mithril,
+    teSmelter.oreProcessing.lapisLazuli,
+    teSmelter.oreProcessing.redstone,
+    teSmelter.oreProcessing.netherQuartz,
   ]}
 />
 
 ### Ore processing with rich slag
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-rich-slag-iron',
-    'ore-processing-rich-slag-gold',
-    'ore-processing-rich-slag-copper',
-    'ore-processing-rich-slag-tin',
-    'ore-processing-rich-slag-silver',
-    'ore-processing-rich-slag-lead',
-    'ore-processing-rich-slag-aluminum',
-    'ore-processing-rich-slag-nickel',
-    'ore-processing-rich-slag-platinum',
-    'ore-processing-rich-slag-iridium',
-    'ore-processing-rich-slag-mithril',
+    teSmelter.oreProcessingRichSlag.iron,
+    teSmelter.oreProcessingRichSlag.gold,
+    teSmelter.oreProcessingRichSlag.copper,
+    teSmelter.oreProcessingRichSlag.tin,
+    teSmelter.oreProcessingRichSlag.silver,
+    teSmelter.oreProcessingRichSlag.lead,
+    teSmelter.oreProcessingRichSlag.aluminum,
+    teSmelter.oreProcessingRichSlag.nickel,
+    teSmelter.oreProcessingRichSlag.platinum,
+    teSmelter.oreProcessingRichSlag.iridium,
+    teSmelter.oreProcessingRichSlag.mithril,
   ]}
 />
 
 ### Ore processing with cinnabar
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-cinnabar-iron',
-    'ore-processing-cinnabar-gold',
-    'ore-processing-cinnabar-copper',
-    'ore-processing-cinnabar-tin',
-    'ore-processing-cinnabar-silver',
-    'ore-processing-cinnabar-lead',
-    'ore-processing-cinnabar-aluminum',
-    'ore-processing-cinnabar-nickel',
-    'ore-processing-cinnabar-platinum',
-    'ore-processing-cinnabar-iridium',
-    'ore-processing-cinnabar-mithril',
+    teSmelter.oreProcessingCinnabar.iron,
+    teSmelter.oreProcessingCinnabar.gold,
+    teSmelter.oreProcessingCinnabar.copper,
+    teSmelter.oreProcessingCinnabar.tin,
+    teSmelter.oreProcessingCinnabar.silver,
+    teSmelter.oreProcessingCinnabar.lead,
+    teSmelter.oreProcessingCinnabar.aluminum,
+    teSmelter.oreProcessingCinnabar.nickel,
+    teSmelter.oreProcessingCinnabar.platinum,
+    teSmelter.oreProcessingCinnabar.iridium,
+    teSmelter.oreProcessingCinnabar.mithril,
   ]}
 />
 
 ### Alloying
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ingot-steel-from-dust-iron-and-coal-coke',
-    'ingot-steel-from-ingot-iron-and-coal-coke',
-    'ingot-steel-from-dust-iron-and-dust-coal',
-    'ingot-steel-from-ingot-iron-and-dust-coal',
-    'ingot-steel-from-dust-iron-and-dust-charcoal',
-    'ingot-steel-from-ingot-iron-and-dust-charcoal',
-    'ingot-electrum-from-dust-gold-and-dust-silver',
-    'ingot-electrum-from-ingot-gold-and-dust-silver',
-    'ingot-electrum-from-dust-gold-and-ingot-silver',
-    'ingot-electrum-from-ingot-gold-and-ingot-silver',
-    'ingot-invar-from-dust-iron-and-dust-nickel',
-    'ingot-invar-from-ingot-iron-and-dust-nickel',
-    'ingot-invar-from-dust-iron-and-ingot-nickel',
-    'ingot-invar-from-ingot-iron-and-ingot-nickel',
-    'ingot-bronze-from-dust-copper-and-dust-tin',
-    'ingot-bronze-from-ingot-copper-and-dust-tin',
-    'ingot-bronze-from-dust-copper-and-ingot-tin',
-    'ingot-bronze-from-ingot-copper-and-ingot-tin',
-    'ingot-constantan-from-dust-copper-and-dust-nickel',
-    'ingot-constantan-from-ingot-copper-and-dust-nickel',
-    'ingot-constantan-from-dust-copper-and-ingot-nickel',
-    'ingot-constantan-from-ingot-copper-and-ingot-nickel',
+    teSmelter.steelIngot.pulverizedIronAndCoalCoke,
+    teSmelter.steelIngot.ironIngotAndCoalCoke,
+    teSmelter.steelIngot.pulverizedIronAndPulverizedCoal,
+    teSmelter.steelIngot.ironIngotAndPulverizedCoal,
+    teSmelter.steelIngot.pulverizedIronAndPulverizedCharcoal,
+    teSmelter.steelIngot.ironIngotAndPulverizedCharcoal,
+    teSmelter.electrumIngot.pulverizedGoldAndPulverizedSilver,
+    teSmelter.electrumIngot.goldIngotAndPulverizedSilver,
+    teSmelter.electrumIngot.pulverizedGoldAndSilverIngot,
+    teSmelter.electrumIngot.goldIngotAndSilverIngot,
+    teSmelter.invarIngot.pulverizedIronAndPulverizedNickel,
+    teSmelter.invarIngot.ironIngotAndPulverizedNickel,
+    teSmelter.invarIngot.pulverizedIronAndNickelIngot,
+    teSmelter.invarIngot.ironIngotAndNickelIngot,
+    teSmelter.bronzeIngot.pulverizedCopperAndPulverizedTin,
+    teSmelter.bronzeIngot.copperIngotAndPulverizedTin,
+    teSmelter.bronzeIngot.pulverizedCopperAndTinIngot,
+    teSmelter.bronzeIngot.copperIngotAndTinIngot,
+    teSmelter.constantanIngot.pulverizedCopperAndPulverizedNickel,
+    teSmelter.constantanIngot.copperIngotAndPulverizedNickel,
+    teSmelter.constantanIngot.pulverizedCopperAndNickelIngot,
+    teSmelter.constantanIngot.copperIngotAndNickelIngot,
   ]}
 />
 
 ### Recycling
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-gear',
-    'recycling-plate',
-    'recycling-anvil',
-    'recycling-anvil-slightly-damaged',
-    'recycling-anvil-very-damaged',
-    'recycling-pressure-plate-iron',
-    'recycling-pressure-plate-gold',
-    'recycling-bucket',
-    'recycling-cauldron',
-    'recycling-clock',
-    'recycling-compass',
-    'recycling-door-iron',
-    'recycling-hopper',
-    'recycling-iron-bars',
-    'recycling-iron-trapdoor',
-    'recycling-minecart',
-    'recycling-minecart-with-chest',
-    'recycling-minecart-with-furnace',
-    'recycling-minecart-with-hopper',
-    'recycling-rail',
-    'recycling-powered-rail',
-    'recycling-tool-pickaxe',
-    'recycling-tool-shovel',
-    'recycling-tool-axe',
-    'recycling-tool-hoe',
-    'recycling-tool-fishing-rod-metal',
-    'recycling-tool-shears-metal',
-    'recycling-tool-hammer',
-    'recycling-tool-excavator',
-    'recycling-tool-sickle',
-    'recycling-weapon-sword',
-    'recycling-weapon-bow-metal',
-    'recycling-weapon-shield-metal',
-    'recycling-armor-helmet',
-    'recycling-armor-chestplate',
-    'recycling-armor-leggings',
-    'recycling-armor-boots',
-    'recycling-horse-armor-metal',
+    teSmelter.recycling.gear,
+    teSmelter.recycling.plate,
+    teSmelter.recycling.anvil,
+    teSmelter.recycling.slightlyDamagedAnvil,
+    teSmelter.recycling.veryDamagedAnvil,
+    teSmelter.recycling.weightedPressurePlateHeavy,
+    teSmelter.recycling.weightedPressurePlateLight,
+    teSmelter.recycling.bucket,
+    teSmelter.recycling.cauldron,
+    teSmelter.recycling.clock,
+    teSmelter.recycling.compass,
+    teSmelter.recycling.ironDoor,
+    teSmelter.recycling.hopper,
+    teSmelter.recycling.ironBars,
+    teSmelter.recycling.ironTrapdoor,
+    teSmelter.recycling.minecart,
+    teSmelter.recycling.minecartWithChest,
+    teSmelter.recycling.minecartWithFurnace,
+    teSmelter.recycling.minecartWithHopper,
+    teSmelter.recycling.rail,
+    teSmelter.recycling.poweredRail,
+    teSmelter.recycling.fluxInfusedPickaxe,
+    teSmelter.recycling.fluxInfusedShovel,
+    teSmelter.recycling.fluxInfusedAxe,
+    teSmelter.recycling.toolHoe,
+    teSmelter.recycling.fishingRodMetal,
+    teSmelter.recycling.shearsMetal,
+    teSmelter.recycling.fluxInfusedHammer,
+    teSmelter.recycling.fluxInfusedExcavator,
+    teSmelter.recycling.fluxInfusedSickle,
+    teSmelter.recycling.fluxInfusedSword,
+    teSmelter.recycling.fluxInfusedBowMetal,
+    teSmelter.recycling.shieldMetal,
+    teSmelter.recycling.fluxInfusedHelm,
+    teSmelter.recycling.fluxInfusedChestplate,
+    teSmelter.recycling.fluxInfusedLeggings,
+    teSmelter.recycling.fluxInfusedBoots,
+    teSmelter.recycling.horseArmorMetal,
   ]}
 />

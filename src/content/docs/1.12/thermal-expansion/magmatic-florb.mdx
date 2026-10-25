@@ -4,10 +4,10 @@ title: Magmatic Florb
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/florb-magmatic.png', alt: 'Magmatic florb' }]}
-/>
+<PageImage images={[{ item: te.magmaticFlorb }]} />
 
 A **magmatic florb** is a [florb](../florb/) that can hold hot fluids like
 [lava](https://minecraft.wiki/w/Lava).
@@ -18,11 +18,10 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'te-1-12-florb-magmatic-using-magma-cream',
-    'te-1-12-florb-magmatic-using-slime',
-    'te-1-12-florb-magmatic-using-rosin',
+    teCrafting.magmaticFlorbUsingMagmaCream,
+    teCrafting.magmaticFlorbUsingSlime,
+    teCrafting.magmaticFlorbUsingRosin,
   ]}
   noResult
 />

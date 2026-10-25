@@ -4,10 +4,12 @@ title: Tar
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teRefinery from '@/data/1.12/thermal-expansion/recipes/refinery.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/tar.png', alt: 'Tar' }]}
-/>
+<PageImage images={[{ item: tf.tar }]} />
 
 
 **Tar** is a byproduct of processing [oil sand](../oil-sand/) in a
@@ -22,21 +24,10 @@ Obtaining
 ---------
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['fluid-ore-processing-oil-sand']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.fluidOreProcessing.oilSand]} noResult />
 
 ### Fractionating Still
-<RecipeTable
-  type="1.12/thermal-expansion/refinery"
-  recipes={[
-    'naphtha-from-coal',
-    'naphtha-from-crude-oil',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[teRefinery.naphtha.liquifactedCoal, teRefinery.naphtha.crudeOil]} noResult />
 
 
 Usage
@@ -44,11 +35,10 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-torch-using-tar',
-    'tf-1-12-piston-sticky-using-tar',
-    'tf-1-12-lead-using-tar',
+    tfCrafting.torchUsingTar,
+    tfCrafting.stickyPistonUsingTar,
+    tfCrafting.leadUsingTar,
   ]}
 />
 

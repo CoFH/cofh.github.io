@@ -4,12 +4,10 @@ title: Block of Constantan
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-foundation-2/storage-block-constantan.png', alt: 'Block of constantan' },
-  ]}
-/>
+<PageImage images={[{ item: tf.blockOfConstantan }]} />
 
 **Blocks of constantan** are blocks made from [constantan
 ingots](../constantan-ingot/).
@@ -22,11 +20,7 @@ Blocks of constantan can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-storage-block-constantan']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.blockOfConstantan]} noResult />
 
 
 Usage
@@ -44,7 +38,4 @@ Blocks of constantan can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-ingot-constantan-from-block']}
-/>
+<RecipeTable recipes={[tfCrafting.constantanIngot.block]} />

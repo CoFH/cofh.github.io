@@ -5,10 +5,11 @@ title: Compactor
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/compactor.png', alt: 'Compactor' }]}
-/>
+<PageImage images={[{ item: te.compactor }]} />
 
 > More gentle than a pulverizer.
 
@@ -26,11 +27,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-compactor']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.compactor]} noResult />
 
 ### Upgrading
 A compactor is initially at the lowest [tier](#tiers) (basic). It can be
@@ -176,13 +173,12 @@ Recipes
 -------
 
 <RecipeTable
-  type="1.12/thermal-expansion/compactor"
   recipes={[
-    'plate',
-    'plate-fluxed-electrum',
-    'blaze-rod-from-powder',
-    'blizz-rod-from-powder',
-    'blitz-rod-from-powder',
-    'basalz-rod-from-powder',
+    teCompactor.plate,
+    teCompactor.fluxedElectrumPlate,
+    teCompactor.blazeRodFromPowder,
+    teCompactor.blizzRodFromPowder,
+    teCompactor.blitzRodFromPowder,
+    teCompactor.basalzRodFromPowder,
   ]}
 />

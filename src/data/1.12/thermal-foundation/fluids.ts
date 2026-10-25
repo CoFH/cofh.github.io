@@ -1,0 +1,28 @@
+import { defineFluids } from '../../define.ts';
+
+export default defineFluids('1.12/thermal-foundation', {
+  biocrude: { name: 'Biocrude' },
+  blazingPyrotheum: { name: 'Blazing Pyrotheum' },
+  creosoteOil: { name: 'Creosote Oil' },
+  crudeOil: { name: 'Crude Oil' },
+  destabilizedRedstone: { name: 'Destabilized Redstone' },
+  energizedGlowstone: { name: 'Energized Glowstone' },
+  essenceOfKnowledge: { name: 'Essence of Knowledge' },
+  gelidCryotheum: { name: 'Gelid Cryotheum' },
+  grassoline: { name: 'Grassoline' },
+  liquifactedCoal: { name: 'Liquifacted Coal' },
+  mushroomStew: { name: 'Mushroom Stew' },
+  naphtha: { name: 'Naphtha' },
+  potion: { name: 'Potion', url: 'potion-fluid/' },
+  primalMana: { name: 'Primal Mana' },
+  refinedFuel: { name: 'Refined Fuel' },
+  resin: { name: 'Resin' },
+  resonantEnder: { name: 'Resonant Ender' },
+  sap: { name: 'Sap' },
+  seedOil: { name: 'Seed Oil' },
+  steam: { name: 'Steam' },
+  syrup: { name: 'Syrup' },
+  tectonicPetrotheum: { name: 'Tectonic Petrotheum' },
+  treeOil: { name: 'Tree Oil' },
+  zephyreanAerotheum: { name: 'Zephyrean Aerotheum' },
+});

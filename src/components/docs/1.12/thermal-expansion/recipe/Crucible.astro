@@ -1,0 +1,19 @@
+---
+import type { Recipe } from '../../../../../data/types.ts';
+import { asSlot, asTank } from '../../../recipe/narrow.ts';
+import RecipeFrame from '../../../recipe/RecipeFrame.astro';
+import Slot from '../../../recipe/Slot.astro';
+import Tank from '../../../recipe/Tank.astro';
+import background from './crucible.png';
+
+interface Props {
+  recipe: Recipe;
+}
+
+const { recipe } = Astro.props;
+---
+
+<RecipeFrame background={background}>
+  <Slot data={asSlot(recipe.inputs[0])} top={38} left={10} />
+  <Tank data={asTank(recipe.outputs[0])} top={10} left={106} size={10000} />
+</RecipeFrame>

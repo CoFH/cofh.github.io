@@ -4,25 +4,29 @@ title: Shields
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/shield-iron.png', alt: 'Iron shield' },
-    { file: 'thermal-foundation-2/shield-gold.png', alt: 'Gold shield' },
-    { file: 'thermal-foundation-2/shield-diamond.png', alt: 'Diamond shield' },
-    { file: 'thermal-foundation-2/shield-copper.png', alt: 'Copper shield' },
-    { file: 'thermal-foundation-2/shield-tin.png', alt: 'Tin shield' },
-    { file: 'thermal-foundation-2/shield-silver.png', alt: 'Silver shield' },
-    { file: 'thermal-foundation-2/shield-lead.png', alt: 'Lead shield' },
-    { file: 'thermal-foundation-2/shield-aluminum.png', alt: 'Aluminum shield' },
-    { file: 'thermal-foundation-2/shield-nickel.png', alt: 'Nickel shield' },
-    { file: 'thermal-foundation-2/shield-platinum.png', alt: 'Platinum shield' },
-    { file: 'thermal-foundation-2/shield-steel.png', alt: 'Steel shield' },
-    { file: 'thermal-foundation-2/shield-electrum.png', alt: 'Electrum shield' },
-    { file: 'thermal-foundation-2/shield-invar.png', alt: 'Invar shield' },
-    { file: 'thermal-foundation-2/shield-bronze.png', alt: 'Bronze shield' },
-    { file: 'thermal-foundation-2/shield-constantan.png', alt: 'Constantan shield' },
-    { file: 'thermal-foundation-2/shield-stone.png', alt: 'Stone shield' },
+    { item: tf.ironShield },
+    { item: tf.goldShield },
+    { item: tf.diamondShield },
+    { item: tf.copperShield },
+    { item: tf.tinShield },
+    { item: tf.silverShield },
+    { item: tf.leadShield },
+    { item: tf.aluminumShield },
+    { item: tf.nickelShield },
+    { item: tf.platinumShield },
+    { item: tf.steelShield },
+    { item: tf.electrumShield },
+    { item: tf.invarShield },
+    { item: tf.bronzeShield },
+    { item: tf.constantanShield },
+    { item: tf.stoneShield },
   ]}
 />
 
@@ -36,24 +40,23 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-weapon-shield-stone',
-    'tf-1-12-weapon-shield-iron',
-    'tf-1-12-weapon-shield-gold',
-    'tf-1-12-weapon-shield-diamond',
-    'tf-1-12-weapon-shield-copper',
-    'tf-1-12-weapon-shield-tin',
-    'tf-1-12-weapon-shield-silver',
-    'tf-1-12-weapon-shield-lead',
-    'tf-1-12-weapon-shield-aluminum',
-    'tf-1-12-weapon-shield-nickel',
-    'tf-1-12-weapon-shield-platinum',
-    'tf-1-12-weapon-shield-steel',
-    'tf-1-12-weapon-shield-electrum',
-    'tf-1-12-weapon-shield-invar',
-    'tf-1-12-weapon-shield-bronze',
-    'tf-1-12-weapon-shield-constantan',
+    tfCrafting.stoneShield,
+    tfCrafting.ironShield,
+    tfCrafting.goldShield,
+    tfCrafting.diamondShield,
+    tfCrafting.copperShield,
+    tfCrafting.tinShield,
+    tfCrafting.silverShield,
+    tfCrafting.leadShield,
+    tfCrafting.aluminumShield,
+    tfCrafting.nickelShield,
+    tfCrafting.platinumShield,
+    tfCrafting.steelShield,
+    tfCrafting.electrumShield,
+    tfCrafting.invarShield,
+    tfCrafting.bronzeShield,
+    tfCrafting.constantanShield,
   ]}
 />
 
@@ -97,27 +100,23 @@ uses = mat.maxUses + 275
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-weapon-shield-iron',
-    'recycling-weapon-shield-gold',
-    'recycling-weapon-shield-copper',
-    'recycling-weapon-shield-tin',
-    'recycling-weapon-shield-silver',
-    'recycling-weapon-shield-lead',
-    'recycling-weapon-shield-aluminum',
-    'recycling-weapon-shield-nickel',
-    'recycling-weapon-shield-platinum',
-    'recycling-weapon-shield-steel',
-    'recycling-weapon-shield-electrum',
-    'recycling-weapon-shield-invar',
-    'recycling-weapon-shield-bronze',
-    'recycling-weapon-shield-constantan',
+    teSmelter.recycling.ironShield,
+    teSmelter.recycling.goldShield,
+    teSmelter.recycling.copperShield,
+    teSmelter.recycling.tinShield,
+    teSmelter.recycling.silverShield,
+    teSmelter.recycling.leadShield,
+    teSmelter.recycling.aluminumShield,
+    teSmelter.recycling.nickelShield,
+    teSmelter.recycling.platinumShield,
+    teSmelter.recycling.steelShield,
+    teSmelter.recycling.electrumShield,
+    teSmelter.recycling.invarShield,
+    teSmelter.recycling.bronzeShield,
+    teSmelter.recycling.constantanShield,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['recycling-weapon-shield-diamond']}
-/>
+<RecipeTable recipes={[tePulverizer.recycling.diamondShield]} />

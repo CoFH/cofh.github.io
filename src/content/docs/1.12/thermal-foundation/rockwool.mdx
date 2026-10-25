@@ -4,25 +4,29 @@ title: Rockwool
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/rockwool-light-gray.png', alt: 'Light gray rockwool' },
-    { file: 'thermal-foundation-2/rockwool-white.png', alt: 'White rockwool' },
-    { file: 'thermal-foundation-2/rockwool-orange.png', alt: 'Orange rockwool' },
-    { file: 'thermal-foundation-2/rockwool-magenta.png', alt: 'Magenta rockwool' },
-    { file: 'thermal-foundation-2/rockwool-light-blue.png', alt: 'Light blue rockwool' },
-    { file: 'thermal-foundation-2/rockwool-yellow.png', alt: 'Yellow rockwool' },
-    { file: 'thermal-foundation-2/rockwool-lime.png', alt: 'Lime rockwool' },
-    { file: 'thermal-foundation-2/rockwool-pink.png', alt: 'Pink rockwool' },
-    { file: 'thermal-foundation-2/rockwool-gray.png', alt: 'Gray rockwool' },
-    { file: 'thermal-foundation-2/rockwool-cyan.png', alt: 'Cyan rockwool' },
-    { file: 'thermal-foundation-2/rockwool-purple.png', alt: 'Purple rockwool' },
-    { file: 'thermal-foundation-2/rockwool-blue.png', alt: 'Blue rockwool' },
-    { file: 'thermal-foundation-2/rockwool-brown.png', alt: 'Brown rockwool' },
-    { file: 'thermal-foundation-2/rockwool-green.png', alt: 'Green rockwool' },
-    { file: 'thermal-foundation-2/rockwool-red.png', alt: 'Red rockwool' },
-    { file: 'thermal-foundation-2/rockwool-black.png', alt: 'Black rockwool' },
+    { item: tf.lightGrayRockwool },
+    { item: tf.whiteRockwool },
+    { item: tf.orangeRockwool },
+    { item: tf.magentaRockwool },
+    { item: tf.lightBlueRockwool },
+    { item: tf.yellowRockwool },
+    { item: tf.limeRockwool },
+    { item: tf.pinkRockwool },
+    { item: tf.grayRockwool },
+    { item: tf.cyanRockwool },
+    { item: tf.purpleRockwool },
+    { item: tf.blueRockwool },
+    { item: tf.brownRockwool },
+    { item: tf.greenRockwool },
+    { item: tf.redRockwool },
+    { item: tf.blackRockwool },
   ]}
 />
 
@@ -35,16 +39,10 @@ Obtaining
 ---------
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-rockwool']}
-/>
+<RecipeTable recipes={[tfSmelting.rockwool]} />
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-rockwool-dyeing']}
-/>
+<RecipeTable recipes={[tfCrafting.rockwoolDyeing]} />
 
 Unlike regular wool, rockwool can be dyed from any color into any other color.
 
@@ -53,10 +51,4 @@ Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'te-1-12-satchel-basic-using-rockwool',
-    'te-1-12-satchel-void-using-rockwool',
-  ]}
-/>
+<RecipeTable recipes={[teCrafting.satchel0UsingRockwool, teCrafting.satchelVoidUsingRockwool]} />

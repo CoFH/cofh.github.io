@@ -4,10 +4,13 @@ title: Pulverized Coal
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-coal.png', alt: 'Pulverized coal' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedCoal }]} />
 
 
 **Pulverized coal** is a raw material. It is the dust form of
@@ -18,46 +21,28 @@ Obtaining
 ---------
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={[
-    'dust-coal',
-    'ore-processing-coal',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedCoal, tePulverizer.oreProcessing.coal]} noResult />
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-petrotheum-ore-coal']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.petrotheum.coalOre]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-gunpowder-using-coal']}
-/>
+<RecipeTable recipes={[tfCrafting.gunpowderUsingCoal]} />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ingot-steel-from-dust-iron-and-dust-coal',
-    'ingot-steel-from-ingot-iron-and-dust-coal',
+    teSmelter.steelIngot.pulverizedIronAndPulverizedCoal,
+    teSmelter.steelIngot.ironIngotAndPulverizedCoal,
   ]}
 />
 
 ### Magma Crucible ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['coal']}
-/>
+<RecipeTable recipes={[teCrucible.liquifactedCoal]} />
 
 ### Steam Dynamo fuel
 When used as fuel in a [steam dynamo](../../thermal-expansion/steam-dynamo/),

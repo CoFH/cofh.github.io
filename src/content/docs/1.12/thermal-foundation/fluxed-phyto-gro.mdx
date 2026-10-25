@@ -4,10 +4,14 @@ title: Fluxed Phyto-Gro
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tcCrafting from '@/data/1.12/thermal-cultivation/recipes/crafting.ts';
+import teCharger from '@/data/1.12/thermal-expansion/recipes/charger.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teInsolatorTree from '@/data/1.12/thermal-expansion/recipes/insolator-tree.ts';
+import teInsolator from '@/data/1.12/thermal-expansion/recipes/insolator.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/phyto-gro-fluxed.gif', alt: 'Fluxed Phyto-Gro' }]}
-/>
+<PageImage images={[{ item: tf.fluxedPhytoGro }]} />
 
 
 **Fluxed Phyto-Gro** is a type of fertilizer. It is the strongest of its kind,
@@ -19,11 +23,7 @@ Obtaining
 ---------
 
 ### Energetic Infuser
-<RecipeTable
-  type="1.12/thermal-expansion/charger"
-  recipes={['phyto-gro-fluxed']}
-  noResult
-/>
+<RecipeTable recipes={[teCharger.fluxedPhytoGro]} noResult />
 
 
 Usage
@@ -34,42 +34,32 @@ When used on blocks, fluxed Phyto-Gro grows plants like [bone
 meal](https://minecraft.wiki/w/Bone_Meal), but in a 7x7 area.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'te-1-12-augment-machine-insolator-monoculture',
-    'tc-1-12-watering-can-resonant',
-  ]}
-/>
+<RecipeTable recipes={[teCrafting.augmentMonocultureCycle, tcCrafting.wateringCan4]} />
 
 ### Phytogenic Insolator ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/insolator"
   recipes={[
-    'beetroot-fluxed',
-    'cactus-fluxed',
-    'carrot-fluxed',
-    'cocoa-beans-fluxed',
-    'flower-fluxed',
-    'tall-flower-fluxed',
-    'lily-pad-fluxed',
-    'melon-fluxed',
-    'potato-fluxed',
-    'pumpkin-fluxed',
-    'sugar-canes-fluxed',
-    'vines-fluxed',
-    'wheat-fluxed',
-    'mushroom-fluxed',
-    'nether-wart-fluxed',
-    'chorus-fruit-fluxed',
+    teInsolator.beetrootFluxed,
+    teInsolator.cactusFluxed,
+    teInsolator.carrotFluxed,
+    teInsolator.cocoaBeansFluxed,
+    teInsolator.flowerFluxed,
+    teInsolator.tallFlowerFluxed,
+    teInsolator.lilyPadFluxed,
+    teInsolator.melonFluxed,
+    teInsolator.potatoFluxed,
+    teInsolator.pumpkinFluxed,
+    teInsolator.sugarCanesFluxed,
+    teInsolator.vinesFluxed,
+    teInsolator.wheatFluxed,
+    teInsolator.mushroomFluxed,
+    teInsolator.netherWartFluxed,
+    teInsolator.chorusFruitFluxed,
   ]}
 />
 
 ### Phytogenic Insolator with Sapling Infuser ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/insolator-tree"
-  recipes={['wood-fluxed']}
-/>
+<RecipeTable recipes={[teInsolatorTree.woodFluxed]} />
 
 ### Arboreal Extractor
 When fluxed Phyto-Gro is used in an [arboreal

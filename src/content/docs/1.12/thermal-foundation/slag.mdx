@@ -4,10 +4,13 @@ title: Slag
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/slag.png', alt: 'Slag' }]}
-/>
+<PageImage images={[{ item: tf.slag }]} />
 
 
 **Slag** is a material obtained as a byproduct from [induction
@@ -19,59 +22,58 @@ Obtaining
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting',
-    'stone-bricks',
-    'ore-processing-rich-slag-iron',
-    'ore-processing-rich-slag-gold',
-    'ore-processing-rich-slag-copper',
-    'ore-processing-rich-slag-tin',
-    'ore-processing-rich-slag-silver',
-    'ore-processing-rich-slag-lead',
-    'ore-processing-rich-slag-aluminum',
-    'ore-processing-rich-slag-nickel',
-    'ore-processing-rich-slag-platinum',
-    'ore-processing-rich-slag-iridium',
-    'ore-processing-rich-slag-mithril',
-    'recycling-gear',
-    'recycling-plate',
-    'recycling-anvil',
-    'recycling-anvil-slightly-damaged',
-    'recycling-anvil-very-damaged',
-    'recycling-pressure-plate-iron',
-    'recycling-pressure-plate-gold',
-    'recycling-bucket',
-    'recycling-cauldron',
-    'recycling-clock',
-    'recycling-compass',
-    'recycling-door-iron',
-    'recycling-hopper',
-    'recycling-iron-bars',
-    'recycling-iron-trapdoor',
-    'recycling-minecart',
-    'recycling-minecart-with-chest',
-    'recycling-minecart-with-furnace',
-    'recycling-minecart-with-hopper',
-    'recycling-rail',
-    'recycling-powered-rail',
-    'recycling-tool-pickaxe',
-    'recycling-tool-shovel',
-    'recycling-tool-axe',
-    'recycling-tool-hoe',
-    'recycling-tool-fishing-rod-metal',
-    'recycling-tool-shears-metal',
-    'recycling-tool-hammer',
-    'recycling-tool-excavator',
-    'recycling-tool-sickle',
-    'recycling-weapon-sword',
-    'recycling-weapon-bow-metal',
-    'recycling-weapon-shield-metal',
-    'recycling-armor-helmet',
-    'recycling-armor-chestplate',
-    'recycling-armor-leggings',
-    'recycling-armor-boots',
-    'recycling-horse-armor-metal',
+    teSmelter.dustSmelting.metal,
+    teSmelter.stoneBricks,
+    teSmelter.oreProcessingRichSlag.iron,
+    teSmelter.oreProcessingRichSlag.gold,
+    teSmelter.oreProcessingRichSlag.copper,
+    teSmelter.oreProcessingRichSlag.tin,
+    teSmelter.oreProcessingRichSlag.silver,
+    teSmelter.oreProcessingRichSlag.lead,
+    teSmelter.oreProcessingRichSlag.aluminum,
+    teSmelter.oreProcessingRichSlag.nickel,
+    teSmelter.oreProcessingRichSlag.platinum,
+    teSmelter.oreProcessingRichSlag.iridium,
+    teSmelter.oreProcessingRichSlag.mithril,
+    teSmelter.recycling.gear,
+    teSmelter.recycling.plate,
+    teSmelter.recycling.anvil,
+    teSmelter.recycling.slightlyDamagedAnvil,
+    teSmelter.recycling.veryDamagedAnvil,
+    teSmelter.recycling.weightedPressurePlateHeavy,
+    teSmelter.recycling.weightedPressurePlateLight,
+    teSmelter.recycling.bucket,
+    teSmelter.recycling.cauldron,
+    teSmelter.recycling.clock,
+    teSmelter.recycling.compass,
+    teSmelter.recycling.ironDoor,
+    teSmelter.recycling.hopper,
+    teSmelter.recycling.ironBars,
+    teSmelter.recycling.ironTrapdoor,
+    teSmelter.recycling.minecart,
+    teSmelter.recycling.minecartWithChest,
+    teSmelter.recycling.minecartWithFurnace,
+    teSmelter.recycling.minecartWithHopper,
+    teSmelter.recycling.rail,
+    teSmelter.recycling.poweredRail,
+    teSmelter.recycling.fluxInfusedPickaxe,
+    teSmelter.recycling.fluxInfusedShovel,
+    teSmelter.recycling.fluxInfusedAxe,
+    teSmelter.recycling.toolHoe,
+    teSmelter.recycling.fishingRodMetal,
+    teSmelter.recycling.shearsMetal,
+    teSmelter.recycling.fluxInfusedHammer,
+    teSmelter.recycling.fluxInfusedExcavator,
+    teSmelter.recycling.fluxInfusedSickle,
+    teSmelter.recycling.fluxInfusedSword,
+    teSmelter.recycling.fluxInfusedBowMetal,
+    teSmelter.recycling.shieldMetal,
+    teSmelter.recycling.fluxInfusedHelm,
+    teSmelter.recycling.fluxInfusedChestplate,
+    teSmelter.recycling.fluxInfusedLeggings,
+    teSmelter.recycling.fluxInfusedBoots,
+    teSmelter.recycling.horseArmorMetal,
   ]}
   noResult
 />
@@ -82,24 +84,20 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-clay-using-slag',
-    'tf-1-12-dirt-using-biomass-and-slag',
-    'tf-1-12-phyto-gro-using-sawdust',
-    'tf-1-12-phyto-gro-using-charcoal',
-    'te-1-12-florb-using-slime',
-    'te-1-12-florb-using-rosin',
-    'te-1-12-florb-magmatic-using-magma-cream',
-    'te-1-12-florb-magmatic-using-slime',
-    'te-1-12-florb-magmatic-using-rosin',
-    'te-1-12-morb-using-slime',
-    'te-1-12-morb-using-rosin',
+    tfCrafting.clayUsingSlag,
+    tfCrafting.dirtUsingPulpedBiomassAndSlag,
+    tfCrafting.phytoGroUsingSawdust,
+    tfCrafting.phytoGroUsingCharcoal,
+    teCrafting.florbUsingSlime,
+    teCrafting.florbUsingRosin,
+    teCrafting.magmaticFlorbUsingMagmaCream,
+    teCrafting.magmaticFlorbUsingSlime,
+    teCrafting.magmaticFlorbUsingRosin,
+    teCrafting.morbUsingSlime,
+    teCrafting.morbUsingRosin,
   ]}
 />
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-rockwool']}
-/>
+<RecipeTable recipes={[tfSmelting.rockwool]} />

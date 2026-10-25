@@ -4,26 +4,30 @@ title: Excavators
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-foundation-2/excavator-iron.png', alt: 'Iron excavator' },
-    { file: 'thermal-foundation-2/excavator-gold.png', alt: 'Gold excavator' },
-    { file: 'thermal-foundation-2/excavator-diamond.png', alt: 'Diamond excavator' },
-    { file: 'thermal-foundation-2/excavator-copper.png', alt: 'Copper excavator' },
-    { file: 'thermal-foundation-2/excavator-tin.png', alt: 'Tin excavator' },
-    { file: 'thermal-foundation-2/excavator-silver.png', alt: 'Silver excavator' },
-    { file: 'thermal-foundation-2/excavator-lead.png', alt: 'Lead excavator' },
-    { file: 'thermal-foundation-2/excavator-aluminum.png', alt: 'Aluminum excavator' },
-    { file: 'thermal-foundation-2/excavator-nickel.png', alt: 'Nickel excavator' },
-    { file: 'thermal-foundation-2/excavator-platinum.png', alt: 'Platinum excavator' },
-    { file: 'thermal-foundation-2/excavator-steel.png', alt: 'Steel excavator' },
-    { file: 'thermal-foundation-2/excavator-electrum.png', alt: 'Electrum excavator' },
-    { file: 'thermal-foundation-2/excavator-invar.png', alt: 'Invar excavator' },
-    { file: 'thermal-foundation-2/excavator-bronze.png', alt: 'Bronze excavator' },
-    { file: 'thermal-foundation-2/excavator-constantan.png', alt: 'Constantan excavator' },
-    { file: 'thermal-foundation-2/excavator-stone.png', alt: 'Stone excavator' },
-    { file: 'thermal-foundation-2/excavator-wood.png', alt: 'Wooden excavator' },
+    { item: tf.ironExcavator },
+    { item: tf.goldExcavator },
+    { item: tf.diamondExcavator },
+    { item: tf.copperExcavator },
+    { item: tf.tinExcavator },
+    { item: tf.silverExcavator },
+    { item: tf.leadExcavator },
+    { item: tf.aluminumExcavator },
+    { item: tf.nickelExcavator },
+    { item: tf.platinumExcavator },
+    { item: tf.steelExcavator },
+    { item: tf.electrumExcavator },
+    { item: tf.invarExcavator },
+    { item: tf.bronzeExcavator },
+    { item: tf.constantanExcavator },
+    { item: tf.stoneExcavator },
+    { item: tf.woodenExcavator },
   ]}
 />
 
@@ -36,25 +40,24 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-tool-excavator-wood',
-    'tf-1-12-tool-excavator-stone',
-    'tf-1-12-tool-excavator-iron',
-    'tf-1-12-tool-excavator-gold',
-    'tf-1-12-tool-excavator-diamond',
-    'tf-1-12-tool-excavator-copper',
-    'tf-1-12-tool-excavator-tin',
-    'tf-1-12-tool-excavator-silver',
-    'tf-1-12-tool-excavator-lead',
-    'tf-1-12-tool-excavator-aluminum',
-    'tf-1-12-tool-excavator-nickel',
-    'tf-1-12-tool-excavator-platinum',
-    'tf-1-12-tool-excavator-steel',
-    'tf-1-12-tool-excavator-electrum',
-    'tf-1-12-tool-excavator-invar',
-    'tf-1-12-tool-excavator-bronze',
-    'tf-1-12-tool-excavator-constantan',
+    tfCrafting.woodenExcavator,
+    tfCrafting.stoneExcavator,
+    tfCrafting.ironExcavator,
+    tfCrafting.goldExcavator,
+    tfCrafting.diamondExcavator,
+    tfCrafting.copperExcavator,
+    tfCrafting.tinExcavator,
+    tfCrafting.silverExcavator,
+    tfCrafting.leadExcavator,
+    tfCrafting.aluminumExcavator,
+    tfCrafting.nickelExcavator,
+    tfCrafting.platinumExcavator,
+    tfCrafting.steelExcavator,
+    tfCrafting.electrumExcavator,
+    tfCrafting.invarExcavator,
+    tfCrafting.bronzeExcavator,
+    tfCrafting.constantanExcavator,
   ]}
 />
 
@@ -234,30 +237,28 @@ Excavators can receive the same enchantments that
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-tool-excavator-iron',
-    'recycling-tool-excavator-gold',
-    'recycling-tool-excavator-copper',
-    'recycling-tool-excavator-tin',
-    'recycling-tool-excavator-silver',
-    'recycling-tool-excavator-lead',
-    'recycling-tool-excavator-aluminum',
-    'recycling-tool-excavator-nickel',
-    'recycling-tool-excavator-platinum',
-    'recycling-tool-excavator-steel',
-    'recycling-tool-excavator-electrum',
-    'recycling-tool-excavator-invar',
-    'recycling-tool-excavator-bronze',
-    'recycling-tool-excavator-constantan',
+    teSmelter.recycling.ironExcavator,
+    teSmelter.recycling.goldExcavator,
+    teSmelter.recycling.copperExcavator,
+    teSmelter.recycling.tinExcavator,
+    teSmelter.recycling.silverExcavator,
+    teSmelter.recycling.leadExcavator,
+    teSmelter.recycling.aluminumExcavator,
+    teSmelter.recycling.nickelExcavator,
+    teSmelter.recycling.platinumExcavator,
+    teSmelter.recycling.steelExcavator,
+    teSmelter.recycling.electrumExcavator,
+    teSmelter.recycling.invarExcavator,
+    teSmelter.recycling.bronzeExcavator,
+    teSmelter.recycling.constantanExcavator,
   ]}
 />
 
 ### Pulverizer ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'recycling-tool-excavator-wood',
-    'recycling-tool-excavator-diamond',
+    tePulverizer.recycling.woodenExcavator,
+    tePulverizer.recycling.diamondExcavator,
   ]}
 />

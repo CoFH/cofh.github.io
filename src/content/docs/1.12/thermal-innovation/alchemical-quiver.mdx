@@ -4,30 +4,17 @@ title: Alchemical Quiver
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ti from '@/data/1.12/thermal-innovation/items.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-innovation/alchemical-quiver-basic.png', alt: 'Alchemical quiver (Basic)' },
-    {
-      file: 'thermal-innovation/alchemical-quiver-hardened.png',
-      alt: 'Alchemical quiver (Hardened)',
-    },
-    {
-      file: 'thermal-innovation/alchemical-quiver-reinforced.png',
-      alt: 'Alchemical quiver (Reinforced)',
-    },
-    {
-      file: 'thermal-innovation/alchemical-quiver-signalum.png',
-      alt: 'Alchemical quiver (Signalum)',
-    },
-    {
-      file: 'thermal-innovation/alchemical-quiver-resonant.png',
-      alt: 'Alchemical quiver (Resonant)',
-    },
-    {
-      file: 'thermal-innovation/alchemical-quiver-creative.png',
-      alt: 'Alchemical quiver (Creative)',
-    },
+    { item: ti.alchemicalQuiver0 },
+    { item: ti.alchemicalQuiver1 },
+    { item: ti.alchemicalQuiver2 },
+    { item: ti.alchemicalQuiver3 },
+    { item: ti.alchemicalQuiver4 },
+    { item: ti.alchemicalQuiverCreative },
   ]}
 />
 
@@ -41,13 +28,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ti-1-12-alchemical-quiver-basic',
-    'ti-1-12-alchemical-quiver-hardened',
-    'ti-1-12-alchemical-quiver-reinforced',
-    'ti-1-12-alchemical-quiver-signalum',
-    'ti-1-12-alchemical-quiver-resonant',
+    tiCrafting.alchemicalQuiver0,
+    tiCrafting.alchemicalQuiver1,
+    tiCrafting.alchemicalQuiver2,
+    tiCrafting.alchemicalQuiver3,
+    tiCrafting.alchemicalQuiver4,
   ]}
 />
 

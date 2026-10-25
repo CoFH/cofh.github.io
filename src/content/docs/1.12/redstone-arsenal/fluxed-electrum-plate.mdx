@@ -4,10 +4,11 @@ title: Fluxed Electrum Plate
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/plate-fluxed-electrum.gif', alt: 'Fluxed electrum plate' }]}
-/>
+<PageImage images={[{ item: ra.fluxedElectrumPlate }]} />
 
 **Fluxed electrum plates** are crafting materials made of [fluxed
 electrum](../fluxed-electrum-ingot/).
@@ -17,18 +18,11 @@ Obtaining
 ---------
 
 ### Compactor
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-fluxed-electrum']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactor.fluxedElectrumPlate]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-fluxed-armor-plating']}
-/>
+<RecipeTable recipes={[raCrafting.fluxedArmorPlating]} />

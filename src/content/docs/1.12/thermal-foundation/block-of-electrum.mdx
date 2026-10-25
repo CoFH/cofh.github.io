@@ -4,10 +4,10 @@ title: Block of Electrum
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/storage-block-electrum.png', alt: 'Block of electrum' }]}
-/>
+<PageImage images={[{ item: tf.blockOfElectrum }]} />
 
 **Blocks of electrum** are blocks made from [electrum
 ingots](../electrum-ingot/).
@@ -20,11 +20,7 @@ Blocks of electrum can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-storage-block-electrum']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.blockOfElectrum]} noResult />
 
 
 Usage
@@ -42,7 +38,4 @@ Blocks of electrum can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-ingot-electrum-from-block']}
-/>
+<RecipeTable recipes={[tfCrafting.electrumIngot.block]} />

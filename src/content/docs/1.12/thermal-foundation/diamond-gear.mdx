@@ -4,10 +4,11 @@ title: Diamond Gear
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/gear-diamond.png', alt: 'Diamond gear' }]}
-/>
+<PageImage images={[{ item: tf.diamondGear }]} />
 
 **Diamond gears** are crafting materials made of
 [diamonds](https://minecraft.wiki/w/Diamond). They are currently not used
@@ -18,15 +19,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-gear-diamond']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.diamondGear]} noResult />
 
 ### Compactor with Gearworking Die
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-diamond']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorGear.diamondGear]} noResult />

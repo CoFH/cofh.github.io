@@ -4,10 +4,10 @@ title: Structuralduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-dynamics-2/structuralduct.png', alt: 'Structuralduct' }]}
-/>
+<PageImage images={[{ item: td.structuralduct }]} />
 
 A **structuralduct** is a decorative block that connects to most other ducts. It
 is most commonly used to craft [covers](../covers/).
@@ -21,11 +21,7 @@ A placed structuralduct can be instantly picked up by dismantling it with a
 [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['td-1-12-structuralduct']}
-  noResult
-/>
+<RecipeTable recipes={[tdCrafting.structuralduct]} noResult />
 
 
 Usage
@@ -37,7 +33,4 @@ Any connected side of a structuralduct can be disconnected and reconnected by
 using a [wrench](../../wrenches/) on it.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['td-1-12-covers']}
-/>
+<RecipeTable recipes={[tdCrafting.covers]} />

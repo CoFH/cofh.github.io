@@ -13,8 +13,9 @@ import uikitTooltip from 'uikit/dist/js/components/tooltip.min.js?url';
 import uikit from 'uikit/dist/js/uikit.min.js?url';
 
 import SearchBar from '../components/SearchBar.astro';
+import logo from '../images/logo.png';
+import logoShare from '../images/logo_share.png';
 import { EXTERNAL_LINKS } from '../lib/external-links.ts';
-import { image } from '../lib/images.ts';
 
 interface Props {
   title: string | undefined;
@@ -51,7 +52,7 @@ const navbarLinks = [
 
     <meta property="og:title" content={fullTitle} />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content={new URL(image('logo_share.png').src, Astro.site)} />
+    <meta property="og:image" content={new URL(logoShare.src, Astro.site)} />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site)} />
     <meta property="og:description" content={description} />
@@ -80,7 +81,7 @@ const navbarLinks = [
       >
         <div class="uk-container uk-container-center">
           <a href="/">
-            <Image class="cofh-logo" src={image('logo.png')} alt="Team CoFH" loading="eager" />
+            <Image class="cofh-logo" src={logo} alt="Team CoFH" loading="eager" />
           </a>
         </div>
       </div>

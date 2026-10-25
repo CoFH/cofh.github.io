@@ -4,15 +4,10 @@ title: 'Augment: Flux Linkage Concentrator'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-charger-throughput.png',
-      alt: 'Flux linkage concentrator augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentFluxLinkageConcentrator }]} />
 
 A **flux linkage concentrator** is an [augment](../augments/) that greatly
 increases the charging speed of an [energetic infuser](../energetic-infuser/)
@@ -23,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-charger-throughput']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentFluxLinkageConcentrator]} noResult />
 
 
 Usage

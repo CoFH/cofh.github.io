@@ -4,10 +4,11 @@ title: Rich Biomass
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/biomass-rich.png', alt: 'Rich biomass' }]}
-/>
+<PageImage images={[{ item: tf.richBiomass }]} />
 
 **Rich biomass** is a material obtained by infusing [pulped
 biomass](../pulped-biomass/) with [seed
@@ -21,18 +22,11 @@ Obtaining
 ---------
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['biomass-rich']}
-  noResult
-/>
+<RecipeTable recipes={[teTransposerFill.richBiomass]} noResult />
 
 
 Usage
 -----
 
 ### Magma Crucible ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['biocrude-from-biomass-rich']}
-/>
+<RecipeTable recipes={[teCrucible.biocrude.richBiomass]} />

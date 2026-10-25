@@ -4,10 +4,13 @@ title: Tin Ore
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ore-tin.png', alt: 'Tin ore' }]}
-/>
+<PageImage images={[{ item: tf.tinOre }]} />
 
 
 **Tin ore** is a common [ore](https://minecraft.wiki/w/Ore) that yields
@@ -31,34 +34,26 @@ Usage
 -----
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ore-processing-tin']}
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.tin]} />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-tin',
-    'tf-1-12-petrotheum-ore-tin',
-    'tf-1-12-petrotheum-pyrotheum-ore-tin',
+    tfCrafting.pyrotheum.tinOre,
+    tfCrafting.petrotheum.tinOre,
+    tfCrafting.petrotheumPyrotheum.tinOre,
   ]}
 />
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['ore-processing-tin']}
-/>
+<RecipeTable recipes={[tePulverizer.oreProcessing.tin]} />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-tin',
-    'ore-processing-rich-slag-tin',
-    'ore-processing-cinnabar-tin',
+    teSmelter.oreProcessing.tin,
+    teSmelter.oreProcessingRichSlag.tin,
+    teSmelter.oreProcessingCinnabar.tin,
   ]}
 />
 

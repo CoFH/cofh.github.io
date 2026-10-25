@@ -4,10 +4,13 @@ title: Invar Nugget
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/nugget-invar.png', alt: 'Invar nugget' }]}
-/>
+<PageImage images={[{ item: tf.invarNugget }]} />
 
 
 **Invar nuggets** are raw materials. They are the nugget form of
@@ -18,11 +21,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-nugget-invar']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.invarNugget]} noResult />
 
 
 Usage
@@ -30,14 +29,13 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-ingot-invar-from-nuggets',
-    'te-1-12-satchel-reinforced',
-    'te-1-12-augment-machine-secondary-null',
-    'td-1-12-fluxduct-hardened-one',
-    'ti-1-12-fluxomagnet-reinforced',
-    'ti-1-12-hypoinfuser-reinforced',
-    'ti-1-12-alchemical-quiver-reinforced',
+    tfCrafting.invarIngot.nuggets,
+    teCrafting.satchel2,
+    teCrafting.augmentNullificationChamber,
+    tdCrafting.hardenedFluxductOne,
+    tiCrafting.fluxomagnet2,
+    tiCrafting.hypoinfuser2,
+    tiCrafting.alchemicalQuiver2,
   ]}
 />

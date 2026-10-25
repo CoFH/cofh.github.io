@@ -4,15 +4,17 @@ title: Hypoinfuser
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ti from '@/data/1.12/thermal-innovation/items.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-innovation/hypoinfuser-basic.png', alt: 'Hypoinfuser (Basic)' },
-    { file: 'thermal-innovation/hypoinfuser-hardened.png', alt: 'Hypoinfuser (Hardened)' },
-    { file: 'thermal-innovation/hypoinfuser-reinforced.png', alt: 'Hypoinfuser (Reinforced)' },
-    { file: 'thermal-innovation/hypoinfuser-signalum.png', alt: 'Hypoinfuser (Signalum)' },
-    { file: 'thermal-innovation/hypoinfuser-resonant.png', alt: 'Hypoinfuser (Resonant)' },
-    { file: 'thermal-innovation/hypoinfuser-creative.png', alt: 'Hypoinfuser (Creative)' },
+    { item: ti.hypoinfuser0 },
+    { item: ti.hypoinfuser1 },
+    { item: ti.hypoinfuser2 },
+    { item: ti.hypoinfuser3 },
+    { item: ti.hypoinfuser4 },
+    { item: ti.hypoinfuserCreative },
   ]}
 />
 
@@ -25,13 +27,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'ti-1-12-hypoinfuser-basic',
-    'ti-1-12-hypoinfuser-hardened',
-    'ti-1-12-hypoinfuser-reinforced',
-    'ti-1-12-hypoinfuser-signalum',
-    'ti-1-12-hypoinfuser-resonant',
+    tiCrafting.hypoinfuser0,
+    tiCrafting.hypoinfuser1,
+    tiCrafting.hypoinfuser2,
+    tiCrafting.hypoinfuser3,
+    tiCrafting.hypoinfuser4,
   ]}
 />
 

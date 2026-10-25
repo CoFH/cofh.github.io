@@ -4,10 +4,13 @@ title: Energized Clathrate
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/clathrate-glowstone.gif', alt: 'Energized clathrate' }]}
-/>
+<PageImage images={[{ item: tf.energizedClathrate }]} />
 
 
 **Energized clathrate** is a material obtained from [energized
@@ -24,30 +27,17 @@ energized clathrate when mined with a pickaxe. More clathrate is dropped if a
 [Fortune](https://minecraft.wiki/w/Fortune) enchanted pickaxe is used.
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['fluid-ore-processing-glowstone']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.fluidOreProcessing.energizedNetherrack]} noResult />
 
 
 Usage
 -----
 
 ### Magma Crucible ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['glowstone-from-clathrate']}
-/>
+<RecipeTable recipes={[teCrucible.energizedGlowstone.clathrate]} />
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-glowstone-dust-from-clathrate']}
-/>
+<RecipeTable recipes={[tfCrafting.glowstoneDust.clathrate]} />
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['glowstone-dust-from-clathrate']}
-/>
+<RecipeTable recipes={[teTransposerFill.glowstoneDust.clathrate]} />

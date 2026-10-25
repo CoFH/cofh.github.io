@@ -4,10 +4,11 @@ title: Steam
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/steam.gif', alt: 'Steam' }]}
-/>
+<PageImage images={[{ item: tfFluids.steam }]} />
 
 
 **Steam** is a fluid used by [steam dynamos](../../thermal-expansion/steam-dynamo/) with a
@@ -26,10 +27,7 @@ conversion](../../thermal-expansion/augment-boiler-conversion/) installed conver
 [Redstone Flux](/docs/redstone-flux/).
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-steam']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.steamBucket]} />
 
 
 Usage
@@ -38,10 +36,7 @@ Usage
 Steam cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-steam']}
-/>
+<RecipeTable recipes={[teTransposerFill.steamBucket]} />
 
 ### Steam Dynamo with Turbine Conversion
 A [steam dynamo](../../thermal-expansion/steam-dynamo/) with a [turbine

@@ -3,6 +3,7 @@ title: Vanilla recipes
 ---
 
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
 [Thermal Foundation](../) adds several recipes for items
 in vanilla Minecraft that normally cannot be crafted. These recipes can be
@@ -13,11 +14,10 @@ Crafting
 --------
 
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-saddle',
-    'tf-1-12-horse-armor-iron',
-    'tf-1-12-horse-armor-gold',
-    'tf-1-12-horse-armor-diamond',
+    tfCrafting.saddle,
+    tfCrafting.ironHorseArmor,
+    tfCrafting.goldenHorseArmor,
+    tfCrafting.diamondHorseArmor,
   ]}
 />

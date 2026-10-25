@@ -4,10 +4,12 @@ title: Naphtha
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teRefinery from '@/data/1.12/thermal-expansion/recipes/refinery.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/naphtha.gif', alt: 'Naphtha' }]}
-/>
+<PageImage images={[{ item: tfFluids.naphtha }]} />
 
 
 **Naphtha** is a fluid obtained by processing [crude oil](../crude-oil/) or
@@ -21,19 +23,10 @@ Obtaining
 ---------
 
 ### Fractionating Still
-<RecipeTable
-  type="1.12/thermal-expansion/refinery"
-  recipes={[
-    'naphtha-from-crude-oil',
-    'naphtha-from-coal',
-  ]}
-/>
+<RecipeTable recipes={[teRefinery.naphtha.crudeOil, teRefinery.naphtha.liquifactedCoal]} />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-naphtha']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.naphthaBucket]} />
 
 
 Usage
@@ -42,16 +35,10 @@ Usage
 Naphtha cannot be placed as a block.
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['bucket-naphtha']}
-/>
+<RecipeTable recipes={[teTransposerFill.naphthaBucket]} />
 
 ### Fractionating Still ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/refinery"
-  recipes={['refined-fuel']}
-/>
+<RecipeTable recipes={[teRefinery.refinedFuel]} />
 
 ### Compression Dynamo fuel
 When used as fuel in a [compression

@@ -4,10 +4,16 @@ title: Iridium Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-iridium.png', alt: 'Iridium ingot' }]}
-/>
+<PageImage images={[{ item: tf.iridiumIngot }]} />
 
 
 **Iridium ingots** are raw materials obtained from [iridium
@@ -21,38 +27,35 @@ Obtaining
 
 ### Smelting
 <RecipeTable
-  type="smelting"
   recipes={[
-    'tf-1-12-ore-processing-iridium',
-    'tf-1-12-ingot-iridium-from-dust',
+    tfSmelting.oreProcessing.iridium,
+    tfSmelting.iridiumIngotFromDust,
   ]}
   noResult
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-iridium',
-    'tf-1-12-petrotheum-pyrotheum-ore-iridium',
-    'tf-1-12-pyrotheum-dust-iridium',
-    'tf-1-12-ingot-iridium-from-nuggets',
-    'tf-1-12-ingot-iridium-from-block',
+    tfCrafting.pyrotheum.iridiumOre,
+    tfCrafting.petrotheumPyrotheum.iridiumOre,
+    tfCrafting.pyrotheum.pulverizedIridium,
+    tfCrafting.iridiumIngot.nuggets,
+    tfCrafting.iridiumIngot.block,
   ]}
   noResult
 />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-iridium',
-    'ore-processing-rich-slag-iridium',
-    'ore-processing-cinnabar-iridium',
-    'ore-processing-cinnabar-platinum',
-    'dust-smelting-iridium',
-    'recycling-gear-iridium',
-    'recycling-plate-iridium',
+    teSmelter.oreProcessing.iridium,
+    teSmelter.oreProcessingRichSlag.iridium,
+    teSmelter.oreProcessingCinnabar.iridium,
+    teSmelter.oreProcessingCinnabar.platinum,
+    teSmelter.dustSmelting.iridium,
+    teSmelter.recycling.iridiumGear,
+    teSmelter.recycling.iridiumPlate,
   ]}
   noResult
 />
@@ -63,38 +66,25 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-iridium',
-    'tf-1-12-nugget-iridium',
-    'tf-1-12-gear-iridium',
-    'tf-1-12-storage-block-iridium',
+    tfCrafting.petrotheum.iridiumIngot,
+    tfCrafting.iridiumNugget,
+    tfCrafting.iridiumGear,
+    tfCrafting.blockOfIridium,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-iridium']}
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedIridium]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-iridium']}
-/>
+<RecipeTable recipes={[teCompactor.iridiumPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-iridium']}
-/>
+<RecipeTable recipes={[teCompactorCoin.iridiumCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-iridium']}
-/>
+<RecipeTable recipes={[teCompactorGear.iridiumGear]} />
 
 
 Trivia

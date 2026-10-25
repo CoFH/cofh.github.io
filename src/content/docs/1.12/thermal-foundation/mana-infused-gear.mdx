@@ -4,10 +4,12 @@ title: Mana Infused Gear
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/gear-mithril.png', alt: 'Mana infused gear' }]}
-/>
+<PageImage images={[{ item: tf.manaInfusedGear }]} />
 
 
 **Mana infused gears** are crafting materials made of [mana infused
@@ -18,25 +20,14 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-gear-mithril']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.manaInfusedGear]} noResult />
 
 ### Compactor with Gearworking Die
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-mithril']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorGear.manaInfusedGear]} noResult />
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-gear-mithril']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.manaInfusedGear]} />

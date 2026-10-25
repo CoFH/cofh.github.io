@@ -4,10 +4,13 @@ title: Pulverized Aluminum
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-aluminum.png', alt: 'Pulverized aluminum' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedAluminum }]} />
 
 
 **Pulverized aluminum** is a raw material. It is the dust form of
@@ -19,20 +22,18 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'dust-aluminum',
-    'ore-processing-aluminum',
+    tePulverizer.pulverizedAluminum,
+    tePulverizer.oreProcessing.aluminum,
   ]}
   noResult
 />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-aluminum',
-    'tf-1-12-petrotheum-ore-aluminum',
+    tfCrafting.petrotheum.aluminumIngot,
+    tfCrafting.petrotheum.aluminumOre,
   ]}
   noResult
 />
@@ -48,25 +49,15 @@ Usage
 -----
 
 ### Smelting ingredient
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-aluminum-from-dust']}
-/>
+<RecipeTable recipes={[tfSmelting.aluminumIngotFromDust]} />
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-dust-aluminum',
-    'tf-1-12-hardened-glass-aluminum',
+    tfCrafting.pyrotheum.pulverizedAluminum,
+    tfCrafting.hardenedAluminumGlass,
   ]}
 />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-aluminum',
-    'hardened-glass-aluminum',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.aluminum, teSmelter.hardenedAluminumGlass]} />

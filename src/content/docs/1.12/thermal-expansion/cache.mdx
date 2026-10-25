@@ -4,15 +4,17 @@ title: Cache
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-expansion-5/cache-basic.png', alt: 'Cache (Basic)' },
-    { file: 'thermal-expansion-5/cache-hardened.png', alt: 'Cache (Hardened)' },
-    { file: 'thermal-expansion-5/cache-reinforced.png', alt: 'Cache (Reinforced)' },
-    { file: 'thermal-expansion-5/cache-signalum.png', alt: 'Cache (Signalum)' },
-    { file: 'thermal-expansion-5/cache-resonant.png', alt: 'Cache (Resonant)' },
-    { file: 'thermal-expansion-5/cache-creative.png', alt: 'Cache (Creative)' },
+    { item: te.cache0 },
+    { item: te.cache1 },
+    { item: te.cache2 },
+    { item: te.cache3 },
+    { item: te.cache4 },
+    { item: te.cacheCreative },
   ]}
 />
 
@@ -27,11 +29,7 @@ A placed cache can be instantly picked up by dismantling it with a
 the item.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-cache-basic']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.cache0]} noResult />
 
 ### Upgrading
 A cache is initially at the lowest [tier](#tiers) (basic). It can be upgraded to

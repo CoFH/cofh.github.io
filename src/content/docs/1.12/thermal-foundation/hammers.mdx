@@ -4,26 +4,31 @@ title: Hammers
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import vpt from '@/data/1.12/vanillaplus-tools/items.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-tools/hammer-iron.png', alt: 'Iron hammer' },
-    { file: 'vanillaplus-tools/hammer-gold.png', alt: 'Gold hammer' },
-    { file: 'vanillaplus-tools/hammer-diamond.png', alt: 'Diamond hammer' },
-    { file: 'thermal-foundation-2/hammer-copper.png', alt: 'Copper hammer' },
-    { file: 'thermal-foundation-2/hammer-tin.png', alt: 'Tin hammer' },
-    { file: 'thermal-foundation-2/hammer-silver.png', alt: 'Silver hammer' },
-    { file: 'thermal-foundation-2/hammer-lead.png', alt: 'Lead hammer' },
-    { file: 'thermal-foundation-2/hammer-aluminum.png', alt: 'Aluminum hammer' },
-    { file: 'thermal-foundation-2/hammer-nickel.png', alt: 'Nickel hammer' },
-    { file: 'thermal-foundation-2/hammer-platinum.png', alt: 'Platinum hammer' },
-    { file: 'thermal-foundation-2/hammer-steel.png', alt: 'Steel hammer' },
-    { file: 'thermal-foundation-2/hammer-electrum.png', alt: 'Electrum hammer' },
-    { file: 'thermal-foundation-2/hammer-invar.png', alt: 'Invar hammer' },
-    { file: 'thermal-foundation-2/hammer-bronze.png', alt: 'Bronze hammer' },
-    { file: 'thermal-foundation-2/hammer-constantan.png', alt: 'Constantan hammer' },
-    { file: 'vanillaplus-tools/hammer-stone.png', alt: 'Stone hammer' },
-    { file: 'vanillaplus-tools/hammer-wood.png', alt: 'Wooden hammer' },
+    { item: vpt.ironHammer },
+    { item: vpt.goldHammer },
+    { item: vpt.diamondHammer },
+    { item: tf.copperHammer },
+    { item: tf.tinHammer },
+    { item: tf.silverHammer },
+    { item: tf.leadHammer },
+    { item: tf.aluminumHammer },
+    { item: tf.nickelHammer },
+    { item: tf.platinumHammer },
+    { item: tf.steelHammer },
+    { item: tf.electrumHammer },
+    { item: tf.invarHammer },
+    { item: tf.bronzeHammer },
+    { item: tf.constantanHammer },
+    { item: vpt.stoneHammer },
+    { item: vpt.woodenHammer },
   ]}
 />
 
@@ -37,25 +42,24 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-tool-hammer-wood',
-    'tf-1-12-tool-hammer-stone',
-    'tf-1-12-tool-hammer-iron',
-    'tf-1-12-tool-hammer-gold',
-    'tf-1-12-tool-hammer-diamond',
-    'tf-1-12-tool-hammer-copper',
-    'tf-1-12-tool-hammer-tin',
-    'tf-1-12-tool-hammer-silver',
-    'tf-1-12-tool-hammer-lead',
-    'tf-1-12-tool-hammer-aluminum',
-    'tf-1-12-tool-hammer-nickel',
-    'tf-1-12-tool-hammer-platinum',
-    'tf-1-12-tool-hammer-steel',
-    'tf-1-12-tool-hammer-electrum',
-    'tf-1-12-tool-hammer-invar',
-    'tf-1-12-tool-hammer-bronze',
-    'tf-1-12-tool-hammer-constantan',
+    tfCrafting.woodenHammer,
+    tfCrafting.stoneHammer,
+    tfCrafting.ironHammer,
+    tfCrafting.goldHammer,
+    tfCrafting.diamondHammer,
+    tfCrafting.copperHammer,
+    tfCrafting.tinHammer,
+    tfCrafting.silverHammer,
+    tfCrafting.leadHammer,
+    tfCrafting.aluminumHammer,
+    tfCrafting.nickelHammer,
+    tfCrafting.platinumHammer,
+    tfCrafting.steelHammer,
+    tfCrafting.electrumHammer,
+    tfCrafting.invarHammer,
+    tfCrafting.bronzeHammer,
+    tfCrafting.constantanHammer,
   ]}
 />
 
@@ -255,30 +259,28 @@ Touch](https://minecraft.wiki/w/Silk_Touch) and
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-tool-hammer-iron',
-    'recycling-tool-hammer-gold',
-    'recycling-tool-hammer-copper',
-    'recycling-tool-hammer-tin',
-    'recycling-tool-hammer-silver',
-    'recycling-tool-hammer-lead',
-    'recycling-tool-hammer-aluminum',
-    'recycling-tool-hammer-nickel',
-    'recycling-tool-hammer-platinum',
-    'recycling-tool-hammer-steel',
-    'recycling-tool-hammer-electrum',
-    'recycling-tool-hammer-invar',
-    'recycling-tool-hammer-bronze',
-    'recycling-tool-hammer-constantan',
+    teSmelter.recycling.ironHammer,
+    teSmelter.recycling.goldHammer,
+    teSmelter.recycling.copperHammer,
+    teSmelter.recycling.tinHammer,
+    teSmelter.recycling.silverHammer,
+    teSmelter.recycling.leadHammer,
+    teSmelter.recycling.aluminumHammer,
+    teSmelter.recycling.nickelHammer,
+    teSmelter.recycling.platinumHammer,
+    teSmelter.recycling.steelHammer,
+    teSmelter.recycling.electrumHammer,
+    teSmelter.recycling.invarHammer,
+    teSmelter.recycling.bronzeHammer,
+    teSmelter.recycling.constantanHammer,
   ]}
 />
 
 ### Pulverizer ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'recycling-tool-hammer-wood',
-    'recycling-tool-hammer-diamond',
+    tePulverizer.recycling.woodenHammer,
+    tePulverizer.recycling.diamondHammer,
   ]}
 />

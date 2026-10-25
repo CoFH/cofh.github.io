@@ -4,10 +4,11 @@ title: Aluminum Plate
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/plate-aluminum.png', alt: 'Aluminum plate' }]}
-/>
+<PageImage images={[{ item: tf.aluminumPlate }]} />
 
 
 **Aluminum plates** are crafting materials made of
@@ -18,18 +19,11 @@ Obtaining
 ---------
 
 ### Compactor
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-aluminum']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactor.aluminumPlate]} noResult />
 
 
 Usage
 -----
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-plate-aluminum']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.aluminumPlate]} />

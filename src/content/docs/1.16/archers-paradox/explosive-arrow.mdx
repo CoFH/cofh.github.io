@@ -4,10 +4,10 @@ title: Explosive Arrow
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ap from '@/data/1.16/archers-paradox/items.ts';
+import apCrafting from '@/data/1.16/archers-paradox/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'archers-paradox-1-16/explosive-arrow.png', alt: 'Explosive Arrow' }]}
-/>
+<PageImage images={[{ item: ap.explosiveArrow }]} />
 
 > Bringing the kaboom
 
@@ -17,8 +17,4 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ap-1-16-explosive-arrow']}
-  noResult
-/>
+<RecipeTable recipes={[apCrafting.explosiveArrow]} noResult />

@@ -4,10 +4,11 @@ title: Cinnabar
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/cinnabar.png', alt: 'Cinnabar' }]}
-/>
+<PageImage images={[{ item: tf.cinnabar }]} />
 
 
 **Cinnabar** is a byproduct of processing certain ores in a
@@ -21,11 +22,10 @@ Obtaining
 
 ### Pulverizer
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'ore-processing-gold',
-    'ore-processing-redstone',
-    'fluid-ore-processing-redstone',
+    tePulverizer.oreProcessing.gold,
+    tePulverizer.oreProcessing.redstone,
+    tePulverizer.fluidOreProcessing.destabilizedRedstoneOre,
   ]}
   noResult
 />
@@ -41,19 +41,18 @@ Usage
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-cinnabar-iron',
-    'ore-processing-cinnabar-gold',
-    'ore-processing-cinnabar-copper',
-    'ore-processing-cinnabar-tin',
-    'ore-processing-cinnabar-silver',
-    'ore-processing-cinnabar-lead',
-    'ore-processing-cinnabar-aluminum',
-    'ore-processing-cinnabar-nickel',
-    'ore-processing-cinnabar-platinum',
-    'ore-processing-cinnabar-iridium',
-    'ore-processing-cinnabar-mithril',
+    teSmelter.oreProcessingCinnabar.iron,
+    teSmelter.oreProcessingCinnabar.gold,
+    teSmelter.oreProcessingCinnabar.copper,
+    teSmelter.oreProcessingCinnabar.tin,
+    teSmelter.oreProcessingCinnabar.silver,
+    teSmelter.oreProcessingCinnabar.lead,
+    teSmelter.oreProcessingCinnabar.aluminum,
+    teSmelter.oreProcessingCinnabar.nickel,
+    teSmelter.oreProcessingCinnabar.platinum,
+    teSmelter.oreProcessingCinnabar.iridium,
+    teSmelter.oreProcessingCinnabar.mithril,
   ]}
 />
 

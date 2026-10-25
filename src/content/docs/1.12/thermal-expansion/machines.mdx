@@ -4,25 +4,27 @@ title: Machines
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-expansion-5/redstone-furnace.png', alt: 'Redstone furnace' },
-    { file: 'thermal-expansion-5/pulverizer.png', alt: 'Pulverizer' },
-    { file: 'thermal-expansion-5/sawmill.png', alt: 'Sawmill' },
-    { file: 'thermal-expansion-5/induction-smelter.png', alt: 'Induction smelter' },
-    { file: 'thermal-expansion-5/phytogenic-insolator.png', alt: 'Phytogenic insolator' },
-    { file: 'thermal-expansion-5/compactor.png', alt: 'Compactor' },
-    { file: 'thermal-expansion-5/magma-crucible.png', alt: 'Magma crucible' },
-    { file: 'thermal-expansion-5/fractionating-still.png', alt: 'Fractionating still' },
-    { file: 'thermal-expansion-5/fluid-transposer.png', alt: 'Fluid transposer' },
-    { file: 'thermal-expansion-5/energetic-infuser.png', alt: 'Energetic infuser' },
-    { file: 'thermal-expansion-5/centrifugal-separator.png', alt: 'Centrifugal separator' },
-    { file: 'thermal-expansion-5/sequential-fabricator.png', alt: 'Sequential fabricator' },
-    { file: 'thermal-expansion-5/alchemical-imbuer.png', alt: 'Alchemical imbuer' },
-    { file: 'thermal-expansion-5/arcane-ensorcellator.png', alt: 'Arcane ensorcellator' },
-    { file: 'thermal-expansion-5/glacial-precipitator.png', alt: 'Glacial precipitator' },
-    { file: 'thermal-expansion-5/igneous-extruder.png', alt: 'Igneous extruder' },
+    { item: te.redstoneFurnace },
+    { item: te.pulverizer },
+    { item: te.sawmill },
+    { item: te.inductionSmelter },
+    { item: te.phytogenicInsolator },
+    { item: te.compactor },
+    { item: te.magmaCrucible },
+    { item: te.fractionatingStill },
+    { item: te.fluidTransposer },
+    { item: te.energeticInfuser },
+    { item: te.centrifugalSeparator },
+    { item: te.sequentialFabricator },
+    { item: te.alchemicalImbuer },
+    { item: te.arcaneEnsorcellator },
+    { item: te.glacialPrecipitator },
+    { item: te.igneousExtruder },
   ]}
 />
 
@@ -120,7 +122,4 @@ Machine Frame
 All machines are crafted from **machine frames**.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-frame-machine']}
-/>
+<RecipeTable recipes={[teCrafting.machineFrame]} />

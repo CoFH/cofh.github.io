@@ -4,15 +4,10 @@ title: Long Range Linking Viaduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-dynamics-2/viaduct-long-range-linking.png',
-      alt: 'Long range linking viaduct',
-    },
-  ]}
-/>
+<PageImage images={[{ item: td.longRangeLinkingViaduct }]} />
 
 A **long range linking viaduct** is a type of [viaduct](../viaduct/) used to
 connect regular viaducts to [long range viaducts](../long-range-viaduct/).
@@ -22,11 +17,7 @@ Obtaining
 ---------
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['td-1-12-viaduct-long-range-linking']}
-  noResult
-/>
+<RecipeTable recipes={[tdTransposerFill.longRangeLinkingViaduct]} noResult />
 
 
 Usage

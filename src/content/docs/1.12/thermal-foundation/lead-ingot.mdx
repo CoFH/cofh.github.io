@@ -4,10 +4,19 @@ title: Lead Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-lead.png', alt: 'Lead ingot' }]}
-/>
+<PageImage images={[{ item: tf.leadIngot }]} />
 
 
 **Lead ingots** are raw materials obtained from [lead ore](../lead-ore/) and
@@ -18,56 +27,47 @@ Obtaining
 ---------
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={[
-    'tf-1-12-ore-processing-lead',
-    'tf-1-12-ingot-lead-from-dust',
-  ]}
-  noResult
-/>
+<RecipeTable recipes={[tfSmelting.oreProcessing.lead, tfSmelting.leadIngotFromDust]} noResult />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-pyrotheum-ore-lead',
-    'tf-1-12-petrotheum-pyrotheum-ore-lead',
-    'tf-1-12-pyrotheum-dust-lead',
-    'tf-1-12-ingot-lead-from-nuggets',
-    'tf-1-12-ingot-lead-from-block',
+    tfCrafting.pyrotheum.leadOre,
+    tfCrafting.petrotheumPyrotheum.leadOre,
+    tfCrafting.pyrotheum.pulverizedLead,
+    tfCrafting.leadIngot.nuggets,
+    tfCrafting.leadIngot.block,
   ]}
   noResult
 />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ore-processing-sand-lead',
-    'ore-processing-rich-slag-lead',
-    'ore-processing-cinnabar-lead',
-    'ore-processing-cinnabar-silver',
-    'dust-smelting-lead',
-    'recycling-gear-lead',
-    'recycling-plate-lead',
-    'recycling-tool-pickaxe-lead',
-    'recycling-tool-shovel-lead',
-    'recycling-tool-axe-lead',
-    'recycling-tool-hoe-lead',
-    'recycling-tool-fishing-rod-lead',
-    'recycling-tool-shears-lead',
-    'recycling-tool-hammer-lead',
-    'recycling-tool-excavator-lead',
-    'recycling-tool-sickle-lead',
-    'recycling-weapon-sword-lead',
-    'recycling-weapon-bow-lead',
-    'recycling-weapon-shield-lead',
-    'recycling-armor-helmet-lead',
-    'recycling-armor-chestplate-lead',
-    'recycling-armor-leggings-lead',
-    'recycling-armor-boots-lead',
-    'recycling-horse-armor-lead',
+    teSmelter.oreProcessing.lead,
+    teSmelter.oreProcessingRichSlag.lead,
+    teSmelter.oreProcessingCinnabar.lead,
+    teSmelter.oreProcessingCinnabar.silver,
+    teSmelter.dustSmelting.lead,
+    teSmelter.recycling.leadGear,
+    teSmelter.recycling.leadPlate,
+    teSmelter.recycling.leadPickaxe,
+    teSmelter.recycling.leadShovel,
+    teSmelter.recycling.leadAxe,
+    teSmelter.recycling.leadHoe,
+    teSmelter.recycling.leadFishingRod,
+    teSmelter.recycling.leadShears,
+    teSmelter.recycling.leadHammer,
+    teSmelter.recycling.leadExcavator,
+    teSmelter.recycling.leadSickle,
+    teSmelter.recycling.leadSword,
+    teSmelter.recycling.leadReinforcedBow,
+    teSmelter.recycling.leadShield,
+    teSmelter.recycling.leadHelmet,
+    teSmelter.recycling.leadChestplate,
+    teSmelter.recycling.leadLeggings,
+    teSmelter.recycling.leadBoots,
+    teSmelter.recycling.leadHorseArmor,
   ]}
   noResult
 />
@@ -78,79 +78,66 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-petrotheum-ingot-lead',
-    'tf-1-12-nugget-lead',
-    'tf-1-12-gear-lead',
-    'tf-1-12-storage-block-lead',
-    'tf-1-12-multimeter',
-    'te-1-12-device-lexicon',
-    'te-1-12-device-factorizer',
-    'te-1-12-dynamo-reactant',
-    'te-1-12-energy-cell-basic',
-    'te-1-12-flux-capacitor-basic',
-    'te-1-12-augment-machine-charger-throughput',
-    'te-1-12-augment-dynamo-efficiency',
-    'td-1-12-fluxduct-basic',
-    'td-1-12-fluiduct-basic-opaque',
-    'td-1-12-fluiduct-basic-opaque-from-transparent',
-    'td-1-12-fluiduct-hardened-opaque',
-    'td-1-12-fluiduct-hardened-opaque-from-transparent',
-    'td-1-12-fluiduct-energy-opaque-from-transparent',
-    'td-1-12-fluiduct-super-opaque-from-transparent',
-    'td-1-12-itemduct-opaque',
-    'td-1-12-itemduct-opaque-from-transparent',
-    'td-1-12-itemduct-fast-opaque-from-transparent',
-    'td-1-12-itemduct-energy-opaque-from-transparent',
-    'td-1-12-itemduct-energy-fast-opaque-from-transparent',
-    'td-1-12-structuralduct',
-    'td-1-12-viaduct-long-range',
-    'td-1-12-redstone-relay',
-    'ti-1-12-fluxomagnet-basic',
-    'tf-1-12-tool-pickaxe-lead',
-    'tf-1-12-tool-shovel-lead',
-    'tf-1-12-tool-axe-lead',
-    'tf-1-12-tool-hoe-lead',
-    'tf-1-12-tool-fishing-rod-lead',
-    'tf-1-12-tool-shears-lead',
-    'tf-1-12-tool-hammer-lead',
-    'tf-1-12-tool-excavator-lead',
-    'tf-1-12-tool-sickle-lead',
-    'tf-1-12-weapon-sword-lead',
-    'tf-1-12-weapon-bow-lead',
-    'tf-1-12-weapon-shield-lead',
-    'tf-1-12-armor-helmet-lead',
-    'tf-1-12-armor-chestplate-lead',
-    'tf-1-12-armor-leggings-lead',
-    'tf-1-12-armor-boots-lead',
-    'tf-1-12-horse-armor-lead',
+    tfCrafting.petrotheum.leadIngot,
+    tfCrafting.leadNugget,
+    tfCrafting.leadGear,
+    tfCrafting.blockOfLead,
+    tfCrafting.multimeter,
+    teCrafting.lexicalTransmuter,
+    teCrafting.factorizer,
+    teCrafting.reactantDynamo,
+    teCrafting.energyCell0,
+    teCrafting.fluxCapacitor0,
+    teCrafting.augmentFluxLinkageConcentrator,
+    teCrafting.augmentFuelCatalyzer,
+    tdCrafting.leadstoneFluxduct,
+    tdCrafting.fluiductOpaque,
+    tdCrafting.fluiductOpaqueFromTransparent,
+    tdCrafting.hardenedFluiductOpaque,
+    tdCrafting.hardenedFluiductOpaqueFromTransparent,
+    tdCrafting.signalumPlatedFluiductOpaqueFromTransparent,
+    tdCrafting.superLaminarFluiductOpaqueFromTransparent,
+    tdCrafting.itemductOpaque,
+    tdCrafting.itemductOpaqueFromTransparent,
+    tdCrafting.impulseItemductOpaqueFromTransparent,
+    tdCrafting.signalumPlatedItemductOpaqueFromTransparent,
+    tdCrafting.signalumPlatedImpulseItemductOpaqueFromTransparent,
+    tdCrafting.structuralduct,
+    tdCrafting.longRangeViaduct,
+    tdCrafting.redstoneRelay,
+    tiCrafting.fluxomagnet0,
+    tfCrafting.leadPickaxe,
+    tfCrafting.leadShovel,
+    tfCrafting.leadAxe,
+    tfCrafting.leadHoe,
+    tfCrafting.leadFishingRod,
+    tfCrafting.leadShears,
+    tfCrafting.leadHammer,
+    tfCrafting.leadExcavator,
+    tfCrafting.leadSickle,
+    tfCrafting.leadSword,
+    tfCrafting.leadReinforcedBow,
+    tfCrafting.leadShield,
+    tfCrafting.leadHelmet,
+    tfCrafting.leadChestplate,
+    tfCrafting.leadLeggings,
+    tfCrafting.leadBoots,
+    tfCrafting.leadHorseArmor,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-lead']}
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedLead]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-lead']}
-/>
+<RecipeTable recipes={[teCompactor.leadPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-lead']}
-/>
+<RecipeTable recipes={[teCompactorCoin.leadCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-lead']}
-/>
+<RecipeTable recipes={[teCompactorGear.leadGear]} />
 
 
 Trivia

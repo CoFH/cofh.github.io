@@ -4,14 +4,16 @@ title: Excavators
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import vpt from '@/data/1.12/vanillaplus-tools/items.ts';
+import vptCrafting from '@/data/1.12/vanillaplus-tools/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-tools/excavator-iron.png', alt: 'Iron excavator' },
-    { file: 'vanillaplus-tools/excavator-gold.png', alt: 'Gold excavator' },
-    { file: 'vanillaplus-tools/excavator-diamond.png', alt: 'Diamond excavator' },
-    { file: 'vanillaplus-tools/excavator-wood.png', alt: 'Wooden excavator' },
-    { file: 'vanillaplus-tools/excavator-stone.png', alt: 'Stone excavator' },
+    { item: vpt.ironExcavator },
+    { item: vpt.goldExcavator },
+    { item: vpt.diamondExcavator },
+    { item: vpt.woodenExcavator },
+    { item: vpt.stoneExcavator },
   ]}
 />
 
@@ -24,13 +26,12 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'vpt-1-12-tool-excavator-wood',
-    'vpt-1-12-tool-excavator-stone',
-    'vpt-1-12-tool-excavator-iron',
-    'vpt-1-12-tool-excavator-gold',
-    'vpt-1-12-tool-excavator-diamond',
+    vptCrafting.woodenExcavator,
+    vptCrafting.stoneExcavator,
+    vptCrafting.ironExcavator,
+    vptCrafting.goldExcavator,
+    vptCrafting.diamondExcavator,
   ]}
 />
 

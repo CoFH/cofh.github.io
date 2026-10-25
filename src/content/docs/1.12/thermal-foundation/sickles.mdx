@@ -4,26 +4,31 @@ title: Sickles
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import vpt from '@/data/1.12/vanillaplus-tools/items.ts';
 
 <PageImage
   images={[
-    { file: 'vanillaplus-tools/sickle-iron.png', alt: 'Iron sickle' },
-    { file: 'vanillaplus-tools/sickle-gold.png', alt: 'Gold sickle' },
-    { file: 'vanillaplus-tools/sickle-diamond.png', alt: 'Diamond sickle' },
-    { file: 'thermal-foundation-2/sickle-copper.png', alt: 'Copper sickle' },
-    { file: 'thermal-foundation-2/sickle-tin.png', alt: 'Tin sickle' },
-    { file: 'thermal-foundation-2/sickle-silver.png', alt: 'Silver sickle' },
-    { file: 'thermal-foundation-2/sickle-lead.png', alt: 'Lead sickle' },
-    { file: 'thermal-foundation-2/sickle-aluminum.png', alt: 'Aluminum sickle' },
-    { file: 'thermal-foundation-2/sickle-nickel.png', alt: 'Nickel sickle' },
-    { file: 'thermal-foundation-2/sickle-platinum.png', alt: 'Platinum sickle' },
-    { file: 'thermal-foundation-2/sickle-steel.png', alt: 'Steel sickle' },
-    { file: 'thermal-foundation-2/sickle-electrum.png', alt: 'Electrum sickle' },
-    { file: 'thermal-foundation-2/sickle-invar.png', alt: 'Invar sickle' },
-    { file: 'thermal-foundation-2/sickle-bronze.png', alt: 'Bronze sickle' },
-    { file: 'thermal-foundation-2/sickle-constantan.png', alt: 'Constantan sickle' },
-    { file: 'vanillaplus-tools/sickle-stone.png', alt: 'Stone sickle' },
-    { file: 'vanillaplus-tools/sickle-wood.png', alt: 'Wooden sickle' },
+    { item: vpt.ironSickle },
+    { item: vpt.goldSickle },
+    { item: vpt.diamondSickle },
+    { item: tf.copperSickle },
+    { item: tf.tinSickle },
+    { item: tf.silverSickle },
+    { item: tf.leadSickle },
+    { item: tf.aluminumSickle },
+    { item: tf.nickelSickle },
+    { item: tf.platinumSickle },
+    { item: tf.steelSickle },
+    { item: tf.electrumSickle },
+    { item: tf.invarSickle },
+    { item: tf.bronzeSickle },
+    { item: tf.constantanSickle },
+    { item: vpt.stoneSickle },
+    { item: vpt.woodenSickle },
   ]}
 />
 
@@ -37,25 +42,24 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-tool-sickle-wood',
-    'tf-1-12-tool-sickle-stone',
-    'tf-1-12-tool-sickle-iron',
-    'tf-1-12-tool-sickle-gold',
-    'tf-1-12-tool-sickle-diamond',
-    'tf-1-12-tool-sickle-copper',
-    'tf-1-12-tool-sickle-tin',
-    'tf-1-12-tool-sickle-silver',
-    'tf-1-12-tool-sickle-lead',
-    'tf-1-12-tool-sickle-aluminum',
-    'tf-1-12-tool-sickle-nickel',
-    'tf-1-12-tool-sickle-platinum',
-    'tf-1-12-tool-sickle-steel',
-    'tf-1-12-tool-sickle-electrum',
-    'tf-1-12-tool-sickle-invar',
-    'tf-1-12-tool-sickle-bronze',
-    'tf-1-12-tool-sickle-constantan',
+    tfCrafting.woodenSickle,
+    tfCrafting.stoneSickle,
+    tfCrafting.ironSickle,
+    tfCrafting.goldSickle,
+    tfCrafting.diamondSickle,
+    tfCrafting.copperSickle,
+    tfCrafting.tinSickle,
+    tfCrafting.silverSickle,
+    tfCrafting.leadSickle,
+    tfCrafting.aluminumSickle,
+    tfCrafting.nickelSickle,
+    tfCrafting.platinumSickle,
+    tfCrafting.steelSickle,
+    tfCrafting.electrumSickle,
+    tfCrafting.invarSickle,
+    tfCrafting.bronzeSickle,
+    tfCrafting.constantanSickle,
   ]}
 />
 
@@ -227,30 +231,28 @@ Sickles can be enchanted with the following
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'recycling-tool-sickle-iron',
-    'recycling-tool-sickle-gold',
-    'recycling-tool-sickle-copper',
-    'recycling-tool-sickle-tin',
-    'recycling-tool-sickle-silver',
-    'recycling-tool-sickle-lead',
-    'recycling-tool-sickle-aluminum',
-    'recycling-tool-sickle-nickel',
-    'recycling-tool-sickle-platinum',
-    'recycling-tool-sickle-steel',
-    'recycling-tool-sickle-electrum',
-    'recycling-tool-sickle-invar',
-    'recycling-tool-sickle-bronze',
-    'recycling-tool-sickle-constantan',
+    teSmelter.recycling.ironSickle,
+    teSmelter.recycling.goldSickle,
+    teSmelter.recycling.copperSickle,
+    teSmelter.recycling.tinSickle,
+    teSmelter.recycling.silverSickle,
+    teSmelter.recycling.leadSickle,
+    teSmelter.recycling.aluminumSickle,
+    teSmelter.recycling.nickelSickle,
+    teSmelter.recycling.platinumSickle,
+    teSmelter.recycling.steelSickle,
+    teSmelter.recycling.electrumSickle,
+    teSmelter.recycling.invarSickle,
+    teSmelter.recycling.bronzeSickle,
+    teSmelter.recycling.constantanSickle,
   ]}
 />
 
 ### Pulverizer ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
   recipes={[
-    'recycling-tool-sickle-wood',
-    'recycling-tool-sickle-diamond',
+    tePulverizer.recycling.woodenSickle,
+    tePulverizer.recycling.diamondSickle,
   ]}
 />

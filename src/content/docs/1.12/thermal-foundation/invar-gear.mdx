@@ -4,10 +4,14 @@ title: Invar Gear
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/gear-invar.png', alt: 'Invar gear' }]}
-/>
+<PageImage images={[{ item: tf.invarGear }]} />
 
 
 **Invar gears** are crafting materials made of [invar](../invar-ingot/).
@@ -17,18 +21,10 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-gear-invar']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.invarGear]} noResult />
 
 ### Compactor with Gearworking Die
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-invar']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorGear.invarGear]} noResult />
 
 
 Usage
@@ -36,22 +32,18 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'te-1-12-machine-smelter',
-    'te-1-12-dynamo-magmatic',
-    'te-1-12-augment-machine-furnace-pyrolysis',
-    'te-1-12-augment-machine-compactor-coin',
-    'te-1-12-augment-machine-crucible-lava',
-    'te-1-12-augment-machine-centrifuge-mobs',
-    'te-1-12-augment-dynamo-compression-coolant',
-    'ti-1-12-fluxbore-hardened',
-    'ti-1-12-fluxsaw-hardened',
+    teCrafting.inductionSmelter,
+    teCrafting.magmaticDynamo,
+    teCrafting.augmentPyrolyticConversion,
+    teCrafting.augmentNumismaticPress,
+    teCrafting.augmentPyroconvectiveLoop,
+    teCrafting.augmentEnstabulationApparatus,
+    teCrafting.augmentClosedLoopCooling,
+    tiCrafting.fluxbore1,
+    tiCrafting.fluxsaw1,
   ]}
 />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-gear-invar']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.invarGear]} />

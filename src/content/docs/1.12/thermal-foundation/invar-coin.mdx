@@ -4,10 +4,10 @@ title: Invar Coin
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/coin-invar.png', alt: 'Invar coin' }]}
-/>
+<PageImage images={[{ item: tf.invarCoin }]} />
 
 
 **Invar coins** are materials made of [invar](../invar-ingot/) that can be
@@ -18,11 +18,7 @@ Obtaining
 ---------
 
 ### Compactor with Numismatic Press
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-invar']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorCoin.invarCoin]} noResult />
 
 
 Usage

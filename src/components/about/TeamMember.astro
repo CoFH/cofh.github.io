@@ -1,7 +1,6 @@
 ---
+import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
-
-import { image } from '../../lib/images.ts';
 
 const siteNames = {
   twitter: 'Twitter',
@@ -11,7 +10,7 @@ const siteNames = {
 
 interface Props {
   name: string;
-  avatar: string;
+  avatar: ImageMetadata;
   description: string;
   links: { icon: keyof typeof siteNames; url: string }[];
 }
@@ -20,9 +19,11 @@ interface Props {
 <tr>
   <td style="width: 64px; min-width: 64px">
     <Image
-      src={image(Astro.props.avatar)}
+      src={Astro.props.avatar}
       alt={Astro.props.name}
-      style="width: 64px; height: 64px"
+      width={64}
+      height={64}
+      densities={[1, 2]}
     />
   </td>
 

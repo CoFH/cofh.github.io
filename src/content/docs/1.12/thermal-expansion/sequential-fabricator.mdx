@@ -5,10 +5,10 @@ title: Sequential Fabricator
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/sequential-fabricator.png', alt: 'Sequential fabricator' }]}
-/>
+<PageImage images={[{ item: te.sequentialFabricator }]} />
 
 A **sequential fabricator** (also known as a **crafter**) is a
 [machine](../machines/) that
@@ -24,11 +24,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-crafter']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.sequentialFabricator]} noResult />
 
 ### Upgrading
 A sequential fabricator is initially at the lowest [tier](#tiers) (basic). It

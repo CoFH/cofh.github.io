@@ -4,10 +4,12 @@ title: Pulverized Charcoal
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-charcoal.png', alt: 'Pulverized charcoal' }]}
-/>
+<PageImage images={[{ item: tf.pulverizedCharcoal }]} />
 
 
 **Pulverized charcoal** is a raw material. It is the dust form of
@@ -18,11 +20,7 @@ Obtaining
 ---------
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-charcoal']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.pulverizedCharcoal]} noResult />
 
 
 Usage
@@ -30,20 +28,18 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-gunpowder-using-charcoal',
-    'tf-1-12-phyto-gro-using-charcoal',
-    'tf-1-12-phyto-gro-rich-using-charcoal',
+    tfCrafting.gunpowderUsingCharcoal,
+    tfCrafting.phytoGroUsingCharcoal,
+    tfCrafting.richPhytoGroUsingCharcoal,
   ]}
 />
 
 ### Induction Smelter ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'ingot-steel-from-dust-iron-and-dust-charcoal',
-    'ingot-steel-from-ingot-iron-and-dust-charcoal',
+    teSmelter.steelIngot.pulverizedIronAndPulverizedCharcoal,
+    teSmelter.steelIngot.ironIngotAndPulverizedCharcoal,
   ]}
 />
 

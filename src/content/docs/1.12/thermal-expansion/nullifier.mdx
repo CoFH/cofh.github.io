@@ -4,10 +4,10 @@ title: Nullifier
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/nullifier.png', alt: 'Nullifier' }]}
-/>
+<PageImage images={[{ item: te.nullifier }]} />
 
 > Sends all the things to `/dev/null`!
 
@@ -24,11 +24,7 @@ A placed nullifier can be instantly picked up by dismantling it with a
 also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-device-nullifier']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.nullifier]} noResult />
 
 
 Usage

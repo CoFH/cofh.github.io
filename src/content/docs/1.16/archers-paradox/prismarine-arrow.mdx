@@ -4,10 +4,10 @@ title: Prismarine Arrow
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ap from '@/data/1.16/archers-paradox/items.ts';
+import apCrafting from '@/data/1.16/archers-paradox/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'archers-paradox-1-16/prismarine-arrow.png', alt: 'Prismarine Arrow' }]}
-/>
+<PageImage images={[{ item: ap.prismarineArrow }]} />
 
 > Under the sea
 
@@ -17,11 +17,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ap-1-16-prismarine-arrow']}
-  noResult
-/>
+<RecipeTable recipes={[apCrafting.prismarineArrow]} noResult />
 
 ### Trading
 Can be bought from Apprentice level [Fletcher](https://minecraft.wiki/w/Trading#Fletcher) villagers.

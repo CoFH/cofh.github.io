@@ -4,10 +4,10 @@ title: Long Range Viaduct
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-dynamics-2/viaduct-long-range.png', alt: 'Long range viaduct' }]}
-/>
+<PageImage images={[{ item: td.longRangeViaduct }]} />
 
 A **long range viaduct** is a type of [viaduct](../viaduct/) that provides
 fast transport between two specific locations.
@@ -17,11 +17,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['td-1-12-viaduct-long-range']}
-  noResult
-/>
+<RecipeTable recipes={[tdCrafting.longRangeViaduct]} noResult />
 
 
 Usage

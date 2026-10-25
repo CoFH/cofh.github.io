@@ -4,10 +4,10 @@ title: Flux-Infused Axe
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-axe.png', alt: 'Flux-infused axe' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedAxe }]} />
 
 A **flux-infused axe** is a powerful [axe](https://minecraft.wiki/w/Axe)
 powered by [Redstone Flux](/docs/redstone-flux/).
@@ -17,11 +17,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-tool-axe']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedAxe]} noResult />
 
 
 Usage

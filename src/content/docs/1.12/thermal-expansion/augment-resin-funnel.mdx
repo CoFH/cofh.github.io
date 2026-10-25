@@ -4,12 +4,10 @@ title: 'Augment: Resin Funnel'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-expansion-5/augment-machine-sawmill-tapper.gif', alt: 'Resin funnel augment' },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentResinFunnel }]} />
 
 A **resin funnel** is an [augment](../augments/) that allows for a
 [sawmill](../sawmill/) to extract fluids from
@@ -22,11 +20,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-sawmill-tapper']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentResinFunnel]} noResult />
 
 
 Usage

@@ -4,14 +4,16 @@ title: Filters
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-dynamics-2/filter-basic.png', alt: 'Filter' },
-    { file: 'thermal-dynamics-2/filter-hardened.png', alt: 'Hardened filter' },
-    { file: 'thermal-dynamics-2/filter-reinforced.png', alt: 'Reinforced filter' },
-    { file: 'thermal-dynamics-2/filter-signalum.png', alt: 'Signalum filter' },
-    { file: 'thermal-dynamics-2/filter-resonant.png', alt: 'Resonant filter' },
+    { item: td.filter0 },
+    { item: td.filter1 },
+    { item: td.filter2 },
+    { item: td.filter3 },
+    { item: td.filter4 },
   ]}
 />
 
@@ -25,24 +27,22 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-filter-basic',
-    'td-1-12-filter-hardened',
-    'td-1-12-filter-reinforced',
-    'td-1-12-filter-signalum',
-    'td-1-12-filter-resonant',
+    tdCrafting.filter0,
+    tdCrafting.filter1,
+    tdCrafting.filter2,
+    tdCrafting.filter3,
+    tdCrafting.filter4,
   ]}
 />
 
 ### Upgrading
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-filter-hardened-upgrade',
-    'td-1-12-filter-reinforced-upgrade',
-    'td-1-12-filter-signalum-upgrade',
-    'td-1-12-filter-resonant-upgrade',
+    tdCrafting.filter1Upgrade,
+    tdCrafting.filter2Upgrade,
+    tdCrafting.filter3Upgrade,
+    tdCrafting.filter4Upgrade,
   ]}
 />
 

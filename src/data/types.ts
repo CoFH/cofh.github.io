@@ -1,60 +1,117 @@
-import type fluids from './recipe-fluids.ts';
-import type itemGroups from './recipe-item-groups.ts';
-import type items from './recipe-items.ts';
-import type sites from './recipe-sites.ts';
+import type { ImageMetadata } from 'astro';
 
-export type RecipeItemId = keyof typeof items;
-export type RecipeItemGroupId = keyof typeof itemGroups;
-export type RecipeFluidId = keyof typeof fluids;
-export type RecipeSiteId = keyof typeof sites;
-
-export type RecipeItem = {
+export interface ItemDefinition {
   name: string;
-  site: RecipeSiteId;
-  url?: string;
-} & (
-  | {
-      sprite: [number, number];
-      animated?: never;
-    }
-  | {
-      animated: true;
-      sprite?: never;
-    }
-);
+  url?: string | null;
+}
 
-export type RecipeItemGroup = {
+export interface Item {
   name: string;
-  items: RecipeItemId[];
+  href: string | undefined;
+  image: ImageMetadata;
+  iconImage: ImageMetadata | undefined;
+  slotImage: ImageMetadata | undefined;
+}
+
+export interface ItemGroupDefinition {
+  name: string;
+  url?: string | null;
   prefix?: string;
+  items: Item[];
+}
+
+export interface ItemGroup {
+  name: string;
+  href: string | undefined;
+  prefix: string | undefined;
+  items: Item[];
+}
+
+export interface FluidDefinition {
+  name: string;
+  url?: string | null;
+}
+
+export interface Fluid {
+  name: string;
+  href: string | undefined;
+  image: ImageMetadata;
+  iconImage: ImageMetadata | undefined;
+}
+
+export interface RecipeTypeDefinition {
+  name: string;
+  url: string;
+  withEnergy?: boolean;
+  allResultsBold?: boolean;
+  component: RecipeComponent;
+}
+
+export interface RecipeType {
+  name: string;
+  href: string;
+  withEnergy: boolean;
+  allResultsBold: boolean;
+  component: RecipeComponent;
+}
+
+export interface RecipeData {
+  inputs: RecipeSlotOrTank[];
+  outputs: RecipeSlotOrTank[];
+  shapeless?: boolean;
+}
+
+export interface RecipeDefinition extends RecipeData {
+  ingredients?: RecipeColumnItemData[];
+  results?: RecipeColumnItemData[];
+  amountSuffix?: boolean;
+  energy?: number;
+  note?: string;
+}
+
+export interface Recipe extends RecipeDefinition {
+  type: RecipeType;
+}
+
+export type RecipeSlotOrTank = RecipeSlotData | RecipeTankData | null;
+
+export type RecipeSlotData = {
+  amount?: number;
+  randomCycle?: boolean;
+  chance?: number;
 } & (
   | {
-      site: RecipeSiteId;
-      url: string;
+      item: Item | Item[];
+      itemGroup?: never;
     }
   | {
-      site?: never;
-      url?: never;
+      itemGroup: ItemGroup;
+      item?: never;
     }
 );
 
-export type RecipeEntry = { suffix?: string } & (
+export interface RecipeTankData {
+  fluid: Fluid;
+  amount: number;
+}
+
+export type RecipeColumnItemData = { suffix?: string } & (
   | {
-      item: RecipeItemId;
+      item: Item;
       itemGroup?: never;
       fluid?: never;
       fluidAmount?: never;
       html?: never;
     }
   | {
-      itemGroup: RecipeItemGroupId;
+      itemGroup: ItemGroup;
       item?: never;
       fluid?: never;
       fluidAmount?: never;
       html?: never;
     }
   | {
-      fluid: RecipeFluidId;
+      fluid: Fluid;
       fluidAmount: number;
       item?: never;
       itemGroup?: never;
@@ -69,86 +126,14 @@ export type RecipeEntry = { suffix?: string } & (
     }
 );
 
-export type RecipeSlotData = {
-  amount?: number;
-  randomCycle?: boolean;
-} & (
-  | {
-      item: RecipeItemId[];
-      itemGroup?: never;
-    }
-  | {
-      itemGroup: RecipeItemGroupId;
-      item?: never;
-    }
-);
+export type RecipeComponent = (props: { recipe: Recipe }) => unknown;
 
-export interface RecipeTankData {
-  fluid: RecipeFluidId;
-  amount: number;
-}
-
-export interface CraftingRecipeData {
-  rows: (RecipeSlotData | null)[][];
-  result: RecipeSlotData;
-  shapeless?: boolean;
-}
-
-export type MachineRecipeData = Record<string, RecipeSlotData | RecipeTankData | number>;
-
-export interface RecipeType<
-  Data extends CraftingRecipeData | MachineRecipeData = MachineRecipeData,
-> {
-  name: string;
-  site: RecipeSiteId;
-  url: string;
-  withEnergy?: boolean;
-  allResultsBold?: boolean;
-  recipes: Record<
-    string,
-    {
-      results: RecipeEntry[];
-      ingredients: RecipeEntry[];
-      energy?: number;
-      note?: string;
-      data: Data;
-    }
-  >;
-}
-
-export type MachineRecipeElement =
-  | {
-      slot: string;
-      top: number;
-      left: number;
-    }
-  | {
-      tank: string;
-      top: number;
-      left: number;
-      height?: number;
-      size: number;
-      gauge: number;
-    }
-  | {
-      label: string;
-      top: number;
-      right: number;
-      align: 'left' | 'center' | 'right';
-    };
-
-export interface MachineRecipeLayout {
-  background: string;
-  width: number;
-  height: number;
-  elements: MachineRecipeElement[];
-}
-
-export interface DocNavItem {
+export interface DocNav {
   title: string;
-  url?: string;
-  icon?: [number, number];
-  subitems?: DocNavItem[];
+  sections: {
+    title?: string;
+    groups: DocNavGroup[];
+  }[];
 }
 
 export interface DocNavGroup {
@@ -158,18 +143,15 @@ export interface DocNavGroup {
   groups?: DocNavGroup[];
 }
 
-export interface DocNav {
-  title: string;
-  url: string;
-  sections: {
-    title?: string;
-    groups: DocNavGroup[];
-  }[];
+export interface DocNavItem {
+  title?: string;
+  item?: Item | Fluid;
+  url?: string;
+  subitems?: DocNavItem[];
 }
 
 export interface DownloadItem {
-  id: string;
-  logo?: string;
+  slug: string;
   title: string;
   note: string;
   links: {
@@ -183,8 +165,8 @@ export interface DownloadItem {
 
 export interface Augment {
   name: string;
+  item: Item;
   url: string;
   installedIn: string;
   description: string;
-  animated?: boolean;
 }

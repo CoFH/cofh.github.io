@@ -4,10 +4,11 @@ title: Fluxed Electrum Gear
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/gear-fluxed-electrum.gif', alt: 'Fluxed electrum gear' }]}
-/>
+<PageImage images={[{ item: ra.fluxedElectrumGear }]} />
 
 **Fluxed electrum gears** are crafting materials made of [fluxed
 electrum](../fluxed-electrum-ingot/).
@@ -17,25 +18,14 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-gear-fluxed-electrum']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxedElectrumGear]} noResult />
 
 ### Compactor with Gearworking Die
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-fluxed-electrum']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactorGear.fluxedElectrumGear]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-weapon-battlewrench']}
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedBattlewrench]} />

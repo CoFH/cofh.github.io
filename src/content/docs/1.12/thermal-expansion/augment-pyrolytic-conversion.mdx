@@ -4,15 +4,11 @@ title: 'Augment: Pyrolytic Conversion'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teRedstoneFurnacePyrolysis from '@/data/1.12/thermal-expansion/recipes/redstone-furnace-pyrolysis.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-furnace-pyrolysis.png',
-      alt: 'Pyrolytic conversion augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentPyrolyticConversion }]} />
 
 A **pyrolytic conversion** [augment](../augments/) allows for a [redstone
 furnace](../redstone-furnace/) to process various plant-based materials into
@@ -25,11 +21,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-furnace-pyrolysis']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentPyrolyticConversion]} noResult />
 
 
 Usage
@@ -63,14 +55,13 @@ Recipes
 -------
 
 <RecipeTable
-  type="1.12/thermal-expansion/redstone-furnace-pyrolysis"
   recipes={[
-    'coal-coke',
-    'storage-block-coal-coke',
-    'charcoal-from-wood-log',
-    'charcoal-from-hay-bale',
-    'charcoal-from-cactus',
-    'charcoal-from-sugar-canes',
-    'charcoal-from-sawdust',
+    teRedstoneFurnacePyrolysis.coalCoke,
+    teRedstoneFurnacePyrolysis.blockOfCoalCoke,
+    teRedstoneFurnacePyrolysis.charcoal.wood,
+    teRedstoneFurnacePyrolysis.charcoal.hayBale,
+    teRedstoneFurnacePyrolysis.charcoal.cactus,
+    teRedstoneFurnacePyrolysis.charcoal.sugarCanes,
+    teRedstoneFurnacePyrolysis.charcoal.sawdust,
   ]}
 />

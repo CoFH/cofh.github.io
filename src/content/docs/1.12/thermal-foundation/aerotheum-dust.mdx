@@ -4,10 +4,14 @@ title: Aerotheum Dust
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tiCrafting from '@/data/1.12/thermal-innovation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-aerotheum.gif', alt: 'Aerotheum dust' }]}
-/>
+<PageImage images={[{ item: tf.aerotheumDust }]} />
 
 
 **Aerotheum dust** is the air elemental dust. It is most commonly used to make
@@ -18,38 +22,27 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-dust-aerotheum']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.aerotheumDust]} noResult />
 
 
 Usage
 -----
 
 ### Magma Crucible ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['aerotheum']}
-/>
+<RecipeTable recipes={[teCrucible.zephyreanAerotheum]} />
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'te-1-12-augment-machine-extruder-sedimentary',
-    'te-1-12-augment-dynamo-compression-biofuel',
-    'te-1-12-augment-dynamo-reactant-elemental',
-    'ti-1-12-fluxsaw-signalum',
+    teCrafting.augmentClasticDeposition,
+    teCrafting.augmentAgitativeManifold,
+    teCrafting.augmentElementalCatalyzer,
+    tiCrafting.fluxsaw3,
   ]}
 />
 
 ### Centrifugal Separator ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-aerotheum']}
-/>
+<RecipeTable recipes={[teCentrifuge.aerotheumDust]} />
 
 ### Reactant Dynamo fuel
 When used together with 100 mB of [tectonic petrotheum](../tectonic-petrotheum/)

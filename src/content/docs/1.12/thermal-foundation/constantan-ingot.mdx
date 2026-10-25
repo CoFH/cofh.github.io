@@ -4,10 +4,17 @@ title: Constantan Ingot
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactorCoin from '@/data/1.12/thermal-expansion/recipes/compactor-coin.ts';
+import teCompactorGear from '@/data/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
+import tfSmelting from '@/data/1.12/thermal-foundation/recipes/smelting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/ingot-constantan.png', alt: 'Constantan ingot' }]}
-/>
+<PageImage images={[{ item: tf.constantanIngot }]} />
 
 
 **Constantan ingots** are raw materials made from [copper](../copper-ingot/)
@@ -23,50 +30,44 @@ blend](../constantan-blend/) or by using an [induction
 smelter](../../thermal-expansion/induction-smelter/).
 
 ### Smelting
-<RecipeTable
-  type="smelting"
-  recipes={['tf-1-12-ingot-constantan-from-dust']}
-  noResult
-/>
+<RecipeTable recipes={[tfSmelting.constantanIngotFromDust]} noResult />
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-ingot-constantan-from-nuggets',
-    'tf-1-12-ingot-constantan-from-block',
+    tfCrafting.constantanIngot.nuggets,
+    tfCrafting.constantanIngot.block,
   ]}
   noResult
 />
 
 ### Induction Smelter
 <RecipeTable
-  type="1.12/thermal-expansion/smelter"
   recipes={[
-    'dust-smelting-constantan',
-    'ingot-constantan-from-dust-copper-and-dust-nickel',
-    'ingot-constantan-from-dust-copper-and-ingot-nickel',
-    'ingot-constantan-from-ingot-copper-and-dust-nickel',
-    'ingot-constantan-from-ingot-copper-and-ingot-nickel',
-    'recycling-gear-constantan',
-    'recycling-plate-constantan',
-    'recycling-tool-pickaxe-constantan',
-    'recycling-tool-shovel-constantan',
-    'recycling-tool-axe-constantan',
-    'recycling-tool-hoe-constantan',
-    'recycling-tool-fishing-rod-constantan',
-    'recycling-tool-shears-constantan',
-    'recycling-tool-hammer-constantan',
-    'recycling-tool-excavator-constantan',
-    'recycling-tool-sickle-constantan',
-    'recycling-weapon-sword-constantan',
-    'recycling-weapon-bow-constantan',
-    'recycling-weapon-shield-constantan',
-    'recycling-armor-helmet-constantan',
-    'recycling-armor-chestplate-constantan',
-    'recycling-armor-leggings-constantan',
-    'recycling-armor-boots-constantan',
-    'recycling-horse-armor-constantan',
+    teSmelter.dustSmelting.constantan,
+    teSmelter.constantanIngot.pulverizedCopperAndPulverizedNickel,
+    teSmelter.constantanIngot.pulverizedCopperAndNickelIngot,
+    teSmelter.constantanIngot.copperIngotAndPulverizedNickel,
+    teSmelter.constantanIngot.copperIngotAndNickelIngot,
+    teSmelter.recycling.constantanGear,
+    teSmelter.recycling.constantanPlate,
+    teSmelter.recycling.constantanPickaxe,
+    teSmelter.recycling.constantanShovel,
+    teSmelter.recycling.constantanAxe,
+    teSmelter.recycling.constantanHoe,
+    teSmelter.recycling.constantanFishingRod,
+    teSmelter.recycling.constantanShears,
+    teSmelter.recycling.constantanHammer,
+    teSmelter.recycling.constantanExcavator,
+    teSmelter.recycling.constantanSickle,
+    teSmelter.recycling.constantanSword,
+    teSmelter.recycling.constantanReinforcedBow,
+    teSmelter.recycling.constantanShield,
+    teSmelter.recycling.constantanHelmet,
+    teSmelter.recycling.constantanChestplate,
+    teSmelter.recycling.constantanLeggings,
+    teSmelter.recycling.constantanBoots,
+    teSmelter.recycling.constantanHorseArmor,
   ]}
   noResult
 />
@@ -77,57 +78,44 @@ Usage
 
 ### Crafting ingredient
 <RecipeTable
-  type="crafting"
   recipes={[
-    'tf-1-12-nugget-constantan',
-    'tf-1-12-gear-constantan',
-    'tf-1-12-storage-block-constantan',
-    'te-1-12-machine-centrifuge',
-    'te-1-12-device-mob-catcher',
-    'te-1-12-dynamo-numismatic',
-    'tf-1-12-tool-pickaxe-constantan',
-    'tf-1-12-tool-shovel-constantan',
-    'tf-1-12-tool-axe-constantan',
-    'tf-1-12-tool-hoe-constantan',
-    'tf-1-12-tool-fishing-rod-constantan',
-    'tf-1-12-tool-shears-constantan',
-    'tf-1-12-tool-hammer-constantan',
-    'tf-1-12-tool-excavator-constantan',
-    'tf-1-12-tool-sickle-constantan',
-    'tf-1-12-weapon-sword-constantan',
-    'tf-1-12-weapon-bow-constantan',
-    'tf-1-12-weapon-shield-constantan',
-    'tf-1-12-armor-helmet-constantan',
-    'tf-1-12-armor-chestplate-constantan',
-    'tf-1-12-armor-leggings-constantan',
-    'tf-1-12-armor-boots-constantan',
-    'tf-1-12-horse-armor-constantan',
+    tfCrafting.constantanNugget,
+    tfCrafting.constantanGear,
+    tfCrafting.blockOfConstantan,
+    teCrafting.centrifugalSeparator,
+    teCrafting.creatureEncaptulator,
+    teCrafting.numismaticDynamo,
+    tfCrafting.constantanPickaxe,
+    tfCrafting.constantanShovel,
+    tfCrafting.constantanAxe,
+    tfCrafting.constantanHoe,
+    tfCrafting.constantanFishingRod,
+    tfCrafting.constantanShears,
+    tfCrafting.constantanHammer,
+    tfCrafting.constantanExcavator,
+    tfCrafting.constantanSickle,
+    tfCrafting.constantanSword,
+    tfCrafting.constantanReinforcedBow,
+    tfCrafting.constantanShield,
+    tfCrafting.constantanHelmet,
+    tfCrafting.constantanChestplate,
+    tfCrafting.constantanLeggings,
+    tfCrafting.constantanBoots,
+    tfCrafting.constantanHorseArmor,
   ]}
 />
 
 ### Pulverizer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-constantan']}
-/>
+<RecipeTable recipes={[tePulverizer.constantanBlend]} />
 
 ### Compactor ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-constantan']}
-/>
+<RecipeTable recipes={[teCompactor.constantanPlate]} />
 
 ### Compactor with Numismatic Press ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-coin"
-  recipes={['coin-constantan']}
-/>
+<RecipeTable recipes={[teCompactorCoin.constantanCoin]} />
 
 ### Compactor with Gearworking Die ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/compactor-gear"
-  recipes={['gear-constantan']}
-/>
+<RecipeTable recipes={[teCompactorGear.constantanGear]} />
 
 
 Trivia

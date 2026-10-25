@@ -4,10 +4,13 @@ title: Pulped Biomass
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teSawmill from '@/data/1.12/thermal-expansion/recipes/sawmill.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/biomass.png', alt: 'Pulped biomass' }]}
-/>
+<PageImage images={[{ item: tf.pulpedBiomass }]} />
 
 **Pulped biomass** is a material obtained by processing various plants in
 [sawmills](../../thermal-expansion/sawmill/). It can be processed into
@@ -20,19 +23,18 @@ Obtaining
 
 ### Sawmill
 <RecipeTable
-  type="1.12/thermal-expansion/sawmill"
   recipes={[
-    'biomass-from-sapling',
-    'biomass-from-wheat',
-    'biomass-from-potato',
-    'biomass-from-carrot',
-    'biomass-from-beetroot',
-    'biomass-from-cactus',
-    'biomass-from-sugar-canes',
-    'biomass-from-pumpkin',
-    'biomass-from-melon',
-    'biomass-from-lily-pad',
-    'biomass-from-vines',
+    teSawmill.pulpedBiomass.sapling,
+    teSawmill.pulpedBiomass.wheat,
+    teSawmill.pulpedBiomass.potato,
+    teSawmill.pulpedBiomass.carrot,
+    teSawmill.pulpedBiomass.beetroot,
+    teSawmill.pulpedBiomass.cactus,
+    teSawmill.pulpedBiomass.sugarCanes,
+    teSawmill.pulpedBiomass.pumpkin,
+    teSawmill.pulpedBiomass.melon,
+    teSawmill.pulpedBiomass.lilyPad,
+    teSawmill.pulpedBiomass.vines,
   ]}
   noResult
 />
@@ -42,22 +44,10 @@ Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-dirt-using-biomass-and-slag',
-    'tf-1-12-bioblend',
-  ]}
-/>
+<RecipeTable recipes={[tfCrafting.dirtUsingPulpedBiomassAndSlag, tfCrafting.pulpedBioblend]} />
 
 ### Magma Crucible ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/crucible"
-  recipes={['biocrude-from-biomass']}
-/>
+<RecipeTable recipes={[teCrucible.biocrude.pulpedBiomass]} />
 
 ### Fluid Transposer ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
-  recipes={['biomass-rich']}
-/>
+<RecipeTable recipes={[teTransposerFill.richBiomass]} />

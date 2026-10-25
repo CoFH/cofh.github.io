@@ -4,15 +4,11 @@ title: 'Augment: Clastic Deposition'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teExtruderSedimentary from '@/data/1.12/thermal-expansion/recipes/extruder-sedimentary.ts';
 
-<PageImage
-  images={[
-    {
-      file: 'thermal-expansion-5/augment-machine-extruder-sedimentary.gif',
-      alt: 'Clastic deposition augment',
-    },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentClasticDeposition }]} />
 
 A **clastic deposition** [augment](../augments/) allows for an [igneous
 extruder](../igneous-extruder/) to produce sedimentary rock, such as
@@ -24,11 +20,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-extruder-sedimentary']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentClasticDeposition]} noResult />
 
 
 Usage
@@ -49,12 +41,11 @@ Recipes
 -------
 
 <RecipeTable
-  type="1.12/thermal-expansion/extruder-sedimentary"
   recipes={[
-    'gravel',
-    'sand',
-    'sand-red',
-    'sandstone',
-    'sandstone-red',
+    teExtruderSedimentary.gravel,
+    teExtruderSedimentary.sand,
+    teExtruderSedimentary.redSand,
+    teExtruderSedimentary.sandstone,
+    teExtruderSedimentary.redSandstone,
   ]}
 />

@@ -5,10 +5,11 @@ title: Sawmill
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
 import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSawmill from '@/data/1.12/thermal-expansion/recipes/sawmill.ts';
 
-<PageImage
-  images={[{ file: 'thermal-expansion-5/sawmill.png', alt: 'Sawmill' }]}
-/>
+<PageImage images={[{ item: te.sawmill }]} />
 
 > Better watch your hands...
 
@@ -30,11 +31,7 @@ also be mined using a [pickaxe](https://minecraft.wiki/w/Pickaxe), though
 this can be much slower.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-machine-sawmill']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.sawmill]} noResult />
 
 ### Upgrading
 A sawmill is initially at the lowest [tier](#tiers) (basic). It can be upgraded
@@ -194,29 +191,28 @@ Recipes
 -------
 
 <RecipeTable
-  type="1.12/thermal-expansion/sawmill"
   recipes={[
-    'wood-processing',
-    'biomass-from-sapling',
-    'biomass-from-wheat',
-    'biomass-from-potato',
-    'biomass-from-carrot',
-    'biomass-from-beetroot',
-    'biomass-from-cactus',
-    'biomass-from-sugar-canes',
-    'biomass-from-pumpkin',
-    'biomass-from-melon',
-    'biomass-from-lily-pad',
-    'biomass-from-vines',
-    'recycling-wood-stairs',
-    'recycling-fence',
-    'recycling-fence-gate',
-    'recycling-boat',
-    'recycling-door',
-    'recycling-saddle',
-    'recycling-armor-helmet-leather',
-    'recycling-armor-chestplate-leather',
-    'recycling-armor-leggings-leather',
-    'recycling-armor-boots-leather',
+    teSawmill.woodProcessing,
+    teSawmill.pulpedBiomass.sapling,
+    teSawmill.pulpedBiomass.wheat,
+    teSawmill.pulpedBiomass.potato,
+    teSawmill.pulpedBiomass.carrot,
+    teSawmill.pulpedBiomass.beetroot,
+    teSawmill.pulpedBiomass.cactus,
+    teSawmill.pulpedBiomass.sugarCanes,
+    teSawmill.pulpedBiomass.pumpkin,
+    teSawmill.pulpedBiomass.melon,
+    teSawmill.pulpedBiomass.lilyPad,
+    teSawmill.pulpedBiomass.vines,
+    teSawmill.recycling.woodStairs,
+    teSawmill.recycling.fence,
+    teSawmill.recycling.fenceGate,
+    teSawmill.recycling.boat,
+    teSawmill.recycling.door,
+    teSawmill.recycling.saddle,
+    teSawmill.recycling.leatherCap,
+    teSawmill.recycling.leatherTunic,
+    teSawmill.recycling.leatherPants,
+    teSawmill.recycling.leatherBoots,
   ]}
 />

@@ -4,10 +4,10 @@ title: Block of Lead
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/storage-block-lead.png', alt: 'Block of lead' }]}
-/>
+<PageImage images={[{ item: tf.blockOfLead }]} />
 
 **Blocks of lead** are blocks made from [lead ingots](../lead-ingot/).
 
@@ -19,11 +19,7 @@ Blocks of lead can only be mined with an [iron
 pickaxe](https://minecraft.wiki/w/Pickaxe) or better.
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-storage-block-lead']}
-  noResult
-/>
+<RecipeTable recipes={[tfCrafting.blockOfLead]} noResult />
 
 
 Usage
@@ -41,10 +37,7 @@ Blocks of lead can be used to build
 [beacon](https://minecraft.wiki/w/Beacon) pyramids.
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-ingot-lead-from-block']}
-/>
+<RecipeTable recipes={[tfCrafting.leadIngot.block]} />
 
 ### Primal Mana
 When [primal mana](../primal-mana/) touches a block of lead, the block is

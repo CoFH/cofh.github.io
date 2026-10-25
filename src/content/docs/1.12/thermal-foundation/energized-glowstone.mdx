@@ -4,10 +4,15 @@ title: Energized Glowstone
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
+import teCentrifuge from '@/data/1.12/thermal-expansion/recipes/centrifuge.ts';
+import teCrucible from '@/data/1.12/thermal-expansion/recipes/crucible.ts';
+import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import tfFluids from '@/data/1.12/thermal-foundation/fluids.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/energized-glowstone.gif', alt: 'Energized glowstone' }]}
-/>
+<PageImage images={[{ item: tfFluids.energizedGlowstone }]} />
 
 > So that's how those formations occur! It all makes nonsense now!
 
@@ -23,26 +28,19 @@ Obtaining
 
 ### Magma Crucible
 <RecipeTable
-  type="1.12/thermal-expansion/crucible"
   recipes={[
-    'glowstone',
-    'glowstone-from-block',
-    'glowstone-from-clathrate',
-    'fluid-ore-processing-glowstone',
+    teCrucible.energizedGlowstone.glowstoneDust,
+    teCrucible.energizedGlowstone.block,
+    teCrucible.energizedGlowstone.clathrate,
+    teCrucible.fluidOreProcessing.energizedNetherrack,
   ]}
 />
 
 ### Fluid Transposer
-<RecipeTable
-  type="1.12/thermal-expansion/transposer-empty"
-  recipes={['bucket-glowstone']}
-/>
+<RecipeTable recipes={[teTransposerEmpty.energizedGlowstoneBucket]} />
 
 ### Centrifugal Separator
-<RecipeTable
-  type="1.12/thermal-expansion/centrifuge"
-  recipes={['dust-lumium']}
-/>
+<RecipeTable recipes={[teCentrifuge.lumiumBlend]} />
 
 ### Natural generation
 Deposits of [energized netherrack](../energized-netherrack/) may contain some
@@ -85,22 +83,15 @@ Any item that contains at least one
 [bucket](https://minecraft.wiki/w/Bucket) worth of energized glowstone
 may be used in these recipes.
 
-<RecipeTable
-  type="crafting"
-  recipes={[
-    'tf-1-12-glowstone-dust-from-fluid',
-    'tf-1-12-dust-lumium',
-  ]}
-/>
+<RecipeTable recipes={[tfCrafting.glowstoneDust.fluid, tfCrafting.lumiumBlend]} />
 
 ### Fluid Transposer ingredient
 <RecipeTable
-  type="1.12/thermal-expansion/transposer-fill"
   recipes={[
-    'bucket-glowstone',
-    'glowstone-dust-from-fluid',
-    'td-1-12-itemduct-fast',
-    'td-1-12-itemduct-energy-fast',
+    teTransposerFill.energizedGlowstoneBucket,
+    teTransposerFill.glowstoneDust.fluid,
+    tdTransposerFill.impulseItemduct,
+    tdTransposerFill.signalumPlatedImpulseItemduct,
   ]}
 />
 

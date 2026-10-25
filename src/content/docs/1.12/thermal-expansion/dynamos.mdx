@@ -3,15 +3,16 @@ title: Dynamos
 ---
 
 import PageImage from '@/components/docs/PageImage.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-expansion-5/dynamo-steam-rf.png', alt: 'Steam dynamo' },
-    { file: 'thermal-expansion-5/dynamo-magmatic-rf.png', alt: 'Magmatic dynamo' },
-    { file: 'thermal-expansion-5/dynamo-compression-rf.png', alt: 'Compression dynamo' },
-    { file: 'thermal-expansion-5/dynamo-reactant-rf.png', alt: 'Reactant dynamo' },
-    { file: 'thermal-expansion-5/dynamo-enervation-rf.png', alt: 'Enervation dynamo' },
-    { file: 'thermal-expansion-5/dynamo-numismatic-rf.png', alt: 'Numismatic dynamo' },
+    { item: te.steamDynamo },
+    { item: te.magmaticDynamo },
+    { item: te.compressionDynamo },
+    { item: te.reactantDynamo },
+    { item: te.enervationDynamo },
+    { item: te.numismaticDynamo },
   ]}
 />
 

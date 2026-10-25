@@ -4,14 +4,16 @@ title: Servos
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import td from '@/data/1.12/thermal-dynamics/items.ts';
+import tdCrafting from '@/data/1.12/thermal-dynamics/recipes/crafting.ts';
 
 <PageImage
   images={[
-    { file: 'thermal-dynamics-2/servo-basic.png', alt: 'Servo' },
-    { file: 'thermal-dynamics-2/servo-hardened.png', alt: 'Hardened servo' },
-    { file: 'thermal-dynamics-2/servo-reinforced.png', alt: 'Reinforced servo' },
-    { file: 'thermal-dynamics-2/servo-signalum.png', alt: 'Signalum servo' },
-    { file: 'thermal-dynamics-2/servo-resonant.png', alt: 'Resonant servo' },
+    { item: td.servo0 },
+    { item: td.servo1 },
+    { item: td.servo2 },
+    { item: td.servo3 },
+    { item: td.servo4 },
   ]}
 />
 
@@ -25,24 +27,22 @@ Obtaining
 
 ### Crafting
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-servo-basic',
-    'td-1-12-servo-hardened',
-    'td-1-12-servo-reinforced',
-    'td-1-12-servo-signalum',
-    'td-1-12-servo-resonant',
+    tdCrafting.servo0,
+    tdCrafting.servo1,
+    tdCrafting.servo2,
+    tdCrafting.servo3,
+    tdCrafting.servo4,
   ]}
 />
 
 ### Upgrading
 <RecipeTable
-  type="crafting"
   recipes={[
-    'td-1-12-servo-hardened-upgrade',
-    'td-1-12-servo-reinforced-upgrade',
-    'td-1-12-servo-signalum-upgrade',
-    'td-1-12-servo-resonant-upgrade',
+    tdCrafting.servo1Upgrade,
+    tdCrafting.servo2Upgrade,
+    tdCrafting.servo3Upgrade,
+    tdCrafting.servo4Upgrade,
   ]}
 />
 

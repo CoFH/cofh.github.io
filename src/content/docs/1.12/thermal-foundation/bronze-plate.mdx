@@ -4,10 +4,12 @@ title: Bronze Plate
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import teCompactor from '@/data/1.12/thermal-expansion/recipes/compactor.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/plate-bronze.png', alt: 'Bronze plate' }]}
-/>
+<PageImage images={[{ item: tf.bronzePlate }]} />
 
 
 **Bronze plates** are crafting materials made of [bronze](../bronze-ingot/).
@@ -17,24 +19,14 @@ Obtaining
 ---------
 
 ### Compactor
-<RecipeTable
-  type="1.12/thermal-expansion/compactor"
-  recipes={['plate-bronze']}
-  noResult
-/>
+<RecipeTable recipes={[teCompactor.bronzePlate]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-pulverizer-petrotheum']}
-/>
+<RecipeTable recipes={[teCrafting.augmentTectonicInitiator]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={['recycling-plate-bronze']}
-/>
+<RecipeTable recipes={[teSmelter.recycling.bronzePlate]} />

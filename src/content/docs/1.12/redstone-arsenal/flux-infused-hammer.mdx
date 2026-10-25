@@ -4,10 +4,10 @@ title: Flux-Infused Hammer
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import ra from '@/data/1.12/redstone-arsenal/items.ts';
+import raCrafting from '@/data/1.12/redstone-arsenal/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'redstone-arsenal-2/flux-infused-hammer.png', alt: 'Flux-infused hammer' }]}
-/>
+<PageImage images={[{ item: ra.fluxInfusedHammer }]} />
 
 A **flux-infused hammer** is a powerful [hammer](../../thermal-foundation/hammers/) powered by
 [Redstone Flux](/docs/redstone-flux/).
@@ -17,11 +17,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['ra-1-12-tool-hammer']}
-  noResult
-/>
+<RecipeTable recipes={[raCrafting.fluxInfusedHammer]} noResult />
 
 
 Usage

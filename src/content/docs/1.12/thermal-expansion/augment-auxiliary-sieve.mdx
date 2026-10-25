@@ -4,12 +4,10 @@ title: 'Augment: Auxiliary Sieve'
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import te from '@/data/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
 
-<PageImage
-  images={[
-    { file: 'thermal-expansion-5/augment-machine-secondary.png', alt: 'Auxiliary sieve augment' },
-  ]}
-/>
+<PageImage images={[{ item: te.augmentAuxiliarySieve }]} />
 
 An **auxiliary sieve** is an [augment](../augments/) that increases the
 chances of an applicable [machine](../machines/) producing a secondary
@@ -20,11 +18,7 @@ Obtaining
 ---------
 
 ### Crafting
-<RecipeTable
-  type="crafting"
-  recipes={['te-1-12-augment-machine-secondary']}
-  noResult
-/>
+<RecipeTable recipes={[teCrafting.augmentAuxiliarySieve]} noResult />
 
 
 Usage

@@ -4,10 +4,12 @@ title: Steel Blend
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/RecipeTable.astro';
+import tePulverizer from '@/data/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import tf from '@/data/1.12/thermal-foundation/items.ts';
+import tfCrafting from '@/data/1.12/thermal-foundation/recipes/crafting.ts';
 
-<PageImage
-  images={[{ file: 'thermal-foundation-2/dust-steel.png', alt: 'Steel blend' }]}
-/>
+<PageImage images={[{ item: tf.steelBlend }]} />
 
 
 **Steel blend** is a raw material. It is the dust form of
@@ -22,27 +24,14 @@ by making [steel ingots](../steel-ingot/) in an [induction
 smelter](../../thermal-expansion/induction-smelter/).
 
 ### Pulverizer
-<RecipeTable
-  type="1.12/thermal-expansion/pulverizer"
-  recipes={['dust-steel']}
-  noResult
-/>
+<RecipeTable recipes={[tePulverizer.steelBlend]} noResult />
 
 
 Usage
 -----
 
 ### Crafting ingredient
-<RecipeTable
-  type="crafting"
-  recipes={['tf-1-12-hardened-glass-steel']}
-/>
+<RecipeTable recipes={[tfCrafting.hardenedSteelGlass]} />
 
 ### Induction Smelter ingredient
-<RecipeTable
-  type="1.12/thermal-expansion/smelter"
-  recipes={[
-    'dust-smelting-steel',
-    'hardened-glass-steel',
-  ]}
-/>
+<RecipeTable recipes={[teSmelter.dustSmelting.steel, teSmelter.hardenedSteelGlass]} />
