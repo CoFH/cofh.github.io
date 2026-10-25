@@ -1,0 +1,193 @@
+---
+import type {
+  Recipe,
+  RecipeColumnItemData,
+  RecipeSlotData,
+  RecipeTankData,
+} from '../../../mods/types.ts';
+import RecipeColumnItem from './RecipeColumnItem.astro';
+
+interface Props {
+  recipes: Recipe[];
+  noResult?: boolean;
+}
+
+const type = Astro.props.recipes[0].type;
+
+if (Astro.props.recipes.some((recipe) => recipe.type !== type)) {
+  const types = new Set(Astro.props.recipes.map((recipe) => recipe.type.name));
+
+  throw new Error(
+    `RecipeTable only supports one recipe type at a time, but got ${types.size}: ${[...types].join(', ')}.`,
+  );
+}
+
+const withNote = Astro.props.recipes.some((recipe) => recipe.note !== undefined);
+
+function asColumnItem(input: RecipeSlotData | RecipeTankData): RecipeColumnItemData {
+  if ('fluid' in input) {
+    return { fluid: input.fluid, fluidAmount: input.amount };
+  }
+
+  if (input.itemGroup !== undefined) {
+    return { itemGroup: input.itemGroup };
+  }
+
+  return { item: Array.isArray(input.item) ? input.item[0] : input.item };
+}
+
+function getResultsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
+  if (recipe.results !== undefined) {
+    return recipe.results;
+  }
+
+  const columnItems: RecipeColumnItemData[] = [];
+
+  for (const output of recipe.outputs) {
+    if (output === null) {
+      continue;
+    }
+
+    const columnItem = asColumnItem(output);
+
+    if (recipe.amountSuffix && !('fluid' in output) && (output.amount ?? 1) > 1) {
+      columnItem.suffix = `x${output.amount}`;
+    }
+
+    columnItems.push(columnItem);
+  }
+
+  return columnItems;
+}
+
+function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
+  if (recipe.ingredients !== undefined) {
+    return recipe.ingredients;
+  }
+
+  const seen = new Set();
+  const columnItems: RecipeColumnItemData[] = [];
+
+  for (const input of recipe.inputs) {
+    if (input === null) {
+      continue;
+    }
+
+    const columnItem = asColumnItem(input);
+    const target = columnItem.item ?? columnItem.itemGroup ?? columnItem.fluid;
+
+    if (!seen.has(target)) {
+      seen.add(target);
+      columnItems.push(columnItem);
+    }
+  }
+
+  return columnItems;
+}
+---
+
+<div class="uk-overflow-container">
+  <table class="uk-table uk-table-striped cofh-info-table">
+    <thead data-pagefind-ignore="all">
+      <tr>
+        {!Astro.props.noResult && <th>Result(s)</th>}
+        <th>Ingredients</th>
+        {type.withEnergy && <th>Energy</th>}
+        <th>
+          <a href={type.href}>{type.name}</a> recipe
+        </th>
+        {withNote && <th>Note</th>}
+      </tr>
+    </thead>
+
+    <tbody>
+      {Astro.props.recipes.map((recipe) => {
+        const ingredients = getIngredientsColumnItems(recipe);
+
+        return (
+          <tr>
+            {!Astro.props.noResult && (
+              <td class="uk-text-center cofh-nowrap">
+                {getResultsColumnItems(recipe).map((result, index) => {
+                  const Emphasis = type.allResultsBold || index === 0 ? 'strong' : Fragment;
+
+                  return (
+                    <>
+                      <Emphasis>
+                        <RecipeColumnItem data={result} role="result" first={index === 0} />
+                      </Emphasis>
+                      <br />
+                    </>
+                  );
+                })}
+              </td>
+            )}
+
+            <td>
+              {ingredients.map((ingredient, index) => (
+                <>
+                  <RecipeColumnItem data={ingredient} role="ingredient" first={index === 0} />
+                  {index < ingredients.length - 1 && <>&nbsp;+</>}
+                  <br />
+                </>
+              ))}
+            </td>
+
+            {type.withEnergy && (
+              <td class="cofh-nowrap uk-text-right">{recipe.energy?.toLocaleString('en-US')} RF</td>
+            )}
+
+            <td style="padding: 2px; text-align: center">
+              <div class="cofh-recipe">
+                <type.component recipe={recipe} />
+              </div>
+            </td>
+
+            {withNote && <td>{recipe.note}</td>}
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>
+
+<style is:global>
+  .cofh-recipe {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 16px;
+    vertical-align: top;
+  }
+
+  .cofh-recipe-slot-amount {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #444444 2px 2px 1px;
+    pointer-events: none;
+  }
+
+  .cofh-recipe-floating-text {
+    position: absolute;
+    min-width: 100px;
+    color: #6f6f6f;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+</style>
+
+<script>
+  for (const recipe of document.querySelectorAll('.cofh-recipe')) {
+    recipe.addEventListener('mouseenter', () => {
+      recipe.querySelectorAll('.cofh-cycle').forEach((cycle) => cycle.classList.add('paused'));
+    });
+
+    recipe.addEventListener('mouseleave', () => {
+      recipe.querySelectorAll('.cofh-cycle').forEach((cycle) => cycle.classList.remove('paused'));
+    });
+  }
+</script>

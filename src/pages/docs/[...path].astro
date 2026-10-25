@@ -3,7 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection, render } from 'astro:content';
 
 import Navbox from '../../components/docs/Navbox.astro';
-import type { DocNav } from '../../data/types.ts';
+import type { DocNav } from '../../mods/types.ts';
 import Base from '../../layouts/Base.astro';
 
 export const getStaticPaths = (async () => {
@@ -18,13 +18,13 @@ export const getStaticPaths = (async () => {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 
-const navs = import.meta.glob<DocNav>('../../data/*/*/navbox.ts', {
+const navs = import.meta.glob<DocNav>('../../mods/*/*/navbox.ts', {
   eager: true,
   import: 'default',
 });
 
 const navPath = entry.id.split('/').slice(0, 2).join('/');
-const nav = navs[`../../data/${navPath}/navbox.ts`];
+const nav = navs[`../../mods/${navPath}/navbox.ts`];
 ---
 
 <Base title={entry.data.title} showBanner={false}>

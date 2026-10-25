@@ -1,0 +1,18 @@
+---
+import type { Recipe } from '../../../../types.ts';
+import { asSlot } from '../../../../../components/docs/recipe/narrow.ts';
+import RecipeFrame from '../../../../../components/docs/recipe/RecipeFrame.astro';
+import Slot from '../../../../../components/docs/recipe/Slot.astro';
+import background from './redstone-furnace.png';
+
+interface Props {
+  recipe: Recipe;
+}
+
+const { recipe } = Astro.props;
+---
+
+<RecipeFrame background={background}>
+  <Slot data={asSlot(recipe.inputs[0])} top={10} left={10} />
+  <Slot data={asSlot(recipe.outputs[0])} top={28} left={114} />
+</RecipeFrame>

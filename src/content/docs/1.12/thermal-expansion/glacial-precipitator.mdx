@@ -3,11 +3,11 @@ title: Glacial Precipitator
 ---
 
 import PageImage from '@/components/docs/PageImage.astro';
-import RecipeTable from '@/components/docs/RecipeTable.astro';
-import * as MC1_12 from '@/components/docs/1.12/index.ts';
-import te from '@/data/1.12/thermal-expansion/items.ts';
-import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
-import tePrecipitator from '@/data/1.12/thermal-expansion/recipes/precipitator.ts';
+import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
+import AugmentTable from '@/mods/1.12/thermal-expansion/components/AugmentTable.astro';
+import te from '@/mods/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
+import tePrecipitator from '@/mods/1.12/thermal-expansion/recipes/precipitator.ts';
 
 <PageImage images={[{ item: te.glacialPrecipitator }]} />
 
@@ -163,7 +163,7 @@ be augmented.
 
 Augments can be installed in the Augmentation tab in a precipitator's GUI.
 
-<MC1_12.ThermalExpansion.AugmentTable
+<AugmentTable
   augments={['machine-power']}
 />
 

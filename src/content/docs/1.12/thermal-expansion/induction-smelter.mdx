@@ -3,12 +3,12 @@ title: Induction Smelter
 ---
 
 import PageImage from '@/components/docs/PageImage.astro';
-import RecipeTable from '@/components/docs/RecipeTable.astro';
-import * as MC1_12 from '@/components/docs/1.12/index.ts';
-import raSmelter from '@/data/1.12/redstone-arsenal/recipes/smelter.ts';
-import te from '@/data/1.12/thermal-expansion/items.ts';
-import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
-import teSmelter from '@/data/1.12/thermal-expansion/recipes/smelter.ts';
+import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
+import AugmentTable from '@/mods/1.12/thermal-expansion/components/AugmentTable.astro';
+import raSmelter from '@/mods/1.12/redstone-arsenal/recipes/smelter.ts';
+import te from '@/mods/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
+import teSmelter from '@/mods/1.12/thermal-expansion/recipes/smelter.ts';
 
 <PageImage images={[{ item: te.inductionSmelter }]} />
 
@@ -181,7 +181,7 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a smelter's GUI.
 
-<MC1_12.ThermalExpansion.AugmentTable
+<AugmentTable
   augments={[
     'machine-power',
     'machine-secondary',

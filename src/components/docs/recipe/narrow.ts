@@ -1,4 +1,4 @@
-import type { RecipeSlotData, RecipeSlotOrTank, RecipeTankData } from '../../../data/types.ts';
+import type { RecipeSlotData, RecipeSlotOrTank, RecipeTankData } from '../../../mods/types.ts';
 
 export function asSlot(input: RecipeSlotOrTank | undefined): RecipeSlotData | undefined {
   if (input === undefined || input === null) {

@@ -2,8 +2,8 @@
 import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 
-import downloads from '../../data/downloads.ts';
-import type { DownloadItem } from '../../data/types.ts';
+import downloads from '../../mods/downloads.ts';
+import type { DownloadItem } from '../../mods/types.ts';
 
 interface Props {
   minecraft: keyof typeof downloads;
@@ -11,7 +11,7 @@ interface Props {
 
 const items: DownloadItem[] = downloads[Astro.props.minecraft];
 
-const logos = import.meta.glob<ImageMetadata>('../../data/*/*/images/logo.png', {
+const logos = import.meta.glob<ImageMetadata>('../../mods/*/*/images/logo.png', {
   eager: true,
   import: 'default',
 });
@@ -19,7 +19,7 @@ const logos = import.meta.glob<ImageMetadata>('../../data/*/*/images/logo.png', 
 const entries = items.map((item) => ({
   item,
   id: `${item.slug}-${Astro.props.minecraft.replace('.', '-')}`,
-  logo: logos[`../../data/${Astro.props.minecraft}/${item.slug}/images/logo.png`],
+  logo: logos[`../../mods/${Astro.props.minecraft}/${item.slug}/images/logo.png`],
 }));
 ---
 

@@ -1,0 +1,28 @@
+---
+import type { Recipe } from '../../../../types.ts';
+import Chance from '../../../../../components/docs/recipe/Chance.astro';
+import { asSlot, asTank } from '../../../../../components/docs/recipe/narrow.ts';
+import RecipeFrame from '../../../../../components/docs/recipe/RecipeFrame.astro';
+import Slot from '../../../../../components/docs/recipe/Slot.astro';
+import Tank from '../../../../../components/docs/recipe/Tank.astro';
+import background from './centrifuge.png';
+
+interface Props {
+  recipe: Recipe;
+}
+
+const { recipe } = Astro.props;
+---
+
+<RecipeFrame background={background}>
+  <Slot data={asSlot(recipe.inputs[0])} top={38} left={10} />
+  <Slot data={asSlot(recipe.outputs[0])} top={38} left={106} />
+  <Chance value={asSlot(recipe.outputs[0])?.chance} top={20} right={56} align="center" />
+  <Slot data={asSlot(recipe.outputs[1])} top={38} left={142} />
+  <Chance value={asSlot(recipe.outputs[1])?.chance} top={20} right={20} align="center" />
+  <Slot data={asSlot(recipe.outputs[2])} top={74} left={106} />
+  <Chance value={asSlot(recipe.outputs[2])?.chance} top={110} right={56} align="center" />
+  <Slot data={asSlot(recipe.outputs[3])} top={74} left={142} />
+  <Chance value={asSlot(recipe.outputs[3])?.chance} top={110} right={20} align="center" />
+  <Tank data={asTank(recipe.outputs[4])} top={10} left={186} size={4000} />
+</RecipeFrame>

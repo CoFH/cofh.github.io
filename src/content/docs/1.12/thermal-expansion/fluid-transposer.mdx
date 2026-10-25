@@ -3,14 +3,14 @@ title: Fluid Transposer
 ---
 
 import PageImage from '@/components/docs/PageImage.astro';
-import RecipeTable from '@/components/docs/RecipeTable.astro';
-import * as MC1_12 from '@/components/docs/1.12/index.ts';
-import raTransposerFill from '@/data/1.12/redstone-arsenal/recipes/transposer-fill.ts';
-import tdTransposerFill from '@/data/1.12/thermal-dynamics/recipes/transposer-fill.ts';
-import te from '@/data/1.12/thermal-expansion/items.ts';
-import teCrafting from '@/data/1.12/thermal-expansion/recipes/crafting.ts';
-import teTransposerEmpty from '@/data/1.12/thermal-expansion/recipes/transposer-empty.ts';
-import teTransposerFill from '@/data/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
+import AugmentTable from '@/mods/1.12/thermal-expansion/components/AugmentTable.astro';
+import raTransposerFill from '@/mods/1.12/redstone-arsenal/recipes/transposer-fill.ts';
+import tdTransposerFill from '@/mods/1.12/thermal-dynamics/recipes/transposer-fill.ts';
+import te from '@/mods/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
+import teTransposerEmpty from '@/mods/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill from '@/mods/1.12/thermal-expansion/recipes/transposer-fill.ts';
 
 <PageImage images={[{ item: te.fluidTransposer }]} />
 
@@ -180,7 +180,7 @@ augmented.
 
 Augments can be installed in the Augmentation tab in a transposer's GUI.
 
-<MC1_12.ThermalExpansion.AugmentTable
+<AugmentTable
   augments={[
     'machine-power',
     'machine-secondary',

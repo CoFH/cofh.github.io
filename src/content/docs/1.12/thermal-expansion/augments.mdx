@@ -2,7 +2,7 @@
 title: Augments
 ---
 
-import * as MC1_12 from '@/components/docs/1.12/index.ts';
+import AugmentTable from '@/mods/1.12/thermal-expansion/components/AugmentTable.astro';
 
 **Augments** are items that can be installed in [machines](../machines/) and
 [dynamos](../dynamos/) to improve ('augment') them in certain ways or to
@@ -27,7 +27,7 @@ List of augments
 ----------------
 
 ### Machine augments
-<MC1_12.ThermalExpansion.AugmentTable
+<AugmentTable
   augments={[
     'machine-power',
     'machine-secondary',
@@ -60,7 +60,7 @@ List of augments
 />
 
 ### Dynamo augments
-<MC1_12.ThermalExpansion.AugmentTable
+<AugmentTable
   augments={[
     'dynamo-power',
     'dynamo-efficiency',
