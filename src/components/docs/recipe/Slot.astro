@@ -1,6 +1,6 @@
 ---
 import type { Item, RecipeSlotData } from '../../../mods/types.ts';
-import GameImage from '../GameImage.astro';
+import SlotItem from './SlotItem.astro';
 
 interface Props {
   data: RecipeSlotData | undefined;
@@ -33,21 +33,17 @@ const amount = data?.amount ?? 1;
       height: '32px',
     }}
   >
-    <div class:list={['cofh-cycle', { random: data.randomCycle }]}>
-      {items.map((item, index) => {
-        const Link = item.href === undefined ? 'span' : 'a';
-
-        return (
+    {items.length > 1 ? (
+      <div class:list={['cofh-cycle', { random: data.randomCycle }]}>
+        {items.map((item, index) => (
           <div class:list={{ hidden: index > 0 }}>
-            <Link href={item.href} aria-label={item.href !== undefined ? item.name : undefined}>
-              <div title={item.name} data-uk-tooltip="{pos: 'top', offset: 4}">
-                <GameImage image={item.slotImage ?? item.image} height={32} alt={item.name} />
-              </div>
-            </Link>
+            <SlotItem item={item} />
           </div>
-        );
-      })}
-    </div>
+        ))}
+      </div>
+    ) : (
+      <SlotItem item={items[0]} />
+    )}
 
     {amount > 1 && <span class="cofh-recipe-slot-amount">{amount.toLocaleString('en-US')}</span>}
   </div>

@@ -1,7 +1,4 @@
-/**
- * Every 1.5 s, shows the next child of each `.cofh-cycle` (or a random one for
- * `.cofh-cycle.random`), skipping cycles marked `.paused`.
- */
+// Animate `.cofh-cycle` blocks by making each child visible in succession
 window.setInterval(() => {
   for (const current of document.querySelectorAll<HTMLElement>(
     '.cofh-cycle:not(.paused) > :not(.hidden)',
@@ -23,3 +20,22 @@ window.setInterval(() => {
     next.classList.remove('hidden');
   }
 }, 1500);
+
+// Switch images within a `.cofh-cycle` from lazy to eager loading when it
+// enters the viewport, so they are loaded before becoming visible in the cycle
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries
+      .filter((entry) => entry.isIntersecting)
+      .forEach((entry) => {
+        entry.target.querySelectorAll('img').forEach((image) => {
+          image.loading = 'eager';
+        });
+
+        observer.unobserve(entry.target);
+      });
+  },
+  { rootMargin: '200px' },
+);
+
+document.querySelectorAll('.cofh-cycle').forEach((cycle) => observer.observe(cycle));

@@ -1,0 +1,18 @@
+---
+import type { Item } from '../../../mods/types.ts';
+import GameImage from '../GameImage.astro';
+
+interface Props {
+  item: Item;
+}
+
+const { item } = Astro.props;
+
+const Link = item.href === undefined ? 'span' : 'a';
+---
+
+<Link href={item.href} aria-label={item.href !== undefined ? item.name : undefined}>
+  <div title={item.name} data-uk-tooltip="{pos: 'top', offset: 4}">
+    <GameImage image={item.slotImage ?? item.image} height={32} alt={item.name} />
+  </div>
+</Link>
