@@ -150,14 +150,26 @@ export interface DocNavItem {
   subitems?: DocNavItem[];
 }
 
-export interface DownloadItem {
+export interface ModListVersion {
+  mc: string;
+  label: string;
+  sections: ModListSection[];
+}
+
+export interface ModListSection {
+  title: string;
+  mods: ModListMod[];
+}
+
+export interface ModListMod {
   slug: string;
   title: string;
-  note: string;
+  summary: string;
+  requires?: string[];
+  docs?: 'wip' | `/${string}`;
   links: {
     curseforge?: string;
     modrinth?: string;
-    docs?: string;
     changelog?: string;
     source?: string;
   };

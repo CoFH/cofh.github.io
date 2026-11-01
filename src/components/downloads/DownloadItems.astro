@@ -1,80 +1,99 @@
 ---
-import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 
-import downloads from '../../mods/downloads.ts';
-import type { DownloadItem } from '../../mods/types.ts';
+import { getModDocs, getModListVersion, getModLogo } from '../../lib/mods.ts';
 
 interface Props {
-  minecraft: keyof typeof downloads;
+  minecraft: string;
 }
 
-const items: DownloadItem[] = downloads[Astro.props.minecraft];
+const mc = Astro.props.minecraft;
+const mods = getModListVersion(mc).sections.flatMap((section) => section.mods);
 
-const logos = import.meta.glob<ImageMetadata>('../../mods/*/*/images/logo.png', {
-  eager: true,
-  import: 'default',
-});
+function getModAnchor(slug: string): string {
+  return `${slug}-${mc.replace('.', '-')}`;
+}
 
-const entries = items.map((item) => ({
-  item,
-  id: `${item.slug}-${Astro.props.minecraft.replace('.', '-')}`,
-  logo: logos[`../../mods/${Astro.props.minecraft}/${item.slug}/images/logo.png`],
-}));
+const entries = await Promise.all(
+  mods.map(async (mod) => ({
+    mod,
+    logo: getModLogo(mc, mod.slug),
+    docs: await getModDocs(mc, mod),
+    requires: (mod.requires ?? []).map((slug) => ({
+      id: getModAnchor(slug),
+      title: mods.find((m) => m.slug === slug)?.title,
+    })),
+  })),
+);
 ---
 
 <div>
-  {entries.map(({ item, id, logo }, index) => (
+  {entries.map(({ mod, logo, docs, requires }, index) => (
     <div
       class:list={['uk-panel', 'uk-panel-box', { 'uk-margin-bottom': index < entries.length - 1 }]}
     >
       <div class="uk-grid" data-uk-grid-margin>
         <div class="uk-width-1-1 uk-width-medium-2-10">
           {logo !== undefined ? (
-            <Image src={logo} alt={item.title} class="cofh-download-logo" />
+            <Image src={logo} alt={mod.title} class="cofh-download-logo" />
           ) : (
             <div class="cofh-download-logo cofh-download-logo-missing" />
           )}
         </div>
 
         <div class="uk-width-1-1 uk-width-medium-5-10">
-          <h3 id={id}>{item.title}</h3>
-          <p set:html={item.note} />
+          <h3 id={getModAnchor(mod.slug)}>{mod.title}</h3>
+          <p>
+            {mod.summary}
+            {requires.length > 0 && (
+              <>
+                {' '}
+                Requires{' '}
+                {requires.map((required, i) => (
+                  <>
+                    {i > 0 && (i === requires.length - 1 ? ' and ' : ', ')}
+                    <a href={`#${required.id}`}>{required.title}</a>
+                  </>
+                ))}
+                .
+              </>
+            )}
+          </p>
         </div>
 
         <div class="uk-width-1-1 uk-width-medium-3-10" data-uk-margin>
-          {item.links.curseforge !== undefined && (
+          {mod.links.curseforge !== undefined && (
             <a
-              href={item.links.curseforge}
+              href={mod.links.curseforge}
               class="uk-button uk-button-small uk-button-success uk-text-bold uk-width-1-1"
             >
               Download on CurseForge
             </a>
           )}
 
-          {item.links.modrinth !== undefined && (
+          {mod.links.modrinth !== undefined && (
             <a
-              href={item.links.modrinth}
+              href={mod.links.modrinth}
               class="uk-button uk-button-small uk-button-success uk-text-bold uk-width-1-1"
             >
               Download on Modrinth
             </a>
           )}
 
-          {item.links.docs !== undefined && (
-            <a href={item.links.docs} class="uk-button uk-button-small uk-width-1-1">
+          {docs?.kind === 'link' && (
+            <a href={docs.href} class="uk-button uk-button-small uk-width-1-1">
               Documentation
             </a>
           )}
 
-          {item.links.changelog !== undefined && (
-            <a href={item.links.changelog} class="uk-button uk-button-small uk-width-1-1">
+          {mod.links.changelog !== undefined && (
+            <a href={mod.links.changelog} class="uk-button uk-button-small uk-width-1-1">
               Changelog
             </a>
           )}
 
-          {item.links.source !== undefined && (
-            <a href={item.links.source} class="uk-button uk-button-small uk-width-1-1">
+          {mod.links.source !== undefined && (
+            <a href={mod.links.source} class="uk-button uk-button-small uk-width-1-1">
               Source code
             </a>
           )}

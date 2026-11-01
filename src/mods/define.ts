@@ -7,6 +7,7 @@ import type {
   ItemDefinition,
   ItemGroup,
   ItemGroupDefinition,
+  ModListVersion,
   Recipe,
   RecipeDefinition,
   RecipeType,
@@ -182,4 +183,23 @@ export function defineRecipes<const T extends RecipeDefinitions>(
   }
 
   return recipes as Recipes<T>;
+}
+
+export function defineModList(versions: ModListVersion[]): ModListVersion[] {
+  for (const version of versions) {
+    const mods = version.sections.flatMap((section) => section.mods);
+    const slugs = new Set(mods.map((mod) => mod.slug));
+
+    for (const mod of mods) {
+      for (const required of mod.requires ?? []) {
+        if (!slugs.has(required)) {
+          throw new Error(
+            `Mod list ${version.mc}: ${mod.slug} requires ${required}, which isn't a ${version.mc} mod.`,
+          );
+        }
+      }
+    }
+  }
+
+  return versions;
 }

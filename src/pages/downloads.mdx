@@ -4,6 +4,7 @@ layout: ../layouts/SimpleInfo.astro
 ---
 
 import DownloadItems from '@/components/downloads/DownloadItems.astro';
+import modList from '@/mods/mod-list.ts';
 
 This page lists download links for all Team CoFH mods.
 
@@ -14,58 +15,12 @@ This page lists download links for all Team CoFH mods.
   server](https://discord.gg/uRKrnbH).
   
 <div class="uk-accordion" data-uk-accordion="{showfirst: true, collapse: true}">
-    <h2 class="uk-accordion-title">Minecraft 1.20</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.20" />
-    </div>
-
-    <h2 class="uk-accordion-title">Minecraft 1.19</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.19" />
-    </div>
-
-    <h2 class="uk-accordion-title">Minecraft 1.18</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.18" />
-    </div>
-
-    <h2 class="uk-accordion-title">Minecraft 1.16</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.16" />
-    </div>
-	
-    <h2 class="uk-accordion-title">Minecraft 1.15</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.15" />
-    </div>
-
-    <h2 class="uk-accordion-title">Minecraft 1.14</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.14" />
-    </div>
-
-    <h2 class="uk-accordion-title">Minecraft 1.12</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.12" />
-    </div>
-
-    <h2 class="uk-accordion-title">Minecraft 1.11</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.11" />
-    </div>
-
-    <h2 class="uk-accordion-title">Minecraft 1.10</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.10" />
-    </div>
-
-    <h2 class="uk-accordion-title">Minecraft 1.7</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.7" />
-    </div>
-
-    <h2 class="uk-accordion-title">Minecraft 1.6</h2>
-    <div class="uk-accordion-content">
-        <DownloadItems minecraft="1.6" />
-    </div>
+  {modList.map((version) => (
+    <>
+      <h2 class="uk-accordion-title">Minecraft {version.label}</h2>
+      <div class="uk-accordion-content">
+        <DownloadItems minecraft={version.mc} />
+      </div>
+    </>
+  ))}
 </div>
