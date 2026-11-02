@@ -4,6 +4,7 @@ export default defineModList([
   {
     mc: '1.20',
     label: '1.20.1',
+    major: true,
     sections: [
       {
         title: 'Core',
@@ -160,18 +161,6 @@ export default defineModList([
             },
           },
           {
-            slug: 'oh-my-gourd',
-            title: 'Oh My Gourd',
-            summary: "New carved pumpkin and jack o'lantern variants.",
-            requires: ['cofh-core'],
-            docs: 'wip',
-            links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd',
-              modrinth: 'https://modrinth.com/mod/oh-my-gourd',
-              source: 'https://github.com/CoFH/OMGourd/tree/1.20.1',
-            },
-          },
-          {
             slug: 'tools-complement',
             title: "Tool's Complement",
             summary: 'Tools and armor for most standard metals.',
@@ -181,6 +170,18 @@ export default defineModList([
               curseforge: 'https://www.curseforge.com/minecraft/mc-mods/tools-complement',
               modrinth: 'https://modrinth.com/mod/tools-complement',
               source: 'https://github.com/CoFH/ToolsComplement/tree/1.20.1',
+            },
+          },
+          {
+            slug: 'oh-my-gourd',
+            title: 'Oh My Gourd',
+            summary: "New carved pumpkin and jack o'lantern variants.",
+            requires: ['cofh-core'],
+            docs: 'wip',
+            links: {
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd',
+              modrinth: 'https://modrinth.com/mod/oh-my-gourd',
+              source: 'https://github.com/CoFH/OMGourd/tree/1.20.1',
             },
           },
         ],
@@ -390,17 +391,6 @@ export default defineModList([
             },
           },
           {
-            slug: 'oh-my-gourd',
-            title: 'Oh My Gourd',
-            summary: "New carved pumpkin and jack o'lantern variants.",
-            requires: ['cofh-core'],
-            links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd',
-              modrinth: 'https://modrinth.com/mod/oh-my-gourd',
-              source: 'https://github.com/CoFH/OMGourd/tree/1.19.x',
-            },
-          },
-          {
             slug: 'tools-complement',
             title: "Tool's Complement",
             summary: 'Tools and armor for most standard metals.',
@@ -409,6 +399,17 @@ export default defineModList([
               curseforge: 'https://www.curseforge.com/minecraft/mc-mods/tools-complement',
               modrinth: 'https://modrinth.com/mod/tools-complement',
               source: 'https://github.com/CoFH/ToolsComplement/tree/1.19.x',
+            },
+          },
+          {
+            slug: 'oh-my-gourd',
+            title: 'Oh My Gourd',
+            summary: "New carved pumpkin and jack o'lantern variants.",
+            requires: ['cofh-core'],
+            links: {
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd',
+              modrinth: 'https://modrinth.com/mod/oh-my-gourd',
+              source: 'https://github.com/CoFH/OMGourd/tree/1.19.x',
             },
           },
         ],
@@ -619,18 +620,6 @@ export default defineModList([
             },
           },
           {
-            slug: 'oh-my-gourd',
-            title: 'Oh My Gourd',
-            summary: "New carved pumpkin and jack o'lantern variants.",
-            requires: ['cofh-core'],
-            links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd',
-              modrinth: 'https://modrinth.com/mod/oh-my-gourd',
-              changelog: 'https://github.com/CoFH/Version/blob/main/omgourd/changelog.md',
-              source: 'https://github.com/CoFH/OMGourd/tree/1.18.2',
-            },
-          },
-          {
             slug: 'tools-complement',
             title: "Tool's Complement",
             summary: 'Tools and armor for most standard metals.',
@@ -640,6 +629,18 @@ export default defineModList([
               modrinth: 'https://modrinth.com/mod/tools-complement',
               changelog: 'https://github.com/CoFH/Version/blob/main/tools_complement/changelog.md',
               source: 'https://github.com/CoFH/ToolsComplement/tree/1.18.2',
+            },
+          },
+          {
+            slug: 'oh-my-gourd',
+            title: 'Oh My Gourd',
+            summary: "New carved pumpkin and jack o'lantern variants.",
+            requires: ['cofh-core'],
+            links: {
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd',
+              modrinth: 'https://modrinth.com/mod/oh-my-gourd',
+              changelog: 'https://github.com/CoFH/Version/blob/main/omgourd/changelog.md',
+              source: 'https://github.com/CoFH/OMGourd/tree/1.18.2',
             },
           },
         ],
@@ -706,6 +707,7 @@ export default defineModList([
   {
     mc: '1.16',
     label: '1.16.5',
+    major: true,
     sections: [
       {
         title: 'Core',
@@ -824,17 +826,6 @@ export default defineModList([
             },
           },
           {
-            slug: 'oh-my-gourd',
-            title: 'Oh My Gourd',
-            summary: "New carved pumpkin and jack o'lantern variants.",
-            requires: ['cofh-core'],
-            links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd',
-              modrinth: 'https://modrinth.com/mod/oh-my-gourd',
-              source: 'https://github.com/CoFH/OMGourd/tree/1.16.5',
-            },
-          },
-          {
             slug: 'tools-complement',
             title: "Tool's Complement",
             summary: 'Tools and armor for most standard metals.',
@@ -843,6 +834,17 @@ export default defineModList([
               curseforge: 'https://www.curseforge.com/minecraft/mc-mods/tools-complement',
               modrinth: 'https://modrinth.com/mod/tools-complement',
               source: 'https://github.com/CoFH/ToolsComplement/tree/1.16.5',
+            },
+          },
+          {
+            slug: 'oh-my-gourd',
+            title: 'Oh My Gourd',
+            summary: "New carved pumpkin and jack o'lantern variants.",
+            requires: ['cofh-core'],
+            links: {
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/oh-my-gourd',
+              modrinth: 'https://modrinth.com/mod/oh-my-gourd',
+              source: 'https://github.com/CoFH/OMGourd/tree/1.16.5',
             },
           },
         ],
@@ -1016,6 +1018,7 @@ export default defineModList([
   {
     mc: '1.12',
     label: '1.12.2',
+    major: true,
     sections: [
       {
         title: 'Core',
@@ -1363,6 +1366,7 @@ export default defineModList([
   {
     mc: '1.7',
     label: '1.7.10',
+    major: true,
     sections: [
       {
         title: 'Core',

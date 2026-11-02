@@ -1,0 +1,41 @@
+.tooltip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 70;
+  max-width: min(320px, calc(100vw - 16px));
+  padding: 5px 9px;
+  border-radius: 6px;
+  background: var(--fg-strong);
+  color: var(--bg);
+  font: 600 13px/1.35 var(--font);
+  box-shadow: 0 4px 12px var(--shadow-strong);
+  pointer-events: none;
+  animation: tooltip-in 0.12s ease;
+}
+
+@keyframes tooltip-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: inherit;
+  transform: rotate(45deg);
+}
+
+.tooltip[data-side='top'] .tooltip-arrow {
+  bottom: -4px;
+}
+
+.tooltip[data-side='bottom'] .tooltip-arrow {
+  top: -4px;
+}

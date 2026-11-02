@@ -1,15 +1,23 @@
 ---
+import { getIconDataUri } from '../lib/icons.ts';
+
 interface Props {
-  class: string;
+  variant: 'site' | 'legacy';
   instance: string;
+  class?: string;
   hideShortcut?: boolean;
 }
 ---
 
-<div class:list={[Astro.props.class, 'cofh-search']}>
+<div
+  class:list={[Astro.props.class, Astro.props.variant === 'site' ? 'search-site' : 'cofh-search']}
+  style={
+    Astro.props.variant === 'site' ? `--pf-icon-search: ${getIconDataUri('search')}` : undefined
+  }
+>
   <pagefind-modal-trigger
     instance={Astro.props.instance}
-    placeholder="Search..."
+    placeholder={Astro.props.variant === 'site' ? 'Search' : 'Search...'}
     hide-shortcut={Astro.props.hideShortcut ? true : undefined}
   />
 
@@ -19,9 +27,111 @@ interface Props {
 <script>
   import '@pagefind/component-ui';
   import '@pagefind/component-ui/css/pagefind-component-ui.css';
+
+  const iconOnly = window.matchMedia('(max-width: 760px)');
+
+  // Give the search box a tooltip only while it shows just its icon
+  function updateSearchTips() {
+    for (const box of document.querySelectorAll<HTMLElement>('.search-site')) {
+      const label = box.querySelector('pagefind-modal-trigger')?.getAttribute('placeholder');
+
+      if (iconOnly.matches && label) {
+        box.dataset.tooltip = label;
+      } else {
+        delete box.dataset.tooltip;
+      }
+    }
+  }
+
+  updateSearchTips();
+  iconOnly.addEventListener('change', updateSearchTips);
 </script>
 
 <style>
+  .search-site {
+    --pf-font: var(--font);
+    --pf-text: var(--fg);
+    --pf-text-secondary: var(--muted);
+    --pf-text-muted: var(--faint);
+    --pf-background: var(--bg);
+    --pf-border: var(--line-strong);
+    --pf-border-focus: var(--accent-line);
+    --pf-hover: var(--accent-soft);
+    --pf-mark: var(--fg-strong);
+    --pf-skeleton: var(--surface-2);
+    --pf-skeleton-shine: var(--surface);
+    --pf-scroll-shadow: var(--shadow);
+    --pf-shadow-sm: 0 2px 8px var(--shadow);
+    --pf-shadow-md: 0 4px 12px var(--shadow);
+    --pf-shadow-lg: 0 24px 60px var(--shadow-strong);
+    --pf-outline-focus: var(--focus);
+    --pf-modal-backdrop: var(--scrim);
+    --pf-modal-max-width: 640px;
+    --pf-input-height: 32px;
+    --pf-border-radius: 6px;
+    width: 240px;
+  }
+
+  .search-site :global(.pf-trigger-btn) {
+    padding: 0 6px 0 10px !important;
+    font: 15px var(--font) !important;
+  }
+
+  .search-site :global(.pf-trigger-icon) {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  .search-site :global(.pf-trigger-key) {
+    padding: 2px 5px !important;
+    border-color: var(--line-strong) !important;
+    border-bottom-width: 2px !important;
+    background: var(--surface) !important;
+    color: var(--muted) !important;
+    font: 600 11px/1 var(--font) !important;
+  }
+
+  :global([data-pagefind-announcer]) {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .search-site pagefind-modal-trigger:hover {
+    --pf-text-muted: var(--muted);
+  }
+
+  .search-site pagefind-modal-trigger {
+    display: block;
+    width: 100%;
+  }
+
+  @media (max-width: 760px) {
+    .search-site {
+      width: 34px;
+    }
+
+    .search-site :global(.pf-trigger-btn) {
+      justify-content: center !important;
+      height: 34px !important;
+      padding: 0 !important;
+      border-color: transparent !important;
+      background: transparent !important;
+    }
+
+    .search-site :global(.pf-trigger-btn:hover) {
+      background: var(--band-hover) !important;
+    }
+
+    .search-site :global(.pf-trigger-icon) {
+      background: var(--fg) !important;
+    }
+
+    .search-site :global(:is(.pf-trigger-text, .pf-trigger-shortcut)) {
+      display: none !important;
+    }
+  }
+
   .cofh-search {
     --pf-font: inherit;
     --pf-input-height: 30px;
@@ -45,7 +155,7 @@ interface Props {
     display: none;
   }
 
-  pagefind-modal-trigger {
+  .cofh-search pagefind-modal-trigger {
     flex: 1;
   }
 

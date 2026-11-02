@@ -1,0 +1,587 @@
+---
+import '../styles/site.css';
+
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+
+import GameImage from '../components/docs/GameImage.astro';
+import Icon from '../components/Icon.astro';
+import SearchBar from '../components/SearchBar.astro';
+import logo from '../images/logo.png';
+import logoShare from '../images/logo_share.png';
+import { EXTERNAL_LINKS } from '../lib/external-links.ts';
+import fuelCatalyzer from '../mods/1.12/thermal-expansion/images/augment-fuel-catalyzer.webp';
+
+interface Props {
+  title?: string;
+}
+
+const fullTitle =
+  Astro.props.title === undefined ? 'Team CoFH' : `${Astro.props.title} · Team CoFH`;
+
+const description =
+  "Team CoFH's official site for news, downloads and documentation: Thermal Expansion, the rest of the Thermal Series, Redstone Arsenal and more.";
+
+const banners = import.meta.glob<ImageMetadata>('../images/banners/*.jpg', {
+  eager: true,
+  import: 'default',
+});
+
+const isHome = Astro.url.pathname === '/';
+
+const navLinks = [
+  { title: 'Mods', url: '/mods/', current: ['/mods/', '/docs/'] },
+  { title: 'FAQ', url: '/faq/', current: ['/faq/'] },
+  { title: 'Blog', url: '/blog/', current: ['/blog/', '/posts/'] },
+];
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{fullTitle}</title>
+
+    <meta name="description" content={description} />
+
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content={new URL(logoShare.src, Astro.site)} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site)} />
+    <meta property="og:description" content={description} />
+
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@TeamCoFH" />
+
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="alternate" type="application/rss+xml" title="Team CoFH" href="/feed.xml" />
+
+    <!-- Icons: Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0) Copyright 2026 Fonticons, Inc. -->
+
+    <script is:inline>
+      try {
+        const theme = localStorage.getItem('cofh-theme');
+
+        if (theme === 'dark' || theme === 'light') {
+          document.documentElement.dataset.theme = theme;
+        }
+      } catch {}
+    </script>
+  </head>
+
+  <body class:list={{ home: isHome }}>
+    <header>
+      <div
+        class="banner"
+        data-banners={JSON.stringify(Object.values(banners).map((banner) => banner.src))}
+      >
+        <div class="banner-dim"></div>
+        <div class="wrap">
+          <a class="logo-link" href="/" aria-label="Team CoFH home">
+            <Image src={logo} alt="Team CoFH" loading="eager" />
+          </a>
+        </div>
+      </div>
+
+      <script is:inline>
+        {
+          const banner = document.currentScript.previousElementSibling;
+          const banners = JSON.parse(banner.dataset.banners);
+          const src = banners[Math.floor(Math.random() * banners.length)];
+
+          banner.style.setProperty('--banner', `url("${src}")`);
+        }
+      </script>
+    </header>
+
+    <nav class="navbar" aria-label="Main">
+      <div class="wrap navbar-in">
+        <a class="brand" href="/" aria-current={isHome ? 'page' : undefined}>
+          Team CoFH
+        </a>
+
+        <ul class="nav-links">
+          {navLinks.map((link) => (
+            <li>
+              <a
+                href={link.url}
+                aria-current={
+                  link.current.some((prefix) => Astro.url.pathname.startsWith(prefix))
+                    ? 'page'
+                    : undefined
+                }
+              >
+                {link.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <div class="nav-tools">
+          <SearchBar variant="site" instance="site" />
+
+          <button
+            class="icon-btn theme-btn"
+            type="button"
+            aria-label="Switch to dark mode"
+            data-tooltip="Switch to dark mode"
+          >
+            <span class="theme-to-dark">
+              <Icon name="moon" />
+            </span>
+            <span class="theme-to-light">
+              <Icon name="sun" />
+            </span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+
+    <footer class="site-foot">
+      <div class="wrap foot-in">
+        <ul class="foot-links">
+          {EXTERNAL_LINKS.map((link) => (
+            <li>
+              <a href={link.url}>
+                <Icon name={link.icon} />
+                {link.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <div class="foot-meta">
+          <a href="/feed.xml">
+            <Icon name="rss" />
+            Feed
+          </a>
+          <a href="/sitemap-index.xml">Sitemap</a>
+          <span>&copy; 2015&ndash;{new Date().getUTCFullYear()} Team CoFH</span>
+        </div>
+      </div>
+    </footer>
+
+    <button
+      class="to-top is-hidden"
+      type="button"
+      aria-label="Back to top"
+      data-tooltip="Back to top"
+    >
+      <GameImage image={fuelCatalyzer} height={32} alt="" />
+    </button>
+
+    <script>
+      import '../scripts/tooltip.ts';
+
+      const root = document.documentElement;
+      const themeButton = document.querySelector<HTMLButtonElement>('.theme-btn')!;
+      const browserPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function getBrowserColorScheme() {
+        return browserPrefersDark.matches ? 'dark' : 'light';
+      }
+
+      function getCurrentColorScheme() {
+        return root.dataset.theme === 'dark' || root.dataset.theme === 'light'
+          ? root.dataset.theme
+          : getBrowserColorScheme();
+      }
+
+      function labelThemeButton() {
+        const label =
+          getCurrentColorScheme() === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+
+        themeButton.setAttribute('aria-label', label);
+        themeButton.dataset.tooltip = label;
+      }
+
+      labelThemeButton();
+      browserPrefersDark.addEventListener('change', labelThemeButton);
+
+      themeButton.addEventListener('click', () => {
+        const next = getCurrentColorScheme() === 'dark' ? 'light' : 'dark';
+
+        try {
+          if (next === getBrowserColorScheme()) {
+            localStorage.removeItem('cofh-theme');
+          } else {
+            localStorage.setItem('cofh-theme', next);
+          }
+        } catch {}
+
+        if (next === getBrowserColorScheme()) {
+          delete root.dataset.theme;
+        } else {
+          root.dataset.theme = next;
+        }
+
+        labelThemeButton();
+      });
+
+      const toTop = document.querySelector<HTMLButtonElement>('.to-top')!;
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+      function updateToTop() {
+        toTop.classList.toggle('is-hidden', window.scrollY < 600);
+      }
+
+      document.addEventListener('scroll', updateToTop, { passive: true });
+      updateToTop();
+
+      toTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+        document.getElementById('main')?.focus({ preventScroll: true });
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  .banner {
+    position: relative;
+    height: 84px;
+    overflow: hidden;
+    background: #2a2622;
+  }
+
+  :global(body.home) .banner {
+    height: 172px;
+  }
+
+  .banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--banner) center 40% / cover no-repeat;
+    transform: scale(1.04);
+  }
+
+  .banner::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.28));
+    opacity: 1;
+  }
+
+  .banner-dim {
+    position: absolute;
+    inset: 0;
+    background: #000;
+    opacity: var(--banner-dim);
+  }
+
+  .banner .wrap {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-link {
+    display: inline-block;
+    line-height: 0;
+    border-radius: 6px;
+  }
+
+  .logo-link:hover {
+    text-decoration: none;
+  }
+
+  .logo-link img {
+    height: 56px;
+    width: auto;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.35));
+    transition:
+      transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
+      filter 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  :global(body.home) .logo-link img {
+    height: 124px;
+  }
+
+  .logo-link:hover img {
+    transform: scale(1.03);
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.45));
+  }
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: var(--band);
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 1px 0 var(--shadow);
+  }
+
+  .navbar-in {
+    display: flex;
+    align-items: stretch;
+    height: var(--nav-h);
+    gap: 4px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--fg-strong);
+    padding: 0 14px 0 2px;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+  }
+
+  .brand[aria-current='page'] {
+    color: var(--accent);
+  }
+
+  .brand:hover {
+    text-decoration: none;
+    color: var(--accent);
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .nav-links a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+    color: var(--fg);
+    font-weight: 500;
+    white-space: nowrap;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+  }
+
+  .nav-links a:hover {
+    text-decoration: none;
+    background: var(--band-hover);
+    color: var(--fg-strong);
+  }
+
+  .nav-links a[aria-current='page'] {
+    background: var(--bg);
+    color: var(--accent);
+    border-color: var(--line);
+    margin-bottom: -1px;
+    height: calc(100% + 1px);
+  }
+
+  .nav-links a:focus-visible,
+  .brand:focus-visible {
+    outline-offset: -3px;
+  }
+
+  .nav-tools {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 8px;
+  }
+
+  .icon-btn {
+    display: inline-grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    color: var(--fg);
+  }
+
+  .icon-btn:hover {
+    background: var(--band-hover);
+    color: var(--fg-strong);
+  }
+
+  .icon-btn :global(.icon) {
+    width: 18px;
+    height: 18px;
+  }
+
+  .theme-to-dark {
+    display: contents;
+  }
+
+  .theme-to-light,
+  :global(:root[data-theme='dark']) .theme-to-dark {
+    display: none;
+  }
+
+  :global(:root[data-theme='dark']) .theme-to-light {
+    display: contents;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme='light'])) .theme-to-dark {
+      display: none;
+    }
+
+    :global(:root:not([data-theme='light'])) .theme-to-light {
+      display: contents;
+    }
+  }
+
+  .site-foot {
+    border-top: 1px solid var(--line);
+    background: var(--surface);
+    padding: 26px 0 32px;
+    font-size: 15px;
+  }
+
+  .foot-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 18px 32px;
+    flex-wrap: wrap;
+  }
+
+  .foot-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .foot-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--fg);
+    font-weight: 500;
+  }
+
+  .foot-links a:hover {
+    color: var(--accent);
+  }
+
+  .foot-links :global(.icon) {
+    color: var(--muted);
+  }
+
+  .foot-meta {
+    display: flex;
+    gap: 6px 18px;
+    flex-wrap: wrap;
+    color: var(--muted);
+  }
+
+  .foot-meta a {
+    color: var(--muted);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .foot-meta a:hover {
+    color: var(--accent);
+  }
+
+  .to-top {
+    position: fixed;
+    right: max(16px, env(safe-area-inset-right, 0px));
+    bottom: 16px;
+    z-index: 25;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    cursor: pointer;
+    box-shadow:
+      0 4px 16px var(--shadow-strong),
+      inset 0 1px 0 var(--bg);
+    transition:
+      opacity 0.2s,
+      transform 0.2s,
+      border-color 0.15s;
+  }
+
+  .to-top :global(img) {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+    display: block;
+    transition: transform 0.15s;
+  }
+
+  .to-top:hover {
+    border-color: var(--accent-line);
+    background: var(--surface-2);
+  }
+
+  .to-top:hover :global(img) {
+    transform: translateY(-2px);
+  }
+
+  .to-top.is-hidden {
+    opacity: 0;
+    transform: translateY(8px);
+    pointer-events: none;
+  }
+
+  @media (max-width: 600px) {
+    .brand {
+      font-size: 17px;
+      padding-right: 8px;
+    }
+
+    .nav-links a {
+      padding: 0 9px;
+    }
+
+    .nav-tools {
+      padding-left: 2px;
+      gap: 2px;
+    }
+
+    :global(body.home) .banner {
+      height: 132px;
+    }
+
+    :global(body.home) .logo-link img {
+      height: 92px;
+    }
+
+    .banner {
+      height: 68px;
+    }
+
+    .logo-link img {
+      height: 46px;
+    }
+  }
+
+  @media (max-width: 399px) {
+    .brand {
+      display: none;
+    }
+  }
+</style>

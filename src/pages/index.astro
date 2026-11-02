@@ -1,15 +1,236 @@
 ---
-import PostList from '../components/posts/PostList.astro';
-import Blog from '../layouts/Blog.astro';
-import { getPosts, POSTS_PER_PAGE } from '../lib/posts.ts';
+import Icon from '../components/Icon.astro';
+import ModRow from '../components/mods/ModRow.astro';
+import ModSectionHead from '../components/mods/ModSectionHead.astro';
+import Site from '../layouts/Site.astro';
+import { DISCORD_URL } from '../lib/external-links.ts';
+import { currentVersion } from '../lib/mods.ts';
+import { formatPostDate, getPostDate, getPostExcerpt, getPosts, getPostURL } from '../lib/posts.ts';
 
-const posts = await getPosts();
+const recentPosts = (await getPosts()).slice(0, 4);
 ---
 
-<Blog title={undefined} showBanner>
-  <PostList
-    posts={posts.slice(0, POSTS_PER_PAGE)}
-    currentPage={1}
-    lastPage={Math.ceil(posts.length / POSTS_PER_PAGE)}
-  />
-</Blog>
+<Site>
+  <div class="wrap">
+    <div class="home-grid">
+      <div class="home-main">
+        <p class="lede">
+          We've been making stable, performant Minecraft mods since 2012, most notably Thermal
+          Expansion and the rest of the Thermal Series.
+        </p>
+
+        <section aria-labelledby="mods-heading">
+          <div class="section-head">
+            <h2 id="mods-heading">Mods for Minecraft {currentVersion.label}</h2>
+
+            <a class="more-link" href="/mods/">
+              More info and older versions
+              <Icon name="arrowRight" />
+            </a>
+          </div>
+
+          {currentVersion.sections.map((section) => (
+            <div class="mod-section">
+              <ModSectionHead section={section} level={3} />
+
+              <ul class="mod-list">
+                {section.mods.map((mod) => (
+                  <ModRow version={currentVersion} mod={mod} />
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      </div>
+
+      <aside class="home-side" aria-label="Help and news">
+        <section class="side-box callout" aria-labelledby="help-heading">
+          <h2 id="help-heading">Need help?</h2>
+
+          <div class="callout-actions">
+            <a class="btn btn-sm btn-primary" href={DISCORD_URL}>
+              <Icon name="chat" />
+              <span>Join the Discord</span>
+            </a>
+
+            <a class="btn btn-sm btn-quiet" href="/faq/">
+              <Icon name="help" />
+              <span>Read the FAQ</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="side-box blog-strip" aria-labelledby="blog-heading">
+          <h2 id="blog-heading">From the blog</h2>
+
+          <p class="side-sub">Occasional updates from the team.</p>
+
+          <ol class="blog-list">
+            {recentPosts.map((post, index) => (
+              <li>
+                <time datetime={getPostDate(post).toISOString().slice(0, 10)}>
+                  {formatPostDate(getPostDate(post))}
+                </time>
+
+                <h3>
+                  <a href={getPostURL(post)}>{post.data.title}</a>
+                </h3>
+
+                {index === 0 && <p set:html={getPostExcerpt(post)} />}
+              </li>
+            ))}
+          </ol>
+
+          <a class="more-link" href="/blog/">
+            All posts
+            <Icon name="arrowRight" />
+          </a>
+        </section>
+      </aside>
+    </div>
+  </div>
+</Site>
+
+<style>
+  .home-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 272px;
+    gap: 48px;
+    padding-top: 32px;
+  }
+
+  .lede {
+    font-size: 22px;
+    line-height: 1.45;
+    color: var(--fg-strong);
+    margin: 0 0 22px;
+    max-width: 34em;
+    letter-spacing: -0.005em;
+  }
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 44px 0 14px;
+  }
+
+  .section-head h2 {
+    font-size: 26px;
+    margin: 0;
+  }
+
+  .callout-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .callout h2 {
+    margin-bottom: 12px;
+  }
+
+  .mod-section {
+    margin-top: 20px;
+  }
+
+  .mod-section + .mod-section {
+    margin-top: 26px;
+  }
+
+  .mod-list {
+    list-style: none;
+    margin: 4px 0 0;
+    padding: 0;
+  }
+
+  .side-box {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+  }
+
+  .side-box + .side-box {
+    margin-top: 18px;
+  }
+
+  .side-box h2 {
+    font-size: 17px;
+    margin: 0 0 8px;
+  }
+
+  .blog-strip time {
+    font-size: 13px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .blog-list {
+    list-style: none;
+    margin: 0 0 12px;
+    padding: 0;
+  }
+
+  .blog-list li {
+    padding: 9px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .blog-list li:first-child {
+    padding-top: 0;
+  }
+
+  .blog-strip h3 {
+    margin: 1px 0 0;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .blog-list li:first-child h3 {
+    font-size: 17px;
+  }
+
+  .side-box .side-sub {
+    margin: -4px 0 14px;
+    font-size: 14px;
+    color: var(--muted);
+    display: block;
+  }
+
+  .blog-strip li p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @media (max-width: 999px) {
+    .home-grid {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 36px;
+    }
+
+    .home-side {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+    }
+
+    .side-box + .side-box {
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .lede {
+      font-size: 19px;
+    }
+  }
+</style>

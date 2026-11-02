@@ -1,0 +1,112 @@
+---
+import Icon from '../components/Icon.astro';
+import Site from '../layouts/Site.astro';
+import { formatPostDate, getPostDate, getPostExcerpt, getPosts, getPostURL } from '../lib/posts.ts';
+
+const posts = await getPosts();
+---
+
+<Site title="Blog">
+  <div class="wrap reading">
+    <header class="page-head">
+      <h1>Blog</h1>
+    </header>
+
+    <ol class="post-list">
+      {posts.map((post) => (
+        <li class="post">
+          <time datetime={getPostDate(post).toISOString().slice(0, 10)}>
+            {formatPostDate(getPostDate(post))}
+          </time>
+
+          <div>
+            <h2>
+              <a href={getPostURL(post)}>{post.data.title}</a>
+            </h2>
+
+            <p class="by">
+              By <strong>{post.data.author}</strong>
+            </p>
+
+            <p class="excerpt" set:html={getPostExcerpt(post)} />
+
+            <a class="more-link" href={getPostURL(post)}>
+              Read more
+              <Icon name="arrowRight" />
+            </a>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
+</Site>
+
+<style>
+  .post-list {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: 28px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .post {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
+    row-gap: 4px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .post:first-child {
+    padding-top: 4px;
+  }
+
+  .post time {
+    color: var(--muted);
+    font-size: 15px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    padding-top: 4px;
+  }
+
+  .post h2 {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .post h2 a {
+    color: var(--fg-strong);
+  }
+
+  .post h2 a:hover {
+    color: var(--accent);
+  }
+
+  .post .by {
+    margin: 2px 0 8px;
+    font-size: 15px;
+    color: var(--muted);
+  }
+
+  .post .by strong {
+    color: var(--fg);
+    font-weight: 600;
+  }
+
+  .post p.excerpt {
+    margin: 0 0 8px;
+  }
+
+  @media (max-width: 760px) {
+    .post-list {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .post time {
+      padding: 0;
+    }
+  }
+</style>

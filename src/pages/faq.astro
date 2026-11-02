@@ -1,0 +1,72 @@
+---
+import TableOfContents from '../components/TableOfContents.astro';
+import Faq, { getHeadings } from '../content/faq.mdx';
+import Site from '../layouts/Site.astro';
+
+const groups = getHeadings().filter((heading) => heading.depth === 2);
+---
+
+<Site title="FAQ">
+  <div class="wrap">
+    <div class="doc-grid">
+      <div data-pagefind-body>
+        <header class="page-head">
+          <h1>Frequently asked questions (FAQ)</h1>
+        </header>
+
+        <TableOfContents headings={groups} inline />
+
+        <div class="faq prose section-numbers">
+          <Faq />
+        </div>
+      </div>
+
+      <TableOfContents headings={groups} />
+    </div>
+  </div>
+</Site>
+
+<style>
+  .doc-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 232px;
+    gap: 56px;
+    align-items: start;
+  }
+
+  .faq {
+    padding-bottom: 44px;
+  }
+
+  .faq :global(h2) {
+    margin: 54px 0 6px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+    font-size: 27px;
+  }
+
+  .faq :global(h2:first-child) {
+    margin-top: 0;
+  }
+
+  .faq :global(h3) {
+    margin: 26px -12px 4px;
+    padding: 2px 12px;
+    border-radius: var(--radius);
+    font-size: 18px;
+  }
+
+  .faq :global(h2 + h3) {
+    margin-top: 18px;
+  }
+
+  .faq :global(p) {
+    margin: 0 0 10px;
+  }
+
+  @media (max-width: 1099px) {
+    .doc-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

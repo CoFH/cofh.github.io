@@ -1,0 +1,94 @@
+---
+import { Image } from 'astro:assets';
+
+import { getModLogo } from '../../lib/mods.ts';
+import type { ModListMod, ModListVersion } from '../../mods/types.ts';
+import DocsButton from './DocsButton.astro';
+import DownloadButtons from './DownloadButtons.astro';
+
+interface Props {
+  version: ModListVersion;
+  mod: ModListMod;
+}
+
+const { version, mod } = Astro.props;
+
+const logo = getModLogo(version.mc, mod.slug);
+---
+
+<li class="row">
+  <div class="logo">
+    {logo !== undefined && (
+      <Image src={logo} alt={`${mod.title} logo`} height={46} densities={[1, 2]} />
+    )}
+  </div>
+
+  <div class="text">
+    <h4>{mod.title}</h4>
+    <p>{mod.summary}</p>
+  </div>
+
+  <div class="buttons">
+    <DownloadButtons mod={mod} small />
+    <DocsButton version={version} mod={mod} small />
+  </div>
+</li>
+
+<style>
+  .row {
+    display: grid;
+    grid-template-columns: 136px minmax(0, 1fr) auto;
+    gap: 18px;
+    align-items: center;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .logo {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo img {
+    max-height: 46px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .text h4 {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  .text p {
+    margin: 1px 0 0;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  @media (max-width: 760px) {
+    .row {
+      grid-template-columns: 96px minmax(0, 1fr);
+      row-gap: 8px;
+      align-items: start;
+      padding: 14px 4px;
+    }
+
+    .logo {
+      height: 40px;
+    }
+
+    .row .buttons {
+      grid-column: 2;
+    }
+  }
+</style>

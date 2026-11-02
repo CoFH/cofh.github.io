@@ -19,11 +19,14 @@
     "@astrojs/mdx": "8.1.0",
     "@astrojs/rss": "4.0.19",
     "@astrojs/sitemap": "3.7.4",
+    "@floating-ui/dom": "1.8.0",
+    "@fortawesome/free-solid-svg-icons": "7.3.1",
     "@pagefind/component-ui": "1.5.2",
     "astro": "7.4.0",
     "astro-pagefind": "2.0.1",
     "jquery": "3.2.1",
     "pagefind": "1.5.2",
+    "simple-icons": "16.35.0",
     "uikit": "2.23.0"
   },
   "devDependencies": {

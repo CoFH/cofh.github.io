@@ -1,0 +1,172 @@
+import { DISCORD_URL } from '../lib/external-links.ts';
+
+## Releases
+
+### Which Minecraft versions are supported?
+
+See the [Mods](/mods/) page for the latest supported Minecraft version. Older versions get no new
+content or bug fixes.
+
+### Is there an ETA for X?
+
+No. Things come out as they are ready. Please be patient and understanding.
+
+### Will you make Fabric, Quilt or Bedrock versions?
+
+No. We have no plans to put our mods on Fabric, Quilt or Bedrock. If you want to play Fabric mods
+alongside ours, [Sinytra Connector](https://modrinth.com/mod/connector) runs many of them on Forge
+and NeoForge.
+
+### Can I port a CoFH mod to another loader?
+
+No. CoFH mods cannot be ported to other loaders. This includes Thaumcraft.
+
+### What are the plans for Thaumcraft?
+
+It is being worked on; there is no ETA and there are no early builds. Join our
+<a href={DISCORD_URL}>Discord</a> for teasers and development updates.
+
+## Using the mods
+
+### Can I use your mods in my modpack?
+
+Yes.
+
+### Where are the configs?
+
+Some configs are in the normal `config` folder; others are in the `serverconfig` folder inside your
+world folder. To apply those to every new world, copy the changed files into the `defaultconfigs`
+folder.
+
+### Where are the docs for newer versions?
+
+They are being worked on. Until then, use the Thermalpedia
+([Patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli)) and
+[JEI](https://www.curseforge.com/minecraft/mc-mods/jei). The existing
+[Minecraft 1.12 docs](/mods/1.12/) will remain available.
+
+### How do I add recipes with KubeJS or CraftTweaker?
+
+Ask on their Discord servers: you will get faster and better help there. We are happy to help with
+data packs.
+
+### Which mods are known to cause problems?
+
+OptiFine crashes the game. Remove it.
+
+### Where can I get help, report bugs or suggest things?
+
+On <a href={DISCORD_URL}>Discord</a>: `#bug-reports` for bugs, `#suggestions` for ideas and
+`#tech-support` for help.
+
+## Thermal Series
+
+### My game asks for "thermal". Which mod is that?
+
+That is [Thermal Foundation](/mods/#thermal-foundation). It's required when installing any other
+mod in the Thermal Series.
+
+### Where are the tools made from Thermal metals?
+
+They moved to [Tool's Complement](/mods/#tools-complement). It doesn't need Thermal: tools appear
+for any mod that adds the metals.
+
+### Where are tiered ducts, itemducts and covers?
+
+Tiered ducts are gone: ducts move plenty without upgrades. Itemducts will return later.
+Duct covers are not planned for now.
+
+### Why is my dynamo slowly losing power?
+
+A dynamo's energy buffer is only a throttle; dynamos are not meant to store energy. Use a Redstone
+Flux Cell for that.
+
+### Can you make mod X work with Thermal machines?
+
+Sure, as long as it doesn't break the other mod or conflict with Thermal. Post it in `#suggestions`
+on <a href={DISCORD_URL}>Discord</a>.
+
+### How do I change ore generation in the newer versions?
+
+There is a config to turn the ores on or off. To change sizes, counts and heights, use a
+[data pack](https://minecraft.wiki/w/Data_pack) that overrides
+`data/thermal/worldgen/placed_feature`. Copy those files from the Thermal Foundation jar or
+[its GitHub repository](https://github.com/CoFH/ThermalFoundation/tree/1.20.1/src/main/generated/data/thermal/worldgen/placed_feature)
+and change `size`, `count`, `min_inclusive` or `max_inclusive`. You can use
+[Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader) to apply the data pack to
+every new world.
+
+### Is the Blitz being removed now that the Breeze exists?
+
+No. The Breeze is air; the Blitz is lightning.
+
+## Units and terms
+
+### What is Redstone Flux (RF)?
+
+The energy system of Team CoFH's mods. It is the same as Forge Energy (FE), so Thermal machines
+work with any mod that uses it.
+
+See [Redstone Flux: A Primer](/posts/2014/10/10/redstone-flux-a-primer/) for an in-universe
+explanation.
+
+### What is the history of Redstone Flux?
+
+Thermal Expansion originally ran on BuildCraft's Minecraft Joules (MJ). As MJ's API grew
+increasingly complex and opinionated, Thermal Expansion 3 for Minecraft 1.6 replaced it with
+Redstone Flux. RF was simpler and lossless, and any mod could include it without depending on
+Thermal Expansion.
+
+Many other mods quickly adopted Redstone Flux. Eventually, Forge based its own energy system, Forge
+Energy, on it. Our mods switched to Forge Energy too, but still call it RF.
+
+### What is a millibucket (mB)?
+
+The unit for amounts of [fluid](https://minecraft.wiki/w/Fluid): one bucket holds 1,000 mB. It is
+the unit of the fluid system in Forge and NeoForge, which lets mods move and store fluids in amounts
+smaller than a bucket.
+
+### What do RF/t and mB/t mean?
+
+RF or mB per [tick](https://minecraft.wiki/w/Tick) (1/20 of a second): the rate at which energy or
+fluid is moved, produced or used.
+
+### What is the difference between RF and RF/t?
+
+RF is an amount of energy; RF/t is a rate, also called power. A job takes a fixed amount of energy,
+and the machine's power decides how long it takes. For example, a Pulverizer spends 4,000 RF per
+ore. At 20 RF/t that takes 200 ticks (10 seconds), and upgrading its maximum power usage shortens
+that time.
+
+## Team CoFH
+
+### What does CoFH stand for?
+
+<dfn>Cult of the Full Hub</dfn>: the name of King Lemming and Cynycal's LAN gaming group in the late
+'90s, also known as a hub. Its goal was to fill the hub to its cap of 8 people, and eventually it
+did so routinely.
+
+### What are the origins of Team CoFH?
+
+In 2012, King Lemming and Cynycal teamed up as Team CoFH to make Minecraft mods. It was mostly a
+way for King Lemming to learn Java. They started on Brewcraft, a farming mod with a brewing
+overhaul.
+
+Soon after, King Lemming began experimenting with a furnace that ran on BuildCraft's Minecraft
+Joules. More blocks like it followed, and together they became the first version of
+[Thermal Expansion](/mods/#thermal-expansion), for Minecraft 1.2. Brewcraft was left behind.
+
+Since then, Thermal Expansion grew and eventually split up into the Thermal Series. One of its mods,
+[Thermal Cultivation](/mods/#thermal-cultivation), is a farming mod, bringing things full circle.
+
+### Who is part of Team CoFH today?
+
+It changes over time, as people join, move on or help with a single mod. King Lemming still leads
+development. You can find the current team on [GitHub](https://github.com/CoFH) and on
+<a href={DISCORD_URL}>Discord</a>.
+
+### How can I support the team?
+
+Become a monthly member on [King Lemming's Ko-fi](https://ko-fi.com/kinglemming) or
+[Reda's Ko-fi](https://ko-fi.com/floofhips), or boost the <a href={DISCORD_URL}>Discord server</a>.
+Nice words go a long way too!

@@ -153,6 +153,7 @@ export interface DocNavItem {
 export interface ModListVersion {
   mc: string;
   label: string;
+  major?: true;
   sections: ModListSection[];
 }
 

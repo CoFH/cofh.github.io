@@ -1,0 +1,58 @@
+---
+import { getModDocs } from '../../lib/mods.ts';
+import type { ModListMod, ModListVersion } from '../../mods/types.ts';
+import Icon from '../Icon.astro';
+
+interface Props {
+  version: ModListVersion;
+  mod: ModListMod;
+  small?: boolean;
+}
+
+const { version, mod, small } = Astro.props;
+
+const docs = await getModDocs(version.mc, mod);
+
+const classes = ['btn', 'btn-quiet', { 'btn-sm': small }];
+
+const wipLabel = `Docs for Minecraft ${version.label} are being worked on.`;
+---
+
+{docs?.kind === 'link' && (
+  <a class:list={classes} href={docs.href} aria-label={`${mod.title} docs`}>
+    <Icon name="book" />
+    <span>Docs</span>
+  </a>
+)}
+
+{docs?.kind === 'wip' && (
+  <span class="wip" tabindex="0" data-tooltip={wipLabel} aria-label={wipLabel}>
+    <span class="inner" aria-hidden="true">
+      <span class:list={classes}>
+        <Icon name="book" />
+        <span>Docs</span>
+      </span>
+    </span>
+  </span>
+)}
+
+<style>
+  .wip {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+  .inner {
+    display: inline-flex;
+    flex: 1 1 auto;
+    opacity: 0.45;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .inner .btn {
+    flex: 1 1 auto;
+  }
+</style>

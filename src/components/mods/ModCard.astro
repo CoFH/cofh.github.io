@@ -1,0 +1,190 @@
+---
+import { Image } from 'astro:assets';
+
+import { getModLogo } from '../../lib/mods.ts';
+import type { ModListMod, ModListVersion } from '../../mods/types.ts';
+import Icon from '../Icon.astro';
+import DocsButton from './DocsButton.astro';
+import DownloadButtons from './DownloadButtons.astro';
+
+interface Props {
+  version: ModListVersion;
+  mod: ModListMod;
+}
+
+const { version, mod } = Astro.props;
+
+const logo = getModLogo(version.mc, mod.slug);
+
+const titles = new Map(
+  version.sections.flatMap((section) => section.mods).map((item) => [item.slug, item.title]),
+);
+---
+
+<article class="card" id={mod.slug} aria-labelledby={`${mod.slug}-title`}>
+  <div class="logo">
+    {logo !== undefined && (
+      <Image src={logo} alt={`${mod.title} logo`} height={64} densities={[1, 2]} />
+    )}
+  </div>
+
+  <div class="body">
+    <h3 id={`${mod.slug}-title`}>{mod.title}</h3>
+
+    <p class="summary">{mod.summary}</p>
+
+    {mod.requires !== undefined && (
+      <div class="requires">
+        <span>Requires</span>
+        {mod.requires.map((slug) => (
+          <a class="chip" href={`#${slug}`}>
+            {titles.get(slug)}
+          </a>
+        ))}
+      </div>
+    )}
+
+    <div class="buttons">
+      <DownloadButtons mod={mod} />
+      <DocsButton version={version} mod={mod} />
+    </div>
+
+    <div class="links">
+      {mod.links.source !== undefined && (
+        <a href={mod.links.source}>
+          <Icon name="code" small />
+          Source
+        </a>
+      )}
+
+      {mod.links.changelog !== undefined && (
+        <a href={mod.links.changelog}>
+          <Icon name="file" small />
+          Changelog
+        </a>
+      )}
+    </div>
+  </div>
+</article>
+
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--bg);
+    transition:
+      border-color 0.15s,
+      box-shadow 0.15s,
+      transform 0.15s;
+    scroll-margin-top: calc(var(--nav-h) + 24px);
+  }
+
+  .card:hover {
+    border-color: var(--line-strong);
+    box-shadow: 0 4px 16px var(--shadow);
+  }
+
+  .card:target {
+    animation: target-ring 1.6s ease;
+  }
+
+  .logo {
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+    border-radius: 10px 10px 0 0;
+  }
+
+  .logo img {
+    max-height: 64px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 14px 16px 14px;
+  }
+
+  .body h3 {
+    margin: 0;
+    font-size: 19px;
+  }
+
+  .summary {
+    margin: 8px 0 0;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+
+  .requires {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    height: 24px;
+    padding: 0 9px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--fg);
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .chip:hover {
+    border-color: var(--accent-line);
+    background: var(--accent-soft);
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: auto;
+    padding-top: 14px;
+  }
+
+  .buttons > :global(*) {
+    flex: 1 1 auto;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    min-height: 1lh;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .links a {
+    color: var(--muted);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .links a:hover {
+    color: var(--accent);
+  }
+</style>

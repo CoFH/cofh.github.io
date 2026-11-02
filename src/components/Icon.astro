@@ -1,0 +1,33 @@
+---
+import { type IconName, icons } from '../lib/icons.ts';
+
+interface Props {
+  name: IconName;
+  small?: boolean;
+}
+
+const { viewBox, path } = icons[Astro.props.name];
+---
+
+<svg
+  class:list={['icon', { 'icon-sm': Astro.props.small }]}
+  viewBox={viewBox}
+  aria-hidden="true"
+  focusable="false"
+>
+  <path d={path} fill="currentColor" />
+</svg>
+
+<style is:global>
+  .icon {
+    width: 16px;
+    height: 16px;
+    flex: none;
+    vertical-align: -2px;
+  }
+
+  .icon-sm {
+    width: 15px;
+    height: 15px;
+  }
+</style>

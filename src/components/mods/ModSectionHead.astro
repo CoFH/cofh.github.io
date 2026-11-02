@@ -1,0 +1,50 @@
+---
+import type { ModListSection } from '../../mods/types.ts';
+
+interface Props {
+  section: ModListSection;
+  level: 2 | 3;
+}
+
+const { section, level } = Astro.props;
+
+const Heading = level === 2 ? 'h2' : 'h3';
+---
+
+<div class="head">
+  <Heading>{section.title}</Heading>
+
+  <span class="count">{section.mods.length}</span>
+</div>
+
+<style>
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: var(--band);
+    padding: 8px 14px;
+    border-radius: 6px;
+  }
+
+  .head :is(h2, h3) {
+    margin: 0;
+    font-size: 19px;
+  }
+
+  .count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22px;
+    height: 20px;
+    padding: 0 7px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: var(--line-strong);
+    color: var(--fg-strong);
+    font: 600 12.5px/1 var(--font);
+    font-variant-numeric: tabular-nums;
+  }
+</style>

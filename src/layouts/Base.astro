@@ -26,7 +26,7 @@ const fullTitle =
   Astro.props.title === undefined ? 'Team CoFH' : `${Astro.props.title} - Team CoFH`;
 
 const description =
-  'The official site for news, downloads and documentation for the Team CoFH Minecraft mods: Redstone Flux, CoFH Core, CoFH World, Thermal Series (Thermal Expansion, Thermal Foundation, Thermal Dynamics, Thermal Cultivation, Thermal Innovation), Redstone Arsenal, Vanilla+ Series (Tools, Satchels)';
+  "Team CoFH's official site for news, downloads and documentation: Thermal Expansion, the rest of the Thermal Series, Redstone Arsenal and more.";
 
 const banners = import.meta.glob<ImageMetadata>('../images/banners/*.jpg', {
   eager: true,
@@ -34,9 +34,9 @@ const banners = import.meta.glob<ImageMetadata>('../images/banners/*.jpg', {
 });
 
 const navbarLinks = [
-  { title: 'About', url: '/about/' },
-  { title: 'Documentation', url: '/docs/' },
-  { title: 'Downloads', url: '/downloads/' },
+  { title: 'Mods', url: '/mods/' },
+  { title: 'FAQ', url: '/faq/' },
+  { title: 'Blog', url: '/blog/' },
 ];
 ---
 
@@ -127,13 +127,17 @@ const navbarLinks = [
           ))}
         </ul>
 
-        <SearchBar class="uk-navbar-content uk-navbar-flip uk-hidden-small" instance="navbar" />
+        <SearchBar
+          variant="legacy"
+          class="uk-navbar-content uk-navbar-flip uk-hidden-small"
+          instance="navbar"
+        />
       </div>
     </nav>
 
     <div id="cofh-offcanvas" class="uk-offcanvas">
       <div class="uk-offcanvas-bar">
-        <SearchBar class="uk-panel" instance="offcanvas" hideShortcut />
+        <SearchBar variant="legacy" class="uk-panel" instance="offcanvas" hideShortcut />
 
         <ul class="uk-nav uk-nav-offcanvas">
           <li class:list={{ 'uk-active': Astro.url.pathname === '/' }}>
@@ -144,9 +148,6 @@ const navbarLinks = [
               <a href={link.url}>{link.title}</a>
             </li>
           ))}
-          <li class:list={{ 'uk-active': Astro.url.pathname.startsWith('/archive/') }}>
-            <a href="/archive/">Archive</a>
-          </li>
           <li class="uk-nav-divider"></li>
           {EXTERNAL_LINKS.map((link) => (
             <li>

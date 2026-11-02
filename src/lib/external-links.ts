@@ -1,27 +1,26 @@
-export const EXTERNAL_LINKS = [
+import type { IconName } from './icons.ts';
+
+export const DISCORD_URL = 'https://discord.gg/uRKrnbH';
+
+export const EXTERNAL_LINKS: { title: string; url: string; icon: IconName }[] = [
+  {
+    title: 'Discord',
+    url: DISCORD_URL,
+    icon: 'chat',
+  },
   {
     title: 'CurseForge',
     url: 'https://www.curseforge.com/members/teamcofh/projects',
-    icon: 'uk-icon-fire',
+    icon: 'curseforge',
   },
   {
     title: 'Modrinth',
     url: 'https://modrinth.com/user/KingLemming',
-    icon: 'uk-icon-wrench',
+    icon: 'modrinth',
   },
   {
     title: 'GitHub',
-    url: 'http://www.github.com/CoFH',
-    icon: 'uk-icon-github',
-  },
-  {
-    title: 'Patreon',
-    url: 'https://www.patreon.com/TeamCoFH',
-    icon: 'uk-icon-usd',
-  },
-  {
-    title: 'Discord',
-    url: 'https://discord.gg/uRKrnbH',
-    icon: 'uk-icon-comments',
+    url: 'https://github.com/CoFH',
+    icon: 'github',
   },
 ];

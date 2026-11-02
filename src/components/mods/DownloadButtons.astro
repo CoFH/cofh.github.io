@@ -1,0 +1,33 @@
+---
+import type { ModListMod } from '../../mods/types.ts';
+import Icon from '../Icon.astro';
+
+interface Props {
+  mod: ModListMod;
+  small?: boolean;
+}
+
+const { mod, small } = Astro.props;
+---
+
+{mod.links.curseforge !== undefined && (
+  <a
+    class:list={['btn', { 'btn-sm': small }]}
+    href={mod.links.curseforge}
+    aria-label={`Download ${mod.title} on CurseForge`}
+  >
+    <Icon name="curseforge" />
+    <span>CurseForge</span>
+  </a>
+)}
+
+{mod.links.modrinth !== undefined && (
+  <a
+    class:list={['btn', { 'btn-sm': small }]}
+    href={mod.links.modrinth}
+    aria-label={`Download ${mod.title} on Modrinth`}
+  >
+    <Icon name="modrinth" />
+    <span>Modrinth</span>
+  </a>
+)}

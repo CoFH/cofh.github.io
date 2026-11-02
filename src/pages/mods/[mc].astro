@@ -1,0 +1,19 @@
+---
+import type { GetStaticPaths } from 'astro';
+
+import ModsPage from '../../components/mods/ModsPage.astro';
+import { currentVersion } from '../../lib/mods.ts';
+import modList from '../../mods/mod-list.ts';
+
+export const getStaticPaths = (() =>
+  modList
+    .filter((version) => version !== currentVersion)
+    .map((version) => ({
+      params: { mc: version.mc },
+      props: { version },
+    }))) satisfies GetStaticPaths;
+
+const { version } = Astro.props;
+---
+
+<ModsPage version={version} />

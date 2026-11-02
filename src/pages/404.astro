@@ -2,21 +2,41 @@
 import { Image } from 'astro:assets';
 
 import notFound from '../images/404.png';
-import Base from '../layouts/Base.astro';
+import Site from '../layouts/Site.astro';
 ---
 
-<Base title="Page not found" showBanner={false}>
-  <div
-    class="uk-width-1-1 uk-width-medium-3-4 uk-container-center uk-text-center"
-    style="margin-top: 20px; margin-bottom: 40px"
-  >
+<Site title="Page not found">
+  <div class="wrap not-found">
     <Image src={notFound} alt="" loading="eager" />
 
     <h1>Page not found</h1>
 
     <p>
       There is no page at this address. Try the search above, or start from the{' '}
-      <a href="/docs/">documentation</a> or the <a href="/downloads/">downloads</a>.
+      <a href="/mods/">mods</a> or the <a href="/faq/">FAQ</a>.
     </p>
   </div>
-</Base>
+</Site>
+
+<style>
+  :global(main):has(> .not-found) {
+    display: grid;
+    grid-template-rows: 1fr auto 3fr;
+  }
+
+  .not-found {
+    grid-row: 2;
+    padding-top: 48px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 20px 0 8px;
+    font-size: clamp(30px, 4.2vw, 40px);
+  }
+
+  p {
+    margin: 0;
+    color: var(--muted);
+  }
+</style>
