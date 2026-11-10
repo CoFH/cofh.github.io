@@ -1,7 +1,6 @@
 import type { DocNav } from '../../types.ts';
 
 export default {
-  title: 'CoFH Core (Minecraft 1.12)',
   sections: [
     {
       groups: [

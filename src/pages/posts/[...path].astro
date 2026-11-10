@@ -22,20 +22,8 @@ const { Content } = await render(post);
 
 <Site title={`${title} · Blog`}>
   <div class="wrap reading">
-    <nav class="crumbs" aria-label="Breadcrumb">
-      <a class="crumb" href="/blog/">
-        Blog
-      </a>
-
-      <span class="separator">
-        <Icon name="chevronRight" />
-      </span>
-
-      <span aria-current="page">{title}</span>
-    </nav>
-
     <article aria-labelledby="post-title" data-pagefind-body>
-      <header class="page-head head">
+      <header class="page-head">
         <h1 id="post-title">{title}</h1>
 
         <p class="meta">
@@ -76,58 +64,10 @@ const { Content } = await render(post);
 </Site>
 
 <style>
-  .crumbs {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 4px 6px;
-    padding-top: 22px;
-    font-size: 15px;
-    color: var(--muted);
-  }
-
-  .crumb {
-    display: inline-flex;
-    align-items: center;
-    height: 30px;
-    padding: 0 10px;
-    border: 1px solid var(--line-strong);
-    border-radius: 6px;
-    background: var(--bg);
-    color: var(--fg-strong);
-    font-weight: 600;
-  }
-
-  .crumb:hover {
-    border-color: var(--accent-line);
-    background: var(--accent-soft);
-    color: var(--accent-hover);
-    text-decoration: none;
-  }
-
-  .separator {
-    display: inline-flex;
-    color: var(--faint);
-  }
-
-  .separator :global(.icon) {
-    width: 11px;
-    height: 11px;
-  }
-
-  .crumbs [aria-current='page'] {
-    color: var(--fg-strong);
-    font-weight: 600;
-  }
-
-  .head {
-    padding-top: 14px;
-  }
-
   .meta {
     margin: 8px 0 0;
     color: var(--muted);
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .meta strong {

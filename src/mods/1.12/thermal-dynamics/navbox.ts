@@ -2,7 +2,6 @@ import type { DocNav } from '../../types.ts';
 import td from './items.ts';
 
 export default {
-  title: 'Thermal Dynamics (Minecraft 1.12)',
   sections: [
     {
       groups: [

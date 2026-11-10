@@ -158,7 +158,7 @@ export default {
     url: 'augment-flux-linkage-concentrator/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/energetic-infuser/">Energetic Infuser</a>',
     description:
-      'A specialization that greatly increases an energetic infuser\'s maximum power usage (speed) when charging items that hold <a href="/docs/redstone-flux/">Redstone Flux</a>. The machine will still be limited by the maximum charging rate of items it charges.',
+      'A specialization that greatly increases an energetic infuser\'s maximum power usage (speed) when charging items that hold <a href="/faq/#what-is-redstone-flux-rf">Redstone Flux</a>. The machine will still be limited by the maximum charging rate of items it charges.',
   },
   'machine-charger-repair': {
     name: 'Flux Reconstruction',
@@ -266,7 +266,7 @@ export default {
     installedIn:
       '<a href="/docs/1.12/thermal-expansion/steam-dynamo/">Steam Dynamo</a> or<br /> <a href="/docs/1.12/thermal-expansion/magmatic-dynamo/">Magmatic Dynamo</a> or<br /> <a href="/docs/1.12/thermal-expansion/compression-dynamo/">Compression Dynamo</a>',
     description:
-      'A specialization that changes an applicable dynamo to convert <a href="https://minecraft.wiki/w/Water">water</a> into <a href="/docs/1.12/thermal-foundation/steam/">steam</a> instead of generating <a href="/docs/redstone-flux/">Redstone Flux</a>. This increases fuel efficiency.',
+      'A specialization that changes an applicable dynamo to convert <a href="https://minecraft.wiki/w/Water">water</a> into <a href="/docs/1.12/thermal-foundation/steam/">steam</a> instead of generating <a href="/faq/#what-is-redstone-flux-rf">Redstone Flux</a>. This increases fuel efficiency.',
   },
   'dynamo-steam-turbine': {
     name: 'Turbine Conversion',

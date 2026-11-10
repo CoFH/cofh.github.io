@@ -8,11 +8,22 @@ interface Props {
 
 const { item } = Astro.props;
 
-const Link = item.href === undefined ? 'span' : 'a';
+const Link = item.href !== undefined ? 'a' : 'span';
 ---
 
-<Link href={item.href} aria-label={item.href !== undefined ? item.name : undefined}>
-  <div title={item.name} data-uk-tooltip="{pos: 'top', offset: 4}">
-    <GameImage image={item.slotImage ?? item.image} height={32} alt={item.name} />
-  </div>
+<Link
+  class="slot-item"
+  href={item.href}
+  aria-label={item.href !== undefined ? item.name : undefined}
+  data-tooltip={item.name}
+>
+  <GameImage image={item.slotImage ?? item.image} height={32} alt={item.name} />
 </Link>
+
+<style>
+  .slot-item {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+</style>

@@ -2,9 +2,13 @@
 import type { GetStaticPaths } from 'astro';
 import { getCollection, render } from 'astro:content';
 
+import DocsBreadcrumb from '../../components/docs/DocsBreadcrumb.astro';
 import Navbox from '../../components/docs/Navbox.astro';
-import type { DocNav } from '../../mods/types.ts';
-import Base from '../../layouts/Base.astro';
+import ModDownload from '../../components/mods/ModDownload.astro';
+import TableOfContents from '../../components/TableOfContents.astro';
+import Site from '../../layouts/Site.astro';
+import { getModsHref } from '../../lib/mods.ts';
+import modList from '../../mods/mod-list.ts';
 
 export const getStaticPaths = (async () => {
   const entries = await getCollection('docs');
@@ -16,66 +20,101 @@ export const getStaticPaths = (async () => {
 }) satisfies GetStaticPaths;
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
 
-const navs = import.meta.glob<DocNav>('../../mods/*/*/navbox.ts', {
-  eager: true,
-  import: 'default',
-});
+const [mc, modSlug, ...rest] = entry.id.split('/');
 
-const navPath = entry.id.split('/').slice(0, 2).join('/');
-const nav = navs[`../../mods/${navPath}/navbox.ts`];
+const version = modList.find((listVersion) => listVersion.mc === mc);
+const versionMods = version?.sections.flatMap((section) => section.mods) ?? [];
+
+const mod = versionMods.find((listMod) => listMod.slug === modSlug);
+const isModOverview = version !== undefined && mod !== undefined && rest.length === 0;
+
+const requires = isModOverview
+  ? (mod.requires ?? []).map((slug) => ({
+      title: versionMods.find((listMod) => listMod.slug === slug)?.title ?? slug,
+      href: `${getModsHref(version)}#${slug}`,
+    }))
+  : [];
+
+const tocAppendix = version !== undefined ? [{ slug: 'navigation', text: 'Navigation' }] : [];
 ---
 
-<Base title={entry.data.title} showBanner={false}>
-  <div
-    id="cofh-docs-content"
-    class="uk-width-1-1 uk-width-medium-3-4 uk-container-center"
-    data-pagefind-body
-  >
-    <h1>{entry.data.title}</h1>
-    <hr />
+<Site title={entry.data.title}>
+  <div class:list={['wrap', { 'with-crumbs': version !== undefined }]}>
+    {version !== undefined && <DocsBreadcrumb page={entry} version={version} mod={mod} />}
 
-    <Content />
+    <div
+      data-pagefind-body
+      data-pagefind-meta={mod !== undefined ? `mod:${mod.title}` : undefined}
+      data-pagefind-filter={version !== undefined ? `version:${mc}` : undefined}
+    >
+      {isModOverview ? (
+        <>
+          <header class="page-head">
+            <h1>{entry.data.title}</h1>
+          </header>
 
-    {nav !== undefined && (
-      <div
-        class="uk-width-1-1 uk-width-medium-5-6 uk-container-center"
-        style="margin-top: 65px"
-        data-pagefind-ignore="all"
-      >
-        <Navbox nav={nav} path={navPath} />
-      </div>
+          <div class="doc-grid">
+            <div class="prose">
+              <Content />
+            </div>
+
+            <aside class="download" aria-labelledby="download-title" data-pagefind-ignore="all">
+              <h2 class="download-title overline" id="download-title">
+                Download
+              </h2>
+
+              <ModDownload mod={mod} requires={requires} />
+            </aside>
+          </div>
+        </>
+      ) : (
+        <div class="doc-grid">
+          <div>
+            <header class="page-head">
+              <h1>{entry.data.title}</h1>
+            </header>
+
+            <TableOfContents headings={headings} appendix={tocAppendix} inline />
+
+            <div class="prose section-numbers subsection-numbers">
+              <Content />
+            </div>
+          </div>
+
+          <TableOfContents headings={headings} appendix={tocAppendix} />
+        </div>
+      )}
+    </div>
+
+    {version !== undefined && (
+      <>
+        <div class="prose" data-pagefind-ignore="all">
+          <h2 id="navigation">Navigation</h2>
+        </div>
+
+        <Navbox version={version} currentMod={mod?.slug} />
+      </>
     )}
   </div>
-</Base>
+</Site>
 
-<style is:global>
-  #cofh-docs-content code {
-    color: #444444;
+<style>
+  .with-crumbs .page-head {
+    padding-top: 14px;
   }
 
-  #cofh-docs-content .uk-text-small code {
-    font-size: 10.5px;
+  .download {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 16px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--bg);
   }
 
-  #cofh-docs-content .uk-text-danger code {
-    color: #d85030 !important;
-  }
-
-  #cofh-docs-content a code {
-    color: #0077dd;
-  }
-
-  #cofh-docs-content a:hover code {
-    color: #005599;
-  }
-
-  #cofh-docs-content a[href^='http'] {
-    color: #4b97d8;
-  }
-
-  #cofh-docs-content a[href^='http']:hover {
-    color: #29689a;
+  .download-title {
+    margin: 0 0 8px;
   }
 </style>

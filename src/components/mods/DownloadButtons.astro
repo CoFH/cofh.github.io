@@ -4,15 +4,14 @@ import Icon from '../Icon.astro';
 
 interface Props {
   mod: ModListMod;
-  small?: boolean;
 }
 
-const { mod, small } = Astro.props;
+const { mod } = Astro.props;
 ---
 
 {mod.links.curseforge !== undefined && (
   <a
-    class:list={['btn', { 'btn-sm': small }]}
+    class="btn btn-sm"
     href={mod.links.curseforge}
     aria-label={`Download ${mod.title} on CurseForge`}
   >
@@ -22,11 +21,7 @@ const { mod, small } = Astro.props;
 )}
 
 {mod.links.modrinth !== undefined && (
-  <a
-    class:list={['btn', { 'btn-sm': small }]}
-    href={mod.links.modrinth}
-    aria-label={`Download ${mod.title} on Modrinth`}
-  >
+  <a class="btn btn-sm" href={mod.links.modrinth} aria-label={`Download ${mod.title} on Modrinth`}>
     <Icon name="modrinth" />
     <span>Modrinth</span>
   </a>

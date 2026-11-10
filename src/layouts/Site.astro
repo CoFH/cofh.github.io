@@ -17,7 +17,7 @@ interface Props {
 }
 
 const fullTitle =
-  Astro.props.title === undefined ? 'Team CoFH' : `${Astro.props.title} · Team CoFH`;
+  Astro.props.title !== undefined ? `${Astro.props.title} · Team CoFH` : 'Team CoFH';
 
 const description =
   "Team CoFH's official site for news, downloads and documentation: Thermal Expansion, the rest of the Thermal Series, Redstone Arsenal and more.";
@@ -365,6 +365,7 @@ const navLinks = [
     height: 100%;
     padding: 0 15px;
     color: var(--fg);
+    font-size: 17px;
     font-weight: 500;
     white-space: nowrap;
     border-left: 1px solid transparent;

@@ -13,7 +13,7 @@ interface Props {
 
 const { version, mod } = Astro.props;
 
-const logo = getModLogo(version.mc, mod.slug);
+const logo = getModLogo(version, mod.slug);
 ---
 
 <li class="row">
@@ -29,8 +29,8 @@ const logo = getModLogo(version.mc, mod.slug);
   </div>
 
   <div class="buttons">
-    <DownloadButtons mod={mod} small />
-    <DocsButton version={version} mod={mod} small />
+    <DownloadButtons mod={mod} />
+    <DocsButton version={version} mod={mod} />
   </div>
 </li>
 

@@ -9,6 +9,7 @@
   background: var(--fg-strong);
   color: var(--bg);
   font: 600 13px/1.35 var(--font);
+  white-space: pre-line;
   box-shadow: 0 4px 12px var(--shadow-strong);
   pointer-events: none;
   animation: tooltip-in 0.12s ease;

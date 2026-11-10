@@ -2,7 +2,6 @@ import type { DocNav } from '../../types.ts';
 import vpt from './items.ts';
 
 export default {
-  title: 'Vanilla+ Tools (Minecraft 1.12)',
   sections: [
     {
       groups: [

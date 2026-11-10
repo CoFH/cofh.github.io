@@ -15,7 +15,7 @@ const items = group.items ?? [];
 
 <tr>
   {group.title !== undefined && (
-    <th class="cofh-navbox-group-title">
+    <th class="group-title">
       {group.url !== undefined ? (
         <NavboxLink href={`/docs/${path}/${group.url}`} text={group.title} icon={undefined} />
       ) : (
@@ -25,32 +25,26 @@ const items = group.items ?? [];
   )}
 
   <td
-    colspan={group.title === undefined ? 2 : undefined}
+    colspan={group.title !== undefined ? undefined : 2}
     class:list={[
-      group.title !== undefined && subgroups.length > 0
-        ? 'cofh-navbox-group-subgroups-container'
-        : 'cofh-navbox-group-items',
-      { 'uk-text-center': group.title === undefined },
+      group.title !== undefined && subgroups.length > 0 ? 'subgroups' : 'items',
+      { centered: group.title === undefined },
     ]}
   >
     {items.length > 0 && (
-      <div style={subgroups.length > 0 ? 'padding: 2px' : undefined}>
-        {items.map((item, index) => (
+      <div class="list">
+        {items.map((item) => (
           <>
-            {index > 0 && (
-              <>
-                {' '}
-                <span class="uk-text-bold">&#8729;</span>{' '}
-              </>
-            )}
-            <NavboxItem item={item} path={path} />
+            <span class="item">
+              <NavboxItem item={item} path={path} />
+            </span>{' '}
           </>
         ))}
       </div>
     )}
 
     {subgroups.length > 0 && (
-      <table class="uk-table cofh-navbox-table cofh-navbox-subgroups-table">
+      <table class="subgroups-table">
         <tbody>
           {subgroups.map((subgroup) => (
             <Astro.self group={subgroup} path={path} />
@@ -60,3 +54,71 @@ const items = group.items ?? [];
     )}
   </td>
 </tr>
+
+<style>
+  .group-title {
+    width: 1%;
+    padding: 3px 12px;
+    background: var(--band);
+    color: var(--fg-strong);
+    font-weight: 600;
+    text-align: right;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .items {
+    padding: 3px 12px;
+  }
+
+  .subgroups {
+    padding: 0;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  .list {
+    margin-left: -12px;
+    line-height: 24px;
+    clip-path: inset(-4px -4px -4px 8px);
+  }
+
+  .subgroups > .list {
+    margin: 3px 12px 3px 0;
+  }
+
+  .item {
+    white-space: nowrap;
+  }
+
+  .item::before {
+    content: '\2219';
+    display: inline-block;
+    width: 8px;
+    margin-right: 4px;
+    color: var(--faint);
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .centered .list {
+    margin-left: 0;
+    clip-path: none;
+  }
+
+  .centered .item:first-child::before {
+    display: none;
+  }
+
+  .subgroups-table {
+    width: calc(100% + 4px);
+    margin: -2px;
+    border-spacing: 2px;
+  }
+
+  .subgroups-table .group-title {
+    background: var(--surface-2);
+  }
+</style>

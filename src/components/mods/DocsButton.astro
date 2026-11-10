@@ -6,20 +6,17 @@ import Icon from '../Icon.astro';
 interface Props {
   version: ModListVersion;
   mod: ModListMod;
-  small?: boolean;
 }
 
-const { version, mod, small } = Astro.props;
+const { version, mod } = Astro.props;
 
-const docs = await getModDocs(version.mc, mod);
-
-const classes = ['btn', 'btn-quiet', { 'btn-sm': small }];
+const docs = await getModDocs(version, mod);
 
 const wipLabel = `Docs for Minecraft ${version.label} are being worked on.`;
 ---
 
 {docs?.kind === 'link' && (
-  <a class:list={classes} href={docs.href} aria-label={`${mod.title} docs`}>
+  <a class="btn btn-quiet btn-sm" href={docs.href} aria-label={`${mod.title} docs`}>
     <Icon name="book" />
     <span>Docs</span>
   </a>
@@ -28,7 +25,7 @@ const wipLabel = `Docs for Minecraft ${version.label} are being worked on.`;
 {docs?.kind === 'wip' && (
   <span class="wip" tabindex="0" data-tooltip={wipLabel} aria-label={wipLabel}>
     <span class="inner" aria-hidden="true">
-      <span class:list={classes}>
+      <span class="btn btn-quiet btn-sm">
         <Icon name="book" />
         <span>Docs</span>
       </span>

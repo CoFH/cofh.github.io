@@ -1,0 +1,123 @@
+---
+import type { ModListMod } from '../../mods/types.ts';
+import Icon from '../Icon.astro';
+import DownloadButtons from './DownloadButtons.astro';
+
+interface Props {
+  mod: ModListMod;
+  requires: { title: string; href: string }[];
+}
+
+const { mod, requires } = Astro.props;
+---
+
+{requires.length > 0 && (
+  <div class="requires">
+    <span>Requires</span>
+    {requires.map((required) => (
+      <a class="chip" href={required.href}>
+        {required.title}
+      </a>
+    ))}
+  </div>
+)}
+
+<div class="buttons">
+  <DownloadButtons mod={mod} />
+</div>
+
+{Astro.slots.has('default') && (
+  <div class="buttons">
+    <slot />
+  </div>
+)}
+
+<div class="links">
+  {mod.links.source !== undefined && (
+    <a href={mod.links.source}>
+      <Icon name="code" small />
+      Source
+    </a>
+  )}
+
+  {mod.links.changelog !== undefined && (
+    <a href={mod.links.changelog}>
+      <Icon name="file" small />
+      Changelog
+    </a>
+  )}
+</div>
+
+<style>
+  .requires {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    height: 24px;
+    padding: 0 9px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--fg);
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .chip:hover {
+    border-color: var(--accent-line);
+    background: var(--accent-soft);
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: auto;
+    padding-top: 14px;
+  }
+
+  .buttons > :global(*) {
+    flex: 1 1 auto;
+  }
+
+  .buttons + .buttons {
+    margin-top: 8px;
+    padding-top: 0;
+  }
+
+  .buttons:empty {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    min-height: 1lh;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--muted);
+  }
+
+  .links a:hover {
+    color: var(--accent);
+  }
+</style>

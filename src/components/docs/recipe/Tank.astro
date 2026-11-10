@@ -21,7 +21,7 @@ const gaugeImage = await getImage({ src: short ? tankGaugeShort : tankGauge });
 
 const amount = data !== undefined ? `${data.amount.toLocaleString('en-US')}\u00a0mB` : '';
 
-const fill = data === undefined || data.amount === 0 ? 25 : Math.floor((data.amount * 100) / size);
+const fill = data !== undefined && data.amount !== 0 ? Math.floor((data.amount * 100) / size) : 25;
 ---
 
 {data !== undefined && (
@@ -35,15 +35,17 @@ const fill = data === undefined || data.amount === 0 ? 25 : Math.floor((data.amo
         height: `${height}px`,
       }}
     >
-      <a href={data.fluid.href} aria-label={`${data.fluid.name}, ${amount}`}>
+      <a
+        href={data.fluid.href}
+        aria-label={`${data.fluid.name}, ${amount}`}
+        data-tooltip={`${data.fluid.name}\n${amount}`}
+      >
         <div
           style={{
             position: 'relative',
             width: '32px',
             height: `${height}px`,
           }}
-          title={`${data.fluid.name}<br />${amount}`}
-          data-uk-tooltip="{pos: 'top', offset: 4}"
         >
           <div
             style={{

@@ -29,6 +29,7 @@ export default defineModList([
           {
             slug: 'thermal-foundation',
             title: 'Thermal Foundation',
+            shortTitle: 'Foundation',
             summary: 'Ores, metals and materials shared by the Thermal Series.',
             requires: ['cofh-core'],
             docs: 'wip',
@@ -42,6 +43,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['thermal-foundation'],
             docs: 'wip',
@@ -55,6 +57,7 @@ export default defineModList([
           {
             slug: 'thermal-dynamics',
             title: 'Thermal Dynamics',
+            shortTitle: 'Dynamics',
             summary: 'Ducts for moving energy, fluids and items.',
             requires: ['thermal-foundation'],
             docs: 'wip',
@@ -68,6 +71,7 @@ export default defineModList([
           {
             slug: 'thermal-cultivation',
             title: 'Thermal Cultivation',
+            shortTitle: 'Cultivation',
             summary: 'Crops, farming and food.',
             requires: ['thermal-foundation'],
             docs: 'wip',
@@ -81,6 +85,7 @@ export default defineModList([
           {
             slug: 'thermal-innovation',
             title: 'Thermal Innovation',
+            shortTitle: 'Innovation',
             summary: 'Powered tools and gadgets.',
             requires: ['thermal-foundation'],
             docs: 'wip',
@@ -94,6 +99,7 @@ export default defineModList([
           {
             slug: 'thermal-locomotion',
             title: 'Thermal Locomotion',
+            shortTitle: 'Locomotion',
             summary: 'Rails and minecarts.',
             requires: ['thermal-foundation'],
             docs: 'wip',
@@ -107,6 +113,7 @@ export default defineModList([
           {
             slug: 'thermal-integration',
             title: 'Thermal Integration',
+            shortTitle: 'Integration',
             summary: 'Recipes and compatibility for using Thermal with other mods.',
             requires: ['thermal-foundation'],
             docs: 'wip',
@@ -269,6 +276,7 @@ export default defineModList([
           {
             slug: 'thermal-foundation',
             title: 'Thermal Foundation',
+            shortTitle: 'Foundation',
             summary: 'Ores, metals and materials shared by the Thermal Series.',
             requires: ['cofh-core'],
             links: {
@@ -281,6 +289,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['thermal-foundation'],
             links: {
@@ -293,6 +302,7 @@ export default defineModList([
           {
             slug: 'thermal-dynamics',
             title: 'Thermal Dynamics',
+            shortTitle: 'Dynamics',
             summary: 'Ducts for moving energy, fluids and items.',
             requires: ['thermal-foundation'],
             links: {
@@ -305,6 +315,7 @@ export default defineModList([
           {
             slug: 'thermal-cultivation',
             title: 'Thermal Cultivation',
+            shortTitle: 'Cultivation',
             summary: 'Crops, farming and food.',
             requires: ['thermal-foundation'],
             links: {
@@ -317,6 +328,7 @@ export default defineModList([
           {
             slug: 'thermal-innovation',
             title: 'Thermal Innovation',
+            shortTitle: 'Innovation',
             summary: 'Powered tools and gadgets.',
             requires: ['thermal-foundation'],
             links: {
@@ -329,6 +341,7 @@ export default defineModList([
           {
             slug: 'thermal-locomotion',
             title: 'Thermal Locomotion',
+            shortTitle: 'Locomotion',
             summary: 'Rails and minecarts.',
             requires: ['thermal-foundation'],
             links: {
@@ -341,6 +354,7 @@ export default defineModList([
           {
             slug: 'thermal-integration',
             title: 'Thermal Integration',
+            shortTitle: 'Integration',
             summary: 'Recipes and compatibility for using Thermal with other mods.',
             requires: ['thermal-foundation'],
             links: {
@@ -497,6 +511,7 @@ export default defineModList([
           {
             slug: 'thermal-foundation',
             title: 'Thermal Foundation',
+            shortTitle: 'Foundation',
             summary: 'Ores, metals and materials shared by the Thermal Series.',
             requires: ['cofh-core'],
             links: {
@@ -509,6 +524,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['thermal-foundation'],
             links: {
@@ -521,6 +537,7 @@ export default defineModList([
           {
             slug: 'thermal-dynamics',
             title: 'Thermal Dynamics',
+            shortTitle: 'Dynamics',
             summary: 'Ducts for moving energy, fluids and items.',
             requires: ['thermal-foundation'],
             links: {
@@ -533,6 +550,7 @@ export default defineModList([
           {
             slug: 'thermal-cultivation',
             title: 'Thermal Cultivation',
+            shortTitle: 'Cultivation',
             summary: 'Crops, farming and food.',
             requires: ['thermal-foundation'],
             links: {
@@ -545,6 +563,7 @@ export default defineModList([
           {
             slug: 'thermal-innovation',
             title: 'Thermal Innovation',
+            shortTitle: 'Innovation',
             summary: 'Powered tools and gadgets.',
             requires: ['thermal-foundation'],
             links: {
@@ -557,6 +576,7 @@ export default defineModList([
           {
             slug: 'thermal-locomotion',
             title: 'Thermal Locomotion',
+            shortTitle: 'Locomotion',
             summary: 'Rails and minecarts.',
             requires: ['thermal-foundation'],
             links: {
@@ -569,6 +589,7 @@ export default defineModList([
           {
             slug: 'thermal-integration',
             title: 'Thermal Integration',
+            shortTitle: 'Integration',
             summary: 'Recipes and compatibility for using Thermal with other mods.',
             requires: ['thermal-foundation'],
             links: {
@@ -730,6 +751,7 @@ export default defineModList([
           {
             slug: 'thermal-foundation',
             title: 'Thermal Foundation',
+            shortTitle: 'Foundation',
             summary: 'Ores, metals and materials shared by the Thermal Series.',
             requires: ['cofh-core'],
             links: {
@@ -742,6 +764,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['thermal-foundation'],
             links: {
@@ -754,6 +777,7 @@ export default defineModList([
           {
             slug: 'thermal-cultivation',
             title: 'Thermal Cultivation',
+            shortTitle: 'Cultivation',
             summary: 'Crops, farming and food.',
             requires: ['thermal-foundation'],
             links: {
@@ -766,6 +790,7 @@ export default defineModList([
           {
             slug: 'thermal-innovation',
             title: 'Thermal Innovation',
+            shortTitle: 'Innovation',
             summary: 'Powered tools and gadgets.',
             requires: ['thermal-foundation'],
             links: {
@@ -778,6 +803,7 @@ export default defineModList([
           {
             slug: 'thermal-locomotion',
             title: 'Thermal Locomotion',
+            shortTitle: 'Locomotion',
             summary: 'Rails and minecarts.',
             requires: ['thermal-foundation'],
             links: {
@@ -899,6 +925,7 @@ export default defineModList([
           {
             slug: 'thermal-foundation',
             title: 'Thermal Foundation',
+            shortTitle: 'Foundation',
             summary: 'Ores, metals and materials shared by the Thermal Series.',
             requires: ['cofh-core'],
             links: {
@@ -909,6 +936,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['thermal-foundation'],
             links: {
@@ -919,6 +947,7 @@ export default defineModList([
           {
             slug: 'thermal-cultivation',
             title: 'Thermal Cultivation',
+            shortTitle: 'Cultivation',
             summary: 'Crops, farming and food.',
             requires: ['thermal-foundation'],
             links: {
@@ -929,6 +958,7 @@ export default defineModList([
           {
             slug: 'thermal-innovation',
             title: 'Thermal Innovation',
+            shortTitle: 'Innovation',
             summary: 'Powered tools and gadgets.',
             requires: ['thermal-foundation'],
             links: {
@@ -939,6 +969,7 @@ export default defineModList([
           {
             slug: 'thermal-locomotion',
             title: 'Thermal Locomotion',
+            shortTitle: 'Locomotion',
             summary: 'Rails and minecarts.',
             requires: ['thermal-foundation'],
             links: {
@@ -1027,7 +1058,7 @@ export default defineModList([
             slug: 'redstone-flux',
             title: 'Redstone Flux',
             summary: 'The energy system used by Thermal and many other mods.',
-            docs: '/docs/redstone-flux/',
+            docs: '/faq/#what-is-redstone-flux-rf',
             links: {
               curseforge: 'https://www.curseforge.com/minecraft/mc-mods/redstone-flux',
               source: 'https://github.com/CoFH/RedstoneFlux-1.12-Legacy/tree/1.12',
@@ -1045,6 +1076,15 @@ export default defineModList([
             },
           },
           {
+            slug: 'cofh-world',
+            title: 'CoFH World',
+            summary: 'Customizable and powerful world generation.',
+            links: {
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/cofh-world',
+              source: 'https://github.com/CoFH/CoFHWorld/tree/1.12',
+            },
+          },
+          {
             slug: 'codechicken-lib',
             title: 'CodeChicken Lib',
             summary: 'Library used by Thermal Expansion and Thermal Dynamics.',
@@ -1052,15 +1092,6 @@ export default defineModList([
               curseforge: 'https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8',
               modrinth: 'https://modrinth.com/mod/codechicken-lib',
               source: 'https://github.com/TheCBProject/CodeChickenLib/tree/1.12.x',
-            },
-          },
-          {
-            slug: 'cofh-world',
-            title: 'CoFH World',
-            summary: 'Customizable and powerful world generation.',
-            links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/cofh-world',
-              source: 'https://github.com/CoFH/CoFHWorld/tree/1.12',
             },
           },
         ],
@@ -1071,6 +1102,7 @@ export default defineModList([
           {
             slug: 'thermal-foundation',
             title: 'Thermal Foundation',
+            shortTitle: 'Foundation',
             summary: 'Ores, metals and materials shared by the Thermal Series.',
             requires: ['cofh-core', 'cofh-world'],
             links: {
@@ -1083,6 +1115,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['thermal-foundation', 'codechicken-lib'],
             links: {
@@ -1094,6 +1127,7 @@ export default defineModList([
           {
             slug: 'thermal-dynamics',
             title: 'Thermal Dynamics',
+            shortTitle: 'Dynamics',
             summary: 'Ducts for moving energy, fluids and items.',
             requires: ['thermal-foundation', 'codechicken-lib'],
             links: {
@@ -1105,6 +1139,7 @@ export default defineModList([
           {
             slug: 'thermal-cultivation',
             title: 'Thermal Cultivation',
+            shortTitle: 'Cultivation',
             summary: 'Crops, farming and food.',
             requires: ['thermal-foundation'],
             links: {
@@ -1117,6 +1152,7 @@ export default defineModList([
           {
             slug: 'thermal-innovation',
             title: 'Thermal Innovation',
+            shortTitle: 'Innovation',
             summary: 'Powered tools and gadgets.',
             requires: ['thermal-foundation'],
             links: {
@@ -1215,6 +1251,7 @@ export default defineModList([
           {
             slug: 'thermal-foundation',
             title: 'Thermal Foundation',
+            shortTitle: 'Foundation',
             summary: 'Ores, metals and materials shared by the Thermal Series.',
             requires: ['cofh-core'],
             links: {
@@ -1227,6 +1264,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['thermal-foundation', 'codechicken-lib'],
             links: {
@@ -1238,6 +1276,7 @@ export default defineModList([
           {
             slug: 'thermal-dynamics',
             title: 'Thermal Dynamics',
+            shortTitle: 'Dynamics',
             summary: 'Ducts for moving energy, fluids and items.',
             requires: ['thermal-foundation', 'codechicken-lib'],
             links: {
@@ -1302,6 +1341,7 @@ export default defineModList([
           {
             slug: 'thermal-foundation',
             title: 'Thermal Foundation',
+            shortTitle: 'Foundation',
             summary: 'Ores, metals and materials shared by the Thermal Series.',
             requires: ['cofh-core'],
             links: {
@@ -1314,6 +1354,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['thermal-foundation', 'codechicken-lib'],
             links: {
@@ -1325,6 +1366,7 @@ export default defineModList([
           {
             slug: 'thermal-dynamics',
             title: 'Thermal Dynamics',
+            shortTitle: 'Dynamics',
             summary: 'Ducts for moving energy, fluids and items.',
             requires: ['thermal-foundation', 'codechicken-lib'],
             links: {
@@ -1407,6 +1449,7 @@ export default defineModList([
           {
             slug: 'thermal-foundation',
             title: 'Thermal Foundation',
+            shortTitle: 'Foundation',
             summary: 'Ores, metals and materials shared by the Thermal Series.',
             requires: ['cofh-core'],
             links: {
@@ -1419,6 +1462,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['thermal-foundation'],
             links: {
@@ -1430,6 +1474,7 @@ export default defineModList([
           {
             slug: 'thermal-dynamics',
             title: 'Thermal Dynamics',
+            shortTitle: 'Dynamics',
             summary: 'Ducts for moving energy, fluids and items.',
             requires: ['thermal-foundation'],
             links: {
@@ -1542,6 +1587,7 @@ export default defineModList([
           {
             slug: 'thermal-expansion',
             title: 'Thermal Expansion',
+            shortTitle: 'Expansion',
             summary: 'The original Thermal mod: machines, dynamos and storage.',
             requires: ['cofh-core'],
             links: {

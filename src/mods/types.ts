@@ -129,7 +129,6 @@ export type RecipeColumnItemData = { suffix?: string } & (
 export type RecipeComponent = (props: { recipe: Recipe }) => unknown;
 
 export interface DocNav {
-  title: string;
   sections: {
     title?: string;
     groups: DocNavGroup[];
@@ -165,6 +164,7 @@ export interface ModListSection {
 export interface ModListMod {
   slug: string;
   title: string;
+  shortTitle?: string;
   summary: string;
   requires?: string[];
   docs?: 'wip' | `/${string}`;

@@ -2,7 +2,6 @@ import type { DocNav } from '../../types.ts';
 import ra from './items.ts';
 
 export default {
-  title: 'Redstone Arsenal (Minecraft 1.12)',
   sections: [
     {
       groups: [

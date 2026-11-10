@@ -1,7 +1,7 @@
 ---
 import Site from '../../layouts/Site.astro';
 import { DISCORD_URL } from '../../lib/external-links.ts';
-import { currentVersion } from '../../lib/mods.ts';
+import { currentVersion, getModsHref } from '../../lib/mods.ts';
 import modList from '../../mods/mod-list.ts';
 import type { ModListVersion } from '../../mods/types.ts';
 import Icon from '../Icon.astro';
@@ -50,7 +50,7 @@ const { version } = Astro.props;
     </ul>
 
     <div class="versions">
-      <span class="eyebrow" aria-hidden="true">
+      <span class="eyebrow overline" aria-hidden="true">
         Minecraft
       </span>
 
@@ -58,7 +58,7 @@ const { version } = Astro.props;
         {modList.map((versionItem) => (
           <a
             class:list={['tab', { minor: !versionItem.major }]}
-            href={versionItem === currentVersion ? '/mods/' : `/mods/${versionItem.mc}/`}
+            href={getModsHref(versionItem)}
             aria-current={versionItem.mc === version.mc ? 'page' : undefined}
           >
             {versionItem.label}
@@ -137,7 +137,7 @@ const { version } = Astro.props;
     border: 0;
     background: none;
     padding: 9px 16px 10px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     color: var(--fg);
     cursor: pointer;
@@ -188,7 +188,7 @@ const { version } = Astro.props;
     display: flex;
     gap: 10px;
     align-items: flex-start;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.45;
   }
 
@@ -205,11 +205,6 @@ const { version } = Astro.props;
 
   .eyebrow {
     flex: none;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    color: var(--muted);
   }
 
   .panel {
@@ -226,7 +221,7 @@ const { version } = Astro.props;
     border-radius: var(--radius);
     background: var(--warn-bg);
     color: var(--fg);
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .outdated > :global(.icon) {

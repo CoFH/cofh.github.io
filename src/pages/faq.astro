@@ -27,13 +27,6 @@ const groups = getHeadings().filter((heading) => heading.depth === 2);
 </Site>
 
 <style>
-  .doc-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 232px;
-    gap: 56px;
-    align-items: start;
-  }
-
   .faq {
     padding-bottom: 44px;
   }
@@ -42,7 +35,7 @@ const groups = getHeadings().filter((heading) => heading.depth === 2);
     margin: 54px 0 6px;
     padding-bottom: 8px;
     border-bottom: 1px solid var(--line);
-    font-size: 27px;
+    font-size: 23px;
   }
 
   .faq :global(h2:first-child) {
@@ -62,11 +55,5 @@ const groups = getHeadings().filter((heading) => heading.depth === 2);
 
   .faq :global(p) {
     margin: 0 0 10px;
-  }
-
-  @media (max-width: 1099px) {
-    .doc-grid {
-      grid-template-columns: minmax(0, 1fr);
-    }
   }
 </style>

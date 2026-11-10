@@ -15,11 +15,37 @@ const isCurrent = href === Astro.url.pathname.replace(/\/?$/, '/');
 ---
 
 {isCurrent ? (
-  <span class="uk-text-bold cofh-nowrap">
-    <NavboxIcon icon={icon} /> <span>{text}</span>
+  <span class="current">
+    <NavboxIcon icon={icon} />
+    <span>{text}</span>
   </span>
 ) : (
-  <a href={href} class:list={['cofh-navbox-link', { 'uk-text-danger': href === undefined }]}>
-    <NavboxIcon icon={icon} /> <span>{text}</span>
+  <a href={href} class:list={{ missing: href === undefined }}>
+    <NavboxIcon icon={icon} />
+    <span>{text}</span>
   </a>
 )}
+
+<style>
+  a {
+    white-space: nowrap;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:hover > span {
+    text-decoration: underline;
+  }
+
+  .current {
+    color: var(--fg-strong);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .missing {
+    color: var(--danger);
+  }
+</style>

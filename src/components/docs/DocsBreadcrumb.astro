@@ -1,0 +1,339 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+
+import { getDocsHref, getDocsSections, getModsHref } from '../../lib/mods.ts';
+import modList from '../../mods/mod-list.ts';
+import type { ModListMod, ModListVersion } from '../../mods/types.ts';
+import Icon from '../Icon.astro';
+
+interface Props {
+  page: CollectionEntry<'docs'>;
+  version: ModListVersion;
+  mod: ModListMod | undefined;
+}
+
+const { page, version, mod } = Astro.props;
+
+const entries = await getCollection('docs');
+
+const pagePath = page.id.split('/').slice(1);
+
+const versionItems = modList.flatMap((other) => {
+  const samePage = entries.find((entry) => entry.id === `${other.mc}/${pagePath.join('/')}`);
+
+  const target =
+    samePage ??
+    entries.find((entry) => mod !== undefined && entry.id === `${other.mc}/${mod.slug}`);
+
+  return target !== undefined
+    ? [
+        {
+          label: other.label,
+          href: `/docs/${target.id}/`,
+          title: samePage === undefined ? target.data.title : undefined,
+          current: other === version,
+        },
+      ]
+    : [];
+});
+
+const isModOverview = mod !== undefined && pagePath.length === 1;
+
+const modSections = mod !== undefined ? await getDocsSections(version) : [];
+
+const folderPages = pagePath.slice(1, -1).map((folder, index) => {
+  const id = [version.mc, ...pagePath.slice(0, index + 1), folder].join('/');
+  const folderPage = entries.find((entry) => entry.id === id);
+
+  if (folderPage === undefined) {
+    throw new Error(`The docs folder ${id} has no index page.`);
+  }
+
+  return folderPage;
+});
+---
+
+<nav class="crumbs" aria-label="Breadcrumb">
+  {versionItems.length > 1 ? (
+    <span class="split">
+      <a class="btn btn-sm btn-quiet" href={getModsHref(version)}>
+        Minecraft {version.label}
+      </a>
+
+      <button
+        type="button"
+        class="btn btn-sm btn-quiet"
+        aria-expanded="false"
+        aria-controls="breadcrumb-version"
+        aria-label="Other Minecraft versions"
+      >
+        <Icon name="chevron" />
+      </button>
+
+      <div class="menu" id="breadcrumb-version" hidden>
+        <div class="menu-label overline">Minecraft version</div>
+
+        {versionItems.map((item) => (
+          <a href={item.href} aria-current={item.current ? 'page' : undefined}>
+            <span class="check">{item.current && <Icon name="check" />}</span>
+            <span>
+              {item.label}
+              {item.title !== undefined && <span class="target">{item.title}</span>}
+            </span>
+          </a>
+        ))}
+      </div>
+    </span>
+  ) : (
+    <a class="btn btn-sm btn-quiet" href={getModsHref(version)}>
+      Minecraft {version.label}
+    </a>
+  )}
+
+  {mod !== undefined && (
+    <>
+      <span class="separator">
+        <Icon name="chevronRight" />
+      </span>
+
+      <span class="split">
+        {isModOverview ? (
+          <span class="btn btn-sm btn-quiet" aria-current="page">
+            {mod.title}
+          </span>
+        ) : (
+          <a class="btn btn-sm btn-quiet" href={getDocsHref(version, mod)}>
+            {mod.title}
+          </a>
+        )}
+
+        <button
+          type="button"
+          class="btn btn-sm btn-quiet"
+          aria-expanded="false"
+          aria-controls="breadcrumb-mod"
+          aria-label={`Other mods for Minecraft ${version.label}`}
+        >
+          <Icon name="chevron" />
+        </button>
+
+        <div class="menu" id="breadcrumb-mod" hidden>
+          <div class="menu-label overline">Mods for Minecraft {version.label}</div>
+
+          {modSections.map((section) => (
+            <div class="menu-group">
+              <div class="menu-group-label">{section.title}</div>
+
+              {section.mods.map((sectionMod) => (
+                <a
+                  href={getDocsHref(version, sectionMod)}
+                  aria-current={sectionMod.slug === mod.slug ? 'true' : undefined}
+                >
+                  <span class="check">{sectionMod.slug === mod.slug && <Icon name="check" />}</span>
+                  <span>{sectionMod.title}</span>
+                </a>
+              ))}
+            </div>
+          ))}
+        </div>
+      </span>
+    </>
+  )}
+
+  {folderPages.map((folderPage) => (
+    <>
+      <span class="separator">
+        <Icon name="chevronRight" />
+      </span>
+
+      <a class="btn btn-sm btn-quiet" href={`/docs/${folderPage.id}/`}>
+        {folderPage.data.title}
+      </a>
+    </>
+  ))}
+</nav>
+
+<script>
+  import { computePosition, offset, shift } from '@floating-ui/dom';
+
+  const getMenu = (button: HTMLButtonElement) =>
+    document.getElementById(button.getAttribute('aria-controls')!)!;
+
+  async function open(button: HTMLButtonElement) {
+    const menu = getMenu(button);
+
+    button.setAttribute('aria-expanded', 'true');
+    menu.hidden = false;
+
+    const { x, y } = await computePosition(button.parentElement!, menu, {
+      placement: 'bottom-start',
+      middleware: [offset(6), shift({ padding: 8 })],
+    });
+
+    menu.style.left = `${x}px`;
+    menu.style.top = `${y}px`;
+  }
+
+  function close(button: HTMLButtonElement) {
+    button.setAttribute('aria-expanded', 'false');
+    getMenu(button).hidden = true;
+  }
+
+  const buttons = [
+    ...document.querySelectorAll<HTMLButtonElement>('.crumbs button[aria-controls]'),
+  ];
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      if (button.getAttribute('aria-expanded') === 'true') {
+        close(button);
+      } else {
+        void open(button);
+      }
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    const target = event.target as Element;
+
+    buttons
+      .filter((button) => !button.contains(target) && !getMenu(button).contains(target))
+      .forEach(close);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    const button = buttons.find((other) => other.getAttribute('aria-expanded') === 'true');
+
+    if (event.key === 'Escape' && button !== undefined) {
+      close(button);
+      button.focus();
+    }
+  });
+</script>
+
+<style>
+  .crumbs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px 6px;
+    padding-top: 22px;
+    font-size: 15px;
+    color: var(--muted);
+  }
+
+  .separator {
+    display: inline-flex;
+    color: var(--faint);
+  }
+
+  .separator :global(.icon) {
+    width: 11px;
+    height: 11px;
+  }
+
+  .split {
+    position: relative;
+    display: inline-flex;
+  }
+
+  .split > .btn:first-child {
+    border-radius: 6px 0 0 6px;
+  }
+
+  .split > button.btn {
+    margin-left: -1px;
+    padding: 0 8px;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .split > .btn:hover {
+    position: relative;
+    z-index: 1;
+  }
+
+  button.btn :global(.icon) {
+    width: 12px;
+    height: 12px;
+    color: var(--muted);
+    transition: transform 0.15s;
+  }
+
+  button.btn[aria-expanded='true'] :global(.icon) {
+    transform: rotate(180deg);
+  }
+
+  .menu {
+    position: absolute;
+    z-index: 40;
+    width: max-content;
+    min-width: 200px;
+    max-width: min(340px, calc(100vw - 32px));
+    padding: 5px;
+    border: 1px solid var(--line-strong);
+    border-radius: 8px;
+    background: var(--bg);
+    box-shadow:
+      0 10px 30px var(--shadow-strong),
+      0 1px 3px var(--shadow);
+  }
+
+  .menu-label {
+    padding: 6px 10px 4px;
+    color: var(--faint);
+    font-size: 12px;
+  }
+
+  .menu-group + .menu-group {
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px solid var(--line);
+  }
+
+  .menu-group-label {
+    padding: 6px 10px 2px;
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .menu a {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: var(--fg);
+    font-size: 15px;
+    line-height: 1.35;
+    cursor: pointer;
+  }
+
+  .menu a:hover,
+  .menu a:focus-visible {
+    background: var(--accent-soft);
+    color: var(--fg-strong);
+    text-decoration: none;
+    outline: none;
+  }
+
+  .menu a[aria-current] {
+    color: var(--fg-strong);
+    font-weight: 600;
+  }
+
+  .target {
+    display: block;
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .check {
+    flex: none;
+    width: 16px;
+    margin-top: 1px;
+    color: var(--accent);
+  }
+</style>

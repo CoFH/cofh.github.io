@@ -10,4 +10,15 @@ interface Props {
 const { icon } = Astro.props;
 ---
 
-{icon !== undefined && <GameImage image={icon} height={16} alt="" class="cofh-navbox-icon" />}
+{icon !== undefined && (
+  <>
+    <GameImage image={icon} height={16} alt="" class="navbox-icon" />{' '}
+  </>
+)}
+
+<style>
+  :global(.navbox-icon) {
+    max-width: none;
+    vertical-align: -3px;
+  }
+</style>

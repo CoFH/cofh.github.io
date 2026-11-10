@@ -11,7 +11,7 @@ import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
 <PageImage images={[{ item: te.enervationDynamo }]} />
 
 An **enervation dynamo** is a [dynamo](../dynamos/) that extracts [Redstone
-Flux](/docs/redstone-flux/) from natural sources and from items that store it.
+Flux](/faq/#what-is-redstone-flux-rf) from natural sources and from items that store it.
 
 
 Obtaining
@@ -40,7 +40,7 @@ away from the player. An enervation dynamo can face any direction, and can be
 rotated using a [wrench](../../wrenches/).
 
 ### Energy generation
-When [fuel](/docs/redstone-flux/)
+When [fuel](/faq/#what-is-redstone-flux-rf)
 is placed in an enervation dynamo's fuel slot, the dynamo will start extracting
 energy from it. Every unit of fuel yields a certain amount of energy when
 consumed. Items that hold energy are not consumed, only drained.
@@ -58,7 +58,7 @@ installing an [excitation field
 limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-An enervation dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
+An enervation dynamo emits [Redstone Flux](/faq/#what-is-redstone-flux-rf) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Items can enter an enervation dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil
@@ -102,8 +102,8 @@ Tiers
 
 Enervation dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-<div class="uk-overflow-container">
-  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+<div class="table-scroll">
+  <table>
     <thead>
       <tr><th>Tier</th><th>Max. power output</th><th>Augment slots</th></tr>
     </thead>
@@ -145,21 +145,23 @@ Fuels
 The following items can be consumed by an enervation dynamo to generate varying
 amounts of energy.
 
-<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
-  <thead>
-    <tr>
-      <th>Fuel</th>
-      <th>Energy per unit</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>[Redstone](https://minecraft.wiki/w/Redstone)</td>
-      <td>64,000 RF</td>
-    </tr>
-    <tr>
-      <td>[Block of Redstone](https://minecraft.wiki/w/Block_of_Redstone)</td>
-      <td>640,000 RF</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Fuel</th>
+        <th>Energy per unit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[Redstone](https://minecraft.wiki/w/Redstone)</td>
+        <td>64,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Block of Redstone](https://minecraft.wiki/w/Block_of_Redstone)</td>
+        <td>640,000 RF</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

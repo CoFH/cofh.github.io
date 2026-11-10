@@ -1,0 +1,54 @@
+---
+import type { DocNav } from '../../mods/types.ts';
+import NavboxGroup from './NavboxGroup.astro';
+
+interface Props {
+  nav: DocNav;
+  path: string;
+}
+
+const { nav, path } = Astro.props;
+---
+
+<div class="scroll">
+  <table>
+    <tbody>
+      {nav.sections.map((section) => (
+        <>
+          {section.title !== undefined && (
+            <tr>
+              <td colspan="2" class="section-title">
+                {section.title}
+              </td>
+            </tr>
+          )}
+
+          {section.groups.map((group) => (
+            <NavboxGroup group={group} path={path} />
+          ))}
+        </>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .scroll {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-spacing: 2px;
+    font-size: 12.5px;
+    line-height: 1.5;
+  }
+
+  .section-title {
+    padding: 3px 12px;
+    background: var(--line);
+    color: var(--fg-strong);
+    font-weight: 600;
+    text-align: center;
+  }
+</style>

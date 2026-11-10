@@ -5,6 +5,7 @@ import type {
   RecipeSlotData,
   RecipeTankData,
 } from '../../../mods/types.ts';
+import Icon from '../../Icon.astro';
 import RecipeColumnItem from './RecipeColumnItem.astro';
 
 interface Props {
@@ -24,6 +25,14 @@ if (Astro.props.recipes.some((recipe) => recipe.type !== type)) {
 
 const withNote = Astro.props.recipes.some((recipe) => recipe.note !== undefined);
 
+const collapseFromRecipeCount = 8;
+const collapsedRecipeCount = 3;
+
+const collapsible = Astro.props.recipes.length >= collapseFromRecipeCount;
+const hiddenRecipeCount = Astro.props.recipes.length - collapsedRecipeCount;
+
+const columnCount = 2 + Number(!Astro.props.noResult) + Number(type.withEnergy) + Number(withNote);
+
 function asColumnItem(input: RecipeSlotData | RecipeTankData): RecipeColumnItemData {
   if ('fluid' in input) {
     return { fluid: input.fluid, fluidAmount: input.amount };
@@ -41,23 +50,17 @@ function getResultsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
     return recipe.results;
   }
 
-  const columnItems: RecipeColumnItemData[] = [];
+  return recipe.outputs
+    .filter((output) => output !== null)
+    .map((output) => {
+      const columnItem = asColumnItem(output);
 
-  for (const output of recipe.outputs) {
-    if (output === null) {
-      continue;
-    }
+      if (recipe.amountSuffix && !('fluid' in output) && (output.amount ?? 1) > 1) {
+        columnItem.suffix = `x${output.amount}`;
+      }
 
-    const columnItem = asColumnItem(output);
-
-    if (recipe.amountSuffix && !('fluid' in output) && (output.amount ?? 1) > 1) {
-      columnItem.suffix = `x${output.amount}`;
-    }
-
-    columnItems.push(columnItem);
-  }
-
-  return columnItems;
+      return columnItem;
+    });
 }
 
 function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
@@ -65,29 +68,20 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
     return recipe.ingredients;
   }
 
-  const seen = new Set();
-  const columnItems: RecipeColumnItemData[] = [];
+  const columnItems = recipe.inputs.filter((input) => input !== null).map(asColumnItem);
 
-  for (const input of recipe.inputs) {
-    if (input === null) {
-      continue;
-    }
+  const getTarget = (columnItem: RecipeColumnItemData) =>
+    columnItem.item ?? columnItem.itemGroup ?? columnItem.fluid;
 
-    const columnItem = asColumnItem(input);
-    const target = columnItem.item ?? columnItem.itemGroup ?? columnItem.fluid;
-
-    if (!seen.has(target)) {
-      seen.add(target);
-      columnItems.push(columnItem);
-    }
-  }
-
-  return columnItems;
+  return columnItems.filter(
+    (columnItem, index) =>
+      columnItems.findIndex((other) => getTarget(other) === getTarget(columnItem)) === index,
+  );
 }
 ---
 
-<div class="uk-overflow-container">
-  <table class="uk-table uk-table-striped cofh-info-table">
+<div class="table-scroll">
+  <table class:list={['recipes', { collapsed: collapsible }]}>
     <thead data-pagefind-ignore="all">
       <tr>
         {!Astro.props.noResult && <th>Result(s)</th>}
@@ -101,13 +95,18 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
     </thead>
 
     <tbody>
-      {Astro.props.recipes.map((recipe) => {
+      {Astro.props.recipes.map((recipe, index) => {
         const ingredients = getIngredientsColumnItems(recipe);
 
         return (
-          <tr>
+          <tr
+            class:list={{
+              fade: index === collapsedRecipeCount - 1,
+              extra: index >= collapsedRecipeCount,
+            }}
+          >
             {!Astro.props.noResult && (
-              <td class="uk-text-center cofh-nowrap">
+              <td class="result">
                 {getResultsColumnItems(recipe).map((result, index) => {
                   const Emphasis = type.allResultsBold || index === 0 ? 'strong' : Fragment;
 
@@ -133,12 +132,10 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
               ))}
             </td>
 
-            {type.withEnergy && (
-              <td class="cofh-nowrap uk-text-right">{recipe.energy?.toLocaleString('en-US')} RF</td>
-            )}
+            {type.withEnergy && <td class="energy">{recipe.energy?.toLocaleString('en-US')} RF</td>}
 
-            <td style="padding: 2px; text-align: center">
-              <div class="cofh-recipe">
+            <td class="frame">
+              <div class="recipe">
                 <type.component recipe={recipe} />
               </div>
             </td>
@@ -148,46 +145,157 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
         );
       })}
     </tbody>
+
+    {collapsible && (
+      <tfoot data-pagefind-ignore="all">
+        <tr>
+          <td colspan={columnCount}>
+            <button type="button" class="recipe-toggle" aria-expanded="false">
+              <span>Show {hiddenRecipeCount} more recipes</span>
+              <Icon name="chevron" />
+            </button>
+          </td>
+        </tr>
+      </tfoot>
+    )}
   </table>
 </div>
 
-<style is:global>
-  .cofh-recipe {
+<style>
+  .recipes {
+    overflow: clip;
+    font-size: 14px;
+  }
+
+  .result {
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .energy {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .frame {
+    padding: 8px;
+    text-align: center;
+  }
+
+  .recipe {
     display: inline-block;
     font-size: 11px;
     line-height: 16px;
     vertical-align: top;
   }
 
-  .cofh-recipe-slot-amount {
+  .recipe > :global(div) {
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px var(--line);
+    filter: var(--recipe-filter);
+  }
+
+  .recipe :global(a:focus-visible) {
+    outline-offset: 0;
+  }
+
+  .collapsed .extra {
+    visibility: collapse;
+  }
+
+  .collapsed .fade td {
+    position: relative;
+  }
+
+  .collapsed .fade td::after {
+    content: '';
     position: absolute;
-    bottom: -3px;
-    right: -3px;
-    color: #fafafa;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: #444444 2px 2px 1px;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 15%, var(--bg));
     pointer-events: none;
   }
 
-  .cofh-recipe-floating-text {
+  tfoot td {
+    padding: 14px;
+    border-top: 1px solid var(--line-strong);
+    border-radius: 0 0 calc(var(--radius) - 1px) calc(var(--radius) - 1px);
+    background: var(--surface);
+    text-align: center;
+  }
+
+  .recipe-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 34px;
+    padding: 0 14px;
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--fg-strong);
+    font: 600 15px/1 var(--font);
+    box-shadow: 0 1px 2px var(--shadow);
+    cursor: pointer;
+    transition:
+      background-color 0.15s,
+      border-color 0.15s,
+      color 0.15s;
+  }
+
+  .recipe-toggle:hover {
+    border-color: var(--accent-line);
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .recipe-toggle :global(.icon) {
+    width: 13px;
+    height: 13px;
+    transition: transform 0.15s;
+  }
+
+  .recipe-toggle[aria-expanded='true'] :global(.icon) {
+    transform: rotate(180deg);
+  }
+
+  .recipe :global(.recipe-floating-text) {
     position: absolute;
     min-width: 100px;
     color: #6f6f6f;
-    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
   }
 </style>
 
 <script>
-  for (const recipe of document.querySelectorAll('.cofh-recipe')) {
+  // Pause the cycling slots of a recipe while the pointer is over it
+  document.querySelectorAll('.recipe').forEach((recipe) => {
     recipe.addEventListener('mouseenter', () => {
-      recipe.querySelectorAll('.cofh-cycle').forEach((cycle) => cycle.classList.add('paused'));
+      recipe.querySelectorAll('.cycle').forEach((cycle) => cycle.classList.add('paused'));
     });
 
     recipe.addEventListener('mouseleave', () => {
-      recipe.querySelectorAll('.cofh-cycle').forEach((cycle) => cycle.classList.remove('paused'));
+      recipe.querySelectorAll('.cycle').forEach((cycle) => cycle.classList.remove('paused'));
     });
-  }
+  });
+
+  // Toggle long recipe tables between their first few recipes and all of them
+  document.querySelectorAll<HTMLButtonElement>('.recipe-toggle').forEach((button) => {
+    const table = button.closest('table') as HTMLTableElement;
+    const label = button.firstElementChild as HTMLSpanElement;
+    const collapsedLabel = label.textContent;
+
+    button.addEventListener('click', () => {
+      const top = button.getBoundingClientRect().top;
+      const expanded = !table.classList.toggle('collapsed');
+
+      button.setAttribute('aria-expanded', String(expanded));
+      label.textContent = expanded ? 'Show fewer' : collapsedLabel;
+
+      // Keep the button where it was clicked when collapsing pulls it up the page
+      if (!expanded) {
+        window.scrollBy({ top: button.getBoundingClientRect().top - top, behavior: 'instant' });
+      }
+    });
+  });
 </script>

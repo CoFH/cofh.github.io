@@ -5,90 +5,97 @@ import Icon from './Icon.astro';
 
 interface Props {
   headings: MarkdownHeading[];
+  appendix?: { slug: string; text: string }[];
   inline?: boolean;
 }
 
-const { headings, inline } = Astro.props;
+const { headings, appendix = [], inline } = Astro.props;
 
-const entries: { id: string; text: string; number: string; sub: boolean }[] = [];
+interface TocEntry {
+  id: string;
+  text: string;
+  number: string | undefined;
+  sub: boolean;
+}
 
 let section = 0;
 let subsection = 0;
 
-for (const { depth, slug, text } of headings) {
+const entries = headings.flatMap(({ depth, slug, text }): TocEntry[] => {
   if (depth === 2) {
     section += 1;
     subsection = 0;
 
-    entries.push({
-      id: slug,
-      text,
-      number: String(section),
-      sub: false,
-    });
-  } else if (depth === 3) {
+    return [{ id: slug, text, number: String(section), sub: false }];
+  }
+
+  if (depth === 3) {
     subsection += 1;
 
-    entries.push({
-      id: slug,
-      text,
-      number: `${section}.${subsection}`,
-      sub: true,
-    });
+    return [{ id: slug, text, number: `${section}.${subsection}`, sub: true }];
   }
+
+  return [];
+});
+
+if (entries.length > 0) {
+  entries.push(
+    ...appendix.map(({ slug, text }) => ({ id: slug, text, number: undefined, sub: false })),
+  );
 }
 ---
 
-{inline ? (
-  <details class="inline" data-pagefind-ignore>
-    <summary>
-      <Icon name="list" />
-      On this page
-      <span class="chevron">
-        <Icon name="chevron" />
-      </span>
-    </summary>
-
-    <nav class="toc" aria-label="On this page">
-      <ol>
-        {entries.map((entry) => (
-          <li class:list={{ sub: entry.sub }}>
-            <a href={`#${entry.id}`} data-id={entry.id}>
-              <span class="number">{entry.number}</span>
-              <span>{entry.text}</span>
-            </a>
-          </li>
-        ))}
-      </ol>
-    </nav>
-  </details>
-) : (
-  <aside class="side" data-pagefind-ignore>
-    <nav class="toc" aria-label="On this page (sidebar)">
-      <p class="title">
-        <Icon name="list" small />
+{entries.length > 0 &&
+  (inline ? (
+    <details class="inline" data-pagefind-ignore>
+      <summary>
+        <Icon name="list" />
         On this page
-      </p>
+        <span class="chevron">
+          <Icon name="chevron" />
+        </span>
+      </summary>
 
-      <ol>
-        {entries.map((entry) => (
-          <li class:list={{ sub: entry.sub }}>
-            <a href={`#${entry.id}`} data-id={entry.id}>
-              <span class="number">{entry.number}</span>
-              <span>{entry.text}</span>
-            </a>
-          </li>
-        ))}
-      </ol>
-    </nav>
-  </aside>
-)}
+      <nav class="toc" aria-label="On this page">
+        <ol>
+          {entries.map((entry) => (
+            <li class:list={{ sub: entry.sub, appendix: entry.number === undefined }}>
+              <a href={`#${entry.id}`} data-id={entry.id}>
+                <span class="number">{entry.number}</span>
+                <span>{entry.text}</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    </details>
+  ) : (
+    <aside class="side" data-pagefind-ignore>
+      <nav class="toc" aria-label="On this page (sidebar)">
+        <p class="title overline">
+          <Icon name="list" small />
+          On this page
+        </p>
+
+        <ol>
+          {entries.map((entry) => (
+            <li class:list={{ sub: entry.sub, appendix: entry.number === undefined }}>
+              <a href={`#${entry.id}`} data-id={entry.id}>
+                <span class="number">{entry.number}</span>
+                <span>{entry.text}</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    </aside>
+  ))}
 
 <script>
   const links = [...document.querySelectorAll<HTMLAnchorElement>('.toc a[data-id]')];
 
   const headings = [...new Set(links.map((link) => link.dataset.id))]
-    .map((id) => (id === undefined ? null : document.getElementById(id)))
+    .map((id) => (id !== undefined ? document.getElementById(id) : null))
     .filter((heading) => heading !== null);
 
   let current: string | null = null;
@@ -100,26 +107,54 @@ for (const { depth, slug, text } of headings) {
 
     current = id;
 
-    for (const link of links) {
+    links.forEach((link) => {
       if (link.dataset.id === id) {
         link.setAttribute('aria-current', 'location');
       } else {
         link.removeAttribute('aria-current');
       }
-    }
+    });
   }
 
-  // Mark the last heading in the top 30% of the window as the one being read, or the last one
-  // once the page is scrolled to the end
+  let pinned: HTMLElement | null = null;
+
+  // Highlight the last heading that has scrolled up to just below the site header (where clicking
+  // its link puts it), or the page's last heading once the page can't scroll any further
   function update() {
+    if (headings.length === 0) {
+      return;
+    }
+
+    if (pinned !== null) {
+      setCurrent(pinned);
+      return;
+    }
+
     const atEnd = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 1;
-    const line = window.innerHeight * 0.3;
-    const above = headings.filter((heading) => heading.getBoundingClientRect().top < line);
+    const line = parseFloat(getComputedStyle(headings[0]).scrollMarginTop) + 1;
+    const above = headings.filter((heading) => heading.getBoundingClientRect().top <= line);
 
     setCurrent((atEnd ? headings.at(-1) : above.at(-1)) ?? headings[0]);
   }
 
-  update();
+  // Keep a heading that was just linked to marked until the reader scrolls
+  function pin() {
+    pinned = headings.find((heading) => `#${heading.id}` === window.location.hash) ?? null;
+    update();
+  }
+
+  function unpin() {
+    pinned = null;
+  }
+
+  pin();
+  window.addEventListener('hashchange', pin);
+  links.forEach((link) => link.addEventListener('click', () => requestAnimationFrame(pin)));
+
+  ['wheel', 'touchmove', 'keydown', 'pointerdown'].forEach((type) =>
+    window.addEventListener(type, unpin, { passive: true }),
+  );
+
   document.addEventListener('scroll', update, { passive: true });
   window.addEventListener('resize', update);
 </script>
@@ -139,24 +174,21 @@ for (const { depth, slug, text } of headings) {
     align-items: center;
     gap: 8px;
     margin: 0 0 8px;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    color: var(--muted);
   }
 
   ol {
     list-style: none;
     margin: 0;
     padding: 0;
+    border-left: 2px solid var(--line);
   }
 
   a {
     display: flex;
     gap: 8px;
+    margin-left: -2px;
     padding: 4px 10px 4px 12px;
-    border-left: 2px solid var(--line);
+    border-left: 2px solid transparent;
     color: var(--muted);
     font-size: 15px;
     line-height: 1.35;
@@ -172,6 +204,12 @@ for (const { depth, slug, text } of headings) {
     color: var(--accent);
     border-left-color: var(--accent);
     font-weight: 600;
+  }
+
+  li:not(.appendix) + .appendix {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--line);
   }
 
   .sub a {
@@ -233,7 +271,7 @@ for (const { depth, slug, text } of headings) {
     padding: 0 14px 12px;
   }
 
-  .inline a {
+  .inline ol {
     border-left-color: var(--line-strong);
   }
 

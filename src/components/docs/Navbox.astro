@@ -1,108 +1,183 @@
 ---
-import type { DocNav } from '../../mods/types.ts';
-import NavboxGroup from './NavboxGroup.astro';
+import { getDocsHref, getDocsSections, getModsHref } from '../../lib/mods.ts';
+import type { DocNav, ModListVersion } from '../../mods/types.ts';
 import NavboxLink from './NavboxLink.astro';
+import NavboxTable from './NavboxTable.astro';
 
 interface Props {
-  nav: DocNav;
-  path: string;
+  version: ModListVersion;
+  currentMod: string | undefined;
 }
 
-const { nav, path } = Astro.props;
+const { version, currentMod } = Astro.props;
+
+const navs = import.meta.glob<DocNav>('../../mods/*/*/navbox.ts', {
+  eager: true,
+  import: 'default',
+});
+
+const getNav = (slug: string) => navs[`../../mods/${version.mc}/${slug}/navbox.ts`];
+
+const sections = (await getDocsSections(version))
+  .map((section) => ({
+    ...section,
+    mods: section.mods.filter((mod) => getNav(mod.slug) !== undefined),
+  }))
+  .filter((section) => section.mods.length > 0);
 ---
 
-<div class="cofh-navbox-container">
-  <table class="uk-table cofh-navbox-table">
-    <tbody>
-      <tr>
-        <th colspan="2" class="cofh-navbox-title">
-          <NavboxLink href={`/docs/${path}/`} text={nav.title} icon={undefined} />
-        </th>
-      </tr>
+<section class="navbox" aria-label={`Minecraft ${version.label} docs`} data-pagefind-ignore="all">
+  <div class="head">
+    <div class="version">
+      <span class="label overline" aria-hidden="true">
+        Minecraft
+      </span>
+      <a href={getModsHref(version)} aria-label={`Mods for Minecraft ${version.label}`}>
+        {version.label}
+      </a>
+    </div>
 
-      {nav.sections.map((section) => (
-        <>
-          {section.title !== undefined && (
-            <tr>
-              <td colspan="2" class="cofh-navbox-section-title">
-                {section.title}
-              </td>
-            </tr>
-          )}
+    <div class="tabs">
+      {sections.map((section) => (
+        <div class="family">
+          <span class="label overline" aria-hidden="true">
+            {section.title}
+          </span>
 
-          {section.groups.map((group) => (
-            <NavboxGroup group={group} path={path} />
-          ))}
-        </>
+          <span class="family-tabs">
+            {section.mods.map((mod) => (
+              <button
+                type="button"
+                class="tab"
+                aria-controls={`navbox-panel-${mod.slug}`}
+                aria-expanded={mod.slug === currentMod ? 'true' : 'false'}
+                aria-label={mod.title}
+              >
+                {mod.shortTitle ?? mod.title}
+              </button>
+            ))}
+          </span>
+        </div>
       ))}
-    </tbody>
-  </table>
-</div>
+    </div>
+  </div>
 
-<style is:global>
-  div.cofh-navbox-container {
-    border: 1px solid #dadada;
+  {sections
+    .flatMap((section) => section.mods)
+    .map((mod) => (
+      <div class="panel" id={`navbox-panel-${mod.slug}`} hidden={mod.slug !== currentMod}>
+        <div class="caption">
+          <NavboxLink href={getDocsHref(version, mod)} text={mod.title} icon={undefined} />
+        </div>
+
+        <NavboxTable nav={getNav(mod.slug)} path={`${version.mc}/${mod.slug}`} />
+      </div>
+    ))}
+</section>
+
+<script>
+  const tabs = [...document.querySelectorAll<HTMLButtonElement>('.navbox .tab')];
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach((other) => {
+        const expanded = other === tab;
+
+        other.setAttribute('aria-expanded', String(expanded));
+        document.getElementById(other.getAttribute('aria-controls')!)!.hidden = !expanded;
+      });
+    });
+  });
+</script>
+
+<style>
+  .navbox {
+    overflow: hidden;
+    border: 1px solid var(--line-strong);
+    border-radius: 10px;
+    background: var(--bg);
+  }
+
+  .head {
+    display: flex;
+    gap: 12px;
+    padding: 8px 12px;
+  }
+
+  .version {
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding-right: 12px;
+    border-right: 1px solid var(--line-strong);
+    line-height: 26px;
+  }
+
+  .version a {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+    min-width: 0;
+  }
+
+  .family {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 8px;
+    min-width: 0;
+  }
+
+  .label {
+    color: var(--faint);
     font-size: 11.5px;
-    line-height: 18px;
-  }
-
-  table.cofh-navbox-table {
-    margin: 0;
-    border-collapse: separate;
-    border-spacing: 2px;
-  }
-
-  table.cofh-navbox-table.cofh-navbox-subgroups-table {
-    margin: -2px;
-  }
-
-  table.cofh-navbox-table th.cofh-navbox-title {
-    background: #ddd;
-    padding: 3px 6px;
-    text-align: center;
-    vertical-align: middle;
-  }
-
-  table.cofh-navbox-table td.cofh-navbox-section-title {
-    background: #eee;
-    padding: 3px 6px;
-    text-align: center;
-    vertical-align: middle;
-  }
-
-  table.cofh-navbox-table th.cofh-navbox-group-title {
-    background: #eee;
-    padding: 3px 6px;
-    text-align: center;
-    vertical-align: middle;
     white-space: nowrap;
   }
 
-  table.cofh-navbox-table td.cofh-navbox-group-items {
-    padding: 3px 6px;
+  .family-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
   }
 
-  table.cofh-navbox-table td.cofh-navbox-group-subgroups-container {
-    padding: 0;
-  }
-
-  .cofh-navbox-icon {
-    vertical-align: baseline;
-    position: relative;
-    top: 3px;
-  }
-
-  a.cofh-navbox-link {
-    display: inline-block;
+  .tab {
+    height: 26px;
+    padding: 0 9px;
+    border: 0;
+    border-radius: 4px;
+    background: none;
+    color: var(--fg);
+    font-size: 13.5px;
+    font-weight: 500;
     white-space: nowrap;
+    cursor: pointer;
   }
 
-  a.cofh-navbox-link,
-  a.cofh-navbox-link:hover {
-    text-decoration: none;
+  .tab:hover {
+    background: var(--band-hover);
+    color: var(--fg-strong);
   }
 
-  a.cofh-navbox-link:hover > span {
-    text-decoration: underline;
+  .tab[aria-expanded='true'] {
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .caption {
+    margin: 2px 2px 0;
+    padding: 5px 12px;
+    background: var(--line-strong);
+    font-size: 13.5px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
   }
 </style>

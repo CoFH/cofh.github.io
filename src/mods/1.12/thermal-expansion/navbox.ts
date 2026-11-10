@@ -3,7 +3,6 @@ import tfFluids from '../thermal-foundation/fluids.ts';
 import te from './items.ts';
 
 export default {
-  title: 'Thermal Expansion (Minecraft 1.12)',
   sections: [
     {
       groups: [

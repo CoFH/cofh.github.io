@@ -26,8 +26,9 @@ const icon =
 ---
 
 {subitems.length > 0 && item.url === undefined && item.item === undefined ? (
-  <span class="cofh-nowrap">
-    <NavboxIcon icon={icon} /> {title}
+  <span class="nowrap">
+    <NavboxIcon icon={icon} />
+    {title}
   </span>
 ) : (
   <NavboxLink href={href} text={title} icon={icon} />
@@ -37,19 +38,39 @@ const icon =
   <>
     {' '}
     <span>
-      (
+      <span class="open">(</span>
       {subitems.map((subitem, index) => (
         <>
           {index > 0 && (
             <>
               {' '}
-              <span class="uk-text-bold">&#8729;</span>{' '}
+              <span class="separator">&#8729;</span>{' '}
             </>
           )}
           <Astro.self item={subitem} path={path} />
         </>
       ))}
-      )
+      <span class="close">)</span>
     </span>
   </>
 )}
+
+<style>
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .open {
+    margin-right: 4px;
+  }
+
+  .close {
+    margin-left: 4px;
+  }
+
+  .separator {
+    margin: 0 2px;
+    color: var(--faint);
+    font-weight: 700;
+  }
+</style>

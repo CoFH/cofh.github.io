@@ -1,7 +1,6 @@
 import type { DocNav } from '../../types.ts';
 
 export default {
-  title: 'CoFH World (Minecraft 1.12)',
   sections: [
     {
       groups: [
@@ -127,6 +126,7 @@ export default {
             },
             {
               title: 'Common formats',
+              url: 'world-generator-configuration/common-formats/',
               items: [
                 {
                   title: 'Block ID',

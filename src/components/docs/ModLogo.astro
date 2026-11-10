@@ -10,14 +10,13 @@ interface Props {
 const { src, alt } = Astro.props;
 ---
 
-<p>
-  <Image src={src} alt={alt} loading="eager" />
-</p>
+<Image src={src} alt={alt} height={100} densities={[1, 2]} loading="eager" />
 
 <style>
   img {
-    width: auto;
-    height: 100px;
-    margin-bottom: 15px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
   }
 </style>

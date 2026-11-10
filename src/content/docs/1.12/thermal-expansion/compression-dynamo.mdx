@@ -47,7 +47,7 @@ rotated using a [wrench](../../wrenches/).
 ### Energy generation
 When a compression dynamo is filled with fluid [fuel](#fuels) and
 [coolant](../coolants/), it will start consuming both to
-generate [Redstone Flux](/docs/redstone-flux/). Fuel and coolant are consumed in
+generate [Redstone Flux](/faq/#what-is-redstone-flux-rf). Fuel and coolant are consumed in
 batches of 100 mB. Every batch of fuel yields a certain amount of energy when
 consumed. Every batch of coolant can be used to generate a certain amount of
 energy; this amount is equal to the [thermal
@@ -76,7 +76,7 @@ installing an [excitation field
 limiter](../augment-excitation-field-limiter/).
 
 ### Input and output
-A compression dynamo emits [Redstone Flux](/docs/redstone-flux/) from its coil,
+A compression dynamo emits [Redstone Flux](/faq/#what-is-redstone-flux-rf) from its coil,
 which points in the direction the dynamo is facing. It only emits energy when it
 is active. Fluids can enter a compression dynamo through its sides. They cannot
 enter it through the coil, unless [transmission coil
@@ -112,7 +112,7 @@ A compression dynamo's configuration can be saved on a
 [redprint](../../thermal-foundation/redprint/) to be copied to other dynamos.
 
 ### Light source
-When a compression dynamo that produces [Redstone Flux](/docs/redstone-flux/) is
+When a compression dynamo that produces [Redstone Flux](/faq/#what-is-redstone-flux-rf) is
 active, it emits a light level of 7.
 
 
@@ -121,8 +121,8 @@ Tiers
 
 Compression dynamos come in six [tiers](../../thermal-foundation/tiers/).
 
-<div class="uk-overflow-container">
-  <table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
+<div class="table-scroll">
+  <table>
     <thead>
       <tr><th>Tier</th><th>Max. power output</th><th>Augment slots</th></tr>
     </thead>
@@ -167,137 +167,139 @@ Fuels
 The following fluids can be consumed by a compression dynamo to generate varying
 amounts of energy.
 
-<table class="uk-table uk-table-striped uk-table-condensed uk-text-small cofh-table-compress">
-  <thead>
-    <tr>
-      <th>Fuel</th>
-      <th>Energy per 1,000 mB</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>[Creosote Oil](../../thermal-foundation/creosote-oil/)</td>
-      <td>40,000 RF</td>
-    </tr>
-    <tr>
-      <td>[Seed Oil](../../thermal-foundation/seed-oil/)</td>
-      <td>80,000 RF</td>
-    </tr>
-    <tr>
-      <td>[Liquifacted Coal](../../thermal-foundation/liquifacted-coal/)</td>
-      <td>400,000 RF</td>
-    </tr>
-    <tr>
-      <td>[Crude Oil](../../thermal-foundation/crude-oil/)</td>
-      <td>400,000 RF</td>
-    </tr>
-    <tr>
-      <td>[Tree Oil](../../thermal-foundation/tree-oil/)</td>
-      <td>400,000 RF</td>
-    </tr>
-    <tr>
-      <td>[Grassoline](../../thermal-foundation/grassoline/)</td>
-      <td>800,000 RF</td>
-    </tr>
-    <tr>
-      <td>[Naphtha](../../thermal-foundation/naphtha/)</td>
-      <td>1,000,000 RF</td>
-    </tr>
-    <tr>
-      <td>[Refined Fuel](../../thermal-foundation/refined-fuel/)</td>
-      <td>1,500,000 RF</td>
-    </tr>
-    <tr>
-      <td>Gaseous Fuel ([BuildCraft](https://www.mod-buildcraft.com/))</td>
-      <td>200,000 RF</td>
-    </tr>
-    <tr>
-      <td>Mixed Light Fuels ([BuildCraft](https://www.mod-buildcraft.com/))</td>
-      <td>320,000 RF</td>
-    </tr>
-    <tr>
-      <td>Distilled Oil ([BuildCraft](https://www.mod-buildcraft.com/))</td>
-      <td>400,000 RF</td>
-    </tr>
-    <tr>
-      <td>Mixed Heavy Fuels ([BuildCraft](https://www.mod-buildcraft.com/))</td>
-      <td>640,000 RF</td>
-    </tr>
-    <tr>
-      <td>Light Fuel ([BuildCraft](https://www.mod-buildcraft.com/))</td>
-      <td>800,000 RF</td>
-    </tr>
-    <tr>
-      <td>Heavy Oil ([BuildCraft](https://www.mod-buildcraft.com/))</td>
-      <td>1,000,000 RF</td>
-    </tr>
-    <tr>
-      <td>Dense Oil ([BuildCraft](https://www.mod-buildcraft.com/))</td>
-      <td>1,600,000 RF</td>
-    </tr>
-    <tr>
-      <td>Dense Fuel ([BuildCraft](https://www.mod-buildcraft.com/))</td>
-      <td>2,400,000 RF</td>
-    </tr>
-    <tr>
-      <td>Canola Oil ([Actually
-        Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions))</td>
-      <td>80,000 RF</td>
-    </tr>
-    <tr>
-      <td>Oil ([Actually
-        Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions))</td>
-      <td>200,000 RF</td>
-    </tr>
-    <tr>
-      <td>Crystallized Oil ([Actually
-        Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions))</td>
-      <td>400,000 RF</td>
-    </tr>
-    <tr>
-      <td>Empowered Oil ([Actually
-        Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions))</td>
-      <td>700,000 RF</td>
-    </tr>
-    <tr>
-      <td>Hootch ([Ender IO](http://enderio.com/))</td>
-      <td>300,000 RF</td>
-    </tr>
-    <tr>
-      <td>Fire Water ([Ender IO](http://enderio.com/))</td>
-      <td>750,000 RF</td>
-    </tr>
-    <tr>
-      <td>Rocket Fuel ([Ender IO](http://enderio.com/))</td>
-      <td>1,000,000 RF</td>
-    </tr>
-    <tr>
-      <td>Ethanol ([Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry))</td>
-      <td>500,000 RF</td>
-    </tr>
-    <tr>
-      <td>Biodiesel ([Immersive
-        Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering))</td>
-      <td>500,000 RF</td>
-    </tr>
-    <tr>
-      <td>Crude Oil ([Immersive
-        Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum))</td>
-      <td>400,000 RF</td>
-    </tr>
-    <tr>
-      <td>Diesel ([Immersive
-        Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum))</td>
-      <td>800,000 RF</td>
-    </tr>
-    <tr>
-      <td>Gasoline ([Immersive
-        Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum))</td>
-      <td>1,200,000 RF</td>
-    </tr>
-    <tr>
-      <td>Biogas ([IndustrialCraft²](https://www.industrial-craft.net/))</td>
-      <td>50,000 RF</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Fuel</th>
+        <th>Energy per 1,000 mB</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>[Creosote Oil](../../thermal-foundation/creosote-oil/)</td>
+        <td>40,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Seed Oil](../../thermal-foundation/seed-oil/)</td>
+        <td>80,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Liquifacted Coal](../../thermal-foundation/liquifacted-coal/)</td>
+        <td>400,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Crude Oil](../../thermal-foundation/crude-oil/)</td>
+        <td>400,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Tree Oil](../../thermal-foundation/tree-oil/)</td>
+        <td>400,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Grassoline](../../thermal-foundation/grassoline/)</td>
+        <td>800,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Naphtha](../../thermal-foundation/naphtha/)</td>
+        <td>1,000,000 RF</td>
+      </tr>
+      <tr>
+        <td>[Refined Fuel](../../thermal-foundation/refined-fuel/)</td>
+        <td>1,500,000 RF</td>
+      </tr>
+      <tr>
+        <td>Gaseous Fuel ([BuildCraft](https://www.mod-buildcraft.com/))</td>
+        <td>200,000 RF</td>
+      </tr>
+      <tr>
+        <td>Mixed Light Fuels ([BuildCraft](https://www.mod-buildcraft.com/))</td>
+        <td>320,000 RF</td>
+      </tr>
+      <tr>
+        <td>Distilled Oil ([BuildCraft](https://www.mod-buildcraft.com/))</td>
+        <td>400,000 RF</td>
+      </tr>
+      <tr>
+        <td>Mixed Heavy Fuels ([BuildCraft](https://www.mod-buildcraft.com/))</td>
+        <td>640,000 RF</td>
+      </tr>
+      <tr>
+        <td>Light Fuel ([BuildCraft](https://www.mod-buildcraft.com/))</td>
+        <td>800,000 RF</td>
+      </tr>
+      <tr>
+        <td>Heavy Oil ([BuildCraft](https://www.mod-buildcraft.com/))</td>
+        <td>1,000,000 RF</td>
+      </tr>
+      <tr>
+        <td>Dense Oil ([BuildCraft](https://www.mod-buildcraft.com/))</td>
+        <td>1,600,000 RF</td>
+      </tr>
+      <tr>
+        <td>Dense Fuel ([BuildCraft](https://www.mod-buildcraft.com/))</td>
+        <td>2,400,000 RF</td>
+      </tr>
+      <tr>
+        <td>Canola Oil ([Actually
+          Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions))</td>
+        <td>80,000 RF</td>
+      </tr>
+      <tr>
+        <td>Oil ([Actually
+          Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions))</td>
+        <td>200,000 RF</td>
+      </tr>
+      <tr>
+        <td>Crystallized Oil ([Actually
+          Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions))</td>
+        <td>400,000 RF</td>
+      </tr>
+      <tr>
+        <td>Empowered Oil ([Actually
+          Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions))</td>
+        <td>700,000 RF</td>
+      </tr>
+      <tr>
+        <td>Hootch ([Ender IO](http://enderio.com/))</td>
+        <td>300,000 RF</td>
+      </tr>
+      <tr>
+        <td>Fire Water ([Ender IO](http://enderio.com/))</td>
+        <td>750,000 RF</td>
+      </tr>
+      <tr>
+        <td>Rocket Fuel ([Ender IO](http://enderio.com/))</td>
+        <td>1,000,000 RF</td>
+      </tr>
+      <tr>
+        <td>Ethanol ([Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry))</td>
+        <td>500,000 RF</td>
+      </tr>
+      <tr>
+        <td>Biodiesel ([Immersive
+          Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering))</td>
+        <td>500,000 RF</td>
+      </tr>
+      <tr>
+        <td>Crude Oil ([Immersive
+          Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum))</td>
+        <td>400,000 RF</td>
+      </tr>
+      <tr>
+        <td>Diesel ([Immersive
+          Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum))</td>
+        <td>800,000 RF</td>
+      </tr>
+      <tr>
+        <td>Gasoline ([Immersive
+          Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum))</td>
+        <td>1,200,000 RF</td>
+      </tr>
+      <tr>
+        <td>Biogas ([IndustrialCraft²](https://www.industrial-craft.net/))</td>
+        <td>50,000 RF</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

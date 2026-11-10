@@ -2,7 +2,6 @@ import type { DocNav } from '../../types.ts';
 import ti from './items.ts';
 
 export default {
-  title: 'Thermal Innovation (Minecraft 1.12)',
   sections: [
     {
       groups: [

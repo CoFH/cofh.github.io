@@ -14,13 +14,13 @@ const rows = Astro.props.augments.map((id) => {
 });
 ---
 
-<div class="uk-overflow-container">
-  <table class="uk-table uk-table-striped uk-text-small cofh-info-table">
+<div class="table-scroll">
+  <table>
     <thead>
       <tr>
         <th></th>
         <th>Augment</th>
-        <th class="cofh-nowrap">Installable in</th>
+        <th class="nowrap">Installable in</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -28,19 +28,19 @@ const rows = Astro.props.augments.map((id) => {
     <tbody>
       {rows.map(({ augment, url }) => (
         <tr>
-          <td style="width: 48px; min-width: 48px">
+          <td class="icon">
             <a href={url}>
               <GameImage image={augment.item.image} height={48} alt={augment.item.name} />
             </a>
           </td>
 
-          <td class="cofh-nowrap">
+          <td class="nowrap">
             <strong>
               <a href={url}>{augment.name}</a>
             </strong>
           </td>
 
-          <td class="cofh-nowrap" set:html={augment.installedIn} />
+          <td class="nowrap" set:html={augment.installedIn} />
 
           <td style="min-width: 200px" set:html={augment.description} />
         </tr>
@@ -48,3 +48,15 @@ const rows = Astro.props.augments.map((id) => {
     </tbody>
   </table>
 </div>
+
+<style>
+  .icon {
+    box-sizing: content-box;
+    width: 48px;
+    min-width: 48px;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+</style>

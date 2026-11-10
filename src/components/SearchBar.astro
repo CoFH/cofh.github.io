@@ -32,7 +32,7 @@ interface Props {
 
   // Give the search box a tooltip only while it shows just its icon
   function updateSearchTips() {
-    for (const box of document.querySelectorAll<HTMLElement>('.search-site')) {
+    document.querySelectorAll<HTMLElement>('.search-site').forEach((box) => {
       const label = box.querySelector('pagefind-modal-trigger')?.getAttribute('placeholder');
 
       if (iconOnly.matches && label) {
@@ -40,7 +40,7 @@ interface Props {
       } else {
         delete box.dataset.tooltip;
       }
-    }
+    });
   }
 
   updateSearchTips();

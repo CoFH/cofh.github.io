@@ -3,7 +3,6 @@ import tfFluids from './fluids.ts';
 import tf from './items.ts';
 
 export default {
-  title: 'Thermal Foundation (Minecraft 1.12)',
   sections: [
     {
       title: 'World',
