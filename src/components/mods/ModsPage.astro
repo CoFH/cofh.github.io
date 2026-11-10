@@ -1,6 +1,5 @@
 ---
 import Site from '../../layouts/Site.astro';
-import { DISCORD_URL } from '../../lib/external-links.ts';
 import { currentVersion, getModsHref } from '../../lib/mods.ts';
 import modList from '../../mods/mod-list.ts';
 import type { ModListVersion } from '../../mods/types.ts';
@@ -16,7 +15,12 @@ const { version } = Astro.props;
 ---
 
 <Site title="Mods">
-  <div class="wrap" data-pagefind-body>
+  <div
+    class="wrap"
+    data-pagefind-body
+    data-pagefind-meta="version[data-version]"
+    data-version={version.label}
+  >
     <header class="page-head">
       <h1>Mods</h1>
     </header>
@@ -44,7 +48,8 @@ const { version } = Astro.props;
       <li>
         <Icon name="chat" />
         <span>
-          <a href={DISCORD_URL}>Join our Discord</a> to get help, report bugs or just have a chat.
+          <a href="https://discord.gg/uRKrnbH">Join our Discord</a> to get help, report bugs or just
+          have a chat.
         </span>
       </li>
     </ul>

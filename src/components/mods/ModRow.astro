@@ -19,7 +19,13 @@ const logo = getModLogo(version, mod.slug);
 <li class="row">
   <div class="logo">
     {logo !== undefined && (
-      <Image src={logo} alt={`${mod.title} logo`} height={46} densities={[1, 2]} />
+      <Image
+        src={logo}
+        alt={`${mod.title} logo`}
+        height={46}
+        densities={[1, 2]}
+        data-pagefind-ignore="all"
+      />
     )}
   </div>
 
@@ -28,7 +34,7 @@ const logo = getModLogo(version, mod.slug);
     <p>{mod.summary}</p>
   </div>
 
-  <div class="buttons">
+  <div class="buttons" data-pagefind-ignore="all">
     <DownloadButtons mod={mod} />
     <DocsButton version={version} mod={mod} />
   </div>

@@ -193,18 +193,12 @@ importers:
       astro-pagefind:
         specifier: 2.0.1
         version: 2.0.1(astro@7.4.0(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))
-      jquery:
-        specifier: 3.2.1
-        version: 3.2.1
       pagefind:
         specifier: 1.5.2
         version: 1.5.2
       simple-icons:
         specifier: 16.35.0
         version: 16.35.0
-      uikit:
-        specifier: 2.23.0
-        version: 2.23.0
     devDependencies:
       '@astrojs/check':
         specifier: 0.9.10
@@ -1824,10 +1818,6 @@ packages:
     resolution: {integrity: sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==}
     hasBin: true
 
-  jquery@3.2.1:
-    resolution: {integrity: sha512-iQUctXqe/nSa7hshPkQnJaJEUfxM139//hg2nJj+wsqVvd/YgXALR3jTNGh7BylgsyfcC8r4i2cJrClGBkDu5Q==}
-    deprecated: This version is deprecated. Please upgrade to the latest version or find support at https://www.herodevs.com/support/jquery-nes or https://tuxcare.com/lp/click-jquery-support/.
-
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
@@ -2124,9 +2114,6 @@ packages:
 
   node-mock-http@1.0.5:
     resolution: {integrity: sha512-KQyt/wLjG3TAc7DOUhpqWzgd4ERxR80JOlTK5VE5R1S12IaPVN5qkj4klBce9HPG1Njuup4Sb5bljaT34lIyjw==}
-
-  node-promise@0.5.14:
-    resolution: {integrity: sha512-kbd+ABY2XRdByRVHPcBDemymfNL8+msGyKNxG/ziZnh9RjneuuGQl3/CE5UkNWxCInkJS+ztc5B31/t2kIO4Yw==}
 
   nopt@7.2.1:
     resolution: {integrity: sha512-taM24ViiimT/XntxbPyJQzCG+p4EKOpgD3mxFwW38mGjVUrfERQOeY4EDHjdnptttfHuHQXFx+lTP08Q+mLa/w==}
@@ -2577,9 +2564,6 @@ packages:
 
   ufo@1.6.4:
     resolution: {integrity: sha512-JFNbkD1Svwe0KvGi8GOeLcP4kAWQ609twvCdcHxq1oSL8svv39ZuSvajcD8B+5D0eL4+s1Is2D/O6KN3qcTeRA==}
-
-  uikit@2.23.0:
-    resolution: {integrity: sha512-mOqm2q11IymuikOy1FxAAT117rgqHZaZRCIRqJkgQ+ebTghXH8z4Qatp6yz/UkVevWzpKiyx+zaRF/FzAJNO5g==}
 
   ultrahtml@1.7.0:
     resolution: {integrity: sha512-2xRd0VHoAQE4M+vF/DvFFB7pUV0ZxTW1TLi7lHQWnF/Sb5TPeEUV/l+hxcNnGO00ZXGnR0voCMmYRKQf+rvJ2g==}
@@ -4589,8 +4573,6 @@ snapshots:
 
   jiti@2.7.0: {}
 
-  jquery@3.2.1: {}
-
   js-tokens@4.0.0: {}
 
   json-parse-even-better-errors@3.0.2: {}
@@ -5040,8 +5022,6 @@ snapshots:
   node-fetch-native@1.6.7: {}
 
   node-mock-http@1.0.5: {}
-
-  node-promise@0.5.14: {}
 
   nopt@7.2.1:
     dependencies:
@@ -5552,10 +5532,6 @@ snapshots:
   typescript@6.0.3: {}
 
   ufo@1.6.4: {}
-
-  uikit@2.23.0:
-    dependencies:
-      node-promise: 0.5.14
 
   ultrahtml@1.7.0: {}
 

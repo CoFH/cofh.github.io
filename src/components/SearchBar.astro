@@ -1,54 +1,146 @@
 ---
-import { getIconDataUri } from '../lib/icons.ts';
+import { getIconDataUri, icons } from '../lib/icons.ts';
+import type { ModListVersion } from '../mods/types.ts';
+import Icon from './Icon.astro';
 
 interface Props {
-  variant: 'site' | 'legacy';
-  instance: string;
-  class?: string;
-  hideShortcut?: boolean;
+  version: ModListVersion | undefined;
 }
+
+const { version } = Astro.props;
+
+const separator = `<svg class="result-separator" viewBox="${icons.chevronRight.viewBox}" aria-hidden="true"><path d="${icons.chevronRight.path}" fill="currentColor" /></svg>`;
+
+const resultTemplate = `
+<li class="pf-result">
+  <div class="pf-result-card">
+    {{#if and(options.show_images, meta.image)}}
+    <img class="pf-result-image" src="{{ meta.image | resolveUrl(meta.url | default(url)) }}" alt="{{ meta.image_alt | default(meta.title) }}">
+    {{/if}}
+    <div class="pf-result-content">
+      <p class="pf-result-title">
+        <a class="pf-result-link" href="{{ meta.url | default(url) | safeUrl }}">{{ meta.title }}</a>
+      </p>
+      {{#if meta.version}}
+      <p class="result-badge">Minecraft {{ meta.version }}{{#if meta.mod}} ${separator} {{ meta.mod }}{{/if}}</p>
+      {{/if}}
+      {{#if excerpt}}
+      <p class="pf-result-excerpt">{{+ excerpt +}}</p>
+      {{/if}}
+    </div>
+  </div>
+  {{#if sub_results}}
+  <ul class="pf-heading-chips">
+    {{#each sub_results as sub}}
+    <li class="pf-heading-chip">
+      <a class="pf-heading-link" href="{{ sub.url | safeUrl }}">{{ sub.title }}</a>
+      <p class="pf-heading-excerpt">{{+ sub.excerpt +}}</p>
+    </li>
+    {{/each}}
+  </ul>
+  {{/if}}
+</li>`;
 ---
 
 <div
-  class:list={[Astro.props.class, Astro.props.variant === 'site' ? 'search-site' : 'cofh-search']}
-  style={
-    Astro.props.variant === 'site' ? `--pf-icon-search: ${getIconDataUri('search')}` : undefined
-  }
+  class="search"
+  style={`--pf-icon-search: ${getIconDataUri('search')}`}
+  data-version={version?.mc}
 >
-  <pagefind-modal-trigger
-    instance={Astro.props.instance}
-    placeholder={Astro.props.variant === 'site' ? 'Search' : 'Search...'}
-    hide-shortcut={Astro.props.hideShortcut ? true : undefined}
-  />
+  <pagefind-modal-trigger instance="site" placeholder="Search" />
 
-  <pagefind-modal instance={Astro.props.instance} />
+  <pagefind-modal instance="site">
+    <pagefind-modal-header>
+      <pagefind-input instance="site" />
+    </pagefind-modal-header>
+
+    <pagefind-modal-body>
+      {version !== undefined && (
+        <div class="scope">
+          <button
+            type="button"
+            class="chip scope-chip"
+            aria-label={`Search all versions instead of only Minecraft ${version.label}`}
+          >
+            Minecraft {version.label}
+            <Icon name="close" small />
+          </button>
+
+          <p class="other-versions" hidden>
+            <span class="other-count"></span> more in other versions ·{' '}
+            <button type="button" class="all-versions">
+              Search all versions
+            </button>
+          </p>
+        </div>
+      )}
+
+      <pagefind-summary instance="site" />
+
+      <pagefind-results instance="site" show-images>
+        <script is:inline type="text/pagefind-template" set:html={resultTemplate} />
+      </pagefind-results>
+    </pagefind-modal-body>
+
+    <pagefind-modal-footer>
+      <pagefind-keyboard-hints instance="site" />
+    </pagefind-modal-footer>
+  </pagefind-modal>
 </div>
 
 <script>
   import '@pagefind/component-ui';
   import '@pagefind/component-ui/css/pagefind-component-ui.css';
 
-  const iconOnly = window.matchMedia('(max-width: 760px)');
+  import { getInstanceManager } from '@pagefind/component-ui';
 
-  // Give the search box a tooltip only while it shows just its icon
-  function updateSearchTips() {
-    document.querySelectorAll<HTMLElement>('.search-site').forEach((box) => {
-      const label = box.querySelector('pagefind-modal-trigger')?.getAttribute('placeholder');
+  const search = document.querySelector<HTMLElement>('.search')!;
+  const instance = getInstanceManager().getInstance('site');
+  const version = search.dataset.version;
 
-      if (iconOnly.matches && label) {
-        box.dataset.tooltip = label;
-      } else {
-        delete box.dataset.tooltip;
-      }
+  if (version !== undefined) {
+    const scope = search.querySelector<HTMLElement>('.scope')!;
+    const otherVersions = search.querySelector<HTMLElement>('.other-versions')!;
+
+    instance.searchFilters = { version: [version] };
+
+    const searchAllVersions = () => {
+      scope.hidden = true;
+      instance.triggerFilter('version', []);
+      search.querySelector('input')?.focus();
+    };
+
+    scope.querySelectorAll('button').forEach((button) => {
+      button.addEventListener('click', searchAllVersions);
+    });
+
+    instance.on('filters', () => {
+      const otherCount = Object.entries(instance.totalFilters!.version)
+        .filter(([other]) => other !== version)
+        .reduce((sum, [, count]) => sum + count, 0);
+
+      otherVersions.hidden = instance.searchTerm === '' || otherCount === 0;
+      otherVersions.querySelector('.other-count')!.textContent = String(otherCount);
     });
   }
 
-  updateSearchTips();
-  iconOnly.addEventListener('change', updateSearchTips);
+  const iconOnly = window.matchMedia('(max-width: 760px)');
+
+  // Give the search box a tooltip only while it shows just its icon
+  function updateSearchTooltip() {
+    if (iconOnly.matches) {
+      search.dataset.tooltip = 'Search';
+    } else {
+      delete search.dataset.tooltip;
+    }
+  }
+
+  updateSearchTooltip();
+  iconOnly.addEventListener('change', updateSearchTooltip);
 </script>
 
 <style>
-  .search-site {
+  .search {
     --pf-font: var(--font);
     --pf-text: var(--fg);
     --pf-text-secondary: var(--muted);
@@ -72,17 +164,17 @@ interface Props {
     width: 240px;
   }
 
-  .search-site :global(.pf-trigger-btn) {
+  .search :global(.pf-trigger-btn) {
     padding: 0 6px 0 10px !important;
     font: 15px var(--font) !important;
   }
 
-  .search-site :global(.pf-trigger-icon) {
+  .search :global(.pf-trigger-icon) {
     width: 16px !important;
     height: 16px !important;
   }
 
-  .search-site :global(.pf-trigger-key) {
+  .search :global(.pf-trigger-key) {
     padding: 2px 5px !important;
     border-color: var(--line-strong) !important;
     border-bottom-width: 2px !important;
@@ -97,21 +189,87 @@ interface Props {
     left: 0;
   }
 
-  .search-site pagefind-modal-trigger:hover {
+  .search pagefind-modal-trigger:hover {
     --pf-text-muted: var(--muted);
   }
 
-  .search-site pagefind-modal-trigger {
+  .search pagefind-modal-trigger {
     display: block;
     width: 100%;
   }
 
+  .search pagefind-modal:not(:defined) {
+    display: none;
+  }
+
+  .scope {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 12px;
+    margin-bottom: 8px;
+  }
+
+  .scope[hidden] {
+    display: none;
+  }
+
+  .scope-chip {
+    gap: 6px;
+    cursor: pointer;
+  }
+
+  .other-versions {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  .all-versions {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--accent);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .all-versions:hover {
+    text-decoration: underline;
+  }
+
+  .search :global(.result-badge) {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 2px 0 0;
+    color: var(--muted);
+    font-size: 12.5px;
+    font-weight: 600;
+  }
+
+  .search :global(.result-separator) {
+    width: 11px;
+    height: 11px;
+    color: var(--faint);
+  }
+
+  .search :global(.pf-result-image) {
+    width: 48px !important;
+    height: 48px !important;
+    background: none !important;
+    object-fit: contain !important;
+    image-rendering: pixelated !important;
+    align-self: center !important;
+  }
+
   @media (max-width: 760px) {
-    .search-site {
+    .search {
       width: 34px;
     }
 
-    .search-site :global(.pf-trigger-btn) {
+    .search :global(.pf-trigger-btn) {
       justify-content: center !important;
       height: 34px !important;
       padding: 0 !important;
@@ -119,47 +277,16 @@ interface Props {
       background: transparent !important;
     }
 
-    .search-site :global(.pf-trigger-btn:hover) {
+    .search :global(.pf-trigger-btn:hover) {
       background: var(--band-hover) !important;
     }
 
-    .search-site :global(.pf-trigger-icon) {
+    .search :global(.pf-trigger-icon) {
       background: var(--fg) !important;
     }
 
-    .search-site :global(:is(.pf-trigger-text, .pf-trigger-shortcut)) {
+    .search :global(:is(.pf-trigger-text, .pf-trigger-shortcut)) {
       display: none !important;
     }
-  }
-
-  .cofh-search {
-    --pf-font: inherit;
-    --pf-input-height: 30px;
-    --pf-input-font-size: 14px;
-    --pf-border-radius: 4px;
-    --pf-border: #dddddd;
-    --pf-border-focus: #99baca;
-    --pf-text: #444444;
-    --pf-text-muted: #999999;
-    --pf-background: #ffffff;
-    --pf-hover: #f5f5f5;
-    --pf-searchbox-max-width: 220px;
-    --pf-dropdown-z-index: 1100;
-    width: 220px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-  }
-
-  .cofh-search::before {
-    display: none;
-  }
-
-  .cofh-search pagefind-modal-trigger {
-    flex: 1;
-  }
-
-  :global(.uk-offcanvas) .cofh-search {
-    width: auto;
   }
 </style>

@@ -3,7 +3,6 @@ import Icon from '../components/Icon.astro';
 import ModRow from '../components/mods/ModRow.astro';
 import ModSectionHead from '../components/mods/ModSectionHead.astro';
 import Site from '../layouts/Site.astro';
-import { DISCORD_URL } from '../lib/external-links.ts';
 import { currentVersion } from '../lib/mods.ts';
 import { formatPostDate, getPostDate, getPostExcerpt, getPosts, getPostURL } from '../lib/posts.ts';
 
@@ -48,7 +47,7 @@ const recentPosts = (await getPosts()).slice(0, 4);
           <h2 id="help-heading">Need help?</h2>
 
           <div class="callout-actions">
-            <a class="btn btn-sm btn-primary" href={DISCORD_URL}>
+            <a class="btn btn-sm btn-primary" href="https://discord.gg/uRKrnbH">
               <Icon name="chat" />
               <span>Join the Discord</span>
             </a>

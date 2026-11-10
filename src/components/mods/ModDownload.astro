@@ -22,17 +22,17 @@ const { mod, requires } = Astro.props;
   </div>
 )}
 
-<div class="buttons">
+<div class="buttons" data-pagefind-ignore="all">
   <DownloadButtons mod={mod} />
 </div>
 
 {Astro.slots.has('default') && (
-  <div class="buttons">
+  <div class="buttons" data-pagefind-ignore="all">
     <slot />
   </div>
 )}
 
-<div class="links">
+<div class="links" data-pagefind-ignore="all">
   {mod.links.source !== undefined && (
     <a href={mod.links.source}>
       <Icon name="code" small />
@@ -57,27 +57,6 @@ const { mod, requires } = Astro.props;
     margin-top: 10px;
     font-size: 13px;
     color: var(--muted);
-  }
-
-  .chip {
-    display: inline-flex;
-    align-items: center;
-    height: 24px;
-    padding: 0 9px;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    background: var(--surface-2);
-    color: var(--fg);
-    font-size: 13px;
-    font-weight: 600;
-    white-space: nowrap;
-  }
-
-  .chip:hover {
-    border-color: var(--accent-line);
-    background: var(--accent-soft);
-    color: var(--accent);
-    text-decoration: none;
   }
 
   .buttons {

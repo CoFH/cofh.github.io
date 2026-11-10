@@ -37,16 +37,28 @@ const requires = isModOverview
     }))
   : [];
 
+const searchMeta: string[] = [];
+
+if (version !== undefined) {
+  searchMeta.push('version[data-version]');
+}
+
+if (mod !== undefined) {
+  searchMeta.push('mod[data-mod]');
+}
+
 const tocAppendix = version !== undefined ? [{ slug: 'navigation', text: 'Navigation' }] : [];
 ---
 
-<Site title={entry.data.title}>
+<Site title={entry.data.title} version={version}>
   <div class:list={['wrap', { 'with-crumbs': version !== undefined }]}>
     {version !== undefined && <DocsBreadcrumb page={entry} version={version} mod={mod} />}
 
     <div
       data-pagefind-body
-      data-pagefind-meta={mod !== undefined ? `mod:${mod.title}` : undefined}
+      data-pagefind-meta={searchMeta.length > 0 ? searchMeta.join(', ') : undefined}
+      data-version={version?.label}
+      data-mod={mod?.title}
       data-pagefind-filter={version !== undefined ? `version:${mc}` : undefined}
     >
       {isModOverview ? (

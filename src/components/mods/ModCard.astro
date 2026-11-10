@@ -28,7 +28,13 @@ const requires = (mod.requires ?? []).map((slug) => ({
 <article class="card" id={mod.slug} aria-labelledby={`${mod.slug}-title`}>
   <div class="logo">
     {logo !== undefined && (
-      <Image src={logo} alt={`${mod.title} logo`} height={64} densities={[1, 2]} />
+      <Image
+        src={logo}
+        alt={`${mod.title} logo`}
+        height={64}
+        densities={[1, 2]}
+        data-pagefind-ignore="all"
+      />
     )}
   </div>
 

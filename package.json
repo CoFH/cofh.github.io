@@ -24,10 +24,8 @@
     "@pagefind/component-ui": "1.5.2",
     "astro": "7.4.0",
     "astro-pagefind": "2.0.1",
-    "jquery": "3.2.1",
     "pagefind": "1.5.2",
-    "simple-icons": "16.35.0",
-    "uikit": "2.23.0"
+    "simple-icons": "16.35.0"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",

@@ -19,6 +19,7 @@ import {
   faStar,
   faSun,
   faTriangleExclamation,
+  faXmark,
   type IconDefinition,
 } from '@fortawesome/free-solid-svg-icons';
 import { siCurseforge, siDiscord, siGithub, siModrinth, type SimpleIcon } from 'simple-icons';
@@ -50,6 +51,7 @@ export const icons = {
   check: getFontAwesome(faCheck),
   chevron: getFontAwesome(faChevronDown),
   chevronRight: getFontAwesome(faChevronRight),
+  close: getFontAwesome(faXmark),
   code: getFontAwesome(faCode),
   curseforge: getSimpleIcons(siCurseforge),
   file: getFontAwesome(faFileLines),

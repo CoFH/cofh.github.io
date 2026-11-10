@@ -9,11 +9,13 @@ import Icon from '../components/Icon.astro';
 import SearchBar from '../components/SearchBar.astro';
 import logo from '../images/logo.png';
 import logoShare from '../images/logo_share.png';
-import { EXTERNAL_LINKS } from '../lib/external-links.ts';
+import type { IconName } from '../lib/icons.ts';
+import type { ModListVersion } from '../mods/types.ts';
 import fuelCatalyzer from '../mods/1.12/thermal-expansion/images/augment-fuel-catalyzer.webp';
 
 interface Props {
   title?: string;
+  version?: ModListVersion;
 }
 
 const fullTitle =
@@ -33,6 +35,29 @@ const navLinks = [
   { title: 'Mods', url: '/mods/', current: ['/mods/', '/docs/'] },
   { title: 'FAQ', url: '/faq/', current: ['/faq/'] },
   { title: 'Blog', url: '/blog/', current: ['/blog/', '/posts/'] },
+];
+
+const footLinks: { title: string; url: string; icon: IconName }[] = [
+  {
+    title: 'Discord',
+    url: 'https://discord.gg/uRKrnbH',
+    icon: 'chat',
+  },
+  {
+    title: 'CurseForge',
+    url: 'https://www.curseforge.com/members/teamcofh/projects',
+    icon: 'curseforge',
+  },
+  {
+    title: 'Modrinth',
+    url: 'https://modrinth.com/user/KingLemming',
+    icon: 'modrinth',
+  },
+  {
+    title: 'GitHub',
+    url: 'https://github.com/CoFH',
+    icon: 'github',
+  },
 ];
 ---
 
@@ -121,7 +146,7 @@ const navLinks = [
         </ul>
 
         <div class="nav-tools">
-          <SearchBar variant="site" instance="site" />
+          <SearchBar version={Astro.props.version} />
 
           <button
             class="icon-btn theme-btn"
@@ -147,7 +172,7 @@ const navLinks = [
     <footer class="site-foot">
       <div class="wrap foot-in">
         <ul class="foot-links">
-          {EXTERNAL_LINKS.map((link) => (
+          {footLinks.map((link) => (
             <li>
               <a href={link.url}>
                 <Icon name={link.icon} />
@@ -173,6 +198,7 @@ const navLinks = [
       type="button"
       aria-label="Back to top"
       data-tooltip="Back to top"
+      data-pagefind-ignore="all"
     >
       <GameImage image={fuelCatalyzer} height={32} alt="" />
     </button>
