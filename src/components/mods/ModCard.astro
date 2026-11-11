@@ -25,7 +25,7 @@ const requires = (mod.requires ?? []).map((slug) => ({
 }));
 ---
 
-<article class="card" id={mod.slug} aria-labelledby={`${mod.slug}-title`}>
+<article class="card panel" id={mod.slug} aria-labelledby={`${mod.slug}-title`}>
   <div class="logo">
     {logo !== undefined && (
       <Image
@@ -53,19 +53,7 @@ const requires = (mod.requires ?? []).map((slug) => ({
   .card {
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    background: var(--bg);
-    transition:
-      border-color 0.15s,
-      box-shadow 0.15s,
-      transform 0.15s;
     scroll-margin-top: calc(var(--nav-h) + 24px);
-  }
-
-  .card:hover {
-    border-color: var(--line-strong);
-    box-shadow: 0 4px 16px var(--shadow);
   }
 
   .card:target {
@@ -80,7 +68,7 @@ const requires = (mod.requires ?? []).map((slug) => ({
     padding: 14px 20px;
     background: var(--surface);
     border-bottom: 1px solid var(--line);
-    border-radius: 10px 10px 0 0;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   }
 
   .logo img {

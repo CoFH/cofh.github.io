@@ -71,7 +71,7 @@ const folderPages = pagePath.slice(1, -1).map((folder, index) => {
       </button>
 
       <div class="menu" id="breadcrumb-version" hidden>
-        <div class="menu-label overline">Minecraft version</div>
+        <div class="menu-label small-label">Minecraft version</div>
 
         {versionItems.map((item) => (
           <a href={item.href} aria-current={item.current ? 'page' : undefined}>
@@ -118,7 +118,7 @@ const folderPages = pagePath.slice(1, -1).map((folder, index) => {
         </button>
 
         <div class="menu" id="breadcrumb-mod" hidden>
-          <div class="menu-label overline">Mods for Minecraft {version.label}</div>
+          <div class="menu-label small-label">Mods for Minecraft {version.label}</div>
 
           {modSections.map((section) => (
             <div class="menu-group">
@@ -238,13 +238,13 @@ const folderPages = pagePath.slice(1, -1).map((folder, index) => {
   }
 
   .split > .btn:first-child {
-    border-radius: 6px 0 0 6px;
+    border-radius: var(--radius) 0 0 var(--radius);
   }
 
   .split > button.btn {
     margin-left: -1px;
     padding: 0 8px;
-    border-radius: 0 6px 6px 0;
+    border-radius: 0 var(--radius) var(--radius) 0;
   }
 
   .split > .btn:hover {
@@ -256,7 +256,6 @@ const folderPages = pagePath.slice(1, -1).map((folder, index) => {
     width: 12px;
     height: 12px;
     color: var(--muted);
-    transition: transform 0.15s;
   }
 
   button.btn[aria-expanded='true'] :global(.icon) {
@@ -271,7 +270,7 @@ const folderPages = pagePath.slice(1, -1).map((folder, index) => {
     max-width: min(340px, calc(100vw - 32px));
     padding: 5px;
     border: 1px solid var(--line-strong);
-    border-radius: 8px;
+    border-radius: var(--radius-lg);
     background: var(--bg);
     box-shadow:
       0 10px 30px var(--shadow-strong),
@@ -303,7 +302,7 @@ const folderPages = pagePath.slice(1, -1).map((folder, index) => {
     gap: 10px;
     width: 100%;
     padding: 7px 10px;
-    border-radius: 5px;
+    border-radius: var(--radius-sm);
     color: var(--fg);
     font-size: 15px;
     line-height: 1.35;

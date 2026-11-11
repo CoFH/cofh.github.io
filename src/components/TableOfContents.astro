@@ -47,7 +47,7 @@ if (entries.length > 0) {
 
 {entries.length > 0 &&
   (inline ? (
-    <details class="inline" data-pagefind-ignore>
+    <details class="inline panel panel-muted" data-pagefind-ignore>
       <summary>
         <Icon name="list" />
         On this page
@@ -72,7 +72,7 @@ if (entries.length > 0) {
   ) : (
     <aside class="side" data-pagefind-ignore>
       <nav class="toc" aria-label="On this page (sidebar)">
-        <p class="title overline">
+        <p class="title small-label">
           <Icon name="list" small />
           On this page
         </p>
@@ -237,9 +237,6 @@ if (entries.length > 0) {
   .inline {
     display: none;
     margin: -8px 0 24px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--surface);
   }
 
   summary {
@@ -260,7 +257,6 @@ if (entries.length > 0) {
     display: inline-flex;
     margin-left: auto;
     color: var(--muted);
-    transition: transform 0.15s;
   }
 
   .inline[open] .chevron {

@@ -12,14 +12,15 @@ const { mod, requires } = Astro.props;
 ---
 
 {requires.length > 0 && (
-  <div class="requires">
-    <span>Requires</span>
-    {requires.map((required) => (
-      <a class="chip" href={required.href}>
-        {required.title}
-      </a>
+  <p class="requires">
+    Requires{' '}
+    {requires.map((required, index) => (
+      <>
+        {index > 0 && ', '}
+        <a href={required.href}>{required.title}</a>
+      </>
     ))}
-  </div>
+  </p>
 )}
 
 <div class="buttons" data-pagefind-ignore="all">
@@ -50,13 +51,15 @@ const { mod, requires } = Astro.props;
 
 <style>
   .requires {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    align-items: center;
-    margin-top: 10px;
+    margin: auto 0 0;
+    padding-top: 10px;
     font-size: 13px;
     color: var(--muted);
+  }
+
+  .requires + .buttons {
+    margin-top: 0;
+    padding-top: 8px;
   }
 
   .buttons {

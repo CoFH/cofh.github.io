@@ -72,8 +72,12 @@ const tocAppendix = version !== undefined ? [{ slug: 'navigation', text: 'Naviga
               <Content />
             </div>
 
-            <aside class="download" aria-labelledby="download-title" data-pagefind-ignore="all">
-              <h2 class="download-title overline" id="download-title">
+            <aside
+              class="download panel panel-muted"
+              aria-labelledby="download-title"
+              data-pagefind-ignore="all"
+            >
+              <h2 class="download-title small-label" id="download-title">
                 Download
               </h2>
 
@@ -121,9 +125,6 @@ const tocAppendix = version !== undefined ? [{ slug: 'navigation', text: 'Naviga
     display: flex;
     flex-direction: column;
     padding: 14px 16px;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    background: var(--bg);
   }
 
   .download-title {

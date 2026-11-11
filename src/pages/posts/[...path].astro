@@ -41,7 +41,7 @@ const { Content } = await render(post);
 
     <nav class="more" aria-label="More posts">
       {newer && (
-        <a class="newer" href={getPostURL(newer)}>
+        <a class="newer panel panel-muted" href={getPostURL(newer)}>
           <small>
             <Icon name="arrowLeft" small />
             Next post
@@ -51,7 +51,7 @@ const { Content } = await render(post);
       )}
 
       {older && (
-        <a class="older" href={getPostURL(older)}>
+        <a class="older panel panel-muted" href={getPostURL(older)}>
           <small>
             Previous post
             <Icon name="arrowRight" small />
@@ -87,8 +87,6 @@ const { Content } = await render(post);
   .more a {
     display: block;
     padding: 12px 16px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
     color: var(--fg-strong);
     font-weight: 600;
   }

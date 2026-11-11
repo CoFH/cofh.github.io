@@ -59,7 +59,7 @@ const resultTemplate = `
         <div class="scope">
           <button
             type="button"
-            class="chip scope-chip"
+            class="scope-chip"
             aria-label={`Search all versions instead of only Minecraft ${version.label}`}
           >
             Minecraft {version.label}
@@ -153,14 +153,14 @@ const resultTemplate = `
     --pf-skeleton: var(--surface-2);
     --pf-skeleton-shine: var(--surface);
     --pf-scroll-shadow: var(--shadow);
-    --pf-shadow-sm: 0 2px 8px var(--shadow);
+    --pf-shadow-sm: none;
     --pf-shadow-md: 0 4px 12px var(--shadow);
     --pf-shadow-lg: 0 24px 60px var(--shadow-strong);
     --pf-outline-focus: var(--focus);
     --pf-modal-backdrop: var(--scrim);
     --pf-modal-max-width: 640px;
     --pf-input-height: 32px;
-    --pf-border-radius: 6px;
+    --pf-border-radius: var(--radius);
     width: 240px;
   }
 
@@ -215,8 +215,25 @@ const resultTemplate = `
   }
 
   .scope-chip {
+    display: inline-flex;
+    align-items: center;
     gap: 6px;
+    height: 24px;
+    padding: 0 9px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--fg);
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
     cursor: pointer;
+  }
+
+  .scope-chip:hover {
+    border-color: var(--accent-line);
+    background: var(--accent-soft);
+    color: var(--accent);
   }
 
   .other-versions {

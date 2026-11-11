@@ -43,7 +43,7 @@ const recentPosts = (await getPosts()).slice(0, 4);
       </div>
 
       <aside class="home-side" aria-label="Help and news">
-        <section class="side-box callout" aria-labelledby="help-heading">
+        <section class="side-box panel panel-muted callout" aria-labelledby="help-heading">
           <h2 id="help-heading">Need help?</h2>
 
           <div class="callout-actions">
@@ -59,7 +59,7 @@ const recentPosts = (await getPosts()).slice(0, 4);
           </div>
         </section>
 
-        <section class="side-box blog-strip" aria-labelledby="blog-heading">
+        <section class="side-box panel panel-muted blog-strip" aria-labelledby="blog-heading">
           <h2 id="blog-heading">From the blog</h2>
 
           <p class="side-sub">Occasional updates from the team.</p>
@@ -146,9 +146,6 @@ const recentPosts = (await getPosts()).slice(0, 4);
   }
 
   .side-box {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
     padding: 16px 18px;
   }
 

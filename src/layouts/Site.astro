@@ -315,7 +315,7 @@ const footLinks: { title: string; url: string; icon: IconName }[] = [
   .logo-link {
     display: inline-block;
     line-height: 0;
-    border-radius: 6px;
+    border-radius: var(--radius);
   }
 
   .logo-link:hover {
@@ -345,8 +345,7 @@ const footLinks: { title: string; url: string; icon: IconName }[] = [
     top: 0;
     z-index: 30;
     background: var(--band);
-    border-bottom: 1px solid var(--line);
-    box-shadow: 0 1px 0 var(--shadow);
+    border-bottom: 2px solid var(--line);
   }
 
   .navbar-in {
@@ -408,8 +407,9 @@ const footLinks: { title: string; url: string; icon: IconName }[] = [
     background: var(--bg);
     color: var(--accent);
     border-color: var(--line);
-    margin-bottom: -1px;
-    height: calc(100% + 1px);
+    margin-bottom: -2px;
+    height: calc(100% + 2px);
+    padding-bottom: 2px;
   }
 
   .nav-links a:focus-visible,
@@ -430,7 +430,7 @@ const footLinks: { title: string; url: string; icon: IconName }[] = [
     place-items: center;
     width: 34px;
     height: 34px;
-    border-radius: 6px;
+    border-radius: var(--radius);
     border: 1px solid transparent;
     background: transparent;
     cursor: pointer;
@@ -535,20 +535,15 @@ const footLinks: { title: string; url: string; icon: IconName }[] = [
     z-index: 25;
     width: 48px;
     height: 48px;
-    border-radius: 10px;
+    border-radius: var(--radius-lg);
     display: grid;
     place-items: center;
     padding: 0;
     background: var(--surface);
     border: 1px solid var(--line-strong);
     cursor: pointer;
-    box-shadow:
-      0 4px 16px var(--shadow-strong),
-      inset 0 1px 0 var(--bg);
-    transition:
-      opacity 0.2s,
-      transform 0.2s,
-      border-color 0.15s;
+    box-shadow: 0 4px 16px var(--shadow-strong);
+    transition: opacity 0.2s;
   }
 
   .to-top :global(img) {
@@ -556,7 +551,6 @@ const footLinks: { title: string; url: string; icon: IconName }[] = [
     height: 32px;
     image-rendering: pixelated;
     display: block;
-    transition: transform 0.15s;
   }
 
   .to-top:hover {
@@ -564,13 +558,8 @@ const footLinks: { title: string; url: string; icon: IconName }[] = [
     background: var(--surface-2);
   }
 
-  .to-top:hover :global(img) {
-    transform: translateY(-2px);
-  }
-
   .to-top.is-hidden {
     opacity: 0;
-    transform: translateY(8px);
     pointer-events: none;
   }
 

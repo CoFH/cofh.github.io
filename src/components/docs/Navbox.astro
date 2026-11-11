@@ -26,10 +26,14 @@ const sections = (await getDocsSections(version))
   .filter((section) => section.mods.length > 0);
 ---
 
-<section class="navbox" aria-label={`Minecraft ${version.label} docs`} data-pagefind-ignore="all">
+<section
+  class="navbox panel"
+  aria-label={`Minecraft ${version.label} docs`}
+  data-pagefind-ignore="all"
+>
   <div class="head">
     <div class="version">
-      <span class="label overline" aria-hidden="true">
+      <span class="label small-label" aria-hidden="true">
         Minecraft
       </span>
       <a href={getModsHref(version)} aria-label={`Mods for Minecraft ${version.label}`}>
@@ -40,7 +44,7 @@ const sections = (await getDocsSections(version))
     <div class="tabs">
       {sections.map((section) => (
         <div class="family">
-          <span class="label overline" aria-hidden="true">
+          <span class="label small-label" aria-hidden="true">
             {section.title}
           </span>
 
@@ -65,7 +69,7 @@ const sections = (await getDocsSections(version))
   {sections
     .flatMap((section) => section.mods)
     .map((mod) => (
-      <div class="panel" id={`navbox-panel-${mod.slug}`} hidden={mod.slug !== currentMod}>
+      <div id={`navbox-panel-${mod.slug}`} hidden={mod.slug !== currentMod}>
         <div class="caption">
           <NavboxLink href={getDocsHref(version, mod)} text={mod.title} icon={undefined} />
         </div>
@@ -93,9 +97,6 @@ const sections = (await getDocsSections(version))
 <style>
   .navbox {
     overflow: hidden;
-    border: 1px solid var(--line-strong);
-    border-radius: 10px;
-    background: var(--bg);
   }
 
   .head {
@@ -151,7 +152,7 @@ const sections = (await getDocsSections(version))
     height: 26px;
     padding: 0 9px;
     border: 0;
-    border-radius: 4px;
+    border-radius: var(--radius-sm);
     background: none;
     color: var(--fg);
     font-size: 13.5px;

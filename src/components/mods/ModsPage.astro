@@ -55,7 +55,7 @@ const { version } = Astro.props;
     </ul>
 
     <div class="versions">
-      <span class="eyebrow overline" aria-hidden="true">
+      <span class="eyebrow small-label" aria-hidden="true">
         Minecraft
       </span>
 
@@ -78,7 +78,7 @@ const { version } = Astro.props;
       </nav>
     </div>
 
-    <div class="panel">
+    <div class="tab-content">
       {version.mc !== currentVersion.mc && (
         <div class="outdated">
           <Icon name="warning" />
@@ -147,7 +147,7 @@ const { version } = Astro.props;
     color: var(--fg);
     cursor: pointer;
     white-space: nowrap;
-    border-radius: 6px 6px 0 0;
+    border-radius: var(--radius) var(--radius) 0 0;
     font-variant-numeric: tabular-nums;
   }
 
@@ -200,7 +200,7 @@ const { version } = Astro.props;
   .notes :global(.icon) {
     flex: none;
     width: 16px;
-    color: var(--accent);
+    color: var(--muted);
     margin-top: 3px;
   }
 
@@ -212,7 +212,7 @@ const { version } = Astro.props;
     flex: none;
   }
 
-  .panel {
+  .tab-content {
     padding-top: 24px;
   }
 
@@ -223,7 +223,7 @@ const { version } = Astro.props;
     margin-bottom: 24px;
     padding: 12px 16px;
     border: 1px solid var(--warn-line);
-    border-radius: var(--radius);
+    border-radius: var(--radius-lg);
     background: var(--warn-bg);
     color: var(--fg);
     font-size: 15px;
