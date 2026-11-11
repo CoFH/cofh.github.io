@@ -231,7 +231,7 @@ export default defineModList([
             title: 'No Night Vision Flashing',
             summary: 'Night vision fades out instead of flashing.',
             links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-night-vision-flashing',
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-nv-flash',
               modrinth: 'https://modrinth.com/mod/no-nv-flash',
               source: 'https://github.com/CoFH/NoNVFlash/tree/1.20.x',
             },
@@ -466,7 +466,7 @@ export default defineModList([
             title: 'No Night Vision Flashing',
             summary: 'Night vision fades out instead of flashing.',
             links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-night-vision-flashing',
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-nv-flash',
               modrinth: 'https://modrinth.com/mod/no-nv-flash',
               source: 'https://github.com/CoFH/NoNVFlash/tree/1.19.x',
             },
@@ -706,7 +706,7 @@ export default defineModList([
             title: 'No Night Vision Flashing',
             summary: 'Night vision fades out instead of flashing.',
             links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-night-vision-flashing',
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-nv-flash',
               modrinth: 'https://modrinth.com/mod/no-nv-flash',
               source: 'https://github.com/CoFH/NoNVFlash/tree/1.18.2',
             },
@@ -883,7 +883,7 @@ export default defineModList([
             title: 'No Night Vision Flashing',
             summary: 'Night vision fades out instead of flashing.',
             links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-night-vision-flashing',
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-nv-flash',
               modrinth: 'https://modrinth.com/mod/no-nv-flash',
               source: 'https://github.com/CoFH/NoNVFlash/tree/1.16.5',
             },
@@ -1208,7 +1208,7 @@ export default defineModList([
             title: 'No Night Vision Flashing',
             summary: 'Night vision fades out instead of flashing.',
             links: {
-              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-night-vision-flashing',
+              curseforge: 'https://www.curseforge.com/minecraft/mc-mods/no-nv-flash',
               source: 'https://github.com/CoFH/NoNVFlash-1.12-Legacy',
             },
           },
