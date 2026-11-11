@@ -66,7 +66,7 @@ export default {
     url: 'augment-resin-funnel/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/sawmill/">Sawmill</a>',
     description:
-      'A specialization that allows for a sawmill to extract fluids from <a href="https://minecraft.wiki/w/Wood">wood</a> while processing it, like <a href="/docs/1.12/thermal-foundation/resin/">resin</a> and <a href="/docs/1.12/thermal-foundation/sap/">sap</a>.',
+      'A specialization that allows for a sawmill to extract fluids from <a href="https://minecraft.wiki/w/Log">wood</a> while processing it, like <a href="/docs/1.12/thermal-foundation/resin/">resin</a> and <a href="/docs/1.12/thermal-foundation/sap/">sap</a>.',
   },
   'machine-smelter-flux': {
     name: 'Metallurgical Recovery',
@@ -325,7 +325,7 @@ export default {
     url: 'augment-disjunctive-extraction/',
     installedIn: '<a href="/docs/1.12/thermal-expansion/enervation-dynamo/">Enervation Dynamo</a>',
     description:
-      'A specialization that allows for an enervation dynamo to use <a href="https://minecraft.wiki/w/Enchanting">enchanted</a> items as fuel, and greatly increases its maximum power output. However, the dynamo can only generate energy using enchanted items.',
+      'A specialization that allows for an enervation dynamo to use <a href="https://minecraft.wiki/w/Enchantment">enchanted</a> items as fuel, and greatly increases its maximum power output. However, the dynamo can only generate energy using enchanted items.',
   },
   'dynamo-numismatic-gem': {
     name: 'Lapidary Calibration',

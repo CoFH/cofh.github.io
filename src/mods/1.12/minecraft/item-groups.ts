@@ -93,6 +93,7 @@ export default defineItemGroups('1.12/minecraft', {
   },
   fence: {
     name: 'Fence',
+    url: 'Wooden_Fence',
     prefix: 'any wooden',
     items: [
       mc.oakFence,
@@ -160,7 +161,7 @@ export default defineItemGroups('1.12/minecraft', {
   },
   redSandstone: {
     name: 'Red Sandstone',
-    url: 'Sandstone',
+    url: 'Red_Sandstone',
     items: [mc.redSandstone, mc.chiseledRedSandstone, mc.smoothRedSandstone],
   },
   sandstone: { name: 'Sandstone', items: [mc.sandstone, mc.chiseledSandstone, mc.smoothSandstone] },
@@ -178,7 +179,7 @@ export default defineItemGroups('1.12/minecraft', {
   },
   stainedGlass: {
     name: 'Stained Glass',
-    url: 'Glass',
+    url: 'Stained_Glass',
     prefix: 'any color',
     items: [
       mc.whiteStainedGlass,
@@ -207,17 +208,19 @@ export default defineItemGroups('1.12/minecraft', {
   },
   wood: {
     name: 'Wood',
+    url: 'Log',
     prefix: 'any',
     items: [mc.oakWood, mc.spruceWood, mc.birchWood, mc.jungleWood, mc.acaciaWood, mc.darkOakWood],
   },
   woodenDoor: {
     name: 'Wooden Door',
-    url: 'Door',
+    url: 'Wooden_Door',
     prefix: 'any',
     items: [mc.oakDoor, mc.spruceDoor, mc.birchDoor, mc.jungleDoor, mc.acaciaDoor, mc.darkOakDoor],
   },
   woodPlanks: {
     name: 'Wood Planks',
+    url: 'Planks',
     prefix: 'any',
     items: [
       mc.oakWoodPlanks,
@@ -230,7 +233,7 @@ export default defineItemGroups('1.12/minecraft', {
   },
   woodStairs: {
     name: 'Wood Stairs',
-    url: 'Stairs',
+    url: 'Wooden_Stairs',
     prefix: 'any',
     items: [
       mc.oakWoodStairs,
