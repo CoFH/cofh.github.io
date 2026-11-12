@@ -37,17 +37,14 @@ const icon =
 {subitems.length > 0 && (
   <>
     {' '}
-    <span>
+    <span class="subitems">
       <span class="open">(</span>
       {subitems.map((subitem, index) => (
         <>
-          {index > 0 && (
-            <>
-              {' '}
-              <span class="separator">&#8729;</span>{' '}
-            </>
-          )}
-          <Astro.self item={subitem} path={path} />
+          {index > 0 && ' '}
+          <span class="subitem">
+            <Astro.self item={subitem} path={path} />
+          </span>
         </>
       ))}
       <span class="close">)</span>
@@ -60,17 +57,19 @@ const icon =
     white-space: nowrap;
   }
 
+  .subitems {
+    white-space: normal;
+  }
+
   .open {
     margin-right: 4px;
   }
 
-  .close {
-    margin-left: 4px;
+  .subitem {
+    white-space: nowrap;
   }
 
-  .separator {
-    margin: 0 2px;
-    color: var(--faint);
-    font-weight: 700;
+  .close {
+    margin-left: 4px;
   }
 </style>
