@@ -23,38 +23,27 @@ const { version } = Astro.props;
   >
     <header class="page-head">
       <h1>Mods</h1>
+
+      <ul class="notes">
+        <li>
+          <Icon name="hammer" />
+          <span>
+            Mods for Minecraft 1.20 and below run on{' '}
+            <a href="https://files.minecraftforge.net/">Forge</a>. Minecraft 1.21 and above will use{' '}
+            <a href="https://neoforged.net/">NeoForge</a> instead.
+          </span>
+        </li>
+        <li>
+          <Icon name="shield" />
+          <span>
+            Official downloads are <strong>only on CurseForge and Modrinth</strong>. Copies from
+            other sites are not supported: use them at your own risk.
+          </span>
+        </li>
+      </ul>
     </header>
 
-    <ul class="notes">
-      <li>
-        <Icon name="hammer" />
-        <span>
-          Mods for Minecraft 1.20 and below run on{' '}
-          <a href="https://files.minecraftforge.net/">Forge</a>. Minecraft 1.21 and above will use{' '}
-          <a href="https://neoforged.net/">NeoForge</a> instead.
-        </span>
-      </li>
-      <li>
-        <Icon name="shield" />
-        <span>
-          Official downloads are <strong>only on CurseForge and Modrinth</strong>. Copies from other
-          sites are not supported: use them at your own risk.
-        </span>
-      </li>
-      <li>
-        <Icon name="package" />
-        <span>Feel free to use these mods in your modpacks.</span>
-      </li>
-      <li>
-        <Icon name="chat" />
-        <span>
-          <a href="https://discord.gg/uRKrnbH">Join our Discord</a> to get help, report bugs or just
-          have a chat.
-        </span>
-      </li>
-    </ul>
-
-    <div class="versions">
+    <div class="versions" id="versions">
       <span class="eyebrow small-label" aria-hidden="true">
         Minecraft
       </span>
@@ -63,7 +52,7 @@ const { version } = Astro.props;
         {modList.map((versionItem) => (
           <a
             class:list={['tab', { minor: !versionItem.major }]}
-            href={getModsHref(versionItem)}
+            href={`${getModsHref(versionItem)}#versions`}
             aria-current={versionItem.mc === version.mc ? 'page' : undefined}
           >
             {versionItem.label}
@@ -114,6 +103,12 @@ const { version } = Astro.props;
 </script>
 
 <style>
+  .page-head {
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
   .tabs {
     display: flex;
     gap: 2px;
@@ -123,10 +118,15 @@ const { version } = Astro.props;
   }
 
   .versions {
+    position: sticky;
+    top: var(--nav-h);
+    scroll-margin-top: var(--nav-h);
+    z-index: 20;
     display: flex;
     align-items: center;
     gap: 14px;
     border-bottom: 1px solid var(--line-strong);
+    background: var(--bg);
   }
 
   .versions .tabs {
@@ -183,7 +183,7 @@ const { version } = Astro.props;
 
   .notes {
     list-style: none;
-    margin: 0 0 26px;
+    margin: 16px 0 20px;
     padding: 0;
     display: grid;
     gap: 6px;
@@ -213,7 +213,7 @@ const { version } = Astro.props;
   }
 
   .tab-content {
-    padding-top: 24px;
+    padding-top: 14px;
   }
 
   .outdated {
