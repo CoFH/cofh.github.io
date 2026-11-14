@@ -22,7 +22,7 @@
     "@floating-ui/dom": "1.8.0",
     "@fortawesome/free-solid-svg-icons": "7.3.1",
     "@pagefind/component-ui": "1.5.2",
-    "astro": "7.4.0",
+    "astro": "7.4.7",
     "astro-pagefind": "2.0.1",
     "pagefind": "1.5.2",
     "simple-icons": "16.35.0"
