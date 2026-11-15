@@ -20,6 +20,7 @@ export default defineConfig({
     '/docs': '/mods/',
     '/docs/terminology': '/faq/',
     '/docs/redstone-flux': '/faq/#what-is-redstone-flux-rf',
+    '/docs/redstone-flux/redstone-flux-a-primer': '/posts/2014/10/10/redstone-flux-a-primer/',
     '/docs/1.15/cofh-core': '/mods/1.15/#cofh-core',
     '/docs/1.15/cofh-core/commands': '/mods/1.15/#cofh-core',
     '/docs/1.15/cofh-core/ectoplasm': '/mods/1.15/#cofh-core',
