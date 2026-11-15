@@ -3,6 +3,8 @@ import type { ImageMetadata } from 'astro';
 import type {
   Fluid,
   FluidDefinition,
+  FluidGroup,
+  FluidGroupDefinition,
   Item,
   ItemDefinition,
   ItemGroup,
@@ -97,6 +99,24 @@ export function defineItems<const T extends Record<string, ItemDefinition>>(
   return items as Record<keyof T, Item>;
 }
 
+export function defineItemGroups<const T extends Record<string, ItemGroupDefinition>>(
+  path: string,
+  definitions: T,
+): Record<keyof T, ItemGroup> {
+  const itemGroups: Record<string, ItemGroup> = {};
+
+  for (const [key, definition] of Object.entries(definitions)) {
+    itemGroups[key] = {
+      name: definition.name,
+      href: getHref(path, key, definition.name, definition.url),
+      prefix: definition.prefix,
+      items: definition.items,
+    };
+  }
+
+  return itemGroups as Record<keyof T, ItemGroup>;
+}
+
 export function defineFluids<const T extends Record<string, FluidDefinition>>(
   path: string,
   definitions: T,
@@ -115,22 +135,22 @@ export function defineFluids<const T extends Record<string, FluidDefinition>>(
   return fluids as Record<keyof T, Fluid>;
 }
 
-export function defineItemGroups<const T extends Record<string, ItemGroupDefinition>>(
+export function defineFluidGroups<const T extends Record<string, FluidGroupDefinition>>(
   path: string,
   definitions: T,
-): Record<keyof T, ItemGroup> {
-  const itemGroups: Record<string, ItemGroup> = {};
+): Record<keyof T, FluidGroup> {
+  const fluidGroups: Record<string, FluidGroup> = {};
 
   for (const [key, definition] of Object.entries(definitions)) {
-    itemGroups[key] = {
+    fluidGroups[key] = {
       name: definition.name,
       href: getHref(path, key, definition.name, definition.url),
       prefix: definition.prefix,
-      items: definition.items,
+      fluids: definition.fluids,
     };
   }
 
-  return itemGroups as Record<keyof T, ItemGroup>;
+  return fluidGroups as Record<keyof T, FluidGroup>;
 }
 
 export function defineRecipeType(

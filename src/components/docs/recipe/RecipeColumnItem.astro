@@ -37,4 +37,18 @@ const capitalize = (text: string) => `${text.charAt(0).toUpperCase()}${text.slic
   </>
 )}
 
+{data.fluidGroup !== undefined && (
+  <>
+    {role === 'ingredient' && data.fluidGroup.prefix !== undefined && (
+      <>{first ? capitalize(data.fluidGroup.prefix) : data.fluidGroup.prefix}&nbsp;</>
+    )}
+    {data.fluidGroup.href !== undefined ? (
+      <a href={data.fluidGroup.href}>{data.fluidGroup.name}</a>
+    ) : (
+      data.fluidGroup.name
+    )}
+    &nbsp;({data.fluidAmount.toLocaleString('en-US')}&nbsp;mB)
+  </>
+)}
+
 {data.suffix !== undefined && <>&nbsp;{data.suffix}</>}

@@ -850,6 +850,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: mc.clay, amount: 4 }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   coalCokeFromBlock: {
     inputs: [null, null, null, null, { item: tf.blockOfCoalCoke }],
@@ -1922,6 +1923,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: tf.enderiumBlend, amount: 4 }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   enderiumGear: {
     inputs: [
@@ -1972,6 +1974,7 @@ export default defineRecipes(crafting, {
       inputs: [{ item: tf.resonantEnderBucket }, { item: tf.cryotheumDust }],
       outputs: [{ item: mc.enderPearl, amount: 4 }],
       shapeless: true,
+      note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
     },
   },
   forgeLexicon: {
@@ -1997,6 +2000,7 @@ export default defineRecipes(crafting, {
       inputs: [{ item: tf.energizedGlowstoneBucket }, { item: tf.cryotheumDust }],
       outputs: [{ item: mc.glowstoneDust, amount: 4 }],
       shapeless: true,
+      note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
     },
   },
   goldenHorseArmor: {
@@ -2396,6 +2400,7 @@ export default defineRecipes(crafting, {
     inputs: [{ item: mc.waterBucket }, { item: tf.cryotheumDust }],
     outputs: [{ item: mc.ice }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   invarAxe: {
     inputs: [
@@ -3109,6 +3114,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: tf.lumiumBlend, amount: 4 }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   lumiumGear: {
     inputs: [
@@ -3211,6 +3217,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: mc.mycelium }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   nickelAxe: {
     inputs: [
@@ -3485,6 +3492,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: mc.paper, amount: 2 }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   petrotheum: {
     aluminumIngot: {
@@ -4065,6 +4073,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: mc.podzol }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   pulpedBioblend: {
     inputs: [
@@ -4237,6 +4246,7 @@ export default defineRecipes(crafting, {
       inputs: [{ item: tf.destabilizedRedstoneBucket }, { item: tf.cryotheumDust }],
       outputs: [{ item: mc.redstone, amount: 10 }],
       shapeless: true,
+      note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
     },
   },
   redstoneConductanceCoil: {
@@ -4336,6 +4346,7 @@ export default defineRecipes(crafting, {
     outputs: [{ itemGroup: tfItemGroups.rockwool }],
     shapeless: true,
     results: [{ html: 'Dyed <a href="/docs/1.12/thermal-foundation/rockwool/">Rockwool</a>' }],
+    note: 'Rockwool of any color can be dyed into any other color.',
   },
   saddle: {
     inputs: [
@@ -4377,6 +4388,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: tf.signalumBlend, amount: 4 }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   signalumGear: {
     inputs: [

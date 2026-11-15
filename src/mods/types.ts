@@ -39,6 +39,20 @@ export interface Fluid {
   iconImage: ImageMetadata | undefined;
 }
 
+export interface FluidGroupDefinition {
+  name: string;
+  url?: string | null;
+  prefix?: string;
+  fluids: Fluid[];
+}
+
+export interface FluidGroup {
+  name: string;
+  href: string | undefined;
+  prefix: string | undefined;
+  fluids: Fluid[];
+}
+
 export interface RecipeTypeDefinition {
   name: string;
   url: string;
@@ -90,16 +104,23 @@ export type RecipeSlotData = {
     }
 );
 
-export interface RecipeTankData {
-  fluid: Fluid;
-  amount: number;
-}
+export type RecipeTankData = { amount: number } & (
+  | {
+      fluid: Fluid;
+      fluidGroup?: never;
+    }
+  | {
+      fluidGroup: FluidGroup;
+      fluid?: never;
+    }
+);
 
 export type RecipeColumnItemData = { suffix?: string } & (
   | {
       item: Item;
       itemGroup?: never;
       fluid?: never;
+      fluidGroup?: never;
       fluidAmount?: never;
       html?: never;
     }
@@ -107,6 +128,7 @@ export type RecipeColumnItemData = { suffix?: string } & (
       itemGroup: ItemGroup;
       item?: never;
       fluid?: never;
+      fluidGroup?: never;
       fluidAmount?: never;
       html?: never;
     }
@@ -115,6 +137,15 @@ export type RecipeColumnItemData = { suffix?: string } & (
       fluidAmount: number;
       item?: never;
       itemGroup?: never;
+      fluidGroup?: never;
+      html?: never;
+    }
+  | {
+      fluidGroup: FluidGroup;
+      fluidAmount: number;
+      item?: never;
+      itemGroup?: never;
+      fluid?: never;
       html?: never;
     }
   | {
@@ -122,6 +153,7 @@ export type RecipeColumnItemData = { suffix?: string } & (
       item?: never;
       itemGroup?: never;
       fluid?: never;
+      fluidGroup?: never;
       fluidAmount?: never;
     }
 );

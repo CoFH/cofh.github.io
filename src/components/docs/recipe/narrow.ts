@@ -5,11 +5,17 @@ export function asSlot(input: RecipeSlotOrTank | undefined): RecipeSlotData | un
     return undefined;
   }
 
-  if ('fluid' in input) {
-    throw new Error(`Expected an item slot, got a tank of ${input.fluid.name}`);
+  if (isTank(input)) {
+    throw new Error(
+      `Expected an item slot, got a tank of ${(input.fluid ?? input.fluidGroup).name}`,
+    );
   }
 
   return input;
+}
+
+export function isTank(input: RecipeSlotData | RecipeTankData): input is RecipeTankData {
+  return 'fluid' in input || 'fluidGroup' in input;
 }
 
 export function asTank(input: RecipeSlotOrTank | undefined): RecipeTankData | undefined {
@@ -17,7 +23,7 @@ export function asTank(input: RecipeSlotOrTank | undefined): RecipeTankData | un
     return undefined;
   }
 
-  if (!('fluid' in input)) {
+  if (!isTank(input)) {
     throw new Error('Expected a tank, got an item slot');
   }
 

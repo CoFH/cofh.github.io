@@ -5,6 +5,7 @@ import type {
   RecipeSlotData,
   RecipeTankData,
 } from '../../../mods/types.ts';
+import { isTank } from './narrow.ts';
 import RecipeColumnItem from './RecipeColumnItem.astro';
 
 interface Props {
@@ -25,15 +26,15 @@ if (Astro.props.recipes.some((recipe) => recipe.type !== type)) {
 const withNote = Astro.props.recipes.some((recipe) => recipe.note !== undefined);
 
 function asColumnItem(input: RecipeSlotData | RecipeTankData): RecipeColumnItemData {
-  if ('fluid' in input) {
-    return { fluid: input.fluid, fluidAmount: input.amount };
+  if (!isTank(input)) {
+    return input.item !== undefined
+      ? { item: Array.isArray(input.item) ? input.item[0] : input.item }
+      : { itemGroup: input.itemGroup };
   }
 
-  if (input.itemGroup !== undefined) {
-    return { itemGroup: input.itemGroup };
-  }
-
-  return { item: Array.isArray(input.item) ? input.item[0] : input.item };
+  return input.fluid !== undefined
+    ? { fluid: input.fluid, fluidAmount: input.amount }
+    : { fluidGroup: input.fluidGroup, fluidAmount: input.amount };
 }
 
 function getResultsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
@@ -46,7 +47,7 @@ function getResultsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
     .map((output) => {
       const columnItem = asColumnItem(output);
 
-      if (recipe.amountSuffix && !('fluid' in output) && (output.amount ?? 1) > 1) {
+      if (recipe.amountSuffix && !isTank(output) && (output.amount ?? 1) > 1) {
         columnItem.suffix = `x${output.amount}`;
       }
 
@@ -62,7 +63,7 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
   const columnItems = recipe.inputs.filter((input) => input !== null).map(asColumnItem);
 
   const getTarget = (columnItem: RecipeColumnItemData) =>
-    columnItem.item ?? columnItem.itemGroup ?? columnItem.fluid;
+    columnItem.item ?? columnItem.itemGroup ?? columnItem.fluid ?? columnItem.fluidGroup;
 
   return columnItems.filter(
     (columnItem, index) =>
@@ -126,7 +127,7 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
               </div>
             </td>
 
-            {withNote && <td>{recipe.note}</td>}
+            {withNote && <td class="note" set:html={recipe.note} />}
           </tr>
         );
       })}
@@ -152,6 +153,10 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
   .frame {
     padding: 8px;
     text-align: center;
+  }
+
+  .note {
+    font-size: 12.5px;
   }
 
   .recipe {

@@ -1084,6 +1084,7 @@ export default defineRecipes(crafting, {
       { item: tf.ironGear },
     ],
     outputs: [{ item: te.nullifier }],
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   numismaticDynamo: {
     inputs: [

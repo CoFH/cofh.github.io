@@ -14,6 +14,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: ra.fluxCrystal, amount: 2 }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   fluxCrystalBlock: {
     inputs: [
@@ -56,6 +57,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: ra.fluxedElectrumBlend, amount: 2 }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   fluxedElectrumBlendUsingGoldAndSilver: {
     inputs: [
@@ -66,6 +68,7 @@ export default defineRecipes(crafting, {
     ],
     outputs: [{ item: ra.fluxedElectrumBlend, amount: 2 }],
     shapeless: true,
+    note: 'Works with any item holding at least 1,000\u00a0mB (such as <a href="/docs/1.12/thermal-expansion/portable-tank/">portable tanks</a> or <a href="/docs/1.12/thermal-expansion/reservoir/">reservoirs</a>).',
   },
   fluxedElectrumBlock: {
     inputs: [

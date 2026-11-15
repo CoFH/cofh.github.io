@@ -1,7 +1,9 @@
 ---
 import { getImage } from 'astro:assets';
 
-import type { RecipeTankData } from '../../../mods/types.ts';
+import type { Fluid, RecipeTankData } from '../../../mods/types.ts';
+import TankFluid from './TankFluid.astro';
+import '../../../scripts/cycle.css';
 import tankGaugeShort from './tank-gauge-short.png';
 import tankGauge from './tank-gauge.png';
 
@@ -22,6 +24,12 @@ const gaugeImage = await getImage({ src: short ? tankGaugeShort : tankGauge });
 const amount = data !== undefined ? `${data.amount.toLocaleString('en-US')}\u00a0mB` : '';
 
 const fill = data !== undefined && data.amount !== 0 ? Math.floor((data.amount * 100) / size) : 25;
+
+let fluids: Fluid[] = [];
+
+if (data !== undefined) {
+  fluids = data.fluid !== undefined ? [data.fluid] : data.fluidGroup.fluids;
+}
 ---
 
 {data !== undefined && (
@@ -35,32 +43,17 @@ const fill = data !== undefined && data.amount !== 0 ? Math.floor((data.amount *
         height: `${height}px`,
       }}
     >
-      <a
-        href={data.fluid.href}
-        aria-label={`${data.fluid.name}, ${amount}`}
-        data-tooltip={`${data.fluid.name}\n${amount}`}
-      >
-        <div
-          style={{
-            position: 'relative',
-            width: '32px',
-            height: `${height}px`,
-          }}
-        >
-          <div
-            style={{
-              position: 'absolute',
-              bottom: '0',
-              width: '32px',
-              height: `${fill}%`,
-              minHeight: '2px',
-              backgroundImage: `url('${data.fluid.image.src}')`,
-              backgroundSize: '32px',
-              imageRendering: 'pixelated',
-            }}
-          ></div>
+      {fluids.length > 1 ? (
+        <div class="cycle">
+          {fluids.map((fluid, index) => (
+            <div class:list={{ hidden: index > 0 }}>
+              <TankFluid fluid={fluid} amount={amount} height={height} fill={fill} />
+            </div>
+          ))}
         </div>
-      </a>
+      ) : (
+        <TankFluid fluid={fluids[0]} amount={amount} height={height} fill={fill} />
+      )}
     </div>
 
     <div
@@ -76,3 +69,7 @@ const fill = data !== undefined && data.amount !== 0 ? Math.floor((data.amount *
     ></div>
   </>
 )}
+
+<script>
+  import '../../../scripts/cycle.ts';
+</script>

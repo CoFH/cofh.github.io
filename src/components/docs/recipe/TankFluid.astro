@@ -1,0 +1,39 @@
+---
+import type { Fluid } from '../../../mods/types.ts';
+
+interface Props {
+  fluid: Fluid;
+  amount: string;
+  height: number;
+  fill: number;
+}
+
+const { fluid, amount, height, fill } = Astro.props;
+---
+
+<a
+  href={fluid.href}
+  aria-label={`${fluid.name}, ${amount}`}
+  data-tooltip={`${fluid.name}\n${amount}`}
+>
+  <div
+    style={{
+      position: 'relative',
+      width: '32px',
+      height: `${height}px`,
+    }}
+  >
+    <div
+      style={{
+        position: 'absolute',
+        bottom: '0',
+        width: '32px',
+        height: `${fill}%`,
+        minHeight: '2px',
+        backgroundImage: `url('${fluid.image.src}')`,
+        backgroundSize: '32px',
+        imageRendering: 'pixelated',
+      }}
+    ></div>
+  </div>
+</a>

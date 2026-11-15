@@ -3,7 +3,9 @@ import { defineRecipeType, defineRecipes } from '../../../define.ts';
 import mcFluids from '../../minecraft/fluids.ts';
 import mcItemGroups from '../../minecraft/item-groups.ts';
 import mc from '../../minecraft/items.ts';
+import tfFluidGroups from '../../thermal-foundation/fluid-groups.ts';
 import tfFluids from '../../thermal-foundation/fluids.ts';
+import tfItemGroups from '../../thermal-foundation/item-groups.ts';
 import tf from '../../thermal-foundation/items.ts';
 
 export const transposerFill = defineRecipeType('1.12/thermal-expansion', {
@@ -26,6 +28,7 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.biocrude, amount: 1_000 }],
     outputs: [{ item: tf.biocrudeBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   blazePowder: {
     inputs: [
@@ -39,6 +42,7 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.blazingPyrotheum, amount: 1_000 }],
     outputs: [{ item: tf.blazingPyrotheumBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   blitzPowder: {
     inputs: [
@@ -60,12 +64,7 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.glassBottle }, { fluid: tfFluids.essenceOfKnowledge, amount: 250 }],
     outputs: [{ item: mc.bottleOEnchanting }],
     energy: 400,
-    ingredients: [
-      { item: mc.glassBottle },
-      {
-        html: '<a href="/docs/1.12/thermal-foundation/essence-of-knowledge/">Essence of Knowledge</a> or<br /> <a href="https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing">IF Essence</a> or<br /> <a href="https://www.openmods.info/">OpenBlocks Liquid XP</a> (250 mB)',
-      },
-    ],
+    note: 'Also works with <a href="https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing">Industrial Foregoing</a>\'s essence or <a href="https://www.openmods.info/">OpenBlocks</a>\'s liquid XP.',
   },
   concrete: {
     inputs: [{ itemGroup: mcItemGroups.concretePowder }, { fluid: mcFluids.water, amount: 1_000 }],
@@ -76,16 +75,19 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.creosoteOil, amount: 1_000 }],
     outputs: [{ item: tf.creosoteOilBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   crudeOilBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.crudeOil, amount: 1_000 }],
     outputs: [{ item: tf.crudeOilBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   destabilizedRedstoneBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.destabilizedRedstone, amount: 1_000 }],
     outputs: [{ item: tf.destabilizedRedstoneBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   enderPearl: {
     clathrate: {
@@ -103,16 +105,25 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.energizedGlowstone, amount: 1_000 }],
     outputs: [{ item: tf.energizedGlowstoneBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   essenceOfKnowledgeBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.essenceOfKnowledge, amount: 1_000 }],
     outputs: [{ item: tf.essenceOfKnowledgeBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
+  },
+  fluidBucket: {
+    inputs: [{ item: mc.bucket }, { fluidGroup: tfFluidGroups.bucketableFluid, amount: 1_000 }],
+    outputs: [{ itemGroup: tfItemGroups.filledBucket }],
+    energy: 400,
+    note: 'Works with any item that holds fluids, 1,000\u00a0mB at a time until full.',
   },
   gelidCryotheumBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.gelidCryotheum, amount: 1_000 }],
     outputs: [{ item: tf.gelidCryotheumBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   glowstoneDust: {
     clathrate: {
@@ -130,6 +141,7 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.grassoline, amount: 1_000 }],
     outputs: [{ item: tf.grassolineBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   ice: {
     inputs: [{ item: tf.cryotheumDust }, { fluid: mcFluids.water, amount: 1_000 }],
@@ -140,6 +152,7 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.liquifactedCoal, amount: 1_000 }],
     outputs: [{ item: tf.liquifactedCoalBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   mossStone: {
     inputs: [{ item: mc.cobblestone }, { fluid: mcFluids.water, amount: 250 }],
@@ -160,11 +173,13 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.mushroomStew, amount: 1_000 }],
     outputs: [{ item: tf.mushroomStewBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   naphthaBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.naphtha, amount: 1_000 }],
     outputs: [{ item: tf.naphthaBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   packedIce: {
     inputs: [{ item: mc.ice }, { fluid: tfFluids.gelidCryotheum, amount: 200 }],
@@ -175,6 +190,7 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.primalMana, amount: 1_000 }],
     outputs: [{ item: tf.primalManaBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   redstone: {
     clathrate: {
@@ -192,16 +208,19 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.refinedFuel, amount: 1_000 }],
     outputs: [{ item: tf.refinedFuelBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   resinBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.resin, amount: 1_000 }],
     outputs: [{ item: tf.resinBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   resonantEnderBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.resonantEnder, amount: 1_000 }],
     outputs: [{ item: tf.resonantEnderBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   richBioblend: {
     inputs: [{ item: tf.pulpedBioblend }, { fluid: tfFluids.seedOil, amount: 100 }],
@@ -222,31 +241,37 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.sap, amount: 1_000 }],
     outputs: [{ item: tf.sapBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   seedOilBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.seedOil, amount: 1_000 }],
     outputs: [{ item: tf.seedOilBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   steamBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.steam, amount: 1_000 }],
     outputs: [{ item: tf.steamBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   syrupBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.syrup, amount: 1_000 }],
     outputs: [{ item: tf.syrupBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   tectonicPetrotheumBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.tectonicPetrotheum, amount: 1_000 }],
     outputs: [{ item: tf.tectonicPetrotheumBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   treeOilBucket: {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.treeOil, amount: 1_000 }],
     outputs: [{ item: tf.treeOilBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
   wetSponge: {
     inputs: [{ item: mc.sponge }, { fluid: mcFluids.water, amount: 1_000 }],
@@ -257,5 +282,6 @@ export default defineRecipes(transposerFill, {
     inputs: [{ item: mc.bucket }, { fluid: tfFluids.zephyreanAerotheum, amount: 1_000 }],
     outputs: [{ item: tf.zephyreanAerotheumBucket }],
     energy: 400,
+    note: 'Also works with other fluid containers.',
   },
 });
