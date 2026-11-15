@@ -24,6 +24,7 @@ const { fluid, amount, height, fill } = Astro.props;
     }}
   >
     <div
+      data-background-image={fluid.image.src}
       style={{
         position: 'absolute',
         bottom: '0',

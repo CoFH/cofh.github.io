@@ -21,8 +21,8 @@ window.setInterval(() => {
     });
 }, 1500);
 
-// Switch images within a `.cycle` from lazy to eager loading when it
-// enters the viewport, so they are loaded before becoming visible in the cycle
+// Load all images within a `.cycle` when it enters the viewport, so they are
+// loaded before becoming visible in the cycle
 const observer = new IntersectionObserver(
   (entries) => {
     entries
@@ -30,6 +30,10 @@ const observer = new IntersectionObserver(
       .forEach((entry) => {
         entry.target.querySelectorAll('img').forEach((image) => {
           image.loading = 'eager';
+        });
+
+        entry.target.querySelectorAll<HTMLElement>('[data-background-image]').forEach((element) => {
+          new Image().src = element.dataset.backgroundImage!;
         });
 
         observer.unobserve(entry.target);
