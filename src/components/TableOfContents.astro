@@ -6,10 +6,10 @@ import Icon from './Icon.astro';
 interface Props {
   headings: MarkdownHeading[];
   appendix?: { slug: string; text: string }[];
-  inline?: boolean;
+  mobile?: boolean;
 }
 
-const { headings, appendix = [], inline } = Astro.props;
+const { headings, appendix = [], mobile } = Astro.props;
 
 interface TocEntry {
   id: string;
@@ -46,29 +46,31 @@ if (entries.length > 0) {
 ---
 
 {entries.length > 0 &&
-  (inline ? (
-    <details class="inline panel panel-muted" data-pagefind-ignore>
-      <summary>
-        <Icon name="list" />
-        On this page
-        <span class="chevron">
-          <Icon name="chevronDown" />
-        </span>
-      </summary>
+  (mobile ? (
+    <div class="mobile-bar" data-pagefind-ignore>
+      <details class="mobile panel panel-muted">
+        <summary>
+          <Icon name="list" />
+          On this page
+          <span class="chevron">
+            <Icon name="chevronDown" />
+          </span>
+        </summary>
 
-      <nav class="toc" aria-label="On this page">
-        <ol>
-          {entries.map((entry) => (
-            <li class:list={{ sub: entry.sub, appendix: entry.number === undefined }}>
-              <a href={`#${entry.id}`} data-id={entry.id}>
-                <span class="number">{entry.number}</span>
-                <span>{entry.text}</span>
-              </a>
-            </li>
-          ))}
-        </ol>
-      </nav>
-    </details>
+        <nav class="toc" aria-label="On this page">
+          <ol>
+            {entries.map((entry) => (
+              <li class:list={{ sub: entry.sub, appendix: entry.number === undefined }}>
+                <a href={`#${entry.id}`} data-id={entry.id}>
+                  <span class="number">{entry.number}</span>
+                  <span>{entry.text}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+      </details>
+    </div>
   ) : (
     <aside class="side" data-pagefind-ignore>
       <nav class="toc" aria-label="On this page (sidebar)">
@@ -157,6 +159,28 @@ if (entries.length > 0) {
 
   document.addEventListener('scroll', update, { passive: true });
   window.addEventListener('resize', update);
+
+  const mobileBar = document.querySelector<HTMLElement>('.mobile-bar');
+  const mobileDropdown = document.querySelector<HTMLDetailsElement>('.mobile-bar details');
+
+  if (mobileBar !== null && mobileDropdown !== null) {
+    new ResizeObserver(() => {
+      document.documentElement.style.setProperty('--mobile-toc-h', `${mobileBar.offsetHeight}px`);
+    }).observe(mobileBar);
+
+    mobileDropdown.addEventListener('toggle', () => {
+      const toc = mobileDropdown.querySelector<HTMLElement>('.toc')!;
+      const link = toc.querySelector<HTMLElement>('a[aria-current]');
+
+      if (mobileDropdown.open && link !== null) {
+        toc.scrollTop = link.offsetTop - (toc.clientHeight - link.offsetHeight) / 2;
+      }
+    });
+
+    mobileDropdown
+      .querySelectorAll('a')
+      .forEach((link) => link.addEventListener('click', () => (mobileDropdown.open = false)));
+  }
 </script>
 
 <style>
@@ -234,16 +258,25 @@ if (entries.length > 0) {
     color: var(--accent);
   }
 
-  .inline {
+  .mobile-bar {
     display: none;
-    margin: -8px 0 24px;
+    position: sticky;
+    top: var(--nav-h);
+    z-index: 20;
+    margin: -12px 0 20px;
+    padding: 4px 0;
+    background: var(--bg);
+  }
+
+  .mobile {
+    position: relative;
   }
 
   summary {
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 10px 14px;
+    padding: 6px 12px;
     font-weight: 600;
     list-style: none;
     cursor: pointer;
@@ -259,15 +292,29 @@ if (entries.length > 0) {
     color: var(--muted);
   }
 
-  .inline[open] .chevron {
+  .mobile[open] .chevron {
     transform: rotate(180deg);
   }
 
-  .inline .toc {
-    padding: 0 14px 12px;
+  .mobile .toc {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    max-height: 60vh;
+    overflow: auto;
+    overscroll-behavior: contain;
+    padding: 10px 14px 12px;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-lg);
+    background: var(--bg);
+    box-shadow:
+      0 10px 30px var(--shadow-strong),
+      0 1px 3px var(--shadow);
+    scrollbar-width: thin;
   }
 
-  .inline ol {
+  .mobile ol {
     border-left-color: var(--line-strong);
   }
 
@@ -276,7 +323,7 @@ if (entries.length > 0) {
       display: none;
     }
 
-    .inline {
+    .mobile-bar {
       display: block;
     }
   }

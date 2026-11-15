@@ -5,7 +5,6 @@ import type {
   RecipeSlotData,
   RecipeTankData,
 } from '../../../mods/types.ts';
-import Icon from '../../Icon.astro';
 import RecipeColumnItem from './RecipeColumnItem.astro';
 
 interface Props {
@@ -24,14 +23,6 @@ if (Astro.props.recipes.some((recipe) => recipe.type !== type)) {
 }
 
 const withNote = Astro.props.recipes.some((recipe) => recipe.note !== undefined);
-
-const collapseFromRecipeCount = 8;
-const collapsedRecipeCount = 3;
-
-const collapsible = Astro.props.recipes.length >= collapseFromRecipeCount;
-const hiddenRecipeCount = Astro.props.recipes.length - collapsedRecipeCount;
-
-const columnCount = 2 + Number(!Astro.props.noResult) + Number(type.withEnergy) + Number(withNote);
 
 function asColumnItem(input: RecipeSlotData | RecipeTankData): RecipeColumnItemData {
   if ('fluid' in input) {
@@ -81,7 +72,7 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
 ---
 
 <div class="table-scroll">
-  <table class:list={['recipes', { collapsed: collapsible }]}>
+  <table class="recipes">
     <thead data-pagefind-ignore="all">
       <tr>
         {!Astro.props.noResult && <th>Result(s)</th>}
@@ -95,16 +86,11 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
     </thead>
 
     <tbody>
-      {Astro.props.recipes.map((recipe, index) => {
+      {Astro.props.recipes.map((recipe) => {
         const ingredients = getIngredientsColumnItems(recipe);
 
         return (
-          <tr
-            class:list={{
-              fade: index === collapsedRecipeCount - 1,
-              extra: index >= collapsedRecipeCount,
-            }}
-          >
+          <tr>
             {!Astro.props.noResult && (
               <td class="result">
                 {getResultsColumnItems(recipe).map((result, index) => {
@@ -145,19 +131,6 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
         );
       })}
     </tbody>
-
-    {collapsible && (
-      <tfoot data-pagefind-ignore="all">
-        <tr>
-          <td colspan={columnCount}>
-            <button type="button" class="btn btn-quiet recipe-toggle" aria-expanded="false">
-              <span>Show {hiddenRecipeCount} more recipes</span>
-              <Icon name="chevronDown" />
-            </button>
-          </td>
-        </tr>
-      </tfoot>
-    )}
   </table>
 </div>
 
@@ -169,7 +142,6 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
 
   .result {
     text-align: center;
-    white-space: nowrap;
   }
 
   .energy {
@@ -199,39 +171,6 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
     outline-offset: 0;
   }
 
-  .collapsed .extra {
-    visibility: collapse;
-  }
-
-  .collapsed .fade td {
-    position: relative;
-  }
-
-  .collapsed .fade td::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to bottom, transparent 15%, var(--bg));
-    pointer-events: none;
-  }
-
-  tfoot td {
-    padding: 14px;
-    border-top: 1px solid var(--line-strong);
-    border-radius: 0 0 calc(var(--radius-lg) - 1px) calc(var(--radius-lg) - 1px);
-    background: var(--surface);
-    text-align: center;
-  }
-
-  .recipe-toggle :global(.icon) {
-    width: 13px;
-    height: 13px;
-  }
-
-  .recipe-toggle[aria-expanded='true'] :global(.icon) {
-    transform: rotate(180deg);
-  }
-
   .recipe :global(.recipe-floating-text) {
     position: absolute;
     min-width: 100px;
@@ -250,26 +189,6 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
 
     recipe.addEventListener('mouseleave', () => {
       recipe.querySelectorAll('.cycle').forEach((cycle) => cycle.classList.remove('paused'));
-    });
-  });
-
-  // Toggle long recipe tables between their first few recipes and all of them
-  document.querySelectorAll<HTMLButtonElement>('.recipe-toggle').forEach((button) => {
-    const table = button.closest('table') as HTMLTableElement;
-    const label = button.firstElementChild as HTMLSpanElement;
-    const collapsedLabel = label.textContent;
-
-    button.addEventListener('click', () => {
-      const top = button.getBoundingClientRect().top;
-      const expanded = !table.classList.toggle('collapsed');
-
-      button.setAttribute('aria-expanded', String(expanded));
-      label.textContent = expanded ? 'Show fewer' : collapsedLabel;
-
-      // Keep the button where it was clicked when collapsing pulls it up the page
-      if (!expanded) {
-        window.scrollBy({ top: button.getBoundingClientRect().top - top, behavior: 'instant' });
-      }
     });
   });
 </script>

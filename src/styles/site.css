@@ -513,7 +513,7 @@ main:focus {
 
 :is(h1, h2, h3, h4, h5, h6),
 .prose [id^='user-content-fn'] {
-  scroll-margin-top: calc(var(--nav-h) + 16px);
+  scroll-margin-top: calc(var(--nav-h) + var(--mobile-toc-h, 0px) + 16px);
 }
 
 :is(h1, h2, h3, h4, h5, h6):target,

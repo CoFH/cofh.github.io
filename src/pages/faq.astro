@@ -14,7 +14,7 @@ const groups = getHeadings().filter((heading) => heading.depth === 2);
           <h1>Frequently asked questions (FAQ)</h1>
         </header>
 
-        <TableOfContents headings={groups} inline />
+        <TableOfContents headings={groups} mobile />
 
         <div class="faq prose section-numbers">
           <Faq />
