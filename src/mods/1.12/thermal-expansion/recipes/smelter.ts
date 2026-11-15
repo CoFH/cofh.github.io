@@ -1441,94 +1441,6 @@ export default defineRecipes(smelter, {
       outputs: [{ item: tf.enderiumIngot }, { item: tf.slag, chance: 10 }],
       energy: 2_000,
     },
-    fishingRodMetal: {
-      inputs: [{ itemGroup: tfItemGroups.metalFishingRod }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    fluxInfusedAxe: {
-      inputs: [{ itemGroup: tfItemGroups.metalAxe }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    fluxInfusedBoots: {
-      inputs: [{ itemGroup: tfItemGroups.metalBoots }, { item: mc.sand }],
-      outputs: [
-        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 2 },
-        { item: tf.slag, chance: 15 },
-      ],
-      energy: 6_000,
-    },
-    fluxInfusedBowMetal: {
-      inputs: [{ itemGroup: tfItemGroups.metalReinforcedBow }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    fluxInfusedChestplate: {
-      inputs: [{ itemGroup: tfItemGroups.metalChestplate }, { item: mc.sand }],
-      outputs: [
-        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 4 },
-        { item: tf.slag, chance: 25 },
-      ],
-      energy: 6_000,
-    },
-    fluxInfusedExcavator: {
-      inputs: [{ itemGroup: tfItemGroups.metalExcavator }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    fluxInfusedHammer: {
-      inputs: [{ itemGroup: tfItemGroups.metalHammer }, { item: mc.sand }],
-      outputs: [
-        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 2 },
-        { item: tf.slag, chance: 15 },
-      ],
-      energy: 6_000,
-    },
-    fluxInfusedHelm: {
-      inputs: [{ itemGroup: tfItemGroups.metalHelmet }, { item: mc.sand }],
-      outputs: [
-        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 2 },
-        { item: tf.slag, chance: 15 },
-      ],
-      energy: 6_000,
-    },
-    fluxInfusedLeggings: {
-      inputs: [{ itemGroup: tfItemGroups.metalLeggings }, { item: mc.sand }],
-      outputs: [
-        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 3 },
-        { item: tf.slag, chance: 20 },
-      ],
-      energy: 6_000,
-    },
-    fluxInfusedPickaxe: {
-      inputs: [{ itemGroup: tfItemGroups.metalPickaxe }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    fluxInfusedShovel: {
-      inputs: [{ itemGroup: tfItemGroups.metalShovel }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    fluxInfusedSickle: {
-      inputs: [{ itemGroup: tfItemGroups.metalSickle }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    fluxInfusedSword: {
-      inputs: [{ itemGroup: tfItemGroups.metalSword }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    gear: {
-      inputs: [{ itemGroup: tfItemGroups.metalGear }, { item: mc.sand }],
-      outputs: [
-        { itemGroup: tfItemGroups.metalIngot, amount: 4 },
-        { item: tf.slag, chance: 20 },
-      ],
-      energy: 3_000,
-    },
     goldExcavator: {
       inputs: [{ item: tf.goldExcavator }, { item: mc.sand }],
       outputs: [{ item: mc.goldIngot }, { item: tf.slag, chance: 10 }],
@@ -1590,14 +1502,6 @@ export default defineRecipes(smelter, {
         { item: tf.slag, chance: 25 },
       ],
       energy: 4_000,
-    },
-    horseArmorMetal: {
-      inputs: [{ itemGroup: tfItemGroups.metalHorseArmor }, { item: mc.sand }],
-      outputs: [
-        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 2 },
-        { item: tf.slag, chance: 15 },
-      ],
-      energy: 6_000,
     },
     invarAxe: {
       inputs: [{ item: tf.invarAxe }, { item: mc.sand }],
@@ -1949,6 +1853,125 @@ export default defineRecipes(smelter, {
       outputs: [{ item: tf.manaInfusedIngot }, { item: tf.slag, chance: 10 }],
       energy: 2_000,
     },
+    metalAxe: {
+      inputs: [{ itemGroup: tfItemGroups.metalAxe }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
+    metalBoots: {
+      inputs: [{ itemGroup: tfItemGroups.metalBoots }, { item: mc.sand }],
+      outputs: [
+        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 2 },
+        { item: tf.slag, chance: 15 },
+      ],
+      energy: 6_000,
+    },
+    metalChestplate: {
+      inputs: [{ itemGroup: tfItemGroups.metalChestplate }, { item: mc.sand }],
+      outputs: [
+        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 4 },
+        { item: tf.slag, chance: 25 },
+      ],
+      energy: 6_000,
+    },
+    metalExcavator: {
+      inputs: [{ itemGroup: tfItemGroups.metalExcavator }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
+    metalFishingRod: {
+      inputs: [{ itemGroup: tfItemGroups.metalFishingRod }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
+    metalGear: {
+      inputs: [{ itemGroup: tfItemGroups.metalGear }, { item: mc.sand }],
+      outputs: [
+        { itemGroup: tfItemGroups.metalIngot, amount: 4 },
+        { item: tf.slag, chance: 20 },
+      ],
+      energy: 3_000,
+    },
+    metalHammer: {
+      inputs: [{ itemGroup: tfItemGroups.metalHammer }, { item: mc.sand }],
+      outputs: [
+        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 2 },
+        { item: tf.slag, chance: 15 },
+      ],
+      energy: 6_000,
+    },
+    metalHelmet: {
+      inputs: [{ itemGroup: tfItemGroups.metalHelmet }, { item: mc.sand }],
+      outputs: [
+        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 2 },
+        { item: tf.slag, chance: 15 },
+      ],
+      energy: 6_000,
+    },
+    metalHoe: {
+      inputs: [{ itemGroup: tfItemGroups.metalHoe }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
+    metalHorseArmor: {
+      inputs: [{ itemGroup: tfItemGroups.metalHorseArmor }, { item: mc.sand }],
+      outputs: [
+        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 2 },
+        { item: tf.slag, chance: 15 },
+      ],
+      energy: 6_000,
+    },
+    metalLeggings: {
+      inputs: [{ itemGroup: tfItemGroups.metalLeggings }, { item: mc.sand }],
+      outputs: [
+        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 3 },
+        { item: tf.slag, chance: 20 },
+      ],
+      energy: 6_000,
+    },
+    metalPickaxe: {
+      inputs: [{ itemGroup: tfItemGroups.metalPickaxe }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
+    metalPlate: {
+      inputs: [{ itemGroup: tfItemGroups.metalPlate }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.metalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 2_000,
+    },
+    metalReinforcedBow: {
+      inputs: [{ itemGroup: tfItemGroups.metalReinforcedBow }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
+    metalShears: {
+      inputs: [{ itemGroup: tfItemGroups.metalShears }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
+    metalShield: {
+      inputs: [{ itemGroup: tfItemGroups.metalShield }, { item: mc.sand }],
+      outputs: [
+        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 3 },
+        { item: tf.slag, chance: 20 },
+      ],
+      energy: 6_000,
+    },
+    metalShovel: {
+      inputs: [{ itemGroup: tfItemGroups.metalShovel }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
+    metalSickle: {
+      inputs: [{ itemGroup: tfItemGroups.metalSickle }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
+    metalSword: {
+      inputs: [{ itemGroup: tfItemGroups.metalSword }, { item: mc.sand }],
+      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
+      energy: 6_000,
+    },
     minecart: {
       inputs: [{ item: mc.minecart }, { item: mc.sand }],
       outputs: [
@@ -2100,11 +2123,6 @@ export default defineRecipes(smelter, {
       outputs: [{ item: tf.nickelIngot }, { item: tf.slag, chance: 10 }],
       energy: 6_000,
     },
-    plate: {
-      inputs: [{ itemGroup: tfItemGroups.metalPlate }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.metalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 2_000,
-    },
     platinumAxe: {
       inputs: [{ item: tf.platinumAxe }, { item: mc.sand }],
       outputs: [{ item: tf.platinumIngot }, { item: tf.slag, chance: 10 }],
@@ -2239,19 +2257,6 @@ export default defineRecipes(smelter, {
         { item: tf.slag, chance: 5 },
       ],
       energy: 4_000,
-    },
-    shearsMetal: {
-      inputs: [{ itemGroup: tfItemGroups.metalShears }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    shieldMetal: {
-      inputs: [{ itemGroup: tfItemGroups.metalShield }, { item: mc.sand }],
-      outputs: [
-        { itemGroup: tfItemGroups.equipmentMetalIngot, amount: 3 },
-        { item: tf.slag, chance: 20 },
-      ],
-      energy: 6_000,
     },
     signalumGear: {
       inputs: [{ item: tf.signalumGear }, { item: mc.sand }],
@@ -2629,11 +2634,6 @@ export default defineRecipes(smelter, {
     tinSword: {
       inputs: [{ item: tf.tinSword }, { item: mc.sand }],
       outputs: [{ item: tf.tinIngot }, { item: tf.slag, chance: 10 }],
-      energy: 6_000,
-    },
-    toolHoe: {
-      inputs: [{ itemGroup: tfItemGroups.metalHoe }, { item: mc.sand }],
-      outputs: [{ itemGroup: tfItemGroups.equipmentMetalIngot }, { item: tf.slag, chance: 10 }],
       energy: 6_000,
     },
     veryDamagedAnvil: {

@@ -459,6 +459,11 @@ export default defineRecipes(pulverizer, {
       outputs: [{ item: mc.netherQuartz, amount: 4 }],
       energy: 3_000,
     },
+    bow: {
+      inputs: [{ item: mc.bow }],
+      outputs: [{ item: tf.sawdust, amount: 2 }],
+      energy: 3_000,
+    },
     bricks: {
       inputs: [{ item: mc.bricks }],
       outputs: [{ item: mc.brick, amount: 4 }],
@@ -578,11 +583,6 @@ export default defineRecipes(pulverizer, {
       inputs: [{ item: mc.flowerPot }],
       outputs: [{ item: mc.brick, amount: 3 }],
       energy: 4_000,
-    },
-    fluxInfusedBow: {
-      inputs: [{ item: mc.bow }],
-      outputs: [{ item: tf.sawdust, amount: 2 }],
-      energy: 3_000,
     },
     glass: { inputs: [{ item: mc.glass }], outputs: [{ item: mc.sand }], energy: 4_000 },
     glassBottle: {
