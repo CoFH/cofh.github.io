@@ -61,7 +61,7 @@ export default defineItems('1.12/thermal-expansion', {
   },
   creatureEncaptulator: { name: 'Creature Encaptulator' },
   decoctiveDiffuser: { name: 'Decoctive Diffuser' },
-  deviceFrame: { name: 'Device Frame', url: 'devices/' },
+  deviceFrame: { name: 'Device Frame' },
   energeticInfuser: { name: 'Energetic Infuser' },
   energyCell0: { name: 'Energy Cell (Basic)', url: 'energy-cell/' },
   energyCell1: { name: 'Energy Cell (Hardened)', url: 'energy-cell/' },
@@ -88,7 +88,7 @@ export default defineItems('1.12/thermal-expansion', {
   insightfulCondenser: { name: 'Insightful Condenser' },
   itemAllocator: { name: 'Item Allocator' },
   lexicalTransmuter: { name: 'Lexical Transmuter' },
-  machineFrame: { name: 'Machine Frame', url: 'machines/' },
+  machineFrame: { name: 'Machine Frame' },
   magmaCrucible: { name: 'Magma Crucible' },
   magmaticDynamo: { name: 'Magmatic Dynamo' },
   magmaticDynamoBoilerConversion: {

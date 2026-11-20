@@ -7,6 +7,8 @@ import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import td from '@/mods/1.12/thermal-dynamics/items.ts';
 import tdCrafting from '@/mods/1.12/thermal-dynamics/recipes/crafting.ts';
 
+export const subject = [td.hardenedFluiduct, td.hardenedFluiductOpaque];
+
 <PageImage images={[{ item: td.hardenedFluiduct }, { item: td.hardenedFluiductOpaque }]} />
 
 A **hardened fluiduct** is a type of [fluiduct](../fluiduct/) that can transfer

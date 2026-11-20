@@ -1,0 +1,45 @@
+---
+title: Device Frame
+---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
+import te from '@/mods/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
+
+export const subject = [te.deviceFrame];
+
+<PageImage images={[{ item: te.deviceFrame }]} />
+
+
+A **device frame** is a crafting material used to make [devices](../devices/).
+
+
+Obtaining
+---------
+
+### Crafting
+<RecipeTable recipes={[teCrafting.deviceFrame]} noResult />
+
+
+Usage
+-----
+
+### Crafting ingredient
+<RecipeTable
+  recipes={[
+    teCrafting.aqueousAccumulator,
+    teCrafting.nullifier,
+    teCrafting.thermalMediator,
+    teCrafting.arborealExtractor,
+    teCrafting.aquaticEntangler,
+    teCrafting.itemAllocator,
+    teCrafting.fluidAllocator,
+    teCrafting.lexicalTransmuter,
+    teCrafting.insightfulCondenser,
+    teCrafting.decoctiveDiffuser,
+    teCrafting.factorizer,
+    teCrafting.creatureEncaptulator,
+    teCrafting.vacuumulator,
+  ]}
+/>

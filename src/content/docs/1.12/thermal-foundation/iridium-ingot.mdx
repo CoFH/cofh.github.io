@@ -8,10 +8,13 @@ import teCompactorCoin from '@/mods/1.12/thermal-expansion/recipes/compactor-coi
 import teCompactorGear from '@/mods/1.12/thermal-expansion/recipes/compactor-gear.ts';
 import teCompactor from '@/mods/1.12/thermal-expansion/recipes/compactor.ts';
 import tePulverizer from '@/mods/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teRedstoneFurnace from '@/mods/1.12/thermal-expansion/recipes/redstone-furnace.ts';
 import teSmelter from '@/mods/1.12/thermal-expansion/recipes/smelter.ts';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
 import tfCrafting from '@/mods/1.12/thermal-foundation/recipes/crafting.ts';
 import tfSmelting from '@/mods/1.12/thermal-foundation/recipes/smelting.ts';
+
+export const subject = [tf.iridiumIngot];
 
 <PageImage images={[{ item: tf.iridiumIngot }]} />
 
@@ -33,6 +36,9 @@ Obtaining
   ]}
   noResult
 />
+
+### Redstone Furnace
+<RecipeTable recipes={[teRedstoneFurnace.iridiumIngotFromDust]} noResult />
 
 ### Crafting
 <RecipeTable

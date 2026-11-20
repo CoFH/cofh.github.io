@@ -7,10 +7,13 @@ import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import raCrafting from '@/mods/1.12/redstone-arsenal/recipes/crafting.ts';
 import teCentrifuge from '@/mods/1.12/thermal-expansion/recipes/centrifuge.ts';
 import tePulverizer from '@/mods/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teRedstoneFurnace from '@/mods/1.12/thermal-expansion/recipes/redstone-furnace.ts';
 import teSmelter from '@/mods/1.12/thermal-expansion/recipes/smelter.ts';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
 import tfCrafting from '@/mods/1.12/thermal-foundation/recipes/crafting.ts';
 import tfSmelting from '@/mods/1.12/thermal-foundation/recipes/smelting.ts';
+
+export const subject = [tf.pulverizedGold];
 
 <PageImage images={[{ item: tf.pulverizedGold }]} />
 
@@ -51,6 +54,9 @@ Usage
 
 ### Smelting ingredient
 <RecipeTable recipes={[tfSmelting.goldIngotFromDust]} />
+
+### Redstone Furnace ingredient
+<RecipeTable recipes={[teRedstoneFurnace.goldIngotFromDust]} />
 
 ### Crafting ingredient
 <RecipeTable

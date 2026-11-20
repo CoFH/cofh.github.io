@@ -12,15 +12,45 @@ export const redstoneFurnace = defineRecipeType('1.12/thermal-expansion', {
 });
 
 export default defineRecipes(redstoneFurnace, {
+  aluminumIngotFromDust: {
+    inputs: [{ item: tf.pulverizedAluminum }],
+    outputs: [{ item: tf.aluminumIngot }],
+    energy: 1_500,
+  },
+  bronzeIngotFromDust: {
+    inputs: [{ item: tf.bronzeBlend }],
+    outputs: [{ item: tf.bronzeIngot }],
+    energy: 1_500,
+  },
   cactusGreen: {
     inputs: [{ item: mc.cactus }],
     outputs: [{ item: mc.cactusGreen }],
     energy: 1_000,
   },
+  constantanIngotFromDust: {
+    inputs: [{ item: tf.constantanBlend }],
+    outputs: [{ item: tf.constantanIngot }],
+    energy: 1_500,
+  },
+  copperIngotFromDust: {
+    inputs: [{ item: tf.pulverizedCopper }],
+    outputs: [{ item: tf.copperIngot }],
+    energy: 1_500,
+  },
+  electrumIngotFromDust: {
+    inputs: [{ item: tf.electrumBlend }],
+    outputs: [{ item: tf.electrumIngot }],
+    energy: 1_500,
+  },
   food: {
     inputs: [{ itemGroup: mcItemGroups.rawFood }],
     outputs: [{ itemGroup: mcItemGroups.cookedFood }],
     energy: 1_000,
+  },
+  goldIngotFromDust: {
+    inputs: [{ item: tf.pulverizedGold }],
+    outputs: [{ item: mc.goldIngot }],
+    energy: 1_500,
   },
   ingotFromDust: {
     inputs: [
@@ -69,10 +99,40 @@ export default defineRecipes(redstoneFurnace, {
     results: [{ html: 'Metal Ingot' }],
     ingredients: [{ html: '<a href="https://minecraft.wiki/w/Smelting">Smeltable</a> Metal Dust' }],
   },
+  invarIngotFromDust: {
+    inputs: [{ item: tf.invarBlend }],
+    outputs: [{ item: tf.invarIngot }],
+    energy: 1_500,
+  },
+  iridiumIngotFromDust: {
+    inputs: [{ item: tf.pulverizedIridium }],
+    outputs: [{ item: tf.iridiumIngot }],
+    energy: 1_500,
+  },
+  ironIngotFromDust: {
+    inputs: [{ item: tf.pulverizedIron }],
+    outputs: [{ item: mc.ironIngot }],
+    energy: 1_500,
+  },
+  leadIngotFromDust: {
+    inputs: [{ item: tf.pulverizedLead }],
+    outputs: [{ item: tf.leadIngot }],
+    energy: 1_500,
+  },
   leather: {
     inputs: [{ item: mc.rottenFlesh, amount: 4 }],
     outputs: [{ item: mc.leather }],
     energy: 4_000,
+  },
+  manaInfusedIngotFromDust: {
+    inputs: [{ item: tf.pulverizedManaInfusedMetal }],
+    outputs: [{ item: tf.manaInfusedIngot }],
+    energy: 1_500,
+  },
+  nickelIngotFromDust: {
+    inputs: [{ item: tf.pulverizedNickel }],
+    outputs: [{ item: tf.nickelIngot }],
+    energy: 1_500,
   },
   oreProcessingLapisLazuli: {
     inputs: [{ item: mc.lapisLazuliOre }],
@@ -83,5 +143,20 @@ export default defineRecipes(redstoneFurnace, {
     inputs: [{ item: mc.redstoneOre }],
     outputs: [{ item: mc.redstone, amount: 4 }],
     energy: 2_000,
+  },
+  platinumIngotFromDust: {
+    inputs: [{ item: tf.pulverizedPlatinum }],
+    outputs: [{ item: tf.platinumIngot }],
+    energy: 1_500,
+  },
+  silverIngotFromDust: {
+    inputs: [{ item: tf.pulverizedSilver }],
+    outputs: [{ item: tf.silverIngot }],
+    energy: 1_500,
+  },
+  tinIngotFromDust: {
+    inputs: [{ item: tf.pulverizedTin }],
+    outputs: [{ item: tf.tinIngot }],
+    energy: 1_500,
   },
 });

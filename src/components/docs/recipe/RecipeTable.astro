@@ -5,6 +5,7 @@ import type {
   RecipeSlotData,
   RecipeTankData,
 } from '../../../mods/types.ts';
+import { recipeIndex } from '../../../mods/recipe-index.ts';
 import { isTank } from './narrow.ts';
 import RecipeColumnItem from './RecipeColumnItem.astro';
 
@@ -91,7 +92,7 @@ function getIngredientsColumnItems(recipe: Recipe): RecipeColumnItemData[] {
         const ingredients = getIngredientsColumnItems(recipe);
 
         return (
-          <tr>
+          <tr data-recipe-id={recipeIndex.get(recipe)?.id}>
             {!Astro.props.noResult && (
               <td class="result">
                 {getResultsColumnItems(recipe).map((result, index) => {

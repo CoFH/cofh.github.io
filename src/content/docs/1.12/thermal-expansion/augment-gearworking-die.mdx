@@ -5,8 +5,10 @@ title: 'Augment: Gearworking Die'
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import te from '@/mods/1.12/thermal-expansion/items.ts';
-import teCompactorGear from '@/mods/1.12/thermal-expansion/recipes/compactor-gear.ts';
+import teCompactorGear, { compactorGear } from '@/mods/1.12/thermal-expansion/recipes/compactor-gear.ts';
 import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
+
+export const subject = [te.augmentGearworkingDie, compactorGear];
 
 <PageImage images={[{ item: te.augmentGearworkingDie }]} />
 

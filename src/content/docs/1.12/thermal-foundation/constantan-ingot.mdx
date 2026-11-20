@@ -9,10 +9,13 @@ import teCompactorGear from '@/mods/1.12/thermal-expansion/recipes/compactor-gea
 import teCompactor from '@/mods/1.12/thermal-expansion/recipes/compactor.ts';
 import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
 import tePulverizer from '@/mods/1.12/thermal-expansion/recipes/pulverizer.ts';
+import teRedstoneFurnace from '@/mods/1.12/thermal-expansion/recipes/redstone-furnace.ts';
 import teSmelter from '@/mods/1.12/thermal-expansion/recipes/smelter.ts';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
 import tfCrafting from '@/mods/1.12/thermal-foundation/recipes/crafting.ts';
 import tfSmelting from '@/mods/1.12/thermal-foundation/recipes/smelting.ts';
+
+export const subject = [tf.constantanIngot];
 
 <PageImage images={[{ item: tf.constantanIngot }]} />
 
@@ -31,6 +34,9 @@ smelter](../../thermal-expansion/induction-smelter/).
 
 ### Smelting
 <RecipeTable recipes={[tfSmelting.constantanIngotFromDust]} noResult />
+
+### Redstone Furnace
+<RecipeTable recipes={[teRedstoneFurnace.constantanIngotFromDust]} noResult />
 
 ### Crafting
 <RecipeTable

@@ -1,9 +1,13 @@
 import type { SatteriProcessorOptions } from '@astrojs/markdown-satteri';
 
-import { icons } from './icons.ts';
+import { icons } from '../lib/icons.ts';
 
 type HastPluginEntry = NonNullable<SatteriProcessorOptions['hastPlugins']>[number];
 
+/**
+ * Automatically appends a link to each h2-h6 heading in Markdown and MDX content, so readers can
+ * copy a link to that section.
+ */
 export const headingAnchors: HastPluginEntry = {
   name: 'heading-anchors',
   element: {

@@ -6,16 +6,36 @@ import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import tePulverizer from '@/mods/1.12/thermal-expansion/recipes/pulverizer.ts';
 import teSmelter from '@/mods/1.12/thermal-expansion/recipes/smelter.ts';
+import tfItemGroups from '@/mods/1.12/thermal-foundation/item-groups.ts';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
 import tfCrafting from '@/mods/1.12/thermal-foundation/recipes/crafting.ts';
-import vpt from '@/mods/1.12/vanillaplus-tools/items.ts';
+
+export const subject = [
+  tf.stoneFishingRod,
+  tf.ironFishingRod,
+  tf.goldFishingRod,
+  tf.diamondFishingRod,
+  tf.copperFishingRod,
+  tf.tinFishingRod,
+  tf.silverFishingRod,
+  tf.leadFishingRod,
+  tf.aluminumFishingRod,
+  tf.nickelFishingRod,
+  tf.platinumFishingRod,
+  tf.steelFishingRod,
+  tf.electrumFishingRod,
+  tf.invarFishingRod,
+  tf.bronzeFishingRod,
+  tf.constantanFishingRod,
+  tfItemGroups.metalFishingRod,
+];
 
 <PageImage
   images={[
-    { item: vpt.stoneFishingRod },
-    { item: vpt.ironFishingRod },
-    { item: vpt.goldFishingRod },
-    { item: vpt.diamondFishingRod },
+    { item: tf.stoneFishingRod },
+    { item: tf.ironFishingRod },
+    { item: tf.goldFishingRod },
+    { item: tf.diamondFishingRod },
     { item: tf.copperFishingRod },
     { item: tf.tinFishingRod },
     { item: tf.silverFishingRod },

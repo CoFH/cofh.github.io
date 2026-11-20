@@ -6,16 +6,36 @@ import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import tePulverizer from '@/mods/1.12/thermal-expansion/recipes/pulverizer.ts';
 import teSmelter from '@/mods/1.12/thermal-expansion/recipes/smelter.ts';
+import tfItemGroups from '@/mods/1.12/thermal-foundation/item-groups.ts';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
 import tfCrafting from '@/mods/1.12/thermal-foundation/recipes/crafting.ts';
-import vpt from '@/mods/1.12/vanillaplus-tools/items.ts';
+
+export const subject = [
+  tf.stoneReinforcedBow,
+  tf.ironReinforcedBow,
+  tf.goldReinforcedBow,
+  tf.diamondReinforcedBow,
+  tf.copperReinforcedBow,
+  tf.tinReinforcedBow,
+  tf.silverReinforcedBow,
+  tf.leadReinforcedBow,
+  tf.aluminumReinforcedBow,
+  tf.nickelReinforcedBow,
+  tf.platinumReinforcedBow,
+  tf.steelReinforcedBow,
+  tf.electrumReinforcedBow,
+  tf.invarReinforcedBow,
+  tf.bronzeReinforcedBow,
+  tf.constantanReinforcedBow,
+  tfItemGroups.metalReinforcedBow,
+];
 
 <PageImage
   images={[
-    { item: vpt.stoneReinforcedBow },
-    { item: vpt.ironReinforcedBow },
-    { item: vpt.goldReinforcedBow },
-    { item: vpt.diamondReinforcedBow },
+    { item: tf.stoneReinforcedBow },
+    { item: tf.ironReinforcedBow },
+    { item: tf.goldReinforcedBow },
+    { item: tf.diamondReinforcedBow },
     { item: tf.copperReinforcedBow },
     { item: tf.tinReinforcedBow },
     { item: tf.silverReinforcedBow },

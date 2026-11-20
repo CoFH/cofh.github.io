@@ -2,7 +2,6 @@
 title: Forge Lexicon
 ---
 
-import { Image } from 'astro:assets';
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
@@ -10,6 +9,9 @@ import forgeLexiconGuiKnowledgeImage from '@/mods/1.12/thermal-foundation/images
 import forgeLexiconGuiTransmutationImage from '@/mods/1.12/thermal-foundation/images/forge-lexicon-gui-transmutation.png';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
 import tfCrafting from '@/mods/1.12/thermal-foundation/recipes/crafting.ts';
+import { Image } from 'astro:assets';
+
+export const subject = [tf.forgeLexicon];
 
 <PageImage images={[{ item: tf.forgeLexicon }]} />
 

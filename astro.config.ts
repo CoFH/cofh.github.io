@@ -4,7 +4,8 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig, sharpImageService } from 'astro/config';
 import pagefind from 'astro-pagefind';
 
-import { headingAnchors } from './src/lib/heading-anchors.ts';
+import { headingAnchors } from './src/plugins/heading-anchors.ts';
+import { recipeCheck } from './src/plugins/recipe-check/index.ts';
 
 export default defineConfig({
   site: 'https://teamcofh.com',
@@ -63,6 +64,7 @@ export default defineConfig({
   },
   integrations: [
     mdx(),
+    recipeCheck(),
     sitemap({
       filter: (page) => !page.endsWith('/404/'),
     }),

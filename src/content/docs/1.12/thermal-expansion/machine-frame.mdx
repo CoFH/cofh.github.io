@@ -1,0 +1,48 @@
+---
+title: Machine Frame
+---
+
+import PageImage from '@/components/docs/PageImage.astro';
+import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
+import te from '@/mods/1.12/thermal-expansion/items.ts';
+import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
+
+export const subject = [te.machineFrame];
+
+<PageImage images={[{ item: te.machineFrame }]} />
+
+
+A **machine frame** is a crafting material used to make [machines](../machines/).
+
+
+Obtaining
+---------
+
+### Crafting
+<RecipeTable recipes={[teCrafting.machineFrame]} noResult />
+
+
+Usage
+-----
+
+### Crafting ingredient
+<RecipeTable
+  recipes={[
+    teCrafting.redstoneFurnace,
+    teCrafting.pulverizer,
+    teCrafting.sawmill,
+    teCrafting.inductionSmelter,
+    teCrafting.phytogenicInsolator,
+    teCrafting.compactor,
+    teCrafting.magmaCrucible,
+    teCrafting.fractionatingStill,
+    teCrafting.fluidTransposer,
+    teCrafting.energeticInfuser,
+    teCrafting.centrifugalSeparator,
+    teCrafting.sequentialFabricator,
+    teCrafting.alchemicalImbuer,
+    teCrafting.arcaneEnsorcellator,
+    teCrafting.glacialPrecipitator,
+    teCrafting.igneousExtruder,
+  ]}
+/>

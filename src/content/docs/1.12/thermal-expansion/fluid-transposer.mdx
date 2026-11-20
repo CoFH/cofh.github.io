@@ -4,13 +4,15 @@ title: Fluid Transposer
 
 import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
-import AugmentTable from '@/mods/1.12/thermal-expansion/components/AugmentTable.astro';
 import raTransposerFill from '@/mods/1.12/redstone-arsenal/recipes/transposer-fill.ts';
 import tdTransposerFill from '@/mods/1.12/thermal-dynamics/recipes/transposer-fill.ts';
+import AugmentTable from '@/mods/1.12/thermal-expansion/components/AugmentTable.astro';
 import te from '@/mods/1.12/thermal-expansion/items.ts';
 import teCrafting from '@/mods/1.12/thermal-expansion/recipes/crafting.ts';
-import teTransposerEmpty from '@/mods/1.12/thermal-expansion/recipes/transposer-empty.ts';
-import teTransposerFill from '@/mods/1.12/thermal-expansion/recipes/transposer-fill.ts';
+import teTransposerEmpty, { transposerEmpty } from '@/mods/1.12/thermal-expansion/recipes/transposer-empty.ts';
+import teTransposerFill, { transposerFill } from '@/mods/1.12/thermal-expansion/recipes/transposer-fill.ts';
+
+export const subject = [te.fluidTransposer, transposerFill, transposerEmpty];
 
 <PageImage images={[{ item: te.fluidTransposer }]} />
 

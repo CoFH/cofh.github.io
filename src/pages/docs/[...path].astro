@@ -14,7 +14,7 @@ export const getStaticPaths = (async () => {
   const entries = await getCollection('docs');
 
   return entries.map((entry) => ({
-    params: { path: entry.id === 'index' ? undefined : entry.id },
+    params: { path: entry.id },
     props: { entry },
   }));
 }) satisfies GetStaticPaths;

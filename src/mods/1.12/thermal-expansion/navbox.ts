@@ -10,6 +10,7 @@ export default {
           title: 'Machines',
           url: 'machines/',
           items: [
+            { title: 'Frame', item: te.machineFrame },
             { item: te.redstoneFurnace },
             { item: te.pulverizer },
             { item: te.sawmill },
@@ -32,6 +33,7 @@ export default {
           title: 'Devices',
           url: 'devices/',
           items: [
+            { title: 'Frame', item: te.deviceFrame },
             { item: te.aqueousAccumulator },
             { item: te.nullifier },
             { item: te.thermalMediator },

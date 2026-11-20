@@ -6,15 +6,36 @@ import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import tePulverizer from '@/mods/1.12/thermal-expansion/recipes/pulverizer.ts';
 import teSmelter from '@/mods/1.12/thermal-expansion/recipes/smelter.ts';
+import tfItemGroups from '@/mods/1.12/thermal-foundation/item-groups.ts';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
 import tfCrafting from '@/mods/1.12/thermal-foundation/recipes/crafting.ts';
-import vpt from '@/mods/1.12/vanillaplus-tools/items.ts';
+
+export const subject = [
+  tf.woodenHammer,
+  tf.stoneHammer,
+  tf.ironHammer,
+  tf.goldHammer,
+  tf.diamondHammer,
+  tf.copperHammer,
+  tf.tinHammer,
+  tf.silverHammer,
+  tf.leadHammer,
+  tf.aluminumHammer,
+  tf.nickelHammer,
+  tf.platinumHammer,
+  tf.steelHammer,
+  tf.electrumHammer,
+  tf.invarHammer,
+  tf.bronzeHammer,
+  tf.constantanHammer,
+  tfItemGroups.metalHammer,
+];
 
 <PageImage
   images={[
-    { item: vpt.ironHammer },
-    { item: vpt.goldHammer },
-    { item: vpt.diamondHammer },
+    { item: tf.ironHammer },
+    { item: tf.goldHammer },
+    { item: tf.diamondHammer },
     { item: tf.copperHammer },
     { item: tf.tinHammer },
     { item: tf.silverHammer },
@@ -27,8 +48,8 @@ import vpt from '@/mods/1.12/vanillaplus-tools/items.ts';
     { item: tf.invarHammer },
     { item: tf.bronzeHammer },
     { item: tf.constantanHammer },
-    { item: vpt.stoneHammer },
-    { item: vpt.woodenHammer },
+    { item: tf.stoneHammer },
+    { item: tf.woodenHammer },
   ]}
 />
 

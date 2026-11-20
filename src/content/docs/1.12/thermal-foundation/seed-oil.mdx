@@ -7,6 +7,9 @@ import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import teTransposerEmpty from '@/mods/1.12/thermal-expansion/recipes/transposer-empty.ts';
 import teTransposerFill from '@/mods/1.12/thermal-expansion/recipes/transposer-fill.ts';
 import tfFluids from '@/mods/1.12/thermal-foundation/fluids.ts';
+import tf from '@/mods/1.12/thermal-foundation/items.ts';
+
+export const subject = [tfFluids.seedOil, tf.seedOilBucket];
 
 <PageImage images={[{ item: tfFluids.seedOil }]} />
 

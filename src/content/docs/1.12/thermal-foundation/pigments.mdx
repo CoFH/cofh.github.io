@@ -6,7 +6,28 @@ import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import teCentrifuge from '@/mods/1.12/thermal-expansion/recipes/centrifuge.ts';
 import tePulverizer from '@/mods/1.12/thermal-expansion/recipes/pulverizer.ts';
+import tfItemGroups from '@/mods/1.12/thermal-foundation/item-groups.ts';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
+
+export const subject = [
+  tfItemGroups.pigment,
+  tf.whitePigment,
+  tf.orangePigment,
+  tf.magentaPigment,
+  tf.lightBluePigment,
+  tf.yellowPigment,
+  tf.limePigment,
+  tf.pinkPigment,
+  tf.grayPigment,
+  tf.lightGrayPigment,
+  tf.cyanPigment,
+  tf.purplePigment,
+  tf.bluePigment,
+  tf.brownPigment,
+  tf.greenPigment,
+  tf.redPigment,
+  tf.blackPigment,
+];
 
 <PageImage
   images={[

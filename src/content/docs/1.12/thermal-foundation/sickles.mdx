@@ -6,15 +6,36 @@ import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import tePulverizer from '@/mods/1.12/thermal-expansion/recipes/pulverizer.ts';
 import teSmelter from '@/mods/1.12/thermal-expansion/recipes/smelter.ts';
+import tfItemGroups from '@/mods/1.12/thermal-foundation/item-groups.ts';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
 import tfCrafting from '@/mods/1.12/thermal-foundation/recipes/crafting.ts';
-import vpt from '@/mods/1.12/vanillaplus-tools/items.ts';
+
+export const subject = [
+  tf.woodenSickle,
+  tf.stoneSickle,
+  tf.ironSickle,
+  tf.goldSickle,
+  tf.diamondSickle,
+  tf.copperSickle,
+  tf.tinSickle,
+  tf.silverSickle,
+  tf.leadSickle,
+  tf.aluminumSickle,
+  tf.nickelSickle,
+  tf.platinumSickle,
+  tf.steelSickle,
+  tf.electrumSickle,
+  tf.invarSickle,
+  tf.bronzeSickle,
+  tf.constantanSickle,
+  tfItemGroups.metalSickle,
+];
 
 <PageImage
   images={[
-    { item: vpt.ironSickle },
-    { item: vpt.goldSickle },
-    { item: vpt.diamondSickle },
+    { item: tf.ironSickle },
+    { item: tf.goldSickle },
+    { item: tf.diamondSickle },
     { item: tf.copperSickle },
     { item: tf.tinSickle },
     { item: tf.silverSickle },
@@ -27,8 +48,8 @@ import vpt from '@/mods/1.12/vanillaplus-tools/items.ts';
     { item: tf.invarSickle },
     { item: tf.bronzeSickle },
     { item: tf.constantanSickle },
-    { item: vpt.stoneSickle },
-    { item: vpt.woodenSickle },
+    { item: tf.stoneSickle },
+    { item: tf.woodenSickle },
   ]}
 />
 

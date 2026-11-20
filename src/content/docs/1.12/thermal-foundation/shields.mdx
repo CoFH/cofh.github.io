@@ -6,8 +6,29 @@ import PageImage from '@/components/docs/PageImage.astro';
 import RecipeTable from '@/components/docs/recipe/RecipeTable.astro';
 import tePulverizer from '@/mods/1.12/thermal-expansion/recipes/pulverizer.ts';
 import teSmelter from '@/mods/1.12/thermal-expansion/recipes/smelter.ts';
+import tfItemGroups from '@/mods/1.12/thermal-foundation/item-groups.ts';
 import tf from '@/mods/1.12/thermal-foundation/items.ts';
 import tfCrafting from '@/mods/1.12/thermal-foundation/recipes/crafting.ts';
+
+export const subject = [
+  tf.stoneShield,
+  tf.ironShield,
+  tf.goldShield,
+  tf.diamondShield,
+  tf.copperShield,
+  tf.tinShield,
+  tf.silverShield,
+  tf.leadShield,
+  tf.aluminumShield,
+  tf.nickelShield,
+  tf.platinumShield,
+  tf.steelShield,
+  tf.electrumShield,
+  tf.invarShield,
+  tf.bronzeShield,
+  tf.constantanShield,
+  tfItemGroups.metalShield,
+];
 
 <PageImage
   images={[
